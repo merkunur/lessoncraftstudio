@@ -1,30 +1,30 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'crear páginas para colorear online',
+    primaryKeyword: 'generador de dibujos para colorear gratis',
     secondaryKeywords: [
-      'creador de páginas para colorear para vendedores',
-      'páginas para colorear personalizadas para venta en línea',
-      'generador de dibujos para colorear para niños',
-      'páginas para colorear imprimibles para la escuela',
+      'dibujos para colorear gratis sin registro',
+      'generador de páginas para colorear en línea gratis',
+      'crear dibujos para colorear gratis para imprimir',
+      'páginas para colorear gratis PDF escala de grises',
     ],
     lsiKeywords: [
-      'diseñador de páginas para colorear para venta en línea',
-      'páginas para colorear en escala de grises',
-      'herramienta de dibujo libre para colorear',
+      'lienzo libre para crear páginas de colorear imprimibles',
+      'dibujos para colorear con imágenes temáticas gratis',
+      'exportar dibujos para colorear en escala de grises PDF',
     ],
-    titleTag: 'Crear Páginas para Colorear — para vendedores',
-    metaDescription: 'Crea páginas para colorear personalizadas para venta en línea o el hogar. Lienzo libre, 3.100+ ilustraciones, 104 temas. Prueba gratis con marca de agua.',
+    titleTag: 'Dibujos para colorear gratis | LCS',
+    metaDescription: 'Cree dibujos para colorear gratis sin registro. Lienzo libre, 3.100+ ilustraciones, 104 temas, exportación en escala de grises.',
     },
 
   hero: {
-    title: 'Generador de Páginas para Colorear',
+    title: 'Cree dibujos para colorear gratis en línea',
     tagline: 'Lienzo libre para crear páginas para colorear con dibujo a mano alzada, exportación en escala de grises, asistentes del mercado y 104 colecciones temáticas de imágenes para páginas profesionales que se venden en todo el mundo sin traducción',
-    description: 'Diseña páginas profesionales para colorear en un lienzo completamente abierto donde colocas imágenes exactamente donde quieras — sin cuadrículas, sin plantillas, sin casillas, pura libertad creativa. Este enfoque de lienzo libre es el diferenciador principal: cada página para colorear que creas es única e imposible de replicar con herramientas basadas en plantillas. Explora 104 colecciones temáticas de imágenes con más de 3.100 ilustraciones a color, haz clic para añadir imágenes, y luego organiza, redimensiona, rota y superpone elementos en cualquier parte del lienzo. La herramienta de dibujo a mano alzada te permite dibujar ilustraciones originales directamente junto a las imágenes de la biblioteca con color y tamaño de pincel ajustable (1–50 píxeles), creando páginas híbridas para colorear que combinan arte curado con tus propios dibujos. Los asistentes del mercado con un solo clic añaden un campo de nombre ("Nombre: ____") y líneas de práctica de escritura (sólida, punteada, sólida) — transformando páginas para colorear en hojas de actividades listas para venta en línea que se venden en Gumroad. Al terminar, activa la exportación en escala de grises para convertir tu composición a color en páginas para colorear con ahorro de tinta, perfectas para interiores de KDP e impresión en volumen. Añade bordes decorativos temáticos de la biblioteca de bordes, texto personalizado con efectos de contorno usando fuentes como Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial y Verdana, y sube tus propias imágenes PNG, JPG o GIF. Esta es una aplicación puramente visual — el resultado no contiene texto, haciendo las páginas para colorear universalmente vendibles sin traducción. No existe clave de respuestas porque colorear es una actividad creativa sin respuesta correcta. Exporta PDF y JPEG listos para imprimir a 300 DPI en tamaño Carta, A4, Cuadrado (1200×1200) o dimensiones personalizadas. La prueba gratuita incluye todas las funciones con una marca de agua en las descargas. Compra una licencia para eliminar la marca de agua y vender con uso comercial.',
+    description: 'Diseña páginas profesionales para colorear en un lienzo completamente abierto donde colocas imágenes exactamente donde quieras — sin cuadrículas, sin plantillas, sin casillas, pura libertad creativa. Este enfoque de lienzo libre es el diferenciador principal: cada página para colorear que creas es única e imposible de replicar con herramientas basadas en plantillas. Explora 104 colecciones temáticas de imágenes con más de 3.100 ilustraciones a color, haz clic para añadir imágenes, y luego organiza, redimensiona, rota y superpone elementos en cualquier parte del lienzo. La herramienta de dibujo a mano alzada te permite dibujar ilustraciones originales directamente junto a las imágenes de la biblioteca con color y tamaño de pincel ajustable (1–50 píxeles), creando páginas híbridas para colorear que combinan arte curado con tus propios dibujos. Los asistentes del mercado con un solo clic añaden un campo de nombre ("Nombre: ____") y líneas de práctica de escritura (sólida, punteada, sólida) — transformando páginas para colorear en hojas de actividades listas para venta en línea que se venden en Hotmart. Al terminar, activa la exportación en escala de grises para convertir tu composición a color en páginas para colorear con ahorro de tinta, perfectas para interiores de KDP e impresión en volumen. Añade bordes decorativos temáticos de la biblioteca de bordes, texto personalizado con efectos de contorno usando fuentes como Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial y Verdana, y sube tus propias imágenes PNG, JPG o GIF. Esta es una aplicación puramente visual — el resultado no contiene texto, haciendo las páginas para colorear universalmente vendibles sin traducción. No existe clave de respuestas porque colorear es una actividad creativa sin respuesta correcta. Exporta PDF y JPEG listos para imprimir a 300 DPI en tamaño Carta, A4, Cuadrado (1200×1200) o dimensiones personalizadas. La prueba gratuita incluye todas las funciones con una marca de agua en las descargas. Compra una licencia para eliminar la marca de agua y vender con uso comercial.',
   },
 
   tutorial: {
-    title: 'Cómo Crear Páginas para Colorear Personalizadas en 8 Pasos',
+    title: 'Cómo crear dibujos para colorear gratis en 8 pasos',
     steps: [
       {
         title: 'Abre el Generador de Páginas para Colorear',
@@ -32,7 +32,7 @@ const content: ToolContent = {  seo: {
       },
       {
         title: 'Configura el Diseño de Página y el Borde',
-        description: 'En la sección Configuración de Página, selecciona el tamaño: Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal, Cuadrado (1200×1200) o introduce un tamaño personalizado. Elige un color de fondo — blanco es el predeterminado para páginas limpias para colorear. Selecciona un borde decorativo temático de la biblioteca de bordes con opacidad ajustable para enmarcar tu página con un aspecto profesional y pulido antes de añadir cualquier contenido.',
+        description: 'Cree páginas para colorear profesionales gratis con este generador de lienzo libre en línea. Coloque imágenes donde quiera sin plantillas ni restricciones. Explore 104 colecciones temáticas con más de 3.100 ilustraciones, dibuje a mano alzada y añada asistentes de mercado con un clic. Active la exportación en escala de grises para páginas con ahorro de tinta. Exporte en JPEG y PDF a 300 DPI en tamaño Carta, A4 o personalizado. La prueba gratis incluye todas las funciones con marca de agua en las descargas. Sin registro, sin instalación. ¿Quiere vender? Pase a la licencia comercial para eliminar la marca de agua y obtener uso comercial completo.',
       },
       {
         title: 'Explora la Biblioteca de Imágenes y Añade Imágenes',
@@ -52,7 +52,7 @@ const content: ToolContent = {  seo: {
       },
       {
         title: 'Activa Escala de Grises y Exporta',
-        description: 'Abre el panel de Descarga y activa la opción de escala de grises para convertir tu composición a color en páginas para colorear con ahorro de tinta — las imágenes de la biblioteca son a color durante el diseño, pero la exportación en escala de grises las convierte para una salida lista para imprimir. Descarga como JPEG de alta resolución o PDF listo para imprimir a 300 DPI. Los archivos están listos para producción en listados de Etsy, interiores de Amazon KDP y archivos de productos de Gumroad sin necesidad de posprocesamiento.',
+        description: 'Abre el panel de Descarga y activa la opción de escala de grises para convertir tu composición a color en páginas para colorear con ahorro de tinta — las imágenes de la biblioteca son a color durante el diseño, pero la exportación en escala de grises las convierte para una salida lista para imprimir. Descarga como JPEG de alta resolución o PDF listo para imprimir a 300 DPI. Los archivos están listos para producción en listados de Etsy, interiores de Amazon KDP y archivos de productos de Hotmart sin necesidad de posprocesamiento.',
       },
       {
         title: 'Crea en Lote con Variaciones de Temas',
@@ -72,7 +72,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Hojas de Actividades para Colorear en línea',
-      description: 'Usa los asistentes del mercado con un solo clic para crear páginas para colorear con campos de nombre y líneas de práctica de escritura integrados. El campo de nombre añade "Nombre: ____" en la parte superior para identificación del usuario. Las líneas de escritura añaden líneas de práctica sólida-punteada-sólida en la parte inferior. Estas dos adiciones transforman páginas para colorear estándar en actividades estructuradas para venta en línea que los compradores de Gumroad buscan específicamente. Crea sets temáticos alineados con temas de productoses — animales de granja para ciencias, profesiones para estudios sociales, temas estacionales para actividades de festividades — cada paquete con asistentes del mercado preintegrados.',
+      description: 'Usa los asistentes del mercado con un solo clic para crear páginas para colorear con campos de nombre y líneas de práctica de escritura integrados. El campo de nombre añade "Nombre: ____" en la parte superior para identificación del usuario. Las líneas de escritura añaden líneas de práctica sólida-punteada-sólida en la parte inferior. Estas dos adiciones transforman páginas para colorear estándar en actividades estructuradas para venta en línea que los compradores de Hotmart buscan específicamente. Crea sets temáticos alineados con temas de productoses — animales de granja para ciencias, profesiones para estudios sociales, temas estacionales para actividades de festividades — cada paquete con asistentes del mercado preintegrados.',
     },
     {
       title: 'Páginas Híbridas de Ilustración para Colorear',
@@ -100,9 +100,9 @@ const content: ToolContent = {  seo: {
       platform: 'Amazon KDP',
     },
     {
-      title: 'Paquetes de Actividades para Colorear en Gumroad',
-      description: 'Sube paquetes de páginas para colorear a Gumroad con los asistentes del mercado como punto de venta principal. Cada página incluye un campo de nombre y líneas de práctica de escritura — funciones que los vendedores buscan específicamente. Organiza por tema de productos: animales de granja para ciencias de la vida, profesiones para estudios sociales, clima y estaciones para ciencias de la tierra, formas y patrones para integración matemática. El formato listo para vender permite precios más altos que las páginas genéricas para colorear porque los vendedores pagan un sobreprecio por recursos de imprimir-y-usar que incluyen identificación del usuario y práctica de escritura.',
-      platform: 'Gumroad',
+      title: 'Paquetes de Actividades para Colorear en Hotmart',
+      description: 'Sube paquetes de páginas para colorear a Hotmart con los asistentes del mercado como punto de venta principal. Cada página incluye un campo de nombre y líneas de práctica de escritura — funciones que los vendedores buscan específicamente. Organiza por tema de productos: animales de granja para ciencias de la vida, profesiones para estudios sociales, clima y estaciones para ciencias de la tierra, formas y patrones para integración matemática. El formato listo para vender permite precios más altos que las páginas genéricas para colorear porque los vendedores pagan un sobreprecio por recursos de imprimir-y-usar que incluyen identificación del usuario y práctica de escritura.',
+      platform: 'Hotmart',
     },
     {
       title: 'Embudo de Tráfico con Páginas para Colorear en Pinterest',
@@ -110,13 +110,13 @@ const content: ToolContent = {  seo: {
       platform: 'Pinterest',
     },
     {
-      title: 'Kit Completo para Colorear en Gumroad',
-      description: 'Agrupa páginas para colorear con ilustraciones de dibujo a mano alzada, hojas temáticas de actividades para venta en línea y colecciones estacionales para un kit integral para colorear en Gumroad. Incluye más de 200 páginas para colorear abarcando todos los temas principales con asistentes del mercado preintegrados en cada página. El formato de kit justifica precios premium porque los compradores obtienen una biblioteca completa en lugar de paquetes individuales. Añade nuevas colecciones estacionales trimestralmente para impulsar compras recurrentes de clientes existentes que quieren las últimas novedades.',
-      platform: 'Gumroad',
+      title: 'Kit Completo para Colorear en Hotmart',
+      description: 'Agrupa páginas para colorear con ilustraciones de dibujo a mano alzada, hojas temáticas de actividades para venta en línea y colecciones estacionales para un kit integral para colorear en Hotmart. Incluye más de 200 páginas para colorear abarcando todos los temas principales con asistentes del mercado preintegrados en cada página. El formato de kit justifica precios premium porque los compradores obtienen una biblioteca completa en lugar de paquetes individuales. Añade nuevas colecciones estacionales trimestralmente para impulsar compras recurrentes de clientes existentes que quieren las últimas novedades.',
+      platform: 'Hotmart',
     },
     {
       title: 'Línea de Productos Visuales Globales',
-      description: 'El Generador de Páginas para Colorear produce resultados puramente visuales sin texto en las fichas — la misma página para colorear funciona en todos los idiomas sin modificación. Una sola sesión de creación produce un catálogo universalmente vendible. Vende los mismos archivos de producto en tiendas Etsy dirigidas a diferentes países, publica interiores idénticos de KDP en todos los mercados internacionales de Amazon, y lista en Gumroad para vendedores internacionales. Sin listados separados, sin costos de traducción, sin mantenimiento por idioma. Cada página para colorear que creas sirve instantáneamente a un mercado global.',
+      description: 'El Generador de Páginas para Colorear produce resultados puramente visuales sin texto en las fichas — la misma página para colorear funciona en todos los idiomas sin modificación. Una sola sesión de creación produce un catálogo universalmente vendible. Vende los mismos archivos de producto en tiendas Etsy dirigidas a diferentes países, publica interiores idénticos de KDP en todos los mercados internacionales de Amazon, y lista en Hotmart para vendedores internacionales. Sin listados separados, sin costos de traducción, sin mantenimiento por idioma. Cada página para colorear que creas sirve instantáneamente a un mercado global.',
       platform: 'Etsy / Amazon KDP',
     },
   ],
@@ -132,7 +132,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Añade Asistentes del mercado para Cobrar Precios Más Altos',
-      description: 'Las páginas para colorear con campos de nombre y líneas de escritura se venden por más que las páginas genéricas porque cumplen una función práctica en línea. Los vendedores en Gumroad buscan específicamente actividades para colorear "listas para venta en línea" con áreas de identificación del usuario. Añadir estos asistentes con un solo clic toma segundos pero transforma tu producto de una simple página para colorear en una actividad de aprendizaje estructurada que justifica precios premium.',
+      description: 'Las páginas para colorear con campos de nombre y líneas de escritura se venden por más que las páginas genéricas porque cumplen una función práctica en línea. Los vendedores en Hotmart buscan específicamente actividades para colorear "listas para venta en línea" con áreas de identificación del usuario. Añadir estos asistentes con un solo clic toma segundos pero transforma tu producto de una simple página para colorear en una actividad de aprendizaje estructurada que justifica precios premium.',
     },
     {
       title: 'Combina Dibujo a Mano Alzada con Imágenes de la Biblioteca',
@@ -144,7 +144,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Aprovecha la Salida Visual Sin Texto para Ventas Globales',
-      description: 'Las páginas para colorear no contienen texto en el resultado — son puramente visuales. El mismo archivo de producto funciona en todos los países sin traducción. Crea un set de páginas para colorear y vende mundialmente en múltiples tiendas de Etsy, todos los mercados de KDP y Gumroad internacional. Esto elimina costos de traducción y mantenimiento por idioma, maximizando los ingresos de cada sesión de diseño.',
+      description: 'Las páginas para colorear no contienen texto en el resultado — son puramente visuales. El mismo archivo de producto funciona en todos los países sin traducción. Crea un set de páginas para colorear y vende mundialmente en múltiples tiendas de Etsy, todos los mercados de KDP y Hotmart internacional. Esto elimina costos de traducción y mantenimiento por idioma, maximizando los ingresos de cada sesión de diseño.',
     },
     {
       title: 'Usa Bordes Decorativos para un Aspecto Profesional Pulido',
@@ -167,7 +167,7 @@ const content: ToolContent = {  seo: {
     },
     {
       question: '¿Qué son los asistentes del mercado?',
-      answer: 'Dos botones con un solo clic añaden elementos listos para vender. El botón de Campo de Nombre coloca un bloque de texto formateado "Nombre: ____" en la parte superior de la página para identificación del usuario. El botón de Líneas de Escritura añade un grupo de tres líneas equidistantes (sólida, punteada, sólida) cerca de la parte inferior para práctica de escritura. Estos asistentes transforman páginas para colorear en actividades estructuradas para venta en línea sin formato manual de texto — un punto de venta clave para recursos de Gumroad.',
+      answer: 'Dos botones con un solo clic añaden elementos listos para vender. El botón de Campo de Nombre coloca un bloque de texto formateado "Nombre: ____" en la parte superior de la página para identificación del usuario. El botón de Líneas de Escritura añade un grupo de tres líneas equidistantes (sólida, punteada, sólida) cerca de la parte inferior para práctica de escritura. Estos asistentes transforman páginas para colorear en actividades estructuradas para venta en línea sin formato manual de texto — un punto de venta clave para recursos de Hotmart.',
     },
     {
       question: '¿Cómo funciona la herramienta de dibujo a mano alzada?',
@@ -187,7 +187,7 @@ const content: ToolContent = {  seo: {
     },
     {
       question: '¿Puedo vender las páginas para colorear creadas con esta herramienta de forma comercial?',
-      answer: 'Sí. Con una licencia comercial, tienes derechos completos para vender páginas para colorear como descargas digitales en Etsy, libros para colorear impresos en Amazon KDP, recursos para venta en línea en Gumroad o a través de cualquier otro canal de venta. El lienzo libre, el dibujo a mano alzada, los asistentes del mercado y las 104 colecciones temáticas de imágenes te dan todo lo necesario para crear productos profesionales que compiten en categorías de páginas para colorear en todos los principales mercados.',
+      answer: 'Sí. Con una licencia comercial, tienes derechos completos para vender páginas para colorear como descargas digitales en Etsy, libros para colorear impresos en Amazon KDP, recursos para venta en línea en Hotmart o a través de cualquier otro canal de venta. El lienzo libre, el dibujo a mano alzada, los asistentes del mercado y las 104 colecciones temáticas de imágenes te dan todo lo necesario para crear productos profesionales que compiten en categorías de páginas para colorear en todos los principales mercados.',
     },
     {
       question: '¿Puedo subir mis propias imágenes?',

@@ -1,30 +1,30 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'crear crucigramas con imágenes para venta en línea',
+    primaryKeyword: 'generador de crucigramas gratis con imagenes',
     secondaryKeywords: [
-      'creador de crucigramas para vendedores',
-      'crucigramas con imágenes para niños',
-      'crucigramas imprimibles para la escuela',
-      'crucigramas de vocabulario para usuarios',
+      'crucigramas gratis sin registro',
+      'generador de crucigramas gratis en linea',
+      'crear crucigramas gratis para imprimir',
+      'crucigramas con imagenes gratis sin tarjeta',
     ],
     lsiKeywords: [
-      'crucigrama con pistas de imágenes para vocabulario',
-      'generador de crucigramas localizado para venta en línea',
-      'clave de respuestas automática crucigrama',
+      'juegos de palabras cruzadas imprimibles',
+      'crucigramas tematicos en espanol para ninos',
+      'actividades de vocabulario con crucigramas',
     ],
-    titleTag: 'Crear Crucigramas — Vocabulario para venta en línea',
-    metaDescription: 'Crea crucigramas con pistas de imágenes para venta en línea. Cuadrícula 15x15, cuatro métodos de entrada, clave de respuestas automática. Prueba con marca de agua.',
+    titleTag: 'Generador de crucigramas gratis | LCS',
+    metaDescription: 'Cree crucigramas gratis con imagenes tematicas como pistas visuales. Sin registro, sin tarjeta. Descarga con marca de agua. Licencia comercial disponible.',
     },
 
   hero: {
-    title: 'Creador de Crucigramas con Imágenes',
-    tagline: 'Generador de crucigramas ilustrados con pistas de imágenes en una cuadrícula fija de 15×15, cuatro métodos de entrada (generación rápida por tema, edición manual de nombres de imagen, lista personalizada de palabras con pistas y subida de imágenes personalizadas), clave de respuestas autogenerada con cuadrícula completada mediante sistema de doble lienzo, palabras de puzzle sensibles al idioma en 11 idiomas a través del Vocabulario de Imágenes, y encabezado localizado azul (#5B9BD5) con título en Fredoka y descripción en Quicksand en 104 colecciones temáticas de imágenes',
-    description: 'Crea crucigramas profesionales donde imágenes coloridas sustituyen las pistas de texto tradicionales. Ocho imágenes generan ocho palabras en una cuadrícula fija de 15×15 — el algoritmo extrae las palabras de los nombres de las imágenes, elimina espacios, convierte a mayúsculas, baraja, ordena por longitud (la más larga primero) y coloca las palabras con cruce óptimo en letras compartidas. Las posiciones de pista numeradas marcan el inicio de cada palabra y las pistas con imágenes aparecen junto a la cuadrícula con números coincidentes. Elige entre cuatro métodos de entrada que cubren distintas necesidades de creación de crucigramas. La Generación Rápida por Tema selecciona automáticamente 8 imágenes aleatorias de cualquiera de las 104 colecciones temáticas y genera al instante — el camino más rápido a un puzzle terminado. La Edición Manual de Nombres de Imagen permite hacer clic en imágenes individuales y renombrarlas antes de generar, dando control preciso sobre las palabras que aparecen en la cuadrícula. La Lista Personalizada de Palabras con Pistas cambia a crucigramas tradicionales con pistas de texto usando un formato PALABRA: pista para puzzles de vocabulario específico sin imágenes. Subir Imágenes Personalizadas permite añadir tus propios archivos JPEG, PNG, GIF o WebP junto al contenido de la biblioteca. El Creador de Crucigramas con Imágenes es sensible al idioma: las palabras del puzzle provienen de nombres de imagen localizados a través del sistema de Vocabulario de Imágenes. Cambiar el idioma del contenido cambia las palabras reales del crucigrama — una imagen de gato genera \"CAT\" en inglés pero \"KATZE\" en alemán, \"CHAT\" en francés y \"GATTO\" en italiano, produciendo crucigramas completamente diferentes a partir de las mismas imágenes. El nivel Comercial incluye contenido en inglés; el Acceso Completo desbloquea los 11 idiomas para palabras de puzzle localizadas. El sistema de doble lienzo genera tanto una pestaña de puzzle como una pestaña de clave de respuestas — la clave de respuestas muestra la cuadrícula completada con todas las respuestas correctas visibles en las celdas. Cada puzzle incluye un encabezado localizado autogenerado con fondo azul (#5B9BD5), pastilla blanca, título en Fredoka con tamaño dinámico (48 px para títulos cortos hasta 28 px para traducciones más largas) y descripción en Quicksand. El modo vertical muestra un encabezado de ancho completo (220 px de altura); el modo horizontal usa un diseño centrado compacto (145 px de altura). Explora 104 colecciones temáticas con más de 3.100 ilustraciones o sube imágenes personalizadas. Aplica temas de fondo y temas de borde con controles de opacidad independientes. Exporta PDF y JPEG listos para imprimir a 300 DPI (multiplicador 6×) en Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal o dimensiones personalizadas. Activa escala de grises para impresión que ahorra tinta. La prueba gratuita incluye todas las funciones con una marca de agua en las descargas. Compra una licencia para eliminar la marca de agua y vender comercialmente.',
+    title: 'Cree crucigramas gratis con imagenes como pistas',
+    tagline: 'Crucigramas ilustrados listos en segundos — gratis y sin registro.',
+    description: 'Cree crucigramas gratis con imagenes tematicas que sirven como pistas visuales. Este generador produce crucigramas donde los ninos identifican la imagen y escriben la palabra correspondiente. Seleccione el tema visual de mas de 100 categorias, el nivel de dificultad y el idioma. Cada ficha incluye solucionario automatico y se exporta en PDF listo para imprimir. No necesita registro ni tarjeta de credito — empiece a crear de inmediato. Las descargas incluyen marca de agua transparente. Ideal para padres, educadores y creadores de material didactico. ¿Quiere vender crucigramas? Pase a la licencia comercial para eliminar la marca de agua y obtener archivos a 300 DPI.',
   },
 
   tutorial: {
-    title: 'Cómo Crear Crucigramas con Imágenes en 8 Pasos',
+    title: 'Como generar crucigramas gratis en 3 pasos',
     steps: [
       {
         title: 'Abre el Creador de Crucigramas',
@@ -56,7 +56,7 @@ const content: ToolContent = {  seo: {
       },
       {
         title: 'Descarga los Cuatro Archivos',
-        description: 'Activa escala de grises para versiones que ahorran tinta, ideales para impresión en volumen e interiores KDP. Descarga los cuatro archivos desde una sola sesión: JPEG de ficha, JPEG de clave de respuestas, PDF de ficha y PDF de clave de respuestas — todos renderizados a 300 DPI (multiplicador 6×). Cada pestaña tiene su propio par de botones de descarga en el menú desplegable. Todas las exportaciones están listas para producción en listados de Etsy, interiores de Amazon KDP y archivos de recursos Gumroad sin necesidad de postprocesamiento. Haz clic en Generar de nuevo para producir un nuevo crucigrama con diferente selección aleatoria de imágenes y colocación de palabras, o cambia de tema e idioma para crear variedad rápidamente.',
+        description: 'Activa escala de grises para versiones que ahorran tinta, ideales para impresión en volumen e interiores KDP. Descarga los cuatro archivos desde una sola sesión: JPEG de ficha, JPEG de clave de respuestas, PDF de ficha y PDF de clave de respuestas — todos renderizados a 300 DPI (multiplicador 6×). Cada pestaña tiene su propio par de botones de descarga en el menú desplegable. Todas las exportaciones están listas para producción en listados de Etsy, interiores de Amazon KDP y archivos de recursos Hotmart sin necesidad de postprocesamiento. Haz clic en Generar de nuevo para producir un nuevo crucigrama con diferente selección aleatoria de imágenes y colocación de palabras, o cambia de tema e idioma para crear variedad rápidamente.',
       },
     ],
   },
@@ -100,24 +100,24 @@ const content: ToolContent = {  seo: {
       platform: 'Amazon KDP',
     },
     {
-      title: 'Paquetes de Actividades de Crucigramas de Vocabulario en Gumroad',
-      description: 'Sube paquetes de crucigramas de vocabulario a Gumroad usando tanto el modo de crucigramas con imágenes como el modo de lista de palabras personalizada. Los crucigramas con imágenes usan imágenes temáticas para el aprendizaje visual de vocabulario — los usuarios ven un animal y escriben su nombre en la cuadrícula. Los crucigramas con lista de palabras personalizada usan términos y definiciones del vendedor para actividades de repaso alineadas con el catálogo de productos. Incluye claves de respuestas autogeneradas con cada puzzle como punto de venta clave. Los vendedores que buscan actividades de crucigramas valoran puzzles listos para imprimir con soluciones incluidas. Crea conjuntos por nivel para vocabulario de ciencias, estudios sociales, lengua y matemáticas.',
-      platform: 'Gumroad',
+      title: 'Paquetes de Actividades de Crucigramas de Vocabulario en Hotmart',
+      description: 'Sube paquetes de crucigramas de vocabulario a Hotmart usando tanto el modo de crucigramas con imágenes como el modo de lista de palabras personalizada. Los crucigramas con imágenes usan imágenes temáticas para el aprendizaje visual de vocabulario — los usuarios ven un animal y escriben su nombre en la cuadrícula. Los crucigramas con lista de palabras personalizada usan términos y definiciones del vendedor para actividades de repaso alineadas con el catálogo de productos. Incluye claves de respuestas autogeneradas con cada puzzle como punto de venta clave. Los vendedores que buscan actividades de crucigramas valoran puzzles listos para imprimir con soluciones incluidas. Crea conjuntos por nivel para vocabulario de ciencias, estudios sociales, lengua y matemáticas.',
+      platform: 'Hotmart',
     },
     {
       title: 'Negocio de Crucigramas Multilingües para Mercados Internacionales',
-      description: 'La generación de palabras sensible al idioma crea crucigramas completamente diferentes a partir de imágenes idénticas al cambiar de idioma. Un solo conjunto de 8 imágenes de animales produce cuadrículas de crucigrama únicas en inglés, alemán, francés, español y 7 idiomas más — cada una con palabras localizadas y encabezados localizados. Crea paquetes de crucigramas específicos por idioma para vendedores de ESL/EFL, programas de educación bilingüe y familias de trabajo desde casa internacionales. Vende en tiendas de Etsy dirigidas a países específicos, lista en Gumroad para vendedores internacionales o crea mega-paquetes multilingües a precios premium. Un conjunto de imágenes genera 11 productos vendibles.',
-      platform: 'Etsy / Gumroad',
+      description: 'La generación de palabras sensible al idioma crea crucigramas completamente diferentes a partir de imágenes idénticas al cambiar de idioma. Un solo conjunto de 8 imágenes de animales produce cuadrículas de crucigrama únicas en inglés, alemán, francés, español y 7 idiomas más — cada una con palabras localizadas y encabezados localizados. Crea paquetes de crucigramas específicos por idioma para vendedores de ESL/EFL, programas de educación bilingüe y familias de trabajo desde casa internacionales. Vende en tiendas de Etsy dirigidas a países específicos, lista en Hotmart para vendedores internacionales o crea mega-paquetes multilingües a precios premium. Un conjunto de imágenes genera 11 productos vendibles.',
+      platform: 'Etsy / Hotmart',
     },
     {
       title: 'Embudo de Tráfico de Crucigramas con Imágenes en Pinterest',
-      description: 'Los crucigramas con imágenes crean pines visualmente llamativos en Pinterest — una cuadrícula de crucigrama colorida rodeada de pistas con imágenes crea un formato de puzzle inmediatamente atractivo que padres y vendedores reconocen como educativo. Publica pines de muestra mostrando el diseño de pistas con imágenes con posiciones numeradas conectando las imágenes a ubicaciones en la cuadrícula. Crea series de pines separadas para \"crucigramas con imágenes para niños\", \"actividades de crucigramas imprimibles\" y \"fichas de crucigramas de vocabulario\". Incluye imágenes de vista previa de la clave de respuestas mostrando la cuadrícula completada con todas las letras correctas. Enlaza cada pin a tus listados de Etsy o Gumroad para conversión directa.',
+      description: 'Los crucigramas con imágenes crean pines visualmente llamativos en Pinterest — una cuadrícula de crucigrama colorida rodeada de pistas con imágenes crea un formato de puzzle inmediatamente atractivo que padres y vendedores reconocen como educativo. Publica pines de muestra mostrando el diseño de pistas con imágenes con posiciones numeradas conectando las imágenes a ubicaciones en la cuadrícula. Crea series de pines separadas para \"crucigramas con imágenes para niños\", \"actividades de crucigramas imprimibles\" y \"fichas de crucigramas de vocabulario\". Incluye imágenes de vista previa de la clave de respuestas mostrando la cuadrícula completada con todas las letras correctas. Enlaza cada pin a tus listados de Etsy o Hotmart para conversión directa.',
       platform: 'Pinterest',
     },
     {
-      title: 'Kit Completo de Crucigramas con Imágenes en Gumroad',
-      description: 'Reúne crucigramas con imágenes de los 104 temas y múltiples idiomas en un kit completo en Gumroad. Incluye más de 300 puzzles de crucigramas abarcando crucigramas temáticos con imágenes, crucigramas de vocabulario personalizado y versiones multilingües — cada uno con su clave de respuestas autogenerada, duplicando tu recuento de archivos a más de 600 archivos en total. Los cuatro métodos de entrada y la generación sensible al idioma producen más variedad que cualquier competidor que ofrezca plantillas simples de crucigramas. El formato de kit justifica precios premium porque los compradores obtienen una biblioteca completa de puzzles de crucigramas que cubre cada tema y múltiples idiomas.',
-      platform: 'Gumroad',
+      title: 'Kit Completo de Crucigramas con Imágenes en Hotmart',
+      description: 'Reúne crucigramas con imágenes de los 104 temas y múltiples idiomas en un kit completo en Hotmart. Incluye más de 300 puzzles de crucigramas abarcando crucigramas temáticos con imágenes, crucigramas de vocabulario personalizado y versiones multilingües — cada uno con su clave de respuestas autogenerada, duplicando tu recuento de archivos a más de 600 archivos en total. Los cuatro métodos de entrada y la generación sensible al idioma producen más variedad que cualquier competidor que ofrezca plantillas simples de crucigramas. El formato de kit justifica precios premium porque los compradores obtienen una biblioteca completa de puzzles de crucigramas que cubre cada tema y múltiples idiomas.',
+      platform: 'Hotmart',
     },
   ],
 
@@ -136,7 +136,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Usa el Modo de Lista de Palabras para Productos Alineados con el catálogo de productos',
-      description: 'Cambia al modo Lista Personalizada de Palabras con Pistas para crucigramas específicos por materia que los vendedores buscan en Gumroad. Introduce términos de ciencias con definiciones, vocabulario de estudios sociales con pistas de contexto o palabras de ortografía con oraciones de uso en formato PALABRA: pista. Los crucigramas con pistas de texto apuntan a una audiencia de compradores diferente a los crucigramas con imágenes — vendedores que necesitan crucigramas que coincidan exactamente con su catálogo de productos. Crea conjuntos de vocabulario por nivel y por materia, e incluye en tus listados los estándares de productoses específicos cubiertos.',
+      description: 'Cambia al modo Lista Personalizada de Palabras con Pistas para crucigramas específicos por materia que los vendedores buscan en Hotmart. Introduce términos de ciencias con definiciones, vocabulario de estudios sociales con pistas de contexto o palabras de ortografía con oraciones de uso en formato PALABRA: pista. Los crucigramas con pistas de texto apuntan a una audiencia de compradores diferente a los crucigramas con imágenes — vendedores que necesitan crucigramas que coincidan exactamente con su catálogo de productos. Crea conjuntos de vocabulario por nivel y por materia, e incluye en tus listados los estándares de productoses específicos cubiertos.',
     },
     {
       title: 'Incluye Claves de Respuestas en las Vistas Previas de tus Listados',
@@ -191,7 +191,7 @@ const content: ToolContent = {  seo: {
     },
     {
       question: '¿Puedo vender crucigramas hechos con esta herramienta comercialmente?',
-      answer: 'Sí. Con una licencia comercial, tienes derechos completos para vender crucigramas como descargas digitales en Etsy, cuadernos de crucigramas impresos en Amazon KDP, recursos para venta en línea en Gumroad o a través de cualquier otro canal de venta. Los cuatro métodos de entrada, las claves de respuestas autogeneradas con cuadrículas completadas, la generación de palabras sensible al idioma en 11 idiomas, el modo de lista de palabras personalizada y las 104 colecciones temáticas de imágenes te dan todo lo necesario para crear productos de crucigramas profesionales que compitan en categorías de puzzles de palabras en todos los principales marketplaces.',
+      answer: 'Sí. Con una licencia comercial, tienes derechos completos para vender crucigramas como descargas digitales en Etsy, cuadernos de crucigramas impresos en Amazon KDP, recursos para venta en línea en Hotmart o a través de cualquier otro canal de venta. Los cuatro métodos de entrada, las claves de respuestas autogeneradas con cuadrículas completadas, la generación de palabras sensible al idioma en 11 idiomas, el modo de lista de palabras personalizada y las 104 colecciones temáticas de imágenes te dan todo lo necesario para crear productos de crucigramas profesionales que compitan en categorías de puzzles de palabras en todos los principales marketplaces.',
     },
     {
       question: '¿Cuál es la política de reembolso?',

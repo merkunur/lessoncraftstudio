@@ -2,32 +2,32 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'generador fichas de asociación',
+    primaryKeyword: 'fichas de asociación para crear y vender en Etsy',
     secondaryKeywords: [
-      'generador de fichas de asociación imprimibles para vendedores Etsy',
-      'creador de fichas unir con líneas para editores Amazon KDP',
-      'generador de fichas de asociación con licencia comercial',
-      'vender fichas de relacionar imprimibles en Gumroad',
+      'generador de fichas de emparejar para Etsy',
+      'fichas de asociación con imágenes para Amazon KDP',
+      'crear fichas de match para vender online',
+      'fichas de emparejamiento licencia comercial',
     ],
     lsiKeywords: [
-      'productos digitales de fichas de asociación para emprendedores',
-      'generador de fichas de asociación uso comercial',
-      'actividades de asociación imprimibles para negocio en línea',
+      'fichas asociación visual vendedores Etsy KDP',
+      'ejercicios emparejar imprimibles preescolar',
+      'negocio fichas emparejamiento mercado hispano',
     ],
-    titleTag: 'Generador Fichas de Asociación | Crear y Vender',
+    titleTag: 'Fichas de asociación para vender en Etsy | LCS',
     metaDescription:
-      'Crea fichas de asociación para Etsy, KDP y Gumroad. 4 modos de asociación, clave de respuesta auto, 104 temas, pares configurables.',
+      'Cree fichas de asociación con imágenes para vender en Etsy y KDP. 104 temas, varios formatos, solucionario. Licencia comercial. Pruebe gratis.',
   },
 
   hero: {
-    title: 'Generador de Fichas de Asociación para Actividades de Unir con Líneas',
-    tagline: 'Cuatro modos de asociación en un solo generador — Letra Inicial, Imagen+Palabra, Imagen/Palabra Mixto y Palabra Personalizada — con claves de respuesta generadas automáticamente, número de pares configurable y encabezado localizado \"¡Asocia!\" en 104 colecciones de imágenes temáticas.',
+    title: 'Genere fichas de asociación para vender en Etsy, KDP y Hotmart',
+    tagline: 'Cree fichas de emparejar con imágenes temáticas — perfectas para preescolar e infantil.',
     description:
-      'Diseña fichas de asociación profesionales donde los usuarios conectan pares trazando líneas entre dos columnas. Elige entre cuatro modos de asociación distintos: Imagen ↔ Letra Inicial asocia las imágenes con su primera letra, Imagen+Palabra ↔ Imagen+Palabra empareja imágenes etiquetadas en ambos lados, Imagen/Palabra ↔ Imagen/Palabra Mixto mezcla imágenes y palabras por fila con selectores desplegables, e Imagen ↔ Palabra Personalizada te permite escribir tus propios términos de asociación. Configura 4, 5 o 6 pares por ficha y activa o desactiva los números de elemento y los puntos decorativos para un formato limpio. Cada ficha incluye un encabezado localizado \"¡Asocia!\" generado automáticamente, con título e instrucciones en los 11 idiomas soportados. El sistema de doble lienzo genera tanto una pestaña de ficha de trabajo como una pestaña de clave de respuesta — la clave de respuesta traza líneas de conexión entre las correspondencias correctas, sin ningún trabajo manual de tu parte. El Generador de Fichas de Asociación es sensible al idioma: los modos Letra Inicial e Imagen+Palabra usan los nombres localizados de las imágenes, por lo que cambiar de idioma modifica las palabras y primeras letras en la ficha. El Acceso Completo desbloquea los 104 temas con más de 3100 ilustraciones y los 11 idiomas de interfaz para contenido textual localizado. Añade temas de fondo y de borde con controles de opacidad independientes, incluye campos de nombre y fecha, y exporta PDF y JPEG listos para imprimir a 300 DPI en formato Carta, A4, Cuadrado o dimensiones personalizadas. Ya sea que vendas packs de actividades de asociación en Etsy, compiles cuadernos de alfabetización temprana para Amazon KDP o crees fichas para centros de asociación en Gumroad, este generador produce fichas listas para la producción en minutos — prueba gratis con todas las funciones, sin registro, sin tarjeta de crédito. Las descargas incluyen una marca de agua; compra una licencia para eliminarla.',
+      'Genere fichas de asociación para vender en Etsy, Amazon KDP o Hotmart. Las fichas de emparejar son un básico absoluto para preescolar e infantil — los padres y vendedores las buscan constantemente. Este generador crea fichas donde los niños conectan imágenes relacionadas, con más de 3.000 ilustraciones en 104 temas. Ofrezca fichas de asociación por tema (animales, alimentos, vehículos), por estación o por nivel de dificultad. Exporte PDFs a 300 DPI con solucionario automático y véndalos con la licencia comercial incluida. Las fichas de asociación funcionan en cualquier idioma porque son puramente visuales, multiplicando su mercado potencial. Pruebe gratis con marca de agua — sin registro.',
   },
 
   howItWorks: {
-    title: 'Cómo Crear Fichas de Asociación en 5 Pasos',
+    title: 'Cómo crear fichas de asociación en minutos',
     steps: [
       {
         title: 'Configura el Diseño de Página',
@@ -52,13 +52,13 @@ const content: AppContent = {
       {
         title: 'Genera la Clave de Respuesta y Descarga',
         description:
-          'Cambia a la pestaña Clave de Respuesta para ver la clave de respuesta generada automáticamente con líneas de conexión horizontales (#555, grosor de trazo 2) trazadas entre cada correspondencia correcta. Descarga ambas versiones usando los cuatro botones dedicados: Ficha JPEG, Clave de Respuesta JPEG, Ficha PDF y Clave de Respuesta PDF. Los archivos se nombran worksheet.jpeg, worksheet.pdf, answer_key.jpeg y answer_key.pdf a 300 DPI. Activa el modo escala de grises para versiones que ahorran tinta. Cada exportación está lista para la producción, ya sea para fichas en Etsy, interiores de Amazon KDP o recursos de Gumroad.',
+          'Cambia a la pestaña Clave de Respuesta para ver la clave de respuesta generada automáticamente con líneas de conexión horizontales (#555, grosor de trazo 2) trazadas entre cada correspondencia correcta. Descarga ambas versiones usando los cuatro botones dedicados: Ficha JPEG, Clave de Respuesta JPEG, Ficha PDF y Clave de Respuesta PDF. Los archivos se nombran worksheet.jpeg, worksheet.pdf, answer_key.jpeg y answer_key.pdf a 300 DPI. Activa el modo escala de grises para versiones que ahorran tinta. Cada exportación está lista para la producción, ya sea para fichas en Etsy, interiores de Amazon KDP o recursos de Hotmart.',
       },
     ],
   },
 
   keyFeatures: {
-    title: 'Funcionalidades Clave del Generador de Fichas de Asociación',
+    title: 'Por qué las fichas de emparejar son un básico para vendedores',
     features: [
       {
         title: 'Cuatro Modos de Asociación: Letra Inicial, Imagen+Palabra, Imagen/Palabra Mixto y Palabra Personalizada',
@@ -104,7 +104,7 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Cómo Vender Fichas de Asociación en Línea',
+    title: 'Vender fichas de asociación en múltiples plataformas',
     cases: [
       {
         title: 'Packs de Fichas de Asociación Temáticas en Etsy',
@@ -119,22 +119,22 @@ const content: AppContent = {
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Fichas para Centros de Asociación en Gumroad',
+        title: 'Fichas para Centros de Asociación en Hotmart',
         description:
-          'Crea fichas de asociación listas para usar en centros de clase con campos de nombre/fecha, números de elemento y claves de respuesta impresas. Los vendedores que buscan actividades de asociación en Gumroad valoran fichas que llegan listas para venta en línea — el campo de nombre asegura la responsabilidad del usuario, los números de elemento hacen eficiente la corrección durante las revisiones grupales, y la clave de respuesta generada automáticamente ahorra tiempo de preparación. Crea conjuntos alineados con el catálogo de productos: asociación de animales de granja, grupos alimenticios, vocabulario del clima y animales por hábitat. Cada conjunto incluye fichas de trabajo y claves de respuesta en formatos PDF y JPEG.',
-        platform: 'Gumroad (teacherspayteachers.com)',
+          'Crea fichas de asociación listas para usar en centros de clase con campos de nombre/fecha, números de elemento y claves de respuesta impresas. Los vendedores que buscan actividades de asociación en Hotmart valoran fichas que llegan listas para venta en línea — el campo de nombre asegura la responsabilidad del usuario, los números de elemento hacen eficiente la corrección durante las revisiones grupales, y la clave de respuesta generada automáticamente ahorra tiempo de preparación. Crea conjuntos alineados con el catálogo de productos: asociación de animales de granja, grupos alimenticios, vocabulario del clima y animales por hábitat. Cada conjunto incluye fichas de trabajo y claves de respuesta en formatos PDF y JPEG.',
+        platform: 'Hotmart (hotmart.com)',
       },
       {
         title: 'Fichas de Asociación de Vocabulario en Múltiples Idiomas',
         description:
           'Aprovecha los modos Letra Inicial e Imagen+Palabra sensibles al idioma para crear fichas de asociación en 11 idiomas. Las mismas imágenes producen contenido de asociación diferente cuando cambias de idioma — los nombres de las imágenes, las primeras letras y el texto del encabezado se actualizan automáticamente. Crea packs de vocabulario multilingüe donde cada versión en un idioma usa las mismas imágenes temáticas pero con palabras localizadas. Esto es particularmente valioso para vendedores de ELE, tiendas bilingües y familias de trabajo desde casa internacionales. Vende packs por idioma o mega-packs multilingües a precios premium.',
-        platform: 'Etsy / Gumroad (mercado multilingüe)',
+        platform: 'Etsy / Hotmart (mercado multilingüe)',
       },
       {
         title: 'Colecciones de Asociación Estacionales',
         description:
           'Las 104 colecciones de imágenes temáticas cubren cada ocasión estacional y festiva — Navidad, Halloween, Pascua, San Valentín, vuelta al cole, vacaciones de verano y más. Crea colecciones de fichas de asociación de edición limitada alineadas con los picos de compra. Lanza packs de asociación de Halloween en septiembre, colecciones de Navidad en octubre y packs de San Valentín en enero. Incluye los cuatro modos de asociación en cada conjunto estacional para máximo valor. Los productos estacionales se venden a precios más altos durante sus periodos de pico y crean razones naturales para compras recurrentes.',
-        platform: 'Etsy / Amazon KDP / Gumroad (estacional)',
+        platform: 'Etsy / Amazon KDP / Hotmart (estacional)',
       },
     ],
   },
@@ -193,7 +193,7 @@ const content: AppContent = {
     {
       question: '¿Puedo vender fichas de asociación creadas con esta herramienta en Etsy y Amazon KDP?',
       answer:
-        'Sí. Con una licencia comercial, tienes todos los derechos para vender tus fichas de asociación como descargas digitales en Etsy, como cuadernos impresos en Amazon KDP, como productos imprimibles en Gumroad o a través de cualquier otro canal de venta. Los cuatro modos de asociación, las claves de respuesta generadas automáticamente y las 104 colecciones de imágenes temáticas te dan las herramientas creativas para producir productos de actividades de asociación originales y vendibles.',
+        'Sí. Con una licencia comercial, tienes todos los derechos para vender tus fichas de asociación como descargas digitales en Etsy, como cuadernos impresos en Amazon KDP, como productos imprimibles en Hotmart o a través de cualquier otro canal de venta. Los cuatro modos de asociación, las claves de respuesta generadas automáticamente y las 104 colecciones de imágenes temáticas te dan las herramientas creativas para producir productos de actividades de asociación originales y vendibles.',
     },
     {
       question: '¿Cuál es la política de reembolso?',

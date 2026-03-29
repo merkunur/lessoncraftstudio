@@ -2,29 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'crear fichas de sumas',
+    primaryKeyword: 'crear fichas de sumas para vender',
     secondaryKeywords: [
-      'hacer fichas de sumas para niños',
-      'generador de fichas de sumas',
-      'fichas de sumas imprimibles para vender',
-      'fichas de ejercicios de adición personalizadas',
+      'cómo crear fichas de sumas imprimibles',
+      'guía paso a paso fichas de sumas',
+      'vender fichas de sumas en Etsy y KDP',
+      'fichas de sumas con licencia comercial Hotmart',
     ],
     lsiKeywords: [
-      'fichas de matemáticas con imágenes',
-      'adición visual para preescolar',
-      'fichas de matemáticas para infantil',
-      'vender fichas de matemáticas en Etsy',
-      'libros de actividades matemáticas Amazon KDP',
-      'herramienta de fichas con licencia comercial',
+      'generador de fichas de adición con imágenes',
+      'fichas de matemáticas para negocio de imprimibles',
+      'exportar PDF fichas de sumas profesionales',
     ],
-    titleTag: 'Crear fichas de sumas — Guía paso a paso',
-    metaDescription: 'Cómo crear fichas de sumas para niños. Guía paso a paso: elegir temas, ajustar la dificultad, generar claves de respuestas y exportar PDF para Etsy y KDP.',
+    titleTag: 'Crear fichas de sumas para vender | LCS',
+    metaDescription: 'Aprenda a crear fichas de sumas para vender en Etsy, KDP y Hotmart. Guía paso a paso con generador profesional y licencia comercial incluida.',
   },
 
   hero: {
-    title: 'Cómo crear fichas de sumas para niños',
-    tagline: 'Un tutorial paso a paso para crear fichas de sumas temáticas, listas para imprimir, que puedes vender en Etsy, Amazon KDP y Gumroad',
-    description: 'Las fichas de sumas son uno de los productos imprimibles más buscados en todos los principales marketplaces. Los padres las necesitan para practicar en casa. Los vendedores las necesitan para ejercicios diarios y deberes. Los centros de tutoría necesitan juegos nuevos cada semana. Esta guía te acompaña en todo el proceso de creación con el Generador de fichas de sumas — desde la elección del grupo de edad objetivo y el tema hasta la exportación de un PDF profesional, listo para imprimir, con clave de respuestas automática. Ya sea que estés creando tu primer producto imprimible o ampliando un catálogo existente de fichas de matemáticas, tendrás un producto terminado listo para publicar al final de este tutorial.',
+    title: 'Cómo crear fichas de sumas profesionales para vender',
+    tagline: 'Un tutorial paso a paso para crear fichas de sumas temáticas, listas para imprimir, que puedes vender en Etsy, Amazon KDP y Hotmart',
+    description: 'Descubra cómo crear fichas de sumas listas para vender en los principales marketplaces de imprimibles educativos. Esta guía paso a paso le enseña a configurar niveles de dificultad, elegir temas visuales atractivos y exportar archivos PDF de calidad profesional con claves de respuestas automáticas. Aprenda a generar variaciones de producto que multipliquen su catálogo, fijar precios competitivos y optimizar sus anuncios en Etsy, Amazon KDP y Hotmart. Todas las funciones están disponibles en la prueba gratis con marca de agua para que evalúe la calidad antes de comprar su licencia comercial.',
   },
 
   introduction: 'La suma es la primera operación matemática que aprenden los niños, y sigue siendo relevante desde preescolar hasta segundo grado y más allá. Esa larga ventana de aprendizaje significa una demanda sostenida de fichas de sumas en múltiples grupos de edad — cada uno requiere diferentes niveles de dificultad, estilos visuales y formatos de ejercicios.\n\nLo que hace que las fichas de sumas sean particularmente fuertes como producto imprimible es su universalidad. Cada catálogo de productos en cada país enseña la suma. Cada padre que trabaja desde casa necesita material de práctica de sumas. Cada tutor que trabaja con usuarios con dificultades recurre a ejercicios de adición. No es un producto estacional ni una tendencia de nicho — es un recurso educativo fundamental con demanda durante todo el año.\n\nEl Generador de fichas de sumas se encarga de la complejidad técnica por ti. Genera problemas de adición basados en imágenes con ilustraciones temáticas, configura la dificultad ajustando los rangos de números, admite cuatro modos de ejercicio distintos y produce claves de respuestas automáticas. Tú te concentras en la estrategia de producto — a qué grupos de edad dirigirte, qué temas usar, cómo agrupar y fijar precios — mientras el generador se encarga del diseño, la precisión matemática y el formato de impresión.\n\nTodas las funciones mencionadas en esta guía están disponibles en la prueba gratis con marca de agua. Puedes crear fichas de ejemplo, probar cada configuración y evaluar la calidad del resultado antes de comprar una licencia comercial.',
@@ -52,7 +49,7 @@ const content: GuideContent = {
     },
     {
       heading: 'Revisa la clave de respuestas automática',
-      content: 'Cada ficha de sumas generada incluye una clave de respuestas automática. Haz clic en la pestaña Clave de respuestas junto a la pestaña Ficha para verla.\n\nLa clave de respuestas refleja el diseño de la ficha pero muestra las respuestas correctas completadas. Esto es esencial para dos segmentos de compradores:\n\nLos vendedores usan claves de respuestas para corregir rápidamente. Una ficha sin clave de respuestas es significativamente menos atractiva para vendedores del mercado que corrigen docenas de trabajos diariamente.\n\nLos padres usan claves de respuestas para verificar el trabajo de sus hijos. Los emprendedores valoran especialmente las claves de respuestas porque pueden estar ayudando a sus hijos con múltiples materias simultáneamente.\n\nLa clave de respuestas se genera automáticamente basándose en las operaciones matemáticas de la ficha. No necesitas calcular ni verificar las respuestas manualmente — el generador se encarga de esto con total precisión.\n\nAl crear paquetes de productos, incluye siempre las claves de respuestas. En Etsy y Gumroad, \"con clave de respuestas\" es un calificador que se busca frecuentemente. Incluirlo en el título y la descripción de tu producto mejora la visibilidad en búsquedas. Tu anuncio puede decir \"Incluye clave de respuestas para cada ficha\" como argumento de venta.',
+      content: 'Cada ficha de sumas generada incluye una clave de respuestas automática. Haz clic en la pestaña Clave de respuestas junto a la pestaña Ficha para verla.\n\nLa clave de respuestas refleja el diseño de la ficha pero muestra las respuestas correctas completadas. Esto es esencial para dos segmentos de compradores:\n\nLos vendedores usan claves de respuestas para corregir rápidamente. Una ficha sin clave de respuestas es significativamente menos atractiva para vendedores del mercado que corrigen docenas de trabajos diariamente.\n\nLos padres usan claves de respuestas para verificar el trabajo de sus hijos. Los emprendedores valoran especialmente las claves de respuestas porque pueden estar ayudando a sus hijos con múltiples materias simultáneamente.\n\nLa clave de respuestas se genera automáticamente basándose en las operaciones matemáticas de la ficha. No necesitas calcular ni verificar las respuestas manualmente — el generador se encarga de esto con total precisión.\n\nAl crear paquetes de productos, incluye siempre las claves de respuestas. En Etsy y Hotmart, \"con clave de respuestas\" es un calificador que se busca frecuentemente. Incluirlo en el título y la descripción de tu producto mejora la visibilidad en búsquedas. Tu anuncio puede decir \"Incluye clave de respuestas para cada ficha\" como argumento de venta.',
     },
     {
       heading: 'Exporta como PDF listo para imprimir y JPEG',
@@ -74,8 +71,8 @@ const content: GuideContent = {
       content: 'Amazon KDP atiende el mercado de libros de actividades y cuadernos de trabajo. En lugar de vender fichas individuales en PDF, compilas múltiples fichas en un formato de libro encuadernado.\n\nFormato del producto: Crea un cuaderno de trabajo con 50–100 fichas de sumas más claves de respuestas al final. Usa una progresión de dificultad consistente — empieza con problemas fáciles y aumenta la dificultad a lo largo del libro. KDP requiere un formato específico de PDF interior (tamaños de recorte como 8,5×11 pulgadas para cuadernos de trabajo).\n\nTítulo y subtítulo: KDP permite un título y un subtítulo. Ejemplo de título: \"Fichas de sumas para jardín de infantes.\" Ejemplo de subtítulo: \"100 páginas de práctica de matemáticas visuales con temas de animales y claves de respuestas para niños de 5–6 años.\"\n\nPalabras clave: KDP ofrece 7 espacios de palabras clave. Usa frases específicas: \"práctica de sumas infantil\", \"fichas de matemáticas visuales niños\", \"cuaderno de sumas imprimible\", \"libro de actividades matemáticas preescolar\", \"ejercicios de adición con imágenes\", \"fichas de conteo con dibujos\", \"cuaderno de matemáticas trabajo desde casa.\"\n\nDiseño de portada: Los libros KDP necesitan una portada profesional. La portada es tu herramienta de ventas principal en Amazon — invierte tiempo en hacerla clara, colorida y descriptiva del contenido. Muestra páginas de ejemplo de fichas en la portada para que los compradores sepan exactamente lo que obtienen.\n\nPrecios: Los cuadernos de trabajo KDP se venden típicamente a $5,99–$9,99 por 50–100 páginas. Amazon toma una parte significativa, así que fija precios en consecuencia. Las regalías varían según el marketplace y las especificaciones del libro.',
     },
     {
-      heading: 'Vender fichas de sumas en Gumroad',
-      content: 'Gumroad (Gumroad) atiende a vendedores del mercado que necesitan recursos alineados con el catálogo de productos. Las fichas de sumas funcionan bien en Gumroad cuando hacen referencia a estándares de aprendizaje específicos y niveles de grado.\n\nLas descripciones de productos en Gumroad deben incluir: nivel de grado, habilidades específicas practicadas (adición de un solo dígito, sumas hasta 10, sumando faltante), número de páginas, si incluyen claves de respuestas, y cualquier alineación con estándares educativos.\n\nArchivos de vista previa: Gumroad te permite subir un archivo de vista previa que los compradores pueden examinar antes de comprar. Incluye 2–3 páginas de ejemplo de tu conjunto de fichas como vista previa. Esto genera confianza en el comprador.\n\nAgrupación en Gumroad: Los vendedores compran muchos paquetes en Gumroad porque necesitan recursos para unidades completas o períodos de valor percibido. Un \"Paquete completo de sumas para primer grado\" con 50 fichas que cubren todos los niveles de dificultad y modos de ejercicio es un producto fuerte en Gumroad.\n\nPalabras clave específicas de Gumroad: La búsqueda de Gumroad funciona diferente a Etsy. Usa términos específicos de educación: \"centro de matemáticas\", \"trabajo matutino\", \"paquete de deberes\", \"evaluación\", \"paquetes escalonados por nivel.\" Estos términos coinciden con la forma en que los vendedores piensan y buscan recursos para venta en línea.\n\nOportunidades estacionales: La vuelta al cole (agosto–septiembre) es el mayor período de ventas en Gumroad. Ten tus paquetes de fichas de sumas publicados y optimizados antes de agosto.',
+      heading: 'Vender fichas de sumas en Hotmart',
+      content: 'Hotmart (Hotmart) atiende a vendedores del mercado que necesitan recursos alineados con el catálogo de productos. Las fichas de sumas funcionan bien en Hotmart cuando hacen referencia a estándares de aprendizaje específicos y niveles de grado.\n\nLas descripciones de productos en Hotmart deben incluir: nivel de grado, habilidades específicas practicadas (adición de un solo dígito, sumas hasta 10, sumando faltante), número de páginas, si incluyen claves de respuestas, y cualquier alineación con estándares educativos.\n\nArchivos de vista previa: Hotmart te permite subir un archivo de vista previa que los compradores pueden examinar antes de comprar. Incluye 2–3 páginas de ejemplo de tu conjunto de fichas como vista previa. Esto genera confianza en el comprador.\n\nAgrupación en Hotmart: Los vendedores compran muchos paquetes en Hotmart porque necesitan recursos para unidades completas o períodos de valor percibido. Un \"Paquete completo de sumas para primer grado\" con 50 fichas que cubren todos los niveles de dificultad y modos de ejercicio es un producto fuerte en Hotmart.\n\nPalabras clave específicas de Hotmart: La búsqueda de Hotmart funciona diferente a Etsy. Usa términos específicos de educación: \"centro de matemáticas\", \"trabajo matutino\", \"paquete de deberes\", \"evaluación\", \"paquetes escalonados por nivel.\" Estos términos coinciden con la forma en que los vendedores piensan y buscan recursos para venta en línea.\n\nOportunidades estacionales: La vuelta al cole (agosto–septiembre) es el mayor período de ventas en Hotmart. Ten tus paquetes de fichas de sumas publicados y optimizados antes de agosto.',
     },
   ],
 
@@ -124,7 +121,7 @@ const content: GuideContent = {
     },
     {
       question: '¿Puedo vender las fichas que creo en Etsy y Amazon KDP?',
-      answer: 'Sí. Una licencia comercial te da derechos completos para vender fichas generadas en cualquier plataforma, incluyendo Etsy, Amazon KDP, Gumroad, Gumroad, Creative Fabrica y tu propio sitio web. No hay regalías ni cargos por venta. Te quedas con el 100 % de tus ingresos de ventas después de las comisiones del marketplace.',
+      answer: 'Sí. Una licencia comercial te da derechos completos para vender fichas generadas en cualquier plataforma, incluyendo Etsy, Amazon KDP, Hotmart, Hotmart, Creative Fabrica y tu propio sitio web. No hay regalías ni cargos por venta. Te quedas con el 100 % de tus ingresos de ventas después de las comisiones del marketplace.',
     },
     {
       question: '¿Qué tamaños de página y formatos de exportación se admiten?',

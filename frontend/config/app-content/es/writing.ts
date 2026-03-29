@@ -2,32 +2,32 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'generador fichas de escritura',
+    primaryKeyword: 'generador de fichas de escritura para vender en Etsy y KDP',
     secondaryKeywords: [
-      'fichas de caligrafía imprimibles para vendedores Etsy',
-      'generador de fichas de escritura manuscrita para Amazon KDP',
-      'vender fichas de práctica de escritura en Gumroad',
-      'generador de fichas de caligrafía licencia comercial',
+      'crear fichas de caligrafía para tienda Etsy',
+      'fichas de escritura imprimibles para Amazon KDP',
+      'generador de fichas de grafomotricidad licencia comercial',
+      'fichas de preescritura para vender online',
     ],
     lsiKeywords: [
-      'productos digitales de fichas de escritura manuscrita para emprendedores',
-      'negocio de fichas de trazado de letras imprimibles en línea',
-      'generador de ejercicios de caligrafía con flechas de orden de trazos',
+      'fichas caligrafía grafomotricidad vendedores',
+      'cuadernillos escritura imprimibles KDP Etsy',
+      'negocio fichas preescritura mercado hispano',
     ],
-    titleTag: 'Generador Fichas de Escritura | Crear y Vender',
+    titleTag: 'Fichas de escritura para vender en Etsy | LCS',
     metaDescription:
-      'Crea fichas escritura para Etsy, KDP y Gumroad. 3 modos progresivos, 5 fuentes, flechas de trazos, trazado progresivo, 104 temas. Prueba gratis con marca de agua.',
+      'Cree fichas de escritura y caligrafía para vender en Etsy y KDP. Letras, palabras, oraciones personalizables. Licencia comercial. Pruebe gratis.',
   },
 
   hero: {
-    title: 'Generador de Fichas de Escritura para Práctica de Caligrafía',
-    tagline: 'Tres modos de práctica progresivos con orden de trazos guiado por flechas y guías de letras con opacidad progresiva — desarrolla la fluidez de escritura desde el trazado completo hasta la escritura autónoma en una sola ficha.',
+    title: 'Genere fichas de escritura para vender en Etsy, KDP y Hotmart',
+    tagline: 'Cree fichas de caligrafía y grafomotricidad personalizables — un producto perenne.',
     description:
-      'Diseña fichas profesionales de práctica de escritura manuscrita con tres modos distintos que crean una progresión de aprendizaje natural: el modo Trazado proporciona guías de letras sólidas que los principiantes siguen directamente, el Trazado Progresivo reduce progresivamente la visibilidad de las letras a lo largo de la fila para reforzar la confianza, y la Copia Guiada ofrece un contorno tenue para una escritura casi autónoma. Elige entre cinco estilos de fuente — Imprenta Regular para letras de molde estándar, Imprenta Regular con Flechas con flechas numeradas que indican el orden de los trazos, Imprenta de Trazado para contornos punteados diseñados para el trazado, Imprenta de Trazado con Flechas combinando contornos punteados con flechas del orden de los trazos, y Cursiva (Great Vibes) para la práctica de escritura cursiva. Cada fila de la ficha es configurable de forma independiente: combina el modo Trazado para letras nuevas, el Trazado Progresivo para letras practicadas y la Copia Guiada para repaso, todo en la misma página. Los ejercicios de trazos de pre-escritura (líneas verticales, líneas horizontales, círculos y líneas en zigzag) añaden calentamientos de motricidad fina que preparan las manos para la formación de letras. El contenido proviene de la Biblioteca de Imágenes integrada con más de 3100 ilustraciones en 104 temas: usa el modo Letra Inicial para practicar la primera letra de cada nombre de imagen, el modo Nombre Completo para escribir palabras enteras, o escribe cualquier Texto Personalizado. El Acceso Completo desbloquea los 104 temas y los 11 idiomas de interfaz. Exporta PDF listos para imprimir y JPEG a ~300 DPI en formato Carta, A4 o dimensiones personalizadas. Ya sea que vendas paquetes de práctica de escritura en Etsy, compiles cuadernos de caligrafía para Amazon KDP o crees centros de escritura diferenciados para Gumroad, el Generador de Fichas de Escritura produce resultados profesionales en minutos — prueba gratis con todas las funciones, sin registro, sin tarjeta de crédito. Las descargas incluyen una marca de agua; compra una licencia para eliminarla.',
+      'Genere fichas de escritura para vender en Etsy, Amazon KDP o Hotmart. Este generador crea fichas de caligrafía y grafomotricidad donde los niños practican letras, palabras y oraciones con líneas guía. Personalice el contenido, la fuente, el tamaño de las líneas y la dificultad para crear fichas adaptadas a preescolar, infantil y primaria. Las fichas de escritura son un producto perenne con demanda constante — los padres las buscan todo el año para la práctica en casa. Exporte PDFs a 300 DPI con ejemplos de trazado y véndalos con la licencia comercial incluida. Los cuadernillos de caligrafía son un nicho probado en Amazon KDP con ventas consistentes. El mercado hispano ofrece una oportunidad masiva. Pruebe gratis con marca de agua — sin registro.',
   },
 
   howItWorks: {
-    title: 'Cómo Crear Fichas de Escritura en 5 Pasos',
+    title: 'Cómo crear fichas de escritura en minutos',
     steps: [
       {
         title: 'Configura el diseño de página',
@@ -52,13 +52,13 @@ const content: AppContent = {
       {
         title: 'Descarga como JPEG o PDF',
         description:
-          'Abre el menú de Descarga y exporta tu ficha de escritura como JPEG de alta resolución o PDF listo para imprimir. El motor de exportación renderiza a escala 6× (~300 DPI) para que las letras y las líneas guía se impriman nítidas y limpias. Activa la exportación en escala de grises para versiones económicas en tinta ideales para impresión en volumen. No hay clave de respuesta para las fichas de escritura — los modos de práctica en sí mismos sirven como guía. Cada exportación está lista para producción: listados de Etsy, interiores de Amazon KDP y archivos de productos Gumroad.',
+          'Abre el menú de Descarga y exporta tu ficha de escritura como JPEG de alta resolución o PDF listo para imprimir. El motor de exportación renderiza a escala 6× (~300 DPI) para que las letras y las líneas guía se impriman nítidas y limpias. Activa la exportación en escala de grises para versiones económicas en tinta ideales para impresión en volumen. No hay clave de respuesta para las fichas de escritura — los modos de práctica en sí mismos sirven como guía. Cada exportación está lista para producción: listados de Etsy, interiores de Amazon KDP y archivos de productos Hotmart.',
       },
     ],
   },
 
   keyFeatures: {
-    title: 'Características Principales del Generador de Fichas de Escritura',
+    title: 'Por qué las fichas de escritura son un perenne en Etsy',
     features: [
       {
         title: 'Tres modos de práctica progresivos: Trazado, Trazado Progresivo y Copia Guiada',
@@ -68,7 +68,7 @@ const content: AppContent = {
       {
         title: 'Orden de los trazos guiado por flechas para la formación correcta de letras',
         description:
-          'Los estilos Imprenta Regular con Flechas e Imprenta de Trazado con Flechas superponen flechas direccionales numeradas en cada letra, mostrando a los usuarios exactamente cómo formar cada trazo en la secuencia correcta. La flecha 1 indica dónde empezar, la flecha 2 muestra el siguiente trazo, y así sucesivamente — eliminando toda incertidumbre sobre la dirección y el orden de los trazos. Esta función es única entre los generadores de escritura: los usuarios aprenden no solo cómo se ve la letra, sino precisamente cómo trazarla. Las fichas con orden de trazos flechado alcanzan precios premium en Gumroad y Etsy porque enseñan la técnica correcta en lugar de simplemente proporcionar líneas para trazar.',
+          'Los estilos Imprenta Regular con Flechas e Imprenta de Trazado con Flechas superponen flechas direccionales numeradas en cada letra, mostrando a los usuarios exactamente cómo formar cada trazo en la secuencia correcta. La flecha 1 indica dónde empezar, la flecha 2 muestra el siguiente trazo, y así sucesivamente — eliminando toda incertidumbre sobre la dirección y el orden de los trazos. Esta función es única entre los generadores de escritura: los usuarios aprenden no solo cómo se ve la letra, sino precisamente cómo trazarla. Las fichas con orden de trazos flechado alcanzan precios premium en Hotmart y Etsy porque enseñan la técnica correcta en lugar de simplemente proporcionar líneas para trazar.',
       },
       {
         title: 'Cinco estilos de fuente incluyendo imprenta y cursiva',
@@ -78,7 +78,7 @@ const content: AppContent = {
       {
         title: 'Ejercicios de trazos de pre-escritura para el desarrollo de la motricidad fina',
         description:
-          'Antes de abordar la formación de letras, los trazos de pre-escritura desarrollan las habilidades motrices fundamentales necesarias para la escritura. Cuatro tipos de trazos están disponibles: líneas verticales (trazos de arriba hacia abajo), líneas horizontales (barridos de izquierda a derecha), círculos (control de curva continua) y líneas en zigzag (práctica de cambios de dirección). Estos ejercicios fortalecen la coordinación ojo-mano, el agarre del lápiz y los movimientos musculares específicos usados en la escritura. Los paquetes de pre-escritura orientados al desarrollo de la motricidad fina constituyen un nicho de producto diferenciado en Etsy y Gumroad, separado de las fichas de trazado de letras.',
+          'Antes de abordar la formación de letras, los trazos de pre-escritura desarrollan las habilidades motrices fundamentales necesarias para la escritura. Cuatro tipos de trazos están disponibles: líneas verticales (trazos de arriba hacia abajo), líneas horizontales (barridos de izquierda a derecha), círculos (control de curva continua) y líneas en zigzag (práctica de cambios de dirección). Estos ejercicios fortalecen la coordinación ojo-mano, el agarre del lápiz y los movimientos musculares específicos usados en la escritura. Los paquetes de pre-escritura orientados al desarrollo de la motricidad fina constituyen un nicho de producto diferenciado en Etsy y Hotmart, separado de las fichas de trazado de letras.',
       },
       {
         title: 'Independencia por fila para fichas de modos combinados',
@@ -93,7 +93,7 @@ const content: AppContent = {
       {
         title: 'Exportación PDF y JPEG lista para imprimir a alta resolución',
         description:
-          'Descarga fichas como imágenes JPEG de alta resolución o documentos PDF listos para imprimir. El motor de exportación renderiza con un multiplicador 6×, produciendo ~300 DPI en tamaños de página estándar — esencial para fichas de escritura donde las líneas guía finas y los detalles de las letras deben imprimirse de forma nítida. Los formatos Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal y dimensiones personalizadas están todos soportados. Activa la exportación en escala de grises para versiones económicas en tinta ideales para impresión en volumen o cuadernos en blanco y negro. Cada exportación está lista para producción: listados de Etsy, interiores de Amazon KDP y archivos de productos Gumroad.',
+          'Descarga fichas como imágenes JPEG de alta resolución o documentos PDF listos para imprimir. El motor de exportación renderiza con un multiplicador 6×, produciendo ~300 DPI en tamaños de página estándar — esencial para fichas de escritura donde las líneas guía finas y los detalles de las letras deben imprimirse de forma nítida. Los formatos Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal y dimensiones personalizadas están todos soportados. Activa la exportación en escala de grises para versiones económicas en tinta ideales para impresión en volumen o cuadernos en blanco y negro. Cada exportación está lista para producción: listados de Etsy, interiores de Amazon KDP y archivos de productos Hotmart.',
       },
       {
         title: 'Edición completa del lienzo con herramientas de texto y decoración',
@@ -104,7 +104,7 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Cómo Vender Fichas de Escritura en Línea',
+    title: 'Vender fichas de escritura en Etsy, KDP y Hotmart',
     cases: [
       {
         title: 'Paquetes de práctica de escritura en Etsy',
@@ -119,16 +119,16 @@ const content: AppContent = {
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Centros de escritura diferenciados para Gumroad',
+        title: 'Centros de escritura diferenciados para Hotmart',
         description:
-          'Construye conjuntos de práctica de escritura por niveles usando los tres modos de práctica como ejes de diferenciación: Nivel 1 (modo Trazado con orden de trazos flechado para usuarios aprendiendo la formación de letras), Nivel 2 (Trazado Progresivo para usuarios desarrollando autonomía), Nivel 3 (Copia Guiada para usuarios que se acercan a la fluidez), y Nivel 4 (líneas vacías para escritura autónoma). Usa la independencia por fila para crear fichas de modos combinados donde cada fila apunta a un nivel de habilidad diferente — la herramienta de diferenciación definitiva para centros de escritura. Acompaña cada nivel con integración de imágenes temáticas para mayor motivación. Los compradores de Gumroad pagan precios premium por recursos de escritura diferenciados que funcionan con múltiples grupos de niveles.',
-        platform: 'Gumroad (teacherspayteachers.com)',
+          'Construye conjuntos de práctica de escritura por niveles usando los tres modos de práctica como ejes de diferenciación: Nivel 1 (modo Trazado con orden de trazos flechado para usuarios aprendiendo la formación de letras), Nivel 2 (Trazado Progresivo para usuarios desarrollando autonomía), Nivel 3 (Copia Guiada para usuarios que se acercan a la fluidez), y Nivel 4 (líneas vacías para escritura autónoma). Usa la independencia por fila para crear fichas de modos combinados donde cada fila apunta a un nivel de habilidad diferente — la herramienta de diferenciación definitiva para centros de escritura. Acompaña cada nivel con integración de imágenes temáticas para mayor motivación. Los compradores de Hotmart pagan precios premium por recursos de escritura diferenciados que funcionan con múltiples grupos de niveles.',
+        platform: 'Hotmart (hotmart.com)',
       },
       {
         title: 'Paquetes de trazos de pre-escritura para el desarrollo de la motricidad fina',
         description:
-          'Crea conjuntos dedicados de práctica de trazos de pre-escritura con líneas verticales, líneas horizontales, círculos y líneas en zigzag. Estos ejercicios de motricidad fina apuntan a un público diferenciado: terapeutas ocupacionales, emprendedores de primera infancia y padres de niños en edad preescolar que desarrollan el control del lápiz antes de la instrucción formal de letras. Ofrece los tipos de trazos individualmente o como una progresión completa de habilidades motrices. Los paquetes de pre-escritura llenan un nicho específico en Etsy y Gumroad con menos competencia que las fichas estándar de trazado de letras, y los cuatro tipos de trazos proporcionan suficiente variedad para paquetes de productos significativos.',
-        platform: 'Etsy / Gumroad (nicho motricidad fina)',
+          'Crea conjuntos dedicados de práctica de trazos de pre-escritura con líneas verticales, líneas horizontales, círculos y líneas en zigzag. Estos ejercicios de motricidad fina apuntan a un público diferenciado: terapeutas ocupacionales, emprendedores de primera infancia y padres de niños en edad preescolar que desarrollan el control del lápiz antes de la instrucción formal de letras. Ofrece los tipos de trazos individualmente o como una progresión completa de habilidades motrices. Los paquetes de pre-escritura llenan un nicho específico en Etsy y Hotmart con menos competencia que las fichas estándar de trazado de letras, y los cuatro tipos de trazos proporcionan suficiente variedad para paquetes de productos significativos.',
+        platform: 'Etsy / Hotmart (nicho motricidad fina)',
       },
       {
         title: 'Herramienta de práctica de escritura para venta en línea y tutoría',
@@ -193,7 +193,7 @@ const content: AppContent = {
     {
       question: '¿Puedo vender fichas creadas con esta herramienta en Etsy y Amazon KDP?',
       answer:
-        'Sí. Con una licencia comercial, tienes todos los derechos para vender tus fichas de escritura como descargas digitales en Etsy, como cuadernos de caligrafía impresos en Amazon KDP, como recursos educativos en Gumroad o a través de cualquier otro canal de venta. Los tres modos de práctica, los cinco estilos de fuente, el orden de trazos flechado y los trazos de pre-escritura te ofrecen una fuerte diferenciación en categorías saturadas de las plataformas de venta.',
+        'Sí. Con una licencia comercial, tienes todos los derechos para vender tus fichas de escritura como descargas digitales en Etsy, como cuadernos de caligrafía impresos en Amazon KDP, como recursos educativos en Hotmart o a través de cualquier otro canal de venta. Los tres modos de práctica, los cinco estilos de fuente, el orden de trazos flechado y los trazos de pre-escritura te ofrecen una fuerte diferenciación en categorías saturadas de las plataformas de venta.',
     },
     {
       question: '¿Cuál es la política de reembolso?',

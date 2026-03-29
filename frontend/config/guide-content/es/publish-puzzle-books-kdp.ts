@@ -2,29 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'publicar libros de puzles kdp',
+    primaryKeyword: 'publicar libros de pasatiempos en Amazon KDP',
     secondaryKeywords: [
       'cómo publicar libros de puzles en Amazon KDP',
-      'guía de publicación de libros de puzles KDP',
-      'crear libros de sopas de letras para Amazon',
-      'libros de crucigramas sudoku puzles Amazon KDP',
+      'crear libros de pasatiempos para KDP formato y portada',
+      'libros de puzles educativos Amazon KDP guía completa',
+      'ganar dinero con libros de pasatiempos en KDP',
     ],
     lsiKeywords: [
-      'sopa letras crucigrama sudoku libro puzles páginas interiores',
-      'número páginas libro puzles progresión dificultad sección soluciones',
-      'libro puzles variedad KDP tipos mixtos formateo',
-      'palabras clave Amazon libro puzles categorías mercado adultos niños',
-      'catálogo puzles impresión bajo demanda serie volúmenes numeración',
-      'espaciado cuadrícula puzle tamaño recorte claves respuestas páginas finales',
+      'sopas letras crucigramas sudoku criptogramas pasatiempos KDP',
+      'formato interior libro puzles KDP márgenes recorte sangrado',
+      'portada profesional libro pasatiempos categorías Amazon ranking',
     ],
-    titleTag: 'Publicar libros de puzles KDP — Guía',
-    metaDescription: 'Cómo publicar libros de puzles en KDP con sopas de letras, crucigramas y sudoku. Formateo profesional, libros de variedad, series y optimización de listados.',
+    titleTag: 'Publicar pasatiempos en Amazon KDP | LCS',
+    metaDescription: 'Publique libros de pasatiempos en Amazon KDP con formato profesional. Sopas de letras, sudoku, crucigramas y más. Guía paso a paso completa.',
   },
 
   hero: {
-    title: 'Cómo publicar libros de puzles en Amazon KDP',
+    title: 'Cómo publicar libros de pasatiempos en Amazon KDP',
     tagline: 'Una guía completa para crear y publicar libros de puzles en Amazon KDP — cubriendo sopas de letras, crucigramas, sudoku, puzles matemáticos y tipos de puzles visuales, cómo estructurar libros de puzles de un solo tipo y de variedad, formateo específico de puzles para impresión con espaciado adecuado de cuadrícula y secciones de soluciones, el doble mercado de libros de puzles para adultos y niños, optimización de palabras clave de Amazon para búsquedas de puzles, progresión de dificultad en secciones fácil media y difícil, construcción de series de libros de puzles multivolumen, y estrategias de catálogo que aprovechan la promoción cruzada de Amazon para hacer crecer las ventas en toda tu línea de libros de puzles',
-    description: 'Los libros de puzles son una de las categorías más grandes y consistentemente rentables en Amazon KDP. A diferencia de los libros de actividades de matemáticas que se dirigen principalmente a padres y vendedores de niños pequeños, los libros de puzles sirven un mercado doble masivo — adultos que disfrutan de sopas de letras, crucigramas y sudoku como entretenimiento diario, más niños que se involucran con puzles visuales, caminos de imágenes y sopas de letras temáticas. Esta guía te acompaña en la creación de libros de puzles profesionales desde la generación de contenido hasta la publicación en Amazon, con atención específica a lo que hace los libros de puzles diferentes de otras categorías de libros de actividades: mayor número de páginas, la elección entre formatos de tipo único y de variedad, requisitos de formateo específicos de puzles, y la estrategia de catálogo basada en volúmenes que impulsa los ingresos a largo plazo en KDP.',
+    description: 'Los libros de pasatiempos son una de las categorías más rentables en Amazon KDP porque la demanda es constante y los compradores buscan variedad. Sopas de letras, crucigramas, sudoku, criptogramas y puzles matemáticos tienen audiencias fieles que compran múltiples libros al año. Esta guía le muestra cómo formatear el interior de sus libros de pasatiempos según las especificaciones de KDP, diseñar portadas profesionales que destaquen en los resultados de búsqueda de Amazon, seleccionar palabras clave backend efectivas y elegir categorías con alta demanda y competencia manejable. Aprenda a convertir los puzles generados con LessonCraftStudio en libros publicados que generen regalías pasivas.',
   },
 
   introduction: 'Los libros de puzles se posicionan consistentemente entre las categorías más vendidas en Amazon KDP. Solo la categoría de sopas de letras genera miles de nuevos títulos cada mes, y los libros de crucigramas, sudoku y puzles variados mantienen una demanda estable durante todo el año. Lo que hace los libros de puzles particularmente atractivos para los editores de KDP es la doble audiencia — los adultos compran libros de puzles para entretenimiento personal, relajación y ejercicio cognitivo, mientras que los padres y vendedores los compran para el aprendizaje y compromiso de los niños. Esto significa que tu base de clientes potenciales es dramáticamente mayor que las categorías que solo sirven a una audiencia.\n\nLa economía de los libros de puzles difiere de otras categorías de libros de actividades KDP de formas importantes. Los libros de puzles típicamente tienen mayor número de páginas — de 60 a 120 páginas es estándar comparado con 40 a 80 para libros de actividades de matemáticas — porque los compradores esperan un número sustancial de puzles por libro. Cada puzle ocupa una página completa por usabilidad, así que un libro de 100 sopas de letras necesita al menos 100 páginas de actividades más páginas iniciales, instrucciones y una sección de soluciones. Mayor número de páginas aumenta los costes de impresión, pero también justifica precios de venta más altos que pueden producir regalías fuertes por venta cuando se fijan estratégicamente.\n\nLos libros de puzles también se prestan naturalmente a la publicación basada en volúmenes. Un entusiasta de sopas de letras que termina el Volumen 1 es un comprador listo para el Volumen 2, Volumen 3 y más allá. Esta dinámica de compra recurrente es más fuerte en los libros de puzles que en casi cualquier otra categoría de KDP porque los puzles son de un solo uso en impresión — una vez resuelto, un puzle no puede rehacerse. Este ciclo de consumo incorporado significa que tu catálogo se vuelve más valioso con cada nuevo título a medida que los clientes recurrentes compran múltiples volúmenes.\n\nEsta guía se centra específicamente en lo que hace la publicación de libros de puzles única. Para los fundamentos de KDP como especificaciones de formateo de manuscritos, cálculos de dimensiones de portada, niveles de tasa de regalía y prácticas generales de anuncios en Amazon, consulta la guía de libros de actividades de matemáticas KDP que cubre esos temas fundamentales en detalle. Aquí nos concentramos en la estrategia de contenido específica de puzles, la elección entre formatos de tipo único y de variedad, las consideraciones de formateo únicas para cuadrículas de puzles, y el enfoque de construcción de catálogo que maximiza los ingresos a largo plazo de la publicación de libros de puzles.',

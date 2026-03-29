@@ -1,30 +1,30 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'crear fichas de suma para venta en línea',
+    primaryKeyword: 'generador de fichas de sumas gratis en linea',
     secondaryKeywords: [
-      'creador de fichas de suma para vendedores',
-      'fichas de suma matemáticas para niños',
-      'ejercicios de suma imprimibles',
-      'fichas de suma con imágenes para preescolar',
+      'fichas de sumas gratis sin registro',
+      'generador de sumas con imagenes gratis en linea',
+      'ejercicios de suma gratis para imprimir',
+      'fichas de sumas gratis sin tarjeta de credito',
     ],
     lsiKeywords: [
-      'fichas matemáticas visuales para venta en línea',
-      'ejercicios de suma con imágenes para niños',
-      'fichas matemáticas preescolar para vendedores',
+      'fichas de matematicas para primaria imprimibles',
+      'ejercicios de calculo con imagenes tematicas',
+      'hojas de sumas con solucionario automatico',
     ],
-    titleTag: 'Crear Fichas de Suma — para vendedores y Padres',
-    metaDescription: 'Crea fichas de suma con imágenes temáticas para venta en línea. 104 temas, dificultad ajustable, clave de respuestas, PDF imprimible. Prueba gratis con marca de.',
+    titleTag: 'Generador de fichas de sumas gratis | LCS',
+    metaDescription: 'Cree fichas de sumas gratis con imágenes temáticas. Sin registro, sin tarjeta. Descarga con marca de agua. Pase a licencia comercial para vender.',
     },
 
   hero: {
-    title: 'Generador de Fichas de Suma',
-    tagline: 'Crea fichas de suma con imágenes atractivas en menos de 60 segundos',
-    description: 'Convierte la práctica de matemáticas en una aventura visual. Esta herramienta te permite crear fichas de suma personalizadas con imágenes temáticas que los niños realmente quieren completar. Elige entre más de 100 temas de imágenes, ajusta el rango de dificultad, selecciona el diseño de página y descarga PDF listos para imprimir o JPEG de alta resolución. Perfecto para vendedores que preparan paquetes de tareas diferenciadas, padres que complementan el aprendizaje escolar y vendedores de Etsy que crean productos de matemáticas imprimibles. La prueba gratuita incluye una marca de agua en las descargas. Compra una licencia para eliminar la marca de agua y vender tus creaciones con uso comercial.',
+    title: 'Cree fichas de sumas gratis con imagenes tematicas',
+    tagline: 'Genere fichas de sumas ilustradas en segundos — sin registro, sin tarjeta de credito.',
+    description: 'Cree fichas de sumas gratis con imagenes tematicas de mas de 3.000 ilustraciones — animales, vehiculos, alimentos y mas. Este generador en linea le permite elegir el rango de numeros, la cantidad de ejercicios y el tema visual. Cada ficha incluye solucionario automatico y se exporta en PDF listo para imprimir. No necesita registro ni tarjeta de credito: todas las funciones estan disponibles desde el primer momento. Las descargas incluyen una marca de agua transparente. Ideal para padres, educadores y creadores de contenido que quieren probar antes de comprar. ¿Quiere vender fichas de sumas? Pase a la licencia comercial para eliminar la marca de agua y obtener archivos a 300 DPI listos para Etsy, KDP y Hotmart.',
   },
 
   tutorial: {
-    title: 'Cómo Crear Fichas de Suma en 8 Pasos Sencillos',
+    title: 'Como crear fichas de sumas gratis paso a paso',
     steps: [
       {
         title: 'Abrir el Generador de Fichas',
@@ -64,11 +64,11 @@ const content: ToolContent = {  seo: {
   whatYouCanCreate: [
     {
       title: 'Packs de Actividades de Suma Temáticos',
-      description: 'Crea un conjunto de 10 a 20 fichas en torno a un solo tema — dinosaurios, animales de granja o criaturas marinas. Agrúpalas como un pack PDF y véndelas en Etsy o Gumroad. A los padres les encantan los packs temáticos porque mantienen a los niños interesados durante más tiempo. Cada tema de la biblioteca contiene suficiente variedad para completar un pack entero sin repetir imágenes, lo que significa que los compradores obtienen una verdadera diversidad visual en cada descarga. Fija el precio entre 3 $ y 5 $ para temas individuales y entre 8 $ y 12 $ para mega-packs que combinen varios temas con una curva de dificultad progresiva.',
+      description: 'Crea un conjunto de 10 a 20 fichas en torno a un solo tema — dinosaurios, animales de granja o criaturas marinas. Agrúpalas como un pack PDF y véndelas en Etsy o Hotmart. A los padres les encantan los packs temáticos porque mantienen a los niños interesados durante más tiempo. Cada tema de la biblioteca contiene suficiente variedad para completar un pack entero sin repetir imágenes, lo que significa que los compradores obtienen una verdadera diversidad visual en cada descarga. Fija el precio entre 3 $ y 5 $ para temas individuales y entre 8 $ y 12 $ para mega-packs que combinen varios temas con una curva de dificultad progresiva.',
     },
     {
       title: 'Conjuntos de Tareas Diferenciados',
-      description: 'Genera tres versiones de la misma ficha con diferentes niveles de dificultad: fácil (1–3), medio (1–5) y difícil (1–10). Los vendedores pueden entregar el nivel adecuado a cada usuario sin gastar tiempo extra de preparación. Este enfoque funciona especialmente bien en Gumroad donde los emprendedores buscan específicamente material diferenciado que ahorra tiempo de producción. Agrupa los tres niveles de dificultad como un solo listing entre 4 $ y 6 $, e incluye una guía vendedor explicando qué nivel se adapta a cada perfil de usuario.',
+      description: 'Genera tres versiones de la misma ficha con diferentes niveles de dificultad: fácil (1–3), medio (1–5) y difícil (1–10). Los vendedores pueden entregar el nivel adecuado a cada usuario sin gastar tiempo extra de preparación. Este enfoque funciona especialmente bien en Hotmart donde los emprendedores buscan específicamente material diferenciado que ahorra tiempo de producción. Agrupa los tres niveles de dificultad como un solo listing entre 4 $ y 6 $, e incluye una guía vendedor explicando qué nivel se adapta a cada perfil de usuario.',
     },
     {
       title: 'Packs de Matemáticas Estacionales',
@@ -80,7 +80,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Paquetes de Ejercicios Matutinos para venta en línea',
-      description: 'Prepara un mes de calentamientos diarios de suma. Cada ficha toma de 5 a 10 minutos, ideal para el trabajo de entrada por la mañana. Incluye la clave de respuestas para que los usuarios se autocorrijan. Los paquetes de ejercicios matutinos se venden de forma constante en Etsy y Gumroad porque los vendedores los compran al inicio de cada curso escolar. Crea packs mensuales de 20 a 25 fichas entre 5 $ y 8 $, y ofrece un pack de año completo con descuento entre 35 $ y 45 $ para maximizar los ingresos por cliente.',
+      description: 'Prepara un mes de calentamientos diarios de suma. Cada ficha toma de 5 a 10 minutos, ideal para el trabajo de entrada por la mañana. Incluye la clave de respuestas para que los usuarios se autocorrijan. Los paquetes de ejercicios matutinos se venden de forma constante en Etsy y Hotmart porque los vendedores los compran al inicio de cada curso escolar. Crea packs mensuales de 20 a 25 fichas entre 5 $ y 8 $, y ofrece un pack de año completo con descuento entre 35 $ y 45 $ para maximizar los ingresos por cliente.',
     },
     {
       title: 'Fichas de Matemáticas Bilingües',
@@ -95,9 +95,9 @@ const content: ToolContent = {  seo: {
       platform: 'Etsy',
     },
     {
-      title: 'Vendedor en Gumroad',
-      description: 'Sube packs de fichas de suma diferenciadas a Gumroad. Los vendedores buscan constantemente \"fichas de suma con imágenes\". Incluye la clave de respuestas y una guía vendedor en cada listing para una mayor percepción de valor. Al crear tus listings de Gumroad, invierte tiempo adicional en las imágenes de vista previa porque los vendedores toman sus decisiones de compra casi exclusivamente a partir de las miniaturas visuales. Genera fichas de ejemplo con los temas más coloridos e incluye capturas de pantalla anotadas mostrando las opciones de dificultad y los modos de ejercicio disponibles.',
-      platform: 'Gumroad',
+      title: 'Vendedor en Hotmart',
+      description: 'Sube packs de fichas de suma diferenciadas a Hotmart. Los vendedores buscan constantemente \"fichas de suma con imágenes\". Incluye la clave de respuestas y una guía vendedor en cada listing para una mayor percepción de valor. Al crear tus listings de Hotmart, invierte tiempo adicional en las imágenes de vista previa porque los vendedores toman sus decisiones de compra casi exclusivamente a partir de las miniaturas visuales. Genera fichas de ejemplo con los temas más coloridos e incluye capturas de pantalla anotadas mostrando las opciones de dificultad y los modos de ejercicio disponibles.',
+      platform: 'Hotmart',
     },
     {
       title: 'Cuadernos de Actividades en Amazon KDP',
@@ -106,8 +106,8 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Complemento de productos para Educación en Casa',
-      description: 'Crea un programa de suma estructurado de 12 semanas con dificultad progresiva. Véndelo como descarga digital en tu propio sitio web o en Gumroad. Los emprendedores buscan activamente materiales de matemáticas visuales y prácticos. Estructura el programa con objetivos de aprendizaje claros por semana, comenzando con sumandos de un dígito y progresando hacia desafíos de dos dígitos en la duodécima semana. Incluye hojas de instrucciones para los padres explicando cómo usar cada conjunto de fichas y qué conceptos matemáticos refuerzan.',
-      platform: 'Gumroad',
+      description: 'Crea un programa de suma estructurado de 12 semanas con dificultad progresiva. Véndelo como descarga digital en tu propio sitio web o en Hotmart. Los emprendedores buscan activamente materiales de matemáticas visuales y prácticos. Estructura el programa con objetivos de aprendizaje claros por semana, comenzando con sumandos de un dígito y progresando hacia desafíos de dos dígitos en la duodécima semana. Incluye hojas de instrucciones para los padres explicando cómo usar cada conjunto de fichas y qué conceptos matemáticos refuerzan.',
+      platform: 'Hotmart',
     },
     {
       title: 'Biblioteca de Recursos para Centros de Tutoría',
@@ -130,7 +130,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Incluye Siempre la Clave de Respuestas',
-      description: 'Haz clic en \"Generar Clave de Respuestas\" antes de descargar. Los compradores en Etsy y Gumroad califican sistemáticamente mejor los productos que incluyen una clave de respuestas. Toma solo 10 segundos adicionales y mejora significativamente tus reseñas y las compras repetidas. Una clave de respuestas también hace que tu producto sea adecuado para emprendedores donde los padres necesitan verificar el trabajo rápidamente.',
+      description: 'Haz clic en \"Generar Clave de Respuestas\" antes de descargar. Los compradores en Etsy y Hotmart califican sistemáticamente mejor los productos que incluyen una clave de respuestas. Toma solo 10 segundos adicionales y mejora significativamente tus reseñas y las compras repetidas. Una clave de respuestas también hace que tu producto sea adecuado para emprendedores donde los padres necesitan verificar el trabajo rápidamente.',
     },
     {
       title: 'Exporta en PDF y en JPEG',
@@ -161,7 +161,7 @@ const content: ToolContent = {  seo: {
     },
     {
       question: '¿Puedo usar las fichas con fines comerciales?',
-      answer: 'La prueba gratuita con marca de agua es solo para uso personal y educativo. Para vender fichas en Etsy, Gumroad, Amazon KDP o cualquier otro marketplace, necesitas una licencia comercial. La licencia comercial elimina la marca de agua y otorga derechos completos de reventa para las fichas que crees.',
+      answer: 'La prueba gratuita con marca de agua es solo para uso personal y educativo. Para vender fichas en Etsy, Hotmart, Amazon KDP o cualquier otro marketplace, necesitas una licencia comercial. La licencia comercial elimina la marca de agua y otorga derechos completos de reventa para las fichas que crees.',
     },
     {
       question: '¿Cuántos temas de imágenes hay disponibles?',
@@ -181,7 +181,7 @@ const content: ToolContent = {  seo: {
     },
     {
       question: '¿Puedo generar una clave de respuestas?',
-      answer: 'Sí. Después de generar una ficha, haz clic en \"Generar Clave de Respuestas\" para crear una hoja de soluciones con todas las respuestas completadas. Puedes descargar la clave de respuestas como un archivo JPEG o PDF independiente. Esto es especialmente útil para vendedores y para vendedores que quieren incluir claves de respuestas en sus productos. Los compradores en Etsy y Gumroad dejan sistemáticamente mejores calificaciones en listings que incluyen claves de respuestas.',
+      answer: 'Sí. Después de generar una ficha, haz clic en \"Generar Clave de Respuestas\" para crear una hoja de soluciones con todas las respuestas completadas. Puedes descargar la clave de respuestas como un archivo JPEG o PDF independiente. Esto es especialmente útil para vendedores y para vendedores que quieren incluir claves de respuestas en sus productos. Los compradores en Etsy y Hotmart dejan sistemáticamente mejores calificaciones en listings que incluyen claves de respuestas.',
     },
     {
       question: '¿Qué tamaños de página son compatibles?',

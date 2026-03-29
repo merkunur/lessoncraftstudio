@@ -2,29 +2,26 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'escalar negocio de imprimibles',
+    primaryKeyword: 'de ingreso extra a negocio de imprimibles a tiempo completo',
     secondaryKeywords: [
-      'hacer crecer negocio de imprimibles a tiempo completo',
-      'escalar tienda de imprimibles en Etsy',
-      'estrategia de expansión negocio de imprimibles',
-      'de proyecto secundario a tiempo completo con imprimibles',
+      'escalar negocio de imprimibles educativos',
+      'cómo crecer un negocio de fichas imprimibles',
+      'de hobby a negocio completo imprimibles',
+      'automatizar negocio de fichas digitales',
     ],
     lsiKeywords: [
-      'expansión de catálogo para vendedores de imprimibles',
-      'distribución multiplataforma para fichas',
-      'estrategia de paquetes para descargas digitales',
-      'optimización del flujo de trabajo de producción de imprimibles',
-      'expansión a mercados multilingües para imprimibles',
-      'estrategia de reinversión para negocio de imprimibles',
+      'delegación y automatización negocio imprimibles',
+      'múltiples canales de venta fichas educativas',
+      'ingresos a tiempo completo con imprimibles',
     ],
-    titleTag: 'Escalar Negocio de Imprimibles — Guía para Crecer',
-    metaDescription: 'Cómo escalar tu negocio de imprimibles de proyecto secundario a tiempo completo. Expansión de catálogo, distribución multiplataforma, paquetes y optimización.',
+    titleTag: 'De ingreso extra a negocio completo | LCS',
+    metaDescription: 'Cómo escalar de un ingreso extra a un negocio de a tiempo completo. Automatización, múltiples canales y estrategias de crecimiento para vendedores.',
   },
 
   hero: {
-    title: 'Escalar de Proyecto Secundario a Negocio de Imprimibles a Tiempo Completo',
-    tagline: 'Marco estratégico de crecimiento para vendedores de imprimibles — desde expansión de catálogo y distribución multiplataforma hasta estrategia de paquetes y optimización del flujo de trabajo, el manual operativo para escalar más allá de un proyecto secundario',
-    description: 'Iniciar un negocio de imprimibles y escalar un negocio de imprimibles requieren habilidades fundamentalmente diferentes. La creatividad y el entusiasmo que lanzan tus primeros productos dan paso al pensamiento sistémico, las decisiones basadas en datos y la disciplina de producción a medida que creces. Esta guía proporciona un marco concreto para cada fase de crecimiento: desde tus primeras 25 publicaciones hasta la madurez del catálogo con 300 o más productos. Aprenderás a expandir tu catálogo de forma sistemática, distribuir en múltiples plataformas, agrupar productos en paquetes para aumentar el valor medio del pedido, optimizar tu flujo de trabajo de producción y expandirte a mercados multilingües. Cada estrategia conecta directamente con las herramientas de generación de fichas disponibles a través de la prueba gratis con marca de agua, para que puedas implementar tácticas de escalado mientras las lees.',
+    title: 'De Ingreso Extra a Negocio de Imprimibles a Tiempo Completo',
+    tagline: 'El camino probado para escalar de las primeras ventas a un negocio que reemplace su sueldo',
+    description: 'Muchos vendedores de imprimibles comienzan como un proyecto secundario y se preguntan si es posible convertirlo en su fuente principal de ingresos. La respuesta es sí, pero requiere una estrategia deliberada de escalamiento que va más allá de crear más productos. Esta guía cubre la transición de ingreso extra a negocio a tiempo completo: automatización de procesos, expansión a múltiples canales de venta, diversificación de productos, delegación de tareas y gestión financiera para sostener el crecimiento. Aprenderá el cronograma realista y los hitos clave de cada etapa. Cada generador ofrece una prueba gratis con marca de agua.',
   },
 
   introduction: 'La mayoría de los vendedores de imprimibles llegan a un punto muerto. Lanzan una tienda, publican sus primeros doce productos, generan algunas ventas iniciales y luego ven cómo su crecimiento se estanca. La razón es casi siempre la misma: siguen haciendo actividades de inicio cuando deberían estar haciendo actividades de escalado. Iniciar un negocio de imprimibles significa crear tu primer producto y ponerlo a la venta. Escalar un negocio de imprimibles significa construir sistemas que produzcan, distribuyan y optimicen productos de forma eficiente en múltiples plataformas y mercados.\n\nEl cambio de proyecto secundario a negocio escalable no consiste en trabajar más horas. Consiste en trabajar de manera diferente. Un vendedor con un proyecto secundario crea un producto por sesión, lo publica en una plataforma y espera ventas. Un vendedor en fase de escalado produce diez productos por lotes en una sesión, los distribuye en cuatro plataformas, rota palabras clave estacionales mensualmente y usa analíticas para duplicar la apuesta en lo que convierte. El mismo número de horas, resultados dramáticamente diferentes.\n\nEsta guía proporciona un marco de crecimiento basado en hitos en lugar de ánimos vagos. Cada fase de crecimiento — desde la validación inicial hasta la viabilidad a tiempo completo — tiene prioridades operativas específicas, desafíos diferentes y métricas distintas que importan. El marco está construido alrededor de negocios de fichas imprimibles específicamente, usando las herramientas y plataformas más relevantes para esta categoría de producto.\n\nEscalar también requiere decisiones de inversión. En qué reinvertir los ingresos, y en qué orden, determina si tu negocio crece eficientemente o pierde dinero en actividades de bajo retorno. El marco de reinversión en esta guía prioriza la capacidad de producción primero, la optimización segundo y la adquisición pagada en último lugar — siguiendo cómo realmente crecen los negocios de imprimibles exitosos. Cada recomendación conecta con herramientas disponibles a través de la prueba gratis con marca de agua, para que puedas empezar a implementar inmediatamente.',
@@ -44,7 +41,7 @@ const content: StartContent = {
     },
     {
       heading: 'Distribución multiplataforma',
-      content: 'Vender en una sola plataforma limita tu techo y aumenta tu riesgo. Cada plataforma llega a segmentos de compradores diferentes con comportamientos de compra diferentes. Etsy atrae a padres que buscan descargas imprimibles. Amazon KDP llega a compradores que prefieren libros de actividades físicos. Gumroad sirve a emprendedores del mercado. Gumroad permite ventas directas a tu propia audiencia. Distribuir el mismo contenido en múltiples plataformas multiplica tu potencial de ingresos por cada producto que creas.\n\nEl mismo contenido de fichas se adapta a múltiples formatos con esfuerzo adicional mínimo. Un conjunto de 50 sopas de letras se convierte en un paquete PDF imprimible en Etsy, un libro de actividades en tapa blanda en Amazon KDP, un paquete de recursos para venta en línea en Gumroad y una descarga directa en Gumroad. Cuatro fuentes de ingresos de una sola sesión de producción.\n\nLa expansión de plataformas debe ser secuencial, no simultánea. Domina tu plataforma principal primero — entiende su algoritmo, optimiza tus publicaciones y establece una línea base de ventas. Luego añade una plataforma a la vez, adaptando tu contenido al formato y las expectativas de compradores de esa plataforma. Intentar lanzar en cuatro plataformas simultáneamente divide tu atención y normalmente resulta en cuatro tiendas con bajo rendimiento en lugar de una sólida.\n\nLa presencia multiplataforma también reduce el riesgo algorítmico. Los cambios en el algoritmo de Etsy, las actualizaciones de políticas de Amazon y los aumentos de tarifas de las plataformas pueden impactar los ingresos de la noche a la mañana. Un vendedor con el 80 por ciento de sus ingresos en Etsy es vulnerable a cualquier disrupción específica de Etsy. Un vendedor con ingresos distribuidos en cuatro plataformas absorbe los cambios específicos de plataforma sin impacto catastrófico. La diversificación no es solo una estrategia de crecimiento — es una estrategia de gestión de riesgos.\n\nLa clave operativa de la distribución multiplataforma es la producción estandarizada. Cuando la salida de tu generador de fichas alimenta un flujo de trabajo consistente — mismo contenido, diferentes adaptaciones de formato — publicar en plataformas adicionales se convierte en una tarea de formateo en lugar de una tarea de creación.',
+      content: 'Vender en una sola plataforma limita tu techo y aumenta tu riesgo. Cada plataforma llega a segmentos de compradores diferentes con comportamientos de compra diferentes. Etsy atrae a padres que buscan descargas imprimibles. Amazon KDP llega a compradores que prefieren libros de actividades físicos. Hotmart sirve a emprendedores del mercado. Hotmart permite ventas directas a tu propia audiencia. Distribuir el mismo contenido en múltiples plataformas multiplica tu potencial de ingresos por cada producto que creas.\n\nEl mismo contenido de fichas se adapta a múltiples formatos con esfuerzo adicional mínimo. Un conjunto de 50 sopas de letras se convierte en un paquete PDF imprimible en Etsy, un libro de actividades en tapa blanda en Amazon KDP, un paquete de recursos para venta en línea en Hotmart y una descarga directa en Hotmart. Cuatro fuentes de ingresos de una sola sesión de producción.\n\nLa expansión de plataformas debe ser secuencial, no simultánea. Domina tu plataforma principal primero — entiende su algoritmo, optimiza tus publicaciones y establece una línea base de ventas. Luego añade una plataforma a la vez, adaptando tu contenido al formato y las expectativas de compradores de esa plataforma. Intentar lanzar en cuatro plataformas simultáneamente divide tu atención y normalmente resulta en cuatro tiendas con bajo rendimiento en lugar de una sólida.\n\nLa presencia multiplataforma también reduce el riesgo algorítmico. Los cambios en el algoritmo de Etsy, las actualizaciones de políticas de Amazon y los aumentos de tarifas de las plataformas pueden impactar los ingresos de la noche a la mañana. Un vendedor con el 80 por ciento de sus ingresos en Etsy es vulnerable a cualquier disrupción específica de Etsy. Un vendedor con ingresos distribuidos en cuatro plataformas absorbe los cambios específicos de plataforma sin impacto catastrófico. La diversificación no es solo una estrategia de crecimiento — es una estrategia de gestión de riesgos.\n\nLa clave operativa de la distribución multiplataforma es la producción estandarizada. Cuando la salida de tu generador de fichas alimenta un flujo de trabajo consistente — mismo contenido, diferentes adaptaciones de formato — publicar en plataformas adicionales se convierte en una tarea de formateo en lugar de una tarea de creación.',
     },
     {
       heading: 'Estrategia de paquetes y ventas adicionales',
@@ -139,7 +136,7 @@ const content: StartContent = {
     {
       appId: 'sudoku-worksheets',
       title: 'Generador de Sudoku',
-      description: 'Escalado agnóstico de plataforma — productos de sudoku idénticos funcionan en Etsy, Amazon KDP, Gumroad y cada marketplace internacional sin adaptación de formato. Los puzzles puramente numéricos cruzan cada barrera lingüística.',
+      description: 'Escalado agnóstico de plataforma — productos de sudoku idénticos funcionan en Etsy, Amazon KDP, Hotmart y cada marketplace internacional sin adaptación de formato. Los puzzles puramente numéricos cruzan cada barrera lingüística.',
     },
     {
       appId: 'crossword-worksheets',

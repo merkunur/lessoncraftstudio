@@ -2,30 +2,30 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'generador fichas de preposiciones',
+    primaryKeyword: 'generador de fichas de preposiciones gratis',
     secondaryKeywords: [
-      'crear fichas de preposiciones imprimibles para vender',
-      'generador de fichas de preposiciones espaciales uso comercial',
-      'fichas de preposiciones imprimibles para Etsy y KDP',
-      'herramienta de fichas de palabras de posición',
+      'fichas de preposiciones gratis sin registro',
+      'generador de fichas de preposiciones en línea',
+      'crear fichas de preposiciones gratis para imprimir',
+      'fichas de preposiciones visuales gratis PDF con respuestas',
     ],
     lsiKeywords: [
-      'fichas de relaciones espaciales imprimibles para Etsy',
-      'generador de actividades de preposiciones multilingüe',
-      'herramienta de fichas de palabras de posición para vender',
+      'actividad de preposiciones de lugar con imágenes',
+      'ficha de arriba abajo dentro fuera imprimible',
+      'preposiciones espaciales con ilustraciones PDF gratis',
     ],
-    titleTag: 'Generador Fichas de Preposiciones | para Vender',
-    metaDescription: 'Genera fichas de preposiciones con modos completar y opción múltiple, reemplazo de formas, 104 temas, 11 idiomas y PDF listo. Prueba gratuita con marca de.',
+    titleTag: 'Fichas de preposiciones gratis | LCS',
+    metaDescription: 'Cree fichas de preposiciones gratis sin registro. Ilustraciones de arriba, abajo, dentro, fuera. 104 temas, respuestas incluidas.',
   },
 
   hero: {
-    title: 'Generador de Fichas de Preposiciones',
+    title: 'Cree fichas de preposiciones gratis en línea',
     tagline: 'Crea fichas de preposiciones espaciales con dos modos de ejercicio en 11 idiomas',
-    description: 'Enseña palabras de posición mediante ejercicios basados en imágenes que los usuarios realmente disfrutan. Esta herramienta genera fichas de preposiciones donde los usuarios identifican relaciones espaciales — sobre, debajo, encima, al lado, entre, dentro, fuera — estudiando escenas con imágenes y completando o seleccionando la preposición correcta. Elige entre dos modos de ejercicio: Rellenar Espacios en Blanco, donde los usuarios escriben la preposición correcta, u Opción Múltiple, donde eligen entre varias opciones con una línea de instrucción personalizable. Configura de 1 a 8 ejercicios por ficha y selecciona exactamente qué preposiciones incluir usando la cuadrícula de casillas. La función destacada de la herramienta es el Reemplazo de Formas — una capa de imagen independiente te permite intercambiar las formas de la escena de manera autónoma, creando muchas más combinaciones visuales de lo que un solo conjunto de imágenes podría ofrecer. La sensibilidad idiomática está integrada: cambia del español a cualquiera de los 11 idiomas compatibles y cada palabra de preposición se actualiza a su equivalente nativo. El alemán usa \"auf, unter, über, neben, zwischen, drinnen, draußen\"; el francés usa \"sur, sous, au-dessus, à côté, entre, dedans, dehors\". Un solo diseño de ficha se convierte en 11 productos únicos en diferentes idiomas. Explora más de 3.100 imágenes en 104 temas, sube tus propias imágenes PNG o JPEG para diseños personalizados y elige entre múltiples plantillas y 7 familias de fuentes. Exporta como PDF listo para imprimir o JPEG de alta resolución. La prueba gratuita incluye una marca de agua en las descargas. Compra una licencia para eliminar la marca de agua y vender con uso comercial.',
+    description: 'Cree fichas de preposiciones visuales gratis con este generador en línea. Genere actividades donde los usuarios identifican posiciones espaciales — arriba, abajo, dentro, fuera, al lado, detrás — usando ilustraciones temáticas. Navegue 104 colecciones con más de 3.100 imágenes o suba las suyas. Configure preposiciones, número de ejercicios y exporte con clave de respuestas autogenerada. Exporte en JPEG y PDF a 300 DPI en tamaño Carta, A4 o personalizado. La prueba gratis incluye todas las funciones con marca de agua. Sin registro, sin instalación. ¿Quiere vender? Pase a la licencia comercial para eliminar la marca de agua y obtener uso comercial completo.',
   },
 
   tutorial: {
-    title: 'Cómo Crear Fichas de Preposiciones en 8 Pasos Sencillos',
+    title: 'Cómo crear fichas de preposiciones gratis en 8 pasos',
     steps: [
       {
         title: 'Abrir el Generador de Fichas de Preposiciones',
@@ -65,7 +65,7 @@ const content: ToolContent = {
   whatYouCanCreate: [
     {
       title: 'Packs de Preposiciones Temáticos',
-      description: 'Crea conjuntos de 10 a 15 fichas de preposiciones usando colecciones de imágenes temáticas — animales, vehículos, objetos del hogar, escenas de la naturaleza. Cada ficha usa diferentes combinaciones de imágenes y formas a un nivel de dificultad uniforme. Agrúpalos por tema y véndelos en Etsy o Gumroad. El formato basado en escenas con imágenes hace que las miniaturas de tus listings sean visualmente atractivas comparadas con fichas de gramática basadas en texto. Los packs temáticos también fomentan compras repetidas: un comprador que disfruta tu pack de preposiciones de animales probablemente volverá por el de vehículos o festividades, creando fidelidad a largo plazo en tu tienda.',
+      description: 'Crea conjuntos de 10 a 15 fichas de preposiciones usando colecciones de imágenes temáticas — animales, vehículos, objetos del hogar, escenas de la naturaleza. Cada ficha usa diferentes combinaciones de imágenes y formas a un nivel de dificultad uniforme. Agrúpalos por tema y véndelos en Etsy o Hotmart. El formato basado en escenas con imágenes hace que las miniaturas de tus listings sean visualmente atractivas comparadas con fichas de gramática basadas en texto. Los packs temáticos también fomentan compras repetidas: un comprador que disfruta tu pack de preposiciones de animales probablemente volverá por el de vehículos o festividades, creando fidelidad a largo plazo en tu tienda.',
     },
     {
       title: 'Cuadernos de Lenguaje Espacial para KDP',
@@ -73,7 +73,7 @@ const content: ToolContent = {
     },
     {
       title: 'Conjuntos Diferenciados por Modo de Ejercicio',
-      description: 'Genera dos versiones de cada ficha temática: Opción Múltiple para usuarios más pequeños o con dificultades, y Rellenar Espacios en Blanco para usuarios preparados para la recuperación activa. Los vendedores pueden entregar la versión adecuada a cada usuario según su nivel. Véndelos como un pack diferenciado a un precio premium en Gumroad o Etsy.',
+      description: 'Genera dos versiones de cada ficha temática: Opción Múltiple para usuarios más pequeños o con dificultades, y Rellenar Espacios en Blanco para usuarios preparados para la recuperación activa. Los vendedores pueden entregar la versión adecuada a cada usuario según su nivel. Véndelos como un pack diferenciado a un precio premium en Hotmart o Etsy.',
     },
     {
       title: 'Productos de Preposiciones Multilingües',
@@ -85,7 +85,7 @@ const content: ToolContent = {
     },
     {
       title: 'Packs de Preposiciones Estacionales',
-      description: 'Usa temas de imágenes festivas y estacionales para crear packs de edición limitada. Un pack de \"Preposiciones de Navidad\" con escenas festivas — regalos debajo del árbol, estrellas encima de la casa, dulces dentro del calcetín — se vende muy bien en noviembre y diciembre. La vuelta al cole, Halloween y la primavera tienen sus propias ventanas de ventas pico en Etsy y Gumroad.',
+      description: 'Usa temas de imágenes festivas y estacionales para crear packs de edición limitada. Un pack de \"Preposiciones de Navidad\" con escenas festivas — regalos debajo del árbol, estrellas encima de la casa, dulces dentro del calcetín — se vende muy bien en noviembre y diciembre. La vuelta al cole, Halloween y la primavera tienen sus propias ventanas de ventas pico en Etsy y Hotmart.',
     },
   ],
 
@@ -101,14 +101,14 @@ const content: ToolContent = {
       platform: 'Amazon KDP',
     },
     {
-      title: 'Packs de Gramática en Gumroad',
-      description: 'Sube packs de fichas de preposiciones a Gumroad organizados por dificultad y modo de ejercicio. Incluye conjuntos de Rellenar Espacios en Blanco, conjuntos de Opción Múltiple y packs de modo mixto con claves de respuestas para cada página. Los vendedores buscan \"fichas de preposiciones\" y \"actividades de lenguaje espacial\" con frecuencia. El formato de escena con imágenes añade valor percibido porque los usuarios interactúan con contexto visual en lugar de frases abstractas para completar.',
-      platform: 'Gumroad',
+      title: 'Packs de Gramática en Hotmart',
+      description: 'Sube packs de fichas de preposiciones a Hotmart organizados por dificultad y modo de ejercicio. Incluye conjuntos de Rellenar Espacios en Blanco, conjuntos de Opción Múltiple y packs de modo mixto con claves de respuestas para cada página. Los vendedores buscan \"fichas de preposiciones\" y \"actividades de lenguaje espacial\" con frecuencia. El formato de escena con imágenes añade valor percibido porque los usuarios interactúan con contexto visual en lugar de frases abstractas para completar.',
+      platform: 'Hotmart',
     },
     {
-      title: 'Kits de Preposiciones de Doble Modo en Gumroad',
-      description: 'Crea kits premium de preposiciones en Gumroad que incluyan versiones de Rellenar Espacios en Blanco y Opción Múltiple de cada ficha, más claves de respuestas y una guía de uso. Agrupa versiones en 5 a 11 idiomas en un solo producto multilingüe. Dirígete a vendedores de ESL, familias bilingües y escuelas internacionales que necesitan materiales de lenguaje espacial en múltiples idiomas.',
-      platform: 'Gumroad',
+      title: 'Kits de Preposiciones de Doble Modo en Hotmart',
+      description: 'Crea kits premium de preposiciones en Hotmart que incluyan versiones de Rellenar Espacios en Blanco y Opción Múltiple de cada ficha, más claves de respuestas y una guía de uso. Agrupa versiones en 5 a 11 idiomas en un solo producto multilingüe. Dirígete a vendedores de ESL, familias bilingües y escuelas internacionales que necesitan materiales de lenguaje espacial en múltiples idiomas.',
+      platform: 'Hotmart',
     },
     {
       title: 'Embudo de Preposiciones con Escenas en Pinterest',
@@ -125,7 +125,7 @@ const content: ToolContent = {
   proTips: [
     {
       title: 'Usa Rellenar para Usuarios Mayores',
-      description: 'El modo Rellenar Espacios en Blanco requiere recuperación activa — los usuarios deben producir la preposición correcta de memoria, no solo reconocerla. Esto es ideal para segundo grado en adelante y usuarios de ESL que ya conocen las palabras de posición pero necesitan práctica de escritura. También hace que las fichas sean más difíciles de adivinar, aumentando el valor educativo. En Etsy y Gumroad, los listings que enfatizan el aprendizaje basado en recuperación atraen consistentemente a compradores vendedores que buscan práctica rigurosa de lenguaje espacial en lugar de ejercicios simples de reconocimiento, así que destacar este modo en tus descripciones de producto puede mejorar las conversiones.',
+      description: 'El modo Rellenar Espacios en Blanco requiere recuperación activa — los usuarios deben producir la preposición correcta de memoria, no solo reconocerla. Esto es ideal para segundo grado en adelante y usuarios de ESL que ya conocen las palabras de posición pero necesitan práctica de escritura. También hace que las fichas sean más difíciles de adivinar, aumentando el valor educativo. En Etsy y Hotmart, los listings que enfatizan el aprendizaje basado en recuperación atraen consistentemente a compradores vendedores que buscan práctica rigurosa de lenguaje espacial en lugar de ejercicios simples de reconocimiento, así que destacar este modo en tus descripciones de producto puede mejorar las conversiones.',
     },
     {
       title: 'Usa Opción Múltiple para Principiantes',
@@ -188,7 +188,7 @@ const content: ToolContent = {
     },
     {
       question: '¿Puedo usar las fichas con fines comerciales?',
-      answer: 'La prueba gratuita con marca de agua es solo para uso personal y educativo. Para vender fichas en Etsy, Gumroad, Amazon KDP o cualquier otro marketplace, necesitas una licencia comercial. La licencia comercial elimina la marca de agua y otorga derechos completos de reventa para las fichas que crees.',
+      answer: 'La prueba gratuita con marca de agua es solo para uso personal y educativo. Para vender fichas en Etsy, Hotmart, Amazon KDP o cualquier otro marketplace, necesitas una licencia comercial. La licencia comercial elimina la marca de agua y otorga derechos completos de reventa para las fichas que crees.',
     },
     {
       question: '¿En qué formatos de archivo puedo descargar?',

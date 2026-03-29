@@ -2,30 +2,30 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'generador de criptogramas',
+    primaryKeyword: 'generador de criptogramas gratis',
     secondaryKeywords: [
-      'crear fichas de criptogramas imprimibles para vender',
-      'generador de puzzles cifrados con imágenes uso comercial',
-      'fichas de criptogramas con cifrado de imágenes para KDP',
-      'herramienta para crear criptogramas imprimibles',
+      'criptogramas gratis sin registro',
+      'generador de criptogramas gratis en linea',
+      'crear criptogramas gratis para imprimir',
+      'fichas de criptogramas gratis sin tarjeta',
     ],
     lsiKeywords: [
-      'cifrado de imágenes a letras imprimibles para Etsy',
-      'generador de fichas de descifrado de códigos',
-      'criptogramas multilingües con imágenes temáticas',
+      'juegos de decodificacion de letras imprimibles',
+      'actividades de criptografia para ninos',
+      'fichas de descifrar mensajes secretos',
     ],
-    titleTag: 'Generador de Criptogramas | Crear y Vender',
-    metaDescription: 'Genera criptogramas con cifrado de imágenes, control de dificultad, asignación automática, claves de respuesta en 11 idiomas. Prueba gratuita con marca de.',
+    titleTag: 'Generador de criptogramas gratis | LCS',
+    metaDescription: 'Cree criptogramas gratis donde los ninos descifran mensajes secretos. Sin registro, sin tarjeta de credito. Descarga con marca de agua. Licencia comercial.',
   },
 
   hero: {
-    title: 'Generador de Criptogramas con Imágenes',
-    tagline: 'Crea puzzles de cifrado donde cada letra del alfabeto se asocia a una imagen y los usuarios descifran frases secretas completas mediante reconocimiento de patrones',
-    description: 'Diseña fichas profesionales de criptogramas basadas en un cifrado con imágenes: cada letra del alfabeto se asocia a una imagen única, y tu frase secreta se muestra como una secuencia de imágenes que los usuarios deben descifrar para convertirla en texto legible. A diferencia de las sopas de letras o las palabras desordenadas que trabajan con palabras individuales, el generador de criptogramas codifica frases y oraciones completas — los usuarios descifran el código deduciendo qué imagen representa cada letra, usando pistas contextuales de palabras comunes como \"el\", \"y\", \"es\" para acelerar el descifrado. El deslizador de Letras a Revelar (0–10) es el control principal de dificultad: ponlo en cero para un desafío puro de descifrado sin información inicial, o súbelo a diez para un andamiaje intenso donde muchas asociaciones letra-imagen ya están resueltas como pistas. La Asignación Automática toma imágenes aleatorias de cualquiera de las 104 colecciones temáticas (más de 3.100 ilustraciones) para completar todo el cifrado con un solo clic, mientras que la Asignación Manual te permite elegir manualmente qué imagen específica representa cada letra específica con una vista previa visual completa de todas las asociaciones. Sube imágenes propias para control creativo total. La clave de respuestas incluye una leyenda de letras que muestra cada letra del alfabeto emparejada con su imagen asignada en orden alfabético — la referencia definitiva para la solución. La sensibilidad lingüística está integrada: cambia de idioma y tanto el texto del mensaje secreto como el alfabeto cambian. Los criptogramas en alemán codifican frases alemanas con ä, ö, ü, ß en el alfabeto; los criptogramas en francés usan é, è, ç, à; los criptogramas en español incluyen ñ y vocales acentuadas (á, é, í, ó, ú). Cada versión en un idioma diferente es un producto de cifrado genuinamente distinto. Exporta PDF e imágenes JPEG listos para imprimir a más de 400 DPI en tamaño Carta, A4 o personalizado. Elige entre 5 fuentes, activa la escala de grises para ahorro de tinta y usa el lienzo completo de Fabric.js para reposicionar cada elemento. La prueba gratuita incluye una marca de agua en las descargas. Compra una licencia para eliminar la marca de agua y vender con uso comercial.',
+    title: 'Cree criptogramas gratis para descifrar mensajes',
+    tagline: 'Fichas de decodificacion listas en segundos — gratis y sin registro.',
+    description: 'Cree criptogramas gratis donde los ninos descifran mensajes secretos sustituyendo simbolos por letras. Este generador produce fichas de criptografia educativa con diferentes niveles de dificultad y temas. Cada ficha incluye la clave de decodificacion y el solucionario automatico, y se exporta en PDF listo para imprimir. No necesita registro ni tarjeta de credito — todas las funciones estan disponibles desde el primer momento. Las descargas incluyen marca de agua transparente. Perfecto para padres que buscan actividades de logica y educadores que quieren material diferente. ¿Quiere vender criptogramas? Pase a la licencia comercial para PDFs sin marca de agua a 300 DPI.',
   },
 
   tutorial: {
-    title: 'Cómo Crear Criptogramas con Imágenes en 8 Pasos Sencillos',
+    title: 'Como crear criptogramas gratis paso a paso',
     steps: [
       {
         title: 'Abrir el Generador de Criptogramas',
@@ -65,7 +65,7 @@ const content: ToolContent = {
   whatYouCanCreate: [
     {
       title: 'Packs de Puzzles de Cifrado por Tema',
-      description: 'Crea conjuntos de 10 a 20 fichas de criptogramas agrupados por tema de imagen — animales de granja, criaturas marinas, vehículos, comida, festividades y más. Usa la Asignación Automática para asociar imágenes temáticas al alfabeto y varía el ajuste de Letras a Revelar en el conjunto para dificultad progresiva: empieza con 8 revelaciones para puzzles de calentamiento y baja hasta 0 revelaciones para desafíos expertos. Incluye leyendas de letras con clave de respuestas para cada puzzle. El formato de cifrado visual con imágenes temáticas destaca frente a los listings estándar de crucigramas o sopas de letras en Etsy y Gumroad.',
+      description: 'Crea conjuntos de 10 a 20 fichas de criptogramas agrupados por tema de imagen — animales de granja, criaturas marinas, vehículos, comida, festividades y más. Usa la Asignación Automática para asociar imágenes temáticas al alfabeto y varía el ajuste de Letras a Revelar en el conjunto para dificultad progresiva: empieza con 8 revelaciones para puzzles de calentamiento y baja hasta 0 revelaciones para desafíos expertos. Incluye leyendas de letras con clave de respuestas para cada puzzle. El formato de cifrado visual con imágenes temáticas destaca frente a los listings estándar de crucigramas o sopas de letras en Etsy y Hotmart.',
     },
     {
       title: 'Cuadernos de Criptogramas para KDP',
@@ -85,7 +85,7 @@ const content: ToolContent = {
     },
     {
       title: 'Packs de Cifrado Estacionales y Festivos',
-      description: 'Usa temas de imágenes festivas y estacionales para crear packs de criptogramas de edición limitada. Un pack de \"Mensajes Secretos de Halloween\" con imágenes de cifrado temáticas se vende muy bien en octubre. Navidad, vuelta al cole, San Valentín y temas de verano tienen sus propias ventanas de ventas pico en Etsy y Gumroad. Combina puzzles con andamiaje de 6 a 8 revelaciones para usuarios más jóvenes con puzzles expertos de cero revelaciones para mayores en un solo pack estacional para maximizar tu audiencia de compradores.',
+      description: 'Usa temas de imágenes festivas y estacionales para crear packs de criptogramas de edición limitada. Un pack de \"Mensajes Secretos de Halloween\" con imágenes de cifrado temáticas se vende muy bien en octubre. Navidad, vuelta al cole, San Valentín y temas de verano tienen sus propias ventanas de ventas pico en Etsy y Hotmart. Combina puzzles con andamiaje de 6 a 8 revelaciones para usuarios más jóvenes con puzzles expertos de cero revelaciones para mayores en un solo pack estacional para maximizar tu audiencia de compradores.',
     },
   ],
 
@@ -101,9 +101,9 @@ const content: ToolContent = {
       platform: 'Amazon KDP',
     },
     {
-      title: 'Centros de Descifrado en Gumroad',
-      description: 'Sube packs de fichas de criptogramas a Gumroad organizados por tema y nivel de dificultad. Incluye cuatro niveles de dificultad por tema usando Letras a Revelar como eje de diferenciación. Acompaña con leyendas de letras y hojas de seguimiento del progreso del usuario. La mecánica de cifrado es inherentemente atractiva — los usuarios experimentan auténtica emoción de descifrado a medida que cada letra decodificada desbloquea más del mensaje secreto. Los vendedores buscan \"actividades de descifrado de códigos\" y \"fichas de cifrado\" y encuentran muy pocas opciones de calidad.',
-      platform: 'Gumroad',
+      title: 'Centros de Descifrado en Hotmart',
+      description: 'Sube packs de fichas de criptogramas a Hotmart organizados por tema y nivel de dificultad. Incluye cuatro niveles de dificultad por tema usando Letras a Revelar como eje de diferenciación. Acompaña con leyendas de letras y hojas de seguimiento del progreso del usuario. La mecánica de cifrado es inherentemente atractiva — los usuarios experimentan auténtica emoción de descifrado a medida que cada letra decodificada desbloquea más del mensaje secreto. Los vendedores buscan \"actividades de descifrado de códigos\" y \"fichas de cifrado\" y encuentran muy pocas opciones de calidad.',
+      platform: 'Hotmart',
     },
     {
       title: 'Tienda Multilingüe de Cifrados',
@@ -116,9 +116,9 @@ const content: ToolContent = {
       platform: 'Pinterest',
     },
     {
-      title: 'Kit Completo de Descifrado de Códigos en Gumroad',
-      description: 'Combina fichas de criptogramas con sopas de letras, palabras desordenadas, adivinar palabras y fichas de asociación para crear un kit completo de puzzles de lectoescritura en Gumroad. Cada formato ejercita una habilidad cognitiva diferente: el criptograma desarrolla la deducción y el reconocimiento de patrones mediante el descifrado, la sopa de letras ejercita el escaneo visual, las palabras desordenadas practican la reorganización de letras, adivinar palabras evalúa la memoria ortográfica. Un kit de puzzles multiformato justifica un precio premium y ofrece a los usuarios práctica variada con los mismos temas de vocabulario.',
-      platform: 'Gumroad',
+      title: 'Kit Completo de Descifrado de Códigos en Hotmart',
+      description: 'Combina fichas de criptogramas con sopas de letras, palabras desordenadas, adivinar palabras y fichas de asociación para crear un kit completo de puzzles de lectoescritura en Hotmart. Cada formato ejercita una habilidad cognitiva diferente: el criptograma desarrolla la deducción y el reconocimiento de patrones mediante el descifrado, la sopa de letras ejercita el escaneo visual, las palabras desordenadas practican la reorganización de letras, adivinar palabras evalúa la memoria ortográfica. Un kit de puzzles multiformato justifica un precio premium y ofrece a los usuarios práctica variada con los mismos temas de vocabulario.',
+      platform: 'Hotmart',
     },
   ],
 
@@ -188,7 +188,7 @@ const content: ToolContent = {
     },
     {
       question: '¿Puedo vender fichas creadas con esta herramienta con fines comerciales?',
-      answer: 'La prueba gratuita con marca de agua es solo para uso personal y educativo. Para vender fichas en Etsy, Gumroad, Amazon KDP o cualquier otro marketplace, necesitas una licencia comercial. La licencia comercial elimina la marca de agua y otorga derechos completos de reventa para los criptogramas que crees.',
+      answer: 'La prueba gratuita con marca de agua es solo para uso personal y educativo. Para vender fichas en Etsy, Hotmart, Amazon KDP o cualquier otro marketplace, necesitas una licencia comercial. La licencia comercial elimina la marca de agua y otorga derechos completos de reventa para los criptogramas que crees.',
     },
     {
       question: '¿En qué formatos de archivo puedo descargar?',

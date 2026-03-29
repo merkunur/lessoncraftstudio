@@ -2,30 +2,30 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'generador fichas objetos ocultos',
+    primaryKeyword: 'generador de busca y encuentra gratis',
     secondaryKeywords: [
-      'creador fichas yo espío busca objetos uso comercial',
-      'generador fichas encuentra el diferente para Etsy y KDP',
-      'herramienta fichas objetos ocultos sin superposición licencia comercial',
-      'crear fichas busca y encuentra visuales para vender en línea',
+      'busca y encuentra gratis sin registro',
+      'generador de busca objetos gratis en linea',
+      'fichas de busca y encuentra gratis para imprimir',
+      'hojas de encontrar objetos gratis sin tarjeta',
     ],
     lsiKeywords: [
-      'modo yo espío y encuentra el diferente doble actividad visual',
-      'algoritmo sin superposición 50 posiciones tamaño adaptativo escena dispersa',
-      'clave de respuestas autogenerada círculos rojos anotaciones objetos ocultos',
+      'actividades de atencion visual para ninos',
+      'fichas de buscar objetos ocultos imprimibles',
+      'juegos de observacion y concentracion',
     ],
-    titleTag: 'Generador Fichas Objetos Ocultos — Yo Espío para Vendedores',
-    metaDescription: 'Crea fichas de objetos ocultos con modos Yo Espío y Encuentra el Diferente, escenas sin superposición, claves de respuestas con círculos rojos, 104 temas.',
+    titleTag: 'Busca y encuentra gratis en linea | LCS',
+    metaDescription: 'Cree fichas de busca y encuentra gratis con imagenes tematicas. Sin registro, sin tarjeta de credito. Descarga con marca de agua. Licencia comercial.',
   },
 
   hero: {
-    title: 'Generador de Fichas de Objetos Ocultos',
-    tagline: 'Generador de fichas de objetos ocultos con dos modos — Yo Espío (escenas dispersas sin superposición con 1–5 objetos ocultos entre 8–12 distractores y leyenda inferior) y Encuentra el Diferente (8–12 imágenes emparejadas con 1–5 elementos sin pareja renderizados un 50% más grandes), algoritmo de tamaño de imagen adaptativo que prueba 50 posiciones por imagen, claves de respuestas autogeneradas con anotaciones de círculos rojos, y fichas puramente visuales que se venden en todo el mundo sin traducción',
-    description: 'Crea fichas profesionales de objetos ocultos donde los usuarios buscan en una escena visual para encontrar y rodear objetos específicos. El generador ofrece dos modos de actividad que producen desafíos cognitivos fundamentalmente diferentes. El modo Yo Espío usa un algoritmo de posicionamiento sin superposición para dispersar de 1 a 5 objetos ocultos entre 8 a 12 distractores por toda la página — sin cuadrícula, sin filas ni columnas, solo una escena visual cohesiva. El algoritmo findBestPosition() prueba 50 posiciones aleatorias por imagen y selecciona la ubicación con menor superposición, reduciendo adaptativamente el tamaño de la imagen cuando el espacio es limitado. Una leyenda en la parte inferior de la ficha (margen de 120 px) muestra a los usuarios exactamente qué objetos deben encontrar, haciendo las fichas accesibles para prelectores sin instrucciones escritas. El modo Encuentra el Diferente organiza de 8 a 12 imágenes emparejadas con 1 a 5 elementos sin pareja mezclados — los usuarios identifican las imágenes que no tienen un par correspondiente. Las imágenes en el modo Encuentra el Diferente se renderizan un 50% más grandes que en el modo Yo Espío para una comparación visual clara. El sistema de doble lienzo genera tanto una pestaña de ficha como una pestaña de clave de respuestas simultáneamente. La clave de respuestas reproduce el diseño exacto de la ficha y dibuja círculos rojos alrededor de los objetos ocultos (Yo Espío) o los elementos sin pareja (Encuentra el Diferente), de 3 a 5 px más grandes que el objeto para mayor visibilidad. Un encabezado autogenerado muestra tu título en fuente Fredoka con autoajuste — 32 px para títulos cortos reduciéndose a 18 px para textos más largos — con contenedores decorativos blancos tipo píldora y sombras. Activa o desactiva los campos de nombre y fecha para identificación del usuario. El Generador de Objetos Ocultos NO depende del idioma: las fichas son puramente visuales sin nombres de imagen localizados en el contenido de la ficha, así que cada ficha se vende universalmente en todos los mercados sin traducción. Explora 104 colecciones temáticas con más de 3100 ilustraciones o sube imágenes personalizadas en formato PNG, JPG o GIF. Aplica temas de fondo y de borde con controles de opacidad independientes. Añade texto personalizado con 7 opciones de fuente (Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial, Verdana) y contorno de texto de 0 a 10. Exporta PDF y JPEG listos para imprimir a 300 DPI (multiplicador 6×) en Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal, Cuadrado (1200×1200) o dimensiones personalizadas. Activa escala de grises para impresión que ahorra tinta. Edita todo en el lienzo Fabric.js con arrastrar, redimensionar, rotar, capas, bloquear/desbloquear, 6 opciones de alineación más centrar en página, zoom del 25% al 300%, y 20 estados de deshacer/rehacer. La prueba gratuita incluye todas las funciones con una marca de agua en las descargas. Compra una licencia para eliminar la marca de agua y vender comercialmente.',
+    title: 'Cree fichas de busca y encuentra gratis en linea',
+    tagline: 'Fichas de buscar objetos listas en segundos — gratis y sin registro.',
+    description: 'Cree fichas de busca y encuentra gratis donde los ninos localizan objetos escondidos entre imagenes tematicas. Este generador produce fichas de atencion visual con ilustraciones de mas de 100 categorias — animales, alimentos, vehiculos y mas. Seleccione el nivel de dificultad, la cantidad de objetos y el tema visual. Cada ficha incluye solucionario automatico y se exporta en PDF listo para imprimir. No necesita registro ni tarjeta de credito — todas las funciones disponibles al instante. Las descargas incluyen marca de agua transparente. Perfecto para padres y educadores que buscan actividades de concentracion. ¿Quiere vender fichas de busca y encuentra? Pase a la licencia comercial para PDFs sin marca de agua.',
   },
 
   tutorial: {
-    title: 'Cómo Crear Fichas de Objetos Ocultos en 8 Pasos',
+    title: 'Como crear fichas de busca y encuentra gratis',
     steps: [
       {
         title: 'Abre el Generador de Objetos Ocultos',
@@ -57,7 +57,7 @@ const content: ToolContent = {
       },
       {
         title: 'Descarga los Cuatro Archivos',
-        description: 'Activa la escala de grises para versiones que ahorran tinta, ideales para impresión en volumen e interiores de KDP. Descarga los cuatro archivos desde una sola sesión: JPEG de ficha, PDF de ficha, JPEG de clave de respuestas y PDF de clave de respuestas — todos renderizados a 300 DPI (multiplicador 6×). Cada pestaña tiene su propio par de botones de descarga. Todas las exportaciones están listas para producción en listados de Etsy, interiores de Amazon KDP y archivos de productos de Gumroad sin necesidad de posproducción. Cambia de tema, ajusta la cantidad de objetos, cambia el modo de actividad y genera de nuevo para crear variedad rápida en las 104 colecciones temáticas.',
+        description: 'Activa la escala de grises para versiones que ahorran tinta, ideales para impresión en volumen e interiores de KDP. Descarga los cuatro archivos desde una sola sesión: JPEG de ficha, PDF de ficha, JPEG de clave de respuestas y PDF de clave de respuestas — todos renderizados a 300 DPI (multiplicador 6×). Cada pestaña tiene su propio par de botones de descarga. Todas las exportaciones están listas para producción en listados de Etsy, interiores de Amazon KDP y archivos de productos de Hotmart sin necesidad de posproducción. Cambia de tema, ajusta la cantidad de objetos, cambia el modo de actividad y genera de nuevo para crear variedad rápida en las 104 colecciones temáticas.',
       },
     ],
   },
@@ -101,23 +101,23 @@ const content: ToolContent = {
       platform: 'Amazon KDP',
     },
     {
-      title: 'Paquetes de Actividades de Objetos Ocultos para venta en línea en Gumroad',
-      description: 'Sube paquetes de actividades de objetos ocultos a Gumroad con campos de nombre y fecha y claves de respuestas autogeneradas como puntos de venta principales. Los vendedores que buscan actividades de búsqueda visual y observación valoran fichas que llegan listas para venta en línea con soluciones incluidas. Crea conjuntos alineados con el catálogo de productos: objetos ocultos de animales de granja para ciencias, Yo Espío de profesiones para estudios sociales, búsqueda de grupos alimenticios para nutrición, y escenas de objetos ocultos estacionales para unidades de festividades. Incluye fichas tanto de Yo Espío como de Encuentra el Diferente para paquetes escalonados por nivel — Yo Espío para práctica de búsqueda visual y Encuentra el Diferente para desarrollo de discriminación visual.',
-      platform: 'Gumroad',
+      title: 'Paquetes de Actividades de Objetos Ocultos para venta en línea en Hotmart',
+      description: 'Sube paquetes de actividades de objetos ocultos a Hotmart con campos de nombre y fecha y claves de respuestas autogeneradas como puntos de venta principales. Los vendedores que buscan actividades de búsqueda visual y observación valoran fichas que llegan listas para venta en línea con soluciones incluidas. Crea conjuntos alineados con el catálogo de productos: objetos ocultos de animales de granja para ciencias, Yo Espío de profesiones para estudios sociales, búsqueda de grupos alimenticios para nutrición, y escenas de objetos ocultos estacionales para unidades de festividades. Incluye fichas tanto de Yo Espío como de Encuentra el Diferente para paquetes escalonados por nivel — Yo Espío para práctica de búsqueda visual y Encuentra el Diferente para desarrollo de discriminación visual.',
+      platform: 'Hotmart',
     },
     {
       title: 'Embudo de Tráfico en Pinterest con Fichas de Objetos Ocultos',
-      description: 'Las fichas de objetos ocultos crean pins visualmente impactantes en Pinterest — escenas coloridas de imágenes dispersas con objetos para encontrar crean contenido imprimible inmediatamente atractivo que padres y vendedores hacen clic. Pinea fichas de muestra mostrando ambos modos: Yo Espío con objetos ocultos dispersos y la leyenda inferior, y Encuentra el Diferente con imágenes emparejadas en filas. Crea series de pins separadas para \"fichas de objetos ocultos para niños\", \"actividades imprimibles yo espío\" y \"fichas visuales encuentra el diferente\". Las imágenes de vista previa de la clave de respuestas con anotaciones de círculos rojos demuestran calidad profesional. Enlaza cada pin a tus listados de Etsy o Gumroad para conversión directa.',
+      description: 'Las fichas de objetos ocultos crean pins visualmente impactantes en Pinterest — escenas coloridas de imágenes dispersas con objetos para encontrar crean contenido imprimible inmediatamente atractivo que padres y vendedores hacen clic. Pinea fichas de muestra mostrando ambos modos: Yo Espío con objetos ocultos dispersos y la leyenda inferior, y Encuentra el Diferente con imágenes emparejadas en filas. Crea series de pins separadas para \"fichas de objetos ocultos para niños\", \"actividades imprimibles yo espío\" y \"fichas visuales encuentra el diferente\". Las imágenes de vista previa de la clave de respuestas con anotaciones de círculos rojos demuestran calidad profesional. Enlaza cada pin a tus listados de Etsy o Hotmart para conversión directa.',
       platform: 'Pinterest',
     },
     {
-      title: 'Kit Completo de Actividades de Objetos Ocultos en Gumroad',
-      description: 'Empaqueta fichas de objetos ocultos de los 104 temas y ambos modos de actividad en un kit completo en Gumroad. Incluye más de 300 fichas abarcando el modo Yo Espío con niveles de dificultad progresiva (1–5 objetos ocultos, 8–12 distractores) y el modo Encuentra el Diferente con cantidades variables de imágenes emparejadas. Cada ficha incluye su clave de respuestas autogenerada con anotaciones de círculos rojos, duplicando tu conteo de archivos a más de 600 archivos en total. El algoritmo sin superposición y los dos modos de actividad producen más variedad que cualquier competidor que ofrezca fichas simples de objetos ocultos basadas en cuadrícula. El formato kit justifica precios premium porque los compradores obtienen una biblioteca completa de fichas de objetos ocultos.',
-      platform: 'Gumroad',
+      title: 'Kit Completo de Actividades de Objetos Ocultos en Hotmart',
+      description: 'Empaqueta fichas de objetos ocultos de los 104 temas y ambos modos de actividad en un kit completo en Hotmart. Incluye más de 300 fichas abarcando el modo Yo Espío con niveles de dificultad progresiva (1–5 objetos ocultos, 8–12 distractores) y el modo Encuentra el Diferente con cantidades variables de imágenes emparejadas. Cada ficha incluye su clave de respuestas autogenerada con anotaciones de círculos rojos, duplicando tu conteo de archivos a más de 600 archivos en total. El algoritmo sin superposición y los dos modos de actividad producen más variedad que cualquier competidor que ofrezca fichas simples de objetos ocultos basadas en cuadrícula. El formato kit justifica precios premium porque los compradores obtienen una biblioteca completa de fichas de objetos ocultos.',
+      platform: 'Hotmart',
     },
     {
       title: 'Línea de Productos de Fichas Visuales Globales',
-      description: 'El Generador de Objetos Ocultos produce fichas puramente visuales — ningún texto específico de idioma aparece en el contenido de la ficha. La leyenda de Yo Espío usa imágenes, no palabras, y Encuentra el Diferente es enteramente visual. Los mismos archivos de producto funcionan en todos los países sin traducción ni modificación. Una sola sesión de creación produce un catálogo vendible globalmente. Vende archivos idénticos en tiendas de Etsy dirigidas a diferentes países, publica los mismos interiores de KDP en todos los mercados internacionales de Amazon, y lista en Gumroad para vendedores internacionales. Sin versiones separadas por idioma, sin costes de traducción, sin mantenimiento por cada país — el formato puramente visual es tu mayor ventaja de venta global.',
+      description: 'El Generador de Objetos Ocultos produce fichas puramente visuales — ningún texto específico de idioma aparece en el contenido de la ficha. La leyenda de Yo Espío usa imágenes, no palabras, y Encuentra el Diferente es enteramente visual. Los mismos archivos de producto funcionan en todos los países sin traducción ni modificación. Una sola sesión de creación produce un catálogo vendible globalmente. Vende archivos idénticos en tiendas de Etsy dirigidas a diferentes países, publica los mismos interiores de KDP en todos los mercados internacionales de Amazon, y lista en Hotmart para vendedores internacionales. Sin versiones separadas por idioma, sin costes de traducción, sin mantenimiento por cada país — el formato puramente visual es tu mayor ventaja de venta global.',
       platform: 'Etsy / Amazon KDP',
     },
   ],
@@ -133,7 +133,7 @@ const content: ToolContent = {
     },
     {
       title: 'Aprovecha el Formato Puramente Visual para Ventas Mundiales sin Traducción',
-      description: 'Las fichas de objetos ocultos contienen solo imágenes — sin texto específico de idioma en el contenido de la ficha. La leyenda de Yo Espío muestra los objetos objetivo visualmente, y Encuentra el Diferente es puramente basado en imágenes. Cada ficha que creas es vendible instantáneamente en todo el mundo sin traducción ni localización. Un solo conjunto de fichas de objetos ocultos sirve para cada tienda internacional de Etsy, cada mercado de KDP y cada comprador de Gumroad sin importar el idioma. Mientras los competidores crean versiones separadas por idioma de fichas con mucho texto, tus fichas visuales funcionan en todas partes desde un solo conjunto de archivos.',
+      description: 'Las fichas de objetos ocultos contienen solo imágenes — sin texto específico de idioma en el contenido de la ficha. La leyenda de Yo Espío muestra los objetos objetivo visualmente, y Encuentra el Diferente es puramente basado en imágenes. Cada ficha que creas es vendible instantáneamente en todo el mundo sin traducción ni localización. Un solo conjunto de fichas de objetos ocultos sirve para cada tienda internacional de Etsy, cada mercado de KDP y cada comprador de Hotmart sin importar el idioma. Mientras los competidores crean versiones separadas por idioma de fichas con mucho texto, tus fichas visuales funcionan en todas partes desde un solo conjunto de archivos.',
     },
     {
       title: 'Incluye Ambos Modos de Actividad en Cada Paquete para Máximo Valor Percibido',
@@ -196,7 +196,7 @@ const content: ToolContent = {
     },
     {
       question: '¿Puedo vender fichas de objetos ocultos creadas con esta herramienta comercialmente?',
-      answer: 'Sí. Con una licencia comercial, tienes plenos derechos para vender fichas de objetos ocultos como descargas digitales en Etsy, cuadernos de actividades impresos en Amazon KDP, recursos para venta en línea en Gumroad, o a través de cualquier otro canal de ventas. Los dos modos de actividad, la generación de escenas sin superposición, el tamaño de imagen adaptativo, las claves de respuestas autogeneradas con anotaciones de círculos rojos, la leyenda de Yo Espío, subida de imágenes personalizadas, y las 104 colecciones temáticas de imágenes te dan todo lo necesario para crear productos profesionales de objetos ocultos que compiten en categorías de búsqueda y encuentro en cualquier marketplace importante.',
+      answer: 'Sí. Con una licencia comercial, tienes plenos derechos para vender fichas de objetos ocultos como descargas digitales en Etsy, cuadernos de actividades impresos en Amazon KDP, recursos para venta en línea en Hotmart, o a través de cualquier otro canal de ventas. Los dos modos de actividad, la generación de escenas sin superposición, el tamaño de imagen adaptativo, las claves de respuestas autogeneradas con anotaciones de círculos rojos, la leyenda de Yo Espío, subida de imágenes personalizadas, y las 104 colecciones temáticas de imágenes te dan todo lo necesario para crear productos profesionales de objetos ocultos que compiten en categorías de búsqueda y encuentro en cualquier marketplace importante.',
     },
     {
       question: '¿Cuál es la política de reembolso?',

@@ -1,30 +1,30 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'crear fichas suma codificada para venta en línea',
+    primaryKeyword: 'crear rompecabezas matematicos codificados gratis',
     secondaryKeywords: [
-      'puzzles código secreto matemáticas para vendedores',
-      'fichas suma cifrada para la clase',
-      'ejercicios código matemáticas para niños',
-      'creador de fichas suma codificada',
+      'rompecabezas de codigo matematico gratis sin registro',
+      'generador de sumas codificadas gratis en linea',
+      'fichas de codigo de sumas gratis para imprimir',
+      'puzzles matematicos con codigo gratis',
     ],
     lsiKeywords: [
-      'puzzle cifrado matemáticas con imágenes para venta en línea',
-      'ficha descubrir palabra código secreto',
-      'actividad código numérico matemáticas para usuarios',
+      'actividades de logica matematica para ninos',
+      'ejercicios de decodificacion con sumas',
+      'fichas de matematicas divertidas imprimibles',
     ],
-    titleTag: 'Fichas Suma Codificada — Puzzles para venta en línea',
-    metaDescription: 'Crea puzzles de suma codificada para venta en línea. Códigos secretos con imágenes, modo Descubrir Palabra, 11 idiomas. Prueba gratis con marca de agua.',
+    titleTag: 'Rompecabezas de codigo gratis | LCS',
+    metaDescription: 'Cree rompecabezas matemáticos codificados gratis. Resuelva sumas para descifrar mensajes. Sin registro. Licencia comercial disponible.',
     },
 
   hero: {
-    title: 'Generador de Fichas de Suma Codificada',
-    tagline: 'Crea puzzles criptaritméticos donde los usuarios descifran códigos secretos resolviendo sumas',
-    description: 'Esto no es una ficha de suma más — es un desafío de descifrado. Cada puzzle esconde números detrás de símbolos con imágenes, y los usuarios deben resolver ecuaciones de suma para averiguar qué número corresponde a cada imagen. En Modo Regular, cada símbolo representa un dígito único. Cambia al Modo Descubrir Palabra y cada ecuación resuelta revela una letra de una palabra secreta, mientras que letras distractoras mantienen a los usuarios en suspenso. Elige entre más de 100 temas de imágenes, ajusta la cantidad de símbolos y la complejidad de los sumandos, y descarga PDF o JPEG listos para imprimir. Compatible con 11 idiomas con alfabetos adaptados a cada lengua — el Modo Descubrir Palabra funciona de forma nativa en español con á, é, í, ó, ú, ñ y ü. La prueba gratuita incluye una marca de agua en las descargas. Compra una licencia para eliminar la marca de agua y vender tus creaciones con uso comercial.',
+    title: 'Cree rompecabezas matematicos codificados gratis en linea',
+    tagline: 'Combine sumas con decodificacion — fichas divertidas listas en segundos.',
+    description: 'Cree rompecabezas matematicos codificados gratis donde los ninos resuelven sumas para descifrar palabras y mensajes ocultos. Este generador combina calculo con logica de decodificacion, haciendo las matematicas mucho mas atractivas. Seleccione el nivel de dificultad, el tema visual y el tipo de mensaje. Cada ficha incluye solucionario y se exporta en PDF listo para imprimir. No necesita registro ni tarjeta de credito — todas las funciones disponibles al instante. Las descargas incluyen marca de agua. Ideal para padres y educadores que buscan actividades diferentes. ¿Quiere vender estas fichas? Pase a la licencia comercial para eliminar la marca de agua y vender en Etsy, KDP o Hotmart.',
   },
 
   tutorial: {
-    title: 'Cómo Crear Fichas de Suma Codificada en 8 Pasos Sencillos',
+    title: 'Como crear rompecabezas codificados gratis paso a paso',
     steps: [
       {
         title: 'Abrir el Generador de Fichas',
@@ -64,7 +64,7 @@ const content: ToolContent = {  seo: {
   whatYouCanCreate: [
     {
       title: 'Packs de Puzzles Descifra el Código',
-      description: 'Crea conjuntos temáticos de 10 a 20 puzzles criptaritméticos con imágenes de animales, espacio o festividades. Cada puzzle asigna números secretos diferentes a los símbolos, así que cada página es única. Agrupa como pack PDF y vende en Etsy o Gumroad.',
+      description: 'Crea conjuntos temáticos de 10 a 20 puzzles criptaritméticos con imágenes de animales, espacio o festividades. Cada puzzle asigna números secretos diferentes a los símbolos, así que cada página es única. Agrupa como pack PDF y vende en Etsy o Hotmart.',
     },
     {
       title: 'Cuadernos de Actividades Descubrir Palabra',
@@ -95,9 +95,9 @@ const content: ToolContent = {  seo: {
       platform: 'Etsy',
     },
     {
-      title: 'Puzzles Premium en Gumroad',
-      description: 'Sube packs de puzzles de descifrado diferenciados a Gumroad. Los vendedores buscan actividades de matemáticas motivadoras que van más allá de las fichas repetitivas. Incluye una guía vendedor explicando el Modo Regular vs el Modo Descubrir Palabra, más las claves de respuestas para cada puzzle. Un precio premium (de 5 $ a 8 $) está justificado por el formato único.',
-      platform: 'Gumroad',
+      title: 'Puzzles Premium en Hotmart',
+      description: 'Sube packs de puzzles de descifrado diferenciados a Hotmart. Los vendedores buscan actividades de matemáticas motivadoras que van más allá de las fichas repetitivas. Incluye una guía vendedor explicando el Modo Regular vs el Modo Descubrir Palabra, más las claves de respuestas para cada puzzle. Un precio premium (de 5 $ a 8 $) está justificado por el formato único.',
+      platform: 'Hotmart',
     },
     {
       title: 'Serie de Cuadernos de Puzzles en Amazon KDP',
@@ -105,9 +105,9 @@ const content: ToolContent = {  seo: {
       platform: 'Amazon KDP',
     },
     {
-      title: 'Pack de productos Digital en Gumroad',
-      description: 'Crea un programa estructurado de 8 semanas \"Descifra el Código Matemático\" con conjuntos de puzzles semanales. La semana 1 empieza con 3 símbolos, la semana 8 termina con sumandos mixtos y desafíos de Descubrir Palabra. Vende como descarga digital premium (de 12 $ a 15 $) en Gumroad. Los emprendedores pagan con gusto por programas completos y estructurados. Incluye una guía vendedor de una página al principio explicando cómo usar los puzzles de cada semana, qué habilidades trabaja cada nivel de dificultad y cómo evaluar el progreso del usuario.',
-      platform: 'Gumroad',
+      title: 'Pack de productos Digital en Hotmart',
+      description: 'Crea un programa estructurado de 8 semanas \"Descifra el Código Matemático\" con conjuntos de puzzles semanales. La semana 1 empieza con 3 símbolos, la semana 8 termina con sumandos mixtos y desafíos de Descubrir Palabra. Vende como descarga digital premium (de 12 $ a 15 $) en Hotmart. Los emprendedores pagan con gusto por programas completos y estructurados. Incluye una guía vendedor de una página al principio explicando cómo usar los puzzles de cada semana, qué habilidades trabaja cada nivel de dificultad y cómo evaluar el progreso del usuario.',
+      platform: 'Hotmart',
     },
     {
       title: 'Productos de Puzzles Multilingües',
@@ -132,7 +132,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'El Modo Descubrir Palabra Es Tu Diferenciador Premium',
-      description: 'Los puzzles de código estándar son divertidos, pero el Modo Descubrir Palabra es la función que hace que tu producto destaque. Usa palabras estacionales (NAVIDAD, CONEJO, PLAYA), palabras de uso frecuente para lectores principiantes o palabras de vocabulario para integración interdisciplinaria. Destaca esta función de forma prominente en tus listings de productos. En Etsy y Gumroad, incluye una imagen de maqueta mostrando el puzzle Descubrir Palabra junto a su versión resuelta para que los compradores vean inmediatamente el concepto de la palabra oculta. Esta demostración visual convierte visitantes en compradores mucho más eficazmente que las descripciones de texto solas.',
+      description: 'Los puzzles de código estándar son divertidos, pero el Modo Descubrir Palabra es la función que hace que tu producto destaque. Usa palabras estacionales (NAVIDAD, CONEJO, PLAYA), palabras de uso frecuente para lectores principiantes o palabras de vocabulario para integración interdisciplinaria. Destaca esta función de forma prominente en tus listings de productos. En Etsy y Hotmart, incluye una imagen de maqueta mostrando el puzzle Descubrir Palabra junto a su versión resuelta para que los compradores vean inmediatamente el concepto de la palabra oculta. Esta demostración visual convierte visitantes en compradores mucho más eficazmente que las descripciones de texto solas.',
     },
     {
       title: 'Aprovecha los Alfabetos Multilingües',
@@ -171,7 +171,7 @@ const content: ToolContent = {  seo: {
     },
     {
       question: '¿Puedo vender las fichas que creo?',
-      answer: 'La prueba gratuita con marca de agua es solo para uso personal y educativo. Para vender en Etsy, Gumroad, Amazon KDP, Gumroad o cualquier otra plataforma, necesitas una licencia comercial. La licencia elimina la marca de agua y otorga derechos completos de venta para los puzzles que generes. Una vez con licencia, no hay límites por descarga ni regalías — te quedas con el 100 % de tus ingresos por ventas.',
+      answer: 'La prueba gratuita con marca de agua es solo para uso personal y educativo. Para vender en Etsy, Hotmart, Amazon KDP, Hotmart o cualquier otra plataforma, necesitas una licencia comercial. La licencia elimina la marca de agua y otorga derechos completos de venta para los puzzles que generes. Una vez con licencia, no hay límites por descarga ni regalías — te quedas con el 100 % de tus ingresos por ventas.',
     },
     {
       question: '¿Qué idiomas son compatibles?',

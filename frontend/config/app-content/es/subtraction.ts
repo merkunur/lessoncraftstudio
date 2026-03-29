@@ -2,32 +2,32 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'generador de fichas de resta',
+    primaryKeyword: 'generador de fichas de restas para vender en Etsy',
     secondaryKeywords: [
-      'fichas de resta imprimibles para Etsy',
-      'generador de fichas de resta para Amazon KDP',
-      'vender fichas de resta en Gumroad',
-      'fichas de resta licencia comercial',
+      'crear fichas de sustracción para tienda Etsy',
+      'fichas de restas para Amazon KDP',
+      'ejercicios de resta ilustrados licencia comercial',
+      'fichas de cálculo para vender en Hotmart',
     ],
     lsiKeywords: [
-      'productos digitales imprimibles para emprendedores',
-      'negocio de fichas de matemáticas en línea',
-      'generador de fichas de resta uso comercial',
+      'licencia comercial paquetes matemáticos PDF 300 DPI',
+      'negocio imprimibles resta mercado hispano',
+      'combinar sumas restas paquetes mayores ventas',
     ],
-    titleTag: 'Generador de Fichas de Resta | Crear y Vender',
+    titleTag: 'Fichas de restas — Vender en Etsy y KDP | LessonCraftStudio',
     metaDescription:
-      'Crea fichas de resta para vender en Etsy, KDP y Gumroad. 4 modos con tachado visual, 104 temas, claves incluidas, export 400+ DPI. Prueba gratis con marca de.',
+      'Cree fichas de restas para vender en Etsy, KDP y Hotmart. Imágenes temáticas, solucionario, licencia comercial. Pruebe gratis con marca de agua.',
   },
 
   hero: {
-    title: 'Generador de Fichas de Resta con Visualización de Tachado',
-    tagline: 'Haz que la resta sea intuitiva con fichas donde los niños tachan imágenes para encontrar la respuesta.',
+    title: 'Genere fichas de restas para vender en Etsy, KDP y Hotmart',
+    tagline: 'Convierta la resta en un producto vendible con fichas ilustradas y solucionario automático.',
     description:
-      'Crea fichas de resta basadas en imágenes que enseñan el concepto de \"quitar\" mediante un método visual poderoso: las imágenes tachadas. Los usuarios ven un grupo de imágenes y observan cruces diagonales trazadas sobre los elementos restados — convirtiendo el concepto abstracto de la resta en algo concreto e intuitivo. Elige entre cuatro modos de ejercicio — Tachar, Imagen − Número, Encontrar el Sustraendo y Modo Mixto — para acompañar el aprendizaje desde preescolar hasta segundo grado. Explora más de 3100 ilustraciones seleccionadas en 104 temas como dinosaurios, vida marina y vehículos. Cada ficha incluye una clave de respuesta automática, y puedes exportar PDF listos para imprimir en formato Carta, A4 o personalizado a más de 400 DPI. Un modo de escala de grises integrado permite crear versiones en blanco y negro con un solo clic. Ya sea que vendas paquetes temáticos en Etsy, publiques libros de actividades en Amazon KDP o imprimas fichas de práctica para tus usuarios, el Generador de Fichas de Resta produce resultados profesionales en minutos. Prueba gratis con todas las funciones — sin registro, sin tarjeta de crédito. Las descargas incluyen una marca de agua; compra una licencia para eliminarla.',
+      'Convierta la resta en un producto vendible con un generador diseñado para emprendedores de imprimibles. Cree fichas de resta ilustradas con imágenes temáticas de más de 100 categorías — animales, vehículos, alimentos, naturaleza — que hacen las matemáticas atractivas y sus anuncios irresistibles. Cada ficha se exporta en PDF 300 DPI listo para imprimir con solucionario automático, lista para subir a Etsy, compilar en un cuadernillo de Amazon KDP, o vender en Hotmart. La licencia comercial está incluida con cada ficha. Estrategia rentable: combine sumas y restas en paquetes — los vendedores reportan ventas promedio significativamente más altas con paquetes matemáticos combinados. El mercado hispano ofrece un potencial enorme con competencia mínima. Pruebe gratis con todas las funciones — sin registro. Las descargas incluyen marca de agua; compre una licencia para eliminarla.',
   },
 
   howItWorks: {
-    title: 'Cómo Crear Fichas de Resta en 5 Pasos',
+    title: 'Crear fichas de resta profesionales paso a paso',
     steps: [
       {
         title: 'Configura el diseño de página',
@@ -58,7 +58,7 @@ const content: AppContent = {
   },
 
   keyFeatures: {
-    title: 'Características Principales del Generador de Fichas de Resta',
+    title: 'Por qué las fichas de restas son un básico para tiendas de imprimibles',
     features: [
       {
         title: 'Visualización de tachado',
@@ -104,7 +104,7 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Cómo Vender Fichas de Resta en Línea',
+    title: 'Exportar, fijar precios y vender en cualquier plataforma',
     cases: [
       {
         title: 'Paquetes temáticos de fichas de resta en Etsy',
@@ -119,16 +119,16 @@ const content: AppContent = {
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Centros de matemáticas diferenciados para Gumroad',
+        title: 'Centros de matemáticas diferenciados para Hotmart',
         description:
-          'Crea conjuntos de resta por niveles: Nivel 1 (Tachar, minuendo máximo 5), Nivel 2 (Imagen − Número, minuendo máximo 10), Nivel 3 (Encontrar el Sustraendo, minuendo máximo 15) y Nivel 4 (Mixto, minuendo máximo 20). Cada nivel con claves de respuesta y hoja de seguimiento del progreso. Los compradores de Gumroad pagan precios premium por recursos diferenciados utilizables inmediatamente en múltiples grupos de nivel, y la visualización de tachado hace que tu listado destaque entre los competidores de solo texto.',
-        platform: 'Gumroad (teacherspayteachers.com)',
+          'Crea conjuntos de resta por niveles: Nivel 1 (Tachar, minuendo máximo 5), Nivel 2 (Imagen − Número, minuendo máximo 10), Nivel 3 (Encontrar el Sustraendo, minuendo máximo 15) y Nivel 4 (Mixto, minuendo máximo 20). Cada nivel con claves de respuesta y hoja de seguimiento del progreso. Los compradores de Hotmart pagan precios premium por recursos diferenciados utilizables inmediatamente en múltiples grupos de nivel, y la visualización de tachado hace que tu listado destaque entre los competidores de solo texto.',
+        platform: 'Hotmart (hotmart.com)',
       },
       {
         title: 'Contenido de suscripción para tu propia tienda',
         description:
-          'Usa el generador para producir paquetes semanales de fichas de resta y distribúyelos a través de Shopify, Gumroad o Payhip. Un modelo de suscripción — nuevo paquete temático cada semana — genera ingresos recurrentes y fideliza una clientela de emprendedores y centros de tutoría. Con cuatro modos, 104 temas y dificultad ajustable de 2 a 20, tienes suficientes combinaciones para años de contenido único sin repetirte.',
-        platform: 'Gumroad / Shopify / Payhip',
+          'Usa el generador para producir paquetes semanales de fichas de resta y distribúyelos a través de Shopify, Hotmart o Payhip. Un modelo de suscripción — nuevo paquete temático cada semana — genera ingresos recurrentes y fideliza una clientela de emprendedores y centros de tutoría. Con cuatro modos, 104 temas y dificultad ajustable de 2 a 20, tienes suficientes combinaciones para años de contenido único sin repetirte.',
+        platform: 'Hotmart / Shopify / Payhip',
       },
       {
         title: 'Fichas de práctica para venta en línea y tutoría',
@@ -183,12 +183,12 @@ const content: AppContent = {
     {
       question: '¿Qué incluye la licencia comercial?',
       answer:
-        'La licencia comercial elimina la marca de agua de todas las descargas y te otorga derechos ilimitados para vender las fichas que crees — en Etsy, Amazon KDP, Gumroad, tu propio sitio web o cualquier otra plataforma. No hay regalías por venta, no hay cuotas mensuales y no hay límites en la cantidad de fichas que produzcas o vendas.',
+        'La licencia comercial elimina la marca de agua de todas las descargas y te otorga derechos ilimitados para vender las fichas que crees — en Etsy, Amazon KDP, Hotmart, tu propio sitio web o cualquier otra plataforma. No hay regalías por venta, no hay cuotas mensuales y no hay límites en la cantidad de fichas que produzcas o vendas.',
     },
     {
       question: '¿Puedo vender fichas creadas con esta herramienta en Etsy y Amazon KDP?',
       answer:
-        'Sí. Con una licencia comercial, tienes todos los derechos para vender tus fichas de resta como descargas digitales en Etsy, como libros de actividades impresos en Amazon KDP, como recursos educativos en Gumroad o a través de cualquier otro canal de venta. Muchos vendedores crean paquetes temáticos y libros de actividades que generan ingresos consistentes.',
+        'Sí. Con una licencia comercial, tienes todos los derechos para vender tus fichas de resta como descargas digitales en Etsy, como libros de actividades impresos en Amazon KDP, como recursos educativos en Hotmart o a través de cualquier otro canal de venta. Muchos vendedores crean paquetes temáticos y libros de actividades que generan ingresos consistentes.',
     },
     {
       question: '¿Cuál es la política de reembolso?',

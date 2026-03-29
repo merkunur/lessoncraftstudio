@@ -2,32 +2,32 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'generador más o menos',
+    primaryKeyword: 'fichas de mayor y menor para vender en Etsy',
     secondaryKeywords: [
-      'fichas de más o menos imprimibles para Etsy',
-      'creador de fichas de comparación de números para Amazon KDP',
-      'vender fichas de mayor que menor que en Gumroad',
-      'fichas de comparación licencia comercial',
+      'generador de fichas de comparación numérica para Etsy',
+      'fichas de mayor que menor que para Amazon KDP',
+      'ejercicios de comparación imprimibles licencia comercial',
+      'crear fichas de mayor menor para vender',
     ],
     lsiKeywords: [
-      'productos digitales de comparación de números',
-      'negocio de fichas imprimibles sentido numérico',
-      'generador de fichas de comparación uso comercial',
+      'fichas mayor menor vendedores Etsy preescolar',
+      'ejercicios comparación numérica imprimibles KDP',
+      'negocio fichas matemáticas básicas mercado hispano',
     ],
-    titleTag: 'Generador Más o Menos | Crear y Vender',
+    titleTag: 'Fichas de mayor y menor para Etsy y KDP | LCS',
     metaDescription:
-      'Crea fichas de comparación de cantidades para vender en Etsy, KDP y Gumroad. 3 modos, 104 temas, claves de respuesta, 400+ DPI. Prueba gratis con marca de agua.',
+      'Cree fichas de mayor y menor para vender en Etsy y KDP. Comparación visual con imágenes temáticas. Licencia comercial incluida. Pruebe gratis.',
   },
 
   hero: {
-    title: 'Generador de Fichas Más o Menos para Comparación Visual de Números',
-    tagline: 'Transforma la comparación de números en un descubrimiento visual con fichas ilustradas de mayor que y menor que.',
+    title: 'Genere fichas de mayor y menor para vender en Etsy, KDP y Hotmart',
+    tagline: 'Cree fichas de comparación numérica con imágenes — un concepto que se enseña siempre.',
     description:
-      'Crea fichas de comparación atractivas que enseñan a los usuarios a identificar qué grupo tiene más, cuál tiene menos y cuándo dos grupos son iguales. Elige entre tres modos de ejercicio distintos — Imagen contra Imagen, Imagen contra Número y el exclusivo modo Marcar y Tachar Grupos donde los usuarios analizan cajas de imágenes mezcladas para encontrar el grupo mayoritario. Alterna entre comparaciones de imágenes iguales y diferentes, elige entre símbolos ilustrados y símbolos matemáticos estándar, y selecciona entre más de 3100 imágenes en 104 temas. Cada ficha genera una clave de respuesta automática, y puedes exportar PDF listos para imprimir en formato Carta, A4 o personalizado a más de 400 DPI. Ya sea que vendas paquetes temáticos en Etsy, compiles cuadernos de comparación en Amazon KDP o crees centros diferenciados para tu tienda, el Generador Más o Menos produce resultados profesionales en minutos. Prueba gratis con todas las funciones — sin registro, sin tarjeta de crédito. Las descargas incluyen una marca de agua; compra una licencia para eliminarla.',
+      'Genere fichas de mayor y menor para vender en Etsy, Amazon KDP o Hotmart. Los niños cuentan imágenes temáticas y comparan cantidades usando los signos mayor que (>), menor que (<) e igual (=). Este formato visual hace que la comparación numérica sea concreta y accesible para preescolar e infantil. Con más de 3.000 imágenes en 104 temas, cree fichas para cualquier interés. Las fichas de comparación matemática son un producto con demanda constante en Etsy y Amazon KDP. Exporte PDFs a 300 DPI con solucionario automático y véndalos con la licencia comercial incluida. Pruebe gratis con marca de agua — sin registro.',
   },
 
   howItWorks: {
-    title: 'Cómo Crear Fichas de Comparación en 5 Pasos',
+    title: 'Cómo crear fichas de mayor y menor paso a paso',
     steps: [
       {
         title: 'Configura el diseño de página',
@@ -58,7 +58,7 @@ const content: AppContent = {
   },
 
   keyFeatures: {
-    title: 'Características Principales del Generador Más o Menos',
+    title: 'Por qué las fichas de comparación tienen demanda constante',
     features: [
       {
         title: 'Tres modos de ejercicio de comparación',
@@ -104,7 +104,7 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Cómo Vender Fichas de Comparación de Números en Línea',
+    title: 'Vender fichas de mayor y menor en Etsy, KDP y Hotmart',
     cases: [
       {
         title: 'Paquetes temáticos de fichas de comparación en Etsy',
@@ -119,16 +119,16 @@ const content: AppContent = {
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Centros de matemáticas diferenciados para Gumroad',
+        title: 'Centros de matemáticas diferenciados para Hotmart',
         description:
-          'Crea conjuntos de comparación por niveles usando los tres modos como escalones de dificultad naturales: Nivel 1 (Imagen contra Imagen con Imágenes Iguales), Nivel 2 (Imagen contra Número con Imágenes Diferentes) y Nivel 3 (Marcar y Tachar Grupos). Cada nivel con claves de respuesta y hoja de seguimiento del progreso. Los compradores de Gumroad pagan precios premium por recursos diferenciados que pueden usar inmediatamente en múltiples grupos de nivel en centros de matemáticas.',
-        platform: 'Gumroad (teacherspayteachers.com)',
+          'Crea conjuntos de comparación por niveles usando los tres modos como escalones de dificultad naturales: Nivel 1 (Imagen contra Imagen con Imágenes Iguales), Nivel 2 (Imagen contra Número con Imágenes Diferentes) y Nivel 3 (Marcar y Tachar Grupos). Cada nivel con claves de respuesta y hoja de seguimiento del progreso. Los compradores de Hotmart pagan precios premium por recursos diferenciados que pueden usar inmediatamente en múltiples grupos de nivel en centros de matemáticas.',
+        platform: 'Hotmart (hotmart.com)',
       },
       {
         title: 'Contenido de suscripción para tu propia tienda',
         description:
-          'Usa el generador para producir paquetes semanales de fichas de comparación y distribúyelos a través de Shopify, Gumroad o Payhip. Un modelo de suscripción — nuevo paquete temático cada semana — genera ingresos recurrentes y fideliza una clientela de emprendedores y centros de tutoría. Los tres modos de ejercicio, dos ajustes de variedad de imágenes y 104 temas te dan suficiente variedad para años de contenido único.',
-        platform: 'Gumroad / Shopify / Payhip',
+          'Usa el generador para producir paquetes semanales de fichas de comparación y distribúyelos a través de Shopify, Hotmart o Payhip. Un modelo de suscripción — nuevo paquete temático cada semana — genera ingresos recurrentes y fideliza una clientela de emprendedores y centros de tutoría. Los tres modos de ejercicio, dos ajustes de variedad de imágenes y 104 temas te dan suficiente variedad para años de contenido único.',
+        platform: 'Hotmart / Shopify / Payhip',
       },
       {
         title: 'Práctica de comparación para venta en línea y tutoría',
@@ -173,7 +173,7 @@ const content: AppContent = {
     {
       question: '¿El generador crea claves de respuesta automáticamente?',
       answer:
-        'Sí. Haz clic en el botón Generar Clave de Respuesta para crear una versión completa de tu ficha con todos los símbolos de comparación correctos. Puedes previsualizarla en pantalla y descargarla como archivo JPEG o PDF separado junto a la ficha del usuario. Incluir claves de respuesta formateadas profesionalmente en cada listado de producto señala calidad y profesionalismo a los compradores de los mercados, quienes a menudo filtran por recursos que incluyen soluciones al navegar en Etsy o Gumroad.',
+        'Sí. Haz clic en el botón Generar Clave de Respuesta para crear una versión completa de tu ficha con todos los símbolos de comparación correctos. Puedes previsualizarla en pantalla y descargarla como archivo JPEG o PDF separado junto a la ficha del usuario. Incluir claves de respuesta formateadas profesionalmente en cada listado de producto señala calidad y profesionalismo a los compradores de los mercados, quienes a menudo filtran por recursos que incluyen soluciones al navegar en Etsy o Hotmart.',
     },
     {
       question: '¿Puedo exportar fichas en escala de grises para ahorrar tinta?',
@@ -188,12 +188,12 @@ const content: AppContent = {
     {
       question: '¿Qué incluye la licencia comercial?',
       answer:
-        'La licencia comercial elimina la marca de agua de todas las descargas y te otorga derechos ilimitados para vender las fichas que crees — en Etsy, Amazon KDP, Gumroad, tu propio sitio web o cualquier otra plataforma. No hay regalías por venta, no hay cuotas mensuales y no hay límites en la cantidad de fichas que produzcas o vendas.',
+        'La licencia comercial elimina la marca de agua de todas las descargas y te otorga derechos ilimitados para vender las fichas que crees — en Etsy, Amazon KDP, Hotmart, tu propio sitio web o cualquier otra plataforma. No hay regalías por venta, no hay cuotas mensuales y no hay límites en la cantidad de fichas que produzcas o vendas.',
     },
     {
       question: '¿Puedo vender fichas creadas con esta herramienta en Etsy y Amazon KDP?',
       answer:
-        'Sí. Con una licencia comercial, tienes todos los derechos para vender tus fichas de comparación como descargas digitales en Etsy, como cuadernos de actividades impresos en Amazon KDP, como recursos educativos en Gumroad o a través de cualquier otro canal de venta. Muchos vendedores crean paquetes temáticos y cuadernos de actividades que generan ingresos constantes. También puedes combinar fichas de comparación con otros tipos de fichas de matemáticas — como suma o resta — para crear paquetes integrales de práctica que alcanzan precios más altos y atraen a compradores que buscan recursos todo en uno.',
+        'Sí. Con una licencia comercial, tienes todos los derechos para vender tus fichas de comparación como descargas digitales en Etsy, como cuadernos de actividades impresos en Amazon KDP, como recursos educativos en Hotmart o a través de cualquier otro canal de venta. Muchos vendedores crean paquetes temáticos y cuadernos de actividades que generan ingresos constantes. También puedes combinar fichas de comparación con otros tipos de fichas de matemáticas — como suma o resta — para crear paquetes integrales de práctica que alcanzan precios más altos y atraen a compradores que buscan recursos todo en uno.',
     },
     {
       question: '¿Cuál es la política de reembolso?',

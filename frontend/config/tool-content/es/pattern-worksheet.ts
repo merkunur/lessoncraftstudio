@@ -2,30 +2,30 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'generador de fichas de patrones',
+    primaryKeyword: 'fichas de reconocimiento de patrones gratis',
     secondaryKeywords: [
-      'fichas de reconocimiento de patrones imprimibles para vender',
-      'crear fichas de completar patrones uso comercial',
-      'generador de fichas de secuencias de patrones para KDP',
-      'herramienta para crear fichas de patrones en cuadrícula',
+      'fichas de patrones gratis sin registro',
+      'generador de fichas de patrones en línea gratis',
+      'crear fichas de reconocimiento de patrones para imprimir',
+      'fichas de completar patrones gratis PDF con respuestas',
     ],
     lsiKeywords: [
-      'fichas de reconocimiento visual de patrones para Etsy',
-      'generador de fichas sin texto de patrones en cuadrícula',
-      'fichas de secuencias AB ABC ABCD para vender en línea',
+      'actividad de secuencias lógicas con imágenes imprimible',
+      'ficha de continuar el patrón visual preescolar',
+      'reconocimiento de patrones con ilustraciones PDF gratis',
     ],
-    titleTag: 'Generador de Fichas de Patrones | Crear y Vender',
-    metaDescription: 'Genera fichas de patrones con nueve tipos, dos modos de pregunta, configuración por ejercicio, clave de respuestas y 104 temas. Prueba gratuita con marca.',
+    titleTag: 'Reconocimiento de patrones gratis | LCS',
+    metaDescription: 'Cree fichas de reconocimiento de patrones gratis sin registro. Secuencias visuales configurables, 104 temas, respuestas incluidas.',
   },
 
   hero: {
-    title: 'Generador de Fichas de Patrones',
+    title: 'Cree fichas de reconocimiento de patrones gratis',
     tagline: 'Genera fichas de reconocimiento de patrones en cuadrícula con nueve tipos de patrón, dos modos de pregunta, configuración independiente por ejercicio y un resultado completamente visual sin texto que se vende en todo el mundo sin necesidad de traducción',
-    description: 'Crea fichas profesionales de completar patrones donde los usuarios identifican secuencias repetitivas y rellenan el elemento faltante o eligen la respuesta correcta entre opciones múltiples. Nueve tipos de patrón distintos cubren la mayor variedad de complejidad de secuencia disponible: AB alterna dos elementos, AAB y ABB introducen agrupaciones asimétricas, ABC rota tres elementos diferentes, AABB empareja dos de cada uno, ABBC y AABC añaden patrones asimétricos de tres imágenes, ABCC extiende con finales duplicados, y ABCD rota cuatro elementos diferentes para el máximo desafío. Dos modos de pregunta crean ejercicios fundamentalmente diferentes a partir de cada tipo de patrón: Casilla Vacía reemplaza un elemento con un espacio vacío para razonamiento abierto, mientras que Elegir entre Opciones presenta el espacio vacío junto con tres opciones de respuesta — una correcta y dos distractores. Configura de 1 a 8 ejercicios por página con cada ejercicio ajustado de forma independiente para tipo de patrón, modo de pregunta y tema — una página puede combinar un calentamiento AB de rellenar con un desafío ABCD de opción múltiple. Activa Inicio Aleatorio para comenzar patrones a mitad de ciclo y Posición Vacía Aleatoria para colocar el elemento faltante en cualquier lugar de la secuencia. El diseño estándar en cuadrícula de filas y columnas organiza los ejercicios de forma limpia para resultados listos para evaluación. Cada ficha es completamente visual con solo imágenes y cero texto en el resultado — no aparecen palabras en la página generada, lo que hace que tus productos sean universalmente vendibles sin traducción. Un solo listado sirve para todos los mercados del mundo. Elige entre más de 3.100 ilustraciones en 104 colecciones temáticas o sube tus propias imágenes. Una pestaña separada de clave de respuestas muestra todos los espacios vacíos rellenados con los elementos correctos del patrón. Exporta PDF y JPEG listos para imprimir a alta resolución en tamaño Carta, A4, Cuadrado (1200×1200) o dimensiones personalizadas. Activa la escala de grises para impresión con ahorro de tinta. Edita todo en el lienzo completo de Fabric.js con fuentes como Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial y Verdana. La prueba gratuita incluye todas las funciones con una marca de agua en las descargas. Compra una licencia para eliminar la marca de agua y vender con uso comercial.',
+    description: 'Cree fichas de reconocimiento de patrones gratis con este generador en línea. Los usuarios identifican y completan secuencias visuales con imágenes temáticas. Navegue 104 colecciones con más de 3.100 ilustraciones o suba sus propias imágenes. Configure la complejidad del patrón, número de ejercicios por ficha y exporte con clave de respuestas autogenerada. Exporte en JPEG y PDF a 300 DPI en tamaño Carta, A4 o personalizado. La prueba gratis incluye todas las funciones con marca de agua en las descargas. Sin registro, sin instalación. ¿Quiere vender? Pase a la licencia comercial para eliminar la marca de agua y obtener uso comercial completo.',
   },
 
   tutorial: {
-    title: 'Cómo Crear Fichas de Reconocimiento de Patrones en 8 Pasos',
+    title: 'Cómo crear fichas de reconocimiento de patrones gratis en 8 pasos',
     steps: [
       {
         title: 'Abre el Generador de Fichas de Patrones',
@@ -57,7 +57,7 @@ const content: ToolContent = {
       },
       {
         title: 'Revisa la Clave de Respuestas y Descarga',
-        description: 'Cambia a la pestaña Clave de Respuestas para ver la ficha completada con todos los espacios vacíos rellenados mostrando los elementos correctos del patrón. Para ejercicios de opción múltiple, la respuesta correcta se indica claramente. Tanto la ficha como la clave de respuestas son editables de forma independiente en lienzos separados. Activa la escala de grises para impresión con ahorro de tinta. Descarga cada uno como JPEG de alta resolución o PDF listo para imprimir a 300 DPI. Cada exportación está lista para producción en listados de Etsy, interiores de Amazon KDP y archivos de productos de Gumroad.',
+        description: 'Cambia a la pestaña Clave de Respuestas para ver la ficha completada con todos los espacios vacíos rellenados mostrando los elementos correctos del patrón. Para ejercicios de opción múltiple, la respuesta correcta se indica claramente. Tanto la ficha como la clave de respuestas son editables de forma independiente en lienzos separados. Activa la escala de grises para impresión con ahorro de tinta. Descarga cada uno como JPEG de alta resolución o PDF listo para imprimir a 300 DPI. Cada exportación está lista para producción en listados de Etsy, interiores de Amazon KDP y archivos de productos de Hotmart.',
       },
     ],
   },
@@ -77,7 +77,7 @@ const content: ToolContent = {
     },
     {
       title: 'Conjuntos Estacionales y Festivos de Patrones',
-      description: 'Usa temas de imágenes estacionales y festivos para crear paquetes de patrones de temporada. Un paquete "Patrones de Halloween" con imágenes temáticas de terror se vende en octubre. Navidad, vuelta al cole, San Valentín y temas de verano tienen cada uno sus propias ventanas de máximas ventas en Etsy y Gumroad. Combina calentamientos sencillos de AB con desafíos avanzados de ABCD en cada conjunto estacional para cubrir múltiples niveles de habilidad. Dos modos de pregunta multiplican la variedad dentro de cada tema.',
+      description: 'Usa temas de imágenes estacionales y festivos para crear paquetes de patrones de temporada. Un paquete "Patrones de Halloween" con imágenes temáticas de terror se vende en octubre. Navidad, vuelta al cole, San Valentín y temas de verano tienen cada uno sus propias ventanas de máximas ventas en Etsy y Hotmart. Combina calentamientos sencillos de AB con desafíos avanzados de ABCD en cada conjunto estacional para cubrir múltiples niveles de habilidad. Dos modos de pregunta multiplican la variedad dentro de cada tema.',
     },
     {
       title: 'Paquetes de Aprendizaje Visual Multi-Formato',
@@ -101,9 +101,9 @@ const content: ToolContent = {
       platform: 'Amazon KDP',
     },
     {
-      title: 'Centros por Niveles en Gumroad',
-      description: 'Sube paquetes de fichas de patrones a Gumroad organizados por nivel de habilidad usando la configuración por ejercicio como diferenciador. Las páginas de Nivel 1 presentan todos ejercicios AB de casilla vacía. El Nivel 2 mezcla AB y AAB con ambos modos. El Nivel 3 introduce ABC con opción múltiple junto a calentamientos de casilla vacía. El Nivel 4 combina desafíos ABCD con inicio aleatorio. Cada nivel usa ejercicios temáticos con claves de respuestas separadas. La independencia por ejercicio significa que una página sirve como actividad completa de centro. Los vendedores buscan "fichas de reconocimiento de patrones" y encuentran opciones limitadas con nueve tipos.',
-      platform: 'Gumroad',
+      title: 'Centros por Niveles en Hotmart',
+      description: 'Sube paquetes de fichas de patrones a Hotmart organizados por nivel de habilidad usando la configuración por ejercicio como diferenciador. Las páginas de Nivel 1 presentan todos ejercicios AB de casilla vacía. El Nivel 2 mezcla AB y AAB con ambos modos. El Nivel 3 introduce ABC con opción múltiple junto a calentamientos de casilla vacía. El Nivel 4 combina desafíos ABCD con inicio aleatorio. Cada nivel usa ejercicios temáticos con claves de respuestas separadas. La independencia por ejercicio significa que una página sirve como actividad completa de centro. Los vendedores buscan "fichas de reconocimiento de patrones" y encuentran opciones limitadas con nueve tipos.',
+      platform: 'Hotmart',
     },
     {
       title: 'Embudo Visual de Fichas de Patrones en Pinterest',
@@ -111,9 +111,9 @@ const content: ToolContent = {
       platform: 'Pinterest',
     },
     {
-      title: 'Kit Completo de Reconocimiento de Patrones en Gumroad',
-      description: 'Agrupa fichas de patrones en cuadrícula (9 tipos, 2 modos) con fichas de tren de patrones (formato de tren, 5 tipos) para crear un kit integral de reconocimiento de patrones en Gumroad. Cada formato ejercita la misma habilidad con un enfoque visual completamente diferente. El formato de cuadrícula destaca en volumen y páginas de evaluación de dificultad mixta. El formato de tren ofrece engagement visual con su distintivo diseño de vagones. Juntos cubren cada necesidad de aprendizaje de patrones. Un kit de doble formato justifica un precio premium y se diferencia de los competidores de formato único.',
-      platform: 'Gumroad',
+      title: 'Kit Completo de Reconocimiento de Patrones en Hotmart',
+      description: 'Agrupa fichas de patrones en cuadrícula (9 tipos, 2 modos) con fichas de tren de patrones (formato de tren, 5 tipos) para crear un kit integral de reconocimiento de patrones en Hotmart. Cada formato ejercita la misma habilidad con un enfoque visual completamente diferente. El formato de cuadrícula destaca en volumen y páginas de evaluación de dificultad mixta. El formato de tren ofrece engagement visual con su distintivo diseño de vagones. Juntos cubren cada necesidad de aprendizaje de patrones. Un kit de doble formato justifica un precio premium y se diferencia de los competidores de formato único.',
+      platform: 'Hotmart',
     },
     {
       title: 'Línea de Productos Globales Sin Texto',
@@ -192,7 +192,7 @@ const content: ToolContent = {
     },
     {
       question: '¿Puedo vender las fichas creadas con esta herramienta de forma comercial?',
-      answer: 'Sí. Con una licencia comercial, tienes derechos completos para vender fichas de patrones como descargas digitales en Etsy, cuadernos impresos en Amazon KDP, recursos para vendedores en Gumroad o a través de cualquier otro canal de venta. Nueve tipos de patrón, dos modos de pregunta y configuración por ejercicio te dan la mayor variedad y diferenciación de productos disponible.',
+      answer: 'Sí. Con una licencia comercial, tienes derechos completos para vender fichas de patrones como descargas digitales en Etsy, cuadernos impresos en Amazon KDP, recursos para vendedores en Hotmart o a través de cualquier otro canal de venta. Nueve tipos de patrón, dos modos de pregunta y configuración por ejercicio te dan la mayor variedad y diferenciación de productos disponible.',
     },
     {
       question: '¿Cuál es su política de reembolso?',

@@ -2,30 +2,30 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'creador fichas de rompecabezas',
+    primaryKeyword: 'generador de piezas faltantes gratis',
     secondaryKeywords: [
-      'creador de fichas de piezas faltantes para vendedores Etsy',
-      'crear puzzles de piezas faltantes imprimibles para vender',
-      'generador de rompecabezas de piezas faltantes uso comercial',
-      'herramienta de fichas de puzzles visuales para KDP y Etsy',
+      'fichas de piezas faltantes gratis sin registro',
+      'generador de rompecabezas de piezas faltantes en línea',
+      'crear fichas de piezas faltantes gratis para imprimir',
+      'piezas faltantes gratis con clave de respuestas',
     ],
     lsiKeywords: [
-      'extracción inteligente de piezas con varianza de color generador fichas',
-      'creador de fichas de rompecabezas seis formas con clave de respuestas',
-      'piezas distractoras puzzle visual generador de fichas imprimibles',
+      'rompecabezas visual piezas recortadas ficha imprimible',
+      'puzzle de discriminación visual con opciones distractoras',
+      'actividad de razonamiento espacial piezas faltantes PDF',
     ],
-    titleTag: 'Creador Fichas de Rompecabezas | para Vender',
-    metaDescription: 'Crea fichas de rompecabezas con 6 formas de pieza, dificultad configurable, extracción inteligente con piezas distractoras, 104 temas.',
+    titleTag: 'Piezas faltantes gratis en línea | LCS',
+    metaDescription: 'Cree fichas de piezas faltantes gratis sin registro. 6 formas de pieza, dificultad configurable, clave de respuestas automática.',
   },
 
   hero: {
-    title: 'Creador de Fichas de Rompecabezas',
+    title: 'Cree fichas de piezas faltantes gratis en línea',
     tagline: 'Generador de fichas de rompecabezas estilo puzzle con 6 formas de pieza (cuadrado, círculo, rectángulo vertical/horizontal, elipse vertical/horizontal), 1–5 piezas faltantes con 2–6 opciones de solución incluyendo distractoras, extracción inteligente de piezas con detección de varianza de color y separación mínima de 250px, claves de respuestas autogeneradas con etiquetas numéricas resaltadas en amarillo, doble borde decorativo en turquesa y rosa intenso, y 104 colecciones temáticas de imágenes para fichas de rompecabezas que se venden en todo el mundo',
     description: 'Crea fichas profesionales de rompecabezas donde una imagen tiene huecos recortados y los usuarios identifican qué opción numerada rellena cada espacio. El algoritmo inteligente de extracción de piezas intenta hasta 150 colocaciones para encontrar piezas con suficiente varianza de color (varianza de brillo mínima de 15), manteniendo al menos 250 píxeles de distancia entre piezas para evitar superposición. El tamaño de pieza se calcula como el 12% del ancho de la imagen con un mínimo de 50 píxeles. Elige entre 6 formas de pieza que cambian el carácter visual de cada puzzle: cuadrado (predeterminado) y círculo ofrecen cortes geométricos limpios, rectángulo vertical (80% ancho, 100% alto) y rectángulo horizontal (100% ancho, 80% alto) crean huecos alargados, y elipse vertical y elipse horizontal ofrecen cortes curvos más suaves con las mismas proporciones dimensionales. Configura la dificultad con dos controles independientes: establece 1–5 piezas faltantes para controlar cuántos huecos aparecen en la imagen, y establece 2–6 opciones de solución para controlar cuántas opciones numeradas evalúan los usuarios. Cuando las opciones de solución exceden las piezas faltantes, las opciones extra son piezas distractoras — extraídas de áreas no superpuestas de la misma imagen usando hasta 200 intentos de colocación cada una. Las distractoras evitan que los usuarios resuelvan por eliminación, obligando a una comparación visual cuidadosa de colores, patrones y detalles. El sistema de doble lienzo genera simultáneamente una pestaña de ficha y una pestaña de clave de respuestas. La clave de respuestas muestra la misma imagen del puzzle con huecos y coloca etiquetas numéricas resaltadas en amarillo (rgba(255,255,0,0.7)) dentro de cada hueco mostrando el índice de opción correcto basado en 1. El tamaño de fuente se escala al 60% del tamaño de la pieza para legibilidad clara. Un encabezado autogenerado muestra "Piezas Faltantes" en turquesa (#06B6D4) con una descripción en rosa (#DB2777) enmarcado en un sistema de doble borde — borde exterior verde azulado (#14B8A6, trazo 8px, márgenes 34px, radio 12px) y borde interior rosa intenso (#EC4899, trazo 3px, márgenes 46,5px, radio 8px, desplazamiento 2px derecha y 3px abajo). Piezas Faltantes NO es sensible al idioma — los puzzles son puramente visuales sin contenido dependiente del idioma en la ficha, haciendo cada puzzle universalmente vendible sin traducción. El único elemento localizado es el texto del encabezado, traducido a los 11 idiomas soportados. Las fichas verticales colocan la imagen del puzzle arriba con las opciones debajo en fila horizontal (75% del tamaño máximo); las fichas horizontales dividen la vista 50/50 con las opciones a la derecha. Navega 104 colecciones temáticas con más de 3.100 ilustraciones coloridas o sube tus propias imágenes PNG, JPG o GIF. Aplica fondos y bordes temáticos con controles de opacidad independientes (0–1, paso 0,05). Añade texto personalizado con 7 opciones de fuente (Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial, Verdana) y contorno de texto 0–10. Exporta cuatro archivos por sesión: ficha JPEG, ficha PDF, clave de respuestas JPEG y clave de respuestas PDF — todo a 300 DPI (multiplicador 6×, calidad JPEG 1,0). Elige Carta, A4, Cuadrado (1200×1200) o tamaños personalizados con opción de escala de grises para salida con ahorro de tinta. Edita todo en el lienzo Fabric.js con 6 opciones de alineación más centrado en página, capas, bloqueo/desbloqueo, zoom 25%–300% en incrementos del 25%, y deshacer/rehacer 50 estados. La prueba gratuita incluye todas las funciones con una marca de agua en las descargas. Compra una licencia para eliminar la marca de agua y vender con uso comercial.',
   },
 
   tutorial: {
-    title: 'Cómo Crear Fichas de Rompecabezas de Piezas Faltantes en 8 Pasos',
+    title: 'Cómo crear fichas de piezas faltantes gratis en 8 pasos',
     steps: [
       {
         title: 'Abre el Creador de Fichas de Rompecabezas',
@@ -33,7 +33,7 @@ const content: ToolContent = {
       },
       {
         title: 'Configura la Dificultad del Puzzle con Dos Controles Independientes',
-        description: 'Abre el panel de Configuración del Puzzle y establece dos ejes de dificultad independientes. Primero, establece el número de piezas faltantes de 1 a 5 — esto controla cuántos huecos se recortan de la imagen fuente, afectando directamente la demanda de razonamiento espacial. Segundo, establece el número de opciones de solución de 2 a 6 — esto controla cuántas opciones numeradas evalúan los usuarios, incluyendo tanto piezas correctas como piezas distractoras. Un puzzle con 1 pieza faltante y 2 opciones es accesible para los más pequeños; 5 piezas faltantes con 6 opciones crea un desafío genuino de discriminación visual. Ajusta ambos ejes independientemente para calibrar la dificultad para cualquier grupo de edad o nivel de producto.',
+        description: 'Cree fichas de rompecabezas de piezas faltantes gratis con este generador en línea. Elija entre 6 formas de pieza, configure de 1 a 5 huecos con 2 a 6 opciones de solución incluyendo distractoras, y exporte fichas con clave de respuestas autogenerada. Navegue 104 colecciones temáticas con más de 3.100 ilustraciones o suba sus propias imágenes. Exporte en JPEG y PDF a 300 DPI en tamaño Carta, A4 o personalizado. La prueba gratis incluye todas las funciones con marca de agua en las descargas. Sin registro, sin instalación — empiece ahora. ¿Quiere vender? Pase a la licencia comercial para eliminar la marca de agua y obtener uso comercial completo.',
       },
       {
         title: 'Selecciona una Forma de Pieza entre 6 Opciones',
@@ -57,7 +57,7 @@ const content: ToolContent = {
       },
       {
         title: 'Descarga los Cuatro Archivos',
-        description: 'Activa la escala de grises para versiones con ahorro de tinta ideales para impresión en volumen e interiores de KDP. Descarga los cuatro archivos desde una sola sesión: ficha JPEG, ficha PDF, clave de respuestas JPEG y clave de respuestas PDF — todo renderizado a 300 DPI (multiplicador 6×, calidad JPEG 1,0). Cada pestaña tiene su propio par de botones de descarga. Los archivos están listos para producción en listados de Etsy, interiores de Amazon KDP y archivos de productos de Gumroad sin necesidad de posprocesamiento. Haz clic en Generar de nuevo con la misma imagen para producir un nuevo puzzle con diferentes colocaciones de piezas, o cambia de imágenes y formas para creación rápida de variedad en 104 colecciones temáticas.',
+        description: 'Activa la escala de grises para versiones con ahorro de tinta ideales para impresión en volumen e interiores de KDP. Descarga los cuatro archivos desde una sola sesión: ficha JPEG, ficha PDF, clave de respuestas JPEG y clave de respuestas PDF — todo renderizado a 300 DPI (multiplicador 6×, calidad JPEG 1,0). Cada pestaña tiene su propio par de botones de descarga. Los archivos están listos para producción en listados de Etsy, interiores de Amazon KDP y archivos de productos de Hotmart sin necesidad de posprocesamiento. Haz clic en Generar de nuevo con la misma imagen para producir un nuevo puzzle con diferentes colocaciones de piezas, o cambia de imágenes y formas para creación rápida de variedad en 104 colecciones temáticas.',
       },
     ],
   },
@@ -101,23 +101,23 @@ const content: ToolContent = {
       platform: 'Amazon KDP',
     },
     {
-      title: 'Paquetes de Actividades de Rompecabezas para Gumroad',
-      description: 'Sube paquetes de actividades de rompecabezas a Gumroad con claves de respuestas autogeneradas y dificultad configurable como puntos de venta clave. Los vendedores que buscan actividades de discriminación visual y pensamiento crítico valoran fichas que llegan listas para venta en línea con opciones de dificultad diferenciada. Crea sets alineados con el catálogo de productos: puzzles de hábitats de animales para ciencias, puzzles de ayudantes comunitarios para estudios sociales, puzzles de grupos de alimentos para lecciones de nutrición. Cada paquete incluye fichas para usuarios a múltiples niveles de dificultad (1–5 piezas faltantes, 2–6 opciones) más claves de respuestas para estaciones de autocorrección. Las seis formas de pieza dan variedad a los vendedores dentro de un solo tipo de actividad.',
-      platform: 'Gumroad',
+      title: 'Paquetes de Actividades de Rompecabezas para Hotmart',
+      description: 'Sube paquetes de actividades de rompecabezas a Hotmart con claves de respuestas autogeneradas y dificultad configurable como puntos de venta clave. Los vendedores que buscan actividades de discriminación visual y pensamiento crítico valoran fichas que llegan listas para venta en línea con opciones de dificultad diferenciada. Crea sets alineados con el catálogo de productos: puzzles de hábitats de animales para ciencias, puzzles de ayudantes comunitarios para estudios sociales, puzzles de grupos de alimentos para lecciones de nutrición. Cada paquete incluye fichas para usuarios a múltiples niveles de dificultad (1–5 piezas faltantes, 2–6 opciones) más claves de respuestas para estaciones de autocorrección. Las seis formas de pieza dan variedad a los vendedores dentro de un solo tipo de actividad.',
+      platform: 'Hotmart',
     },
     {
       title: 'Embudo de Tráfico con Rompecabezas en Pinterest',
-      description: 'Las fichas de rompecabezas crean pines visualmente impactantes en Pinterest — la imagen con huecos recortados y opciones de solución numeradas debajo crea un formato inmediatamente llamativo que padres y vendedores reconocen como educativo. Publica fichas de muestra mostrando diferentes formas de pieza: cortes cuadrados con temas de animales, cortes circulares con temas de festividades, cortes de elipse para variedad. Crea series de pines separadas para "fichas de rompecabezas para niños", "puzzles de piezas faltantes para preescolar" y "actividades de discriminación visual". El formato puramente visual atrae a padres y vendedores en todos los países. Enlaza cada pin a tus listados de productos en Etsy o Gumroad.',
+      description: 'Las fichas de rompecabezas crean pines visualmente impactantes en Pinterest — la imagen con huecos recortados y opciones de solución numeradas debajo crea un formato inmediatamente llamativo que padres y vendedores reconocen como educativo. Publica fichas de muestra mostrando diferentes formas de pieza: cortes cuadrados con temas de animales, cortes circulares con temas de festividades, cortes de elipse para variedad. Crea series de pines separadas para "fichas de rompecabezas para niños", "puzzles de piezas faltantes para preescolar" y "actividades de discriminación visual". El formato puramente visual atrae a padres y vendedores en todos los países. Enlaza cada pin a tus listados de productos en Etsy o Hotmart.',
       platform: 'Pinterest',
     },
     {
-      title: 'Kit Completo de Rompecabezas en Gumroad',
-      description: 'Agrupa fichas de rompecabezas de los 104 temas, las 6 formas de pieza y todos los niveles de dificultad en un kit integral en Gumroad. Incluye más de 400 puzzles abarcando formas cuadrada, circular, rectangular y elíptica a cada combinación de dificultad desde 1 pieza con 2 opciones hasta 5 piezas con 6 opciones. Cada puzzle incluye su clave de respuestas autogenerada, duplicando tu conteo de archivos. El sistema de seis formas y dificultad en dos ejes proporciona enorme variedad de cada conjunto temático de imágenes. El formato de kit justifica precios premium porque los compradores obtienen una biblioteca completa de rompecabezas en lugar de paquetes individuales.',
-      platform: 'Gumroad',
+      title: 'Kit Completo de Rompecabezas en Hotmart',
+      description: 'Agrupa fichas de rompecabezas de los 104 temas, las 6 formas de pieza y todos los niveles de dificultad en un kit integral en Hotmart. Incluye más de 400 puzzles abarcando formas cuadrada, circular, rectangular y elíptica a cada combinación de dificultad desde 1 pieza con 2 opciones hasta 5 piezas con 6 opciones. Cada puzzle incluye su clave de respuestas autogenerada, duplicando tu conteo de archivos. El sistema de seis formas y dificultad en dos ejes proporciona enorme variedad de cada conjunto temático de imágenes. El formato de kit justifica precios premium porque los compradores obtienen una biblioteca completa de rompecabezas en lugar de paquetes individuales.',
+      platform: 'Hotmart',
     },
     {
       title: 'Línea de Productos de Puzzles Visuales Globales',
-      description: 'Piezas Faltantes produce puzzles puramente visuales — imágenes con huecos, opciones de solución numeradas y etiquetas de respuestas resaltadas en amarillo son universales sin texto específico de idioma en la salida de la ficha. Los mismos archivos de producto funcionan en todos los países sin traducción ni modificación. Una sesión de creación produce un catálogo vendible globalmente. Vende archivos idénticos en tiendas Etsy dirigidas a diferentes países, publica los mismos interiores de KDP en todos los mercados internacionales de Amazon y lista en Gumroad para vendedores internacionales. Sin versiones separadas por idioma, sin costos de traducción, sin mantenimiento por región. La función de subir imágenes personalizadas también permite servicios de personalización localizados sin cambiar el formato básico del puzzle.',
+      description: 'Piezas Faltantes produce puzzles puramente visuales — imágenes con huecos, opciones de solución numeradas y etiquetas de respuestas resaltadas en amarillo son universales sin texto específico de idioma en la salida de la ficha. Los mismos archivos de producto funcionan en todos los países sin traducción ni modificación. Una sesión de creación produce un catálogo vendible globalmente. Vende archivos idénticos en tiendas Etsy dirigidas a diferentes países, publica los mismos interiores de KDP en todos los mercados internacionales de Amazon y lista en Hotmart para vendedores internacionales. Sin versiones separadas por idioma, sin costos de traducción, sin mantenimiento por región. La función de subir imágenes personalizadas también permite servicios de personalización localizados sin cambiar el formato básico del puzzle.',
       platform: 'Etsy / Amazon KDP',
     },
   ],
@@ -137,11 +137,11 @@ const content: ToolContent = {
     },
     {
       title: 'Explota la Dificultad en Dos Ejes para Diseño Progresivo de Cuadernos',
-      description: 'Los controles independientes de piezas faltantes (1–5) y opciones de solución (2–6) crean una matriz de dificultad. Mapea esta matriz a los capítulos de tu cuaderno: comienza con 1 pieza, 2 opciones para identificación fácil, progresa a 3 piezas, 4 opciones para razonamiento espacial intermedio, y termina con 5 piezas, 6 opciones para discriminación visual avanzada con distractoras. Esta estructura progresiva es lo que los revisores de KDP y los compradores de Gumroad esperan en cuadernos educativos. Etiqueta cada sección con su nivel de dificultad para que los compradores vean inmediatamente el valor del contenido progresivo.',
+      description: 'Los controles independientes de piezas faltantes (1–5) y opciones de solución (2–6) crean una matriz de dificultad. Mapea esta matriz a los capítulos de tu cuaderno: comienza con 1 pieza, 2 opciones para identificación fácil, progresa a 3 piezas, 4 opciones para razonamiento espacial intermedio, y termina con 5 piezas, 6 opciones para discriminación visual avanzada con distractoras. Esta estructura progresiva es lo que los revisores de KDP y los compradores de Hotmart esperan en cuadernos educativos. Etiqueta cada sección con su nivel de dificultad para que los compradores vean inmediatamente el valor del contenido progresivo.',
     },
     {
       title: 'Explota el Formato Puramente Visual para Ventas Globales',
-      description: 'Los puzzles de piezas faltantes contienen solo imágenes, huecos y opciones de solución numeradas — sin texto específico de idioma en la salida de la ficha. Cada puzzle que creas es instantáneamente vendible a nivel mundial sin traducción ni localización. Un set de fichas de rompecabezas sirve para todas las tiendas Etsy internacionales, todos los mercados de KDP y todos los compradores de Gumroad independientemente del idioma. Mientras los competidores crean versiones separadas por idioma de fichas con mucho texto, tus puzzles visuales funcionan en todas partes desde un solo conjunto de archivos.',
+      description: 'Los puzzles de piezas faltantes contienen solo imágenes, huecos y opciones de solución numeradas — sin texto específico de idioma en la salida de la ficha. Cada puzzle que creas es instantáneamente vendible a nivel mundial sin traducción ni localización. Un set de fichas de rompecabezas sirve para todas las tiendas Etsy internacionales, todos los mercados de KDP y todos los compradores de Hotmart independientemente del idioma. Mientras los competidores crean versiones separadas por idioma de fichas con mucho texto, tus puzzles visuales funcionan en todas partes desde un solo conjunto de archivos.',
     },
     {
       title: 'Usa el Sistema de Doble Borde para Presentación Profesional del Producto',
@@ -196,7 +196,7 @@ const content: ToolContent = {
     },
     {
       question: '¿Puedo vender fichas de rompecabezas creadas con esta herramienta de forma comercial?',
-      answer: 'Sí. Con una licencia comercial, tienes derechos completos para vender fichas de rompecabezas como descargas digitales en Etsy, cuadernos impresos de puzzles visuales en Amazon KDP, recursos para venta en línea en Gumroad o a través de cualquier otro canal de venta. Las 6 formas de pieza, el sistema de dificultad en dos ejes, la extracción inteligente de piezas, las piezas distractoras, las claves de respuestas autogeneradas con etiquetas resaltadas en amarillo, la subida de imágenes personalizadas y las 104 colecciones temáticas de imágenes te dan todo lo necesario para crear productos profesionales de rompecabezas que compiten en categorías de puzzles visuales en todos los principales mercados.',
+      answer: 'Sí. Con una licencia comercial, tienes derechos completos para vender fichas de rompecabezas como descargas digitales en Etsy, cuadernos impresos de puzzles visuales en Amazon KDP, recursos para venta en línea en Hotmart o a través de cualquier otro canal de venta. Las 6 formas de pieza, el sistema de dificultad en dos ejes, la extracción inteligente de piezas, las piezas distractoras, las claves de respuestas autogeneradas con etiquetas resaltadas en amarillo, la subida de imágenes personalizadas y las 104 colecciones temáticas de imágenes te dan todo lo necesario para crear productos profesionales de rompecabezas que compiten en categorías de puzzles visuales en todos los principales mercados.',
     },
     {
       question: '¿Cuál es la política de reembolso?',

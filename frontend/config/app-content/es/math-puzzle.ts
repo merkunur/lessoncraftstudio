@@ -2,32 +2,32 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'generador de puzzles matemáticos',
+    primaryKeyword: 'generador de rompecabezas matemáticos para vender en Etsy',
     secondaryKeywords: [
-      'fichas de puzzles matemáticos imprimibles para Etsy',
-      'generador de puzzles de imágenes para Amazon KDP',
-      'vender fichas de puzzles matemáticos en Gumroad',
-      'fichas de puzzles matemáticos licencia comercial',
+      'crear puzzles de matemáticas para tienda Etsy',
+      'rompecabezas de cuadrícula matemática para Amazon KDP',
+      'fichas de puzzles numéricos licencia comercial',
+      'generar rompecabezas de lógica matemática para vender',
     ],
     lsiKeywords: [
-      'productos digitales de puzzles matemáticos para emprendedores',
-      'negocio de fichas de puzzles imprimibles',
-      'generador de puzzles matemáticos uso comercial',
+      'puzzles matemáticos cuadrícula vendedores Etsy',
+      'rompecabezas educativos imprimibles KDP Hotmart',
+      'fichas lógica matemática negocio imprimibles',
     ],
-    titleTag: 'Generador de Puzzles Matemáticos | Crear y Vender',
+    titleTag: 'Rompecabezas de mates para vender en Etsy | LCS',
     metaDescription:
-      'Crea fichas de puzzles matemáticos para vender en Etsy, KDP y Gumroad. Puzzles con imágenes, suma y resta, cuadrículas ajustables. Prueba gratis con marca de.',
+      'Cree rompecabezas matemáticos de cuadrícula para vender en Etsy y KDP. Formato puzzle único con imágenes temáticas. Licencia comercial. Pruebe gratis.',
   },
 
   hero: {
-    title: 'Generador de Fichas de Puzzles Matemáticos con Resolución Visual',
-    tagline: 'Combina la práctica matemática con la emoción de resolver puzzles — cada pieza contiene un problema, cada solución revela la imagen.',
+    title: 'Genere rompecabezas matemáticos para vender en Etsy, KDP y Hotmart',
+    tagline: 'Cree puzzles de cuadrícula con imágenes temáticas que se destacan en los listados.',
     description:
-      'Crea fichas de puzzles matemáticos cautivantes donde una imagen completa se divide en una cuadrícula de piezas, cada una con un problema de suma o resta. Los usuarios resuelven las operaciones y luego emparejan las respuestas numeradas con las piezas desordenadas que aparecen debajo de la cuadrícula — transformando la aritmética rutinaria en un misterio visual. Configura cuadrículas desde 2×2 hasta 4×4 para crear puzzles de 4 a 16 piezas, y elige suma, resta u operaciones mixtas para adaptarte a cualquier nivel. Selecciona entre más de 3100 ilustraciones en 104 temas como animales de granja, espacio, dinosaurios y festividades para hacer cada puzzle único. Cada ficha genera una clave de respuesta automática mostrando la cuadrícula resuelta junto a la imagen completa. Exporta PDF y JPEG listos para imprimir a más de 400 DPI en formato Carta, A4 o personalizado. Ya sea que vendas paquetes temáticos de puzzles en Etsy, compiles cuadernos de actividades progresivos para Amazon KDP o crees centros de matemáticas interactivos para tu tienda, el Generador de Puzzles Matemáticos produce resultados profesionales en minutos. Prueba gratis con todas las funciones — sin registro, sin tarjeta de crédito. Las descargas incluyen una marca de agua; compra una licencia para eliminarla.',
+      'Genere rompecabezas matemáticos de cuadrícula para vender en Etsy, Amazon KDP o Hotmart. Este generador crea puzzles donde los niños resuelven operaciones para completar cuadrículas — un formato más atractivo que las fichas de ejercicios tradicionales. Seleccione imágenes de más de 3.000 ilustraciones en 104 temas para crear rompecabezas visualmente irresistibles que se destacan en los resultados de búsqueda. Exporte PDFs a 300 DPI con solucionario automático y véndalos con licencia comercial. Los rompecabezas matemáticos tienen una ventaja competitiva en Etsy: los compradores los perciben como más divertidos que las fichas estándar y pagan precios más altos. Ideal para cuadernillos de actividades en Amazon KDP. Pruebe gratis con marca de agua — sin registro.',
   },
 
   howItWorks: {
-    title: 'Cómo Crear Fichas de Puzzles Matemáticos en 5 Pasos',
+    title: 'Crear rompecabezas matemáticos profesionales paso a paso',
     steps: [
       {
         title: 'Configura el diseño de página',
@@ -58,7 +58,7 @@ const content: AppContent = {
   },
 
   keyFeatures: {
-    title: 'Características Principales del Generador de Puzzles Matemáticos',
+    title: 'Por qué los puzzles matemáticos se destacan en Etsy',
     features: [
       {
         title: 'Formato puzzle-imagen con problemas de matemáticas',
@@ -104,7 +104,7 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Cómo Vender Fichas de Puzzles Matemáticos en Línea',
+    title: 'Vender puzzles de matemáticas en Etsy, KDP y Hotmart',
     cases: [
       {
         title: 'Paquetes temáticos de puzzles matemáticos en Etsy',
@@ -119,16 +119,16 @@ const content: AppContent = {
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Centros de matemáticas diferenciados para Gumroad',
+        title: 'Centros de matemáticas diferenciados para Hotmart',
         description:
-          'Crea conjuntos de puzzles por niveles usando el tamaño de cuadrícula como eje de dificultad: Nivel 1 (2×2 suma, 4 piezas), Nivel 2 (2×3 suma, 6 piezas), Nivel 3 (3×3 resta, 9 piezas) y Nivel 4 (4×4 mixto, 16 piezas). Empaqueta cada nivel con claves de respuesta y una hoja de seguimiento. Los compradores de Gumroad pagan precios premium por recursos diferenciados que se ajustan directamente a grupos de habilidades y pueden usarse inmediatamente como rotaciones en centros de matemáticas.',
-        platform: 'Gumroad (teacherspayteachers.com)',
+          'Crea conjuntos de puzzles por niveles usando el tamaño de cuadrícula como eje de dificultad: Nivel 1 (2×2 suma, 4 piezas), Nivel 2 (2×3 suma, 6 piezas), Nivel 3 (3×3 resta, 9 piezas) y Nivel 4 (4×4 mixto, 16 piezas). Empaqueta cada nivel con claves de respuesta y una hoja de seguimiento. Los compradores de Hotmart pagan precios premium por recursos diferenciados que se ajustan directamente a grupos de habilidades y pueden usarse inmediatamente como rotaciones en centros de matemáticas.',
+        platform: 'Hotmart (hotmart.com)',
       },
       {
         title: 'Contenido de suscripción para tu propia tienda',
         description:
-          'Usa el generador para producir paquetes semanales de puzzles matemáticos y distribúyelos a través de tu propia tienda en Shopify, Gumroad o Payhip. Un modelo de suscripción — nuevo paquete temático de puzzles cada semana — genera ingresos recurrentes y fideliza una base de clientes de emprendedores y centros de tutoría. Con tres operaciones, tamaños de cuadrícula variables y 104 temas, tienes suficientes combinaciones para años de contenido único sin repetir. Ofrecer un paquete de muestra de prueba gratis en la página de tu tienda permite a los suscriptores potenciales experimentar la calidad del puzzle antes de comprometerse, lo que mejora significativamente las tasas de conversión.',
-        platform: 'Gumroad / Shopify / Payhip',
+          'Usa el generador para producir paquetes semanales de puzzles matemáticos y distribúyelos a través de tu propia tienda en Shopify, Hotmart o Payhip. Un modelo de suscripción — nuevo paquete temático de puzzles cada semana — genera ingresos recurrentes y fideliza una base de clientes de emprendedores y centros de tutoría. Con tres operaciones, tamaños de cuadrícula variables y 104 temas, tienes suficientes combinaciones para años de contenido único sin repetir. Ofrecer un paquete de muestra de prueba gratis en la página de tu tienda permite a los suscriptores potenciales experimentar la calidad del puzzle antes de comprometerse, lo que mejora significativamente las tasas de conversión.',
+        platform: 'Hotmart / Shopify / Payhip',
       },
       {
         title: 'Herramienta de participación para venta en línea y tutoría',
@@ -193,7 +193,7 @@ const content: AppContent = {
     {
       question: '¿Qué incluye la licencia comercial?',
       answer:
-        'La licencia comercial elimina la marca de agua de todas las descargas y te otorga derechos ilimitados para vender las fichas que crees — en Etsy, Amazon KDP, Gumroad, tu propio sitio web o cualquier otra plataforma. Sin regalías por venta, sin cuotas mensuales y sin límites en cuántos puzzles produces o vendes. Conservas la propiedad total de cada ficha que generes, y puedes publicar productos en múltiples plataformas simultáneamente sin costes ni restricciones adicionales de licencia.',
+        'La licencia comercial elimina la marca de agua de todas las descargas y te otorga derechos ilimitados para vender las fichas que crees — en Etsy, Amazon KDP, Hotmart, tu propio sitio web o cualquier otra plataforma. Sin regalías por venta, sin cuotas mensuales y sin límites en cuántos puzzles produces o vendes. Conservas la propiedad total de cada ficha que generes, y puedes publicar productos en múltiples plataformas simultáneamente sin costes ni restricciones adicionales de licencia.',
     },
     {
       question: '¿Cuál es la política de reembolso?',

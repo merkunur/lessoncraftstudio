@@ -2,30 +2,30 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'creador sudoku con imágenes',
+    primaryKeyword: 'generador de sudoku con imágenes gratis para niños',
     secondaryKeywords: [
-      'generador de puzzles de sudoku visual para Etsy y KDP',
-      'creador de fichas de sudoku 4×4 con imágenes uso comercial',
-      'herramienta para crear sudoku infantil imprimible profesional',
-      'generador de sudoku con imágenes y clave de respuestas automática',
+      'sudoku con imágenes gratis sin registro',
+      'generador de sudoku visual en línea gratis para niños',
+      'crear sudoku con ilustraciones gratis para imprimir',
+      'sudoku con imágenes gratis PDF con solución',
     ],
     lsiKeywords: [
-      'cuadrícula 4×4 tres niveles dificultad sudoku imágenes creador',
-      'clave de respuestas automática cuadrícula completa sudoku generador',
-      'puzzles lógicos visuales sin texto vendibles globalmente generador',
+      'sudoku 4x4 con ilustraciones para preescolar',
+      'puzzle de lógica visual con imágenes para niños',
+      'sudoku con dibujos imprimible gratis PDF',
     ],
-    titleTag: 'Creador Sudoku con Imágenes — Puzzles 4×4 para Vender',
-    metaDescription: 'Crea sudoku con imágenes 4×4 con tres niveles de dificultad, claves de respuestas automáticas con cuadrícula completa, 104 temas. Prueba gratuita con marca.',
+    titleTag: 'Sudoku con imágenes gratis niños | LCS',
+    metaDescription: 'Cree sudoku con imágenes gratis para niños sin registro. Cuadrículas 4x4 con ilustraciones, 104 temas, solución incluida.',
   },
 
   hero: {
-    title: 'Creador de Sudoku con Imágenes',
+    title: 'Cree sudoku con imágenes gratis para niños',
     tagline: 'Generador de puzzles de sudoku con imágenes 4×4 con tres niveles de dificultad (Fácil 4 celdas vacías, Medio 6 celdas vacías, Difícil 8 celdas vacías), claves de respuestas autogeneradas mostrando cuadrículas completas, selección de imágenes por tema y manual en 104 colecciones con más de 3100 ilustraciones, diseño premium de cuadrícula con colores de bloque alternos y sombras multicapa, y puzzles puramente visuales que se venden en todo el mundo sin traducción',
-    description: 'Crea fichas profesionales de sudoku con imágenes donde los usuarios completan las celdas vacías con la imagen correcta usando lógica de filas y columnas en una cuadrícula 4×4. Cada puzzle usa exactamente 4 imágenes únicas que deben aparecer una vez en cada fila y una vez en cada columna — las mismas reglas que el sudoku clásico, pero con ilustraciones coloridas en lugar de números. Tres niveles de dificultad controlan el desafío: Fácil elimina 4 celdas, Medio elimina 6 y Difícil elimina 8 — la mitad de la cuadrícula. Selecciona imágenes mediante selección por tema que elige automáticamente 4 imágenes al azar de cualquiera de las 104 colecciones temáticas, o navega manualmente, busca y sube para elegir exactamente 4 imágenes. El diseño premium de la cuadrícula presenta colores de bloque 2×2 alternos en azul claro (#F8F9FC) y rosa claro (#FFF5F7), divisores centrales en negrita (#7C8DB5, trazo de 3px), líneas internas más finas (#D1D9E6, 1,5px), un borde exterior índigo (#667EEA) con esquinas redondeadas de 18px y tres sombras multicapa para profundidad. Las imágenes se muestran al 65% del tamaño de la celda para una separación visual clara. Cada puzzle genera un encabezado estilizado \"Sudoku con Imágenes\" con fondo púrpura (#5E35B1) y texto del título localizado en los 11 idiomas soportados. El sistema de doble lienzo crea simultáneamente una pestaña de ficha y una pestaña de clave de respuestas — la clave de respuestas muestra la cuadrícula 4×4 completa con las 16 celdas rellenadas. Aplica temas de fondo y temas de borde con controles de opacidad independientes (0–1, paso 0,05). Añade texto personalizado con 7 opciones de fuente (Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial, Verdana) y contorno de texto de 0 a 10. Exporta PDF y JPEG listos para imprimir a 300 DPI (multiplicador 6×) en Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal o dimensiones personalizadas — sin tamaño Cuadrado en esta aplicación. Activa la escala de grises para impresión que ahorra tinta. Edita todo en el lienzo Fabric.js con 6 opciones de alineación más centrar en página, capas, bloquear/desbloquear, zoom del 25% al 300% en incrementos del 25%, y deshacer/rehacer con 50 estados. Como el sudoku con imágenes es completamente visual — ninguna palabra aparece en la cuadrícula del puzzle — cada ficha funciona de forma idéntica en los 11 idiomas, haciendo tus productos vendibles en todo el mundo. La prueba gratuita incluye todas las funciones con una marca de agua en las descargas. Compra una licencia para eliminar la marca de agua y vender comercialmente.',
+    description: 'Cree sudoku con imágenes gratis para niños con este generador en línea. Genere cuadrículas 4x4 donde los usuarios colocan ilustraciones temáticas en lugar de números, ideal para introducir la lógica del sudoku a los más pequeños. Navegue 104 colecciones con más de 3.100 imágenes o suba las suyas. Configure la dificultad ajustando las casillas vacías y exporte con solución autogenerada. Exporte en JPEG y PDF a 300 DPI en tamaño Carta, A4 o personalizado. La prueba gratis incluye todas las funciones con marca de agua. Sin registro, sin instalación. ¿Quiere vender? Pase a la licencia comercial para eliminar la marca de agua y obtener uso comercial completo.',
   },
 
   tutorial: {
-    title: 'Cómo Crear Fichas de Sudoku con Imágenes en 8 Pasos',
+    title: 'Cómo crear sudoku con imágenes gratis en 8 pasos',
     steps: [
       {
         title: 'Abre el Creador de Sudoku con Imágenes',
@@ -57,7 +57,7 @@ const content: ToolContent = {
       },
       {
         title: 'Descarga los Cuatro Archivos',
-        description: 'Activa la escala de grises para versiones que ahorran tinta ideales para impresión en volumen e interiores de KDP. Descarga los cuatro archivos desde una sola sesión: ficha JPEG, ficha PDF, clave de respuestas JPEG y clave de respuestas PDF — todo renderizado a 300 DPI (multiplicador 6×, calidad JPEG 1.0). Los archivos se exportan como sudoku_worksheet y sudoku_answer_key. Cada pestaña tiene su propio par de botones de descarga. Todas las exportaciones están listas para publicar en listados de Etsy, interiores de Amazon KDP y archivos de productos de Gumroad sin necesidad de postprocesamiento. Haz clic en Generar de nuevo para producir un puzzle nuevo con diferentes disposiciones de celdas al azar — mismas imágenes, misma dificultad, diseño de puzzle completamente diferente.',
+        description: 'Activa la escala de grises para versiones que ahorran tinta ideales para impresión en volumen e interiores de KDP. Descarga los cuatro archivos desde una sola sesión: ficha JPEG, ficha PDF, clave de respuestas JPEG y clave de respuestas PDF — todo renderizado a 300 DPI (multiplicador 6×, calidad JPEG 1.0). Los archivos se exportan como sudoku_worksheet y sudoku_answer_key. Cada pestaña tiene su propio par de botones de descarga. Todas las exportaciones están listas para publicar en listados de Etsy, interiores de Amazon KDP y archivos de productos de Hotmart sin necesidad de postprocesamiento. Haz clic en Generar de nuevo para producir un puzzle nuevo con diferentes disposiciones de celdas al azar — mismas imágenes, misma dificultad, diseño de puzzle completamente diferente.',
       },
     ],
   },
@@ -101,23 +101,23 @@ const content: ToolContent = {
       platform: 'Amazon KDP',
     },
     {
-      title: 'Paquetes de Actividades de Lógica y Razonamiento para Gumroad',
-      description: 'Sube paquetes de actividades de sudoku con imágenes a Gumroad con claves de respuestas autogeneradas como punto de venta clave. Los vendedores que buscan actividades de pensamiento crítico y lógica valoran fichas que llegan listas para venta en línea con soluciones incluidas. Crea conjuntos alineados con el catálogo de productos: clasificación animal para ciencias naturales, lógica de grupos de alimentos para nutrición, razonamiento de profesiones para ciencias sociales. Cada paquete incluye versiones Fácil para instrucción guiada y versiones Difícil para desafío independiente — tres niveles de dificultad cubren todo el espectro de habilidades en un solo producto.',
-      platform: 'Gumroad',
+      title: 'Paquetes de Actividades de Lógica y Razonamiento para Hotmart',
+      description: 'Sube paquetes de actividades de sudoku con imágenes a Hotmart con claves de respuestas autogeneradas como punto de venta clave. Los vendedores que buscan actividades de pensamiento crítico y lógica valoran fichas que llegan listas para venta en línea con soluciones incluidas. Crea conjuntos alineados con el catálogo de productos: clasificación animal para ciencias naturales, lógica de grupos de alimentos para nutrición, razonamiento de profesiones para ciencias sociales. Cada paquete incluye versiones Fácil para instrucción guiada y versiones Difícil para desafío independiente — tres niveles de dificultad cubren todo el espectro de habilidades en un solo producto.',
+      platform: 'Hotmart',
     },
     {
       title: 'Embudo de Tráfico de Sudoku con Imágenes en Pinterest',
-      description: 'Las fichas de sudoku con imágenes crean pines visualmente llamativos en Pinterest — la cuadrícula 4×4 con imágenes temáticas coloridas en bloques alternos azules y rosas, divisores en negrita y un borde índigo crea un formato de puzzle reconocible al instante que padres y vendedores quieren abrir. Publica pines de muestra mostrando los tres niveles de dificultad con imágenes temáticas. Crea series de pines separadas para \"sudoku con imágenes para niños\", \"puzzles lógicos imprimibles para preescolar\" y \"fichas de sudoku visual\". El diseño premium de la cuadrícula destaca en feeds de pines saturados. Enlaza cada pin a tus listados de productos en Etsy o Gumroad.',
+      description: 'Las fichas de sudoku con imágenes crean pines visualmente llamativos en Pinterest — la cuadrícula 4×4 con imágenes temáticas coloridas en bloques alternos azules y rosas, divisores en negrita y un borde índigo crea un formato de puzzle reconocible al instante que padres y vendedores quieren abrir. Publica pines de muestra mostrando los tres niveles de dificultad con imágenes temáticas. Crea series de pines separadas para \"sudoku con imágenes para niños\", \"puzzles lógicos imprimibles para preescolar\" y \"fichas de sudoku visual\". El diseño premium de la cuadrícula destaca en feeds de pines saturados. Enlaza cada pin a tus listados de productos en Etsy o Hotmart.',
       platform: 'Pinterest',
     },
     {
-      title: 'Kit Completo de Sudoku con Imágenes en Gumroad',
-      description: 'Agrupa puzzles de sudoku con imágenes de los 104 temas y tres niveles de dificultad en un kit completo en Gumroad. Incluye más de 300 puzzles abarcando configuraciones Fácil, Medio y Difícil — tres variantes de dificultad de cada tema. Cada puzzle incluye su clave de respuestas autogenerada con la cuadrícula completa, duplicando tu recuento de archivos a más de 600 archivos totales. El sistema de generación aleatoria produce docenas de configuraciones únicas incluso de un solo tema, y los tres niveles de dificultad triplican la variedad de cada selección temática. El formato de kit completo justifica precios premium porque los compradores obtienen una biblioteca completa de puzzles de sudoku con imágenes.',
-      platform: 'Gumroad',
+      title: 'Kit Completo de Sudoku con Imágenes en Hotmart',
+      description: 'Agrupa puzzles de sudoku con imágenes de los 104 temas y tres niveles de dificultad en un kit completo en Hotmart. Incluye más de 300 puzzles abarcando configuraciones Fácil, Medio y Difícil — tres variantes de dificultad de cada tema. Cada puzzle incluye su clave de respuestas autogenerada con la cuadrícula completa, duplicando tu recuento de archivos a más de 600 archivos totales. El sistema de generación aleatoria produce docenas de configuraciones únicas incluso de un solo tema, y los tres niveles de dificultad triplican la variedad de cada selección temática. El formato de kit completo justifica precios premium porque los compradores obtienen una biblioteca completa de puzzles de sudoku con imágenes.',
+      platform: 'Hotmart',
     },
     {
       title: 'Línea de Productos de Puzzles Lógicos Visuales Globales',
-      description: 'El Sudoku con Imágenes produce puzzles puramente visuales — la cuadrícula 4×4 contiene solo imágenes, ninguna palabra, letra o número. El encabezado autogenerado se traduce a los 11 idiomas soportados, pero la cuadrícula del puzzle contiene solo imágenes. Los mismos archivos de producto funcionan en todos los países sin traducción ni modificación. Una sesión de creación produce un catálogo vendible globalmente. Vende archivos idénticos en tiendas de Etsy dirigidas a diferentes países, publica los mismos interiores de KDP en todos los mercados internacionales de Amazon y publica en Gumroad para vendedores internacionales. Sin versiones por idioma, sin costes de traducción, sin mantenimiento por localidad.',
+      description: 'El Sudoku con Imágenes produce puzzles puramente visuales — la cuadrícula 4×4 contiene solo imágenes, ninguna palabra, letra o número. El encabezado autogenerado se traduce a los 11 idiomas soportados, pero la cuadrícula del puzzle contiene solo imágenes. Los mismos archivos de producto funcionan en todos los países sin traducción ni modificación. Una sesión de creación produce un catálogo vendible globalmente. Vende archivos idénticos en tiendas de Etsy dirigidas a diferentes países, publica los mismos interiores de KDP en todos los mercados internacionales de Amazon y publica en Hotmart para vendedores internacionales. Sin versiones por idioma, sin costes de traducción, sin mantenimiento por localidad.',
       platform: 'Etsy / Amazon KDP',
     },
   ],
@@ -133,7 +133,7 @@ const content: ToolContent = {
     },
     {
       title: 'Aprovecha el Formato Puramente Visual para Ventas Globales',
-      description: 'Los puzzles de sudoku con imágenes contienen solo imágenes — ningún texto específico de un idioma en la cuadrícula del puzzle. Cada puzzle que creas es instantáneamente vendible en todo el mundo sin traducción ni localización. Un solo conjunto de puzzles de sudoku con imágenes sirve para cada tienda internacional de Etsy, cada mercado de KDP y cada comprador de Gumroad independientemente del idioma. Mientras tus competidores crean versiones en idiomas separados de fichas con mucho texto, tus puzzles visuales funcionan en todas partes con un solo conjunto de archivos. El encabezado \"Sudoku con Imágenes\" autogenerado se traduce automáticamente en los 11 idiomas, pero el contenido del puzzle no requiere localización.',
+      description: 'Los puzzles de sudoku con imágenes contienen solo imágenes — ningún texto específico de un idioma en la cuadrícula del puzzle. Cada puzzle que creas es instantáneamente vendible en todo el mundo sin traducción ni localización. Un solo conjunto de puzzles de sudoku con imágenes sirve para cada tienda internacional de Etsy, cada mercado de KDP y cada comprador de Hotmart independientemente del idioma. Mientras tus competidores crean versiones en idiomas separados de fichas con mucho texto, tus puzzles visuales funcionan en todas partes con un solo conjunto de archivos. El encabezado \"Sudoku con Imágenes\" autogenerado se traduce automáticamente en los 11 idiomas, pero el contenido del puzzle no requiere localización.',
     },
     {
       title: 'Destaca el Diseño Premium de la Cuadrícula en las Fotos del Producto',
@@ -196,7 +196,7 @@ const content: ToolContent = {
     },
     {
       question: '¿Puedo vender fichas de sudoku con imágenes creadas con esta herramienta comercialmente?',
-      answer: 'Sí. Con una licencia comercial, tienes derechos completos para vender fichas de sudoku con imágenes como descargas digitales en Etsy, cuadernos de lógica impresos en Amazon KDP, recursos para venta en línea en Gumroad o a través de cualquier otro canal de ventas. Los tres niveles de dificultad, selección por tema y manual de imágenes, claves de respuestas autogeneradas con cuadrículas completas, subida de imágenes personalizadas, diseño premium de cuadrícula y 104 colecciones de imágenes temáticas te dan todo lo necesario para crear productos profesionales de sudoku con imágenes que compiten en categorías de puzzles lógicos en todos los principales mercados.',
+      answer: 'Sí. Con una licencia comercial, tienes derechos completos para vender fichas de sudoku con imágenes como descargas digitales en Etsy, cuadernos de lógica impresos en Amazon KDP, recursos para venta en línea en Hotmart o a través de cualquier otro canal de ventas. Los tres niveles de dificultad, selección por tema y manual de imágenes, claves de respuestas autogeneradas con cuadrículas completas, subida de imágenes personalizadas, diseño premium de cuadrícula y 104 colecciones de imágenes temáticas te dan todo lo necesario para crear productos profesionales de sudoku con imágenes que compiten en categorías de puzzles lógicos en todos los principales mercados.',
     },
     {
       question: '¿Cuál es la política de reembolso?',

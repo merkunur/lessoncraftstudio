@@ -2,32 +2,32 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'generador tren del abecedario',
+    primaryKeyword: 'fichas de abecedario para vender en Etsy y KDP',
     secondaryKeywords: [
-      'fichas tren alfabético imprimibles para Etsy',
-      'generador de fichas de reconocimiento de letras para Amazon KDP',
-      'vender fichas de abecedario en Gumroad',
-      'fichas tren del abecedario licencia comercial',
+      'generador de fichas de abecedario para Etsy',
+      'fichas de tren del abecedario para Amazon KDP',
+      'fichas de letras imprimibles licencia comercial',
+      'crear cuadernillos de abecedario para vender',
     ],
     lsiKeywords: [
-      'productos digitales de alfabetización para emprendedores',
-      'negocio de fichas de letras imprimibles en línea',
-      'generador de fichas de abecedario de uso comercial',
+      'fichas abecedario tren letras vendedores Etsy',
+      'cuadernillos letras preescolar imprimibles KDP',
+      'negocio fichas alfabeto mercado hispano',
     ],
-    titleTag: 'Generador Tren del Abecedario | Crear y Vender',
+    titleTag: 'Fichas de abecedario para vender en Etsy | LCS',
     metaDescription:
-      'Crea fichas tren del abecedario para vender en Etsy, KDP y Gumroad. Vagones con letras e imágenes, 11 idiomas, 104 temas. Prueba gratis con marca de agua.',
+      'Cree fichas de abecedario con tren de letras para vender en Etsy y KDP. Imágenes temáticas, 11 idiomas. Licencia comercial. Pruebe gratis.',
   },
 
   hero: {
-    title: 'Generador de Fichas Tren del Abecedario para la Práctica de Reconocimiento de Letras',
-    tagline: 'Cada vagón lleva una letra y una imagen correspondiente — construyendo el reconocimiento de letras vagón tras vagón.',
+    title: 'Genere fichas de abecedario para vender en Etsy, KDP y Hotmart',
+    tagline: 'Cree fichas de tren del abecedario con imágenes temáticas — un básico para preescolar.',
     description:
-      'Diseña fichas de tren del abecedario llamativas donde 11 vagones coloridos recorren la página, cada uno llevando una letra asociada a una ilustración correspondiente. Elige el modo Creación Automática para una selección aleatoria instantánea de letras o el Modo Manual para seleccionar exactamente 11 letras del abecedario para práctica específica. Añade de 3 a 11 pistas configurables por ficha — imágenes-pista que los usuarios asocian al vagón-letra correcto — transformando el reconocimiento pasivo de letras en un ejercicio activo de resolución de problemas. Explora más de 3100 ilustraciones seleccionadas en 104 temas para encontrar la imagen perfecta para cada letra. El Acceso Completo desbloquea los 11 idiomas con sus alfabetos nativos — el alemán con Ä/Ö/Ü, el sueco con Å/Ä/Ö, el español con Ñ para 27 letras, y más — multiplicando tu catálogo de productos por once desde un solo flujo de trabajo. Cada ficha genera una clave de respuesta automática, y puedes exportar PDF listos para imprimir y JPEG a más de 400 DPI en tamaños Carta, A4 o Cuadrado. Ya sea que vendas paquetes de abecedario temáticos en Etsy, compiles libros de alfabetización progresivos para Amazon KDP o crees centros de letras diferenciados para Gumroad, el Generador Tren del Abecedario produce resultados profesionales en minutos — prueba gratis con todas las funciones, sin registro, sin tarjeta de crédito. Las descargas incluyen una marca de agua; compra una licencia para eliminarla.',
+      'Genere fichas de abecedario para vender en Etsy, Amazon KDP o Hotmart. El formato de tren del abecedario presenta cada letra en un vagón con imágenes temáticas correspondientes — una forma divertida y visual de aprender las letras. Con soporte para 11 idiomas y más de 3.000 imágenes en 104 temas, cree fichas de abecedario para el mercado hispano y otros mercados globales. Las fichas de abecedario son un producto perenne con demanda constante para preescolar e infantil. Cuadernillos de abecedario son un nicho probado en Amazon KDP. Exporte PDFs a 300 DPI con alta calidad y véndalos con la licencia comercial incluida. Pruebe gratis con marca de agua — sin registro.',
   },
 
   howItWorks: {
-    title: 'Cómo Crear Fichas Tren del Abecedario en 5 Pasos',
+    title: 'Cómo crear fichas de abecedario paso a paso',
     steps: [
       {
         title: 'Configura el diseño de página',
@@ -58,7 +58,7 @@ const content: AppContent = {
   },
 
   keyFeatures: {
-    title: 'Características Principales del Generador de Fichas Tren del Abecedario',
+    title: 'Por qué las fichas de abecedario son un perenne',
     features: [
       {
         title: 'Formato de vagón-tren con asociación letra-imagen',
@@ -104,7 +104,7 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Cómo Vender Fichas Tren del Abecedario en Línea',
+    title: 'Vender fichas de abecedario en Etsy, KDP y Hotmart',
     cases: [
       {
         title: 'Paquetes temáticos de trenes del abecedario en Etsy',
@@ -119,16 +119,16 @@ const content: AppContent = {
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Centros de alfabetización diferenciados para Gumroad',
+        title: 'Centros de alfabetización diferenciados para Hotmart',
         description:
-          'Crea conjuntos de tren del abecedario por niveles usando el número de pistas como eje de dificultad: Nivel 1 (3 pistas, letras comunes), Nivel 2 (5 pistas, letras mixtas), Nivel 3 (8 pistas, incluyendo letras poco comunes como Q, X, Z), y Nivel 4 (11 pistas, desafío de asociación completo). Acompaña cada nivel con claves de respuesta y una hoja de seguimiento del progreso. Los compradores de Gumroad pagan precios premium por recursos de alfabetización diferenciados que pueden usar inmediatamente en múltiples grupos de lectura.',
-        platform: 'Gumroad (teacherspayteachers.com)',
+          'Crea conjuntos de tren del abecedario por niveles usando el número de pistas como eje de dificultad: Nivel 1 (3 pistas, letras comunes), Nivel 2 (5 pistas, letras mixtas), Nivel 3 (8 pistas, incluyendo letras poco comunes como Q, X, Z), y Nivel 4 (11 pistas, desafío de asociación completo). Acompaña cada nivel con claves de respuesta y una hoja de seguimiento del progreso. Los compradores de Hotmart pagan precios premium por recursos de alfabetización diferenciados que pueden usar inmediatamente en múltiples grupos de lectura.',
+        platform: 'Hotmart (hotmart.com)',
       },
       {
         title: 'Productos de abecedario multilingües con Acceso Completo',
         description:
-          'El Acceso Completo desbloquea los 11 idiomas con sus alfabetos nativos. Crea trenes del abecedario en alemán con vagones Ä/Ö/Ü, trenes en sueco con Å/Ä/Ö, trenes en español con la Ñ, y más. Cada versión en un idioma es un producto distinto que puedes publicar en Etsy, Gumroad o Amazon KDP — multiplicando efectivamente tu catálogo por once desde el mismo flujo de trabajo. Los productos de alfabetización multilingüe enfrentan menos competencia y atraen compradores internacionales que buscan en su idioma nativo.',
-        platform: 'Etsy / Amazon KDP / Gumroad (multilingüe)',
+          'El Acceso Completo desbloquea los 11 idiomas con sus alfabetos nativos. Crea trenes del abecedario en alemán con vagones Ä/Ö/Ü, trenes en sueco con Å/Ä/Ö, trenes en español con la Ñ, y más. Cada versión en un idioma es un producto distinto que puedes publicar en Etsy, Hotmart o Amazon KDP — multiplicando efectivamente tu catálogo por once desde el mismo flujo de trabajo. Los productos de alfabetización multilingüe enfrentan menos competencia y atraen compradores internacionales que buscan en su idioma nativo.',
+        platform: 'Etsy / Amazon KDP / Hotmart (multilingüe)',
       },
       {
         title: 'Herramienta de reconocimiento de letras para venta en línea y tutoría',
@@ -178,7 +178,7 @@ const content: AppContent = {
     {
       question: '¿El generador crea claves de respuesta automáticamente?',
       answer:
-        'Sí. Haz clic en el botón Generar Clave de Respuesta para crear una versión resuelta mostrando cada vagón con su asociación letra-imagen correcta y todas las pistas resueltas. Puedes previsualizarla en pantalla y descargarla como archivo JPEG o PDF separado para incluir en ediciones del vendedor o paquetes de productos. Tener una clave de respuesta lista añade valor percibido a tus anuncios y te permite indicar \"clave de respuesta incluida\" — un detalle que los compradores de Etsy y Gumroad filtran específicamente al comparar productos de la competencia.',
+        'Sí. Haz clic en el botón Generar Clave de Respuesta para crear una versión resuelta mostrando cada vagón con su asociación letra-imagen correcta y todas las pistas resueltas. Puedes previsualizarla en pantalla y descargarla como archivo JPEG o PDF separado para incluir en ediciones del vendedor o paquetes de productos. Tener una clave de respuesta lista añade valor percibido a tus anuncios y te permite indicar \"clave de respuesta incluida\" — un detalle que los compradores de Etsy y Hotmart filtran específicamente al comparar productos de la competencia.',
     },
     {
       question: '¿Hay una prueba gratuita?',
@@ -188,12 +188,12 @@ const content: AppContent = {
     {
       question: '¿Qué incluye la licencia comercial?',
       answer:
-        'La Licencia Comercial proporciona exportaciones en inglés sin marca de agua con derechos completos de venta. La licencia Acceso Completo añade los 11 idiomas con sus alfabetos nativos, multiplicando tu catálogo de productos. Ambos niveles otorgan derechos ilimitados para vender en Etsy, Amazon KDP, Gumroad, tu propio sitio web o cualquier otra plataforma — sin regalías por venta, sin cuotas mensuales y sin límites de producción.',
+        'La Licencia Comercial proporciona exportaciones en inglés sin marca de agua con derechos completos de venta. La licencia Acceso Completo añade los 11 idiomas con sus alfabetos nativos, multiplicando tu catálogo de productos. Ambos niveles otorgan derechos ilimitados para vender en Etsy, Amazon KDP, Hotmart, tu propio sitio web o cualquier otra plataforma — sin regalías por venta, sin cuotas mensuales y sin límites de producción.',
     },
     {
       question: '¿Puedo vender fichas creadas con esta herramienta en Etsy y Amazon KDP?',
       answer:
-        'Sí. Con una licencia comercial, tienes todos los derechos para vender tus fichas de tren del abecedario como descargas digitales en Etsy, como libros de actividades impresos en Amazon KDP, como recursos educativos en Gumroad o a través de cualquier otro canal de venta. El formato de tren único y la capacidad multilingüe te ofrecen una fuerte diferenciación en categorías de mercado muy competidas.',
+        'Sí. Con una licencia comercial, tienes todos los derechos para vender tus fichas de tren del abecedario como descargas digitales en Etsy, como libros de actividades impresos en Amazon KDP, como recursos educativos en Hotmart o a través de cualquier otro canal de venta. El formato de tren único y la capacidad multilingüe te ofrecen una fuerte diferenciación en categorías de mercado muy competidas.',
     },
     {
       question: '¿Cuál es la política de reembolso?',

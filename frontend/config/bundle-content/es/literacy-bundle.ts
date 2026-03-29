@@ -2,27 +2,26 @@ import type { BundleContent } from '../types';
 
 const content: BundleContent = {
   seo: {
-    primaryKeyword: 'paquete fichas lectura y lenguaje',
+    primaryKeyword: 'paquete de juegos de palabras Etsy KDP',
     secondaryKeywords: [
-      'paquete de generadores de fichas de lenguaje para vendedores',
-      'kit de fichas de lectoescritura uso comercial',
-      'paquete de fichas de sopa de letras para Etsy',
-      'generadores de fichas multilingües para vendedores KDP',
+      'paquete generadores fichas de lectoescritura comercial',
+      'kit sopas de letras y criptogramas para vender',
+      'fichas de abecedario multilingües licencia comercial',
+      'herramientas de lenguaje para tienda de imprimibles',
     ],
     lsiKeywords: [
-      'paquete de fichas de abecedario y escritura',
-      'colección de criptogramas y letras revueltas imprimibles',
-      'licencia comercial fichas de lectoescritura',
-      'herramienta de creación masiva de fichas de lenguaje',
+      'multiplicar catálogo 11 idiomas un solo paquete',
+      'ahorro paquete versus individual fichas lectura',
+      'variedad productos lectoescritura múltiples plataformas',
     ],
-    titleTag: 'Paquete Fichas Lectura y Lenguaje | para Vender',
-    metaDescription: '7 generadores de fichas de lectoescritura en un paquete: abecedario, sopa de letras, criptogramas, preposiciones y escritura. Crea fichas en 11 idiomas.',
+    titleTag: 'Paquete juegos de palabras — Vender | LCS',
+    metaDescription: 'Paquete de 7 generadores de fichas de lectoescritura para Etsy y KDP. Sopas de letras, criptogramas, abecedario en 11 idiomas. Licencia comercial.',
   },
 
   hero: {
-    title: 'Paquete Lectura y Lenguaje',
-    tagline: 'Siete generadores de fichas con soporte de idioma — multiplica tu línea de productos en 11 idiomas',
-    description: 'Cada generador de este paquete reconoce el idioma seleccionado. Este único hecho transforma tu catálogo de productos: un diseño de ficha se convierte en 11 productos distintos cuando cambias entre inglés, alemán, francés, español, portugués, italiano, neerlandés, sueco, danés, noruego y finés. El Paquete Lectura y Lenguaje combina siete generadores especializados que cubren reconocimiento del abecedario, preposiciones espaciales, adivinanza de palabras con pistas de imágenes, letras revueltas, sopas de letras, criptogramas de cifrado imagen-oración y práctica de escritura guiada. Seis de los siete generadores producen contenido específico del idioma — las palabras, letras y vocabulario de cada ficha cambian para coincidir con el idioma seleccionado, con signos diacríticos correctos, alfabetos nativos y frases gramaticalmente precisas. El séptimo, Escritura, se enfoca en la práctica de trazos de caligrafía con mínima dependencia del idioma. Cada generador produce archivos PDF listos para imprimir y JPEG de alta resolución. Seis de siete incluyen claves de respuesta automáticas. Elige entre más de 100 conjuntos de imágenes temáticas o sube tu propio arte para productos personalizados y específicos de nicho. Ya sea que vendas fichas de lectoescritura en Etsy, publiques cuadernos de idiomas en Amazon KDP o distribuyas recursos en Gumroad, este paquete te da la variedad y el alcance lingüístico que los competidores monolingües no pueden igualar. Cada generador incluye una prueba gratis con marca de agua para que puedas probar todas las funciones antes de comprar una licencia.',
+    title: 'Paquete de juegos de palabras para vender en Etsy, KDP y Hotmart',
+    tagline: 'Siete generadores de fichas de lectoescritura con soporte multilingüe — multiplique su catálogo en 11 idiomas.',
+    description: 'Consiga siete generadores de fichas de lectoescritura por una fracción del precio individual y multiplique su línea de productos en 11 idiomas desde el primer día. Este paquete incluye abecedario, preposiciones, adivinanza de palabras, letras revueltas, sopas de letras, criptogramas y práctica de escritura — cada tipo de ficha de lectura que los compradores buscan en Etsy. Seis de los siete generadores producen contenido específico del idioma con signos diacríticos correctos y vocabulario nativo, lo que significa que un solo diseño se convierte en 11 productos distintos cuando cambia de idioma. Exporte PDFs a 300 DPI con solucionarios automáticos y venda con la licencia comercial incluida en Etsy, Amazon KDP o Hotmart. Combine más de 100 conjuntos de imágenes temáticas para crear cientos de variaciones únicas sin repetir productos. Este paquete le da la variedad y el alcance lingüístico que los vendedores monolingües no pueden igualar. Pruebe gratis con marca de agua — sin registro.',
   },
 
   appsIncluded: [
@@ -44,7 +43,7 @@ const content: BundleContent = {
     },
     {
       title: 'Generador de Fichas de Sopa de Letras',
-      description: 'Genera cuadrículas de sopa de letras desde 5×5 para principiantes hasta 30×30 para buscadores avanzados. Las palabras se esconden horizontal, vertical, diagonal y en reversa. El generador reconoce el idioma en cada nivel: las listas de palabras coinciden con el idioma seleccionado, y los caracteres de relleno usan el alfabeto correcto incluyendo letras acentuadas y caracteres específicos del idioma. Las claves de respuesta con seis colores facilitan la verificación de cada palabra para usuarios y vendedores. Configura la cantidad de palabras, la densidad de la cuadrícula y la dificultad. Elige vocabulario temático de más de 100 conjuntos de imágenes. Las sopas de letras son el producto de lectoescritura imprimible con mayor demanda en Etsy y Gumroad — los vendedores con listados multilingües capturan tráfico internacional que los competidores monolingües pierden por completo.',
+      description: 'Genera cuadrículas de sopa de letras desde 5×5 para principiantes hasta 30×30 para buscadores avanzados. Las palabras se esconden horizontal, vertical, diagonal y en reversa. El generador reconoce el idioma en cada nivel: las listas de palabras coinciden con el idioma seleccionado, y los caracteres de relleno usan el alfabeto correcto incluyendo letras acentuadas y caracteres específicos del idioma. Las claves de respuesta con seis colores facilitan la verificación de cada palabra para usuarios y vendedores. Configura la cantidad de palabras, la densidad de la cuadrícula y la dificultad. Elige vocabulario temático de más de 100 conjuntos de imágenes. Las sopas de letras son el producto de lectoescritura imprimible con mayor demanda en Etsy y Hotmart — los vendedores con listados multilingües capturan tráfico internacional que los competidores monolingües pierden por completo.',
     },
     {
       title: 'Generador de Fichas de Criptogramas',
@@ -67,7 +66,7 @@ const content: BundleContent = {
     },
     {
       title: 'Claves de respuesta automáticas',
-      description: 'Seis de los siete generadores crean automáticamente una clave de respuesta correspondiente para cada ficha. Las sopas de letras obtienen soluciones codificadas en seis colores, los criptogramas incluyen leyendas completas de letras, y las letras revueltas muestran la disposición correcta. Las claves de respuesta son una expectativa principal de los compradores en Etsy y Gumroad — este paquete las entrega sin esfuerzo manual. La única excepción es el generador de Escritura, donde la práctica de caligrafía es autoguiada.',
+      description: 'Seis de los siete generadores crean automáticamente una clave de respuesta correspondiente para cada ficha. Las sopas de letras obtienen soluciones codificadas en seis colores, los criptogramas incluyen leyendas completas de letras, y las letras revueltas muestran la disposición correcta. Las claves de respuesta son una expectativa principal de los compradores en Etsy y Hotmart — este paquete las entrega sin esfuerzo manual. La única excepción es el generador de Escritura, donde la práctica de caligrafía es autoguiada.',
     },
     {
       title: 'Soporte de alfabetos nativos y signos diacríticos',
@@ -87,7 +86,7 @@ const content: BundleContent = {
     },
     {
       title: 'Salida lista para imprimir',
-      description: 'Descarga fichas como PDF o JPEG de alta resolución en formato Carta, A4, Horizontal, Cuadrado o tamaños personalizados. Los archivos están listos para publicar en Etsy, subir a KDP o enviar a Gumroad sin post-procesamiento en software de diseño. Añade bordes decorativos de la biblioteca de bordes integrada, establece colores de fondo de página y aplica imágenes de fondo temáticas con opacidad ajustable para resultados pulidos y profesionales en cada ocasión.',
+      description: 'Descarga fichas como PDF o JPEG de alta resolución en formato Carta, A4, Horizontal, Cuadrado o tamaños personalizados. Los archivos están listos para publicar en Etsy, subir a KDP o enviar a Hotmart sin post-procesamiento en software de diseño. Añade bordes decorativos de la biblioteca de bordes integrada, establece colores de fondo de página y aplica imágenes de fondo temáticas con opacidad ajustable para resultados pulidos y profesionales en cada ocasión.',
     },
   ],
 
@@ -103,9 +102,9 @@ const content: BundleContent = {
       platform: 'Amazon KDP (kdp.amazon.com)',
     },
     {
-      title: 'Recursos de idiomas para Gumroad',
-      description: 'Los compradores de Gumroad buscan recursos de lectoescritura específicos por idioma, nivel escolar y habilidad. Crea paquetes diferenciados: reconocimiento del abecedario para preescolar, sopas de letras para primer grado, criptogramas para segundo grado. Las claves de respuesta automáticas, los múltiples niveles de dificultad y la gramática correcta en cada idioma cumplen con los estándares de recursos premium de Gumroad. Empaqueta fichas en paquetes integrales de lectoescritura que los vendedores compran para uso en toda el tienda durante el año escolar.',
-      platform: 'Gumroad (teacherspayteachers.com)',
+      title: 'Recursos de idiomas para Hotmart',
+      description: 'Los compradores de Hotmart buscan recursos de lectoescritura específicos por idioma, nivel escolar y habilidad. Crea paquetes diferenciados: reconocimiento del abecedario para preescolar, sopas de letras para primer grado, criptogramas para segundo grado. Las claves de respuesta automáticas, los múltiples niveles de dificultad y la gramática correcta en cada idioma cumplen con los estándares de recursos premium de Hotmart. Empaqueta fichas en paquetes integrales de lectoescritura que los vendedores compran para uso en toda el tienda durante el año escolar.',
+      platform: 'Hotmart (hotmart.com)',
     },
     {
       title: 'Materiales de enseñanza de ESL e idiomas extranjeros',
@@ -141,8 +140,8 @@ const content: BundleContent = {
       description: 'Vendes descargas digitales en Etsy o publicas cuadernos en Amazon KDP y quieres maximizar la variedad de productos sin esfuerzo de diseño proporcional. El multiplicador de idiomas de este paquete es tu ventaja competitiva — cada ficha de lectoescritura que diseñes puede convertirse en 11 listados de productos separados en 11 idiomas. Los vendedores con tiendas multilingües de lectoescritura capturan demografías de compradores que los competidores monolingües no pueden alcanzar, expandiendo drásticamente el tamaño del mercado direccionable desde una sola inversión en herramientas.',
     },
     {
-      title: 'Autores de Gumroad',
-      description: 'Creas y vendes recursos educativos en Gumroad y necesitas herramientas que produzcan fichas de lectoescritura lingüísticamente correctas y alineadas con el catálogo de productos. Cada generador entrega claves de respuesta automáticas, múltiples configuraciones de dificultad y contenido gramaticalmente preciso en cada idioma admitido. Crea paquetes de paquetes escalonados por nivel por nivel escolar e idioma que los vendedores buscan específicamente — tiendas bilingües, programas de ESL y cursos de idiomas extranjeros necesitan materiales de lectoescritura de calidad.',
+      title: 'Autores de Hotmart',
+      description: 'Creas y vendes recursos educativos en Hotmart y necesitas herramientas que produzcan fichas de lectoescritura lingüísticamente correctas y alineadas con el catálogo de productos. Cada generador entrega claves de respuesta automáticas, múltiples configuraciones de dificultad y contenido gramaticalmente preciso en cada idioma admitido. Crea paquetes de paquetes escalonados por nivel por nivel escolar e idioma que los vendedores buscan específicamente — tiendas bilingües, programas de ESL y cursos de idiomas extranjeros necesitan materiales de lectoescritura de calidad.',
     },
     {
       title: 'Vendedores de idiomas y tutores',
@@ -173,7 +172,7 @@ const content: BundleContent = {
     },
     {
       question: '¿En qué formatos puedo descargar?',
-      answer: 'Cada generador produce archivos PDF listos para imprimir y JPEG de alta resolución. Puedes elegir entre Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal, Cuadrado o ingresar un tamaño personalizado. PDF es ideal para paquetes de fichas multipágina en Etsy y Gumroad. JPEG funciona bien para páginas interiores de KDP y vistas previas en redes sociales. Todos los archivos se descargan en resolución de impresión — sin necesidad de escalar ni post-procesar.',
+      answer: 'Cada generador produce archivos PDF listos para imprimir y JPEG de alta resolución. Puedes elegir entre Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal, Cuadrado o ingresar un tamaño personalizado. PDF es ideal para paquetes de fichas multipágina en Etsy y Hotmart. JPEG funciona bien para páginas interiores de KDP y vistas previas en redes sociales. Todos los archivos se descargan en resolución de impresión — sin necesidad de escalar ni post-procesar.',
     },
     {
       question: '¿Puedo usar mis propias imágenes en lugar de los temas integrados?',
@@ -185,7 +184,7 @@ const content: BundleContent = {
     },
     {
       question: '¿Puedo vender las fichas que creo?',
-      answer: 'Sí. Tanto la licencia Comercial como la de Acceso Completo incluyen derechos de venta comercial. Puedes vender las fichas que generes en Etsy, Amazon KDP, Gumroad, tu propio sitio web o cualquier otra plataforma. Vendes las fichas — la herramienta generadora en sí no es transferible.',
+      answer: 'Sí. Tanto la licencia Comercial como la de Acceso Completo incluyen derechos de venta comercial. Puedes vender las fichas que generes en Etsy, Amazon KDP, Hotmart, tu propio sitio web o cualquier otra plataforma. Vendes las fichas — la herramienta generadora en sí no es transferible.',
     },
     {
       question: '¿Cuántas fichas puedo crear?',

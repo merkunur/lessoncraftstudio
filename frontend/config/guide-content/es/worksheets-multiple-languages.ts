@@ -2,29 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'crear fichas en varios idiomas',
+    primaryKeyword: 'crear fichas en varios idiomas para vender',
     secondaryKeywords: [
-      'creación fichas multilingües',
-      'traducir fichas para vender',
-      'producción imprimibles varios idiomas',
-      'diseño fichas internacionales',
+      'fichas multilingüe para vendedores',
+      'crear imprimibles en múltiples idiomas',
+      'expandir fichas educativas a otros idiomas',
+      'producción de fichas multilingüe eficiente',
     ],
     lsiKeywords: [
-      'formato específico juegos caracteres signos diacríticos selección fuentes para idiomas',
-      'diéresis alemanas acentos franceses caracteres españoles caracteres acentuados caracteres especiales',
-      'flujo producción multilingüe traducción por lotes revisión hablante nativo control de calidad',
-      'texto anuncio localizado flujo imprimibles internacional herramientas contenido varios idiomas',
-      'diseño RTL variación longitud texto palabras compuestas adaptación cultural localización fichas',
-      'producción por lotes generación contenido varios idiomas herramientas traducción automatizada bases vocabulario',
+      'traducción de fichas adaptación lingüística localización',
+      'flujo de trabajo multilingüe eficiencia producción',
+      'demanda por idioma mercados educativos internacionales',
     ],
-    titleTag: 'Crear fichas en varios idiomas — Guía',
-    metaDescription: 'Cómo crear fichas en varios idiomas: flujos de producción, gestión de caracteres, selección de fuentes, control de calidad y adaptación de listados para.',
+    titleTag: 'Fichas en varios idiomas para vender | LCS',
+    metaDescription: 'Aprenda a crear fichas en varios idiomas para multiplicar sus ventas. Flujo de trabajo eficiente para Etsy, KDP y Hotmart con adaptación cultural correcta.',
   },
 
   hero: {
-    title: 'Cómo crear fichas de ejercicios en varios idiomas',
+    title: 'Cómo crear fichas en varios idiomas y multiplicar ventas',
     tagline: 'Una guía práctica para la producción de fichas multilingües — cubriendo cómo elegir tipos de fichas adecuados para cada idioma, configurar un espacio de trabajo multilingüe, manejar caracteres especiales y fuentes, adaptar contenido de forma natural para cada mercado, implementar control de calidad de traducciones, usar herramientas automatizadas multilingües, crear flujos de producción por lotes eficientes y optimizar listados en plataformas para compradores internacionales',
-    description: 'Crear fichas de ejercicios en varios idiomas no es simplemente pasar texto por un traductor. La producción profesional multilingüe requiere comprender los juegos de caracteres, la compatibilidad de fuentes, las variaciones en la longitud del texto, el contexto cultural y los procesos de control de calidad que aseguran que cada versión en cada idioma cumpla el mismo estándar que tu original. Esta guía recorre la metodología completa de producción para crear fichas que se vean y lean profesionalmente en cada idioma objetivo.',
+    description: 'Crear fichas en varios idiomas es la forma más rápida de multiplicar su catálogo y sus ingresos. Cada versión lingüística de un producto que ya funciona le abre un mercado completamente nuevo con trabajo mínimo. Esta guía le enseña el flujo de trabajo eficiente para producir fichas multilingüe: desde la traducción correcta hasta la adaptación cultural y la optimización de listados por idioma. Descubra cómo vender en Etsy, Amazon KDP y Hotmart en múltiples mercados. El mercado hispanohablante es especialmente atractivo por su tamaño y la escasez de imprimibles educativos de calidad.',
   },
 
   introduction: 'La diferencia entre una ficha multilingüe que se vende y una que queda ignorada en una plataforma es la calidad de producción. Los compradores en cada mercado de idiomas pueden detectar inmediatamente las fichas que fueron traducidas descuidadamente o producidas sin atención a los requisitos de formato específicos del idioma. Una ficha en alemán con diéresis (umlauts) faltantes, una ficha en francés con marcas de acentuación incorrectas, o una ficha en español con expresiones forzadas señalan calidad amateur — y los compradores las pasan por alto en favor de productos que demuestran competencia lingüística genuina.\n\nEsta brecha en la calidad de producción es en realidad una oportunidad. Debido a que tantos vendedores producen fichas multilingües de forma deficiente, el umbral para destacar es sorprendentemente alcanzable. No necesitas ser hablante nativo en cada idioma para producir fichas de calidad profesional. Lo que necesitas es una metodología de producción sistemática que aborde los desafíos técnicos y lingüísticos específicos de cada idioma objetivo, combinada con herramientas y procesos que detecten errores antes de que tus productos lleguen a los compradores.\n\nLos desafíos prácticos de la producción de fichas multilingües se dividen en varias categorías. Primero, están los requisitos de juegos de caracteres — diferentes idiomas usan diferentes alfabetos, marcas diacríticas y caracteres especiales que deben renderizarse correctamente en las fuentes elegidas. Segundo, están los desafíos de formato — las palabras compuestas alemanas son significativamente más largas que sus equivalentes en inglés, lo que afecta el dimensionamiento de cajas de texto y el diseño. Tercero, están los problemas de calidad lingüística — las traducciones directas a menudo producen expresiones forzadas que los hablantes nativos notan inmediatamente. Y cuarto, están los desafíos de plataformas — cada mercado de idiomas tiene sus propios términos de búsqueda, expectativas de compradores y convenciones de listados.\n\nEsta guía aborda cada uno de estos desafíos con flujos de trabajo de producción específicos y accionables. Aprenderás cómo seleccionar tipos de fichas que se ajusten a tus capacidades lingüísticas, configurar un espacio de trabajo multilingüe organizado, manejar los juegos de caracteres y fuentes requeridos por cada idioma, adaptar contenido para que se lea de forma natural en lugar de como una traducción, implementar procesos de control de calidad que detecten errores antes de publicar, aprovechar herramientas que generan contenido multilingüe automáticamente, crear sistemas eficientes de producción por lotes y crear listados en plataformas que resuenen con compradores en cada mercado de idiomas. El objetivo es un sistema de producción repetible que te permita crear fichas de calidad profesional de forma consistente en cualquier idioma objetivo.',

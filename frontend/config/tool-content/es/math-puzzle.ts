@@ -1,30 +1,30 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'crear puzzles matemáticos para venta en línea',
+    primaryKeyword: 'crear rompecabezas de matematicas gratis',
     secondaryKeywords: [
-      'puzzles matemáticos jigsaw para vendedores',
-      'creador de puzzles matemáticos para niños',
-      'puzzles de matemáticas con imágenes para clase',
-      'fichas de puzzles matemáticos para usuarios',
+      'rompecabezas de mates gratis sin registro',
+      'puzzles matematicos gratis en linea',
+      'generador de rompecabezas de matematicas gratis',
+      'fichas de puzzles matematicos gratis para imprimir',
     ],
     lsiKeywords: [
-      'puzzle matemático con cuadrícula para venta en línea',
-      'actividad puzzle matemático jigsaw para niños',
-      'creador de puzzles matemáticos configurable',
+      'actividades de logica y calculo para ninos',
+      'fichas de matematicas divertidas imprimibles',
+      'rompecabezas de numeros con solucionario',
     ],
-    titleTag: 'Crear Puzzles Matemáticos — para vendedores',
-    metaDescription: 'Crea puzzles matemáticos tipo rompecabezas para venta en línea. Cuadrículas con imágenes, tres modos de operación, clave de respuestas. Prueba con marca de agua.',
+    titleTag: 'Rompecabezas de mates gratis | LCS',
+    metaDescription: 'Cree rompecabezas de matemáticas gratis con imágenes temáticas. Sin registro, sin tarjeta. Descarga con marca de agua. Licencia comercial.',
     },
 
   hero: {
-    title: 'Generador de Puzzles Matemáticos',
-    tagline: 'Crea puzzles tipo rompecabezas con ecuaciones matemáticas en menos de 60 segundos',
-    description: 'Convierte la práctica de matemáticas en un puzzle visual que no se parece a ninguna ficha estándar. Esta herramienta divide una imagen elegida en una cuadrícula de celdas, cada una con una ecuación matemática. Las piezas desordenadas con números de respuesta aparecen debajo — los usuarios resuelven cada ecuación y colocan la pieza correcta para reconstruir la imagen. Elige entre tres modos de operación: Suma, Resta o Mixto (ambas operaciones combinadas aleatoriamente). Ajusta el tamaño de la cuadrícula desde 2×2 (4 piezas, más fácil) hasta 4×4 (16 piezas, más difícil) para adaptarte a cualquier nivel. Sube tus propias imágenes PNG o JPEG para puzzles personalizados, estacionales o de nicho, o explora la biblioteca integrada de más de 3.100 imágenes en 104 temas. El formato rompecabezas crea un producto visualmente reconocible que destaca en los resultados de búsqueda de marketplaces — los compradores que navegan filas de fichas idénticas se detendrán ante un puzzle de imágenes colorido. Descarga como PDF listo para imprimir o JPEG de alta resolución. La prueba gratuita incluye una marca de agua en las descargas. Compra una licencia para eliminar la marca de agua y vender con uso comercial.',
+    title: 'Cree rompecabezas de matematicas gratis con imagenes',
+    tagline: 'Puzzles matematicos ilustrados listos en segundos — sin registro ni costes.',
+    description: 'Cree rompecabezas de matematicas gratis que combinan calculo con resolucion de puzzles visuales. Este generador produce fichas donde los ninos resuelven operaciones para completar imagenes tematicas de mas de 100 categorias. Seleccione el nivel de dificultad, el tipo de operacion y el tema visual. Cada ficha incluye solucionario automatico y se exporta en PDF listo para imprimir. No necesita registro ni tarjeta de credito — todas las funciones disponibles desde el inicio. Las descargas incluyen marca de agua transparente. Ideal para padres y creadores de contenido educativo. ¿Quiere vender rompecabezas? Pase a la licencia comercial para PDFs sin marca de agua a 300 DPI.',
   },
 
   tutorial: {
-    title: 'Cómo Crear Puzzles Matemáticos en 8 Pasos Sencillos',
+    title: 'Como crear rompecabezas matematicos gratis paso a paso',
     steps: [
       {
         title: 'Abrir el Generador de Puzzles',
@@ -64,7 +64,7 @@ const content: ToolContent = {  seo: {
   whatYouCanCreate: [
     {
       title: 'Packs de Puzzles Matemáticos Temáticos',
-      description: 'Crea conjuntos de 15 a 20 puzzles usando imágenes temáticas de la biblioteca — dinosaurios, espacio, animales, vehículos. Cada puzzle usa una imagen diferente con ecuaciones de Suma o Resta en un tamaño de cuadrícula uniforme. Agrúpalos por tema y véndelos en Etsy o Gumroad. El formato rompecabezas hace que la miniatura de tu listing destaque instantáneamente frente a fichas de matemáticas estándar. Considera acompañar cada pack temático con un cuadernillo de claves de respuestas y una portada con el arte del tema. Los vendedores que incluyen portadas profesionales y un formato coherente en cada página reportan mejores reseñas de clientes y compras repetidas del mismo comprador.',
+      description: 'Crea conjuntos de 15 a 20 puzzles usando imágenes temáticas de la biblioteca — dinosaurios, espacio, animales, vehículos. Cada puzzle usa una imagen diferente con ecuaciones de Suma o Resta en un tamaño de cuadrícula uniforme. Agrúpalos por tema y véndelos en Etsy o Hotmart. El formato rompecabezas hace que la miniatura de tu listing destaque instantáneamente frente a fichas de matemáticas estándar. Considera acompañar cada pack temático con un cuadernillo de claves de respuestas y una portada con el arte del tema. Los vendedores que incluyen portadas profesionales y un formato coherente en cada página reportan mejores reseñas de clientes y compras repetidas del mismo comprador.',
     },
     {
       title: 'Cuadernos de Puzzles para KDP',
@@ -80,7 +80,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Packs de Puzzles Estacionales y Festivos',
-      description: 'Usa temas de imágenes festivas y estacionales para crear packs de edición limitada. Un pack de \"Puzzles Matemáticos de Navidad\" con imágenes navideñas se vende muy bien en noviembre y diciembre. Halloween, San Valentín y la vuelta al cole tienen sus propias ventanas de ventas pico en Etsy y Gumroad.',
+      description: 'Usa temas de imágenes festivas y estacionales para crear packs de edición limitada. Un pack de \"Puzzles Matemáticos de Navidad\" con imágenes navideñas se vende muy bien en noviembre y diciembre. Halloween, San Valentín y la vuelta al cole tienen sus propias ventanas de ventas pico en Etsy y Hotmart.',
     },
     {
       title: 'Puzzles de Calentamiento para venta en línea',
@@ -100,14 +100,14 @@ const content: ToolContent = {  seo: {
       platform: 'Amazon KDP',
     },
     {
-      title: 'Packs Premium en Gumroad',
-      description: 'Sube packs de puzzles matemáticos diferenciados a Gumroad. Los vendedores buscan constantemente \"puzzles de matemáticas\" y \"juegos de matemáticas\". Incluye los tres modos de operación, tres niveles de dificultad, claves de respuestas y una guía vendedor en cada listing. El formato rompecabezas añade valor percibido porque se siente como un juego, no como un ejercicio. Añade una hoja de instrucciones \"Cómo Usar\" explicando los niveles de dificultad de la cuadrícula, rangos de grado sugeridos y consejos para uso comercial. Los compradores de Gumroad dejan sistemáticamente mejores calificaciones en recursos que incluyen documentación para el vendedor, lo que a su vez mejora la visibilidad de tu listing en los resultados de búsqueda de Gumroad.',
-      platform: 'Gumroad',
+      title: 'Packs Premium en Hotmart',
+      description: 'Sube packs de puzzles matemáticos diferenciados a Hotmart. Los vendedores buscan constantemente \"puzzles de matemáticas\" y \"juegos de matemáticas\". Incluye los tres modos de operación, tres niveles de dificultad, claves de respuestas y una guía vendedor en cada listing. El formato rompecabezas añade valor percibido porque se siente como un juego, no como un ejercicio. Añade una hoja de instrucciones \"Cómo Usar\" explicando los niveles de dificultad de la cuadrícula, rangos de grado sugeridos y consejos para uso comercial. Los compradores de Hotmart dejan sistemáticamente mejores calificaciones en recursos que incluyen documentación para el vendedor, lo que a su vez mejora la visibilidad de tu listing en los resultados de búsqueda de Hotmart.',
+      platform: 'Hotmart',
     },
     {
-      title: 'Kits de Puzzles con Imagen Personalizada en Gumroad',
-      description: 'Crea un kit premium de puzzles en Gumroad que incluya más de 30 puzzles usando imágenes seleccionadas a mano o subidas personalizadas. Dirígete a emprendedores y buscan materiales de matemáticas visualmente atractivos. Incluye una guía explicando cómo usar los puzzles en cada nivel de dificultad para un catálogo de productos estructurado.',
-      platform: 'Gumroad',
+      title: 'Kits de Puzzles con Imagen Personalizada en Hotmart',
+      description: 'Crea un kit premium de puzzles en Hotmart que incluya más de 30 puzzles usando imágenes seleccionadas a mano o subidas personalizadas. Dirígete a emprendedores y buscan materiales de matemáticas visualmente atractivos. Incluye una guía explicando cómo usar los puzzles en cada nivel de dificultad para un catálogo de productos estructurado.',
+      platform: 'Hotmart',
     },
     {
       title: 'Embudo de Puzzles en Pinterest',
@@ -128,7 +128,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Usa el Modo Mixto para Máxima Variedad',
-      description: 'El modo \"Suma y Resta\" mezcla aleatoriamente ambas operaciones en un solo puzzle. Esto crea fichas de repaso que evalúan ambas habilidades simultáneamente y evita que los usuarios caigan en un patrón repetitivo. Los puzzles en modo mixto también tienen mayor valor percibido en los listings de marketplaces. Los compradores de Etsy y Gumroad que buscan \"repaso de matemáticas\" o \"evaluación de unidad\" buscan específicamente recursos de operaciones mixtas, así que etiquetar tus listings con estos términos captura un segmento de compradores que los vendedores de una sola operación pasan por alto.',
+      description: 'El modo \"Suma y Resta\" mezcla aleatoriamente ambas operaciones en un solo puzzle. Esto crea fichas de repaso que evalúan ambas habilidades simultáneamente y evita que los usuarios caigan en un patrón repetitivo. Los puzzles en modo mixto también tienen mayor valor percibido en los listings de marketplaces. Los compradores de Etsy y Hotmart que buscan \"repaso de matemáticas\" o \"evaluación de unidad\" buscan específicamente recursos de operaciones mixtas, así que etiquetar tus listings con estos términos captura un segmento de compradores que los vendedores de una sola operación pasan por alto.',
     },
     {
       title: 'Sube Imágenes Propias para Reconocimiento de Marca',
@@ -144,11 +144,11 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Destaca el Formato Puzzle en las Miniaturas',
-      description: 'La cuadrícula rompecabezas es visualmente única e instantáneamente reconocible. Usa tus descargas JPEG como miniaturas de productos en Etsy y Gumroad. Una imagen colorida dividida en piezas numeradas capta la atención mucho más eficazmente que una vista previa de ficha simple.',
+      description: 'La cuadrícula rompecabezas es visualmente única e instantáneamente reconocible. Usa tus descargas JPEG como miniaturas de productos en Etsy y Hotmart. Una imagen colorida dividida en piezas numeradas capta la atención mucho más eficazmente que una vista previa de ficha simple.',
     },
     {
       title: 'Incluye Siempre la Clave de Respuestas',
-      description: 'Genera la clave de respuestas antes de descargar. La clave muestra cada pieza del puzzle colocada en su posición correcta de la cuadrícula con las ecuaciones resueltas. Los compradores en Etsy y Gumroad califican sistemáticamente mejor los productos que incluyen clave de respuestas — ahorra valor percibido a los vendedores.',
+      description: 'Genera la clave de respuestas antes de descargar. La clave muestra cada pieza del puzzle colocada en su posición correcta de la cuadrícula con las ecuaciones resueltas. Los compradores en Etsy y Hotmart califican sistemáticamente mejor los productos que incluyen clave de respuestas — ahorra valor percibido a los vendedores.',
     },
   ],
 
@@ -179,7 +179,7 @@ const content: ToolContent = {  seo: {
     },
     {
       question: '¿Puedo usar los puzzles con fines comerciales?',
-      answer: 'La prueba gratuita con marca de agua es solo para uso personal y educativo. Para vender puzzles en Etsy, Gumroad, Amazon KDP o cualquier otro marketplace, necesitas una licencia comercial. La licencia comercial elimina la marca de agua y otorga derechos completos de reventa para los puzzles que crees. No hay límite en la cantidad de puzzles que puedes generar o vender una vez licenciado. Eres dueño de los archivos generados y puedes publicarlos en múltiples plataformas simultáneamente — el mismo pack de puzzles puede aparecer en Etsy, Gumroad, Gumroad y KDP sin cargos adicionales.',
+      answer: 'La prueba gratuita con marca de agua es solo para uso personal y educativo. Para vender puzzles en Etsy, Hotmart, Amazon KDP o cualquier otro marketplace, necesitas una licencia comercial. La licencia comercial elimina la marca de agua y otorga derechos completos de reventa para los puzzles que crees. No hay límite en la cantidad de puzzles que puedes generar o vender una vez licenciado. Eres dueño de los archivos generados y puedes publicarlos en múltiples plataformas simultáneamente — el mismo pack de puzzles puede aparecer en Etsy, Hotmart, Hotmart y KDP sin cargos adicionales.',
     },
     {
       question: '¿Los puzzles funcionan en idiomas distintos del español?',

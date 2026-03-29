@@ -2,30 +2,30 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'generador de fichas de escritura',
+    primaryKeyword: 'generador de fichas de escritura gratis',
     secondaryKeywords: [
-      'crear fichas de caligrafía imprimibles para vender',
-      'generador de fichas de escritura con trazos guiados uso comercial',
-      'fichas de práctica de escritura con orden de trazos para KDP',
-      'herramienta para crear fichas de lectoescritura imprimibles',
+      'fichas de escritura gratis sin registro',
+      'generador de fichas de caligrafia gratis en linea',
+      'fichas de escritura gratis para imprimir',
+      'hojas de escritura gratis sin tarjeta de credito',
     ],
     lsiKeywords: [
-      'fichas de caligrafía con flechas de orden de trazos para Etsy',
-      'generador de trazo progresivo para práctica de letras',
-      'fichas de escritura cursiva e imprenta con guías',
+      'fichas de caligrafia para preescolar imprimibles',
+      'hojas de practica de escritura para ninos',
+      'fichas de trazado de letras y palabras',
     ],
-    titleTag: 'Generador de Fichas de Escritura | Crear y Vender',
-    metaDescription: 'Genera fichas de escritura con tres modos de práctica, cinco estilos de fuente, orden de trazos con flechas, 104 temas. Prueba gratuita con marca de agua.',
+    titleTag: 'Fichas de escritura gratis en linea | LCS',
+    metaDescription: 'Genere fichas de escritura y caligrafia gratis. Practique trazado de letras y palabras. Sin registro, sin tarjeta. Licencia comercial para vender.',
   },
 
   hero: {
-    title: 'Generador de Fichas de Escritura y Caligrafía',
-    tagline: 'Crea hojas de práctica de letras con tres modos progresivos, orden de trazos guiado con flechas y guías de letras que se desvanecen para desarrollar la fluidez desde el trazado completo hasta la escritura independiente',
-    description: 'Diseña fichas profesionales de práctica de escritura basadas en un sistema de progresión de tres modos: el modo Trazar ofrece contornos sólidos de letras para que los principiantes los sigan directamente, el Trazo Progresivo reduce gradualmente la opacidad de las letras a lo largo de la fila para que los usuarios transicionen del trazado guiado a la escritura de memoria dentro de una sola línea, y la Copia Guiada muestra un contorno tenue para escritura casi independiente con soporte visual mínimo. Cinco estilos de fuente te dan control total sobre la presentación de las letras — Imprenta Normal para letras de bloque estándar, Imprenta Normal con Flechas con flechas direccionales numeradas que muestran la secuencia exacta del orden de trazos, Imprenta Punteada para letras con contorno punteado diseñadas para ejercicios de trazado, Imprenta Punteada con Flechas que combina contornos punteados con flechas de orden de trazos, y Cursiva (Great Vibes) para práctica de escritura en letra ligada. El orden de trazos guiado con flechas es la característica estrella: flechas direccionales numeradas en cada letra muestran a los usuarios exactamente cómo formar cada trazo en la secuencia correcta, transformando una página básica de trazado en una herramienta de instrucción. Cada fila de la ficha es configurable de forma independiente — su propio modo de práctica, estilo de fuente, fuente de contenido y configuración de mayúsculas/minúsculas — de modo que una sola página puede combinar modo Trazar para letras nuevas, Trazo Progresivo para letras practicadas y Copia Guiada para repaso. Las fuentes de contenido incluyen la Biblioteca de Imágenes con más de 3.100 ilustraciones en 104 colecciones temáticas (modos Letra Inicial o Nombre Completo), Texto Personalizado para cualquier palabra o frase, y líneas Vacías para renglones en blanco. Los ejercicios de trazos de preescritura (líneas verticales, líneas horizontales, círculos, líneas en zigzag) desarrollan las bases de motricidad fina antes de la formación de letras. Exporta PDF e imágenes JPEG listos para imprimir a aproximadamente 300 DPI con un multiplicador de renderizado 6x en tamaño Carta, A4 o personalizado. Elige entre 7 fuentes para superposiciones de texto, activa la escala de grises para impresión con ahorro de tinta y usa el lienzo completo de Fabric.js para reposicionar cada elemento. La prueba gratuita incluye una marca de agua en las descargas. Compra una licencia para eliminar la marca de agua y vender con uso comercial.',
+    title: 'Genere fichas de escritura y caligrafia gratis',
+    tagline: 'Fichas de trazado de letras y palabras — gratis y sin registro.',
+    description: 'Cree fichas de escritura gratis para practicar el trazado de letras, palabras y frases. Este generador produce hojas de caligrafia con lineas guia, letras punteadas para trazar y espacios de practica libre. Seleccione el tipo de letra, el tamano y el contenido que desea practicar. Cada ficha se exporta en PDF de alta calidad listo para imprimir. No necesita registro ni tarjeta de credito — todas las funciones estan disponibles desde el primer momento. Las descargas incluyen marca de agua. Ideal para padres de ninos en preescolar y primaria que inician la escritura. ¿Quiere vender fichas de escritura? Pase a la licencia comercial para archivos sin marca de agua a 300 DPI.',
   },
 
   tutorial: {
-    title: 'Cómo Crear Fichas de Escritura en 8 Pasos Sencillos',
+    title: 'Como crear fichas de escritura gratis paso a paso',
     steps: [
       {
         title: 'Abrir el Generador de Fichas de Escritura',
@@ -57,7 +57,7 @@ const content: ToolContent = {
       },
       {
         title: 'Descargar como PDF o JPEG',
-        description: 'Exporta tu ficha de escritura como PDF listo para imprimir o JPEG de alta resolución. El motor de exportación renderiza con un multiplicador 6x (aproximadamente 300 DPI) para que las líneas guía, los detalles de las letras y las flechas de orden de trazos se impriman nítidos y definidos. Activa la escala de grises para impresión con ahorro de tinta ideal para impresión masiva en línea o interiores de cuadernos KDP. No hay clave de respuestas para las fichas de escritura — los modos de práctica en sí mismos sirven como guía. Cada exportación está lista para producción en Etsy, Amazon KDP y Gumroad.',
+        description: 'Exporta tu ficha de escritura como PDF listo para imprimir o JPEG de alta resolución. El motor de exportación renderiza con un multiplicador 6x (aproximadamente 300 DPI) para que las líneas guía, los detalles de las letras y las flechas de orden de trazos se impriman nítidos y definidos. Activa la escala de grises para impresión con ahorro de tinta ideal para impresión masiva en línea o interiores de cuadernos KDP. No hay clave de respuestas para las fichas de escritura — los modos de práctica en sí mismos sirven como guía. Cada exportación está lista para producción en Etsy, Amazon KDP y Hotmart.',
       },
     ],
   },
@@ -65,7 +65,7 @@ const content: ToolContent = {
   whatYouCanCreate: [
     {
       title: 'Packs Progresivos de Práctica de Escritura',
-      description: 'Crea conjuntos de 15 a 30 fichas de escritura organizadas por dificultad progresiva usando los tres modos de práctica como niveles. Comienza con ejercicios de trazos de preescritura, avanza al modo Trazar con orden de trazos guiado con flechas para la introducción de letras, luego Trazo Progresivo para desarrollar la independencia, y termina con Copia Guiada para escritura casi independiente. Empaqueta los conjuntos de mayúsculas y minúsculas por separado o combínalos en packs completos de progresión del abecedario. La progresión de tres modos crea un arco natural de dificultad que justifica precios premium en Etsy y Gumroad.',
+      description: 'Crea conjuntos de 15 a 30 fichas de escritura organizadas por dificultad progresiva usando los tres modos de práctica como niveles. Comienza con ejercicios de trazos de preescritura, avanza al modo Trazar con orden de trazos guiado con flechas para la introducción de letras, luego Trazo Progresivo para desarrollar la independencia, y termina con Copia Guiada para escritura casi independiente. Empaqueta los conjuntos de mayúsculas y minúsculas por separado o combínalos en packs completos de progresión del abecedario. La progresión de tres modos crea un arco natural de dificultad que justifica precios premium en Etsy y Hotmart.',
     },
     {
       title: 'Cuadernos de Caligrafía para KDP',
@@ -77,7 +77,7 @@ const content: ToolContent = {
     },
     {
       title: 'Conjuntos de Ejercicios de Trazos de Preescritura',
-      description: 'Crea páginas dedicadas de práctica de trazos de preescritura con líneas verticales, líneas horizontales, círculos y líneas en zigzag. Estos ejercicios de motricidad fina se dirigen a una audiencia distinta: terapeutas ocupacionales, emprendedores de primera infancia y padres de niños en edad preescolar que desarrollan el control del lápiz antes de la instrucción formal de letras. Empaqueta los tipos de trazos individualmente o como una progresión completa de habilidades motrices. Los packs de preescritura ocupan un nicho específico en Etsy y Gumroad con menos competencia que las fichas estándar de trazado de letras.',
+      description: 'Crea páginas dedicadas de práctica de trazos de preescritura con líneas verticales, líneas horizontales, círculos y líneas en zigzag. Estos ejercicios de motricidad fina se dirigen a una audiencia distinta: terapeutas ocupacionales, emprendedores de primera infancia y padres de niños en edad preescolar que desarrollan el control del lápiz antes de la instrucción formal de letras. Empaqueta los tipos de trazos individualmente o como una progresión completa de habilidades motrices. Los packs de preescritura ocupan un nicho específico en Etsy y Hotmart con menos competencia que las fichas estándar de trazado de letras.',
     },
     {
       title: 'Fichas de Escritura con Vocabulario Temático',
@@ -85,7 +85,7 @@ const content: ToolContent = {
     },
     {
       title: 'Colecciones de Práctica de Escritura Cursiva',
-      description: 'Usa el estilo de fuente Cursiva (Great Vibes) en los tres modos de práctica para crear programas completos de caligrafía cursiva. El modo Trazar con cursiva permite a los principiantes seguir las formas de letras ligadas. El Trazo Progresivo con cursiva desarrolla la memoria muscular para trazos conectados. La Copia Guiada con cursiva desafía a los usuarios a reproducir la escritura ligada con soporte mínimo. La práctica cursiva es una categoría de producto distinta de la escritura en imprenta — publica ambas en Etsy y Gumroad para llegar a diferentes audiencias de compradores que buscan diferentes necesidades de productoses.',
+      description: 'Usa el estilo de fuente Cursiva (Great Vibes) en los tres modos de práctica para crear programas completos de caligrafía cursiva. El modo Trazar con cursiva permite a los principiantes seguir las formas de letras ligadas. El Trazo Progresivo con cursiva desarrolla la memoria muscular para trazos conectados. La Copia Guiada con cursiva desafía a los usuarios a reproducir la escritura ligada con soporte mínimo. La práctica cursiva es una categoría de producto distinta de la escritura en imprenta — publica ambas en Etsy y Hotmart para llegar a diferentes audiencias de compradores que buscan diferentes necesidades de productoses.',
     },
   ],
 
@@ -101,9 +101,9 @@ const content: ToolContent = {
       platform: 'Amazon KDP',
     },
     {
-      title: 'Recursos para Centros de Escritura en Gumroad',
-      description: 'Sube packs de práctica de escritura diferenciados a Gumroad organizados por modo y nivel de dificultad. Incluye cuatro niveles por tema usando los tres modos de práctica más líneas vacías como eje de diferenciación. Empaqueta con integración de imágenes temáticas para mayor engagement. La independencia por fila te permite crear fichas de modos mixtos donde cada fila se dirige a un nivel de habilidad diferente — un argumento de venta genuino que los competidores con herramientas basadas en plantillas no pueden igualar. Los vendedores buscan \"escritura diferenciada\" y \"centros de escritura\" con frecuencia y pagan precios premium por recursos que sirven a múltiples grupos de nivel.',
-      platform: 'Gumroad',
+      title: 'Recursos para Centros de Escritura en Hotmart',
+      description: 'Sube packs de práctica de escritura diferenciados a Hotmart organizados por modo y nivel de dificultad. Incluye cuatro niveles por tema usando los tres modos de práctica más líneas vacías como eje de diferenciación. Empaqueta con integración de imágenes temáticas para mayor engagement. La independencia por fila te permite crear fichas de modos mixtos donde cada fila se dirige a un nivel de habilidad diferente — un argumento de venta genuino que los competidores con herramientas basadas en plantillas no pueden igualar. Los vendedores buscan \"escritura diferenciada\" y \"centros de escritura\" con frecuencia y pagan precios premium por recursos que sirven a múltiples grupos de nivel.',
+      platform: 'Hotmart',
     },
     {
       title: 'Tienda de Nicho en Motricidad Fina',
@@ -116,9 +116,9 @@ const content: ToolContent = {
       platform: 'Pinterest',
     },
     {
-      title: 'catálogo de productos Completo de Escritura en Gumroad',
-      description: 'Combina trazos de preescritura, trazado de letras en imprenta con orden de trazos, práctica de trazo progresivo, copia guiada y escritura cursiva en un catálogo de productos completo de caligrafía en Gumroad. Incluye los cinco estilos de fuente, los tres modos de práctica y variaciones temáticas con imágenes. Un programa de escritura multietapa justifica un precio premium porque reemplaza múltiples compras individuales. Combina con fichas de tren del abecedario y fichas de grafomotricidad para un paquete completo de lectoescritura temprana y habilidades motrices.',
-      platform: 'Gumroad',
+      title: 'catálogo de productos Completo de Escritura en Hotmart',
+      description: 'Combina trazos de preescritura, trazado de letras en imprenta con orden de trazos, práctica de trazo progresivo, copia guiada y escritura cursiva en un catálogo de productos completo de caligrafía en Hotmart. Incluye los cinco estilos de fuente, los tres modos de práctica y variaciones temáticas con imágenes. Un programa de escritura multietapa justifica un precio premium porque reemplaza múltiples compras individuales. Combina con fichas de tren del abecedario y fichas de grafomotricidad para un paquete completo de lectoescritura temprana y habilidades motrices.',
+      platform: 'Hotmart',
     },
   ],
 
@@ -192,7 +192,7 @@ const content: ToolContent = {
     },
     {
       question: '¿Puedo vender fichas creadas con esta herramienta con fines comerciales?',
-      answer: 'La prueba gratuita con marca de agua es solo para uso personal y educativo. Para vender fichas en Etsy, Gumroad, Amazon KDP o cualquier otro marketplace, necesitas una licencia comercial. La licencia comercial elimina la marca de agua y otorga derechos completos de reventa para las fichas de escritura que crees.',
+      answer: 'La prueba gratuita con marca de agua es solo para uso personal y educativo. Para vender fichas en Etsy, Hotmart, Amazon KDP o cualquier otro marketplace, necesitas una licencia comercial. La licencia comercial elimina la marca de agua y otorga derechos completos de reventa para las fichas de escritura que crees.',
     },
     {
       question: '¿Cuál es su política de reembolso?',

@@ -2,30 +2,30 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'creador fichas del intruso',
+    primaryKeyword: 'generador de encuentra el intruso gratis',
     secondaryKeywords: [
-      'generador de puzzles encuentra el diferente para Etsy y KDP',
-      'creador de fichas de discriminación visual uso comercial',
-      'herramienta para crear fichas del intruso imprimibles profesionales',
-      'generador de actividades encuentra el diferente con clave de respuestas',
+      'fichas de encuentra el intruso gratis sin registro',
+      'generador de el intruso en línea gratis',
+      'crear fichas de encuentra el intruso gratis para imprimir',
+      'fichas del intruso gratis PDF con respuestas',
     ],
     lsiKeywords: [
-      'modo idéntico similar anulación por ejercicio generador fichas',
-      'clave de respuestas automática círculo rojo intruso creador',
-      'puzzles visuales sin texto vendibles en todos los idiomas generador',
+      'actividad de clasificación y exclusión con imágenes',
+      'ficha de cuál no pertenece con ilustraciones',
+      'encuentra el intruso discriminación visual PDF gratis',
     ],
-    titleTag: 'Creador Fichas del Intruso — Puzzles Visuales para Vender',
-    metaDescription: 'Crea fichas del intruso con modos Idéntico y Similar, anulación por ejercicio, claves de respuestas con círculos rojos, 104 temas. Prueba gratuita con marca.',
+    titleTag: 'Encuentra el intruso gratis | LCS',
+    metaDescription: 'Cree fichas de encuentra el intruso gratis sin registro. Identifique la imagen diferente, 104 temas, respuestas incluidas.',
   },
 
   hero: {
-    title: 'Creador de Fichas del Intruso',
+    title: 'Cree fichas de encuentra el intruso gratis en línea',
     tagline: 'Generador de fichas del intruso con dos modos — Idéntico (3 clones + 1 diferente del mismo tema) y Similar (3 del Tema A + 1 del Tema B), anulación de modo por ejercicio con botón Borrar Selecciones, de 5 a 10 ejercicios configurables con diseño adaptativo de 2 columnas, claves de respuestas autogeneradas con marcadores de círculo rojo escalados al tamaño de imagen, sistema de dos temas con 104 colecciones temáticas, y puzzles puramente visuales que se venden en todo el mundo sin traducción',
-    description: 'Crea fichas profesionales del intruso donde los usuarios identifican y rodean la imagen que no pertenece en cada fila de cuatro imágenes. El generador ofrece dos modos distintos que producen desafíos cognitivos fundamentalmente diferentes. El modo Idéntico coloca tres clones de la misma imagen junto a una imagen diferente del mismo tema — los usuarios detectan el no-duplicado comparando detalles visuales dentro de un solo tema. El modo Similar toma tres imágenes del Tema A y una imagen del Tema B — los usuarios identifican el intruso temático reconociendo diferencias categóricas entre dos temas. Cada fila de ejercicio incluye su propio selector desplegable de modo, permitiéndote anular el modo global por ejercicio individual. Comienza con ejercicios fáciles en modo Idéntico arriba y transiciona a ejercicios más difíciles en modo Similar hacia abajo, o alterna modos a lo largo de la ficha para un desafío variado. Un botón \"Borrar Selecciones\" restablece todas las anulaciones por ejercicio al modo global. Configura de 5 a 10 ejercicios por ficha (predeterminado 6) usando el panel de Configuración de Ejercicios. Cada ejercicio siempre contiene exactamente 4 imágenes — 3 elementos comunes y 1 elemento intruso — con la posición del intruso aleatoriamente mezclada dentro de la fila. El diseño se adapta automáticamente: páginas verticales con 7 o más ejercicios cambian a diseño de 2 columnas, y las páginas horizontales siempre usan 2 columnas para un espaciado óptimo. El sistema de dos temas hace que los puzzles de discriminación entre categorías sean fáciles de crear — selecciona el Tema A del desplegable para las tres imágenes comunes y el Tema B para el único elemento intruso. Combina animales con comida, vehículos con naturaleza, profesiones con deportes — cualquier combinación de las 104 colecciones temáticas disponibles con más de 3100 ilustraciones. En el modo Idéntico, solo se necesita un tema ya que tanto los clones comunes como la imagen intrusa provienen de la misma colección. El sistema de doble lienzo genera simultáneamente una pestaña de ficha y una pestaña de clave de respuestas. La clave de respuestas reproduce el diseño exacto de la ficha y dibuja un contorno de círculo rojo alrededor del elemento intruso en cada fila de ejercicio. El grosor del trazo del círculo se escala dinámicamente con el tamaño de la imagen — calculado como el mayor entre tamañoImagen × 0,04 o 3 píxeles — asegurando una visibilidad consistente en todos los tamaños de página y cantidades de ejercicios. Un encabezado autogenerado muestra \"Encuentra el Diferente\" con un borde exterior coral (#FF6B6B, trazo de 8px), un borde interior ámbar (#FFB84D, trazo de 3px) y fondo turquesa (#4ECDC4). El título aparece en Fredoka verde azulado oscuro (#1A535C) y las instrucciones en Quicksand rojo (#E63946), localizado en los 11 idiomas soportados. Las fichas del intruso NO son sensibles al idioma — los puzzles son totalmente visuales sin palabras en el contenido de la ficha, haciendo cada puzzle vendible universalmente en todos los mercados sin traducción. Activa o desactiva los campos opcionales de nombre y fecha para el uso comercial y los números de ejercicio (25px de ancho, 15px de separación del contenido de la tarjeta) para referencia fácil durante la revisión. Explora 104 colecciones temáticas o sube tus propias imágenes PNG, JPG o GIF. Aplica temas de fondo y temas de borde con controles de opacidad independientes (0–1, paso 0,05). Añade texto personalizado con 7 opciones de fuente (Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial, Verdana) y contorno de texto de 0 a 10. Exporta cuatro archivos por sesión: JPEG de ficha, PDF de ficha, JPEG de clave de respuestas y PDF de clave de respuestas — todo a 300 DPI (multiplicador 6×, calidad JPEG 1.0). Elige Carta, A4, Cuadrado (1200×1200) o tamaños de página personalizados con la opción de escala de grises para impresión que ahorra tinta. Edita todo en el lienzo Fabric.js con 6 opciones de alineación más centrar en página, capas, bloquear/desbloquear, zoom del 25% al 300%, y deshacer/rehacer con 20 estados. La prueba gratuita incluye todas las funciones con una marca de agua en las descargas. Compra una licencia para eliminar la marca de agua y vender comercialmente.',
+    description: 'Cree fichas de encuentra el intruso gratis con este generador en línea. Los usuarios identifican cuál imagen no pertenece al grupo entre ilustraciones temáticas. Navegue 104 colecciones con más de 3.100 imágenes o suba las suyas. Configure el número de opciones por ejercicio, la dificultad y exporte con clave de respuestas autogenerada. Exporte en JPEG y PDF a 300 DPI en tamaño Carta, A4 o personalizado. La prueba gratis incluye todas las funciones con marca de agua en las descargas. Sin registro, sin instalación. ¿Quiere vender? Pase a la licencia comercial para eliminar la marca de agua y obtener uso comercial completo.',
   },
 
   tutorial: {
-    title: 'Cómo Crear Fichas del Intruso en 8 Pasos',
+    title: 'Cómo crear fichas de encuentra el intruso gratis en 8 pasos',
     steps: [
       {
         title: 'Abre el Creador de Fichas del Intruso',
@@ -57,7 +57,7 @@ const content: ToolContent = {
       },
       {
         title: 'Descarga los Cuatro Archivos',
-        description: 'Activa la escala de grises para versiones que ahorran tinta ideales para impresión en volumen e interiores de KDP. Descarga los cuatro archivos de una sola sesión: JPEG de ficha, PDF de ficha, JPEG de clave de respuestas y PDF de clave de respuestas — todo renderizado a 300 DPI (multiplicador 6×, calidad JPEG 1.0). Cada pestaña tiene su propio par de botones de descarga. Los archivos están listos para producción en listados de Etsy, interiores de Amazon KDP y archivos de productos de Gumroad sin necesidad de postprocesamiento. Haz clic en Generar de nuevo para producir una ficha nueva con diferente barajado aleatorio de las posiciones del intruso, o cambia temas y modos para una creación rápida de variedad con las 104 colecciones temáticas.',
+        description: 'Activa la escala de grises para versiones que ahorran tinta ideales para impresión en volumen e interiores de KDP. Descarga los cuatro archivos de una sola sesión: JPEG de ficha, PDF de ficha, JPEG de clave de respuestas y PDF de clave de respuestas — todo renderizado a 300 DPI (multiplicador 6×, calidad JPEG 1.0). Cada pestaña tiene su propio par de botones de descarga. Los archivos están listos para producción en listados de Etsy, interiores de Amazon KDP y archivos de productos de Hotmart sin necesidad de postprocesamiento. Haz clic en Generar de nuevo para producir una ficha nueva con diferente barajado aleatorio de las posiciones del intruso, o cambia temas y modos para una creación rápida de variedad con las 104 colecciones temáticas.',
       },
     ],
   },
@@ -101,23 +101,23 @@ const content: ToolContent = {
       platform: 'Amazon KDP',
     },
     {
-      title: 'Paquetes de Actividades del Intruso para Gumroad',
-      description: 'Sube paquetes de actividades del intruso a Gumroad con campos de nombre/fecha, números de ejercicio y claves de respuestas autogeneradas como puntos de venta clave. Los vendedores que buscan actividades de pensamiento crítico y discriminación visual valoran fichas que llegan listas para venta en línea. Crea conjuntos alineados con el catálogo de productos: clasificación animal para unidades de ciencias, clasificación de grupos alimenticios para nutrición, identificación de ayudantes comunitarios para estudios sociales. Cada paquete incluye versiones en modo Idéntico para instrucción guiada y versiones en modo Similar para desafío independiente — la anulación por ejercicio te permite combinar ambos en una sola página para paquetes escalonados por nivel.',
-      platform: 'Gumroad',
+      title: 'Paquetes de Actividades del Intruso para Hotmart',
+      description: 'Sube paquetes de actividades del intruso a Hotmart con campos de nombre/fecha, números de ejercicio y claves de respuestas autogeneradas como puntos de venta clave. Los vendedores que buscan actividades de pensamiento crítico y discriminación visual valoran fichas que llegan listas para venta en línea. Crea conjuntos alineados con el catálogo de productos: clasificación animal para unidades de ciencias, clasificación de grupos alimenticios para nutrición, identificación de ayudantes comunitarios para estudios sociales. Cada paquete incluye versiones en modo Idéntico para instrucción guiada y versiones en modo Similar para desafío independiente — la anulación por ejercicio te permite combinar ambos en una sola página para paquetes escalonados por nivel.',
+      platform: 'Hotmart',
     },
     {
       title: 'Embudo de Tráfico de Pinterest para Fichas del Intruso',
-      description: 'Las fichas del intruso crean pines visualmente impactantes en Pinterest — cuatro imágenes coloridas en una fila con una que claramente no pertenece genera un formato inmediatamente atractivo que padres y vendedores reconocen como educativo. Fija pines de muestra mostrando ambos modos: modo Idéntico con tres animales idénticos y uno diferente, modo Similar con tres animales y un alimento. Crea series de pines separadas para \"fichas del intruso para niños\", \"puzzles de encuentra el diferente\" y \"actividades de discriminación visual\". El formato puramente visual atrae a padres y vendedores de todos los países. Enlaza cada pin a tus listados de productos en Etsy o Gumroad.',
+      description: 'Las fichas del intruso crean pines visualmente impactantes en Pinterest — cuatro imágenes coloridas en una fila con una que claramente no pertenece genera un formato inmediatamente atractivo que padres y vendedores reconocen como educativo. Fija pines de muestra mostrando ambos modos: modo Idéntico con tres animales idénticos y uno diferente, modo Similar con tres animales y un alimento. Crea series de pines separadas para \"fichas del intruso para niños\", \"puzzles de encuentra el diferente\" y \"actividades de discriminación visual\". El formato puramente visual atrae a padres y vendedores de todos los países. Enlaza cada pin a tus listados de productos en Etsy o Hotmart.',
       platform: 'Pinterest',
     },
     {
-      title: 'Kit Completo del Intruso en Gumroad',
-      description: 'Agrupa fichas del intruso de los 104 temas y ambos modos de generación en un kit completo en Gumroad. Incluye más de 300 fichas abarcando modo Idéntico, modo Similar y páginas de dificultad progresiva de modo mixto — tres tipos de fichas de cada emparejamiento de temas. Cada ficha incluye su clave de respuestas autogenerada con marcadores de círculo rojo, duplicando tu recuento de archivos a más de 600 archivos totales. El sistema de anulación por ejercicio significa que incluso páginas individuales contienen más variedad y valor percibido que los competidores que ofrecen puzzles simples de un solo modo. El formato de kit justifica precios premium porque los compradores obtienen una biblioteca completa de puzzles del intruso.',
-      platform: 'Gumroad',
+      title: 'Kit Completo del Intruso en Hotmart',
+      description: 'Agrupa fichas del intruso de los 104 temas y ambos modos de generación en un kit completo en Hotmart. Incluye más de 300 fichas abarcando modo Idéntico, modo Similar y páginas de dificultad progresiva de modo mixto — tres tipos de fichas de cada emparejamiento de temas. Cada ficha incluye su clave de respuestas autogenerada con marcadores de círculo rojo, duplicando tu recuento de archivos a más de 600 archivos totales. El sistema de anulación por ejercicio significa que incluso páginas individuales contienen más variedad y valor percibido que los competidores que ofrecen puzzles simples de un solo modo. El formato de kit justifica precios premium porque los compradores obtienen una biblioteca completa de puzzles del intruso.',
+      platform: 'Hotmart',
     },
     {
       title: 'Línea de Productos de Puzzles Visuales Globales',
-      description: 'Las fichas del intruso producen puzzles puramente visuales — cuatro imágenes por fila sin texto específico de idioma en el contenido de la ficha. El encabezado autogenerado se traduce a los 11 idiomas soportados, pero los ejercicios reales contienen solo imágenes. Los mismos archivos de producto funcionan en todos los países sin traducción ni modificación. Una sola sesión de creación produce un catálogo vendible globalmente. Vende archivos idénticos en tiendas de Etsy apuntando a diferentes países, publica los mismos interiores de KDP en todos los marketplaces internacionales de Amazon, y lista en Gumroad para vendedores internacionales. Sin versiones de idioma separadas, sin costes de traducción, sin mantenimiento por localización.',
+      description: 'Las fichas del intruso producen puzzles puramente visuales — cuatro imágenes por fila sin texto específico de idioma en el contenido de la ficha. El encabezado autogenerado se traduce a los 11 idiomas soportados, pero los ejercicios reales contienen solo imágenes. Los mismos archivos de producto funcionan en todos los países sin traducción ni modificación. Una sola sesión de creación produce un catálogo vendible globalmente. Vende archivos idénticos en tiendas de Etsy apuntando a diferentes países, publica los mismos interiores de KDP en todos los marketplaces internacionales de Amazon, y lista en Hotmart para vendedores internacionales. Sin versiones de idioma separadas, sin costes de traducción, sin mantenimiento por localización.',
       platform: 'Etsy / Amazon KDP',
     },
   ],
@@ -133,7 +133,7 @@ const content: ToolContent = {
     },
     {
       title: 'Aprovecha el Formato Puramente Visual para Ventas Globales',
-      description: 'Las fichas del intruso contienen solo imágenes — sin texto específico de idioma en el contenido de la ficha. Cada puzzle que creas es vendible instantáneamente en todo el mundo sin traducción ni localización. Un solo conjunto de puzzles del intruso sirve para cada tienda de Etsy internacional, cada marketplace de KDP y cada comprador de Gumroad independientemente del idioma. Mientras los competidores crean versiones de idioma separadas de fichas con mucho texto, tus puzzles visuales funcionan en todas partes con un solo conjunto de archivos. El encabezado autogenerado se traduce automáticamente, pero el contenido del puzzle no requiere ninguna localización.',
+      description: 'Las fichas del intruso contienen solo imágenes — sin texto específico de idioma en el contenido de la ficha. Cada puzzle que creas es vendible instantáneamente en todo el mundo sin traducción ni localización. Un solo conjunto de puzzles del intruso sirve para cada tienda de Etsy internacional, cada marketplace de KDP y cada comprador de Hotmart independientemente del idioma. Mientras los competidores crean versiones de idioma separadas de fichas con mucho texto, tus puzzles visuales funcionan en todas partes con un solo conjunto de archivos. El encabezado autogenerado se traduce automáticamente, pero el contenido del puzzle no requiere ninguna localización.',
     },
     {
       title: 'Incluye Ambos Modos en Cada Paquete para Máximo Valor Percibido',
@@ -196,7 +196,7 @@ const content: ToolContent = {
     },
     {
       question: '¿Puedo vender fichas del intruso creadas con esta herramienta comercialmente?',
-      answer: 'Sí. Con una licencia comercial, tienes plenos derechos para vender fichas del intruso como descargas digitales en Etsy, cuadernos de discriminación visual impresos en Amazon KDP, recursos para venta en línea en Gumroad o a través de cualquier otro canal de ventas. Los dos modos de generación, las anulaciones por ejercicio, el sistema de dos temas, las claves de respuestas autogeneradas con marcadores de círculo rojo, la subida de imágenes personalizadas y las 104 colecciones temáticas de imágenes te dan todo lo necesario para crear productos profesionales del intruso que compitan en categorías de puzzles visuales en todos los principales marketplaces.',
+      answer: 'Sí. Con una licencia comercial, tienes plenos derechos para vender fichas del intruso como descargas digitales en Etsy, cuadernos de discriminación visual impresos en Amazon KDP, recursos para venta en línea en Hotmart o a través de cualquier otro canal de ventas. Los dos modos de generación, las anulaciones por ejercicio, el sistema de dos temas, las claves de respuestas autogeneradas con marcadores de círculo rojo, la subida de imágenes personalizadas y las 104 colecciones temáticas de imágenes te dan todo lo necesario para crear productos profesionales del intruso que compitan en categorías de puzzles visuales en todos los principales marketplaces.',
     },
     {
       question: '¿Cuál es la política de reembolso?',

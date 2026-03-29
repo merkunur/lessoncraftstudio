@@ -2,32 +2,32 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'generador puzzles cuadrícula',
+    primaryKeyword: 'rompecabezas de cuadrícula para negocio de imprimibles',
     secondaryKeywords: [
-      'generador de puzzles de cuadrícula imprimibles para vendedores Etsy',
-      'creador de puzzles de casillas de imágenes para editores Amazon KDP',
-      'generador de puzzles de cuadrícula con licencia comercial',
-      'vender puzzles de cuadrícula de imágenes en Gumroad',
+      'generador de fichas de cuadrícula para Etsy',
+      'rompecabezas de asociación en cuadrícula para KDP',
+      'fichas de grid match licencia comercial',
+      'crear fichas de cuadrícula visual para vender',
     ],
     lsiKeywords: [
-      'productos digitales de puzzles de cuadrícula para emprendedores',
-      'generador de puzzles de casillas de imágenes uso comercial',
-      'actividades de percepción visual imprimibles para negocio en línea',
+      'fichas cuadrícula asociación vendedores Etsy',
+      'rompecabezas cuadrícula imprimibles KDP',
+      'negocio fichas lógica visual mercado hispano',
     ],
-    titleTag: 'Generador Puzzles Cuadrícula | Crear y Vender',
+    titleTag: 'Rompecabezas de cuadrícula para Etsy y KDP | LCS',
     metaDescription:
-      'Crea puzzles de cuadrícula para Etsy, KDP y Gumroad. Cuadrícula configurable, casillas-pista, clave de respuesta auto, 104 temas. Prueba gratis con marca de agua.',
+      'Cree rompecabezas de cuadrícula con imágenes para vender en Etsy y KDP. Formato único de lógica visual. Licencia comercial incluida. Pruebe gratis.',
   },
 
   hero: {
-    title: 'Generador de Puzzles de Cuadrícula para Actividades de Correspondencia de Casillas de Imágenes',
-    tagline: 'Transforma cualquier imagen en un puzzle basado en cuadrícula — divídela en casillas, revela casillas-pista configurables, mezcla las casillas restantes en una paleta numerada y genera automáticamente una clave de respuesta con círculos numerados superpuestos en 104 colecciones de imágenes temáticas.',
+    title: 'Genere rompecabezas de cuadrícula para vender en Etsy, KDP y Hotmart',
+    tagline: 'Cree fichas de lógica visual en cuadrícula — un formato innovador que se destaca.',
     description:
-      'Diseña puzzles de cuadrícula profesionales donde una imagen única se divide en una cuadrícula de casillas y los usuarios asocian las casillas numeradas a sus posiciones correctas. Configura la cuadrícula de 2×2 a 4×4 (2–4 filas × 2–4 columnas) y define 1–5 casillas-pista que permanecen visibles como pistas — menos pistas significa un puzzle más difícil. La aplicación mezcla las casillas restantes mediante el algoritmo Fisher-Yates y las muestra en una paleta numerada junto a o debajo de la cuadrícula. Los usuarios estudian las casillas-pista reveladas, examinan las casillas numeradas y escriben qué número corresponde a cada celda vacía. El sistema de doble lienzo genera tanto una pestaña de ficha de trabajo como una pestaña de clave de respuesta — la clave de respuesta muestra la imagen completa con círculos numerados superpuestos en cada celda indicando la colocación correcta de las casillas, sin necesidad de crear claves de respuesta manualmente. El Puzzle de Cuadrícula NO es sensible al idioma: el resultado del puzzle es puramente visual, sin contenido textual localizado en la ficha. El Acceso Completo desbloquea los 104 temas con más de 3100 ilustraciones y los 11 idiomas de interfaz. Añade temas de fondo y de borde con controles de opacidad independientes, incluye texto personalizado con siete opciones de fuente, y exporta PDF y JPEG listos para imprimir a 300 DPI en formato Carta, A4 o dimensiones personalizadas. Ya sea que vendas packs de puzzles de imágenes en Etsy, compiles cuadernos de percepción visual para Amazon KDP o crees actividades de puzzles rápidos para Gumroad, este generador produce puzzles de cuadrícula listos para la producción en minutos — prueba gratis con todas las funciones, sin registro, sin tarjeta de crédito. Las descargas incluyen una marca de agua; compra una licencia para eliminarla.',
+      'Genere rompecabezas de cuadrícula para vender en Etsy, Amazon KDP o Hotmart. Este formato presenta una cuadrícula con imágenes temáticas donde los niños deben completar patrones, encontrar asociaciones o resolver desafíos de lógica visual. Es un formato diferenciador que se destaca en los listados de Etsy frente a las fichas estándar. Seleccione entre más de 3.000 ilustraciones en 104 temas y configure la dificultad. Exporte PDFs a 300 DPI con solucionario automático y véndalos con la licencia comercial incluida. Los rompecabezas de cuadrícula son ideales para cuadernillos de lógica en Amazon KDP — un nicho en crecimiento con poca competencia en español. Pruebe gratis con marca de agua — sin registro.',
   },
 
   howItWorks: {
-    title: 'Cómo Crear Puzzles de Cuadrícula en 5 Pasos',
+    title: 'Cómo crear rompecabezas de cuadrícula paso a paso',
     steps: [
       {
         title: 'Define el Diseño de Página',
@@ -52,13 +52,13 @@ const content: AppContent = {
       {
         title: 'Genera la Clave de Respuesta y Descarga',
         description:
-          'Cambia a la pestaña Clave de Respuesta para ver la clave de respuesta generada automáticamente. Muestra la imagen completa, sin recortar, con círculos numerados superpuestos en cada celda de la cuadrícula — círculos con fondo amarillo (#ffffe0) y contorno negro que indican qué número de la paleta corresponde a cada posición. Descarga ambas versiones con los cuatro botones dedicados: JPEG Ficha de Trabajo, JPEG Clave de Respuesta, PDF Ficha de Trabajo y PDF Clave de Respuesta a 300 DPI. Activa el modo escala de grises para versiones que ahorran tinta. Cada exportación está lista para la producción en anuncios de Etsy, interiores de Amazon KDP y archivos de productos Gumroad.',
+          'Cambia a la pestaña Clave de Respuesta para ver la clave de respuesta generada automáticamente. Muestra la imagen completa, sin recortar, con círculos numerados superpuestos en cada celda de la cuadrícula — círculos con fondo amarillo (#ffffe0) y contorno negro que indican qué número de la paleta corresponde a cada posición. Descarga ambas versiones con los cuatro botones dedicados: JPEG Ficha de Trabajo, JPEG Clave de Respuesta, PDF Ficha de Trabajo y PDF Clave de Respuesta a 300 DPI. Activa el modo escala de grises para versiones que ahorran tinta. Cada exportación está lista para la producción en anuncios de Etsy, interiores de Amazon KDP y archivos de productos Hotmart.',
       },
     ],
   },
 
   keyFeatures: {
-    title: 'Características Clave del Generador de Puzzles de Cuadrícula',
+    title: 'Por qué los rompecabezas de cuadrícula se destacan en los listados',
     features: [
       {
         title: 'Puzzle de Cuadrícula con Imagen Única y Filas y Columnas Configurables (2–4 × 2–4)',
@@ -104,7 +104,7 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Cómo Vender Puzzles de Cuadrícula en Línea',
+    title: 'Vender rompecabezas de cuadrícula en Etsy, KDP y Hotmart',
     cases: [
       {
         title: 'Packs de Puzzles de Cuadrícula Temáticos en Etsy',
@@ -119,16 +119,16 @@ const content: AppContent = {
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Actividades de Puzzles para venta en línea en Gumroad',
+        title: 'Actividades de Puzzles para venta en línea en Hotmart',
         description:
-          'Diseña actividades de puzzles de cuadrícula listas para usar en rellenos de fin de clase, trabajo matutino o centros de enriquecimiento. Los vendedores que buscan en Gumroad actividades de percepción visual valoran los puzzles que llegan listos para imprimir con claves de respuesta. Crea conjuntos vinculados al catálogo de productos: puzzles de imágenes de animales para ciencias, puzzles de monumentos para estudios sociales, puzzles de alimentos para nutrición. La dificultad configurable te permite diferenciar dentro de un mismo producto — incluye versiones fáciles, medias y difíciles de los mismos puzzles temáticos para que los vendedores puedan asignar según el nivel del usuario.',
-        platform: 'Gumroad (teacherspayteachers.com)',
+          'Diseña actividades de puzzles de cuadrícula listas para usar en rellenos de fin de clase, trabajo matutino o centros de enriquecimiento. Los vendedores que buscan en Hotmart actividades de percepción visual valoran los puzzles que llegan listos para imprimir con claves de respuesta. Crea conjuntos vinculados al catálogo de productos: puzzles de imágenes de animales para ciencias, puzzles de monumentos para estudios sociales, puzzles de alimentos para nutrición. La dificultad configurable te permite diferenciar dentro de un mismo producto — incluye versiones fáciles, medias y difíciles de los mismos puzzles temáticos para que los vendedores puedan asignar según el nivel del usuario.',
+        platform: 'Hotmart (hotmart.com)',
       },
       {
         title: 'Colecciones de Puzzles de Cuadrícula de Temporada',
         description:
           'Las 104 colecciones de imágenes temáticas cubren cada ocasión estacional y festiva — Navidad, Halloween, Pascua, San Valentín, vuelta al cole, vacaciones de verano y más. Crea colecciones de puzzles de cuadrícula por disponible ahora alineadas con los períodos de mayor demanda. Lanza packs de puzzles de Halloween en septiembre, colecciones de Navidad en octubre y packs de San Valentín en enero. Incluye múltiples tamaños de cuadrícula y niveles de dificultad en cada conjunto estacional para máximo valor. Los productos estacionales pueden venderse a precios más altos durante sus períodos pico y crean razones naturales para compras repetidas.',
-        platform: 'Etsy / Amazon KDP / Gumroad (estacional)',
+        platform: 'Etsy / Amazon KDP / Hotmart (estacional)',
       },
       {
         title: 'Puzzles de Cuadrícula con Fotos Personalizadas para Productos a Medida',
@@ -193,7 +193,7 @@ const content: AppContent = {
     {
       question: '¿Puedo vender puzzles de cuadrícula creados con esta herramienta en Etsy y Amazon KDP?',
       answer:
-        'Sí. Con una licencia comercial, tienes todos los derechos para vender tus puzzles de cuadrícula como descargas digitales en Etsy, como cuadernos impresos en Amazon KDP, como recursos para venta en línea en Gumroad, o a través de cualquier otro canal de venta. Los tamaños de cuadrícula configurables, las casillas-pista ajustables, las claves de respuesta generadas automáticamente y las 104 colecciones de imágenes temáticas te dan las herramientas creativas para producir productos de puzzles de cuadrícula originales y vendibles.',
+        'Sí. Con una licencia comercial, tienes todos los derechos para vender tus puzzles de cuadrícula como descargas digitales en Etsy, como cuadernos impresos en Amazon KDP, como recursos para venta en línea en Hotmart, o a través de cualquier otro canal de venta. Los tamaños de cuadrícula configurables, las casillas-pista ajustables, las claves de respuesta generadas automáticamente y las 104 colecciones de imágenes temáticas te dan las herramientas creativas para producir productos de puzzles de cuadrícula originales y vendibles.',
     },
     {
       question: '¿Cuál es la política de reembolso?',

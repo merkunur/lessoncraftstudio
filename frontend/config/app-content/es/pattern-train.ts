@@ -2,32 +2,32 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'generador fichas tren de patrones',
+    primaryKeyword: 'fichas de patrones para negocio de imprimibles',
     secondaryKeywords: [
-      'generador de fichas tren de secuencias repetitivas para vendedores Etsy',
-      'creador de fichas tren de patrones personalizadas para Amazon KDP',
-      'vender fichas de reconocimiento de patrones en Gumroad',
-      'generador de fichas tren de patrones licencia comercial',
+      'generador de fichas de secuencias para Etsy',
+      'fichas de patrones con imágenes para Amazon KDP',
+      'ejercicios de secuencias lógicas licencia comercial',
+      'crear fichas de patrones para vender online',
     ],
     lsiKeywords: [
-      'productos digitales fichas tren de secuencias para emprendedores',
-      'fichas de reconocimiento de patrones imprimibles uso comercial',
-      'generador de fichas tren de patrones con vagones temáticos',
+      'fichas patrones secuencias vendedores Etsy',
+      'ejercicios lógica secuencial preescolar KDP',
+      'negocio fichas patrones mercado hispano',
     ],
-    titleTag: 'Generador Fichas Tren de Patrones | Vender',
+    titleTag: 'Fichas de patrones para negocio imprimibles | LCS',
     metaDescription:
-      'Crea fichas tren de patrones para Etsy, KDP y Gumroad. Cinco tipos de patrones, 11 vagones temáticos, pistas ajustables, PDF listo.',
+      'Cree fichas de patrones y secuencias para vender en Etsy y KDP. Formato tren con imágenes temáticas. Licencia comercial incluida. Pruebe gratis.',
   },
 
   hero: {
-    title: 'Generador de Fichas Tren de Patrones para Ejercicios de Secuencias Repetitivas',
-    tagline: 'Cinco tipos de patrones — AB, AAB, ABB, ABC, AABB — mostrados en 11 vagones de tren temáticos con número de pistas ajustable de 4 a 10 para un control preciso de la dificultad.',
+    title: 'Genere fichas de patrones para vender en Etsy, KDP y Hotmart',
+    tagline: 'Cree fichas de secuencias lógicas en formato tren con imágenes temáticas.',
     description:
-      'Diseña fichas profesionales de reconocimiento de patrones donde los usuarios identifican y completan secuencias repetitivas mostradas como imágenes en un tren temático con 11 vagones. Cinco tipos de patrones distintos cubren todos los niveles de complejidad de secuencias: AB alterna dos elementos, AAB agrupa dos de uno seguido de uno de otro, ABB invierte ese agrupamiento, ABC rota tres elementos diferentes, y AABB empareja dos de cada uno antes de repetir. La disposición del tren organiza 11 vagones en tres filas (5 + 3 + 3), con cada vagón conteniendo una imagen del patrón repetitivo. Un vagón se deja vacío — los usuarios identifican el patrón y determinan el elemento que falta. Ajusta el número de pistas de 4 a 10 para controlar la dificultad: mostrar 10 pistas hace el patrón evidente, mientras que mostrar solo 4 exige un verdadero razonamiento lógico ya que los 3 primeros vagones siempre se revelan. El contenido proviene de la Biblioteca de Imágenes integrada con más de 3100 ilustraciones en 104 temas. Un onglet de clave de respuesta separado muestra los 11 vagones llenos con la secuencia correcta para una verificación instantánea. El Acceso Completo desbloquea los 104 temas y los 11 idiomas de interfaz. Exporta PDF y JPEG listos para imprimir en alta resolución en formato Carta, A4, Cuadrado o dimensiones personalizadas. Cada ficha es completamente visual con solo imágenes en los vagones y cero texto en la salida, haciendo los productos universalmente vendibles sin traducción. Ya sea que crees packs de reconocimiento de patrones en Etsy, compiles cuadernos de aprendizaje temprano para Amazon KDP o construyas centros diferenciados de matemáticas para Gumroad, el Generador de Fichas Tren de Patrones produce productos únicos en formato tren en minutos — prueba gratis con todas las funciones, sin registro, sin tarjeta de crédito. Las descargas incluyen una marca de agua; compra una licencia para eliminarla.',
+      'Genere fichas de patrones para vender en Etsy, Amazon KDP o Hotmart. El formato de tren de patrones presenta secuencias de imágenes que los niños deben continuar — una habilidad matemática fundamental que desarrolla el pensamiento lógico. Con más de 3.000 imágenes en 104 temas, cree fichas de patrones visualmente atractivas para cualquier contexto. Las fichas de patrones y secuencias son un producto de alta demanda para preescolar e infantil. Exporte PDFs a 300 DPI con solucionario automático y véndalos con la licencia comercial incluida. El formato puramente visual funciona en cualquier idioma. Pruebe gratis con marca de agua — sin registro.',
   },
 
   howItWorks: {
-    title: 'Cómo Crear Fichas Tren de Patrones en 5 Pasos',
+    title: 'Cómo crear fichas de patrones paso a paso',
     steps: [
       {
         title: 'Configurar el diseño de página',
@@ -52,18 +52,18 @@ const content: AppContent = {
       {
         title: 'Revisar la clave de respuesta y descargar',
         description:
-          'Cambia a la pestaña Clave de Respuesta para ver el tren completo con los 11 vagones llenos — la posición que faltaba ahora muestra el elemento correcto del patrón. La ficha y la clave de respuesta son editables de forma independiente en lienzos separados. Activa la exportación en escala de grises para versiones que ahorran tinta. Luego descarga cada uno como JPEG de alta resolución o PDF listo para imprimir. Cada exportación está lista para producción: listados de Etsy, interiores de Amazon KDP y archivos de productos Gumroad — la ficha y la clave de respuesta se descargan como archivos separados para un paquete de producto completo.',
+          'Cambia a la pestaña Clave de Respuesta para ver el tren completo con los 11 vagones llenos — la posición que faltaba ahora muestra el elemento correcto del patrón. La ficha y la clave de respuesta son editables de forma independiente en lienzos separados. Activa la exportación en escala de grises para versiones que ahorran tinta. Luego descarga cada uno como JPEG de alta resolución o PDF listo para imprimir. Cada exportación está lista para producción: listados de Etsy, interiores de Amazon KDP y archivos de productos Hotmart — la ficha y la clave de respuesta se descargan como archivos separados para un paquete de producto completo.',
       },
     ],
   },
 
   keyFeatures: {
-    title: 'Funcionalidades Clave del Generador de Fichas Tren de Patrones',
+    title: 'Por qué las fichas de patrones desarrollan pensamiento lógico',
     features: [
       {
         title: 'Formato visual en vagones de tren con 11 vagones temáticos',
         description:
-          'Los patrones se muestran en un tren temático con 11 vagones dispuestos en tres filas (5 arriba, 3 centro-izquierda, 3 centro-derecha). Cada vagón contiene una imagen de la secuencia repetitiva, creando un formato visualmente atractivo que se diferencia de las fichas de patrones en cuadrícula estándar. La disposición en tren da a los productos un aspecto distintivo en los listados de los marketplaces — los compradores que navegan por Etsy o Gumroad ven inmediatamente algo diferente de los ejercicios típicos en filas y columnas. La ilustración temática del tren añade valor de producción que justifica precios premium.',
+          'Los patrones se muestran en un tren temático con 11 vagones dispuestos en tres filas (5 arriba, 3 centro-izquierda, 3 centro-derecha). Cada vagón contiene una imagen de la secuencia repetitiva, creando un formato visualmente atractivo que se diferencia de las fichas de patrones en cuadrícula estándar. La disposición en tren da a los productos un aspecto distintivo en los listados de los marketplaces — los compradores que navegan por Etsy o Hotmart ven inmediatamente algo diferente de los ejercicios típicos en filas y columnas. La ilustración temática del tren añade valor de producción que justifica precios premium.',
       },
       {
         title: 'Cinco tipos de patrones repetitivos para dificultad progresiva',
@@ -88,12 +88,12 @@ const content: AppContent = {
       {
         title: 'Sistema de doble lienzo con clave de respuesta separada',
         description:
-          'La ficha y la clave de respuesta viven en lienzos separados e independientemente editables, accesibles mediante pestañas. La ficha muestra el tren con un vagón vacío; la clave de respuesta muestra los 11 vagones llenos con la secuencia correcta del patrón. Cada lienzo permite edición completa — añade texto, ajusta el diseño, reposiciona elementos — para que puedas personalizar tanto la ficha del usuario como la clave de respuesta del vendedor de forma independiente. Ambos se descargan como archivos separados, ofreciendo a los compradores un paquete de producto completo. Incluir claves de respuesta verificadas aumenta el valor percibido y es lo que esperan los compradores en Etsy, Gumroad y KDP.',
+          'La ficha y la clave de respuesta viven en lienzos separados e independientemente editables, accesibles mediante pestañas. La ficha muestra el tren con un vagón vacío; la clave de respuesta muestra los 11 vagones llenos con la secuencia correcta del patrón. Cada lienzo permite edición completa — añade texto, ajusta el diseño, reposiciona elementos — para que puedas personalizar tanto la ficha del usuario como la clave de respuesta del vendedor de forma independiente. Ambos se descargan como archivos separados, ofreciendo a los compradores un paquete de producto completo. Incluir claves de respuesta verificadas aumenta el valor percibido y es lo que esperan los compradores en Etsy, Hotmart y KDP.',
       },
       {
         title: 'Exportación PDF y JPEG lista para imprimir en alta resolución',
         description:
-          'Descarga fichas y claves de respuesta como imágenes JPEG de alta resolución o documentos PDF listos para imprimir renderizados con un multiplicador 6x para una salida nítida y detallada. Los formatos Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal, Cuadrado (1200×1200) y dimensiones personalizadas están todos soportados. Activa la exportación en escala de grises para versiones que ahorran tinta, ideales para impresión en línea o cuadernos en blanco y negro. Cada exportación está lista para producción: listados de Etsy, interiores de Amazon KDP y archivos de productos Gumroad — sin necesidad de postprocesamiento.',
+          'Descarga fichas y claves de respuesta como imágenes JPEG de alta resolución o documentos PDF listos para imprimir renderizados con un multiplicador 6x para una salida nítida y detallada. Los formatos Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal, Cuadrado (1200×1200) y dimensiones personalizadas están todos soportados. Activa la exportación en escala de grises para versiones que ahorran tinta, ideales para impresión en línea o cuadernos en blanco y negro. Cada exportación está lista para producción: listados de Etsy, interiores de Amazon KDP y archivos de productos Hotmart — sin necesidad de postprocesamiento.',
       },
       {
         title: 'Edición completa del lienzo con herramientas de texto y decoración',
@@ -104,7 +104,7 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Cómo Vender Fichas Tren de Patrones en Línea',
+    title: 'Vender fichas de patrones en Etsy, KDP y Hotmart',
     cases: [
       {
         title: 'Packs de reconocimiento de patrones en Etsy',
@@ -119,16 +119,16 @@ const content: AppContent = {
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Centros diferenciados de matemáticas y reconocimiento visual para Gumroad',
+        title: 'Centros diferenciados de matemáticas y reconocimiento visual para Hotmart',
         description:
           'Construye conjuntos de práctica de reconocimiento de patrones por niveles usando la complejidad del patrón como eje de diferenciación: Nivel 1 (patrones AB, 8–10 pistas), Nivel 2 (patrones AAB/ABB, 6–8 pistas), Nivel 3 (patrones ABC, 5–6 pistas) y Nivel 4 (patrones AABB, 4–5 pistas). Cada nivel se enfoca en una demanda cognitiva diferente — desde reconocer la alternancia simple hasta identificar secuencias complejas de múltiples elementos a partir de información limitada. El formato en vagones de tren crea un tema visual atractivo que funciona como actividad de centro en línea. Acompaña cada nivel con ejercicios temáticos y claves de respuesta separadas para comodidad del vendedor.',
-        platform: 'Gumroad (teacherspayteachers.com)',
+        platform: 'Hotmart (hotmart.com)',
       },
       {
         title: 'Fichas visuales multilingües para mercados globales',
         description:
           'Como las fichas Tren de Patrones contienen solo imágenes en los vagones con cero texto en la salida, el mismo producto funciona en todos los idiomas sin modificación. Crea un conjunto de ejercicios de trenes de patrones y véndelo en todo el mundo — sin traducción necesaria, sin versiones de idiomas separadas que mantener. Cambiar el idioma del contenido solo afecta las etiquetas de la biblioteca de imágenes en el generador, no la ficha impresa. Publica productos idénticos en tiendas Etsy dirigidas a diferentes países, o publica el mismo interior KDP en todos los mercados internacionales de Amazon. Un solo flujo de trabajo produce un producto universalmente vendible.',
-        platform: 'Etsy / Amazon KDP / Gumroad (global)',
+        platform: 'Etsy / Amazon KDP / Hotmart (global)',
       },
       {
         title: 'Herramienta de conceptos de patrones para venta en línea y el refuerzo',
@@ -193,7 +193,7 @@ const content: AppContent = {
     {
       question: '¿Puedo vender fichas creadas con esta herramienta en Etsy y Amazon KDP?',
       answer:
-        'Sí. Con una licencia comercial, tienes todos los derechos para vender tus fichas tren de patrones como descargas digitales en Etsy, como cuadernos impresos en Amazon KDP, como recursos educativos en Gumroad o a través de cualquier otro canal de venta. Los cinco tipos de patrones, el número de pistas ajustable y el formato único en vagones de tren te ofrecen una fuerte diferenciación y vendibilidad global en las categorías de los marketplaces.',
+        'Sí. Con una licencia comercial, tienes todos los derechos para vender tus fichas tren de patrones como descargas digitales en Etsy, como cuadernos impresos en Amazon KDP, como recursos educativos en Hotmart o a través de cualquier otro canal de venta. Los cinco tipos de patrones, el número de pistas ajustable y el formato único en vagones de tren te ofrecen una fuerte diferenciación y vendibilidad global en las categorías de los marketplaces.',
     },
     {
       question: '¿Cuál es la política de reembolso?',

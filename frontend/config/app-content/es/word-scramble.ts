@@ -2,32 +2,32 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'generador fichas letras revueltas',
+    primaryKeyword: 'crear anagramas imprimibles para negocio en Etsy',
     secondaryKeywords: [
-      'fichas de letras revueltas imprimibles para vendedores Etsy',
-      'generador de puzzles de reordenamiento de letras para Amazon KDP',
-      'vender fichas de letras revueltas en Gumroad',
-      'fichas de letras revueltas con código de colores vocales licencia comercial',
+      'generador de letras revueltas para vender en Etsy',
+      'fichas de anagramas para Amazon KDP',
+      'juegos de letras desordenadas licencia comercial',
+      'crear fichas de palabras revueltas para vender',
     ],
     lsiKeywords: [
-      'productos digitales de puzzles de ortografía para emprendedores',
-      'negocio de fichas de reordenamiento de letras imprimibles en línea',
-      'generador de fichas de letras revueltas uso comercial',
+      'anagramas temáticos vendedores Etsy KDP',
+      'fichas letras desordenadas imprimibles',
+      'negocio pasatiempos palabras mercado hispano',
     ],
-    titleTag: 'Generador Fichas Letras Revueltas | Crear y Vender',
+    titleTag: 'Anagramas imprimibles para Etsy y KDP | LCS',
     metaDescription:
-      'Crea fichas de letras revueltas para Etsy, KDP y Gumroad. Pistas de imagen, código de colores vocales-consonantes, 11 idiomas. Prueba gratis con marca de agua.',
+      'Cree fichas de letras revueltas para vender en Etsy y KDP. Los niños reordenan letras con pistas de imágenes. Licencia comercial. Pruebe gratis.',
   },
 
   hero: {
-    title: 'Generador de Fichas de Letras Revueltas para Puzzles de Ortografía por Reordenamiento de Letras',
-    tagline: 'Fichas de letras desordenadas se combinan con pistas de imagen — cuatro niveles de dificultad y un código de colores vocales-consonantes convierten cada palabra en un puzzle de ortografía práctico.',
+    title: 'Genere fichas de anagramas para vender en Etsy, KDP y Hotmart',
+    tagline: 'Cree fichas de letras revueltas con pistas de imágenes — un formato que se vende solo.',
     description:
-      'Diseña fichas profesionales de letras revueltas donde los usuarios ven una pista de imagen y reordenan fichas de letras desordenadas para deletrear la palabra correcta — un puzzle de reordenamiento de letras que desarrolla simultáneamente la precisión ortográfica, el reconocimiento de palabras y la conciencia fonética. Elige entre tres fuentes de contenido: la Biblioteca de Imágenes integrada con más de 3100 ilustraciones en 104 temas, el Modo Edición Manual donde seleccionas imágenes y personalizas sus nombres de visualización, o el modo Lista de Palabras Personalizada para puzzles de solo texto con hasta 8 palabras que tú escribes directamente. Cuatro niveles de dificultad controlan cuántas letras-pista se pre-colocan en la posición correcta — desde Sin Pistas (ninguna letra colocada) hasta el modo Fácil colocando la mitad de las letras — creando un andamiaje natural del principiante al avanzado. La funcionalidad de código de colores vocales-consonantes es única de Letras Revueltas: activa fichas de colores donde las vocales aparecen en un color y las consonantes en otro, añadiendo una dimensión fonética visual que ayuda a los usuarios a identificar los tipos de letras mientras descifran la palabra. Coloca de 1 a 10 puzzles por ficha y elige fichas de letras en mayúsculas o minúsculas. El Acceso Completo desbloquea los 11 idiomas soportados donde la palabra objetivo cambia según el idioma — \"dog\" en inglés se convierte en \"Hund\" en alemán, \"chien\" en francés, \"perro\" en español — haciendo de cada idioma un producto distinto y vendible. Cada ficha genera una clave de respuesta automática, y puedes exportar PDF listos para imprimir y JPEG a más de 300 DPI en formato Carta, A4, Cuadrado o dimensiones personalizadas. Ya sea que vendas paquetes temáticos de ortografía en Etsy, compiles libros de puzzles de palabras para Amazon KDP o crees centros de lectoescritura diferenciados para Gumroad, el Generador de Fichas de Letras Revueltas produce resultados profesionales en minutos — prueba gratis con todas las funciones, sin registro, sin tarjeta de crédito. Las descargas incluyen una marca de agua; compra una licencia para eliminarla.',
+      'Genere fichas de anagramas para vender en Etsy, Amazon KDP o Hotmart. Los usuarios ven una imagen temática y reordenan las letras desordenadas para formar la palabra correcta — un formato que combina vocabulario con resolución de problemas. Con más de 3.000 imágenes en 104 temas y soporte para 11 idiomas, puede crear productos para múltiples mercados simultáneamente. Las fichas de letras revueltas son ideales para cuadernillos de actividades en KDP y paquetes temáticos en Etsy. Exporte PDFs a 300 DPI con solucionario automático y véndalos con la licencia comercial incluida. El mercado hispano ofrece competencia mínima para este tipo de pasatiempo. Pruebe gratis con marca de agua — sin registro.',
   },
 
   howItWorks: {
-    title: 'Cómo Crear Fichas de Letras Revueltas en 5 Pasos',
+    title: 'Cómo crear fichas de anagramas paso a paso',
     steps: [
       {
         title: 'Configura el diseño de página',
@@ -58,7 +58,7 @@ const content: AppContent = {
   },
 
   keyFeatures: {
-    title: 'Características Principales del Generador de Fichas de Letras Revueltas',
+    title: 'Por qué las fichas de letras revueltas se venden bien',
     features: [
       {
         title: 'Fichas de letras desordenadas con pistas de imagen',
@@ -73,7 +73,7 @@ const content: AppContent = {
       {
         title: 'Código de colores vocales y consonantes',
         description:
-          'Activa la opción Código de Colores para mostrar las vocales en un color y las consonantes en otro en las fichas de letras desordenadas — una funcionalidad única de Letras Revueltas entre todos los generadores de fichas. Esta ayuda fonética visual permite a los usuarios identificar los patrones vocales-consonantes mientras reordenan la palabra, reforzando la conciencia de los tipos de letras junto con la práctica ortográfica. Cambia a Todo Negro para fichas monocromas tradicionales cuando la diferenciación por colores no sea necesaria. El código de colores añade una dimensión de diferenciación poderosa para los vendedores de Gumroad que apuntan a compradores enfocados en fonética.',
+          'Activa la opción Código de Colores para mostrar las vocales en un color y las consonantes en otro en las fichas de letras desordenadas — una funcionalidad única de Letras Revueltas entre todos los generadores de fichas. Esta ayuda fonética visual permite a los usuarios identificar los patrones vocales-consonantes mientras reordenan la palabra, reforzando la conciencia de los tipos de letras junto con la práctica ortográfica. Cambia a Todo Negro para fichas monocromas tradicionales cuando la diferenciación por colores no sea necesaria. El código de colores añade una dimensión de diferenciación poderosa para los vendedores de Hotmart que apuntan a compradores enfocados en fonética.',
       },
       {
         title: 'Tres fuentes de contenido: Biblioteca de Imágenes, Edición Manual y Lista de Palabras Personalizada',
@@ -104,7 +104,7 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Cómo Vender Fichas de Letras Revueltas en Línea',
+    title: 'Vender fichas de anagramas en múltiples plataformas',
     cases: [
       {
         title: 'Paquetes temáticos de letras revueltas en Etsy',
@@ -119,16 +119,16 @@ const content: AppContent = {
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Centros de lectoescritura diferenciados para Gumroad',
+        title: 'Centros de lectoescritura diferenciados para Hotmart',
         description:
-          'Construye conjuntos de práctica de letras revueltas por niveles usando el nivel de dificultad y el código de colores como ejes de diferenciación. Nivel 1: Fácil con fichas de colores vocales-consonantes para aprendices visuales. Nivel 2: Normal con código de colores. Nivel 3: Difícil con fichas Todo Negro para usuarios autónomos en ortografía. Nivel 4: Sin Pistas con fichas Todo Negro para un desafío avanzado. Acompaña cada nivel con claves de respuesta y una hoja de seguimiento del progreso. Los compradores de Gumroad pagan precios premium por recursos de ortografía diferenciados que pueden desplegar inmediatamente en múltiples niveles de lectura.',
-        platform: 'Gumroad (teacherspayteachers.com)',
+          'Construye conjuntos de práctica de letras revueltas por niveles usando el nivel de dificultad y el código de colores como ejes de diferenciación. Nivel 1: Fácil con fichas de colores vocales-consonantes para aprendices visuales. Nivel 2: Normal con código de colores. Nivel 3: Difícil con fichas Todo Negro para usuarios autónomos en ortografía. Nivel 4: Sin Pistas con fichas Todo Negro para un desafío avanzado. Acompaña cada nivel con claves de respuesta y una hoja de seguimiento del progreso. Los compradores de Hotmart pagan precios premium por recursos de ortografía diferenciados que pueden desplegar inmediatamente en múltiples niveles de lectura.',
+        platform: 'Hotmart (hotmart.com)',
       },
       {
         title: 'Productos de vocabulario multilingües con Acceso Completo',
         description:
           'El Acceso Completo desbloquea los 11 idiomas, y como Letras Revueltas es sensible al idioma, la palabra objetivo cambia según el idioma. \"Dog\" en inglés se convierte en \"Hund\" en alemán, \"chien\" en francés, \"perro\" en español — cada uno con letras diferentes, un número de letras diferente y disposiciones desordenadas completamente diferentes. Crea series temáticas idénticas en múltiples idiomas y lista cada una como un producto de Etsy o un libro de KDP separado — once flujos de ingresos desde un solo flujo de trabajo.',
-        platform: 'Etsy / Amazon KDP / Gumroad (multilingüe)',
+        platform: 'Etsy / Amazon KDP / Hotmart (multilingüe)',
       },
       {
         title: 'Herramienta de ortografía para venta en línea y tutoría',
@@ -193,7 +193,7 @@ const content: AppContent = {
     {
       question: '¿Puedo vender fichas creadas con esta herramienta en Etsy y Amazon KDP?',
       answer:
-        'Sí. Con una licencia comercial, tienes todos los derechos para vender tus fichas de letras revueltas como descargas digitales en Etsy, como libros de actividades impresos en Amazon KDP, como recursos educativos en Gumroad o a través de cualquier otro canal de venta. El formato de fichas de letras desordenadas, el código de colores vocales-consonantes y la capacidad multilingüe te ofrecen una fuerte diferenciación en categorías de mercado competitivas.',
+        'Sí. Con una licencia comercial, tienes todos los derechos para vender tus fichas de letras revueltas como descargas digitales en Etsy, como libros de actividades impresos en Amazon KDP, como recursos educativos en Hotmart o a través de cualquier otro canal de venta. El formato de fichas de letras desordenadas, el código de colores vocales-consonantes y la capacidad multilingüe te ofrecen una fuerte diferenciación en categorías de mercado competitivas.',
     },
     {
       question: '¿Cuál es la política de reembolso?',

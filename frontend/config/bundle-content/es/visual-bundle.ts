@@ -2,27 +2,26 @@ import type { BundleContent } from '../types';
 
 const content: BundleContent = {
   seo: {
-    primaryKeyword: 'paquete fichas aprendizaje visual',
+    primaryKeyword: 'paquete de fichas visuales para vendedores',
     secondaryKeywords: [
-      'paquete de generadores de fichas de colorear y dibujo para vendedores',
-      'kit de fichas de actividades visuales uso comercial',
-      'paquete de fichas de reconocimiento de patrones para Etsy',
-      'generadores de fichas de dibujo y colorear para vendedores KDP',
+      'paquete generadores fichas de colorear para Etsy',
+      'kit fichas de dibujo y actividades visuales KDP',
+      'fichas de búsqueda de objetos licencia comercial',
+      'herramientas visuales para negocio de imprimibles',
     ],
     lsiKeywords: [
-      'paquete de fichas de colorear y dibujar',
-      'colección de fichas de patrones y gráficos de conteo imprimibles',
-      'licencia comercial fichas de actividades visuales',
-      'herramienta de creación masiva de fichas visuales',
+      'ahorro paquete fichas visuales compra individual',
+      'productos creativos colorear dibujar buscar objetos',
+      'licencia comercial fichas visuales múltiples plataformas',
     ],
-    titleTag: 'Paquete Fichas Aprendizaje Visual | para Vender',
-    metaDescription: '7 generadores de fichas visuales en un paquete: colorear, dibujar, patrones, comparación de tamaños, gráficos y trazado de líneas.',
+    titleTag: 'Paquete fichas visuales para vendedores | LCS',
+    metaDescription: 'Paquete de 5 generadores de fichas visuales para vender en Etsy y KDP. Colorear, dibujar, buscar objetos y contar. Licencia comercial incluida.',
   },
 
   hero: {
-    title: 'Paquete Aprendizaje Visual',
-    tagline: 'Siete generadores de fichas exclusivamente visuales — fichas que funcionan en cualquier idioma del mundo',
-    description: 'Cada generador de este paquete produce fichas compuestas enteramente por imágenes, formas, colores y números. No aparece texto en la página terminada más allá de etiquetas opcionales de interfaz. Esto significa que cada ficha que crees funciona para compradores de cualquier país, cualquier idioma, cualquier sistema escolar — sin traducción, sin adaptación, sin esfuerzo de localización. El Paquete Aprendizaje Visual combina siete generadores especializados que cubren comparación de tamaños, secuencias de patrones en vagones de tren, fichas de patrones para completar espacios en blanco, dibujo con imagen de referencia con modo de simetría, trazado de líneas entre objetos emparejados, creación de páginas para colorear a partir de contornos de imágenes y actividades de conteo con gráficos de barras. Dos de los siete generadores — Dibujo en Cuadrícula y Colorear — incluyen temas de contornos en blanco y negro diseñados específicamente para colorear, dándote acceso a estilos de producto tanto coloridos como en B&N desde un solo kit de herramientas. Tres generadores incluyen claves de respuesta automáticas donde corresponde: Grande y Pequeño, Fichas de Patrones y Gráficos de Conteo. Los otros cuatro son actividades creativas o de práctica donde las claves de respuesta no aplican. Cada generador produce archivos PDF listos para imprimir y JPEG de alta resolución. Elige entre más de 100 conjuntos de imágenes temáticas o sube tu propio arte para productos personalizados y específicos de nicho. Ya sea que vendas páginas para colorear en Etsy, publiques libros de actividades en Amazon KDP o distribuyas paquetes preescolares en Gumroad, este paquete te da la variedad visual y el alcance de mercado universal que los competidores dependientes del texto no pueden igualar. Cada generador incluye una prueba gratis con marca de agua para que puedas probar todas las funciones antes de comprar una licencia.',
+    title: 'Paquete de fichas visuales para vendedores de Etsy y KDP',
+    tagline: 'Cinco generadores de actividades visuales en un paquete con descuento — colorear, dibujar y buscar.',
+    description: 'Ahorre frente a la compra individual y lance una línea completa de productos visuales con cinco generadores en un solo paquete. Incluye fichas de colorear, dibujo guiado, búsqueda de objetos ocultos, busca y cuenta, y trazado de caminos — las categorías visuales más demandadas en Etsy y Amazon KDP. Cada generador produce archivos PDF listos para imprimir a 300 DPI con la licencia comercial incluida para vender sin restricciones en cualquier plataforma. Las fichas visuales son universales: no contienen texto, así que un solo producto se vende a compradores de cualquier país sin traducción. Combine más de 100 conjuntos de imágenes temáticas con los cinco generadores para crear cientos de listados únicos que capturen diferentes búsquedas y nichos de mercado. Los productos visuales tienen la ventaja de atraer a un público amplio — desde padres hasta educadores — y se venden todo el año con picos en temporadas escolares. Pruebe gratis con marca de agua — sin registro, sin tarjeta de crédito.',
   },
 
   appsIncluded: [
@@ -87,7 +86,7 @@ const content: BundleContent = {
     },
     {
       title: 'Salida lista para imprimir',
-      description: 'Descarga fichas como PDF o JPEG de alta resolución en formato Carta, A4, Horizontal, Cuadrado o tamaños personalizados. Los archivos están listos para publicar en Etsy, subir a KDP o enviar a Gumroad sin post-procesamiento en software de diseño. Añade bordes decorativos de la biblioteca de bordes integrada, establece colores de fondo de página y aplica imágenes de fondo temáticas con opacidad ajustable para resultados pulidos y profesionales en cada ocasión.',
+      description: 'Descarga fichas como PDF o JPEG de alta resolución en formato Carta, A4, Horizontal, Cuadrado o tamaños personalizados. Los archivos están listos para publicar en Etsy, subir a KDP o enviar a Hotmart sin post-procesamiento en software de diseño. Añade bordes decorativos de la biblioteca de bordes integrada, establece colores de fondo de página y aplica imágenes de fondo temáticas con opacidad ajustable para resultados pulidos y profesionales en cada ocasión.',
     },
   ],
 
@@ -103,9 +102,9 @@ const content: BundleContent = {
       platform: 'Amazon KDP (kdp.amazon.com)',
     },
     {
-      title: 'Paquetes preescolares en Gumroad',
-      description: 'Los compradores de Gumroad buscan paquetes integrales de actividades preescolares y de jardín de infantes que cubran múltiples habilidades. Agrupa comparación de tamaños, reconocimiento de patrones, trazado de líneas y actividades de colorear en paquetes por nivel escolar con claves de respuesta incluidas para las actividades correspondientes. El formato exclusivamente visual atrae a compradores de Gumroad que atienden tiendas diversas donde los usuarios hablan múltiples idiomas — fichas que no requieren lectura eliminan las barreras lingüísticas por completo. Empaqueta fichas en paquetes temáticos que los vendedores compran para uso en toda el tienda.',
-      platform: 'Gumroad (teacherspayteachers.com)',
+      title: 'Paquetes preescolares en Hotmart',
+      description: 'Los compradores de Hotmart buscan paquetes integrales de actividades preescolares y de jardín de infantes que cubran múltiples habilidades. Agrupa comparación de tamaños, reconocimiento de patrones, trazado de líneas y actividades de colorear en paquetes por nivel escolar con claves de respuesta incluidas para las actividades correspondientes. El formato exclusivamente visual atrae a compradores de Hotmart que atienden tiendas diversas donde los usuarios hablan múltiples idiomas — fichas que no requieren lectura eliminan las barreras lingüísticas por completo. Empaqueta fichas en paquetes temáticos que los vendedores compran para uso en toda el tienda.',
+      platform: 'Hotmart (hotmart.com)',
     },
     {
       title: 'Suplementos de productoses para preescolar y guarderías',
@@ -173,7 +172,7 @@ const content: BundleContent = {
     },
     {
       question: '¿En qué formatos puedo descargar?',
-      answer: 'Cada generador produce archivos PDF listos para imprimir y JPEG de alta resolución. Puedes elegir entre Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal, Cuadrado o ingresar un tamaño personalizado. PDF es ideal para paquetes de actividades multipágina en Etsy y Gumroad. JPEG funciona bien para páginas interiores de KDP y vistas previas en redes sociales. Todos los archivos se descargan en resolución de impresión — sin necesidad de escalar ni post-procesar.',
+      answer: 'Cada generador produce archivos PDF listos para imprimir y JPEG de alta resolución. Puedes elegir entre Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal, Cuadrado o ingresar un tamaño personalizado. PDF es ideal para paquetes de actividades multipágina en Etsy y Hotmart. JPEG funciona bien para páginas interiores de KDP y vistas previas en redes sociales. Todos los archivos se descargan en resolución de impresión — sin necesidad de escalar ni post-procesar.',
     },
     {
       question: '¿Puedo usar mis propias imágenes en lugar de los temas integrados?',
@@ -185,7 +184,7 @@ const content: BundleContent = {
     },
     {
       question: '¿Puedo vender las fichas que creo?',
-      answer: 'Sí. Tanto la licencia Comercial como la de Acceso Completo incluyen derechos de venta comercial. Puedes vender las fichas que generes en Etsy, Amazon KDP, Gumroad, tu propio sitio web o cualquier otra plataforma. Vendes las fichas — la herramienta generadora en sí no es transferible.',
+      answer: 'Sí. Tanto la licencia Comercial como la de Acceso Completo incluyen derechos de venta comercial. Puedes vender las fichas que generes en Etsy, Amazon KDP, Hotmart, tu propio sitio web o cualquier otra plataforma. Vendes las fichas — la herramienta generadora en sí no es transferible.',
     },
     {
       question: '¿Cuántas fichas puedo crear?',

@@ -2,32 +2,32 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'generador de laberintos',
+    primaryKeyword: 'laberintos ilustrados para vender en Etsy',
     secondaryKeywords: [
-      'fichas de laberintos imprimibles para vendedores de Etsy',
-      'generador de fichas de recorridos con imágenes para Amazon KDP',
-      'creador de fichas de laberintos licencia comercial Gumroad',
-      'vender fichas de laberintos y caminos en Etsy y Amazon',
+      'generador de laberintos con imágenes para Etsy',
+      'fichas de caminos ilustrados para Amazon KDP',
+      'laberintos imprimibles licencia comercial',
+      'crear fichas de laberintos temáticos para vender',
     ],
     lsiKeywords: [
-      'productos digitales de laberintos imprimibles para emprendedores',
-      'generador de fichas de recorridos con imágenes uso comercial',
-      'herramientas de negocio de fichas de puzzles y laberintos',
+      'laberintos ilustrados vendedores Etsy preescolar',
+      'fichas caminos temáticos imprimibles KDP',
+      'negocio fichas laberintos mercado hispano',
     ],
-    titleTag: 'Generador de Laberintos | Crear Fichas de Caminos',
+    titleTag: 'Laberintos ilustrados para vender en Etsy | LCS',
     metaDescription:
-      'Crea fichas de laberintos para vender en Etsy, KDP y Gumroad. 3 modos de juego, algoritmo LPF, clave de respuesta automática, 104 temas. Prueba gratis con marca.',
+      'Cree laberintos ilustrados con imágenes para vender en Etsy y KDP. 104 temas, dificultad ajustable. Licencia comercial incluida. Pruebe gratis.',
   },
 
   hero: {
-    title: 'Generador de Fichas de Laberintos con Imágenes para Actividades de Caminos y Laberintos',
-    tagline: 'Tres modos de juego en un solo generador — Camino de Imágenes, Laberinto Clásico y Elige el Camino Correcto — impulsado por el algoritmo LPF (Camino Más Largo Primero) con claves de respuesta automáticas, personalización de paredes y diseño completamente visual que funciona en todo el mundo sin traducción.',
+    title: 'Genere laberintos ilustrados para vender en Etsy, KDP y Hotmart',
+    tagline: 'Cree fichas de caminos temáticos donde los niños navegan entre imágenes.',
     description:
-      'Crea fichas profesionales de laberintos y recorridos con tres modos de juego distintos. Camino de Imágenes crea una cuadrícula de imágenes donde los usuarios siguen el camino correcto desde el inicio hasta el final identificando las imágenes del camino entre distractores. Laberinto Clásico genera laberintos con paredes usando el algoritmo LPF (Camino Más Largo Primero) con imágenes coleccionables dispersas por los pasillos — configura tamaños de cuadrícula de 15×15 a 20×20, establece de 1 a 3 caminos con bloqueo de callejones sin salida, y personaliza el color, grosor (1–10px) y opacidad (10–100%) de las paredes. Elige el Camino Correcto presenta laberintos de tres caminos con cuatro opciones direccionales (de abajo hacia arriba, de arriba hacia abajo, de izquierda a derecha, de derecha a izquierda) donde los usuarios identifican el único camino correcto entre señuelos. Cada modo genera una clave de respuesta complementaria en una pestaña de lienzo separada — los caminos de solución se resaltan con círculos rosas a lo largo de la ruta correcta, y el modo Elige el Camino añade una etiqueta \"✓ CORRECT PATH\". Asigna imágenes a cinco roles distintos: Inicio, Fin, Camino, Distractor y Decoración. Explora 104 colecciones temáticas con más de 3100 ilustraciones o sube las tuyas propias. El encabezado \"Camino de Imágenes\" generado automáticamente con borde naranja muestra títulos e instrucciones localizados en los 11 idiomas soportados. Añade temas de fondo y de borde con controles de opacidad independientes, incluye campos de nombre y fecha, y exporta PDF y JPEG listos para imprimir a 300 DPI en formato Carta, A4, Cuadrado (1200×1200) o tamaños personalizados. Camino de Imágenes es completamente visual — los laberintos no requieren lectura ni comprensión lingüística, haciendo cada ficha vendible instantáneamente en cualquier mercado del mundo. Prueba gratis con todas las funciones — sin registro, sin tarjeta de crédito. Las descargas incluyen una marca de agua; compra una licencia para eliminarla.',
+      'Genere laberintos ilustrados para vender en Etsy, Amazon KDP o Hotmart. Las fichas de caminos temáticos combinan laberintos con imágenes — los niños navegan caminos entre ilustraciones coloridas, desarrollando coordinación visomotora y planificación espacial. Seleccione entre más de 3.000 imágenes en 104 temas y ajuste la dificultad del laberinto. Los laberintos son un género probado en Amazon KDP con ventas consistentes todo el año, y en Etsy como descarga digital individual. Exporte PDFs a 300 DPI con solucionario automático y véndalos con la licencia comercial incluida. El formato visual funciona en cualquier idioma. Pruebe gratis con marca de agua — sin registro.',
   },
 
   howItWorks: {
-    title: 'Cómo Crear Fichas de Laberintos en 5 Pasos',
+    title: 'Cómo crear laberintos ilustrados paso a paso',
     steps: [
       {
         title: 'Configura el diseño de página',
@@ -52,13 +52,13 @@ const content: AppContent = {
       {
         title: 'Genera la clave de respuesta y descarga',
         description:
-          'Cambia a la pestaña Clave de Respuesta para ver la solución generada automáticamente. La clave de respuesta resalta el camino correcto con círculos rosas a lo largo de la ruta. El modo Elige el Camino añade una etiqueta \"✓ CORRECT PATH\" en el camino correcto. Laberinto Clásico incluye una leyenda de coleccionables mostrando los recuentos de imágenes. Descarga usando cuatro botones dedicados: JPEG de la Ficha, JPEG de la Clave, PDF de la Ficha y PDF de la Clave a 300 DPI. Activa la escala de grises para versiones que ahorran tinta. Cada exportación está lista para producción en listados de Etsy, interiores de Amazon KDP y archivos de productos de Gumroad.',
+          'Cambia a la pestaña Clave de Respuesta para ver la solución generada automáticamente. La clave de respuesta resalta el camino correcto con círculos rosas a lo largo de la ruta. El modo Elige el Camino añade una etiqueta \"✓ CORRECT PATH\" en el camino correcto. Laberinto Clásico incluye una leyenda de coleccionables mostrando los recuentos de imágenes. Descarga usando cuatro botones dedicados: JPEG de la Ficha, JPEG de la Clave, PDF de la Ficha y PDF de la Clave a 300 DPI. Activa la escala de grises para versiones que ahorran tinta. Cada exportación está lista para producción en listados de Etsy, interiores de Amazon KDP y archivos de productos de Hotmart.',
       },
     ],
   },
 
   keyFeatures: {
-    title: 'Características Clave del Generador de Laberintos con Imágenes',
+    title: 'Por qué los laberintos son un producto perenne',
     features: [
       {
         title: 'Tres Modos de Juego: Camino de Imágenes, Laberinto Clásico y Elige el Camino Correcto',
@@ -104,7 +104,7 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Cómo Vender Fichas de Laberintos en Línea',
+    title: 'Vender laberintos en Etsy, KDP y Hotmart',
     cases: [
       {
         title: 'Paquetes Temáticos de Actividades de Laberintos en Etsy',
@@ -119,21 +119,21 @@ const content: AppContent = {
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Actividades de Lógica y Resolución de Problemas para Gumroad',
+        title: 'Actividades de Lógica y Resolución de Problemas para Hotmart',
         description:
-          'Crea fichas de laberintos listas para usar con campos de nombre/fecha y claves de respuesta impresas para uso comercial. Los vendedores que buscan actividades de lógica en Gumroad valoran fichas que desarrollan razonamiento espacial y habilidades de resolución de problemas. Crea conjuntos alineados con el catálogo de productos: actividades de recorridos de hábitats de animales, colecciones de laberintos estacionales y paquetes de laberintos con dificultad progresiva. El modo Laberinto Clásico con imágenes coleccionables añade práctica de conteo junto con la resolución de caminos. Cada conjunto incluye fichas del usuario y claves de respuesta en formatos PDF y JPEG para uso flexible en línea.',
-        platform: 'Gumroad (teacherspayteachers.com)',
+          'Crea fichas de laberintos listas para usar con campos de nombre/fecha y claves de respuesta impresas para uso comercial. Los vendedores que buscan actividades de lógica en Hotmart valoran fichas que desarrollan razonamiento espacial y habilidades de resolución de problemas. Crea conjuntos alineados con el catálogo de productos: actividades de recorridos de hábitats de animales, colecciones de laberintos estacionales y paquetes de laberintos con dificultad progresiva. El modo Laberinto Clásico con imágenes coleccionables añade práctica de conteo junto con la resolución de caminos. Cada conjunto incluye fichas del usuario y claves de respuesta en formatos PDF y JPEG para uso flexible en línea.',
+        platform: 'Hotmart (hotmart.com)',
       },
       {
         title: 'Colecciones de Laberintos Estacionales y Festivos',
         description:
           'Las 104 colecciones temáticas de imágenes cubren cada ocasión estacional y festiva — Navidad, Halloween, Pascua, San Valentín, vuelta al cole, vacaciones de verano y más. Crea colecciones de laberintos por disponible ahora que se alineen con los períodos de mayor demanda. Lanza paquetes de laberintos de Halloween en septiembre, colecciones de Navidad en octubre y paquetes de San Valentín en enero. Incluye los tres modos de juego en cada conjunto estacional para máximo valor. Los productos estacionales tienen precios más altos durante los períodos pico y crean razones naturales para compras repetidas de clientes recurrentes.',
-        platform: 'Etsy / Amazon KDP / Gumroad (estacional)',
+        platform: 'Etsy / Amazon KDP / Hotmart (estacional)',
       },
       {
         title: 'Atractivo para el Mercado Global con Diseño Visual de Laberintos',
         description:
-          'Las fichas de laberintos son completamente visuales — los usuarios navegan caminos, siguen imágenes y resuelven puzzles espaciales sin leer ningún texto. Esto hace que cada ficha de laberinto sea vendible instantáneamente en cualquier mercado del mundo sin traducción ni localización. Lista el mismo paquete de laberintos en tiendas internacionales de Etsy, publica cuadernos de laberintos dirigidos a mercados de Amazon en otros idiomas y alcanza compradores globales de Gumroad. El encabezado generado automáticamente se traduce a 11 idiomas automáticamente, pero el contenido del laberinto en sí es universalmente comprensible. Un producto, mercados ilimitados.',
+          'Las fichas de laberintos son completamente visuales — los usuarios navegan caminos, siguen imágenes y resuelven puzzles espaciales sin leer ningún texto. Esto hace que cada ficha de laberinto sea vendible instantáneamente en cualquier mercado del mundo sin traducción ni localización. Lista el mismo paquete de laberintos en tiendas internacionales de Etsy, publica cuadernos de laberintos dirigidos a mercados de Amazon en otros idiomas y alcanza compradores globales de Hotmart. El encabezado generado automáticamente se traduce a 11 idiomas automáticamente, pero el contenido del laberinto en sí es universalmente comprensible. Un producto, mercados ilimitados.',
         platform: 'Todas las plataformas (global)',
       },
     ],
@@ -193,7 +193,7 @@ const content: AppContent = {
     {
       question: '¿Puedo vender fichas de laberintos creadas con esta herramienta en Etsy y Amazon KDP?',
       answer:
-        'Sí. Con una licencia comercial, tienes derechos completos para vender tus fichas de laberintos como descargas digitales en Etsy, como cuadernos impresos en Amazon KDP, como recursos para venta en línea en Gumroad o a través de cualquier otro canal de venta. Los tres modos de juego, el algoritmo LPF, las 104 colecciones temáticas de imágenes y el formato completamente visual te dan las herramientas para producir productos de laberintos originales y vendibles a nivel global.',
+        'Sí. Con una licencia comercial, tienes derechos completos para vender tus fichas de laberintos como descargas digitales en Etsy, como cuadernos impresos en Amazon KDP, como recursos para venta en línea en Hotmart o a través de cualquier otro canal de venta. Los tres modos de juego, el algoritmo LPF, las 104 colecciones temáticas de imágenes y el formato completamente visual te dan las herramientas para producir productos de laberintos originales y vendibles a nivel global.',
     },
     {
       question: '¿Cuál es la política de reembolso?',

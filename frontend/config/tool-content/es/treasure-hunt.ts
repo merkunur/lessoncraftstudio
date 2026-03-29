@@ -2,30 +2,30 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'creador búsqueda del tesoro',
+    primaryKeyword: 'generador de búsqueda del tesoro gratis',
     secondaryKeywords: [
-      'herramienta búsqueda tesoro direccional para vendedores Etsy KDP',
-      'generador puzzles búsqueda caminos cuadrícula coordenadas comercial',
-      'crear fichas búsqueda tesoro con pistas direccionales para vender',
-      'software búsqueda tesoro con clave respuestas automática dos direcciones',
+      'fichas de búsqueda del tesoro gratis sin registro',
+      'generador de búsqueda del tesoro en línea gratis',
+      'crear fichas de búsqueda del tesoro gratis para imprimir',
+      'búsqueda del tesoro con imágenes gratis PDF',
     ],
     lsiKeywords: [
-      'dos tipos dirección básico cardinal cuadrícula coordenadas 5×5 generador',
-      'pistas direccionales localizadas 11 idiomas contenido imágenes sensible',
-      'clave respuestas celda tesoro resaltada sistema doble lienzo creador',
+      'actividad de buscar y encontrar objetos imprimible',
+      'ficha de búsqueda visual de imágenes escondidas',
+      'búsqueda del tesoro con ilustraciones temáticas PDF gratis',
     ],
-    titleTag: 'Creador Búsqueda del Tesoro — Fichas para Vender',
-    metaDescription: 'Crea fichas de búsqueda del tesoro en cuadrícula 5×5 con dos tipos de dirección, pistas localizadas en 11 idiomas, clave de respuestas automática y 104 temas.',
+    titleTag: 'Búsqueda del tesoro gratis | LCS',
+    metaDescription: 'Cree fichas de búsqueda del tesoro gratis sin registro. Busque imágenes escondidas en escenas, 104 colecciones, respuestas incluidas.',
   },
 
   hero: {
-    title: 'Creador de Fichas de Búsqueda del Tesoro',
+    title: 'Cree fichas de búsqueda del tesoro gratis en línea',
     tagline: 'Generador de fichas de búsqueda del tesoro con búsqueda de caminos en una cuadrícula fija de coordenadas 5×5 (filas A–E, columnas 1–5), dos tipos de dirección (Básico: arriba/abajo/izquierda/derecha para preescolar hasta 1.º de primaria, y Cardinal: norte/sur/este/oeste para 2.º de primaria en adelante), 6 imágenes temáticas como puntos de referencia, exactamente 4 movimientos direccionales por puzzle, clave de respuestas autogenerada con celda del tesoro resaltada en amarillo pálido mediante sistema de doble lienzo, pistas direccionales completamente localizadas en 11 idiomas, y encabezado temático de tesoro verde azulado (#2C8C7C) con título dorado en Fredoka en 104 colecciones temáticas de imágenes',
-    description: 'Crea fichas profesionales de búsqueda del tesoro donde los usuarios siguen pistas direccionales secuenciales para localizar el tesoro escondido en una cuadrícula de coordenadas 5×5 etiquetada con filas de letras (A–E) y columnas de números (1–5). Cada puzzle distribuye 6 imágenes temáticas por la cuadrícula como puntos de referencia visuales, luego genera una posición de inicio y exactamente 4 movimientos direccionales que conducen a la celda del tesoro. La ficha muestra 5 líneas de instrucciones: \"Empieza en [celda]\" seguido de 4 pistas \"Muévete [dirección] [número] casilla(s)\", terminando con \"¿Dónde está el tesoro?\" Elige entre dos tipos de dirección que sirven a diferentes grupos de edad y objetivos de aprendizaje. El modo Básico usa arriba, abajo, izquierda y derecha — palabras direccionales familiares ideales para aprendices de preescolar hasta 1.º de primaria que construyen vocabulario espacial fundamental. El modo Cardinal usa norte, sur, este y oeste — direcciones de brújula adecuadas para 2.º de primaria en adelante, introduciendo habilidades de lectura de mapas y orientación geográfica. Ambos tipos de dirección producen la misma estructura de puzzle de 4 movimientos en la misma cuadrícula 5×5, permitiéndote crear conjuntos de dificultad progresiva dentro de un solo paquete. El Creador de Búsqueda del Tesoro es sensible al idioma de dos maneras: el texto de las pistas direccionales y el contenido de las imágenes cambian cuando cambias de idioma. Todas las direcciones están completamente traducidas a los 11 idiomas soportados — \"Empieza en\", \"Muévete\", \"casilla(s)\" y \"¿Dónde está el tesoro?\" se localizan junto con el vocabulario de direcciones Básicas y Cardinales. Esto produce fichas de búsqueda del tesoro auténticas en el idioma nativo, no puzzles en inglés con encabezados traducidos. El sistema de doble lienzo genera tanto una pestaña de Ficha como una pestaña de Clave de Respuestas. La clave de respuestas reproduce el diseño exacto del puzzle y resalta la celda final del tesoro en amarillo pálido (rgba(255, 250, 205, 0.8)) con un trazo gris oscuro — sin necesidad de marcado manual. Cada puzzle incluye un encabezado temático de tesoro autogenerado con fondo verde azulado (#2C8C7C), borde exterior ámbar (#D4A574), borde interior beige arena (#F4E4C1) y título dorado (#D4A017) en fuente Fredoka (peso 700, tamaño adaptable 36–48 px). La descripción se renderiza en marrón oscuro (#5C4033) en Quicksand (peso 500). El modo vertical muestra un encabezado completo (100 px de altura); el modo horizontal usa un diseño compacto (70 px de altura). El texto del encabezado se traduce automáticamente a los 11 idiomas — \"Búsqueda del Tesoro\" y \"¡Sigue las pistas y encuentra el tesoro!\" en el idioma seleccionado. Explora 104 colecciones temáticas con más de 3.100 ilustraciones o sube imágenes personalizadas mediante tres métodos de entrada: Generar desde Tema (autoselecciona 6), Selección Manual de Imágenes (explorar y hacer clic) y Subir Imágenes Personalizadas (JPEG/PNG/GIF/WebP). Aplica temas de fondo y temas de borde con controles de opacidad independientes (0–1, paso 0,05). Exporta PDF listos para imprimir (multiplicador 3×) y JPEG (multiplicador 6×) a 300 DPI en Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal, Cuadrado (1200×1200) o dimensiones personalizadas. Activa escala de grises para impresión que ahorra tinta. La prueba gratuita incluye todas las funciones con una marca de agua en las descargas. Compra una licencia para eliminar la marca de agua y vender comercialmente.',
+    description: 'Cree fichas de búsqueda del tesoro gratis con este generador en línea. Los usuarios buscan imágenes específicas escondidas en escenas llenas de ilustraciones temáticas. Navegue 104 colecciones con más de 3.100 imágenes o suba las suyas. Configure el número de objetos a encontrar, la densidad de la escena y exporte con clave de respuestas autogenerada. Exporte en JPEG y PDF a 300 DPI en tamaño Carta, A4 o personalizado. La prueba gratis incluye todas las funciones con marca de agua. Sin registro, sin instalación — empiece ahora. ¿Quiere vender? Pase a la licencia comercial para eliminar la marca de agua y obtener uso comercial completo.',
   },
 
   tutorial: {
-    title: 'Cómo Crear Fichas de Búsqueda del Tesoro en 8 Pasos',
+    title: 'Cómo crear fichas de búsqueda del tesoro gratis en 8 pasos',
     steps: [
       {
         title: 'Abre el Creador de Búsqueda del Tesoro',
@@ -57,7 +57,7 @@ const content: ToolContent = {
       },
       {
         title: 'Descarga los Cuatro Archivos',
-        description: 'Activa la escala de grises para versiones que ahorran tinta, ideales para impresión en volumen e interiores de KDP. Descarga los cuatro archivos de una sola sesión: JPEG de ficha, JPEG de clave de respuestas, PDF de ficha y PDF de clave de respuestas — todos renderizados a 300 DPI (multiplicador JPEG 6×, multiplicador PDF 3×). Cada pestaña tiene su propio par de botones de descarga en el menú desplegable. Todas las exportaciones están listas para producción para listados de Etsy, interiores de Amazon KDP y archivos de productos de Gumroad sin necesidad de posprocesamiento. Cambia temas, idiomas y tipos de dirección, luego genera de nuevo para creación rápida de variedad en las 104 colecciones temáticas.',
+        description: 'Activa la escala de grises para versiones que ahorran tinta, ideales para impresión en volumen e interiores de KDP. Descarga los cuatro archivos de una sola sesión: JPEG de ficha, JPEG de clave de respuestas, PDF de ficha y PDF de clave de respuestas — todos renderizados a 300 DPI (multiplicador JPEG 6×, multiplicador PDF 3×). Cada pestaña tiene su propio par de botones de descarga en el menú desplegable. Todas las exportaciones están listas para producción para listados de Etsy, interiores de Amazon KDP y archivos de productos de Hotmart sin necesidad de posprocesamiento. Cambia temas, idiomas y tipos de dirección, luego genera de nuevo para creación rápida de variedad en las 104 colecciones temáticas.',
       },
     ],
   },
@@ -101,24 +101,24 @@ const content: ToolContent = {
       platform: 'Amazon KDP',
     },
     {
-      title: 'Paquetes de Actividades de Cuadrícula de Coordenadas y Vocabulario Direccional para Gumroad',
-      description: 'Sube paquetes de actividades de búsqueda del tesoro a Gumroad dirigidos a vendedores que necesitan recursos de cuadrícula de coordenadas y vocabulario direccional. La cuadrícula de coordenadas 5×5 con letras y números introduce habilidades de referencia de cuadrícula alineadas con estándares de matemáticas y geografía. Los vendedores que buscan actividades de seguimiento de instrucciones direccionales valoran fichas con cuadrículas visuales claras, instrucciones secuenciales y claves de respuestas impresas. Crea conjuntos diferenciados por grado: búsquedas del tesoro con dirección Básica para tiendas de infantil–1.º y versiones con dirección Cardinal para grados 2.º–4.º. Cada conjunto incluye fichas para usuarios y claves de respuestas en formatos PDF y JPEG.',
-      platform: 'Gumroad',
+      title: 'Paquetes de Actividades de Cuadrícula de Coordenadas y Vocabulario Direccional para Hotmart',
+      description: 'Sube paquetes de actividades de búsqueda del tesoro a Hotmart dirigidos a vendedores que necesitan recursos de cuadrícula de coordenadas y vocabulario direccional. La cuadrícula de coordenadas 5×5 con letras y números introduce habilidades de referencia de cuadrícula alineadas con estándares de matemáticas y geografía. Los vendedores que buscan actividades de seguimiento de instrucciones direccionales valoran fichas con cuadrículas visuales claras, instrucciones secuenciales y claves de respuestas impresas. Crea conjuntos diferenciados por grado: búsquedas del tesoro con dirección Básica para tiendas de infantil–1.º y versiones con dirección Cardinal para grados 2.º–4.º. Cada conjunto incluye fichas para usuarios y claves de respuestas en formatos PDF y JPEG.',
+      platform: 'Hotmart',
     },
     {
       title: 'Negocio de Vocabulario Direccional Multilingüe',
-      description: 'Las pistas direccionales completamente localizadas crean puzzles de búsqueda del tesoro auténticos en el idioma nativo cuando cambias de idioma. Todo el texto de instrucciones — \"Empieza en\", \"Muévete\", palabras de dirección, \"casilla(s)\" y \"¿Dónde está el tesoro?\" — se traduce a los 11 idiomas soportados. Crea paquetes de búsqueda del tesoro específicos por idioma para vendedores de ESL/EFL que practican vocabulario direccional, programas de educación bilingüe y familias internacionales de trabajo desde casa. Vende en tiendas de Etsy dirigidas a países específicos, lista en Gumroad para vendedores internacionales o construye mega-paquetes multilingües a precios premium. Un diseño de puzzle genera 11 productos vendibles por idioma.',
-      platform: 'Etsy / Gumroad',
+      description: 'Las pistas direccionales completamente localizadas crean puzzles de búsqueda del tesoro auténticos en el idioma nativo cuando cambias de idioma. Todo el texto de instrucciones — \"Empieza en\", \"Muévete\", palabras de dirección, \"casilla(s)\" y \"¿Dónde está el tesoro?\" — se traduce a los 11 idiomas soportados. Crea paquetes de búsqueda del tesoro específicos por idioma para vendedores de ESL/EFL que practican vocabulario direccional, programas de educación bilingüe y familias internacionales de trabajo desde casa. Vende en tiendas de Etsy dirigidas a países específicos, lista en Hotmart para vendedores internacionales o construye mega-paquetes multilingües a precios premium. Un diseño de puzzle genera 11 productos vendibles por idioma.',
+      platform: 'Etsy / Hotmart',
     },
     {
       title: 'Embudo de Tráfico de Fichas de Búsqueda del Tesoro en Pinterest',
-      description: 'Las fichas de búsqueda del tesoro con cuadrículas de coordenadas coloridas e imágenes temáticas distribuidas crean pines visualmente atractivos en Pinterest que padres y vendedores reconocen como actividades educativas. Publica muestras de fichas mostrando la cuadrícula 5×5 con pistas direccionales y puntos de referencia temáticos. Crea series de pines separadas para \"fichas de búsqueda del tesoro para niños\", \"actividades imprimibles de dirección\" y \"puzzles de cuadrícula de coordenadas\". Incluye imágenes de vista previa de la clave de respuestas mostrando la celda del tesoro resaltada en amarillo pálido. Enlaza cada pin a tus listados de productos en Etsy o Gumroad para conversión directa.',
+      description: 'Las fichas de búsqueda del tesoro con cuadrículas de coordenadas coloridas e imágenes temáticas distribuidas crean pines visualmente atractivos en Pinterest que padres y vendedores reconocen como actividades educativas. Publica muestras de fichas mostrando la cuadrícula 5×5 con pistas direccionales y puntos de referencia temáticos. Crea series de pines separadas para \"fichas de búsqueda del tesoro para niños\", \"actividades imprimibles de dirección\" y \"puzzles de cuadrícula de coordenadas\". Incluye imágenes de vista previa de la clave de respuestas mostrando la celda del tesoro resaltada en amarillo pálido. Enlaza cada pin a tus listados de productos en Etsy o Hotmart para conversión directa.',
       platform: 'Pinterest',
     },
     {
-      title: 'Kit Completo de Puzzles de Búsqueda del Tesoro en Gumroad',
-      description: 'Agrupa puzzles de búsqueda del tesoro de los 104 temas, ambos tipos de dirección y múltiples idiomas en un kit completo en Gumroad. Incluye más de 200 fichas de búsqueda del tesoro que abarcan los modos de dirección Básico y Cardinal con dificultad progresiva en colecciones temáticas. Cada ficha incluye su clave de respuestas autogenerada con celda del tesoro resaltada, duplicando tu conteo de archivos a más de 400 archivos totales. Los dos tipos de dirección, las pistas localizadas en 11 idiomas y las 104 colecciones temáticas producen más variedad que cualquier competidor que ofrezca fichas de dirección simples. El formato de kit completo justifica precios premium porque los compradores obtienen una biblioteca completa de puzzles de búsqueda del tesoro.',
-      platform: 'Gumroad',
+      title: 'Kit Completo de Puzzles de Búsqueda del Tesoro en Hotmart',
+      description: 'Agrupa puzzles de búsqueda del tesoro de los 104 temas, ambos tipos de dirección y múltiples idiomas en un kit completo en Hotmart. Incluye más de 200 fichas de búsqueda del tesoro que abarcan los modos de dirección Básico y Cardinal con dificultad progresiva en colecciones temáticas. Cada ficha incluye su clave de respuestas autogenerada con celda del tesoro resaltada, duplicando tu conteo de archivos a más de 400 archivos totales. Los dos tipos de dirección, las pistas localizadas en 11 idiomas y las 104 colecciones temáticas producen más variedad que cualquier competidor que ofrezca fichas de dirección simples. El formato de kit completo justifica precios premium porque los compradores obtienen una biblioteca completa de puzzles de búsqueda del tesoro.',
+      platform: 'Hotmart',
     },
   ],
 
@@ -192,7 +192,7 @@ const content: ToolContent = {
     },
     {
       question: '¿Puedo vender fichas de búsqueda del tesoro hechas con esta herramienta comercialmente?',
-      answer: 'Sí. Con una licencia comercial, tienes todos los derechos para vender fichas de búsqueda del tesoro como descargas digitales en Etsy, cuadernos impresos en Amazon KDP, recursos para venta en línea en Gumroad o a través de cualquier otro canal de venta. Los dos tipos de dirección, la cuadrícula de coordenadas 5×5, las pistas direccionales completamente localizadas en 11 idiomas, las claves de respuestas autogeneradas con celdas del tesoro resaltadas, tres métodos de entrada de imágenes y las 104 colecciones temáticas te dan todo lo necesario para crear productos profesionales de búsqueda del tesoro que compitan en categorías de fichas de actividades en todos los principales marketplaces.',
+      answer: 'Sí. Con una licencia comercial, tienes todos los derechos para vender fichas de búsqueda del tesoro como descargas digitales en Etsy, cuadernos impresos en Amazon KDP, recursos para venta en línea en Hotmart o a través de cualquier otro canal de venta. Los dos tipos de dirección, la cuadrícula de coordenadas 5×5, las pistas direccionales completamente localizadas en 11 idiomas, las claves de respuestas autogeneradas con celdas del tesoro resaltadas, tres métodos de entrada de imágenes y las 104 colecciones temáticas te dan todo lo necesario para crear productos profesionales de búsqueda del tesoro que compitan en categorías de fichas de actividades en todos los principales marketplaces.',
     },
     {
       question: '¿Cuál es la política de reembolso?',

@@ -2,29 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'marketing pinterest fichas',
+    primaryKeyword: 'marketing en Pinterest para negocio de fichas',
     secondaryKeywords: [
-      'pinterest para vendedores de imprimibles',
-      'vender fichas con pinterest',
-      'estrategia pinterest negocio imprimibles',
-      'tráfico pinterest tiendas de fichas',
+      'Pinterest para vender imprimibles educativos',
+      'estrategia de Pinterest vendedores de fichas',
+      'pines para promocionar fichas imprimibles',
+      'tráfico de Pinterest a tienda de imprimibles',
     ],
     lsiKeywords: [
-      'motor de búsqueda visual diseño de pines optimización de tableros descripciones ricas en palabras clave',
-      'tráfico perenne programación de pines tasa de clics descubrimiento orgánico',
-      'pines de producto pines de idea Pinterest Analytics SEO en Pinterest pines enriquecidos',
-      'impresiones de pines estrategia de repin publicación estacional estrategia de tableros',
-      'optimización de pines formato vertical algoritmo de Pinterest pines nuevos',
-      'posicionamiento en búsqueda tasa de guardado clics de salida análisis de audiencia plantillas de pines',
+      'SEO de Pinterest tableros palabras clave pines',
+      'tráfico orgánico motor de búsqueda visual descubrimiento',
+      'pines ricos descripciones clics conversión ventas',
     ],
-    titleTag: 'Marketing Pinterest Fichas — Estrategia Vendedor',
-    metaDescription: 'Estrategia de marketing en Pinterest para vendedores de imprimibles. Genera tráfico orgánico a largo plazo con optimización de pines, estrategia de tableros.',
+    titleTag: 'Pinterest para negocio de fichas | LCS',
+    metaDescription: 'Use Pinterest para generar tráfico y ventas de fichas. Estrategia SEO de Pinterest para vendedores en Etsy, KDP y Hotmart con pines que convierten.',
   },
 
   hero: {
-    title: 'Marketing en Pinterest para Negocios de Fichas de Ejercicios',
+    title: 'Pinterest: el motor de ventas para su negocio de fichas',
     tagline: 'Una guía completa de marketing en Pinterest para vendedores de fichas — que cubre cómo configurar una cuenta de empresa, estructurar tableros para el descubrimiento, diseñar pines de alta conversión, escribir descripciones ricas en palabras clave, desarrollar un calendario de publicación de pines, optimizar para el SEO en Pinterest, aprovechar los ciclos de contenido estacional y analizar datos de rendimiento',
-    description: 'Pinterest no es una red social. Es un motor de búsqueda visual donde los usuarios buscan activamente productos e ideas para comprar. Para los vendedores de fichas de ejercicios imprimibles, esta distinción es crucial — los usuarios de Pinterest descubren, guardan y hacen clic para comprar recursos educativos meses después de que se publica un pin. Esta guía proporciona un marco completo de marketing en Pinterest diseñado específicamente para negocios de fichas de ejercicios, desde la optimización del perfil y la estrategia de tableros hasta el diseño de pines, la integración de palabras clave, la planificación estacional y el refinamiento basado en analítica.',
+    description: 'Pinterest es el canal de marketing más poderoso para vendedores de imprimibles porque funciona como motor de búsqueda visual con tráfico permanente. A diferencia de Instagram o TikTok, un pin bien optimizado sigue generando clics y ventas durante meses o años. Esta guía le enseña la estrategia completa de Pinterest para su negocio de fichas: desde la optimización SEO de pines hasta la creación de tableros que atraen compradores. Aplique estas técnicas para vender en Etsy, Amazon KDP y Hotmart. El mercado hispanohablante en Pinterest está creciendo rápidamente con menos competencia.',
   },
 
   introduction: 'La mayoría de los vendedores de imprimibles tratan Pinterest como algo secundario — compartiendo ocasionalmente una imagen del producto con un enlace y esperando tráfico. Este enfoque produce resultados mínimos porque ignora los mecanismos fundamentales que hacen de Pinterest una herramienta excepcionalmente poderosa para negocios de fichas de ejercicios. Pinterest funciona como un motor de búsqueda visual, no como un feed social. El contenido se descubre a través de búsquedas basadas en palabras clave y recomendaciones algorítmicas, no a través de cronologías de seguidores. Un pin publicado hoy puede generar tráfico a tu tienda durante años, acumulando alcance a medida que reúne guardados y engagement. Ninguna otra plataforma ofrece este tipo de descubrimiento perenne para productos visuales.\n\nLa oportunidad para los vendedores de fichas en Pinterest es sustancial y está infrautilizada. Los imprimibles educativos están entre las categorías de productos más buscadas en Pinterest, con padres, vendedores y emprendedores en casa buscando activamente fichas de ejercicios, páginas de actividades y recursos de aprendizaje. Estos buscadores tienen intención de compra — no están navegando casualmente sino buscando activamente productos específicos para descargar, imprimir y usar. Un pin bien optimizado que aparece en estas búsquedas conecta tu producto directamente con un comprador motivado en el momento exacto en que busca lo que tú vendes.\n\nLo que hace que Pinterest sea particularmente efectivo para negocios de fichas es la naturaleza visual del producto. Las fichas de ejercicios, las páginas para colorear, los puzles y las hojas de actividades son productos inherentemente visuales que se muestran de forma atractiva en el formato visual de Pinterest. Un pin colorido y bien diseñado que muestra una vista previa de la ficha comunica inmediatamente qué es el producto, para quién es y qué lo hace atractivo — todo sin que el comprador lea una sola palabra de texto. Esta autoexplicación visual reduce la fricción en el recorrido del descubrimiento al clic y produce tasas de clics más altas que los listados de productos con mucho texto en otras plataformas.\n\nLa naturaleza acumulativa del tráfico de Pinterest es lo que lo separa de cualquier otro canal de marketing disponible para vendedores de imprimibles. En Instagram o Facebook, una publicación alcanza su audiencia máxima en 24 a 48 horas y luego desaparece efectivamente del descubrimiento. En Pinterest, un pin gana impulso durante semanas y meses a medida que el algoritmo lo indexa, lo muestra en resultados de búsqueda y lo recomienda a usuarios con intereses afines. Los pines de mejor rendimiento pueden generar tráfico constante durante 6 a 12 meses o más. Esto significa que cada pin que creas es una inversión que sigue generando retornos mucho después de publicarlo, construyendo un motor de tráfico que crece con cada nuevo pin añadido.\n\nLos generadores de fichas aceleran tu estrategia de Pinterest al resolver el cuello de botella de producción que limita el volumen de pines de la mayoría de los vendedores. Crear suficientes productos de fichas únicos y de alta calidad para mantener un calendario de publicación consistente requiere herramientas de producción eficientes. Los generadores te permiten producir fichas profesionales listas para imprimir en múltiples temas, materias e idiomas — dándote un catálogo profundo de productos desde el que crear pines. Puedes probar cualquier generador como prueba gratis con marca de agua para ver cómo encaja en tu flujo de trabajo de producción orientado a Pinterest.\n\nEsta guía te lleva a través de un sistema completo de marketing en Pinterest diseñado específicamente para negocios de fichas de ejercicios. Cada paso se construye sobre el anterior, creando un enfoque sistemático que transforma Pinterest de un pensamiento ocasional en tu canal principal de tráfico y descubrimiento.',

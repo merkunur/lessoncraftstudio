@@ -2,27 +2,26 @@ import type { BundleContent } from '../types';
 
 const content: BundleContent = {
   seo: {
-    primaryKeyword: 'paquete fichas de puzzles',
+    primaryKeyword: 'paquete de rompecabezas lógicos para KDP',
     secondaryKeywords: [
-      'paquete de generadores de fichas de puzzles para vendedores',
-      'kit de fichas de puzzles y lógica uso comercial',
-      'generador de laberintos y sudoku para Etsy',
-      'generadores de fichas de puzzles para vendedores KDP',
+      'paquete generadores puzzles imprimibles para vender',
+      'kit fichas de sudoku y laberintos Etsy',
+      'fichas de lógica y puzzles licencia comercial',
+      'herramientas de rompecabezas para libros KDP',
     ],
     lsiKeywords: [
-      'paquete de fichas de piezas faltantes y sudoku',
-      'colección de fichas de laberintos y lógica imprimibles',
-      'licencia comercial fichas de puzzles',
-      'herramienta de creación masiva de fichas de puzzles',
+      'ahorro paquete puzzles versus compra individual',
+      'variedad libros puzzles sudoku laberintos KDP',
+      'licencia comercial rompecabezas múltiples plataformas',
     ],
-    titleTag: 'Paquete Fichas de Puzzles | Crear y Vender',
-    metaDescription: 'Paquete con 4 generadores de puzzles y lógica: piezas faltantes, encuentra el diferente, sudoku con imágenes y laberintos. Vende en Etsy, KDP y Gumroad.',
+    titleTag: 'Paquete rompecabezas para libros KDP | LCS',
+    metaDescription: 'Paquete de 5 generadores de rompecabezas para publicar en KDP y vender en Etsy. Sudoku, laberintos, intrusos y patrones. Licencia comercial incluida.',
   },
 
   hero: {
-    title: 'Paquete Puzzles y Lógica',
-    tagline: 'Cuatro generadores de puzzles puramente visuales — razonamiento espacial, deducción lógica y resolución de problemas en cada ficha',
-    description: 'El Paquete de Puzzles y Lógica es el único paquete donde cada app produce fichas puramente visuales. Sin texto, sin dependencia lingüística, sin necesidad de traducción — cada ficha funciona en cualquier país, cualquier idioma, cualquier mercado. Este paquete combina cuatro generadores especializados de puzzles que apuntan a habilidades cognitivas de orden superior: razonamiento espacial con puzzles de cuadrícula de Piezas Faltantes, discriminación visual con desafíos de Encuentra el Diferente, deducción lógica con Sudoku de Imágenes 4×4, y resolución de problemas con laberintos de Recorrido de Imágenes. Los cuatro generadores producen claves de respuesta automáticas — el único paquete con cobertura de claves de respuesta del 100% en cada app. Cada generador produce archivos PDF listos para imprimir y JPEG de alta resolución con ajustes de dificultad configurables y bibliotecas de imágenes temáticas. La categoría de fichas de puzzles y lógica es uno de los segmentos de mayor crecimiento en Etsy y Amazon KDP porque estas actividades atraen a un rango de edad más amplio que las fichas básicas de habilidades — desde jardín de infantes hasta tercer grado y más allá. Piezas Faltantes divide imágenes en segmentos de cuadrícula y elimina piezas para que los usuarios las identifiquen. Encuentra el Diferente presenta filas de imágenes donde un elemento difiere del resto. Sudoku de Imágenes usa una cuadrícula 4×4 con imágenes temáticas en lugar de números, haciendo el Sudoku clásico accesible para niños pequeños que aún no pueden trabajar con dígitos. Recorrido de Imágenes ofrece tres modos distintos de laberinto: navegación por camino, laberinto clásico y elige-el-camino-correcto. Elige entre más de 100 conjuntos de imágenes temáticas o sube tus propios archivos PNG y JPEG para productos personalizados y específicos de nicho. Ya sea que vendas cuadernos de puzzles en Amazon KDP, publiques paquetes de actividades en Etsy o crees paquetes de lógica para Gumroad, este paquete te da cuatro tipos de puzzle distintos que los compradores buscan independientemente. Cada generador incluye una prueba gratis con marca de agua para que puedas probar todas las funciones antes de comprar una licencia.',
+    title: 'Paquete de rompecabezas lógicos para libros KDP y tiendas Etsy',
+    tagline: 'Cinco generadores de puzzles en un paquete con descuento — ideal para publicar libros de actividades en KDP.',
+    description: 'Publique libros de rompecabezas en Amazon KDP y cree listados de puzzles en Etsy con cinco generadores en un solo paquete a precio reducido. Incluye sudoku con imágenes, laberintos temáticos, búsqueda del intruso, piezas faltantes y patrones lógicos — los tipos de puzzles más populares en el mercado de libros de actividades. Cada generador produce PDFs listos para imprimir a 300 DPI con solucionarios automáticos, perfectos para compilar cuadernos de 50 a 100 páginas y subirlos directamente a KDP. La licencia comercial está incluida para vender sin restricciones en cualquier plataforma. Todas las fichas son puramente visuales — funcionan en cualquier idioma sin traducción — lo que le permite vender el mismo libro de puzzles en mercados KDP de todo el mundo. Combine más de 100 conjuntos de imágenes temáticas para crear libros de rompecabezas por temporada, por tema o por nivel de dificultad, multiplicando su catálogo desde una sola inversión. Pruebe gratis con marca de agua — sin registro, sin tarjeta de crédito.',
   },
 
   appsIncluded: [
@@ -55,7 +54,7 @@ const content: BundleContent = {
     },
     {
       title: 'Cobertura de claves de respuesta del 100%',
-      description: 'Los cuatro generadores producen claves de respuesta automáticas con cada ficha — el único paquete con cobertura completa de claves de respuesta en cada app. Piezas Faltantes muestra las ubicaciones correctas, Encuentra el Diferente resalta el elemento correcto en cada fila, Sudoku muestra la cuadrícula completada y Recorrido de Imágenes traza la ruta correcta. Las claves de respuesta son una expectativa principal de los compradores en Etsy y Gumroad, y tenerlas para cada producto del paquete significa que nunca necesitas crear soluciones manualmente.',
+      description: 'Los cuatro generadores producen claves de respuesta automáticas con cada ficha — el único paquete con cobertura completa de claves de respuesta en cada app. Piezas Faltantes muestra las ubicaciones correctas, Encuentra el Diferente resalta el elemento correcto en cada fila, Sudoku muestra la cuadrícula completada y Recorrido de Imágenes traza la ruta correcta. Las claves de respuesta son una expectativa principal de los compradores en Etsy y Hotmart, y tenerlas para cada producto del paquete significa que nunca necesitas crear soluciones manualmente.',
     },
     {
       title: 'Habilidades cognitivas de orden superior',
@@ -91,9 +90,9 @@ const content: BundleContent = {
       platform: 'Etsy (etsy.com)',
     },
     {
-      title: 'Paquetes de lógica en Gumroad',
-      description: 'Los compradores de Gumroad valoran recursos de lógica y pensamiento crítico que van más allá de los ejercicios básicos de habilidades. Empaqueta fichas de los cuatro generadores en paquetes por nivel: \"Paquete de Puzzles para Jardín de Infantes\" con cuadrículas fáciles y laberintos simples, o \"Desafío de Lógica para Segundo Grado\" con sudoku complejo y problemas de caminos ramificados. La cobertura de claves de respuesta del 100% cumple con las expectativas de Gumroad para recursos completos y listos para vender. La variedad de habilidades cognitivas — razonamiento espacial, discriminación visual, deducción lógica y resolución de problemas — se alinea con los estándares de pensamiento crítico que los vendedores buscan específicamente.',
-      platform: 'Gumroad (teacherspayteachers.com)',
+      title: 'Paquetes de lógica en Hotmart',
+      description: 'Los compradores de Hotmart valoran recursos de lógica y pensamiento crítico que van más allá de los ejercicios básicos de habilidades. Empaqueta fichas de los cuatro generadores en paquetes por nivel: \"Paquete de Puzzles para Jardín de Infantes\" con cuadrículas fáciles y laberintos simples, o \"Desafío de Lógica para Segundo Grado\" con sudoku complejo y problemas de caminos ramificados. La cobertura de claves de respuesta del 100% cumple con las expectativas de Hotmart para recursos completos y listos para vender. La variedad de habilidades cognitivas — razonamiento espacial, discriminación visual, deducción lógica y resolución de problemas — se alinea con los estándares de pensamiento crítico que los vendedores buscan específicamente.',
+      platform: 'Hotmart (hotmart.com)',
     },
     {
       title: 'Enriquecimiento para tutoría y trabajo desde casa',
@@ -125,8 +124,8 @@ const content: BundleContent = {
       description: 'Vendes descargas digitales en Etsy o publicas cuadernos de puzzles en Amazon KDP y quieres una forma rápida y confiable de producir fichas profesionales de puzzles a escala. El paquete te da cuatro generadores y cientos de combinaciones de temas para construir un catálogo de productos diverso. El formato 100% puramente visual es una ventaja masiva — cada producto que creas se vende en todo el mundo sin traducción, duplicando o triplicando tu mercado alcanzable en comparación con paquetes de fichas basadas en texto. Los cuadernos de puzzles en KDP son una de las categorías de productos de mayor demanda, y este paquete te permite crear cuadernos multiformato que superan a los competidores de formato único.',
     },
     {
-      title: 'Autores de Gumroad',
-      description: 'Creas y vendes recursos educativos en Gumroad y necesitas materiales de lógica y pensamiento crítico que van más allá de las fichas básicas. Los cuatro generadores producen claves de respuesta automáticamente — cumpliendo las expectativas de la plataforma para recursos completos y listos para evaluación. La variedad de habilidades cognitivas te permite crear paquetes diferenciados de lógica para diferentes niveles: puzzles simples para preescolar y jardín de infantes y desafíos complejos para grados 1 a 3. El formato puramente visual significa que tus recursos funcionan igualmente bien en entornos del mercado ESL, bilingüe y multilingüe.',
+      title: 'Autores de Hotmart',
+      description: 'Creas y vendes recursos educativos en Hotmart y necesitas materiales de lógica y pensamiento crítico que van más allá de las fichas básicas. Los cuatro generadores producen claves de respuesta automáticamente — cumpliendo las expectativas de la plataforma para recursos completos y listos para evaluación. La variedad de habilidades cognitivas te permite crear paquetes diferenciados de lógica para diferentes niveles: puzzles simples para preescolar y jardín de infantes y desafíos complejos para grados 1 a 3. El formato puramente visual significa que tus recursos funcionan igualmente bien en entornos del mercado ESL, bilingüe y multilingüe.',
     },
     {
       title: 'Emprendedores y emprendedores',
@@ -157,11 +156,11 @@ const content: BundleContent = {
     },
     {
       question: '¿Los cuatro generadores incluyen claves de respuesta?',
-      answer: 'Sí. Los cuatro generadores producen claves de respuesta automáticas con cada ficha — este es el único paquete con cobertura de claves de respuesta del 100%. Piezas Faltantes muestra las ubicaciones correctas, Encuentra el Diferente resalta el elemento diferente en cada fila, Sudoku muestra la cuadrícula completada y Recorrido de Imágenes traza la ruta correcta. Las claves de respuesta son una expectativa principal de los compradores en Etsy y Gumroad, y nunca necesitas resolver los puzzles manualmente.',
+      answer: 'Sí. Los cuatro generadores producen claves de respuesta automáticas con cada ficha — este es el único paquete con cobertura de claves de respuesta del 100%. Piezas Faltantes muestra las ubicaciones correctas, Encuentra el Diferente resalta el elemento diferente en cada fila, Sudoku muestra la cuadrícula completada y Recorrido de Imágenes traza la ruta correcta. Las claves de respuesta son una expectativa principal de los compradores en Etsy y Hotmart, y nunca necesitas resolver los puzzles manualmente.',
     },
     {
       question: '¿En qué formatos puedo descargar?',
-      answer: 'Cada generador produce archivos PDF listos para imprimir y JPEG de alta resolución. Elige entre Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal, Cuadrado o ingresa un tamaño personalizado. PDF es ideal para paquetes de puzzles multipágina en Etsy y Gumroad. JPEG funciona bien para páginas interiores de KDP y vistas previas en redes sociales. Todos los archivos se descargan en resolución de impresión — sin necesidad de escalar ni post-procesar.',
+      answer: 'Cada generador produce archivos PDF listos para imprimir y JPEG de alta resolución. Elige entre Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal, Cuadrado o ingresa un tamaño personalizado. PDF es ideal para paquetes de puzzles multipágina en Etsy y Hotmart. JPEG funciona bien para páginas interiores de KDP y vistas previas en redes sociales. Todos los archivos se descargan en resolución de impresión — sin necesidad de escalar ni post-procesar.',
     },
     {
       question: '¿Puedo combinar los cuatro tipos de puzzle en un solo cuaderno?',

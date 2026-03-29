@@ -2,30 +2,30 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'generador fichas yo espío',
+    primaryKeyword: 'generador de busca y cuenta gratis',
     secondaryKeywords: [
-      'creador fichas busca y cuenta uso comercial',
-      'generador fichas objetos ocultos para Etsy y KDP',
-      'herramienta fichas yo espío identificación de letras',
-      'crear fichas busca y encuentra imprimibles para vendedores',
+      'busca y cuenta gratis sin registro',
+      'generador de busca y cuenta gratis en linea',
+      'fichas de busca y cuenta gratis para imprimir',
+      'hojas de buscar y contar gratis sin tarjeta',
     ],
     lsiKeywords: [
-      'modo objeto oculto e identificación de letras doble actividad',
-      'cuatro tipos de tarea rodear cuadrado tachar contar combinables',
-      'alfabetos específicos por idioma letras acentuadas generador yo espío',
+      'actividades de conteo visual para preescolar',
+      'fichas de buscar y contar objetos imprimibles',
+      'juegos de observacion y conteo para ninos',
     ],
-    titleTag: 'Generador Fichas Yo Espío — Busca y Cuenta para Vendedores',
-    metaDescription: 'Crea fichas yo espío con modos Objeto Oculto e Identificación de Letras, cuatro tipos de tarea, alfabetos con letras acentuadas, 104 temas. Prueba gratuita.',
+    titleTag: 'Busca y cuenta gratis en linea | LCS',
+    metaDescription: 'Cree fichas de busca y cuenta gratis con imágenes temáticas. Sin registro, sin tarjeta. Descarga con marca de agua. Licencia comercial.',
   },
 
   hero: {
-    title: 'Generador de Fichas Busca y Cuenta',
-    tagline: 'Generador yo espío de doble modo con modo Objeto Oculto (cuadrícula de imágenes dispersas con hasta 4 objetos objetivo) y modo Identificación de Letras (cuadrícula de alfabeto específica por idioma con letras acentuadas), cuatro tipos de tarea combinables (rodear, cuadrado, tachar, contar) asignables por objeto objetivo, etiquetas de nombres de imágenes localizadas en 11 idiomas vía el sistema de Vocabulario de Imágenes, densidad de cuadrícula configurable de 5×5 a 10×10, claves de respuesta autogeneradas con anotaciones rojas de círculo/cuadrado/cruz y conteos de cantidad, y fichas sensibles al idioma donde las etiquetas de imágenes cambian según el idioma seleccionado',
-    description: 'Crea fichas profesionales de yo espío y busca y cuenta donde los usuarios buscan en una escena de imágenes dispersas para encontrar, rodear, tachar o contar objetos específicos. El generador ofrece dos modos de actividad distintos en una sola herramienta. El modo Objeto Oculto dispersa imágenes en una cuadrícula configurable (5–10 filas × 5–10 columnas, predeterminado 6×6) y te permite asignar hasta 4 objetos objetivo con tipos de tarea individuales — rodear con un círculo, poner un cuadrado alrededor, tachar o contar cuántos aparecen. Cada celda muestra una imagen con un tamaño máximo de 80px. Los objetos objetivo se distribuyen aleatoriamente con 1–5 instancias cada uno, y las celdas restantes se rellenan con imágenes distractoras del tema. El modo Identificación de Letras muestra una cuadrícula de alfabeto específica por idioma con letras acentuadas — inglés A–Z (26 letras), alemán A–Z + ÄÖÜ (29 letras), español A–Z + Ñ (27 letras), sueco/finlandés A–Z + ÅÄÖ (29 letras), danés/noruego A–Z + ÆØÅ (29 letras) — renderizada en 7 columnas con ajuste automático de filas. Los usuarios seleccionan una letra y el generador crea una escena yo espío usando imágenes que empiezan con esa letra en el idioma seleccionado. El Generador de Busca y Cuenta es sensible al idioma: las etiquetas de nombres de imágenes en la ficha se muestran en el idioma seleccionado a través del sistema de Vocabulario de Imágenes. \"Cat\" se muestra como \"Katze\" en alemán, \"Chat\" en francés, \"Gato\" en español — y las primeras letras en Identificación de Letras se actualizan en consecuencia. El nivel Comercial incluye solo inglés; el Acceso Completo desbloquea los 11 idiomas para etiquetas localizadas. El sistema de doble lienzo genera tanto una pestaña de ficha como una pestaña de clave de respuesta simultáneamente. La clave de respuesta reproduce el diseño exacto de la ficha y superpone anotaciones visuales rojas: círculos alrededor de objetos con tarea de rodear, cuadrados alrededor de objetos con tarea de cuadrado, cruces sobre objetos con tarea de tachar y conteos de cantidad para objetos con tarea de contar. Un encabezado autogenerado muestra \"Yo Espío\" o \"Identificación de Letras\" (dependiendo del modo) con un borde azul (#2196F3), acento interior amarillo y título e instrucciones localizados en las fuentes Fredoka y Quicksand en los 11 idiomas compatibles. La aplicación autogenera al cargar la página con el tema de animales, 4 imágenes aleatorias, tipos de tarea aleatorios y una cuadrícula de 6×6 para una vista previa instantánea. Explora 104 colecciones temáticas con más de 3100 ilustraciones o sube imágenes personalizadas. Aplica temas de fondo y borde con controles de opacidad independientes. Añade texto personalizado con 7 opciones de fuente y contorno de texto de 0 a 10. Activa campos de nombre y fecha para identificación del usuario. Exporta PDF y JPEG listos para imprimir a 300 DPI (multiplicador 6×) en Predeterminado (800×1000), Carta, A4, Cuadrado (1200×1200) o dimensiones personalizadas. Activa escala de grises para impresión que ahorra tinta. La prueba gratuita incluye todas las funciones con una marca de agua en las descargas. Compra una licencia para eliminar la marca de agua y vender comercialmente.',
+    title: 'Cree fichas de busca y cuenta gratis en linea',
+    tagline: 'Fichas de buscar y contar listas en segundos — gratis y sin registro.',
+    description: 'Cree fichas de busca y cuenta gratis donde los ninos buscan objetos entre imagenes tematicas y cuentan cuantos hay de cada tipo. Este generador combina atencion visual con habilidades de conteo usando ilustraciones de mas de 100 categorias. Seleccione el nivel de dificultad, la cantidad de objetos y el tema visual. Cada ficha incluye solucionario automatico y se exporta en PDF listo para imprimir. No necesita registro ni tarjeta de credito — todas las funciones disponibles al instante. Las descargas incluyen marca de agua. Ideal para padres y educadores de preescolar y primaria. ¿Quiere vender fichas de busca y cuenta? Pase a la licencia comercial para archivos sin marca de agua a 300 DPI.',
   },
 
   tutorial: {
-    title: 'Cómo Crear Fichas Yo Espío en 8 Pasos',
+    title: 'Como crear fichas de busca y cuenta gratis',
     steps: [
       {
         title: 'Abre el Generador de Fichas Busca y Cuenta',
@@ -57,7 +57,7 @@ const content: ToolContent = {
       },
       {
         title: 'Descarga los Cuatro Archivos',
-        description: 'Activa escala de grises para versiones que ahorran tinta, ideales para impresión en volumen e interiores KDP. Descarga los cuatro archivos en una sola sesión: ficha JPEG, ficha PDF, clave de respuesta JPEG y clave de respuesta PDF — todos renderizados a 300 DPI (multiplicador 6×). Cada pestaña tiene su propio par de botones de descarga. Todas las exportaciones están listas para producción en listados de Etsy, interiores de Amazon KDP y archivos de recursos Gumroad sin necesidad de posprocesamiento. Cambia de tema, ajusta la densidad de cuadrícula, cambia los tipos de tarea y genera de nuevo para crear variedad rápida en las 104 colecciones temáticas.',
+        description: 'Activa escala de grises para versiones que ahorran tinta, ideales para impresión en volumen e interiores KDP. Descarga los cuatro archivos en una sola sesión: ficha JPEG, ficha PDF, clave de respuesta JPEG y clave de respuesta PDF — todos renderizados a 300 DPI (multiplicador 6×). Cada pestaña tiene su propio par de botones de descarga. Todas las exportaciones están listas para producción en listados de Etsy, interiores de Amazon KDP y archivos de recursos Hotmart sin necesidad de posprocesamiento. Cambia de tema, ajusta la densidad de cuadrícula, cambia los tipos de tarea y genera de nuevo para crear variedad rápida en las 104 colecciones temáticas.',
       },
     ],
   },
@@ -101,19 +101,19 @@ const content: ToolContent = {
       platform: 'Amazon KDP',
     },
     {
-      title: 'Packs de Actividades Yo Espío para venta en línea en Gumroad',
-      description: 'Sube packs de actividades yo espío a Gumroad con campos de nombre/fecha y claves de respuesta autogeneradas como puntos de venta clave. Los vendedores que buscan actividades de conteo y observación valoran fichas que llegan listas para venta en línea con soluciones incluidas. Crea conjuntos alineados con el catálogo de productos: yo espío de animales de granja para ciencias, yo espío de ayudantes comunitarios para estudios sociales, yo espío de grupos de alimentos para nutrición e yo espío estacional para unidades de festividades. Los cuatro tipos de tarea te permiten crear versiones diferenciadas — fichas solo con rodear para usuarios más pequeños y fichas con tareas combinadas y conteo para usuarios avanzados. Los packs de Identificación de Letras sirven al mercado de fonética y conciencia alfabética.',
-      platform: 'Gumroad',
+      title: 'Packs de Actividades Yo Espío para venta en línea en Hotmart',
+      description: 'Sube packs de actividades yo espío a Hotmart con campos de nombre/fecha y claves de respuesta autogeneradas como puntos de venta clave. Los vendedores que buscan actividades de conteo y observación valoran fichas que llegan listas para venta en línea con soluciones incluidas. Crea conjuntos alineados con el catálogo de productos: yo espío de animales de granja para ciencias, yo espío de ayudantes comunitarios para estudios sociales, yo espío de grupos de alimentos para nutrición e yo espío estacional para unidades de festividades. Los cuatro tipos de tarea te permiten crear versiones diferenciadas — fichas solo con rodear para usuarios más pequeños y fichas con tareas combinadas y conteo para usuarios avanzados. Los packs de Identificación de Letras sirven al mercado de fonética y conciencia alfabética.',
+      platform: 'Hotmart',
     },
     {
       title: 'Embudo de Tráfico de Fichas Yo Espío en Pinterest',
-      description: 'Las fichas yo espío crean pines de Pinterest visualmente impactantes — cuadrículas de imágenes dispersas coloridas con el encabezado con borde azul \"Yo Espío\" crean contenido imprimible inmediatamente reconocible que padres y vendedores hacen clic. Publica fichas de muestra mostrando ambos modos: Objeto Oculto con tipos de tarea combinados e Identificación de Letras con cuadrículas de alfabeto. Crea series de pines separadas para \"fichas yo espío para niños\", \"actividades imprimibles de busca y cuenta\" y \"fichas de identificación de letras del alfabeto\". Las imágenes de vista previa de la clave de respuesta con anotaciones rojas demuestran calidad profesional. Enlaza cada pin a tus listados de Etsy o Gumroad para conversión directa.',
+      description: 'Las fichas yo espío crean pines de Pinterest visualmente impactantes — cuadrículas de imágenes dispersas coloridas con el encabezado con borde azul \"Yo Espío\" crean contenido imprimible inmediatamente reconocible que padres y vendedores hacen clic. Publica fichas de muestra mostrando ambos modos: Objeto Oculto con tipos de tarea combinados e Identificación de Letras con cuadrículas de alfabeto. Crea series de pines separadas para \"fichas yo espío para niños\", \"actividades imprimibles de busca y cuenta\" y \"fichas de identificación de letras del alfabeto\". Las imágenes de vista previa de la clave de respuesta con anotaciones rojas demuestran calidad profesional. Enlaza cada pin a tus listados de Etsy o Hotmart para conversión directa.',
       platform: 'Pinterest',
     },
     {
-      title: 'Kit Completo de Actividades Yo Espío en Gumroad',
-      description: 'Reúne fichas yo espío de los 104 temas, ambos modos de actividad y los cuatro tipos de tarea en un kit completo en Gumroad. Incluye más de 300 fichas que abarcan el modo Objeto Oculto con cada combinación de tipo de tarea y el modo Identificación de Letras con cobertura completa A–Z en múltiples idiomas. Cada ficha incluye su clave de respuesta autogenerada con anotaciones rojas, duplicando el conteo de archivos a más de 600 archivos totales. Las etiquetas sensibles al idioma, los alfabetos específicos por idioma y los modos de actividad dual producen más variedad que cualquier competidor que ofrezca un solo formato de yo espío. El formato de kit justifica precios premium.',
-      platform: 'Gumroad',
+      title: 'Kit Completo de Actividades Yo Espío en Hotmart',
+      description: 'Reúne fichas yo espío de los 104 temas, ambos modos de actividad y los cuatro tipos de tarea en un kit completo en Hotmart. Incluye más de 300 fichas que abarcan el modo Objeto Oculto con cada combinación de tipo de tarea y el modo Identificación de Letras con cobertura completa A–Z en múltiples idiomas. Cada ficha incluye su clave de respuesta autogenerada con anotaciones rojas, duplicando el conteo de archivos a más de 600 archivos totales. Las etiquetas sensibles al idioma, los alfabetos específicos por idioma y los modos de actividad dual producen más variedad que cualquier competidor que ofrezca un solo formato de yo espío. El formato de kit justifica precios premium.',
+      platform: 'Hotmart',
     },
     {
       title: 'Línea de Productos Yo Espío Multilingües para Mercados Internacionales',
@@ -137,7 +137,7 @@ const content: ToolContent = {
     },
     {
       title: 'Explota las Etiquetas Sensibles al Idioma para Líneas de Productos Localizados',
-      description: 'A diferencia de generadores solo visuales, Busca y Cuenta produce fichas específicas por idioma donde las etiquetas de imágenes cambian según el idioma seleccionado. \"Cat\" se convierte en \"Katze\" (alemán), \"Chat\" (francés), \"Gato\" (español). Esto significa que temas idénticos producen productos genuinamente diferentes en cada idioma — no solo instrucciones traducidas sino contenido localizado. Crea listados separados para cada idioma para capturar tráfico de búsqueda específico por país en Etsy y Gumroad. Vende un pack yo espío alemán a vendedores alemanes, un pack yo espío francés a vendedores franceses — cada versión es única y auténtica.',
+      description: 'A diferencia de generadores solo visuales, Busca y Cuenta produce fichas específicas por idioma donde las etiquetas de imágenes cambian según el idioma seleccionado. \"Cat\" se convierte en \"Katze\" (alemán), \"Chat\" (francés), \"Gato\" (español). Esto significa que temas idénticos producen productos genuinamente diferentes en cada idioma — no solo instrucciones traducidas sino contenido localizado. Crea listados separados para cada idioma para capturar tráfico de búsqueda específico por país en Etsy y Hotmart. Vende un pack yo espío alemán a vendedores alemanes, un pack yo espío francés a vendedores franceses — cada versión es única y auténtica.',
     },
     {
       title: 'Incluye Claves de Respuesta en la Vista Previa de Cada Listado para Superar a la Competencia',
@@ -196,7 +196,7 @@ const content: ToolContent = {
     },
     {
       question: '¿Puedo vender fichas yo espío creadas con esta herramienta comercialmente?',
-      answer: 'Sí. Con una licencia comercial, tienes todos los derechos para vender fichas yo espío como descargas digitales en Etsy, cuadernos yo espío impresos en Amazon KDP, recursos para venta en línea en Gumroad o a través de cualquier otro canal de venta. Los dos modos de actividad, cuatro tipos de tarea, Identificación de Letras con alfabetos específicos por idioma, etiquetas de imágenes localizadas en 11 idiomas, densidad de cuadrícula configurable, claves de respuesta autogeneradas con anotaciones rojas, carga de imágenes personalizadas y 104 colecciones de imágenes temáticas te dan todo lo necesario para crear productos yo espío profesionales que compitan en categorías de busca y cuenta en todos los principales marketplaces.',
+      answer: 'Sí. Con una licencia comercial, tienes todos los derechos para vender fichas yo espío como descargas digitales en Etsy, cuadernos yo espío impresos en Amazon KDP, recursos para venta en línea en Hotmart o a través de cualquier otro canal de venta. Los dos modos de actividad, cuatro tipos de tarea, Identificación de Letras con alfabetos específicos por idioma, etiquetas de imágenes localizadas en 11 idiomas, densidad de cuadrícula configurable, claves de respuesta autogeneradas con anotaciones rojas, carga de imágenes personalizadas y 104 colecciones de imágenes temáticas te dan todo lo necesario para crear productos yo espío profesionales que compitan en categorías de busca y cuenta en todos los principales marketplaces.',
     },
     {
       question: '¿Cuál es la política de reembolso?',

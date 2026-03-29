@@ -2,29 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'vender productos imprimibles en etsy',
+    primaryKeyword: 'vender fichas educativas en Etsy principiante',
     secondaryKeywords: [
-      'cómo vender imprimibles educativos en Etsy',
-      'estrategia de tienda Etsy de imprimibles educativos',
-      'vender fichas y actividades imprimibles en Etsy multicategoría',
-      'negocio de fichas educativas imprimibles en Etsy',
+      'cómo empezar a vender fichas educativas en Etsy',
+      'guía principiante venta imprimibles educativos Etsy',
+      'fichas educativas más vendidas en Etsy categorías',
+      'estrategia lanzamiento vendedor educativo en Etsy',
     ],
     lsiKeywords: [
-      'optimización de anuncios Etsy para actividades educativas digitales',
-      'estrategia de precios tienda imprimibles multicategoría Etsy',
-      'etiquetas SEO Etsy para fichas educativas y puzles imprimibles',
-      'vender imprimibles matemáticas alfabetización puzles Etsy diversificado',
-      'agrupación imprimibles educativos multicategoría estrategia Etsy',
-      'fotos de anuncios y mockups para productos educativos imprimibles Etsy',
+      'descargas digitales educativas fichas actividades imprimibles Etsy',
+      'categorías populares matemáticas lectoescritura ciencias infantil primaria',
+      'reseñas clientes atención comprador tienda educativa Etsy',
     ],
-    titleTag: 'Vender productos imprimibles en Etsy — Guía',
-    metaDescription: 'Vende imprimibles educativos en Etsy con 33 generadores en 6 categorías. Estrategia de tienda, SEO Etsy, agrupación multicategoría y precios para vendedores.',
+    titleTag: 'Vender fichas educativas en Etsy | LCS',
+    metaDescription: 'Guía para principiantes sobre cómo vender fichas educativas en Etsy. Categorías populares, optimización de anuncios y estrategia de crecimiento.',
   },
 
   hero: {
-    title: 'Cómo vender productos imprimibles imprimible en Etsy',
+    title: 'Cómo vender fichas educativas en Etsy: guía para principiantes',
     tagline: 'Una guía completa para construir una tienda Etsy diversificada vendiendo imprimibles educativos creados con 33 generadores especializados en 6 categorías — incluyendo estrategia de tienda multicategoría, optimización SEO específica por categoría con las 13 etiquetas, agrupación y precios multicategoría, fotografía de anuncios para diferentes tipos de productos, rotación estacional de productos en fichas de matemáticas, actividades de alfabetización, páginas de aprendizaje visual, ejercicios de emparejamiento, puzles y juegos de buscar y encontrar, y cómo escalar desde una sola categoría hasta una tienda completa de imprimibles educativos',
-    description: 'Los imprimibles educativos son una de las categorías de productos digitales más buscadas en Etsy. Padres, vendedores, emprendedores y centros de tutoría buscan fichas de matemáticas, sopas de letras, páginas para colorear, actividades de emparejamiento, libros de sudoku y docenas de otros formatos educativos todos los días. Esta guía te muestra cómo construir una tienda Etsy diversificada que abarque las 6 categorías de imprimibles educativos usando 33 generadores especializados — creando una ventaja competitiva que las tiendas de una sola categoría no pueden igualar. Ya sea que estés lanzando tu primer imprimible educativo o expandiendo una tienda existente hacia nuevas categorías, tendrás una estrategia multicategoría completa al final de esta guía.',
+    description: 'Los imprimibles educativos son una de las categorías de descargas digitales con mayor crecimiento en Etsy. Fichas de matemáticas, actividades de lectoescritura, puzles y páginas para colorear generan ventas consistentes durante todo el año. Esta guía está diseñada para principiantes que quieren lanzar su primera tienda de fichas educativas en Etsy. Aprenda a identificar las categorías más rentables, crear anuncios optimizados con las 13 etiquetas de Etsy, construir un catálogo inicial de 15-20 productos y establecer una estrategia de crecimiento sostenible. Descubra cómo utilizar los generadores de LessonCraftStudio para crear fichas profesionales en múltiples formatos y acelerar su lanzamiento.',
   },
 
   introduction: 'El mercado de imprimibles educativos en Etsy es enorme, pero la mayoría de los vendedores compiten en una sola categoría estrecha. Una tienda que solo vende fichas de sumas compite con todos los demás vendedores de fichas de sumas. Una tienda que solo vende sopas de letras compite con todos los demás vendedores de sopas de letras. Los vendedores que construyen negocios sostenibles son los que se diversifican en múltiples categorías de imprimibles educativos — captando diferentes segmentos de compradores, diferentes picos estacionales y diferentes términos de búsqueda que una tienda de una sola categoría nunca podría alcanzar.\n\nAquí es donde un enfoque multicategoría se convierte en una ventaja competitiva genuina. Con 33 generadores organizados en 6 categorías educativas — Dominio de las matemáticas, Alfabetización y lenguaje, Aprendizaje visual, Emparejamiento y clasificación, Puzles y lógica, y Buscar y encontrar — puedes construir una tienda con cientos de productos únicos que cubren cada grupo de edad desde preescolar hasta primaria y cada área temática que buscan padres y vendedores.\n\nLas seis categorías atienden necesidades fundamentalmente diferentes de los compradores. Las fichas de matemáticas se enfocan en la práctica aritmética. Los productos de alfabetización se enfocan en la lectura y el vocabulario. Las páginas de aprendizaje visual se enfocan en el desarrollo creativo. Las actividades de emparejamiento se enfocan en las habilidades cognitivas de la primera infancia. Los puzles se enfocan en el pensamiento crítico. Las actividades de buscar y encontrar se enfocan en la atención y la observación. Un solo comprador — un padre, un vendedor, una familia que trabaja desde casa — a menudo necesita productos de múltiples categorías, y una tienda que los tiene todos capta esa compra completa en lugar de perder al comprador ante un competidor para su segundo producto.\n\nTodas las funciones mencionadas en esta guía están disponibles en la prueba gratis con marca de agua. Puedes crear productos de ejemplo de los 33 generadores, probar cada configuración y evaluar la calidad del resultado antes de comprar una licencia comercial para las categorías que quieras vender.',

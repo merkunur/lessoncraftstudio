@@ -2,32 +2,32 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'generador tarjetas bingo con imágenes',
+    primaryKeyword: 'creador de cartones de bingo para vender en Etsy',
     secondaryKeywords: [
-      'generador de tarjetas de bingo imprimibles para vendedores Etsy',
-      'creador de tarjetas de bingo con imágenes para editores Amazon KDP',
-      'generador de tarjetas de bingo con licencia comercial',
-      'vender tarjetas de bingo imprimibles en Gumroad',
+      'generador de cartones de bingo con imágenes para Etsy',
+      'bingo imprimible para fiestas para Amazon KDP',
+      'cartones de bingo temáticos licencia comercial',
+      'crear juegos de bingo para vender online',
     ],
     lsiKeywords: [
-      'productos digitales de tarjetas de bingo para emprendedores',
-      'generador de tarjetas de bingo a uso comercial',
-      'actividades de bingo imprimibles para negocio en línea',
+      'bingo temático vendedores Etsy fiestas educación',
+      'cartones bingo imprimibles KDP Hotmart',
+      'negocio juegos imprimibles mercado hispano',
     ],
-    titleTag: 'Generador Tarjetas Bingo con Imágenes | Crear',
+    titleTag: 'Cartones de bingo para vender en Etsy y KDP | LCS',
     metaDescription:
-      'Crea tarjetas de bingo con imágenes para Etsy, KDP y Gumroad. Lotes de tarjetas únicas, export ZIP, hojas de cantado, 104 temas. Prueba gratis con marca de agua.',
+      'Cree cartones de bingo con imágenes para vender en Etsy y KDP. 104 temas, múltiples cartones únicos. Licencia comercial. Pruebe gratis.',
   },
 
   hero: {
-    title: 'Generador de Tarjetas de Bingo con Imágenes para Actividades de Bingo Imprimibles',
-    tagline: 'Genera de 1 a 10 tarjetas de bingo únicas por lote con cuadrículas configurables de 3×3 a 5×5 — relleno de imagen o de palabras para las celdas y las fichas circulares, una hoja de cantado dedicada para el cantador, exportación ZIP por lotes de todas las tarjetas, y 104 colecciones de imágenes temáticas.',
+    title: 'Genere cartones de bingo para vender en Etsy, KDP y Hotmart',
+    tagline: 'Cree sets de bingo temático con imágenes — perfecto para fiestas y educación.',
     description:
-      'Diseña tarjetas de bingo profesionales donde los jugadores marcan las imágenes o palabras correspondientes en sus cuadrículas únicas. Configura las filas de 3 a 5 y las columnas de 3 a 5 de forma independiente, creando cuadrículas de 3×3 (9 celdas) hasta 5×5 (25 celdas) con un valor predeterminado de 4×4 (16 celdas). Elige el relleno de imagen o de palabras de forma independiente para las celdas de la tarjeta y las fichas circulares — las fichas presentan bordes discontinuos y un ordenamiento Fisher-Yates para un juego de bingo auténtico. Genera de 1 a 10 tarjetas de bingo únicas por lote, cada una con una selección aleatoria diferente del banco de imágenes. Una hoja de cantado dedicada en una pestaña separada muestra una cuadrícula dinámica de palabras para el cantador, con columnas calculadas según la longitud de la palabra más larga y un tamaño de fuente uniforme. Selecciona manualmente imágenes específicas para la selección personalizada de cantado o deja que la aplicación elija de tu tema. El Generador de Tarjetas de Bingo con Imágenes es sensible al idioma: el relleno de palabras utiliza los nombres localizados de las imágenes de la Biblioteca de Imágenes, por lo que cambiar el idioma modifica las palabras en las tarjetas, las fichas y la hoja de cantado. El Acceso Completo desbloquea los 104 temas con más de 3100 ilustraciones y los 11 idiomas de interfaz para contenido textual localizado. Añade temas de fondo y de borde con controles de opacidad independientes, incluye texto personalizado con siete opciones de fuente, y exporta PDF y JPEG listos para imprimir a 300 DPI en formato Carta, A4, Cuadrado (1200×1200) o dimensiones personalizadas. Exporta por lotes todas las tarjetas generadas como archivos JPEG individuales en un solo archivo ZIP. Ya sea que vendas packs de tarjetas de bingo en Etsy, compiles cuadernos de actividades de bingo para Amazon KDP o crees sets de bingo para venta en línea en Gumroad, este generador produce tarjetas de bingo listas para la producción en minutos — prueba gratis con todas las funciones, sin registro, sin tarjeta de crédito. Las descargas incluyen una marca de agua; compra una licencia para eliminarla.',
+      'Genere cartones de bingo con imágenes para vender en Etsy, Amazon KDP o Hotmart. El bingo es un juego universal que se vende para fiestas infantiles, actividades escolares, eventos comunitarios y entretenimiento familiar. Este generador crea múltiples cartones únicos con imágenes temáticas de más de 104 categorías — cada cartón es diferente, como debe ser. Los sets de bingo temáticos son un producto estrella en Etsy para fiestas de cumpleaños y eventos estacionales. Exporte PDFs a 300 DPI y véndalos con la licencia comercial incluida. El formato visual funciona en cualquier idioma. El mercado hispano de juegos imprimibles para fiestas tiene competencia mínima. Pruebe gratis con marca de agua — sin registro.',
   },
 
   howItWorks: {
-    title: 'Cómo Crear Tarjetas de Bingo con Imágenes en 5 Pasos',
+    title: 'Cómo crear cartones de bingo paso a paso',
     steps: [
       {
         title: 'Configurar el diseño de página',
@@ -52,13 +52,13 @@ const content: AppContent = {
       {
         title: 'Descargar tarjetas y hoja de cantado',
         description:
-          'Alterna entre la pestaña Tarjetas + Fichas y la pestaña Cantado para previsualizar ambas salidas. La hoja de cantado muestra una cuadrícula dinámica de palabras con un tamaño de fuente uniforme y columnas calculadas según la longitud de la palabra más larga. Descarga tarjetas individuales en JPEG o PDF con los botones dedicados, o exporta por lotes todas las tarjetas generadas como archivos JPEG individuales en un solo archivo bingo_cards.zip. Activa el modo escala de grises para versiones que ahorran tinta. Cada exportación se renderiza a 300 DPI y está lista para la producción: listados de Etsy, interiores de Amazon KDP y archivos de productos Gumroad.',
+          'Alterna entre la pestaña Tarjetas + Fichas y la pestaña Cantado para previsualizar ambas salidas. La hoja de cantado muestra una cuadrícula dinámica de palabras con un tamaño de fuente uniforme y columnas calculadas según la longitud de la palabra más larga. Descarga tarjetas individuales en JPEG o PDF con los botones dedicados, o exporta por lotes todas las tarjetas generadas como archivos JPEG individuales en un solo archivo bingo_cards.zip. Activa el modo escala de grises para versiones que ahorran tinta. Cada exportación se renderiza a 300 DPI y está lista para la producción: listados de Etsy, interiores de Amazon KDP y archivos de productos Hotmart.',
       },
     ],
   },
 
   keyFeatures: {
-    title: 'Funcionalidades Clave del Generador de Tarjetas de Bingo con Imágenes',
+    title: 'Por qué el bingo es un producto estrella en Etsy',
     features: [
       {
         title: 'Cuadrícula de bingo configurable de 3×3 a 5×5 con controles independientes de filas y columnas',
@@ -88,7 +88,7 @@ const content: AppContent = {
       {
         title: 'Biblioteca de imágenes con 104 colecciones temáticas y más de 3100 ilustraciones',
         description:
-          'Explora 104 colecciones de imágenes temáticas que cubren animales, comida, vehículos, naturaleza, profesiones, festividades, deportes, estaciones y decenas más. Cada tema proporciona un conjunto coordinado de ilustraciones coloridas que funcionan juntas en actividades de bingo — las tarjetas de bingo temáticas están entre los productos imprimibles más populares en Etsy y Gumroad. Filtra por tema con el menú desplegable o busca imágenes específicas por palabra clave. La Licencia Comercial incluye 10 temas en color para empezar; el Acceso Completo desbloquea los 104 temas para la máxima variedad creativa en todos los tamaños de cuadrícula y modos de relleno.',
+          'Explora 104 colecciones de imágenes temáticas que cubren animales, comida, vehículos, naturaleza, profesiones, festividades, deportes, estaciones y decenas más. Cada tema proporciona un conjunto coordinado de ilustraciones coloridas que funcionan juntas en actividades de bingo — las tarjetas de bingo temáticas están entre los productos imprimibles más populares en Etsy y Hotmart. Filtra por tema con el menú desplegable o busca imágenes específicas por palabra clave. La Licencia Comercial incluye 10 temas en color para empezar; el Acceso Completo desbloquea los 104 temas para la máxima variedad creativa en todos los tamaños de cuadrícula y modos de relleno.',
       },
       {
         title: 'Exportación PDF y JPEG lista para imprimir a 300 DPI con modo escala de grises',
@@ -104,7 +104,7 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Cómo Vender Tarjetas de Bingo con Imágenes en Línea',
+    title: 'Vender bingo temático en Etsy, KDP y Hotmart',
     cases: [
       {
         title: 'Packs temáticos de tarjetas de bingo en Etsy',
@@ -119,16 +119,16 @@ const content: AppContent = {
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Actividades de bingo para venta en línea en Gumroad',
+        title: 'Actividades de bingo para venta en línea en Hotmart',
         description:
-          'Construye sets de bingo listos para jugar con tarjetas únicas para cada jugador y hojas de cantado para el vendedor. Los vendedores que buscan actividades de bingo en Gumroad valoran los productos listos para usar — imprime las tarjetas, repártelas y empieza a jugar inmediatamente. Crea sets alineados con el catálogo de productos: bingo de vocabulario con el modo relleno de palabras, bingo de reconocimiento de imágenes con el modo relleno de imagen, y bingo en modo mixto para paquetes escalonados por nivel. Incluye 10 tarjetas únicas por set (suficiente para un grupo pequeño) con una hoja de cantado. El modo relleno de palabras con los nombres localizados de las imágenes convierte el bingo en una actividad de repaso de vocabulario.',
-        platform: 'Gumroad (teacherspayteachers.com)',
+          'Construye sets de bingo listos para jugar con tarjetas únicas para cada jugador y hojas de cantado para el vendedor. Los vendedores que buscan actividades de bingo en Hotmart valoran los productos listos para usar — imprime las tarjetas, repártelas y empieza a jugar inmediatamente. Crea sets alineados con el catálogo de productos: bingo de vocabulario con el modo relleno de palabras, bingo de reconocimiento de imágenes con el modo relleno de imagen, y bingo en modo mixto para paquetes escalonados por nivel. Incluye 10 tarjetas únicas por set (suficiente para un grupo pequeño) con una hoja de cantado. El modo relleno de palabras con los nombres localizados de las imágenes convierte el bingo en una actividad de repaso de vocabulario.',
+        platform: 'Hotmart (hotmart.com)',
       },
       {
         title: 'Colecciones de bingo estacionales y de festividades',
         description:
           'Las 104 colecciones de imágenes temáticas cubren cada ocasión estacional y festiva — Navidad, Halloween, Pascua, San Valentín, vuelta al colegio, vacaciones de verano y más. El bingo es un juego naturalmente social que tiene picos durante las festividades cuando las familias y las tiendas buscan actividades grupales. Publica los sets de bingo de Halloween en septiembre, las colecciones de Navidad en octubre y los packs de San Valentín en enero. Cada set estacional incluye múltiples tamaños de cuadrícula, variantes de relleno de imagen y de palabras, y hojas de cantado. Los productos de bingo estacionales obtienen precios premium durante sus ventanas de mayor demanda.',
-        platform: 'Etsy / Amazon KDP / Gumroad (estacional)',
+        platform: 'Etsy / Amazon KDP / Hotmart (estacional)',
       },
       {
         title: 'Tarjetas de bingo para eventos, fiestas y ocasiones especiales',
@@ -193,7 +193,7 @@ const content: AppContent = {
     {
       question: '¿Puedo vender tarjetas de bingo creadas con esta herramienta en Etsy y Amazon KDP?',
       answer:
-        'Sí. Con una licencia comercial, tienes todos los derechos para vender tus tarjetas de bingo como descargas digitales en Etsy, como cuadernos de actividades impresos en Amazon KDP, como recursos educativos en Gumroad o a través de cualquier otro canal de venta. Los tamaños de cuadrícula configurables, la generación por lotes, la exportación ZIP, los dobles modos de relleno, las hojas de cantado y las 104 colecciones de imágenes temáticas te dan las herramientas creativas para producir productos de bingo originales y vendibles a gran escala.',
+        'Sí. Con una licencia comercial, tienes todos los derechos para vender tus tarjetas de bingo como descargas digitales en Etsy, como cuadernos de actividades impresos en Amazon KDP, como recursos educativos en Hotmart o a través de cualquier otro canal de venta. Los tamaños de cuadrícula configurables, la generación por lotes, la exportación ZIP, los dobles modos de relleno, las hojas de cantado y las 104 colecciones de imágenes temáticas te dan las herramientas creativas para producir productos de bingo originales y vendibles a gran escala.',
     },
     {
       question: '¿Cuál es la política de reembolso?',

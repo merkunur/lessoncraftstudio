@@ -2,30 +2,30 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'generador discriminación visual',
+    primaryKeyword: 'generador de fichas de sombras gratis',
     secondaryKeywords: [
-      'creador de fichas de asociación de sombras para vendedores',
-      'crear fichas de siluetas para vender uso comercial',
-      'generador de fichas de sombras imprimibles para KDP y Etsy',
-      'herramienta de asociación de sombras con clave de respuestas automática',
+      'fichas de sombras gratis sin registro',
+      'generador de discriminación visual de sombras en línea',
+      'crear fichas de emparejar sombras gratis para imprimir',
+      'fichas de sombras gratis con respuestas PDF',
     ],
     lsiKeywords: [
-      'generador de fichas de siluetas y división de imagen doble modo',
-      'creador de siluetas a nivel de píxel con algoritmo de derangement',
-      'clave de respuestas automática generador de fichas de sombras',
+      'actividad de siluetas y contornos ficha imprimible',
+      'discriminación visual emparejar sombras preescolar',
+      'fichas de reconocimiento de formas sombras PDF gratis',
     ],
-    titleTag: 'Generador Discriminación Visual | para Vender',
-    metaDescription: 'Crea fichas de asociación de sombras con siluetas a nivel de píxel y modo Completa la Imagen, claves de respuestas automáticas y 104 temas. Prueba con marca.',
+    titleTag: 'Fichas de sombras gratis en línea | LCS',
+    metaDescription: 'Cree fichas de emparejar sombras gratis sin registro. Siluetas automáticas, 104 temas, clave de respuestas incluida. Pase a licencia comercial para vender.',
   },
 
   hero: {
-    title: 'Generador de Discriminación Visual',
+    title: 'Cree fichas de emparejar sombras gratis en línea',
     tagline: 'Generador de fichas de asociación de sombras con doble modo: creación de siluetas a nivel de píxel y Completa la Imagen con división horizontal y vertical, algoritmo de derangement Fisher-Yates que garantiza cero coincidencias triviales, claves de respuestas autogeneradas con etiquetas letra-número, identificadores A/B/C/D y 1/2/3/4 activables/desactivables y 104 colecciones temáticas de imágenes para fichas de discriminación visual que se venden en todo el mundo',
     description: 'Crea fichas profesionales de asociación de sombras con dos modos de ejercicio distintos en un solo generador. El modo Asociación de Sombras coloca 4 imágenes a color etiquetadas A, B, C, D en la fila superior y 4 siluetas negras autogeneradas etiquetadas 1, 2, 3, 4 en la fila inferior — las siluetas se crean mediante procesamiento de imagen a nivel de píxel que convierte cada píxel con alfa > 10 a negro puro (R=0, G=0, B=0, A=255), produciendo contornos precisos que preservan el perfil de transparencia exacto de cada imagen. Esto es procesamiento real de píxeles, no filtros CSS ni recursos de sombra prefabricados. El modo Completa la Imagen divide 4 imágenes en mitades — elige la dirección de corte horizontal (mitades superior/inferior) o la dirección de corte vertical (mitades izquierda/derecha) — etiqueta las primeras mitades A–D y las segundas mitades 1–4, y los usuarios reconectan las piezas para completar cada imagen. Ambos modos usan un algoritmo de derangement Fisher-Yates que garantiza que ningún elemento aparezca en su posición original, eliminando coincidencias triviales y asegurando que cada ficha presente un desafío genuino de asociación. El derangement se recalcula en cada generación, produciendo disposiciones diferentes del mismo conjunto de imágenes. Activa o desactiva las etiquetas de los identificadores A/B/C/D y 1/2/3/4 — etiquetas activadas proporcionan andamiaje letra-número para usuarios más pequeños, etiquetas desactivadas crean un desafío de asociación puramente visual ideal para libros de puzzles y actividades avanzadas. Añade campos opcionales de nombre y fecha para responsabilidad en línea. El sistema de lienzo dual genera simultáneamente una pestaña de ficha y una pestaña de clave de respuestas — la clave de respuestas muestra cada emparejamiento correcto letra-número (A → 2, B → 4, etc.) junto a las imágenes originales y sus siluetas o imágenes completas, eliminando la creación manual de claves de respuestas. El diseño se adapta automáticamente: páginas en horizontal disponen los elementos en 2 filas × 4 elementos, páginas en vertical usan 2 columnas × 4 elementos. Un encabezado estilizado aparece con fondo ámbar (#FFC107), contenedor blanco en forma de píldora y borde ámbar de 3px mostrando "Asociación de Sombras" e instrucciones en el idioma seleccionado. La Asociación de Sombras NO es sensible al idioma — la salida del puzzle es puramente visual sin contenido de texto localizado en la ficha, haciendo cada ficha universalmente vendible en todos los mercados sin traducción. Navega 104 colecciones temáticas con más de 3.100 ilustraciones o sube tus propias imágenes PNG, JPG o GIF. Aplica fondos temáticos y bordes temáticos con controles de opacidad independientes (0–1, paso 0,05). Añade texto personalizado con 7 opciones de fuente (Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial, Verdana) y contorno de texto 0–10. Exporta cuatro archivos por sesión: ficha JPEG, ficha PDF, clave de respuestas JPEG y clave de respuestas PDF — todo a 300 DPI (multiplicador 6×, calidad JPEG 1,0). Elige Carta, A4, Cuadrado (1200×1200) o tamaños personalizados con opción de escala de grises para salida con ahorro de tinta. Edita todo en el lienzo de Fabric.js con herramientas de alineación, capas, bloqueo/desbloqueo, zoom 25%–300% y deshacer/rehacer 20 estados. La prueba gratuita incluye todas las funciones con una marca de agua en las descargas. Compra una licencia para eliminar la marca de agua y vender con uso comercial.',
   },
 
   tutorial: {
-    title: 'Cómo Crear Fichas de Asociación de Sombras en 8 Pasos',
+    title: 'Cómo crear fichas de emparejar sombras gratis en 8 pasos',
     steps: [
       {
         title: 'Abre el Generador de Discriminación Visual',
@@ -33,7 +33,7 @@ const content: ToolContent = {
       },
       {
         title: 'Elige Tu Modo de Ejercicio',
-        description: 'Abre el panel de Configuración de Ejercicio y selecciona tu modo. El modo Asociación de Sombras genera siluetas negras a partir de tus imágenes seleccionadas usando procesamiento a nivel de píxel — cada píxel con alfa > 10 se convierte a negro puro, produciendo contornos precisos que preservan detalles finos como orejas de animales, formas de vehículos y contornos de objetos. El modo Completa la Imagen divide imágenes en mitades — elige la dirección de corte horizontal (mitades superior/inferior) o la dirección de corte vertical (mitades izquierda/derecha) usando los botones de radio que aparecen en este modo. Cada modo crea una actividad de asociación fundamentalmente diferente del mismo conjunto de imágenes.',
+        description: 'Cree fichas de discriminación visual de sombras gratis con este generador en línea. El sistema genera siluetas automáticas a partir de más de 3.100 ilustraciones en 104 colecciones temáticas. Configure el número de imágenes y opciones de respuesta, y exporte fichas con clave de respuestas autogenerada. Ideal para actividades de reconocimiento de formas y percepción visual. Exporte en JPEG y PDF a 300 DPI en tamaño Carta, A4 o personalizado. La prueba gratis incluye todas las funciones con marca de agua en las descargas. Sin registro, sin instalación. ¿Quiere vender? Pase a la licencia comercial para eliminar la marca de agua y obtener uso comercial completo.',
       },
       {
         title: 'Configura Etiquetas y Campos de Nombre/Fecha',
@@ -57,7 +57,7 @@ const content: ToolContent = {
       },
       {
         title: 'Descarga los Cuatro Archivos',
-        description: 'Activa la escala de grises para versiones con ahorro de tinta ideales para impresión en volumen e interiores de KDP. Descarga los cuatro archivos desde una sola sesión: ficha JPEG, ficha PDF, clave de respuestas JPEG y clave de respuestas PDF — todo renderizado a 300 DPI (multiplicador 6×, calidad JPEG 1,0). Cada pestaña tiene su propio par de botones de descarga. Los archivos están listos para producción en listados de Etsy, interiores de Amazon KDP y archivos de productos de Gumroad sin necesidad de posprocesamiento. Haz clic en Generar de nuevo con las mismas imágenes para producir una nueva ficha con diferentes disposiciones de derangement, o cambia de imágenes y modos para creación rápida de variedad en 104 colecciones temáticas.',
+        description: 'Activa la escala de grises para versiones con ahorro de tinta ideales para impresión en volumen e interiores de KDP. Descarga los cuatro archivos desde una sola sesión: ficha JPEG, ficha PDF, clave de respuestas JPEG y clave de respuestas PDF — todo renderizado a 300 DPI (multiplicador 6×, calidad JPEG 1,0). Cada pestaña tiene su propio par de botones de descarga. Los archivos están listos para producción en listados de Etsy, interiores de Amazon KDP y archivos de productos de Hotmart sin necesidad de posprocesamiento. Haz clic en Generar de nuevo con las mismas imágenes para producir una nueva ficha con diferentes disposiciones de derangement, o cambia de imágenes y modos para creación rápida de variedad en 104 colecciones temáticas.',
       },
     ],
   },
@@ -101,23 +101,23 @@ const content: ToolContent = {
       platform: 'Amazon KDP',
     },
     {
-      title: 'Paquetes de Actividades de Asociación de Sombras para Gumroad',
-      description: 'Sube paquetes de actividades de asociación de sombras a Gumroad con campos de nombre/fecha, etiquetas activables/desactivables y claves de respuestas autogeneradas como puntos de venta clave. Los vendedores que buscan actividades de discriminación visual valoran fichas que incluyen versiones con andamiaje y de desafío. Crea sets alineados con el catálogo de productos: asociación de sombras de animales para unidades de ciencias, siluetas de ayudantes comunitarios para estudios sociales, puzzles de sombras de alimentos para temas de nutrición. Cada paquete incluye versiones con etiquetas para instrucción guiada y versiones sin etiquetas para trabajo independiente, para que los vendedores asignen por nivel del usuario. La clave de respuestas autogenerada elimina el tiempo de preparación del vendedor.',
-      platform: 'Gumroad',
+      title: 'Paquetes de Actividades de Asociación de Sombras para Hotmart',
+      description: 'Sube paquetes de actividades de asociación de sombras a Hotmart con campos de nombre/fecha, etiquetas activables/desactivables y claves de respuestas autogeneradas como puntos de venta clave. Los vendedores que buscan actividades de discriminación visual valoran fichas que incluyen versiones con andamiaje y de desafío. Crea sets alineados con el catálogo de productos: asociación de sombras de animales para unidades de ciencias, siluetas de ayudantes comunitarios para estudios sociales, puzzles de sombras de alimentos para temas de nutrición. Cada paquete incluye versiones con etiquetas para instrucción guiada y versiones sin etiquetas para trabajo independiente, para que los vendedores asignen por nivel del usuario. La clave de respuestas autogenerada elimina el tiempo de preparación del vendedor.',
+      platform: 'Hotmart',
     },
     {
       title: 'Embudo de Tráfico con Puzzles de Sombras en Pinterest',
-      description: 'Las fichas de asociación de sombras crean pines visualmente impactantes en Pinterest — el contraste entre imágenes a color y sus siluetas negras crea un formato inmediatamente llamativo. Publica fichas de muestra mostrando el modo Asociación de Sombras con siluetas de animales distintivas y el modo Completa la Imagen con mitades de imagen dividida. Crea series de pines separadas para "puzzles de sombras de animales", "asociación de siluetas de festividades" y "actividades de percepción visual". Las actividades de sombras de Halloween funcionan especialmente bien en Pinterest durante la temporada de otoño. El formato puramente visual atrae a padres y vendedores en todos los países. Enlaza cada pin a tus listados de productos en Etsy o Gumroad.',
+      description: 'Las fichas de asociación de sombras crean pines visualmente impactantes en Pinterest — el contraste entre imágenes a color y sus siluetas negras crea un formato inmediatamente llamativo. Publica fichas de muestra mostrando el modo Asociación de Sombras con siluetas de animales distintivas y el modo Completa la Imagen con mitades de imagen dividida. Crea series de pines separadas para "puzzles de sombras de animales", "asociación de siluetas de festividades" y "actividades de percepción visual". Las actividades de sombras de Halloween funcionan especialmente bien en Pinterest durante la temporada de otoño. El formato puramente visual atrae a padres y vendedores en todos los países. Enlaza cada pin a tus listados de productos en Etsy o Hotmart.',
       platform: 'Pinterest',
     },
     {
-      title: 'Kit Completo de Asociación de Sombras en Gumroad',
-      description: 'Agrupa fichas de asociación de sombras de los 104 temas y ambos modos de ejercicio en un kit integral en Gumroad. Incluye más de 300 fichas abarcando puzzles de siluetas de Asociación de Sombras, puzzles de corte horizontal de Completa la Imagen y puzzles de corte vertical de Completa la Imagen — tres tipos de actividad por tema. Cada ficha incluye su clave de respuestas autogenerada, duplicando tu conteo de archivos a más de 600 archivos en total. La variedad de tres modos (silueta, división horizontal, división vertical) proporciona enorme variedad de cada conjunto temático de imágenes. El formato de kit justifica precios premium porque los compradores obtienen una biblioteca completa de puzzles de sombras en lugar de paquetes individuales.',
-      platform: 'Gumroad',
+      title: 'Kit Completo de Asociación de Sombras en Hotmart',
+      description: 'Agrupa fichas de asociación de sombras de los 104 temas y ambos modos de ejercicio en un kit integral en Hotmart. Incluye más de 300 fichas abarcando puzzles de siluetas de Asociación de Sombras, puzzles de corte horizontal de Completa la Imagen y puzzles de corte vertical de Completa la Imagen — tres tipos de actividad por tema. Cada ficha incluye su clave de respuestas autogenerada, duplicando tu conteo de archivos a más de 600 archivos en total. La variedad de tres modos (silueta, división horizontal, división vertical) proporciona enorme variedad de cada conjunto temático de imágenes. El formato de kit justifica precios premium porque los compradores obtienen una biblioteca completa de puzzles de sombras en lugar de paquetes individuales.',
+      platform: 'Hotmart',
     },
     {
       title: 'Línea de Productos de Puzzles Visuales Globales',
-      description: 'La Asociación de Sombras produce puzzles puramente visuales — imágenes, siluetas y mitades divididas son universales sin texto específico de idioma en la salida de la ficha. Los mismos archivos de producto funcionan en todos los países sin traducción ni modificación. Una sesión de creación produce un catálogo vendible globalmente. Vende archivos idénticos en tiendas Etsy dirigidas a diferentes países, publica los mismos interiores de KDP en todos los mercados internacionales de Amazon y lista en Gumroad para vendedores internacionales. Sin versiones separadas por idioma, sin costos de traducción, sin mantenimiento por región. La función de subir imágenes personalizadas también permite servicios de personalización localizados sin cambiar el formato básico del producto.',
+      description: 'La Asociación de Sombras produce puzzles puramente visuales — imágenes, siluetas y mitades divididas son universales sin texto específico de idioma en la salida de la ficha. Los mismos archivos de producto funcionan en todos los países sin traducción ni modificación. Una sesión de creación produce un catálogo vendible globalmente. Vende archivos idénticos en tiendas Etsy dirigidas a diferentes países, publica los mismos interiores de KDP en todos los mercados internacionales de Amazon y lista en Hotmart para vendedores internacionales. Sin versiones separadas por idioma, sin costos de traducción, sin mantenimiento por región. La función de subir imágenes personalizadas también permite servicios de personalización localizados sin cambiar el formato básico del producto.',
       platform: 'Etsy / Amazon KDP',
     },
   ],
@@ -141,7 +141,7 @@ const content: ToolContent = {
     },
     {
       title: 'Explota el Formato Puramente Visual para Ventas Globales',
-      description: 'Las fichas de Asociación de Sombras contienen solo imágenes, siluetas y mitades divididas — sin texto específico de idioma en la salida de la ficha. Cada puzzle que creas es instantáneamente vendible a nivel mundial sin traducción ni localización. Un set de puzzles de sombras sirve para todas las tiendas Etsy internacionales, todos los mercados de KDP y todos los compradores de Gumroad independientemente del idioma. Mientras los competidores crean versiones separadas por idioma de fichas con mucho texto, tus puzzles de sombras funcionan en todas partes desde un solo conjunto de archivos.',
+      description: 'Las fichas de Asociación de Sombras contienen solo imágenes, siluetas y mitades divididas — sin texto específico de idioma en la salida de la ficha. Cada puzzle que creas es instantáneamente vendible a nivel mundial sin traducción ni localización. Un set de puzzles de sombras sirve para todas las tiendas Etsy internacionales, todos los mercados de KDP y todos los compradores de Hotmart independientemente del idioma. Mientras los competidores crean versiones separadas por idioma de fichas con mucho texto, tus puzzles de sombras funcionan en todas partes desde un solo conjunto de archivos.',
     },
     {
       title: 'Aprovecha la Temporada de Halloween para Productos Temáticos de Sombras',
@@ -188,7 +188,7 @@ const content: ToolContent = {
     },
     {
       question: '¿El generador es sensible al idioma?',
-      answer: 'No. La Asociación de Sombras es puramente visual — la salida de la ficha contiene solo imágenes, siluetas y mitades divididas sin contenido de texto localizado en la ficha. La interfaz de la aplicación (menús, botones, texto del encabezado) soporta los 11 idiomas, pero la ficha generada funciona idénticamente independientemente de la selección de idioma. Esto hace que las fichas de asociación de sombras sean universalmente vendibles en todos los mercados sin traducción. Un set de puzzles de sombras sirve para todas las tiendas Etsy internacionales, mercados de KDP y compradores de Gumroad.',
+      answer: 'No. La Asociación de Sombras es puramente visual — la salida de la ficha contiene solo imágenes, siluetas y mitades divididas sin contenido de texto localizado en la ficha. La interfaz de la aplicación (menús, botones, texto del encabezado) soporta los 11 idiomas, pero la ficha generada funciona idénticamente independientemente de la selección de idioma. Esto hace que las fichas de asociación de sombras sean universalmente vendibles en todos los mercados sin traducción. Un set de puzzles de sombras sirve para todas las tiendas Etsy internacionales, mercados de KDP y compradores de Hotmart.',
     },
     {
       question: '¿Qué tamaños de página y formatos de exportación están disponibles?',
@@ -196,7 +196,7 @@ const content: ToolContent = {
     },
     {
       question: '¿Puedo vender fichas de asociación de sombras creadas con esta herramienta de forma comercial?',
-      answer: 'Sí. Con una licencia comercial, tienes derechos completos para vender fichas de asociación de sombras como descargas digitales en Etsy, cuadernos impresos de percepción visual en Amazon KDP, recursos para venta en línea en Gumroad o a través de cualquier otro canal de venta. Los dos modos de ejercicio, la generación de siluetas a nivel de píxel, el derangement Fisher-Yates, las claves de respuestas autogeneradas, las etiquetas activables/desactivables, la subida de imágenes personalizadas y las 104 colecciones temáticas de imágenes te dan todo lo necesario para crear productos profesionales que compiten en categorías de asociación visual en todos los principales mercados.',
+      answer: 'Sí. Con una licencia comercial, tienes derechos completos para vender fichas de asociación de sombras como descargas digitales en Etsy, cuadernos impresos de percepción visual en Amazon KDP, recursos para venta en línea en Hotmart o a través de cualquier otro canal de venta. Los dos modos de ejercicio, la generación de siluetas a nivel de píxel, el derangement Fisher-Yates, las claves de respuestas autogeneradas, las etiquetas activables/desactivables, la subida de imágenes personalizadas y las 104 colecciones temáticas de imágenes te dan todo lo necesario para crear productos profesionales que compiten en categorías de asociación visual en todos los principales mercados.',
     },
     {
       question: '¿Cuál es la política de reembolso?',

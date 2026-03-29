@@ -2,32 +2,32 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'generador páginas para colorear',
+    primaryKeyword: 'generador de dibujos para colorear para vender en Etsy y KDP',
     secondaryKeywords: [
-      'generador de páginas para colorear para vendedores Etsy',
-      'creador de fichas para colorear para editores Amazon KDP',
-      'vender páginas para colorear en Gumroad',
-      'generador de páginas para colorear licencia comercial',
+      'crear páginas para colorear para tienda Etsy',
+      'generador de láminas para colorear para Amazon KDP',
+      'dibujos para colorear imprimibles licencia comercial',
+      'crear libros para colorear para vender online',
     ],
     lsiKeywords: [
-      'productos digitales páginas para colorear para emprendedores',
-      'libros para colorear imprimibles uso comercial',
-      'generador de páginas para colorear con lienzo libre y dibujo a mano alzada',
+      'dibujos colorear vendedores Etsy KDP Hotmart',
+      'libros colorear imprimibles Amazon mercado hispano',
+      'negocio páginas colorear ingreso pasivo',
     ],
-    titleTag: 'Generador Páginas para Colorear | Crear y Vender',
+    titleTag: 'Dibujos para colorear — Vender en Etsy y KDP | LCS',
     metaDescription:
-      'Crea páginas para colorear para vender en Etsy, KDP y Gumroad. Lienzo libre, 104 temas, dibujo a mano alzada, escala de grises. Prueba gratis con marca de agua.',
+      'Cree dibujos para colorear para vender en Etsy y KDP. 104 temas, alta resolución, solucionario. Licencia comercial incluida. Pruebe gratis.',
   },
 
   hero: {
-    title: 'Generador de Páginas para Colorear para Fichas de Coloreo Personalizadas',
-    tagline: 'Diseñador de páginas para colorear en lienzo de formato libre — explora 104 colecciones de imágenes temáticas, añade dibujos a mano alzada, incluye ayudas para venta en línea como campos de nombre y líneas de caligrafía, y activa la exportación en escala de grises para páginas para colorear de ahorro de tinta.',
+    title: 'Genere dibujos para colorear para vender en Etsy, KDP y Hotmart',
+    tagline: 'Cree páginas para colorear con imágenes temáticas — el producto más vendido en Etsy.',
     description:
-      'Diseña páginas para colorear profesionales en un lienzo de formato libre donde colocas las imágenes exactamente donde quieras — sin cuadrículas, sin plantillas, libertad creativa total. Explora la Biblioteca de Imágenes integrada con más de 3100 ilustraciones coloridas en 104 colecciones temáticas, haz clic en cualquier imagen para añadirla a tu lienzo, luego organiza, redimensiona, rota y superpón los elementos hasta que tu página quede perfecta. La herramienta de dibujo a mano alzada te permite dibujar ilustraciones personalizadas directamente en el lienzo con color y tamaño de pincel ajustables. Las ayudas para venta en línea añaden un campo de nombre y líneas de práctica de caligrafía con un solo clic — convirtiendo las páginas para colorear en actividades listas para la clase. Cuando termines, activa la opción de exportación en escala de grises para convertir tu composición colorida en páginas para colorear de ahorro de tinta, perfectas para imprimir. Añade temas de bordes decorativos, texto personalizado con efectos de contorno y sube tus propias imágenes junto al contenido de la biblioteca. El Generador de Páginas para Colorear no es sensible al idioma — la salida es puramente visual, así que las fichas son idénticas en todos los idiomas. El Acceso Completo desbloquea los 104 temas y los 11 idiomas de interfaz. Exporta PDF y JPEG listos para imprimir a 300 DPI en formato Carta, A4, Cuadrado o dimensiones personalizadas. Ya sea que vendas packs de páginas para colorear en Etsy, compiles libros para colorear para Amazon KDP o crees actividades de coloreo para la clase en Gumroad, el Generador de Páginas para Colorear ofrece resultados profesionales en minutos — prueba gratis con todas las funciones, sin registro, sin tarjeta de crédito. Las descargas incluyen una marca de agua; compra una licencia para eliminarla.',
+      'Genere dibujos para colorear para vender en Etsy, Amazon KDP o Hotmart. Las páginas para colorear son el producto imprimible más vendido en Etsy y uno de los géneros más populares en Amazon KDP. Este generador crea dibujos para colorear con imágenes de más de 104 categorías temáticas — animales, festividades, vehículos, naturaleza y más. Cada dibujo se exporta en alta resolución lista para imprimir. Los libros para colorear en KDP son una fuente probada de ingreso pasivo, y en Etsy las descargas digitales de dibujos para colorear tienen demanda constante. Licencia comercial incluida. El mercado hispano de dibujos para colorear está masivamente desatendido. Pruebe gratis con marca de agua — sin registro.',
   },
 
   howItWorks: {
-    title: 'Cómo Crear Páginas para Colorear Personalizadas en 5 Pasos',
+    title: 'Cómo crear dibujos para colorear en minutos',
     steps: [
       {
         title: 'Configurar el diseño de página',
@@ -52,13 +52,13 @@ const content: AppContent = {
       {
         title: 'Activar la escala de grises y descargar',
         description:
-          'Abre el panel Descargar y activa la opción de escala de grises para convertir tu composición colorida en páginas para colorear de ahorro de tinta — perfectas para fichas impresas y libros para colorear. Exporta como JPEG de alta resolución o PDF listo para imprimir a 300 DPI. Los archivos se guardan como coloring_page.jpeg o coloring_page.pdf para una organización sencilla. Cada exportación está lista para producción: listados de Etsy, interiores de Amazon KDP y archivos de productos Gumroad — sin necesidad de postprocesamiento.',
+          'Abre el panel Descargar y activa la opción de escala de grises para convertir tu composición colorida en páginas para colorear de ahorro de tinta — perfectas para fichas impresas y libros para colorear. Exporta como JPEG de alta resolución o PDF listo para imprimir a 300 DPI. Los archivos se guardan como coloring_page.jpeg o coloring_page.pdf para una organización sencilla. Cada exportación está lista para producción: listados de Etsy, interiores de Amazon KDP y archivos de productos Hotmart — sin necesidad de postprocesamiento.',
       },
     ],
   },
 
   keyFeatures: {
-    title: 'Funcionalidades Clave del Generador de Páginas para Colorear',
+    title: 'Por qué colorear es el producto más vendido en Etsy',
     features: [
       {
         title: 'Diseñador de páginas para colorear en lienzo de formato libre',
@@ -73,7 +73,7 @@ const content: AppContent = {
       {
         title: 'Ayudas para venta en línea: campo de nombre y líneas de caligrafía',
         description:
-          'Dos ayudas para venta en línea con un solo clic transforman las páginas para colorear en actividades listas para la clase. El botón Campo de Nombre añade un bloque de texto formateado \"Nombre: ____________________\" posicionado en la parte superior de la página — los usuarios escriben su nombre antes de empezar. El botón Líneas de Caligrafía añade un grupo de tres líneas uniformemente espaciadas (continua, discontinua, continua) cerca de la parte inferior de la página para práctica de escritura. Juntas, estas ayudas hacen que tus fichas para colorear estén listas para venta en línea sin formato manual de texto. Los vendedores de Gumroad pueden destacar estas funcionalidades como diferenciación integrada frente a las páginas para colorear genéricas.',
+          'Dos ayudas para venta en línea con un solo clic transforman las páginas para colorear en actividades listas para la clase. El botón Campo de Nombre añade un bloque de texto formateado \"Nombre: ____________________\" posicionado en la parte superior de la página — los usuarios escriben su nombre antes de empezar. El botón Líneas de Caligrafía añade un grupo de tres líneas uniformemente espaciadas (continua, discontinua, continua) cerca de la parte inferior de la página para práctica de escritura. Juntas, estas ayudas hacen que tus fichas para colorear estén listas para venta en línea sin formato manual de texto. Los vendedores de Hotmart pueden destacar estas funcionalidades como diferenciación integrada frente a las páginas para colorear genéricas.',
       },
       {
         title: 'Exportación en escala de grises para páginas para colorear de ahorro de tinta',
@@ -93,7 +93,7 @@ const content: AppContent = {
       {
         title: 'Exportación PDF y JPEG lista para imprimir a 300 DPI',
         description:
-          'Descarga páginas para colorear como imágenes JPEG de alta resolución o documentos PDF listos para imprimir renderizados a 300 DPI mediante un multiplicador 6× para una salida nítida. Los formatos de página incluyen Carta Vertical (612×792), Carta Horizontal (792×612), A4 Vertical (595×842), A4 Horizontal (842×595), Cuadrado (1200×1200) y dimensiones completamente personalizadas. Activa la escala de grises para versiones de ahorro de tinta. Cada exportación está lista para producción: descargas digitales de Etsy, interiores de libros de Amazon KDP y archivos de recursos de Gumroad.',
+          'Descarga páginas para colorear como imágenes JPEG de alta resolución o documentos PDF listos para imprimir renderizados a 300 DPI mediante un multiplicador 6× para una salida nítida. Los formatos de página incluyen Carta Vertical (612×792), Carta Horizontal (792×612), A4 Vertical (595×842), A4 Horizontal (842×595), Cuadrado (1200×1200) y dimensiones completamente personalizadas. Activa la escala de grises para versiones de ahorro de tinta. Cada exportación está lista para producción: descargas digitales de Etsy, interiores de libros de Amazon KDP y archivos de recursos de Hotmart.',
       },
       {
         title: 'Edición completa del lienzo con herramientas de texto y controles de capas',
@@ -104,7 +104,7 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Cómo Vender Páginas para Colorear Personalizadas en Línea',
+    title: 'Vender dibujos para colorear en Etsy, KDP y Hotmart',
     cases: [
       {
         title: 'Packs temáticos de páginas para colorear en Etsy',
@@ -119,22 +119,22 @@ const content: AppContent = {
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Fichas de actividades para colorear en la clase para Gumroad',
+        title: 'Fichas de actividades para colorear en la clase para Hotmart',
         description:
-          'Construye fichas para colorear listas para la clase con las ayudas integradas. Añade un campo de nombre para que los usuarios identifiquen su trabajo e incluye líneas de práctica de caligrafía en la parte inferior para práctica de lectoescritura integrada. Los vendedores que buscan actividades para colorear en Gumroad valoran fichas que van más allá del simple coloreo — el campo de nombre y las líneas de caligrafía hacen de tu producto una ficha de actividad multihabilidad. Crea conjuntos temáticos vinculados a unidades de productoses: el clima, las estaciones, los ayudantes de la comunidad, los grupos de alimentos y los hábitats. La salida puramente visual funciona para cada usuario sin importar el idioma o nivel de lectura.',
-        platform: 'Gumroad (teacherspayteachers.com)',
+          'Construye fichas para colorear listas para la clase con las ayudas integradas. Añade un campo de nombre para que los usuarios identifiquen su trabajo e incluye líneas de práctica de caligrafía en la parte inferior para práctica de lectoescritura integrada. Los vendedores que buscan actividades para colorear en Hotmart valoran fichas que van más allá del simple coloreo — el campo de nombre y las líneas de caligrafía hacen de tu producto una ficha de actividad multihabilidad. Crea conjuntos temáticos vinculados a unidades de productoses: el clima, las estaciones, los ayudantes de la comunidad, los grupos de alimentos y los hábitats. La salida puramente visual funciona para cada usuario sin importar el idioma o nivel de lectura.',
+        platform: 'Hotmart (hotmart.com)',
       },
       {
         title: 'Páginas para colorear personalizadas con dibujo a mano alzada',
         description:
           'Combina las ilustraciones de la biblioteca con tus propios dibujos a mano alzada para crear páginas para colorear que ningún otro generador puede producir. Dibuja bordes personalizados, añade elementos decorativos entre las imágenes, traza escenas conectoras que unan varias imágenes o crea ilustraciones completamente originales en el lienzo. El tamaño de pincel ajustable (1 a 50 px) maneja desde el trabajo de detalle fino hasta los contornos gruesos. Este enfoque híbrido — imágenes seleccionadas de la biblioteca más arte original a mano alzada — produce páginas para colorear con verdadero valor creativo que alcanzan precios premium en los listados de los marketplaces.',
-        platform: 'Etsy / Amazon KDP / Gumroad',
+        platform: 'Etsy / Amazon KDP / Hotmart',
       },
       {
         title: 'Colecciones de páginas para colorear estacionales y festivas',
         description:
           'Las 104 colecciones de imágenes temáticas cubren cada ocasión estacional y festiva — Navidad, Halloween, Semana Santa, San Valentín, vuelta al cole, vacaciones de verano, fiestas de invierno y mucho más. Crea colecciones de páginas para colorear por disponible ahora alineadas con los picos de compra. Lanza los packs de Halloween en septiembre, las colecciones de Navidad en octubre y los packs de San Valentín en enero. Los productos estacionales alcanzan precios más altos durante sus ventanas de máxima demanda y crean razones naturales para compras recurrentes de la misma base de clientes.',
-        platform: 'Etsy / Amazon KDP / Gumroad (estacional)',
+        platform: 'Etsy / Amazon KDP / Hotmart (estacional)',
       },
     ],
   },
@@ -193,7 +193,7 @@ const content: AppContent = {
     {
       question: '¿Puedo vender páginas para colorear creadas con esta herramienta en Etsy y Amazon KDP?',
       answer:
-        'Sí. Con una licencia comercial, tienes todos los derechos para vender tus páginas para colorear como descargas digitales en Etsy, como libros para colorear impresos en Amazon KDP, como recursos educativos en Gumroad o a través de cualquier otro canal de venta. El lienzo de formato libre, la herramienta de dibujo a mano alzada y las 104 colecciones de imágenes temáticas te ofrecen las herramientas creativas para producir productos de páginas para colorear originales y vendibles.',
+        'Sí. Con una licencia comercial, tienes todos los derechos para vender tus páginas para colorear como descargas digitales en Etsy, como libros para colorear impresos en Amazon KDP, como recursos educativos en Hotmart o a través de cualquier otro canal de venta. El lienzo de formato libre, la herramienta de dibujo a mano alzada y las 104 colecciones de imágenes temáticas te ofrecen las herramientas creativas para producir productos de páginas para colorear originales y vendibles.',
     },
     {
       question: '¿Cuál es la política de reembolso?',

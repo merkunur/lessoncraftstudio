@@ -2,30 +2,30 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'generador puzzle de cuadrícula',
+    primaryKeyword: 'crear cuadriculas de asociacion gratis',
     secondaryKeywords: [
-      'creador de fichas de rompecabezas de cuadrícula para vendedores',
-      'crear puzzles de cuadrícula para vender uso comercial',
-      'generador de fichas de piezas de imagen imprimibles para KDP y Etsy',
-      'herramienta de puzzle de cuadrícula con clave de respuestas automática',
+      'cuadriculas de asociacion gratis sin registro',
+      'generador de cuadriculas de emparejar gratis',
+      'fichas de cuadricula de asociacion gratis en linea',
+      'hojas de cuadricula de asociacion gratis para imprimir',
     ],
     lsiKeywords: [
-      'generador de puzzle de cuadrícula con piezas numeradas',
-      'clave de respuestas automática con círculos numerados superpuestos',
-      'creador de fichas con celdas pista configurables',
+      'actividades de logica visual para ninos',
+      'fichas de cuadricula de emparejamiento imprimibles',
+      'juegos de asociacion en cuadricula',
     ],
-    titleTag: 'Generador Puzzle de Cuadrícula | para Vender',
-    metaDescription: 'Crea puzzles de cuadrícula con tamaño de 2×2 a 4×4, celdas pista ajustables, aleatorización Fisher-Yates y 104 temas ilustrados. Prueba gratuita con marca.',
+    titleTag: 'Cuadriculas de asociacion gratis | LCS',
+    metaDescription: 'Cree cuadriculas de asociacion gratis con imagenes tematicas. Sin registro, sin tarjeta de credito. Descarga con marca de agua. Licencia comercial.',
   },
 
   hero: {
-    title: 'Generador de Puzzle de Cuadrícula',
-    tagline: 'Generador de puzzles de cuadrícula con tamaños configurables de 2×2 a 4×4, celdas pista ajustables para dificultad escalable, aleatorización Fisher-Yates de piezas, claves de respuestas autogeneradas con círculos numerados superpuestos y 104 colecciones temáticas de imágenes para fichas de rompecabezas de cuadrícula que se venden en todo el mundo',
-    description: 'Crea fichas profesionales de puzzle de cuadrícula donde una sola imagen se divide en una cuadrícula de piezas y los usuarios asocian las piezas numeradas con sus posiciones correctas — un rompecabezas de razonamiento espacial construido a partir de una sola imagen. Configura la cuadrícula de 2×2 hasta 4×4 (2–4 filas × 2–4 columnas, por defecto 3×3) para crear puzzles que van desde 4 piezas hasta 16 piezas. Establece de 1 a 5 celdas pista (por defecto 1) que permanecen visibles en la ficha como pistas — menos pistas significan puzzles más difíciles, más pistas crean calentamientos accesibles. La aplicación baraja las piezas ocultas usando aleatorización Fisher-Yates y las muestra en una paleta numerada junto a o debajo de la cuadrícula, de modo que cada generación produce un orden de piezas diferente incluso con la misma imagen y configuración. Los usuarios estudian las celdas pista reveladas, examinan las piezas numeradas en la paleta y escriben qué número pertenece a cada celda vacía. El sistema de lienzo dual genera simultáneamente una pestaña de ficha y una pestaña de clave de respuestas — la clave de respuestas muestra la imagen completa sin cortar con círculos numerados superpuestos en cada celda de la cuadrícula (fondo amarillo #ffffe0, contorno negro, fuente Fredoka), mostrando exactamente qué número de la paleta corresponde a cada posición. El diseño responsivo se adapta automáticamente: páginas en vertical colocan la cuadrícula arriba (45% de altura) con la paleta debajo; páginas en horizontal posicionan la cuadrícula a la izquierda (48% de ancho) con la paleta a la derecha. Un encabezado estilizado aparece con fondo cian (#00BCD4), título en púrpura profundo (#6A1B9A) y marco de borde naranja (#FF8C42) mostrando "Puzzle de Cuadrícula" e instrucciones en el idioma seleccionado. El Puzzle de Cuadrícula NO es sensible al idioma — la salida del puzzle es puramente visual sin contenido de texto localizado en la ficha, haciendo cada ficha universalmente vendible en todos los mercados sin traducción. Navega 104 colecciones temáticas con más de 3.100 ilustraciones o sube tus propias imágenes PNG, JPG o GIF para puzzles de cuadrícula personalizados. Aplica fondos temáticos y bordes temáticos con controles de opacidad independientes (0–1, paso 0,05). Exporta cuatro archivos por sesión: ficha JPEG, ficha PDF, clave de respuestas JPEG y clave de respuestas PDF — todo a 300 DPI. Elige Carta, A4 o tamaños personalizados con opción de escala de grises para salida con ahorro de tinta. Edita todo en el lienzo de Fabric.js con 7 fuentes, contorno de texto 0–10, herramientas de alineación, capas, bloqueo/desbloqueo, zoom 25%–300% y deshacer/rehacer 20 estados. La prueba gratuita incluye todas las funciones con una marca de agua en las descargas. Compra una licencia para eliminar la marca de agua y vender con uso comercial.',
+    title: 'Cree cuadriculas de asociacion gratis con imagenes',
+    tagline: 'Fichas de cuadricula para emparejar — gratis y sin registro.',
+    description: 'Cree cuadriculas de asociacion gratis donde los ninos emparejan imagenes en un formato de cuadricula visual. Este generador produce fichas de asociacion en cuadricula con imagenes tematicas de mas de 100 categorias. Seleccione el tamano de la cuadricula, el nivel de dificultad y el tema visual. Cada ficha incluye solucionario automatico y se exporta en PDF listo para imprimir. No necesita registro ni tarjeta de credito — acceda a todas las funciones al instante. Las descargas incluyen marca de agua transparente. Ideal para padres y educadores que buscan actividades de logica visual. ¿Quiere vender cuadriculas de asociacion? Pase a la licencia comercial para PDFs sin marca de agua a 300 DPI.',
   },
 
   tutorial: {
-    title: 'Cómo Crear Fichas de Puzzle de Cuadrícula en 8 Pasos',
+    title: 'Como crear cuadriculas de asociacion gratis',
     steps: [
       {
         title: 'Abre el Generador de Puzzle de Cuadrícula',
@@ -57,7 +57,7 @@ const content: ToolContent = {
       },
       {
         title: 'Descarga los Cuatro Archivos',
-        description: 'Activa la escala de grises para versiones con ahorro de tinta ideales para impresión en volumen e interiores de KDP. Descarga los cuatro archivos desde una sola sesión: ficha JPEG, ficha PDF, clave de respuestas JPEG y clave de respuestas PDF — todo renderizado a 300 DPI. Cada pestaña tiene su propio par de botones de descarga. Los archivos están listos para producción en listados de Etsy, interiores de Amazon KDP y archivos de productos de Gumroad sin necesidad de posprocesamiento. Haz clic en Generar de nuevo con la misma imagen para producir un nuevo puzzle con diferente aleatorización de piezas, o cambia de imagen y configuración de cuadrícula para creación rápida de variedad en 104 colecciones temáticas.',
+        description: 'Activa la escala de grises para versiones con ahorro de tinta ideales para impresión en volumen e interiores de KDP. Descarga los cuatro archivos desde una sola sesión: ficha JPEG, ficha PDF, clave de respuestas JPEG y clave de respuestas PDF — todo renderizado a 300 DPI. Cada pestaña tiene su propio par de botones de descarga. Los archivos están listos para producción en listados de Etsy, interiores de Amazon KDP y archivos de productos de Hotmart sin necesidad de posprocesamiento. Haz clic en Generar de nuevo con la misma imagen para producir un nuevo puzzle con diferente aleatorización de piezas, o cambia de imagen y configuración de cuadrícula para creación rápida de variedad en 104 colecciones temáticas.',
       },
     ],
   },
@@ -101,23 +101,23 @@ const content: ToolContent = {
       platform: 'Amazon KDP',
     },
     {
-      title: 'Paquetes de Actividades de Puzzle de Cuadrícula para Gumroad',
-      description: 'Sube paquetes de actividades de puzzle de cuadrícula a Gumroad con dificultad diferenciada como punto de venta principal. Los vendedores que buscan actividades de percepción visual valoran puzzles que incluyen múltiples niveles de dificultad y claves de respuestas. Crea sets alineados con el catálogo de productos: puzzles de cuadrícula de animales para unidades de ciencias, puzzles de alimentos para temas de nutrición, puzzles de vehículos para temas de transporte. Cada paquete incluye versiones fáciles (2×2), medias (3×3) y difíciles (4×4) de los mismos puzzles temáticos para que los vendedores asignen por nivel del usuario. La clave de respuestas autogenerada con círculos numerados superpuestos elimina el tiempo de preparación del vendedor.',
-      platform: 'Gumroad',
+      title: 'Paquetes de Actividades de Puzzle de Cuadrícula para Hotmart',
+      description: 'Sube paquetes de actividades de puzzle de cuadrícula a Hotmart con dificultad diferenciada como punto de venta principal. Los vendedores que buscan actividades de percepción visual valoran puzzles que incluyen múltiples niveles de dificultad y claves de respuestas. Crea sets alineados con el catálogo de productos: puzzles de cuadrícula de animales para unidades de ciencias, puzzles de alimentos para temas de nutrición, puzzles de vehículos para temas de transporte. Cada paquete incluye versiones fáciles (2×2), medias (3×3) y difíciles (4×4) de los mismos puzzles temáticos para que los vendedores asignen por nivel del usuario. La clave de respuestas autogenerada con círculos numerados superpuestos elimina el tiempo de preparación del vendedor.',
+      platform: 'Hotmart',
     },
     {
       title: 'Embudo de Tráfico con Puzzles de Cuadrícula en Pinterest',
-      description: 'Los puzzles de cuadrícula crean pines visualmente impactantes en Pinterest — la cuadrícula de imagen dividida con paleta de piezas numeradas y encabezado colorido crea un formato educativo inmediatamente reconocible. Publica puzzles de muestra mostrando diferentes tamaños de cuadrícula: un sencillo 2×2 para pines fáciles, un detallado 4×4 para pines de desafío y la clave de respuestas con círculos numerados para pines de solución. Crea series de pines separadas para "puzzles de cuadrícula de animales", "rompecabezas de imágenes de festividades" y "actividades de percepción visual". El formato puramente visual atrae a padres y vendedores en todos los países. Enlaza cada pin a tus listados de productos en Etsy o Gumroad.',
+      description: 'Los puzzles de cuadrícula crean pines visualmente impactantes en Pinterest — la cuadrícula de imagen dividida con paleta de piezas numeradas y encabezado colorido crea un formato educativo inmediatamente reconocible. Publica puzzles de muestra mostrando diferentes tamaños de cuadrícula: un sencillo 2×2 para pines fáciles, un detallado 4×4 para pines de desafío y la clave de respuestas con círculos numerados para pines de solución. Crea series de pines separadas para "puzzles de cuadrícula de animales", "rompecabezas de imágenes de festividades" y "actividades de percepción visual". El formato puramente visual atrae a padres y vendedores en todos los países. Enlaza cada pin a tus listados de productos en Etsy o Hotmart.',
       platform: 'Pinterest',
     },
     {
-      title: 'Kit Completo de Puzzles de Cuadrícula en Gumroad',
-      description: 'Agrupa puzzles de cuadrícula de los 104 temas y todos los niveles de dificultad en un kit integral en Gumroad. Incluye más de 300 puzzles abarcando configuraciones fáciles, medias y difíciles, cada uno con su clave de respuestas autogenerada — más de 600 archivos en total. El sistema de dificultad de tres niveles (cuadrículas de 2×2, 3×3, 4×4) con cantidades variables de pistas proporciona enorme variedad. El formato de kit justifica precios premium porque los compradores obtienen una biblioteca completa de puzzles en lugar de paquetes individuales. Añade nuevas colecciones estacionales trimestralmente para impulsar compras recurrentes.',
-      platform: 'Gumroad',
+      title: 'Kit Completo de Puzzles de Cuadrícula en Hotmart',
+      description: 'Agrupa puzzles de cuadrícula de los 104 temas y todos los niveles de dificultad en un kit integral en Hotmart. Incluye más de 300 puzzles abarcando configuraciones fáciles, medias y difíciles, cada uno con su clave de respuestas autogenerada — más de 600 archivos en total. El sistema de dificultad de tres niveles (cuadrículas de 2×2, 3×3, 4×4) con cantidades variables de pistas proporciona enorme variedad. El formato de kit justifica precios premium porque los compradores obtienen una biblioteca completa de puzzles en lugar de paquetes individuales. Añade nuevas colecciones estacionales trimestralmente para impulsar compras recurrentes.',
+      platform: 'Hotmart',
     },
     {
       title: 'Línea de Productos de Puzzles Visuales Globales',
-      description: 'El Puzzle de Cuadrícula produce puzzles puramente visuales — las piezas de imagen y los números son universales. Los mismos archivos de producto funcionan en todos los países sin traducción ni modificación. Una sesión de creación produce un catálogo vendible globalmente. Vende archivos idénticos en tiendas Etsy dirigidas a diferentes países, publica los mismos interiores de KDP en todos los mercados internacionales de Amazon y lista en Gumroad para vendedores internacionales. Sin versiones separadas por idioma, sin costos de traducción, sin mantenimiento por región. La función de subir imágenes personalizadas también permite servicios de personalización localizados sin cambiar el formato básico del producto.',
+      description: 'El Puzzle de Cuadrícula produce puzzles puramente visuales — las piezas de imagen y los números son universales. Los mismos archivos de producto funcionan en todos los países sin traducción ni modificación. Una sesión de creación produce un catálogo vendible globalmente. Vende archivos idénticos en tiendas Etsy dirigidas a diferentes países, publica los mismos interiores de KDP en todos los mercados internacionales de Amazon y lista en Hotmart para vendedores internacionales. Sin versiones separadas por idioma, sin costos de traducción, sin mantenimiento por región. La función de subir imágenes personalizadas también permite servicios de personalización localizados sin cambiar el formato básico del producto.',
       platform: 'Etsy / Amazon KDP',
     },
   ],
@@ -133,11 +133,11 @@ const content: ToolContent = {
     },
     {
       title: 'Destaca la Clave de Respuestas con Círculos Numerados como Tu Punto de Venta',
-      description: 'La clave de respuestas autogenerada muestra la imagen completa con círculos numerados indicando qué pieza de la paleta pertenece a cada posición — una presentación profesional que separa tus puzzles de cuadrícula de competidores que venden puzzles sin soluciones. Incluye siempre vistas previas de la clave de respuestas en las imágenes de tus listados en Etsy y Gumroad. Muestra la ficha y la clave de respuestas lado a lado para demostrar el paquete completo. El sistema de lienzo dual produce ambas versiones simultáneamente, por lo que incluir claves de respuestas no añade tiempo de producción extra.',
+      description: 'La clave de respuestas autogenerada muestra la imagen completa con círculos numerados indicando qué pieza de la paleta pertenece a cada posición — una presentación profesional que separa tus puzzles de cuadrícula de competidores que venden puzzles sin soluciones. Incluye siempre vistas previas de la clave de respuestas en las imágenes de tus listados en Etsy y Hotmart. Muestra la ficha y la clave de respuestas lado a lado para demostrar el paquete completo. El sistema de lienzo dual produce ambas versiones simultáneamente, por lo que incluir claves de respuestas no añade tiempo de producción extra.',
     },
     {
       title: 'Explota el Formato Puramente Visual para Ventas Globales',
-      description: 'Los puzzles de cuadrícula contienen solo piezas de imagen y números — sin texto específico de idioma en la salida de la ficha. Esto significa que cada puzzle que creas es instantáneamente vendible a nivel mundial sin traducción ni localización. Un set de puzzles de cuadrícula sirve para todas las tiendas Etsy internacionales, todos los mercados de KDP y todos los compradores de Gumroad independientemente del idioma. Mientras los competidores crean versiones separadas por idioma de fichas con mucho texto, tus puzzles de cuadrícula funcionan en todas partes desde un solo conjunto de archivos.',
+      description: 'Los puzzles de cuadrícula contienen solo piezas de imagen y números — sin texto específico de idioma en la salida de la ficha. Esto significa que cada puzzle que creas es instantáneamente vendible a nivel mundial sin traducción ni localización. Un set de puzzles de cuadrícula sirve para todas las tiendas Etsy internacionales, todos los mercados de KDP y todos los compradores de Hotmart independientemente del idioma. Mientras los competidores crean versiones separadas por idioma de fichas con mucho texto, tus puzzles de cuadrícula funcionan en todas partes desde un solo conjunto de archivos.',
     },
     {
       title: 'Usa Imágenes Personalizadas para Productos Personalizados Premium',
@@ -149,7 +149,7 @@ const content: ToolContent = {
     },
     {
       title: 'Elige el Tamaño de Cuadrícula Correcto para Tu Audiencia Objetivo',
-      description: 'Adapta la configuración de la cuadrícula a las expectativas del comprador en cada mercado. Para recursos de Gumroad dirigidos a preescolar y primer grado, usa cuadrículas de 2×2 y 2×3 con 2–3 pistas para puzzles accesibles. Para paquetes de actividades en Etsy dirigidos a padres de usuarios de primaria, usa cuadrículas de 3×3 con 1–2 pistas para un desafío equilibrado. Para cuadernos de puzzles en KDP dirigidos a usuarios mayores y adultos, usa cuadrículas de 4×3 y 4×4 con 1 pista para desafíos genuinos de razonamiento espacial. Adaptar la complejidad de la cuadrícula a la edad de la audiencia asegura reseñas positivas y compras recurrentes.',
+      description: 'Adapta la configuración de la cuadrícula a las expectativas del comprador en cada mercado. Para recursos de Hotmart dirigidos a preescolar y primer grado, usa cuadrículas de 2×2 y 2×3 con 2–3 pistas para puzzles accesibles. Para paquetes de actividades en Etsy dirigidos a padres de usuarios de primaria, usa cuadrículas de 3×3 con 1–2 pistas para un desafío equilibrado. Para cuadernos de puzzles en KDP dirigidos a usuarios mayores y adultos, usa cuadrículas de 4×3 y 4×4 con 1 pista para desafíos genuinos de razonamiento espacial. Adaptar la complejidad de la cuadrícula a la edad de la audiencia asegura reseñas positivas y compras recurrentes.',
     },
   ],
 
@@ -188,7 +188,7 @@ const content: ToolContent = {
     },
     {
       question: '¿El Generador de Puzzle de Cuadrícula es sensible al idioma?',
-      answer: 'No. El Puzzle de Cuadrícula es puramente visual — la salida del puzzle contiene solo piezas de imagen y números, sin contenido de texto localizado en la ficha. La interfaz de la aplicación (menús, botones, texto del encabezado) soporta los 11 idiomas, pero el puzzle generado funciona idénticamente independientemente de la selección de idioma. Esto hace que los puzzles de cuadrícula sean universalmente vendibles en todos los mercados sin traducción. Un set de puzzles sirve para todas las tiendas Etsy internacionales, mercados de KDP y compradores de Gumroad.',
+      answer: 'No. El Puzzle de Cuadrícula es puramente visual — la salida del puzzle contiene solo piezas de imagen y números, sin contenido de texto localizado en la ficha. La interfaz de la aplicación (menús, botones, texto del encabezado) soporta los 11 idiomas, pero el puzzle generado funciona idénticamente independientemente de la selección de idioma. Esto hace que los puzzles de cuadrícula sean universalmente vendibles en todos los mercados sin traducción. Un set de puzzles sirve para todas las tiendas Etsy internacionales, mercados de KDP y compradores de Hotmart.',
     },
     {
       question: '¿Qué tamaños de página y formatos de exportación están disponibles?',
@@ -196,7 +196,7 @@ const content: ToolContent = {
     },
     {
       question: '¿Puedo vender puzzles de cuadrícula creados con esta herramienta de forma comercial?',
-      answer: 'Sí. Con una licencia comercial, tienes derechos completos para vender puzzles de cuadrícula como descargas digitales en Etsy, cuadernos impresos de percepción visual en Amazon KDP, recursos para venta en línea en Gumroad o a través de cualquier otro canal de venta. Los tamaños de cuadrícula configurables, las celdas pista ajustables, la aleatorización Fisher-Yates, las claves de respuestas autogeneradas con círculos numerados superpuestos, la subida de imágenes personalizadas y las 104 colecciones temáticas de imágenes te dan todo lo necesario para crear productos profesionales que compiten en categorías de puzzles y percepción visual en todos los principales mercados.',
+      answer: 'Sí. Con una licencia comercial, tienes derechos completos para vender puzzles de cuadrícula como descargas digitales en Etsy, cuadernos impresos de percepción visual en Amazon KDP, recursos para venta en línea en Hotmart o a través de cualquier otro canal de venta. Los tamaños de cuadrícula configurables, las celdas pista ajustables, la aleatorización Fisher-Yates, las claves de respuestas autogeneradas con círculos numerados superpuestos, la subida de imágenes personalizadas y las 104 colecciones temáticas de imágenes te dan todo lo necesario para crear productos profesionales que compiten en categorías de puzzles y percepción visual en todos los principales mercados.',
     },
     {
       question: '¿Cuál es la política de reembolso?',

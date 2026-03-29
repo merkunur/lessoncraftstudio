@@ -2,37 +2,37 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'generador fichas preposiciones',
+    primaryKeyword: 'fichas de preposiciones para ELE en Etsy y Eduki',
     secondaryKeywords: [
-      'fichas de preposiciones imprimibles para Etsy',
-      'generador de fichas de vocabulario espacial para Amazon KDP',
-      'vender fichas de preposiciones en Gumroad',
-      'fichas de preposiciones espaciales licencia comercial',
+      'generador de fichas de preposiciones para vendedores',
+      'fichas de preposiciones español lengua extranjera',
+      'ejercicios de preposiciones imprimibles licencia comercial',
+      'crear fichas ELE para vender en Etsy y Hotmart',
     ],
     lsiKeywords: [
-      'productos digitales de vocabulario espacial para emprendedores',
-      'negocio de fichas de preposiciones imprimibles en línea',
-      'generador de fichas de lenguaje espacial uso comercial',
+      'fichas preposiciones ELE vendedores Etsy Eduki',
+      'ejercicios español lengua extranjera imprimibles',
+      'negocio fichas idiomas mercado global ELE',
     ],
-    titleTag: 'Generador Fichas Preposiciones | Crear y Vender',
+    titleTag: 'Fichas de preposiciones ELE para Etsy | LCS',
     metaDescription:
-      'Crea fichas de preposiciones para vender en Etsy, KDP y Gumroad. 8 preposiciones espaciales, completar el hueco y opción múltiple. Prueba gratis con marca de.',
+      'Cree fichas de preposiciones para ELE y véndalas en Etsy, Eduki y Hotmart. 11 idiomas, imágenes temáticas. Licencia comercial. Pruebe gratis.',
   },
 
   hero: {
-    title: 'Generador de Fichas de Preposiciones para la Práctica del Vocabulario Espacial',
-    tagline: 'Ocho preposiciones espaciales combinadas con ejercicios de imágenes y formas — construyendo el vocabulario espacial frase a frase.',
+    title: 'Genere fichas de preposiciones para vender en Etsy, Eduki y Hotmart',
+    tagline: 'Cree fichas de preposiciones con imágenes — ideales para ELE y educación bilingüe.',
     description:
-      'Diseña fichas de preposiciones profesionales que enseñan relaciones espaciales a través de ejercicios prácticos con imágenes y formas. Los usuarios practican ocho preposiciones fundamentales — en/dentro de, encima de, debajo de, al lado de, detrás de, entre, arriba de y delante de — mediante dos modos de ejercicio distintos: Completar el Hueco, donde los usuarios escriben la preposición que falta, y Opción Múltiple, donde identifican la imagen que corresponde a una descripción espacial. Selecciona qué preposiciones incluir desde la lista integrada y configura de 1 a 8 ejercicios por ficha. Explora más de 3100 ilustraciones seleccionadas en 104 temas para los objetos posicionados, y elige entre 8 formas geométricas (círculo, cubo, cilindro, corazón, hexágono, cuadrado, estrella, triángulo) como puntos de referencia espacial. El Acceso Completo desbloquea los 11 idiomas soportados con preposiciones gramaticalmente correctas — alemán con contracciones dativas como \"im" y \"am", francés con reglas de elisión para \" l\' \" ante vocales, español con artículos con género (el/la) — multiplicando tu catálogo de productos por once desde un solo flujo de trabajo. Cada ficha genera una clave de respuesta automática, y puedes exportar PDF listos para imprimir y JPEG a más de 400 DPI en formato Carta, A4, Cuadrado o dimensiones personalizadas. Ya sea que vendas paquetes temáticos de preposiciones en Etsy, compiles libros de vocabulario espacial para Amazon KDP o crees centros de lenguaje diferenciados para Gumroad, el Generador de Fichas de Preposiciones produce resultados profesionales en minutos — prueba gratis con todas las funciones, sin registro, sin tarjeta de crédito. Las descargas incluyen una marca de agua; compra una licencia para eliminarla.',
+      'Diseña fichas de preposiciones profesionales que enseñan relaciones espaciales a través de ejercicios prácticos con imágenes y formas. Los usuarios practican ocho preposiciones fundamentales — en/dentro de, encima de, debajo de, al lado de, detrás de, entre, arriba de y delante de — mediante dos modos de ejercicio distintos: Completar el Hueco, donde los usuarios escriben la preposición que falta, y Opción Múltiple, donde identifican la imagen que corresponde a una descripción espacial. Selecciona qué preposiciones incluir desde la lista integrada y configura de 1 a 8 ejercicios por ficha. Explora más de 3100 ilustraciones seleccionadas en 104 temas para los objetos posicionados, y elige entre 8 formas geométricas (círculo, cubo, cilindro, corazón, hexágono, cuadrado, estrella, triángulo) como puntos de referencia espacial. El Acceso Completo desbloquea los 11 idiomas soportados con preposiciones gramaticalmente correctas — alemán con contracciones dativas como \"im" y \"am", francés con reglas de elisión para \" l\' \" ante vocales, español con artículos con género (el/la) — multiplicando tu catálogo de productos por once desde un solo flujo de trabajo. Cada ficha genera una clave de respuesta automática, y puedes exportar PDF listos para imprimir y JPEG a más de 400 DPI en formato Carta, A4, Cuadrado o dimensiones personalizadas. Ya sea que vendas paquetes temáticos de preposiciones en Etsy, compiles libros de vocabulario espacial para Amazon KDP o crees centros de lenguaje diferenciados para Hotmart, el Generador de Fichas de Preposiciones produce resultados profesionales en minutos — prueba gratis con todas las funciones, sin registro, sin tarjeta de crédito. Las descargas incluyen una marca de agua; compra una licencia para eliminarla.',
   },
 
   howItWorks: {
-    title: 'Cómo Crear Fichas de Preposiciones en 5 Pasos',
+    title: 'Cómo crear fichas de preposiciones paso a paso',
     steps: [
       {
         title: 'Configura el diseño de página',
         description:
-          'Abre el panel de Configuración de Página y elige un tamaño: Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal, Cuadrado (1200×1200) o cualquier dimensión personalizada. Selecciona un color de fondo, elige un tema de fondo decorativo de la biblioteca de imágenes y ajusta la opacidad para mantener los ejercicios legibles. Añade un marco de borde a juego y selecciona una plantilla de ficha para darle a tus fichas de preposiciones un aspecto profesional y listo para imprimir.',
+          'Genere fichas de preposiciones para vender en Etsy, Eduki, Hotmart o TPT. Las fichas de preposiciones con imágenes son un recurso esencial para la enseñanza de ELE (Español como Lengua Extranjera) — un mega-nicho global con 22 millones de estudiantes y compradores de alto poder adquisitivo. Soporte para 11 idiomas permite crear fichas para cualquier combinación de idiomas. Con más de 3.000 imágenes en 104 temas, las preposiciones se enseñan de forma visual e intuitiva. Ideal para academias de idiomas, profesores de español en el extranjero y educación bilingüe en EE.UU. Exporte PDFs a 300 DPI con solucionario y véndalos con la licencia comercial incluida. Pruebe gratis con marca de agua — sin registro.',
       },
       {
         title: 'Elige el modo y el número de ejercicios',
@@ -58,7 +58,7 @@ const content: AppContent = {
   },
 
   keyFeatures: {
-    title: 'Características Principales del Generador de Fichas de Preposiciones',
+    title: 'Por qué las fichas de preposiciones son clave para ELE',
     features: [
       {
         title: '8 preposiciones espaciales con modos Completar el Hueco y Opción Múltiple',
@@ -104,7 +104,7 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Cómo Vender Fichas de Preposiciones en Línea',
+    title: 'Vender fichas de preposiciones en Etsy, Eduki y Hotmart',
     cases: [
       {
         title: 'Paquetes temáticos de fichas de preposiciones en Etsy',
@@ -119,16 +119,16 @@ const content: AppContent = {
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Centros de lenguaje diferenciados para Gumroad',
+        title: 'Centros de lenguaje diferenciados para Hotmart',
         description:
-          'Construye conjuntos de preposiciones por niveles usando el modo de ejercicio como eje de dificultad: Nivel 1 (Opción Múltiple, 2 preposiciones, 2 ejercicios por página), Nivel 2 (Opción Múltiple, 5 preposiciones, 4 ejercicios), Nivel 3 (Completar el Hueco, 5 preposiciones, 6 ejercicios), y Nivel 4 (Completar el Hueco, las 8 preposiciones, 8 ejercicios). Acompaña cada nivel con claves de respuesta y una hoja de seguimiento del progreso. Los compradores de Gumroad pagan precios premium por recursos de vocabulario espacial diferenciados que pueden desplegar inmediatamente en múltiples grupos de nivel.',
-        platform: 'Gumroad (teacherspayteachers.com)',
+          'Construye conjuntos de preposiciones por niveles usando el modo de ejercicio como eje de dificultad: Nivel 1 (Opción Múltiple, 2 preposiciones, 2 ejercicios por página), Nivel 2 (Opción Múltiple, 5 preposiciones, 4 ejercicios), Nivel 3 (Completar el Hueco, 5 preposiciones, 6 ejercicios), y Nivel 4 (Completar el Hueco, las 8 preposiciones, 8 ejercicios). Acompaña cada nivel con claves de respuesta y una hoja de seguimiento del progreso. Los compradores de Hotmart pagan precios premium por recursos de vocabulario espacial diferenciados que pueden desplegar inmediatamente en múltiples grupos de nivel.',
+        platform: 'Hotmart (hotmart.com)',
       },
       {
         title: 'Productos multilingües de preposiciones con Acceso Completo',
         description:
-          'El Acceso Completo desbloquea los 11 idiomas con preposiciones gramaticalmente correctas, artículos con género, contracciones dativas y reglas de elisión. Crea fichas de preposiciones en alemán con \"im" y \"am", fichas en francés con la elisión \"l\'\", fichas en español con los artículos el/la, y más. Cada versión lingüística es un producto distinto que puedes listar en Etsy, Gumroad o Amazon KDP — multiplicando efectivamente tu catálogo por once desde el mismo flujo de trabajo. Los productos multilingües de vocabulario espacial enfrentan menos competencia y atraen compradores internacionales que buscan en su idioma nativo.',
-        platform: 'Etsy / Amazon KDP / Gumroad (multilingüe)',
+          'El Acceso Completo desbloquea los 11 idiomas con preposiciones gramaticalmente correctas, artículos con género, contracciones dativas y reglas de elisión. Crea fichas de preposiciones en alemán con \"im" y \"am", fichas en francés con la elisión \"l\'\", fichas en español con los artículos el/la, y más. Cada versión lingüística es un producto distinto que puedes listar en Etsy, Hotmart o Amazon KDP — multiplicando efectivamente tu catálogo por once desde el mismo flujo de trabajo. Los productos multilingües de vocabulario espacial enfrentan menos competencia y atraen compradores internacionales que buscan en su idioma nativo.',
+        platform: 'Etsy / Amazon KDP / Hotmart (multilingüe)',
       },
       {
         title: 'Herramienta de vocabulario espacial para venta en línea y tutoría',
@@ -188,12 +188,12 @@ const content: AppContent = {
     {
       question: '¿Qué incluye la licencia comercial?',
       answer:
-        'La Licencia Comercial proporciona exportaciones en inglés sin marca de agua con derechos completos de venta. La licencia de Acceso Completo añade los 11 idiomas con preposiciones, artículos y reglas gramaticales correctas, multiplicando tu catálogo de productos. Ambos niveles otorgan derechos ilimitados para vender en Etsy, Amazon KDP, Gumroad, tu propio sitio web o cualquier otra plataforma — sin regalías por venta, sin cuotas mensuales y sin límites de producción.',
+        'La Licencia Comercial proporciona exportaciones en inglés sin marca de agua con derechos completos de venta. La licencia de Acceso Completo añade los 11 idiomas con preposiciones, artículos y reglas gramaticales correctas, multiplicando tu catálogo de productos. Ambos niveles otorgan derechos ilimitados para vender en Etsy, Amazon KDP, Hotmart, tu propio sitio web o cualquier otra plataforma — sin regalías por venta, sin cuotas mensuales y sin límites de producción.',
     },
     {
       question: '¿Puedo vender fichas creadas con esta herramienta en Etsy y Amazon KDP?',
       answer:
-        'Sí. Con una licencia comercial, tienes todos los derechos para vender tus fichas de preposiciones como descargas digitales en Etsy, como libros de actividades impresos en Amazon KDP, como recursos educativos en Gumroad o a través de cualquier otro canal de venta. El formato de imágenes y formas y la capacidad multilingüe te ofrecen una fuerte diferenciación en categorías de mercado competitivas.',
+        'Sí. Con una licencia comercial, tienes todos los derechos para vender tus fichas de preposiciones como descargas digitales en Etsy, como libros de actividades impresos en Amazon KDP, como recursos educativos en Hotmart o a través de cualquier otro canal de venta. El formato de imágenes y formas y la capacidad multilingüe te ofrecen una fuerte diferenciación en categorías de mercado competitivas.',
     },
     {
       question: '¿Cuál es la política de reembolso?',

@@ -2,29 +2,26 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'generador fichas multilingüe',
+    primaryKeyword: 'crear fichas multilingües para vender',
     secondaryKeywords: [
-      'crear fichas en varios idiomas',
-      'fichas imprimibles multilingües',
-      'vender fichas en alemán francés español',
-      'generador de libros de actividades multilingüe',
+      'negocio de imprimibles en varios idiomas',
+      'fichas bilingües para vender en Etsy',
+      'imprimibles multilingües mercado global',
+      'vender fichas educativas en múltiples idiomas',
     ],
     lsiKeywords: [
-      'generador de fichas sensible al idioma',
-      'crear fichas en 11 idiomas',
-      'mercado de imprimibles no angloparlante etsy',
-      'generador de sopa de letras multilingüe',
-      'negocio internacional de imprimibles',
-      'vender fichas en etsy.de etsy.fr',
+      'generador de fichas multiidioma vendedores',
+      'imprimibles en 11 idiomas negocio',
+      'mercado global de fichas educativas',
     ],
-    titleTag: 'Generador Fichas Multilingüe | Crear y Vender',
-    metaDescription: 'Crea y vende fichas en 11 idiomas con un generador multilingüe. Llega a compradores alemanes, franceses y españoles en Etsy, Amazon KDP y mercados globales.',
+    titleTag: 'Fichas multilingües para vender | LCS',
+    metaDescription: 'Cómo crear fichas multilingües para vender globalmente. Imprimibles en 11 idiomas para Etsy, Amazon KDP y Hotmart.',
   },
 
   hero: {
-    title: 'Cómo Crear Fichas en 11 Idiomas',
-    tagline: 'Llega a compradores internacionales en Etsy y Amazon KDP con contenido de fichas localizado profesionalmente — sin necesidad de conocimientos de idiomas',
-    description: 'La mayoría de los vendedores de imprimibles compiten exclusivamente en el mercado angloparlante, ignorando a millones de compradores que buscan en alemán, francés, español, portugués, italiano y otros idiomas. Esta guía te muestra cómo usar generadores de fichas multilingües para crear contenido auténtico y específico para cada idioma en 11 idiomas, y venderlo en marketplaces internacionales. Aprenderás la distinción fundamental entre generadores sensibles al idioma y los puramente visuales, comprenderás la oportunidad de mercado en cada idioma soportado y construirás una estrategia sistemática para expandir tu negocio de imprimibles a nivel internacional.',
+    title: 'Crear Fichas Multilingües para Vender Globalmente',
+    tagline: 'Multiplique su mercado potencial por 11 con fichas en varios idiomas generadas automáticamente',
+    description: 'La mayoría de vendedores de imprimibles se limitan a un solo idioma, ignorando el 85% del mercado global. Los generadores de LessonCraftStudio soportan 11 idiomas — inglés, alemán, francés, español, portugués, italiano, neerlandés, sueco, danés, noruego y finés — permitiendo crear fichas multilingües con el mismo esfuerzo que una versión monolingüe. Esta guía cubre la estrategia de mercados por idioma, la optimización de listados en cada plataforma y las tácticas de posicionamiento para construir un catálogo multilingüe rentable en Etsy, Amazon KDP y Hotmart. Cada generador ofrece una prueba gratis con marca de agua.',
   },
 
   introduction: 'El mercado de imprimibles en inglés en Etsy y Amazon KDP está saturado. Miles de vendedores compiten por las mismas palabras clave, bajando los precios y haciendo la visibilidad cada vez más difícil. Mientras tanto, los mercados en alemán, francés, español, portugués e italiano tienen una fracción de esa competencia — y millones de compradores activos que buscan fichas educativas, libros de puzzles y páginas de actividades en su idioma nativo.\n\nEsto no es una oportunidad hipotética. Amazon.de, Amazon.fr, Amazon.es, Amazon.it, Etsy.de y Etsy.fr son marketplaces consolidados donde padres y vendedores buscan activamente contenido imprimible localizado. Los vendedores que ofrecen fichas multilingües auténticas — no traducciones automáticas improvisadas — dominan estos mercados porque muy pocos competidores se molestan en atenderlos.\n\nEl desafío siempre ha sido la producción. Crear fichas en un idioma que no hablas requiere servicios de traducción costosos o traducción automática poco fiable. Los generadores de fichas que soportan múltiples idiomas eliminan esta barrera por completo. Las traducciones están integradas en el sistema — vocabulario, listas de palabras, pistas y etiquetas en los 11 idiomas soportados — así que creas contenido multilingüe profesional con el mismo flujo de trabajo que ya usas para el inglés.\n\nEsta guía cubre cada aspecto del negocio de imprimibles multilingües: qué tipos de generadores producen contenido específico por idioma, qué mercados ofrecen las mejores oportunidades, cómo publicar y vender internacionalmente en Etsy y Amazon KDP, y cómo construir una estrategia de catálogo en múltiples idiomas que se acumula con el tiempo.\n\nCada generador mencionado en esta guía ofrece una prueba gratis con marca de agua, para que puedas probar el resultado multilingüe en cualquier idioma soportado antes de comprar una licencia comercial.',
@@ -40,7 +37,7 @@ const content: StartContent = {
     },
     {
       heading: 'Los 11 Idiomas Soportados y Su Potencial de Mercado',
-      content: 'Cada idioma soportado conecta con marketplaces específicos y poblaciones de compradores. Comprender estos mercados te ayuda a priorizar qué idiomas abordar primero.\n\nEl inglés es el mercado más grande por volumen. Amazon.com, Amazon.co.uk, Etsy.com y Gumroad juntos representan el mayor grupo de compradores de fichas. El inglés es tu línea base — casi todos los vendedores compiten aquí.\n\nEl alemán es el idioma no inglés con mayor oportunidad. Amazon.de es el segundo marketplace de Amazon más grande del mundo. Etsy.de tiene una sólida base de compradores de imprimibles educativos. Los padres y vendedores alemanes buscan \"Arbeitsblätter\" (fichas), \"Rätsel\" (puzzles) y \"Lernmaterial\" (materiales de aprendizaje) en volúmenes significativos. La competencia es dramáticamente menor que en inglés.\n\nEl francés sirve a Amazon.fr, Etsy.fr y al mercado francófono más amplio que incluye Bélgica, Suiza y Canadá. La demanda de imprimibles educativos en francés es fuerte, especialmente para libros de actividades y fichas de puzzles. El mercado francés es tu segunda prioridad después del alemán.\n\nEl español conecta con Amazon.es y el gran mercado hispano de EE.UU. El contenido imprimible en español en Amazon.com llega a familias bilingües en Estados Unidos, lo que lo hace singularmente valioso para acceder a dos grupos de compradores desde un solo idioma.\n\nEl portugués sirve a Amazon.com.br (Brasil) y al creciente mercado portugués. La demanda brasileña de imprimibles educativos está aumentando rápidamente. El italiano sirve a Amazon.it con una demanda moderada pero creciente de libros de actividades educativas.\n\nEl neerlandés sirve a los mercados de Países Bajos y Bélgica. El sueco, danés, noruego y finés sirven a sus respectivos mercados nórdicos. Estos son más pequeños pero extremadamente desatendidos — la competencia es mínima, y los compradores que encuentran contenido localizado en estos idiomas tienden a ser clientes recurrentes fieles.\n\nEl orden de expansión recomendado para la mayoría de los vendedores: inglés primero (línea base), luego alemán (mayor oportunidad), francés (segundo más grande), español (acceso a mercado dual), después portugués e italiano, luego los idiomas nórdicos.',
+      content: 'Cada idioma soportado conecta con marketplaces específicos y poblaciones de compradores. Comprender estos mercados te ayuda a priorizar qué idiomas abordar primero.\n\nEl inglés es el mercado más grande por volumen. Amazon.com, Amazon.co.uk, Etsy.com y Hotmart juntos representan el mayor grupo de compradores de fichas. El inglés es tu línea base — casi todos los vendedores compiten aquí.\n\nEl alemán es el idioma no inglés con mayor oportunidad. Amazon.de es el segundo marketplace de Amazon más grande del mundo. Etsy.de tiene una sólida base de compradores de imprimibles educativos. Los padres y vendedores alemanes buscan \"Arbeitsblätter\" (fichas), \"Rätsel\" (puzzles) y \"Lernmaterial\" (materiales de aprendizaje) en volúmenes significativos. La competencia es dramáticamente menor que en inglés.\n\nEl francés sirve a Amazon.fr, Etsy.fr y al mercado francófono más amplio que incluye Bélgica, Suiza y Canadá. La demanda de imprimibles educativos en francés es fuerte, especialmente para libros de actividades y fichas de puzzles. El mercado francés es tu segunda prioridad después del alemán.\n\nEl español conecta con Amazon.es y el gran mercado hispano de EE.UU. El contenido imprimible en español en Amazon.com llega a familias bilingües en Estados Unidos, lo que lo hace singularmente valioso para acceder a dos grupos de compradores desde un solo idioma.\n\nEl portugués sirve a Amazon.com.br (Brasil) y al creciente mercado portugués. La demanda brasileña de imprimibles educativos está aumentando rápidamente. El italiano sirve a Amazon.it con una demanda moderada pero creciente de libros de actividades educativas.\n\nEl neerlandés sirve a los mercados de Países Bajos y Bélgica. El sueco, danés, noruego y finés sirven a sus respectivos mercados nórdicos. Estos son más pequeños pero extremadamente desatendidos — la competencia es mínima, y los compradores que encuentran contenido localizado en estos idiomas tienden a ser clientes recurrentes fieles.\n\nEl orden de expansión recomendado para la mayoría de los vendedores: inglés primero (línea base), luego alemán (mayor oportunidad), francés (segundo más grande), español (acceso a mercado dual), después portugués e italiano, luego los idiomas nórdicos.',
     },
     {
       heading: 'Cómo los Generadores Sensibles al Idioma Crean Contenido Auténtico',

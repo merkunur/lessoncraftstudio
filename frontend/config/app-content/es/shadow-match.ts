@@ -2,32 +2,32 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'generador asociación sombras',
+    primaryKeyword: 'fichas de sombras para vender en Etsy',
     secondaryKeywords: [
-      'generador de fichas de asociación de sombras para vendedores Etsy',
-      'creador de puzzles de siluetas imprimibles para editores Amazon KDP',
-      'generador de fichas de discriminación visual con licencia comercial',
-      'vender fichas de asociación de sombras en Gumroad',
+      'generador de fichas de sombras para vendedores Etsy',
+      'fichas de emparejar sombras para Amazon KDP',
+      'ejercicios de siluetas imprimibles licencia comercial',
+      'crear fichas de shadow match para vender',
     ],
     lsiKeywords: [
-      'productos digitales de discriminación visual para emprendedores',
-      'generador de puzzles de siluetas a uso comercial',
-      'actividades de percepción visual imprimibles para negocio en línea',
+      'fichas sombras siluetas vendedores preescolar',
+      'ejercicios percepción visual imprimibles KDP',
+      'negocio fichas sombras mercado hispano Etsy',
     ],
-    titleTag: 'Generador Asociación Sombras | Crear y Vender',
+    titleTag: 'Fichas de sombras para vender en Etsy | LCS',
     metaDescription:
-      'Crea fichas de asociación de sombras para Etsy, KDP y Gumroad. Modos Sombra y Completa la Imagen, siluetas auto, 104 temas. Prueba gratis con marca de agua.',
+      'Cree fichas de emparejar sombras para vender en Etsy y KDP. Los niños asocian imágenes con siluetas. Licencia comercial. Pruebe gratis.',
   },
 
   hero: {
-    title: 'Generador de Fichas de Asociación de Sombras para Actividades de Correspondencia de Siluetas e Imágenes Divididas',
-    tagline: 'Dos modos de correspondencia en un solo generador — Asociación de Sombras crea siluetas negras generadas automáticamente a partir de cualquier imagen, Completa la Imagen divide las imágenes en mitades — ambos con algoritmo de derangement Fisher-Yates garantizando cero correspondencias triviales, claves de respuesta auto-generadas y 104 colecciones de imágenes temáticas.',
+    title: 'Genere fichas de sombras para vender en Etsy, KDP y Hotmart',
+    tagline: 'Cree fichas donde los niños asocian imágenes con sus siluetas — un formato encantador.',
     description:
-      'Diseña fichas profesionales de asociación de sombras donde los usuarios asocian imágenes en color con sus siluetas o reconectan mitades de imágenes separadas. El modo Asociación de Sombras coloca 4 imágenes en color etiquetadas A, B, C, D en la fila superior y 4 siluetas negras auto-generadas etiquetadas 1, 2, 3, 4 en la fila inferior — las siluetas se crean mediante procesamiento de imágenes a nivel de píxeles que convierte cada píxel con alpha > 10 en negro puro, produciendo contornos precisos que preservan el perfil de transparencia exacto de cada imagen. El modo Completa la Imagen divide las imágenes en mitades con dirección de corte horizontal o vertical, etiqueta las primeras mitades A–D y las segundas mitades 1–4, y adapta el diseño según la orientación. Ambos modos utilizan un algoritmo de derangement Fisher-Yates para garantizar que ningún elemento aparece en su posición original, creando verdaderos desafíos de correspondencia cada vez. Activa o desactiva la visualización de las etiquetas A/B/C/D y 1/2/3/4, añade campos opcionales de nombre y fecha para uso comercial, y genera claves de respuesta automáticas que muestran cada emparejamiento correcto letra-número. El Generador de Asociación de Sombras NO es sensible al idioma: el resultado es puramente visual, sin contenido textual localizado en la ficha. El Acceso Completo desbloquea los 104 temas con más de 3100 ilustraciones y los 11 idiomas de interfaz. Añade temas de fondo y de borde con controles de opacidad independientes, incluye texto personalizado con siete opciones de fuente, y exporta PDF y JPEG listos para imprimir a 300 DPI en formato Carta, A4, Cuadrado (1200×1200) o dimensiones personalizadas. Ya sea que vendas packs de puzzles de siluetas en Etsy, compiles cuadernos de percepción visual para Amazon KDP o crees actividades rápidas de fin de clase para Gumroad, este generador produce fichas listas para la producción en minutos — prueba gratis con todas las funciones, sin registro, sin tarjeta de crédito. Las descargas incluyen una marca de agua; compra una licencia para eliminarla.',
+      'Genere fichas de emparejar sombras para vender en Etsy, Amazon KDP o Hotmart. Los niños observan imágenes coloridas y las asocian con sus siluetas correspondientes — un ejercicio de percepción visual fundamental para preescolar e infantil. Con más de 3.000 ilustraciones en 104 temas, cree fichas de sombras para cualquier estación o interés. Las fichas de sombras son uno de los formatos más populares en Etsy para educación temprana por su atractivo visual inmediato. Exporte PDFs a 300 DPI con solucionario automático y véndalos con la licencia comercial incluida. El formato es puramente visual — cero barreras de idioma. Pruebe gratis con marca de agua — sin registro.',
   },
 
   howItWorks: {
-    title: 'Cómo Crear Fichas de Asociación de Sombras en 5 Pasos',
+    title: 'Cómo crear fichas de sombras en minutos',
     steps: [
       {
         title: 'Define el Diseño de Página',
@@ -52,13 +52,13 @@ const content: AppContent = {
       {
         title: 'Genera la Clave de Respuesta y Descarga',
         description:
-          'Cambia a la pestaña Clave de Respuesta para ver la clave de respuesta auto-generada. En el modo Asociación de Sombras, cada celda muestra la imagen original junto a su silueta con una etiqueta como \"A → 2\" indicando la correspondencia correcta. En el modo Completa la Imagen, cada celda muestra la imagen original completa con su etiqueta de correspondencia. Descarga ambas versiones con los cuatro botones dedicados: JPEG Ficha de Trabajo, JPEG Clave de Respuesta, PDF Ficha de Trabajo y PDF Clave de Respuesta a 300 DPI. Activa la escala de grises para versiones que ahorran tinta. Cada exportación está lista para la producción en anuncios de Etsy, interiores de Amazon KDP y archivos de productos Gumroad.',
+          'Cambia a la pestaña Clave de Respuesta para ver la clave de respuesta auto-generada. En el modo Asociación de Sombras, cada celda muestra la imagen original junto a su silueta con una etiqueta como \"A → 2\" indicando la correspondencia correcta. En el modo Completa la Imagen, cada celda muestra la imagen original completa con su etiqueta de correspondencia. Descarga ambas versiones con los cuatro botones dedicados: JPEG Ficha de Trabajo, JPEG Clave de Respuesta, PDF Ficha de Trabajo y PDF Clave de Respuesta a 300 DPI. Activa la escala de grises para versiones que ahorran tinta. Cada exportación está lista para la producción en anuncios de Etsy, interiores de Amazon KDP y archivos de productos Hotmart.',
       },
     ],
   },
 
   keyFeatures: {
-    title: 'Características Clave del Generador de Fichas de Asociación de Sombras',
+    title: 'Por qué las fichas de sombras se venden bien en Etsy',
     features: [
       {
         title: 'Siluetas Auto-Generadas mediante Procesamiento de Imágenes a Nivel de Píxeles',
@@ -104,7 +104,7 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Cómo Vender Fichas de Asociación de Sombras en Línea',
+    title: 'Vender fichas de sombras en Etsy, KDP y Hotmart',
     cases: [
       {
         title: 'Packs Temáticos de Asociación de Sombras en Etsy',
@@ -119,16 +119,16 @@ const content: AppContent = {
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Actividades Rápidas de Fin de Clase para Gumroad',
+        title: 'Actividades Rápidas de Fin de Clase para Hotmart',
         description:
           'Diseña actividades de asociación de sombras listas para usar con campos de nombre/fecha y claves de respuesta impresas para uso comercial. Los vendedores que buscan ejercicios de discriminación visual valoran fichas que llegan listas para imprimir. Crea conjuntos vinculados al catálogo de productos: correspondencia de sombras de animales para ciencias, siluetas de profesiones para estudios sociales, puzzles de sombras de alimentos para nutrición. La opción de etiquetas te permite crear versiones guiadas (con etiquetas A/B/C/D y 1/2/3/4) y versiones desafío (etiquetas ocultas) en el mismo producto para paquetes escalonados por nivel.',
-        platform: 'Gumroad (teacherspayteachers.com)',
+        platform: 'Hotmart (hotmart.com)',
       },
       {
         title: 'Colecciones de Asociación de Sombras de Temporada',
         description:
           'Las 104 colecciones de imágenes temáticas cubren cada ocasión estacional y festiva — Navidad, Halloween, Pascua, San Valentín, vuelta al cole, vacaciones de verano y más. Las actividades de siluetas tienen un atractivo especial durante Halloween cuando los temas de sombras y misterio son naturalmente populares. Crea colecciones de asociación de sombras por disponible ahora alineadas con los períodos de mayor demanda. Incluye fichas de Asociación de Sombras y Completa la Imagen en cada conjunto estacional para máximo valor y variedad. Los productos estacionales pueden venderse a precios más altos durante sus períodos pico.',
-        platform: 'Etsy / Amazon KDP / Gumroad (estacional)',
+        platform: 'Etsy / Amazon KDP / Hotmart (estacional)',
       },
       {
         title: 'Packs de Puzzles Multi-Modo como Paquetes Premium',
@@ -193,7 +193,7 @@ const content: AppContent = {
     {
       question: '¿Puedo vender fichas de asociación de sombras creadas con esta herramienta en Etsy y Amazon KDP?',
       answer:
-        'Sí. Con una licencia comercial, tienes todos los derechos para vender tus fichas de asociación de sombras como descargas digitales en Etsy, como cuadernos impresos en Amazon KDP, como recursos para venta en línea en Gumroad, o a través de cualquier otro canal de venta. Los dos modos de ejercicio, las siluetas auto-generadas, el algoritmo de derangement, las claves de respuesta automáticas y las 104 colecciones de imágenes temáticas te dan las herramientas creativas para producir productos de correspondencia visual originales y vendibles.',
+        'Sí. Con una licencia comercial, tienes todos los derechos para vender tus fichas de asociación de sombras como descargas digitales en Etsy, como cuadernos impresos en Amazon KDP, como recursos para venta en línea en Hotmart, o a través de cualquier otro canal de venta. Los dos modos de ejercicio, las siluetas auto-generadas, el algoritmo de derangement, las claves de respuesta automáticas y las 104 colecciones de imágenes temáticas te dan las herramientas creativas para producir productos de correspondencia visual originales y vendibles.',
     },
     {
       question: '¿Cuál es la política de reembolso?',

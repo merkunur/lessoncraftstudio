@@ -2,32 +2,32 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'puzzles algebraicos ilustrados',
+    primaryKeyword: 'generador de fichas de matemáticas para vendedores de Etsy y KDP',
     secondaryKeywords: [
-      'fichas de puzzles algebraicos imprimibles para Etsy',
-      'generador de acertijos algebraicos para Amazon KDP',
-      'vender fichas de puzzles algebraicos en Gumroad',
-      'fichas de puzzles algebraicos ilustrados licencia comercial',
+      'crear fichas de cálculo para vender en Etsy',
+      'generador de operaciones matemáticas para Amazon KDP',
+      'fichas numéricas imprimibles licencia comercial',
+      'ejercicios de matemáticas para negocio de imprimibles',
     ],
     lsiKeywords: [
-      'productos digitales de álgebra visual para emprendedores',
-      'negocio de fichas de puzzles algebraicos imprimibles',
-      'generador de acertijos algebraicos uso comercial',
+      'fichas matemáticas puras sin imágenes vendedores',
+      'operaciones básicas suma resta multiplicación',
+      'negocio imprimibles matemáticas mercado hispano',
     ],
-    titleTag: 'Puzzles Algebraicos Ilustrados | Crear y Vender',
+    titleTag: 'Fichas de matemáticas para vender en Etsy | LCS',
     metaDescription:
-      'Crea puzzles algebraicos ilustrados para Etsy, KDP y Gumroad. Imágenes como variables, 4 niveles, solución única, 104 temas. Prueba gratis con marca de agua.',
+      'Genere fichas de cálculo puro para vender en Etsy, KDP y Hotmart. Suma, resta, multiplicación, división. Licencia comercial. Pruebe gratis.',
   },
 
   hero: {
-    title: 'Generador de Fichas de Puzzles Algebraicos Ilustrados con Resolución de Ecuaciones Visuales',
-    tagline: 'Transforma el álgebra temprana en una aventura visual — las imágenes se convierten en variables y cada puzzle tiene exactamente una solución.',
+    title: 'Genere fichas de matemáticas para vender en Etsy, KDP y Hotmart',
+    tagline: 'Cree fichas de operaciones numéricas puras — rápidas de generar, fáciles de vender.',
     description:
-      'Crea fichas cautivantes de puzzles algebraicos ilustrados donde las imágenes reemplazan a las variables desconocidas en sistemas de ecuaciones. Los usuarios resuelven ecuaciones vinculadas para determinar el valor que cada imagen representa — transformando el álgebra abstracta en una experiencia concreta y visual. Elige entre cuatro niveles de dificultad: Muy Fácil y Fácil utilizan dos símbolos, Medio introduce tres, y Difícil desafía a los usuarios con cuatro incógnitas simultáneas. Selecciona problemas de solo suma o mezcla con resta para práctica avanzada, y ajusta los rangos de números de 0 a 20 con una opción para permitir resultados negativos. El solucionador algebraico integrado garantiza que cada puzzle tiene exactamente una solución correcta — sin ambigüedad, sin adivinanzas. Explora más de 3100 ilustraciones seleccionadas en 104 temas para usar como símbolos algebraicos, o sube tus propias imágenes para un diseño personalizado. Cada ficha genera una clave de respuesta automática, y puedes exportar PDF listos para imprimir y JPEG a más de 400 DPI en formato Carta, A4 o personalizado. Ya sea que vendas paquetes temáticos de puzzles en Etsy, compiles cuadernos de álgebra progresiva para Amazon KDP o crees centros de matemáticas diferenciados para tu tienda, el Generador de Puzzles Algebraicos produce resultados profesionales en minutos. Prueba gratis con todas las funciones — sin registro, sin tarjeta de crédito. Las descargas incluyen una marca de agua; compra una licencia para eliminarla.',
+      'Genere fichas de cálculo numérico para vender en Etsy, Amazon KDP o Hotmart. Este generador crea ejercicios de suma, resta, multiplicación y división puros — sin imágenes, solo números y operaciones. Ideal para vendedores que necesitan producir volúmenes altos de fichas de práctica matemática rápidamente. Configure el rango de dificultad, elija las operaciones, defina el número de problemas por página y exporte PDFs listos para imprimir a 300 DPI con solucionario automático. Las fichas numéricas puras funcionan en cualquier idioma y se venden todo el año — las matemáticas no tienen temporada. La licencia comercial está incluida. El mercado hispano de fichas de matemáticas en Etsy tiene competencia mínima y demanda creciente. Pruebe gratis con marca de agua — sin registro.',
   },
 
   howItWorks: {
-    title: 'Cómo Crear Fichas de Puzzles Algebraicos Ilustrados en 5 Pasos',
+    title: 'Cómo crear fichas de cálculo en minutos',
     steps: [
       {
         title: 'Configura el diseño de página',
@@ -58,7 +58,7 @@ const content: AppContent = {
   },
 
   keyFeatures: {
-    title: 'Características Principales del Generador de Puzzles Algebraicos',
+    title: 'Por qué las fichas de matemáticas se venden todo el año',
     features: [
       {
         title: 'Formato de puzzle algebraico ilustrado',
@@ -104,7 +104,7 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Cómo Vender Fichas de Puzzles Algebraicos Ilustrados en Línea',
+    title: 'Vender fichas de matemáticas en múltiples plataformas',
     cases: [
       {
         title: 'Paquetes temáticos de puzzles algebraicos en Etsy',
@@ -119,16 +119,16 @@ const content: AppContent = {
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Centros de matemáticas diferenciados para Gumroad',
+        title: 'Centros de matemáticas diferenciados para Hotmart',
         description:
-          'Crea conjuntos de puzzles algebraicos por niveles usando los cuatro niveles de dificultad: Nivel 1 (Muy Fácil, 2 símbolos, suma), Nivel 2 (Fácil, 2 símbolos, operaciones mixtas), Nivel 3 (Medio, 3 símbolos) y Nivel 4 (Difícil, 4 símbolos). Empaqueta cada nivel con claves de respuesta y una hoja de seguimiento de progreso. Los compradores de Gumroad pagan precios premium por recursos diferenciados que se ajustan directamente a grupos de habilidades e introducen el razonamiento algebraico sin notación abstracta.',
-        platform: 'Gumroad (teacherspayteachers.com)',
+          'Crea conjuntos de puzzles algebraicos por niveles usando los cuatro niveles de dificultad: Nivel 1 (Muy Fácil, 2 símbolos, suma), Nivel 2 (Fácil, 2 símbolos, operaciones mixtas), Nivel 3 (Medio, 3 símbolos) y Nivel 4 (Difícil, 4 símbolos). Empaqueta cada nivel con claves de respuesta y una hoja de seguimiento de progreso. Los compradores de Hotmart pagan precios premium por recursos diferenciados que se ajustan directamente a grupos de habilidades e introducen el razonamiento algebraico sin notación abstracta.',
+        platform: 'Hotmart (hotmart.com)',
       },
       {
         title: 'Contenido de suscripción para tu propia tienda',
         description:
-          'Usa el generador para producir paquetes semanales de puzzles algebraicos y distribúyelos a través de tu propia tienda en Shopify, Gumroad o Payhip. Un modelo de suscripción — nuevo paquete temático de puzzles cada semana — genera ingresos recurrentes y fideliza una base de clientes de emprendedores y centros de tutoría. Con cuatro niveles de dificultad, dos modos de operación, rangos de números configurables y 104 temas, tienes suficientes combinaciones para años de contenido único.',
-        platform: 'Gumroad / Shopify / Payhip',
+          'Usa el generador para producir paquetes semanales de puzzles algebraicos y distribúyelos a través de tu propia tienda en Shopify, Hotmart o Payhip. Un modelo de suscripción — nuevo paquete temático de puzzles cada semana — genera ingresos recurrentes y fideliza una base de clientes de emprendedores y centros de tutoría. Con cuatro niveles de dificultad, dos modos de operación, rangos de números configurables y 104 temas, tienes suficientes combinaciones para años de contenido único.',
+        platform: 'Hotmart / Shopify / Payhip',
       },
       {
         title: 'Herramienta de participación para venta en línea y tutoría',
@@ -168,7 +168,7 @@ const content: AppContent = {
     {
       question: '¿Cómo funcionan las imágenes como variables algebraicas?',
       answer:
-        'Cada imagen que seleccionas de la biblioteca (o subes tú mismo) se asigna para representar una variable desconocida en el sistema de ecuaciones. La misma imagen siempre representa el mismo valor dentro de un mismo puzzle. Los usuarios ven imágenes familiares en lugar de letras abstractas, haciendo que el concepto de variables sea concreto y accesible incluso para usuarios jóvenes que nunca han encontrado el álgebra formal. Los padres y vendedores responden consistentemente bien a este enfoque visual, y las publicaciones de productos que destacan el concepto imagen-variable en sus descripciones tienden a atraer tasas de clics más altas en Etsy y Gumroad.',
+        'Cada imagen que seleccionas de la biblioteca (o subes tú mismo) se asigna para representar una variable desconocida en el sistema de ecuaciones. La misma imagen siempre representa el mismo valor dentro de un mismo puzzle. Los usuarios ven imágenes familiares en lugar de letras abstractas, haciendo que el concepto de variables sea concreto y accesible incluso para usuarios jóvenes que nunca han encontrado el álgebra formal. Los padres y vendedores responden consistentemente bien a este enfoque visual, y las publicaciones de productos que destacan el concepto imagen-variable en sus descripciones tienden a atraer tasas de clics más altas en Etsy y Hotmart.',
     },
     {
       question: '¿El generador crea claves de respuesta automáticamente?',
@@ -188,12 +188,12 @@ const content: AppContent = {
     {
       question: '¿Qué incluye la licencia comercial?',
       answer:
-        'La licencia comercial elimina la marca de agua de todas las descargas y te otorga derechos ilimitados para vender las fichas que crees — en Etsy, Amazon KDP, Gumroad, tu propio sitio web o cualquier otra plataforma. Sin regalías por venta, sin cuotas mensuales y sin límites en cuántas fichas produces o vendes.',
+        'La licencia comercial elimina la marca de agua de todas las descargas y te otorga derechos ilimitados para vender las fichas que crees — en Etsy, Amazon KDP, Hotmart, tu propio sitio web o cualquier otra plataforma. Sin regalías por venta, sin cuotas mensuales y sin límites en cuántas fichas produces o vendes.',
     },
     {
       question: '¿Puedo vender fichas creadas con esta herramienta en Etsy y Amazon KDP?',
       answer:
-        'Sí. Con una licencia comercial, tienes todos los derechos para vender tus puzzles algebraicos como descargas digitales en Etsy, como cuadernos de actividades impresos en Amazon KDP, como productos imprimibles en Gumroad o a través de cualquier otro canal de venta. Muchos vendedores crean paquetes clasificados por dificultad y cuadernos de álgebra progresiva que generan ingresos constantes. Prueba todas las funciones con la prueba gratis antes de comprar — la prueba incluye todos los niveles de dificultad, temas y formatos de exportación para que puedas evaluar la calidad del producto de primera mano.',
+        'Sí. Con una licencia comercial, tienes todos los derechos para vender tus puzzles algebraicos como descargas digitales en Etsy, como cuadernos de actividades impresos en Amazon KDP, como productos imprimibles en Hotmart o a través de cualquier otro canal de venta. Muchos vendedores crean paquetes clasificados por dificultad y cuadernos de álgebra progresiva que generan ingresos constantes. Prueba todas las funciones con la prueba gratis antes de comprar — la prueba incluye todos los niveles de dificultad, temas y formatos de exportación para que puedas evaluar la calidad del producto de primera mano.',
     },
     {
       question: '¿Cuál es la política de reembolso?',

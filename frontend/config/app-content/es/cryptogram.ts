@@ -2,32 +2,32 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'generador fichas criptograma',
+    primaryKeyword: 'generador de criptogramas para vender en Etsy',
     secondaryKeywords: [
-      'fichas de criptograma con imágenes imprimibles para vendedores Etsy',
-      'generador de puzzles de criptograma cifrado para Amazon KDP',
-      'vender fichas de criptograma en Gumroad',
-      'fichas de criptograma con leyenda de letras licencia comercial',
+      'crear criptogramas imprimibles para tienda Etsy',
+      'fichas de criptogramas para Amazon KDP',
+      'generador de mensajes cifrados licencia comercial',
+      'criptogramas educativos para vender online',
     ],
     lsiKeywords: [
-      'productos digitales de puzzles de cifrado por imágenes para emprendedores',
-      'negocio de fichas de descifrado imprimibles en línea',
-      'generador de fichas de criptograma uso comercial',
+      'criptogramas descifrar código vendedores Etsy',
+      'libros de pasatiempos criptogramas KDP',
+      'fichas cifrados educativos negocio imprimibles',
     ],
-    titleTag: 'Generador Fichas Criptograma | Crear y Vender',
+    titleTag: 'Criptogramas para vender en Etsy y KDP | LCS',
     metaDescription:
-      'Crea fichas de criptograma para Etsy, KDP y Gumroad. Cifrado por imágenes, Letras a Revelar 0–10, 104 temas, clave automática. Prueba gratis con marca de agua.',
+      'Cree criptogramas imprimibles para vender en Etsy y KDP. Mensajes cifrados educativos con imágenes. Licencia comercial incluida. Pruebe gratis.',
   },
 
   hero: {
-    title: 'Generador de Fichas de Criptograma para Puzzles de Cifrado por Imágenes',
-    tagline: 'Asocia cada letra del alfabeto a una imagen y codifica frases enteras en puzzles visuales cifrados — dificultad ajustable desde cero pistas hasta altamente guiado con Letras a Revelar.',
+    title: 'Genere criptogramas para vender en Etsy, KDP y Hotmart',
+    tagline: 'Cree fichas de mensajes cifrados con imágenes — un pasatiempo adictivo que se vende.',
     description:
-      'Convierte cualquier frase u oración en un puzzle de criptograma con imágenes donde cada letra del alfabeto es reemplazada por una imagen, y los usuarios descifran el código deduciendo qué imagen representa qué letra. Cada puzzle codifica un mensaje completo y legible — no solo una palabra aislada — ofreciendo a los resolvedores la satisfacción de revelar una oración entera mediante el reconocimiento de patrones y la deducción. El control Letras a Revelar (0–10) determina cuántas correspondencias letra-imagen están pre-resueltas como pistas, creando un gradiente de dificultad progresivo que va desde desafíos expertos sin pistas hasta puzzles altamente guiados para principiantes. La Asignación Automática extrae imágenes aleatorias de cualquiera de las 104 colecciones temáticas (más de 3100 ilustraciones) para completar las letras no asignadas al instante, o usa la Asignación Manual para seleccionar a mano imágenes específicas para letras específicas con una vista previa visual completa de todas las correspondencias. La clave de respuesta incluye una leyenda de letras completa que muestra cada letra del alfabeto emparejada con su imagen asignada en orden alfabético — la referencia definitiva para verificar las soluciones. El Acceso Completo desbloquea los 11 idiomas soportados donde tanto el texto del mensaje secreto COMO el conjunto de letras del alfabeto cambian según el idioma: los criptogramas en alemán codifican frases alemanas con ä, ö, ü, ß en el alfabeto; los criptogramas en francés codifican frases francesas con é, è, ç, à; los criptogramas en español codifican frases españolas con ñ, á, é, í, ó, ú — cada versión lingüística es un producto de cifrado verdaderamente diferente. Exporta PDF listos para imprimir y JPEG a más de 400 DPI en formato Carta, A4 o dimensiones personalizadas. Ya sea que vendas paquetes de puzzles cifrados temáticos en Etsy, compiles libros de criptogramas para Amazon KDP o crees centros de descifrado diferenciados para Gumroad, el Generador de Fichas de Criptograma produce resultados profesionales en minutos — prueba gratis con todas las funciones, sin registro, sin tarjeta de crédito. Las descargas incluyen una marca de agua; compra una licencia para eliminarla.',
+      'Genere criptogramas para vender en Etsy, Amazon KDP o Hotmart. Los criptogramas son pasatiempos donde los usuarios descifran mensajes sustituyendo símbolos por letras — un formato adictivo que engancha tanto a niños como a adultos. Este generador crea criptogramas con imágenes temáticas de más de 104 categorías, añadiendo atractivo visual a cada ficha. Los criptogramas son un nicho de baja competencia en Etsy y KDP con compradores leales que buscan variedad constantemente. Exporte PDFs a 300 DPI con solucionario automático y véndalos con la licencia comercial incluida. El mercado hispano de pasatiempos imprimibles está prácticamente vacío — esta es su oportunidad. Pruebe gratis con marca de agua — sin registro.',
   },
 
   howItWorks: {
-    title: 'Cómo Crear Fichas de Criptograma en 5 Pasos',
+    title: 'Cómo crear criptogramas paso a paso',
     steps: [
       {
         title: 'Configura el diseño de página',
@@ -58,7 +58,7 @@ const content: AppContent = {
   },
 
   keyFeatures: {
-    title: 'Características Principales del Generador de Fichas de Criptograma',
+    title: 'Por qué los criptogramas son un nicho rentable',
     features: [
       {
         title: 'Cifrado por imágenes con correspondencia imagen-letra',
@@ -93,7 +93,7 @@ const content: AppContent = {
       {
         title: 'Exportación PDF y JPEG lista para imprimir a alta resolución',
         description:
-          'Descarga fichas y claves de respuesta como imágenes JPEG de alta resolución o documentos PDF listos para imprimir. El motor de exportación usa un multiplicador DPI 6x, produciendo más de 400 DPI en tamaños de página estándar. Los formatos Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal y dimensiones personalizadas están todos soportados. Activa la exportación en escala de grises para versiones económicas en tinta ideales para impresión en volumen o libros de puzzles en blanco y negro. Cada exportación está lista para producción: listados de Etsy, interiores de Amazon KDP y archivos de productos Gumroad.',
+          'Descarga fichas y claves de respuesta como imágenes JPEG de alta resolución o documentos PDF listos para imprimir. El motor de exportación usa un multiplicador DPI 6x, produciendo más de 400 DPI en tamaños de página estándar. Los formatos Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal y dimensiones personalizadas están todos soportados. Activa la exportación en escala de grises para versiones económicas en tinta ideales para impresión en volumen o libros de puzzles en blanco y negro. Cada exportación está lista para producción: listados de Etsy, interiores de Amazon KDP y archivos de productos Hotmart.',
       },
       {
         title: 'Edición completa del lienzo con herramientas de texto e imagen',
@@ -104,7 +104,7 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Cómo Vender Fichas de Criptograma en Línea',
+    title: 'Vender criptogramas en Etsy, KDP y Hotmart',
     cases: [
       {
         title: 'Paquetes temáticos de criptogramas en Etsy',
@@ -119,16 +119,16 @@ const content: AppContent = {
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Centros de descifrado diferenciados para Gumroad',
+        title: 'Centros de descifrado diferenciados para Hotmart',
         description:
-          'Construye conjuntos de práctica de criptograma por niveles usando Letras a Revelar como eje de diferenciación: Nivel 1 (8 revelaciones, frases cortas, imágenes temáticas), Nivel 2 (5 revelaciones, frases medianas), Nivel 3 (2 revelaciones, oraciones más largas) y Nivel 4 (0 revelaciones, desafío de descifrado completo). Acompaña cada nivel con leyendas de letras de claves de respuesta y una hoja de seguimiento del progreso del usuario. La mecánica del cifrado es intrínsecamente motivadora — los usuarios experimentan una verdadera emoción de descifrado cuando cada letra decodificada desbloquea más del mensaje. Los compradores de Gumroad pagan precios premium por recursos de lectoescritura diferenciados que pueden desplegar inmediatamente en múltiples niveles de capacidad.',
-        platform: 'Gumroad (teacherspayteachers.com)',
+          'Construye conjuntos de práctica de criptograma por niveles usando Letras a Revelar como eje de diferenciación: Nivel 1 (8 revelaciones, frases cortas, imágenes temáticas), Nivel 2 (5 revelaciones, frases medianas), Nivel 3 (2 revelaciones, oraciones más largas) y Nivel 4 (0 revelaciones, desafío de descifrado completo). Acompaña cada nivel con leyendas de letras de claves de respuesta y una hoja de seguimiento del progreso del usuario. La mecánica del cifrado es intrínsecamente motivadora — los usuarios experimentan una verdadera emoción de descifrado cuando cada letra decodificada desbloquea más del mensaje. Los compradores de Hotmart pagan precios premium por recursos de lectoescritura diferenciados que pueden desplegar inmediatamente en múltiples niveles de capacidad.',
+        platform: 'Hotmart (hotmart.com)',
       },
       {
         title: 'Productos de criptograma multilingües con Acceso Completo',
         description:
           'El Acceso Completo desbloquea los 11 idiomas, y como el Criptograma es sensible al idioma, tanto el texto del mensaje secreto COMO el conjunto de letras del alfabeto cambian según el idioma. Una frase en inglés se convierte en una frase en alemán codificada con un alfabeto que incluye ä, ö, ü, ß; una frase en francés usa un alfabeto con é, è, ç, à; una frase en español usa un alfabeto con ñ, á, é, í, ó, ú. Cada versión lingüística produce un puzzle cifrado verdaderamente diferente con palabras diferentes, correspondencias de letras diferentes y una experiencia de resolución diferente. Crea series temáticas idénticas en múltiples idiomas y lista cada una como un producto de Etsy o un libro de KDP separado — once flujos de ingresos desde un solo flujo de trabajo.',
-        platform: 'Etsy / Amazon KDP / Gumroad (multilingüe)',
+        platform: 'Etsy / Amazon KDP / Hotmart (multilingüe)',
       },
       {
         title: 'Herramienta de vocabulario para venta en línea y tutoría',
@@ -188,7 +188,7 @@ const content: AppContent = {
     {
       question: '¿Puedo vender fichas creadas con esta herramienta en Etsy y Amazon KDP?',
       answer:
-        'Sí. Con una licencia comercial, tienes todos los derechos para vender tus fichas de criptograma como descargas digitales en Etsy, como libros de puzzles impresos en Amazon KDP, como recursos educativos en Gumroad o a través de cualquier otro canal de venta. Las Letras a Revelar ajustables, las colecciones de imágenes temáticas y la capacidad multilingüe te ofrecen una fuerte diferenciación en categorías de mercado.',
+        'Sí. Con una licencia comercial, tienes todos los derechos para vender tus fichas de criptograma como descargas digitales en Etsy, como libros de puzzles impresos en Amazon KDP, como recursos educativos en Hotmart o a través de cualquier otro canal de venta. Las Letras a Revelar ajustables, las colecciones de imágenes temáticas y la capacidad multilingüe te ofrecen una fuerte diferenciación en categorías de mercado.',
     },
     {
       question: '¿El Generador de Criptograma es sensible al idioma?',

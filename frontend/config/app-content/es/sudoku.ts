@@ -2,32 +2,32 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'generador de sudoku con imágenes',
+    primaryKeyword: 'generador de sudoku con imágenes para libros KDP',
     secondaryKeywords: [
-      'fichas de sudoku infantil imprimibles para Etsy',
-      'generador de sudoku con imágenes para Amazon KDP',
-      'vender fichas de sudoku infantil en Gumroad',
-      'fichas de sudoku con imágenes licencia comercial',
+      'crear sudoku con imágenes para Amazon KDP',
+      'generador de sudoku visual para vendedores Etsy',
+      'sudoku imprimible con imágenes licencia comercial',
+      'crear libros de sudoku para vender online',
     ],
     lsiKeywords: [
-      'productos digitales de sudoku infantil para emprendedores',
-      'negocio de fichas de puzzles lógicos imprimibles',
-      'generador de sudoku con imágenes uso comercial',
+      'sudoku imágenes niños vendedores KDP Etsy',
+      'libros sudoku visual imprimibles Amazon',
+      'negocio sudoku imprimible mercado hispano',
     ],
-    titleTag: 'Generador de Sudoku con Imágenes | Crear y Vender',
+    titleTag: 'Sudoku con imágenes para libros KDP | LCS',
     metaDescription:
-      'Crea fichas de sudoku con imágenes para vender en Etsy, KDP y Gumroad. Cuadrícula 4×4, tres dificultades, 104 temas, clave de respuesta automática. Prueba gratis.',
+      'Cree sudoku con imágenes para vender en Amazon KDP y Etsy. Formato visual para niños, solucionario. Licencia comercial incluida. Pruebe gratis.',
   },
 
   hero: {
-    title: 'Generador de Fichas de Sudoku con Imágenes para Puzzles Lógicos 4×4',
-    tagline: 'Sudoku visual con imágenes en lugar de números — tres niveles de dificultad de 4 a 8 celdas vacías, claves de respuesta automáticas con cuadrículas completas y selección de imágenes por tema en 104 colecciones para puzzles vendibles en todo el mundo sin traducción.',
+    title: 'Genere sudoku con imágenes para vender en Amazon KDP y Etsy',
+    tagline: 'Cree sudoku visual con imágenes temáticas — perfecto para libros de actividades KDP.',
     description:
-      'Crea fichas profesionales de sudoku con imágenes en cuadrícula 4×4 donde los usuarios completan las celdas vacías con la imagen correcta usando lógica de filas y columnas. Cada puzzle usa exactamente 4 imágenes únicas que deben aparecer una vez en cada fila y una vez en cada columna — las mismas reglas que el sudoku clásico, pero con ilustraciones coloridas en lugar de números. Elige entre tres niveles de dificultad: Fácil elimina 4 celdas, Medio elimina 6 y Difícil elimina 8 — la mitad de la cuadrícula. Selecciona imágenes mediante selección por tema que elige 4 imágenes al azar de cualquiera de las 104 colecciones temáticas, o selecciona manualmente exactamente 4 imágenes de la biblioteca, la búsqueda o tus propias imágenes subidas. El diseño premium de la cuadrícula presenta colores de bloque alternos en azul claro y rosa claro, sombras multicapa y un borde exterior índigo con esquinas redondeadas. Cada puzzle incluye un encabezado \"Sudoku con Imágenes\" localizado en los 11 idiomas y una clave de respuesta de doble lienzo mostrando la cuadrícula completa con las 16 celdas rellenadas. Añade temas de fondo y de borde con controles de opacidad independientes, y exporta PDF y JPEG listos para imprimir a 300 DPI en formato Carta, A4 o personalizado. Como el sudoku con imágenes es completamente visual — ninguna palabra aparece en la cuadrícula del puzzle — cada ficha funciona de forma idéntica en los 11 idiomas, haciendo tus productos vendibles en todo el mundo sin modificación alguna. El Acceso Completo desbloquea los 104 temas con más de 3100 ilustraciones y los 11 idiomas de interfaz. Ya sea que vendas paquetes temáticos de sudoku en Etsy, compiles cuadernos de lógica para Amazon KDP o crees actividades de razonamiento para Gumroad, este generador produce puzzles listos para la venta en minutos — prueba gratis con todas las funciones — sin registro, sin tarjeta de crédito. Las descargas incluyen una marca de agua; compra una licencia para eliminarla.',
+      'Genere sudoku con imágenes para vender en Amazon KDP, Etsy o Hotmart. En lugar de números, los niños completan cuadrículas con imágenes temáticas — un formato innovador que hace el sudoku accesible para preescolares y niños pequeños. Con más de 3.000 imágenes en 104 temas, cree sudokus visuales para cualquier interés. Los libros de sudoku son un género perenne en Amazon KDP con ventas consistentes, y el formato con imágenes abre un mercado infantil que el sudoku numérico no alcanza. Exporte PDFs a 300 DPI con solucionario automático y véndalos con la licencia comercial incluida. Pruebe gratis con marca de agua — sin registro.',
   },
 
   howItWorks: {
-    title: 'Cómo Crear Fichas de Sudoku con Imágenes en 5 Pasos',
+    title: 'Cómo crear sudoku con imágenes paso a paso',
     steps: [
       {
         title: 'Configura el diseño de página',
@@ -52,13 +52,13 @@ const content: AppContent = {
       {
         title: 'Genera la clave de respuesta y descarga',
         description:
-          'Cambia a la pestaña Clave de Respuesta para ver la cuadrícula completa con las 16 celdas rellenadas — sin espacios vacíos. Descarga ambas versiones usando los cuatro botones dedicados: Ficha JPEG, Clave de Respuesta JPEG, Ficha PDF y Clave de Respuesta PDF. Los archivos se exportan como sudoku_worksheet.jpeg/pdf y sudoku_answer_key.jpeg/pdf a 300 DPI. Activa la escala de grises para versiones que ahorran tinta. Cada exportación está lista para publicar en Etsy, interiores de Amazon KDP y archivos de productos de Gumroad.',
+          'Cambia a la pestaña Clave de Respuesta para ver la cuadrícula completa con las 16 celdas rellenadas — sin espacios vacíos. Descarga ambas versiones usando los cuatro botones dedicados: Ficha JPEG, Clave de Respuesta JPEG, Ficha PDF y Clave de Respuesta PDF. Los archivos se exportan como sudoku_worksheet.jpeg/pdf y sudoku_answer_key.jpeg/pdf a 300 DPI. Activa la escala de grises para versiones que ahorran tinta. Cada exportación está lista para publicar en Etsy, interiores de Amazon KDP y archivos de productos de Hotmart.',
       },
     ],
   },
 
   keyFeatures: {
-    title: 'Características Principales del Generador de Sudoku con Imágenes',
+    title: 'Por qué el sudoku visual abre un mercado nuevo',
     features: [
       {
         title: 'Sudoku 4×4 con imágenes en lugar de números',
@@ -104,7 +104,7 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Cómo Vender Fichas de Sudoku con Imágenes en Línea',
+    title: 'Vender sudoku con imágenes en KDP, Etsy y Hotmart',
     cases: [
       {
         title: 'Paquetes temáticos de sudoku con imágenes en Etsy',
@@ -119,16 +119,16 @@ const content: AppContent = {
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Actividades de lógica y razonamiento para Gumroad',
+        title: 'Actividades de lógica y razonamiento para Hotmart',
         description:
-          'Crea fichas de razonamiento lógico listas para usar con claves de respuesta impresas para uso comercial. Los vendedores que buscan en Gumroad actividades de pensamiento crítico valoran el sudoku con imágenes porque desarrolla la deducción lógica en un formato accesible para usuarios pequeños. Crea conjuntos alineados con el catálogo de productos organizados por tema: puzzles lógicos de animales de granja, actividades de razonamiento de grupos de alimentos, fichas de resolución de problemas de profesiones. Cada conjunto incluye fichas para usuarios en múltiples niveles de dificultad y claves de respuesta para el vendedor en formatos PDF y JPEG.',
-        platform: 'Gumroad (teacherspayteachers.com)',
+          'Crea fichas de razonamiento lógico listas para usar con claves de respuesta impresas para uso comercial. Los vendedores que buscan en Hotmart actividades de pensamiento crítico valoran el sudoku con imágenes porque desarrolla la deducción lógica en un formato accesible para usuarios pequeños. Crea conjuntos alineados con el catálogo de productos organizados por tema: puzzles lógicos de animales de granja, actividades de razonamiento de grupos de alimentos, fichas de resolución de problemas de profesiones. Cada conjunto incluye fichas para usuarios en múltiples niveles de dificultad y claves de respuesta para el vendedor en formatos PDF y JPEG.',
+        platform: 'Hotmart (hotmart.com)',
       },
       {
         title: 'Colecciones de sudoku de temporada y festividades',
         description:
           'Las 104 colecciones de imágenes temáticas cubren cada ocasión estacional y festiva — Navidad, Halloween, Semana Santa, San Valentín, vuelta al cole, vacaciones de verano y más. Crea colecciones de puzzles de sudoku de disponible ahora que se alineen con los períodos de mayor demanda. Lanza paquetes de sudoku de Halloween en septiembre, colecciones de Navidad en octubre y paquetes de San Valentín en enero. Incluye los tres niveles de dificultad en cada conjunto de temporada para máximo valor. Los productos de temporada tienen precios más altos durante sus ventanas pico y crean razones naturales para compras repetidas a lo largo del año.',
-        platform: 'Etsy / Amazon KDP / Gumroad (temporada)',
+        platform: 'Etsy / Amazon KDP / Hotmart (temporada)',
       },
       {
         title: 'Alcance global con puzzles exclusivamente visuales',
@@ -193,7 +193,7 @@ const content: AppContent = {
     {
       question: '¿Puedo vender fichas de sudoku con imágenes creadas con esta herramienta en Etsy y Amazon KDP?',
       answer:
-        'Sí. Con una licencia comercial, tienes derechos completos para vender tus fichas de sudoku con imágenes como descargas digitales en Etsy, como cuadernos impresos en Amazon KDP, como recursos educativos en Gumroad o a través de cualquier otro canal de ventas. Los tres niveles de dificultad, las 104 colecciones de imágenes temáticas y el formato exclusivamente visual te dan las herramientas creativas para producir productos de sudoku originales y vendibles globalmente.',
+        'Sí. Con una licencia comercial, tienes derechos completos para vender tus fichas de sudoku con imágenes como descargas digitales en Etsy, como cuadernos impresos en Amazon KDP, como recursos educativos en Hotmart o a través de cualquier otro canal de ventas. Los tres niveles de dificultad, las 104 colecciones de imágenes temáticas y el formato exclusivamente visual te dan las herramientas creativas para producir productos de sudoku originales y vendibles globalmente.',
     },
     {
       question: '¿Cuál es la política de reembolso?',

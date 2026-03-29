@@ -2,32 +2,32 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'generador fichas grafomotricidad',
+    primaryKeyword: 'fichas de trazo y grafomotricidad para vender en Etsy',
     secondaryKeywords: [
-      'generador de fichas de trazado de líneas para vendedores Etsy',
-      'creador de fichas de grafomotricidad para editores Amazon KDP',
-      'vender fichas de trazado de líneas en Gumroad',
-      'generador de fichas grafomotricidad licencia comercial',
+      'generador de fichas de trazo para vendedores Etsy',
+      'fichas de grafomotricidad para Amazon KDP',
+      'ejercicios de motricidad fina imprimibles licencia comercial',
+      'crear fichas de preescritura para vender',
     ],
     lsiKeywords: [
-      'productos digitales fichas trazado de líneas para emprendedores',
-      'fichas de motricidad fina imprimibles uso comercial',
-      'generador de fichas grafomotricidad con plantillas SVG',
+      'fichas trazo grafomotricidad vendedores preescolar',
+      'ejercicios motricidad fina imprimibles KDP',
+      'negocio fichas preescritura mercado hispano',
     ],
-    titleTag: 'Generador Fichas Grafomotricidad | Crear y Vender',
+    titleTag: 'Fichas de trazo para vender en Etsy y KDP | LCS',
     metaDescription:
-      'Crea fichas de grafomotricidad para Etsy, KDP y Gumroad. Ocho plantillas SVG, pares de imágenes, 104 colecciones temáticas. Prueba gratis con marca de agua.',
+      'Cree fichas de trazo y grafomotricidad para vender en Etsy y KDP. Imágenes temáticas, dificultad ajustable. Licencia comercial. Pruebe gratis.',
   },
 
   hero: {
-    title: 'Generador de Fichas de Grafomotricidad para Ejercicios de Trazado de Líneas',
-    tagline: 'Ocho plantillas de líneas SVG — curvas, diagonales, horizontal y vertical — con 4 a 5 pares de imágenes por página para el desarrollo de la motricidad fina mediante el trazado de líneas guiado.',
+    title: 'Genere fichas de trazo y grafomotricidad para vender en Etsy y KDP',
+    tagline: 'Cree fichas de motricidad fina con imágenes temáticas — el producto preescolar más buscado.',
     description:
-      'Diseña fichas profesionales de grafomotricidad donde los usuarios trazan a lo largo de caminos guiados para conectar pares de imágenes emparejadas. Ocho plantillas basadas en SVG cubren cuatro tipos de líneas: cuatro plantillas de curvas para movimientos fluidos, dos plantillas de diagonales para trazos en ángulo, una plantilla horizontal para trazado de izquierda a derecha y una plantilla vertical para práctica de arriba hacia abajo. Cada plantilla coloca 4 o 5 pares de imágenes emparejadas a cada lado del camino de la línea, dando a los usuarios un objetivo visual en cada extremo. El autorrelleno asigna aleatoriamente pares de imágenes desde cualquier tema seleccionado o desde todos los temas a la vez. El contenido proviene de la Biblioteca de Imágenes integrada con más de 3100 ilustraciones coloridas en 104 temas — animales, vehículos, comida, naturaleza y docenas más. Cada ficha es puramente visual con cero texto en la salida, haciéndolas universalmente utilizables sin importar el idioma o nivel de lectura. La selección de la plantilla determina automáticamente la orientación de la página: las plantillas de curvas pasan a horizontal para movimientos amplios, mientras que las plantillas de diagonales, horizontal y vertical usan vertical para práctica enfocada de arriba hacia abajo. El Acceso Completo desbloquea los 104 temas y los 11 idiomas de interfaz. Exporta PDF y JPEG listos para imprimir a 300 DPI en formato Carta, A4 o dimensiones personalizadas. Ya sea que vendas packs de trazado de líneas en Etsy, compiles cuadernos de motricidad fina para Amazon KDP o crees centros de preparación para la escritura para Gumroad, el Generador de Fichas de Grafomotricidad ofrece resultados profesionales en minutos — prueba gratis con todas las funciones, sin registro, sin tarjeta de crédito. Las descargas incluyen una marca de agua; compra una licencia para eliminarla.',
+      'Genere fichas de trazo y grafomotricidad para vender en Etsy, Amazon KDP o Hotmart. Las fichas de trazo son el producto preescolar más buscado — los padres y centros educativos las necesitan constantemente para desarrollar la motricidad fina. Este generador crea fichas donde los niños trazan líneas entre imágenes temáticas, con dificultad ajustable desde trazos rectos hasta curvas y zigzags. Seleccione entre más de 3.000 ilustraciones en 104 temas. Exporte PDFs a 300 DPI con solucionario y véndalos con la licencia comercial incluida. Las fichas de grafomotricidad son puramente visuales y funcionan en cualquier idioma. El mercado hispano de material preescolar en Etsy está masivamente desatendido. Pruebe gratis con marca de agua — sin registro.',
   },
 
   howItWorks: {
-    title: 'Cómo Crear Fichas de Grafomotricidad en 5 Pasos',
+    title: 'Cómo crear fichas de trazo paso a paso',
     steps: [
       {
         title: 'Configurar el diseño de página',
@@ -52,13 +52,13 @@ const content: AppContent = {
       {
         title: 'Descargar como JPEG o PDF',
         description:
-          'Abre el menú Descargar y exporta tu ficha terminada como JPEG de alta resolución (calidad 1.0) o PDF listo para imprimir a 300 DPI mediante un multiplicador de renderizado 6x. Activa la exportación en escala de grises para versiones que ahorran tinta, ideales para impresión en línea. Los archivos se guardan como drawing_lines_worksheet.jpeg o drawing_lines_worksheet.pdf. Cada exportación está lista para producción: listados de Etsy, interiores de Amazon KDP y archivos de productos Gumroad — sin necesidad de postprocesamiento.',
+          'Abre el menú Descargar y exporta tu ficha terminada como JPEG de alta resolución (calidad 1.0) o PDF listo para imprimir a 300 DPI mediante un multiplicador de renderizado 6x. Activa la exportación en escala de grises para versiones que ahorran tinta, ideales para impresión en línea. Los archivos se guardan como drawing_lines_worksheet.jpeg o drawing_lines_worksheet.pdf. Cada exportación está lista para producción: listados de Etsy, interiores de Amazon KDP y archivos de productos Hotmart — sin necesidad de postprocesamiento.',
       },
     ],
   },
 
   keyFeatures: {
-    title: 'Funcionalidades Clave del Generador de Fichas de Grafomotricidad',
+    title: 'Por qué las fichas de grafomotricidad dominan el preescolar',
     features: [
       {
         title: 'Ocho plantillas de líneas SVG: curvas, diagonales, horizontal y vertical',
@@ -93,7 +93,7 @@ const content: AppContent = {
       {
         title: 'Exportación PDF y JPEG lista para imprimir a 300 DPI',
         description:
-          'Descarga fichas como imágenes JPEG de alta resolución (calidad 1.0) o documentos PDF listos para imprimir renderizados a 300 DPI mediante un multiplicador de renderizado 6x. Los formatos Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal, Cuadrado (1200×1200) y dimensiones personalizadas están todos soportados. Activa la exportación en escala de grises para versiones que ahorran tinta, ideales para impresión en línea o cuadernos en blanco y negro. Cada exportación está lista para producción: listados de Etsy, interiores de Amazon KDP y archivos de productos Gumroad — sin necesidad de postprocesamiento.',
+          'Descarga fichas como imágenes JPEG de alta resolución (calidad 1.0) o documentos PDF listos para imprimir renderizados a 300 DPI mediante un multiplicador de renderizado 6x. Los formatos Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal, Cuadrado (1200×1200) y dimensiones personalizadas están todos soportados. Activa la exportación en escala de grises para versiones que ahorran tinta, ideales para impresión en línea o cuadernos en blanco y negro. Cada exportación está lista para producción: listados de Etsy, interiores de Amazon KDP y archivos de productos Hotmart — sin necesidad de postprocesamiento.',
       },
       {
         title: 'Edición completa del lienzo con herramientas de texto y decoración',
@@ -104,7 +104,7 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Cómo Vender Fichas de Grafomotricidad en Línea',
+    title: 'Vender fichas de trazo en Etsy, KDP y Hotmart',
     cases: [
       {
         title: 'Packs de actividades de trazado de líneas en Etsy',
@@ -119,16 +119,16 @@ const content: AppContent = {
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Centros de preescritura y preparación para la escritura para Gumroad',
+        title: 'Centros de preescritura y preparación para la escritura para Hotmart',
         description:
           'Construye estaciones de preparación para la escritura por niveles usando el tipo de línea como eje de progresión: Estación 1 (líneas horizontales para seguimiento de izquierda a derecha), Estación 2 (líneas verticales para trazos de arriba hacia abajo), Estación 3 (curvas para movimientos de formación de letras) y Estación 4 (diagonales para formas de letras angulares). Cada estación trabaja una competencia de preescritura específica que se transfiere directamente a la formación de letras. Agrupa cada estación con ejercicios temáticos y tarjetas de instrucciones para el vendedor. El formato visual sin texto funciona en cualquier tienda sin importar el idioma de los usuarios, haciendo estos recursos valiosos para contextos inclusivos, multilingües y de educación especial.',
-        platform: 'Gumroad (teacherspayteachers.com)',
+        platform: 'Hotmart (hotmart.com)',
       },
       {
         title: 'Fichas visuales multilingües para mercados globales',
         description:
           'Como las fichas de Grafomotricidad no contienen texto en la salida, el mismo producto funciona en todos los idiomas sin modificación. Los usuarios trazan líneas entre los pares de imágenes sin necesidad de leer — el trazado visual en sí proporciona todo el guiado necesario. Crea un conjunto de ejercicios de trazado de líneas y véndelo en todo el mundo sin traducción ni versiones en idiomas separados que mantener. Publica productos idénticos en tiendas Etsy dirigidas a diferentes países, o publica el mismo interior KDP en todos los mercados internacionales de Amazon. Un solo flujo de trabajo produce un producto universalmente vendible.',
-        platform: 'Etsy / Amazon KDP / Gumroad (global)',
+        platform: 'Etsy / Amazon KDP / Hotmart (global)',
       },
       {
         title: 'Herramienta de motricidad fina para venta en línea y la terapia',
@@ -193,7 +193,7 @@ const content: AppContent = {
     {
       question: '¿Puedo vender fichas creadas con esta herramienta en Etsy y Amazon KDP?',
       answer:
-        'Sí. Con una licencia comercial, tienes todos los derechos para vender tus fichas de trazado de líneas como descargas digitales en Etsy, como cuadernos impresos en Amazon KDP, como recursos educativos en Gumroad o a través de cualquier otro canal de venta. Las ocho plantillas de líneas, los 104 temas de imágenes y el formato completamente visual te ofrecen una fuerte diferenciación y vendibilidad global en las categorías de fichas.',
+        'Sí. Con una licencia comercial, tienes todos los derechos para vender tus fichas de trazado de líneas como descargas digitales en Etsy, como cuadernos impresos en Amazon KDP, como recursos educativos en Hotmart o a través de cualquier otro canal de venta. Las ocho plantillas de líneas, los 104 temas de imágenes y el formato completamente visual te ofrecen una fuerte diferenciación y vendibilidad global en las categorías de fichas.',
     },
     {
       question: '¿Cuál es la política de reembolso?',

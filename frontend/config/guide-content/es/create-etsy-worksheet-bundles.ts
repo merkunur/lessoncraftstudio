@@ -2,29 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'paquetes de fichas Etsy',
+    primaryKeyword: 'crear paquetes de fichas para Etsy',
     secondaryKeywords: [
-      'cómo crear paquetes de fichas Etsy',
-      'estrategia de anuncios de paquetes imprimibles Etsy',
-      'vender paquetes de fichas en Etsy',
-      'creación de paquetes de descargas digitales Etsy',
+      'cómo crear paquetes de fichas educativas Etsy',
+      'estrategia paquetes imprimibles Etsy mayor valor',
+      'empaquetar fichas para vender más en Etsy',
+      'paquetes temáticos fichas Etsy precios y formato',
     ],
     lsiKeywords: [
-      'optimización de anuncios Etsy organización de archivos paquetes estrategia',
-      'estrategia de precios paquetes fichas anclaje descuento valor apilado',
-      'imágenes de vista previa paquetes Etsy miniatura mockup diseño',
-      'tipos de paquetes por asignatura grado tema estacional educativos imprimibles',
-      'entrega digital Etsy archivos múltiples estructura de paquetes',
-      'estrategia de tienda Etsy paquetes vs anuncios individuales canibalización',
+      'paquetes temáticos fichas matemáticas lectoescritura puzles colección',
+      'valor percibido mega pack múltiples formatos claves respuestas',
+      'venta cruzada productos relacionados catálogo agrupación Etsy',
     ],
-    titleTag: 'Crear paquetes de fichas Etsy — Guía',
-    metaDescription: 'Crea paquetes de fichas Etsy que aumentan el valor medio del pedido. Tipos de paquetes, organización de archivos, imágenes de vista previa, optimización.',
+    titleTag: 'Crear paquetes de fichas para Etsy | LCS',
+    metaDescription: 'Aprenda a crear paquetes de fichas para Etsy que aumenten sus ventas. Estrategias de agrupación, precios y formato para máximo valor percibido.',
   },
 
   hero: {
-    title: 'Cómo crear paquetes de fichas Etsy',
+    title: 'Cómo crear paquetes de fichas rentables para Etsy',
     tagline: 'Una guía completa para crear, estructurar, publicar y optimizar paquetes de fichas para Etsy — incluyendo selección de tipo de paquete por asignatura, grado, tema, temporada y formato, selección de productos para máximo valor percibido, organización de archivos dentro de los límites de entrega de Etsy, imágenes de vista previa específicas para paquetes y diseño de miniaturas, títulos y etiquetas de anuncios optimizados para términos de búsqueda de paquetes, estrategias de precios con valor apilado y descuentos de anclaje, y seguimiento del rendimiento para identificar tus combinaciones de paquetes con mejor resultado',
-    description: 'Los paquetes de fichas están entre los anuncios de mayor ingreso en Etsy para vendedores de imprimibles educativos. Esta guía te acompaña en todo el flujo de trabajo de creación de paquetes — desde elegir qué productos combinar hasta escribir anuncios que comuniquen el valor del paquete y hacer seguimiento del rendimiento a lo largo del tiempo.',
+    description: 'Los paquetes de fichas generan los mayores ingresos por transacción en Etsy porque ofrecen un valor percibido excepcional a los compradores. Un paquete de 20-50 fichas temáticas con claves de respuestas a un precio competitivo convierte significativamente mejor que fichas individuales. Esta guía le muestra cómo planificar, crear y empaquetar sus fichas en colecciones temáticas que maximicen las ventas. Aprenda a combinar fichas de diferentes generadores en paquetes coherentes, fijar precios que equilibren competitividad con rentabilidad, crear fotos de anuncio que comuniquen el valor del paquete y estructurar su catálogo para fomentar la venta cruzada entre productos relacionados.',
   },
 
   introduction: 'Los paquetes son una de las estrategias más efectivas para aumentar los ingresos de una tienda Etsy de imprimibles. Un paquete de fichas bien construido ofrece a los compradores más valor por compra mientras te proporciona un valor medio de pedido más alto que los anuncios individuales por sí solos. La economía es sencilla: si una ficha individual se vende por $3 y un paquete de ocho fichas relacionadas se vende por $12, ganas cuatro veces los ingresos por transacción con un coste de producción adicional mínimo.\n\nMás allá del beneficio directo de ingresos, los paquetes compiten de forma diferente en la búsqueda de Etsy. Los compradores que buscan \"paquete de fichas de matemáticas jardín de infantes\" tienen una intención de compra más fuerte que aquellos que buscan fichas individuales — ya han decidido que quieren múltiples productos y están buscando la mejor colección. Las palabras clave de paquetes también enfrentan menos competencia que las palabras clave de productos individuales en muchas categorías de imprimibles educativos.\n\nLos paquetes también reducen la fatiga de decisión que causa que los compradores se vayan sin comprar. En lugar de elegir entre seis anuncios individuales, un comprador puede adquirir un paquete que incluya todo lo que necesita. para vendedores que compran materiales para venta en línea o padres que organizan recursos de trabajo desde casa, los paquetes resuelven el problema de \"¿cuáles debería elegir?\".\n\nEl desafío es que crear paquetes efectivos requiere planificación deliberada. Colecciones aleatorias de fichas empaquetadas juntas rinden menos que paquetes cuidadosamente seleccionados con temas claros, calidad consistente y presentación profesional. Esta guía cubre cada aspecto del proceso de creación de paquetes: seleccionar el tipo de paquete adecuado para tu catálogo, elegir qué productos incluir, organizar archivos para una entrega profesional, crear imágenes de vista previa que comuniquen valor, escribir anuncios específicos de paquetes optimizados para la búsqueda de Etsy, fijar precios para máximos ingresos y hacer seguimiento del rendimiento para refinar tu estrategia con el tiempo. Todos los generadores mencionados en esta guía están disponibles como prueba gratis con marca de agua, así que puedes crear contenido de ejemplo para paquetes y probar tu enfoque antes de comprometerte con una licencia.',

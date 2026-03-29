@@ -2,29 +2,26 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'cómo crear fichas que se venden',
+    primaryKeyword: 'crear fichas que se vendan',
     secondaryKeywords: [
-      'crear fichas profesionales para vender',
-      'hacer fichas para vender en Etsy',
-      'creación de fichas para vendedores',
-      'consejos de diseño de fichas imprimibles',
+      'diseñar fichas imprimibles que generen ventas',
+      'cómo crear imprimibles que los compradores quieran',
+      'fichas educativas que se venden rápido',
+      'secretos de fichas imprimibles rentables',
     ],
     lsiKeywords: [
-      'estándares de calidad de fichas',
-      'generación de claves de respuestas',
-      'flujo de trabajo de creación de productos imprimibles',
-      'estrategia de paquetes de fichas',
-      'imágenes temáticas para fichas',
-      'fichas PDF listas para imprimir',
+      'diseño de fichas para vendedores exitosos',
+      'optimizar imprimibles para conversión Etsy',
+      'fichas profesionales que atraen compradores',
     ],
-    titleTag: 'Cómo Crear Fichas que se Venden — Guía Profesional',
-    metaDescription: 'Cómo crear fichas que se venden en Etsy, Amazon KDP y Gumroad. Guía paso a paso sobre imágenes temáticas, claves de respuestas, precios y optimización de ventas.',
+    titleTag: 'Crear fichas que se vendan | LCS',
+    metaDescription: 'Aprenda a crear fichas que se vendan. Técnicas de diseño, estrategias de producto y optimización para Etsy, Amazon KDP y Hotmart. Guía práctica.',
   },
 
   hero: {
-    title: 'Cómo Crear Fichas Profesionales que se Venden',
-    tagline: 'El manual de creación de productos que diferencia las fichas que los compradores eligen de las que ignoran',
-    description: 'Esta guía cubre cada paso de la creación de fichas imprimibles que cumplen estándares profesionales y se venden de forma constante. Aprenderás qué hace que una ficha se vea profesional, cómo usar generadores para eliminar las barreras de diseño, cómo crear paquetes que maximicen los ingresos y cómo probar tus productos antes de publicarlos. Ya sea que vendas en Etsy, Amazon KDP, Gumroad o Gumroad, la calidad de tus fichas determina si los compradores hacen clic en \"añadir al carrito\" o siguen desplazándose.',
+    title: 'Cómo Crear Fichas Imprimibles Que Se Vendan',
+    tagline: 'Las técnicas que separan los imprimibles que acumulan polvo de los que generan ventas constantes',
+    description: 'Crear fichas imprimibles es fácil. Crear fichas que los compradores realmente quieran comprar requiere entender qué buscan, cómo toman decisiones de compra y qué elementos visuales y pedagógicos generan confianza a primera vista. Esta guía cubre las técnicas de diseño, estructura de producto y optimización visual que transforman fichas genéricas en productos que se venden de forma constante en Etsy, Amazon KDP y Hotmart. Aprenderá a identificar lo que funciona en su nicho, crear diferenciación real y producir imprimibles profesionales con los generadores de fichas. Cada generador ofrece una prueba gratis con marca de agua.',
   },
 
   introduction: 'El mercado de fichas imprimibles es competitivo. Miles de vendedores publican nuevos productos cada semana. Sin embargo, la mayoría de esos productos comparten el mismo problema: se ven amateurs. Espaciado inconsistente, claves de respuestas ausentes, diseños aburridos y clipart genérico transmiten poco esfuerzo — y los compradores lo notan.\n\nLos vendedores que generan ingresos constantes con fichas son los que tratan la creación de productos como un oficio. Sus fichas tienen diseños limpios, claves de respuestas precisas, temas visualmente atractivos y formato profesional de impresión. No son genios del diseño — son vendedores que entienden qué evalúan los compradores antes de comprar y que usan las herramientas adecuadas para cumplir esos estándares de manera eficiente.\n\nEsta guía trata de cerrar esa brecha de calidad. Aprenderás exactamente qué hace que una ficha sea \"profesional\" a ojos de los compradores, cómo los generadores de fichas manejan la complejidad técnica para que puedas centrarte en la estrategia de producto, y el flujo de trabajo específico de creación que produce productos vendibles en minutos en lugar de horas.\n\nUna nota importante: cada generador de fichas mencionado en esta guía ofrece una prueba gratis con marca de agua. Puedes probar el proceso completo de creación, evaluar la calidad de los resultados y crear fichas de muestra antes de comprar una licencia comercial. No hay ningún riesgo en seguir los pasos.',
@@ -48,7 +45,7 @@ const content: StartContent = {
     },
     {
       heading: 'Proceso paso a paso de creación de fichas para vendedores',
-      content: 'Aquí tienes el flujo de trabajo concreto para crear un producto de fichas vendible, usando el generador de Suma como ejemplo. Este mismo proceso se aplica a cualquier generador con variaciones menores.\n\nPaso 1: Define el concepto de tu producto. Antes de abrir el generador, decide qué vas a crear: \"Fichas de Suma para Jardín de Infantes con Tema de Animales, Dificultad Fácil, 10 Páginas con Claves de Respuestas\". Tener un concepto claro evita la experimentación sin rumbo.\n\nPaso 2: Abre el generador y configura los ajustes. Selecciona el nivel de dificultad (suma de un solo dígito para jardín de infantes), elige el conjunto de imágenes de animales, establece el tamaño de página en US Letter y activa la generación de claves de respuestas. Selecciona cuántos problemas aparecen por página.\n\nPaso 3: Genera tu primera página. Revisa el resultado cuidadosamente. Comprueba que el diseño sea limpio, las imágenes estén bien posicionadas, la dificultad corresponda a tu grupo de edad objetivo y la clave de respuestas sea correcta. Este paso de revisión es fundamental — toma 30 segundos y previene problemas de calidad en tu producto final.\n\nPaso 4: Genera variaciones. Crea 9 páginas más con los mismos ajustes. Cada generación produce una disposición única de problemas e imágenes, así que cada página en tu paquete es diferente mientras mantiene una apariencia y nivel de dificultad consistentes.\n\nPaso 5: Descarga todos los archivos. Guarda tanto las versiones PDF como JPEG. PDF es el formato estándar para publicaciones en Etsy y Gumroad. JPEG se necesita para las páginas interiores de Amazon KDP y para crear miniaturas de publicaciones.\n\nPaso 6: Ensambla tu paquete. Combina las páginas individuales en un solo PDF. Añade una portada con el título del paquete, el rango de edad y la lista de contenidos. Incluye las claves de respuestas al final.\n\nPaso 7: Crea los recursos para tu publicación. Usa una de tus fichas generadas como base para tu imagen en miniatura. Una captura de pantalla limpia y bien recortada de una página real de ficha supera a los mockups genéricos.',
+      content: 'Aquí tienes el flujo de trabajo concreto para crear un producto de fichas vendible, usando el generador de Suma como ejemplo. Este mismo proceso se aplica a cualquier generador con variaciones menores.\n\nPaso 1: Define el concepto de tu producto. Antes de abrir el generador, decide qué vas a crear: \"Fichas de Suma para Jardín de Infantes con Tema de Animales, Dificultad Fácil, 10 Páginas con Claves de Respuestas\". Tener un concepto claro evita la experimentación sin rumbo.\n\nPaso 2: Abre el generador y configura los ajustes. Selecciona el nivel de dificultad (suma de un solo dígito para jardín de infantes), elige el conjunto de imágenes de animales, establece el tamaño de página en US Letter y activa la generación de claves de respuestas. Selecciona cuántos problemas aparecen por página.\n\nPaso 3: Genera tu primera página. Revisa el resultado cuidadosamente. Comprueba que el diseño sea limpio, las imágenes estén bien posicionadas, la dificultad corresponda a tu grupo de edad objetivo y la clave de respuestas sea correcta. Este paso de revisión es fundamental — toma 30 segundos y previene problemas de calidad en tu producto final.\n\nPaso 4: Genera variaciones. Crea 9 páginas más con los mismos ajustes. Cada generación produce una disposición única de problemas e imágenes, así que cada página en tu paquete es diferente mientras mantiene una apariencia y nivel de dificultad consistentes.\n\nPaso 5: Descarga todos los archivos. Guarda tanto las versiones PDF como JPEG. PDF es el formato estándar para publicaciones en Etsy y Hotmart. JPEG se necesita para las páginas interiores de Amazon KDP y para crear miniaturas de publicaciones.\n\nPaso 6: Ensambla tu paquete. Combina las páginas individuales en un solo PDF. Añade una portada con el título del paquete, el rango de edad y la lista de contenidos. Incluye las claves de respuestas al final.\n\nPaso 7: Crea los recursos para tu publicación. Usa una de tus fichas generadas como base para tu imagen en miniatura. Una captura de pantalla limpia y bien recortada de una página real de ficha supera a los mockups genéricos.',
     },
     {
       heading: 'Estándares de calidad que diferencian las fichas vendibles',
@@ -175,7 +172,7 @@ const content: StartContent = {
     },
     {
       question: '¿Qué formatos de archivo producen los generadores?',
-      answer: 'Cada generador produce archivos PDF listos para imprimir y archivos JPEG de alta resolución. PDF es el formato estándar para productos imprimibles en Etsy y Gumroad. JPEG se necesita para las páginas interiores de Amazon KDP y para crear miniaturas y mockups de publicaciones. Ambos formatos se incluyen con cada descarga a una resolución de impresión de 300 DPI.',
+      answer: 'Cada generador produce archivos PDF listos para imprimir y archivos JPEG de alta resolución. PDF es el formato estándar para productos imprimibles en Etsy y Hotmart. JPEG se necesita para las páginas interiores de Amazon KDP y para crear miniaturas y mockups de publicaciones. Ambos formatos se incluyen con cada descarga a una resolución de impresión de 300 DPI.',
     },
     {
       question: '¿Cuál es la política de reembolso para las licencias comerciales?',

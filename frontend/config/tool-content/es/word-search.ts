@@ -2,30 +2,30 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'generador sopa de letras',
+    primaryKeyword: 'generador de sopas de letras gratis con imagenes',
     secondaryKeywords: [
-      'crear fichas de sopa de letras imprimibles para vender',
-      'generador de sopa de letras para vendedores',
-      'sopa de letras imprimibles uso comercial',
-      'generador de sopa de letras para KDP',
+      'sopas de letras gratis sin registro',
+      'generador de sopas de letras gratis en linea',
+      'crear sopas de letras gratis para imprimir',
+      'sopas de letras con imagenes gratis sin tarjeta',
     ],
     lsiKeywords: [
-      'fichas de palabras ocultas imprimibles para Etsy',
-      'herramienta de sopa de letras con relleno adaptado al idioma',
-      'generador de sopa de letras multilingüe',
+      'juegos de palabras imprimibles para ninos',
+      'sopas de letras tematicas en espanol',
+      'actividades de vocabulario con busqueda de palabras',
     ],
-    titleTag: 'Generador Sopa de Letras | Crear y Vender',
-    metaDescription: 'Genera sopas de letras con cuadrículas de 5×5 a 30×30, controles de dirección y relleno adaptado al idioma en 11 idiomas. Prueba gratuita con marca de agua.',
+    titleTag: 'Generador de sopas de letras gratis | LCS',
+    metaDescription: 'Genere sopas de letras gratis con imagenes tematicas. Sin registro, sin tarjeta de credito. Descarga con marca de agua. Licencia comercial disponible.',
   },
 
   hero: {
-    title: 'Generador de Sopa de Letras',
-    tagline: 'Crea sopas de letras con cuadrículas ajustables, controles de dirección y letras de relleno adaptadas al idioma en 11 idiomas',
-    description: 'Diseña sopas de letras profesionales donde las palabras ocultas están incrustadas dentro de una cuadrícula de letras aleatorias y los usuarios escanean filas, columnas y diagonales para encontrarlas — el formato de puzzle clásico que nunca pasa de moda. Esta herramienta te da control preciso sobre la dificultad a través de dos ejes independientes: tamaño de cuadrícula (ajustable de 5×5 a 30×30 con filas y columnas configurables de forma independiente) y controles de dirección de palabras (palabras diagonales activables o desactivables, palabras en reverso activables o desactivables) creando entre dos y ocho direcciones posibles de colocación. Elige entre tres fuentes de contenido: el modo Biblioteca de Imágenes selecciona de más de 3.100 ilustraciones en 104 colecciones temáticas, el Modo Edición Manual te permite seleccionar imágenes y personalizar los nombres mostrados, y el modo Lista de Palabras Personalizada te permite escribir hasta 8 palabras directamente para sopas de letras solo con texto. Tres modos de visualización — Palabras + Imágenes, Solo Imágenes y Solo Palabras — controlan qué aparece como pistas junto a la cuadrícula. La característica estrella es el relleno de letras adaptado al idioma: cuando cambias de idioma, las letras de relleno de la cuadrícula cambian para coincidir con el conjunto de caracteres de ese idioma con distribuciones de frecuencia ponderadas. Las cuadrículas en alemán incluyen ä, ö, ü y ß a frecuencias naturales. Las cuadrículas en francés incluyen é, è, ç, à. Las cuadrículas en español incluyen ñ, á, é, í, ó, ú a sus frecuencias naturales. Cada idioma recibe caracteres de relleno auténticos, haciendo que los puzzles sean lingüísticamente genuinos en vez de generados con letras inglesas. Una clave de respuestas codificada por colores resalta cada palabra encontrada en uno de seis colores cíclicos — rosa, azul, verde, dorado, coral y lavanda — para verificación visual instantánea. Exporta PDF e imágenes JPEG listos para imprimir a más de 400 DPI en tamaño Carta, A4 o personalizado. Elige entre 7 familias tipográficas, añade campos de nombre y fecha, activa el modo escala de grises para impresión con ahorro de tinta, y usa el lienzo completo de Fabric.js para reposicionar cada elemento. La prueba gratuita incluye una marca de agua en las descargas. Compra una licencia para eliminar la marca de agua y vender con uso comercial.',
+    title: 'Genere sopas de letras gratis con imagenes tematicas',
+    tagline: 'Sopas de letras ilustradas listas en segundos — gratis y sin registro.',
+    description: 'Cree sopas de letras gratis con imagenes tematicas de mas de 3.000 ilustraciones. Este generador produce sopas de letras donde los ninos buscan palabras asociadas a imagenes — animales, alimentos, vehiculos y mucho mas. Seleccione el tamano de la cuadricula, el nivel de dificultad y el idioma. Cada ficha incluye solucionario automatico y se exporta en PDF listo para imprimir. No necesita registro ni tarjeta de credito — todas las funciones disponibles al instante. Las descargas incluyen marca de agua transparente. Perfecto para padres, educadores y creadores de contenido. ¿Quiere vender sopas de letras? Pase a la licencia comercial para PDFs sin marca de agua a 300 DPI.',
   },
 
   tutorial: {
-    title: 'Cómo Crear Sopas de Letras en 8 Pasos Sencillos',
+    title: 'Como crear sopas de letras gratis paso a paso',
     steps: [
       {
         title: 'Abrir el Generador de Sopa de Letras',
@@ -65,7 +65,7 @@ const content: ToolContent = {
   whatYouCanCreate: [
     {
       title: 'Packs Temáticos de Sopa de Letras',
-      description: 'Crea conjuntos de 10 a 20 fichas de sopa de letras agrupadas por tema — animales de granja, criaturas marinas, vehículos, comida, festividades y más. Varía el tamaño de cuadrícula y los ajustes de dirección a lo largo del conjunto para dificultad progresiva: comienza con una cuadrícula 8×8 solo horizontal y avanza hasta una cuadrícula 16×16 con diagonales y reverso. Incluye claves de respuestas codificadas por colores en cada puzzle. Agrúpalos por tema y véndelos en Etsy o Gumroad. El formato de cuadrícula con imágenes hace que las miniaturas de tus listings sean reconocibles al instante como actividades de puzzle atractivas.',
+      description: 'Crea conjuntos de 10 a 20 fichas de sopa de letras agrupadas por tema — animales de granja, criaturas marinas, vehículos, comida, festividades y más. Varía el tamaño de cuadrícula y los ajustes de dirección a lo largo del conjunto para dificultad progresiva: comienza con una cuadrícula 8×8 solo horizontal y avanza hasta una cuadrícula 16×16 con diagonales y reverso. Incluye claves de respuestas codificadas por colores en cada puzzle. Agrúpalos por tema y véndelos en Etsy o Hotmart. El formato de cuadrícula con imágenes hace que las miniaturas de tus listings sean reconocibles al instante como actividades de puzzle atractivas.',
     },
     {
       title: 'Cuadernos de Sopa de Letras para KDP',
@@ -85,7 +85,7 @@ const content: ToolContent = {
     },
     {
       title: 'Packs Estacionales y de Festividades',
-      description: 'Usa temas de imágenes festivas y estacionales para crear packs de edición limitada. Un pack de \"Sopa de Letras de Halloween\" con vocabulario espeluznante en cuadrículas progresivamente más grandes se vende muy bien en octubre. Navidad, vuelta al cole, primavera y verano tienen sus propias ventanas de ventas pico en Etsy y Gumroad. Combina cuadrículas fáciles para usuarios pequeños con cuadrículas difíciles para mayores en un solo pack estacional para maximizar tu audiencia de compradores.',
+      description: 'Usa temas de imágenes festivas y estacionales para crear packs de edición limitada. Un pack de \"Sopa de Letras de Halloween\" con vocabulario espeluznante en cuadrículas progresivamente más grandes se vende muy bien en octubre. Navidad, vuelta al cole, primavera y verano tienen sus propias ventanas de ventas pico en Etsy y Hotmart. Combina cuadrículas fáciles para usuarios pequeños con cuadrículas difíciles para mayores en un solo pack estacional para maximizar tu audiencia de compradores.',
     },
   ],
 
@@ -101,9 +101,9 @@ const content: ToolContent = {
       platform: 'Amazon KDP',
     },
     {
-      title: 'Centros de Vocabulario en Gumroad',
-      description: 'Sube packs de sopas de letras a Gumroad organizados por tema y dificultad. Incluye cuatro niveles de dificultad por tema usando el tamaño de cuadrícula y los controles de dirección como ejes de diferenciación. Empaqueta con claves de respuestas codificadas por colores y hojas de seguimiento del progreso del usuario. Los vendedores buscan \"actividades de vocabulario\" y \"sopa de letras\" frecuentemente. La dificultad ajustable significa que un solo producto sirve para un tienda completa con habilidades mixtas, algo que los vendedores valoran mucho y mencionan en las reseñas.',
-      platform: 'Gumroad',
+      title: 'Centros de Vocabulario en Hotmart',
+      description: 'Sube packs de sopas de letras a Hotmart organizados por tema y dificultad. Incluye cuatro niveles de dificultad por tema usando el tamaño de cuadrícula y los controles de dirección como ejes de diferenciación. Empaqueta con claves de respuestas codificadas por colores y hojas de seguimiento del progreso del usuario. Los vendedores buscan \"actividades de vocabulario\" y \"sopa de letras\" frecuentemente. La dificultad ajustable significa que un solo producto sirve para un tienda completa con habilidades mixtas, algo que los vendedores valoran mucho y mencionan en las reseñas.',
+      platform: 'Hotmart',
     },
     {
       title: 'Tienda de Puzzles Multilingüe',
@@ -116,9 +116,9 @@ const content: ToolContent = {
       platform: 'Pinterest',
     },
     {
-      title: 'Kit Completo de Puzzles en Gumroad',
-      description: 'Combina sopas de letras con fichas de palabras desordenadas, adivinar palabras, criptogramas y asociación para crear un kit de puzzles integral en Gumroad. Cada formato ejercita una habilidad cognitiva diferente: la sopa de letras desarrolla la exploración visual y el reconocimiento de patrones, las palabras desordenadas practican la reorganización de letras, adivinar palabras evalúa el recuerdo ortográfico con pistas contextuales. Un kit de puzzles multiformato justifica un precio premium y ofrece a los usuarios práctica variada con el mismo vocabulario.',
-      platform: 'Gumroad',
+      title: 'Kit Completo de Puzzles en Hotmart',
+      description: 'Combina sopas de letras con fichas de palabras desordenadas, adivinar palabras, criptogramas y asociación para crear un kit de puzzles integral en Hotmart. Cada formato ejercita una habilidad cognitiva diferente: la sopa de letras desarrolla la exploración visual y el reconocimiento de patrones, las palabras desordenadas practican la reorganización de letras, adivinar palabras evalúa el recuerdo ortográfico con pistas contextuales. Un kit de puzzles multiformato justifica un precio premium y ofrece a los usuarios práctica variada con el mismo vocabulario.',
+      platform: 'Hotmart',
     },
   ],
 
@@ -188,7 +188,7 @@ const content: ToolContent = {
     },
     {
       question: '¿Puedo vender las fichas creadas con esta herramienta?',
-      answer: 'La prueba gratuita con marca de agua es solo para uso personal y educativo. Para vender fichas en Etsy, Gumroad, Amazon KDP o cualquier otro marketplace, necesitas una licencia comercial. La licencia comercial elimina la marca de agua y otorga derechos completos de reventa para las fichas que crees.',
+      answer: 'La prueba gratuita con marca de agua es solo para uso personal y educativo. Para vender fichas en Etsy, Hotmart, Amazon KDP o cualquier otro marketplace, necesitas una licencia comercial. La licencia comercial elimina la marca de agua y otorga derechos completos de reventa para las fichas que crees.',
     },
     {
       question: '¿En qué formatos de archivo puedo descargar?',

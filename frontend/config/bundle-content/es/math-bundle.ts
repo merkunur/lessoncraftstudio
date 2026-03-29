@@ -2,27 +2,26 @@ import type { BundleContent } from '../types';
 
 const content: BundleContent = {
   seo: {
-    primaryKeyword: 'paquete fichas de matemáticas',
+    primaryKeyword: 'paquete de generadores de mates para vendedores Etsy',
     secondaryKeywords: [
-      'paquete de fichas de matemáticas para vendedores',
-      'generadores de fichas de matemáticas uso comercial',
-      'fichas de actividades matemáticas imprimibles para Etsy',
-      'herramientas de fichas de matemáticas para vendedores KDP',
+      'paquete fichas de matemáticas licencia comercial Etsy',
+      'generadores de mates para Amazon KDP vendedores',
+      'kit completo fichas de sumas y restas para vender',
+      'herramientas de mates para negocio de imprimibles',
     ],
     lsiKeywords: [
-      'paquete de fichas de suma y resta',
-      'colección de puzzles matemáticos imprimibles',
-      'licencia comercial fichas de matemáticas',
-      'herramienta de creación masiva de fichas de matemáticas',
+      'ahorro paquete versus compra individual generadores',
+      'variedad catálogo productos matemáticos Etsy KDP',
+      'licencia comercial incluida múltiples plataformas venta',
     ],
-    titleTag: 'Paquete Fichas de Matemáticas | para Vender',
-    metaDescription: '6 generadores de fichas de matemáticas en un paquete: suma, resta, código, comparación, puzzles y álgebra. Vende en Etsy, KDP y Gumroad con licencia comercial.',
+    titleTag: 'Paquete de mates para vendedores Etsy | LCS',
+    metaDescription: 'Paquete de 6 generadores de mates para vender en Etsy y KDP. Suma, resta, puzzles y álgebra con licencia comercial. Ahorre frente a la compra individual.',
   },
 
   hero: {
-    title: 'Paquete Dominio de Matemáticas',
-    tagline: 'Seis generadores profesionales de fichas de matemáticas en un paquete con descuento',
-    description: 'Construye una línea completa de productos de matemáticas imprimibles sin cambiar entre herramientas separadas. El Paquete Dominio de Matemáticas reúne seis generadores especializados que cubren suma, resta, puzzles criptaritméticos de suma codificada, comparación de mayor que y menor que, puzzles matemáticos de cuadrícula y ecuaciones algebraicas visuales con imágenes. Cada generador produce archivos PDF listos para imprimir y JPEG de alta resolución con claves de respuesta automáticas, dificultad configurable y bibliotecas de imágenes temáticas. Cinco de las seis apps son completamente visuales — las fichas que producen funcionan en cualquier idioma porque usan imágenes y números en lugar de texto. La sexta, Suma Codificada, añade un modo Palabra Revelada sensible al idioma que admite los 11 idiomas de la interfaz. Elige entre más de 100 conjuntos de imágenes temáticas o sube tus propios archivos PNG y JPEG para productos personalizados y específicos de nicho. Ya sea que vendas en Etsy, Amazon KDP o Gumroad, este paquete te da la variedad que los compradores esperan y la velocidad que los vendedores necesitan. Cada generador incluye una prueba gratis con marca de agua para que puedas probar todas las funciones antes de comprar una licencia.',
+    title: 'Paquete de generadores de mates para vendedores Etsy y KDP',
+    tagline: 'Seis generadores de fichas de matemáticas en un solo paquete con descuento — licencia comercial incluida.',
+    description: 'Ahorre significativamente frente a la compra individual con este paquete de seis generadores de fichas de matemáticas diseñado para vendedores de Etsy, Amazon KDP y Hotmart. Incluye suma, resta, puzzles criptaritméticos, comparación mayor-menor, puzzles de cuadrícula con imágenes y ecuaciones algebraicas visuales — cada habilidad matemática básica que los compradores buscan activamente. Exporte PDFs listos para imprimir a 300 DPI con solucionarios automáticos y véndolos en cualquier plataforma con la licencia comercial incluida. Cinco de los seis generadores producen fichas puramente visuales que funcionan en cualquier idioma — un solo diseño se vende a compradores de todo el mundo sin traducción. Combine más de 100 conjuntos de imágenes temáticas con los seis generadores para crear docenas de productos únicos desde una sola inversión. El mercado hispano de materiales educativos es un océano azul con demanda creciente y competencia mínima. Pruebe gratis con marca de agua — sin registro, sin tarjeta de crédito.',
   },
 
   appsIncluded: [
@@ -63,7 +62,7 @@ const content: BundleContent = {
     },
     {
       title: 'Claves de respuesta automáticas',
-      description: 'Cada generador del paquete produce una clave de respuesta correspondiente con cada ficha. Las claves de respuesta son una expectativa principal de los compradores en Etsy y Gumroad — este paquete las entrega automáticamente, ahorrándote horas de trabajo manual.',
+      description: 'Cada generador del paquete produce una clave de respuesta correspondiente con cada ficha. Las claves de respuesta son una expectativa principal de los compradores en Etsy y Hotmart — este paquete las entrega automáticamente, ahorrándote horas de trabajo manual.',
     },
     {
       title: 'Calidad profesional consistente',
@@ -83,7 +82,7 @@ const content: BundleContent = {
     },
     {
       title: 'Salida lista para imprimir',
-      description: 'Descarga fichas como PDF o JPEG de alta resolución en formato Carta, A4, Horizontal, Cuadrado o tamaños personalizados. Los archivos están listos para publicar en Etsy, subir a KDP o enviar a Gumroad sin post-procesamiento en software de diseño. Añade bordes decorativos de la biblioteca de bordes integrada, establece colores de fondo de página y aplica imágenes de fondo temáticas con opacidad ajustable para resultados pulidos y profesionales en cada ocasión.',
+      description: 'Descarga fichas como PDF o JPEG de alta resolución en formato Carta, A4, Horizontal, Cuadrado o tamaños personalizados. Los archivos están listos para publicar en Etsy, subir a KDP o enviar a Hotmart sin post-procesamiento en software de diseño. Añade bordes decorativos de la biblioteca de bordes integrada, establece colores de fondo de página y aplica imágenes de fondo temáticas con opacidad ajustable para resultados pulidos y profesionales en cada ocasión.',
     },
   ],
 
@@ -99,9 +98,9 @@ const content: BundleContent = {
       platform: 'Amazon KDP (kdp.amazon.com)',
     },
     {
-      title: 'Paquetes de recursos para Gumroad',
-      description: 'Los compradores de Gumroad esperan claves de respuesta, múltiples niveles de dificultad y alineación de productos. Cada generador entrega los tres automáticamente. Agrupa fichas en paquetes por nivel escolar — conteo de preescolar, suma y resta de primero, comparación y puzzles de segundo — y ponles precio como recursos premium. Los cuatro niveles de dificultad de cada generador te permiten crear materiales de paquetes escalonados por nivel que los vendedores buscan específicamente.',
-      platform: 'Gumroad (teacherspayteachers.com)',
+      title: 'Paquetes de recursos para Hotmart',
+      description: 'Los compradores de Hotmart esperan claves de respuesta, múltiples niveles de dificultad y alineación de productos. Cada generador entrega los tres automáticamente. Agrupa fichas en paquetes por nivel escolar — conteo de preescolar, suma y resta de primero, comparación y puzzles de segundo — y ponles precio como recursos premium. Los cuatro niveles de dificultad de cada generador te permiten crear materiales de paquetes escalonados por nivel que los vendedores buscan específicamente.',
+      platform: 'Hotmart (hotmart.com)',
     },
     {
       title: 'Materiales de tutoría y trabajo desde casa',
@@ -136,8 +135,8 @@ const content: BundleContent = {
       description: 'Vendes descargas digitales en Etsy o publicas cuadernos en Amazon KDP y quieres una forma rápida y fiable de producir fichas de matemáticas profesionales a escala. El paquete te da seis generadores y cientos de combinaciones temáticas para construir un catálogo de productos diverso sin habilidades de diseño ni software costoso. Crea nuevos listados en minutos en lugar de horas y mantén tu tienda abastecida con contenido fresco y de temporada durante todo el año. El enfoque de seis generadores significa que nunca te quedas sin ideas — cuando un generador ha producido suficientes fichas de suma para tu catálogo, cambia a resta, puzzles o actividades de comparación y crea listados de productos completamente nuevos con mínimo esfuerzo. Las rotaciones de temas de temporada usando la biblioteca de imágenes integrada te permiten refrescar la apariencia de tu tienda mensualmente sin crear productos desde cero.',
     },
     {
-      title: 'Autores de Gumroad',
-      description: 'Creas y vendes recursos educativos en Gumroad y necesitas herramientas que cumplan con las expectativas de la plataforma. Cada generador produce fichas alineadas con el catálogo de productos con claves de respuesta automáticas y múltiples configuraciones de dificultad — exactamente lo que los revisores y compradores de Gumroad esperan de recursos premium de matemáticas. Los cuatro niveles de dificultad por generador facilitan la creación de paquetes de paquetes escalonados por nivel que los vendedores buscan por nivel escolar y habilidad. Los compradores de Gumroad esperan materiales del mercado pulidos y listos para usar con presentación visual consistente en toda una línea de productos — el motor de diseño compartido entre los seis generadores asegura que tus recursos de matemáticas mantengan una apariencia profesional cohesiva que construye credibilidad de marca y genera compras repetidas de vendedores que confían en tu calidad.',
+      title: 'Autores de Hotmart',
+      description: 'Creas y vendes recursos educativos en Hotmart y necesitas herramientas que cumplan con las expectativas de la plataforma. Cada generador produce fichas alineadas con el catálogo de productos con claves de respuesta automáticas y múltiples configuraciones de dificultad — exactamente lo que los revisores y compradores de Hotmart esperan de recursos premium de matemáticas. Los cuatro niveles de dificultad por generador facilitan la creación de paquetes de paquetes escalonados por nivel que los vendedores buscan por nivel escolar y habilidad. Los compradores de Hotmart esperan materiales del mercado pulidos y listos para usar con presentación visual consistente en toda una línea de productos — el motor de diseño compartido entre los seis generadores asegura que tus recursos de matemáticas mantengan una apariencia profesional cohesiva que construye credibilidad de marca y genera compras repetidas de vendedores que confían en tu calidad.',
     },
     {
       title: 'Tutores y emprendedores',
@@ -156,11 +155,11 @@ const content: BundleContent = {
     },
     {
       question: '¿En qué formatos puedo descargar?',
-      answer: 'Cada generador produce archivos PDF listos para imprimir y JPEG de alta resolución. Puedes elegir entre Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal, Cuadrado o ingresar un tamaño personalizado. PDF es ideal para paquetes de fichas multipágina en Etsy y Gumroad. JPEG funciona bien para páginas interiores de KDP y vistas previas en redes sociales. Todos los archivos se descargan en resolución de impresión — sin necesidad de escalar ni post-procesar.',
+      answer: 'Cada generador produce archivos PDF listos para imprimir y JPEG de alta resolución. Puedes elegir entre Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal, Cuadrado o ingresar un tamaño personalizado. PDF es ideal para paquetes de fichas multipágina en Etsy y Hotmart. JPEG funciona bien para páginas interiores de KDP y vistas previas en redes sociales. Todos los archivos se descargan en resolución de impresión — sin necesidad de escalar ni post-procesar.',
     },
     {
       question: '¿Las fichas incluyen claves de respuesta?',
-      answer: 'Sí. Los seis generadores crean automáticamente una clave de respuesta correspondiente para cada ficha. Las claves de respuesta son una expectativa principal de los compradores en Etsy y Gumroad, y te ahorran el tiempo de resolver cada problema manualmente.',
+      answer: 'Sí. Los seis generadores crean automáticamente una clave de respuesta correspondiente para cada ficha. Las claves de respuesta son una expectativa principal de los compradores en Etsy y Hotmart, y te ahorran el tiempo de resolver cada problema manualmente.',
     },
     {
       question: '¿Puedo usar mis propias imágenes en lugar de los temas integrados?',
@@ -176,7 +175,7 @@ const content: BundleContent = {
     },
     {
       question: '¿Puedo vender las fichas que creo?',
-      answer: 'Sí. Tanto la licencia Comercial como la de Acceso Completo incluyen derechos de venta comercial. Puedes vender las fichas que generes en Etsy, Amazon KDP, Gumroad, tu propio sitio web o cualquier otra plataforma. Vendes las fichas — la herramienta generadora en sí no es transferible.',
+      answer: 'Sí. Tanto la licencia Comercial como la de Acceso Completo incluyen derechos de venta comercial. Puedes vender las fichas que generes en Etsy, Amazon KDP, Hotmart, tu propio sitio web o cualquier otra plataforma. Vendes las fichas — la herramienta generadora en sí no es transferible.',
     },
     {
       question: '¿Cuántas fichas puedo crear?',
@@ -188,7 +187,7 @@ const content: BundleContent = {
     },
     {
       question: '¿Cuánto tiempo toma crear una línea completa de productos de matemáticas con este paquete?',
-      answer: 'La mayoría de los vendedores construyen su catálogo inicial de productos de matemáticas en un solo fin de semana usando el paquete. Cada generador produce una ficha terminada y lista para imprimir con clave de respuesta en menos de un minuto. Una sesión de producción típica implica seleccionar un tema, configurar los ajustes de dificultad y generar un lote de diez a veinte fichas que se convierten en un listado de producto temático. Con seis generadores, puedes crear de seis a doce listados de productos distintos en un solo día — suficiente para lanzar una tienda creíble de fichas de matemáticas en Etsy o Gumroad. Los vendedores experimentados reportan que después de aprender la interfaz durante su primera sesión, pueden producir un paquete temático completo de matemáticas con fichas de los seis generadores en menos de dos horas.',
+      answer: 'La mayoría de los vendedores construyen su catálogo inicial de productos de matemáticas en un solo fin de semana usando el paquete. Cada generador produce una ficha terminada y lista para imprimir con clave de respuesta en menos de un minuto. Una sesión de producción típica implica seleccionar un tema, configurar los ajustes de dificultad y generar un lote de diez a veinte fichas que se convierten en un listado de producto temático. Con seis generadores, puedes crear de seis a doce listados de productos distintos en un solo día — suficiente para lanzar una tienda creíble de fichas de matemáticas en Etsy o Hotmart. Los vendedores experimentados reportan que después de aprender la interfaz durante su primera sesión, pueden producir un paquete temático completo de matemáticas con fichas de los seis generadores en menos de dos horas.',
     },
     {
       question: '¿Puedo actualizar de Comercial a Acceso Completo más tarde?',

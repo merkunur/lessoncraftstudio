@@ -2,29 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'negocio imprimibles multilingüe',
+    primaryKeyword: 'negocio de imprimibles multilingüe',
     secondaryKeywords: [
-      'vender imprimibles varios idiomas',
-      'mercado internacional de imprimibles',
-      'negocio fichas ejercicios multilingüe',
-      'expandir imprimibles globalmente',
+      'vender imprimibles en varios idiomas',
+      'expandir negocio fichas a otros mercados',
+      'imprimibles multilingüe estrategia de mercado',
+      'negocio de fichas internacional multiplataforma',
     ],
     lsiKeywords: [
-      'expansión lingüística mercados internacionales estrategia localización mercados europeos imprimibles',
-      'mercado educativo alemán demanda fichas francesas compradores imprimibles españoles',
-      'catálogo multilingüe multiplicación ingresos diversificación mercados venta transfronteriza',
-      'flujo trabajo traducción mercado educativo mundial marketplaces lingüísticos SEO internacional',
-      'cartera productos multilingüe cobertura lingüística ventaja competitiva mercados desatendidos',
-      'flujos ingresos multilingües internacionalización plataformas distribución multi-mercado',
+      'localización traducción adaptación cultural mercados',
+      'expansión internacional demanda por idioma mercados emergentes',
+      'catálogo multilingüe optimización SEO por idioma',
     ],
-    titleTag: 'Negocio Imprimibles Multilingüe — Guía Estratégica',
-    metaDescription: 'Crea un negocio de imprimibles multilingüe expandiéndote a mercados internacionales. Idiomas prioritarios, flujos de traducción y estrategias de ingresos.',
+    titleTag: 'Negocio de imprimibles multilingüe | LCS',
+    metaDescription: 'Expanda su negocio de imprimibles a múltiples idiomas y mercados. Estrategia de localización para Etsy, KDP y Hotmart con máximo alcance internacional.',
   },
 
   hero: {
-    title: 'Cómo crear un negocio de imprimibles multilingüe',
+    title: 'Expanda su negocio de imprimibles a múltiples idiomas',
     tagline: 'Una guía completa para expandir tu negocio de imprimibles a nivel internacional — por qué la expansión multilingüe es la estrategia de crecimiento más infrautilizada, qué mercados lingüísticos ofrecen los mayores rendimientos, cómo estructurar tu negocio para operaciones en varios idiomas, analizar oportunidades en marketplaces internacionales, construir ventaja competitiva mediante cobertura lingüística, desarrollar un marco de multiplicación de ingresos, planificar una expansión lingüística por fases y optimizar el rendimiento de una cartera multilingüe',
-    description: 'La mayoría de los vendedores de imprimibles compiten exclusivamente en inglés, ignorando la enorme demanda en los mercados alemán, francés, español y otros idiomas. Esta guía te muestra cómo crear un negocio de imprimibles multilingüe que multiplica tus ingresos al llegar a compradores internacionales desatendidos en múltiples plataformas e idiomas.',
+    description: 'Cada idioma que añade a su catálogo de imprimibles multiplica su mercado potencial sin crear contenido desde cero. La expansión multilingüe es la estrategia de crecimiento más eficiente para vendedores de productos digitales educativos. Esta guía le muestra cómo localizar sus fichas para nuevos mercados, adaptar el contenido culturalmente y optimizar sus listados por idioma. Descubra la estrategia que funciona en Etsy, Amazon KDP y Hotmart. El mercado hispanohablante abarca más de 20 países con demanda creciente de imprimibles educativos de calidad.',
   },
 
   introduction: 'El mercado de imprimibles educativos se extiende mucho más allá de los países de habla inglesa, pero la gran mayoría de los vendedores crean productos únicamente en inglés. Esto genera una oportunidad de negocio extraordinaria: millones de padres, vendedores y emprendedores en todo el mundo buscan activamente fichas de ejercicios imprimibles en su idioma materno y encuentran muy pocos resultados. Analiza las cifras. Una ficha que compite contra 5.000 productos similares en inglés podría enfrentarse a solo 50 competidores en alemán o 30 en francés. Esta diferencia radical en la competencia se traduce directamente en visibilidad, ventas y potencial de ingresos. Crear un negocio de imprimibles multilingüe no es simplemente traducir tus productos existentes. Requiere comprender qué mercados lingüísticos justifican la inversión, cómo funcionan de manera diferente los marketplaces internacionales, dónde compran realmente los compradores de cada idioma y cómo estructurar tus operaciones para que la expansión lingüística se convierta en un motor de crecimiento escalable en lugar de un sumidero de recursos. Esta guía recorre la estrategia comercial completa para la expansión multilingüe — desde el análisis de mercado y la priorización de idiomas hasta los marcos de multiplicación de ingresos y la optimización a largo plazo de la cartera. Ya sea que estés lanzando tus primeros productos imprimibles o buscando hacer crecer un catálogo establecido, comprender la oportunidad multilingüe te ayuda a tomar decisiones informadas sobre dónde invertir tu tiempo de producción para obtener los máximos rendimientos.',
@@ -44,7 +41,7 @@ const content: GuideContent = {
     },
     {
       heading: 'Analizar las oportunidades de los marketplaces internacionales',
-      content: 'Diferentes plataformas atienden diferentes mercados internacionales, y comprender dónde compran realmente tus compradores objetivo determina dónde concentrar tus esfuerzos de publicación. Etsy tiene un fuerte tráfico de compradores europeos y te permite publicar productos con títulos, descripciones y etiquetas en cualquier idioma. Los compradores europeos buscan frecuentemente en Etsy en su idioma materno, y Etsy muestra resultados basados en el idioma utilizado en los listados. Esto convierte a Etsy en un punto de partida natural para la expansión multilingüe porque una sola tienda puede contener productos en múltiples idiomas. Amazon opera marketplaces separados para diferentes países — amazon.de para Alemania, amazon.fr para Francia, amazon.es para España, amazon.it para Italia. Cada marketplace tiene su propio índice de búsqueda, panorama competitivo y expectativas de los compradores. Publicar en Amazon requiere crear cuentas separadas o usar Amazon Global Selling para publicar en varios marketplaces. La ventaja es que los compradores de Amazon en cada país ya confían en la plataforma, por lo que te beneficias de la intención de compra existente. Gumroad atiende principalmente los mercados anglófonos. Aunque Gumroad tiene compradores internacionales, sus sistemas de búsqueda y descubrimiento favorecen el contenido en inglés. Gumroad aún puede generar ventas internacionales si tus productos en inglés atraen a vendedores bilingües, pero no debería ser tu canal principal para productos en otros idiomas. Tu propio sitio web ofrece control total sobre la presentación multilingüe. Con un sitio bien estructurado que soporte múltiples idiomas, puedes atender a compradores internacionales directamente sin comisiones de marketplace. Esto requiere más esfuerzo de marketing pero produce márgenes de beneficio más altos y relaciones directas con los clientes. Muchos vendedores multilingües exitosos usan los marketplaces para el descubrimiento y su propio sitio para las ofertas premium.',
+      content: 'Diferentes plataformas atienden diferentes mercados internacionales, y comprender dónde compran realmente tus compradores objetivo determina dónde concentrar tus esfuerzos de publicación. Etsy tiene un fuerte tráfico de compradores europeos y te permite publicar productos con títulos, descripciones y etiquetas en cualquier idioma. Los compradores europeos buscan frecuentemente en Etsy en su idioma materno, y Etsy muestra resultados basados en el idioma utilizado en los listados. Esto convierte a Etsy en un punto de partida natural para la expansión multilingüe porque una sola tienda puede contener productos en múltiples idiomas. Amazon opera marketplaces separados para diferentes países — amazon.de para Alemania, amazon.fr para Francia, amazon.es para España, amazon.it para Italia. Cada marketplace tiene su propio índice de búsqueda, panorama competitivo y expectativas de los compradores. Publicar en Amazon requiere crear cuentas separadas o usar Amazon Global Selling para publicar en varios marketplaces. La ventaja es que los compradores de Amazon en cada país ya confían en la plataforma, por lo que te beneficias de la intención de compra existente. Hotmart atiende principalmente los mercados anglófonos. Aunque Hotmart tiene compradores internacionales, sus sistemas de búsqueda y descubrimiento favorecen el contenido en inglés. Hotmart aún puede generar ventas internacionales si tus productos en inglés atraen a vendedores bilingües, pero no debería ser tu canal principal para productos en otros idiomas. Tu propio sitio web ofrece control total sobre la presentación multilingüe. Con un sitio bien estructurado que soporte múltiples idiomas, puedes atender a compradores internacionales directamente sin comisiones de marketplace. Esto requiere más esfuerzo de marketing pero produce márgenes de beneficio más altos y relaciones directas con los clientes. Muchos vendedores multilingües exitosos usan los marketplaces para el descubrimiento y su propio sitio para las ofertas premium.',
     },
     {
       heading: 'Construir tu ventaja competitiva mediante la cobertura lingüística',

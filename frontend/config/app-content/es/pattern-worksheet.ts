@@ -2,32 +2,32 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'generador fichas de patrones',
+    primaryKeyword: 'fichas de reconocimiento de patrones para vendedores Etsy',
     secondaryKeywords: [
-      'generador de fichas de patrones imprimibles para vendedores Etsy',
-      'creador de fichas de reconocimiento de secuencias para Amazon KDP',
-      'vender fichas de completar patrones en Gumroad',
-      'generador de fichas de patrones licencia comercial',
+      'generador de fichas de patrones para vendedores',
+      'fichas de completar patrones para Amazon KDP',
+      'ejercicios de reconocimiento de secuencias licencia comercial',
+      'crear fichas de lógica de patrones para vender',
     ],
     lsiKeywords: [
-      'productos digitales fichas de secuencias lógicas para emprendedores',
-      'fichas de reconocimiento de patrones imprimibles uso comercial',
-      'generador de fichas de patrones nueve tipos de secuencias',
+      'fichas reconocimiento patrones vendedores Etsy',
+      'ejercicios secuencias lógicas imprimibles KDP',
+      'negocio fichas lógica patrones mercado hispano',
     ],
-    titleTag: 'Generador Fichas de Patrones | Crear y Vender',
+    titleTag: 'Reconocimiento de patrones para Etsy y KDP | LCS',
     metaDescription:
-      'Crea fichas de patrones para Etsy, KDP y Gumroad. Nueve tipos de patrones, dos modos de pregunta, config por ejercicio, 104 temas. Prueba gratis con marca de.',
+      'Cree fichas de reconocimiento de patrones para vender en Etsy y KDP. Imágenes temáticas, dificultad ajustable. Licencia comercial. Pruebe gratis.',
   },
 
   hero: {
-    title: 'Generador de Fichas de Patrones para Ejercicios de Completar Secuencias en Cuadrícula',
-    tagline: 'Nueve tipos de patrones de AB a ABCD — dos modos de pregunta (casilla vacía y opción múltiple) — con configuración independiente por ejercicio para el tipo de patrón, el modo de pregunta y el tema en cada página.',
+    title: 'Genere fichas de reconocimiento de patrones para Etsy, KDP y Hotmart',
+    tagline: 'Cree fichas de completar patrones con imágenes — formato avanzado de lógica visual.',
     description:
-      'Diseña fichas profesionales de completar patrones donde los usuarios identifican secuencias repetitivas y completan el elemento que falta — o eligen la respuesta correcta entre opciones múltiples. Nueve tipos de patrones distintos cubren todos los niveles de complejidad de secuencias: AB alterna dos elementos, AAB y ABB introducen agrupamientos asimétricos, ABC rota tres elementos, AABB empareja dos de cada uno, ABBC y AABC añaden patrones asimétricos de tres imágenes, ABCC extiende con terminaciones dobles, y ABCD rota cuatro elementos diferentes para el máximo desafío. Dos modos de pregunta crean ejercicios fundamentalmente diferentes a partir de cada tipo de patrón: Casilla Vacía reemplaza un elemento con un espacio en blanco que los usuarios deben completar, mientras que Opción Múltiple presenta el espacio vacío acompañado de tres respuestas posibles con una correcta y dos distractores. Configura de 1 a 8 ejercicios por página con cada ejercicio parametrizado independientemente para tipo de patrón, modo de pregunta y tema — una misma página puede combinar un ejercicio AB en casilla vacía con un ejercicio ABCD en opción múltiple. Activa el Inicio Aleatorio para comenzar los patrones a mitad de ciclo y la Posición Aleatoria del Espacio en Blanco para colocar el elemento que falta en cualquier lugar de la secuencia para mayor dificultad. El contenido proviene de la Biblioteca de Imágenes integrada con más de 3100 ilustraciones en 104 temas. Una pestaña de clave de respuesta separada muestra todas las casillas vacías completadas con los elementos correctos del patrón para verificación instantánea. El Acceso Completo desbloquea los 104 temas y los 11 idiomas de interfaz. Exporta PDF y JPEG listos para imprimir en alta resolución en formato Carta, A4, Cuadrado o dimensiones personalizadas. Cada ficha es completamente visual con solo imágenes en filas de cuadrícula y cero texto en la salida, haciendo los productos universalmente vendibles sin traducción. Ya sea que crees packs de reconocimiento de patrones en Etsy, compiles cuadernos de aprendizaje temprano para Amazon KDP o construyas centros visuales diferenciados para Gumroad, el Generador de Fichas de Patrones ofrece la mayor variedad de ejercicios de patrones disponible — prueba gratis con todas las funciones, sin registro, sin tarjeta de crédito. Las descargas incluyen una marca de agua; compra una licencia para eliminarla.',
+      'Genere fichas de reconocimiento de patrones para vender en Etsy, Amazon KDP o Hotmart. Los niños analizan secuencias de imágenes y seleccionan la opción correcta para completar el patrón — un formato que desarrolla habilidades de razonamiento lógico esenciales. Con más de 3.000 imágenes en 104 temas y dificultad ajustable, cree fichas para diferentes niveles. Las fichas de reconocimiento de patrones tienen alta demanda en Etsy para preescolar, infantil y educación especial. Exporte PDFs a 300 DPI con solucionario automático y véndalos con la licencia comercial incluida. Formato puramente visual — funciona en cualquier idioma. Pruebe gratis con marca de agua — sin registro.',
   },
 
   howItWorks: {
-    title: 'Cómo Crear Fichas de Patrones en 5 Pasos',
+    title: 'Cómo crear fichas de reconocimiento de patrones',
     steps: [
       {
         title: 'Configurar el diseño de página',
@@ -52,13 +52,13 @@ const content: AppContent = {
       {
         title: 'Revisar la clave de respuesta y descargar',
         description:
-          'Cambia a la pestaña Clave de Respuesta para ver una versión completada de la ficha con todas las casillas vacías rellenadas mostrando los elementos correctos del patrón. La ficha y la clave de respuesta son editables de forma independiente en lienzos separados. Activa la exportación en escala de grises para versiones que ahorran tinta. Luego descarga cada uno como JPEG de alta resolución o PDF listo para imprimir. Cada exportación está lista para producción: listados de Etsy, interiores de Amazon KDP y archivos de productos Gumroad — la ficha y la clave de respuesta se descargan como archivos separados para un paquete de producto completo.',
+          'Cambia a la pestaña Clave de Respuesta para ver una versión completada de la ficha con todas las casillas vacías rellenadas mostrando los elementos correctos del patrón. La ficha y la clave de respuesta son editables de forma independiente en lienzos separados. Activa la exportación en escala de grises para versiones que ahorran tinta. Luego descarga cada uno como JPEG de alta resolución o PDF listo para imprimir. Cada exportación está lista para producción: listados de Etsy, interiores de Amazon KDP y archivos de productos Hotmart — la ficha y la clave de respuesta se descargan como archivos separados para un paquete de producto completo.',
       },
     ],
   },
 
   keyFeatures: {
-    title: 'Funcionalidades Clave del Generador de Fichas de Patrones',
+    title: 'Por qué las fichas de patrones tienen alta demanda',
     features: [
       {
         title: 'Nueve tipos de patrones desde AB simple hasta ABCD complejo',
@@ -93,7 +93,7 @@ const content: AppContent = {
       {
         title: 'Exportación PDF y JPEG lista para imprimir en alta resolución',
         description:
-          'Descarga fichas y claves de respuesta como imágenes JPEG de alta resolución (multiplicador 6x para un detalle nítido) o documentos PDF listos para imprimir a 300 DPI. Los formatos Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal, Cuadrado (1200×1200) y dimensiones personalizadas están todos soportados. Activa la exportación en escala de grises para versiones que ahorran tinta, ideales para impresión en línea o cuadernos en blanco y negro. Cada exportación está lista para producción: listados de Etsy, interiores de Amazon KDP y archivos de productos Gumroad — sin necesidad de postprocesamiento.',
+          'Descarga fichas y claves de respuesta como imágenes JPEG de alta resolución (multiplicador 6x para un detalle nítido) o documentos PDF listos para imprimir a 300 DPI. Los formatos Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal, Cuadrado (1200×1200) y dimensiones personalizadas están todos soportados. Activa la exportación en escala de grises para versiones que ahorran tinta, ideales para impresión en línea o cuadernos en blanco y negro. Cada exportación está lista para producción: listados de Etsy, interiores de Amazon KDP y archivos de productos Hotmart — sin necesidad de postprocesamiento.',
       },
       {
         title: 'Edición completa del lienzo con herramientas de texto y decoración',
@@ -104,7 +104,7 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Cómo Vender Fichas de Patrones en Línea',
+    title: 'Vender fichas de patrones en Etsy, KDP y Hotmart',
     cases: [
       {
         title: 'Packs de completar patrones en Etsy',
@@ -119,16 +119,16 @@ const content: AppContent = {
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Centros visuales diferenciados para Gumroad',
+        title: 'Centros visuales diferenciados para Hotmart',
         description:
           'Construye conjuntos de práctica de reconocimiento de patrones por niveles usando la configuración por ejercicio como diferenciador principal. El Nivel 1 presenta páginas completamente en AB casilla vacía con el mismo tema. El Nivel 2 mezcla ejercicios AB y AAB en casilla vacía. El Nivel 3 introduce ejercicios ABC en opción múltiple junto a calentamientos más simples en casilla vacía. El Nivel 4 combina desafíos ABCD en casilla vacía con inicio aleatorio y posición aleatoria del espacio en blanco activados. Cada nivel se enfoca en una demanda cognitiva diferente, y la independencia por ejercicio significa que una página impresa sirve como actividad diferenciada completa. Acompaña cada nivel con ejercicios temáticos y claves de respuesta separadas.',
-        platform: 'Gumroad (teacherspayteachers.com)',
+        platform: 'Hotmart (hotmart.com)',
       },
       {
         title: 'Fichas visuales multilingües para mercados globales',
         description:
           'Como los ejercicios de Fichas de Patrones contienen solo imágenes en filas de cuadrícula con cero texto en la salida, el mismo producto funciona en todos los idiomas sin modificación. Crea un conjunto de ejercicios de completar patrones y véndelo en todo el mundo — sin traducción necesaria, sin versiones de idiomas separadas que mantener. Cambiar el idioma del contenido solo afecta las etiquetas de la biblioteca de imágenes en el generador, no la ficha impresa. Publica productos idénticos en tiendas Etsy dirigidas a diferentes países, o publica el mismo interior KDP en todos los mercados internacionales de Amazon. Un solo flujo de trabajo produce un producto universalmente vendible.',
-        platform: 'Etsy / Amazon KDP / Gumroad (global)',
+        platform: 'Etsy / Amazon KDP / Hotmart (global)',
       },
       {
         title: 'Herramienta de conceptos de patrones para venta en línea y el refuerzo',
@@ -193,7 +193,7 @@ const content: AppContent = {
     {
       question: '¿Puedo vender fichas creadas con esta herramienta en Etsy y Amazon KDP?',
       answer:
-        'Sí. Con una licencia comercial, tienes todos los derechos para vender tus fichas de patrones como descargas digitales en Etsy, como cuadernos impresos en Amazon KDP, como recursos educativos en Gumroad o a través de cualquier otro canal de venta. Nueve tipos de patrones, dos modos de pregunta y la configuración por ejercicio te ofrecen la mayor variedad y diferenciación de productos en las categorías de los marketplaces.',
+        'Sí. Con una licencia comercial, tienes todos los derechos para vender tus fichas de patrones como descargas digitales en Etsy, como cuadernos impresos en Amazon KDP, como recursos educativos en Hotmart o a través de cualquier otro canal de venta. Nueve tipos de patrones, dos modos de pregunta y la configuración por ejercicio te ofrecen la mayor variedad y diferenciación de productos en las categorías de los marketplaces.',
     },
     {
       question: '¿Cuál es la política de reembolso?',

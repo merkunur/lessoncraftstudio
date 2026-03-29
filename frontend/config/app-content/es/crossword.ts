@@ -2,32 +2,32 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'generador crucigramas con imágenes',
+    primaryKeyword: 'creador de crucigramas para vender en Etsy y KDP',
     secondaryKeywords: [
-      'crucigramas ilustrados imprimibles para vendedores Etsy',
-      'generador de crucigramas con pistas visuales para Amazon KDP',
-      'fichas de crucigramas con imágenes licencia comercial',
-      'vender crucigramas ilustrados en Gumroad',
+      'generador de crucigramas con imágenes para Etsy',
+      'crear crucigramas imprimibles para Amazon KDP',
+      'crucigramas visuales licencia comercial',
+      'fichas de palabras cruzadas para vender online',
     ],
     lsiKeywords: [
-      'productos digitales de crucigramas con imágenes para emprendedores',
-      'negocio de fichas de crucigramas ilustrados imprimibles',
-      'generador de crucigramas con pistas visuales uso comercial',
+      'crucigramas temáticos vendedores Etsy Amazon',
+      'libros de crucigramas imprimibles KDP',
+      'negocio pasatiempos imprimibles mercado hispano',
     ],
-    titleTag: 'Generador Crucigramas con Imágenes | Crear y Vender',
+    titleTag: 'Crucigramas para vender en Etsy y KDP | LCS',
     metaDescription:
-      'Crea crucigramas con imágenes para Etsy, KDP y Gumroad. Pistas visuales en cuadrícula 15×15, 4 métodos, clave de respuestas auto. Prueba gratis con marca de agua.',
+      'Cree crucigramas con imágenes para vender en Etsy y KDP. 104 temas, 11 idiomas, solucionario automático. Licencia comercial. Pruebe gratis.',
   },
 
   hero: {
-    title: 'Generador de Crucigramas con Imágenes para Puzzles de Palabras Cruzadas Ilustrados',
-    tagline: 'Sustituye las pistas de texto tradicionales por pistas con imágenes en una cuadrícula de 15×15 — cuatro métodos de entrada (selección automática por tema, edición manual de nombres, lista personalizada de palabras con pistas y subida de imágenes propias), clave de respuestas autogenerada con cuadrícula completada, y encabezado localizado \"Crucigrama Ilustrado\" en 104 colecciones temáticas de imágenes.',
+    title: 'Genere crucigramas para vender en Etsy, KDP y Hotmart',
+    tagline: 'Cree crucigramas con pistas visuales en 11 idiomas — formato único que se vende.',
     description:
-      'Crea crucigramas profesionales donde imágenes coloridas sustituyen las pistas de texto de los crucigramas tradicionales. Ocho imágenes generan ocho palabras en una cuadrícula fija de 15×15 — el algoritmo extrae las palabras de los nombres de las imágenes, las ordena por longitud para una colocación óptima y rellena la cuadrícula con posiciones de pista numeradas. Elige entre cuatro métodos de entrada: la Generación Rápida por Tema selecciona automáticamente 8 imágenes aleatorias de cualquier tema y genera al instante; la Edición Manual de Nombres de Imagen te permite hacer clic en imágenes individuales y renombrarlas antes de generar; la Lista Personalizada de Palabras con Pistas cambia a crucigramas tradicionales con pistas de texto en formato PALABRA: pista; y Subir Imágenes Personalizadas te permite añadir tus propios archivos JPEG, PNG, GIF o WebP junto al contenido de la biblioteca. El Generador de Crucigramas con Imágenes es sensible al idioma: las palabras del puzzle provienen de nombres de imagen localizados a través del sistema de Vocabulario de Imágenes, por lo que cambiar el idioma cambia las palabras reales del crucigrama. El sistema de doble lienzo genera tanto una pestaña de puzzle como una pestaña de clave de respuestas — la clave muestra la cuadrícula completada con todas las respuestas visibles. Cada puzzle incluye un encabezado localizado autogenerado con fondo azul (#5B9BD5), título en Fredoka y descripción en Quicksand renderizados en los 11 idiomas soportados. El Acceso Completo desbloquea los 104 temas con más de 3.100 ilustraciones y los 11 idiomas para palabras de puzzle localizadas. Añade temas de fondo y temas de borde con controles de opacidad independientes, y exporta PDFs y JPEGs listos para imprimir a 300 DPI en tamaños Carta, A4 o personalizados. Ya sea que vendas paquetes de crucigramas con imágenes en Etsy, compiles cuadernos de crucigramas para Amazon KDP o crees actividades de vocabulario con crucigramas para Gumroad, este generador produce puzzles listos para producción en minutos — prueba gratis con todas las funciones — sin registro, sin tarjeta de crédito. Las descargas incluyen marca de agua; compra una licencia para eliminarla.',
+      'Genere crucigramas con imágenes como pistas para vender en Etsy, Amazon KDP o Hotmart. En lugar de definiciones escritas, los usuarios ven imágenes temáticas y escriben las palabras correspondientes — un formato innovador que funciona para todas las edades y se vende mejor que los crucigramas tradicionales. Soporte para 11 idiomas permite crear productos para el mercado hispano, europeo y global simultáneamente. Seleccione entre más de 3.000 ilustraciones en 104 temas. Los crucigramas son un clásico perenne con demanda constante en Amazon KDP y Etsy. Exporte PDFs a 300 DPI con solucionario automático y véndalos con licencia comercial. Pruebe gratis con marca de agua — sin registro.',
   },
 
   howItWorks: {
-    title: 'Cómo Crear Crucigramas con Imágenes en 5 Pasos',
+    title: 'Cómo crear crucigramas profesionales paso a paso',
     steps: [
       {
         title: 'Configura el Diseño de Página',
@@ -52,13 +52,13 @@ const content: AppContent = {
       {
         title: 'Genera la Clave de Respuestas y Descarga',
         description:
-          'Cambia a la pestaña de Clave de Respuestas para ver la cuadrícula completada con todas las respuestas del crucigrama visibles. Descarga ambas versiones usando los cuatro botones dedicados en el menú desplegable: JPEG de Ficha, JPEG de Clave de Respuestas, PDF de Ficha y PDF de Clave de Respuestas. Los archivos se exportan a 300 DPI para calidad lista para imprimir. Activa la escala de grises para versiones que ahorran tinta. Cada exportación está lista para producción en listados de Etsy, interiores de Amazon KDP y archivos de productos Gumroad.',
+          'Cambia a la pestaña de Clave de Respuestas para ver la cuadrícula completada con todas las respuestas del crucigrama visibles. Descarga ambas versiones usando los cuatro botones dedicados en el menú desplegable: JPEG de Ficha, JPEG de Clave de Respuestas, PDF de Ficha y PDF de Clave de Respuestas. Los archivos se exportan a 300 DPI para calidad lista para imprimir. Activa la escala de grises para versiones que ahorran tinta. Cada exportación está lista para producción en listados de Etsy, interiores de Amazon KDP y archivos de productos Hotmart.',
       },
     ],
   },
 
   keyFeatures: {
-    title: 'Características Principales del Generador de Crucigramas con Imágenes',
+    title: 'Por qué los crucigramas con imágenes se venden mejor',
     features: [
       {
         title: 'Crucigramas con Pistas Visuales en una Cuadrícula Fija de 15×15',
@@ -99,7 +99,7 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Cómo Vender Crucigramas con Imágenes en Línea',
+    title: 'Vender crucigramas en Etsy, KDP y Hotmart',
     cases: [
       {
         title: 'Paquetes Temáticos de Crucigramas con Imágenes en Etsy',
@@ -117,19 +117,19 @@ const content: AppContent = {
         title: 'Crucigramas Multilingües Usando Generación Sensible al Idioma',
         description:
           'Aprovecha la generación de palabras sensible al idioma para crear crucigramas con imágenes en 11 idiomas. Las mismas imágenes producen cuadrículas de crucigrama completamente diferentes al cambiar de idioma — una imagen de gato crea \"CAT\" en inglés, \"KATZE\" en alemán y \"GATTO\" en italiano. Crea paquetes de crucigramas multilingües donde cada versión de idioma usa las mismas imágenes temáticas pero produce puzzles únicos con palabras localizadas. Esto es valioso para vendedores de ESL/EFL, tiendas bilingües y familias de trabajo desde casa internacionales. Vende paquetes por idioma o mega-paquetes multilingües a precios premium.',
-        platform: 'Etsy / Gumroad (mercado multilingüe)',
+        platform: 'Etsy / Hotmart (mercado multilingüe)',
       },
       {
-        title: 'Crucigramas de Vocabulario Personalizado para Gumroad',
+        title: 'Crucigramas de Vocabulario Personalizado para Hotmart',
         description:
-          'Usa el modo Lista Personalizada de Palabras con Pistas para crear crucigramas alineados con el catálogo de productos con vocabulario definido por el vendedor. Introduce términos y definiciones específicos por materia en formato PALABRA: pista — vocabulario de ciencias, términos de estudios sociales, palabras de comprensión lectora o listas de ortografía. Los vendedores que buscan actividades de crucigrama en Gumroad valoran puzzles que coincidan con su catálogo de productos exacto. Crea conjuntos de crucigramas de vocabulario por nivel con claves de respuestas en formatos PDF y JPEG. El modo de pistas de texto te permite crear crucigramas para cualquier materia sin depender de la biblioteca de imágenes.',
-        platform: 'Gumroad (teacherspayteachers.com)',
+          'Usa el modo Lista Personalizada de Palabras con Pistas para crear crucigramas alineados con el catálogo de productos con vocabulario definido por el vendedor. Introduce términos y definiciones específicos por materia en formato PALABRA: pista — vocabulario de ciencias, términos de estudios sociales, palabras de comprensión lectora o listas de ortografía. Los vendedores que buscan actividades de crucigrama en Hotmart valoran puzzles que coincidan con su catálogo de productos exacto. Crea conjuntos de crucigramas de vocabulario por nivel con claves de respuestas en formatos PDF y JPEG. El modo de pistas de texto te permite crear crucigramas para cualquier materia sin depender de la biblioteca de imágenes.',
+        platform: 'Hotmart (hotmart.com)',
       },
       {
         title: 'Colecciones de Crucigramas con Imágenes de Temporada',
         description:
           'Las 104 colecciones temáticas de imágenes cubren cada ocasión estacional y festiva — Navidad, Halloween, Pascua, San Valentín, vuelta al cole, vacaciones de verano y más. Crea colecciones de crucigramas con imágenes de disponible ahora alineadas con los períodos de mayor venta. Lanza paquetes de crucigramas de Halloween en septiembre, colecciones de Navidad en octubre y paquetes de San Valentín en enero. La naturaleza visual de los crucigramas con imágenes hace que los temas estacionales sean particularmente atractivos — imágenes festivas como pistas crean un atractivo estacional inmediato. Los productos estacionales tienen precios más altos durante sus períodos pico y generan compras recurrentes.',
-        platform: 'Etsy / Amazon KDP / Gumroad (estacional)',
+        platform: 'Etsy / Amazon KDP / Hotmart (estacional)',
       },
     ],
   },
@@ -188,7 +188,7 @@ const content: AppContent = {
     {
       question: '¿Puedo vender crucigramas con imágenes hechos con esta herramienta en Etsy y Amazon KDP?',
       answer:
-        'Sí. Con una licencia comercial, tienes derechos completos para vender tus crucigramas con imágenes como descargas digitales en Etsy, como cuadernos impresos en Amazon KDP, como recursos para venta en línea en Gumroad o a través de cualquier otro canal de venta. Los cuatro métodos de entrada, las claves de respuestas autogeneradas, la generación de palabras sensible al idioma y las 104 colecciones temáticas de imágenes te dan las herramientas creativas para producir productos de crucigramas originales y vendibles.',
+        'Sí. Con una licencia comercial, tienes derechos completos para vender tus crucigramas con imágenes como descargas digitales en Etsy, como cuadernos impresos en Amazon KDP, como recursos para venta en línea en Hotmart o a través de cualquier otro canal de venta. Los cuatro métodos de entrada, las claves de respuestas autogeneradas, la generación de palabras sensible al idioma y las 104 colecciones temáticas de imágenes te dan las herramientas creativas para producir productos de crucigramas originales y vendibles.',
     },
     {
       question: '¿Cuál es la política de reembolso?',

@@ -2,30 +2,30 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'generador de fichas de grafomotricidad',
+    primaryKeyword: 'generador de fichas de trazo gratis',
     secondaryKeywords: [
-      'fichas de trazado de líneas imprimibles para vender',
-      'crear fichas de grafomotricidad uso comercial',
-      'generador de fichas de trazado de líneas para KDP',
-      'herramienta para crear fichas de líneas con pares de imágenes',
+      'fichas de trazo gratis sin registro',
+      'generador de fichas de trazado gratis en linea',
+      'fichas de grafomotricidad gratis para imprimir',
+      'hojas de trazo gratis sin tarjeta de credito',
     ],
     lsiKeywords: [
-      'fichas de motricidad fina con plantillas SVG para Etsy',
-      'generador de fichas de preescritura con imágenes a color',
-      'fichas de control del lápiz con pares de imágenes imprimibles',
+      'fichas de grafomotricidad para preescolar',
+      'actividades de trazado de lineas imprimibles',
+      'hojas de practica de motricidad fina',
     ],
-    titleTag: 'Generador de Fichas de Grafomotricidad | Vender',
-    metaDescription: 'Genera fichas de trazado de líneas con ocho plantillas SVG, 3.100+ ilustraciones en 104 temas y autocompletar pares de imágenes. Prueba gratuita con marca.',
+    titleTag: 'Fichas de trazo gratis en linea | LCS',
+    metaDescription: 'Genere fichas de trazo y grafomotricidad gratis con imágenes. Sin registro, sin tarjeta. Descarga con marca de agua. Licencia comercial.',
   },
 
   hero: {
-    title: 'Generador de Fichas de Grafomotricidad',
-    tagline: 'Ocho plantillas SVG de líneas con pares de imágenes, autocompletar desde 104 temas a color y orientación de página automática según la plantilla para fichas profesionales de trazado de líneas que se venden en todo el mundo',
-    description: 'Crea fichas profesionales de trazado de líneas donde los usuarios dibujan a lo largo de trazos guiados para conectar pares de imágenes coincidentes. Ocho plantillas basadas en SVG cubren una progresión completa de motricidad fina: una plantilla horizontal para trazado recto de izquierda a derecha (la más fácil), una plantilla vertical para trazos de arriba abajo, cuatro plantillas de curvas para movimientos fluidos de muñeca, y dos plantillas diagonales para coordinación bilateral (la más difícil). Cada plantilla coloca 4 o 5 pares de imágenes coincidentes en lados opuestos del trazo de la línea, dando a los usuarios un objetivo visual en cada extremo. La selección de plantilla establece automáticamente la orientación de página — las curvas se configuran en horizontal para arcos amplios, mientras que las plantillas diagonal, horizontal y vertical usan formato vertical para práctica concentrada. El autocompletar rellena instantáneamente cada espacio de par con imágenes aleatorias del tema seleccionado o de los 104 temas a la vez, haciendo la creación por lotes rápida. El contenido proviene de más de 3.100 ilustraciones a color en 104 colecciones temáticas — animales, vehículos, comida, naturaleza y docenas más. Cada ficha es puramente visual con cero texto en el resultado, haciendo los productos universalmente vendibles sin traducción. No se necesita clave de respuestas porque el trazo de la línea guía al usuario — una actividad autocorrectiva por diseño. Exporta PDF y JPEG listos para imprimir a 300 DPI en tamaño Carta, A4, Cuadrado (1200×1200) o dimensiones personalizadas. Edita todo en el lienzo completo de Fabric.js con fuentes como Lexend Deca, Baloo 2, Nunito, Quicksand y Fredoka. La prueba gratuita incluye todas las funciones con una marca de agua en las descargas. Compra una licencia para eliminar la marca de agua y vender con uso comercial.',
+    title: 'Genere fichas de trazo y grafomotricidad gratis',
+    tagline: 'Fichas de trazado con imagenes tematicas — gratis y sin registro.',
+    description: 'Cree fichas de trazo gratis para practicar grafomotricidad con imagenes tematicas que motivan a los ninos. Este generador produce hojas de trazado de lineas rectas, curvas, zigzag y formas basicas con guias visuales. Seleccione el tipo de trazo, el nivel de dificultad y el tema de mas de 100 categorias de imagenes. Cada ficha se exporta en PDF de alta calidad listo para imprimir. No necesita registro ni tarjeta de credito — todas las funciones disponibles al instante. Las descargas incluyen marca de agua. Ideal para padres de ninos en preescolar y educadores de motricidad fina. ¿Quiere vender fichas de trazo? Pase a la licencia comercial para archivos sin marca de agua a 300 DPI.',
   },
 
   tutorial: {
-    title: 'Cómo Crear Fichas de Grafomotricidad en 8 Pasos',
+    title: 'Como crear fichas de trazo gratis paso a paso',
     steps: [
       {
         title: 'Abre el Generador de Fichas de Grafomotricidad',
@@ -57,7 +57,7 @@ const content: ToolContent = {
       },
       {
         title: 'Exporta como PDF o JPEG a 300 DPI',
-        description: 'Descarga tu ficha terminada como JPEG de alta resolución o PDF listo para imprimir a 300 DPI. Activa la escala de grises para versiones con ahorro de tinta ideales para impresión en volumen e interiores de KDP. No se necesita clave de respuestas separada — el trazo de la línea guía al usuario, haciendo cada ficha una actividad autocorrectiva. Cada exportación está lista para producción en listados de Etsy, interiores de Amazon KDP y archivos de productos de Gumroad sin necesidad de posprocesamiento.',
+        description: 'Descarga tu ficha terminada como JPEG de alta resolución o PDF listo para imprimir a 300 DPI. Activa la escala de grises para versiones con ahorro de tinta ideales para impresión en volumen e interiores de KDP. No se necesita clave de respuestas separada — el trazo de la línea guía al usuario, haciendo cada ficha una actividad autocorrectiva. Cada exportación está lista para producción en listados de Etsy, interiores de Amazon KDP y archivos de productos de Hotmart sin necesidad de posprocesamiento.',
       },
     ],
   },
@@ -101,9 +101,9 @@ const content: ToolContent = {
       platform: 'Amazon KDP',
     },
     {
-      title: 'Centros de Preparación para la Escritura en Gumroad',
+      title: 'Centros de Preparación para la Escritura en Hotmart',
       description: 'Crea estaciones de preparación para la escritura niveladas usando el tipo de línea como eje de progresión. La Estación 1 cubre líneas horizontales para seguimiento de izquierda a derecha. La Estación 2 apunta a líneas verticales para trazos de arriba abajo. La Estación 3 introduce curvas para los movimientos de formación de letras. La Estación 4 desafía a los usuarios con diagonales para las formas angulares de las letras. Cada estación apunta a una habilidad de preescritura que se transfiere directamente a la formación de letras. El formato visual sin texto funciona en cualquier tienda independientemente del idioma de los usuarios, haciendo estos recursos valiosos para entornos inclusivos y multilingües.',
-      platform: 'Gumroad',
+      platform: 'Hotmart',
     },
     {
       title: 'Embudo Visual de Trazado de Líneas en Pinterest',
@@ -111,9 +111,9 @@ const content: ToolContent = {
       platform: 'Pinterest',
     },
     {
-      title: 'Kit Completo de Motricidad Fina en Gumroad',
-      description: 'Agrupa fichas de trazado de líneas (ocho plantillas, cuatro tipos de líneas) con ejercicios de dibujo en cuadrícula, páginas para colorear y fichas de escritura para un kit integral de motricidad fina en Gumroad. Cada formato apunta a una habilidad diferente: el trazado de líneas desarrolla el control guiado del lápiz, el dibujo en cuadrícula construye la reproducción espacial, las páginas para colorear construyen expresión creativa, y la escritura conecta habilidades visomotoras con la alfabetización. Un kit multi-formato justifica un precio premium y se diferencia de competidores de formato único.',
-      platform: 'Gumroad',
+      title: 'Kit Completo de Motricidad Fina en Hotmart',
+      description: 'Agrupa fichas de trazado de líneas (ocho plantillas, cuatro tipos de líneas) con ejercicios de dibujo en cuadrícula, páginas para colorear y fichas de escritura para un kit integral de motricidad fina en Hotmart. Cada formato apunta a una habilidad diferente: el trazado de líneas desarrolla el control guiado del lápiz, el dibujo en cuadrícula construye la reproducción espacial, las páginas para colorear construyen expresión creativa, y la escritura conecta habilidades visomotoras con la alfabetización. Un kit multi-formato justifica un precio premium y se diferencia de competidores de formato único.',
+      platform: 'Hotmart',
     },
     {
       title: 'Línea de Productos Globales Sin Texto',
@@ -192,7 +192,7 @@ const content: ToolContent = {
     },
     {
       question: '¿Puedo vender las fichas creadas con esta herramienta de forma comercial?',
-      answer: 'Sí. Con una licencia comercial, tienes derechos completos para vender fichas de trazado de líneas como descargas digitales en Etsy, cuadernos impresos en Amazon KDP, recursos para vendedores en Gumroad o a través de cualquier otro canal de venta. Las ocho plantillas distintas, los 104 temas a color, el flujo de autocompletar y el formato visual sin texto crean fuerte diferenciación y vendibilidad global.',
+      answer: 'Sí. Con una licencia comercial, tienes derechos completos para vender fichas de trazado de líneas como descargas digitales en Etsy, cuadernos impresos en Amazon KDP, recursos para vendedores en Hotmart o a través de cualquier otro canal de venta. Las ocho plantillas distintas, los 104 temas a color, el flujo de autocompletar y el formato visual sin texto crean fuerte diferenciación y vendibilidad global.',
     },
     {
       question: '¿Cuál es la política de reembolso?',

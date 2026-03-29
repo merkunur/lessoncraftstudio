@@ -2,29 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'SEO Etsy imprimibles educativos',
+    primaryKeyword: 'SEO de Etsy para fichas educativas 2026',
     secondaryKeywords: [
-      'SEO Etsy para fichas imprimibles',
-      'investigación de palabras clave Etsy productos educativos',
-      'optimización de anuncios Etsy vendedores de imprimibles',
-      'estrategia de etiquetas Etsy para fichas',
+      'optimización SEO Etsy fichas educativas imprimibles',
+      'cómo posicionar anuncios Etsy fichas educativas',
+      'algoritmo búsqueda Etsy imprimibles educativos 2026',
+      'etiquetas títulos descripción Etsy fichas imprimibles',
     ],
     lsiKeywords: [
-      'algoritmo de búsqueda Etsy factores de posicionamiento descargas digitales',
-      'optimización de títulos Etsy colocación de palabras clave anuncios imprimibles',
-      'estrategia de 13 etiquetas Etsy vendedores de fichas educativas',
-      'estructura de descripción de anuncios Etsy SEO para imprimibles',
-      'informe de términos de búsqueda Etsy Stats optimización de palabras clave',
-      'categorías y atributos Etsy para productos digitales educativos',
+      'algoritmo Etsy puntuación calidad anuncio tasa clics conversión',
+      '13 etiquetas Etsy búsqueda por frases emparejamiento palabras clave',
+      'atributos categoría descargas digitales educativo posicionamiento',
     ],
-    titleTag: 'SEO Etsy imprimibles educativos — Guía',
-    metaDescription: 'Guía de SEO Etsy para imprimibles educativos. Investigación de palabras clave, optimización de títulos, las 13 etiquetas y descripciones de anuncios.',
+    titleTag: 'SEO Etsy para fichas educativas (2026) | LCS',
+    metaDescription: 'Domine el SEO de Etsy para fichas educativas en 2026. Aprenda a usar las 13 etiquetas, optimizar títulos y posicionar sus anuncios en la búsqueda.',
   },
 
   hero: {
-    title: 'SEO en Etsy para imprimibles educativos',
+    title: 'SEO de Etsy para fichas educativas: guía actualizada 2026',
     tagline: 'Una guía completa de optimización de búsqueda en Etsy para vendedores de imprimibles educativos — incluyendo metodología de investigación de palabras clave usando autocompletado de Etsy y análisis de competidores, fórmulas de optimización de títulos que equilibran posicionamiento en búsquedas con tasa de clics, uso estratégico de las 13 etiquetas de anuncios para máxima cobertura de búsqueda, estructura de descripción con los primeros 160 caracteres optimizados para SEO, factores de posicionamiento del algoritmo de búsqueda de Etsy específicos para productos digitales, selección de categorías y atributos, bancos de palabras clave específicos por categoría para fichas de matemáticas, lectoescritura, puzles, coloreo, emparejamiento y buscar-y-encontrar, temporalidad de palabras clave estacionales para picos de vuelta al cole y festivos, y optimización continua usando informes de términos de búsqueda de Etsy Stats',
-    description: 'La búsqueda de Etsy es la principal fuente de tráfico para vendedores de imprimibles educativos. Esta guía te enseña el flujo de trabajo completo de SEO en Etsy — desde investigar los términos de búsqueda de los compradores hasta optimizar cada elemento de tu anuncio para máxima visibilidad. Aprenderás la estructura exacta de títulos, la estrategia de etiquetas y el formato de descripción que ayudan a los anuncios de imprimibles educativos a aparecer en los resultados de búsqueda de Etsy.',
+    description: 'El algoritmo de búsqueda de Etsy determina qué fichas educativas ven los compradores y cuáles permanecen invisibles. Comprender cómo funciona este algoritmo en 2026 es esencial para cualquier vendedor de imprimibles educativos que quiera generar tráfico orgánico consistente. Esta guía cubre las mecánicas actualizadas del algoritmo de Etsy, incluyendo cómo pondera títulos, las 13 etiquetas, descripciones y atributos de categoría. Aprenda a escribir títulos que posicionen para términos de búsqueda de compradores reales, maximizar sus etiquetas con frases diversificadas, completar los atributos de descargas digitales y mejorar la puntuación de calidad de sus anuncios a través de mejores tasas de clics y conversión.',
   },
 
   introduction: 'Para los vendedores de imprimibles educativos en Etsy, la búsqueda orgánica genera la mayor parte del tráfico de la tienda. A diferencia de las publicaciones en redes sociales que se desvanecen en horas o la publicidad de pago que se detiene cuando se acaba el presupuesto, un anuncio bien optimizado sigue atrayendo compradores mes tras mes. El SEO en Etsy — la práctica de optimizar tus anuncios para el motor de búsqueda interno de Etsy — es la actividad de mayor retorno de inversión en la que puedes invertir tiempo como vendedor de imprimibles.\n\nEl motor de búsqueda de Etsy compara las consultas de los compradores con los títulos, etiquetas, categorías y atributos de los anuncios. Los anuncios que coinciden bien y tienen señales de compromiso fuertes (clics, favoritos, compras) se posicionan más alto con el tiempo. Esto crea un efecto compuesto: mejor optimización lleva a más visibilidad, que lleva a más ventas, que a su vez mejora tu posicionamiento.\n\nEl desafío para los vendedores de imprimibles educativos es que el mercado es competitivo. Miles de vendedores ofrecen fichas de matemáticas, páginas para colorear y actividades de lectoescritura. La optimización genérica — rellenar tu título con palabras clave y esperar resultados — rara vez funciona. En su lugar, necesitas un enfoque sistemático: investigar los términos exactos que usan los compradores, estructurar tus títulos tanto para los motores de búsqueda como para los lectores humanos, usar las 13 etiquetas estratégicamente para lanzar una red de búsqueda amplia, y escribir descripciones que conviertan visitantes en compradores.\n\nEsta guía cubre cada elemento del SEO en Etsy específicamente para productos imprimibles educativos. Ya sea que vendas fichas de matemáticas, puzles de sopa de letras, páginas para colorear o fichas de actividades, los principios y estrategias aquí se aplican directamente a tus anuncios. Cada sección construye sobre la anterior, dándote un flujo de trabajo de optimización completo que puedes aplicar a cada anuncio de tu tienda. Todos los generadores mencionados en esta guía están disponibles como prueba gratis con marca de agua, así que puedes crear productos de ejemplo y probar tu estrategia de SEO antes de comprometerte con una licencia.',

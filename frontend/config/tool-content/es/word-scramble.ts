@@ -2,30 +2,30 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'generador de letras revueltas',
+    primaryKeyword: 'generador de anagramas gratis en linea',
     secondaryKeywords: [
-      'crear fichas de palabras desordenadas para vender',
-      'generador de fichas de ortografía con letras revueltas',
-      'fichas de letras revueltas imprimibles uso comercial',
-      'generador de palabras desordenadas para KDP',
+      'anagramas gratis sin registro',
+      'generador de palabras desordenadas gratis',
+      'crear anagramas gratis para imprimir',
+      'fichas de anagramas gratis sin tarjeta de credito',
     ],
     lsiKeywords: [
-      'fichas de fichas de letras con imágenes para Etsy',
-      'herramienta de puzzles de ortografía multilingüe',
-      'generador de actividades de reordenar letras',
+      'juegos de ordenar letras imprimibles',
+      'actividades de vocabulario con anagramas',
+      'fichas de palabras mezcladas para ninos',
     ],
-    titleTag: 'Generador de Letras Revueltas | para Vender',
-    metaDescription: 'Genera fichas de letras revueltas con código de colores para vocales, imágenes, 4 niveles de dificultad y 11 idiomas. Prueba gratuita con marca de agua.',
+    titleTag: 'Generador de anagramas gratis | LCS',
+    metaDescription: 'Genere anagramas gratis con imágenes temáticas como pistas. Sin registro, sin tarjeta. Descarga con marca de agua. Licencia comercial.',
   },
 
   hero: {
-    title: 'Generador de Fichas de Letras Revueltas',
-    tagline: 'Crea puzzles de ortografía con fichas de letras mezcladas, imágenes, código de colores y 4 niveles de dificultad en 11 idiomas',
-    description: 'Convierte la práctica de vocabulario en un puzzle de ortografía que los usuarios resuelven reordenando fichas de letras mezcladas. Esta herramienta genera fichas de letras revueltas donde una imagen aparece junto a un conjunto de fichas desordenadas — los usuarios observan la imagen, identifican lo que representa y colocan las letras en el orden correcto. A diferencia de los ejercicios de completar huecos, las letras revueltas proporcionan TODAS las letras pero en el orden incorrecto, convirtiendo la actividad en un desafío de reordenación que fortalece la precisión ortográfica mediante manipulación activa. La característica estrella es el código de colores vocales-consonantes: actívalo para mostrar las vocales en un color y las consonantes en otro, añadiendo una dimensión visual de fonética que ayuda a los usuarios a identificar tipos de letras mientras descifran. Cuatro niveles de dificultad controlan cuántas letras aparecen pre-colocadas en sus posiciones correctas: Sin Pistas desordena todas las letras para máximo desafío, Fácil pre-coloca la mitad para principiantes, Normal coloca un cuarto para práctica equilibrada y Difícil coloca solo un sexto para usuarios avanzados. Elige entre tres fuentes de contenido: el modo Biblioteca de Imágenes usa más de 3.100 ilustraciones en 104 colecciones temáticas, el Modo de Edición Manual permite seleccionar imágenes y personalizar los nombres mostrados, y el modo Lista de Palabras Personalizada permite escribir hasta 8 palabras directamente para puzzles solo de texto. La sensibilidad lingüística está integrada: cambia del español a cualquiera de los 11 idiomas compatibles y la misma imagen produce una palabra objetivo diferente con letras diferentes y una disposición completamente distinta. Una imagen de perro genera \"PERRO\" en español, \"DOG\" en inglés, \"HUND\" en alemán, \"CHIEN\" en francés. Un diseño se convierte en 11 productos únicos. Configura de 1 a 10 puzzles por página, alterna entre mayúsculas y minúsculas, añade numeración de ejercicios y elige entre 7 familias tipográficas. Exporta como PDF listo para imprimir o JPEG de alta resolución con generación automática de clave de respuestas. La prueba gratuita incluye una marca de agua en las descargas. Compra una licencia para eliminar la marca de agua y vender con uso comercial.',
+    title: 'Genere anagramas gratis con imagenes como pistas',
+    tagline: 'Fichas de palabras desordenadas listas en segundos — gratis y sin registro.',
+    description: 'Cree anagramas gratis donde los ninos reordenan letras para formar palabras, guiados por imagenes tematicas como pistas visuales. Este generador produce fichas con palabras mezcladas de mas de 100 categorias — animales, alimentos, vehiculos y mas. Seleccione el nivel de dificultad y el tema visual. Cada ficha incluye solucionario automatico y se exporta en PDF listo para imprimir. No necesita registro ni tarjeta de credito — acceda a todas las funciones al instante. Las descargas incluyen marca de agua. Ideal para padres y educadores que buscan actividades de vocabulario divertidas. ¿Quiere vender fichas de anagramas? Pase a la licencia comercial para archivos sin marca de agua.',
   },
 
   tutorial: {
-    title: 'Cómo Crear Fichas de Letras Revueltas en 8 Pasos Sencillos',
+    title: 'Como crear anagramas gratis en 3 sencillos pasos',
     steps: [
       {
         title: 'Abrir el Generador de Letras Revueltas',
@@ -65,7 +65,7 @@ const content: ToolContent = {
   whatYouCanCreate: [
     {
       title: 'Packs de Puzzles de Reordenación de Letras Temáticos',
-      description: 'Crea conjuntos de 10 a 15 fichas de letras revueltas usando colecciones temáticas de imágenes — animales, comida, vehículos, escenas de naturaleza, festividades, deportes y más. Cada puzzle presenta una imagen junto a fichas de letras mezcladas que los usuarios reordenan para formar la ortografía correcta. Activa el código de colores en la mitad del conjunto para una variante \"edición fonética\" que resalta los patrones vocales-consonantes. Agrupa por tema y vende en Etsy o Gumroad. El formato de fichas mezcladas con imágenes coloridas hace que las miniaturas de tu listing destaquen instantáneamente frente a fichas de ortografía simples.',
+      description: 'Crea conjuntos de 10 a 15 fichas de letras revueltas usando colecciones temáticas de imágenes — animales, comida, vehículos, escenas de naturaleza, festividades, deportes y más. Cada puzzle presenta una imagen junto a fichas de letras mezcladas que los usuarios reordenan para formar la ortografía correcta. Activa el código de colores en la mitad del conjunto para una variante \"edición fonética\" que resalta los patrones vocales-consonantes. Agrupa por tema y vende en Etsy o Hotmart. El formato de fichas mezcladas con imágenes coloridas hace que las miniaturas de tu listing destaquen instantáneamente frente a fichas de ortografía simples.',
     },
     {
       title: 'Cuadernos de Letras Revueltas para KDP',
@@ -85,7 +85,7 @@ const content: ToolContent = {
     },
     {
       title: 'Packs de Dificultad Diferenciada',
-      description: 'Genera cuatro versiones de la misma ficha temática — una en cada nivel de dificultad: Sin Pistas, Fácil, Normal y Difícil. Los vendedores asignan la versión adecuada a cada usuario según su nivel. Vende como un pack diferenciado a un precio premium en Gumroad o Etsy. Añade variantes con código de colores para un total de ocho versiones distintas de una sola sesión de diseño, con claves de respuestas incluidas para cada versión.',
+      description: 'Genera cuatro versiones de la misma ficha temática — una en cada nivel de dificultad: Sin Pistas, Fácil, Normal y Difícil. Los vendedores asignan la versión adecuada a cada usuario según su nivel. Vende como un pack diferenciado a un precio premium en Hotmart o Etsy. Añade variantes con código de colores para un total de ocho versiones distintas de una sola sesión de diseño, con claves de respuestas incluidas para cada versión.',
     },
   ],
 
@@ -101,9 +101,9 @@ const content: ToolContent = {
       platform: 'Amazon KDP',
     },
     {
-      title: 'Centros de Alfabetización Diferenciados en Gumroad',
-      description: 'Sube packs de fichas de letras revueltas en Gumroad organizados por tema, nivel de dificultad y código de colores. Nivel 1: Fácil con fichas con código de colores para aprendices visuales. Nivel 2: Normal con código de colores. Nivel 3: Difícil con fichas Todo Negro. Nivel 4: Sin Pistas con Todo Negro para desafío avanzado. Incluye claves de respuestas y una hoja de seguimiento de progreso. Los compradores de Gumroad pagan precios premium por recursos de ortografía diferenciados que puedan utilizar en múltiples niveles de capacidad.',
-      platform: 'Gumroad',
+      title: 'Centros de Alfabetización Diferenciados en Hotmart',
+      description: 'Sube packs de fichas de letras revueltas en Hotmart organizados por tema, nivel de dificultad y código de colores. Nivel 1: Fácil con fichas con código de colores para aprendices visuales. Nivel 2: Normal con código de colores. Nivel 3: Difícil con fichas Todo Negro. Nivel 4: Sin Pistas con Todo Negro para desafío avanzado. Incluye claves de respuestas y una hoja de seguimiento de progreso. Los compradores de Hotmart pagan precios premium por recursos de ortografía diferenciados que puedan utilizar en múltiples niveles de capacidad.',
+      platform: 'Hotmart',
     },
     {
       title: 'Tienda de Vocabulario Multilingüe',
@@ -116,9 +116,9 @@ const content: ToolContent = {
       platform: 'Pinterest',
     },
     {
-      title: 'Kit Completo de Ortografía en Gumroad',
-      description: 'Agrupa fichas de letras revueltas con fichas de adivinar palabras, sopa de letras, práctica de escritura y fichas de asociación para crear un kit completo de ortografía en Gumroad. El formato de letras revueltas (reordenación de letras) ejercita una habilidad cognitiva diferente a adivinar palabras (completar huecos) o sopa de letras (búsqueda de letras). Un kit de ortografía multiformato justifica un precio premium y proporciona a los usuarios práctica variada con el mismo vocabulario.',
-      platform: 'Gumroad',
+      title: 'Kit Completo de Ortografía en Hotmart',
+      description: 'Agrupa fichas de letras revueltas con fichas de adivinar palabras, sopa de letras, práctica de escritura y fichas de asociación para crear un kit completo de ortografía en Hotmart. El formato de letras revueltas (reordenación de letras) ejercita una habilidad cognitiva diferente a adivinar palabras (completar huecos) o sopa de letras (búsqueda de letras). Un kit de ortografía multiformato justifica un precio premium y proporciona a los usuarios práctica variada con el mismo vocabulario.',
+      platform: 'Hotmart',
     },
   ],
 
@@ -145,7 +145,7 @@ const content: ToolContent = {
     },
     {
       title: 'Mezcla Niveles de Dificultad en los Packs',
-      description: 'Crea packs de fichas que progresen de Fácil a Sin Pistas dentro del mismo tema. Un pack \"Puzzles de Ortografía de Animales de Granja\" con 5 páginas Fáciles, 5 Normal, 5 Difícil y 5 Sin Pistas proporciona a los vendedores un conjunto diferenciado listo para usar. Incluye claves de respuestas para cada nivel. Los packs progresivos tienen precios premium en Gumroad y Etsy.',
+      description: 'Crea packs de fichas que progresen de Fácil a Sin Pistas dentro del mismo tema. Un pack \"Puzzles de Ortografía de Animales de Granja\" con 5 páginas Fáciles, 5 Normal, 5 Difícil y 5 Sin Pistas proporciona a los vendedores un conjunto diferenciado listo para usar. Incluye claves de respuestas para cada nivel. Los packs progresivos tienen precios premium en Hotmart y Etsy.',
     },
     {
       title: 'Combina con Adivinar Palabras para Packs Completos',
@@ -192,7 +192,7 @@ const content: ToolContent = {
     },
     {
       question: '¿Puedo vender comercialmente las fichas creadas con esta herramienta?',
-      answer: 'La prueba gratuita con marca de agua es solo para uso personal y educativo. Para vender fichas en Etsy, Gumroad, Amazon KDP o cualquier otro marketplace, necesitas una licencia comercial. La licencia comercial elimina la marca de agua y otorga derechos completos de reventa para las fichas que crees.',
+      answer: 'La prueba gratuita con marca de agua es solo para uso personal y educativo. Para vender fichas en Etsy, Hotmart, Amazon KDP o cualquier otro marketplace, necesitas una licencia comercial. La licencia comercial elimina la marca de agua y otorga derechos completos de reventa para las fichas que crees.',
     },
     {
       question: '¿Cuál es su política de reembolso?',

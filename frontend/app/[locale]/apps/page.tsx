@@ -29,9 +29,9 @@ const appsMetadata: Record<string, { title: string; description: string; keyword
     keywords: 'g\én\érateur imprimables, Etsy imprimables, KDP fiches, vendre imprimables en ligne, g\én\érateur mots cach\és, cr\éateur fiches maths, g\én\érateur coloriages, business imprimables',
   },
   es: {
-    title: '33 Generadores de Imprimibles | Herramientas Etsy & KDP',
-    description: 'Explora 33 generadores de imprimibles profesionales. Sopa de letras, fichas de matem\áticas, colorear, puzzles y m\ás. Prueba gratis con marca de agua. Vende en Etsy y Amazon KDP.',
-    keywords: 'generador imprimibles, Etsy imprimibles, KDP fichas, vender imprimibles online, generador sopa letras, creador fichas matem\áticas, generador colorear, negocio imprimibles',
+    title: '33 generadores de imprimibles — Venda en Etsy | LCS',
+    description: 'Explore 33 generadores de imprimibles para crear y vender fichas en Etsy, KDP y Hotmart. Sopas de letras, matemáticas, colorear, puzzles. Pruebe gratis con marca de agua.',
+    keywords: 'generadores imprimibles vender Etsy, fichas KDP Hotmart, sopas letras generador, fichas matemáticas crear, negocio imprimibles hispano, generador colorear vender',
   },
   it: {
     title: '33 Generatori di Stampabili | Strumenti Etsy & KDP',
@@ -148,14 +148,14 @@ const localeContent: Record<string, {
   },
   es: {
     heroTitle: '33 generadores de imprimibles profesionales',
-    heroSubtitle: 'Crea imprimibles profesionales para tu negocio. Sopa de letras, fichas de matemáticas, colorear, puzzles y más. Prueba los 33 generadores gratis con marca de agua.',
+    heroSubtitle: 'Cree imprimibles profesionales para su negocio. Sopas de letras, fichas de matemáticas, colorear, puzzles y más. Pruebe los 33 generadores gratis con marca de agua.',
     tryFree: 'Probar gratis',
     details: 'Detalles',
     trustNoAccount: 'Sin cuenta requerida',
     trustAllFree: '33 generadores gratis',
     trustCommercial: 'Licencia comercial disponible',
-    ctaTitle: 'Empieza a crear imprimibles hoy',
-    ctaSubtitle: 'Prueba los 33 generadores gratis con marca de agua. Sin cuenta requerida. Comprueba la calidad antes de comprar.',
+    ctaTitle: 'Empiece a crear imprimibles hoy',
+    ctaSubtitle: 'Pruebe los 33 generadores gratis con marca de agua. Sin cuenta requerida. Compruebe la calidad antes de comprar.',
     ctaButton: 'Probar gratis con marca de agua',
     categories: {
       math: { name: 'Matemáticas', description: '6 generadores de matemáticas — suma, resta, puzzles y más' },

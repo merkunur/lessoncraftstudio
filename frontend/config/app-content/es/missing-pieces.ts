@@ -2,36 +2,36 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'generador piezas faltantes',
+    primaryKeyword: 'rompecabezas de piezas faltantes para cuadernillos KDP',
     secondaryKeywords: [
-      'creador de rompecabezas de piezas faltantes para vendedores Etsy',
-      'generador de fichas de puzzles visuales para editores Amazon KDP',
-      'creador de puzzles de piezas faltantes con licencia comercial Gumroad',
-      'vender fichas de piezas faltantes imprimibles en Gumroad',
+      'fichas de piezas faltantes para vender en Etsy',
+      'rompecabezas de completar imágenes para KDP',
+      'fichas de piezas que faltan licencia comercial',
+      'crear fichas de completar visual para vender',
     ],
     lsiKeywords: [
-      'productos digitales de puzzles visuales para emprendedores',
-      'generador de rompecabezas de piezas faltantes a uso comercial',
-      'actividades de puzzles imprimibles para negocio en línea',
+      'rompecabezas visual piezas faltantes vendedores',
+      'fichas completar imágenes preescolar KDP',
+      'negocio fichas lógica visual mercado hispano',
     ],
-    titleTag: 'Generador Piezas Faltantes | Crear y Vender',
-    metaDescription: 'Crea puzzles de piezas faltantes para vender en Etsy, KDP y Gumroad. 6 formas, dificultad configurable, clave de respuestas automática, 104 temas. Prueba gratis.',
+    titleTag: 'Piezas faltantes para cuadernillos KDP | LCS',
+    metaDescription: 'Cree rompecabezas de piezas faltantes para vender en Etsy y KDP. Los niños completan imágenes. Licencia comercial incluida. Pruebe gratis.',
   },
 
   hero: {
-    title: 'Generador de Puzzles de Piezas Faltantes Estilo Rompecabezas Visual',
-    tagline: 'Genera rompecabezas estilo puzzle donde se recortan piezas de imágenes y los usuarios identifican la opción numerada correcta — con 6 formas de pieza, 1–5 piezas faltantes, 2–6 opciones de solución con piezas distractoras, claves de respuestas automáticas y diseño puramente visual que funciona en cualquier idioma.',
+    title: 'Genere rompecabezas de piezas faltantes para vender en Etsy y KDP',
+    tagline: 'Cree fichas donde los niños encuentran la pieza que completa la imagen.',
     description:
-      'Crea puzzles profesionales de piezas faltantes donde una imagen tiene huecos recortados y los usuarios identifican qué opción numerada rellena cada espacio. El algoritmo inteligente de extracción de piezas encuentra áreas visualmente distintas con suficiente varianza de color, garantizando que cada puzzle sea resoluble y atractivo. Elige entre 6 formas de pieza — cuadrado, círculo, rectángulo vertical, rectángulo horizontal, elipse vertical y elipse horizontal — y configura la dificultad con 1–5 piezas faltantes y 2–6 opciones de solución que incluyen piezas distractoras para desafiar las habilidades de discriminación visual. Cada puzzle incluye una clave de respuestas generada automáticamente con etiquetas numéricas resaltadas en amarillo colocadas dentro de cada hueco mostrando la opción correcta. El encabezado generado automáticamente muestra "Piezas Faltantes" en turquesa (#06B6D4) con una descripción en rosa (#DB2777) enmarcado en un sistema de doble borde — borde exterior verde azulado (#14B8A6, 8px) y borde interior rosa intenso (#EC4899, 3px) — localizado en los 11 idiomas soportados. Piezas Faltantes NO es sensible al idioma: los puzzles son puramente visuales sin contenido dependiente del idioma, por lo que cada puzzle funciona idénticamente en todo el mundo. El Acceso Completo desbloquea los 104 temas con más de 3.100 ilustraciones y los 11 idiomas de interfaz. Añade temas de fondo y temas de borde con controles de opacidad independientes, y exporta PDFs y JPEGs listos para imprimir a 300 DPI en tamaños Carta, A4, Cuadrado o personalizado. Ya sea que vendas paquetes de puzzles visuales en Etsy, compiles libros de rompecabezas para Amazon KDP o crees actividades de pensamiento crítico para Gumroad, este generador produce puzzles listos para producción en minutos — prueba gratis con todas las funciones — sin registro, sin tarjeta de crédito. Las descargas incluyen una marca de agua; compra una licencia para eliminarla.',
+      'Crea puzzles profesionales de piezas faltantes donde una imagen tiene huecos recortados y los usuarios identifican qué opción numerada rellena cada espacio. El algoritmo inteligente de extracción de piezas encuentra áreas visualmente distintas con suficiente varianza de color, garantizando que cada puzzle sea resoluble y atractivo. Elige entre 6 formas de pieza — cuadrado, círculo, rectángulo vertical, rectángulo horizontal, elipse vertical y elipse horizontal — y configura la dificultad con 1–5 piezas faltantes y 2–6 opciones de solución que incluyen piezas distractoras para desafiar las habilidades de discriminación visual. Cada puzzle incluye una clave de respuestas generada automáticamente con etiquetas numéricas resaltadas en amarillo colocadas dentro de cada hueco mostrando la opción correcta. El encabezado generado automáticamente muestra "Piezas Faltantes" en turquesa (#06B6D4) con una descripción en rosa (#DB2777) enmarcado en un sistema de doble borde — borde exterior verde azulado (#14B8A6, 8px) y borde interior rosa intenso (#EC4899, 3px) — localizado en los 11 idiomas soportados. Piezas Faltantes NO es sensible al idioma: los puzzles son puramente visuales sin contenido dependiente del idioma, por lo que cada puzzle funciona idénticamente en todo el mundo. El Acceso Completo desbloquea los 104 temas con más de 3.100 ilustraciones y los 11 idiomas de interfaz. Añade temas de fondo y temas de borde con controles de opacidad independientes, y exporta PDFs y JPEGs listos para imprimir a 300 DPI en tamaños Carta, A4, Cuadrado o personalizado. Ya sea que vendas paquetes de puzzles visuales en Etsy, compiles libros de rompecabezas para Amazon KDP o crees actividades de pensamiento crítico para Hotmart, este generador produce puzzles listos para producción en minutos — prueba gratis con todas las funciones — sin registro, sin tarjeta de crédito. Las descargas incluyen una marca de agua; compra una licencia para eliminarla.',
   },
 
   howItWorks: {
-    title: 'Cómo Crear Puzzles de Piezas Faltantes en 5 Pasos',
+    title: 'Cómo crear rompecabezas de piezas faltantes paso a paso',
     steps: [
       {
         title: 'Configura el diseño de página',
         description:
-          'Abre el panel de Configuración de Página y elige un tamaño: Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal, Cuadrado (1200×1200) o cualquier dimensión personalizada. Selecciona un color de página con el selector de color como fondo alternativo. Elige un tema de fondo y ajusta su opacidad (0–1 en pasos de 0,05), luego selecciona un tema de borde con su propio control de opacidad independiente. Estas opciones de diseño enmarcan tu puzzle de piezas faltantes antes de configurar cualquier contenido.',
+          'Genere rompecabezas de piezas faltantes para vender en Etsy, Amazon KDP o Hotmart. Los niños observan una imagen incompleta y seleccionan la pieza que falta de varias opciones — un formato que desarrolla la percepción visual y el razonamiento lógico. Con más de 3.000 imágenes en 104 temas, cree rompecabezas visualmente atractivos para cualquier estación o interés. Este formato es ideal para cuadernillos de actividades en Amazon KDP y paquetes de lógica visual en Etsy. Exporte PDFs a 300 DPI con solucionario automático y véndalos con la licencia comercial incluida. El formato es puramente visual — funciona en cualquier idioma sin traducción. Pruebe gratis con marca de agua — sin registro.',
       },
       {
         title: 'Configura el puzzle',
@@ -51,13 +51,13 @@ const content: AppContent = {
       {
         title: 'Genera la clave de respuestas y descarga',
         description:
-          'Cambia a la pestaña Clave de Respuestas para ver la clave generada automáticamente. La misma imagen del puzzle aparece con los huecos, y etiquetas numéricas resaltadas en amarillo (rgba(255,255,0,0.7)) dentro de cada hueco muestran el índice de la opción correcta. Descarga ambas versiones usando cuatro botones dedicados: JPEG de la Ficha, JPEG de la Clave, PDF de la Ficha y PDF de la Clave — todos renderizados a 300 DPI con calidad JPEG 1.0. Activa escala de grises para versiones que ahorran tinta. Cada exportación está lista para producción en listados de Etsy, interiores de Amazon KDP y archivos de productos Gumroad.',
+          'Cambia a la pestaña Clave de Respuestas para ver la clave generada automáticamente. La misma imagen del puzzle aparece con los huecos, y etiquetas numéricas resaltadas en amarillo (rgba(255,255,0,0.7)) dentro de cada hueco muestran el índice de la opción correcta. Descarga ambas versiones usando cuatro botones dedicados: JPEG de la Ficha, JPEG de la Clave, PDF de la Ficha y PDF de la Clave — todos renderizados a 300 DPI con calidad JPEG 1.0. Activa escala de grises para versiones que ahorran tinta. Cada exportación está lista para producción en listados de Etsy, interiores de Amazon KDP y archivos de productos Hotmart.',
       },
     ],
   },
 
   keyFeatures: {
-    title: 'Características Principales del Generador de Puzzles de Piezas Faltantes',
+    title: 'Por qué los rompecabezas de piezas faltantes son populares',
     features: [
       {
         title: 'Puzzles Estilo Rompecabezas con Dificultad Configurable',
@@ -103,7 +103,7 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Cómo Vender Puzzles de Piezas Faltantes en Línea',
+    title: 'Vender fichas de piezas faltantes en Etsy, KDP y Hotmart',
     cases: [
       {
         title: 'Paquetes Temáticos de Puzzles de Piezas Faltantes en Etsy',
@@ -118,16 +118,16 @@ const content: AppContent = {
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Actividades de Puzzles para venta en línea en Gumroad',
+        title: 'Actividades de Puzzles para venta en línea en Hotmart',
         description:
-          'Crea actividades listas para usar de discriminación visual y pensamiento crítico para Gumroad. Los puzzles de piezas faltantes fortalecen el razonamiento espacial, el análisis visual y la atención al detalle — habilidades valoradas en los catálogos de productos de educación infantil y primaria. Crea conjuntos alineados con el catálogo de productos: puzzles de hábitats de animales, puzzles de escenas estacionales, puzzles de ayudantes comunitarios y puzzles de grupos de alimentos. Cada conjunto incluye fichas para usuarios y claves de respuestas en formatos PDF y JPEG. La dificultad configurable te permite crear versiones diferenciadas del mismo puzzle para tiendas con niveles mixtos.',
-        platform: 'Gumroad (teacherspayteachers.com)',
+          'Crea actividades listas para usar de discriminación visual y pensamiento crítico para Hotmart. Los puzzles de piezas faltantes fortalecen el razonamiento espacial, el análisis visual y la atención al detalle — habilidades valoradas en los catálogos de productos de educación infantil y primaria. Crea conjuntos alineados con el catálogo de productos: puzzles de hábitats de animales, puzzles de escenas estacionales, puzzles de ayudantes comunitarios y puzzles de grupos de alimentos. Cada conjunto incluye fichas para usuarios y claves de respuestas en formatos PDF y JPEG. La dificultad configurable te permite crear versiones diferenciadas del mismo puzzle para tiendas con niveles mixtos.',
+        platform: 'Hotmart (hotmart.com)',
       },
       {
         title: 'Colecciones de Puzzles Estacionales y Festivos',
         description:
           'Las 104 colecciones de imágenes temáticas cubren cada ocasión estacional y festiva — Navidad, Halloween, Pascua, Día de San Valentín, vuelta al colegio, vacaciones de verano y más. Crea colecciones de puzzles de disponible ahora que se alineen con los períodos de mayor demanda comercial. Lanza paquetes de puzzles de Halloween en septiembre, colecciones de Navidad en octubre y paquetes de San Valentín en enero. Varía las formas de pieza y los niveles de dificultad dentro de cada conjunto estacional para máximo valor. Los productos estacionales obtienen precios más altos durante sus ventanas de mayor demanda y crean razones naturales para compras recurrentes de tu base de clientes.',
-        platform: 'Etsy / Amazon KDP / Gumroad (estacional)',
+        platform: 'Etsy / Amazon KDP / Hotmart (estacional)',
       },
       {
         title: 'Alcance en el Mercado Global — Los Puzzles Visuales No Necesitan Traducción',
@@ -192,7 +192,7 @@ const content: AppContent = {
     {
       question: '¿Puedo vender puzzles de piezas faltantes creados con esta herramienta en Etsy y Amazon KDP?',
       answer:
-        'Sí. Con una licencia comercial, tienes plenos derechos para vender tus puzzles de piezas faltantes como descargas digitales en Etsy, como libros de trabajo impresos en Amazon KDP, como recursos para venta en línea en Gumroad o a través de cualquier otro canal de venta. Las 6 formas de pieza, la dificultad configurable, las claves de respuestas automáticas y las 104 colecciones de imágenes temáticas te dan las herramientas creativas para producir productos de puzzles originales y vendibles.',
+        'Sí. Con una licencia comercial, tienes plenos derechos para vender tus puzzles de piezas faltantes como descargas digitales en Etsy, como libros de trabajo impresos en Amazon KDP, como recursos para venta en línea en Hotmart o a través de cualquier otro canal de venta. Las 6 formas de pieza, la dificultad configurable, las claves de respuestas automáticas y las 104 colecciones de imágenes temáticas te dan las herramientas creativas para producir productos de puzzles originales y vendibles.',
     },
     {
       question: '¿Cuál es la política de reembolso?',

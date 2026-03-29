@@ -2,32 +2,32 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'generador fichas busca y encuentra',
+    primaryKeyword: 'fichas de busca y cuenta para vender en Etsy',
     secondaryKeywords: [
-      'generador de fichas de objetos ocultos imprimibles para vendedores Etsy',
-      'creador de fichas yo espío para editores Amazon KDP',
-      'generador de fichas busca y cuenta con licencia comercial',
-      'vender fichas de busca y encuentra en Gumroad',
+      'generador de fichas de busca y cuenta para Etsy',
+      'fichas de contar objetos para Amazon KDP',
+      'ejercicios de búsqueda y conteo licencia comercial',
+      'crear fichas de I Spy para vender online',
     ],
     lsiKeywords: [
-      'productos digitales yo espío para emprendedores',
-      'fichas de objetos ocultos imprimibles uso comercial',
-      'generador de fichas de conteo con clave de respuesta automática',
+      'fichas busca cuenta vendedores Etsy preescolar',
+      'ejercicios búsqueda conteo imprimibles KDP',
+      'negocio fichas conteo visual mercado hispano',
     ],
-    titleTag: 'Generador Fichas Busca y Encuentra | Crear y Vender',
+    titleTag: 'Fichas busca y cuenta para vender en Etsy | LCS',
     metaDescription:
-      'Crea fichas yo espío de busca y cuenta para Etsy, KDP y Gumroad. 4 tipos de tarea, modo Identificación de Letras, clave de respuesta auto, 104 temas.',
+      'Cree fichas de busca y cuenta para vender en Etsy y KDP. Los niños buscan y cuentan imágenes temáticas. Licencia comercial. Pruebe gratis.',
   },
 
   hero: {
-    title: 'Generador de Fichas Busca y Encuentra para Actividades Yo Espío Imprimibles',
-    tagline: 'Dos modos de actividad en un solo generador — Objeto Oculto Yo Espío e Identificación de Letras — con cuatro tipos de tarea combinables (rodear, cuadrado, tachar, contar), alfabetos específicos por idioma con letras acentuadas, etiquetas de nombres de imágenes localizadas en 11 idiomas y claves de respuesta autogeneradas con anotaciones visuales.',
+    title: 'Genere fichas de busca y cuenta para vender en Etsy, KDP y Hotmart',
+    tagline: 'Cree fichas donde los niños buscan y cuentan imágenes — un formato irresistible.',
     description:
-      'Crea fichas profesionales de busca y encuentra donde los usuarios buscan en una escena de imágenes dispersas para encontrar, rodear, tachar o contar objetos específicos. Elige entre dos modos de actividad: el modo Objeto Oculto dispersa imágenes en una cuadrícula configurable (5–10 filas × 5–10 columnas) y te permite asignar hasta 4 objetos objetivo con tipos de tarea individuales — rodear con un círculo, rodear con un cuadrado, tachar o contar cuántos aparecen. El modo Identificación de Letras muestra una cuadrícula de alfabeto específica por idioma con letras acentuadas (alemán ÄÖÜ, español Ñ, sueco ÅÄÖ, danés/noruego ÆØÅ) y genera escenas yo espío usando imágenes que empiezan con la letra seleccionada. Cada ficha incluye un encabezado autogenerado — \"Yo Espío\" o \"Identificación de Letras\" — localizado en los 11 idiomas compatibles con un borde azul (#2196F3). El sistema de doble lienzo genera tanto una pestaña de ficha como una pestaña de clave de respuesta con anotaciones rojas de círculo, cuadrado y cruz más conteos de cantidad. El Generador de Busca y Encuentra es sensible al idioma: las etiquetas de nombres de imágenes en la ficha se muestran en el idioma seleccionado a través del sistema de Vocabulario de Imágenes. El Acceso Completo desbloquea los 104 temas con más de 3100 ilustraciones y los 11 idiomas de interfaz para etiquetas localizadas. Añade temas de fondo y borde con controles de opacidad independientes, y exporta PDF y JPEG listos para imprimir a 300 DPI en formato Carta, A4, Cuadrado (1200×1200) o tamaños personalizados. Ya sea que vendas packs de actividades yo espío en Etsy, compiles cuadernos de objetos ocultos para Amazon KDP o crees actividades de conteo para Gumroad, este generador ofrece fichas listas para producción en minutos — prueba gratis con todas las funciones, sin registro, sin tarjeta de crédito. Las descargas incluyen una marca de agua; compra una licencia para eliminarla.',
+      'Genere fichas de busca y cuenta para vender en Etsy, Amazon KDP o Hotmart. Los niños buscan imágenes específicas dentro de una colección temática y cuentan cuántas encuentran — un formato que combina atención visual con conteo y es irresistible para preescolares. Seleccione entre más de 3.000 ilustraciones en 104 temas para crear fichas visualmente ricas. Las fichas de busca y cuenta (I Spy) son uno de los formatos más populares en Etsy para preescolar e infantil, con búsquedas constantes todo el año. Exporte PDFs a 300 DPI con solucionario y véndalos con la licencia comercial incluida. Formato puramente visual — funciona en cualquier idioma. Pruebe gratis con marca de agua — sin registro.',
   },
 
   howItWorks: {
-    title: 'Cómo Crear Fichas Yo Espío en 5 Pasos',
+    title: 'Cómo crear fichas de busca y cuenta en minutos',
     steps: [
       {
         title: 'Configura el Diseño de Página',
@@ -52,13 +52,13 @@ const content: AppContent = {
       {
         title: 'Genera la Clave de Respuesta y Descarga',
         description:
-          'Cambia a la pestaña Clave de Respuesta para ver las anotaciones autogeneradas: círculos rojos alrededor de objetos para rodear, cuadrados rojos alrededor de objetos para encuadrar, cruces rojas sobre objetos tachados y conteos de cantidad para objetos contados. Descarga ambas versiones usando cuatro botones dedicados: Ficha JPEG, Clave de Respuesta JPEG, Ficha PDF y Clave de Respuesta PDF a 300 DPI. Activa escala de grises para versiones que ahorran tinta. Cada exportación está lista para producción en listados de Etsy, interiores de Amazon KDP y archivos de productos Gumroad.',
+          'Cambia a la pestaña Clave de Respuesta para ver las anotaciones autogeneradas: círculos rojos alrededor de objetos para rodear, cuadrados rojos alrededor de objetos para encuadrar, cruces rojas sobre objetos tachados y conteos de cantidad para objetos contados. Descarga ambas versiones usando cuatro botones dedicados: Ficha JPEG, Clave de Respuesta JPEG, Ficha PDF y Clave de Respuesta PDF a 300 DPI. Activa escala de grises para versiones que ahorran tinta. Cada exportación está lista para producción en listados de Etsy, interiores de Amazon KDP y archivos de productos Hotmart.',
       },
     ],
   },
 
   keyFeatures: {
-    title: 'Características Principales del Generador de Fichas Busca y Encuentra',
+    title: 'Por qué las fichas de busca y cuenta son populares en Etsy',
     features: [
       {
         title: 'Dos Modos de Actividad: Objeto Oculto Yo Espío e Identificación de Letras',
@@ -104,7 +104,7 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Cómo Vender Fichas Yo Espío en Línea',
+    title: 'Vender fichas de busca y cuenta en Etsy, KDP y Hotmart',
     cases: [
       {
         title: 'Packs de Actividades Yo Espío Temáticos en Etsy',
@@ -119,22 +119,22 @@ const content: AppContent = {
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Actividades de Observación y Conteo para venta en línea en Gumroad',
+        title: 'Actividades de Observación y Conteo para venta en línea en Hotmart',
         description:
-          'Crea fichas yo espío de conteo listas para usar donde los usuarios buscan, encuentran y cuentan objetos en una escena de imágenes dispersas. Los vendedores que buscan actividades de conteo en Gumroad valoran fichas que combinan búsqueda visual con práctica de aritmética. La tarea de contar pide a los usuarios escribir cuántas instancias de cada objeto encuentran — una extensión natural de yo espío hacia habilidades matemáticas. Crea conjuntos alineados con el catálogo de productos: conteo de animales de granja, conteo de ayudantes comunitarios, conteo de criaturas marinas y conteo de objetos estacionales. Cada conjunto incluye fichas del usuario y claves de respuesta en formatos PDF y JPEG.',
-        platform: 'Gumroad (teacherspayteachers.com)',
+          'Crea fichas yo espío de conteo listas para usar donde los usuarios buscan, encuentran y cuentan objetos en una escena de imágenes dispersas. Los vendedores que buscan actividades de conteo en Hotmart valoran fichas que combinan búsqueda visual con práctica de aritmética. La tarea de contar pide a los usuarios escribir cuántas instancias de cada objeto encuentran — una extensión natural de yo espío hacia habilidades matemáticas. Crea conjuntos alineados con el catálogo de productos: conteo de animales de granja, conteo de ayudantes comunitarios, conteo de criaturas marinas y conteo de objetos estacionales. Cada conjunto incluye fichas del usuario y claves de respuesta en formatos PDF y JPEG.',
+        platform: 'Hotmart (hotmart.com)',
       },
       {
         title: 'Packs de Identificación de Letras y Fonética para Conciencia Alfabética',
         description:
           'Aprovecha el modo Identificación de Letras para crear fichas yo espío enfocadas en el reconocimiento de la letra inicial. Cada ficha se centra en una letra específica — los usuarios encuentran todos los objetos que empiezan con esa letra en una escena de imágenes dispersas. Crea un pack completo de Identificación de Letras A–Z con 26 fichas (una por letra) y claves de respuesta. Los alfabetos específicos por idioma con letras acentuadas te permiten crear packs de fonética para el mercado alemán (ÄÖÜ), español (Ñ) y nórdico (ÅÄÖ/ÆØÅ) que los competidores con herramientas solo en inglés no pueden igualar.',
-        platform: 'Etsy / Gumroad (mercado de lectoescritura)',
+        platform: 'Etsy / Hotmart (mercado de lectoescritura)',
       },
       {
         title: 'Colecciones Yo Espío Multilingües para Mercados Globales',
         description:
           'Aprovecha las etiquetas de nombres de imágenes sensibles al idioma para crear fichas yo espío en 11 idiomas. Las mismas imágenes producen etiquetas diferentes al cambiar de idioma — los nombres de imágenes, las primeras letras en Identificación de Letras y el texto del encabezado se actualizan automáticamente. Crea packs yo espío multilingües donde cada versión de idioma usa las mismas imágenes temáticas pero con etiquetas localizadas. Esto es valioso para vendedores de ESL/EFL, tiendas bilingües y familias de trabajo desde casa internacionales. Vende packs por idioma o mega-packs multilingües a precios premium.',
-        platform: 'Etsy / Gumroad (mercado multilingüe)',
+        platform: 'Etsy / Hotmart (mercado multilingüe)',
       },
     ],
   },
@@ -193,7 +193,7 @@ const content: AppContent = {
     {
       question: '¿Puedo vender fichas yo espío creadas con esta herramienta en Etsy y Amazon KDP?',
       answer:
-        'Sí. Con una licencia comercial, tienes todos los derechos para vender tus fichas de yo espío y busca y cuenta como descargas digitales en Etsy, como cuadernos impresos en Amazon KDP, como recursos para venta en línea en Gumroad o a través de cualquier otro canal de venta. Los dos modos de actividad, cuatro tipos de tarea, Identificación de Letras con alfabetos específicos por idioma y las 104 colecciones de imágenes temáticas te dan las herramientas creativas para producir productos yo espío originales y vendibles.',
+        'Sí. Con una licencia comercial, tienes todos los derechos para vender tus fichas de yo espío y busca y cuenta como descargas digitales en Etsy, como cuadernos impresos en Amazon KDP, como recursos para venta en línea en Hotmart o a través de cualquier otro canal de venta. Los dos modos de actividad, cuatro tipos de tarea, Identificación de Letras con alfabetos específicos por idioma y las 104 colecciones de imágenes temáticas te dan las herramientas creativas para producir productos yo espío originales y vendibles.',
     },
     {
       question: '¿Cuál es la política de reembolso?',

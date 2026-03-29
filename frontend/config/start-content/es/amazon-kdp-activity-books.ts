@@ -2,29 +2,26 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'vender libros de actividades en amazon kdp',
+    primaryKeyword: 'negocio de cuadernillos Amazon KDP guía',
     secondaryKeywords: [
-      'libros de actividades Amazon KDP',
-      'vender libros de puzzles en KDP',
-      'negocio de libros de actividades KDP',
-      'publicar libros de actividades Amazon',
+      'publicar libros de actividades Amazon KDP',
+      'cómo vender cuadernillos en Amazon KDP',
+      'negocio de libros educativos KDP paso a paso',
+      'crear libros de fichas para Amazon',
     ],
     lsiKeywords: [
-      'kindle direct publishing libros de actividades',
-      'formato interior KDP fichas',
-      'diseño de portada KDP libros de actividades',
-      'palabras clave backend Amazon libros de puzzles',
-      'calculadora de regalías KDP libros de actividades',
-      'impresión bajo demanda negocio libros de actividades',
+      'formato interior KDP libros de actividades',
+      'portada de cuadernillos Amazon vendedores',
+      'categorías y palabras clave KDP educativos',
     ],
-    titleTag: 'Vender Libros de Actividades en Amazon KDP — Guía',
-    metaDescription: 'Cómo vender libros de actividades en Amazon KDP. Formato interior, diseño de portada, investigación de palabras clave, estrategia de precios y escalado.',
+    titleTag: 'Negocio cuadernillos Amazon KDP | LCS',
+    metaDescription: 'Guía para publicar cuadernillos de actividades en Amazon KDP. Formato, portada, categorías y estrategia de palabras clave para libros educativos impresos.',
   },
 
   hero: {
-    title: 'Guía de Negocio de Libros de Actividades en Amazon KDP',
-    tagline: 'Publica y vende libros de actividades profesionales en Amazon con impresión bajo demanda — sin inventario, sin costes iniciales',
-    description: 'Amazon KDP te da acceso al mayor marketplace de libros del planeta con cero riesgo de inventario. Esta guía cubre cada paso para construir un negocio rentable de libros de actividades en KDP — desde el formato interior y el diseño de portada hasta la investigación de palabras clave, la estrategia de precios, la selección de categorías y el escalado de tu catálogo. Ya sea que estés publicando tu primer libro de puzzles o expandiendo un negocio de imprimibles existente a Amazon, este es tu manual específico para KDP.',
+    title: 'Negocio de Cuadernillos de Actividades en Amazon KDP',
+    tagline: 'Publique libros de actividades impresos bajo demanda sin inventario, almacén ni envíos',
+    description: 'Amazon KDP permite publicar libros de actividades y cuadernillos educativos en formato impreso bajo demanda, accediendo a la base de compradores más grande del mundo sin inversión en inventario. Esta guía cubre el proceso completo: desde el formato interior con fichas generadas profesionalmente, el diseño de portada, la selección de categorías y palabras clave, hasta las estrategias de precios y promoción que funcionan para libros educativos en Amazon. Aprenderá a transformar las fichas creadas con los generadores de LessonCraftStudio en cuadernillos de actividades vendibles. Cada generador ofrece una prueba gratis con marca de agua.',
   },
 
   introduction: 'Amazon vende más libros que cualquier otro minorista del mundo, y los libros de actividades son una de las categorías de más rápido crecimiento en sus secciones infantiles y de puzzles. A diferencia de Etsy, donde vendes descargas digitales individuales, Amazon KDP imprime libros físicos bajo demanda y los envía directamente a los clientes. Tú subes un interior en PDF y un archivo de portada, fijas tu precio, y Amazon se encarga de la impresión, el envío, la atención al cliente y las devoluciones.\n\nEste modelo de impresión bajo demanda elimina las dos mayores barreras de la publicación tradicional: los costes de impresión iniciales y el riesgo de inventario. Nunca pagas por imprimir una sola copia. Amazon imprime cada libro solo después de que un cliente lo pide. Tu beneficio es la diferencia entre tu precio de venta y el coste de impresión de Amazon, multiplicado por la tasa de regalía que elijas.\n\nEsta guía es específica de KDP de principio a fin. La estrategia general de negocio de imprimibles aparece en nuestra Guía Completa para Iniciar un Negocio de Imprimibles, y las tácticas específicas de Etsy se cubren en la Masterclass de Negocio de Imprimibles en Etsy. Aquí, cada recomendación está adaptada a la plataforma, el algoritmo y el comportamiento del comprador de Amazon.\n\nUna nota importante: cada generador de fichas mencionado en esta guía ofrece una prueba gratis con marca de agua. Puedes crear páginas de muestra para libros de actividades, probar el formato y evaluar la calidad antes de comprar una licencia comercial para publicar en KDP.',

@@ -2,32 +2,32 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'generador suma codificada',
+    primaryKeyword: 'crear rompecabezas matemáticos con código para vender en Etsy',
     secondaryKeywords: [
-      'fichas de puzzles matemáticos imprimibles para Etsy',
-      'fichas de descifrar código de suma para Amazon KDP',
-      'creador de puzzles matemáticos para vendedores Gumroad',
-      'fichas de suma codificada licencia comercial',
+      'generador de fichas de suma codificada para Etsy',
+      'rompecabezas criptaritméticos para Amazon KDP',
+      'fichas de descifrar código matemático licencia comercial',
+      'crear cuadernillos de código matemático para vender',
     ],
     lsiKeywords: [
-      'ideas de negocio puzzles educativos imprimibles',
-      'vender puzzles educativos en línea',
-      'creador de cuadernos de puzzles matemáticos',
+      'licencia comercial fichas criptaritméticas 300 DPI',
+      'ingreso pasivo rompecabezas educativos Etsy KDP',
+      'descifrar código suma negocio imprimibles',
     ],
-    titleTag: 'Generador Suma Codificada | Crear y Vender',
+    titleTag: 'Rompecabezas de código matemático — Etsy | LCS',
     metaDescription:
-      'Crea puzzles de suma codificada para vender en Etsy, KDP y Gumroad. Modo Palabra Revelada, 104 temas, 11 idiomas, claves, 400+ DPI.',
+      'Cree rompecabezas de suma codificada para vender en Etsy y KDP. Los niños resuelven sumas para descifrar palabras. Licencia comercial. Pruebe gratis.',
   },
 
   hero: {
-    title: 'Generador de Fichas de Suma Codificada — Puzzles Matemáticos para Descifrar',
-    tagline: 'Convierte la suma en una misión de detective donde cada imagen esconde un número secreto.',
+    title: 'Cree rompecabezas de código matemático para vender en Etsy y KDP',
+    tagline: 'Genere fichas donde los niños resuelven sumas para descifrar palabras ocultas.',
     description:
-      'Crea fichas de suma de tipo criptaritmético que desafían a los usuarios a descifrar un código visual. Cada imagen en la ficha representa un número oculto — los usuarios resuelven ecuaciones de suma para deducir qué número corresponde a cada imagen, combinando fluidez matemática con razonamiento lógico en un solo ejercicio. Cambia al modo Palabra Revelada y el reto sube: escribe una palabra secreta de hasta diez letras, y cada ecuación resuelta correctamente revela una letra de la respuesta mientras tres letras distractoras con sumas incorrectas mantienen el suspenso. El generador admite once alfabetos específicos de cada idioma, así que el modo Palabra Revelada funciona de forma nativa en español, inglés, alemán, francés y siete idiomas más — una función que ningún otro creador de fichas ofrece. Elige entre más de 3100 imágenes en 104 temas, configura rangos de números de 1 a 20 con dos a cinco símbolos-código por ficha, y exporta PDF o JPEG listos para imprimir a más de 400 DPI con claves de respuesta automáticas. Prueba gratis con todas las funciones — sin registro, sin tarjeta de crédito. Las descargas incluyen una marca de agua; compra una licencia para eliminarla.',
+      'Cree rompecabezas matemáticos de descifrar código para vender en Etsy, Amazon KDP o Hotmart — un formato único que combina práctica de sumas con descubrimiento de palabras. Los niños resuelven ecuaciones de suma para desbloquear letras y revelar palabras ocultas, lo que convierte cada ficha en un desafío emocionante. El modo Palabra Revelada soporta los 11 idiomas de la interfaz, permitiéndole crear productos para el mercado hispano y otros mercados simultáneamente. Exporte PDFs listos para imprimir a 300 DPI con solucionario automático y véndalos con la licencia comercial incluida. Los rompecabezas tipo código se destacan en los listados de Etsy porque ofrecen algo diferente a las fichas de matemáticas estándar — los compradores pagan precios premium por formatos creativos. Pruebe gratis con marca de agua — sin registro.',
   },
 
   howItWorks: {
-    title: 'Cómo Crear Fichas de Suma Codificada en 5 Pasos',
+    title: 'Cómo crear rompecabezas de código matemático paso a paso',
     steps: [
       {
         title: 'Configura el diseño de página',
@@ -58,7 +58,7 @@ const content: AppContent = {
   },
 
   keyFeatures: {
-    title: 'Características Principales del Generador de Suma Codificada',
+    title: 'Por qué los rompecabezas de código se venden bien en Etsy',
     features: [
       {
         title: 'Mecánica de descifrar código — imágenes como números ocultos',
@@ -104,7 +104,7 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Cómo Vender Fichas de Suma Codificada en Línea',
+    title: 'Vender rompecabezas de código en Etsy, KDP y Hotmart',
     cases: [
       {
         title: 'Paquetes de puzzles de descifrar código en Etsy',
@@ -119,16 +119,16 @@ const content: AppContent = {
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Centros de matemáticas diferenciados con Palabra Revelada para Gumroad',
+        title: 'Centros de matemáticas diferenciados con Palabra Revelada para Hotmart',
         description:
-          'Crea conjuntos de suma codificada por niveles para Gumroad: Nivel 1 (dos símbolos con sumas menores de 10), Nivel 2 (tres símbolos con sumas menores de 15), Nivel 3 (cuatro o cinco símbolos con sumas hasta 20) y un nivel bonus de Palabra Revelada donde los usuarios decodifican palabras de vocabulario. Cada nivel con claves de respuesta y hoja de seguimiento del progreso. La mecánica de descifrar código diferencia de forma natural — más símbolos y rangos más altos aumentan la dificultad sin cambiar el formato de la actividad, para que todos los usuarios en un centro de matemáticas hagan el mismo tipo de trabajo a su propio nivel.',
-        platform: 'Gumroad (teacherspayteachers.com)',
+          'Crea conjuntos de suma codificada por niveles para Hotmart: Nivel 1 (dos símbolos con sumas menores de 10), Nivel 2 (tres símbolos con sumas menores de 15), Nivel 3 (cuatro o cinco símbolos con sumas hasta 20) y un nivel bonus de Palabra Revelada donde los usuarios decodifican palabras de vocabulario. Cada nivel con claves de respuesta y hoja de seguimiento del progreso. La mecánica de descifrar código diferencia de forma natural — más símbolos y rangos más altos aumentan la dificultad sin cambiar el formato de la actividad, para que todos los usuarios en un centro de matemáticas hagan el mismo tipo de trabajo a su propio nivel.',
+        platform: 'Hotmart (hotmart.com)',
       },
       {
         title: 'Paquetes de puzzles multilingües para tu propia tienda',
         description:
-          'Aprovecha la función multilingüe de Palabra Revelada para crear paquetes de suma codificada en varios idiomas y véndelos a través de Gumroad, Shopify o Payhip. Un paquete en español usa el alfabeto español correcto con acentos y ñ; un paquete en alemán incluye los Umlauts. Esta es una oportunidad de mercado — prácticamente ningún generador competidor ofrece puzzles de descifrar código adaptados a cada idioma. Apunta a familias bilingües, comunidades de trabajo desde casa y escuelas internacionales con paquetes específicos por idioma que ningún competidor puede replicar fácilmente.',
-        platform: 'Gumroad / Shopify / Payhip',
+          'Aprovecha la función multilingüe de Palabra Revelada para crear paquetes de suma codificada en varios idiomas y véndelos a través de Hotmart, Shopify o Payhip. Un paquete en español usa el alfabeto español correcto con acentos y ñ; un paquete en alemán incluye los Umlauts. Esta es una oportunidad de mercado — prácticamente ningún generador competidor ofrece puzzles de descifrar código adaptados a cada idioma. Apunta a familias bilingües, comunidades de trabajo desde casa y escuelas internacionales con paquetes específicos por idioma que ningún competidor puede replicar fácilmente.',
+        platform: 'Hotmart / Shopify / Payhip',
       },
       {
         title: 'Participación en línea y práctica lúdica de matemáticas',
@@ -188,12 +188,12 @@ const content: AppContent = {
     {
       question: '¿Qué incluye la licencia comercial?',
       answer:
-        'La licencia comercial elimina la marca de agua de todas las descargas y te otorga derechos ilimitados para vender las fichas que crees — en Etsy, Amazon KDP, Gumroad, tu propio sitio web o cualquier otra plataforma. No hay regalías por venta, no hay cuotas mensuales y no hay límites en la cantidad de fichas que produzcas o vendas.',
+        'La licencia comercial elimina la marca de agua de todas las descargas y te otorga derechos ilimitados para vender las fichas que crees — en Etsy, Amazon KDP, Hotmart, tu propio sitio web o cualquier otra plataforma. No hay regalías por venta, no hay cuotas mensuales y no hay límites en la cantidad de fichas que produzcas o vendas.',
     },
     {
       question: '¿Puedo vender fichas creadas con esta herramienta en Etsy y Amazon KDP?',
       answer:
-        'Sí. Con una licencia comercial, tienes todos los derechos para vender tus fichas de suma codificada como descargas digitales en Etsy, como cuadernos de puzzles impresos en Amazon KDP, como recursos educativos en Gumroad o a través de cualquier otro canal de venta. El formato de descifrar código es un producto probado porque se distingue de las fichas estándar de suma en los resultados de búsqueda de los mercados.',
+        'Sí. Con una licencia comercial, tienes todos los derechos para vender tus fichas de suma codificada como descargas digitales en Etsy, como cuadernos de puzzles impresos en Amazon KDP, como recursos educativos en Hotmart o a través de cualquier otro canal de venta. El formato de descifrar código es un producto probado porque se distingue de las fichas estándar de suma en los resultados de búsqueda de los mercados.',
     },
     {
       question: '¿Necesito instalar algún software?',

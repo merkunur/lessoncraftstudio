@@ -2,30 +2,30 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'generador de fichas tren de patrones',
+    primaryKeyword: 'generador de fichas de patrones gratis',
     secondaryKeywords: [
-      'fichas de patrones repetitivos imprimibles para vender',
-      'crear fichas de tren de patrones uso comercial',
-      'generador de fichas de secuencias para KDP',
-      'herramienta para crear fichas de reconocimiento de patrones',
+      'fichas de patrones gratis sin registro',
+      'generador de tren de patrones en línea gratis',
+      'crear fichas de secuencias gratis para imprimir',
+      'fichas de patrones con imágenes gratis PDF',
     ],
     lsiKeywords: [
-      'fichas de reconocimiento de patrones visuales para Etsy',
-      'generador de fichas sin texto de tren de patrones',
-      'fichas de secuencias AB ABC para vender en línea',
+      'tren de patrones actividad de secuencias visuales',
+      'ficha de completar el patrón con ilustraciones',
+      'reconocimiento de patrones preescolar imprimible gratis',
     ],
-    titleTag: 'Generador de Fichas Tren de Patrones | Vender',
-    metaDescription: 'Genera fichas de tren de patrones con cinco tipos de patrón, 11 vagones temáticos y número de pistas ajustable. Exporta PDF. Prueba gratuita con marca de.',
+    titleTag: 'Fichas de patrones gratis en línea | LCS',
+    metaDescription: 'Cree fichas de patrones en tren gratis sin registro. Secuencias visuales con imágenes, 104 colecciones, respuestas incluidas.',
   },
 
   hero: {
-    title: 'Generador de Fichas de Tren de Patrones',
+    title: 'Cree fichas de patrones en tren gratis en línea',
     tagline: 'Crea fichas de patrones repetitivos con 11 vagones temáticos, cinco tipos de patrón, número de pistas ajustable y un resultado completamente visual sin texto que se vende en todo el mundo sin necesidad de traducción',
-    description: 'Diseña fichas profesionales de reconocimiento de patrones donde los usuarios identifican y completan secuencias repetitivas mostradas como imágenes en un tren temático con 11 vagones. Cinco tipos de patrón cubren cada nivel de complejidad de secuencia: AB alterna dos elementos, AAB agrupa dos de uno seguido de uno de otro, ABB invierte esa agrupación, ABC rota tres elementos diferentes, y AABB empareja dos de cada uno antes de repetir. El diseño del tren distribuye 11 vagones en tres filas (5 + 3 + 3), con cada vagón mostrando una imagen de la secuencia repetitiva. Un vagón queda vacío — los usuarios identifican el patrón y determinan el elemento faltante. Ajusta el número de pistas de 4 a 10 para controlar la dificultad: mostrar 10 pistas hace el patrón obvio, mientras que mostrar solo 4 requiere razonamiento genuino de patrones ya que los primeros 3 vagones siempre son visibles. El distintivo diseño de vagones de tren es un diferenciador visual frente a las fichas de cuadrícula estándar — los compradores que navegan por Etsy o Gumroad ven inmediatamente algo diferente de los ejercicios típicos de patrones en filas y columnas. Elige entre más de 3.100 ilustraciones en 104 colecciones temáticas o sube tus propias imágenes. Una pestaña separada de clave de respuestas muestra los 11 vagones completos con la secuencia correcta del patrón para verificación instantánea. Cada ficha es completamente visual con solo imágenes en los vagones y cero texto en el resultado. No aparecen palabras en la página generada — solo imágenes. Esto hace que tus fichas sean universalmente vendibles sin traducción: un solo producto sirve para todos los mercados del mundo. Exporta PDF e imágenes JPEG listos para imprimir a alta resolución en tamaño Carta, A4, Cuadrado (1200×1200) o dimensiones personalizadas. Activa la escala de grises para impresión con ahorro de tinta. Edita todo en el lienzo completo de Fabric.js con fuentes como Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial y Verdana. La prueba gratuita incluye todas las funciones con una marca de agua en las descargas. Compra una licencia para eliminar la marca de agua y vender con uso comercial.',
+    description: 'Cree fichas de tren de patrones gratis con este generador en línea. Los vagones del tren muestran secuencias de imágenes que los usuarios deben completar identificando el patrón. Navegue 104 colecciones temáticas con más de 3.100 ilustraciones o suba sus propias imágenes. Configure la longitud de la secuencia, dificultad del patrón y exporte con clave de respuestas autogenerada. Exporte en JPEG y PDF a 300 DPI en tamaño Carta, A4 o personalizado. La prueba gratis incluye todas las funciones con marca de agua. Sin registro, sin instalación. ¿Quiere vender? Pase a la licencia comercial para eliminar la marca de agua y obtener uso comercial completo.',
   },
 
   tutorial: {
-    title: 'Cómo Crear Fichas de Tren de Patrones en 8 Pasos',
+    title: 'Cómo crear fichas de patrones en tren gratis en 8 pasos',
     steps: [
       {
         title: 'Abre el Generador de Tren de Patrones',
@@ -57,7 +57,7 @@ const content: ToolContent = {
       },
       {
         title: 'Revisa la Clave de Respuestas y Descarga',
-        description: 'Cambia a la pestaña Clave de Respuestas para ver el tren completo con los 11 vagones llenos — la posición vacía ahora muestra el elemento correcto del patrón. Tanto la ficha como la clave de respuestas son editables de forma independiente en lienzos separados. Activa la escala de grises para impresión con ahorro de tinta. Descarga cada uno como JPEG de alta resolución o PDF listo para imprimir a 300 DPI. Cada exportación está lista para producción en listados de Etsy, interiores de Amazon KDP y archivos de productos de Gumroad.',
+        description: 'Cambia a la pestaña Clave de Respuestas para ver el tren completo con los 11 vagones llenos — la posición vacía ahora muestra el elemento correcto del patrón. Tanto la ficha como la clave de respuestas son editables de forma independiente en lienzos separados. Activa la escala de grises para impresión con ahorro de tinta. Descarga cada uno como JPEG de alta resolución o PDF listo para imprimir a 300 DPI. Cada exportación está lista para producción en listados de Etsy, interiores de Amazon KDP y archivos de productos de Hotmart.',
       },
     ],
   },
@@ -77,7 +77,7 @@ const content: ToolContent = {
     },
     {
       title: 'Conjuntos Estacionales y Festivos de Tren de Patrones',
-      description: 'Usa temas de imágenes estacionales y festivos para crear paquetes de tren de patrones de temporada. Un paquete "Tren de Patrones de Halloween" con imágenes temáticas de terror se vende en octubre. Navidad, vuelta al cole, San Valentín y temas de verano tienen cada uno sus propias ventanas de máximas ventas en Etsy y Gumroad. Combina calentamientos sencillos de AB con desafíos avanzados de AABB en cada conjunto estacional para cubrir múltiples niveles de habilidad y maximizar tu audiencia de compradores.',
+      description: 'Usa temas de imágenes estacionales y festivos para crear paquetes de tren de patrones de temporada. Un paquete "Tren de Patrones de Halloween" con imágenes temáticas de terror se vende en octubre. Navidad, vuelta al cole, San Valentín y temas de verano tienen cada uno sus propias ventanas de máximas ventas en Etsy y Hotmart. Combina calentamientos sencillos de AB con desafíos avanzados de AABB en cada conjunto estacional para cubrir múltiples niveles de habilidad y maximizar tu audiencia de compradores.',
     },
     {
       title: 'Paquetes de Aprendizaje Visual Multi-Formato',
@@ -85,7 +85,7 @@ const content: ToolContent = {
     },
     {
       title: 'Trenes de Patrones con Imágenes Propias',
-      description: 'Sube imágenes personalizadas para crear fichas de tren de patrones para audiencias especializadas más allá de la biblioteca integrada. Usa etapas de crecimiento de plantas para una lección de ciencias, símbolos de notas musicales para clase de música, formas geométricas para una unidad de matemáticas, o imágenes de artefactos históricos para estudios sociales. Los cinco tipos de patrón y el número de pistas ajustable te permiten adaptar el ejercicio a cualquier objetivo de aprendizaje. Las imágenes personalizadas te permiten dirigirte a nichos específicos de compradores en Etsy y Gumroad donde las imágenes temáticas de la biblioteca sola pueden no encajar.',
+      description: 'Sube imágenes personalizadas para crear fichas de tren de patrones para audiencias especializadas más allá de la biblioteca integrada. Usa etapas de crecimiento de plantas para una lección de ciencias, símbolos de notas musicales para clase de música, formas geométricas para una unidad de matemáticas, o imágenes de artefactos históricos para estudios sociales. Los cinco tipos de patrón y el número de pistas ajustable te permiten adaptar el ejercicio a cualquier objetivo de aprendizaje. Las imágenes personalizadas te permiten dirigirte a nichos específicos de compradores en Etsy y Hotmart donde las imágenes temáticas de la biblioteca sola pueden no encajar.',
     },
   ],
 
@@ -101,9 +101,9 @@ const content: ToolContent = {
       platform: 'Amazon KDP',
     },
     {
-      title: 'Centros de Patrones en Gumroad',
-      description: 'Sube paquetes de fichas de tren de patrones a Gumroad organizados por nivel de habilidad y tema. Incluye cuatro niveles de dificultad por tema usando el tipo de patrón y el número de pistas como ejes de diferenciación. Empaqueta con claves de respuestas autogeneradas y hojas de seguimiento de progreso del usuario. El formato de vagones de tren crea un tema visual atractivo que funciona como actividad de centro en línea. Los vendedores buscan "actividades de reconocimiento de patrones" y "fichas de patrones repetitivos" y encuentran opciones limitadas en formato de tren — tus productos llenan un hueco genuino.',
-      platform: 'Gumroad',
+      title: 'Centros de Patrones en Hotmart',
+      description: 'Sube paquetes de fichas de tren de patrones a Hotmart organizados por nivel de habilidad y tema. Incluye cuatro niveles de dificultad por tema usando el tipo de patrón y el número de pistas como ejes de diferenciación. Empaqueta con claves de respuestas autogeneradas y hojas de seguimiento de progreso del usuario. El formato de vagones de tren crea un tema visual atractivo que funciona como actividad de centro en línea. Los vendedores buscan "actividades de reconocimiento de patrones" y "fichas de patrones repetitivos" y encuentran opciones limitadas en formato de tren — tus productos llenan un hueco genuino.',
+      platform: 'Hotmart',
     },
     {
       title: 'Embudo Visual de Tren de Patrones en Pinterest',
@@ -111,9 +111,9 @@ const content: ToolContent = {
       platform: 'Pinterest',
     },
     {
-      title: 'Kit Completo de Aprendizaje de Patrones en Gumroad',
-      description: 'Agrupa fichas de tren de patrones con fichas de cuadrícula de patrones, fichas de asociación y actividades de completar secuencias para crear un kit integral de aprendizaje de patrones en Gumroad. Cada formato ejercita el reconocimiento de patrones de forma diferente: el Tren de Patrones usa el distintivo diseño de 11 vagones, las cuadrículas de patrones usan filas y columnas estándar, la asociación empareja elementos relacionados, y completar secuencias extiende patrones. Un kit multi-formato justifica un precio premium y ofrece práctica variada con imágenes temáticas coordinadas en cada tipo de actividad.',
-      platform: 'Gumroad',
+      title: 'Kit Completo de Aprendizaje de Patrones en Hotmart',
+      description: 'Agrupa fichas de tren de patrones con fichas de cuadrícula de patrones, fichas de asociación y actividades de completar secuencias para crear un kit integral de aprendizaje de patrones en Hotmart. Cada formato ejercita el reconocimiento de patrones de forma diferente: el Tren de Patrones usa el distintivo diseño de 11 vagones, las cuadrículas de patrones usan filas y columnas estándar, la asociación empareja elementos relacionados, y completar secuencias extiende patrones. Un kit multi-formato justifica un precio premium y ofrece práctica variada con imágenes temáticas coordinadas en cada tipo de actividad.',
+      platform: 'Hotmart',
     },
     {
       title: 'Línea de Productos Globales Sin Texto',
@@ -129,7 +129,7 @@ const content: ToolContent = {
     },
     {
       title: 'Destaca el Formato de Tren como Tu Diferenciador en el Mercado',
-      description: 'La mayoría de las fichas de patrones en Etsy y Gumroad usan diseños de cuadrícula estándar con filas y columnas. El formato de 11 vagones de tren es visualmente distintivo y reconocible de inmediato en los resultados de búsqueda. Menciona "formato de vagones de tren" y "diseño de 11 vagones" en los títulos y descripciones de tus productos para resaltar lo que hace diferentes tus listados de los competidores basados en cuadrícula.',
+      description: 'La mayoría de las fichas de patrones en Etsy y Hotmart usan diseños de cuadrícula estándar con filas y columnas. El formato de 11 vagones de tren es visualmente distintivo y reconocible de inmediato en los resultados de búsqueda. Menciona "formato de vagones de tren" y "diseño de 11 vagones" en los títulos y descripciones de tus productos para resaltar lo que hace diferentes tus listados de los competidores basados en cuadrícula.',
     },
     {
       title: 'Destaca el Formato Sin Texto para Ventas Globales',
@@ -149,7 +149,7 @@ const content: ToolContent = {
     },
     {
       title: 'Sube Imágenes Propias para Nichos de Mercado',
-      description: 'Usa la carga de imágenes personalizadas para crear fichas de tren de patrones para audiencias de nicho más allá de la biblioteca integrada. Etapas de crecimiento de plantas para ciencias, notas musicales para clase de música, formas geométricas para matemáticas — las imágenes personalizadas te permiten dirigirte a nichos específicos de compradores en Etsy y Gumroad donde las imágenes temáticas de la biblioteca sola pueden no encajar.',
+      description: 'Usa la carga de imágenes personalizadas para crear fichas de tren de patrones para audiencias de nicho más allá de la biblioteca integrada. Etapas de crecimiento de plantas para ciencias, notas musicales para clase de música, formas geométricas para matemáticas — las imágenes personalizadas te permiten dirigirte a nichos específicos de compradores en Etsy y Hotmart donde las imágenes temáticas de la biblioteca sola pueden no encajar.',
     },
   ],
 
@@ -172,7 +172,7 @@ const content: ToolContent = {
     },
     {
       question: '¿En qué se diferencia el Tren de Patrones de las fichas de patrones en cuadrícula?',
-      answer: 'El Tren de Patrones muestra secuencias en 11 vagones temáticos en un formato visual distintivo con una sola posición faltante. Las fichas de patrones en cuadrícula usan filas y columnas estándar para ejercicios de completar patrones. El formato de tren es más atractivo visualmente y crea productos que destacan de inmediato en los resultados de búsqueda de Etsy y Gumroad. El Tren de Patrones también ofrece número de pistas ajustable (4–10) para control preciso de dificultad y colocación dinámica de la posición faltante.',
+      answer: 'El Tren de Patrones muestra secuencias en 11 vagones temáticos en un formato visual distintivo con una sola posición faltante. Las fichas de patrones en cuadrícula usan filas y columnas estándar para ejercicios de completar patrones. El formato de tren es más atractivo visualmente y crea productos que destacan de inmediato en los resultados de búsqueda de Etsy y Hotmart. El Tren de Patrones también ofrece número de pistas ajustable (4–10) para control preciso de dificultad y colocación dinámica de la posición faltante.',
     },
     {
       question: '¿Por qué las fichas no tienen texto?',
@@ -192,7 +192,7 @@ const content: ToolContent = {
     },
     {
       question: '¿Puedo vender las fichas creadas con esta herramienta de forma comercial?',
-      answer: 'La prueba gratuita con marca de agua es solo para uso personal y del mercado. Para vender fichas de tren de patrones en Etsy, Gumroad, Amazon KDP o cualquier otro mercado, necesitas una licencia comercial. La licencia elimina la marca de agua y otorga derechos completos de reventa para las fichas que crees.',
+      answer: 'La prueba gratuita con marca de agua es solo para uso personal y del mercado. Para vender fichas de tren de patrones en Etsy, Hotmart, Amazon KDP o cualquier otro mercado, necesitas una licencia comercial. La licencia elimina la marca de agua y otorga derechos completos de reventa para las fichas que crees.',
     },
     {
       question: '¿Cuál es su política de reembolso?',

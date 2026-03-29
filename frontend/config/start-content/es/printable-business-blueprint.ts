@@ -2,29 +2,26 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'ideas de negocio de imprimibles',
+    primaryKeyword: 'plan de negocio de imprimibles de idea a ingreso',
     secondaryKeywords: [
-      'plan de negocio de imprimibles',
-      'plan estratégico para vendedores de imprimibles',
-      'ideas rentables de productos imprimibles',
-      'iniciar una línea de productos imprimibles',
+      'plan estratégico negocio imprimibles educativos',
+      'hoja de ruta negocio de fichas imprimibles',
+      'blueprint negocio de imprimibles paso a paso',
+      'estrategia de negocio imprimibles rentable',
     ],
     lsiKeywords: [
-      'planificación de tienda Etsy de imprimibles',
-      'estrategia de productos Amazon KDP',
-      'objetivos de ingresos con fichas',
-      'expansión de catálogo de imprimibles',
-      'mapa de línea de productos para vendedores',
-      'checklist de lanzamiento de negocio de imprimibles',
+      'planificación financiera negocio imprimibles',
+      'modelo de negocio escalable fichas digitales',
+      'cronograma de lanzamiento tienda imprimibles',
     ],
-    titleTag: 'Ideas de Negocio de Imprimibles — Plan Estratégico',
-    metaDescription: 'Convierte tus ideas de negocio de imprimibles en un plan estratégico estructurado. Planifica tu línea de productos, elige plataformas, fija precios y lanza.',
+    titleTag: 'Plan de negocio: imprimibles | LCS',
+    metaDescription: 'Plan de negocio de de la idea al ingreso. Hoja de ruta paso a paso con cronograma, presupuesto y estrategia para vender fichas en Etsy y Hotmart.',
   },
 
   hero: {
-    title: 'El Plan de Negocio de Imprimibles: De la Idea a los Ingresos',
-    tagline: 'Un plan estructurado que convierte ideas dispersas de negocio de imprimibles en una línea de productos enfocada y generadora de ingresos',
-    description: 'La mayoría de los negocios de imprimibles fracasan no porque al vendedor le faltaran ideas, sino porque le faltaba un plan. Este plan estratégico te guía a través de cada etapa de planificación: validar tu idea de negocio de imprimibles, diseñar tu línea de productos, elegir las plataformas adecuadas, establecer objetivos de ingresos realistas y lanzar con un plan de acción claro. Ya sea que empieces desde cero o estés reestructurando una tienda con bajo rendimiento, esta guía te proporciona el marco estratégico que separa a los vendedores que construyen ingresos sostenibles de los que crean productos al azar y esperan lo mejor.',
+    title: 'Plan de Negocio de Imprimibles: De la Idea al Ingreso',
+    tagline: 'Su hoja de ruta completa con cronograma, presupuesto y metas medibles para los primeros 90 días',
+    description: 'Un negocio de imprimibles sin plan es un pasatiempo. Esta guía le proporciona un plan de negocio estructurado con cronograma semana a semana, presupuesto realista, metas medibles y estrategia de crecimiento para transformar la idea de vender fichas educativas en un negocio que genere ingresos reales en 90 días. Cubriremos la selección de nicho con datos, la inversión mínima necesaria, la planificación de catálogo y la estrategia de plataformas para Etsy, Amazon KDP y Hotmart. Cada generador de fichas mencionado ofrece una prueba gratis con marca de agua para que comience sin riesgo.',
   },
 
   introduction: 'Internet está lleno de ideas de negocio de imprimibles. Navega por cualquier foro de emprendedores y encontrarás listas de \"50 imprimibles que puedes vender hoy\" o \"mejores productos digitales para Etsy\". Las ideas no son el problema. El problema es que la mayoría de los vendedores se saltan la etapa de planificación por completo.\n\nEligen una idea al azar, crean un puñado de productos, los publican en Etsy y se preguntan por qué nada se vende después de dos semanas. Luego eligen una idea diferente y repiten el mismo ciclo. Seis meses después, tienen una tienda dispersa con 15 productos sin relación entre sí, sin marca clara y sin impulso.\n\nLos vendedores que construyen ingresos reales con imprimibles lo enfocan de manera diferente. Comienzan con un plan estratégico — un plan estructurado que define su nicho, línea de productos, estrategia de plataformas, precios y hitos de crecimiento antes de crear un solo producto. Ese plan no necesita ser complejo, pero sí necesita existir.\n\nEsta guía es ese plan estratégico. Al final, tendrás un plan concreto que cubre tus primeros 50 productos, tu estrategia de plataformas, tu estructura de precios y tu cronograma de lanzamiento de 90 días. Cada generador de fichas mencionado ofrece una prueba gratis con marca de agua, para que puedas probar la creación de productos como parte de tu proceso de planificación sin ningún coste inicial.',
@@ -48,7 +45,7 @@ const content: StartContent = {
     },
     {
       heading: 'Elegir tu estrategia de plataformas para ventas de imprimibles',
-      content: 'La estrategia de plataformas determina dónde tus productos llegan a los compradores. La elección correcta depende de tu tipo de producto, tu público objetivo y tu disposición a gestionar múltiples tiendas.\n\nEtsy es la plataforma de inicio por defecto para la mayoría de los vendedores de imprimibles, y con buena razón. Tiene la mayor audiencia integrada para descargas digitales, funciones maduras de búsqueda y descubrimiento, y una base de compradores que busca activamente fichas imprimibles. Etsy cobra 0,20 $ por publicación más una comisión por cada venta. La plataforma recompensa a los vendedores que publican frecuentemente, optimizan títulos y etiquetas, y mantienen buenas valoraciones.\n\nAmazon KDP atiende a un segmento de mercado diferente: compradores que quieren libros físicos impresos y enviados a su puerta. Formateas tus fichas como el interior de un libro de actividades, lo subes a KDP, y Amazon se encarga de la impresión y el envío. KDP te da acceso a la enorme base de clientes de Amazon pero ofrece menos control sobre precios y un proceso de configuración más largo por producto. KDP funciona mejor para libros de actividades con muchas páginas (50+) en lugar de fichas individuales.\n\nGumroad es la plataforma especializada en recursos educativos. El público es principalmente vendedores del mercado y emprendedores y esperan productos alineados con el catálogo de productos y referenciados por estándares. Si tus fichas se dirigen a grados específicos y objetivos de aprendizaje, Gumroad te da acceso a compradores dispuestos a pagar precios premium por productos imprimibles de calidad.\n\nGumroad ofrece simplicidad y mayores márgenes de beneficio para ventas directas. Controlas toda la experiencia del cliente, fijas tus propios precios y te quedas con una mayor parte de cada venta. La contrapartida es cero tráfico de marketplace integrado — debes atraer a tus propios visitantes a través de redes sociales, email marketing o contenidos.\n\nLa estrategia de plataformas recomendada para tu plan: comienza en Etsy para validar la demanda y generar ventas iniciales. Después de alcanzar 30+ publicaciones y ventas constantes, expándete a Amazon KDP con tus mejores paquetes reformateados como libros de actividades. Añade Gumroad si tus productos tienen alineación de productos. Usa Gumroad o tu propia web para ventas directas una vez que hayas construido una audiencia a través de otros canales.\n\nNo lances en todas las plataformas simultáneamente. Cada plataforma tiene sus propios requisitos de optimización, estándares de formato y expectativas de audiencia. Domina una plataforma primero, luego expándete de manera sistemática.',
+      content: 'La estrategia de plataformas determina dónde tus productos llegan a los compradores. La elección correcta depende de tu tipo de producto, tu público objetivo y tu disposición a gestionar múltiples tiendas.\n\nEtsy es la plataforma de inicio por defecto para la mayoría de los vendedores de imprimibles, y con buena razón. Tiene la mayor audiencia integrada para descargas digitales, funciones maduras de búsqueda y descubrimiento, y una base de compradores que busca activamente fichas imprimibles. Etsy cobra 0,20 $ por publicación más una comisión por cada venta. La plataforma recompensa a los vendedores que publican frecuentemente, optimizan títulos y etiquetas, y mantienen buenas valoraciones.\n\nAmazon KDP atiende a un segmento de mercado diferente: compradores que quieren libros físicos impresos y enviados a su puerta. Formateas tus fichas como el interior de un libro de actividades, lo subes a KDP, y Amazon se encarga de la impresión y el envío. KDP te da acceso a la enorme base de clientes de Amazon pero ofrece menos control sobre precios y un proceso de configuración más largo por producto. KDP funciona mejor para libros de actividades con muchas páginas (50+) en lugar de fichas individuales.\n\nHotmart es la plataforma especializada en recursos educativos. El público es principalmente vendedores del mercado y emprendedores y esperan productos alineados con el catálogo de productos y referenciados por estándares. Si tus fichas se dirigen a grados específicos y objetivos de aprendizaje, Hotmart te da acceso a compradores dispuestos a pagar precios premium por productos imprimibles de calidad.\n\nHotmart ofrece simplicidad y mayores márgenes de beneficio para ventas directas. Controlas toda la experiencia del cliente, fijas tus propios precios y te quedas con una mayor parte de cada venta. La contrapartida es cero tráfico de marketplace integrado — debes atraer a tus propios visitantes a través de redes sociales, email marketing o contenidos.\n\nLa estrategia de plataformas recomendada para tu plan: comienza en Etsy para validar la demanda y generar ventas iniciales. Después de alcanzar 30+ publicaciones y ventas constantes, expándete a Amazon KDP con tus mejores paquetes reformateados como libros de actividades. Añade Hotmart si tus productos tienen alineación de productos. Usa Hotmart o tu propia web para ventas directas una vez que hayas construido una audiencia a través de otros canales.\n\nNo lances en todas las plataformas simultáneamente. Cada plataforma tiene sus propios requisitos de optimización, estándares de formato y expectativas de audiencia. Domina una plataforma primero, luego expándete de manera sistemática.',
     },
     {
       heading: 'Establecer objetivos de ingresos realistas para tu negocio de imprimibles',
@@ -159,7 +156,7 @@ const content: StartContent = {
     },
     {
       question: '¿En qué plataforma debería empezar a vender fichas imprimibles?',
-      answer: 'Etsy es la plataforma de inicio recomendada para la mayoría de los nuevos vendedores de imprimibles por su gran audiencia integrada y sus funciones de búsqueda maduras. Después de establecer 30+ publicaciones y ventas constantes en Etsy, expándete a Amazon KDP para formatos de libros de actividades y Gumroad para productos alineados con el catálogo de productos. No dividas tu enfoque entre múltiples plataformas hasta que domines una.',
+      answer: 'Etsy es la plataforma de inicio recomendada para la mayoría de los nuevos vendedores de imprimibles por su gran audiencia integrada y sus funciones de búsqueda maduras. Después de establecer 30+ publicaciones y ventas constantes en Etsy, expándete a Amazon KDP para formatos de libros de actividades y Hotmart para productos alineados con el catálogo de productos. No dividas tu enfoque entre múltiples plataformas hasta que domines una.',
     },
     {
       question: '¿Cuánto tiempo tarda en generar ingresos un negocio de imprimibles?',
@@ -175,7 +172,7 @@ const content: StartContent = {
     },
     {
       question: '¿Puedo vender las mismas fichas en múltiples plataformas?',
-      answer: 'Sí. Una licencia comercial te permite vender tus fichas generadas en cualquier plataforma: Etsy, Amazon KDP, Gumroad, Gumroad o tu propia web. Cada plataforma tiene diferentes requisitos de formato y expectativas de audiencia, por lo que puede que necesites adaptar las publicaciones y formatos de paquetes. Pero las fichas subyacentes pueden usarse en todas las plataformas simultáneamente.',
+      answer: 'Sí. Una licencia comercial te permite vender tus fichas generadas en cualquier plataforma: Etsy, Amazon KDP, Hotmart, Hotmart o tu propia web. Cada plataforma tiene diferentes requisitos de formato y expectativas de audiencia, por lo que puede que necesites adaptar las publicaciones y formatos de paquetes. Pero las fichas subyacentes pueden usarse en todas las plataformas simultáneamente.',
     },
     {
       question: '¿Cuál es la política de reembolso para las licencias comerciales?',

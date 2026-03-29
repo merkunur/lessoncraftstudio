@@ -1,30 +1,30 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'crear fichas grande y pequeño para niños',
+    primaryKeyword: 'fichas de comparación de tamaños gratis',
     secondaryKeywords: [
-      'fichas grande y pequeño para preescolar',
-      'creador de comparación de tamaños para venta en línea',
-      'fichas ordenar por tamaño para niños',
-      'fichas grande pequeño mediano para kínder',
+      'fichas de grande y pequeño gratis sin registro',
+      'generador de fichas de comparación de tamaños en línea',
+      'crear fichas de grande y pequeño gratis para imprimir',
+      'fichas de comparación de tamaños gratis PDF con respuestas',
     ],
     lsiKeywords: [
-      'discriminación visual de tamaños para niños',
-      'ficha comparación de tamaños sin texto',
-      'actividad ordenar grande pequeño para preescolar',
+      'actividad de grande y pequeño con imágenes preescolar',
+      'ficha de comparar tamaños con ilustraciones imprimible',
+      'conceptos de tamaño grande mediano pequeño PDF gratis',
     ],
-    titleTag: 'Fichas Grande y Pequeño — Para Niños',
-    metaDescription: 'Crea fichas de comparación de tamaños para preescolar. Cinco tipos de ejercicio, dos modos de imagen, 104 temas. Prueba gratis con marca de agua.',
+    titleTag: 'Comparación de tamaños gratis | LCS',
+    metaDescription: 'Cree fichas de comparación de tamaños gratis sin registro. Grande, mediano, pequeño con ilustraciones, 104 temas, respuestas incluidas.',
     },
 
   hero: {
-    title: 'Generador de Fichas de Grande y Pequeño',
+    title: 'Cree fichas de comparación de tamaños gratis',
     tagline: 'Crea fichas de comparación de tamaños con cinco tipos de ejercicio, dos modos de imagen y un resultado completamente visual sin texto que se vende en todo el mundo sin necesidad de traducción',
-    description: 'Diseña fichas profesionales de comparación de tamaños donde los usuarios identifican la imagen más grande, la más pequeña o la mediana, o las numeran en orden de tamaño. Cinco tipos de ejercicio cubren cada habilidad de discriminación de tamaños: Rodea el Grande, Rodea el Pequeño, Rodea el Mediano, Numera 1–2–3 de Pequeño a Grande y Numera 1–2–3 de Grande a Pequeño. Dos modos de imagen crean ejercicios fundamentalmente diferentes con la misma herramienta: Imágenes Idénticas muestra la misma imagen en diferentes tamaños para percepción de tamaño pura, mientras que Imágenes Diferentes muestra objetos distintos en diferentes tamaños para razonamiento de tamaño relativo. Configura de 1 a 10 ejercicios por página con 2 o 3 imágenes por ejercicio — dos imágenes para comparaciones directas de mayor/menor, tres imágenes para introducir la opción mediana y habilitar desafíos de ordenación. Cada ficha es completamente visual con cero texto en el resultado. No aparecen palabras en la página generada — solo imágenes e indicadores visuales. Esto hace que tus fichas sean universalmente utilizables sin importar el idioma, nivel de lectura o alfabetización, y universalmente vendibles sin traducción. Un solo producto sirve para todos los mercados del mundo. Elige entre más de 3.100 ilustraciones en 104 colecciones temáticas o sube tus propias imágenes. La clave de respuestas autogenerada resalta y rodea las respuestas correctas para verificación instantánea. Exporta PDF e imágenes JPEG listos para imprimir a 300 DPI en tamaño Carta, A4, Cuadrado (1200×1200) o dimensiones personalizadas. Activa la escala de grises para impresión con ahorro de tinta. Edita todo en el lienzo completo de Fabric.js con fuentes como Baloo 2, Fredoka, Lexend Deca, Nunito y Quicksand. La prueba gratuita incluye todas las funciones con una marca de agua en las descargas. Compra una licencia para eliminar la marca de agua y vender con uso comercial.',
+    description: 'Cree fichas de comparación de tamaños gratis con este generador en línea. Los usuarios identifican cuál es más grande, más pequeño o del mismo tamaño entre ilustraciones temáticas. Navegue 104 colecciones con más de 3.100 imágenes o suba las suyas. Configure los niveles de comparación, número de ejercicios por ficha y exporte con clave de respuestas autogenerada. Exporte en JPEG y PDF a 300 DPI en tamaño Carta, A4 o personalizado. La prueba gratis incluye todas las funciones con marca de agua en las descargas. Sin registro, sin instalación. ¿Quiere vender? Pase a la licencia comercial para eliminar la marca de agua y obtener uso comercial completo.',
   },
 
   tutorial: {
-    title: 'Cómo Crear Fichas de Comparación de Tamaños en 8 Pasos Sencillos',
+    title: 'Cómo crear fichas de comparación de tamaños gratis en 8 pasos',
     steps: [
       {
         title: 'Abrir el Generador de Fichas de Grande y Pequeño',
@@ -56,7 +56,7 @@ const content: ToolContent = {  seo: {
       },
       {
         title: 'Generar la Clave de Respuestas y Descargar',
-        description: 'Haz clic en Generar Clave de Respuestas para crear una versión resuelta donde las respuestas correctas están resaltadas y rodeadas para verificación visual instantánea. Activa la escala de grises para un resultado en blanco y negro con ahorro de tinta. Descarga tanto la ficha como la clave de respuestas en PDF listo para imprimir o JPEG de alta resolución a 300 DPI. Cada exportación está lista para uso profesional en listados de Etsy, interiores de Amazon KDP y archivos de productos en Gumroad.',
+        description: 'Haz clic en Generar Clave de Respuestas para crear una versión resuelta donde las respuestas correctas están resaltadas y rodeadas para verificación visual instantánea. Activa la escala de grises para un resultado en blanco y negro con ahorro de tinta. Descarga tanto la ficha como la clave de respuestas en PDF listo para imprimir o JPEG de alta resolución a 300 DPI. Cada exportación está lista para uso profesional en listados de Etsy, interiores de Amazon KDP y archivos de productos en Hotmart.',
       },
     ],
   },
@@ -84,7 +84,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Conjuntos de Actividades de Tamaños por Temporada y Festividades',
-      description: 'Usa temas de imágenes estacionales y de festividades para crear paquetes de comparación de tamaños de temporada limitada. Un paquete de \"Ordenar Tamaños de Halloween\" con imágenes temáticas de terror se vende en octubre. Navidad, vuelta al cole, San Valentín y temas de verano tienen cada uno sus propias temporadas altas de ventas en Etsy y Gumroad. Combina calentamientos sencillos de Rodea el Grande con ejercicios avanzados de Numera 1–2–3 en cada conjunto estacional para cubrir múltiples niveles de habilidad y maximizar tu audiencia de compradores.',
+      description: 'Usa temas de imágenes estacionales y de festividades para crear paquetes de comparación de tamaños de temporada limitada. Un paquete de \"Ordenar Tamaños de Halloween\" con imágenes temáticas de terror se vende en octubre. Navidad, vuelta al cole, San Valentín y temas de verano tienen cada uno sus propias temporadas altas de ventas en Etsy y Hotmart. Combina calentamientos sencillos de Rodea el Grande con ejercicios avanzados de Numera 1–2–3 en cada conjunto estacional para cubrir múltiples niveles de habilidad y maximizar tu audiencia de compradores.',
     },
   ],
 
@@ -100,9 +100,9 @@ const content: ToolContent = {  seo: {
       platform: 'Amazon KDP',
     },
     {
-      title: 'Centros de Discriminación Visual en Gumroad',
-      description: 'Sube paquetes de fichas de comparación de tamaños a Gumroad organizados por nivel de habilidad y tema. Incluye cuatro niveles de dificultad por tema usando el tipo de ejercicio como eje de diferenciación. Incluye claves de respuestas autogeneradas, hojas de seguimiento del progreso del usuario y tarjetas de instrucciones para el vendedor. El formato sin texto funciona en cualquier tienda independientemente del idioma de los usuarios — especialmente valioso en entornos multilingües e inclusivos. Los vendedores buscan \"actividades de comparación de tamaños\" y \"fichas de grande y pequeño\" y encuentran opciones de calidad limitadas.',
-      platform: 'Gumroad',
+      title: 'Centros de Discriminación Visual en Hotmart',
+      description: 'Sube paquetes de fichas de comparación de tamaños a Hotmart organizados por nivel de habilidad y tema. Incluye cuatro niveles de dificultad por tema usando el tipo de ejercicio como eje de diferenciación. Incluye claves de respuestas autogeneradas, hojas de seguimiento del progreso del usuario y tarjetas de instrucciones para el vendedor. El formato sin texto funciona en cualquier tienda independientemente del idioma de los usuarios — especialmente valioso en entornos multilingües e inclusivos. Los vendedores buscan \"actividades de comparación de tamaños\" y \"fichas de grande y pequeño\" y encuentran opciones de calidad limitadas.',
+      platform: 'Hotmart',
     },
     {
       title: 'Embudo de Actividades Visuales de Tamaño en Pinterest',
@@ -110,9 +110,9 @@ const content: ToolContent = {  seo: {
       platform: 'Pinterest',
     },
     {
-      title: 'Kit Completo de Aprendizaje Visual en Gumroad',
-      description: 'Agrupa fichas de comparación de tamaños con fichas de asociación, intruso, discriminación visual, tren de patrones y grafomotricidad para crear un kit completo de aprendizaje visual en Gumroad. Cada formato ejercita una habilidad cognitiva visual diferente: Grande y Pequeño desarrolla la discriminación de tamaños, la asociación desarrolla el emparejamiento visual, el intruso desarrolla la clasificación y la discriminación visual desarrolla el reconocimiento de formas. Un kit multiformato de habilidades visuales justifica un precio premium y ofrece a los usuarios práctica variada con imágenes temáticas coordinadas en cada tipo de actividad.',
-      platform: 'Gumroad',
+      title: 'Kit Completo de Aprendizaje Visual en Hotmart',
+      description: 'Agrupa fichas de comparación de tamaños con fichas de asociación, intruso, discriminación visual, tren de patrones y grafomotricidad para crear un kit completo de aprendizaje visual en Hotmart. Cada formato ejercita una habilidad cognitiva visual diferente: Grande y Pequeño desarrolla la discriminación de tamaños, la asociación desarrolla el emparejamiento visual, el intruso desarrolla la clasificación y la discriminación visual desarrolla el reconocimiento de formas. Un kit multiformato de habilidades visuales justifica un precio premium y ofrece a los usuarios práctica variada con imágenes temáticas coordinadas en cada tipo de actividad.',
+      platform: 'Hotmart',
     },
     {
       title: 'Línea de Productos de Doble Modo para Máxima Variedad',
@@ -148,7 +148,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Sube Imágenes Propias para Nichos de Mercado',
-      description: 'Usa la carga de imágenes personalizadas para crear fichas de comparación de tamaños para audiencias de nicho más allá de la biblioteca integrada. Compara tamaños de edificios para lecciones de arquitectura, porciones de alimentos para educación en salud o tamaños de planetas para unidades de ciencias. Las imágenes personalizadas te permiten apuntar a nichos de compradores específicos en Etsy y Gumroad donde las imágenes de la biblioteca temática por sí solas pueden no encajar.',
+      description: 'Usa la carga de imágenes personalizadas para crear fichas de comparación de tamaños para audiencias de nicho más allá de la biblioteca integrada. Compara tamaños de edificios para lecciones de arquitectura, porciones de alimentos para educación en salud o tamaños de planetas para unidades de ciencias. Las imágenes personalizadas te permiten apuntar a nichos de compradores específicos en Etsy y Hotmart donde las imágenes de la biblioteca temática por sí solas pueden no encajar.',
     },
   ],
 
@@ -175,7 +175,7 @@ const content: ToolContent = {  seo: {
     },
     {
       question: '¿Cómo funciona la clave de respuestas?',
-      answer: 'La clave de respuestas autogenerada crea una versión resuelta de tu ficha. Para los ejercicios de rodear, la imagen correcta se resalta y se rodea visualmente. Para los ejercicios de numeración, se muestra el orden de tamaño correcto. La clave de respuestas se descarga como un archivo separado junto con la ficha. Incluir claves de respuestas aumenta el valor percibido del producto y es lo esperado por los compradores en Etsy, Gumroad y KDP.',
+      answer: 'La clave de respuestas autogenerada crea una versión resuelta de tu ficha. Para los ejercicios de rodear, la imagen correcta se resalta y se rodea visualmente. Para los ejercicios de numeración, se muestra el orden de tamaño correcto. La clave de respuestas se descarga como un archivo separado junto con la ficha. Incluir claves de respuestas aumenta el valor percibido del producto y es lo esperado por los compradores en Etsy, Hotmart y KDP.',
     },
     {
       question: '¿Puedo configurar 2 o 3 imágenes por ejercicio?',
@@ -191,7 +191,7 @@ const content: ToolContent = {  seo: {
     },
     {
       question: '¿Puedo vender las fichas creadas con esta herramienta comercialmente?',
-      answer: 'La prueba gratuita con marca de agua es solo para uso personal y en línea. Para vender fichas en Etsy, Gumroad, Amazon KDP o cualquier otro marketplace, necesitas una licencia comercial. La licencia elimina la marca de agua y otorga derechos completos de reventa para las fichas de comparación de tamaños que crees.',
+      answer: 'La prueba gratuita con marca de agua es solo para uso personal y en línea. Para vender fichas en Etsy, Hotmart, Amazon KDP o cualquier otro marketplace, necesitas una licencia comercial. La licencia elimina la marca de agua y otorga derechos completos de reventa para las fichas de comparación de tamaños que crees.',
     },
     {
       question: '¿Cuál es su política de reembolso?',

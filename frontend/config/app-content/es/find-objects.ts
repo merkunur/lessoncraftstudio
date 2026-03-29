@@ -2,32 +2,32 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'generador fichas objetos ocultos',
+    primaryKeyword: 'crear busca y encuentra para vender en Etsy y KDP',
     secondaryKeywords: [
-      'generador de fichas busca y encuentra imprimibles para vendedores Etsy',
-      'creador de fichas de objetos ocultos para editores Amazon KDP',
-      'generador de fichas yo espío con licencia comercial',
-      'vender fichas encuentra el diferente en Gumroad',
+      'generador de fichas busca y encuentra para Etsy',
+      'fichas de objetos escondidos para Amazon KDP',
+      'crear busca y encuentra imprimibles licencia comercial',
+      'fichas hidden object para vender online',
     ],
     lsiKeywords: [
-      'productos digitales de fichas de objetos ocultos para emprendedores',
-      'generador de fichas de búsqueda visual a uso comercial',
-      'fichas de busca y encuentra imprimibles para negocio en línea',
+      'fichas busca encuentra vendedores Etsy KDP',
+      'libros objetos escondidos imprimibles Amazon',
+      'negocio fichas búsqueda visual mercado hispano',
     ],
-    titleTag: 'Generador Fichas Objetos Ocultos | para Vender',
+    titleTag: 'Busca y encuentra para vender en Etsy | LCS',
     metaDescription:
-      'Crea fichas de objetos ocultos para Etsy, KDP y Gumroad. Modos Yo Espío y Encuentra el Diferente, escenas sin superposición, clave de respuestas. Prueba gratis.',
+      'Cree fichas de busca y encuentra para vender en Etsy y KDP. Imágenes temáticas, dificultad ajustable. Licencia comercial incluida. Pruebe gratis.',
   },
 
   hero: {
-    title: 'Generador de Fichas de Objetos Ocultos para Actividades Yo Espío y Encuentra el Diferente',
-    tagline: 'Dos modos de actividad en un solo generador — escenas Yo Espío con posicionamiento sin superposición e imágenes dispersas y fichas Encuentra el Diferente con imágenes emparejadas — con claves de respuestas autogeneradas, tamaño de imagen adaptativo, campos de nombre y fecha, y leyenda que muestra los objetos a encontrar.',
+    title: 'Genere fichas de busca y encuentra para vender en Etsy y KDP',
+    tagline: 'Cree fichas de objetos escondidos con imágenes temáticas — un formato que engancha.',
     description:
-      'Diseña fichas profesionales de objetos ocultos donde los usuarios buscan en una escena de imágenes dispersas para encontrar y rodear objetos específicos. Elige entre dos modos de actividad: el modo Yo Espío usa un algoritmo de posicionamiento sin superposición para dispersar de 1 a 5 objetos ocultos entre 8 a 12 distractores por toda la página — sin cuadrícula, sin filas ni columnas, solo una escena visual cohesiva generada por el algoritmo findBestPosition() que prueba 50 posiciones aleatorias por imagen y reduce el tamaño adaptativamente cuando el espacio es limitado. Una leyenda en la parte inferior de la ficha muestra a los usuarios exactamente qué objetos deben encontrar. El modo Encuentra el Diferente organiza de 8 a 12 imágenes emparejadas en filas con 1 a 5 elementos sin pareja mezclados — los usuarios identifican las imágenes que no tienen un par correspondiente. El sistema de doble lienzo genera tanto una pestaña de ficha como una pestaña de clave de respuestas — la clave de respuestas dibuja círculos rojos alrededor de los objetos ocultos (Yo Espío) o los elementos sin pareja (Encuentra el Diferente) para que nunca tengas que marcarlos manualmente. El generador de objetos ocultos es puramente visual: el idioma afecta solo a las etiquetas de la interfaz, NO al contenido de la ficha, así que cada ficha funciona en cualquier idioma sin nombres de imagen localizados. El Acceso Completo desbloquea los 104 temas con más de 3100 ilustraciones y los 11 idiomas de interfaz. Añade temas de fondo y de borde con controles de opacidad independientes, activa o desactiva los campos de nombre y fecha, personaliza el encabezado autoajustable con 6 opciones de fuente, y exporta PDF y JPEG listos para imprimir a 300 DPI en formato Carta, A4 o dimensiones personalizadas. Ya sea que vendas paquetes de actividades de objetos ocultos en Etsy, compiles cuadernos de Yo Espío para Amazon KDP o crees actividades de discriminación visual para Gumroad, este generador produce fichas listas para la producción en minutos — prueba gratis con todas las funciones, sin registro, sin tarjeta de crédito. Las descargas incluyen una marca de agua; compra una licencia para eliminarla.',
+      'Genere fichas de busca y encuentra para vender en Etsy, Amazon KDP o Hotmart. Las fichas de objetos escondidos son un formato favorito de niños y adultos — los usuarios buscan imágenes específicas dentro de una escena temática compleja. Este generador crea fichas con imágenes de más de 104 categorías, con dificultad ajustable según la cantidad de objetos y la complejidad visual. Los libros de busca y encuentra son un género probado en Amazon KDP con ventas consistentes. Exporte PDFs a 300 DPI con solucionario automático y véndalos con la licencia comercial incluida. El formato es puramente visual y funciona en cualquier idioma. Pruebe gratis con marca de agua — sin registro.',
   },
 
   howItWorks: {
-    title: 'Cómo Crear Fichas de Objetos Ocultos en 5 Pasos',
+    title: 'Cómo crear fichas de busca y encuentra paso a paso',
     steps: [
       {
         title: 'Configura el Diseño de Página',
@@ -52,13 +52,13 @@ const content: AppContent = {
       {
         title: 'Genera la Clave de Respuestas y Descarga',
         description:
-          'Cambia a la pestaña Clave de Respuestas para ver las anotaciones autogeneradas: círculos rojos dibujados alrededor de los objetos ocultos (modo Yo Espío) o los elementos sin pareja (modo Encuentra el Diferente), de 3 a 5 px más grandes que el objeto para mayor visibilidad. Descarga ambas versiones usando cuatro botones dedicados en el menú desplegable: JPEG de Ficha, JPEG de Clave, PDF de Ficha y PDF de Clave a 300 DPI. Activa la escala de grises para versiones que ahorran tinta. Cada exportación está lista para producción en listados de Etsy, interiores de Amazon KDP y archivos de productos de Gumroad.',
+          'Cambia a la pestaña Clave de Respuestas para ver las anotaciones autogeneradas: círculos rojos dibujados alrededor de los objetos ocultos (modo Yo Espío) o los elementos sin pareja (modo Encuentra el Diferente), de 3 a 5 px más grandes que el objeto para mayor visibilidad. Descarga ambas versiones usando cuatro botones dedicados en el menú desplegable: JPEG de Ficha, JPEG de Clave, PDF de Ficha y PDF de Clave a 300 DPI. Activa la escala de grises para versiones que ahorran tinta. Cada exportación está lista para producción en listados de Etsy, interiores de Amazon KDP y archivos de productos de Hotmart.',
       },
     ],
   },
 
   keyFeatures: {
-    title: 'Características Principales del Generador de Fichas de Objetos Ocultos',
+    title: 'Por qué las fichas de busca y encuentra se venden bien',
     features: [
       {
         title: 'Dos Modos de Actividad: Yo Espío y Encuentra el Diferente',
@@ -104,7 +104,7 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Cómo Vender Fichas de Objetos Ocultos en Línea',
+    title: 'Vender fichas de busca y encuentra en Etsy, KDP y Hotmart',
     cases: [
       {
         title: 'Paquetes Temáticos de Actividades de Objetos Ocultos en Etsy',
@@ -119,22 +119,22 @@ const content: AppContent = {
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Fichas de Discriminación Visual Encuentra el Diferente para Gumroad',
+        title: 'Fichas de Discriminación Visual Encuentra el Diferente para Hotmart',
         description:
-          'Diseña fichas listas para usar de Encuentra el Diferente donde los usuarios identifican elementos sin pareja entre conjuntos emparejados. Los vendedores que buscan actividades de discriminación visual en Gumroad valoran fichas que desarrollan habilidades de observación y razonamiento lógico. Crea conjuntos alineados con el catálogo de productos: encuentra el diferente de animales de granja, reconocimiento de formas, clasificación estacional y clasificación por hábitats. Incluye campos de nombre y fecha para responsabilidad del usuario, y proporciona claves de respuestas que muestran qué elementos no tenían pareja. Cada conjunto se exporta en formato PDF y JPEG.',
-        platform: 'Gumroad (teacherspayteachers.com)',
+          'Diseña fichas listas para usar de Encuentra el Diferente donde los usuarios identifican elementos sin pareja entre conjuntos emparejados. Los vendedores que buscan actividades de discriminación visual en Hotmart valoran fichas que desarrollan habilidades de observación y razonamiento lógico. Crea conjuntos alineados con el catálogo de productos: encuentra el diferente de animales de granja, reconocimiento de formas, clasificación estacional y clasificación por hábitats. Incluye campos de nombre y fecha para responsabilidad del usuario, y proporciona claves de respuestas que muestran qué elementos no tenían pareja. Cada conjunto se exporta en formato PDF y JPEG.',
+        platform: 'Hotmart (hotmart.com)',
       },
       {
         title: 'Colecciones Estacionales de Actividades de Objetos Ocultos',
         description:
           'Las 104 colecciones temáticas cubren cada ocasión estacional y festiva — Navidad, Halloween, Pascua, San Valentín, vuelta al cole, vacaciones de verano y más. Crea colecciones de fichas de objetos ocultos por disponible ahora que se alineen con los períodos de mayor demanda. Publica paquetes de Yo Espío de Halloween en septiembre, colecciones de objetos ocultos de Navidad en octubre, y paquetes de busca y encuentra de San Valentín en enero. Incluye fichas tanto de Yo Espío como de Encuentra el Diferente en cada conjunto estacional para máximo valor.',
-        platform: 'Etsy / Amazon KDP / Gumroad (estacional)',
+        platform: 'Etsy / Amazon KDP / Hotmart (estacional)',
       },
       {
         title: 'Paquetes Mixtos de Yo Espío y Encuentra el Diferente',
         description:
           'Combina ambos modos de actividad en paquetes variados premium. Cada paquete incluye escenas de Yo Espío donde los usuarios encuentran objetos específicos en una escena dispersa, más fichas de Encuentra el Diferente donde los usuarios identifican elementos sin pareja entre conjuntos emparejados. Esta combinación trabaja dos habilidades cognitivas diferentes — búsqueda visual y discriminación visual — en un solo producto. Los paquetes mixtos tienen precios más altos porque ofrecen más variedad de actividades y cubren más objetivos de aprendizaje que los productos de un solo modo.',
-        platform: 'Etsy / Gumroad (paquetes variados)',
+        platform: 'Etsy / Hotmart (paquetes variados)',
       },
     ],
   },
@@ -193,7 +193,7 @@ const content: AppContent = {
     {
       question: '¿Puedo vender fichas de objetos ocultos creadas con esta herramienta en Etsy y Amazon KDP?',
       answer:
-        'Sí. Con una licencia comercial, tienes plenos derechos para vender tus fichas de objetos ocultos como descargas digitales en Etsy, como cuadernos impresos en Amazon KDP, como recursos para venta en línea en Gumroad, o a través de cualquier otro canal de ventas. Los dos modos de actividad, la generación de escenas sin superposición y las 104 colecciones temáticas de imágenes te dan las herramientas creativas para producir productos de objetos ocultos originales y vendibles.',
+        'Sí. Con una licencia comercial, tienes plenos derechos para vender tus fichas de objetos ocultos como descargas digitales en Etsy, como cuadernos impresos en Amazon KDP, como recursos para venta en línea en Hotmart, o a través de cualquier otro canal de ventas. Los dos modos de actividad, la generación de escenas sin superposición y las 104 colecciones temáticas de imágenes te dan las herramientas creativas para producir productos de objetos ocultos originales y vendibles.',
     },
     {
       question: '¿Cuál es la política de reembolso?',

@@ -2,30 +2,30 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'generador fichas adivinar palabras',
+    primaryKeyword: 'crear juegos de adivinar palabras gratis',
     secondaryKeywords: [
-      'crear fichas de ortografía imprimibles para vender',
-      'generador de fichas adivinar palabras para vendedores',
-      'fichas de deletreo imprimibles uso comercial',
-      'generador adivinar palabras para KDP',
+      'juegos de adivinar palabras gratis sin registro',
+      'generador de adivinar palabras gratis en linea',
+      'fichas de adivinar palabras gratis para imprimir',
+      'juegos de adivinanzas de vocabulario gratis',
     ],
     lsiKeywords: [
-      'fichas de ortografía visual con imágenes para Etsy',
-      'herramienta de deletreo con pistas de imágenes',
-      'generador de actividades de ortografía multilingüe',
+      'actividades de vocabulario con pistas visuales',
+      'fichas de adivinanzas imprimibles para ninos',
+      'juegos de palabras educativos con imagenes',
     ],
-    titleTag: 'Generador Fichas Adivinar Palabras | Vender',
-    metaDescription: 'Genera fichas de adivinar palabras con 4 niveles de pista, dos modos de entrada, excluir letras, 11 idiomas y 104 temas. Prueba gratuita con marca de agua.',
+    titleTag: 'Adivinar palabras gratis en linea | LCS',
+    metaDescription: 'Cree juegos de adivinar palabras gratis con imagenes como pistas. Sin registro, sin tarjeta. Descarga con marca de agua. Licencia comercial disponible.',
   },
 
   hero: {
-    title: 'Generador de Fichas de Adivinar Palabras',
-    tagline: 'Crea fichas de ortografía con imágenes, 4 niveles de pista y 11 idiomas',
-    description: 'Convierte la práctica de vocabulario en un puzzle visual que los usuarios disfrutan resolver. Esta herramienta genera fichas de adivinar palabras donde una pista con imagen se combina con una cuadrícula de letras con espacios en blanco — los usuarios observan la imagen y completan las letras que faltan para deletrear la palabra que representa. La función estrella es un sistema progresivo de 4 niveles de pista: Sin Pistas no revela ninguna letra para recuerdo puro, Fácil revela la mitad de las letras para aprendices principiantes, Normal revela un cuarto para un desafío equilibrado, y Difícil revela solo un sexto para usuarios seguros de su ortografía. Elige entre dos modos de entrada: el modo Pista con Imagen extrae vocabulario de más de 3.100 imágenes en 104 colecciones temáticas con generación automática de cuadrículas de letras, o el modo Lista de Palabras Personalizada te permite escribir cualquier palabra directamente para práctica de vocabulario específica sin imágenes. La función Excluir Letras elimina letras específicas de las cuadrículas — excluye vocales para ejercicios centrados en fonética o excluye letras comunes para un desafío mayor. La sensibilidad lingüística está integrada: cambia del español a cualquiera de los 11 idiomas disponibles y la misma imagen produce una ortografía correcta diferente. Una imagen de perro genera \"PERRO\" en español, \"DOG\" en inglés, \"HUND\" en alemán, \"CHIEN\" en francés. Un solo diseño de ficha se convierte en 11 productos lingüísticos únicos con respuestas genuinamente diferentes. Configura la salida en mayúsculas o minúsculas, activa la numeración de ejercicios, añade superposiciones de texto personalizadas y elige entre 7 familias tipográficas. Exporta como PDF listo para imprimir o JPEG de alta resolución con generación opcional de clave de respuestas. La prueba gratuita incluye una marca de agua en las descargas. Compra una licencia para eliminar la marca de agua y vender con uso comercial.',
+    title: 'Cree juegos de adivinar palabras gratis en linea',
+    tagline: 'Juegos de vocabulario con pistas visuales — gratis y sin registro.',
+    description: 'Cree juegos de adivinar palabras gratis donde los ninos descubren palabras ocultas usando imagenes tematicas como pistas. Este generador produce fichas interactivas con diferentes niveles de dificultad y temas visuales de mas de 100 categorias. Cada ficha incluye solucionario automatico y se exporta en PDF listo para imprimir. No necesita registro ni tarjeta de credito — empiece a crear juegos al instante. Las descargas incluyen marca de agua transparente. Perfecto para padres que buscan actividades de vocabulario y educadores que necesitan material ludico. ¿Quiere vender juegos de adivinar palabras? Pase a la licencia comercial para PDFs sin marca de agua a 300 DPI.',
   },
 
   tutorial: {
-    title: 'Cómo Crear Fichas de Adivinar Palabras en 8 Pasos Sencillos',
+    title: 'Como crear juegos de adivinar palabras gratis',
     steps: [
       {
         title: 'Abrir el Generador de Fichas de Adivinar Palabras',
@@ -65,7 +65,7 @@ const content: ToolContent = {
   whatYouCanCreate: [
     {
       title: 'Packs Temáticos de Adivinar Palabras',
-      description: 'Crea conjuntos de 10 a 15 fichas de adivinar palabras usando colecciones temáticas de imágenes — animales, comida, vehículos, escenas de la naturaleza. Cada ficha combina imágenes con cuadrículas de letras en un nivel de dificultad uniforme. Agrúpalos por tema y véndelos en Etsy o Gumroad. El formato de imagen más puzzle hace que las miniaturas de tus listings destaquen instantáneamente frente a fichas de ortografía simples.',
+      description: 'Crea conjuntos de 10 a 15 fichas de adivinar palabras usando colecciones temáticas de imágenes — animales, comida, vehículos, escenas de la naturaleza. Cada ficha combina imágenes con cuadrículas de letras en un nivel de dificultad uniforme. Agrúpalos por tema y véndelos en Etsy o Hotmart. El formato de imagen más puzzle hace que las miniaturas de tus listings destaquen instantáneamente frente a fichas de ortografía simples.',
     },
     {
       title: 'Cuadernos de Adivinar Palabras para KDP',
@@ -73,7 +73,7 @@ const content: ToolContent = {
     },
     {
       title: 'Conjuntos Diferenciados por Nivel de Pista',
-      description: 'Genera cuatro versiones de la misma ficha temática — una en cada nivel de pista: Sin Pistas, Fácil, Normal y Difícil. Los vendedores pueden entregar la versión adecuada a cada usuario según su nivel. Véndelos como un pack diferenciado a un precio premium en Gumroad o Etsy. Cuatro niveles de dificultad desde una sola sesión de diseño, con claves de respuestas incluidas para cada versión.',
+      description: 'Genera cuatro versiones de la misma ficha temática — una en cada nivel de pista: Sin Pistas, Fácil, Normal y Difícil. Los vendedores pueden entregar la versión adecuada a cada usuario según su nivel. Véndelos como un pack diferenciado a un precio premium en Hotmart o Etsy. Cuatro niveles de dificultad desde una sola sesión de diseño, con claves de respuestas incluidas para cada versión.',
     },
     {
       title: 'Productos de Ortografía Multilingüe',
@@ -85,7 +85,7 @@ const content: ToolContent = {
     },
     {
       title: 'Packs Estacionales de Ortografía',
-      description: 'Usa temas de imágenes festivas y estacionales para crear packs de edición limitada. Un pack de \"Adivinar Palabras de Navidad\" con vocabulario festivo — RENO, NIEVE, REGALO — se vende muy bien en noviembre y diciembre. Vuelta al cole, Halloween y primavera tienen sus propias ventanas de ventas pico en Etsy y Gumroad. El formato de puzzle visual hace que los productos estacionales se sientan frescos y atractivos.',
+      description: 'Usa temas de imágenes festivas y estacionales para crear packs de edición limitada. Un pack de \"Adivinar Palabras de Navidad\" con vocabulario festivo — RENO, NIEVE, REGALO — se vende muy bien en noviembre y diciembre. Vuelta al cole, Halloween y primavera tienen sus propias ventanas de ventas pico en Etsy y Hotmart. El formato de puzzle visual hace que los productos estacionales se sientan frescos y atractivos.',
     },
   ],
 
@@ -101,14 +101,14 @@ const content: ToolContent = {
       platform: 'Amazon KDP',
     },
     {
-      title: 'Packs Diferenciados en Gumroad',
-      description: 'Sube packs de fichas de adivinar palabras a Gumroad organizados por tema y nivel de dificultad. Incluye los cuatro niveles de pista para cada tema, más claves de respuestas para cada página. Los vendedores buscan frecuentemente \"fichas de ortografía\" y \"actividades de deletreo\". La diferenciación de 4 niveles significa que un solo producto sirve para toda un tienda de habilidades mixtas, algo que los vendedores valoran mucho en las reseñas.',
-      platform: 'Gumroad',
+      title: 'Packs Diferenciados en Hotmart',
+      description: 'Sube packs de fichas de adivinar palabras a Hotmart organizados por tema y nivel de dificultad. Incluye los cuatro niveles de pista para cada tema, más claves de respuestas para cada página. Los vendedores buscan frecuentemente \"fichas de ortografía\" y \"actividades de deletreo\". La diferenciación de 4 niveles significa que un solo producto sirve para toda un tienda de habilidades mixtas, algo que los vendedores valoran mucho en las reseñas.',
+      platform: 'Hotmart',
     },
     {
-      title: 'Kits de Fonética en Gumroad',
-      description: 'Crea kits premium de fonética en Gumroad que usen la función Excluir Letras estratégicamente — excluye vocales para ejercicios centrados en vocales, excluye combinaciones de consonantes para práctica de mezclas. Combina con fichas de Lista de Palabras Personalizada dirigidas a patrones fonéticos específicos. Incluye una guía vendedor explicando cómo cada patrón de exclusión trabaja una habilidad fonética diferente. Véndelos a emprendedores y vendedores de español como segunda lengua.',
-      platform: 'Gumroad',
+      title: 'Kits de Fonética en Hotmart',
+      description: 'Crea kits premium de fonética en Hotmart que usen la función Excluir Letras estratégicamente — excluye vocales para ejercicios centrados en vocales, excluye combinaciones de consonantes para práctica de mezclas. Combina con fichas de Lista de Palabras Personalizada dirigidas a patrones fonéticos específicos. Incluye una guía vendedor explicando cómo cada patrón de exclusión trabaja una habilidad fonética diferente. Véndelos a emprendedores y vendedores de español como segunda lengua.',
+      platform: 'Hotmart',
     },
     {
       title: 'Embudo Visual de Ortografía en Pinterest',
@@ -188,7 +188,7 @@ const content: ToolContent = {
     },
     {
       question: '¿Puedo usar las fichas con fines comerciales?',
-      answer: 'La prueba gratuita con marca de agua es solo para uso personal y educativo. Para vender fichas en Etsy, Gumroad, Amazon KDP o cualquier otro marketplace, necesitas una licencia comercial. La licencia comercial elimina la marca de agua y otorga derechos completos de reventa para las fichas que crees.',
+      answer: 'La prueba gratuita con marca de agua es solo para uso personal y educativo. Para vender fichas en Etsy, Hotmart, Amazon KDP o cualquier otro marketplace, necesitas una licencia comercial. La licencia comercial elimina la marca de agua y otorga derechos completos de reventa para las fichas que crees.',
     },
     {
       question: '¿En qué formatos de archivo puedo descargar?',

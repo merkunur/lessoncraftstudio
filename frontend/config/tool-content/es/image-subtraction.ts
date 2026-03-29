@@ -2,30 +2,30 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'generador fichas de resta',
+    primaryKeyword: 'generador de fichas de restas gratis',
     secondaryKeywords: [
-      'crear fichas de resta online',
-      'fichas de resta imprimibles con imágenes',
-      'generador de fichas de resta para niños',
-      'herramienta para crear fichas de sustracción',
+      'fichas de restas gratis sin registro',
+      'generador de restas con imagenes gratis',
+      'ejercicios de resta gratis para imprimir',
+      'fichas de sustraccion gratis en linea',
     ],
     lsiKeywords: [
-      'fichas de resta visual con tachar imágenes',
-      'ejercicios de sustracción con imágenes para imprimir',
-      'fichas de quitar y contar para preescolar',
+      'fichas de matematicas de resta para primaria',
+      'ejercicios de sustraccion con ilustraciones',
+      'hojas de resta con respuestas automaticas',
     ],
-    titleTag: 'Generador Fichas de Resta | Crear y Vender',
-    metaDescription: 'Crea fichas de resta con imágenes para tachar. 104 temas, modo Tachar Imágenes, dificultad ajustable, PDF para imprimir. Prueba gratis con marca de agua.',
+    titleTag: 'Fichas de restas gratis en linea | LCS',
+    metaDescription: 'Genere fichas de restas gratis con imagenes tematicas. Sin registro, sin tarjeta. Descarga con marca de agua. Licencia comercial disponible para vender.',
   },
 
   hero: {
-    title: 'Generador de Fichas de Resta',
-    tagline: 'Crea fichas de resta visual con imágenes para tachar en menos de 60 segundos',
-    description: 'Haz que la resta sea intuitiva con imágenes para tachar que los niños comprenden de forma natural. Esta herramienta genera fichas de resta basadas en imágenes donde los usuarios tachan dibujos para encontrar la respuesta — la forma más natural de aprender a quitar. Elige entre más de 100 temas de imágenes, ajusta el rango del minuendo máximo, selecciona entre cuatro modos de ejercicio incluyendo el exclusivo modo Tachar Imágenes, y descarga PDF listos para imprimir o JPEG de alta resolución. Perfecto para vendedores de Etsy que crean líneas de productos de matemáticas diferenciadas, vendedores que preparan paquetes para venta en línea y editores de KDP que compilan cuadernos de resta. La prueba gratuita incluye una marca de agua en las descargas. Compra una licencia para eliminar la marca de agua y vender con uso comercial.',
+    title: 'Genere fichas de restas gratis con ilustraciones tematicas',
+    tagline: 'Fichas de resta ilustradas listas en segundos — sin registro ni costes.',
+    description: 'Cree fichas de restas gratis con imagenes tematicas que hacen las matematicas atractivas para los ninos. Seleccione el rango de numeros, la cantidad de problemas y elija entre mas de 100 categorias de imagenes. Cada ficha genera un solucionario automatico y se exporta en PDF de alta calidad. No necesita cuenta ni tarjeta de credito — empiece a crear de inmediato. Las descargas incluyen marca de agua transparente para uso de prueba. Perfecto para padres que buscan material de practica y educadores que necesitan recursos rapidos. ¿Quiere vender fichas de restas en su tienda? Pase a la licencia comercial para obtener PDFs sin marca de agua a 300 DPI.',
   },
 
   tutorial: {
-    title: 'Cómo Crear Fichas de Resta en 8 Pasos Sencillos',
+    title: 'Como generar fichas de restas gratis en 3 pasos',
     steps: [
       {
         title: 'Abrir el Generador de Fichas',
@@ -65,7 +65,7 @@ const content: ToolContent = {
   whatYouCanCreate: [
     {
       title: 'Packs de Actividades de Resta con Tachar Imágenes',
-      description: 'Crea conjuntos de 10 a 20 fichas usando el modo Tachar Imágenes donde los niños tachan dibujos para resolver cada problema. Agrúpalos por tema — dinosaurios, animales de granja, criaturas marinas — y véndelos como packs de resta visual en Etsy o Gumroad. El formato de tachar imágenes es la solicitud número uno de los emprendedores de primera infancia.',
+      description: 'Crea conjuntos de 10 a 20 fichas usando el modo Tachar Imágenes donde los niños tachan dibujos para resolver cada problema. Agrúpalos por tema — dinosaurios, animales de granja, criaturas marinas — y véndelos como packs de resta visual en Etsy o Hotmart. El formato de tachar imágenes es la solicitud número uno de los emprendedores de primera infancia.',
     },
     {
       title: 'Cuadernos de Resta para KDP',
@@ -96,9 +96,9 @@ const content: ToolContent = {
       platform: 'Etsy',
     },
     {
-      title: 'Vendedor de Packs de Matemáticas en Gumroad',
-      description: 'Sube packs de fichas de resta diferenciadas a Gumroad. Los vendedores buscan constantemente \"fichas de resta con tachar imágenes\" y \"actividades de quitar para imprimir\". Incluye los cuatro modos de ejercicio, claves de respuestas y una guía vendedor en cada listing para una mayor percepción de valor y mejores reseñas.',
-      platform: 'Gumroad',
+      title: 'Vendedor de Packs de Matemáticas en Hotmart',
+      description: 'Sube packs de fichas de resta diferenciadas a Hotmart. Los vendedores buscan constantemente \"fichas de resta con tachar imágenes\" y \"actividades de quitar para imprimir\". Incluye los cuatro modos de ejercicio, claves de respuestas y una guía vendedor en cada listing para una mayor percepción de valor y mejores reseñas.',
+      platform: 'Hotmart',
     },
     {
       title: 'Cuadernos de Resta en Amazon KDP',
@@ -106,9 +106,9 @@ const content: ToolContent = {
       platform: 'Amazon KDP',
     },
     {
-      title: 'Pack de productos de Resta en Gumroad',
-      description: 'Crea un catálogo de productos de resta estructurado de 12 semanas con dificultad progresiva — comienza con Tachar Imágenes con minuendo máximo 5, avanza hasta Encontrar el Sustraendo con minuendo máximo 20. Véndelo como descarga digital premium en Gumroad. Los emprendedores buscan activamente materiales de matemáticas visuales y prácticos. Incluye un documento de alcance y secuencia de una página explicando qué habilidades trabaja cada semana y cómo la progresión de dificultad se alinea con los estándares de matemáticas para preescolar a 2.º de primaria. Los productos de productoses estructurados alcanzan precios premium en Gumroad — normalmente entre 12 $ y 19 $ — porque los compradores los perciben como soluciones de enseñanza completas en lugar de colecciones sueltas de fichas.',
-      platform: 'Gumroad',
+      title: 'Pack de productos de Resta en Hotmart',
+      description: 'Crea un catálogo de productos de resta estructurado de 12 semanas con dificultad progresiva — comienza con Tachar Imágenes con minuendo máximo 5, avanza hasta Encontrar el Sustraendo con minuendo máximo 20. Véndelo como descarga digital premium en Hotmart. Los emprendedores buscan activamente materiales de matemáticas visuales y prácticos. Incluye un documento de alcance y secuencia de una página explicando qué habilidades trabaja cada semana y cómo la progresión de dificultad se alinea con los estándares de matemáticas para preescolar a 2.º de primaria. Los productos de productoses estructurados alcanzan precios premium en Hotmart — normalmente entre 12 $ y 19 $ — porque los compradores los perciben como soluciones de enseñanza completas en lugar de colecciones sueltas de fichas.',
+      platform: 'Hotmart',
     },
     {
       title: 'Recursos de Resta para Centros de Tutoría',
@@ -127,15 +127,15 @@ const content: ToolContent = {
     },
     {
       title: 'Mantén el Minuendo Máximo Bajo para Principiantes',
-      description: 'Ajusta el control de minuendo máximo a 5 para productos de preescolar y a 10 para infantil. Los niños pequeños se abruman con grupos grandes de imágenes. Crea versiones separadas \"fácil\" (minuendo máximo 5), \"medio\" (minuendo máximo 10) y \"desafío\" (minuendo máximo 20) para que los compradores puedan elegir el nivel adecuado. Ofrecer los tres niveles de dificultad como un pack diferenciado en Etsy o Gumroad permite cobrar un precio más alto que los packs individuales, porque los vendedores valoran los recursos nivelados que les ahorran tiempo de producción.',
+      description: 'Ajusta el control de minuendo máximo a 5 para productos de preescolar y a 10 para infantil. Los niños pequeños se abruman con grupos grandes de imágenes. Crea versiones separadas \"fácil\" (minuendo máximo 5), \"medio\" (minuendo máximo 10) y \"desafío\" (minuendo máximo 20) para que los compradores puedan elegir el nivel adecuado. Ofrecer los tres niveles de dificultad como un pack diferenciado en Etsy o Hotmart permite cobrar un precio más alto que los packs individuales, porque los vendedores valoran los recursos nivelados que les ahorran tiempo de producción.',
     },
     {
       title: 'Usa Encontrar el Sustraendo para Usuarios Avanzados',
-      description: 'El modo Encontrar el Sustraendo muestra la cantidad inicial y el resultado, pidiendo al niño que averigüe cuánto se quitó. Esto es significativamente más difícil y desarrolla el pensamiento algebraico temprano. Resérvalo para 1.º de primaria en adelante, o comercialízalo como un nivel \"desafío\" separado. En Etsy y Gumroad, las fichas de resta con \"el número que falta\" atraen a un segmento de compradores distinto — vendedores que preparan usuarios para evaluaciones estandarizadas donde las operaciones inversas aparecen frecuentemente. Etiquetar tu listing con términos como \"encontrar el número que falta\" y \"resta desafío\" captura este tráfico de búsqueda de forma efectiva.',
+      description: 'El modo Encontrar el Sustraendo muestra la cantidad inicial y el resultado, pidiendo al niño que averigüe cuánto se quitó. Esto es significativamente más difícil y desarrolla el pensamiento algebraico temprano. Resérvalo para 1.º de primaria en adelante, o comercialízalo como un nivel \"desafío\" separado. En Etsy y Hotmart, las fichas de resta con \"el número que falta\" atraen a un segmento de compradores distinto — vendedores que preparan usuarios para evaluaciones estandarizadas donde las operaciones inversas aparecen frecuentemente. Etiquetar tu listing con términos como \"encontrar el número que falta\" y \"resta desafío\" captura este tráfico de búsqueda de forma efectiva.',
     },
     {
       title: 'Incluye Siempre la Clave de Respuestas',
-      description: 'Haz clic en \"Generar Clave de Respuestas\" antes de descargar. Para las fichas de Tachar Imágenes, la clave de respuestas muestra qué imágenes están tachadas, haciendo la corrección instantánea. Los compradores en Etsy y Gumroad califican sistemáticamente mejor los productos que incluyen una clave de respuestas. Incluir claves de respuestas también reduce las preguntas de soporte al cliente y las solicitudes de reembolso, porque los padres que trabajan con niños en casa pueden verificar las respuestas sin tener que resolver cada ejercicio ellos mismos.',
+      description: 'Haz clic en \"Generar Clave de Respuestas\" antes de descargar. Para las fichas de Tachar Imágenes, la clave de respuestas muestra qué imágenes están tachadas, haciendo la corrección instantánea. Los compradores en Etsy y Hotmart califican sistemáticamente mejor los productos que incluyen una clave de respuestas. Incluir claves de respuestas también reduce las preguntas de soporte al cliente y las solicitudes de reembolso, porque los padres que trabajan con niños en casa pueden verificar las respuestas sin tener que resolver cada ejercicio ellos mismos.',
     },
     {
       title: 'Exporta en PDF y en JPEG',
@@ -166,7 +166,7 @@ const content: ToolContent = {
     },
     {
       question: '¿Puedo usar las fichas con fines comerciales?',
-      answer: 'La prueba gratuita con marca de agua es solo para uso personal y educativo. Para vender fichas en Etsy, Gumroad, Amazon KDP o cualquier otro marketplace, necesitas una licencia comercial. La licencia comercial elimina la marca de agua y otorga derechos completos de reventa para las fichas que crees. Muchos vendedores exitosos crean tiendas Etsy enteras enfocadas exclusivamente en fichas de resta y operaciones matemáticas, generando ingresos mensuales consistentes desde un catálogo de productos enfocado. La licencia comercial cubre generación ilimitada de fichas en todos los temas y niveles de dificultad, siendo una inversión única para creación continua de productos.',
+      answer: 'La prueba gratuita con marca de agua es solo para uso personal y educativo. Para vender fichas en Etsy, Hotmart, Amazon KDP o cualquier otro marketplace, necesitas una licencia comercial. La licencia comercial elimina la marca de agua y otorga derechos completos de reventa para las fichas que crees. Muchos vendedores exitosos crean tiendas Etsy enteras enfocadas exclusivamente en fichas de resta y operaciones matemáticas, generando ingresos mensuales consistentes desde un catálogo de productos enfocado. La licencia comercial cubre generación ilimitada de fichas en todos los temas y niveles de dificultad, siendo una inversión única para creación continua de productos.',
     },
     {
       question: '¿Cómo funciona el modo Tachar Imágenes?',

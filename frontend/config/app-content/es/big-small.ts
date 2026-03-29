@@ -2,32 +2,32 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'generador fichas grande pequeño',
+    primaryKeyword: 'fichas de grande y pequeño para tienda Etsy',
     secondaryKeywords: [
-      'fichas comparación de tamaños imprimibles para vendedores Etsy',
-      'generador de fichas grande y pequeño personalizadas para Amazon KDP',
-      'vender fichas discriminación visual de tamaños en Gumroad',
-      'fichas grande pequeño comparación de tamaños licencia comercial',
+      'generador de fichas de comparación de tamaños para Etsy',
+      'fichas de grande y pequeño para Amazon KDP',
+      'ejercicios de tamaño imprimibles licencia comercial',
+      'crear fichas de comparación para vender',
     ],
     lsiKeywords: [
-      'productos digitales de fichas comparación de tamaños para emprendedores',
-      'actividad de discriminación visual de tamaños imprimibles en línea',
-      'generador de fichas grande pequeño uso comercial',
+      'fichas grande pequeño vendedores preescolar',
+      'ejercicios comparación tamaños imprimibles KDP',
+      'negocio fichas comparación mercado hispano',
     ],
-    titleTag: 'Generador Fichas Grande Pequeño | Crear y Vender',
+    titleTag: 'Fichas de grande y pequeño para Etsy | LCS',
     metaDescription:
-      'Crea fichas de comparación de tamaños para Etsy, KDP y Gumroad. 5 tipos de preguntas, modos idénticos y diferentes, 104 temas. Prueba gratis con marca de agua.',
+      'Cree fichas de comparación de tamaños para vender en Etsy y KDP. Los niños comparan grande y pequeño. Licencia comercial. Pruebe gratis.',
   },
 
   hero: {
-    title: 'Generador de Fichas Grande y Pequeño para Ejercicios de Comparación de Tamaños',
-    tagline: 'Cinco tipos de preguntas — rodea el más grande, rodea el más pequeño, rodea el mediano, numerar del más pequeño al más grande, numerar del más grande al más pequeño — con modos de imágenes idénticas y diferentes para la discriminación visual de tamaños.',
+    title: 'Genere fichas de grande y pequeño para vender en Etsy, KDP y Hotmart',
+    tagline: 'Cree fichas de comparación de tamaños con imágenes — conceptos básicos de preescolar.',
     description:
-      'Diseña fichas profesionales de comparación de tamaños donde los usuarios observan imágenes temáticas mostradas a diferentes tamaños e identifican cuál es más grande, más pequeña o de tamaño mediano, o las numeran en orden del más pequeño al más grande o del más grande al más pequeño. Cinco tipos de preguntas distintos cubren cada habilidad de discriminación de tamaños: Rodea el Más Grande, Rodea el Más Pequeño, Rodea el Mediano, Numerar 1–2–3 del Más Pequeño al Más Grande y Numerar 1–2–3 del Más Grande al Más Pequeño. Dos modos de imágenes crean ejercicios fundamentalmente diferentes: las Imágenes Idénticas muestran la misma imagen a diferentes tamaños para una percepción pura del tamaño, mientras que las Imágenes Diferentes muestran objetos distintos para un razonamiento de tamaño relativo. Configura de 1 a 10 ejercicios por página con 2 o 3 imágenes por ejercicio — dos imágenes para comparaciones más simples, tres para ejercicios más difíciles que incluyen la opción del mediano. Cada ficha es completamente visual con cero texto en la salida, haciéndolas universalmente utilizables independientemente del idioma o nivel de lectura. El contenido proviene de la Biblioteca de Imágenes integrada con más de 3100 ilustraciones en 104 temas. Una clave de respuesta generada automáticamente resalta las respuestas correctas para una verificación instantánea. El Acceso Completo desbloquea los 104 temas y los 11 idiomas de interfaz. Exporta PDF listos para imprimir y JPEG a 300 DPI en formato Carta, A4 o dimensiones personalizadas. Ya sea que vendas packs de comparación de tamaños en Etsy, compiles cuadernos de aprendizaje temprano para Amazon KDP o crees centros visuales diferenciados para Gumroad, el Generador de Fichas Grande y Pequeño produce resultados profesionales en minutos — prueba gratis con todas las funciones, sin registro, sin tarjeta de crédito. Las descargas incluyen una marca de agua; compra una licencia para eliminarla.',
+      'Genere fichas de grande y pequeño para vender en Etsy, Amazon KDP o Hotmart. Los niños comparan tamaños de imágenes temáticas — un concepto matemático fundamental para preescolar e infantil. Con más de 3.000 imágenes en 104 temas, cree fichas de comparación visualmente atractivas. Las fichas de conceptos básicos (grande/pequeño, más/menos) son un producto perenne para vendedores de preescolar — los padres y educadores las buscan todo el año. Exporte PDFs a 300 DPI con solucionario y véndalos con la licencia comercial incluida. El formato puramente visual funciona en cualquier idioma. Pruebe gratis con marca de agua — sin registro.',
   },
 
   howItWorks: {
-    title: 'Cómo Crear Fichas de Comparación de Tamaños en 5 Pasos',
+    title: 'Cómo crear fichas de comparación de tamaños',
     steps: [
       {
         title: 'Configurar el diseño de página',
@@ -52,13 +52,13 @@ const content: AppContent = {
       {
         title: 'Generar la clave de respuesta y descargar',
         description:
-          'Haz clic en Generar Clave de Respuesta para crear una versión resuelta donde las respuestas correctas están resaltadas y rodeadas para una verificación visual instantánea. Activa la exportación en escala de grises para versiones que ahorran tinta, ideales para impresión en línea. Luego abre el menú Descarga y exporta tanto la ficha como la clave de respuesta en JPEG de alta resolución o PDF listo para imprimir a 300 DPI. Cada exportación está lista para producción: listados de Etsy, interiores de Amazon KDP y archivos de productos Gumroad.',
+          'Haz clic en Generar Clave de Respuesta para crear una versión resuelta donde las respuestas correctas están resaltadas y rodeadas para una verificación visual instantánea. Activa la exportación en escala de grises para versiones que ahorran tinta, ideales para impresión en línea. Luego abre el menú Descarga y exporta tanto la ficha como la clave de respuesta en JPEG de alta resolución o PDF listo para imprimir a 300 DPI. Cada exportación está lista para producción: listados de Etsy, interiores de Amazon KDP y archivos de productos Hotmart.',
       },
     ],
   },
 
   keyFeatures: {
-    title: 'Funcionalidades Clave del Generador de Fichas Grande y Pequeño',
+    title: 'Por qué las fichas de conceptos básicos son perennes',
     features: [
       {
         title: 'Cinco tipos de preguntas de comparación de tamaños',
@@ -88,12 +88,12 @@ const content: AppContent = {
       {
         title: 'Clave de respuesta generada automáticamente con respuestas resaltadas',
         description:
-          'La clave de respuesta generada automáticamente resalta y rodea las respuestas correctas para cada ejercicio de la ficha. Para las preguntas de tipo \"rodea\", la imagen correcta está visualmente marcada. Para las preguntas de numeración, el orden correcto de tamaño se muestra. La clave de respuesta se descarga como archivo separado junto con la ficha, ofreciendo a los compradores un producto completo. Incluir claves de respuesta aumenta el valor percibido y justifica precios más altos en Etsy y Gumroad — los compradores esperan soluciones verificadas con cada producto de fichas.',
+          'La clave de respuesta generada automáticamente resalta y rodea las respuestas correctas para cada ejercicio de la ficha. Para las preguntas de tipo \"rodea\", la imagen correcta está visualmente marcada. Para las preguntas de numeración, el orden correcto de tamaño se muestra. La clave de respuesta se descarga como archivo separado junto con la ficha, ofreciendo a los compradores un producto completo. Incluir claves de respuesta aumenta el valor percibido y justifica precios más altos en Etsy y Hotmart — los compradores esperan soluciones verificadas con cada producto de fichas.',
       },
       {
         title: 'Exportación PDF y JPEG lista para imprimir a 300 DPI',
         description:
-          'Descarga tus fichas y claves de respuesta como imágenes JPEG de alta resolución o documentos PDF listos para imprimir a 300 DPI. Los formatos Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal, Cuadrado (1200×1200) y dimensiones personalizadas están todos soportados. Activa la exportación en escala de grises para versiones que ahorran tinta, ideales para impresión en línea o cuadernos en blanco y negro. Cada exportación está lista para producción: listados de Etsy, interiores de Amazon KDP y archivos de productos Gumroad — sin necesidad de postprocesamiento.',
+          'Descarga tus fichas y claves de respuesta como imágenes JPEG de alta resolución o documentos PDF listos para imprimir a 300 DPI. Los formatos Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal, Cuadrado (1200×1200) y dimensiones personalizadas están todos soportados. Activa la exportación en escala de grises para versiones que ahorran tinta, ideales para impresión en línea o cuadernos en blanco y negro. Cada exportación está lista para producción: listados de Etsy, interiores de Amazon KDP y archivos de productos Hotmart — sin necesidad de postprocesamiento.',
       },
       {
         title: 'Edición completa del lienzo con herramientas de texto y decoración',
@@ -104,7 +104,7 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Cómo Vender Fichas de Comparación de Tamaños en Línea',
+    title: 'Vender fichas de grande y pequeño en Etsy, KDP y Hotmart',
     cases: [
       {
         title: 'Packs temáticos de comparación de tamaños en Etsy',
@@ -119,16 +119,16 @@ const content: AppContent = {
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Centros visuales diferenciados para Gumroad',
+        title: 'Centros visuales diferenciados para Hotmart',
         description:
           'Construye conjuntos de práctica de comparación de tamaños por niveles usando el tipo de pregunta como eje de diferenciación: Nivel 1 (Rodea el Más Grande, 2 imágenes, modo idéntico), Nivel 2 (Rodea el Más Pequeño, 2 imágenes, modo diferente), Nivel 3 (Rodea el Mediano, 3 imágenes) y Nivel 4 (Numeración 1–2–3). Cada nivel se enfoca en una habilidad cognitiva diferente — desde la identificación simple hasta la secuenciación en varios pasos. Acompaña cada nivel con ejercicios temáticos y claves de respuesta. El formato visual sin texto funciona en cualquier tienda independientemente del idioma de los usuarios, haciendo estos recursos valiosos para contextos inclusivos y multilingües.',
-        platform: 'Gumroad (teacherspayteachers.com)',
+        platform: 'Hotmart (hotmart.com)',
       },
       {
         title: 'Fichas visuales multilingües para mercados globales',
         description:
           'Como las fichas Grande y Pequeño no contienen texto en la salida, el mismo producto funciona en todos los idiomas sin modificación. Crea un conjunto de ejercicios de comparación de tamaños y véndelo en todo el mundo — sin traducción necesaria, sin versiones de idiomas separadas que mantener. Esta es una ventaja considerable frente a los generadores de fichas con texto donde cada producto necesita 11 variantes lingüísticas. Publica productos idénticos en tiendas Etsy dirigidas a diferentes países, o publica el mismo interior KDP en todos los mercados internacionales de Amazon. Un solo flujo de trabajo produce un producto universalmente vendible.',
-        platform: 'Etsy / Amazon KDP / Gumroad (global)',
+        platform: 'Etsy / Amazon KDP / Hotmart (global)',
       },
       {
         title: 'Herramienta de comparación de tamaños para venta en línea y el refuerzo',
@@ -168,7 +168,7 @@ const content: AppContent = {
     {
       question: '¿Cómo funciona la clave de respuesta generada automáticamente?',
       answer:
-        'La clave de respuesta crea una versión resuelta de tu ficha donde las respuestas correctas están visualmente resaltadas y rodeadas. Para las preguntas de rodear, la imagen correcta está marcada. Para las preguntas de numeración, el orden correcto de tamaño se muestra. La clave de respuesta se descarga como archivo separado junto con la ficha. Incluir claves de respuesta con cada producto aumenta el valor percibido y es lo que esperan los compradores en Etsy, Gumroad y KDP.',
+        'La clave de respuesta crea una versión resuelta de tu ficha donde las respuestas correctas están visualmente resaltadas y rodeadas. Para las preguntas de rodear, la imagen correcta está marcada. Para las preguntas de numeración, el orden correcto de tamaño se muestra. La clave de respuesta se descarga como archivo separado junto con la ficha. Incluir claves de respuesta con cada producto aumenta el valor percibido y es lo que esperan los compradores en Etsy, Hotmart y KDP.',
     },
     {
       question: '¿Se pueden subir imágenes propias en lugar de usar la biblioteca?',
@@ -193,7 +193,7 @@ const content: AppContent = {
     {
       question: '¿Puedo vender fichas creadas con esta herramienta en Etsy y Amazon KDP?',
       answer:
-        'Sí. Con una licencia comercial, tienes todos los derechos para vender tus fichas de comparación de tamaños como descargas digitales en Etsy, como cuadernos impresos en Amazon KDP, como recursos educativos en Gumroad o a través de cualquier otro canal de venta. Los cinco tipos de preguntas, los dos modos de imágenes y el formato completamente visual te ofrecen una fuerte diferenciación y vendibilidad global en las categorías de los marketplaces.',
+        'Sí. Con una licencia comercial, tienes todos los derechos para vender tus fichas de comparación de tamaños como descargas digitales en Etsy, como cuadernos impresos en Amazon KDP, como recursos educativos en Hotmart o a través de cualquier otro canal de venta. Los cinco tipos de preguntas, los dos modos de imágenes y el formato completamente visual te ofrecen una fuerte diferenciación y vendibilidad global en las categorías de los marketplaces.',
     },
     {
       question: '¿Cuál es la política de reembolso?',

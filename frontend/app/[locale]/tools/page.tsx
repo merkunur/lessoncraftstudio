@@ -27,7 +27,7 @@ const toolsKeywords: Record<string, string[]> = {
   en: ['free printable generators online no signup', 'free worksheet maker online', 'try printable tools free with watermark', 'free word search generator', 'free math worksheet maker', 'free coloring page generator'],
   de: ['kostenlose Druckvorlagen-Generatoren', 'Online-Arbeitsblatt-Ersteller', 'Druckvorlagen-Tools gratis testen', 'Wortsuche-Generator kostenlos', 'Mathe-Arbeitsblatt-Generator', 'Ausmalbilder-Ersteller online'],
   fr: ['générateurs imprimables gratuits', 'créateur de fiches en ligne', 'outils imprimables essai gratuit', 'générateur mots cachés gratuit', 'générateur fiches maths', 'créateur coloriages en ligne'],
-  es: ['generadores imprimibles gratis', 'creador de fichas online', 'herramientas imprimibles prueba gratis', 'generador sopa de letras gratis', 'generador fichas matemáticas', 'creador colorear online'],
+  es: ['generadores imprimibles gratis', 'creador de fichas online gratis', 'herramientas imprimibles prueba gratis', 'generador sopa de letras gratis', 'generador fichas matemáticas gratis', 'creador colorear online gratis'],
   pt: ['geradores imprimíveis grátis', 'criador de fichas online', 'ferramentas imprimíveis teste grátis', 'gerador caça-palavras grátis', 'gerador fichas matemática', 'criador colorir online'],
   it: ['generatori stampabili gratis', 'creatore schede online', 'strumenti stampabili prova gratis', 'generatore cerca parole gratis', 'generatore schede matematica', 'creatore disegni colorare online'],
   nl: ['gratis printbare generatoren', 'online werkbladmaker', 'printable tools gratis proberen', 'woordzoeker generator gratis', 'rekenwerkblad generator', 'kleurplaat maker online'],
@@ -51,8 +51,8 @@ const toolsMetadata: Record<string, { title: string; description: string }> = {
     description: 'Essayez les 33 g\én\érateurs de fiches gratuitement en ligne. Sans inscription. Mots cach\és, maths, coloriages, puzzles et plus avec filigrane.',
   },
   es: {
-    title: 'Generadores de imprimibles gratis | 33 herramientas | LessonCraftStudio',
-    description: 'Pruebe los 33 generadores de fichas gratis en l\ínea. Sin registro. Sopa de letras, matem\áticas, colorear, puzzles y m\ás con marca de agua.',
+    title: '33 generadores gratis — Pruebe en línea | LCS',
+    description: 'Pruebe los 33 generadores de fichas gratis en línea. Sin registro. Sopas de letras, matemáticas, colorear, puzzles y más con marca de agua.',
   },
   pt: {
     title: 'Geradores de imprimir gr\átis | 33 ferramentas | LessonCraftStudio',

@@ -2,27 +2,26 @@ import type { BundleContent } from '../types';
 
 const content: BundleContent = {
   seo: {
-    primaryKeyword: 'paquete fichas de asociación',
+    primaryKeyword: 'paquete de asociación y clasificación Etsy',
     secondaryKeywords: [
-      'paquete de generadores de fichas de asociación para vendedores',
-      'kit de fichas de asociación y clasificación uso comercial',
-      'generador de tarjetas de bingo para Etsy',
-      'generadores de fichas de clasificación para vendedores KDP',
+      'paquete generadores fichas de emparejar para vender',
+      'kit fichas de clasificación y sombras KDP',
+      'fichas de asociar tamaños licencia comercial',
+      'herramientas de lógica visual para tienda imprimibles',
     ],
     lsiKeywords: [
-      'paquete de fichas de asociación y bingo',
-      'colección de fichas de sombras y cuadrícula imprimibles',
-      'licencia comercial fichas de asociación',
-      'herramienta de creación masiva de fichas de clasificación',
+      'ahorro paquete asociación versus compra individual',
+      'variedad fichas emparejar clasificar ordenar Etsy',
+      'licencia comercial fichas lógica múltiples plataformas',
     ],
-    titleTag: 'Paquete Fichas de Asociación | para Vender',
-    metaDescription: '5 generadores de fichas de asociación y clasificación en un paquete: asociación, cuadrícula, sombras, bingo y clasificación para vender en Etsy, KDP y Gumroad.',
+    titleTag: 'Paquete asociación y clasificación | LCS',
+    metaDescription: 'Paquete de 5 generadores de fichas de asociación y clasificación para Etsy y KDP. Emparejar, sombras, tamaños y ordenar. Licencia comercial incluida.',
   },
 
   hero: {
-    title: 'Paquete Asociación y Clasificación',
-    tagline: 'Cinco generadores de asociación y clasificación — desde emparejamiento visual hasta exportación masiva de tarjetas de bingo',
-    description: 'El Paquete de Asociación y Clasificación reúne cinco generadores especializados que cubren toda la gama de actividades de emparejamiento, asociación y categorización. Este es un paquete híbrido — tres de las cinco apps reconocen el idioma, produciendo fichas con etiquetas de vocabulario en cualquiera de los 11 idiomas admitidos, mientras que dos son puramente visuales y funcionan en todo el mundo sin traducción. Asociación ofrece cuatro modos distintos incluyendo asociación de letras, emparejamiento imagen-nombre y contenido personalizado. Puzzle de Cuadrícula crea puzzles de asociación basados en coordenadas sobre cuadrículas estructuradas. Discriminación Visual genera fichas de emparejamiento de siluetas donde los usuarios trazan líneas conectando objetos con sus sombras. Bingo produce exportaciones masivas de múltiples tarjetas únicas en una sola descarga ZIP — la única app en todos los paquetes con esta capacidad, diseñada específicamente para uso en tienda y grupos. Clasificación de Imágenes construye fichas de clasificación en dos categorías donde los usuarios clasifican imágenes temáticas en grupos izquierdo y derecho. Cuatro de los cinco generadores producen claves de respuesta automáticas. Bingo es la excepción — como generador de tarjetas de juego, no existe una única respuesta correcta. Cada generador produce archivos PDF listos para imprimir y JPEG de alta resolución. Elige entre más de 100 conjuntos de imágenes temáticas o sube tus propios archivos PNG y JPEG para productos personalizados y específicos de nicho. Ya sea que vendas paquetes de fichas de asociación en Etsy, publiques cuadernos de clasificación en Amazon KDP o crees sets de tarjetas de bingo para Gumroad, este paquete te da la variedad y la velocidad de producción que los vendedores necesitan. Cada generador incluye una prueba gratis con marca de agua para que puedas probar todas las funciones antes de comprar una licencia.',
+    title: 'Paquete de fichas de asociación y clasificación para Etsy y KDP',
+    tagline: 'Cinco generadores de fichas de emparejar y ordenar en un solo paquete con descuento — licencia comercial incluida.',
+    description: 'Construya una línea completa de productos de lógica visual con cinco generadores de fichas de asociación y clasificación por una fracción del precio individual. Este paquete incluye emparejamiento clásico, sombras, comparación de tamaños, clasificación por categorías y fichas de cuadrícula — los tipos de actividades de lógica temprana más buscados en Etsy y Amazon KDP. Cada generador produce PDFs listos para imprimir a 300 DPI con solucionarios automáticos y la licencia comercial incluida para vender en cualquier plataforma sin restricciones. Todas las fichas son puramente visuales — sin texto en la página — lo que significa que cada producto se vende a compradores de cualquier país sin necesidad de traducción. Combine más de 100 conjuntos de imágenes temáticas con los cinco generadores para crear cientos de productos únicos que cubran diferentes nichos y temporadas. Las fichas de asociación son un básico de preescolar y primaria que se vende de forma consistente todo el año. Pruebe gratis con marca de agua — sin registro.',
   },
 
   appsIncluded: [
@@ -63,7 +62,7 @@ const content: BundleContent = {
     },
     {
       title: 'Claves de respuesta para 4 de 5 generadores',
-      description: 'Asociación, Puzzle de Cuadrícula, Discriminación Visual y Clasificación de Imágenes producen claves de respuesta automáticas con cada ficha. Las claves de respuesta son una expectativa principal de los compradores en Etsy y Gumroad — tenerlas generadas automáticamente ahorra horas de trabajo manual. Bingo es la única excepción: como generador de tarjetas de juego con disposiciones aleatorias, no existe una única respuesta correcta para crear una clave.',
+      description: 'Asociación, Puzzle de Cuadrícula, Discriminación Visual y Clasificación de Imágenes producen claves de respuesta automáticas con cada ficha. Las claves de respuesta son una expectativa principal de los compradores en Etsy y Hotmart — tenerlas generadas automáticamente ahorra horas de trabajo manual. Bingo es la única excepción: como generador de tarjetas de juego con disposiciones aleatorias, no existe una única respuesta correcta para crear una clave.',
     },
     {
       title: 'Variedad de habilidades cognitivas',
@@ -79,7 +78,7 @@ const content: BundleContent = {
     },
     {
       title: 'Salida lista para imprimir',
-      description: 'Descarga fichas como PDF o JPEG de alta resolución en formato Carta, A4, Horizontal, Cuadrado o tamaños personalizados. Bingo exporta como ZIP con múltiples tarjetas únicas listas para uso inmediato. Los archivos están listos para publicar en Etsy, subir a KDP o enviar a Gumroad sin post-procesamiento en software de diseño. Añade bordes decorativos de la biblioteca de bordes integrada, establece colores de fondo de página y aplica imágenes de fondo temáticas con opacidad ajustable para resultados pulidos y profesionales en cada ocasión.',
+      description: 'Descarga fichas como PDF o JPEG de alta resolución en formato Carta, A4, Horizontal, Cuadrado o tamaños personalizados. Bingo exporta como ZIP con múltiples tarjetas únicas listas para uso inmediato. Los archivos están listos para publicar en Etsy, subir a KDP o enviar a Hotmart sin post-procesamiento en software de diseño. Añade bordes decorativos de la biblioteca de bordes integrada, establece colores de fondo de página y aplica imágenes de fondo temáticas con opacidad ajustable para resultados pulidos y profesionales en cada ocasión.',
     },
   ],
 
@@ -95,9 +94,9 @@ const content: BundleContent = {
       platform: 'Amazon KDP (kdp.amazon.com)',
     },
     {
-      title: 'Paquetes para venta en línea en Gumroad',
-      description: 'Los compradores de Gumroad esperan materiales listos para vender con claves de respuesta, múltiples niveles de dificultad y suficiente variedad para uso en toda la clase. La exportación masiva de bingo es particularmente valiosa aquí — crea un set de 30 tarjetas de bingo únicas para uso comercial y ponle precio como recurso premium en Gumroad. Combina fichas de asociación en los cuatro modos con asociación de sombras y clasificación de imágenes para paquetes integrales de habilidades de asociación. Las claves de respuesta para cuatro de cinco generadores cumplen con las expectativas de los compradores de Gumroad para recursos profesionales y completos.',
-      platform: 'Gumroad (teacherspayteachers.com)',
+      title: 'Paquetes para venta en línea en Hotmart',
+      description: 'Los compradores de Hotmart esperan materiales listos para vender con claves de respuesta, múltiples niveles de dificultad y suficiente variedad para uso en toda la clase. La exportación masiva de bingo es particularmente valiosa aquí — crea un set de 30 tarjetas de bingo únicas para uso comercial y ponle precio como recurso premium en Hotmart. Combina fichas de asociación en los cuatro modos con asociación de sombras y clasificación de imágenes para paquetes integrales de habilidades de asociación. Las claves de respuesta para cuatro de cinco generadores cumplen con las expectativas de los compradores de Hotmart para recursos profesionales y completos.',
+      platform: 'Hotmart (hotmart.com)',
     },
     {
       title: 'Paquetes de productoses de asociación para preescolar',
@@ -133,8 +132,8 @@ const content: BundleContent = {
       description: 'Vendes descargas digitales en Etsy o publicas cuadernos de actividades en Amazon KDP y quieres una forma rápida y confiable de producir fichas profesionales de asociación y clasificación a escala. El paquete te da cinco generadores y cientos de combinaciones de temas para construir un catálogo de productos diverso. La exportación masiva de bingo por sí sola abre toda una categoría de productos — los sets de bingo listos para vender tienen precios premium y son más rápidos de producir que cualquier otro tipo de imprimible. Crea nuevos listados en minutos en lugar de horas y mantén tu tienda abastecida con contenido fresco y de temporada durante todo el año.',
     },
     {
-      title: 'Autores de Gumroad',
-      description: 'Creas y vendes recursos educativos en Gumroad y necesitas herramientas que cumplan con las expectativas de calidad y completitud de la plataforma. Cuatro de los cinco generadores producen claves de respuesta automáticamente. El generador de Asociación ofrece cuatro modos distintos para paquetes escalonados por nivel. La exportación masiva de bingo crea sets de más de 30 tarjetas únicas listas para venta en línea en segundos — un tipo de producto premium en Gumroad que los compradores buscan específicamente. Las apps sensibles al idioma te permiten crear recursos para tiendas de ESL y bilingües en 11 idiomas.',
+      title: 'Autores de Hotmart',
+      description: 'Creas y vendes recursos educativos en Hotmart y necesitas herramientas que cumplan con las expectativas de calidad y completitud de la plataforma. Cuatro de los cinco generadores producen claves de respuesta automáticamente. El generador de Asociación ofrece cuatro modos distintos para paquetes escalonados por nivel. La exportación masiva de bingo crea sets de más de 30 tarjetas únicas listas para venta en línea en segundos — un tipo de producto premium en Hotmart que los compradores buscan específicamente. Las apps sensibles al idioma te permiten crear recursos para tiendas de ESL y bilingües en 11 idiomas.',
     },
     {
       title: 'Emprendedores de preescolar y jardín de infantes',
@@ -161,7 +160,7 @@ const content: BundleContent = {
     },
     {
       question: '¿Los generadores incluyen claves de respuesta?',
-      answer: 'Cuatro de los cinco generadores producen claves de respuesta automáticas: Asociación, Puzzle de Cuadrícula, Discriminación Visual y Clasificación de Imágenes. Bingo es la única excepción — como generador de tarjetas de juego con disposiciones aleatorias, no existe una única respuesta correcta para proporcionar una clave. Las claves de respuesta son una expectativa principal de los compradores en Etsy y Gumroad, y tenerlas generadas automáticamente ahorra horas de verificación manual.',
+      answer: 'Cuatro de los cinco generadores producen claves de respuesta automáticas: Asociación, Puzzle de Cuadrícula, Discriminación Visual y Clasificación de Imágenes. Bingo es la única excepción — como generador de tarjetas de juego con disposiciones aleatorias, no existe una única respuesta correcta para proporcionar una clave. Las claves de respuesta son una expectativa principal de los compradores en Etsy y Hotmart, y tenerlas generadas automáticamente ahorra horas de verificación manual.',
     },
     {
       question: '¿Cuántos elementos usa Discriminación Visual por ficha?',
@@ -169,7 +168,7 @@ const content: BundleContent = {
     },
     {
       question: '¿En qué formatos puedo descargar?',
-      answer: 'Cada generador produce archivos PDF listos para imprimir y JPEG de alta resolución. Elige entre Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal, Cuadrado o ingresa un tamaño personalizado. El generador de Bingo adicionalmente exporta un archivo ZIP con múltiples tarjetas únicas. PDF es ideal para paquetes de fichas multipágina en Etsy y Gumroad. JPEG funciona bien para páginas interiores de KDP y vistas previas en redes sociales. Todos los archivos se descargan en resolución de impresión — sin necesidad de escalar ni post-procesar.',
+      answer: 'Cada generador produce archivos PDF listos para imprimir y JPEG de alta resolución. Elige entre Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal, Cuadrado o ingresa un tamaño personalizado. El generador de Bingo adicionalmente exporta un archivo ZIP con múltiples tarjetas únicas. PDF es ideal para paquetes de fichas multipágina en Etsy y Hotmart. JPEG funciona bien para páginas interiores de KDP y vistas previas en redes sociales. Todos los archivos se descargan en resolución de impresión — sin necesidad de escalar ni post-procesar.',
     },
     {
       question: '¿Cuál es la diferencia entre Comercial y Acceso Completo?',
@@ -177,7 +176,7 @@ const content: BundleContent = {
     },
     {
       question: '¿Puedo vender las fichas y tarjetas de bingo que creo?',
-      answer: 'Sí. Tanto la licencia Comercial como la de Acceso Completo incluyen derechos de venta comercial. Puedes vender las fichas y los sets de tarjetas de bingo que generes en Etsy, Amazon KDP, Gumroad, tu propio sitio web o cualquier otra plataforma. Vendes los productos generados — la herramienta generadora en sí no es transferible.',
+      answer: 'Sí. Tanto la licencia Comercial como la de Acceso Completo incluyen derechos de venta comercial. Puedes vender las fichas y los sets de tarjetas de bingo que generes en Etsy, Amazon KDP, Hotmart, tu propio sitio web o cualquier otra plataforma. Vendes los productos generados — la herramienta generadora en sí no es transferible.',
     },
     {
       question: '¿Cuántas fichas puedo crear?',

@@ -2,29 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'libros sopas letras KDP',
+    primaryKeyword: 'crear libros de sopas de letras para KDP',
     secondaryKeywords: [
-      'cómo crear libros de sopas de letras para Amazon KDP',
-      'guía de publicación de libros de puzles de sopas de letras',
-      'libros de sopas de letras letra grande Amazon',
-      'libros de sopas de letras temáticas publicación KDP',
+      'publicar libros de sopas de letras Amazon KDP',
+      'cómo crear libro de sopa de letras para KDP paso a paso',
+      'formato interior sopas de letras KDP especificaciones',
+      'ganar dinero libros sopas de letras Amazon KDP',
     ],
     lsiKeywords: [
-      'tamaño cuadrícula sopa letras espaciado letras dificultad puzle',
-      'listas palabras temáticas vocabulario curación palabras apropiadas edad',
-      'sopa letras letra grande mayores adultos formato accesibilidad',
-      'libro sopas letras Amazon palabras clave categorías optimización',
-      'serie libros sopas letras volúmenes compra recurrente catálogo',
-      'mercado sopas letras adultos niños audiencia formateo cuadrícula',
+      'formato interior sopas letras KDP tamaño fuente cuadrícula márgenes',
+      'portada libro sopas letras profesional atractiva Amazon búsqueda',
+      'nichos sopas letras temáticas animales viajes cocina idiomas KDP',
     ],
-    titleTag: 'Crear libros sopas letras KDP — Guía',
-    metaDescription: 'Crea libros de sopas de letras KDP con listas de palabras temáticas, formatos de letra grande y estrategia de series. Tamaño de cuadrícula, segmentación.',
+    titleTag: 'Libros de sopas de letras para KDP | LCS',
+    metaDescription: 'Cree y publique libros de sopas de letras en Amazon KDP. Formato interior, diseño de portada y estrategia de nichos temáticos para máximas ventas.',
   },
 
   hero: {
     title: 'Cómo crear libros de sopas de letras para Amazon KDP',
     tagline: 'Una guía enfocada para crear y publicar libros de sopas de letras en Amazon KDP — la subcategoría de libros de puzles más popular en Amazon, cubriendo la curación de listas de palabras temáticas para contenido cohesivo y atractivo, estrategia de tamaño de cuadrícula desde 12×12 fácil hasta 20×20 experto, la subcategoría de sopas de letras en letra grande que tiene precios premium y lealtad de compradores intensa, posicionamiento de mercado para sopas de letras de adultos versus niños, selección de vocabulario que separa los libros profesionales de las compilaciones amateur, optimización de palabras clave de Amazon específica para sopas de letras, y la estrategia de series basada en volúmenes que convierte un solo libro de sopas de letras en un catálogo que genera ingresos mensuales predecibles',
-    description: 'Los libros de sopas de letras dominan las ventas de puzles en Amazon KDP por volumen, superando en ventas a crucigramas, sudoku y todos los demás tipos de puzles combinados. La categoría sirve a una audiencia masiva — adultos buscando relajación y ejercicio cerebral, mayores que prefieren formatos de letra grande, viajeros queriendo entretenimiento sin conexión, y padres comprando actividades atractivas sin pantalla para niños. Esta guía se centra específicamente en lo que hace la publicación de libros de sopas de letras única: curar listas de palabras temáticas que crean contenido cohesivo y atractivo, elegir tamaños de cuadrícula que coincidan con tu audiencia objetivo, formatear para la subcategoría de alta demanda de letra grande, y construir un catálogo de sopas de letras multivolumen que genera ingresos acumulativos a través de compras recurrentes.',
+    description: 'Los libros de sopas de letras son un nicho probado en Amazon KDP con demanda constante durante todo el año. Los compradores buscan sopas de letras temáticas para entretenimiento, aprendizaje de vocabulario y ejercicio mental, creando oportunidades en decenas de subnichos diferentes. Esta guía le acompaña desde la configuración del formato interior con cuadrículas legibles y fuentes apropiadas hasta el diseño de portadas atractivas, la selección de nichos temáticos rentables y la optimización de palabras clave para posicionar en la búsqueda de Amazon. Aprenda a utilizar el generador de sopas de letras de LessonCraftStudio para producir contenido profesional eficientemente y publicar libros que generen regalías consistentes.',
   },
 
   introduction: 'La sopa de letras es el líder indiscutido por volumen entre los libros de puzles en Amazon KDP. Miles de nuevos títulos de sopas de letras se publican cada mes, y los más vendidos en esta categoría mantienen ventas estables durante todo el año con picos estacionales durante festividades y períodos de compra de regalos. La razón por la que los libros de sopas de letras superan en ventas a otros tipos de puzles es la accesibilidad — cualquiera que sepa leer puede resolver un puzle de sopa de letras, independientemente de la edad, educación o experiencia con puzles. Esta accesibilidad universal crea un grupo de compradores que abarca cada demografía desde niños de primaria hasta mayores en sus noventa.\n\nEl mercado de libros de sopas de letras se divide en varios segmentos distintos, cada uno con diferentes expectativas de comprador y dinámicas competitivas. Los libros de sopas de letras generales para adultos son el segmento de mayor volumen, comprados para entretenimiento diario, alivio del estrés y ejercicio cognitivo. Los libros de sopas de letras en letra grande sirven a adultos y mayores que necesitan tamaños de letra más grandes para lectura y rodeo cómodos — esta subcategoría tiene precios premium y atrae compradores recurrentes excepcionalmente leales que consumen múltiples volúmenes al mes. Los libros de sopas de letras infantiles se dirigen a padres y vendedores que quieren actividades atractivas de construcción de vocabulario. Las colecciones temáticas de sopas de letras (animales, viajes, festividades, alimentos) capturan tráfico de búsqueda por interés y estacional que las colecciones genéricas no alcanzan.\n\nLo que distingue un libro de sopas de letras profesional de una compilación amateur es la calidad de la curación de listas de palabras. Las colecciones de palabras aleatorias se sienten inconexas e insatisfactorias para resolver. Las listas de palabras temáticas — donde cada puzle de una sección gira alrededor de un tema coherente como vida marina, capitales del mundo o términos de cocina — crean una experiencia de resolución que se siente intencional y gratificante. Los compradores notan esta diferencia inmediatamente, y se refleja en las reseñas. Los libros con contenido temático cuidadosamente curado consistentemente obtienen calificaciones más altas que los libros llenos de selecciones de palabras arbitrarias.\n\nEsta guía se concentra exclusivamente en lo que hace la publicación de libros de sopas de letras distinta de la publicación general de libros de puzles. Para fundamentos de KDP como especificaciones de formateo de manuscritos, dimensiones de portada, cálculos de regalías y prácticas generales de anuncios en Amazon, consulta la guía de libros de actividades de matemáticas KDP. Para estrategia amplia de libros de puzles cubriendo múltiples tipos de puzles, formatos de libros de variedad y planificación de catálogo multi-tipo, consulta la guía de libros de puzles KDP. Aquí nos centramos enteramente en la estrategia de contenido específica de sopas de letras, tamaño de cuadrícula, el mercado de letra grande, desarrollo de listas de palabras temáticas, y el enfoque de catálogo basado en volúmenes que hace de la publicación de sopas de letras una de las fuentes de ingresos más fiables en KDP.',

@@ -2,29 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'fijar precios imprimibles Etsy',
+    primaryKeyword: 'cómo poner precio a imprimibles en Etsy',
     secondaryKeywords: [
-      'cómo fijar precios de fichas imprimibles en Etsy',
-      'estrategia de precios imprimibles Etsy',
-      'precios de descargas digitales para vendedores de Etsy',
-      'precios de paquetes de fichas Etsy',
+      'estrategia de precios para imprimibles digitales en Etsy',
+      'cuánto cobrar por fichas imprimibles en Etsy',
+      'precios paquetes y fichas individuales Etsy',
+      'márgenes beneficio vendedor imprimibles Etsy comisiones',
     ],
     lsiKeywords: [
-      'cálculo de comisiones Etsy productos digitales desglose de ingresos netos',
-      'estructura de precios en tres niveles paquetes imprimibles educativos',
-      'psicología de precios paquetes multiplicador de valor percibido fichas',
-      'estrategia de cupones Etsy ajustes estacionales de precios vendedores',
-      'pruebas de precios Etsy Stats optimización de tasa de conversión',
-      'precios internacionales divisas Etsy descargas digitales A4 Carta',
+      'tarifa anuncio transacción procesamiento pago Etsy coste real',
+      'precios competitivos fichas individuales paquetes mega packs',
+      'psicología precios valor percibido posicionamiento premium Etsy',
     ],
-    titleTag: 'Fijar precios imprimibles Etsy — Guía de precios',
-    metaDescription: 'Fija precios de tus imprimibles Etsy con cálculo de comisiones, precios en tres niveles, estrategias de paquetes y ajustes estacionales. Guía completa.',
+    titleTag: 'Poner precio a imprimibles en Etsy | LCS',
+    metaDescription: 'Aprenda a fijar precios para imprimibles en Etsy. Estrategias para fichas individuales, paquetes y mega packs que maximicen sus márgenes de beneficio.',
   },
 
   hero: {
-    title: 'Cómo fijar precios de tus imprimibles Etsy',
+    title: 'Cómo fijar precios para imprimibles en Etsy correctamente',
     tagline: 'Una guía completa de estrategia de precios para vendedores de fichas imprimibles en Etsy — incluyendo investigación de competidores, cálculo de comisiones de Etsy e ingresos netos, precios base de referencia por tipo de producto y número de páginas, estructuras de precios en tres niveles que aumentan el valor medio de pedido, precios de paquetes multicategoría y por nivel de grado, uso estratégico de ofertas y cupones de Etsy, ajustes de precios internacionales para compradores globales, y metodología de pruebas de precios usando datos de conversión de Etsy Stats',
-    description: 'Los precios son la decisión de mayor impacto en tu negocio de fichas imprimibles en Etsy. Fijar precios demasiado bajos y las comisiones de Etsy consumen tus márgenes. Fijar precios demasiado altos sin comunicar valor y los compradores pasan de largo. Esta guía te proporciona el marco de precios completo — desde calcular tus ingresos netos reales después de todas las comisiones de Etsy, hasta construir una estructura de precios en tres niveles que aumenta naturalmente el valor medio de pedido, hasta fijar precios de paquetes multicategoría que tienen precios premium. Ya sea que estés publicando tu primera ficha o optimizando precios en un catálogo establecido, tendrás una estrategia de precios basada en datos al final de esta guía.',
+    description: 'Fijar el precio correcto para sus imprimibles en Etsy es la diferencia entre una tienda rentable y una que apenas cubre las comisiones de la plataforma. Etsy cobra tarifas de publicación, transacción y procesamiento de pago que pueden consumir hasta el 20-30% de sus ingresos si no planifica sus precios estratégicamente. Esta guía le muestra cómo calcular sus márgenes reales después de todas las comisiones de Etsy, establecer precios para fichas individuales, paquetes temáticos y mega packs, y utilizar la psicología de precios para maximizar el valor percibido. Aprenda a posicionar sus productos como premium sin ahuyentar compradores, y descubra los rangos de precios que mejor funcionan en cada categoría de imprimibles educativos.',
   },
 
   introduction: 'La mayoría de los vendedores de imprimibles en Etsy se equivocan con los precios, y el error casi siempre va en la misma dirección: fijar precios demasiado bajos. Los nuevos vendedores miran los anuncios de la competencia, ven fichas con precios de $1,99 o $2,49, e igualan esos precios sin entender qué pasa después de que Etsy se lleva sus comisiones. Una descarga digital de $1,99 genera aproximadamente $1,40 de ingresos reales después de la tarifa de anuncio, la tarifa de transacción y la tarifa de procesamiento de pago. Con ese margen, necesitas cientos de ventas al mes para generar ingresos significativos.\n\nLos vendedores que construyen negocios de imprimibles sostenibles abordan los precios de forma diferente. Entienden que los compradores de Etsy no buscan la ficha más barata — buscan la ficha adecuada. Un padre buscando \"fichas de sumas primer grado\" se preocupa por la calidad, el número de páginas, la inclusión de clave de respuestas y la variedad de temas mucho más que una diferencia de precio de un dólar. Un vendedor buscando \"paquete de actividades de matemáticas para venta en línea\" está gastando un presupuesto escolar, no un presupuesto personal, y valora la exhaustividad sobre el ahorro.\n\nLa estrategia de precios para fichas imprimibles no consiste en encontrar un número mágico. Consiste en construir una estructura de precios — productos de entrada que atraen compradores a tu tienda, paquetes de nivel medio que capturan la mayoría de los ingresos, y colecciones premium que maximizan el valor por transacción. Cada nivel sirve una mentalidad de comprador diferente y una etapa diferente del proceso de compra.\n\nEsta guía cubre el marco completo de precios: cómo investigar los precios de la competencia de forma sistemática, cómo calcular tus ingresos netos reales después de todas las comisiones de Etsy, cómo establecer precios base por tipo de producto y número de páginas, cómo construir una estructura en tres niveles, cómo fijar precios de paquetes para máximo valor percibido, cómo usar ofertas y cupones de Etsy sin erosionar tus márgenes, cómo manejar los precios internacionales y cómo probar y optimizar precios con el tiempo usando datos reales de conversión.\n\nTodas las funciones mencionadas en esta guía están disponibles en la prueba gratis con marca de agua. Puedes crear productos de ejemplo con todos los generadores, probar cada configuración y evaluar la calidad del resultado antes de comprar una licencia comercial para los productos que quieras vender.',

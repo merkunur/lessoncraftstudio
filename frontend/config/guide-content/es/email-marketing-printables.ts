@@ -2,29 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'email marketing imprimibles',
+    primaryKeyword: 'email marketing para vendedores de imprimibles',
     secondaryKeywords: [
-      'lista de correo vendedores de imprimibles',
-      'newsletter para negocio de fichas',
-      'email marketing productos digitales',
-      'estrategia email negocio imprimibles',
+      'lista de correo para negocio de fichas',
+      'email marketing productos digitales educativos',
+      'construir lista de emails vendedores imprimibles',
+      'secuencias de email para vender fichas',
     ],
     lsiKeywords: [
-      'lista de suscriptores lead magnet regalo de suscripción secuencia de bienvenida automatización de email',
-      'tasa de apertura tasa de clics segmentación emails de difusión campaña de goteo',
-      'proveedor de servicios de email página de aterrizaje tasa de conversión tasa de cancelación',
-      'optimización de línea de asunto entregabilidad de email engagement de suscriptores',
-      'secuencias automatizadas campaña de reactivación higiene de la lista reputación del remitente',
-      'calendario de contenido analíticas de email pruebas A/B etiquetas de personalización',
+      'lead magnet embudo de ventas automatización email',
+      'segmentación tasa de apertura conversión suscriptores',
+      'newsletter frecuencia de envío contenido de valor',
     ],
-    titleTag: 'Email Marketing Imprimibles — Estrategia Vendedor',
-    metaDescription: 'Estrategias de email marketing para vendedores de imprimibles. Construye tu lista de suscriptores, crea lead magnets, automatiza secuencias y genera ventas.',
+    titleTag: 'Email marketing para vendedores | LCS',
+    metaDescription: 'Construya una lista de email que genere ventas de imprimibles. Email marketing para vendedores en Etsy, KDP y Hotmart con secuencias que convierten.',
   },
 
   hero: {
-    title: 'Email Marketing para Vendedores de Productos Imprimibles',
+    title: 'Email marketing que convierte suscriptores en compradores',
     tagline: 'Una guía completa de email marketing para vendedores de imprimibles — que cubre cómo elegir un proveedor de servicios de email, crear lead magnets atractivos, construir páginas de aterrizaje de alta conversión, diseñar secuencias de bienvenida, desarrollar estrategias de contenido para newsletters, segmentar tu lista de suscriptores, automatizar campañas estacionales y hacer seguimiento de métricas para la optimización continua',
-    description: 'El email es el único canal de marketing que posees y controlas completamente. Los algoritmos de redes sociales cambian, los rankings de búsqueda en marketplaces fluctúan y los costos de publicidad aumentan — pero tu lista de correo te pertenece. Cada suscriptor representa una línea directa con un comprador potencial que ya ha expresado interés en tus productos. Para los vendedores de imprimibles, el email marketing transforma a los compradores ocasionales de marketplaces en clientes recurrentes que compran directamente, recomiendan tus productos y participan con cada nuevo lanzamiento que anuncias.',
+    description: 'El email marketing es el canal con mayor retorno de inversión para vendedores de imprimibles porque le da acceso directo a compradores interesados sin depender de algoritmos. Una lista de email bien construida genera ventas predecibles cada vez que lanza un producto nuevo. Esta guía le muestra cómo construir su lista desde cero, crear lead magnets irresistibles y diseñar secuencias de email que convierten. Aplique esta estrategia con productos en Etsy, Amazon KDP y Hotmart. El mercado hispanohablante responde especialmente bien al email marketing con contenido de valor.',
   },
 
   introduction: 'La mayoría de los vendedores de imprimibles dependen completamente del tráfico de búsqueda en marketplaces y de los algoritmos de redes sociales para llegar a compradores potenciales. Cuando Etsy cambia su algoritmo de búsqueda, su visibilidad cae de la noche a la mañana. Cuando Pinterest ajusta su feed, su tráfico se evapora. Cuando una plataforma de redes sociales resta prioridad al contenido empresarial, su alcance se reduce a una fracción de su número de seguidores. Estos vendedores han construido sus negocios sobre terreno alquilado — plataformas que no controlan y que pueden cambiar las reglas en cualquier momento sin previo aviso ni recurso.\n\nEl email marketing resuelve esta vulnerabilidad fundamental creando un canal de comunicación directo entre tú y tu audiencia que ningún algoritmo puede restringir. Cuando envías un email, llega a la bandeja de entrada de tu suscriptor independientemente de lo que cualquier plataforma decida priorizar esa semana. Tu mensaje llega al 100% de las personas a las que lo envías (menos el pequeño porcentaje filtrado por sistemas de spam), comparado con las publicaciones en redes sociales que típicamente alcanzan entre el 2% y el 10% de tus seguidores. Esta fiabilidad de alcance hace que el email sea dramáticamente más efectivo para impulsar ventas consistentes y predecibles que cualquier canal dependiente de algoritmos.\n\nLa economía del email marketing es especialmente atractiva para los vendedores de imprimibles. Los productos digitales no tienen costos de inventario, ni logística de envío, ni retrasos de entrega — lo que significa que cada venta impulsada por email se convierte con el margen máximo. Un suscriptor que hace clic desde tu email y compra un paquete de fichas genera ganancia pura más allá del costo insignificante de enviar el email en sí. A diferencia de la publicidad donde pagas por clic independientemente de la conversión, los costos del email marketing son fijos por número de suscriptores, no por mensaje enviado. Una lista de 2,000 suscriptores comprometidos cuesta lo mismo para enviar emails ya sea que envíes una difusión o diez al mes.\n\nEl email también destaca en el patrón de ventas específico del que dependen los negocios de imprimibles: compras repetidas de la misma base de clientes. Un vendedor que compra tus fichas de suma probablemente necesita fichas de resta, multiplicación y problemas también. Un padre que compra tu paquete de preparación para preescolar necesitará recursos de primer grado el próximo año. Una familia que hace trabajo desde casa usando tus fichas de ciencias querrá nuevos temas a medida que avancen en su catálogo de productos. El email te da un canal directo para notificar a estos compradores existentes sobre nuevos productos que coinciden con sus intereses demostrados — algo que los algoritmos de marketplaces no pueden hacer de manera fiable incluso cuando el cliente ha comprado de ti antes.\n\nEsta guía te lleva paso a paso a través de la construcción de un sistema completo de email marketing para tu negocio de imprimibles. Cada paso aborda un componente específico del sistema, desde elegir las herramientas adecuadas y crear lead magnets que atraigan a tus compradores objetivo hasta diseñar secuencias automatizadas y optimizar basándote en datos de rendimiento. El objetivo es un canal de marketing que genere ventas consistentes independientemente de cualquier marketplace o plataforma de redes sociales, dando a tu negocio resiliencia contra los cambios de algoritmo que inevitablemente afectan a todos los vendedores que dependen exclusivamente del tráfico de terceros.',

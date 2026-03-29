@@ -2,32 +2,32 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'generador fichas adivinar palabras',
+    primaryKeyword: 'juego de adivinar palabras para vender en Etsy',
     secondaryKeywords: [
-      'fichas de adivinar palabras imprimibles para vendedores Etsy',
-      'generador de fichas de vocabulario estilo ahorcado para Amazon KDP',
-      'vender fichas de adivinar palabras en Gumroad',
-      'fichas de adivinar palabras con pistas de imagen licencia comercial',
+      'generador de fichas de adivinar palabras para Etsy',
+      'fichas de adivinanzas de vocabulario para KDP',
+      'juegos de palabras imprimibles licencia comercial',
+      'crear fichas de vocabulario visual para vender',
     ],
     lsiKeywords: [
-      'productos digitales de puzzles de vocabulario para emprendedores',
-      'negocio de fichas de deducción de palabras imprimibles en línea',
-      'generador de fichas de adivinar palabras uso comercial',
+      'fichas adivinar palabras vendedores Etsy',
+      'juegos vocabulario imprimibles KDP Hotmart',
+      'negocio fichas lenguaje mercado hispano',
     ],
-    titleTag: 'Generador Fichas Adivinar Palabras | Crear y Vender',
+    titleTag: 'Adivinar palabras para vender en Etsy | LCS',
     metaDescription:
-      'Crea fichas de adivinar palabras para Etsy, KDP y Gumroad. Pistas de imagen, 4 dificultades, 3 fuentes de contenido, 11 idiomas. Prueba gratis con marca de agua.',
+      'Cree fichas de adivinar palabras para vender en Etsy y KDP. Pistas de imágenes, 11 idiomas, solucionario. Licencia comercial incluida. Pruebe gratis.',
   },
 
   hero: {
-    title: 'Generador de Fichas de Adivinar Palabras para Puzzles de Vocabulario con Pistas de Imagen',
-    tagline: 'La deducción estilo ahorcado se combina con pistas visuales — cuatro niveles de dificultad convierten cada palabra en un puzzle gratificante.',
+    title: 'Genere fichas de adivinar palabras para vender en Etsy y KDP',
+    tagline: 'Cree juegos de vocabulario visual donde los niños adivinan palabras letra por letra.',
     description:
-      'Diseña fichas profesionales de adivinar palabras donde los usuarios ven una pista de imagen y deducen la palabra oculta rellenando casillas de letras vacías — un puzzle estilo ahorcado que desarrolla simultáneamente la ortografía, el vocabulario y el razonamiento deductivo. Elige entre tres fuentes de contenido: la Biblioteca de Imágenes integrada con más de 3100 ilustraciones en 104 temas, el Modo Edición Manual donde seleccionas imágenes y personalizas sus nombres de visualización, o el modo Lista de Palabras Personalizada para puzzles de solo texto con el vocabulario que tú elijas. Cuatro niveles de dificultad controlan cuántas letras se pre-revelan como pistas — desde Sin Pistas (ninguna letra revelada) hasta el modo Fácil mostrando la mitad de las letras — creando un andamiaje natural del principiante al avanzado. Coloca de 1 a 10 puzzles por ficha y alterna entre cuadrículas de letras en mayúsculas o minúsculas. El Acceso Completo desbloquea los 11 idiomas soportados donde la palabra objetivo cambia según el idioma — \"dog\" en inglés se convierte en \"Hund\" en alemán, \"chien\" en francés, \"perro\" en español — haciendo de cada idioma un producto distinto y vendible. Cada ficha genera una clave de respuesta automática, y puedes exportar PDF listos para imprimir y JPEG a más de 400 DPI en formato Carta, A4, Cuadrado o dimensiones personalizadas. Ya sea que vendas paquetes temáticos de vocabulario en Etsy, compiles libros de puzzles de palabras para Amazon KDP o crees centros de lectoescritura diferenciados para Gumroad, el Generador de Fichas de Adivinar Palabras produce resultados profesionales en minutos — prueba gratis con todas las funciones, sin registro, sin tarjeta de crédito. Las descargas incluyen una marca de agua; compra una licencia para eliminarla.',
+      'Genere fichas de adivinar palabras para vender en Etsy, Amazon KDP o Hotmart. Los usuarios ven una imagen temática y adivinan la palabra correspondiente completando las letras — un formato interactivo que combina vocabulario con ortografía. Con soporte para 11 idiomas y más de 3.000 imágenes en 104 temas, puede crear fichas de adivinar palabras para el mercado hispano y otros mercados globales. Ideal para cuadernillos de vocabulario en KDP y paquetes educativos en Etsy. Exporte PDFs a 300 DPI con solucionario automático y véndalos con la licencia comercial incluida. Los juegos de vocabulario visual son especialmente populares para ELE — un mega-nicho con compradores de alto poder adquisitivo. Pruebe gratis con marca de agua — sin registro.',
   },
 
   howItWorks: {
-    title: 'Cómo Crear Fichas de Adivinar Palabras en 5 Pasos',
+    title: 'Cómo crear fichas de adivinar palabras paso a paso',
     steps: [
       {
         title: 'Configura el diseño de página',
@@ -58,7 +58,7 @@ const content: AppContent = {
   },
 
   keyFeatures: {
-    title: 'Características Principales del Generador de Fichas de Adivinar Palabras',
+    title: 'Por qué las fichas de vocabulario se venden bien',
     features: [
       {
         title: 'Adivinación de palabras con pistas de imagen y cuadrícula de letras vacías',
@@ -104,7 +104,7 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Cómo Vender Fichas de Adivinar Palabras en Línea',
+    title: 'Vender fichas de adivinar palabras en Etsy, KDP y Hotmart',
     cases: [
       {
         title: 'Paquetes temáticos de adivinar palabras en Etsy',
@@ -119,16 +119,16 @@ const content: AppContent = {
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Centros de lectoescritura diferenciados para Gumroad',
+        title: 'Centros de lectoescritura diferenciados para Hotmart',
         description:
-          'Construye conjuntos de práctica de adivinar palabras por niveles usando el nivel de dificultad como eje de diferenciación: Nivel 1 (Fácil, 4 puzzles por página, palabras simples), Nivel 2 (Normal, 6 puzzles, palabras medianas), Nivel 3 (Difícil, 8 puzzles, palabras más largas), y Nivel 4 (Sin Pistas, 10 puzzles, expresiones de varias palabras). Acompaña cada nivel con claves de respuesta y una hoja de seguimiento del progreso. Los compradores de Gumroad pagan precios premium por recursos de vocabulario diferenciados que pueden desplegar inmediatamente en múltiples niveles de lectura.',
-        platform: 'Gumroad (teacherspayteachers.com)',
+          'Construye conjuntos de práctica de adivinar palabras por niveles usando el nivel de dificultad como eje de diferenciación: Nivel 1 (Fácil, 4 puzzles por página, palabras simples), Nivel 2 (Normal, 6 puzzles, palabras medianas), Nivel 3 (Difícil, 8 puzzles, palabras más largas), y Nivel 4 (Sin Pistas, 10 puzzles, expresiones de varias palabras). Acompaña cada nivel con claves de respuesta y una hoja de seguimiento del progreso. Los compradores de Hotmart pagan precios premium por recursos de vocabulario diferenciados que pueden desplegar inmediatamente en múltiples niveles de lectura.',
+        platform: 'Hotmart (hotmart.com)',
       },
       {
         title: 'Productos de vocabulario multilingües con Acceso Completo',
         description:
           'El Acceso Completo desbloquea los 11 idiomas, y como Adivinar Palabras es sensible al idioma, la palabra objetivo cambia según el idioma. \"Dog\" en inglés se convierte en \"Hund\" en alemán, \"chien\" en francés, \"perro\" en español. Cada versión lingüística es un producto genuinamente diferente con palabras diferentes, números de letras diferentes y soluciones de puzzle diferentes. Crea series temáticas idénticas en múltiples idiomas y lista cada una como un producto de Etsy o un libro de KDP separado — once flujos de ingresos desde un solo flujo de trabajo.',
-        platform: 'Etsy / Amazon KDP / Gumroad (multilingüe)',
+        platform: 'Etsy / Amazon KDP / Hotmart (multilingüe)',
       },
       {
         title: 'Herramienta de ortografía para venta en línea y tutoría',
@@ -193,7 +193,7 @@ const content: AppContent = {
     {
       question: '¿Puedo vender fichas creadas con esta herramienta en Etsy y Amazon KDP?',
       answer:
-        'Sí. Con una licencia comercial, tienes todos los derechos para vender tus fichas de adivinar palabras como descargas digitales en Etsy, como libros de actividades impresos en Amazon KDP, como recursos educativos en Gumroad o a través de cualquier otro canal de venta. El formato de puzzle con pistas de imagen y la capacidad multilingüe te ofrecen una fuerte diferenciación en categorías de mercado competitivas.',
+        'Sí. Con una licencia comercial, tienes todos los derechos para vender tus fichas de adivinar palabras como descargas digitales en Etsy, como libros de actividades impresos en Amazon KDP, como recursos educativos en Hotmart o a través de cualquier otro canal de venta. El formato de puzzle con pistas de imagen y la capacidad multilingüe te ofrecen una fuerte diferenciación en categorías de mercado competitivas.',
     },
     {
       question: '¿Cuál es la política de reembolso?',

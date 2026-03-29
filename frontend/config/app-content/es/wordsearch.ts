@@ -2,32 +2,32 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'generador fichas sopa de letras',
+    primaryKeyword: 'generador de sopas de letras para vender en Etsy y KDP',
     secondaryKeywords: [
-      'fichas de sopa de letras imprimibles para vendedores Etsy',
-      'generador de cuadrículas de palabras ocultas para Amazon KDP',
-      'vender fichas de sopa de letras en Gumroad',
-      'fichas de sopa de letras con clave de respuesta código de colores licencia comercial',
+      'crear sopas de letras con imágenes para Etsy',
+      'generador de busca palabras para Amazon KDP',
+      'sopas de letras imprimibles licencia comercial',
+      'crear libros de sopas de letras para vender',
     ],
     lsiKeywords: [
-      'productos digitales de puzzles de palabras ocultas para emprendedores',
-      'negocio de fichas de búsqueda de palabras imprimibles en línea',
-      'generador de fichas de sopa de letras uso comercial',
+      'sopas de letras temáticas vendedores Etsy KDP',
+      'libros pasatiempos búsqueda de palabras Amazon',
+      'negocio imprimibles sopas letras mercado hispano',
     ],
-    titleTag: 'Generador Fichas Sopa de Letras | Crear y Vender',
+    titleTag: 'Sopas de letras para vender en Etsy y KDP | LCS',
     metaDescription:
-      'Crea fichas de sopa de letras para Etsy, KDP y Gumroad. Cuadrícula 5×5 a 30×30, direcciones diagonales, letras adaptadas al idioma.',
+      'Cree sopas de letras con imágenes para vender en Etsy y KDP. 104 temas, 11 idiomas, solucionario. Licencia comercial. Pruebe gratis con marca de agua.',
   },
 
   hero: {
-    title: 'Generador de Fichas de Sopa de Letras para Puzzles de Palabras Ocultas en Cuadrícula',
-    tagline: 'Cuadrículas ajustables de 5×5 a 30×30 con controles de dirección diagonal e invertida — construye el nivel de dificultad perfecto para cada audiencia.',
+    title: 'Genere sopas de letras para vender en Etsy, KDP y Hotmart',
+    tagline: 'Cree sopas de letras con imágenes temáticas en 11 idiomas — listas para vender.',
     description:
-      'Diseña fichas profesionales de sopa de letras donde las palabras ocultas están incrustadas en una cuadrícula de letras de relleno aleatorias y los usuarios escanean filas, columnas y diagonales para encontrarlas — el formato de puzzle clásico que nunca pasa de moda. Elige entre tres fuentes de contenido: la Biblioteca de Imágenes integrada con más de 3100 ilustraciones en 104 temas, el Modo Edición Manual donde seleccionas imágenes y personalizas los nombres de visualización, o el modo Lista de Palabras Personalizada para puzzles de solo texto con hasta 8 palabras que escribes directamente. Ajusta la cuadrícula de 5×5 para calentamientos rápidos a 30×30 para desafíos serios, y activa o desactiva las palabras en diagonal y las palabras invertidas (al revés) para afinar la dificultad en cuatro a ocho direcciones de colocación posibles. Tres modos de visualización — palabras más imágenes, solo imágenes o solo palabras — controlan cómo aparecen las pistas junto a la cuadrícula. El Acceso Completo desbloquea los 11 idiomas soportados donde tanto las palabras ocultas COMO las letras de relleno de la cuadrícula cambian según el idioma: las cuadrículas en alemán incluyen ä, ö, ü con frecuencias naturales ponderadas, las cuadrículas en francés incluyen é, è, ç, à, las cuadrículas en español incluyen ñ, á, é, í, ó, ú, y cada idioma usa su conjunto de caracteres auténtico. Una clave de respuesta con código de colores resalta cada palabra encontrada en uno de seis colores alternados para verificación visual instantánea. Exporta PDF listos para imprimir y JPEG a más de 400 DPI en formato Carta, A4 o dimensiones personalizadas. Ya sea que vendas paquetes de puzzles temáticos en Etsy, compiles libros de sopa de letras para Amazon KDP o crees centros de vocabulario diferenciados para Gumroad, el Generador de Fichas de Sopa de Letras produce resultados profesionales en minutos — prueba gratis con todas las funciones, sin registro, sin tarjeta de crédito. Las descargas incluyen una marca de agua; compra una licencia para eliminarla.',
+      'Genere sopas de letras para vender en Etsy, Amazon KDP o Hotmart — el pasatiempo más popular del mundo, ahora con imágenes temáticas que las hacen únicas. Las pistas son imágenes, no texto: los usuarios identifican la imagen, deducen la palabra y la buscan en la cuadrícula. Este formato visual funciona en 11 idiomas, multiplicando su mercado potencial. Seleccione entre más de 3.000 ilustraciones en 104 temas para crear sopas de letras irresistibles. Las sopas de letras son el producto estrella en Amazon KDP — los libros de búsqueda de palabras se venden consistentemente todo el año. Exporte PDFs a 300 DPI con solucionario automático. Licencia comercial incluida. Pruebe gratis con marca de agua — sin registro.',
   },
 
   howItWorks: {
-    title: 'Cómo Crear Fichas de Sopa de Letras en 5 Pasos',
+    title: 'Cómo crear sopas de letras profesionales paso a paso',
     steps: [
       {
         title: 'Configura el diseño de página',
@@ -58,7 +58,7 @@ const content: AppContent = {
   },
 
   keyFeatures: {
-    title: 'Características Principales del Generador de Fichas de Sopa de Letras',
+    title: 'Por qué las sopas de letras dominan Amazon KDP',
     features: [
       {
         title: 'Puzzle de palabras ocultas en cuadrícula con pistas de imagen',
@@ -93,7 +93,7 @@ const content: AppContent = {
       {
         title: 'Exportación PDF y JPEG lista para imprimir a más de 400 DPI',
         description:
-          'Descarga fichas y claves de respuesta como imágenes JPEG de alta resolución o documentos PDF listos para imprimir. El motor de exportación usa un multiplicador 6x, produciendo más de 400 DPI en tamaños de página estándar. Los formatos Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal y dimensiones personalizadas están todos soportados. Activa la exportación en escala de grises para versiones económicas en tinta ideales para impresión en volumen o libros de puzzles en blanco y negro. Cada exportación está lista para producción: listados de Etsy, interiores de Amazon KDP y archivos de productos Gumroad.',
+          'Descarga fichas y claves de respuesta como imágenes JPEG de alta resolución o documentos PDF listos para imprimir. El motor de exportación usa un multiplicador 6x, produciendo más de 400 DPI en tamaños de página estándar. Los formatos Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal y dimensiones personalizadas están todos soportados. Activa la exportación en escala de grises para versiones económicas en tinta ideales para impresión en volumen o libros de puzzles en blanco y negro. Cada exportación está lista para producción: listados de Etsy, interiores de Amazon KDP y archivos de productos Hotmart.',
       },
       {
         title: 'Edición completa del lienzo con herramientas de texto e imagen',
@@ -104,7 +104,7 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Cómo Vender Fichas de Sopa de Letras en Línea',
+    title: 'Vender sopas de letras en Etsy, KDP y Hotmart',
     cases: [
       {
         title: 'Paquetes temáticos de sopa de letras en Etsy',
@@ -119,16 +119,16 @@ const content: AppContent = {
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Centros de vocabulario diferenciados para Gumroad',
+        title: 'Centros de vocabulario diferenciados para Hotmart',
         description:
-          'Construye conjuntos de práctica de sopa de letras por niveles usando el tamaño de cuadrícula y los controles de dirección como ejes de diferenciación: Nivel 1 (8×8, solo horizontal, 4 palabras), Nivel 2 (12×12, horizontal y vertical, 6 palabras), Nivel 3 (16×16, diagonales activadas, 8 palabras) y Nivel 4 (20×20, diagonales e invertidas, 8 palabras). Acompaña cada nivel con claves de respuesta con código de colores y una hoja de seguimiento del progreso. Los compradores de Gumroad pagan precios premium por recursos de vocabulario diferenciados que pueden desplegar inmediatamente en múltiples niveles de capacidad.',
-        platform: 'Gumroad (teacherspayteachers.com)',
+          'Construye conjuntos de práctica de sopa de letras por niveles usando el tamaño de cuadrícula y los controles de dirección como ejes de diferenciación: Nivel 1 (8×8, solo horizontal, 4 palabras), Nivel 2 (12×12, horizontal y vertical, 6 palabras), Nivel 3 (16×16, diagonales activadas, 8 palabras) y Nivel 4 (20×20, diagonales e invertidas, 8 palabras). Acompaña cada nivel con claves de respuesta con código de colores y una hoja de seguimiento del progreso. Los compradores de Hotmart pagan precios premium por recursos de vocabulario diferenciados que pueden desplegar inmediatamente en múltiples niveles de capacidad.',
+        platform: 'Hotmart (hotmart.com)',
       },
       {
         title: 'Productos de sopa de letras multilingües con Acceso Completo',
         description:
           'El Acceso Completo desbloquea los 11 idiomas, y como la Sopa de Letras es sensible al idioma, las palabras ocultas Y las letras de relleno de la cuadrícula cambian según el idioma. \"Dog\" en inglés se convierte en \"Hund\" en una cuadrícula rellena de caracteres alemanes como ä, ö, ü; \"chien\" en francés aparece en una cuadrícula con é, è, ç, à; \"perro\" en español aparece en una cuadrícula con ñ, á, é, í, ó, ú. Cada versión lingüística es un producto verdaderamente diferente con palabras diferentes, letras de relleno diferentes y una experiencia de resolución diferente. Crea series temáticas idénticas en múltiples idiomas y lista cada una como un producto de Etsy o un libro de KDP separado — once flujos de ingresos desde un solo flujo de trabajo.',
-        platform: 'Etsy / Amazon KDP / Gumroad (multilingüe)',
+        platform: 'Etsy / Amazon KDP / Hotmart (multilingüe)',
       },
       {
         title: 'Herramienta de vocabulario para venta en línea y tutoría',
@@ -193,7 +193,7 @@ const content: AppContent = {
     {
       question: '¿Puedo vender fichas creadas con esta herramienta en Etsy y Amazon KDP?',
       answer:
-        'Sí. Con una licencia comercial, tienes todos los derechos para vender tus fichas de sopa de letras como descargas digitales en Etsy, como libros de puzzles impresos en Amazon KDP, como recursos educativos en Gumroad o a través de cualquier otro canal de venta. Los tamaños de cuadrícula ajustables, los controles de dirección y la capacidad multilingüe te ofrecen una fuerte diferenciación en categorías de mercado competitivas.',
+        'Sí. Con una licencia comercial, tienes todos los derechos para vender tus fichas de sopa de letras como descargas digitales en Etsy, como libros de puzzles impresos en Amazon KDP, como recursos educativos en Hotmart o a través de cualquier otro canal de venta. Los tamaños de cuadrícula ajustables, los controles de dirección y la capacidad multilingüe te ofrecen una fuerte diferenciación en categorías de mercado competitivas.',
     },
     {
       question: '¿Cuál es la política de reembolso?',

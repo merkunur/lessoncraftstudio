@@ -2,32 +2,32 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'generador fichas intruso',
+    primaryKeyword: 'fichas de encuentra el intruso para vender en Etsy y KDP',
     secondaryKeywords: [
-      'generador de fichas del intruso imprimibles para vendedores Etsy',
-      'creador de fichas de discriminación visual para editores Amazon KDP',
-      'generador de fichas de encuentra el diferente con licencia comercial',
-      'vender fichas del intruso en Gumroad',
+      'generador de fichas de odd one out para Etsy',
+      'fichas de encuentra el diferente para Amazon KDP',
+      'ejercicios de intruso imprimibles licencia comercial',
+      'crear fichas de lógica visual para vender',
     ],
     lsiKeywords: [
-      'productos digitales de fichas del intruso para emprendedores',
-      'generador de fichas de discriminación visual a uso comercial',
-      'fichas de encuentra el diferente imprimibles para negocio en línea',
+      'fichas encuentra intruso vendedores Etsy KDP',
+      'ejercicios lógica clasificación imprimibles',
+      'negocio fichas razonamiento mercado hispano',
     ],
-    titleTag: 'Generador Fichas Intruso | Crear y Vender',
+    titleTag: 'Encuentra el intruso para Etsy y KDP | LCS',
     metaDescription:
-      'Crea fichas del intruso para Etsy, KDP y Gumroad. Dos modos de generación, clave de respuestas con círculos rojos, 104 temas. Prueba gratis con marca de agua.',
+      'Cree fichas de encuentra el intruso para vender en Etsy y KDP. Los niños identifican el elemento diferente. Licencia comercial. Pruebe gratis.',
   },
 
   hero: {
-    title: 'Generador de Fichas del Intruso para Puzzles de Discriminación Visual',
-    tagline: 'Dos modos de generación — Idéntico y Similar — con anulación por ejercicio, de 5 a 10 ejercicios configurables, claves de respuestas autogeneradas con marcadores de círculo rojo, y puzzles puramente visuales que funcionan en los 11 idiomas sin traducción.',
+    title: 'Genere fichas de encuentra el intruso para Etsy, KDP y Hotmart',
+    tagline: 'Cree fichas donde los niños identifican el elemento que no pertenece al grupo.',
     description:
-      'Diseña fichas profesionales de encuentra el diferente donde los usuarios identifican y rodean el elemento intruso en cada fila de cuatro imágenes. Elige entre dos modos de generación: el modo Idéntico coloca tres clones de la misma imagen junto a una imagen diferente del mismo tema para desafíos de encontrar la diferencia, mientras que el modo Similar toma tres imágenes del Tema A y una imagen del Tema B para puzzles de discriminación entre categorías. Anula el modo por ejercicio para mezclar niveles de dificultad en una sola ficha. Configura de 5 a 10 ejercicios por página con un valor predeterminado de 6, y activa o desactiva los campos opcionales de nombre y fecha y los números de ejercicio para un formato listo para vender. Cada ficha genera una clave de respuestas complementaria en una pestaña de lienzo separada — la clave de respuestas dibuja un círculo rojo alrededor del elemento intruso en cada fila para que nunca marques las respuestas manualmente. El encabezado autogenerado presenta un borde exterior coral, un borde interior ámbar y un fondo turquesa con el título localizado \"Encuentra el Diferente\" en Fredoka y las instrucciones en Quicksand en los 11 idiomas. Como los puzzles son totalmente visuales — no aparece ninguna palabra en la ficha — no son sensibles al idioma y funcionan idénticamente en cualquier localización. El Acceso Completo desbloquea los 104 temas con más de 3100 ilustraciones y los 11 idiomas de interfaz. Añade temas de fondo y de borde con controles de opacidad independientes, y exporta PDF y JPEG listos para imprimir a 300 DPI en formato Carta, A4, Cuadrado o dimensiones personalizadas. Ya sea que vendas paquetes de puzzles visuales en Etsy, compiles cuadernos de pensamiento crítico para Amazon KDP o crees actividades para venta en línea en Gumroad, este generador produce fichas del intruso listas para la producción en minutos — prueba gratis con todas las funciones, sin registro, sin tarjeta de crédito. Las descargas incluyen una marca de agua; compra una licencia para eliminarla.',
+      'Genere fichas de encuentra el intruso para vender en Etsy, Amazon KDP o Hotmart. Los niños observan un grupo de imágenes y determinan cuál no pertenece — un formato que desarrolla razonamiento lógico, clasificación y pensamiento crítico. Con más de 3.000 imágenes en 104 temas y dificultad ajustable, cree fichas para diferentes niveles. Las fichas de encuentra el intruso son muy populares en Etsy para preescolar, infantil y educación especial. Ideales para cuadernillos de lógica en Amazon KDP. Exporte PDFs a 300 DPI con solucionario automático y véndalos con la licencia comercial incluida. Formato puramente visual — funciona en cualquier idioma. Pruebe gratis con marca de agua — sin registro.',
   },
 
   howItWorks: {
-    title: 'Cómo Crear Fichas del Intruso en 5 Pasos',
+    title: 'Cómo crear fichas de encuentra el intruso paso a paso',
     steps: [
       {
         title: 'Configura el Diseño de Página',
@@ -52,13 +52,13 @@ const content: AppContent = {
       {
         title: 'Genera la Clave de Respuestas y Descarga',
         description:
-          'Cambia a la pestaña de Clave de Respuestas para ver la clave autogenerada con un círculo rojo dibujado alrededor del elemento intruso en cada fila de ejercicio. El grosor del trazo del círculo se escala con el tamaño de la imagen (el mayor entre tamañoImagen × 0,04 o 3px) para una visibilidad consistente en todos los tamaños de página. Descarga ambas versiones usando los cuatro botones dedicados: JPEG de Ficha, JPEG de Clave de Respuestas, PDF de Ficha y PDF de Clave de Respuestas a 300 DPI. Activa la escala de grises para versiones que ahorran tinta. Cada exportación está lista para producción en listados de Etsy, interiores de Amazon KDP y archivos de productos Gumroad.',
+          'Cambia a la pestaña de Clave de Respuestas para ver la clave autogenerada con un círculo rojo dibujado alrededor del elemento intruso en cada fila de ejercicio. El grosor del trazo del círculo se escala con el tamaño de la imagen (el mayor entre tamañoImagen × 0,04 o 3px) para una visibilidad consistente en todos los tamaños de página. Descarga ambas versiones usando los cuatro botones dedicados: JPEG de Ficha, JPEG de Clave de Respuestas, PDF de Ficha y PDF de Clave de Respuestas a 300 DPI. Activa la escala de grises para versiones que ahorran tinta. Cada exportación está lista para producción en listados de Etsy, interiores de Amazon KDP y archivos de productos Hotmart.',
       },
     ],
   },
 
   keyFeatures: {
-    title: 'Características Principales del Generador de Fichas del Intruso',
+    title: 'Por qué las fichas de intruso desarrollan pensamiento crítico',
     features: [
       {
         title: 'Puzzles de Encuentra el Diferente con Dos Modos de Generación',
@@ -104,7 +104,7 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Cómo Vender Fichas del Intruso en Línea',
+    title: 'Vender fichas de encuentra el intruso en Etsy, KDP y Hotmart',
     cases: [
       {
         title: 'Paquetes Temáticos de Puzzles del Intruso en Etsy',
@@ -119,16 +119,16 @@ const content: AppContent = {
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Actividades de Pensamiento Crítico para venta en línea en Gumroad',
+        title: 'Actividades de Pensamiento Crítico para venta en línea en Hotmart',
         description:
-          'Diseña fichas del intruso listas para usar con campos de nombre y fecha, números de ejercicio y claves de respuestas impresas. Los vendedores que buscan actividades de pensamiento crítico en Gumroad valoran fichas que llegan listas para venta en línea — el campo de nombre asegura la responsabilidad del usuario, los números de ejercicio hacen eficiente la discusión en línea, y la clave de respuestas con círculos rojos ahorra valor percibido. Crea conjuntos alineados con el catálogo de productos: desafíos de clasificación animal, discriminación de grupos alimenticios, identificación de ayudantes comunitarios y puzzles de conciencia estacional. Cada conjunto incluye fichas del usuario y claves de respuestas en formatos PDF y JPEG.',
-        platform: 'Gumroad (teacherspayteachers.com)',
+          'Diseña fichas del intruso listas para usar con campos de nombre y fecha, números de ejercicio y claves de respuestas impresas. Los vendedores que buscan actividades de pensamiento crítico en Hotmart valoran fichas que llegan listas para venta en línea — el campo de nombre asegura la responsabilidad del usuario, los números de ejercicio hacen eficiente la discusión en línea, y la clave de respuestas con círculos rojos ahorra valor percibido. Crea conjuntos alineados con el catálogo de productos: desafíos de clasificación animal, discriminación de grupos alimenticios, identificación de ayudantes comunitarios y puzzles de conciencia estacional. Cada conjunto incluye fichas del usuario y claves de respuestas en formatos PDF y JPEG.',
+        platform: 'Hotmart (hotmart.com)',
       },
       {
         title: 'Colecciones de Puzzles Estacionales y Festivos',
         description:
           'Las 104 colecciones de imágenes temáticas cubren cada ocasión estacional y festiva — Navidad, Halloween, Pascua, San Valentín, vuelta al cole, vacaciones de verano y más. Crea colecciones del intruso de disponible ahora que se alineen con los períodos de mayor compra. Lanza paquetes de puzzles de Halloween en septiembre, colecciones de Navidad en octubre y packs de San Valentín en enero. Mezcla los modos Idéntico y Similar dentro de cada conjunto estacional para variedad y valor percibido. Los productos estacionales obtienen precios más altos durante sus períodos pico y crean razones naturales para compras repetidas.',
-        platform: 'Etsy / Amazon KDP / Gumroad (estacional)',
+        platform: 'Etsy / Amazon KDP / Hotmart (estacional)',
       },
       {
         title: 'Alcance Global con Puzzles Puramente Visuales',
@@ -193,7 +193,7 @@ const content: AppContent = {
     {
       question: '¿Puedo vender fichas del intruso creadas con esta herramienta en Etsy y Amazon KDP?',
       answer:
-        'Sí. Con una licencia comercial, tienes plenos derechos para vender tus fichas del intruso como descargas digitales en Etsy, como cuadernos impresos en Amazon KDP, como recursos para venta en línea en Gumroad o a través de cualquier otro canal de ventas. Los dos modos de generación, las anulaciones por ejercicio y las 104 colecciones de imágenes temáticas te proporcionan las herramientas creativas para producir productos de discriminación visual originales y vendibles.',
+        'Sí. Con una licencia comercial, tienes plenos derechos para vender tus fichas del intruso como descargas digitales en Etsy, como cuadernos impresos en Amazon KDP, como recursos para venta en línea en Hotmart o a través de cualquier otro canal de ventas. Los dos modos de generación, las anulaciones por ejercicio y las 104 colecciones de imágenes temáticas te proporcionan las herramientas creativas para producir productos de discriminación visual originales y vendibles.',
     },
     {
       question: '¿Cuál es la política de reembolso?',

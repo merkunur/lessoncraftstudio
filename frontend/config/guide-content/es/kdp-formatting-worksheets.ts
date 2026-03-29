@@ -2,29 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'formateo KDP fichas',
+    primaryKeyword: 'formato KDP para libros de fichas guía',
     secondaryKeywords: [
-      'guía de formateo KDP para libros de fichas',
-      'especificaciones de formateo de manuscrito Amazon KDP',
-      'tamaño de recorte márgenes sangrado KDP libros de fichas',
-      'exportación PDF listo para imprimir KDP libros de actividades',
+      'cómo formatear libro de fichas para Amazon KDP',
+      'especificaciones formato interior KDP libros actividades',
+      'márgenes sangrado recorte KDP libros educativos fichas',
+      'guía formato PDF interior KDP cuadernillos fichas',
     ],
     lsiKeywords: [
-      'tamaño de recorte KDP 8,5×11 6×9 8×10 diseño interior fichas',
-      'márgenes de manuscrito cosido encuadernación zona segura área de sangrado',
-      'exportación PDF 300 DPI incrustación de fuentes escala de grises CMYK',
-      'dimensiones de portada KDP ancho de lomo zona de código de barras calculadora',
-      'numeración de páginas páginas iniciales finales índice de contenido',
-      'errores de subida KDP rechazo solución de problemas previsualizador prueba',
+      'márgenes interiores exteriores sangrado zona segura KDP fichas',
+      'tamaño recorte 8.5x11 6x9 formatos populares KDP actividades',
+      'resolución 300 DPI fuentes incrustadas PDF listo impresión KDP',
     ],
-    titleTag: 'Formateo KDP fichas — Guía completa',
-    metaDescription: 'Guía de formateo KDP que cubre tamaños de recorte, márgenes, ajustes de sangrado, exportación PDF a 300 DPI, dimensiones de portada y solución de problemas.',
+    titleTag: 'Formato KDP para libros de fichas | LCS',
+    metaDescription: 'Guía completa de formato KDP para libros de fichas. Márgenes, sangrado, tamaño de recorte y especificaciones técnicas para publicar sin rechazos.',
   },
 
   hero: {
-    title: 'Guía de formateo KDP para libros de fichas',
+    title: 'Cómo formatear libros de fichas para Amazon KDP sin errores',
     tagline: 'La referencia técnica definitiva para formatear libros de fichas y actividades para Amazon KDP — incluyendo selección de tamaño de recorte para diferentes tipos de actividad, cálculos de márgenes y cosido para espacio de escritura cómodo, configuración de sangrado versus sin sangrado, exportación de PDF listo para imprimir a 300 DPI con fuentes incrustadas, cálculos de dimensiones de portada incluyendo ancho de lomo y zonas de código de barras, ensamblaje completo del manuscrito desde las páginas iniciales hasta las secciones de soluciones, y solución de los rechazos y errores de formateo más comunes de KDP',
-    description: 'Un libro de fichas perfectamente diseñado no sirve de nada si KDP rechaza el manuscrito o el resultado impreso tiene texto desapareciendo en la encuadernación, márgenes demasiado estrechos para que los niños escriban, o imágenes borrosas por exportación de baja resolución. Esta guía cubre las especificaciones técnicas de formateo que separan una publicación KDP profesional de una amateur — las medidas exactas, configuraciones y procedimientos de exportación que aseguran que tus libros de fichas y actividades se impriman correctamente siempre. Para estrategias de creación de contenido y planificación de negocio, consulta nuestras otras guías KDP. Esta guía es puramente técnica: especificaciones del manuscrito, diseño de página, preparación del PDF, dimensiones de portada y solución de problemas de subida.',
+    description: 'El formato correcto del interior es la barrera técnica más común para publicar libros de fichas en Amazon KDP. Márgenes incorrectos, sangrado insuficiente o resolución baja provocan rechazos que retrasan su publicación. Esta guía le proporciona las especificaciones técnicas exactas que necesita: márgenes interiores y exteriores según el número de páginas, zonas seguras de contenido, requisitos de sangrado, tamaños de recorte populares para libros de actividades y configuración correcta del PDF para impresión. Aprenda a exportar fichas generadas con LessonCraftStudio en el formato exacto que KDP acepta, evitando los errores más frecuentes que rechazan manuscritos.',
   },
 
   introduction: 'El formateo es donde la mayoría de los editores KDP primerizos pierden horas en errores evitables. Diseñan páginas de fichas preciosas en su herramienta de diseño favorita, las suben a KDP y descubren que los márgenes son demasiado pequeños, la resolución del PDF es insuficiente, las dimensiones de la portada son incorrectas o el número de páginas cae fuera del rango aceptado por KDP. Cada rechazo significa otra ronda de correcciones, re-exportación y re-subida — retrasos que se acumulan cuando estás intentando construir un catálogo de forma eficiente.\n\nLos libros de fichas y actividades tienen exigencias de formateo más estrictas que los libros de texto estándar. Una novela necesita márgenes adecuados para una lectura cómoda. Un libro de fichas necesita márgenes adecuados para una escritura cómoda — niños agarrando lápices, adultos rodeando palabras en cuadrículas de puzles, usuarios resolviendo problemas de matemáticas en espacios designados para respuestas. Los requisitos de márgenes son mayores, la precisión del diseño importa más, y las consecuencias de equivocarse son inmediatamente visibles en el producto impreso.\n\nEsta guía proporciona las especificaciones exactas que necesitas en cada etapa del proceso de formateo. La selección del tamaño de recorte viene primero porque determina cada medida posterior. Los márgenes y las zonas seguras vienen segundo porque definen tu área de contenido utilizable. El diseño de página para diferentes tipos de actividad viene tercero porque las fichas, los puzles y las páginas para colorear tienen cada uno requisitos de espaciado únicos. La configuración de sangrado, los ajustes de exportación del PDF, las dimensiones de la portada, el ensamblaje del manuscrito y la solución de problemas de subida completan el flujo de trabajo.\n\nPara orientación sobre creación de contenido — qué tipos de fichas crear, cómo estructurar la progresión de dificultad, qué temas se venden mejor — consulta la guía de libros de actividades de matemáticas KDP. Para estrategia de negocio — precios, planificación de catálogo, optimización de ingresos — consulta la guía de ganar dinero con libros de actividades KDP. Para planificación de contenido específico de puzles, consulta las guías de libros de puzles y sopas de letras. Esta guía asume que tienes contenido listo y se centra exclusivamente en formatearlo correctamente para la producción de impresión KDP.',

@@ -2,29 +2,26 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'cómo iniciar un negocio de imprimibles',
+    primaryKeyword: 'cómo empezar un negocio de imprimibles 2026',
     secondaryKeywords: [
-      'negocio de imprimibles para principiantes',
-      'vender fichas imprimibles en línea',
-      'crear una tienda de fichas imprimibles',
-      'guía para iniciar un negocio de imprimibles',
+      'guía completa negocio imprimibles desde cero',
+      'iniciar tienda de fichas imprimibles paso a paso',
+      'negocio de imprimibles para principiantes 2026',
+      'vender fichas educativas en línea guía',
     ],
     lsiKeywords: [
-      'modelo de negocio de descargas digitales',
-      'generador de fichas para vendedores',
-      'tienda Etsy de fichas imprimibles',
-      'libros de actividades Amazon KDP',
-      'Gumroad fichas educativas',
-      'licencia comercial herramientas imprimibles',
+      'modelo de negocio descargas digitales educativas',
+      'generador de fichas para emprendedores',
+      'tienda Etsy de imprimibles rentable',
     ],
-    titleTag: 'Cómo Iniciar un Negocio de Imprimibles — Guía Completa',
-    metaDescription: 'Cómo iniciar un negocio de imprimibles desde cero. Guía paso a paso para vendedores de Etsy, Amazon KDP y Gumroad con generadores de fichas para crear y vender.',
+    titleTag: 'Empezar negocio de imprimibles (2026) | LCS',
+    metaDescription: 'Cómo empezar un negocio de imprimibles en 2026. Guía paso a paso para vender fichas educativas en Etsy, Amazon KDP y Hotmart con generadores profesionales.',
   },
 
   hero: {
-    title: 'La Guía Completa para Iniciar un Negocio de Imprimibles',
-    tagline: 'De cero a tu primera venta — todo lo que necesitas saber para crear un negocio de fichas imprimibles',
-    description: 'Esta guía te acompaña en cada paso del lanzamiento de un negocio de fichas imprimibles. Aprenderás a elegir un nicho rentable, crear productos profesionales sin habilidades de diseño, publicar en las plataformas adecuadas, fijar precios para obtener beneficios y construir un catálogo que genere ventas constantes. Ya sea que planees vender en Etsy, Amazon KDP, Gumroad o tu propia web, este es tu punto de partida.',
+    title: 'Cómo Empezar un Negocio de Imprimibles en 2026',
+    tagline: 'De cero a su primera venta — todo lo que necesita saber para crear un negocio rentable de fichas imprimibles',
+    description: 'Esta guía le acompaña en cada paso del lanzamiento de un negocio de fichas imprimibles en 2026. Aprenderá a elegir un nicho rentable, crear productos profesionales sin habilidades de diseño, publicar en las plataformas adecuadas, fijar precios para obtener beneficios y construir un catálogo que genere ventas constantes. Ya sea que planee vender en Etsy, Amazon KDP, Hotmart o su propia web, este es su punto de partida. Cada generador de fichas mencionado ofrece una prueba gratis con marca de agua para que evalúe la calidad antes de comprar una licencia comercial.',
   },
 
   introduction: 'El mercado de fichas imprimibles ha crecido de manera constante porque la demanda nunca se detiene. Los padres trabajan desde casa. Los vendedores complementan los programas escolares. Los tutores necesitan materiales nuevos cada semana. Los temas estacionales rotan, pero la necesidad fundamental — actividades de aprendizaje estructuradas, atractivas y listas para imprimir — permanece constante año tras año.\n\nIniciar un negocio de imprimibles no requiere un título en educación, experiencia en diseño gráfico ni una gran inversión inicial. Lo que sí requiere es una comprensión clara de lo que los compradores realmente quieren, las herramientas adecuadas para crear productos profesionales de manera eficiente y la disposición de tratar esto como un negocio real en lugar de un proyecto secundario.\n\nEsta guía cubre el camino completo. Al final, tendrás un plan de acción concreto: tu nicho seleccionado, tu primer producto creado, tu tienda configurada y tu estrategia de precios definida. Sin consejos vagos, sin promesas exageradas — solo los pasos prácticos que te llevan de la idea a los ingresos.\n\nUna nota importante antes de empezar: cada generador de fichas mencionado en esta guía ofrece una prueba gratis con marca de agua. Puedes probar todas las funciones, crear fichas de muestra y evaluar la calidad antes de comprar una licencia comercial. No hay ningún riesgo para empezar.',
@@ -44,7 +41,7 @@ const content: StartContent = {
     },
     {
       heading: 'Herramientas esenciales de creación de fichas para vendedores de imprimibles',
-      content: 'Las fichas de calidad profesional requieren diseños coherentes, tipografía limpia, claves de respuestas precisas y diseños visualmente atractivos. Crearlas manualmente en un software de diseño gráfico consume mucho tiempo y es propenso a errores.\n\nLos generadores de fichas resuelven este problema. Se encargan del diseño, la lógica matemática, la generación de claves de respuestas y el diseño visual de forma automática. Tú eliges los parámetros — nivel de dificultad, rango numérico, tema, conjunto de imágenes, tamaño de página — y el generador produce un archivo listo para imprimir en segundos.\n\nLessonCraftStudio ofrece 33 generadores de fichas especializados que cubren seis categorías: matemáticas y números, letras y palabras, dibujo y arte, aprendizaje visual, asociación y clasificación, y puzzles y juegos. Cada generador incluye más de 100 conjuntos de imágenes temáticas, múltiples tamaños de página, niveles de dificultad configurables y generación automática de claves de respuestas.\n\nCada generador ofrece una prueba gratis con marca de agua para que puedas evaluar la calidad de los resultados, probar diferentes configuraciones y crear fichas de muestra antes de comprar una licencia comercial. La licencia comercial te permite vender las fichas que creas en cualquier plataforma — Etsy, Amazon KDP, Gumroad, Gumroad o tu propia web.\n\nLa ventaja práctica de usar generadores es la velocidad. Un vendedor que utiliza herramientas de diseño manual puede dedicar de 30 a 60 minutos a una sola ficha. Con un generador, puedes crear una ficha pulida y lista para imprimir en menos de dos minutos. Esa diferencia de velocidad es lo que separa a los vendedores que construyen grandes catálogos de los que se estancan con un puñado de productos.',
+      content: 'Las fichas de calidad profesional requieren diseños coherentes, tipografía limpia, claves de respuestas precisas y diseños visualmente atractivos. Crearlas manualmente en un software de diseño gráfico consume mucho tiempo y es propenso a errores.\n\nLos generadores de fichas resuelven este problema. Se encargan del diseño, la lógica matemática, la generación de claves de respuestas y el diseño visual de forma automática. Tú eliges los parámetros — nivel de dificultad, rango numérico, tema, conjunto de imágenes, tamaño de página — y el generador produce un archivo listo para imprimir en segundos.\n\nLessonCraftStudio ofrece 33 generadores de fichas especializados que cubren seis categorías: matemáticas y números, letras y palabras, dibujo y arte, aprendizaje visual, asociación y clasificación, y puzzles y juegos. Cada generador incluye más de 100 conjuntos de imágenes temáticas, múltiples tamaños de página, niveles de dificultad configurables y generación automática de claves de respuestas.\n\nCada generador ofrece una prueba gratis con marca de agua para que puedas evaluar la calidad de los resultados, probar diferentes configuraciones y crear fichas de muestra antes de comprar una licencia comercial. La licencia comercial te permite vender las fichas que creas en cualquier plataforma — Etsy, Amazon KDP, Hotmart, Hotmart o tu propia web.\n\nLa ventaja práctica de usar generadores es la velocidad. Un vendedor que utiliza herramientas de diseño manual puede dedicar de 30 a 60 minutos a una sola ficha. Con un generador, puedes crear una ficha pulida y lista para imprimir en menos de dos minutos. Esa diferencia de velocidad es lo que separa a los vendedores que construyen grandes catálogos de los que se estancan con un puñado de productos.',
     },
     {
       heading: 'Crear tu primer producto imprimible',
@@ -52,7 +49,7 @@ const content: StartContent = {
     },
     {
       heading: 'Dónde vender tus fichas imprimibles en línea',
-      content: 'Cuatro plataformas dominan la venta de fichas imprimibles, y cada una tiene ventajas distintas.\n\nEtsy es el marketplace más grande para descargas imprimibles. Tiene un tráfico masivo integrado de compradores que buscan activamente fichas imprimibles. La tarifa de publicación es de 0,20 $ por artículo, y Etsy toma un porcentaje de cada venta. La plataforma favorece a los vendedores con catálogos grandes y buen SEO. Tu competencia principal son otros vendedores de Etsy, y la diferenciación viene de la calidad, el enfoque de nicho y la optimización de las publicaciones.\n\nAmazon KDP (Kindle Direct Publishing) atiende el mercado de libros de actividades y cuadernos de ejercicios. Los productos KDP se imprimen bajo demanda y los envía Amazon, pero también puedes publicar libros de bajo contenido como productos de tipo imprimible. KDP te da acceso a la enorme base de clientes de Amazon. La contrapartida es menos control sobre precios y presentación en comparación con Etsy.\n\nGumroad (Gumroad) se especializa en recursos educativos. El público es principalmente vendedores del mercado y emprendedores. Los compradores de Gumroad esperan productos alineados con el catálogo de productos y referenciados por niveles. Si tus fichas se dirigen a grados específicos y objetivos de aprendizaje, Gumroad es una opción natural. La plataforma toma una comisión por cada venta, con tarifas reducidas para cuentas de vendedor premium.\n\nGumroad ofrece la configuración más sencilla para vender descargas digitales directamente. Tú controlas toda la experiencia del cliente, fijas tus propios precios y te quedas con una mayor parte de cada venta. La contrapartida es que Gumroad no tiene tráfico de marketplace integrado — necesitas atraer a tus propios visitantes a través de redes sociales, listas de correo electrónico o marketing de contenidos.\n\nEl enfoque recomendado: comienza en Etsy para acceder inmediatamente a compradores, luego expándete a KDP y Gumroad a medida que tu catálogo crezca. Usa Gumroad o tu propia web para ventas directas una vez que tengas audiencia.',
+      content: 'Cuatro plataformas dominan la venta de fichas imprimibles, y cada una tiene ventajas distintas.\n\nEtsy es el marketplace más grande para descargas imprimibles. Tiene un tráfico masivo integrado de compradores que buscan activamente fichas imprimibles. La tarifa de publicación es de 0,20 $ por artículo, y Etsy toma un porcentaje de cada venta. La plataforma favorece a los vendedores con catálogos grandes y buen SEO. Tu competencia principal son otros vendedores de Etsy, y la diferenciación viene de la calidad, el enfoque de nicho y la optimización de las publicaciones.\n\nAmazon KDP (Kindle Direct Publishing) atiende el mercado de libros de actividades y cuadernos de ejercicios. Los productos KDP se imprimen bajo demanda y los envía Amazon, pero también puedes publicar libros de bajo contenido como productos de tipo imprimible. KDP te da acceso a la enorme base de clientes de Amazon. La contrapartida es menos control sobre precios y presentación en comparación con Etsy.\n\nHotmart (Hotmart) se especializa en recursos educativos. El público es principalmente vendedores del mercado y emprendedores. Los compradores de Hotmart esperan productos alineados con el catálogo de productos y referenciados por niveles. Si tus fichas se dirigen a grados específicos y objetivos de aprendizaje, Hotmart es una opción natural. La plataforma toma una comisión por cada venta, con tarifas reducidas para cuentas de vendedor premium.\n\nHotmart ofrece la configuración más sencilla para vender descargas digitales directamente. Tú controlas toda la experiencia del cliente, fijas tus propios precios y te quedas con una mayor parte de cada venta. La contrapartida es que Hotmart no tiene tráfico de marketplace integrado — necesitas atraer a tus propios visitantes a través de redes sociales, listas de correo electrónico o marketing de contenidos.\n\nEl enfoque recomendado: comienza en Etsy para acceder inmediatamente a compradores, luego expándete a KDP y Hotmart a medida que tu catálogo crezca. Usa Hotmart o tu propia web para ventas directas una vez que tengas audiencia.',
     },
     {
       heading: 'Estrategias de precios para productos imprimibles',
@@ -107,7 +104,7 @@ const content: StartContent = {
     },
     {
       step: 'Expándete a plataformas adicionales',
-      description: 'Una vez que tengas más de 20 productos y ventas constantes en Etsy, expándete a Amazon KDP y Gumroad. Adapta tus productos existentes al formato y las expectativas del público de cada plataforma.',
+      description: 'Una vez que tengas más de 20 productos y ventas constantes en Etsy, expándete a Amazon KDP y Hotmart. Adapta tus productos existentes al formato y las expectativas del público de cada plataforma.',
     },
     {
       step: 'Planifica tu primera colección estacional',
@@ -163,7 +160,7 @@ const content: StartContent = {
     },
     {
       question: '¿Cuál es el mejor marketplace para vender fichas imprimibles?',
-      answer: 'Etsy es la plataforma de inicio recomendada por su gran audiencia integrada para productos imprimibles. Amazon KDP es excelente para formatos de libros de actividades. Gumroad es ideal si tus productos se dirigen a vendedores con contenido alineado al catálogo de productos. Muchos vendedores exitosos publican simultáneamente en múltiples plataformas.',
+      answer: 'Etsy es la plataforma de inicio recomendada por su gran audiencia integrada para productos imprimibles. Amazon KDP es excelente para formatos de libros de actividades. Hotmart es ideal si tus productos se dirigen a vendedores con contenido alineado al catálogo de productos. Muchos vendedores exitosos publican simultáneamente en múltiples plataformas.',
     },
     {
       question: '¿Cuántos productos necesito antes de poder empezar a vender?',
@@ -175,7 +172,7 @@ const content: StartContent = {
     },
     {
       question: '¿Qué formatos de archivo producen los generadores de fichas?',
-      answer: 'Cada generador produce archivos PDF listos para imprimir y archivos JPEG de alta resolución. PDF es el formato estándar para productos imprimibles en Etsy y Gumroad. JPEG se usa para las páginas interiores de Amazon KDP y para las miniaturas de productos. Ambos formatos se incluyen con cada descarga.',
+      answer: 'Cada generador produce archivos PDF listos para imprimir y archivos JPEG de alta resolución. PDF es el formato estándar para productos imprimibles en Etsy y Hotmart. JPEG se usa para las páginas interiores de Amazon KDP y para las miniaturas de productos. Ambos formatos se incluyen con cada descarga.',
     },
     {
       question: '¿Cuál es la política de reembolso para las licencias comerciales?',

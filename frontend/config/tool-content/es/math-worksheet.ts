@@ -2,30 +2,30 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'generador acertijos algebraicos',
+    primaryKeyword: 'generador de fichas de matematicas gratis',
     secondaryKeywords: [
-      'crear puzzles de álgebra con imágenes para vender',
-      'generador de fichas de álgebra visual imprimibles',
-      'puzzles de álgebra con imágenes uso comercial',
-      'acertijos algebraicos visuales para KDP',
+      'fichas de matematicas gratis sin registro',
+      'generador de ejercicios de mates gratis en linea',
+      'fichas de calculo gratis para imprimir',
+      'hojas de matematicas gratis sin tarjeta de credito',
     ],
     lsiKeywords: [
-      'fichas de álgebra visual con imágenes para Etsy',
-      'herramienta de puzzles de ecuaciones con imágenes',
-      'generador de actividades de álgebra con incógnitas visuales',
+      'ejercicios de suma resta multiplicacion division',
+      'fichas de matematicas para primaria imprimibles',
+      'generador de operaciones matematicas con respuestas',
     ],
-    titleTag: 'Generador Acertijos Algebraicos | para Vender',
-    metaDescription: 'Genera puzzles de álgebra donde imágenes reemplazan variables en ecuaciones. Cuatro niveles de dificultad, solución única garantizada. Prueba gratuita.',
+    titleTag: 'Generador de fichas de mates gratis | LCS',
+    metaDescription: 'Genere fichas de matematicas gratis: sumas, restas, multiplicaciones y divisiones. Sin registro, sin tarjeta. Pase a licencia comercial para vender.',
   },
 
   hero: {
-    title: 'Generador de Acertijos Algebraicos',
-    tagline: 'Crea puzzles de álgebra visual con imágenes como variables en menos de 60 segundos',
-    description: 'Supera las fichas de aritmética estándar con puzzles de álgebra con imágenes que desafían a los usuarios a pensar en sistemas de ecuaciones. Cada ficha presenta un conjunto de ecuaciones enlazadas donde las imágenes reemplazan a las variables desconocidas — los usuarios deben determinar el valor numérico que representa cada imagen. Cuatro niveles de dificultad escalan desde dos símbolos con suma sencilla hasta cuatro incógnitas simultáneas con operaciones mixtas. Un solucionador algebraico integrado garantiza que cada puzzle tiene exactamente una solución correcta — sin ambigüedad, sin adivinanzas. Elige Solo Suma para práctica enfocada o Suma y Resta para resolución avanzada de problemas. Configura el rango numérico, activa los resultados negativos para usuarios avanzados y controla los puzzles por página de 1 a 6 con ajuste de diseño automático. Selecciona imágenes individualmente, carga un tema completo o sube tu propio PNG o JPEG para puzzles personalizados. Como los puzzles usan solo imágenes y números, funcionan de forma idéntica en cualquier idioma — vende el mismo PDF en todo el mundo sin traducción. Descarga como PDF listo para imprimir o JPEG de alta resolución. La prueba gratuita incluye una marca de agua en las descargas. Compra una licencia para eliminar la marca de agua y vender con uso comercial.',
+    title: 'Genere fichas de matematicas gratis en segundos',
+    tagline: 'Todas las operaciones basicas en un solo generador — gratis y sin registro.',
+    description: 'Cree fichas de matematicas gratis que cubren sumas, restas, multiplicaciones y divisiones. Este generador le permite configurar el rango de numeros, la cantidad de problemas por pagina y el tipo de operacion. Cada ficha incluye solucionario automatico y se exporta en PDF de alta calidad. No necesita crear una cuenta ni introducir tarjeta de credito — empiece a generar fichas de inmediato. Las descargas incluyen marca de agua para uso de prueba. Perfecto para padres que quieren material de practica y educadores que necesitan fichas rapidas. ¿Quiere vender fichas de matematicas? Pase a la licencia comercial para archivos sin marca de agua a 300 DPI.',
   },
 
   tutorial: {
-    title: 'Cómo Crear Acertijos Algebraicos en 8 Pasos Sencillos',
+    title: 'Como crear fichas de matematicas gratis en 3 minutos',
     steps: [
       {
         title: 'Abrir el Generador de Fichas',
@@ -65,7 +65,7 @@ const content: ToolContent = {
   whatYouCanCreate: [
     {
       title: 'Packs de Álgebra Visual Temáticos',
-      description: 'Crea conjuntos de 15 a 20 puzzles de álgebra con imágenes usando símbolos temáticos de la biblioteca — dinosaurios, espacio, animales, vehículos. Cada puzzle usa imágenes diferentes como variables con dificultad uniforme. Agrúpalos por tema y véndelos en Etsy o Gumroad. El formato de álgebra visual es genuinamente único y hace que la miniatura de tu listing destaque al instante frente a fichas de matemáticas estándar. Los packs temáticos también fomentan compras repetidas porque los compradores que disfrutan un tema suelen volver por otros, generando lealtad a largo plazo para tu tienda.',
+      description: 'Crea conjuntos de 15 a 20 puzzles de álgebra con imágenes usando símbolos temáticos de la biblioteca — dinosaurios, espacio, animales, vehículos. Cada puzzle usa imágenes diferentes como variables con dificultad uniforme. Agrúpalos por tema y véndelos en Etsy o Hotmart. El formato de álgebra visual es genuinamente único y hace que la miniatura de tu listing destaque al instante frente a fichas de matemáticas estándar. Los packs temáticos también fomentan compras repetidas porque los compradores que disfrutan un tema suelen volver por otros, generando lealtad a largo plazo para tu tienda.',
     },
     {
       title: 'Cuadernos Progresivos de Álgebra para KDP',
@@ -73,7 +73,7 @@ const content: ToolContent = {
     },
     {
       title: 'Conjuntos Diferenciados para venta en línea',
-      description: 'Genera cuatro versiones del mismo puzzle temático en cada nivel de dificultad: Muy Fácil, Fácil, Intermedio y Difícil. Los vendedores entregan la versión adecuada a cada usuario según su capacidad. Todas las versiones usan el mismo tema de imágenes para que los usuarios se sientan incluidos en lugar de señalados. Véndelos como un pack diferenciado a un precio premium en Gumroad.',
+      description: 'Genera cuatro versiones del mismo puzzle temático en cada nivel de dificultad: Muy Fácil, Fácil, Intermedio y Difícil. Los vendedores entregan la versión adecuada a cada usuario según su capacidad. Todas las versiones usan el mismo tema de imágenes para que los usuarios se sientan incluidos en lugar de señalados. Véndelos como un pack diferenciado a un precio premium en Hotmart.',
     },
     {
       title: 'Puzzles Personalizados con Imagen Propia',
@@ -81,7 +81,7 @@ const content: ToolContent = {
     },
     {
       title: 'Packs de Álgebra Estacionales',
-      description: 'Usa temas de imágenes festivas y estacionales para crear packs de edición limitada. Un pack de \"Puzzles de Álgebra de Navidad\" con símbolos navideños se vende muy bien en noviembre y diciembre. Halloween, San Valentín y la vuelta al cole tienen sus propias ventanas de ventas pico en Etsy y Gumroad. El formato algebraico añade dificultad percibida y valor sobre la aritmética simple.',
+      description: 'Usa temas de imágenes festivas y estacionales para crear packs de edición limitada. Un pack de \"Puzzles de Álgebra de Navidad\" con símbolos navideños se vende muy bien en noviembre y diciembre. Halloween, San Valentín y la vuelta al cole tienen sus propias ventanas de ventas pico en Etsy y Hotmart. El formato algebraico añade dificultad percibida y valor sobre la aritmética simple.',
     },
     {
       title: 'Packs de Muestrario con Dificultad Mixta',
@@ -101,14 +101,14 @@ const content: ToolContent = {
       platform: 'Amazon KDP',
     },
     {
-      title: 'Packs Premium de Álgebra en Gumroad',
-      description: 'Sube packs diferenciados de puzzles de álgebra a Gumroad. Los vendedores buscan constantemente \"fichas de álgebra\" y \"puzzles de matemáticas\". Incluye los cuatro niveles de dificultad, ambos modos de operación, claves de respuestas y una guía vendedor explicando cómo funciona el formato de álgebra visual. La función de solución única garantizada añade credibilidad que los vendedores valoran al elegir materiales para venta en línea. Incluir una guía de uso que mapee cada nivel de dificultad a estándares de grado específicos ayuda a los vendedores a justificar la compra y aumenta las reseñas positivas.',
-      platform: 'Gumroad',
+      title: 'Packs Premium de Álgebra en Hotmart',
+      description: 'Sube packs diferenciados de puzzles de álgebra a Hotmart. Los vendedores buscan constantemente \"fichas de álgebra\" y \"puzzles de matemáticas\". Incluye los cuatro niveles de dificultad, ambos modos de operación, claves de respuestas y una guía vendedor explicando cómo funciona el formato de álgebra visual. La función de solución única garantizada añade credibilidad que los vendedores valoran al elegir materiales para venta en línea. Incluir una guía de uso que mapee cada nivel de dificultad a estándares de grado específicos ayuda a los vendedores a justificar la compra y aumenta las reseñas positivas.',
+      platform: 'Hotmart',
     },
     {
-      title: 'Kits de Desafío Matemático en Gumroad',
-      description: 'Crea un kit premium de puzzles en Gumroad que incluya más de 40 puzzles de álgebra en dificultad Intermedio y Difícil. Dirígete a emprendedores y tutores de matemáticas que buscan materiales estimulantes y atractivos. Incluye una guía para padres explicando cómo cada nivel de dificultad se mapea a conceptos de álgebra apropiados para cada grado. El formato visual hace accesible el álgebra abstracta para usuarios más jóvenes.',
-      platform: 'Gumroad',
+      title: 'Kits de Desafío Matemático en Hotmart',
+      description: 'Crea un kit premium de puzzles en Hotmart que incluya más de 40 puzzles de álgebra en dificultad Intermedio y Difícil. Dirígete a emprendedores y tutores de matemáticas que buscan materiales estimulantes y atractivos. Incluye una guía para padres explicando cómo cada nivel de dificultad se mapea a conceptos de álgebra apropiados para cada grado. El formato visual hace accesible el álgebra abstracta para usuarios más jóvenes.',
+      platform: 'Hotmart',
     },
     {
       title: 'Embudo de Puzzles de Álgebra en Pinterest',
@@ -129,7 +129,7 @@ const content: ToolContent = {
     },
     {
       title: 'Usa Operaciones Mixtas para Mayor Variedad',
-      description: 'El modo Suma y Resta crea puzzles que requieren estrategias de resolución diferentes dentro de la misma ficha. Esto evita que los usuarios caigan en un patrón repetitivo y evalúa ambas habilidades simultáneamente. Los puzzles con operaciones mixtas también tienen mayor valor percibido en los listings de marketplaces porque cubren más contenido de productos. En Etsy y Gumroad, etiquetar tu listing como \"operaciones mixtas\" captura tráfico de búsqueda de vendedores que buscan específicamente materiales de repaso que abarquen varias habilidades matemáticas en una sola actividad.',
+      description: 'El modo Suma y Resta crea puzzles que requieren estrategias de resolución diferentes dentro de la misma ficha. Esto evita que los usuarios caigan en un patrón repetitivo y evalúa ambas habilidades simultáneamente. Los puzzles con operaciones mixtas también tienen mayor valor percibido en los listings de marketplaces porque cubren más contenido de productos. En Etsy y Hotmart, etiquetar tu listing como \"operaciones mixtas\" captura tráfico de búsqueda de vendedores que buscan específicamente materiales de repaso que abarquen varias habilidades matemáticas en una sola actividad.',
     },
     {
       title: 'Sube Imágenes Propias para Reconocimiento de Marca',
@@ -149,7 +149,7 @@ const content: ToolContent = {
     },
     {
       title: 'Incluye Siempre la Clave de Respuestas',
-      description: 'Genera la clave de respuestas antes de descargar tus fichas. La clave muestra el valor numérico de cada símbolo de imagen y el sistema de ecuaciones completamente resuelto. Los compradores en Etsy y Gumroad califican sistemáticamente mejor los productos que incluyen clave de respuestas — ahorra valor percibido a los vendedores y da confianza a los padres sobre la solución.',
+      description: 'Genera la clave de respuestas antes de descargar tus fichas. La clave muestra el valor numérico de cada símbolo de imagen y el sistema de ecuaciones completamente resuelto. Los compradores en Etsy y Hotmart califican sistemáticamente mejor los productos que incluyen clave de respuestas — ahorra valor percibido a los vendedores y da confianza a los padres sobre la solución.',
     },
   ],
 
@@ -192,7 +192,7 @@ const content: ToolContent = {
     },
     {
       question: '¿Puedo usar las fichas con fines comerciales?',
-      answer: 'La prueba gratuita con marca de agua es solo para uso personal y educativo. Para vender fichas en Etsy, Gumroad, Amazon KDP o cualquier otro marketplace, necesitas una licencia comercial. La licencia comercial elimina la marca de agua y otorga derechos completos de reventa para las fichas que crees.',
+      answer: 'La prueba gratuita con marca de agua es solo para uso personal y educativo. Para vender fichas en Etsy, Hotmart, Amazon KDP o cualquier otro marketplace, necesitas una licencia comercial. La licencia comercial elimina la marca de agua y otorga derechos completos de reventa para las fichas que crees.',
     },
     {
       question: '¿Cuál es su política de reembolso?',

@@ -2,30 +2,30 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'generador fichas de asociación',
+    primaryKeyword: 'generador de fichas de asociacion gratis',
     secondaryKeywords: [
-      'creador de fichas de asociación trazando líneas para vendedores',
-      'crear fichas de asociación para vender uso comercial',
-      'generador de fichas de emparejar imágenes imprimibles para KDP y Etsy',
-      'herramienta de fichas para relacionar con clave de respuestas automática',
+      'fichas de asociacion gratis sin registro',
+      'generador de fichas de emparejar gratis en linea',
+      'fichas de asociacion gratis para imprimir',
+      'hojas de emparejar imagenes gratis sin tarjeta',
     ],
     lsiKeywords: [
-      'generador de fichas de asociación con cuatro modos',
-      'clave de respuestas automática con líneas de conexión',
-      'creador de fichas de letra inicial imagen y palabra',
+      'actividades de asociacion visual para preescolar',
+      'fichas de emparejar imagenes y palabras',
+      'hojas de trabajo de conexion imprimibles',
     ],
-    titleTag: 'Generador Fichas de Asociación | para Vender',
-    metaDescription: 'Crea fichas de asociación con 4 modos, clave de respuestas automática con líneas, pares configurables, 11 idiomas y 104 temas. Prueba gratuita con marca.',
+    titleTag: 'Fichas de asociacion gratis | LCS',
+    metaDescription: 'Cree fichas de asociacion gratis con imagenes tematicas. Empareje imagenes con palabras. Sin registro, sin tarjeta. Licencia comercial para vender.',
   },
 
   hero: {
-    title: 'Generador de Fichas de Asociación',
-    tagline: 'Generador de fichas de asociación trazando líneas con cuatro modos — Letra Inicial, Imagen y Palabra, Mixto y Palabra Personalizada — claves de respuestas autogeneradas con líneas de conexión, pares configurables, encabezado localizado ¡Relaciona! en 11 idiomas y 104 colecciones temáticas de imágenes para fichas de asociación que se venden en todo el mundo',
-    description: 'Crea fichas profesionales de asociación trazando líneas donde los usuarios conectan pares dibujando líneas entre dos columnas — con cuatro modos de asociación distintos en un solo generador. El modo Letra Inicial coloca imágenes a la izquierda y sus primeras letras a la derecha, con tres sub-modos: Tema e Imágenes Aleatorios selecciona un tema e imágenes automáticamente, Aleatorio del Tema Elegido te permite elegir el tema, y Seleccionar Imágenes Específicas te da control manual sobre cada imagen. Alterna entre mayúsculas o minúsculas para fichas apropiadas según la edad. El modo Imagen y Palabra muestra pares de imágenes etiquetadas en ambos lados para refuerzo de vocabulario. El modo Imagen/Palabra Mixto usa selectores desplegables por fila para que cada lado muestre independientemente una imagen o una palabra, creando dificultad variada dentro de una sola ficha. El modo Palabra Personalizada empareja imágenes con tus propios términos escritos para práctica de ortografía, ejercicios de vocabulario o ejercicios de idiomas extranjeros. Configura 4, 5 o 6 pares por ficha (por defecto 6) para controlar la dificultad y densidad visual. Activa los números de elementos (por defecto activado) para añadir numerales antes de cada par y muestra puntos decorativos (por defecto activado) para formato decorativo — ambos controlables independientemente. Cada ficha incluye un encabezado autogenerado localizado "¡Relaciona!" con fondo de pastilla amarilla (#FFD700), marco de borde coral (#FF7F50, trazo de 8px), título en Fredoka (700) y descripción en Quicksand (500), traducido automáticamente a los 11 idiomas soportados. El sistema de lienzo dual genera simultáneamente una pestaña de ficha y una pestaña de clave de respuestas — la clave de respuestas dibuja líneas de conexión horizontales (#555, ancho de trazo 2) entre los pares correctos para que nunca la crees manualmente. Este generador es sensible al idioma: los modos Letra Inicial e Imagen y Palabra usan nombres de imágenes localizados, por lo que cambiar el idioma cambia las palabras y primeras letras en la ficha. Navega 104 colecciones temáticas con más de 3.100 ilustraciones. Aplica fondos temáticos y bordes temáticos con controles de opacidad independientes (0–1, paso 0,05). Añade campos de nombre y fecha con una sola casilla de verificación. Exporta cuatro archivos por sesión: ficha JPEG, ficha PDF, clave de respuestas JPEG y clave de respuestas PDF — todo a 300 DPI. Elige Carta, A4, Cuadrado (1200×1200) o tamaños personalizados con opción de escala de grises para salida con ahorro de tinta. Edita todo en el lienzo de Fabric.js con 7 fuentes, contorno de texto 0–10, herramientas de alineación, capas, bloqueo/desbloqueo, zoom 25%–300% y deshacer/rehacer 20 estados. La prueba gratuita incluye todas las funciones con una marca de agua en las descargas. Compra una licencia para eliminar la marca de agua y vender con uso comercial.',
+    title: 'Cree fichas de asociacion gratis con imagenes',
+    tagline: 'Fichas de emparejar ilustradas listas en segundos — gratis y sin registro.',
+    description: 'Cree fichas de asociacion gratis donde los ninos emparejan imagenes con palabras, numeros u otras imagenes. Este generador produce fichas de asociacion visual con imagenes tematicas de mas de 100 categorias. Seleccione el tipo de asociacion, el nivel de dificultad y el tema visual. Cada ficha incluye solucionario automatico y se exporta en PDF listo para imprimir. No necesita registro ni tarjeta de credito — acceda a todas las funciones al instante. Las descargas incluyen marca de agua transparente. Perfecto para padres y educadores de preescolar y primaria. ¿Quiere vender fichas de asociacion? Pase a la licencia comercial para PDFs sin marca de agua a 300 DPI.',
   },
 
   tutorial: {
-    title: 'Cómo Crear Fichas de Asociación en 8 Pasos',
+    title: 'Como crear fichas de asociacion gratis en 3 pasos',
     steps: [
       {
         title: 'Abre el Generador de Fichas de Asociación',
@@ -57,7 +57,7 @@ const content: ToolContent = {
       },
       {
         title: 'Descarga los Cuatro Archivos',
-        description: 'Activa la escala de grises para versiones con ahorro de tinta ideales para impresión en volumen e interiores de KDP. Descarga los cuatro archivos desde una sola sesión: ficha JPEG, ficha PDF, clave de respuestas JPEG y clave de respuestas PDF — todo renderizado a 300 DPI. Cada pestaña tiene su propio par de botones de descarga. Los archivos están listos para producción en listados de Etsy, interiores de Amazon KDP y archivos de productos de Gumroad sin necesidad de posprocesamiento. Cambia el idioma para generar versiones localizadas de la misma actividad de asociación — los modos Letra Inicial e Imagen y Palabra producen diferentes palabras y letras en cada idioma, multiplicando tu catálogo de productos desde una sola sesión de diseño.',
+        description: 'Activa la escala de grises para versiones con ahorro de tinta ideales para impresión en volumen e interiores de KDP. Descarga los cuatro archivos desde una sola sesión: ficha JPEG, ficha PDF, clave de respuestas JPEG y clave de respuestas PDF — todo renderizado a 300 DPI. Cada pestaña tiene su propio par de botones de descarga. Los archivos están listos para producción en listados de Etsy, interiores de Amazon KDP y archivos de productos de Hotmart sin necesidad de posprocesamiento. Cambia el idioma para generar versiones localizadas de la misma actividad de asociación — los modos Letra Inicial e Imagen y Palabra producen diferentes palabras y letras en cada idioma, multiplicando tu catálogo de productos desde una sola sesión de diseño.',
       },
     ],
   },
@@ -73,7 +73,7 @@ const content: ToolContent = {
     },
     {
       title: 'Actividades de Asociación para Centros del mercado',
-      description: 'Crea fichas de asociación listas para centros del mercado con campos de nombre/fecha, números de elementos y claves de respuestas impresas que los compradores de Gumroad buscan específicamente. El campo de nombre asegura la responsabilidad del usuario, los números de elementos hacen eficiente la verificación de respuestas durante la revisión en grupo y la clave de respuestas autogenerada ahorra tiempo de preparación del vendedor. Crea sets alineados con el catálogo de productos: asociación de ayudantes de la comunidad, asociación de grupos de alimentos, asociación de vocabulario del clima y asociación de animales por hábitat. Los vendedores valoran actividades de asociación que llegan listas para usar sin formato adicional necesario.',
+      description: 'Crea fichas de asociación listas para centros del mercado con campos de nombre/fecha, números de elementos y claves de respuestas impresas que los compradores de Hotmart buscan específicamente. El campo de nombre asegura la responsabilidad del usuario, los números de elementos hacen eficiente la verificación de respuestas durante la revisión en grupo y la clave de respuestas autogenerada ahorra tiempo de preparación del vendedor. Crea sets alineados con el catálogo de productos: asociación de ayudantes de la comunidad, asociación de grupos de alimentos, asociación de vocabulario del clima y asociación de animales por hábitat. Los vendedores valoran actividades de asociación que llegan listas para usar sin formato adicional necesario.',
     },
     {
       title: 'Colecciones de Asociación de Vocabulario Multilingüe',
@@ -101,24 +101,24 @@ const content: ToolContent = {
       platform: 'Amazon KDP',
     },
     {
-      title: 'Paquetes de Actividades de Asociación para Centros en Gumroad',
-      description: 'Sube paquetes de actividades de asociación para centros a Gumroad con campos de nombre/fecha, números de elementos y claves de respuestas autogeneradas como puntos de venta principales. Los vendedores que buscan actividades para centros de asociación valoran fichas que llegan listas para venta en línea con identificación del usuario y soluciones integradas. Organiza por tema de productos: asociación de ayudantes de la comunidad, asociación de grupos de alimentos, asociación de vocabulario del clima y asociación de animales por hábitat. Cada ficha incluye su propia clave de respuestas con líneas de conexión, eliminando el tiempo de preparación del vendedor. El encabezado localizado ¡Relaciona! se adapta a 11 idiomas para tiendas bilingües e internacionales.',
-      platform: 'Gumroad',
+      title: 'Paquetes de Actividades de Asociación para Centros en Hotmart',
+      description: 'Sube paquetes de actividades de asociación para centros a Hotmart con campos de nombre/fecha, números de elementos y claves de respuestas autogeneradas como puntos de venta principales. Los vendedores que buscan actividades para centros de asociación valoran fichas que llegan listas para venta en línea con identificación del usuario y soluciones integradas. Organiza por tema de productos: asociación de ayudantes de la comunidad, asociación de grupos de alimentos, asociación de vocabulario del clima y asociación de animales por hábitat. Cada ficha incluye su propia clave de respuestas con líneas de conexión, eliminando el tiempo de preparación del vendedor. El encabezado localizado ¡Relaciona! se adapta a 11 idiomas para tiendas bilingües e internacionales.',
+      platform: 'Hotmart',
     },
     {
       title: 'Embudo de Tráfico con Fichas de Asociación en Pinterest',
-      description: 'Las fichas de asociación con su formato de dos columnas para trazar líneas crean pines visualmente distintivos en Pinterest — el diseño estructurado con imágenes coloridas, números de elementos y el encabezado ¡Relaciona! crea un formato educativo inmediatamente reconocible. Publica fichas de muestra mostrando diferentes modos: Letra Inicial para pines de fonética, Imagen y Palabra para pines de vocabulario, Palabra Personalizada para pines de ortografía. Crea series de pines separadas para "fichas de asociación de animales", "actividades de asociación de festividades" y "fichas de alfabetización temprana". Enlaza cada pin a tus listados de productos en Etsy o Gumroad.',
+      description: 'Las fichas de asociación con su formato de dos columnas para trazar líneas crean pines visualmente distintivos en Pinterest — el diseño estructurado con imágenes coloridas, números de elementos y el encabezado ¡Relaciona! crea un formato educativo inmediatamente reconocible. Publica fichas de muestra mostrando diferentes modos: Letra Inicial para pines de fonética, Imagen y Palabra para pines de vocabulario, Palabra Personalizada para pines de ortografía. Crea series de pines separadas para "fichas de asociación de animales", "actividades de asociación de festividades" y "fichas de alfabetización temprana". Enlaza cada pin a tus listados de productos en Etsy o Hotmart.',
       platform: 'Pinterest',
     },
     {
-      title: 'Kit Completo de Actividades de Asociación en Gumroad',
-      description: 'Agrupa fichas de asociación de los cuatro modos y los 104 temas en un kit integral de actividades de asociación en Gumroad. Incluye más de 300 fichas cubriendo todos los temas principales, cada una con su clave de respuestas autogenerada — más de 600 archivos en total. La variedad de cuatro modos es el diferenciador clave: fichas de Letra Inicial para fonética, Imagen y Palabra para vocabulario, Mixto para dificultad flexible y Palabra Personalizada para contenido personalizado. El formato de kit justifica precios premium porque los compradores obtienen una biblioteca completa en lugar de paquetes individuales.',
-      platform: 'Gumroad',
+      title: 'Kit Completo de Actividades de Asociación en Hotmart',
+      description: 'Agrupa fichas de asociación de los cuatro modos y los 104 temas en un kit integral de actividades de asociación en Hotmart. Incluye más de 300 fichas cubriendo todos los temas principales, cada una con su clave de respuestas autogenerada — más de 600 archivos en total. La variedad de cuatro modos es el diferenciador clave: fichas de Letra Inicial para fonética, Imagen y Palabra para vocabulario, Mixto para dificultad flexible y Palabra Personalizada para contenido personalizado. El formato de kit justifica precios premium porque los compradores obtienen una biblioteca completa en lugar de paquetes individuales.',
+      platform: 'Hotmart',
     },
     {
       title: 'Línea de Productos de Asociación Multilingüe',
       description: 'El Generador de Fichas de Asociación es sensible al idioma — los modos Letra Inicial e Imagen y Palabra producen palabras y letras localizadas cuando cambias de idioma. Las mismas imágenes de animales generan asociación en español (G para Gato), asociación en inglés (C para Cat), asociación en alemán (K para Katze), asociación en francés (C para Chat) y así sucesivamente en los 11 idiomas. Crea paquetes de asociación específicos por idioma para cada mercado o mega-paquetes multilingües a precios premium. Vendedores de ESL/EFL, tiendas bilingües y familias de trabajo desde casa internacionales buscan activamente fichas de asociación en su idioma nativo.',
-      platform: 'Etsy / Gumroad',
+      platform: 'Etsy / Hotmart',
     },
   ],
 
@@ -149,7 +149,7 @@ const content: ToolContent = {
     },
     {
       title: 'Incluye Campos de Nombre/Fecha para Productos listos para vender',
-      description: 'La casilla de verificación que añade campos "Nombre: ____" y "Fecha: ____" transforma fichas de asociación de imprimibles genéricos en actividades estructuradas para venta en línea. Los vendedores en Gumroad buscan específicamente recursos "listos para vender" e "imprimir y usar" de asociación con áreas de identificación del usuario. Combinados con números de elementos para verificación eficiente de respuestas, estas funciones de formato hacen que tus fichas de asociación sean inmediatamente utilizables en entornos del mercado sin preparación adicional del vendedor.',
+      description: 'La casilla de verificación que añade campos "Nombre: ____" y "Fecha: ____" transforma fichas de asociación de imprimibles genéricos en actividades estructuradas para venta en línea. Los vendedores en Hotmart buscan específicamente recursos "listos para vender" e "imprimir y usar" de asociación con áreas de identificación del usuario. Combinados con números de elementos para verificación eficiente de respuestas, estas funciones de formato hacen que tus fichas de asociación sean inmediatamente utilizables en entornos del mercado sin preparación adicional del vendedor.',
     },
   ],
 
@@ -192,7 +192,7 @@ const content: ToolContent = {
     },
     {
       question: '¿Puedo vender fichas de asociación creadas con esta herramienta de forma comercial?',
-      answer: 'Sí. Con una licencia comercial, tienes derechos completos para vender fichas de asociación como descargas digitales en Etsy, cuadernos impresos de alfabetización en Amazon KDP, recursos para venta en línea en Gumroad o a través de cualquier otro canal de venta. Los cuatro modos de asociación, las claves de respuestas autogeneradas con líneas de conexión, los pares configurables y las 104 colecciones temáticas de imágenes te dan todo lo necesario para crear productos profesionales que compiten en categorías de actividades de asociación en todos los principales mercados.',
+      answer: 'Sí. Con una licencia comercial, tienes derechos completos para vender fichas de asociación como descargas digitales en Etsy, cuadernos impresos de alfabetización en Amazon KDP, recursos para venta en línea en Hotmart o a través de cualquier otro canal de venta. Los cuatro modos de asociación, las claves de respuestas autogeneradas con líneas de conexión, los pares configurables y las 104 colecciones temáticas de imágenes te dan todo lo necesario para crear productos profesionales que compiten en categorías de actividades de asociación en todos los principales mercados.',
     },
     {
       question: '¿Cuál es la política de reembolso?',

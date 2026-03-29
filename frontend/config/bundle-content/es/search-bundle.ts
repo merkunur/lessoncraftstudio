@@ -2,27 +2,26 @@ import type { BundleContent } from '../types';
 
 const content: BundleContent = {
   seo: {
-    primaryKeyword: 'paquete fichas búsqueda',
+    primaryKeyword: 'paquete busca y encuentra para vendedores',
     secondaryKeywords: [
-      'paquete de generadores de fichas de búsqueda para vendedores',
-      'kit de fichas I Spy objetos ocultos uso comercial',
-      'generador de crucigramas y búsqueda del tesoro para Etsy',
-      'generadores de fichas de buscar y encontrar para vendedores KDP',
+      'paquete generadores fichas de búsqueda para Etsy',
+      'kit sopas de letras y busca objetos KDP',
+      'fichas de búsqueda visual licencia comercial',
+      'herramientas busca y encuentra negocio imprimibles',
     ],
     lsiKeywords: [
-      'paquete de fichas de objetos ocultos I Spy crucigramas y búsqueda del tesoro',
-      'colección de fichas de actividades de búsqueda multilingüe',
-      'licencia comercial fichas de descubrimiento',
-      'herramienta de creación masiva de fichas de búsqueda',
+      'ahorro paquete búsqueda versus compra individual',
+      'variedad fichas buscar encontrar contar Etsy KDP',
+      'licencia comercial fichas búsqueda múltiples plataformas',
     ],
-    titleTag: 'Paquete Fichas Búsqueda | Crear y Vender',
-    metaDescription: 'Paquete con 4 generadores de búsqueda: I Spy, objetos ocultos, crucigramas con imágenes y búsqueda del tesoro. Vende en Etsy, KDP y Gumroad con licencia.',
+    titleTag: 'Paquete busca y encuentra | LCS',
+    metaDescription: 'Paquete de generadores de fichas de búsqueda para vender en Etsy y KDP. Sopas de letras, busca objetos y crucigramas. Licencia comercial incluida.',
   },
 
   hero: {
-    title: 'Paquete Búsqueda y Descubrimiento',
-    tagline: 'Cuatro generadores de actividades de descubrimiento — escenas I Spy, objetos ocultos, crucigramas con imágenes y búsquedas del tesoro en cada ficha',
-    description: 'El Paquete de Búsqueda y Descubrimiento es el paquete con mayor riqueza lingüística de toda la colección. Tres de las cuatro apps producen fichas sensibles al idioma — las etiquetas de imágenes y los alfabetos específicos por idioma en Buscar y Contar, las palabras traducidas de los puzzles en Crucigramas y las pistas direccionales completamente localizadas en Búsqueda del Tesoro. Esta profundidad multilingüe es una ventaja competitiva genuina para vendedores que apuntan a mercados no anglófonos, porque cada ficha traducida se convierte en un listado de producto único con prácticamente cero competencia. El paquete reúne cuatro formatos de actividad genuinamente diferentes bajo un mismo tema de \"buscar y descubrir\": escenas I Spy de objetos ocultos donde los usuarios localizan y cuentan elementos específicos, fichas de objetos ocultos puramente visuales con generación de escenas sin superposición, cuadrículas de crucigramas de 15×15 con pistas basadas en imágenes en lugar de definiciones de texto, y búsquedas del tesoro en cuadrículas de coordenadas con movimientos direccionales secuenciales. Los cuatro generadores producen claves de respuesta automáticas — cobertura de claves de respuesta del 100% en todo el paquete. Buscar y Contar ofrece dos modos de búsqueda: escenas I Spy de Objetos Ocultos con tamaños de cuadrícula configurables desde 5×5 hasta 10×10, y un modo de Búsqueda de Letras que usa alfabetos específicos por idioma incluyendo diéresis alemanas, caracteres acentuados del español y letras especiales escandinavas. Buscar Objetos proporciona fichas de objetos ocultos puramente visuales con colocación inteligente sin superposición y dimensionado adaptativo de imágenes. Crucigramas admite cuatro métodos de entrada — autoselección por tema, edición manual de palabras, listas de palabras personalizadas y carga de imágenes — todo renderizado en una cuadrícula de 15×15 con 8 pistas de imágenes que reemplazan las definiciones de texto tradicionales. Búsqueda del Tesoro coloca puntos de referencia en una cuadrícula de coordenadas de 5×5 etiquetada de la A a la E y del 1 al 5, con exactamente 4 movimientos direccionales secuenciales en modo Básico usando arriba, abajo, izquierda y derecha o modo Cardinal usando norte, sur, este y oeste — todo completamente traducido en 11 idiomas. Elige entre más de 100 conjuntos de imágenes temáticas o sube tus propios archivos PNG y JPEG para productos personalizados y específicos de nicho. Ya sea que vendas libros I Spy en Amazon KDP, publiques paquetes de crucigramas en Etsy o crees actividades de búsqueda del tesoro para Gumroad, este paquete te da cuatro tipos de actividades de búsqueda de alta demanda que los compradores buscan por nombre. Cada generador incluye una prueba gratis con marca de agua para que puedas probar todas las funciones antes de comprar una licencia.',
+    title: 'Paquete de fichas busca y encuentra para vendedores Etsy y KDP',
+    tagline: 'Generadores de fichas de búsqueda en un solo paquete con descuento — sopas de letras, crucigramas y más.',
+    description: 'Lance una línea completa de productos de búsqueda y descubrimiento con este paquete de generadores a precio reducido frente a la compra individual. Incluye sopas de letras, crucigramas, búsqueda de objetos ocultos y variantes de busca y encuentra — las categorías de fichas de búsqueda más demandadas en Etsy y Amazon KDP. Cada generador produce PDFs listos para imprimir a 300 DPI con solucionarios automáticos y la licencia comercial incluida para vender sin restricciones. Los generadores de palabras soportan 11 idiomas con vocabulario nativo y signos diacríticos correctos, lo que le permite crear productos en español, inglés, francés, alemán y más desde el mismo paquete. Combine más de 100 conjuntos de imágenes temáticas para crear cientos de listados únicos por temporada, tema o nivel de dificultad. Las fichas de búsqueda tienen demanda constante todo el año y atraen tanto a padres como a educadores, generando ventas recurrentes en su tienda. Pruebe gratis con marca de agua — sin registro.',
   },
 
   appsIncluded: [
@@ -36,7 +35,7 @@ const content: BundleContent = {
     },
     {
       title: 'Generador de Crucigramas con Imágenes',
-      description: 'Produce crucigramas de 15×15 con pistas basadas en imágenes en lugar de definiciones de texto tradicionales. Ocho imágenes temáticas sirven como pistas — los usuarios identifican cada imagen y escriben la palabra correspondiente en la cuadrícula del crucigrama, combinando reconocimiento visual con práctica de ortografía y vocabulario. Este formato de pistas con imágenes es especialmente efectivo porque funciona para lectores iniciales que todavía no pueden procesar definiciones de texto, al tiempo que proporciona la experiencia satisfactoria de resolver crucigramas que los usuarios mayores y los padres reconocen. Cuatro métodos de entrada te dan control creativo completo: la autoselección por tema extrae palabras de la base de datos de Vocabulario de Imágenes para generación instantánea de puzzles, la edición manual te permite refinar las palabras autoseleccionadas, la lista de palabras personalizada te permite introducir cualquier palabra que elijas, y la carga de imágenes te permite usar tus propios archivos PNG o JPEG como pistas. Las palabras de los puzzles se extraen de la base de datos de Vocabulario de Imágenes y cambian con el idioma seleccionado — un crucigrama en francés usa vocabulario francés, un crucigrama en español usa palabras en español — haciendo que cada versión idiomática sea un producto distinto con su propio mercado. Cada puzzle genera una clave de respuesta automática mostrando la cuadrícula completada. Los crucigramas son una de las categorías de fichas más buscadas en Etsy y Gumroad, y el formato con pistas de imágenes apunta a un público más joven que los crucigramas basados en texto no pueden alcanzar.',
+      description: 'Produce crucigramas de 15×15 con pistas basadas en imágenes en lugar de definiciones de texto tradicionales. Ocho imágenes temáticas sirven como pistas — los usuarios identifican cada imagen y escriben la palabra correspondiente en la cuadrícula del crucigrama, combinando reconocimiento visual con práctica de ortografía y vocabulario. Este formato de pistas con imágenes es especialmente efectivo porque funciona para lectores iniciales que todavía no pueden procesar definiciones de texto, al tiempo que proporciona la experiencia satisfactoria de resolver crucigramas que los usuarios mayores y los padres reconocen. Cuatro métodos de entrada te dan control creativo completo: la autoselección por tema extrae palabras de la base de datos de Vocabulario de Imágenes para generación instantánea de puzzles, la edición manual te permite refinar las palabras autoseleccionadas, la lista de palabras personalizada te permite introducir cualquier palabra que elijas, y la carga de imágenes te permite usar tus propios archivos PNG o JPEG como pistas. Las palabras de los puzzles se extraen de la base de datos de Vocabulario de Imágenes y cambian con el idioma seleccionado — un crucigrama en francés usa vocabulario francés, un crucigrama en español usa palabras en español — haciendo que cada versión idiomática sea un producto distinto con su propio mercado. Cada puzzle genera una clave de respuesta automática mostrando la cuadrícula completada. Los crucigramas son una de las categorías de fichas más buscadas en Etsy y Hotmart, y el formato con pistas de imágenes apunta a un público más joven que los crucigramas basados en texto no pueden alcanzar.',
     },
     {
       title: 'Generador de Fichas de Búsqueda del Tesoro',
@@ -55,15 +54,15 @@ const content: BundleContent = {
     },
     {
       title: 'Cobertura de claves de respuesta del 100%',
-      description: 'Los cuatro generadores producen claves de respuesta automáticas con cada ficha. Buscar y Contar resalta los elementos objetivo y muestra los conteos correctos, Buscar Objetos marca los objetos ocultos y los elementos diferentes, Crucigramas muestra la cuadrícula completada con todas las respuestas y Búsqueda del Tesoro traza la ruta correcta a través de la cuadrícula de coordenadas. Las claves de respuesta son una expectativa principal de los compradores en Etsy y Gumroad, y tenerlas para cada producto del paquete significa que nunca necesitas resolver puzzles manualmente ni crear hojas de soluciones a mano.',
+      description: 'Los cuatro generadores producen claves de respuesta automáticas con cada ficha. Buscar y Contar resalta los elementos objetivo y muestra los conteos correctos, Buscar Objetos marca los objetos ocultos y los elementos diferentes, Crucigramas muestra la cuadrícula completada con todas las respuestas y Búsqueda del Tesoro traza la ruta correcta a través de la cuadrícula de coordenadas. Las claves de respuesta son una expectativa principal de los compradores en Etsy y Hotmart, y tenerlas para cada producto del paquete significa que nunca necesitas resolver puzzles manualmente ni crear hojas de soluciones a mano.',
     },
     {
       title: 'Cuatro formatos de actividad genuinamente diferentes',
-      description: 'A diferencia de paquetes donde las apps comparten un formato común con variaciones menores, este paquete contiene cuatro tipos de actividad fundamentalmente diferentes: escenas de exploración visual, puzzles de palabras, navegación por cuadrículas y descubrimiento de objetos ocultos. Un solo tema genera cuatro tipos de ficha completamente diferentes — un tema de \"Animales\" produce una página I Spy de conteo, una escena de objetos ocultos, un crucigrama con imágenes y una búsqueda del tesoro con coordenadas. Esta variedad es un argumento de venta poderoso para listados de paquetes en Etsy y Gumroad, donde los compradores comparan la diversidad de productos antes de comprar.',
+      description: 'A diferencia de paquetes donde las apps comparten un formato común con variaciones menores, este paquete contiene cuatro tipos de actividad fundamentalmente diferentes: escenas de exploración visual, puzzles de palabras, navegación por cuadrículas y descubrimiento de objetos ocultos. Un solo tema genera cuatro tipos de ficha completamente diferentes — un tema de \"Animales\" produce una página I Spy de conteo, una escena de objetos ocultos, un crucigrama con imágenes y una búsqueda del tesoro con coordenadas. Esta variedad es un argumento de venta poderoso para listados de paquetes en Etsy y Hotmart, donde los compradores comparan la diversidad de productos antes de comprar.',
     },
     {
       title: 'Demanda del mercado I Spy',
-      description: 'Las fichas I Spy y de objetos ocultos están entre los tipos de actividad más buscados en Etsy, Amazon y Gumroad. Padres y vendedores reconocen el formato al instante y lo buscan por nombre — \"fichas I Spy\", \"imprimible de objetos ocultos\", \"actividad de buscar y contar\". Este paquete te da dos generadores I Spy diferentes: Buscar y Contar para escenas I Spy con riqueza lingüística y tareas de conteo, y Buscar Objetos para páginas de objetos ocultos puramente visuales con garantía de cero superposición. Dos generadores apuntando a la misma categoría de alta demanda significa el doble de ángulos de producto y el doble de oportunidades de listado.',
+      description: 'Las fichas I Spy y de objetos ocultos están entre los tipos de actividad más buscados en Etsy, Amazon y Hotmart. Padres y vendedores reconocen el formato al instante y lo buscan por nombre — \"fichas I Spy\", \"imprimible de objetos ocultos\", \"actividad de buscar y contar\". Este paquete te da dos generadores I Spy diferentes: Buscar y Contar para escenas I Spy con riqueza lingüística y tareas de conteo, y Buscar Objetos para páginas de objetos ocultos puramente visuales con garantía de cero superposición. Dos generadores apuntando a la misma categoría de alta demanda significa el doble de ángulos de producto y el doble de oportunidades de listado.',
     },
     {
       title: 'Crucigramas para lectores iniciales',
@@ -91,9 +90,9 @@ const content: BundleContent = {
       platform: 'Etsy (etsy.com)',
     },
     {
-      title: 'Recursos de descubrimiento en Gumroad',
-      description: 'Los compradores de Gumroad valoran la variedad de actividades dentro de un solo paquete de recursos. Empaqueta fichas de los cuatro generadores en paquetes temáticos de descubrimiento: \"Paquete de Exploración Oceánica\" con conteo I Spy, objetos ocultos, crucigramas de vocabulario oceánico y búsquedas del tesoro submarinas. La cobertura de claves de respuesta del 100% cumple con las expectativas de Gumroad para recursos completos y listos para vender. Las apps sensibles al idioma son especialmente valiosas para tiendas bilingües y de ESL — una ficha de Buscar y Contar en español funciona como práctica de vocabulario, y un crucigrama en francés refuerza la ortografía en el idioma objetivo.',
-      platform: 'Gumroad (teacherspayteachers.com)',
+      title: 'Recursos de descubrimiento en Hotmart',
+      description: 'Los compradores de Hotmart valoran la variedad de actividades dentro de un solo paquete de recursos. Empaqueta fichas de los cuatro generadores en paquetes temáticos de descubrimiento: \"Paquete de Exploración Oceánica\" con conteo I Spy, objetos ocultos, crucigramas de vocabulario oceánico y búsquedas del tesoro submarinas. La cobertura de claves de respuesta del 100% cumple con las expectativas de Hotmart para recursos completos y listos para vender. Las apps sensibles al idioma son especialmente valiosas para tiendas bilingües y de ESL — una ficha de Buscar y Contar en español funciona como práctica de vocabulario, y un crucigrama en francés refuerza la ortografía en el idioma objetivo.',
+      platform: 'Hotmart (hotmart.com)',
     },
     {
       title: 'Líneas de productos multilingües',
@@ -127,8 +126,8 @@ const content: BundleContent = {
       description: 'Vendes descargas digitales en Etsy o publicas libros de actividades en Amazon KDP y quieres una forma rápida y confiable de producir fichas profesionales de búsqueda y descubrimiento a escala. El paquete te da cuatro generadores y cientos de combinaciones de temas para construir un catálogo de productos diverso. Las fichas I Spy y de objetos ocultos están entre las categorías de mayor demanda en ambas plataformas — los compradores las buscan por nombre. Las tres apps sensibles al idioma te dan una ventaja única: crea listados de productos en español, francés o alemán con prácticamente cero competencia, mientras que los vendedores que solo producen en inglés no pueden replicar tu catálogo multilingüe.',
     },
     {
-      title: 'Autores de Gumroad',
-      description: 'Creas y vendes recursos educativos en Gumroad y necesitas actividades basadas en descubrimiento que van más allá de las fichas básicas. Los cuatro generadores producen claves de respuesta automáticamente — cumpliendo las expectativas de la plataforma para recursos completos y listos para evaluación. La variedad de actividades te permite crear paquetes temáticos de descubrimiento que combinan conteo I Spy, objetos ocultos, crucigramas y búsquedas del tesoro en paquetes premium de recursos. Las apps sensibles al idioma son especialmente valiosas para recursos del mercados bilingües y de ESL donde tanto la actividad como el vocabulario importan.',
+      title: 'Autores de Hotmart',
+      description: 'Creas y vendes recursos educativos en Hotmart y necesitas actividades basadas en descubrimiento que van más allá de las fichas básicas. Los cuatro generadores producen claves de respuesta automáticamente — cumpliendo las expectativas de la plataforma para recursos completos y listos para evaluación. La variedad de actividades te permite crear paquetes temáticos de descubrimiento que combinan conteo I Spy, objetos ocultos, crucigramas y búsquedas del tesoro en paquetes premium de recursos. Las apps sensibles al idioma son especialmente valiosas para recursos del mercados bilingües y de ESL donde tanto la actividad como el vocabulario importan.',
     },
     {
       title: 'Emprendedores y emprendedores',
@@ -163,11 +162,11 @@ const content: BundleContent = {
     },
     {
       question: '¿Los cuatro generadores incluyen claves de respuesta?',
-      answer: 'Sí. Los cuatro generadores producen claves de respuesta automáticas con cada ficha — cobertura de claves de respuesta del 100% en todo el paquete. Buscar y Contar resalta los elementos objetivo y muestra los conteos correctos, Buscar Objetos marca los objetos ocultos y los elementos diferentes, Crucigramas muestra la cuadrícula completada con todas las respuestas y Búsqueda del Tesoro traza la ruta correcta a través de la cuadrícula de coordenadas. Las claves de respuesta son una expectativa principal de los compradores en Etsy y Gumroad, y nunca necesitas resolver puzzles manualmente.',
+      answer: 'Sí. Los cuatro generadores producen claves de respuesta automáticas con cada ficha — cobertura de claves de respuesta del 100% en todo el paquete. Buscar y Contar resalta los elementos objetivo y muestra los conteos correctos, Buscar Objetos marca los objetos ocultos y los elementos diferentes, Crucigramas muestra la cuadrícula completada con todas las respuestas y Búsqueda del Tesoro traza la ruta correcta a través de la cuadrícula de coordenadas. Las claves de respuesta son una expectativa principal de los compradores en Etsy y Hotmart, y nunca necesitas resolver puzzles manualmente.',
     },
     {
       question: '¿En qué formatos puedo descargar?',
-      answer: 'Cada generador produce archivos PDF listos para imprimir y JPEG de alta resolución. Elige entre Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal, Cuadrado o ingresa un tamaño personalizado. PDF es ideal para paquetes de actividades multipágina en Etsy y Gumroad. JPEG funciona bien para páginas interiores de KDP y vistas previas en redes sociales. Todos los archivos se descargan en resolución de impresión — sin necesidad de escalar ni post-procesar.',
+      answer: 'Cada generador produce archivos PDF listos para imprimir y JPEG de alta resolución. Elige entre Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal, Cuadrado o ingresa un tamaño personalizado. PDF es ideal para paquetes de actividades multipágina en Etsy y Hotmart. JPEG funciona bien para páginas interiores de KDP y vistas previas en redes sociales. Todos los archivos se descargan en resolución de impresión — sin necesidad de escalar ni post-procesar.',
     },
     {
       question: '¿Cuál es la diferencia entre Comercial y Acceso Completo?',

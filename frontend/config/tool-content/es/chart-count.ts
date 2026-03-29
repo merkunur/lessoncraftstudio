@@ -1,30 +1,30 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'crear fichas gráficos de imágenes para venta en línea',
+    primaryKeyword: 'fichas de conteo y graficos gratis',
     secondaryKeywords: [
-      'creador de pictogramas para la clase',
-      'fichas de conteo y gráfico para niños',
-      'fichas de gráficos de datos para la escuela',
-      'actividad gráfico de imágenes para vendedores',
+      'generador de fichas de conteo gratis sin registro',
+      'fichas de graficos y conteo gratis en linea',
+      'hojas de conteo gratis para imprimir',
+      'fichas de graficos de barras gratis para ninos',
     ],
     lsiKeywords: [
-      'cuadrícula de imágenes dispersas para contar',
-      'clave de respuestas automática gráfico pictórico',
-      'ficha representación de datos para venta en línea',
+      'actividades de conteo para preescolar imprimibles',
+      'fichas de graficos para primaria',
+      'hojas de trabajo de datos y conteo',
     ],
-    titleTag: 'Fichas Gráficos de Imágenes — para venta en línea',
-    metaDescription: 'Crea fichas de gráficos pictóricos para venta en línea. Cuadrícula 4x5, 6 tipos de imágenes, clave de respuestas, 11 idiomas. Prueba gratis con marca de agua.',
+    titleTag: 'Fichas de conteo gratis en linea | LCS',
+    metaDescription: 'Cree fichas de conteo y graficos gratis con imagenes tematicas. Sin registro, sin tarjeta. Descarga con marca de agua. Licencia comercial para vender.',
     },
 
   hero: {
-    title: 'Generador de Fichas de Gráficos de Conteo',
-    tagline: 'Generador de fichas de gráficos pictóricos con cuadrículas de imágenes dispersas, claves de respuestas automáticas con gráfico de barras, encabezados localizados en 11 idiomas y 104 colecciones temáticas de imágenes para fichas de representación de datos que se venden en todo el mundo',
-    description: 'Crea fichas profesionales de gráficos pictóricos donde los usuarios cuentan imágenes dispersas y completan un gráfico de barras debajo — enseñando recolección de datos y representación de datos en una sola actividad. Cada ficha presenta una cuadrícula 4×5 con 20 iconos de 6 tipos de imágenes diferentes, cada tipo apareciendo entre 1 y 5 veces en una distribución aleatoria que hace que cada generación sea única. Debajo de la cuadrícula, un gráfico de barras de 6 columnas × 5 filas con columnas etiquetadas por tipo de imagen y filas numeradas del 1 al 5 ofrece a los usuarios un espacio estructurado para registrar sus conteos. La aplicación genera simultáneamente una clave de respuestas en una pestaña de lienzo separada con celdas resaltadas en amarillo (#FFC857) mostrando los conteos correctos, para que los vendedores verifiquen el trabajo del usuario al instante sin contar manualmente. Elige imágenes automáticamente seleccionando un tema del menú desplegable de Fuente de Imágenes — la aplicación selecciona aleatoriamente 6 imágenes de esa colección — o manualmente navega la Biblioteca de Imágenes con más de 3.100 ilustraciones en 104 colecciones temáticas y haz clic en exactamente 6 imágenes con una tira de vista previa. Cada ficha incluye un encabezado autogenerado con un título localizado de "Gráfico Pictórico" e instrucciones de conteo mostrados en una pastilla amarilla estilizada (#FFD93D) con marco de borde naranja, adaptándose automáticamente a los 11 idiomas soportados. Añade campos de nombre y fecha con una sola casilla de verificación (Fredoka 18px #333). Aplica fondos decorativos temáticos y bordes decorativos temáticos con controles de opacidad independientes (0–1, paso 0,05). El Generador de Gráficos de Conteo no depende del idioma — el conteo visual usa números e imágenes universales, haciendo las fichas idénticamente utilizables en todos los idiomas sin modificación. Descarga cuatro archivos por sesión: ficha JPEG, ficha PDF, clave de respuestas JPEG y clave de respuestas PDF — todo a 300 DPI. Exporta en Carta, A4, Cuadrado (1200×1200) o tamaños personalizados con opción de escala de grises para salida con ahorro de tinta. Edita todo en el lienzo completo de Fabric.js con fuentes como Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial y Verdana, ancho de contorno de texto 0–10 con granularidad de 0,5, deshacer/rehacer hasta 20 estados y zoom del 25% al 300%. La prueba gratuita incluye todas las funciones con una marca de agua en las descargas. Compra una licencia para eliminar la marca de agua y vender con uso comercial.',
+    title: 'Cree fichas de conteo y graficos gratis en linea',
+    tagline: 'Fichas de conteo con graficos visuales — gratis y sin registro.',
+    description: 'Cree fichas de conteo y graficos gratis con imagenes tematicas que ensenan a los ninos a contar, clasificar y representar datos visualmente. Este generador produce hojas de trabajo con graficos de barras, pictogramas y tablas de conteo. Seleccione el tema visual de mas de 100 categorias de imagenes y configure el nivel de dificultad. Cada ficha incluye solucionario automatico y se exporta en PDF listo para imprimir. No necesita registro ni tarjeta de credito — acceda a todas las funciones al instante. Las descargas incluyen marca de agua. Ideal para padres y educadores de preescolar y primaria. ¿Quiere vender fichas de conteo? Pase a la licencia comercial para archivos sin marca de agua.',
   },
 
   tutorial: {
-    title: 'Cómo Crear Fichas de Gráficos Pictóricos en 8 Pasos',
+    title: 'Como crear fichas de conteo y graficos gratis',
     steps: [
       {
         title: 'Abre el Generador de Fichas de Gráficos de Conteo',
@@ -56,7 +56,7 @@ const content: ToolContent = {  seo: {
       },
       {
         title: 'Descarga los Cuatro Archivos',
-        description: 'Activa la escala de grises para versiones con ahorro de tinta ideales para impresión en volumen e interiores de KDP. Descarga los cuatro archivos desde una sola sesión: ficha JPEG, ficha PDF, clave de respuestas JPEG y clave de respuestas PDF — todo renderizado a 300 DPI. Cada pestaña tiene su propio par de botones de descarga. Los archivos están listos para producción en listados de Etsy, interiores de Amazon KDP y archivos de productos de Gumroad sin necesidad de posprocesamiento. Repite con diferentes temas de las 104 colecciones disponibles para creación rápida de productos.',
+        description: 'Activa la escala de grises para versiones con ahorro de tinta ideales para impresión en volumen e interiores de KDP. Descarga los cuatro archivos desde una sola sesión: ficha JPEG, ficha PDF, clave de respuestas JPEG y clave de respuestas PDF — todo renderizado a 300 DPI. Cada pestaña tiene su propio par de botones de descarga. Los archivos están listos para producción en listados de Etsy, interiores de Amazon KDP y archivos de productos de Hotmart sin necesidad de posprocesamiento. Repite con diferentes temas de las 104 colecciones disponibles para creación rápida de productos.',
       },
     ],
   },
@@ -100,23 +100,23 @@ const content: ToolContent = {  seo: {
       platform: 'Amazon KDP',
     },
     {
-      title: 'Paquetes de Graficación para Centros de Matemáticas en Gumroad',
-      description: 'Sube paquetes de actividades de gráficos pictóricos a Gumroad con los campos de nombre/fecha como punto de venta principal. Los vendedores que buscan actividades para centros de matemáticas valoran fichas inmediatamente listas para venta en línea con identificación del usuario integrada. Organiza por tema de productos: animales de granja para ciencias de la vida, iconos del clima para ciencias de la tierra, profesiones para estudios sociales. Cada ficha incluye su propia clave de respuestas autogenerada, eliminando el tiempo de preparación del vendedor. El encabezado localizado se adapta a 11 idiomas, haciendo tus productos usables en tiendas bilingües e internacionales.',
-      platform: 'Gumroad',
+      title: 'Paquetes de Graficación para Centros de Matemáticas en Hotmart',
+      description: 'Sube paquetes de actividades de gráficos pictóricos a Hotmart con los campos de nombre/fecha como punto de venta principal. Los vendedores que buscan actividades para centros de matemáticas valoran fichas inmediatamente listas para venta en línea con identificación del usuario integrada. Organiza por tema de productos: animales de granja para ciencias de la vida, iconos del clima para ciencias de la tierra, profesiones para estudios sociales. Cada ficha incluye su propia clave de respuestas autogenerada, eliminando el tiempo de preparación del vendedor. El encabezado localizado se adapta a 11 idiomas, haciendo tus productos usables en tiendas bilingües e internacionales.',
+      platform: 'Hotmart',
     },
     {
       title: 'Embudo de Tráfico con Gráficos Pictóricos en Pinterest',
-      description: 'Las fichas de gráficos pictóricos crean pines visualmente llamativos en Pinterest — la colorida cuadrícula de imágenes dispersas y el gráfico de barras estructurado crean un formato educativo inmediatamente reconocible. Publica fichas de muestra mostrando diferentes temas con la clave de respuestas autogenerada lado a lado. Crea series de pines separadas para "gráficos de conteo de animales", "fichas de graficación de festividades" y "actividades de datos para centros de matemáticas". El formato visual atrae a padres y vendedores en todos los países. Enlaza cada pin a tus listados de productos en Etsy o Gumroad.',
+      description: 'Las fichas de gráficos pictóricos crean pines visualmente llamativos en Pinterest — la colorida cuadrícula de imágenes dispersas y el gráfico de barras estructurado crean un formato educativo inmediatamente reconocible. Publica fichas de muestra mostrando diferentes temas con la clave de respuestas autogenerada lado a lado. Crea series de pines separadas para "gráficos de conteo de animales", "fichas de graficación de festividades" y "actividades de datos para centros de matemáticas". El formato visual atrae a padres y vendedores en todos los países. Enlaza cada pin a tus listados de productos en Etsy o Hotmart.',
       platform: 'Pinterest',
     },
     {
-      title: 'Kit Completo de Graficación en Gumroad',
-      description: 'Agrupa fichas de gráficos pictóricos de los 104 temas en un kit integral de graficación en Gumroad. Incluye más de 200 fichas abarcando todos los temas principales, cada una con su clave de respuestas autogenerada — más de 400 archivos en total. El formato de kit justifica precios premium porque los compradores obtienen una biblioteca completa en lugar de paquetes individuales. Añade nuevas colecciones estacionales trimestralmente para impulsar compras recurrentes. El flujo de cuatro archivos por sesión (ficha JPEG, ficha PDF, clave de respuestas JPEG, clave de respuestas PDF) permite crear todo el kit de forma eficiente y sistemática.',
-      platform: 'Gumroad',
+      title: 'Kit Completo de Graficación en Hotmart',
+      description: 'Agrupa fichas de gráficos pictóricos de los 104 temas en un kit integral de graficación en Hotmart. Incluye más de 200 fichas abarcando todos los temas principales, cada una con su clave de respuestas autogenerada — más de 400 archivos en total. El formato de kit justifica precios premium porque los compradores obtienen una biblioteca completa en lugar de paquetes individuales. Añade nuevas colecciones estacionales trimestralmente para impulsar compras recurrentes. El flujo de cuatro archivos por sesión (ficha JPEG, ficha PDF, clave de respuestas JPEG, clave de respuestas PDF) permite crear todo el kit de forma eficiente y sistemática.',
+      platform: 'Hotmart',
     },
     {
       title: 'Línea de Productos de Conteo Visual Global',
-      description: 'El Generador de Gráficos de Conteo produce fichas de conteo visual donde los usuarios cuentan imágenes y rellenan celdas del gráfico de barras — los números y las imágenes son universales. Los mismos archivos de producto funcionan en todos los países sin traducción ni modificación. Una sesión de creación produce un catálogo globalmente vendible. Vende archivos idénticos en tiendas Etsy dirigidas a diferentes países, publica los mismos interiores de KDP en todos los mercados internacionales de Amazon y lista en Gumroad para vendedores internacionales. Sin listados separados, sin costos de traducción, sin mantenimiento por idioma.',
+      description: 'El Generador de Gráficos de Conteo produce fichas de conteo visual donde los usuarios cuentan imágenes y rellenan celdas del gráfico de barras — los números y las imágenes son universales. Los mismos archivos de producto funcionan en todos los países sin traducción ni modificación. Una sesión de creación produce un catálogo globalmente vendible. Vende archivos idénticos en tiendas Etsy dirigidas a diferentes países, publica los mismos interiores de KDP en todos los mercados internacionales de Amazon y lista en Hotmart para vendedores internacionales. Sin listados separados, sin costos de traducción, sin mantenimiento por idioma.',
       platform: 'Etsy / Amazon KDP',
     },
   ],
@@ -144,11 +144,11 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Incluye Campos de Nombre/Fecha para Productos listos para vender',
-      description: 'La casilla de verificación que añade campos "Nombre: ____" y "Fecha: ____" transforma fichas de gráficos pictóricos de imprimibles genéricos en actividades estructuradas para venta en línea. Los vendedores en Gumroad buscan específicamente recursos "listos para vender" e "imprimir y usar" con áreas de identificación del usuario. Esta adición con un solo clic no requiere esfuerzo extra pero eleva tus productos por encima de competidores que venden fichas sin formato y sin campos para el usuario.',
+      description: 'La casilla de verificación que añade campos "Nombre: ____" y "Fecha: ____" transforma fichas de gráficos pictóricos de imprimibles genéricos en actividades estructuradas para venta en línea. Los vendedores en Hotmart buscan específicamente recursos "listos para vender" e "imprimir y usar" con áreas de identificación del usuario. Esta adición con un solo clic no requiere esfuerzo extra pero eleva tus productos por encima de competidores que venden fichas sin formato y sin campos para el usuario.',
     },
     {
       title: 'Vende Mundialmente sin Trabajo de Traducción',
-      description: 'Las fichas de gráficos pictóricos usan elementos visuales universales — imágenes dispersas que los usuarios cuentan y celdas de gráfico de barras que rellenan con números. No se necesita traducción de texto para que el contenido de la ficha funcione en cualquier idioma. El encabezado localizado traduce automáticamente el título e instrucciones a 11 idiomas cuando cambias la interfaz. Crea un set de fichas y vende los mismos archivos en todas las tiendas internacionales de Etsy, mercados de KDP y Gumroad. Cada ficha que generas sirve instantáneamente a un mercado global sin esfuerzo adicional.',
+      description: 'Las fichas de gráficos pictóricos usan elementos visuales universales — imágenes dispersas que los usuarios cuentan y celdas de gráfico de barras que rellenan con números. No se necesita traducción de texto para que el contenido de la ficha funcione en cualquier idioma. El encabezado localizado traduce automáticamente el título e instrucciones a 11 idiomas cuando cambias la interfaz. Crea un set de fichas y vende los mismos archivos en todas las tiendas internacionales de Etsy, mercados de KDP y Hotmart. Cada ficha que generas sirve instantáneamente a un mercado global sin esfuerzo adicional.',
     },
   ],
 
@@ -187,7 +187,7 @@ const content: ToolContent = {  seo: {
     },
     {
       question: '¿Puedo vender fichas de gráficos pictóricos creadas con esta herramienta de forma comercial?',
-      answer: 'Sí. Con una licencia comercial, tienes derechos completos para vender fichas de gráficos pictóricos como descargas digitales en Etsy, cuadernos impresos de habilidades de datos en Amazon KDP, recursos para venta en línea en Gumroad o a través de cualquier otro canal de venta. La generación de lienzo dual, la clave de respuestas automática con celdas resaltadas en amarillo y las 104 colecciones temáticas de imágenes te dan todo lo necesario para crear productos profesionales que compiten en categorías de graficación y fichas de datos en todos los principales mercados.',
+      answer: 'Sí. Con una licencia comercial, tienes derechos completos para vender fichas de gráficos pictóricos como descargas digitales en Etsy, cuadernos impresos de habilidades de datos en Amazon KDP, recursos para venta en línea en Hotmart o a través de cualquier otro canal de venta. La generación de lienzo dual, la clave de respuestas automática con celdas resaltadas en amarillo y las 104 colecciones temáticas de imágenes te dan todo lo necesario para crear productos profesionales que compiten en categorías de graficación y fichas de datos en todos los principales mercados.',
     },
     {
       question: '¿Puedo subir mis propias imágenes?',

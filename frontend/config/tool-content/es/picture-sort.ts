@@ -2,30 +2,30 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'generador clasificación de imágenes',
+    primaryKeyword: 'generador de fichas de clasificación gratis',
     secondaryKeywords: [
-      'creador de fichas de clasificación para vendedores uso comercial',
-      'crear fichas de clasificación para vender en Etsy y KDP',
-      'generador de actividades de clasificación imprimibles uso comercial',
-      'herramienta de clasificación con modo temático y manual',
+      'fichas de clasificación de imágenes gratis sin registro',
+      'generador de fichas de ordenar y clasificar en línea',
+      'crear fichas de clasificación gratis para imprimir',
+      'fichas de clasificación visual gratis PDF con respuestas',
     ],
     lsiKeywords: [
-      'generador de clasificación con cuadrícula de recortes barajada',
-      'creador de fichas de clasificación con clave de respuestas automática',
-      'actividades de clasificación en dos categorías con imágenes temáticas',
+      'actividad de categorización de imágenes ficha imprimible',
+      'ficha de agrupar objetos por categoría preescolar',
+      'clasificación visual por tamaño y tipo PDF gratis',
     ],
-    titleTag: 'Generador Clasificación de Imágenes | Vender',
-    metaDescription: 'Crea fichas de clasificación con dos categorías, cuadrícula de recortes barajada, clave de respuestas automática y 104 temas. Prueba con marca de agua.',
+    titleTag: 'Fichas de clasificación gratis | LCS',
+    metaDescription: 'Cree fichas de clasificación de imágenes gratis sin registro. Ordene por categoría, tamaño o tipo. 104 temas, respuestas incluidas.',
   },
 
   hero: {
-    title: 'Generador de Clasificación de Imágenes',
+    title: 'Cree fichas de clasificación de imágenes gratis',
     tagline: 'Generador de fichas de clasificación en dos categorías con modos de selección temático y manual, cuadrículas de recortes barajadas de 4–12 imágenes en 3–4 columnas autoajustables, marcos de categoría con borde discontinuo para destinos de clasificación izquierdo y derecho, claves de respuestas autogeneradas con imágenes 6× más grandes en cajas de categoría, encabezado localizado de Clasificación de Imágenes en 11 idiomas y 104 colecciones temáticas de imágenes para fichas de clasificación que se venden en todo el mundo',
-    description: 'Crea fichas de clasificación profesionales donde los usuarios recortan imágenes de una cuadrícula barajada y las clasifican en dos categorías — izquierda y derecha. Elige el modo temático para rellenar categorías automáticamente desde la biblioteca de imágenes: selecciona un tema para la izquierda y otro para la derecha, y la aplicación extrae 4–6 imágenes aleatorias por tema. O cambia al modo manual para seleccionar imágenes individualmente y asignar cada una a la categoría izquierda o derecha. Cada ficha presenta dos marcos de categoría con borde discontinuo en la parte superior con relleno #FAFAFA para destinos de clasificación y una cuadrícula de recortes barajada debajo con celdas blancas, bordes discontinuos #666, esquinas redondeadas de 4px y 3–4 columnas según el número total de imágenes. Cada imagen ocupa el 85% de su celda. Configura de 4 a 12 imágenes totales con 2–10 por categoría — menos imágenes crean tareas de clasificación más simples para usuarios más jóvenes, más imágenes aumentan la dificultad y la densidad de contenido. El sistema de doble lienzo genera simultáneamente una pestaña de ficha y una pestaña de clave de respuestas. La clave de respuestas muestra las imágenes a 6× el tamaño de las celdas de la cuadrícula de recortes, organizadas en cajas de categoría con un máximo de 2 columnas por caja, relleno #FAFAFA, trazo #444 y radio de borde de 12px — sin necesidad de crear la clave de respuestas manualmente. El Generador de Clasificación de Imágenes es sensible al idioma: las etiquetas de categoría usan nombres localizados de imágenes de la Biblioteca de Imágenes, así que al cambiar de idioma se actualiza el texto en la ficha. Un encabezado localizado se renderiza automáticamente con fondo verde menta (#4DB6AC), contenedor blanco en forma de pastilla, título verde azulado (#00796B) en Fredoka Bold y descripción naranja (#FF7043) en Quicksand. Las fichas verticales muestran un encabezado de 100px con título de 28–48px; las fichas horizontales usan un encabezado de 70px con título de 24–36px. Un borde exterior verde azulado (#26A69A, trazo de 8px, radio de 12px) enmarca toda la página. Navega 104 colecciones temáticas con más de 3.100 ilustraciones o sube tus propias imágenes PNG, JPG o GIF. Aplica fondos temáticos y bordes temáticos con controles de opacidad independientes (0–1, paso 0,05). Añade campos de nombre y fecha para responsabilidad en línea. Añade texto personalizado con 7 opciones de fuente (Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial, Verdana) y contorno de texto 0–10. Exporta cuatro archivos por sesión: ficha JPEG, ficha PDF, clave de respuestas JPEG y clave de respuestas PDF — todo a 300 DPI (multiplicador 6×, calidad JPEG 1,0). Elige Carta, A4, Cuadrado (1200×1200) o tamaños personalizados con opción de escala de grises para salida con ahorro de tinta. Edita todo en el lienzo de Fabric.js con 6 opciones de alineación más centrar en página, capas, bloqueo/desbloqueo, zoom 25%–300% y deshacer/rehacer 20 estados. La prueba gratuita incluye todas las funciones con una marca de agua en las descargas. Compra una licencia para eliminar la marca de agua y vender con uso comercial.',
+    description: 'Cree fichas de clasificación visual gratis con este generador en línea. Los usuarios ordenan imágenes en categorías según criterios configurables. Navegue 104 colecciones temáticas con más de 3.100 ilustraciones o suba sus propias imágenes. Configure el número de categorías, imágenes por grupo y exporte con clave de respuestas autogenerada. Exporte en JPEG y PDF a 300 DPI en tamaño Carta, A4 o personalizado. La prueba gratis incluye todas las funciones con marca de agua en las descargas. Sin registro, sin instalación. ¿Quiere vender? Pase a la licencia comercial para eliminar la marca de agua y obtener uso comercial completo.',
   },
 
   tutorial: {
-    title: 'Cómo Crear Fichas de Clasificación en 8 Pasos',
+    title: 'Cómo crear fichas de clasificación gratis en 8 pasos',
     steps: [
       {
         title: 'Abre el Generador de Clasificación de Imágenes',
@@ -57,7 +57,7 @@ const content: ToolContent = {
       },
       {
         title: 'Descarga los Cuatro Archivos',
-        description: 'Activa la escala de grises para versiones con ahorro de tinta ideales para impresión en volumen e interiores de KDP. Descarga los cuatro archivos de una sola sesión: ficha JPEG, ficha PDF, clave de respuestas JPEG y clave de respuestas PDF — todo renderizado a 300 DPI (multiplicador 6×, calidad JPEG 1,0). Cada pestaña tiene su propio par de botones de descarga. Los archivos están listos para producción en listados de Etsy, interiores de Amazon KDP y archivos de productos de Gumroad sin necesidad de posprocesamiento. Cambia temas, ajusta la cantidad de imágenes o alterna entre modos temático y manual para crear rápidamente variedad en tu catálogo de fichas de clasificación.',
+        description: 'Activa la escala de grises para versiones con ahorro de tinta ideales para impresión en volumen e interiores de KDP. Descarga los cuatro archivos de una sola sesión: ficha JPEG, ficha PDF, clave de respuestas JPEG y clave de respuestas PDF — todo renderizado a 300 DPI (multiplicador 6×, calidad JPEG 1,0). Cada pestaña tiene su propio par de botones de descarga. Los archivos están listos para producción en listados de Etsy, interiores de Amazon KDP y archivos de productos de Hotmart sin necesidad de posprocesamiento. Cambia temas, ajusta la cantidad de imágenes o alterna entre modos temático y manual para crear rápidamente variedad en tu catálogo de fichas de clasificación.',
       },
     ],
   },
@@ -77,7 +77,7 @@ const content: ToolContent = {
     },
     {
       title: 'Productos de Clasificación Multilingüe para Mercados Internacionales',
-      description: 'El Generador de Clasificación de Imágenes es sensible al idioma — las etiquetas de categoría usan nombres localizados de imágenes de la Biblioteca de Imágenes, así que al cambiar de idioma se actualiza el texto en la ficha. Crea fichas de clasificación en inglés, alemán, francés, español, portugués, italiano, holandés, sueco, danés, noruego y finlandés desde las mismas imágenes sin reconstruir nada. El encabezado localizado de Clasificación de Imágenes también se traduce automáticamente. Vende paquetes de clasificación en idiomas específicos dirigidos a tiendas Etsy internacionales y compradores multilingües de Gumroad, o crea actividades de clasificación ESL/EFL donde las etiquetas bilingües de categoría refuerzan la adquisición de vocabulario.',
+      description: 'El Generador de Clasificación de Imágenes es sensible al idioma — las etiquetas de categoría usan nombres localizados de imágenes de la Biblioteca de Imágenes, así que al cambiar de idioma se actualiza el texto en la ficha. Crea fichas de clasificación en inglés, alemán, francés, español, portugués, italiano, holandés, sueco, danés, noruego y finlandés desde las mismas imágenes sin reconstruir nada. El encabezado localizado de Clasificación de Imágenes también se traduce automáticamente. Vende paquetes de clasificación en idiomas específicos dirigidos a tiendas Etsy internacionales y compradores multilingües de Hotmart, o crea actividades de clasificación ESL/EFL donde las etiquetas bilingües de categoría refuerzan la adquisición de vocabulario.',
     },
     {
       title: 'Fichas de Clasificación con Fotos Personalizadas',
@@ -101,24 +101,24 @@ const content: ToolContent = {
       platform: 'Amazon KDP',
     },
     {
-      title: 'Paquetes de Actividades de Clasificación para Gumroad',
-      description: 'Sube paquetes de actividades de clasificación a Gumroad con campos de nombre/fecha, categorías alineadas con el catálogo de productos y claves de respuestas autogeneradas como puntos de venta clave. Los vendedores que buscan actividades de clasificación valoran fichas que llegan listas para venta en línea con funciones de responsabilidad estudiantil. Crea sets alineados con el catálogo de productos: vivos vs no vivos para ciencias, comida saludable vs no saludable para nutrición, ayudantes comunitarios vs animales para estudios sociales. Cada paquete incluye fichas del usuario con marcos de categoría y cuadrículas de recortes barajadas más claves de respuestas con imágenes clasificadas en los grupos correctos. El modo manual te permite seleccionar las imágenes exactas que coinciden con cada objetivo de la lección.',
-      platform: 'Gumroad',
+      title: 'Paquetes de Actividades de Clasificación para Hotmart',
+      description: 'Sube paquetes de actividades de clasificación a Hotmart con campos de nombre/fecha, categorías alineadas con el catálogo de productos y claves de respuestas autogeneradas como puntos de venta clave. Los vendedores que buscan actividades de clasificación valoran fichas que llegan listas para venta en línea con funciones de responsabilidad estudiantil. Crea sets alineados con el catálogo de productos: vivos vs no vivos para ciencias, comida saludable vs no saludable para nutrición, ayudantes comunitarios vs animales para estudios sociales. Cada paquete incluye fichas del usuario con marcos de categoría y cuadrículas de recortes barajadas más claves de respuestas con imágenes clasificadas en los grupos correctos. El modo manual te permite seleccionar las imágenes exactas que coinciden con cada objetivo de la lección.',
+      platform: 'Hotmart',
     },
     {
       title: 'Embudo de Tráfico con Fichas de Clasificación en Pinterest',
-      description: 'Las fichas de clasificación crean pines visualmente impactantes en Pinterest — el diseño de dos categorías con marcos lado a lado y una cuadrícula de recortes barajada debajo crea un formato educativo inmediatamente reconocible que padres y vendedores adoran. Publica fichas de muestra mostrando diferentes emparejamientos de categorías: clasificación de animales para tableros de preescolar, clasificación de alimentos para tableros de nutrición y clasificación estacional para tableros de festividades. Crea series de pines separadas para "fichas de clasificación para preescolar", "actividades de clasificación para jardín de infantes" y "fichas de clasificación de categorías imprimibles". Enlaza cada pin a tus listados de productos en Etsy o Gumroad.',
+      description: 'Las fichas de clasificación crean pines visualmente impactantes en Pinterest — el diseño de dos categorías con marcos lado a lado y una cuadrícula de recortes barajada debajo crea un formato educativo inmediatamente reconocible que padres y vendedores adoran. Publica fichas de muestra mostrando diferentes emparejamientos de categorías: clasificación de animales para tableros de preescolar, clasificación de alimentos para tableros de nutrición y clasificación estacional para tableros de festividades. Crea series de pines separadas para "fichas de clasificación para preescolar", "actividades de clasificación para jardín de infantes" y "fichas de clasificación de categorías imprimibles". Enlaza cada pin a tus listados de productos en Etsy o Hotmart.',
       platform: 'Pinterest',
     },
     {
-      title: 'Kit Completo de Fichas de Clasificación en Gumroad',
-      description: 'Agrupa fichas de clasificación de los 104 temas y ambos modos de selección en un kit integral en Gumroad. Incluye más de 400 fichas de clasificación abarcando cada emparejamiento principal de categorías de la biblioteca de imágenes, con claves de respuestas autogeneradas para cada una. Mezcla fichas del modo temático para variedad rápida con fichas del modo manual para alineación de productos precisa. Ofrece fichas en cada nivel de dificultad desde clasificaciones simples de 4 imágenes hasta tareas avanzadas de 12 imágenes. El formato de kit justifica precios premium porque los compradores obtienen una biblioteca completa de actividades de clasificación con claves de respuestas en lugar de paquetes individuales.',
-      platform: 'Gumroad',
+      title: 'Kit Completo de Fichas de Clasificación en Hotmart',
+      description: 'Agrupa fichas de clasificación de los 104 temas y ambos modos de selección en un kit integral en Hotmart. Incluye más de 400 fichas de clasificación abarcando cada emparejamiento principal de categorías de la biblioteca de imágenes, con claves de respuestas autogeneradas para cada una. Mezcla fichas del modo temático para variedad rápida con fichas del modo manual para alineación de productos precisa. Ofrece fichas en cada nivel de dificultad desde clasificaciones simples de 4 imágenes hasta tareas avanzadas de 12 imágenes. El formato de kit justifica precios premium porque los compradores obtienen una biblioteca completa de actividades de clasificación con claves de respuestas en lugar de paquetes individuales.',
+      platform: 'Hotmart',
     },
     {
       title: 'Productos de Clasificación Multilingüe para Mercados Globales',
-      description: 'El Generador de Clasificación de Imágenes es sensible al idioma — las etiquetas de categoría y el encabezado de Clasificación de Imágenes usan nombres localizados de imágenes en 11 idiomas, facilitando la producción de fichas en inglés, alemán, francés, español, portugués, italiano, holandés, sueco, danés, noruego y finlandés desde las mismas imágenes. Crea paquetes de clasificación multilingüe dirigidos a tiendas Etsy internacionales, compradores bilingües de Gumroad y tiendas de ESL/EFL en todo el mundo. Vende el mismo set temático en múltiples versiones de idioma sin rediseño — simplemente cambia el idioma y regenera. Los paquetes multilingües consiguen precios premium y llegan a compradores que los competidores monolingües no pueden alcanzar.',
-      platform: 'Etsy / Gumroad',
+      description: 'El Generador de Clasificación de Imágenes es sensible al idioma — las etiquetas de categoría y el encabezado de Clasificación de Imágenes usan nombres localizados de imágenes en 11 idiomas, facilitando la producción de fichas en inglés, alemán, francés, español, portugués, italiano, holandés, sueco, danés, noruego y finlandés desde las mismas imágenes. Crea paquetes de clasificación multilingüe dirigidos a tiendas Etsy internacionales, compradores bilingües de Hotmart y tiendas de ESL/EFL en todo el mundo. Vende el mismo set temático en múltiples versiones de idioma sin rediseño — simplemente cambia el idioma y regenera. Los paquetes multilingües consiguen precios premium y llegan a compradores que los competidores monolingües no pueden alcanzar.',
+      platform: 'Etsy / Hotmart',
     },
   ],
 
@@ -129,7 +129,7 @@ const content: ToolContent = {
     },
     {
       title: 'Usa el Modo Manual para Precisión de productos',
-      description: 'El modo manual te permite seleccionar imágenes individualmente y asignar cada una a la categoría izquierda o derecha. Esto es esencial para crear actividades de clasificación específicas del catálogo de productos donde las imágenes exactas importan — selecciona solo los animales de un hábitat específico, solo los alimentos de una unidad de nutrición o solo los objetos relevantes para una lección de ciencias. Las fichas del modo manual consiguen precios más altos en Gumroad porque demuestran alineación de productos intencional en lugar de selección aleatoria de temas.',
+      description: 'El modo manual te permite seleccionar imágenes individualmente y asignar cada una a la categoría izquierda o derecha. Esto es esencial para crear actividades de clasificación específicas del catálogo de productos donde las imágenes exactas importan — selecciona solo los animales de un hábitat específico, solo los alimentos de una unidad de nutrición o solo los objetos relevantes para una lección de ciencias. Las fichas del modo manual consiguen precios más altos en Hotmart porque demuestran alineación de productos intencional en lugar de selección aleatoria de temas.',
     },
     {
       title: 'Varía la Cantidad de Imágenes para Productos de Dificultad Progresiva',
@@ -149,7 +149,7 @@ const content: ToolContent = {
     },
     {
       title: 'Apunta a Emparejamientos Naturales de Categorías para Máxima Visibilidad',
-      description: 'Los productos de fichas de clasificación más exitosos usan emparejamientos de categorías que coinciden con cómo vendedores y padres piensan sobre la clasificación: animales vs comida, tierra vs agua, vivos vs no vivos, saludable vs no saludable, grande vs pequeño, caliente vs frío, día vs noche. Estas oposiciones binarias naturales son los términos que los compradores buscan en Etsy, Gumroad y Amazon. Nombra tus listados usando el emparejamiento real de categorías (por ejemplo, "Fichas de Clasificación Animales vs Comida") en lugar de títulos genéricos, y crea listados separados para cada emparejamiento principal para capturar tráfico de búsqueda segmentado.',
+      description: 'Los productos de fichas de clasificación más exitosos usan emparejamientos de categorías que coinciden con cómo vendedores y padres piensan sobre la clasificación: animales vs comida, tierra vs agua, vivos vs no vivos, saludable vs no saludable, grande vs pequeño, caliente vs frío, día vs noche. Estas oposiciones binarias naturales son los términos que los compradores buscan en Etsy, Hotmart y Amazon. Nombra tus listados usando el emparejamiento real de categorías (por ejemplo, "Fichas de Clasificación Animales vs Comida") en lugar de títulos genéricos, y crea listados separados para cada emparejamiento principal para capturar tráfico de búsqueda segmentado.',
     },
   ],
 
@@ -188,7 +188,7 @@ const content: ToolContent = {
     },
     {
       question: '¿Puedo incluir campos de nombre y fecha en las fichas de clasificación?',
-      answer: 'Sí. Marca la casilla "Incluir Campos de Nombre/Fecha" en el panel de Configuración de Página para añadir líneas de nombre y fecha del usuario en la ficha. Estos campos aseguran la responsabilidad estudiantil en línea y hacen que tus fichas de clasificación estén listas para recogida y valor percibido del vendedor sin ninguna preparación adicional. Los campos de nombre/fecha son un punto de venta clave para productos del mercado en Gumroad donde los vendedores esperan fichas que lleguen listas para usar.',
+      answer: 'Sí. Marca la casilla "Incluir Campos de Nombre/Fecha" en el panel de Configuración de Página para añadir líneas de nombre y fecha del usuario en la ficha. Estos campos aseguran la responsabilidad estudiantil en línea y hacen que tus fichas de clasificación estén listas para recogida y valor percibido del vendedor sin ninguna preparación adicional. Los campos de nombre/fecha son un punto de venta clave para productos del mercado en Hotmart donde los vendedores esperan fichas que lleguen listas para usar.',
     },
     {
       question: '¿Qué tamaños de página y formatos de exportación están disponibles?',
@@ -196,7 +196,7 @@ const content: ToolContent = {
     },
     {
       question: '¿Puedo vender fichas de clasificación creadas con esta herramienta de forma comercial?',
-      answer: 'Sí. Con una licencia comercial, tienes derechos completos para vender fichas de clasificación como descargas digitales en Etsy, cuadernos de actividades impresos en Amazon KDP, recursos para venta en línea en Gumroad o a través de cualquier otro canal de venta. Los dos modos de selección, la cantidad configurable de imágenes, las claves de respuestas autogeneradas con imágenes 6× más grandes, las etiquetas de categoría sensibles al idioma, la subida de imágenes personalizadas y las 104 colecciones temáticas de imágenes te dan todo lo necesario para crear productos profesionales de clasificación que compiten en categorías de actividades de clasificación en todos los principales mercados.',
+      answer: 'Sí. Con una licencia comercial, tienes derechos completos para vender fichas de clasificación como descargas digitales en Etsy, cuadernos de actividades impresos en Amazon KDP, recursos para venta en línea en Hotmart o a través de cualquier otro canal de venta. Los dos modos de selección, la cantidad configurable de imágenes, las claves de respuestas autogeneradas con imágenes 6× más grandes, las etiquetas de categoría sensibles al idioma, la subida de imágenes personalizadas y las 104 colecciones temáticas de imágenes te dan todo lo necesario para crear productos profesionales de clasificación que compiten en categorías de actividades de clasificación en todos los principales mercados.',
     },
     {
       question: '¿Cuál es la política de reembolso?',

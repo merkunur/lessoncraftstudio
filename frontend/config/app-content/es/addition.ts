@@ -2,32 +2,33 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'generador de fichas de suma',
+    primaryKeyword: 'crear fichas de sumas para vender en Etsy',
     secondaryKeywords: [
-      'fichas de suma imprimibles para Etsy',
-      'generador de fichas de matemáticas para Amazon KDP',
-      'vender fichas de suma en Gumroad',
-      'fichas de suma licencia comercial',
+      'generador de fichas de sumas para vendedores de Etsy',
+      'fichas de matemáticas para Amazon KDP',
+      'ejercicios de suma imprimibles con licencia comercial',
+      'crear cuadernillos de sumas para vender online',
+      'fichas de cálculo para negocio de imprimibles',
     ],
     lsiKeywords: [
-      'productos digitales de matemáticas para emprendedores',
-      'negocio de fichas imprimibles en línea',
-      'generador de fichas de uso comercial',
+      'licencia comercial 300 DPI listo para imprimir',
+      'ingreso pasivo fichas educativas Etsy KDP Hotmart',
+      'mercado hispano 500 millones hispanohablantes imprimibles',
     ],
-    titleTag: 'Generador de Fichas de Suma | Crear y Vender',
+    titleTag: 'Crear fichas de sumas para vender en Etsy | LCS',
     metaDescription:
-      'Crea fichas de suma para vender en Etsy, KDP y Gumroad. 104 temas, 4 modos de ejercicio, claves incluidas, export 400+ DPI. Prueba gratis con marca de agua.',
+      'Cree fichas de sumas profesionales para vender en Etsy, KDP y Hotmart. Licencia comercial incluida. Pruebe gratis con marca de agua — sin registro.',
   },
 
   hero: {
-    title: 'Generador de Fichas de Suma para la Práctica Visual de Matemáticas',
-    tagline: 'Convierte la suma en una aventura práctica con fichas de matemáticas basadas en imágenes.',
+    title: 'Cree y venda fichas de sumas profesionales en Etsy, KDP y Hotmart',
+    tagline: 'Genere fichas de sumas con imágenes temáticas en menos de 3 minutos — listas para vender.',
     description:
-      'Crea fichas de suma basadas en imágenes que hacen que las primeras nociones de matemáticas sean tangibles y divertidas. Elige entre cuatro modos de ejercicio distintos — Imagen + Imagen, Imagen + Número, Encontrar el Sumando y Modo Mixto — para adaptarte a cada nivel, desde preescolar hasta segundo grado. Explora más de 3100 ilustraciones seleccionadas en 104 temas como animales de granja, vehículos y comida para dar vida a cada problema. Cada ficha incluye una clave de respuesta automática, y puedes exportar PDF listos para imprimir en formato Carta, A4 o personalizado a más de 400 DPI. Ya sea que vendas en Etsy, publiques libros de actividades en Amazon KDP o repartas fichas a tus propios usuarios, el Generador de Fichas de Suma te da resultados profesionales en minutos. Prueba gratis con todas las funciones — sin registro, sin tarjeta de crédito. Las descargas incluyen una marca de agua; compra una licencia para eliminarla.',
+      'Cree fichas de sumas para vender en Etsy, Amazon KDP o Hotmart — y genérelas en menos de 3 minutos. Este generador crea ejercicios de suma con imágenes temáticas de más de 3.000 ilustraciones que atraen a los niños y convencen a los padres compradores. Exporte PDFs listos para imprimir a 300 DPI con hojas de respuestas automáticas y véndalos con la licencia comercial incluida — sin atribución requerida, sin restricciones. El mercado hispano de materiales educativos en Etsy es un océano azul: más de 500 millones de hispanohablantes buscan fichas en español, pero hay muy pocos vendedores que las ofrezcan. Esta es su oportunidad de capturar un mercado enorme con demanda creciente y competencia mínima — desde España hasta México, Estados Unidos y toda Latinoamérica. Pruebe gratis con todas las funciones — sin registro, sin tarjeta de crédito. Las descargas incluyen una marca de agua; compre una licencia para eliminarla.',
   },
 
   howItWorks: {
-    title: 'Cómo Crear Fichas de Suma en 5 Pasos',
+    title: 'Cómo crear fichas de sumas en menos de 3 minutos',
     steps: [
       {
         title: 'Configura el diseño de página',
@@ -58,7 +59,7 @@ const content: AppContent = {
   },
 
   keyFeatures: {
-    title: 'Características Principales del Generador de Fichas de Suma',
+    title: 'Por qué las fichas de matemáticas se venden todo el año en Etsy',
     features: [
       {
         title: 'Cuatro modos de ejercicio distintos',
@@ -93,7 +94,7 @@ const content: AppContent = {
       {
         title: 'Marcos decorativos y temas de fondo',
         description:
-          'Transforma tus fichas de simples a profesionales con marcos decorativos e imágenes de fondo de la misma biblioteca de 104 temas. Ajusta la opacidad del marco y del fondo independientemente para que los elementos visuales enriquezcan el diseño sin distraer del contenido matemático. Combinar un marco estacional con un fondo tintado crea conjuntos temáticos que se venden a precios más altos en Etsy y Gumroad.',
+          'Transforma tus fichas de simples a profesionales con marcos decorativos e imágenes de fondo de la misma biblioteca de 104 temas. Ajusta la opacidad del marco y del fondo independientemente para que los elementos visuales enriquezcan el diseño sin distraer del contenido matemático. Combinar un marco estacional con un fondo tintado crea conjuntos temáticos que se venden a precios más altos en Etsy y Hotmart.',
       },
       {
         title: 'Edición completa del lienzo con deshacer y rehacer',
@@ -104,7 +105,7 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Cómo Vender Fichas de Suma en Línea',
+    title: 'Exportar y vender en Etsy, KDP, Hotmart y más',
     cases: [
       {
         title: 'Paquetes temáticos de fichas de suma en Etsy',
@@ -119,16 +120,16 @@ const content: AppContent = {
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Centros de matemáticas diferenciados para Gumroad',
+        title: 'Centros de matemáticas diferenciados para Hotmart',
         description:
-          'Crea conjuntos de suma por niveles usando los cuatro modos de ejercicio: Nivel 1 (Imagen + Imagen, rango 1–3), Nivel 2 (Imagen + Número, rango 1–5), Nivel 3 (Encontrar el Sumando, rango 1–7) y Nivel 4 (Mixto, rango 1–10). Cada nivel con claves de respuesta y hoja de seguimiento del progreso. Los compradores de Gumroad pagan precios premium por recursos diferenciados que pueden usar inmediatamente en múltiples grupos de nivel.',
-        platform: 'Gumroad (teacherspayteachers.com)',
+          'Crea conjuntos de suma por niveles usando los cuatro modos de ejercicio: Nivel 1 (Imagen + Imagen, rango 1–3), Nivel 2 (Imagen + Número, rango 1–5), Nivel 3 (Encontrar el Sumando, rango 1–7) y Nivel 4 (Mixto, rango 1–10). Cada nivel con claves de respuesta y hoja de seguimiento del progreso. Los compradores de Hotmart pagan precios premium por recursos diferenciados que pueden usar inmediatamente en múltiples grupos de nivel.',
+        platform: 'Hotmart (hotmart.com)',
       },
       {
         title: 'Contenido de suscripción para tu propia tienda',
         description:
-          'Usa el generador para producir paquetes semanales de fichas de suma y distribúyelos a través de tu propia tienda en Shopify, Gumroad o Payhip. Un modelo de suscripción — nuevo paquete temático cada semana — genera ingresos recurrentes y fideliza una clientela de emprendedores y centros de tutoría. Los cuatro modos de ejercicio y 104 temas ofrecen suficiente variedad para años de contenido único.',
-        platform: 'Gumroad / Shopify / Payhip',
+          'Usa el generador para producir paquetes semanales de fichas de suma y distribúyelos a través de tu propia tienda en Shopify, Hotmart o Payhip. Un modelo de suscripción — nuevo paquete temático cada semana — genera ingresos recurrentes y fideliza una clientela de emprendedores y centros de tutoría. Los cuatro modos de ejercicio y 104 temas ofrecen suficiente variedad para años de contenido único.',
+        platform: 'Hotmart / Shopify / Payhip',
       },
       {
         title: 'Fichas de práctica para venta en línea y tutoría',
@@ -183,12 +184,12 @@ const content: AppContent = {
     {
       question: '¿Qué incluye la licencia comercial?',
       answer:
-        'La licencia comercial elimina la marca de agua de todas las descargas y te otorga derechos ilimitados para vender las fichas que crees — en Etsy, Amazon KDP, Gumroad, tu propio sitio web o cualquier otra plataforma. No hay regalías por venta, no hay cuotas mensuales y no hay límites en la cantidad de fichas que produzcas o vendas.',
+        'La licencia comercial elimina la marca de agua de todas las descargas y te otorga derechos ilimitados para vender las fichas que crees — en Etsy, Amazon KDP, Hotmart, tu propio sitio web o cualquier otra plataforma. No hay regalías por venta, no hay cuotas mensuales y no hay límites en la cantidad de fichas que produzcas o vendas.',
     },
     {
       question: '¿Puedo vender fichas creadas con esta herramienta en Etsy y Amazon KDP?',
       answer:
-        'Sí. Con una licencia comercial, tienes todos los derechos para vender tus fichas de suma como descargas digitales en Etsy, como libros de actividades impresos en Amazon KDP, como recursos educativos en Gumroad o a través de cualquier otro canal de venta. Muchos vendedores crean paquetes temáticos y libros de actividades que generan ingresos consistentes.',
+        'Sí. Con una licencia comercial, tienes todos los derechos para vender tus fichas de suma como descargas digitales en Etsy, como libros de actividades impresos en Amazon KDP, como recursos educativos en Hotmart o a través de cualquier otro canal de venta. Muchos vendedores crean paquetes temáticos y libros de actividades que generan ingresos consistentes.',
     },
     {
       question: '¿Cuál es la política de reembolso?',

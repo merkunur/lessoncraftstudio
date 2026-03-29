@@ -2,28 +2,40 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'gerador atividades labirintos imagens',
+    primaryKeyword: 'labirintos ilustrados para vender na Etsy',
     secondaryKeywords: [
-      'atividades de labirintos imprimíveis para vendedores Etsy',
-      'gerador de atividades de percursos com imagens para Amazon KDP',
-      'criador de atividades de labirintos licença comercial Hotmart',
-      'vender atividades de labirintos e caminhos na Etsy e Amazon',
+      'gerador de labirintos com imagens para Hotmart',
+      'atividades de caminho ilustrado para Amazon KDP',
+      'labirintos para crianças com licença comercial',
+      'atividades de percurso para vender na Kiwify',
     ],
     lsiKeywords: [
-      'produtos digitais de labirintos imprimíveis para empreendedores',
-      'gerador de atividades de percursos com imagens uso comercial',
-      'ferramentas de negócio de atividades de puzzles e labirintos',
+      'licença comercial',
+      '300 DPI',
+      'pronto para impressão',
+      'labirinto',
+      'percurso',
+      'caminho',
+      'download digital',
+      'gabarito incluso',
+      'coordenação motora',
+      'educação infantil',
+      'ensino fundamental',
+      'negócio de imprimíveis',
+      'renda extra',
+      'Hotmart',
+      'Kiwify',
     ],
-    titleTag: 'Gerador Atividades Labirintos Imagens | Criar e Vender',
+    titleTag: 'Labirintos ilustrados para vender online | LCS',
     metaDescription:
-      'Crie atividades de labirintos com imagens para Hotmart, Etsy e KDP. 3 modos de jogo, algoritmo LPF, gabarito automático, 104 temas. Teste grátis com marca d\'água.',
+      'Crie labirintos ilustrados para vender na Hotmart, Etsy e KDP. Caminhos temáticos, 104 temas, gabarito automático. Teste grátis com marca d\'água.',
   },
 
   hero: {
-    title: 'Gerador de Atividades de Labirintos com Imagens para Atividades de Caminhos e Percursos',
+    title: 'Crie labirintos ilustrados para vender na Hotmart, Etsy e KDP',
     tagline: 'Três modos de jogo num só gerador — Caminho de Imagens, Labirinto Clássico e Escolhe o Caminho Certo — alimentado pelo algoritmo LPF (Caminho Mais Longo Primeiro) com gabaritos automáticos, personalização de paredes e design completamente visual que funciona em todo o mundo sem tradução.',
     description:
-      'Crie atividades profissionais de labirintos e percursos com três modos de jogo distintos. Caminho de Imagens cria uma quadrícula de imagens onde os usuários seguem o caminho correto desde o início até ao final identificando as imagens do caminho entre distratores. Labirinto Clássico gera labirintos com paredes usando o algoritmo LPF (Caminho Mais Longo Primeiro) com imagens colecionáveis dispersas pelos corredores — configure tamanhos de quadrícula de 15×15 a 20×20, defina de 1 a 3 caminhos com bloqueio de becos sem saída, e personalize a cor, espessura (1–10px) e opacidade (10–100%) das paredes. Escolhe o Caminho Certo apresenta labirintos de três caminhos com quatro opções direcionais (de baixo para cima, de cima para baixo, da esquerda para a direita, da direita para a esquerda) onde os usuários identificam o único caminho correto entre iscas. Cada modo gera um gabarito complementar num aba de canvas separado — os caminhos de solução são realçados com círculos rosa ao longo da rota correta, e o modo Escolhe o Caminho acrescenta uma etiqueta \"✓ CORRECT PATH\". Atribua imagens a cinco funções distintas: Início, Fim, Caminho, Distrator e Decoração. Explore 104 coleções temáticas com mais de 3100 ilustrações ou carregue as suas próprias. O cabeçalho \"Caminho de Imagens\" gerado automaticamente com borda laranja apresenta títulos e instruções localizados nos 11 idiomas suportados. Adicione temas de fundo e de borda com controlos de opacidade independentes, inclua campos de nome e data, e exporte PDF e JPEG prontos para impressão a 300 DPI nos formatos Carta, A4, Quadrado (1200×1200) ou tamanhos personalizados. Caminho de Imagens é completamente visual — os labirintos não requerem leitura nem compreensão linguística, tornando cada atividade vendível instantaneamente em qualquer mercado do mundo. Teste grátis com todas as funcionalidades — sem cadastro, sem cartão de crédito. Os downloads incluem uma marca d\'água; adquira uma licença para removê-la.',
+      'Crie labirintos ilustrados para vender na Hotmart, Kiwify, Etsy ou Amazon KDP. Este gerador produz atividades de percurso onde as crianças traçam caminhos entre imagens temáticas — combinando coordenação motora com diversão visual. Com mais de 3.000 ilustrações em 104 temas, você cria labirintos únicos para cada produto. "Labirinto para imprimir" é um dos termos de atividades mais buscados no Brasil, com demanda constante o ano inteiro. Perfeito para livros de passatempos no Amazon KDP e kits de coordenação motora na Hotmart. Exporte PDFs a 300 DPI com gabarito automático e licença comercial inclusa. Teste grátis com marca d\'água — sem cadastro.',
   },
 
   howItWorks: {

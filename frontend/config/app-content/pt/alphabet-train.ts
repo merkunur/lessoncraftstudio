@@ -2,28 +2,41 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'gerador trem do alfabeto',
+    primaryKeyword: 'atividades de alfabeto para vender na Etsy e KDP',
     secondaryKeywords: [
-      'atividades de trem do alfabeto imprimíveis para Etsy',
-      'gerador de atividades de reconhecimento de letras para Amazon KDP',
-      'vender atividades de alfabeto na Hotmart',
-      'atividades de trem do alfabeto licença comercial',
+      'gerador de trem do alfabeto para Hotmart',
+      'atividades de reconhecimento de letras para Amazon KDP',
+      'atividades de alfabetização com licença comercial',
+      'trem do alfabeto para vender na Kiwify',
     ],
     lsiKeywords: [
-      'produtos digitais de alfabetização para empreendedores',
-      'negócio de atividades de letras imprimíveis online',
-      'gerador de atividades de alfabeto de uso comercial',
+      'licença comercial',
+      '300 DPI',
+      'pronto para impressão',
+      'alfabeto',
+      'trem de letras',
+      'alfabetização',
+      'download digital',
+      'gabarito incluso',
+      'reconhecimento de letras',
+      'educação infantil',
+      'ensino fundamental',
+      'negócio de imprimíveis',
+      'renda extra',
+      'Hotmart',
+      'Kiwify',
+      '11 idiomas',
     ],
-    titleTag: 'Gerador Trem do Alfabeto | Atividades de Letras',
+    titleTag: 'Atividades de alfabeto para vender online | LCS',
     metaDescription:
-      'Crie atividades de trem do alfabeto para vender na Hotmart, Etsy e KDP. Vagões com letras e imagens, 11 idiomas, 104 temas em PDF. Teste grátis com marca d\'água.',
+      'Crie atividades de trem do alfabeto para vender na Hotmart, Etsy e KDP. 11 idiomas, associação letra-imagem. Teste grátis com marca d\'água.',
   },
 
   hero: {
-    title: 'Gerador de Atividades de Trem do Alfabeto para Prática de Reconhecimento de Letras',
+    title: 'Crie atividades de alfabeto para vender na Hotmart, Etsy e KDP',
     tagline: 'Cada vagão transporta uma letra e uma imagem correspondente — construindo o reconhecimento de letras vagão após vagão.',
     description:
-      'Crie atividades de trem do alfabeto visualmente apelativas onde 11 vagões coloridos percorrem a página, cada um transportando uma letra associada a uma ilustração correspondente. Escolha o modo Criação Automática para uma seleção aleatória instantânea de letras ou o Modo Manual para selecionar exatamente 11 letras do alfabeto para prática direcionada. Adicione de 3 a 11 pistas configuráveis por atividade — imagens-pista que os usuários associam ao vagão-letra correto — transformando o reconhecimento passivo de letras num exercício ativo de resolução de problemas. Explore mais de 3100 ilustrações selecionadas em 104 temas para encontrar a imagem perfeita para cada letra. O Acesso Completo desbloqueia os 11 idiomas com os seus alfabetos nativos — o alemão com Ä/Ö/Ü, o sueco com Å/Ä/Ö, o espanhol com Ñ para 27 letras, e mais — multiplicando o seu catálogo de produtos por onze a partir de um único fluxo de trabalho. Cada atividade gera um gabarito automático, e pode exportar PDFs prontos para impressão e JPEGs a mais de 400 DPI nos tamanhos Carta, A4 ou Quadrado. Quer venda pacotes de alfabeto temáticos na Etsy, compile livros de alfabetização progressivos para a Amazon KDP ou crie centros de letras diferenciados para o Hotmart, o Gerador de Trem do Alfabeto oferece resultados profissionais em minutos — teste grátis com todas as funcionalidades, sem cadastro, sem cartão de crédito. Os downloads incluem uma marca d\'água; adquira uma licença para removê-la.',
+      'Crie atividades de trem do alfabeto para vender na Hotmart, Kiwify, Etsy ou Amazon KDP. "Alfabetização" é um dos termos educativos MAIS buscados no Brasil — e este gerador cria atividades de reconhecimento de letras únicas no mercado. Onze vagões coloridos percorrem a página, cada um com uma letra e uma ilustração correspondente. A verdadeira potência: suporte a 11 alfabetos nativos. A mesma imagem associa-se com letras diferentes em cada idioma — "cão" associa-se com C em português mas com D em inglês e H em alemão. Um único modelo gera 11 produtos únicos. Com mais de 3.000 imagens em 104 temas, exporte PDFs a 300 DPI com gabarito e licença comercial. Teste grátis com marca d\'água — sem cadastro.',
   },
 
   howItWorks: {

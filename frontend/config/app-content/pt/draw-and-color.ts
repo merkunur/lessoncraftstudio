@@ -2,28 +2,39 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'gerador atividades desenho em grelha',
+    primaryKeyword: 'atividades de desenho e pintura para vender online',
     secondaryKeywords: [
-      'gerador de atividades de desenho em grelha imprimíveis para vendedores Etsy',
-      'criador de atividades de reprodução em grelha para Amazon KDP',
-      'vender atividades de desenho em grelha na Hotmart',
-      'gerador de atividades de desenho e colorir licença comercial',
+      'gerador de atividades de desenhar e colorir para Hotmart',
+      'atividades de arte para crianças para Etsy',
+      'exercícios de desenho com licença comercial para KDP',
+      'atividades de desenho para vender na Kiwify',
     ],
     lsiKeywords: [
-      'produtos digitais atividades de desenho em grelha para empreendedores',
-      'atividades de reprodução célula por célula imprimíveis uso comercial',
-      'gerador de atividades de desenho em grelha com modos de simetria',
+      'licença comercial',
+      '300 DPI',
+      'pronto para impressão',
+      'desenhar e colorir',
+      'arte',
+      'criatividade',
+      'download digital',
+      'coordenação motora',
+      'educação infantil',
+      'ensino fundamental',
+      'negócio de imprimíveis',
+      'renda extra',
+      'Hotmart',
+      'Kiwify',
     ],
-    titleTag: 'Gerador Atividades Desenho em Grelha | Criar e Vender',
+    titleTag: 'Atividades de desenho e pintura para vender | LCS',
     metaDescription:
-      'Crie atividades de desenho em grelha para Hotmart, Etsy e KDP. Grelha dupla, percentagem de pistas ajustável, modos de simetria. Teste grátis com marca d\'água.',
+      'Crie atividades de desenho e pintura para vender na Hotmart, Etsy e KDP. 104 temas, canvas livre, licença comercial. Teste grátis com marca d\'água.',
   },
 
   hero: {
-    title: 'Gerador de Atividades de Desenho em Grelha para Exercícios de Reprodução Visual',
+    title: 'Crie atividades de desenho e pintura para vender na Hotmart e Etsy',
     tagline: 'Sistema de grelha dupla — grelha de prática e grelha de pistas lado a lado — com percentagem de pistas ajustável de 10 % a 75 %, modos de simetria horizontal e vertical, e mais de 100 coleções de contornos a preto e branco para atividades de desenho e colorir.',
     description:
-      'Crie atividades profissionais de desenho em grelha onde os usuários reproduzem uma imagem de referência copiando-a célula por célula de uma grelha de pistas para uma grelha de prática em branco. Duas grelhas aparecem por cada imagem selecionada: uma Grelha de Prática com células vazias onde os usuários desenham, e uma Grelha de Pistas que mostra uma percentagem configurável da imagem de referência como pistas visuais. Ajuste a percentagem de pistas de 10 % a 75 % para controlar a dificuldade — menos pistas significa exercícios mais difíceis que exigem uma observação mais apurada. Configure as dimensões da grelha de 3×3 (9 células) a 10×10 (100 células), com linhas e colunas ajustáveis de forma independente de 3 a 10. Três modos de simetria acrescentam uma dimensão de raciocínio espacial: Aleatório coloca as pistas em posições dispersas, Horizontal reflete as pistas da esquerda para a direita, e Vertical reflete as pistas de cima para baixo, cada um com um seletor de parte a revelar. O conteúdo provém da biblioteca de temas de contornos a preto e branco integrada com mais de 100 coleções que incluem mais de 3000 ilustrações a preto e branco concebidas especificamente para a reprodução e o colorir — não são temas coloridos, mas contornos limpos que os usuários reproduzem e depois colorem. Esta é uma aplicação puramente visual: as atividades contêm apenas imagens em grelha com zero texto na saída, tornando-as universalmente utilizáveis independentemente do idioma. Não é necessário gabarito porque a grelha de pistas em si mesma serve como referência da solução. O Acesso Completo desbloqueia todos os 100+ temas de contornos a preto e branco e os 11 idiomas de interface. Exporte PDFs e JPEGs prontos para impressão a 300 DPI nos formatos Carta, A4 ou dimensões personalizadas. Quer venda pacotes de desenho em grelha na Etsy, compile cadernos de competências de desenho para a Amazon KDP ou crie centros de raciocínio espacial para o Hotmart, o Gerador de Atividades de Desenho em Grelha oferece resultados profissionais em minutos — teste grátis com todas as funcionalidades, sem cadastro, sem cartão de crédito. Os downloads incluem uma marca d\'água; adquira uma licença para removê-la.',
+      'Crie atividades de desenho e pintura para vender na Hotmart, Kiwify, Etsy ou Amazon KDP. Este gerador produz páginas de atividades artísticas onde as crianças desenham, pintam e completam cenas visuais usando imagens temáticas como inspiração. Com mais de 3.000 ilustrações em 104 temas e ferramentas de canvas livre, você cria atividades de arte únicas. Atividades de desenho e pintura são extremamente populares entre pais e professores — desenvolvem coordenação motora fina, criatividade e expressão artística. Perfeito para kits de arte na Hotmart e livros de atividades artísticas no Amazon KDP. Exporte PDFs a 300 DPI com licença comercial inclusa. Teste grátis com marca d\'água — sem cadastro.',
   },
 
   howItWorks: {

@@ -2,28 +2,40 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'gerador cartelas bingo com imagens',
+    primaryKeyword: 'criador de cartelas de bingo para vender na Etsy',
     secondaryKeywords: [
-      'gerador de cartelas de bingo imprimíveis para vendedores Etsy',
-      'criador de cartelas de bingo com imagens para editores Amazon KDP',
-      'gerador de cartelas de bingo com licença comercial',
-      'vender cartelas de bingo imprimíveis na Hotmart',
+      'gerador de bingo com imagens para Hotmart',
+      'cartelas de bingo para vender na Amazon KDP',
+      'bingo educativo com licença comercial',
+      'cartelas de bingo para vender na Kiwify',
     ],
     lsiKeywords: [
-      'produtos digitais de cartelas de bingo para empreendedores',
-      'gerador de cartelas de bingo uso comercial',
-      'atividades de bingo imprimíveis para negócio online',
+      'licença comercial',
+      '300 DPI',
+      'pronto para impressão',
+      'bingo',
+      'cartelas de bingo',
+      'jogo educativo',
+      'download digital',
+      'folha de chamada',
+      'exportação ZIP',
+      'educação infantil',
+      'ensino fundamental',
+      'negócio de imprimíveis',
+      'renda extra',
+      'Hotmart',
+      'Kiwify',
     ],
-    titleTag: 'Gerador Cartelas Bingo com Imagens | Criar',
+    titleTag: 'Cartelas de bingo para vender online | LCS',
     metaDescription:
-      'Crie cartelas de bingo com imagens para Hotmart, Etsy e KDP. Lotes de cartelas únicas, export ZIP, folhas de chamada, 104 temas. Teste grátis com marca d\'água.',
+      'Crie cartelas de bingo com imagens para vender na Hotmart, Etsy e KDP. Lote até 10 cartelas, exportação ZIP. Teste grátis com marca d\'água.',
   },
 
   hero: {
-    title: 'Gerador de Cartelas de Bingo com Imagens para Atividades de Bingo Imprimíveis',
+    title: 'Crie cartelas de bingo para vender na Hotmart, Etsy e KDP',
     tagline: 'Gere de 1 a 10 cartelas de bingo únicas por lote com grades configuráveis de 3×3 a 5×5 — preenchimento de imagens ou palavras para as células e as atividades circulares, uma folha de chamada dedicada para o chamador, exportação ZIP em lote de todas as cartelas, e 104 coleções de imagens temáticas.',
     description:
-      'Crie cartelas de bingo profissionais onde os jogadores marcam as imagens ou palavras correspondentes nas suas grades únicas. Configure as linhas de 3 a 5 e as colunas de 3 a 5 de forma independente, criando grades de 3×3 (9 células) até 5×5 (25 células) com um valor predefinido de 4×4 (16 células). Escolha o preenchimento de imagens ou de palavras de forma independente para as células da cartela e as atividades circulares — as atividades apresentam bordas tracejadas e um ordenamento Fisher-Yates para um jogo de bingo autêntico. Gere de 1 a 10 cartelas de bingo únicas por lote, cada uma com uma seleção aleatória diferente do banco de imagens. Uma folha de chamada dedicada num aba à parte apresenta uma grade dinâmica de palavras para o chamador, com colunas calculadas com base no comprimento da palavra mais longa e um tamanho de fonte uniforme. Selecione manualmente imagens específicas para a seleção personalizada de chamada ou deixe a aplicação escolher do seu tema. O Gerador de Cartelas de Bingo com Imagens é sensível ao idioma: o preenchimento de palavras utiliza os nomes localizados das imagens da Biblioteca de Imagens, por isso mudar o idioma altera as palavras nas cartelas, nas atividades e na folha de chamada. O Acesso Completo desbloqueia os 104 temas com mais de 3100 ilustrações e os 11 idiomas de interface para conteúdo textual localizado. Adicione temas de fundo e de borda com controlos de opacidade independentes, inclua texto personalizado com sete opções de fontes, e exporte PDFs e JPEGs prontos para impressão a 300 DPI nos formatos Carta, A4, Quadrado (1200×1200) ou dimensões personalizadas. Exporte em lote todas as cartelas geradas como arquivos JPEG individuais num único arquivo ZIP. Quer venda pacotes de cartelas de bingo na Etsy, compile cadernos de atividades de bingo para a Amazon KDP ou crie conjuntos de bingo para a loja na Hotmart, este gerador produz cartelas de bingo prontas para produção em minutos — teste grátis com todas as funcionalidades, sem cadastro, sem cartão de crédito. Os downloads incluem uma marca d\'água; adquira uma licença para removê-la.',
+      'Crie cartelas de bingo com imagens para vender na Hotmart, Kiwify, Etsy ou Amazon KDP. Este gerador produz de 1 a 10 cartelas únicas por lote — cada uma com diferentes imagens em diferentes posições, essencial para que o bingo funcione como jogo. Grelhas configuráveis de 3×3 a 5×5, modo de preenchimento com imagens ou palavras, e exportação ZIP de todas as cartelas num único clique. Bingo educativo é um nicho de altíssima demanda: professores, pais e festas infantis precisam de cartelas constantemente. Com mais de 3.000 imagens em 104 temas e 11 idiomas, você cria jogos únicos para qualquer ocasião. Exporte PDFs a 300 DPI com folha de chamada e licença comercial inclusa. Teste grátis com marca d\'água — sem cadastro.',
   },
 
   howItWorks: {

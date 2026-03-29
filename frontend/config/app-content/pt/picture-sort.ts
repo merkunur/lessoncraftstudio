@@ -2,28 +2,40 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'gerador atividades classificação imagens',
+    primaryKeyword: 'atividades de classificação para negócio na Hotmart',
     secondaryKeywords: [
-      'gerador de atividades de classificação a duas categorias para vendedores Etsy',
-      'criador de atividades de classificação de imagens para editores Amazon KDP',
-      'gerador de atividades de classificação de imagens com licença comercial',
-      'vender atividades de classificação imprimíveis na Hotmart',
+      'gerador de atividades de classificação para Etsy',
+      'atividades de ordenar e agrupar para Amazon KDP',
+      'exercícios de categorização com licença comercial',
+      'atividades de classificação para vender na Kiwify',
     ],
     lsiKeywords: [
-      'produtos digitais de classificação de imagens para empreendedores',
-      'gerador de atividades de classificação uso comercial',
-      'atividades de classificação imprimíveis para negócio online',
+      'licença comercial',
+      '300 DPI',
+      'pronto para impressão',
+      'classificação',
+      'categorização',
+      'agrupar',
+      'download digital',
+      'gabarito incluso',
+      'raciocínio lógico',
+      'educação infantil',
+      'ensino fundamental',
+      'negócio de imprimíveis',
+      'renda extra',
+      'Hotmart',
+      'Kiwify',
     ],
-    titleTag: 'Gerador Atividades Classificação Imagens | Criar',
+    titleTag: 'Atividades de classificação para vender | LCS',
     metaDescription:
-      'Crie atividades de classificação de imagens para Hotmart, Etsy e KDP. Duas categorias, gabarito automático, 104 temas, 4–12 imagens. Teste grátis com marca d\'água.',
+      'Crie atividades de classificação e categorização para vender na Hotmart, Etsy e KDP. 104 temas, gabarito automático. Teste grátis com marca d\'água.',
   },
 
   hero: {
-    title: 'Gerador de Atividades de Classificação de Imagens para Atividades de Classificação a Duas Categorias',
+    title: 'Crie atividades de classificação para vender na Hotmart e Etsy',
     tagline: 'Classificação a duas categorias num único gerador potente — modo de tema ou seleção manual de imagens — com gabaritos autogerados, 4 a 12 imagens configuráveis, cabeçalho localizado \"Classificação de Imagens\" em 11 idiomas e 104 coleções de imagens temáticas.',
     description:
-      'Crie atividades de classificação profissionais onde os usuários classificam imagens em duas categorias, colocando as imagens recortadas no grupo correto esquerdo ou direito. Escolha o modo de tema para preencher automaticamente as categorias a partir da biblioteca de imagens — selecione um tema à esquerda e outro à direita, e a aplicação gera 4 a 6 imagens aleatórias por tema — ou mude para o modo manual para selecionar imagens individualmente e atribuir cada uma a uma categoria. Cada atividade apresenta duas molduras de categoria com borda tracejada na parte superior como destinos de classificação e uma grelha de recortes misturada por baixo com imagens mistas prontas para recortar e classificar. O sistema de canvas duplo gera tanto um aba de atividade de trabalho como um aba de gabarito com imagens 6× maiores organizadas em caixas de categorias, para que nunca precise de criar gabaritos manualmente. O Gerador de Classificação de Imagens é sensível ao idioma: as etiquetas de categoria utilizam nomes de imagens localizados, pelo que mudar de idioma altera o texto na atividade. Um cabeçalho localizado \"Classificação de Imagens\" com fundo verde-menta e título verde-azulado apresenta-se automaticamente nos 11 idiomas suportados. O Acesso Completo desbloqueia os 104 temas com mais de 3100 ilustrações e os 11 idiomas de interface para etiquetas de categoria localizadas. Adicione temas de fundo e de borda com controlos de opacidade independentes, inclua campos de nome e data para responsabilidade online, e exporte PDFs e JPEGs prontos para impressão a 300 DPI nos formatos Carta, A4, Quadrado (1200×1200) ou dimensões personalizadas. Quer venda pacotes de atividades de classificação na Etsy, compile cadernos de classificação para a Amazon KDP ou crie atividades de classificação para o Hotmart, este gerador produz atividades prontas para produção em minutos — teste grátis com todas as funcionalidades, sem cadastro, sem cartão de crédito. Os downloads incluem uma marca d\'água; adquira uma licença para removê-la.',
+      'Crie atividades de classificação e categorização para vender na Hotmart, Kiwify, Etsy ou Amazon KDP. Este gerador produz exercícios onde as crianças ordenam, agrupam e classificam imagens temáticas por categorias — desenvolvendo raciocínio lógico, pensamento crítico e habilidades de organização. Com mais de 3.000 ilustrações em 104 temas, você cria pacotes temáticos variados para todas as idades. Atividades de classificação são essenciais na educação infantil e ensino fundamental, com demanda alta e constante. Exporte PDFs a 300 DPI com gabarito automático e licença comercial inclusa. Um formato educativo que vendedores da Hotmart e Kiwify procuram ativamente. Teste grátis com marca d\'água — sem cadastro.',
   },
 
   howItWorks: {

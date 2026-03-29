@@ -2,28 +2,40 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'gerador mais ou menos',
+    primaryKeyword: 'atividades de maior e menor para vender na Etsy',
     secondaryKeywords: [
-      'atividades de mais ou menos imprimíveis para Etsy',
-      'gerador de atividades de comparação de números para Amazon KDP',
-      'vender atividades de maior que menor que na Hotmart',
-      'atividades de comparação licença comercial',
+      'gerador de atividades de comparação para Hotmart',
+      'exercícios de mais e menos para Amazon KDP',
+      'atividades de maior menor igual com licença comercial',
+      'atividades de comparação numérica para vender na Kiwify',
     ],
     lsiKeywords: [
-      'produtos digitais de comparação de números',
-      'negócio de atividades imprimíveis sentido numérico',
-      'gerador de atividades de comparação uso comercial',
+      'licença comercial',
+      '300 DPI',
+      'pronto para impressão',
+      'maior e menor',
+      'comparação',
+      'mais e menos',
+      'download digital',
+      'gabarito incluso',
+      'conceitos matemáticos',
+      'educação infantil',
+      'ensino fundamental',
+      'negócio de imprimíveis',
+      'renda extra',
+      'Hotmart',
+      'Kiwify',
     ],
-    titleTag: 'Gerador Mais ou Menos | Atividades de Comparação',
+    titleTag: 'Atividades maior e menor para vender | LCS',
     metaDescription:
-      'Crie atividades de comparação de quantidades para vender na Hotmart, Etsy e KDP. 3 modos, 104 temas, gabaritos incluídos, 400+ DPI. Teste grátis com marca d\'água.',
+      'Crie atividades de maior e menor para vender na Hotmart, Etsy e KDP. Comparação visual, 104 temas, gabarito automático. Teste grátis com marca d\'água.',
   },
 
   hero: {
-    title: 'Gerador de Atividades Mais ou Menos para Comparação Visual de Números',
+    title: 'Crie atividades de maior e menor para vender na Hotmart e Etsy',
     tagline: 'Transforme a comparação de números numa descoberta visual com atividades ilustradas de maior que e menor que.',
     description:
-      'Crie atividades de comparação atrativas que ensinam os usuários a identificar qual grupo tem mais, qual tem menos e quando dois grupos são iguais. Escolha entre três modos de exercício distintos — Imagem contra Imagem, Imagem contra Número e o exclusivo modo Marcar e Riscar Grupos, onde os usuários analisam caixas de imagens misturadas para encontrar o grupo maioritário. Alterne entre comparações de imagens iguais e diferentes, escolha entre símbolos ilustrados e símbolos matemáticos padrão, e selecione entre mais de 3100 imagens em 104 temas. Cada atividade gera um gabarito automático, e pode exportar PDFs prontos para impressão em formato Carta, A4 ou personalizado a mais de 400 DPI. Quer venda pacotes temáticos na Etsy, compile livros de atividades de comparação na Amazon KDP ou crie centros diferenciados para a sua loja, o Gerador Mais ou Menos produz resultados profissionais em minutos. Teste grátis com todas as funcionalidades — sem cadastro, sem cartão de crédito. Os downloads incluem uma marca d\'água; adquira uma licença para removê-la.',
+      'Crie atividades de maior e menor para vender na Hotmart, Kiwify, Etsy ou Amazon KDP. Este gerador produz exercícios de comparação visual onde as crianças determinam qual grupo tem mais ou menos imagens — desenvolvendo conceitos fundamentais de quantidade, comparação e pré-numeracia. Com mais de 3.000 ilustrações em 104 temas, você cria pacotes temáticos ilimitados. Atividades de "mais e menos" são essenciais no currículo de educação infantil e ensino fundamental, com demanda constante o ano inteiro. Perfeito para kits de matemática na Hotmart e apostilas de conceitos numéricos no Amazon KDP. Exporte PDFs a 300 DPI com gabarito automático e licença comercial inclusa. Teste grátis com marca d\'água — sem cadastro.',
   },
 
   howItWorks: {

@@ -2,28 +2,40 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'gerador páginas para colorir',
+    primaryKeyword: 'gerador de desenhos para colorir para vender na Etsy e KDP',
     secondaryKeywords: [
-      'gerador de páginas para colorir imprimíveis para vendedores Etsy',
-      'criador de atividades para colorir para editores Amazon KDP',
-      'vender páginas para colorir na Hotmart',
-      'gerador de páginas para colorir licença comercial',
+      'criar páginas para colorir para Hotmart',
+      'gerador de atividades de colorir para Amazon KDP',
+      'desenhos para colorir com licença comercial',
+      'livros de colorir para vender na Kiwify',
     ],
     lsiKeywords: [
-      'produtos digitais páginas para colorir para empreendedores',
-      'livros para colorir imprimíveis uso comercial',
-      'gerador de páginas para colorir com canvas livre e desenho à mão livre',
+      'licença comercial',
+      '300 DPI',
+      'pronto para impressão',
+      'desenho para colorir',
+      'página para colorir',
+      'download digital',
+      'livro de colorir',
+      'coordenação motora',
+      'educação infantil',
+      'ensino fundamental',
+      'negócio de imprimíveis',
+      'renda extra',
+      'Hotmart',
+      'Kiwify',
+      'Amazon KDP',
     ],
-    titleTag: 'Gerador Páginas para Colorir | Criar e Vender',
+    titleTag: 'Desenhos para colorir para vender online | LCS',
     metaDescription:
-      'Crie páginas para colorir para Hotmart, Etsy e KDP. Canvas de forma livre, 104 temas, desenho à mão livre, escala de cinzentos. Teste grátis com marca d\'água.',
+      'Crie desenhos para colorir para vender na Hotmart, Etsy e KDP. 104 temas, modo escala de cinza, licença comercial. Teste grátis com marca d\'água.',
   },
 
   hero: {
-    title: 'Gerador de Páginas para Colorir para Atividades de Colorir Personalizadas',
+    title: 'Crie desenhos para colorir para vender na Hotmart, Etsy e KDP',
     tagline: 'Designer de páginas para colorir em canvas de forma livre — explore 104 coleções de imagens temáticas, adicione desenhos à mão livre, inclua auxiliares de loja como campos de nome e linhas de caligrafia, e ative a exportação em escala de cinzentos para páginas para colorir económicas em tinta.',
     description:
-      'Crie páginas para colorir profissionais num canvas de forma livre onde coloca as imagens exatamente onde quiser — sem grelhas, sem modelos, liberdade criativa total. Explore a Biblioteca de Imagens integrada com mais de 3100 ilustrações coloridas em 104 coleções temáticas, clique em qualquer imagem para adicioná-la ao seu canvas, depois organize, redimensione, rode e sobreponha os elementos até que a sua página fique perfeita. A ferramenta de desenho à mão livre permite-lhe desenhar ilustrações personalizadas diretamente no canvas com cor e tamanho de pincel ajustáveis. Os auxiliares de loja adicionam um campo de nome e linhas de prática de caligrafia com um único clique — transformando as páginas para colorir em atividades prontas para a loja. Quando terminar, ative a opção de exportação em escala de cinzentos para converter a sua composição colorida em páginas para colorir económicas em tinta, perfeitas para impressão. Adicione temas de bordas decorativas, texto personalizado com efeitos de contorno e carregue as suas próprias imagens juntamente com o conteúdo da biblioteca. O Gerador de Páginas para Colorir não é sensível ao idioma — a saída é puramente visual, pelo que as atividades são idênticas em todos os idiomas. O Acesso Completo desbloqueia os 104 temas e os 11 idiomas de interface. Exporte PDFs e JPEGs prontos para impressão a 300 DPI nos formatos Carta, A4, Quadrado ou dimensões personalizadas. Quer venda pacotes de páginas para colorir na Etsy, compile livros para colorir para a Amazon KDP ou crie atividades de colorir para a loja na Hotmart, o Gerador de Páginas para Colorir oferece resultados profissionais em minutos — teste grátis com todas as funcionalidades, sem cadastro, sem cartão de crédito. Os downloads incluem uma marca d\'água; adquira uma licença para removê-la.',
+      'Crie desenhos para colorir para vender na Hotmart, Kiwify, Etsy ou Amazon KDP. Este gerador produz páginas para colorir com imagens temáticas de mais de 3.000 ilustrações em 104 temas — animais, veículos, alimentos, natureza e muito mais. O modo escala de cinza produz páginas econômicas em tinta, perfeitas para interiores de livros na Amazon KDP. Livros de colorir são um dos nichos MAIS lucrativos no KDP: baixo investimento, alta demanda, produção rápida. Na Hotmart e Kiwify, kits de desenhos para colorir temáticos vendem extremamente bem para pais e professores. Adicione linhas de caligrafia e campo de nome para criar atividades multicompetências. Exporte PDFs a 300 DPI com licença comercial inclusa. Teste grátis com marca d\'água — sem cadastro.',
   },
 
   howItWorks: {

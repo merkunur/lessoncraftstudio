@@ -2,28 +2,39 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'gerador caça ao tesouro',
+    primaryKeyword: 'gerador de caça ao tesouro para Etsy e KDP',
     secondaryKeywords: [
-      'atividades de caça ao tesouro imprimíveis para vendedores Etsy',
-      'gerador de puzzles direcionais para editores Amazon KDP',
-      'criador de caça ao tesouro com quadrícula licença comercial',
-      'vender atividades de caça ao tesouro na Hotmart',
+      'criar atividades de caça ao tesouro para Hotmart',
+      'jogo de caça ao tesouro imprimível para Amazon KDP',
+      'atividades de caça ao tesouro com licença comercial',
+      'caça ao tesouro para vender na Kiwify',
     ],
     lsiKeywords: [
-      'produtos digitais de caça ao tesouro para empreendedores',
-      'gerador de atividades de rastreio direcional uso comercial',
-      'negócio de puzzles de coordenadas imprimíveis ferramentas',
+      'licença comercial',
+      '300 DPI',
+      'pronto para impressão',
+      'caça ao tesouro',
+      'jogo de pistas',
+      'download digital',
+      'gabarito incluso',
+      'atenção visual',
+      'educação infantil',
+      'ensino fundamental',
+      'negócio de imprimíveis',
+      'renda extra',
+      'Hotmart',
+      'Kiwify',
     ],
-    titleTag: 'Gerador Caça ao Tesouro | Criar e Vender',
+    titleTag: 'Caça ao tesouro para vender online | LCS',
     metaDescription:
-      'Crie atividades de caça ao tesouro para Hotmart, Etsy e KDP. Quadrícula 5×5, dois modos direcionais, gabarito automático, 104 temas. Teste grátis com marca d\'água.',
+      'Crie atividades de caça ao tesouro para vender na Hotmart, Etsy e KDP. 104 temas, gabarito automático, licença comercial. Teste grátis com marca d\'água.',
   },
 
   hero: {
-    title: 'Gerador de Atividades de Caça ao Tesouro para Puzzles Direcionais',
+    title: 'Crie atividades de caça ao tesouro para vender na Hotmart e Etsy',
     tagline: 'Gere puzzles direcionais de procura de caminho numa quadrícula de coordenadas 5×5 — dois vocabulários de direção (Básico: cima/baixo/esquerda/direita e Cardinal: norte/sul/leste/oeste), pistas direcionais completamente localizadas em 11 idiomas, gabarito autogerado com localização do tesouro realçada, e cabeçalhos temáticos de tesouro em 104 coleções de imagens.',
     description:
-      'Crie atividades profissionais de caça ao tesouro onde os usuários seguem pistas de movimento sequenciais para localizar o tesouro escondido numa quadrícula de coordenadas 5×5 com letras e números (linhas A–E, colunas 1–5). Cada puzzle distribui 6 imagens temáticas pela quadrícula como pontos de referência, depois gera uma posição de início e exatamente 4 movimentos direcionais que conduzem à célula do tesouro. Escolha entre dois vocabulários de direção: o modo Básico usa cima, baixo, esquerda e direita para aprendizes iniciais, enquanto o modo Cardinal usa norte, sul, leste e oeste para raciocínio espacial mais avançado. O Gerador de Caça ao Tesouro é sensível ao idioma: mudar o idioma altera tanto o texto das instruções direcionais como o conteúdo das imagens, com todas as direções completamente traduzidas para os 11 idiomas suportados. Cada puzzle inclui um cabeçalho localizado autogerado com fundo verde-azulado (#2C8C7C), título dourado (#D4A017) em fonte Fredoka e descrição em areia na Quicksand — mostrando \"Caça ao Tesouro\" e \"Segue as pistas e encontra o tesouro!\" no idioma selecionado. O sistema de duplo canvas gera tanto um aba de atividade como um aba de gabarito — o gabarito realça a célula final do tesouro em amarelo pálido para que nunca tenha de a marcar manualmente. O Acesso Completo desbloqueia todos os 104 temas com mais de 3100 ilustrações e os 11 idiomas para direções e imagens localizadas. Adicione temas de fundo e temas de moldura com controlos de opacidade independentes, e exporte PDF e JPEG prontos para impressão a 300 DPI em tamanhos Carta, A4, Quadrado (1200×1200) ou personalizados. Quer venda packs de caça ao tesouro na Etsy, compile cadernos de competências direcionais para Amazon KDP ou crie atividades de quadrícula de coordenadas para Hotmart, este gerador produz puzzles prontos para produção em minutos — teste grátis com todas as funcionalidades — sem cadastro, sem cartão de crédito. Os downloads incluem marca d\'água; adquira uma licença para removê-la.',
+      'Crie atividades de caça ao tesouro para vender na Hotmart, Kiwify, Etsy ou Amazon KDP. Este gerador produz jogos de pistas visuais onde as crianças seguem um caminho de imagens temáticas para encontrar o tesouro — combinando atenção visual, contagem e diversão. Com mais de 3.000 ilustrações em 104 temas, você cria aventuras únicas para cada produto. Caça ao tesouro é um formato adorado por crianças e extremamente popular em festas infantis e atividades escolares. Perfeito para kits de jogos na Hotmart e livros de atividades no Amazon KDP. Exporte PDFs a 300 DPI com gabarito automático e licença comercial inclusa. Teste grátis com marca d\'água — sem cadastro.',
   },
 
   howItWorks: {

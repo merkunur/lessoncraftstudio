@@ -2,27 +2,39 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'gerador atividades peças faltantes',
+    primaryKeyword: 'quebra-cabeça peças faltantes para apostilas KDP',
     secondaryKeywords: [
-      'criador de puzzles de peças faltantes para vendedores Etsy',
-      'gerador de atividades de puzzles visuais para editores Amazon KDP',
-      'criador de puzzles de peças faltantes licença comercial Hotmart',
-      'vender atividades de peças faltantes imprimíveis na Etsy e Amazon',
+      'gerador de peças faltantes para vender na Hotmart',
+      'atividades de puzzle visual para Etsy',
+      'quebra-cabeça de completar imagens para Amazon KDP',
+      'atividades de peças faltantes com licença comercial',
     ],
     lsiKeywords: [
-      'produtos digitais de puzzles visuais para empreendedores',
-      'gerador de quebra-cabeças de peças faltantes uso comercial',
-      'atividades de puzzles imprimíveis para negócio online',
+      'licença comercial',
+      '300 DPI',
+      'pronto para impressão',
+      'peças faltantes',
+      'puzzle visual',
+      'download digital',
+      'gabarito incluso',
+      'raciocínio lógico',
+      'educação infantil',
+      'ensino fundamental',
+      'negócio de imprimíveis',
+      'renda extra',
+      'Hotmart',
+      'Kiwify',
     ],
-    titleTag: 'Gerador Atividades Peças Faltantes | Criar e Vender',
-    metaDescription: 'Crie puzzles de peças faltantes para Hotmart, Etsy e KDP. 6 formas de peça, dificuldade configurável, gabarito automático, 104 temas.',
+    titleTag: 'Peças faltantes para vender online | LCS',
+    metaDescription:
+      'Crie quebra-cabeças de peças faltantes para vender na Hotmart, Etsy e KDP. 104 temas, gabarito automático. Teste grátis com marca d\'água.',
   },
 
   hero: {
-    title: 'Gerador de Puzzles de Peças Faltantes Estilo Quebra-Cabeças Visual',
+    title: 'Crie quebra-cabeças de peças faltantes para vender na Hotmart e KDP',
     tagline: 'Gere quebra-cabeças estilo puzzle onde se recortam peças de imagens e os usuários identificam a opção numerada correta — com 6 formas de peça, 1–5 peças faltantes, 2–6 opções de solução com peças distratoras, gabaritos automáticos e design puramente visual que funciona em qualquer idioma.',
     description:
-      'Crie puzzles profissionais de peças faltantes onde uma imagem tem lacunas recortadas e os usuários identificam que opção numerada preenche cada espaço. O algoritmo inteligente de extração de peças encontra áreas visualmente distintas com suficiente variância de cor, garantindo que cada puzzle seja resolúvel e atrativo. Escolha entre 6 formas de peça — quadrado, círculo, retângulo vertical, retângulo horizontal, elipse vertical e elipse horizontal — e configure a dificuldade com 1–5 peças faltantes e 2–6 opções de solução que incluem peças distratoras para desafiar as competências de discriminação visual. Cada puzzle inclui um gabarito gerado automaticamente com etiquetas numéricas realçadas em amarelo colocadas dentro de cada lacuna mostrando a opção correta. O cabeçalho gerado automaticamente exibe \"Peças em Falta\" em turquesa (#06B6D4) com uma descrição em rosa (#DB2777) emoldurado num sistema de dupla borda — borda exterior verde-azulado (#14B8A6, 8px) e borda interior rosa intenso (#EC4899, 3px) — localizado nos 11 idiomas suportados. Peças Faltantes NÃO é sensível ao idioma: os puzzles são puramente visuais sem conteúdo dependente do idioma, pelo que cada puzzle funciona identicamente em todo o mundo. O Acesso Completo desbloqueia os 104 temas com mais de 3100 ilustrações e os 11 idiomas de interface. Adicione temas de fundo e temas de borda com controlos de opacidade independentes, e exporte PDFs e JPEGs prontos para impressão a 300 DPI nos formatos Carta, A4, Quadrado ou personalizado. Quer venda pacotes de puzzles visuais na Etsy, compile livros de quebra-cabeças para Amazon KDP ou crie atividades de pensamento crítico para Hotmart, este gerador produz puzzles prontos para produção em minutos — teste grátis com todas as funcionalidades — sem cadastro, sem cartão de crédito. Os downloads incluem uma marca d\'água; adquira uma licença para removê-la.',
+      'Crie quebra-cabeças de peças faltantes para vender na Hotmart, Kiwify, Etsy ou Amazon KDP. Este gerador produz puzzles visuais onde uma parte da imagem é removida e as crianças devem identificar a peça correta entre várias opções — desenvolvendo atenção visual, raciocínio lógico e habilidades de observação. Com mais de 3.000 ilustrações em 104 temas, você cria variações temáticas ilimitadas. Quebra-cabeças de peças faltantes são perfeitos para apostilas no Amazon KDP e kits de atividades na Hotmart — formato visual que funciona sem texto, ideal para qualquer idioma. Exporte PDFs a 300 DPI com gabarito automático e licença comercial inclusa. Teste grátis com marca d\'água — sem cadastro.',
   },
 
   howItWorks: {

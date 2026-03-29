@@ -2,28 +2,40 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'gerador atividades associação sombras',
+    primaryKeyword: 'atividades de sombras para vender na Etsy',
     secondaryKeywords: [
-      'gerador de atividades de associação de sombras para vendedores Etsy',
-      'criador de puzzles de siluetas imprimíveis para editores Amazon KDP',
-      'gerador de atividades de discriminação visual com licença comercial',
-      'vender atividades de associação de sombras na Hotmart',
+      'gerador de atividades de sombras para Hotmart',
+      'atividades de associar sombras para Amazon KDP',
+      'shadow matching com licença comercial',
+      'atividades de silhuetas para vender na Kiwify',
     ],
     lsiKeywords: [
-      'produtos digitais de discriminação visual para empreendedores',
-      'gerador de puzzles de siluetas uso comercial',
-      'atividades de perceção visual imprimíveis para negócio online',
+      'licença comercial',
+      '300 DPI',
+      'pronto para impressão',
+      'sombras',
+      'silhuetas',
+      'associação visual',
+      'download digital',
+      'gabarito incluso',
+      'percepção visual',
+      'educação infantil',
+      'ensino fundamental',
+      'negócio de imprimíveis',
+      'renda extra',
+      'Hotmart',
+      'Kiwify',
     ],
-    titleTag: 'Gerador Atividades Associação Sombras | Siluetas',
+    titleTag: 'Atividades de sombras para vender online | LCS',
     metaDescription:
-      'Crie atividades de associação de sombras para Hotmart, Etsy e KDP. Modos Sombra e Complete a Imagem, siluetas auto, 104 temas em PDF. Teste grátis com marca d\'água.',
+      'Crie atividades de associar sombras para vender na Hotmart, Etsy e KDP. 104 temas, gabarito automático, licença comercial. Teste grátis com marca d\'água.',
   },
 
   hero: {
-    title: 'Gerador de Atividades de Associação de Sombras para Atividades de Correspondência de Siluetas e Imagens Divididas',
+    title: 'Crie atividades de sombras para vender na Hotmart, Etsy e KDP',
     tagline: 'Dois modos de correspondência num só gerador — Associação de Sombras cria siluetas negras geradas automaticamente a partir de qualquer imagem, Complete a Imagem divide as imagens em metades — ambos com algoritmo de derangement Fisher-Yates que garante zero correspondências triviais, gabaritos autogerados e 104 coleções de imagens temáticas.',
     description:
-      'Crie atividades profissionais de associação de sombras onde os usuários associam imagens coloridas às suas siluetas ou reconectam metades de imagens separadas. O modo Associação de Sombras coloca 4 imagens coloridas etiquetadas A, B, C, D na linha superior e 4 siluetas negras autogeradas etiquetadas 1, 2, 3, 4 na linha inferior — as siluetas são criadas através de processamento de imagens a nível de píxel que converte cada píxel com alpha > 10 em preto puro, produzindo contornos precisos que preservam o perfil de transparência exato de cada imagem. O modo Complete a Imagem divide as imagens em metades com direção de corte horizontal ou vertical, etiqueta as primeiras metades A–D e as segundas metades 1–4, e adapta o layout conforme a orientação. Ambos os modos utilizam um algoritmo de derangement Fisher-Yates para garantir que nenhum elemento aparece na sua posição original, criando verdadeiros desafios de correspondência em cada geração. Ative ou desative a visualização das etiquetas A/B/C/D e 1/2/3/4, adicione campos opcionais de nome e data para uso online, e gere gabaritos automáticos que mostram cada emparelhamento correto letra-número. O Gerador de Associação de Sombras NÃO é sensível ao idioma: o resultado é puramente visual, sem conteúdo textual localizado na atividade. O Acesso Completo desbloqueia os 104 temas com mais de 3100 ilustrações e os 11 idiomas de interface. Adicione temas de fundo e de borda com controlos de opacidade independentes, inclua texto personalizado com sete opções de fontes, e exporte PDFs e JPEGs prontos para impressão a 300 DPI nos formatos Carta, A4, Quadrado (1200×1200) ou dimensões personalizadas. Quer venda pacotes de puzzles de siluetas na Etsy, compile cadernos de perceção visual para a Amazon KDP ou crie atividades rápidas de fim de aula para o Hotmart, este gerador produz atividades prontas para produção em minutos — teste grátis com todas as funcionalidades, sem cadastro, sem cartão de crédito. Os downloads incluem uma marca d\'água; adquira uma licença para removê-la.',
+      'Crie atividades de associar sombras para vender na Hotmart, Kiwify, Etsy ou Amazon KDP. Este gerador produz exercícios onde as crianças associam imagens coloridas às suas silhuetas correspondentes — desenvolvendo percepção visual, atenção aos detalhes e habilidades de discriminação de formas. Com mais de 3.000 ilustrações em 104 temas, você cria pacotes temáticos variados. Atividades de sombras são um formato visual universal que não depende de idioma — ampliando seu mercado para o mundo inteiro. Perfeito para kits de atividades na Hotmart e apostilas de habilidades visuais no Amazon KDP. Exporte PDFs a 300 DPI com gabarito automático e licença comercial inclusa. Teste grátis com marca d\'água — sem cadastro.',
   },
 
   howItWorks: {

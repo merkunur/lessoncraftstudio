@@ -2,28 +2,40 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'gerador atividades preposições',
+    primaryKeyword: 'atividades de preposições para PLE vendedores Etsy',
     secondaryKeywords: [
-      'atividades de preposições imprimíveis para Etsy',
-      'gerador de atividades de vocabulário espacial para Amazon KDP',
-      'vender atividades de preposições na Hotmart',
-      'atividades de preposições espaciais licença comercial',
+      'gerador de atividades de preposições para Hotmart',
+      'atividades de PLE português língua estrangeira para KDP',
+      'exercícios de preposições com imagens licença comercial',
+      'atividades de vocabulário PLE para vender online',
     ],
     lsiKeywords: [
-      'produtos digitais de vocabulário espacial para empreendedores',
-      'negócio de atividades de preposições imprimíveis online',
-      'gerador de atividades de linguagem espacial uso comercial',
+      'licença comercial',
+      '300 DPI',
+      'pronto para impressão',
+      'preposições',
+      'PLE',
+      'português língua estrangeira',
+      'download digital',
+      'gabarito incluso',
+      'vocabulário',
+      'Celpe-Bras',
+      'ensino de idiomas',
+      'negócio de imprimíveis',
+      'renda extra',
+      'Hotmart',
+      'Kiwify',
     ],
-    titleTag: 'Gerador Atividades Preposições | Criar e Vender',
+    titleTag: 'Atividades de preposições PLE para vender | LCS',
     metaDescription:
-      'Crie atividades de preposições para vender na Hotmart, Etsy e KDP. 8 preposições espaciais, preencher a lacuna e escolha múltipla. Teste grátis com marca d\'água.',
+      'Crie atividades de preposições em 11 idiomas para vender na Hotmart, Etsy e KDP. Mega-nicho PLE, gabarito automático. Teste grátis com marca d\'água.',
   },
 
   hero: {
-    title: 'Gerador de Atividades de Preposições para Prática de Vocabulário Espacial',
+    title: 'Crie atividades de preposições para vender na Hotmart, Etsy e KDP',
     tagline: 'Oito preposições espaciais combinadas com exercícios de imagens e formas — construindo o vocabulário espacial frase a frase.',
     description:
-      'Crie atividades de preposições profissionais que ensinam relações espaciais através de exercícios práticos com imagens e formas. Os usuários praticam oito preposições fundamentais — em/dentro de, em cima de, debaixo de, ao lado de, atrás de, entre, acima de e à frente de — através de dois modos de exercício distintos: Preencher a Lacuna, onde os usuários escrevem a preposição que falta, e Escolha Múltipla, onde identificam a imagem que corresponde a uma descrição espacial. Selecione quais preposições incluir a partir da lista integrada e configure de 1 a 8 exercícios por atividade. Explore mais de 3100 ilustrações selecionadas em 104 temas para os objetos posicionados, e escolha entre 8 formas geométricas (círculo, cubo, cilindro, coração, hexágono, quadrado, estrela, triângulo) como pontos de referência espacial. O Acesso Completo desbloqueia os 11 idiomas suportados com preposições gramaticalmente corretas — alemão com contrações dativas como \"im" e \"am", francês com regras de elisão para \" l\' \" antes de vogais, espanhol com artigos com género (el/la) — multiplicando o seu catálogo de produtos por onze a partir de um único fluxo de trabalho. Cada atividade gera um gabarito automático, e pode exportar PDFs prontos para impressão e JPEGs a mais de 400 DPI nos formatos Carta, A4, Quadrado ou dimensões personalizadas. Quer venda pacotes temáticos de preposições na Etsy, compile livros de vocabulário espacial para a Amazon KDP ou crie centros de linguagem diferenciados para o Hotmart, o Gerador de Atividades de Preposições oferece resultados profissionais em minutos — teste grátis com todas as funcionalidades, sem cadastro, sem cartão de crédito. Os downloads incluem uma marca d\'água; adquira uma licença para removê-la.',
+      'Crie atividades de preposições com imagens para vender na Hotmart, Kiwify, Etsy ou Amazon KDP. Este gerador produz exercícios visuais onde as crianças identificam relações espaciais — em cima, embaixo, dentro, fora, ao lado — usando imagens temáticas como contexto. O mega-nicho: PLE (Português como Língua Estrangeira) é um mercado global em explosão. O português é a 6ª língua mais falada do mundo e o Celpe-Bras é aplicado em mais de 100 países. Atividades de preposições em português se vendem para escolas de idiomas e professores no mundo inteiro. Com 11 idiomas e mais de 3.000 imagens, exporte PDFs a 300 DPI com gabarito e licença comercial. Teste grátis com marca d\'água — sem cadastro.',
   },
 
   howItWorks: {

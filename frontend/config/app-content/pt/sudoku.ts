@@ -2,28 +2,41 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'gerador atividades sudoku imagens',
+    primaryKeyword: 'gerador de sudoku com imagens para livros KDP',
     secondaryKeywords: [
-      'atividades de sudoku infantil imprimíveis para vendedores Etsy',
-      'gerador de sudoku com imagens para editores Amazon KDP',
-      'vender atividades de sudoku infantil na Hotmart',
-      'atividades de sudoku com imagens licença comercial',
+      'criar sudoku para crianças para Hotmart',
+      'gerador de sudoku visual para vender na Etsy',
+      'livros de sudoku com imagens para Amazon KDP',
+      'sudoku infantil com licença comercial',
     ],
     lsiKeywords: [
-      'produtos digitais de sudoku infantil para empreendedores',
-      'negócio de atividades de puzzles lógicos imprimíveis',
-      'gerador de sudoku com imagens uso comercial',
+      'licença comercial',
+      '300 DPI',
+      'pronto para impressão',
+      'sudoku',
+      'sudoku visual',
+      'raciocínio lógico',
+      'download digital',
+      'gabarito incluso',
+      'jogos de lógica',
+      'educação infantil',
+      'ensino fundamental',
+      'negócio de imprimíveis',
+      'renda extra',
+      'Hotmart',
+      'Kiwify',
+      'Amazon KDP',
     ],
-    titleTag: 'Gerador Atividades Sudoku Imagens | Criar e Vender',
+    titleTag: 'Sudoku com imagens para vender no KDP | LCS',
     metaDescription:
-      'Crie atividades de sudoku com imagens para Hotmart, Etsy e KDP. Quadrícula 4×4, três dificuldades, 104 temas, gabarito automático. Teste grátis com marca d\'água.',
+      'Crie sudoku com imagens para vender na Hotmart, Etsy e KDP. Grades visuais para crianças, gabarito automático. Teste grátis com marca d\'água.',
   },
 
   hero: {
-    title: 'Gerador de Atividades de Sudoku com Imagens para Puzzles Lógicos 4×4',
+    title: 'Crie sudoku com imagens para vender na Hotmart, Etsy e KDP',
     tagline: 'Sudoku visual com imagens em vez de números — três níveis de dificuldade de 4 a 8 células vazias, gabaritos automáticos com quadrículas completas e seleção de imagens por tema em 104 coleções para puzzles vendíveis em todo o mundo sem tradução.',
     description:
-      'Crie atividades profissionais de sudoku com imagens numa quadrícula 4×4 onde os usuários completam as células vazias com a imagem correta usando lógica de linhas e colunas. Cada puzzle usa exatamente 4 imagens únicas que devem aparecer uma vez em cada linha e uma vez em cada coluna — as mesmas regras do sudoku clássico, mas com ilustrações coloridas em vez de números. Escolha entre três níveis de dificuldade: Fácil elimina 4 células, Médio elimina 6 e Difícil elimina 8 — metade da quadrícula. Selecione imagens através da seleção por tema que escolhe 4 imagens aleatórias de qualquer uma das 104 coleções temáticas, ou selecione manualmente exatamente 4 imagens da biblioteca, da pesquisa ou das suas próprias imagens carregadas. O design premium da quadrícula apresenta cores de bloco alternadas em azul claro e rosa claro, sombras multicamada e uma borda exterior índigo com cantos arredondados. Cada puzzle inclui um cabeçalho \"Sudoku de Imagens\" localizado nos 11 idiomas e um gabarito de canvas duplo que mostra a quadrícula completa com as 16 células preenchidas. Adicione temas de fundo e de borda com controlos de opacidade independentes, e exporte PDFs e JPEGs prontos para impressão a 300 DPI nos formatos Carta, A4 ou personalizado. Como o sudoku com imagens é completamente visual — nenhuma palavra aparece na quadrícula do puzzle — cada atividade funciona de forma idêntica nos 11 idiomas, tornando os seus produtos vendíveis em todo o mundo sem qualquer modificação. O Acesso Completo desbloqueia os 104 temas com mais de 3100 ilustrações e os 11 idiomas de interface. Quer venda pacotes temáticos de sudoku na Etsy, compile cadernos de lógica para a Amazon KDP ou crie atividades de raciocínio para o Hotmart, este gerador produz puzzles prontos para venda em minutos — teste grátis com todas as funcionalidades, sem cadastro, sem cartão de crédito. Os downloads incluem uma marca d\'água; adquira uma licença para removê-la.',
+      'Crie sudoku com imagens para vender na Hotmart, Kiwify, Etsy ou Amazon KDP. Este gerador produz puzzles de sudoku onde os números são substituídos por imagens temáticas — tornando o jogo acessível para crianças que ainda não dominam números. Com mais de 3.000 ilustrações em 104 temas, você cria livros inteiros de sudoku visual. Livros de sudoku são um dos nichos MAIS lucrativos no Amazon KDP, e a versão com imagens para crianças tem competição mínima em português. Perfeito para livros de raciocínio lógico no KDP e kits de jogos educativos na Hotmart. Exporte PDFs a 300 DPI com gabarito automático e licença comercial inclusa. Teste grátis com marca d\'água — sem cadastro.',
   },
 
   howItWorks: {

@@ -2,28 +2,39 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'gerador atividades grande pequeno',
+    primaryKeyword: 'atividades de grande e pequeno para vender online',
     secondaryKeywords: [
-      'atividades de comparação de tamanhos imprimíveis para vendedores Etsy',
-      'gerador de atividades grande e pequeno personalizadas para Amazon KDP',
-      'vender atividades de discriminação visual de tamanhos na Hotmart',
-      'atividades grande pequeno comparação de tamanhos licença comercial',
+      'gerador de atividades de tamanhos para Hotmart',
+      'atividades de comparação de tamanho para Etsy',
+      'exercícios de grande e pequeno para Amazon KDP',
+      'atividades de tamanhos com licença comercial',
     ],
     lsiKeywords: [
-      'produtos digitais de atividades comparação de tamanhos para empreendedores',
-      'atividade de discriminação visual de tamanhos imprimíveis online',
-      'gerador de atividades grande pequeno uso comercial',
+      'licença comercial',
+      '300 DPI',
+      'pronto para impressão',
+      'grande e pequeno',
+      'comparação de tamanhos',
+      'download digital',
+      'gabarito incluso',
+      'conceitos matemáticos',
+      'educação infantil',
+      'pré-escola',
+      'negócio de imprimíveis',
+      'renda extra',
+      'Hotmart',
+      'Kiwify',
     ],
-    titleTag: 'Gerador Atividades Grande Pequeno | Criar e Vender',
+    titleTag: 'Atividades grande e pequeno para vender | LCS',
     metaDescription:
-      'Crie atividades de comparação de tamanhos para Hotmart, Etsy e KDP. 5 tipos de perguntas, modos idênticos e diferentes, 104 temas. Teste grátis com marca d\'água.',
+      'Crie atividades de grande e pequeno para vender na Hotmart, Etsy e KDP. 104 temas, gabarito automático, licença comercial. Teste grátis com marca d\'água.',
   },
 
   hero: {
-    title: 'Gerador de Atividades Grande e Pequeno para Exercícios de Comparação de Tamanhos',
+    title: 'Crie atividades de grande e pequeno para vender na Hotmart e Etsy',
     tagline: 'Cinco tipos de perguntas — circundar o maior, circundar o menor, circundar o médio, numerar do menor ao maior, numerar do maior ao menor — com modos de imagens idênticas e diferentes para a discriminação visual de tamanhos.',
     description:
-      'Crie atividades profissionais de comparação de tamanhos onde os usuários observam imagens temáticas apresentadas em diferentes tamanhos e identificam qual é maior, menor ou de tamanho médio, ou as numeram por ordem do menor ao maior ou do maior ao menor. Cinco tipos de perguntas distintos cobrem cada competência de discriminação de tamanhos: Circundar o Maior, Circundar o Menor, Circundar o Médio, Numerar 1–2–3 do Menor ao Maior e Numerar 1–2–3 do Maior ao Menor. Dois modos de imagens criam exercícios fundamentalmente diferentes: as Imagens Idênticas mostram a mesma imagem em diferentes tamanhos para uma perceção pura do tamanho, enquanto as Imagens Diferentes mostram objetos distintos para um raciocínio de tamanho relativo. Configure de 1 a 10 exercícios por página com 2 ou 3 imagens por exercício — duas imagens para comparações mais simples, três para exercícios mais difíceis que incluem a opção do médio. Cada atividade é totalmente visual com zero texto na saída, tornando-as universalmente utilizáveis independentemente do idioma ou nível de leitura. O conteúdo provém da Biblioteca de Imagens integrada com mais de 3100 ilustrações em 104 temas. Um gabarito gerado automaticamente destaca as respostas corretas para verificação instantânea. O Acesso Completo desbloqueia os 104 temas e os 11 idiomas de interface. Exporte PDFs prontos para impressão e JPEGs a 300 DPI nos formatos Carta, A4 ou dimensões personalizadas. Quer venda pacotes de comparação de tamanhos na Etsy, compile cadernos de aprendizagem precoce para a Amazon KDP ou crie centros visuais diferenciados para o Hotmart, o Gerador de Atividades Grande e Pequeno produz resultados profissionais em minutos — teste grátis com todas as funcionalidades, sem cadastro, sem cartão de crédito. Os downloads incluem uma marca d\'água; adquira uma licença para removê-la.',
+      'Crie atividades de comparação de tamanhos para vender na Hotmart, Kiwify, Etsy ou Amazon KDP. Este gerador produz exercícios onde as crianças identificam e comparam grande, médio e pequeno usando imagens temáticas — uma habilidade fundamental na educação infantil e pré-escola. Com mais de 3.000 ilustrações em 104 temas, você cria pacotes temáticos variados. Atividades de comparação de tamanhos são básicas no currículo de educação infantil e têm demanda constante entre pais e professores brasileiros. Perfeito para kits de educação infantil na Hotmart e apostilas de conceitos matemáticos no Amazon KDP. Exporte PDFs a 300 DPI com gabarito automático e licença comercial inclusa. Teste grátis com marca d\'água — sem cadastro.',
   },
 
   howItWorks: {

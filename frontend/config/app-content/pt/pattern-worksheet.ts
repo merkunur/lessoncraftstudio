@@ -2,28 +2,40 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'gerador atividades de padrões',
+    primaryKeyword: 'atividades de reconhecimento de padrões para vendedores Etsy',
     secondaryKeywords: [
-      'gerador de atividades de padrões imprimíveis para vendedores Etsy',
-      'criador de atividades de reconhecimento de sequências para Amazon KDP',
-      'vender atividades de completar padrões na Hotmart',
-      'gerador de atividades de padrões licença comercial',
+      'gerador de atividades de padrões para Hotmart',
+      'exercícios de padrões visuais para Amazon KDP',
+      'atividades de reconhecimento de padrões com licença comercial',
+      'atividades de padrões para vender na Kiwify',
     ],
     lsiKeywords: [
-      'produtos digitais atividades de sequências lógicas para empreendedores',
-      'atividades de reconhecimento de padrões imprimíveis uso comercial',
-      'gerador de atividades de padrões nove tipos de sequências',
+      'licença comercial',
+      '300 DPI',
+      'pronto para impressão',
+      'padrões',
+      'reconhecimento visual',
+      'raciocínio lógico',
+      'download digital',
+      'gabarito incluso',
+      'matemática visual',
+      'educação infantil',
+      'ensino fundamental',
+      'negócio de imprimíveis',
+      'renda extra',
+      'Hotmart',
+      'Kiwify',
     ],
-    titleTag: 'Gerador Atividades de Padrões | Criar e Vender',
+    titleTag: 'Atividades de padrões para vender online | LCS',
     metaDescription:
-      'Crie atividades de padrões para Hotmart, Etsy e KDP. Nove tipos de padrões, dois modos de pergunta, config por exercício, 104 temas. Teste grátis com marca d\'água.',
+      'Crie atividades de reconhecimento de padrões para vender na Hotmart, Etsy e KDP. 104 temas, gabarito automático. Teste grátis com marca d\'água.',
   },
 
   hero: {
-    title: 'Gerador de Atividades de Padrões para Exercícios de Completar Sequências em Grelha',
+    title: 'Crie atividades de padrões para vender na Hotmart, Etsy e KDP',
     tagline: 'Nove tipos de padrões de AB a ABCD — dois modos de pergunta (caixa em branco e escolha múltipla) — com configuração independente por exercício para o tipo de padrão, o modo de pergunta e o tema em cada página.',
     description:
-      'Crie atividades profissionais de completar padrões onde os usuários identificam sequências repetitivas e completam o elemento em falta — ou escolhem a resposta correta entre opções múltiplas. Nove tipos de padrões distintos cobrem todos os níveis de complexidade de sequências: AB alterna dois elementos, AAB e ABB introduzem agrupamentos assimétricos, ABC rota três elementos, AABB emparelha dois de cada um, ABBC e AABC acrescentam padrões assimétricos de três imagens, ABCC estende com terminações duplas, e ABCD rota quatro elementos diferentes para o máximo desafio. Dois modos de pergunta criam exercícios fundamentalmente diferentes a partir de cada tipo de padrão: Caixa em Branco substitui um elemento por um espaço vazio que os usuários devem preencher, enquanto Escolha Múltipla apresenta o espaço vazio acompanhado de três respostas possíveis com uma correta e dois distratores. Configure de 1 a 8 exercícios por página com cada exercício parametrizado independentemente para tipo de padrão, modo de pergunta e tema — uma mesma página pode combinar um exercício AB em caixa em branco com um exercício ABCD em escolha múltipla. Ative o Início Aleatório para começar os padrões a meio do ciclo e a Posição Aleatória do Espaço em Branco para colocar o elemento em falta em qualquer lugar da sequência para maior dificuldade. O conteúdo provém da Biblioteca de Imagens integrada com mais de 3100 ilustrações em 104 temas. Um aba de gabarito separado mostra todas as caixas em branco preenchidas com os elementos corretos do padrão para verificação instantânea. O Acesso Completo desbloqueia os 104 temas e os 11 idiomas de interface. Exporte PDFs e JPEGs prontos para impressão em alta resolução nos formatos Carta, A4, Quadrado ou dimensões personalizadas. Cada atividade é totalmente visual com apenas imagens em filas de grelha e zero texto na saída, tornando os produtos universalmente vendíveis sem tradução. Quer crie pacotes de reconhecimento de padrões na Etsy, compile cadernos de aprendizagem precoce para a Amazon KDP ou construa centros visuais diferenciados para o Hotmart, o Gerador de Atividades de Padrões oferece a maior variedade de exercícios de padrões disponível — teste grátis com todas as funcionalidades, sem cadastro, sem cartão de crédito. Os downloads incluem uma marca d\'água; adquira uma licença para removê-la.',
+      'Crie atividades de reconhecimento de padrões para vender na Hotmart, Kiwify, Etsy ou Amazon KDP. Este gerador produz exercícios onde as crianças identificam, continuam e completam padrões visuais usando imagens temáticas — uma habilidade fundamental em matemática e raciocínio lógico. Com mais de 3.000 ilustrações em 104 temas, você cria exercícios com dificuldade progressiva. Atividades de padrões são essenciais na BNCC e exigidas em todas as séries iniciais do ensino fundamental. Perfeito para kits de matemática na Hotmart e apostilas de raciocínio lógico no Amazon KDP. Exporte PDFs a 300 DPI com gabarito automático e licença comercial inclusa. Teste grátis com marca d\'água — sem cadastro.',
   },
 
   howItWorks: {

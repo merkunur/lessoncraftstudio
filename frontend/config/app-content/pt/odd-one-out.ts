@@ -2,28 +2,39 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'gerador atividades intruso',
+    primaryKeyword: 'atividades de encontre o intruso para vender na Etsy e KDP',
     secondaryKeywords: [
-      'gerador de atividades do intruso imprimíveis para vendedores Etsy',
-      'criador de atividades de discriminação visual para editores Amazon KDP',
-      'gerador de atividades encontre o diferente com licença comercial',
-      'vender atividades do intruso na Hotmart',
+      'gerador de encontre o diferente para Hotmart',
+      'atividades de intruso para vender na Amazon KDP',
+      'exercícios de encontrar o diferente com licença comercial',
+      'encontre o intruso para vender na Kiwify',
     ],
     lsiKeywords: [
-      'produtos digitais de atividades do intruso para empreendedores',
-      'gerador de atividades de discriminação visual uso comercial',
-      'atividades encontre o diferente imprimíveis para negócio online',
+      'licença comercial',
+      '300 DPI',
+      'pronto para impressão',
+      'encontre o intruso',
+      'encontre o diferente',
+      'download digital',
+      'gabarito incluso',
+      'raciocínio lógico',
+      'educação infantil',
+      'ensino fundamental',
+      'negócio de imprimíveis',
+      'renda extra',
+      'Hotmart',
+      'Kiwify',
     ],
-    titleTag: 'Gerador Atividades Intruso | Criar e Vender',
+    titleTag: 'Encontre o intruso para vender online | LCS',
     metaDescription:
-      'Crie atividades do intruso para Hotmart, Etsy e KDP. Dois modos de geração, gabarito automático com círculos vermelhos, 104 temas. Teste grátis com marca d\'água.',
+      'Crie atividades de encontre o intruso para vender na Hotmart, Etsy e KDP. 104 temas, gabarito automático. Teste grátis com marca d\'água — sem cadastro.',
   },
 
   hero: {
-    title: 'Gerador de Atividades do Intruso para Puzzles de Discriminação Visual',
+    title: 'Crie atividades de encontre o intruso para vender na Hotmart e KDP',
     tagline: 'Dois modos de geração — Idêntico e Similar — com substituição por exercício, de 5 a 10 exercícios configuráveis, gabaritos autogerados com marcadores de círculo vermelho e puzzles puramente visuais que funcionam nos 11 idiomas sem tradução.',
     description:
-      'Crie atividades profissionais de encontre o diferente onde os usuários identificam e rodeiam o elemento intruso em cada fila de quatro imagens. Escolha entre dois modos de geração: o modo Idêntico coloca três clones da mesma imagem junto a uma imagem diferente do mesmo tema para desafios de encontrar a diferença, enquanto o modo Similar utiliza três imagens do Tema A e uma imagem do Tema B para puzzles de discriminação entre categorias. Substitua o modo por exercício para misturar níveis de dificuldade numa única atividade. Configure de 5 a 10 exercícios por página com um valor predefinido de 6, e ative ou desative os campos opcionais de nome e data e os números de exercício para um formato pronto para a loja. Cada atividade gera um gabarito complementar num aba de canvas separado — o gabarito desenha um círculo vermelho à volta do elemento intruso em cada fila para que nunca marque as respostas manualmente. O cabeçalho autogerado apresenta uma moldura exterior coral, uma moldura interior âmbar e um fundo turquesa com o título localizado \"Encontra o Diferente\" em Fredoka e as instruções em Quicksand nos 11 idiomas. Como os puzzles são totalmente visuais — não aparece nenhuma palavra na atividade — não são sensíveis ao idioma e funcionam identicamente em qualquer localização. O Acesso Completo desbloqueia todos os 104 temas com mais de 3100 ilustrações e os 11 idiomas de interface. Adicione temas de fundo e de moldura com controlos de opacidade independentes, e exporte PDF e JPEG prontos para impressão a 300 DPI em formato Carta, A4, Quadrado ou dimensões personalizadas. Quer venda packs de puzzles visuais na Etsy, compile cadernos de pensamento crítico para Amazon KDP ou crie atividades para a loja na Hotmart, este gerador produz atividades do intruso prontas para produção em minutos — teste grátis com todas as funcionalidades, sem cadastro, sem cartão de crédito. Os downloads incluem uma marca d\'água; adquira uma licença para removê-la.',
+      'Crie atividades de encontre o intruso para vender na Hotmart, Kiwify, Etsy ou Amazon KDP. Este gerador produz exercícios onde as crianças observam um grupo de imagens e identificam qual não pertence ao conjunto — desenvolvendo raciocínio lógico, categorização e atenção aos detalhes. Com mais de 3.000 ilustrações em 104 temas, você cria variações ilimitadas com diferentes níveis de dificuldade. "Encontre o diferente" é um dos formatos de atividades mais populares entre crianças e pais. Perfeito para livros de passatempos no Amazon KDP e kits de raciocínio lógico na Hotmart. Exporte PDFs a 300 DPI com gabarito automático e licença comercial inclusa. Teste grátis com marca d\'água — sem cadastro.',
   },
 
   howItWorks: {

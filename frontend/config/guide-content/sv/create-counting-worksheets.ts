@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'räkne- och diagramarbetsblad',
+    primaryKeyword: 'skapa räkneblad att sälja på Etsy',
     secondaryKeywords: [
       'bilddiagram arbetsblad generator',
       'skapa räkne- och diagramarbetsblad',
@@ -17,7 +17,7 @@ const content: GuideContent = {
       'Amazon KDP datakompetens arbetsböcker',
       'kommersiell licens bilddiagram-skapare',
     ],
-    titleTag: 'Räkne- och diagramarbetsblad — Guide — Steg-för-Steg Guide',
+    titleTag: 'Räkneblad att sälja på Etsy | LessonCraftStudio',
     metaDescription: 'Hur du skapar räkningsarbetsblad med bilddiagram, automatiskt facit och 104 teman. Steg-för-steg-guide för att sälja printables på Etsy, KDP och Gumroad.',
   },
 

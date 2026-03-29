@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'skattjakt arbetsblad',
+    primaryKeyword: 'skapa skattjakter att sälja',
     secondaryKeywords: [
       'skapa skattjakt arbetsblad att sälja',
       'skattjakt arbetsblad generator kommersiellt bruk',
@@ -17,7 +17,7 @@ const content: GuideContent = {
       'Amazon KDP riktnings-vägfinnararbetsböcker',
       'kommersiell licens skattjakt verktyg',
     ],
-    titleTag: 'Skattjakt arbetsblad — Guide — Komplett Guide för Säljare',
+    titleTag: 'Skattjakter att sälja online | LessonCraftStudio',
     metaDescription: 'Skapa skattjakt arbetsblad på ett 5×5 rutnät med riktningsförflyttningar, tematiska landmärken och automatiskt facit. Steg-för-steg-guide för Etsy och KDP.',
   },
 

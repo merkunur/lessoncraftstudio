@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'skapa mönsterarbetsblad',
+    primaryKeyword: 'skapa mönsterblad att sälja',
     secondaryKeywords: [
       'mönsterigenkänning arbetsblad för barn',
       'mönsterarbetsblad generator',
@@ -17,7 +17,7 @@ const content: GuideContent = {
       'Amazon KDP mönsteraktivitetsböcker',
       'kommersiell licens arbetsbladsverktyg',
     ],
-    titleTag: 'Hur du skapar mönsterarbetsblad — Steg-för-steg-guide',
+    titleTag: 'Mönsterblad att sälja online | LessonCraftStudio',
     metaDescription: 'Skapa mönsterarbetsblad med 9 typer, tematiska bilder, automatiska facit och 2 frågeformat. Exportera tryckfärdiga PDF att sälja på Etsy, Amazon KDP och.',
   },
 

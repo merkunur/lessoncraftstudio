@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'skapa matchningsarbetsblad',
+    primaryKeyword: 'skapa kopplingsblad att sälja',
     secondaryKeywords: [
       'matchningsarbetsblad för förskola',
       'matchningsarbetsblad generator',
@@ -17,7 +17,7 @@ const content: GuideContent = {
       'Amazon KDP matchnings-aktivitetsböcker',
       'kommersiell licens arbetsbladsverktyg',
     ],
-    titleTag: 'Skapa matchningsarbetsblad för förskola — Guide — Säljguide',
+    titleTag: 'Kopplingsblad att sälja online | LessonCraftStudio',
     metaDescription: 'Hur du skapar matchningsarbetsblad för förskola. Använd 4 lägen, tematiska bilder, automatiska facit med kopplingslinjer och exportera PDF att sälja på Etsy.',
   },
 

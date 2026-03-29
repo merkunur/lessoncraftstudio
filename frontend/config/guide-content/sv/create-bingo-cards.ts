@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'skapa bingokort',
+    primaryKeyword: 'skapa bingo-brickor med bilder att sälja',
     secondaryKeywords: [
       'gör bingokort med bilder',
       'bingokort generator för barn',
@@ -17,7 +17,7 @@ const content: GuideContent = {
       'kommersiell licens bingoverktyg',
       'flera unika bingokort generator',
     ],
-    titleTag: 'Skapa bingokort med tematiska bilder — Guide — Säljguide',
+    titleTag: 'Bingo-brickor att sälja online | LessonCraftStudio',
     metaDescription: 'Hur du skapar bingokort med tematiska bilder. Välj rutnätsstorlekar, generera unika kort med uppropskort och exportera tryckfärdiga PDF att sälja på Etsy och.',
   },
 

@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'skapa labyrintarbetsblad',
+    primaryKeyword: 'skapa labyrinter att sälja på Etsy',
     secondaryKeywords: [
       'labyrintarbetsblad generator',
       'utskriftsklara labyrintaktivitetsblad',
@@ -17,7 +17,7 @@ const content: GuideContent = {
       'labyrintarbetsblad med tematiska bilder',
       'kommersiell licens labyrintgenerator',
     ],
-    titleTag: 'Hur du skapar labyrintarbetsblad — Steg-för-steg-guide',
+    titleTag: 'Labyrinter att sälja på Etsy | LessonCraftStudio',
     metaDescription: 'Hur du skapar labyrintarbetsblad med 3 spellägen, tematiska bilder och facit. Generera utskriftsklara labyrintaktivitetsblad att sälja på Etsy och Amazon KDP.',
   },
 

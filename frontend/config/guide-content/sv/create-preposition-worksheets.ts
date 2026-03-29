@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'prepositionsarbetsblad',
+    primaryKeyword: 'skapa prepositionsblad SFI att sälja',
     secondaryKeywords: [
       'skapa prepositionsarbetsblad att sälja',
       'prepositionsarbetsblad generator kommersiellt bruk',
@@ -17,7 +17,7 @@ const content: GuideContent = {
       'Amazon KDP rumsligt språk aktivitetsböcker',
       'kommersiell licens prepositionsarbetsblad verktyg',
     ],
-    titleTag: 'Prepositionsarbetsblad — Guide — Komplett Guide för Säljare',
+    titleTag: 'Prepositionsblad SFI att sälja | LessonCraftStudio',
     metaDescription: 'Skapa prepositionsarbetsblad med två övningslägen, formersättning för scenvariation, 7-prepositions kryssruta och inhemska lägesord på 11 språk. Prova.',
   },
 

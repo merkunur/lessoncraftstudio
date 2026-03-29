@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'bilddiagram arbetsblad',
+    primaryKeyword: 'skapa diagramblad att sälja',
     secondaryKeywords: [
       'skapa bilddiagram arbetsblad att sälja',
       'diagram räkning arbetsblad generator kommersiellt bruk',
@@ -17,7 +17,7 @@ const content: GuideContent = {
       'Amazon KDP datakompetens arbetsböcker med stapeldiagram',
       'kommersiell licens diagram räkning verktyg',
     ],
-    titleTag: 'Bilddiagram arbetsblad — Guide — Komplett Guide för Säljare',
+    titleTag: 'Diagramblad att sälja online | LessonCraftStudio',
     metaDescription: 'Skapa bilddiagram arbetsblad med 4×5 utspridda rutnät, automatiskt facit, slumpmässig bildfördelning och 104 teman. Steg-för-steg-guide för Etsy och KDP.',
   },
 

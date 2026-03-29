@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'skapa skrivövningsblad',
+    primaryKeyword: 'skapa skrivövningar att sälja',
     secondaryKeywords: [
       'gör skrivövningar arbetsblad för barn',
       'skrivövningar arbetsblad generator',
@@ -17,7 +17,7 @@ const content: GuideContent = {
       'sälja skrivövningar på Etsy',
       'Amazon KDP skrivarbetsböcker',
     ],
-    titleTag: 'Skapa skrivövningsblad — Steg-för-steg-guide — Säljguide',
+    titleTag: 'Skrivövningar att sälja online | LessonCraftStudio',
     metaDescription: 'Skapa skrivövningsblad med spåra, toningsövning och guidad kopia. Streckordningspilar, fem typsnittsstilar och PDF-export för Etsy och KDP. Prova idag.',
   },
 

@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'kategorisorterings-arbetsblad',
+    primaryKeyword: 'skapa sorteringsblad att sälja',
     secondaryKeywords: [
       'skapa sorteringsarbetsblad för barn',
       'bildsortering arbetsblad generator',
@@ -17,7 +17,7 @@ const content: GuideContent = {
       'Amazon KDP klassificeringsarbetsböcker',
       'kommersiell licens sorteringsverktyg',
     ],
-    titleTag: 'Kategorisorterings-arbetsblad — Guide — Steg-för-Steg Guide',
+    titleTag: 'Sorteringsblad att sälja online | LessonCraftStudio',
     metaDescription: 'Skapa sorteringsarbetsblad med tvåkategori temaläge, 4–12 bilder, blandat utklippsrutnät och automatiska facit. Steg-för-steg-guide för Etsy och KDP. Prova.',
   },
 

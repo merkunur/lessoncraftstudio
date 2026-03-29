@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'skapa hitta föremålen-arbetsblad',
+    primaryKeyword: 'skapa hitta och finn att sälja',
     secondaryKeywords: [
       'hitta föremålen-scen generator',
       'I Spy arbetsblad för barn',
@@ -17,7 +17,7 @@ const content: GuideContent = {
       'Amazon KDP sök och hitta aktivitetsböcker',
       'kommersiell licens hitta dolda föremål-skapare',
     ],
-    titleTag: 'Skapa hitta föremålen-arbetsblad — Steg-för-steg-guide',
+    titleTag: 'Hitta och finn att sälja online | LessonCraftStudio',
     metaDescription: 'Hur du skapar hitta föremålen-arbetsblad med 2 spellägen: I Spy och Udda en ut. Bygg tematiska scener, generera facit och sälj på Etsy och Amazon KDP.',
   },
 

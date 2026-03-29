@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'hitta udda bilden arbetsblad',
+    primaryKeyword: 'skapa vilken hör inte hemma att sälja',
     secondaryKeywords: [
       'skapa hitta udda bilden-pussel att sälja',
       'visuell diskriminering arbetsblad generator',
@@ -17,7 +17,7 @@ const content: GuideContent = {
       'Amazon KDP visuell diskriminering arbetsböcker',
       'kommersiell licens hitta udda bilden verktyg',
     ],
-    titleTag: 'Hitta udda bilden arbetsblad — Guide — Steg-för-Steg Guide',
+    titleTag: 'Vilken hör inte hemma att sälja | LessonCraftStudio',
     metaDescription: 'Skapa hitta udda bilden-arbetsblad med Identiskt och Liknande läge, per-övning överstyrning och automatiskt facit. Steg-för-steg-guide för Etsy och KDP.',
   },
 

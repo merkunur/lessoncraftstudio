@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'alfabetståg arbetsblad',
+    primaryKeyword: 'skapa alfabetsblad att sälja på Etsy',
     secondaryKeywords: [
       'skapa alfabetståg arbetsblad att sälja',
       'alfabetståg arbetsblad generator kommersiellt bruk',
@@ -17,7 +17,7 @@ const content: GuideContent = {
       'Amazon KDP bokstavsigenkänning tåg-arbetsböcker',
       'kommersiell licens alfabetståg verktyg',
     ],
-    titleTag: 'Alfabetståg arbetsblad — Guide — Komplett Guide för Säljare',
+    titleTag: 'Alfabetsblad att sälja på Etsy | LessonCraftStudio',
     metaDescription: 'Hur du skapar alfabetståg-arbetsblad med tågvagnar, två skapandelägen, konfigurerbar svårighet och 104 temabildsamlingar. Sälj på Etsy, KDP och Gumroad.',
   },
 

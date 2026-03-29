@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'pusselarbetsblad med saknade bitar',
+    primaryKeyword: 'skapa saknade bitar-pussel att sälja',
     secondaryKeywords: [
       'skapa saknade bitar-pussel att sälja',
       'pusselarbetsblad generator kommersiellt bruk',
@@ -17,7 +17,7 @@ const content: GuideContent = {
       'Amazon KDP pusselarbetsböcker',
       'kommersiell licens saknade bitar-verktyg',
     ],
-    titleTag: 'Pusselarbetsblad med saknade bitar — Guide — Online Verktyg',
+    titleTag: 'Saknade bitar att sälja online | LessonCraftStudio',
     metaDescription: 'Skapa pusselarbetsblad med 6 bitformer, smart utdragning, distraktionsbitar och automatiskt facit. Steg-för-steg-försäljningsguide för Etsy och KDP. Prova.',
   },
 

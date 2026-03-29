@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'skapa målarbilder',
+    primaryKeyword: 'skapa målarbilder för Etsy och KDP',
     secondaryKeywords: [
       'målarbild-skapare från bilder',
       'utskriftsklara målarbilder att sälja',
@@ -17,7 +17,7 @@ const content: GuideContent = {
       'produktlinjes målaraktivitetsblad',
       'kommersiell licens målarverktyg',
     ],
-    titleTag: 'Skapa målarbilder från tematiska bilder — Guide — Säljguide',
+    titleTag: 'Målarbilder för Etsy och KDP | LessonCraftStudio',
     metaDescription: 'Hur du skapar målarbilder från 3 100+ tematiska bilder. Fri arbetsyta med gråskaleexport, frihandsritning och produktlinjeshjälpare. Sälj på Etsy och KDP.',
   },
 

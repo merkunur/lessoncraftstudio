@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'skapa bildsudoku',
+    primaryKeyword: 'skapa sudoku med bilder att sälja',
     secondaryKeywords: [
       'bildsudoku för barn',
       'bildsudoku arbetsblad generator',
@@ -17,7 +17,7 @@ const content: GuideContent = {
       'Amazon KDP pussel aktivitetsböcker',
       'kommersiell licens pusselverktyg',
     ],
-    titleTag: 'Hur du skapar bildsudoku-arbetsblad — Guide — Online Verktyg',
+    titleTag: 'Sudoku med bilder att sälja | LessonCraftStudio',
     metaDescription: 'Skapa bildsudoku för unga barn. 4×4 bildrutnät, 3 svårighetsnivåer, tematiska bilder, facit och tryckfärdiga PDF att sälja på Etsy och KDP. Prova idag.',
   },
 

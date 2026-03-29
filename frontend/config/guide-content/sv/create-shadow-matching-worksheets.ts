@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'skuggmatchning arbetsblad',
+    primaryKeyword: 'skapa skuggkopplingsblad att sälja',
     secondaryKeywords: [
       'skapa skuggmatchningsarbetsblad att sälja',
       'silhuettmatchning arbetsblad generator',
@@ -17,7 +17,7 @@ const content: GuideContent = {
       'Amazon KDP visuell perception arbetsböcker',
       'kommersiell licens skuggmatchning verktyg',
     ],
-    titleTag: 'Skuggmatchning arbetsblad — Guide — Steg-för-Steg Guide',
+    titleTag: 'Skuggkopplingsblad att sälja | LessonCraftStudio',
     metaDescription: 'Skapa skuggmatchningsarbetsblad med två lägen: Skuggmatchning för silhuetter och Gör det helt för delade bilder. Steg-för-steg-guide för Etsy och KDP.',
   },
 

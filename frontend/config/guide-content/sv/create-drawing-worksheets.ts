@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'ritning och symmetriarbetsblad',
+    primaryKeyword: 'skapa ritblad att sälja',
     secondaryKeywords: [
       'rutnätsritning arbetsblad för barn',
       'symmetriarbetsblad generator',
@@ -17,7 +17,7 @@ const content: GuideContent = {
       'Amazon KDP rit-aktivitetsböcker',
       'S/V konturarbetsblad verktyg',
     ],
-    titleTag: 'Ritning och symmetriarbetsblad — Guide — Steg-för-Steg Guide',
+    titleTag: 'Ritblad att sälja online | LessonCraftStudio',
     metaDescription: 'Skapa ritnings- och symmetriarbetsblad med dubbelrutnätssystem, justerbar ledtrådsprocent, tre symmetrilägen och S/V-konturer. Sälj på Etsy och KDP. Prova.',
   },
 

@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'skapa storleksjämförelsearbetsblad',
+    primaryKeyword: 'skapa jämförelseblad att sälja',
     secondaryKeywords: [
       'stort och litet arbetsblad för barn',
       'storleksdiskriminering arbetsblad generator',
@@ -17,7 +17,7 @@ const content: GuideContent = {
       'Amazon KDP storleksordning aktivitetsböcker',
       'kommersiell licens storleksarbetsblad verktyg',
     ],
-    titleTag: 'Skapa storleksjämförelsearbetsblad — Steg-för-steg-guide',
+    titleTag: 'Jämförelseblad att sälja online | LessonCraftStudio',
     metaDescription: 'Hur du skapar storleksjämförelsearbetsblad med 5 frågetyper och 2 bildlägen. Nolltext-output som säljer världen över. Guide för Etsy, KDP och Gumroad.',
   },
 

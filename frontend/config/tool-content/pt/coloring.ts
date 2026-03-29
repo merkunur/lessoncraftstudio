@@ -27,6 +27,12 @@ const content: ToolContent = {  seo: {
       'Crie desenhos para colorir grátis com imagens temáticas. 104 temas, modo escala de cinza, PDF imprimível. Teste online sem cadastro — marca d\'água removível.',
   },
 
+  hero: {
+    title: 'Gerador de desenhos para colorir — teste grátis online',
+    tagline: 'Canvas de forma livre para criar páginas para colorir com desenho à mão livre, exportação em escala de cinzentos, auxiliares de loja e 104 coleções temáticas de imagens para páginas profissionais que se vendem em todo o mundo sem tradução',
+    description: 'Crie desenhos para colorir diretamente no navegador — sem cadastro, sem instalação, sem custo. Este gerador produz páginas para colorir com imagens temáticas de mais de 3.000 ilustrações em 104 temas. Modo escala de cinza para páginas econômicas em tinta. "Desenho para colorir" e "colorir para imprimir" são termos de altíssimo volume no Brasil. Adicione linhas de caligrafia e campo de nome para atividades multicompetências. Exporte PDFs prontos para imprimir. O teste grátis inclui todas as funcionalidades — os downloads vêm com marca d\'água. Para uso comercial, conheça a versão com licença.',
+  },
+
   tutorial: {
     title: 'Como Criar Páginas para Colorir Personalizadas em 8 Passos',
     steps: [

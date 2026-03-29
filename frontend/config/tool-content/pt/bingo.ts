@@ -27,6 +27,12 @@ const content: ToolContent = {  seo: {
       'Crie cartelas de bingo grátis com imagens. Lote até 10 cartelas, exportação ZIP, folha de chamada. Teste online sem cadastro — marca d\'água removível.',
   },
 
+  hero: {
+    title: 'Gerador de cartelas de bingo — teste grátis online',
+    tagline: 'Gerador de cartelas de bingo com imagens com grelhas configuráveis de 3×3 a 5×5, geração em lote de 1–10 cartelas únicas por conjunto, exportação ZIP de todas as cartelas numa só download, duplo modo de preenchimento para células e atividades circulares de forma independente, folha de chamada dedicada com grelha dinâmica de palavras, seleção personalizada de chamada com contador em tempo real e 104 coleções temáticas de imagens para cartelas de bingo que se vendem em todo o mundo',
+    description: 'Crie cartelas de bingo com imagens diretamente no navegador — sem cadastro, sem instalação, sem custo. Gere de 1 a 10 cartelas únicas por lote, cada uma com imagens diferentes em posições diferentes. Grelhas de 3×3 a 5×5, exportação ZIP e folha de chamada incluída. Mais de 3.000 imagens em 104 temas e 11 idiomas. Perfeito para festas infantis, atividades escolares e jogos em família. Exporte PDFs prontos para imprimir. O teste grátis inclui todas as funcionalidades — os downloads vêm com marca d\'água. Para uso comercial, conheça a versão com licença.',
+  },
+
   tutorial: {
     title: 'Como Criar Cartelas de Bingo com Imagens em 8 Passos',
     steps: [

@@ -27,6 +27,12 @@ const content: ToolContent = {  seo: {
       'Crie enigmas de adição codificada grátis. Modo Palavra Revelada, 11 idiomas, gabarito automático. Teste online sem cadastro — marca d\'água removível.',
   },
 
+  hero: {
+    title: 'Gerador de enigmas matemáticos codificados — teste grátis',
+    tagline: 'Crie puzzles criptaritméticos onde os usuários decifram códigos secretos resolvendo equações de adição',
+    description: 'Crie puzzles de adição codificada diretamente no navegador — sem cadastro, sem instalação, sem custo. Este gerador online produz enigmas onde cada imagem esconde um número secreto e o modo Palavra Revelada transforma exercícios em caça ao tesouro linguística. Suporte a 11 alfabetos nativos incluindo português com acentos. Exporte PDFs prontos para imprimir com gabarito automático. Ideal para pais e professores que buscam atividades de raciocínio lógico. O teste grátis inclui todas as funcionalidades — os downloads vêm com marca d\'água. Para uso comercial e remoção da marca, conheça a versão completa.',
+  },
+
   tutorial: {
     title: 'Como Criar Atividades de Adição Codificada em 8 Passos Simples',
     steps: [

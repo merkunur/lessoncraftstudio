@@ -27,6 +27,12 @@ const content: ToolContent = {  seo: {
       'Crie atividades de grande e pequeno grátis com imagens. 104 temas, gabarito automático, PDF imprimível. Teste online sem cadastro — marca d\'água removível.',
   },
 
+  hero: {
+    title: 'Atividades de grande e pequeno — teste grátis online',
+    tagline: 'Crie atividades de comparação de tamanhos com cinco tipos de perguntas, dois modos de imagem e um resultado completamente visual com zero texto que se vende em todo o mundo sem necessidade de tradução',
+    description: 'Crie atividades de comparação de tamanhos diretamente no navegador — sem cadastro, sem instalação, sem custo. Este gerador produz exercícios onde as crianças identificam grande, médio e pequeno usando imagens temáticas. Habilidade fundamental na educação infantil. Mais de 3.000 ilustrações em 104 temas. Exporte PDFs prontos para imprimir com gabarito automático. O teste grátis inclui todas as funcionalidades — os downloads vêm com marca d\'água. Para uso comercial, conheça a versão com licença.',
+  },
+
   tutorial: {
     title: 'Como Criar Atividades de Comparação de Tamanhos em 8 Passos Simples',
     steps: [

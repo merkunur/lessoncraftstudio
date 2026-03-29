@@ -27,6 +27,12 @@ const content: ToolContent = {  seo: {
       'Crie palavras cruzadas grátis com imagens como pistas. 11 idiomas, gabarito automático, PDF imprimível. Teste online sem cadastro — marca d\'água removível.',
   },
 
+  hero: {
+    title: 'Gerador de palavras cruzadas — teste grátis online',
+    tagline: 'Gerador de palavras cruzadas ilustradas com pistas de imagens numa grelha fixa de 15×15, quatro métodos de entrada (geração rápida por tema, edição manual de nomes de imagem, lista personalizada de palavras com pistas e carregamento de imagens próprias), gabarito autogerado com grelha preenchida através de sistema de duplo canvas, palavras de puzzle sensíveis ao idioma em 11 idiomas através do Vocabulário de Imagens, e cabeçalho localizado azul (#5B9BD5) com título em Fredoka e descrição em Quicksand em 104 coleções temáticas de imagens',
+    description: 'Crie palavras cruzadas com pistas visuais diretamente no navegador — sem cadastro, sem instalação, sem custo. Este gerador online produz cruzadinhas onde as pistas são imagens — os usuários identificam o que veem e preenchem as letras. Mais de 3.000 imagens em 104 temas e suporte a 11 idiomas com caracteres nativos. "Cruzadinha para imprimir" é um termo de altíssima busca no Brasil. Exporte PDFs prontos para imprimir com gabarito automático. O teste grátis inclui todas as funcionalidades — os downloads vêm com marca d\'água. Para uso comercial, conheça a versão com licença.',
+  },
+
   tutorial: {
     title: 'Como Criar Palavras Cruzadas com Imagens em 8 Passos',
     steps: [

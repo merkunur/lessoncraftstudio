@@ -27,6 +27,12 @@ const content: ToolContent = {  seo: {
       'Crie atividades de adição grátis com imagens temáticas. 104 temas, gabarito automático, exportação PDF. Teste online sem cadastro — marca d\'água removível.',
   },
 
+  hero: {
+    title: 'Gerador de atividades de adição — teste grátis online',
+    tagline: 'Crie atividades de adição com imagens atrativas em menos de 60 segundos',
+    description: 'Crie atividades de adição com imagens temáticas diretamente no navegador — sem cadastro, sem instalação, sem custo. Este gerador online produz exercícios de soma com ilustrações de mais de 3.000 imagens em 104 temas. Escolha entre quatro modos de exercício, ajuste a dificuldade e exporte PDFs prontos para imprimir com gabarito automático. Perfeito para pais que buscam atividades de matemática para imprimir, professores que preparam material de reforço e vendedores que querem testar antes de comprar. O teste grátis inclui todas as funcionalidades — os downloads vêm com marca d\'água. Para remover a marca d\'água e vender com licença comercial, conheça a versão completa.',
+  },
+
   tutorial: {
     title: 'Como Criar Atividades de Adição em 8 Passos Simples',
     steps: [

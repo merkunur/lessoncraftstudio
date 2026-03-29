@@ -27,6 +27,12 @@ const content: ToolContent = {  seo: {
       'Crie atividades de trem do alfabeto grátis. 11 idiomas, associação letra-imagem, PDF imprimível. Teste online sem cadastro — marca d\'água removível.',
   },
 
+  hero: {
+    title: 'Gerador de atividades de alfabeto — teste grátis online',
+    tagline: 'Crie atividades de trem de letras com associação letra-imagem em 11 idiomas',
+    description: 'Crie atividades de trem do alfabeto diretamente no navegador — sem cadastro, sem instalação, sem custo. Onze vagões coloridos com letras e ilustrações correspondentes. Suporte a 11 idiomas com alfabetos nativos — a mesma imagem associa-se com letras diferentes em cada idioma. "Alfabetização" é um dos termos mais buscados no Brasil. Mais de 3.000 imagens em 104 temas. Exporte PDFs prontos para imprimir com gabarito automático. O teste grátis inclui todas as funcionalidades — os downloads vêm com marca d\'água. Para uso comercial, conheça a versão com licença.',
+  },
+
   tutorial: {
     title: 'Como Criar Atividades de Trem do Alfabeto em 8 Passos Simples',
     steps: [

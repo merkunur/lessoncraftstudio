@@ -27,6 +27,12 @@ const content: ToolContent = {  seo: {
       'Crie quebra-cabeças de matemática grátis com imagens. Grade de imagens, gabarito automático, exportação PDF. Teste online sem cadastro — marca d\'água removível.',
   },
 
+  hero: {
+    title: 'Gerador de quebra-cabeças de matemática — teste grátis',
+    tagline: 'Crie puzzles tipo quebra-cabeça com equações matemáticas em menos de 60 segundos',
+    description: 'Crie quebra-cabeças de matemática com imagens diretamente no navegador — sem cadastro, sem instalação, sem custo. Este gerador online produz puzzles onde cada imagem representa um valor numérico oculto — os usuários resolvem equações para descobrir os números e montar a imagem. Combina raciocínio lógico com fluência matemática. Mais de 3.000 imagens em 104 temas. Exporte PDFs prontos para imprimir com gabarito automático. Ideal para reforço escolar e atividades de raciocínio. O teste grátis inclui todas as funcionalidades — os downloads vêm com marca d\'água. Para uso comercial, conheça a versão completa.',
+  },
+
   tutorial: {
     title: 'Como Criar Puzzles Matemáticos em 8 Passos Simples',
     steps: [

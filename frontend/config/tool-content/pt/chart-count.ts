@@ -27,6 +27,12 @@ const content: ToolContent = {  seo: {
       'Crie atividades de contagem e gráficos de barras grátis. 104 temas, gabarito automático, PDF imprimível. Teste online sem cadastro — marca d\'água removível.',
   },
 
+  hero: {
+    title: 'Gerador de atividades de contagem e gráficos — teste grátis',
+    tagline: 'Gerador de atividades de gráficos pictóricos com grelhas de imagens dispersas, gabaritos automáticos com gráfico de barras, cabeçalhos localizados em 11 idiomas e 104 coleções temáticas de imagens para atividades de representação de dados que se vendem em todo o mundo',
+    description: 'Crie atividades de contagem e gráficos de barras diretamente no navegador — sem cadastro, sem instalação, sem custo. Este gerador online produz exercícios onde as crianças contam imagens temáticas e preenchem gráficos de barras — combinando matemática com interpretação de dados. Alinhado com a BNCC. Mais de 3.000 imagens em 104 temas. Exporte PDFs prontos para imprimir com gabarito automático. Perfeito para professores e pais que buscam atividades de estatística para educação infantil. O teste grátis inclui todas as funcionalidades — os downloads vêm com marca d\'água. Para uso comercial, conheça a versão com licença.',
+  },
+
   tutorial: {
     title: 'Como Criar Atividades de Gráficos Pictóricos em 8 Passos',
     steps: [

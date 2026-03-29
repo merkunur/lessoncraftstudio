@@ -1,26 +1,26 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'bildkorsord skapare för utskrift',
+    primaryKeyword: 'gratis korsordsmaker med bilder',
     secondaryKeywords: [
-      'korsord med bilder online',
-      'skapa bildkorsord arbetsblad',
-      'korsordspussel skapare med bildledtrådar',
-      'ordförrådskorsord generator för användare',
+      'korsordsmaker gratis online',
+      'bildkorsord skapa gratis',
+      'korsord med bilder skriva ut gratis',
+      'gratis korsordspussel med bildledtrådar',
     ],
     lsiKeywords: [
-      'bildkorsord pussel med bildledtrådar för ordförrådspraktik',
-      'flerspråkig korsordsgenerator med automatiskt facit',
-      'anpassad ordlista korsord med ledtrådar skapare',
+      'gratis korsordspussel online',
+      'bildkorsord att skriva ut',
+      'korsord med bilder gratis',
     ],
-    titleTag: 'Bildkorsord Skapare — Korsordspussel med Bildledtrådar',
-    metaDescription: 'Skapa bildkorsord med bildledtrådar på 15×15 rutnät. 4 inmatningsmetoder, automatiskt facit med ifyllt rutnät, 104 teman. Gratis provversion med vattenstämpel.',
+    titleTag: 'Korsordsmaker gratis online | LessonCraftStudio',
+    metaDescription: 'Skapa korsord med bilder gratis online. 15×15 rutnät, bildledtrådar, 4 inmatningsmetoder, facit, 11 språk. Gratis provversion med vattenmärke.',
     },
 
   hero: {
-    title: 'Bildkorsord Skapare',
-    tagline: 'Bildkorsordsverktyg med bildledtrådar på fast 15×15 rutnät, fyra inmatningsmetoder (snabb temagenerering, manuell bildnamnredigering, anpassad ordlista med ledtrådar och ladda upp egna bilder), automatiskt genererat facit med ifyllt rutnät via dubbelt canvas-system, språkberoende pusselord på 11 språk genom bildvokabulär och en lokaliserad blå rubrik (#5B9BD5) med Fredoka-titel och Quicksand-beskrivning över 104 tematiska bildsamlingar',
-    description: 'Skapa professionella bildkorsord där färgglada bilder ersätter traditionella textledtrådar. Åtta bilder genererar åtta ord på ett fast 15×15 rutnät — algoritmen extraherar ord från bildnamn, tar bort mellanslag, konverterar till versaler, blandar, sorterar efter längd (längsta först) och placerar ord med optimal korsning vid delade bokstäver. Numrerade ledtrådspositioner markerar början av varje ord, och bildledtrådar visas bredvid rutnätet med matchande nummer. Välj mellan fyra inmatningsmetoder som tjänar olika behov vid korsordsskapande. Snabb temagenerering väljer automatiskt 8 slumpmässiga bilder från något av de 104 temasamlingarna och genererar direkt — den snabbaste vägen till ett färdigt pussel. Manuell bildnamnredigering låter dig klicka på enskilda bilder och byta namn på dem innan generering, vilket ger exakt kontroll över orden som visas i rutnätet. Anpassad ordlista med ledtrådar byter till traditionella textkorsord med ORD: ledtrådsformat för ämnesspecifika ordförrådspussel utan bilder. Ladda upp egna bilder låter dig lägga till egna JPEG-, PNG-, GIF- eller WebP-filer tillsammans med biblioteksinnehåll. Bildkorsord Skaparen är språkberoende: pusselord kommer från lokaliserade bildnamn via bildvokabulärsystemet. Att byta innehållsspråk ändrar de faktiska korsordsorden — en kattbild genererar "CAT" på engelska men "KATZE" på tyska, "CHAT" på franska och "GATTO" på italienska, vilket producerar helt olika korsordspussel från samma bilder. Commercial-nivån inkluderar engelskt innehåll; Full Access låser upp alla 11 språk för lokaliserade pusselord. Det dubbla canvas-systemet genererar både en pusselflik och en facitflik — facit visar det ifyllda rutnätet med alla korrekta svar synliga i cellerna. Varje pussel inkluderar en automatiskt genererad lokaliserad rubrik med blå bakgrund (#5B9BD5), vit kapsel, Fredoka-titel med dynamisk storlek (48px för korta titlar ner till 28px för längre översättningar) och Quicksand-beskrivning. Stående läge visar en fullbreddsrubrik (220px höjd); liggande läge använder en kompakt centrerad layout (145px höjd). Bläddra bland 104 temasamlingar med 3 100+ illustrationer eller ladda upp egna bilder. Applicera bakgrundsteman och ramteman med oberoende opacitetskontroller. Exportera utskriftsklara PDF-filer och JPEG-filer i 300 DPI (6× multiplikator) i Letter stående, Letter liggande, A4 stående, A4 liggande eller anpassade mått. Växla gråskala för bläckvänlig utskrift. Den kostnadsfria provversionen inkluderar alla funktioner med en vattenstämpel på nedladdningar. Köp en licens för att ta bort vattenstämpeln och sälja kommersiellt.',
+    title: 'Gratis korsordsmaker med bilder online',
+    tagline: 'Skapa bildkorsord med bildledtrådar på 15×15 rutnät, 4 inmatningsmetoder och facit — gratis provversion med vattenmärke',
+    description: 'Skapa bildkorsord med bildledtrådar — helt gratis att testa online. Åtta bilder genererar åtta ord på ett 15×15 rutnät. Fyra inmatningsmetoder: snabb temagenerering, manuell redigering, anpassad ordlista och egna bilder. Språkberoende: samma bilder producerar svenska korsord med \"KATT\", engelska med \"CAT\", tyska med \"KATZE\". Automatiskt facit med ifyllt rutnät ingår. Perfekt för föräldrar och barn som söker korsord att skriva ut, och för Etsy-säljare som vill testa formatet. Den gratis provversionen innehåller en vattenstämpel. Ta bort vattenmärket och sälj med kommersiell licens.',
   },
 
   tutorial: {

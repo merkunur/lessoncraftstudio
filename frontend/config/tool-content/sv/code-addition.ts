@@ -2,26 +2,26 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'kodknäckar matte arbetsblad skapare',
+    primaryKeyword: 'gratis hemlig kod mattepussel',
     secondaryKeywords: [
-      'knäck koden matte arbetsblad för säljare',
-      'kodknäckar pussel online',
-      'utskrivbara chiffer matte arbetsblad för barn',
-      'hemlig kod additions arbetsblad skapare',
+      'kodpussel matte gratis online',
+      'kodknäckar arbetsblad skapa gratis',
+      'hemlig kod mattepussel skriva ut gratis',
+      'gratis mattepussel med hemlig kod',
     ],
     lsiKeywords: [
-      'bild chiffer matte pussel online',
-      'ord avslöjande kodknäckning arbetsblad',
-      'sifferkod matte aktivitet för användare',
+      'gratis kodknäckningspussel matte',
+      'Avslöja Ord mattepussel online',
+      'kryptaritmetik arbetsblad gratis',
     ],
-    titleTag: 'Kodknäckar Matte Skapare — Arbetsblad för Klass — Säljguide',
-    metaDescription: 'Skapa kodknäckande matte arbetsblad för produktlinjeskul. Bildchiffer pussel med addition, Ord Avslöjande-läge, 11 språk. Gratis provversion med vattenstämpel.',
+    titleTag: 'Kodpussel matte gratis online | LessonCraftStudio',
+    metaDescription: 'Skapa kodknäckande mattepussel gratis online. Bildchiffer med addition, Avslöja Ord-läge, 11 språk. Gratis provversion med vattenmärke.',
   },
 
   hero: {
-    title: 'Kodknäckar Matte Arbetsblad Skapare',
-    tagline: 'Skapa kryptaritmetikpussel där användarna knäcker hemliga koder genom addition',
-    description: 'Det här är inte ännu ett additions arbetsblad — det är en kodknäckningsutmaning. Varje pussel gömmer siffror bakom bildsymboler, och användarna måste lösa additionsekvationer för att räkna ut vilken siffra som hör till vilken bild. I Vanligt Läge representerar varje symbol en unik siffra. Växla till Ord Avslöjande-läget och varje löst ekvation avslöjar en bokstav i ett hemligt ord, med vilseledande bokstäver som håller användarna gissande. Välj bland mer än 100 bildteman, justera symbolantal och addendkomplexitet, och ladda ner tryckfärdiga PDF:er eller JPEG-bilder. Stöder 11 språk med lokalmedvetna alfabet. Den gratis provversionen innehåller en vattenstämpel på nedladdningar. Köp en licens för att ta bort vattenstämpeln och sälja kommersiellt.',
+    title: 'Gratis hemlig kod mattepussel online',
+    tagline: 'Skapa kodknäckningspussel med matte — gratis provversion med vattenmärke',
+    description: 'Inte bara ett additions arbetsblad — det är en kodknäckningsutmaning, helt gratis att testa online. Varje pussel gömmer siffror bakom bildsymboler. I Avslöja Ord-läget avslöjar varje löst ekvation en bokstav i ett hemligt ord. Välj bland mer än 100 bildteman, stöd för 11 språk med svenska å, ä, ö. Perfekt för föräldrar som söker engagerande mattepussel, och för Etsy-säljare som vill testa generatorn. Den gratis provversionen innehåller en vattenstämpel. Ta bort vattenmärket och sälj med kommersiell licens.',
   },
 
   tutorial: {

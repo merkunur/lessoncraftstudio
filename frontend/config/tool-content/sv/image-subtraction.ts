@@ -2,26 +2,26 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'subtraktions arbetsblad generator',
+    primaryKeyword: 'gratis subtraktionsblad generator',
     secondaryKeywords: [
-      'subtraktions arbetsblad skapare för Etsy-säljare',
-      'skapa subtraktions arbetsblad att sälja',
-      'utskrivbara subtraktions arbetsblad kommersiellt bruk',
-      'bild subtraktions arbetsblad för KDP',
+      'subtraktionsblad generator gratis online',
+      'minusräkningsblad skapa gratis',
+      'subtraktions arbetsblad skriva ut gratis',
+      'gratis subtraktionsövningar med bilder',
     ],
     lsiKeywords: [
-      'visuella subtraktions utskriftsbara för säljare',
-      'stryk-över matte arbetsblad verktyg',
-      'ta-bort arbetsblad generator',
+      'gratis subtraktionsblad online',
+      'överstrykning matteblad att skriva ut',
+      'minusräkning övningsblad förskoleklass',
     ],
-    titleTag: 'Subtraktions Arbetsblad Generator | Matte Utskriftsbara',
-    metaDescription: 'Skapa subtraktions arbetsblad med stryk-över-visuella på sekunder. 104 teman, justerbar svårighet, tryckfärdig PDF-export. Gratis provversion med vattenstämpel.',
+    titleTag: 'Subtraktionsblad gratis online | LessonCraftStudio',
+    metaDescription: 'Skapa subtraktionsblad gratis online med överstrykning. 104 teman, 4 lägen, facit, tryckfärdiga PDF:er. Gratis provversion med vattenmärke.',
   },
 
   hero: {
-    title: 'Subtraktions Arbetsblad Generator',
-    tagline: 'Skapa visuella stryk-över subtraktions arbetsblad på under 60 sekunder',
-    description: 'Gör subtraktion begripligt med stryk-över-visuella som barn intuitivt förstår. Detta verktyg genererar bildbaserade subtraktions arbetsblad där användarna stryker över bilder för att hitta svaret — det mest naturliga sättet att lära sig ta-bort-matte. Välj bland mer än 100 bildteman, ställ in ditt minuendområde, välj bland fyra övningslägen inklusive det unika Stryk Över-formatet, och ladda ner tryckfärdiga PDF:er eller högupplösta JPEG-bilder. Perfekt för Etsy-säljare som bygger nivågrupperade matteprodukter, köpare som skapar produktlinjespaket och KDP-publicerare som sammanställer subtraktions-arbetsböcker. Den gratis provversionen innehåller en vattenstämpel på nedladdningar. Köp en licens för att ta bort vattenstämpeln och sälja kommersiellt.',
+    title: 'Gratis subtraktionsblad generator online',
+    tagline: 'Skapa visuella stryk-över subtraktionsblad på under 60 sekunder — gratis provversion med vattenmärke',
+    description: 'Gör subtraktion begripligt med stryk-över-visuella — helt gratis att testa online. Användarna stryker över bilder för att hitta svaret, det mest naturliga sättet att lära sig subtraktion. Välj bland mer än 100 bildteman, ställ in svårighetsgrad och ladda ner tryckfärdiga PDF:er. Perfekt för föräldrar som söker subtraktionsblad att skriva ut, och för Etsy-säljare som vill testa generatorn innan de köper en kommersiell licens. Den gratis provversionen innehåller en vattenstämpel på nedladdningar. Ta bort vattenmärket och sälj med kommersiell licens.',
   },
 
   tutorial: {

@@ -2,26 +2,26 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'kryptogram arbetsblad generator',
+    primaryKeyword: 'gratis kryptogram generator',
     secondaryKeywords: [
-      'bildchiffer pussel skapare för säljare',
-      'skapa kryptogram arbetsblad att sälja',
-      'utskrivbara kryptogram pussel kommersiellt bruk',
-      'kryptogram generator för KDP',
+      'kryptogram generator gratis online',
+      'bildchiffer pussel skapa gratis',
+      'kryptogram arbetsblad skriva ut gratis',
+      'gratis kodknäckningspussel med bilder',
     ],
     lsiKeywords: [
-      'bild-till-bokstav chiffer utskriftsbara för Etsy',
-      'kodknäcknings arbetsblad generator verktyg',
-      'flerspråkig bildkryptogram skapare',
+      'gratis kryptogram online',
+      'bildchiffer pussel att skriva ut',
+      'kodknäckning arbetsblad gratis',
     ],
-    titleTag: 'Kryptogram Arbetsblad Generator | Skapa och Sälj Pussel',
-    metaDescription: 'Generera kryptogram arbetsblad med bildchiffer kodning, svårighetsreglage, autotilldelningsläge, facit på 11 språk. Gratis provversion med vattenstämpel.',
+    titleTag: 'Kryptogram generator gratis | LessonCraftStudio',
+    metaDescription: 'Skapa kryptogram gratis online. Bildchiffer kodning, svårighetsreglage, 11 språk med svenska ÅÄÖ, facit. Gratis provversion med vattenmärke.',
   },
 
   hero: {
-    title: 'Kryptogram Arbetsblad Generator',
-    tagline: 'Skapa bildchiffer pussel där varje bokstav mappas till en bild och användarna avkodar hela hemliga fraser genom mönsterigenkänning',
-    description: 'Designa professionella kryptogram arbetsblad byggda på en bildchiffermekanik: varje alfabetsbokstav mappas till en unik bild, och din hemliga fras renderas som en sekvens av bilder som användarna måste avkoda tillbaka till läsbar text. Till skillnad från ordsökningar eller ordmixar som arbetar med enskilda ord kodar Kryptogram-generatorn hela meningar och fraser — användarna knäcker chiffret genom att deducera vilken bild som representerar vilken bokstav, med kontextuella ledtrådar från vanliga ord som \"och\", \"den\" och \"är\" för att påskynda sin kodknäckning. Reglaget Bokstäver att Avslöja (0–10) är den primära svårighetskontrollen: ställ in det på noll för en ren kodknäckningsutmaning utan startinformation, eller skjut upp det till tio för tung stöttning där många bokstav-till-bild-mappningar är förlösta som tips. Autotilldelning hämtar slumpmässiga bilder från valfri av 104 tematiska samlingar (mer än 3 100 illustrationer) för att fylla hela chiffret med ett klick, medan Manuell Tilldelning låter dig handplocka specifika bilder för specifika bokstäver med en fullständig visuell förhandsgranskning av alla mappningar. Ladda upp anpassade bilder för komplett kreativ kontroll. Facit inkluderar en bokstavslegend som visar varje alfabetsbokstav parad med sin tilldelade bild i sorterad ordning — den definitiva lösningsreferensen. Språkkänslighet är inbyggd: byt språk och både den hemliga meddelandetexten och alfabetet ändras. Svenska kryptogram kodar svenska fraser med å, ä, ö i alfabetet; tyska kryptogram inkluderar ä, ö, ü, ß; franska kryptogram använder é, è, ç, à. Varje språkversion är en genuint annorlunda chifferprodukt. Exportera tryckfärdiga PDF:er och JPEG-bilder med 400+ DPI i Letter, A4 eller anpassade storlekar. Välj bland 5 typsnitt, växla gråskala för bläckvänlig utmatning, och använd hela Fabric.js arbetsytan för att flytta varje element. Den gratis provversionen innehåller en vattenstämpel på nedladdningar. Köp en licens för att ta bort vattenstämpeln och sälja kommersiellt.',
+    title: 'Gratis kryptogram generator online',
+    tagline: 'Skapa bildchiffer pussel där bokstäver mappas till bilder — gratis provversion med vattenmärke',
+    description: 'Skapa kryptogram med bildchiffer — helt gratis att testa online. Hela meningar kodas till bilder som köparna avkodar. Reglaget Bokstäver att Avslöja (0–10) styr svårigheten. Svenska kryptogram kodar fraser med å, ä, ö i alfabetet — varje språk är en unik chifferprodukt. Välj bland mer än 3 100 illustrationer i 104 teman. Facit med bokstavslegend ingår. Perfekt för barn och vuxna som söker kodknäckningspussel, och för Etsy-säljare som vill testa generatorn. Den gratis provversionen innehåller en vattenstämpel. Ta bort vattenmärket och sälj med kommersiell licens.',
   },
 
   tutorial: {

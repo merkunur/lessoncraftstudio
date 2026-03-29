@@ -2,26 +2,26 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'ordmix arbetsblad generator',
+    primaryKeyword: 'gratis blandade bokstäver generator',
     secondaryKeywords: [
-      'ordmix arbetsblad skapare för säljare',
-      'skapa bokstavsomflyttning pussel att sälja',
-      'utskrivbara ordmix arbetsblad kommersiellt bruk',
-      'ordmix generator för KDP',
+      'blandade bokstäver generator gratis online',
+      'ordmix arbetsblad skapa gratis',
+      'bokstavspussel skriva ut gratis',
+      'gratis stavningspussel med bilder',
     ],
     lsiKeywords: [
-      'blandade bokstavsbrickor utskriftsbara för Etsy',
-      'bildbaserad ordmix arbetsblad verktyg',
-      'flerspråkig stavningspussel generator',
+      'gratis ordmix online',
+      'blandade bokstäver pussel att skriva ut',
+      'stavningsövning gratis',
     ],
-    titleTag: 'Ordmix Arbetsblad Generator | Skapa och Sälj — Säljguide',
-    metaDescription: 'Generera ordmix arbetsblad med blandade bokstavsbrickor, bildledtrådar, vokal-färgkodning, 4 svårighetsnivåer, 11 språk. Gratis provversion med vattenstämpel.',
+    titleTag: 'Blandade bokstäver gratis online | LessonCraftStudio',
+    metaDescription: 'Skapa blandade bokstäver-pussel gratis online. Bildledtrådar, vokal-färgkodning, 4 svårighetsnivåer, 11 språk. Gratis provversion med vattenmärke.',
   },
 
   hero: {
-    title: 'Ordmix Arbetsblad Generator',
-    tagline: 'Skapa blandade bokstavsbrickor stavningspussel med bildledtrådar, färgkodning och 4 svårighetsnivåer på 11 språk',
-    description: 'Förvandla vokabulärövning till ett praktiskt stavningspussel som användarna löser genom att omordna blandade bokstavsbrickor. Detta verktyg genererar ordmix arbetsblad där en bildledtråd paras med en uppsättning blandade brickor — användarna studerar bilden, identifierar vad den föreställer och placerar bokstäverna i rätt ordning. Till skillnad från fyll-i-luckan-övningar ger ordmix användarna ALLA bokstäverna men i fel ordning, vilket gör det till en bokstavsomflyttning som bygger stavningsnoggrannhet genom aktiv manipulation. Den utmärkande funktionen är vokal-konsonant färgkodning: aktivera den för att visa vokaler i en färg och konsonanter i en annan, vilket lägger till en visuell foniksdimension som hjälper användarna identifiera bokstavstyper medan de löser pussel. Fyra svårighetsnivåer kontrollerar hur många bokstäver som är förplacerade i rätt position: Inga Ledtrådar blandar varje bokstav för maximal utmaning, Lätt förplacerar hälften för stöttade nybörjare, Normal placerar en fjärdedel för balanserad övning, och Svår placerar bara en sjättedel för självsäkra stavare. Välj mellan tre innehållskällor: Bildbibliotek hämtar från mer än 3 100 illustrationer i 104 tematiska samlingar, Manuellt Redigeringsläge låter dig välja bilder och anpassa visningsnamn, och Anpassad Ordlista låter dig skriva upp till 8 ord direkt för textbaserade pussel. Språkkänslighet är inbyggd: byt från svenska till något av de 11 stödda språken och samma bild producerar ett annorlunda målord med annorlunda bokstäver och ett helt annorlunda blandat arrangemang. En hundbild genererar \"HUND\" på svenska, \"DOG\" på engelska, \"CHIEN\" på franska, \"PERRO\" på spanska. En design blir 11 unika produkter. Ställ in 1–10 pussel per sida, växla versaler eller gemener, lägg till övningsnumrering och välj bland 7 typsnittsfamiljer. Exportera som tryckfärdig PDF eller högupplöst JPEG med automatisk facitgenerering. Den gratis provversionen innehåller en vattenstämpel på nedladdningar. Köp en licens för att ta bort vattenstämpeln och sälja kommersiellt.',
+    title: 'Gratis blandade bokstäver generator online',
+    tagline: 'Skapa stavningspussel med blandade bokstavsbrickor och bildledtrådar — gratis provversion med vattenmärke',
+    description: 'Skapa blandade bokstäver-pussel — helt gratis att testa online. Bildledtråd paras med blandade bokstavsbrickor som användarna ordnar om. Vokal-konsonant färgkodning och fyra svårighetsnivåer ger variation. Språkkänslig: \"HUND\" på svenska, \"DOG\" på engelska, \"CHIEN\" på franska. Välj bland mer än 3 100 illustrationer i 104 teman. Automatiskt facit ingår. Perfekt för föräldrar som söker stavningspussel, och för Etsy-säljare som vill testa generatorn. Den gratis provversionen innehåller en vattenstämpel. Ta bort vattenmärket och sälj med kommersiell licens.',
   },
 
   tutorial: {

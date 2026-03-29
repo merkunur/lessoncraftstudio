@@ -2,26 +2,26 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'matte arbetsblad generator',
+    primaryKeyword: 'gratis matteblad generator online',
     secondaryKeywords: [
-      'matte arbetsblad skapare för säljare',
-      'skapa algebra pusselarbetsblad att sälja',
-      'utskrivbara mattepussel arbetsblad kommersiellt bruk',
-      'algebra bildpussel generator för KDP',
+      'matteblad generator gratis online',
+      'algebrapussel arbetsblad skapa gratis',
+      'matteblad med bilder skriva ut gratis',
+      'gratis mattearbetsblad med bildvariabler',
     ],
     lsiKeywords: [
-      'visuella algebra utskriftsbara för Etsy',
-      'bildekvation arbetsblad verktyg',
-      'bildvariabel matteaktivitet generator',
+      'gratis algebrapussel online',
+      'matteblad med bilder att skriva ut',
+      'visuella ekvationer arbetsblad gratis',
     ],
-    titleTag: 'Matte Arbetsblad Generator | Visuella Algebrapussel',
-    metaDescription: 'Generera algebra bildpussel där bilder representerar variabler i sammankopplade ekvationer. Fyra svårighetsnivåer, unika lösningar. Gratis provversion med.',
+    titleTag: 'Matteblad gratis online | LessonCraftStudio',
+    metaDescription: 'Skapa matteblad gratis online med algebrapussel. Bilder som variabler, 4 svårighetsnivåer, unika lösningar, facit. Gratis provversion med vattenmärke.',
   },
 
   hero: {
-    title: 'Matte Arbetsblad Generator',
-    tagline: 'Skapa visuella algebrapussel med bilder som variabler på under 60 sekunder',
-    description: 'Gå bortom vanliga räkneövningar med algebra bildpussel som utmanar användarna att tänka i ekvationssystem. Varje arbetsblad presenterar en uppsättning sammankopplade ekvationer där bilder ersätter okända variabler — användarna måste bestämma det numeriska värdet som varje bild representerar. Fyra svårighetsnivåer skalar från två symboler med enkel addition till fyra simultana okända med blandade operationer. En inbyggd algebraisk lösare garanterar att varje pussel har exakt en korrekt lösning — ingen tvetydighet, ingen gissning. Välj Bara Addition för fokuserad övning eller Addition och Subtraktion för avancerad problemlösning. Ställ in talområdet, växla negativa resultat för äldre användare, och kontrollera pussel per sida från 1 till 6 med automatisk layout. Välj bilder individuellt, ladda en hel temauppsättning, eller ladda upp din egen PNG eller JPEG för varumärkta pussel. Eftersom pusslen bara använder bilder och siffror fungerar de identiskt på varje språk — sälj samma PDF globalt utan översättning. Ladda ner som tryckfärdig PDF eller högupplöst JPEG. Den gratis provversionen innehåller en vattenstämpel på nedladdningar. Köp en licens för att ta bort vattenstämpeln och sälja kommersiellt.',
+    title: 'Gratis matteblad generator online',
+    tagline: 'Skapa visuella algebrapussel med bilder som variabler — gratis provversion med vattenmärke',
+    description: 'Gå bortom vanliga räkneövningar med algebra bildpussel — helt gratis att testa online. Bilder ersätter okända variabler i ekvationssystem, och köparna bestämmer det numeriska värdet av varje bild. Fyra svårighetsnivåer och en inbyggd algebraisk lösare som garanterar exakt en lösning. Perfekt för föräldrar som söker utmanande matteblad, och för Etsy-säljare som vill testa generatorn. Den gratis provversionen innehåller en vattenstämpel. Ta bort vattenmärket och sälj med kommersiell licens.',
   },
 
   tutorial: {

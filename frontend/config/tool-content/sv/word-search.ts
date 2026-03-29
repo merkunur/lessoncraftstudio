@@ -2,26 +2,26 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'ordsökning arbetsblad generator',
+    primaryKeyword: 'gratis ordpussel maker med bilder',
     secondaryKeywords: [
-      'ordsökning pussel skapare för säljare',
-      'skapa ordletningsrutnät arbetsblad att sälja',
-      'utskrivbara ordsökning arbetsblad kommersiellt bruk',
-      'ordsökning generator för KDP',
+      'ordpussel maker gratis online',
+      'ordletar generator skapa gratis',
+      'ordpussel med bilder skriva ut gratis',
+      'gratis ordsökning rutnätspussel',
     ],
     lsiKeywords: [
-      'dolda ord rutnätspussel utskriftsbara för Etsy',
-      'lokalmedveten ordsökning arbetsblad verktyg',
-      'flerspråkig ordsökning pussel generator',
+      'gratis ordpussel online',
+      'ordletar med bilder att skriva ut',
+      'dolda ord pussel gratis',
     ],
-    titleTag: 'Ordsökning Arbetsblad Generator | Skapa och Sälj Rutnätspuss',
-    metaDescription: 'Generera ordsökning arbetsblad med justerbara rutnät från 5×5 till 30×30, riktningskontroller, lokalmedvetna fyllnadsbokstäver, 11 språk. Gratis provversion.',
+    titleTag: 'Ordpussel maker gratis online | LessonCraftStudio',
+    metaDescription: 'Skapa ordpussel med bilder gratis online. Justerbart rutnät 5–30, riktningskontroller, svenska ÅÄÖ, 11 språk. Gratis provversion med vattenmärke.',
   },
 
   hero: {
-    title: 'Ordsökning Arbetsblad Generator',
-    tagline: 'Skapa dolda-ord rutnätspussel med justerbara storlekar, riktningskontroller och lokalmedvetna fyllnadsbokstäver på 11 språk',
-    description: 'Designa professionella ordsökning arbetsblad där dolda ord är inbäddade i ett rutnät av slumpmässiga fyllnadsbokstäver och användarna skannar rader, kolumner och diagonaler för att hitta dem — det klassiska pusselformatet som aldrig går ur stil. Detta verktyg ger dig exakt kontroll över svårigheten genom två oberoende axlar: rutnätsstorlek (justerbar från 5×5 till 30×30 med rader och kolumner inställda oberoende) och ordriktningsväxlingar (diagonala ord på eller av, bakåtord på eller av) som skapar allt från två till åtta möjliga placeringsriktningar. Välj bland tre innehållskällor: Bildbibliotek hämtar från mer än 3 100 illustrationer i 104 tematiska samlingar, Manuellt Redigeringsläge låter dig välja bilder och anpassa visningsnamn, och Anpassad Ordlista låter dig skriva upp till 8 ord direkt för textbaserade pussel. Tre visningslägen — Ord + Bilder, Bara Bilder och Bara Ord — kontrollerar vad som visas som ledtrådar bredvid rutnätet. Den utmärkande funktionen är lokalmedveten alfabetsfyllnad: när du byter språk ändras rutnätets fyllnadsbokstäver för att matcha det språkets teckenuppsättning med viktade frekvensfördelningar. Svenska rutnät inkluderar å, ä, ö vid naturliga frekvenser. Tyska rutnät inkluderar ä, ö, ü och ß. Franska rutnät inkluderar é, è, ç, à. Varje lokal får autentiska fyllnadstecken, vilket gör pusslen lingvistiskt genuina snarare än uppenbart engelskgenererade. Ett färgkodat facit markerar varje hittat ord i en av sex cyklande färger — rosa, blå, grön, guld, korall och lavendel — för omedelbar visuell verifiering. Exportera tryckfärdiga PDF:er och JPEG-bilder med 400+ DPI i Letter, A4 eller anpassade storlekar. Välj bland 7 typsnittsfamiljer, lägg till namn- och datumfält, växla gråskala för bläckvänlig utmatning, och använd hela Fabric.js arbetsytan för att flytta varje element. Den gratis provversionen innehåller en vattenstämpel på nedladdningar. Köp en licens för att ta bort vattenstämpeln och sälja kommersiellt.',
+    title: 'Gratis ordpussel maker med bilder online',
+    tagline: 'Skapa dolda-ord rutnätspussel med justerbara storlekar och svenska ÅÄÖ — gratis provversion med vattenmärke',
+    description: 'Skapa ordpussel med bilder — helt gratis att testa online. Dolda ord i ett rutnät av fyllnadsbokstäver, justerbara från 5×5 till 30×30, med riktningskontroller för svårighetsanpassning. Svenska rutnät inkluderar å, ä, ö vid naturliga frekvenser — gör pusslen lingvistiskt genuina. Tre innehållskällor: bildbibliotek med mer än 3 100 illustrationer, manuellt redigeringsläge och anpassad ordlista. Färgkodat facit ingår. Perfekt för föräldrar som söker ordpussel att skriva ut, och för Etsy-säljare som vill testa generatorn. Den gratis provversionen innehåller en vattenstämpel. Ta bort vattenmärket och sälj med kommersiell licens.',
   },
 
   tutorial: {

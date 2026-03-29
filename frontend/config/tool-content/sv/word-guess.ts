@@ -2,26 +2,26 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'gissa ordet arbetsblad generator',
+    primaryKeyword: 'gratis ordgissningsspel skapa',
     secondaryKeywords: [
-      'gissa ordet arbetsblad skapare för säljare',
-      'skapa stavningsgissning arbetsblad att sälja',
-      'utskrivbara ordbyggande arbetsblad kommersiellt bruk',
-      'gissa ordet generator för KDP',
+      'ordgissningsspel gratis online',
+      'gissa ordet arbetsblad skapa gratis',
+      'ordgissning pussel skriva ut gratis',
+      'gratis ordgissningsspel med bilder',
     ],
     lsiKeywords: [
-      'visuella stavnings utskriftsbara för Etsy',
-      'bildbaserat ordbyggande arbetsblad verktyg',
-      'flerspråkig stavningsaktivitet generator',
+      'gratis ordgissning online',
+      'gissa ordet pussel att skriva ut',
+      'vokabulärövning gratis',
     ],
-    titleTag: 'Gissa Ordet Arbetsblad Generator | Sälj Utskriftsbara',
-    metaDescription: 'Generera gissa ordet arbetsblad med 4 svårighetsnivåer, dubbla inmatningslägen, exkludera bokstäver, 11 språk och 104 teman. Gratis provversion med vattenstämpe',
+    titleTag: 'Ordgissningsspel gratis online | LessonCraftStudio',
+    metaDescription: 'Skapa ordgissningsspel gratis online. 4 svårighetsnivåer, bildledtrådar, 11 språk med svenska, facit. Gratis provversion med vattenmärke.',
   },
 
   hero: {
-    title: 'Gissa Ordet Arbetsblad Generator',
-    tagline: 'Skapa bildbaserade stavningsarbetsblad med 4 ledtrådsnivåer på 11 språk',
-    description: 'Förvandla vokabulärövning till ett visuellt pussel som användarna älskar att lösa. Detta verktyg genererar gissa ordet arbetsblad där en bildledtråd paras med ett bokstavsrutnät med luckor — användarna studerar bilden och fyller i de saknade bokstäverna för att stava ordet den representerar. Den utmärkande funktionen är ett 4-nivå progressivt ledtrådssystem: Inga Ledtrådar avslöjar noll bokstäver för ren åtekallelse, Lätt avslöjar hälften av bokstäverna för stöttade nybörjare, Normal avslöjar en fjärdedel för balanserad utmaning, och Svår avslöjar bara en sjättedel för självsäkra stavare. Välj mellan två inmatningslägen: Bildledtråd hämtar vokabulär från mer än 3 100 bilder i 104 tematiska samlingar med automatisk bokstavsrutnätsgenerering, eller Anpassad Ordlista låter dig skriva in valfria ord direkt för riktad vokabulärövning utan bilder. Exkludera Bokstäver-funktionen tar bort specifika bokstäver från rutnät — exkludera vokaler för fonics-fokuserade övningar eller exkludera vanliga bokstäver för en tuffare utmaning. Språkkänslighet är inbyggd: byt från svenska till något av de 11 stödda språken och samma bild producerar en annorlunda korrekt stavning. En hundbild genererar \"HUND\" på svenska, \"DOG\" på engelska, \"CHIEN\" på franska, \"PERRO\" på spanska. En arbetsbladsdesign blir 11 unika språkprodukter med genuint olika svar. Ställ in versaler eller gemener, växla övningsnumrering, lägg till anpassade textöverlägg, och välj bland 7 typsnittsfamiljer. Exportera som tryckfärdig PDF eller högupplöst JPEG med valfri facitgenerering. Den gratis provversionen innehåller en vattenstämpel på nedladdningar. Köp en licens för att ta bort vattenstämpeln och sälja kommersiellt.',
+    title: 'Gratis ordgissningsspel online',
+    tagline: 'Skapa gissa ordet-pussel med bildledtrådar och 4 svårighetsnivåer — gratis provversion med vattenmärke',
+    description: 'Skapa ordgissningsspel — helt gratis att testa online. Bildledtråd paras med ett bokstavsrutnät med luckor, och användarna fyller i de saknade bokstäverna. Fyra svårighetsnivåer styr hur många bokstäver som visas. Språkkänslig: \"HUND\" på svenska, \"DOG\" på engelska, \"CHIEN\" på franska. Välj bland mer än 3 100 bilder i 104 teman. Automatiskt facit ingår. Perfekt för föräldrar som söker vokabulärövningar, och för Etsy-säljare som vill testa generatorn. Den gratis provversionen innehåller en vattenstämpel. Ta bort vattenmärket och sälj med kommersiell licens.',
   },
 
   tutorial: {

@@ -2,26 +2,26 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'bilddiagram arbetsblad skapare för säljare',
+    primaryKeyword: 'gratis räkne- och diagramblad',
     secondaryKeywords: [
-      'piktogram arbetsblad skapare online',
-      'diagramräkning arbetsblad för barn',
-      'utskrivbara datadiagram arbetsblad för skolan',
-      'bilddiagram aktivitet skapare för säljare',
+      'bilddiagram arbetsblad gratis online',
+      'diagramräkning arbetsblad skapa gratis',
+      'piktogram arbetsblad skriva ut gratis',
+      'gratis bilddiagram med facit',
     ],
     lsiKeywords: [
-      'spritt bildsrutnät räkningsarbetsblad',
-      'autofacit bilddiagram skapare',
-      'datarepresentation arbetsblad online',
+      'gratis diagramblad online',
+      'bilddiagram att skriva ut',
+      'räkne- och diagramövning gratis',
     ],
-    titleTag: 'Bilddiagram Arbetsblad Skapare — online | Online Verktyg',
-    metaDescription: 'Skapa bilddiagram arbetsblad onlines matte. Spridda 4×5 rutnät, 6 bildtyper, automatiska facit, 11 språk, 104 teman. Gratis provversion med vattenstämpel.',
+    titleTag: 'Räkne- och diagramblad gratis | LessonCraftStudio',
+    metaDescription: 'Skapa räkne- och diagramblad gratis online. Spridda 4×5 rutnät, 6 bildtyper, automatiskt facit, 104 teman. Gratis provversion med vattenmärke.',
   },
 
   hero: {
-    title: 'Diagramräkning Arbetsblad Skapare',
-    tagline: 'Bilddiagram arbetsblad generator med spridda bildsrutnät, automatiskt genererade stapeldiagram-facit, lokaliserade rubriker på 11 språk och 104 tematiska bildsamlingar för datarepresentation arbetsblad som säljer globalt',
-    description: 'Skapa professionella bilddiagram arbetsblad där användarna räknar spridda bilder och fyller i ett stapeldiagram nedanför — lär ut datainsamling och datarepresentation i en enda aktivitet. Varje arbetsblad har ett 4×5-rutnät med 20 ikoner från 6 olika bildtyper, varje typ förekommer 1–5 gånger i en slumpmässig fördelning som gör varje generering unik. Under rutnätet visar ett stapeldiagram med 6 kolumner × 5 rader var användarna registrerar sina räkningar. Appen genererar samtidigt ett facit på en separat arbetsyteflik med gulmarkerade (#FFC857) celler som visar de korrekta antalen. Välj bilder automatiskt genom att välja ett tema från dropdownen — appen väljer slumpmässigt 6 bilder — eller bläddra manuellt i Bildbiblioteket med mer än 3 100 illustrationer i 104 tematiska samlingar och klicka exakt 6 bilder. Varje arbetsblad inkluderar en automatiskt genererad rubrik med en lokaliserad \"Bilddiagram\"-titel som anpassas till alla 11 stödda språk. Lägg till namn- och datumfält med en enda kryssruta. Applicera både bakgrundsteman och ramteman med oberoende opacitetsreglage (0–1, steg 0,05). Diagramräkning Generatorn är inte språkkänslig — visuell räkning med universella siffror och bilder gör arbetsbladen identiskt användbara på alla språk. Ladda ner fyra filer per session: arbetsblad-JPEG, arbetsblad-PDF, facit-JPEG och facit-PDF — alla med 300 DPI. Exportera i Letter, A4, Kvadrat (1200×1200) eller anpassade storlekar med gråskaleväxling för bläckvänlig utmatning. Den gratis provversionen innehåller alla funktioner med en vattenstämpel. Köp en licens för att ta bort vattenstämpeln och sälja kommersiellt.',
+    title: 'Gratis räkne- och diagramblad online',
+    tagline: 'Bilddiagram arbetsblad med spridda bildsrutnät och automatiskt facit — gratis provversion med vattenmärke',
+    description: 'Skapa bilddiagram arbetsblad — helt gratis att testa online. Användarna räknar spridda bilder och fyller i stapeldiagrammet. 4×5-rutnät med 20 ikoner från 6 bildtyper, automatiskt facit med gulmarkerade celler. Välj bland mer än 3 100 illustrationer i 104 teman. Perfekt för föräldrar som söker diagramövningar, och för Etsy-säljare som vill testa generatorn. Den gratis provversionen innehåller en vattenstämpel. Ta bort vattenmärket och sälj med kommersiell licens.',
   },
 
   tutorial: {

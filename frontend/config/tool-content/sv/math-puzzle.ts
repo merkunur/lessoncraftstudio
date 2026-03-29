@@ -2,26 +2,26 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'mattepussel skapare online',
+    primaryKeyword: 'gratis mattepussel skapa',
     secondaryKeywords: [
-      'pussel mattearbetsblad för säljare',
-      'mattepussel skapare för barn',
-      'bild mattepussel online',
-      'utskrivbara mattepussel arbetsblad för användare',
+      'mattepussel generator gratis online',
+      'mattepussel arbetsblad skapa gratis',
+      'bildpussel matte skriva ut gratis',
+      'gratis mattepussel med bilder',
     ],
     lsiKeywords: [
-      'bildrutnäts mattepussel för produktlinjesbruk',
-      'pusselstils matteaktivitet för barn',
-      'konfigurerbar mattepussel arbetsblad skapare',
+      'gratis pusselblad matte online',
+      'bildrutnät mattepussel att skriva ut',
+      'matteaktivitet pussel gratis',
     ],
-    titleTag: 'Mattepussel Skapare — Pusselarbetsblad för Klass — Säljguide',
-    metaDescription: 'Skapa pusselstils mattepussel för ditt produktlinje. Bildrutnätspussel med addition och subtraktion, konfigurerbara rutnät, facit. Gratis provversion med.',
+    titleTag: 'Mattepussel gratis online | LessonCraftStudio',
+    metaDescription: 'Skapa mattepussel gratis online. Bildrutnätspussel med addition och subtraktion, 2×2 till 4×4 rutnät, facit. Gratis provversion med vattenmärke.',
   },
 
   hero: {
-    title: 'Mattepussel Arbetsblad Generator',
-    tagline: 'Skapa pusselstils bildpussel med matteekvationer på under 60 sekunder',
-    description: 'Förvandla matteövning till ett engagerande visuellt pussel som ser helt annorlunda ut än ett vanligt arbetsblad. Detta verktyg delar upp en vald bild i ett rutnät av celler, var och en med en matteekvation. Blandade pusselbitar med svarssiffror visas nedanför — användarna löser varje ekvation och matchar rätt bit för att rekonstruera bilden. Välj bland tre operationslägen: Addition, Subtraktion eller Blandat (båda operationerna slumpmässigt kombinerade). Justera rutnätsstorlek från 2×2 (4 bitar, enklast) upp till 4×4 (16 bitar, svårast) för att matcha vilken färdighetsnivå som helst. Ladda upp egna PNG- eller JPEG-bilder för varumärkta, säsongsbetonade eller nischpussel, eller bläddra i det inbyggda biblioteket med mer än 3 100 bilder i 104 teman. Pusselformatet skapar en direkt igenkännbar produkt som sticker ut i marknadsplatsens sökresultat — köpare som skrollar genom rader av identiska arbetsblad stannar vid ett färgglatt bildpussel. Ladda ner som tryckfärdig PDF eller högupplöst JPEG. Den gratis provversionen innehåller en vattenstämpel på nedladdningar. Köp en licens för att ta bort vattenstämpeln och sälja kommersiellt.',
+    title: 'Gratis mattepussel generator online',
+    tagline: 'Skapa pusselstils bildpussel med matteekvationer — gratis provversion med vattenmärke',
+    description: 'Förvandla matteövning till ett visuellt pussel — helt gratis att testa online. En bild delas upp i pusselbitar med matteekvationer. Välj addition, subtraktion eller blandat, justera rutnät från 2×2 till 4×4, och bläddra bland mer än 3 100 bilder i 104 teman. Perfekt för föräldrar som söker engagerande mattepussel, och för Etsy-säljare som vill testa formatet. Den gratis provversionen innehåller en vattenstämpel. Ta bort vattenmärket och sälj med kommersiell licens.',
   },
 
   tutorial: {

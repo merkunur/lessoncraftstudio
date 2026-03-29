@@ -185,7 +185,7 @@ const content: AppContent = {
     {
       question: 'Como funciona o gabarito com código de cores?',
       answer:
-        'O gabarito destaca cada palavra encontrada numa de seis cores alternadas: rosa, azul, verde, dourado, coral e lavanda. Cada palavra recebe uma cor distinta para ser visualmente distinguível mesmo quando as palavras se cruzam ou sobrepõem na grelha. Pode ativar a exportação em escala de cinzentos para versões de gabarito económicas em tinta. O gabarito é gerado como um arquivo descarregável separado.',
+        'O gabarito destaca cada palavra encontrada numa de seis cores alternadas: rosa, azul, verde, dourado, coral e lavanda. Cada palavra recebe uma cor distinta para ser visualmente distinguível mesmo quando as palavras se cruzam ou sobrepõem na grelha. Pode ativar a exportação em escala de cinzentos para versões de gabarito económicas em tinta. O gabarito é gerado como um arquivo separado para download.',
     },
     {
       question: 'Qual é o número máximo de palavras por puzzle?',

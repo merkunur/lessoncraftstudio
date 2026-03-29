@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'gerador de caça-palavras grátis com imagens',
+    primaryKeyword: 'criar caça-palavras grátis online com imagens',
     secondaryKeywords: [
       'caça-palavras para imprimir grátis',
       'criar sopa de letras online grátis',

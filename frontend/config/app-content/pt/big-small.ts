@@ -99,7 +99,7 @@ const content: AppContent = {
       {
         title: 'Gabarito gerado automaticamente com respostas destacadas',
         description:
-          'O gabarito gerado automaticamente destaca e circunda as respostas corretas para cada exercício da atividade. Para as perguntas do tipo circundar, a imagem correta está visualmente marcada. Para as perguntas de numeração, a ordem correta de tamanho é apresentada. O gabarito descarrega-se como arquivo separado juntamente com a atividade, oferecendo aos compradores um produto completo. Incluir gabaritos aumenta o valor percebido e justifica preços mais elevados na Etsy e na Hotmart — os compradores esperam soluções verificadas com cada produto de atividades.',
+          'O gabarito gerado automaticamente destaca e circunda as respostas corretas para cada exercício da atividade. Para as perguntas do tipo circundar, a imagem correta está visualmente marcada. Para as perguntas de numeração, a ordem correta de tamanho é apresentada. O gabarito é baixado como arquivo separado juntamente com a atividade, oferecendo aos compradores um produto completo. Incluir gabaritos aumenta o valor percebido e justifica preços mais elevados na Etsy e na Hotmart — os compradores esperam soluções verificadas com cada produto de atividades.',
       },
       {
         title: 'Exportação PDF e JPEG pronta para impressão a 300 DPI',
@@ -179,7 +179,7 @@ const content: AppContent = {
     {
       question: 'Como funciona o gabarito gerado automaticamente?',
       answer:
-        'O gabarito cria uma versão resolvida da sua atividade onde as respostas corretas estão visualmente destacadas e circundadas. Para as perguntas de circundar, a imagem correta está marcada. Para as perguntas de numeração, a ordem correta de tamanho é apresentada. O gabarito descarrega-se como arquivo separado juntamente com a atividade. Incluir gabaritos com cada produto aumenta o valor percebido e é o que os compradores esperam na Etsy, na Hotmart e no KDP.',
+        'O gabarito cria uma versão resolvida da sua atividade onde as respostas corretas estão visualmente destacadas e circundadas. Para as perguntas de circundar, a imagem correta está marcada. Para as perguntas de numeração, a ordem correta de tamanho é apresentada. O gabarito é baixado como arquivo separado juntamente com a atividade. Incluir gabaritos com cada produto aumenta o valor percebido e é o que os compradores esperam na Etsy, na Hotmart e no KDP.',
     },
     {
       question: 'Posso carregar as minhas próprias imagens em vez de usar a biblioteca?',

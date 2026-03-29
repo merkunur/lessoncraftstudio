@@ -2,37 +2,37 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'gerador fichas grande pequeno',
+    primaryKeyword: 'gerador atividades grande pequeno',
     secondaryKeywords: [
-      'fichas de comparação de tamanhos imprimíveis para vendedores Etsy',
-      'gerador de fichas grande e pequeno personalizadas para Amazon KDP',
-      'vender fichas de discriminação visual de tamanhos no Gumroad',
-      'fichas grande pequeno comparação de tamanhos licença comercial',
+      'atividades de comparação de tamanhos imprimíveis para vendedores Etsy',
+      'gerador de atividades grande e pequeno personalizadas para Amazon KDP',
+      'vender atividades de discriminação visual de tamanhos na Hotmart',
+      'atividades grande pequeno comparação de tamanhos licença comercial',
     ],
     lsiKeywords: [
-      'produtos digitais de fichas comparação de tamanhos para empreendedores',
+      'produtos digitais de atividades comparação de tamanhos para empreendedores',
       'atividade de discriminação visual de tamanhos imprimíveis online',
-      'gerador de fichas grande pequeno uso comercial',
+      'gerador de atividades grande pequeno uso comercial',
     ],
-    titleTag: 'Gerador Fichas Grande Pequeno | Criar e Vender',
+    titleTag: 'Gerador Atividades Grande Pequeno | Criar e Vender',
     metaDescription:
-      'Crie fichas de comparação de tamanhos para Etsy, KDP e Gumroad. 5 tipos de perguntas, modos idênticos e diferentes, 104 temas. Teste grátis com marca d\'água.',
+      'Crie atividades de comparação de tamanhos para Hotmart, Etsy e KDP. 5 tipos de perguntas, modos idênticos e diferentes, 104 temas. Teste grátis com marca d\'água.',
   },
 
   hero: {
-    title: 'Gerador de Fichas Grande e Pequeno para Exercícios de Comparação de Tamanhos',
+    title: 'Gerador de Atividades Grande e Pequeno para Exercícios de Comparação de Tamanhos',
     tagline: 'Cinco tipos de perguntas — circundar o maior, circundar o menor, circundar o médio, numerar do menor ao maior, numerar do maior ao menor — com modos de imagens idênticas e diferentes para a discriminação visual de tamanhos.',
     description:
-      'Crie fichas profissionais de comparação de tamanhos onde os usuários observam imagens temáticas apresentadas em diferentes tamanhos e identificam qual é maior, menor ou de tamanho médio, ou as numeram por ordem do menor ao maior ou do maior ao menor. Cinco tipos de perguntas distintos cobrem cada competência de discriminação de tamanhos: Circundar o Maior, Circundar o Menor, Circundar o Médio, Numerar 1–2–3 do Menor ao Maior e Numerar 1–2–3 do Maior ao Menor. Dois modos de imagens criam exercícios fundamentalmente diferentes: as Imagens Idênticas mostram a mesma imagem em diferentes tamanhos para uma perceção pura do tamanho, enquanto as Imagens Diferentes mostram objetos distintos para um raciocínio de tamanho relativo. Configure de 1 a 10 exercícios por página com 2 ou 3 imagens por exercício — duas imagens para comparações mais simples, três para exercícios mais difíceis que incluem a opção do médio. Cada ficha é totalmente visual com zero texto na saída, tornando-as universalmente utilizáveis independentemente do idioma ou nível de leitura. O conteúdo provém da Biblioteca de Imagens integrada com mais de 3100 ilustrações em 104 temas. Um gabarito gerado automaticamente destaca as respostas corretas para verificação instantânea. O Acesso Completo desbloqueia os 104 temas e os 11 idiomas de interface. Exporte PDFs prontos para impressão e JPEGs a 300 DPI nos formatos Carta, A4 ou dimensões personalizadas. Quer venda pacotes de comparação de tamanhos na Etsy, compile cadernos de aprendizagem precoce para a Amazon KDP ou crie centros visuais diferenciados para o Gumroad, o Gerador de Fichas Grande e Pequeno produz resultados profissionais em minutos — teste grátis com todas as funcionalidades, sem registo, sem cartão de crédito. Os downloads incluem uma marca d\'água; adquira uma licença para removê-la.',
+      'Crie atividades profissionais de comparação de tamanhos onde os usuários observam imagens temáticas apresentadas em diferentes tamanhos e identificam qual é maior, menor ou de tamanho médio, ou as numeram por ordem do menor ao maior ou do maior ao menor. Cinco tipos de perguntas distintos cobrem cada competência de discriminação de tamanhos: Circundar o Maior, Circundar o Menor, Circundar o Médio, Numerar 1–2–3 do Menor ao Maior e Numerar 1–2–3 do Maior ao Menor. Dois modos de imagens criam exercícios fundamentalmente diferentes: as Imagens Idênticas mostram a mesma imagem em diferentes tamanhos para uma perceção pura do tamanho, enquanto as Imagens Diferentes mostram objetos distintos para um raciocínio de tamanho relativo. Configure de 1 a 10 exercícios por página com 2 ou 3 imagens por exercício — duas imagens para comparações mais simples, três para exercícios mais difíceis que incluem a opção do médio. Cada atividade é totalmente visual com zero texto na saída, tornando-as universalmente utilizáveis independentemente do idioma ou nível de leitura. O conteúdo provém da Biblioteca de Imagens integrada com mais de 3100 ilustrações em 104 temas. Um gabarito gerado automaticamente destaca as respostas corretas para verificação instantânea. O Acesso Completo desbloqueia os 104 temas e os 11 idiomas de interface. Exporte PDFs prontos para impressão e JPEGs a 300 DPI nos formatos Carta, A4 ou dimensões personalizadas. Quer venda pacotes de comparação de tamanhos na Etsy, compile cadernos de aprendizagem precoce para a Amazon KDP ou crie centros visuais diferenciados para o Hotmart, o Gerador de Atividades Grande e Pequeno produz resultados profissionais em minutos — teste grátis com todas as funcionalidades, sem cadastro, sem cartão de crédito. Os downloads incluem uma marca d\'água; adquira uma licença para removê-la.',
   },
 
   howItWorks: {
-    title: 'Como Criar Fichas de Comparação de Tamanhos em 5 Passos',
+    title: 'Como Criar Atividades de Comparação de Tamanhos em 5 Passos',
     steps: [
       {
         title: 'Configure o layout da página',
         description:
-          'Abra o painel de Configuração de Página e escolha um tamanho: Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal, Quadrado (1200×1200) ou qualquer dimensão personalizada. Selecione uma cor de fundo, escolha um tema decorativo de fundo da biblioteca de imagens e ajuste a opacidade para manter os exercícios legíveis. Adicione uma moldura de borda combinante com controlo de opacidade independente. Estas opções de layout dão às suas fichas de comparação de tamanhos um aspeto profissional e polido antes de adicionar um único exercício.',
+          'Abra o painel de Configuração de Página e escolha um tamanho: Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal, Quadrado (1200×1200) ou qualquer dimensão personalizada. Selecione uma cor de fundo, escolha um tema decorativo de fundo da biblioteca de imagens e ajuste a opacidade para manter os exercícios legíveis. Adicione uma moldura de borda combinante com controlo de opacidade independente. Estas opções de layout dão às suas atividades de comparação de tamanhos um aspecto profissional e polido antes de adicionar um único exercício.',
       },
       {
         title: 'Escolha o tipo de pergunta',
@@ -47,18 +47,18 @@ const content: AppContent = {
       {
         title: 'Selecione imagens e adicione texto decorativo',
         description:
-          'Explore 104 coleções de imagens temáticas com mais de 3100 ilustrações — animais, alimentos, veículos, natureza e dezenas mais — ou carregue as suas próprias imagens personalizadas. Cada tema fornece um conjunto coordenado de imagens que funcionam juntas visualmente. Use o painel Ferramentas de Texto para adicionar um título à ficha, campos de nome e data do usuário ou instruções com cinco fontes: Baloo 2, Fredoka, Lexend Deca, Nunito e Quicksand. Arraste, redimensione e reposicione cada elemento no canvas completo Fabric.js.',
+          'Explore 104 coleções de imagens temáticas com mais de 3100 ilustrações — animais, alimentos, veículos, natureza e dezenas mais — ou carregue as suas próprias imagens personalizadas. Cada tema fornece um conjunto coordenado de imagens que funcionam juntas visualmente. Use o painel Ferramentas de Texto para adicionar um título à atividade, campos de nome e data do usuário ou instruções com cinco fontes: Baloo 2, Fredoka, Lexend Deca, Nunito e Quicksand. Arraste, redimensione e reposicione cada elemento no canvas completo Fabric.js.',
       },
       {
-        title: 'Gere o gabarito e descarregue',
+        title: 'Gere o gabarito e baixe',
         description:
-          'Clique em Gerar Gabarito para criar uma versão resolvida onde as respostas corretas estão destacadas e circundadas para verificação visual instantânea. Ative a exportação em escala de cinzentos para versões económicas em tinta, ideais para impressão online. Depois abra o menu de Descarga e exporte tanto a ficha como o gabarito em JPEG de alta resolução ou PDF pronto para impressão a 300 DPI. Cada exportação está pronta para produção: listagens da Etsy, interiores da Amazon KDP e ficheiros de produtos Gumroad.',
+          'Clique em Gerar Gabarito para criar uma versão resolvida onde as respostas corretas estão destacadas e circundadas para verificação visual instantânea. Ative a exportação em escala de cinzentos para versões económicas em tinta, ideais para impressão online. Depois abra o menu de Download e exporte tanto a atividade como o gabarito em JPEG de alta resolução ou PDF pronto para impressão a 300 DPI. Cada exportação está pronta para produção: listagens da Etsy, interiores da Amazon KDP e arquivos de produtos Hotmart.',
       },
     ],
   },
 
   keyFeatures: {
-    title: 'Características Principais do Gerador de Fichas Grande e Pequeno',
+    title: 'Características Principais do Gerador de Atividades Grande e Pequeno',
     features: [
       {
         title: 'Cinco tipos de perguntas de comparação de tamanhos',
@@ -73,12 +73,12 @@ const content: AppContent = {
       {
         title: 'Número de exercícios e imagens por exercício ajustáveis',
         description:
-          'Defina de 1 a 10 exercícios por página para uma densidade flexível da ficha. Um ou dois exercícios grandes criam páginas de prática focada; oito a dez exercícios criam fichas de avaliação completas. Escolha 2 ou 3 imagens por exercício para controlar a dificuldade — duas imagens oferecem comparações diretas grande/pequeno, enquanto três imagens introduzem a opção do médio e ativam os cinco tipos de perguntas, incluindo Circundar o Médio e os exercícios de numeração. Estas duas definições combinadas permitem-lhe criar fichas que vão desde páginas de prática focada com um único exercício até fichas de prática densas com múltiplos exercícios.',
+          'Defina de 1 a 10 exercícios por página para uma densidade flexível da atividade. Um ou dois exercícios grandes criam páginas de prática focada; oito a dez exercícios criam atividades de avaliação completas. Escolha 2 ou 3 imagens por exercício para controlar a dificuldade — duas imagens oferecem comparações diretas grande/pequeno, enquanto três imagens introduzem a opção do médio e ativam os cinco tipos de perguntas, incluindo Circundar o Médio e os exercícios de numeração. Estas duas definições combinadas permitem-lhe criar atividades que vão desde páginas de prática focada com um único exercício até atividades de prática densas com múltiplos exercícios.',
       },
       {
-        title: 'Fichas totalmente visuais com zero texto na saída',
+        title: 'Atividades totalmente visuais com zero texto na saída',
         description:
-          'Cada ficha contém apenas imagens e indicadores visuais — nenhum texto aparece na saída gerada. Isto torna as fichas Grande e Pequeno universalmente utilizáveis independentemente do idioma, nível de leitura ou capacidade de literacia. Os usuários em pré-leitura, os aprendentes de idiomas e os usuários de educação especial podem completar os exercícios sem ler uma única palavra. Para os vendedores, a ausência de texto na saída significa que a mesma ficha se vende em todo o mundo sem tradução — um único produto serve todos os mercados. Esta é uma vantagem competitiva significativa face aos geradores de fichas com texto.',
+          'Cada atividade contém apenas imagens e indicadores visuais — nenhum texto aparece na saída gerada. Isto torna as atividades Grande e Pequeno universalmente utilizáveis independentemente do idioma, nível de leitura ou capacidade de literacia. Os usuários em pré-leitura, os aprendentes de idiomas e os usuários de educação especial podem completar os exercícios sem ler uma única palavra. Para os vendedores, a ausência de texto na saída significa que a mesma atividade se vende em todo o mundo sem tradução — um único produto serve todos os mercados. Esta é uma vantagem competitiva significativa face aos geradores de atividades com texto.',
       },
       {
         title: 'Biblioteca de Imagens com 104 coleções temáticas',
@@ -88,12 +88,12 @@ const content: AppContent = {
       {
         title: 'Gabarito gerado automaticamente com respostas destacadas',
         description:
-          'O gabarito gerado automaticamente destaca e circunda as respostas corretas para cada exercício da ficha. Para as perguntas do tipo circundar, a imagem correta está visualmente marcada. Para as perguntas de numeração, a ordem correta de tamanho é apresentada. O gabarito descarrega-se como ficheiro separado juntamente com a ficha, oferecendo aos compradores um produto completo. Incluir gabaritos aumenta o valor percebido e justifica preços mais elevados na Etsy e no Gumroad — os compradores esperam soluções verificadas com cada produto de fichas.',
+          'O gabarito gerado automaticamente destaca e circunda as respostas corretas para cada exercício da atividade. Para as perguntas do tipo circundar, a imagem correta está visualmente marcada. Para as perguntas de numeração, a ordem correta de tamanho é apresentada. O gabarito descarrega-se como arquivo separado juntamente com a atividade, oferecendo aos compradores um produto completo. Incluir gabaritos aumenta o valor percebido e justifica preços mais elevados na Etsy e na Hotmart — os compradores esperam soluções verificadas com cada produto de atividades.',
       },
       {
         title: 'Exportação PDF e JPEG pronta para impressão a 300 DPI',
         description:
-          'Descarregue fichas e gabaritos como imagens JPEG de alta resolução ou documentos PDF prontos para impressão a 300 DPI. Os formatos Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal, Quadrado (1200×1200) e dimensões personalizadas são todos suportados. Ative a exportação em escala de cinzentos para versões económicas em tinta, ideais para impressão online ou cadernos a preto e branco. Cada exportação está pronta para produção: listagens da Etsy, interiores da Amazon KDP e ficheiros de produtos Gumroad — sem necessidade de pós-processamento.',
+          'Baixe atividades e gabaritos como imagens JPEG de alta resolução ou documentos PDF prontos para impressão a 300 DPI. Os formatos Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal, Quadrado (1200×1200) e dimensões personalizadas são todos suportados. Ative a exportação em escala de cinzentos para versões económicas em tinta, ideais para impressão online ou cadernos a preto e branco. Cada exportação está pronta para produção: listagens da Etsy, interiores da Amazon KDP e arquivos de produtos Hotmart — sem necessidade de pós-processamento.',
       },
       {
         title: 'Edição completa do canvas com ferramentas de texto e decoração',
@@ -104,12 +104,12 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Como Vender Fichas de Comparação de Tamanhos Online',
+    title: 'Como Vender Atividades de Comparação de Tamanhos Online',
     cases: [
       {
         title: 'Pacotes temáticos de comparação de tamanhos na Etsy',
         description:
-          'Crie conjuntos de comparação de tamanhos temáticos com dificuldade progressiva: comece com exercícios Circundar o Maior de 2 imagens em modo idêntico, avance para exercícios Circundar o Médio de 3 imagens em modo diferente, e termine com exercícios de Numeração 1–2–3. Agrupe animais da quinta, dinossauros, criaturas marinhas e veículos em pacotes temáticos separados de 10 a 20 fichas cada um. Inclua os gabaritos gerados automaticamente como ficheiros de bónus. O formato totalmente visual sem texto torna cada pacote vendível em todo o mundo sem tradução — publique o mesmo produto em múltiplas lojas Etsy internacionais. Defina o preço dos pacotes temáticos individuais entre $3–$5 e dos pacotes multi-tema progressivos entre $12–$18.',
+          'Crie conjuntos de comparação de tamanhos temáticos com dificuldade progressiva: comece com exercícios Circundar o Maior de 2 imagens em modo idêntico, avance para exercícios Circundar o Médio de 3 imagens em modo diferente, e termine com exercícios de Numeração 1–2–3. Agrupe animais da quinta, dinossauros, criaturas marinhas e veículos em pacotes temáticos separados de 10 a 20 atividades cada um. Inclua os gabaritos gerados automaticamente como arquivos de bónus. O formato totalmente visual sem texto torna cada pacote vendível em todo o mundo sem tradução — publique o mesmo produto em múltiplas lojas Etsy internacionais. Defina o preço dos pacotes temáticos individuais entre $3–$5 e dos pacotes multi-tema progressivos entre $12–$18.',
         platform: 'Etsy (etsy.com)',
       },
       {
@@ -119,21 +119,21 @@ const content: AppContent = {
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Centros visuais diferenciados para Gumroad',
+        title: 'Centros visuais diferenciados para Hotmart',
         description:
           'Construa conjuntos de prática de comparação de tamanhos por níveis usando o tipo de pergunta como eixo de diferenciação: Nível 1 (Circundar o Maior, 2 imagens, modo idêntico), Nível 2 (Circundar o Menor, 2 imagens, modo diferente), Nível 3 (Circundar o Médio, 3 imagens) e Nível 4 (Numeração 1–2–3). Cada nível foca uma competência cognitiva diferente — desde a identificação simples até à sequenciação em vários passos. Acompanhe cada nível com exercícios temáticos e gabaritos. O formato visual sem texto funciona em qualquer loja independentemente do idioma dos usuários, tornando estes recursos valiosos para contextos inclusivos e multilingues.',
-        platform: 'Gumroad (teacherspayteachers.com)',
+        platform: 'Hotmart (hotmart.com)',
       },
       {
-        title: 'Fichas visuais multilingues para mercados globais',
+        title: 'Atividades visuais multilingues para mercados globais',
         description:
-          'Como as fichas Grande e Pequeno não contêm texto na saída, o mesmo produto funciona em todos os idiomas sem modificação. Crie um conjunto de exercícios de comparação de tamanhos e venda-o em todo o mundo — sem tradução necessária, sem versões de idiomas separadas para manter. Esta é uma vantagem considerável face aos geradores de fichas com texto onde cada produto precisa de 11 variantes linguísticas. Publique produtos idênticos em lojas Etsy dirigidas a diferentes países, ou publique o mesmo interior KDP em todos os mercados internacionais da Amazon. Um único fluxo de trabalho produz um produto universalmente vendível.',
-        platform: 'Etsy / Amazon KDP / Gumroad (global)',
+          'Como as atividades Grande e Pequeno não contêm texto na saída, o mesmo produto funciona em todos os idiomas sem modificação. Crie um conjunto de exercícios de comparação de tamanhos e venda-o em todo o mundo — sem tradução necessária, sem versões de idiomas separadas para manter. Esta é uma vantagem considerável face aos geradores de atividades com texto onde cada produto precisa de 11 variantes linguísticas. Publique produtos idênticos em lojas Etsy dirigidas a diferentes países, ou publique o mesmo interior KDP em todos os mercados internacionais da Amazon. Um único fluxo de trabalho produz um produto universalmente vendível.',
+        platform: 'Etsy / Amazon KDP / Hotmart (global)',
       },
       {
         title: 'Ferramenta de comparação de tamanhos para loja e explicações',
         description:
-          'Carregue imagens personalizadas para criar fichas de comparação de tamanhos para qualquer disciplina ou conceito — compare tamanhos de edifícios em ciências sociais, tamanhos de animais em ciências naturais ou porções de alimentos em educação para a saúde. Os cinco tipos de perguntas permitem-lhe adaptar o exercício ao objetivo de aprendizagem: identificação para a introdução, ordenação para a avaliação. Ajuste o número de exercícios por página e de imagens por exercício conforme o nível de cada usuário. Imprima séries personalizadas em minutos para grupos pequenos ou turmas inteiras. O gabarito gerado automaticamente poupa valor percebido, e o formato visual atrai os usuários que têm dificuldades com fichas com muito texto.',
+          'Carregue imagens personalizadas para criar atividades de comparação de tamanhos para qualquer disciplina ou conceito — compare tamanhos de edifícios em ciências sociais, tamanhos de animais em ciências naturais ou porções de alimentos em educação para a saúde. Os cinco tipos de perguntas permitem-lhe adaptar o exercício ao objetivo de aprendizagem: identificação para a introdução, ordenação para a avaliação. Ajuste o número de exercícios por página e de imagens por exercício conforme o nível de cada usuário. Imprima séries personalizadas em minutos para grupos pequenos ou turmas inteiras. O gabarito gerado automaticamente poupa valor percebido, e o formato visual atrai os usuários que têm dificuldades com atividades com muito texto.',
         platform: 'loja / Explicações / Ensino doméstico',
       },
     ],
@@ -158,27 +158,27 @@ const content: AppContent = {
     {
       question: 'Quantos exercícios posso colocar numa página?',
       answer:
-        'Pode definir de 1 a 10 exercícios por página. O valor por defeito é 4 exercícios. Menos exercícios por página criam imagens maiores e mais claras, ideais para os mais novos ou a prática focada. Mais exercícios por página criam fichas mais densas adequadas para avaliação ou revisão. O número ideal depende do tamanho da página e do número de imagens por exercício — 4 exercícios com 3 imagens cada preenchem bem uma página padrão, enquanto 8 a 10 exercícios funcionam melhor com 2 imagens cada.',
+        'Pode definir de 1 a 10 exercícios por página. O valor por defeito é 4 exercícios. Menos exercícios por página criam imagens maiores e mais claras, ideais para os mais novos ou a prática focada. Mais exercícios por página criam atividades mais densas adequadas para avaliação ou revisão. O número ideal depende do tamanho da página e do número de imagens por exercício — 4 exercícios com 3 imagens cada preenchem bem uma página padrão, enquanto 8 a 10 exercícios funcionam melhor com 2 imagens cada.',
     },
     {
-      question: 'Por que é que as fichas não têm texto?',
+      question: 'Por que é que as atividades não têm texto?',
       answer:
-        'As fichas Grande e Pequeno são totalmente visuais por conceção. Os exercícios contêm apenas imagens e indicadores visuais como círculos ou caixas de numeração — nenhuma palavra escrita aparece na saída gerada. Isto torna as fichas universalmente utilizáveis independentemente do idioma ou nível de leitura. Os usuários em pré-leitura completam-nas sem necessidade de ler. A mesma ficha vende-se em todo o mundo sem tradução. As instruções podem ser dadas oralmente pelo vendedor ou adicionadas como texto personalizado usando as ferramentas de texto, se necessário.',
+        'As atividades Grande e Pequeno são totalmente visuais por conceção. Os exercícios contêm apenas imagens e indicadores visuais como círculos ou caixas de numeração — nenhuma palavra escrita aparece na saída gerada. Isto torna as atividades universalmente utilizáveis independentemente do idioma ou nível de leitura. Os usuários em pré-leitura completam-nas sem necessidade de ler. A mesma atividade vende-se em todo o mundo sem tradução. As instruções podem ser dadas oralmente pelo vendedor ou adicionadas como texto personalizado usando as ferramentas de texto, se necessário.',
     },
     {
       question: 'Como funciona o gabarito gerado automaticamente?',
       answer:
-        'O gabarito cria uma versão resolvida da sua ficha onde as respostas corretas estão visualmente destacadas e circundadas. Para as perguntas de circundar, a imagem correta está marcada. Para as perguntas de numeração, a ordem correta de tamanho é apresentada. O gabarito descarrega-se como ficheiro separado juntamente com a ficha. Incluir gabaritos com cada produto aumenta o valor percebido e é o que os compradores esperam na Etsy, no Gumroad e no KDP.',
+        'O gabarito cria uma versão resolvida da sua atividade onde as respostas corretas estão visualmente destacadas e circundadas. Para as perguntas de circundar, a imagem correta está marcada. Para as perguntas de numeração, a ordem correta de tamanho é apresentada. O gabarito descarrega-se como arquivo separado juntamente com a atividade. Incluir gabaritos com cada produto aumenta o valor percebido e é o que os compradores esperam na Etsy, na Hotmart e no KDP.',
     },
     {
       question: 'Posso carregar as minhas próprias imagens em vez de usar a biblioteca?',
       answer:
-        'Sim. A funcionalidade de carregamento de imagens personalizadas permite-lhe adicionar qualquer imagem aos seus exercícios de comparação de tamanhos. Carregue fotografias, ilustrações ou gráficos relevantes para o seu tema ou público específico. As imagens personalizadas aparecem ao lado das imagens da biblioteca no canvas e funcionam com os cinco tipos de perguntas e ambos os modos de imagens. Isto é útil para criar fichas específicas de uma disciplina — comparar tamanhos de edifícios, porções de alimentos ou qualquer conceito visual além da biblioteca temática integrada.',
+        'Sim. A funcionalidade de carregamento de imagens personalizadas permite-lhe adicionar qualquer imagem aos seus exercícios de comparação de tamanhos. Carregue fotografias, ilustrações ou gráficos relevantes para o seu tema ou público específico. As imagens personalizadas aparecem ao lado das imagens da biblioteca no canvas e funcionam com os cinco tipos de perguntas e ambos os modos de imagens. Isto é útil para criar atividades específicas de uma disciplina — comparar tamanhos de edifícios, porções de alimentos ou qualquer conceito visual além da biblioteca temática integrada.',
     },
     {
       question: 'Que tamanhos de página e formatos de exportação estão disponíveis?',
       answer:
-        'Os tamanhos de página incluem Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal, Quadrado (1200×1200) e dimensões totalmente personalizadas. Exporte como JPEG de alta resolução ou PDF pronto para impressão a 300 DPI. Ative a exportação em escala de cinzentos para versões económicas em tinta. O formato Quadrado é ideal para redes sociais ou produtos digitais; os formatos Carta e A4 são padrão para fichas e cadernos imprimíveis.',
+        'Os tamanhos de página incluem Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal, Quadrado (1200×1200) e dimensões totalmente personalizadas. Exporte como JPEG de alta resolução ou PDF pronto para impressão a 300 DPI. Ative a exportação em escala de cinzentos para versões económicas em tinta. O formato Quadrado é ideal para redes sociais ou produtos digitais; os formatos Carta e A4 são padrão para atividades e cadernos imprimíveis.',
     },
     {
       question: 'Existe um teste grátis?',
@@ -188,12 +188,12 @@ const content: AppContent = {
     {
       question: 'O Gerador Grande e Pequeno é sensível ao idioma?',
       answer:
-        'Não. Grande e Pequeno é uma aplicação puramente visual — as fichas contêm apenas imagens com zero texto na saída, pelo que são idênticas em todos os idiomas. Mudar o idioma só afeta as etiquetas da interface do gerador, não o conteúdo da ficha. A Licença Comercial inclui 10 temas coloridos; o Acesso Completo desbloqueia os 104 temas e os 11 idiomas de interface.',
+        'Não. Grande e Pequeno é uma aplicação puramente visual — as atividades contêm apenas imagens com zero texto na saída, pelo que são idênticas em todos os idiomas. Mudar o idioma só afeta as etiquetas da interface do gerador, não o conteúdo da atividade. A Licença Comercial inclui 10 temas coloridos; o Acesso Completo desbloqueia os 104 temas e os 11 idiomas de interface.',
     },
     {
-      question: 'Posso vender fichas criadas com esta ferramenta na Etsy e Amazon KDP?',
+      question: 'Posso vender atividades criadas com esta ferramenta na Etsy e Amazon KDP?',
       answer:
-        'Sim. Com uma licença comercial, tem todos os direitos para vender as suas fichas de comparação de tamanhos como downloads digitais na Etsy, como cadernos impressos na Amazon KDP, como recursos educativos no Gumroad ou através de qualquer outro canal de venda. Os cinco tipos de perguntas, os dois modos de imagens e o formato totalmente visual oferecem-lhe uma forte diferenciação e vendibilidade global nas categorias das plataformas de venda.',
+        'Sim. Com uma licença comercial, tem todos os direitos para vender as suas atividades de comparação de tamanhos como downloads digitais na Etsy, como cadernos impressos na Amazon KDP, como recursos educativos na Hotmart ou através de qualquer outro canal de venda. Os cinco tipos de perguntas, os dois modos de imagens e o formato totalmente visual oferecem-lhe uma forte diferenciação e vendibilidade global nas categorias das plataformas de venda.',
     },
     {
       question: 'Qual é a política de reembolso?',
@@ -205,33 +205,33 @@ const content: AppContent = {
   internalLinks: [
     {
       pageType: 'app',
-      slug: 'trem-padroes-fichas',
-      anchorText: 'Gerador de Fichas de Trem de Padrões',
+      slug: 'trem-padroes-atividades',
+      anchorText: 'Gerador de Atividades de Trem de Padrões',
     },
     {
       pageType: 'app',
-      slug: 'fichas-padroes-sequencias',
-      anchorText: 'Gerador de Fichas de Padrões e Sequências',
+      slug: 'atividades-padroes-sequencias',
+      anchorText: 'Gerador de Atividades de Padrões e Sequências',
     },
     {
       pageType: 'app',
-      slug: 'desenho-grade-fichas',
-      anchorText: 'Gerador de Fichas de Desenho em Grelha',
+      slug: 'desenho-grade-atividades',
+      anchorText: 'Gerador de Atividades de Desenho em Grelha',
     },
     {
       pageType: 'app',
-      slug: 'tracar-linhas-fichas',
-      anchorText: 'Gerador de Fichas de Traçar Linhas',
+      slug: 'tracar-linhas-atividades',
+      anchorText: 'Gerador de Atividades de Traçar Linhas',
     },
     {
       pageType: 'app',
-      slug: 'desenhos-colorir-fichas',
-      anchorText: 'Gerador de Fichas para Colorir',
+      slug: 'desenhos-colorir-atividades',
+      anchorText: 'Gerador de Atividades para Colorir',
     },
     {
       pageType: 'app',
-      slug: 'grafico-pictorico-fichas',
-      anchorText: 'Gerador de Fichas de Gráfico Pictórico',
+      slug: 'grafico-pictorico-atividades',
+      anchorText: 'Gerador de Atividades de Gráfico Pictórico',
     },
     {
       pageType: 'bundle',
@@ -255,35 +255,35 @@ const content: AppContent = {
     },
     {
       pageType: 'guide',
-      slug: 'criar-fichas-comparacao-tamanhos',
-      anchorText: 'Criar fichas de comparação de tamanhos',
+      slug: 'criar-atividades-comparacao-tamanhos',
+      anchorText: 'Criar atividades de comparação de tamanhos',
     },
   ],
 
   visuals: {
     heroImages: {
       primary: '/samples/portuguese/big small/Grande ou Pequeno 1.webp',
-      primaryAlt: 'Ficha de comparação de tamanhos grande e pequeno com imagens temáticas em diferentes tamanhos mostrando um exercício de circundar o maior',
+      primaryAlt: 'Atividade de comparação de tamanhos grande e pequeno com imagens temáticas em diferentes tamanhos mostrando um exercício de circundar o maior',
     },
     sampleGallery: [
       {
         src: '/samples/portuguese/big small/Grande ou Pequeno 2.webp',
-        alt: 'Ficha de comparação de tamanhos em modo circundar o maior com imagens temáticas de animais em diferentes tamanhos',
+        alt: 'Atividade de comparação de tamanhos em modo circundar o maior com imagens temáticas de animais em diferentes tamanhos',
         caption: 'Modo Circundar o Maior — os usuários identificam a imagem mais grande em cada exercício',
       },
       {
         src: '/samples/portuguese/big small/Grande ou Pequeno 3.webp',
-        alt: 'Ficha de comparação de tamanhos em modo numeração com três imagens para ordenar do menor ao maior',
+        alt: 'Atividade de comparação de tamanhos em modo numeração com três imagens para ordenar do menor ao maior',
         caption: 'Numerar 1–2–3 do Menor ao Maior — os usuários ordenam as imagens por tamanho ascendente',
       },
       {
         src: '/samples/portuguese/big small/Grande ou Pequeno 4.webp',
-        alt: 'Ficha de comparação de tamanhos usando o modo imagens idênticas com a mesma imagem em três tamanhos diferentes',
+        alt: 'Atividade de comparação de tamanhos usando o modo imagens idênticas com a mesma imagem em três tamanhos diferentes',
         caption: 'Modo Imagens Idênticas — mesma imagem em diferentes tamanhos para exercícios de perceção pura do tamanho',
       },
     ],
     youtubeId: 'S2s2U6Nb7FI',
-    videoTitle: 'Como Criar Fichas de Comparação de Tamanhos com Cinco Tipos de Perguntas — Tutorial Passo a Passo',
+    videoTitle: 'Como Criar Atividades de Comparação de Tamanhos com Cinco Tipos de Perguntas — Tutorial Passo a Passo',
   },
 };
 

@@ -4,35 +4,35 @@ const content: AppContent = {
   seo: {
     primaryKeyword: 'gerador mais ou menos',
     secondaryKeywords: [
-      'fichas de mais ou menos imprimíveis para Etsy',
-      'gerador de fichas de comparação de números para Amazon KDP',
-      'vender fichas de maior que menor que no Gumroad',
-      'fichas de comparação licença comercial',
+      'atividades de mais ou menos imprimíveis para Etsy',
+      'gerador de atividades de comparação de números para Amazon KDP',
+      'vender atividades de maior que menor que na Hotmart',
+      'atividades de comparação licença comercial',
     ],
     lsiKeywords: [
       'produtos digitais de comparação de números',
-      'negócio de fichas imprimíveis sentido numérico',
-      'gerador de fichas de comparação uso comercial',
+      'negócio de atividades imprimíveis sentido numérico',
+      'gerador de atividades de comparação uso comercial',
     ],
-    titleTag: 'Gerador Mais ou Menos | Fichas de Comparação',
+    titleTag: 'Gerador Mais ou Menos | Atividades de Comparação',
     metaDescription:
-      'Crie fichas de comparação de quantidades para vender na Etsy, KDP e Gumroad. 3 modos, 104 temas, gabaritos incluídos, 400+ DPI. Teste grátis com marca d\'água.',
+      'Crie atividades de comparação de quantidades para vender na Hotmart, Etsy e KDP. 3 modos, 104 temas, gabaritos incluídos, 400+ DPI. Teste grátis com marca d\'água.',
   },
 
   hero: {
-    title: 'Gerador de Fichas Mais ou Menos para Comparação Visual de Números',
-    tagline: 'Transforme a comparação de números numa descoberta visual com fichas ilustradas de maior que e menor que.',
+    title: 'Gerador de Atividades Mais ou Menos para Comparação Visual de Números',
+    tagline: 'Transforme a comparação de números numa descoberta visual com atividades ilustradas de maior que e menor que.',
     description:
-      'Crie fichas de comparação atrativas que ensinam os usuários a identificar qual grupo tem mais, qual tem menos e quando dois grupos são iguais. Escolha entre três modos de exercício distintos — Imagem contra Imagem, Imagem contra Número e o exclusivo modo Marcar e Riscar Grupos, onde os usuários analisam caixas de imagens misturadas para encontrar o grupo maioritário. Alterne entre comparações de imagens iguais e diferentes, escolha entre símbolos ilustrados e símbolos matemáticos padrão, e selecione entre mais de 3100 imagens em 104 temas. Cada ficha gera um gabarito automático, e pode exportar PDFs prontos para impressão em formato Carta, A4 ou personalizado a mais de 400 DPI. Quer venda pacotes temáticos na Etsy, compile livros de atividades de comparação na Amazon KDP ou crie centros diferenciados para a sua loja, o Gerador Mais ou Menos produz resultados profissionais em minutos. Teste grátis com todas as funcionalidades — sem registo, sem cartão de crédito. Os downloads incluem uma marca d\'água; adquira uma licença para removê-la.',
+      'Crie atividades de comparação atrativas que ensinam os usuários a identificar qual grupo tem mais, qual tem menos e quando dois grupos são iguais. Escolha entre três modos de exercício distintos — Imagem contra Imagem, Imagem contra Número e o exclusivo modo Marcar e Riscar Grupos, onde os usuários analisam caixas de imagens misturadas para encontrar o grupo maioritário. Alterne entre comparações de imagens iguais e diferentes, escolha entre símbolos ilustrados e símbolos matemáticos padrão, e selecione entre mais de 3100 imagens em 104 temas. Cada atividade gera um gabarito automático, e pode exportar PDFs prontos para impressão em formato Carta, A4 ou personalizado a mais de 400 DPI. Quer venda pacotes temáticos na Etsy, compile livros de atividades de comparação na Amazon KDP ou crie centros diferenciados para a sua loja, o Gerador Mais ou Menos produz resultados profissionais em minutos. Teste grátis com todas as funcionalidades — sem cadastro, sem cartão de crédito. Os downloads incluem uma marca d\'água; adquira uma licença para removê-la.',
   },
 
   howItWorks: {
-    title: 'Como Criar Fichas de Comparação em 5 Passos',
+    title: 'Como Criar Atividades de Comparação em 5 Passos',
     steps: [
       {
         title: 'Configure o layout da página',
         description:
-          'Abra o painel de Configuração de Página e escolha um tamanho: Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal, Quadrado ou qualquer dimensão personalizada. Selecione uma cor de fundo, escolha um tema decorativo da biblioteca de imagens e ajuste a opacidade para manter os exercícios legíveis. Adicione uma moldura de borda combinante para dar às suas fichas de comparação um aspeto profissional e polido.',
+          'Abra o painel de Configuração de Página e escolha um tamanho: Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal, Quadrado ou qualquer dimensão personalizada. Selecione uma cor de fundo, escolha um tema decorativo da biblioteca de imagens e ajuste a opacidade para manter os exercícios legíveis. Adicione uma moldura de borda combinante para dar às suas atividades de comparação um aspecto profissional e polido.',
       },
       {
         title: 'Escolha o modo de comparação',
@@ -47,12 +47,12 @@ const content: AppContent = {
       {
         title: 'Explore a biblioteca de imagens e adicione texto',
         description:
-          'Abra o painel da Biblioteca de Imagens e explore 104 temas — desde animais e alimentos até veículos e festividades. Use a pesquisa para encontrar imagens instantaneamente. Selecione imagens individuais ou atribua um tema para toda a ficha. Adicione um título, campos de nome e data do usuário ou instruções personalizadas com o painel de Ferramentas de Texto. Escolha entre fontes adequadas a crianças e ajuste tamanho, cor e contorno para uma leitura clara.',
+          'Abra o painel da Biblioteca de Imagens e explore 104 temas — desde animais e alimentos até veículos e festividades. Use a pesquisa para encontrar imagens instantaneamente. Selecione imagens individuais ou atribua um tema para toda a atividade. Adicione um título, campos de nome e data do usuário ou instruções personalizadas com o painel de Ferramentas de Texto. Escolha entre fontes adequadas a crianças e ajuste tamanho, cor e contorno para uma leitura clara.',
       },
       {
-        title: 'Gere o gabarito e descarregue',
+        title: 'Gere o gabarito e baixe',
         description:
-          'Vá ao separador de Gabarito e clique em Gerar para criar uma versão resolvida com todos os símbolos de comparação corretos. Ative o modo Escala de Cinza para uma exportação a preto e branco que poupa tinta. Exporte a ficha e o gabarito em JPEG de alta resolução ou PDF pronto para impressão. Cada ficheiro é renderizado a mais de 400 DPI para resultados nítidos, quer impresso em casa, enviado a uma gráfica ou carregado como produto digital.',
+          'Vá ao aba de Gabarito e clique em Gerar para criar uma versão resolvida com todos os símbolos de comparação corretos. Ative o modo Escala de Cinza para uma exportação a preto e branco que poupa tinta. Exporte a atividade e o gabarito em JPEG de alta resolução ou PDF pronto para impressão. Cada arquivo é renderizado a mais de 400 DPI para resultados nítidos, quer impresso em casa, enviado a uma gráfica ou carregado como produto digital.',
       },
     ],
   },
@@ -68,7 +68,7 @@ const content: AppContent = {
       {
         title: 'Modo exclusivo Marcar e Riscar Grupos',
         description:
-          'Este modo é único entre os geradores de fichas convencionais. Uma única caixa contém de 8 a 20 imagens de duas categorias diferentes misturadas. Os usuários devem ordenar visualmente os grupos, contar cada um, e depois marcar o grupo com mais e riscar o grupo com menos. Desenvolve simultaneamente a discriminação visual, a precisão da contagem e as competências de comparação. Cada ficha pode incluir até 3 exercícios de Marcar e Riscar para uma prática focada.',
+          'Este modo é único entre os geradores de atividades convencionais. Uma única caixa contém de 8 a 20 imagens de duas categorias diferentes misturadas. Os usuários devem ordenar visualmente os grupos, contar cada um, e depois marcar o grupo com mais e riscar o grupo com menos. Desenvolve simultaneamente a discriminação visual, a precisão da contagem e as competências de comparação. Cada atividade pode incluir até 3 exercícios de Marcar e Riscar para uma prática focada.',
       },
       {
         title: 'Controlo de variação de imagens',
@@ -83,57 +83,57 @@ const content: AppContent = {
       {
         title: '104 temas visuais com mais de 3100 imagens',
         description:
-          'Explore uma biblioteca de mais de 3100 ilustrações selecionadas em 104 temas: animais da quinta, vida marinha, veículos, espaço, alimentos, desportos, dinossauros, festividades e muito mais. Cada imagem é de alta resolução e concebida para uma impressão nítida e adequada a crianças. Como as fichas são puramente visuais — sem texto nos exercícios — funcionam perfeitamente em qualquer idioma e em qualquer loja do mundo.',
+          'Explore uma biblioteca de mais de 3100 ilustrações selecionadas em 104 temas: animais da quinta, vida marinha, veículos, espaço, alimentos, desportos, dinossauros, festividades e muito mais. Cada imagem é de alta resolução e concebida para uma impressão nítida e adequada a crianças. Como as atividades são puramente visuais — sem texto nos exercícios — funcionam perfeitamente em qualquer idioma e em qualquer loja do mundo.',
       },
       {
         title: 'Geração automática de gabarito',
         description:
-          'Clique num botão para gerar um gabarito completo que reproduz o layout da sua ficha com todos os símbolos de comparação corretos. O separador de gabarito apresenta uma pré-visualização em tempo real para verificar a exatidão antes de descarregar. Exporte o gabarito como ficheiro JPEG ou PDF separado, facilitando a sua inclusão em edições do vendedor, guias para pais ou pacotes de produtos na Etsy sem qualquer trabalho manual.',
+          'Clique num botão para gerar um gabarito completo que reproduz o layout da sua atividade com todos os símbolos de comparação corretos. O aba de gabarito apresenta uma pré-visualização em tempo real para verificar a exatidão antes de baixar. Exporte o gabarito como arquivo JPEG ou PDF separado, facilitando a sua inclusão em edições do vendedor, guias para pais ou pacotes de produtos na Etsy sem qualquer trabalho manual.',
       },
       {
         title: 'Exportação pronta para impressão a 400+ DPI com opção escala de cinza',
         description:
-          'Descarregue fichas e gabaritos como imagens JPEG de alta resolução ou documentos PDF prontos para impressão. O motor de exportação renderiza com um multiplicador 6x, produzindo mais de 400 DPI em tamanhos padrão. Ative o modo Escala de Cinza para converter fichas coloridas a preto e branco para impressão económica online. Os formatos Carta, A4, Quadrado e personalizado são todos suportados para máxima flexibilidade.',
+          'Baixe atividades e gabaritos como imagens JPEG de alta resolução ou documentos PDF prontos para impressão. O motor de exportação renderiza com um multiplicador 6x, produzindo mais de 400 DPI em tamanhos padrão. Ative o modo Escala de Cinza para converter atividades coloridas a preto e branco para impressão económica online. Os formatos Carta, A4, Quadrado e personalizado são todos suportados para máxima flexibilidade.',
       },
       {
         title: 'Edição completa do canvas com desfazer e refazer',
         description:
-          'O canvas Fabric.js integrado permite-lhe arrastar, redimensionar, rodar e reposicionar cada elemento da página — texto, imagens, blocos de exercício, bordas e fundos. Amplie e reduza para uma colocação precisa, e use desfazer e refazer ilimitados para experimentar livremente. Bloqueie os elementos no lugar uma vez posicionados, ou desbloqueie tudo para redesenhar espontaneamente. Isto dá-lhe a flexibilidade de uma ferramenta de design gráfico dentro de um gerador de fichas.',
+          'O canvas Fabric.js integrado permite-lhe arrastar, redimensionar, rodar e reposicionar cada elemento da página — texto, imagens, blocos de exercício, bordas e fundos. Amplie e reduza para uma colocação precisa, e use desfazer e refazer ilimitados para experimentar livremente. Bloqueie os elementos no lugar uma vez posicionados, ou desbloqueie tudo para redesenhar espontaneamente. Isto dá-lhe a flexibilidade de uma ferramenta de design gráfico dentro de um gerador de atividades.',
       },
     ],
   },
 
   businessUseCases: {
-    title: 'Como Vender Fichas de Comparação de Números Online',
+    title: 'Como Vender Atividades de Comparação de Números Online',
     cases: [
       {
-        title: 'Pacotes temáticos de fichas de comparação na Etsy',
+        title: 'Pacotes temáticos de atividades de comparação na Etsy',
         description:
-          'Crie conjuntos de 10 a 20 fichas de comparação agrupadas por tema — animais da quinta, dinossauros, vida marinha, festividades — e ofereça-os como download instantâneo na Etsy. Inclua os três modos (Imagem contra Imagem, Imagem contra Número, Marcar e Riscar) mais os gabaritos para um recurso de aprendizagem completo. Os pacotes temáticos de comparação atraem pais e vendedores que procuram temas específicos. Defina o preço de pacotes individuais entre $3–$5 e de mega-pacotes variados entre $12–$18. Os temas sazonais como Halloween, Natal e Dia dos Namorados tendem a aumentar nas pesquisas semanas antes de cada festividade, por isso programe os seus anúncios com antecedência.',
+          'Crie conjuntos de 10 a 20 atividades de comparação agrupadas por tema — animais da quinta, dinossauros, vida marinha, festividades — e ofereça-os como download instantâneo na Etsy. Inclua os três modos (Imagem contra Imagem, Imagem contra Número, Marcar e Riscar) mais os gabaritos para um recurso de aprendizagem completo. Os pacotes temáticos de comparação atraem pais e vendedores que procuram temas específicos. Defina o preço de pacotes individuais entre $3–$5 e de mega-pacotes variados entre $12–$18. Os temas sazonais como Halloween, Natal e Dia dos Namorados tendem a aumentar nas pesquisas semanas antes de cada festividade, por isso programe os seus anúncios com antecedência.',
         platform: 'Etsy (etsy.com)',
       },
       {
         title: 'Livros de atividades de comparação na Amazon KDP',
         description:
-          'Compile de 50 a 100 fichas de comparação num livro de atividades em formato Amazon KDP. Estruture o livro com dificuldade progressiva — comece com Imagens Iguais no modo Imagem contra Imagem, avance para Imagens Diferentes no modo Imagem contra Número e termine com desafios de Marcar e Riscar. Adicione uma capa, secção de instruções e gabarito no final. Os livros de comparação de números para crianças dos 3 aos 7 anos vendem-se consistentemente durante todo o ano. Considere publicar volumes separados por faixa etária — uma edição pré-escolar com intervalos pequenos e uma edição de primeiro ano com intervalos maiores — para que cada título aponte a um nicho de palavras-chave distinto.',
+          'Compile de 50 a 100 atividades de comparação num livro de atividades em formato Amazon KDP. Estruture o livro com dificuldade progressiva — comece com Imagens Iguais no modo Imagem contra Imagem, avance para Imagens Diferentes no modo Imagem contra Número e termine com desafios de Marcar e Riscar. Adicione uma capa, secção de instruções e gabarito no final. Os livros de comparação de números para crianças dos 3 aos 7 anos vendem-se consistentemente durante todo o ano. Considere publicar volumes separados por faixa etária — uma edição pré-escolar com intervalos pequenos e uma edição de primeiro ano com intervalos maiores — para que cada título aponte a um nicho de palavras-chave distinto.',
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Centros de matemática diferenciados para Gumroad',
+        title: 'Centros de matemática diferenciados para Hotmart',
         description:
-          'Crie conjuntos de comparação por níveis usando os três modos como degraus de dificuldade naturais: Nível 1 (Imagem contra Imagem com Imagens Iguais), Nível 2 (Imagem contra Número com Imagens Diferentes) e Nível 3 (Marcar e Riscar Grupos). Cada nível com gabaritos e folha de acompanhamento do progresso. Os compradores do Gumroad pagam preços premium por recursos diferenciados que podem usar imediatamente em múltiplos grupos de nível em centros de matemática.',
-        platform: 'Gumroad (teacherspayteachers.com)',
+          'Crie conjuntos de comparação por níveis usando os três modos como degraus de dificuldade naturais: Nível 1 (Imagem contra Imagem com Imagens Iguais), Nível 2 (Imagem contra Número com Imagens Diferentes) e Nível 3 (Marcar e Riscar Grupos). Cada nível com gabaritos e folha de acompanhamento do progresso. Os compradores da Hotmart pagam preços premium por recursos diferenciados que podem usar imediatamente em múltiplos grupos de nível em centros de matemática.',
+        platform: 'Hotmart (hotmart.com)',
       },
       {
         title: 'Conteúdo de subscrição para a sua própria loja',
         description:
-          'Use o gerador para produzir pacotes semanais de fichas de comparação e distribua-os através do Shopify, Gumroad ou Payhip. Um modelo de subscrição — novo pacote temático a cada semana — gera receitas recorrentes e fideliza uma base de clientes de famílias que educam em casa e centros de explicações. Os três modos de exercício, dois ajustes de variação de imagens e 104 temas oferecem variedade suficiente para anos de conteúdo único.',
-        platform: 'Gumroad / Shopify / Payhip',
+          'Use o gerador para produzir pacotes semanais de atividades de comparação e distribua-os através do Shopify, Hotmart ou Payhip. Um modelo de subscrição — novo pacote temático a cada semana — gera receitas recorrentes e fideliza uma base de clientes de famílias que educam em casa e centros de explicações. Os três modos de exercício, dois ajustes de variação de imagens e 104 temas oferecem variedade suficiente para anos de conteúdo único.',
+        platform: 'Kiwify / Hotmart / Eduzz',
       },
       {
         title: 'Prática de comparação para loja e explicações',
         description:
-          'Gere fichas de comparação personalizadas adaptadas ao nível de cada usuário. Imprima fichas de Imagem contra Imagem com Imagens Iguais para iniciantes e fichas de Marcar e Riscar Grupos para usuários avançados — tudo na mesma sessão. O gabarito automático poupa valor percebido. Quer dirija um centro de explicações, ensine no jardim de infância ou ensino primário, ou eduque em casa, o gerador substitui horas de criação manual de fichas por alguns cliques.',
+          'Gere atividades de comparação personalizadas adaptadas ao nível de cada usuário. Imprima atividades de Imagem contra Imagem com Imagens Iguais para iniciantes e atividades de Marcar e Riscar Grupos para usuários avançados — tudo na mesma sessão. O gabarito automático poupa valor percebido. Quer dirija um centro de explicações, ensine no jardim de infância ou ensino primário, ou eduque em casa, o gerador substitui horas de criação manual de atividades por alguns cliques.',
         platform: 'loja / Explicações / Ensino doméstico',
       },
     ],
@@ -143,12 +143,12 @@ const content: AppContent = {
     {
       question: 'Que modos de comparação oferece o Gerador Mais ou Menos?',
       answer:
-        'O gerador inclui três modos: Imagem contra Imagem (dois grupos de imagens para contar e comparar), Imagem contra Número (um grupo de imagens associado a um número) e Marcar e Riscar Grupos (uma caixa de imagens misturadas onde os usuários marcam o grupo maioritário e riscam o minoritário). Cada modo dirige-se a um nível diferente e a um desafio de comparação distinto. Os vendedores costumam empacotar os três modos num único anúncio de produto, oferecendo aos compradores um catálogo de produtos completo de comparação numa só descarga.',
+        'O gerador inclui três modos: Imagem contra Imagem (dois grupos de imagens para contar e comparar), Imagem contra Número (um grupo de imagens associado a um número) e Marcar e Riscar Grupos (uma caixa de imagens misturadas onde os usuários marcam o grupo maioritário e riscam o minoritário). Cada modo dirige-se a um nível diferente e a um desafio de comparação distinto. Os vendedores costumam empacotar os três modos num único anúncio de produto, oferecendo aos compradores um catálogo de produtos completo de comparação numa só download.',
     },
     {
       question: 'O que é o modo Marcar e Riscar Grupos?',
       answer:
-        'Marcar e Riscar Grupos é um tipo de exercício único onde uma única caixa contém de 8 a 20 imagens de duas categorias diferentes misturadas. Os usuários ordenam visualmente as imagens, contam cada grupo, e depois marcam o grupo com mais e riscam o grupo com menos. Pode incluir até 3 exercícios de Marcar e Riscar por ficha. Este modo desenvolve simultaneamente a discriminação visual e as competências de contagem. Como este modo raramente se encontra em geradores concorrentes, os vendedores que o destacam nos seus títulos e descrições podem diferenciar-se e captar compradores à procura de atividades matemáticas únicas.',
+        'Marcar e Riscar Grupos é um tipo de exercício único onde uma única caixa contém de 8 a 20 imagens de duas categorias diferentes misturadas. Os usuários ordenam visualmente as imagens, contam cada grupo, e depois marcam o grupo com mais e riscam o grupo com menos. Pode incluir até 3 exercícios de Marcar e Riscar por atividade. Este modo desenvolve simultaneamente a discriminação visual e as competências de contagem. Como este modo raramente se encontra em geradores concorrentes, os vendedores que o destacam nos seus títulos e descrições podem diferenciar-se e captar compradores à procura de atividades matemáticas únicas.',
     },
     {
       question: 'Que intervalos numéricos posso configurar para os exercícios de comparação?',
@@ -166,19 +166,19 @@ const content: AppContent = {
         'Pode escolher entre Símbolos Ilustrados (versões coloridas e gráficas dos sinais de maior que, menor que e igual) e Símbolos Normais (caracteres de texto convencionais >, <, =). Os símbolos ilustrados são ideais para usuários mais novos que beneficiam de pistas visuais. Também pode ativar Mostrar Símbolos para Circular, que adiciona símbolos de comparação para os usuários rodearem como parte do exercício.',
     },
     {
-      question: 'As fichas de comparação dependem do idioma?',
+      question: 'As atividades de comparação dependem do idioma?',
       answer:
-        'Não. As fichas de Mais ou Menos são puramente visuais — o conteúdo de comparação usa imagens e números, não palavras. Isto significa que uma ficha criada num idioma funciona em todos os idiomas. A configuração de idioma apenas altera as etiquetas da interface da aplicação, não o conteúdo da ficha, tornando os seus produtos instantaneamente vendáveis em todo o mundo sem qualquer esforço de tradução. Esta é uma vantagem significativa para vendedores que visam mercados internacionais, porque um único PDF de fichas de comparação pode ser anunciado em lojas Etsy de vários países sem qualquer localização.',
+        'Não. As atividades de Mais ou Menos são puramente visuais — o conteúdo de comparação usa imagens e números, não palavras. Isto significa que uma atividade criada num idioma funciona em todos os idiomas. A configuração de idioma apenas altera as etiquetas da interface da aplicação, não o conteúdo da atividade, tornando os seus produtos instantaneamente vendáveis em todo o mundo sem qualquer esforço de tradução. Esta é uma vantagem significativa para vendedores que visam mercados internacionais, porque um único PDF de atividades de comparação pode ser anunciado em lojas Etsy de vários países sem qualquer localização.',
     },
     {
       question: 'O gerador cria gabaritos automaticamente?',
       answer:
-        'Sim. Clique no botão Gerar Gabarito para criar uma versão completa da sua ficha com todos os símbolos de comparação corretos. Pode pré-visualizar o gabarito no ecrã e descarregá-lo como ficheiro JPEG ou PDF separado juntamente com a ficha do usuário. Incluir gabaritos formatados profissionalmente em cada anúncio de produto sinaliza qualidade e profissionalismo aos compradores dos mercados, que frequentemente filtram por recursos que incluem soluções ao navegar na Etsy ou no Gumroad.',
+        'Sim. Clique no botão Gerar Gabarito para criar uma versão completa da sua atividade com todos os símbolos de comparação corretos. Pode pré-visualizar o gabarito no tela e baixá-lo como arquivo JPEG ou PDF separado juntamente com a atividade do usuário. Incluir gabaritos formatados profissionalmente em cada anúncio de produto sinaliza qualidade e profissionalismo aos compradores dos mercados, que frequentemente filtram por recursos que incluem soluções ao navegar na Etsy ou na Hotmart.',
     },
     {
-      question: 'Posso exportar fichas em escala de cinza para poupar tinta?',
+      question: 'Posso exportar atividades em escala de cinza para poupar tinta?',
       answer:
-        'Sim. Ative a opção Escala de Cinza no painel de Download para converter as suas fichas coloridas a preto e branco antes de exportar. Perfeito para impressão online onde quer poupar tinta sem sacrificar a qualidade da prática de comparação. Tanto as exportações em JPEG como em PDF suportam o modo escala de cinza.',
+        'Sim. Ative a opção Escala de Cinza no painel de Download para converter as suas atividades coloridas a preto e branco antes de exportar. Perfeito para impressão online onde quer poupar tinta sem sacrificar a qualidade da prática de comparação. Tanto as exportações em JPEG como em PDF suportam o modo escala de cinza.',
     },
     {
       question: 'Existe um teste grátis?',
@@ -188,35 +188,35 @@ const content: AppContent = {
     {
       question: 'O que inclui a licença comercial?',
       answer:
-        'A licença comercial remove a marca d\'água de todos os downloads e concede-lhe direitos ilimitados para vender as fichas que criar — na Etsy, Amazon KDP, Gumroad, no seu próprio site ou em qualquer outra plataforma. Não há royalties por venda, não há taxas mensais e não há limites na quantidade de fichas que produzir ou vender.',
+        'A licença comercial remove a marca d\'água de todos os downloads e concede-lhe direitos ilimitados para vender as atividades que criar — na Hotmart, Etsy, Amazon KDP, no seu próprio site ou em qualquer outra plataforma. Não há royalties por venda, não há taxas mensais e não há limites na quantidade de atividades que produzir ou vender.',
     },
     {
-      question: 'Posso vender fichas criadas com esta ferramenta na Etsy e Amazon KDP?',
+      question: 'Posso vender atividades criadas com esta ferramenta na Etsy e Amazon KDP?',
       answer:
-        'Sim. Com uma licença comercial, tem todos os direitos para vender as suas fichas de comparação como downloads digitais na Etsy, como livros de atividades impressos na Amazon KDP, como recursos educativos no Gumroad ou através de qualquer outro canal de venda. Muitos vendedores criam pacotes temáticos e livros de atividades que geram receitas consistentes. Também pode combinar fichas de comparação com outros tipos de fichas de matemática — como adição ou subtração — para criar pacotes abrangentes de prática que alcançam preços mais elevados e atraem compradores à procura de recursos completos.',
+        'Sim. Com uma licença comercial, tem todos os direitos para vender as suas atividades de comparação como downloads digitais na Etsy, como livros de atividades impressos na Amazon KDP, como recursos educativos na Hotmart ou através de qualquer outro canal de venda. Muitos vendedores criam pacotes temáticos e livros de atividades que geram receitas consistentes. Também pode combinar atividades de comparação com outros tipos de atividades de matemática — como adição ou subtração — para criar pacotes abrangentes de prática que alcançam preços mais elevados e atraem compradores à procura de recursos completos.',
     },
     {
       question: 'Qual é a política de reembolso?',
       answer:
-        'Como o teste grátis lhe dá acesso a todas as funcionalidades, não oferecemos reembolsos em compras de licenças comerciais. Pode testar cada modo, cada tema, cada formato de exportação e cada tamanho de página antes de comprar. O teste grátis é a política de reembolso — certifique-se de que a ferramenta se adapta às suas necessidades antes de adquirir uma licença. Recomendamos criar várias fichas completas durante o seu teste grátis, rever a qualidade de impressão e as opções de layout, e confirmar que o resultado cumpre os padrões dos seus anúncios antes de comprar a licença comercial.',
+        'Como o teste grátis lhe dá acesso a todas as funcionalidades, não oferecemos reembolsos em compras de licenças comerciais. Pode testar cada modo, cada tema, cada formato de exportação e cada tamanho de página antes de comprar. O teste grátis é a política de reembolso — certifique-se de que a ferramenta se adapta às suas necessidades antes de adquirir uma licença. Recomendamos criar várias atividades completas durante o seu teste grátis, rever a qualidade de impressão e as opções de layout, e confirmar que o resultado cumpre os padrões dos seus anúncios antes de comprar a licença comercial.',
     },
   ],
 
   internalLinks: [
     {
       pageType: 'app',
-      slug: 'adicao-fichas',
-      anchorText: 'Gerador de Fichas de Adição',
+      slug: 'adicao-atividades',
+      anchorText: 'Gerador de Atividades de Adição',
     },
     {
       pageType: 'app',
-      slug: 'subtracao-fichas',
-      anchorText: 'Gerador de Fichas de Subtração',
+      slug: 'subtracao-atividades',
+      anchorText: 'Gerador de Atividades de Subtração',
     },
     {
       pageType: 'app',
-      slug: 'quebra-cabeca-matematica-fichas',
-      anchorText: 'Gerador de Fichas de Quebra-Cabeças Matemáticos',
+      slug: 'quebra-cabeca-matematica-atividades',
+      anchorText: 'Gerador de Atividades de Quebra-Cabeças Matemáticos',
     },
     {
       pageType: 'bundle',
@@ -225,13 +225,13 @@ const content: AppContent = {
     },
     {
       pageType: 'guide',
-      slug: 'criar-fichas-comparacao-tamanhos',
-      anchorText: 'Como Criar Fichas de Comparação que Vendem',
+      slug: 'criar-atividades-comparacao-tamanhos',
+      anchorText: 'Como Criar Atividades de Comparação que Vendem',
     },
     {
       pageType: 'guide',
-      slug: 'vender-fichas-matematica-etsy',
-      anchorText: 'Guia para Vender Fichas de Matemática na Etsy',
+      slug: 'vender-atividades-matematica-etsy',
+      anchorText: 'Guia para Vender Atividades de Matemática na Etsy',
     },
     {
       pageType: 'idea',
@@ -245,40 +245,40 @@ const content: AppContent = {
     },
     {
       pageType: 'start',
-      slug: 'criar-fichas-que-vendem',
-      anchorText: 'Como criar fichas que vendem',
+      slug: 'criar-atividades-que-vendem',
+      anchorText: 'Como criar atividades que vendem',
     },
     {
       pageType: 'guide',
-      slug: 'criar-fichas-contagem',
-      anchorText: 'Criar fichas de contagem',
+      slug: 'criar-atividades-contagem',
+      anchorText: 'Criar atividades de contagem',
     },
   ],
 
   visuals: {
     heroImages: {
       primary: '/samples/portuguese/more less/Mais Menos 1.webp',
-      primaryAlt: 'Ficha Mais ou Menos com imagens coloridas de animais mostrando o modo Imagem contra Imagem',
+      primaryAlt: 'Atividade Mais ou Menos com imagens coloridas de animais mostrando o modo Imagem contra Imagem',
     },
     sampleGallery: [
       {
         src: '/samples/portuguese/more less/Mais Menos 2.webp',
-        alt: 'Ficha de comparação no modo Imagem contra Imagem com tema de animais',
+        alt: 'Atividade de comparação no modo Imagem contra Imagem com tema de animais',
         caption: 'Modo Imagem contra Imagem — os usuários contam dois grupos de imagens e comparam quantidades',
       },
       {
         src: '/samples/portuguese/more less/Mais Menos 3.webp',
-        alt: 'Ficha de comparação no modo Imagem contra Número com tema de alimentos',
+        alt: 'Atividade de comparação no modo Imagem contra Número com tema de alimentos',
         caption: 'Modo Imagem contra Número — associa grupos de imagens a números para competências de transição',
       },
       {
         src: '/samples/portuguese/more less/Mais Menos 4.webp',
-        alt: 'Ficha de Marcar e Riscar Grupos com imagens misturadas para classificação visual',
+        alt: 'Atividade de Marcar e Riscar Grupos com imagens misturadas para classificação visual',
         caption: 'Modo Marcar e Riscar Grupos — os usuários encontram o grupo maioritário numa caixa de imagens misturadas',
       },
     ],
     youtubeId: 'eNguG63nYVs',
-    videoTitle: 'Como Criar Fichas de Comparação de Números — Tutorial Passo a Passo',
+    videoTitle: 'Como Criar Atividades de Comparação de Números — Tutorial Passo a Passo',
   },
 };
 

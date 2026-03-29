@@ -2,32 +2,32 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'gerador fichas grafomotricidade',
+    primaryKeyword: 'gerador atividades grafomotricidade',
     secondaryKeywords: [
-      'gerador de fichas de traçar linhas imprimíveis para vendedores Etsy',
-      'criador de fichas de grafomotricidade para editores Amazon KDP',
-      'vender fichas de traçar linhas no Gumroad',
-      'gerador de fichas de grafomotricidade licença comercial',
+      'gerador de atividades de traçar linhas imprimíveis para vendedores Etsy',
+      'criador de atividades de grafomotricidade para editores Amazon KDP',
+      'vender atividades de traçar linhas na Hotmart',
+      'gerador de atividades de grafomotricidade licença comercial',
     ],
     lsiKeywords: [
-      'produtos digitais fichas traçar linhas para empreendedores',
-      'fichas de motricidade fina imprimíveis uso comercial',
-      'gerador de fichas grafomotricidade com modelos SVG',
+      'produtos digitais atividades traçar linhas para empreendedores',
+      'atividades de motricidade fina imprimíveis uso comercial',
+      'gerador de atividades grafomotricidade com modelos SVG',
     ],
-    titleTag: 'Gerador Fichas Grafomotricidade | Criar e Vender',
+    titleTag: 'Gerador Atividades Grafomotricidade | Criar e Vender',
     metaDescription:
-      'Crie fichas de grafomotricidade para Etsy, KDP e Gumroad. Modelos de linhas SVG, emparelhamento de imagens, 104 coleções temáticas. Teste grátis com marca d\'água.',
+      'Crie atividades de grafomotricidade para Hotmart, Etsy e KDP. Modelos de linhas SVG, emparelhamento de imagens, 104 coleções temáticas. Teste grátis com marca d\'água.',
   },
 
   hero: {
-    title: 'Gerador de Fichas de Grafomotricidade para Exercícios de Traçado de Linhas',
+    title: 'Gerador de Atividades de Grafomotricidade para Exercícios de Traçado de Linhas',
     tagline: 'Oito modelos de linhas SVG — curvas, diagonais, horizontal e vertical — com 4 a 5 pares de imagens por página para o desenvolvimento da motricidade fina através do traçado de linhas guiado.',
     description:
-      'Crie fichas profissionais de grafomotricidade onde os usuários traçam ao longo de caminhos guiados para ligar pares de imagens emparelhadas. Oito modelos baseados em SVG cobrem quatro tipos de linhas: quatro modelos de curvas para movimentos fluidos, dois modelos de diagonais para traços em ângulo, um modelo horizontal para traçado da esquerda para a direita e um modelo vertical para prática de cima para baixo. Cada modelo coloca 4 ou 5 pares de imagens emparelhadas de cada lado do caminho da linha, dando aos usuários um objetivo visual em cada extremidade. O preenchimento automático atribui aleatoriamente pares de imagens a partir de qualquer tema selecionado ou de todos os temas de uma só vez. O conteúdo provém da Biblioteca de Imagens integrada com mais de 3100 ilustrações coloridas em 104 temas — animais, veículos, alimentos, natureza e dezenas mais. Cada ficha é puramente visual com zero texto na saída, tornando-as universalmente utilizáveis independentemente do idioma ou nível de leitura. A seleção do modelo determina automaticamente a orientação da página: os modelos de curvas passam para horizontal para movimentos amplos, enquanto os modelos de diagonais, horizontal e vertical usam vertical para prática concentrada de cima para baixo. O Acesso Completo desbloqueia os 104 temas e os 11 idiomas de interface. Exporte PDFs e JPEGs prontos para impressão a 300 DPI nos formatos Carta, A4 ou dimensões personalizadas. Quer venda pacotes de traçado de linhas na Etsy, compile cadernos de motricidade fina para a Amazon KDP ou crie centros de preparação para a escrita para o Gumroad, o Gerador de Fichas de Grafomotricidade oferece resultados profissionais em minutos — teste grátis com todas as funcionalidades, sem registo, sem cartão de crédito. Os downloads incluem uma marca d\'água; adquira uma licença para removê-la.',
+      'Crie atividades profissionais de grafomotricidade onde os usuários traçam ao longo de caminhos guiados para ligar pares de imagens emparelhadas. Oito modelos baseados em SVG cobrem quatro tipos de linhas: quatro modelos de curvas para movimentos fluidos, dois modelos de diagonais para traços em ângulo, um modelo horizontal para traçado da esquerda para a direita e um modelo vertical para prática de cima para baixo. Cada modelo coloca 4 ou 5 pares de imagens emparelhadas de cada lado do caminho da linha, dando aos usuários um objetivo visual em cada extremidade. O preenchimento automático atribui aleatoriamente pares de imagens a partir de qualquer tema selecionado ou de todos os temas de uma só vez. O conteúdo provém da Biblioteca de Imagens integrada com mais de 3100 ilustrações coloridas em 104 temas — animais, veículos, alimentos, natureza e dezenas mais. Cada atividade é puramente visual com zero texto na saída, tornando-as universalmente utilizáveis independentemente do idioma ou nível de leitura. A seleção do modelo determina automaticamente a orientação da página: os modelos de curvas passam para horizontal para movimentos amplos, enquanto os modelos de diagonais, horizontal e vertical usam vertical para prática concentrada de cima para baixo. O Acesso Completo desbloqueia os 104 temas e os 11 idiomas de interface. Exporte PDFs e JPEGs prontos para impressão a 300 DPI nos formatos Carta, A4 ou dimensões personalizadas. Quer venda pacotes de traçado de linhas na Etsy, compile cadernos de motricidade fina para a Amazon KDP ou crie centros de preparação para a escrita para o Hotmart, o Gerador de Atividades de Grafomotricidade oferece resultados profissionais em minutos — teste grátis com todas as funcionalidades, sem cadastro, sem cartão de crédito. Os downloads incluem uma marca d\'água; adquira uma licença para removê-la.',
   },
 
   howItWorks: {
-    title: 'Como Criar Fichas de Grafomotricidade em 5 Passos',
+    title: 'Como Criar Atividades de Grafomotricidade em 5 Passos',
     steps: [
       {
         title: 'Configure o layout da página',
@@ -42,23 +42,23 @@ const content: AppContent = {
       {
         title: 'Escolha imagens temáticas ou use o preenchimento automático',
         description:
-          'Explore 104 coleções de imagens temáticas com mais de 3100 ilustrações coloridas — animais, alimentos, veículos, natureza e dezenas mais — ou carregue as suas próprias imagens personalizadas. Cada tema fornece imagens coordenadas que funcionam juntas visualmente. Use o preenchimento automático para atribuir aleatoriamente pares de imagens emparelhadas a partir do tema selecionado ou de todos os temas de uma só vez, preenchendo instantaneamente cada espaço de par no modelo. O preenchimento automático poupa tempo considerável ao criar múltiplas fichas em lote.',
+          'Explore 104 coleções de imagens temáticas com mais de 3100 ilustrações coloridas — animais, alimentos, veículos, natureza e dezenas mais — ou carregue as suas próprias imagens personalizadas. Cada tema fornece imagens coordenadas que funcionam juntas visualmente. Use o preenchimento automático para atribuir aleatoriamente pares de imagens emparelhadas a partir do tema selecionado ou de todos os temas de uma só vez, preenchendo instantaneamente cada espaço de par no modelo. O preenchimento automático poupa tempo considerável ao criar múltiplas atividades em lote.',
       },
       {
         title: 'Adicione decorações de texto e personalize',
         description:
-          'Use o painel Ferramentas de Texto para adicionar um título de ficha, campos de nome e data do usuário (Fredoka 18px) ou instruções personalizadas com fontes como Arial, Verdana, Baloo 2, Fredoka, Lexend Deca, Nunito e Quicksand. Ajuste o tamanho da fonte, a cor e a largura do contorno de texto (0 a 10 com granularidade de 0,5). Arraste, redimensione, rode e reposicione cada elemento no canvas completo Fabric.js com controlos de camadas, bloqueio/desbloqueio, ferramentas de alinhamento e zoom de 25 % a 400 %. Anule e refaça até 100 estados de histórico com Ctrl+Z e Ctrl+Y.',
+          'Use o painel Ferramentas de Texto para adicionar um título de atividade, campos de nome e data do usuário (Fredoka 18px) ou instruções personalizadas com fontes como Arial, Verdana, Baloo 2, Fredoka, Lexend Deca, Nunito e Quicksand. Ajuste o tamanho da fonte, a cor e a largura do contorno de texto (0 a 10 com granularidade de 0,5). Arraste, redimensione, rode e reposicione cada elemento no canvas completo Fabric.js com controlos de camadas, bloqueio/desbloqueio, ferramentas de alinhamento e zoom de 25 % a 400 %. Anule e refaça até 100 estados de histórico com Ctrl+Z e Ctrl+Y.',
       },
       {
-        title: 'Descarregue como JPEG ou PDF',
+        title: 'Baixe como JPEG ou PDF',
         description:
-          'Abra o menu Descarregar e exporte a sua ficha terminada como JPEG de alta resolução (qualidade 1.0) ou PDF pronto para impressão a 300 DPI através de um multiplicador de renderização 6x. Ative a exportação em escala de cinzentos para versões económicas em tinta, ideais para impressão online. Os ficheiros são guardados como drawing_lines_worksheet.jpeg ou drawing_lines_worksheet.pdf. Cada exportação está pronta para produção: listagens da Etsy, interiores da Amazon KDP e ficheiros de produtos Gumroad — sem necessidade de pós-processamento.',
+          'Abra o menu Baixar e exporte a sua atividade terminada como JPEG de alta resolução (qualidade 1.0) ou PDF pronto para impressão a 300 DPI através de um multiplicador de renderização 6x. Ative a exportação em escala de cinzentos para versões económicas em tinta, ideais para impressão online. Os arquivos são guardados como drawing_lines_worksheet.jpeg ou drawing_lines_worksheet.pdf. Cada exportação está pronta para produção: listagens da Etsy, interiores da Amazon KDP e arquivos de produtos Hotmart — sem necessidade de pós-processamento.',
       },
     ],
   },
 
   keyFeatures: {
-    title: 'Características Principais do Gerador de Fichas de Grafomotricidade',
+    title: 'Características Principais do Gerador de Atividades de Grafomotricidade',
     features: [
       {
         title: 'Oito modelos de linhas SVG: curvas, diagonais, horizontal e vertical',
@@ -68,7 +68,7 @@ const content: AppContent = {
       {
         title: 'Emparelhamento de imagens com preenchimento automático a partir de 104 temas',
         description:
-          'Cada modelo coloca pares de imagens emparelhadas de cada lado do caminho da linha — os usuários veem uma imagem no início e a sua correspondente no final, criando um objetivo visual que motiva o traçado de linhas. O preenchimento automático atribui aleatoriamente pares de imagens a partir do tema selecionado ou de todos os 104 temas de uma só vez, preenchendo instantaneamente cada espaço de par na página. Isto torna a criação de fichas em lote ultrarrápida: selecione um tema, clique em preenchimento automático e o modelo está pronto para exportar. Mude de tema e repita para gerar dezenas de fichas únicas em minutos. Cada tema fornece imagens coordenadas que funcionam juntas visualmente, criando oportunidades naturais de agrupamento em pacotes temáticos.',
+          'Cada modelo coloca pares de imagens emparelhadas de cada lado do caminho da linha — os usuários veem uma imagem no início e a sua correspondente no final, criando um objetivo visual que motiva o traçado de linhas. O preenchimento automático atribui aleatoriamente pares de imagens a partir do tema selecionado ou de todos os 104 temas de uma só vez, preenchendo instantaneamente cada espaço de par na página. Isto torna a criação de atividades em lote ultrarrápida: selecione um tema, clique em preenchimento automático e o modelo está pronto para exportar. Mude de tema e repita para gerar dezenas de atividades únicas em minutos. Cada tema fornece imagens coordenadas que funcionam juntas visualmente, criando oportunidades naturais de agrupamento em pacotes temáticos.',
       },
       {
         title: 'Orientação de página determinada pelo modelo',
@@ -76,9 +76,9 @@ const content: AppContent = {
           'Cada modelo define automaticamente a orientação de página ideal para o seu tipo de linha. Os modelos de curvas passam por predefinição para o formato horizontal, dando às linhas amplas espaço para se curvarem na dimensão mais larga da página. Os modelos de diagonais, horizontal e vertical usam formato vertical para prática concentrada de cima para baixo. Esta mudança automática de orientação garante que cada tipo de linha dispõe do espaço máximo sem ajustes manuais. Os modelos de curvas colocam 4 pares de imagens por página; os modelos de diagonais e horizontal colocam 5; os modelos verticais usam 4 pares — cada quantidade otimizada para o espaço disponível nessa orientação.',
       },
       {
-        title: 'Fichas completamente visuais com zero texto na saída',
+        title: 'Atividades completamente visuais com zero texto na saída',
         description:
-          'Cada ficha contém apenas imagens, traçados de linhas e bordas decorativas — nenhum texto aparece na saída gerada. Os usuários traçam linhas entre os pares de imagens sem precisar de ler quaisquer instruções. Isto torna as fichas de Grafomotricidade universalmente utilizáveis independentemente do idioma, nível de leitura ou estado de literacia. Os usuários pré-leitores, os compradores de outros idiomas e os usuários de educação especial completam os exercícios seguindo o traçado visual da linha. Para os vendedores, uma saída sem texto significa que a mesma ficha se vende em todo o mundo sem tradução — uma única listagem de produto serve cada mercado sem versões em idiomas separados para manter.',
+          'Cada atividade contém apenas imagens, traçados de linhas e bordas decorativas — nenhum texto aparece na saída gerada. Os usuários traçam linhas entre os pares de imagens sem precisar de ler quaisquer instruções. Isto torna as atividades de Grafomotricidade universalmente utilizáveis independentemente do idioma, nível de leitura ou estado de literacia. Os usuários pré-leitores, os compradores de outros idiomas e os usuários de educação especial completam os exercícios seguindo o traçado visual da linha. Para os vendedores, uma saída sem texto significa que a mesma atividade se vende em todo o mundo sem tradução — uma única listagem de produto serve cada mercado sem versões em idiomas separados para manter.',
       },
       {
         title: 'Biblioteca de imagens com 104 coleções temáticas e mais de 3100 ilustrações',
@@ -88,12 +88,12 @@ const content: AppContent = {
       {
         title: 'Cabeçalho autogerado localizado com bordas de página vibrantes',
         description:
-          'Cada ficha inclui um cabeçalho autogerado com um fundo verde vibrante (#51CF66) e um título verde floresta profundo (#2D5016). O título predefinido \"Prática de Traçado de Linhas\" e o subtítulo \"Traça linhas para ligar as imagens que combinam!\" estão localizados nos 11 idiomas. O modo vertical apresenta um cabeçalho de largura total; o modo horizontal usa um formato compacto centrado. Uma borda exterior coral (#FF6B6B, traço de 8px) e uma borda interior amarelo sol (#FFD93D, traço de 3px) emolduram cada página com cantos arredondados. Os elementos do cabeçalho são completamente editáveis — selecione, mova e redimensione para adaptar à sua marca.',
+          'Cada atividade inclui um cabeçalho autogerado com um fundo verde vibrante (#51CF66) e um título verde floresta profundo (#2D5016). O título predefinido \"Prática de Traçado de Linhas\" e o subtítulo \"Traça linhas para ligar as imagens que combinam!\" estão localizados nos 11 idiomas. O modo vertical apresenta um cabeçalho de largura total; o modo horizontal usa um formato compacto centrado. Uma borda exterior coral (#FF6B6B, traço de 8px) e uma borda interior amarelo sol (#FFD93D, traço de 3px) emolduram cada página com cantos arredondados. Os elementos do cabeçalho são completamente editáveis — selecione, mova e redimensione para adaptar à sua marca.',
       },
       {
         title: 'Exportação PDF e JPEG pronta para impressão a 300 DPI',
         description:
-          'Descarregue fichas como imagens JPEG de alta resolução (qualidade 1.0) ou documentos PDF prontos para impressão renderizados a 300 DPI através de um multiplicador de renderização 6x. Os formatos Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal, Quadrado (1200×1200) e dimensões personalizadas são todos suportados. Ative a exportação em escala de cinzentos para versões económicas em tinta, ideais para impressão online ou cadernos a preto e branco. Cada exportação está pronta para produção: listagens da Etsy, interiores da Amazon KDP e ficheiros de produtos Gumroad — sem necessidade de pós-processamento.',
+          'Baixe atividades como imagens JPEG de alta resolução (qualidade 1.0) ou documentos PDF prontos para impressão renderizados a 300 DPI através de um multiplicador de renderização 6x. Os formatos Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal, Quadrado (1200×1200) e dimensões personalizadas são todos suportados. Ative a exportação em escala de cinzentos para versões económicas em tinta, ideais para impressão online ou cadernos a preto e branco. Cada exportação está pronta para produção: listagens da Etsy, interiores da Amazon KDP e arquivos de produtos Hotmart — sem necessidade de pós-processamento.',
       },
       {
         title: 'Edição completa do canvas com ferramentas de texto e decoração',
@@ -104,12 +104,12 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Como Vender Fichas de Grafomotricidade Online',
+    title: 'Como Vender Atividades de Grafomotricidade Online',
     cases: [
       {
         title: 'Pacotes de atividades de traçado de linhas na Etsy',
         description:
-          'Crie pacotes temáticos de traçado de linhas organizados por tipo de linha e dificuldade. Comece com fichas de linhas horizontais para principiantes absolutos, progrida para modelos de curvas para praticantes intermédios e termine com diagonais para prática avançada de motricidade fina. Agrupe cada nível de dificuldade com 10 a 20 fichas usando temas como animais da quinta, criaturas marinhas, dinossauros e veículos. Os oito modelos e os 104 temas de imagens permitem produzir dezenas de fichas únicas por pacote. Inclua pacotes de amostra mistos que apresentem os quatro estilos de linhas num único produto. O formato completamente visual com zero texto torna cada pacote vendível em todo o mundo sem tradução. Defina o preço de pacotes temáticos individuais entre $3–$5 e de pacotes progressivos multitema entre $12–$18.',
+          'Crie pacotes temáticos de traçado de linhas organizados por tipo de linha e dificuldade. Comece com atividades de linhas horizontais para principiantes absolutos, progrida para modelos de curvas para praticantes intermédios e termine com diagonais para prática avançada de motricidade fina. Agrupe cada nível de dificuldade com 10 a 20 atividades usando temas como animais da quinta, criaturas marinhas, dinossauros e veículos. Os oito modelos e os 104 temas de imagens permitem produzir dezenas de atividades únicas por pacote. Inclua pacotes de amostra mistos que apresentem os quatro estilos de linhas num único produto. O formato completamente visual com zero texto torna cada pacote vendível em todo o mundo sem tradução. Defina o preço de pacotes temáticos individuais entre $3–$5 e de pacotes progressivos multitema entre $12–$18.',
         platform: 'Etsy (etsy.com)',
       },
       {
@@ -119,21 +119,21 @@ const content: AppContent = {
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Centros de pré-escrita e preparação para a escrita para Gumroad',
+        title: 'Centros de pré-escrita e preparação para a escrita para Hotmart',
         description:
           'Construa estações de preparação para a escrita por níveis usando o tipo de linha como eixo de progressão: Estação 1 (linhas horizontais para acompanhamento da esquerda para a direita), Estação 2 (linhas verticais para traços de cima para baixo), Estação 3 (curvas para movimentos de formação de letras) e Estação 4 (diagonais para formas de letras angulares). Cada estação trabalha uma competência de pré-escrita específica que se transfere diretamente para a formação de letras. Agrupe cada estação com exercícios temáticos e cartões de instruções para o vendedor. O formato visual sem texto funciona em qualquer loja independentemente do idioma dos usuários, tornando estes recursos valiosos para contextos inclusivos, multilingues e de educação especial.',
-        platform: 'Gumroad (teacherspayteachers.com)',
+        platform: 'Hotmart (hotmart.com)',
       },
       {
-        title: 'Fichas visuais multilingues para mercados globais',
+        title: 'Atividades visuais multilingues para mercados globais',
         description:
-          'Como as fichas de Grafomotricidade não contêm texto na saída, o mesmo produto funciona em todos os idiomas sem modificação. Os usuários traçam linhas entre os pares de imagens sem necessidade de ler — o traçado visual em si fornece todo o guiamento necessário. Crie um conjunto de exercícios de traçado de linhas e venda-o em todo o mundo sem tradução nem versões em idiomas separados para manter. Publique produtos idênticos em lojas Etsy dirigidas a diferentes países, ou publique o mesmo interior KDP em todos os mercados internacionais da Amazon. Um único fluxo de trabalho produz um produto universalmente vendível.',
-        platform: 'Etsy / Amazon KDP / Gumroad (global)',
+          'Como as atividades de Grafomotricidade não contêm texto na saída, o mesmo produto funciona em todos os idiomas sem modificação. Os usuários traçam linhas entre os pares de imagens sem necessidade de ler — o traçado visual em si fornece todo o guiamento necessário. Crie um conjunto de exercícios de traçado de linhas e venda-o em todo o mundo sem tradução nem versões em idiomas separados para manter. Publique produtos idênticos em lojas Etsy dirigidas a diferentes países, ou publique o mesmo interior KDP em todos os mercados internacionais da Amazon. Um único fluxo de trabalho produz um produto universalmente vendível.',
+        platform: 'Etsy / Amazon KDP / Hotmart (global)',
       },
       {
         title: 'Ferramenta de motricidade fina para a loja e terapia',
         description:
-          'Carregue imagens personalizadas para criar fichas de traçado de linhas orientadas para objetivos terapêuticos ou educativos específicos. Os terapeutas ocupacionais podem selecionar os tipos de linhas conforme as necessidades de desenvolvimento da motricidade fina de cada paciente — curvas para a mobilidade do pulso, diagonais para a coordenação bilateral, linhas retas para o controlo direcional. Os vendedores podem criar fichas de traçado temáticas onde os usuários ligam pares de imagens relacionadas enquanto desenvolvem o controlo do lápis. Ajuste a seleção de modelo e os temas de imagens conforme o nível de competência e interesses de cada usuário. Imprima séries personalizadas em minutos para sessões de terapia individuais, pequenos grupos ou turmas completas.',
+          'Carregue imagens personalizadas para criar atividades de traçado de linhas orientadas para objetivos terapêuticos ou educativos específicos. Os terapeutas ocupacionais podem selecionar os tipos de linhas conforme as necessidades de desenvolvimento da motricidade fina de cada paciente — curvas para a mobilidade do pulso, diagonais para a coordenação bilateral, linhas retas para o controlo direcional. Os vendedores podem criar atividades de traçado temáticas onde os usuários ligam pares de imagens relacionadas enquanto desenvolvem o controlo do lápis. Ajuste a seleção de modelo e os temas de imagens conforme o nível de competência e interesses de cada usuário. Imprima séries personalizadas em minutos para sessões de terapia individuais, pequenos grupos ou turmas completas.',
         platform: 'loja / Terapia / Ensino doméstico',
       },
     ],
@@ -158,7 +158,7 @@ const content: AppContent = {
     {
       question: 'Como funciona a função de preenchimento automático?',
       answer:
-        'O preenchimento automático atribui aleatoriamente pares de imagens a partir do tema selecionado ou de todos os temas disponíveis de uma só vez. Clique no botão de preenchimento automático e cada espaço de par no modelo atual é instantaneamente preenchido com imagens emparelhadas. Isto é especialmente útil para a criação em lote — selecione um tema, use o preenchimento automático, exporte, depois mude de tema e repita para gerar dezenas de fichas únicas em minutos sem colocar manualmente cada imagem.',
+        'O preenchimento automático atribui aleatoriamente pares de imagens a partir do tema selecionado ou de todos os temas disponíveis de uma só vez. Clique no botão de preenchimento automático e cada espaço de par no modelo atual é instantaneamente preenchido com imagens emparelhadas. Isto é especialmente útil para a criação em lote — selecione um tema, use o preenchimento automático, exporte, depois mude de tema e repita para gerar dezenas de atividades únicas em minutos sem colocar manualmente cada imagem.',
     },
     {
       question: 'Por que é que alguns modelos usam horizontal e outros usam vertical?',
@@ -166,17 +166,17 @@ const content: AppContent = {
         'A orientação do modelo é determinada pelo tipo de linha. Os quatro modelos de curvas passam por predefinição para o formato horizontal porque as linhas curvas amplas precisam da dimensão mais larga para se curvarem naturalmente. Os modelos de diagonais, horizontal e vertical usam formato vertical porque os seus traçados se adaptam melhor à forma de página mais alta e estreita. Esta mudança automática de orientação garante que cada tipo de linha dispõe do espaço máximo para traçados claros e praticáveis.',
     },
     {
-      question: 'Por que é que não existe gabarito para as fichas de Grafomotricidade?',
+      question: 'Por que é que não existe gabarito para as atividades de Grafomotricidade?',
       answer:
-        'As fichas de Grafomotricidade não precisam de um gabarito separado porque o traçado da linha em si guia o usuário. O modelo de linha SVG impresso na ficha mostra exatamente onde traçar — os usuários seguem o caminho visível de uma imagem até à sua correspondente. O exercício é autocorretivo: se a linha do usuário segue o traçado e chega à imagem correspondente, completou-o corretamente.',
+        'As atividades de Grafomotricidade não precisam de um gabarito separado porque o traçado da linha em si guia o usuário. O modelo de linha SVG impresso na atividade mostra exatamente onde traçar — os usuários seguem o caminho visível de uma imagem até à sua correspondente. O exercício é autocorretivo: se a linha do usuário segue o traçado e chega à imagem correspondente, completou-o corretamente.',
     },
     {
       question: 'Posso carregar as minhas próprias imagens em vez de usar a biblioteca?',
       answer:
-        'Sim. A função de carregamento de imagens personalizadas permite-lhe adicionar qualquer imagem às suas fichas de traçado de linhas. Carregue fotos, ilustrações ou gráficos relevantes para o seu tema ou público específico. As imagens personalizadas aparecem junto às imagens da biblioteca e funcionam com os oito modelos e a função de preenchimento automático. Isto é útil para criar fichas sobre temas específicos ou produtos de marca que vão além da biblioteca temática integrada.',
+        'Sim. A função de carregamento de imagens personalizadas permite-lhe adicionar qualquer imagem às suas atividades de traçado de linhas. Carregue fotos, ilustrações ou gráficos relevantes para o seu tema ou público específico. As imagens personalizadas aparecem junto às imagens da biblioteca e funcionam com os oito modelos e a função de preenchimento automático. Isto é útil para criar atividades sobre temas específicos ou produtos de marca que vão além da biblioteca temática integrada.',
     },
     {
-      question: 'Posso adicionar campos de nome e data à ficha?',
+      question: 'Posso adicionar campos de nome e data à atividade?',
       answer:
         'Sim. Ative os campos de nome e data a partir do painel Conteúdo. Aparecem em fonte Fredoka a 18px em cinzento escuro (#333). Também pode adicionar texto personalizado com o painel Ferramentas de Texto usando qualquer fonte disponível — Arial, Verdana, Baloo 2, Fredoka, Lexend Deca, Nunito e Quicksand — e reposicioná-los em qualquer lugar do canvas.',
     },
@@ -188,12 +188,12 @@ const content: AppContent = {
     {
       question: 'O gerador de Grafomotricidade é sensível ao idioma?',
       answer:
-        'Não. A Grafomotricidade é uma aplicação puramente visual — as fichas contêm apenas imagens, traçados de linhas e bordas decorativas com zero texto na saída, pelo que são idênticas em todos os idiomas. Mudar o idioma apenas afeta as etiquetas da interface do gerador e as etiquetas de conteúdo da biblioteca de imagens, não a ficha em si. A Licença Comercial inclui 10 temas coloridos; o Acesso Completo desbloqueia os 104 temas e os 11 idiomas de interface.',
+        'Não. A Grafomotricidade é uma aplicação puramente visual — as atividades contêm apenas imagens, traçados de linhas e bordas decorativas com zero texto na saída, pelo que são idênticas em todos os idiomas. Mudar o idioma apenas afeta as etiquetas da interface do gerador e as etiquetas de conteúdo da biblioteca de imagens, não a atividade em si. A Licença Comercial inclui 10 temas coloridos; o Acesso Completo desbloqueia os 104 temas e os 11 idiomas de interface.',
     },
     {
-      question: 'Posso vender fichas criadas com esta ferramenta na Etsy e Amazon KDP?',
+      question: 'Posso vender atividades criadas com esta ferramenta na Etsy e Amazon KDP?',
       answer:
-        'Sim. Com uma licença comercial, tem todos os direitos para vender as suas fichas de traçado de linhas como downloads digitais na Etsy, como cadernos impressos na Amazon KDP, como recursos educativos no Gumroad ou através de qualquer outro canal de venda. Os oito modelos de linhas, os 104 temas de imagens e o formato completamente visual conferem-lhe uma forte diferenciação e vendibilidade global nas categorias de fichas.',
+        'Sim. Com uma licença comercial, tem todos os direitos para vender as suas atividades de traçado de linhas como downloads digitais na Etsy, como cadernos impressos na Amazon KDP, como recursos educativos na Hotmart ou através de qualquer outro canal de venda. Os oito modelos de linhas, os 104 temas de imagens e o formato completamente visual conferem-lhe uma forte diferenciação e vendibilidade global nas categorias de atividades.',
     },
     {
       question: 'Qual é a política de reembolso?',
@@ -205,33 +205,33 @@ const content: AppContent = {
   internalLinks: [
     {
       pageType: 'app',
-      slug: 'grande-pequeno-fichas',
-      anchorText: 'Gerador de Fichas Grande e Pequeno',
+      slug: 'grande-pequeno-atividades',
+      anchorText: 'Gerador de Atividades Grande e Pequeno',
     },
     {
       pageType: 'app',
-      slug: 'trem-padroes-fichas',
-      anchorText: 'Gerador de Fichas Trem de Padrões',
+      slug: 'trem-padroes-atividades',
+      anchorText: 'Gerador de Atividades Trem de Padrões',
     },
     {
       pageType: 'app',
-      slug: 'fichas-padroes-sequencias',
-      anchorText: 'Gerador de Fichas de Padrões',
+      slug: 'atividades-padroes-sequencias',
+      anchorText: 'Gerador de Atividades de Padrões',
     },
     {
       pageType: 'app',
-      slug: 'desenho-grade-fichas',
-      anchorText: 'Gerador de Fichas de Desenho em Grelha',
+      slug: 'desenho-grade-atividades',
+      anchorText: 'Gerador de Atividades de Desenho em Grelha',
     },
     {
       pageType: 'app',
-      slug: 'desenhos-colorir-fichas',
-      anchorText: 'Gerador de Fichas para Colorir',
+      slug: 'desenhos-colorir-atividades',
+      anchorText: 'Gerador de Atividades para Colorir',
     },
     {
       pageType: 'app',
-      slug: 'grafico-pictorico-fichas',
-      anchorText: 'Gerador de Fichas de Gráfico Pictórico',
+      slug: 'grafico-pictorico-atividades',
+      anchorText: 'Gerador de Atividades de Gráfico Pictórico',
     },
     {
       pageType: 'bundle',
@@ -255,35 +255,35 @@ const content: AppContent = {
     },
     {
       pageType: 'guide',
-      slug: 'criar-fichas-desenho',
-      anchorText: 'Criar fichas de desenho',
+      slug: 'criar-atividades-desenho',
+      anchorText: 'Criar atividades de desenho',
     },
   ],
 
   visuals: {
     heroImages: {
       primary: '/samples/portuguese/drawing lines/Prática de Desenhar Linhas 1.webp',
-      primaryAlt: 'Ficha de grafomotricidade com modelo de linha curva a ligar pares de imagens de animais emparelhados em formato horizontal',
+      primaryAlt: 'Atividade de grafomotricidade com modelo de linha curva a ligar pares de imagens de animais emparelhados em formato horizontal',
     },
     sampleGallery: [
       {
         src: '/samples/portuguese/drawing lines/Prática de Desenhar Linhas 2.webp',
-        alt: 'Ficha de traçado de linhas com modelo de curva a ligar pares de imagens de animais emparelhados em orientação horizontal',
+        alt: 'Atividade de traçado de linhas com modelo de curva a ligar pares de imagens de animais emparelhados em orientação horizontal',
         caption: 'Modelo de curva — os usuários traçam linhas curvas fluidas para ligar os pares de imagens emparelhadas',
       },
       {
         src: '/samples/portuguese/drawing lines/Prática de Desenhar Linhas 3.webp',
-        alt: 'Ficha de traçado de linhas com modelo de diagonal a ligar cinco pares de imagens em orientação vertical',
+        alt: 'Atividade de traçado de linhas com modelo de diagonal a ligar cinco pares de imagens em orientação vertical',
         caption: 'Modelo de diagonal — linhas em ângulo com 5 pares de imagens para prática de coordenação cruzada',
       },
       {
         src: '/samples/portuguese/drawing lines/Prática de Desenhar Linhas 4.webp',
-        alt: 'Ficha de traçado de linhas com modelo horizontal a ligar pares de imagens de tema natureza em formato vertical',
+        alt: 'Atividade de traçado de linhas com modelo horizontal a ligar pares de imagens de tema natureza em formato vertical',
         caption: 'Modelo horizontal — linhas retas da esquerda para a direita com imagens de tema natureza',
       },
     ],
     youtubeId: 'P9q3ymjFnOQ',
-    videoTitle: 'Como Criar Fichas de Traçado de Linhas com Oito Modelos SVG — Tutorial Passo a Passo',
+    videoTitle: 'Como Criar Atividades de Traçado de Linhas com Oito Modelos SVG — Tutorial Passo a Passo',
   },
 };
 

@@ -2,27 +2,27 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'gerador fichas peças faltantes',
+    primaryKeyword: 'gerador atividades peças faltantes',
     secondaryKeywords: [
       'criador de puzzles de peças faltantes para vendedores Etsy',
-      'gerador de fichas de puzzles visuais para editores Amazon KDP',
-      'criador de puzzles de peças faltantes licença comercial Gumroad',
-      'vender fichas de peças faltantes imprimíveis na Etsy e Amazon',
+      'gerador de atividades de puzzles visuais para editores Amazon KDP',
+      'criador de puzzles de peças faltantes licença comercial Hotmart',
+      'vender atividades de peças faltantes imprimíveis na Etsy e Amazon',
     ],
     lsiKeywords: [
       'produtos digitais de puzzles visuais para empreendedores',
       'gerador de quebra-cabeças de peças faltantes uso comercial',
       'atividades de puzzles imprimíveis para negócio online',
     ],
-    titleTag: 'Gerador Fichas Peças Faltantes | Criar e Vender',
-    metaDescription: 'Crie puzzles de peças faltantes para Etsy, KDP e Gumroad. 6 formas de peça, dificuldade configurável, gabarito automático, 104 temas.',
+    titleTag: 'Gerador Atividades Peças Faltantes | Criar e Vender',
+    metaDescription: 'Crie puzzles de peças faltantes para Hotmart, Etsy e KDP. 6 formas de peça, dificuldade configurável, gabarito automático, 104 temas.',
   },
 
   hero: {
     title: 'Gerador de Puzzles de Peças Faltantes Estilo Quebra-Cabeças Visual',
     tagline: 'Gere quebra-cabeças estilo puzzle onde se recortam peças de imagens e os usuários identificam a opção numerada correta — com 6 formas de peça, 1–5 peças faltantes, 2–6 opções de solução com peças distratoras, gabaritos automáticos e design puramente visual que funciona em qualquer idioma.',
     description:
-      'Crie puzzles profissionais de peças faltantes onde uma imagem tem lacunas recortadas e os usuários identificam que opção numerada preenche cada espaço. O algoritmo inteligente de extração de peças encontra áreas visualmente distintas com suficiente variância de cor, garantindo que cada puzzle seja resolúvel e atrativo. Escolha entre 6 formas de peça — quadrado, círculo, retângulo vertical, retângulo horizontal, elipse vertical e elipse horizontal — e configure a dificuldade com 1–5 peças faltantes e 2–6 opções de solução que incluem peças distratoras para desafiar as competências de discriminação visual. Cada puzzle inclui um gabarito gerado automaticamente com etiquetas numéricas realçadas em amarelo colocadas dentro de cada lacuna mostrando a opção correta. O cabeçalho gerado automaticamente exibe \"Peças em Falta\" em turquesa (#06B6D4) com uma descrição em rosa (#DB2777) emoldurado num sistema de dupla borda — borda exterior verde-azulado (#14B8A6, 8px) e borda interior rosa intenso (#EC4899, 3px) — localizado nos 11 idiomas suportados. Peças Faltantes NÃO é sensível ao idioma: os puzzles são puramente visuais sem conteúdo dependente do idioma, pelo que cada puzzle funciona identicamente em todo o mundo. O Acesso Completo desbloqueia os 104 temas com mais de 3100 ilustrações e os 11 idiomas de interface. Adicione temas de fundo e temas de borda com controlos de opacidade independentes, e exporte PDFs e JPEGs prontos para impressão a 300 DPI nos formatos Carta, A4, Quadrado ou personalizado. Quer venda pacotes de puzzles visuais na Etsy, compile livros de quebra-cabeças para Amazon KDP ou crie atividades de pensamento crítico para Gumroad, este gerador produz puzzles prontos para produção em minutos — teste grátis com todas as funcionalidades — sem registo, sem cartão de crédito. Os downloads incluem uma marca d\'água; adquira uma licença para removê-la.',
+      'Crie puzzles profissionais de peças faltantes onde uma imagem tem lacunas recortadas e os usuários identificam que opção numerada preenche cada espaço. O algoritmo inteligente de extração de peças encontra áreas visualmente distintas com suficiente variância de cor, garantindo que cada puzzle seja resolúvel e atrativo. Escolha entre 6 formas de peça — quadrado, círculo, retângulo vertical, retângulo horizontal, elipse vertical e elipse horizontal — e configure a dificuldade com 1–5 peças faltantes e 2–6 opções de solução que incluem peças distratoras para desafiar as competências de discriminação visual. Cada puzzle inclui um gabarito gerado automaticamente com etiquetas numéricas realçadas em amarelo colocadas dentro de cada lacuna mostrando a opção correta. O cabeçalho gerado automaticamente exibe \"Peças em Falta\" em turquesa (#06B6D4) com uma descrição em rosa (#DB2777) emoldurado num sistema de dupla borda — borda exterior verde-azulado (#14B8A6, 8px) e borda interior rosa intenso (#EC4899, 3px) — localizado nos 11 idiomas suportados. Peças Faltantes NÃO é sensível ao idioma: os puzzles são puramente visuais sem conteúdo dependente do idioma, pelo que cada puzzle funciona identicamente em todo o mundo. O Acesso Completo desbloqueia os 104 temas com mais de 3100 ilustrações e os 11 idiomas de interface. Adicione temas de fundo e temas de borda com controlos de opacidade independentes, e exporte PDFs e JPEGs prontos para impressão a 300 DPI nos formatos Carta, A4, Quadrado ou personalizado. Quer venda pacotes de puzzles visuais na Etsy, compile livros de quebra-cabeças para Amazon KDP ou crie atividades de pensamento crítico para Hotmart, este gerador produz puzzles prontos para produção em minutos — teste grátis com todas as funcionalidades — sem cadastro, sem cartão de crédito. Os downloads incluem uma marca d\'água; adquira uma licença para removê-la.',
   },
 
   howItWorks: {
@@ -49,9 +49,9 @@ const content: AppContent = {
           'A aplicação recorta automaticamente lacunas da imagem selecionada usando extração inteligente de peças. O algoritmo tenta até 150 colocações para encontrar peças com suficiente variância de cor (variância de luminosidade mínima de 15) e pelo menos 250 píxeis de distância entre peças para evitar sobreposição. Lacunas brancas com traço preto (2px) aparecem nas localizações originais. As opções de solução numeradas — peças corretas mais distratoras — exibem-se com etiquetas numéricas realçadas em amarelo. Os layouts verticais colocam a imagem do puzzle em cima com as opções em baixo; os layouts horizontais dividem a vista 50/50.',
       },
       {
-        title: 'Gere o gabarito e descarregue',
+        title: 'Gere o gabarito e baixe',
         description:
-          'Mude para o separador Gabarito para ver o gabarito gerado automaticamente. A mesma imagem do puzzle aparece com as lacunas, e etiquetas numéricas realçadas em amarelo (rgba(255,255,0,0.7)) dentro de cada lacuna mostram o índice da opção correta. Descarregue ambas as versões usando quatro botões dedicados: JPEG da Ficha, JPEG do Gabarito, PDF da Ficha e PDF do Gabarito — todos renderizados a 300 DPI com qualidade JPEG 1.0. Ative a escala de cinzentos para versões económicas em tinta. Cada exportação está pronta para publicação em lojas Etsy, interiores Amazon KDP e ficheiros de produtos Gumroad.',
+          'Mude para o aba Gabarito para ver o gabarito gerado automaticamente. A mesma imagem do puzzle aparece com as lacunas, e etiquetas numéricas realçadas em amarelo (rgba(255,255,0,0.7)) dentro de cada lacuna mostram o índice da opção correta. Baixe ambas as versões usando quatro botões dedicados: JPEG da Atividade, JPEG do Gabarito, PDF da Atividade e PDF do Gabarito — todos renderizados a 300 DPI com qualidade JPEG 1.0. Ative a escala de cinzentos para versões económicas em tinta. Cada exportação está pronta para publicação em lojas Etsy, interiores Amazon KDP e arquivos de produtos Hotmart.',
       },
     ],
   },
@@ -77,12 +77,12 @@ const content: AppContent = {
       {
         title: 'Gabarito Automático com Etiquetas Numéricas Realçadas em Amarelo',
         description:
-          'Cada puzzle de peças faltantes gera automaticamente um gabarito complementar num separador de canvas separado. O gabarito exibe a mesma imagem do puzzle com as lacunas e coloca etiquetas numéricas realçadas em amarelo (rgba(255,255,0,0.7)) dentro de cada lacuna mostrando o índice de opção correto baseado em 1. O tamanho da fonte escala-se a 60% do tamanho da peça para legibilidade clara. Não precisa de criar respostas manualmente — o gabarito mantém-se perfeitamente sincronizado com o puzzle. Descarregue o gabarito como answer_key.jpeg ou answer_key.pdf juntamente com a ficha do usuário.',
+          'Cada puzzle de peças faltantes gera automaticamente um gabarito complementar num aba de canvas separado. O gabarito exibe a mesma imagem do puzzle com as lacunas e coloca etiquetas numéricas realçadas em amarelo (rgba(255,255,0,0.7)) dentro de cada lacuna mostrando o índice de opção correto baseado em 1. O tamanho da fonte escala-se a 60% do tamanho da peça para legibilidade clara. Não precisa de criar respostas manualmente — o gabarito mantém-se perfeitamente sincronizado com o puzzle. Baixe o gabarito como answer_key.jpeg ou answer_key.pdf juntamente com a atividade do usuário.',
       },
       {
         title: 'Opções de Solução Numeradas com Peças Distratoras',
         description:
-          'As opções de solução exibem-se em contentores numerados (1–N) com etiquetas numéricas realçadas em amarelo para identificação clara. Quando as opções de solução excedem o número de peças faltantes, as opções extra são peças distratoras — extraídas de diferentes áreas da mesma imagem que não coincidem com nenhuma lacuna. As distratoras obrigam os usuários a comparar cuidadosamente os detalhes visuais em vez de simplesmente resolver por eliminação. As fichas verticais organizam as opções numa fila horizontal abaixo do puzzle (75% do tamanho máximo); as fichas horizontais colocam-nas no lado direito (50% da largura) numa fila horizontal.',
+          'As opções de solução exibem-se em contentores numerados (1–N) com etiquetas numéricas realçadas em amarelo para identificação clara. Quando as opções de solução excedem o número de peças faltantes, as opções extra são peças distratoras — extraídas de diferentes áreas da mesma imagem que não coincidem com nenhuma lacuna. As distratoras obrigam os usuários a comparar cuidadosamente os detalhes visuais em vez de simplesmente resolver por eliminação. As atividades verticais organizam as opções numa fila horizontal abaixo do puzzle (75% do tamanho máximo); as atividades horizontais colocam-nas no lado direito (50% da largura) numa fila horizontal.',
       },
       {
         title: 'Biblioteca de Imagens com 104 Coleções Temáticas e Mais de 3100 Ilustrações',
@@ -92,12 +92,12 @@ const content: AppContent = {
       {
         title: 'Exportação PDF e JPEG Pronta para Impressão a 300 DPI com Escala de Cinzentos',
         description:
-          'Descarregue puzzles de peças faltantes e gabaritos como imagens JPEG de alta resolução ou documentos PDF prontos para impressão renderizados a 300 DPI (multiplicador 6×) com qualidade JPEG 1.0. Quatro botões de descarga dedicados exportam a ficha e o gabarito separadamente. Os formatos de página incluem Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal, Quadrado (1200×1200) e dimensões completamente personalizadas. Ative a escala de cinzentos para versões económicas em tinta. Cada exportação está pronta para publicação em downloads digitais, cadernos impressos e fichas para a loja.',
+          'Baixe puzzles de peças faltantes e gabaritos como imagens JPEG de alta resolução ou documentos PDF prontos para impressão renderizados a 300 DPI (multiplicador 6×) com qualidade JPEG 1.0. Quatro botões de download dedicados exportam a atividade e o gabarito separadamente. Os formatos de página incluem Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal, Quadrado (1200×1200) e dimensões completamente personalizadas. Ative a escala de cinzentos para versões económicas em tinta. Cada exportação está pronta para publicação em downloads digitais, cadernos impressos e atividades para a loja.',
       },
       {
         title: 'Edição Completa do Canvas com Ferramentas de Texto, Alinhamento e Camadas',
         description:
-          'O canvas Fabric.js oferece controlo total sobre cada elemento da sua ficha de puzzle. Arraste, redimensione, rode e reposicione imagens, texto e conteúdo gerado livremente. Os controlos de camadas gerem a ordem de empilhamento — traga elementos para a frente ou envie-os para trás. Bloqueie elementos terminados enquanto edita outros. Adicione texto personalizado com sete opções de fontes (Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial, Verdana), tamanho e cor ajustáveis, e largura de contorno de texto de 0 a 10 com granularidade de 0,5. Seis opções de alinhamento mais centramento na página mantêm os designs precisos. Ampliação de 25% a 300% em incrementos de 25% para trabalho de detalhe. Anule e refaça até 50 estados do histórico com Ctrl+Z e Ctrl+Y.',
+          'O canvas Fabric.js oferece controlo total sobre cada elemento da sua atividade de puzzle. Arraste, redimensione, rode e reposicione imagens, texto e conteúdo gerado livremente. Os controlos de camadas gerem a ordem de empilhamento — traga elementos para a frente ou envie-os para trás. Bloqueie elementos terminados enquanto edita outros. Adicione texto personalizado com sete opções de fontes (Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial, Verdana), tamanho e cor ajustáveis, e largura de contorno de texto de 0 a 10 com granularidade de 0,5. Seis opções de alinhamento mais centramento na página mantêm os designs precisos. Ampliação de 25% a 300% em incrementos de 25% para trabalho de detalhe. Anule e refaça até 50 estados do histórico com Ctrl+Z e Ctrl+Y.',
       },
     ],
   },
@@ -118,21 +118,21 @@ const content: AppContent = {
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Atividades de Puzzles para a loja no Gumroad',
+        title: 'Atividades de Puzzles para a loja na Hotmart',
         description:
-          'Crie atividades prontas para usar de discriminação visual e pensamento crítico para Gumroad. Os puzzles de peças faltantes fortalecem o raciocínio espacial, a análise visual e a atenção ao detalhe — competências valorizadas nos catálogos de produtos de educação infantil e primária. Crie conjuntos alinhados com o catálogo de produtos: puzzles de habitats de animais, puzzles de cenas sazonais, puzzles de ajudantes da comunidade e puzzles de grupos de alimentos. Cada conjunto inclui fichas para usuários e gabaritos nos formatos PDF e JPEG. A dificuldade configurável permite-lhe criar versões diferenciadas do mesmo puzzle para salas com níveis mistos.',
-        platform: 'Gumroad (teacherspayteachers.com)',
+          'Crie atividades prontas para usar de discriminação visual e pensamento crítico para Hotmart. Os puzzles de peças faltantes fortalecem o raciocínio espacial, a análise visual e a atenção ao detalhe — competências valorizadas nos catálogos de produtos de educação infantil e primária. Crie conjuntos alinhados com o catálogo de produtos: puzzles de habitats de animais, puzzles de cenas sazonais, puzzles de ajudantes da comunidade e puzzles de grupos de alimentos. Cada conjunto inclui atividades para usuários e gabaritos nos formatos PDF e JPEG. A dificuldade configurável permite-lhe criar versões diferenciadas do mesmo puzzle para salas com níveis mistos.',
+        platform: 'Hotmart (hotmart.com)',
       },
       {
         title: 'Coleções de Puzzles Sazonais e de Festividades',
         description:
           'As 104 coleções de imagens temáticas cobrem cada ocasião sazonal e festiva — Natal, Halloween, Páscoa, Dia dos Namorados, regresso às aulas, férias de verão e mais. Crie coleções de puzzles de época limitada que se alinhem com os períodos de maior procura comercial. Lance pacotes de puzzles de Halloween em setembro, coleções de Natal em outubro e pacotes do Dia dos Namorados em janeiro. Varie as formas de peça e os níveis de dificuldade dentro de cada conjunto sazonal para máximo valor. Os produtos sazonais alcançam preços mais altos durante as janelas de pico e criam razões naturais para compras recorrentes da sua base de clientes.',
-        platform: 'Etsy / Amazon KDP / Gumroad (sazonal)',
+        platform: 'Etsy / Amazon KDP / Hotmart (sazonal)',
       },
       {
         title: 'Alcance Global — Os Puzzles Visuais Não Precisam de Tradução',
         description:
-          'Os puzzles de Peças Faltantes são puramente visuais sem conteúdo de texto na ficha — sem palavras, sem letras, sem elementos dependentes do idioma. Um puzzle criado em inglês funciona identicamente para clientes na Alemanha, França, Japão ou Brasil. Isto torna os seus produtos de puzzles instantaneamente vendíveis em todos os mercados internacionais sem criar versões em diferentes idiomas. Publique o mesmo pacote de puzzles na Etsy com títulos e descrições multilingues para captar tráfego de pesquisa global. Um produto, todos os mercados — máximo alcance sem trabalho de produção adicional.',
+          'Os puzzles de Peças Faltantes são puramente visuais sem conteúdo de texto na atividade — sem palavras, sem letras, sem elementos dependentes do idioma. Um puzzle criado em inglês funciona identicamente para clientes na Alemanha, França, Japão ou Brasil. Isto torna os seus produtos de puzzles instantaneamente vendíveis em todos os mercados internacionais sem criar versões em diferentes idiomas. Publique o mesmo pacote de puzzles na Etsy com títulos e descrições multilingues para captar tráfego de pesquisa global. Um produto, todos os mercados — máximo alcance sem trabalho de produção adicional.',
         platform: 'Mercados globais (todas as plataformas)',
       },
     ],
@@ -167,22 +167,22 @@ const content: AppContent = {
     {
       question: 'Como funciona o gabarito gerado automaticamente?',
       answer:
-        'O gerador usa um sistema de canvas duplo com um separador de Ficha e um separador de Gabarito. O gabarito exibe a mesma imagem do puzzle com as lacunas mas omite as opções de solução. Em seu lugar, etiquetas numéricas realçadas em amarelo (rgba(255,255,0,0.7)) colocam-se dentro de cada lacuna mostrando o índice de opção correto baseado em 1. O tamanho da fonte escala-se a 60% do tamanho da peça para legibilidade clara. Descarregue o gabarito separadamente usando os botões dedicados de JPEG do Gabarito e PDF do Gabarito.',
+        'O gerador usa um sistema de canvas duplo com um aba de Atividade e um aba de Gabarito. O gabarito exibe a mesma imagem do puzzle com as lacunas mas omite as opções de solução. Em seu lugar, etiquetas numéricas realçadas em amarelo (rgba(255,255,0,0.7)) colocam-se dentro de cada lacuna mostrando o índice de opção correto baseado em 1. O tamanho da fonte escala-se a 60% do tamanho da peça para legibilidade clara. Baixe o gabarito separadamente usando os botões dedicados de JPEG do Gabarito e PDF do Gabarito.',
     },
     {
       question: 'Os puzzles de peças faltantes dependem do idioma?',
       answer:
-        'Não. Peças Faltantes é um formato de puzzle puramente visual sem conteúdo de texto na ficha — sem palavras, sem letras, sem elementos dependentes do idioma. O único elemento dependente do idioma é o texto do cabeçalho gerado automaticamente (\"Peças em Falta\" / \"Encontra e coloca as peças em falta!\"), que está localizado nos 11 idiomas suportados. O puzzle em si funciona identicamente em qualquer idioma, tornando-o ideal para mercados globais.',
+        'Não. Peças Faltantes é um formato de puzzle puramente visual sem conteúdo de texto na atividade — sem palavras, sem letras, sem elementos dependentes do idioma. O único elemento dependente do idioma é o texto do cabeçalho gerado automaticamente (\"Peças em Falta\" / \"Encontra e coloca as peças em falta!\"), que está localizado nos 11 idiomas suportados. O puzzle em si funciona identicamente em qualquer idioma, tornando-o ideal para mercados globais.',
     },
     {
       question: 'Como funciona o sistema de dupla borda?',
       answer:
-        'Cada puzzle gerado apresenta duas bordas decorativas. A borda exterior usa verde-azulado brilhante (#14B8A6) com um traço de 8px, margens de 34px e raio de borda de 12px. A borda interior usa rosa intenso (#EC4899) com um traço de 3px, margens de 46,5px, raio de borda de 8px e um ligeiro desfasamento de 2px à direita e 3px para baixo. Juntas criam uma moldura polida e profissional que aumenta a qualidade visual das suas fichas de puzzles para lojas online.',
+        'Cada puzzle gerado apresenta duas bordas decorativas. A borda exterior usa verde-azulado brilhante (#14B8A6) com um traço de 8px, margens de 34px e raio de borda de 12px. A borda interior usa rosa intenso (#EC4899) com um traço de 3px, margens de 46,5px, raio de borda de 8px e um ligeiro desfasamento de 2px à direita e 3px para baixo. Juntas criam uma moldura polida e profissional que aumenta a qualidade visual das suas atividades de puzzles para lojas online.',
     },
     {
       question: 'Existe um teste grátis?',
       answer:
-        'Sim. Pode aceder a todas as funcionalidades — as 6 formas de peça, peças faltantes e opções de solução configuráveis, o gabarito automático, a biblioteca completa de imagens, temas de fundo e de borda, e todos os formatos de descarga — sem criar uma conta, inserir cartão de crédito ou instalar qualquer software. Os downloads do teste grátis incluem uma pequena marca d\'água. Uma licença comercial remove a marca d\'água e concede direitos completos de venda.',
+        'Sim. Pode aceder a todas as funcionalidades — as 6 formas de peça, peças faltantes e opções de solução configuráveis, o gabarito automático, a biblioteca completa de imagens, temas de fundo e de borda, e todos os formatos de download — sem criar uma conta, inserir cartão de crédito ou instalar qualquer software. Os downloads do teste grátis incluem uma pequena marca d\'água. Uma licença comercial remove a marca d\'água e concede direitos completos de venda.',
     },
     {
       question: 'Posso adicionar temas de fundo e temas de borda aos puzzles?',
@@ -192,12 +192,12 @@ const content: AppContent = {
     {
       question: 'Posso vender puzzles de peças faltantes criados com esta ferramenta na Etsy e Amazon KDP?',
       answer:
-        'Sim. Com uma licença comercial, tem todos os direitos para vender os seus puzzles de peças faltantes como downloads digitais na Etsy, como cadernos impressos na Amazon KDP, como recursos educativos no Gumroad ou através de qualquer outro canal de venda. As 6 formas de peça, a dificuldade configurável, os gabaritos automáticos e as 104 coleções de imagens temáticas dão-lhe as ferramentas criativas para produzir produtos de puzzles originais e vendíveis.',
+        'Sim. Com uma licença comercial, tem todos os direitos para vender os seus puzzles de peças faltantes como downloads digitais na Etsy, como cadernos impressos na Amazon KDP, como recursos educativos na Hotmart ou através de qualquer outro canal de venda. As 6 formas de peça, a dificuldade configurável, os gabaritos automáticos e as 104 coleções de imagens temáticas dão-lhe as ferramentas criativas para produzir produtos de puzzles originais e vendíveis.',
     },
     {
       question: 'Qual é a política de reembolso?',
       answer:
-        'Como o teste grátis lhe dá acesso a todas as funcionalidades, não oferecemos reembolsos em compras de licenças comerciais. Pode testar as 6 formas de peça, os ajustes de dificuldade configuráveis, o gabarito automático, a biblioteca completa de imagens, os temas de fundo e de borda, e todos os formatos de descarga antes de comprar. O teste grátis é a política de reembolso — certifique-se de que a ferramenta se adequa às suas necessidades antes de adquirir uma licença.',
+        'Como o teste grátis lhe dá acesso a todas as funcionalidades, não oferecemos reembolsos em compras de licenças comerciais. Pode testar as 6 formas de peça, os ajustes de dificuldade configuráveis, o gabarito automático, a biblioteca completa de imagens, os temas de fundo e de borda, e todos os formatos de download antes de comprar. O teste grátis é a política de reembolso — certifique-se de que a ferramenta se adequa às suas necessidades antes de adquirir uma licença.',
     },
     {
       question: 'Qual é a diferença entre a Licença Comercial e o Acesso Completo?',
@@ -209,28 +209,28 @@ const content: AppContent = {
   internalLinks: [
     {
       pageType: 'app',
-      slug: 'encontre-diferente-fichas',
-      anchorText: 'Gerador de Fichas Encontra o Diferente',
+      slug: 'encontre-diferente-atividades',
+      anchorText: 'Gerador de Atividades Encontra o Diferente',
     },
     {
       pageType: 'app',
-      slug: 'sudoku-criancas-fichas',
-      anchorText: 'Gerador de Fichas de Sudoku com Imagens',
+      slug: 'sudoku-criancas-atividades',
+      anchorText: 'Gerador de Atividades de Sudoku com Imagens',
     },
     {
       pageType: 'app',
-      slug: 'labirinto-caminhos-fichas',
-      anchorText: 'Gerador de Fichas de Labirintos com Imagens',
+      slug: 'labirinto-caminhos-atividades',
+      anchorText: 'Gerador de Atividades de Labirintos com Imagens',
     },
     {
       pageType: 'app',
-      slug: 'encontre-conte-fichas',
-      anchorText: 'Gerador de Fichas Encontra e Conta',
+      slug: 'encontre-conte-atividades',
+      anchorText: 'Gerador de Atividades Encontra e Conta',
     },
     {
       pageType: 'app',
-      slug: 'combinar-sombras-fichas',
-      anchorText: 'Gerador de Fichas de Combinação de Sombras',
+      slug: 'combinar-sombras-atividades',
+      anchorText: 'Gerador de Atividades de Combinação de Sombras',
     },
     {
       pageType: 'bundle',
@@ -240,7 +240,7 @@ const content: AppContent = {
     {
       pageType: 'guide',
       slug: 'criar-puzzles-pecas-faltantes',
-      anchorText: 'Como Criar e Vender Fichas de Puzzles Online',
+      anchorText: 'Como Criar e Vender Atividades de Puzzles Online',
     },
     {
       pageType: 'idea',
@@ -262,7 +262,7 @@ const content: AppContent = {
   visuals: {
     heroImages: {
       primary: '/samples/portuguese/missing pieces/Peças em Falta 1.webp',
-      primaryAlt: 'Ficha de puzzle de peças faltantes com lacunas recortadas de uma imagem e opções de solução numeradas incluindo distratoras',
+      primaryAlt: 'Atividade de puzzle de peças faltantes com lacunas recortadas de uma imagem e opções de solução numeradas incluindo distratoras',
     },
     sampleGallery: [
       {

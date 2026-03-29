@@ -2,28 +2,40 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'gerador atividades caça-palavras',
+    primaryKeyword: 'gerador de caça-palavras para vender na Etsy e KDP',
     secondaryKeywords: [
-      'atividades de caça-palavras imprimíveis para vendedores Etsy',
-      'gerador de grelhas de palavras ocultas para Amazon KDP',
-      'vender atividades de caça-palavras na Hotmart',
-      'atividades de caça-palavras com gabarito código de cores licença comercial',
+      'criar caça-palavras com imagens para Hotmart',
+      'gerador de sopa de letras para Amazon KDP',
+      'atividades de caça-palavras com licença comercial',
+      'caça-palavras em português para vender online',
     ],
     lsiKeywords: [
-      'produtos digitais de puzzles de palavras ocultas para empreendedores',
-      'negócio de atividades de sopa de letras imprimíveis online',
-      'gerador de atividades de caça-palavras uso comercial',
+      'licença comercial',
+      '300 DPI',
+      'pronto para impressão',
+      'caça-palavras',
+      'sopa de letras',
+      'download digital',
+      'gabarito incluso',
+      'vocabulário',
+      'alfabetização',
+      'ensino fundamental',
+      'negócio de imprimíveis',
+      'renda extra',
+      'Hotmart',
+      'Kiwify',
+      '11 idiomas',
     ],
-    titleTag: 'Gerador Atividades Caça-Palavras | Criar e Vender',
+    titleTag: 'Gerador de caça-palavras para vender | LCS',
     metaDescription:
-      'Crie atividades de caça-palavras para vender na Hotmart, Etsy e KDP. Grelha 5×5 a 30×30, direções diagonais, letras adaptadas ao idioma.',
+      'Crie caça-palavras com imagens para vender na Hotmart, Etsy e KDP. Grades 5x5 a 30x30, 11 idiomas, gabarito colorido. Teste grátis com marca d\'água.',
   },
 
   hero: {
-    title: 'Gerador de Atividades de Caça-Palavras para Puzzles de Palavras Ocultas em Grelha',
+    title: 'Crie caça-palavras profissionais para vender na Hotmart, Etsy e KDP',
     tagline: 'Grelhas ajustáveis de 5×5 a 30×30 com controlos de direção diagonal e invertida — construa o nível de dificuldade perfeito para cada audiência.',
     description:
-      'Crie atividades profissionais de caça-palavras onde as palavras ocultas estão incorporadas numa grelha de letras de preenchimento aleatórias e os usuários percorrem linhas, colunas e diagonais para as encontrar — o formato de puzzle clássico que nunca sai de moda. Escolha entre três fontes de conteúdo: a Biblioteca de Imagens integrada com mais de 3100 ilustrações em 104 temas, o Modo Edição Manual onde seleciona imagens e personaliza os nomes de exibição, ou o modo Lista de Palavras Personalizada para puzzles de texto apenas com até 8 palavras que escreve diretamente. Ajuste a grelha de 5×5 para aquecimentos rápidos a 30×30 para desafios sérios, e ative ou desative as palavras em diagonal e as palavras invertidas (ao contrário) para afinar a dificuldade em quatro a oito direções de colocação possíveis. Três modos de exibição — palavras mais imagens, apenas imagens ou apenas palavras — controlam como as pistas aparecem ao lado da grelha. O Acesso Completo desbloqueia os 11 idiomas suportados onde tanto as palavras ocultas COMO as letras de preenchimento da grelha mudam conforme o idioma: as grelhas em alemão incluem ä, ö, ü com frequências naturais ponderadas, as grelhas em francês incluem é, è, ç, à, as grelhas em português incluem ã, õ, ç, â, á, é, í, ó, ú, e cada idioma usa o seu conjunto de caracteres autêntico. Um gabarito com código de cores destaca cada palavra encontrada numa de seis cores alternadas para verificação visual instantânea. Exporte PDFs prontos para impressão e JPEGs a mais de 400 DPI nos formatos Carta, A4 ou dimensões personalizadas. Quer venda pacotes de puzzles temáticos na Etsy, compile livros de caça-palavras para a Amazon KDP ou crie centros de vocabulário diferenciados para o Hotmart, o Gerador de Atividades de Caça-Palavras produz resultados profissionais em minutos — teste grátis com todas as funcionalidades, sem cadastro, sem cartão de crédito. Os downloads incluem uma marca d\'água; adquira uma licença para removê-la.',
+      'Crie caça-palavras com imagens para vender na Hotmart, Kiwify, Etsy ou Amazon KDP — o formato de puzzle mais popular do mundo. Este gerador produz grades de 5×5 a 30×30 com palavras ocultas, pistas visuais de mais de 3.000 imagens e gabarito com código de cores. "Caça-palavras" é um dos termos mais buscados em português, com demanda constante o ano inteiro. O diferencial: grades em 11 idiomas com letras nativas (português com ã, õ, ç e acentos). Perfeito para livros de caça-palavras no Amazon KDP — um dos nichos mais lucrativos de baixo conteúdo. Exporte PDFs a 300 DPI com licença comercial inclusa. Teste grátis com marca d\'água — sem cadastro.',
   },
 
   howItWorks: {

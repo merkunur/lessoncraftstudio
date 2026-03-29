@@ -2,28 +2,40 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'gerador de atividades de subtração',
+    primaryKeyword: 'gerador de atividades de subtração para vender na Etsy',
     secondaryKeywords: [
-      'atividades de subtração imprimíveis para Etsy',
-      'gerador de atividades de subtração para Amazon KDP',
-      'vender atividades de subtração na Hotmart',
-      'atividades de subtração licença comercial',
+      'criar atividades de subtração para Hotmart',
+      'exercícios de subtração para Amazon KDP',
+      'atividades de contas de menos com licença comercial',
+      'atividades de matemática para vender na Kiwify',
     ],
     lsiKeywords: [
-      'produtos digitais imprimíveis para empreendedores',
-      'negócio de atividades de matemática online',
-      'gerador de atividades de subtração uso comercial',
+      'licença comercial',
+      '300 DPI',
+      'pronto para impressão',
+      'imagens temáticas',
+      'renda passiva',
+      'download digital',
+      'gabarito incluso',
+      'subtração visual',
+      'riscar imagens',
+      'educação infantil',
+      'ensino fundamental',
+      'negócio de imprimíveis',
+      'renda extra',
+      'Hotmart',
+      'Kiwify',
     ],
-    titleTag: 'Gerador de Atividades de Subtração | Criar e Vender',
+    titleTag: 'Atividades de subtração para vender | LCS',
     metaDescription:
-      'Crie atividades de subtração para vender na Hotmart, Etsy e KDP. 4 modos com riscar visual, 104 temas, gabaritos, exportação 400+ DPI. Teste grátis com marca d\'água.',
+      'Crie atividades de subtração para vender na Hotmart, Etsy e KDP. Imagens temáticas, gabarito, licença comercial. Teste grátis com marca d\'água.',
   },
 
   hero: {
-    title: 'Gerador de Atividades de Subtração com Visualização de Riscar',
+    title: 'Gere atividades de subtração para vender na Hotmart, Etsy e KDP',
     tagline: 'Torne a subtração intuitiva com atividades onde as crianças riscam imagens para encontrar a resposta.',
     description:
-      'Crie atividades de subtração baseadas em imagens que ensinam o conceito de \"tirar\" através de um método visual poderoso: as imagens riscadas. Os usuários veem um grupo de imagens e observam cruzes diagonais traçadas sobre os elementos subtraídos — transformando o conceito abstrato da subtração em algo concreto e intuitivo. Escolha entre quatro modos de exercício — Riscar, Imagem − Número, Encontrar o Subtraendo e Modo Misto — para acompanhar a aprendizagem desde a pré-escola até ao segundo ano. Explore mais de 3100 ilustrações selecionadas em 104 temas como dinossauros, vida marinha e veículos. Cada atividade inclui um gabarito automático, e pode exportar PDFs prontos para impressão em formato Carta, A4 ou personalizado a mais de 400 DPI. Um modo de escala de cinzentos integrado permite criar versões a preto e branco com um único clique. Quer venda pacotes temáticos na Etsy, publique livros de atividades na Amazon KDP ou imprima atividades de prática para os seus usuários, o Gerador de Atividades de Subtração produz resultados profissionais em minutos. Teste grátis com todas as funcionalidades — sem cadastro, sem cartão de crédito. Os downloads incluem uma marca d\'água; adquira uma licença para removê-la.',
+      'Transforme a subtração em um produto vendável com um gerador feito para empreendedores de imprimíveis. Crie atividades de subtração ilustradas com imagens temáticas de mais de 100 categorias — animais, veículos, alimentos, natureza — que tornam a matemática envolvente e seus anúncios irresistíveis. Cada atividade é exportada em PDF 300 DPI pronto para impressão com gabarito automático, pronta para subir na Hotmart, Kiwify, Etsy, compilar em uma apostila Amazon KDP, ou vender no Tá Pronto. A licença comercial está inclusa em cada atividade. Dica rentável: combine adição e subtração em pacotes — vendedores relatam vendas médias significativamente maiores com pacotes matemáticos combinados. O mercado brasileiro oferece potencial enorme com competição mínima. Teste grátis com marca d\'água — sem cadastro.',
   },
 
   howItWorks: {

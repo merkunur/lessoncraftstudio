@@ -2,28 +2,38 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'gerador de adição codificada',
+    primaryKeyword: 'criar enigmas matemáticos com código para vender na Hotmart',
     secondaryKeywords: [
-      'atividades de puzzles matemáticos imprimíveis para Etsy',
-      'atividades de decifrar código de adição para Amazon KDP',
-      'gerador de puzzles matemáticos para vendedores Hotmart',
-      'atividades de adição codificada licença comercial',
+      'gerador de atividades de adição codificada para Etsy',
+      'puzzles matemáticos de decifrar código para KDP',
+      'atividades de criptaritmética com licença comercial',
+      'enigmas de matemática para vender na Kiwify',
     ],
     lsiKeywords: [
-      'ideias de negócio puzzles educativos imprimíveis',
-      'vender puzzles educativos online',
-      'gerador de cadernos de puzzles matemáticos',
+      'licença comercial',
+      '300 DPI',
+      'palavra revelada',
+      'criptaritmética',
+      'raciocínio lógico',
+      'download digital',
+      'gabarito incluso',
+      'negócio de imprimíveis',
+      'renda extra',
+      'educação infantil',
+      'ensino fundamental',
+      'Hotmart',
+      'Kiwify',
     ],
-    titleTag: 'Gerador de Adição Codificada | Puzzles Matemáticos',
+    titleTag: 'Enigmas de adição codificada para vender | LCS',
     metaDescription:
-      'Crie puzzles de adição codificada para vender na Hotmart, Etsy e KDP. Palavra Revelada, 104 temas, 11 idiomas, gabaritos, 400+ DPI. Teste grátis com marca d\'água.',
+      'Crie puzzles de adição codificada para vender na Hotmart, Etsy e KDP. Modo Palavra Revelada, 11 idiomas, gabarito incluso. Teste grátis com marca d\'água.',
   },
 
   hero: {
-    title: 'Gerador de Atividades de Adição Codificada — Puzzles Matemáticos para Decifrar',
+    title: 'Crie enigmas de adição codificada para vender na Hotmart e Etsy',
     tagline: 'Transforme a adição numa missão de detetive onde cada imagem esconde um número secreto.',
     description:
-      'Crie atividades de adição do tipo criptaritmético que desafiam os usuários a decifrar um código visual. Cada imagem na atividade representa um número oculto — os usuários resolvem equações de adição para deduzir qual número corresponde a cada imagem, combinando fluência matemática com raciocínio lógico num único exercício. Mude para o modo Palavra Revelada e o desafio aumenta: escreva uma palavra secreta de até dez letras, e cada equação corretamente resolvida revela uma letra da resposta, enquanto três letras distratoras com somas incorretas mantêm o suspense. O gerador suporta onze alfabetos específicos de cada idioma, pelo que o modo Palavra Revelada funciona nativamente em português, inglês, alemão, francês e mais sete idiomas — uma funcionalidade que nenhum outro gerador de atividades oferece. O alfabeto português inclui ã, õ, ç, á, é, í, ó, ú, â, ê, ô e à, garantindo que palavras secretas com caracteres acentuados funcionem naturalmente. Escolha entre mais de 3100 imagens em 104 temas, configure intervalos numéricos de 1 a 20 com dois a cinco símbolos-código por atividade, e exporte PDFs ou JPEGs prontos para impressão a mais de 400 DPI com gabaritos automáticos. Teste grátis com todas as funcionalidades — sem cadastro, sem cartão de crédito. Os downloads incluem uma marca d\'água; adquira uma licença para removê-la.',
+      'Crie atividades de adição do tipo criptaritmético para vender na Hotmart, Kiwify, Etsy ou Amazon KDP. Cada imagem na atividade esconde um número secreto — os usuários resolvem equações de soma para decifrar o código, combinando fluência matemática com raciocínio lógico. O modo Palavra Revelada transforma cada exercício em uma caça ao tesouro linguística: escreva uma palavra secreta e cada equação correta revela uma letra. O gerador suporta 11 alfabetos nativos, incluindo português com ã, õ, ç e acentos — nenhum outro gerador oferece isso. Escolha entre mais de 3.000 imagens em 104 temas, configure intervalos numéricos e exporte PDFs prontos para impressão a 300 DPI com gabarito automático e licença comercial inclusa. Teste grátis com marca d\'água — sem cadastro.',
   },
 
   howItWorks: {

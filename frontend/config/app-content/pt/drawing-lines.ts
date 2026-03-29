@@ -2,28 +2,40 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'gerador atividades grafomotricidade',
+    primaryKeyword: 'atividades de traçado e coordenação motora para vender',
     secondaryKeywords: [
-      'gerador de atividades de traçar linhas imprimíveis para vendedores Etsy',
-      'criador de atividades de grafomotricidade para editores Amazon KDP',
-      'vender atividades de traçar linhas na Hotmart',
-      'gerador de atividades de grafomotricidade licença comercial',
+      'gerador de atividades de coordenação motora para Hotmart',
+      'atividades de traçado para vender na Etsy',
+      'exercícios de pregrafismo para Amazon KDP',
+      'atividades de coordenação motora fina licença comercial',
     ],
     lsiKeywords: [
-      'produtos digitais atividades traçar linhas para empreendedores',
-      'atividades de motricidade fina imprimíveis uso comercial',
-      'gerador de atividades grafomotricidade com modelos SVG',
+      'licença comercial',
+      '300 DPI',
+      'pronto para impressão',
+      'coordenação motora',
+      'traçado',
+      'pregrafismo',
+      'download digital',
+      'gabarito incluso',
+      'habilidade motora fina',
+      'educação infantil',
+      'ensino fundamental',
+      'negócio de imprimíveis',
+      'renda extra',
+      'Hotmart',
+      'Kiwify',
     ],
-    titleTag: 'Gerador Atividades Grafomotricidade | Criar e Vender',
+    titleTag: 'Atividades de coordenação motora para vender | LCS',
     metaDescription:
-      'Crie atividades de grafomotricidade para Hotmart, Etsy e KDP. Modelos de linhas SVG, emparelhamento de imagens, 104 coleções temáticas. Teste grátis com marca d\'água.',
+      'Crie atividades de traçado e coordenação motora para vender na Hotmart, Etsy e KDP. 104 temas, caminhos configuráveis. Teste grátis com marca d\'água.',
   },
 
   hero: {
-    title: 'Gerador de Atividades de Grafomotricidade para Exercícios de Traçado de Linhas',
+    title: 'Crie atividades de traçado para vender na Hotmart, Etsy e KDP',
     tagline: 'Oito modelos de linhas SVG — curvas, diagonais, horizontal e vertical — com 4 a 5 pares de imagens por página para o desenvolvimento da motricidade fina através do traçado de linhas guiado.',
     description:
-      'Crie atividades profissionais de grafomotricidade onde os usuários traçam ao longo de caminhos guiados para ligar pares de imagens emparelhadas. Oito modelos baseados em SVG cobrem quatro tipos de linhas: quatro modelos de curvas para movimentos fluidos, dois modelos de diagonais para traços em ângulo, um modelo horizontal para traçado da esquerda para a direita e um modelo vertical para prática de cima para baixo. Cada modelo coloca 4 ou 5 pares de imagens emparelhadas de cada lado do caminho da linha, dando aos usuários um objetivo visual em cada extremidade. O preenchimento automático atribui aleatoriamente pares de imagens a partir de qualquer tema selecionado ou de todos os temas de uma só vez. O conteúdo provém da Biblioteca de Imagens integrada com mais de 3100 ilustrações coloridas em 104 temas — animais, veículos, alimentos, natureza e dezenas mais. Cada atividade é puramente visual com zero texto na saída, tornando-as universalmente utilizáveis independentemente do idioma ou nível de leitura. A seleção do modelo determina automaticamente a orientação da página: os modelos de curvas passam para horizontal para movimentos amplos, enquanto os modelos de diagonais, horizontal e vertical usam vertical para prática concentrada de cima para baixo. O Acesso Completo desbloqueia os 104 temas e os 11 idiomas de interface. Exporte PDFs e JPEGs prontos para impressão a 300 DPI nos formatos Carta, A4 ou dimensões personalizadas. Quer venda pacotes de traçado de linhas na Etsy, compile cadernos de motricidade fina para a Amazon KDP ou crie centros de preparação para a escrita para o Hotmart, o Gerador de Atividades de Grafomotricidade oferece resultados profissionais em minutos — teste grátis com todas as funcionalidades, sem cadastro, sem cartão de crédito. Os downloads incluem uma marca d\'água; adquira uma licença para removê-la.',
+      'Crie atividades de traçado e coordenação motora para vender na Hotmart, Kiwify, Etsy ou Amazon KDP. "Coordenação motora" é um dos termos educativos MAIS buscados no Brasil — e este gerador cria exatamente os produtos que têm demanda gigante. As crianças traçam linhas entre imagens temáticas, desenvolvendo habilidades motoras finas essenciais para a escrita. Com mais de 3.000 imagens em 104 temas, você cria pacotes temáticos ilimitados. Atividades de traçado vendem extremamente bem na Hotmart como kits de coordenação motora e no Amazon KDP como apostilas de pregrafismo. Exporte PDFs a 300 DPI com gabarito automático e licença comercial inclusa. Teste grátis com marca d\'água — sem cadastro.',
   },
 
   howItWorks: {

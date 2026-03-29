@@ -2,28 +2,41 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'gerador de atividades de adição',
+    primaryKeyword: 'criar atividades de adição para vender na Hotmart e Etsy',
     secondaryKeywords: [
-      'atividades de adição imprimíveis para Etsy',
-      'gerador de atividades de matemática para Amazon KDP',
-      'vender atividades de adição na Hotmart',
-      'atividades de adição licença comercial',
+      'gerador de atividades de soma para vendedores Etsy',
+      'atividades de matemática para Amazon KDP',
+      'exercícios de adição para imprimir com licença comercial',
+      'criar apostila de atividades de soma para KDP',
+      'atividades de matemática para vender como renda extra',
     ],
     lsiKeywords: [
-      'produtos digitais de matemática para empreendedores',
-      'negócio de atividades imprimíveis online',
-      'gerador de atividades de uso comercial',
+      'licença comercial',
+      '300 DPI',
+      'pronto para impressão',
+      'imagens temáticas',
+      'renda passiva',
+      'download digital',
+      'gabarito incluso',
+      'atividades de cálculo',
+      'educação infantil',
+      'ensino fundamental',
+      'negócio de imprimíveis',
+      'renda extra',
+      'Hotmart',
+      'Kiwify',
+      'PIX',
     ],
-    titleTag: 'Gerador de Atividades de Adição | Criar e Vender',
+    titleTag: 'Atividades de adição para vender online | LCS',
     metaDescription:
-      'Crie atividades de adição para vender na Hotmart, Etsy e KDP. 104 temas, 4 modos de exercício, gabaritos incluídos, exportação 400+ DPI.',
+      'Crie atividades de adição profissionais para vender na Hotmart, Etsy e KDP. Licença comercial inclusa. Teste grátis com marca d\'água — sem cadastro.',
   },
 
   hero: {
-    title: 'Gerador de Atividades de Adição para Prática Visual de Matemática',
+    title: 'Crie e venda atividades de adição profissionais na Hotmart, Etsy e KDP',
     tagline: 'Transforme a adição numa aventura prática com atividades de matemática baseadas em imagens.',
     description:
-      'Crie atividades de adição baseadas em imagens que tornam os primeiros conceitos de matemática tangíveis e divertidos. Escolha entre quatro modos de exercício distintos — Imagem + Imagem, Imagem + Número, Encontrar o Parcela e Modo Misto — para se adaptar a cada nível, desde a pré-escola até ao segundo ano. Explore mais de 3100 ilustrações selecionadas em 104 temas como animais da quinta, veículos e alimentos para dar vida a cada problema. Cada atividade inclui um gabarito automático, e pode exportar PDFs prontos para impressão em formato Carta, A4 ou personalizado a mais de 400 DPI. Quer venda na Etsy, publique livros de atividades na Amazon KDP ou distribua atividades aos seus próprios usuários, o Gerador de Atividades de Adição oferece resultados profissionais em minutos. Teste grátis com todas as funcionalidades — sem cadastro, sem cartão de crédito. Os downloads incluem uma marca d\'água; adquira uma licença para removê-la.',
+      'Crie atividades de adição para vender na Hotmart, Kiwify, Etsy ou Amazon KDP — e gere cada uma em menos de 3 minutos. Este gerador cria exercícios de soma com imagens temáticas de mais de 3.000 ilustrações que encantam as crianças e convencem pais e professores a comprar. Exporte PDFs prontos para impressão em 300 DPI com gabarito automático e venda com a licença comercial inclusa — sem necessidade de atribuição. O mercado brasileiro de atividades educativas para imprimir é gigante: mais de 215 milhões de pessoas buscam materiais em português, e a cultura de "renda extra" no Brasil faz do mercado de infoprodutos educativos uma das maiores oportunidades para empreendedores digitais. Na Hotmart, kits de atividades já vendem milhares de cópias — e com este gerador, você cria produtos profissionais sem precisar de nenhum conhecimento de design. Teste grátis com marca d\'água — sem cadastro.',
   },
 
   howItWorks: {

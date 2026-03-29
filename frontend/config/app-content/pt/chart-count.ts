@@ -2,28 +2,40 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'gerador atividades gráfico pictórico',
+    primaryKeyword: 'atividades de contagem e gráficos para vender online',
     secondaryKeywords: [
-      'gerador de atividades de gráfico de imagens para vendedores Etsy',
-      'criador de atividades de pictograma para editores Amazon KDP',
-      'vender atividades de gráfico pictórico na Hotmart',
-      'gerador de atividades de representação de dados licença comercial',
+      'gerador de atividades de gráficos para Hotmart',
+      'atividades de contagem com gráficos para Etsy',
+      'exercícios de gráficos de barras para Amazon KDP',
+      'atividades de estatística infantil com licença comercial',
     ],
     lsiKeywords: [
-      'produtos digitais gráfico pictórico para empreendedores',
-      'atividades de representação de dados imprimíveis uso comercial',
-      'gerador de pictogramas com gabarito automático',
+      'licença comercial',
+      '300 DPI',
+      'pronto para impressão',
+      'gráfico de barras',
+      'contagem',
+      'download digital',
+      'gabarito incluso',
+      'estatística infantil',
+      'educação infantil',
+      'ensino fundamental',
+      'negócio de imprimíveis',
+      'renda extra',
+      'Hotmart',
+      'Kiwify',
+      'BNCC',
     ],
-    titleTag: 'Gerador Atividades Gráfico Pictórico | Criar e Vender',
+    titleTag: 'Atividades de contagem e gráficos para vender | LCS',
     metaDescription:
-      'Crie atividades de gráfico pictórico para Hotmart, Etsy e KDP. Gabarito automático, 104 temas, 6 tipos de imagens por atividade em PDF. Teste grátis com marca d\'água.',
+      'Crie atividades de contagem e gráficos de barras para vender na Hotmart, Etsy e KDP. 104 temas, gabarito automático. Teste grátis com marca d\'água.',
   },
 
   hero: {
-    title: 'Gerador de Atividades de Gráfico Pictórico para Atividades de Contagem Imprimíveis',
+    title: 'Gere atividades de contagem e gráficos para vender na Hotmart e Etsy',
     tagline: 'Gerador de pictogramas com canvas duplo — crie grelhas de imagens dispersas com 6 tipos de imagens, gabaritos em gráfico de barras gerados automaticamente, cabeçalhos localizados em 11 idiomas e 104 coleções de imagens temáticas para atividades de representação de dados.',
     description:
-      'Transforme a contagem visual numa atividade completa de competências de dados com o único gerador de atividades concebido especificamente para gráficos pictóricos. Cada atividade apresenta uma grelha de imagens dispersas com 20 ícones de 6 tipos diferentes dispostos num formato 4×5 — os usuários contam quantos de cada tipo aparecem e depois colorem as células correspondentes no gráfico de barras abaixo. A aplicação gera simultaneamente um gabarito com células destacadas a amarelo mostrando as contagens corretas, permitindo aos vendedores verificar o trabalho dos usuários instantaneamente. Escolha as imagens automaticamente selecionando um tema no menu suspenso Fonte de Imagens da Atividade, ou selecione manualmente exatamente 6 imagens a partir da Biblioteca de Imagens com mais de 3100 ilustrações em 104 coleções. Cada atividade inclui um cabeçalho autogerado com um título localizado \"Gráfico Pictórico\" e instruções de contagem — o cabeçalho adapta-se automaticamente aos 11 idiomas suportados. Adicione campos de nome e data do usuário com uma única caixa de verificação, aplique temas de fundo e borda com controlos de opacidade independentes, e personalize com ferramentas de texto e edição direta no canvas. O Gerador de Gráficos de Contagem não é sensível ao idioma — a contagem visual usa números e imagens universais, pelo que as atividades funcionam de forma idêntica em todos os idiomas. O Acesso Completo desbloqueia os 104 temas e os 11 idiomas de interface. Exporte PDFs e JPEGs prontos para impressão a 300 DPI nos formatos Carta, A4, Quadrado (1200×1200) ou dimensões personalizadas. Baixe os quatro arquivos — atividade JPEG, atividade PDF, gabarito JPEG e gabarito PDF — numa única sessão. Quer venda pacotes de gráficos pictóricos na Etsy, compile cadernos de competências de dados para a Amazon KDP ou crie atividades de centro de matemática para o Hotmart, o Gerador de Gráficos de Contagem oferece resultados prontos para a loja em minutos — teste grátis com todas as funcionalidades, sem cadastro, sem cartão de crédito. Os downloads incluem uma marca d\'água; adquira uma licença para removê-la.',
+      'Crie atividades de contagem e gráficos de barras para vender na Hotmart, Kiwify, Etsy ou Amazon KDP. Este gerador produz exercícios onde as crianças contam imagens temáticas e preenchem gráficos de barras — combinando matemática, interpretação de dados e raciocínio visual. As atividades de estatística e gráficos estão alinhadas com a BNCC e são cada vez mais exigidas nas escolas brasileiras. Escolha entre mais de 3.000 imagens em 104 temas, configure o número de categorias e exporte PDFs prontos para impressão a 300 DPI com gabarito automático e licença comercial inclusa. Um nicho pouco explorado em português com alta demanda crescente. Teste grátis com marca d\'água — sem cadastro.',
   },
 
   howItWorks: {

@@ -2,28 +2,39 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'gerador atividades criptograma',
+    primaryKeyword: 'gerador de criptogramas para vender na Etsy',
     secondaryKeywords: [
-      'atividades de criptograma com imagens imprimíveis para vendedores Etsy',
-      'gerador de puzzles de criptograma cifrado para Amazon KDP',
-      'vender atividades de criptograma na Hotmart',
-      'atividades de criptograma com legenda de letras licença comercial',
+      'criar criptogramas com imagens para Hotmart',
+      'atividades de decifrar código para Amazon KDP',
+      'gerador de criptogramas com licença comercial',
+      'puzzles de substituição de letras para vender online',
     ],
     lsiKeywords: [
-      'produtos digitais de puzzles de cifra por imagens para empreendedores',
-      'negócio de atividades de decifração imprimíveis online',
-      'gerador de atividades de criptograma uso comercial',
+      'licença comercial',
+      '300 DPI',
+      'pronto para impressão',
+      'criptograma',
+      'código secreto',
+      'download digital',
+      'gabarito incluso',
+      'raciocínio lógico',
+      'alfabetização',
+      'ensino fundamental',
+      'negócio de imprimíveis',
+      'renda extra',
+      'Hotmart',
+      'Kiwify',
     ],
-    titleTag: 'Gerador Atividades Criptograma | Criar e Vender',
+    titleTag: 'Gerador de criptogramas para vender | LCS',
     metaDescription:
-      'Crie atividades de criptograma para Hotmart, Etsy e KDP. Cifra por imagens, Letras a Revelar 0–10, 104 temas, gabarito auto em PDF. Teste grátis com marca d\'água.',
+      'Crie criptogramas com imagens para vender na Hotmart, Etsy e KDP. Substituição de letras, 11 idiomas, gabarito automático. Teste grátis com marca d\'água.',
   },
 
   hero: {
-    title: 'Gerador de Atividades de Criptograma para Puzzles de Cifra por Imagens',
+    title: 'Crie criptogramas para vender na Hotmart, Etsy e KDP',
     tagline: 'Associe cada letra do alfabeto a uma imagem e codifique frases inteiras em puzzles visuais cifrados — dificuldade ajustável desde zero pistas até altamente orientado com Letras a Revelar.',
     description:
-      'Transforme qualquer frase ou oração num puzzle de criptograma com imagens onde cada letra do alfabeto é substituída por uma imagem, e os usuários decifram o código deduzindo qual imagem representa qual letra. Cada puzzle codifica uma mensagem completa e legível — não apenas uma palavra isolada — oferecendo aos resolvedores a satisfação de revelar uma oração inteira através do reconhecimento de padrões e da dedução. O controlo Letras a Revelar (0–10) determina quantas correspondências letra-imagem estão pré-resolvidas como pistas, criando um gradiente de dificuldade progressivo que vai desde desafios de especialista sem pistas até puzzles altamente orientados para iniciantes. A Atribuição Automática extrai imagens aleatórias de qualquer uma das 104 coleções temáticas (mais de 3100 ilustrações) para preencher as letras não atribuídas instantaneamente, ou use a Atribuição Manual para selecionar manualmente imagens específicas para letras específicas com uma pré-visualização visual completa de todas as correspondências. O gabarito inclui uma legenda de letras completa que mostra cada letra do alfabeto emparelhada com a sua imagem atribuída em ordem alfabética — a referência definitiva para verificar as soluções. O Acesso Completo desbloqueia os 11 idiomas suportados onde tanto o texto da mensagem secreta COMO o conjunto de letras do alfabeto mudam conforme o idioma: os criptogramas em alemão codificam frases alemãs com ä, ö, ü, ß no alfabeto; os criptogramas em francês codificam frases francesas com é, è, ç, à; os criptogramas em português codificam frases portuguesas com ã, õ, ç, â, á, é, í, ó, ú — cada versão linguística é um produto de cifra verdadeiramente diferente. Exporte PDFs prontos para impressão e JPEGs a mais de 400 DPI nos formatos Carta, A4 ou dimensões personalizadas. Quer venda pacotes de puzzles cifrados temáticos na Etsy, compile livros de criptogramas para a Amazon KDP ou crie centros de decifração diferenciados para o Hotmart, o Gerador de Atividades de Criptograma produz resultados profissionais em minutos — teste grátis com todas as funcionalidades, sem cadastro, sem cartão de crédito. Os downloads incluem uma marca d\'água; adquira uma licença para removê-la.',
+      'Crie criptogramas com imagens para vender na Hotmart, Kiwify, Etsy ou Amazon KDP. Este gerador produz puzzles de substituição de letras onde cada símbolo visual representa uma letra do alfabeto — os usuários decifram o código para revelar palavras. Com mais de 3.000 imagens em 104 temas e suporte a 11 alfabetos nativos incluindo português, você cria produtos exclusivos que nenhum concorrente oferece. Criptogramas são um nicho de alta margem: adultos e crianças adoram desafios de decifração, e a competição em português é mínima. Exporte PDFs a 300 DPI com gabarito automático e licença comercial inclusa. Teste grátis com marca d\'água — sem cadastro.',
   },
 
   howItWorks: {

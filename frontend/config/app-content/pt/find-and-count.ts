@@ -2,28 +2,39 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'gerador atividades encontra e conta',
+    primaryKeyword: 'atividades de procurar e contar para vender na Etsy',
     secondaryKeywords: [
-      'gerador de atividades de objetos escondidos imprimíveis para vendedores Etsy',
-      'criador de atividades eu vejo para editores Amazon KDP',
-      'gerador de atividades encontra e conta com licença comercial',
-      'vender atividades de encontra e conta na Hotmart',
+      'gerador de procure e conte para Hotmart',
+      'atividades de encontre e conte para Amazon KDP',
+      'atividades de contagem visual com licença comercial',
+      'procure e conte para vender na Kiwify',
     ],
     lsiKeywords: [
-      'produtos digitais eu vejo para empreendedores',
-      'atividades de objetos escondidos imprimíveis uso comercial',
-      'gerador de atividades de contagem com gabarito automático',
+      'licença comercial',
+      '300 DPI',
+      'pronto para impressão',
+      'procurar e contar',
+      'encontrar e contar',
+      'download digital',
+      'gabarito incluso',
+      'contagem',
+      'educação infantil',
+      'ensino fundamental',
+      'negócio de imprimíveis',
+      'renda extra',
+      'Hotmart',
+      'Kiwify',
     ],
-    titleTag: 'Gerador Atividades Encontra e Conta | Criar e Vender',
+    titleTag: 'Procure e conte para vender online | LCS',
     metaDescription:
-      'Crie atividades eu vejo encontra e conta para Hotmart, Etsy e KDP. 4 tipos de tarefa, modo Identificação de Letras, gabarito automático, 104 temas. Teste grátis.',
+      'Crie atividades de procurar e contar para vender na Hotmart, Etsy e KDP. 104 temas, gabarito automático, licença comercial. Teste grátis com marca d\'água.',
   },
 
   hero: {
-    title: 'Gerador de Atividades Encontra e Conta para Atividades Eu Vejo Imprimíveis',
+    title: 'Crie atividades de procurar e contar para vender na Hotmart e Etsy',
     tagline: 'Dois modos de atividade num só gerador — Objeto Escondido Eu Vejo e Identificação de Letras — com quatro tipos de tarefa combináveis (circular, quadrado, riscar, contar), alfabetos específicos por idioma com letras acentuadas, etiquetas de nomes de imagens localizadas em 11 idiomas e gabaritos autogerados com anotações visuais.',
     description:
-      'Crie atividades profissionais de encontra e conta onde os usuários procuram numa cena de imagens dispersas para encontrar, circular, riscar ou contar objetos específicos. Escolha entre dois modos de atividade: o modo Objeto Escondido dispersa imagens numa grelha configurável (5–10 linhas × 5–10 colunas) e permite-lhe atribuir até 4 objetos-alvo com tipos de tarefa individuais — circular, enquadrar com quadrado, riscar ou contar quantos aparecem. O modo Identificação de Letras mostra uma grelha de alfabeto específica por idioma com letras acentuadas (alemão ÄÖÜ, espanhol Ñ, sueco ÅÄÖ, dinamarquês/norueguês ÆØÅ) e gera cenas eu vejo usando imagens que começam com a letra selecionada. Cada atividade inclui um cabeçalho autogerado — \"Eu Vejo\" ou \"Identificação de Letras\" — localizado nos 11 idiomas suportados com uma moldura azul (#2196F3). O sistema de duplo canvas gera tanto um aba de atividade como um aba de gabarito com anotações vermelhas de círculo, quadrado e cruz mais contagens de quantidade. O Gerador de Encontra e Conta é sensível ao idioma: as etiquetas de nomes de imagens na atividade são exibidas no idioma selecionado através do sistema de Vocabulário de Imagens. O Acesso Completo desbloqueia todos os 104 temas com mais de 3100 ilustrações e os 11 idiomas de interface para etiquetas localizadas. Adicione temas de fundo e moldura com controlos de opacidade independentes, e exporte PDF e JPEG prontos para impressão a 300 DPI em formato Carta, A4, Quadrado (1200×1200) ou tamanhos personalizados. Quer venda packs de atividades eu vejo na Etsy, compile cadernos de objetos escondidos para Amazon KDP ou crie atividades de contagem para Hotmart, este gerador oferece atividades prontas para produção em minutos — teste grátis com todas as funcionalidades, sem cadastro, sem cartão de crédito. Os downloads incluem uma marca d\'água; adquira uma licença para removê-la.',
+      'Crie atividades de procurar e contar para vender na Hotmart, Kiwify, Etsy ou Amazon KDP. Este gerador produz cenas visuais com imagens temáticas espalhadas pela página — as crianças encontram e contam cada tipo de imagem, registrando os totais. Combina atenção visual com habilidades de contagem, perfeito para educação infantil e ensino fundamental. Com mais de 3.000 ilustrações em 104 temas, você cria variações temáticas ilimitadas. Um formato extremamente popular entre pais e professores: simples de entender, divertido de resolver e eficaz para aprender. Exporte PDFs a 300 DPI com gabarito automático e licença comercial inclusa. Teste grátis com marca d\'água — sem cadastro.',
   },
 
   howItWorks: {

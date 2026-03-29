@@ -2,28 +2,39 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'gerador atividades objetos ocultos',
+    primaryKeyword: 'criar ache e encontre para vender na Etsy e KDP',
     secondaryKeywords: [
-      'gerador de atividades eu vejo imprimíveis para vendedores Etsy',
-      'criador de atividades de objetos ocultos para editores Amazon KDP',
-      'gerador de atividades eu vejo com licença comercial',
-      'vender atividades encontra o diferente na Hotmart',
+      'gerador de ache e encontre com imagens para Hotmart',
+      'atividades de objetos escondidos para Amazon KDP',
+      'hidden object worksheets em português licença comercial',
+      'ache e encontre para vender na Kiwify',
     ],
     lsiKeywords: [
-      'produtos digitais de atividades de objetos ocultos para empreendedores',
-      'gerador de atividades de busca visual a uso comercial',
-      'atividades eu vejo imprimíveis para negócio online',
+      'licença comercial',
+      '300 DPI',
+      'pronto para impressão',
+      'ache e encontre',
+      'objetos escondidos',
+      'download digital',
+      'gabarito incluso',
+      'atenção visual',
+      'educação infantil',
+      'ensino fundamental',
+      'negócio de imprimíveis',
+      'renda extra',
+      'Hotmart',
+      'Kiwify',
     ],
-    titleTag: 'Gerador Atividades Objetos Ocultos | para Vender',
+    titleTag: 'Ache e encontre para vender online | LCS',
     metaDescription:
-      'Crie atividades de objetos ocultos para Hotmart, Etsy e KDP. Modos Eu Vejo e Encontra o Diferente, cenas sem sobreposição, gabarito automático, 104 temas.',
+      'Crie atividades de ache e encontre para vender na Hotmart, Etsy e KDP. 104 temas, gabarito automático, licença comercial. Teste grátis com marca d\'água.',
   },
 
   hero: {
-    title: 'Gerador de Atividades de Objetos Ocultos para Atividades Eu Vejo e Encontra o Diferente',
+    title: 'Crie atividades de ache e encontre para vender na Hotmart e Etsy',
     tagline: 'Dois modos de atividade num só gerador — cenas Eu Vejo com posicionamento sem sobreposição e imagens dispersas e atividades Encontra o Diferente com imagens emparelhadas — com gabaritos autogerados, tamanho de imagem adaptativo, campos de nome e data, e legenda que mostra os objetos a encontrar.',
     description:
-      'Crie atividades profissionais de objetos ocultos onde os usuários procuram numa cena de imagens dispersas para encontrar e circular objetos específicos. Escolha entre dois modos de atividade: o modo Eu Vejo usa um algoritmo de posicionamento sem sobreposição para dispersar de 1 a 5 objetos ocultos entre 8 a 12 distratores por toda a página — sem grelha, sem linhas nem colunas, apenas uma cena visual coesa gerada pelo algoritmo findBestPosition() que testa 50 posições aleatórias por imagem e reduz o tamanho adaptativamente quando o espaço é limitado. Uma legenda na parte inferior da atividade mostra aos usuários exatamente que objetos devem encontrar. O modo Encontra o Diferente organiza de 8 a 12 imagens emparelhadas em linhas com 1 a 5 elementos sem par misturados — os usuários identificam as imagens que não têm um par correspondente. O sistema de duplo canvas gera tanto um aba de atividade como um aba de gabarito — o gabarito desenha círculos vermelhos à volta dos objetos ocultos (Eu Vejo) ou dos elementos sem par (Encontra o Diferente) para que nunca tenha de os marcar manualmente. O gerador de objetos ocultos é puramente visual: o idioma afeta apenas as etiquetas da interface, NÃO o conteúdo da atividade, pelo que cada atividade funciona em qualquer idioma sem nomes de imagem localizados. O Acesso Completo desbloqueia todos os 104 temas com mais de 3100 ilustrações e os 11 idiomas de interface. Adicione temas de fundo e de moldura com controlos de opacidade independentes, ative ou desative os campos de nome e data, personalize o cabeçalho autoajustável com 6 opções de fonte, e exporte PDF e JPEG prontos para impressão a 300 DPI em formato Carta, A4 ou dimensões personalizadas. Quer venda packs de atividades de objetos ocultos na Etsy, compile cadernos de Eu Vejo para Amazon KDP ou crie atividades de discriminação visual para Hotmart, este gerador produz atividades prontas para produção em minutos — teste grátis com todas as funcionalidades, sem cadastro, sem cartão de crédito. Os downloads incluem uma marca d\'água; adquira uma licença para removê-la.',
+      'Crie atividades de ache e encontre com imagens para vender na Hotmart, Kiwify, Etsy ou Amazon KDP. Este gerador produz cenas visuais repletas de imagens temáticas onde as crianças procuram objetos específicos — desenvolvendo atenção visual, concentração e vocabulário. Com mais de 3.000 ilustrações em 104 temas, você cria cenas únicas para cada produto. Atividades de objetos escondidos são extremamente populares: funcionam para todas as idades e não dependem de idioma, ampliando seu mercado globalmente. Perfeito para livros de passatempos no Amazon KDP e kits de atividades na Hotmart. Exporte PDFs a 300 DPI com licença comercial inclusa. Teste grátis com marca d\'água — sem cadastro.',
   },
 
   howItWorks: {

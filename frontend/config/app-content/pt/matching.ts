@@ -2,28 +2,40 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'gerador atividades de associação',
+    primaryKeyword: 'atividades de ligar e associar para vender na Etsy',
     secondaryKeywords: [
-      'gerador de atividades de associação imprimíveis para vendedores Etsy',
-      'criador de atividades unir com linhas para editores Amazon KDP',
-      'gerador de atividades de associação com licença comercial',
-      'vender atividades de associação imprimíveis na Hotmart',
+      'gerador de atividades de associação para Hotmart',
+      'criar atividades de ligar para Amazon KDP',
+      'atividades de correspondência com licença comercial',
+      'jogos de associação para vender na Kiwify',
     ],
     lsiKeywords: [
-      'produtos digitais atividades de associação para empreendedores',
-      'gerador de atividades de associação uso comercial',
-      'atividades de associação imprimíveis para negócio online',
+      'licença comercial',
+      '300 DPI',
+      'pronto para impressão',
+      'ligar',
+      'associar',
+      'correspondência',
+      'download digital',
+      'gabarito incluso',
+      'raciocínio visual',
+      'educação infantil',
+      'ensino fundamental',
+      'negócio de imprimíveis',
+      'renda extra',
+      'Hotmart',
+      'Kiwify',
     ],
-    titleTag: 'Gerador Atividades de Associação | Criar e Vender',
+    titleTag: 'Atividades de ligar e associar para vender | LCS',
     metaDescription:
-      'Crie atividades de associação para Hotmart, Etsy e KDP. 4 modos de associação, gabarito automático, 104 temas, pares configuráveis. Teste grátis com marca d\'água.',
+      'Crie atividades de ligar e associar para vender na Hotmart, Etsy e KDP. 104 temas, gabarito automático, licença comercial. Teste grátis com marca d\'água.',
   },
 
   hero: {
-    title: 'Gerador de Atividades de Associação para Atividades de Ligar com Linhas',
+    title: 'Crie atividades de associação para vender na Hotmart, Etsy e KDP',
     tagline: 'Quatro modos de associação num único gerador — Letra Inicial, Imagem+Palavra, Imagem/Palavra Misto e Palavra Personalizada — com gabaritos gerados automaticamente, número de pares configurável e cabeçalho localizado \"Liga!\" em 104 coleções de imagens temáticas.',
     description:
-      'Crie atividades de associação profissionais onde os usuários ligam pares desenhando linhas entre duas colunas. Escolha entre quatro modos de associação distintos: Imagem ↔ Letra Inicial associa as imagens com a sua primeira letra, Imagem+Palavra ↔ Imagem+Palavra emparelha imagens legendadas em ambos os lados, Imagem/Palavra ↔ Imagem/Palavra Misto mistura imagens e palavras por linha com menus suspensos, e Imagem ↔ Palavra Personalizada permite-lhe escrever os seus próprios termos de associação. Configure 4, 5 ou 6 pares por atividade e ative ou desative os números dos itens e os pontos decorativos para uma formatação limpa. Cada atividade inclui um cabeçalho localizado \"Liga!\" gerado automaticamente, com título e instruções nos 11 idiomas suportados. O sistema de canvas duplo gera tanto um aba de atividade de trabalho como um aba de gabarito — o gabarito traça linhas de ligação entre as correspondências corretas, sem nenhum trabalho manual da sua parte. O Gerador de Atividades de Associação é sensível ao idioma: os modos Letra Inicial e Imagem+Palavra usam os nomes localizados das imagens, pelo que mudar de idioma altera as palavras e primeiras letras na atividade. O Acesso Completo desbloqueia os 104 temas com mais de 3100 ilustrações e os 11 idiomas de interface para conteúdo textual localizado. Adicione temas de fundo e de borda com controlos de opacidade independentes, inclua campos de nome e data, e exporte PDFs e JPEGs prontos para impressão a 300 DPI nos formatos Carta, A4, Quadrado ou dimensões personalizadas. Quer venda pacotes de atividades de associação na Etsy, compile cadernos de literacia inicial para a Amazon KDP ou crie atividades para centros de associação na Hotmart, este gerador produz atividades prontas para produção em minutos — teste grátis com todas as funcionalidades, sem cadastro, sem cartão de crédito. Os downloads incluem uma marca d\'água; adquira uma licença para removê-la.',
+      'Crie atividades de ligar e associar com imagens para vender na Hotmart, Kiwify, Etsy ou Amazon KDP. Este gerador produz exercícios onde as crianças traçam linhas para conectar elementos correspondentes — imagem com imagem, imagem com palavra, ou imagem com número. Com mais de 3.000 ilustrações em 104 temas, você cria pacotes temáticos variados. Atividades de associação são universais: funcionam para qualquer idioma e faixa etária, desde educação infantil até ensino fundamental. Exporte PDFs a 300 DPI com gabarito automático e licença comercial inclusa. Um produto básico que todo vendedor de imprimíveis precisa no catálogo. Teste grátis com marca d\'água — sem cadastro.',
   },
 
   howItWorks: {

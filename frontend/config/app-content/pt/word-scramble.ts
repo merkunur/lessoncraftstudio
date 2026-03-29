@@ -2,28 +2,39 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'gerador atividades palavras embaralhadas',
+    primaryKeyword: 'criar embaralha palavras para vender na Hotmart',
     secondaryKeywords: [
-      'atividades de palavras embaralhadas imprimíveis para vendedores Etsy',
-      'gerador de puzzles de reorganização de letras para Amazon KDP',
-      'vender atividades de palavras embaralhadas na Hotmart',
-      'atividades de palavras embaralhadas com código de cores vogais licença comercial',
+      'gerador de palavras embaralhadas para Etsy',
+      'atividades de desembaralhar palavras para KDP',
+      'embaralha palavras com imagens licença comercial',
+      'jogos de letras para vender na Kiwify',
     ],
     lsiKeywords: [
-      'produtos digitais de puzzles de ortografia para empreendedores',
-      'negócio de atividades de reorganização de letras imprimíveis online',
-      'gerador de atividades de palavras embaralhadas uso comercial',
+      'licença comercial',
+      '300 DPI',
+      'pronto para impressão',
+      'palavras embaralhadas',
+      'anagrama',
+      'download digital',
+      'gabarito incluso',
+      'vocabulário',
+      'alfabetização',
+      'ensino fundamental',
+      'negócio de imprimíveis',
+      'renda extra',
+      'Hotmart',
+      'Kiwify',
     ],
-    titleTag: 'Gerador Atividades Palavras Embaralhadas | Criar e Vender',
+    titleTag: 'Embaralha palavras para vender online | LCS',
     metaDescription:
-      'Crie atividades de palavras embaralhadas para Hotmart, Etsy e KDP. Pistas de imagem, código de cores vogais-consoantes, 11 idiomas. Teste grátis com marca d\'água.',
+      'Crie atividades de embaralha palavras para vender na Hotmart, Etsy e KDP. Imagens como pistas, 11 idiomas, gabarito incluso. Teste grátis com marca d\'água.',
   },
 
   hero: {
-    title: 'Gerador de Atividades de Palavras Embaralhadas para Puzzles de Ortografia por Reorganização de Letras',
+    title: 'Crie atividades de embaralha palavras para vender na Hotmart e Etsy',
     tagline: 'Peças de letras embaralhadas encontram pistas de imagem — quatro níveis de dificuldade e um código de cores vogais-consoantes transformam cada palavra num puzzle de ortografia prático.',
     description:
-      'Crie atividades profissionais de palavras embaralhadas onde os usuários veem uma pista de imagem e reorganizam peças de letras embaralhadas para soletrar a palavra correta — um puzzle de reorganização de letras que desenvolve simultaneamente a precisão ortográfica, o reconhecimento de palavras e a consciência fonética. Escolha entre três fontes de conteúdo: a Biblioteca de Imagens integrada com mais de 3100 ilustrações em 104 temas, o Modo Edição Manual onde seleciona imagens e personaliza os seus nomes de exibição, ou o modo Lista de Palavras Personalizada para puzzles de texto apenas com até 8 palavras que escreve diretamente. Quatro níveis de dificuldade controlam quantas letras-pista são pré-posicionadas na posição correta — desde Sem Pistas (nenhuma letra colocada) até ao modo Fácil colocando metade das letras — criando um andaimento natural do iniciante ao avançado. A funcionalidade de código de cores vogais-consoantes é única de Palavras Embaralhadas: ative peças coloridas onde as vogais aparecem numa cor e as consoantes noutra, acrescentando uma dimensão fonética visual que ajuda os usuários a identificar os tipos de letras enquanto desembaralham a palavra. Coloque de 1 a 10 puzzles por atividade e escolha peças de letras em maiúsculas ou minúsculas. O Acesso Completo desbloqueia os 11 idiomas suportados onde a palavra-alvo muda conforme o idioma — \"dog\" em inglês torna-se \"cão\" em português, \"Hund\" em alemão, \"chien\" em francês — fazendo de cada idioma um produto distinto e comercializável. Cada atividade gera um gabarito automático, e pode exportar PDFs prontos para impressão e JPEGs a mais de 300 DPI nos formatos Carta, A4, Quadrado ou dimensões personalizadas. Quer venda pacotes temáticos de ortografia na Etsy, compile livros de puzzles de palavras para a Amazon KDP ou crie centros de literacia diferenciados para o Hotmart, o Gerador de Atividades de Palavras Embaralhadas produz resultados profissionais em minutos — teste grátis com todas as funcionalidades, sem cadastro, sem cartão de crédito. Os downloads incluem uma marca d\'água; adquira uma licença para removê-la.',
+      'Crie atividades de embaralha palavras para vender na Hotmart, Kiwify, Etsy ou Amazon KDP. Este gerador embaralha letras de palavras e usa imagens como pistas visuais — os usuários olham a imagem, identificam o que é e reorganizam as letras para formar a palavra correta. Com mais de 3.000 imagens em 104 temas e 11 idiomas com caracteres nativos, você cria jogos de vocabulário que funcionam para qualquer idade. Atividades de embaralha palavras são ótimas para apostilas de alfabetização e livros de passatempos no Amazon KDP. Cada atividade vem com gabarito automático e exportação em PDF 300 DPI. Licença comercial inclusa. Teste grátis com marca d\'água — sem cadastro.',
   },
 
   howItWorks: {

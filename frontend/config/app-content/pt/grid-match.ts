@@ -2,28 +2,39 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'gerador puzzles de quadrícula',
+    primaryKeyword: 'quebra-cabeça de associação em grade para negócio digital',
     secondaryKeywords: [
-      'gerador de puzzles de quadrícula imprimíveis para vendedores Etsy',
-      'criador de puzzles de peças de imagens para editores Amazon KDP',
-      'gerador de puzzles de quadrícula com licença comercial',
-      'vender puzzles de quadrícula de imagens na Hotmart',
+      'gerador de grade de associação para Hotmart',
+      'atividades de associação em grelha para Etsy',
+      'quebra-cabeça visual em grade para Amazon KDP',
+      'atividades de grade para vender na Kiwify',
     ],
     lsiKeywords: [
-      'produtos digitais de puzzles de quadrícula para empreendedores',
-      'gerador de puzzles de peças de imagens uso comercial',
-      'atividades de perceção visual imprimíveis para negócio online',
+      'licença comercial',
+      '300 DPI',
+      'pronto para impressão',
+      'associação em grade',
+      'grelha',
+      'download digital',
+      'gabarito incluso',
+      'raciocínio lógico',
+      'educação infantil',
+      'ensino fundamental',
+      'negócio de imprimíveis',
+      'renda extra',
+      'Hotmart',
+      'Kiwify',
     ],
-    titleTag: 'Gerador Puzzles de Quadrícula | Criar e Vender',
+    titleTag: 'Associação em grade para vender online | LCS',
     metaDescription:
-      'Crie puzzles de quadrícula para vender na Hotmart, Etsy e KDP. Grelha configurável, caselas-dica, gabarito automático, 104 temas. Teste grátis com marca d\'água.',
+      'Crie quebra-cabeças de associação em grade para vender na Hotmart, Etsy e KDP. 104 temas, gabarito automático. Teste grátis com marca d\'água.',
   },
 
   hero: {
-    title: 'Gerador de Puzzles de Quadrícula para Atividades de Correspondência de Peças de Imagens',
+    title: 'Crie quebra-cabeças de associação em grade para vender na Hotmart',
     tagline: 'Transforme qualquer imagem num puzzle baseado em quadrícula — divida-a em peças, revele caselas-dica configuráveis, misture as peças restantes numa paleta numerada e gere automaticamente um gabarito com círculos numerados sobrepostos em 104 coleções de imagens temáticas.',
     description:
-      'Crie puzzles de quadrícula profissionais onde uma imagem única é dividida numa grelha de peças e os usuários associam as peças numeradas às suas posições corretas. Configure a grelha de 2×2 a 4×4 (2–4 linhas × 2–4 colunas) e defina 1–5 caselas-dica que permanecem visíveis como pistas — menos pistas significa um puzzle mais difícil. A aplicação mistura as peças restantes usando o algoritmo Fisher-Yates e apresenta-as numa paleta numerada ao lado ou abaixo da grelha. Os usuários estudam as caselas-dica reveladas, examinam as peças numeradas e escrevem qual número corresponde a cada célula vazia. O sistema de canvas duplo gera tanto um aba de atividade de trabalho como um aba de gabarito — o gabarito mostra a imagem completa com círculos numerados sobrepostos em cada célula indicando a colocação correta das peças, sem necessidade de criar gabaritos manualmente. O Puzzle de Quadrícula NÃO é sensível ao idioma: o resultado do puzzle é puramente visual, sem conteúdo textual localizado na atividade. O Acesso Completo desbloqueia os 104 temas com mais de 3100 ilustrações e os 11 idiomas de interface. Adicione temas de fundo e de borda com controlos de opacidade independentes, inclua texto personalizado com sete opções de fontes, e exporte PDFs e JPEGs prontos para impressão a 300 DPI nos formatos Carta, A4 ou dimensões personalizadas. Quer venda pacotes de puzzles de imagens na Etsy, compile cadernos de perceção visual para a Amazon KDP ou crie atividades de puzzles rápidos para o Hotmart, este gerador produz puzzles de quadrícula prontos para produção em minutos — teste grátis com todas as funcionalidades, sem cadastro, sem cartão de crédito. Os downloads incluem uma marca d\'água; adquira uma licença para removê-la.',
+      'Crie atividades de associação em grade para vender na Hotmart, Kiwify, Etsy ou Amazon KDP. Este gerador produz quebra-cabeças onde as crianças associam imagens em uma grelha visual, desenvolvendo raciocínio lógico e atenção aos detalhes. Com mais de 3.000 ilustrações em 104 temas, você cria variações temáticas ilimitadas. Atividades de grade são um formato visualmente atraente que se destaca nas miniaturas de anúncios — compradores clicam mais em produtos com layout organizado e colorido. Exporte PDFs a 300 DPI com gabarito automático e licença comercial inclusa. Um formato exclusivo que diferencia seu catálogo da concorrência. Teste grátis com marca d\'água — sem cadastro.',
   },
 
   howItWorks: {

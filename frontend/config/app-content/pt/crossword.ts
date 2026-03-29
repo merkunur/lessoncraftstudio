@@ -2,28 +2,40 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'gerador palavras cruzadas com imagens',
+    primaryKeyword: 'criador de palavras cruzadas para vender na Etsy e KDP',
     secondaryKeywords: [
-      'palavras cruzadas ilustradas imprimíveis para vendedores Etsy',
-      'gerador de palavras cruzadas com pistas visuais para Amazon KDP',
-      'atividades de palavras cruzadas com imagens licença comercial',
-      'vender palavras cruzadas ilustradas na Hotmart',
+      'gerador de cruzadinhas com imagens para Hotmart',
+      'criar palavras cruzadas para Amazon KDP',
+      'atividades de palavras cruzadas com licença comercial',
+      'cruzadinhas em português para vender online',
     ],
     lsiKeywords: [
-      'produtos digitais de palavras cruzadas com imagens para empreendedores',
-      'negócio de atividades de palavras cruzadas ilustradas imprimíveis',
-      'gerador de palavras cruzadas com pistas visuais uso comercial',
+      'licença comercial',
+      '300 DPI',
+      'pronto para impressão',
+      'palavras cruzadas',
+      'cruzadinha',
+      'download digital',
+      'gabarito incluso',
+      'vocabulário',
+      'alfabetização',
+      'ensino fundamental',
+      'negócio de imprimíveis',
+      'renda extra',
+      'Hotmart',
+      'Kiwify',
+      '11 idiomas',
     ],
-    titleTag: 'Gerador Palavras Cruzadas com Imagens | Criar e Vender',
+    titleTag: 'Palavras cruzadas para vender online | LCS',
     metaDescription:
-      'Crie palavras cruzadas com imagens para vender na Hotmart, Etsy e KDP. Pistas visuais em grelha 15×15, 4 métodos, gabarito auto. Teste grátis com marca d\'água.',
+      'Crie palavras cruzadas com imagens para vender na Hotmart, Etsy e KDP. Pistas visuais, 11 idiomas, gabarito automático. Teste grátis com marca d\'água.',
   },
 
   hero: {
-    title: 'Gerador de Palavras Cruzadas com Imagens para Puzzles de Palavras Cruzadas Ilustradas',
+    title: 'Crie palavras cruzadas para vender na Hotmart, Etsy e KDP',
     tagline: 'Substitua as pistas de texto tradicionais por pistas com imagens numa grelha de 15×15 — quatro métodos de entrada (seleção automática por tema, edição manual de nomes, lista personalizada de palavras com pistas e carregamento de imagens próprias), gabarito autogerado com grelha preenchida e cabeçalho localizado \"Palavras Cruzadas Ilustradas\" em 104 coleções temáticas de imagens.',
     description:
-      'Crie palavras cruzadas profissionais onde imagens coloridas substituem as pistas de texto dos puzzles tradicionais. Oito imagens geram oito palavras numa grelha fixa de 15×15 — o algoritmo extrai as palavras dos nomes das imagens, ordena-as por comprimento para colocação ótima e preenche a grelha com posições de pista numeradas. Escolha entre quatro métodos de entrada: a Geração Rápida por Tema seleciona automaticamente 8 imagens aleatórias de qualquer tema e gera instantaneamente; a Edição Manual de Nomes de Imagem permite clicar em imagens individuais e renomeá-las antes de gerar; a Lista Personalizada de Palavras com Pistas muda para palavras cruzadas tradicionais com pistas de texto no formato PALAVRA: pista; e Carregar Imagens Próprias permite adicionar os seus próprios arquivos JPEG, PNG, GIF ou WebP junto ao conteúdo da biblioteca. O Gerador de Palavras Cruzadas com Imagens é sensível ao idioma: as palavras do puzzle provêm de nomes de imagens localizados através do sistema de Vocabulário de Imagens, portanto mudar o idioma altera as palavras reais do puzzle. O sistema de duplo canvas gera tanto um aba de puzzle como um aba de gabarito — o gabarito mostra a grelha preenchida com todas as respostas visíveis. Cada puzzle inclui um cabeçalho localizado autogerado com fundo azul (#5B9BD5), título em Fredoka e descrição em Quicksand renderizados nos 11 idiomas suportados. O Acesso Completo desbloqueia todos os 104 temas com mais de 3100 ilustrações e os 11 idiomas para palavras de puzzle localizadas. Adicione temas de fundo e temas de borda com controles de opacidade independentes, e exporte PDFs e JPEGs prontos para impressão a 300 DPI em tamanhos Carta, A4 ou personalizados. Quer venda pacotes de palavras cruzadas com imagens na Etsy, compile cadernos de palavras cruzadas para Amazon KDP ou crie atividades de vocabulário para Hotmart, este gerador produz puzzles prontos para produção em minutos — teste grátis com todas as funcionalidades — sem cadastro, sem cartão de crédito. Os downloads incluem marca d\'água; compre uma licença para removê-la.',
+      'Crie palavras cruzadas com pistas visuais para vender na Hotmart, Kiwify, Etsy ou Amazon KDP. Este gerador cria cruzadinhas onde as pistas são imagens — os usuários identificam o que veem e preenchem as letras na grade. Com mais de 3.000 imagens em 104 temas e suporte a 11 idiomas com caracteres nativos, você cria produtos únicos em minutos. "Cruzadinha" e "palavras cruzadas" são termos de altíssima busca no Brasil. Cada atividade inclui gabarito automático e exportação em PDF 300 DPI. Perfeito para livros de passatempos no Amazon KDP e kits de atividades na Hotmart. Licença comercial inclusa — venda sem atribuição. Teste grátis com marca d\'água — sem cadastro.',
   },
 
   howItWorks: {

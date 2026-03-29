@@ -2,28 +2,39 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'puzzles algébricos ilustrados',
+    primaryKeyword: 'gerador de atividades de matemática para vendedores Hotmart e KDP',
     secondaryKeywords: [
-      'atividades de puzzles algébricos imprimíveis para Etsy',
-      'gerador de puzzles algébricos ilustrados para Amazon KDP',
-      'vender atividades de puzzles algébricos na Hotmart',
-      'atividades de puzzles algébricos ilustrados licença comercial',
+      'criar atividades de cálculo numérico para vender na Etsy',
+      'gerador de exercícios de matemática com licença comercial',
+      'atividades de operações matemáticas para Amazon KDP',
+      'atividades de matemática para renda extra',
     ],
     lsiKeywords: [
-      'produtos digitais de álgebra visual para empreendedores',
-      'negócio de atividades de puzzles algébricos imprimíveis',
-      'gerador de puzzles algébricos uso comercial',
+      'licença comercial',
+      '300 DPI',
+      'pronto para impressão',
+      'cálculo numérico',
+      'operações básicas',
+      'download digital',
+      'gabarito incluso',
+      'tabuada',
+      'educação infantil',
+      'ensino fundamental',
+      'negócio de imprimíveis',
+      'renda extra',
+      'Hotmart',
+      'Kiwify',
     ],
-    titleTag: 'Puzzles Algébricos Ilustrados | Criar e Vender',
+    titleTag: 'Atividades de matemática para vender | LCS',
     metaDescription:
-      'Crie atividades de puzzles algébricos ilustrados para Hotmart, Etsy e KDP. Imagens como variáveis, 4 níveis, solução única em PDF. Teste grátis com marca d\'água.',
+      'Crie atividades de matemática para vender na Hotmart, Etsy e KDP. Licença comercial, gabarito automático. Teste grátis com marca d\'água — sem cadastro.',
   },
 
   hero: {
-    title: 'Gerador de Atividades de Puzzles Algébricos Ilustrados com Resolução de Equações Visuais',
+    title: 'Gere atividades de matemática para vender na Hotmart, Etsy e KDP',
     tagline: 'Transforme a álgebra inicial numa aventura visual — as imagens tornam-se variáveis e cada puzzle tem exatamente uma solução.',
     description:
-      'Crie atividades cativantes de puzzles algébricos ilustrados onde as imagens substituem as variáveis desconhecidas em sistemas de equações. Os usuários resolvem equações interligadas para determinar o valor que cada imagem representa — transformando a álgebra abstrata numa experiência concreta e visual. Escolha entre quatro níveis de dificuldade: Muito Fácil e Fácil utilizam dois símbolos, Médio introduz três, e Difícil desafia os usuários com quatro incógnitas simultâneas. Selecione problemas de só adição ou misture com subtração para prática avançada, e ajuste os intervalos numéricos de 0 a 20 com uma opção para permitir resultados negativos. O solucionador algébrico integrado garante que cada puzzle tem exatamente uma solução correta — sem ambiguidade, sem adivinhação. Explore mais de 3100 ilustrações selecionadas em 104 temas para usar como símbolos algébricos, ou carregue as suas próprias imagens para um design personalizado. Cada atividade gera um gabarito automático, e pode exportar PDFs e JPEGs prontos para impressão a mais de 400 DPI em formato Carta, A4 ou personalizado. Quer venda pacotes temáticos de puzzles na Etsy, compile livros de álgebra progressiva para a Amazon KDP ou crie centros de matemática diferenciados para a sua loja, o Gerador de Puzzles Algébricos produz resultados profissionais em minutos. Teste grátis com todas as funcionalidades — sem cadastro, sem cartão de crédito. Os downloads incluem uma marca d\'água; adquira uma licença para removê-la.',
+      'Crie atividades de cálculo numérico para vender na Hotmart, Kiwify, Etsy ou Amazon KDP — exercícios de matemática pura sem imagens temáticas, focados em operações básicas. Este gerador produz atividades de soma, subtração, multiplicação e divisão com intervalos numéricos configuráveis. Perfeito para apostilas de tabuada e cadernos de exercícios no Amazon KDP. Cada atividade é exportada em PDF 300 DPI com gabarito automático e licença comercial inclusa. O mercado de atividades de matemática em português é enorme: "atividades de matemática" e "tabuada" estão entre os termos educativos mais buscados no Brasil. Vendedores da Hotmart e Kiwify já faturam vendendo kits de exercícios — com este gerador, você cria conteúdo profissional em minutos. Teste grátis com marca d\'água — sem cadastro.',
   },
 
   howItWorks: {

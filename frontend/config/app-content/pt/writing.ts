@@ -2,28 +2,40 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'gerador atividades de escrita',
+    primaryKeyword: 'gerador de atividades de caligrafia para vender online',
     secondaryKeywords: [
-      'atividades de caligrafia imprimíveis para vendedores Etsy',
-      'gerador de atividades de escrita manuscrita para Amazon KDP',
-      'vender atividades de prática de escrita na Hotmart',
-      'gerador de atividades de caligrafia licença comercial',
+      'criar atividades de caligrafia para Hotmart',
+      'atividades de escrita e traçado para Amazon KDP',
+      'atividades de coordenação motora com licença comercial',
+      'atividades de alfabetização para vender na Etsy',
     ],
     lsiKeywords: [
-      'produtos digitais de atividades de escrita manuscrita para empreendedores',
-      'negócio de atividades de traçado de letras imprimíveis online',
-      'gerador de exercícios de caligrafia com setas de ordem de traços',
+      'licença comercial',
+      '300 DPI',
+      'pronto para impressão',
+      'caligrafia',
+      'coordenação motora',
+      'download digital',
+      'gabarito incluso',
+      'alfabetização',
+      'traçado de letras',
+      'educação infantil',
+      'ensino fundamental',
+      'negócio de imprimíveis',
+      'renda extra',
+      'Hotmart',
+      'Kiwify',
     ],
-    titleTag: 'Gerador Atividades de Escrita | Criar e Vender',
+    titleTag: 'Atividades de caligrafia para vender | LCS',
     metaDescription:
-      'Crie atividades de escrita para Hotmart, Etsy e KDP. 3 modos progressivos, 5 fontes, setas de traços, traçado progressivo, 104 temas. Teste grátis com marca d\'água.',
+      'Crie atividades de caligrafia e traçado de letras para vender na Hotmart, Etsy e KDP. 5 modos de escrita, 11 idiomas. Teste grátis com marca d\'água.',
   },
 
   hero: {
-    title: 'Gerador de Atividades de Escrita para Prática de Caligrafia',
+    title: 'Crie atividades de caligrafia para vender na Hotmart, Etsy e KDP',
     tagline: 'Três modos de prática progressivos com ordem de traços guiada por setas e guias de letras com opacidade progressiva — desenvolva a fluência de escrita desde o traçado completo até à escrita autónoma numa única atividade.',
     description:
-      'Crie atividades profissionais de prática de escrita manuscrita com três modos distintos que criam uma progressão de aprendizagem natural: o modo Traçado fornece guias de letras sólidas que os iniciantes seguem diretamente, o Traçado Progressivo reduz progressivamente a visibilidade das letras ao longo da fila para reforçar a confiança, e a Cópia Guiada oferece um contorno ténue para uma escrita quase autónoma. Escolha entre cinco estilos de fonte — Imprensa Regular para letras de forma padrão, Imprensa Regular com Setas com setas numeradas que indicam a ordem dos traços, Imprensa de Traçado para contornos pontilhados desenhados para o traçado, Imprensa de Traçado com Setas combinando contornos pontilhados com setas da ordem dos traços, e Cursiva (Great Vibes) para a prática de escrita cursiva. Cada fila da atividade é configurável de forma independente: combine o modo Traçado para letras novas, o Traçado Progressivo para letras praticadas e a Cópia Guiada para revisão, tudo na mesma página. Os exercícios de traços de pré-escrita (linhas verticais, linhas horizontais, círculos e linhas em ziguezague) acrescentam aquecimentos de motricidade fina que preparam as mãos para a formação de letras. O conteúdo provém da Biblioteca de Imagens integrada com mais de 3100 ilustrações em 104 temas: use o modo Letra Inicial para praticar a primeira letra de cada nome de imagem, o modo Nome Completo para escrever palavras inteiras, ou escreva qualquer Texto Personalizado. O Acesso Completo desbloqueia os 104 temas e os 11 idiomas de interface. Exporte PDFs prontos para impressão e JPEGs a ~300 DPI nos formatos Carta, A4 ou dimensões personalizadas. Quer venda pacotes de prática de escrita na Etsy, compile cadernos de caligrafia para a Amazon KDP ou crie centros de escrita diferenciados para o Hotmart, o Gerador de Atividades de Escrita produz resultados profissionais em minutos — teste grátis com todas as funcionalidades, sem cadastro, sem cartão de crédito. Os downloads incluem uma marca d\'água; adquira uma licença para removê-la.',
+      'Crie atividades de caligrafia e traçado de letras para vender na Hotmart, Kiwify, Etsy ou Amazon KDP. "Coordenação motora" e "alfabetização" são termos de altíssimo volume de busca no Brasil — e este gerador cria exatamente os produtos que pais e professores procuram. Cinco modos de escrita: traçar letras, copiar palavras, escrever por extenso, pontilhado e forma livre. Suporte a 11 idiomas com alfabetos nativos incluindo português com todos os acentos. Escolha entre 7 famílias tipográficas e exporte PDFs prontos para impressão a 300 DPI. Perfeito para kits de alfabetização na Hotmart e apostilas de coordenação motora no Amazon KDP. Licença comercial inclusa. Teste grátis com marca d\'água — sem cadastro.',
   },
 
   howItWorks: {

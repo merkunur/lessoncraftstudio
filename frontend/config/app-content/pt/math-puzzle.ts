@@ -2,28 +2,39 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'gerador de puzzles matemáticos',
+    primaryKeyword: 'gerador de quebra-cabeças de matemática para vender na Etsy',
     secondaryKeywords: [
-      'atividades de puzzles matemáticos imprimíveis para Etsy',
-      'gerador de puzzles de imagens para Amazon KDP',
-      'vender atividades de puzzles matemáticos na Hotmart',
-      'atividades de puzzles matemáticos licença comercial',
+      'criar puzzles de matemática para Hotmart',
+      'quebra-cabeças de imagens com cálculos para KDP',
+      'atividades de puzzle matemático com licença comercial',
+      'jogos de raciocínio matemático para vender online',
     ],
     lsiKeywords: [
-      'produtos digitais de puzzles matemáticos para empreendedores',
-      'negócio de atividades de puzzles imprimíveis',
-      'gerador de puzzles matemáticos uso comercial',
+      'licença comercial',
+      '300 DPI',
+      'pronto para impressão',
+      'quebra-cabeça',
+      'raciocínio lógico',
+      'download digital',
+      'gabarito incluso',
+      'jogo de matemática',
+      'educação infantil',
+      'ensino fundamental',
+      'negócio de imprimíveis',
+      'renda extra',
+      'Hotmart',
+      'Kiwify',
     ],
-    titleTag: 'Gerador de Puzzles Matemáticos | Criar e Vender',
+    titleTag: 'Quebra-cabeças de matemática para vender | LCS',
     metaDescription:
-      'Crie atividades de puzzles matemáticos para Hotmart, Etsy e KDP. Puzzles com imagens, adição e subtração, quadrículas ajustáveis. Teste grátis com marca d\'água.',
+      'Crie quebra-cabeças de matemática com imagens para vender na Hotmart, Etsy e KDP. Grade de imagens, gabarito automático. Teste grátis com marca d\'água.',
   },
 
   hero: {
-    title: 'Gerador de Atividades de Puzzles Matemáticos com Resolução Visual',
+    title: 'Crie quebra-cabeças de matemática para vender na Hotmart e Etsy',
     tagline: 'Combine a prática matemática com a emoção de resolver puzzles — cada peça contém um problema, cada solução revela a imagem.',
     description:
-      'Crie atividades de puzzles matemáticos envolventes onde uma imagem completa é dividida numa quadrícula de peças, cada uma com um problema de adição ou subtração. Os usuários resolvem as operações e depois combinam as respostas numeradas com as peças desordenadas mostradas abaixo da quadrícula — transformando a aritmética rotineira num mistério visual. Configure quadrículas de 2×2 até 4×4 para criar puzzles de 4 a 16 peças, e escolha adição, subtração ou operações mistas para se adaptar a qualquer nível. Selecione entre mais de 3100 ilustrações em 104 temas como animais da quinta, espaço, dinossauros e festividades para tornar cada puzzle único. Cada atividade gera um gabarito automático mostrando a quadrícula resolvida junto à imagem completa. Exporte PDFs e JPEGs prontos para impressão a mais de 400 DPI em formato Carta, A4 ou personalizado. Quer venda pacotes temáticos de puzzles na Etsy, compile livros de atividades progressivos para a Amazon KDP ou crie centros de matemática interativos para a sua loja, o Gerador de Puzzles Matemáticos produz resultados profissionais em minutos. Teste grátis com todas as funcionalidades — sem cadastro, sem cartão de crédito. Os downloads incluem uma marca d\'água; adquira uma licença para removê-la.',
+      'Crie quebra-cabeças de matemática com imagens para vender na Hotmart, Kiwify, Etsy ou Amazon KDP. Este gerador produz puzzles onde cada imagem representa um valor numérico oculto — os usuários resolvem equações para descobrir os números, depois montam a imagem completa combinando as respostas numa grade. Combina raciocínio lógico com fluência matemática, criando atividades que se destacam nos marketplaces. Escolha entre mais de 3.000 imagens em 104 temas, configure intervalos numéricos e exporte PDFs prontos para impressão a 300 DPI com gabarito automático. A licença comercial inclusa permite vender sem atribuição. Quebra-cabeças são um nicho de alta demanda com baixa competição em português. Teste grátis com marca d\'água — sem cadastro.',
   },
 
   howItWorks: {

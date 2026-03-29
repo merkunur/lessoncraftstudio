@@ -2,28 +2,39 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'gerador atividades adivinhar palavras',
+    primaryKeyword: 'jogo de adivinhar palavras para vender na Etsy',
     secondaryKeywords: [
-      'atividades de adivinhar palavras imprimíveis para vendedores Etsy',
-      'gerador de atividades de vocabulário estilo forca para Amazon KDP',
-      'vender atividades de adivinhar palavras na Hotmart',
-      'atividades de adivinhar palavras com pistas de imagem licença comercial',
+      'gerador de adivinhar palavras com imagens para Hotmart',
+      'atividades de forca educativa para Amazon KDP',
+      'jogo de palavras com pistas visuais licença comercial',
+      'adivinhar palavras para vender na Kiwify',
     ],
     lsiKeywords: [
-      'produtos digitais de puzzles de vocabulário para empreendedores',
-      'negócio de atividades de dedução de palavras imprimíveis online',
-      'gerador de atividades de adivinhar palavras uso comercial',
+      'licença comercial',
+      '300 DPI',
+      'pronto para impressão',
+      'adivinhar palavras',
+      'forca',
+      'download digital',
+      'gabarito incluso',
+      'vocabulário',
+      'alfabetização',
+      'ensino fundamental',
+      'negócio de imprimíveis',
+      'renda extra',
+      'Hotmart',
+      'Kiwify',
     ],
-    titleTag: 'Gerador Atividades Adivinhar Palavras | Criar e Vender',
+    titleTag: 'Jogo de adivinhar palavras para vender | LCS',
     metaDescription:
-      'Crie atividades de adivinhar palavras para Hotmart, Etsy e KDP. Pistas de imagem, 4 dificuldades, 3 fontes de conteúdo, 11 idiomas. Teste grátis com marca d\'água.',
+      'Crie jogos de adivinhar palavras para vender na Hotmart, Etsy e KDP. Pistas visuais, 11 idiomas, gabarito automático. Teste grátis com marca d\'água.',
   },
 
   hero: {
-    title: 'Gerador de Atividades de Adivinhar Palavras para Puzzles de Vocabulário com Pistas de Imagem',
+    title: 'Crie jogos de adivinhar palavras para vender na Hotmart e Etsy',
     tagline: 'A dedução estilo forca encontra pistas visuais — quatro níveis de dificuldade transformam cada palavra num puzzle gratificante.',
     description:
-      'Crie atividades profissionais de adivinhar palavras onde os usuários veem uma pista de imagem e deduzem a palavra oculta preenchendo casillas de letras vazias — um puzzle estilo forca que desenvolve simultaneamente a ortografia, o vocabulário e o raciocínio dedutivo. Escolha entre três fontes de conteúdo: a Biblioteca de Imagens integrada com mais de 3100 ilustrações em 104 temas, o Modo Edição Manual onde seleciona imagens e personaliza os seus nomes de exibição, ou o modo Lista de Palavras Personalizada para puzzles de texto apenas com o vocabulário que quiser. Quatro níveis de dificuldade controlam quantas letras são pré-reveladas como pistas — desde Sem Pistas (nenhuma letra revelada) até ao modo Fácil mostrando metade das letras — criando um andaimento natural do iniciante ao avançado. Coloque de 1 a 10 puzzles por atividade e alterne entre grelhas de letras em maiúsculas ou minúsculas. O Acesso Completo desbloqueia os 11 idiomas suportados onde a palavra-alvo muda conforme o idioma — \"dog\" em inglês torna-se \"cão\" em português, \"Hund\" em alemão, \"chien\" em francês — fazendo de cada idioma um produto distinto e comercializável. Cada atividade gera um gabarito automático, e pode exportar PDFs prontos para impressão e JPEGs a mais de 400 DPI nos formatos Carta, A4, Quadrado ou dimensões personalizadas. Quer venda pacotes temáticos de vocabulário na Etsy, compile livros de puzzles de palavras para a Amazon KDP ou crie centros de literacia diferenciados para o Hotmart, o Gerador de Atividades de Adivinhar Palavras produz resultados profissionais em minutos — teste grátis com todas as funcionalidades, sem cadastro, sem cartão de crédito. Os downloads incluem uma marca d\'água; adquira uma licença para removê-la.',
+      'Crie jogos de adivinhar palavras com pistas visuais para vender na Hotmart, Kiwify, Etsy ou Amazon KDP. Este gerador produz atividades no estilo forca onde os usuários veem imagens e devem adivinhar a palavra correspondente, preenchendo as letras em caselas. Com mais de 3.000 imagens em 104 temas e 11 idiomas com caracteres nativos, você cria jogos de vocabulário que engajam crianças de todas as idades. Perfeito para kits de alfabetização na Hotmart e livros de atividades no Amazon KDP. Cada atividade vem com gabarito automático e exportação em PDF 300 DPI. Licença comercial inclusa — venda sem restrições. Teste grátis com marca d\'água — sem cadastro.',
   },
 
   howItWorks: {

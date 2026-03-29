@@ -2,7 +2,7 @@ import type { BundleContent } from '../types';
 
 const content: BundleContent = {
   seo: {
-    primaryKeyword: 'pack lecture & langage',
+    primaryKeyword: 'pack générateurs de jeux de mots Etsy KDP',
     secondaryKeywords: [
       'pack générateurs fiches de lecture pour vendeurs',
       'kit fiches de vocabulaire licence commerciale',
@@ -15,7 +15,7 @@ const content: BundleContent = {
       'licence commerciale fiches de lecture',
       'outil création fiches de vocabulaire en masse',
     ],
-    titleTag: 'Pack Lecture & Langage — 7 Générateurs Mots & Lecture',
+    titleTag: 'Pack jeux de mots — Vendre sur Etsy | LessonCraftStudio',
     metaDescription: '7 générateurs de fiches de lecture et langage en un pack. Créez des fiches alphabet, mots cachés, cryptogramme, prépositions et écriture en 11 langues.',
   },
 

@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'tarification imprimables éducatifs',
+    primaryKeyword: 'stratégie de prix pour fiches éducatives',
     secondaryKeywords: [
       'comment fixer le prix des fiches imprimables',
       'guide tarification imprimables éducatifs',
@@ -17,7 +17,7 @@ const content: GuideContent = {
       'tarification saisonnière ajustement des prix étude de marché disposition à payer modèle de tarification',
       'cadre de tarification positionnement tarifaire sous-tarification surtarification tarification durable',
     ],
-    titleTag: 'Tarification imprimables éducatifs — Guide vendeur',
+    titleTag: 'Stratégie de prix fiches éducatives | LessonCraftStudio',
     metaDescription: 'Stratégies de tarification pour imprimables éducatifs. Psychologie des prix, analyse concurrentielle, frais de plateforme, marges et tests pour vendeurs.',
   },
 

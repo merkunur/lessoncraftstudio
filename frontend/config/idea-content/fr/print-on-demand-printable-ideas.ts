@@ -2,10 +2,10 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Idées d\'Impression à la Demande — Guide Vendeurs',
+    titleTag: 'Impression à la demande — Business | LessonCraftStudio',
     metaDescription: 'Idées de fiches d\'impression à la demande pour vendeurs Etsy, KDP et Shopify. Lancez une entreprise sans stock avec cahiers, packs d\'activités et puzzles.',
 
-    primaryKeyword: 'idées d\'impression à la demande',
+    primaryKeyword: 'impression à la demande fiches business',
     secondaryKeywords: [
       'business imprimables impression à la demande',
       'produits éducatifs impression à la demande',

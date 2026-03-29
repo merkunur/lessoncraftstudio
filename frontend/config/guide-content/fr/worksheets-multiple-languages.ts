@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'créer des fiches en plusieurs langues',
+    primaryKeyword: 'créer des fiches en plusieurs langues à vendre',
     secondaryKeywords: [
       'création fiches multilingues',
       'traduire fiches pour vendre',
@@ -17,7 +17,7 @@ const content: GuideContent = {
       'mise en page RTL variation longueur texte mots composés adaptation culturelle localisation fiches',
       'production par lots génération contenu multi-langues outils traduction automatisée bases vocabulaire',
     ],
-    titleTag: 'Créer des Fiches en Plusieurs Langues — Guide',
+    titleTag: 'Fiches en plusieurs langues à vendre | LessonCraftStudio',
     metaDescription: 'Comment créer des fiches en plusieurs langues : flux de production, gestion des caractères, sélection polices, assurance qualité et adaptation des annonces.',
   },
 

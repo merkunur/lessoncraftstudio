@@ -2,28 +2,28 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'générateur d\'addition codée',
+    primaryKeyword: 'créer des énigmes mathématiques codées à vendre sur Etsy',
     secondaryKeywords: [
-      'fiches de puzzles mathématiques imprimables pour Etsy',
-      'fiches de décodage maths pour Amazon KDP',
-      'créateur de puzzles maths pour vendeurs Gumroad',
-      'fiches de code mathématique licence commerciale',
+      'générateur d\'addition codée pour vendeurs Etsy',
+      'fiches de puzzles maths codés pour Amazon KDP',
+      'énigmes mathématiques codées licence commerciale',
+      'créer des cahiers de décryptage maths pour KDP',
     ],
     lsiKeywords: [
-      'idées de business puzzles éducatifs imprimables',
-      'vendre des puzzles éducatifs en ligne',
-      'créateur de cahiers de puzzles maths pour entrepreneurs',
+      'licence commerciale 300 DPI prêt à imprimer',
+      'business d\'imprimables puzzles maths vendeurs',
+      'mot mystère corrigé automatique images thématiques',
     ],
-    titleTag: 'Générateur d\'Addition Codée | Puzzles Mathématiques',
+    titleTag: 'Énigmes maths codées à vendre sur Etsy | LCS',
     metaDescription:
-      'Créez des puzzles d\'addition codée pour Etsy, KDP et Gumroad. Mode Mot Mystère, 104 thèmes, 11 langues, corrigés, export 400+ DPI. Essai gratuit avec filigrane.',
+      'Créez des énigmes mathématiques codées à vendre sur Etsy & KDP. Mode Mot Mystère, 11 langues, licence commerciale. Testez gratuitement avec filigrane.',
   },
 
   hero: {
-    title: 'Générateur de Fiches d\'Addition Codée — Puzzles Mathématiques à Décoder',
+    title: 'Créez et vendez des énigmes maths codées sur Etsy & KDP',
     tagline: 'Transformez l\'addition en mission de détective où chaque image cache un nombre secret.',
     description:
-      'Créez des fiches d\'addition de type cryptarithmétique qui mettent les utilisateurs au défi de déchiffrer un code visuel. Chaque image sur la fiche représente un nombre caché — les utilisateurs résolvent des équations d\'addition pour déduire quel nombre appartient à quelle image, combinant fluence mathématique et raisonnement logique dans un seul exercice. Passez en mode Mot Mystère et l\'enjeu monte : entrez un mot secret de dix lettres maximum, et chaque équation correctement résolue révèle une lettre de la réponse tandis que trois lettres de distraction avec de mauvaises sommes maintiennent le suspense. Le générateur prend en charge onze alphabets spécifiques à chaque langue, donc le Mot Mystère fonctionne nativement en français, allemand, anglais, espagnol et sept autres langues — une fonctionnalité qu\'aucun autre créateur de fiches n\'offre. Choisissez parmi plus de 3 100 images dans 104 thèmes, définissez les plages de nombres de 1 à 20 avec deux à cinq symboles-codes par fiche, et exportez des PDF ou JPEG prêts à imprimer à plus de 400 DPI avec corrigés automatiques. Essai gratuit avec toutes les fonctionnalités — sans inscription, sans carte bancaire. Les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.',
+      'Créez des énigmes mathématiques codées à vendre sur Etsy, Amazon KDP ou La Salle des Maîtres — un format de puzzle unique qui se démarque dans les boutiques d\'imprimables. Chaque image sur la fiche représente un nombre caché — les utilisateurs résolvent des équations d\'addition pour déduire quel nombre appartient à quelle image, combinant fluence mathématique et raisonnement logique dans un seul exercice. Passez en mode Mot Mystère et l\'enjeu monte : entrez un mot secret de dix lettres maximum, et chaque équation correctement résolue révèle une lettre de la réponse tandis que trois lettres de distraction avec de mauvaises sommes maintiennent le suspense. Le générateur prend en charge onze alphabets spécifiques à chaque langue, donc le Mot Mystère fonctionne nativement en français, allemand, anglais, espagnol et sept autres langues — une fonctionnalité qu\'aucun autre créateur de fiches n\'offre. Choisissez parmi plus de 3 100 images dans 104 thèmes, définissez les plages de nombres de 1 à 20 avec deux à cinq symboles-codes par fiche, et exportez des PDF ou JPEG prêts à imprimer à plus de 400 DPI avec corrigés automatiques. Essai gratuit avec toutes les fonctionnalités — sans inscription, sans carte bancaire. Les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.',
   },
 
   howItWorks: {

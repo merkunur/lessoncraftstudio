@@ -2,7 +2,7 @@ import type { BundleContent } from '../types';
 
 const content: BundleContent = {
   seo: {
-    primaryKeyword: 'pack puzzles & logique',
+    primaryKeyword: 'pack générateurs de puzzles logiques pour KDP',
     secondaryKeywords: [
       'pack générateurs fiches puzzles logique pour vendeurs',
       'kit fiches puzzles imprimables licence commerciale',
@@ -15,7 +15,7 @@ const content: BundleContent = {
       'licence commerciale fiches puzzles',
       'outil création fiches puzzles en masse',
     ],
-    titleTag: 'Pack Puzzles & Logique — 4 Générateurs de Fiches',
+    titleTag: 'Pack puzzles logiques pour KDP | LessonCraftStudio',
     metaDescription: 'Pack de fiches puzzles avec 4 générateurs : pièces manquantes, intrus, sudoku enfants et labyrinthes. Vendez sur Etsy, KDP et Gumroad.',
   },
 

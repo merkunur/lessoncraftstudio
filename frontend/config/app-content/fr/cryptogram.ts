@@ -2,28 +2,28 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'générateur fiches cryptogramme',
+    primaryKeyword: 'générateur de cryptogrammes à vendre sur Etsy',
     secondaryKeywords: [
-      'fiches cryptogramme à images imprimables pour vendeurs Etsy',
-      'générateur de puzzles cryptogramme chiffré pour Amazon KDP',
-      'vendre des fiches cryptogramme sur Gumroad',
-      'fiches cryptogramme avec légende des lettres licence commerciale',
+      'créer des puzzles cryptogrammes pour boutique Etsy',
+      'fiches de cryptogrammes pour Amazon KDP',
+      'cryptogrammes imprimables licence commerciale',
+      'cahiers de puzzles chiffrés pour vendeurs KDP',
     ],
     lsiKeywords: [
-      'produits numériques de puzzles chiffre par images pour entrepreneurs',
-      'activité de fiches décryptage imprimables en ligne',
-      'générateur de fiches cryptogramme à usage commercial',
+      'licence commerciale 300 DPI prêt à imprimer',
+      'business d\'imprimables cryptogrammes vendeurs Etsy',
+      'chiffre par images lettres à révéler 11 langues',
     ],
-    titleTag: 'Générateur Fiches Cryptogramme | Créer et Vendre',
+    titleTag: 'Cryptogrammes à vendre sur Etsy & KDP | LCS',
     metaDescription:
-      'Créez des fiches cryptogramme à vendre sur Etsy, KDP et Gumroad. Chiffre par images, Lettres à Révéler 0–10, 104 thèmes, corrigé auto.',
+      'Créez des cryptogrammes à vendre sur Etsy & KDP. Chiffre par images, lettres à révéler, licence commerciale. Testez gratuitement avec filigrane.',
   },
 
   hero: {
-    title: 'Générateur de Fiches Cryptogramme pour des Puzzles Chiffre par Images',
+    title: 'Générez des cryptogrammes à vendre sur Etsy, KDP & plus',
     tagline: 'Associez chaque lettre de l\'alphabet à une image et encodez des phrases entières en puzzles visuels chiffrés — difficulté ajustable de zéro indice à fortement guidé avec les Lettres à Révéler.',
     description:
-      'Transformez n\'importe quelle phrase ou sentence en un puzzle cryptogramme à images où chaque lettre de l\'alphabet est remplacée par une image, et les utilisateurs déchiffrent le code en déduisant quelle image représente quelle lettre. Chaque puzzle encode un message complet et lisible — pas seulement un mot isolé — offrant aux résolveurs la satisfaction de révéler une phrase entière grâce à la reconnaissance de schémas et la déduction. Le curseur Lettres à Révéler (0–10) contrôle combien de correspondances lettre-image sont pré-résolues comme indices, créant un gradient de difficulté progressif allant de défis experts sans aucun indice à des puzzles fortement guidés pour les débutants. L\'Attribution Automatique tire des images aléatoires de n\'importe laquelle des 104 collections thématiques (plus de 3 100 illustrations) pour remplir instantanément les lettres non assignées, ou utilisez l\'Attribution Manuelle pour sélectionner manuellement des images spécifiques pour des lettres spécifiques avec un aperçu visuel complet de toutes les correspondances. Le corrigé inclut une légende des lettres complète montrant chaque lettre de l\'alphabet associée à son image assignée par ordre alphabétique — la référence définitive pour vérifier les solutions. L\'Accès Complet déverrouille les 11 langues prises en charge où le texte du message secret ET le jeu de lettres de l\'alphabet changent selon la langue : les cryptogrammes allemands encodent des phrases allemandes avec ä, ö, ü, ß dans l\'alphabet ; les cryptogrammes français encodent des phrases françaises avec é, è, ç, à — chaque version linguistique est un produit de chiffrage véritablement différent. Exportez des PDF prêts à imprimer et des JPEG à plus de 400 DPI en format Letter, A4 ou dimensions personnalisées. Que vous vendiez des packs de puzzles chiffrés thématiques sur Etsy, compiliez des cahiers de cryptogrammes pour Amazon KDP ou créiez des ateliers de décryptage différenciés pour Gumroad, le Générateur de Fiches Cryptogramme produit des résultats professionnels en quelques minutes — essai gratuit avec toutes les fonctionnalités, sans inscription, sans carte bancaire. Les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.',
+      'Créez des cryptogrammes à vendre sur Etsy, Amazon KDP ou La Salle des Maîtres — des puzzles où chaque lettre de l\'alphabet est remplacée par une image, et les acheteurs déchiffrent le code en déduisant quelle image représente quelle lettre. Chaque puzzle encode un message complet et lisible — pas seulement un mot isolé — offrant aux résolveurs la satisfaction de révéler une phrase entière grâce à la reconnaissance de schémas et la déduction. Le curseur Lettres à Révéler (0–10) contrôle combien de correspondances lettre-image sont pré-résolues comme indices, créant un gradient de difficulté progressif allant de défis experts sans aucun indice à des puzzles fortement guidés pour les débutants. L\'Attribution Automatique tire des images aléatoires de n\'importe laquelle des 104 collections thématiques (plus de 3 100 illustrations) pour remplir instantanément les lettres non assignées, ou utilisez l\'Attribution Manuelle pour sélectionner manuellement des images spécifiques pour des lettres spécifiques avec un aperçu visuel complet de toutes les correspondances. Le corrigé inclut une légende des lettres complète montrant chaque lettre de l\'alphabet associée à son image assignée par ordre alphabétique — la référence définitive pour vérifier les solutions. L\'Accès Complet déverrouille les 11 langues prises en charge où le texte du message secret ET le jeu de lettres de l\'alphabet changent selon la langue : les cryptogrammes allemands encodent des phrases allemandes avec ä, ö, ü, ß dans l\'alphabet ; les cryptogrammes français encodent des phrases françaises avec é, è, ç, à — chaque version linguistique est un produit de chiffrage véritablement différent. Exportez des PDF prêts à imprimer et des JPEG à plus de 400 DPI en format Letter, A4 ou dimensions personnalisées. Que vous vendiez des packs de puzzles chiffrés thématiques sur Etsy, compiliez des cahiers de cryptogrammes pour Amazon KDP ou créiez des ateliers de décryptage différenciés pour Gumroad, le Générateur de Fiches Cryptogramme produit des résultats professionnels en quelques minutes — essai gratuit avec toutes les fonctionnalités, sans inscription, sans carte bancaire. Les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.',
   },
 
   howItWorks: {

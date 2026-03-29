@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'vendre des mots cachés sur etsy',
+    primaryKeyword: 'vendre des mots mêlés sur Etsy astuces',
     secondaryKeywords: [
       'comment vendre mots cachés sur Etsy',
       'créer boutique Etsy mots cachés imprimables',
@@ -17,7 +17,7 @@ const content: GuideContent = {
       'fêtes thématiques mots cachés imprimables stratégie saisonnière Etsy',
       'photos annonces Etsy mockups pour produits mots cachés',
     ],
-    titleTag: 'Vendre des mots cachés sur Etsy — Guide',
+    titleTag: 'Vendre des mots mêlés sur Etsy | LessonCraftStudio',
     metaDescription: 'Vendez des mots cachés sur Etsy avec 4 générateurs. SEO Etsy, optimisation annonces, tarification, lots avec mots croisés et mots mélangés et timing.',
   },
 

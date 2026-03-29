@@ -2,7 +2,7 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'générateur de fiches multilingues',
+    primaryKeyword: 'créer des fiches multilingues à vendre',
     secondaryKeywords: [
       'créer des fiches en plusieurs langues',
       'fiches imprimables multilingues',
@@ -17,7 +17,7 @@ const content: StartContent = {
       'activité imprimable internationale',
       'vendre des fiches sur etsy.de etsy.fr',
     ],
-    titleTag: 'Générateur de Fiches Multilingues — 11 Langues',
+    titleTag: 'Fiches multilingues à vendre | LessonCraftStudio',
     metaDescription: 'Créez et vendez des fiches dans 11 langues avec un générateur multilingue. Atteignez les acheteurs sur Etsy, Amazon KDP et les marchés internationaux.',
   },
 

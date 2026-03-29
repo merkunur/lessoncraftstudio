@@ -2,10 +2,10 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Idées d\'Imprimables CE2 à Vendre — Guide Niche',
+    titleTag: 'Imprimables CE2/CM1 à vendre | LessonCraftStudio',
     metaDescription: 'Découvrez des idées d\'imprimables CE2 à vendre sur Etsy, Amazon KDP et Gumroad. Stratégies de niche pour les vendeurs ciblant l\'année décisive du CE2.',
 
-    primaryKeyword: 'idées d\'imprimables ce2 à vendre',
+    primaryKeyword: 'imprimables CE2 CM1 à vendre',
     secondaryKeywords: [
       'fiches CE2 à vendre',
       'idées business imprimables cours élémentaire 2',

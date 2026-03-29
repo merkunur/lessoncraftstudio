@@ -2,10 +2,10 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Idées d\'Imprimables Contes de Fées — Guide',
+    titleTag: 'Imprimables contes de fées pour Etsy | LessonCraftStudio',
     metaDescription: 'Découvrez des idées d\'imprimables contes de fées à vendre sur Etsy, KDP et Gumroad. Concepts de produits féériques, stratégies et conseils pour les vendeurs.',
 
-    primaryKeyword: 'idées d\'imprimables contes de fées',
+    primaryKeyword: 'imprimables contes de fées à vendre Etsy',
     secondaryKeywords: [
       'fiches contes de fées à vendre',
       'idées business imprimables féeriques',

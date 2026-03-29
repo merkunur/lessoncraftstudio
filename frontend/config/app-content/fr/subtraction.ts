@@ -2,28 +2,28 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'générateur de fiches de soustraction',
+    primaryKeyword: 'générateur de fiches de soustraction à vendre sur Etsy',
     secondaryKeywords: [
-      'fiches de soustraction imprimables pour Etsy',
-      'générateur de fiches de soustraction pour Amazon KDP',
-      'vendre des fiches de soustraction sur Gumroad',
-      'fiches de soustraction licence commerciale',
+      'créer des fiches de soustraction pour boutique Etsy',
+      'exercices de soustraction pour Amazon KDP',
+      'fiches de soustraction illustrées licence commerciale',
+      'fiches de calcul soustraction pour La Salle des Maîtres',
     ],
     lsiKeywords: [
-      'produits numériques imprimables pour entrepreneurs',
-      'idées de business fiches de maths',
-      'créateur de fiches pour vendeurs en ligne',
+      'licence commerciale 300 DPI prêt à imprimer',
+      'business d\'imprimables fiches de maths vendeurs',
+      'corrigé automatique images thématiques revenu passif',
     ],
-    titleTag: 'Générateur de Fiches de Soustraction | Créer et Vendre',
+    titleTag: 'Fiches de soustraction — Vendre sur Etsy | LessonCraftStudio',
     metaDescription:
-      'Créez des fiches de soustraction pour Etsy, KDP et Gumroad. 4 modes avec visualisation barrée, 104 thèmes, corrigés, export 400+ DPI.',
+      'Créez des fiches de soustraction à vendre sur Etsy & KDP. Images thématiques, corrigés, licence commerciale. Testez gratuitement avec filigrane.',
   },
 
   hero: {
-    title: 'Générateur de Fiches de Soustraction avec Visualisation Barrée',
+    title: 'Générez des fiches de soustraction à vendre sur Etsy, KDP & plus',
     tagline: 'Rendez la soustraction intuitive grâce à des fiches où les enfants barrent les images pour trouver la réponse.',
     description:
-      'Créez des fiches de soustraction basées sur les images qui enseignent le concept de \" retirer \" grâce à une méthode visuelle puissante : les images barrées. Les utilisateurs voient un groupe d\'images, puis observent des croix diagonales tracées sur les éléments soustraits — rendant le concept abstrait de la soustraction concret et intuitif. Choisissez parmi quatre modes d\'exercice — Barrer, Image − Nombre, Trouver le Nombre à Soustraire et Mode Mixte — pour accompagner l\'apprentissage de la maternelle au CE1. Parcourez plus de 3 100 illustrations dans 104 thèmes comme les dinosaures, la vie marine et les véhicules. Chaque fiche inclut un corrigé automatique, et vous pouvez exporter des PDF prêts à imprimer en format Letter, A4 ou personnalisé à plus de 400 DPI. Un mode niveaux de gris intégré permet de créer des versions noir et blanc économiques en un clic. Que vous vendiez des packs thématiques sur Etsy, publiiez des cahiers d\'activités sur Amazon KDP ou imprimiez des fiches de pratique pour vos utilisateurs, le Générateur de Fiches de Soustraction produit des résultats professionnels en quelques minutes. Essai gratuit avec toutes les fonctionnalités — sans inscription, sans carte bancaire. Les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.',
+      'Transformez la soustraction en produit vendable grâce à un générateur conçu pour les entrepreneurs en imprimables. Créez des fiches de soustraction illustrées avec des thématiques variées — animaux, véhicules, alimentation, nature — qui rendent les mathématiques attrayantes et vos annonces irrésistibles. Chaque fiche s\'exporte en PDF 300 DPI prêt à imprimer avec un corrigé automatique, prête à être mise en ligne sur Etsy, compilée dans un cahier d\'activités Amazon KDP, ou proposée sur La Salle des Maîtres. La licence commerciale est incluse avec chaque fiche. Astuce rentable : combinez addition et soustraction en packs — les vendeurs constatent des paniers moyens nettement plus élevés avec les offres groupées mathématiques. Choisissez parmi quatre modes d\'exercice — Barrer, Image − Nombre, Trouver le Nombre à Soustraire et Mode Mixte — pour accompagner l\'apprentissage de la maternelle au CE1. Parcourez plus de 3 100 illustrations dans 104 thèmes comme les dinosaures, la vie marine et les véhicules. Chaque fiche inclut un corrigé automatique, et vous pouvez exporter des PDF prêts à imprimer en format Letter, A4 ou personnalisé à plus de 400 DPI. Un mode niveaux de gris intégré permet de créer des versions noir et blanc économiques en un clic. Que vous vendiez des packs thématiques sur Etsy, publiiez des cahiers d\'activités sur Amazon KDP ou imprimiez des fiches de pratique pour vos utilisateurs, le Générateur de Fiches de Soustraction produit des résultats professionnels en quelques minutes. Essai gratuit avec toutes les fonctionnalités — sans inscription, sans carte bancaire. Les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.',
   },
 
   howItWorks: {

@@ -2,10 +2,10 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Imprimables Animaux de Compagnie à Vendre — Guide Niche',
+    titleTag: 'Imprimables animaux de compagnie Etsy | LessonCraftStudio',
     metaDescription: 'Idées d\'imprimables animaux de compagnie à vendre sur Etsy, Amazon KDP et Gumroad. Concepts produits chats, chiens et petits animaux avec stratégies vendeurs.',
 
-    primaryKeyword: 'imprimables animaux de compagnie à vendre',
+    primaryKeyword: 'imprimables animaux domestiques Etsy',
     secondaryKeywords: [
       'fiches animaux domestiques à vendre',
       'activité imprimable thème animaux de compagnie business',

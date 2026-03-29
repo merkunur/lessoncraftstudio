@@ -2,10 +2,10 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Idées d\'Imprimables Sous-Marins à Vendre — Guide',
+    titleTag: 'Imprimables sous-marins à vendre | LessonCraftStudio',
     metaDescription: 'Découvrez des idées d\'imprimables sous-marins à vendre sur Etsy, KDP et Gumroad. Concepts de produits océaniques, fiches marines et conseils pour vendeurs.',
 
-    primaryKeyword: 'idées d\'imprimables sous-marins à vendre',
+    primaryKeyword: 'imprimables sous-marins à vendre',
     secondaryKeywords: [
       'fiches sous-marines à vendre',
       'idées business imprimables océan',

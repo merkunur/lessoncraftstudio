@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'formatage KDP fiches exercices',
+    primaryKeyword: 'mise en page KDP pour livres d\'exercices guide',
     secondaryKeywords: [
       'guide de formatage KDP pour livres de fiches',
       'spécifications de formatage manuscrit Amazon KDP',
@@ -17,7 +17,7 @@ const content: GuideContent = {
       'numérotation pages liminaires pages de fin table des matières',
       'KDP erreurs téléversement rejet dépannage prévisualiseur épreuve',
     ],
-    titleTag: 'Formatage KDP fiches exercices — Guide complet',
+    titleTag: 'Mise en page KDP livres d\'exercices | LessonCraftStudio',
     metaDescription: 'Guide formatage KDP : formats de coupe, marges, fond perdu, export PDF 300 DPI, dimensions de couverture et dépannage du téléversement pour livres.',
   },
 

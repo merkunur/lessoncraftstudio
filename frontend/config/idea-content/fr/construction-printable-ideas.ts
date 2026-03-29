@@ -2,10 +2,10 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Idées d\'Imprimables Construction à Vendre — Guide',
+    titleTag: 'Imprimables chantier à vendre | LessonCraftStudio',
     metaDescription: 'Découvrez des idées d\'imprimables construction à vendre sur Etsy, KDP et Gumroad. Concepts de produits véhicules et outils, stratégies et conseils vendeurs.',
 
-    primaryKeyword: 'idées d\'imprimables construction à vendre',
+    primaryKeyword: 'imprimables chantier à vendre',
     secondaryKeywords: [
       'fiches construction à vendre',
       'idées business imprimables chantier',

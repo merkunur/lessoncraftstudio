@@ -2,28 +2,28 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'générateur fiches graphique à images',
+    primaryKeyword: 'fiches de comptage et graphiques pour boutique Etsy',
     secondaryKeywords: [
-      'générateur de fiches graphique à images pour vendeurs Etsy',
-      'créateur de fiches pictogramme pour éditeurs Amazon KDP',
-      'vendre des activités graphique en images sur Gumroad',
-      'générateur de fiches représentation de données licence commerciale',
+      'générateur de graphiques à images pour vendeurs Etsy',
+      'fiches de pictogrammes pour Amazon KDP',
+      'fiches de comptage imprimables licence commerciale',
+      'créer des cahiers de graphiques pour La Salle des Maîtres',
     ],
     lsiKeywords: [
-      'produits numériques graphique à images pour entrepreneurs',
-      'fiches représentation de données imprimables à usage commercial',
-      'générateur de pictogrammes avec corrigé automatique',
+      'licence commerciale 300 DPI corrigé automatique',
+      'business d\'imprimables comptage visuel vendeurs',
+      'diagramme à barres images thématiques prêt à imprimer',
     ],
-    titleTag: 'Générateur Fiches Graphique à Images | Créer et Vendre',
+    titleTag: 'Fiches de comptage pour boutique Etsy | LCS',
     metaDescription:
-      'Créez des fiches graphique à images pour Etsy, KDP et Gumroad. Corrigé auto avec surlignage, 104 thèmes, 6 types d\'images par fiche. Essai gratuit avec filigrane.',
+      'Créez des fiches de comptage et graphiques à vendre sur Etsy & KDP. 104 thèmes, corrigés, licence commerciale. Testez gratuitement avec filigrane.',
   },
 
   hero: {
-    title: 'Générateur de Fiches Graphique à Images pour des Activités de Comptage Imprimables',
+    title: 'Créez des fiches de comptage et graphiques à vendre sur Etsy',
     tagline: 'Générateur double canevas de pictogrammes — créez des grilles d\'images dispersées avec 6 types d\'images, des corrigés en diagramme à barres remplis automatiquement, des en-têtes localisés dans 11 langues, et 104 collections d\'images thématiques pour des fiches de représentation de données.',
     description:
-      'Transformez le comptage visuel en une activité complète de compétences en données avec le seul générateur de fiches conçu spécifiquement pour les graphiques à images. Chaque fiche présente une grille d\'images dispersées avec 20 icônes de 6 types différents disposées en format 4×5 — les utilisateurs comptent combien de chaque type apparaît, puis colorient les cases correspondantes dans le diagramme à barres en dessous. L\'application génère simultanément un corrigé avec des cases surlignées en jaune montrant les décomptes corrects, permettant aux vendeurs de vérifier le travail des utilisateurs instantanément. Choisissez les images automatiquement en sélectionnant un thème dans le menu déroulant Source d\'Images de la Fiche, ou sélectionnez manuellement exactement 6 images depuis la Bibliothèque d\'Images avec plus de 3 100 illustrations réparties dans 104 collections. Chaque fiche inclut un en-tête auto-généré avec un titre \" Graphique en Images \" localisé et des consignes de comptage — l\'en-tête s\'adapte aux 11 langues prises en charge automatiquement. Ajoutez des champs nom et date de l\'utilisateur avec une simple case à cocher, appliquez des thèmes de fond et de bordure avec des contrôles d\'opacité indépendants, et personnalisez avec des outils texte et l\'édition directe sur le canevas. Le Générateur de Graphique à Images n\'est pas sensible à la langue — le comptage visuel utilise des nombres et des images universels, donc les fiches fonctionnent de manière identique dans toutes les langues. L\'Accès Complet déverrouille les 104 thèmes et les 11 langues d\'interface. Exportez des PDF et JPEG prêts à imprimer à 300 DPI en format Letter, A4, Carré (1200×1200) ou dimensions personnalisées. Téléchargez les quatre fichiers — fiche JPEG, fiche PDF, corrigé JPEG et corrigé PDF — en une seule session. Que vous vendiez des packs de graphiques à images sur Etsy, compiliez des cahiers de compétences en données pour Amazon KDP ou créiez des activités de centre mathématique pour Gumroad, le Générateur de Graphique à Images livre des résultats prêts pour la vente en quelques minutes — essai gratuit avec toutes les fonctionnalités, sans inscription, sans carte bancaire. Les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.',
+      'Créez des fiches de comptage et graphiques à vendre sur Etsy, Amazon KDP ou La Salle des Maîtres — le seul générateur conçu spécifiquement pour les graphiques à images. Chaque fiche présente une grille d\'images dispersées avec 20 icônes de 6 types différents disposées en format 4×5 — les utilisateurs comptent combien de chaque type apparaît, puis colorient les cases correspondantes dans le diagramme à barres en dessous. L\'application génère simultanément un corrigé avec des cases surlignées en jaune montrant les décomptes corrects, permettant aux vendeurs de vérifier le travail des utilisateurs instantanément. Choisissez les images automatiquement en sélectionnant un thème dans le menu déroulant Source d\'Images de la Fiche, ou sélectionnez manuellement exactement 6 images depuis la Bibliothèque d\'Images avec plus de 3 100 illustrations réparties dans 104 collections. Chaque fiche inclut un en-tête auto-généré avec un titre \" Graphique en Images \" localisé et des consignes de comptage — l\'en-tête s\'adapte aux 11 langues prises en charge automatiquement. Ajoutez des champs nom et date de l\'utilisateur avec une simple case à cocher, appliquez des thèmes de fond et de bordure avec des contrôles d\'opacité indépendants, et personnalisez avec des outils texte et l\'édition directe sur le canevas. Le Générateur de Graphique à Images n\'est pas sensible à la langue — le comptage visuel utilise des nombres et des images universels, donc les fiches fonctionnent de manière identique dans toutes les langues. L\'Accès Complet déverrouille les 104 thèmes et les 11 langues d\'interface. Exportez des PDF et JPEG prêts à imprimer à 300 DPI en format Letter, A4, Carré (1200×1200) ou dimensions personnalisées. Téléchargez les quatre fichiers — fiche JPEG, fiche PDF, corrigé JPEG et corrigé PDF — en une seule session. Que vous vendiez des packs de graphiques à images sur Etsy, compiliez des cahiers de compétences en données pour Amazon KDP ou créiez des activités de centre mathématique pour Gumroad, le Générateur de Graphique à Images livre des résultats prêts pour la vente en quelques minutes — essai gratuit avec toutes les fonctionnalités, sans inscription, sans carte bancaire. Les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.',
   },
 
   howItWorks: {

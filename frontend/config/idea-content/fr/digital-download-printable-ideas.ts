@@ -2,10 +2,10 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Idées de Fiches Téléchargeables à Vendre — Guide',
+    titleTag: 'Business téléchargements numériques | LessonCraftStudio',
     metaDescription: 'Idées de fiches téléchargeables pour vendeurs Etsy, Gumroad et Gumroad. Créez un business d\'imprimables sans stock avec des PDF éducatifs en livraison.',
 
-    primaryKeyword: 'idées de fiches téléchargeables à vendre',
+    primaryKeyword: 'téléchargements numériques business idées',
     secondaryKeywords: [
       'business imprimables téléchargeables',
       'vendre fiches numériques en ligne',

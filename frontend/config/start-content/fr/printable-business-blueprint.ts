@@ -2,7 +2,7 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'idées activité imprimables',
+    primaryKeyword: 'plan d\'action business d\'imprimables',
     secondaryKeywords: [
       'plan d\'activité imprimables pour vendeurs',
       'idées produits imprimables rentables',
@@ -17,7 +17,7 @@ const content: StartContent = {
       'planification gamme produits vendeurs',
       'checklist lancement activité imprimables',
     ],
-    titleTag: 'Idées Activité Imprimables — Plan d\'Action vers le Revenu',
+    titleTag: 'Plan d\'action : business d\'imprimables | LessonCraftStudio',
     metaDescription: 'Transformez vos idées d\'imprimables en plan d\'action. Planifiez votre gamme, choisissez vos plateformes, fixez vos prix et lancez-vous avec les générateurs.',
   },
 

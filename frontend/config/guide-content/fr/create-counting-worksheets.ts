@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'fiches de comptage et graphiques',
+    primaryKeyword: 'créer des fiches de comptage à vendre sur Etsy',
     secondaryKeywords: [
       'créer fiches graphiques en images à vendre',
       'générateur fiches comptage pictogrammes licence commerciale',
@@ -17,7 +17,7 @@ const content: GuideContent = {
       'cahiers compétences données Amazon KDP diagrammes barres',
       'licence commerciale créateur fiches graphiques en images',
     ],
-    titleTag: 'Fiches de comptage et graphiques — Guide',
+    titleTag: 'Fiches de comptage à vendre sur Etsy | LessonCraftStudio',
     metaDescription: 'Comment créer des fiches de comptage avec graphiques en images, corrigés automatiques et 104 thèmes. Guide étape par étape pour vendre sur Etsy, KDP et Gumroad.',
   },
 

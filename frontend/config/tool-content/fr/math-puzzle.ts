@@ -1,26 +1,26 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'créer des puzzles maths pour la vente',
+    primaryKeyword: 'créer des puzzles de maths gratuit',
     secondaryKeywords: [
-      'puzzles mathématiques jigsaw pour vendeurs',
-      'créateur de puzzles maths pour enfants',
-      'puzzles maths avec images pour la vente',
-      'fiches puzzles maths imprimables pour utilisateurs',
+      'générateur de puzzles maths gratuit en ligne',
+      'puzzles mathématiques gratuit sans inscription',
+      'créer des puzzles de maths images gratuitement',
+      'puzzles maths PDF gratuit avec corrigés',
     ],
     lsiKeywords: [
-      'puzzle maths avec grille d\'images pour la vente',
-      'activité puzzle maths jigsaw pour enfants',
-      'créateur de puzzles maths configurable',
+      'essai gratuit avec filigrane sans inscription',
+      'licence commerciale pour vendre sur Etsy',
+      'grilles configurables addition soustraction corrigés',
     ],
-    titleTag: 'Créer des Puzzles Maths — pour la vente',
-    metaDescription: 'Créez des puzzles maths jigsaw pour la vente. Grilles d\'images avec addition et soustraction, corrigés inclus. Essai gratuit avec filigrane.',
+    titleTag: 'Puzzles de maths gratuits en ligne | LessonCraftStudio',
+    metaDescription: 'Créez des puzzles de maths gratuitement en ligne. Grilles d\'images, addition et soustraction, sans inscription. Licence commerciale disponible.',
     },
 
   hero: {
-    title: 'Générateur de Puzzles Mathématiques',
+    title: 'Puzzles de maths gratuits — créez en ligne sans inscription',
     tagline: 'Créez des puzzles images jigsaw avec des équations mathématiques en moins de 60 secondes',
-    description: 'Transformez la pratique des maths en un puzzle visuel captivant qui ne ressemble en rien à une fiche d\'exercices classique. Cet outil divise une image choisie en une grille de cellules, chacune contenant une équation mathématique. Des pièces de puzzle mélangées avec des numéros de réponse apparaissent en dessous — les utilisateurs résolvent chaque équation et associent la bonne pièce pour reconstituer l\'image. Choisissez parmi trois modes d\'opération : Addition, Soustraction ou Mixte (les deux opérations combinées aléatoirement). Ajustez la taille de la grille de 2×2 (4 pièces, le plus facile) jusqu\'à 4×4 (16 pièces, le plus difficile) pour s\'adapter à chaque niveau. Téléchargez vos propres images PNG ou JPEG pour des puzzles de marque, saisonniers ou de niche, ou parcourez la bibliothèque intégrée de plus de 3 100 images dans 104 thèmes. Le format jigsaw crée un produit immédiatement reconnaissable qui se démarque dans les résultats de recherche des marketplaces — les acheteurs qui défilent devant des rangées de fiches identiques s\'arrêteront devant un puzzle image coloré. Téléchargez en PDF prêt à imprimer ou en JPEG haute résolution. L\'essai gratuit inclut un filigrane sur les téléchargements. Achetez une licence pour supprimer le filigrane et vendre à usage commercial.',
+    description: 'Créez des puzzles de maths gratuitement en ligne — sans inscription, sans carte bancaire. Un format captivant qui ne ressemble en rien à une fiche d\'exercices classique. Cet outil divise une image choisie en une grille de cellules, chacune contenant une équation mathématique. Des pièces de puzzle mélangées avec des numéros de réponse apparaissent en dessous — les utilisateurs résolvent chaque équation et associent la bonne pièce pour reconstituer l\'image. Choisissez parmi trois modes d\'opération : Addition, Soustraction ou Mixte (les deux opérations combinées aléatoirement). Ajustez la taille de la grille de 2×2 (4 pièces, le plus facile) jusqu\'à 4×4 (16 pièces, le plus difficile) pour s\'adapter à chaque niveau. Téléchargez vos propres images PNG ou JPEG pour des puzzles de marque, saisonniers ou de niche, ou parcourez la bibliothèque intégrée de plus de 3 100 images dans 104 thèmes. Le format jigsaw crée un produit immédiatement reconnaissable qui se démarque dans les résultats de recherche des marketplaces — les acheteurs qui défilent devant des rangées de fiches identiques s\'arrêteront devant un puzzle image coloré. Téléchargez en PDF prêt à imprimer ou en JPEG haute résolution. L\'essai gratuit inclut un filigrane sur les téléchargements. Achetez une licence pour supprimer le filigrane et vendre à usage commercial.',
   },
 
   tutorial: {

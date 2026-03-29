@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'lots de fiches Etsy',
+    primaryKeyword: 'créer des packs de fiches pour Etsy',
     secondaryKeywords: [
       'comment créer des lots de fiches sur Etsy',
       'stratégie d\'annonce de packs imprimables Etsy',
@@ -17,7 +17,7 @@ const content: GuideContent = {
       'Etsy livraison numérique fichiers multiples structure de lot',
       'lot vs annonce individuelle cannibalisation stratégie boutique Etsy',
     ],
-    titleTag: 'Créer des lots de fiches Etsy — Guide',
+    titleTag: 'Créer des packs de fiches pour Etsy | LessonCraftStudio',
     metaDescription: 'Créez des lots de fiches Etsy qui augmentent le panier moyen. Types de lots, organisation fichiers, prévisualisation, optimisation annonces et stratégie prix.',
   },
 

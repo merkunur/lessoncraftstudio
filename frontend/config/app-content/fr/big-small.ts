@@ -2,28 +2,28 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'générateur fiches grand petit',
+    primaryKeyword: 'fiches grand et petit pour boutique Etsy',
     secondaryKeywords: [
-      'fiches comparaison de tailles imprimables pour vendeurs Etsy',
-      'générateur de fiches grand et petit personnalisées pour Amazon KDP',
-      'vendre des fiches discrimination visuelle de tailles sur Gumroad',
-      'fiches grand petit comparaison de tailles licence commerciale',
+      'générateur de fiches comparaison de tailles pour Etsy',
+      'fiches grand et petit pour Amazon KDP',
+      'fiches comparaison de tailles licence commerciale',
+      'créer des cahiers de discrimination visuelle pour vendeurs',
     ],
     lsiKeywords: [
-      'produits numériques de fiches comparaison de tailles pour entrepreneurs',
-      'activité de discrimination visuelle de tailles imprimables en ligne',
-      'générateur de fiches grand petit à usage commercial',
+      'licence commerciale 300 DPI prêt à imprimer',
+      'business d\'imprimables fiches grand petit vendeurs',
+      '5 types de questions modes identiques et différents',
     ],
-    titleTag: 'Générateur Fiches Grand Petit | Créer et Vendre',
+    titleTag: 'Fiches grand et petit pour boutique Etsy | LCS',
     metaDescription:
-      'Créez des fiches comparaison de tailles pour Etsy, KDP et Gumroad. 5 types de questions, modes identiques et différents, 104 thèmes. Essai gratuit avec filigrane.',
+      'Créez des fiches grand et petit à vendre sur Etsy & KDP. 5 types de questions, 104 thèmes, licence commerciale. Testez gratuitement avec filigrane.',
   },
 
   hero: {
-    title: 'Générateur de Fiches Grand & Petit pour des Exercices de Comparaison de Tailles',
+    title: 'Créez des fiches grand et petit à vendre sur Etsy & KDP',
     tagline: 'Cinq types de questions — entoure le plus grand, entoure le plus petit, entoure le moyen, numéroter du plus petit au plus grand, numéroter du plus grand au plus petit — avec modes images identiques et différentes pour la discrimination visuelle de tailles.',
     description:
-      'Concevez des fiches professionnelles de comparaison de tailles où les utilisateurs observent des images thématiques affichées à différentes tailles et identifient laquelle est plus grande, plus petite ou de taille moyenne, ou les numérotent dans l\'ordre du plus petit au plus grand ou du plus grand au plus petit. Cinq types de questions distincts couvrent chaque compétence de discrimination de tailles : Entoure le Plus Grand, Entoure le Plus Petit, Entoure le Moyen, Numéroter 1–2–3 du Plus Petit au Plus Grand, et Numéroter 1–2–3 du Plus Grand au Plus Petit. Deux modes d\'images créent des exercices fondamentalement différents : les Images Identiques montrent la même image à différentes tailles pour une perception pure de la taille, tandis que les Images Différentes montrent des objets distincts pour un raisonnement de taille relative. Configurez 1 à 10 exercices par page avec 2 ou 3 images par exercice — deux images pour des comparaisons plus simples, trois pour des exercices plus difficiles incluant l\'option du moyen. Chaque fiche est entièrement visuelle avec aucun texte sur la sortie, les rendant universellement utilisables quelle que soit la langue ou le niveau de lecture. Le contenu provient de la Bibliothèque d\'Images intégrée avec plus de 3 100 illustrations réparties dans 104 thèmes. Un corrigé généré automatiquement met en évidence les réponses correctes pour une vérification instantanée. L\'Accès Complet déverrouille les 104 thèmes et les 11 langues d\'interface. Exportez des PDF prêts à imprimer et des JPEG à 300 DPI en format Letter, A4 ou dimensions personnalisées. Que vous vendiez des packs de comparaison de tailles sur Etsy, compiliez des cahiers d\'apprentissage précoce pour Amazon KDP ou créiez des ateliers visuels différenciés pour Gumroad, le Générateur de Fiches Grand & Petit produit des résultats professionnels en quelques minutes — essai gratuit avec toutes les fonctionnalités, sans inscription, sans carte bancaire. Les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.',
+      'Créez des fiches grand et petit à vendre sur Etsy, Amazon KDP ou La Salle des Maîtres — des fiches où les acheteurs observent des images thématiques affichées à différentes tailles et identifient laquelle est plus grande, plus petite ou de taille moyenne, ou les numérotent dans l\'ordre du plus petit au plus grand ou du plus grand au plus petit. Cinq types de questions distincts couvrent chaque compétence de discrimination de tailles : Entoure le Plus Grand, Entoure le Plus Petit, Entoure le Moyen, Numéroter 1–2–3 du Plus Petit au Plus Grand, et Numéroter 1–2–3 du Plus Grand au Plus Petit. Deux modes d\'images créent des exercices fondamentalement différents : les Images Identiques montrent la même image à différentes tailles pour une perception pure de la taille, tandis que les Images Différentes montrent des objets distincts pour un raisonnement de taille relative. Configurez 1 à 10 exercices par page avec 2 ou 3 images par exercice — deux images pour des comparaisons plus simples, trois pour des exercices plus difficiles incluant l\'option du moyen. Chaque fiche est entièrement visuelle avec aucun texte sur la sortie, les rendant universellement utilisables quelle que soit la langue ou le niveau de lecture. Le contenu provient de la Bibliothèque d\'Images intégrée avec plus de 3 100 illustrations réparties dans 104 thèmes. Un corrigé généré automatiquement met en évidence les réponses correctes pour une vérification instantanée. L\'Accès Complet déverrouille les 104 thèmes et les 11 langues d\'interface. Exportez des PDF prêts à imprimer et des JPEG à 300 DPI en format Letter, A4 ou dimensions personnalisées. Que vous vendiez des packs de comparaison de tailles sur Etsy, compiliez des cahiers d\'apprentissage précoce pour Amazon KDP ou créiez des ateliers visuels différenciés pour Gumroad, le Générateur de Fiches Grand & Petit produit des résultats professionnels en quelques minutes — essai gratuit avec toutes les fonctionnalités, sans inscription, sans carte bancaire. Les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.',
   },
 
   howItWorks: {

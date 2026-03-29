@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'email marketing imprimables',
+    primaryKeyword: 'email marketing pour vendeurs d\'imprimables',
     secondaryKeywords: [
       'liste email vendeurs imprimables',
       'newsletter activité fiches exercices',
@@ -17,7 +17,7 @@ const content: GuideContent = {
       'séquences automatisées campagne réactivation hygiène liste réputation expéditeur',
       'calendrier contenu analytique email tests A/B personnalisation balises',
     ],
-    titleTag: 'Email marketing imprimables — Stratégie vendeur',
+    titleTag: 'Email marketing pour vendeurs | LessonCraftStudio',
     metaDescription: 'Email marketing pour vendeurs d\'imprimables. Construisez votre liste d\'abonnés, créez des lead magnets et automatisez vos séquences pour des ventes.',
   },
 

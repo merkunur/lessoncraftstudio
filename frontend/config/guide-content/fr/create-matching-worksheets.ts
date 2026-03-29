@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'créer des fiches d\'association pour la marché préscolaire',
+    primaryKeyword: 'créer des fiches d\'appariement à vendre',
     secondaryKeywords: [
       'fiches d\'association pour la marché préscolaire',
       'générateur fiches d\'association',
@@ -17,7 +17,7 @@ const content: GuideContent = {
       'cahiers activités association Amazon KDP',
       'outil fiches association licence commerciale',
     ],
-    titleTag: 'Créer des fiches d\'association pour la marché préscolaire — Guide',
+    titleTag: 'Fiches d\'appariement à vendre | LessonCraftStudio',
     metaDescription: 'Comment créer des fiches d\'association pour enfants. 4 modes, images thématiques, corrigés auto avec lignes de liaison et PDF prêts à imprimer pour Etsy.',
   },
 

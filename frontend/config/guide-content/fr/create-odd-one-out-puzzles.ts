@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'puzzles trouve l\'intrus à imprimer',
+    primaryKeyword: 'créer des jeux de l\'intrus à vendre',
     secondaryKeywords: [
       'générateur fiches trouve l\'intrus licence commerciale',
       'fiches discrimination visuelle à vendre Etsy et KDP',
@@ -17,7 +17,7 @@ const content: GuideContent = {
       'cahiers discrimination visuelle Amazon KDP',
       'outil trouve l\'intrus licence commerciale',
     ],
-    titleTag: 'Puzzles Trouve l\'Intrus à Imprimer — Guide',
+    titleTag: 'Jeux de l\'intrus à vendre | LessonCraftStudio',
     metaDescription: 'Créez des fiches trouve l\'intrus avec modes Identique et Similaire, remplacement par exercice et corrigés automatiques. Guide pour vendeurs Etsy et KDP.',
   },
 

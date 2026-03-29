@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'normes qualité fiches exercices pour vendeurs',
+    primaryKeyword: 'normes de qualité pour fiches vendables',
     secondaryKeywords: [
       'checklist qualité imprimables professionnels',
       'standards conception fiches professionnelles',
@@ -16,7 +16,7 @@ const content: GuideContent = {
       'réglages fond perdu compatibilité papier cohérence visuelle standards marque',
       'évaluations notes confiance acheteurs checklist production assurance qualité',
     ],
-    titleTag: 'Normes qualité fiches exercices pour vendeurs — Checklist',
+    titleTag: 'Normes de qualité pour fiches vendables | LessonCraftStudio',
     metaDescription: 'Normes qualité pour vendeurs de fiches : résultat professionnel, résolution, marges, typographie, corrigés et tests impression. Vendez sur Etsy et KDP.',
   },
 

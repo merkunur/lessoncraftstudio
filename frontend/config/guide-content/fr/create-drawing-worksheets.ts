@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'fiches dessin et symétrie',
+    primaryKeyword: 'créer des fiches de dessin à vendre',
     secondaryKeywords: [
       'fiches dessin sur grille pour enfants à vendre',
       'générateur fiches symétrie licence commerciale',
@@ -17,7 +17,7 @@ const content: GuideContent = {
       'cahiers activités dessin Amazon KDP',
       'outil fiches contours N&B',
     ],
-    titleTag: 'Fiches dessin et symétrie — Guide',
+    titleTag: 'Fiches de dessin à vendre en ligne | LessonCraftStudio',
     metaDescription: 'Créez des fiches dessin et symétrie avec système double grille, pourcentage d\'indices réglable, trois modes symétrie et contours N&B. Vendez sur Etsy et KDP.',
   },
 

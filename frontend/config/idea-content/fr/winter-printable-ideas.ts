@@ -2,10 +2,10 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Idées d\'Imprimables d\'Hiver à Vendre — Guide Niche',
+    titleTag: 'Imprimables d\'hiver pour Etsy | LessonCraftStudio',
     metaDescription: 'Idées d\'imprimables d\'hiver à vendre sur Etsy, Amazon KDP et Gumroad. Produits hivernaux avec forte demande de novembre à février pour vendeurs de fiches.',
 
-    primaryKeyword: 'idées d\'imprimables d\'hiver à vendre',
+    primaryKeyword: 'imprimables d\'hiver à vendre sur Etsy',
     secondaryKeywords: [
       'fiches d\'hiver à vendre',
       'activités imprimables thème hiver',

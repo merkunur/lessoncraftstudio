@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'puzzles pièces manquantes à imprimer',
+    primaryKeyword: 'créer des puzzles pièces manquantes à vendre',
     secondaryKeywords: [
       'générateur puzzles pièces manquantes licence commerciale',
       'fiches puzzles visuels à vendre Etsy et KDP',
@@ -17,7 +17,7 @@ const content: GuideContent = {
       'cahiers puzzles jigsaw Amazon KDP',
       'outil pièces manquantes licence commerciale',
     ],
-    titleTag: 'Puzzles Pièces Manquantes à Imprimer — Guide',
+    titleTag: 'Pièces manquantes à vendre en ligne | LessonCraftStudio',
     metaDescription: 'Créez des puzzles pièces manquantes avec 6 formes, extraction intelligente, distractrices et corrigés automatiques. Guide complet de vente pour Etsy et KDP.',
   },
 

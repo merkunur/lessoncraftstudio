@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'fiches train alphabet',
+    primaryKeyword: 'créer des fiches d\'alphabet à vendre sur Etsy',
     secondaryKeywords: [
       'créer fiches train alphabet à vendre',
       'générateur fiches train alphabet licence commerciale',
@@ -17,7 +17,7 @@ const content: GuideContent = {
       'cahiers reconnaissance lettres Amazon KDP',
       'outil train alphabet licence commerciale',
     ],
-    titleTag: 'Fiches train alphabet — Guide étape par étape',
+    titleTag: 'Fiches d\'alphabet à vendre sur Etsy | LessonCraftStudio',
     metaDescription: 'Comment créer des fiches train alphabet avec wagons colorés, deux modes de création, difficulté configurable et 104 thèmes. Vendez sur Etsy, KDP et Gumroad.',
   },
 

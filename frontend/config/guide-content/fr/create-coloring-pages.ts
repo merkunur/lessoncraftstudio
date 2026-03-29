@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'créer des coloriages à partir d\'images',
+    primaryKeyword: 'créer des coloriages à vendre sur Etsy et KDP',
     secondaryKeywords: [
       'créateur pages coloriage à partir d\'images',
       'pages coloriage imprimables à vendre',
@@ -17,7 +17,7 @@ const content: GuideContent = {
       'fiches activité coloriage pour la boutique',
       'outil coloriage licence commerciale',
     ],
-    titleTag: 'Créer des coloriages à partir d\'images — Guide pratique',
+    titleTag: 'Coloriages pour Etsy & KDP | LessonCraftStudio',
     metaDescription: 'Comment créer des pages de coloriage avec 3 100+ images thématiques. Canevas libre, export niveaux de gris et dessin à main levée. Vendez sur Etsy et KDP.',
   },
 

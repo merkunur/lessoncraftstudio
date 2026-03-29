@@ -2,10 +2,10 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Idées d\'Imprimables Grande Section à Vendre — Guide',
+    titleTag: 'Imprimables grande section — Business | LessonCraftStudio',
     metaDescription: 'Idées d\'imprimables Grande Section à vendre sur Etsy, KDP et Gumroad. Concepts de produits marché préscolaire, stratégies par plateforme et conseils pour vendeurs.',
 
-    primaryKeyword: 'idées d\'imprimables grande section à vendre',
+    primaryKeyword: 'imprimables grande section idées business',
     secondaryKeywords: [
       'fiches marché préscolaire à vendre',
       'idées business imprimables marché préscolaire',

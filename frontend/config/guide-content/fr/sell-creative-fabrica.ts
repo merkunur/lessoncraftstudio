@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'vendre des ressources sur creative fabrica',
+    primaryKeyword: 'vendre des ressources sur Creative Fabrica',
     secondaryKeywords: [
       'comment vendre sur Creative Fabrica',
       'Creative Fabrica pour entrepreneurs',
@@ -17,7 +17,7 @@ const content: GuideContent = {
       'tags produit catégories optimisation recherche images couverture formatage description',
       'montée en charge catalogue lots promotion intercatégories polices graphiques ressources éducatives',
     ],
-    titleTag: 'Vendre des ressources sur Creative Fabrica — Guide',
+    titleTag: 'Vendre sur Creative Fabrica | LessonCraftStudio',
     metaDescription: 'Vendez des ressources éducatives sur Creative Fabrica. Revenus abonnements et ventes individuelles, public créatif et section Classroom pour entrepreneurs.',
   },
 

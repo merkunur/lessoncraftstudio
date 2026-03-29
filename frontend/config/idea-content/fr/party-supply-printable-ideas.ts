@@ -2,10 +2,10 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Idées d\'Imprimables pour Fêtes à Vendre — Guide',
+    titleTag: 'Imprimables fêtes — Idées business | LessonCraftStudio',
     metaDescription: 'Idées d\'imprimables pour fêtes à vendre sur Etsy. Créez des packs d\'activités thématiques, jeux d\'anniversaire, fiches de célébration et imprimables de fête.',
 
-    primaryKeyword: 'idées d\'imprimables pour fêtes à vendre',
+    primaryKeyword: 'imprimables anniversaire fêtes business',
     secondaryKeywords: [
       'imprimables fournitures de fête à vendre',
       'business imprimables décoration de fête',

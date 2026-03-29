@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'support client produits numériques',
+    primaryKeyword: 'service client pour produits numériques',
     secondaryKeywords: [
       'service client produits numériques',
       'support business imprimables',
@@ -17,7 +17,7 @@ const content: GuideContent = {
       'prévention support problèmes fréquents temps résolution communication professionnelle',
       'systèmes support évolutifs bibliothèques modèles suivi tendances boucles retour',
     ],
-    titleTag: 'Support client produits numériques — Guide',
+    titleTag: 'Service client produits numériques | LessonCraftStudio',
     metaDescription: 'Stratégies de support client pour vendeurs numériques. Prévention des problèmes, modèles de réponse, gestion des remboursements, avis et systèmes évolutifs.',
   },
 

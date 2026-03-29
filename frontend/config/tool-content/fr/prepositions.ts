@@ -2,26 +2,26 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'générateur fiches prépositions',
+    primaryKeyword: 'générateur de fiches de prépositions gratuit',
     secondaryKeywords: [
-      'créateur de fiches prépositions spatiales pour vendeurs',
-      'créer des fiches de prépositions à vendre',
-      'fiches prépositions spatiales imprimables licence commerciale',
-      'générateur de fiches de prépositions pour KDP',
+      'créer des fiches de prépositions gratuitement',
+      'fiches de prépositions gratuit sans inscription',
+      'générateur de vocabulaire spatial gratuit PDF',
+      'fiches de prépositions gratuites 11 langues',
     ],
     lsiKeywords: [
-      'imprimables de prépositions spatiales pour Etsy.fr',
-      'outil de fiches vocabulaire spatial position',
-      'générateur d\'activités prépositions multilingue',
+      'essai gratuit avec filigrane sans inscription',
+      'licence commerciale pour vendre sur Etsy',
+      '8 prépositions texte à trous choix multiple',
     ],
-    titleTag: 'Générateur Fiches Prépositions | Imprimables Spatial',
-    metaDescription: 'Créez des fiches de prépositions avec texte à trous et choix multiple, remplacement de formes, 104 thèmes et 11 langues. Essai gratuit avec filigrane.',
+    titleTag: 'Fiches de prépositions gratuites | LessonCraftStudio',
+    metaDescription: 'Créez des fiches de prépositions gratuitement. 8 prépositions, texte à trous, choix multiple, 11 langues, sans inscription. Licence commerciale disponible.',
   },
 
   hero: {
-    title: 'Générateur de Fiches de Prépositions',
+    title: 'Fiches de prépositions gratuites — créez en ligne',
     tagline: 'Créez des fiches de prépositions spatiales avec deux modes d\'exercice dans 11 langues',
-    description: 'Enseignez les mots de position à travers des exercices basés sur des images que les utilisateurs apprécient réellement. Cet outil génère des fiches de prépositions où les apprenants identifient les relations spatiales — dans, sur, sous, à côté de, derrière, entre, au-dessus de, devant — en utilisateur des scènes imagées et en complétant ou en sélectionnant la préposition correcte. Choisissez entre deux modes d\'exercice : le Texte à Trous, où les utilisateurs écrivent eux-mêmes la préposition correcte, ou le Choix Multiple, où ils choisissent parmi un ensemble d\'options avec une ligne d\'instruction personnalisable. Définissez de 1 à 8 exercices par fiche et sélectionnez exactement quelles prépositions inclure grâce à la liste de prépositions. La fonctionnalité phare de l\'outil est le Remplacement de Formes — une couche d\'image séparée vous permet de remplacer les formes des scènes indépendamment, créant bien plus de combinaisons visuelles qu\'un seul jeu d\'images ne pourrait offrir. La sensibilité linguistique est intégrée : passez du français à l\'une des 11 langues prises en charge et chaque mot de préposition se met à jour dans son équivalent natif. L\'allemand utilise \" auf, unter, über, neben, zwischen, drinnen, draußen \" ; l\'espagnol utilise \" sobre, debajo, encima, al lado, entre, dentro, fuera \". Un seul design de fiche devient 11 produits linguistiques uniques. Parcourez plus de 3 100 images réparties dans 104 thèmes, téléchargez vos propres PNG ou JPEG pour des designs de marque, et choisissez parmi plusieurs modèles et 7 familles de polices. Exportez en PDF prêt à imprimer ou en JPEG haute résolution. L\'essai gratuit inclut un filigrane sur les téléchargements. Achetez une licence pour supprimer le filigrane et vendre à usage commercial.',
+    description: 'Créez des fiches de prépositions gratuitement en ligne — sans inscription, sans carte bancaire. Cet outil génère des fiches de prépositions où les apprenants identifient les relations spatiales — dans, sur, sous, à côté de, derrière, entre, au-dessus de, devant — en utilisateur des scènes imagées et en complétant ou en sélectionnant la préposition correcte. Choisissez entre deux modes d\'exercice : le Texte à Trous, où les utilisateurs écrivent eux-mêmes la préposition correcte, ou le Choix Multiple, où ils choisissent parmi un ensemble d\'options avec une ligne d\'instruction personnalisable. Définissez de 1 à 8 exercices par fiche et sélectionnez exactement quelles prépositions inclure grâce à la liste de prépositions. La fonctionnalité phare de l\'outil est le Remplacement de Formes — une couche d\'image séparée vous permet de remplacer les formes des scènes indépendamment, créant bien plus de combinaisons visuelles qu\'un seul jeu d\'images ne pourrait offrir. La sensibilité linguistique est intégrée : passez du français à l\'une des 11 langues prises en charge et chaque mot de préposition se met à jour dans son équivalent natif. L\'allemand utilise \" auf, unter, über, neben, zwischen, drinnen, draußen \" ; l\'espagnol utilise \" sobre, debajo, encima, al lado, entre, dentro, fuera \". Un seul design de fiche devient 11 produits linguistiques uniques. Parcourez plus de 3 100 images réparties dans 104 thèmes, téléchargez vos propres PNG ou JPEG pour des designs de marque, et choisissez parmi plusieurs modèles et 7 familles de polices. Exportez en PDF prêt à imprimer ou en JPEG haute résolution. L\'essai gratuit inclut un filigrane sur les téléchargements. Achetez une licence pour supprimer le filigrane et vendre à usage commercial.',
   },
 
   tutorial: {

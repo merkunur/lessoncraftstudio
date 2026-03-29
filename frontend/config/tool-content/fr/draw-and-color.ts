@@ -2,26 +2,26 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'générateur fiches dessin quadrillage',
+    primaryKeyword: 'créer des fiches dessin et coloriage gratuit',
     secondaryKeywords: [
-      'créateur de fiches dessin sur grille pour vendeurs',
-      'créer des fiches de reproduction sur quadrillage à vendre',
-      'fiches de dessin sur grille imprimables licence commerciale',
-      'générateur de fiches dessin cellule par cellule pour KDP',
+      'générateur de fiches dessin sur grille gratuit',
+      'fiches de reproduction sur quadrillage gratuit sans inscription',
+      'créer des fiches dessin gratuitement en ligne',
+      'fiches dessin et coloriage gratuites PDF',
     ],
     lsiKeywords: [
-      'imprimables double grille dessin et coloriage pour Etsy.fr',
-      'outil de fiches pourcentage d\'indices réglable',
-      'générateur fiches dessin mode miroir symétrie',
+      'essai gratuit avec filigrane sans inscription',
+      'licence commerciale pour vendre sur Etsy',
+      'double quadrillage indices réglables modes symétrie',
     ],
-    titleTag: 'Générateur Fiches Dessin Quadrillage — Créateur | Vendre',
-    metaDescription: 'Créez des fiches dessin sur grille avec double quadrillage, indices réglables, trois modes symétrie et thèmes contours N&B. Essai gratuit avec filigrane.',
+    titleTag: 'Fiches dessin et coloriage gratuites | LessonCraftStudio',
+    metaDescription: 'Créez des fiches dessin et coloriage gratuitement. Double quadrillage, indices réglables, modes symétrie, sans inscription. Licence commerciale disponible.',
   },
 
   hero: {
-    title: 'Créateur de Fiches Dessin sur Quadrillage',
+    title: 'Fiches dessin et coloriage gratuites — créez en ligne',
     tagline: 'Générez des fiches de dessin sur grille avec système de double grille, pourcentage d\'indices réglable, trois modes symétrie et une sortie purement visuelle sans texte qui se vend dans le monde entier sans traduction',
-    description: 'Concevez des fiches professionnelles de dessin sur quadrillage où les utilisateurs reproduisent une image de référence en la copiant cellule par cellule depuis une grille d\'indices vers une grille de pratique vierge. Deux grilles apparaissent par image sélectionnée : une Grille de Pratique avec des cellules vides où les utilisateurs dessinent, et une Grille d\'Indices montrant un pourcentage configurable de l\'image de référence comme indices visuels. Ajustez le pourcentage d\'indices de 10 % à 75 % pour contrôler la difficulté — moins d\'indices signifie des exercices plus difficiles exigeant une observation plus fine. Configurez les dimensions de la grille de 3×3 (9 cellules) à 10×10 (100 cellules), avec les lignes et colonnes réglables indépendamment. Trois modes de symétrie ajoutent une dimension de raisonnement spatial : Aléatoire disperse les indices dans des positions arbitraires, Horizontal reflète les indices de gauche à droite, et Vertical reflète les indices de haut en bas, chacun avec un sélecteur de partie à révéler contrôlant quelle moitié est montrée. Le contenu provient de la bibliothèque intégrée de thèmes de contours noir et blanc avec plus de 100 collections comportant plus de 3 000 illustrations N&B spécifiquement conçues pour le dessin et le coloriage — des contours nets que les utilisateurs reproduisent puis colorient, pas des thèmes en couleur. C\'est une application purement visuelle : les fiches ne contiennent que des images en grille avec zéro texte, les rendant universellement vendables sans traduction. Aucun corrigé séparé n\'existe car la grille d\'indices elle-même sert de solution de référence. Exportez des PDF et JPEG prêts à imprimer à 300 DPI en format Letter, A4, Carré (1200×1200) ou dimensions personnalisées. Activez les niveaux de gris pour une sortie économique en encre. Modifiez chaque élément sur le canevas complet Fabric.js avec des polices incluant Lexend Deca, Baloo 2, Nunito, Quicksand et Fredoka. L\'essai gratuit inclut toutes les fonctionnalités avec un filigrane sur les téléchargements. Achetez une licence pour supprimer le filigrane et vendre à usage commercial.',
+    description: 'Créez des fiches dessin et coloriage gratuitement en ligne — sans inscription, sans carte bancaire. Les utilisateurs reproduisent une image de référence en la copiant cellule par cellule depuis une grille d\'indices vers une grille de pratique vierge. Deux grilles apparaissent par image sélectionnée : une Grille de Pratique avec des cellules vides où les utilisateurs dessinent, et une Grille d\'Indices montrant un pourcentage configurable de l\'image de référence comme indices visuels. Ajustez le pourcentage d\'indices de 10 % à 75 % pour contrôler la difficulté — moins d\'indices signifie des exercices plus difficiles exigeant une observation plus fine. Configurez les dimensions de la grille de 3×3 (9 cellules) à 10×10 (100 cellules), avec les lignes et colonnes réglables indépendamment. Trois modes de symétrie ajoutent une dimension de raisonnement spatial : Aléatoire disperse les indices dans des positions arbitraires, Horizontal reflète les indices de gauche à droite, et Vertical reflète les indices de haut en bas, chacun avec un sélecteur de partie à révéler contrôlant quelle moitié est montrée. Le contenu provient de la bibliothèque intégrée de thèmes de contours noir et blanc avec plus de 100 collections comportant plus de 3 000 illustrations N&B spécifiquement conçues pour le dessin et le coloriage — des contours nets que les utilisateurs reproduisent puis colorient, pas des thèmes en couleur. C\'est une application purement visuelle : les fiches ne contiennent que des images en grille avec zéro texte, les rendant universellement vendables sans traduction. Aucun corrigé séparé n\'existe car la grille d\'indices elle-même sert de solution de référence. Exportez des PDF et JPEG prêts à imprimer à 300 DPI en format Letter, A4, Carré (1200×1200) ou dimensions personnalisées. Activez les niveaux de gris pour une sortie économique en encre. Modifiez chaque élément sur le canevas complet Fabric.js avec des polices incluant Lexend Deca, Baloo 2, Nunito, Quicksand et Fredoka. L\'essai gratuit inclut toutes les fonctionnalités avec un filigrane sur les téléchargements. Achetez une licence pour supprimer le filigrane et vendre à usage commercial.',
   },
 
   tutorial: {

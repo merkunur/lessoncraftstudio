@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'créer des cartes bingo avec images thématiques',
+    primaryKeyword: 'créer des cartes de loto avec images à vendre',
     secondaryKeywords: [
       'créer cartes bingo avec images',
       'générateur cartes bingo pour enfants',
@@ -17,7 +17,7 @@ const content: GuideContent = {
       'outil bingo licence commerciale',
       'générateur cartes bingo uniques multiples',
     ],
-    titleTag: 'Créer des cartes bingo avec images thématiques — Guide',
+    titleTag: 'Cartes de loto à vendre en ligne | LessonCraftStudio',
     metaDescription: 'Comment créer des cartes bingo avec images thématiques. Taille de grille, cartes uniques avec cartes d\'appel et PDF prêts à imprimer pour Etsy et KDP.',
   },
 

@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'obtenir avis produits imprimables',
+    primaryKeyword: 'obtenir des avis pour produits imprimables',
     secondaryKeywords: [
       'stratégie avis produits imprimables',
       'avis Etsy produits numériques',
@@ -17,7 +17,7 @@ const content: GuideContent = {
       'avis organiques retours authentiques volume avis classement place de marché',
       'optimisation annonce gestion attentes communication acheteur expérience après-achat',
     ],
-    titleTag: 'Obtenir avis produits imprimables — Guide vendeur',
+    titleTag: 'Obtenir des avis pour vos imprimables | LessonCraftStudio',
     metaDescription: 'Stratégies pour obtenir des avis sur vos imprimables. Preuve sociale, retours authentiques et crédibilité de votre boutique Etsy, KDP et Gumroad. Guide vendeurs.',
   },
 

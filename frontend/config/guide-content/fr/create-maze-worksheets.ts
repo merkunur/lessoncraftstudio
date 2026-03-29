@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'créer des fiches labyrinthes',
+    primaryKeyword: 'créer des labyrinthes à vendre sur Etsy',
     secondaryKeywords: [
       'générateur de labyrinthes imprimables',
       'fiches labyrinthes thématiques pour enfants à vendre',
@@ -17,7 +17,7 @@ const content: GuideContent = {
       'labyrinthes thématiques avec images licence commerciale',
       'générateur labyrinthes licence commerciale',
     ],
-    titleTag: 'Créer des fiches labyrinthes — Guide étape par étape',
+    titleTag: 'Labyrinthes à vendre sur Etsy | LessonCraftStudio',
     metaDescription: 'Comment créer des fiches labyrinthes avec 3 modes de jeu, images thématiques et corrigés automatiques. Fiches labyrinthes imprimables pour Etsy et Amazon KDP.',
   },
 

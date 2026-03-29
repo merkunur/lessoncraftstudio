@@ -2,28 +2,28 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'générateur fiches graphisme',
+    primaryKeyword: 'fiches de graphisme à vendre sur Etsy et KDP',
     secondaryKeywords: [
-      'générateur de fiches de tracé de lignes pour vendeurs Etsy',
-      'créateur de fiches de graphisme pour éditeurs Amazon KDP',
-      'vendre des fiches de tracé de lignes sur Gumroad',
-      'générateur de fiches graphisme licence commerciale',
+      'générateur de fiches de tracé pour vendeurs Etsy',
+      'fiches de graphisme motricité fine pour Amazon KDP',
+      'fiches de tracé de lignes licence commerciale',
+      'créer des cahiers de graphisme pour La Salle des Maîtres',
     ],
     lsiKeywords: [
-      'produits numériques fiches tracé de lignes pour entrepreneurs',
-      'fiches de motricité fine imprimables à usage commercial',
-      'générateur de fiches graphisme avec modèles SVG',
+      'licence commerciale 300 DPI prêt à imprimer',
+      'business d\'imprimables fiches graphisme vendeurs',
+      'huit modèles SVG motricité fine pré-écriture',
     ],
-    titleTag: 'Générateur Fiches Graphisme | Créer et Vendre',
+    titleTag: 'Fiches de graphisme à vendre sur Etsy & KDP | LCS',
     metaDescription:
-      'Créez des fiches de graphisme à vendre sur Etsy, KDP et Gumroad. Huit modèles SVG, association de paires d\'images, 104 collections. Essai gratuit avec filigrane.',
+      'Créez des fiches de graphisme à vendre sur Etsy & KDP. 8 modèles de tracé, 104 thèmes, licence commerciale. Testez gratuitement avec filigrane.',
   },
 
   hero: {
-    title: 'Générateur de Fiches de Graphisme pour des Exercices de Tracé de Lignes',
+    title: 'Générez des fiches de graphisme à vendre sur Etsy, KDP & plus',
     tagline: 'Huit modèles de lignes SVG — courbes, diagonales, horizontale et verticale — avec 4 à 5 paires d\'images par page pour le développement de la motricité fine grâce au tracé de lignes guidé.',
     description:
-      'Concevez des fiches professionnelles de graphisme où les utilisateurs tracent le long de chemins guidés pour relier des paires d\'images assorties. Huit modèles basés sur des SVG couvrent quatre types de lignes : quatre modèles de courbes pour des mouvements fluides, deux modèles de diagonales pour des tracés en angle, un modèle horizontal pour le tracé de gauche à droite, et un modèle vertical pour la pratique de haut en bas. Chaque modèle place 4 ou 5 paires d\'images assorties de part et d\'autre du tracé, donnant aux utilisateurs un objectif visuel à chaque extrémité. Le remplissage automatique attribue aléatoirement des paires d\'images depuis n\'importe quel thème sélectionné ou depuis tous les thèmes à la fois. Le contenu provient de la Bibliothèque d\'Images intégrée avec plus de 3 100 illustrations colorées réparties dans 104 thèmes — animaux, véhicules, nourriture, nature et des dizaines d\'autres. Chaque fiche est purement visuelle avec zéro texte sur la sortie, les rendant universellement utilisables quelle que soit la langue ou le niveau de lecture. La sélection du modèle détermine automatiquement l\'orientation de la page : les modèles de courbes passent en paysage pour les mouvements amples, tandis que les modèles de diagonales, horizontal et vertical utilisent le portrait pour la pratique ciblée de haut en bas. L\'Accès Complet déverrouille les 104 thèmes et les 11 langues d\'interface. Exportez des PDF et JPEG prêts à imprimer à 300 DPI en format Letter, A4 ou dimensions personnalisées. Que vous vendiez des lots de tracé de lignes sur Etsy, compiliez des cahiers de motricité fine pour Amazon KDP ou créiez des ateliers de préparation à l\'écriture pour Gumroad, le Générateur de Fiches de Graphisme livre des résultats professionnels en quelques minutes — essai gratuit avec toutes les fonctionnalités, sans inscription, sans carte bancaire. Les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.',
+      'Créez des fiches de graphisme à vendre sur Etsy, Amazon KDP ou La Salle des Maîtres — des fiches où les utilisateurs tracent le long de chemins guidés pour relier des paires d\'images assorties. Huit modèles basés sur des SVG couvrent quatre types de lignes : quatre modèles de courbes pour des mouvements fluides, deux modèles de diagonales pour des tracés en angle, un modèle horizontal pour le tracé de gauche à droite, et un modèle vertical pour la pratique de haut en bas. Chaque modèle place 4 ou 5 paires d\'images assorties de part et d\'autre du tracé, donnant aux utilisateurs un objectif visuel à chaque extrémité. Le remplissage automatique attribue aléatoirement des paires d\'images depuis n\'importe quel thème sélectionné ou depuis tous les thèmes à la fois. Le contenu provient de la Bibliothèque d\'Images intégrée avec plus de 3 100 illustrations colorées réparties dans 104 thèmes — animaux, véhicules, nourriture, nature et des dizaines d\'autres. Chaque fiche est purement visuelle avec zéro texte sur la sortie, les rendant universellement utilisables quelle que soit la langue ou le niveau de lecture. La sélection du modèle détermine automatiquement l\'orientation de la page : les modèles de courbes passent en paysage pour les mouvements amples, tandis que les modèles de diagonales, horizontal et vertical utilisent le portrait pour la pratique ciblée de haut en bas. L\'Accès Complet déverrouille les 104 thèmes et les 11 langues d\'interface. Exportez des PDF et JPEG prêts à imprimer à 300 DPI en format Letter, A4 ou dimensions personnalisées. Que vous vendiez des lots de tracé de lignes sur Etsy, compiliez des cahiers de motricité fine pour Amazon KDP ou créiez des ateliers de préparation à l\'écriture pour Gumroad, le Générateur de Fiches de Graphisme livre des résultats professionnels en quelques minutes — essai gratuit avec toutes les fonctionnalités, sans inscription, sans carte bancaire. Les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.',
   },
 
   howItWorks: {

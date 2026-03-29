@@ -2,10 +2,10 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Idées de Box d\'Abonnement Imprimables à Vendre — Guide',
+    titleTag: 'Box d\'imprimables par abonnement | LessonCraftStudio',
     metaDescription: 'Idées de box d\'abonnement de fiches à vendre sur Etsy, Gumroad et Patreon. Créez des revenus récurrents avec des packs mensuels et des lots thématiques.',
 
-    primaryKeyword: 'idées de box d\'abonnement imprimables à vendre',
+    primaryKeyword: 'box d\'imprimables par abonnement idées',
     secondaryKeywords: [
       'business abonnement fiches imprimables',
       'modèle abonnement mensuel fiches éducatives',

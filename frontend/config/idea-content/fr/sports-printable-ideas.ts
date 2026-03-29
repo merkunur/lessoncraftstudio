@@ -2,10 +2,10 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Idées d\'Imprimables Sportifs à Vendre — Guide',
+    titleTag: 'Imprimables sports — Idées business | LessonCraftStudio',
     metaDescription: 'Découvrez des idées d\'imprimables sportifs à vendre sur Etsy, KDP et Gumroad. Concepts de produits sportifs, stratégies par plateforme et conseils pour vendeurs.',
 
-    primaryKeyword: 'idées d\'imprimables sportifs à vendre',
+    primaryKeyword: 'imprimables sports idées business',
     secondaryKeywords: [
       'fiches sportives à vendre',
       'idées business imprimables sport',

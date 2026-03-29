@@ -2,10 +2,10 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Idées d\'Imprimables Tables de Maths à Vendre — Guide',
+    titleTag: 'Tables de multiplication — Business | LessonCraftStudio',
     metaDescription: 'Idées d\'imprimables calcul mental et tables de maths à vendre sur Etsy, KDP et Gumroad. Stratégies de niche et conseils pour vendeurs ciblant les vendeurs.',
 
-    primaryKeyword: 'idées d\'imprimables tables de maths à vendre',
+    primaryKeyword: 'tables de multiplication imprimables business',
     secondaryKeywords: [
       'fiches calcul mental à vendre',
       'idées business imprimables arithmétique',

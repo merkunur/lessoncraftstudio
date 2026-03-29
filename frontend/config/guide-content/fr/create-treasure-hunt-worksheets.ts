@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'fiches de chasse au trésor',
+    primaryKeyword: 'créer des chasses au trésor à vendre',
     secondaryKeywords: [
       'créer fiches chasse au trésor à vendre',
       'générateur fiches chasse au trésor licence commerciale',
@@ -17,7 +17,7 @@ const content: GuideContent = {
       'cahiers parcours fléché directionnels Amazon KDP',
       'outil chasse au trésor licence commerciale',
     ],
-    titleTag: 'Fiches de Chasse au Trésor — Guide',
+    titleTag: 'Chasses au trésor à vendre en ligne | LessonCraftStudio',
     metaDescription: 'Créez des fiches chasse au trésor sur grille 5×5 avec déplacements directionnels, images-repères et corrigés auto. Guide étape par étape pour Etsy et KDP.',
   },
 

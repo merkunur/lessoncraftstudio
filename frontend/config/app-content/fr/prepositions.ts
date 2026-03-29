@@ -2,28 +2,28 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'générateur fiches prépositions',
+    primaryKeyword: 'fiches de prépositions pour FLE à vendre sur Etsy et Eduki',
     secondaryKeywords: [
-      'fiches de prépositions imprimables pour Etsy',
-      'générateur de fiches de vocabulaire spatial pour Amazon KDP',
-      'vendre des fiches de prépositions sur Gumroad',
-      'fiches prépositions spatiales licence commerciale',
+      'générateur de fiches de prépositions pour vendeurs Etsy',
+      'fiches de vocabulaire spatial FLE pour Amazon KDP',
+      'fiches de prépositions licence commerciale',
+      'créer des fiches FLE pour La Salle des Maîtres et Eduki',
     ],
     lsiKeywords: [
-      'produits numériques de vocabulaire spatial pour entrepreneurs',
-      'activité de fiches de prépositions imprimables en ligne',
-      'générateur de fiches de langage spatial à usage commercial',
+      'licence commerciale 300 DPI prêt à imprimer',
+      'business d\'imprimables fiches FLE vendeurs Etsy',
+      '8 prépositions spatiales 11 langues corrigé automatique',
     ],
-    titleTag: 'Générateur Fiches Prépositions | Créer et Vendre',
+    titleTag: 'Fiches prépositions FLE à vendre sur Etsy | LCS',
     metaDescription:
-      'Créez des fiches de prépositions pour Etsy, KDP et Gumroad. 8 prépositions spatiales, texte à trous et choix multiple, 104 thèmes. Essai gratuit avec filigrane.',
+      'Créez des fiches de prépositions FLE à vendre sur Etsy & Eduki. 8 prépositions, 11 langues, licence commerciale. Testez gratuitement avec filigrane.',
   },
 
   hero: {
-    title: 'Générateur de Fiches de Prépositions pour la Pratique du Vocabulaire Spatial',
+    title: 'Créez des fiches de prépositions FLE à vendre sur Etsy & Eduki',
     tagline: 'Huit prépositions spatiales combinées à des exercices images-et-formes — construisant le vocabulaire spatial phrase après phrase.',
     description:
-      'Concevez des fiches de prépositions professionnelles qui enseignent les relations spatiales à travers des exercices pratiques images-et-formes. Les utilisateurs pratiquent huit prépositions fondamentales — dans, sur, sous, à côté de, derrière, entre, au-dessus de et devant — grâce à deux modes d\'exercice distincts : le Texte à Trous où les utilisateurs complètent la préposition manquante, et le Choix Multiple où les utilisateurs identifient l\'image correspondant à une description spatiale. Sélectionnez les prépositions à inclure depuis la liste de prépositions intégrée et configurez de 1 à 8 exercices par fiche. Parcourez plus de 3 100 illustrations sélectionnées dans 104 thèmes pour les objets positionnés, et choisissez parmi 8 formes géométriques (cercle, cube, cylindre, cœur, hexagone, carré, étoile, triangle) comme points de référence spatiale. L\'Accès Complet déverrouille les 11 langues prises en charge avec des prépositions grammaticalement correctes — l\'allemand avec les contractions datives comme \" im \" et \" am \", le français avec les règles d\'élision pour \" l\' \" devant les voyelles, l\'espagnol avec les articles genrés — multipliant votre catalogue de produits par onze à partir d\'un seul flux de travail. Chaque fiche génère un corrigé automatique, et vous pouvez exporter des PDF prêts à imprimer et des JPEG à plus de 400 DPI en format Letter, A4, Carré ou dimensions personnalisées. Que vous vendiez des packs de prépositions thématiques sur Etsy, compiliez des cahiers de vocabulaire spatial pour Amazon KDP ou créiez des ateliers de langage différenciés pour Gumroad, le Générateur de Fiches de Prépositions produit des résultats professionnels en quelques minutes — essai gratuit avec toutes les fonctionnalités, sans inscription, sans carte bancaire. Les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.',
+      'Créez des fiches de prépositions FLE à vendre sur Etsy, Amazon KDP ou Eduki — des fiches qui enseignent les relations spatiales à travers des exercices pratiques images-et-formes. Les utilisateurs pratiquent huit prépositions fondamentales — dans, sur, sous, à côté de, derrière, entre, au-dessus de et devant — grâce à deux modes d\'exercice distincts : le Texte à Trous où les utilisateurs complètent la préposition manquante, et le Choix Multiple où les utilisateurs identifient l\'image correspondant à une description spatiale. Sélectionnez les prépositions à inclure depuis la liste de prépositions intégrée et configurez de 1 à 8 exercices par fiche. Parcourez plus de 3 100 illustrations sélectionnées dans 104 thèmes pour les objets positionnés, et choisissez parmi 8 formes géométriques (cercle, cube, cylindre, cœur, hexagone, carré, étoile, triangle) comme points de référence spatiale. L\'Accès Complet déverrouille les 11 langues prises en charge avec des prépositions grammaticalement correctes — l\'allemand avec les contractions datives comme \" im \" et \" am \", le français avec les règles d\'élision pour \" l\' \" devant les voyelles, l\'espagnol avec les articles genrés — multipliant votre catalogue de produits par onze à partir d\'un seul flux de travail. Chaque fiche génère un corrigé automatique, et vous pouvez exporter des PDF prêts à imprimer et des JPEG à plus de 400 DPI en format Letter, A4, Carré ou dimensions personnalisées. Que vous vendiez des packs de prépositions thématiques sur Etsy, compiliez des cahiers de vocabulaire spatial pour Amazon KDP ou créiez des ateliers de langage différenciés pour Gumroad, le Générateur de Fiches de Prépositions produit des résultats professionnels en quelques minutes — essai gratuit avec toutes les fonctionnalités, sans inscription, sans carte bancaire. Les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.',
   },
 
   howItWorks: {

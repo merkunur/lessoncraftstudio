@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'créer et vendre des ressources tpt',
+    primaryKeyword: 'vendre des ressources sur La Salle des Maîtres',
     secondaryKeywords: [
       'comment vendre sur Gumroad',
       'créer ressources Gumroad pour vendeurs',
@@ -17,8 +17,8 @@ const content: GuideContent = {
       'Gumroad algorithme recherche tags titre description visibilité classement',
       'pack fiches unité programme activités lot stratégie tarifaire',
     ],
-    titleTag: 'Créer et vendre des ressources Gumroad — Guide',
-    metaDescription: 'Comment créer et vendre des ressources Gumroad. Configuration compte, formatage, optimisation des fiches produit, tarification et lancement. Guide vendeurs Gumroad.',
+    titleTag: 'Vendre sur La Salle des Maîtres | LessonCraftStudio',
+    metaDescription: 'Vendez des ressources sur La Salle des Maîtres et Mieux Enseigner. Configuration, optimisation fiches, tarification. Guide vendeurs LSDM.',
   },
 
   hero: {

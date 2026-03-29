@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'KDP ou Etsy imprimables',
+    primaryKeyword: 'Amazon KDP ou Etsy pour vendre des imprimables',
     secondaryKeywords: [
       'Amazon KDP ou Etsy pour vendre des imprimables',
       'où vendre des fiches imprimables en ligne',
@@ -17,7 +17,7 @@ const content: GuideContent = {
       'stratégie multi-plateforme vente croisée activité imprimables',
       'fiche imprimable livre activités coloriage livre puzzles marché',
     ],
-    titleTag: 'KDP ou Etsy imprimables — Guide comparatif',
+    titleTag: 'KDP vs Etsy : où vendre vos imprimables | LessonCraftStudio',
     metaDescription: 'KDP ou Etsy pour vendeurs d\'imprimables. Comparez frais, formats, mécanismes de trafic et stratégies multi-plateformes pour votre activité d\'imprimables.',
   },
 

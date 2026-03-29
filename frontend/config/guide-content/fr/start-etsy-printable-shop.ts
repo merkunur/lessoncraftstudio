@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'ouvrir une boutique etsy d\'imprimables de zéro',
+    primaryKeyword: 'ouvrir une boutique Etsy d\'imprimables',
     secondaryKeywords: [
       'comment ouvrir une boutique Etsy d\'imprimables',
       'créer boutique Etsy imprimables de zéro',
@@ -17,7 +17,7 @@ const content: GuideContent = {
       'boutique téléchargements numériques conditions de retour Etsy vendeurs',
       'Etsy boutique imprimables stratégie de lancement premiers 30 jours plan de croissance',
     ],
-    titleTag: 'Ouvrir une boutique Etsy d\'imprimables de zéro — Guide',
+    titleTag: 'Ouvrir une boutique Etsy d\'imprimables | LessonCraftStudio',
     metaDescription: 'Ouvrez votre boutique Etsy d\'imprimables avec 33 générateurs. Configuration, image de marque, optimisation annonces, tarification et plan de lancement.',
   },
 

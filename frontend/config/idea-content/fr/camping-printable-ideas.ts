@@ -2,10 +2,10 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Idées d\'Imprimables de Camping à Vendre — Guide',
+    titleTag: 'Imprimables camping — Idées business | LessonCraftStudio',
     metaDescription: 'Découvrez des idées d\'imprimables de camping à vendre sur Etsy, KDP et Gumroad. Concepts de produits plein air, fiches nature et conseils de niche pour vendeurs.',
 
-    primaryKeyword: 'idées d\'imprimables de camping à vendre',
+    primaryKeyword: 'imprimables camping idées business',
     secondaryKeywords: [
       'fiches camping à vendre',
       'idées business imprimables plein air',

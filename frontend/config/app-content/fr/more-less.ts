@@ -2,28 +2,28 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'générateur plus ou moins',
+    primaryKeyword: 'fiches plus grand plus petit générateur pour Etsy',
     secondaryKeywords: [
-      'fiches plus ou moins imprimables pour Etsy',
-      'créateur de fiches de comparaison de nombres pour Amazon KDP',
-      'vendre des fiches plus grand que moins que sur Gumroad',
-      'fiches de comparaison licence commerciale',
+      'générateur de fiches de comparaison pour vendeurs Etsy',
+      'fiches plus ou moins pour Amazon KDP',
+      'fiches comparaison de quantités licence commerciale',
+      'créer des cahiers de comparaison pour La Salle des Maîtres',
     ],
     lsiKeywords: [
-      'produits numériques de comparaison de nombres',
-      'activité de fiches imprimables sens des nombres',
-      'générateur de fiches de comparaison à usage commercial',
+      'licence commerciale 300 DPI prêt à imprimer',
+      'business d\'imprimables fiches comparaison vendeurs',
+      '3 modes de comparaison corrigé automatique 104 thèmes',
     ],
-    titleTag: 'Générateur Plus ou Moins | Fiches de Comparaison',
+    titleTag: 'Fiches plus grand plus petit pour Etsy | LCS',
     metaDescription:
-      'Créez des fiches comparaison de quantités pour Etsy, KDP et Gumroad. 3 modes de comparaison, 104 thèmes, corrigés, export 400+ DPI. Essai gratuit avec filigrane.',
+      'Créez des fiches plus grand plus petit à vendre sur Etsy & KDP. 3 modes de comparaison, licence commerciale. Testez gratuitement avec filigrane.',
   },
 
   hero: {
-    title: 'Générateur de Fiches Plus ou Moins pour la Comparaison Visuelle de Nombres',
+    title: 'Générez des fiches plus grand plus petit pour Etsy & KDP',
     tagline: 'Transformez la comparaison de nombres en découverte visuelle avec des fiches illustrées de plus grand et plus petit.',
     description:
-      'Créez des fiches de comparaison attrayantes qui enseignent aux utilisateurs à identifier quel groupe a plus, quel groupe a moins, et quand deux groupes sont égaux. Choisissez parmi trois modes d\'exercice distincts — Image contre Image, Image contre Nombre et le mode unique Cocher et Barrer les Groupes où les utilisateurs analysent des boîtes d\'images mélangées pour trouver le groupe majoritaire. Basculez entre comparaisons d\'images identiques et différentes, choisissez entre symboles illustrés et symboles mathématiques standards, et puisez dans plus de 3 100 images dans 104 thèmes. Chaque fiche génère un corrigé automatique, et vous pouvez exporter des PDF prêts à imprimer en format Letter, A4 ou personnalisé à plus de 400 DPI. Que vous vendiez des packs thématiques sur Etsy, compiliez des cahiers de comparaison sur Amazon KDP ou créiez des ateliers différenciés pour votre classe, le Générateur Plus ou Moins produit des résultats professionnels en quelques minutes. Essai gratuit avec toutes les fonctionnalités — sans inscription, sans carte bancaire. Les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.',
+      'Créez des fiches plus grand plus petit à vendre sur Etsy, Amazon KDP ou La Salle des Maîtres — des fiches qui permettent aux acheteurs d\'identifier quel groupe a plus, quel groupe a moins, et quand deux groupes sont égaux. Choisissez parmi trois modes d\'exercice distincts — Image contre Image, Image contre Nombre et le mode unique Cocher et Barrer les Groupes où les utilisateurs analysent des boîtes d\'images mélangées pour trouver le groupe majoritaire. Basculez entre comparaisons d\'images identiques et différentes, choisissez entre symboles illustrés et symboles mathématiques standards, et puisez dans plus de 3 100 images dans 104 thèmes. Chaque fiche génère un corrigé automatique, et vous pouvez exporter des PDF prêts à imprimer en format Letter, A4 ou personnalisé à plus de 400 DPI. Que vous vendiez des packs thématiques sur Etsy, compiliez des cahiers de comparaison sur Amazon KDP ou créiez des ateliers différenciés pour votre classe, le Générateur Plus ou Moins produit des résultats professionnels en quelques minutes. Essai gratuit avec toutes les fonctionnalités — sans inscription, sans carte bancaire. Les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.',
   },
 
   howItWorks: {

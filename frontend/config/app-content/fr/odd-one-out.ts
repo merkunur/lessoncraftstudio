@@ -2,28 +2,28 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'générateur fiches intrus',
+    primaryKeyword: 'fiches de l\'intrus à créer et vendre sur Etsy et KDP',
     secondaryKeywords: [
-      'générateur de fiches intrus imprimables pour vendeurs Etsy',
-      'créateur de puzzles trouve l\'intrus pour éditeurs Amazon KDP',
-      'générateur de fiches intrus avec licence commerciale Gumroad',
-      'vendre des fiches intrus sur Gumroad',
+      'générateur de fiches trouve l\'intrus pour vendeurs Etsy',
+      'fiches de l\'intrus pour Amazon KDP',
+      'puzzles trouve l\'intrus licence commerciale',
+      'créer des cahiers de puzzles visuels pour vendeurs',
     ],
     lsiKeywords: [
-      'produits numériques de discrimination visuelle pour entrepreneurs',
-      'générateur de puzzles intrus à usage commercial',
-      'activités de logique imprimables pour entreprise en ligne',
+      'licence commerciale 300 DPI prêt à imprimer',
+      'business d\'imprimables fiches intrus vendeurs Etsy',
+      'modes Identique et Similaire corrigé automatique',
     ],
-    titleTag: 'Générateur Fiches Intrus | Créer & Vendre',
+    titleTag: 'Fiches de l\'intrus à vendre sur Etsy & KDP | LCS',
     metaDescription:
-      'Créez des fiches trouve l\'intrus pour Etsy, KDP et Gumroad. Modes Identique et Similaire, corrigé auto cercles rouges, 104 thèmes. Essai gratuit avec filigrane.',
+      'Créez des fiches de l\'intrus à vendre sur Etsy & KDP. Modes Identique et Similaire, licence commerciale. Testez gratuitement avec filigrane.',
   },
 
   hero: {
-    title: 'Générateur de Fiches Intrus pour des Puzzles Trouve la Différence',
+    title: 'Créez des fiches de l\'intrus à vendre sur Etsy & Amazon KDP',
     tagline: 'Deux modes de génération — Identique et Similaire — avec remplacement du mode par exercice, 5 à 10 exercices configurables, corrigés auto-générés avec marqueurs cercle rouge, et des puzzles purement visuels qui fonctionnent dans les 11 langues sans traduction.',
     description:
-      'Concevez des fiches professionnelles \" Trouve l\'Intrus \" où les utilisateurs identifient et entourent l\'élément différent dans chaque rangée de quatre images. Choisissez entre deux modes de génération : le mode Identique place trois clones de la même image à côté d\'une image différente du même thème pour des défis de discrimination visuelle, tandis que le mode Similaire utilise trois images du Thème A et une image du Thème B pour des puzzles de discrimination inter-thèmes. Remplacez le mode par exercice pour mélanger les niveaux de difficulté sur une seule fiche. Configurez 5 à 10 exercices par page avec 6 par défaut, et activez les champs nom et date optionnels ainsi que les numéros d\'exercices pour un formatage prêt pour la vente. Chaque fiche génère un corrigé compagnon sur un onglet de canevas séparé — le corrigé dessine un cercle rouge autour de l\'élément intrus dans chaque rangée pour ne jamais avoir à marquer les réponses manuellement. L\'en-tête auto-généré présente une bordure extérieure corail, une bordure intérieure ambre et un fond turquoise avec le titre localisé \" Trouve l\'Intrus \" rendu en Fredoka et les instructions en Quicksand dans les 11 langues. Comme les puzzles sont entièrement visuels — aucun mot n\'apparaît sur la fiche elle-même — ils ne sont pas sensibles à la langue et fonctionnent identiquement dans chaque locale. L\'Accès Complet déverrouille les 104 thèmes avec plus de 3 100 illustrations et les 11 langues d\'interface. Ajoutez des thèmes de fond et de bordure avec des contrôles d\'opacité indépendants, et exportez des PDF et JPEG prêts à imprimer à 300 DPI en format Letter, A4, Carré ou dimensions personnalisées. Que vous vendiez des packs de puzzles visuels sur Etsy, compiliez des cahiers de pensée critique pour Amazon KDP ou créiez des activités de classe pour Gumroad, ce générateur produit des fiches intrus prêtes pour la production en quelques minutes — essai gratuit avec toutes les fonctionnalités, sans inscription, sans carte bancaire. Les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.',
+      'Créez des fiches de l\'intrus à vendre sur Etsy, Amazon KDP ou La Salle des Maîtres — des fiches où les acheteurs identifient et entourent l\'élément différent dans chaque rangée de quatre images. Choisissez entre deux modes de génération : le mode Identique place trois clones de la même image à côté d\'une image différente du même thème pour des défis de discrimination visuelle, tandis que le mode Similaire utilise trois images du Thème A et une image du Thème B pour des puzzles de discrimination inter-thèmes. Remplacez le mode par exercice pour mélanger les niveaux de difficulté sur une seule fiche. Configurez 5 à 10 exercices par page avec 6 par défaut, et activez les champs nom et date optionnels ainsi que les numéros d\'exercices pour un formatage prêt pour la vente. Chaque fiche génère un corrigé compagnon sur un onglet de canevas séparé — le corrigé dessine un cercle rouge autour de l\'élément intrus dans chaque rangée pour ne jamais avoir à marquer les réponses manuellement. L\'en-tête auto-généré présente une bordure extérieure corail, une bordure intérieure ambre et un fond turquoise avec le titre localisé \" Trouve l\'Intrus \" rendu en Fredoka et les instructions en Quicksand dans les 11 langues. Comme les puzzles sont entièrement visuels — aucun mot n\'apparaît sur la fiche elle-même — ils ne sont pas sensibles à la langue et fonctionnent identiquement dans chaque locale. L\'Accès Complet déverrouille les 104 thèmes avec plus de 3 100 illustrations et les 11 langues d\'interface. Ajoutez des thèmes de fond et de bordure avec des contrôles d\'opacité indépendants, et exportez des PDF et JPEG prêts à imprimer à 300 DPI en format Letter, A4, Carré ou dimensions personnalisées. Que vous vendiez des packs de puzzles visuels sur Etsy, compiliez des cahiers de pensée critique pour Amazon KDP ou créiez des activités de classe pour Gumroad, ce générateur produit des fiches intrus prêtes pour la production en quelques minutes — essai gratuit avec toutes les fonctionnalités, sans inscription, sans carte bancaire. Les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.',
   },
 
   howItWorks: {

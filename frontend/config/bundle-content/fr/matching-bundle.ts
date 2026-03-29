@@ -2,7 +2,7 @@ import type { BundleContent } from '../types';
 
 const content: BundleContent = {
   seo: {
-    primaryKeyword: 'pack association & tri',
+    primaryKeyword: 'pack appariement et tri pour boutique Etsy',
     secondaryKeywords: [
       'pack générateurs fiches association tri pour vendeurs',
       'kit fiches association imprimables licence commerciale',
@@ -15,7 +15,7 @@ const content: BundleContent = {
       'licence commerciale fiches association',
       'outil création fiches association en masse',
     ],
-    titleTag: 'Pack Association & Tri — 5 Générateurs de Fiches',
+    titleTag: 'Pack appariement & tri pour Etsy | LessonCraftStudio',
     metaDescription: '5 générateurs de fiches d\'association en un pack. Créez fiches association, grille, bingo, tri et ombres à vendre sur Etsy, KDP et Gumroad. Essai gratuit.',
   },
 

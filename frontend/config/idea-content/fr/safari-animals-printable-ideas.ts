@@ -2,10 +2,10 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Imprimables Animaux de Safari à Vendre — Guide de Niche',
+    titleTag: 'Imprimables safari à vendre en ligne | LessonCraftStudio',
     metaDescription: 'Idées d\'imprimables animaux de safari à vendre sur Etsy, Amazon KDP et Gumroad. Concepts produits faune africaine, stratégies plateformes et conseils vendeurs.',
 
-    primaryKeyword: 'imprimables animaux de safari à vendre',
+    primaryKeyword: 'imprimables animaux safari à vendre',
     secondaryKeywords: [
       'fiches animaux de safari à vendre',
       'activité imprimable thème safari business',

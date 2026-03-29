@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'sélection de niche pour activités imprimables',
+    primaryKeyword: 'choisir sa niche d\'imprimables 2026',
     secondaryKeywords: [
       'recherche de niche imprimables',
       'niches imprimables rentables',
@@ -17,7 +17,7 @@ const content: GuideContent = {
       'empilement niches stratégie multi-niches profondeur niche adéquation produit-marché',
       'demande mots-clés volume recherche tendances marketplace signaux intention achat',
     ],
-    titleTag: 'Sélection de Niche pour Activités Imprimables — Guide',
+    titleTag: 'Choisir sa niche d\'imprimables (2026) | LessonCraftStudio',
     metaDescription: 'Sélection de niche pour activités imprimables : rechercher la demande, analyser la concurrence, évaluer la rentabilité, valider et planifier l\'expansion.',
   },
 

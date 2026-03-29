@@ -2,10 +2,10 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Idées Licences en Gros d\'Imprimables — Guide',
+    titleTag: 'Licence en volume — Imprimables | LessonCraftStudio',
     metaDescription: 'Idées de licences en gros d\'imprimables pour vendre des collections de fiches aux écoles et districts. Stratégies de licences en volume pour entrepreneurs.',
 
-    primaryKeyword: 'idées licences en gros d\'imprimables',
+    primaryKeyword: 'licence en volume imprimables business',
     secondaryKeywords: [
       'business licences fiches en gros',
       'licences imprimables districts éducatifs',

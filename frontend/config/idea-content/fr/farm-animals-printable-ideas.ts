@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Imprimables Animaux de la Ferme à Vendre — Guide Niche',
+    titleTag: 'Imprimables ferme à vendre sur Etsy | LessonCraftStudio',
     metaDescription: 'Idées d\'imprimables animaux de la ferme à vendre sur Etsy, Amazon KDP et Gumroad. Concepts produits, stratégies de prix et conseils de plateformes pour vendeurs.',
 
     primaryKeyword: 'imprimables animaux de la ferme à vendre',

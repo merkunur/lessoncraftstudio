@@ -2,10 +2,10 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Idées d\'Imprimables CP à Vendre — Guide de Niche',
+    titleTag: 'Imprimables CP à vendre sur Etsy | LessonCraftStudio',
     metaDescription: 'Idées d\'imprimables CP à vendre sur Etsy, Amazon KDP et Gumroad. Concepts de produits Cours Préparatoire, stratégies de niche et conseils pour les vendeurs.',
 
-    primaryKeyword: 'idées d\'imprimables cp à vendre',
+    primaryKeyword: 'imprimables CP à vendre sur Etsy',
     secondaryKeywords: [
       'fiches CP à vendre',
       'idées business imprimables cours préparatoire',

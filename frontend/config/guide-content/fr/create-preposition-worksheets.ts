@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'fiches de prépositions à imprimer',
+    primaryKeyword: 'créer des fiches de prépositions FLE à vendre',
     secondaryKeywords: [
       'fiches prépositions spatiales à vendre licence commerciale',
       'générateur fiches de prépositions usage commercial Etsy et KDP',
@@ -17,7 +17,7 @@ const content: GuideContent = {
       'cahiers activités langage spatial Amazon KDP',
       'outil fiches prépositions licence commerciale',
     ],
-    titleTag: 'Fiches de Prépositions à Imprimer — Guide Étape par Étape',
+    titleTag: 'Fiches de prépositions FLE à vendre | LessonCraftStudio',
     metaDescription: 'Créez des fiches de prépositions avec deux modes d\'exercice, Remplacement de Formes, grille de 7 prépositions et mots natifs dans 11 langues. Vendez sur Etsy.',
   },
 

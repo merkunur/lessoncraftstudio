@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'créer des fiches d\'addition',
+    primaryKeyword: 'créer des fiches d\'addition à vendre',
     secondaryKeywords: [
       'faire fiches addition pour enfants',
       'générateur fiches addition',
@@ -17,7 +17,7 @@ const content: GuideContent = {
       'cahiers activités maths Amazon KDP',
       'outil fiches avec licence commerciale',
     ],
-    titleTag: 'Créer des fiches d\'addition — Guide étape par étape',
+    titleTag: 'Créer des fiches d\'addition à vendre | LessonCraftStudio',
     metaDescription: 'Comment créer des fiches d\'addition pour enfants. Guide : choisir les thèmes, régler la difficulté, générer les corrigés et exporter des PDF pour Etsy et KDP.',
   },
 

@@ -17,7 +17,7 @@ const content: GuideContent = {
       'ventes croisées navigation catalogue organisation boutique séquençage produits couverture marché',
       'identité visuelle hiérarchie produits produits complémentaires écosystème produits cohésion gamme',
     ],
-    titleTag: 'Créer une gamme de produits imprimables — Guide',
+    titleTag: 'Créer une gamme de produits imprimables | LessonCraftStudio',
     metaDescription: 'Créez une gamme de produits imprimables avec branding cohérent, séquençage stratégique et expansion systématique pour un catalogue professionnel vendeur.',
   },
 

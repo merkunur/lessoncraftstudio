@@ -2,10 +2,10 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Idées de Produits Imprimables Physiques à Vendre — Guide',
+    titleTag: 'Produits imprimés physiques — Business | LessonCraftStudio',
     metaDescription: 'Idées de produits imprimables physiques pour vendeurs Etsy et marchés artisanaux. Créez une activité premium en imprimant, plastifiant et expédiant des.',
 
-    primaryKeyword: 'idées de produits imprimables physiques à vendre',
+    primaryKeyword: 'produits imprimés physiques business',
     secondaryKeywords: [
       'activité fiches imprimées à vendre',
       'produits imprimables physiques à vendre',

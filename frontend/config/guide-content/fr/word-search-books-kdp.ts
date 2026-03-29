@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'livres de mots cachés KDP',
+    primaryKeyword: 'créer des livres de mots mêlés pour KDP',
     secondaryKeywords: [
       'comment créer des livres de mots cachés pour Amazon KDP',
       'guide de publication de livres de mots cachés KDP',
@@ -17,7 +17,7 @@ const content: GuideContent = {
       'série de livres de mots cachés volumes achat répété catalogue',
       'adultes enfants mots cachés marché public formatage de grille',
     ],
-    titleTag: 'Créer des livres de mots cachés KDP — Guide',
+    titleTag: 'Livres de mots mêlés pour Amazon KDP | LessonCraftStudio',
     metaDescription: 'Créez des livres mots cachés KDP avec listes de mots thématiques, formats gros caractères et stratégie de série. Taille de grille et optimisation Amazon.',
   },
 

@@ -2,26 +2,26 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'générateur fiches deviner les mots',
+    primaryKeyword: 'créer des jeux de devinettes gratuit',
     secondaryKeywords: [
-      'créateur de fiches deviner les mots pour vendeurs',
-      'créer des fiches d\'orthographe devinette à vendre',
-      'fiches de construction de mots imprimables licence commerciale',
-      'générateur de fiches deviner les mots pour KDP',
+      'générateur de devinettes de mots gratuit en ligne',
+      'jeux de devinettes gratuit sans inscription',
+      'fiches deviner les mots gratuites PDF',
+      'devinettes de mots gratuit avec corrigé automatique',
     ],
     lsiKeywords: [
-      'imprimables d\'orthographe visuelle pour Etsy.fr',
-      'outil de fiches vocabulaire devinette par images',
-      'générateur d\'activités orthographe multilingue',
+      'essai gratuit avec filigrane sans inscription',
+      'licence commerciale pour vendre sur Etsy',
+      'indices images 4 difficultés 11 langues',
     ],
-    titleTag: 'Générateur Fiches Deviner les Mots | Imprimables',
-    metaDescription: 'Créez des fiches deviner les mots avec 4 niveaux de difficulté, deux modes de saisie, lettres exclues, 11 langues, 104 thèmes. Essai gratuit avec filigrane.',
+    titleTag: 'Jeux de devinettes gratuits en ligne | LessonCraftStudio',
+    metaDescription: 'Créez des jeux de devinettes de mots gratuitement. Indices images, 4 difficultés, sans inscription. Licence commerciale disponible.',
   },
 
   hero: {
-    title: 'Générateur de Fiches Deviner les Mots',
+    title: 'Jeux de devinettes gratuits — créez en ligne',
     tagline: 'Créez des fiches d\'orthographe par images avec 4 niveaux d\'indices dans 11 langues',
-    description: 'Transformez la pratique du vocabulaire en un puzzle visuel que les utilisateurs adorent résoudre. Cet outil génère des fiches deviner les mots où un indice image est associé à une grille de lettres contenant des cases vides — les utilisateurs étudient l\'image et remplissent les lettres manquantes pour épeler le mot qu\'elle représente. La fonctionnalité phare est un système progressif à 4 niveaux d\'indices : Sans Indices ne révèle aucune lettre pour un rappel pur, Facile révèle la moitié des lettres pour un étayage adapté aux débutants, Normal révèle un quart pour un défi équilibré, et Difficile révèle seulement un sixième pour les orthographeurs confirmés. Choisissez entre deux modes de saisie : le mode Indice Image tire le vocabulaire de plus de 3 100 images réparties dans 104 collections thématiques avec génération automatique de la grille de lettres, ou le mode Liste de Mots Personnalisée vous permet de taper n\'importe quels mots directement pour une pratique de vocabulaire ciblée sans images. La fonctionnalité Exclure des Lettres retire des lettres spécifiques des grilles — excluez les voyelles pour des exercices axés sur la phonétique ou excluez les lettres courantes pour un défi accru. La sensibilité linguistique est intégrée : passez du français à l\'une des 11 langues prises en charge et la même image produit une orthographe correcte différente. Une image de chien génère \" CHIEN \" en français, \" DOG \" en anglais, \" HUND \" en allemand, \" PERRO \" en espagnol. Un seul design de fiche devient 11 produits linguistiques uniques avec des réponses véritablement différentes. Définissez la casse en majuscules ou minuscules, activez la numérotation des exercices, ajoutez des superpositions de texte personnalisées et choisissez parmi 7 familles de polices. Exportez en PDF prêt à imprimer ou en JPEG haute résolution avec génération optionnelle de corrigé. L\'essai gratuit inclut un filigrane sur les téléchargements. Achetez une licence pour supprimer le filigrane et vendre à usage commercial.',
+    description: 'Créez des jeux de devinettes de mots gratuitement en ligne — sans inscription, sans carte bancaire. Cet outil génère des fiches deviner les mots où un indice image est associé à une grille de lettres contenant des cases vides — les utilisateurs étudient l\'image et remplissent les lettres manquantes pour épeler le mot qu\'elle représente. La fonctionnalité phare est un système progressif à 4 niveaux d\'indices : Sans Indices ne révèle aucune lettre pour un rappel pur, Facile révèle la moitié des lettres pour un étayage adapté aux débutants, Normal révèle un quart pour un défi équilibré, et Difficile révèle seulement un sixième pour les orthographeurs confirmés. Choisissez entre deux modes de saisie : le mode Indice Image tire le vocabulaire de plus de 3 100 images réparties dans 104 collections thématiques avec génération automatique de la grille de lettres, ou le mode Liste de Mots Personnalisée vous permet de taper n\'importe quels mots directement pour une pratique de vocabulaire ciblée sans images. La fonctionnalité Exclure des Lettres retire des lettres spécifiques des grilles — excluez les voyelles pour des exercices axés sur la phonétique ou excluez les lettres courantes pour un défi accru. La sensibilité linguistique est intégrée : passez du français à l\'une des 11 langues prises en charge et la même image produit une orthographe correcte différente. Une image de chien génère \" CHIEN \" en français, \" DOG \" en anglais, \" HUND \" en allemand, \" PERRO \" en espagnol. Un seul design de fiche devient 11 produits linguistiques uniques avec des réponses véritablement différentes. Définissez la casse en majuscules ou minuscules, activez la numérotation des exercices, ajoutez des superpositions de texte personnalisées et choisissez parmi 7 familles de polices. Exportez en PDF prêt à imprimer ou en JPEG haute résolution avec génération optionnelle de corrigé. L\'essai gratuit inclut un filigrane sur les téléchargements. Achetez une licence pour supprimer le filigrane et vendre à usage commercial.',
   },
 
   tutorial: {

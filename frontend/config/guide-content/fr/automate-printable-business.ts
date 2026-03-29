@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'automatiser votre activité d\'imprimables',
+    primaryKeyword: 'automatiser son business d\'imprimables',
     secondaryKeywords: [
       'automatisation business imprimables',
       'automatiser création fiches',
@@ -17,7 +17,7 @@ const content: GuideContent = {
       'workflow rationalisé standardisation processus efficacité opérationnelle regroupement tâches',
       'systèmes production processus évolutifs gestion catalogue conception workflow',
     ],
-    titleTag: 'Automatiser votre activité d\'imprimables — Guide pratique',
+    titleTag: 'Automatiser son business d\'imprimables | LessonCraftStudio',
     metaDescription: 'Comment automatiser votre business d\'imprimables avec la production par lots, les modèles et les workflows. Gagnez du temps et augmentez votre production.',
   },
 

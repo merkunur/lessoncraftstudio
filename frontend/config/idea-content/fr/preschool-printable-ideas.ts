@@ -2,10 +2,10 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Idées d\'Imprimables Préscolaires à Vendre — Guide',
+    titleTag: 'Imprimables maternelle pour Etsy | LessonCraftStudio',
     metaDescription: 'Découvrez des idées d\'imprimables préscolaires à vendre sur Etsy, KDP et Gumroad. Concepts produits marché préscolaire, stratégies de niche et conseils pour.',
 
-    primaryKeyword: 'idées d\'imprimables préscolaires à vendre',
+    primaryKeyword: 'imprimables maternelle à vendre sur Etsy',
     secondaryKeywords: [
       'fiches marché préscolaire à vendre',
       'idées business imprimables pré-marché préscolaire',

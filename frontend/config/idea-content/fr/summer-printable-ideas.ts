@@ -2,10 +2,10 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Idées d\'Imprimables d\'Été à Vendre — Guide Niche',
+    titleTag: 'Imprimables d\'été — Idées business | LessonCraftStudio',
     metaDescription: 'Découvrez des idées d\'imprimables d\'été à vendre sur Etsy, KDP et Gumroad. Concepts de produits plage et soleil, stratégies saisonnières et conseils vendeurs.',
 
-    primaryKeyword: 'idées d\'imprimables d\'été à vendre',
+    primaryKeyword: 'imprimables d\'été idées business',
     secondaryKeywords: [
       'fiches thème été à vendre',
       'idées business imprimables été',

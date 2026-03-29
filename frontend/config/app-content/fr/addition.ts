@@ -2,28 +2,29 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'générateur de fiches d\'addition',
+    primaryKeyword: 'créer des fiches d\'addition à vendre sur Etsy',
     secondaryKeywords: [
-      'fiches d\'addition imprimables pour Etsy',
-      'générateur de fiches de maths pour Amazon KDP',
-      'vendre des fiches d\'addition sur Gumroad',
-      'fiches d\'addition licence commerciale',
+      'générateur de fiches d\'addition pour vendeurs Etsy',
+      'fiches de calcul addition pour Amazon KDP',
+      'exercices d\'addition imprimables licence commerciale',
+      'fiches mathématiques à vendre en ligne',
+      'créer des cahiers d\'addition pour KDP',
     ],
     lsiKeywords: [
-      'produits numériques de maths pour entrepreneurs',
-      'activité de fiches imprimables en ligne',
-      'générateur de fiches à usage commercial',
+      'licence commerciale 300 DPI prêt à imprimer',
+      'business d\'imprimables marché francophone',
+      'corrigé inclus images thématiques revenu passif',
     ],
-    titleTag: 'Générateur de Fiches d\'Addition | Créer et Vendre',
+    titleTag: 'Fiches d\'addition à vendre sur Etsy | LCS',
     metaDescription:
-      'Créez des fiches d\'addition à vendre sur Etsy, KDP et Gumroad. 104 thèmes, 4 modes d\'exercice, corrigés inclus, export 400+ DPI. Essai gratuit avec filigrane.',
+      'Créez des fiches d\'addition professionnelles à vendre sur Etsy & KDP. Licence commerciale incluse. Testez gratuitement avec filigrane — sans inscription.',
   },
 
   hero: {
-    title: 'Générateur de Fiches d\'Addition pour l\'Apprentissage Visuel des Maths',
+    title: 'Créez et vendez des fiches d\'addition sur Etsy & Amazon KDP',
     tagline: 'Transformez l\'addition en aventure captivante avec des fiches de maths basées sur les images.',
     description:
-      'Créez de superbes fiches d\'addition basées sur les images qui rendent les premières notions de mathématiques concrètes et amusantes. Choisissez parmi quatre modes d\'exercice distincts — Image + Image, Image + Nombre, Trouver l\'Addende et Mode Mixte — pour s\'adapter à chaque niveau, de la maternelle au CE1. Parcourez plus de 3 100 illustrations sélectionnées dans 104 thèmes comme les animaux de la ferme, les véhicules et la nourriture pour donner vie à chaque problème. Chaque fiche inclut un corrigé automatique, et vous pouvez exporter des PDF prêts à imprimer en format Letter, A4 ou personnalisé à plus de 400 DPI. Que vous vendiez sur Etsy, publiiez des cahiers d\'activités sur Amazon KDP ou distribuiez des fiches à vos propres utilisateurs, le Générateur de Fiches d\'Addition produit des résultats professionnels en quelques minutes. Essai gratuit avec toutes les fonctionnalités — sans inscription, sans carte bancaire. Les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.',
+      'Créez des fiches d\'addition à vendre sur Etsy, Amazon KDP ou La Salle des Maîtres — et générez-les en moins de 3 minutes. Ce générateur crée des exercices d\'addition illustrés avec plus de 3 000 images thématiques que les enfants adorent et que les parents achètent. Choisissez un thème, réglez le niveau de difficulté, et exportez des PDF haute résolution (300 DPI) avec corrigés automatiques, prêts à vendre. Chaque fiche inclut une licence commerciale complète — aucune attribution requise, aucune redevance. Le marché francophone des fiches imprimables sur Etsy est nettement moins concurrentiel que le marché anglophone : avec 321 millions de francophones dans le monde et très peu de vendeurs proposant du contenu éducatif en français, c\'est une opportunité majeure pour lancer votre business d\'imprimables. Testez gratuitement — les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.',
   },
 
   howItWorks: {

@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'fiches objets cachés à imprimer',
+    primaryKeyword: 'créer des cherche et trouve à vendre',
     secondaryKeywords: [
       'générateur scènes objets cachés',
       'fiches Cherche et Trouve pour enfants à vendre',
@@ -17,7 +17,7 @@ const content: GuideContent = {
       'cahiers cherche et trouve Amazon KDP',
       'créateur scènes objets cachés licence commerciale',
     ],
-    titleTag: 'Fiches objets cachés à imprimer — Guide',
+    titleTag: 'Cherche et trouve à vendre en ligne | LessonCraftStudio',
     metaDescription: 'Créez des fiches objets cachés avec deux modes de jeu : Cherche et Trouve et Trouve l\'intrus. Scènes thématiques, corrigés auto et vente sur Etsy et KDP.',
   },
 

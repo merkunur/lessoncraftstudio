@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'livres d\'activités maths KDP',
+    primaryKeyword: 'créer des cahiers de maths pour Amazon KDP',
     secondaryKeywords: [
       'comment créer des livres d\'activités maths pour Amazon KDP',
       'guide de publication KDP cahiers de maths',
@@ -17,7 +17,7 @@ const content: GuideContent = {
       'cahier de maths nombre de pages progression de difficulté corrigés',
       'KDP publication processus de vérification épreuve exemplaires auteur',
     ],
-    titleTag: 'Créer des livres d\'activités maths KDP — Guide',
+    titleTag: 'Cahiers de maths pour Amazon KDP | LessonCraftStudio',
     metaDescription: 'Créez des livres d\'activités maths KDP pour gagner des redevances. Formatage de manuscrit, design de couverture et optimisation des mots-clés sur Amazon.',
   },
 

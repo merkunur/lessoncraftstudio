@@ -2,28 +2,28 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'générateur chasse au trésor',
+    primaryKeyword: 'générateur de chasses au trésor pour Etsy et KDP',
     secondaryKeywords: [
-      'créer des fiches chasse au trésor à vendre sur Etsy',
-      'générateur de puzzles directionnels pour éditeurs Amazon KDP',
-      'fiches chasse au trésor grille de coordonnées licence commerciale',
-      'vendre des fiches chasse au trésor sur Gumroad',
+      'créer des fiches chasse au trésor pour boutique Etsy',
+      'fiches de chasses au trésor pour Amazon KDP',
+      'chasses au trésor imprimables licence commerciale',
+      'créer des cahiers de chasses au trésor pour vendeurs',
     ],
     lsiKeywords: [
-      'produits numériques chasse au trésor imprimables pour entrepreneurs',
-      'générateur de puzzles directionnels à usage commercial',
-      'fiches recherche de chemin imprimables avec corrigé automatique',
+      'licence commerciale 300 DPI prêt à imprimer',
+      'business d\'imprimables chasses au trésor vendeurs',
+      'grille 5×5 deux modes de direction corrigé automatique',
     ],
-    titleTag: 'Générateur Chasse au Trésor | Créer & Vendre',
+    titleTag: 'Chasses au trésor pour Etsy & KDP | LCS',
     metaDescription:
-      'Créez des fiches chasse au trésor pour Etsy, KDP et Gumroad. Grille 5×5, deux types de directions, corrigé auto, 104 thèmes. Essai gratuit avec filigrane.',
+      'Créez des chasses au trésor à vendre sur Etsy & KDP. Grille 5×5, deux modes de direction, licence commerciale. Testez gratuitement avec filigrane.',
   },
 
   hero: {
-    title: 'Générateur de Fiches Chasse au Trésor pour Puzzles Directionnels de Recherche de Chemin',
+    title: 'Créez des chasses au trésor à vendre sur Etsy & Amazon KDP',
     tagline: 'Générez des puzzles directionnels de recherche de chemin sur une grille de coordonnées 5×5 — deux vocabulaires de direction (Mode Simple : haut/bas/gauche/droite et Mode Cardinal : nord/sud/est/ouest), indices directionnels entièrement localisés dans 11 langues, corrigé auto-généré avec emplacement du trésor surligné, et en-têtes thématiques chasse au trésor sur 104 collections d\'images.',
     description:
-      'Créez des fiches professionnelles de chasse au trésor où les utilisateurs suivent des indices de déplacement séquentiels pour localiser un trésor caché sur une grille de coordonnées 5×5 à lettres et chiffres (lignes A–E, colonnes 1–5). Chaque puzzle disperse 6 images thématiques dans la grille comme repères visuels, puis génère une position de départ et exactement 4 déplacements directionnels menant à la case du trésor. Choisissez entre deux vocabulaires de direction : le Mode Simple utilise haut, bas, gauche et droite pour les jeunes apprenants, tandis que le Mode Cardinal utilise nord, sud, est et ouest pour un raisonnement spatial plus avancé. Le Générateur de Chasse au Trésor est sensible à la langue : changer de langue modifie à la fois le texte des instructions directionnelles et le contenu des images, toutes les directions étant entièrement traduites dans les 11 langues prises en charge. Chaque puzzle inclut un en-tête localisé auto-généré avec un fond bleu-vert (#2C8C7C), un titre doré (#D4A017) en police Fredoka et une description sable en police Quicksand — affichant \" Chasse au Trésor \" et \" Suis les indices et trouve le trésor ! \" dans la langue sélectionnée. Le système à double canevas génère à la fois un onglet fiche et un onglet corrigé — le corrigé met en surbrillance la case finale du trésor en jaune pâle pour que vous n\'ayez jamais à la marquer manuellement. L\'Accès Complet déverrouille les 104 thèmes avec plus de 3 100 illustrations et les 11 langues pour les directions et images localisées. Ajoutez des thèmes de fond et des thèmes de bordure avec des contrôles d\'opacité indépendants, et exportez des PDF prêts à imprimer et des JPEG à 300 DPI en format Letter, A4, Carré (1200×1200) ou dimensions personnalisées. Que vous vendiez des packs de chasse au trésor sur Etsy, compiliez des cahiers de compétences directionnelles pour Amazon KDP ou créiez des activités de grille de coordonnées pour Gumroad, ce générateur produit des puzzles professionnels en quelques minutes — essai gratuit avec toutes les fonctionnalités, sans inscription, sans carte bancaire. Les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.',
+      'Créez des chasses au trésor à vendre sur Etsy, Amazon KDP ou La Salle des Maîtres — des puzzles directionnels où les acheteurs suivent des indices de déplacement séquentiels pour localiser un trésor caché sur une grille de coordonnées 5×5 à lettres et chiffres (lignes A–E, colonnes 1–5). Chaque puzzle disperse 6 images thématiques dans la grille comme repères visuels, puis génère une position de départ et exactement 4 déplacements directionnels menant à la case du trésor. Choisissez entre deux vocabulaires de direction : le Mode Simple utilise haut, bas, gauche et droite pour les jeunes apprenants, tandis que le Mode Cardinal utilise nord, sud, est et ouest pour un raisonnement spatial plus avancé. Le Générateur de Chasse au Trésor est sensible à la langue : changer de langue modifie à la fois le texte des instructions directionnelles et le contenu des images, toutes les directions étant entièrement traduites dans les 11 langues prises en charge. Chaque puzzle inclut un en-tête localisé auto-généré avec un fond bleu-vert (#2C8C7C), un titre doré (#D4A017) en police Fredoka et une description sable en police Quicksand — affichant \" Chasse au Trésor \" et \" Suis les indices et trouve le trésor ! \" dans la langue sélectionnée. Le système à double canevas génère à la fois un onglet fiche et un onglet corrigé — le corrigé met en surbrillance la case finale du trésor en jaune pâle pour que vous n\'ayez jamais à la marquer manuellement. L\'Accès Complet déverrouille les 104 thèmes avec plus de 3 100 illustrations et les 11 langues pour les directions et images localisées. Ajoutez des thèmes de fond et des thèmes de bordure avec des contrôles d\'opacité indépendants, et exportez des PDF prêts à imprimer et des JPEG à 300 DPI en format Letter, A4, Carré (1200×1200) ou dimensions personnalisées. Que vous vendiez des packs de chasse au trésor sur Etsy, compiliez des cahiers de compétences directionnelles pour Amazon KDP ou créiez des activités de grille de coordonnées pour Gumroad, ce générateur produit des puzzles professionnels en quelques minutes — essai gratuit avec toutes les fonctionnalités, sans inscription, sans carte bancaire. Les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.',
   },
 
   howItWorks: {

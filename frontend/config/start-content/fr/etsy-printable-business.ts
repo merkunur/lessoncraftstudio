@@ -2,7 +2,7 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'vendre des imprimables sur Etsy',
+    primaryKeyword: 'masterclass business Etsy imprimables',
     secondaryKeywords: [
       'activité imprimables Etsy',
       'boutique Etsy fiches imprimables',
@@ -17,7 +17,7 @@ const content: StartContent = {
       'générateur de fiches pour vendeurs Etsy',
       'stratégie tarifaire imprimables Etsy',
     ],
-    titleTag: 'Vendre des Imprimables sur Etsy — Masterclass Complète',
+    titleTag: 'Masterclass Etsy imprimables | LessonCraftStudio',
     metaDescription: 'Comment vendre des imprimables sur Etsy étape par étape. Création de boutique, SEO Etsy, optimisation d\'annonces, tarification et générateurs de fiches.',
   },
 

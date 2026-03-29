@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'imprimables numériques ou physiques',
+    primaryKeyword: 'imprimables numériques vs physiques comparaison',
     secondaryKeywords: [
       'modèle commercial imprimables numériques',
       'impression à la demande ou téléchargement numérique',
@@ -17,7 +17,7 @@ const content: GuideContent = {
       'revenus récurrents coûts impression emballage contrôle qualité produit',
       'sélection format comparaison modèle commercial stratégie vendeur trajectoire croissance',
     ],
-    titleTag: 'Imprimables numériques ou physiques — Guide vendeur',
+    titleTag: 'Numérique vs physique : imprimables | LessonCraftStudio',
     metaDescription: 'Comparaison imprimables numériques vs physiques pour vendeurs : marges bénéficiaires, évolutivité, logistique et choix du bon format pour votre activité.',
   },
 

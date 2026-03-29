@@ -2,28 +2,28 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'puzzles algébriques illustrés',
+    primaryKeyword: 'générateur de fiches de calcul pour vendeurs Etsy et KDP',
     secondaryKeywords: [
-      'puzzles algébriques imprimables pour vendeurs Etsy',
-      'générateur d\'énigmes algébriques pour éditeurs Amazon KDP',
-      'vendre des fiches de puzzles algébriques sur Gumroad',
-      'puzzles algébriques en images licence commerciale',
+      'fiches de maths imprimables pour boutique Etsy',
+      'générateur de fiches algébriques pour Amazon KDP',
+      'exercices de calcul licence commerciale à vendre',
+      'fiches d\'équations visuelles pour La Salle des Maîtres',
     ],
     lsiKeywords: [
-      'produits numériques d\'algèbre pour entrepreneurs',
-      'activité de puzzles d\'équations imprimables en ligne',
-      'générateur de fiches algébriques à usage commercial',
+      'licence commerciale 300 DPI résolution d\'équations',
+      'business d\'imprimables fiches de maths marché francophone',
+      'corrigé automatique puzzles algébriques revenu passif',
     ],
-    titleTag: 'Puzzles Algébriques Illustrés | Créer et Vendre',
+    titleTag: 'Fiches de calcul pour vendeurs Etsy & KDP | LCS',
     metaDescription:
-      'Créez des puzzles algébriques illustrés pour Etsy, KDP et Gumroad. Images comme variables, 4 niveaux de difficulté, solution unique. Essai gratuit avec filigrane.',
+      'Créez des fiches de calcul algébriques à vendre sur Etsy & KDP. 4 niveaux, solution unique, licence commerciale. Testez gratuitement avec filigrane.',
   },
 
   hero: {
-    title: 'Générateur de Puzzles Algébriques Illustrés pour la Résolution d\'Équations Visuelles',
+    title: 'Générez des fiches de calcul à vendre sur Etsy & Amazon KDP',
     tagline: 'Transformez l\'algèbre en aventure visuelle — les images deviennent des variables et chaque puzzle a exactement une solution.',
     description:
-      'Créez des fiches captivantes de puzzles algébriques illustrés où des images remplacent les variables inconnues dans des systèmes d\'équations. Les utilisateurs résolvent des équations liées pour déterminer la valeur que chaque image représente — transformant l\'algèbre abstraite en une expérience concrète et visuelle. Choisissez parmi quatre niveaux de difficulté : Très Facile et Facile utilisent deux symboles, Moyen en introduit trois, et Difficile met les apprenants au défi avec quatre inconnues simultanées. Sélectionnez des problèmes en addition uniquement ou ajoutez la soustraction pour une pratique avancée, et ajustez les plages de nombres de 0 à 20 avec une option pour autoriser les résultats négatifs. Le solveur algébrique intégré garantit que chaque puzzle a exactement une solution correcte — aucune ambiguïté, aucune devinette. Parcourez plus de 3 100 illustrations sélectionnées dans 104 thèmes pour servir de symboles algébriques, ou téléchargez vos propres images pour un rendu personnalisé. Chaque fiche génère un corrigé automatique, et vous pouvez exporter des PDF prêts à imprimer et des JPEG à plus de 400 DPI en format Letter, A4 ou personnalisé. Que vous vendiez des packs de puzzles thématiques sur Etsy, compiliez des cahiers d\'algèbre progressive sur Amazon KDP ou créiez des ateliers de maths différenciés pour votre classe, le Générateur de Puzzles Algébriques produit des résultats professionnels en quelques minutes — essai gratuit avec toutes les fonctionnalités, sans inscription, sans carte bancaire. Les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.',
+      'Créez des fiches de calcul algébriques à vendre sur Etsy, Amazon KDP ou La Salle des Maîtres — des puzzles d\'équations visuelles où des images remplacent les variables inconnues. Les utilisateurs résolvent des équations liées pour déterminer la valeur que chaque image représente — transformant l\'algèbre abstraite en une expérience concrète et visuelle. Choisissez parmi quatre niveaux de difficulté : Très Facile et Facile utilisent deux symboles, Moyen en introduit trois, et Difficile met les apprenants au défi avec quatre inconnues simultanées. Sélectionnez des problèmes en addition uniquement ou ajoutez la soustraction pour une pratique avancée, et ajustez les plages de nombres de 0 à 20 avec une option pour autoriser les résultats négatifs. Le solveur algébrique intégré garantit que chaque puzzle a exactement une solution correcte — aucune ambiguïté, aucune devinette. Parcourez plus de 3 100 illustrations sélectionnées dans 104 thèmes pour servir de symboles algébriques, ou téléchargez vos propres images pour un rendu personnalisé. Chaque fiche génère un corrigé automatique, et vous pouvez exporter des PDF prêts à imprimer et des JPEG à plus de 400 DPI en format Letter, A4 ou personnalisé. Que vous vendiez des packs de puzzles thématiques sur Etsy, compiliez des cahiers d\'algèbre progressive sur Amazon KDP ou créiez des ateliers de maths différenciés pour votre classe, le Générateur de Puzzles Algébriques produit des résultats professionnels en quelques minutes — essai gratuit avec toutes les fonctionnalités, sans inscription, sans carte bancaire. Les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.',
   },
 
   howItWorks: {

@@ -2,28 +2,29 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'générateur fiches mots cachés',
+    primaryKeyword: 'générateur de mots mêlés à vendre sur Etsy et KDP',
     secondaryKeywords: [
-      'fiches mots cachés imprimables pour vendeurs Etsy',
-      'générateur de grilles de mots cachés pour Amazon KDP',
-      'vendre des fiches mots cachés sur Gumroad',
-      'fiches mots cachés avec corrigé code couleur licence commerciale',
+      'créer des mots mêlés pour boutique Etsy',
+      'grilles de mots mêlés pour Amazon KDP',
+      'mots cachés imprimables licence commerciale',
+      'cahiers de mots mêlés pour La Salle des Maîtres',
+      'générateur de mots mêlés avec images à vendre',
     ],
     lsiKeywords: [
-      'produits numériques de grilles de mots cachés pour entrepreneurs',
-      'activité de fiches recherche de mots imprimables en ligne',
-      'générateur de fiches mots cachés à usage commercial',
+      'licence commerciale 300 DPI prêt à imprimer',
+      'business d\'imprimables mots mêlés vendeurs Etsy',
+      'corrigé code couleur grilles configurables 11 langues',
     ],
-    titleTag: 'Générateur Fiches Mots Cachés | Créer et Vendre',
+    titleTag: 'Mots mêlés à vendre sur Etsy & KDP | LCS',
     metaDescription:
-      'Créez des fiches mots cachés pour Etsy, KDP et Gumroad. Grille 5×5 à 30×30, directions diagonales, lettres adaptées à la langue. Essai gratuit avec filigrane.',
+      'Créez des mots mêlés à vendre sur Etsy & KDP. Grilles 5×5 à 30×30, 11 langues, licence commerciale. Testez gratuitement avec filigrane.',
   },
 
   hero: {
-    title: 'Générateur de Fiches Mots Cachés pour des Grilles de Recherche de Mots',
+    title: 'Générez des mots mêlés à vendre sur Etsy, KDP & plus',
     tagline: 'Des grilles ajustables de 5×5 à 30×30 avec contrôles de direction diagonale et inversée — construisez le niveau de difficulté parfait pour chaque public.',
     description:
-      'Concevez des fiches professionnelles de mots cachés où des mots sont dissimulés dans une grille de lettres de remplissage aléatoires et les utilisateurs parcourent les lignes, les colonnes et les diagonales pour les trouver — le format de puzzle classique qui ne se démode jamais. Choisissez parmi trois sources de contenu : la Bibliothèque d\'Images intégrée avec plus de 3 100 illustrations réparties dans 104 thèmes, le Mode Édition Manuelle où vous sélectionnez des images puis personnalisez les noms d\'affichage, ou le mode Liste de Mots Personnalisée pour des puzzles textuels utilisant jusqu\'à 8 mots que vous saisissez directement. Ajustez la grille de 5×5 pour des échauffements rapides à 30×30 pour des défis sérieux, et activez ou désactivez les mots en diagonale et les mots inversés (à l\'envers) pour affiner la difficulté sur quatre à huit directions de placement possibles. Trois modes d\'affichage — mots plus images, images uniquement, ou mots uniquement — contrôlent comment les indices apparaissent à côté de la grille. L\'Accès Complet déverrouille les 11 langues prises en charge où les mots cachés ET les lettres de remplissage de la grille changent selon la langue : les grilles allemandes incluent ä, ö, ü à des fréquences naturelles pondérées, les grilles françaises incluent é, è, ç, à, et chaque autre langue utilise son jeu de caractères authentique. Un corrigé avec code couleur met en évidence chaque mot trouvé dans l\'une de six couleurs alternées pour une vérification visuelle instantanée. Exportez des PDF prêts à imprimer et des JPEG à plus de 400 DPI en format Letter, A4 ou dimensions personnalisées. Que vous vendiez des packs de puzzles thématiques sur Etsy, compiliez des cahiers de mots cachés pour Amazon KDP ou créiez des ateliers de vocabulaire différenciés pour Gumroad, le Générateur de Fiches Mots Cachés produit des résultats professionnels en quelques minutes — essai gratuit avec toutes les fonctionnalités, sans inscription, sans carte bancaire. Les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.',
+      'Créez des mots mêlés à vendre sur Etsy, Amazon KDP ou La Salle des Maîtres — le format de puzzle classique qui ne se démode jamais et génère des ventes toute l\'année. Choisissez parmi trois sources de contenu : la Bibliothèque d\'Images intégrée avec plus de 3 100 illustrations réparties dans 104 thèmes, le Mode Édition Manuelle où vous sélectionnez des images puis personnalisez les noms d\'affichage, ou le mode Liste de Mots Personnalisée pour des puzzles textuels utilisant jusqu\'à 8 mots que vous saisissez directement. Ajustez la grille de 5×5 pour des échauffements rapides à 30×30 pour des défis sérieux, et activez ou désactivez les mots en diagonale et les mots inversés (à l\'envers) pour affiner la difficulté sur quatre à huit directions de placement possibles. Trois modes d\'affichage — mots plus images, images uniquement, ou mots uniquement — contrôlent comment les indices apparaissent à côté de la grille. L\'Accès Complet déverrouille les 11 langues prises en charge où les mots cachés ET les lettres de remplissage de la grille changent selon la langue : les grilles allemandes incluent ä, ö, ü à des fréquences naturelles pondérées, les grilles françaises incluent é, è, ç, à, et chaque autre langue utilise son jeu de caractères authentique. Un corrigé avec code couleur met en évidence chaque mot trouvé dans l\'une de six couleurs alternées pour une vérification visuelle instantanée. Exportez des PDF prêts à imprimer et des JPEG à plus de 400 DPI en format Letter, A4 ou dimensions personnalisées. Que vous vendiez des packs de puzzles thématiques sur Etsy, compiliez des cahiers de mots cachés pour Amazon KDP ou créiez des ateliers de vocabulaire différenciés pour Gumroad, le Générateur de Fiches Mots Cachés produit des résultats professionnels en quelques minutes — essai gratuit avec toutes les fonctionnalités, sans inscription, sans carte bancaire. Les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.',
   },
 
   howItWorks: {

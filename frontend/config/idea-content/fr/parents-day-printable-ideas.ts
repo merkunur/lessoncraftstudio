@@ -2,9 +2,9 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Idées d\'Imprimables Fête des Parents — Guide',
+    titleTag: 'Imprimables fête des parents à vendre | LessonCraftStudio',
     metaDescription: 'Découvrez des idées d\'imprimables Fête des Mères et Fête des Pères à vendre sur Etsy, KDP et Gumroad. Concepts produits et conseils vendeurs pour les deux fêtes.',
-    primaryKeyword: 'idées d\'imprimables fête des parents',
+    primaryKeyword: 'imprimables fête des mères pères à vendre',
     secondaryKeywords: [
       'fiches Fête des Mères à vendre',
       'idées business imprimables Fête des Pères',

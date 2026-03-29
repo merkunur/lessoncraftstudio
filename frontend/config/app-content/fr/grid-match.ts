@@ -2,28 +2,28 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'générateur de puzzles grille',
+    primaryKeyword: 'puzzles de grille d\'appariement pour business d\'imprimables',
     secondaryKeywords: [
-      'générateur de puzzles grille imprimables pour vendeurs Etsy',
-      'créateur de puzzles de correspondance par tuiles pour éditeurs Amazon KDP',
-      'générateur de puzzles grille avec licence commerciale',
-      'vendre des puzzles grille d\'images sur Gumroad',
+      'générateur de puzzles grille pour vendeurs Etsy',
+      'puzzles de correspondance par tuiles pour Amazon KDP',
+      'fiches de puzzles grille licence commerciale',
+      'créer des cahiers de puzzles visuels pour vendeurs',
     ],
     lsiKeywords: [
-      'produits numériques de puzzles grille pour entrepreneurs',
-      'générateur de puzzles de tuiles d\'images à usage commercial',
-      'activités de perception visuelle imprimables pour entreprise en ligne',
+      'licence commerciale 300 DPI prêt à imprimer',
+      'business d\'imprimables puzzles grille vendeurs Etsy',
+      'cases-indices configurables corrigé automatique 104 thèmes',
     ],
-    titleTag: 'Générateur de Puzzles Grille | Créer et Vendre',
+    titleTag: 'Puzzles grille pour business d\'imprimables | LCS',
     metaDescription:
-      'Créez des puzzles grille à vendre sur Etsy, KDP et Gumroad. Taille configurable, cases-indices ajustables, corrigé auto, 104 thèmes. Essai gratuit avec filigrane.',
+      'Créez des puzzles de grille à vendre sur Etsy & KDP. Taille configurable, cases-indices, licence commerciale. Testez gratuitement avec filigrane.',
   },
 
   hero: {
-    title: 'Générateur de Puzzles Grille pour des Activités de Correspondance par Tuiles d\'Images',
+    title: 'Créez des puzzles de grille à vendre sur Etsy & KDP',
     tagline: 'Transformez n\'importe quelle image en puzzle à base de grille — divisez-la en tuiles, révélez des cases-indices configurables, mélangez les tuiles restantes dans une palette numérotée, et générez automatiquement un corrigé avec des cercles numérotés superposés à travers 104 collections d\'images thématiques.',
     description:
-      'Concevez des puzzles grille professionnels où une image unique est divisée en une grille de tuiles et les utilisateurs associent les tuiles numérotées à leurs positions correctes. Configurez la grille de 2×2 à 4×4 (2–4 lignes × 2–4 colonnes) et définissez 1–5 cases-indices qui restent visibles comme indices — moins d\'indices signifie un puzzle plus difficile. L\'application mélange les tuiles restantes à l\'aide de l\'algorithme Fisher-Yates et les affiche dans une palette numérotée à côté ou en dessous de la grille. Les utilisateurs étudient les cases-indices révélées, examinent les tuiles numérotées et écrivent quel numéro correspond à chaque cellule vide. Le système à double canevas génère à la fois un onglet fiche de travail et un onglet corrigé — le corrigé affiche l\'image complète avec des cercles numérotés superposés sur chaque cellule montrant le placement correct des tuiles, vous n\'avez donc jamais à créer de corrigé manuellement. Le Puzzle Grille n\'est PAS sensible à la langue : le résultat du puzzle est purement visuel, sans contenu textuel localisé sur la fiche elle-même. L\'Accès Complet déverrouille les 104 thèmes avec plus de 3 100 illustrations et les 11 langues d\'interface. Ajoutez des thèmes de fond et de bordure avec des contrôles d\'opacité indépendants, insérez du texte personnalisé avec sept options de police, et exportez des PDF et JPEG prêts à imprimer à 300 DPI en format Letter, A4 ou dimensions personnalisées. Que vous vendiez des packs de puzzles d\'images sur Etsy, compiliez des cahiers de perception visuelle pour Amazon KDP ou créiez des activités de puzzles rapides de fin de cours pour Gumroad, ce générateur produit des puzzles grille prêts pour la production en quelques minutes — essai gratuit avec toutes les fonctionnalités, sans inscription, sans carte bancaire. Les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.',
+      'Créez des puzzles de grille d\'appariement à vendre sur Etsy, Amazon KDP ou La Salle des Maîtres — des puzzles où une image est divisée en tuiles et les acheteurs associent les tuiles numérotées à leurs positions correctes. Configurez la grille de 2×2 à 4×4 (2–4 lignes × 2–4 colonnes) et définissez 1–5 cases-indices qui restent visibles comme indices — moins d\'indices signifie un puzzle plus difficile. L\'application mélange les tuiles restantes à l\'aide de l\'algorithme Fisher-Yates et les affiche dans une palette numérotée à côté ou en dessous de la grille. Les utilisateurs étudient les cases-indices révélées, examinent les tuiles numérotées et écrivent quel numéro correspond à chaque cellule vide. Le système à double canevas génère à la fois un onglet fiche de travail et un onglet corrigé — le corrigé affiche l\'image complète avec des cercles numérotés superposés sur chaque cellule montrant le placement correct des tuiles, vous n\'avez donc jamais à créer de corrigé manuellement. Le Puzzle Grille n\'est PAS sensible à la langue : le résultat du puzzle est purement visuel, sans contenu textuel localisé sur la fiche elle-même. L\'Accès Complet déverrouille les 104 thèmes avec plus de 3 100 illustrations et les 11 langues d\'interface. Ajoutez des thèmes de fond et de bordure avec des contrôles d\'opacité indépendants, insérez du texte personnalisé avec sept options de police, et exportez des PDF et JPEG prêts à imprimer à 300 DPI en format Letter, A4 ou dimensions personnalisées. Que vous vendiez des packs de puzzles d\'images sur Etsy, compiliez des cahiers de perception visuelle pour Amazon KDP ou créiez des activités de puzzles rapides de fin de cours pour Gumroad, ce générateur produit des puzzles grille prêts pour la production en quelques minutes — essai gratuit avec toutes les fonctionnalités, sans inscription, sans carte bancaire. Les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.',
   },
 
   howItWorks: {

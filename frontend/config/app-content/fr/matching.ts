@@ -2,28 +2,28 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'générateur fiches d\'association',
+    primaryKeyword: 'fiches d\'appariement à créer et vendre sur Etsy',
     secondaryKeywords: [
-      'générateur de fiches d\'association imprimables pour vendeurs Etsy',
-      'créateur de fiches relier par un trait pour éditeurs Amazon KDP',
-      'générateur de fiches d\'association avec licence commerciale',
-      'vendre des fiches d\'association imprimables sur Gumroad',
+      'générateur de fiches d\'association pour vendeurs Etsy',
+      'fiches d\'appariement pour Amazon KDP',
+      'fiches relier par un trait licence commerciale',
+      'créer des cahiers d\'association pour La Salle des Maîtres',
     ],
     lsiKeywords: [
-      'produits numériques de fiches d\'association pour entrepreneurs',
-      'générateur de fiches d\'association à usage commercial',
-      'activités d\'association imprimables pour entreprise en ligne',
+      'licence commerciale 300 DPI prêt à imprimer',
+      'business d\'imprimables fiches d\'appariement vendeurs',
+      '4 modes d\'association corrigé automatique 104 thèmes',
     ],
-    titleTag: 'Générateur Fiches d\'Association | Créer et Vendre',
+    titleTag: 'Fiches d\'appariement à vendre sur Etsy | LCS',
     metaDescription:
-      'Créez des fiches d\'association pour Etsy, KDP et Gumroad. 4 modes d\'association, corrigé auto, 104 thèmes, paires configurables. Essai gratuit avec filigrane.',
+      'Créez des fiches d\'appariement à vendre sur Etsy & KDP. 4 modes, corrigé auto, 104 thèmes, licence commerciale. Testez gratuitement avec filigrane.',
   },
 
   hero: {
-    title: 'Générateur de Fiches d\'Association pour des Activités de Type Relier par un Trait',
+    title: 'Créez et vendez des fiches d\'appariement sur Etsy & KDP',
     tagline: 'Quatre modes d\'association en un seul générateur — Lettre Initiale, Image+Mot, Image/Mot Mixte et Mot Personnalisé — avec corrigés générés automatiquement, nombre de paires configurable et en-tête localisé \" Trouve les Paires ! \" à travers 104 collections d\'images thématiques.',
     description:
-      'Concevez des fiches d\'association professionnelles où les utilisateurs relient des paires en traçant des lignes entre deux colonnes. Choisissez parmi quatre modes d\'association distincts : Image ↔ Lettre Initiale associe les images à leur première lettre, Image+Mot ↔ Image+Mot apparie des images étiquetées des deux côtés, Image/Mot ↔ Image/Mot Mixte permet de mixer images et mots par ligne avec des sélecteurs déroulants, et Image ↔ Mot Personnalisé vous permet de saisir vos propres termes d\'association. Configurez 4, 5 ou 6 paires par fiche et activez ou désactivez les numéros d\'éléments et les puces décoratives pour une mise en page soignée. Chaque fiche inclut un en-tête localisé \" Trouve les Paires ! \" généré automatiquement, avec titre et consignes rendus dans les 11 langues prises en charge. Le système à double canevas génère à la fois un onglet fiche de travail et un onglet corrigé — le corrigé trace des lignes de liaison entre les bonnes correspondances, sans aucun travail manuel de votre part. Le Générateur de Fiches d\'Association est sensible à la langue : les modes Lettre Initiale et Image+Mot utilisent les noms localisés des images, donc changer de langue modifie les mots et les premières lettres sur la fiche. L\'Accès Complet déverrouille les 104 thèmes avec plus de 3 100 illustrations et les 11 langues d\'interface pour du contenu textuel localisé. Ajoutez des thèmes de fond et de bordure avec des contrôles d\'opacité indépendants, insérez des champs nom et date, et exportez des PDF et JPEG prêts à imprimer à 300 DPI en format Letter, A4, Carré ou dimensions personnalisées. Que vous vendiez des packs d\'activités d\'association sur Etsy, compiliez des cahiers d\'initiation à la lecture pour Amazon KDP ou créiez des fiches pour ateliers d\'association sur Gumroad, ce générateur produit des fiches prêtes pour la production en quelques minutes — essai gratuit avec toutes les fonctionnalités, sans inscription, sans carte bancaire. Les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.',
+      'Créez des fiches d\'appariement à vendre sur Etsy, Amazon KDP ou La Salle des Maîtres — des fiches où les acheteurs relient des paires en traçant des lignes entre deux colonnes. Choisissez parmi quatre modes d\'association distincts : Image ↔ Lettre Initiale associe les images à leur première lettre, Image+Mot ↔ Image+Mot apparie des images étiquetées des deux côtés, Image/Mot ↔ Image/Mot Mixte permet de mixer images et mots par ligne avec des sélecteurs déroulants, et Image ↔ Mot Personnalisé vous permet de saisir vos propres termes d\'association. Configurez 4, 5 ou 6 paires par fiche et activez ou désactivez les numéros d\'éléments et les puces décoratives pour une mise en page soignée. Chaque fiche inclut un en-tête localisé \" Trouve les Paires ! \" généré automatiquement, avec titre et consignes rendus dans les 11 langues prises en charge. Le système à double canevas génère à la fois un onglet fiche de travail et un onglet corrigé — le corrigé trace des lignes de liaison entre les bonnes correspondances, sans aucun travail manuel de votre part. Le Générateur de Fiches d\'Association est sensible à la langue : les modes Lettre Initiale et Image+Mot utilisent les noms localisés des images, donc changer de langue modifie les mots et les premières lettres sur la fiche. L\'Accès Complet déverrouille les 104 thèmes avec plus de 3 100 illustrations et les 11 langues d\'interface pour du contenu textuel localisé. Ajoutez des thèmes de fond et de bordure avec des contrôles d\'opacité indépendants, insérez des champs nom et date, et exportez des PDF et JPEG prêts à imprimer à 300 DPI en format Letter, A4, Carré ou dimensions personnalisées. Que vous vendiez des packs d\'activités d\'association sur Etsy, compiliez des cahiers d\'initiation à la lecture pour Amazon KDP ou créiez des fiches pour ateliers d\'association sur Gumroad, ce générateur produit des fiches prêtes pour la production en quelques minutes — essai gratuit avec toutes les fonctionnalités, sans inscription, sans carte bancaire. Les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.',
   },
 
   howItWorks: {

@@ -2,26 +2,26 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'générateur fiches d\'écriture',
+    primaryKeyword: 'générateur de fiches d\'écriture gratuit',
     secondaryKeywords: [
-      'créateur de fiches écriture manuscrite pour vendeurs',
-      'créer des fiches de tracé de lettres à vendre',
-      'fiches écriture manuscrite imprimables licence commerciale',
-      'générateur de fiches écriture manuscrite pour KDP',
+      'créer des fiches d\'écriture gratuitement en ligne',
+      'fiches d\'écriture manuscrite gratuit sans inscription',
+      'générateur de tracé de lettres gratuit PDF',
+      'fiches d\'écriture gratuites avec corrigé',
     ],
     lsiKeywords: [
-      'imprimables écriture avec ordre des traits fléché pour Etsy.fr',
-      'outil de fiches tracé progressif lettres',
-      'générateur écriture cursive et imprimé avec flèches',
+      'essai gratuit avec filigrane sans inscription',
+      'licence commerciale pour vendre sur Etsy',
+      '3 modes 5 polices flèches ordre des traits',
     ],
-    titleTag: 'Générateur Fiches d\'Écriture | Créer et Vendre',
-    metaDescription: 'Créez des fiches d\'écriture avec 3 modes de pratique, 5 polices, flèches d\'ordre des traits, guides dégradés, 104 thèmes. Essai gratuit avec filigrane.',
+    titleTag: 'Fiches d\'écriture gratuites en ligne | LessonCraftStudio',
+    metaDescription: 'Créez des fiches d\'écriture gratuitement en ligne. 3 modes, 5 polices, flèches de tracé, sans inscription. Licence commerciale disponible.',
   },
 
   hero: {
-    title: 'Générateur de Fiches d\'Écriture',
+    title: 'Fiches d\'écriture gratuites — créez en ligne sans inscription',
     tagline: 'Créez des fiches de pratique d\'écriture avec trois modes progressifs, un ordre des traits guidé par des flèches et des guides de lettres à opacité dégressive qui développent la fluidité d\'écriture du tracé complet à l\'écriture autonome',
-    description: 'Concevez des fiches professionnelles de pratique d\'écriture manuscrite construites sur un système de progression à trois modes : le mode Tracé fournit des contours de lettres pleins que les débutants suivent directement, le Tracé Progressif réduit progressivement l\'opacité des lettres à travers la ligne pour que les utilisateurs passent du tracé accompagné à l\'écriture autonome au sein d\'une seule ligne, et la Copie Guidée offre un contour léger pour une écriture quasi-autonome avec un support visuel minimal. Cinq styles de police vous donnent un contrôle complet sur la présentation des lettres — Imprimé Standard pour les lettres bâtons classiques, Imprimé Standard Fléché avec des flèches directionnelles numérotées montrant l\'ordre exact de formation des traits, Imprimé Tracé pour les lettres en contours pointillés conçues pour les exercices de tracé, Imprimé Tracé Fléché combinant contours pointillés et flèches d\'ordre des traits, et Cursive (Great Vibes) pour la pratique de l\'écriture liée. L\'ordre des traits guidé par des flèches est la fonctionnalité phare : des flèches directionnelles numérotées sur chaque lettre montrent aux utilisateurs précisément comment former chaque trait dans la séquence correcte, transformant une simple page de tracé en outil pédagogique. Chaque ligne de la fiche est configurable indépendamment — son propre mode de pratique, style de police, source de contenu et réglage de casse — afin qu\'une seule page puisse mélanger le mode Tracé pour les nouvelles lettres, le Tracé Progressif pour les lettres pratiquées, et la Copie Guidée pour la révision. Les sources de contenu incluent la Bibliothèque d\'Images avec plus de 3 100 illustrations réparties dans 104 collections thématiques (modes Lettre Initiale ou Nom Complet), le Texte Personnalisé pour n\'importe quel mot ou phrase, et le mode Vide pour des lignes réglées vierges. Les exercices de tracés de pré-écriture (lignes verticales, lignes horizontales, cercles, lignes en zigzag) développent les bases motrices fines avant la formation des lettres. Exportez des PDF et JPEG prêts à imprimer à ~300 DPI avec un multiplicateur de rendu 6× en format Letter, A4 ou dimensions personnalisées. Choisissez parmi 7 polices pour les superpositions texte, activez les niveaux de gris pour une sortie économique en encre, et utilisez le canevas Fabric.js complet pour repositionner chaque élément. L\'essai gratuit inclut un filigrane sur les téléchargements. Achetez une licence pour supprimer le filigrane et vendre à usage commercial.',
+    description: 'Créez des fiches d\'écriture gratuitement en ligne — sans inscription, sans carte bancaire. Trois modes de progression construisent la fluidité d\'écriture : le mode Tracé fournit des contours de lettres pleins que les débutants suivent directement, le Tracé Progressif réduit progressivement l\'opacité des lettres à travers la ligne pour que les utilisateurs passent du tracé accompagné à l\'écriture autonome au sein d\'une seule ligne, et la Copie Guidée offre un contour léger pour une écriture quasi-autonome avec un support visuel minimal. Cinq styles de police vous donnent un contrôle complet sur la présentation des lettres — Imprimé Standard pour les lettres bâtons classiques, Imprimé Standard Fléché avec des flèches directionnelles numérotées montrant l\'ordre exact de formation des traits, Imprimé Tracé pour les lettres en contours pointillés conçues pour les exercices de tracé, Imprimé Tracé Fléché combinant contours pointillés et flèches d\'ordre des traits, et Cursive (Great Vibes) pour la pratique de l\'écriture liée. L\'ordre des traits guidé par des flèches est la fonctionnalité phare : des flèches directionnelles numérotées sur chaque lettre montrent aux utilisateurs précisément comment former chaque trait dans la séquence correcte, transformant une simple page de tracé en outil pédagogique. Chaque ligne de la fiche est configurable indépendamment — son propre mode de pratique, style de police, source de contenu et réglage de casse — afin qu\'une seule page puisse mélanger le mode Tracé pour les nouvelles lettres, le Tracé Progressif pour les lettres pratiquées, et la Copie Guidée pour la révision. Les sources de contenu incluent la Bibliothèque d\'Images avec plus de 3 100 illustrations réparties dans 104 collections thématiques (modes Lettre Initiale ou Nom Complet), le Texte Personnalisé pour n\'importe quel mot ou phrase, et le mode Vide pour des lignes réglées vierges. Les exercices de tracés de pré-écriture (lignes verticales, lignes horizontales, cercles, lignes en zigzag) développent les bases motrices fines avant la formation des lettres. Exportez des PDF et JPEG prêts à imprimer à ~300 DPI avec un multiplicateur de rendu 6× en format Letter, A4 ou dimensions personnalisées. Choisissez parmi 7 polices pour les superpositions texte, activez les niveaux de gris pour une sortie économique en encre, et utilisez le canevas Fabric.js complet pour repositionner chaque élément. L\'essai gratuit inclut un filigrane sur les téléchargements. Achetez une licence pour supprimer le filigrane et vendre à usage commercial.',
   },
 
   tutorial: {

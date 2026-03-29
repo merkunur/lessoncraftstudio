@@ -2,10 +2,10 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Idées d\'Imprimables de Printemps à Vendre — Guide',
+    titleTag: 'Imprimables printemps — Idées business | LessonCraftStudio',
     metaDescription: 'Découvrez des idées d\'imprimables de printemps à vendre sur Etsy, KDP et Gumroad. Concepts saisonniers mars-mai, stratégies nature et conseils pour vendeurs.',
 
-    primaryKeyword: 'idées d\'imprimables de printemps à vendre',
+    primaryKeyword: 'imprimables de printemps idées business',
     secondaryKeywords: [
       'fiches de printemps à vendre',
       'idées business imprimables printemps',

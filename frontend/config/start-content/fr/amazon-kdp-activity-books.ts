@@ -2,7 +2,7 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'vendre des livres d\'activités sur Amazon KDP',
+    primaryKeyword: 'business cahiers d\'activités Amazon KDP',
     secondaryKeywords: [
       'livres d\'activités Amazon KDP',
       'vendre des cahiers de puzzles sur KDP',
@@ -17,7 +17,7 @@ const content: StartContent = {
       'calculateur de redevances KDP livres d\'activités',
       'impression à la demande activité cahiers d\'activités',
     ],
-    titleTag: 'Vendre des Livres d\'Activités sur Amazon KDP — Guide',
+    titleTag: 'Business cahiers d\'activités KDP | LessonCraftStudio',
     metaDescription: 'Comment vendre des livres d\'activités sur Amazon KDP. Formatage intérieur, design couverture, mots-clés, tarification et mise à l\'échelle de votre activité.',
   },
 

@@ -2,26 +2,26 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'générateur fiches train suites logiques',
+    primaryKeyword: 'générateur de fiches de suites logiques gratuit',
     secondaryKeywords: [
-      'créateur de fiches train suites logiques pour vendeurs',
-      'créer des fiches de séquences répétitives train à vendre',
-      'fiches reconnaissance de motifs train imprimables licence commerciale',
-      'générateur de fiches train suites logiques pour KDP',
+      'créer des fiches de suites logiques gratuitement',
+      'générateur de séquences train gratuit sans inscription',
+      'fiches de suites logiques gratuites PDF',
+      'suites logiques train gratuit avec corrigé',
     ],
     lsiKeywords: [
-      'imprimables reconnaissance de motifs visuels train pour Etsy.fr',
-      'outil de fiches train wagons thématiques sans texte',
-      'générateur fiches séquences AB ABC AABB train wagons',
+      'essai gratuit avec filigrane sans inscription',
+      'licence commerciale pour vendre sur Etsy',
+      '5 types de motifs 11 wagons indices ajustables',
     ],
-    titleTag: 'Générateur Fiches Train Suites Logiques | Vendre',
-    metaDescription: 'Créez des fiches train de suites logiques avec 5 types de motifs, 11 wagons thématiques, indices ajustables, corrigé auto. Essai gratuit avec filigrane.',
+    titleTag: 'Suites logiques gratuites en ligne | LessonCraftStudio',
+    metaDescription: 'Créez des fiches de suites logiques gratuitement. 5 types de motifs, 11 wagons, corrigé auto, sans inscription. Licence commerciale disponible.',
   },
 
   hero: {
-    title: 'Créateur de Fiches Train de Suites Logiques',
+    title: 'Suites logiques gratuites — créez en ligne sans inscription',
     tagline: 'Générez des fiches de séquences répétitives affichées sur 11 wagons de train thématiques avec cinq types de motifs, un nombre d\'indices ajustable et une sortie entièrement visuelle sans texte qui se vend dans le monde entier sans traduction',
-    description: 'Concevez des fiches professionnelles de reconnaissance de motifs où les utilisateurs identifient et complètent des séquences répétitives affichées sous forme d\'images sur un train thématique à 11 wagons. Cinq types de motifs distincts couvrent tous les niveaux de complexité des séquences : AB alterne deux éléments, AAB regroupe deux d\'un suivi d\'un autre, ABB inverse ce regroupement, ABC fait tourner trois éléments différents, et AABB associe deux de chaque avant de recommencer. La disposition du train organise 11 wagons sur trois rangées (5 + 3 + 3), chaque wagon contenant une image du motif répétitif. Un wagon est laissé vide — les utilisateurs identifient le motif et déterminent l\'élément manquant. Ajustez le nombre d\'indices de 4 à 10 pour contrôler la difficulté : afficher 10 indices rend le motif évident, tandis que n\'en afficher que 4 exige un véritable raisonnement logique puisque les 3 premiers wagons sont toujours révélés. La disposition distinctive en wagons de train constitue un différenciateur visuel face aux fiches de motifs classiques en grille — les acheteurs parcourant Etsy.fr ou Gumroad voient immédiatement quelque chose de différent des exercices habituels en lignes et colonnes. Puisez dans plus de 3 100 illustrations réparties dans 104 collections thématiques ou téléversez vos propres images. Un onglet de corrigé séparé montre les 11 wagons remplis avec la séquence correcte du motif pour une vérification instantanée. Chaque fiche est entièrement visuelle avec uniquement des images sur les wagons et zéro texte sur la sortie. Aucun mot n\'apparaît sur la page générée — uniquement des images. Cela rend vos fiches vendables universellement sans traduction : un seul listing sert tous les marchés dans le monde. Exportez des PDF et JPEG prêts à imprimer en haute résolution aux formats Letter, A4, Carré (1200×1200) ou dimensions personnalisées. Activez les niveaux de gris pour une sortie économique en encre. Modifiez chaque élément sur le canevas complet Fabric.js avec des polices incluant Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial et Verdana. L\'essai gratuit inclut toutes les fonctionnalités avec un filigrane sur les téléchargements. Achetez une licence pour supprimer le filigrane et vendre à usage commercial.',
+    description: 'Créez des fiches de suites logiques gratuitement en ligne — sans inscription, sans carte bancaire. Les utilisateurs identifient et complètent des séquences répétitives affichées sous forme d\'images sur un train thématique à 11 wagons. Cinq types de motifs distincts couvrent tous les niveaux de complexité des séquences : AB alterne deux éléments, AAB regroupe deux d\'un suivi d\'un autre, ABB inverse ce regroupement, ABC fait tourner trois éléments différents, et AABB associe deux de chaque avant de recommencer. La disposition du train organise 11 wagons sur trois rangées (5 + 3 + 3), chaque wagon contenant une image du motif répétitif. Un wagon est laissé vide — les utilisateurs identifient le motif et déterminent l\'élément manquant. Ajustez le nombre d\'indices de 4 à 10 pour contrôler la difficulté : afficher 10 indices rend le motif évident, tandis que n\'en afficher que 4 exige un véritable raisonnement logique puisque les 3 premiers wagons sont toujours révélés. La disposition distinctive en wagons de train constitue un différenciateur visuel face aux fiches de motifs classiques en grille — les acheteurs parcourant Etsy.fr ou Gumroad voient immédiatement quelque chose de différent des exercices habituels en lignes et colonnes. Puisez dans plus de 3 100 illustrations réparties dans 104 collections thématiques ou téléversez vos propres images. Un onglet de corrigé séparé montre les 11 wagons remplis avec la séquence correcte du motif pour une vérification instantanée. Chaque fiche est entièrement visuelle avec uniquement des images sur les wagons et zéro texte sur la sortie. Aucun mot n\'apparaît sur la page générée — uniquement des images. Cela rend vos fiches vendables universellement sans traduction : un seul listing sert tous les marchés dans le monde. Exportez des PDF et JPEG prêts à imprimer en haute résolution aux formats Letter, A4, Carré (1200×1200) ou dimensions personnalisées. Activez les niveaux de gris pour une sortie économique en encre. Modifiez chaque élément sur le canevas complet Fabric.js avec des polices incluant Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial et Verdana. L\'essai gratuit inclut toutes les fonctionnalités avec un filigrane sur les téléchargements. Achetez une licence pour supprimer le filigrane et vendre à usage commercial.',
   },
 
   tutorial: {

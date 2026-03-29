@@ -2,7 +2,7 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'combien peut-on gagner en vendant des imprimables ?',
+    primaryKeyword: 'combien peut-on gagner avec des imprimables',
     secondaryKeywords: [
       'attentes revenus activité imprimables',
       'revenus réalistes vente de fiches',
@@ -17,7 +17,7 @@ const content: StartContent = {
       'investissement temps activité téléchargements numériques',
       'flux revenus multiples produits imprimables',
     ],
-    titleTag: 'Combien peut-on gagner en vendant des imprimables ?',
+    titleTag: 'Combien gagner avec des imprimables | LessonCraftStudio',
     metaDescription: 'Combien peut-on gagner en vendant des imprimables ? Attentes réalistes, frais de plateformes, stratégies de tarification et variables déterminant les gains.',
   },
 

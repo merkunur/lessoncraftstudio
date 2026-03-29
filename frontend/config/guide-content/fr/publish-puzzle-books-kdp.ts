@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'comment publier des livres de puzzles kdp',
+    primaryKeyword: 'publier des livres de jeux sur Amazon KDP',
     secondaryKeywords: [
       'comment publier des livres de puzzles sur Amazon KDP',
       'guide publication livres de puzzles KDP',
@@ -17,7 +17,7 @@ const content: GuideContent = {
       'impression à la demande catalogue puzzles séries volumes numérotation',
       'grille puzzles espacement format livre corrigés annexes',
     ],
-    titleTag: 'Comment publier des livres de puzzles KDP — Guide',
+    titleTag: 'Publier des livres de jeux sur KDP | LessonCraftStudio',
     metaDescription: 'Comment publier des livres de puzzles sur KDP avec mots cachés, mots croisés et sudoku. Mise en page, livres variés, stratégie de série et optimisation.',
   },
 

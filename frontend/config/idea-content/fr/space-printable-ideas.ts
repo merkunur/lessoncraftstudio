@@ -2,10 +2,10 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Idées d\'Imprimables Espace à Vendre — Guide',
+    titleTag: 'Imprimables espace pour Etsy | LessonCraftStudio',
     metaDescription: 'Découvrez des idées d\'imprimables sur l\'espace à vendre sur Etsy, KDP et Gumroad. Concepts STEM, stratégies par plateforme et conseils pour vendeurs créatifs.',
 
-    primaryKeyword: 'idées d\'imprimables espace à vendre',
+    primaryKeyword: 'imprimables espace à vendre sur Etsy',
     secondaryKeywords: [
       'fiches thème espace à vendre',
       'idées business imprimables espace',

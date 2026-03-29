@@ -2,7 +2,7 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'développer activité imprimables',
+    primaryKeyword: 'du complément de revenus au business à temps plein',
     secondaryKeywords: [
       'passer activité imprimables à temps plein',
       'croissance boutique Etsy imprimables',
@@ -17,7 +17,7 @@ const content: StartContent = {
       'expansion multilingue des marchés imprimables',
       'stratégie de réinvestissement pour activité imprimables',
     ],
-    titleTag: 'Développer activité imprimables — Guide de croissance',
+    titleTag: 'Du complément au business à temps plein | LessonCraftStudio',
     metaDescription: 'Développez votre activité d\'imprimables d\'activité secondaire à temps plein. Expansion du catalogue, multi-plateforme, regroupement et automatisation.',
   },
 

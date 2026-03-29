@@ -2,10 +2,10 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Idées d\'Imprimables École à la Maison à Vendre — Guide',
+    titleTag: 'Imprimables IEF à vendre sur Etsy | LessonCraftStudio',
     metaDescription: 'Découvrez des idées d\'imprimables pour l\'école à la maison à vendre sur Etsy, KDP et Gumroad. Stratégies de niche pour vendeurs ciblant les familles en IEF.',
 
-    primaryKeyword: 'idées d\'imprimables école à la maison à vendre',
+    primaryKeyword: 'imprimables IEF instruction à domicile vendre',
     secondaryKeywords: [
       'fiches école maison à vendre',
       'idées business imprimables IEF',

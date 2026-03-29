@@ -2,28 +2,28 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'générateur cartes bingo à images',
+    primaryKeyword: 'créateur de cartes de loto à vendre sur Etsy',
     secondaryKeywords: [
-      'générateur de cartes bingo imprimables pour vendeurs Etsy',
-      'créateur de cartes bingo à images pour éditeurs Amazon KDP',
-      'générateur de cartes bingo avec licence commerciale',
-      'vendre des cartes bingo imprimables sur Gumroad',
+      'générateur de cartes bingo pour vendeurs Etsy',
+      'cartes de loto imprimables pour Amazon KDP',
+      'cartes bingo à images licence commerciale',
+      'créer des sets de loto pour La Salle des Maîtres',
     ],
     lsiKeywords: [
-      'produits numériques de cartes bingo pour entrepreneurs',
-      'générateur de cartes bingo à usage commercial',
-      'activités bingo imprimables pour entreprise en ligne',
+      'licence commerciale 300 DPI prêt à imprimer',
+      'business d\'imprimables cartes de loto vendeurs Etsy',
+      'lots de cartes uniques export ZIP feuilles d\'appel',
     ],
-    titleTag: 'Générateur Cartes Bingo à Images | Créer et Vendre',
+    titleTag: 'Cartes de loto à vendre sur Etsy & KDP | LCS',
     metaDescription:
-      'Créez des cartes bingo à images pour Etsy, KDP et Gumroad. Lots de cartes uniques, export ZIP, feuilles d\'appel, 104 thèmes. Essai gratuit avec filigrane.',
+      'Créez des cartes de loto à vendre sur Etsy & KDP. Lots de cartes uniques, feuilles d\'appel, licence commerciale. Testez gratuitement avec filigrane.',
   },
 
   hero: {
-    title: 'Générateur de Cartes Bingo à Images pour des Activités Bingo Imprimables',
+    title: 'Créez des cartes de loto à vendre sur Etsy & Amazon KDP',
     tagline: 'Générez 1 à 10 cartes bingo uniques par lot avec des grilles configurables de 3×3 à 5×5 — remplissage par images ou par mots pour les cases et les jetons circulaires, une feuille d\'appel dédiée pour le meneur de jeu, export ZIP par lot de toutes les cartes, et 104 collections d\'images thématiques.',
     description:
-      'Concevez des cartes bingo professionnelles où les joueurs marquent les images ou mots correspondants sur leurs grilles uniques. Configurez les lignes de 3 à 5 et les colonnes de 3 à 5 indépendamment, créant des grilles de 3×3 (9 cases) jusqu\'à 5×5 (25 cases) avec un défaut de 4×4 (16 cases). Choisissez le remplissage par images ou par mots indépendamment pour les cases de la carte et les jetons circulaires — les jetons comportent des bordures en pointillés et un ordonnancement Fisher-Yates pour un jeu de bingo authentique. Générez 1 à 10 cartes bingo uniques par lot, chacune avec une sélection aléatoire différente depuis la banque d\'images. Une feuille d\'appel dédiée sur un onglet séparé affiche une grille dynamique de mots pour le meneur de jeu, avec des colonnes calculées selon la longueur du mot le plus long et une taille de police uniforme. Sélectionnez manuellement des images spécifiques pour la sélection personnalisée des appels ou laissez l\'application choisir depuis votre thème. Le Générateur de Cartes Bingo à Images est sensible à la langue : le remplissage par mots utilise les noms localisés des images de la Bibliothèque d\'Images, donc changer de langue modifie les mots sur les cartes, les jetons et la feuille d\'appel. L\'Accès Complet déverrouille les 104 thèmes avec plus de 3 100 illustrations et les 11 langues d\'interface pour du contenu textuel localisé. Ajoutez des thèmes de fond et de bordure avec contrôles d\'opacité indépendants, insérez du texte personnalisé avec sept polices, et exportez des PDF et JPEG prêts à imprimer à 300 DPI en format Letter, A4, Carré (1200×1200) ou dimensions personnalisées. Exportez par lot toutes les cartes générées en fichiers JPEG individuels dans un seul fichier ZIP. Que vous vendiez des packs de cartes bingo sur Etsy, compiliez des cahiers d\'activités bingo pour Amazon KDP ou créiez des sets bingo pour la vente sur Gumroad, ce générateur produit des cartes bingo prêtes pour la production en quelques minutes — essai gratuit avec toutes les fonctionnalités, sans inscription, sans carte bancaire. Les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.',
+      'Créez des cartes de loto à vendre sur Etsy, Amazon KDP ou La Salle des Maîtres — des cartes bingo professionnelles où les joueurs marquent les images ou mots correspondants sur leurs grilles uniques. Configurez les lignes de 3 à 5 et les colonnes de 3 à 5 indépendamment, créant des grilles de 3×3 (9 cases) jusqu\'à 5×5 (25 cases) avec un défaut de 4×4 (16 cases). Choisissez le remplissage par images ou par mots indépendamment pour les cases de la carte et les jetons circulaires — les jetons comportent des bordures en pointillés et un ordonnancement Fisher-Yates pour un jeu de bingo authentique. Générez 1 à 10 cartes bingo uniques par lot, chacune avec une sélection aléatoire différente depuis la banque d\'images. Une feuille d\'appel dédiée sur un onglet séparé affiche une grille dynamique de mots pour le meneur de jeu, avec des colonnes calculées selon la longueur du mot le plus long et une taille de police uniforme. Sélectionnez manuellement des images spécifiques pour la sélection personnalisée des appels ou laissez l\'application choisir depuis votre thème. Le Générateur de Cartes Bingo à Images est sensible à la langue : le remplissage par mots utilise les noms localisés des images de la Bibliothèque d\'Images, donc changer de langue modifie les mots sur les cartes, les jetons et la feuille d\'appel. L\'Accès Complet déverrouille les 104 thèmes avec plus de 3 100 illustrations et les 11 langues d\'interface pour du contenu textuel localisé. Ajoutez des thèmes de fond et de bordure avec contrôles d\'opacité indépendants, insérez du texte personnalisé avec sept polices, et exportez des PDF et JPEG prêts à imprimer à 300 DPI en format Letter, A4, Carré (1200×1200) ou dimensions personnalisées. Exportez par lot toutes les cartes générées en fichiers JPEG individuels dans un seul fichier ZIP. Que vous vendiez des packs de cartes bingo sur Etsy, compiliez des cahiers d\'activités bingo pour Amazon KDP ou créiez des sets bingo pour la vente sur Gumroad, ce générateur produit des cartes bingo prêtes pour la production en quelques minutes — essai gratuit avec toutes les fonctionnalités, sans inscription, sans carte bancaire. Les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.',
   },
 
   howItWorks: {

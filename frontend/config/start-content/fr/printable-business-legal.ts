@@ -2,7 +2,7 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'obligations fiscales vente imprimables',
+    primaryKeyword: 'statut juridique business d\'imprimables France',
     secondaryKeywords: [
       'aspects juridiques activité imprimables',
       'obligations fiscales produits numériques',
@@ -17,7 +17,7 @@ const content: StartContent = {
       'fiscalité transfrontalière produits numériques',
       'charges déductibles activité imprimables',
     ],
-    titleTag: 'Obligations Fiscales Vente Imprimables — Guide Juridique',
+    titleTag: 'Business d\'imprimables : statut juridique | LessonCraftStudio',
     metaDescription: 'Obligations fiscales pour la vente d\'imprimables. Structure juridique, charges déductibles, propriété intellectuelle et conformité des plateformes de vente.',
   },
 

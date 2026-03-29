@@ -17,7 +17,7 @@ const content: StartContent = {
       'images thématiques pour fiches',
       'fiches PDF prêtes à imprimer',
     ],
-    titleTag: 'Créer des Fiches Qui Se Vendent — Guide Professionnel',
+    titleTag: 'Créer des fiches qui se vendent | LessonCraftStudio',
     metaDescription: 'Comment créer des fiches qui se vendent sur Etsy, Amazon KDP et Gumroad. Guide étape par étape : images thématiques, corrigés, tarification et optimisation.',
   },
 

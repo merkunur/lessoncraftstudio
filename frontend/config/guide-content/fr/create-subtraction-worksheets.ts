@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'créer des fiches de soustraction',
+    primaryKeyword: 'créer des fiches de soustraction à vendre',
     secondaryKeywords: [
       'faire fiches soustraction pour enfants',
       'générateur fiches soustraction',
@@ -17,7 +17,7 @@ const content: GuideContent = {
       'cahiers activités soustraction Amazon KDP',
       'outil fiches avec licence commerciale',
     ],
-    titleTag: 'Créer des fiches de soustraction — Guide étape par étape',
+    titleTag: 'Fiches de soustraction à vendre | LessonCraftStudio',
     metaDescription: 'Créez des fiches de soustraction pour enfants avec images barrées, visuels thématiques et corrigés automatiques. Guide complet pour vendre sur Etsy, KDP.',
   },
 

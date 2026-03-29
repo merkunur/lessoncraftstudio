@@ -2,26 +2,26 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'générateur de fiches de soustraction',
+    primaryKeyword: 'générateur de fiches de soustraction gratuit',
     secondaryKeywords: [
-      'créer des fiches de soustraction en ligne',
-      'fiches de soustraction imprimables avec images barrées',
-      'générateur de fiches de soustraction pour enfants',
-      'outil de création de fiches de soustraction pour Etsy',
+      'créer des fiches de soustraction gratuitement en ligne',
+      'fiches de soustraction imprimables gratuit sans inscription',
+      'générateur de soustraction gratuit avec images barrées',
+      'fiches de soustraction PDF gratuit avec corrigés',
     ],
     lsiKeywords: [
-      'fiches de soustraction visuelles imprimables',
-      'exercices de soustraction avec images barrées',
-      'fiches de calcul barrer et compter maternelle',
+      'essai gratuit avec filigrane sans inscription',
+      'licence commerciale pour vendre sur Etsy',
+      '4 modes images barrées corrigés automatiques PDF',
     ],
-    titleTag: 'Générateur de Fiches de Soustraction | Maths Imprimables',
-    metaDescription: 'Créez des fiches de soustraction avec images barrées en quelques secondes. 4 modes, 104 thèmes, corrigé inclus, export PDF. Essai gratuit avec filigrane.',
+    titleTag: 'Fiches de soustraction gratuites en ligne | LCS',
+    metaDescription: 'Créez des fiches de soustraction gratuitement en ligne. 4 modes, images barrées, sans inscription. Passez à la licence commerciale pour vendre.',
   },
 
   hero: {
-    title: 'Générateur de Fiches de Soustraction',
+    title: 'Fiches de soustraction gratuites — créez en ligne',
     tagline: 'Créez des fiches de soustraction visuelles avec images barrées en moins de 60 secondes',
-    description: 'Rendez la soustraction intuitive grâce à la visualisation barrée que les enfants comprennent instinctivement. Cet outil génère des fiches de soustraction basées sur les images où les utilisateurs barrent des images pour trouver la réponse — la méthode la plus naturelle pour apprendre à retirer. Choisissez parmi plus de 100 thèmes d\'images, réglez le diminuende maximum, sélectionnez parmi quatre modes d\'exercice dont le format unique Barrer, et téléchargez des PDF prêts à imprimer ou des JPEG haute résolution. Parfait pour les vendeurs Etsy qui construisent des gammes de produits de maths différenciés, les vendeurs qui préparent des paquets pour la vente et les éditeurs KDP qui compilent des cahiers d\'activités de soustraction. L\'essai gratuit inclut un filigrane sur les téléchargements. Achetez une licence pour supprimer le filigrane et vendre vos créations à usage commercial.',
+    description: 'Créez des fiches de soustraction gratuitement en ligne — sans inscription, sans carte bancaire. Ce générateur crée des fiches de soustraction basées sur les images où les utilisateurs barrent des images pour trouver la réponse — la méthode la plus naturelle pour visualiser la soustraction. Choisissez parmi plus de 100 thèmes d\'images, réglez le diminuende maximum, sélectionnez parmi quatre modes d\'exercice dont le format unique Barrer, et téléchargez des PDF prêts à imprimer ou des JPEG haute résolution. Parfait pour les vendeurs Etsy qui construisent des gammes de produits de maths différenciés, les vendeurs qui préparent des paquets pour la vente et les éditeurs KDP qui compilent des cahiers d\'activités de soustraction. L\'essai gratuit inclut un filigrane sur les téléchargements. Achetez une licence pour supprimer le filigrane et vendre vos créations à usage commercial.',
   },
 
   tutorial: {

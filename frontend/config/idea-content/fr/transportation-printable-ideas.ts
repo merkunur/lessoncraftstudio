@@ -2,10 +2,10 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Idées d\'Imprimables Transports à Vendre — Guide',
+    titleTag: 'Imprimables transports — Business | LessonCraftStudio',
     metaDescription: 'Découvrez des idées d\'imprimables transports à vendre sur Etsy, KDP et Gumroad. Concepts de produits véhicules, stratégies par plateforme et conseils vendeurs.',
 
-    primaryKeyword: 'idées d\'imprimables transports à vendre',
+    primaryKeyword: 'imprimables transports idées business',
     secondaryKeywords: [
       'fiches transports à vendre',
       'idées business imprimables véhicules',

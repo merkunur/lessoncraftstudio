@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'vendre du produits imprimables sur etsy',
+    primaryKeyword: 'vendre des fiches éducatives sur Etsy débutant',
     secondaryKeywords: [
       'comment vendre imprimables éducatifs sur Etsy',
       'stratégie boutique Etsy imprimables éducatifs',
@@ -17,7 +17,7 @@ const content: GuideContent = {
       'regroupement imprimables éducatifs inter-catégories stratégie Etsy',
       'photos annonces Etsy mockups pour produits imprimables éducatifs',
     ],
-    titleTag: 'Vendre du produits imprimables sur Etsy — Guide',
+    titleTag: 'Vendre des fiches éducatives sur Etsy | LessonCraftStudio',
     metaDescription: 'Vendez des imprimables éducatifs sur Etsy avec 33 générateurs répartis en 6 catégories. Stratégie de boutique, SEO Etsy, lots inter-catégories et.',
   },
 

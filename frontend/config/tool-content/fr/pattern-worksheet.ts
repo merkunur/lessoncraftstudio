@@ -2,26 +2,26 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'générateur fiches séquences logiques',
+    primaryKeyword: 'fiches reconnaissance de motifs gratuites',
     secondaryKeywords: [
-      'créateur de fiches séquences logiques pour vendeurs',
-      'créer des fiches de complétion de motifs à vendre',
-      'fiches séquences logiques imprimables licence commerciale',
-      'générateur de fiches motifs en grille pour KDP',
+      'générateur de séquences logiques gratuit en ligne',
+      'fiches de complétion de motifs gratuit sans inscription',
+      'reconnaissance de motifs gratuit PDF',
+      'fiches séquences logiques gratuites avec corrigé',
     ],
     lsiKeywords: [
-      'imprimables reconnaissance de motifs visuels pour Etsy.fr',
-      'outil de fiches complétion de motifs sans texte',
-      'générateur fiches séquences AB ABC ABCD en grille',
+      'essai gratuit avec filigrane sans inscription',
+      'licence commerciale pour vendre sur Etsy',
+      '9 types de motifs choix multiple case vide',
     ],
-    titleTag: 'Générateur Fiches Séquences Logiques | Vendre',
-    metaDescription: 'Créez des fiches séquences logiques avec neuf types de motifs, deux modes de question, configuration par exercice, 104 thèmes. Essai gratuit avec filigrane.',
+    titleTag: 'Reconnaissance de motifs gratuit | LessonCraftStudio',
+    metaDescription: 'Créez des fiches de reconnaissance de motifs gratuitement. 9 types, choix multiple, case vide, sans inscription. Licence commerciale disponible.',
   },
 
   hero: {
-    title: 'Créateur de Fiches de Séquences Logiques',
+    title: 'Reconnaissance de motifs gratuit — créez en ligne',
     tagline: 'Générez des fiches de reconnaissance de motifs en grille avec neuf types de motifs, deux modes de question, une configuration indépendante par exercice et une sortie entièrement visuelle sans texte qui se vend dans le monde entier sans traduction',
-    description: 'Concevez des fiches professionnelles de complétion de séquences où les utilisateurs identifient des motifs répétitifs et complètent l\'élément manquant ou choisissent la bonne réponse parmi des options à choix multiple. Neuf types de motifs distincts couvrent la plus large gamme de complexité de séquences disponible : AB alterne deux éléments, AAB et ABB introduisent des regroupements asymétriques, ABC fait tourner trois éléments différents, AABB associe deux de chaque, ABBC et AABC ajoutent des motifs asymétriques à trois images, ABCC prolonge avec des terminaisons doublées, et ABCD fait tourner quatre éléments différents pour un défi maximal. Deux modes de question créent des exercices fondamentalement différents à partir de chaque type de motif : Case Vide remplace un élément par un espace vide pour un raisonnement ouvert, tandis que Choix Multiple présente la case vide accompagnée de trois réponses possibles avec une correcte et deux distracteurs. Configurez 1 à 8 exercices par page avec chaque exercice paramétré indépendamment pour le type de motif, le mode de question et le thème — une même page peut combiner un échauffement AB en case vide avec un défi ABCD en choix multiple. Activez le Début Aléatoire pour commencer les motifs en milieu de cycle et la Position Vide Aléatoire pour placer l\'élément manquant n\'importe où dans la séquence. La mise en page en grille standard organise les exercices en lignes et colonnes proprement pour une sortie prête à l\'évaluation. Chaque fiche est entièrement visuelle avec uniquement des images et zéro texte sur la sortie — aucun mot n\'apparaît sur la page générée, rendant vos produits vendables universellement sans traduction. Un seul listing sert tous les marchés dans le monde. Puisez dans plus de 3 100 illustrations réparties dans 104 collections thématiques ou téléversez vos propres images. Un onglet de corrigé séparé montre toutes les cases vides remplies avec les éléments corrects du motif. Exportez des PDF et JPEG prêts à imprimer en haute résolution aux formats Letter, A4, Carré (1200×1200) ou dimensions personnalisées. Activez les niveaux de gris pour une sortie économique en encre. Modifiez chaque élément sur le canevas complet Fabric.js avec des polices incluant Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial et Verdana. L\'essai gratuit inclut toutes les fonctionnalités avec un filigrane sur les téléchargements. Achetez une licence pour supprimer le filigrane et vendre à usage commercial.',
+    description: 'Créez des fiches de reconnaissance de motifs gratuitement en ligne — sans inscription, sans carte bancaire. Les utilisateurs identifient des motifs répétitifs et complètent l\'élément manquant ou choisissent la bonne réponse. Neuf types de motifs distincts couvrent la plus large gamme de complexité de séquences disponible : AB alterne deux éléments, AAB et ABB introduisent des regroupements asymétriques, ABC fait tourner trois éléments différents, AABB associe deux de chaque, ABBC et AABC ajoutent des motifs asymétriques à trois images, ABCC prolonge avec des terminaisons doublées, et ABCD fait tourner quatre éléments différents pour un défi maximal. Deux modes de question créent des exercices fondamentalement différents à partir de chaque type de motif : Case Vide remplace un élément par un espace vide pour un raisonnement ouvert, tandis que Choix Multiple présente la case vide accompagnée de trois réponses possibles avec une correcte et deux distracteurs. Configurez 1 à 8 exercices par page avec chaque exercice paramétré indépendamment pour le type de motif, le mode de question et le thème — une même page peut combiner un échauffement AB en case vide avec un défi ABCD en choix multiple. Activez le Début Aléatoire pour commencer les motifs en milieu de cycle et la Position Vide Aléatoire pour placer l\'élément manquant n\'importe où dans la séquence. La mise en page en grille standard organise les exercices en lignes et colonnes proprement pour une sortie prête à l\'évaluation. Chaque fiche est entièrement visuelle avec uniquement des images et zéro texte sur la sortie — aucun mot n\'apparaît sur la page générée, rendant vos produits vendables universellement sans traduction. Un seul listing sert tous les marchés dans le monde. Puisez dans plus de 3 100 illustrations réparties dans 104 collections thématiques ou téléversez vos propres images. Un onglet de corrigé séparé montre toutes les cases vides remplies avec les éléments corrects du motif. Exportez des PDF et JPEG prêts à imprimer en haute résolution aux formats Letter, A4, Carré (1200×1200) ou dimensions personnalisées. Activez les niveaux de gris pour une sortie économique en encre. Modifiez chaque élément sur le canevas complet Fabric.js avec des polices incluant Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial et Verdana. L\'essai gratuit inclut toutes les fonctionnalités avec un filigrane sur les téléchargements. Achetez une licence pour supprimer le filigrane et vendre à usage commercial.',
   },
 
   tutorial: {

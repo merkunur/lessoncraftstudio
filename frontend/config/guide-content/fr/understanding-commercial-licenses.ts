@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'licence commerciale imprimables',
+    primaryKeyword: 'licence commerciale pour vendeurs d\'imprimables',
     secondaryKeywords: [
       'licence commerciale imprimables expliquée',
       'vendre des fiches légalement',
@@ -17,7 +17,7 @@ const content: GuideContent = {
       'erreurs de licence restrictions de plateforme exigences d\'attribution clauses d\'exclusivité',
       'registres de licence documentation de licence licence multi-plateforme avantage concurrentiel',
     ],
-    titleTag: 'Licence Commerciale Imprimables — Guide du Vendeur',
+    titleTag: 'Licence commerciale pour vendeurs | LessonCraftStudio',
     metaDescription: 'Licences commerciales pour imprimables avant de vendre. Types de licences, erreurs courantes et comment une licence appropriée protège votre activité.',
   },
 

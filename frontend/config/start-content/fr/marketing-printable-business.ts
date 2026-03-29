@@ -2,7 +2,7 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'commercialiser des fiches imprimables',
+    primaryKeyword: 'promouvoir son business d\'imprimables en ligne',
     secondaryKeywords: [
       'stratégies marketing pour vendeurs d\'imprimables',
       'promouvoir des fiches imprimables en ligne',
@@ -17,7 +17,7 @@ const content: StartContent = {
       'optimisation de marketplace pour livres d\'activités',
       'marketing de contenu pour entrepreneurs en imprimables',
     ],
-    titleTag: 'Commercialiser des fiches imprimables — Guide vendeur',
+    titleTag: 'Promouvoir son business d\'imprimables | LessonCraftStudio',
     metaDescription: 'Comment commercialiser des fiches imprimables : SEO, stratégie Pinterest, e-mail marketing, timing saisonnier et construction de marque pour entrepreneurs.',
   },
 

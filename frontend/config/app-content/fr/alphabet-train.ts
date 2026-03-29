@@ -2,28 +2,28 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'générateur train alphabet',
+    primaryKeyword: 'fiches d\'alphabet à vendre sur Etsy et KDP',
     secondaryKeywords: [
-      'fiches train alphabet imprimables pour Etsy',
-      'générateur de fiches de reconnaissance des lettres pour Amazon KDP',
-      'vendre des fiches alphabet sur Gumroad',
-      'fiches train alphabet licence commerciale',
+      'générateur de fiches alphabet train pour vendeurs Etsy',
+      'fiches de reconnaissance des lettres pour Amazon KDP',
+      'fiches alphabet imprimables licence commerciale',
+      'créer des cahiers d\'alphabet pour La Salle des Maîtres',
     ],
     lsiKeywords: [
-      'produits numériques d\'alphabétisation pour entrepreneurs',
-      'activité de fiches alphabet imprimables en ligne',
-      'générateur de fiches lettres à usage commercial',
+      'licence commerciale 300 DPI prêt à imprimer',
+      'business d\'imprimables fiches alphabet vendeurs',
+      'wagons colorés 11 langues alphabets natifs',
     ],
-    titleTag: 'Générateur Train Alphabet | Créer des Fiches Lettres',
+    titleTag: 'Fiches d\'alphabet à vendre sur Etsy & KDP | LCS',
     metaDescription:
-      'Créez des fiches train alphabet à vendre sur Etsy, KDP et Gumroad. Wagons colorés, association lettre-image, 11 langues, 104 thèmes. Essai gratuit avec filigrane.',
+      'Créez des fiches d\'alphabet à vendre sur Etsy & KDP. Wagons colorés, 11 langues, 104 thèmes, licence commerciale. Testez gratuitement avec filigrane.',
   },
 
   hero: {
-    title: 'Générateur de Fiches Train de l\'Alphabet pour la Reconnaissance des Lettres',
+    title: 'Créez des fiches d\'alphabet à vendre sur Etsy & Amazon KDP',
     tagline: 'Chaque wagon transporte une lettre et une image correspondante — construisant la reconnaissance des lettres wagon après wagon.',
     description:
-      'Concevez des fiches train alphabet captivantes où 11 wagons colorés défilent sur la page, chacun portant une lettre associée à une illustration correspondante. Choisissez le mode Création Automatique pour une sélection aléatoire instantanée de lettres ou le Mode Manuel pour sélectionner précisément 11 lettres de l\'alphabet pour un entraînement ciblé. Ajoutez de 3 à 11 indices configurables par fiche — des images-indices que les utilisateurs associent au bon wagon-lettre — transformant la reconnaissance passive des lettres en un exercice actif de résolution de problèmes. Parcourez plus de 3 100 illustrations sélectionnées dans 104 thèmes pour trouver l\'image parfaite pour chaque lettre. L\'Accès Complet déverrouille les 11 langues prises en charge avec leurs alphabets natifs — l\'allemand avec Ä/Ö/Ü, le suédois avec Å/Ä/Ö, l\'espagnol avec Ñ, et plus encore — multipliant votre catalogue de produits par onze à partir d\'un seul flux de travail. Chaque fiche génère un corrigé automatique, et vous pouvez exporter des PDF prêts à imprimer et des JPEG à plus de 400 DPI en format Letter, A4 ou Carré. Que vous vendiez des packs alphabet thématiques sur Etsy, compiliez des cahiers d\'alphabétisation progressifs pour Amazon KDP ou créiez des ateliers de lettres différenciés pour Gumroad, le Générateur Train Alphabet produit des résultats professionnels en quelques minutes — essai gratuit avec toutes les fonctionnalités, sans inscription, sans carte bancaire. Les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.',
+      'Créez des fiches d\'alphabet à vendre sur Etsy, Amazon KDP ou La Salle des Maîtres — des fiches train captivantes où 11 wagons colorés défilent sur la page, chacun portant une lettre associée à une illustration correspondante. Choisissez le mode Création Automatique pour une sélection aléatoire instantanée de lettres ou le Mode Manuel pour sélectionner précisément 11 lettres de l\'alphabet pour un entraînement ciblé. Ajoutez de 3 à 11 indices configurables par fiche — des images-indices que les utilisateurs associent au bon wagon-lettre — transformant la reconnaissance passive des lettres en un exercice actif de résolution de problèmes. Parcourez plus de 3 100 illustrations sélectionnées dans 104 thèmes pour trouver l\'image parfaite pour chaque lettre. L\'Accès Complet déverrouille les 11 langues prises en charge avec leurs alphabets natifs — l\'allemand avec Ä/Ö/Ü, le suédois avec Å/Ä/Ö, l\'espagnol avec Ñ, et plus encore — multipliant votre catalogue de produits par onze à partir d\'un seul flux de travail. Chaque fiche génère un corrigé automatique, et vous pouvez exporter des PDF prêts à imprimer et des JPEG à plus de 400 DPI en format Letter, A4 ou Carré. Que vous vendiez des packs alphabet thématiques sur Etsy, compiliez des cahiers d\'alphabétisation progressifs pour Amazon KDP ou créiez des ateliers de lettres différenciés pour Gumroad, le Générateur Train Alphabet produit des résultats professionnels en quelques minutes — essai gratuit avec toutes les fonctionnalités, sans inscription, sans carte bancaire. Les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.',
   },
 
   howItWorks: {

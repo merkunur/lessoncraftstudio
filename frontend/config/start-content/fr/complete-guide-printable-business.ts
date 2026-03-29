@@ -2,7 +2,7 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'lancer une activité d\'imprimables',
+    primaryKeyword: 'comment lancer un business d\'imprimables 2026',
     secondaryKeywords: [
       'activité d\'imprimables pour débutants',
       'vendre des fiches imprimables en ligne',
@@ -17,7 +17,7 @@ const content: StartContent = {
       'Gumroad fiches commercials',
       'licence commerciale outils imprimables',
     ],
-    titleTag: 'Lancer une Activité d\'Imprimables — Guide Complet',
+    titleTag: 'Lancer un business d\'imprimables (2026) | LessonCraftStudio',
     metaDescription: 'Comment lancer une activité d\'imprimables. Guide étape par étape pour vendeurs Etsy, Amazon KDP et Gumroad avec générateurs de fiches pour créer et vendre.',
   },
 

@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'fiches de discrimination visuelle par ombres',
+    primaryKeyword: 'créer des fiches d\'ombres à vendre',
     secondaryKeywords: [
       'créer fiches discrimination visuelle ombres à vendre',
       'générateur fiches silhouettes correspondance',
@@ -17,7 +17,7 @@ const content: GuideContent = {
       'cahiers perception visuelle Amazon KDP',
       'outil correspondance ombres licence commerciale',
     ],
-    titleTag: 'Fiches de Discrimination Visuelle par Ombres — Guide',
+    titleTag: 'Fiches d\'ombres à vendre en ligne | LessonCraftStudio',
     metaDescription: 'Créez des fiches discrimination visuelle avec deux modes : Ombres pour silhouettes et Reconstitution pour moitiés découpées. Guide complet pour Etsy et KDP.',
   },
 

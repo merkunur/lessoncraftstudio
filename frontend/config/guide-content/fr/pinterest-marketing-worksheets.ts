@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'marketing pinterest fiches exercices',
+    primaryKeyword: 'marketing Pinterest pour business de fiches',
     secondaryKeywords: [
       'pinterest pour vendeurs imprimables',
       'vendre fiches exercices avec pinterest',
@@ -17,7 +17,7 @@ const content: GuideContent = {
       'optimisation épingles format vertical algorithme Pinterest épingles fraîches',
       'classement recherche taux enregistrement clics sortants données audience modèles épingles',
     ],
-    titleTag: 'Marketing Pinterest Fiches Exercices — Stratégie Vendeurs',
+    titleTag: 'Marketing Pinterest pour fiches | LessonCraftStudio',
     metaDescription: 'Stratégie marketing Pinterest pour vendeurs de fiches imprimables. Trafic durable, optimisation des épingles, stratégie tableaux et contenu mots-clés.',
   },
 

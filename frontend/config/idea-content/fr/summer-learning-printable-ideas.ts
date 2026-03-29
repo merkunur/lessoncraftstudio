@@ -2,10 +2,10 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Idées d\'Imprimables Révisions d\'Été à Vendre — Guide',
+    titleTag: 'Cahiers de vacances à vendre sur Etsy | LessonCraftStudio',
     metaDescription: 'Découvrez des idées d\'imprimables révisions d\'été à vendre sur Etsy, KDP et Gumroad. Concepts produits pour parents, vendeurs et animateurs de stages estivaux.',
 
-    primaryKeyword: 'idées d\'imprimables révisions d\'été à vendre',
+    primaryKeyword: 'cahiers de vacances à vendre sur Etsy',
     secondaryKeywords: [
       'fiches apprentissage été à vendre',
       'idées business imprimables vacances',

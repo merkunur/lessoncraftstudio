@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'fiches de suites logiques à imprimer',
+    primaryKeyword: 'créer des fiches de motifs à vendre',
     secondaryKeywords: [
       'générateur fiches reconnaissance de motifs licence commerciale',
       'fiches suites logiques visuelles à vendre Etsy et KDP',
@@ -17,7 +17,7 @@ const content: GuideContent = {
       'cahiers motifs visuels Amazon KDP',
       'outil suites logiques licence commerciale',
     ],
-    titleTag: 'Fiches de Suites Logiques à Imprimer — Guide Étape par Étape',
+    titleTag: 'Fiches de motifs à vendre en ligne | LessonCraftStudio',
     metaDescription: 'Créez des fiches suites logiques avec 9 types de motifs, images thématiques, corrigés auto et 2 formats de questions. PDF pour Etsy, Amazon KDP et Gumroad.',
   },
 

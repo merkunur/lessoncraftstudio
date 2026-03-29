@@ -1,26 +1,26 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'créer des fiches d\'addition pour la vente',
+    primaryKeyword: 'générateur de fiches d\'addition gratuit en ligne',
     secondaryKeywords: [
-      'créateur de fiches d\'addition pour vendeurs',
-      'fiches d\'addition mathématiques pour enfants',
-      'exercices d\'addition imprimables',
-      'fiches d\'addition avec images pour le marché préscolaire',
+      'créer des fiches d\'addition gratuitement',
+      'fiches d\'addition imprimables gratuit sans inscription',
+      'générateur de fiches maths gratuit en ligne',
+      'fiches d\'addition PDF gratuit avec corrigés',
     ],
     lsiKeywords: [
-      'fiches mathématiques visuelles pour la vente',
-      'exercices d\'addition avec images pour enfants',
-      'fiches mathématiques maternelle pour vendeurs',
+      'essai gratuit avec filigrane sans inscription',
+      'licence commerciale pour vendre sur Etsy',
+      '104 thèmes images corrigés automatiques PDF',
     ],
-    titleTag: 'Créer des Fiches d\'Addition — Pour vendeurs',
-    metaDescription: 'Créez des fiches d\'addition avec images thématiques pour la vente. 104 thèmes, difficulté réglable, corrigés inclus, PDF prêt à imprimer.',
+    titleTag: 'Générateur de fiches d\'addition gratuit | LessonCraftStudio',
+    metaDescription: 'Créez des fiches d\'addition gratuitement en ligne. 104 thèmes, corrigés inclus, sans inscription. Passez à la licence commerciale pour vendre.',
     },
 
   hero: {
-    title: 'Générateur de Fiches d\'Addition',
+    title: 'Créez des fiches d\'addition gratuitement — sans inscription',
     tagline: 'Créez de superbes fiches d\'addition basées sur les images en moins de 60 secondes',
-    description: 'Transformez les exercices de maths en aventure visuelle captivante. Cet outil vous permet de créer des fiches d\'addition personnalisées avec des images thématiques que les enfants ont réellement envie de compléter. Choisissez parmi plus de 100 thèmes d\'images, réglez la plage de difficulté, sélectionnez votre mise en page et téléchargez des PDF prêts à imprimer ou des JPEG haute résolution. Parfait pour les vendeurs qui préparent des paquets de devoirs différenciés, les parents qui complètent l\'apprentissage en ligne et les vendeurs Etsy qui créent des produits de maths imprimables. L\'essai gratuit inclut un filigrane sur les téléchargements. Achetez une licence pour supprimer le filigrane et vendre vos créations à usage commercial.',
+    description: 'Créez des fiches d\'addition gratuitement en ligne — sans inscription, sans carte bancaire. Ce générateur crée des fiches d\'addition personnalisées avec des images thématiques en quelques secondes. Choisissez parmi plus de 100 thèmes d\'images, réglez la plage de difficulté, sélectionnez votre mise en page et téléchargez des PDF prêts à imprimer ou des JPEG haute résolution. Parfait pour les vendeurs qui préparent des paquets de devoirs différenciés, les parents qui complètent l\'apprentissage en ligne et les vendeurs Etsy qui créent des produits de maths imprimables. L\'essai gratuit inclut un filigrane sur les téléchargements. Achetez une licence pour supprimer le filigrane et vendre vos créations à usage commercial.',
   },
 
   tutorial: {

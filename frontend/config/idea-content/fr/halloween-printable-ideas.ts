@@ -2,10 +2,10 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Idées d\'Imprimables d\'Halloween à Vendre — Guide de Niche',
+    titleTag: 'Imprimables Halloween — Idées business | LessonCraftStudio',
     metaDescription: 'Idées d\'imprimables d\'Halloween à vendre sur Etsy, Amazon KDP et Gumroad. Concepts produits thème effrayant, stratégies saisonnières et conseils pour vendeurs.',
 
-    primaryKeyword: 'idées d\'imprimables d\'halloween à vendre',
+    primaryKeyword: 'imprimables Halloween idées business',
     secondaryKeywords: [
       'fiches halloween à vendre',
       'activité imprimable thème halloween',

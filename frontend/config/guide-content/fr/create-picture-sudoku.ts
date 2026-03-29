@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'sudoku en images à imprimer',
+    primaryKeyword: 'créer des sudoku images à vendre',
     secondaryKeywords: [
       'sudoku illustré pour enfants licence commerciale',
       'générateur sudoku en images fiches à vendre Etsy et KDP',
@@ -17,7 +17,7 @@ const content: GuideContent = {
       'cahiers puzzles logiques Amazon KDP',
       'outil sudoku en images licence commerciale',
     ],
-    titleTag: 'Sudoku en Images à Imprimer — Guide Étape par Étape',
+    titleTag: 'Sudoku images à vendre en ligne | LessonCraftStudio',
     metaDescription: 'Créez des sudoku en images pour enfants. Grilles 4×4, 3 niveaux de difficulté, images thématiques, corrigés auto et PDF prêts à imprimer pour Etsy et KDP.',
   },
 

@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'livres sudoku KDP',
+    primaryKeyword: 'créer des livres de sudoku pour Amazon KDP',
     secondaryKeywords: [
       'créer des livres de sudoku pour Amazon KDP',
       'livres sudoku en images pour enfants KDP',
@@ -17,7 +17,7 @@ const content: GuideContent = {
       'sudoku série volumes achat répété joueurs fidèles catalogue',
       'sudoku nombre puzzles mise en page corrigés impression format',
     ],
-    titleTag: 'Livres sudoku KDP — Guide de publication',
+    titleTag: 'Livres de sudoku pour Amazon KDP | LessonCraftStudio',
     metaDescription: 'Créez des livres sudoku KDP avec sudoku images pour enfants et sudoku chiffres pour adultes. Difficulté progressive, formatage grilles et stratégie séries.',
   },
 

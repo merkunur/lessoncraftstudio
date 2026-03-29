@@ -2,10 +2,10 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Idées d\'Imprimables Musique à Vendre — Guide',
+    titleTag: 'Imprimables musique à vendre | LessonCraftStudio',
     metaDescription: 'Découvrez des idées d\'imprimables musique à vendre sur Etsy, KDP et Gumroad. Concepts de produits instruments, stratégies par plateforme et conseils vendeurs.',
 
-    primaryKeyword: 'idées d\'imprimables musique à vendre',
+    primaryKeyword: 'imprimables musique à vendre',
     secondaryKeywords: [
       'fiches musique à vendre',
       'idées business imprimables musique',

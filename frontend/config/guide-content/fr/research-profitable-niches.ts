@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'rechercher des créneaux imprimables rentables',
+    primaryKeyword: 'trouver des niches rentables d\'imprimables',
     secondaryKeywords: [
       'méthodes recherche niches imprimables',
       'trouver niches fiches exercices rentables',
@@ -17,7 +17,7 @@ const content: GuideContent = {
       'quantification demande analyse saturation marché outils mots-clés décisions basées données',
       'test produit minimum viable workflow recherche découverte niches processus systématique',
     ],
-    titleTag: 'Rechercher des créneaux imprimables rentables — Guide',
+    titleTag: 'Niches rentables d\'imprimables | LessonCraftStudio',
     metaDescription: 'Comment rechercher des créneaux imprimables rentables avec données marketplace, analyse mots-clés, étude concurrence, signaux de demande et validation.',
   },
 

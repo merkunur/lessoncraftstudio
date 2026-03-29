@@ -2,28 +2,28 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'générateur fiches labyrinthes',
+    primaryKeyword: 'labyrinthes illustrés à vendre sur Etsy',
     secondaryKeywords: [
-      'créer des fiches labyrinthes à vendre sur Etsy',
-      'générateur de parcours en images pour éditeurs Amazon KDP',
-      'créateur de fiches labyrinthes avec licence commerciale Gumroad',
-      'vendre des fiches labyrinthes et chemins d\'images en ligne',
+      'générateur de labyrinthes pour vendeurs Etsy',
+      'fiches de labyrinthes pour Amazon KDP',
+      'labyrinthes imprimables licence commerciale',
+      'créer des cahiers de labyrinthes pour vendeurs',
     ],
     lsiKeywords: [
-      'produits numériques labyrinthes imprimables pour entrepreneurs',
-      'générateur de parcours visuels à usage commercial',
-      'activités de logique spatiale imprimables pour entreprise en ligne',
+      'licence commerciale 300 DPI prêt à imprimer',
+      'business d\'imprimables labyrinthes vendeurs Etsy',
+      '3 modes de jeu algorithme LPF corrigé automatique',
     ],
-    titleTag: 'Générateur Fiches Labyrinthes | 3 Modes de Jeu',
+    titleTag: 'Labyrinthes illustrés à vendre sur Etsy | LCS',
     metaDescription:
-      'Créez des fiches labyrinthes pour Etsy, KDP et Gumroad. 3 modes de jeu, algorithme LPF, corrigé auto, 104 thèmes, PDF imprimables. Essai gratuit avec filigrane.',
+      'Créez des labyrinthes illustrés à vendre sur Etsy & KDP. 3 modes de jeu, 104 thèmes, licence commerciale. Testez gratuitement avec filigrane.',
   },
 
   hero: {
-    title: 'Générateur de Fiches Chemin d\'Images pour Labyrinthes et Parcours Visuels',
+    title: 'Créez des labyrinthes illustrés à vendre sur Etsy & KDP',
     tagline: 'Trois modes de jeu en un seul générateur — Chemin d\'Images, Labyrinthe Classique et Choisis le Bon Chemin — propulsés par un algorithme LPF (Longest Path First) avec corrigés auto-générés, personnalisation des murs et design purement visuel fonctionnant dans le monde entier sans traduction.',
     description:
-      'Créez des fiches professionnelles de labyrinthes et parcours avec trois modes de jeu distincts. Le mode Chemin d\'Images crée une grille d\'images où les utilisateurs suivent le chemin correct du départ à l\'arrivée en identifiant les images du chemin parmi les distractrices. Le Labyrinthe Classique génère des labyrinthes à murs utilisant l\'algorithme LPF (Longest Path First) avec un système couloir-case et placement dynamique des murs — configurez la taille de la grille de 15×15 à 20×20, définissez 1 à 3 chemins avec blocage des impasses, et personnalisez la couleur, l\'épaisseur (1–10px) et l\'opacité (10–100%) des murs. Le mode Choisis le Bon Chemin présente des labyrinthes à trois chemins avec quatre options directionnelles (bas vers haut, haut vers bas, gauche vers droite, droite vers gauche) où les utilisateurs identifient le seul chemin correct parmi les leurres. Chaque mode génère un corrigé compagnon sur un onglet de canevas séparé — les chemins de solution sont mis en évidence avec des cercles roses le long du parcours correct, et le mode Choisis le Bon Chemin ajoute une étiquette \" ✓ CHEMIN CORRECT \". Attribuez des images à cinq rôles distincts : Image de Départ, Image d\'Arrivée, Images du Chemin, Images Distractrices et Décoration. Parcourez 104 collections thématiques avec plus de 3 100 illustrations ou importez les vôtres. L\'en-tête auto-généré \" Chemin d\'Images \" avec bordure extérieure orange affiche des titres et instructions localisés dans les 11 langues prises en charge. Ajoutez des thèmes de fond et de bordure avec des contrôles d\'opacité indépendants, incluez des champs nom et date, et exportez des PDF et JPEG prêts à imprimer à 300 DPI en format Letter, A4, Carré (1200×1200) ou dimensions personnalisées. Le Chemin d\'Images est entièrement visuel — les labyrinthes ne nécessitent aucune lecture ni compréhension linguistique, rendant chaque fiche instantanément vendable sur n\'importe quel marché mondial. Essai gratuit avec toutes les fonctionnalités — sans inscription, sans carte bancaire. Les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.',
+      'Créez des labyrinthes illustrés à vendre sur Etsy, Amazon KDP ou La Salle des Maîtres — trois modes de jeu distincts pour des produits variés. Le mode Chemin d\'Images crée une grille d\'images où les utilisateurs suivent le chemin correct du départ à l\'arrivée en identifiant les images du chemin parmi les distractrices. Le Labyrinthe Classique génère des labyrinthes à murs utilisant l\'algorithme LPF (Longest Path First) avec un système couloir-case et placement dynamique des murs — configurez la taille de la grille de 15×15 à 20×20, définissez 1 à 3 chemins avec blocage des impasses, et personnalisez la couleur, l\'épaisseur (1–10px) et l\'opacité (10–100%) des murs. Le mode Choisis le Bon Chemin présente des labyrinthes à trois chemins avec quatre options directionnelles (bas vers haut, haut vers bas, gauche vers droite, droite vers gauche) où les utilisateurs identifient le seul chemin correct parmi les leurres. Chaque mode génère un corrigé compagnon sur un onglet de canevas séparé — les chemins de solution sont mis en évidence avec des cercles roses le long du parcours correct, et le mode Choisis le Bon Chemin ajoute une étiquette \" ✓ CHEMIN CORRECT \". Attribuez des images à cinq rôles distincts : Image de Départ, Image d\'Arrivée, Images du Chemin, Images Distractrices et Décoration. Parcourez 104 collections thématiques avec plus de 3 100 illustrations ou importez les vôtres. L\'en-tête auto-généré \" Chemin d\'Images \" avec bordure extérieure orange affiche des titres et instructions localisés dans les 11 langues prises en charge. Ajoutez des thèmes de fond et de bordure avec des contrôles d\'opacité indépendants, incluez des champs nom et date, et exportez des PDF et JPEG prêts à imprimer à 300 DPI en format Letter, A4, Carré (1200×1200) ou dimensions personnalisées. Le Chemin d\'Images est entièrement visuel — les labyrinthes ne nécessitent aucune lecture ni compréhension linguistique, rendant chaque fiche instantanément vendable sur n\'importe quel marché mondial. Essai gratuit avec toutes les fonctionnalités — sans inscription, sans carte bancaire. Les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.',
   },
 
   howItWorks: {

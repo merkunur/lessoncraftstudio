@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'activité imprimables multilingue',
+    primaryKeyword: 'business d\'imprimables multilingue',
     secondaryKeywords: [
       'vendre imprimables plusieurs langues',
       'marché international des imprimables',
@@ -17,7 +17,7 @@ const content: GuideContent = {
       'portefeuille produits multilingue couverture linguistique avantage concurrentiel marchés sous-exploités',
       'flux revenus multilangues internationalisation plateformes distribution multi-marchés',
     ],
-    titleTag: 'Activité Imprimables Multilingue — Guide Stratégique',
+    titleTag: 'Business d\'imprimables multilingue | LessonCraftStudio',
     metaDescription: 'Développez une activité d\'imprimables multilingue sur les marchés internationaux. Langues prioritaires, workflows de traduction et stratégies de revenus.',
   },
 

@@ -2,10 +2,10 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Imprimables Rentrée Scolaire à Vendre — Guide de Niche',
+    titleTag: 'Imprimables rentrée scolaire Etsy | LessonCraftStudio',
     metaDescription: 'Idées d\'imprimables de rentrée à vendre sur Etsy, KDP et Gumroad. Concepts produits pour la vente, stratégies juillet-septembre et conseils vendeurs.',
 
-    primaryKeyword: 'imprimables rentrée à vendre',
+    primaryKeyword: 'imprimables rentrée scolaire à vendre Etsy',
     secondaryKeywords: [
       'fiches rentrée à vendre',
       'idées business imprimables école',

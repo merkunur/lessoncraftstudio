@@ -2,28 +2,28 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'générateur fiches mots mélangés',
+    primaryKeyword: 'créer des anagrammes imprimables pour business Etsy',
     secondaryKeywords: [
-      'fiches mots mélangés imprimables pour vendeurs Etsy',
-      'générateur de puzzles réarrangement de lettres pour Amazon KDP',
-      'vendre des fiches mots mélangés sur Gumroad',
-      'fiches mots mélangés avec code couleur voyelles licence commerciale',
+      'générateur de mots mélangés pour vendeurs Etsy',
+      'fiches d\'anagrammes pour Amazon KDP',
+      'puzzles de mots mélangés licence commerciale',
+      'cahiers d\'anagrammes pour La Salle des Maîtres',
     ],
     lsiKeywords: [
-      'produits numériques de puzzles d\'orthographe pour entrepreneurs',
-      'activité de fiches réarrangement de lettres imprimables en ligne',
-      'générateur de fiches mots mélangés à usage commercial',
+      'licence commerciale 300 DPI prêt à imprimer',
+      'business d\'imprimables puzzles de mots vendeurs',
+      'code couleur voyelles tuiles lettres 11 langues',
     ],
-    titleTag: 'Générateur Fiches Mots Mélangés | Créer et Vendre',
+    titleTag: 'Anagrammes à vendre sur Etsy & KDP | LCS',
     metaDescription:
-      'Créez des fiches mots mélangés pour Etsy, KDP et Gumroad. Tuiles lettres, indices images, code couleur voyelles-consonnes, 11 langues.',
+      'Créez des anagrammes à vendre sur Etsy & KDP. Tuiles lettres, code couleur, 11 langues, licence commerciale. Testez gratuitement avec filigrane.',
   },
 
   hero: {
-    title: 'Générateur de Fiches Mots Mélangés pour des Puzzles d\'Orthographe par Réarrangement de Lettres',
+    title: 'Créez et vendez des anagrammes imprimables sur Etsy & KDP',
     tagline: 'Des tuiles de lettres mélangées rencontrent les indices images — quatre niveaux de difficulté et un code couleur voyelles-consonnes transforment chaque mot en un puzzle d\'orthographe pratique.',
     description:
-      'Concevez des fiches professionnelles de mots mélangés où les utilisateurs voient un indice image et réarrangent des tuiles de lettres mélangées pour épeler le mot correct — un puzzle de réarrangement de lettres qui développe simultanément la précision orthographique, la reconnaissance des mots et la conscience phonique. Choisissez parmi trois sources de contenu : la Bibliothèque d\'Images intégrée avec plus de 3 100 illustrations réparties dans 104 thèmes, le Mode Édition Manuelle où vous sélectionnez des images puis personnalisez leurs noms d\'affichage, ou le mode Liste de Mots Personnalisée pour des puzzles textuels utilisant jusqu\'à 8 mots que vous saisissez directement. Quatre niveaux de difficulté contrôlent le nombre de lettres-indices pré-placées dans la position correcte — de Sans Indices (aucune lettre placée) au mode Facile plaçant la moitié des lettres — créant un étayage naturel du débutant à l\'avancé. La fonctionnalité de code couleur voyelles-consonnes est unique aux Mots Mélangés : activez les tuiles colorées où les voyelles apparaissent dans une couleur et les consonnes dans une autre, ajoutant une dimension phonique visuelle qui aide les utilisateurs à identifier les types de lettres tout en reconstituant le mot. Placez de 1 à 10 puzzles par fiche et choisissez des tuiles en majuscules ou minuscules. L\'Accès Complet déverrouille les 11 langues prises en charge où le mot cible change selon la langue — \" dog \" en anglais devient \" Hund \" en allemand, \" chien \" en français, \" perro \" en espagnol — faisant de chaque langue un produit distinct et vendable. Chaque fiche génère un corrigé automatique, et vous pouvez exporter des PDF prêts à imprimer et des JPEG à plus de 300 DPI en format Letter, A4, Carré ou dimensions personnalisées. Que vous vendiez des packs d\'orthographe thématiques sur Etsy, compiliez des cahiers de puzzles de mots pour Amazon KDP ou créiez des ateliers de lecture différenciés pour Gumroad, le Générateur de Fiches Mots Mélangés produit des résultats professionnels en quelques minutes — essai gratuit avec toutes les fonctionnalités, sans inscription, sans carte bancaire. Les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.',
+      'Créez des anagrammes imprimables à vendre sur Etsy, Amazon KDP ou La Salle des Maîtres — des fiches où les acheteurs voient un indice image et réarrangent des tuiles de lettres mélangées pour épeler le mot correct, développant simultanément la précision orthographique et la reconnaissance des mots. Choisissez parmi trois sources de contenu : la Bibliothèque d\'Images intégrée avec plus de 3 100 illustrations réparties dans 104 thèmes, le Mode Édition Manuelle où vous sélectionnez des images puis personnalisez leurs noms d\'affichage, ou le mode Liste de Mots Personnalisée pour des puzzles textuels utilisant jusqu\'à 8 mots que vous saisissez directement. Quatre niveaux de difficulté contrôlent le nombre de lettres-indices pré-placées dans la position correcte — de Sans Indices (aucune lettre placée) au mode Facile plaçant la moitié des lettres — créant un étayage naturel du débutant à l\'avancé. La fonctionnalité de code couleur voyelles-consonnes est unique aux Mots Mélangés : activez les tuiles colorées où les voyelles apparaissent dans une couleur et les consonnes dans une autre, ajoutant une dimension phonique visuelle qui aide les utilisateurs à identifier les types de lettres tout en reconstituant le mot. Placez de 1 à 10 puzzles par fiche et choisissez des tuiles en majuscules ou minuscules. L\'Accès Complet déverrouille les 11 langues prises en charge où le mot cible change selon la langue — \" dog \" en anglais devient \" Hund \" en allemand, \" chien \" en français, \" perro \" en espagnol — faisant de chaque langue un produit distinct et vendable. Chaque fiche génère un corrigé automatique, et vous pouvez exporter des PDF prêts à imprimer et des JPEG à plus de 300 DPI en format Letter, A4, Carré ou dimensions personnalisées. Que vous vendiez des packs d\'orthographe thématiques sur Etsy, compiliez des cahiers de puzzles de mots pour Amazon KDP ou créiez des ateliers de lecture différenciés pour Gumroad, le Générateur de Fiches Mots Mélangés produit des résultats professionnels en quelques minutes — essai gratuit avec toutes les fonctionnalités, sans inscription, sans carte bancaire. Les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.',
   },
 
   howItWorks: {

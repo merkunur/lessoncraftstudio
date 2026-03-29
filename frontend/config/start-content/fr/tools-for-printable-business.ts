@@ -2,7 +2,7 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'outils pour vendeurs de fiches imprimables',
+    primaryKeyword: 'outils essentiels business d\'imprimables',
     secondaryKeywords: [
       'outils activité imprimable checklist',
       'générateur de fiches outils pour vendeurs',
@@ -17,7 +17,7 @@ const content: StartContent = {
       'outils générateur fiches multilingues',
       'production fiches licence commerciale',
     ],
-    titleTag: 'Outils pour vendeurs de fiches imprimables — Guide complet',
+    titleTag: 'Outils essentiels business imprimables | LessonCraftStudio',
     metaDescription: 'Meilleurs outils pour vendeurs de fiches imprimables : générateurs de fiches, outils de design, utilitaires de plateforme et workflows d\'automatisation.',
   },
 

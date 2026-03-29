@@ -2,28 +2,28 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'générateur sudoku en images',
+    primaryKeyword: 'générateur de sudoku images pour livres de jeux KDP',
     secondaryKeywords: [
-      'créer et vendre des sudoku en images pour vendeurs Etsy',
-      'générateur de puzzles sudoku visuels pour éditeurs Amazon KDP',
-      'créateur de fiches sudoku en images avec licence commerciale',
-      'vendre des fiches sudoku en images sur Gumroad',
+      'créer des sudoku en images pour vendeurs Etsy',
+      'sudoku visuels 4×4 pour Amazon KDP',
+      'fiches sudoku images licence commerciale',
+      'cahiers de sudoku pour La Salle des Maîtres',
     ],
     lsiKeywords: [
-      'produits numériques de sudoku visuels pour entrepreneurs',
-      'générateur de puzzles logiques à usage commercial',
-      'activités de raisonnement logique imprimables pour entreprise en ligne',
+      'licence commerciale 300 DPI prêt à imprimer',
+      'business d\'imprimables sudoku images vendeurs',
+      'grille 4×4 trois niveaux corrigé automatique',
     ],
-    titleTag: 'Générateur Sudoku en Images | Fiches Logique 4×4',
+    titleTag: 'Sudoku images pour livres de jeux KDP | LCS',
     metaDescription:
-      'Créez des fiches sudoku en images pour Etsy, KDP et Gumroad. Grille 4×4, trois niveaux de difficulté, corrigé auto, 104 thèmes. Essai gratuit avec filigrane.',
+      'Créez des sudoku images à vendre sur Etsy & KDP. Grille 4×4, 3 niveaux de difficulté, licence commerciale. Testez gratuitement avec filigrane.',
   },
 
   hero: {
-    title: 'Générateur de Fiches Sudoku en Images pour Puzzles Logiques 4×4',
+    title: 'Créez des sudoku images pour livres de jeux KDP & Etsy',
     tagline: 'Sudoku visuels 4×4 utilisant des images au lieu de chiffres — trois niveaux de difficulté de 4 à 8 cases vides, corrigés auto-générés avec grilles complètes remplies, et sélection d\'images par thème parmi 104 collections pour des puzzles vendables dans le monde entier sans traduction.',
     description:
-      'Créez des fiches professionnelles de sudoku en images 4×4 où les utilisateurs remplissent les cases vides avec les bonnes images en utilisant la logique de lignes et colonnes. Chaque puzzle utilise exactement 4 images uniques qui doivent apparaître une fois dans chaque ligne et une fois dans chaque colonne — les mêmes règles que le sudoku classique, mais avec des illustrations colorées au lieu de chiffres. Choisissez parmi trois niveaux de difficulté : Facile supprime 4 cases, Moyen supprime 6, et Difficile supprime 8 — la moitié de la grille. Sélectionnez les images par thème avec une auto-sélection qui choisit aléatoirement 4 images parmi 104 collections thématiques, ou sélectionnez manuellement exactement 4 images depuis la bibliothèque, la recherche ou vos propres imports. Le design premium de la grille présente des couleurs alternées des blocs 2×2 en bleu clair et rose clair, des ombres multicouches et une bordure extérieure indigo avec coins arrondis. Chaque puzzle inclut un en-tête auto-généré \" Sudoku en Images \" localisé dans les 11 langues et un corrigé sur double canevas montrant la grille complète remplie avec les 16 cases remplies. Ajoutez des thèmes de fond et de bordure avec des contrôles d\'opacité indépendants, puis exportez des PDF et JPEG prêts à imprimer à 300 DPI en format Letter, A4 ou dimensions personnalisées. Le sudoku en images étant entièrement visuel — aucun mot n\'apparaît sur la grille du puzzle — chaque fiche fonctionne identiquement dans les 11 langues, rendant vos produits vendables dans le monde entier sans aucune modification. L\'Accès Complet déverrouille les 104 thèmes avec plus de 3 100 illustrations et les 11 langues d\'interface. Que vous vendiez des packs de sudoku thématiques sur Etsy, compiliez des cahiers de logique pour Amazon KDP ou créiez des activités de raisonnement pour Gumroad, ce générateur produit des puzzles prêts pour la production en quelques minutes — essai gratuit avec toutes les fonctionnalités, sans inscription, sans carte bancaire. Les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.',
+      'Créez des sudoku images à vendre sur Etsy, Amazon KDP ou La Salle des Maîtres — des puzzles 4×4 où les acheteurs remplissent les cases vides avec les bonnes images en utilisant la logique de lignes et colonnes. Chaque puzzle utilise exactement 4 images uniques qui doivent apparaître une fois dans chaque ligne et une fois dans chaque colonne — les mêmes règles que le sudoku classique, mais avec des illustrations colorées au lieu de chiffres. Choisissez parmi trois niveaux de difficulté : Facile supprime 4 cases, Moyen supprime 6, et Difficile supprime 8 — la moitié de la grille. Sélectionnez les images par thème avec une auto-sélection qui choisit aléatoirement 4 images parmi 104 collections thématiques, ou sélectionnez manuellement exactement 4 images depuis la bibliothèque, la recherche ou vos propres imports. Le design premium de la grille présente des couleurs alternées des blocs 2×2 en bleu clair et rose clair, des ombres multicouches et une bordure extérieure indigo avec coins arrondis. Chaque puzzle inclut un en-tête auto-généré \" Sudoku en Images \" localisé dans les 11 langues et un corrigé sur double canevas montrant la grille complète remplie avec les 16 cases remplies. Ajoutez des thèmes de fond et de bordure avec des contrôles d\'opacité indépendants, puis exportez des PDF et JPEG prêts à imprimer à 300 DPI en format Letter, A4 ou dimensions personnalisées. Le sudoku en images étant entièrement visuel — aucun mot n\'apparaît sur la grille du puzzle — chaque fiche fonctionne identiquement dans les 11 langues, rendant vos produits vendables dans le monde entier sans aucune modification. L\'Accès Complet déverrouille les 104 thèmes avec plus de 3 100 illustrations et les 11 langues d\'interface. Que vous vendiez des packs de sudoku thématiques sur Etsy, compiliez des cahiers de logique pour Amazon KDP ou créiez des activités de raisonnement pour Gumroad, ce générateur produit des puzzles prêts pour la production en quelques minutes — essai gratuit avec toutes les fonctionnalités, sans inscription, sans carte bancaire. Les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.',
   },
 
   howItWorks: {

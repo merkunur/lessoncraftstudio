@@ -2,28 +2,28 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'générateur fiches train suites logiques',
+    primaryKeyword: 'fiches de suites logiques pour business d\'imprimables',
     secondaryKeywords: [
-      'générateur de fiches train de suites logiques pour vendeurs Etsy',
-      'créateur de fiches de séquences répétitives train pour éditeurs Amazon KDP',
-      'vendre des fiches de reconnaissance de motifs sur Gumroad',
-      'générateur de fiches train suites logiques licence commerciale',
+      'générateur de fiches train suites logiques pour Etsy',
+      'fiches de séquences répétitives pour Amazon KDP',
+      'fiches de reconnaissance de motifs licence commerciale',
+      'créer des cahiers de suites logiques pour vendeurs',
     ],
     lsiKeywords: [
-      'produits numériques fiches suites logiques train pour entrepreneurs',
-      'fiches de reconnaissance de motifs imprimables à usage commercial',
-      'générateur de fiches train de séquences avec wagons thématiques',
+      'licence commerciale 300 DPI prêt à imprimer',
+      'business d\'imprimables suites logiques vendeurs Etsy',
+      '5 types de motifs 11 wagons indices ajustables',
     ],
-    titleTag: 'Générateur Fiches Train Suites Logiques | Vendre',
+    titleTag: 'Suites logiques pour business d\'imprimables | LCS',
     metaDescription:
-      'Créez des fiches train de suites logiques pour Etsy, KDP et Gumroad. Cinq types de motifs, 11 wagons thématiques, indices ajustables.',
+      'Créez des fiches de suites logiques à vendre sur Etsy & KDP. 5 types de motifs, wagons thématiques, licence commerciale. Testez gratuitement avec filigrane.',
   },
 
   hero: {
-    title: 'Générateur de Fiches Train de Suites Logiques pour des Exercices de Séquences Répétitives',
+    title: 'Créez des fiches de suites logiques à vendre sur Etsy & KDP',
     tagline: 'Cinq types de motifs — AB, AAB, ABB, ABC, AABB — affichés sur 11 wagons de train thématiques avec un nombre d\'indices ajustable de 4 à 10 pour un contrôle précis de la difficulté.',
     description:
-      'Concevez des fiches professionnelles de reconnaissance de motifs où les utilisateurs identifient et complètent des séquences répétitives affichées sous forme d\'images sur un train thématique à 11 wagons. Cinq types de motifs distincts couvrent tous les niveaux de complexité des séquences : AB alterne deux éléments, AAB regroupe deux d\'un suivi d\'un autre, ABB inverse ce regroupement, ABC fait tourner trois éléments différents, et AABB associe deux de chaque avant de recommencer. La disposition du train organise 11 wagons sur trois rangées (5 + 3 + 3), chaque wagon contenant une image du motif répétitif. Un wagon est laissé vide — les utilisateurs identifient le motif et déterminent l\'élément manquant. Ajustez le nombre d\'indices de 4 à 10 pour contrôler la difficulté : afficher 10 indices rend le motif évident, tandis que n\'en afficher que 4 exige un véritable raisonnement logique puisque les 3 premiers wagons sont toujours révélés. Le contenu provient de la Bibliothèque d\'Images intégrée avec plus de 3 100 illustrations réparties dans 104 thèmes. Un onglet de corrigé séparé montre les 11 wagons remplis avec la séquence correcte pour une vérification instantanée. L\'Accès Complet déverrouille les 104 thèmes et les 11 langues d\'interface. Exportez des PDF et JPEG prêts à imprimer en haute résolution aux formats Letter, A4, Carré ou dimensions personnalisées. Chaque fiche est entièrement visuelle avec uniquement des images sur les wagons et zéro texte sur la sortie, rendant les produits vendables universellement sans traduction. Que vous créiez des lots de reconnaissance de motifs sur Etsy, compiliez des cahiers d\'apprentissage précoce pour Amazon KDP ou construisiez des ateliers différenciés de mathématiques pour Gumroad, le Générateur de Fiches Train de Suites Logiques livre des produits uniques au format train en quelques minutes — essai gratuit avec toutes les fonctionnalités, sans inscription, sans carte bancaire. Les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.',
+      'Créez des fiches de suites logiques à vendre sur Etsy, Amazon KDP ou La Salle des Maîtres — des fiches train où les acheteurs identifient et complètent des séquences répétitives affichées sous forme d\'images sur 11 wagons thématiques. Cinq types de motifs distincts couvrent tous les niveaux de complexité des séquences : AB alterne deux éléments, AAB regroupe deux d\'un suivi d\'un autre, ABB inverse ce regroupement, ABC fait tourner trois éléments différents, et AABB associe deux de chaque avant de recommencer. La disposition du train organise 11 wagons sur trois rangées (5 + 3 + 3), chaque wagon contenant une image du motif répétitif. Un wagon est laissé vide — les utilisateurs identifient le motif et déterminent l\'élément manquant. Ajustez le nombre d\'indices de 4 à 10 pour contrôler la difficulté : afficher 10 indices rend le motif évident, tandis que n\'en afficher que 4 exige un véritable raisonnement logique puisque les 3 premiers wagons sont toujours révélés. Le contenu provient de la Bibliothèque d\'Images intégrée avec plus de 3 100 illustrations réparties dans 104 thèmes. Un onglet de corrigé séparé montre les 11 wagons remplis avec la séquence correcte pour une vérification instantanée. L\'Accès Complet déverrouille les 104 thèmes et les 11 langues d\'interface. Exportez des PDF et JPEG prêts à imprimer en haute résolution aux formats Letter, A4, Carré ou dimensions personnalisées. Chaque fiche est entièrement visuelle avec uniquement des images sur les wagons et zéro texte sur la sortie, rendant les produits vendables universellement sans traduction. Que vous créiez des lots de reconnaissance de motifs sur Etsy, compiliez des cahiers d\'apprentissage précoce pour Amazon KDP ou construisiez des ateliers différenciés de mathématiques pour Gumroad, le Générateur de Fiches Train de Suites Logiques livre des produits uniques au format train en quelques minutes — essai gratuit avec toutes les fonctionnalités, sans inscription, sans carte bancaire. Les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.',
   },
 
   howItWorks: {

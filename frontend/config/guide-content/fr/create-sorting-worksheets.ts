@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'fiches de tri par catégories',
+    primaryKeyword: 'créer des fiches de tri à vendre',
     secondaryKeywords: [
       'fiches de tri et classement pour enfants licence commerciale',
       'générateur fiches de tri d\'images à vendre Etsy et KDP',
@@ -17,7 +17,7 @@ const content: GuideContent = {
       'cahiers classification Amazon KDP activités tri',
       'outil fiches tri licence commerciale',
     ],
-    titleTag: 'Fiches de Tri par Catégories — Guide Étape par Étape',
+    titleTag: 'Fiches de tri à vendre en ligne | LessonCraftStudio',
     metaDescription: 'Créez des fiches de tri avec mode thématique à deux catégories, 4–12 images, grilles découpées mélangées et corrigés automatiques. Guide pour Etsy et KDP.',
   },
 

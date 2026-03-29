@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'SEO Etsy produits imprimables imprimable',
+    primaryKeyword: 'SEO Etsy pour fiches pédagogiques 2026',
     secondaryKeywords: [
       'SEO Etsy pour fiches pédagogiques imprimables',
       'recherche de mots-clés Etsy produits éducatifs',
@@ -17,7 +17,7 @@ const content: GuideContent = {
       'Etsy Stats rapport termes de recherche optimisation mots-clés',
       'catégorie attributs Etsy pour produits éducatifs numériques',
     ],
-    titleTag: 'SEO Etsy produits imprimables Imprimable — Guide',
+    titleTag: 'SEO Etsy pour fiches pédagogiques (2026) | LessonCraftStudio',
     metaDescription: 'Guide SEO Etsy pour produits imprimables imprimable. Recherche de mots-clés, optimisation des titres, 13 tags, descriptions et facteurs de classement.',
   },
 

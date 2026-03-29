@@ -2,26 +2,26 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'générateur fiches mots mélangés',
+    primaryKeyword: 'générateur d\'anagrammes gratuit en ligne',
     secondaryKeywords: [
-      'créateur de fiches mots mélangés pour vendeurs',
-      'créer des puzzles réarrangement de lettres à vendre',
-      'fiches mots mélangés imprimables licence commerciale',
-      'générateur de fiches mots mélangés pour KDP',
+      'créer des anagrammes gratuitement en ligne',
+      'générateur de mots mélangés gratuit sans inscription',
+      'anagrammes avec images gratuit PDF',
+      'mots mélangés gratuit avec corrigé automatique',
     ],
     lsiKeywords: [
-      'imprimables tuiles de lettres mélangées pour Etsy.fr',
-      'outil de fiches mots mélangés avec indices images',
-      'générateur de puzzles d\'orthographe multilingue',
+      'essai gratuit avec filigrane sans inscription',
+      'licence commerciale pour vendre sur Etsy',
+      'tuiles lettres code couleur voyelles 11 langues',
     ],
-    titleTag: 'Générateur Fiches Mots Mélangés | Imprimables',
-    metaDescription: 'Créez des fiches mots mélangés avec tuiles de lettres, indices images, code couleur voyelles-consonnes, 4 niveaux, 11 langues. Essai gratuit avec filigrane.',
+    titleTag: 'Générateur d\'anagrammes gratuit | LessonCraftStudio',
+    metaDescription: 'Créez des anagrammes gratuitement en ligne. Tuiles lettres, code couleur, 11 langues, sans inscription. Licence commerciale disponible.',
   },
 
   hero: {
-    title: 'Générateur de Fiches Mots Mélangés',
+    title: 'Anagrammes gratuits — créez en ligne sans inscription',
     tagline: 'Créez des puzzles d\'orthographe par réarrangement de lettres avec indices images, code couleur et 4 niveaux de difficulté dans 11 langues',
-    description: 'Transformez la pratique du vocabulaire en un puzzle d\'orthographe pratique que les utilisateurs résolvent en réarrangeant des tuiles de lettres mélangées. Cet outil génère des fiches mots mélangés où un indice image est associé à un ensemble de tuiles contenant toutes les lettres du mot — mais dans le mauvais ordre. Les utilisateurs étudient l\'image, identifient ce qu\'elle représente et replacent les lettres dans le bon ordre pour épeler le mot correct. Contrairement aux exercices deviner les mots où les utilisateurs remplissent des cases vides, les mots mélangés donnent TOUTES les lettres mais mélangées, ce qui en fait un défi de réarrangement qui développe la précision orthographique par la manipulation active. La fonctionnalité phare est le code couleur voyelles-consonnes : activez-le pour afficher les voyelles dans une couleur et les consonnes dans une autre sur les tuiles, ajoutant une dimension phonique visuelle qui aide les utilisateurs à identifier les types de lettres tout en reconstituant le mot. Quatre niveaux de difficulté contrôlent le nombre de lettres pré-placées dans leur position correcte : Sans Indices mélange toutes les lettres pour un défi maximal, Facile pré-place la moitié pour un étayage adapté aux débutants, Normal place un quart pour une pratique équilibrée, et Difficile place seulement un sixième pour les orthographeurs confirmés. Choisissez entre trois sources de contenu : la Bibliothèque d\'Images tire le vocabulaire de plus de 3 100 illustrations réparties dans 104 collections thématiques, le Mode Édition Manuelle vous permet de sélectionner des images puis de personnaliser leurs noms d\'affichage, et le mode Liste de Mots Personnalisée vous permet de taper jusqu\'à 8 mots directement pour des puzzles textuels. La sensibilité linguistique est intégrée : passez du français à l\'une des 11 langues prises en charge et la même image produit un mot cible différent avec des lettres différentes et un arrangement mélangé complètement différent. Une image de chien génère \" CHIEN \" en français, \" DOG \" en anglais, \" HUND \" en allemand, \" PERRO \" en espagnol. Un seul design devient 11 produits uniques. Définissez 1 à 10 puzzles par page, choisissez des tuiles en majuscules ou minuscules, ajoutez la numérotation des exercices et sélectionnez parmi 7 familles de polices. Exportez en PDF prêt à imprimer ou en JPEG haute résolution avec génération automatique de corrigé. L\'essai gratuit inclut un filigrane sur les téléchargements. Achetez une licence pour supprimer le filigrane et vendre à usage commercial.',
+    description: 'Créez des anagrammes gratuitement en ligne — sans inscription, sans carte bancaire. Les utilisateurs résolvent des puzzles d\'orthographe en réarrangeant des tuiles de lettres mélangées. Cet outil génère des fiches mots mélangés où un indice image est associé à un ensemble de tuiles contenant toutes les lettres du mot — mais dans le mauvais ordre. Les utilisateurs étudient l\'image, identifient ce qu\'elle représente et replacent les lettres dans le bon ordre pour épeler le mot correct. Contrairement aux exercices deviner les mots où les utilisateurs remplissent des cases vides, les mots mélangés donnent TOUTES les lettres mais mélangées, ce qui en fait un défi de réarrangement qui développe la précision orthographique par la manipulation active. La fonctionnalité phare est le code couleur voyelles-consonnes : activez-le pour afficher les voyelles dans une couleur et les consonnes dans une autre sur les tuiles, ajoutant une dimension phonique visuelle qui aide les utilisateurs à identifier les types de lettres tout en reconstituant le mot. Quatre niveaux de difficulté contrôlent le nombre de lettres pré-placées dans leur position correcte : Sans Indices mélange toutes les lettres pour un défi maximal, Facile pré-place la moitié pour un étayage adapté aux débutants, Normal place un quart pour une pratique équilibrée, et Difficile place seulement un sixième pour les orthographeurs confirmés. Choisissez entre trois sources de contenu : la Bibliothèque d\'Images tire le vocabulaire de plus de 3 100 illustrations réparties dans 104 collections thématiques, le Mode Édition Manuelle vous permet de sélectionner des images puis de personnaliser leurs noms d\'affichage, et le mode Liste de Mots Personnalisée vous permet de taper jusqu\'à 8 mots directement pour des puzzles textuels. La sensibilité linguistique est intégrée : passez du français à l\'une des 11 langues prises en charge et la même image produit un mot cible différent avec des lettres différentes et un arrangement mélangé complètement différent. Une image de chien génère \" CHIEN \" en français, \" DOG \" en anglais, \" HUND \" en allemand, \" PERRO \" en espagnol. Un seul design devient 11 produits uniques. Définissez 1 à 10 puzzles par page, choisissez des tuiles en majuscules ou minuscules, ajoutez la numérotation des exercices et sélectionnez parmi 7 familles de polices. Exportez en PDF prêt à imprimer ou en JPEG haute résolution avec génération automatique de corrigé. L\'essai gratuit inclut un filigrane sur les téléchargements. Achetez une licence pour supprimer le filigrane et vendre à usage commercial.',
   },
 
   tutorial: {

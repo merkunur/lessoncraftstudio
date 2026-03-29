@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'marketing réseaux sociaux pour imprimables',
+    primaryKeyword: 'réseaux sociaux pour vendeurs d\'imprimables',
     secondaryKeywords: [
       'réseaux sociaux pour vendeurs imprimables',
       'promouvoir imprimables sur réseaux sociaux',
@@ -17,7 +17,7 @@ const content: GuideContent = {
       'marketing Instagram stratégie Pinterest groupes Facebook promotion vendeur',
       'stratégie hashtags calendrier publication taux engagement optimisation profil',
     ],
-    titleTag: 'Marketing Réseaux Sociaux pour Imprimables — Guide Vendeur',
+    titleTag: 'Réseaux sociaux pour vendeurs | LessonCraftStudio',
     metaDescription: 'Stratégies marketing réseaux sociaux pour imprimables : choix des plateformes, contenu visuel, construction d\'audience et engagement générant du trafic.',
   },
 

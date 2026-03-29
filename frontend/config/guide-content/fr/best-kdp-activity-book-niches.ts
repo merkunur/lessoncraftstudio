@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'niches livres activités KDP',
+    primaryKeyword: 'meilleures niches cahiers d\'activités KDP 2026',
     secondaryKeywords: [
       'meilleures niches livres activités KDP pour éditeurs',
       'catégories rentables livres activités Amazon KDP',
@@ -17,7 +17,7 @@ const content: GuideContent = {
       'validation niche titre test ventes 90 jours stratégie catalogue',
       'hybride inter-catégories livres activités thématiques sous-niche',
     ],
-    titleTag: 'Niches livres activités KDP — Guide des meilleurs choix',
+    titleTag: 'Meilleures niches cahiers KDP (2026) | LessonCraftStudio',
     metaDescription: 'Meilleures niches de livres d\'activités KDP pour éditeurs. Analyse de la demande, évaluation concurrence, catégories sous-exploitées et timing saisonnier.',
   },
 

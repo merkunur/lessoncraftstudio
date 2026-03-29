@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'puzzles cryptogrammes',
+    primaryKeyword: 'créer des cryptogrammes à vendre',
     secondaryKeywords: [
       'créer puzzles cryptogrammes à vendre',
       'générateur puzzles chiffré en images licence commerciale',
@@ -17,7 +17,7 @@ const content: GuideContent = {
       'cahiers puzzles chiffré en images Amazon KDP',
       'licence commerciale outil fiches cryptogrammes',
     ],
-    titleTag: 'Puzzles cryptogrammes — Guide',
+    titleTag: 'Cryptogrammes à vendre en ligne | LessonCraftStudio',
     metaDescription: 'Créez des puzzles cryptogrammes avec chiffrement images, difficulté réglable, attribution automatique et alphabets adaptés. Guide pour vendeurs Etsy et KDP.',
   },
 

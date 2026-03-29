@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'créer des puzzles de mots cachés',
+    primaryKeyword: 'créer des mots mêlés avec images à vendre',
     secondaryKeywords: [
       'générateur puzzles mots cachés',
       'créateur mots cachés imprimables',
@@ -17,7 +17,7 @@ const content: GuideContent = {
       'mots cachés imprimables Etsy',
       'outil puzzles avec licence commerciale',
     ],
-    titleTag: 'Créer des puzzles de mots cachés — Guide étape par étape',
+    titleTag: 'Mots mêlés avec images à vendre | LessonCraftStudio',
     metaDescription: 'Comment créer des mots cachés avec indices visuels. Choisissez thèmes, taille de grille, directions, générez les corrigés auto et vendez sur Etsy et KDP.',
   },
 

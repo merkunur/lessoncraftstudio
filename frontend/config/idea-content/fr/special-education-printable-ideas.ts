@@ -2,10 +2,10 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Idées d\'Imprimables Éducation Spécialisée à Vendre',
+    titleTag: 'Imprimables éducation spécialisée | LessonCraftStudio',
     metaDescription: 'Idées d\'imprimables éducation spécialisée à vendre sur Etsy, KDP et Gumroad. Concepts de produits adaptés pour vendeurs, thérapeutes et parents d\'utilisateurs.',
 
-    primaryKeyword: 'idées d\'imprimables éducation spécialisée à vendre',
+    primaryKeyword: 'imprimables éducation spécialisée à vendre',
     secondaryKeywords: [
       'fiches adaptées à vendre',
       'idées business imprimables ULIS',

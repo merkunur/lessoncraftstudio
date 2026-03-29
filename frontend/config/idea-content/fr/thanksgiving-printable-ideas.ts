@@ -2,10 +2,10 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Idées d\'Imprimables Thanksgiving à Vendre — Guide',
+    titleTag: 'Imprimables Action de grâces à vendre | LessonCraftStudio',
     metaDescription: 'Découvrez des idées d\'imprimables Thanksgiving à vendre sur Etsy, KDP et Gumroad. Concepts de produits automne-récolte, stratégies saisonnières et conseils pros.',
 
-    primaryKeyword: 'idées d\'imprimables thanksgiving à vendre',
+    primaryKeyword: 'imprimables Action de grâces à vendre',
     secondaryKeywords: [
       'fiches Thanksgiving à vendre',
       'idées business imprimables Thanksgiving',

@@ -2,27 +2,28 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'générateur fiches objets cachés',
+    primaryKeyword: 'créer des cherche et trouve à vendre sur Etsy et KDP',
     secondaryKeywords: [
-      'fiches Je Vois Je Vois imprimables pour vendeurs Etsy',
-      'générateur de fiches cherche objets pour Amazon KDP',
-      'créer fiches trouve l\'intrus avec licence commerciale',
-      'vendre des fiches objets cachés sur Gumroad',
+      'générateur de fiches objets cachés pour vendeurs Etsy',
+      'fiches Je Vois Je Vois pour Amazon KDP',
+      'cherche et trouve imprimables licence commerciale',
+      'cahiers de cherche et trouve pour La Salle des Maîtres',
     ],
     lsiKeywords: [
-      'produits numériques fiches objets cachés pour entrepreneurs',
-      'générateur de fiches trouve l\'intrus à usage commercial',
-      'fiches recherche visuelle imprimables avec corrigé automatique',
+      'licence commerciale 300 DPI prêt à imprimer',
+      'business d\'imprimables cherche et trouve vendeurs',
+      'modes Cherche et Trouve l\'Intrus corrigé automatique',
     ],
-    titleTag: 'Générateur Fiches Objets Cachés | Je Vois + Intrus',
-    metaDescription: 'Créez des fiches objets cachés pour Etsy, KDP et Gumroad. Modes Cherche et Trouve l\'Intrus, sans chevauchement, corrigé auto. Essai gratuit avec filigrane.',
+    titleTag: 'Cherche et trouve à vendre sur Etsy & KDP | LCS',
+    metaDescription:
+      'Créez des cherche et trouve à vendre sur Etsy & KDP. Modes Je Vois et Trouve l\'Intrus, licence commerciale. Testez gratuitement avec filigrane.',
   },
 
   hero: {
-    title: 'Générateur de Fiches Objets Cachés pour Activités Je Vois Je Vois et Trouve l\'Intrus',
+    title: 'Créez des cherche et trouve à vendre sur Etsy & Amazon KDP',
     tagline: 'Deux modes d\'activité en un seul générateur — scènes d\'objets cachés Je Vois Je Vois avec placement sans chevauchement et rangées d\'images appariées Trouve l\'Intrus — avec corrigés auto-générés, dimensionnement adaptatif des images, champs nom et date, et légende montrant les objets à trouver.',
     description:
-      'Concevez des fiches professionnelles d\'objets cachés où les utilisateurs explorent une scène d\'images dispersées pour trouver et entourer des objets spécifiques. Choisissez entre deux modes d\'activité : le mode Je Vois Je Vois utilise un algorithme de placement sans chevauchement pour disperser 1–5 objets cachés parmi 8–12 objets distracteurs sur toute la page — pas de grille, pas de lignes ni de colonnes, juste une scène visuelle cohérente générée par l\'algorithme findBestPosition() qui essaie 50 positions aléatoires par image et réduit adaptativement la taille quand l\'espace se fait rare. Une légende en bas de la fiche montre aux utilisateurs exactement quels objets chercher. Le mode Trouve l\'Intrus dispose 8–12 images appariées en rangées avec 1–5 éléments non appariés mélangés — les utilisateurs identifient les images qui n\'ont pas de partenaire correspondant. Le système à double canevas génère à la fois un onglet Fiche et un onglet Corrigé — le corrigé dessine des cercles rouges autour des objets cachés (Je Vois Je Vois) ou des éléments non appariés (Trouve l\'Intrus) pour que vous n\'ayez jamais à les marquer manuellement. Le Générateur Cherche Objets est uniquement visuel : la langue affecte les étiquettes de l\'interface mais PAS le contenu des fiches, donc chaque fiche fonctionne dans n\'importe quelle langue sans noms d\'images localisés. L\'Accès Complet déverrouille les 104 thèmes avec plus de 3 100 illustrations et les 11 langues d\'interface. Ajoutez des thèmes de fond et des thèmes de bordure avec des contrôles d\'opacité indépendants, activez ou désactivez les champs nom et date, personnalisez l\'en-tête à taille automatique avec 6 choix de polices, et exportez des PDF prêts à imprimer et des JPEG à 300 DPI en format Letter, A4 ou dimensions personnalisées. Que vous vendiez des packs d\'activités objets cachés sur Etsy, compiliez des cahiers Je Vois Je Vois pour Amazon KDP ou créiez des activités de discrimination visuelle pour Gumroad, ce générateur produit des fiches professionnelles en quelques minutes — essai gratuit avec toutes les fonctionnalités, sans inscription, sans carte bancaire. Les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.',
+      'Créez des cherche et trouve à vendre sur Etsy, Amazon KDP ou La Salle des Maîtres — des fiches où les acheteurs explorent une scène d\'images dispersées pour trouver et entourer des objets spécifiques. Choisissez entre deux modes d\'activité : le mode Je Vois Je Vois utilise un algorithme de placement sans chevauchement pour disperser 1–5 objets cachés parmi 8–12 objets distracteurs sur toute la page — pas de grille, pas de lignes ni de colonnes, juste une scène visuelle cohérente générée par l\'algorithme findBestPosition() qui essaie 50 positions aléatoires par image et réduit adaptativement la taille quand l\'espace se fait rare. Une légende en bas de la fiche montre aux utilisateurs exactement quels objets chercher. Le mode Trouve l\'Intrus dispose 8–12 images appariées en rangées avec 1–5 éléments non appariés mélangés — les utilisateurs identifient les images qui n\'ont pas de partenaire correspondant. Le système à double canevas génère à la fois un onglet Fiche et un onglet Corrigé — le corrigé dessine des cercles rouges autour des objets cachés (Je Vois Je Vois) ou des éléments non appariés (Trouve l\'Intrus) pour que vous n\'ayez jamais à les marquer manuellement. Le Générateur Cherche Objets est uniquement visuel : la langue affecte les étiquettes de l\'interface mais PAS le contenu des fiches, donc chaque fiche fonctionne dans n\'importe quelle langue sans noms d\'images localisés. L\'Accès Complet déverrouille les 104 thèmes avec plus de 3 100 illustrations et les 11 langues d\'interface. Ajoutez des thèmes de fond et des thèmes de bordure avec des contrôles d\'opacité indépendants, activez ou désactivez les champs nom et date, personnalisez l\'en-tête à taille automatique avec 6 choix de polices, et exportez des PDF prêts à imprimer et des JPEG à 300 DPI en format Letter, A4 ou dimensions personnalisées. Que vous vendiez des packs d\'activités objets cachés sur Etsy, compiliez des cahiers Je Vois Je Vois pour Amazon KDP ou créiez des activités de discrimination visuelle pour Gumroad, ce générateur produit des fiches professionnelles en quelques minutes — essai gratuit avec toutes les fonctionnalités, sans inscription, sans carte bancaire. Les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.',
   },
 
   howItWorks: {

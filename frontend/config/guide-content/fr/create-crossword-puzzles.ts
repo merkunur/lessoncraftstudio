@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'créer des mots croisés en images',
+    primaryKeyword: 'créer des mots croisés à vendre en ligne',
     secondaryKeywords: [
       'générateur mots croisés pour enfants',
       'créateur mots croisés imprimables',
@@ -17,7 +17,7 @@ const content: GuideContent = {
       'mots croisés imprimables Etsy',
       'outil puzzles avec licence commerciale',
     ],
-    titleTag: 'Créer des mots croisés en images — Guide étape par étape',
+    titleTag: 'Mots croisés à vendre en ligne | LessonCraftStudio',
     metaDescription: 'Comment créer des mots croisés en images pour enfants. Thèmes, grilles 15×15 croisées, indices numérotés, corrigés automatiques et vente sur Etsy et KDP.',
   },
 

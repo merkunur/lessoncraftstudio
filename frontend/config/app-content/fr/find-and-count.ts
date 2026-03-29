@@ -2,28 +2,28 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'générateur fiches cherche et compte',
+    primaryKeyword: 'fiches cherche et compte à vendre sur Etsy',
     secondaryKeywords: [
-      'fiches objets cachés imprimables pour vendeurs Etsy',
-      'générateur de fiches je vois je vois pour Amazon KDP',
-      'vendre des fiches cherche et compte sur Gumroad',
-      'fiches repérage de lettres avec licence commerciale',
+      'générateur de fiches Je Vois Je Vois pour vendeurs Etsy',
+      'fiches cherche et compte pour Amazon KDP',
+      'fiches repérage de lettres licence commerciale',
+      'créer des cahiers d\'objets cachés pour La Salle des Maîtres',
     ],
     lsiKeywords: [
-      'produits numériques fiches objets cachés pour entrepreneurs',
-      'activité je vois je vois imprimable à usage commercial',
-      'générateur de fiches cherche et compte avec corrigé',
+      'licence commerciale 300 DPI prêt à imprimer',
+      'business d\'imprimables cherche et compte vendeurs',
+      '4 types de tâches repérage lettres corrigé automatique',
     ],
-    titleTag: 'Générateur Fiches Cherche et Compte | Objets Cachés',
+    titleTag: 'Fiches cherche et compte à vendre sur Etsy | LCS',
     metaDescription:
-      'Créez des fiches cherche et compte pour Etsy, KDP et Gumroad. Modes Objets Cachés et Repérage de Lettres, 4 types de tâches, corrigé.',
+      'Créez des fiches cherche et compte à vendre sur Etsy & KDP. Modes Objets Cachés et Lettres, licence commerciale. Testez gratuitement avec filigrane.',
   },
 
   hero: {
-    title: 'Générateur de Fiches Cherche et Compte pour Activités Objets Cachés',
+    title: 'Générez des fiches cherche et compte à vendre sur Etsy & KDP',
     tagline: 'Deux modes d\'activité en un seul générateur — Objets Cachés Je Vois Je Vois et Repérage de Lettres — avec quatre types de tâches combinables (entourer, encadrer, barrer, compter), alphabets spécifiques à la langue avec lettres accentuées, étiquettes de noms d\'images localisées dans 11 langues, et corrigés auto-générés avec annotations visuelles.',
     description:
-      'Concevez des fiches professionnelles Je Vois Je Vois et cherche et compte où les utilisateurs explorent une scène d\'images dispersées pour trouver, entourer, barrer ou compter des objets spécifiques. Choisissez entre deux modes d\'activité : le mode Objets Cachés disperse les images dans une grille configurable (5–10 lignes × 5–10 colonnes) et vous permet d\'assigner jusqu\'à 4 objets cibles avec des types de tâches individuels — entourer l\'objet, l\'encadrer, le barrer ou compter combien apparaissent. Le mode Repérage de Lettres affiche un alphabet spécifique à la langue avec lettres accentuées (français é, è, ç, à ; allemand ÄÖÜ ; espagnol Ñ ; suédois ÅÄÖ ; danois/norvégien ÆØÅ) et génère des scènes Je Vois Je Vois avec des images commençant par la lettre sélectionnée. Chaque fiche inclut un en-tête auto-généré — \" Je Vois, Je Vois \" ou \" Repérage de Lettres \" — localisé dans les 11 langues prises en charge avec une bordure bleue (#2196F3). Le système à double canevas génère à la fois un onglet Fiche et un onglet Corrigé avec des annotations rouges cercle, carré et croix plus des affichages de quantités. Le Générateur Cherche et Compte est sensible à la langue : les étiquettes de noms d\'images sur la fiche sont rendues dans la langue sélectionnée via le système de Vocabulaire d\'Images. L\'Accès Complet déverrouille les 104 thèmes avec plus de 3 100 illustrations et les 11 langues d\'interface pour les étiquettes localisées. Ajoutez des thèmes de fond et des thèmes de bordure avec des contrôles d\'opacité indépendants, et exportez des PDF prêts à imprimer et des JPEG à 300 DPI en format Letter, A4, Carré (1200×1200) ou dimensions personnalisées. Que vous vendiez des packs d\'activités Je Vois Je Vois sur Etsy, compiliez des cahiers d\'objets cachés pour Amazon KDP ou créiez des activités de comptage pour Gumroad, ce générateur produit des fiches professionnelles en quelques minutes — essai gratuit avec toutes les fonctionnalités, sans inscription, sans carte bancaire. Les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.',
+      'Créez des fiches cherche et compte à vendre sur Etsy, Amazon KDP ou La Salle des Maîtres — des fiches Je Vois Je Vois où les acheteurs explorent une scène d\'images dispersées pour trouver, entourer, barrer ou compter des objets spécifiques. Choisissez entre deux modes d\'activité : le mode Objets Cachés disperse les images dans une grille configurable (5–10 lignes × 5–10 colonnes) et vous permet d\'assigner jusqu\'à 4 objets cibles avec des types de tâches individuels — entourer l\'objet, l\'encadrer, le barrer ou compter combien apparaissent. Le mode Repérage de Lettres affiche un alphabet spécifique à la langue avec lettres accentuées (français é, è, ç, à ; allemand ÄÖÜ ; espagnol Ñ ; suédois ÅÄÖ ; danois/norvégien ÆØÅ) et génère des scènes Je Vois Je Vois avec des images commençant par la lettre sélectionnée. Chaque fiche inclut un en-tête auto-généré — \" Je Vois, Je Vois \" ou \" Repérage de Lettres \" — localisé dans les 11 langues prises en charge avec une bordure bleue (#2196F3). Le système à double canevas génère à la fois un onglet Fiche et un onglet Corrigé avec des annotations rouges cercle, carré et croix plus des affichages de quantités. Le Générateur Cherche et Compte est sensible à la langue : les étiquettes de noms d\'images sur la fiche sont rendues dans la langue sélectionnée via le système de Vocabulaire d\'Images. L\'Accès Complet déverrouille les 104 thèmes avec plus de 3 100 illustrations et les 11 langues d\'interface pour les étiquettes localisées. Ajoutez des thèmes de fond et des thèmes de bordure avec des contrôles d\'opacité indépendants, et exportez des PDF prêts à imprimer et des JPEG à 300 DPI en format Letter, A4, Carré (1200×1200) ou dimensions personnalisées. Que vous vendiez des packs d\'activités Je Vois Je Vois sur Etsy, compiliez des cahiers d\'objets cachés pour Amazon KDP ou créiez des activités de comptage pour Gumroad, ce générateur produit des fiches professionnelles en quelques minutes — essai gratuit avec toutes les fonctionnalités, sans inscription, sans carte bancaire. Les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.',
   },
 
   howItWorks: {

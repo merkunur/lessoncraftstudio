@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'fiches comparaison de tailles',
+    primaryKeyword: 'créer des fiches de comparaison à vendre',
     secondaryKeywords: [
       'fiches grand et petit pour enfants licence commerciale',
       'générateur fiches discrimination tailles à vendre Etsy et KDP',
@@ -17,7 +17,7 @@ const content: GuideContent = {
       'cahiers classement par taille Amazon KDP',
       'outil fiches tailles licence commerciale',
     ],
-    titleTag: 'Fiches Comparaison de Tailles — Guide Étape par Étape',
+    titleTag: 'Fiches de comparaison à vendre | LessonCraftStudio',
     metaDescription: 'Créez des fiches comparaison de tailles avec 5 types de questions et 2 modes d\'image. Sortie sans texte vendable partout. Guide pour Etsy, KDP et Gumroad.',
   },
 

@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'comment vendre des imprimables sur gumroad',
+    primaryKeyword: 'vendre des imprimables sur Gumroad guide',
     secondaryKeywords: [
       'comment vendre imprimables sur Gumroad',
       'créer boutique Gumroad imprimables',
@@ -17,7 +17,7 @@ const content: GuideContent = {
       'trafic réseaux sociaux Pinterest Instagram blog contenu SEO promotion',
       'lots produits abonnements revenus récurrents catalogue croissance',
     ],
-    titleTag: 'Comment vendre des imprimables sur Gumroad — Guide',
+    titleTag: 'Vendre des imprimables sur Gumroad | LessonCraftStudio',
     metaDescription: 'Vendez des imprimables sur Gumroad sans frais mensuels. Configuration boutique, stratégies tarification, marketing par e-mail et relations directes clients.',
   },
 

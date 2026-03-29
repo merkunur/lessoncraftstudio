@@ -2,7 +2,7 @@ import type { BundleContent } from '../types';
 
 const content: BundleContent = {
   seo: {
-    primaryKeyword: 'pack cherche & trouve',
+    primaryKeyword: 'pack cherche et trouve pour vendeurs',
     secondaryKeywords: [
       'pack générateurs fiches cherche et trouve pour vendeurs',
       'kit fiches objets cachés imprimables licence commerciale',
@@ -15,7 +15,7 @@ const content: BundleContent = {
       'licence commerciale fiches de découverte',
       'outil création fiches cherche et trouve en masse',
     ],
-    titleTag: 'Pack Cherche & Trouve — 4 Générateurs de Fiches',
+    titleTag: 'Pack cherche & trouve pour vendeurs | LessonCraftStudio',
     metaDescription: 'Pack cherche et trouve avec 4 générateurs : cherche et compte, objets cachés, mots croisés en images et chasse au trésor. Vendez sur Etsy, KDP et Gumroad.',
   },
 

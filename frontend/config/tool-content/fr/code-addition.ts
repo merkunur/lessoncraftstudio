@@ -1,26 +1,26 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'créer des fiches addition codée pour la vente',
+    primaryKeyword: 'créer des énigmes maths codées gratuitement',
     secondaryKeywords: [
-      'puzzles code secret maths pour vendeurs',
-      'fiches addition chiffrée pour la vente',
-      'exercices code maths imprimables pour enfants',
-      'créateur de fiches addition codée',
+      'générateur d\'addition codée gratuit en ligne',
+      'puzzles maths codés gratuit sans inscription',
+      'énigmes mathématiques gratuites avec images',
+      'fiches addition codée PDF gratuit',
     ],
     lsiKeywords: [
-      'puzzle chiffré maths avec images pour la vente',
-      'fiche mot mystère code-cracker',
-      'activité code numérique maths pour utilisateurs',
+      'essai gratuit avec filigrane sans inscription',
+      'licence commerciale pour vendre sur Etsy',
+      'mode Mot Mystère 11 langues corrigés PDF',
     ],
-    titleTag: 'Fiches Addition Codée — Puzzles pour la vente',
-    metaDescription: 'Créez des puzzles d\'addition codée pour la vente. Codes secrets avec images, mode Mot Mystère, 11 langues. Essai gratuit avec filigrane.',
+    titleTag: 'Énigmes maths codées gratuites en ligne | LessonCraftStudio',
+    metaDescription: 'Créez des énigmes maths codées gratuitement. Mode Mot Mystère, 11 langues, sans inscription. Passez à la licence commerciale pour vendre.',
     },
 
   hero: {
-    title: 'Générateur de Fiches d\'Addition Codée',
+    title: 'Énigmes maths codées gratuites — créez en ligne',
     tagline: 'Créez des puzzles cryptarithmétiques où les utilisateurs déchiffrent des codes secrets grâce à l\'addition',
-    description: 'Ce n\'est pas une simple fiche d\'addition — c\'est un défi de décodage. Chaque puzzle cache des nombres derrière des symboles-images, et les utilisateurs doivent résoudre des équations d\'addition pour déterminer quel nombre correspond à quelle image. En Mode Classique, chaque symbole représente un chiffre unique. Passez en Mode Mot Mystère et chaque équation résolue révèle une lettre d\'un mot secret, tandis que des lettres de distraction maintiennent le suspense. Choisissez parmi plus de 100 thèmes d\'images, ajustez le nombre de symboles et la complexité des opérandes, et téléchargez des PDF ou JPEG prêts à imprimer. Prend en charge 11 langues avec des alphabets adaptés à chaque langue — le Mode Mot Mystère fonctionne nativement en français avec à, â, ç, é, è, ê, ë, î, ï, ô, ù, û et ü. L\'essai gratuit inclut un filigrane sur les téléchargements. Achetez une licence pour supprimer le filigrane et vendre vos créations à usage commercial.',
+    description: 'Créez des énigmes maths codées gratuitement en ligne — sans inscription, sans carte bancaire. Chaque puzzle cache des nombres derrière des symboles-images, et les utilisateurs doivent résoudre des équations d\'addition pour déterminer quel nombre correspond à quelle image. En Mode Classique, chaque symbole représente un chiffre unique. Passez en Mode Mot Mystère et chaque équation résolue révèle une lettre d\'un mot secret, tandis que des lettres de distraction maintiennent le suspense. Choisissez parmi plus de 100 thèmes d\'images, ajustez le nombre de symboles et la complexité des opérandes, et téléchargez des PDF ou JPEG prêts à imprimer. Prend en charge 11 langues avec des alphabets adaptés à chaque langue — le Mode Mot Mystère fonctionne nativement en français avec à, â, ç, é, è, ê, ë, î, ï, ô, ù, û et ü. L\'essai gratuit inclut un filigrane sur les téléchargements. Achetez une licence pour supprimer le filigrane et vendre vos créations à usage commercial.',
   },
 
   tutorial: {

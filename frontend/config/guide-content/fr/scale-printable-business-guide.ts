@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'développer activité imprimables',
+    primaryKeyword: 'développer son business d\'imprimables',
     secondaryKeywords: [
       'comment développer une activité de fiches imprimables',
       'croissance entreprise fiches pédagogiques',
@@ -17,7 +17,7 @@ const content: GuideContent = {
       'croissance catalogue revenu par produit diversification plateformes goulot étranglement',
       'systèmes entreprise processus reproductibles pipeline production multiplication contenu',
     ],
-    titleTag: 'Développer Activité Imprimables — Guide de Croissance',
+    titleTag: 'Développer son business d\'imprimables | LessonCraftStudio',
     metaDescription: 'Comment développer votre activité d\'imprimables avec production par lots, expansion multiplateforme, catalogue, marchés multilingues et automatisation.',
   },
 

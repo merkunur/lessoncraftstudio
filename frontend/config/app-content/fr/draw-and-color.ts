@@ -2,28 +2,28 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'générateur fiches dessin quadrillage',
+    primaryKeyword: 'fiches dessin et coloriage pour boutique Etsy',
     secondaryKeywords: [
       'générateur de fiches de dessin sur grille pour vendeurs Etsy',
-      'créateur de fiches reproduction sur quadrillage pour éditeurs Amazon KDP',
-      'vendre des fiches de dessin sur grille sur Gumroad',
-      'générateur de fiches dessin et coloriage licence commerciale',
+      'fiches reproduction sur quadrillage pour Amazon KDP',
+      'fiches dessin et coloriage licence commerciale',
+      'créer des cahiers de dessin pour La Salle des Maîtres',
     ],
     lsiKeywords: [
-      'produits numériques fiches dessin sur quadrillage pour entrepreneurs',
-      'fiches de reproduction cellule par cellule imprimables à usage commercial',
-      'générateur de fiches dessin sur grille avec modes symétrie',
+      'licence commerciale 300 DPI prêt à imprimer',
+      'business d\'imprimables fiches dessin vendeurs Etsy',
+      'double quadrillage modes symétrie indices réglables',
     ],
-    titleTag: 'Générateur Fiches Dessin Quadrillage | Créer et Vendre',
+    titleTag: 'Fiches dessin et coloriage pour Etsy & KDP | LCS',
     metaDescription:
-      'Créez des fiches dessin sur grille pour Etsy, KDP et Gumroad. Double quadrillage, indices réglables, modes symétrie, 104 thèmes. Essai gratuit avec filigrane.',
+      'Créez des fiches dessin et coloriage à vendre sur Etsy & KDP. Double quadrillage, modes symétrie, licence commerciale. Testez gratuitement avec filigrane.',
   },
 
   hero: {
-    title: 'Générateur de Fiches Dessin sur Quadrillage pour des Exercices de Reproduction sur Grille',
+    title: 'Créez des fiches dessin et coloriage à vendre sur Etsy & KDP',
     tagline: 'Système de double grille — grille de pratique et grille d\'indices côte à côte — avec un pourcentage d\'indices réglable de 10 % à 75 %, des modes symétrie horizontale et verticale, et plus de 100 collections de contours noir et blanc pour des activités de dessin et de coloriage.',
     description:
-      'Concevez des fiches professionnelles de dessin sur quadrillage où les utilisateurs reproduisent une image de référence en la copiant cellule par cellule depuis une grille d\'indices vers une grille de pratique vierge. Deux grilles apparaissent par image sélectionnée : une Grille de Pratique avec des cellules vides où les utilisateurs dessinent, et une Grille d\'Indices montrant un pourcentage configurable de l\'image de référence comme indices visuels. Ajustez le pourcentage d\'indices de 10 % à 75 % pour contrôler la difficulté — moins d\'indices signifie des exercices plus difficiles qui exigent une observation plus fine. Configurez les dimensions de la grille de 3×3 (9 cellules) à 10×10 (100 cellules), avec les lignes et colonnes réglables indépendamment de 3 à 10. Trois modes de symétrie ajoutent une dimension de raisonnement spatial : Aléatoire place les indices dans des positions dispersées, Horizontal reflète les indices de gauche à droite, et Vertical reflète les indices de haut en bas, chacun avec un sélecteur de partie à révéler. Le contenu provient de la bibliothèque de thèmes de contours noir et blanc intégrée avec plus de 100 collections comportant plus de 3 000 illustrations en noir et blanc spécifiquement conçues pour la reproduction et le coloriage — pas des thèmes en couleur, mais des contours nets que les utilisateurs reproduisent puis colorient. C\'est une application purement visuelle : les fiches ne contiennent que des images en grille sans texte, les rendant universellement utilisables quelle que soit la langue. Aucun corrigé n\'est nécessaire car la grille d\'indices elle-même sert de solution de référence. L\'Accès Complet déverrouille tous les 100+ thèmes N&B et les 11 langues d\'interface. Exportez des PDF et JPEG prêts à imprimer à 300 DPI en format Letter, A4 ou dimensions personnalisées. Que vous vendiez des lots de dessin sur grille sur Etsy, compiliez des cahiers de dessin pour Amazon KDP ou créiez des ateliers de raisonnement spatial pour Gumroad, le Générateur de Fiches Dessin sur Quadrillage livre des résultats professionnels en quelques minutes — essai gratuit avec toutes les fonctionnalités, sans inscription, sans carte bancaire. Les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.',
+      'Créez des fiches dessin et coloriage à vendre sur Etsy, Amazon KDP ou La Salle des Maîtres — des fiches où les acheteurs reproduisent une image de référence en la copiant cellule par cellule depuis une grille d\'indices vers une grille de pratique vierge. Deux grilles apparaissent par image sélectionnée : une Grille de Pratique avec des cellules vides où les utilisateurs dessinent, et une Grille d\'Indices montrant un pourcentage configurable de l\'image de référence comme indices visuels. Ajustez le pourcentage d\'indices de 10 % à 75 % pour contrôler la difficulté — moins d\'indices signifie des exercices plus difficiles qui exigent une observation plus fine. Configurez les dimensions de la grille de 3×3 (9 cellules) à 10×10 (100 cellules), avec les lignes et colonnes réglables indépendamment de 3 à 10. Trois modes de symétrie ajoutent une dimension de raisonnement spatial : Aléatoire place les indices dans des positions dispersées, Horizontal reflète les indices de gauche à droite, et Vertical reflète les indices de haut en bas, chacun avec un sélecteur de partie à révéler. Le contenu provient de la bibliothèque de thèmes de contours noir et blanc intégrée avec plus de 100 collections comportant plus de 3 000 illustrations en noir et blanc spécifiquement conçues pour la reproduction et le coloriage — pas des thèmes en couleur, mais des contours nets que les utilisateurs reproduisent puis colorient. C\'est une application purement visuelle : les fiches ne contiennent que des images en grille sans texte, les rendant universellement utilisables quelle que soit la langue. Aucun corrigé n\'est nécessaire car la grille d\'indices elle-même sert de solution de référence. L\'Accès Complet déverrouille tous les 100+ thèmes N&B et les 11 langues d\'interface. Exportez des PDF et JPEG prêts à imprimer à 300 DPI en format Letter, A4 ou dimensions personnalisées. Que vous vendiez des lots de dessin sur grille sur Etsy, compiliez des cahiers de dessin pour Amazon KDP ou créiez des ateliers de raisonnement spatial pour Gumroad, le Générateur de Fiches Dessin sur Quadrillage livre des résultats professionnels en quelques minutes — essai gratuit avec toutes les fonctionnalités, sans inscription, sans carte bancaire. Les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.',
   },
 
   howItWorks: {

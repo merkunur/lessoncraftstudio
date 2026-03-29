@@ -2,28 +2,28 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'générateur mots croisés en images',
+    primaryKeyword: 'créateur de mots croisés pour vendre sur Etsy et KDP',
     secondaryKeywords: [
-      'créer des mots croisés en images à vendre sur Etsy',
-      'générateur de mots croisés visuels pour éditeurs Amazon KDP',
-      'fiches mots croisés en images avec licence commerciale',
-      'vendre des mots croisés en images sur Gumroad',
+      'générateur de mots croisés en images pour Etsy',
+      'mots croisés imprimables pour Amazon KDP',
+      'fiches de mots croisés licence commerciale',
+      'créer des cahiers de mots croisés pour vendeurs',
     ],
     lsiKeywords: [
-      'produits numériques mots croisés en images pour entrepreneurs',
-      'générateur de mots croisés visuels à usage commercial',
-      'mots croisés en images imprimables avec corrigé automatique',
+      'licence commerciale 300 DPI indices visuels',
+      'business d\'imprimables mots croisés vendeurs Etsy',
+      'corrigé automatique grille 15×15 images thématiques',
     ],
-    titleTag: 'Générateur Mots Croisés en Images | Créer & Vendre',
+    titleTag: 'Mots croisés à vendre sur Etsy & KDP | LCS',
     metaDescription:
-      'Créez des mots croisés en images pour Etsy, KDP et Gumroad. Indices visuels sur grille 15×15, 4 méthodes de saisie, corrigé auto. Essai gratuit avec filigrane.',
+      'Créez des mots croisés en images à vendre sur Etsy & KDP. Indices visuels, 104 thèmes, licence commerciale. Testez gratuitement avec filigrane.',
   },
 
   hero: {
-    title: 'Générateur de Mots Croisés en Images pour Puzzles à Indices Visuels',
+    title: 'Créez et vendez des mots croisés en images sur Etsy & KDP',
     tagline: 'Remplacez les définitions textuelles par des indices visuels sur une grille de mots croisés 15×15 — quatre méthodes de saisie (sélection automatique par thème, modification manuelle des noms d\'images, liste de mots personnalisée et importation d\'images), corrigé auto-généré avec grille remplie, et en-tête localisé \" Mots Croisés en Images \" sur 104 collections thématiques.',
     description:
-      'Créez des mots croisés professionnels où des images colorées remplacent les définitions textuelles des mots croisés traditionnels. Huit images génèrent huit mots sur une grille fixe 15×15 — l\'algorithme extrait les mots des noms d\'images, les trie par longueur pour un placement optimal et remplit la grille avec des positions d\'indices numérotées. Choisissez parmi quatre méthodes de saisie : la Génération Rapide par Thème sélectionne automatiquement 8 images aléatoires d\'un thème et génère instantanément ; la Modification Manuelle des Noms d\'Images vous permet de cliquer sur les images et de les renommer avant la génération ; la Liste de Mots Personnalisée avec Indices bascule vers des mots croisés traditionnels à indices textuels en utilisant un format MOT : indice ; et Importer des Images Personnalisées vous permet d\'ajouter vos propres fichiers JPEG, PNG, GIF ou WebP aux côtés du contenu de la bibliothèque. Le Générateur de Mots Croisés en Images est sensible à la langue : les mots du puzzle proviennent des noms d\'images localisés via le système de Vocabulaire d\'Images, donc changer de langue modifie les mots réels des mots croisés. Le système à double canevas génère à la fois un onglet puzzle et un onglet corrigé — le corrigé affiche la grille remplie avec toutes les réponses visibles. Chaque puzzle inclut un en-tête localisé auto-généré avec un fond bleu (#5B9BD5), un titre en police Fredoka et une description en police Quicksand rendus dans les 11 langues prises en charge. L\'Accès Complet déverrouille les 104 thèmes avec plus de 3 100 illustrations et les 11 langues pour les mots de puzzle localisés. Ajoutez des thèmes de fond et des thèmes de bordure avec des contrôles d\'opacité indépendants, et exportez des PDF prêts à imprimer et des JPEG à 300 DPI en format Letter, A4 ou dimensions personnalisées. Que vous vendiez des packs de mots croisés en images sur Etsy, compiliez des cahiers de mots croisés pour Amazon KDP ou créiez des activités de vocabulaire croisé pour Gumroad, ce générateur produit des puzzles professionnels en quelques minutes — essai gratuit avec toutes les fonctionnalités, sans inscription, sans carte bancaire. Les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.',
+      'Créez des mots croisés en images à vendre sur Etsy, Amazon KDP ou La Salle des Maîtres — des puzzles originaux où des images colorées remplacent les définitions textuelles. Huit images génèrent huit mots sur une grille fixe 15×15 — l\'algorithme extrait les mots des noms d\'images, les trie par longueur pour un placement optimal et remplit la grille avec des positions d\'indices numérotées. Choisissez parmi quatre méthodes de saisie : la Génération Rapide par Thème sélectionne automatiquement 8 images aléatoires d\'un thème et génère instantanément ; la Modification Manuelle des Noms d\'Images vous permet de cliquer sur les images et de les renommer avant la génération ; la Liste de Mots Personnalisée avec Indices bascule vers des mots croisés traditionnels à indices textuels en utilisant un format MOT : indice ; et Importer des Images Personnalisées vous permet d\'ajouter vos propres fichiers JPEG, PNG, GIF ou WebP aux côtés du contenu de la bibliothèque. Le Générateur de Mots Croisés en Images est sensible à la langue : les mots du puzzle proviennent des noms d\'images localisés via le système de Vocabulaire d\'Images, donc changer de langue modifie les mots réels des mots croisés. Le système à double canevas génère à la fois un onglet puzzle et un onglet corrigé — le corrigé affiche la grille remplie avec toutes les réponses visibles. Chaque puzzle inclut un en-tête localisé auto-généré avec un fond bleu (#5B9BD5), un titre en police Fredoka et une description en police Quicksand rendus dans les 11 langues prises en charge. L\'Accès Complet déverrouille les 104 thèmes avec plus de 3 100 illustrations et les 11 langues pour les mots de puzzle localisés. Ajoutez des thèmes de fond et des thèmes de bordure avec des contrôles d\'opacité indépendants, et exportez des PDF prêts à imprimer et des JPEG à 300 DPI en format Letter, A4 ou dimensions personnalisées. Que vous vendiez des packs de mots croisés en images sur Etsy, compiliez des cahiers de mots croisés pour Amazon KDP ou créiez des activités de vocabulaire croisé pour Gumroad, ce générateur produit des puzzles professionnels en quelques minutes — essai gratuit avec toutes les fonctionnalités, sans inscription, sans carte bancaire. Les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.',
   },
 
   howItWorks: {

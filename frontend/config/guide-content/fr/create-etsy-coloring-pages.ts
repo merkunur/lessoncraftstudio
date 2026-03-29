@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'créer des coloriages etsy qui se vendent',
+    primaryKeyword: 'créer des coloriages qui se vendent sur Etsy',
     secondaryKeywords: [
       'comment vendre coloriages sur Etsy',
       'ouvrir boutique Etsy pages de coloriage',
@@ -17,7 +17,7 @@ const content: GuideContent = {
       'fêtes saisonnier coloriages imprimables demande Etsy',
       'photos annonces Etsy mockups pour produits coloriages',
     ],
-    titleTag: 'Créer des coloriages Etsy qui se vendent — Guide',
+    titleTag: 'Coloriages qui se vendent sur Etsy | LessonCraftStudio',
     metaDescription: 'Créez des coloriages Etsy avec 104 thèmes d\'images. Export N&B et niveaux de gris, optimisation des annonces, tarification et stratégies saisonnières de.',
   },
 

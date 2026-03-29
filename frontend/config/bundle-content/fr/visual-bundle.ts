@@ -2,7 +2,7 @@ import type { BundleContent } from '../types';
 
 const content: BundleContent = {
   seo: {
-    primaryKeyword: 'pack apprentissage visuel',
+    primaryKeyword: 'pack générateurs visuels pour vendeurs',
     secondaryKeywords: [
       'pack générateur fiches coloriage dessin pour vendeurs',
       'toolkit activités visuelles imprimables licence commerciale',
@@ -15,7 +15,7 @@ const content: BundleContent = {
       'licence commerciale fiches activités visuelles',
       'outil création fiches visuelles en masse',
     ],
-    titleTag: 'Pack Apprentissage Visuel — 7 Générateurs d\'Activités',
+    titleTag: 'Pack visuels pour vendeurs d\'imprimables | LessonCraftStudio',
     metaDescription: '7 générateurs d\'apprentissage visuel en un pack. Coloriage, dessin, motifs, tailles, graphiques et tracé de lignes à vendre sur Etsy, KDP et Gumroad.',
   },
 

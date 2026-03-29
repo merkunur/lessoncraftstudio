@@ -2,10 +2,10 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Idées d\'Imprimables de Pâques à Vendre — Guide de Niche',
+    titleTag: 'Imprimables de Pâques pour Etsy | LessonCraftStudio',
     metaDescription: 'Idées d\'imprimables de Pâques à vendre sur Etsy, Amazon KDP et Gumroad. Concepts de produits printaniers, stratégies saisonnières et conseils pour les vendeurs.',
 
-    primaryKeyword: 'idées d\'imprimables de Pâques',
+    primaryKeyword: 'imprimables de Pâques à vendre sur Etsy',
     secondaryKeywords: [
       'fiches de Pâques à vendre',
       'activité imprimable thème Pâques',

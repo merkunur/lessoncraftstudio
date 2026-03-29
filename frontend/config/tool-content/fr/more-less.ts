@@ -2,26 +2,26 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'générateur fiches plus ou moins',
+    primaryKeyword: 'fiches plus grand plus petit gratuites',
     secondaryKeywords: [
-      'créateur de fiches de comparaison de quantités pour vendeurs',
-      'créer des fiches plus grand que moins que à vendre',
-      'fiches de comparaison de nombres imprimables licence commerciale',
-      'générateur de fiches plus ou moins pour Amazon KDP',
+      'générateur de fiches de comparaison gratuit en ligne',
+      'fiches plus ou moins gratuit sans inscription',
+      'comparaison de quantités gratuit PDF',
+      'fiches plus grand plus petit gratuites avec corrigé',
     ],
     lsiKeywords: [
-      'fiches de comparaison visuelles imprimables pour Etsy',
-      'outil de fiches de comparaison de quantités',
-      'générateur d\'activités cocher et barrer',
+      'essai gratuit avec filigrane sans inscription',
+      'licence commerciale pour vendre sur Etsy',
+      '3 modes de comparaison Cocher et Barrer 104 thèmes',
     ],
-    titleTag: 'Générateur Fiches Plus ou Moins | Vendre en Ligne',
-    metaDescription: 'Créez des fiches comparaison plus grand, plus petit et égal avec images thématiques. 3 modes dont Cocher et Barrer, 104 thèmes. Essai gratuit avec filigrane.',
+    titleTag: 'Plus grand plus petit gratuit en ligne | LessonCraftStudio',
+    metaDescription: 'Créez des fiches plus grand plus petit gratuitement. 3 modes de comparaison, 104 thèmes, sans inscription. Licence commerciale disponible.',
   },
 
   hero: {
-    title: 'Générateur de Fiches Plus ou Moins',
+    title: 'Plus grand plus petit gratuit — créez en ligne',
     tagline: 'Créez des fiches de comparaison visuelles avec trois modes d\'exercice en moins de 60 secondes',
-    description: 'Enseignez plus grand que, plus petit que et égal à avec des fiches de comparaison illustrées qui rendent les concepts abstraits concrets. Cet outil génère trois types d\'exercices distincts : Image contre Image (comparer deux groupes d\'images côte à côte), Image contre Nombre (faire le pont entre le comptage visuel et les chiffres écrits) et le mode unique Cocher et Barrer les Groupes où les utilisateurs trient une boîte d\'images mélangées de deux catégories en groupes majoritaire et minoritaire. Choisissez parmi plus de 100 thèmes d\'images, définissez votre plage de nombres, optez pour des symboles illustrés ou standards, et téléchargez des PDF prêts à imprimer ou des JPEG haute résolution. Comme les fiches n\'utilisent que des images, des nombres et des symboles, elles fonctionnent identiquement dans les 11 langues prises en charge — créez une seule fois et vendez aux acheteurs du monde entier. L\'essai gratuit inclut un filigrane sur les téléchargements. Achetez une licence pour supprimer le filigrane et vendre à usage commercial.',
+    description: 'Créez des fiches plus grand plus petit gratuitement en ligne — sans inscription, sans carte bancaire. Des fiches de comparaison illustrées qui rendent les concepts abstraits concrets. Cet outil génère trois types d\'exercices distincts : Image contre Image (comparer deux groupes d\'images côte à côte), Image contre Nombre (faire le pont entre le comptage visuel et les chiffres écrits) et le mode unique Cocher et Barrer les Groupes où les utilisateurs trient une boîte d\'images mélangées de deux catégories en groupes majoritaire et minoritaire. Choisissez parmi plus de 100 thèmes d\'images, définissez votre plage de nombres, optez pour des symboles illustrés ou standards, et téléchargez des PDF prêts à imprimer ou des JPEG haute résolution. Comme les fiches n\'utilisent que des images, des nombres et des symboles, elles fonctionnent identiquement dans les 11 langues prises en charge — créez une seule fois et vendez aux acheteurs du monde entier. L\'essai gratuit inclut un filigrane sur les téléchargements. Achetez une licence pour supprimer le filigrane et vendre à usage commercial.',
   },
 
   tutorial: {

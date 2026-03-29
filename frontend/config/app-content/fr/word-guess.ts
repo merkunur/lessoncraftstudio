@@ -2,28 +2,28 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'générateur fiches deviner les mots',
+    primaryKeyword: 'jeux de devinettes de mots à vendre sur Etsy',
     secondaryKeywords: [
-      'fiches deviner les mots imprimables pour vendeurs Etsy',
-      'générateur de fiches vocabulaire style pendu pour Amazon KDP',
-      'vendre des fiches deviner les mots sur Gumroad',
-      'fiches deviner les mots avec indices images licence commerciale',
+      'générateur de fiches deviner les mots pour Etsy',
+      'jeux de vocabulaire imprimables pour Amazon KDP',
+      'fiches de devinettes de mots licence commerciale',
+      'cahiers de puzzles vocabulaire pour vendeurs KDP',
     ],
     lsiKeywords: [
-      'produits numériques de puzzles vocabulaire pour entrepreneurs',
-      'activité de fiches déduction de mots imprimables en ligne',
-      'générateur de fiches deviner les mots à usage commercial',
+      'licence commerciale 300 DPI prêt à imprimer',
+      'business d\'imprimables jeux de mots vendeurs Etsy',
+      'indices images 4 difficultés corrigé automatique',
     ],
-    titleTag: 'Générateur Fiches Deviner les Mots | Créer et Vendre',
+    titleTag: 'Devinettes de mots à vendre sur Etsy | LCS',
     metaDescription:
-      'Créez des fiches deviner les mots pour Etsy, KDP et Gumroad. Indices images, 4 difficultés, 3 sources de contenu, 11 langues. Essai gratuit avec filigrane.',
+      'Créez des jeux de devinettes de mots à vendre sur Etsy & KDP. Indices images, 4 difficultés, licence commerciale. Testez gratuitement avec filigrane.',
   },
 
   hero: {
-    title: 'Générateur de Fiches Deviner les Mots pour des Puzzles de Vocabulaire avec Indices Images',
+    title: 'Générez des jeux de devinettes à vendre sur Etsy, KDP & plus',
     tagline: 'La déduction style pendu rencontre les indices visuels — quatre niveaux de difficulté transforment chaque mot en un puzzle gratifiant.',
     description:
-      'Concevez des fiches professionnelles de type deviner les mots où les utilisateurs voient un indice image et déduisent le mot caché en remplissant des cases de lettres vides — un puzzle style pendu qui développe simultanément l\'orthographe, le vocabulaire et le raisonnement déductif. Choisissez parmi trois sources de contenu : la Bibliothèque d\'Images intégrée avec plus de 3 100 illustrations réparties dans 104 thèmes, le Mode Édition Manuelle où vous sélectionnez des images puis personnalisez leurs noms d\'affichage, ou le mode Liste de Mots Personnalisée pour des puzzles textuels utilisant le vocabulaire de votre choix. Quatre niveaux de difficulté contrôlent le nombre de lettres pré-révélées comme indices — de Sans Indices (aucune lettre révélée) au mode Facile montrant la moitié des lettres — créant un étayage naturel du débutant à l\'avancé. Placez de 1 à 10 puzzles par fiche et basculez entre des grilles de lettres en majuscules ou en minuscules. L\'Accès Complet déverrouille les 11 langues prises en charge où le mot cible change selon la langue — \" dog \" en anglais devient \" Hund \" en allemand, \" chien \" en français, \" perro \" en espagnol — faisant de chaque langue un produit distinct et vendable. Chaque fiche génère un corrigé automatique, et vous pouvez exporter des PDF prêts à imprimer et des JPEG à plus de 400 DPI en format Letter, A4, Carré ou dimensions personnalisées. Que vous vendiez des packs de vocabulaire thématiques sur Etsy, compiliez des cahiers de puzzles de mots pour Amazon KDP ou créiez des ateliers de lecture différenciés pour Gumroad, le Générateur de Fiches Deviner les Mots produit des résultats professionnels en quelques minutes — essai gratuit avec toutes les fonctionnalités, sans inscription, sans carte bancaire. Les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.',
+      'Créez des jeux de devinettes de mots à vendre sur Etsy, Amazon KDP ou La Salle des Maîtres — des fiches style pendu où les acheteurs voient un indice image et déduisent le mot caché en remplissant des cases de lettres vides, développant simultanément l\'orthographe et le vocabulaire. Choisissez parmi trois sources de contenu : la Bibliothèque d\'Images intégrée avec plus de 3 100 illustrations réparties dans 104 thèmes, le Mode Édition Manuelle où vous sélectionnez des images puis personnalisez leurs noms d\'affichage, ou le mode Liste de Mots Personnalisée pour des puzzles textuels utilisant le vocabulaire de votre choix. Quatre niveaux de difficulté contrôlent le nombre de lettres pré-révélées comme indices — de Sans Indices (aucune lettre révélée) au mode Facile montrant la moitié des lettres — créant un étayage naturel du débutant à l\'avancé. Placez de 1 à 10 puzzles par fiche et basculez entre des grilles de lettres en majuscules ou en minuscules. L\'Accès Complet déverrouille les 11 langues prises en charge où le mot cible change selon la langue — \" dog \" en anglais devient \" Hund \" en allemand, \" chien \" en français, \" perro \" en espagnol — faisant de chaque langue un produit distinct et vendable. Chaque fiche génère un corrigé automatique, et vous pouvez exporter des PDF prêts à imprimer et des JPEG à plus de 400 DPI en format Letter, A4, Carré ou dimensions personnalisées. Que vous vendiez des packs de vocabulaire thématiques sur Etsy, compiliez des cahiers de puzzles de mots pour Amazon KDP ou créiez des ateliers de lecture différenciés pour Gumroad, le Générateur de Fiches Deviner les Mots produit des résultats professionnels en quelques minutes — essai gratuit avec toutes les fonctionnalités, sans inscription, sans carte bancaire. Les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.',
   },
 
   howItWorks: {

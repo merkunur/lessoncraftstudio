@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'revenus récurrents fiches exercices',
+    primaryKeyword: 'revenu passif avec des fiches 2026',
     secondaryKeywords: [
       'activité fiches exercices revenus',
       'gagner argent vente fiches exercices',
@@ -17,7 +17,7 @@ const content: GuideContent = {
       'multiplication revenus effets catalogue découverte organique ventes continues',
       'modèle revenus évolutif flux revenus fiches multi-plateforme revenus',
     ],
-    titleTag: 'Revenus Récurrents Fiches Exercices — Guide Revenus',
+    titleTag: 'Revenu passif avec des fiches (2026) | LessonCraftStudio',
     metaDescription: 'Construire des revenus récurrents avec les fiches. Catalogues durables, distribution multi-plateforme, expansion linguistique et effets catalogue pour.',
   },
 

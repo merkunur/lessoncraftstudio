@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'créer des fiches puzzles maths',
+    primaryKeyword: 'créer des puzzles de maths à vendre',
     secondaryKeywords: [
       'générateur puzzles maths pour enfants',
       'puzzles mathématiques reconstruction d\'images',
@@ -17,7 +17,7 @@ const content: GuideContent = {
       'livres puzzles maths Amazon KDP',
       'créateur puzzles licence commerciale',
     ],
-    titleTag: 'Créer des fiches puzzles maths — Guide étape par étape',
+    titleTag: 'Puzzles de maths à vendre en ligne | LessonCraftStudio',
     metaDescription: 'Comment créer des fiches puzzles maths où les enfants résolvent des équations pour reconstruire des images. Grilles, opérations et vente sur Etsy et KDP.',
   },
 

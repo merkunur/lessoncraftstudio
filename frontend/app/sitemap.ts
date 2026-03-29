@@ -6,6 +6,7 @@ import { startPageSlugs, getStartAlternateUrls } from '@/config/start-page-slugs
 import { guidePageSlugs, getGuideAlternateUrls } from '@/config/guide-page-slugs';
 import { ideaPageSlugs, getIdeaAlternateUrls } from '@/config/idea-page-slugs';
 import { comparePageSlugs, getCompareAlternateUrls } from '@/config/compare-page-slugs';
+import { blogPageSlugs, getBlogAlternateUrls } from '@/config/blog-page-slugs';
 import { getAllSalesPageSlugs } from '@/config/sales-pages';
 import { getHreflangCode } from '@/lib/schema-generator';
 import { SUPPORTED_LOCALES } from '@/config/locales';
@@ -17,7 +18,7 @@ export const revalidate = 1800;
 const STATIC_CONTENT_DATE = new Date(process.env.BUILD_DATE || '2026-03-20');
 
 /**
- * Eight sitemaps (total ~2,012 URLs as of 2026-03-26):
+ * Nine sitemaps (total ~3,020 URLs as of 2026-03-29):
  * ID 0: Static pages (154 URLs) - homepage, apps, tools, bundles, start, guides, ideas, legal × 11 locales
  * ID 1: App detail pages (363 URLs) - 33 apps × 11 locales
  * ID 2: Sales pages (8 URLs) - WarriorPlus product pages (English only)
@@ -27,6 +28,7 @@ const STATIC_CONTENT_DATE = new Date(process.env.BUILD_DATE || '2026-03-20');
  * ID 6: Guide pages (585 URLs) - 65 Create X guides × 9 locales
  * ID 7: Idea pages (405 URLs) - 45 niche idea pages × 9 locales
  * ID 8: Compare pages (3 URLs) - comparison pages (English only for now)
+ * ID 9: Blog pages (~1,008 URLs) - 112 blog posts × 9 locales
  *
  * Image discovery is handled by dedicated image sitemaps at /image-sitemap/{id}
  * (referenced via /image-sitemap-index.xml in robots.txt).
@@ -42,6 +44,7 @@ export async function generateSitemaps() {
     { id: 6 },
     { id: 7 },
     { id: 8 }, // Compare pages (competitor comparison pages)
+    { id: 9 }, // Blog pages (seller-focused SEO content)
   ];
 }
 
@@ -70,6 +73,7 @@ export default async function sitemap({ id }: { id: number }): Promise<MetadataR
       { path: '/guides', priority: 0.7, changeFreq: 'weekly' as const },
       { path: '/ideas', priority: 0.7, changeFreq: 'weekly' as const },
       { path: '/compare', priority: 0.7, changeFreq: 'weekly' as const },
+      { path: '/blog', priority: 0.7, changeFreq: 'weekly' as const },
       { path: '/terms', priority: 0.3, changeFreq: 'monthly' as const },
       { path: '/privacy', priority: 0.3, changeFreq: 'monthly' as const },
       { path: '/faq', priority: 0.4, changeFreq: 'monthly' as const },
@@ -237,6 +241,26 @@ export default async function sitemap({ id }: { id: number }): Promise<MetadataR
             changeFrequency: 'weekly',
             priority: 0.8,
             alternates: { languages: compareAlternates },
+          });
+        }
+      }
+    }
+    return routes;
+  }
+
+  // ID 9: Blog pages (seller-focused SEO content)
+  if (id === 9) {
+    const routes: MetadataRoute.Sitemap = [];
+    for (const blog of blogPageSlugs) {
+      const blogAlternates = getBlogAlternateUrls(blog.blogId, baseUrl);
+      for (const [locale, slug] of Object.entries(blog.slugs)) {
+        if (slug) {
+          routes.push({
+            url: `${baseUrl}/${locale}/blog/${slug}`,
+            lastModified: STATIC_CONTENT_DATE,
+            changeFrequency: 'weekly',
+            priority: 0.6,
+            alternates: { languages: blogAlternates },
           });
         }
       }

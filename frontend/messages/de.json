@@ -13,12 +13,14 @@
     "bundles": "Pakete",
     "ideas": "Nischen-Ideen",
     "start": "Erste Schritte",
+    "blog": "Blog",
     "resourcesDesc": {
       "tools": "Alle 33 Generatoren online testen",
       "guides": "Schritt-für-Schritt Verkaufsanleitungen",
       "bundles": "Sparen mit Kategoriepaketen",
       "ideas": "Profitable Nischen-Inspiration",
-      "start": "Starten Sie Ihr Geschäft"
+      "start": "Starten Sie Ihr Geschäft",
+      "blog": "Tipps & Strategien für Verkäufer"
     }
   },
   "homepage": {

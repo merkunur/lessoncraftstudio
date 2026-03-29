@@ -12,6 +12,7 @@ import { bundlePageSlugs } from './config/bundle-page-slugs';
 import { startPageSlugs } from './config/start-page-slugs';
 import { guidePageSlugs } from './config/guide-page-slugs';
 import { ideaPageSlugs } from './config/idea-page-slugs';
+import { getBlogConfigBySlug } from './config/blog-page-slugs';
 
 // Build legacy appId → localized slugs map for product page redirects
 // This redirects /de/apps/image-addition → /de/apps/addition-arbeitsblaetter
@@ -439,8 +440,8 @@ function return410(): NextResponse {
  * - /feed.xml, /sitemap-news.xml, /sitemap-images.xml
  */
 function isRemovedRoute(pathname: string): boolean {
-  // Non-locale-prefixed removed routes
-  if (pathname === '/blog' || pathname.startsWith('/blog/')) return true;
+  // Non-locale-prefixed blog routes — let intl middleware redirect to /en/blog
+  // (do NOT 410 — the blog is being reactivated with seller-focused content)
   if (pathname === '/worksheets' || pathname.startsWith('/worksheets/')) return true;
   if (pathname === '/pricing') return true;
   if (pathname.startsWith('/buy')) return true;
@@ -455,8 +456,13 @@ function isRemovedRoute(pathname: string): boolean {
   if (localeMatch) {
     const rest = localeMatch[2];
 
-    // Blog (posts, categories, index)
-    if (rest === 'blog' || rest.startsWith('blog/')) return true;
+    // Blog — allow known new slugs through, 410 old academic slugs
+    if (rest === 'blog') return false;
+    if (rest.startsWith('blog/')) {
+      const blogSlug = rest.slice(5);
+      if (getBlogConfigBySlug(blogSlug)) return false;
+      return true;
+    }
 
     // Worksheets (theme/grade pages)
     if (rest === 'worksheets' || rest.startsWith('worksheets/')) return true;

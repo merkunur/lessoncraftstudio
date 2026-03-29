@@ -13,12 +13,14 @@
     "bundles": "Paket",
     "ideas": "Nischidéer",
     "start": "Kom igång",
+    "blog": "Blogg",
     "resourcesDesc": {
       "tools": "Testa alla 33 generatorer online",
       "guides": "Steg-för-steg säljguider",
       "bundles": "Spara med paket",
       "ideas": "Inspiration för lönsamma nischer",
-      "start": "Starta din verksamhet"
+      "start": "Starta din verksamhet",
+      "blog": "Tips och strategier för säljare"
     }
   },
   "homepage": {

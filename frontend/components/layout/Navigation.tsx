@@ -15,6 +15,7 @@ const resourceLinks = [
   { key: 'bundles', href: '/bundles', icon: '\u{1F4E6}' },
   { key: 'ideas', href: '/ideas', icon: '\u{1F4A1}' },
   { key: 'start', href: '/start', icon: '\u{1F680}' },
+  { key: 'blog', href: '/blog', icon: '\u{1F4DD}' },
 ] as const;
 
 export function Navigation() {

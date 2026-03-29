@@ -13,12 +13,14 @@
     "bundles": "Paketit",
     "ideas": "Niche-ideat",
     "start": "Aloita",
+    "blog": "Blogi",
     "resourcesDesc": {
       "tools": "Kokeile kaikkia 33 generaattoria verkossa",
       "guides": "Vaihe vaiheelta myyntioppaita",
       "bundles": "Säästä paketeilla",
       "ideas": "Inspiraatiota tuottoisiin nicheihin",
-      "start": "Käynnistä liiketoimintasi"
+      "start": "Käynnistä liiketoimintasi",
+      "blog": "Vinkkejä ja strategioita myyjille"
     }
   },
   "homepage": {

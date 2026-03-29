@@ -13,12 +13,14 @@
     "bundles": "Bundels",
     "ideas": "Niche-ideeën",
     "start": "Aan de slag",
+    "blog": "Blog",
     "resourcesDesc": {
       "tools": "Probeer alle 33 generators online",
       "guides": "Stap-voor-stap verkoopgidsen",
       "bundles": "Bespaar met bundels",
       "ideas": "Inspiratie voor winstgevende niches",
-      "start": "Start uw bedrijf"
+      "start": "Start uw bedrijf",
+      "blog": "Tips & strategieën voor verkopers"
     }
   },
   "homepage": {

@@ -4,6 +4,7 @@ import { getToolConfigBySlug } from '@/config/tool-page-slugs';
 import { getBundleConfigBySlug } from '@/config/bundle-page-slugs';
 import { getStartConfigBySlug } from '@/config/start-page-slugs';
 import { getIdeaConfigBySlug } from '@/config/idea-page-slugs';
+import { getBlogConfigBySlug } from '@/config/blog-page-slugs';
 
 /**
  * Validates that an internal link slug exists in the corresponding page config.
@@ -17,6 +18,7 @@ export function isValidInternalLink(pageType: string, slug: string): boolean {
     case 'bundle': return !!getBundleConfigBySlug(slug);
     case 'start': return !!getStartConfigBySlug(slug);
     case 'idea': return !!getIdeaConfigBySlug(slug);
+    case 'blog': return !!getBlogConfigBySlug(slug);
     default: return false;
   }
 }

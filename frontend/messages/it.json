@@ -13,12 +13,14 @@
     "bundles": "Pacchetti",
     "ideas": "Idee di nicchia",
     "start": "Inizia",
+    "blog": "Blog",
     "resourcesDesc": {
       "tools": "Prova tutti i 33 generatori online",
       "guides": "Guide alla vendita passo passo",
       "bundles": "Risparmia con i pacchetti",
       "ideas": "Ispirazione per nicchie redditizie",
-      "start": "Avvia la tua attività"
+      "start": "Avvia la tua attività",
+      "blog": "Consigli e strategie per venditori"
     }
   },
   "homepage": {

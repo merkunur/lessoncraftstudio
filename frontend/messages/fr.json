@@ -13,12 +13,14 @@
     "bundles": "Packs",
     "ideas": "Idées de niches",
     "start": "Démarrer",
+    "blog": "Blog",
     "resourcesDesc": {
       "tools": "Essayez les 33 générateurs en ligne",
       "guides": "Guides de vente étape par étape",
       "bundles": "Économisez avec les packs",
       "ideas": "Inspiration de niches rentables",
-      "start": "Lancez votre activité"
+      "start": "Lancez votre activité",
+      "blog": "Conseils et stratégies pour vendeurs"
     }
   },
   "homepage": {

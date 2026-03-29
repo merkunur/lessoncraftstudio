@@ -13,12 +13,14 @@
     "bundles": "Bundles",
     "ideas": "Niche Ideas",
     "start": "Get Started",
+    "blog": "Blog",
     "resourcesDesc": {
       "tools": "Try all 33 generators online",
       "guides": "Step-by-step selling guides",
       "bundles": "Save with category packs",
       "ideas": "Profitable niche inspiration",
-      "start": "Launch your business"
+      "start": "Launch your business",
+      "blog": "Tips & strategies for sellers"
     }
   },
   "homepage": {

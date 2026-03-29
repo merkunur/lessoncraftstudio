@@ -13,12 +13,14 @@
     "bundles": "Pakker",
     "ideas": "Nicheideer",
     "start": "Kom i gang",
+    "blog": "Blog",
     "resourcesDesc": {
       "tools": "Prøv alle 33 generatorer online",
       "guides": "Trin-for-trin salgsguider",
       "bundles": "Spar med pakker",
       "ideas": "Inspiration til profitable nicher",
-      "start": "Start din virksomhed"
+      "start": "Start din virksomhed",
+      "blog": "Tips og strategier for sælgere"
     }
   },
   "homepage": {

@@ -47,7 +47,7 @@ const toolsMetadata: Record<string, { title: string; description: string }> = {
     description: 'Testen Sie alle 33 Arbeitsblatt-Generatoren kostenlos online. Keine Anmeldung. Wortsuche, Mathe, Ausmalbilder, R\ätsel und mehr mit Wasserzeichen.',
   },
   fr: {
-    title: 'G\én\érateurs d\’imprimables gratuits | 33 outils | LessonCraftStudio',
+    title: 'G\én\érateurs d\'imprimables gratuits | 33 outils | LessonCraftStudio',
     description: 'Essayez les 33 g\én\érateurs de fiches gratuitement en ligne. Sans inscription. Mots cach\és, maths, coloriages, puzzles et plus avec filigrane.',
   },
   es: {
@@ -55,8 +55,8 @@ const toolsMetadata: Record<string, { title: string; description: string }> = {
     description: 'Pruebe los 33 generadores de fichas gratis en línea. Sin registro. Sopas de letras, matemáticas, colorear, puzzles y más con marca de agua.',
   },
   pt: {
-    title: ‘33 geradores grátis — Teste online | LCS’,
-    description: ‘Teste os 33 geradores de atividades grátis online. Sem cadastro. Caça-palavras, matemática, colorir, puzzles e mais com marca d\’água.’,
+    title: '33 geradores grátis — Teste online | LCS',
+    description: 'Teste os 33 geradores de atividades grátis online. Sem cadastro. Caça-palavras, matemática, colorir, puzzles e mais com marca d\'água.',
   },
   it: {
     title: '33 generatori gratis — Prova online | LessonCraftStudio',
@@ -121,7 +121,7 @@ const toolsContent: Record<string, {
     categories: { math: 'Mathematik', literacy: 'Lesen & Sprache', visual: 'Visuelles Lernen', matching: 'Zuordnung & Sortierung', puzzle: 'Rätsel & Logik', search: 'Suchen & Finden' },
   },
   fr: {
-    heroTitle: 'G\én\érateurs d\’imprimables gratuits',
+    heroTitle: 'G\én\érateurs d\'imprimables gratuits',
     heroSubtitle: 'Essayez les 33 g\én\érateurs gratuitement en ligne. Sans inscription. Cr\éez des fiches professionnelles avec filigrane.',
     exploreMore: 'D\écouvrir plus',
     howToGuides: 'Guides pratiques',
@@ -146,13 +146,13 @@ const toolsContent: Record<string, {
   },
   pt: {
     heroTitle: 'Geradores de imprimir gr\átis',
-    heroSubtitle: 'Experimente os 33 geradores gr\átis online. Sem registo. Crie fichas profissionais com marca d\’\água.',
+    heroSubtitle: 'Experimente os 33 geradores gr\átis online. Sem registo. Crie fichas profissionais com marca d\'\água.',
     exploreMore: 'Explorar mais',
     howToGuides: 'Guias',
     bundles: 'Pacotes',
     getStarted: 'Come\çar',
     wantMore: 'Quer mais funcionalidades?',
-    wantMoreDesc: 'Fa\ça upgrade para remover marcas d\’\água e desbloquear todos os temas e idiomas.',
+    wantMoreDesc: 'Fa\ça upgrade para remover marcas d\'\água e desbloquear todos os temas e idiomas.',
     viewAll: 'Ver todos os geradores',
     categories: { math: 'Matem\ática', literacy: 'Leitura e Linguagem', visual: 'Aprendizagem Visual', matching: 'Correspond\ência', puzzle: 'Puzzles e L\ógica', search: 'Procure e Encontre' },
   },
@@ -176,7 +176,7 @@ const toolsContent: Record<string, {
     bundles: 'Bundels',
     getStarted: 'Aan de slag',
     wantMore: 'Meer functies gewenst?',
-    wantMoreDesc: 'Upgrade om watermerken te verwijderen en alle thema\’s en talen te ontgrendelen.',
+    wantMoreDesc: 'Upgrade om watermerken te verwijderen en alle thema\'s en talen te ontgrendelen.',
     viewAll: 'Alle generators bekijken',
     categories: { math: 'Wiskunde', literacy: 'Lezen & Taal', visual: 'Visueel Leren', matching: 'Matchen & Sorteren', puzzle: 'Puzzels & Logica', search: 'Zoeken & Vinden' },
   },

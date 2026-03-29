@@ -120,8 +120,8 @@ const guidesContent: Record<string, {
     ctaButton: 'Essayer les générateurs',
     subcatDescriptions: {
       platform: 'Comment créer et vendre sur des plateformes spécifiques',
-      product: 'Comment créer des types spécifiques d’imprimables',
-      business: 'Développer et faire grandir votre entreprise d’imprimables',
+      product: 'Comment créer des types spécifiques d'imprimables',
+      business: 'Développer et faire grandir votre entreprise d'imprimables',
     },
   },
   es: {
@@ -139,13 +139,13 @@ const guidesContent: Record<string, {
     },
   },
   pt: {
-    heroTitle: ‘Guias para vendedores de imprimíveis’,
-    heroDescription: ‘Guias passo a passo para criar e vender imprimíveis na Hotmart, Kiwify, Etsy e Amazon KDP. Plataformas, criação e estratégias de negócio.’,
-    metaTitle: ‘Guias para vendedores de imprimíveis | LCS’,
-    metaDescription: ‘65 guias para criar e vender imprimíveis na Hotmart, Etsy e KDP. Plataformas, criação de produtos e estratégias de negócio para o mercado brasileiro.’,
-    ctaTitle: ‘Comece a criar hoje’,
-    ctaDescription: ‘Teste os 33 geradores grátis com marca d\’água. Sem cadastro.’,
-    ctaButton: ‘Testar geradores grátis’,
+    heroTitle: 'Guias para vendedores de imprimíveis',
+    heroDescription: 'Guias passo a passo para criar e vender imprimíveis na Hotmart, Kiwify, Etsy e Amazon KDP. Plataformas, criação e estratégias de negócio.',
+    metaTitle: 'Guias para vendedores de imprimíveis | LCS',
+    metaDescription: '65 guias para criar e vender imprimíveis na Hotmart, Etsy e KDP. Plataformas, criação de produtos e estratégias de negócio para o mercado brasileiro.',
+    ctaTitle: 'Comece a criar hoje',
+    ctaDescription: 'Teste os 33 geradores grátis com marca d\'água. Sem cadastro.',
+    ctaButton: 'Testar geradores grátis',
     subcatDescriptions: {
       platform: 'Como criar e vender em plataformas específicas',
       product: 'Como criar tipos específicos de imprimíveis',

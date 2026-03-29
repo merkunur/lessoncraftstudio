@@ -21,7 +21,12 @@ const content: GuideContent = {
       'renda extra',
       'negócio de imprimíveis',
       'PIX',
-      'R
+      'R$',
+    ],
+    titleTag: 'Preços para atividades educativas | LCS',
+    metaDescription:
+      'Estratégia de preços para atividades educativas. Psicologia de preços, pacotes e margens para Hotmart, Etsy e KDP.',
+  },
 
   hero: {
     title: 'Estratégia de preços para atividades educativas',

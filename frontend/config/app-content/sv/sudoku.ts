@@ -2,28 +2,30 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'bildsudoku generator',
+    primaryKeyword: 'sudoku med bilder generator för KDP-böcker',
     secondaryKeywords: [
-      'utskrivbar bildsudoku skapare för Etsy-säljare',
-      'bildsudoku pussel generator för KDP-publicerare',
-      'bildsudoku arbetsblad skapare kommersiell licens',
-      'sälja sudoku pusselarbetsblad på Gumroad',
+      'bildsudoku pussel att sälja på Etsy',
+      'bildsudoku generator för Amazon KDP',
+      'sudoku med bilder kommersiell licens',
+      'bildsudoku printables att sälja online',
+      'sudokubok att publicera på KDP',
     ],
     lsiKeywords: [
-      'digitala sudoku utskriftsbara produkter onlineföretag',
-      'kommersiellt bruk bildpussel generator',
-      'utskrivbar logikpussel affärsverktyg',
+      'passiv inkomst sudokublad',
+      'printables-verksamhet logikpussel',
+      'visuella sudoku produktlinje',
+      'svenska marknaden sudoku Etsy',
     ],
-    titleTag: 'Bildsudoku Generator | Skapa och Sälj Arbetsblad — Säljguide',
+    titleTag: 'Sudoku med bilder för KDP och Etsy | LessonCraftStudio',
     metaDescription:
-      'Skapa bildsudoku arbetsblad att sälja på Etsy, KDP och Gumroad. 4×4 rutnät, tre svårighetsnivåer, automatiskt facit, 104 teman. Gratis provversion med.',
+      'Skapa sudoku med bilder att sälja på Etsy och KDP. 4×4 rutnät, tre svårighetsnivåer, facit, 104 teman, kommersiell licens. Testa gratis med vattenmärke.',
   },
 
   hero: {
-    title: 'Bildsudoku Arbetsblad Generator för 4×4 Bildlogikpussel',
-    tagline: 'Visuella 4×4 sudokupussel med bilder istället för siffror — tre svårighetsnivåer från 4 till 8 tomma celler, automatiskt genererade facit med kompletta fyllda rutnät och temabaserat bildval över 104 samlingar för pussel som säljer globalt utan översättning.',
+    title: 'Skapa sudoku med bilder att sälja på Etsy och Amazon KDP',
+    tagline: 'Visuella 4×4 sudokupussel med bilder istället för siffror — tre svårighetsnivåer och temabaserat bildval för pussel som säljer globalt utan översättning.',
     description:
-      'Bygg professionella 4×4 bildsudoku arbetsblad där användarna fyller tomma celler med rätt bilder med rad-och-kolumn-logik. Varje pussel använder exakt 4 unika bilder som måste visas en gång i varje rad och en gång i varje kolumn — samma regler som klassiskt sudoku, men med färgglada illustrationer istället för siffror. Välj bland tre svårighetsnivåer: Lätt tar bort 4 celler, Medel tar bort 6 och Svår tar bort 8 — halva rutnätet. Välj bilder genom temabaserat autoval som slumpmässigt väljer 4 bilder från valfri av 104 tematiska samlingar, eller välj manuellt exakt 4 bilder från biblioteket, sök eller dina egna uppladdningar. Det premiumdesignade rutnätet har alternerande 2×2-blockfärger i ljusblått och ljusrosa, flerskiktsade skuggor och en indigoblå yttre ram med rundade hörn. Varje pussel inkluderar en automatiskt genererad \"Bildsudoku\"-rubrik lokaliserad på alla 11 språk och ett dubbelarbetsyte-facit som visar det kompletta fyllda rutnätet med alla 16 celler ifyllda. Eftersom bildsudoku är helt visuellt — inga ord visas på pusselrutnätet — fungerar varje arbetsblad identiskt på alla 11 språk, vilket gör dina produkter säljbara globalt utan någon modifiering. Samma pussel kan listas i flera butiker och på flera marknadsplatser utan att skapa separata språkversioner. Full Access låser upp alla 104 teman med mer än 3 100 illustrationer och alla 11 gränssnittsspråk. Lägg till bakgrundsteman och ramteman med oberoende opacitetskontroller, och exportera tryckfärdiga PDF:er och JPEG-bilder med 300 DPI i Letter, A4 eller anpassade storlekar. Kommersiellt Paket inkluderar 10 färgglada teman; Full Access låser upp alla 104 teman för maximal kreativ variation. Oavsett om du säljer tematiska sudokupaket på Etsy, sammanställer logikarbetsböcker för Amazon KDP eller skapar resonemangsaktiviteter för Gumroad — denna generator levererar produktionsfärdiga pussel på några minuter. Gratis provversion med alla funktioner — ingen registrering, inget kreditkort. Nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',
+      'Skapa bildsudoku att sälja på Etsy eller sammanställa i logikpusselböcker för Amazon KDP. 4×4 rutnät med bilder istället för siffror — samma regler som klassiskt sudoku, men visuellt tillgängligt för barn. Tre svårighetsnivåer: Lätt (4 tomma celler), Medel (6) och Svår (8). Bildsudoku är helt visuellt — fungerar globalt utan översättning, en enda produkt säljs på alla marknader. Välj bland mer än 3 100 illustrationer i 104 teman. Sudokuböcker för barn är en konsekvent populär nisch på KDP. Den svenska marknaden saknar bildsudoku-produkter på Etsy. Automatiskt facit med komplett fyllt rutnät ingår. Exportera tryckfärdiga PDF:er i Letter och A4. Kommersiell licens ingår. Gratis provversion med alla funktioner — nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',
   },
 
   howItWorks: {

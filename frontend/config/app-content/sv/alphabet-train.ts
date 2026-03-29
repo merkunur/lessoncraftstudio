@@ -2,28 +2,30 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'alfabetståg arbetsblad generator',
+    primaryKeyword: 'alfabetsblad att sälja på Etsy och KDP',
     secondaryKeywords: [
-      'utskrivbar alfabetståg skapare för Etsy-säljare',
-      'bokstavsigenkänning arbetsblad generator för KDP-utgivare',
-      'alfabet arbetsblad sälja på Gumroad',
-      'alfabetståg printables kommersiell licens',
+      'alfabetståg arbetsblad för Etsy-säljare',
+      'bokstavsigenkänning generator för Amazon KDP',
+      'alfabetsblad med tågvagnar kommersiell licens',
+      'alfabetståg printables att sälja online',
+      'alfabetsbok att publicera på KDP',
     ],
     lsiKeywords: [
-      'digitala bokstavsigenkänning produkter onlineföretag',
-      'utskrivbara alfabet arbetsblad business',
-      'kommersiellt bruk alfabetståg generator',
+      'passiv inkomst alfabetsblad',
+      'printables-verksamhet bokstavsövningar',
+      'flerspråkiga alfabetsblad produktlinje',
+      'svenska marknaden alfabetsblad Etsy',
     ],
-    titleTag: 'Alfabetståg Generator | Skapa Språk-Printables — Säljguide',
+    titleTag: 'Alfabetsblad att sälja på Etsy | LessonCraftStudio',
     metaDescription:
-      'Skapa alfabetståg arbetsblad att sälja på Etsy, KDP och Gumroad. Tågvagn bokstav-bild koppling i 11 språk, 104 teman. Gratis provversion med vattenstämpel.',
+      'Skapa alfabetsblad att sälja på Etsy och KDP. Tågvagnar med bokstav-bild koppling, 11 språk med ÅÄÖ, facit, kommersiell licens. Testa gratis med vattenmärke.',
   },
 
   hero: {
-    title: 'Alfabetståg Arbetsblad Generator för Bokstavsigenkänning',
+    title: 'Skapa alfabetsblad att sälja på Etsy och Amazon KDP',
     tagline: 'Varje vagn bär en bokstav och en matchande bild — bygg bokstavsigenkänning, vagn för vagn.',
     description:
-      'Designa iögonfallande alfabetståg arbetsblad där 11 färgglada vagnar rullar över sidan, var och en med en bokstav kopplad till en matchande illustration. Välj läget Automatiskt Skapande för direkta slumpmässiga bokstavsval eller det Manuella läget för att välja exakt 11 bokstäver ur alfabetet för riktad övning. Lägg till 3 till 11 justerbara ledtrådar per arbetsblad — bildledtrådar som användarna kopplar till rätt bokstavsvagn — vilket förvandlar passiv bokstavsigenkänning till en aktiv problemlösningsövning. Bläddra bland mer än 3 100 noggrant utvalda illustrationer i 104 teman för att hitta den perfekta bilden för varje bokstav. Full Tillgång låser upp alla 11 stödda språk med egna alfabet — tyska med Ä/Ö/Ü, svenska med Å/Ä/Ö, spanska med Ñ och fler — vilket multiplicerar din produktkatalog elva gånger från ett enda arbetsflöde. Varje arbetsblad genererar automatiskt ett facit, och du kan exportera tryckfärdiga PDF:er och JPEG:er med mer än 400 DPI i Letter-, A4- eller Kvadratformat. Oavsett om du säljer tematiska alfabetpaket på Etsy.se, sammanställer progressiva språkböcker för Amazon KDP eller skapar nivågrupperade bokstavsstationer för Gumroad — Alfabetståg Generatorn levererar professionella resultat på några minuter. Gratis provversion med alla funktioner — ingen registrering, inget kreditkort. Nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',
+      'Skapa alfabetståg arbetsblad att sälja på Etsy eller sammanställa i bokstavsböcker för Amazon KDP. 11 färgglada vagnar rullar över sidan, var och en med en bokstav kopplad till en matchande illustration — ett iögonfallande format som lockar köpare i produktminiatyrer. Stöd för 11 språk med egna alfabet — svenska med Å/Ä/Ö, tyska med Ä/Ö/Ü — multiplicerar din produktkatalog elva gånger. Bokstavsövningar för förskoleklass (6 år) är en av de mest efterfrågade produkterna bland svenska föräldrar. Välj bland mer än 3 100 illustrationer i 104 teman. Automatiskt facit och export i 400+ DPI ingår. Den svenska marknaden saknar denna produkttyp på Etsy. Kommersiell licens ingår. Gratis provversion med alla funktioner — nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',
   },
 
   howItWorks: {

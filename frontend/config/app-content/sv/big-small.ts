@@ -2,28 +2,30 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'stort och litet arbetsblad generator',
+    primaryKeyword: 'stor och liten-blad för Etsy-shop',
     secondaryKeywords: [
-      'storleksjämförelse arbetsblad sälja på Etsy',
-      'stort och litet arbetsblad generator för Amazon KDP',
-      'storleksdiskriminering arbetsblad kommersiell licens',
-      'utskrivbara storleksövningar skapa för Gumroad',
+      'storleksjämförelse arbetsblad att sälja på Etsy',
+      'stort och litet generator för Amazon KDP',
+      'storleksövningar arbetsblad kommersiell licens',
+      'stor och liten-blad att sälja online',
+      'storleksbok att publicera på KDP',
     ],
     lsiKeywords: [
-      'digitala storleksjämförelse produkter onlineföretag',
-      'utskrivbara visuell diskriminering arbetsblad företag',
-      'stort litet arbetsblad generator kommersiellt bruk',
+      'passiv inkomst storleksblad',
+      'printables-verksamhet storleksjämförelse',
+      'visuell diskriminering produktlinje',
+      'svenska marknaden storleksblad Etsy',
     ],
-    titleTag: 'Stort och Litet Generator | Skapa och Sälj Arbetsblad',
+    titleTag: 'Stor och liten-blad för Etsy | LessonCraftStudio',
     metaDescription:
-      'Skapa storleksjämförelsearbetsblad att sälja på Etsy, KDP och Gumroad. Fem frågetyper, identiska och olika lägen, 104 teman. Gratis provversion med vattenstämpe',
+      'Skapa stor och liten-blad att sälja på Etsy och KDP. Fem frågetyper, identiska och olika bilder, facit, kommersiell licens. Testa gratis med vattenmärke.',
   },
 
   hero: {
-    title: 'Stort och Litet Arbetsblad Generator för Storleksjämförelseövningar',
-    tagline: 'Fem frågetyper — ringa in den stora, ringa in den lilla, ringa in den medelstora, numrera stigande, numrera fallande — med identiska och olika bildlägen för visuell storleksdiskriminering.',
+    title: 'Skapa stor och liten-blad att sälja på Etsy och Amazon KDP',
+    tagline: 'Fem frågetyper — ringa in den stora, den lilla, den medelstora, numrera stigande och fallande — med identiska och olika bildlägen.',
     description:
-      'Designa professionella storleksjämförelsearbetsblad där användarna tittar på tematiska bilder i olika storlekar och identifierar vilken som är störst, minst eller medelstor, eller numrerar dem i ordning från minst till störst eller störst till minst. Fem distinkta frågetyper täcker varje storleksdiskrimineringsfärdighet: Ringa in den Stora, Ringa in den Lilla, Ringa in den Medelstora, Numrera 1–2–3 Liten till Stor och Numrera 1–2–3 Stor till Liten. Två bildlägen skapar fundamentalt olika övningar: Identiska Bilder visar samma bild i olika storlekar för ren storleksuppfattning, medan Olika Bilder visar distinkta objekt för relativ storleksbedömning. Konfigurera 1–10 övningar per sida med 2 eller 3 bilder per övning — två bilder för enklare jämförelser, tre för svårare som inkluderar ett medelalternativ. Varje arbetsblad är helt visuellt med noll text på resultatet, vilket gör dem universellt användbara oavsett språk eller läsnivå. Innehåll hämtas från det inbyggda bildbiblioteket med mer än 3 100 illustrationer i 104 teman. Ett automatiskt genererat facit markerar korrekta svar för omedelbar verifiering. Full Access låser upp alla 104 teman och alla 11 gränssnittsspråk. Exportera tryckfärdiga PDF:er och JPEG-bilder med 300 DPI i Letter-, A4- eller anpassat format. Oavsett om du säljer storleksjämförelsepaket på Etsy, sammanställer tidiga inlärningsarbetsböcker för Amazon KDP eller skapar nivågrupperade visuella stationer för Gumroad — Stort och Litet Arbetsblad Generatorn levererar professionella resultat på några minuter. Gratis provversion med alla funktioner — ingen registrering, inget kreditkort. Nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',
+      'Skapa storleksjämförelseblad att sälja på Etsy eller sammanställa i tidiga inlärningsarbetsböcker för Amazon KDP. Fem frågetyper — ringa in den stora/lilla/medelstora, numrera stigande och fallande — ger variation för produktlinjer per svårighetsnivå. Två bildlägen: identiska bilder i olika storlekar och olika bilder för relativ bedömning. Arbetsbladen är helt visuella — säljbara globalt utan översättning. Välj bland mer än 3 100 illustrationer i 104 teman. Storleksjämförelse är en av de mest grundläggande förskolefärdigheterna — föräldrar och förskollärare söker aktivt efter detta material. Den svenska marknaden på Etsy saknar konkurrens. Automatiskt facit ingår. Kommersiell licens ingår. Gratis provversion med alla funktioner — nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',
   },
 
   howItWorks: {

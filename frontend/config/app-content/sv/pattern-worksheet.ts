@@ -2,28 +2,30 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'mönsterarbetsblad generator',
+    primaryKeyword: 'mönsterigenkänning arbetsblad för Etsy-säljare',
     secondaryKeywords: [
-      'mönsterigenkänning arbetsblad sälja på Etsy',
-      'mönster arbetsblad generator för Amazon KDP',
+      'mönsterarbetsblad att sälja på Etsy',
+      'mönsterkomplettering generator för Amazon KDP',
       'mönstersekvens arbetsblad kommersiell licens',
-      'utskrivbara mönsterövningar skapa för Gumroad',
+      'mönsterigenkänning printables att sälja online',
+      'mönsterbok att publicera på KDP',
     ],
     lsiKeywords: [
-      'digitala mönsterkomplettering produkter onlineföretag',
-      'utskrivbara visuella mönster arbetsblad företag',
-      'mönsterigenkänning generator kommersiellt bruk',
+      'passiv inkomst mönsterarbetsblad',
+      'printables-verksamhet mönsterkomplettering',
+      'nio mönstertyper produktlinje',
+      'svenska marknaden mönsterarbetsblad Etsy',
     ],
-    titleTag: 'Mönsterarbetsblad Generator | Skapa och Sälj Online',
+    titleTag: 'Mönsterigenkänning att sälja på Etsy | LessonCraftStudio',
     metaDescription:
-      'Skapa mönsterarbetsblad att sälja på Etsy, KDP och Gumroad. Nio mönstertyper, två frågelägen, övningsvis konfiguration, 104 teman. Gratis provversion med.',
+      'Skapa mönsterarbetsblad att sälja på Etsy och KDP. Nio mönstertyper, fyll-i-rutan och flerval, facit, kommersiell licens. Testa gratis med vattenmärke.',
   },
 
   hero: {
-    title: 'Mönsterarbetsblad Generator för Rutnätsbaserade Mönsterkompletteringsövningar',
-    tagline: 'Nio mönstertyper från AB till ABCD — två frågelägen (fyll-i-rutan och flerval) — med övningsvis oberoende konfiguration för mönstertyp, frågeläge och tema på varje sida.',
+    title: 'Skapa mönsterigenkänning arbetsblad att sälja på Etsy och KDP',
+    tagline: 'Nio mönstertyper från AB till ABCD — fyll-i-rutan och flerval — med oberoende konfiguration per övning.',
     description:
-      'Designa professionella mönsterkompletteringsarbetsblad där användarna identifierar upprepande sekvenser och fyller i det saknade elementet — eller väljer rätt svar från flervalsposter. Nio distinkta mönstertyper täcker varje nivå av sekvenskomplexitet: AB alternerar två element, AAB och ABB introducerar asymmetriska grupperingar, ABC roterar tre element, AABB parar två av varje, ABBC och AABC lägger till trebilds asymmetriska mönster, ABCC förlänger med fördubblat slut, och ABCD roterar fyra olika element för maximal utmaning. Två frågelägen skapar fundamentalt olika övningar från varje mönstertyp: Tom Ruta ersätter ett element med ett tomt utrymme för användarna att fylla i, medan Välj Bland Alternativ visar den tomma rutan plus tre svarsval med ett korrekt och två distraktorer. Konfigurera 1–8 övningar per sida med varje övning oberoende inställd för mönstertyp, frågeläge och tema — en sida kan blanda en AB fyll-i-rutan-övning med en ABCD flervaltsövning. Aktivera Slumpmässig Start för att börja mönster mitt i cykeln och Slumpmässig Tom Position för att placera det saknade elementet var som helst i sekvensen för ökad svårighet. Innehåll hämtas från det inbyggda bildbiblioteket med mer än 3 100 illustrationer i 104 teman. En separat facitflik visar alla tomma rutor fyllda med de korrekta mönsterelementen för omedelbar verifiering. Full Access låser upp alla 104 teman och alla 11 gränssnittsspråk. Exportera tryckfärdiga PDF:er och JPEG-bilder med hög DPI i Letter-, A4-, Kvadrat- eller anpassat format. Varje arbetsblad är helt visuellt med enbart bilder i rutnätsrader och noll text på resultatet, vilket gör produkterna universellt säljbara utan översättning. Oavsett om du skapar mönsterigenkänningspaket på Etsy, sammanställer tidiga inlärningsarbetsböcker för Amazon KDP eller bygger nivågrupperade visuella stationer för Gumroad — Mönsterarbetsblad Generatorn levererar den bredaste variationen av mönsterövningar tillgänglig. Gratis provversion med alla funktioner — ingen registrering, inget kreditkort. Nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',
+      'Skapa mönsterkompletteringsarbetsblad att sälja på Etsy eller sammanställa i arbetsböcker för Amazon KDP. Nio mönstertyper från AB till ABCD och två frågelägen — fyll-i-rutan och flerval — ger den bredaste variationen av mönsterövningar tillgänglig. Konfigurera 1–8 övningar per sida med oberoende mönstertyp, frågeläge och tema per övning. Arbetsbladen är helt visuella — säljbara globalt utan översättning. Välj bland mer än 3 100 illustrationer i 104 teman. Med nio mönstertyper kan du skapa produktlinjer per svårighetsnivå — från enkla AB-mönster för förskolan till komplexa ABCD-mönster för årskurs 2. Den svenska marknaden saknar professionella mönsterblad på Etsy. Automatiskt facit ingår. Kommersiell licens ingår. Gratis provversion med alla funktioner — nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',
   },
 
   howItWorks: {

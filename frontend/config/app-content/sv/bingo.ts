@@ -2,28 +2,30 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'bingokort generator',
+    primaryKeyword: 'bingo-brickor maker att sälja på Etsy',
     secondaryKeywords: [
-      'utskrivbar bingokort skapare för Etsy-säljare',
-      'bildbingo arbetsblad generator för KDP-publicerare',
+      'bingokort generator för Etsy-säljare',
+      'bildbingo arbetsblad för Amazon KDP',
       'bingokort skapare kommersiell licens',
-      'sälja utskrivbara bingokort på Gumroad',
+      'bingo-brickor att sälja online',
+      'bingobok att publicera på KDP',
     ],
     lsiKeywords: [
-      'digitala bingo utskriftsbara produkter onlineföretag',
-      'kommersiellt bruk bingokort generator',
-      'utskrivbar bildbingo affärsverktyg',
+      'passiv inkomst bingokort',
+      'printables-verksamhet bingoaktiviteter',
+      'flerspråkiga bingokort produktlinje',
+      'svenska marknaden bingokort Etsy',
     ],
-    titleTag: 'Bingokort Generator | Skapa och Sälj Bingo Utskriftsbara',
+    titleTag: 'Bingo-brickor att sälja på Etsy | LessonCraftStudio',
     metaDescription:
-      'Skapa bildbingokort att sälja på Etsy, KDP och Gumroad. Batch-generera unika kort, ZIP-export, uppropslista, 104 teman. Gratis provversion med vattenstämpel.',
+      'Skapa bingo-brickor med bilder att sälja på Etsy och KDP. Batch-generering, ZIP-export, uppropslista, 11 språk, kommersiell licens. Testa gratis med vattenmärke.',
   },
 
   hero: {
-    title: 'Bildbingo Kort Generator för Utskrivbara Bingoaktiviteter',
-    tagline: 'Generera 1–10 unika bingokort per batch med konfigurerbara rutnät från 3×3 till 5×5 — bild- eller ordfyllning för både kortceller och cirkulära brickor, en dedikerad uppropslista för spelledaren, ZIP batch-export av alla kort och 104 tematiska bildsamlingar.',
+    title: 'Skapa bingo-brickor med bilder att sälja på Etsy och KDP',
+    tagline: 'Generera 1–10 unika bingokort per batch med konfigurerbara rutnät, bild- eller ordfyllning, uppropslista och ZIP batch-export.',
     description:
-      'Bygg professionella bildbingokort där spelare markerar matchande bilder eller ord på sina unika kortrutnät. Konfigurera rader från 3 till 5 och kolumner från 3 till 5 oberoende, vilket skapar rutnät från 3×3 (9 celler) upp till 5×5 (25 celler) med standard 4×4 (16 celler). Välj bildfyllning eller ordfyllning oberoende för både kortceller och cirkulära brickor — brickor har streckade kanter och blandad Fisher-Yates-ordning för autentiskt bingospel. Generera 1–10 unika bingokort per batch, vart och ett med ett annorlunda slumpmässigt bildurval från poolen. En dedikerad uppropslista på en separat flik visar ett dynamiskt ordrutnät för spelledaren, med kolumner beräknade baserat på längsta ordlängden och enhetlig teckenstorlek. Handplocka specifika bilder för anpassat uppropsurval eller låt appen välja från ditt tema. Bildbingo Kort Generatorn är språkkänslig: ordfyllning använder lokaliserade bildnamn från Bildbiblioteket, så att byta språk ändrar orden på kort, brickor och uppropslistan. Det innebär att samma bildtema kan generera unika bingokort på 11 olika språk — varje språkversion har lokaliserade ord, vilket gör varje version till en separat produkt för en ny marknad. Full Access låser upp alla 104 teman med mer än 3 100 illustrationer och alla 11 gränssnittsspråk för lokaliserat ordinnehåll. Lägg till bakgrundsteman och ramteman med oberoende opacitetskontroller, inkludera anpassad text med sju typsnittsalternativ, och exportera tryckfärdiga PDF:er och JPEG-bilder med 300 DPI i Letter, A4, Kvadrat (1200×1200) eller anpassade storlekar. Batch-exportera alla genererade kort som individuella JPEG-bilder i en enda ZIP-fil. Kommersiellt Paket inkluderar 10 färgglada teman; Full Access låser upp alla 104 teman och alla 11 språk för lokaliserat ordinnehåll. Oavsett om du säljer bingokort-paket på Etsy, sammanställer bingoaktivitetsböcker för Amazon KDP eller skapar produktlinjesbingoset för Gumroad — denna generator levererar produktionsfärdiga bingokort på några minuter. Gratis provversion med alla funktioner — ingen registrering, inget kreditkort. Nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',
+      'Skapa bildbingokort att sälja på Etsy eller sammanställa i bingoaktivitetsböcker för Amazon KDP. Generera 1–10 unika kort per batch med konfigurerbara rutnät från 3×3 till 5×5 — perfekt för klasspaket och familjespel. ZIP batch-export laddar ner alla kort i en enda fil. Generatorn är språkkänslig: ordfyllning producerar unika bingokort på 11 språk med lokaliserade ord — varje språkversion blir en separat produkt. Bingokort med bilder är extremt populära bland föräldrar och förskollärare och säljer konsekvent. Den svenska marknaden för bildbingokort på Etsy saknar i princip konkurrenter. Välj bland mer än 3 100 illustrationer i 104 teman. Kommersiell licens ingår. Gratis provversion med alla funktioner — nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',
   },
 
   howItWorks: {

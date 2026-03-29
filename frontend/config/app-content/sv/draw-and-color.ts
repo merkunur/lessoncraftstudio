@@ -2,28 +2,30 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'rutritning generator',
+    primaryKeyword: 'rita och måla-blad för Etsy-shop',
     secondaryKeywords: [
-      'rutritning arbetsblad sälja på Etsy',
+      'rutritning arbetsblad att sälja på Etsy',
       'rita och färglägg generator för Amazon KDP',
       'rutnätsritning arbetsblad kommersiell licens',
-      'utskrivbara ritövningar skapa för Gumroad',
+      'ritövningsblad att sälja online',
+      'ritbok att publicera på KDP',
     ],
     lsiKeywords: [
-      'digitala rutnätsritning produkter onlineföretag',
-      'utskrivbara cell-för-cell reproduktion arbetsblad företag',
-      'rutritning generator kommersiellt bruk',
+      'passiv inkomst ritövningar',
+      'printables-verksamhet rutnätsritning',
+      'cell-för-cell reproduktion produktlinje',
+      'svenska marknaden ritblad Etsy',
     ],
-    titleTag: 'Rutritning Generator | Skapa Rutnätskonst Arbetsblad',
+    titleTag: 'Rita och måla-blad för Etsy | LessonCraftStudio',
     metaDescription:
-      'Skapa rutnätsritningsarbetsblad att sälja på Etsy, KDP och Gumroad. Dubbelt rutnätssystem, justerbar ledtrådsprocent, symmetrilägen. Gratis provversion med.',
+      'Skapa rita och måla-blad att sälja på Etsy och KDP. Dubbelt rutnätssystem, justerbar ledtrådsprocent, symmetrilägen, kommersiell licens. Testa gratis med vattenmärke.',
   },
 
   hero: {
-    title: 'Rutritning Arbetsblad Generator för Rutnätsbaserade Ritövningar',
-    tagline: 'Dubbelt rutnätssystem — övningsrutnät och ledtrådsrutnät sida vid sida — med justerbar ledtrådsprocent från 10% till 75%, horisontella och vertikala symmetrilägen, och 100+ svartvita konturteman för ritning och färgläggning.',
+    title: 'Skapa rita och måla-blad att sälja på Etsy och Amazon KDP',
+    tagline: 'Dubbelt rutnätssystem med justerbar ledtrådsprocent, symmetrilägen och 100+ svartvita konturteman för ritning och färgläggning.',
     description:
-      'Designa professionella rutnätsritningsarbetsblad där användarna reproducerar en referensbild genom att kopiera den cell-för-cell från ett ledtrådsrutnät till ett tomt övningsrutnät. Två rutnät visas per vald bild: ett Övningsrutnät med tomma celler där användarna ritar, och ett Ledtrådsrutnät som visar en konfigurerbar procent av referensbilden som visuella ledtrådar. Justera ledtrådsprocenten från 10% till 75% för att kontrollera svårigheten — färre ledtrådar innebär svårare övningar som kräver skarpare observation. Konfigurera rutnätsdimensioner från 3×3 (9 celler) till 10×10 (100 celler), med rader och kolumner justerbara oberoende från 3 till 10. Tre symmetrilägen lägger till en rumslig resonemangsdimension: Slumpmässig placerar ledtrådar i spridda positioner, Horisontell speglar ledtrådar vänster-till-höger, och Vertikal speglar ledtrådar uppifrån-och-ner, var och en med en del-att-visa-väljare. Innehåll hämtas från det inbyggda svartvita konturtemabiblioteket med 100+ samlingar med mer än 3 000 svartvita illustrationer specifikt designade för ritning och färgläggning — inte färgglada teman, utan rena konturer som användarna reproducerar och sedan färglägger. Detta är en rent visuell app: arbetsbladen innehåller bara rutnätsbilder utan text, vilket gör dem universellt användbara oavsett språk. Inget facit behövs eftersom ledtrådsrutnätet i sig fungerar som referenslösningen. Full Access låser upp alla 100+ svartvita teman och alla 11 gränssnittsspråk. Exportera tryckfärdiga PDF:er och JPEG-bilder med 300 DPI i Letter-, A4- eller anpassat format. Oavsett om du säljer rutnätsritningspaket på Etsy, sammanställer ritfärdighetsarbetsböcker för Amazon KDP eller skapar rumsliga resonemangsstationer för Gumroad — Rutritning Arbetsblad Generatorn levererar professionella resultat på några minuter. Gratis provversion med alla funktioner — ingen registrering, inget kreditkort. Nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',
+      'Skapa rutnätsritningsarbetsblad att sälja på Etsy eller sammanställa i ritfärdighetsarbetsböcker för Amazon KDP. Köparna reproducerar en referensbild cell-för-cell från ett ledtrådsrutnät till ett tomt övningsrutnät — ett populärt format som föräldrar och förskollärare älskar. Justera ledtrådsprocenten från 10% till 75% och konfigurera rutnät från 3×3 till 10×10. Tre symmetrilägen lägger till variation. Innehåll från 100+ svartvita konturteman med mer än 3 000 illustrationer. Arbetsbladen är rent visuella — säljbara globalt utan översättning. Rita och måla-blad är ett unikt format som särskiljer dina produkter. Den svenska marknaden saknar denna produkttyp på Etsy. Kommersiell licens ingår. Gratis provversion med alla funktioner — nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',
   },
 
   howItWorks: {

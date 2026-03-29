@@ -2,28 +2,30 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'hitta udda bilden generator',
+    primaryKeyword: 'vilken hör inte hemma-blad att sälja på Etsy och KDP',
     secondaryKeywords: [
-      'utskrivbar hitta udda bilden pussel skapare för Etsy-säljare',
-      'hitta den som inte hör hemma arbetsblad generator för KDP',
-      'udda bilden aktivitet skapare kommersiell licens',
-      'sälja hitta udda bilden pussel på Gumroad',
+      'hitta udda bilden pussel för Etsy-säljare',
+      'vilken hör inte hemma generator för Amazon KDP',
+      'udda bilden arbetsblad kommersiell licens',
+      'hitta den annorlunda att sälja online',
+      'visuell diskrimineringsbok att publicera på KDP',
     ],
     lsiKeywords: [
-      'digitala hitta udda bilden utskriftsbara onlineföretag',
-      'kommersiellt bruk visuell diskriminering arbetsblad generator',
-      'utskrivbar hitta den annorlunda pussel affärsverktyg',
+      'passiv inkomst udda bilden',
+      'printables-verksamhet visuell diskriminering',
+      'hitta den annorlunda produktlinje',
+      'svenska marknaden udda bilden Etsy',
     ],
-    titleTag: 'Hitta Udda Bilden Generator | Skapa och Sälj Arbetsblad',
+    titleTag: 'Vilken hör inte hemma för Etsy | LessonCraftStudio',
     metaDescription:
-      'Skapa hitta udda bilden arbetsblad att sälja på Etsy, KDP och Gumroad. Två pussellägen, automatiskt facit med röda cirklar, 104 teman. Gratis provversion med.',
+      'Skapa vilken hör inte hemma-blad att sälja på Etsy och KDP. Identisk och Liknande lägen, facit med röda cirklar, 104 teman. Testa gratis med vattenmärke.',
   },
 
   hero: {
-    title: 'Hitta Udda Bilden Arbetsblad Generator för Hitta-den-Annorlunda Pussel',
-    tagline: 'Två genereringslägen — Identisk och Liknande — med överskridning per övning, 5–10 konfigurerbara övningar, automatiskt genererade facit med röda cirkelmarkeringar och visuella pussel som fungerar på alla 11 språk utan översättning.',
+    title: 'Skapa vilken hör inte hemma-blad att sälja på Etsy och KDP',
+    tagline: 'Två genereringslägen — Identisk och Liknande — med facit med röda cirkelmarkeringar och visuella pussel som fungerar globalt utan översättning.',
     description:
-      'Bygg professionella hitta-den-annorlunda arbetsblad där användarna identifierar och ringar in det udda objektet i varje rad av fyra bilder. Välj mellan två genereringslägen: Identiskt läge placerar tre kloner av samma bild bredvid en annorlunda bild från samma tema för hitta-skillnaden-utmaningar, medan Liknande läge hämtar tre bilder från Tema A och en bild från Tema B för temaövergripande diskrimineringspussel. Överskrid läget per övning för att blanda svårighetsnivåer inom ett enda arbetsblad. Konfigurera 5 till 10 övningar per sida med standard satt till 6, och växla valfria namn- och datumfält och övningsnummer för produktlinjesfärdig formatering. Varje arbetsblad genererar ett medföljande facit på en separat arbetsyteflik — facit ritar en röd cirkel runt det udda objektet i varje rad så du aldrig behöver markera svar manuellt. Den automatiskt genererade rubriken har en korallfärgad yttre ram, bärnstensfärgad inre ram och turkos bakgrund med den lokaliserade titeln \"Hitta den som inte hör hemma\" renderad i Fredoka och instruktioner i Quicksand på alla 11 språk. Eftersom pusslen är helt visuella — inga ord visas på själva arbetsbladet — är de inte språkkänsliga och fungerar identiskt i varje lokal. Samma arbetsblad kan säljas globalt utan översättning — ett enda skapandeflöde betjänar varje marknad. Full Access låser upp alla 104 teman med mer än 3 100 illustrationer och alla 11 gränssnittsspråk. Lägg till bakgrundsteman och ramteman med oberoende opacitetskontroller, och exportera tryckfärdiga PDF:er och JPEG-bilder med 300 DPI i Letter, A4, Kvadrat eller anpassade storlekar. Kommersiellt Paket inkluderar 10 färgglada teman; Full Access låser upp alla 104 teman för maximal kreativ variation. Oavsett om du säljer visuella pusselpaket på Etsy, sammanställer kritiskt tänkande-arbetsböcker för Amazon KDP eller skapar produktlinjesaktiviteter för Gumroad — denna generator levererar produktionsfärdiga arbetsblad på några minuter. Gratis provversion med alla funktioner — ingen registrering, inget kreditkort. Nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',
+      'Skapa hitta-den-annorlunda arbetsblad att sälja på Etsy eller sammanställa i kritiskt tänkande-arbetsböcker för Amazon KDP. Köparna identifierar och ringar in det udda objektet i varje rad av fyra bilder. Identiskt läge för hitta-skillnaden-utmaningar, Liknande läge för temaövergripande diskrimineringspussel. Konfigurera 5–10 övningar per sida. Arbetsbladen är helt visuella — säljbara globalt utan översättning. Välj bland mer än 3 100 illustrationer i 104 teman. Automatiskt facit med röda cirklar ingår. Vilken hör inte hemma-blad är ett populärt format bland föräldrar till förskolebarn och säljer konsekvent. Den svenska marknaden saknar denna produkttyp på Etsy. Kommersiell licens ingår. Gratis provversion med alla funktioner — nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',
   },
 
   howItWorks: {

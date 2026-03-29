@@ -2,28 +2,30 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'skattjakt arbetsblad generator',
+    primaryKeyword: 'skattjakt-generator att sälja på Etsy och KDP',
     secondaryKeywords: [
-      'utskrivbar skattjakt vägfinnande skapare för Etsy-säljare',
-      'riktningspussel arbetsblad generator för KDP-publicerare',
-      'koordinatrutnät skattjakt skapare kommersiell licens',
-      'sälja skattjakt arbetsblad på Gumroad',
+      'skattjakt arbetsblad för Etsy-säljare',
+      'vägfinnande pussel generator för Amazon KDP',
+      'riktningspussel arbetsblad kommersiell licens',
+      'skattjaktblad att sälja online',
+      'skattjaktbok att publicera på KDP',
     ],
     lsiKeywords: [
-      'digitala skattjakt utskriftsbara produkter onlineföretag',
-      'kommersiellt bruk riktningsarbetsblad generator',
-      'utskrivbar vägfinnande pussel affärsverktyg',
+      'passiv inkomst skattjaktblad',
+      'printables-verksamhet riktningspussel',
+      'flerspråkiga skattjaktblad produktlinje',
+      'svenska marknaden skattjaktblad Etsy',
     ],
-    titleTag: 'Skattjakt Generator | Skapa Vägarbetsblad — Skapa och Sälj',
+    titleTag: 'Skattjakt att sälja på Etsy och KDP | LessonCraftStudio',
     metaDescription:
-      'Skapa skattjakt arbetsblad att sälja på Etsy, KDP och Gumroad. 5×5 koordinatrutnät, två riktningstyper, automatiskt facit, 104 teman. Gratis provversion med.',
+      'Skapa skattjakt att sälja på Etsy och KDP. 5×5 koordinatrutnät, grundläggande och kompass, 11 språk, facit, kommersiell licens. Testa gratis med vattenmärke.',
   },
 
   hero: {
-    title: 'Skattjakt Arbetsblad Generator för Vägfinnande Riktningspussel',
-    tagline: 'Generera riktningsbaserade vägfinnande-pussel på ett 5×5 koordinatrutnät — två riktningsvokabulärer (Grundläggande: upp/ner/vänster/höger och Kompass: norr/söder/öster/väster), fullt lokaliserade riktningsanvisningar på 11 språk, automatiskt genererat facit med markerad skattplats och skattjakttemade rubriker över 104 bildsamlingar.',
+    title: 'Skapa skattjakt att sälja på Etsy och Amazon KDP',
+    tagline: 'Riktningsbaserade pussel på 5×5 koordinatrutnät med grundläggande och kompass-riktningar, lokaliserade anvisningar på 11 språk och automatiskt facit.',
     description:
-      'Bygg professionella skattjakt arbetsblad där användarna följer sekventiella rörelseanvisningar för att lokalisera en gömd skatt på ett 5×5 bokstavs-sifferkoordinatrutnät (A–E rader, 1–5 kolumner). Varje pussel sprider 6 tematiska bilder över rutnätet som landmärken, och genererar sedan en startposition och exakt 4 riktningsrörelser som leder till skattcellen. Välj mellan två riktningsvokabulärer: Grundläggande läge använder upp, ner, vänster och höger för tidiga användare, medan Kompass-läge använder norr, söder, öster och väster för mer avancerat rumsligt resonemang. Skattjakt Generatorn är språkkänslig: att byta språk ändrar både riktningsinstruktionernas text och bildinnehållet, med alla riktningar fullt översatta till 11 stödda språk. Det innebär att samma pussel med samma bilder producerar autentiska riktningsanvisningar på det valda språket — \"Flytta ner 2 rutor\" på svenska, \"Move down 2 squares\" på engelska, \"Gehe 2 Felder nach unten\" på tyska. Varje pussel inkluderar en automatiskt genererad lokaliserad rubrik med blågrön bakgrund (#2C8C7C), gyllene titel (#D4A017) i Fredoka-typsnitt och sandfärgad beskrivning i Quicksand — som visar \"Skattjakt\" och \"Följ ledtrådarna och hitta skatten!\" på det valda språket. Dubbelarbetsyte-systemet genererar både en arbetsbladsflik och en facitflik — facit markerar den slutliga skattcellen i blekgult så du aldrig behöver markera den manuellt. Full Access låser upp alla 104 teman med mer än 3 100 illustrationer och alla 11 språk för lokaliserade riktningar och bilder. Lägg till bakgrundsteman och ramteman med oberoende opacitetskontroller, och exportera tryckfärdiga PDF:er och JPEG-bilder med 300 DPI i Letter, A4, Kvadrat (1200×1200) eller anpassade storlekar. Kommersiellt Paket inkluderar 10 färgglada teman; Full Access låser upp alla 104 teman och alla 11 språk. Oavsett om du säljer skattjaktpaket på Etsy, sammanställer riktningsfärdighets-arbetsböcker för Amazon KDP eller skapar koordinatrutnätsaktiviteter för Gumroad — denna generator levererar produktionsfärdiga pussel på några minuter. Gratis provversion med alla funktioner — ingen registrering, inget kreditkort. Nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',
+      'Skapa skattjaktblad att sälja på Etsy eller sammanställa i aktivitetsböcker för Amazon KDP. Köparna följer riktningsanvisningar för att hitta en gömd skatt på ett 5×5 koordinatrutnät — ett engagerande format som föräldrar och barn älskar. Grundläggande läge (upp/ner/vänster/höger) för tidiga användare, Kompass-läge (norr/söder/öster/väster) för avancerade. Generatorn är språkkänslig: samma pussel producerar autentiska riktningsanvisningar på 11 språk — \"Flytta ner 2 rutor\" på svenska, \"Move down 2 squares\" på engelska. Välj bland mer än 3 100 illustrationer i 104 teman. Automatiskt facit med markerad skattplats ingår. Skattjaktblad är unika produkter som sticker ut på Etsy. Den svenska marknaden saknar denna produkttyp helt. Kommersiell licens ingår. Gratis provversion med alla funktioner — nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',
   },
 
   howItWorks: {

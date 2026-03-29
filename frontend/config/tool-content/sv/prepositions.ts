@@ -2,26 +2,26 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'prepositioner arbetsblad generator',
+    primaryKeyword: 'gratis prepositionsblad generator',
     secondaryKeywords: [
-      'prepositioner arbetsblad skapare för säljare',
-      'skapa prepositioner arbetsblad att sälja',
-      'utskrivbara rumsliga prepositioner arbetsblad kommersiellt bruk',
-      'prepositioner generator för KDP',
+      'prepositionsblad generator gratis online',
+      'prepositioner arbetsblad skapa gratis',
+      'lägesord blad skriva ut gratis',
+      'gratis prepositionsövningar med bilder',
     ],
     lsiKeywords: [
-      'rumsliga prepositioner utskriftsbara för Etsy',
-      'lägesord arbetsblad verktyg',
-      'flerspråkig prepositioner aktivitet generator',
+      'gratis prepositionsblad online',
+      'lägesord att skriva ut',
+      'prepositionsövning SFI gratis',
     ],
-    titleTag: 'Prepositioner Arbetsblad Generator | Sälj Utskriftsbara',
-    metaDescription: 'Generera prepositioner arbetsblad med fyll-i-luckan och flerval-lägen, formersättning, 104 teman, 11 språk. Gratis provversion med vattenstämpel. Prova.',
+    titleTag: 'Prepositionsblad gratis online | LessonCraftStudio',
+    metaDescription: 'Skapa prepositionsblad gratis online. Fyll-i-luckan och flerval, 8 prepositioner, 11 språk, facit. Gratis provversion med vattenmärke.',
   },
 
   hero: {
-    title: 'Prepositioner Arbetsblad Generator',
-    tagline: 'Skapa rumsliga prepositioner arbetsblad med två övningslägen på 11 språk',
-    description: 'Lär ut lägesord genom bildbaserade övningar som användarna verkligen tycker om. Detta verktyg genererar prepositioner arbetsblad där användarna identifierar rumsliga relationer — på, under, ovanför, bredvid, mellan, inuti, utanför — genom att studera bildscener och fylla i eller välja rätt preposition. Välj mellan två övningslägen: Fyll-i-Luckan, där användarna skriver rätt preposition själva, eller Flerval, där de väljer bland alternativ med en anpassningsbar instruktionsrad. Ställ in 1–8 övningar per arbetsblad och välj exakt vilka prepositioner som ska inkluderas med kryssrutrutnätet. Verktygets utmärkande funktion är Formersättning — ett separat bildlager som låter dig byta scenformer oberoende, vilket skapar långt fler visuella kombinationer än en enda bilduppsättning kan erbjuda. Språkkänslighet är inbyggd: byt från svenska till något av de 11 stödda språken och varje prepositionsord uppdateras till sin inhemska motsvarighet. Engelska använder \"on, under, above, beside, between, inside, outside\"; tyska använder \"auf, unter, über, neben, zwischen, drinnen, draußen\". En arbetsbladsdesign blir 11 unika språkprodukter. Bläddra bland mer än 3 100 bilder i 104 teman, ladda upp din egen PNG eller JPEG för varumärkta designer, och välj bland flera mallar och 7 typsnittsfamiljer. Exportera som tryckfärdig PDF eller högupplöst JPEG. Den gratis provversionen innehåller en vattenstämpel på nedladdningar. Köp en licens för att ta bort vattenstämpeln och sälja kommersiellt.',
+    title: 'Gratis prepositionsblad generator online',
+    tagline: 'Åtta rumsliga prepositioner med fyll-i-luckan och flerval på 11 språk — gratis provversion med vattenmärke',
+    description: 'Skapa prepositionsblad — helt gratis att testa online. Åtta kärnprepositioner — i, på, under, bredvid, bakom, mellan, ovanför och framför — med fyll-i-luckan och flerval. Språkkänslig: varje preposition uppdateras på 11 språk. Perfekt för SFI-lärare och föräldrar som söker prepositionsövningar att skriva ut. Formersättning skapar fler visuella kombinationer. Välj bland mer än 3 100 bilder i 104 teman. Automatiskt facit och export ingår. Den gratis provversionen innehåller en vattenstämpel. Ta bort vattenmärket och sälj med kommersiell licens.',
   },
 
   tutorial: {

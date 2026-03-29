@@ -2,26 +2,26 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'matchnings arbetsblad generator',
+    primaryKeyword: 'gratis kopplingsblad generator',
     secondaryKeywords: [
-      'matchnings arbetsblad skapare för säljare',
-      'skapa dra-ett-streck matchnings arbetsblad att sälja',
-      'utskrivbar matchningsaktivitet generator kommersiellt bruk',
-      'bildmatchning arbetsblad skapare för KDP och Etsy',
+      'kopplingsblad generator gratis online',
+      'matchnings arbetsblad skapa gratis',
+      'dra-ett-streck blad skriva ut gratis',
+      'gratis kopplingsblad med bilder',
     ],
     lsiKeywords: [
-      'fyrläges dra-ett-streck matchnings arbetsblad verktyg',
-      'automatiskt facit matchningsaktivitet generator',
-      'begynnelsebokstav bild ord matchning skapare',
+      'gratis matchningsblad online',
+      'kopplingsblad att skriva ut',
+      'dra-ett-streck övning gratis',
     ],
-    titleTag: 'Matchnings Arbetsblad Generator — Dra-ett-Streck Skapare',
-    metaDescription: 'Skapa matchnings arbetsblad med 4 lägen, automatiskt facit med kopplingslinjer, konfigurerbara par, 11 språk, 104 teman. Gratis provversion med vattenstämpel.',
+    titleTag: 'Kopplingsblad gratis online | LessonCraftStudio',
+    metaDescription: 'Skapa kopplingsblad gratis online. 4 matchningslägen, facit med kopplingslinjer, 11 språk, 104 teman. Gratis provversion med vattenmärke.',
   },
 
   hero: {
-    title: 'Matchnings Arbetsblad Skapare',
-    tagline: 'Fyrläges dra-ett-streck matchnings arbetsblad generator med Begynnelsebokstav, Bild+Ord, Blandat och Anpassat Ord-lägen, automatiskt genererade facit med kopplingslinjer, konfigurerbara parantal, lokaliserad Para ihop-rubrik på 11 språk och 104 tematiska bildsamlingar',
-    description: 'Skapa professionella dra-ett-streck matchnings arbetsblad där användarna kopplar ihop par genom att dra linjer mellan två kolumner — med fyra distinkta matchningslägen i en enda generator. Begynnelsebokstav-läget placerar bilder till vänster och deras första bokstäver till höger, med tre underlägen: Slumpmässigt Tema och Bilder, Slumpmässigt från Valt Tema, och Välj Specifika Bilder. Växla versaler eller gemener. Bild+Ord-läget visar märkta bildpar på båda sidor för vokabulärförstärkning. Bild/Ord Blandat-läget använder per-rad dropdown-väljare. Anpassat Ord-läget parar bilder med dina egna inskrivna matchningstermer. Konfigurera 4, 5 eller 6 par per arbetsblad (standard 6). Växla artikelnummer (standard PÅ) och punktmarkeringar (standard PÅ) oberoende. Varje arbetsblad inkluderar en automatiskt genererad lokaliserad \"Para ihop!\"-rubrik med gul pillerbakgrund (#FFD700), korall ramkant (#FF7F50, 8px streck), lokaliserad titel i Fredoka (700) och beskrivning i Quicksand (500), automatiskt översatt till alla 11 stödda språk. Dubbelarbetsyte-systemet genererar samtidigt en arbetsbladsflik och en facitflik — facit ritar horisontella kopplingslinjer (#555, streckbredd 2) mellan korrekta matchningar. Denna generator är språkkänslig: Begynnelsebokstav och Bild+Ord-lägen använder lokaliserade bildnamn, så att byta språk ändrar orden och begynnelsebokstäverna — samma kattbild visar K på svenska men C på engelska (Cat) och K på tyska (Katze). Bläddra bland 104 tematiska samlingar med mer än 3 100 illustrationer. Applicera bakgrunds- och ramteman med oberoende opacitetsreglage. Lägg till namn- och datumfält. Exportera fyra filer per session: arbetsblad-JPEG, arbetsblad-PDF, facit-JPEG och facit-PDF — alla med 300 DPI. Välj Letter, A4, Kvadrat eller anpassade sidstorlekar med gråskaleväxling. Den gratis provversionen innehåller alla funktioner med en vattenstämpel. Köp en licens för att ta bort vattenstämpeln och sälja kommersiellt.',
+    title: 'Gratis kopplingsblad generator online',
+    tagline: 'Fyra matchningslägen med automatiskt facit och kopplingslinjer — gratis provversion med vattenmärke',
+    description: 'Skapa dra-ett-streck kopplingsblad — helt gratis att testa online. Fyra matchningslägen: Begynnelsebokstav, Bild+Ord, Blandat och Anpassat Ord. Konfigurera 4–6 par per blad. Språkkänslig: samma bilder ger olika begynnelsebokstäver per språk. Automatiskt facit med kopplingslinjer ingår. Välj bland mer än 3 100 illustrationer i 104 teman. Perfekt för föräldrar som söker kopplingsövningar att skriva ut, och för Etsy-säljare som vill testa generatorn. Den gratis provversionen innehåller en vattenstämpel. Ta bort vattenmärket och sälj med kommersiell licens.',
   },
 
   tutorial: {

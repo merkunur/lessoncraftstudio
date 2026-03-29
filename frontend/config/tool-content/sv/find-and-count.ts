@@ -2,26 +2,26 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'hitta och räkna arbetsblad generator',
+    primaryKeyword: 'gratis hitta och räkna generator',
     secondaryKeywords: [
-      'hitta och räkna arbetsblad generator för säljare',
-      'skapa sök- och räknearbetsblad att sälja',
-      'utskrivbar sökaktivitet skapare kommersiellt bruk',
-      'dolda objekt arbetsblad generator för KDP och Etsy',
+      'hitta och räkna generator gratis online',
+      'sök- och räkneblad skapa gratis',
+      'bokstavsletning arbetsblad gratis',
+      'gratis hitta och räkna med ÅÄÖ',
     ],
     lsiKeywords: [
-      'dolda objekt bokstavsletning dubbelläges aktivitet skapare',
-      'fyra uppgiftstyper ringa ruta kryssa räkna mixbar arbetsblad',
-      'lokalspecifikt alfabet accentuerade bokstäver sökgenerator',
+      'gratis sökblad online',
+      'hitta och räkna att skriva ut',
+      'bokstavsletning svenska gratis',
     ],
-    titleTag: 'Hitta och Räkna Skapare — Sökarbetsblad Generator | Online',
-    metaDescription: 'Skapa sökarbetsblad med Dolda Objekt och Bokstavsletning-lägen, fyra uppgiftstyper, lokalspecifika alfabet, 104 teman. Gratis provversion med vattenstämpel.',
+    titleTag: 'Hitta och räkna gratis online | LessonCraftStudio',
+    metaDescription: 'Skapa hitta och räkna-blad gratis online. Dolda Objekt och Bokstavsletning med svenska ÅÄÖ, 4 uppgiftstyper, facit. Gratis provversion med vattenmärke.',
   },
 
   hero: {
-    title: 'Hitta och Räkna Skapare',
-    tagline: 'Dubbelläges sökarbetsblad generator med Dolda Objekt-läge (spritt bildrutnät med upp till 4 målobjekt) och Bokstavsletning-läge (lokalspecifikt alfabet med svenska ÅÄÖ), fyra mixbara uppgiftstyper (ringa in, ruta, stryk över, räkna), lokaliserade bildnamnsetiketter på 11 språk och konfigurerbar rutnätsdensitet 5×5 till 10×10',
-    description: 'Skapa professionella sök- och räknearbetsblad med två aktivitetslägen. Dolda Objekt sprider bilder i ett konfigurerbart rutnät (5–10 rader × 5–10 kolumner, standard 6×6) med upp till 4 målobjekt med individuella uppgiftstyper — ringa in, ruta, stryk över eller räkna. Bokstavsletning visar ett lokalspecifikt alfabet med svenska A–Ö inklusive Å, Ä och Ö (29 bokstäver) och genererar sökscener med bilder som börjar på den valda bokstaven. Språkkänslig: bildnamnsetiketter renderas på det valda språket via bildvokabulärsystemet — \"Katt\" på svenska, \"Cat\" på engelska, \"Katze\" på tyska. Dubbelarbetsyte-systemet genererar facit med röda visuella annoteringer: cirklar, rutor, kors och kvantitetsvisningar. En automatiskt genererad rubrik visar \"Hitta och räkna\" eller \"Bokstavsletning\" med blå ram (#2196F3) lokaliserad på alla 11 språk. Bläddra bland 104 tematiska samlingar med mer än 3 100 illustrationer. Exportera fyra filer per session med 300 DPI. Den gratis provversionen innehåller alla funktioner med vattenstämpel. Köp en licens för att ta bort vattenstämpeln.',
+    title: 'Gratis hitta och räkna generator online',
+    tagline: 'Dolda Objekt och Bokstavsletning med svenska ÅÄÖ, fyra uppgiftstyper och automatiskt facit — gratis provversion med vattenmärke',
+    description: 'Skapa sök- och räkneblad — helt gratis att testa online. Dolda Objekt sprider bilder i konfigurerbart rutnät med fyra uppgiftstyper. Bokstavsletning med svenska ÅÄÖ (29 bokstäver) genererar sökscener per bokstav. Språkkänslig: lokaliserade etiketter på 11 språk. Automatiskt facit med röda annoteringer ingår. Välj bland mer än 3 100 illustrationer i 104 teman. Perfekt för föräldrar och SFI-lärare som söker sökövningar att skriva ut. Den gratis provversionen innehåller en vattenstämpel. Ta bort vattenmärket och sälj med kommersiell licens.',
   },
 
   tutorial: {

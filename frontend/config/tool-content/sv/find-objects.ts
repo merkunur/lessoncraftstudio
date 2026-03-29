@@ -2,26 +2,26 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'dolda objekt arbetsblad',
+    primaryKeyword: 'gratis hitta och finn generator',
     secondaryKeywords: [
-      'dolda objekt arbetsblad skapare för säljare',
-      'skapa sökbild dolda objekt arbetsblad att sälja',
-      'utskrivbar dolda objekt generator kommersiellt bruk',
-      'dolda objekt pussel skapare för KDP och Etsy',
+      'hitta och finn generator gratis online',
+      'dolda objekt arbetsblad skapa gratis',
+      'sökbild blad skriva ut gratis',
+      'gratis hitta udda bilden pussel',
     ],
     lsiKeywords: [
-      'sökning hitta udda bilden dubbelläges aktivitet skapare',
-      'noll-överlappning scengenerering adaptiv storlek algoritm',
-      'automatiskt facit röd cirkel annoteringsdolda objekt skapare',
+      'gratis sökblad online',
+      'dolda objekt att skriva ut',
+      'hitta och finn övning gratis',
     ],
-    titleTag: 'Dolda Objekt Skapare — Dolda Objekt Arbetsblad Generator',
-    metaDescription: 'Skapa dolda objekt arbetsblad med Sökning och Hitta Udda Bilden-lägen, noll-överlappning scener, automatiska facit och 104 temabilder. Gratis provversion med.',
+    titleTag: 'Hitta och finn gratis online | LessonCraftStudio',
+    metaDescription: 'Skapa hitta och finn-blad gratis online. Sökning och Hitta Udda Bilden, noll-överlappning, facit, 104 teman. Gratis provversion med vattenmärke.',
   },
 
   hero: {
-    title: 'Dolda Objekt Skapare',
-    tagline: 'Dubbelläges dolda objekt arbetsblad generator med Sökning-läge (noll-överlappning spridda scener med 1–5 dolda objekt bland 8–12 distraktorer och bottenlegend) och Hitta Udda Bilden-läge (8–12 parade bilder med 1–5 oparade objekt renderade 50% större), adaptiv bildstorleksalgoritm och automatiskt genererade facit med röda cirkelannoteringer',
-    description: 'Skapa professionella dolda objekt-arbetsblad med två distinkta aktivitetslägen. Sökning-läget sprider 1–5 dolda objekt bland 8–12 distraktorer med noll-överlappningsalgoritm — findBestPosition() testar 50 positioner per bild och minskar adaptivt storlek. En legend längst ner visar målobjekten. Hitta Udda Bilden-läget arrangerar 8–12 parade bilder med 1–5 oparade objekt renderade 50% större. Dubbelarbetsyte-systemet genererar facit med röda cirklar 3–5px större än objekten. INTE språkkänsligt — rent visuellt utan lokaliserade bildnamn, universellt säljbart. Bläddra bland 104 tematiska samlingar med mer än 3 100 illustrationer. Exportera fyra filer per session med 300 DPI. Den gratis provversionen innehåller alla funktioner med vattenstämpel. Köp en licens för att ta bort vattenstämpeln.',
+    title: 'Gratis hitta och finn generator online',
+    tagline: 'Sökning med noll-överlappning och Hitta Udda Bilden — automatiskt facit med röda cirklar — gratis provversion med vattenmärke',
+    description: 'Skapa dolda objekt-arbetsblad — helt gratis att testa online. Sökning sprider dolda objekt i en bildscen, Hitta Udda Bilden blandar oparade bilder. Automatiskt facit med röda cirklar ingår. Rent visuellt — universellt säljbart utan översättning. Välj bland mer än 3 100 illustrationer i 104 teman. Perfekt för föräldrar som söker sökarbetsblad att skriva ut, och för Etsy-säljare som vill testa generatorn. Den gratis provversionen innehåller en vattenstämpel. Ta bort vattenmärket och sälj med kommersiell licens.',
   },
 
   tutorial: {

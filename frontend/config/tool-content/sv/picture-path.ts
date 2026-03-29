@@ -2,26 +2,26 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'labyrint arbetsblad generator',
+    primaryKeyword: 'gratis bildlabyrint generator',
     secondaryKeywords: [
-      'labyrint arbetsblad generator för säljare',
-      'skapa bildväg labyrint arbetsblad att sälja',
-      'utskrivbar labyrintpussel skapare kommersiellt bruk',
-      'labyrintaktivitet arbetsblad skapare för KDP och Etsy',
+      'bildlabyrint generator gratis online',
+      'labyrint arbetsblad skapa gratis',
+      'labyrintblad skriva ut gratis',
+      'gratis labyrint med bilder',
     ],
     lsiKeywords: [
-      'tre spellägen bildväg klassisk labyrint välj väg',
-      'LPF longest path first algoritm väggbaserad labyrint skapare',
-      'automatiskt facit rosa cirkel lösningsväg labyrint generator',
+      'gratis labyrintblad online',
+      'bildväg pussel att skriva ut',
+      'labyrint gratis',
     ],
-    titleTag: 'Bildväg Skapare — Labyrint Arbetsblad Generator — Säljguide',
-    metaDescription: 'Skapa labyrintarbetsblad med Bildväg, Klassisk Labyrint och Välj Rätt Väg-lägen, samlingsbilder och automatiska facit. Gratis provversion med vattenstämpel.',
+    titleTag: 'Bildlabyrint gratis online | LessonCraftStudio',
+    metaDescription: 'Skapa bildlabyrint gratis online. Bildväg, Klassisk Labyrint och Välj Rätt Väg, facit, 104 teman. Gratis provversion med vattenmärke.',
   },
 
   hero: {
-    title: 'Bildväg Labyrint Skapare',
-    tagline: 'Treläges labyrint arbetsblad generator med Bildväg (bildrutnät vägföljande), Klassisk Labyrint (LPF väggbaserad algoritm med samlingsbilder och återvändsgränd-blockering) och Välj Rätt Väg (trevägs riktningslabyrinter), fem bildroller, anpassningsbar väggdesign och helt visuella labyrinter som säljer globalt utan översättning',
-    description: 'Skapa professionella labyrint- och vägarbetsblad med tre distinkta spellägen. Bildväg skapar bildrutnät där användarna följer rätt väg. Klassisk Labyrint genererar väggbaserade labyrinter med LPF-algoritmen, konfigurerbara rutnätsstorlekar 15×15 till 20×20, 1–3 vägar med återvändsgränd-blockering, och anpassningsbar väggfärg/tjocklek/opacitet. Samlingsbilder sprids genom korridorer. Välj Rätt Väg presenterar trevägs-labyrinter med fyra riktningsalternativ. Fem bildroller: Start, Mål, Väg, Distraktor och Dekoration. Varje läge genererar facit med rosa cirklar längs lösningsvägen. Välj Väg lägger till \"✓ KORREKT VÄG\". Klassisk Labyrint inkluderar samlingslegend. Helt visuella labyrinter — universellt säljbara utan översättning. Bläddra bland 104 tematiska samlingar med mer än 3 100 illustrationer. Exportera fyra filer per session med 300 DPI. Den gratis provversionen innehåller alla funktioner med vattenstämpel. Köp en licens för att ta bort vattenstämpeln.',
+    title: 'Gratis bildlabyrint generator online',
+    tagline: 'Tre spellägen — Bildväg, Klassisk Labyrint och Välj Rätt Väg — med facit och 104 teman — gratis provversion med vattenmärke',
+    description: 'Skapa labyrintblad — helt gratis att testa online. Tre spellägen: Bildväg, Klassisk Labyrint med LPF-algoritm och Välj Rätt Väg. Helt visuella — universellt säljbara utan översättning. Automatiskt facit med markerade lösningsvägar ingår. Välj bland mer än 3 100 illustrationer i 104 teman. Perfekt för föräldrar som söker labyrintblad att skriva ut, och för Etsy-säljare som vill testa generatorn. Den gratis provversionen innehåller en vattenstämpel. Ta bort vattenmärket och sälj med kommersiell licens.',
   },
 
   tutorial: {

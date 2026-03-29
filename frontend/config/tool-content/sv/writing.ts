@@ -2,26 +2,26 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'skrivövningar arbetsblad generator',
+    primaryKeyword: 'gratis skrivövningar generator',
     secondaryKeywords: [
-      'skrivövningar arbetsblad skapare för säljare',
-      'skapa bokstavsspårning arbetsblad att sälja',
-      'utskrivbara skrivövningar arbetsblad kommersiellt bruk',
-      'skrivövningar generator för KDP',
+      'skrivövningar generator gratis online',
+      'bokstavsspårning arbetsblad skapa gratis',
+      'handstilsövning skriva ut gratis',
+      'gratis skrivövningar med pilguidad streckordning',
     ],
     lsiKeywords: [
-      'streckordnings pil skrivövningar utskriftsbara för Etsy',
-      'toningar spårning bokstavsövning arbetsblad verktyg',
-      'kursiv och tryckstil skrivövnings generator',
+      'gratis skrivövningsblad online',
+      'bokstavsträning att skriva ut',
+      'handstilsövning förskoleklass gratis',
     ],
-    titleTag: 'Skrivövningar Arbetsblad Generator | Skapa och Sälj',
-    metaDescription: 'Generera skrivövningar arbetsblad med tre övningslägen, fem typsnittsstilar, pilguidad streckordning, toningsguider, 104 teman. Gratis provversion med.',
+    titleTag: 'Skrivövningar gratis online | LessonCraftStudio',
+    metaDescription: 'Skapa skrivövningar gratis online. Tre övningslägen, fem typsnitt, pilguidad streckordning, 104 teman. Gratis provversion med vattenmärke.',
   },
 
   hero: {
-    title: 'Skrivövningar Arbetsblad Generator',
-    tagline: 'Skapa bokstavsövningsblad med tre progressiva lägen, pilguidad streckordning och tonande bokstavsguider som bygger skrivflyt från full spårning till självständig skrivning',
-    description: 'Designa professionella skrivövnings arbetsblad byggda på ett treläges progressionssystem: Spåra-läget ger fasta bokstavskonturer för nybörjare att följa direkt, Tonande Spårning reducerar progressivt bokstavsopaciteten över raden så användarna övergår från stöttad spårning till självständig åtekallelse inom en enda rad, och Guidad Kopiering erbjuder en svag kontur för nästintill självständig skrivning med minimalt visuellt stöd. Fem typsnittsstilar ger dig fullständig kontroll över bokstavspresentationen — Tryck Vanlig för standardblockbokstäver, Tryck Vanlig Pil med numrerade riktningspilar som visar exakt streckordningsformation, Tryck Spårning för prickade konturerbokstäver designade för spårningsövningar, Tryck Spårning Pil som kombinerar prickade konturer med streckordningspilar, och Kursiv (Great Vibes) för flytande skriptövning. Den pilguidade streckordningen är den utmärkande funktionen: numrerade riktningspilar på varje bokstav visar användarna exakt hur de ska forma varje streck i rätt sekvens, och förvandlar en grundläggande spårningssida till ett instruktionsverktyg. Varje rad på arbetsbladet är oberoende konfigurerbar — eget övningsläge, typsnittsstil, innehållskälla och versalkonfiguration — så en enda sida kan blanda Spåra-läge för nya bokstäver, Tonande Spårning för övade bokstäver och Guidad Kopiering för repetition. Innehållskällor inkluderar Bildbiblioteket med mer än 3 100 illustrationer i 104 tematiska samlingar (Begynnelsebokstav eller Hela Filnamn-lägen), Anpassad Text för valfritt ord eller fras, och Tom för blanka linjerade rader. Förskrivningsstreckövningar (vertikala linjer, horisontella linjer, cirklar, sicksack-linjer) bygger finmotoriska grunder före bokstavsformation. Exportera tryckfärdiga PDF:er och JPEG-bilder med ~300 DPI via en 6× renderingsmultiplikator i Letter, A4 eller anpassade storlekar. Välj bland 7 typsnitt för textöverlägg, växla gråskala för bläckvänlig utmatning, och använd hela Fabric.js arbetsytan för att flytta varje element. Den gratis provversionen innehåller en vattenstämpel på nedladdningar. Köp en licens för att ta bort vattenstämpeln och sälja kommersiellt.',
+    title: 'Gratis skrivövningar generator online',
+    tagline: 'Tre progressiva lägen med pilguidad streckordning och tonande bokstavsguider — gratis provversion med vattenmärke',
+    description: 'Skapa skrivövningsblad — helt gratis att testa online. Tre progressiva lägen: Spåra, Tonande Spårning och Guidad Kopiering. Fem typsnittsstilar inklusive pilguidad streckordning. Varje rad är oberoende konfigurerbar. Förskrivningsstreckövningar för finmotorisk uppvärmning ingår. Välj bland mer än 3 100 illustrationer i 104 teman. Perfekt för föräldrar som söker handstilsövningar att skriva ut, och för Etsy-säljare som vill testa generatorn. Den gratis provversionen innehåller en vattenstämpel. Ta bort vattenmärket och sälj med kommersiell licens.',
   },
 
   tutorial: {

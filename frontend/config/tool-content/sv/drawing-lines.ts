@@ -2,26 +2,26 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'linjespårning arbetsblad',
+    primaryKeyword: 'gratis spårningsblad finmotorik',
     secondaryKeywords: [
-      'linjespårning arbetsblad skapare för säljare',
-      'skapa rita linjer arbetsblad att sälja',
-      'utskrivbara linjespårning arbetsblad kommersiellt bruk',
-      'rita linjer arbetsblad generator för KDP',
+      'spårningsblad generator gratis online',
+      'linjespårning arbetsblad skapa gratis',
+      'rita linjer blad skriva ut gratis',
+      'gratis finmotoriska övningsblad',
     ],
     lsiKeywords: [
-      'finmotoriska färdigheter arbetsblad verktyg för Etsy',
-      'SVG linjemall arbetsblad generator',
-      'bildpar matchning linjespårning utskriftsbara',
+      'gratis spårningsblad online',
+      'linjespårning att skriva ut',
+      'finmotorikövning gratis',
     ],
-    titleTag: 'Linjespårning Arbetsblad Skapare — Rita Linjer Generator',
-    metaDescription: 'Skapa linjespårning arbetsblad med åtta SVG-mallar, mer än 3 100 illustrationer i 104 teman och autofyllning av bildpar. Gratis provversion med vattenstämpel.',
+    titleTag: 'Spårningsblad gratis online | LessonCraftStudio',
+    metaDescription: 'Skapa spårningsblad gratis online. 8 SVG-mallar, bildpar, 104 teman, autofyllning. Gratis provversion med vattenmärke.',
   },
 
   hero: {
-    title: 'Rita Linjer Arbetsblad Skapare',
-    tagline: 'Åtta SVG-linjemallar med bildparmatchning, autofyllning från 104 färgglada teman och mallstyrd sidorientering för professionella linjespårnings arbetsblad som säljer globalt',
-    description: 'Skapa professionella linjespårnings arbetsblad där användarna ritar längs guidade vägar för att koppla samman matchande bildpar. Åtta SVG-baserade mallar täcker en komplett finmotorisk progression: en horisontell mall för raka vänster-till-höger spårningar (enklast), en vertikal mall för uppifrån-och-ner streck, fyra kurvmallar för flytande handledningsrörelser, och två diagonala mallar för korsande kroppskordinering (svårast). Varje mall placerar 4 eller 5 matchade bildpar på motsatta sidor av linjevägen, vilket ger användarna ett visuellt mål vid varje ände. Mallval driver automatiskt sidorientering — kurvor defaultar till liggande för svepande bågar, medan diagonal-, horisontell- och vertikalmallar använder stående för fokuserad övning. Autofyllning fyller direkt varje parplats med slumpmässiga bilder från valfritt valt tema eller alla 104 teman samtidigt, vilket gör batchskapande snabbt. Innehåll hämtas från mer än 3 100 färgglada illustrationer i 104 tematiska samlingar — djur, fordon, mat, natur och dussintals fler. Varje arbetsblad är helt visuellt med noll text på utmatningen, vilket gör produkter universellt säljbara utan översättning. Inget facit behövs eftersom linjevägen i sig guidar användaren — en självkontrollerande aktivitet av design. Exportera tryckfärdiga PDF:er och JPEG-bilder med 300 DPI i Letter, A4, Kvadrat (1200×1200) eller anpassade storlekar. Den gratis provversionen innehåller alla funktioner med en vattenstämpel på nedladdningar. Köp en licens för att ta bort vattenstämpeln och sälja kommersiellt.',
+    title: 'Gratis spårningsblad för finmotorik online',
+    tagline: 'Åtta SVG-linjemallar med bildparmatchning och autofyllning — gratis provversion med vattenmärke',
+    description: 'Skapa linjespårningsblad — helt gratis att testa online. Åtta SVG-mallar med kurvor, diagonaler och raka linjer kopplar samman matchande bildpar. Helt visuellt — fungerar globalt utan översättning. Autofyllning från 104 teman gör skapandet snabbt. Perfekt för föräldrar som söker finmotoriska övningar att skriva ut, och för Etsy-säljare som vill testa generatorn. Den gratis provversionen innehåller en vattenstämpel. Ta bort vattenmärket och sälj med kommersiell licens.',
   },
 
   tutorial: {

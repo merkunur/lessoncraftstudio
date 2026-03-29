@@ -2,26 +2,26 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'rutnätsmatchning arbetsblad',
+    primaryKeyword: 'gratis rutnätskopplingspussel',
     secondaryKeywords: [
-      'rutnätsmatchning arbetsblad skapare för säljare',
-      'skapa rutmatchningspussel att sälja',
-      'utskrivbar rutnätspussel generator kommersiellt bruk',
-      'bildplattor matchning arbetsblad skapare för KDP och Etsy',
+      'rutnätskopplingspussel gratis online',
+      'rutmatchning pussel skapa gratis',
+      'bildplattor pussel skriva ut gratis',
+      'gratis rutnätspussel med bilder',
     ],
     lsiKeywords: [
-      'enbild rutnätspussel plattor matchningsverktyg',
-      'automatiskt facit numrerad cirkelöverlägg generator',
-      'konfigurerbar ledtrådscell svårighet rutnätsskapare',
+      'gratis rutmatchning online',
+      'bildplattor pussel att skriva ut',
+      'rutnätspussel gratis',
     ],
-    titleTag: 'Rutmatchning Skapare — Rutnäts Arbetsblad Generator',
-    metaDescription: 'Skapa rutnätsmatchnings arbetsblad med konfigurerbar rutnätsstorlek, justerbara ledtrådsceller, Fisher-Yates-blandning och 104 tematiska bilder. Gratis.',
+    titleTag: 'Rutnätskopplingspussel gratis | LessonCraftStudio',
+    metaDescription: 'Skapa rutnätskopplingspussel gratis online. 2×2 till 4×4 rutnät, ledtrådsceller, facit, 104 teman. Gratis provversion med vattenmärke.',
   },
 
   hero: {
-    title: 'Rutmatchning Skapare',
-    tagline: 'Enbildsrutnätspussel generator med konfigurerbara rutnätsstorlekar från 2×2 till 4×4, justerbara ledtrådsceller för skalbar svårighet, Fisher-Yates plattorandomisering, automatiskt genererade facit med numrerade cirkelöverlägg och 104 tematiska bildsamlingar',
-    description: 'Skapa professionella rutnätsmatchnings arbetsblad där en enda bild delas upp i ett rutnät av plattor och användarna matchar numrerade plattor tillbaka till deras korrekta positioner — ett rumsligt resonemangpussel byggt från en bild. Konfigurera rutnätet från 2×2 upp till 4×4 (2–4 rader × 2–4 kolumner, standard 3×3) för att skapa pussel från 4 till 16 plattor. Ställ in 1–5 ledtrådsceller (standard 1) som förblir synliga som tips — färre ledtrådar innebär svårare pussel, fler ledtrådar skapar tillgängliga uppvärmningar. Appen blandar dolda plattor med Fisher-Yates-randomisering och visar dem i en numrerad palett. Dubbelarbetsyte-systemet genererar samtidigt en arbetsbladsflik och en facitflik — facit visar den kompletta oskapade bilden med numrerade cirklar överlagrade på varje rutnätscell (gul bakgrund #ffffe0, svart kontur, Fredoka-typsnitt). Den responsiva layouten anpassas automatiskt: stående sidor placerar rutnätet överst med paletten nedanför; liggande sidor positionerar rutnätet till vänster med paletten till höger. Rutmatchning är INTE språkkänsligt — pusselutmatningen är rent visuell utan lokaliserat ordinnehåll, vilket gör varje arbetsblad universellt säljbart utan översättning. Bläddra bland 104 tematiska samlingar med mer än 3 100 illustrationer eller ladda upp egna bilder. Applicera bakgrunds- och ramteman med oberoende opacitetsreglage. Exportera fyra filer per session: arbetsblad-JPEG, arbetsblad-PDF, facit-JPEG och facit-PDF — alla med 300 DPI. Den gratis provversionen innehåller alla funktioner med en vattenstämpel. Köp en licens för att ta bort vattenstämpeln och sälja kommersiellt.',
+    title: 'Gratis rutnätskopplingspussel online',
+    tagline: 'Konfigurerbart rutnät med justerbara ledtrådsceller och automatiskt facit — gratis provversion med vattenmärke',
+    description: 'Skapa rutnätskopplingspussel — helt gratis att testa online. En bild delas upp i plattor, och användarna matchar numrerade plattor till rätt positioner. Konfigurera 2×2 till 4×4 rutnät med 1–5 ledtrådsceller. Rent visuellt — universellt säljbart utan översättning. Automatiskt facit med numrerade cirklar ingår. Välj bland mer än 3 100 illustrationer i 104 teman. Perfekt för föräldrar som söker visuella pussel att skriva ut, och för Etsy-säljare som vill testa generatorn. Den gratis provversionen innehåller en vattenstämpel. Ta bort vattenmärket och sälj med kommersiell licens.',
   },
 
   tutorial: {

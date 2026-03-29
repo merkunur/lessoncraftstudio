@@ -2,26 +2,26 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'pusselarbetsblad saknade bitar',
+    primaryKeyword: 'gratis saknade bitar generator',
     secondaryKeywords: [
-      'pusselarbetsblad skapare för säljare',
-      'skapa saknade bitar pussel att sälja',
-      'utskrivbar pusselgenerator kommersiellt bruk',
-      'saknade bitar pussel skapare för KDP och Etsy',
+      'saknade bitar generator gratis online',
+      'pusselarbetsblad skapa gratis',
+      'saknade bitar pussel skriva ut gratis',
+      'gratis visuellt pussel med bilder',
     ],
     lsiKeywords: [
-      'smart bitextraktion färgvarians pussel generator',
-      'sex former saknade bitar arbetsblad skapare med facit',
-      'distraktorbitar pusselarbetsblad skapare verktyg',
+      'gratis saknade bitar online',
+      'pusselblad att skriva ut',
+      'visuellt pussel gratis',
     ],
-    titleTag: 'Saknade Bitar Skapare — Pusselarbetsblad Generator',
-    metaDescription: 'Skapa pusselarbetsblad med 6 bitformer, konfigurerbar svårighet, smart extraktion med distraktorbitar, 104 teman. Gratis provversion med vattenstämpel.',
+    titleTag: 'Saknade bitar gratis online | LessonCraftStudio',
+    metaDescription: 'Skapa saknade bitar-pussel gratis online. 6 bitformer, 1–5 saknade bitar, distraktorer, facit, 104 teman. Gratis provversion med vattenmärke.',
   },
 
   hero: {
-    title: 'Saknade Bitar Skapare',
-    tagline: 'Pusselarbetsblad generator med 6 bitformer (fyrkant, cirkel, rektangel stående/liggande, ellips stående/liggande), 1–5 saknade bitar med 2–6 lösningsalternativ inklusive distraktorer, smart bitextraktion med färgvariansdetektering och 250px minimavstånd, automatiskt genererade facit med gulmarkerade nummertiketter, dubbelramssystem i blågrön och het rosa, och 104 tematiska bildsamlingar',
-    description: 'Skapa professionella pusselarbetsblad där en bild har hål utklippta och användarna identifierar vilket numrerat alternativ som fyller varje lucka. Den smarta bitextraktions-algoritmen testar upp till 150 placeringsförsök för att hitta bitar med tillräcklig färgvarians (minsta ljusstyrkavarians 15) med minst 250 pixlars avstånd mellan bitar. Bitstorlek beräknas som 12% av bildens bredd med minimum 50 pixlar. Välj bland 6 bitformer: fyrkant (standard) och cirkel för rena geometriska klipp, rektangel stående/liggande för avlånga hål, ellips stående/liggande för mjukare kurvade klipp. Konfigurera svårigheten med två oberoende kontroller: 1–5 saknade bitar och 2–6 lösningsalternativ. Distraktorbitar extraheras från icke-överlappande områden. Dubbelarbetsyte-systemet genererar samtidigt arbetsblad och facit — facit visar gulmarkerade nummertiketter (rgba(255,255,0,0.7)) inuti varje hål. En automatiskt genererad rubrik renderar \"Saknade bitar\" i turkos (#06B6D4) med rosarosa beskrivning (#DB2777) och dubbelramsystem — blågrön yttre (#14B8A6, 8px) och het rosa inre (#EC4899, 3px). Saknade Bitar är INTE språkkänsligt — rent visuellt, universellt säljbart utan översättning. Bläddra bland 104 tematiska samlingar med mer än 3 100 illustrationer eller ladda upp egna bilder. Exportera fyra filer per session med 300 DPI. Den gratis provversionen innehåller alla funktioner med vattenstämpel. Köp en licens för att ta bort vattenstämpeln och sälja kommersiellt.',
+    title: 'Gratis saknade bitar generator online',
+    tagline: '6 bitformer, 1–5 saknade bitar med distraktorer och automatiskt facit — gratis provversion med vattenmärke',
+    description: 'Skapa saknade bitar-pussel — helt gratis att testa online. En bild har hål utklippta och användarna identifierar rätt numrerad bit. 6 bitformer, 1–5 saknade bitar, 2–6 alternativ med distraktorer. Rent visuellt — universellt säljbart utan översättning. Automatiskt facit ingår. Välj bland mer än 3 100 illustrationer i 104 teman. Perfekt för föräldrar som söker visuella pussel att skriva ut, och för Etsy-säljare som vill testa generatorn. Den gratis provversionen innehåller en vattenstämpel. Ta bort vattenmärket och sälj med kommersiell licens.',
   },
 
   tutorial: {

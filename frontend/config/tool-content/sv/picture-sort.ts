@@ -2,26 +2,26 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'sorterings arbetsblad generator',
+    primaryKeyword: 'gratis sorteringsblad generator',
     secondaryKeywords: [
-      'sorterings arbetsblad generator för säljare',
-      'skapa sorteringsarbetsblad att sälja på Etsy',
-      'utskrivbar sorteringsaktivitet skapare kommersiellt bruk',
-      'bildsortering arbetsblad generator för KDP och Etsy',
+      'sorteringsblad generator gratis online',
+      'bildsortering arbetsblad skapa gratis',
+      'sorteringsblad skriva ut gratis',
+      'gratis sorteringsaktivitet med bilder',
     ],
     lsiKeywords: [
-      'tvåkategori sorterings arbetsblad skapare med facit',
-      'temabaserat manuellt läge bildklassificering generator',
-      'blandat utklippsrutnät sorteringsaktivitet skapare',
+      'gratis sorteringsblad online',
+      'klassificering att skriva ut',
+      'sorteringsövning gratis',
     ],
-    titleTag: 'Bildsortering Skapare — Sorterings Arbetsblad Generator',
-    metaDescription: 'Skapa sorteringsarbetsblad med tvåkategori temaläge, blandade utklippsrutnät, automatiska facit och 104 tematiska bildsamlingar. Gratis provversion med.',
+    titleTag: 'Sorteringsblad gratis online | LessonCraftStudio',
+    metaDescription: 'Skapa sorteringsblad gratis online. Tvåkategorisortering, blandade utklippsrutnät, facit, 11 språk, 104 teman. Gratis provversion med vattenmärke.',
   },
 
   hero: {
-    title: 'Bildsortering Skapare',
-    tagline: 'Tvåkategori sorterings arbetsblad generator med temabaserat och manuellt bildval, blandade utklippsrutnät av 4–12 bilder, streckade kategoriramar, automatiskt genererade facit med 6× större bilder i kategorirutor, lokaliserad Sortera bilder-rubrik på 11 språk och 104 tematiska bildsamlingar',
-    description: 'Skapa professionella sorteringsarbetsblad där användarna klipper ut bilder från ett blandat rutnät och klassificerar dem i två kategorier — vänster och höger. Välj temaläge för att autofylla kategorier: välj ett vänster tema och ett höger tema, appen hämtar 4–6 slumpmässiga bilder per tema. Eller växla till manuellt läge för att handvälja enskilda bilder och tilldela varje till vänster eller höger. Varje arbetsblad har två sida-vid-sida streckade kategoriramar med #FAFAFA-fyllning överst och ett blandat utklippsrutnät nedanför med vita celler, streckade #666-kanter, 4px rundade hörn och 3–4 kolumner. Konfigurera 4–12 totala bilder med 2–10 per kategori. Dubbelarbetsyte-systemet genererar samtidigt arbetsblad och facit — facit visar bilder med 6× storlek i kategorirutor med max 2 kolumner, #FAFAFA-fyllning, #444-streck och 12px kantradie. Bildsortering Skaparen är språkkänslig: kategorietiketter använder lokaliserade bildnamn. En lokaliserad rubrik renderas med mintgrön bakgrund (#4DB6AC), blågrön titel (#00796B) i Fredoka Bold och orange beskrivning (#FF7043) i Quicksand. En blågrön yttre ram (#26A69A, 8px streck, 12px radie) ramar in sidan. Bläddra bland 104 tematiska samlingar med mer än 3 100 illustrationer eller ladda upp egna bilder. Applicera bakgrunds- och ramteman med oberoende opacitetsreglage. Lägg till namn- och datumfält. Exportera fyra filer per session med 300 DPI. Den gratis provversionen innehåller alla funktioner med vattenstämpel. Köp en licens för att ta bort vattenstämpeln och sälja kommersiellt.',
+    title: 'Gratis sorteringsblad generator online',
+    tagline: 'Tvåkategorisortering med temabaserat bildval, blandade utklippsrutnät och automatiskt facit — gratis provversion med vattenmärke',
+    description: 'Skapa sorteringsblad — helt gratis att testa online. Användarna klipper ut bilder och sorterar dem i två kategorier. Temaläge eller manuellt läge. Språkkänslig: lokaliserade kategorietiketter på 11 språk. Automatiskt facit ingår. Välj bland mer än 3 100 illustrationer i 104 teman. Perfekt för föräldrar som söker sorteringsaktiviteter att skriva ut, och för Etsy-säljare som vill testa generatorn. Den gratis provversionen innehåller en vattenstämpel. Ta bort vattenmärket och sälj med kommersiell licens.',
   },
 
   tutorial: {

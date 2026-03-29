@@ -2,26 +2,26 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'skuggmatchning arbetsblad',
+    primaryKeyword: 'gratis skuggkopplingsblad',
     secondaryKeywords: [
-      'skuggmatchning arbetsblad skapare för säljare',
-      'skapa siluettmatchning arbetsblad att sälja',
-      'utskrivbar skuggpussel generator kommersiellt bruk',
-      'skuggmatchning arbetsblad skapare för KDP och Etsy',
+      'skuggkopplingsblad gratis online',
+      'siluettmatchning arbetsblad skapa gratis',
+      'skuggpussel skriva ut gratis',
+      'gratis skuggmatchning med bilder',
     ],
     lsiKeywords: [
-      'dubbelläges siluett och delad-bild matchningsverktyg',
-      'pixelnivå skugggenerering derangeringsalgoritm skapare',
-      'automatiskt facit skuggpussel arbetsblad generator',
+      'gratis skuggmatchning online',
+      'siluettblad att skriva ut',
+      'skuggkoppling gratis',
     ],
-    titleTag: 'Skuggmatchning Skapare — Arbetsblad Generator — Säljguide',
-    metaDescription: 'Skapa skuggmatchning arbetsblad med pixelnivå siluetter och Gör Den Hel bilddelning, automatiska facit, 104 teman. Gratis provversion med vattenstämpel.',
+    titleTag: 'Skuggkopplingsblad gratis online | LessonCraftStudio',
+    metaDescription: 'Skapa skuggkopplingsblad gratis online. Siluettmatchning och Gör Den Hel, autosiluetter, facit, 104 teman. Gratis provversion med vattenmärke.',
   },
 
   hero: {
-    title: 'Skuggmatchning Skapare',
-    tagline: 'Dubbelläges skuggmatchning arbetsblad generator med pixelnivå siluettskapande, Gör Den Hel delad-bild halvor med horisontella och vertikala klippriktningar, Fisher-Yates-derangering som garanterar inga triviala matchningar, automatiskt genererade facit med bokstav-till-nummer etiketter och 104 tematiska bildsamlingar',
-    description: 'Skapa professionella skuggmatchnings arbetsblad med två distinkta övningslägen. Skuggmatchning-läget placerar 4 färgade bilder märkta A, B, C, D i övre raden och 4 automatiskt genererade svarta siluetter märkta 1, 2, 3, 4 i nedre raden — siluetterna skapas genom bildbearbetning på pixelnivå som konverterar varje pixel med alfa > 10 till rent svart, verklig pixelbearbetning, inte CSS-filter. Gör Den Hel-läget delar 4 bilder i halvor — välj horisontell (övre/undre) eller vertikal (vänster/höger) klippriktning. Båda lägena använder Fisher-Yates-derangering som garanterar att inget objekt visas i sin ursprungliga position. Växla visa/dölj etiketter för A/B/C/D och 1/2/3/4 identifierare — etiketter PÅ ger strukturerat stöd, etiketter AV skapar ren visuell matchningsutmaning. Dubbelarbetsyte-systemet genererar samtidigt arbetsblad och facit — facit visar varje korrekt bokstav-till-nummer-parning. Skuggmatchning är INTE språkkänsligt — rent visuell utmatning, universellt säljbar utan översättning. Bläddra bland 104 tematiska samlingar med mer än 3 100 illustrationer eller ladda upp egna bilder. Exportera fyra filer per session med 300 DPI. Den gratis provversionen innehåller alla funktioner med vattenstämpel. Köp en licens för att ta bort den och sälja kommersiellt.',
+    title: 'Gratis skuggkopplingsblad online',
+    tagline: 'Siluettmatchning och Gör Den Hel med automatiskt facit — gratis provversion med vattenmärke',
+    description: 'Skapa skuggkopplingsblad — helt gratis att testa online. Skuggmatchning med autosiluetter och Gör Den Hel med delade bildhalvor. Fisher-Yates-derangering garanterar genuina matchningsutmaningar. Rent visuellt — universellt säljbart utan översättning. Automatiskt facit ingår. Välj bland mer än 3 100 illustrationer i 104 teman. Perfekt för föräldrar som söker visuella matchningsövningar, och för Etsy-säljare som vill testa generatorn. Den gratis provversionen innehåller en vattenstämpel. Ta bort vattenmärket och sälj med kommersiell licens.',
   },
 
   tutorial: {

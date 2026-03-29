@@ -216,12 +216,6 @@ const content: GuideContent = {
 };
 
 export default content;
-,
-    ],
-    titleTag: 'Preços para atividades educativas | LCS',
-    metaDescription:
-      'Estratégia de preços para atividades educativas. Psicologia de preços, pacotes e margens para Hotmart, Etsy e KDP.',
-  },
 
   hero: {
     title: 'Estratégias de preços para imprimíveis educativos',

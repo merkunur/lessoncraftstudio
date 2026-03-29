@@ -120,8 +120,8 @@ const guidesContent: Record<string, {
     ctaButton: 'Essayer les générateurs',
     subcatDescriptions: {
       platform: 'Comment créer et vendre sur des plateformes spécifiques',
-      product: 'Comment créer des types spécifiques d'imprimables',
-      business: 'Développer et faire grandir votre entreprise d'imprimables',
+      product: 'Comment créer des types spécifiques d\'imprimables',
+      business: 'Développer et faire grandir votre entreprise d\'imprimables',
     },
   },
   es: {

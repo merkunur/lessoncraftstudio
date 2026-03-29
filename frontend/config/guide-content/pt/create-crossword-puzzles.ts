@@ -2,29 +2,36 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'criar palavras cruzadas',
+    primaryKeyword: 'criar palavras cruzadas para vender online',
     secondaryKeywords: [
-      'gerador de palavras cruzadas para crianças',
-      'criador de palavras cruzadas imprimíveis',
-      'palavras cruzadas para vender',
-      'palavras cruzadas com pistas de imagens',
+      'como criar palavras cruzadas online para Hotmart',
+      'palavras cruzadas online para vender na Etsy',
+      'guia palavras cruzadas online para Amazon KDP',
+      'palavras cruzadas online com licença comercial para vender',
     ],
     lsiKeywords: [
-      'atividades de palavras cruzadas com pistas de imagens',
-      'palavras cruzadas multilingues para crianças',
-      'palavras cruzadas de vocabulário infantil',
-      'vender livros de palavras cruzadas no KDP',
-      'palavras cruzadas imprimíveis no Etsy',
-      'ferramenta de palavras cruzadas com licença comercial',
+      'licença comercial',
+      '300 DPI',
+      'pronto para impressão',
+      'download digital',
+      'gabarito incluso',
+      'Hotmart',
+      'Kiwify',
+      'Etsy',
+      'Amazon KDP',
+      'renda extra',
+      'negócio de imprimíveis',
+      'educação infantil',
     ],
-    titleTag: 'Criar palavras cruzadas — Guia passo a passo',
-    metaDescription: 'Como criar palavras cruzadas para crianças com pistas de imagens. Escolha temas, gere grelhas com intersecções, pistas numeradas e chaves de respostas.',
+    titleTag: 'Palavras cruzadas para vender online | LCS',
+    metaDescription:
+      'Guia para criar palavras cruzadas com imagens para vender. Pistas visuais, 11 idiomas e estratégias para Hotmart e KDP.',
   },
 
   hero: {
-    title: 'Como criar palavras cruzadas para crianças',
+    title: 'Como criar palavras cruzadas para vender online',
     tagline: 'Um tutorial passo a passo para criar palavras cruzadas temáticas com pistas de imagens que pode vender no Hotmart, Etsy e Amazon KDP',
-    description: 'As palavras cruzadas são um dos formatos de puzzle mais reconhecidos e adorados no mundo — e o mercado de palavras cruzadas infantis está crescendo rapidamente. Os vendedores usam-nas para reforçar vocabulário. Os pais usam-nas para praticar ortografia. Os explicadores usam-nas para tornar o estudo de palavras num jogo em vez de um exercício repetitivo. Este guia acompanha-o em todo o processo de criação com o Gerador de Palavras Cruzadas — desde escolher entre pistas baseadas em imagens e listas de palavras personalizadas até configurar o design da grelha, rever as pistas numeradas e exportar PDFs prontos para imprimir com chaves de respostas. O gerador suporta 11 idiomas, tornando os produtos de palavras cruzadas multilingues num nicho realista e diferenciado. Quer esteja a criar o seu primeiro produto de puzzles ou a expandir-se para livros de palavras cruzadas no Amazon KDP, terá uma palavra cruzada terminada e profissional pronta a publicar no final deste tutorial.',
+    description: 'Aprenda a criar palavras cruzadas com pistas visuais para vender na Hotmart, Kiwify, Etsy ou Amazon KDP. "Cruzadinha" e "palavras cruzadas" são termos de altíssima busca no Brasil. Este guia cobre: como usar imagens como pistas em vez de texto, criar grades em 11 idiomas, montar livros de passatempos para KDP e precificar pacotes temáticos. Palavras cruzadas com imagens são um formato único que se destaca da concorrência. Com o LessonCraftStudio, cada puzzle inclui gabarito automático e exportação a 300 DPI com licença comercial. Teste grátis com marca d\'água.',
   },
 
   introduction: 'As palavras cruzadas ocupam uma posição única no mercado de imprimíveis educativos. Ao contrário dos caça-palavras, onde as crianças procuram palavras escondidas, as palavras cruzadas exigem recordação ativa e precisão ortográfica letra por letra. Uma criança a resolver uma palavra cruzada tem de identificar cada pista de imagem, recordar a palavra correta e escrever cada letra em sequência nas casas da grelha com intersecções. Essa combinação de reconhecimento visual, recordação de vocabulário e precisão ortográfica faz das palavras cruzadas uma das ferramentas mais potentes de construção de vocabulário disponíveis em formato imprimível.\n\nA categoria de palavras cruzadas infantis também beneficia de um forte reconhecimento de marca. Os adultos cresceram a resolver palavras cruzadas em jornais e revistas, pelo que pais e vendedores reconhecem instintivamente o formato e confiam no seu valor educativo. Essa familiaridade incorporada significa que precisa de convencer menos nos seus listados de produtos — os compradores já sabem o que é uma palavra cruzada e por que funciona.\n\nO que torna este gerador particularmente potente é o formato de pistas de imagens. As palavras cruzadas tradicionais usam descrições de pistas baseadas em texto, que requerem capacidade de leitura que as crianças mais novas podem não ter. As palavras cruzadas baseadas em imagens substituem as pistas de texto por desenhos — uma criança vê uma imagem de um gato e escreve G-A-T-O na grelha. Isto torna as palavras cruzadas acessíveis a crianças a partir da idade do jardim de infância, ampliando dramaticamente o seu público potencial de compradores em comparação com os produtos de palavras cruzadas apenas com texto.\n\nO Gerador de Palavras Cruzadas trata do trabalho algorítmico complexo por si. Coloca 8 palavras numa grelha com intersecções onde as palavras partilham letras comuns nos pontos de cruzamento, atribui posições numeradas a cada palavra, gera pistas de imagens que correspondem aos números da grelha e produz uma chave de respostas completa. Dois modos de criação — seleção de imagens por tema e lista de palavras personalizada com pistas de texto — dão-lhe flexibilidade tanto para produtos visuais dirigidos a crianças pequenas como para produtos com pistas de texto para usuários mais velhos.\n\nO suporte de idiomas é um diferenciador importante. Porque as respostas da palavra cruzada SÃO as palavras, mudar de idioma muda cada resposta na grelha. Uma palavra cruzada em alemão com tema de animais usa um vocabulário completamente diferente de uma em inglês. Isto abre linhas de produtos multilingues que a maioria dos concorrentes nunca tenta.\n\nTodas as funcionalidades mencionadas neste guia estão disponíveis no teste grátis com marca d\'água. Pode criar palavras cruzadas de exemplo, testar ambos os modos de pistas e avaliar a qualidade do resultado antes de comprar uma licença comercial.',

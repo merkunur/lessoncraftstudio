@@ -2,29 +2,36 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'criar atividades de contagem e gráficos',
+    primaryKeyword: 'criar atividades de contagem para vender no Etsy',
     secondaryKeywords: [
-      'gerador de atividades de gráficos pictóricos',
-      'criar atividades de contagem e gráficos para imprimir',
-      'atividades imprimíveis de gráficos de imagens para vender',
-      'gerador de atividades de gráfico de barras e contagem',
+      'como criar atividades de contagem para Hotmart',
+      'atividades de contagem para vender na Etsy',
+      'guia atividades de contagem para Amazon KDP',
+      'atividades de contagem com licença comercial para vender',
     ],
     lsiKeywords: [
-      'atividade de contagem em grelha de imagens dispersas',
-      'atividades de gráficos com chave de resposta automática',
-      'ferramenta de representação de dados com tela dupla',
-      'vender atividades de gráficos no Etsy',
-      'Amazon KDP livros de competências de dados',
-      'gerador de gráficos pictóricos com licença comercial',
+      'licença comercial',
+      '300 DPI',
+      'pronto para impressão',
+      'download digital',
+      'gabarito incluso',
+      'Hotmart',
+      'Kiwify',
+      'Etsy',
+      'Amazon KDP',
+      'renda extra',
+      'negócio de imprimíveis',
+      'educação infantil',
     ],
-    titleTag: 'Criar atividades de contagem e gráficos — Guia passo a passo',
-    metaDescription: 'Como criar atividades de contagem com gráficos pictóricos, chaves de resposta automáticas e 104 temas. Guia passo a passo para vender imprimíveis no Etsy, KDP.',
+    titleTag: 'Atividades de contagem para vender | LCS',
+    metaDescription:
+      'Guia para criar atividades de contagem e gráficos para vender. Pictogramas, estatística infantil e estratégias.',
   },
 
   hero: {
-    title: 'Como criar atividades de contagem e gráficos',
+    title: 'Como criar atividades de contagem para vender online',
     tagline: 'Um tutorial passo a passo para criar atividades de gráficos pictóricos com grelhas de imagens dispersas, chaves de resposta autogeradas e gráficos de barras que pode vender no Hotmart, Etsy e Amazon KDP',
-    description: 'As atividades de contagem e gráficos ensinam duas competências matemáticas fundamentais numa única atividade: a recolha de dados (contar imagens dispersas) e a representação de dados (preencher um gráfico de barras). Este formato de dupla competência é um padrão curricular nas salas de aula do ensino primário em todo o mundo, criando uma procura sustentada durante todo o ano em todos os marketplaces. Este guia acompanha-o em todo o processo de criação usando o Gerador de Atividades de Gráfico Pictórico — desde escolher imagens e gerar a grelha de imagens dispersas até rever a chave de resposta autogerada e exportar arquivos prontos para impressão. Quer esteja a lançar o seu primeiro produto de competências de dados ou a expandir um catálogo existente de atividades de matemática, terá uma atividade de gráfico pictórico terminada com a respetiva chave de resposta pronta para publicar no final deste tutorial.',
+    description: 'Aprenda a criar atividades de contagem e gráficos para vender na Hotmart, Kiwify, Etsy ou Amazon KDP. Este guia cobre: como criar exercícios de pictogramas e gráficos de barras, configurar para diferentes faixas etárias, alinhar com a BNCC e montar pacotes de estatística infantil. Atividades de contagem e interpretação de dados são cada vez mais exigidas nas escolas brasileiras. Com o LessonCraftStudio, gabarito automático com células destacadas e licença comercial inclusa. Teste grátis com marca d\'água — sem cadastro.',
   },
 
   introduction: 'Os gráficos pictóricos são uma das primeiras competências de representação de dados que as crianças aprendem. Desde o jardim de infância, os usuários praticam contar objetos e registar as suas descobertas em gráficos simples — uma competência que se reforça até ao segundo ano e para além dele. Essa janela curricular de vários anos cria uma procura sustentada nos marketplaces de atividades de gráficos pictóricos e contagem em múltiplos níveis de escolaridade.\n\nO que torna as atividades de contagem e gráficos particularmente fortes como produto imprimível é a sua natureza de dupla competência. Cada atividade exige que os usuários contem imagens dispersas (recolha de dados) e depois preencham um gráfico de barras (representação de dados). Os vendedores valorizam as atividades que cobrem dois objetivos de aprendizagem simultaneamente porque maximizam o tempo de instrução. Os pais e explicadores apreciam o formato visual e prático que transforma conceitos matemáticos abstratos em algo concreto.\n\nO Gerador de Atividades de Gráfico Pictórico trata da complexidade técnica por si. Gera uma grelha de 4×5 de imagens dispersas contendo 20 ícones de 6 tipos de imagens diferentes, cada um aparecendo 1 a 5 vezes numa distribuição aleatória que torna cada geração única. Abaixo da grelha, um gráfico de barras estruturado de 6 colunas × 5 linhas dá aos usuários um local claro para registar as suas contagens. A aplicação produz simultaneamente uma chave de resposta num aba de tela separado com células destacadas a amarelo que mostram as contagens corretas — sem contagem manual, sem passo de criação separado.\n\nO usuário concentra-se na estratégia de produto — que temas usar, como agrupar, em que marketplaces publicar — enquanto o gerador trata do design, da lógica de distribuição, da precisão da chave de resposta e da formatação para impressão. Todas as funcionalidades mencionadas neste guia estão disponíveis no teste grátis com marca d\'água. Pode criar atividades de amostra, testar cada configuração e avaliar a qualidade do resultado antes de comprar uma licença comercial.',

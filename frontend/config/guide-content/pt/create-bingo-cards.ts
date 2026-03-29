@@ -2,29 +2,36 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'criar cartelas de bingo',
+    primaryKeyword: 'criar cartelas de bingo com imagens para vender',
     secondaryKeywords: [
-      'fazer cartelas de bingo com imagens',
-      'gerador de cartelas de bingo para crianças',
-      'cartelas de bingo imprimíveis para vender',
-      'criador de bingo personalizado com imagens',
+      'como criar cartelas de bingo com imagens para Hotmart',
+      'cartelas de bingo com imagens para vender na Etsy',
+      'guia cartelas de bingo com imagens para Amazon KDP',
+      'cartelas de bingo com imagens com licença comercial para vender',
     ],
     lsiKeywords: [
-      'cartelas de bingo temáticas para a loja',
-      'bingo de festa atividades imprimíveis',
-      'vender cartelas de bingo no Etsy',
-      'Amazon KDP livros de atividades de bingo',
-      'ferramenta de bingo com licença comercial',
-      'gerador de múltiplas cartelas de bingo únicas',
+      'licença comercial',
+      '300 DPI',
+      'pronto para impressão',
+      'download digital',
+      'gabarito incluso',
+      'Hotmart',
+      'Kiwify',
+      'Etsy',
+      'Amazon KDP',
+      'renda extra',
+      'negócio de imprimíveis',
+      'educação infantil',
     ],
-    titleTag: 'Criar cartelas de bingo com imagens temáticas — Guia',
-    metaDescription: 'Como criar cartelas de bingo com imagens temáticas. Escolha tamanhos de grelha, gere cartelas únicas com cartões do apresentador e exporte PDFs prontos.',
+    titleTag: 'Cartelas de bingo para vender online | LCS',
+    metaDescription:
+      'Guia para criar cartelas de bingo com imagens para vender. Lote, exportação ZIP, folha de chamada e estratégias.',
   },
 
   hero: {
-    title: 'Como criar cartelas de bingo com imagens temáticas',
+    title: 'Como criar cartelas de bingo com imagens para vender',
     tagline: 'Um tutorial passo a passo para criar cartelas de bingo temáticas e prontas para imprimir com cartões do apresentador que pode vender no Hotmart, Etsy e Amazon KDP',
-    description: 'As cartelas de bingo são um dos produtos imprimíveis mais versáteis que pode criar. Os vendedores usam-nas para rever vocabulário e como atividades de recompensa online. Os pais usam-nas para festas de aniversário e noites de jogos em família. Os organizadores de eventos usam-nas para chás de bebé, encontros de Natal e atividades de team building. Este guia acompanha-o em todo o processo de criação usando o Gerador de cartelas de bingo — desde escolher o tamanho de grelha e o tema até gerar múltiplas cartelas únicas com cartões do apresentador e exportar tudo como PDFs prontos para imprimir. Quer esteja a criar o seu primeiro produto de jogo imprimível ou a expandir-se para o mercado de alta procura de atividades para festas e salas de aula, terá um conjunto completo de cartelas de bingo pronto a publicar no final deste tutorial.',
+    description: 'Aprenda a criar cartelas de bingo com imagens para vender na Hotmart, Kiwify, Etsy ou Amazon KDP. Este guia cobre: como gerar lotes de até 10 cartelas únicas, configurar grades de 3×3 a 5×5, usar a exportação ZIP para pacotes completos, criar folhas de chamada e precificar jogos de bingo temáticos. Bingo educativo tem demanda altíssima: professores, festas infantis e atividades em família. Com o LessonCraftStudio, mais de 3.000 imagens em 104 temas e 11 idiomas com licença comercial inclusa. Teste grátis com marca d\'água — sem cadastro.',
   },
 
   introduction: 'O bingo é um dos poucos produtos imprimíveis que serve três segmentos de compradores completamente diferentes em simultâneo. Os vendedores precisam de conjuntos de bingo temáticos para reforçar vocabulário, atividades de recompensa e intervalos interiores. Os pais e organizadores de festas precisam de cartelas de bingo personalizadas para festas de aniversário, chás de bebé, celebrações de Natal e noites de jogos em família. E os vendedores de imprimíveis precisam de produtos de bingo porque se encontram entre os imprimíveis em formato de jogo com maior taxa de conversão em todos os grandes marketplaces.\n\nO que torna as cartelas de bingo especialmente poderosas como produto imprimível é o requisito inerente de múltiplas cartelas únicas. Ao contrário de uma atividade onde cada usuário recebe a mesma página, o bingo requer que cada jogador tenha uma cartela diferente. Um único jogo de bingo precisa de 10, 20 ou até 30 cartelas únicas — todas partilhando o mesmo banco de imagens mas com colocação aleatória. Este requisito estrutural significa que cada produto de bingo é inerentemente um pacote, o que justifica preços mais altos do que os imprimíveis de uma única página.\n\nO Gerador de cartelas de bingo trata da complexidade que torna as cartelas de bingo difíceis de criar manualmente. Gera múltiplas cartelas únicas por sessão, cada uma com colocação aleatória de imagens do tema escolhido. Produz cartões do apresentador dedicados que mostram todas as imagens usadas nas cartelas. Suporta tamanhos de grelha configuráveis de 3×3 a 5×5, modos de visualização apenas imagens ou imagem com etiqueta de palavra, e exporta tudo como PDFs de múltiplas páginas ou JPEGs individuais num arquivo ZIP.\n\nTodas as funcionalidades mencionadas neste guia estão disponíveis no teste grátis com marca d\'água. Pode criar conjuntos de cartelas de bingo de amostra, testar cada configuração e avaliar a qualidade do resultado antes de comprar uma licença comercial.',

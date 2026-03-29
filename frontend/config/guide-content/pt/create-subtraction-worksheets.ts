@@ -2,29 +2,36 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'criar atividades de subtração',
+    primaryKeyword: 'criar atividades de subtração para vender',
     secondaryKeywords: [
-      'fazer atividades de subtrações para crianças',
-      'gerador de atividades de subtração',
-      'atividades de subtração imprimíveis para vender',
-      'atividades de exercícios de subtração personalizadas',
+      'como criar atividades de subtração para Hotmart',
+      'atividades de subtração para vender na Etsy',
+      'guia atividades de subtração para Amazon KDP',
+      'atividades de subtração com licença comercial para vender',
     ],
     lsiKeywords: [
-      'atividades de subtração com imagens riscadas',
-      'subtração visual para pré-escolar',
-      'atividades de subtrações para jardim de infância',
-      'vender atividades de subtração no Etsy',
-      'livros de atividades de subtração Amazon KDP',
-      'ferramenta de atividades com licença comercial',
+      'licença comercial',
+      '300 DPI',
+      'pronto para impressão',
+      'download digital',
+      'gabarito incluso',
+      'Hotmart',
+      'Kiwify',
+      'Etsy',
+      'Amazon KDP',
+      'renda extra',
+      'negócio de imprimíveis',
+      'educação infantil',
     ],
-    titleTag: 'Criar atividades de subtração — Guia passo a passo',
-    metaDescription: 'Como criar atividades de subtração para crianças com imagens riscadas, temas visuais e chaves de respostas. Guia para vender no Hotmart, Etsy e KDP. 104 temas.',
+    titleTag: 'Atividades de subtração para vender | LCS',
+    metaDescription:
+      'Guia para criar atividades de subtração para vender. Modo riscar visual, temas, dificuldade e estratégias de pacotes.',
   },
 
   hero: {
-    title: 'Como criar atividades de subtração para crianças',
+    title: 'Como criar atividades de subtração para vender online',
     tagline: 'Um tutorial passo a passo para criar atividades de subtração temáticas com imagens riscadas, dificuldade configurável e exportações prontas para imprimir que pode vender no Hotmart, Etsy e Amazon KDP',
-    description: 'As atividades de subtração são o segundo passo natural em todos os catálogos de produtos de matemática. Quando as crianças dominam a adição, a subtração segue imediatamente — e também a procura de materiais de prática. Pais, vendedores e explicadores precisam de recursos de subtração que se ajustem ao nível de dificuldade para o qual os seus usuários estão preparados. Este guia acompanha-o em todo o processo de criação com o Gerador de atividades de subtração — desde configurar o Minuendo máximo e escolher um tema visual até exportar PDFs profissionais, prontos para imprimir, com chaves de respostas automáticas. A funcionalidade caraterística do gerador de subtração é o modo de exercício Riscar, onde as crianças veem um grupo de imagens temáticas com algumas visualmente riscadas e devem determinar quantas restam. Quer esteja a adicionar produtos de subtração a uma linha existente de atividades de matemática ou a criar o seu primeiro produto imprimível, terá uma atividade terminada pronta a publicar no final deste tutorial.',
+    description: 'Aprenda a criar atividades de subtração para vender na Hotmart, Kiwify, Etsy ou Amazon KDP. Este guia cobre: o exclusivo modo riscar visual que torna a subtração intuitiva, como configurar dificuldade por grupo etário, escolher temas que vendem e criar pacotes combinados de adição e subtração que aumentam o valor médio. Vendedores relatam vendas significativamente maiores com pacotes matemáticos combinados. Com o gerador do LessonCraftStudio, cada atividade inclui gabarito automático e exportação a 300 DPI com licença comercial. Teste grátis com marca d\'água — sem cadastro.',
   },
 
   introduction: 'A subtração é a segunda operação aritmética que as crianças aprendem, e segue a adição em todos os catálogos de produtos do mundo. Essa sequência cria um padrão de procura fiável: onde quer que se vendam atividades de adição, as atividades de subtração vendem-se logo a seguir. Os compradores que adquiram os seus produtos de adição procurarão ativamente materiais de subtração correspondentes, o que torna isto numa expansão natural do catálogo com um público incorporado.\n\nO que torna as atividades de subtração distintas como produto imprimível é o elemento visual. Enquanto as atividades de adição mostram dois grupos a combinarem-se, as atividades de subtração mostram elementos que são eliminados — tipicamente através de imagens riscadas. Esta representação visual de \"tirar\" é a forma como as crianças compreendem a subtração pela primeira vez conceptualmente, e torna as atividades de subtração imediatamente reconhecíveis e atrativas nas miniaturas dos marketplaces.\n\nO Gerador de atividades de subtração trata de toda a complexidade técnica de criar estes elementos visuais. Coloca imagens temáticas no canvas, marca o número correto como riscado, gera a equação correspondente e produz uma chave de respostas automática. O gerador suporta quatro modos de exercício — Riscar, Imagem – Número, Encontrar Subtraendo e Modo Misto — cada um para diferentes etapas de aprendizagem e necessidades dos compradores. A dificuldade é controlada pelo ajuste de Minuendo máximo, que determina o número mais elevado do qual as crianças subtraem.\n\nTodas as funcionalidades mencionadas neste guia estão disponíveis no teste grátis com marca d\'água. Pode criar atividades de exemplo, experimentar cada configuração e avaliar a qualidade do resultado antes de comprar uma licença comercial.',

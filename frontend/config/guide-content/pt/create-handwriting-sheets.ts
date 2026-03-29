@@ -2,29 +2,36 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'criar atividades de escrita',
+    primaryKeyword: 'criar atividades de caligrafia para vender',
     secondaryKeywords: [
-      'gerador de atividades de escrita para crianças',
-      'gerador de atividades de caligrafia',
-      'atividades de escrita imprimíveis para vender',
-      'atividades personalizadas de traçar letras',
+      'como criar atividades de caligrafia para Hotmart',
+      'atividades de caligrafia para vender na Etsy',
+      'guia atividades de caligrafia para Amazon KDP',
+      'atividades de caligrafia com licença comercial para vender',
     ],
     lsiKeywords: [
-      'criador de atividades de traçar letras',
-      'atividades de escrita cursiva imprimíveis',
-      'ordem de traços formação de letras',
-      'traços de pré-escrita para pré-escolar',
-      'vender atividades de escrita no Etsy',
-      'cadernos de escrita no Amazon KDP',
+      'licença comercial',
+      '300 DPI',
+      'pronto para impressão',
+      'download digital',
+      'gabarito incluso',
+      'Hotmart',
+      'Kiwify',
+      'Etsy',
+      'Amazon KDP',
+      'renda extra',
+      'negócio de imprimíveis',
+      'educação infantil',
     ],
-    titleTag: 'Criar atividades de escrita — Guia passo a passo',
-    metaDescription: 'Crie atividades de prática de escrita com modos traçar, traçar progressivo e cópia guiada. Setas de ordem de traços, cinco estilos de fonte e exportação PDF.',
+    titleTag: 'Atividades de caligrafia para vender | LCS',
+    metaDescription:
+      'Guia para criar atividades de caligrafia e traçado de letras para vender. 5 modos, 11 idiomas, coordenação motora.',
   },
 
   hero: {
-    title: 'Como criar atividades de prática de escrita',
+    title: 'Como criar atividades de caligrafia para vender online',
     tagline: 'Um tutorial passo a passo para criar atividades de escrita profissionais com modos de prática progressivos, setas de ordem de traços e exportação pronta a imprimir para Hotmart, Etsy e Amazon KDP',
-    description: 'A prática de escrita é uma das categorias mais duradouras nos imprimíveis educativos. Todas as crianças do pré-escolar que aprendem a segurar um lápis, todos os usuários do jardim de infância que formam as suas primeiras letras e todos os usuários do 1.º ano que fazem a transição para a cursiva precisam de atividades de prática estruturadas. Os pais procuram-nas para casa. Os vendedores precisam de conjuntos para a loja todas as semanas. Os terapeutas ocupacionais usam-nas na terapia de motricidade fina. Este guia acompanha-o em todo o processo de criação com o Gerador de atividades de escrita — desde a escolha de modos de prática e estilos de fonte até à construção de atividades progressivas de múltiplas linhas e exportação de PDFs prontos para imprimir com formatação profissional. Quer esteja a lançar o seu primeiro produto imprimível ou a expandir um catálogo de atividades de lectoescrita, terá um produto acabado pronto a publicar no final deste tutorial.',
+    description: 'Aprenda a criar atividades de caligrafia e traçado de letras para vender na Hotmart, Kiwify, Etsy ou Amazon KDP. "Coordenação motora" e "alfabetização" estão entre os termos educativos mais buscados no Brasil — e este guia ensina a criar produtos que atendem essa demanda massiva. Cobre: cinco modos de escrita, como configurar para diferentes faixas etárias, escolher fontes adequadas, criar apostilas de alfabetização para KDP e kits de coordenação motora para Hotmart. Com o LessonCraftStudio, suporte a 11 idiomas e licença comercial inclusa. Teste grátis com marca d\'água.',
   },
 
   introduction: 'O ensino da escrita segue uma sequência de desenvolvimento universal: as crianças progridem de traços de pré-escrita (linhas e círculos) para traçar letras, depois para copiar letras de forma independente e, finalmente, para escrever de memória. Todas as crianças passam por estas etapas, e cada etapa requer materiais de prática específicos. Esta realidade do desenvolvimento cria uma procura sustentada e durante todo o ano de atividades de escrita para múltiplos grupos etários e níveis de competência.\n\nO que torna as atividades de prática de escrita particularmente fortes como produto imprimível é o enorme volume que os compradores precisam. Uma única atividade proporciona cinco a dez minutos de prática. Os vendedores precisam de atividades novas diariamente. Os pais que trabalham a formação de letras precisam de uma atividade por letra — são pelo menos 26 atividades só para o alfabeto em maiúsculas e outras 26 para minúsculas. Acrescente a formação de números, palavras frequentes e prática de cursiva, e um único comprador pode facilmente adquirir centenas de páginas num ano letivo.\n\nO Gerador de atividades de escrita trata da complexidade técnica de criar atividades de prática profissionais. Oferece três modos de prática progressivos — Traçar, Traçar progressivo e Cópia guiada — que refletem a sequência de desenvolvimento que as crianças realmente seguem. Cinco estilos de fonte incluem impressão normal, contornos pontilhados para traçar e setas de ordem de traços que mostram às crianças exatamente como formar cada letra. Cada linha da atividade é configurável de forma independente, permitindo-lhe criar atividades que progridem do traçar até à escrita independente numa única página.\n\nTodas as funcionalidades mencionadas neste guia estão disponíveis no teste grátis com marca d\'água. Pode criar atividades de exemplo, testar cada modo de prática e combinação de fonte e avaliar a qualidade do resultado antes de comprar uma licença comercial.',

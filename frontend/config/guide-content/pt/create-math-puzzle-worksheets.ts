@@ -2,29 +2,36 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'criar atividades de puzzles matemáticos',
+    primaryKeyword: 'criar quebra-cabeças de matemática para vender',
     secondaryKeywords: [
-      'gerador de puzzles matemáticos para crianças',
-      'puzzles de reconstrução de imagens com matemática',
-      'atividades de puzzles matemáticos imprimíveis para vender',
-      'puzzles matemáticos com grelha para crianças',
+      'como criar quebra-cabeças de matemática para Hotmart',
+      'quebra-cabeças de matemática para vender na Etsy',
+      'guia quebra-cabeças de matemática para Amazon KDP',
+      'quebra-cabeças de matemática com licença comercial para vender',
     ],
     lsiKeywords: [
-      'atividade de puzzle de imagens com matemática',
-      'resolver equações reconstruir imagem',
-      'puzzles matemáticos visuais pré-escolar jardim de infância',
-      'vender puzzles matemáticos no Etsy',
-      'livros de puzzles matemáticos no Amazon KDP',
-      'criador de puzzles com licença comercial',
+      'licença comercial',
+      '300 DPI',
+      'pronto para impressão',
+      'download digital',
+      'gabarito incluso',
+      'Hotmart',
+      'Kiwify',
+      'Etsy',
+      'Amazon KDP',
+      'renda extra',
+      'negócio de imprimíveis',
+      'educação infantil',
     ],
-    titleTag: 'Criar atividades de puzzles matemáticos — Guia',
-    metaDescription: 'Como criar atividades de puzzles matemáticos onde as crianças resolvem equações para reconstruir imagens. Tamanhos de grelha, operações e chaves incluídas.',
+    titleTag: 'Quebra-cabeças de matemática para vender | LCS',
+    metaDescription:
+      'Guia para criar quebra-cabeças de matemática com imagens para vender. Raciocínio lógico, grades visuais e estratégias.',
   },
 
   hero: {
-    title: 'Como criar atividades de puzzles matemáticos',
+    title: 'Como criar quebra-cabeças de matemática para vender',
     tagline: 'Um tutorial passo a passo para criar puzzles matemáticos de reconstrução de imagens onde as crianças resolvem equações para montar desenhos — prontos para vender no Hotmart, Etsy e Amazon KDP',
-    description: 'As atividades de puzzles matemáticos combinam a prática de matemática com a emoção de resolver um puzzle visual. Uma única imagem é dividida em peças de grelha, cada peça recebe uma equação matemática e as crianças resolvem as equações para descobrir onde pertence cada peça e reconstruir a imagem. Este formato transforma o exercício rotineiro de matemática num jogo atrativo que as crianças realmente querem completar. Este guia acompanha-o na criação de atividades de puzzles matemáticos com o Gerador de puzzles matemáticos — desde escolher temas e tamanhos de grelha até exportar PDFs prontos para imprimir com chaves de respostas automáticas. Quer esteja a lançar o seu primeiro produto imprimível ou a adicionar um formato único a um catálogo existente de atividades de matemática, terá puzzles terminados prontos a publicar no final deste tutorial.',
+    description: 'Aprenda a criar quebra-cabeças de matemática com imagens para vender na Hotmart, Kiwify, Etsy ou Amazon KDP. Este guia cobre: como funciona o formato de puzzle algébrico visual, configurar intervalos de dificuldade, escolher temas que atraem compradores e criar séries progressivas. Quebra-cabeças de matemática são um nicho de alta margem — combinam raciocínio lógico com fluência matemática num formato que crianças adoram. Competição mínima em português. Com o LessonCraftStudio, gabarito automático e licença comercial inclusa. Teste grátis com marca d\'água — sem cadastro.',
   },
 
   introduction: 'As atividades standard de adição e subtração são essenciais, mas todas seguem o mesmo formato: uma lista de equações numa página. As atividades de puzzles matemáticos quebram esse padrão por completo. Em vez de filas de problemas, as crianças veem uma grelha de peças de imagem desordenadas junto com expressões matemáticas. Resolver cada equação revela um número que diz à criança onde pertence essa peça na imagem reconstruída. A recompensa não é apenas uma resposta correta — é uma imagem completa.\n\nEste formato aproveita algo poderoso: as crianças que resistem aos exercícios tradicionais de matemática trabalharão com entusiasmo as mesmas equações quando há um puzzle pelo meio. A recompensa visual de ver a imagem a montar-se cria uma motivação intrínseca que as atividades simples não conseguem igualar. Para os vendedores de imprimíveis, isto traduz-se diretamente em diferenciação no marketplace. Os compradores que percorrem páginas de atividades de matemática idênticas param quando veem um produto que parece fundamentalmente diferente.\n\nO Gerador de puzzles matemáticos trata de toda a complexidade técnica. Divide qualquer imagem temática em peças de grelha (2×2, 3×3 ou 4×4), gera equações matemáticas apropriadas para cada célula, desordena as peças com etiquetas numeradas e produz tanto a atividade do puzzle como uma chave de respostas completa. O usuário configura o tamanho de grelha, a operação matemática e o tema — o gerador encarrega-se do design, da precisão das equações e do formato de impressão.\n\nDevido ao fato de os puzzles matemáticos usarem números e imagens em vez de palavras, o conteúdo do puzzle em si é independente do idioma. Os números são universais. Isto significa que um único produto de puzzles funciona para compradores de qualquer país sem necessidade de tradução, simplificando significativamente as vendas internacionais.\n\nTodas as funcionalidades descritas neste guia estão disponíveis no teste grátis com marca d\'água. Pode criar puzzles de exemplo, testar cada combinação de tamanho de grelha e operação, e avaliar a qualidade do resultado antes de comprar uma licença comercial.',

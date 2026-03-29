@@ -2,29 +2,36 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'criar atividades de labirintos',
+    primaryKeyword: 'criar labirintos para vender no Etsy',
     secondaryKeywords: [
-      'gerador de atividades de labirintos',
-      'atividades de labirintos imprimíveis para crianças',
-      'labirintos com imagens para vender',
-      'atividades de labirintos personalizadas com chaves de resposta',
+      'como criar labirintos para Hotmart',
+      'labirintos para vender na Etsy',
+      'guia labirintos para Amazon KDP',
+      'labirintos com licença comercial para vender',
     ],
     lsiKeywords: [
-      'atividades de percurso de imagens',
-      'atividades de raciocínio espacial para crianças',
-      'atividades de puzzles imprimíveis Etsy',
-      'Amazon KDP livros de atividades de labirintos',
-      'atividades de labirintos com imagens temáticas',
-      'gerador de labirintos com licença comercial',
+      'licença comercial',
+      '300 DPI',
+      'pronto para impressão',
+      'download digital',
+      'gabarito incluso',
+      'Hotmart',
+      'Kiwify',
+      'Etsy',
+      'Amazon KDP',
+      'renda extra',
+      'negócio de imprimíveis',
+      'educação infantil',
     ],
-    titleTag: 'Criar atividades de labirintos — Guia passo a passo',
-    metaDescription: 'Como criar atividades de labirintos com 3 modos de jogo, imagens temáticas e chaves de resposta. Gere atividades de labirintos imprimíveis para vender no Etsy.',
+    titleTag: 'Labirintos para vender no Etsy — guia | LCS',
+    metaDescription:
+      'Guia para criar labirintos ilustrados para vender. Caminhos temáticos, coordenação motora e estratégias para Etsy e KDP.',
   },
 
   hero: {
-    title: 'Como criar atividades de labirintos e folhas de atividades',
+    title: 'Como criar labirintos ilustrados para vender no Etsy',
     tagline: 'Um tutorial passo a passo para criar atividades de labirintos temáticas em três modos de jogo distintos — prontas para vender no Hotmart, Etsy e Amazon KDP',
-    description: 'Os labirintos são um dos formatos de puzzles mais universalmente apelativos para as crianças. Desenvolvem o raciocínio espacial, as capacidades de resolução de problemas e a paciência — e vendem-se consistentemente em todos os marketplaces de imprimíveis. Este guia acompanha-o em todo o processo de criação usando o Gerador de labirintos com imagens, que oferece três modos de jogo fundamentalmente diferentes: Percurso de imagens para seguimento visual de caminhos, Labirinto clássico para navegação baseada em paredes com contagem de colecionáveis, e Escolhe o caminho certo para tomada de decisões direcionais. Cada modo produz um tipo de produto distinto a partir de uma única ferramenta. Aprenderá a configurar tamanhos de grelha, atribuir funções de imagens temáticas, personalizar a aparência das paredes e exportar PDFs prontos para imprimir com chaves de resposta automáticas. Quer esteja a criar o seu primeiro produto de labirintos ou a expandir um catálogo de atividades de puzzles, este tutorial cobre cada configuração e estratégia de que necessita.',
+    description: 'Aprenda a criar labirintos ilustrados para vender no Etsy, Hotmart ou Amazon KDP. "Labirinto para imprimir" é um dos termos de atividades mais buscados no Brasil. Este guia cobre: como criar percursos temáticos com imagens, ajustar complexidade por faixa etária, montar livros de labirintos para KDP e precificar pacotes. Labirintos desenvolvem coordenação motora e são adorados por crianças de todas as idades. Com o LessonCraftStudio, mais de 3.000 imagens em 104 temas e licença comercial inclusa. Teste grátis com marca d\'água — sem cadastro.',
   },
 
   introduction: 'Os labirintos aproveitam algo fundamental sobre como as crianças aprendem. Seguir um caminho do início ao fim requer consciência espacial, planeamento antecipado e a capacidade de recuperar de viragens erradas — competências que se transferem diretamente para a matemática, a compreensão leitora e a navegação no mundo real. Essa profundidade educativa faz das atividades de labirintos uma categoria de produto forte com procura durante todo o ano por parte de pais, vendedores e centros de explicações.\n\nO que distingue o Gerador de labirintos com imagens das ferramentas básicas são os seus três modos de jogo distintos. Percurso de imagens cria atividades de seguimento visual de caminhos onde as crianças traçam uma rota entre imagens temáticas. Labirinto clássico gera labirintos tradicionais baseados em paredes com imagens colecionáveis espalhadas por todo o percurso — combinando competências de navegação com prática de contagem. Escolhe o caminho certo apresenta labirintos direcionais com múltiplas opções de rota onde apenas uma conduz ao destino correto. Cada modo cria um produto fundamentalmente diferente, dando-lhe três vezes a variedade de catálogo a partir de um único gerador.\n\nPara além da seleção de modo, o gerador oferece ampla personalização: seis tamanhos de grelha de 15×15 a 20×20, contagens e comprimentos de caminhos configuráveis, controlos de cor e espessura de paredes, cinco funções de imagens distintas (Início, Destino, Caminho, Distratoras, Decorativas) e mais de 100 conjuntos de imagens temáticas. O resultado é uma ferramenta que pode produzir milhares de variações únicas de labirintos — cada uma um produto potencial.\n\nTodas as funcionalidades descritas neste guia estão disponíveis no teste grátis com marca d\'água. Pode criar labirintos de amostra nos três modos, testar cada configuração e avaliar a qualidade do resultado antes de comprar uma licença comercial.',

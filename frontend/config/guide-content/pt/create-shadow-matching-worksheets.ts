@@ -2,29 +2,36 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'atividades de discriminação visual com sombras',
+    primaryKeyword: 'criar atividades de sombras para vender',
     secondaryKeywords: [
-      'criar atividades de associação de sombras para vender',
-      'gerador de atividades de silhuetas para emparelhar',
-      'atividades imprimíveis de sombras para Etsy e KDP',
-      'atividades de completa a imagem com metades divididas',
+      'como criar atividades de sombras para Hotmart',
+      'atividades de sombras para vender na Etsy',
+      'guia atividades de sombras para Amazon KDP',
+      'atividades de sombras com licença comercial para vender',
     ],
     lsiKeywords: [
-      'geração de silhuetas a nível de píxel para atividades',
-      'gerador de atividades de perceção visual',
-      'atividades de associação de sombras com chave de respostas',
-      'vender atividades de sombras no Etsy',
-      'Amazon KDP cadernos de perceção visual',
-      'ferramenta de associação de sombras com licença comercial',
+      'licença comercial',
+      '300 DPI',
+      'pronto para impressão',
+      'download digital',
+      'gabarito incluso',
+      'Hotmart',
+      'Kiwify',
+      'Etsy',
+      'Amazon KDP',
+      'renda extra',
+      'negócio de imprimíveis',
+      'educação infantil',
     ],
-    titleTag: 'Atividades de discriminação visual com sombras — Guia',
-    metaDescription: 'Crie atividades de discriminação visual com dois modos: Associação de sombras para silhuetas e Completa a imagem para metades divididas. Guia passo a passo.',
+    titleTag: 'Atividades de sombras para vender online | LCS',
+    metaDescription:
+      'Guia para criar atividades de associar sombras para vender. Percepção visual, temas e estratégias de mercado.',
   },
 
   hero: {
-    title: 'Como criar atividades de discriminação visual com sombras',
+    title: 'Como criar atividades de sombras para vender online',
     tagline: 'Um tutorial passo a passo para criar atividades de discriminação visual de duplo modo com geração de silhuetas a nível de píxel, metades de imagem dividida no modo Completa a imagem, algoritmo de desembaralhamento Fisher-Yates, etiquetas ativáveis/desativáveis, chaves de respostas autogeradas e resultado puramente visual que pode vender em todo o mundo no Hotmart, Etsy e Amazon KDP',
-    description: 'A associação de sombras é uma competência fundamental de perceção visual que as crianças desenvolvem antes de conseguirem ler ou fazer aritmética, e as atividades de associação de sombras mantêm uma elevada procura em todos os marketplaces educativos. Os pais precisam delas para a prática de discriminação visual em casa. Os vendedores precisam delas para cantinhos de perceção e atividades de enriquecimento. Os terapeutas ocupacionais usam-nas para avaliações de processamento visual. Este guia acompanha-o em todo o processo de criação usando o Gerador de atividades de discriminação visual — desde escolher entre os modos Associação de sombras e Completa a imagem até configurar etiquetas, gerar silhuetas a nível de píxel e exportar arquivos prontos para produção com chaves de respostas autogeradas. Quer esteja a criar o seu primeiro produto de associação de sombras ou a ampliar um catálogo existente de perceção visual, terá um produto terminado pronto para publicar no final deste tutorial.',
+    description: 'Aprenda a criar atividades de associar sombras para vender na Hotmart, Kiwify, Etsy ou Amazon KDP. Este guia cobre: como configurar exercícios de associação imagem-silhueta, escolher temas atrativos, criar variações de dificuldade e montar pacotes temáticos. Atividades de sombras são um formato visual universal que não depende de idioma — ampliando seu mercado para o mundo inteiro. Perfeitas para educação infantil e desenvolvimento de percepção visual. Com o LessonCraftStudio, mais de 3.000 imagens em 104 temas e licença comercial inclusa. Teste grátis com marca d\'água.',
   },
 
   introduction: 'A perceção visual é uma das competências cognitivas fundamentais no desenvolvimento infantil precoce. Antes de as crianças conseguirem ler palavras, resolver equações ou navegar espaços físicos com confiança, desenvolvem a capacidade de reconhecer formas, distinguir contornos e reconstruir mentalmente imagens parciais. Isto torna as atividades de associação de sombras e imagem dividida em produtos universalmente relevantes com procura sustentada desde o pré-escolar até ao ensino primário.\n\nO que torna as atividades de associação de sombras particularmente eficazes como produto imprimível é o formato puramente visual. Ao contrário das atividades de caligrafia ou matemática que requerem texto específico de um idioma, as atividades de associação de sombras consistem inteiramente em imagens, silhuetas e metades divididas. Não há texto para traduzir, não há barreira linguística para ultrapassar e não há conteúdo específico de um idioma para manter. Uma única atividade de associação de sombras vende-se de forma idêntica em todos os países, em todos os marketplaces, sem modificação. Esta portabilidade global dá aos produtos de associação de sombras uma vantagem estrutural sobre as categorias de atividades com muito texto onde os vendedores devem criar versões separadas para cada idioma.\n\nO Gerador de atividades de discriminação visual trata da complexidade técnica de criar estas atividades. Oferece dois modos de exercício distintos numa única ferramenta. O modo Associação de sombras autogera silhuetas negras a nível de píxel a partir das suas imagens selecionadas — cada píxel com alfa superior a dez é convertido para preto puro, produzindo contornos precisos que preservam detalhes finos como orelhas de animais, perfis de veículos e contornos de objetos. O modo Completa a imagem divide as imagens em metades ao longo de direções de corte horizontal ou vertical, criando atividades de raciocínio espacial onde os usuários reconectam as peças. Ambos os modos usam um algoritmo de desembaralhamento Fisher-Yates que garante que nenhum elemento apareça na sua posição original, eliminando as coincidências triviais baseadas em posição e assegurando que cada atividade apresente um desafio genuíno de associação.\n\nAs etiquetas ativáveis/desativáveis acrescentam outra dimensão de variedade de produto. Com as etiquetas ativadas, as imagens mostram identificadores A, B, C, D e as silhuetas ou metades mostram identificadores um, dois, três, quatro, proporcionando andaimes estruturados para usuários mais novos que escrevem pares letra-número como respostas. Com as etiquetas desativadas, a atividade torna-se num desafio de associação puramente visual sem pistas alfanuméricas, ideal para livros de puzzles e atividades avançadas. Este único interruptor cria dois níveis de dificuldade distintos a partir de conteúdo idêntico.\n\nTodas as funcionalidades mencionadas neste guia estão disponíveis no teste grátis com marca d\'água. Pode criar atividades de associação de sombras de amostra, testar ambos os modos de exercício e avaliar a qualidade do resultado antes de adquirir uma licença comercial.',

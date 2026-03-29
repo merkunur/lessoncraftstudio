@@ -2,29 +2,36 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'criar atividades de associação',
+    primaryKeyword: 'criar atividades de associação para vender',
     secondaryKeywords: [
-      'atividades de associação para pré-escolar',
-      'gerador de atividades de associação',
-      'atividades de associação imprimíveis para vender',
-      'atividades de traçar linhas para associar',
+      'como criar atividades de associação para Hotmart',
+      'atividades de associação para vender na Etsy',
+      'guia atividades de associação para Amazon KDP',
+      'atividades de associação com licença comercial para vender',
     ],
     lsiKeywords: [
-      'atividades de associação de imagens para pré-escolar',
-      'atividades de associar letras para jardim de infância',
-      'atividades de discriminação visual',
-      'vender atividades de associação no Etsy',
-      'Amazon KDP livros de atividades de associação',
-      'ferramenta de atividades com licença comercial',
+      'licença comercial',
+      '300 DPI',
+      'pronto para impressão',
+      'download digital',
+      'gabarito incluso',
+      'Hotmart',
+      'Kiwify',
+      'Etsy',
+      'Amazon KDP',
+      'renda extra',
+      'negócio de imprimíveis',
+      'educação infantil',
     ],
-    titleTag: 'Criar atividades de associação para pré-escolar — Guia',
-    metaDescription: 'Como criar atividades de associação para pré-escolar. Use 4 modos, imagens temáticas, chaves de respostas automáticas com linhas de ligação e exporte PDFs.',
+    titleTag: 'Atividades de associação para vender | LCS',
+    metaDescription:
+      'Guia para criar atividades de ligar e associar para vender. Temas, formatos e estratégias para Hotmart, Etsy e KDP.',
   },
 
   hero: {
-    title: 'Como criar atividades de associação para pré-escolar',
+    title: 'Como criar atividades de associação para vender online',
     tagline: 'Um tutorial passo a passo para criar atividades de associação temáticas com linhas para traçar e chaves de respostas automáticas que pode vender no Hotmart, Etsy e Amazon KDP',
-    description: 'As atividades de associação são um dos produtos imprimíveis para pré-escolar mais versáteis que pode criar. Ensinam discriminação visual, reconhecimento de letras, vocabulário e emparelhamento lógico — tudo através do simples ato de traçar uma linha entre duas colunas. Este guia acompanha-o em todo o processo de criação usando o Gerador de atividades de associação — desde escolher o modo de associação e o tema até exportar PDFs prontos para imprimir com chaves de respostas automáticas. O gerador oferece quatro modos distintos de associação (Letra, Imagem+Nome, Imagem-ou-Nome e Personalizado), tornando-o uma das ferramentas mais flexíveis para construir um catálogo de produtos diversificado. Quer esteja a lançar o seu primeiro imprimível para pré-escolar ou a expandir-se para atividades de associação, terá um produto acabado pronto a publicar no final deste tutorial.',
+    description: 'Aprenda a criar atividades de ligar e associar para vender na Hotmart, Kiwify, Etsy ou Amazon KDP. Este guia cobre: como configurar diferentes formatos de associação (imagem-imagem, imagem-palavra, imagem-número), escolher temas atrativos, criar pacotes por faixa etária e montar apostilas de associação para KDP. Atividades de associação são universais — funcionam para qualquer idioma e faixa etária, tornando-as um produto básico essencial. Com o LessonCraftStudio, mais de 3.000 imagens em 104 temas e licença comercial inclusa. Teste grátis com marca d\'água.',
   },
 
   introduction: 'A associação é uma das primeiras competências cognitivas que as crianças desenvolvem, e as atividades que praticam esta competência continuam a ter elevada procura desde o pré-escolar até aos primeiros anos do ensino básico. O formato de traçar uma linha é imediatamente intuitivo — as crianças veem duas colunas e ligam os pares relacionados. Não é necessária fluência de leitura. Não há instruções complexas. Apenas olhar, pensar e traçar.\n\nO que torna as atividades de associação especialmente fortes como produto imprimível é a sua variedade de aplicações de aprendizagem. Um único gerador de atividades de associação pode produzir atividades de reconhecimento de letras, atividades de prática de vocabulário, exercícios de discriminação visual e atividades de ortografia personalizadas. Cada aplicação visa uma necessidade diferente do comprador e uma consulta de pesquisa diferente nos marketplaces.\n\nO Gerador de atividades de associação trata da complexidade do design por si. Organiza os elementos em duas colunas baralhadas, liga-os com pontos de alinhamento, gera chaves de respostas automáticas com linhas de ligação horizontais e exporta tudo em resolução pronta a imprimir. Escolhe o modo de associação, seleciona um tema, define o número de pares, e o gerador cria uma atividade profissional em segundos.\n\nO gerador é sensível ao idioma — o modo Letra produz letras iniciais apropriadas para o idioma selecionado, e o modo Imagem+Nome gera etiquetas de palavras localizadas. Isto significa que pode criar produtos de associação para múltiplos mercados linguísticos sem traduzir manualmente o conteúdo.\n\nTodas as funcionalidades mencionadas neste guia estão disponíveis no teste grátis com marca d\'água. Pode criar atividades de amostra, testar todos os modos de associação e avaliar a qualidade do resultado antes de comprar uma licença comercial.',

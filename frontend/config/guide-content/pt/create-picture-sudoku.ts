@@ -2,29 +2,36 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'criar sudoku com imagens',
+    primaryKeyword: 'criar sudoku com imagens para vender',
     secondaryKeywords: [
-      'sudoku com imagens para crianças',
-      'gerador de sudoku visual para crianças',
-      'sudoku com imagens imprimível para vender',
-      'puzzles de sudoku visual para pré-escolar',
+      'como criar sudoku com imagens para Hotmart',
+      'sudoku com imagens para vender na Etsy',
+      'guia sudoku com imagens para Amazon KDP',
+      'sudoku com imagens com licença comercial para vender',
     ],
     lsiKeywords: [
-      'puzzles de lógica com imagens para crianças',
-      'sudoku visual para aprendizes jovens',
-      'criador de atividades de lógica para pré-escolar',
-      'vender atividades de sudoku no Etsy',
-      'Amazon KDP livros de atividades de puzzles',
-      'ferramenta de puzzles com licença comercial',
+      'licença comercial',
+      '300 DPI',
+      'pronto para impressão',
+      'download digital',
+      'gabarito incluso',
+      'Hotmart',
+      'Kiwify',
+      'Etsy',
+      'Amazon KDP',
+      'renda extra',
+      'negócio de imprimíveis',
+      'educação infantil',
     ],
-    titleTag: 'Criar sudoku com imagens para crianças — Guia',
-    metaDescription: 'Crie sudoku com imagens para crianças. Grelhas 4×4 com imagens temáticas, 3 níveis de dificuldade, chaves de respostas e PDFs prontos para imprimir e vender.',
+    titleTag: 'Sudoku com imagens para vender online | LCS',
+    metaDescription:
+      'Guia para criar sudoku com imagens para vender. Grades visuais para crianças, livros KDP e estratégias de nicho.',
   },
 
   hero: {
-    title: 'Como criar sudoku com imagens para aprendizes jovens',
+    title: 'Como criar sudoku com imagens para vender online',
     tagline: 'Um tutorial passo a passo para criar puzzles de sudoku 4×4 baseados em imagens que pode vender no Hotmart, Etsy e Amazon KDP',
-    description: 'O sudoku com imagens substitui os números por imagens, tornando os puzzles de lógica acessíveis para crianças a partir dos três anos. Em vez de preencher uma grelha com dígitos, as crianças colocam imagens temáticas — animais, frutas, veículos ou qualquer conjunto de imagens que escolha — de modo que cada linha e coluna contenha cada imagem exatamente uma vez. Este guia acompanha-o em todo o processo de criação usando o Gerador de sudoku com imagens — desde selecionar o seu nível de dificuldade e tema até exportar um PDF polido e pronto a imprimir com chave de respostas automática. Quer esteja a criar o seu primeiro produto de puzzles imprimíveis ou a expandir um catálogo existente de aprendizagem precoce, terá um produto terminado pronto a publicar no final deste tutorial.',
+    description: 'Aprenda a criar sudoku com imagens para vender na Hotmart, Kiwify, Etsy ou Amazon KDP. Sudoku visual substitui números por imagens temáticas, tornando o jogo acessível para crianças. Este guia cobre: como configurar grades, criar progressão de dificuldade, montar livros de sudoku para KDP (um dos nichos mais lucrativos), e precificar pacotes temáticos. Competição mínima em português para sudoku com imagens. Com o LessonCraftStudio, mais de 3.000 imagens em 104 temas e licença comercial inclusa. Teste grátis com marca d\'água — sem cadastro.',
   },
 
   introduction: 'O sudoku é um dos formatos de puzzles mais reconhecidos do mundo, mas as grelhas padrão de 9×9 com números são demasiado complexas para os aprendizes jovens. O sudoku com imagens resolve isso usando uma grelha de 4×4 com quatro imagens temáticas em vez de nove dígitos. As regras continuam as mesmas — cada linha e coluna deve conter cada imagem exatamente uma vez — mas o tamanho reduzido da grelha e o formato visual tornam-no apropriado para crianças dos 3 aos 7 anos.\n\nO que torna o sudoku com imagens particularmente forte como produto imprimível é que ensina lógica, não matemática. Os pais que procuram \"puzzles de lógica para pré-escolar\" ou \"atividades de pensamento crítico para infantário\" encontram o sudoku com imagens porque desenvolve o raciocínio espacial e o pensamento dedutivo sem exigir competências numéricas. Isto posiciona os seus produtos na categoria de lógica e puzzles em vez de competir diretamente com o saturado mercado de atividades de matemática.\n\nA natureza visual do sudoku com imagens também o torna independente do idioma para o conteúdo do puzzle em si. Uma criança que resolve uma grelha com imagens de animais não precisa de ler nenhum texto — o puzzle é completamente visual. Isto significa que um único design de atividade funciona para compradores em qualquer país, ampliando dramaticamente o seu mercado potencial. O cabeçalho e as instruções são sensíveis ao idioma com 11 idiomas incorporados, mas o puzzle em si não precisa de tradução.\n\nO Gerador de sudoku com imagens trata de toda a geração de puzzles por si. Cria grelhas de sudoku 4×4 válidas, elimina o número correto de células segundo o seu nível de dificuldade escolhido, gera uma zona de recortes onde as crianças encontram as imagens em falta e produz chaves de respostas automáticas. O usuário concentra-se na estratégia de produto — que temas usar, que níveis de dificuldade visar, como agrupar e definir preços — enquanto o gerador trata da lógica do puzzle, do design e do formato de impressão.\n\nTodas as funcionalidades mencionadas neste guia estão disponíveis no teste grátis com marca d\'água. Pode criar puzzles de amostra, testar cada configuração e avaliar a qualidade do resultado antes de comprar uma licença comercial.',

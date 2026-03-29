@@ -2,29 +2,36 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'atividades de caça ao tesouro',
+    primaryKeyword: 'criar caça ao tesouro para vender',
     secondaryKeywords: [
-      'criar atividades de caça ao tesouro para vender',
-      'gerador de atividades de caça ao tesouro uso comercial',
-      'atividades imprimíveis de caça ao tesouro para Etsy e KDP',
-      'atividades de grelha de coordenadas com chaves de respostas',
+      'como criar caça ao tesouro para Hotmart',
+      'caça ao tesouro para vender na Etsy',
+      'guia caça ao tesouro para Amazon KDP',
+      'caça ao tesouro com licença comercial para vender',
     ],
     lsiKeywords: [
-      'dois tipos de direção básico cardinal grelha de coordenadas gerador',
-      'grelha cinco por cinco letra-número pistas direcionais busca de caminhos criador',
-      'chave de respostas automática amarelo pálido célula do tesouro gerador duplo canvas',
-      'vender atividades de caça ao tesouro no Etsy',
-      'Amazon KDP cadernos de busca de caminhos direcionais',
-      'ferramenta de caça ao tesouro com licença comercial',
+      'licença comercial',
+      '300 DPI',
+      'pronto para impressão',
+      'download digital',
+      'gabarito incluso',
+      'Hotmart',
+      'Kiwify',
+      'Etsy',
+      'Amazon KDP',
+      'renda extra',
+      'negócio de imprimíveis',
+      'educação infantil',
     ],
-    titleTag: 'Atividades de caça ao tesouro — Guia',
-    metaDescription: 'Crie atividades de caça ao tesouro em grelha 5×5 com movimentos direcionais, referências temáticas e chaves de respostas automáticas.',
+    titleTag: 'Caça ao tesouro para vender online | LCS',
+    metaDescription:
+      'Guia para criar atividades de caça ao tesouro para vender. Jogos de pistas, temas e estratégias para Hotmart e KDP.',
   },
 
   hero: {
-    title: 'Como criar atividades de caça ao tesouro',
+    title: 'Como criar atividades de caça ao tesouro para vender',
     tagline: 'Um tutorial passo a passo para criar atividades de caça ao tesouro com seguimento de rotas numa grelha de coordenadas de 5×5 com dois tipos de direção (básico cima/baixo/esquerda/direita e cardinal norte/sul/este/oeste), exatamente 4 movimentos direcionais por puzzle, 6 imagens de referência temáticas, chaves de respostas autogeradas com célula do tesouro destacada em amarelo pálido e pistas direcionais completamente localizadas em 11 idiomas que pode vender em todo o mundo no Hotmart, Etsy e Amazon KDP',
-    description: 'As atividades de caça ao tesouro são uma atividade de busca de caminhos excecionalmente envolvente, onde os usuários seguem pistas direcionais sequenciais para localizar um tesouro escondido numa grelha de coordenadas de 5×5 com linhas identificadas por letras (A–E) e colunas identificadas por números (1–5). O formato combina literacia de coordenadas com vocabulário direcional — os usuários leem uma posição inicial, seguem exatamente 4 movimentos direcionais pela grelha e determinam qual célula contém o tesouro. Como o Gerador de Caça ao Tesouro oferece dois tipos de direção — básico (cima/baixo/esquerda/direita) para usuários mais novos e cardinal (norte/sul/este/oeste) para usuários mais velhos — cada puzzle diferencia-se naturalmente por faixa etária. Os pais utilizam-nas para prática de raciocínio espacial em casa. Os vendedores utilizam-nas para introdução à grelha de coordenadas e lições de vocabulário direcional. Os centros de explicações utilizam-nas para atividades de seguimento de instruções sequenciais. Este guia acompanha-o por todo o processo de criação utilizando o Gerador de Caça ao Tesouro — desde escolher um tipo de direção e preencher a grelha com 6 imagens temáticas até rever a chave de respostas autogerada com a célula do tesouro destacada em amarelo pálido, aproveitar as pistas direcionais completamente localizadas em 11 idiomas para linhas de produtos multilingues e exportar arquivos prontos para produção. Quer esteja a construir o seu primeiro produto de busca de caminhos ou a expandir um catálogo existente de atividades com atividades de grelha de coordenadas, terá um produto acabado pronto para listar no final deste tutorial.',
+    description: 'Aprenda a criar atividades de caça ao tesouro para vender na Hotmart, Kiwify, Etsy ou Amazon KDP. Este guia cobre: como configurar jogos de pistas visuais, escolher temas que encantam crianças, criar variações de dificuldade e montar pacotes temáticos. Caça ao tesouro é um formato adorado por crianças e extremamente popular em festas infantis e atividades escolares. Com o LessonCraftStudio, mais de 3.000 imagens em 104 temas e licença comercial inclusa. Teste grátis com marca d\'água — sem cadastro.',
   },
 
   introduction: 'A literacia de coordenadas e o raciocínio direcional são competências cognitivas fundamentais que se desenvolvem ao longo da primeira infância e do ensino básico. Antes de as crianças conseguirem navegar em mapas, ler gráficos ou resolver problemas espaciais, precisam de aprender a interpretar referências de grelha e seguir instruções direcionais sequenciais. As atividades de caça ao tesouro treinam ambas as competências simultaneamente, apresentando uma grelha de coordenadas de 5×5 e pedindo aos usuários que sigam exatamente 4 movimentos direcionais desde uma célula inicial até um destino de tesouro escondido. Isto torna as atividades de busca de caminhos um produto de alta procura com aplicações que vão desde a consciência espacial no pré-escolar até à preparação para geografia no ensino básico.\n\nO que torna as atividades de caça ao tesouro particularmente poderosas como produto imprimível são os dois tipos de direção que criam diferenciação natural por faixa etária. O modo básico utiliza cima, baixo, esquerda e direita — vocabulário espacial familiar adequado para usuários do pré-escolar ao 1.º ano que estão construindo competências direcionais fundamentais. O modo cardinal utiliza norte, sul, este e oeste — direções de bússola adequadas para o 2.º ano e acima, introduzindo conceitos de leitura de mapas e orientação geográfica. Ambos os modos geram a mesma estrutura de puzzle de 4 movimentos na mesma grelha de 5×5, pelo que os vendedores podem criar conjuntos de dificuldade progressiva dentro de um único pacote simplesmente alternando o tipo de direção. Esta diferenciação etária incorporada significa que cada design de puzzle temático produz pelo menos dois produtos distintos sem esforço criativo adicional.\n\nAo contrário de atividades puramente visuais como correspondência de sombras ou encontrar o diferente que não contêm texto específico de idioma, as atividades de caça ao tesouro são sensíveis ao idioma. Todo o texto das pistas direcionais — \"Começar em\", \"Mover\", vocabulário de direção, \"quadrado(s)\" e \"Onde está o tesouro?\" — traduz-se completamente para os 11 idiomas suportados. Isto cria uma oportunidade significativa de produtos multilingues: um design de puzzle gera 11 versões autênticas em idioma nativo, cada uma vendável no respetivo mercado. Para vendedores que visam compradores internacionais, o formato localizado transforma uma única sessão de criação numa linha de produtos multilingue que atividades com muito texto não conseguem igualar sem tradução manual dispendiosa.\n\nO Gerador de Caça ao Tesouro gere a complexidade de criar estas atividades através de um sistema automatizado de geração de puzzles. Seis imagens temáticas de 104 coleções com mais de 3.100 ilustrações espalham-se pelas 25 células da grelha como marcos visuais. O gerador escolhe uma célula inicial aleatória e cria exatamente 4 movimentos direcionais que permanecem dentro dos limites da grelha, produzindo um puzzle válido e resolúvel de cada vez. O sistema de duplo canvas gera simultaneamente uma atividade e uma chave de respostas, com a célula do tesouro destacada em amarelo pálido (#FFFACD com opacidade rgba 0.8) e um contorno cinzento escuro para identificação visual imediata. Um cabeçalho temático de tesouro com fundo azul-esverdeado (#2C8C7C) e título dourado Fredoka (#D4A017) enquadra cada puzzle com acabamento profissional.\n\nTodas as funcionalidades mencionadas neste guia estão disponíveis no teste grátis com marca d\'água. Pode criar atividades de caça ao tesouro de amostra, testar ambos os tipos de direção, experimentar todos os 104 temas, avaliar as pistas direcionais localizadas, rever a qualidade das chaves de respostas e verificar a saída de impressão antes de adquirir uma licença comercial.',

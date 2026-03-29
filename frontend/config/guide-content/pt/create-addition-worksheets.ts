@@ -2,29 +2,36 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'criar atividades de adição',
+    primaryKeyword: 'criar atividades de adição para vender',
     secondaryKeywords: [
-      'fazer atividades de somas para crianças',
-      'gerador de atividades de adição',
-      'atividades de somas imprimíveis para vender',
-      'atividades de exercícios de adição personalizadas',
+      'como criar atividades de adição para Hotmart',
+      'atividades de adição para vender na Etsy',
+      'guia atividades de adição para Amazon KDP',
+      'atividades de adição com licença comercial para vender',
     ],
     lsiKeywords: [
-      'atividades de matemática com imagens',
-      'adição visual para pré-escolar',
-      'atividades de matemática para jardim de infância',
-      'vender atividades de matemática no Etsy',
-      'livros de atividades matemáticas Amazon KDP',
-      'ferramenta de atividades com licença comercial',
+      'licença comercial',
+      '300 DPI',
+      'pronto para impressão',
+      'download digital',
+      'gabarito incluso',
+      'Hotmart',
+      'Kiwify',
+      'Etsy',
+      'Amazon KDP',
+      'renda extra',
+      'negócio de imprimíveis',
+      'educação infantil',
     ],
-    titleTag: 'Criar atividades de adição — Guia passo a passo',
-    metaDescription: 'Como criar atividades de adição para crianças. Guia passo a passo: escolher temas, ajustar a dificuldade, gerar chaves de respostas e exportar PDF para Etsy e.',
+    titleTag: 'Criar atividades de adição para vender | LCS',
+    metaDescription:
+      'Guia passo a passo para criar atividades de adição para vender na Hotmart, Etsy e KDP. Temas, dificuldade, pacotes e preços.',
   },
 
   hero: {
-    title: 'Como criar atividades de adição para crianças',
+    title: 'Como criar atividades de adição para vender — guia completo',
     tagline: 'Um tutorial passo a passo para criar atividades de somas temáticas, prontas para imprimir, que pode vender no Hotmart, Etsy e Amazon KDP',
-    description: 'As atividades de adição são um dos produtos imprimíveis mais procurados em todos os principais marketplaces. Os pais precisam delas para praticar em casa. Os vendedores precisam delas para exercícios diários e trabalhos de casa. Os centros de explicações precisam de jogos novos todas as semanas. Este guia acompanha-o em todo o processo de criação com o Gerador de atividades de adição — desde a escolha do grupo etário alvo e do tema até à exportação de um PDF profissional, pronto a imprimir, com chave de resposta automática. Quer esteja a criar o seu primeiro produto imprimível ou a expandir um catálogo existente de atividades de matemática, terá um produto acabado pronto a publicar no final deste tutorial.',
+    description: 'Aprenda a criar atividades de adição profissionais para vender na Hotmart, Kiwify, Etsy ou Amazon KDP. Este guia passo a passo cobre cada etapa: escolher o grupo etário alvo, configurar a dificuldade, selecionar temas visuais que aumentam vendas, gerar gabaritos automáticos e exportar PDFs prontos para impressão. Atividades de adição são um dos imprimíveis mais vendidos — demanda o ano inteiro, múltiplos grupos etários e infinitas variações temáticas. Com o gerador do LessonCraftStudio, você cria produtos profissionais em minutos com licença comercial inclusa. Teste grátis com marca d\'água — sem cadastro.',
   },
 
   introduction: 'A adição é a primeira operação matemática que as crianças aprendem, e continua relevante desde o pré-escolar até ao 2.º ano e mais além. Essa longa janela de aprendizagem significa uma procura sustentada de atividades de adição em múltiplos grupos etários — cada um requer diferentes níveis de dificuldade, estilos visuais e formatos de exercícios.\n\nO que torna as atividades de adição particularmente fortes como produto imprimível é a sua universalidade. Todos os catálogos de produtos em todos os países ensinam a adição. Todos os pais que fazem ensino doméstico precisam de material de prática de somas. Todos os explicadores que trabalham com usuários com dificuldades recorrem a exercícios de adição. Não é um produto sazonal nem uma tendência de nicho — é um recurso educativo fundamental com procura durante todo o ano.\n\nO Gerador de atividades de adição trata da complexidade técnica por si. Gera problemas de adição baseados em imagens com ilustrações temáticas, configura a dificuldade ajustando os intervalos de números, suporta quatro modos de exercício distintos e produz chaves de respostas automáticas. Concentra-se na estratégia de produto — a que grupos etários se dirigir, que temas usar, como agrupar e definir preços — enquanto o gerador trata do design, da precisão matemática e do formato de impressão.\n\nTodas as funcionalidades mencionadas neste guia estão disponíveis no teste grátis com marca d\'água. Pode criar atividades de exemplo, testar cada configuração e avaliar a qualidade do resultado antes de comprar uma licença comercial.',

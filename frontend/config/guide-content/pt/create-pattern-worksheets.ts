@@ -2,29 +2,36 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'criar atividades de padrões',
+    primaryKeyword: 'criar atividades de padrões para vender',
     secondaryKeywords: [
-      'atividades de reconhecimento de padrões para crianças',
-      'gerador de atividades de padrões',
-      'atividades de padrões imprimíveis para vender',
-      'atividades de padrões visuais para pré-escolar',
+      'como criar atividades de padrões para Hotmart',
+      'atividades de padrões para vender na Etsy',
+      'guia atividades de padrões para Amazon KDP',
+      'atividades de padrões com licença comercial para vender',
     ],
     lsiKeywords: [
-      'atividades de padrões AB para pré-escolar',
-      'atividades de reconhecimento de padrões com imagens',
-      'atividades de completar padrões para jardim de infância',
-      'vender atividades de padrões no Etsy',
-      'Amazon KDP livros de atividades de padrões',
-      'ferramenta de atividades com licença comercial',
+      'licença comercial',
+      '300 DPI',
+      'pronto para impressão',
+      'download digital',
+      'gabarito incluso',
+      'Hotmart',
+      'Kiwify',
+      'Etsy',
+      'Amazon KDP',
+      'renda extra',
+      'negócio de imprimíveis',
+      'educação infantil',
     ],
-    titleTag: 'Criar atividades de padrões para pré-escolar — Guia',
-    metaDescription: 'Como criar atividades de padrões com 9 tipos, imagens temáticas, chaves de respostas automáticas e 2 formatos de perguntas. Exporte PDFs para vender no Etsy.',
+    titleTag: 'Atividades de padrões para vender online | LCS',
+    metaDescription:
+      'Guia para criar atividades de reconhecimento de padrões para vender. Sequências visuais, raciocínio lógico e estratégias.',
   },
 
   hero: {
-    title: 'Como criar atividades de reconhecimento de padrões',
+    title: 'Como criar atividades de padrões para vender online',
     tagline: 'Um tutorial passo a passo para criar atividades de reconhecimento de padrões temáticas e prontas para imprimir que pode vender no Hotmart, Etsy e Amazon KDP',
-    description: 'O reconhecimento de padrões é uma das competências pré-matemáticas mais fundamentais que as crianças desenvolvem, e as atividades que o ensinam têm uma procura constante por parte de pais, vendedores e programas de apoio escolar. Este guia acompanha-o em todo o processo de criação usando o Gerador de atividades de padrões — desde selecionar tipos de padrões e formatos de perguntas até exportar PDFs polidos e prontos para imprimir com chaves de respostas automáticas. Com 9 tipos de padrões distintos que vão desde sequências AB simples até padrões ABCD complexos, pode criar produtos para cada grupo etário desde o pré-escolar até aos primeiros anos do ensino básico. Quer esteja a lançar o seu primeiro produto imprimível ou a expandir um catálogo existente de atividades educativas, terá produtos terminados prontos a publicar no final deste tutorial.',
+    description: 'Aprenda a criar atividades de reconhecimento de padrões para vender na Hotmart, Kiwify, Etsy ou Amazon KDP. Este guia cobre: como criar sequências visuais com dificuldade progressiva, usar temas temáticos para variação, montar pacotes de raciocínio lógico e criar apostilas de padrões para KDP. Atividades de padrões são essenciais na BNCC e exigidas em todas as séries iniciais — demanda constante garantida. Com o LessonCraftStudio, mais de 3.000 imagens em 104 temas e licença comercial inclusa. Teste grátis com marca d\'água — sem cadastro.',
   },
 
   introduction: 'O reconhecimento de padrões é a competência cognitiva que sustenta todo o pensamento matemático. Antes de as crianças aprenderem a somar, subtrair ou contar com propósito, aprendem a identificar padrões — o que vem a seguir, o que falta, o que se repete. Esta competência transfere-se diretamente para a álgebra, as sequências numéricas, a geometria e o raciocínio lógico. Essa importância fundamental cria uma procura sustentada de atividades de padrões em todos os grupos etários desde o pré-escolar até ao segundo ano do ensino básico.\n\nO que torna as atividades de padrões particularmente fortes como produto imprimível é a sua natureza visual universal. Ao contrário das atividades que dependem de conteúdo linguístico específico, as atividades de reconhecimento de padrões usam imagens exclusivamente. Uma criança na Alemanha trabalha com o mesmo padrão AB de gatos e cães que uma criança no Brasil. Isto significa que um único produto serve compradores em todos os mercados sem tradução nem localização — uma vantagem significativa para vendedores que constroem catálogos internacionais.\n\nO Gerador de atividades de padrões trata da complexidade por si. Suporta 9 tipos de padrões desde sequências AB simples de 2 imagens até padrões ABCD avançados de 4 imagens, oferece dois formatos de perguntas (caixa em branco de resposta aberta e escolha múltipla), aleatoriza as posições do espaço em branco e os elementos de início para criar variedade, e gera chaves de respostas automáticas. Concentra-se na estratégia de produto — que tipos de padrões visar, que temas usar, como agrupar por dificuldade — enquanto o gerador se encarrega do design, da precisão dos padrões e do formato de impressão.\n\nTodas as funcionalidades mencionadas neste guia estão disponíveis no teste grátis com marca d\'água. Pode criar atividades de amostra, testar cada tipo de padrão e configuração, e avaliar a qualidade do resultado antes de comprar uma licença comercial.',

@@ -2,29 +2,36 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'criar atividades de objetos ocultos',
+    primaryKeyword: 'criar ache e encontre para vender',
     secondaryKeywords: [
-      'gerador de cenas de objetos ocultos',
-      'atividades de busca e encontra para crianças',
-      'atividades imprimíveis de encontra o intruso',
-      'criar puzzles de objetos ocultos para vender',
+      'como criar ache e encontre para Hotmart',
+      'ache e encontre para vender na Etsy',
+      'guia ache e encontre para Amazon KDP',
+      'ache e encontre com licença comercial para vender',
     ],
     lsiKeywords: [
-      'atividades de pesquisa visual para pré-escolar',
-      'atividades de encontrar a imagem escondida',
-      'páginas imprimíveis de busca e encontra',
-      'vender atividades de objetos ocultos no Etsy',
-      'Amazon KDP livros de atividades de busca e encontra',
-      'gerador de objetos ocultos com licença comercial',
+      'licença comercial',
+      '300 DPI',
+      'pronto para impressão',
+      'download digital',
+      'gabarito incluso',
+      'Hotmart',
+      'Kiwify',
+      'Etsy',
+      'Amazon KDP',
+      'renda extra',
+      'negócio de imprimíveis',
+      'educação infantil',
     ],
-    titleTag: 'Criar atividades de objetos ocultos — Guia passo a passo',
-    metaDescription: 'Como criar atividades de objetos ocultos com 2 modos de jogo: busca e encontra e encontra o intruso. Crie cenas temáticas, gere chaves de respostas e venda no.',
+    titleTag: 'Ache e encontre para vender online | LCS',
+    metaDescription:
+      'Guia para criar atividades de ache e encontre para vender. Cenas visuais, temas e estratégias para Hotmart e KDP.',
   },
 
   hero: {
-    title: 'Como criar atividades de cenas de objetos ocultos',
+    title: 'Como criar atividades de ache e encontre para vender',
     tagline: 'Um tutorial passo a passo para criar atividades de busca e encontra e encontra o intruso que pode vender no Hotmart, Etsy e Amazon KDP',
-    description: 'As atividades de objetos ocultos são dos produtos imprimíveis mais envolventes que pode criar. As crianças adoram o desafio de procurar objetos específicos numa cena, e pais e vendedores adoram a atenção concentrada que estas atividades exigem. Este guia acompanha-o na criação de atividades profissionais de cenas de objetos ocultos usando o Gerador de buscar objetos — desde escolher entre os modos de jogo Busca e encontra e Encontra o intruso até construir cenas personalizadas com imagens em camadas, gerar chaves de respostas automáticas e exportar arquivos prontos para imprimir. Quer esteja a lançar o seu primeiro produto imprimível ou a adicionar uma nova categoria a uma loja existente, terá atividades terminadas prontas para publicar no final deste tutorial.',
+    description: 'Aprenda a criar atividades de ache e encontre para vender na Hotmart, Kiwify, Etsy ou Amazon KDP. Este guia cobre: como compor cenas visuais envolventes, escolher temas que atraem compradores, criar variações de dificuldade e montar livros de ache e encontre para KDP. Atividades de objetos escondidos são extremamente populares e não dependem de idioma — perfeitas para mercados globais. Com o LessonCraftStudio, mais de 3.000 imagens em 104 temas e licença comercial inclusa. Teste grátis com marca d\'água — sem cadastro.',
   },
 
   introduction: 'As atividades de objetos ocultos apelam a um instinto humano fundamental: o impulso de procurar e encontrar. Crianças a partir dos três anos envolvem-se naturalmente com tarefas de busca e encontra, o que torna as atividades de objetos ocultos num dos produtos imprimíveis com maior alcance de público que pode criar. A audiência abrange desde o pré-escolar até ao ensino básico, cruza todos os catálogos de produtos e funciona igualmente bem em casa e online.\n\nO que distingue as atividades de objetos ocultos de outros produtos imprimíveis é a sua natureza visual. Estas atividades não contêm texto que precise de tradução, nem problemas matemáticos vinculados a um catálogo de produtos específico, nem instruções dependentes do idioma. Uma atividade de cena de objetos ocultos criada com a interface em inglês funciona de forma idêntica para um comprador na Alemanha, no Brasil ou no Japão. Isto torna os seus produtos universalmente vendáveis em marketplaces internacionais sem qualquer modificação.\n\nO Gerador de buscar objetos oferece-lhe dois modos de jogo distintos que criam produtos fundamentalmente diferentes. O modo Busca e encontra desafia as crianças a encontrar objetos ocultos específicos dentro de uma cena cheia de imagens distratoras. O modo Encontra o intruso pede às crianças que identifiquem a imagem que não tem um par correspondente. Cada modo desenvolve diferentes competências — discriminação visual, atenção ao detalhe, reconhecimento de padrões — e cada um cria uma linha de produtos separada para o seu catálogo.\n\nAo contrário dos geradores de atividades baseados em grelhas, a ferramenta de Buscar objetos usa um tela livre onde posiciona as imagens individualmente. Controla a sobreposição de camadas, o alinhamento e a colocação para criar cenas com genuína complexidade visual. Combinado com o carregamento de imagens personalizadas, os temas de fundo e as decorações de bordadura, isto dá-lhe controlo criativo completo sobre cada cena que constrói.\n\nTodas as funcionalidades mencionadas neste guia estão disponíveis no teste grátis com marca d\'água. Pode construir cenas completas, testar ambos os modos de jogo e avaliar a qualidade de exportação antes de comprar uma licença comercial.',

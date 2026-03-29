@@ -2,29 +2,36 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'criar atividades de comparação de tamanhos',
+    primaryKeyword: 'criar atividades de comparação para vender',
     secondaryKeywords: [
-      'atividades de grande e pequeno para crianças',
-      'gerador de atividades de discriminação de tamanhos',
-      'atividades imprimíveis de comparação de tamanhos para vender',
-      'atividades de ordenar por tamanho para pré-escolar',
+      'como criar atividades de comparação para Hotmart',
+      'atividades de comparação para vender na Etsy',
+      'guia atividades de comparação para Amazon KDP',
+      'atividades de comparação com licença comercial para vender',
     ],
     lsiKeywords: [
-      'atividades de discriminação visual de tamanhos',
-      'atividades sem texto para vendas internacionais',
-      'atividades de rodeia o grande',
-      'vender atividades de comparação de tamanhos no Etsy',
-      'Amazon KDP livros de atividades de ordenar por tamanho',
-      'gerador de atividades de tamanhos com licença comercial',
+      'licença comercial',
+      '300 DPI',
+      'pronto para impressão',
+      'download digital',
+      'gabarito incluso',
+      'Hotmart',
+      'Kiwify',
+      'Etsy',
+      'Amazon KDP',
+      'renda extra',
+      'negócio de imprimíveis',
+      'educação infantil',
     ],
-    titleTag: 'Criar atividades de comparação de tamanhos — Guia completo',
-    metaDescription: 'Como criar atividades de comparação de tamanhos com 5 tipos de perguntas e 2 modos de imagem. Resultado sem texto que se vende em todo o mundo. Guia para Etsy.',
+    titleTag: 'Atividades de comparação para vender | LCS',
+    metaDescription:
+      'Guia para criar atividades de comparação de tamanhos para vender. Grande e pequeno, educação infantil e estratégias.',
   },
 
   hero: {
-    title: 'Como criar atividades de comparação de tamanhos',
+    title: 'Como criar atividades de comparação de tamanhos para vender',
     tagline: 'Um tutorial passo a passo para criar atividades de discriminação de tamanhos com cinco tipos de perguntas e resultado sem texto que pode vender em todo o mundo no Hotmart, Etsy e Amazon KDP',
-    description: 'A comparação de tamanhos é uma das primeiras competências visuais que as crianças desenvolvem, e as atividades que praticam esta competência têm procura durante todo o ano por parte de pais, vendedores e centros de educação infantil. Este guia acompanha-o em todo o processo de criação usando o Gerador de atividades grande e pequeno — desde escolher entre cinco tipos de perguntas e dois modos de imagem até configurar a densidade de exercícios, gerar chaves de respostas automáticas e exportar arquivos prontos para imprimir. A ferramenta produz atividades completamente visuais com resultado sem texto, o que significa que os seus produtos se vendem a compradores de qualquer país sem tradução. Quer esteja a criar o seu primeiro produto imprimível ou a ampliar um catálogo existente de aprendizagem precoce, terá atividades terminadas prontas para publicar no final deste tutorial.',
+    description: 'Aprenda a criar atividades de comparação de tamanhos para vender na Hotmart, Kiwify, Etsy ou Amazon KDP. Este guia cobre: como configurar exercícios de grande, médio e pequeno, usar temas visuais atrativos, criar pacotes para educação infantil e montar apostilas de conceitos matemáticos para KDP. Atividades de comparação são básicas no currículo de educação infantil e têm demanda constante. Com o LessonCraftStudio, mais de 3.000 imagens em 104 temas e licença comercial inclusa. Teste grátis com marca d\'água — sem cadastro.',
   },
 
   introduction: 'A discriminação de tamanhos é uma competência visual-cognitiva fundamental que as crianças começam a desenvolver antes de saberem ler, escrever ou contar. Reconhecer que um objeto é maior do que outro, ordenar elementos do menor para o maior e identificar a opção de tamanho médio num grupo — estas competências sustentam o raciocínio matemático, a consciência espacial e a resolução de problemas do quotidiano. Essa importância no desenvolvimento traduz-se numa procura sustentada nos marketplaces de atividades de comparação de tamanhos para os grupos etários do pré-escolar, jardim de infância e ensino primário inicial.\n\nO que torna as atividades de comparação de tamanhos excecionalmente fortes como produto imprimível é o seu resultado sem texto. O Gerador de atividades grande e pequeno produz atividades que contêm apenas imagens e indicadores visuais — nenhuma palavra aparece na página terminada. Isto significa que uma atividade criada numa sessão se vende de forma idêntica a compradores de todos os países, todas as línguas e todos os níveis de leitura. Não precisa de versões separadas do produto para os mercados em inglês, alemão, francês ou espanhol. Um anúncio, um arquivo, vendibilidade universal. Esta é uma vantagem competitiva concreta sobre os geradores de atividades baseados em texto onde cada produto requer tradução e anúncios separados nos marketplaces.\n\nA ferramenta oferece cinco tipos de perguntas distintos que criam uma progressão natural de dificuldade. Rodeia o grande é a tarefa de identificação mais simples. Rodeia o pequeno requer uma comparação ligeiramente mais cuidadosa. Rodeia o médio introduz um terceiro nível de tamanho e raciocínio por eliminação. Numerar 1–2–3 de pequeno a grande e de grande a pequeno passam da identificação à sequenciação em múltiplos passos. Cada tipo de pergunta exercita uma competência cognitiva diferente, e cada um cria um produto separado que pode publicar nos marketplaces.\n\nDois modos de imagem duplicam a variedade dos seus produtos com a mesma ferramenta. O modo de imagens idênticas mostra a mesma imagem a diferentes tamanhos, isolando a perceção pura de tamanho. O modo de imagens diferentes mostra objetos distintos a diferentes tamanhos, requerendo raciocínio de tamanho relativo. Estes modos criam exercícios fundamentalmente diferentes que atraem necessidades distintas dos compradores.\n\nTodas as funcionalidades mencionadas neste guia estão disponíveis no teste grátis com marca d\'água. Pode experimentar os cinco tipos de perguntas, ambos os modos de imagem, cada tema e todo o processo de exportação antes de comprar uma licença comercial.',

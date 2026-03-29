@@ -2,29 +2,36 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'atividades de puzzles de peças faltantes',
+    primaryKeyword: 'criar quebra-cabeça peças faltantes para vender',
     secondaryKeywords: [
-      'criar puzzles de peças faltantes para vender',
-      'gerador de atividades de quebra-cabeças uso comercial',
-      'atividades imprimíveis de peças faltantes para Etsy e KDP',
-      'atividades de puzzles visuais com chaves de respostas',
+      'como criar quebra-cabeça peças faltantes para Hotmart',
+      'quebra-cabeça peças faltantes para vender na Etsy',
+      'guia quebra-cabeça peças faltantes para Amazon KDP',
+      'quebra-cabeça peças faltantes com licença comercial para vender',
     ],
     lsiKeywords: [
-      'extração inteligente variância de brilho gerador de puzzles',
-      'seis formas de peça gerador de atividades com peças distratoras',
-      'chave de respostas automática realce amarelo criador de peças faltantes',
-      'vender puzzles de peças faltantes no Etsy',
-      'Amazon KDP cadernos de puzzles de quebra-cabeças',
-      'ferramenta de peças faltantes com licença comercial',
+      'licença comercial',
+      '300 DPI',
+      'pronto para impressão',
+      'download digital',
+      'gabarito incluso',
+      'Hotmart',
+      'Kiwify',
+      'Etsy',
+      'Amazon KDP',
+      'renda extra',
+      'negócio de imprimíveis',
+      'educação infantil',
     ],
-    titleTag: 'Atividades de puzzles de peças faltantes — Guia',
-    metaDescription: 'Crie atividades de puzzles de peças faltantes com 6 formas de peça, extração inteligente, peças distratoras e chaves de respostas automáticas. Guia completo.',
+    titleTag: 'Peças faltantes para vender online | LCS',
+    metaDescription:
+      'Guia para criar quebra-cabeças de peças faltantes para vender. Puzzles visuais, apostilas KDP e estratégias.',
   },
 
   hero: {
-    title: 'Como criar puzzles de peças faltantes',
+    title: 'Como criar quebra-cabeças de peças faltantes para vender',
     tagline: 'Um tutorial passo a passo para criar atividades de puzzles de quebra-cabeças com seis formas de peça, extração inteligente de peças mediante deteção de variância de brilho, peças distratoras para um desafio genuíno, dois controlos de dificuldade independentes, chaves de respostas autogeradas com realce amarelo e puzzles puramente visuais que pode vender em todo o mundo no Hotmart, Etsy e Amazon KDP',
-    description: 'Os puzzles de peças faltantes são uma atividade visual singularmente cativante onde os usuários examinam uma imagem com buracos recortados e identificam que opção numerada preenche cada espaço. O formato combina raciocínio espacial com discriminação visual — os usuários devem analisar cores, padrões e detalhes para emparelhar as peças com as suas localizações corretas. Como o resultado da atividade contém apenas imagens, buracos e opções numeradas sem texto específico de um idioma, cada puzzle que cria pode ser vendido instantaneamente em todo o mundo sem tradução. Os pais usam-nos para atividades de desenvolvimento cognitivo em casa. Os vendedores usam-nos para exercícios de perceção visual e aquecimentos de pensamento crítico. Os centros de explicações usam-nos para a prática de raciocínio espacial. Este guia acompanha-o em todo o processo de criação usando o Gerador de puzzles de peças faltantes — desde selecionar formas de peça e configurar os controlos de dificuldade dupla até compreender o algoritmo de extração inteligente, gerar peças distratoras, rever as chaves de respostas automáticas com realce amarelo e exportar arquivos prontos para produção. Quer esteja a criar o seu primeiro produto de puzzles de quebra-cabeças ou a ampliar um catálogo existente de atividades visuais, terá um produto terminado pronto para publicar no final deste tutorial.',
+    description: 'Aprenda a criar quebra-cabeças de peças faltantes para vender na Hotmart, Kiwify, Etsy ou Amazon KDP. Este guia cobre: como configurar puzzles onde as crianças identificam a peça correta, criar variações de dificuldade, escolher temas atrativos e montar apostilas de puzzles visuais para KDP. Formato visual que não depende de idioma — ideal para mercados globais. Com o LessonCraftStudio, mais de 3.000 imagens em 104 temas e licença comercial inclusa. Teste grátis com marca d\'água — sem cadastro.',
   },
 
   introduction: 'O raciocínio espacial e a análise de parte para o todo são competências cognitivas fundamentais que se desenvolvem ao longo da primeira infância e do ensino básico. Antes de as crianças conseguirem resolver problemas visuais complexos, devem aprender a analisar como as peças individuais se relacionam com uma imagem completa — reconhecendo onde um fragmento pertence com base na continuidade da cor, no alinhamento de padrões e nas pistas contextuais. Os puzzles de peças faltantes treinam estas competências diretamente ao apresentar uma imagem com buracos e pedir aos usuários que identifiquem que opção numerada preenche cada espaço. Isto torna as atividades de puzzles de quebra-cabeças num produto de elevada procura com aplicações que abrangem desde a preparação pré-escolar até ao enriquecimento no ensino básico.\n\nO que torna os puzzles de peças faltantes particularmente eficazes como produto imprimível é o formato puramente visual. Ao contrário das atividades de vocabulário, das páginas de compreensão leitora ou dos problemas de matemática que requerem texto específico de um idioma, as atividades de puzzles de quebra-cabeças contêm apenas imagens, buracos e opções de solução numeradas. Sem palavras para traduzir, sem instruções para localizar, sem barreira linguística de qualquer tipo. Uma atividade criada numa única sessão vende-se de forma idêntica em todos os marketplaces internacionais sem modificação. Este alcance global sem esforço por cada mercado é uma vantagem competitiva significativa que a maioria dos vendedores ignora por completo.\n\nO Gerador de puzzles de peças faltantes trata da complexidade de criar estas atividades através de um sofisticado sistema de extração inteligente. O algoritmo tenta até cento e cinquenta tentativas de colocação de peças para encontrar peças com suficiente variância de brilho (limiar mínimo de quinze), mantendo pelo menos duzentos e cinquenta píxeis de distância entre as peças extraídas para evitar agrupamento. Seis formas de peça — quadrado, círculo, retângulo vertical, retângulo horizontal, elipse vertical e elipse horizontal — cada uma produz puzzles visualmente distintos a partir da mesma imagem fonte. Dois controlos de dificuldade independentes permitem-lhe configurar de uma a cinco peças faltantes e de duas a seis opções de solução separadamente, criando uma matriz de dificuldade desde a identificação simples de uma única peça até à discriminação complexa de múltiplas peças com peças distratoras. As distratoras são extraídas de regiões não extraídas da mesma imagem, impedindo que os usuários resolvam por eliminação e forçando uma comparação visual genuína. O sistema de tela dupla gera simultaneamente tanto uma atividade como uma chave de respostas, com etiquetas numéricas realçadas a amarelo colocadas dentro de cada buraco mostrando o índice da opção correta.\n\nTodas as funcionalidades mencionadas neste guia estão disponíveis no teste grátis com marca d\'água. Pode criar atividades de puzzles de quebra-cabeças de amostra, testar as seis formas de peça, experimentar com combinações de dificuldade, avaliar o algoritmo de extração inteligente e rever a qualidade das chaves de respostas antes de comprar uma licença comercial.',

@@ -2,29 +2,36 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'criar sopa de letras',
+    primaryKeyword: 'criar caça-palavras com imagens para vender',
     secondaryKeywords: [
-      'gerador de sopa de letras',
-      'sopa de letras imprimível para vender',
-      'criador de sopa de letras com imagens',
-      'sopa de letras personalizada para crianças',
+      'como criar caça-palavras com imagens para Hotmart',
+      'caça-palavras com imagens para vender na Etsy',
+      'guia caça-palavras com imagens para Amazon KDP',
+      'caça-palavras com imagens com licença comercial para vender',
     ],
     lsiKeywords: [
-      'atividades de sopa de letras com pistas de imagens',
-      'sopa de letras multilingue para vender',
-      'sopa de letras de vocabulário para crianças',
-      'vender livros de sopa de letras no KDP',
-      'sopa de letras imprimível no Etsy',
-      'ferramenta de sopa de letras com licença comercial',
+      'licença comercial',
+      '300 DPI',
+      'pronto para impressão',
+      'download digital',
+      'gabarito incluso',
+      'Hotmart',
+      'Kiwify',
+      'Etsy',
+      'Amazon KDP',
+      'renda extra',
+      'negócio de imprimíveis',
+      'educação infantil',
     ],
-    titleTag: 'Criar sopa de letras — Guia passo a passo',
-    metaDescription: 'Como criar sopa de letras com pistas de imagens. Escolha temas, configure o tamanho da grelha e gere chaves de respostas para vender no Etsy e no KDP.',
+    titleTag: 'Caça-palavras com imagens para vender | LCS',
+    metaDescription:
+      'Guia para criar caça-palavras com imagens para vender. Grades, temas, dificuldade e estratégias para Hotmart, Etsy e KDP.',
   },
 
   hero: {
-    title: 'Como criar sopa de letras com imagens',
+    title: 'Como criar caça-palavras com imagens para vender online',
     tagline: 'Um tutorial passo a passo para criar sopa de letras temática com pistas de imagens que pode vender no Hotmart, Etsy e Amazon KDP',
-    description: 'A sopa de letras é uma das categorias de imprimíveis com maior volume de vendas em todos os principais marketplaces. Atrai crianças que aprendem vocabulário, usuários que praticam ortografia, pessoas que aprendem idiomas a melhorar o reconhecimento de palavras e adultos que apreciam livros de puzzles para relaxar. Este guia acompanha-o em todo o processo de criação com o Gerador de sopa de letras — desde escolher entre o Modo vocabulário e as listas de palavras personalizadas até configurar o tamanho da grelha, as direções de pesquisa e os níveis de dificuldade. O gerador suporta 11 idiomas, o que torna os produtos de sopa de letras multilingue um nicho realista e rentável. Quer esteja a criar o seu primeiro produto de puzzles ou a construir um império de livros de sopa de letras no Amazon KDP, terá um puzzle terminado, pronto a imprimir, com uma chave de respostas codificada por cores no final deste tutorial.',
+    description: 'Aprenda a criar caça-palavras com imagens para vender na Hotmart, Kiwify, Etsy ou Amazon KDP. "Caça-palavras" é um dos termos mais buscados em português — e este guia ensina a criar produtos que capturam essa demanda. Cobre: configurar grades de 5×5 a 30×30, usar imagens como pistas visuais, ajustar dificuldade com diagonais e invertidas, criar livros de caça-palavras para KDP e montar pacotes temáticos para Etsy. O diferencial: 11 idiomas com letras nativas. Com o LessonCraftStudio, gabarito colorido automático e licença comercial inclusa. Teste grátis com marca d\'água.',
   },
 
   introduction: 'A sopa de letras ocupa uma posição única no mercado de produtos imprimíveis. Ao contrário das atividades que servem um único grupo etário, a sopa de letras abrange todo o espectro de idades — desde crianças do jardim de infância que procuram nomes de animais de três letras numa grelha pequena até adultos que resolvem puzzles temáticos complexos num livro de 400 páginas. Essa atração universal significa uma procura enorme e sustentada em todos os canais de venda.\n\nO que torna a sopa de letras particularmente forte como categoria de produto é o imenso volume do mercado de livros. No Amazon KDP, os livros de sopa de letras classificam-se constantemente entre as categorias de livros de atividades mais vendidos. Um único livro de sopa de letras bem otimizado com 100 puzzles e chaves de respostas pode gerar royalties constantes durante anos. A barreira de entrada é baixa, mas os vendedores que produzem puzzles temáticos e visualmente atraentes com pistas de imagens destacam-se drasticamente da concorrência genérica de apenas texto.\n\nO Gerador de sopa de letras trata da complexidade técnica da criação de puzzles por si. Coloca palavras numa grelha com direções configuráveis (horizontal, vertical, diagonal, invertida), preenche as células restantes com letras aleatórias, gera chaves de respostas codificadas por cores onde cada palavra obtém uma cor de destaque distinta, e suporta pistas de imagens que tornam os puzzles visualmente atraentes e educativos. Dois modos de criação — Modo vocabulário e Modo lista de palavras personalizada — dão-lhe flexibilidade tanto para produtos temáticos baseados em imagens como para puzzles personalizados de apenas texto.\n\nUm diferenciador importante é o suporte de idiomas. O gerador funciona em 11 idiomas, e como a sopa de letras SÃO as palavras, o idioma muda tudo. Uma sopa de letras em português usa um vocabulário completamente diferente do de uma em inglês para o mesmo tema. Isto abre a porta a linhas de produtos multilingues que a maioria dos concorrentes ignora por completo.\n\nTodas as funcionalidades mencionadas neste guia estão disponíveis no teste grátis com marca d\'água. Pode criar puzzles de exemplo, testar cada configuração e avaliar a qualidade do resultado antes de comprar uma licença comercial.',

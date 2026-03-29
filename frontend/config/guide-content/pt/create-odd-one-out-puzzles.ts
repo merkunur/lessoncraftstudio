@@ -2,29 +2,36 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'atividades de intruso encontra o diferente',
+    primaryKeyword: 'criar encontre o intruso para vender',
     secondaryKeywords: [
-      'criar atividades de intruso para vender',
-      'gerador de atividades de discriminação visual intruso',
-      'atividades imprimíveis de intruso uso comercial',
-      'puzzles de encontra o diferente para Etsy e KDP',
+      'como criar encontre o intruso para Hotmart',
+      'encontre o intruso para vender na Etsy',
+      'guia encontre o intruso para Amazon KDP',
+      'encontre o intruso com licença comercial para vender',
     ],
     lsiKeywords: [
-      'gerador de intruso duplo modo idêntico similar',
-      'substituição de modo por exercício puzzles visuais',
-      'chave de respostas automática com círculo vermelho',
-      'vender atividades de intruso no Etsy',
-      'Amazon KDP cadernos de discriminação visual',
-      'ferramenta de intruso com licença comercial',
+      'licença comercial',
+      '300 DPI',
+      'pronto para impressão',
+      'download digital',
+      'gabarito incluso',
+      'Hotmart',
+      'Kiwify',
+      'Etsy',
+      'Amazon KDP',
+      'renda extra',
+      'negócio de imprimíveis',
+      'educação infantil',
     ],
-    titleTag: 'Atividades de intruso encontra o diferente — Guia',
-    metaDescription: 'Crie atividades de intruso com modos Idêntico e Similar, substituições por exercício e chaves de respostas com círculo vermelho. Guia passo a passo completo.',
+    titleTag: 'Encontre o intruso para vender online | LCS',
+    metaDescription:
+      'Guia para criar atividades de encontre o intruso para vender. Raciocínio lógico, categorização e estratégias.',
   },
 
   hero: {
-    title: 'Como criar atividades de intruso',
+    title: 'Como criar atividades de encontre o intruso para vender',
     tagline: 'Um tutorial passo a passo para criar atividades de discriminação visual com dois modos de geração, substituições de modo por exercício, chaves de respostas autogeradas com marcadores de círculo vermelho e puzzles puramente visuais que pode vender em todo o mundo no Hotmart, Etsy e Amazon KDP',
-    description: 'As atividades de intruso são uma das atividades educativas mais universalmente acessíveis porque não requerem leitura, nem compreensão linguística, nem competências matemáticas. Os usuários observam quatro imagens e identificam a que não pertence ao grupo. Este formato puramente visual faz com que as atividades de intruso possam ser vendidas em qualquer país sem tradução. Os pais usam-nas para a prática de perceção visual em casa. Os vendedores usam-nas para aquecimentos de pensamento crítico e atividades de classificação. Os centros de explicações usam-nas para exercícios de desenvolvimento cognitivo. Este guia acompanha-o em todo o processo de criação usando o Gerador de atividades de intruso — desde escolher entre os modos de geração Idêntico e Similar até configurar substituições por exercício, gerar chaves de respostas automáticas com marcadores de círculo vermelho e exportar arquivos prontos para produção. Quer esteja a criar o seu primeiro produto de puzzles visuais ou a ampliar um catálogo existente de atividades, terá um produto terminado pronto para publicar no final deste tutorial.',
+    description: 'Aprenda a criar atividades de encontre o intruso para vender na Hotmart, Kiwify, Etsy ou Amazon KDP. Este guia cobre: como configurar exercícios com diferentes níveis de dificuldade, escolher temas que atraem compradores, criar pacotes de raciocínio lógico e montar livros de passatempos para KDP. "Encontre o diferente" é um dos formatos mais populares entre crianças — desenvolve categorização, atenção e raciocínio lógico. Com o LessonCraftStudio, mais de 3.000 imagens em 104 temas e licença comercial inclusa. Teste grátis com marca d\'água.',
   },
 
   introduction: 'A discriminação visual é uma das competências cognitivas fundamentais no desenvolvimento infantil precoce. Antes de as crianças aprenderem a ler, primeiro devem aprender a observar diferenças — distinguir uma forma de outra, uma letra de uma letra semelhante, um objeto de um grupo. As atividades de intruso treinam esta competência diretamente ao apresentar quatro imagens e pedir aos usuários que identifiquem a que não coincide com as restantes. Isto faz das atividades de intruso um produto fundamental com procura que abrange desde o pré-escolar até ao ensino básico.\n\nO que torna as atividades de intruso particularmente eficazes como produto imprimível é o formato puramente visual. Ao contrário das atividades de vocabulário, das páginas de compreensão leitora ou dos problemas de matemática que requerem texto específico de um idioma, as atividades de intruso contêm apenas imagens. Quatro desenhos numa fila, três que pertencem ao grupo e um que não. Sem palavras, sem números, sem barreira linguística. Uma atividade criada numa única sessão vende-se de forma idêntica em todos os marketplaces internacionais sem tradução nem localização. Este alcance global sem esforço por cada mercado é uma vantagem competitiva significativa para os vendedores.\n\nO Gerador de atividades de intruso trata da complexidade de criar estas atividades através de dois modos de geração distintos. O modo Idêntico coloca três clones da mesma imagem exata junto a uma imagem diferente do mesmo tema — os usuários detetam o elemento não duplicado comparando detalhes visuais finos. O modo Similar pega em três imagens do Tema A e uma imagem do Tema B — os usuários identificam o elemento fora da categoria reconhecendo diferenças categóricas. Cada modo visa uma competência cognitiva diferente, e a substituição de modo por exercício permite-lhe misturar ambos os modos numa única atividade para dificuldade progressiva. O gerador produz chaves de respostas automáticas com marcadores de círculo vermelho escalados ao tamanho da imagem, gere o esquema adaptativo de colunas para cinco a dez exercícios por página e exporta quatro arquivos prontos para produção por sessão. O usuário concentra-se na estratégia de produto — que combinações de modo usar, que emparelhamentos temáticos escolher, como agrupar e definir preços — enquanto o gerador trata do esquema, da mistura aleatória e da criação de chaves de respostas.\n\nTodas as funcionalidades mencionadas neste guia estão disponíveis no teste grátis com marca d\'água. Pode criar atividades de intruso de amostra, testar ambos os modos de geração, experimentar com substituições por exercício e avaliar a qualidade do resultado antes de comprar uma licença comercial.',

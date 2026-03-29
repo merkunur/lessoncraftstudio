@@ -2,29 +2,36 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'criar atividades de desenho e simetria',
+    primaryKeyword: 'criar atividades de desenho para vender',
     secondaryKeywords: [
-      'atividades de desenho em grelha para crianças',
-      'gerador de atividades de simetria',
-      'atividades imprimíveis de desenho para vender',
-      'atividades de reprodução célula por célula',
+      'como criar atividades de desenho para Hotmart',
+      'atividades de desenho para vender na Etsy',
+      'guia atividades de desenho para Amazon KDP',
+      'atividades de desenho com licença comercial para vender',
     ],
     lsiKeywords: [
-      'atividades de grelha dupla para desenho',
-      'atividades com percentagem de pistas ajustável',
-      'exercícios de simetria em modo espelho',
-      'vender atividades de desenho na Etsy',
-      'Amazon KDP livros de atividades de desenho',
-      'ferramenta de atividades de contorno P/B',
+      'licença comercial',
+      '300 DPI',
+      'pronto para impressão',
+      'download digital',
+      'gabarito incluso',
+      'Hotmart',
+      'Kiwify',
+      'Etsy',
+      'Amazon KDP',
+      'renda extra',
+      'negócio de imprimíveis',
+      'educação infantil',
     ],
-    titleTag: 'Criar atividades de desenho e simetria — Guia prático',
-    metaDescription: 'Como criar atividades de desenho e simetria com sistema de grelha dupla, percentagem de pistas ajustável, três modos de simetria e contornos P/B. Venda online.',
+    titleTag: 'Atividades de desenho para vender online | LCS',
+    metaDescription:
+      'Guia para criar atividades de desenho e pintura para vender. Canvas livre, temas e estratégias para Hotmart e KDP.',
   },
 
   hero: {
-    title: 'Como criar atividades de desenho e simetria',
+    title: 'Como criar atividades de desenho para vender online',
     tagline: 'Um tutorial passo a passo para criar atividades de desenho em grelha com dificuldade ajustável, modos de simetria e temas de contorno a preto e branco que pode vender na Hotmart, Etsy e Amazon KDP',
-    description: 'As atividades de desenho em grelha combinam duas competências de elevada procura numa única página: reprodução espacial e reconhecimento de simetria. Os usuários copiam uma imagem de referência célula por célula a partir de uma grelha de pistas parcialmente revelada para uma grelha de prática em branco, desenvolvendo a motricidade fina, a precisão na observação e o raciocínio espacial a cada exercício. Este guia acompanha-o em todo o processo de criação usando o Gerador de Atividades de Desenho e Cor — desde configurar as dimensões da grelha e as percentagens de pistas até escolher modos de simetria e exportar PDFs prontos para imprimir. O formato de grelha dupla, o resultado sem texto e o estilo de contorno P/B tornam estas atividades vendíveis universalmente sem tradução. Quer esteja a lançar o seu primeiro produto de atividades de desenho ou a expandir um catálogo existente de atividades visuais, terá produtos acabados prontos a publicar no final deste tutorial.',
+    description: 'Aprenda a criar atividades de desenho e pintura para vender na Hotmart, Kiwify, Etsy ou Amazon KDP. Este guia cobre: como usar o canvas livre para criar propostas artísticas, combinar desenho com colorir, adicionar elementos educativos e montar kits de arte temáticos. Atividades de desenho desenvolvem coordenação motora, criatividade e expressão — habilidades valorizadas por pais e professores. Com o LessonCraftStudio, mais de 3.000 imagens de inspiração em 104 temas e licença comercial inclusa. Teste grátis com marca d\'água — sem cadastro.',
   },
 
   introduction: 'O desenho em grelha é um dos métodos mais eficazes para desenvolver a consciência espacial e a motricidade fina nas crianças. Ao contrário do desenho à mão livre, a reprodução baseada em grelha proporciona aos usuários um enquadramento estruturado: observam as células de referência, identificam formas e linhas, e recriam-nas nas células em branco correspondentes. Esta abordagem célula por célula desenvolve a precisão na observação, a coordenação olho-mão e as competências de raciocínio espacial que sustentam a geometria e o pensamento de design.\n\nO que torna as atividades de desenho em grelha particularmente fortes como produto imprimível é o sistema de grelha dupla. Cada atividade apresenta duas grelhas complementares por imagem: uma Grelha de prática com células vazias onde os usuários desenham, e uma Grelha de pistas que mostra uma percentagem configurável da imagem de referência como pistas visuais. Este formato é fundamentalmente diferente das páginas para colorir ou das atividades de desenho livre porque fornece uma orientação estruturada que se adapta à dificuldade. Reduza a percentagem de pistas para exercícios mais difíceis, aumente-a para os mais fáceis — a mesma imagem transforma-se em dezenas de produtos distintos.\n\nO Gerador de Atividades de Desenho e Cor trata da complexidade técnica. Gera os layouts de grelha dupla automaticamente, oferece três modos de simetria (Aleatório, Espelho horizontal, Espelho vertical) para exercícios de raciocínio espacial, e recorre a uma biblioteca de mais de 100 coleções de temas de contorno P/B com mais de 3000 ilustrações concebidas especificamente para a reprodução em desenho e coloração posterior. Dois eixos de dificuldade independentes — tamanho de grelha (3×3 a 10×10) e percentagem de pistas (10% a 75%) — criam dezenas de combinações de dificuldade únicas a partir de uma única imagem temática. O resultado não contém texto, o que torna cada atividade vendível universalmente sem tradução em todos os marketplaces internacionais.\n\nTodas as funcionalidades descritas neste guia estão disponíveis no teste grátis com marca d\'água. Pode criar atividades de amostra, testar cada tamanho de grelha, percentagem de pistas e modo de simetria, e avaliar a qualidade do resultado antes de comprar uma licença comercial.',

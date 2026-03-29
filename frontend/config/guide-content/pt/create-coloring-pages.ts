@@ -2,29 +2,36 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'criar páginas para colorir',
+    primaryKeyword: 'criar desenhos para colorir para Etsy e KDP',
     secondaryKeywords: [
-      'gerador de páginas para colorir a partir de imagens',
-      'páginas para colorir imprimíveis para vender',
-      'gerador de páginas para colorir em escala de cinza',
-      'atividades personalizadas para colorir para crianças',
+      'como criar desenhos para colorir para Etsy e KDP para Hotmart',
+      'desenhos para colorir para Etsy e KDP para vender na Etsy',
+      'guia desenhos para colorir para Etsy e KDP para Amazon KDP',
+      'desenhos para colorir para Etsy e KDP com licença comercial para vender',
     ],
     lsiKeywords: [
-      'páginas para colorir temáticas para Etsy',
-      'páginas de livros para colorir para Amazon KDP',
-      'designer de páginas para colorir de forma livre',
-      'converter imagens em páginas para colorir',
-      'atividades para colorir online',
-      'ferramenta para colorir com licença comercial',
+      'licença comercial',
+      '300 DPI',
+      'pronto para impressão',
+      'download digital',
+      'gabarito incluso',
+      'Hotmart',
+      'Kiwify',
+      'Etsy',
+      'Amazon KDP',
+      'renda extra',
+      'negócio de imprimíveis',
+      'educação infantil',
     ],
-    titleTag: 'Criar páginas para colorir a partir de imagens — Guia',
-    metaDescription: 'Como criar páginas para colorir a partir de mais de 3100 imagens temáticas. Tela de forma livre com exportação em escala de cinza, desenho à mão livre e mais.',
+    titleTag: 'Desenhos para colorir para Etsy e KDP | LCS',
+    metaDescription:
+      'Guia para criar desenhos para colorir para vender no Etsy e KDP. Temas, escala de cinza, livros de colorir e preços.',
   },
 
   hero: {
-    title: 'Como criar páginas para colorir a partir de imagens temáticas',
+    title: 'Como criar desenhos para colorir para Etsy e Amazon KDP',
     tagline: 'Um tutorial passo a passo para criar páginas para colorir personalizadas usando uma tela de forma livre, mais de 3100 imagens temáticas, desenho à mão livre e exportação em escala de cinza com um clique',
-    description: 'As páginas para colorir são um dos produtos imprimíveis mais procurados e comprados em todos os grandes marketplaces. Os pais querem-nas para atividades sem tela e desligadas. Os vendedores utilizam-nas como aquecimentos online e atividades de recompensa. Os vendedores da Etsy constroem lojas inteiras em torno de pacotes temáticos de páginas para colorir. Este guia acompanha-o em todo o processo de criação usando o Gerador de Páginas para Colorir — desde colocar imagens temáticas numa tela de forma livre até ativar o botão de escala de cinza que converte o seu design colorido numa página para colorir limpa e pronta para imprimir. Quer esteja a criar o seu primeiro produto para colorir ou a expandir um catálogo de imprimíveis existente, terá uma página para colorir terminada e pronta para publicar no final deste tutorial.',
+    description: 'Aprenda a criar desenhos para colorir para vender no Etsy e Amazon KDP — um dos nichos mais lucrativos de imprimíveis. Este guia cobre: como usar o modo escala de cinza para interiores de livros KDP, escolher temas que vendem o ano inteiro, criar pacotes temáticos para Etsy, adicionar linhas de caligrafia para atividades multicompetências e precificar livros de colorir. Livros de colorir são o produto de menor esforço e maior retorno no KDP. Com o LessonCraftStudio, mais de 3.000 imagens em 104 temas e licença comercial inclusa. Teste grátis com marca d\'água.',
   },
 
   introduction: 'As páginas para colorir ocupam uma posição única no mercado de imprimíveis. Ao contrário das atividades que se dirigem a grupos etários ou níveis de competência específicos, as páginas para colorir atraem praticamente toda a gente — crianças pequenas, crianças em idade escolar, adolescentes e até adultos. Essa atração universal traduz-se numa procura massiva e durante todo o ano na Hotmart, Etsy e Amazon KDP.\n\nO que torna as páginas para colorir especialmente atrativas como produto é a sua simplicidade. Não há chaves de resposta para gerar, não há níveis de dificuldade para configurar e não há alinhamento curricular com que se preocupar. Uma página para colorir bem desenhada com imagens apelativas vende-se pelo seu próprio mérito visual. A barreira de entrada é baixa, mas os vendedores que têm sucesso são os que possuem designs distintivos que se destacam das coleções genéricas de clip art.\n\nO Gerador de Páginas para Colorir adota uma abordagem fundamentalmente diferente das ferramentas tradicionais para colorir. Em vez de trabalhar com modelos pré-feitos ou traçar contornos à mão, trabalha numa tela de forma livre onde coloca imagens temáticas de uma biblioteca de mais de 3100 ilustrações em 104 temas. Arrasta, redimensiona e roda as imagens livremente para criar composições originais. Depois, o botão de exportação em escala de cinza converte o seu design colorido em contornos limpos a preto e branco prontos para colorir.\n\nA ferramenta também inclui uma ferramenta de desenho à mão livre para adicionar detalhes desenhados à mão, ferramentas de texto para títulos e instruções, e ajudas para a loja como campos de nome e linhas de escrita. Esta combinação permite-lhe criar desde páginas para colorir simples com uma única imagem até atividades temáticas complexas.\n\nTodas as funcionalidades mencionadas neste guia estão disponíveis no teste grátis com marca d\'água. Pode criar páginas para colorir completas, testar o botão de escala de cinza e avaliar a qualidade do resultado antes de comprar uma licença comercial.',

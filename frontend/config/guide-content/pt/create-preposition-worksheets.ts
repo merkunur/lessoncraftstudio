@@ -2,29 +2,36 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'atividades de preposições',
+    primaryKeyword: 'criar atividades de preposições PLE para vender',
     secondaryKeywords: [
-      'criar atividades de preposições para vender',
-      'gerador de atividades de preposições uso comercial',
-      'atividades imprimíveis de linguagem espacial para Etsy e KDP',
-      'atividades de preposições sensíveis ao idioma com chaves de respostas',
+      'como criar atividades de preposições para Hotmart',
+      'atividades de preposições para vender na Etsy',
+      'guia atividades de preposições para Amazon KDP',
+      'atividades de preposições com licença comercial para vender',
     ],
     lsiKeywords: [
-      'dois modos de exercício preencher espaços escolha múltipla criador atividades preposições',
-      'substituição de formas camada de imagem separada combinações de cenas gerador',
-      'grelha de caixas de preposições sete palavras de posição prática dirigida criador',
-      'vender atividades de preposições no Etsy',
-      'Amazon KDP cadernos de atividades de linguagem espacial',
-      'ferramenta de atividades de preposições com licença comercial',
+      'licença comercial',
+      '300 DPI',
+      'pronto para impressão',
+      'download digital',
+      'gabarito incluso',
+      'Hotmart',
+      'Kiwify',
+      'Etsy',
+      'Amazon KDP',
+      'renda extra',
+      'negócio de imprimíveis',
+      'educação infantil',
     ],
-    titleTag: 'Atividades de preposições — Guia',
-    metaDescription: 'Crie atividades de preposições com dois modos de exercício, Substituição de Formas para variedade de cenas, grelha de 7 preposições e palavras em 11 idiomas.',
+    titleTag: 'Atividades de preposições PLE para vender | LCS',
+    metaDescription:
+      'Guia para criar atividades de preposições para PLE e vender. Mega-nicho global, 11 idiomas e estratégias.',
   },
 
   hero: {
-    title: 'Como criar atividades de preposições',
+    title: 'Como criar atividades de preposições PLE para vender',
     tagline: 'Um tutorial passo a passo para criar atividades de linguagem espacial com dois modos de exercício (Preencher Espaços em Branco para recordação ativa e Escolha Múltipla para prática guiada), Substituição de Formas que multiplica as combinações de cenas através de uma camada de imagem separada, uma grelha de caixas de preposições para selecionar exatamente quais palavras de posição incluir, de 1 a 8 exercícios configuráveis por página, palavras de preposição sensíveis ao idioma que se traduzem para equivalentes nativos em 11 idiomas, e chaves de respostas geradas automaticamente que pode vender em todo o mundo no Hotmart, Etsy e Amazon KDP',
-    description: 'As atividades de preposições são uma atividade de linguagem espacial visualmente atrativa onde os usuários identificam a palavra de posição correta estudando cenas de imagens que mostram objetos em relações espaciais. Ao contrário dos exercícios abstratos de gramática que dependem de frases só de texto para completar, o formato baseado em cenas oferece aos usuários um contexto visual concreto — um gato sentado sobre uma caixa, uma bola debaixo de uma mesa, um pássaro em cima de uma cerca — tornando o conceito espacial imediatamente compreensível. O Gerador de Atividades de Preposições oferece dois modos de exercício que servem diferentes níveis de aprendizagem: o modo Preencher Espaços em Branco apresenta uma cena com uma linha vazia onde os usuários escrevem a preposição correta de memória, testando a recordação ativa ideal para usuários mais velhos e aprendentes intermédios de ESL. O modo Escolha Múltipla mostra a mesma cena com opções selecionáveis, proporcionando prática guiada para principiantes e usuários mais novos, com uma linha de instruções personalizável que os vendedores podem editar para se adaptar ao seu estilo de ensino. A característica de Substituição de Formas acrescenta uma camada de imagem separada para as formas de cena — os objetos que criam o contexto espacial (uma caixa, uma mesa, uma estante, um cesto). Trocar formas independentemente das imagens principais multiplica exponencialmente a variedade visual: 10 imagens principais combinadas com 10 formas produzem 100 combinações de cenas de exercício únicas. Uma grelha de caixas de preposições permite-lhe selecionar exatamente quais das 7 preposições disponíveis incluir, desde prática focada num único conceito até revisão completa do vocabulário espacial. Os exercícios configuráveis de 1 a 8 por página criam níveis de produtos naturais — poucas atividades de exercícios para usuários mais novos, atividades densas para prática cronometrada e avaliações. As palavras de preposição sensíveis ao idioma traduzem-se para equivalentes nativos em 11 idiomas, permitindo-lhe criar produtos autênticos para múltiplos mercados linguísticos a partir de uma única sessão de design. As chaves de respostas geradas automaticamente acompanham cada atividade, proporcionando uma referência de solução pronta a publicar que os compradores esperam. Todas as funcionalidades mencionadas neste guia estão disponíveis no teste grátis com marca d\'água. Pode criar atividades de amostra, testar ambos os modos de exercício, experimentar a Substituição de Formas e avaliar a qualidade do resultado antes de comprar uma licença comercial.',
+    description: 'Aprenda a criar atividades de preposições para vender na Hotmart, Kiwify, Etsy ou Amazon KDP — com foco no mega-nicho de PLE (Português como Língua Estrangeira). O português é a 6ª língua mais falada do mundo e o Celpe-Bras é aplicado em mais de 100 países. Este guia cobre: como criar exercícios de relações espaciais com imagens, usar os 11 idiomas para alcançar professores de PLE no mundo inteiro e montar kits de vocabulário. Com o LessonCraftStudio, licença comercial inclusa. Teste grátis com marca d\'água — sem cadastro.',
   },
 
   introduction: 'As preposições espaciais são uma das áreas de vocabulário mais difíceis de ensinar de forma eficaz porque os conceitos abstratos de posição requerem contexto visual concreto para serem compreendidos. As crianças precisam de ver um gato sobre uma caixa para interiorizar o que \"sobre\" significa — ler a palavra isolada não é suficiente. Este requisito visual torna as atividades de preposições baseadas em cenas um produto imprimível particularmente valioso porque preenche uma necessidade pedagógica real que as atividades de gramática só de texto não conseguem satisfazer.\n\nO que torna as atividades de preposições especialmente fortes como produto comercial é a combinação de procura consistente e escassez de oferta. Pais, vendedores e instrutores de ESL pesquisam ativamente por atividades de linguagem espacial, mas a maioria das atividades de preposições disponíveis nos marketplaces são exercícios de gramática só de texto sem contexto visual. As atividades baseadas em cenas com imagens reais destacam-se imediatamente nestas categorias de pesquisa.\n\nO Gerador de Atividades de Preposições trata da complexidade do design por si. Coloca imagens em relações espaciais, gera as palavras de preposição corretas para o idioma selecionado, cria dois formatos de exercício (Preencher Espaços em Branco e Escolha Múltipla), e produz chaves de respostas automáticas — tudo numa única sessão de geração. A funcionalidade de Substituição de Formas acrescenta uma camada de imagem separada que multiplica as combinações de cenas, permitindo-lhe criar grandes catálogos de produtos a partir de um conjunto de imagens gerível.\n\nO gerador é sensível ao idioma — as palavras de preposição traduzem-se para equivalentes nativos em 11 idiomas. Isto significa que pode criar produtos de preposições para múltiplos mercados linguísticos sem traduzir manualmente o conteúdo. Uma sessão de design produz até 11 versões linguísticas vendíveis.\n\nTodas as funcionalidades mencionadas neste guia estão disponíveis no teste grátis com marca d\'água. Pode criar atividades de amostra, testar todos os modos de exercício e avaliar a qualidade do resultado antes de comprar uma licença comercial.',

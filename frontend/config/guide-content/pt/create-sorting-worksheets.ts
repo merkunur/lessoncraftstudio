@@ -2,29 +2,36 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'atividades de classificação por categorias',
+    primaryKeyword: 'criar atividades de classificação para vender',
     secondaryKeywords: [
-      'criar atividades de classificação para crianças',
-      'gerador de atividades de classificação de imagens',
-      'atividades imprimíveis de classificação para vender',
-      'atividades de classificação em duas categorias',
+      'como criar atividades de classificação para Hotmart',
+      'atividades de classificação para vender na Etsy',
+      'guia atividades de classificação para Amazon KDP',
+      'atividades de classificação com licença comercial para vender',
     ],
     lsiKeywords: [
-      'atividades de recortar e classificar para pré-escolar',
-      'gerador de atividades de classificação de imagens',
-      'atividades de classificação com chave de respostas',
-      'vender atividades de classificação no Etsy',
-      'Amazon KDP cadernos de classificação',
-      'ferramenta de classificação com licença comercial',
+      'licença comercial',
+      '300 DPI',
+      'pronto para impressão',
+      'download digital',
+      'gabarito incluso',
+      'Hotmart',
+      'Kiwify',
+      'Etsy',
+      'Amazon KDP',
+      'renda extra',
+      'negócio de imprimíveis',
+      'educação infantil',
     ],
-    titleTag: 'Atividades de classificação por categorias — Guia',
-    metaDescription: 'Crie atividades de classificação com modo de temas em duas categorias, 4–12 imagens, grelhas de recortáveis misturados e chaves de respostas automáticas. Guia.',
+    titleTag: 'Atividades de classificação para vender | LCS',
+    metaDescription:
+      'Guia para criar atividades de classificação e categorização para vender. Raciocínio lógico e estratégias.',
   },
 
   hero: {
-    title: 'Como criar atividades de classificação por categorias',
+    title: 'Como criar atividades de classificação para vender',
     tagline: 'Um tutorial passo a passo para criar atividades de recortar e classificar em duas categorias com modos de seleção por tema e manual, chaves de respostas autogeradas e suporte multilingue que pode vender no Hotmart, Etsy e Amazon KDP',
-    description: 'A classificação por categorias é uma das primeiras competências cognitivas que as crianças desenvolvem, e as atividades de classificação mantêm uma procura elevada em todos os marketplaces educativos. Os pais precisam delas para a aprendizagem prática em casa. Os vendedores precisam delas para atividades de classificação e cantinhos de aprendizagem. Os centros de explicações utilizam-nas para a prática de categorização visual. Este guia acompanha-o em todo o processo de criação usando o Gerador de atividades de classificação de imagens — desde escolher o seu modo de seleção e configurar a quantidade de imagens até gerar grelhas de recortáveis misturados com chaves de respostas automáticas. Quer esteja a criar o seu primeiro produto de classificação ou a expandir um catálogo existente de atividades de classificação, terá um produto terminado pronto para publicar no final deste tutorial.',
+    description: 'Aprenda a criar atividades de classificação e categorização para vender na Hotmart, Kiwify, Etsy ou Amazon KDP. Este guia cobre: como criar exercícios de ordenar e agrupar por categorias, usar temas visuais para variação, criar pacotes por faixa etária e montar apostilas de raciocínio lógico para KDP. Classificação é uma habilidade cognitiva fundamental exigida pela BNCC desde a educação infantil. Com o LessonCraftStudio, mais de 3.000 imagens em 104 temas e licença comercial inclusa. Teste grátis com marca d\'água — sem cadastro.',
   },
 
   introduction: 'A classificação é uma das competências cognitivas fundamentais na educação infantil. Antes de as crianças poderem ler, escrever ou fazer aritmética, aprendem a classificar — agrupando objetos por atributos partilhados como cor, forma, função ou categoria. Isto torna as atividades de classificação num produto universalmente relevante com procura sustentada desde o pré-escolar até ao ensino primário.\n\nO que torna as atividades de classificação particularmente eficazes como produto imprimível é o formato de recortar e classificar. Os usuários recortam fisicamente as imagens de uma grelha misturada e colocam-nas no quadro de categoria correto. Esta interação prática cria um envolvimento mais profundo do que as atividades de rodear ou traçar uma linha porque requer competências motoras, raciocínio espacial e tomada de decisões ativa. Os vendedores e pais procuram ativamente os formatos de recortar e classificar porque mantêm as crianças envolvidas durante mais tempo e produzem um resultado tangível terminado.\n\nO Gerador de atividades de classificação de imagens trata da complexidade técnica de criar estas atividades. Oferece dois modos de seleção: o modo de tema preenche automaticamente as categorias a partir da biblioteca de imagens integrada para uma produção rápida, enquanto o modo manual permite selecionar imagens individuais à mão para uma precisão alinhada com o catálogo de produtos. O gerador produz esquemas de classificação em duas categorias com grelhas de recortáveis misturados, chaves de respostas autogeradas com imagens apresentadas a seis vezes o tamanho da célula da grelha, e um cabeçalho estilizado localizado em onze idiomas. Concentra-se na estratégia de produto — que emparelhamentos de categorias visar, que níveis de dificuldade criar, como agrupar e definir preços — enquanto o gerador trata do esquema, da mistura e da criação de chaves de respostas.\n\nTodas as funcionalidades mencionadas neste guia estão disponíveis no teste grátis com marca d\'água. Pode criar atividades de classificação de amostra, testar ambos os modos de seleção e avaliar a qualidade do resultado antes de adquirir uma licença comercial.',

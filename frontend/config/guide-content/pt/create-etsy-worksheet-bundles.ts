@@ -2,29 +2,34 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'pacotes de atividades Etsy',
+    primaryKeyword: 'criar pacotes de atividades para Etsy',
     secondaryKeywords: [
-      'como criar pacotes de atividades Etsy',
-      'estratégia de anúncios de pacotes imprimíveis Etsy',
-      'vender pacotes de atividades no Etsy',
-      'criação de pacotes de downloads digitais Etsy',
+      'como criar bundles de atividades Etsy',
+      'pacotes de imprimíveis para Etsy',
+      'estratégia de pacotes Etsy',
+      'bundles educativos Etsy dicas',
     ],
     lsiKeywords: [
-      'otimização de anúncios Etsy organização de arquivos pacotes estratégia',
-      'estratégia de preços pacotes atividades ancoragem desconto valor empilhado',
-      'imagens de pré-visualização pacotes Etsy miniatura mockup design',
-      'tipos de pacotes por disciplina ano tema sazonal educativos imprimíveis',
-      'entrega digital Etsy arquivos múltiplos estrutura de pacotes',
-      'estratégia de loja Etsy pacotes vs anúncios individuais canibalização',
+      'Etsy',
+      'pacotes',
+      'bundles',
+      'atividades',
+      'imprimíveis',
+      'valor percebido',
+      'preços',
+      'SEO',
+      'licença comercial',
+      'renda extra',
     ],
-    titleTag: 'Criar pacotes de atividades Etsy — Guia',
-    metaDescription: 'Crie pacotes de atividades Etsy que aumentam o valor médio do pedido. Tipos de pacotes, organização de arquivos, imagens de pré-visualização e otimização.',
+    titleTag: 'Criar pacotes de atividades para Etsy | LCS',
+    metaDescription:
+      'Como criar pacotes de atividades que vendem no Etsy. Estratégias de bundling, preços e organização temática. Guia prático para vendedores.',
   },
 
   hero: {
-    title: 'Como criar pacotes de atividades Etsy',
+    title: 'Como criar pacotes de atividades que vendem no Etsy',
     tagline: 'Um guia completo para criar, estruturar, publicar e otimizar pacotes de atividades para o Etsy — incluindo seleção do tipo de pacote por disciplina, ano, tema, estação e formato, seleção de produtos para máximo valor percebido, organização de arquivos dentro dos limites de entrega do Etsy, imagens de pré-visualização específicas para pacotes e design de miniaturas, títulos e etiquetas de anúncios otimizados para termos de pesquisa de pacotes, estratégias de preços com valor empilhado e descontos de ancoragem, e acompanhamento do desempenho para identificar as suas combinações de pacotes com melhor resultado',
-    description: 'Os pacotes de atividades estão entre os anúncios de maior receita no Etsy para vendedores de imprimíveis educativos. Este guia acompanha-o em todo o fluxo de trabalho de criação de pacotes — desde escolher que produtos combinar até escrever anúncios que comuniquem o valor do pacote e acompanhar o desempenho ao longo do tempo.',
+    description: 'Aprenda a criar pacotes de atividades que multiplicam suas vendas no Etsy. Pacotes (bundles) são a estratégia mais eficaz para aumentar o valor médio por pedido — compradores preferem pacotes completos a atividades individuais. Este guia cobre: como agrupar atividades por tema, série e tipo, precificar pacotes para máxima atratividade, criar listagens de pacotes otimizadas e usar pacotes como funil de vendas. Com os geradores do LessonCraftStudio, você cria 33 tipos de atividades em 104 temas — material ilimitado para pacotes. Teste grátis com marca d\'água.',
   },
 
   introduction: 'Os pacotes são uma das estratégias mais eficazes para aumentar as receitas de uma loja Etsy de imprimíveis. Um pacote de atividades bem construído oferece aos compradores mais valor por compra enquanto lhe proporciona um valor médio de pedido mais elevado do que os anúncios individuais por si só. A economia é simples: se uma atividade individual se vende por $3 e um pacote de oito atividades relacionadas se vende por $12, ganha quatro vezes a receita por transação com um custo de produção adicional mínimo.\n\nPara além do benefício direto de receitas, os pacotes competem de forma diferente na pesquisa do Etsy. Os compradores que pesquisam \"pacote de atividades de matemática infantil\" têm uma intenção de compra mais forte do que aqueles que pesquisam atividades individuais — já decidiram que querem múltiplos produtos e estão à procura da melhor coleção. As palavras-chave de pacotes também enfrentam menos concorrência do que as palavras-chave de produtos individuais em muitas categorias de imprimíveis educativos.\n\nOs pacotes também reduzem a fadiga de decisão que faz com que os compradores saiam sem comprar. Em vez de escolher entre seis anúncios individuais, um comprador pode adquirir um pacote que inclua tudo o que precisa. para vendedores que compram materiais para a loja ou pais que organizam recursos de ensino doméstico, os pacotes resolvem o problema de \"quais devo escolher?\".\n\nO desafio é que criar pacotes eficazes requer planeamento deliberado. Coleções aleatórias de atividades empacotadas juntas rendem menos do que pacotes cuidadosamente selecionados com temas claros, qualidade consistente e apresentação profissional. Este guia cobre cada aspecto do processo de criação de pacotes: selecionar o tipo de pacote adequado para o seu catálogo, escolher que produtos incluir, organizar arquivos para uma entrega profissional, criar imagens de pré-visualização que comuniquem valor, escrever anúncios específicos de pacotes otimizados para a pesquisa do Etsy, definir preços para máximas receitas e acompanhar o desempenho para refinar a sua estratégia ao longo do tempo. Todos os geradores mencionados neste guia estão disponíveis como teste grátis com marca d\'água, para que possa criar conteúdo de exemplo para pacotes e testar a sua abordagem antes de se comprometer com uma licença.',

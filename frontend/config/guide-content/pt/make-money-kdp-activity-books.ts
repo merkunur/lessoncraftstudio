@@ -2,29 +2,34 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'ganhar dinheiro livros atividades KDP',
+    primaryKeyword: 'ganhar dinheiro com apostilas KDP 2026',
     secondaryKeywords: [
-      'como ganhar dinheiro com livros de atividades KDP',
-      'estratégias de rendimento livros de atividades KDP',
-      'otimização de receitas livros de atividades Amazon KDP',
-      'publicação rentável de livros de atividades KDP',
+      'como ganhar dinheiro Amazon KDP atividades',
+      'renda passiva KDP livros de atividades',
+      'quanto dá para ganhar KDP apostilas',
+      'negócio de apostilas Amazon KDP 2026',
     ],
     lsiKeywords: [
-      'cálculo de royalties KDP custo de impressão estratégia de preços',
-      'catálogo de livros de atividades rendimentos compostos ganhos mensais',
-      'publicação sazonal festividades Natal verão regresso às aulas',
-      'distintivo Amazon Best Seller palavras-chave categoria posicionamento',
-      'multiplataforma Etsy Hotmart download digital imprimível expansão',
-      'relatórios KDP acompanhamento de desempenho análise de receitas por título',
+      'Amazon KDP',
+      'ganhar dinheiro',
+      'renda passiva',
+      'apostilas',
+      'livros de atividades',
+      'royalties',
+      'nichos',
+      'estratégia',
+      'Hotmart',
+      'renda extra',
     ],
-    titleTag: 'Ganhar dinheiro livros atividades KDP — Guia receitas',
-    metaDescription: 'Como ganhar dinheiro com livros de atividades KDP. Preços, construção de catálogo, cálculos de royalties, publicação sazonal e estratégias de escalamento.',
+    titleTag: 'Ganhar dinheiro com apostilas KDP (2026) | LCS',
+    metaDescription:
+      'Como ganhar dinheiro com apostilas no Amazon KDP em 2026. Nichos, estratégias, royalties e escalamento. Guia completo para iniciantes.',
   },
 
   hero: {
-    title: 'Como ganhar dinheiro com livros de atividades KDP',
+    title: 'Como ganhar dinheiro com apostilas no Amazon KDP em 2026',
     tagline: 'Um guia completo de rendimentos para editores de livros de atividades na Amazon KDP — incluindo cálculo de royalties e pontos ideais de preço, economia de catálogo que acumula rendimentos mensais, estratégias de publicação sazonal para picos de receitas em festividades, otimização de palavras-chave da Amazon para máximas vendas, escalamento da produção em múltiplos tipos de livros de atividades, acompanhamento do desempenho para reforçar os vencedores, e expansão multiplataforma para Etsy e Hotmart como fontes de rendimento adicionais',
-    description: 'Publicar livros de atividades na Amazon KDP é simples. Gerar rendimentos consistentes e crescentes a partir deles requer uma estratégia de negócio deliberada. Este guia não é sobre como criar livros de atividades — os nossos outros guias KDP cobrem livros de atividades de matemática, livros de puzzles, livros de caça-palavras e formatação em detalhe. Este guia é sobre o dinheiro: como os royalties KDP realmente funcionam para livros de atividades, como definir preços para lucro máximo em vez de vendas máximas, porque é que um catálogo de 10 livros rende muito mais do que 10 vezes o que um único livro rende, e como construir um negócio editorial que gera rendimentos mensais compostos em vez de vendas únicas.',
+    description: 'Descubra como ganhar dinheiro com apostilas de atividades no Amazon KDP em 2026. Este guia cobre: nichos lucrativos para livros de atividades, quanto é possível ganhar com royalties, estratégias de publicação em série, como escalar de um livro para um catálogo completo e erros comuns que iniciantes devem evitar. O mercado brasileiro de livros de atividades na Amazon está em crescimento acelerado com competição mínima em português. Com o LessonCraftStudio, seu custo de produção é praticamente zero — gere centenas de páginas em minutos. Teste grátis com marca d\'água.',
   },
 
   introduction: 'Os livros de atividades estão entre as categorias de rendimento mais fiáveis na Amazon KDP porque combinam duas dinâmicas de negócio poderosas: procura constante durante todo o ano e um ciclo de consumo intrínseco. Ao contrário de romances ou livros de referência que um comprador lê uma vez e guarda para sempre, os livros de atividades são consumidos. Uma criança termina um caderno de matemática, um entusiasta de puzzles completa uma coleção de caça-palavras, um pai faz um livro de colorir com o seu filho — e depois precisam de outro. Este comportamento de compra repetida é a base da economia editorial dos livros de atividades.\n\nO mercado de livros de atividades KDP abrange dezenas de subcategorias: cadernos de matemática, coleções de caça-palavras, palavras cruzadas, livros de sudoku, livros de colorir, exercícios de desenho, treino de letras, labirintos e muito mais. Cada subcategoria tem a sua própria curva de procura, densidade competitiva e dinâmica de preços. Mas o modelo de negócio subjacente é o mesmo em todas elas: royalties baixos por venda que se acumulam através do volume, da profundidade do catálogo e do tempo.\n\nA maioria dos novos editores KDP comete dois erros fundamentais. Primeiro, concentram-se inteiramente na criação de um único livro excelente em vez de planear uma estratégia de catálogo. Um único livro de atividades, por melhor que seja, tem um teto de receitas. Segundo, definem preços com base no que lhes parece correto em vez de calcular a matemática real dos royalties a diferentes pontos de preço e contagens de páginas. A diferença entre fixar o preço de um caderno de matemática de 60 páginas a 6,99 dólares e 8,99 dólares pode significar a diferença entre ganhar 0,20 dólares por venda e 1,40 dólares por venda — um aumento de 7 vezes nos royalties com uma alteração de preço de 2 dólares.\n\nEste guia concentra-se exclusivamente no lado comercial e de receitas da publicação de livros de atividades KDP. Para instruções detalhadas sobre como criar tipos específicos de livros de atividades, consulte o guia de livros de atividades de matemática KDP, o guia de livros de puzzles e o guia de livros de caça-palavras. Para especificações de formatação, veja o guia de formatação KDP. Aqui cobrimos o que nenhum desses guias aborda: a economia, estratégia de preços, planeamento de catálogo, calendário sazonal, otimização de desempenho e expansão multiplataforma que transformam a publicação de livros de atividades de um passatempo num fluxo de rendimento.',

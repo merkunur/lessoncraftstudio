@@ -2,29 +2,36 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'otimização loja Hotmart',
+    primaryKeyword: 'otimizar loja na Hotmart e Kiwify',
     secondaryKeywords: [
-      'como otimizar a sua loja Hotmart',
-      'fatores de posicionamento algoritmo pesquisa Hotmart',
-      'aumentar vendas Hotmart com otimização de loja',
-      'estratégia de crescimento loja Hotmart',
+      'como otimizar loja Hotmart',
+      'SEO Hotmart para vendedores',
+      'otimização Kiwify dicas',
+      'aumentar vendas Hotmart Kiwify',
     ],
     lsiKeywords: [
-      'posicionamento pesquisa Hotmart taxa conversão visibilidade produto marketplace vendedores',
-      'marca loja perfil banner identidade visual coesiva especialidade temática',
-      'pré-visualização produto miniatura descrição redação otimização anúncio',
-      'geração avaliações prova social confiança comprador classificação estrelas feedback',
-      'secções loja categorias navegação organização amigável para explorar',
-      'analíticas Hotmart planeamento sazonal escalamento catálogo estratégia baseada dados',
+      'Hotmart',
+      'Kiwify',
+      'otimização',
+      'SEO',
+      'vendas',
+      'conversão',
+      'descrição',
+      'capa',
+      'preços',
+      'afiliados',
+      'Brasil',
+      'renda extra',
     ],
-    titleTag: 'Guia otimização loja Hotmart — Venda mais recursos',
-    metaDescription: 'Estratégias de otimização de loja Hotmart para melhor posicionamento nas pesquisas e mais vendas. Conversão de pré-visualizações, agrupamento e avaliações.',
+    titleTag: 'Otimizar loja Hotmart e Kiwify — guia | LCS',
+    metaDescription:
+      'Como otimizar sua loja na Hotmart e Kiwify para maximizar vendas. SEO, descrições, capas, preços e programa de afiliados.',
   },
 
   hero: {
-    title: 'Guia de configuração e otimização de loja Hotmart',
+    title: 'Como otimizar sua loja na Hotmart e Kiwify',
     tagline: 'Estratégias avançadas para otimizar uma loja existente na Hotmart — cobrindo fatores de posicionamento do algoritmo de pesquisa, descrições e pré-visualizações de produtos de alta conversão, táticas de geração de avaliações, organização de loja para navegação amigável, estratégia de eventos promocionais da Hotmart e escalamento de catálogo baseado em dados para transformar uma loja Hotmart ativa num canal de receitas consistente e crescente',
-    description: 'Configurar uma loja Hotmart e publicar os seus primeiros recursos é apenas o início. A diferença entre uma loja que gera vendas ocasionais e uma que produz receitas mensais consistentes resume-se à otimização — quão bem os seus anúncios se posicionam na pesquisa da Hotmart, quão eficazmente as suas pré-visualizações convertem visitantes em compradores, como a organização da sua loja incentiva compras de múltiplos produtos, e quão estrategicamente expande o seu catálogo com base em dados reais de desempenho. Este guia cobre as estratégias de otimização que levam uma loja Hotmart da fase de configuração inicial ao crescimento sustentado, construindo sobre a base coberta no nosso guia sobre como criar e vender recursos Hotmart.',
+    description: 'Otimize sua loja na Hotmart e Kiwify para maximizar vendas de atividades educativas. Este guia cobre: como escrever descrições que convertem, criar capas de produtos atraentes, definir preços competitivos, ativar e gerenciar o programa de afiliados (50% de comissão é o padrão do mercado), otimizar para busca interna da plataforma e usar estratégias de upsell. A Hotmart e a Kiwify são as plataformas mais importantes para vendedores brasileiros de infoprodutos educativos. Com o LessonCraftStudio, seu catálogo cresce rapidamente. Teste grátis com marca d\'água.',
   },
 
   introduction: 'A maioria dos vendedores Hotmart atinge o mesmo patamar. Configuram a sua loja, publicam 10 a 20 recursos, geram um punhado de vendas por mês, e depois estagnam. Os seus recursos são sólidos — bem formatados, alinhados com padrões curriculares, genuinamente úteis para vendedores online. Mas recursos sólidos por si só não garantem receitas consistentes na Hotmart. A plataforma aloja milhões de recursos, e a visibilidade conquista-se através de otimização deliberada, não apenas pela qualidade do conteúdo.\n\nOs vendedores que ultrapassam o patamar e constroem lojas que geram 500 €, 1 000 € ou mais por mês não estão necessariamente a criar conteúdo melhor do que todos os outros. Estão a otimizar cada elemento da sua presença na Hotmart: escrevendo títulos que se posicionam melhor nos resultados de pesquisa, criando pré-visualizações que convertem visitantes em compradores a taxas mais elevadas, estruturando as suas lojas para que vendedores visitantes descubram múltiplos recursos relevantes numa única sessão, construindo dinâmica de avaliações que reforça a sua credibilidade ao longo do tempo, e usando os seus dados de vendas para orientar o que criam a seguir em vez de adivinhar.\n\nO algoritmo de pesquisa da Hotmart não é uma caixa negra — os vendedores que estudam como funciona e otimizam em conformidade ganham vantagens mensuráveis sobre aqueles que o ignoram. O algoritmo pondera fatores específicos: relevância de palavras-chave no título, velocidade de vendas, taxas de conversão, classificações de avaliações, completude do anúncio e sinais de recência. Cada um destes fatores é algo que pode influenciar através de escolhas deliberadas de otimização. Um recurso com um título estrategicamente escrito, uma pré-visualização convincente, categorização completa e avaliações fortes superará um recurso comparável que negligencie estes elementos, mesmo que a qualidade do conteúdo subjacente seja idêntica.\n\nEste guia assume que já tem uma loja Hotmart com pelo menos alguns recursos publicados. Se está começando do zero, leia primeiro o nosso guia sobre como criar e vender recursos Hotmart, e depois volte aqui quando estiver pronto para otimizar para crescimento. As estratégias abaixo constroem sobre essa base e focam-se especificamente nas alavancas de otimização que transformam uma loja Hotmart ativa num canal de receitas consistentemente crescente.\n\nTodas as recomendações neste guia são aplicáveis ao seu catálogo existente. Não precisa de criar novos recursos para beneficiar da otimização — muitas das mudanças de maior impacto envolvem atualizar títulos, reescrever descrições, melhorar pré-visualizações e reorganizar a sua loja existente. Comece com os seus recursos atuais e aplique estas estratégias sistematicamente.',

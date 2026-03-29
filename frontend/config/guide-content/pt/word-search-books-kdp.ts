@@ -2,29 +2,33 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'livros caça-palavras KDP',
+    primaryKeyword: 'criar livros de caça-palavras para KDP',
     secondaryKeywords: [
-      'como criar livros de caça-palavras para Amazon KDP',
-      'guia de publicação de livros de puzzles de caça-palavras',
-      'livros de caça-palavras letra grande Amazon',
-      'livros de caça-palavras temáticos publicação KDP',
+      'livro de caça-palavras Amazon KDP guia',
+      'publicar livro de sopa de letras KDP',
+      'como criar livro de caça-palavras',
+      'caça-palavras KDP nicho lucrativo',
     ],
     lsiKeywords: [
-      'tamanho grelha caça-palavras espaçamento letras dificuldade puzzle',
-      'listas palavras temáticas vocabulário curadoria palavras adequadas idade',
-      'caça-palavras letra grande seniores adultos formato acessibilidade',
-      'livro caça-palavras Amazon palavras-chave categorias otimização',
-      'série livros caça-palavras volumes compra recorrente catálogo',
-      'mercado caça-palavras adultos crianças audiência formatação grelha',
+      'Amazon KDP',
+      'livro de caça-palavras',
+      'sopa de letras',
+      'formatação',
+      'capa',
+      'royalties',
+      'renda passiva',
+      'nichos lucrativos',
+      'Hotmart',
     ],
-    titleTag: 'Criar livros caça-palavras KDP — Guia',
-    metaDescription: 'Crie livros de caça-palavras KDP com listas de palavras temáticas, formatos de letra grande e estratégia de séries. Tamanho de grelha e segmentação ideal.',
+    titleTag: 'Livros de caça-palavras para KDP — guia | LCS',
+    metaDescription:
+      'Crie livros de caça-palavras para Amazon KDP. Um dos nichos mais lucrativos. Formatação, temas, preços e estratégias de publicação.',
   },
 
   hero: {
     title: 'Como criar livros de caça-palavras para Amazon KDP',
     tagline: 'Um guia focado para criar e publicar livros de caça-palavras na Amazon KDP — a subcategoria de livros de puzzles mais popular na Amazon, abrangendo curadoria de listas de palavras temáticas para conteúdo coeso e envolvente, estratégia de tamanho de grelha desde formatos fáceis 12×12 até formatos avançados 20×20, a subcategoria de caça-palavras em letra grande que exige preços premium e fidelidade intensa dos compradores, posicionamento no mercado de caça-palavras para adultos versus crianças, seleção de vocabulário que distingue livros de caça-palavras profissionais de compilações amadoras, otimização de palavras-chave Amazon específica para caça-palavras, e a estratégia de séries baseada em volumes que transforma um único livro de caça-palavras num catálogo que gera receitas mensais previsíveis',
-    description: 'Os livros de caça-palavras dominam as vendas de puzzles na Amazon KDP em volume, superando palavras cruzadas, sudoku e todos os outros tipos de puzzles combinados. A categoria serve uma audiência massiva — adultos que procuram relaxamento e exercício cerebral, seniores que preferem formatos de letra grande, viajantes que querem entretenimento offline, e pais que compram atividades envolventes sem tela para os filhos. Este guia foca especificamente o que torna a publicação de livros de caça-palavras única: curadoria de listas de palavras temáticas que criam conteúdo coeso e envolvente, escolha de tamanhos de grelha adequados ao público-alvo, formatação para a subcategoria de alta procura de letra grande, e construção de um catálogo de caça-palavras multivolume que gera receitas compostas através de compras recorrentes.',
+    description: 'Crie livros de caça-palavras para Amazon KDP e aproveite um dos nichos mais lucrativos de baixo conteúdo. Este guia cobre: como formatar interiores de caça-palavras para KDP, criar capas profissionais, escolher temas que vendem, definir dificuldade progressiva e precificar para maximizar royalties. "Caça-palavras" é um dos termos mais buscados no Brasil e livros de caça-palavras vendem consistentemente na Amazon. Com o gerador do LessonCraftStudio, você cria grades de 5×5 a 30×30 com gabarito colorido. Teste grátis com marca d\'água.',
   },
 
   introduction: 'O caça-palavras é o líder indiscutível em volume entre os livros de puzzles na Amazon KDP. Milhares de novos títulos de caça-palavras são publicados todos os meses, e os mais vendidos nesta categoria mantêm vendas constantes durante todo o ano com picos sazonais durante feriados e períodos de compra de presentes. A razão pela qual os livros de caça-palavras superam outros tipos de puzzles é a acessibilidade — qualquer pessoa que saiba ler pode resolver um caça-palavras, independentemente da idade, escolaridade ou experiência com puzzles. Esta acessibilidade universal cria um conjunto de compradores que abrange todos os grupos demográficos, desde crianças do ensino primário até seniores nos seus noventa anos.\n\nO mercado de livros de caça-palavras divide-se em vários segmentos distintos, cada um com diferentes expectativas dos compradores e dinâmicas competitivas. Os livros de caça-palavras gerais para adultos são o segmento de maior volume, comprados para entretenimento diário, alívio do stress e exercício cognitivo. Os livros de caça-palavras em letra grande servem adultos e seniores que precisam de letras maiores para leitura e marcação confortáveis — esta subcategoria exige preços premium e atrai compradores recorrentes excecionalmente fiéis que consomem múltiplos volumes por mês. Os livros de caça-palavras para crianças são dirigidos a pais e vendedores que querem atividades envolventes de construção de vocabulário. As coleções temáticas de caça-palavras (animais, viagens, feriados, alimentação) captam tráfego de pesquisa baseado em interesses e sazonal que as coleções genéricas não conseguem alcançar.\n\nO que distingue um livro de caça-palavras profissional de uma compilação amadora é a qualidade da curadoria das listas de palavras. Coleções de palavras aleatórias parecem desconexas e insatisfatórias para resolver. Listas de palavras temáticas — onde cada puzzle numa secção gira em torno de um tópico coerente como vida oceânica, capitais mundiais ou termos culinários — criam uma experiência de resolução que parece intencional e gratificante. Os compradores notam esta diferença imediatamente, e isso reflete-se nas avaliações. Os livros com conteúdo temático cuidadosamente curado obtêm consistentemente classificações mais altas do que os livros preenchidos com seleções arbitrárias de palavras.\n\nEste guia concentra-se exclusivamente no que torna a publicação de livros de caça-palavras distinta da publicação geral de livros de puzzles. Para fundamentos da KDP como especificações de formatação de manuscritos, dimensões de capa, cálculos de regalias e práticas gerais de anúncios na Amazon, consulte o guia de livros de atividades de matemática KDP. Para estratégia ampla de livros de puzzles cobrindo múltiplos tipos de puzzles, formatos de livros de variedade e planeamento de catálogo entre tipos, consulte o guia de livros de puzzles KDP. Aqui focamos inteiramente a estratégia de conteúdo específica de caça-palavras, dimensionamento de grelha, o mercado de letra grande, desenvolvimento de listas de palavras temáticas, e a abordagem de catálogo baseada em volumes que torna a publicação de caça-palavras uma das fontes de receita mais fiáveis na KDP.',

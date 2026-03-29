@@ -2,29 +2,34 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'nichos livros atividades KDP',
+    primaryKeyword: 'melhores nichos de apostilas KDP 2026',
     secondaryKeywords: [
-      'melhores nichos de livros de atividades KDP para editores',
-      'categorias rentáveis de livros de atividades Amazon KDP',
-      'pesquisa de nichos KDP livros de atividades',
-      'nichos pouco explorados de livros de atividades KDP',
+      'nichos lucrativos KDP livros de atividades',
+      'melhores nichos Amazon KDP 2026',
+      'nichos de apostilas com baixa competição',
+      'pesquisa de nicho KDP atividades',
     ],
     lsiKeywords: [
-      'Amazon BSR ranking de vendas análise de concorrência procura',
-      'subcategoria livros atividades matemática puzzles colorir sopa de letras',
-      'segmentação de audiência pré-escolar crianças adultos idosos letra grande',
-      'nicho sazonal festividades regresso às aulas verão perene',
-      'validação de nicho título de teste vendas 90 dias estratégia de catálogo',
-      'híbrido multicategoria livro atividades temático sub-nicho',
+      'Amazon KDP',
+      'nichos',
+      'lucrativos',
+      'apostilas',
+      'competição',
+      'pesquisa',
+      'palavras-chave',
+      'tendências',
+      '2026',
+      'renda passiva',
     ],
-    titleTag: 'Nichos livros atividades KDP — Guia melhores opções',
-    metaDescription: 'Descubra os melhores nichos de livros de atividades KDP para editores. Análise detalhada de procura, concorrência, categorias pouco exploradas e sazonalidade.',
+    titleTag: 'Melhores nichos apostilas KDP (2026) | LCS',
+    metaDescription:
+      'Melhores nichos de apostilas para Amazon KDP em 2026. Análise de competição, tendências e oportunidades em português.',
   },
 
   hero: {
-    title: 'Melhores nichos de livros de atividades KDP para editores',
+    title: 'Melhores nichos de apostilas para Amazon KDP em 2026',
     tagline: 'Um guia de pesquisa de nichos para editores de livros de atividades na Amazon KDP — incluindo análise de procura e concorrência para cada categoria importante de livros de atividades, estratégias de segmentação de audiência que multiplicam oportunidades de nicho, interpretação de dados BSR e avaliações da Amazon para validação de nichos, sub-nichos pouco explorados com forte procura de compradores e pouca concorrência, sazonalidade de nichos sazonais versus perenes para planeamento de catálogo, nichos híbridos multicategoria que alcançam múltiplos grupos de compradores, e estratégias de portfólio multi-nicho que equilibram profundidade com diversificação',
-    description: 'Escolher o nicho certo determina se os teus livros de atividades KDP geram rendimentos consistentes ou desaparecem no catálogo da Amazon. Este guia não trata de como criar livros de atividades — os nossos outros guias KDP cobrem livros de atividades de matemática, livros de puzzles, livros de sopas de letras, formatação e estratégia de rendimentos em detalhe. Este guia centra-se na decisão que vem antes de todas essas: que categorias de livros de atividades deves visar, como avaliar se um nicho tem procura suficiente para justificar o teu esforço, e como identificar os sub-nichos específicos onde um novo editor pode competir contra títulos estabelecidos.',
+    description: 'Descubra os melhores nichos de apostilas para Amazon KDP em 2026 — onde a demanda é alta e a competição é baixa. Este guia analisa: nichos perenes vs. sazonais, como pesquisar competição e demanda, tendências emergentes em livros de atividades, nichos específicos para o mercado brasileiro em português e como validar um nicho antes de publicar. O mercado de apostilas em português no KDP está praticamente vazio comparado ao inglês — quem publicar primeiro domina. Com o LessonCraftStudio, você testa nichos rapidamente. Teste grátis com marca d\'água.',
   },
 
   introduction: 'Cada livro de atividades publicado na Amazon KDP compete dentro de um nicho específico — uma combinação de tipo de conteúdo, audiência-alvo e intenção de compra que determina em que resultados de pesquisa o livro aparece, quem o vê e se o compra. A diferença entre escolher o nicho certo e o errado não é marginal. Um nicho bem escolhido pode gerar de 200 a 500 dólares por mês de um único título. Um nicho mal escolhido pode deixar um livro igualmente bom a ganhar 5 dólares por mês indefinidamente, independentemente da qualidade do conteúdo ou do design da capa.\n\nO mercado de livros de atividades KDP contém dezenas de nichos distintos, cada um com a sua própria curva de procura, densidade competitiva e potencial de lucro. Cadernos de matemática, coleções de sopas de letras, puzzles de sudoku, livros para colorir, prática de caligrafia, labirintos, exercícios de desenho, palavras cruzadas — cada categoria tem subcategorias, e cada subcategoria tem segmentos de audiência. Um \"livro de sopas de letras\" não é um único nicho; é uma dúzia de nichos: sopas de letras para crianças dos 4 aos 6 anos, sopas de letras para adultos, sopas de letras em letra grande para idosos, sopas de letras temáticas (animais, viagens, festividades), sopas de letras em idiomas específicos, e mais. Cada variação visa pesquisas diferentes na Amazon, enfrenta concorrência diferente e gera rendimentos diferentes.\n\nA maioria dos novos editores de KDP salta a pesquisa de nichos por completo. Criam o tipo de livro de atividades que pessoalmente apreciam, publicam-no e esperam que o algoritmo da Amazon encontre compradores. Esta abordagem de produto primeiro funciona ocasionalmente por sorte, mas falha muito mais vezes do que tem sucesso. A abordagem de nicho primeiro inverte o processo: identifica onde existe procura de compradores mas a concorrência é escassa, depois cria conteúdo especificamente para essa lacuna. Isto não significa perseguir tendências ou manipular o sistema — significa tomar decisões informadas sobre onde o teu esforço editorial gerará o maior retorno.\n\nEste guia acompanha-te em todo o processo de pesquisa e validação de nichos para livros de atividades KDP. Para instruções sobre criação de conteúdo depois de escolheres o teu nicho, consulta o guia de livros de atividades de matemática KDP, o guia de livros de puzzles ou o guia de livros de sopas de letras. Para especificações de formatação, consulta o guia de formatação KDP. Para estratégia de rendimentos e preços, consulta o guia de rendimentos KDP. Aqui cobrimos a questão fundamental que esses guias assumem que já respondeste: que nichos deves visar?',

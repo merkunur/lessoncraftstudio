@@ -2,29 +2,34 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'criar páginas para colorir Etsy',
+    primaryKeyword: 'criar desenhos para colorir que vendem no Etsy',
     secondaryKeywords: [
-      'como vender páginas para colorir no Etsy',
-      'configurar loja Etsy de páginas para colorir',
-      'negócio de páginas para colorir imprimíveis no Etsy',
-      'vender desenhos para colorir no Etsy',
+      'como criar páginas de colorir para Etsy',
+      'desenhos para colorir que vendem Etsy',
+      'nicho de colorir no Etsy',
+      'livros de colorir Etsy dicas',
     ],
     lsiKeywords: [
-      'otimização de anúncios Etsy para downloads digitais de páginas para colorir',
-      'estratégia de preços pacotes de páginas para colorir vendedores Etsy',
-      'etiquetas SEO Etsy para produtos imprimíveis de páginas para colorir',
-      'vender desenhos para colorir temáticos Etsy loja crianças adultos',
-      'procura sazonal festividades páginas para colorir imprimíveis Etsy',
-      'fotos de anúncios mockups para produtos de páginas para colorir Etsy',
+      'Etsy',
+      'desenhos para colorir',
+      'páginas de colorir',
+      'imprimíveis',
+      'vendedor',
+      'KDP',
+      'licença comercial',
+      'renda extra',
+      'Hotmart',
+      'escala de cinza',
     ],
-    titleTag: 'Criar páginas para colorir Etsy que vendem — Guia',
-    metaDescription: 'Crie páginas para colorir Etsy a partir de 104 temas de imagens. Exportações P&B e escala de cinza, otimização de anúncios, preços para pacotes temáticos.',
+    titleTag: 'Colorir que vendem no Etsy — guia | LCS',
+    metaDescription:
+      'Crie desenhos para colorir que vendem no Etsy. Temas, preços, pacotes e dicas de SEO para maximizar vendas de páginas de colorir.',
   },
 
   hero: {
-    title: 'Como criar páginas para colorir Etsy que vendem',
+    title: 'Criar desenhos para colorir que vendem no Etsy',
     tagline: 'Um guia completo de plataforma para construir uma loja Etsy rentável a vender páginas para colorir criadas a partir de 104 bibliotecas de imagens temáticas — abrangendo configuração de loja Etsy, otimização SEO com as 13 etiquetas, títulos e descrições que se posicionam para termos de pesquisa de compradores de páginas para colorir, fotografia de produtos mostrando arte P&B e variedade temática, estratégias de preços para páginas individuais e coleções temáticas, timing sazonal para picos de procura de festividades e regresso às aulas, planeamento de catálogo entre demografias de crianças e colorir adulto, oportunidades de crossover para livros de colorir no KDP, e otimização contínua usando as Estatísticas do Etsy',
-    description: 'As páginas para colorir são uma das categorias de produtos imprimíveis com maior procura e mais perenes no Etsy, compradas por pais, vendedores, terapeutas, coordenadores de atividades seniores e entusiastas de colorir adulto. Este guia percorre cada passo da construção de uma loja Etsy que vende páginas para colorir — desde pesquisar a procura dos compradores entre demografias de crianças e adultos, através da geração de inventário a partir de 104 bibliotecas de imagens temáticas, até escrever anúncios otimizados, criar fotos de anúncio que mostrem eficazmente arte em traço, definir preços para páginas individuais e coleções temáticas, e lançar a loja. Irá aprender como as páginas para colorir diferem de outras categorias de imprimíveis pelo seu apelo visual universal, demografias amplas de compradores, padrões de procura sazonal e potencial significativo de crossover para Amazon KDP.',
+    description: 'Aprenda a criar desenhos para colorir que realmente vendem no Etsy. Páginas de colorir são um dos nichos mais lucrativos de imprimíveis — baixo custo de produção, alta demanda e compradores recorrentes. Este guia cobre: como escolher temas que vendem, criar pacotes temáticos atraentes, otimizar listagens com SEO do Etsy e precificar para maximizar lucros. Com o gerador do LessonCraftStudio, você cria páginas de colorir com mais de 3.000 imagens em 104 temas e modo escala de cinza para livros KDP. Teste grátis com marca d\'água — sem cadastro.',
   },
 
   introduction: 'As páginas para colorir ocupam uma posição privilegiada no marketplace de imprimíveis do Etsy. Ao contrário de atividades de matemática que visam níveis escolares específicos ou caça-palavras que requerem vocabulário específico de cada língua, as páginas para colorir são produtos puramente visuais. O conteúdo de uma página para colorir — arte em traço de animais, veículos, alimentos, cenas da natureza — transcende as barreiras linguísticas inteiramente. Uma página para colorir com um gato funciona igualmente bem para uma criança em Lisboa, um reformado em Londres ou um paciente de terapia em Munique. Esta universalidade visual cria um mercado endereçável excecionalmente amplo a partir de um único produto.\n\nA procura por páginas para colorir imprimíveis no Etsy abrange uma demografia de compradores excecionalmente ampla. Os pais compram pacotes temáticos de páginas para colorir para dias de chuva, viagens de carro, esperas em restaurantes e atividades offline que substituem o tempo de tela. Os vendedores compram conjuntos para atividades matinais, recompensas e celebrações temáticas de festividades. As famílias de ensino doméstico usam páginas para colorir para desenvolvimento de motricidade fina e como atividades de relaxamento entre lições focadas. Os terapeutas ocupacionais compram atividades de colorir para exercícios de força e coordenação das mãos. Os coordenadores de atividades seniores compram páginas para colorir com imagens grandes para programas de estímulo cognitivo. Os entusiastas adultos de colorir compram designs intrincados e detalhados para relaxamento pessoal e prática de mindfulness. Cada um destes segmentos de compradores pesquisa usando palavras-chave diferentes, criando múltiplos pontos de entrada para a sua loja.\n\nO nicho de páginas para colorir tem uma vantagem estrutural que muitos vendedores ignoram: velocidade de produção. Porque as páginas para colorir não requerem chaves de resposta, calibração de dificuldade ou alinhamento curricular, pode criar produtos acabados significativamente mais rápido do que a maioria das outras categorias de imprimíveis. O Gerador de Páginas para Colorir converte imagens temáticas em páginas para colorir prontas para impressão em P&B ou escala de cinza com um único botão. Esta eficiência de produção significa que pode construir um catálogo substancial rapidamente — uma vantagem crítica no Etsy onde o volume de anúncios correlaciona-se diretamente com a visibilidade da loja.\n\nO Etsy recompensa lojas que demonstram profundidade de categoria através de anúncios consistentes e relacionados. Uma loja dedicada de páginas para colorir com 30 a 50 anúncios temáticos sinaliza especialização profunda de nicho ao algoritmo. Este foco de categoria melhora a pontuação de qualidade da loja e ajuda o Etsy a recomendar os seus produtos a compradores que navegam anúncios semelhantes de concorrentes. Combinado com uso adequado de etiquetas em todos os 13 espaços disponíveis, uma loja focada em páginas para colorir pode alcançar forte visibilidade orgânica semanas após o lançamento.\n\nAs páginas para colorir também têm excecional potencial de crossover para Amazon KDP. Os mesmos designs de páginas para colorir que vendem como downloads digitais individuais no Etsy podem ser compilados em livros de colorir temáticos para publicação no KDP. Muitos vendedores bem-sucedidos operam em ambas as plataformas simultaneamente — Etsy para downloads temáticos individuais e KDP para livros de colorir compilados. Esta abordagem bi-plataforma maximiza a receita de cada página para colorir que cria.\n\nTodas as funcionalidades descritas neste guia estão disponíveis no teste grátis com marca d\'água. Pode criar páginas para colorir completas, testar o modo escala de cinza, experimentar todas as ferramentas do canvas e avaliar a qualidade de saída antes de adquirir uma licença comercial.',

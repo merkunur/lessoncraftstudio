@@ -2,29 +2,34 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'formatação KDP atividades',
+    primaryKeyword: 'formatação KDP para livros de atividades guia',
     secondaryKeywords: [
-      'guia de formatação KDP para livros de atividades',
-      'especificações de formatação de manuscrito Amazon KDP',
-      'tamanho de corte margens sangria KDP livros de atividades',
-      'exportação PDF pronto para imprimir KDP livros de atividades',
+      'como formatar interior KDP atividades',
+      'tamanho de corte KDP apostilas',
+      'margens e sangria KDP livros atividades',
+      'PDF interior KDP formatação guia',
     ],
     lsiKeywords: [
-      'tamanho de corte KDP 8,5×11 6×9 8×10 layout interior atividades',
-      'margens de manuscrito costura encadernação zona segura área de sangria',
-      'exportação PDF 300 DPI incorporação de fontes escala de cinzentos CMYK',
-      'dimensões de capa KDP largura da lombada zona de código de barras calculadora',
-      'numeração de páginas páginas iniciais finais índice',
-      'erros de carregamento KDP rejeição resolução de problemas pré-visualizador prova',
+      'Amazon KDP',
+      'formatação',
+      'interior',
+      'tamanho de corte',
+      'margens',
+      'sangria',
+      'PDF',
+      'apostila',
+      'livro de atividades',
+      'impressão',
     ],
-    titleTag: 'Formatação KDP atividades — Guia completo',
-    metaDescription: 'Guia de formatação KDP que abrange tamanhos de corte, margens, definições de sangria, exportação PDF a 300 DPI, dimensões de capa e resolução de problemas.',
+    titleTag: 'Formatação KDP livros de atividades | LCS',
+    metaDescription:
+      'Guia de formatação KDP para livros de atividades. Tamanho de corte, margens, sangria, resolução e PDF interior. Passo a passo.',
   },
 
   hero: {
-    title: 'Guia de formatação KDP para livros de atividades',
+    title: 'Formatação KDP para livros de atividades — guia completo',
     tagline: 'A referência técnica definitiva para formatar livros de atividades e atividades para Amazon KDP — incluindo seleção de tamanho de corte para diferentes tipos de atividade, cálculos de margens e costura para espaço de escrita confortável, configuração de sangria versus sem sangria, exportação de PDF pronto para imprimir a 300 DPI com fontes incorporadas, cálculos de dimensões de capa incluindo largura da lombada e zonas de código de barras, montagem completa do manuscrito desde as páginas iniciais até às secções de soluções, e resolução das rejeições e erros de formatação mais comuns do KDP',
-    description: 'Um livro de atividades perfeitamente concebido não serve de nada se o KDP rejeitar o manuscrito ou se o resultado impresso tiver texto a desaparecer na encadernação, margens demasiado estreitas para as crianças escreverem, ou imagens desfocadas por exportação de baixa resolução. Este guia abrange as especificações técnicas de formatação que separam uma publicação KDP profissional de uma amadora — as medidas exatas, configurações e procedimentos de exportação que garantem que os teus livros de atividades e atividades sejam impressos corretamente sempre. Para estratégias de criação de conteúdo e planeamento de negócio, consulta os nossos outros guias KDP. Este guia é puramente técnico: especificações do manuscrito, layout de página, preparação do PDF, dimensões de capa e resolução de problemas de carregamento.',
+    description: 'Domine a formatação KDP para livros de atividades e evite rejeições. Este guia técnico cobre: tamanhos de corte recomendados para apostilas (8.5×11, 8×10, 6×9), configuração de margens e sangria, resolução mínima (300 DPI), criação do PDF interior, como montar a capa com a calculadora de lombada do KDP e checklist de pré-publicação. Formatação incorreta é o motivo número um de rejeições no KDP. Com o LessonCraftStudio, suas exportações já saem em 300 DPI nos formatos corretos. Teste grátis com marca d\'água.',
   },
 
   introduction: 'A formatação é onde a maioria dos editores KDP principiantes perdem horas em erros evitáveis. Desenham páginas de atividades bonitas na sua ferramenta de design favorita, carregam-nas no KDP e descobrem que as margens são demasiado pequenas, a resolução do PDF é insuficiente, as dimensões da capa estão incorretas ou o número de páginas está fora do intervalo aceite pelo KDP. Cada rejeição significa mais uma ronda de correções, re-exportação e re-carregamento — atrasos que se acumulam quando se está tentando construir um catálogo de forma eficiente.\n\nOs livros de atividades e atividades têm exigências de formatação mais rigorosas do que os livros de texto convencionais. Um romance precisa de margens adequadas para uma leitura confortável. Um livro de atividades precisa de margens adequadas para uma escrita confortável — crianças a segurar lápis, adultos a rodear palavras em grelhas de puzzles, compradores a resolver problemas de matemática em espaços designados para respostas. Os requisitos de margens são maiores, a precisão do layout importa mais, e as consequências de errar são imediatamente visíveis no produto impresso.\n\nEste guia fornece as especificações exatas de que precisas em cada etapa do processo de formatação. A seleção do tamanho de corte vem primeiro porque determina cada medida subsequente. As margens e zonas seguras vêm em segundo porque definem a tua área de conteúdo utilizável. O layout de página para diferentes tipos de atividade vem em terceiro porque as atividades, os puzzles e as páginas para colorir têm, cada um, requisitos de espaçamento únicos. A configuração de sangria, as definições de exportação do PDF, as dimensões da capa, a montagem do manuscrito e a resolução de problemas de carregamento completam o fluxo de trabalho.\n\nPara orientação sobre criação de conteúdo — que tipos de atividades criar, como estruturar a progressão de dificuldade, que temas vendem melhor — consulta o guia de livros de atividades de matemática KDP. Para estratégia de negócio — preços, planeamento de catálogo, otimização de receitas — consulta o guia de ganhar dinheiro com livros de atividades KDP. Para planeamento de conteúdo específico de puzzles, consulta os guias de livros de puzzles e caça-palavras. Este guia assume que tens conteúdo pronto e foca-se exclusivamente em formatá-lo corretamente para a produção de impressão KDP.',

@@ -2,29 +2,35 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'vender recursos Hotmart',
+    primaryKeyword: 'vender atividades na Hotmart e Tá Pronto',
     secondaryKeywords: [
-      'como vender na Hotmart',
-      'criar recursos Hotmart para vendedores',
-      'guia de vendedor Hotmart para atividades imprimíveis',
-      'configurar loja Hotmart',
+      'como vender atividades na Hotmart',
+      'vender material didático Tá Pronto',
+      'Hotmart para vendedores de atividades',
+      'plataformas brasileiras para imprimíveis',
     ],
     lsiKeywords: [
-      'marketplace vendedores recursos loja download digital materiais didáticos',
-      'conta vendedor Hotmart plano premium comissão royalty estrutura de pagamentos',
-      'recursos alinhados com padrões nível escolar área disciplinar tipo de recurso categorização',
-      'pré-visualização produto miniatura capa termos de uso chave de respostas',
-      'algoritmo pesquisa Hotmart etiquetas título descrição visibilidade posicionamento',
-      'pacote atividades unidade curricular packs atividades estratégia de preços',
+      'Hotmart',
+      'Tá Pronto',
+      'Kiwify',
+      'Eduzz',
+      'atividades educativas',
+      'material didático',
+      'vendedor',
+      'infoprodutos',
+      'PIX',
+      'renda extra',
+      'Brasil',
     ],
-    titleTag: 'Criar e vender recursos Hotmart — Guia',
-    metaDescription: 'Como criar e vender recursos Hotmart. Configuração de conta, formatação de recursos, otimização de anúncios, preços e como construir impulso no Teachers Pay.',
+    titleTag: 'Vender atividades na Hotmart e Kiwify | LCS',
+    metaDescription:
+      'Guia para vender atividades educativas na Hotmart, Kiwify e Tá Pronto. Plataformas brasileiras para vendedores de imprimíveis.',
   },
 
   hero: {
-    title: 'Como criar e vender recursos na Hotmart',
+    title: 'Como vender atividades na Hotmart, Kiwify e Tá Pronto',
     tagline: 'Um guia completo para vender recursos educativos na Hotmart — incluindo configuração de conta e loja, criação de recursos prontos para Hotmart com formatação adequada, empacotamento de arquivos para carregamento, escrita de anúncios que se posicionem nas pesquisas de vendedores, criação de pré-visualizações e miniaturas eficazes, estratégia de preços para o marketplace educativo, e lançamento dos seus primeiros recursos para construir impulso de loja e receitas consistentes',
-    description: 'O Hotmart (Hotmart) é um marketplace de vendedor para vendedor onde vendedores compram e vendem recursos educativos originais. Ao contrário de marketplaces gerais como o Etsy ou plataformas de impressão a pedido como o Amazon KDP, cada comprador na Hotmart é um vendedor à procura ativa de materiais prontos para a loja. Isto cria um público excepcionalmente direcionado com necessidades específicas: conteúdo alinhado com padrões curriculares, atividades adequadas ao nível escolar e recursos que funcionam em salas de aula reais com preparação mínima. Este guia acompanha-o por todo o percurso, desde a configuração da sua conta de vendedor Hotmart até à publicação dos seus primeiros recursos e à construção do impulso que transforma uma loja nova numa fonte de receitas consistente.',
+    description: 'Aprenda a vender atividades educativas nas principais plataformas brasileiras: Hotmart, Kiwify, Tá Pronto e Eduzz. Este guia é essencial para o mercado brasileiro — a Hotmart é a plataforma dominante para infoprodutos no Brasil com mais de 500.000 produtos e pagamento via PIX. A Kiwify cresce explosivamente com taxas menores. O Tá Pronto é o "Teachers Pay Teachers brasileiro", específico para materiais didáticos. Cada plataforma tem suas vantagens: este guia cobre como configurar, precificar e vender em cada uma. Teste grátis com marca d\'água — sem cadastro.',
   },
 
   introduction: 'O Hotmart destaca-se de todas as outras plataformas para vender conteúdo educativo imprimível. No Etsy, os seus compradores são uma mistura de pais, vendedores domésticos, vendedores e compradores de presentes a navegar num marketplace geral massivo. No Amazon KDP, os seus compradores são consumidores a adquirir livros físicos. No Hotmart, os seus compradores são quase exclusivamente vendedores de loja, administradores escolares, especialistas curriculares e vendedores domésticos — pessoas que sabem exatamente o que precisam e avaliam recursos através de uma perspetiva profissional.\n\nEsta distinção molda tudo sobre como cria, empacota, define preços e promove os seus recursos na Hotmart. Os vendedores que pesquisam na Hotmart filtram por nível escolar, área disciplinar, tipo de recurso e padrões educativos. Esperam formatação profissional com objetivos de aprendizagem claros, chaves de resposta completas e instruções para implementação online. Avaliam recursos usando a funcionalidade de pré-visualização, examinando páginas de exemplo antes de comprar. E partilham recomendações com colegas, criando impulso boca-a-boca que nenhuma otimização SEO consegue replicar.\n\nA estrutura de comissões da Hotmart recompensa vendedores dedicados. O plano Básico sem custos permite-lhe ficar com 45% de cada venda — o Hotmart fica com uma comissão de 55%. O plano Premium custa $59,95 por ano mas aumenta a sua parte para 80% de cada venda, com o Hotmart a ficar apenas com 20%. Para qualquer vendedor que espere mais de aproximadamente $150 em vendas anuais, o Premium compensa-se rapidamente e melhora drasticamente as suas margens em cada venda subsequente.\n\nO Hotmart também oferece funcionalidades integradas que outras plataformas não têm para vendedores educativos. Pode etiquetar recursos com padrões educativos específicos (Common Core, padrões estaduais, NGSS), atribuir intervalos de nível escolar detalhados, categorizar por disciplina e tipo de recurso, e oferecer pacotes personalizados que permitem aos compradores selecionar múltiplos recursos com desconto. Estas funcionalidades significam que os compradores encontram exatamente o que precisam através de filtragem precisa em vez de adivinhação por palavras-chave, e os seus recursos aparecem em pesquisas relevantes automaticamente quando devidamente categorizados.\n\nEste guia abrange o processo completo de se tornar vendedor Hotmart: configuração de conta, criação de recursos, empacotamento de arquivos, otimização de anúncios, criação de pré-visualizações, estratégia de preços e táticas de lançamento. Para vendedores já ativos no Etsy ou KDP, este guia foca-se no que torna o Hotmart diferente — os requisitos específicos para vendedores, as funcionalidades exclusivas da plataforma e as expectativas do público vendedor que exigem uma abordagem específica para o Hotmart em vez de simplesmente replicar os seus anúncios existentes de outras plataformas.',

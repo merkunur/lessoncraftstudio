@@ -2,29 +2,35 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'abrir loja etsy de imprimíveis do zero',
+    primaryKeyword: 'abrir loja de imprimíveis no Etsy guia',
     secondaryKeywords: [
-      'como abrir uma loja de imprimíveis no Etsy',
-      'configurar loja Etsy imprimíveis do zero',
-      'começar a vender imprimíveis no Etsy',
-      'loja Etsy de downloads digitais para principiantes',
+      'como abrir loja Etsy de imprimíveis',
+      'guia iniciante loja Etsy imprimíveis',
+      'criar loja Etsy atividades educativas',
+      'passo a passo loja Etsy Brasil',
     ],
     lsiKeywords: [
-      'configuração conta vendedor Etsy downloads digitais atividades imprimíveis',
-      'branding loja imprimíveis otimização anúncios Etsy novos vendedores',
-      'comissões Etsy estratégia preços produtos imprimíveis educativos',
-      'SEO Etsy etiquetas títulos descrições anúncios atividades imprimíveis',
-      'políticas loja downloads digitais reembolsos vendedores Etsy',
-      'estratégia lançamento loja Etsy imprimíveis plano primeiros 30 dias crescimento',
+      'Etsy',
+      'loja',
+      'imprimíveis',
+      'atividades educativas',
+      'iniciante',
+      'passo a passo',
+      'SEO',
+      'preços',
+      'licença comercial',
+      'renda extra',
+      'Hotmart',
     ],
-    titleTag: 'Abrir loja Etsy de imprimíveis do zero — Guia',
-    metaDescription: 'Aprenda a abrir uma loja Etsy de imprimíveis do zero com 33 geradores. Configuração, branding, otimização de anúncios, preços, comissões e plano de 30 dias.',
+    titleTag: 'Abrir loja de imprimíveis no Etsy | LCS',
+    metaDescription:
+      'Guia passo a passo para abrir sua loja de imprimíveis no Etsy. Da criação da conta às primeiras vendas. Comece hoje com teste grátis.',
   },
 
   hero: {
-    title: 'Como abrir uma loja de imprimíveis no Etsy do zero',
+    title: 'Como abrir uma loja de imprimíveis no Etsy — passo a passo',
     tagline: 'Um guia completo de plataforma para lançar a sua primeira loja Etsy vendendo imprimíveis educativos criados com 33 geradores especializados — abrangendo cadastro de conta Etsy passo a passo, branding de loja e design de banner, configuração de políticas para produtos digitais, otimização de perfil para pesquisa, compreensão da estrutura de comissões do Etsy e impacto na estratégia de preços, criação do seu primeiro anúncio com título otimizado e todas as 13 etiquetas, fotografia de produto para downloads digitais, planeamento do catálogo de lançamento com cobertura de 6 categorias, e um plano de 30 dias para os primeiros meses críticos de crescimento',
-    description: 'Se nunca vendeu nada no Etsy, abrir uma loja de imprimíveis pode parecer intimidante — há opções de configuração, decisões de políticas, otimização de anúncios, estruturas de comissões e concorrência para navegar. Este guia percorre cada passo desde a criação da conta até ao seu primeiro anúncio ativo, especificamente adaptado para vendedores de imprimíveis educativos. Irá aprender como os downloads digitais funcionam de forma diferente dos produtos físicos no Etsy, como configurar as políticas da loja para minimizar disputas, como criar um anúncio otimizado que se posicione desde o primeiro dia, e como planear os seus primeiros 30 dias para construir momentum. Se tem 33 geradores prontos a criar inventário, este guia é o que o separa de ter uma loja Etsy ativa a aceitar encomendas.',
+    description: 'Aprenda a abrir sua loja de imprimíveis educativos no Etsy do zero, mesmo sem experiência. Este guia cobre cada etapa: criar conta, configurar a loja, criar suas primeiras listagens, otimizar para SEO do Etsy, definir preços competitivos e fazer as primeiras vendas. O Etsy é uma das melhores plataformas para vendedores brasileiros que querem alcançar o mercado global — e atividades educativas em português têm competição quase nula. Com os geradores do LessonCraftStudio, você cria produtos profissionais instantaneamente. Teste grátis com marca d\'água — sem cadastro.',
   },
 
   introduction: 'O Etsy é o maior marketplace de imprimíveis educativos por uma razão: os compradores já estão lá, ativamente à procura de atividades, puzzles, páginas para colorir e atividades de aprendizagem. Ao contrário de um website próprio onde precisa de construir tráfego do zero, o Etsy traz compradores até si através do seu motor de pesquisa interno. A sua tarefa é construir uma loja que o Etsy consiga compreender, categorizar e recomendar a esses compradores.\n\nVender imprimíveis como downloads digitais no Etsy difere fundamentalmente de vender produtos físicos. Não há envio para gerir, não há inventário para armazenar, e o custo marginal de cada venda é efetivamente zero — o mesmo arquivo PDF é entregue a cada comprador automaticamente. Esta estrutura de custos significa que o preço é quase todo margem, o que torna os imprimíveis uma das categorias mais rentáveis no Etsy para novos vendedores.\n\nNo entanto, a barreira de entrada baixa para imprimíveis digitais significa que a concorrência é real. A forma de se destacar não é tendo o preço mais baixo — é tendo o catálogo mais profundo, a fotografia mais profissional e a cobertura de pesquisa mais abrangente. É aqui que os 33 geradores em 6 categorias educativas se tornam a sua vantagem competitiva: permitem-lhe construir um catálogo diversificado e substancial mais rapidamente do que vendedores que criam cada produto manualmente.\n\nEste guia assume que nunca configurou uma loja Etsy antes. Se já tem uma loja ativa e quer adicionar imprimíveis educativos, pode saltar a configuração de conta e ir diretamente para as secções de otimização de anúncios e estratégia de catálogo.\n\nTodas as funcionalidades descritas neste guia estão disponíveis no teste grátis com marca d\'água. Pode criar produtos de amostra de todos os 33 geradores, testar configurações e avaliar a qualidade de saída antes de adquirir uma licença comercial.',

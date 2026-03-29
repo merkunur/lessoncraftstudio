@@ -2,29 +2,34 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'vender imprimíveis na Hotmart',
+    primaryKeyword: 'vender imprimíveis no Gumroad guia',
     secondaryKeywords: [
-      'como vender imprimíveis na Hotmart',
-      'configurar negócio de imprimíveis Hotmart',
-      'vender transferências digitais na Hotmart',
-      'Hotmart para vendedores de imprimíveis',
+      'como vender imprimíveis no Gumroad',
+      'Gumroad para vendedores de atividades',
+      'guia Gumroad imprimíveis educativos',
+      'vender PDFs no Gumroad',
     ],
     lsiKeywords: [
-      'plataforma vendas diretas criador transferências digitais entrega instantânea lista correio',
-      'loja Hotmart marca página produto imagem capa descrição otimização',
-      'preços paga o que quiser códigos desconto links oferta preços escalonados',
-      'email marketing construção audiência lista seguidores atualizações produto boletins',
-      'tráfego redes sociais Pinterest Instagram blogue conteúdo SEO promoção',
-      'pacotes produtos subscrições planos aderência receitas recorrentes escalonamento catálogo',
+      'Gumroad',
+      'imprimíveis',
+      'atividades educativas',
+      'vendedor',
+      'preços',
+      'pagamentos',
+      'marketing',
+      'renda extra',
+      'Hotmart',
+      'Etsy',
     ],
-    titleTag: 'Como vender imprimíveis na Hotmart — Guia',
-    metaDescription: 'Como vender imprimíveis na Hotmart sem taxas mensais. Configure a sua loja, estratégias de preços, email marketing e relações diretas com os seus compradores.',
+    titleTag: 'Vender imprimíveis no Gumroad — guia | LCS',
+    metaDescription:
+      'Guia para vender imprimíveis educativos no Gumroad. Configuração, preços, marketing e dicas para maximizar vendas.',
   },
 
   hero: {
-    title: 'Como vender imprimíveis na Hotmart',
+    title: 'Como vender imprimíveis educativos no Gumroad',
     tagline: 'Um guia completo para vender atividades imprimíveis e recursos educativos diretamente a compradores através da Hotmart — cobrindo configuração de loja, criação de produtos, opções de preços flexíveis incluindo paga o que quiser, email marketing integrado para construção de audiência, estratégias de geração de tráfego para uma plataforma direta do criador, otimização de páginas de produto para maior conversão, e escalonamento com pacotes e planos de aderência para receitas recorrentes',
-    description: 'O Hotmart é fundamentalmente diferente das plataformas de marketplace como o Etsy, a Amazon KDP ou o Hotmart. Nessas plataformas, a pesquisa integrada impulsiona a descoberta — os compradores navegam no marketplace e encontram os seus produtos através de algoritmos. No Hotmart, você é o marketplace. Traz a sua própria audiência, é proprietário da relação com o cliente e fica com os endereços de email dos compradores para marketing direto. Este guia cobre tudo o que precisa para vender imprimíveis na Hotmart com sucesso, desde a configuração inicial da loja até ao escalonamento com pacotes e planos de aderência.',
+    description: 'Aprenda a vender imprimíveis educativos no Gumroad — uma plataforma simples e direta para criadores digitais. Este guia cobre: como configurar sua página de vendas, definir preços, aceitar pagamentos internacionais, promover seus produtos e construir uma audiência. O Gumroad é uma boa opção complementar às plataformas brasileiras (Hotmart, Kiwify) e ao Etsy, especialmente para vendedores que querem controle total sobre a experiência de compra. Com o LessonCraftStudio, você cria produtos profissionais em minutos. Teste grátis com marca d\'água — sem cadastro.',
   },
 
   introduction: 'A maioria dos vendedores de imprimíveis começa em plataformas de marketplace onde o tráfego de pesquisa integrado faz o trabalho pesado. O Etsy tem milhões de compradores ativos a navegar à procura de transferências digitais. A Amazon KDP apresenta os seus livros de atividades a leitores através do seu motor de recomendações. O Hotmart liga os seus recursos a vendedores que pesquisam ativamente por ano escolar e disciplina. Estes marketplaces proporcionam descoberta, mas também controlam a relação com o cliente, cobram comissões significativas e podem alterar os seus algoritmos ou políticas a qualquer momento.\n\nO Hotmart funciona com um modelo completamente diferente. Não existe pesquisa de marketplace, nenhuma classificação algorítmica dos seus produtos face a concorrentes e nenhum mecanismo de descoberta controlado pela plataforma. Em vez disso, o Hotmart oferece-lhe uma loja limpa e personalizável onde vende diretamente a compradores que traz através dos seus próprios esforços de marketing. A contrapartida é simples: faz mais trabalho para gerar tráfego, mas mantém mais controlo sobre o seu negócio e as suas relações com clientes.\n\nEsta contrapartida merece uma reflexão séria para vendedores de imprimíveis em qualquer fase. O Hotmart cobra zero taxas mensais — paga uma taxa fixa de 10% apenas quando realiza uma venda. Compare com as taxas de anúncio, taxas de transação, taxas de processamento de pagamento e custos de publicidade do Etsy que podem consumir 20% a 30% da sua receita. Compare com os cortes de royalty de 40% a 65% da Amazon KDP em livros de atividades. No Hotmart, fica com 90% de cada venda após processamento de pagamento, e sabe exatamente quais são os seus custos antes de precificar um único produto.\n\nMas a vantagem financeira não é nem sequer o maior ponto forte da Hotmart para vendedores de imprimíveis que constroem um negócio a longo prazo. O valor real são os dados do cliente. Quando alguém compra a sua atividade imprimível no Etsy, o Etsy é proprietário dessa relação com o cliente. Não pode enviar um email a esse comprador sobre os seus novos produtos, oferecer-lhe um desconto num recurso relacionado nem construir qualquer ligação direta. No Hotmart, recebe o endereço de email do comprador a cada compra. Pode enviar emails aos seus clientes sobre novos lançamentos, oferecer códigos de desconto exclusivos a compradores recorrentes e construir uma audiência que nenhuma alteração de plataforma pode retirar.\n\nO Hotmart também oferece flexibilidade de preços que as plataformas de marketplace não conseguem igualar. Pode definir preços fixos, oferecer preços de paga o que quiser com um mínimo, criar preços escalonados para diferentes tipos de licença, gerar códigos de desconto únicos para promoções e usar links de oferta que aplicam descontos automaticamente. Esta flexibilidade permite-lhe experimentar estratégias de preços impossíveis em plataformas com estruturas de preços rígidas.\n\nEste guia foi concebido para vendedores de imprimíveis que pretendem adicionar o Hotmart como canal de vendas ou construir o seu negócio principal na plataforma. Quer já esteja a vender no Etsy ou na Hotmart e queira diversificar, quer esteja a começar do zero e prefira o modelo direto do criador, as estratégias abaixo levarão desde a configuração da conta até à construção de um negócio escalável de imprimíveis na Hotmart. Se estiver a comparar plataformas para decidir onde vender, o nosso guia sobre Amazon KDP ou Etsy cobre em detalhe a comparação de marketplaces — adicionar o Hotmart como canal de vendas diretas complementa qualquer uma das abordagens de marketplace.',

@@ -2,29 +2,35 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'livros atividades matemática KDP',
+    primaryKeyword: 'criar apostilas de matemática para Amazon KDP',
     secondaryKeywords: [
-      'como criar livros de atividades de matemática para Amazon KDP',
-      'guia de publicação de cadernos de matemática KDP',
-      'publicar livros de atividades de matemática na Amazon',
-      'livro de atividades de matemática Amazon KDP',
+      'como publicar apostila de matemática KDP',
+      'livro de atividades de matemática Amazon',
+      'apostila de exercícios KDP guia',
+      'caderno de matemática Amazon KDP',
     ],
     lsiKeywords: [
-      'formatação de manuscrito KDP tamanho de corte páginas interiores livro de atividades',
-      'design de capa de livro Amazon largura de lombada calculadora modelo',
-      'otimização de palavras-chave KDP categorias de pesquisa livros de matemática',
-      'estratégia de preços regalias impressão a pedido livros de atividades',
-      'número de páginas caderno matemática progressão de dificuldade chaves de respostas',
-      'processo de revisão publicação KDP prova de impressão cópias de autor',
+      'Amazon KDP',
+      'apostila',
+      'livro de atividades',
+      'matemática',
+      'formatação',
+      'ISBN',
+      'capa',
+      'interior',
+      'royalties',
+      'renda passiva',
+      'Hotmart',
     ],
-    titleTag: 'Criar livros atividades matemática KDP — Guia',
-    metaDescription: 'Aprenda a criar livros de atividades de matemática que os editores KDP usam para ganhar regalias. Formatação de manuscrito, design de capa e otimização.',
+    titleTag: 'Apostilas de matemática para Amazon KDP | LCS',
+    metaDescription:
+      'Guia para criar apostilas de matemática para Amazon KDP. Formatação, capa, preços e estratégias para vender livros de atividades.',
   },
 
   hero: {
-    title: 'Como criar livros de atividades de matemática para Amazon KDP',
+    title: 'Como criar apostilas de matemática para Amazon KDP',
     tagline: 'Um guia completo de publicação para criar e vender livros de atividades de matemática na Amazon KDP — incluindo formatação de manuscrito com tamanhos de corte e margens adequadas, design de capa com cálculos de largura de lombada, otimização de campos de palavras-chave da Amazon nas 7 ranhuras, seleção de categorias de pesquisa para máxima visibilidade, estratégia de preços com regalias a 35 e a 60 por cento, planeamento de conteúdo com progressão de dificuldade em 40 a 80 páginas interiores, colocação de chaves de respostas, economia de impressão a pedido, encomenda de provas e construção de uma série de cadernos de matemática relacionados que se promovam mutuamente na Amazon',
-    description: 'A Amazon KDP permite-lhe publicar livros de atividades de matemática em impressão a pedido sem custos de impressão iniciais nem gestão de inventário. Este guia acompanha-o em cada passo da criação de um caderno de matemática profissional — desde gerar conteúdo matemático diverso usando 5 geradores de atividades especializados, passando pela formatação do manuscrito e o design da capa, até otimizar o seu anúncio na Amazon para visibilidade em pesquisas e definir preços que maximizem as suas regalias. Quer esteja a publicar o seu primeiro livro de atividades ou a expandir um catálogo existente, este guia cobre os fluxos de trabalho específicos do KDP que diferem fundamentalmente de vender transferências digitais individuais em marketplaces como o Etsy.',
+    description: 'Aprenda a criar e publicar apostilas de matemática no Amazon KDP e gere renda passiva com livros de atividades. Este guia cobre: formatação do interior (tamanhos de corte, margens, sangria), design de capas profissionais, escolha de palavras-chave KDP, estratégia de preços para maximizar royalties e como escalar com múltiplos títulos. O mercado brasileiro de livros de atividades na Amazon cresce rapidamente e a competição em português é mínima. Com o LessonCraftStudio, você gera conteúdo para centenas de páginas em minutos. Teste grátis com marca d\'água.',
   },
 
   introduction: 'Os livros de atividades de matemática são um dos produtos mais consistentes na Amazon KDP. Os pais procuram na Amazon diariamente cadernos que reforcem as competências da loja, e os vendedores compram livros de atividades para prática complementar. Ao contrário de vender PDFs de atividades individuais no Etsy, publicar no KDP significa criar um livro encadernado que a Amazon imprime e envia a pedido cada vez que um cliente o encomenda. Nunca tem inventário, nunca paga custos de impressão antecipadamente e nunca gere envios — a Amazon trata de todo o processo de expedição enquanto o editor ganha regalias em cada venda.\n\nA economia funciona de maneira diferente dos marketplaces de transferências digitais. No Etsy, define um preço e fica com a maior parte após pequenas taxas de anúncio e transação. No KDP, a Amazon calcula a sua regalia subtraindo o custo de impressão do preço de catálogo, depois aplica uma taxa de regalia de 60 ou de 35 por cento dependendo das suas escolhas de preço e distribuição. Um livro de atividades de matemática bem definido em preço com 50 a 60 páginas interiores pode ganhar entre 2 e 5 dólares por venda na taxa de regalia de 60 por cento — e com a Amazon a gerir toda a expedição, essas regalias são quase inteiramente lucro.\n\nA verdadeira vantagem do KDP é a escala e a visibilidade. A Amazon é onde a maioria dos pais e vendedores vai primeiro quando procura materiais educativos. O seu livro de atividades de matemática aparece ao lado de cadernos publicados tradicionalmente nos resultados de pesquisa, e o motor de recomendação da Amazon pode mostrar o seu livro a compradores que adquiriram títulos semelhantes. Construir um catálogo de livros de matemática relacionados cria um efeito de volante onde cada título promove os outros através das funcionalidades \"Os clientes também compraram\" e \"Comprados juntos frequentemente\" da Amazon.\n\nEste guia cobre o fluxo de trabalho completo desde a criação de conteúdo até à publicação, usando 5 geradores de atividades que produzem atividades matemáticas diversas adequadas para o formato de livro encadernado. Aprenderá a planear o número de páginas, formatar manuscritos segundo as especificações do KDP, desenhar capas que cumpram os requisitos da Amazon, escrever anúncios otimizados para a pesquisa da Amazon e definir preços dos seus livros para máximas regalias.',

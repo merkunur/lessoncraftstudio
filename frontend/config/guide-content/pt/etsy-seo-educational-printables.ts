@@ -2,29 +2,34 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'SEO Etsy material educativo imprimível',
+    primaryKeyword: 'SEO do Etsy para atividades educativas 2026',
     secondaryKeywords: [
-      'SEO Etsy para atividades imprimíveis',
-      'pesquisa de palavras-chave Etsy produtos educativos',
-      'otimização de anúncios Etsy vendedores de imprimíveis',
-      'estratégia de etiquetas Etsy para atividades',
+      'otimizar listagens Etsy atividades educativas',
+      'etiquetas Etsy imprimíveis educativos',
+      'SEO Etsy 2026 dicas vendedores',
+      'como ranquear no Etsy imprimíveis',
     ],
     lsiKeywords: [
-      'algoritmo de pesquisa Etsy fatores de posicionamento transferências digitais',
-      'otimização de títulos Etsy colocação de palavras-chave anúncios imprimíveis',
-      'estratégia de 13 etiquetas Etsy vendedores de atividades educativas',
-      'estrutura de descrição de anúncios Etsy SEO para imprimíveis',
-      'relatório de termos de pesquisa Etsy Stats otimização de palavras-chave',
-      'categorias e atributos Etsy para produtos digitais educativos',
+      'Etsy',
+      'SEO',
+      'etiquetas',
+      'palavras-chave',
+      'listagens',
+      'algoritmo',
+      'ranking',
+      'atividades educativas',
+      'imprimíveis',
+      'renda extra',
     ],
-    titleTag: 'SEO Etsy material educativo imprimível — Guia',
-    metaDescription: 'Guia de SEO Etsy para material educativo imprimível. Pesquisa de palavras-chave, otimização de títulos, as 13 etiquetas e descrições de anúncios eficazes.',
+    titleTag: 'SEO Etsy atividades educativas (2026) | LCS',
+    metaDescription:
+      'SEO do Etsy para atividades educativas em 2026. Etiquetas, títulos, descrições e estratégias para ranquear suas listagens.',
   },
 
   hero: {
-    title: 'SEO no Etsy para material educativo imprimível',
+    title: 'SEO do Etsy para atividades educativas — guia atualizado 2026',
     tagline: 'Um guia completo de otimização de pesquisa no Etsy para vendedores de material educativo imprimível — incluindo metodologia de pesquisa de palavras-chave usando o preenchimento automático do Etsy e análise de concorrentes, fórmulas de otimização de títulos que equilibram posicionamento nas pesquisas com taxa de cliques, utilização estratégica das 13 etiquetas de anúncios para máxima cobertura de pesquisa, estrutura de descrição com os primeiros 160 caracteres otimizados para SEO, fatores de posicionamento do algoritmo de pesquisa do Etsy específicos para produtos digitais, seleção de categorias e atributos, bancos de palavras-chave específicos por categoria para atividades de matemática, literacia, puzzles, colorir, emparelhamento e encontrar-e-contar, sazonalidade de palavras-chave para picos de regresso às aulas e épocas festivas, e otimização contínua usando relatórios de termos de pesquisa do Etsy Stats',
-    description: 'A pesquisa do Etsy é a principal fonte de tráfego para vendedores de material educativo imprimível. Este guia ensina-lhe o fluxo de trabalho completo de SEO no Etsy — desde pesquisar os termos de pesquisa dos compradores até otimizar cada elemento do seu anúncio para máxima visibilidade. Aprenderá a estrutura exata de títulos, a estratégia de etiquetas e o formato de descrição que ajudam os anúncios de material educativo imprimível a aparecer nos resultados de pesquisa do Etsy.',
+    description: 'Domine o SEO do Etsy para atividades educativas e faça suas listagens aparecerem no topo dos resultados de busca. Este guia atualizado para 2026 cobre: como o algoritmo do Etsy funciona, escolher etiquetas que geram tráfego, escrever títulos otimizados, criar descrições que convertem e usar categorias estrategicamente. O SEO do Etsy é diferente do Google — e entender essas diferenças é a chave para vendas consistentes. Inclui exemplos práticos para atividades de matemática, caça-palavras, colorir e mais. Teste grátis com marca d\'água — sem cadastro.',
   },
 
   introduction: 'Para os vendedores de material educativo imprimível no Etsy, a pesquisa orgânica gera a maior parte do tráfego da loja. Ao contrário das publicações nas redes sociais que se desvanecem em horas ou da publicidade paga que para quando o orçamento se esgota, um anúncio bem otimizado continua a atrair compradores mês após mês. O SEO no Etsy — a prática de otimizar os seus anúncios para o motor de pesquisa interno do Etsy — é a atividade com maior retorno de investimento em que pode investir tempo como vendedor de imprimíveis.\n\nO motor de pesquisa do Etsy compara as consultas dos compradores com os títulos, etiquetas, categorias e atributos dos anúncios. Os anúncios que correspondem bem e têm sinais de envolvimento fortes (cliques, favoritos, compras) posicionam-se melhor com o tempo. Isto cria um efeito composto: melhor otimização leva a mais visibilidade, que leva a mais vendas, que por sua vez melhora o seu posicionamento.\n\nO desafio para os vendedores de material educativo imprimível é que o mercado é competitivo. Milhares de vendedores oferecem atividades de matemática, páginas para colorir e atividades de literacia. A otimização genérica — preencher o seu título com palavras-chave e esperar resultados — raramente funciona. Em vez disso, precisa de uma abordagem sistemática: pesquisar os termos exatos que os compradores usam, estruturar os seus títulos tanto para os motores de pesquisa como para os leitores humanos, usar as 13 etiquetas estrategicamente para lançar uma rede de pesquisa ampla, e escrever descrições que convertam visitantes em compradores.\n\nEste guia cobre cada elemento do SEO no Etsy especificamente para produtos educativos imprimíveis. Quer venda atividades de matemática, puzzles de caça-palavras, páginas para colorir ou atividades, os princípios e estratégias aqui aplicam-se diretamente aos seus anúncios. Cada secção constrói sobre a anterior, dando-lhe um fluxo de trabalho de otimização completo que pode aplicar a cada anúncio da sua loja. Todos os geradores mencionados neste guia estão disponíveis como teste grátis com marca d\'água, para que possa criar produtos de exemplo e testar a sua estratégia de SEO antes de se comprometer com uma licença.',

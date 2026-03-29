@@ -2,29 +2,34 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'definir preços imprimíveis Etsy',
+    primaryKeyword: 'como precificar imprimíveis no Etsy',
     secondaryKeywords: [
-      'como definir preços de atividades imprimíveis no Etsy',
-      'estratégia de preços imprimíveis Etsy',
-      'preços de downloads digitais para vendedores Etsy',
-      'preços de pacotes de atividades Etsy',
+      'preços para imprimíveis Etsy',
+      'estratégia de preços Etsy atividades',
+      'quanto cobrar imprimíveis Etsy',
+      'precificação Etsy vendedor brasileiro',
     ],
     lsiKeywords: [
-      'cálculo de comissões Etsy produtos digitais análise de receitas líquidas',
-      'estrutura de preços em três níveis pacotes imprimíveis educativos',
-      'psicologia de preços pacotes multiplicador de valor percebido atividades',
-      'estratégia de cupões Etsy ajustes sazonais de preços vendedores',
-      'testes de preços Etsy Stats otimização de taxa de conversão',
-      'preços internacionais moedas Etsy downloads digitais A4 Carta',
+      'Etsy',
+      'preços',
+      'precificação',
+      'imprimíveis',
+      'margem de lucro',
+      'pacotes',
+      'valor percebido',
+      'renda extra',
+      'Hotmart',
+      'KDP',
     ],
-    titleTag: 'Definir preços imprimíveis Etsy — Guia preços',
-    metaDescription: 'Defina preços dos seus imprimíveis Etsy com cálculo de comissões, preços em três níveis, estratégias de pacotes e ajustes sazonais. Guia para vendedores.',
+    titleTag: 'Precificar imprimíveis no Etsy — guia | LCS',
+    metaDescription:
+      'Como precificar imprimíveis no Etsy para maximizar lucros. Estratégias de preço, pacotes e valor percebido. Guia completo para vendedores.',
   },
 
   hero: {
-    title: 'Como definir preços dos seus imprimíveis Etsy',
+    title: 'Como precificar imprimíveis no Etsy — estratégias de preço',
     tagline: 'Um guia completo de estratégia de preços para vendedores de atividades imprimíveis no Etsy — incluindo investigação de concorrentes, cálculo de comissões do Etsy e receitas líquidas, preços base de referência por tipo de produto e número de páginas, estruturas de preços em três níveis que aumentam o valor médio de encomenda, preços de pacotes multicategoria e por nível escolar, uso estratégico de promoções e cupões do Etsy, ajustes de preços internacionais para compradores globais, e metodologia de testes de preços usando dados de conversão do Etsy Stats',
-    description: 'Os preços são a decisão de maior impacto no seu negócio de atividades imprimíveis no Etsy. Definir preços demasiado baixos e as comissões do Etsy consomem as suas margens. Definir preços demasiado altos sem comunicar valor e os compradores passam à frente. Este guia fornece-lhe a estrutura de preços completa — desde calcular as suas receitas líquidas reais após todas as comissões do Etsy, até construir uma estrutura de preços em três níveis que aumenta naturalmente o valor médio de encomenda, até definir preços de pacotes multicategoria que justificam preços premium. Quer esteja a publicar a sua primeira atividade ou a otimizar preços num catálogo estabelecido, terá uma estratégia de preços baseada em dados no final deste guia.',
+    description: 'Aprenda a precificar seus imprimíveis no Etsy para maximizar lucros sem afugentar compradores. Este guia cobre: psicologia de preços, estratégias de pacotes que aumentam o valor médio, preços para diferentes tipos de atividades e como competir sem baixar preços. Vendedores que precificam estrategicamente ganham significativamente mais que os que simplesmente copiam concorrentes. Aprenda a calcular margens considerando as taxas do Etsy e a criar pacotes escalonados que incentivam compras maiores. Com os geradores do LessonCraftStudio, seu custo de produção é praticamente zero. Teste grátis com marca d\'água.',
   },
 
   introduction: 'A maioria dos vendedores de imprimíveis no Etsy erra nos preços, e o erro vai quase sempre na mesma direção: definir preços demasiado baixos. Os novos vendedores olham para os anúncios da concorrência, veem atividades com preços de $1,99 ou $2,49, e igualam esses preços sem compreender o que acontece depois de o Etsy cobrar as suas comissões. Um download digital de $1,99 gera aproximadamente $1,40 de receitas reais após a taxa de anúncio, a taxa de transação e a taxa de processamento de pagamento. Com essa margem, são necessárias centenas de vendas por mês para gerar receitas significativas.\n\nOs vendedores que constroem negócios de imprimíveis sustentáveis abordam os preços de forma diferente. Compreendem que os compradores do Etsy não procuram a atividade mais barata — procuram a atividade certa. Um pai à procura de \"atividades de adição primeiro ano\" preocupa-se com a qualidade, o número de páginas, a inclusão de grelha de respostas e a variedade de temas muito mais do que com uma diferença de preço de um dólar. Um vendedor à procura de \"pacote de atividades de matemática para a loja\" está gastando um orçamento escolar, não um orçamento pessoal, e valoriza a abrangência acima da poupança.\n\nA estratégia de preços para atividades imprimíveis não consiste em encontrar um número mágico. Consiste em construir uma estrutura de preços — produtos de entrada que atraem compradores para a sua loja, pacotes de nível médio que capturam a maioria das receitas, e coleções premium que maximizam o valor por transação. Cada nível serve uma mentalidade de comprador diferente e uma fase diferente do processo de compra.\n\nEste guia abrange a estrutura completa de preços: como investigar os preços da concorrência de forma sistemática, como calcular as suas receitas líquidas reais após todas as comissões do Etsy, como estabelecer preços base por tipo de produto e número de páginas, como construir uma estrutura em três níveis, como definir preços de pacotes para máximo valor percebido, como usar promoções e cupões do Etsy sem erodir as suas margens, como lidar com preços internacionais e como testar e otimizar preços ao longo do tempo usando dados reais de conversão.\n\nTodas as funcionalidades mencionadas neste guia estão disponíveis no teste grátis com marca d\'água. Pode criar produtos de exemplo com todos os geradores, testar cada configuração e avaliar a qualidade do resultado antes de adquirir uma licença comercial para os produtos que pretende vender.',

@@ -2,29 +2,35 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'publicar livros de puzzles KDP',
+    primaryKeyword: 'publicar livros de passatempos no Amazon KDP',
     secondaryKeywords: [
-      'como publicar livros de puzzles na Amazon KDP',
-      'guia de publicação de livros de puzzles KDP',
-      'criar livros de caça-palavras para Amazon',
-      'livros de palavras cruzadas sudoku puzzles Amazon KDP',
+      'como publicar livro de puzzles KDP',
+      'livros de passatempos Amazon guia',
+      'livro de quebra-cabeças KDP',
+      'publicar livro de jogos Amazon',
     ],
     lsiKeywords: [
-      'caça-palavras palavras cruzadas sudoku livro puzzles páginas interiores',
-      'número páginas livro puzzles progressão dificuldade secção soluções',
-      'livro puzzles variedade KDP tipos mistos formatação',
-      'palavras-chave Amazon livro puzzles categorias mercado adultos crianças',
-      'catálogo puzzles impressão a pedido série volumes numeração',
-      'espaçamento grelha puzzle tamanho corte chaves respostas páginas finais',
+      'Amazon KDP',
+      'livro de passatempos',
+      'puzzles',
+      'quebra-cabeças',
+      'formatação',
+      'ISBN',
+      'capa',
+      'royalties',
+      'renda passiva',
+      'Hotmart',
+      'nichos',
     ],
-    titleTag: 'Publicar livros de puzzles KDP — Guia',
-    metaDescription: 'Como publicar livros de puzzles na KDP com caça-palavras, palavras cruzadas e sudoku. Formatação profissional, livros de variedade e séries de volumes.',
+    titleTag: 'Livros de passatempos para KDP — guia | LCS',
+    metaDescription:
+      'Guia para publicar livros de passatempos no Amazon KDP. Caça-palavras, sudoku, criptogramas e mais. Formatação, preços e estratégias.',
   },
 
   hero: {
-    title: 'Como publicar livros de puzzles na Amazon KDP',
+    title: 'Como publicar livros de passatempos no Amazon KDP',
     tagline: 'Um guia completo para criar e publicar livros de puzzles rentáveis na Amazon KDP — abrangendo caça-palavras, palavras cruzadas, sudoku, puzzles de caminhos de imagens e peças em falta. Aprenda a escolher tipos de puzzles, planear a estrutura do livro, formatar manuscritos para impressão a pedido, desenhar capas que convertem, escrever anúncios otimizados para pesquisa na Amazon e construir um catálogo de livros de puzzles com séries de volumes numerados e edições sazonais.',
-    description: 'Os livros de puzzles são uma das categorias de maior crescimento na Amazon KDP porque os solucionadores de puzzles compram repetidamente — um leitor que termina o Volume 1 regressa para o Volume 2, depois o 3, criando vendas recorrentes que poucos outros formatos de livros conseguem igualar. Este guia mostra como transformar seis geradores de puzzles — caça-palavras, palavras cruzadas, sudoku, puzzles matemáticos, caminhos de imagens e peças em falta — em livros de puzzles com formatação profissional prontos para publicação na KDP. Irá aprender como planear a contagem de puzzles, organizar secções de dificuldade, formatar manuscritos para os requisitos de impressão da KDP, criar capas que se destacam nos resultados de pesquisa, escrever títulos e descrições que posicionam para os termos de pesquisa dos compradores na Amazon, e construir séries de volumes que geram vendas de catálogo contínuas. Quer esteja a publicar o seu primeiro livro de puzzles ou a expandir um catálogo existente, este guia cobre cada passo desde a criação de conteúdo até à otimização do anúncio.',
+    description: 'Aprenda a publicar livros de passatempos no Amazon KDP — um dos nichos mais lucrativos de baixo conteúdo. Este guia cobre: quais tipos de puzzles vendem melhor (caça-palavras, sudoku, criptogramas, palavras cruzadas), como formatar interiores para KDP, criar capas atraentes, escolher palavras-chave e definir preços. Livros de passatempos em português têm competição mínima na Amazon brasileira. Com o LessonCraftStudio, você gera centenas de puzzles únicos em minutos com 33 geradores diferentes. Teste grátis com marca d\'água — sem cadastro.',
   },
 
   introduction: 'A publicação de livros de puzzles na Amazon KDP oferece um modelo de negócio que a maioria dos formatos de livros não consegue igualar: compradores recorrentes. Quando alguém compra um romance, podem não comprar outro romance durante meses. Mas quando alguém compra um livro de caça-palavras e o termina, procura imediatamente outro — muitas vezes do mesmo editor se gostou da formatação e qualidade. Este padrão de compra faz dos puzzles uma das poucas categorias KDP onde os editores podem construir fluxos de receita previsíveis através de séries de volumes numerados.\n\nO mercado de livros de puzzles na Amazon divide-se em várias subcategorias distintas com dinâmicas próprias. Os caça-palavras dominam em volume total de vendas, com compradores que vão desde crianças em idade escolar até seniores que procuram exercício cognitivo. As palavras cruzadas atraem solucionadores dedicados que preferem o desafio das pistas. Os livros de sudoku servem entusiastas de lógica de todas as idades. Os livros de puzzles de variedade — que combinam múltiplos tipos de puzzles num único volume — atraem solucionadores casuais e compradores de presentes. Cada subcategoria tem o seu próprio perfil de comprador, expectativas de preço e intensidade competitiva, criando múltiplos pontos de entrada para novos editores.\n\nA vantagem que os geradores de puzzles proporcionam é a velocidade e consistência de produção. Criar 100 caça-palavras manualmente exigiria semanas de trabalho tedioso. Com um gerador, pode produzir 100 puzzles temáticos com qualidade profissional, níveis de dificuldade variados e grelhas de soluções numa fração do tempo. Isto permite-lhe publicar com mais frequência, testar mais nichos e construir catálogos mais profundos do que editores que criam puzzles manualmente.\n\nTodas as funcionalidades descritas neste guia estão disponíveis no teste grátis com marca d\'água. Pode criar puzzles completos, testar todas as configurações, experimentar todos os temas e avaliar a qualidade de saída a 300 DPI antes de adquirir uma licença comercial.',

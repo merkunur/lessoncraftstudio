@@ -2,29 +2,36 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'vender atividades de matemática no Etsy',
+    primaryKeyword: 'vender atividades de matemática no Etsy guia',
     secondaryKeywords: [
       'como vender atividades de matemática no Etsy',
-      'configurar loja Etsy atividades matemática',
-      'atividades de matemática imprimíveis negócio Etsy',
-      'vender imprimíveis educativos no Etsy',
+      'dicas para vender imprimíveis de matemática Etsy',
+      'atividades de matemática Etsy SEO e preços',
+      'guia completo vendedor de matemática Etsy',
     ],
     lsiKeywords: [
-      'Etsy download digital atividades matemática otimização anúncios',
-      'estratégia preços pacotes atividades matemática vendedores Etsy',
-      'etiquetas SEO Etsy atividades imprimíveis educativas',
-      'vender atividades adição subtração loja Etsy',
-      'regresso às aulas matemática imprimíveis Etsy estratégia sazonal',
-      'fotos anúncios mockups produtos atividades matemática Etsy',
+      'Etsy',
+      'atividades de matemática',
+      'imprimíveis',
+      'vendedor',
+      'SEO Etsy',
+      'etiquetas',
+      'preços',
+      'pacotes',
+      'licença comercial',
+      'renda extra',
+      'Hotmart',
+      'KDP',
     ],
-    titleTag: 'Vender atividades de matemática no Etsy — Guia',
-    metaDescription: 'Venda atividades de matemática no Etsy com 6 geradores. SEO Etsy, otimização de anúncios, preços, estratégias de pacotes e timing sazonal para vendedores.',
+    titleTag: 'Vender atividades de matemática no Etsy | LCS',
+    metaDescription:
+      'Guia completo para vender atividades de matemática no Etsy. SEO, preços, etiquetas, pacotes e dicas para maximizar vendas. Comece hoje.',
   },
 
   hero: {
-    title: 'Como vender atividades de matemática no Etsy',
+    title: 'Como vender atividades de matemática no Etsy — guia completo',
     tagline: 'Um guia completo de plataforma para construir uma loja Etsy rentável a vender atividades de matemática criadas com 6 geradores especializados — abrangendo configuração de loja Etsy, otimização SEO com as 13 etiquetas, títulos e descrições que se posicionam para termos de pesquisa de compradores, fotografia de produtos e mockups, estratégias de preços para atividades individuais e pacotes, timing sazonal para picos de regresso às aulas e férias, planeamento de catálogo de adição, subtração, puzzles de código, comparação, grelhas de puzzles e exercícios numéricos, e otimização contínua usando as Estatísticas do Etsy',
-    description: 'As atividades de matemática são um dos formatos de download digital mais pesquisados no Etsy porque todas as crianças dos 4 aos 10 anos praticam aritmética — e pais, vendedores e vendedores domésticos preferem material visualmente atrativo a exercícios numéricos monótonos. Este guia mostra-lhe como transformar seis geradores de atividades de matemática — adição, subtração, adição codificada, comparação, grelhas de puzzles e exercícios numéricos — numa loja Etsy rentável com dezenas de anúncios únicos cobrindo múltiplos níveis de dificuldade, temas visuais e formatos de pacotes. Irá aprender os termos de pesquisa específicos que os compradores de atividades de matemática utilizam, como otimizar anúncios com as 13 etiquetas que o Etsy permite, estratégias de preços de trabalho que equilibram volume e margem, e como o timing sazonal em torno do regresso às aulas e das épocas de exames pode multiplicar as suas vendas. Se já vende outros imprimíveis no Etsy ou está lançando a sua primeira loja, a matemática é a categoria mais fiável por uma razão: a procura nunca para.',
+    description: 'Aprenda a vender atividades de matemática no Etsy e transforme exercícios imprimíveis em uma fonte de renda extra. Este guia cobre tudo: como criar listagens otimizadas com as etiquetas certas, precificar para maximizar lucros, montar pacotes que aumentam o valor médio do pedido e usar SEO do Etsy para aparecer nos resultados de busca. Atividades de matemática são um dos nichos mais estáveis no Etsy — pais e professores buscam o ano inteiro. Com o gerador do LessonCraftStudio, você cria produtos profissionais em minutos com licença comercial inclusa. Teste grátis com marca d\'água — sem cadastro.',
   },
 
   introduction: 'As atividades de matemática ocupam uma posição privilegiada no mercado de imprimíveis do Etsy. Enquanto páginas para colorir apelam ao gosto e puzzles de palavras dependem da língua, as atividades de matemática respondem a uma necessidade universal de educação que todos os pais reconhecem: o seu filho precisa de praticar aritmética. Este imperativo educativo gera um comportamento de pesquisa consistente durante todo o ano — os pais não param de procurar atividades de adição em março porque as atividades de adição não são sazonais como decoração de Natal ou cartões do Dia dos Namorados. A procura por atividades de matemática tem uma linha de base estável com picos previsíveis em torno do regresso às aulas, épocas de exames e quebras letivas quando os pais procuram prevenir o retrocesso escolar.\n\nO mercado do Etsy para atividades de matemática divide-se em dois tipos distintos de compradores. Os pais procuram atividades atrativas que os seus filhos realmente queiram completar — é aqui que as atividades de matemática baseadas em imagens têm uma vantagem enorme sobre os exercícios numéricos em texto simples. As atividades com animais temáticos, veículos ou dinossauros envolvem a imaginação de uma criança enquanto ela pratica adição, transformando uma tarefa que muitas vezes parece pesada numa atividade que a criança escolhe voluntariamente. Os vendedores procuram pacotes de atividades diferenciadas que possam distribuir a toda a turma com níveis de dificuldade variados — tipicamente querem 10 a 20 atividades organizadas por competência e faixa numérica. Ambos os segmentos de compradores pesquisam ativamente no Etsy usando termos previsíveis, criando uma oportunidade direta para vendedores que compreendem como estruturar e otimizar os seus anúncios.\n\nOs seis geradores especializados de matemática dão-lhe variedade de produto que um único gerador não consegue igualar. As atividades de adição servem como o seu produto de entrada porque a adição é a competência que os pais pesquisam primeiro. A subtração vem logo atrás como progressão natural. Os puzzles de adição codificada adicionam um formato de resolução de mistérios que distingue a sua loja dos concorrentes que vendem apenas exercícios numéricos básicos. As atividades de comparação ensinam os conceitos de maior que, menor que e igual a com suporte visual. As grelhas de puzzles matemáticos criam desafios de grelha que exercitam o pensamento lógico juntamente com a aritmética. Os exercícios numéricos fornecem atividades de prática focada e repetitiva que os vendedores adoram para trabalho de fluência. Juntos, estes seis geradores permitem-lhe construir um catálogo de dezenas de anúncios únicos a partir de uma única categoria temática.\n\nTodas as funcionalidades descritas neste guia estão disponíveis no teste grátis com marca d\'água. Pode criar atividades completas, testar todas as configurações, experimentar todos os temas de imagens e avaliar a qualidade de saída antes de adquirir uma licença comercial.',

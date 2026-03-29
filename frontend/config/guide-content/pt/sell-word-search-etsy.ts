@@ -2,29 +2,34 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'vender caça-palavras no Etsy',
+    primaryKeyword: 'vender caça-palavras no Etsy dicas',
     secondaryKeywords: [
       'como vender caça-palavras no Etsy',
-      'configurar loja Etsy caça-palavras',
-      'caça-palavras imprimíveis negócio Etsy',
-      'vender puzzles imprimíveis no Etsy',
+      'caça-palavras imprimíveis para Etsy',
+      'dicas para vender sopa de letras Etsy',
+      'nicho de caça-palavras Etsy',
     ],
     lsiKeywords: [
-      'Etsy download digital caça-palavras otimização anúncios',
-      'estratégia preços pacotes caça-palavras vendedores Etsy',
-      'etiquetas SEO Etsy atividades puzzles imprimíveis',
-      'vender palavras cruzadas anagramas loja Etsy',
-      'caça-palavras temáticos festividades imprimíveis Etsy estratégia sazonal',
-      'fotos anúncios mockups produtos caça-palavras Etsy',
+      'Etsy',
+      'caça-palavras',
+      'sopa de letras',
+      'imprimíveis',
+      'vendedor',
+      'SEO Etsy',
+      'licença comercial',
+      'renda extra',
+      'Hotmart',
+      'KDP',
     ],
-    titleTag: 'Vender caça-palavras no Etsy — Guia',
-    metaDescription: 'Venda caça-palavras no Etsy com 4 geradores de puzzles. SEO Etsy, otimização de anúncios, preços, agrupamento com palavras cruzadas e anagramas, e timing.',
+    titleTag: 'Vender caça-palavras no Etsy — guia | LCS',
+    metaDescription:
+      'Guia para vender caça-palavras no Etsy. SEO, preços, pacotes temáticos e estratégias para destacar suas listagens. Comece com teste grátis.',
   },
 
   hero: {
-    title: 'Como vender caça-palavras no Etsy',
+    title: 'Como vender caça-palavras no Etsy — dicas e estratégias',
     tagline: 'Um guia completo de plataforma para construir uma loja Etsy rentável a vender caça-palavras e formatos complementares de puzzles de palavras — abrangendo configuração de loja Etsy, otimização SEO com as 13 etiquetas, títulos e descrições que se posicionam para termos de pesquisa de compradores de puzzles, fotografia de produtos mostrando grelhas e chaves de resposta, estratégias de preços para puzzles individuais e pacotes temáticos, timing sazonal para picos de festividades e loja, planeamento de catálogo de caça-palavras, palavras cruzadas, anagramas e criptogramas, oportunidades de produtos em línguas específicas para mercados multilingues, e otimização contínua usando as Estatísticas do Etsy',
-    description: 'Os caça-palavras são um dos formatos de puzzles imprimíveis mais pesquisados no Etsy, comprados por pais, vendedores, terapeutas e entusiastas de puzzles. Este guia mostra-lhe como transformar quatro geradores de puzzles de palavras — caça-palavras, palavras cruzadas, anagramas e criptogramas — numa loja Etsy rentável com dezenas de anúncios únicos abrangendo múltiplos temas, níveis de dificuldade e mercados linguísticos. Irá aprender como a natureza sensível à língua dos puzzles de palavras cria uma vantagem única no marketplace: cada língua que suporta multiplica os seus anúncios para diferentes mercados nacionais. Se já vende outros imprimíveis no Etsy ou está lançando a sua primeira loja de puzzles, os caça-palavras oferecem uma combinação de procura estável, produção rápida e multiplicação linguística difícil de igualar.',
+    description: 'Descubra como vender caça-palavras no Etsy e aproveitar um dos nichos de imprimíveis mais populares. "Caça-palavras" é um dos termos mais buscados em português — e no Etsy, a competição em português é mínima. Este guia ensina a criar listagens otimizadas, escolher temas sazonais que vendem, precificar pacotes temáticos e usar etiquetas de SEO que atraem compradores. Com o gerador do LessonCraftStudio, você cria caça-palavras profissionais com gabarito colorido em minutos. Licença comercial inclusa. Teste grátis com marca d\'água — sem cadastro.',
   },
 
   introduction: 'Os caça-palavras ocupam uma posição única no marketplace de imprimíveis do Etsy. Ao contrário das atividades de matemática que são inerentemente visuais e transcendem as barreiras linguísticas, os caça-palavras são produtos fundamentalmente linguísticos — as palavras escondidas na grelha estão numa língua específica, o que significa que cada puzzle é intrinsecamente direcionado a compradores que falam essa língua. Esta dependência linguística, que pode parecer uma limitação, é na realidade uma poderosa vantagem de marketplace: cria nichos naturais de mercado com concorrência reduzida.\n\nConsidere o panorama competitivo. Os caça-palavras em inglês enfrentam concorrência significativa no Etsy porque a maioria dos vendedores opera apenas em inglês. Mas os caça-palavras em português, os caça-palavras em francês ou os caça-palavras em sueco competem num conjunto muito mais pequeno de anúncios. Com geradores que suportam 11 línguas, pode criar caça-palavras para cada um destes mercados — efetivamente multiplicando o potencial dos seus anúncios por 11 sem criar novos tipos de produtos.\n\nA procura por caça-palavras no Etsy divide-se em vários segmentos de compradores distintos. Os pais procuram caça-palavras temáticos para entretenimento offline — atividades de viagem, dias de chuva e alternativas ao tela. Os vendedores compram pacotes de caça-palavras para atividades de loja, exercícios de vocabulário e recompensas. Os terapeutas utilizam puzzles de palavras para exercícios cognitivos e de linguagem. Os entusiastas adultos de puzzles compram coleções desafiantes para entretenimento pessoal. Cada segmento pesquisa usando termos diferentes, criando múltiplos pontos de entrada para a sua loja.\n\nOs quatro geradores de puzzles de palavras — caça-palavras, palavras cruzadas, anagramas e criptogramas — criam formatos complementares que se combinam naturalmente em pacotes. Um comprador que gosta de caça-palavras frequentemente compra palavras cruzadas do mesmo vendedor. Esta oportunidade de venda cruzada é uma vantagem significativa que vendedores de produto único não conseguem igualar.\n\nTodas as funcionalidades descritas neste guia estão disponíveis no teste grátis com marca d\'água. Pode criar puzzles completos, testar todas as configurações de língua, experimentar todos os temas de vocabulário e avaliar a qualidade de saída antes de adquirir uma licença comercial.',

@@ -2,29 +2,35 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'vender material educativo no etsy',
+    primaryKeyword: 'vender atividades educativas no Etsy iniciante',
     secondaryKeywords: [
       'como vender imprimíveis educativos no Etsy',
-      'estratégia de loja Etsy de imprimíveis educativos',
-      'vender atividades e atividades imprimíveis no Etsy multicategoria',
-      'negócio de atividades educativas imprimíveis no Etsy',
+      'guia iniciante vendedor Etsy educativo',
+      'atividades educativas para vender Etsy',
+      'imprimíveis para professores Etsy',
     ],
     lsiKeywords: [
-      'otimização de anúncios Etsy para atividades educativas digitais',
-      'estratégia de preços loja imprimíveis multicategoria Etsy',
-      'etiquetas SEO Etsy para atividades educativas e puzzles imprimíveis',
-      'vender imprimíveis matemática literacia puzzles Etsy diversificado',
-      'agrupamento imprimíveis educativos multicategoria estratégia Etsy',
-      'fotos de anúncios e mockups para produtos educativos imprimíveis Etsy',
+      'Etsy',
+      'atividades educativas',
+      'imprimíveis',
+      'iniciante',
+      'vendedor',
+      'SEO',
+      'preços',
+      'licença comercial',
+      'renda extra',
+      'Hotmart',
+      'KDP',
     ],
-    titleTag: 'Vender material educativo no Etsy — Guia',
-    metaDescription: 'Venda imprimíveis educativos no Etsy com 33 geradores em 6 categorias. Estratégia de loja, SEO Etsy, agrupamento multicategoria e preços para vendedores.',
+    titleTag: 'Vender atividades educativas no Etsy | LCS',
+    metaDescription:
+      'Guia para iniciantes: como vender atividades educativas no Etsy. Nichos, SEO, preços e primeiras vendas. Comece com teste grátis.',
   },
 
   hero: {
-    title: 'Como vender material educativo imprimível no Etsy',
+    title: 'Como vender atividades educativas no Etsy — guia para iniciantes',
     tagline: 'Um guia completo de plataforma para construir uma loja Etsy diversificada a vender imprimíveis educativos criados com 33 geradores especializados em 6 categorias — abrangendo estratégia de loja multicategoria, otimização SEO Etsy por categoria com as 13 etiquetas, agrupamento e preços intercategorias, fotografia de anúncios para diferentes tipos de produto, rotação sazonal de produtos entre atividades de matemática, atividades de literacia, páginas de aprendizagem visual, exercícios de correspondência, puzzles e jogos de procurar e encontrar, e escalar de uma categoria única para uma loja completa de imprimíveis educativos',
-    description: 'Os imprimíveis educativos são uma das categorias de produtos digitais mais pesquisadas de forma consistente no Etsy. Pais, vendedores, vendedores domésticos e centros de explicações pesquisam atividades de matemática, caça-palavras, páginas para colorir, atividades de correspondência, sudoku e dezenas de outros formatos educativos todos os dias. Este guia mostra-lhe como construir uma loja Etsy diversificada que abrange as 6 categorias de imprimíveis educativos usando 33 geradores especializados — criando uma vantagem competitiva que lojas de categoria única não conseguem igualar. Quer esteja a lançar o seu primeiro imprimível educativo ou a expandir uma loja existente para novas categorias, terá uma estratégia multicategoria completa no final deste guia.',
+    description: 'Comece a vender atividades educativas no Etsy mesmo sem experiência prévia. Este guia para iniciantes cobre: escolher nichos lucrativos, criar listagens que convertem, usar etiquetas de SEO eficazes, precificar produtos e fazer suas primeiras vendas. Atividades educativas em português são um oceano azul no Etsy — pouquíssimos vendedores oferecem material em português, enquanto milhões de brasileiros buscam conteúdo educativo online. Com os geradores do LessonCraftStudio, você cria 33 tipos de atividades profissionais. Teste grátis com marca d\'água — sem cadastro.',
   },
 
   introduction: 'O mercado de imprimíveis educativos no Etsy é enorme, mas a maioria dos vendedores compete numa única categoria estreita. Uma loja que só vende atividades de adição compete com todos os outros vendedores de atividades de adição. Uma loja que só vende caça-palavras compete com todos os outros vendedores de caça-palavras. Os vendedores que constroem negócios sustentáveis são os que diversificam entre múltiplas categorias de imprimíveis educativos — capturando diferentes segmentos de compradores, diferentes picos sazonais e diferentes termos de pesquisa que uma loja de categoria única nunca conseguiria alcançar.\n\nÉ aqui que uma abordagem multicategoria se torna uma vantagem competitiva genuína. Com 33 geradores organizados em 6 categorias educativas — Mestria em Matemática, Literacia e Língua, Aprendizagem Visual, Correspondência e Classificação, Puzzles e Lógica, e Procurar e Encontrar — pode construir uma loja com centenas de produtos únicos cobrindo cada faixa etária desde a pré-escola até ao ensino básico e cada área temática que pais e vendedores pesquisam.\n\nAs seis categorias servem necessidades de compradores fundamentalmente diferentes. As atividades de matemática visam a prática aritmética. Os produtos de literacia visam leitura e vocabulário. As páginas de aprendizagem visual visam o desenvolvimento criativo. As atividades de correspondência visam competências cognitivas de primeira infância. Os puzzles visam pensamento crítico. As atividades de procurar e encontrar visam atenção e observação. Um único comprador — um pai, um vendedor, um vendedor doméstico — frequentemente precisa de produtos de múltiplas categorias, e uma loja que oferece todos eles captura toda essa compra em vez de perder o comprador para um concorrente pelo segundo produto.\n\nTodas as funcionalidades mencionadas neste guia estão disponíveis no teste grátis com marca d\'água. Pode criar produtos de amostra dos 33 geradores, testar todas as configurações e avaliar a qualidade de saída antes de adquirir uma licença comercial para as categorias que pretende vender.',

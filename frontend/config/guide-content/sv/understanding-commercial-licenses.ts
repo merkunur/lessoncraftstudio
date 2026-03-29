@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'kommersiell licens utskriftsbara produkter',
+    primaryKeyword: 'kommersiell licens för printables-säljare',
     secondaryKeywords: [
       'kommersiell licens för utskriftsbara produkter förklarad',
       'sälja arbetsblad lagligt',
@@ -17,7 +17,7 @@ const content: GuideContent = {
       'licensmisstag plattformsrestriktioner hänvisningskrav exklusivitetsklausuler',
       'licensregister licensdokumentation multiplattformslicensiering konkurrensfördel',
     ],
-    titleTag: 'Kommersiell licens utskriftsbara produkter — Säljarguide',
+    titleTag: 'Kommersiell licens för säljare | LessonCraftStudio',
     metaDescription: 'Förstå kommersiella licenser för utskriftsbara produkter innan du säljer. Lär dig licenstyper, vanliga misstag och hur korrekt licensiering skyddar din.',
   },
 

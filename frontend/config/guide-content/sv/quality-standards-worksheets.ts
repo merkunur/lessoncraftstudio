@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'kvalitetsstandarder arbetsblad säljare',
+    primaryKeyword: 'kvalitetsstandarder för säljbara arbetsblad',
     secondaryKeywords: [
       'utskriftsbar kvalitetschecklista',
       'professionella arbetsbladsdesignstandarder',
@@ -16,7 +16,7 @@ const content: GuideContent = {
       'utfallsinställningar pappersstorlekskompatibilitet visuell konsekvens varumärkesstandarder',
       'recensionsbetyg köparförtroende produktionschecklista kvalitetssäkring',
     ],
-    titleTag: 'Kvalitetsstandarder arbetsblad säljare — Checklista',
+    titleTag: 'Kvalitetsstandarder för arbetsblad | LessonCraftStudio',
     metaDescription: 'Kvalitetsstandarder säljare av arbetsblad behöver för professionell output. Upplösning, marginaler, typografi, facit och utskriftstestning för marknadsplatser.',
   },
 

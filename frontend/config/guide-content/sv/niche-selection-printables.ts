@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'nischval för utskriftsbart företag',
+    primaryKeyword: 'välja nisch för printables-verksamhet 2026',
     secondaryKeywords: [
       'nischforskning utskriftsbara produkter',
       'lönsamma utskriftsbara nischer',
@@ -17,7 +17,7 @@ const content: GuideContent = {
       'nischstackning multinischstrategi nischdjup produkt-marknads-passning',
       'nyckelordsefterfrågan sökvolym marknadstrender köparavsiktssignaler',
     ],
-    titleTag: 'Nischval för utskriftsbart företag — Guide — Online Verktyg',
+    titleTag: 'Välja nisch för printables (2026) | LessonCraftStudio',
     metaDescription: 'Nischval för utskriftsbara företag: undersök efterfrågan, analysera konkurrens, utvärdera lönsamhet, validera innan du satsar och planera expansion. Prova.',
   },
 

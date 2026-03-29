@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'säsongsmarknadsföring utskriftsbara produkter',
+    primaryKeyword: 'säsongsmarknadsföring för printables',
     secondaryKeywords: [
       'säsongsbetonad strategi utskriftsbart företag',
       'högtidsarbetsblad marknadsföring',
@@ -16,7 +16,7 @@ const content: GuideContent = {
       'tacksamhetsaktiviteter säsongstrender efterfrågeprognoser produktionskalender',
       'releasetiming säsongsnyckelord trendanalys innehållskalender kvartalsplanering',
     ],
-    titleTag: 'Säsongsmarknadsföring utskriftsbara — Säljarkalender',
+    titleTag: 'Säsongsmarknadsföring printables | LessonCraftStudio',
     metaDescription: 'Planera säsongsmarknadsföringskampanjer för utskriftsbara produkter anpassade efter efterfrågecykler. Säljarkalender med produktionstiming och strategier.',
   },
 

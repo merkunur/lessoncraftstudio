@@ -2,7 +2,7 @@ import type { BundleContent } from '../types';
 
 const content: BundleContent = {
   seo: {
-    primaryKeyword: 'läs- och skrivarbetsblad paket',
+    primaryKeyword: 'ord- och språkpaket Etsy KDP',
     secondaryKeywords: [
       'språkarbetsblad generator paket för säljare',
       'läsverktyg utskriftspaket kommersiell användning',
@@ -15,7 +15,7 @@ const content: BundleContent = {
       'kommersiell licens läsarbetsblad',
       'bulkproduktion språkarbetsblad verktyg',
     ],
-    titleTag: 'Läsarbetsblad Paket — 7 Språk- och Ordgeneratorer | Online',
+    titleTag: 'Ord- och språkpaket — Sälja | LessonCraftStudio',
     metaDescription: 'Få 7 läs- och skrivarbetsblad-generatorer i ett paket. Skapa alfabet, ordsökning, kryptogram, prepositioner och handstilsarbetsblad på 11 språk. Prova.',
   },
 

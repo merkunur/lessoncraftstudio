@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'skapa arbetsbladpaket som säljer',
+    primaryKeyword: 'skapa paket arbetsblad som säljer',
     secondaryKeywords: [
       'arbetsbladpaket strategi',
       'utskriftsbart paket skapande',
@@ -17,7 +17,7 @@ const content: GuideContent = {
       'paketförpackning mockup förhandsgranskning varumärke filorganisering namnkonventioner',
       'multiplattformspaketlistningar universell strategi plattformsoberoende försäljning',
     ],
-    titleTag: 'Skapa arbetsbladpaket som säljer — Guide | Guide för Säljare',
+    titleTag: 'Skapa paket arbetsblad som säljer | LessonCraftStudio',
     metaDescription: 'Hur du skapar arbetsbladpaket som säljer på alla plattformar. Pakettyper, prissättningspsykologi, värdestackning och professionell förpackning för högre.',
   },
 

@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'upphovsrätt utskriftsbara säljare',
+    primaryKeyword: 'upphovsrätt för printables-säljare',
     secondaryKeywords: [
       'upphovsrättsskydd arbetsblad',
       'utskriftsbart företag upphovsrättslagstiftning',
@@ -17,7 +17,7 @@ const content: GuideContent = {
       'upphovsrättsägande automatiskt skydd registreringsfördelar lagstadgade skadestånd',
       'kreativa val uttryck kontra idéer fakta standardmetoder pedagogiskt innehåll',
     ],
-    titleTag: 'Upphovsrätt utskriftsbara säljare — Grundguide — Säljguide',
+    titleTag: 'Upphovsrätt för säljare | LessonCraftStudio',
     metaDescription: 'Förstå upphovsrätten som säljare av utskriftsbara produkter behöver: vilka arbetsbladelement som är skyddsbara, registreringsfördelar, upprätthållande och att.',
   },
 

@@ -2,7 +2,7 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'sälja utskriftsbara produkter skattekrav',
+    primaryKeyword: 'juridik printables-verksamhet Sverige',
     secondaryKeywords: [
       'juridiska grunder utskriftsbart företag',
       'skatteskyldigheter digitala produkter',
@@ -17,7 +17,7 @@ const content: StartContent = {
       'gränsöverskridande skatt digitala varor',
       'avdragsgilla utgifter utskriftsbart företag',
     ],
-    titleTag: 'Sälja utskriftsbara produkter skattekrav — juridisk guide',
+    titleTag: 'Printables-verksamhet: juridik | LessonCraftStudio',
     metaDescription: 'Skattekrav för att sälja utskriftsbara produkter förklarade. Företagsstruktur, avdragsgilla utgifter, immaterialrätt och plattformsefterlevnad för säljare.',
   },
 

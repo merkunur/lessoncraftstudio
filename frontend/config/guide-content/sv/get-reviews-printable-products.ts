@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'få recensioner utskriftsbara produkter',
+    primaryKeyword: 'få recensioner för printable-produkter',
     secondaryKeywords: [
       'strategi för recensioner utskriftsbara produkter',
       'etsy recensioner digitala produkter',
@@ -17,7 +17,7 @@ const content: GuideContent = {
       'organiska recensioner autentisk feedback recensionsvolym marknadsplatsranking',
       'listningsoptimering förväntningssättning köparkommunikation efterköpsupplevelse',
     ],
-    titleTag: 'Få recensioner utskriftsbara produkter — Guide — Säljguide',
+    titleTag: 'Få recensioner för printables | LessonCraftStudio',
     metaDescription: 'Beprövade strategier för att få recensioner för utskriftsbara produkter. Bygg socialt bevis, tjäna autentisk feedback och lyft din Etsy-, KDP- och Gumroad-butik',
   },
 

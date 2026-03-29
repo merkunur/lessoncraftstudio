@@ -2,7 +2,7 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'utskriftsbar affärsplan idéer',
+    primaryKeyword: 'steg-för-steg printables-verksamhet',
     secondaryKeywords: [
       'utskriftsbar affärsplan för säljare',
       'lönsamma utskriftsbara produktidéer',
@@ -17,7 +17,7 @@ const content: StartContent = {
       'produktlinjekartläggning för säljare',
       'lanseringschecklista utskriftsbart företag',
     ],
-    titleTag: 'Utskriftsbar affärsplan — Från idé till inkomst — Säljguide',
+    titleTag: 'Steg-för-steg: printables-verksamhet | LessonCraftStudio',
     metaDescription: 'Förvandla utskriftsbara affärsidéer till en strukturerad plan. Kartlägg din produktlinje, välj plattformar, sätt priser och lansera på Etsy och Amazon KDP.',
   },
 

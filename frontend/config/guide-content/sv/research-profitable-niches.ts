@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'undersöka lönsamma utskriftsbara nischer',
+    primaryKeyword: 'hitta lönsamma nischer för printables',
     secondaryKeywords: [
       'nischforskningsmetoder utskriftsbara produkter',
       'hitta lönsamma arbetsblad-nischer',
@@ -17,7 +17,7 @@ const content: GuideContent = {
       'efterfrågekvantifiering marknadsmättnadsanalys nyckelordsverktyg datadrivna beslut',
       'minimalt livskraftig produkttestning forskningsarbetsflöde nischupptäckt systematisk process',
     ],
-    titleTag: 'Undersök lönsamma utskriftsbara nischer — Metodguide',
+    titleTag: 'Lönsamma nischer för printables | LessonCraftStudio',
     metaDescription: 'Hur du undersöker lönsamma utskriftsbara nischer med marknadsplatsdata, nyckelordsanalys, konkurrentforskning, efterfrågesignaler och systematiska valideringsme',
   },
 

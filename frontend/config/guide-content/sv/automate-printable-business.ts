@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'automatisera utskriftsbart företag',
+    primaryKeyword: 'automatisera printables-verksamhet',
     secondaryKeywords: [
       'automatisering utskriftsbart företag',
       'automatisera arbetsblad skapande',
@@ -17,7 +17,7 @@ const content: GuideContent = {
       'strömlinjeformat arbetsflöde processstandardisering operativ effektivitet uppgiftsbatchning',
       'produktionssystem skalbara processer kataloghantering arbetsflödesdesign',
     ],
-    titleTag: 'Automatisera utskriftsbart företag — Guide — Online Verktyg',
+    titleTag: 'Automatisera printables-verksamhet | LessonCraftStudio',
     metaDescription: 'Så automatiserar du ditt utskriftsbara företag med batchproduktion, mallsystem och systematiska arbetsflöden. Spara timmar varje vecka och skala upp. Prova.',
   },
 

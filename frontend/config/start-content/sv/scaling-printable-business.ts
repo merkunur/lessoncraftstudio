@@ -2,7 +2,7 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'skala upp utskriftsbart företag',
+    primaryKeyword: 'från extrainkomst till heltids printables-verksamhet',
     secondaryKeywords: [
       'växa utskriftsbart företag till heltid',
       'skala Etsy-butik utskriftsbara produkter',
@@ -17,7 +17,7 @@ const content: StartContent = {
       'flerspråkig marknadsexpansion utskriftsbara',
       'återinvesteringsstrategi utskriftsbart företag',
     ],
-    titleTag: 'Skala upp utskriftsbart företag — sidoprojekt till heltid',
+    titleTag: 'Från extra till heltidsverksamhet | LessonCraftStudio',
     metaDescription: 'Hur du skalar ditt utskriftsbara företag från sidoprojekt till heltid. Täcker katalogexpansion, multiplattformsdistribution, paketering och arbetsflödesautomati',
   },
 

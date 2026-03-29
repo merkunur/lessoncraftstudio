@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'prissättningsstrategier för pedagogiska utskriftsbara produkter',
+    primaryKeyword: 'prisstrategi pedagogiska arbetsblad',
     secondaryKeywords: [
       'hur man prissätter utskriftsbara arbetsblad',
       'prissättningsguide för pedagogiska produkter',
@@ -17,7 +17,7 @@ const content: GuideContent = {
       'säsongsprissättning prisjustering marknadsundersökning köparens betalningsvilja prissättningsmodell',
       'prissättningsramverk prispositionering underprissättning överprissättning hållbar prissättning',
     ],
-    titleTag: 'Prissättningsstrategier för pedagogiska utskriftsbara',
+    titleTag: 'Prisstrategi pedagogiska arbetsblad | LessonCraftStudio',
     metaDescription: 'Beprövade prissättningsstrategier för pedagogiska utskriftsbara produkter. Täcker prispsykologi, konkurrensanalys, plattformsavgifter, vinstmarginaler och.',
   },
 

@@ -2,7 +2,7 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'flerspråkig arbetsbladsgenrator',
+    primaryKeyword: 'flerspråkiga arbetsblad att sälja',
     secondaryKeywords: [
       'skapa arbetsblad på flera språk',
       'flerspråkiga utskriftsbara arbetsblad',
@@ -17,7 +17,7 @@ const content: StartContent = {
       'internationellt utskriftsbart företag',
       'sälja arbetsblad på Etsy.de Etsy.fr',
     ],
-    titleTag: 'Flerspråkig arbetsbladsgenrator — 11 språk — Kom Igång Guide',
+    titleTag: 'Flerspråkiga arbetsblad att sälja | LessonCraftStudio',
     metaDescription: 'Skapa och sälj arbetsblad på 11 språk med en flerspråkig genrator. Nå tyska, franska och spanska köpare på Etsy, Amazon KDP och globala marknader. Prova.',
   },
 

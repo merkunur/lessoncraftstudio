@@ -2,7 +2,7 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'starta utskriftsbart företag',
+    primaryKeyword: 'starta printables-verksamhet guide 2026',
     secondaryKeywords: [
       'utskriftsbart företag för nybörjare',
       'sälja utskriftsbara arbetsblad online',
@@ -17,7 +17,7 @@ const content: StartContent = {
       'Gumroad arbetsblad',
       'kommersiell licens utskriftsbara verktyg',
     ],
-    titleTag: 'Starta utskriftsbart företag — Komplett guide — Säljguide',
+    titleTag: 'Starta printables-verksamhet (2026) | LessonCraftStudio',
     metaDescription: 'Så startar du ett utskriftsbart företag från grunden. Steg-för-steg-guide för Etsy-, Amazon KDP- och Gumroad-säljare som använder arbetsbladsgenratorer.',
   },
 

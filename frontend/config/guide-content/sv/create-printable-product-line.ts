@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'skapa en utskriftsbar produktlinje',
+    primaryKeyword: 'bygga produktlinje med printables',
     secondaryKeywords: [
       'produktlinjestrategi för printables',
       'bygg en arbetsblads-produktlinje',
@@ -17,7 +17,7 @@ const content: GuideContent = {
       'korsförsäljning katalognavigering butiksorganisation produktsekvensering marknadstäckning',
       'visuell identitet produkthierarki kompletterande produkter produktekosystem linjesammanhållning',
     ],
-    titleTag: 'Hur du skapar en utskriftsbar produktlinje — Guide',
+    titleTag: 'Bygga produktlinje printables | LessonCraftStudio',
     metaDescription: 'Lär dig skapa en utskriftsbar produktlinje med konsekvent varumärke, strategisk produktsekvensering och systematisk expansion för att bygga en sammanhängande.',
   },
 

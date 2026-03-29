@@ -2,7 +2,7 @@ import type { BundleContent } from '../types';
 
 const content: BundleContent = {
   seo: {
-    primaryKeyword: 'visuellt lärande arbetsblad paket',
+    primaryKeyword: 'visuellt lärpaket för säljare',
     secondaryKeywords: [
       'målarbilder ritning arbetsblad generator paket för säljare',
       'visuella aktiviteter utskriftspaket kommersiell användning',
@@ -15,7 +15,7 @@ const content: BundleContent = {
       'kommersiell licens visuella aktivitetsarbetsblad',
       'bulkproduktion visuella arbetsblad verktyg',
     ],
-    titleTag: 'Visuellt Lärande Arbetsblad Paket — 7 Aktivitetsgeneratorer',
+    titleTag: 'Visuellt lärpaket för säljare | LessonCraftStudio',
     metaDescription: 'Få 7 visuella lärande-generatorer i ett paket. Skapa målarbilder, ritning, mönster, storleksjämförelse, diagram och linjespårning att sälja online. Prova.',
   },
 

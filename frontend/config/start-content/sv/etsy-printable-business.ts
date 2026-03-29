@@ -2,7 +2,7 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'sälja utskriftsbara produkter på Etsy',
+    primaryKeyword: 'masterclass Etsy printables-verksamhet',
     secondaryKeywords: [
       'Etsy utskriftsbart företag',
       'Etsy butik för utskriftsbara arbetsblad',
@@ -17,7 +17,7 @@ const content: StartContent = {
       'arbetsbladsgenrator för Etsy-säljare',
       'Etsy prissättningsstrategi utskriftsbara',
     ],
-    titleTag: 'Sälj utskriftsbara produkter på Etsy — Mästarklass',
+    titleTag: 'Masterclass Etsy printables | LessonCraftStudio',
     metaDescription: 'Så säljer du utskriftsbara produkter på Etsy steg för steg. Butiksuppställning, Etsy SEO, listningsoptimering, prissättning och skalning med arbetsbladsgenrator',
   },
 

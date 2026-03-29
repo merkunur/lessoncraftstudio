@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'skapa arbetsblad på flera språk',
+    primaryKeyword: 'skapa arbetsblad på flera språk att sälja',
     secondaryKeywords: [
       'flerspråkigt arbetsbladskapande',
       'översätta arbetsblad för försäljning',
@@ -17,7 +17,7 @@ const content: GuideContent = {
       'textlängdsvariation sammansatta ord kulturell anpassning arbetsbladslokalisering',
       'batchproduktion flerspråkig innehållsgenerering automatiserade översättningsverktyg ordförrådsdatabaser',
     ],
-    titleTag: 'Skapa arbetsblad på flera språk — Guide | Guide för Säljare',
+    titleTag: 'Arbetsblad flera språk att sälja | LessonCraftStudio',
     metaDescription: 'Hur du skapar arbetsblad på flera språk med produktionsarbetsflöden, teckenhantering, typsnittsval, kvalitetssäkring och listningsanpassning. Testa nu.',
   },
 

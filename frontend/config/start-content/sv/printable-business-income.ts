@@ -2,7 +2,7 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'hur mycket kan man tjäna på att sälja utskriftsbara produkter',
+    primaryKeyword: 'hur mycket kan man tjäna på printables',
     secondaryKeywords: [
       'inkomstförväntningar utskriftsbart företag',
       'realistisk inkomst sälja utskriftsbara produkter',
@@ -17,7 +17,7 @@ const content: StartContent = {
       'digital nedladdning företag tidsinvestering',
       'flera intäktsströmmar utskriftsbara produkter',
     ],
-    titleTag: 'Hur mycket kan man tjäna på att sälja utskriftsbara',
+    titleTag: 'Hur mycket tjäna på printables | LessonCraftStudio',
     metaDescription: 'Hur mycket kan du tjäna på att sälja utskriftsbara produkter? Realistiska inkomstförväntningar, plattformsavgifter, prissättningsstrategier och variablerna som.',
   },
 

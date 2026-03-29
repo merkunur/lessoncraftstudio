@@ -2,7 +2,7 @@ import type { BundleContent } from '../types';
 
 const content: BundleContent = {
   seo: {
-    primaryKeyword: 'pusselarbetsblad paket',
+    primaryKeyword: 'pussel och logik-paket för KDP',
     secondaryKeywords: [
       'pusselarbetsblad generator paket för säljare',
       'utskriftsbar logikpussel verktygslåda kommersiell användning',
@@ -15,7 +15,7 @@ const content: BundleContent = {
       'kommersiell licens pusselarbetsblad',
       'bulkproduktion pusselarbetsblad verktyg',
     ],
-    titleTag: 'Pusselarbetsblad Paket — 4 Logik- och Pusselgeneratorer',
+    titleTag: 'Pussel- och logikpaket för KDP | LessonCraftStudio',
     metaDescription: 'Pusselarbetsblad paket med 4 generatorer: saknade bitar, hitta udda bilden, bildsudoku och labyrinter. Sälj på Etsy, KDP och Gumroad. Kommersiell licens.',
   },
 

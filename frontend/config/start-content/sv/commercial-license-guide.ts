@@ -2,7 +2,7 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'kommersiell licens utskriftsbara arbetsblad',
+    primaryKeyword: 'kommersiell licens för printables-säljare',
     secondaryKeywords: [
       'kommersiell användningslicens utskriftsbara produkter',
       'sälja arbetsblad kommersiellt Etsy Amazon',
@@ -17,7 +17,7 @@ const content: StartContent = {
       'arbetsbladsgenrator licensnivåer',
       'kommersiell kontra personlig användning utskriftsbara',
     ],
-    titleTag: 'Kommersiell licens för utskriftsbara arbetsblad — guide för',
+    titleTag: 'Kommersiell licens för säljare | LessonCraftStudio',
     metaDescription: 'Förstå kommersiella licenser för att sälja arbetsblad på Etsy, Amazon KDP och andra plattformar. Två licensnivåer förklarade med tydliga rättigheter och.',
   },
 

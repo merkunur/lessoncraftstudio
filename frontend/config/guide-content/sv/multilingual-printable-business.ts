@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'flerspråkigt utskriftsbart företag',
+    primaryKeyword: 'flerspråkig printables-verksamhet',
     secondaryKeywords: [
       'sälja utskriftsbara produkter på flera språk',
       'internationell marknad utskriftsbara produkter',
@@ -17,7 +17,7 @@ const content: GuideContent = {
       'flerspråkig produktportfölj språktäckning konkurrensfördel underservade marknader',
       'tvärspråkliga intäktsströmmar plattformsinternationalisering multimarknadsdistribution',
     ],
-    titleTag: 'Flerspråkigt utskriftsbart företag — Strategiguide',
+    titleTag: 'Flerspråkig printables-verksamhet | LessonCraftStudio',
     metaDescription: 'Bygg ett flerspråkigt utskriftsbart företag genom att expandera till internationella marknader. Lär dig vilka språk att rikta, översättningsarbetsflöden och.',
   },
 

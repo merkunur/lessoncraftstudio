@@ -2,7 +2,7 @@ import type { BundleContent } from '../types';
 
 const content: BundleContent = {
   seo: {
-    primaryKeyword: 'matte arbetsblad paket',
+    primaryKeyword: 'mattepaket generatorer för Etsy-säljare',
     secondaryKeywords: [
       'matte utskriftspaket för säljare',
       'matte arbetsblad generator paket kommersiell användning',
@@ -15,7 +15,7 @@ const content: BundleContent = {
       'kommersiell licens matte arbetsblad',
       'bulkproduktion matte arbetsblad verktyg',
     ],
-    titleTag: 'Matte Arbetsblad Paket — 6 Generatorer | Matematik',
+    titleTag: 'Mattepaket för Etsy-säljare | LessonCraftStudio',
     metaDescription: 'Få 6 matte arbetsblad-generatorer i ett paket. Skapa additions-, subtraktions-, kodpussel-, jämförelse- och algebraarbetsblad att sälja på Etsy, KDP och.',
   },
 

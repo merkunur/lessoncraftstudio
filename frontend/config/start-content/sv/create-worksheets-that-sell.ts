@@ -2,7 +2,7 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'skapa arbetsblad som saljer',
+    primaryKeyword: 'skapa arbetsblad som säljer',
     secondaryKeywords: [
       'skapa professionella arbetsblad',
       'gora arbetsblad att salja pa Etsy',
@@ -17,7 +17,7 @@ const content: StartContent = {
       'tematiska arbetsbladsbilder',
       'tryckfardiga PDF-arbetsblad',
     ],
-    titleTag: 'Skapa arbetsblad som saljer — Professionell guide | Online',
+    titleTag: 'Skapa arbetsblad som säljer | LessonCraftStudio',
     metaDescription: 'Sa skapar du arbetsblad som saljer pa Etsy, Amazon KDP och Gumroad. Steg-for-steg-guide om temabilder, facit, prissattning och listningsoptimering. Prova.',
   },
 

@@ -17,7 +17,7 @@ const content: GuideContent = {
       'supportförebyggande vanliga problem lösningstid professionell kommunikation',
       'skalbara supportsystem mallbibliotek mönsterspårning feedbackloopar',
     ],
-    titleTag: 'Kundsupport digitala produkter — Guide — Steg-för-Steg Guide',
+    titleTag: 'Kundsupport digitala produkter | LessonCraftStudio',
     metaDescription: 'Kundsupportstrategier för digitala produktsäljare. Täcker förebyggande, svarsmallar, återbetalningshantering, recensionshantering och skalbarhet. Prova.',
   },
 

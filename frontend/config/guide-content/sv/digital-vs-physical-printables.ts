@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'digitala kontra fysiska utskriftsbara produkter',
+    primaryKeyword: 'digitala vs fysiska printables jämförelse',
     secondaryKeywords: [
       'digital utskriftsbar affärsmodell',
       'print on demand kontra digital nedladdning',
@@ -17,7 +17,7 @@ const content: GuideContent = {
       'passiva intäkter utskriftskostnader förpackning produktkvalitetskontroll',
       'formatval affärsmodelljämförelse säljarstrategi tillväxtväg',
     ],
-    titleTag: 'Digitala kontra fysiska utskriftsbara — Guide — Säljguide',
+    titleTag: 'Digitalt vs fysiskt: printables | LessonCraftStudio',
     metaDescription: 'Jämförelse digitala kontra fysiska utskriftsbara produkter för säljare. Vinstmarginaler, skalbarhet, leverans och val av rätt format för ditt företag.',
   },
 

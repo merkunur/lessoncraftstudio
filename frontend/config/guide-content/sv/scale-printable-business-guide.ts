@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'skala upp utskriftsbart företag',
+    primaryKeyword: 'växa med din printables-verksamhet',
     secondaryKeywords: [
       'hur man skalar upp ett utskriftsbart företag',
       'växa utskriftsbar arbetsbladsverksamhet',
@@ -17,7 +17,7 @@ const content: GuideContent = {
       'katalogtillväxt intäkt per produkt plattformsdiversifiering skalningsflaskhals',
       'affärssystem repeterbara processer produktionspipeline innehållsmultiplikation',
     ],
-    titleTag: 'Skala upp utskriftsbart företag — Tillväxtstrategi',
+    titleTag: 'Växa printables-verksamhet | LessonCraftStudio',
     metaDescription: 'Hur du skalar upp ditt utskriftsbara företag med batchproduktion, multiplattformsexpansion, katalogtillväxt, flerspråkiga marknader och automatiseringsstrategie',
   },
 

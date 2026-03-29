@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'sociala medier marknadsföring utskriftsbara produkter',
+    primaryKeyword: 'sociala medier för printables-säljare',
     secondaryKeywords: [
       'sociala medier för utskriftsbara säljare',
       'marknadsföra utskriftsbara produkter sociala medier',
@@ -17,7 +17,7 @@ const content: GuideContent = {
       'Instagram-marknadsföring Pinterest-strategi Facebook-grupper säljarpromotion',
       'hashtagstrategi publiceringsschema engagemangsgrad profiloptimering',
     ],
-    titleTag: 'Sociala medier marknadsföring utskriftsbara — Guide',
+    titleTag: 'Sociala medier för säljare | LessonCraftStudio',
     metaDescription: 'Marknadsföringsstrategier för sociala medier för säljare av utskriftsbara produkter. Plattformsval, visuellt innehåll, publikuppbyggnad och engagemang.',
   },
 

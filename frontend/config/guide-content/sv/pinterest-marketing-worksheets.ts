@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'pinterest marknadsföring arbetsblad',
+    primaryKeyword: 'Pinterest-marknadsföring för arbetsblad',
     secondaryKeywords: [
       'pinterest för utskriftsbara säljare',
       'sälja arbetsblad med pinterest',
@@ -17,7 +17,7 @@ const content: GuideContent = {
       'pin-optimering vertikalt format Pinterest-algoritm fräscha pins',
       'sökranking sparfrekvens utgående klick publikinsikter pin-mallar',
     ],
-    titleTag: 'Pinterest marknadsföring arbetsblad — Säljstrategi',
+    titleTag: 'Pinterest för arbetsblad-verksamhet | LessonCraftStudio',
     metaDescription: 'Pinterest-marknadsföringsstrategi för säljare av arbetsblad. Driv långsiktig trafik genom pin-optimering, tavlestrategi och nyckelordrikt innehåll. Prova.',
   },
 

@@ -2,7 +2,7 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'marknadsföra utskriftsbara arbetsblad',
+    primaryKeyword: 'marknadsföra printables-verksamhet online',
     secondaryKeywords: [
       'marknadsföringsstrategier för säljare av utskriftsbara produkter',
       'marknadsför utskriftsbara arbetsblad online',
@@ -17,7 +17,7 @@ const content: StartContent = {
       'marknadsplatsoptimering aktivitetsböcker',
       'innehållsmarknadsföring för utskriftsbara företagare',
     ],
-    titleTag: 'Marknadsför utskriftsbara arbetsblad — guide för säljare',
+    titleTag: 'Marknadsföra printables-verksamhet | LessonCraftStudio',
     metaDescription: 'Marknadsför utskriftsbara arbetsblad online: plattforms-SEO, Pinterest-strategi, e-postmarknadsföring, säsongsplanering och varumärkesbyggande för utskriftsbara',
   },
 

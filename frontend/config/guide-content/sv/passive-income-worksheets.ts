@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'återkommande intäkt arbetsblad',
+    primaryKeyword: 'passiv inkomst med arbetsblad 2026',
     secondaryKeywords: [
       'arbetsbladverksamhet inkomst',
       'tjäna pengar på att sälja arbetsblad',
@@ -17,7 +17,7 @@ const content: GuideContent = {
       'intäktsmultiplikation katalogeffekter organisk upptäckt pågående försäljning',
       'skalbar intäktsmodell arbetsblad inkomstströmmar multiplattformsintäkt',
     ],
-    titleTag: 'Återkommande intäkt arbetsblad — Inkomstguide — Säljguide',
+    titleTag: 'Passiv inkomst med arbetsblad (2026) | LessonCraftStudio',
     metaDescription: 'Bygg återkommande arbetsbladsinkomst genom vintergröna kataloger, multiplattformsdistribution, språkexpansion och katalogackumuleringsstrategier. Prova.',
   },
 

@@ -2,7 +2,7 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'bästa verktyg för säljare av utskriftsbara produkter',
+    primaryKeyword: 'nödvändiga verktyg printables-verksamhet',
     secondaryKeywords: [
       'checklista verktyg utskriftsbart företag',
       'arbetsbladsgenratorverktyg för säljare',
@@ -17,7 +17,7 @@ const content: StartContent = {
       'flerspråkig arbetsbladsgenrator verktyg',
       'kommersiell licens arbetsbladsproduktion',
     ],
-    titleTag: 'Bästa verktyg för säljare av utskriftsbara produkter',
+    titleTag: 'Verktyg för printables-verksamhet | LessonCraftStudio',
     metaDescription: 'Bästa verktyg för säljare av utskriftsbara produkter: arbetsbladsgenratorer, designverktyg, plattformsverktyg och arbetsflöden för en professionell verktygslåda',
   },
 

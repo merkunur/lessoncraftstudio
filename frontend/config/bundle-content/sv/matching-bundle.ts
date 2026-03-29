@@ -2,7 +2,7 @@ import type { BundleContent } from '../types';
 
 const content: BundleContent = {
   seo: {
-    primaryKeyword: 'matchningsarbetsblad paket',
+    primaryKeyword: 'kopplings- och sorteringspaket Etsy',
     secondaryKeywords: [
       'matchning sortering arbetsblad generator paket för säljare',
       'utskriftsbar matchningsaktivitet verktygslåda kommersiell användning',
@@ -15,7 +15,7 @@ const content: BundleContent = {
       'kommersiell licens matchningsarbetsblad',
       'bulkproduktion matchningsarbetsblad verktyg',
     ],
-    titleTag: 'Matchningsarbetsblad Paket — 5 Sorterings- och Matchningsgen',
+    titleTag: 'Kopplings- och sorteringspaket | LessonCraftStudio',
     metaDescription: 'Få 5 matchningsarbetsblad-generatorer i ett paket. Skapa matchning, rutnätsmatchning, skuggmatchning, bingo och sorteringsarbetsblad att sälja på Etsy.',
   },
 

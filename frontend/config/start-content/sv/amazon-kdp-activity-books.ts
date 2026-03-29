@@ -2,7 +2,7 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'sälja aktivitetsböcker på Amazon KDP',
+    primaryKeyword: 'aktivitetsböcker Amazon KDP verksamhet',
     secondaryKeywords: [
       'Amazon KDP aktivitetsböcker',
       'publicera pusselböcker på KDP',
@@ -17,7 +17,7 @@ const content: StartContent = {
       'KDP royaltyberäkning aktivitetsböcker',
       'print-on-demand aktivitetsbok företag',
     ],
-    titleTag: 'Sälja aktivitetsböcker på Amazon KDP — Guide — Säljguide',
+    titleTag: 'Aktivitetsböcker Amazon KDP | LessonCraftStudio',
     metaDescription: 'Lär dig sälja aktivitetsböcker på Amazon KDP. Interiörformatering, omslagsdesign, nyckelordsstrategi, prissättning och skalning av ditt KDP-bokföretag steg för.',
   },
 

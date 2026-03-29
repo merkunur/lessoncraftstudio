@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'e-postmarknadsföring utskriftsbara produkter',
+    primaryKeyword: 'e-postmarknadsföring för printables-säljare',
     secondaryKeywords: [
       'e-postlista utskriftsbara säljare',
       'nyhetsbrev arbetsbladsföretag',
@@ -17,7 +17,7 @@ const content: GuideContent = {
       'automatiserade sekvenser återaktiveringskampanj listhygien avsändarrykte',
       'innehållskalender e-postanalys A/B-testning personalisering taggar',
     ],
-    titleTag: 'E-postmarknadsföring utskriftsbara — Säljstrategi | Online',
+    titleTag: 'E-postmarknadsföring för säljare | LessonCraftStudio',
     metaDescription: 'E-postmarknadsföringsstrategier för säljare av utskriftsbara produkter. Bygg din prenumerantlista, skapa lead magnets, automatisera sekvenser och driv.',
   },
 

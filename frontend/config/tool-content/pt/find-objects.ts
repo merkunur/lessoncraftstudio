@@ -2,26 +2,36 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'gerador atividades objetos ocultos',
+    primaryKeyword: 'gerador de ache e encontre grátis',
     secondaryKeywords: [
-      'criador atividades eu vejo busca objetos uso comercial',
-      'gerador atividades encontra o diferente para Etsy e KDP',
-      'ferramenta atividades objetos ocultos sem sobreposição licença comercial',
-      'criar atividades busca e encontra visuais para vender online',
+      'ache e encontre para imprimir grátis',
+      'atividades de objetos escondidos grátis',
+      'criar ache e encontre online grátis',
+      'hidden object para crianças grátis',
     ],
     lsiKeywords: [
-      'modo eu vejo e encontra o diferente dupla atividade visual',
-      'algoritmo sem sobreposição 50 posições tamanho adaptativo cena dispersa',
-      'gabarito autogerado círculos vermelhos anotações objetos ocultos',
+      'grátis online',
+      'sem cadastro',
+      'marca d\'água',
+      'imprimir',
+      'PDF',
+      'gabarito',
+      'ache e encontre',
+      'objetos escondidos',
+      '104 temas',
+      'atenção visual',
+      'teste grátis',
+      'licença comercial',
     ],
-    titleTag: 'Gerador Atividades Objetos Ocultos — Eu Vejo para Vender',
-    metaDescription: 'Crie atividades de objetos ocultos com modos Eu Vejo e Encontra o Diferente, cenas sem sobreposição, gabaritos com círculos vermelhos, 104 temas. Teste grátis.',
+    titleTag: 'Ache e encontre grátis online | LCS',
+    metaDescription:
+      'Crie atividades de ache e encontre grátis com imagens. 104 temas, gabarito automático, PDF imprimível. Teste online sem cadastro — marca d\'água removível.',
   },
 
   hero: {
-    title: 'Gerador de Atividades de Objetos Ocultos',
+    title: 'Gerador de ache e encontre — teste grátis online',
     tagline: 'Gerador de atividades de objetos ocultos com dois modos — Eu Vejo (cenas dispersas sem sobreposição com 1–5 objetos ocultos entre 8–12 distratores e legenda inferior) e Encontra o Diferente (8–12 imagens emparelhadas com 1–5 elementos sem par apresentados 50% maiores), algoritmo de tamanho de imagem adaptativo que testa 50 posições por imagem, gabaritos autogerados com anotações de círculos vermelhos, e atividades puramente visuais que se vendem em todo o mundo sem tradução',
-    description: 'Crie atividades profissionais de objetos ocultos onde os usuários procuram numa cena visual para encontrar e circular objetos específicos. O gerador oferece dois modos de atividade que produzem desafios cognitivos fundamentalmente diferentes. O modo Eu Vejo usa um algoritmo de posicionamento sem sobreposição para dispersar de 1 a 5 objetos ocultos entre 8 a 12 distratores por toda a página — sem grelha, sem linhas nem colunas, apenas uma cena visual coesa. O algoritmo findBestPosition() testa 50 posições aleatórias por imagem e seleciona a localização com menor sobreposição, reduzindo adaptativamente o tamanho da imagem quando o espaço é limitado. Uma legenda na parte inferior da atividade (margem de 120 px) mostra aos usuários exatamente que objetos devem encontrar, tornando as atividades acessíveis para pré-leitores sem instruções escritas. O modo Encontra o Diferente organiza de 8 a 12 imagens emparelhadas com 1 a 5 elementos sem par misturados — os usuários identificam as imagens que não têm um par correspondente. As imagens no modo Encontra o Diferente são apresentadas 50% maiores do que no modo Eu Vejo para uma comparação visual clara. O sistema de duplo canvas gera tanto um aba de atividade como um aba de gabarito simultaneamente. O gabarito reproduz o layout exato da atividade e desenha círculos vermelhos à volta dos objetos ocultos (Eu Vejo) ou dos elementos sem par (Encontra o Diferente), de 3 a 5 px maiores que o objeto para maior visibilidade. Um cabeçalho autogerado mostra o seu título na fonte Fredoka com autoajuste — 32 px para títulos curtos reduzindo-se a 18 px para textos mais longos — com contentores decorativos brancos tipo pílula e sombras. Ative ou desative os campos de nome e data para identificação do usuário. O Gerador de Objetos Ocultos NÃO depende do idioma: as atividades são puramente visuais sem nomes de imagem localizados no conteúdo da atividade, pelo que cada atividade se vende universalmente em todos os mercados sem tradução. Explore 104 coleções temáticas com mais de 3100 ilustrações ou carregue imagens personalizadas em formato PNG, JPG ou GIF. Aplique temas de fundo e de moldura com controlos de opacidade independentes. Adicione texto personalizado com 7 opções de fonte (Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial, Verdana) e contorno de texto de 0 a 10. Exporte PDF e JPEG prontos para impressão a 300 DPI (multiplicador 6×) em Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal, Quadrado (1200×1200) ou dimensões personalizadas. Ative escala de cinzentos para impressão que poupa tinta. Edite tudo no canvas Fabric.js com arrastar, redimensionar, rodar, camadas, bloquear/desbloquear, 6 opções de alinhamento mais centrar na página, zoom de 25% a 300%, e 20 estados de desfazer/refazer. O teste grátis inclui todas as funcionalidades com uma marca d\'água nos downloads. Adquira uma licença para remover a marca d\'água e vender comercialmente.',
+    description: 'Crie atividades de ache e encontre diretamente no navegador — sem cadastro, sem instalação, sem custo. Este gerador produz cenas visuais onde as crianças procuram objetos específicos entre imagens temáticas. Mais de 3.000 ilustrações em 104 temas. Desenvolve atenção visual, concentração e vocabulário. Exporte PDFs prontos para imprimir com gabarito automático. Perfeito para pais e professores. O teste grátis inclui todas as funcionalidades — os downloads vêm com marca d\'água. Para uso comercial, conheça a versão com licença.',
   },
 
   tutorial: {

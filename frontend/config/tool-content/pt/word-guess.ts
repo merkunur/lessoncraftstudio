@@ -2,26 +2,36 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'gerador atividades adivinhar palavras',
+    primaryKeyword: 'criar jogo de adivinhar palavras grátis',
     secondaryKeywords: [
-      'criar atividades de ortografia imprimíveis para vender',
-      'gerador de atividades adivinhar palavras para vendedores',
-      'atividades de adivinhar palavras imprimíveis uso comercial',
-      'gerador adivinhar palavras para KDP',
+      'jogo de adivinhar palavras para imprimir grátis',
+      'forca educativa online grátis',
+      'adivinhar palavras com imagens grátis',
+      'jogo de letras para crianças grátis',
     ],
     lsiKeywords: [
-      'atividades de ortografia visual com imagens para Etsy',
-      'ferramenta de adivinhar palavras com pistas de imagem',
-      'gerador de atividades de ortografia multilingue',
+      'grátis online',
+      'sem cadastro',
+      'marca d\'água',
+      'imprimir',
+      'PDF',
+      'gabarito',
+      'adivinhar palavras',
+      'forca',
+      '11 idiomas',
+      'vocabulário',
+      'teste grátis',
+      'licença comercial',
     ],
-    titleTag: 'Gerador Atividades Adivinhar Palavras | Criar e Vender',
-    metaDescription: 'Gere atividades de adivinhar palavras com 4 níveis de pista, dois modos de entrada, excluir letras, 11 idiomas e 104 temas. Teste grátis com marca d\'água.',
+    titleTag: 'Adivinhar palavras grátis online | LCS',
+    metaDescription:
+      'Crie jogos de adivinhar palavras grátis com imagens. Estilo forca, 11 idiomas, gabarito automático. Teste online sem cadastro — marca d\'água removível.',
   },
 
   hero: {
-    title: 'Gerador de Atividades de Adivinhar Palavras',
+    title: 'Jogo de adivinhar palavras — teste grátis online',
     tagline: 'Crie atividades de ortografia com imagens, 4 níveis de pista e 11 idiomas',
-    description: 'Transforme a prática de vocabulário num puzzle visual que os usuários adoram resolver. Esta ferramenta gera atividades de adivinhar palavras onde uma pista de imagem se combina com uma grelha de letras com espaços em branco — os usuários observam a imagem e preenchem as letras que faltam para soletrar a palavra representada. A funcionalidade principal é um sistema progressivo de 4 níveis de pista: Sem Pistas não revela nenhuma letra para recuperação pura, Fácil revela metade das letras para aprendizes iniciantes, Normal revela um quarto para um desafio equilibrado, e Difícil revela apenas um sexto para usuários confiantes na sua ortografia. Escolha entre dois modos de entrada: o modo Pista de Imagem extrai vocabulário de mais de 3100 imagens em 104 coleções temáticas com geração automática de grelhas de letras, ou o modo Lista de Palavras Personalizada permite-lhe escrever qualquer palavra diretamente para prática de vocabulário específico sem imagens. A função Excluir Letras remove letras específicas das grelhas — exclua vogais para exercícios centrados em fonética ou exclua letras comuns para um desafio maior. A sensibilidade linguística está integrada: mude do português para qualquer um dos 11 idiomas disponíveis e a mesma imagem produz uma ortografia correta diferente. Uma imagem de cão gera \"CÃO\" em português, \"DOG\" em inglês, \"HUND\" em alemão, \"CHIEN\" em francês. Um único design de atividade converte-se em 11 produtos linguísticos únicos com respostas genuinamente diferentes. Configure a saída em maiúsculas ou minúsculas, ative a numeração de exercícios, adicione sobreposições de texto personalizadas e escolha entre 7 famílias tipográficas. Exporte como PDF pronto para imprimir ou JPEG de alta resolução com geração opcional de gabarito. O teste grátis inclui uma marca d\'água nos downloads. Adquira uma licença para remover a marca d\'água e vender com uso comercial.',
+    description: 'Crie jogos de adivinhar palavras diretamente no navegador — sem cadastro, sem instalação, sem custo. Este gerador online produz atividades estilo forca onde os usuários veem imagens e preenchem letras em caselas. Mais de 3.000 imagens em 104 temas e 11 idiomas com caracteres nativos. Exporte PDFs prontos para imprimir com gabarito automático. Perfeito para atividades de vocabulário e alfabetização. O teste grátis inclui todas as funcionalidades — os downloads vêm com marca d\'água. Para uso comercial, conheça a versão com licença.',
   },
 
   tutorial: {

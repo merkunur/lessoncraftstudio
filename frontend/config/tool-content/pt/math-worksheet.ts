@@ -2,26 +2,36 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'gerador puzzles algébricos',
+    primaryKeyword: 'gerador de atividades de matemática grátis',
     secondaryKeywords: [
-      'criar puzzles de álgebra com imagens para vender',
-      'gerador de atividades de álgebra visual imprimíveis',
-      'puzzles algébricos com imagens uso comercial',
-      'atividades de álgebra visual com imagens para KDP',
+      'atividades de matemática para imprimir grátis',
+      'criar exercícios de cálculo online grátis',
+      'gerador de tabuada grátis',
+      'atividades de operações matemáticas grátis',
     ],
     lsiKeywords: [
-      'atividades de álgebra visual com imagens para Etsy',
-      'ferramenta de puzzles de equações com imagens',
-      'gerador de atividades de álgebra com incógnitas visuais',
+      'grátis online',
+      'sem cadastro',
+      'marca d\'água',
+      'imprimir',
+      'PDF',
+      'gabarito',
+      'tabuada',
+      'operações básicas',
+      'cálculo',
+      'ensino fundamental',
+      'teste grátis',
+      'licença comercial',
     ],
-    titleTag: 'Gerador Puzzles Algébricos | Criar e Vender',
-    metaDescription: 'Crie puzzles algébricos onde imagens substituem variáveis em equações. Quatro níveis de dificuldade, solução única garantida. Teste grátis com marca d\'água.',
+    titleTag: 'Atividades de matemática grátis online | LCS',
+    metaDescription:
+      'Crie atividades de matemática grátis com cálculos numéricos. Soma, subtração, multiplicação, divisão. Teste online sem cadastro — marca d\'água removível.',
   },
 
   hero: {
-    title: 'Gerador de Puzzles Algébricos Ilustrados',
+    title: 'Gerador de atividades de matemática — teste grátis online',
     tagline: 'Crie puzzles de álgebra visual com imagens como variáveis em menos de 60 segundos',
-    description: 'Supere as atividades de aritmética padrão com puzzles algébricos ilustrados que desafiam os usuários a pensar em sistemas de equações. Cada atividade apresenta um conjunto de equações interligadas onde as imagens substituem as variáveis desconhecidas — os usuários devem determinar o valor numérico que cada imagem representa. Quatro níveis de dificuldade escalam desde dois símbolos com adição simples até quatro incógnitas simultâneas com operações mistas. Um solucionador algébrico integrado garante que cada puzzle tem exatamente uma solução correta — sem ambiguidade, sem adivinhação. Escolha Só Adição para prática focada ou Adição e Subtração para resolução avançada de problemas. Configure o intervalo numérico, ative os resultados negativos para usuários avançados e controle os puzzles por página de 1 a 6 com ajuste de layout automático. Selecione imagens individualmente, carregue um tema completo ou envie o seu próprio PNG ou JPEG para puzzles personalizados. Como os puzzles usam apenas imagens e números, funcionam de forma idêntica em qualquer idioma — venda o mesmo PDF em todo o mundo sem tradução. Baixe como PDF pronto para impressão ou JPEG de alta resolução. O teste grátis inclui uma marca d\'água nos downloads. Adquira uma licença para remover a marca d\'água e vender com uso comercial.',
+    description: 'Crie atividades de cálculo numérico diretamente no navegador — sem cadastro, sem instalação, sem custo. Este gerador online produz exercícios de soma, subtração, multiplicação e divisão com intervalos configuráveis. Perfeito para praticar tabuada, reforço escolar e preparação de provas. Exporte PDFs prontos para imprimir com gabarito automático. "Atividades de matemática para imprimir" é um dos termos mais buscados por pais e professores brasileiros. O teste grátis inclui todas as funcionalidades — os downloads vêm com marca d\'água. Para uso comercial e remoção da marca, conheça a versão com licença.',
   },
 
   tutorial: {

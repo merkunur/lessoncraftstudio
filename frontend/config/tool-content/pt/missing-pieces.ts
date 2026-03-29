@@ -2,26 +2,36 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'criador atividades puzzles peças faltantes',
+    primaryKeyword: 'gerador de peças faltantes grátis',
     secondaryKeywords: [
-      'criador de atividades de peças faltantes para vendedores Etsy',
-      'criar puzzles de peças faltantes imprimíveis para vender',
-      'gerador de puzzles de peças faltantes uso comercial',
-      'ferramenta de atividades de puzzles visuais para KDP e Etsy',
+      'quebra-cabeça peças faltantes para imprimir grátis',
+      'puzzle de completar imagens grátis',
+      'atividades de peças faltantes grátis online',
+      'quebra-cabeça visual grátis para crianças',
     ],
     lsiKeywords: [
-      'extração inteligente de peças com variância de cor gerador atividades',
-      'criador de atividades de puzzles seis formas com gabarito automático',
-      'peças distratoras puzzle visual gerador de atividades imprimíveis',
+      'grátis online',
+      'sem cadastro',
+      'marca d\'água',
+      'imprimir',
+      'PDF',
+      'gabarito',
+      'peças faltantes',
+      'puzzle visual',
+      '104 temas',
+      'raciocínio lógico',
+      'teste grátis',
+      'licença comercial',
     ],
-    titleTag: 'Criador Atividades Puzzles Peças Faltantes | Criar e Vender',
-    metaDescription: 'Crie atividades de puzzles com 6 formas de peça, dificuldade configurável, extração inteligente com peças distratoras, 104 temas. Teste grátis com marca d\'água.',
+    titleTag: 'Peças faltantes grátis online | LCS',
+    metaDescription:
+      'Crie quebra-cabeças de peças faltantes grátis. 104 temas, gabarito automático, PDF imprimível. Teste online sem cadastro — marca d\'água removível.',
   },
 
   hero: {
-    title: 'Criador de Atividades de Puzzles de Peças Faltantes',
+    title: 'Gerador de peças faltantes — teste grátis online',
     tagline: 'Gerador de atividades de puzzles estilo quebra-cabeças com 6 formas de peça (quadrado, círculo, retângulo vertical/horizontal, elipse vertical/horizontal), 1–5 peças faltantes com 2–6 opções de solução incluindo distratoras, extração inteligente de peças com deteção de variância de cor e separação mínima de 250px, gabaritos autogerados com etiquetas numéricas realçadas em amarelo, dupla borda decorativa em verde-azulado e rosa intenso, e 104 coleções temáticas de imagens para atividades de puzzles que se vendem em todo o mundo',
-    description: 'Crie atividades profissionais de puzzles de peças faltantes onde uma imagem tem lacunas recortadas e os usuários identificam que opção numerada preenche cada espaço. O algoritmo inteligente de extração de peças tenta até 150 colocações para encontrar peças com suficiente variância de cor (variância de luminosidade mínima de 15), mantendo pelo menos 250 píxeis de distância entre peças para evitar sobreposição. O tamanho de peça calcula-se como 12% da largura da imagem com um mínimo de 50 píxeis. Escolha entre 6 formas de peça que alteram o carácter visual de cada puzzle: quadrado (predefinido) e círculo oferecem cortes geométricos limpos, retângulo vertical (80% largura, 100% altura) e retângulo horizontal (100% largura, 80% altura) criam lacunas alongadas, e elipse vertical e elipse horizontal oferecem cortes curvos mais suaves com as mesmas proporções dimensionais. Configure a dificuldade com dois controlos independentes: defina 1–5 peças faltantes para controlar quantas lacunas aparecem na imagem, e defina 2–6 opções de solução para controlar quantas opções numeradas avaliam os usuários. Quando as opções de solução excedem as peças faltantes, as opções extra são peças distratoras — extraídas de áreas não sobrepostas da mesma imagem usando até 200 tentativas de colocação cada uma. As distratoras impedem que os usuários resolvam por eliminação, obrigando a uma comparação visual cuidadosa de cores, padrões e detalhes. O sistema de canvas duplo gera simultaneamente um aba de atividade e um aba de gabarito. O gabarito mostra a mesma imagem do puzzle com as lacunas e coloca etiquetas numéricas realçadas em amarelo (rgba(255,255,0,0.7)) dentro de cada lacuna mostrando o índice de opção correto baseado em 1. O tamanho de fonte escala-se a 60% do tamanho da peça para legibilidade clara. Um cabeçalho autogerado exibe \"Peças em Falta\" em turquesa (#06B6D4) com uma descrição em rosa (#DB2777) emoldurado num sistema de dupla borda — borda exterior verde-azulado (#14B8A6, traço 8px, margens 34px, raio 12px) e borda interior rosa intenso (#EC4899, traço 3px, margens 46,5px, raio 8px, desfasamento 2px direita e 3px baixo). Peças Faltantes NÃO é sensível ao idioma — os puzzles são puramente visuais sem conteúdo dependente do idioma na atividade, tornando cada puzzle universalmente vendível sem tradução. O único elemento localizado é o texto do cabeçalho, traduzido nos 11 idiomas suportados. As atividades verticais colocam a imagem do puzzle em cima com as opções em baixo em fila horizontal (75% do tamanho máximo); as atividades horizontais dividem a vista 50/50 com as opções à direita. Explore 104 coleções temáticas com mais de 3100 ilustrações coloridas ou carregue as suas próprias imagens PNG, JPG ou GIF. Aplique fundos e bordas temáticas com controlos de opacidade independentes (0–1, passo 0,05). Adicione texto personalizado com 7 opções de fontes (Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial, Verdana) e contorno de texto 0–10. Exporte quatro arquivos por sessão: atividade JPEG, atividade PDF, gabarito JPEG e gabarito PDF — tudo a 300 DPI (multiplicador 6×, qualidade JPEG 1,0). Escolha Carta, A4, Quadrado (1200×1200) ou tamanhos personalizados com opção de escala de cinzentos para saída económica em tinta. Edite tudo no canvas Fabric.js com 6 opções de alinhamento mais centramento na página, camadas, bloquear/desbloquear, zoom 25%–300% em incrementos de 25%, e desfazer/refazer 50 estados. O teste grátis inclui todas as funcionalidades com uma marca d\'água nos downloads. Adquira uma licença para remover a marca d\'água e vender com uso comercial.',
+    description: 'Crie quebra-cabeças de peças faltantes diretamente no navegador — sem cadastro, sem instalação, sem custo. Este gerador produz puzzles visuais onde uma parte da imagem é removida e as crianças identificam a peça correta. Desenvolve atenção visual e raciocínio lógico. Mais de 3.000 ilustrações em 104 temas. Exporte PDFs prontos para imprimir com gabarito automático. O teste grátis inclui todas as funcionalidades — os downloads vêm com marca d\'água. Para uso comercial, conheça a versão com licença.',
   },
 
   tutorial: {

@@ -1,26 +1,30 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'criar atividades adição codificada para a loja',
+    primaryKeyword: 'criar enigmas matemáticos codificados grátis',
     secondaryKeywords: [
-      'puzzles código secreto matemática para vendedores',
-      'atividades adição cifrada para a loja',
-      'exercícios código matemática para crianças',
-      'criador de atividades adição codificada',
+      'puzzles de adição codificada grátis online',
+      'enigmas de matemática para imprimir grátis',
+      'criptaritmética grátis para crianças',
+      'palavra revelada grátis online',
     ],
     lsiKeywords: [
-      'puzzle cifrado matemática com imagens para a loja',
-      'atividade palavra revelada código secreto',
-      'atividade código numérico matemática para usuários',
+      'grátis online',
+      'sem cadastro',
+      'marca d\'água',
+      'imprimir',
+      'PDF',
+      'gabarito',
+      'palavra revelada',
+      'criptaritmética',
+      '11 idiomas',
+      'educação infantil',
+      'teste grátis',
+      'licença comercial',
     ],
-    titleTag: 'Atividades Adição Codificada — Puzzles para a loja',
-    metaDescription: 'Crie puzzles de adição codificada para a loja. Códigos secretos com imagens, modo Palavra Revelada, 11 idiomas. Teste grátis com marca d\'água.',
-    },
-
-  hero: {
-    title: 'Gerador de Atividades de Adição Codificada',
-    tagline: 'Crie puzzles criptaritméticos onde os usuários decifram códigos secretos resolvendo equações de adição',
-    description: 'Isto não é mais uma atividade de adição — é um desafio de descodificação. Cada puzzle esconde números por trás de símbolos com imagens, e os usuários devem resolver equações de adição para descobrir qual número corresponde a cada imagem. No Modo Clássico, cada símbolo representa um dígito único. Mude para o Modo Palavra Revelada e cada equação resolvida revela uma letra de uma palavra secreta, enquanto letras distratoras mantêm os usuários em suspense. Escolha entre mais de 100 temas de imagens, ajuste a quantidade de símbolos e a complexidade das parcelas, e baixe PDF ou JPEG prontos para imprimir. Compatível com 11 idiomas com alfabetos adaptados a cada língua — o Modo Palavra Revelada funciona nativamente em português com ã, õ, ç, á, é, í, ó, ú, â, ê, ô e à. O teste grátis inclui uma marca d\'água nos downloads. Adquira uma licença para remover a marca d\'água e vender as suas criações com uso comercial.',
+    titleTag: 'Enigmas matemáticos grátis online | LCS',
+    metaDescription:
+      'Crie enigmas de adição codificada grátis. Modo Palavra Revelada, 11 idiomas, gabarito automático. Teste online sem cadastro — marca d\'água removível.',
   },
 
   tutorial: {

@@ -2,26 +2,36 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'gerador atividades desenho em grelha',
+    primaryKeyword: 'criar atividades de desenho e pintura grátis',
     secondaryKeywords: [
-      'atividades de desenho em grelha imprimíveis para vender',
-      'criar atividades de desenhar e colorir uso comercial',
-      'gerador de atividades de reprodução em grelha para KDP',
-      'ferramenta para criar atividades de desenho célula por célula',
+      'atividades de desenhar e colorir para imprimir grátis',
+      'criar atividades de arte online grátis',
+      'atividades de desenho grátis para crianças',
+      'desenho e pintura grátis online',
     ],
     lsiKeywords: [
-      'atividades de grelha dupla com pistas para Etsy',
-      'gerador de atividades de simetria e desenho em grelha',
-      'atividades de contornos a preto e branco para vender online',
+      'grátis online',
+      'sem cadastro',
+      'marca d\'água',
+      'imprimir',
+      'PDF',
+      'desenhar e colorir',
+      'arte',
+      'criatividade',
+      '104 temas',
+      'coordenação motora',
+      'teste grátis',
+      'licença comercial',
     ],
-    titleTag: 'Gerador Atividades Desenho em Grelha | Criar e Vender',
-    metaDescription: 'Gere atividades de desenho em grelha com grelha dupla, percentagem de pistas ajustável, três modos de simetria e temas a preto e branco. Teste grátis com marca.',
+    titleTag: 'Desenho e pintura grátis online | LCS',
+    metaDescription:
+      'Crie atividades de desenho e pintura grátis com imagens. 104 temas, canvas livre, PDF imprimível. Teste online sem cadastro — marca d\'água removível.',
   },
 
   hero: {
-    title: 'Gerador de Atividades de Desenhar e Colorir',
+    title: 'Gerador de atividades de desenho e pintura — teste grátis',
     tagline: 'Gere atividades de desenho em grelha dupla com percentagem de pistas ajustável, três modos de simetria e um resultado completamente visual sem texto que se vende em todo o mundo sem necessidade de tradução',
-    description: 'Crie atividades profissionais de desenho em grelha onde os usuários reproduzem uma imagem de referência copiando-a célula por célula de uma grelha de pistas para uma grelha de prática em branco. Duas grelhas aparecem por cada imagem selecionada: uma Grelha de Prática com células vazias onde os usuários desenham, e uma Grelha de Pistas que mostra uma percentagem configurável da imagem de referência como pistas visuais. Ajuste a percentagem de pistas de 10 % a 75 % para controlar a dificuldade — menos pistas significa exercícios mais difíceis que exigem uma observação mais apurada. Configure as dimensões da grelha de 3×3 (9 células) a 10×10 (100 células), com linhas e colunas ajustáveis de forma independente. Três modos de simetria acrescentam uma dimensão de raciocínio espacial: Aleatório dispersa as pistas em posições arbitrárias, Horizontal reflete as pistas da esquerda para a direita, e Vertical reflete as pistas de cima para baixo, cada um com um seletor de parte a revelar que controla qual metade se mostra. O conteúdo provém da biblioteca integrada de temas de contornos a preto e branco com mais de 100 coleções que incluem mais de 3000 ilustrações a preto e branco concebidas especificamente para desenhar e colorir — contornos limpos que os usuários reproduzem e depois colorem, não temas coloridos. Esta é uma aplicação completamente visual: as atividades contêm apenas imagens em grelha com zero texto, tornando-as universalmente vendíveis sem tradução. Não existe gabarito separado porque a grelha de pistas serve como a solução de referência. Exporte PDF e JPEG prontos para impressão a 300 DPI nos formatos Carta, A4, Quadrado (1200×1200) ou dimensões personalizadas. Ative a escala de cinzentos para impressão económica. Edite tudo no canvas completo Fabric.js com fontes como Lexend Deca, Baloo 2, Nunito, Quicksand e Fredoka. O teste grátis inclui todas as funcionalidades com uma marca d\'água nos downloads. Adquira uma licença para remover a marca d\'água e vender com uso comercial.',
+    description: 'Crie atividades de desenho e pintura diretamente no navegador — sem cadastro, sem instalação, sem custo. Este gerador produz páginas de atividades artísticas com imagens temáticas como inspiração e ferramentas de canvas livre. Mais de 3.000 ilustrações em 104 temas. Desenvolve coordenação motora fina, criatividade e expressão artística. Exporte PDFs prontos para imprimir. O teste grátis inclui todas as funcionalidades — os downloads vêm com marca d\'água. Para uso comercial, conheça a versão com licença.',
   },
 
   tutorial: {

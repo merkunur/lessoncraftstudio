@@ -2,26 +2,36 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'gerador criptogramas',
+    primaryKeyword: 'gerador de criptogramas grátis',
     secondaryKeywords: [
-      'criar atividades de criptogramas imprimíveis para vender',
-      'gerador de puzzles cifrados com imagens uso comercial',
-      'atividades de criptogramas com cifra por imagens para KDP',
-      'ferramenta para criar criptogramas imprimíveis',
+      'criptograma para imprimir grátis',
+      'criar criptograma online grátis',
+      'puzzles de decifrar código grátis',
+      'criptograma com imagens grátis',
     ],
     lsiKeywords: [
-      'cifra por imagens imprimível para Etsy',
-      'gerador de atividades de decifração de códigos',
-      'criptogramas multilingues com imagens temáticas',
+      'grátis online',
+      'sem cadastro',
+      'marca d\'água',
+      'imprimir',
+      'PDF',
+      'gabarito',
+      'criptograma',
+      'código secreto',
+      '11 idiomas',
+      'raciocínio lógico',
+      'teste grátis',
+      'licença comercial',
     ],
-    titleTag: 'Gerador Criptogramas | Criar e Vender',
-    metaDescription: 'Gere criptogramas com cifra por imagens, Letras a Revelar 0–10, atribuição automática, gabarito e legenda de letras em 11 idiomas.',
+    titleTag: 'Gerador de criptogramas grátis online | LCS',
+    metaDescription:
+      'Crie criptogramas grátis com imagens. Substituição de letras, 11 idiomas, gabarito automático. Teste online sem cadastro — marca d\'água removível.',
   },
 
   hero: {
-    title: 'Gerador de Criptogramas com Imagens',
+    title: 'Gerador de criptogramas — teste grátis online',
     tagline: 'Crie puzzles de cifra onde cada letra do alfabeto se associa a uma imagem e os usuários decifram frases secretas completas através do reconhecimento de padrões',
-    description: 'Desenhe atividades profissionais de criptogramas baseadas numa cifra por imagens: cada letra do alfabeto se associa a uma imagem única, e a sua frase secreta é apresentada como uma sequência de imagens que os usuários devem decifrar para converter em texto legível. Ao contrário das caça-palavras ou das palavras embaralhadas que trabalham com palavras individuais, o gerador de criptogramas codifica frases e orações completas — os usuários decifram o código deduzindo qual imagem representa cada letra, usando pistas contextuais de palavras comuns como \"o\", \"e\", \"é\" para acelerar a decifração. O controlo Letras a Revelar (0–10) é o ajuste principal de dificuldade: defina zero para um desafio puro de decifração sem informação inicial, ou suba até dez para orientação progressiva intensa onde muitas correspondências letra-imagem já estão resolvidas como pistas. A Atribuição Automática extrai imagens aleatórias de qualquer uma das 104 coleções temáticas (mais de 3100 ilustrações) para preencher toda a cifra com um único clique, enquanto a Atribuição Manual permite escolher manualmente qual imagem específica representa cada letra específica com uma pré-visualização visual completa de todas as correspondências. Carregue imagens próprias para controlo criativo total. O gabarito inclui uma legenda de letras que mostra cada letra do alfabeto emparelhada com a sua imagem atribuída em ordem alfabética — a referência definitiva para a solução. A sensibilidade linguística está integrada: mude de idioma e tanto o texto da mensagem secreta como o alfabeto mudam. Os criptogramas em alemão codificam frases alemãs com ä, ö, ü, ß no alfabeto; os criptogramas em francês usam é, è, ç, à; os criptogramas em português incluem ã, õ, ç, â, á, é, í, ó, ú. Cada versão linguística é um produto de cifra genuinamente diferente. Exporte PDFs e imagens JPEG prontos para impressão a mais de 400 DPI nos formatos Carta, A4 ou dimensões personalizadas. Escolha entre 5 fontes, ative a escala de cinzentos para economia de tinta e use o canvas completo Fabric.js para reposicionar cada elemento. O teste grátis inclui uma marca d\'água nos downloads. Adquira uma licença para remover a marca d\'água e vender com uso comercial.',
+    description: 'Crie criptogramas com imagens diretamente no navegador — sem cadastro, sem instalação, sem custo. Este gerador online produz puzzles de substituição de letras onde cada símbolo visual representa uma letra do alfabeto. Suporte a 11 alfabetos nativos incluindo português com todos os acentos. Exporte PDFs prontos para imprimir com gabarito automático. Perfeito para quem adora desafios de decifração. O teste grátis inclui todas as funcionalidades — os downloads vêm com marca d\'água. Para uso comercial e remoção da marca, conheça a versão com licença.',
   },
 
   tutorial: {

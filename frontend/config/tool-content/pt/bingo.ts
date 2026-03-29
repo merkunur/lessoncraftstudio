@@ -1,26 +1,30 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'criar cartelas de bingo para a loja',
+    primaryKeyword: 'gerador de cartelas de bingo grátis com imagens',
     secondaryKeywords: [
-      'criador de bingo com imagens para a loja',
-      'criador de jogos de bingo para crianças',
-      'cartelas de bingo imprimíveis para a escola',
-      'gerador de cartelas bingo para vendedores',
+      'cartelas de bingo para imprimir grátis',
+      'criar bingo online grátis',
+      'bingo com imagens grátis para crianças',
+      'gerador de bingo educativo grátis',
     ],
     lsiKeywords: [
-      'gerador batch de cartelas bingo para a loja',
-      'criador de bingo com imagens e palavras',
-      'folha de chamada bingo criador',
+      'grátis online',
+      'sem cadastro',
+      'marca d\'água',
+      'imprimir',
+      'PDF',
+      'cartelas de bingo',
+      'exportação ZIP',
+      'folha de chamada',
+      '104 temas',
+      'jogo educativo',
+      'teste grátis',
+      'licença comercial',
     ],
-    titleTag: 'Criar Cartelas de Bingo — Para a loja',
-    metaDescription: 'Crie cartelas de bingo com imagens para a loja. Grelhas de 3x3 a 5x5, lotes de cartelas únicas, folhas de chamada, 104 temas. Teste com marca d\'água.',
-    },
-
-  hero: {
-    title: 'Gerador de Cartelas de Bingo',
-    tagline: 'Gerador de cartelas de bingo com imagens com grelhas configuráveis de 3×3 a 5×5, geração em lote de 1–10 cartelas únicas por conjunto, exportação ZIP de todas as cartelas numa só download, duplo modo de preenchimento para células e atividades circulares de forma independente, folha de chamada dedicada com grelha dinâmica de palavras, seleção personalizada de chamada com contador em tempo real e 104 coleções temáticas de imagens para cartelas de bingo que se vendem em todo o mundo',
-    description: 'Crie cartelas de bingo profissionais com imagens onde cada jogador recebe uma cartela única com diferentes imagens em diferentes posições — essencial para que o bingo funcione como jogo. Configure linhas de 3 a 5 e colunas de 3 a 5 de forma independente, criando grelhas desde 3×3 (9 células) até 5×5 (25 células) com um valor predefinido de 4×4 (16 células). Gere de 1 a 10 cartelas de bingo únicas por lote, cada uma extraindo uma seleção aleatória diferente do banco de imagens para que nenhuma cartela partilhe o mesmo design. Exporte todas as cartelas geradas como JPEGs individuais num único arquivo bingo_cards.zip usando compressão JSZip — um clique baixa um conjunto completo de cartelas de bingo pronto para empacotar em produtos de mercado. Escolha preenchimento de Imagem ou Palavra de forma independente para as células da cartela e as atividades circulares, criando quatro estilos distintos de cartela de bingo a partir de um só gerador. O preenchimento de Imagem mostra ilustrações temáticas; o preenchimento de Palavra mostra nomes localizados das imagens da Biblioteca de Imagens, tornando o Gerador de Cartelas de Bingo sensível ao idioma — ao mudar de idioma atualizam-se as palavras nas cartelas, atividades e folha de chamada. As atividades circulares apresentam bordas tracejadas (#666, strokeDashArray [5,5]) e são embaralhadas usando o algoritmo Fisher-Yates para que nunca reflitam a disposição da grelha da cartela, assegurando um jogo de bingo autêntico onde as atividades servem como referência de associação em vez de revelarem posições. Uma folha de chamada dedicada num aba à parte mostra uma grelha dinâmica de palavras para o chamador — as colunas são calculadas com base no comprimento da palavra mais longa (2–6 colunas) com tamanho de fonte uniforme em todas as entradas para legibilidade clara. Ative a seleção personalizada de chamada para escolher imagens específicas para o banco de chamada com um contador em tempo real que mostra o número de seleções, dando-lhe controlo preciso de alinhamento curricular sobre quais elementos aparecem no jogo. Explore 104 coleções temáticas com mais de 3100 ilustrações ou carregue as suas próprias imagens PNG, JPG ou GIF. Aplique fundos temáticos e bordas temáticas com controlos de opacidade independentes (0–1, passo 0,05). Adicione texto personalizado com 7 opções de fontes (Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial, Verdana) e contorno de texto 0–10. Exporte atividade JPEG, folha de chamada JPEG, atividade PDF e folha de chamada PDF a 300 DPI (multiplicador 6×, qualidade JPEG 1,0), mais a exportação ZIP em lote para todas as cartelas. Escolha Carta, A4, Quadrado (1200×1200) ou tamanhos personalizados com opção de escala de cinzentos para saída económica em tinta. A área da grelha usa 60% da altura disponível do canvas (limite de 500px) para proporções ótimas de cartela. Edite tudo no canvas de Fabric.js com ferramentas de alinhamento, camadas, bloquear/desbloquear, zoom 50%–200% em incrementos de 10% e desfazer/refazer 20 estados. O teste grátis inclui todas as funcionalidades com uma marca d\'água nos downloads. Adquira uma licença para remover a marca d\'água e vender com uso comercial.',
+    titleTag: 'Cartelas de bingo grátis com imagens | LCS',
+    metaDescription:
+      'Crie cartelas de bingo grátis com imagens. Lote até 10 cartelas, exportação ZIP, folha de chamada. Teste online sem cadastro — marca d\'água removível.',
   },
 
   tutorial: {

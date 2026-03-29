@@ -2,26 +2,36 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'gerador classificação de imagens',
+    primaryKeyword: 'gerador de atividades de classificação grátis',
     secondaryKeywords: [
-      'criador de atividades de classificação para vendedores uso comercial',
-      'criar atividades de classificação para vender na Etsy e KDP',
-      'gerador de atividades de classificação imprimíveis uso comercial',
-      'ferramenta de classificação com modo de tema e manual',
+      'atividades de classificação para imprimir grátis',
+      'exercícios de categorização grátis online',
+      'atividades de ordenar grátis para crianças',
+      'classificação visual grátis',
     ],
     lsiKeywords: [
-      'gerador de classificação com grelha de recortes misturada',
-      'criador de atividades de classificação com gabarito automático',
-      'atividades de classificação a duas categorias com imagens temáticas',
+      'grátis online',
+      'sem cadastro',
+      'marca d\'água',
+      'imprimir',
+      'PDF',
+      'gabarito',
+      'classificação',
+      'categorização',
+      '104 temas',
+      'raciocínio lógico',
+      'teste grátis',
+      'licença comercial',
     ],
-    titleTag: 'Gerador Classificação de Imagens | Criar e Vender',
-    metaDescription: 'Crie atividades de classificação com duas categorias, grelha de recortes misturada, gabarito autogerado e 104 temas com 4–12 imagens.',
+    titleTag: 'Classificação grátis online | LCS',
+    metaDescription:
+      'Crie atividades de classificação e categorização grátis. 104 temas, gabarito automático, PDF imprimível. Teste online sem cadastro — marca d\'água removível.',
   },
 
   hero: {
-    title: 'Gerador de Classificação de Imagens',
+    title: 'Gerador de atividades de classificação — teste grátis online',
     tagline: 'Gerador de atividades de classificação a duas categorias com modos de seleção temático e manual, grelhas de recortes misturadas de 4–12 imagens em 3–4 colunas autoajustáveis, molduras de categoria com borda tracejada para destinos de classificação esquerdo e direito, gabaritos autogerados com imagens 6× maiores em caixas de categorias, cabeçalho localizado de Classificação de Imagens em 11 idiomas e 104 coleções temáticas de imagens para atividades de classificação que se vendem em todo o mundo',
-    description: 'Crie atividades de classificação profissionais onde os usuários recortam imagens de uma grelha misturada e classificam-nas em duas categorias — esquerda e direita. Escolha o modo de tema para preencher categorias automaticamente a partir da biblioteca de imagens: selecione um tema para a esquerda e outro para a direita, e a aplicação extrai 4–6 imagens aleatórias por tema. Ou mude para o modo manual para selecionar imagens individualmente e atribuir cada uma à categoria esquerda ou direita. Cada atividade apresenta duas molduras de categoria com borda tracejada na parte superior com preenchimento #FAFAFA para destinos de classificação e uma grelha de recortes misturada por baixo com células brancas, bordas tracejadas #666, cantos arredondados de 4px e 3–4 colunas conforme o número total de imagens. Cada imagem ocupa 85% da sua célula. Configure de 4 a 12 imagens totais com 2–10 por categoria — menos imagens criam exercícios de classificação mais simples para os mais novos, mais imagens aumentam a dificuldade e a densidade de conteúdo. O sistema de canvas duplo gera simultaneamente um aba de atividade e um aba de gabarito. O gabarito mostra as imagens a 6× o tamanho das células da grelha de recortes, organizadas em caixas de categorias com um máximo de 2 colunas por caixa, preenchimento #FAFAFA, contorno #444 e raio de borda de 12px — sem necessidade de criar o gabarito manualmente. O Gerador de Classificação de Imagens é sensível ao idioma: as etiquetas de categoria utilizam nomes localizados de imagens da Biblioteca de Imagens, pelo que mudar de idioma atualiza o texto na atividade. Um cabeçalho localizado renderiza-se automaticamente com fundo verde-menta (#4DB6AC), contentor pílula branco, título verde-azulado (#00796B) em Fredoka Bold e descrição laranja (#FF7043) em Quicksand. As atividades verticais apresentam um cabeçalho de 100px com título de 28–48px; as atividades horizontais usam um cabeçalho de 70px com título de 24–36px. Uma borda exterior verde-azulada (#26A69A, 8px, raio 12px) emoldura toda a página. Explore 104 coleções temáticas com mais de 3100 ilustrações ou carregue as suas próprias imagens PNG, JPG ou GIF. Aplique fundos temáticos e bordas temáticas com controlos de opacidade independentes (0–1, passo 0,05). Adicione campos de nome e data para responsabilidade online. Adicione texto personalizado com 7 opções de fontes (Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial, Verdana) e contorno de texto 0–10. Exporte quatro arquivos por sessão: atividade JPEG, atividade PDF, gabarito JPEG e gabarito PDF — tudo a 300 DPI (multiplicador 6×, qualidade JPEG 1,0). Escolha Carta, A4, Quadrado (1200×1200) ou tamanhos personalizados com opção de escala de cinzentos para saída económica em tinta. Edite tudo no canvas de Fabric.js com 6 opções de alinhamento mais centrar na página, camadas, bloquear/desbloquear, zoom 25%–300% e desfazer/refazer 20 estados. O teste grátis inclui todas as funcionalidades com uma marca d\'água nos downloads. Adquira uma licença para remover a marca d\'água e vender com uso comercial.',
+    description: 'Crie atividades de classificação e categorização diretamente no navegador — sem cadastro, sem instalação, sem custo. Este gerador produz exercícios onde as crianças ordenam e agrupam imagens temáticas por categorias. Desenvolve raciocínio lógico e pensamento crítico. Mais de 3.000 ilustrações em 104 temas. Exporte PDFs prontos para imprimir com gabarito automático. Perfeito para educação infantil e ensino fundamental. O teste grátis inclui todas as funcionalidades — os downloads vêm com marca d\'água. Para uso comercial, conheça a versão com licença.',
   },
 
   tutorial: {

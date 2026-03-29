@@ -2,26 +2,36 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'gerador puzzle de quadrícula',
+    primaryKeyword: 'criar grades de associação grátis',
     secondaryKeywords: [
-      'criador de atividades de puzzles de quadrícula para vendedores',
-      'criar puzzles de quadrícula para vender uso comercial',
-      'gerador de atividades de peças de imagens imprimíveis para KDP e Etsy',
-      'ferramenta de puzzle de quadrícula com gabarito automático',
+      'quebra-cabeça de grade grátis para imprimir',
+      'associação em grelha grátis online',
+      'puzzle visual em grade grátis',
+      'atividades de grade para crianças grátis',
     ],
     lsiKeywords: [
-      'gerador de puzzle de quadrícula com peças numeradas',
-      'gabarito automático com círculos numerados sobrepostos',
-      'criador de atividades com caselas-dica configuráveis',
+      'grátis online',
+      'sem cadastro',
+      'marca d\'água',
+      'imprimir',
+      'PDF',
+      'gabarito',
+      'associação em grade',
+      'grelha',
+      '104 temas',
+      'raciocínio lógico',
+      'teste grátis',
+      'licença comercial',
     ],
-    titleTag: 'Gerador Puzzle de Quadrícula | Criar e Vender',
-    metaDescription: 'Crie puzzles de quadrícula com grelha de 2×2 a 4×4, caselas-dica ajustáveis, aleatorização Fisher-Yates e 104 temas ilustrados. Teste grátis com marca d\'água.',
+    titleTag: 'Grades de associação grátis online | LCS',
+    metaDescription:
+      'Crie quebra-cabeças de associação em grade grátis. 104 temas, gabarito automático, PDF imprimível. Teste online sem cadastro — marca d\'água removível.',
   },
 
   hero: {
-    title: 'Gerador de Puzzle de Quadrícula',
+    title: 'Gerador de grades de associação — teste grátis online',
     tagline: 'Gerador de puzzles de quadrícula com tamanhos configuráveis de 2×2 a 4×4, caselas-dica ajustáveis para dificuldade escalável, aleatorização Fisher-Yates de peças, gabaritos autogerados com círculos numerados sobrepostos e 104 coleções temáticas de imagens para atividades de puzzles de quadrícula que se vendem em todo o mundo',
-    description: 'Crie atividades profissionais de puzzle de quadrícula onde uma única imagem é dividida numa grelha de peças e os usuários associam as peças numeradas às suas posições corretas — um puzzle de raciocínio espacial construído a partir de uma única imagem. Configure a grelha de 2×2 até 4×4 (2–4 linhas × 2–4 colunas, predefinição 3×3) para criar puzzles que vão de 4 peças até 16 peças. Defina 1 a 5 caselas-dica (predefinição 1) que permanecem visíveis na atividade como pistas — menos dicas significam puzzles mais difíceis, mais dicas criam exercícios de aquecimento acessíveis. A aplicação mistura as peças ocultas usando aleatorização Fisher-Yates e apresenta-as numa paleta numerada ao lado ou abaixo da grelha, de modo que cada geração produz uma ordem de peças diferente mesmo com a mesma imagem e configuração. Os usuários estudam as caselas-dica reveladas, examinam as peças numeradas na paleta e escrevem qual número pertence a cada célula vazia. O sistema de canvas duplo gera simultaneamente um aba de atividade e um aba de gabarito — o gabarito mostra a imagem completa sem recortar com círculos numerados sobrepostos em cada célula da grelha (fundo amarelo #ffffe0, contorno preto, fonte Fredoka), mostrando exatamente qual número da paleta corresponde a cada posição. O layout adaptativo ajusta-se automaticamente: páginas verticais colocam a grelha no topo (45 % de altura) com a paleta abaixo; páginas horizontais posicionam a grelha à esquerda (48 % de largura) com a paleta à direita. Um cabeçalho estilizado aparece com fundo ciano (#00BCD4), título violeta profundo (#6A1B9A) e moldura laranja (#FF8C42) mostrando \"Puzzle Quadrícula\" e instruções no idioma selecionado. O Puzzle de Quadrícula NÃO é sensível ao idioma — a saída do puzzle é puramente visual sem conteúdo textual localizado na atividade, tornando cada atividade universalmente vendível em todos os mercados sem tradução. Explore 104 coleções temáticas com mais de 3100 ilustrações ou carregue as suas próprias imagens PNG, JPG ou GIF para puzzles de quadrícula personalizados. Aplique fundos temáticos e bordas temáticas com controlos de opacidade independentes (0–1, passo 0,05). Exporte quatro arquivos por sessão: atividade JPEG, atividade PDF, gabarito JPEG e gabarito PDF — tudo a 300 DPI. Escolha Carta, A4 ou tamanhos personalizados com opção de escala de cinzentos para saída económica em tinta. Edite tudo no canvas de Fabric.js com 7 fontes, contorno de texto 0–10, ferramentas de alinhamento, camadas, bloquear/desbloquear, zoom 25 %–300 % e desfazer/refazer 20 estados. O teste grátis inclui todas as funcionalidades com uma marca d\'água nos downloads. Adquira uma licença para remover a marca d\'água e vender com uso comercial.',
+    description: 'Crie quebra-cabeças de associação em grade diretamente no navegador — sem cadastro, sem instalação, sem custo. Este gerador produz puzzles onde as crianças associam imagens em uma grelha visual. Mais de 3.000 ilustrações em 104 temas. Desenvolve raciocínio lógico e atenção aos detalhes. Exporte PDFs prontos para imprimir com gabarito automático. Perfeito para atividades de raciocínio em casa e na escola. O teste grátis inclui todas as funcionalidades — os downloads vêm com marca d\'água. Para uso comercial, conheça a versão com licença.',
   },
 
   tutorial: {

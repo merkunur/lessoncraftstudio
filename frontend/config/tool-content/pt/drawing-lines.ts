@@ -2,26 +2,36 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'gerador atividades grafomotricidade',
+    primaryKeyword: 'gerador de atividades de traçado grátis',
     secondaryKeywords: [
-      'atividades de traçado de linhas imprimíveis para vender',
-      'criar atividades de grafomotricidade uso comercial',
-      'gerador de atividades de traçado de linhas para KDP',
-      'ferramenta para criar atividades de linhas com pares de imagens',
+      'atividades de coordenação motora para imprimir grátis',
+      'criar atividades de traçado online grátis',
+      'exercícios de pregrafismo grátis',
+      'atividades de traçar linhas grátis',
     ],
     lsiKeywords: [
-      'atividades de motricidade fina com modelos SVG para Etsy',
-      'gerador de atividades de pré-escrita com imagens a cores',
-      'atividades de controlo do lápis com pares de imagens imprimíveis',
+      'grátis online',
+      'sem cadastro',
+      'marca d\'água',
+      'imprimir',
+      'PDF',
+      'gabarito',
+      'coordenação motora',
+      'traçado',
+      'pregrafismo',
+      'educação infantil',
+      'teste grátis',
+      'licença comercial',
     ],
-    titleTag: 'Gerador Atividades Grafomotricidade | Criar e Vender',
-    metaDescription: 'Gere atividades de grafomotricidade com oito modelos SVG, 3100+ ilustrações em 104 temas e preenchimento automático de pares de imagens. Teste grátis com marca.',
+    titleTag: 'Atividades de traçado grátis online | LCS',
+    metaDescription:
+      'Crie atividades de traçado e coordenação motora grátis. 104 temas, caminhos configuráveis, PDF imprimível. Teste online sem cadastro — marca d\'água removível.',
   },
 
   hero: {
-    title: 'Gerador de Atividades de Grafomotricidade',
+    title: 'Gerador de atividades de traçado — teste grátis online',
     tagline: 'Oito modelos de linhas SVG com pares de imagens, preenchimento automático a partir de 104 temas a cores e orientação de página automática conforme o modelo para atividades profissionais de traçado de linhas que se vendem em todo o mundo',
-    description: 'Crie atividades profissionais de traçado de linhas onde os usuários desenham ao longo de traçados guiados para ligar pares de imagens emparelhadas. Oito modelos baseados em SVG cobrem uma progressão completa de motricidade fina: um modelo horizontal para traçado reto da esquerda para a direita (o mais fácil), um modelo vertical para traços de cima para baixo, quatro modelos de curvas para movimentos fluidos do pulso, e dois modelos de diagonais para coordenação bilateral (o mais difícil). Cada modelo coloca 4 ou 5 pares de imagens emparelhadas em lados opostos do traçado da linha, dando aos usuários um objetivo visual em cada extremidade. A seleção do modelo define automaticamente a orientação de página — as curvas configuram-se em horizontal para arcos amplos, enquanto os modelos de diagonais, horizontal e vertical usam formato vertical para prática concentrada. O preenchimento automático preenche instantaneamente cada espaço de par com imagens aleatórias do tema selecionado ou de todos os 104 temas de uma só vez, tornando a criação em lote rápida. O conteúdo provém de mais de 3100 ilustrações a cores em 104 coleções temáticas — animais, veículos, alimentos, natureza e dezenas mais. Cada atividade é puramente visual com zero texto na saída, tornando os produtos universalmente vendíveis sem tradução. Não é necessário gabarito porque o traçado da linha guia o usuário — uma atividade autocorretiva por conceção. Exporte PDF e JPEG prontos para impressão a 300 DPI nos formatos Carta, A4, Quadrado (1200×1200) ou dimensões personalizadas. Edite tudo no canvas completo Fabric.js com fontes como Lexend Deca, Baloo 2, Nunito, Quicksand e Fredoka. O teste grátis inclui todas as funcionalidades com uma marca d\'água nos downloads. Adquira uma licença para remover a marca d\'água e vender com uso comercial.',
+    description: 'Crie atividades de traçado e coordenação motora diretamente no navegador — sem cadastro, sem instalação, sem custo. As crianças traçam linhas entre imagens temáticas, desenvolvendo habilidades motoras finas essenciais para a escrita. "Coordenação motora" é um dos termos mais buscados no Brasil. Mais de 3.000 imagens em 104 temas. Exporte PDFs prontos para imprimir com gabarito automático. O teste grátis inclui todas as funcionalidades — os downloads vêm com marca d\'água. Para uso comercial, conheça a versão com licença.',
   },
 
   tutorial: {

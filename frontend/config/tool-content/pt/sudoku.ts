@@ -2,26 +2,36 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'criador sudoku com imagens',
+    primaryKeyword: 'gerador de sudoku com imagens grátis crianças',
     secondaryKeywords: [
-      'gerador de puzzles de sudoku visual para Etsy e KDP',
-      'criador de atividades de sudoku 4×4 com imagens uso comercial',
-      'ferramenta para criar sudoku infantil imprimível profissional',
-      'gerador de sudoku com imagens e gabarito automático',
+      'sudoku para imprimir grátis',
+      'sudoku com figuras grátis para crianças',
+      'criar sudoku visual online grátis',
+      'sudoku infantil grátis',
     ],
     lsiKeywords: [
-      'quadrícula 4×4 três níveis dificuldade sudoku imagens criador',
-      'gabarito automático quadrícula completa sudoku gerador',
-      'puzzles lógicos visuais sem texto vendáveis globalmente gerador',
+      'grátis online',
+      'sem cadastro',
+      'marca d\'água',
+      'imprimir',
+      'PDF',
+      'gabarito',
+      'sudoku',
+      'sudoku visual',
+      'raciocínio lógico',
+      'jogos de lógica',
+      'teste grátis',
+      'licença comercial',
     ],
-    titleTag: 'Criador Sudoku com Imagens — Puzzles 4×4 Criar e Vender',
-    metaDescription: 'Crie sudoku com imagens 4×4 com três níveis de dificuldade, gabaritos automáticos com quadrícula completa, 104 temas visuais. Teste grátis com marca d\'água.',
+    titleTag: 'Sudoku com imagens grátis crianças | LCS',
+    metaDescription:
+      'Crie sudoku com imagens grátis para crianças. Grades visuais, gabarito automático, PDF imprimível. Teste online sem cadastro — marca d\'água removível.',
   },
 
   hero: {
-    title: 'Criador de Sudoku com Imagens',
+    title: 'Gerador de sudoku com imagens — teste grátis online',
     tagline: 'Gerador de puzzles de sudoku com imagens 4×4 com três níveis de dificuldade (Fácil 4 células vazias, Médio 6 células vazias, Difícil 8 células vazias), gabaritos autogerados mostrando quadrículas completas, seleção de imagens por tema e manual em 104 coleções com mais de 3100 ilustrações, design premium de quadrícula com cores de bloco alternadas e sombras multicamada, e puzzles puramente visuais que se vendem em todo o mundo sem tradução',
-    description: 'Crie atividades profissionais de sudoku com imagens onde os usuários completam as células vazias com a imagem correta usando lógica de linhas e colunas numa quadrícula 4×4. Cada puzzle usa exatamente 4 imagens únicas que devem aparecer uma vez em cada linha e uma vez em cada coluna — as mesmas regras do sudoku clássico, mas com ilustrações coloridas em vez de números. Três níveis de dificuldade controlam o desafio: Fácil elimina 4 células, Médio elimina 6 e Difícil elimina 8 — metade da quadrícula. Selecione imagens através da seleção por tema que escolhe automaticamente 4 imagens ao acaso de qualquer uma das 104 coleções temáticas, ou navegue manualmente, pesquise e carregue para escolher exatamente 4 imagens. O design premium da quadrícula apresenta cores de bloco 2×2 alternadas em azul claro (#F8F9FC) e rosa claro (#FFF5F7), divisores centrais a negrito (#7C8DB5, traço de 3px), linhas internas mais finas (#D1D9E6, 1,5px), uma borda exterior índigo (#667EEA) com cantos arredondados de 18px e três sombras multicamada para profundidade. As imagens são exibidas a 65% do tamanho da célula para uma separação visual clara. Cada puzzle gera um cabeçalho estilizado \"Sudoku de Imagens\" com fundo púrpura (#5E35B1) e texto do título localizado nos 11 idiomas suportados. O sistema de duplo canvas cria simultaneamente um aba de atividade e um aba de gabarito — o gabarito mostra a quadrícula 4×4 completa com as 16 células preenchidas. Aplique temas de fundo e temas de borda com controlos de opacidade independentes (0–1, passo 0,05). Adicione texto personalizado com 7 opções de fonte (Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial, Verdana) e contorno de texto de 0 a 10. Exporte PDF e JPEG prontos para impressão a 300 DPI (multiplicador 6×) em Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal ou dimensões personalizadas — sem tamanho Quadrado nesta aplicação. Ative a escala de cinzentos para impressão que poupa tinta. Edite tudo no canvas Fabric.js com 6 opções de alinhamento mais centramento na página, camadas, bloquear/desbloquear, zoom de 25% a 300% em incrementos de 25%, e desfazer/refazer com 50 estados. Como o sudoku com imagens é completamente visual — nenhuma palavra aparece na quadrícula do puzzle — cada atividade funciona de forma idêntica nos 11 idiomas, tornando os seus produtos vendíveis em todo o mundo. O teste grátis inclui todas as funcionalidades com uma marca d\'água nos downloads. Adquira uma licença para remover a marca d\'água e vender comercialmente.',
+    description: 'Crie sudoku com imagens diretamente no navegador — sem cadastro, sem instalação, sem custo. Este gerador produz puzzles de sudoku onde os números são substituídos por imagens temáticas — tornando o jogo acessível para crianças que ainda não dominam números. Mais de 3.000 ilustrações em 104 temas. Desenvolve raciocínio lógico e resolução de problemas. Exporte PDFs prontos para imprimir com gabarito automático. O teste grátis inclui todas as funcionalidades — os downloads vêm com marca d\'água. Para uso comercial, conheça a versão com licença.',
   },
 
   tutorial: {

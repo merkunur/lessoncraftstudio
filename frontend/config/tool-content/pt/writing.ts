@@ -2,26 +2,36 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'gerador atividades de escrita',
+    primaryKeyword: 'gerador de atividades de caligrafia grátis',
     secondaryKeywords: [
-      'criar atividades de caligrafia imprimíveis para vender',
-      'gerador de atividades de escrita com traços guiados uso comercial',
-      'atividades de prática de escrita com ordem de traços para KDP',
-      'ferramenta para criar atividades de caligrafia imprimíveis',
+      'atividades de caligrafia para imprimir grátis',
+      'criar atividades de traçado de letras grátis',
+      'atividades de coordenação motora grátis',
+      'atividades de alfabetização para imprimir grátis',
     ],
     lsiKeywords: [
-      'atividades de caligrafia com setas de ordem de traços para Etsy',
-      'gerador de traçado progressivo para prática de letras',
-      'atividades de escrita cursiva e imprensa com guias',
+      'grátis online',
+      'sem cadastro',
+      'marca d\'água',
+      'imprimir',
+      'PDF',
+      'caligrafia',
+      'coordenação motora',
+      'traçado de letras',
+      'alfabetização',
+      '11 idiomas',
+      'teste grátis',
+      'licença comercial',
     ],
-    titleTag: 'Gerador Atividades de Escrita | Criar e Vender',
-    metaDescription: 'Gere atividades de escrita com três modos progressivos, cinco estilos de fonte, setas de ordem de traços numeradas e 104 temas. Teste grátis com marca d\'água.',
+    titleTag: 'Atividades de caligrafia grátis online | LCS',
+    metaDescription:
+      'Crie atividades de caligrafia e traçado de letras grátis. 5 modos de escrita, 11 idiomas, PDF imprimível. Teste online sem cadastro — marca d\'água removível.',
   },
 
   hero: {
-    title: 'Gerador de Atividades de Escrita e Caligrafia',
+    title: 'Gerador de atividades de caligrafia — teste grátis online',
     tagline: 'Crie folhas de prática de letras com três modos progressivos, ordem de traços guiada por setas e guias de letras com opacidade decrescente para desenvolver a fluência desde o traçado completo até à escrita autónoma',
-    description: 'Desenhe atividades profissionais de prática de escrita baseadas num sistema de progressão de três modos: o modo Traçado oferece contornos sólidos de letras para que os iniciantes os sigam diretamente, o Traçado Progressivo reduz progressivamente a opacidade das letras ao longo da fila para que os usuários transitem do traçado guiado à escrita de memória dentro de uma única linha, e a Cópia Guiada mostra um contorno ténue para escrita quase autónoma com suporte visual mínimo. Cinco estilos de fonte dão-lhe controlo total sobre a apresentação das letras — Imprensa Regular para letras de forma padrão, Imprensa Regular com Setas com setas direcionais numeradas que mostram a sequência exata da ordem dos traços, Imprensa Pontilhada para letras com contorno pontilhado desenhadas para exercícios de traçado, Imprensa Pontilhada com Setas que combina contornos pontilhados com setas da ordem dos traços, e Cursiva (Great Vibes) para prática de escrita cursiva. A ordem de traços guiada por setas é a funcionalidade estrela: setas direcionais numeradas em cada letra mostram aos usuários exatamente como formar cada traço na sequência correta, transformando uma página básica de traçado numa ferramenta de instrução. Cada fila da atividade é configurável de forma independente — o seu próprio modo de prática, estilo de fonte, fonte de conteúdo e configuração de maiúsculas/minúsculas — de modo que uma única página pode combinar modo Traçado para letras novas, Traçado Progressivo para letras praticadas e Cópia Guiada para revisão. As fontes de conteúdo incluem a Biblioteca de Imagens com mais de 3100 ilustrações em 104 coleções temáticas (modos Letra Inicial ou Nome Completo), Texto Personalizado para qualquer palavra ou frase, e linhas Vazias para pautas em branco. Os exercícios de traços de pré-escrita (linhas verticais, linhas horizontais, círculos, linhas em ziguezague) desenvolvem as bases de motricidade fina antes da formação de letras. Exporte PDF e imagens JPEG prontos para impressão a aproximadamente 300 DPI com um multiplicador de renderização 6x em tamanho Carta, A4 ou personalizado. Escolha entre 7 fontes para sobreposições de texto, ative a escala de cinzentos para impressão económica e use o canvas completo Fabric.js para reposicionar cada elemento. O teste grátis inclui uma marca d\'água nos downloads. Adquira uma licença para remover a marca d\'água e vender com uso comercial.',
+    description: 'Crie atividades de caligrafia e traçado de letras diretamente no navegador — sem cadastro, sem instalação, sem custo. Cinco modos de escrita: traçar letras, copiar palavras, escrever por extenso, pontilhado e forma livre. Suporte a 11 idiomas com alfabetos nativos. "Coordenação motora" e "alfabetização" são termos de altíssimo volume de busca no Brasil — e esta ferramenta cria exatamente o que pais e professores procuram. Exporte PDFs prontos para imprimir. O teste grátis inclui todas as funcionalidades — os downloads vêm com marca d\'água. Para uso comercial, conheça a versão com licença.',
   },
 
   tutorial: {

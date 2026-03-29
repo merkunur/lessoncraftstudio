@@ -2,26 +2,36 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'gerador atividades trem de padrões',
+    primaryKeyword: 'gerador de atividades de sequências grátis',
     secondaryKeywords: [
-      'atividades de padrões repetitivos imprimíveis para vender',
-      'criar atividades de trem de padrões uso comercial',
-      'gerador de atividades de sequências para KDP',
-      'ferramenta para criar atividades de reconhecimento de padrões',
+      'atividades de sequências para imprimir grátis',
+      'completar sequências grátis online',
+      'trem de padrões grátis para crianças',
+      'atividades de padrões grátis',
     ],
     lsiKeywords: [
-      'atividades de reconhecimento de padrões visuais para Etsy',
-      'gerador de atividades sem texto de trem de padrões',
-      'atividades de sequências AB ABC para vender online',
+      'grátis online',
+      'sem cadastro',
+      'marca d\'água',
+      'imprimir',
+      'PDF',
+      'gabarito',
+      'sequências',
+      'padrões',
+      'raciocínio lógico',
+      'educação infantil',
+      'teste grátis',
+      'licença comercial',
     ],
-    titleTag: 'Gerador Atividades Trem de Padrões | Criar e Vender',
-    metaDescription: 'Gere atividades de trem de padrões com cinco tipos de padrões, 11 vagões temáticos e pistas ajustáveis. Exporte PDF a 300 DPI. Teste grátis com marca d\'água.',
+    titleTag: 'Atividades de sequências grátis online | LCS',
+    metaDescription:
+      'Crie atividades de sequências e padrões grátis. Trem de padrões visual, gabarito automático, PDF imprimível. Teste online sem cadastro — marca d\'água removível.',
   },
 
   hero: {
-    title: 'Gerador de Atividades de Trem de Padrões',
+    title: 'Gerador de atividades de sequências — teste grátis online',
     tagline: 'Crie atividades de padrões repetitivos com 11 vagões temáticos, cinco tipos de padrões, número de pistas ajustável e um resultado completamente visual com zero texto que se vende em todo o mundo sem necessidade de tradução',
-    description: 'Desenhe atividades profissionais de reconhecimento de padrões onde os usuários identificam e completam sequências repetitivas apresentadas como imagens num trem temático com 11 vagões. Cinco tipos de padrões cobrem cada nível de complexidade de sequências: AB alterna dois elementos, AAB agrupa dois de um seguido de um de outro, ABB inverte esse agrupamento, ABC rota três elementos diferentes, e AABB emparelha dois de cada antes de repetir. A disposição do trem organiza 11 vagões em três filas (5 + 3 + 3), com cada vagão a conter uma imagem da sequência repetitiva. Um vagão fica em branco — os usuários identificam o padrão e determinam o elemento em falta. Ajuste o número de pistas de 4 a 10 para controlar a dificuldade: mostrar 10 pistas torna o padrão evidente, enquanto mostrar apenas 4 exige um verdadeiro raciocínio lógico, já que os 3 primeiros vagões são sempre revelados. O distintivo formato de vagões de trem é um diferenciador visual face às atividades de grelha padrão — os compradores que navegam na Etsy ou na Hotmart veem imediatamente algo diferente dos exercícios típicos de padrões em linhas e colunas. Escolha entre mais de 3100 ilustrações em 104 coleções temáticas ou carregue as suas próprias imagens. Um aba de gabarito mostra os 11 vagões preenchidos com a sequência correta do padrão para verificação instantânea. Cada atividade é completamente visual com apenas imagens nos vagões e zero texto na saída. Nenhuma palavra aparece na página gerada — apenas imagens. Isto torna as suas atividades universalmente vendíveis sem tradução: um único produto serve todos os mercados do mundo. Exporte PDF e imagens JPEG prontos para impressão em alta resolução nos formatos Carta, A4, Quadrado (1200×1200) ou dimensões personalizadas. Ative a escala de cinzentos para impressão económica. Edite tudo no canvas completo Fabric.js com fontes como Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial e Verdana. O teste grátis inclui todas as funcionalidades com uma marca d\'água nos downloads. Adquira uma licença para remover a marca d\'água e vender com uso comercial.',
+    description: 'Crie atividades de sequências e padrões diretamente no navegador — sem cadastro, sem instalação, sem custo. Este gerador produz exercícios de trem de padrões onde as crianças identificam e completam sequências visuais com imagens temáticas. Desenvolve raciocínio lógico e reconhecimento de padrões. Mais de 3.000 imagens em 104 temas. Exporte PDFs prontos para imprimir com gabarito automático. O teste grátis inclui todas as funcionalidades — os downloads vêm com marca d\'água. Para uso comercial, conheça a versão com licença.',
   },
 
   tutorial: {

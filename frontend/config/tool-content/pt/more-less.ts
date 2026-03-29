@@ -2,26 +2,36 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'atividades maior que menor que',
+    primaryKeyword: 'atividades de maior e menor grátis',
     secondaryKeywords: [
-      'atividades de comparação de quantidades para vender',
-      'criar atividades de maior que menor que imprimíveis',
-      'gerador de atividades de comparação para Etsy e KDP',
-      'atividades de maior menor igual com imagens',
+      'atividades de mais e menos para imprimir grátis',
+      'exercícios de comparação numérica grátis',
+      'maior e menor grátis para crianças',
+      'atividades de quantidade grátis online',
     ],
     lsiKeywords: [
-      'atividades visuais de comparação de números para imprimir',
-      'exercícios de maior que menor que com imagens',
-      'gerador de atividades marcar e riscar grupos',
+      'grátis online',
+      'sem cadastro',
+      'marca d\'água',
+      'imprimir',
+      'PDF',
+      'gabarito',
+      'maior e menor',
+      'mais e menos',
+      '104 temas',
+      'educação infantil',
+      'teste grátis',
+      'licença comercial',
     ],
-    titleTag: 'Atividades Maior Que Menor Que | Criar e Vender',
-    metaDescription: 'Crie atividades de maior que, menor que e igual a com imagens. Três modos incluindo Marcar e Riscar exclusivo. Venda na Etsy e KDP. Teste grátis com marca d\'água.',
+    titleTag: 'Maior e menor grátis online | LCS',
+    metaDescription:
+      'Crie atividades de maior e menor grátis com imagens. Comparação visual, 104 temas, gabarito automático. Teste online sem cadastro — marca d\'água removível.',
   },
 
   hero: {
-    title: 'Gerador de Atividades de Maior Que e Menor Que',
+    title: 'Atividades de maior e menor — teste grátis online',
     tagline: 'Crie atividades de comparação visual com três modos de exercício em menos de 60 segundos',
-    description: 'Ensine maior que, menor que e igual a com atividades de comparação baseadas em imagens que transformam conceitos abstratos em algo tangível. Esta ferramenta gera três tipos de exercícios distintos: Imagem contra Imagem (compare dois grupos de imagens lado a lado), Imagem contra Número (ligue a contagem visual aos números escritos) e o exclusivo modo Marcar e Riscar Grupos, onde os usuários classificam uma caixa de imagens misturadas de duas categorias em grupo maioritário e grupo minoritário. Escolha entre mais de 100 temas de imagens, ajuste o intervalo numérico, alterne entre símbolos ilustrados ou padrão e baixe PDFs prontos para imprimir ou JPEGs de alta resolução. Como as atividades usam apenas imagens, números e símbolos, funcionam de forma idêntica nos 11 idiomas disponíveis — crie uma vez e venda a compradores em todo o mundo. O teste grátis inclui uma marca d\'água nos downloads. Adquira uma licença para remover a marca d\'água e vender com uso comercial.',
+    description: 'Crie atividades de maior e menor diretamente no navegador — sem cadastro, sem instalação, sem custo. Este gerador produz exercícios de comparação visual onde as crianças determinam qual grupo tem mais ou menos imagens. Desenvolve conceitos de quantidade e pré-numeracia. Mais de 3.000 ilustrações em 104 temas. Exporte PDFs prontos para imprimir com gabarito automático. O teste grátis inclui todas as funcionalidades — os downloads vêm com marca d\'água. Para uso comercial, conheça a versão com licença.',
   },
 
   tutorial: {

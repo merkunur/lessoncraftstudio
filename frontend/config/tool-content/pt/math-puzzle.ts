@@ -1,26 +1,30 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'criar puzzles matemáticos para a loja',
+    primaryKeyword: 'criar quebra-cabeças de matemática grátis',
     secondaryKeywords: [
-      'puzzles matemáticos jigsaw para vendedores',
-      'criador de puzzles matemáticos para crianças',
-      'puzzles de matemática com imagens para a loja',
-      'atividades de puzzles matemáticos para usuários',
+      'puzzles de matemática para imprimir grátis',
+      'quebra-cabeça de imagens com cálculos grátis',
+      'jogos de raciocínio matemático grátis online',
+      'puzzle de matemática para crianças grátis',
     ],
     lsiKeywords: [
-      'puzzle matemático com quadrícula para a loja',
-      'atividade puzzle matemático para crianças',
-      'criador de puzzles matemáticos configurável',
+      'grátis online',
+      'sem cadastro',
+      'marca d\'água',
+      'imprimir',
+      'PDF',
+      'gabarito',
+      'quebra-cabeça',
+      'raciocínio lógico',
+      '104 temas',
+      'ensino fundamental',
+      'teste grátis',
+      'licença comercial',
     ],
-    titleTag: 'Criar Puzzles Matemáticos — para vendedores',
-    metaDescription: 'Crie puzzles matemáticos tipo quebra-cabeça para a loja. Quadrículas de imagens, três modos, gabarito automático. Teste grátis com marca d\'água.',
-    },
-
-  hero: {
-    title: 'Gerador de Puzzles Matemáticos',
-    tagline: 'Crie puzzles tipo quebra-cabeça com equações matemáticas em menos de 60 segundos',
-    description: 'Transforme a prática de matemática num puzzle visual que não se parece com nenhuma atividade convencional. Esta ferramenta divide uma imagem escolhida numa quadrícula de células, cada uma com uma equação matemática. As peças desordenadas com números de resposta aparecem abaixo — os usuários resolvem cada equação e colocam a peça correta para reconstruir a imagem. Escolha entre três modos de operação: Adição, Subtração ou Misto (ambas as operações combinadas aleatoriamente). Ajuste o tamanho da quadrícula desde 2×2 (4 peças, mais fácil) até 4×4 (16 peças, mais difícil) para se adaptar a qualquer nível. Carregue as suas próprias imagens PNG ou JPEG para puzzles personalizados, sazonais ou de nicho, ou explore a biblioteca integrada de mais de 3.100 imagens em 104 temas. O formato quebra-cabeça cria um produto visualmente reconhecível que se destaca nos resultados de pesquisa dos marketplaces — os compradores que navegam filas de atividades idênticas vão parar perante um puzzle de imagens colorido. Baixe como PDF pronto para imprimir ou JPEG de alta resolução. O teste grátis inclui uma marca d\'água nos downloads. Adquira uma licença para remover a marca d\'água e vender com uso comercial.',
+    titleTag: 'Quebra-cabeças de matemática grátis | LCS',
+    metaDescription:
+      'Crie quebra-cabeças de matemática grátis com imagens. Grade de imagens, gabarito automático, exportação PDF. Teste online sem cadastro — marca d\'água removível.',
   },
 
   tutorial: {

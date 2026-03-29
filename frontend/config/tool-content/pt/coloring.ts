@@ -1,26 +1,30 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'criar páginas para colorir online',
+    primaryKeyword: 'gerador de desenhos para colorir grátis',
     secondaryKeywords: [
-      'criador de páginas para colorir para vendedores',
-      'páginas para colorir personalizadas para a sala',
-      'gerador de desenhos para colorir para crianças',
-      'páginas para colorir imprimíveis para a escola',
+      'desenhos para colorir para imprimir grátis',
+      'criar páginas de colorir online grátis',
+      'desenhos para pintar grátis para crianças',
+      'colorir para imprimir grátis',
     ],
     lsiKeywords: [
-      'designer de páginas para colorir para a loja',
-      'páginas para colorir em escala de cinza',
-      'ferramenta de desenho livre para colorir',
+      'grátis online',
+      'sem cadastro',
+      'marca d\'água',
+      'imprimir',
+      'PDF',
+      'desenho para colorir',
+      'página para colorir',
+      '104 temas',
+      'coordenação motora',
+      'educação infantil',
+      'teste grátis',
+      'licença comercial',
     ],
-    titleTag: 'Criar Páginas para Colorir — para vendedores',
-    metaDescription: 'Crie páginas para colorir personalizadas para a loja ou em casa. Canvas livre, 3.100+ ilustrações, 104 temas. Teste grátis com marca d\'água.',
-    },
-
-  hero: {
-    title: 'Gerador de Páginas para Colorir',
-    tagline: 'Canvas de forma livre para criar páginas para colorir com desenho à mão livre, exportação em escala de cinzentos, auxiliares de loja e 104 coleções temáticas de imagens para páginas profissionais que se vendem em todo o mundo sem tradução',
-    description: 'Desenhe páginas profissionais para colorir num canvas completamente aberto onde coloca as imagens exatamente onde quiser — sem grelhas, sem modelos, sem casas, pura liberdade criativa. Esta abordagem de canvas de forma livre é o diferenciador principal: cada página para colorir que criar é única e impossível de replicar com ferramentas baseadas em modelos. Explore 104 coleções temáticas de imagens com mais de 3100 ilustrações a cores, clique para adicionar imagens, e depois organize, redimensione, rode e sobreponha elementos em qualquer parte do canvas. A ferramenta de desenho à mão livre permite-lhe desenhar ilustrações originais diretamente junto às imagens da biblioteca com cor e tamanho de pincel ajustável (1–50 píxeis), criando páginas híbridas para colorir que combinam arte curada com os seus próprios desenhos. Os auxiliares de loja com um único clique adicionam um campo de nome (\"Nome: ____\") e linhas de prática de caligrafia (contínua, tracejada, contínua) — transformando páginas para colorir em atividades prontas para a loja que se vendem na Hotmart. Ao terminar, ative a exportação em escala de cinzentos para converter a sua composição a cores em páginas para colorir económicas em tinta, perfeitas para interiores de KDP e impressão online. Adicione bordas decorativas temáticas da biblioteca de bordas, texto personalizado com efeitos de contorno usando fontes como Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial e Verdana, e carregue as suas próprias imagens PNG, JPG ou GIF. Esta é uma aplicação puramente visual — a saída não contém texto, tornando as páginas para colorir universalmente vendíveis sem tradução. Não existe gabarito porque colorir é uma atividade criativa sem resposta correta. Exporte PDF e JPEG prontos para impressão a 300 DPI nos formatos Carta, A4, Quadrado (1200×1200) ou dimensões personalizadas. O teste grátis inclui todas as funcionalidades com uma marca d\'água nos downloads. Adquira uma licença para remover a marca d\'água e vender com uso comercial.',
+    titleTag: 'Desenhos para colorir grátis online | LCS',
+    metaDescription:
+      'Crie desenhos para colorir grátis com imagens temáticas. 104 temas, modo escala de cinza, PDF imprimível. Teste online sem cadastro — marca d\'água removível.',
   },
 
   tutorial: {

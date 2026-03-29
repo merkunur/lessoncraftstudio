@@ -1,26 +1,30 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'criar atividades de adição para a loja',
+    primaryKeyword: 'gerador de atividades de adição grátis online',
     secondaryKeywords: [
-      'criador de atividades de adição para vendedores',
-      'atividades de adição matemática para crianças',
-      'exercícios de adição imprimíveis',
-      'atividades de adição com imagens para pré-escola',
+      'atividades de adição para imprimir grátis',
+      'criar atividades de soma online sem cadastro',
+      'gerador de exercícios de adição com imagens grátis',
+      'atividades de matemática para imprimir grátis',
     ],
     lsiKeywords: [
-      'atividades matemáticas visuais para a loja',
-      'exercícios de adição com imagens para crianças',
-      'atividades matemáticas pré-escola para vendedores',
+      'grátis online',
+      'sem cadastro',
+      'marca d\'água',
+      'imprimir',
+      'PDF',
+      'gabarito',
+      'imagens temáticas',
+      '104 temas',
+      'educação infantil',
+      'ensino fundamental',
+      'teste grátis',
+      'licença comercial',
     ],
-    titleTag: 'Criar Atividades de Adição — para vendedores e Pais',
-    metaDescription: 'Crie atividades de adição com imagens temáticas para a loja. 104 temas, dificuldade ajustável, gabarito incluído, PDF imprimível. Teste com marca d\'água.',
-    },
-
-  hero: {
-    title: 'Gerador de Atividades de Adição',
-    tagline: 'Crie atividades de adição com imagens atrativas em menos de 60 segundos',
-    description: 'Transforme a prática de matemática numa aventura visual. Esta ferramenta permite-lhe criar atividades de adição personalizadas com imagens temáticas que as crianças realmente querem completar. Escolha entre mais de 100 temas de imagens, ajuste o intervalo de dificuldade, selecione o layout da página e baixe PDFs prontos para imprimir ou JPEGs de alta resolução. Perfeito para vendedores que preparam pacotes de tarefas diferenciadas, pais que complementam a aprendizagem escolar e vendedores da Etsy que criam produtos de matemática imprimíveis. O teste grátis inclui uma marca d\'água nos downloads. Adquira uma licença para remover a marca d\'água e vender as suas criações com uso comercial.',
+    titleTag: 'Atividades de adição grátis online | LCS',
+    metaDescription:
+      'Crie atividades de adição grátis com imagens temáticas. 104 temas, gabarito automático, exportação PDF. Teste online sem cadastro — marca d\'água removível.',
   },
 
   tutorial: {

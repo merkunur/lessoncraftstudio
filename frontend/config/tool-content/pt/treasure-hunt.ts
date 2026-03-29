@@ -2,26 +2,36 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'gerador caça ao tesouro',
+    primaryKeyword: 'gerador de caça ao tesouro grátis',
     secondaryKeywords: [
-      'ferramenta caça ao tesouro direcional para vendedores Etsy KDP',
-      'gerador puzzles procura caminhos grelha coordenadas comercial',
-      'criar atividades caça ao tesouro com pistas direcionais para vender',
-      'software caça ao tesouro com gabarito automático dois tipos direção',
+      'caça ao tesouro para imprimir grátis',
+      'criar caça ao tesouro online grátis',
+      'jogo de pistas grátis para crianças',
+      'atividade de caça ao tesouro grátis',
     ],
     lsiKeywords: [
-      'dois tipos direção básico cardinal grelha coordenadas 5×5 gerador',
-      'pistas direcionais localizadas 11 idiomas conteúdo imagens sensível',
-      'gabarito célula tesouro realçada sistema duplo canvas criador',
+      'grátis online',
+      'sem cadastro',
+      'marca d\'água',
+      'imprimir',
+      'PDF',
+      'gabarito',
+      'caça ao tesouro',
+      'jogo de pistas',
+      '104 temas',
+      'atenção visual',
+      'teste grátis',
+      'licença comercial',
     ],
-    titleTag: 'Gerador Caça ao Tesouro — Atividades para Vender',
-    metaDescription: 'Crie atividades de caça ao tesouro em grelha 5×5 com dois tipos de direção, pistas localizadas em 11 idiomas, gabarito automático e 104 temas. Teste grátis.',
+    titleTag: 'Caça ao tesouro grátis online | LCS',
+    metaDescription:
+      'Crie atividades de caça ao tesouro grátis com imagens. 104 temas, gabarito automático, PDF imprimível. Teste online sem cadastro — marca d\'água removível.',
   },
 
   hero: {
-    title: 'Gerador de Atividades de Caça ao Tesouro',
+    title: 'Gerador de caça ao tesouro — teste grátis online',
     tagline: 'Gerador de atividades de caça ao tesouro com procura de caminhos numa grelha fixa de coordenadas 5×5 (linhas A–E, colunas 1–5), dois tipos de direção (Básico: cima/baixo/esquerda/direita para pré-escolar até 1.º ano, e Cardinal: norte/sul/este/oeste para 2.º ano em diante), 6 imagens temáticas como pontos de referência, exatamente 4 movimentos direcionais por puzzle, gabarito autogerado com célula do tesouro realçada em amarelo pálido mediante sistema de duplo canvas, pistas direcionais completamente localizadas em 11 idiomas, e cabeçalho temático de tesouro verde-azulado (#2C8C7C) com título dourado em Fredoka em 104 coleções temáticas de imagens',
-    description: 'Crie atividades profissionais de caça ao tesouro onde os usuários seguem pistas direcionais sequenciais para localizar o tesouro escondido numa grelha de coordenadas 5×5 etiquetada com linhas de letras (A–E) e colunas de números (1–5). Cada puzzle distribui 6 imagens temáticas pela grelha como pontos de referência visuais, depois gera uma posição de início e exatamente 4 movimentos direcionais que conduzem à célula do tesouro. A atividade mostra 5 linhas de instruções: \"Começa em [célula]\" seguido de 4 pistas \"Move-te [direção] [número] casa(s)\", terminando com \"Onde está o tesouro?\" Escolha entre dois tipos de direção que servem diferentes grupos etários e objetivos de aprendizagem. O modo Básico usa cima, baixo, esquerda e direita — palavras direcionais familiares ideais para aprendizes de pré-escolar até 1.º ano que constroem vocabulário espacial fundamental. O modo Cardinal usa norte, sul, este e oeste — direções de bússola adequadas para 2.º ano em diante, introduzindo competências de leitura de mapas e orientação geográfica. Ambos os tipos de direção produzem a mesma estrutura de puzzle de 4 movimentos na mesma grelha 5×5, permitindo-lhe criar conjuntos de dificuldade progressiva dentro de um só pacote. O Gerador de Caça ao Tesouro é sensível ao idioma de duas formas: o texto das pistas direcionais e o conteúdo das imagens mudam quando altera o idioma. Todas as direções estão completamente traduzidas para os 11 idiomas suportados — \"Começa em\", \"Move-te\", \"casa(s)\" e \"Onde está o tesouro?\" são localizados juntamente com o vocabulário de direções Básicas e Cardinais. Isto produz atividades de caça ao tesouro autênticas no idioma nativo, não puzzles em inglês com cabeçalhos traduzidos. O sistema de duplo canvas gera tanto um aba de Atividade como um aba de Gabarito. O gabarito reproduz o layout exato do puzzle e realça a célula final do tesouro em amarelo pálido (rgba(255, 250, 205, 0.8)) com um traço cinzento escuro — sem necessidade de marcação manual. Cada puzzle inclui um cabeçalho temático de tesouro autogerado com fundo verde-azulado (#2C8C7C), moldura exterior âmbar (#D4A574), moldura interior bege areia (#F4E4C1) e título dourado (#D4A017) em fonte Fredoka (peso 700, tamanho adaptável 36–48 px). A descrição é renderizada em castanho escuro (#5C4033) em Quicksand (peso 500). O modo vertical mostra um cabeçalho completo (100 px de altura); o modo horizontal usa um layout compacto (70 px de altura). O texto do cabeçalho é traduzido automaticamente para os 11 idiomas — \"Caça ao Tesouro\" e \"Segue as pistas e encontra o tesouro!\" no idioma selecionado. Explore 104 coleções temáticas com mais de 3100 ilustrações ou carregue imagens personalizadas mediante três métodos de entrada: Gerar a partir do Tema (autoseleciona 6), Seleção Manual de Imagens (explorar e clicar) e Carregar Imagens Personalizadas (JPEG/PNG/GIF/WebP). Aplique temas de fundo e temas de moldura com controlos de opacidade independentes (0–1, passo 0,05). Exporte PDF prontos para impressão (multiplicador 3×) e JPEG (multiplicador 6×) a 300 DPI em Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal, Quadrado (1200×1200) ou dimensões personalizadas. Ative escala de cinzentos para impressão que poupa tinta. O teste grátis inclui todas as funcionalidades com uma marca d\'água nos downloads. Adquira uma licença para remover a marca d\'água e vender comercialmente.',
+    description: 'Crie atividades de caça ao tesouro diretamente no navegador — sem cadastro, sem instalação, sem custo. Este gerador produz jogos de pistas visuais onde as crianças seguem um caminho de imagens para encontrar o tesouro. Mais de 3.000 ilustrações em 104 temas. Formato adorado por crianças, perfeito para festas e atividades escolares. Exporte PDFs prontos para imprimir com gabarito automático. O teste grátis inclui todas as funcionalidades — os downloads vêm com marca d\'água. Para uso comercial, conheça a versão com licença.',
   },
 
   tutorial: {

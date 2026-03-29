@@ -1,26 +1,30 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'criar atividades gráficos de imagens para a loja',
+    primaryKeyword: 'atividades de contagem e gráficos grátis',
     secondaryKeywords: [
-      'criador de pictogramas para a loja',
-      'atividades de contagem e gráfico para crianças',
-      'atividades de gráficos de dados para a escola',
-      'atividade gráfico de imagens para vendedores',
+      'gráficos pictóricos para imprimir grátis',
+      'atividades de contagem para educação infantil grátis',
+      'exercícios de gráficos de barras grátis',
+      'atividades de estatística para crianças grátis',
     ],
     lsiKeywords: [
-      'quadrícula de imagens dispersas para contar',
-      'gabarito automático gráfico pictórico',
-      'atividade representação de dados para a loja',
+      'grátis online',
+      'sem cadastro',
+      'marca d\'água',
+      'imprimir',
+      'PDF',
+      'gabarito',
+      'gráfico de barras',
+      'contagem',
+      'BNCC',
+      'educação infantil',
+      'teste grátis',
+      'licença comercial',
     ],
-    titleTag: 'Atividades Gráficos de Imagens — Para a loja',
-    metaDescription: 'Crie atividades de gráficos pictóricos para a loja. Grelha 4x5, 6 tipos de imagens, gabarito automático, 11 idiomas. Teste grátis com marca d\'água.',
-    },
-
-  hero: {
-    title: 'Gerador de Atividades de Gráficos de Contagem',
-    tagline: 'Gerador de atividades de gráficos pictóricos com grelhas de imagens dispersas, gabaritos automáticos com gráfico de barras, cabeçalhos localizados em 11 idiomas e 104 coleções temáticas de imagens para atividades de representação de dados que se vendem em todo o mundo',
-    description: 'Crie atividades profissionais de gráficos pictóricos onde os usuários contam imagens dispersas e completam um gráfico de barras abaixo — ensinando recolha de dados e representação de dados numa única atividade. Cada atividade apresenta uma grelha 4×5 com 20 ícones de 6 tipos de imagens diferentes, cada tipo aparecendo entre 1 e 5 vezes numa distribuição aleatória que torna cada geração única. Abaixo da grelha, um gráfico de barras de 6 colunas × 5 linhas com colunas rotuladas por tipo de imagem e linhas numeradas de 1 a 5 oferece aos usuários um espaço estruturado para registar as suas contagens. A aplicação gera simultaneamente um gabarito num aba de canvas separado com células destacadas a amarelo (#FFC857) mostrando as contagens corretas, para que os vendedores verifiquem o trabalho do usuário instantaneamente sem contar manualmente. Escolha imagens automaticamente selecionando um tema no menu suspenso de Fonte de Imagens — a aplicação seleciona aleatoriamente 6 imagens dessa coleção — ou manualmente explore a Biblioteca de Imagens com mais de 3100 ilustrações em 104 coleções temáticas e clique em exatamente 6 imagens com uma faixa de pré-visualização. Cada atividade inclui um cabeçalho autogerado com um título localizado de \"Gráfico Pictórico\" e instruções de contagem apresentados numa pastilha amarela estilizada (#FFD93D) com moldura de borda laranja, adaptando-se automaticamente aos 11 idiomas suportados. Adicione campos de nome e data do usuário com uma única caixa de verificação (Fredoka 18px #333). Aplique fundos decorativos temáticos e bordas decorativas temáticas com controlos de opacidade independentes (0–1, passo 0,05). O Gerador de Gráficos de Contagem não é sensível ao idioma — a contagem visual usa números e imagens universais, tornando as atividades idênticas em todos os idiomas sem modificação. Baixe quatro arquivos por sessão: atividade JPEG, atividade PDF, gabarito JPEG e gabarito PDF — tudo a 300 DPI. Exporte nos formatos Carta, A4, Quadrado (1200×1200) ou tamanhos personalizados com opção de escala de cinzentos para saída económica em tinta. Edite tudo no canvas completo de Fabric.js com fontes como Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial e Verdana, largura de contorno de texto de 0 a 10 com granularidade de 0,5, desfazer/refazer até 20 estados e zoom de 25 % a 300 %. O teste grátis inclui todas as funcionalidades com uma marca d\'água nos downloads. Adquira uma licença para remover a marca d\'água e vender com uso comercial.',
+    titleTag: 'Atividades de contagem grátis online | LCS',
+    metaDescription:
+      'Crie atividades de contagem e gráficos de barras grátis. 104 temas, gabarito automático, PDF imprimível. Teste online sem cadastro — marca d\'água removível.',
   },
 
   tutorial: {

@@ -2,26 +2,36 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'gerador atividades de associação',
+    primaryKeyword: 'gerador de atividades de associação grátis',
     secondaryKeywords: [
-      'criador de atividades de associação com linhas para vendedores',
-      'criar atividades de associação para vender uso comercial',
-      'gerador de atividades de ligar imagens imprimíveis para KDP e Etsy',
-      'ferramenta de atividades de associação com gabarito automático',
+      'atividades de ligar para imprimir grátis',
+      'criar atividades de associação online grátis',
+      'exercícios de correspondência grátis',
+      'atividades de ligar para crianças grátis',
     ],
     lsiKeywords: [
-      'gerador de atividades de associação com quatro modos',
-      'gabarito automático com linhas de ligação',
-      'criador de atividades de letra inicial imagem e palavra',
+      'grátis online',
+      'sem cadastro',
+      'marca d\'água',
+      'imprimir',
+      'PDF',
+      'gabarito',
+      'ligar',
+      'associar',
+      '104 temas',
+      'educação infantil',
+      'teste grátis',
+      'licença comercial',
     ],
-    titleTag: 'Gerador Atividades de Associação | Criar e Vender',
-    metaDescription: 'Crie atividades de associação com 4 modos, gabarito automático com linhas de ligação, pares configuráveis, 11 idiomas e 104 temas. Teste grátis com marca d\'água.',
+    titleTag: 'Atividades de associação grátis online | LCS',
+    metaDescription:
+      'Crie atividades de ligar e associar grátis com imagens. 104 temas, gabarito automático, PDF imprimível. Teste online sem cadastro — marca d\'água removível.',
   },
 
   hero: {
-    title: 'Gerador de Atividades de Associação',
+    title: 'Gerador de atividades de associação — teste grátis online',
     tagline: 'Gerador de atividades de associação com linhas de ligação e quatro modos — Letra Inicial, Imagem+Palavra, Imagem/Palavra Misto e Palavra Personalizada — gabaritos autogerados com linhas de ligação, pares configuráveis, cabeçalho localizado \"Liga!\" em 11 idiomas e 104 coleções temáticas de imagens para atividades de associação que se vendem em todo o mundo',
-    description: 'Crie atividades profissionais de associação onde os usuários ligam pares desenhando linhas entre duas colunas — com quatro modos de associação distintos num único gerador. O modo Letra Inicial coloca imagens à esquerda e as suas primeiras letras à direita, com três sub-modos: Tema e Imagens Aleatórias seleciona um tema e imagens automaticamente, Aleatório do Tema Escolhido permite-lhe escolher o tema, e Selecionar Imagens Específicas dá-lhe controlo manual sobre cada imagem. Alterne entre maiúsculas ou minúsculas para atividades adequadas à idade. O modo Imagem+Palavra mostra pares de imagens legendadas em ambos os lados para reforço de vocabulário. O modo Imagem/Palavra Misto usa menus suspensos por linha para que cada lado mostre independentemente uma imagem ou uma palavra, criando dificuldade variada dentro de uma única atividade. O modo Palavra Personalizada associa imagens com os seus próprios termos escritos para prática de ortografia, exercícios de vocabulário ou exercícios de línguas estrangeiras. Configure 4, 5 ou 6 pares por atividade (predefinição 6) para controlar a dificuldade e densidade visual. Ative os números dos itens (predefinição ativada) para adicionar numerais antes de cada par e mostre pontos decorativos (predefinição ativada) para formatação decorativa — ambos controláveis independentemente. Cada atividade inclui um cabeçalho autogerado localizado \"Liga!\" com fundo de pastilha amarela (#FFD700), moldura de borda coral (#FF7F50, traço de 8px), título em Fredoka (700) e descrição em Quicksand (500), traduzido automaticamente para os 11 idiomas suportados. O sistema de canvas duplo gera simultaneamente um aba de atividade e um aba de gabarito — o gabarito traça linhas de ligação horizontais (#555, largura de traço 2) entre os pares corretos para que nunca o crie manualmente. Este gerador é sensível ao idioma: os modos Letra Inicial e Imagem+Palavra usam nomes de imagens localizados, pelo que mudar de idioma altera as palavras e primeiras letras na atividade. Explore 104 coleções temáticas com mais de 3100 ilustrações. Aplique fundos temáticos e bordas temáticas com controlos de opacidade independentes (0–1, passo 0,05). Adicione campos de nome e data do usuário com uma única caixa de verificação. Exporte quatro arquivos por sessão: atividade JPEG, atividade PDF, gabarito JPEG e gabarito PDF — tudo a 300 DPI. Escolha Carta, A4, Quadrado (1200×1200) ou tamanhos personalizados com opção de escala de cinzentos para saída económica em tinta. Edite tudo no canvas de Fabric.js com 7 fontes, contorno de texto 0–10, ferramentas de alinhamento, camadas, bloquear/desbloquear, zoom 25 %–300 % e desfazer/refazer 20 estados. O teste grátis inclui todas as funcionalidades com uma marca d\'água nos downloads. Adquira uma licença para remover a marca d\'água e vender com uso comercial.',
+    description: 'Crie atividades de ligar e associar diretamente no navegador — sem cadastro, sem instalação, sem custo. Este gerador online produz exercícios onde as crianças traçam linhas para conectar elementos correspondentes. Mais de 3.000 ilustrações em 104 temas. Exporte PDFs prontos para imprimir com gabarito automático. Perfeito para educação infantil e ensino fundamental. O teste grátis inclui todas as funcionalidades — os downloads vêm com marca d\'água. Para uso comercial, conheça a versão com licença.',
   },
 
   tutorial: {

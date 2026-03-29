@@ -2,26 +2,36 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'gerador atividades de subtração',
+    primaryKeyword: 'gerador de atividades de subtração grátis',
     secondaryKeywords: [
-      'criar atividades de subtração online',
-      'atividades de subtração imprimíveis com imagens',
-      'gerador de atividades de subtração para crianças',
-      'ferramenta para criar atividades de subtração',
+      'atividades de subtração para imprimir grátis',
+      'criar exercícios de subtração online sem cadastro',
+      'gerador de atividades de contas de menos grátis',
+      'atividades de subtração com imagens grátis',
     ],
     lsiKeywords: [
-      'atividades de subtração visual com riscar imagens',
-      'exercícios de subtração com imagens para imprimir',
-      'atividades de tirar e contar para pré-escola',
+      'grátis online',
+      'sem cadastro',
+      'marca d\'água',
+      'imprimir',
+      'PDF',
+      'gabarito',
+      'riscar imagens',
+      '104 temas',
+      'educação infantil',
+      'ensino fundamental',
+      'teste grátis',
+      'licença comercial',
     ],
-    titleTag: 'Gerador Atividades de Subtração | Criar e Vender',
-    metaDescription: 'Crie atividades de subtração com imagens para riscar. 104 temas, modo Riscar Imagens, dificuldade ajustável, PDF imprimível. Teste grátis com marca d\'água.',
+    titleTag: 'Atividades de subtração grátis online | LCS',
+    metaDescription:
+      'Crie atividades de subtração grátis com imagens temáticas. Riscar visual, gabarito automático, exportação PDF. Teste online sem cadastro — marca d\'água removível.',
   },
 
   hero: {
-    title: 'Gerador de Atividades de Subtração',
+    title: 'Gerador de atividades de subtração — teste grátis online',
     tagline: 'Crie atividades de subtração visual com imagens para riscar em menos de 60 segundos',
-    description: 'Torne a subtração intuitiva com imagens para riscar que as crianças compreendem naturalmente. Esta ferramenta gera atividades de subtração baseadas em imagens onde os usuários riscam desenhos para encontrar a resposta — a forma mais natural de aprender a tirar. Escolha entre mais de 100 temas de imagens, ajuste o intervalo do minuendo máximo, selecione entre quatro modos de exercício incluindo o exclusivo modo Riscar Imagens, e baixe PDFs prontos para imprimir ou JPEGs de alta resolução. Perfeito para vendedores da Etsy que criam linhas de produtos de matemática diferenciadas, vendedores que preparam pacotes para a loja e editores de KDP que compilam cadernos de subtração. O teste grátis inclui uma marca d\'água nos downloads. Adquira uma licença para remover a marca d\'água e vender com uso comercial.',
+    description: 'Crie atividades de subtração com imagens temáticas diretamente no navegador — sem cadastro, sem instalação, sem custo. Este gerador online produz exercícios com visualização de riscar: as crianças veem imagens riscadas para entender o conceito de "tirar". Quatro modos de exercício, dificuldade ajustável e mais de 3.000 imagens em 104 temas. Exporte PDFs prontos para imprimir com gabarito automático. Ideal para pais e professores que buscam atividades de matemática para imprimir rapidamente. O teste grátis inclui todas as funcionalidades — os downloads vêm com marca d\'água. Para uso comercial, conheça a versão com licença.',
   },
 
   tutorial: {

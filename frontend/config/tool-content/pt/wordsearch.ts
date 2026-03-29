@@ -2,26 +2,36 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'gerador caça-palavras',
+    primaryKeyword: 'gerador de caça-palavras grátis com imagens',
     secondaryKeywords: [
-      'criar atividades de caça-palavras imprimíveis para vender',
-      'gerador de caça-palavras para vendedores',
-      'atividades de caça-palavras imprimíveis uso comercial',
-      'gerador de caça-palavras para KDP',
+      'caça-palavras para imprimir grátis',
+      'criar sopa de letras online grátis',
+      'gerador de caça-palavras em português grátis',
+      'caça-palavras com imagens grátis para crianças',
     ],
     lsiKeywords: [
-      'atividades de palavras ocultas imprimíveis para Etsy',
-      'ferramenta de caça-palavras com preenchimento adaptado ao idioma',
-      'gerador de caça-palavras multilingue',
+      'grátis online',
+      'sem cadastro',
+      'marca d\'água',
+      'imprimir',
+      'PDF',
+      'gabarito',
+      'caça-palavras',
+      'sopa de letras',
+      '11 idiomas',
+      'vocabulário',
+      'teste grátis',
+      'licença comercial',
     ],
-    titleTag: 'Gerador Caça-Palavras | Criar e Vender',
-    metaDescription: 'Gere atividades de caça-palavras com grelhas de 5×5 a 30×30, controlos de direção diagonal e preenchimento adaptado ao idioma em 11 idiomas. Teste grátis.',
+    titleTag: 'Gerador de caça-palavras grátis online | LCS',
+    metaDescription:
+      'Crie caça-palavras grátis com imagens. Grades 5x5 a 30x30, 11 idiomas, gabarito colorido, PDF imprimível. Teste online sem cadastro — marca d\'água removível.',
   },
 
   hero: {
-    title: 'Gerador de Caça-Palavras',
+    title: 'Gerador de caça-palavras — teste grátis online',
     tagline: 'Crie atividades de caça-palavras com grelhas ajustáveis, controlos de direção e letras de preenchimento adaptadas ao idioma em 11 idiomas',
-    description: 'Desenhe atividades profissionais de caça-palavras onde as palavras ocultas estão incorporadas numa grelha de letras aleatórias e os usuários percorrem linhas, colunas e diagonais para as encontrar — o formato de puzzle clássico que nunca sai de moda. Esta ferramenta dá-lhe controlo preciso sobre a dificuldade através de dois eixos independentes: tamanho de grelha (ajustável de 5×5 a 30×30 com linhas e colunas configuráveis de forma independente) e controlos de direção das palavras (palavras em diagonal ativáveis ou desativáveis, palavras invertidas ativáveis ou desativáveis) criando entre duas e oito direções possíveis de colocação. Escolha entre três fontes de conteúdo: o modo Biblioteca de Imagens seleciona de mais de 3100 ilustrações em 104 coleções temáticas, o Modo Edição Manual permite selecionar imagens e personalizar os nomes de exibição, e o modo Lista de Palavras Personalizada permite escrever até 8 palavras diretamente para caça-palavras apenas de texto. Três modos de exibição — Palavras e Imagens, Apenas Imagens e Apenas Palavras — controlam o que aparece como pistas ao lado da grelha. A funcionalidade principal é o preenchimento alfabético adaptado ao idioma: ao mudar de idioma, as letras de preenchimento da grelha mudam para corresponder ao conjunto de caracteres desse idioma com distribuições de frequência ponderadas. As grelhas em português incluem ã, õ, ç, â, á, é, í, ó, ú a frequências naturais. As grelhas em alemão incluem ä, ö, ü e ß. As grelhas em francês incluem é, è, ç, à. Cada idioma recebe caracteres de preenchimento autênticos, tornando os puzzles linguisticamente genuínos em vez de gerados com letras inglesas. Um gabarito com código de cores destaca cada palavra encontrada numa de seis cores alternadas — rosa, azul, verde, dourado, coral e lavanda — para verificação visual instantânea. Exporte PDFs e imagens JPEG prontos para impressão a mais de 400 DPI nos formatos Carta, A4 ou dimensões personalizadas. Escolha entre 7 famílias tipográficas, adicione campos de nome e data do usuário, ative o modo escala de cinzentos para impressão económica e use o canvas completo Fabric.js para reposicionar cada elemento. O teste grátis inclui uma marca d\'água nos downloads. Adquira uma licença para remover a marca d\'água e vender com uso comercial.',
+    description: 'Crie caça-palavras com imagens diretamente no navegador — sem cadastro, sem instalação, sem custo. Este gerador online produz grades de 5×5 a 30×30 com palavras ocultas, pistas visuais e gabarito com código de cores. "Caça-palavras para imprimir" é um dos termos mais buscados em português. Suporte a 11 idiomas com letras nativas — grades em português incluem ã, õ, ç e acentos. Exporte PDFs prontos para imprimir. Perfeito para professores, pais e qualquer pessoa que adora caça-palavras. O teste grátis inclui todas as funcionalidades — os downloads vêm com marca d\'água. Para uso comercial, conheça a versão com licença.',
   },
 
   tutorial: {

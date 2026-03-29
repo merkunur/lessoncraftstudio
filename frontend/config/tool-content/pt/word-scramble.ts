@@ -2,26 +2,36 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'gerador palavras embaralhadas',
+    primaryKeyword: 'gerador de embaralha palavras grátis',
     secondaryKeywords: [
-      'criar atividades de palavras embaralhadas para vender',
-      'gerador de atividades de ortografia com letras embaralhadas',
-      'atividades de palavras embaralhadas imprimíveis uso comercial',
-      'gerador de palavras embaralhadas para KDP',
+      'palavras embaralhadas para imprimir grátis',
+      'criar embaralha palavras online grátis',
+      'anagrama para crianças grátis',
+      'desembaralhar palavras grátis online',
     ],
     lsiKeywords: [
-      'atividades de reorganização de letras com imagens para Etsy',
-      'ferramenta de puzzles de ortografia multilingue',
-      'gerador de atividades de reorganização de letras',
+      'grátis online',
+      'sem cadastro',
+      'marca d\'água',
+      'imprimir',
+      'PDF',
+      'gabarito',
+      'embaralha palavras',
+      'anagrama',
+      '11 idiomas',
+      'vocabulário',
+      'teste grátis',
+      'licença comercial',
     ],
-    titleTag: 'Gerador Palavras Embaralhadas | Criar e Vender',
-    metaDescription: 'Gere atividades de palavras embaralhadas com código de cores vogais-consoantes, imagens, 4 níveis de dificuldade e 11 idiomas. Teste grátis com marca d\'água.',
+    titleTag: 'Embaralha palavras grátis online | LCS',
+    metaDescription:
+      'Crie atividades de embaralha palavras grátis com imagens. 11 idiomas, gabarito automático, PDF imprimível. Teste online sem cadastro — marca d\'água removível.',
   },
 
   hero: {
-    title: 'Gerador de Atividades de Palavras Embaralhadas',
+    title: 'Gerador de embaralha palavras — teste grátis online',
     tagline: 'Crie puzzles de ortografia com peças de letras embaralhadas, imagens, código de cores vogais-consoantes e 4 níveis de dificuldade em 11 idiomas',
-    description: 'Transforme a prática de vocabulário num puzzle de ortografia que os usuários resolvem reorganizando peças de letras embaralhadas. Esta ferramenta gera atividades de palavras embaralhadas onde uma imagem aparece ao lado de um conjunto de peças desordenadas — os usuários observam a imagem, identificam o que representa e colocam as letras na ordem correta. Ao contrário dos exercícios de adivinhar palavras com espaços em branco, as palavras embaralhadas fornecem TODAS as letras mas na ordem errada, transformando a atividade num desafio de reorganização que fortalece a precisão ortográfica através de manipulação ativa. A funcionalidade principal é o código de cores vogais-consoantes: ative-o para mostrar as vogais numa cor e as consoantes noutra, acrescentando uma dimensão visual de fonética que ajuda os usuários a identificar tipos de letras enquanto desembaralham. Quatro níveis de dificuldade controlam quantas letras aparecem pré-posicionadas nas suas posições corretas: Sem Pistas embaralha todas as letras para desafio máximo, Fácil pré-posiciona metade para principiantes, Normal coloca um quarto para prática equilibrada e Difícil coloca apenas um sexto para usuários avançados. Escolha entre três fontes de conteúdo: o modo Biblioteca de Imagens usa mais de 3100 ilustrações em 104 coleções temáticas, o Modo Edição Manual permite selecionar imagens e personalizar os nomes de exibição, e o modo Lista de Palavras Personalizada permite escrever até 8 palavras diretamente para puzzles apenas de texto. A sensibilidade linguística está integrada: mude do português para qualquer um dos 11 idiomas disponíveis e a mesma imagem produz uma palavra-alvo diferente com letras diferentes e uma disposição completamente distinta. Uma imagem de cão gera \"CÃO\" em português, \"DOG\" em inglês, \"HUND\" em alemão, \"CHIEN\" em francês. Um único design converte-se em 11 produtos únicos. Configure de 1 a 10 puzzles por página, alterne entre maiúsculas e minúsculas, adicione numeração de exercícios e escolha entre 7 famílias tipográficas. Exporte como PDF pronto para imprimir ou JPEG de alta resolução com geração automática de gabarito. O teste grátis inclui uma marca d\'água nos downloads. Adquira uma licença para remover a marca d\'água e vender com uso comercial.',
+    description: 'Crie atividades de embaralha palavras diretamente no navegador — sem cadastro, sem instalação, sem custo. Este gerador online embaralha letras e usa imagens como pistas visuais — os usuários reorganizam as letras para formar a palavra correta. Mais de 3.000 imagens em 104 temas e 11 idiomas com caracteres nativos. Exporte PDFs prontos para imprimir com gabarito automático. Ótimo para reforço de vocabulário e alfabetização. O teste grátis inclui todas as funcionalidades — os downloads vêm com marca d\'água. Para uso comercial, conheça a versão com licença.',
   },
 
   tutorial: {

@@ -2,26 +2,36 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'gerador atividades de padrões em grelha',
+    primaryKeyword: 'atividades de reconhecimento de padrões grátis',
     secondaryKeywords: [
-      'atividades de reconhecimento de padrões imprimíveis para vender',
-      'criar atividades de completar padrões uso comercial',
-      'gerador de atividades de sequências de padrões para KDP',
-      'ferramenta para criar atividades de padrões em grelha',
+      'atividades de padrões para imprimir grátis',
+      'exercícios de padrões visuais grátis',
+      'reconhecimento de padrões grátis para crianças',
+      'atividades de padrões grátis online',
     ],
     lsiKeywords: [
-      'atividades de reconhecimento visual de padrões para Etsy',
-      'gerador de atividades sem texto de padrões em grelha',
-      'atividades de sequências AB ABC ABCD para vender online',
+      'grátis online',
+      'sem cadastro',
+      'marca d\'água',
+      'imprimir',
+      'PDF',
+      'gabarito',
+      'padrões',
+      'reconhecimento visual',
+      'raciocínio lógico',
+      'educação infantil',
+      'teste grátis',
+      'licença comercial',
     ],
-    titleTag: 'Gerador Atividades de Padrões em Grelha | Criar e Vender',
-    metaDescription: 'Gere atividades de padrões em grelha com nove tipos, dois modos de pergunta, configuração por exercício, gabarito separado e 104 temas. Teste grátis com marca.',
+    titleTag: 'Reconhecimento de padrões grátis online | LCS',
+    metaDescription:
+      'Crie atividades de reconhecimento de padrões grátis. 104 temas, gabarito automático, PDF imprimível. Teste online sem cadastro — marca d\'água removível.',
   },
 
   hero: {
-    title: 'Gerador de Atividades de Padrões',
+    title: 'Atividades de reconhecimento de padrões — teste grátis',
     tagline: 'Gere atividades de reconhecimento de padrões em grelha com nove tipos de padrões, dois modos de pergunta, configuração independente por exercício e um resultado completamente visual sem texto que se vende em todo o mundo sem necessidade de tradução',
-    description: 'Crie atividades profissionais de completar padrões onde os usuários identificam sequências repetitivas e preenchem o elemento em falta ou escolhem a resposta correta entre opções múltiplas. Nove tipos de padrões distintos cobrem a maior variedade de complexidade de sequências disponível: AB alterna dois elementos, AAB e ABB introduzem agrupamentos assimétricos, ABC rota três elementos diferentes, AABB emparelha dois de cada um, ABBC e AABC acrescentam padrões assimétricos de três imagens, ABCC estende com terminações duplas, e ABCD rota quatro elementos diferentes para o máximo desafio. Dois modos de pergunta criam exercícios fundamentalmente diferentes a partir de cada tipo de padrão: Caixa em Branco substitui um elemento por um espaço vazio para raciocínio aberto, enquanto Escolha Múltipla apresenta o espaço vazio acompanhado de três opções de resposta — uma correta e dois distratores. Configure de 1 a 8 exercícios por página com cada exercício parametrizado independentemente para tipo de padrão, modo de pergunta e tema — uma mesma página pode combinar um aquecimento AB em caixa em branco com um desafio ABCD em escolha múltipla. Ative o Início Aleatório para começar padrões a meio do ciclo e a Posição Aleatória do Espaço em Branco para colocar o elemento em falta em qualquer lugar da sequência. O layout padrão em grelha de linhas e colunas organiza os exercícios de forma limpa para resultados prontos para avaliação. Cada atividade é completamente visual com apenas imagens e zero texto na saída — nenhuma palavra aparece na página gerada, tornando os seus produtos universalmente vendíveis sem tradução. Uma única listagem serve todos os mercados do mundo. Escolha entre mais de 3100 ilustrações em 104 coleções temáticas ou carregue as suas próprias imagens. Um aba de gabarito separado mostra todas as caixas em branco preenchidas com os elementos corretos do padrão. Exporte PDF e JPEG prontos para impressão em alta resolução nos formatos Carta, A4, Quadrado (1200×1200) ou dimensões personalizadas. Ative a escala de cinzentos para impressão económica. Edite tudo no canvas completo Fabric.js com fontes como Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial e Verdana. O teste grátis inclui todas as funcionalidades com uma marca d\'água nos downloads. Adquira uma licença para remover a marca d\'água e vender com uso comercial.',
+    description: 'Crie atividades de reconhecimento de padrões diretamente no navegador — sem cadastro, sem instalação, sem custo. Este gerador produz exercícios onde as crianças identificam e completam padrões visuais usando imagens temáticas. Habilidade fundamental em matemática e raciocínio lógico. Mais de 3.000 ilustrações em 104 temas. Exporte PDFs prontos para imprimir com gabarito automático. O teste grátis inclui todas as funcionalidades — os downloads vêm com marca d\'água. Para uso comercial, conheça a versão com licença.',
   },
 
   tutorial: {

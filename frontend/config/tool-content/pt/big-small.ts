@@ -1,26 +1,30 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'criar atividades grande e pequeno para crianças',
+    primaryKeyword: 'atividades de comparação de tamanhos grátis',
     secondaryKeywords: [
-      'atividades grande e pequeno para pré-escola',
-      'criador de comparação de tamanhos para a loja',
-      'atividades ordenar por tamanho para crianças',
-      'atividades grande pequeno médio para jardim de infância',
+      'atividades de grande e pequeno para imprimir grátis',
+      'exercícios de tamanhos grátis para crianças',
+      'grande e pequeno grátis online',
+      'atividades de comparação grátis',
     ],
     lsiKeywords: [
-      'discriminação visual de tamanhos para crianças',
-      'atividade comparação de tamanhos sem texto',
-      'atividade ordenar grande pequeno para pré-escola',
+      'grátis online',
+      'sem cadastro',
+      'marca d\'água',
+      'imprimir',
+      'PDF',
+      'gabarito',
+      'grande e pequeno',
+      'comparação de tamanhos',
+      '104 temas',
+      'educação infantil',
+      'teste grátis',
+      'licença comercial',
     ],
-    titleTag: 'Atividades Grande e Pequeno — Para Crianças',
-    metaDescription: 'Crie atividades de comparação de tamanhos para crianças. Cinco tipos de perguntas, dois modos de imagem, 104 temas. Teste grátis com marca d\'água.',
-    },
-
-  hero: {
-    title: 'Gerador de Atividades de Grande e Pequeno',
-    tagline: 'Crie atividades de comparação de tamanhos com cinco tipos de perguntas, dois modos de imagem e um resultado completamente visual com zero texto que se vende em todo o mundo sem necessidade de tradução',
-    description: 'Desenhe atividades profissionais de comparação de tamanhos onde os usuários identificam a imagem mais grande, a mais pequena ou a de tamanho médio, ou as numeram por ordem de tamanho. Cinco tipos de perguntas cobrem cada competência de discriminação de tamanhos: Circundar o Maior, Circundar o Menor, Circundar o Médio, Numerar 1–2–3 do Menor ao Maior e Numerar 1–2–3 do Maior ao Menor. Dois modos de imagem criam exercícios fundamentalmente diferentes com a mesma ferramenta: Imagens Idênticas mostra a mesma imagem em diferentes tamanhos para uma perceção pura do tamanho, enquanto Imagens Diferentes mostra objetos distintos em diferentes tamanhos para um raciocínio de tamanho relativo. Configure de 1 a 10 exercícios por página com 2 ou 3 imagens por exercício — duas imagens para comparações diretas de maior/menor, três imagens para introduzir a opção do médio e ativar desafios de ordenação. Cada atividade é completamente visual com zero texto na saída. Nenhuma palavra aparece na página gerada — apenas imagens e indicadores visuais. Isto torna as suas atividades universalmente utilizáveis independentemente do idioma, nível de leitura ou literacia, e universalmente vendíveis sem tradução. Um único produto serve todos os mercados do mundo. Escolha entre mais de 3100 ilustrações em 104 coleções temáticas ou carregue as suas próprias imagens. O gabarito gerado automaticamente destaca e circunda as respostas corretas para verificação instantânea. Exporte PDF e imagens JPEG prontos para impressão a 300 DPI em tamanho Carta, A4, Quadrado (1200×1200) ou dimensões personalizadas. Ative a escala de cinzentos para impressão económica. Edite tudo no canvas completo Fabric.js com fontes como Baloo 2, Fredoka, Lexend Deca, Nunito e Quicksand. O teste grátis inclui todas as funcionalidades com uma marca d\'água nos downloads. Adquira uma licença para remover a marca d\'água e vender com uso comercial.',
+    titleTag: 'Comparação de tamanhos grátis online | LCS',
+    metaDescription:
+      'Crie atividades de grande e pequeno grátis com imagens. 104 temas, gabarito automático, PDF imprimível. Teste online sem cadastro — marca d\'água removível.',
   },
 
   tutorial: {

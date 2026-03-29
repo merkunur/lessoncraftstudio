@@ -2,26 +2,36 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'gerador discriminação visual',
+    primaryKeyword: 'gerador de atividades de sombras grátis',
     secondaryKeywords: [
-      'criador de atividades de associação de sombras para vendedores',
-      'criar atividades de siluetas para vender uso comercial',
-      'gerador de atividades de sombras imprimíveis para KDP e Etsy',
-      'ferramenta de associação de sombras com gabarito automático',
+      'atividades de sombras para imprimir grátis',
+      'associar sombras grátis online',
+      'atividades de silhuetas grátis para crianças',
+      'shadow matching grátis',
     ],
     lsiKeywords: [
-      'gerador de atividades de siluetas e imagem dividida dois modos',
-      'criador de siluetas a nível de píxel com algoritmo de derangement',
-      'gabarito automático gerador de atividades de sombras',
+      'grátis online',
+      'sem cadastro',
+      'marca d\'água',
+      'imprimir',
+      'PDF',
+      'gabarito',
+      'sombras',
+      'silhuetas',
+      '104 temas',
+      'percepção visual',
+      'teste grátis',
+      'licença comercial',
     ],
-    titleTag: 'Gerador Discriminação Visual | Criar e Vender',
-    metaDescription: 'Crie atividades de associação de sombras com siluetas a nível de píxel e modo Complete a Imagem, gabaritos automáticos e 104 temas. Teste grátis com marca d\'água.',
+    titleTag: 'Atividades de sombras grátis online | LCS',
+    metaDescription:
+      'Crie atividades de associar sombras grátis com imagens. 104 temas, gabarito automático, PDF imprimível. Teste online sem cadastro — marca d\'água removível.',
   },
 
   hero: {
-    title: 'Gerador de Discriminação Visual',
+    title: 'Gerador de atividades de sombras — teste grátis online',
     tagline: 'Gerador de atividades de associação de sombras com dois modos: criação de siluetas a nível de píxel e Complete a Imagem com divisão horizontal e vertical, algoritmo de derangement Fisher-Yates que garante zero correspondências triviais, gabaritos autogerados com etiquetas letra-número, identificadores A/B/C/D e 1/2/3/4 ativáveis/desativáveis e 104 coleções temáticas de imagens para atividades de discriminação visual que se vendem em todo o mundo',
-    description: 'Crie atividades profissionais de associação de sombras com dois modos de exercício distintos num só gerador. O modo Associação de Sombras coloca 4 imagens a cores etiquetadas A, B, C, D na linha superior e 4 siluetas negras autogeradas etiquetadas 1, 2, 3, 4 na linha inferior — as siluetas são criadas mediante processamento de imagem a nível de píxel que converte cada píxel com alfa > 10 em preto puro (R=0, G=0, B=0, A=255), produzindo contornos precisos que preservam o perfil de transparência exato de cada imagem. Isto é processamento real de píxeis, não filtros CSS nem recursos de sombra pré-fabricados. O modo Complete a Imagem divide 4 imagens em metades — escolha a direção de corte horizontal (metades cima/baixo) ou a direção de corte vertical (metades esquerda/direita) — etiqueta as primeiras metades A–D e as segundas metades 1–4, e os usuários reconectam as peças para completar cada imagem. Ambos os modos usam um algoritmo de derangement Fisher-Yates que garante que nenhum elemento aparece na sua posição original, eliminando correspondências triviais e assegurando que cada atividade apresenta um verdadeiro desafio de correspondência. O derangement recalcula-se em cada geração, produzindo disposições diferentes do mesmo conjunto de imagens. Ative ou desative as etiquetas dos identificadores A/B/C/D e 1/2/3/4 — etiquetas ativas proporcionam apoio letra-número para usuários mais novos, etiquetas desativas criam um desafio de correspondência puramente visual ideal para cadernos de puzzles e atividades avançadas. Adicione campos opcionais de nome e data para responsabilidade online. O sistema de canvas duplo gera simultaneamente um aba de atividade e um aba de gabarito — o gabarito mostra cada emparelhamento correto letra-número (A → 2, B → 4, etc.) junto às imagens originais e às suas siluetas ou imagens completas, eliminando a criação manual de gabaritos. O layout adapta-se automaticamente: páginas horizontais dispõem os elementos em 2 linhas × 4 elementos, páginas verticais usam 2 colunas × 4 elementos. Um cabeçalho estilizado aparece com fundo âmbar (#FFC107), contentor branco em forma de cápsula e borda âmbar de 3 px mostrando \"Associação de Sombras\" e instruções no idioma selecionado. A Associação de Sombras NÃO é sensível ao idioma — a saída do puzzle é puramente visual sem conteúdo textual localizado na atividade, tornando cada atividade universalmente vendível em todos os mercados sem tradução. Explore 104 coleções temáticas com mais de 3100 ilustrações ou carregue as suas próprias imagens PNG, JPG ou GIF. Aplique fundos temáticos e bordas temáticas com controlos de opacidade independentes (0–1, passo 0,05). Adicione texto personalizado com 7 opções de fontes (Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial, Verdana) e contorno de texto 0–10. Exporte quatro arquivos por sessão: atividade JPEG, atividade PDF, gabarito JPEG e gabarito PDF — tudo a 300 DPI (multiplicador 6×, qualidade JPEG 1,0). Escolha Carta, A4, Quadrado (1200×1200) ou tamanhos personalizados com opção de escala de cinzentos para saída económica em tinta. Edite tudo no canvas de Fabric.js com ferramentas de alinhamento, camadas, bloquear/desbloquear, zoom 25 %–300 % e desfazer/refazer 20 estados. O teste grátis inclui todas as funcionalidades com uma marca d\'água nos downloads. Adquira uma licença para remover a marca d\'água e vender com uso comercial.',
+    description: 'Crie atividades de associar sombras diretamente no navegador — sem cadastro, sem instalação, sem custo. Este gerador produz exercícios onde as crianças associam imagens coloridas às suas silhuetas correspondentes. Desenvolve percepção visual e atenção aos detalhes. Mais de 3.000 ilustrações em 104 temas. Formato visual universal que funciona em qualquer idioma. Exporte PDFs prontos para imprimir com gabarito automático. O teste grátis inclui todas as funcionalidades — os downloads vêm com marca d\'água. Para uso comercial, conheça a versão com licença.',
   },
 
   tutorial: {

@@ -2,26 +2,36 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'gerador atividades de preposições',
+    primaryKeyword: 'gerador de atividades de preposições grátis',
     secondaryKeywords: [
-      'criar atividades de preposições imprimíveis para vender',
-      'gerador de atividades de preposições espaciais uso comercial',
-      'atividades de preposições imprimíveis para Etsy e KDP',
-      'ferramenta de atividades de palavras de posição',
+      'atividades de preposições para imprimir grátis',
+      'exercícios de preposições com imagens grátis',
+      'atividades de PLE grátis online',
+      'preposições em português grátis',
     ],
     lsiKeywords: [
-      'atividades de relações espaciais imprimíveis para Etsy',
-      'gerador de atividades de preposições multilingue',
-      'ferramenta de atividades de palavras de posição para vender',
+      'grátis online',
+      'sem cadastro',
+      'marca d\'água',
+      'imprimir',
+      'PDF',
+      'gabarito',
+      'preposições',
+      'PLE',
+      '11 idiomas',
+      'vocabulário',
+      'teste grátis',
+      'licença comercial',
     ],
-    titleTag: 'Gerador Atividades de Preposições | Criar e Vender',
-    metaDescription: 'Gere atividades de preposições com preencher a lacuna e escolha múltipla, substituição de formas, 104 temas, 11 idiomas e PDF pronto.',
+    titleTag: 'Atividades de preposições grátis online | LCS',
+    metaDescription:
+      'Crie atividades de preposições grátis com imagens. 11 idiomas, PLE, gabarito automático, PDF imprimível. Teste online sem cadastro — marca d\'água removível.',
   },
 
   hero: {
-    title: 'Gerador de Atividades de Preposições',
+    title: 'Gerador de atividades de preposições — teste grátis online',
     tagline: 'Crie atividades de preposições espaciais com dois modos de exercício em 11 idiomas',
-    description: 'Ensine palavras de posição através de exercícios baseados em imagens que os usuários realmente apreciam. Esta ferramenta gera atividades de preposições onde os compradores identificam relações espaciais — em cima de, debaixo de, ao lado de, atrás de, entre, acima de, à frente de — estudando cenas com imagens e completando ou selecionando a preposição correta. Escolha entre dois modos de exercício: Preencher a Lacuna, onde os usuários escrevem a preposição correta, ou Escolha Múltipla, onde escolhem entre várias opções com uma linha de instrução personalizável. Configure de 1 a 8 exercícios por atividade e selecione exatamente quais preposições incluir usando a grelha de caixas de seleção. A função de destaque da ferramenta é a Substituição de Formas — uma camada de imagem independente permite-lhe trocar as formas da cena de forma autónoma, criando muito mais combinações visuais do que um único conjunto de imagens poderia oferecer. A sensibilidade linguística está integrada: mude do português para qualquer um dos 11 idiomas suportados e cada palavra de preposição atualiza-se para o seu equivalente nativo. O alemão usa \"auf, unter, über, neben, zwischen, drinnen, draußen\"; o francês usa \"sur, sous, au-dessus, à côté, entre, dedans, dehors\". Um único design de atividade transforma-se em 11 produtos únicos em diferentes idiomas. Explore mais de 3100 imagens em 104 temas, carregue as suas próprias imagens PNG ou JPEG para designs personalizados e escolha entre múltiplos modelos e 7 famílias tipográficas. Exporte como PDF pronto para imprimir ou JPEG de alta resolução. O teste grátis inclui uma marca d\'água nos downloads. Adquira uma licença para remover a marca d\'água e vender com uso comercial.',
+    description: 'Crie atividades de preposições com imagens diretamente no navegador — sem cadastro, sem instalação, sem custo. Este gerador produz exercícios visuais de relações espaciais — em cima, embaixo, dentro, fora, ao lado — usando imagens temáticas. Suporte a 11 idiomas, perfeito para PLE (Português como Língua Estrangeira). Mais de 3.000 imagens em 104 temas. Exporte PDFs prontos para imprimir com gabarito automático. O teste grátis inclui todas as funcionalidades — os downloads vêm com marca d\'água. Para uso comercial, conheça a versão com licença.',
   },
 
   tutorial: {

@@ -2,26 +2,36 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'criador atividades do intruso',
+    primaryKeyword: 'gerador de encontre o intruso grátis',
     secondaryKeywords: [
-      'gerador de puzzles encontre o diferente para Etsy e KDP',
-      'criador de atividades de discriminação visual uso comercial',
-      'ferramenta para criar atividades do intruso imprimíveis profissionais',
-      'gerador de atividades encontre o diferente com gabarito',
+      'encontre o diferente para imprimir grátis',
+      'intruso grátis para crianças online',
+      'atividades de encontrar o diferente grátis',
+      'odd one out grátis para imprimir',
     ],
     lsiKeywords: [
-      'modo idêntico similar anulação por exercício gerador atividades',
-      'gabarito automático contorno círculo vermelho intruso criador',
-      'puzzles visuais sem texto vendáveis em todos os idiomas gerador',
+      'grátis online',
+      'sem cadastro',
+      'marca d\'água',
+      'imprimir',
+      'PDF',
+      'gabarito',
+      'encontre o intruso',
+      'encontre o diferente',
+      '104 temas',
+      'raciocínio lógico',
+      'teste grátis',
+      'licença comercial',
     ],
-    titleTag: 'Criador Atividades do Intruso — Puzzles Visuais Criar e Vender',
-    metaDescription: 'Crie atividades do intruso com modos Idêntico e Similar, anulação por exercício, gabaritos com círculos vermelhos, 104 temas. Teste grátis com marca d\'água.',
+    titleTag: 'Encontre o intruso grátis online | LCS',
+    metaDescription:
+      'Crie atividades de encontre o intruso grátis com imagens. 104 temas, gabarito automático, PDF imprimível. Teste online sem cadastro — marca d\'água removível.',
   },
 
   hero: {
-    title: 'Criador de Atividades do Intruso',
+    title: 'Gerador de encontre o intruso — teste grátis online',
     tagline: 'Gerador de atividades do intruso com dois modos — Idêntico (3 clones + 1 diferente do mesmo tema) e Similar (3 do Tema A + 1 do Tema B), anulação de modo por exercício com botão Limpar Seleções, de 5 a 10 exercícios configuráveis com layout adaptativo de 2 colunas, gabaritos autogerados com marcadores de círculo vermelho escalados ao tamanho de imagem, sistema de dois temas com 104 coleções temáticas, e puzzles puramente visuais que se vendem em todo o mundo sem tradução',
-    description: 'Crie atividades profissionais do intruso onde os usuários identificam e rodeiam a imagem que não pertence em cada fila de quatro imagens. O gerador oferece dois modos distintos que produzem desafios cognitivos fundamentalmente diferentes. O modo Idêntico coloca três clones da mesma imagem junto a uma imagem diferente do mesmo tema — os usuários detetam o não-duplicado comparando detalhes visuais dentro de um só tema. O modo Similar utiliza três imagens do Tema A e uma imagem do Tema B — os usuários identificam o intruso temático reconhecendo diferenças categóricas entre dois temas. Cada fila de exercício inclui o seu próprio seletor suspenso de modo, permitindo-lhe anular o modo global por exercício individual. Comece com exercícios fáceis em modo Idêntico no topo e transite para exercícios mais difíceis em modo Similar na parte inferior, ou alterne modos ao longo da atividade para um desafio variado. Um botão \"Limpar Seleções\" repõe todas as anulações por exercício ao modo global. Configure de 5 a 10 exercícios por atividade (predefinido 6) usando o painel de Configuração de Exercícios. Cada exercício contém sempre exatamente 4 imagens — 3 elementos comuns e 1 elemento intruso — com a posição do intruso aleatoriamente baralhada dentro da fila. O layout adapta-se automaticamente: páginas verticais com 7 ou mais exercícios mudam para layout de 2 colunas, e as páginas horizontais usam sempre 2 colunas para um espaçamento ótimo. O sistema de dois temas torna os puzzles de discriminação entre categorias fáceis de criar — selecione o Tema A do menu suspenso para as três imagens comuns e o Tema B para o único elemento intruso. Combine animais com comida, veículos com natureza, profissões com desportos — qualquer combinação das 104 coleções temáticas disponíveis com mais de 3100 ilustrações. No modo Idêntico, apenas é necessário um tema já que tanto os clones comuns como a imagem intrusa provêm da mesma coleção. O sistema de duplo canvas gera simultaneamente um aba de atividade e um aba de gabarito. O gabarito reproduz o layout exato da atividade e desenha um contorno de círculo vermelho à volta do elemento intruso em cada fila de exercício. A espessura do traço do círculo escala dinamicamente com o tamanho da imagem — calculada como o maior entre tamanhoImagem × 0,04 ou 3 píxeis — assegurando uma visibilidade consistente em todos os tamanhos de página e quantidades de exercícios. Um cabeçalho autogerado exibe \"Encontra o Diferente\" com uma moldura exterior coral (#FF6B6B, traço de 8px), uma moldura interior âmbar (#FFB84D, traço de 3px) e fundo turquesa (#4ECDC4). O título aparece em Fredoka verde-azulado escuro (#1A535C) e as instruções em Quicksand vermelho (#E63946), localizado nos 11 idiomas suportados. As atividades do intruso NÃO são sensíveis ao idioma — os puzzles são totalmente visuais sem palavras no conteúdo da atividade, tornando cada puzzle universalmente vendível em todos os mercados sem tradução. Ative ou desative os campos opcionais de nome e data para uso online e os números de exercício (25px de largura, 15px de espaçamento do conteúdo do cartão) para referência fácil durante a revisão. Explore 104 coleções temáticas ou carregue as suas próprias imagens PNG, JPG ou GIF. Aplique temas de fundo e temas de moldura com controlos de opacidade independentes (0–1, passo 0,05). Adicione texto personalizado com 7 opções de fonte (Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial, Verdana) e contorno de texto de 0 a 10. Exporte quatro arquivos por sessão: JPEG de atividade, PDF de atividade, JPEG de gabarito e PDF de gabarito — tudo a 300 DPI (multiplicador 6×, qualidade JPEG 1,0). Escolha Carta, A4, Quadrado (1200×1200) ou tamanhos de página personalizados com a opção de escala de cinzentos para impressão que poupa tinta. Edite tudo no canvas Fabric.js com 6 opções de alinhamento mais centramento na página, camadas, bloquear/desbloquear, zoom de 25% a 300%, e desfazer/refazer com 20 estados. O teste grátis inclui todas as funcionalidades com uma marca d\'água nos downloads. Adquira uma licença para remover a marca d\'água e vender comercialmente.',
+    description: 'Crie atividades de encontre o intruso diretamente no navegador — sem cadastro, sem instalação, sem custo. Este gerador produz exercícios onde as crianças observam um grupo de imagens e identificam qual não pertence ao conjunto. Desenvolve raciocínio lógico e categorização. Mais de 3.000 ilustrações em 104 temas. Exporte PDFs prontos para imprimir com gabarito automático. O teste grátis inclui todas as funcionalidades — os downloads vêm com marca d\'água. Para uso comercial, conheça a versão com licença.',
   },
 
   tutorial: {

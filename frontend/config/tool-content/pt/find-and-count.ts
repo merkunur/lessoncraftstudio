@@ -2,26 +2,36 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'gerador atividades eu vejo',
+    primaryKeyword: 'gerador de procure e conte grátis',
     secondaryKeywords: [
-      'criador atividades encontra e conta uso comercial',
-      'gerador atividades objetos escondidos para Etsy e KDP',
-      'ferramenta atividades eu vejo identificação de letras',
-      'criar atividades encontra e conta imprimíveis para vendedores',
+      'procure e conte para imprimir grátis',
+      'atividades de encontre e conte grátis',
+      'contagem visual grátis para crianças',
+      'atividades de procurar e contar grátis',
     ],
     lsiKeywords: [
-      'modo objeto escondido e identificação de letras dupla atividade',
-      'quatro tipos de tarefa circular quadrado riscar contar combináveis',
-      'alfabetos específicos por idioma letras acentuadas gerador eu vejo',
+      'grátis online',
+      'sem cadastro',
+      'marca d\'água',
+      'imprimir',
+      'PDF',
+      'gabarito',
+      'procurar e contar',
+      'contagem',
+      '104 temas',
+      'educação infantil',
+      'teste grátis',
+      'licença comercial',
     ],
-    titleTag: 'Gerador Atividades Eu Vejo — Encontra e Conta para Vender',
-    metaDescription: 'Crie atividades eu vejo com modos Objeto Escondido e Identificação de Letras, quatro tipos de tarefa, alfabetos com letras acentuadas, 104 temas. Teste grátis.',
+    titleTag: 'Procure e conte grátis online | LCS',
+    metaDescription:
+      'Crie atividades de procurar e contar grátis com imagens. 104 temas, gabarito automático, PDF imprimível. Teste online sem cadastro — marca d\'água removível.',
   },
 
   hero: {
-    title: 'Gerador de Atividades Encontra e Conta',
+    title: 'Gerador de procure e conte — teste grátis online',
     tagline: 'Gerador eu vejo de duplo modo com modo Objeto Escondido (grelha de imagens dispersas com até 4 objetos-alvo) e modo Identificação de Letras (grelha de alfabeto específica por idioma com letras acentuadas), quatro tipos de tarefa combináveis (circular, quadrado, riscar, contar) atribuíveis por objeto-alvo, etiquetas de nomes de imagens localizadas em 11 idiomas via o sistema de Vocabulário de Imagens, densidade de grelha configurável de 5×5 a 10×10, gabaritos autogerados com anotações vermelhas de círculo/quadrado/cruz e contagens de quantidade, e atividades sensíveis ao idioma onde as etiquetas de imagens mudam conforme o idioma selecionado',
-    description: 'Crie atividades profissionais de eu vejo e encontra e conta onde os usuários procuram numa cena de imagens dispersas para encontrar, circular, riscar ou contar objetos específicos. O gerador oferece dois modos de atividade distintos numa só ferramenta. O modo Objeto Escondido dispersa imagens numa grelha configurável (5–10 linhas × 5–10 colunas, predefinido 6×6) e permite-lhe atribuir até 4 objetos-alvo com tipos de tarefa individuais — circular, enquadrar com quadrado, riscar ou contar quantos aparecem. Cada célula exibe uma imagem com um tamanho máximo de 80px. Os objetos-alvo são distribuídos aleatoriamente com 1–5 instâncias cada, e as células restantes são preenchidas com imagens distratoras do tema. O modo Identificação de Letras mostra uma grelha de alfabeto específica por idioma com letras acentuadas — inglês A–Z (26 letras), alemão A–Z + ÄÖÜ (29 letras), espanhol A–Z + Ñ (27 letras), sueco/finlandês A–Z + ÅÄÖ (29 letras), dinamarquês/norueguês A–Z + ÆØÅ (29 letras) — apresentada em 7 colunas com ajuste automático de linhas. Os usuários selecionam uma letra e o gerador cria uma cena eu vejo usando imagens que começam com essa letra no idioma selecionado. O Gerador de Encontra e Conta é sensível ao idioma: as etiquetas de nomes de imagens na atividade são exibidas no idioma selecionado através do sistema de Vocabulário de Imagens. \"Cat\" exibe-se como \"Katze\" em alemão, \"Chat\" em francês, \"Gato\" em português — e as primeiras letras em Identificação de Letras atualizam-se correspondentemente. O nível Comercial inclui apenas inglês; o Acesso Completo desbloqueia os 11 idiomas para etiquetas localizadas. O sistema de duplo canvas gera tanto um aba de atividade como um aba de gabarito simultaneamente. O gabarito reproduz o layout exato da atividade e sobrepõe anotações visuais vermelhas: círculos à volta de objetos com tarefa de circular, quadrados à volta de objetos com tarefa de quadrado, cruzes sobre objetos com tarefa de riscar e contagens de quantidade para objetos com tarefa de contar. Um cabeçalho autogerado mostra \"Eu Vejo\" ou \"Identificação de Letras\" (conforme o modo) com uma moldura azul (#2196F3), acento interior amarelo e título e instruções localizados nas fontes Fredoka e Quicksand nos 11 idiomas suportados. A aplicação autogera ao carregar a página com o tema de animais, 4 imagens aleatórias, tipos de tarefa aleatórios e uma grelha de 6×6 para uma pré-visualização instantânea. Explore 104 coleções temáticas com mais de 3100 ilustrações ou carregue imagens personalizadas. Aplique temas de fundo e moldura com controlos de opacidade independentes. Adicione texto personalizado com 7 opções de fonte e contorno de texto de 0 a 10. Ative campos de nome e data para identificação do usuário. Exporte PDF e JPEG prontos para impressão a 300 DPI (multiplicador 6×) em Predefinido (800×1000), Carta, A4, Quadrado (1200×1200) ou dimensões personalizadas. Ative escala de cinzentos para impressão que poupa tinta. O teste grátis inclui todas as funcionalidades com uma marca d\'água nos downloads. Adquira uma licença para remover a marca d\'água e vender comercialmente.',
+    description: 'Crie atividades de procurar e contar diretamente no navegador — sem cadastro, sem instalação, sem custo. Este gerador produz cenas visuais com imagens temáticas — as crianças encontram e contam cada tipo de imagem. Combina atenção visual com habilidades de contagem. Mais de 3.000 ilustrações em 104 temas. Exporte PDFs prontos para imprimir com gabarito automático. O teste grátis inclui todas as funcionalidades — os downloads vêm com marca d\'água. Para uso comercial, conheça a versão com licença.',
   },
 
   tutorial: {

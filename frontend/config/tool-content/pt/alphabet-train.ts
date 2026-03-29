@@ -1,26 +1,30 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'criar atividades trem do alfabeto para crianças',
+    primaryKeyword: 'gerador de atividades de alfabeto grátis',
     secondaryKeywords: [
-      'criador de trem do alfabeto para a loja',
-      'atividades reconhecimento de letras para crianças',
-      'trem do alfabeto imprimível para pré-escola',
-      'criador associação letra-imagem para vendedores',
+      'trem do alfabeto para imprimir grátis',
+      'atividades de letras para crianças grátis',
+      'atividades de alfabetização grátis online',
+      'reconhecimento de letras grátis',
     ],
     lsiKeywords: [
-      'atividade trem associação letra-imagem para crianças',
-      'atividade alfabeto multilíngue para a loja',
-      'trem do alfabeto colorido imprimível',
+      'grátis online',
+      'sem cadastro',
+      'marca d\'água',
+      'imprimir',
+      'PDF',
+      'gabarito',
+      'alfabeto',
+      'trem de letras',
+      'alfabetização',
+      '11 idiomas',
+      'teste grátis',
+      'licença comercial',
     ],
-    titleTag: 'Atividades Trem do Alfabeto — Letras para Crianças',
-    metaDescription: 'Crie atividades de trem do alfabeto para reconhecer letras. 11 vagões coloridos, associação letra-imagem, 11 idiomas. Teste grátis com marca d\'água.',
-    },
-
-  hero: {
-    title: 'Gerador de Trem do Alfabeto',
-    tagline: 'Crie atividades de trem de letras com associação letra-imagem em 11 idiomas',
-    description: 'Desenhe atividades do alfabeto que não se parecem com nenhuma página tradicional de traçado de letras. Esta ferramenta dispõe 11 vagões de trem coloridos ao longo da página, cada um com uma letra e uma ilustração correspondente. Imagens-pista dispersas aparecem junto ao trem — os usuários identificam com que letra começa cada imagem e associam-na ao vagão correto. Escolha entre o modo Criação Automática (a ferramenta seleciona aleatoriamente 11 letras e atribui imagens correspondentes) ou Modo Manual (escolha cada letra a partir de uma grelha do alfabeto completo e atribua cada imagem individualmente). Ajuste a dificuldade com o controlo de número de pistas: 3 pistas para principiantes, 5–7 para nível intermédio e 9–11 para usuários avançados que devem associar quase todos os vagões. A verdadeira potência é a sensibilidade linguística — selecione entre 11 alfabetos nativos incluindo alemão (Ä/Ö/Ü), sueco (Å/Ä/Ö), espanhol (Ñ) e mais. A mesma imagem associa-se com letras diferentes em cada idioma: \"cão\" associa-se com C em português mas com D em inglês (dog) e H em alemão (Hund). Um único modelo transforma-se em 11 produtos únicos. Explore mais de 3100 imagens em 104 temas, ou carregue as suas para designs personalizados. Escolha entre 7 famílias tipográficas e exporte como PDF pronto para imprimir ou JPEG de alta resolução. O teste grátis inclui uma marca d\'água nos downloads. Adquira uma licença para remover a marca d\'água e vender com uso comercial.',
+    titleTag: 'Atividades de alfabeto grátis online | LCS',
+    metaDescription:
+      'Crie atividades de trem do alfabeto grátis. 11 idiomas, associação letra-imagem, PDF imprimível. Teste online sem cadastro — marca d\'água removível.',
   },
 
   tutorial: {

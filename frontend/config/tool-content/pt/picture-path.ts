@@ -2,26 +2,36 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'criador labirintos com imagens',
+    primaryKeyword: 'gerador de labirintos ilustrados grátis',
     secondaryKeywords: [
-      'gerador de labirintos imprimíveis para vendedores Etsy e KDP',
-      'criador de atividades de caminhos e labirintos com gabarito automático',
-      'ferramenta para criar labirintos com imagens licença comercial',
-      'gerador de atividades de labirintos algoritmo LPF três modos de jogo',
+      'labirintos para imprimir grátis',
+      'criar labirintos com imagens grátis',
+      'atividades de percurso grátis para crianças',
+      'labirinto para imprimir grátis',
     ],
     lsiKeywords: [
-      'três modos caminho imagens labirinto clássico escolhe caminho certo criador',
-      'algoritmo LPF caminho mais longo primeiro labirintos com paredes gerador',
-      'gabarito automático círculos rosa caminho solução labirintos gerador',
+      'grátis online',
+      'sem cadastro',
+      'marca d\'água',
+      'imprimir',
+      'PDF',
+      'gabarito',
+      'labirinto',
+      'percurso',
+      'coordenação motora',
+      'educação infantil',
+      'teste grátis',
+      'licença comercial',
     ],
-    titleTag: 'Criador Labirintos com Imagens — Atividades Criar e Vender',
-    metaDescription: 'Crie atividades de labirintos com 3 modos de jogo, algoritmo LPF, colecionáveis, gabaritos automáticos com círculos rosa, 104 temas.',
+    titleTag: 'Labirintos ilustrados grátis online | LCS',
+    metaDescription:
+      'Crie labirintos ilustrados grátis com imagens temáticas. 104 temas, gabarito automático, PDF imprimível. Teste online sem cadastro — marca d\'água removível.',
   },
 
   hero: {
-    title: 'Criador de Atividades de Labirintos com Imagens',
+    title: 'Gerador de labirintos ilustrados — teste grátis online',
     tagline: 'Gerador de atividades de labirintos com três modos de jogo — Caminho de Imagens (quadrícula visual de seguimento de caminhos), Labirinto Clássico (algoritmo LPF com paredes, colecionáveis e bloqueio de becos sem saída) e Escolhe o Caminho Certo (labirintos de três caminhos direcionais) — cinco funções de imagem (Início, Fim, Caminho, Distrator, Decoração), design de paredes personalizável com controlos de cor/espessura/opacidade, gabaritos autogerados com círculos rosa realçando a solução e legendas de colecionáveis, e labirintos completamente visuais que se vendem em todo o mundo sem tradução',
-    description: 'Crie atividades profissionais de labirintos e percursos com três modos de jogo distintos num só gerador. Caminho de Imagens cria uma quadrícula de imagens onde os usuários seguem o caminho correto desde o início até ao final identificando as imagens do caminho entre distratores — ideal para usuários mais novos e tarefas de discriminação visual. Labirinto Clássico gera labirintos com paredes usando o algoritmo LPF (Caminho Mais Longo Primeiro) com um sistema de células de corredor e colocação dinâmica de paredes. A pontuação de qualidade avalia curvas, comprimento e bloqueios para garantir labirintos desafiantes mas resolúveis. Configure tamanhos de quadrícula de 15×15 a 20×20, defina de 1 a 3 caminhos com bloqueio automático de becos sem saída, e personalize a cor das paredes (qualquer cor com seletor), espessura (1–10px, predefinido 3px) e opacidade (10–100%, predefinido 100%). Imagens colecionáveis dispersam-se pelos corredores do Labirinto Clássico — configure de 1 a 4 tipos de imagens colecionáveis, de 1 a 3 cópias mínimas e de 1 a 10 cópias máximas por tipo. Escolhe o Caminho Certo apresenta labirintos de três caminhos com quatro opções direcionais (de baixo para cima, de cima para baixo, da esquerda para a direita, da direita para a esquerda) onde os usuários identificam a única rota correta entre iscas. Atribua imagens a cinco funções distintas: Imagem de Início (ponto de entrada), Imagem de Fim (destino — 1 para Caminho/Labirinto, 3 para Escolhe o Caminho), Imagens de Caminho (marcadores de rota correta ou colecionáveis), Imagens Distratoras (preenchimento de células fora do caminho) e Decoração (colocação livre no canvas). Cada modo gera um gabarito complementar num aba de canvas separado — os caminhos de solução são realçados com círculos rosa ao longo da rota correta. O modo Escolhe o Caminho acrescenta uma etiqueta \"✓ CORRECT PATH\" identificando a rota vencedora. Labirinto Clássico inclui uma legenda de colecionáveis mostrando cada imagem e a sua contagem ao longo do caminho de solução. O cabeçalho autogerado \"Caminho de Imagens\" apresenta uma borda exterior laranja (traço de 8px) com margens de 34px, título localizado e instruções \"Segue o caminho!\" nos 11 idiomas suportados. As atividades em vertical exibem um cabeçalho de 240px; as horizontais usam um layout compacto de 165px. Explore 104 coleções temáticas com mais de 3100 ilustrações ou carregue imagens personalizadas em PNG, JPG ou GIF. Aplique temas de fundo e de borda com controlos de opacidade independentes (0–1, passo 0,05). Adicione texto personalizado com 7 opções de fonte (Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial, Verdana) e contorno de texto de 0 a 10. Ative campos de nome e data para identificação do usuário. Exporte PDF e JPEG prontos para impressão a 300 DPI (multiplicador 6×) em Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal, Quadrado (1200×1200) ou dimensões personalizadas. Ative a escala de cinzentos para impressão que poupa tinta. Edite no canvas Fabric.js com 6 opções de alinhamento mais centramento na página, camadas, bloquear/desbloquear, zoom de 25% a 300% em incrementos de 25%, e desfazer/refazer com 20 estados. Os labirintos de Caminho de Imagens são completamente visuais — não requerem leitura nem compreensão linguística, tornando cada atividade vendível instantaneamente em qualquer mercado do mundo. O teste grátis inclui todas as funcionalidades com uma marca d\'água nos downloads. Adquira uma licença para remover a marca d\'água e vender comercialmente.',
+    description: 'Crie labirintos ilustrados diretamente no navegador — sem cadastro, sem instalação, sem custo. Este gerador produz atividades de percurso onde as crianças traçam caminhos entre imagens temáticas. "Labirinto para imprimir" é um dos termos de atividades mais buscados no Brasil. Mais de 3.000 imagens em 104 temas. Combina coordenação motora com diversão visual. Exporte PDFs prontos para imprimir com gabarito automático. O teste grátis inclui todas as funcionalidades — os downloads vêm com marca d\'água. Para uso comercial, conheça a versão com licença.',
   },
 
   tutorial: {

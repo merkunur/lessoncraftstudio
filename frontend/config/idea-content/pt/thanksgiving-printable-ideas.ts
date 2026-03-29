@@ -2,25 +2,34 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Ideias Imprimíveis Ação de Graças — Guia de Nicho',
-    metaDescription: 'Ideias de imprimíveis de Ação de Graças para vender no Hotmart, Etsy e Amazon KDP. Produtos temáticos de colheita, estratégias sazonais e dicas para vendedores.',
-
-    primaryKeyword: 'ideias imprimíveis ação de graças',
+    primaryKeyword: 'imprimíveis de Ação de Graças para vender',
     secondaryKeywords: [
-      'atividades ação de graças para vender',
-      'negócio imprimíveis ação de graças',
-      'atividades atividades ação de graças para vendedores',
-      'vender imprimíveis de ação de graças no Etsy',
+      'atividades Thanksgiving para vender Etsy',
+      'imprimíveis Ação de Graças KDP',
+      'nicho americano vendedores brasileiros',
+      'atividades Thanksgiving em inglês',
     ],
     lsiKeywords: [
-      'atividades educativas colheita e gratidão',
-      'páginas atividades temática novembro para loja',
-      'imprimíveis temática peru e peregrinos',
+      'Hotmart',
+      'Kiwify',
+      'Etsy',
+      'Amazon KDP',
+      'renda extra',
+      'negócio de imprimíveis',
+      'licença comercial',
+      'nicho',
+      'ideias de produto',
+      'vendedor',
+      'Brasil',
+      'imprimíveis educativos',
     ],
+    titleTag: 'Imprimíveis Ação de Graças | LCS',
+    metaDescription:
+      'Venda imprimíveis de Ação de Graças no Etsy e KDP. Nicho do mercado americano perfeito para vendedores brasileiros. Estratégias e ideias de produtos.',
   },
   hero: {
-    title: 'Ideias de Negócio de Imprimíveis de Ação de Graças para Vendedores',
-    description: 'A Ação de Graças abre uma janela de vendas concentrada e altamente rentável para os empreendedores de imprimíveis, com a procura a crescer durante outubro e a atingir o pico nas três primeiras semanas de novembro enquanto os vendedores preparam atividades de colheita para a loja e as famílias planificam entretenimento educativo para os encontros festivos. O nicho oferece uma rica variedade de subtemas que incluem perus, abóboras, peregrinos, cenas de colheita, cornucópias, folhas de outono, tartes, bolotas e atividades de gratidão, proporcionando aos vendedores um vocabulário visual caloroso que conecta com os aprendizes mais novos e as suas famílias durante uma das celebrações mais esperadas do ano. As famílias que praticam ensino doméstico e os programas de infantários acrescentam uma profundidade significativa de compradores, procurando trabalhos manuais e atividades de Ação de Graças que combinem a emoção festiva com resultados genuínos de aprendizagem. Para os vendedores de imprimíveis no Hotmart, Etsy e Amazon KDP, o nicho de Ação de Graças entrega uma procura sazonal concentrada com uma estética acolhedora de outono que se fotografa maravilhosamente para os anúncios de produtos e o marketing nas redes sociais. Este guia cobre ideias de produtos específicos, estratégias por plataforma e abordagens de calendarização para te ajudar a construir uma linha rentável de produtos imprimíveis de Ação de Graças utilizando as nossas ferramentas geradoras de atividades.',
+    title: 'Ação de Graças — Imprimíveis para o Mercado Americano',
+    description: 'O Dia de Ação de Graças (Thanksgiving) não é celebrado no Brasil, mas representa uma enorme oportunidade para vendedores brasileiros que vendem em inglês no Etsy e Amazon KDP. A demanda por atividades de Thanksgiving explode entre outubro e novembro nos EUA. Perus, abóboras, folhas de outono e temas de gratidão vendem massivamente. Como a concorrência de vendedores brasileiros nesse nicho é baixa, há espaço para se posicionar bem. No Etsy, listagens de Thanksgiving em inglês alcançam o imenso mercado americano. No Amazon KDP, livros de atividades de Thanksgiving são bestsellers sazonais. Crie seus produtos em inglês com nossas ferramentas. Teste grátis com marca d\'água — sem cadastro.',
   },
   marketOverview: `O nicho de imprimíveis de Ação de Graças ocupa uma posição privilegiada no calendário de vendas de outono, gerando uma procura concentrada durante outubro e novembro quando os vendedores, pais e famílias que praticam ensino doméstico procuram ativamente materiais educativos com temática de colheita. Os vendedores começam a planificar as atividades de novembro e as celebrações de Ação de Graças no início de outubro, procurando atividades temáticas que combinem a calidez festiva com resultados educativos genuínos em matemática, literacia e pensamento crítico. Os pais procuram atividades de Ação de Graças adequadas à idade que sirvam múltiplos propósitos: manter as crianças entretidas durante a preparação da festividade, proporcionar entretenimento educativo durante as viagens familiares, e criar momentos de aprendizagem estruturada durante o longo fim de semana de Ação de Graças quando as atividades sem tela são especialmente valorizadas.
 

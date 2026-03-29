@@ -2,25 +2,34 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Ideias de Imprimíveis de Dinossauros — Guia de Nicho',
-    metaDescription: 'Ideias lucrativas de imprimíveis de dinossauros para vender no Hotmart, Etsy e Amazon KDP. Conceitos de produtos, estratégias por plataforma e dicas de nicho.',
-
-    primaryKeyword: 'ideias de imprimíveis de dinossauros',
+    primaryKeyword: 'imprimíveis de dinossauros ideias negócio',
     secondaryKeywords: [
-      'atividades temática dinossauros para vender',
-      'negócio imprimíveis dinossauros',
-      'atividades atividades dinossauros para vendedores',
-      'vender imprimíveis dinossauros no Etsy',
+      'atividades dinossauros para vender',
+      'imprimíveis tema jurássico Etsy',
+      'negócio atividades dinossauros Hotmart',
+      'livros dinossauros Amazon KDP',
     ],
     lsiKeywords: [
-      'atividades educativas temática pré-histórica',
-      'atividades paleontologia para crianças',
-      'imprimíveis escolares temática Jurássica',
+      'Hotmart',
+      'Kiwify',
+      'Etsy',
+      'Amazon KDP',
+      'renda extra',
+      'negócio de imprimíveis',
+      'licença comercial',
+      'nicho',
+      'ideias de produto',
+      'vendedor',
+      'Brasil',
+      'imprimíveis educativos',
     ],
+    titleTag: 'Imprimíveis dinossauros — Negócio | LCS',
+    metaDescription:
+      'Ideias de negócio com imprimíveis de dinossauros. Crie e venda atividades educativas no Etsy, Hotmart e KDP. Nicho com alta demanda o ano todo.',
   },
   hero: {
-    title: 'Ideias de Negócio de Imprimíveis de Dinossauros para Vendedores',
-    description: 'Os dinossauros fascinam as crianças como poucos outros temas conseguem. A combinação de criaturas enormes, extinção misteriosa e uma variedade interminável de espécies cria uma fascinação que impulsiona uma procura constante de produtos educativos com temática de dinossauros. Para os vendedores de imprimíveis, isto traduz-se num nicho com um poderoso apelo emocional, forte interesse de pais e vendedores, e um comportamento de compra ao longo de todo o ano. Ao contrário dos temas sazonais que se desvanecem após algumas semanas, o entusiasmo pelos dinossauros persiste em todos os meses do calendário. Quer vendas no Etsy, Amazon KDP ou Hotmart, os imprimíveis de dinossauros oferecem uma ampla margem para diferenciação de produtos graças à enorme diversidade de espécies, eras geológicas e ângulos de aprendizagem disponíveis. Este guia abrange ideias de produtos específicos, estratégias por plataforma e abordagens práticas para construir uma linha rentável de produtos imprimíveis com temática de dinossauros utilizando as nossas ferramentas geradoras de atividades.',
+    title: 'Dinossauros — Ideias de Negócio com Imprimíveis Educativos',
+    description: 'Dinossauros são um dos temas mais procurados por crianças de todas as idades. T-Rex, Triceratops e Estegossauro geram fascínio constante que se traduz em vendas durante todo o ano. Para vendedores de imprimíveis, esse nicho permite criar atividades de contagem, caça-palavras, quebra-cabeças, labirintos e páginas para colorir com apelo irresistível. No Etsy, listagens de dinossauros têm alta visibilidade. No Hotmart, pacotes educativos completos com tema jurássico alcançam preços premium. No Amazon KDP, livros de atividades de dinossauros são bestsellers na categoria infantil. Teste grátis com marca d\'água — sem cadastro.',
   },
   marketOverview: `O nicho de imprimíveis de dinossauros prospera graças a uma verdade simples: as crianças são obcecadas por dinossauros. Esta obsessão ultrapassa as linhas de género, as fronteiras culturais e os grupos etários de maneiras que poucos outros temas conseguem. Os pais reconhecem esta paixão e procuram ativamente materiais educativos que canalizem o entusiasmo pelos dinossauros para uma aprendizagem produtiva. Os vendedores aproveitam a fascinação pelos dinossauros para ensinar vocabulário, contagem, conceitos de ciências e competências de leitura, sabendo que os níveis de envolvimento disparam quando as criaturas pré-históricas estão envolvidas.
 

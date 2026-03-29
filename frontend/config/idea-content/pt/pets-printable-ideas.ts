@@ -2,25 +2,34 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Ideias de Imprimíveis de Animais de Estimação — Nicho',
-    metaDescription: 'Ideias lucrativas de imprimíveis de animais de estimação para vender no Hotmart, Etsy e Amazon KDP. Conceitos de produtos de cães, gatos e animais com.',
-
-    primaryKeyword: 'ideias de imprimíveis de animais de estimação',
+    primaryKeyword: 'imprimíveis de animais de estimação para Etsy',
     secondaryKeywords: [
-      'atividades temática animais de estimação para vender',
-      'negócio imprimíveis animais domésticos',
-      'atividades atividades animais de estimação para vendedores',
-      'vender imprimíveis animais de estimação no Etsy',
+      'atividades animais de estimação para vender',
+      'imprimíveis pets Etsy Hotmart',
+      'negócio atividades cães gatos',
+      'vender imprimíveis pets online',
     ],
     lsiKeywords: [
-      'atividades educativas animais domésticos',
-      'atividades temática cães e gatos',
-      'imprimíveis escolares animais de estimação',
+      'Hotmart',
+      'Kiwify',
+      'Etsy',
+      'Amazon KDP',
+      'renda extra',
+      'negócio de imprimíveis',
+      'licença comercial',
+      'nicho',
+      'ideias de produto',
+      'vendedor',
+      'Brasil',
+      'imprimíveis educativos',
     ],
+    titleTag: 'Imprimíveis pets para Etsy | LCS',
+    metaDescription:
+      'Venda imprimíveis de animais de estimação no Etsy e Hotmart. Gatos, cães e coelhos em atividades educativas com alta demanda. Ideias de nicho rentável.',
   },
   hero: {
-    title: 'Ideias de Negócio de Imprimíveis de Animais de Estimação para Vendedores',
-    description: 'Os animais de estimação ocupam uma posição excepcionalmente forte no mercado de imprimíveis educativos porque praticamente todas as crianças têm uma ligação pessoal com os animais domésticos. Quer uma família tenha um cão, um gato, um hamster ou um peixe dourado, as crianças sentem-se naturalmente atraídas por materiais de aprendizagem que apresentam criaturas familiares que veem e com as quais interagem diariamente. Este vínculo emocional impulsiona uma forte intenção de compra entre os pais que querem combinar o entusiasmo dos seus filhos pelos animais de estimação com uma aprendizagem estruturada. Para os vendedores de imprimíveis no Hotmart, Etsy e Amazon KDP, o tema de animais de estimação oferece uma enorme procura perene, uma diversidade de espécies para a diferenciação de produtos, e atratividade transversal em idades desde os mais pequenos até aos primeiros anos do ensino básico. Este guia apresenta-lhe ideias de produtos específicos, estratégias por plataforma e conselhos de posicionamento de nicho para ajudá-lo a construir um negócio rentável de imprimíveis com temática de animais de estimação utilizando as nossas ferramentas geradoras de atividades.',
+    title: 'Imprimíveis de Animais de Estimação — Ideias para Etsy',
+    description: 'Animais de estimação são o tema mais próximo do coração das crianças. Gatos, cães, coelhos e hamsters geram conexão emocional imediata, o que aumenta a taxa de conversão nas plataformas de venda. No Etsy, imprimíveis de pets têm demanda constante e forte apelo para pais e educadores. No Hotmart, pacotes temáticos com atividades de contagem, labirintos, caça-palavras e páginas para colorir de animais de estimação vendem bem o ano todo. No Amazon KDP, livros de atividades com pets atraem compradores impulsivos. Crie produtos em múltiplos formatos e faixas de preço para maximizar sua receita nesse nicho perene. Teste grátis com marca d\'água — sem cadastro.',
   },
   marketOverview: `O nicho de imprimíveis de animais de estimação beneficia de uma dinâmica de mercado simples mas poderosa: os animais de estimação são o tema animal mais pessoalmente relevante para as crianças. Enquanto os animais da quinta e as criaturas marinhas são interessantes, os animais de estimação são os animais com os quais as crianças realmente vivem, cuidam e amam. Esta ligação pessoal transforma o tempo de atividades de um exercício abstrato numa atividade que apresenta os seus companheiros favoritos, e é exatamente por isso que pais e vendedores procuram materiais educativos com temática de animais de estimação.
 

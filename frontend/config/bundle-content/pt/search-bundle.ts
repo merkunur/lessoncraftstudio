@@ -2,27 +2,35 @@ import type { BundleContent } from '../types';
 
 const content: BundleContent = {
   seo: {
-    primaryKeyword: 'pacote atividades procura e encontra',
+    primaryKeyword: 'pacote ache e encontre para vendedores',
     secondaryKeywords: [
-      'pacote de geradores de atividades de procura para vendedores',
-      'kit de atividades I Spy objetos escondidos uso comercial',
-      'gerador de palavras cruzadas e caça ao tesouro para Etsy',
-      'geradores de atividades de procura e encontra para vendedores KDP',
+      'pacote geradores ache e encontre comercial',
+      'kit atividades de busca visual vendedores',
+      'pacote imprimíveis ache e encontre Etsy KDP',
+      'geradores de atividades de procura comercial',
     ],
     lsiKeywords: [
-      'pacote de atividades de objetos escondidos I Spy palavras cruzadas e caça ao tesouro',
-      'coleção de atividades de procura multilingue',
-      'licença comercial atividades de descoberta',
-      'ferramenta de criação em massa de atividades de procura',
+      'ache e encontre gerador atividades imprimíveis',
+      'encontre os objetos imprimíveis comercial',
+      'atividades de atenção visual vendedores',
+      'apostilas KDP ache e encontre crianças',
+      'Etsy loja atividades de busca visual',
+      'Hotmart pacote atividades de procura',
+      'Kiwify atividades ache e encontre',
+      'contagem visual atividades imprimíveis',
+      'atividades de observação crianças comercial',
+      'hidden objects worksheets vendedores',
+      'licença comercial atividades de busca',
+      'pré-escolar atividades visuais ache encontre',
     ],
-    titleTag: 'Pacote Atividades Procura e Encontra | Criar e Vender',
-    metaDescription: 'Pacote com 4 geradores de procura: I Spy, objetos escondidos, palavras cruzadas com imagens e caça ao tesouro. Venda no Hotmart, Etsy e KDP com licença comercial.',
+    titleTag: 'Pacote ache e encontre vendedores | LCS',
+    metaDescription: 'Pacote com geradores de atividades ache e encontre: busca visual, contagem e objetos escondidos. Venda imprimíveis no Etsy, Amazon KDP, Hotmart e Kiwify.',
   },
 
   hero: {
-    title: 'Pacote Procura e Encontra',
+    title: 'Pacote Ache e Encontre para Vendedores',
     tagline: 'Quatro geradores de atividades de descoberta — cenas I Spy, objetos escondidos, palavras cruzadas com imagens e caças ao tesouro em cada atividade',
-    description: 'O Pacote Procura e Encontra é o pacote com maior riqueza linguística de toda a coleção. Três das quatro apps produzem atividades sensíveis ao idioma — as etiquetas de imagens e os alfabetos específicos por idioma em Encontre e Conte, as palavras traduzidas dos puzzles em Palavras Cruzadas e as pistas direcionais completamente localizadas em Caça ao Tesouro. Esta profundidade multilingue é uma vantagem competitiva genuína para vendedores que visam mercados não anglófonos, porque cada atividade traduzida se torna um anúncio de produto único com praticamente zero concorrência. O pacote reúne quatro formatos de atividade genuinamente diferentes sob um mesmo tema de \"procurar e descobrir\": cenas I Spy de objetos escondidos onde os usuários localizam e contam elementos específicos, atividades de objetos escondidos puramente visuais com geração de cenas sem sobreposição, grelhas de palavras cruzadas de 15×15 com pistas baseadas em imagens em vez de definições de texto, e caças ao tesouro em grelhas de coordenadas com movimentos direcionais sequenciais. Os quatro geradores produzem gabaritos automáticos — cobertura de gabaritos de 100% em todo o pacote. Encontre e Conte oferece dois modos de procura: cenas I Spy de Objetos Escondidos com tamanhos de grelha configuráveis desde 5×5 até 10×10, e um modo de Procura de Letras que usa alfabetos específicos por idioma incluindo tremas alemães, caracteres acentuados do espanhol e letras especiais escandinavas. Procura Objetos proporciona atividades de objetos escondidos puramente visuais com colocação inteligente sem sobreposição e dimensionamento adaptativo de imagens. Palavras Cruzadas suporta quatro métodos de entrada — autosseleção por tema, edição manual de palavras, listas de palavras personalizadas e carregamento de imagens — tudo renderizado numa grelha de 15×15 com 8 pistas de imagens que substituem as definições de texto tradicionais. Caça ao Tesouro coloca pontos de referência numa grelha de coordenadas de 5×5 etiquetada de A a E e de 1 a 5, com exatamente 4 movimentos direcionais sequenciais em modo Básico usando cima, baixo, esquerda e direita ou modo Cardinal usando norte, sul, este e oeste — tudo completamente traduzido em 11 idiomas. Escolha entre mais de 100 conjuntos de imagens temáticas ou carregue os seus próprios arquivos PNG e JPEG para produtos personalizados e específicos de nicho. Quer venda livros I Spy na Amazon KDP, publique pacotes de palavras cruzadas no Etsy ou crie atividades de caça ao tesouro para Hotmart, este pacote dá-lhe quatro tipos de atividades de procura de alta procura que os compradores procuram por nome. Cada gerador inclui um teste grátis com marca de água para que possa testar todas as funcionalidades antes de comprar uma licença.',
+    description: 'Monte uma coleção completa de atividades de busca visual com um único pacote. Inclui geradores de ache e encontre, contagem visual, objetos escondidos e atividades de observação — os tipos mais populares de imprimíveis visuais para crianças. Cada gerador produz PDFs e JPEGs com gabaritos automáticos, centenas de imagens temáticas e múltiplos níveis de dificuldade. Perfeito para apostilas de atividades visuais no Amazon KDP ou listagens individuais no Etsy. Venda também no Hotmart e Kiwify com licença comercial incluída. Teste grátis com marca d\'água — sem cadastro.',
   },
 
   appsIncluded: [

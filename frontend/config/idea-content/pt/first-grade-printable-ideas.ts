@@ -2,24 +2,34 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Ideias Imprimíveis Primeiro Ano — Guia de Nicho',
-    metaDescription: 'Ideias de imprimíveis de primeiro ano para vender no Hotmart, Etsy e Amazon KDP. Produtos nível primeiro ano e estratégias de nicho para vendedores de atividades.',
-    primaryKeyword: 'ideias imprimíveis primeiro ano',
+    primaryKeyword: 'imprimíveis de 1º ano para vender no Etsy',
     secondaryKeywords: [
-      'atividades primeiro ano para vender',
-      'negócio imprimíveis 1.º ano',
-      'atividades atividades primeiro ano para vendedores',
-      'vender imprimíveis primeiro ano na Hotmart',
+      'atividades 1º ano para vender Etsy',
+      'imprimíveis first grade Hotmart',
+      'negócio atividades alfabetização 1º ano',
+      'livros atividades 1º ano KDP',
     ],
     lsiKeywords: [
-      'atividades educativas ensino primário inicial',
-      'imprimíveis catálogo de produtos 1.º ano',
-      'páginas atividades aprendizagem idades 6-7',
+      'Hotmart',
+      'Kiwify',
+      'Etsy',
+      'Amazon KDP',
+      'renda extra',
+      'negócio de imprimíveis',
+      'licença comercial',
+      'nicho',
+      'ideias de produto',
+      'vendedor',
+      'Brasil',
+      'imprimíveis educativos',
     ],
+    titleTag: 'Imprimíveis 1º ano para Etsy | LCS',
+    metaDescription:
+      'Venda imprimíveis de 1º ano no Etsy, Hotmart e KDP. Atividades de alfabetização e matemática para crianças de 6-7 anos. Alta demanda constante.',
   },
   hero: {
-    title: 'Ideias de Negócio de Imprimíveis de Primeiro Ano para Vendedores',
-    description: 'Os imprimíveis de primeiro ano representam um dos nichos de maior procura e mais academicamente intensivos no mercado de imprimíveis educativos porque o primeiro ano é o ano crucial em que as crianças fazem a transição das competências fundacionais de preparação para o domínio académico genuíno, criando uma procura extraordinária tanto de vendedores que necessitam de materiais de prática diferenciada para salas de aula com amplas variações de competências como de pais que investem fortemente em recursos complementares porque o primeiro ano é onde se espera que a fluência leitora, a automaticidade com factos matemáticos e a comunicação escrita atinjam metas de referência mensuráveis. As competências académicas que definem o catálogo de produtos do primeiro ano abrangem uma gama crítica de aptidões que incluem soma e subtração até vinte, compreensão do valor posicional com dezenas e unidades, fluência com palavras de uso frequente em listas expandidas, descodificação de palavras CVC e CVCe, combinações de consoantes e dígrafos, compreensão leitora de passagens simples, escrita de frases completas com gramática e pontuação corretas, leitura das horas à hora certa e meia hora, identificação e contagem de moedas, comparações de medição e recolha de dados com graficação simples. Esta intensidade académica cria uma poderosa base dual de compradores em que os vendedores de loja na Hotmart gastam consideravelmente em materiais complementares porque o salto das expetativas do jardim de infância para os padrões do primeiro ano exige prática diferenciada extensiva em cada área de competências, e os pais no Etsy e Amazon compram ativamente atividades de prática em casa porque os boletins escolares do primeiro ano, as avaliações padronizadas e as avaliações de nível de leitura tornam o progresso académico altamente visível e acionável para as famílias. Para os vendedores de imprimíveis e empreendedores, o nicho do primeiro ano combina uma procura institucional massiva durante todo o ano com uma forte motivação de compra dos pais, criando múltiplas fontes de receita em todas as principais plataformas de mercado. Este guia abrange ideias de produtos específicos construídos em torno das nossas ferramentas geradoras de atividades, estratégias específicas por plataforma para alcançar os compradores de primeiro ano e abordagens de posicionamento de nicho para te ajudar a construir uma linha rentável de produtos imprimíveis de primeiro ano.',
+    title: 'Imprimíveis de 1º Ano — Atividades para Vender no Etsy',
+    description: 'O 1º ano (6-7 anos) é uma faixa etária crítica onde crianças consolidam leitura, escrita e operações matemáticas básicas. Isso gera demanda intensa por material educativo complementar. No Etsy, imprimíveis de first grade são extremamente populares no mercado americano. No Hotmart, pacotes de reforço escolar para 1º ano atendem pais e educadores brasileiros. No Amazon KDP, livros de atividades para essa idade vendem bem como complemento escolar. Crie atividades de soma, subtração, leitura de palavras, caça-palavras e problemas matemáticos. Séries temáticas por habilidade geram compras múltiplas do mesmo cliente. Teste grátis com marca d\'água — sem cadastro.',
   },
   marketOverview: `O nicho de imprimíveis de primeiro ano ocupa uma posição premium no mercado educativo porque serve o nível escolar onde as expetativas académicas aumentam mais dramaticamente, impulsionando a maior despesa por vendedor em materiais complementares de qualquer ano do ensino primário. Ao contrário do jardim de infância onde os objetivos de aprendizagem se centram na exposição e na preparação, o catálogo de produtos do primeiro ano exige domínio mensurável de competências específicas incluindo fluência leitora a metas de referência definidas de palavras por minuto, automaticidade com factos de soma e subtração até vinte, e construção de frases escritas com maiúsculas e pontuação corretas. Esta orientação para o domínio significa que vendedores e pais compram materiais de prática imprimíveis com um propósito académico claro e urgência que se traduz diretamente num comportamento de compra motivado em cada mercado.
 

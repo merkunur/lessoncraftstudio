@@ -2,25 +2,34 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Ideias de Imprimíveis de Primavera — Guia de Nicho',
-    metaDescription: 'Descobre ideias de imprimíveis de primavera para vender no Hotmart, Etsy e Amazon KDP. Conceitos de produtos sazonais, estratégias de março a maio e dicas úteis.',
-
-    primaryKeyword: 'ideias de imprimíveis de primavera',
+    primaryKeyword: 'imprimíveis de primavera ideias negócio',
     secondaryKeywords: [
-      'atividades temática primavera para vender',
-      'negócio imprimíveis primavera',
-      'atividades atividades primavera para vendedores',
-      'vender imprimíveis de primavera no Etsy',
+      'atividades primavera para vender',
+      'imprimíveis flores borboletas Etsy',
+      'negócio atividades primavera Hotmart',
+      'livros atividades primavera KDP',
     ],
     lsiKeywords: [
-      'atividades educativas flores e jardim',
-      'páginas atividades natureza sazonal',
-      'imprimíveis temática primavera para a loja',
+      'Hotmart',
+      'Kiwify',
+      'Etsy',
+      'Amazon KDP',
+      'renda extra',
+      'negócio de imprimíveis',
+      'licença comercial',
+      'nicho',
+      'ideias de produto',
+      'vendedor',
+      'Brasil',
+      'imprimíveis educativos',
     ],
+    titleTag: 'Imprimíveis primavera — Negócio | LCS',
+    metaDescription:
+      'Ideias de negócio com imprimíveis de primavera. Flores, borboletas e jardim em atividades educativas para Etsy, Hotmart e KDP.',
   },
   hero: {
-    title: 'Ideias de Negócio de Imprimíveis de Primavera para Vendedores',
-    description: 'A primavera abre uma generosa janela de vendas de março a maio enquanto as salas de aula transitam para temas centrados na natureza e as famílias abraçam a aprendizagem ao ar livre após meses de rotinas invernais. O nicho abrange uma rica variedade de subtemas que incluem borboletas, flores, jardins, arco-íris, lagartas, joaninhas, pássaros, ninhos, chuva e guarda-chuvas, proporcionando aos vendedores um extenso vocabulário visual que se conecta naturalmente com o catálogo de produtos de ciências, a exploração ao ar livre e o sentido universal de renovação que define a estação. Os vendedores procuram ativamente materiais frescos de primavera para revitalizar os usuários durante a segunda metade do ano letivo, enquanto as famílias que praticam ensino doméstico e os prestadores de cuidados infantis procuram variedade sazonal que ligue as experiências de aprendizagem em espaços interiores e exteriores. Para os empreendedores de imprimíveis que vendem no Hotmart, Etsy e Amazon KDP, a primavera oferece uma ampla categoria não festiva com relevância prolongada que evita os picos de procura estreitos das festividades de um único dia. Este guia abrange ideias de produtos específicos, estratégias por plataforma e abordagens de calendarização para te ajudar a construir uma linha rentável de produtos imprimíveis de primavera utilizando as nossas ferramentas geradoras de atividades.',
+    title: 'Primavera — Ideias de Negócio com Imprimíveis Educativos',
+    description: 'A primavera é uma das estações mais lucrativas para vendedores de imprimíveis educativos. Flores, borboletas, jardins e chuva geram apelo visual forte e conexão com ciências naturais. A demanda cresce entre março e maio no hemisfério norte, e entre setembro e novembro no Brasil. No Etsy, atividades de primavera têm alta conversão com fotos de listagem coloridas. No Hotmart, pacotes educativos com tema primavera atendem educadores que planejam unidades sazonais. No Amazon KDP, livros de atividades de primavera vendem como presentes criativos. Combine temas de primavera com atividades de contagem, caça-palavras e labirintos. Teste grátis com marca d\'água — sem cadastro.',
   },
   marketOverview: `O nicho de imprimíveis de primavera ocupa uma posição singularmente vantajosa no calendário do mercado educativo porque funciona como uma ampla categoria sazonal em vez de uma festividade de um único dia, dando aos vendedores uma janela de procura prolongada de três meses que se estende desde o início de março até ao final de maio. Os vendedores que emergem da letargia invernal procuram ativamente materiais frescos com temática de natureza que voltem a captar a atenção dos usuários cansados dos temas exclusivamente de interior, e as imagens primaverais proporcionam a transição perfeita enquanto as salas de aula mudam para conteúdo integrado com ciências que cobre ciclos de vida, padrões climáticos, crescimento das plantas e habitats animais. Este alinhamento natural entre os temas de primavera e as áreas curriculares fundamentais significa que os compradores podem justificar as compras de primavera como investimentos educativos em vez de adições puramente decorativas.
 

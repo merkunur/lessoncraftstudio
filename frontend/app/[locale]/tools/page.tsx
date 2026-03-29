@@ -55,8 +55,8 @@ const toolsMetadata: Record<string, { title: string; description: string }> = {
     description: 'Pruebe los 33 generadores de fichas gratis en línea. Sin registro. Sopas de letras, matemáticas, colorear, puzzles y más con marca de agua.',
   },
   pt: {
-    title: 'Geradores de imprimir gr\átis | 33 ferramentas | LessonCraftStudio',
-    description: 'Experimente os 33 geradores de fichas gr\átis online. Sem registo. Ca\ça-palavras, matem\ática, colorir, puzzles e mais com marca d\’\água.',
+    title: ‘33 geradores grátis — Teste online | LCS’,
+    description: ‘Teste os 33 geradores de atividades grátis online. Sem cadastro. Caça-palavras, matemática, colorir, puzzles e mais com marca d\’água.’,
   },
   it: {
     title: '33 generatori gratis — Prova online | LessonCraftStudio',

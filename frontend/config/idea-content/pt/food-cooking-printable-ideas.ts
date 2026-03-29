@@ -2,25 +2,34 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Ideias de Imprimíveis de Culinária — Guia de Nicho',
-    metaDescription: 'Ideias lucrativas de imprimíveis de culinária e alimentação para vender no Hotmart, Etsy e Amazon KDP. Conceitos de produtos temáticos de comida e estratégias.',
-
-    primaryKeyword: 'ideias de imprimíveis de culinária',
+    primaryKeyword: 'imprimíveis de alimentação para vender Etsy',
     secondaryKeywords: [
-      'atividades temática comida para vender',
-      'negócio imprimíveis temática culinária',
-      'atividades atividades cozinha para vendedores',
-      'vender imprimíveis de alimentação no Etsy',
+      'atividades alimentação para vender Etsy',
+      'imprimíveis comida educativos Hotmart',
+      'negócio atividades culinária infantil',
+      'livros atividades alimentação KDP',
     ],
     lsiKeywords: [
-      'atividades educativas temáticas culinárias',
-      'atividades de nutrição para crianças',
-      'imprimíveis de receitas para a loja',
+      'Hotmart',
+      'Kiwify',
+      'Etsy',
+      'Amazon KDP',
+      'renda extra',
+      'negócio de imprimíveis',
+      'licença comercial',
+      'nicho',
+      'ideias de produto',
+      'vendedor',
+      'Brasil',
+      'imprimíveis educativos',
     ],
+    titleTag: 'Imprimíveis alimentação para Etsy | LCS',
+    metaDescription:
+      'Venda imprimíveis de alimentação e culinária no Etsy e Hotmart. Frutas, legumes e comida em atividades educativas. Nicho com demanda crescente.',
   },
   hero: {
-    title: 'Ideias de Negócio de Imprimíveis de Culinária e Alimentação para Vendedores',
-    description: 'A comida e a culinária é um dos temas mais universalmente atrativos para as crianças de todas as idades, o que o torna num nicho perene excecional para empreendedores de imprimíveis que procuram receitas consistentes durante todo o ano com um amplo apelo multicurricular. O tema de comida e culinária oferece uma notável profundidade de subtemas que inclui frutas, legumes, pizza, bolachas, bolo, pão, utensílios de cozinha, pastelaria, compras no supermercado, alimentação saudável, nutrição, conceitos do campo à mesa e comidas internacionais, proporcionando aos vendedores um vasto vocabulário visual que se liga à experiência diária de cada criança com as refeições, os lanches e a exploração na cozinha. A versatilidade transversal ao catálogo de produtos torna os imprimíveis de comida especialmente valiosos porque a culinária se liga naturalmente à matemática através de medir e contar ingredientes, à literacia através da leitura de receitas e do vocabulário alimentar, às ciências através da nutrição e do crescimento das plantas, e às competências para a vida através dos hábitos de alimentação saudável e da consciência sobre a segurança na cozinha. Para os vendedores de imprimíveis no Hotmart, Etsy e Amazon KDP, o nicho de comida e culinária combina uma forte procura durante todo o ano com uma universalidade que ressoa com vendedores de pré-escolar e jardim de infância que conduzem unidades de nutrição, famílias que educam em casa a explorar temas de culinária e pais que procuram atividades de aprendizagem envolventes que liguem as competências da loja às experiências quotidianas na cozinha. Este guia abrange ideias de produtos específicos, estratégias por plataforma e abordagens de posicionamento de nicho para te ajudar a construir uma linha rentável de produtos imprimíveis de comida e culinária utilizando as nossas ferramentas geradoras de atividades.',
+    title: 'Alimentação e Culinária — Imprimíveis para Vender no Etsy',
+    description: 'Alimentação é um tema educativo com demanda crescente, impulsionado pelo interesse em alimentação saudável infantil. Frutas, legumes, receitas e culinária oferecem rico material para atividades educativas. No Etsy, imprimíveis de alimentação atraem pais preocupados com nutrição e educadores. No Hotmart, pacotes sobre alimentação saudável para educação infantil têm forte demanda no mercado brasileiro. No Amazon KDP, livros de atividades sobre comida e culinária alcançam um público amplo. Crie atividades de correspondência, contagem com frutas, caça-palavras de alimentos e páginas para colorir de receitas. O nicho permite expansão para temas de sustentabilidade. Teste grátis com marca d\'água — sem cadastro.',
   },
   marketOverview: `O nicho de imprimíveis de comida e culinária ocupa uma posição excecionalmente poderosa para os vendedores de imprimíveis porque cada criança tem uma ligação direta e pessoal com a comida através das refeições diárias, dos momentos de lanche, das visitas ao supermercado e das experiências na cozinha com a família. Ao contrário dos temas de nicho que dependem de a criança desenvolver um interesse específico, a comida é universalmente relevante desde a infância, assegurando que os materiais educativos com temática alimentar atraiam a audiência mais ampla possível de pais, vendedores e famílias que educam em casa. Esta relevância universal traduz-se numa procura consistente de compradores durante os doze meses porque a educação nutricional, a consciência sobre alimentação saudável e as atividades de aprendizagem com temática de culinária nunca estão fora de época.
 

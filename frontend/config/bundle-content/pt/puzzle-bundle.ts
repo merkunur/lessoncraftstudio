@@ -2,27 +2,35 @@ import type { BundleContent } from '../types';
 
 const content: BundleContent = {
   seo: {
-    primaryKeyword: 'pacote atividades de puzzles',
+    primaryKeyword: 'pacote quebra-cabeças lógicos para KDP',
     secondaryKeywords: [
-      'pacote de geradores de atividades de puzzles para vendedores',
-      'kit de atividades de puzzles e lógica uso comercial',
-      'gerador de labirintos e sudoku para Etsy',
-      'geradores de atividades de puzzles para vendedores KDP',
+      'pacote geradores de puzzles imprimíveis vendedores',
+      'kit atividades de lógica e puzzles comercial',
+      'pacote quebra-cabeças educativos Etsy KDP',
+      'geradores de puzzles uso comercial imprimíveis',
     ],
     lsiKeywords: [
-      'pacote de atividades de peças faltantes e sudoku',
-      'coleção de atividades de labirintos e lógica imprimíveis',
-      'licença comercial atividades de puzzles',
-      'ferramenta de criação em massa de atividades de puzzles',
+      'sudoku gerador atividades imprimíveis',
+      'labirintos gerador comercial vendedores',
+      'puzzles de lógica imprimíveis comercial',
+      'apostilas KDP quebra-cabeças educativos',
+      'Etsy loja puzzles imprimíveis',
+      'Hotmart pacote quebra-cabeças educativos',
+      'Kiwify atividades de lógica vendedores',
+      'atividades de raciocínio imprimíveis',
+      'livros de puzzles Amazon KDP vendedores',
+      'peças faltantes gerador atividades',
+      'licença comercial puzzles educativos',
+      'atividades STEM imprimíveis comercial',
     ],
-    titleTag: 'Pacote Atividades de Puzzles | Criar e Vender',
-    metaDescription: 'Pacote com 4 geradores de puzzles e lógica: peças faltantes, encontre o diferente, sudoku com imagens e labirintos. Venda no Hotmart, Etsy e KDP facilmente.',
+    titleTag: 'Pacote quebra-cabeças para KDP | LCS',
+    metaDescription: 'Pacote com geradores de quebra-cabeças lógicos: sudoku, labirintos, peças faltantes e mais. Crie apostilas para Amazon KDP, Etsy, Hotmart e Kiwify.',
   },
 
   hero: {
-    title: 'Pacote Puzzles e Lógica',
+    title: 'Pacote Quebra-Cabeças Lógicos para Vendedores',
     tagline: 'Quatro geradores de puzzles puramente visuais — raciocínio espacial, dedução lógica e resolução de problemas em cada atividade',
-    description: 'O Pacote de Puzzles e Lógica é o único pacote onde cada aplicação produz atividades puramente visuais. Sem texto, sem dependência linguística, sem necessidade de tradução — cada atividade funciona em qualquer país, qualquer idioma, qualquer mercado. Este pacote combina quatro geradores especializados de puzzles que visam competências cognitivas de ordem superior: raciocínio espacial com puzzles de grelha de Peças Faltantes, discriminação visual com desafios de Encontre o Diferente, dedução lógica com Sudoku de Imagens 4×4, e resolução de problemas com labirintos de Percurso de Imagens. Os quatro geradores produzem gabaritos automáticos — o único pacote com cobertura de gabaritos de 100% em cada aplicação. Cada gerador produz arquivos PDF prontos para imprimir e JPEG de alta resolução com definições de dificuldade configuráveis e bibliotecas de imagens temáticas. A categoria de atividades de puzzles e lógica é um dos segmentos de maior crescimento no Etsy e Amazon KDP porque estas atividades atraem uma faixa etária mais ampla do que as atividades básicas de competências — desde o jardim de infância até ao terceiro ano e além. Peças Faltantes divide imagens em segmentos de grelha e remove peças para os usuários identificarem. Encontre o Diferente apresenta filas de imagens onde um elemento difere do resto. Sudoku de Imagens usa uma grelha 4×4 com imagens temáticas em vez de números, tornando o Sudoku clássico acessível a crianças pequenas que ainda não conseguem trabalhar com dígitos. Percurso de Imagens oferece três modos distintos de labirinto: navegação por caminho, labirinto clássico e escolhe-o-caminho-correto. Escolha entre mais de 100 conjuntos de imagens temáticas ou carregue os seus próprios arquivos PNG e JPEG para produtos personalizados e específicos de nicho. Quer venda cadernos de puzzles no Amazon KDP, publique pacotes de atividades no Etsy ou crie pacotes de lógica para Hotmart, este pacote dá-lhe quatro tipos de puzzle distintos que os compradores procuram independentemente. Cada gerador inclui um teste grátis com marca de água para que possa experimentar todas as funcionalidades antes de comprar uma licença.',
+    description: 'Crie apostilas e listagens de quebra-cabeças lógicos com um pacote completo de geradores. Inclui sudoku visual, labirintos, peças faltantes, intrusos e atividades de raciocínio — os tipos de puzzle mais procurados por compradores de imprimíveis educativos. Cada gerador produz PDFs e JPEGs com gabaritos automáticos, dificuldade configurável e centenas de imagens temáticas. Ideal para livros de puzzles no Amazon KDP ou listagens temáticas no Etsy. Venda também no Hotmart e Kiwify com licença comercial. Teste grátis com marca d\'água — sem cadastro.',
   },
 
   appsIncluded: [

@@ -2,27 +2,35 @@ import type { BundleContent } from '../types';
 
 const content: BundleContent = {
   seo: {
-    primaryKeyword: 'pacote atividades de associação',
+    primaryKeyword: 'pacote associação e classificação',
     secondaryKeywords: [
-      'pacote de geradores de atividades de associação para vendedores',
-      'kit de atividades de associação e classificação uso comercial',
-      'gerador de cartelas de bingo para Etsy',
-      'geradores de atividades de classificação para vendedores KDP',
+      'pacote atividades de associação para vendedores',
+      'geradores de classificação imprimíveis comercial',
+      'kit atividades de correspondência Etsy KDP',
+      'pacote atividades de lógica visual vendedores',
     ],
     lsiKeywords: [
-      'pacote de atividades de associação e bingo',
-      'coleção de atividades de sombras e quadrícula imprimíveis',
-      'licença comercial atividades de associação',
-      'ferramenta de criação em massa de atividades de classificação',
+      'atividades de associação imprimíveis comercial',
+      'classificação e ordenação gerador atividades',
+      'correspondência visual imprimíveis vendedores',
+      'atividades de sombras gerador comercial',
+      'tamanho comparação atividades crianças',
+      'apostilas KDP atividades de lógica',
+      'Etsy loja atividades de associação',
+      'Hotmart pacote atividades classificação',
+      'Kiwify atividades de correspondência',
+      'pré-escolar atividades associação vendedores',
+      'licença comercial atividades de lógica',
+      'atividades cognitivas imprimíveis comercial',
     ],
-    titleTag: 'Pacote Atividades de Associação | para Vender',
-    metaDescription: '5 geradores de atividades de associação e classificação num pacote: associação, quadrícula, sombras, bingo e classificação para vender no Hotmart, Etsy e KDP.',
+    titleTag: 'Pacote associação e classificação | LCS',
+    metaDescription: 'Pacote com geradores de atividades de associação, classificação e correspondência visual. Venda imprimíveis no Etsy, Amazon KDP, Hotmart e Kiwify.',
   },
 
   hero: {
-    title: 'Pacote Associação e Classificação',
+    title: 'Pacote Associação e Classificação para Vendedores',
     tagline: 'Cinco geradores de associação e classificação — desde emparelhamento visual até exportação em massa de cartelas de bingo',
-    description: 'O Pacote de Associação e Classificação reúne cinco geradores especializados que cobrem toda a gama de atividades de emparelhamento, associação e categorização. Este é um pacote híbrido — três das cinco apps reconhecem o idioma, produzindo atividades com etiquetas de vocabulário em qualquer um dos 11 idiomas suportados, enquanto duas são puramente visuais e funcionam em todo o mundo sem tradução. Associação oferece quatro modos distintos incluindo associação de letras, emparelhamento imagem-nome e conteúdo personalizado. Puzzle de Quadrícula cria puzzles de associação baseados em coordenadas sobre grelhas estruturadas. Discriminação Visual gera atividades de emparelhamento de silhuetas onde os usuários traçam linhas ligando objetos às suas sombras. Bingo produz exportações em massa de múltiplas cartelas únicas numa única transferência ZIP — a única app em todos os pacotes com esta capacidade, concebida especificamente para uso online e grupos. Classificação de Imagens constrói atividades de classificação em duas categorias onde os usuários classificam imagens temáticas em grupos esquerdo e direito. Quatro dos cinco geradores produzem gabaritos automáticos. Bingo é a exceção — como gerador de cartelas de jogo, não existe uma única resposta correta. Cada gerador produz arquivos PDF prontos para imprimir e JPEG de alta resolução. Escolha entre mais de 100 conjuntos de imagens temáticas ou carregue os seus próprios arquivos PNG e JPEG para produtos personalizados e específicos de nicho. Quer venda pacotes de atividades de associação no Etsy, publique cadernos de classificação no Amazon KDP ou crie sets de cartelas de bingo para Hotmart, este pacote dá-lhe a variedade e a velocidade de produção que os vendedores precisam. Cada gerador inclui um teste grátis com marca de água para que possa experimentar todas as funcionalidades antes de comprar uma licença.',
+    description: 'Monte uma coleção completa de atividades de associação e classificação com um único pacote. Inclui geradores de correspondência visual, sombras, comparação de tamanho, ordenação e classificação por categorias — atividades essenciais para o desenvolvimento cognitivo na primeira infância. Cada gerador produz PDFs e JPEGs com gabaritos automáticos, centenas de imagens temáticas e múltiplos níveis de dificuldade. Perfeito para apostilas de pré-escolar no Amazon KDP ou listagens individuais no Etsy, Hotmart e Kiwify. Licença comercial incluída. Teste grátis com marca d\'água — sem cadastro.',
   },
 
   appsIncluded: [

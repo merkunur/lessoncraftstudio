@@ -2,24 +2,34 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Ideias Imprimíveis Terceiro Ano — Guia de Nicho',
-    metaDescription: 'Descubra ideias de imprimíveis de terceiro ano para vender no Hotmart, Etsy e Amazon KDP. Estratégias de nicho para vendedores no ano académico decisivo do 3.',
-    primaryKeyword: 'ideias imprimíveis terceiro ano',
+    primaryKeyword: 'imprimíveis de 3º ano para vender',
     secondaryKeywords: [
-      'atividades terceiro ano para vender',
-      'negócio imprimíveis 3.º ano',
-      'atividades atividades terceiro ano para vendedores',
-      'vender imprimíveis terceiro ano na Hotmart',
+      'atividades 3º ano para vender Etsy',
+      'imprimíveis third grade Hotmart',
+      'negócio atividades 8-9 anos',
+      'livros atividades 3º ano KDP',
     ],
     lsiKeywords: [
-      'atividades educativas ensino primário superior',
-      'imprimíveis catálogo de produtos 3.º ano',
-      'páginas atividades aprendizagem idades 8-9',
+      'Hotmart',
+      'Kiwify',
+      'Etsy',
+      'Amazon KDP',
+      'renda extra',
+      'negócio de imprimíveis',
+      'licença comercial',
+      'nicho',
+      'ideias de produto',
+      'vendedor',
+      'Brasil',
+      'imprimíveis educativos',
     ],
+    titleTag: 'Imprimíveis 3º ano para vender | LCS',
+    metaDescription:
+      'Crie e venda imprimíveis de 3º ano no Etsy e Hotmart. Atividades de matemática e leitura para 8-9 anos. Nicho com menor concorrência.',
   },
   hero: {
-    title: 'Ideias de Negócio de Imprimíveis de Terceiro Ano para Vendedores',
-    description: 'Os imprimíveis de terceiro ano ocupam uma posição excecionalmente lucrativa no mercado educativo porque o terceiro ano é o ano académico decisivo em que a multiplicação e a divisão são formalmente introduzidas como as operações matemáticas dominantes, a compreensão leitora substitui a descodificação como o veículo principal de aprendizagem em todas as áreas de conteúdo, a escrita avança para composições de vários parágrafos que requerem estruturas de opinião e narrativa com evidências de apoio organizadas, e as avaliações padronizadas atingem o seu primeiro marco de alto risco com políticas de retenção em muitos estados a vincular a progressão diretamente aos resultados das avaliações do terceiro ano. Esta convergência de exigências académicas intensificadas e responsabilização elevada cria a maior pressão de compra nos anos primários por parte de vendedores que devem diferenciar a instrução ao longo da lacuna de desempenho mais ampla no ensino básico, porque as diferenças de aprendizagem acumuladas desde o jardim de infância até ao segundo ano se combinam num intervalo de competências de três a quatro anos dentro de uma única loja, exigindo materiais direcionados em múltiplos níveis de complexidade para cada bloco instrucional. A compra dos pais intensifica-se dramaticamente durante o terceiro ano porque os resultados das avaliações acarretam consequências reais, incluindo decisões de colocação em intervenção, atribuições de trajetória académica e determinações de progressão que tornam os riscos tangíveis e urgentes para as famílias que reconhecem que as competências dominadas ou perdidas durante o terceiro ano moldam diretamente se os usuários entram no quarto ano como aprendizes independentes e confiantes ou como leitores com dificuldades que necessitam de apoio intensivo. O âmbito curricular do terceiro ano abrange uma amplitude extraordinária incluindo factos de multiplicação até dez vezes dez, a divisão como inversa da multiplicação, soma e subtração de múltiplos dígitos com reagrupamento em múltiplos valores posicionais, compreensão do valor posicional até aos milhares, frações em retas numéricas com equivalência e comparação, medição de área e perímetro, análise de dados com gráficos de barras à escala e pictogramas, compreensão leitora que requer inferência e identificação da ideia principal de textos informativos e literários, análise de características textuais entre géneros, desenvolvimento de vocabulário com raízes gregas e latinas, convenções gramaticais incluindo estruturas de frases complexas, escrita cursiva em muitos distritos, e escrita de opinião e narrativa com estruturas de parágrafos organizadas. Para os vendedores de imprimíveis e empreendedores, o nicho do terceiro ano combina o maior gasto institucional por vendedor em materiais complementares com a compra mais motivada de pais impulsionada pela responsabilização visível das avaliações de alto risco, criando oportunidades de receita diversificadas no Hotmart, Etsy, Amazon KDP e plataformas de venda direta. Este guia abrange ideias de produtos específicos construídos em torno das nossas ferramentas geradoras de atividades, estratégias por plataforma para alcançar os compradores de terceiro ano, e abordagens de posicionamento de nicho para te ajudar a construir uma linha rentável de produtos imprimíveis de terceiro ano.',
+    title: 'Imprimíveis de 3º Ano — Nicho para Vendedores Online',
+    description: 'O 3º ano (8-9 anos) é um nicho com concorrência significativamente menor que educação infantil, o que facilita o posicionamento para novos vendedores. Crianças nessa idade trabalham multiplicação, divisão, interpretação de texto e escrita criativa. No Etsy, imprimíveis de third grade atraem pais que buscam reforço escolar específico. No Hotmart, pacotes de atividades para 3º ano atendem educadores e pais brasileiros preocupados com desempenho escolar. No Amazon KDP, livros de atividades para 8-9 anos ocupam um nicho especializado com boa demanda. Crie problemas de matemática, caça-palavras temáticos e atividades de lógica. Teste grátis com marca d\'água — sem cadastro.',
   },
   marketOverview: `O mercado de imprimíveis de terceiro ano representa a oportunidade de receita premium no nicho educativo porque o terceiro ano situa-se no ponto de inflexão académico crítico onde cada área principal de conteúdo experimenta o seu aumento de complexidade mais significativo nos anos primários, criando uma pressão de compra sem precedentes de vendedores que enfrentam o desafio de diferenciação mais exigente no ensino básico e pais que confrontam os primeiros resultados de avaliações de alto risco que acarretam consequências reais para o futuro académico do seu filho. Só o catálogo de produtos de matemática impulsiona uma enorme procura de imprimíveis porque o terceiro ano introduz a multiplicação e a divisão como domínios de operações inteiramente novos que requerem domínio de factos até dez vezes dez, compreensão conceptual de grupos iguais e matrizes, desenvolvimento de fluência através de prática progressiva de factos, e aplicação através de problemas de palavras de vários passos que representam a maior aquisição de competência matemática nova desde que a soma foi introduzida no primeiro ano.
 

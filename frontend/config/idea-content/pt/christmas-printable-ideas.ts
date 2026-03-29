@@ -2,25 +2,34 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Ideias de Imprimíveis de Natal para Vender — Guia',
-    metaDescription: 'Ideias de imprimíveis natalícios para vender no Hotmart, Etsy e Amazon KDP. Produtos festivos, estratégias sazonais e dicas por plataforma para vendedores.',
-
-    primaryKeyword: 'ideias de imprimíveis de natal para vender',
+    primaryKeyword: 'imprimíveis de Natal para vender no Etsy',
     secondaryKeywords: [
-      'atividades natalícias para vender',
-      'negócio imprimíveis natalícios',
-      'atividades atividades natal para vendedores',
-      'vender imprimíveis natalícios no Etsy',
+      'atividades de Natal para vender Etsy',
+      'imprimíveis natalinos Hotmart',
+      'negócio atividades Natal online',
+      'livros atividades Natal KDP',
     ],
     lsiKeywords: [
-      'pacotes atividades natalícias sazonais',
-      'atividades educativas temática invernal',
-      'imprimíveis festivos para a loja',
+      'Hotmart',
+      'Kiwify',
+      'Etsy',
+      'Amazon KDP',
+      'renda extra',
+      'negócio de imprimíveis',
+      'licença comercial',
+      'nicho',
+      'ideias de produto',
+      'vendedor',
+      'Brasil',
+      'imprimíveis educativos',
     ],
+    titleTag: 'Imprimíveis de Natal para Etsy | LCS',
+    metaDescription:
+      'Crie e venda imprimíveis de Natal no Etsy, Hotmart e KDP. Atividades natalinas com alta demanda sazonal. Estratégias de lançamento e precificação.',
   },
   hero: {
-    title: 'Ideias de Negócio de Imprimíveis de Natal para Vendedores',
-    description: 'O Natal representa a oportunidade sazonal mais poderosa em todo o mercado de imprimíveis, gerando um pico de procura de outubro a dezembro que ultrapassa amplamente qualquer outra festividade. O tema abrange uma variedade extraordinária de subtemas que incluem o Pai Natal, renas, bonecos de neve, bolachas de gengibre, bengalas de caramelo, enfeites natalícios, duendes, meias de Natal, coroas de azevinho e cenas da Natividade, oferecendo aos vendedores uma variedade de produtos praticamente ilimitada dentro de um nicho coeso. Os vendedores planificam festas de Natal online e atividades curriculares de dezembro, os pais procuram entretenimento sem tela durante as férias de inverno, e quem oferece prendas descobre que os livros de atividades e pacotes de atividades são lembranças natalícias ideais. Para os vendedores de imprimíveis no Hotmart, Etsy e Amazon KDP, o nicho de Natal recompensa a preparação antecipada com rendimentos acumulativos ano após ano à medida que os anúncios ganham autoridade de pesquisa e avaliações. Este guia fornece ideias de produtos específicos, estratégias por plataforma e abordagens de calendarização para te ajudar a construir uma linha rentável de produtos imprimíveis natalícios utilizando as nossas ferramentas geradoras de atividades.',
+    title: 'Imprimíveis de Natal — Como Vender Atividades Natalinas',
+    description: 'O Natal é a época mais lucrativa para vendedores de imprimíveis educativos. A demanda por atividades natalinas dispara entre outubro e dezembro, gerando o maior volume de vendas do ano. Papai Noel, renas, árvores de Natal e presentes são temas que vendem massivamente. No Etsy, listagens de Natal dominam a busca na temporada. No Hotmart, pacotes natalinos completos alcançam preços premium. No Amazon KDP, livros de atividades de Natal são bestsellers sazonais. A chave é publicar seus produtos até setembro para capturar o tráfego de busca antecipado. Crie caça-palavras, labirintos, contagem e páginas para colorir natalinas. Teste grátis com marca d\'água — sem cadastro.',
   },
   marketOverview: `O nicho de imprimíveis natalícios é o peso pesado indiscutível das vendas sazonais de produtos educativos, impulsionado pela procura convergente de vendedores, pais, famílias que praticam ensino doméstico e compradores de prendas durante o último trimestre de cada ano. Os vendedores começam a planificar as atividades de dezembro online a partir de setembro, procurando atividades com temática natalícia que mantenham os usuários envolvidos durante as semanas cheias de entusiasmo antes das férias de inverno. Os pais procuram atividades educativas com tema de Natal para ocupar as crianças durante as viagens de férias, os encontros familiares e o longo período de férias de inverno quando o entretenimento estruturado se torna essencial. Os compradores de prendas descobrem que os livros de atividades imprimíveis e os pacotes de atividades são lembranças natalícias pensadas e acessíveis.
 

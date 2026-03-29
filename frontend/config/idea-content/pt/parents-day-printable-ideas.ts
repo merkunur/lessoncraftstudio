@@ -2,24 +2,34 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Ideias Imprimíveis Dia dos Pais para Vender — Guia',
-    metaDescription: 'Descobre ideias de imprimíveis do Dia da Mãe e do Dia do Pai para vender no Hotmart, Etsy e KDP. Conceitos de produtos de agradecimento familiar e dicas úteis.',
-    primaryKeyword: 'ideias imprimíveis dia dos pais',
+    primaryKeyword: 'imprimíveis Dia das Mães Pais para vender',
     secondaryKeywords: [
-      'atividades Dia da Mãe para vender',
-      'negócio imprimíveis Dia do Pai',
-      'atividades atividades agradecimento pais para vendedores',
-      'vender imprimíveis Dia dos Pais no Etsy',
+      'atividades Dia das Mães para vender',
+      'imprimíveis Dia dos Pais Etsy',
+      'negócio atividades família Hotmart',
+      'presentes imprimíveis pais mães',
     ],
     lsiKeywords: [
-      'atividades educativas celebração familiar',
-      'atividades agradecimento aos pais',
-      'imprimíveis sazonais temática familiar',
+      'Hotmart',
+      'Kiwify',
+      'Etsy',
+      'Amazon KDP',
+      'renda extra',
+      'negócio de imprimíveis',
+      'licença comercial',
+      'nicho',
+      'ideias de produto',
+      'vendedor',
+      'Brasil',
+      'imprimíveis educativos',
     ],
+    titleTag: 'Imprimíveis Dia das Mães/Pais | LCS',
+    metaDescription:
+      'Crie e venda imprimíveis para Dia das Mães e Dia dos Pais no Etsy e Hotmart. Atividades educativas e presentes imprimíveis. Nicho sazonal forte.',
   },
   hero: {
-    title: 'Ideias de Negócio de Imprimíveis do Dia da Mãe e do Dia do Pai para Vendedores',
-    description: 'O Dia da Mãe e o Dia do Pai juntos criam uma das janelas de venda de dupla festividade mais emocionalmente impulsionadas no calendário de imprimíveis, com a procura a crescer durante abril para o Dia da Mãe em maio e a continuar em junho para o Dia do Pai. O nicho oferece uma calorosa variedade de subtemas que incluem corações, flores, gravatas, postais de felicitações, certificados de oferta, cupões de agradecimento, retratos familiares, troféus, coroas e fitas de prémio de \"melhor mãe\" ou \"melhor pai\", proporcionando aos vendedores um vocabulário visual emotivo que ressoa com vendedores, pais e crianças de todas as idades. Os vendedores planificam projetos de elaboração de prendas online com semanas de antecedência, procurando atividades imprimíveis que permitam aos usuários criar prendas personalizadas de agradecimento durante o tempo de aula. As famílias que praticam ensino doméstico e os programas de infantário ampliam a base de compradores, procurando trabalhos manuais de agradecimento aos pais que combinem sentimento sincero com resultados de aprendizagem genuínos. Para os vendedores de imprimíveis no Hotmart, Etsy e Amazon KDP, este nicho oferece dois picos de receitas distintos a partir de uma única linha de produtos, com uma estética centrada na celebração que impulsiona compras emocionais e fortes taxas de conversão. Este guia cobre ideias de produtos específicos, estratégias por plataforma e abordagens de calendarização para te ajudar a construir uma linha rentável de produtos imprimíveis de agradecimento aos pais utilizando as nossas ferramentas geradoras de atividades.',
+    title: 'Dia das Mães e Pais — Imprimíveis para Vender Online',
+    description: 'O Dia das Mães (maio) e o Dia dos Pais (agosto no Brasil, junho nos EUA) são datas com forte potencial para vendedores de imprimíveis. Além de atividades educativas temáticas, esse nicho inclui cartões imprimíveis, cupons de presente e atividades de escrita criativa sobre a família. No Etsy, imprimíveis de Mother\'s Day e Father\'s Day têm demanda explosiva no mercado americano. No Hotmart, atividades para Dia das Mães e Dia dos Pais atendem escolas e educadores brasileiros. No Amazon KDP, livros de atividades temáticos vendem como presentes complementares. Explore ambos os calendários para maximizar vendas. Teste grátis com marca d\'água — sem cadastro.',
   },
   marketOverview: `O nicho de imprimíveis de agradecimento aos pais ocupa uma posição excecionalmente poderosa no calendário de vendas de primavera porque oferece dois picos de procura concentrados a partir de uma única linha de produtos. O Dia da Mãe em maio e o Dia do Pai em junho criam janelas de venda consecutivas que recompensam os vendedores que preparam um catálogo coeso de agradecimento familiar. Os vendedores começam a planificar projetos de elaboração de prendas para maio online no início de abril, procurando atividades imprimíveis que permitam aos usuários criar prendas personalizadas de agradecimento, postais e cadernos de recordações durante o tempo de aula. Os pais e as famílias que praticam ensino doméstico procuram atividades de trabalhos manuais adequadas à idade que ajudem as crianças a expressar gratidão de forma significativa, e os prestadores de serviços de infantário precisam de projetos estruturados de agradecimento para os seus aprendizes mais pequenos.
 

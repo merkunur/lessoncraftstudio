@@ -2,29 +2,35 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'como iniciar um negócio de imprimíveis',
+    primaryKeyword: 'como começar um negócio de imprimíveis 2026',
     secondaryKeywords: [
-      'negócio de imprimíveis para principiantes',
-      'vender atividades imprimíveis online',
-      'criar uma loja de atividades imprimíveis',
-      'guia para iniciar um negócio de imprimíveis',
+      'guia completo negócio imprimíveis do zero',
+      'iniciar loja de atividades imprimíveis passo a passo',
+      'negócio de imprimíveis para iniciantes 2026',
+      'vender atividades educativas online guia',
     ],
     lsiKeywords: [
-      'modelo de negócio de downloads digitais',
-      'gerador de atividades para vendedores',
-      'loja Etsy de atividades imprimíveis',
+      'modelo de negócio downloads digitais educativos',
+      'gerador de atividades para empreendedores',
+      'loja Etsy de imprimíveis lucrativa',
       'livros de atividades Amazon KDP',
-      'Hotmart atividades educativas',
+      'Hotmart atividades educativas vender',
+      'Kiwify produtos digitais educativos',
       'licença comercial ferramentas imprimíveis',
+      'nicho rentável atividades imprimíveis',
+      'catálogo de produtos digitais educação',
+      'renda passiva imprimíveis pedagógicos',
+      'precificação atividades digitais mercado',
+      'SEO Etsy para vendedores de imprimíveis',
     ],
-    titleTag: 'Como Iniciar um Negócio de Imprimíveis — Guia Completo',
-    metaDescription: 'Como iniciar um negócio de imprimíveis desde o início. Guia passo a passo para vendedores de Hotmart, Etsy e Amazon KDP com geradores de atividades para criar e.',
+    titleTag: 'Começar negócio de imprimíveis (2026) | LCS',
+    metaDescription: 'Como começar um negócio de imprimíveis em 2026. Guia passo a passo para vender atividades no Hotmart, Kiwify, Etsy e Amazon KDP com geradores profissionais.',
   },
 
   hero: {
-    title: 'O Guia Completo para Iniciar um Negócio de Imprimíveis',
+    title: 'Como Começar um Negócio de Imprimíveis em 2026',
     tagline: 'Do zero à sua primeira venda — tudo o que precisa de saber para criar um negócio de atividades imprimíveis',
-    description: 'Este guia acompanha-o em cada passo do lançamento de um negócio de atividades imprimíveis. Vai aprender a escolher um nicho rentável, criar produtos profissionais sem competências de design, publicar nas plataformas certas, definir preços para obter lucro e construir um catálogo que gere vendas constantes. Quer planeie vender no Hotmart, Etsy, Amazon KDP ou no seu próprio site, este é o seu ponto de partida.',
+    description: 'Este guia acompanha você em cada etapa do lançamento de um negócio de atividades imprimíveis em 2026. Você vai aprender a escolher um nicho lucrativo, criar produtos profissionais sem habilidades de design, publicar nas plataformas certas, definir preços para ter lucro e construir um catálogo que gere vendas constantes. Seja para vender no Hotmart, Kiwify, Etsy, Amazon KDP ou no seu próprio site, aqui é o seu ponto de partida. Cada gerador de atividades mencionado oferece um teste grátis com marca d\'água para avaliar a qualidade antes de comprar uma licença comercial. Teste grátis com marca d\'água — sem cadastro.',
   },
 
   introduction: 'O mercado de atividades imprimíveis tem crescido de forma constante porque a procura nunca para. Os pais educam em casa. Os vendedores complementam os programas escolares. Os explicadores precisam de materiais novos todas as semanas. Os temas sazonais rodam, mas a necessidade fundamental — atividades de aprendizagem estruturadas, envolventes e prontas para imprimir — mantém-se constante ano após ano.\n\nIniciar um negócio de imprimíveis não exige um diploma em educação, experiência em design gráfico nem um grande investimento inicial. O que exige é uma compreensão clara do que os compradores realmente querem, as ferramentas certas para criar produtos profissionais de forma eficiente e a disposição de tratar isto como um negócio real em vez de um projeto secundário.\n\nEste guia cobre o percurso completo. No final, terá um plano de ação concreto: o seu nicho selecionado, o seu primeiro produto criado, a sua loja configurada e a sua estratégia de preços definida. Sem conselhos vagos, sem promessas exageradas — apenas os passos práticos que o levam da ideia aos rendimentos.\n\nUma nota importante antes de começar: cada gerador de atividades mencionado neste guia oferece um teste grátis com marca d\'água. Pode testar todas as funcionalidades, criar atividades de amostra e avaliar a qualidade antes de comprar uma licença comercial. Não há qualquer risco para começar.',

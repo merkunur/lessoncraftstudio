@@ -2,25 +2,34 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Ideias de Imprimíveis Animais da Quinta — Guia de Nicho',
-    metaDescription: 'Ideias rentáveis de imprimíveis de animais da quinta para vender no Hotmart, Etsy e Amazon KDP. Conceitos de produtos, estratégias de preços e dicas por.',
-
-    primaryKeyword: 'ideias de imprimíveis animais da quinta',
+    primaryKeyword: 'imprimíveis de animais da fazenda para vender',
     secondaryKeywords: [
-      'atividades animais da quinta para vender',
-      'negócio imprimíveis tema quinta',
-      'atividades atividades quinta para vendedores',
-      'vender imprimíveis quinta no Etsy',
+      'atividades animais da fazenda para vender Etsy',
+      'negócio imprimíveis tema fazenda Hotmart',
+      'atividades educativas fazenda para vendedores',
+      'vender imprimíveis fazenda Amazon KDP',
     ],
     lsiKeywords: [
-      'atividades educativas tema animais do campo',
-      'atividades agricultura para crianças',
-      'imprimíveis escolares tema gado',
+      'Hotmart',
+      'Kiwify',
+      'Etsy',
+      'Amazon KDP',
+      'renda extra',
+      'negócio de imprimíveis',
+      'licença comercial',
+      'nicho',
+      'ideias de produto',
+      'vendedor',
+      'Brasil',
+      'imprimíveis educativos',
     ],
+    titleTag: 'Imprimíveis fazenda para Etsy | LCS',
+    metaDescription:
+      'Descubra como criar e vender imprimíveis de animais da fazenda no Etsy, Hotmart e KDP. Ideias de produtos, nichos rentáveis e estratégias para vendedores.',
   },
   hero: {
-    title: 'Ideias de Negócio de Imprimíveis de Animais da Quinta para Vendedores',
-    description: 'Os animais da quinta continuam a ser um dos temas mais fiáveis no mercado de imprimíveis educativos. Desde os mais pequenos que aprendem a contar animais do curral até às crianças do pré-escolar que traçam a palavra \"galinha\", este nicho atrai pais, vendedores e famílias que praticam ensino doméstico durante todo o ano. Para os vendedores de imprimíveis, o tema da quinta oferece uma combinação excecional de procura perene, atratividade para uma ampla faixa etária e picos sazonais marcados na primavera e durante a época de colheita no outono. Quer vendas no Etsy, Amazon KDP ou Hotmart, os imprimíveis de animais da quinta representam um nicho comprovado com espaço para diferenciação criativa. Este guia apresenta-te ideias de produtos específicos, estratégias por plataforma e abordagens de preços para te ajudar a construir uma linha rentável de produtos imprimíveis com temática de quinta utilizando as nossas ferramentas geradoras de atividades.',
+    title: 'Imprimíveis de Animais da Fazenda — Ideias para Vender Online',
+    description: 'O nicho de animais da fazenda é um dos mais estáveis no mercado de imprimíveis educativos. Pais e educadores buscam atividades com vacas, porcos e galinhas o ano todo, com picos na primavera e no outono. Para vendedores no Etsy, Hotmart e Amazon KDP, esse tema oferece demanda constante e espaço para diferenciação criativa. Crie atividades de contagem, caça-palavras, labirintos e páginas para colorir com tema fazenda. Pacotes temáticos completos alcançam preços mais altos e aumentam o valor médio do pedido. Use nossas ferramentas para gerar produtos profissionais rapidamente. Teste grátis com marca d\'água — sem cadastro.',
   },
   marketOverview: `O nicho de imprimíveis de animais da quinta situa-se na interseção de duas poderosas motivações de compra: o valor educativo e o apelo temático. Os pais que procuram atividades com temática de quinta estão normalmente à procura de formas envolventes de ensinar competências fundamentais como a contagem, o reconhecimento de letras, a ampliação de vocabulário e o desenvolvimento da motricidade fina. Os vendedores procuram recursos prontos para a loja que se alinhem com os programas habituais de educação infantil sobre a quinta e a produção alimentar.
 

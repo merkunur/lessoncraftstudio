@@ -2,25 +2,34 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Ideias de Imprimíveis de Halloween para Vender — Guia',
-    metaDescription: 'Descubra ideias de imprimíveis de Halloween para vender no Hotmart, Etsy e Amazon KDP. Conceitos de produtos assustadores, estratégias sazonais e dicas práticas.',
-
-    primaryKeyword: 'ideias de imprimíveis de halloween para vender',
+    primaryKeyword: 'imprimíveis de Halloween ideias negócio',
     secondaryKeywords: [
-      'atividades de Halloween para vender',
-      'negócio imprimíveis Halloween',
-      'atividades atividades Halloween para vendedores',
-      'vender imprimíveis de Halloween no Etsy',
+      'atividades Halloween para vender',
+      'imprimíveis Halloween Etsy negócio',
+      'pacotes Halloween educativos Hotmart',
+      'livros atividades Halloween KDP',
     ],
     lsiKeywords: [
-      'atividades educativas temática assustadora',
-      'atividades loja outubro Halloween',
-      'imprimíveis temática abóboras e disfarces',
+      'Hotmart',
+      'Kiwify',
+      'Etsy',
+      'Amazon KDP',
+      'renda extra',
+      'negócio de imprimíveis',
+      'licença comercial',
+      'nicho',
+      'ideias de produto',
+      'vendedor',
+      'Brasil',
+      'imprimíveis educativos',
     ],
+    titleTag: 'Imprimíveis Halloween — Negócio | LCS',
+    metaDescription:
+      'Ideias de negócio com imprimíveis de Halloween. Venda atividades educativas no Etsy, Hotmart e KDP. Nicho sazonal com pico forte em outubro.',
   },
   hero: {
-    title: 'Ideias de Negócio de Imprimíveis de Halloween para Vendedores',
-    description: 'O Halloween gera um dos picos de procura sazonal mais potentes no mercado de imprimíveis, com o interesse de pesquisa a subir acentuadamente desde finais de agosto até outubro à medida que vendedores, pais e organizadores de festas procuram conteúdo educativo com temática assustadora. O nicho oferece uma extraordinária diversidade de subtemas que incluem abóboras, fantasmas, bruxas, morcegos, aranhas, esqueletos, vampiros, monstros, casas assombradas e abóboras esculpidas, proporcionando aos vendedores uma rica paleta visual para criar produtos distintos dentro de uma única festividade. Os vendedores planificam as atividades da loja de outubro e as festas de Halloween com semanas de antecedência, enquanto os pais procuram diversão assustadora adequada à idade que mantenha a aprendizagem em primeiro plano. Para os vendedores de imprimíveis no Hotmart, Etsy e Amazon KDP, o nicho de Halloween recompensa a preparação antecipada com uma janela de vendas concentrada mas altamente lucrativa que regressa de forma previsível todos os anos. Este guia abrange ideias de produtos específicos, estratégias por plataforma e abordagens de temporização para te ajudar a construir uma linha próspera de produtos imprimíveis de Halloween utilizando as nossas ferramentas geradoras de atividades.',
+    title: 'Halloween — Ideias de Negócio com Imprimíveis Educativos',
+    description: 'O Halloween é uma data sazonal poderosa para vendedores de imprimíveis, mesmo no Brasil onde a celebração cresce a cada ano. Abóboras, fantasmas, morcegos e bruxas geram forte engajamento infantil. No Etsy, a demanda por atividades de Halloween explode em setembro e outubro, especialmente no mercado americano — perfeito para vendedores brasileiros que vendem em inglês. No Hotmart, pacotes temáticos de Halloween atendem educadores que buscam material diferenciado. No Amazon KDP, livros de atividades de Halloween alcançam alta classificação na temporada. Publique seus produtos até agosto para capturar o tráfego antecipado. Teste grátis com marca d\'água — sem cadastro.',
   },
   marketOverview: `O nicho de imprimíveis de Halloween posiciona-se como a segunda oportunidade sazonal mais valiosa para os vendedores de produtos educativos, ficando apenas atrás do Natal em volume total de procura mas oferecendo uma janela de vendas mais curta e concentrada que torna a temporização especialmente importante. Os vendedores começam a planificar as atividades da loja de outubro e as festas de Halloween em finais de agosto e início de setembro, procurando atividades temáticas que equilibrem a diversão assustadora com um valor educativo genuíno. Os pais procuram atividades de Halloween adequadas à idade que transformem o tempo de tela em experiências de aprendizagem criativa durante as semanas de entusiasmo pelos disfarces e a antecipação do pedir doces. Os organizadores de festas e eventos compram atividades temáticas para festas online, eventos comunitários, celebrações de pedir doces e festas familiares de Halloween.
 

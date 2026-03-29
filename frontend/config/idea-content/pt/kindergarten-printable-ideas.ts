@@ -2,25 +2,34 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Ideias Imprimíveis Jardim de Infância — Guia de Nicho',
-    metaDescription: 'Ideias de imprimíveis de jardim de infância para vender no Hotmart, Etsy e Amazon KDP. Produtos nível pré-primária e estratégias de nicho para vendedores.',
-
-    primaryKeyword: 'ideias imprimíveis jardim de infância',
+    primaryKeyword: 'imprimíveis de pré-escola ideias negócio',
     secondaryKeywords: [
-      'atividades jardim de infância para vender',
-      'negócio imprimíveis nível pré-primária',
-      'atividades atividades jardim de infância para vendedores',
-      'vender imprimíveis jardim de infância na Hotmart',
+      'atividades pré-escola para vender',
+      'imprimíveis kindergarten Etsy negócio',
+      'pacotes alfabetização pré-escola Hotmart',
+      'livros atividades kindergarten KDP',
     ],
     lsiKeywords: [
-      'atividades educativas pré-escolar e jardim de infância',
-      'imprimíveis aprendizagem primeira infância',
-      'páginas atividades loja idades 5-6',
+      'Hotmart',
+      'Kiwify',
+      'Etsy',
+      'Amazon KDP',
+      'renda extra',
+      'negócio de imprimíveis',
+      'licença comercial',
+      'nicho',
+      'ideias de produto',
+      'vendedor',
+      'Brasil',
+      'imprimíveis educativos',
     ],
+    titleTag: 'Imprimíveis pré-escola — Negócio | LCS',
+    metaDescription:
+      'Ideias de negócio com imprimíveis para pré-escola. Atividades para 5-6 anos no Etsy, Hotmart e KDP. Nicho com demanda massiva e constante.',
   },
   hero: {
-    title: 'Ideias de Negócio de Imprimíveis de Jardim de Infância para Vendedores',
-    description: 'Os imprimíveis de jardim de infância ocupam um dos nichos mais poderosos e consistentemente rentáveis no mercado de imprimíveis educativos porque o jardim de infância representa o ano de transição universal em que todas as crianças do país entram na escolarização formal, criando uma enorme base dual de compradores composta por vendedores de loja que necessitam de materiais complementares para padrões académicos cada vez mais rigorosos e pais que desejam apoiar a aprendizagem do seu filho em casa durante este ano fundacional crítico. As competências académicas que definem o catálogo de produtos do jardim de infância abrangem uma notável amplitude de aptidões que incluem reconhecimento de palavras de uso frequente, sentido numérico de um a cem, soma e subtração até dez, descodificação de palavras CVC, fonética inicial e combinação de sons, formação de letras e prática de caligrafia, conceitos de medição, identificação de figuras e seus atributos, classificação e categorização por múltiplos critérios, comparação de quantidades usando maior que e menor que, e estratégias precoces de compreensão leitora que constroem a ponte entre a descodificação de palavras individuais e a compreensão de frases simples. Este ano de transição entre o pré-escolar baseado no jogo e os conteúdos académicos estruturados do primeiro ano cria uma procura única porque os vendedores do jardim de infância enfrentam o desafio de atender crianças em níveis de preparação muito diferentes enquanto avançam todos os usuários em direção a metas de fim de ano rigorosas, gerando uma necessidade constante de materiais de prática diferenciada em cada área de competências ao longo de todo o ano letivo. Para os vendedores de imprimíveis no Hotmart, Etsy e Amazon KDP, o nicho do jardim de infância combina uma procura massiva durante todo o ano com a base de compradores institucionais mais ampla possível porque o jardim de infância é obrigatório ou quase universal em todos os estados, o que significa que praticamente todas as escolas primárias empregam vendedores de jardim de infância que compram materiais complementares para a loja, todas as famílias com uma criança de cinco ou seis anos procuram recursos de prática em casa, as famílias que praticam ensino doméstico e constroem programas completos de jardim de infância compram extensivamente em todas as áreas de competência, e os centros de apoio escolar que atendem leitores principiantes com dificuldades necessitam de atividades de intervenção estruturadas. Este guia abrange ideias de produtos específicos, estratégias por plataforma e abordagens de posicionamento de nicho para te ajudar a construir uma linha rentável de produtos imprimíveis de jardim de infância utilizando as nossas ferramentas geradoras de atividades.',
+    title: 'Pré-Escola — Ideias de Negócio com Imprimíveis Educativos',
+    description: 'A pré-escola (5-6 anos) representa um nicho com demanda massiva no mercado de imprimíveis. Crianças nessa idade estão aprendendo a ler, escrever e contar, gerando necessidade constante de material educativo. No Etsy, atividades para kindergarten são as mais buscadas na categoria educativa. No Hotmart, pacotes de alfabetização e numeracia para pré-escola vendem consistentemente bem. No Amazon KDP, livros de atividades para essa faixa etária têm alta rotação. Vendedores que criam séries progressivas de dificuldade geram compras recorrentes. Crie atividades de reconhecimento de letras, contagem até 20, caça-palavras simples e labirintos. Teste grátis com marca d\'água — sem cadastro.',
   },
   marketOverview: `O nicho de imprimíveis de jardim de infância ocupa uma posição singularmente dominante no mercado educativo porque serve o segundo maior segmento de compradores por grupo etário com o conjunto de competências mais academicamente intensivo e orientado para padrões de qualquer nível de primeira infância. Ao contrário do pré-escolar onde os objetivos de aprendizagem são de desenvolvimento e flexíveis, o catálogo de produtos do jardim de infância é definido por padrões estatais e metas de referência de Common Core que criam objetivos de competências específicos e mensuráveis que cada vendedor deve abordar e cada pai pode compreender, tornando os imprimíveis de jardim de infância inerentemente mais direcionados e mais fáceis de posicionar para vendas impulsionadas pela pesquisa em todos os mercados.
 

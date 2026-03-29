@@ -2,24 +2,34 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Ideias de Imprimíveis de Música — Guia de Nicho',
-    metaDescription: 'Descobre ideias de imprimíveis de música para vender no Hotmart, Etsy e Amazon KDP. Conceitos de produtos com temática musical, estratégias por plataforma.',
-    primaryKeyword: 'ideias de imprimíveis de música',
+    primaryKeyword: 'imprimíveis de música para vender',
     secondaryKeywords: [
-      'atividades temáticas musicais para vender',
-      'negócio imprimíveis temática musical',
-      'atividades atividades música para vendedores',
-      'vender imprimíveis de música no Etsy',
+      'atividades música para vender Etsy',
+      'imprimíveis instrumentos musicais Hotmart',
+      'negócio atividades musicalização',
+      'livros atividades música KDP',
     ],
     lsiKeywords: [
-      'atividades educativas instrumentos musicais',
-      'atividades ritmo e notas musicais para crianças',
-      'imprimíveis teoria musical para a loja',
+      'Hotmart',
+      'Kiwify',
+      'Etsy',
+      'Amazon KDP',
+      'renda extra',
+      'negócio de imprimíveis',
+      'licença comercial',
+      'nicho',
+      'ideias de produto',
+      'vendedor',
+      'Brasil',
+      'imprimíveis educativos',
     ],
+    titleTag: 'Imprimíveis música para vender | LCS',
+    metaDescription:
+      'Crie e venda imprimíveis de música no Etsy, Hotmart e KDP. Instrumentos, notas musicais e ritmo em atividades educativas. Nicho diferenciado.',
   },
   hero: {
-    title: 'Ideias de Negócio de Imprimíveis de Música para Vendedores',
-    description: 'A música é um dos temas mais universalmente cativantes para as crianças de todas as idades, o que a torna num excecional nicho perene para empreendedores de imprimíveis que procuram receitas consistentes durante todo o ano, impulsionadas por fortes ligações multicurriculares e um envolvimento criativo ilimitado. O tema de música oferece uma extraordinária profundidade de subtemas que inclui piano, guitarra, bateria, violino, trompete, flauta, ukelele, xilofone, pandeireta, maracas, notas musicais, padrões de ritmo, conceitos de melodia, instrumentos de orquestra, equipamento de banda, atividades de canto e imagens de dança, proporcionando aos vendedores um rico vocabulário visual que se conecta com as experiências diárias de praticamente todas as crianças, quer frequentem aulas formais de música, cantem as suas canções favoritas ou batam em tachos e panelas na cozinha. A versatilidade transversal ao catálogo de produtos torna os imprimíveis de música especialmente valiosos porque os conceitos musicais conectam-se naturalmente com a matemática através da contagem de ritmos, padrões de compasso e compassos de tempo, a literacia através do vocabulário musical, a ortografia de instrumentos e a compreensão de letras de canções, o desenvolvimento da motricidade fina através da prática instrumental e da notação, e a aprendizagem socioemocional através da expressão criativa e da cooperação em conjunto. Para os vendedores de imprimíveis no Hotmart, Etsy e Amazon KDP, o nicho de música combina uma forte procura durante todo o ano com uma universalidade que ressoa com vendedores de música que planeiam atividades curriculares, vendedores online que integram aprendizagem com temática artística, famílias que educam em casa a explorar conceitos musicais e pais que procuram materiais educativos que canalizem o amor natural dos seus filhos pelo som e pelo ritmo em experiências produtivas de aprendizagem. Este guia abrange ideias de produtos específicos, estratégias por plataforma e abordagens de posicionamento de nicho para te ajudar a construir uma linha rentável de produtos imprimíveis de música utilizando as nossas ferramentas geradoras de atividades.',
+    title: 'Imprimíveis de Música — Nicho Diferenciado para Vendedores',
+    description: 'Música é um nicho diferenciado no mercado de imprimíveis educativos com concorrência significativamente menor que temas populares como animais ou dinossauros. Instrumentos musicais, notas, ritmo e compositores oferecem material rico para atividades variadas. No Etsy, imprimíveis musicais atraem pais de crianças em aulas de música e educadores musicais. No Hotmart, pacotes de musicalização infantil têm demanda crescente no Brasil. No Amazon KDP, livros de atividades musicais ocupam um nicho específico com pouca concorrência. A combinação de educação artística com atividades imprimíveis cria produtos únicos que se destacam. Teste grátis com marca d\'água — sem cadastro.',
   },
   marketOverview: `O nicho de imprimíveis de música ocupa uma posição excepcionalmente poderosa para os vendedores de imprimíveis porque praticamente todas as crianças têm uma ligação direta e pessoal com a música através de cantar, bater palmas, dançar, tocar instrumentos online, assistir a espetáculos musicais ou ouvir canções favoritas durante as viagens de carro e as rotinas antes de dormir. Ao contrário dos temas sazonais que concentram a procura em janelas estreitas do calendário, o nicho de música beneficia de uma relevância genuína durante todo o ano: a educação musical desenvolve-se continuamente ao longo do ano letivo, as crianças interagem com a música diariamente independentemente da estação, e as celebrações culturais que incluem música ocorrem em todos os meses em comunidades diversas de todo o mundo. Este padrão de procura consistente torna os imprimíveis de música uma fonte de receitas fiável sem os ciclos de abundância e escassez que desafiam os vendedores em nichos mais sazonais.
 

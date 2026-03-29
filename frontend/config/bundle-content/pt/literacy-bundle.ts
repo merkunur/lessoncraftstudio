@@ -2,27 +2,35 @@ import type { BundleContent } from '../types';
 
 const content: BundleContent = {
   seo: {
-    primaryKeyword: 'pacote atividades leitura e linguagem',
+    primaryKeyword: 'pacote jogos de palavras Etsy KDP',
     secondaryKeywords: [
-      'pacote de geradores de atividades de linguagem para vendedores',
-      'kit de atividades de leitura e escrita uso comercial',
-      'pacote de atividades de caça-palavras para Etsy',
-      'geradores de atividades multilingues para vendedores KDP',
+      'pacote atividades de literacia para vendedores',
+      'geradores de jogos de palavras uso comercial',
+      'kit atividades de palavras imprimíveis Etsy',
+      'pacote palavras cruzadas caça-palavras vendedores',
     ],
     lsiKeywords: [
-      'pacote de atividades de alfabeto e escrita',
-      'coleção de criptogramas e palavras embaralhadas para imprimir',
-      'licença comercial atividades de leitura e escrita',
-      'ferramenta de criação em massa de atividades de linguagem',
+      'caça-palavras gerador comercial imprimíveis',
+      'palavras cruzadas criador atividades vendedores',
+      'criptograma gerador puzzles de palavras',
+      'atividades de literacia pré-escolar vendedores',
+      'apostilas KDP jogos de palavras infantis',
+      'Etsy loja jogos de palavras imprimíveis',
+      'Hotmart pacote atividades de literacia',
+      'Kiwify produtos jogos de palavras',
+      'vocabulário visual atividades imprimíveis',
+      'alfabetização atividades gerador comercial',
+      'pacote completo literacia uso comercial',
+      'licença comercial jogos de palavras',
     ],
-    titleTag: 'Pacote Atividades Leitura e Linguagem | para Vender',
-    metaDescription: '7 geradores de atividades de leitura e escrita num pacote completo: alfabeto, caça-palavras, criptogramas, preposições e caligrafia. Crie atividades em 11 idiomas.',
+    titleTag: 'Pacote jogos de palavras — Vender | LCS',
+    metaDescription: 'Pacote com geradores de jogos de palavras: caça-palavras, palavras cruzadas, criptogramas e mais. Venda no Etsy, Amazon KDP, Hotmart e Kiwify.',
   },
 
   hero: {
-    title: 'Pacote Leitura e Linguagem',
+    title: 'Pacote Jogos de Palavras para Vendedores',
     tagline: 'Sete geradores de atividades com suporte de idioma — multiplique a sua linha de produtos em 11 idiomas',
-    description: 'Cada gerador deste pacote reconhece o idioma selecionado. Este único fato transforma o seu catálogo de produtos: um design de atividade torna-se 11 produtos distintos quando alterna entre inglês, alemão, francês, espanhol, português, italiano, neerlandês, sueco, dinamarquês, norueguês e finlandês. O Pacote Leitura e Linguagem combina sete geradores especializados que cobrem reconhecimento do alfabeto, preposições espaciais, adivinhar palavras com pistas de imagens, palavras embaralhadas, caça-palavras, criptogramas de cifra imagem-frase e prática de caligrafia guiada. Seis dos sete geradores produzem conteúdo específico do idioma — as palavras, letras e vocabulário de cada atividade mudam para corresponder ao idioma selecionado, com sinais diacríticos corretos, alfabetos nativos e frases gramaticalmente precisas. O sétimo, Caligrafia, foca-se na prática de traços de escrita com mínima dependência do idioma. Cada gerador produz arquivos PDF prontos para imprimir e JPEG de alta resolução. Seis de sete incluem gabaritos automáticos. Escolha entre mais de 100 conjuntos de imagens temáticas ou carregue a sua própria arte para produtos personalizados e específicos de nicho. Quer venda atividades de leitura e escrita no Etsy, publique cadernos de idiomas na Amazon KDP ou distribua recursos na Hotmart, este pacote dá-lhe a variedade e o alcance linguístico que os concorrentes monolingues não conseguem igualar. Cada gerador inclui um teste grátis com marca de água para que possa experimentar todas as funcionalidades antes de comprar uma licença.',
+    description: 'Monte um catálogo completo de jogos de palavras imprimíveis com um único pacote. Inclui geradores de caça-palavras, palavras cruzadas, criptogramas e atividades de vocabulário visual — tudo o que compradores de atividades de literacia procuram. Cada gerador produz PDFs e JPEGs de alta resolução com gabaritos automáticos, múltiplos níveis de dificuldade e centenas de imagens temáticas. Crie atividades individuais ou apostilas completas para Amazon KDP. Venda no Etsy, Hotmart, Kiwify ou no seu próprio site com licença comercial incluída. Teste grátis com marca d\'água — sem cadastro.',
   },
 
   appsIncluded: [

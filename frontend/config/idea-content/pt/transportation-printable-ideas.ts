@@ -2,25 +2,34 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Ideias de Imprimíveis de Transportes — Guia de Nicho',
-    metaDescription: 'Ideias lucrativas de imprimíveis de transportes para vender no Hotmart, Etsy e Amazon KDP. Conceitos de produtos temáticos de veículos e dicas para o nicho.',
-
-    primaryKeyword: 'ideias de imprimíveis de transportes',
+    primaryKeyword: 'imprimíveis de meios de transporte negócio',
     secondaryKeywords: [
-      'atividades temática transportes para vender',
-      'negócio imprimíveis veículos',
-      'atividades atividades transportes para vendedores',
-      'vender imprimíveis de transportes no Etsy',
+      'atividades meios de transporte para vender',
+      'imprimíveis veículos educativos Etsy',
+      'negócio atividades transporte Hotmart',
+      'livros atividades veículos KDP',
     ],
     lsiKeywords: [
-      'atividades educativas carros e camiões',
-      'atividades temáticas de veículos',
-      'imprimíveis viagens e transportes para a loja',
+      'Hotmart',
+      'Kiwify',
+      'Etsy',
+      'Amazon KDP',
+      'renda extra',
+      'negócio de imprimíveis',
+      'licença comercial',
+      'nicho',
+      'ideias de produto',
+      'vendedor',
+      'Brasil',
+      'imprimíveis educativos',
     ],
+    titleTag: 'Imprimíveis transportes — Negócio | LCS',
+    metaDescription:
+      'Ideias de negócio com imprimíveis de meios de transporte. Carros, aviões e trens em atividades educativas para Etsy, Hotmart e KDP.',
   },
   hero: {
-    title: 'Ideias de Negócio de Imprimíveis de Transportes para Vendedores',
-    description: 'Os transportes são um dos temas mais universalmente adorados pelas crianças pequenas, o que o torna num nicho perene excecional para empreendedores de imprimíveis que procuram receitas consistentes durante todo o ano sem dependência sazonal. O tema dos transportes oferece uma notável profundidade de subtemas que inclui carros, camiões, comboios, aviões, autocarros, barcos, helicópteros, carros de bombeiros, ambulâncias, tratores, motocicletas, veículos de construção, navios e submarinos, proporcionando aos vendedores um vasto vocabulário visual que cativa as crianças que estão interminavelmente fascinadas pelas coisas que se movem. A versatilidade transversal ao catálogo de produtos torna os imprimíveis de transportes especialmente valiosos porque os veículos se ligam naturalmente a exercícios de contagem em matemática, construção de vocabulário em literacia, unidades de ajudantes da comunidade em estudos sociais e conceitos de movimento e energia em ciências. Para os vendedores de imprimíveis no Hotmart, Etsy e Amazon KDP, o nicho de transportes combina uma forte procura durante todo o ano com um amplo apelo educativo que ressoa com vendedores de pré-escolar e jardim de infância que conduzem unidades de transportes, famílias que educam em casa a explorar temas de veículos e pais que procuram atividades de aprendizagem envolventes para crianças fascinadas por veículos. Este guia abrange ideias de produtos específicos, estratégias por plataforma e abordagens de posicionamento de nicho para te ajudar a construir uma linha rentável de produtos imprimíveis de transportes utilizando as nossas ferramentas geradoras de atividades.',
+    title: 'Meios de Transporte — Ideias de Negócio com Imprimíveis',
+    description: 'Meios de transporte são um tema clássico que atrai especialmente meninos, embora seja popular com todas as crianças. Carros, caminhões, aviões, trens e barcos geram interesse constante durante todo o ano. No Etsy, atividades de transporte têm boa demanda e concorrência moderada. No Hotmart, pacotes educativos com tema de veículos atendem educadores que buscam material para atividades de vocabulário e contagem. No Amazon KDP, livros de atividades de transporte são populares na faixa de 3 a 7 anos. Crie atividades de correspondência, caça-palavras, labirintos e contagem com diferentes veículos. Teste grátis com marca d\'água — sem cadastro.',
   },
   marketOverview: `O nicho de imprimíveis de transportes ocupa uma posição excecionalmente vantajosa para os vendedores de imprimíveis porque a fascinação das crianças por veículos é um dos interesses mais intensos e sustentados no desenvolvimento da primeira infância. Desde o momento em que as crianças pequenas apontam entusiasmadas para os camiões que passam, os carros de bombeiros e os aviões no céu, a obsessão pelos transportes apodera-se delas e persiste durante os anos do pré-escolar e do ensino primário. Esta motivação profunda e intrínseca significa que as crianças se envolvem com entusiasmo nas atividades com temática de transportes sem a persuasão que os materiais educativos genéricos por vezes requerem, o que torna os imprimíveis de veículos excecionalmente atrativos tanto para os vendedores que procuram o envolvimento dos usuários como para os pais que desejam atividades produtivas sem tela.
 

@@ -2,25 +2,34 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Ideias Imprimíveis Dia dos Namorados para Vender',
-    metaDescription: 'Ideias de imprimíveis do Dia dos Namorados para vender no Hotmart, Etsy e Amazon KDP. Produtos temáticos de amor, estratégias sazonais e dicas para vendedores.',
-
-    primaryKeyword: 'ideias imprimíveis dia dos namorados',
+    primaryKeyword: 'imprimíveis de Dia dos Namorados para vender',
     secondaryKeywords: [
       'atividades Dia dos Namorados para vender',
-      'negócio imprimíveis Dia dos Namorados',
-      'atividades atividades Dia dos Namorados para vendedores',
-      'vender imprimíveis do Dia dos Namorados no Etsy',
+      'imprimíveis Valentine\'s Day Etsy',
+      'negócio atividades corações Hotmart',
+      'livros atividades românticas KDP',
     ],
     lsiKeywords: [
-      'atividades educativas temática corações',
-      'atividades loja fevereiro Dia dos Namorados',
-      'imprimíveis amor e amizade para crianças',
+      'Hotmart',
+      'Kiwify',
+      'Etsy',
+      'Amazon KDP',
+      'renda extra',
+      'negócio de imprimíveis',
+      'licença comercial',
+      'nicho',
+      'ideias de produto',
+      'vendedor',
+      'Brasil',
+      'imprimíveis educativos',
     ],
+    titleTag: 'Imprimíveis Dia dos Namorados | LCS',
+    metaDescription:
+      'Crie e venda imprimíveis de Dia dos Namorados. Atividades educativas com corações e amor para Etsy, Hotmart e KDP. Nicho sazonal lucrativo.',
   },
   hero: {
-    title: 'Ideias de Negócio de Imprimíveis do Dia dos Namorados para Vendedores',
-    description: 'O Dia dos Namorados abre uma poderosa janela de vendas de inverno para os empreendedores de imprimíveis, com a procura a crescer durante janeiro e a atingir o pico no início de fevereiro, enquanto os vendedores preparam trocas de postais online e os pais procuram atividades educativas com temática de amor e alternativas criativas aos postais comprados em loja. O nicho oferece uma encantadora variedade de subtemas que incluem corações, cupido, amizade, rosas, doces, caixas de correio, cartas de amor e trocas de postais online, proporcionando aos vendedores um vocabulário visual acolhedor que atrai crianças pequenas, famílias e vendedores. Os prestadores de serviços de infantário e as famílias que praticam ensino doméstico acrescentam outro segmento de compradores, procurando atividades estruturadas do Dia dos Namorados que combinem a emoção festiva com o desenvolvimento genuíno de competências. Para os vendedores de imprimíveis no Hotmart, Etsy e Amazon KDP, o nicho do Dia dos Namorados combina procura anual fiável com uma estética universalmente atrativa de amor e amizade que fotografa magnificamente para os anúncios de produtos e o marketing nas redes sociais. Este guia cobre ideias de produtos específicos, estratégias por plataforma e abordagens de calendarização para te ajudar a construir uma linha rentável de produtos imprimíveis do Dia dos Namorados utilizando as nossas ferramentas geradoras de atividades.',
+    title: 'Dia dos Namorados — Imprimíveis para Vender Online',
+    description: 'O Dia dos Namorados oferece duas oportunidades para vendedores brasileiros de imprimíveis: 12 de junho no Brasil e 14 de fevereiro no mercado internacional (Valentine\'s Day). Corações, amor e amizade são temas que geram forte conexão emocional em atividades educativas infantis. No Etsy, atividades de Valentine\'s Day têm demanda explosiva em janeiro e fevereiro. No Hotmart, pacotes temáticos de Dia dos Namorados atendem o mercado brasileiro em maio e junho. No Amazon KDP, livros de atividades românticas vendem bem em ambas as datas. Explore os dois calendários para maximizar suas vendas ao longo do ano. Teste grátis com marca d\'água — sem cadastro.',
   },
   marketOverview: `O nicho de imprimíveis do Dia dos Namorados ocupa uma posição privilegiada no calendário de vendas de inverno, gerando procura sazonal concentrada durante um período em que a energia de compras pós-festivas se redireciona para projetos criativos frescos e celebrações online. Os vendedores começam a planificar as atividades do Dia dos Namorados e as melhorias do catálogo de produtos de fevereiro no início de janeiro, procurando atividades temáticas que transformem a emoção das trocas de postais em oportunidades de aprendizagem estruturada. Os pais procuram atividades do Dia dos Namorados adequadas à idade que sirvam como alternativas criativas aos postais comprados em loja e proporcionem entretenimento educativo durante a semana festiva do amor. Os prestadores de serviços de infantário, as famílias que praticam ensino doméstico e os coordenadores de programas extraescolares compram atividades temáticas para festas do Dia dos Namorados, sessões de aprendizagem focadas na amizade e eventos de celebração de fevereiro que necessitam de materiais envolventes para os jovens participantes.
 

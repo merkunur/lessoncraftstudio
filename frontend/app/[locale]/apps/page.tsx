@@ -39,9 +39,9 @@ const appsMetadata: Record<string, { title: string; description: string; keyword
     keywords: 'generatori di stampabili per creare e vendere, generatore stampabili Etsy, KDP schede vendere, business stampabili italiano, generatore crucipuzzle, creatore schede matematica vendere',
   },
   pt: {
-    title: '33 Geradores de Imprimir | Ferramentas Etsy & KDP',
-    description: 'Descubra 33 geradores de imprimir profissionais. Ca\ça-palavras, atividades de matem\ática, colorir, puzzles e mais. Teste gr\átis com marca d\'agua. Venda no Etsy e Amazon KDP.',
-    keywords: 'gerador imprimir, Etsy imprimir, KDP atividades, vender imprimir online, gerador ca\ça-palavras, criador atividades matem\ática, neg\ócio imprimir',
+    title: '33 geradores de imprimíveis — Venda na Hotmart | LCS',
+    description: 'Descubra 33 geradores de imprimíveis profissionais para vender na Hotmart, Etsy e KDP. Caça-palavras, matemática, colorir e mais. Teste grátis com marca d\'água.',
+    keywords: 'geradores de imprimíveis para criar e vender, gerador atividades Hotmart, KDP atividades vender, negócio imprimíveis Brasil, gerador caça-palavras, criador atividades matemática',
   },
   nl: {
     title: '33 Printbare Generatoren | Etsy & KDP Tools',
@@ -187,8 +187,8 @@ const localeContent: Record<string, {
     },
   },
   pt: {
-    heroTitle: '33 geradores de imprimíveis profissionais',
-    heroSubtitle: 'Crie imprimíveis profissionais para seu negócio. Caça-palavras, atividades de matemática, colorir, puzzles e mais. Experimente os 33 geradores grátis com marca d\'agua.',
+    heroTitle: '33 geradores de imprimíveis para criar e vender',
+    heroSubtitle: 'Crie atividades profissionais para vender na Hotmart, Kiwify, Etsy e Amazon KDP. Caça-palavras, matemática, colorir, puzzles e mais. Teste grátis com marca d\'água — sem cadastro.',
     tryFree: 'Teste grátis',
     details: 'Detalhes',
     trustNoAccount: 'Sem conta necessária',

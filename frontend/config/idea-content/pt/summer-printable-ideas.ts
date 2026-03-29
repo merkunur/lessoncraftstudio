@@ -2,25 +2,34 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Ideias de Imprimíveis de Verão para Vender — Guia',
-    metaDescription: 'Ideias de imprimíveis de verão para vender no Hotmart, Etsy e Amazon KDP. Produtos com temática de praia e sol, estratégias sazonais e dicas por plataforma.',
-
-    primaryKeyword: 'ideias de imprimíveis de verão para vender',
+    primaryKeyword: 'imprimíveis de verão ideias negócio',
     secondaryKeywords: [
-      'atividades temática verão para vender',
-      'negócio imprimíveis verão',
-      'atividades atividades verão para vendedores',
-      'vender imprimíveis de verão no Etsy',
+      'atividades verão para vender online',
+      'imprimíveis férias educativos Etsy',
+      'negócio atividades verão Hotmart',
+      'livros atividades férias KDP',
     ],
     lsiKeywords: [
-      'atividades educativas praia e sol',
-      'páginas atividades clima quente',
-      'imprimíveis temática férias para a loja',
+      'Hotmart',
+      'Kiwify',
+      'Etsy',
+      'Amazon KDP',
+      'renda extra',
+      'negócio de imprimíveis',
+      'licença comercial',
+      'nicho',
+      'ideias de produto',
+      'vendedor',
+      'Brasil',
+      'imprimíveis educativos',
     ],
+    titleTag: 'Imprimíveis de verão — Negócio | LCS',
+    metaDescription:
+      'Ideias de negócio com imprimíveis de verão. Atividades educativas de férias para Etsy, Hotmart e KDP. Nicho sazonal com forte demanda.',
   },
   hero: {
-    title: 'Ideias de Negócio de Imprimíveis de Verão para Vendedores',
-    description: 'O verão abre a janela de vendas sustentada mais longa no calendário sazonal de imprimíveis, com a procura a aumentar de maio a agosto enquanto os pais procuram atividades estruturadas para combater a perda de aprendizagem de verão, os campos de férias e infantários se abastecem de atividades temáticas, e as famílias preparam entretenimento de viagem para as deslocações de férias. O nicho oferece uma ampla gama de subtemas que incluem cenas de praia, sol, gelados, melancias, castelos de areia, girassóis, piscinas, estrelas-do-mar, conchas e chinelos de praia, proporcionando aos vendedores um vocabulário visual vibrante que capta a energia e a emoção que as crianças associam aos meses mais quentes. As famílias que praticam ensino doméstico e continuam a educação durante os meses de verão acrescentam uma procura constante durante toda a janela, enquanto as escolas bíblicas de férias e os programas recreativos comunitários criam segmentos adicionais de compradores que procuram recursos de atividades em volume. Para os vendedores de imprimíveis no Hotmart, Etsy e Amazon KDP, o nicho de verão combina uma procura sazonal prolongada com imagens universalmente apelativas que ficam maravilhosas nas fotografias dos anúncios de produtos. Este guia abrange ideias de produtos específicos, estratégias por plataforma e abordagens de calendarização para te ajudar a construir uma linha rentável de produtos imprimíveis de verão utilizando as nossas ferramentas geradoras de atividades.',
+    title: 'Verão — Ideias de Negócio com Imprimíveis Educativos',
+    description: 'O verão cria forte demanda por atividades educativas que mantêm as crianças aprendendo durante as férias. Praia, sol, sorvete e férias são temas que vendem bem nessa temporada. No Brasil, o verão vai de dezembro a março; nos EUA e Europa, de junho a agosto — dois ciclos de venda para vendedores multilíngues. No Etsy, atividades de verão têm alta demanda de pais que buscam evitar a perda de aprendizado nas férias. No Hotmart, pacotes de atividades de férias atendem famílias brasileiras. No Amazon KDP, livros de atividades de verão são populares como presentes. Crie caça-palavras, labirintos e contagem com tema praia. Teste grátis com marca d\'água — sem cadastro.',
   },
   marketOverview: `O nicho de imprimíveis de verão distingue-se das outras categorias sazonais pela sua duração e pela intensidade da procura dos pais por atividades infantis estruturadas. Enquanto a maioria dos nichos de festividades oferece janelas de vendas concentradas de duas a quatro semanas, o verão estende-se ao longo de quatro meses completos de compras ativas de maio a agosto, com vendedores antecipados e coordenadores de campos de férias a começar as suas pesquisas em abril. Este cronograma prolongado significa que os anúncios de imprimíveis de verão têm mais tempo para acumular avaliações, subir nas posições dos rankings de pesquisa e gerar tráfego orgânico acumulativo durante toda a estação. Os pais tornam-se o segmento de compradores dominante durante os meses de verão quando as rotinas escolares se dissolvem e a realidade de manter as crianças envolvidas, entretidas e a aprender durante semanas inteiras impulsiona pesquisas urgentes de atividades imprimíveis que proporcionem estrutura sem a rigidez do catálogo de produtos formal.
 

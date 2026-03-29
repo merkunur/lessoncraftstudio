@@ -2,24 +2,34 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Ideias de Imprimíveis de Desportos — Guia de Nicho',
-    metaDescription: 'Descobre ideias de imprimíveis de desportos para vender no Hotmart, Etsy e Amazon KDP. Conceitos de produtos com temática desportiva, estratégias por plataforma.',
-    primaryKeyword: 'ideias de imprimíveis de desportos',
+    primaryKeyword: 'imprimíveis de esportes ideias negócio',
     secondaryKeywords: [
-      'atividades temáticas desportivas para vender',
-      'negócio imprimíveis temática desportiva',
-      'atividades atividades desportos para vendedores',
-      'vender imprimíveis de desportos no Etsy',
+      'atividades esportes para vender online',
+      'imprimíveis futebol educativos Etsy',
+      'negócio atividades esportivas Hotmart',
+      'livros atividades esportes KDP',
     ],
     lsiKeywords: [
-      'atividades educativas desportos de equipa',
-      'atividades temáticas jogos com bola',
-      'imprimíveis educação física para a loja',
+      'Hotmart',
+      'Kiwify',
+      'Etsy',
+      'Amazon KDP',
+      'renda extra',
+      'negócio de imprimíveis',
+      'licença comercial',
+      'nicho',
+      'ideias de produto',
+      'vendedor',
+      'Brasil',
+      'imprimíveis educativos',
     ],
+    titleTag: 'Imprimíveis esportes — Negócio | LCS',
+    metaDescription:
+      'Ideias de negócio com imprimíveis de esportes. Futebol, basquete e atletismo em atividades educativas para Etsy, Hotmart e KDP.',
   },
   hero: {
-    title: 'Ideias de Negócio de Imprimíveis de Desportos para Vendedores',
-    description: 'Os desportos são um dos temas mais universalmente atrativos para as crianças de todas as idades, o que o torna um excecional nicho perene para empreendedores de imprimíveis que procuram receitas consistentes durante todo o ano impulsionadas pela rotação desportiva sazonal e um amplo apelo multicurricular. O tema de desportos oferece uma notável profundidade de subtemas que inclui futebol, basquetebol, futebol americano, basebol, ténis, hóquei, voleibol, natação, atletismo, ginástica, Jogos Olímpicos, jogos com bola, desportos de equipa e desportos individuais, proporcionando aos vendedores um vasto vocabulário visual que conecta com os interesses ativos de praticamente todas as crianças, quer joguem em equipas organizadas, desfrutem de jogos ao ar livre ou vejam os seus atletas favoritos a competir na televisão. A versatilidade transversal ao catálogo de produtos torna os imprimíveis de desportos especialmente valiosos porque o atletismo conecta-se naturalmente com a matemática através de resultados, estatísticas e contagem, a literacia através do vocabulário desportivo e da terminologia de equipas, a educação física através da motivação para o movimento e a consciência sobre a saúde, e as competências sociais através do trabalho em equipa e dos conceitos de desportivismo. Para os vendedores de imprimíveis no Hotmart, Etsy e Amazon KDP, o nicho de desportos combina uma forte procura durante todo o ano com uma universalidade que ressoa com vendedores de educação física que conduzem unidades desportivas, vendedores online que procuram atividades temáticas envolventes, famílias que educam em casa a explorar temas de atletismo e pais que procuram materiais educativos que canalizem o entusiasmo desportivo dos seus filhos em experiências produtivas de aprendizagem. Este guia abrange ideias de produtos específicos, estratégias por plataforma e abordagens de posicionamento de nicho para te ajudar a construir uma linha rentável de produtos imprimíveis de desportos utilizando as nossas ferramentas geradoras de atividades.',
+    title: 'Esportes — Ideias de Negócio com Imprimíveis Educativos',
+    description: 'Esportes são um tema com forte apelo emocional e picos sazonais previsíveis ligados a Copa do Mundo, Olimpíadas e campeonatos nacionais. Futebol, basquete, natação e atletismo geram interesse em crianças de todas as idades. No Etsy, atividades esportivas vendem bem durante eventos esportivos globais. No Hotmart, pacotes educativos de esportes atendem educadores que buscam material para educação física e interdisciplinaridade. No Amazon KDP, livros de atividades esportivas atraem pais de crianças ativas. O futebol é especialmente forte no mercado brasileiro. Crie contagem, caça-palavras e labirintos com tema esportivo. Teste grátis com marca d\'água — sem cadastro.',
   },
   marketOverview: `O nicho de imprimíveis de desportos ocupa uma posição excepcionalmente poderosa para os vendedores de imprimíveis porque praticamente todas as crianças têm uma ligação direta e pessoal com os desportos, seja através de jogar em equipas, ver jogos com a família, colecionar cromos, usar camisolas de equipas ou participar em aulas de educação física e atividades no recreio. Ao contrário dos temas sazonais que concentram a procura em janelas estreitas do calendário, o nicho de desportos beneficia da rotação sazonal natural: o futebol americano domina as pesquisas de outono, o basquetebol e o hóquei impulsionam a procura de inverno, o basebol e o futebol repuntam na primavera e no verão, e a natação e o atletismo atingem o seu pico durante os meses quentes. Este ciclo rotativo assegura que os materiais educativos com temática desportiva mantenham uma relevância consistente durante todo o ano em vez de dependerem de uma única temporada de pico.
 

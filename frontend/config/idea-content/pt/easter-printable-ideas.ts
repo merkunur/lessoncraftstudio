@@ -2,25 +2,34 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Ideias de Imprimíveis de Páscoa para Vender — Guia',
-    metaDescription: 'Ideias de imprimíveis de Páscoa para vender no Hotmart, Etsy e Amazon KDP. Produtos primaverais, estratégias sazonais e dicas por plataforma para vendedores.',
-
-    primaryKeyword: 'ideias de imprimíveis de páscoa para vender',
+    primaryKeyword: 'imprimíveis de Páscoa para vender no Etsy',
     secondaryKeywords: [
-      'atividades de Páscoa para vender',
-      'negócio imprimíveis Páscoa',
-      'atividades atividades Páscoa para vendedores',
-      'vender imprimíveis de Páscoa no Etsy',
+      'atividades Páscoa para vender Etsy',
+      'imprimíveis pascais Hotmart',
+      'negócio atividades Páscoa online',
+      'livros atividades Páscoa KDP',
     ],
     lsiKeywords: [
-      'atividades educativas temática primaveril',
-      'atividades caça aos ovos de Páscoa',
-      'imprimíveis sazonais loja primavera',
+      'Hotmart',
+      'Kiwify',
+      'Etsy',
+      'Amazon KDP',
+      'renda extra',
+      'negócio de imprimíveis',
+      'licença comercial',
+      'nicho',
+      'ideias de produto',
+      'vendedor',
+      'Brasil',
+      'imprimíveis educativos',
     ],
+    titleTag: 'Imprimíveis de Páscoa para Etsy | LCS',
+    metaDescription:
+      'Venda imprimíveis de Páscoa no Etsy, Hotmart e KDP. Coelhos, ovos e atividades pascais com forte demanda sazonal. Guia completo para vendedores.',
   },
   hero: {
-    title: 'Ideias de Negócio de Imprimíveis de Páscoa para Vendedores',
-    description: 'A Páscoa cria uma vibrante janela de vendas primaveril para os empreendedores de imprimíveis, com a procura a subir de fevereiro até abril enquanto os vendedores planificam atividades de primavera para a loja e os pais procuram complementos educativos para cestas de Páscoa e suplementos para a caça aos ovos. O nicho oferece uma encantadora variedade de subtemas que incluem coelhinhos, ovos decorados, pintainhos, cordeiros, cestas, flores de primavera, túlipas, cenouras e caça aos ovos, proporcionando aos vendedores um vocabulário visual alegre que ressoa fortemente com as crianças pequenas e as suas famílias. Os grupos paroquiais e as organizações comunitárias acrescentam outro segmento de compradores, procurando atividades imprimíveis para eventos de Páscoa e celebrações de primavera. Para os vendedores de imprimíveis no Hotmart, Etsy e Amazon KDP, o nicho de Páscoa combina procura anual previsível com uma estética primaveril festiva que fotografa magnificamente para os anúncios de produtos e materiais de marketing. Este guia abrange ideias de produtos específicos, estratégias por plataforma e abordagens de calendarização para te ajudar a construir uma linha rentável de produtos imprimíveis de Páscoa utilizando as nossas ferramentas geradoras de atividades.',
+    title: 'Imprimíveis de Páscoa — Atividades para Vender Online',
+    description: 'A Páscoa é uma das datas mais importantes para vendedores de imprimíveis no Brasil e no mercado internacional. Coelhos, ovos coloridos e chocolate geram forte apelo emocional que impulsiona vendas entre fevereiro e abril. No Etsy, atividades pascais têm alta conversão no período. No Hotmart, pacotes completos de Páscoa para educação infantil alcançam preços elevados. No Amazon KDP, livros de atividades de Páscoa vendem bem como presentes complementares. A Páscoa é especialmente forte no mercado brasileiro, onde a data tem grande importância cultural. Crie caça-palavras, contagem, labirintos e páginas para colorir com tema pascal. Teste grátis com marca d\'água — sem cadastro.',
   },
   marketOverview: `O nicho de imprimíveis de Páscoa ocupa uma posição privilegiada no calendário de vendas de primavera, gerando procura sazonal concentrada durante um período em que poucas festividades competem pela atenção dos compradores. Os vendedores começam a planificar as atividades primaverais da loja e as celebrações pré-Páscoa em fevereiro e início de março, procurando atividades temáticas que combinem o encanto festivo com resultados educativos genuínos. Os pais procuram atividades de Páscoa adequadas à idade que sirvam duplo propósito como inserções para cestas de Páscoa e entretenimento educativo durante os dias de entusiasmo que antecedem a festividade. Os grupos paroquiais, coordenadores de catequese e organizadores de eventos comunitários compram atividades temáticas para caças aos ovos de Páscoa, festivais de primavera e celebrações familiares que necessitam de atividades estruturadas para os pequenos participantes.
 

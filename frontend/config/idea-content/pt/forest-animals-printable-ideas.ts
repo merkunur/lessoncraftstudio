@@ -2,25 +2,34 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Ideias de Imprimíveis Animais da Floresta — Guia',
-    metaDescription: 'Ideias rentáveis de imprimíveis de animais da floresta para vender no Hotmart, Etsy e Amazon KDP. Conceitos de produtos, estratégias por plataforma e nicho.',
-
-    primaryKeyword: 'ideias de imprimíveis animais da floresta',
+    primaryKeyword: 'imprimíveis animais da floresta para Etsy',
     secondaryKeywords: [
       'atividades animais da floresta para vender',
-      'negócio imprimíveis tema floresta',
-      'atividades atividades animais da floresta para vendedores',
-      'vender imprimíveis animais da floresta online',
+      'imprimíveis woodland Etsy Hotmart',
+      'negócio atividades floresta educativos',
+      'livros animais da floresta KDP',
     ],
     lsiKeywords: [
-      'atividades educativas criaturas da floresta',
-      'atividades habitats natureza para crianças',
-      'imprimíveis vida selvagem para a loja',
+      'Hotmart',
+      'Kiwify',
+      'Etsy',
+      'Amazon KDP',
+      'renda extra',
+      'negócio de imprimíveis',
+      'licença comercial',
+      'nicho',
+      'ideias de produto',
+      'vendedor',
+      'Brasil',
+      'imprimíveis educativos',
     ],
+    titleTag: 'Imprimíveis floresta para Etsy | LCS',
+    metaDescription:
+      'Venda imprimíveis de animais da floresta no Etsy e Hotmart. Ursos, raposas e coelhos em atividades educativas. Nicho perene com forte demanda.',
   },
   hero: {
-    title: 'Ideias de Negócio de Imprimíveis de Animais da Floresta para Vendedores',
-    description: 'Os animais da floresta representam um dos temas mais duradouramente populares nos produtos educativos para crianças, combinando a acolhedora estética do bosque que os pais adoram com as ligações ao catálogo de produtos de ciências que os vendedores necessitam. Ursos, veados, raposas, corujas, coelhos, esquilos, guaxinins e ouriços formam um elenco adorável de personagens que as crianças encontram nos contos, na decoração infantil e nos documentários de natureza desde os seus primeiros anos. Para os vendedores de imprimíveis no Hotmart, Etsy e Amazon KDP, o nicho de animais da floresta beneficia de uma relevância durante todo o ano com fortes picos sazonais durante o outono e o inverno quando as aulas se focam na hibernação, nas cadeias alimentares e na adaptação de habitats. A estética do bosque tornou-se uma tendência dominante na decoração de quartos infantis e salas de aula, impulsionando a procura de materiais educativos a combinar que transmitam a mesma calidez visual. Este guia apresenta ideias de produtos específicos, estratégias por plataforma e abordagens de posicionamento de nicho para te ajudar a construir uma linha rentável de produtos imprimíveis de animais da floresta utilizando as nossas ferramentas geradoras de atividades.',
+    title: 'Animais da Floresta — Imprimíveis para Vender no Etsy',
+    description: 'Animais da floresta como ursos, raposas, corujas e coelhos são um tema encantador com forte apelo no mercado de imprimíveis. O estilo visual woodland é tendência no design infantil, o que impulsiona vendas de atividades educativas com esse tema. No Etsy, listagens de animais da floresta têm alta demanda durante o outono, mas vendem bem o ano todo. No Hotmart, pacotes educativos completos com tema floresta atendem educadores que buscam material temático integrado. No Amazon KDP, livros de atividades woodland atraem pais que valorizam estética e conteúdo educativo. Crie labirintos, caça-palavras e contagem com animais da floresta. Teste grátis com marca d\'água — sem cadastro.',
   },
   marketOverview: `O nicho de imprimíveis de animais da floresta situa-se na interseção da educação sobre a natureza, do planeamento curricular sazonal e da enormemente popular tendência de decoração infantil de bosque, criando procura de múltiplos segmentos de compradores durante todo o ano. Os pais que decoraram quartos de bebé e salas de brincar com temática de bosque procuram ativamente materiais educativos a combinar que apresentem os mesmos ursos, raposas, veados e corujas que adornam as paredes dos seus filhos. Os vendedores que constroem unidades de ciências sobre habitats florestais, hibernação, cadeias alimentares e adaptações sazonais dos animais necessitam de recursos imprimíveis que se alinhem com os padrões curriculares enquanto mantêm os jovens aprendizes envolvidos.
 

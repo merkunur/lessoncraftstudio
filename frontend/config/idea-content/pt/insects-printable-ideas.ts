@@ -2,25 +2,34 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Ideias de Imprimíveis de Insetos — Guia de Nicho',
-    metaDescription: 'Ideias rentáveis de imprimíveis com temática de insetos para vender no Hotmart, Etsy e Amazon KDP. Conceitos de produtos de bichos e borboletas, estratégias.',
-
-    primaryKeyword: 'ideias de imprimíveis de insetos',
+    primaryKeyword: 'imprimíveis de insetos ideias negócio',
     secondaryKeywords: [
-      'atividades temática insetos para vender',
-      'negócio imprimíveis bichos',
-      'atividades atividades insetos para vendedores',
-      'vender imprimíveis insetos no Etsy',
+      'atividades insetos para vender online',
+      'imprimíveis borboletas joaninhas Etsy',
+      'negócio atividades insetos Hotmart',
+      'livros atividades insetos KDP',
     ],
     lsiKeywords: [
-      'atividades entomologia para crianças',
-      'atividades educativas temática bichos',
-      'imprimíveis insetos rasteiros para a loja',
+      'Hotmart',
+      'Kiwify',
+      'Etsy',
+      'Amazon KDP',
+      'renda extra',
+      'negócio de imprimíveis',
+      'licença comercial',
+      'nicho',
+      'ideias de produto',
+      'vendedor',
+      'Brasil',
+      'imprimíveis educativos',
     ],
+    titleTag: 'Imprimíveis insetos — Ideias negócio | LCS',
+    metaDescription:
+      'Ideias de negócio com imprimíveis de insetos para Etsy, Hotmart e KDP. Borboletas, joaninhas e abelhas em atividades educativas que vendem bem.',
   },
   hero: {
-    title: 'Ideias de Negócio de Imprimíveis de Insetos para Vendedores',
-    description: 'Os insetos oferecem aos vendedores de imprimíveis um dos temas animais mais universalmente fascinantes, com profundas ligações à educação científica e padrões de procura sazonal. As crianças ficam naturalmente cativadas por borboletas, joaninhas, formigas e abelhas, transformando os encontros quotidianos no jardim em oportunidades de aprendizagem que pais e vendedores apoiam com entusiasmo através da compra de atividades de exercícios. O nicho de insetos beneficia de um forte alinhamento com os padrões curriculares de ciências do ensino básico que abrangem ciclos de vida, habitats, metamorfose e ecossistemas. Com mais de um milhão de espécies conhecidas, as possibilidades criativas para a diferenciação de produtos são praticamente ilimitadas. A primavera e o verão impulsionam a procura máxima quando as salas de aula estudam as borboletas, os jardins fervilham de atividade e as famílias exploram a natureza em conjunto. Para os vendedores no Hotmart, Etsy e Amazon KDP, os imprimíveis com temática de insetos representam um nicho onde a relevância curricular se encontra com a curiosidade infantil para criar um potencial de vendas fiável durante todo o ano. Este guia fornece ideias de produtos específicos, estratégias por plataforma e abordagens de preços para te ajudar a construir uma linha rentável de produtos imprimíveis com temática de insetos utilizando as nossas ferramentas geradoras de atividades.',
+    title: 'Insetos — Ideias de Negócio com Imprimíveis para Vender',
+    description: 'Insetos oferecem um nicho versátil para vendedores de imprimíveis educativos. Borboletas, joaninhas, abelhas e formigas são temas populares que combinam apelo visual com valor educativo em ciências naturais. A demanda cresce na primavera e verão, mas mantém base sólida o ano todo. No Etsy, atividades com tema de insetos atraem pais que buscam conteúdo sobre natureza. No Hotmart, pacotes educativos de insetos para educação infantil têm espaço para crescer. No Amazon KDP, livros de atividades com insetos ocupam um nicho específico com concorrência moderada. Crie atividades de contagem, correspondência e caça-palavras com insetos. Teste grátis com marca d\'água — sem cadastro.',
   },
   marketOverview: `O nicho de imprimíveis de insetos situa-se na interseção da educação científica e da fascinação infantil, criando procura por parte de pais, vendedores e famílias que praticam ensino doméstico que reconhecem o valor educativo dos materiais de aprendizagem com temática de bichos. As crianças encontram insetos diariamente nos seus jardins, parques e quintais, o que torna estas criaturas imediatamente identificáveis e eternamente interessantes para os jovens aprendizes. Os pais procuram atividades de insetos para canalizar esta curiosidade natural em atividades de aprendizagem estruturadas, enquanto os vendedores necessitam de recursos para a loja sobre unidades de entomologia, estudos de ciclos de vida e explorações de habitats que aparecem ao longo dos catálogos de produtos de educação infantil e do ensino básico.
 

@@ -2,25 +2,34 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Ideias de Imprimíveis de Campismo — Guia de Nicho',
-    metaDescription: 'Ideias de imprimíveis de campismo para vender no Hotmart, Etsy e Amazon KDP. Produtos com temática ao ar livre, estratégias por plataforma e dicas de nicho.',
-
-    primaryKeyword: 'ideias de imprimíveis de campismo',
+    primaryKeyword: 'imprimíveis de camping ideias negócio',
     secondaryKeywords: [
-      'atividades de campismo para vender',
-      'atividades atividades campismo para vendedores',
-      'negócio imprimíveis temática campismo',
-      'vender imprimíveis de campismo no Etsy',
+      'atividades camping para vender Etsy',
+      'imprimíveis acampamento educativos Hotmart',
+      'negócio atividades camping natureza',
+      'livros atividades camping KDP',
     ],
     lsiKeywords: [
-      'atividades educativas aventuras ao ar livre',
-      'atividades temáticas de natureza',
-      'imprimíveis de campo de férias',
+      'Hotmart',
+      'Kiwify',
+      'Etsy',
+      'Amazon KDP',
+      'renda extra',
+      'negócio de imprimíveis',
+      'licença comercial',
+      'nicho',
+      'ideias de produto',
+      'vendedor',
+      'Brasil',
+      'imprimíveis educativos',
     ],
+    titleTag: 'Imprimíveis camping — Negócio | LCS',
+    metaDescription:
+      'Ideias de negócio com imprimíveis de camping. Barracas, fogueiras e natureza em atividades educativas para Etsy, Hotmart e KDP.',
   },
   hero: {
-    title: 'Ideias de Negócio de Imprimíveis de Campismo para Vendedores',
-    description: 'O campismo representa um dos nichos sazonais-plus-perenes mais fortes para empreendedores de imprimíveis porque combina potentes picos de procura na primavera e no verão com uma relevância genuína durante todo o ano na educação ao ar livre que mantém as vendas a fluir em todos os trimestres do calendário académico e anual. A fascinação universal das crianças pelas fogueiras, tendas, aventuras de caminhada e exploração da natureza cria uma ligação emocional que impulsiona um comportamento de compra consistente entre pais e vendedores em múltiplos segmentos de compradores. O tema do campismo oferece uma extraordinária profundidade de subtemas que inclui tenda, fogueira, marshmallow, lanterna, bússola, mochila, saco-cama, caminhada, trilho, candeeiro, s\'mores, canoa, cana de pesca, binóculos, pinheiro, montanha, lago, urso, veado, coruja, estrelas, lua, cantil e garrafa de água, proporcionando aos vendedores um rico vocabulário visual que se liga ao amor natural das crianças pelas aventuras ao ar livre, a descoberta da natureza selvagem e a emoção acolhedora de dormir sob as estrelas. A versatilidade transversal ao catálogo de produtos torna os imprimíveis de campismo especialmente valiosos porque os conceitos ao ar livre ligam-se naturalmente às ciências através da observação da natureza, identificação de fauna selvagem e exploração ecológica, à matemática através da contagem de elementos ao ar livre, medição de acampamentos e atividades de distâncias em trilhos, à literacia através da construção de vocabulário de campismo, diários de natureza e compreensão de relatos de aventuras, e à geografia através da leitura de mapas, exercícios de direção com bússola e atividades de navegação em trilhos. Para os vendedores de imprimíveis no Hotmart, Etsy e Amazon KDP, o nicho do campismo combina fortes picos sazonais com procura de educação ao ar livre durante todo o ano que ressoa com vendedores de loja que planificam unidades de natureza e ciências, coordenadores de educação ao ar livre que constroem recursos curriculares, famílias que praticam ensino doméstico explorando ecologia e ciências da terra, diretores de campos de férias que preparam materiais de atividades, e pais que procuram imprimíveis educativos que canalizem a emoção natural dos seus filhos pelas fogueiras, aventuras em tendas e encontros com a fauna selvagem em experiências produtivas de aprendizagem. Este guia abrange ideias de produtos específicos, estratégias por plataforma e abordagens de posicionamento de nicho para te ajudar a construir uma linha rentável de produtos imprimíveis de campismo utilizando as nossas ferramentas geradoras de atividades.',
+    title: 'Camping — Ideias de Negócio com Imprimíveis Educativos',
+    description: 'O tema camping combina natureza, aventura ao ar livre e diversão familiar, criando atividades educativas com forte apelo sazonal no verão. Barracas, fogueiras, lanternas e trilhas geram interesse em crianças e famílias. No Etsy, imprimíveis de camping têm pico de demanda entre maio e agosto no hemisfério norte, e entre novembro e fevereiro no Brasil. No Hotmart, pacotes educativos com tema acampamento atendem escolas que organizam atividades ao ar livre. No Amazon KDP, livros de atividades de camping são populares como presentes de férias. A concorrência é moderada, permitindo boa visibilidade para novos vendedores. Teste grátis com marca d\'água — sem cadastro.',
   },
   marketOverview: `O nicho de imprimíveis de campismo ocupa uma posição excecionalmente vantajosa para os vendedores de imprimíveis porque oferece o melhor de dois mundos: potentes picos de procura sazonal durante os meses de primavera e verão quando as famílias preparam ativamente viagens de campismo e aventuras ao ar livre, combinados com uma relevância genuína durante todo o ano através do catálogo de produtos de educação ao ar livre, unidades de ciências naturais e a fascinação perdurável das crianças pelas fogueiras, tendas e exploração da natureza selvagem que funciona independentemente da época real de campismo. Este padrão de procura dual cria um modelo de receitas onde os fortes picos sazonais se sobrepõem a uma base fiável, dando aos vendedores de imprimíveis de campismo receitas mais previsíveis do que os nichos puramente sazonais enquanto continuam a beneficiar de períodos concentrados de compras de alto volume.
 

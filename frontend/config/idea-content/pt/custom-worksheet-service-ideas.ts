@@ -2,24 +2,34 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Ideias Serviço Atividades Personalizadas para Vender — Guia',
-    metaDescription: 'Ideias de negócio de serviço de atividades personalizadas para vendedores do Etsy e freelance. Oferece atividades educativas à medida com estratégias de preços.',
-    primaryKeyword: 'serviço atividades personalizadas',
+    primaryKeyword: 'serviço de criação de atividades negócio',
     secondaryKeywords: [
-      'ideias negócio atividades personalizadas',
-      'serviço criação imprimíveis à medida',
-      'negócio atividades por encomenda',
-      'vender atividades personalizadas online',
+      'serviço criação atividades personalizadas',
+      'freelancer atividades educativas',
+      'atender escolas editoras material',
+      'negócio criação conteúdo educativo',
     ],
     lsiKeywords: [
-      'imprimíveis educativos personalizados',
-      'criação atividades sob encomenda',
-      'serviço freelance design imprimíveis',
+      'Hotmart',
+      'Kiwify',
+      'Etsy',
+      'Amazon KDP',
+      'renda extra',
+      'negócio de imprimíveis',
+      'licença comercial',
+      'nicho',
+      'ideias de produto',
+      'vendedor',
+      'Brasil',
+      'imprimíveis educativos',
     ],
+    titleTag: 'Serviço de atividades — Negócio | LCS',
+    metaDescription:
+      'Ideias de negócio oferecendo serviço de criação de atividades personalizadas. Atenda escolas e editoras. Alto valor por projeto.',
   },
   hero: {
-    title: 'Ideias de Negócio de Serviço de Atividades Personalizadas para Vendedores',
-    description: 'Os serviços de atividades personalizadas representam um modelo de negócio premium onde os vendedores oferecem serviços de criação de atividades personalizadas e feitas à medida, e os clientes solicitam temas específicos, matérias, nomes de usuários, marca da escola ou conteúdo alinhado com o catálogo de produtos, enquanto o vendedor produz atividades personalizadas utilizando ferramentas geradoras para cumprir cada encomenda com precisão e qualidade profissional. Este modelo de serviço obtém preços premium por encomenda porque os clientes pagam pela personalização e especificidade em vez de comprarem produtos genéricos pré-fabricados de categorias saturadas do mercado online onde milhares de listagens semelhantes competem apenas pelo preço. A abordagem de serviço constrói relações recorrentes com os clientes porque vendedores, centros de explicações e escolas regressam repetidamente para necessidades contínuas de conteúdo personalizado durante cada período letivo, criando fluxos de receitas previsíveis que crescem à medida que os clientes satisfeitos ampliam os seus padrões de encomenda e recomendam a colegas que necessitam de materiais personalizados semelhantes. Os serviços personalizados diferenciam os vendedores do mercado online de produtos pré-fabricados idênticos oferecendo algo que nenhum produto pré-fabricado pode igualar: materiais criados especificamente para o contexto de loja único de cada cliente, a sua população estudantil, requisitos curriculares e preferências de marca. As ferramentas geradoras reduzem drasticamente o tempo de produção para encomendas personalizadas porque os vendedores utilizam fluxos de trabalho estabelecidos de criação de atividades para produzir rapidamente materiais especificados pelo cliente em vez de conceberem cada página de raiz, tornando os serviços personalizados rentáveis à escala onde as abordagens tradicionais de design manual seriam demasiado lentas para manter ganhos viáveis por hora. Para os vendedores de imprimíveis e empreendedores que exploram modelos de serviço de atividades personalizadas, este guia abrange ofertas de serviço específicas construídas em torno das nossas ferramentas geradoras de atividades, estratégias por plataforma para alcançar e servir clientes de encomendas personalizadas nos principais mercados online e canais freelance, e abordagens de negócio que te ajudam a construir um serviço sustentável de criação de atividades personalizadas com forte retenção de clientes e preços premium que refletem o valor de personalização que entregas.',
+    title: 'Serviço de Criação de Atividades — Modelo de Negócio',
+    description: 'Oferecer serviço de criação de atividades personalizadas é um modelo de negócio de alto valor que complementa a venda de imprimíveis. Escolas, editoras, centros de tutoria e empresas de educação precisam de material exclusivo e pagam valores premium por atividades sob encomenda. No Brasil, escolas particulares e redes de ensino contratam criadores de conteúdo educativo regularmente. No mercado internacional, plataformas como Fiverr e Upwork conectam criadores de atividades com clientes globais. Use nossas ferramentas para produzir atividades personalizadas de forma eficiente e atender múltiplos clientes simultaneamente. Combine serviços com vendas de produtos para diversificar receita. Teste grátis com marca d\'água — sem cadastro.',
   },
   marketOverview: `O modelo de serviço de atividades personalizadas aborda uma lacuna fundamental no mercado online de imprimíveis educativos onde vendedores, centros de explicações e escolas necessitam de materiais especificamente adaptados aos seus requisitos únicos mas não conseguem encontrar exatamente o que precisam entre produtos genéricos pré-fabricados, criando uma procura consistente de prestadores de serviços que preenchem a lacuna entre imprimíveis produzidos em massa e os materiais personalizados que os vendedores realmente desejam para as suas salas de aula, catálogos de produtos e populações estudantis específicas. Os vendedores frequentemente necessitam de atividades alinhadas com os seus documentos particulares de âmbito e sequência curricular, com vocabulário das suas unidades instrucionais atuais, calibradas aos níveis de competência específicos dos seus usuários, e formatadas para corresponderem às suas rotinas de loja e estruturas de avaliação de formas que nenhum produto pré-fabricado pode antecipar ou acomodar.
 

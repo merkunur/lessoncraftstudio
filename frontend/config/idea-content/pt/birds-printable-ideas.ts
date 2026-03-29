@@ -2,25 +2,34 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Ideias de Imprimíveis de Aves — Guia de Nicho',
-    metaDescription: 'Ideias rentáveis de imprimíveis com temática de aves para vender no Hotmart, Etsy e Amazon KDP. Conceitos de produtos, estratégias por plataforma e dicas.',
-
-    primaryKeyword: 'ideias de imprimíveis de aves',
+    primaryKeyword: 'imprimíveis de pássaros para vender',
     secondaryKeywords: [
-      'atividades temática aves para vender',
-      'negócio imprimíveis pássaros',
-      'atividades atividades aves para vendedores',
-      'vender imprimíveis aves no Etsy',
+      'atividades pássaros para vender Etsy',
+      'imprimíveis aves educativos Hotmart',
+      'negócio atividades pássaros online',
+      'livros atividades aves KDP',
     ],
     lsiKeywords: [
-      'atividades educativas temática fauna silvestre',
-      'atividades observação natureza para crianças',
-      'imprimíveis ornitologia infantil',
+      'Hotmart',
+      'Kiwify',
+      'Etsy',
+      'Amazon KDP',
+      'renda extra',
+      'negócio de imprimíveis',
+      'licença comercial',
+      'nicho',
+      'ideias de produto',
+      'vendedor',
+      'Brasil',
+      'imprimíveis educativos',
     ],
+    titleTag: 'Imprimíveis pássaros para vender | LCS',
+    metaDescription:
+      'Crie e venda imprimíveis de pássaros no Etsy, Hotmart e KDP. Atividades educativas com aves para crianças. Nicho com baixa concorrência e boa demanda.',
   },
   hero: {
-    title: 'Ideias de Negócio de Imprimíveis de Aves para Vendedores',
-    description: 'As aves oferecem um dos temas mais visualmente diversos e universalmente apelativos no mercado de imprimíveis educativos. Desde corujas e águias até papagaios e pinguins, a enorme variedade de espécies de aves proporciona aos vendedores de imprimíveis uma ampla tela criativa para a diferenciação de produtos. As crianças ficam naturalmente fascinadas pelas aves porque voam, cantam e apresentam cores vivas, o que torna as atividades com temática de aves inerentemente cativantes para os jovens aprendizes. Para os vendedores no Hotmart, Etsy e Amazon KDP, o nicho de aves beneficia de fortes ligações aos padrões curriculares de ciências sobre habitats, migração e ciclos de vida. O interesse sazonal atinge os seus picos durante a época de nidificação na primavera e os períodos de migração no outono, enquanto o cruzamento com o hobby da observação de aves atrai compradores adultos para o mercado juntamente com pais e vendedores. Este guia apresenta ideias de produtos específicos, estratégias por plataforma e abordagens de preços para te ajudar a construir uma linha rentável de produtos imprimíveis com temática de aves utilizando as nossas ferramentas geradoras de atividades.',
+    title: 'Imprimíveis de Pássaros — Nicho para Vendedores Online',
+    description: 'O nicho de pássaros é uma oportunidade subexplorada no mercado de imprimíveis educativos. Papagaios, corujas, tucanos e águias encantam crianças e oferecem conexão natural com ciências e natureza. A concorrência é menor que em temas como dinossauros ou fazenda, permitindo que novos vendedores se destaquem rapidamente. No Etsy, atividades com tema de aves têm boa taxa de conversão. No Hotmart, pacotes de atividades de pássaros para educação infantil atendem a uma demanda crescente. No Amazon KDP, livros de atividades de aves se beneficiam da busca por conteúdo educativo de natureza. Crie caça-palavras, labirintos e páginas para colorir. Teste grátis com marca d\'água — sem cadastro.',
   },
   marketOverview: `O nicho de imprimíveis de aves ocupa uma posição única onde o conteúdo educativo se encontra com a apreciação da natureza, criando procura a partir de múltiplos segmentos de compradores. Os pais procuram atividades com temática de aves para complementar as atividades de observação de aves no jardim, as caminhadas pela natureza e a curiosidade científica que os seus filhos expressam de forma natural. Os vendedores necessitam de recursos para a loja sobre unidades de ornitologia, estudos de habitats e lições sobre migração sazonal que aparecem nos catálogos de produtos de educação infantil e ensino básico. As famílias que praticam ensino doméstico desenham frequentemente unidades de estudo de aves de várias semanas que requerem materiais imprimíveis diversos em múltiplas áreas de competência.
 

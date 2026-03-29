@@ -2,27 +2,35 @@ import type { BundleContent } from '../types';
 
 const content: BundleContent = {
   seo: {
-    primaryKeyword: 'pacote atividades aprendizagem visual',
+    primaryKeyword: 'pacote atividades visuais para vendedores',
     secondaryKeywords: [
-      'pacote de geradores de atividades de colorir e desenho para vendedores',
-      'kit de atividades visuais uso comercial',
-      'pacote de atividades de reconhecimento de padrões para Etsy',
-      'geradores de atividades de desenho e colorir para vendedores KDP',
+      'pacote geradores de atividades visuais comercial',
+      'kit atividades de colorir e desenho vendedores',
+      'pacote imprimíveis visuais Etsy KDP',
+      'atividades de arte e desenho uso comercial',
     ],
     lsiKeywords: [
-      'pacote de atividades de colorir e desenhar',
-      'coleção de atividades de padrões e gráficos de contagem imprimíveis',
+      'páginas para colorir gerador comercial',
+      'atividades de desenho imprimíveis vendedores',
+      'arte educativa imprimível uso comercial',
+      'colorir por números gerador atividades',
+      'desenho guiado atividades crianças vendedores',
+      'apostilas KDP colorir e desenho',
+      'Etsy loja atividades visuais imprimíveis',
+      'Hotmart atividades de arte educativas',
+      'Kiwify pacote atividades visuais',
+      'atividades motricidade fina imprimíveis',
+      'criatividade infantil atividades comercial',
       'licença comercial atividades visuais',
-      'ferramenta de criação em massa de atividades visuais',
     ],
-    titleTag: 'Pacote Atividades Aprendizagem Visual | para Vender',
-    metaDescription: '7 geradores de atividades visuais num pacote: colorir, desenhar, padrões, comparação de tamanhos, gráficos e traçado de linhas. Atividades sem texto para vender.',
+    titleTag: 'Pacote atividades visuais vendedores | LCS',
+    metaDescription: 'Pacote com geradores de atividades visuais: colorir, desenho, arte e mais. Crie imprimíveis profissionais para vender no Etsy, Amazon KDP, Hotmart e Kiwify.',
   },
 
   hero: {
-    title: 'Pacote Aprendizagem Visual',
+    title: 'Pacote Atividades Visuais para Vendedores',
     tagline: 'Sete geradores de atividades exclusivamente visuais — atividades que funcionam em qualquer idioma do mundo',
-    description: 'Cada gerador deste pacote produz atividades compostas inteiramente por imagens, formas, cores e números. Não aparece texto na página terminada além de etiquetas opcionais de interface. Isto significa que cada atividade que criares funciona para compradores de qualquer país, qualquer idioma, qualquer sistema escolar — sem tradução, sem adaptação, sem esforço de localização. O Pacote Aprendizagem Visual combina sete geradores especializados que cobrem comparação de tamanhos, sequências de padrões em vagões de comboio, atividades de padrões para completar espaços em branco, desenho com imagem de referência com modo de simetria, traçado de linhas entre objetos emparelhados, criação de páginas para colorir a partir de contornos de imagens e atividades de contagem com gráficos de barras. Dois dos sete geradores — Desenho em Quadrícula e Colorir — incluem temas de contornos a preto e branco desenhados especificamente para colorir, dando-te acesso a estilos de produto tanto coloridos como P&B a partir de um único kit de ferramentas. Três geradores incluem gabaritos automáticos onde corresponde: Grande e Pequeno, Atividades de Padrões e Gráficos de Contagem. Os outros quatro são atividades criativas ou de prática onde os gabaritos não se aplicam. Cada gerador produz arquivos PDF prontos para imprimir e JPEG de alta resolução. Escolhe entre mais de 100 conjuntos de imagens temáticas ou carrega a tua própria arte para produtos personalizados e específicos de nicho. Quer vendas páginas para colorir no Etsy, publiques livros de atividades na Amazon KDP ou distribuas pacotes pré-escolares na Hotmart, este pacote dá-te a variedade visual e o alcance de mercado universal que os concorrentes dependentes de texto não conseguem igualar. Cada gerador inclui um teste grátis com marca de água para que possas experimentar todas as funcionalidades antes de comprares uma licença.',
+    description: 'Construa uma linha de produtos visuais imprimíveis com geradores de colorir, desenho e atividades de arte. O pacote inclui ferramentas para criar páginas para colorir temáticas, atividades de desenho guiado, exercícios de motricidade fina e projetos de arte educativa — tudo com imagens de alta qualidade e layouts profissionais. Cada gerador oferece centenas de temas, múltiplos tamanhos de página e gabaritos automáticos. Ideal para apostilas de colorir no Amazon KDP ou listagens individuais no Etsy, Hotmart e Kiwify. Licença comercial incluída. Teste grátis com marca d\'água — sem cadastro.',
   },
 
   appsIncluded: [

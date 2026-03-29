@@ -2,25 +2,34 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Ideias de Imprimíveis de Inverno para Vender — Guia',
-    metaDescription: 'Ideias de imprimíveis de inverno para vender no Hotmart, Etsy e Amazon KDP. Produtos de clima frio com forte procura de novembro a fevereiro para vendedores.',
-
-    primaryKeyword: 'ideias de imprimíveis de inverno para vender',
+    primaryKeyword: 'imprimíveis de inverno para vender no Etsy',
     secondaryKeywords: [
-      'atividades temática inverno para vender',
-      'negócio imprimíveis inverno',
-      'atividades atividades inverno para vendedores',
-      'vender imprimíveis de inverno no Etsy',
+      'atividades inverno para vender Etsy',
+      'imprimíveis neve animais polares',
+      'negócio atividades inverno Hotmart',
+      'livros atividades inverno KDP',
     ],
     lsiKeywords: [
-      'atividades educativas neve e gelo',
-      'páginas atividades clima frio',
-      'imprimíveis temática inverno para a loja',
+      'Hotmart',
+      'Kiwify',
+      'Etsy',
+      'Amazon KDP',
+      'renda extra',
+      'negócio de imprimíveis',
+      'licença comercial',
+      'nicho',
+      'ideias de produto',
+      'vendedor',
+      'Brasil',
+      'imprimíveis educativos',
     ],
+    titleTag: 'Imprimíveis de inverno para Etsy | LCS',
+    metaDescription:
+      'Venda imprimíveis de inverno no Etsy, Hotmart e KDP. Atividades com neve, frio e animais polares. Nicho sazonal com demanda em múltiplos mercados.',
   },
   hero: {
-    title: 'Ideias de Negócio de Imprimíveis de Inverno para Vendedores',
-    description: 'O inverno abre uma ampla janela de vendas de novembro a fevereiro enquanto os vendedores procuram temas para a loja após as festividades, os pais procuram atividades de aprendizagem de interior durante os meses frios e as famílias que praticam ensino doméstico procuram variedade sazonal para além da avalanche de festividades de dezembro. O nicho de inverno oferece uma rica diversidade de subtemas que incluem flocos de neve, bonecos de neve, pinguins, luvas, iglus, ursos polares, trenós, chocolate quente, estalactites de gelo e geada, proporcionando aos vendedores um vocabulário visualmente distintivo que se diferencia dos produtos específicos de Natal. As creches e os programas de atividades extracurriculares precisam de atividades estruturadas de interior quando as brincadeiras ao ar livre se tornam limitadas, criando uma procura constante durante os meses mais frios. Para os vendedores de imprimíveis no Hotmart, Etsy e Amazon KDP, o inverno representa um nicho sazonal não confessional com procura anual previsível e imagens acolhedoras de clima frio que ressoam com compradores de origens diversas. Este guia abrange ideias de produtos específicos, estratégias por plataforma e abordagens de calendarização para te ajudar a construir uma linha rentável de produtos imprimíveis de inverno utilizando as nossas ferramentas geradoras de atividades.',
+    title: 'Imprimíveis de Inverno — Atividades para Vender no Etsy',
+    description: 'O inverno oferece um nicho sazonal forte para vendedores de imprimíveis educativos. Neve, bonecos de neve, animais polares e roupas de frio são temas que encantam crianças. No mercado internacional, a demanda é enorme entre novembro e fevereiro. Para vendedores brasileiros que vendem em inglês no Etsy, esse nicho é altamente lucrativo. No Hotmart, atividades de inverno atendem escolas bilíngues e famílias que exploram temas sazonais globais. No Amazon KDP, livros de atividades de inverno vendem bem durante toda a estação fria do hemisfério norte. Crie caça-palavras, labirintos, contagem e páginas para colorir com tema invernal. Teste grátis com marca d\'água — sem cadastro.',
   },
   marketOverview: `O nicho de imprimíveis de inverno ocupa uma posição singularmente vantajosa no calendário sazonal de vendas porque oferece procura sustentada ao longo de uma janela de quatro meses sem a intensa concorrência que se concentra em torno de festividades específicas como o Natal ou o Dia de São Valentim. Os vendedores regressam das férias de inverno em janeiro precisando de temas frescos para a loja que mantenham o envolvimento dos usuários durante o longo período antes da primavera, e as imagens de inverno proporcionam uma opção natural e compatível com o catálogo de produtos que funciona em qualquer contexto escolar independentemente das considerações culturais ou religiosas. Os pais que enfrentam semanas de clima frio e brincadeiras ao ar livre limitadas procuram ativamente atividades educativas de interior que mantenham as crianças a aprender e entretidas, fazendo das atividades de inverno uma compra prática em vez de um luxo sazonal.
 

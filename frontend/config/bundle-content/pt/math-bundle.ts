@@ -2,27 +2,35 @@ import type { BundleContent } from '../types';
 
 const content: BundleContent = {
   seo: {
-    primaryKeyword: 'pacote atividades de matemática',
+    primaryKeyword: 'pacote geradores de matemática para vendedores',
     secondaryKeywords: [
-      'pacote de atividades de matemática para vendedores',
-      'geradores de atividades de matemática uso comercial',
-      'atividades de matemática imprimíveis para Etsy',
-      'ferramentas de atividades de matemática para vendedores KDP',
+      'pacote de atividades de matemática uso comercial',
+      'geradores de matemática imprimíveis Etsy KDP',
+      'ferramentas de atividades de matemática para vendedores',
+      'kit completo matemática imprimível comercial',
     ],
     lsiKeywords: [
-      'pacote de atividades de adição e subtração',
-      'coleção de puzzles matemáticos imprimíveis',
+      'pacote adição subtração atividades imprimíveis',
+      'coleção puzzles matemáticos imprimíveis',
       'licença comercial atividades de matemática',
-      'ferramenta de criação em massa de atividades de matemática',
+      'ferramenta de criação em massa atividades matemática',
+      'atividades de matemática pré-escolar vendedores',
+      'apostilas KDP matemática fundamental',
+      'Etsy loja atividades matemática completa',
+      'Hotmart pacote atividades matemática',
+      'álgebra visual imprimível comercial',
+      'código de adição puzzles criação',
+      'grelha matemática atividades gerador',
+      'Kiwify produtos matemática educativa',
     ],
-    titleTag: 'Pacote Atividades de Matemática | para Vender',
-    metaDescription: '6 geradores de atividades de matemática num pacote: adição, subtração, código, comparação, puzzles e álgebra. Venda no Hotmart, Etsy e KDP com licença comercial.',
+    titleTag: 'Pacote Matemática para vendedores | LCS',
+    metaDescription: 'Pacote com 6 geradores de matemática: adição, subtração, código, comparação, puzzles e álgebra. Venda no Hotmart, Kiwify, Etsy e KDP com licença comercial.',
   },
 
   hero: {
-    title: 'Pacote Domínio de Matemática',
+    title: 'Pacote Completo de Matemática para Vendedores',
     tagline: 'Seis geradores profissionais de atividades de matemática num pacote com desconto',
-    description: 'Construa uma linha completa de produtos de matemática imprimíveis sem alternar entre ferramentas separadas. O Pacote Domínio de Matemática reúne seis geradores especializados que cobrem adição, subtração, puzzles criptaritméticos de adição codificada, comparação de maior e menor, puzzles matemáticos de grelha e equações algébricas visuais com imagens. Cada gerador produz arquivos PDF prontos para imprimir e JPEG de alta resolução com gabaritos automáticos, dificuldade configurável e bibliotecas de imagens temáticas. Cinco das seis apps são completamente visuais — as atividades que produzem funcionam em qualquer idioma porque usam imagens e números em vez de texto. A sexta, Adição Codificada, acrescenta um modo Palavra Revelada sensível ao idioma que suporta os 11 idiomas da interface. Escolha entre mais de 100 conjuntos de imagens temáticas ou carregue os seus próprios arquivos PNG e JPEG para produtos personalizados e específicos de nicho. Quer venda no Etsy, Amazon KDP ou Hotmart, este pacote dá-lhe a variedade que os compradores esperam e a velocidade que os vendedores precisam. Cada gerador inclui um teste grátis com marca de água para que possa experimentar todas as funcionalidades antes de comprar uma licença.',
+    description: 'Construa uma linha completa de produtos de matemática imprimíveis sem alternar entre ferramentas separadas. O Pacote de Matemática reúne seis geradores especializados que cobrem adição, subtração, puzzles criptaritméticos, comparação maior/menor, puzzles de grelha e equações algébricas visuais. Cada gerador produz PDFs prontos para imprimir e JPEGs de alta resolução com gabaritos automáticos, dificuldade configurável e bibliotecas de imagens temáticas. Cinco das seis apps são completamente visuais — funcionam em qualquer idioma. Venda no Etsy, Amazon KDP, Hotmart ou Kiwify com licença comercial. Teste grátis com marca d\'água — sem cadastro.',
   },
 
   appsIncluded: [

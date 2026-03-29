@@ -2,24 +2,34 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Ideias Imprimíveis Educação Especial — Guia de Nicho',
-    metaDescription: 'Descubra ideias de imprimíveis de educação especial para vender no Hotmart, Etsy e KDP. Produtos SPED para vendedores, terapeutas e pais de aprendizes diversos.',
-    primaryKeyword: 'ideias imprimíveis educação especial',
+    primaryKeyword: 'imprimíveis AEE educação especial vender',
     secondaryKeywords: [
-      'atividades educação especial para vender',
-      'ideias negócio imprimíveis SPED',
-      'atividades atividades necessidades especiais para vendedores',
-      'vender imprimíveis educação especial na Hotmart',
+      'atividades AEE para vender online',
+      'imprimíveis educação especial Etsy',
+      'negócio material inclusão Hotmart',
+      'livros atividades necessidades especiais KDP',
     ],
     lsiKeywords: [
-      'atividades aprendizagem diferenciada',
-      'páginas atividades adaptadas para a loja',
-      'recursos imprimíveis alinhados com o PEI',
+      'Hotmart',
+      'Kiwify',
+      'Etsy',
+      'Amazon KDP',
+      'renda extra',
+      'negócio de imprimíveis',
+      'licença comercial',
+      'nicho',
+      'ideias de produto',
+      'vendedor',
+      'Brasil',
+      'imprimíveis educativos',
     ],
+    titleTag: 'Imprimíveis AEE para vender | LCS',
+    metaDescription:
+      'Venda imprimíveis de educação especial e AEE no Etsy e Hotmart. Atividades adaptadas com demanda crescente e baixa concorrência. Nicho único.',
   },
   hero: {
-    title: 'Ideias de Negócio de Imprimíveis de Educação Especial para Vendedores',
-    description: 'Os imprimíveis de educação especial representam um dos nichos mais desatendidos e com preços premium no mercado educativo porque os vendedores de educação especial, terapeutas, auxiliares de educação e pais compram atividades adaptadas, materiais de prática modificados, apoios visuais e páginas de atividades simplificadas a preços mais elevados do que os equivalentes de educação geral, uma vez que os imprimíveis educativos padrão raramente cumprem as adaptações e modificações específicas que os objetivos do Programa Educativo Individual (PEI) exigem. O pessoal de educação especial atende usuários que abrangem gamas de capacidades excecionalmente amplas, requerendo materiais em múltiplos níveis de complexidade com tipos de letra maiores, saturação visual reduzida, instruções simplificadas e progressões de dificuldade escalonadas que os vendedores de imprimíveis de educação geral quase nunca fornecem. Os vendedores de sala de apoio, especialistas em inclusão, terapeutas da fala e linguagem, terapeutas ocupacionais, especialistas em comportamento e auxiliares de educação compram cada um diferentes tipos de materiais adaptados concebidos para os objetivos terapêuticos e instrucionais específicos que abordam ao longo de todo o ano letivo. A compra dos pais neste nicho é impulsionada pelos objetivos de terapia, pelos objetivos do PEI e pelo desejo de reforçar competências em casa com materiais que correspondam ao que o seu filho utiliza na escola e em contextos clínicos, criando um segmento de compradores dedicado que compra consistentemente durante os doze meses sem as quebras sazonais que caracterizam os mercados de educação geral. A população de educação especial abrange uma vasta gama de deficiências incluindo perturbação do espetro do autismo (PEA), perturbação de hiperatividade e défice de atenção (PHDA), dificuldades de aprendizagem específicas, deficiência intelectual, perturbações da fala e linguagem e atrasos do desenvolvimento, cada uma requerendo diferentes tipos de adaptações que criam procura de linhas de produtos diversas em vez de atividades de tamanho único. Os profissionais de educação especial gastam mais do seu próprio bolso em materiais de loja e terapia do que qualquer outra demografia de vendedores porque os recursos adaptados raramente são incluídos nos pacotes curriculares padrão ou nos materiais fornecidos pelo agrupamento, obrigando vendedores e terapeutas a obter conteúdo especializado de forma independente. Esta persistente lacuna de oferta cria uma oportunidade excecional para vendedores de imprimíveis e empreendedores que compreendem como conceber atividades com adaptações adequadas, layouts simplificados, apoios visuais e níveis de complexidade diferenciada que sirvam as necessidades específicas que este mercado exige. Para os vendedores que constroem linhas de produtos no Hotmart, Etsy, Amazon KDP e plataformas de venda direta, o nicho de educação especial combina preços premium com procura durante todo o ano, segmentos de compradores desatendidos e fortes redes comunitárias profissionais que impulsionam a descoberta boca a boca quando os produtos genuinamente satisfazem os requisitos especializados que os imprimíveis de educação geral consistentemente não conseguem abordar. Este guia abrange ideias de produtos específicos construídos em torno das nossas ferramentas geradoras de atividades, estratégias por plataforma para alcançar os compradores de educação especial e abordagens de posicionamento de nicho para te ajudar a construir uma linha rentável de produtos imprimíveis de educação especial.',
+    title: 'Educação Especial e AEE — Imprimíveis para Vender',
+    description: 'O Atendimento Educacional Especializado (AEE) e a educação especial representam um nicho com baixíssima concorrência e demanda crescente. Atividades adaptadas para crianças com necessidades especiais são escassas no mercado, criando oportunidade única para vendedores. No Etsy, imprimíveis de special education atraem pais e terapeutas no mercado americano. No Hotmart, materiais de AEE atendem o mercado brasileiro de inclusão educacional. No Amazon KDP, livros de atividades adaptadas ocupam um nicho especializado com pouca oferta. Crie atividades de coordenação motora, reconhecimento visual, sequenciamento e habilidades sociais. O impacto social agrega valor à marca. Teste grátis com marca d\'água — sem cadastro.',
   },
   marketOverview: `O mercado de imprimíveis de educação especial representa uma oportunidade de receitas premium porque os profissionais SPED funcionam como compradores institucionais especializados que devem obter materiais adaptados de forma independente quando os pacotes curriculares padrão não incluem recursos adequados para usuários com necessidades de aprendizagem diversas e adaptações relacionadas com deficiência. Enquanto um vendedor de educação geral pode comprar atividades de prática suplementares para reforçar a instrução de toda a turma, um vendedor de educação especial compra materiais adaptados individualmente para usuários que trabalham em níveis de capacidade vastamente diferentes dentro da mesma loja ou sala de apoio, multiplicando o volume de recursos distintos necessários por período instrucional. Esta diferença fundamental de compra significa que os profissionais de educação especial gastam substancialmente mais per capita em imprimíveis educativos do que os vendedores de educação geral, com vendedores de sala de apoio que atendem usuários em múltiplos anos de escolaridade e categorias de deficiência a necessitarem de diferentes adaptações simultaneamente.
 

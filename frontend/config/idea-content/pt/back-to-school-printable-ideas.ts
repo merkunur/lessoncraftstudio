@@ -2,25 +2,34 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Ideias de Imprimíveis Regresso às Aulas — Guia',
-    metaDescription: 'Ideias de imprimíveis de regresso às aulas para vender no Hotmart, Etsy e Amazon KDP. Produtos escolares, estratégias julho-setembro e dicas por plataforma.',
-
-    primaryKeyword: 'ideias de imprimíveis regresso às aulas',
+    primaryKeyword: 'imprimíveis volta às aulas para vender Etsy',
     secondaryKeywords: [
-      'atividades regresso às aulas para vender',
-      'negócio imprimíveis regresso às aulas',
-      'atividades atividades escolares para vendedores',
-      'vender imprimíveis regresso às aulas online',
+      'atividades volta às aulas para vender',
+      'imprimíveis início ano letivo Etsy',
+      'negócio atividades escolares Hotmart',
+      'material volta às aulas KDP',
     ],
     lsiKeywords: [
-      'pacotes atividades temática loja',
-      'imprimíveis recursos para vendedores',
-      'atividades temática material escolar',
+      'Hotmart',
+      'Kiwify',
+      'Etsy',
+      'Amazon KDP',
+      'renda extra',
+      'negócio de imprimíveis',
+      'licença comercial',
+      'nicho',
+      'ideias de produto',
+      'vendedor',
+      'Brasil',
+      'imprimíveis educativos',
     ],
+    titleTag: 'Imprimíveis volta às aulas Etsy | LCS',
+    metaDescription:
+      'Venda imprimíveis de volta às aulas no Etsy e Hotmart. Atividades educativas com alta demanda em janeiro-fevereiro (BR) e agosto-setembro (EUA).',
   },
   hero: {
-    title: 'Ideias de Negócio de Imprimíveis de Regresso às Aulas para Vendedores',
-    description: 'O regresso às aulas cria uma das janelas de procura sazonal mais amplas e fiáveis no calendário do negócio de imprimíveis, com a atividade de compradores a aumentar de julho a setembro enquanto os vendedores preparam novas salas de aula e os pais procuram atividades educativas para a preparação escolar. O nicho oferece uma rica variedade de subtemas que incluem material escolar, lápis, lápis de cera, mochilas, autocarros escolares, maçãs, cadernos, réguas, quadros e cenas de loja, proporcionando aos vendedores um vocabulário visual familiar que conecta com as famílias e os vendedores durante a transição do verão para a aprendizagem estruturada. As famílias que praticam ensino doméstico a planificar o novo ano letivo acrescentam outro segmento de compradores motivados, que frequentemente adquirem pacotes maiores e coleções completas de recursos. Para os vendedores de imprimíveis no Hotmart, Etsy e Amazon KDP, o nicho de regresso às aulas combina uma procura massiva e previsível com um tema universalmente reconhecido que impulsiona um forte envolvimento nos anúncios e compras anuais recorrentes. Este guia abrange ideias de produtos específicos, estratégias por plataforma e abordagens de calendarização para te ajudar a construir uma linha rentável de produtos imprimíveis de regresso às aulas utilizando as nossas ferramentas geradoras de atividades.',
+    title: 'Volta às Aulas — Imprimíveis para Vender no Etsy',
+    description: 'A volta às aulas é um dos períodos mais lucrativos para vendedores de imprimíveis educativos. No Brasil, a demanda começa em janeiro; nos EUA e Europa, em agosto-setembro. Isso significa dois picos de venda por ano para quem vende em múltiplos mercados. Atividades de reconhecimento de letras, contagem, caça-palavras e organização escolar têm alta procura nesse período. No Etsy, listagens de volta às aulas dominam a busca na temporada. No Hotmart, pacotes completos para início do ano letivo alcançam preços premium. No Amazon KDP, livros de atividades escolares vendem como presentes de volta às aulas. Teste grátis com marca d\'água — sem cadastro.',
   },
   marketOverview: `O nicho de imprimíveis de regresso às aulas domina um dos volumes de tráfego sazonal mais elevados no mercado educativo, gerando procura sustentada ao longo de uma ampla janela de vendas de julho a setembro que dá aos vendedores tempo significativo para captar receitas. Os vendedores começam a preparar as suas novas salas de aula em meados de julho, comprando materiais de configuração da loja, atividades para quebrar o gelo na primeira semana e complementos curriculares que os ajudem a arrancar com força quando os usuários chegarem. Os pais procuram atividades de preparação escolar, atividades educativas para colmatar a lacuna de aprendizagem do verão e imprimíveis atrativos que facilitem a transição do modo de férias de volta às rotinas diárias estruturadas. As famílias que praticam ensino doméstico, que planificam todo o seu ano letivo durante os meses de verão, representam um segmento de compradores particularmente valioso porque adquirem coleções completas de recursos em vez de atividades individuais.
 

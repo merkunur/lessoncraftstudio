@@ -2,25 +2,34 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Ideias de Imprimíveis de Espaço — Guia de Nicho',
-    metaDescription: 'Descobre ideias de imprimíveis de espaço para vender no Hotmart, Etsy e Amazon KDP. Conceitos de produtos do espaço exterior, estratégias STEM e dicas de nicho.',
-
-    primaryKeyword: 'ideias de imprimíveis de espaço',
+    primaryKeyword: 'imprimíveis de espaço para vender no Etsy',
     secondaryKeywords: [
-      'atividades temática espacial para vender',
-      'negócio imprimíveis temática espacial',
-      'atividades atividades espaço para vendedores',
-      'vender imprimíveis de espaço no Etsy',
+      'atividades espaço para vender Etsy',
+      'imprimíveis planetas foguetes Hotmart',
+      'negócio atividades espaço sideral',
+      'livros atividades espaço KDP',
     ],
     lsiKeywords: [
-      'atividades educativas astronomia',
-      'atividades planetas e foguetões',
-      'imprimíveis sistema solar para a loja',
+      'Hotmart',
+      'Kiwify',
+      'Etsy',
+      'Amazon KDP',
+      'renda extra',
+      'negócio de imprimíveis',
+      'licença comercial',
+      'nicho',
+      'ideias de produto',
+      'vendedor',
+      'Brasil',
+      'imprimíveis educativos',
     ],
+    titleTag: 'Imprimíveis espaço para Etsy | LCS',
+    metaDescription:
+      'Venda imprimíveis de espaço no Etsy, Hotmart e KDP. Planetas, foguetes e astronautas em atividades educativas. Nicho com demanda constante.',
   },
   hero: {
-    title: 'Ideias de Negócio de Imprimíveis de Espaço para Vendedores',
-    description: 'O espaço exterior é um dos temas mais universalmente cativantes para as crianças, tornando-o um nicho perene poderoso para empreendedores de imprimíveis que desejam vendas consistentes durante todo o ano sem dependência sazonal. O tema espacial oferece uma extraordinária variedade de subtemas que incluem planetas, foguetões, astronautas, estrelas, a lua, modelos do sistema solar, galáxias, alienígenas, naves espaciais, constelações, cometas, telescópios e estações espaciais, proporcionando aos vendedores um profundo vocabulário visual que desperta a imaginação e a curiosidade nos jovens aprendizes. O alinhamento com a educação STEM torna os imprimíveis de espaço especialmente valiosos para os vendedores que integram conceitos científicos em atividades de matemática, literacia e arte de forma transversal ao catálogo de produtos. Para os vendedores de imprimíveis no Hotmart, Etsy e Amazon KDP, o nicho espacial combina uma forte procura durante todo o ano com um apelo educativo multicurricular que ressoa tanto com vendedores online como com famílias que educam em casa e investem em materiais de aprendizagem ricos em ciência. Este guia abrange ideias de produtos específicos, estratégias por plataforma e abordagens de posicionamento para te ajudar a construir uma linha rentável de produtos imprimíveis de espaço utilizando as nossas ferramentas geradoras de atividades.',
+    title: 'Imprimíveis de Espaço — Atividades para Vender no Etsy',
+    description: 'O espaço sideral é um tema fascinante que nunca sai de moda. Planetas, foguetes, astronautas e estrelas geram encantamento em crianças de todas as idades e forte interesse de compra dos pais. No Etsy, imprimíveis de espaço têm demanda constante durante todo o ano. No Hotmart, pacotes educativos com tema espacial atendem educadores que buscam material de ciências envolvente. No Amazon KDP, livros de atividades do espaço são populares na categoria infantil. A combinação de apelo visual forte e valor educativo em astronomia torna esse nicho altamente rentável. Crie caça-palavras, contagem, labirintos e páginas para colorir espaciais. Teste grátis com marca d\'água — sem cadastro.',
   },
   marketOverview: `O nicho de imprimíveis de espaço ocupa uma posição excepcionalmente vantajosa para os vendedores de imprimíveis porque oferece uma procura consistente durante todo o ano sem os ciclos de auge e queda que caracterizam os nichos sazonais. A fascinação das crianças pelo espaço exterior é profundamente universal, transcendendo grupos etários, culturas e filosofias educativas. Os pré-escolares ficam cativados por foguetões e estrelas, as crianças do jardim de infância adoram aprender os nomes dos planetas e as aventuras dos astronautas, e os compradores do ensino básico mergulham com entusiasmo em dados do sistema solar, identificação de constelações e história da exploração espacial. Este amplo apelo por idades significa que os vendedores podem criar produtos dirigidos a múltiplos níveis escolares a partir de um único tema, multiplicando a profundidade do seu catálogo sem mudar de matéria.
 

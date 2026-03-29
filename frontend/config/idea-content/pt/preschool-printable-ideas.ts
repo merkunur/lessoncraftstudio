@@ -2,24 +2,34 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Ideias de Imprimíveis Pré-Escolares — Guia de Nicho',
-    metaDescription: 'Descubra ideias de imprimíveis pré-escolares para vender no Hotmart, Etsy e Amazon KDP. Produtos pré-escolar e estratégias de nicho para vendedores digitais.',
-    primaryKeyword: 'ideias de imprimíveis pré-escolares',
+    primaryKeyword: 'imprimíveis de educação infantil para vender',
     secondaryKeywords: [
-      'atividades pré-escolares para vender',
-      'negócio imprimíveis pré-escolar',
-      'atividades atividades pré-escolares para vendedores',
-      'vender imprimíveis pré-escolares na Hotmart',
+      'atividades educação infantil para vender',
+      'imprimíveis pré-escola Etsy Hotmart',
+      'negócio atividades crianças 3-5 anos',
+      'livros atividades educação infantil KDP',
     ],
     lsiKeywords: [
-      'atividades educativas primeira infância',
-      'páginas atividades crianças pequenas aprendizagem',
-      'imprimíveis recursos loja idades 3-5',
+      'Hotmart',
+      'Kiwify',
+      'Etsy',
+      'Amazon KDP',
+      'renda extra',
+      'negócio de imprimíveis',
+      'licença comercial',
+      'nicho',
+      'ideias de produto',
+      'vendedor',
+      'Brasil',
+      'imprimíveis educativos',
     ],
+    titleTag: 'Imprimíveis educação infantil Etsy | LCS',
+    metaDescription:
+      'Venda imprimíveis de educação infantil no Etsy e Hotmart. Atividades para crianças de 3-5 anos com alta demanda. Nicho mais lucrativo do mercado.',
   },
   hero: {
-    title: 'Ideias de Negócio de Imprimíveis Pré-Escolares para Vendedores',
-    description: 'Os imprimíveis pré-escolares representam o nicho mais amplo e fiável em todo o mercado de imprimíveis educativos porque todas as crianças do planeta passam pela janela de desenvolvimento dos três aos cinco anos, criando uma base de compradores enorme e em perpétua renovação de pais, vendedores de infância, responsáveis de creches e famílias que praticam ensino doméstico que procuram ativamente materiais de aprendizagem estruturada para a educação precoce. As competências fundamentais que definem a aprendizagem pré-escolar abrangem uma extraordinária amplitude de domínios do desenvolvimento que incluem formas, cores, números de um a vinte, reconhecimento de letras maiúsculas e minúsculas, traçado, recorte, coordenação de motricidade fina, classificação, emparelhamento, contagem, discriminação visual, reconhecimento de padrões e consciência fonética inicial, proporcionando aos vendedores de imprimíveis uma enorme oportunidade de construção de catálogo onde cada área de competência sustenta dezenas de conceitos de produtos distintos. A versatilidade transversal ao catálogo de produtos torna os imprimíveis pré-escolares especialmente valiosos porque os conceitos de aprendizagem precoce conectam-se naturalmente com a matemática através da contagem, do reconhecimento de números e da soma simples com manipulativos, a literacia através do traçado do alfabeto, do emparelhamento de letras e da introdução de palavras de uso frequente, as ciências através da classificação e categorização de animais, estações e objetos naturais, e a arte através do colorir, do desenho guiado e das atividades de expressão criativa que desenvolvem o controlo de motricidade fina que as crianças precisam para a preparação na escrita. Para os vendedores de imprimíveis no Hotmart, Etsy e Amazon KDP, o nicho pré-escolar combina uma procura sem igual durante todo o ano com a base de compradores mais ampla possível porque os pais de crianças de três a cinco anos representam todos os grupos demográficos, os vendedores de infância em milhares de programas precisam de materiais complementares acessíveis, os centros de creche necessitam de rotações de atividades frescas com orçamentos limitados, as famílias que praticam ensino doméstico e constroem programas completos de pré-escolar compram extensivamente, e os avós e familiares compram imprimíveis educativos como presentes de desenvolvimento ao longo de cada época e festividade. Este guia abrange ideias de produtos específicos, estratégias por plataforma e abordagens de posicionamento de nicho para te ajudar a construir uma linha rentável de produtos imprimíveis pré-escolares utilizando as nossas ferramentas geradoras de atividades.',
+    title: 'Educação Infantil — Imprimíveis para Vender no Etsy',
+    description: 'A educação infantil (3-5 anos) é o nicho mais lucrativo no mercado de imprimíveis educativos. Pais e educadores buscam constantemente atividades de coordenação motora, reconhecimento de letras, contagem básica e cores. No Etsy, imprimíveis para educação infantil dominam as vendas da categoria educativa. No Hotmart, pacotes completos para pré-escola atendem o enorme mercado brasileiro de educação infantil. No Amazon KDP, livros de atividades para crianças pequenas são bestsellers constantes. O volume de compradores nessa faixa etária garante demanda durante todo o ano. Crie atividades de traçar, colorir, contar e encontrar diferenças. Teste grátis com marca d\'água — sem cadastro.',
   },
   marketOverview: `O nicho de imprimíveis pré-escolares ocupa uma posição singularmente dominante no mercado educativo porque serve o segmento de compradores por grupo etário mais amplo com o conjunto de competências mais universalmente necessário. Ao contrário dos nichos temáticos que dependem de as crianças terem interesses específicos, todas as crianças em idade pré-escolar precisam de aprender formas, cores, números, letras e competências motoras fundamentais independentemente das suas preferências individuais ou personalidade. Esta necessidade universal cria uma procura que transcende origens culturais, regiões geográficas e circunstâncias familiares, fazendo dos imprimíveis pré-escolares um dos geradores de receitas mais estáveis e previsíveis disponíveis para os empreendedores de imprimíveis que constroem negócios sustentáveis em qualquer mercado.
 

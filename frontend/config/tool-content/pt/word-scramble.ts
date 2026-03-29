@@ -4,28 +4,28 @@ const content: ToolContent = {
   seo: {
     primaryKeyword: 'gerador palavras embaralhadas',
     secondaryKeywords: [
-      'criar fichas de palavras embaralhadas para vender',
-      'gerador de fichas de ortografia com letras embaralhadas',
-      'fichas de palavras embaralhadas imprimíveis uso comercial',
+      'criar atividades de palavras embaralhadas para vender',
+      'gerador de atividades de ortografia com letras embaralhadas',
+      'atividades de palavras embaralhadas imprimíveis uso comercial',
       'gerador de palavras embaralhadas para KDP',
     ],
     lsiKeywords: [
-      'fichas de reorganização de letras com imagens para Etsy',
+      'atividades de reorganização de letras com imagens para Etsy',
       'ferramenta de puzzles de ortografia multilingue',
       'gerador de atividades de reorganização de letras',
     ],
     titleTag: 'Gerador Palavras Embaralhadas | Criar e Vender',
-    metaDescription: 'Gere fichas de palavras embaralhadas com código de cores vogais-consoantes, imagens, 4 níveis de dificuldade e 11 idiomas. Teste grátis com marca d\'água.',
+    metaDescription: 'Gere atividades de palavras embaralhadas com código de cores vogais-consoantes, imagens, 4 níveis de dificuldade e 11 idiomas. Teste grátis com marca d\'água.',
   },
 
   hero: {
-    title: 'Gerador de Fichas de Palavras Embaralhadas',
+    title: 'Gerador de Atividades de Palavras Embaralhadas',
     tagline: 'Crie puzzles de ortografia com peças de letras embaralhadas, imagens, código de cores vogais-consoantes e 4 níveis de dificuldade em 11 idiomas',
-    description: 'Transforme a prática de vocabulário num puzzle de ortografia que os usuários resolvem reorganizando peças de letras embaralhadas. Esta ferramenta gera fichas de palavras embaralhadas onde uma imagem aparece ao lado de um conjunto de peças desordenadas — os usuários observam a imagem, identificam o que representa e colocam as letras na ordem correta. Ao contrário dos exercícios de adivinhar palavras com espaços em branco, as palavras embaralhadas fornecem TODAS as letras mas na ordem errada, transformando a atividade num desafio de reorganização que fortalece a precisão ortográfica através de manipulação ativa. A funcionalidade principal é o código de cores vogais-consoantes: ative-o para mostrar as vogais numa cor e as consoantes noutra, acrescentando uma dimensão visual de fonética que ajuda os usuários a identificar tipos de letras enquanto desembaralham. Quatro níveis de dificuldade controlam quantas letras aparecem pré-posicionadas nas suas posições corretas: Sem Pistas embaralha todas as letras para desafio máximo, Fácil pré-posiciona metade para principiantes, Normal coloca um quarto para prática equilibrada e Difícil coloca apenas um sexto para usuários avançados. Escolha entre três fontes de conteúdo: o modo Biblioteca de Imagens usa mais de 3100 ilustrações em 104 coleções temáticas, o Modo Edição Manual permite selecionar imagens e personalizar os nomes de exibição, e o modo Lista de Palavras Personalizada permite escrever até 8 palavras diretamente para puzzles apenas de texto. A sensibilidade linguística está integrada: mude do português para qualquer um dos 11 idiomas disponíveis e a mesma imagem produz uma palavra-alvo diferente com letras diferentes e uma disposição completamente distinta. Uma imagem de cão gera \"CÃO\" em português, \"DOG\" em inglês, \"HUND\" em alemão, \"CHIEN\" em francês. Um único design converte-se em 11 produtos únicos. Configure de 1 a 10 puzzles por página, alterne entre maiúsculas e minúsculas, adicione numeração de exercícios e escolha entre 7 famílias tipográficas. Exporte como PDF pronto para imprimir ou JPEG de alta resolução com geração automática de gabarito. O teste grátis inclui uma marca d\'água nos downloads. Adquira uma licença para remover a marca d\'água e vender com uso comercial.',
+    description: 'Transforme a prática de vocabulário num puzzle de ortografia que os usuários resolvem reorganizando peças de letras embaralhadas. Esta ferramenta gera atividades de palavras embaralhadas onde uma imagem aparece ao lado de um conjunto de peças desordenadas — os usuários observam a imagem, identificam o que representa e colocam as letras na ordem correta. Ao contrário dos exercícios de adivinhar palavras com espaços em branco, as palavras embaralhadas fornecem TODAS as letras mas na ordem errada, transformando a atividade num desafio de reorganização que fortalece a precisão ortográfica através de manipulação ativa. A funcionalidade principal é o código de cores vogais-consoantes: ative-o para mostrar as vogais numa cor e as consoantes noutra, acrescentando uma dimensão visual de fonética que ajuda os usuários a identificar tipos de letras enquanto desembaralham. Quatro níveis de dificuldade controlam quantas letras aparecem pré-posicionadas nas suas posições corretas: Sem Pistas embaralha todas as letras para desafio máximo, Fácil pré-posiciona metade para principiantes, Normal coloca um quarto para prática equilibrada e Difícil coloca apenas um sexto para usuários avançados. Escolha entre três fontes de conteúdo: o modo Biblioteca de Imagens usa mais de 3100 ilustrações em 104 coleções temáticas, o Modo Edição Manual permite selecionar imagens e personalizar os nomes de exibição, e o modo Lista de Palavras Personalizada permite escrever até 8 palavras diretamente para puzzles apenas de texto. A sensibilidade linguística está integrada: mude do português para qualquer um dos 11 idiomas disponíveis e a mesma imagem produz uma palavra-alvo diferente com letras diferentes e uma disposição completamente distinta. Uma imagem de cão gera \"CÃO\" em português, \"DOG\" em inglês, \"HUND\" em alemão, \"CHIEN\" em francês. Um único design converte-se em 11 produtos únicos. Configure de 1 a 10 puzzles por página, alterne entre maiúsculas e minúsculas, adicione numeração de exercícios e escolha entre 7 famílias tipográficas. Exporte como PDF pronto para imprimir ou JPEG de alta resolução com geração automática de gabarito. O teste grátis inclui uma marca d\'água nos downloads. Adquira uma licença para remover a marca d\'água e vender com uso comercial.',
   },
 
   tutorial: {
-    title: 'Como Criar Fichas de Palavras Embaralhadas em 8 Passos Simples',
+    title: 'Como Criar Atividades de Palavras Embaralhadas em 8 Passos Simples',
     steps: [
       {
         title: 'Abrir o Gerador de Palavras Embaralhadas',
@@ -33,7 +33,7 @@ const content: ToolContent = {
       },
       {
         title: 'Configurar o Layout da Página e o Modelo',
-        description: 'Na secção \"Configuração de Página\", selecione o tamanho: Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal, Quadrado ou introduza um tamanho personalizado. Escolha um modelo de ficha do seletor de modelos. Defina a cor da página, adicione um fundo temático com opacidade ajustável da biblioteca de 104 temas e selecione uma moldura decorativa.',
+        description: 'Na secção \"Configuração de Página\", selecione o tamanho: Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal, Quadrado ou introduza um tamanho personalizado. Escolha um modelo de atividade do seletor de modelos. Defina a cor da página, adicione um fundo temático com opacidade ajustável da biblioteca de 104 temas e selecione uma moldura decorativa.',
       },
       {
         title: 'Escolher a Fonte de Conteúdo',
@@ -56,8 +56,8 @@ const content: ToolContent = {
         description: 'Escolha entre 7 famílias tipográficas: Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial ou Verdana. Use as ferramentas do canvas Fabric.js para arrastar, redimensionar, rodar e reposicionar cada elemento da página. As ferramentas de alinhamento posicionam os elementos com precisão e o bloqueio/desbloqueio protege os elementos terminados enquanto edita outros. Desfazer e refazer ilimitados permitem-lhe experimentar livremente.',
       },
       {
-        title: 'Gerar Gabarito e Descarregar',
-        description: 'Clique em \"Gerar\" para criar a sua ficha de palavras embaralhadas. Ative o modo Escala de Cinzentos para produzir fichas a preto e branco com poupança de tinta, ideais para interiores KDP. Mude para o separador de Gabarito e gere uma versão resolvida que mostra a palavra corretamente desembaralhada para cada puzzle. Descarregue tanto a ficha como o gabarito como PDF pronto para imprimir ou JPEG de alta resolução a mais de 300 DPI.',
+        title: 'Gerar Gabarito e Baixar',
+        description: 'Clique em \"Gerar\" para criar a sua atividade de palavras embaralhadas. Ative o modo Escala de Cinzentos para produzir atividades a preto e branco com poupança de tinta, ideais para interiores KDP. Mude para o aba de Gabarito e gere uma versão resolvida que mostra a palavra corretamente desembaralhada para cada puzzle. Baixe tanto a atividade como o gabarito como PDF pronto para imprimir ou JPEG de alta resolução a mais de 300 DPI.',
       },
     ],
   },
@@ -65,7 +65,7 @@ const content: ToolContent = {
   whatYouCanCreate: [
     {
       title: 'Pacotes de Puzzles de Reorganização de Letras Temáticos',
-      description: 'Crie conjuntos de 10 a 15 fichas de palavras embaralhadas usando coleções temáticas de imagens — animais, alimentos, veículos, cenas da natureza, festividades, desportos e mais. Cada puzzle apresenta uma imagem ao lado de peças de letras embaralhadas que os usuários reorganizam para formar a ortografia correta. Ative o código de cores em metade do conjunto para uma variante \"edição fonética\" que realça os padrões vogais-consoantes. Agrupe por tema e venda na Etsy ou Gumroad. O formato de peças embaralhadas com imagens coloridas faz as miniaturas dos seus listings destacarem-se instantaneamente face às fichas de ortografia simples.',
+      description: 'Crie conjuntos de 10 a 15 atividades de palavras embaralhadas usando coleções temáticas de imagens — animais, alimentos, veículos, cenas da natureza, festividades, desportos e mais. Cada puzzle apresenta uma imagem ao lado de peças de letras embaralhadas que os usuários reorganizam para formar a ortografia correta. Ative o código de cores em metade do conjunto para uma variante \"edição fonética\" que realça os padrões vogais-consoantes. Agrupe por tema e venda na Etsy ou Hotmart. O formato de peças embaralhadas com imagens coloridas faz as miniaturas dos seus listings destacarem-se instantaneamente face às atividades de ortografia simples.',
     },
     {
       title: 'Livros de Palavras Embaralhadas para KDP',
@@ -77,22 +77,22 @@ const content: ToolContent = {
     },
     {
       title: 'Produtos de Ortografia Multilingues',
-      description: 'Mude a definição de idioma e regenere o mesmo design de ficha nos 11 idiomas disponíveis. A mesma imagem de cão produz \"CÃO\" em português, \"DOG\" em inglês, \"HUND\" em alemão, \"CHIEN\" em francês — cada um com letras diferentes, quantidades de letras diferentes e disposições completamente distintas. Uma sessão de design produz 11 produtos distintos, cada um pronto para publicar no seu mercado local.',
+      description: 'Mude a definição de idioma e regenere o mesmo design de atividade nos 11 idiomas disponíveis. A mesma imagem de cão produz \"CÃO\" em português, \"DOG\" em inglês, \"HUND\" em alemão, \"CHIEN\" em francês — cada um com letras diferentes, quantidades de letras diferentes e disposições completamente distintas. Uma sessão de design produz 11 produtos distintos, cada um pronto para publicar no seu mercado local.',
     },
     {
-      title: 'Fichas de Vocabulário Personalizado com Letras Embaralhadas',
+      title: 'Atividades de Vocabulário Personalizado com Letras Embaralhadas',
       description: 'Use o modo Lista de Palavras Personalizada para escrever vocabulário específico por disciplina: termos de ciências, palavras de alta frequência, listas de ditado, vocabulário semanal ou prática de idiomas estrangeiros. Não são necessárias imagens — a ferramenta gera peças de letras embaralhadas a partir das palavras escritas. Crie puzzles de ortografia adaptados a qualquer catálogo de produtos, nível escolar ou tema de nicho que a biblioteca de imagens não cubra.',
     },
     {
       title: 'Pacotes de Dificuldade Diferenciada',
-      description: 'Gere quatro versões da mesma ficha temática — uma em cada nível de dificuldade: Sem Pistas, Fácil, Normal e Difícil. Os vendedores atribuem a versão adequada a cada usuário conforme o seu nível. Venda como um pacote diferenciado a um preço premium na Gumroad ou Etsy. Adicione variantes com código de cores para um total de oito versões distintas de uma única sessão de design, com gabaritos incluídos para cada versão.',
+      description: 'Gere quatro versões da mesma atividade temática — uma em cada nível de dificuldade: Sem Pistas, Fácil, Normal e Difícil. Os vendedores atribuem a versão adequada a cada usuário conforme o seu nível. Venda como um pacote diferenciado a um preço premium na Hotmart ou Etsy. Adicione variantes com código de cores para um total de oito versões distintas de uma única sessão de design, com gabaritos incluídos para cada versão.',
     },
   ],
 
   businessIdeas: [
     {
       title: 'Loja de Palavras Embaralhadas Fonéticas na Etsy',
-      description: 'Abra uma loja Etsy especializada em fichas de palavras embaralhadas com código de cores — uma categoria de produto que nenhum concorrente pode replicar com geradores básicos de listas de palavras. A funcionalidade de código de cores vogais-consoantes cria um produto visualmente distintivo que chama a atenção nos resultados de pesquisa da Etsy e atrai pais focados em fonética e vendedores de português como língua estrangeira. Crie pacotes temáticos tanto em edição com código de cores como em edição clássica Todo Preto, definindo um preço premium para os conjuntos fonéticos com código de cores. Direcione compradores que pesquisam fichas de ortografia visual, fichas de fonética e atividades de reconhecimento de letras.',
+      description: 'Abra uma loja Etsy especializada em atividades de palavras embaralhadas com código de cores — uma categoria de produto que nenhum concorrente pode replicar com geradores básicos de listas de palavras. A funcionalidade de código de cores vogais-consoantes cria um produto visualmente distintivo que chama a atenção nos resultados de pesquisa da Etsy e atrai pais focados em fonética e vendedores de português como língua estrangeira. Crie pacotes temáticos tanto em edição com código de cores como em edição clássica Todo Preto, definindo um preço premium para os conjuntos fonéticos com código de cores. Direcione compradores que pesquisam atividades de ortografia visual, atividades de fonética e atividades de reconhecimento de letras.',
       platform: 'Etsy',
     },
     {
@@ -101,9 +101,9 @@ const content: ToolContent = {
       platform: 'Amazon KDP',
     },
     {
-      title: 'Centros de Literacia Diferenciados no Gumroad',
-      description: 'Carregue pacotes de fichas de palavras embaralhadas na Gumroad organizados por tema, nível de dificuldade e código de cores. Nível 1: Fácil com peças de cores vogais-consoantes para aprendizes visuais. Nível 2: Normal com código de cores. Nível 3: Difícil com peças Todo Preto. Nível 4: Sem Pistas com Todo Preto para desafio avançado. Inclua gabaritos e uma folha de acompanhamento do progresso. Os compradores da Gumroad pagam preços premium por recursos de ortografia diferenciados que podem usar imediatamente em múltiplos níveis de capacidade.',
-      platform: 'Gumroad',
+      title: 'Centros de Literacia Diferenciados na Hotmart',
+      description: 'Carregue pacotes de atividades de palavras embaralhadas na Hotmart organizados por tema, nível de dificuldade e código de cores. Nível 1: Fácil com peças de cores vogais-consoantes para aprendizes visuais. Nível 2: Normal com código de cores. Nível 3: Difícil com peças Todo Preto. Nível 4: Sem Pistas com Todo Preto para desafio avançado. Inclua gabaritos e uma folha de acompanhamento do progresso. Os compradores da Hotmart pagam preços premium por recursos de ortografia diferenciados que podem usar imediatamente em múltiplos níveis de capacidade.',
+      platform: 'Hotmart',
     },
     {
       title: 'Loja de Vocabulário Multilingue',
@@ -112,13 +112,13 @@ const content: ToolContent = {
     },
     {
       title: 'Funil Visual de Puzzles no Pinterest',
-      description: 'O formato de peças de letras embaralhadas com imagens é inerentemente visual e atrativo para o Pinterest — uma imagem colorida de um animal ao lado de peças de letras desordenadas é reconhecível instantaneamente como uma atividade de puzzle divertida. As peças com código de cores tornam os pins ainda mais apelativos. Ofereça um conjunto de amostra com marca d\'água de 3 páginas, recolha endereços de email e depois ofereça os seus pacotes temáticos e multilingues completos. As fichas de palavras embaralhadas conseguem significativamente mais guardados do que listas de ortografia simples porque parecem jogos interativos.',
+      description: 'O formato de peças de letras embaralhadas com imagens é inerentemente visual e atrativo para o Pinterest — uma imagem colorida de um animal ao lado de peças de letras desordenadas é reconhecível instantaneamente como uma atividade de puzzle divertida. As peças com código de cores tornam os pins ainda mais apelativos. Ofereça um conjunto de amostra com marca d\'água de 3 páginas, recolha endereços de email e depois ofereça os seus pacotes temáticos e multilingues completos. As atividades de palavras embaralhadas conseguem significativamente mais guardados do que listas de ortografia simples porque parecem jogos interativos.',
       platform: 'Pinterest',
     },
     {
-      title: 'Kit Completo de Ortografia no Gumroad',
-      description: 'Agrupe fichas de palavras embaralhadas com fichas de adivinhar palavras, caça-palavras, fichas de caligrafia e fichas de associação para criar um kit completo de ortografia no Gumroad. O formato de letras embaralhadas (reorganização de letras) exercita uma competência cognitiva diferente de adivinhar palavras (preencher espaços em branco) ou caça-palavras (busca de letras). Um kit de ortografia multiformato justifica um preço premium e proporciona aos usuários prática variada com o mesmo vocabulário.',
-      platform: 'Gumroad',
+      title: 'Kit Completo de Ortografia na Hotmart',
+      description: 'Agrupe atividades de palavras embaralhadas com atividades de adivinhar palavras, caça-palavras, atividades de caligrafia e atividades de associação para criar um kit completo de ortografia na Hotmart. O formato de letras embaralhadas (reorganização de letras) exercita uma competência cognitiva diferente de adivinhar palavras (preencher espaços em branco) ou caça-palavras (busca de letras). Um kit de ortografia multiformato justifica um preço premium e proporciona aos usuários prática variada com o mesmo vocabulário.',
+      platform: 'Hotmart',
     },
   ],
 
@@ -133,7 +133,7 @@ const content: ToolContent = {
     },
     {
       title: 'Multilingue para 11 Vezes Mais Produtos',
-      description: 'Cada ficha de palavras embaralhadas que desenhar pode converter-se em 11 produtos mudando o idioma. A mesma imagem de gato produz \"GATO\", \"CAT\", \"KATZE\", \"CHAT\", \"GATTO\" e mais — cada um com diferente quantidade de letras, diferentes peças e diferentes disposições. Os puzzles de ortografia em idiomas específicos são um nicho dramaticamente pouco explorado fora do inglês.',
+      description: 'Cada atividade de palavras embaralhadas que desenhar pode converter-se em 11 produtos mudando o idioma. A mesma imagem de gato produz \"GATO\", \"CAT\", \"KATZE\", \"CHAT\", \"GATTO\" e mais — cada um com diferente quantidade de letras, diferentes peças e diferentes disposições. Os puzzles de ortografia em idiomas específicos são um nicho dramaticamente pouco explorado fora do inglês.',
     },
     {
       title: 'Use o Modo Edição Manual para Vocabulário Personalizado',
@@ -141,11 +141,11 @@ const content: ToolContent = {
     },
     {
       title: 'Use Escala de Cinzentos para KDP e Impressão em Massa',
-      description: 'Ative o modo escala de cinzentos para fichas destinadas a interiores de Amazon KDP ou impressão em massa online. A saída a preto e branco custa significativamente menos a imprimir. Reserve o modo a cores para pré-visualizações de listings na Etsy e downloads digitais onde as imagens vibrantes e as peças coloridas atraem cliques.',
+      description: 'Ative o modo escala de cinzentos para atividades destinadas a interiores de Amazon KDP ou impressão em massa online. A saída a preto e branco custa significativamente menos a imprimir. Reserve o modo a cores para pré-visualizações de listings na Etsy e downloads digitais onde as imagens vibrantes e as peças coloridas atraem cliques.',
     },
     {
       title: 'Misture Níveis de Dificuldade nos Pacotes',
-      description: 'Crie pacotes de fichas que progridam de Fácil a Sem Pistas dentro do mesmo tema. Um pacote \"Puzzles de Ortografia de Animais da Quinta\" com 5 páginas Fáceis, 5 Normal, 5 Difícil e 5 Sem Pistas proporciona aos vendedores um conjunto diferenciado pronto a usar. Inclua gabaritos para cada nível. Os pacotes progressivos têm preços premium na Gumroad e Etsy.',
+      description: 'Crie pacotes de atividades que progridam de Fácil a Sem Pistas dentro do mesmo tema. Um pacote \"Puzzles de Ortografia de Animais da Quinta\" com 5 páginas Fáceis, 5 Normal, 5 Difícil e 5 Sem Pistas proporciona aos vendedores um conjunto diferenciado pronto para usar. Inclua gabaritos para cada nível. Os pacotes progressivos têm preços premium na Hotmart e Etsy.',
     },
     {
       title: 'Combine com Adivinhar Palavras para Pacotes Completos',
@@ -156,7 +156,7 @@ const content: ToolContent = {
   faq: [
     {
       question: 'Existe um teste grátis?',
-      answer: 'Sim. A ferramenta oferece um teste grátis com todas as funcionalidades — as três fontes de conteúdo, os quatro níveis de dificuldade, a biblioteca completa de imagens, o código de cores vogais-consoantes, a geração de gabarito e todos os formatos de exportação. Sem registo, sem cartão de crédito. Os downloads do teste grátis incluem uma marca d\'água. Adquira uma licença comercial para remover a marca d\'água e desbloquear os direitos de venda.',
+      answer: 'Sim. A ferramenta oferece um teste grátis com todas as funcionalidades — as três fontes de conteúdo, os quatro níveis de dificuldade, a biblioteca completa de imagens, o código de cores vogais-consoantes, a geração de gabarito e todos os formatos de exportação. Sem cadastro, sem cartão de crédito. Os downloads do teste grátis incluem uma marca d\'água. Adquira uma licença comercial para remover a marca d\'água e desbloquear os direitos de venda.',
     },
     {
       question: 'Qual é a diferença entre palavras embaralhadas e adivinhar palavras?',
@@ -180,19 +180,19 @@ const content: ToolContent = {
     },
     {
       question: 'Posso carregar as minhas próprias imagens?',
-      answer: 'Sim. Clique no botão \"Carregar Imagem\" para usar os seus próprios ficheiros PNG ou JPEG como pistas visuais. Pode escrever um nome personalizado para cada imagem carregada para controlar a palavra que será embaralhada. As imagens personalizadas permitem-lhe criar fichas exclusivas com as suas próprias ilustrações que nenhum outro vendedor pode replicar.',
+      answer: 'Sim. Clique no botão \"Carregar Imagem\" para usar os seus próprios arquivos PNG ou JPEG como pistas visuais. Pode escrever um nome personalizado para cada imagem carregada para controlar a palavra que será embaralhada. As imagens personalizadas permitem-lhe criar atividades exclusivas com as suas próprias ilustrações que nenhum outro vendedor pode replicar.',
     },
     {
       question: 'A ferramenta gera gabaritos?',
       answer: 'Sim. Clique no botão Gerar Gabarito para criar uma versão resolvida que mostra a palavra corretamente desembaralhada para cada puzzle. O gabarito está disponível nos formatos PDF e JPEG. Incluir gabaritos nos seus pacotes de produtos acrescenta valor profissional sem trabalho manual de montagem.',
     },
     {
-      question: 'Que formatos de ficheiro e tamanhos de página estão disponíveis?',
-      answer: 'Descarregue fichas e gabaritos como imagens JPEG de alta resolução ou ficheiros PDF otimizados para impressão a mais de 300 DPI. Os tamanhos de página disponíveis incluem Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal, Quadrado e dimensões personalizadas. Os PDFs são ideais para impressão direta e carregamento na KDP; os JPEGs são perfeitos para maquetas de produtos e redes sociais.',
+      question: 'Que formatos de arquivo e tamanhos de página estão disponíveis?',
+      answer: 'Baixe atividades e gabaritos como imagens JPEG de alta resolução ou arquivos PDF otimizados para impressão a mais de 300 DPI. Os tamanhos de página disponíveis incluem Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal, Quadrado e dimensões personalizadas. Os PDFs são ideais para impressão direta e carregamento na KDP; os JPEGs são perfeitos para maquetas de produtos e redes sociais.',
     },
     {
-      question: 'Posso vender comercialmente as fichas criadas com esta ferramenta?',
-      answer: 'O teste grátis com marca d\'água é apenas para uso pessoal e educativo. Para vender fichas na Etsy, Gumroad, Amazon KDP ou qualquer outro marketplace, precisa de uma licença comercial. A licença comercial remove a marca d\'água e concede direitos completos de revenda para as fichas que criar.',
+      question: 'Posso vender comercialmente as atividades criadas com esta ferramenta?',
+      answer: 'O teste grátis com marca d\'água é apenas para uso pessoal e educativo. Para vender atividades na Hotmart, Etsy, Amazon KDP ou qualquer outro marketplace, precisa de uma licença comercial. A licença comercial remove a marca d\'água e concede direitos completos de revenda para as atividades que criar.',
     },
     {
       question: 'Qual é a política de reembolso?',
@@ -201,30 +201,30 @@ const content: ToolContent = {
   ],
 
   internalLinks: [
-    { pageType: 'app', slug: 'palavras-embaralhadas-fichas', anchorText: 'Fichas de Palavras Embaralhadas — Detalhes Completos do Produto' },
+    { pageType: 'app', slug: 'palavras-embaralhadas-atividades', anchorText: 'Atividades de Palavras Embaralhadas — Detalhes Completos do Produto' },
     { pageType: 'tool', slug: 'gerador-adivinhar-palavras', anchorText: 'Gerador de Adivinhar Palavras' },
     { pageType: 'tool', slug: 'gerador-trem-alfabeto', anchorText: 'Gerador de Trem do Alfabeto' },
     { pageType: 'tool', slug: 'gerador-caca-palavras', anchorText: 'Gerador de Caça-Palavras' },
     { pageType: 'tool', slug: 'gerador-criptogramas', anchorText: 'Gerador de Criptogramas' },
-    { pageType: 'tool', slug: 'gerador-fichas-preposicoes', anchorText: 'Gerador de Fichas de Preposições' },
-    { pageType: 'tool', slug: 'gerador-fichas-escrita', anchorText: 'Gerador de Fichas de Escrita' },
-    { pageType: 'tool', slug: 'gerador-fichas-associacao', anchorText: 'Gerador de Fichas de Associação' },
+    { pageType: 'tool', slug: 'gerador-atividades-preposicoes', anchorText: 'Gerador de Atividades de Preposições' },
+    { pageType: 'tool', slug: 'gerador-atividades-escrita', anchorText: 'Gerador de Atividades de Escrita' },
+    { pageType: 'tool', slug: 'gerador-atividades-associacao', anchorText: 'Gerador de Atividades de Associação' },
   ],
 
   visuals: {
     heroImages: {
       primary: '/samples/portuguese/word scramble/Letras Embaralhadas 1.webp',
-      primaryAlt: 'Ficha de palavras embaralhadas com imagens e peças de letras embaralhadas para puzzles de ortografia por reorganização',
+      primaryAlt: 'Atividade de palavras embaralhadas com imagens e peças de letras embaralhadas para puzzles de ortografia por reorganização',
     },
     sampleGallery: [
       {
         src: '/samples/portuguese/word scramble/Letras Embaralhadas 2.webp',
-        alt: 'Ficha de palavras embaralhadas com imagens e peças de letras embaralhadas em dificuldade Fácil',
+        alt: 'Atividade de palavras embaralhadas com imagens e peças de letras embaralhadas em dificuldade Fácil',
         caption: 'Dificuldade Fácil — metade das letras pré-posicionadas como pistas para usuários principiantes',
       },
       {
         src: '/samples/portuguese/word scramble/Letras Embaralhadas 3.webp',
-        alt: 'Ficha de palavras embaralhadas com código de cores vogais-consoantes mostrando peças de letras coloridas',
+        alt: 'Atividade de palavras embaralhadas com código de cores vogais-consoantes mostrando peças de letras coloridas',
         caption: 'Modo com código de cores — vogais e consoantes em cores diferentes para consciência fonética',
       },
       {
@@ -234,7 +234,7 @@ const content: ToolContent = {
       },
     ],
     youtubeId: 'Hc3g5VsSHEU',
-    videoTitle: 'Como Criar Fichas de Palavras Embaralhadas por Reorganização de Letras — Tutorial em Vídeo',
+    videoTitle: 'Como Criar Atividades de Palavras Embaralhadas por Reorganização de Letras — Tutorial em Vídeo',
   },
 };
 

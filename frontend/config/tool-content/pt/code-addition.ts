@@ -1,34 +1,34 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'criar fichas adição codificada para a loja',
+    primaryKeyword: 'criar atividades adição codificada para a loja',
     secondaryKeywords: [
       'puzzles código secreto matemática para vendedores',
-      'fichas adição cifrada para a loja',
+      'atividades adição cifrada para a loja',
       'exercícios código matemática para crianças',
-      'criador de fichas adição codificada',
+      'criador de atividades adição codificada',
     ],
     lsiKeywords: [
       'puzzle cifrado matemática com imagens para a loja',
-      'ficha palavra revelada código secreto',
+      'atividade palavra revelada código secreto',
       'atividade código numérico matemática para usuários',
     ],
-    titleTag: 'Fichas Adição Codificada — Puzzles para a loja',
+    titleTag: 'Atividades Adição Codificada — Puzzles para a loja',
     metaDescription: 'Crie puzzles de adição codificada para a loja. Códigos secretos com imagens, modo Palavra Revelada, 11 idiomas. Teste grátis com marca d\'água.',
     },
 
   hero: {
-    title: 'Gerador de Fichas de Adição Codificada',
+    title: 'Gerador de Atividades de Adição Codificada',
     tagline: 'Crie puzzles criptaritméticos onde os usuários decifram códigos secretos resolvendo equações de adição',
-    description: 'Isto não é mais uma ficha de adição — é um desafio de descodificação. Cada puzzle esconde números por trás de símbolos com imagens, e os usuários devem resolver equações de adição para descobrir qual número corresponde a cada imagem. No Modo Clássico, cada símbolo representa um dígito único. Mude para o Modo Palavra Revelada e cada equação resolvida revela uma letra de uma palavra secreta, enquanto letras distratoras mantêm os usuários em suspense. Escolha entre mais de 100 temas de imagens, ajuste a quantidade de símbolos e a complexidade das parcelas, e descarregue PDF ou JPEG prontos para imprimir. Compatível com 11 idiomas com alfabetos adaptados a cada língua — o Modo Palavra Revelada funciona nativamente em português com ã, õ, ç, á, é, í, ó, ú, â, ê, ô e à. O teste grátis inclui uma marca d\'água nos downloads. Adquira uma licença para remover a marca d\'água e vender as suas criações com uso comercial.',
+    description: 'Isto não é mais uma atividade de adição — é um desafio de descodificação. Cada puzzle esconde números por trás de símbolos com imagens, e os usuários devem resolver equações de adição para descobrir qual número corresponde a cada imagem. No Modo Clássico, cada símbolo representa um dígito único. Mude para o Modo Palavra Revelada e cada equação resolvida revela uma letra de uma palavra secreta, enquanto letras distratoras mantêm os usuários em suspense. Escolha entre mais de 100 temas de imagens, ajuste a quantidade de símbolos e a complexidade das parcelas, e baixe PDF ou JPEG prontos para imprimir. Compatível com 11 idiomas com alfabetos adaptados a cada língua — o Modo Palavra Revelada funciona nativamente em português com ã, õ, ç, á, é, í, ó, ú, â, ê, ô e à. O teste grátis inclui uma marca d\'água nos downloads. Adquira uma licença para remover a marca d\'água e vender as suas criações com uso comercial.',
   },
 
   tutorial: {
-    title: 'Como Criar Fichas de Adição Codificada em 8 Passos Simples',
+    title: 'Como Criar Atividades de Adição Codificada em 8 Passos Simples',
     steps: [
       {
-        title: 'Abrir o Gerador de Fichas',
-        description: 'Clique em \"Testar Grátis\" para abrir o gerador de adição codificada no seu navegador. A barra lateral escura à esquerda contém todas as definições; o canvas luminoso à direita mostra a pré-visualização em tempo real. Não precisa de conta, nem de descarregar nada, nem de instalar plugins.',
+        title: 'Abrir o Gerador de Atividades',
+        description: 'Clique em \"Testar Grátis\" para abrir o gerador de adição codificada no seu navegador. A barra lateral escura à esquerda contém todas as definições; o canvas luminoso à direita mostra a pré-visualização em tempo real. Não precisa de conta, nem de baixar nada, nem de instalar plugins.',
       },
       {
         title: 'Definir a Quantidade de Símbolos',
@@ -55,8 +55,8 @@ const content: ToolContent = {  seo: {
         description: 'Use o painel \"Ferramentas de Texto\" para adicionar um título como \"Decifra o Código!\" ou \"Desafio do Número Secreto\". Adicione um campo de nome, instruções ou a marca da sua loja. Escolha entre fontes adequadas para crianças (Fredoka, Baloo 2, Quicksand, Nunito) e ajuste tamanho, cor e contorno do texto.',
       },
       {
-        title: 'Gerar e Descarregar',
-        description: 'Clique em \"Gerar\" para criar o seu puzzle. A pré-visualização atualiza-se instantaneamente no canvas. Descarregue como JPEG para maquetes de produtos ou PDF para material pronto para imprimir. Gere e descarregue um gabarito que revela todos os números secretos (ou as letras no Modo Palavra Revelada).',
+        title: 'Gerar e Baixar',
+        description: 'Clique em \"Gerar\" para criar o seu puzzle. A pré-visualização atualiza-se instantaneamente no canvas. Baixe como JPEG para maquetes de produtos ou PDF para material pronto para imprimir. Gere e baixe um gabarito que revela todos os números secretos (ou as letras no Modo Palavra Revelada).',
       },
     ],
   },
@@ -64,7 +64,7 @@ const content: ToolContent = {  seo: {
   whatYouCanCreate: [
     {
       title: 'Pacotes de Puzzles Decifra o Código',
-      description: 'Crie conjuntos temáticos de 10 a 20 puzzles criptaritméticos com imagens de animais, espaço ou festividades. Cada puzzle atribui números secretos diferentes aos símbolos, pelo que cada página é única. Agrupe como pacote PDF e venda na Etsy ou no Gumroad.',
+      description: 'Crie conjuntos temáticos de 10 a 20 puzzles criptaritméticos com imagens de animais, espaço ou festividades. Cada puzzle atribui números secretos diferentes aos símbolos, pelo que cada página é única. Agrupe como pacote PDF e venda na Etsy ou na Hotmart.',
     },
     {
       title: 'Cadernos de Atividades Palavra Revelada',
@@ -79,7 +79,7 @@ const content: ToolContent = {  seo: {
       description: 'Mude entre os 11 idiomas compatíveis para criar puzzles de código para mercados internacionais. No Modo Palavra Revelada, o gerador utiliza alfabetos adaptados a cada língua — acentos portugueses, umlauts alemães, caracteres escandinavos — para que as palavras ocultas sejam linguisticamente corretas. Muito poucos concorrentes oferecem esta funcionalidade.',
     },
     {
-      title: 'Fichas de Cifrado Diferenciadas',
+      title: 'Atividades de Cifrado Diferenciadas',
       description: 'Crie o mesmo conceito de puzzle em vários níveis de dificuldade: 3 símbolos com 2 parcelas para principiantes, 5 símbolos com 3 parcelas para nível intermédio e 8 símbolos com parcelas mistas para avançados. Os vendedores podem atribuir o nível adequado sem tempo extra de preparação.',
     },
     {
@@ -91,13 +91,13 @@ const content: ToolContent = {  seo: {
   businessIdeas: [
     {
       title: 'Loja de Puzzles Criptaritméticos na Etsy',
-      description: 'Abra uma loja Etsy de nicho especializada em fichas de matemática para decifrar. É uma categoria genuinamente pouco explorada — a maioria dos vendedores oferece exercícios de adição padrão, não puzzles criptaritméticos. Crie de 15 a 20 pacotes temáticos com preços de 3 $ a 5 $ cada. O fator de novidade gera maiores taxas de cliques nos resultados de pesquisa. Considere organizar a sua loja em coleções sazonais — decifradores de Halloween em outubro, pacotes de cifrado natalício em dezembro, pacotes de regresso às aulas em setembro. Os produtos sazonais registam picos nas pesquisas da Etsy durante o seu período relevante, proporcionando-lhe janelas de tráfego previsíveis que pode planear.',
+      description: 'Abra uma loja Etsy de nicho especializada em atividades de matemática para decifrar. É uma categoria genuinamente pouco explorada — a maioria dos vendedores oferece exercícios de adição padrão, não puzzles criptaritméticos. Crie de 15 a 20 pacotes temáticos com preços de 3 $ a 5 $ cada. O fator de novidade gera maiores taxas de cliques nos resultados de pesquisa. Considere organizar a sua loja em coleções sazonais — decifradores de Halloween em outubro, pacotes de cifrado natalício em dezembro, pacotes de regresso às aulas em setembro. Os produtos sazonais registam picos nas pesquisas da Etsy durante o seu período relevante, proporcionando-lhe janelas de tráfego previsíveis que pode planear.',
       platform: 'Etsy',
     },
     {
-      title: 'Puzzles Premium no Gumroad',
-      description: 'Carregue pacotes de puzzles de descodificação diferenciados no Gumroad. Os vendedores procuram atividades de matemática motivadoras que vão além das fichas repetitivas. Inclua um guia vendedor explicando o Modo Clássico vs o Modo Palavra Revelada, mais os gabaritos para cada puzzle. Um preço premium (de 5 $ a 8 $) é justificado pelo formato único.',
-      platform: 'Gumroad',
+      title: 'Puzzles Premium na Hotmart',
+      description: 'Carregue pacotes de puzzles de descodificação diferenciados na Hotmart. Os vendedores procuram atividades de matemática motivadoras que vão além das atividades repetitivas. Inclua um guia vendedor explicando o Modo Clássico vs o Modo Palavra Revelada, mais os gabaritos para cada puzzle. Um preço premium (de 5 $ a 8 $) é justificado pelo formato único.',
+      platform: 'Hotmart',
     },
     {
       title: 'Série de Cadernos de Puzzles na Amazon KDP',
@@ -105,9 +105,9 @@ const content: ToolContent = {  seo: {
       platform: 'Amazon KDP',
     },
     {
-      title: 'Pacote Curricular Digital no Gumroad',
-      description: 'Crie um programa estruturado de 8 semanas \"Decifra o Código Matemático\" com conjuntos de puzzles semanais. A semana 1 começa com 3 símbolos, a semana 8 termina com parcelas mistas e desafios de Palavra Revelada. Venda como download digital premium (de 12 $ a 15 $) no Gumroad. Os pais que educam em casa pagam com gosto por programas completos e estruturados. Inclua um guia vendedor de uma página no início explicando como usar os puzzles de cada semana, que competências trabalha cada nível de dificuldade e como avaliar o progresso do usuário.',
-      platform: 'Gumroad',
+      title: 'Pacote Curricular Digital na Hotmart',
+      description: 'Crie um programa estruturado de 8 semanas \"Decifra o Código Matemático\" com conjuntos de puzzles semanais. A semana 1 começa com 3 símbolos, a semana 8 termina com parcelas mistas e desafios de Palavra Revelada. Venda como download digital premium (de 12 $ a 15 $) na Hotmart. Os pais que educam em casa pagam com gosto por programas completos e estruturados. Inclua um guia vendedor de uma página no início explicando como usar os puzzles de cada semana, que competências trabalha cada nível de dificuldade e como avaliar o progresso do usuário.',
+      platform: 'Hotmart',
     },
     {
       title: 'Produtos de Puzzles Multilingues',
@@ -124,7 +124,7 @@ const content: ToolContent = {  seo: {
   proTips: [
     {
       title: 'Comece com Menos Símbolos para Principiantes',
-      description: 'Três ou quatro símbolos é o ponto ideal para usuários jovens e principiantes em descodificação. Com menos incógnitas, os usuários podem usar a lógica de eliminação mais facilmente. Reserve os puzzles de 6 ou mais símbolos para usuários mais velhos ou secções de desafio avançado nos seus pacotes de produtos. Ao criar um listing de produto, mencione a quantidade de símbolos na sua descrição para que os compradores saibam que nível de dificuldade estão a obter. Frases como \"puzzles para principiantes com 3 símbolos\" ou \"desafios avançados com 7 símbolos\" ajudam os compradores a escolher o produto certo e reduzem os pedidos de reembolso por expectativas não correspondidas.',
+      description: 'Três ou quatro símbolos é o ponto ideal para usuários jovens e principiantes em descodificação. Com menos incógnitas, os usuários podem usar a lógica de eliminação mais facilmente. Reserve os puzzles de 6 ou mais símbolos para usuários mais velhos ou secções de desafio avançado nos seus pacotes de produtos. Ao criar um listing de produto, mencione a quantidade de símbolos na sua descrição para que os compradores saibam que nível de dificuldade estão obtendo. Frases como \"puzzles para principiantes com 3 símbolos\" ou \"desafios avançados com 7 símbolos\" ajudam os compradores a escolher o produto certo e reduzem os pedidos de reembolso por expectativas não correspondidas.',
     },
     {
       title: 'Use Parcelas Mistas para Máxima Variedade',
@@ -132,19 +132,19 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'O Modo Palavra Revelada É o Seu Diferenciador Premium',
-      description: 'Os puzzles de código padrão são divertidos, mas o Modo Palavra Revelada é a funcionalidade que faz o seu produto destacar-se. Use palavras sazonais (NATAL, COELHO, PRAIA), palavras de uso frequente para leitores principiantes ou palavras de vocabulário para integração interdisciplinar. Destaque esta funcionalidade de forma proeminente nos seus listings de produtos. Na Etsy e no Gumroad, inclua uma imagem de maquete mostrando o puzzle Palavra Revelada junto à sua versão resolvida para que os compradores vejam imediatamente o conceito da palavra oculta. Esta demonstração visual converte visitantes em compradores muito mais eficazmente do que as descrições de texto sozinhas.',
+      description: 'Os puzzles de código padrão são divertidos, mas o Modo Palavra Revelada é a funcionalidade que faz o seu produto destacar-se. Use palavras sazonais (NATAL, COELHO, PRAIA), palavras de uso frequente para leitores principiantes ou palavras de vocabulário para integração interdisciplinar. Destaque esta funcionalidade de forma proeminente nos seus listings de produtos. Na Etsy e na Hotmart, inclua uma imagem de maquete mostrando o puzzle Palavra Revelada junto à sua versão resolvida para que os compradores vejam imediatamente o conceito da palavra oculta. Esta demonstração visual converte visitantes em compradores muito mais eficazmente do que as descrições de texto sozinhas.',
     },
     {
       title: 'Aproveite os Alfabetos Multilingues',
-      description: 'No Modo Palavra Revelada, mudar o idioma modifica o alfabeto disponível para incluir caracteres acentuados. Os puzzles em português incluem ã, õ, ç, á, é, í, ó, ú, â, ê, ô e à. Os puzzles em alemão usam umlauts. Isto permite-lhe criar produtos multilingues autênticos que as fichas traduzidas automaticamente não conseguem replicar.',
+      description: 'No Modo Palavra Revelada, mudar o idioma modifica o alfabeto disponível para incluir caracteres acentuados. Os puzzles em português incluem ã, õ, ç, á, é, í, ó, ú, â, ê, ô e à. Os puzzles em alemão usam umlauts. Isto permite-lhe criar produtos multilingues autênticos que as atividades traduzidas automaticamente não conseguem replicar.',
     },
     {
-      title: 'Combine com Fichas de Adição Clássicas',
-      description: 'Crie pacotes que combinem fichas de adição padrão com puzzles de descodificação. As fichas de adição desenvolvem a fluência no cálculo; os puzzles de código aplicam essa fluência num contexto lógico. Os produtos combinados têm maior valor percebido e justificam melhores preços em todos os marketplaces. Um pacote bem estruturado poderia incluir 20 páginas de adição clássica, 10 puzzles de descodificação em Modo Clássico e 5 desafios de Palavra Revelada — tudo com gabaritos.',
+      title: 'Combine com Atividades de Adição Clássicas',
+      description: 'Crie pacotes que combinem atividades de adição padrão com puzzles de descodificação. As atividades de adição desenvolvem a fluência no cálculo; os puzzles de código aplicam essa fluência num contexto lógico. Os produtos combinados têm maior valor percebido e justificam melhores preços em todos os marketplaces. Um pacote bem estruturado poderia incluir 20 páginas de adição clássica, 10 puzzles de descodificação em Modo Clássico e 5 desafios de Palavra Revelada — tudo com gabaritos.',
     },
     {
       title: 'Inclua Sempre o Gabarito',
-      description: 'Os puzzles de descodificação podem ser difíceis, e os compradores esperam soluções. Gere o gabarito para cada puzzle antes de descarregar. Para os puzzles de Palavra Revelada, o gabarito mostra tanto as atribuições de números como a palavra revelada. Isto é indispensável para produtos destinados a vendedores. Sem gabaritos, os pais e substitutos não conseguem verificar o trabalho dos usuários, o que leva a avaliações negativas e pior posicionamento nos marketplaces.',
+      description: 'Os puzzles de descodificação podem ser difíceis, e os compradores esperam soluções. Gere o gabarito para cada puzzle antes de baixar. Para os puzzles de Palavra Revelada, o gabarito mostra tanto as atribuições de números como a palavra revelada. Isto é indispensável para produtos destinados a vendedores. Sem gabaritos, os pais e substitutos não conseguem verificar o trabalho dos usuários, o que leva a avaliações negativas e pior posicionamento nos marketplaces.',
     },
     {
       title: 'Escolha Imagens Temáticas que Combinem com a Palavra Secreta',
@@ -154,8 +154,8 @@ const content: ToolContent = {  seo: {
 
   faq: [
     {
-      question: 'O que é uma ficha de adição codificada?',
-      answer: 'Uma ficha de adição codificada é um puzzle criptaritmético onde imagens ou símbolos substituem os números em equações de adição. Os usuários resolvem as equações para descobrir qual número representa cada símbolo. Combina a prática da adição com a dedução lógica, tornando-o muito mais envolvente do que os exercícios de matemática padrão. O mecanismo de cifra acrescenta uma camada de puzzle cativante que transforma a prática rotineira da adição num desafio de investigação. Os usuários devem primeiro decifrar qual número representa cada imagem, e depois resolver a aritmética. Esta dupla exigência desenvolve simultaneamente a fluência matemática e as capacidades de raciocínio lógico.',
+      question: 'O que é uma atividade de adição codificada?',
+      answer: 'Uma atividade de adição codificada é um puzzle criptaritmético onde imagens ou símbolos substituem os números em equações de adição. Os usuários resolvem as equações para descobrir qual número representa cada símbolo. Combina a prática da adição com a dedução lógica, tornando-o muito mais envolvente do que os exercícios de matemática padrão. O mecanismo de cifra acrescenta uma camada de puzzle cativante que transforma a prática rotineira da adição num desafio de investigação. Os usuários devem primeiro decifrar qual número representa cada imagem, e depois resolver a aritmética. Esta dupla exigência desenvolve simultaneamente a fluência matemática e as capacidades de raciocínio lógico.',
     },
     {
       question: 'Qual é a diferença entre o Modo Clássico e o Modo Palavra Revelada?',
@@ -163,31 +163,31 @@ const content: ToolContent = {  seo: {
     },
     {
       question: 'Existe um teste grátis?',
-      answer: 'Sim. A ferramenta oferece um teste grátis com todas as funcionalidades — sem registo, sem cartão de crédito. Pode criar, pré-visualizar e descarregar quantos puzzles quiser. Os downloads do teste grátis incluem uma marca d\'água. Adquira uma licença comercial para remover a marca d\'água e desbloquear os direitos de venda.',
+      answer: 'Sim. A ferramenta oferece um teste grátis com todas as funcionalidades — sem cadastro, sem cartão de crédito. Pode criar, pré-visualizar e baixar quantos puzzles quiser. Os downloads do teste grátis incluem uma marca d\'água. Adquira uma licença comercial para remover a marca d\'água e desbloquear os direitos de venda.',
     },
     {
       question: 'Como funciona a definição de Quantidade de Símbolos?',
       answer: 'A Quantidade de Símbolos determina quantos símbolos-imagem diferentes aparecem no seu puzzle. Menos símbolos (3–4) tornam o puzzle mais fácil porque há menos incógnitas para deduzir. Mais símbolos (6–8) aumentam a dificuldade. No Modo Clássico, cada símbolo deve representar um número diferente dentro de uma mesma equação. Para vendedores que criam pacotes diferenciados, a Quantidade de Símbolos é a sua principal alavanca de dificuldade. Um pacote bem estruturado poderia incluir três níveis: fácil (3 símbolos), médio (5 símbolos) e difícil (7–8 símbolos).',
     },
     {
-      question: 'Posso vender as fichas que crio?',
-      answer: 'O teste grátis com marca d\'água é apenas para uso pessoal e educativo. Para vender na Etsy, Gumroad, Amazon KDP, Gumroad ou qualquer outra plataforma, precisa de uma licença comercial. A licença remove a marca d\'água e concede direitos completos de venda para os puzzles que gerar. Uma vez licenciado, não há limites por download nem royalties — fica com 100 % das suas receitas de vendas.',
+      question: 'Posso vender as atividades que crio?',
+      answer: 'O teste grátis com marca d\'água é apenas para uso pessoal e educativo. Para vender na Hotmart, Etsy, Amazon KDP, Hotmart ou qualquer outra plataforma, precisa de uma licença comercial. A licença remove a marca d\'água e concede direitos completos de venda para os puzzles que gerar. Uma vez licenciado, não há limites por download nem royalties — fica com 100 % das suas receitas de vendas.',
     },
     {
       question: 'Que idiomas são compatíveis?',
       answer: 'O gerador é compatível com 11 idiomas: português, inglês, alemão, francês, espanhol, italiano, neerlandês, sueco, dinamarquês, norueguês e finlandês. No Modo Palavra Revelada, o alfabeto adapta-se automaticamente ao idioma selecionado para incluir caracteres específicos como os acentos e o ç do português, os umlauts do alemão e os acentos do francês.',
     },
     {
-      question: 'Em que formatos de ficheiro posso descarregar?',
-      answer: 'Pode descarregar os puzzles como imagens JPEG de alta resolução ou ficheiros PDF otimizados para impressão. Tanto a ficha de puzzle como o seu gabarito estão disponíveis em ambos os formatos. Use os JPEG para maquetes de produtos e redes sociais; use os PDF como produto entregável nos seus listings.',
+      question: 'Em que formatos de arquivo posso baixar?',
+      answer: 'Pode baixar os puzzles como imagens JPEG de alta resolução ou arquivos PDF otimizados para impressão. Tanto a atividade de puzzle como o seu gabarito estão disponíveis em ambos os formatos. Use os JPEG para maquetes de produtos e redes sociais; use os PDF como produto entregável nos seus listings.',
     },
     {
       question: 'Preciso de instalar algum software?',
       answer: 'Não. O gerador funciona inteiramente no seu navegador web em qualquer dispositivo moderno — Windows, Mac, Chromebook, iPad ou tablet Android. Não há nada para instalar, não são necessários plugins e não precisa de criar uma conta.',
     },
     {
-      question: 'Em que se diferencia das fichas de adição normais?',
-      answer: 'As fichas de adição normais mostram os números diretamente. As fichas de adição codificada escondem os números por trás de símbolos com imagens, transformando cada página num puzzle lógico. Os usuários devem usar os resultados das equações de adição para deduzir qual número representa cada símbolo. Isto desenvolve tanto a fluência aritmética como o pensamento crítico.',
+      question: 'Em que se diferencia das atividades de adição normais?',
+      answer: 'As atividades de adição normais mostram os números diretamente. As atividades de adição codificada escondem os números por trás de símbolos com imagens, transformando cada página num puzzle lógico. Os usuários devem usar os resultados das equações de adição para deduzir qual número representa cada símbolo. Isto desenvolve tanto a fluência aritmética como o pensamento crítico.',
     },
     {
       question: 'Qual é a política de reembolso?',
@@ -196,20 +196,20 @@ const content: ToolContent = {  seo: {
   ],
 
   internalLinks: [
-    { pageType: 'app', slug: 'adicao-codigo-fichas', anchorText: 'Fichas de Adição Codificada — Detalhes Completos do Produto' },
-    { pageType: 'tool', slug: 'gerador-fichas-adicao', anchorText: 'Gerador de Fichas de Adição' },
-    { pageType: 'tool', slug: 'gerador-fichas-subtracao', anchorText: 'Gerador de Fichas de Subtração' },
+    { pageType: 'app', slug: 'adicao-codigo-atividades', anchorText: 'Atividades de Adição Codificada — Detalhes Completos do Produto' },
+    { pageType: 'tool', slug: 'gerador-atividades-adicao', anchorText: 'Gerador de Atividades de Adição' },
+    { pageType: 'tool', slug: 'gerador-atividades-subtracao', anchorText: 'Gerador de Atividades de Subtração' },
     { pageType: 'tool', slug: 'gerador-puzzles-matematicos', anchorText: 'Gerador de Puzzles Matemáticos' },
     { pageType: 'tool', slug: 'gerador-exercicios-matematica', anchorText: 'Gerador de Exercícios de Matemática' },
     { pageType: 'tool', slug: 'gerador-criptogramas', anchorText: 'Gerador de Criptogramas' },
     { pageType: 'tool', slug: 'gerador-caca-palavras', anchorText: 'Gerador de Caça-Palavras' },
-    { pageType: 'tool', slug: 'gerador-fichas-associacao', anchorText: 'Gerador de Fichas de Associação' },
+    { pageType: 'tool', slug: 'gerador-atividades-associacao', anchorText: 'Gerador de Atividades de Associação' },
   ],
 
   visuals: {
     heroImages: {
       primary: '/samples/portuguese/code addition/Código Secreto Adição 1.webp',
-      primaryAlt: 'Ficha de adição codificada com puzzles criptaritméticos onde símbolos com imagens escondem números secretos',
+      primaryAlt: 'Atividade de adição codificada com puzzles criptaritméticos onde símbolos com imagens escondem números secretos',
     },
     sampleGallery: [
       {
@@ -219,7 +219,7 @@ const content: ToolContent = {  seo: {
       },
       {
         src: '/samples/portuguese/code addition/Código Secreto Adição 3.webp',
-        alt: 'Ficha de adição codificada no Modo Palavra Revelada com imagens de alimentos',
+        alt: 'Atividade de adição codificada no Modo Palavra Revelada com imagens de alimentos',
         caption: 'Modo Palavra Revelada — resolva equações para soletrar uma palavra secreta',
       },
       {
@@ -229,7 +229,7 @@ const content: ToolContent = {  seo: {
       },
     ],
     youtubeId: 'vVd11Kjk9iA',
-    videoTitle: 'Como Criar Fichas de Adição Codificada — Tutorial em Vídeo',
+    videoTitle: 'Como Criar Atividades de Adição Codificada — Tutorial em Vídeo',
   },
 };
 

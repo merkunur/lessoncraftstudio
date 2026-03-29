@@ -20,7 +20,7 @@ const content: ToolContent = {  seo: {
   hero: {
     title: 'Gerador de Páginas para Colorir',
     tagline: 'Canvas de forma livre para criar páginas para colorir com desenho à mão livre, exportação em escala de cinzentos, auxiliares de loja e 104 coleções temáticas de imagens para páginas profissionais que se vendem em todo o mundo sem tradução',
-    description: 'Desenhe páginas profissionais para colorir num canvas completamente aberto onde coloca as imagens exatamente onde quiser — sem grelhas, sem modelos, sem casas, pura liberdade criativa. Esta abordagem de canvas de forma livre é o diferenciador principal: cada página para colorir que criar é única e impossível de replicar com ferramentas baseadas em modelos. Explore 104 coleções temáticas de imagens com mais de 3100 ilustrações a cores, clique para adicionar imagens, e depois organize, redimensione, rode e sobreponha elementos em qualquer parte do canvas. A ferramenta de desenho à mão livre permite-lhe desenhar ilustrações originais diretamente junto às imagens da biblioteca com cor e tamanho de pincel ajustável (1–50 píxeis), criando páginas híbridas para colorir que combinam arte curada com os seus próprios desenhos. Os auxiliares de loja com um único clique adicionam um campo de nome (\"Nome: ____\") e linhas de prática de caligrafia (contínua, tracejada, contínua) — transformando páginas para colorir em fichas de atividades prontas para a loja que se vendem no Gumroad. Ao terminar, ative a exportação em escala de cinzentos para converter a sua composição a cores em páginas para colorir económicas em tinta, perfeitas para interiores de KDP e impressão online. Adicione bordas decorativas temáticas da biblioteca de bordas, texto personalizado com efeitos de contorno usando fontes como Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial e Verdana, e carregue as suas próprias imagens PNG, JPG ou GIF. Esta é uma aplicação puramente visual — a saída não contém texto, tornando as páginas para colorir universalmente vendíveis sem tradução. Não existe gabarito porque colorir é uma atividade criativa sem resposta correta. Exporte PDF e JPEG prontos para impressão a 300 DPI nos formatos Carta, A4, Quadrado (1200×1200) ou dimensões personalizadas. O teste grátis inclui todas as funcionalidades com uma marca d\'água nos downloads. Adquira uma licença para remover a marca d\'água e vender com uso comercial.',
+    description: 'Desenhe páginas profissionais para colorir num canvas completamente aberto onde coloca as imagens exatamente onde quiser — sem grelhas, sem modelos, sem casas, pura liberdade criativa. Esta abordagem de canvas de forma livre é o diferenciador principal: cada página para colorir que criar é única e impossível de replicar com ferramentas baseadas em modelos. Explore 104 coleções temáticas de imagens com mais de 3100 ilustrações a cores, clique para adicionar imagens, e depois organize, redimensione, rode e sobreponha elementos em qualquer parte do canvas. A ferramenta de desenho à mão livre permite-lhe desenhar ilustrações originais diretamente junto às imagens da biblioteca com cor e tamanho de pincel ajustável (1–50 píxeis), criando páginas híbridas para colorir que combinam arte curada com os seus próprios desenhos. Os auxiliares de loja com um único clique adicionam um campo de nome (\"Nome: ____\") e linhas de prática de caligrafia (contínua, tracejada, contínua) — transformando páginas para colorir em atividades prontas para a loja que se vendem na Hotmart. Ao terminar, ative a exportação em escala de cinzentos para converter a sua composição a cores em páginas para colorir económicas em tinta, perfeitas para interiores de KDP e impressão online. Adicione bordas decorativas temáticas da biblioteca de bordas, texto personalizado com efeitos de contorno usando fontes como Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial e Verdana, e carregue as suas próprias imagens PNG, JPG ou GIF. Esta é uma aplicação puramente visual — a saída não contém texto, tornando as páginas para colorir universalmente vendíveis sem tradução. Não existe gabarito porque colorir é uma atividade criativa sem resposta correta. Exporte PDF e JPEG prontos para impressão a 300 DPI nos formatos Carta, A4, Quadrado (1200×1200) ou dimensões personalizadas. O teste grátis inclui todas as funcionalidades com uma marca d\'água nos downloads. Adquira uma licença para remover a marca d\'água e vender com uso comercial.',
   },
 
   tutorial: {
@@ -28,11 +28,11 @@ const content: ToolContent = {  seo: {
     steps: [
       {
         title: 'Abra o Gerador de Páginas para Colorir',
-        description: 'Clique em \"Testar Grátis\" para abrir o gerador de páginas para colorir no seu navegador. A ferramenta abre instantaneamente com uma barra lateral de definições à esquerda e um canvas de pré-visualização em tempo real à direita. Sem criar conta, sem descarregar software, sem instalação — comece a criar páginas para colorir imediatamente no canvas de forma livre.',
+        description: 'Clique em \"Testar Grátis\" para abrir o gerador de páginas para colorir no seu navegador. A ferramenta abre instantaneamente com uma barra lateral de definições à esquerda e um canvas de pré-visualização em tempo real à direita. Sem criar conta, sem baixar software, sem instalação — comece a criar páginas para colorir imediatamente no canvas de forma livre.',
       },
       {
         title: 'Configure o Layout da Página e a Borda',
-        description: 'Na secção de Configuração de Página, selecione o tamanho: Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal, Quadrado (1200×1200) ou introduza um tamanho personalizado. Escolha uma cor de fundo — o branco é o valor predefinido para páginas para colorir limpas. Selecione uma borda decorativa temática da biblioteca de bordas com opacidade ajustável para emoldurar a sua página com um aspeto profissional e polido antes de adicionar qualquer conteúdo.',
+        description: 'Na secção de Configuração de Página, selecione o tamanho: Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal, Quadrado (1200×1200) ou introduza um tamanho personalizado. Escolha uma cor de fundo — o branco é o valor predefinido para páginas para colorir limpas. Selecione uma borda decorativa temática da biblioteca de bordas com opacidade ajustável para emoldurar a sua página com um aspecto profissional e polido antes de adicionar qualquer conteúdo.',
       },
       {
         title: 'Explore a Biblioteca de Imagens e Adicione Imagens',
@@ -48,11 +48,11 @@ const content: ToolContent = {  seo: {
       },
       {
         title: 'Adicione Auxiliares de loja e Texto',
-        description: 'Clique no botão de Campo de Nome para adicionar um bloco de texto formatado \"Nome: ____\" no topo da página para identificação do usuário. Clique no botão de Linhas de Caligrafia para adicionar um grupo de três linhas equidistantes (contínua, tracejada, contínua) perto da parte inferior para prática de escrita. Estes auxiliares de loja com um único clique transformam páginas para colorir em fichas de atividades prontas para usar. Adicione títulos, instruções ou etiquetas usando o painel de Ferramentas de Texto com fontes como Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial e Verdana. Ajuste a largura do contorno do texto de 0 a 10 com granularidade de 0,5.',
+        description: 'Clique no botão de Campo de Nome para adicionar um bloco de texto formatado \"Nome: ____\" no topo da página para identificação do usuário. Clique no botão de Linhas de Caligrafia para adicionar um grupo de três linhas equidistantes (contínua, tracejada, contínua) perto da parte inferior para prática de escrita. Estes auxiliares de loja com um único clique transformam páginas para colorir em atividades prontas para usar. Adicione títulos, instruções ou etiquetas usando o painel de Ferramentas de Texto com fontes como Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial e Verdana. Ajuste a largura do contorno do texto de 0 a 10 com granularidade de 0,5.',
       },
       {
         title: 'Ative a Escala de Cinzentos e Exporte',
-        description: 'Abra o painel de Descarregar e ative a opção de escala de cinzentos para converter a sua composição a cores em páginas para colorir económicas em tinta — as imagens da biblioteca são a cores durante o design, mas a exportação em escala de cinzentos converte-as para uma saída pronta para impressão. Descarregue como JPEG de alta resolução ou PDF pronto para impressão a 300 DPI. Os ficheiros estão prontos para produção em listagens da Etsy, interiores da Amazon KDP e ficheiros de produtos do Gumroad sem necessidade de pós-processamento.',
+        description: 'Abra o painel de Baixar e ative a opção de escala de cinzentos para converter a sua composição a cores em páginas para colorir económicas em tinta — as imagens da biblioteca são a cores durante o design, mas a exportação em escala de cinzentos converte-as para uma saída pronta para impressão. Baixe como JPEG de alta resolução ou PDF pronto para impressão a 300 DPI. Os arquivos estão prontos para produção em listagens da Etsy, interiores da Amazon KDP e arquivos de produtos da Hotmart sem necessidade de pós-processamento.',
       },
       {
         title: 'Crie em Lote com Variações de Temas',
@@ -64,15 +64,15 @@ const content: ToolContent = {  seo: {
   whatYouCanCreate: [
     {
       title: 'Pacotes Temáticos de Páginas para Colorir com Canvas de Forma Livre',
-      description: 'Crie pacotes temáticos de páginas para colorir com 15–30 páginas únicas por conjunto usando o canvas de forma livre para organizar imagens em composições originais que as ferramentas baseadas em modelos não conseguem replicar. Animais, criaturas marinhas, dinossauros, veículos, alimentos e festividades tornam-se listagens de produtos distintas. O design de canvas de forma livre significa que cada página tem uma organização única mesmo dentro do mesmo tema — não há duas páginas iguais. Ative a escala de cinzentos para uma saída económica em tinta, adicione bordas decorativas para um aspeto polido e exporte a 300 DPI. Os pacotes temáticos são o produto estrela dos vendedores de páginas para colorir na Etsy, com compradores recorrentes que colecionam múltiplos temas.',
+      description: 'Crie pacotes temáticos de páginas para colorir com 15–30 páginas únicas por conjunto usando o canvas de forma livre para organizar imagens em composições originais que as ferramentas baseadas em modelos não conseguem replicar. Animais, criaturas marinhas, dinossauros, veículos, alimentos e festividades tornam-se listagens de produtos distintas. O design de canvas de forma livre significa que cada página tem uma organização única mesmo dentro do mesmo tema — não há duas páginas iguais. Ative a escala de cinzentos para uma saída económica em tinta, adicione bordas decorativas para um aspecto polido e exporte a 300 DPI. Os pacotes temáticos são o produto estrela dos vendedores de páginas para colorir na Etsy, com compradores recorrentes que colecionam múltiplos temas.',
     },
     {
       title: 'Interiores de Livros para Colorir para KDP',
       description: 'Compile 40–80 páginas para colorir em interiores completos de livros para Amazon KDP. A exportação em escala de cinzentos converte composições a cores em páginas económicas em tinta que se reproduzem perfeitamente em impressão padrão a preto e branco, mantendo os custos de produção baixos. Estruture livros por tema (animais, estações, festividades), por grupo etário (designs simples para pré-escolares, composições detalhadas para crianças mais velhas) ou por tipo de atividade (só colorir, colorir com campo de nome, colorir com linhas de caligrafia). A saída puramente visual publica-se de forma idêntica em todos os mercados internacionais do KDP sem tradução — um interior serve para todos os países.',
     },
     {
-      title: 'Fichas de Atividades para Colorir online',
-      description: 'Use os auxiliares de loja com um único clique para criar páginas para colorir com campos de nome e linhas de prática de caligrafia integrados. O campo de nome adiciona \"Nome: ____\" no topo para identificação do usuário. As linhas de caligrafia adicionam linhas de prática contínua-tracejada-contínua na parte inferior. Estas duas adições transformam páginas para colorir padrão em atividades estruturadas para a loja que os compradores do Gumroad procuram especificamente. Crie conjuntos temáticos alinhados com temas curriculares — animais da quinta para ciências, profissões para estudos sociais, temas sazonais para atividades festivas — cada pacote com auxiliares de loja pré-integrados.',
+      title: 'Atividades de Atividades para Colorir online',
+      description: 'Use os auxiliares de loja com um único clique para criar páginas para colorir com campos de nome e linhas de prática de caligrafia integrados. O campo de nome adiciona \"Nome: ____\" no topo para identificação do usuário. As linhas de caligrafia adicionam linhas de prática contínua-tracejada-contínua na parte inferior. Estas duas adições transformam páginas para colorir padrão em atividades estruturadas para a loja que os compradores da Hotmart procuram especificamente. Crie conjuntos temáticos alinhados com temas curriculares — animais da quinta para ciências, profissões para estudos sociais, temas sazonais para atividades festivas — cada pacote com auxiliares de loja pré-integrados.',
     },
     {
       title: 'Páginas Híbridas de Ilustração para Colorir',
@@ -80,11 +80,11 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Coleções Sazonais e Festivas para Colorir',
-      description: 'Construa coleções sazonais rotativas usando temas de festividades e natureza da biblioteca de 104 temas. Natal, Halloween, Páscoa, Dia dos Namorados, verão, outono e inverno suportam pacotes de páginas para colorir dedicados. Publique cada coleção 4–6 semanas antes da festividade para máxima visibilidade no mercado. O canvas de forma livre permite-lhe combinar múltiplas imagens sazonais numa única página para composições ricas e detalhadas que se destacam face a fichas de colorir com uma única imagem. Os produtos sazonais geram receitas recorrentes anuais porque os compradores regressam todos os anos.',
+      description: 'Construa coleções sazonais rotativas usando temas de festividades e natureza da biblioteca de 104 temas. Natal, Halloween, Páscoa, Dia dos Namorados, verão, outono e inverno suportam pacotes de páginas para colorir dedicados. Publique cada coleção 4–6 semanas antes da festividade para máxima visibilidade no mercado. O canvas de forma livre permite-lhe combinar múltiplas imagens sazonais numa única página para composições ricas e detalhadas que se destacam face a atividades de colorir com uma única imagem. Os produtos sazonais geram receitas recorrentes anuais porque os compradores regressam todos os anos.',
     },
     {
       title: 'Pacotes de Atividades Visuais Multiformato',
-      description: 'Combine páginas para colorir com fichas de grafomotricidade, exercícios de desenho em grelha, fichas de associação e fichas de padrões usando temas coordenados. As páginas para colorir desenvolvem o reconhecimento de cores e a expressão criativa. A grafomotricidade treina o controlo do lápis. O desenho em grelha desenvolve a reprodução espacial. Cada formato exercita uma competência visomotora diferente mantendo a consistência temática. Os pacotes multiformato vendem-se por significativamente mais do que os pacotes de formato único e oferecem prática variada aos usuários com um tema unificado.',
+      description: 'Combine páginas para colorir com atividades de grafomotricidade, exercícios de desenho em grelha, atividades de associação e atividades de padrões usando temas coordenados. As páginas para colorir desenvolvem o reconhecimento de cores e a expressão criativa. A grafomotricidade treina o controlo do lápis. O desenho em grelha desenvolve a reprodução espacial. Cada formato exercita uma competência visomotora diferente mantendo a consistência temática. Os pacotes multiformato vendem-se por significativamente mais do que os pacotes de formato único e oferecem prática variada aos usuários com um tema unificado.',
     },
   ],
 
@@ -100,23 +100,23 @@ const content: ToolContent = {  seo: {
       platform: 'Amazon KDP',
     },
     {
-      title: 'Pacotes de Atividades para Colorir no Gumroad',
-      description: 'Carregue pacotes de páginas para colorir no Gumroad com os auxiliares de loja como ponto de venda principal. Cada página inclui um campo de nome e linhas de prática de caligrafia — funcionalidades que os vendedores procuram especificamente. Organize por tema curricular: animais da quinta para ciências da vida, profissões para estudos sociais, clima e estações para ciências da terra, formas e padrões para integração matemática. O formato pronto para a loja permite preços mais altos do que as páginas para colorir genéricas porque os vendedores pagam mais por recursos de imprimir e usar que incluem identificação do usuário e prática de escrita.',
-      platform: 'Gumroad',
+      title: 'Pacotes de Atividades para Colorir na Hotmart',
+      description: 'Carregue pacotes de páginas para colorir na Hotmart com os auxiliares de loja como ponto de venda principal. Cada página inclui um campo de nome e linhas de prática de caligrafia — funcionalidades que os vendedores procuram especificamente. Organize por tema curricular: animais da quinta para ciências da vida, profissões para estudos sociais, clima e estações para ciências da terra, formas e padrões para integração matemática. O formato pronto para a loja permite preços mais altos do que as páginas para colorir genéricas porque os vendedores pagam mais por recursos de imprimir e usar que incluem identificação do usuário e prática de escrita.',
+      platform: 'Hotmart',
     },
     {
       title: 'Funil de Tráfego com Páginas para Colorir no Pinterest',
-      description: 'As páginas para colorir criam pins visualmente apelativos no Pinterest que direcionam tráfego para a sua loja Etsy ou página de destino. Publique amostras de páginas para colorir com marca d\'água mostrando as composições de canvas de forma livre, as organizações temáticas de imagens e os auxiliares de loja. Crie séries de pins separadas para \"páginas para colorir de animais\", \"fichas para colorir de festividades\" e \"atividades para colorir online\". O formato puramente visual atrai pais e vendedores em todos os países. Faça ligação de cada pin às suas listagens de produtos e construa uma lista de contactos de compradores de páginas para colorir para anúncios de novos lançamentos.',
+      description: 'As páginas para colorir criam pins visualmente apelativos no Pinterest que direcionam tráfego para a sua loja Etsy ou página de destino. Publique amostras de páginas para colorir com marca d\'água mostrando as composições de canvas de forma livre, as organizações temáticas de imagens e os auxiliares de loja. Crie séries de pins separadas para \"páginas para colorir de animais\", \"atividades para colorir de festividades\" e \"atividades para colorir online\". O formato puramente visual atrai pais e vendedores em todos os países. Faça ligação de cada pin às suas listagens de produtos e construa uma lista de contactos de compradores de páginas para colorir para anúncios de novos lançamentos.',
       platform: 'Pinterest',
     },
     {
-      title: 'Kit Completo para Colorir no Gumroad',
-      description: 'Combine páginas para colorir com ilustrações de desenho à mão livre, fichas temáticas de atividades para a loja e coleções sazonais para um kit integral para colorir no Gumroad. Inclua mais de 200 páginas para colorir abrangendo todos os temas principais com auxiliares de loja pré-integrados em cada página. O formato de kit justifica preços premium porque os compradores obtêm uma biblioteca completa em vez de pacotes individuais. Adicione novas coleções sazonais trimestralmente para impulsionar compras recorrentes de clientes existentes que querem as últimas novidades.',
-      platform: 'Gumroad',
+      title: 'Kit Completo para Colorir na Hotmart',
+      description: 'Combine páginas para colorir com ilustrações de desenho à mão livre, atividades temáticas de atividades para a loja e coleções sazonais para um kit integral para colorir na Hotmart. Inclua mais de 200 páginas para colorir abrangendo todos os temas principais com auxiliares de loja pré-integrados em cada página. O formato de kit justifica preços premium porque os compradores obtêm uma biblioteca completa em vez de pacotes individuais. Adicione novas coleções sazonais trimestralmente para impulsionar compras recorrentes de clientes existentes que querem as últimas novidades.',
+      platform: 'Hotmart',
     },
     {
       title: 'Linha de Produtos Visuais Globais',
-      description: 'O Gerador de Páginas para Colorir produz resultados puramente visuais sem texto nas fichas — a mesma página para colorir funciona em todos os idiomas sem modificação. Uma única sessão de criação produz um catálogo universalmente vendível. Venda os mesmos ficheiros de produto em lojas Etsy dirigidas a diferentes países, publique interiores idênticos de KDP em todos os mercados internacionais da Amazon e liste no Gumroad para vendedores internacionais. Sem listagens separadas, sem custos de tradução, sem manutenção por idioma. Cada página para colorir que criar serve instantaneamente um mercado global.',
+      description: 'O Gerador de Páginas para Colorir produz resultados puramente visuais sem texto nas atividades — a mesma página para colorir funciona em todos os idiomas sem modificação. Uma única sessão de criação produz um catálogo universalmente vendível. Venda os mesmos arquivos de produto em lojas Etsy dirigidas a diferentes países, publique interiores idênticos de KDP em todos os mercados internacionais da Amazon e liste na Hotmart para vendedores internacionais. Sem listagens separadas, sem custos de tradução, sem manutenção por idioma. Cada página para colorir que criar serve instantaneamente um mercado global.',
       platform: 'Etsy / Amazon KDP',
     },
   ],
@@ -132,7 +132,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Adicione Auxiliares de loja para Cobrar Preços Mais Altos',
-      description: 'As páginas para colorir com campos de nome e linhas de caligrafia vendem-se por mais do que as páginas genéricas porque cumprem uma função prática online. Os vendedores no Gumroad procuram especificamente atividades para colorir \"prontas para a loja\" com áreas de identificação do usuário. Adicionar estes auxiliares com um único clique demora segundos mas transforma o seu produto de uma simples página para colorir numa atividade de aprendizagem estruturada que justifica preços premium.',
+      description: 'As páginas para colorir com campos de nome e linhas de caligrafia vendem-se por mais do que as páginas genéricas porque cumprem uma função prática online. Os vendedores na Hotmart procuram especificamente atividades para colorir \"prontas para a loja\" com áreas de identificação do usuário. Adicionar estes auxiliares com um único clique demora segundos mas transforma o seu produto de uma simples página para colorir numa atividade de aprendizagem estruturada que justifica preços premium.',
     },
     {
       title: 'Combine Desenho à Mão Livre com Imagens da Biblioteca',
@@ -144,30 +144,30 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Aproveite a Saída Visual Sem Texto para Vendas Globais',
-      description: 'As páginas para colorir não contêm texto na saída — são puramente visuais. O mesmo ficheiro de produto funciona em todos os países sem tradução. Crie um conjunto de páginas para colorir e venda mundialmente em múltiplas lojas Etsy, em todos os mercados de KDP e no Gumroad internacional. Isto elimina custos de tradução e manutenção por idioma, maximizando as receitas de cada sessão de design.',
+      description: 'As páginas para colorir não contêm texto na saída — são puramente visuais. O mesmo arquivo de produto funciona em todos os países sem tradução. Crie um conjunto de páginas para colorir e venda mundialmente em múltiplas lojas Etsy, em todos os mercados de KDP e na Hotmart internacional. Isto elimina custos de tradução e manutenção por idioma, maximizando as receitas de cada sessão de design.',
     },
     {
-      title: 'Use Bordas Decorativas para um Aspeto Profissional Polido',
-      description: 'Selecione uma borda decorativa temática da biblioteca de bordas para emoldurar cada página para colorir com uma aparência consistente e profissional. As bordas com opacidade ajustável adicionam um toque visual polido sem sobrecarregar o conteúdo para colorir. Um estilo de borda consistente em todo um pacote de produtos cria um aspeto coeso que os compradores associam a qualidade — um pequeno detalhe que impacta significativamente o valor percecionado do produto e as avaliações.',
+      title: 'Use Bordas Decorativas para um Aspecto Profissional Polido',
+      description: 'Selecione uma borda decorativa temática da biblioteca de bordas para emoldurar cada página para colorir com uma aparência consistente e profissional. As bordas com opacidade ajustável adicionam um toque visual polido sem sobrecarregar o conteúdo para colorir. Um estilo de borda consistente em todo um pacote de produtos cria um aspecto coeso que os compradores associam a qualidade — um pequeno detalhe que impacta significativamente o valor percecionado do produto e as avaliações.',
     },
   ],
 
   faq: [
     {
       question: 'Existe um teste grátis?',
-      answer: 'Sim. A ferramenta oferece um teste grátis com todas as funcionalidades — o canvas de forma livre completo, as 104 coleções temáticas de imagens com mais de 3100 ilustrações, a ferramenta de desenho à mão livre, auxiliares de loja (campo de nome e linhas de caligrafia), exportação em escala de cinzentos, bordas decorativas, carregamento de imagens próprias e todos os formatos de exportação. Sem registo, sem cartão de crédito. Os downloads do teste grátis incluem uma marca d\'água. Adquira uma licença comercial para remover a marca d\'água e desbloquear os direitos de venda.',
+      answer: 'Sim. A ferramenta oferece um teste grátis com todas as funcionalidades — o canvas de forma livre completo, as 104 coleções temáticas de imagens com mais de 3100 ilustrações, a ferramenta de desenho à mão livre, auxiliares de loja (campo de nome e linhas de caligrafia), exportação em escala de cinzentos, bordas decorativas, carregamento de imagens próprias e todos os formatos de exportação. Sem cadastro, sem cartão de crédito. Os downloads do teste grátis incluem uma marca d\'água. Adquira uma licença comercial para remover a marca d\'água e desbloquear os direitos de venda.',
     },
     {
       question: 'O que diferencia o canvas de forma livre das ferramentas baseadas em modelos?',
-      answer: 'O Gerador de Páginas para Colorir oferece-lhe um canvas completamente aberto sem grelhas, sem modelos, sem casas e sem layouts predeterminados. Cada imagem é colocada exatamente onde a arrastar. Pode sobrepor imagens, rodá-las a qualquer ângulo, redimensionar livremente e criar composições em camadas. As ferramentas de modelos limitam-no a posições fixas e produzem resultados de aspeto idêntico. A abordagem de canvas de forma livre significa que cada página para colorir que criar é única e impossível de replicar com geradores de modelos.',
+      answer: 'O Gerador de Páginas para Colorir oferece-lhe um canvas completamente aberto sem grelhas, sem modelos, sem casas e sem layouts predeterminados. Cada imagem é colocada exatamente onde a arrastar. Pode sobrepor imagens, rodá-las a qualquer ângulo, redimensionar livremente e criar composições em camadas. As ferramentas de modelos limitam-no a posições fixas e produzem resultados de aspecto idêntico. A abordagem de canvas de forma livre significa que cada página para colorir que criar é única e impossível de replicar com geradores de modelos.',
     },
     {
       question: 'Como funciona a exportação em escala de cinzentos?',
-      answer: 'A biblioteca de imagens contém ilustrações a cores que utiliza durante o design para uma experiência de edição atrativa. Quando estiver pronto para exportar, ative a opção de escala de cinzentos no painel de Descarregar para converter a sua composição a cores em páginas para colorir económicas em tinta. A conversão para escala de cinzentos ocorre no momento da exportação — o seu canvas permanece a cores enquanto trabalha. Esta abordagem é ideal para interiores de KDP e impressão online onde a reprodução a preto e branco mantém os custos baixos.',
+      answer: 'A biblioteca de imagens contém ilustrações a cores que utiliza durante o design para uma experiência de edição atrativa. Quando estiver pronto para exportar, ative a opção de escala de cinzentos no painel de Baixar para converter a sua composição a cores em páginas para colorir económicas em tinta. A conversão para escala de cinzentos ocorre no momento da exportação — o seu canvas permanece a cores enquanto trabalha. Esta abordagem é ideal para interiores de KDP e impressão online onde a reprodução a preto e branco mantém os custos baixos.',
     },
     {
       question: 'O que são os auxiliares de loja?',
-      answer: 'Dois botões com um único clique adicionam elementos prontos para a loja. O botão de Campo de Nome coloca um bloco de texto formatado \"Nome: ____\" no topo da página para identificação do usuário. O botão de Linhas de Caligrafia adiciona um grupo de três linhas equidistantes (contínua, tracejada, contínua) perto da parte inferior para prática de escrita. Estes auxiliares transformam páginas para colorir em atividades estruturadas para a loja sem formatação manual de texto — um ponto de venda chave para recursos do Gumroad.',
+      answer: 'Dois botões com um único clique adicionam elementos prontos para a loja. O botão de Campo de Nome coloca um bloco de texto formatado \"Nome: ____\" no topo da página para identificação do usuário. O botão de Linhas de Caligrafia adiciona um grupo de três linhas equidistantes (contínua, tracejada, contínua) perto da parte inferior para prática de escrita. Estes auxiliares transformam páginas para colorir em atividades estruturadas para a loja sem formatação manual de texto — um ponto de venda chave para recursos da Hotmart.',
     },
     {
       question: 'Como funciona a ferramenta de desenho à mão livre?',
@@ -175,19 +175,19 @@ const content: ToolContent = {  seo: {
     },
     {
       question: 'As páginas para colorir dependem do idioma?',
-      answer: 'Não. O Gerador de Páginas para Colorir produz resultados puramente visuais sem texto na página para colorir em si. Mudar o idioma no gerador apenas afeta as etiquetas da interface, não a ficha exportada. Isto torna as suas páginas para colorir universalmente vendíveis sem tradução. Um único ficheiro de produto serve para todos os mercados do mundo.',
+      answer: 'Não. O Gerador de Páginas para Colorir produz resultados puramente visuais sem texto na página para colorir em si. Mudar o idioma no gerador apenas afeta as etiquetas da interface, não a atividade exportada. Isto torna as suas páginas para colorir universalmente vendíveis sem tradução. Um único arquivo de produto serve para todos os mercados do mundo.',
     },
     {
       question: 'Por que não existe gabarito?',
-      answer: 'Colorir é uma atividade criativa sem resposta correta. Os usuários escolhem as suas próprias cores e expressam a sua própria visão artística. Não há uma forma correta ou incorreta de colorir uma página, pelo que um gabarito não faria sentido. Isto também simplifica o seu fluxo de criação de produtos — cada exportação é o produto final sem um ficheiro de respostas separado para gerir.',
+      answer: 'Colorir é uma atividade criativa sem resposta correta. Os usuários escolhem as suas próprias cores e expressam a sua própria visão artística. Não há uma forma correta ou incorreta de colorir uma página, pelo que um gabarito não faria sentido. Isto também simplifica o seu fluxo de criação de produtos — cada exportação é o produto final sem um arquivo de respostas separado para gerir.',
     },
     {
-      question: 'Que temas de imagens e formatos de ficheiro estão disponíveis?',
+      question: 'Que temas de imagens e formatos de arquivo estão disponíveis?',
       answer: 'A biblioteca de imagens inclui 104 coleções temáticas com mais de 3100 ilustrações a cores — animais, alimentos, veículos, natureza, festividades, profissões e dezenas mais. Carregue imagens personalizadas em PNG, JPG ou GIF junto ao conteúdo da biblioteca. Exporte como JPEG de alta resolução ou PDF pronto para impressão a 300 DPI. Os tamanhos de página incluem Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal, Quadrado (1200×1200) e dimensões personalizadas. Ative a escala de cinzentos para uma saída económica em tinta.',
     },
     {
       question: 'Posso vender as páginas para colorir criadas com esta ferramenta para fins comerciais?',
-      answer: 'Sim. Com uma licença comercial, tem todos os direitos para vender páginas para colorir como downloads digitais na Etsy, livros para colorir impressos na Amazon KDP, recursos para a loja no Gumroad ou através de qualquer outro canal de venda. O canvas de forma livre, o desenho à mão livre, os auxiliares de loja e as 104 coleções temáticas de imagens oferecem-lhe tudo o necessário para criar produtos profissionais que competem em categorias de páginas para colorir em todos os principais mercados.',
+      answer: 'Sim. Com uma licença comercial, tem todos os direitos para vender páginas para colorir como downloads digitais na Etsy, livros para colorir impressos na Amazon KDP, recursos para a loja na Hotmart ou através de qualquer outro canal de venda. O canvas de forma livre, o desenho à mão livre, os auxiliares de loja e as 104 coleções temáticas de imagens oferecem-lhe tudo o necessário para criar produtos profissionais que competem em categorias de páginas para colorir em todos os principais mercados.',
     },
     {
       question: 'Posso carregar as minhas próprias imagens?',
@@ -200,14 +200,14 @@ const content: ToolContent = {  seo: {
   ],
 
   internalLinks: [
-    { pageType: 'app', slug: 'desenhos-colorir-fichas', anchorText: 'Páginas para Colorir — Detalhes Completos do Produto' },
-    { pageType: 'tool', slug: 'gerador-desenho-quadricula', anchorText: 'Gerador de Fichas de Desenhar e Colorir' },
-    { pageType: 'tool', slug: 'gerador-fichas-grafomotricidade', anchorText: 'Gerador de Fichas de Grafomotricidade' },
-    { pageType: 'tool', slug: 'gerador-fichas-grande-pequeno', anchorText: 'Gerador de Fichas de Grande e Pequeno' },
-    { pageType: 'tool', slug: 'gerador-trem-padroes', anchorText: 'Gerador de Fichas de Trem de Padrões' },
-    { pageType: 'tool', slug: 'gerador-fichas-associacao', anchorText: 'Gerador de Fichas de Associação' },
+    { pageType: 'app', slug: 'desenhos-colorir-atividades', anchorText: 'Páginas para Colorir — Detalhes Completos do Produto' },
+    { pageType: 'tool', slug: 'gerador-desenho-quadricula', anchorText: 'Gerador de Atividades de Desenhar e Colorir' },
+    { pageType: 'tool', slug: 'gerador-atividades-grafomotricidade', anchorText: 'Gerador de Atividades de Grafomotricidade' },
+    { pageType: 'tool', slug: 'gerador-atividades-grande-pequeno', anchorText: 'Gerador de Atividades de Grande e Pequeno' },
+    { pageType: 'tool', slug: 'gerador-trem-padroes', anchorText: 'Gerador de Atividades de Trem de Padrões' },
+    { pageType: 'tool', slug: 'gerador-atividades-associacao', anchorText: 'Gerador de Atividades de Associação' },
     { pageType: 'tool', slug: 'gerador-discriminacao-visual', anchorText: 'Gerador de Discriminação Visual' },
-    { pageType: 'tool', slug: 'gerador-fichas-escrita', anchorText: 'Gerador de Fichas de Escrita' },
+    { pageType: 'tool', slug: 'gerador-atividades-escrita', anchorText: 'Gerador de Atividades de Escrita' },
   ],
 
   visuals: {
@@ -224,7 +224,7 @@ const content: ToolContent = {  seo: {
       {
         src: '/samples/portuguese/coloring/coloring landscape 3.webp',
         alt: 'Página para colorir pronta para a loja com campo de nome e linhas de prática de caligrafia adicionadas usando auxiliares de loja com um único clique',
-        caption: 'Ficha de atividade para a loja — campo de nome e linhas de caligrafia transformam páginas para colorir em atividades de aprendizagem estruturadas',
+        caption: 'Atividade de atividade para a loja — campo de nome e linhas de caligrafia transformam páginas para colorir em atividades de aprendizagem estruturadas',
       },
       {
         src: '/samples/portuguese/coloring/coloring portrait 1.webp',

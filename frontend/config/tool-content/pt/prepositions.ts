@@ -2,38 +2,38 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'gerador fichas de preposições',
+    primaryKeyword: 'gerador atividades de preposições',
     secondaryKeywords: [
-      'criar fichas de preposições imprimíveis para vender',
-      'gerador de fichas de preposições espaciais uso comercial',
-      'fichas de preposições imprimíveis para Etsy e KDP',
-      'ferramenta de fichas de palavras de posição',
+      'criar atividades de preposições imprimíveis para vender',
+      'gerador de atividades de preposições espaciais uso comercial',
+      'atividades de preposições imprimíveis para Etsy e KDP',
+      'ferramenta de atividades de palavras de posição',
     ],
     lsiKeywords: [
-      'fichas de relações espaciais imprimíveis para Etsy',
+      'atividades de relações espaciais imprimíveis para Etsy',
       'gerador de atividades de preposições multilingue',
-      'ferramenta de fichas de palavras de posição para vender',
+      'ferramenta de atividades de palavras de posição para vender',
     ],
-    titleTag: 'Gerador Fichas de Preposições | Criar e Vender',
-    metaDescription: 'Gere fichas de preposições com preencher a lacuna e escolha múltipla, substituição de formas, 104 temas, 11 idiomas e PDF pronto.',
+    titleTag: 'Gerador Atividades de Preposições | Criar e Vender',
+    metaDescription: 'Gere atividades de preposições com preencher a lacuna e escolha múltipla, substituição de formas, 104 temas, 11 idiomas e PDF pronto.',
   },
 
   hero: {
-    title: 'Gerador de Fichas de Preposições',
-    tagline: 'Crie fichas de preposições espaciais com dois modos de exercício em 11 idiomas',
-    description: 'Ensine palavras de posição através de exercícios baseados em imagens que os usuários realmente apreciam. Esta ferramenta gera fichas de preposições onde os compradores identificam relações espaciais — em cima de, debaixo de, ao lado de, atrás de, entre, acima de, à frente de — estudando cenas com imagens e completando ou selecionando a preposição correta. Escolha entre dois modos de exercício: Preencher a Lacuna, onde os usuários escrevem a preposição correta, ou Escolha Múltipla, onde escolhem entre várias opções com uma linha de instrução personalizável. Configure de 1 a 8 exercícios por ficha e selecione exatamente quais preposições incluir usando a grelha de caixas de seleção. A função de destaque da ferramenta é a Substituição de Formas — uma camada de imagem independente permite-lhe trocar as formas da cena de forma autónoma, criando muito mais combinações visuais do que um único conjunto de imagens poderia oferecer. A sensibilidade linguística está integrada: mude do português para qualquer um dos 11 idiomas suportados e cada palavra de preposição atualiza-se para o seu equivalente nativo. O alemão usa \"auf, unter, über, neben, zwischen, drinnen, draußen\"; o francês usa \"sur, sous, au-dessus, à côté, entre, dedans, dehors\". Um único design de ficha transforma-se em 11 produtos únicos em diferentes idiomas. Explore mais de 3100 imagens em 104 temas, carregue as suas próprias imagens PNG ou JPEG para designs personalizados e escolha entre múltiplos modelos e 7 famílias tipográficas. Exporte como PDF pronto para imprimir ou JPEG de alta resolução. O teste grátis inclui uma marca d\'água nos downloads. Adquira uma licença para remover a marca d\'água e vender com uso comercial.',
+    title: 'Gerador de Atividades de Preposições',
+    tagline: 'Crie atividades de preposições espaciais com dois modos de exercício em 11 idiomas',
+    description: 'Ensine palavras de posição através de exercícios baseados em imagens que os usuários realmente apreciam. Esta ferramenta gera atividades de preposições onde os compradores identificam relações espaciais — em cima de, debaixo de, ao lado de, atrás de, entre, acima de, à frente de — estudando cenas com imagens e completando ou selecionando a preposição correta. Escolha entre dois modos de exercício: Preencher a Lacuna, onde os usuários escrevem a preposição correta, ou Escolha Múltipla, onde escolhem entre várias opções com uma linha de instrução personalizável. Configure de 1 a 8 exercícios por atividade e selecione exatamente quais preposições incluir usando a grelha de caixas de seleção. A função de destaque da ferramenta é a Substituição de Formas — uma camada de imagem independente permite-lhe trocar as formas da cena de forma autónoma, criando muito mais combinações visuais do que um único conjunto de imagens poderia oferecer. A sensibilidade linguística está integrada: mude do português para qualquer um dos 11 idiomas suportados e cada palavra de preposição atualiza-se para o seu equivalente nativo. O alemão usa \"auf, unter, über, neben, zwischen, drinnen, draußen\"; o francês usa \"sur, sous, au-dessus, à côté, entre, dedans, dehors\". Um único design de atividade transforma-se em 11 produtos únicos em diferentes idiomas. Explore mais de 3100 imagens em 104 temas, carregue as suas próprias imagens PNG ou JPEG para designs personalizados e escolha entre múltiplos modelos e 7 famílias tipográficas. Exporte como PDF pronto para imprimir ou JPEG de alta resolução. O teste grátis inclui uma marca d\'água nos downloads. Adquira uma licença para remover a marca d\'água e vender com uso comercial.',
   },
 
   tutorial: {
-    title: 'Como Criar Fichas de Preposições em 8 Passos Simples',
+    title: 'Como Criar Atividades de Preposições em 8 Passos Simples',
     steps: [
       {
-        title: 'Abrir o Gerador de Fichas de Preposições',
+        title: 'Abrir o Gerador de Atividades de Preposições',
         description: 'Clique em \"Testar Grátis\" para abrir o gerador. A ferramenta abre instantaneamente no seu navegador com uma barra lateral de definições à esquerda e um canvas de pré-visualização em tempo real à direita. Não precisa de conta, download nem instalação.',
       },
       {
         title: 'Configurar o Layout da Página e o Modelo',
-        description: 'Na secção \"Configuração de Página\", selecione o tamanho: Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal, Quadrado ou introduza um tamanho personalizado. Escolha um modelo de ficha do seletor — cada modelo organiza os exercícios de forma diferente na página. Defina a cor da página, adicione um fundo temático com opacidade ajustável e selecione uma moldura decorativa.',
+        description: 'Na secção \"Configuração de Página\", selecione o tamanho: Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal, Quadrado ou introduza um tamanho personalizado. Escolha um modelo de atividade do seletor — cada modelo organiza os exercícios de forma diferente na página. Defina a cor da página, adicione um fundo temático com opacidade ajustável e selecione uma moldura decorativa.',
       },
       {
         title: 'Escolher o Modo de Exercício',
@@ -41,23 +41,23 @@ const content: ToolContent = {
       },
       {
         title: 'Selecionar Preposições',
-        description: 'A grelha de caixas de seleção mostra todas as palavras de posição disponíveis para o idioma selecionado. Marque as preposições que quer incluir na ficha: em/dentro de, em cima de, debaixo de, ao lado de, atrás de, entre, acima de, à frente de. Pode selecionar todas ou focar-se num subconjunto para prática específica. A grelha atualiza-se automaticamente ao mudar de idioma — o alemão mostra \"auf, unter, über, neben, zwischen, drinnen, draußen\" e assim por diante.',
+        description: 'A grelha de caixas de seleção mostra todas as palavras de posição disponíveis para o idioma selecionado. Marque as preposições que quer incluir na atividade: em/dentro de, em cima de, debaixo de, ao lado de, atrás de, entre, acima de, à frente de. Pode selecionar todas ou focar-se num subconjunto para prática específica. A grelha atualiza-se automaticamente ao mudar de idioma — o alemão mostra \"auf, unter, über, neben, zwischen, drinnen, draußen\" e assim por diante.',
       },
       {
         title: 'Selecionar Imagens e Tema',
-        description: 'Abra o painel \"Biblioteca de Imagens\" e explore mais de 3100 imagens em 104 coleções temáticas: animais, alimentos, veículos, natureza, festividades e muitos mais. Use a Seleção Manual para escolher imagens específicas ou selecione Todos os Temas para que a ferramenta escolha automaticamente. Cada imagem aparece num contexto de cena que demonstra a relação espacial selecionada. Carregue as suas próprias imagens PNG ou JPEG para fichas personalizadas.',
+        description: 'Abra o painel \"Biblioteca de Imagens\" e explore mais de 3100 imagens em 104 coleções temáticas: animais, alimentos, veículos, natureza, festividades e muitos mais. Use a Seleção Manual para escolher imagens específicas ou selecione Todos os Temas para que a ferramenta escolha automaticamente. Cada imagem aparece num contexto de cena que demonstra a relação espacial selecionada. Carregue as suas próprias imagens PNG ou JPEG para atividades personalizadas.',
       },
       {
         title: 'Configurar a Substituição de Formas',
-        description: 'A Substituição de Formas é exclusiva da ferramenta de preposições. Adiciona uma camada de imagem independente para as formas da cena — os objetos que definem o contexto espacial (uma caixa, uma mesa, uma estante). Escolha formas através de Seleção Manual de um tema ou carregue Todos os Temas. Combinar diferentes imagens principais com diferentes formas multiplica a variedade visual das suas fichas sem necessitar de mais imagens de origem.',
+        description: 'A Substituição de Formas é exclusiva da ferramenta de preposições. Adiciona uma camada de imagem independente para as formas da cena — os objetos que definem o contexto espacial (uma caixa, uma mesa, uma estante). Escolha formas através de Seleção Manual de um tema ou carregue Todos os Temas. Combinar diferentes imagens principais com diferentes formas multiplica a variedade visual das suas atividades sem necessitar de mais imagens de origem.',
       },
       {
         title: 'Personalizar Texto, Fontes e Design',
         description: 'Configure o número de exercícios de 1 a 8 por página. Escolha entre 7 famílias tipográficas: Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial ou Verdana. Ative ou desative os campos de Nome e Data. Use as ferramentas do canvas Fabric.js para reposicionar, alinhar, bloquear ou desbloquear elementos individuais. Os botões desfazer e refazer permitem-lhe experimentar com segurança.',
       },
       {
-        title: 'Gerar e Descarregar',
-        description: 'Clique em \"Gerar\" para criar a sua ficha de preposições. A pré-visualização atualiza-se no canvas. Ative o modo Escala de Cinzentos para uma saída a preto e branco ideal para interiores KDP. Descarregue como PDF pronto para imprimir ou JPEG de alta resolução. Gere um gabarito que mostra a preposição correta para cada exercício.',
+        title: 'Gerar e Baixar',
+        description: 'Clique em \"Gerar\" para criar a sua atividade de preposições. A pré-visualização atualiza-se no canvas. Ative o modo Escala de Cinzentos para uma saída a preto e branco ideal para interiores KDP. Baixe como PDF pronto para imprimir ou JPEG de alta resolução. Gere um gabarito que mostra a preposição correta para cada exercício.',
       },
     ],
   },
@@ -65,7 +65,7 @@ const content: ToolContent = {
   whatYouCanCreate: [
     {
       title: 'Pacotes de Preposições Temáticos',
-      description: 'Crie conjuntos de 10 a 15 fichas de preposições usando coleções de imagens temáticas — animais, veículos, objetos do lar, cenas da natureza. Cada ficha usa diferentes combinações de imagens e formas a um nível de dificuldade uniforme. Agrupe-os por tema e venda na Etsy ou Gumroad. O formato baseado em cenas com imagens faz a miniatura dos seus listings destacar-se das fichas de gramática baseadas em texto. Os pacotes temáticos também incentivam compras repetidas: um comprador que aprecia o seu pacote de preposições de animais provavelmente voltará pelo de veículos ou festividades, criando fidelidade a longo prazo na sua loja.',
+      description: 'Crie conjuntos de 10 a 15 atividades de preposições usando coleções de imagens temáticas — animais, veículos, objetos do lar, cenas da natureza. Cada atividade usa diferentes combinações de imagens e formas a um nível de dificuldade uniforme. Agrupe-os por tema e venda na Etsy ou Hotmart. O formato baseado em cenas com imagens faz a miniatura dos seus listings destacar-se das atividades de gramática baseadas em texto. Os pacotes temáticos também incentivam compras repetidas: um comprador que aprecia o seu pacote de preposições de animais provavelmente voltará pelo de veículos ou festividades, criando fidelidade a longo prazo na sua loja.',
     },
     {
       title: 'Livros de Vocabulário Espacial para KDP',
@@ -73,26 +73,26 @@ const content: ToolContent = {
     },
     {
       title: 'Conjuntos Diferenciados por Modo de Exercício',
-      description: 'Gere duas versões de cada ficha temática: Escolha Múltipla para usuários mais novos ou com dificuldades, e Preencher a Lacuna para compradores preparados para a recuperação ativa. Os vendedores podem entregar a versão adequada a cada usuário conforme o seu nível. Venda-os como um pacote diferenciado a um preço premium na Gumroad ou Etsy.',
+      description: 'Gere duas versões de cada atividade temática: Escolha Múltipla para usuários mais novos ou com dificuldades, e Preencher a Lacuna para compradores preparados para a recuperação ativa. Os vendedores podem entregar a versão adequada a cada usuário conforme o seu nível. Venda-os como um pacote diferenciado a um preço premium na Hotmart ou Etsy.',
     },
     {
       title: 'Produtos de Preposições Multilingues',
-      description: 'Mude o idioma e regenere o mesmo modelo de ficha nos 11 idiomas suportados. Cada palavra de preposição atualiza-se para o seu equivalente nativo — \"em cima de\" torna-se \"auf\" em alemão, \"sur\" em francês, \"on\" em inglês. Uma sessão de design produz 11 produtos distintos, cada um pronto para publicar no seu mercado local. As fichas de preposições em idiomas específicos estão dramaticamente pouco exploradas fora do inglês.',
+      description: 'Mude o idioma e regenere o mesmo modelo de atividade nos 11 idiomas suportados. Cada palavra de preposição atualiza-se para o seu equivalente nativo — \"em cima de\" torna-se \"auf\" em alemão, \"sur\" em francês, \"on\" em inglês. Uma sessão de design produz 11 produtos distintos, cada um pronto para publicar no seu mercado local. As atividades de preposições em idiomas específicos estão dramaticamente pouco exploradas fora do inglês.',
     },
     {
-      title: 'Fichas Personalizadas com Imagem Própria',
-      description: 'Carregue as suas próprias ilustrações, mascotes ou arte com licença para criar fichas de preposições que nenhum outro vendedor pode replicar. Combine imagens principais personalizadas com substituições de formas personalizadas para uma identidade visual completamente única. Os criadores de conteúdo para ensino doméstico podem usar objetos familiares, e os vendedores da Etsy podem construir uma estética de loja distintiva em toda a sua linha de produtos.',
+      title: 'Atividades Personalizadas com Imagem Própria',
+      description: 'Carregue as suas próprias ilustrações, mascotes ou arte com licença para criar atividades de preposições que nenhum outro vendedor pode replicar. Combine imagens principais personalizadas com substituições de formas personalizadas para uma identidade visual completamente única. Os criadores de conteúdo para ensino doméstico podem usar objetos familiares, e os vendedores da Etsy podem construir uma estética de loja distintiva em toda a sua linha de produtos.',
     },
     {
       title: 'Pacotes de Preposições Sazonais',
-      description: 'Use temas de imagens festivas e sazonais para criar pacotes de edição limitada. Um pacote \"Preposições de Natal\" com cenas festivas — presentes debaixo da árvore, estrelas acima da casa, doces dentro da meia — vende-se muito bem em novembro e dezembro. O regresso às aulas, Halloween e a primavera têm as suas próprias janelas de vendas de pico na Etsy e Gumroad.',
+      description: 'Use temas de imagens festivas e sazonais para criar pacotes de edição limitada. Um pacote \"Preposições de Natal\" com cenas festivas — presentes debaixo da árvore, estrelas acima da casa, doces dentro da meia — vende-se muito bem em novembro e dezembro. O regresso às aulas, Halloween e a primavera têm as suas próprias janelas de vendas de pico na Etsy e Hotmart.',
     },
   ],
 
   businessIdeas: [
     {
       title: 'Loja de Preposições Multilingue na Etsy',
-      description: 'Abra uma loja Etsy especializada em fichas de preposições espaciais nos 11 idiomas suportados. A maioria dos vendedores de fichas de preposições só atende o mercado em inglês — pode publicar designs idênticos na Etsy Alemanha, França, Espanha, Itália, Suécia e mais. Cada versão linguística usa palavras de preposição nativas e gramática correta do idioma. Uma tarde de design produz 11 listings, cada um direcionado a um mercado de compradores diferente com concorrência mínima. Use o teste grátis com marca d\'água para testar os seus designs e fluxo de trabalho antes de comprar uma licença comercial, para que possa lançar com confiança sabendo que a qualidade do seu produto cumpre os padrões do marketplace.',
+      description: 'Abra uma loja Etsy especializada em atividades de preposições espaciais nos 11 idiomas suportados. A maioria dos vendedores de atividades de preposições só atende o mercado em inglês — pode publicar designs idênticos na Etsy Alemanha, França, Espanha, Itália, Suécia e mais. Cada versão linguística usa palavras de preposição nativas e gramática correta do idioma. Uma tarde de design produz 11 listings, cada um direcionado a um mercado de compradores diferente com concorrência mínima. Use o teste grátis com marca d\'água para testar os seus designs e fluxo de trabalho antes de comprar uma licença comercial, para que possa lançar com confiança sabendo que a qualidade do seu produto cumpre os padrões do marketplace.',
       platform: 'Etsy',
     },
     {
@@ -101,18 +101,18 @@ const content: ToolContent = {
       platform: 'Amazon KDP',
     },
     {
-      title: 'Pacotes de Gramática no Gumroad',
-      description: 'Carregue pacotes de fichas de preposições na Gumroad organizados por dificuldade e modo de exercício. Inclua conjuntos de Preencher a Lacuna, conjuntos de Escolha Múltipla e pacotes de modo misto com gabaritos para cada página. Os vendedores procuram \"fichas de preposições\" e \"atividades de vocabulário espacial\" com frequência. O formato de cena com imagens acrescenta valor percebido porque os usuários interagem com contexto visual em vez de frases abstratas para completar.',
-      platform: 'Gumroad',
+      title: 'Pacotes de Gramática na Hotmart',
+      description: 'Carregue pacotes de atividades de preposições na Hotmart organizados por dificuldade e modo de exercício. Inclua conjuntos de Preencher a Lacuna, conjuntos de Escolha Múltipla e pacotes de modo misto com gabaritos para cada página. Os vendedores procuram \"atividades de preposições\" e \"atividades de vocabulário espacial\" com frequência. O formato de cena com imagens acrescenta valor percebido porque os usuários interagem com contexto visual em vez de frases abstratas para completar.',
+      platform: 'Hotmart',
     },
     {
-      title: 'Kits de Preposições de Duplo Modo no Gumroad',
-      description: 'Crie kits premium de preposições no Gumroad que incluam versões de Preencher a Lacuna e Escolha Múltipla de cada ficha, mais gabaritos e um guia de utilização. Agrupe versões em 5 a 11 idiomas num único produto multilingue. Dirija-se a vendedores de português como língua estrangeira, famílias bilingues e escolas internacionais que precisam de materiais de vocabulário espacial em múltiplos idiomas.',
-      platform: 'Gumroad',
+      title: 'Kits de Preposições de Duplo Modo na Hotmart',
+      description: 'Crie kits premium de preposições na Hotmart que incluam versões de Preencher a Lacuna e Escolha Múltipla de cada atividade, mais gabaritos e um guia de utilização. Agrupe versões em 5 a 11 idiomas num único produto multilingue. Dirija-se a vendedores de português como língua estrangeira, famílias bilingues e escolas internacionais que precisam de materiais de vocabulário espacial em múltiplos idiomas.',
+      platform: 'Hotmart',
     },
     {
       title: 'Funil de Preposições com Cenas no Pinterest',
-      description: 'O formato colorido de cenas com imagens cria pins atrativos — um gato em cima de uma caixa ou uma bola debaixo de uma mesa é instantaneamente reconhecível e capta a atenção no scroll. Ofereça um conjunto de amostra com marca d\'água de 3 páginas com ambos os modos de exercício, recolha endereços de email e depois ofereça os seus pacotes temáticos e multilingues completos. As imagens de cenas de preposições conseguem significativamente mais guardados do que fichas de gramática com texto simples.',
+      description: 'O formato colorido de cenas com imagens cria pins atrativos — um gato em cima de uma caixa ou uma bola debaixo de uma mesa é instantaneamente reconhecível e capta a atenção no scroll. Ofereça um conjunto de amostra com marca d\'água de 3 páginas com ambos os modos de exercício, recolha endereços de email e depois ofereça os seus pacotes temáticos e multilingues completos. As imagens de cenas de preposições conseguem significativamente mais guardados do que atividades de gramática com texto simples.',
       platform: 'Pinterest',
     },
     {
@@ -125,7 +125,7 @@ const content: ToolContent = {
   proTips: [
     {
       title: 'Use Preencher a Lacuna para usuários Mais Velhos',
-      description: 'O modo Preencher a Lacuna exige recuperação ativa — os usuários devem produzir a preposição correta de memória, não apenas reconhecê-la. Isto é ideal para o segundo ano em diante e compradores de português como língua estrangeira que já conhecem as palavras de posição mas precisam de prática de escrita. Também torna as fichas mais difíceis de adivinhar, aumentando o valor educativo. Na Etsy e Gumroad, os listings que enfatizam a aprendizagem baseada em recuperação atraem consistentemente compradores vendedores que procuram prática rigorosa de vocabulário espacial em vez de exercícios simples de reconhecimento, por isso destacar este modo nas suas descrições de produto pode melhorar as conversões.',
+      description: 'O modo Preencher a Lacuna exige recuperação ativa — os usuários devem produzir a preposição correta de memória, não apenas reconhecê-la. Isto é ideal para o segundo ano em diante e compradores de português como língua estrangeira que já conhecem as palavras de posição mas precisam de prática de escrita. Também torna as atividades mais difíceis de adivinhar, aumentando o valor educativo. Na Etsy e Hotmart, os listings que enfatizam a aprendizagem baseada em recuperação atraem consistentemente compradores vendedores que procuram prática rigorosa de vocabulário espacial em vez de exercícios simples de reconhecimento, por isso destacar este modo nas suas descrições de produto pode melhorar as conversões.',
     },
     {
       title: 'Use Escolha Múltipla para Principiantes',
@@ -133,30 +133,30 @@ const content: ToolContent = {
     },
     {
       title: 'Multiplique por 11 com o Modo Multilingue',
-      description: 'Cada ficha de preposições que desenhar pode transformar-se em 11 produtos mudando o idioma. As palavras de preposição atualizam-se automaticamente: \"em cima de\" torna-se \"auf\" (alemão), \"sur\" (francês), \"on\" (inglês), \"på\" (sueco). As fichas de preposições em idiomas específicos são um nicho dramaticamente pouco explorado fora do inglês.',
+      description: 'Cada atividade de preposições que desenhar pode transformar-se em 11 produtos mudando o idioma. As palavras de preposição atualizam-se automaticamente: \"em cima de\" torna-se \"auf\" (alemão), \"sur\" (francês), \"on\" (inglês), \"på\" (sueco). As atividades de preposições em idiomas específicos são um nicho dramaticamente pouco explorado fora do inglês.',
     },
     {
       title: 'Agrupe Ambos os Modos num Único Produto',
-      description: 'Combine fichas de Preencher a Lacuna e Escolha Múltipla num único pacote. Os vendedores adoram pacotes diferenciados que podem entregar a usuários de diferentes níveis. Um \"Pacote Completo de Preposições\" com ambos os modos, gabaritos e um guia vendedor alcança um preço mais elevado do que qualquer modo vendido separadamente. Os pacotes de duplo modo também reduzem os pedidos de reembolso porque os compradores sentem que obtêm cobertura completa, e os gabaritos incluídos poupam valor percebido aos vendedores — um ponto de venda que vale a pena destacar no texto do seu listing.',
+      description: 'Combine atividades de Preencher a Lacuna e Escolha Múltipla num único pacote. Os vendedores adoram pacotes diferenciados que podem entregar a usuários de diferentes níveis. Um \"Pacote Completo de Preposições\" com ambos os modos, gabaritos e um guia vendedor alcança um preço mais elevado do que qualquer modo vendido separadamente. Os pacotes de duplo modo também reduzem os pedidos de reembolso porque os compradores sentem que obtêm cobertura completa, e os gabaritos incluídos poupam valor percebido aos vendedores — um ponto de venda que vale a pena destacar no texto do seu listing.',
     },
     {
       title: 'Use Escala de Cinzentos para KDP e Impressão em Massa',
-      description: 'Ative o modo escala de cinzentos para fichas destinadas a interiores de Amazon KDP ou impressão em massa online. As cenas a preto e branco custam significativamente menos a imprimir. Reserve o modo a cores para pré-visualizações de listings na Etsy e downloads digitais onde as imagens vibrantes atraem cliques. Muitos vendedores KDP experientes publicam uma edição digital a cores e uma edição impressa em escala de cinzentos do mesmo livro, duplicando efetivamente o seu catálogo a partir de uma única sessão de design sem criar conteúdo novo.',
+      description: 'Ative o modo escala de cinzentos para atividades destinadas a interiores de Amazon KDP ou impressão em massa online. As cenas a preto e branco custam significativamente menos a imprimir. Reserve o modo a cores para pré-visualizações de listings na Etsy e downloads digitais onde as imagens vibrantes atraem cliques. Muitos vendedores KDP experientes publicam uma edição digital a cores e uma edição impressa em escala de cinzentos do mesmo livro, duplicando efetivamente o seu catálogo a partir de uma única sessão de design sem criar conteúdo novo.',
     },
     {
       title: 'Carregue Imagens Próprias para Personalização',
-      description: 'Carregue as suas próprias ilustrações ou arte com licença para criar fichas de preposições que nenhum concorrente pode replicar. As imagens personalizadas combinadas com substituições de formas personalizadas dão-lhe uma identidade visual completamente única na sua loja Etsy que constrói reconhecimento de marca junto dos clientes recorrentes.',
+      description: 'Carregue as suas próprias ilustrações ou arte com licença para criar atividades de preposições que nenhum concorrente pode replicar. As imagens personalizadas combinadas com substituições de formas personalizadas dão-lhe uma identidade visual completamente única na sua loja Etsy que constrói reconhecimento de marca junto dos clientes recorrentes.',
     },
     {
       title: 'Combine com Outras Ferramentas de Literacia',
-      description: 'Combine fichas de preposições com caça-palavras, prática de caligrafia, fichas de associação e atividades do alfabeto para criar pacotes de linguagem completos. Um pacote \"Vocabulário Espacial Completo\" com múltiplos tipos de atividade vende-se por mais do que qualquer formato de ficha individual.',
+      description: 'Combine atividades de preposições com caça-palavras, prática de caligrafia, atividades de associação e atividades do alfabeto para criar pacotes de linguagem completos. Um pacote \"Vocabulário Espacial Completo\" com múltiplos tipos de atividade vende-se por mais do que qualquer formato de atividade individual.',
     },
   ],
 
   faq: [
     {
       question: 'Existe um teste grátis?',
-      answer: 'Sim. A ferramenta oferece um teste grátis com todas as funcionalidades — sem registo, sem cartão de crédito. Pode criar, pré-visualizar e descarregar quantas fichas quiser. Os downloads do teste grátis incluem uma marca d\'água. Adquira uma licença comercial para remover a marca d\'água e desbloquear os direitos de venda.',
+      answer: 'Sim. A ferramenta oferece um teste grátis com todas as funcionalidades — sem cadastro, sem cartão de crédito. Pode criar, pré-visualizar e baixar quantas atividades quiser. Os downloads do teste grátis incluem uma marca d\'água. Adquira uma licença comercial para remover a marca d\'água e desbloquear os direitos de venda.',
     },
     {
       question: 'Como funcionam os dois modos de exercício?',
@@ -172,27 +172,27 @@ const content: ToolContent = {
     },
     {
       question: 'Como funciona a sensibilidade linguística?',
-      answer: 'Quando muda de idioma, cada palavra de preposição na ficha atualiza-se para o seu equivalente nativo. \"Em cima de, debaixo de, acima de\" em português torna-se \"auf, unter, über\" em alemão, \"sur, sous, au-dessus\" em francês, \"on, under, above\" em inglês, e assim por diante nos 11 idiomas suportados. O formato do exercício permanece idêntico — só mudam as palavras de posição.',
+      answer: 'Quando muda de idioma, cada palavra de preposição na atividade atualiza-se para o seu equivalente nativo. \"Em cima de, debaixo de, acima de\" em português torna-se \"auf, unter, über\" em alemão, \"sur, sous, au-dessus\" em francês, \"on, under, above\" em inglês, e assim por diante nos 11 idiomas suportados. O formato do exercício permanece idêntico — só mudam as palavras de posição.',
     },
     {
       question: 'Que idiomas são suportados?',
-      answer: 'A ferramenta suporta 11 idiomas: português, inglês, alemão, francês, espanhol, italiano, neerlandês, sueco, dinamarquês, norueguês e finlandês. Cada idioma usa as suas palavras de preposição nativas corretas. Mude de idioma para criar o mesmo design de ficha com diferentes palavras de posição para cada mercado.',
+      answer: 'A ferramenta suporta 11 idiomas: português, inglês, alemão, francês, espanhol, italiano, neerlandês, sueco, dinamarquês, norueguês e finlandês. Cada idioma usa as suas palavras de preposição nativas corretas. Mude de idioma para criar o mesmo design de atividade com diferentes palavras de posição para cada mercado.',
     },
     {
       question: 'Quantos exercícios posso colocar numa página?',
-      answer: 'Pode configurar de 1 a 8 exercícios por ficha. Menos exercícios por página dão a cada cena mais espaço visual, o que funciona bem para usuários mais novos. Mais exercícios por página criam fichas mais densas adequadas para usuários mais velhos ou prática cronometrada. O layout adapta-se automaticamente ao número de exercícios e tamanho de página. Os vendedores frequentemente criam duas versões do mesmo pacote — um design espaçoso de 3 exercícios para anos iniciais e um design compacto de 6 exercícios para usuários mais velhos — e depois agrupam ambas as versões a um preço premium.',
+      answer: 'Pode configurar de 1 a 8 exercícios por atividade. Menos exercícios por página dão a cada cena mais espaço visual, o que funciona bem para usuários mais novos. Mais exercícios por página criam atividades mais densas adequadas para usuários mais velhos ou prática cronometrada. O layout adapta-se automaticamente ao número de exercícios e tamanho de página. Os vendedores frequentemente criam duas versões do mesmo pacote — um design espaçoso de 3 exercícios para anos iniciais e um design compacto de 6 exercícios para usuários mais velhos — e depois agrupam ambas as versões a um preço premium.',
     },
     {
       question: 'Posso carregar as minhas próprias imagens?',
-      answer: 'Sim. Clique no botão \"Carregar Imagem\" para usar os seus próprios ficheiros PNG ou JPEG tanto para as imagens principais como para as substituições de formas. As imagens personalizadas permitem-lhe criar fichas com as suas próprias ilustrações ou arte com licença que nenhum outro vendedor pode replicar.',
+      answer: 'Sim. Clique no botão \"Carregar Imagem\" para usar os seus próprios arquivos PNG ou JPEG tanto para as imagens principais como para as substituições de formas. As imagens personalizadas permitem-lhe criar atividades com as suas próprias ilustrações ou arte com licença que nenhum outro vendedor pode replicar.',
     },
     {
-      question: 'Posso usar as fichas para fins comerciais?',
-      answer: 'O teste grátis com marca d\'água é apenas para uso pessoal e educativo. Para vender fichas na Etsy, Gumroad, Amazon KDP ou qualquer outro marketplace, precisa de uma licença comercial. A licença comercial remove a marca d\'água e concede direitos completos de revenda para as fichas que criar.',
+      question: 'Posso usar as atividades para fins comerciais?',
+      answer: 'O teste grátis com marca d\'água é apenas para uso pessoal e educativo. Para vender atividades na Hotmart, Etsy, Amazon KDP ou qualquer outro marketplace, precisa de uma licença comercial. A licença comercial remove a marca d\'água e concede direitos completos de revenda para as atividades que criar.',
     },
     {
-      question: 'Em que formatos de ficheiro posso descarregar?',
-      answer: 'Pode descarregar fichas como imagens JPEG de alta resolução ou ficheiros PDF otimizados para impressão. Tanto a ficha como o seu gabarito estão disponíveis em ambos os formatos. Os PDFs são ideais para impressão direta e carregamento na KDP; os JPEGs são perfeitos para maquetes de produtos e publicações em redes sociais.',
+      question: 'Em que formatos de arquivo posso baixar?',
+      answer: 'Pode baixar atividades como imagens JPEG de alta resolução ou arquivos PDF otimizados para impressão. Tanto a atividade como o seu gabarito estão disponíveis em ambos os formatos. Os PDFs são ideais para impressão direta e carregamento na KDP; os JPEGs são perfeitos para maquetes de produtos e publicações em redes sociais.',
     },
     {
       question: 'Qual é a política de reembolso?',
@@ -201,40 +201,40 @@ const content: ToolContent = {
   ],
 
   internalLinks: [
-    { pageType: 'app', slug: 'preposicoes-fichas', anchorText: 'Fichas de Preposições — Detalhes Completos do Produto' },
+    { pageType: 'app', slug: 'preposicoes-atividades', anchorText: 'Atividades de Preposições — Detalhes Completos do Produto' },
     { pageType: 'tool', slug: 'gerador-trem-alfabeto', anchorText: 'Gerador de Trem do Alfabeto' },
     { pageType: 'tool', slug: 'gerador-adivinhar-palavras', anchorText: 'Gerador de Adivinhar Palavras' },
     { pageType: 'tool', slug: 'gerador-palavras-embaralhadas', anchorText: 'Gerador de Palavras Embaralhadas' },
     { pageType: 'tool', slug: 'gerador-caca-palavras', anchorText: 'Gerador de Caça-Palavras' },
     { pageType: 'tool', slug: 'gerador-criptogramas', anchorText: 'Gerador de Criptogramas' },
-    { pageType: 'tool', slug: 'gerador-fichas-escrita', anchorText: 'Gerador de Fichas de Escrita' },
-    { pageType: 'tool', slug: 'gerador-fichas-associacao', anchorText: 'Gerador de Fichas de Associação' },
+    { pageType: 'tool', slug: 'gerador-atividades-escrita', anchorText: 'Gerador de Atividades de Escrita' },
+    { pageType: 'tool', slug: 'gerador-atividades-associacao', anchorText: 'Gerador de Atividades de Associação' },
   ],
 
   visuals: {
     heroImages: {
       primary: '/samples/portuguese/prepositions/Preposições 1.webp',
-      primaryAlt: 'Ficha de preposições mostrando cenas com imagens e exercícios de relações espaciais para prática de palavras de posição',
+      primaryAlt: 'Atividade de preposições mostrando cenas com imagens e exercícios de relações espaciais para prática de palavras de posição',
     },
     sampleGallery: [
       {
         src: '/samples/portuguese/prepositions/Preposições 2.webp',
-        alt: 'Ficha de preposições com exercícios de preencher a lacuna usando cenas coloridas com imagens',
+        alt: 'Atividade de preposições com exercícios de preencher a lacuna usando cenas coloridas com imagens',
         caption: 'Exercícios de preencher a lacuna com cenas de imagens',
       },
       {
         src: '/samples/portuguese/prepositions/Preposições 3.webp',
-        alt: 'Ficha de preposições com exercícios de escolha múltipla sobre relações espaciais',
+        alt: 'Atividade de preposições com exercícios de escolha múltipla sobre relações espaciais',
         caption: 'Modo escolha múltipla para prática adaptada a principiantes',
       },
       {
         src: '/samples/portuguese/prepositions/Preposições 4.webp',
-        alt: 'Ficha avançada de preposições com substituição de formas e múltiplos exercícios por página',
+        alt: 'Atividade avançada de preposições com substituição de formas e múltiplos exercícios por página',
         caption: 'A substituição de formas cria combinações de cenas únicas',
       },
     ],
     youtubeId: 'ifIXbViR5_o',
-    videoTitle: 'Como Criar Fichas de Preposições — Tutorial em Vídeo',
+    videoTitle: 'Como Criar Atividades de Preposições — Tutorial em Vídeo',
   },
 };
 

@@ -2,28 +2,30 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'dolda objekt arbetsblad generator',
+    primaryKeyword: 'hitta och finn-blad att sälja på Etsy och KDP',
     secondaryKeywords: [
-      'utskrivbar sökbild skapare för Etsy-säljare',
-      'hitta föremålen arbetsblad generator för KDP-publicerare',
-      'dolda objekt aktivitet skapare kommersiell licens',
-      'sälja hitta föremålen arbetsblad på Gumroad',
+      'dolda objekt arbetsblad för Etsy-säljare',
+      'hitta föremålen generator för Amazon KDP',
+      'sökbild arbetsblad kommersiell licens',
+      'hitta udda bilden att sälja online',
+      'sökarbetsbok att publicera på KDP',
     ],
     lsiKeywords: [
-      'digitala dolda objekt utskriftsbara onlineföretag',
-      'kommersiellt bruk hitta föremålen arbetsblad generator',
-      'utskrivbar visuell sökaktivitet affärsverktyg',
+      'passiv inkomst sökarbetsblad',
+      'printables-verksamhet dolda objekt',
+      'visuell sökning produktlinje',
+      'svenska marknaden sökblad Etsy',
     ],
-    titleTag: 'Dolda Objekt Generator | Skapa Sökarbetsblad — Säljguide',
+    titleTag: 'Hitta och finn-blad för Etsy | LessonCraftStudio',
     metaDescription:
-      'Skapa dolda objekt arbetsblad att sälja på Etsy, KDP och Gumroad. Sökning och Hitta Udda Bilden-lägen, noll-överlappning scener, automatiskt facit. Gratis.',
+      'Skapa hitta och finn-blad att sälja på Etsy och KDP. Sökning och Hitta Udda Bilden, automatiskt facit, 104 teman, kommersiell licens. Testa gratis med vattenmärke.',
   },
 
   hero: {
-    title: 'Dolda Objekt Arbetsblad Generator för Sök- och Hitta Udda Bilden Aktiviteter',
-    tagline: 'Två aktivitetslägen i en generator — Sökning dolda objekt-scener med noll-överlappning placering och Hitta Udda Bilden parade bildrader — med automatiskt genererade facit, adaptiv bildstorlek, namn- och datumfält och en legend som visar objekt att hitta.',
+    title: 'Skapa hitta och finn-blad att sälja på Etsy och Amazon KDP',
+    tagline: 'Två aktivitetslägen — Sökning med noll-överlappning och Hitta Udda Bilden — med automatiskt facit och 104 tematiska bildsamlingar.',
     description:
-      'Bygg professionella dolda objekt-arbetsblad där användarna söker i en friforms bildscen för att hitta och ringa in specifika objekt. Välj mellan två aktivitetslägen: Söknings-läget använder en noll-överlappningsalgoritm för att sprida 1–5 dolda objekt bland 8–12 distraktorer över sidan — inget rutnät, inga rader och kolumner, bara en sammanhängande visuell scen genererad av findBestPosition()-algoritmen som testar 50 slumpmässiga positioner per bild och adaptivt minskar storlek när utrymmet blir trångt. En legend längst ner på arbetsbladet visar användarna exakt vilka objekt de ska hitta. Hitta Udda Bilden-läget arrangerar 8–12 parade bilder i rader med 1–5 oparade objekt inblandade — användarna identifierar bilderna som inte har en matchande partner. Dubbelarbetsyte-systemet genererar både en arbetsbladsflik och en facitflik — facit ritar röda cirklar runt dolda objekt (Sökning) eller oparade objekt (Hitta Udda Bilden) så du aldrig behöver markera dem manuellt. Hitta Föremålen Generatorn är visuell: språket påverkar gränssnittsetiketter men INTE arbetsbladets innehåll, så varje arbetsblad fungerar på vilket språk som helst utan lokaliserade bildnamn. Samma arbetsblad kan säljas globalt utan modifiering. Full Access låser upp alla 104 teman med mer än 3 100 illustrationer och alla 11 gränssnittsspråk. Lägg till bakgrundsteman och ramteman med oberoende opacitetskontroller, växla namn- och datumfält, anpassa den automatiska rubriken med 6 typsnittsval, och exportera tryckfärdiga PDF:er och JPEG-bilder med 300 DPI i Letter, A4 eller anpassade storlekar. Kommersiellt Paket inkluderar 10 färgglada teman; Full Access låser upp alla 104 teman för maximal kreativ variation. Oavsett om du säljer dolda objekt-aktivitetspaket på Etsy, sammanställer sökarbetsböcker för Amazon KDP eller skapar visuella diskrimineringsaktiviteter för Gumroad — denna generator levererar produktionsfärdiga arbetsblad på några minuter. Gratis provversion med alla funktioner — ingen registrering, inget kreditkort. Nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',
+      'Skapa hitta och finn-arbetsblad att sälja på Etsy eller sammanställa i sökarbetsböcker för Amazon KDP. Två aktivitetslägen: Sökning sprider dolda objekt i en bildscen, och Hitta Udda Bilden blandar oparade bilder i rader. Automatiskt facit med röda cirklar ingår. Arbetsbladen är rent visuella utan text — samma produkt fungerar globalt utan översättning. Välj bland mer än 3 100 illustrationer i 104 teman. Dolda objekt-aktiviteter är enormt populära bland föräldrar och säljer konsekvent året runt. Den svenska marknaden för sökarbetsblad på Etsy saknar i princip konkurrenter. Exportera tryckfärdiga PDF:er i Letter och A4. Kommersiell licens ingår. Gratis provversion med alla funktioner — nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',
   },
 
   howItWorks: {

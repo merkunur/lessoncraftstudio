@@ -2,28 +2,30 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'prepositioner arbetsblad generator',
+    primaryKeyword: 'prepositionsblad för SFI att sälja på Etsy och Eduki',
     secondaryKeywords: [
-      'utskrivbara prepositioner arbetsblad för Etsy-säljare',
-      'rumsligt språk arbetsblad skapare för KDP-utgivare',
-      'prepositioner aktiviteter sälja på Gumroad',
-      'prepositioner printables kommersiell licens',
+      'prepositioner arbetsblad för Etsy-säljare',
+      'rumsligt språk arbetsblad för Amazon KDP',
+      'prepositionsblad SFI SVA kommersiell licens',
+      'prepositionsövningar att sälja online',
+      'språkarbetsbok att publicera på KDP',
     ],
     lsiKeywords: [
-      'digitala rumsliga ordförråd produkter onlineföretag',
-      'utskrivbara prepositioner arbetsblad business',
-      'kommersiellt bruk språkarbetsblad generator',
+      'passiv inkomst prepositionsblad',
+      'printables-verksamhet SFI-material',
+      'rumsligt ordförråd produktlinje',
+      'svenska marknaden prepositionsblad Etsy',
     ],
-    titleTag: 'Prepositioner Arbetsblad Generator | Skapa Printables',
+    titleTag: 'Prepositionsblad SFI att sälja | LessonCraftStudio',
     metaDescription:
-      'Skapa prepositioner arbetsblad att sälja på Etsy, KDP och Gumroad. 8 rumsliga prepositioner, ifyllningsövningar och flerval. Gratis provversion med vattenstämpe',
+      'Skapa prepositionsblad för SFI att sälja på Etsy och Eduki. 8 prepositioner, ifyllning och flerval, 11 språk, kommersiell licens. Testa gratis med vattenmärke.',
   },
 
   hero: {
-    title: 'Prepositioner Arbetsblad Generator för Rumsligt Språk',
+    title: 'Skapa prepositionsblad för SFI att sälja på Etsy och Eduki',
     tagline: 'Åtta rumsliga prepositioner möter bild-och-form övningar — bygg rumsligt ordförråd, mening för mening.',
     description:
-      'Designa professionella prepositioner arbetsblad som lär ut rumsliga relationer genom praktiska bild-och-form övningar. användarna övar åtta kärnprepositioner — i, på, under, bredvid, bakom, mellan, ovanför och framför — med två olika övningslägen: Ifyllningsövningar där användarna skriver den saknade prepositionen, och Flervalsfrågor där användarna identifierar bilden som matchar en rumslig beskrivning. Välj vilka prepositioner du vill inkludera via den inbyggda checklistan och konfigurera 1 till 8 övningar per arbetsblad. Bläddra bland mer än 3 100 noggrant utvalda illustrationer i 104 teman för de placerade föremålen, och välj bland 8 geometriska former (cirkel, kub, cylinder, hjärta, hexagon, kvadrat, stjärna, triangel) som rumsliga referenspunkter. Full Tillgång låser upp alla 11 stödda språk med grammatiskt korrekta prepositioner — tyska med kasussammandragningar som \"im" och \"am", franska med elisionsregler för \"l\'" före vokaler, spanska med könsbaserade artiklar — vilket multiplicerar din produktkatalog elva gånger från ett enda arbetsflöde. Varje arbetsblad genererar automatiskt ett facit, och du kan exportera tryckfärdiga PDF:er och JPEG:er med mer än 400 DPI i Letter-, A4-, Kvadrat- eller anpassat format. Oavsett om du säljer tematiska prepositionspaket på Etsy.se, sammanställer böcker om rumsligt ordförråd för Amazon KDP eller skapar nivågrupperade språkstationer för Gumroad — Prepositioner Arbetsblad Generatorn levererar professionella resultat på några minuter. Gratis provversion med alla funktioner — ingen registrering, inget kreditkort. Nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',
+      'Skapa prepositionsblad att sälja på Etsy, Eduki eller sammanställa i språkarbetsböcker för Amazon KDP. Åtta kärnprepositioner — i, på, under, bredvid, bakom, mellan, ovanför och framför — med ifyllningsövningar och flervalsfrågor. SFI-lärare i hundratals kommuner behöver ständigt nytt material för prepositioner — en B2B-marknad med hög betalningsvilja och kronisk brist på varierat material. Stöd för 11 språk med grammatiskt korrekta prepositioner multiplicerar din produktkatalog. Välj bland mer än 3 100 illustrationer i 104 teman. Automatiskt facit och export i 400+ DPI ingår. Den svenska marknaden för prepositionsblad är i princip obefintlig på Etsy — en enorm outnyttjad möjlighet. Kommersiell licens ingår. Gratis provversion med alla funktioner — nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',
   },
 
   howItWorks: {

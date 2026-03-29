@@ -2,28 +2,30 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'matchnings arbetsblad generator',
+    primaryKeyword: 'kopplingsblad att skapa och sälja på Etsy',
     secondaryKeywords: [
-      'utskrivbar matchningsaktivitet skapare för Etsy-säljare',
-      'dra-ett-streck matchnings arbetsblad generator för KDP',
-      'bildmatchnings arbetsblad skapare kommersiell licens',
-      'sälja matchnings arbetsblad på Gumroad',
+      'matchnings arbetsblad för Etsy-säljare',
+      'kopplingsblad generator för Amazon KDP',
+      'dra-ett-streck arbetsblad kommersiell licens',
+      'matchningsaktiviteter att sälja online',
+      'kopplingsbok att publicera på KDP',
     ],
     lsiKeywords: [
-      'digitala matchnings utskriftsbara produkter onlineföretag',
-      'kommersiellt bruk matchnings arbetsblad generator',
-      'utskrivbar matchningsaktivitet affärsverktyg',
+      'passiv inkomst matchningsblad',
+      'printables-verksamhet kopplingsövningar',
+      'flerspråkiga matchningsaktiviteter produktlinje',
+      'svenska marknaden kopplingsblad Etsy',
     ],
-    titleTag: 'Matchnings Arbetsblad Generator | Skapa och Sälj — Säljguide',
+    titleTag: 'Kopplingsblad att sälja på Etsy | LessonCraftStudio',
     metaDescription:
-      'Skapa matchnings arbetsblad att sälja på Etsy, KDP och Gumroad. 4 matchningslägen, automatiskt facit, 104 teman, konfigurerbara par. Gratis provversion med.',
+      'Skapa kopplingsblad att sälja på Etsy och KDP. 4 matchningslägen, automatiskt facit, 104 teman, 11 språk, kommersiell licens. Testa gratis med vattenmärke.',
   },
 
   hero: {
-    title: 'Matchnings Arbetsblad Generator för Dra-ett-Streck Matchningsaktiviteter',
-    tagline: 'Fyra matchningslägen i en generator — Begynnelsebokstav, Bild+Ord, Bild/Ord Blandat och Anpassat Ord — med automatiskt genererade facit, konfigurerbara parantal och en lokaliserad \"Para ihop!\"-rubrik över 104 tematiska bildsamlingar.',
+    title: 'Skapa kopplingsblad att sälja på Etsy och Amazon KDP',
+    tagline: 'Fyra matchningslägen i en generator — Begynnelsebokstav, Bild+Ord, Bild/Ord Blandat och Anpassat Ord — med automatiskt genererade facit och 104 tematiska bildsamlingar.',
     description:
-      'Bygg professionella dra-ett-streck matchnings arbetsblad där användarna kopplar ihop par genom att dra linjer mellan två kolumner. Välj mellan fyra distinkta matchningslägen: Bild ↔ Begynnelsebokstav matchar bilder med deras första bokstav, Bild+Ord ↔ Bild+Ord parar märkta bilder på båda sidor, Bild/Ord ↔ Bild/Ord blandar bilder och ord per rad med dropdown-kontroller, och Bild ↔ Anpassat Ord låter dig skriva dina egna matchningstermer. Konfigurera 4, 5 eller 6 par per arbetsblad och växla artikelnummer och dekorativa punktmarkeringar för ren formatering. Varje arbetsblad inkluderar en automatiskt genererad lokaliserad \"Para ihop!\"-rubrik med titel och instruktioner renderade på alla 11 stödda språk. Dubbelarbetsyta-systemet genererar både en arbetsbladsflik och en facitflik — facit ritar kopplingslinjer mellan korrekta matchningar så du aldrig behöver skapa det manuellt. Matchnings Arbetsblad Generatorn är språkkänslig: Begynnelsebokstav och Bild+Ord-lägen använder lokaliserade bildnamn, så att byta språk ändrar orden och de första bokstäverna på arbetsbladet. Det innebär att samma bildtema kan generera unika arbetsblad på 11 olika språk — varje språkversion har olika ord, olika begynnelsebokstäver och en anpassad rubrik, vilket gör varje version till en separat produkt. Full Access låser upp alla 104 teman med mer än 3 100 illustrationer och alla 11 gränssnittsspråk för lokaliserat ordinnehåll. Lägg till bakgrundsteman och ramteman med oberoende opacitetskontroller, inkludera namn- och datumfält, och exportera tryckfärdiga PDF:er och JPEG-bilder med 300 DPI i Letter, A4, Kvadrat eller anpassade storlekar. Oavsett om du säljer matchningsaktivitets-paket på Etsy, sammanställer tidiga läs- och skrivarbetsböcker för Amazon KDP eller skapar matchningsstationsaktiviteter för Gumroad — denna generator levererar produktionsfärdiga arbetsblad på några minuter. Gratis provversion med alla funktioner — ingen registrering, inget kreditkort. Nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',
+      'Skapa dra-ett-streck kopplingsblad att sälja på Etsy eller sammanställa i arbetsböcker för Amazon KDP. Fyra matchningslägen — Begynnelsebokstav, Bild+Ord, Bild/Ord Blandat och Anpassat Ord — ger dig flexibilitet att skapa unika produkter för varje åldersgrupp. Konfigurera 4, 5 eller 6 par per blad. Generatorn är språkkänslig: samma bilder producerar unika arbetsblad på 11 olika språk med lokaliserade ord och begynnelsebokstäver — varje språkversion blir en separat produkt. Automatiskt facit med kopplingslinjer ingår. Välj bland mer än 3 100 illustrationer i 104 teman. Kopplingsblad är extremt populära bland föräldrar till förskolebarn och säljer konsekvent året runt. Den svenska marknaden saknar konkurrens för denna produkttyp. Kommersiell licens ingår. Gratis provversion med alla funktioner — nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',
   },
 
   howItWorks: {

@@ -2,28 +2,30 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'rita linjer generator',
+    primaryKeyword: 'spårningsblad finmotorik att sälja på Etsy',
     secondaryKeywords: [
-      'linjespårning arbetsblad sälja på Etsy',
-      'rita linjer arbetsblad generator för Amazon KDP',
-      'linjespårning arbetsblad kommersiell licens',
-      'utskrivbara linjespårningsövningar skapa för Gumroad',
+      'linjespårning arbetsblad för Etsy-säljare',
+      'finmotoriska övningsblad för Amazon KDP',
+      'rita linjer arbetsblad kommersiell licens',
+      'spårningsblad att sälja online',
+      'finmotorikbok att publicera på KDP',
     ],
     lsiKeywords: [
-      'digitala linjespårning produkter onlineföretag',
-      'utskrivbara finmotoriska arbetsblad företag',
-      'rita linjer generator kommersiellt bruk',
+      'passiv inkomst spårningsblad',
+      'printables-verksamhet finmotorik',
+      'bildpar linjespårning produktlinje',
+      'svenska marknaden finmotorikblad Etsy',
     ],
-    titleTag: 'Rita Linjer Generator | Skapa Spårningsarbetsblad | Online',
+    titleTag: 'Spårningsblad att sälja på Etsy | LessonCraftStudio',
     metaDescription:
-      'Skapa linjespårningsarbetsblad att sälja på Etsy, KDP och Gumroad. Åtta SVG-mallar, bildparmatchning, 104 tematiska samlingar. Gratis provversion med.',
+      'Skapa spårningsblad för finmotorik att sälja på Etsy och KDP. 8 SVG-mallar, bildpar, 104 teman, kommersiell licens. Testa gratis med vattenmärke.',
   },
 
   hero: {
-    title: 'Rita Linjer Arbetsblad Generator för Linjespårningsövningar',
+    title: 'Skapa spårningsblad för finmotorik att sälja på Etsy och KDP',
     tagline: 'Åtta SVG-linjemallar — kurvor, diagonaler, horisontella och vertikala — med 4–5 bildpar per sida för finmotorisk utveckling genom guidad linjespårning.',
     description:
-      'Bygg professionella linjespårningsarbetsblad där användarna ritar längs guidade banor för att koppla samman matchande bildpar. Åtta SVG-baserade mallar täcker fyra linjetyper: fyra kurvmallar för flödande rörelser, två diagonalmallar för vinklade streck, en horisontell mall för raka spårningar och en vertikal mall för uppifrån-och-ner-övning. Varje mall placerar 4 eller 5 matchande bildpar på motsatta sidor av linjebanan, vilket ger användarna ett visuellt mål vid varje ände. Auto-fyll tilldelar slumpmässigt bildpar från valfritt valt tema eller över alla teman samtidigt. Innehåll hämtas från det inbyggda bildbiblioteket med mer än 3 100 färgglada illustrationer i 104 teman — djur, fordon, mat, natur och dussintals fler. Varje arbetsblad är rent visuellt med noll text på resultatet, vilket gör dem universellt användbara oavsett språk eller läsnivå. Mallvalet styr sidorienteringen automatiskt: kurvmallar använder liggande format för svepande rörelser, medan diagonal-, horisontell- och vertikalmallar använder stående format för fokuserad uppifrån-och-ner-övning. Full Access låser upp alla 104 teman och alla 11 gränssnittsspråk. Exportera tryckfärdiga PDF:er och JPEG-bilder med 300 DPI i Letter-, A4- eller anpassat format. Oavsett om du säljer linjespårningspaket på Etsy, sammanställer finmotoriska arbetsböcker för Amazon KDP eller skapar skrivförberedande stationer för Gumroad — Rita Linjer Arbetsblad Generatorn levererar professionella resultat på några minuter. Gratis provversion med alla funktioner — ingen registrering, inget kreditkort. Nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',
+      'Skapa linjespårningsblad att sälja på Etsy eller sammanställa i finmotoriska arbetsböcker för Amazon KDP. Åtta SVG-baserade mallar med kurvor, diagonaler och raka linjer kopplar samman matchande bildpar — ett visuellt engagerande format som föräldrar och förskollärare älskar. Varje arbetsblad är rent visuellt utan text, vilket gör dem säljbara globalt utan översättning. Välj bland mer än 3 100 illustrationer i 104 teman. Finmotoriska övningsblad är en av de mest efterfrågade produkterna för förskolebarn och förskoleklass — och den svenska marknaden på Etsy har i princip noll konkurrens. Exportera tryckfärdiga PDF:er i Letter och A4. Kommersiell licens ingår. Gratis provversion med alla funktioner — nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',
   },
 
   howItWorks: {

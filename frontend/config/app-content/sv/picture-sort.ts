@@ -2,28 +2,30 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'bildsortering generator',
+    primaryKeyword: 'sorteringsblad för Etsy-verksamhet',
     secondaryKeywords: [
-      'utskrivbar sorteringsaktivitet skapare för Etsy-säljare',
-      'tvåkategori sortering arbetsblad generator för KDP',
-      'bildklassificering arbetsblad skapare kommersiell licens',
-      'sälja sorteringsarbetsblad på Gumroad',
+      'bildsortering arbetsblad för Etsy-säljare',
+      'sorteringsblad generator för Amazon KDP',
+      'klassificering arbetsblad kommersiell licens',
+      'sorteringsaktiviteter att sälja online',
+      'sorteringsbok att publicera på KDP',
     ],
     lsiKeywords: [
-      'digitala sorterings utskriftsbara produkter onlineföretag',
-      'kommersiellt bruk klassificering arbetsblad generator',
-      'utskrivbar kategorisortering aktivitet affärsverktyg',
+      'passiv inkomst sorteringsblad',
+      'printables-verksamhet klassificering',
+      'tvåkategori sortering produktlinje',
+      'svenska marknaden sorteringsblad Etsy',
     ],
-    titleTag: 'Bildsortering Generator | Skapa Sorteringsarbetsblad',
+    titleTag: 'Sorteringsblad att sälja på Etsy | LessonCraftStudio',
     metaDescription:
-      'Skapa bildsorteringsarbetsblad att sälja på Etsy, KDP och Gumroad. Tvåkategorisortering, automatiskt facit, 104 teman, 4–12 bilder. Gratis provversion med.',
+      'Skapa sorteringsblad att sälja på Etsy och KDP. Tvåkategorisortering, automatiskt facit, 104 teman, 11 språk, kommersiell licens. Testa gratis med vattenmärke.',
   },
 
   hero: {
-    title: 'Bildsortering Arbetsblad Generator för Tvåkategori Sorteringsaktiviteter',
-    tagline: 'Tvåkategorisortering i en kraftfull generator — temabaserat eller manuellt bildval — med automatiskt genererade facit, 4–12 konfigurerbara bilder, en lokaliserad \"Sortera bilder\"-rubrik på 11 språk och 104 tematiska bildsamlingar.',
+    title: 'Skapa sorteringsblad att sälja på Etsy och Amazon KDP',
+    tagline: 'Tvåkategorisortering med temabaserat eller manuellt bildval, automatiskt facit och lokaliserade etiketter på 11 språk.',
     description:
-      'Bygg professionella sorteringsarbetsblad där användarna klassificerar bilder i två kategorier genom att sortera utklippta bilder i rätt vänster eller höger grupp. Välj temaläge för att automatiskt fylla kategorier från bildbiblioteket — välj ett vänster tema och ett höger tema, och appen hämtar 4–6 slumpmässiga bilder per tema — eller växla till manuellt läge för att handvälja enskilda bilder och tilldela var och en till en kategori. Varje arbetsblad har två streckade kategoriramar överst för sorteringsmål och ett blandat utklippsrutnät nedanför med blandade bilder redo att klippas ut och sorteras. Dubbelarbetsyte-systemet genererar både en arbetsbladsflik och en facitflik med 6× större bilder organiserade i kategorirutor, så du aldrig behöver skapa facit manuellt. Bildsortering Generatorn är språkkänslig: kategorietiketter använder lokaliserade bildnamn, så att byta språk ändrar texten på arbetsbladet. Det innebär att samma bildteman kan generera unika sorteringsarbetsblad på 11 olika språk — varje språkversion har lokaliserade kategorietiketter, vilket gör varje version till en separat produkt. En lokaliserad \"Sortera bilder\"-rubrik med mintgrön bakgrund och blågrön titel renderas automatiskt på alla 11 stödda språk. Full Access låser upp alla 104 teman med mer än 3 100 illustrationer och alla 11 gränssnittsspråk för lokaliserade kategorietiketter. Lägg till bakgrundsteman och ramteman med oberoende opacitetskontroller, inkludera namn- och datumfält för produktlinjesansvar, och exportera tryckfärdiga PDF:er och JPEG-bilder med 300 DPI i Letter, A4, Kvadrat eller anpassade storlekar. Kommersiellt Paket inkluderar 10 färgglada teman; Full Access låser upp alla 104 teman och alla 11 språk för lokaliserat ordinnehåll. Oavsett om du säljer sorteringsaktivitets-paket på Etsy, sammanställer klassificerings-arbetsböcker för Amazon KDP eller skapar sorteringsstations-aktiviteter för Gumroad — denna generator levererar produktionsfärdiga arbetsblad på några minuter. Gratis provversion med alla funktioner — ingen registrering, inget kreditkort. Nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',
+      'Skapa sorteringsblad att sälja på Etsy eller sammanställa i klassificerings-arbetsböcker för Amazon KDP. Köparna sorterar utklippta bilder i två kategorier — ett interaktivt format som föräldrar och förskollärare älskar. Välj temaläge eller manuellt läge för att anpassa kategorier och bilder. Generatorn är språkkänslig: samma teman producerar unika arbetsblad på 11 språk med lokaliserade kategorietiketter. Automatiskt facit ingår. Välj bland mer än 3 100 illustrationer i 104 teman. Sorteringsaktiviteter är ett av de mest efterfrågade produktformaten för förskolebarn — och den svenska marknaden på Etsy saknar praktiskt taget konkurrens. Exportera tryckfärdiga PDF:er i Letter och A4. Kommersiell licens ingår. Gratis provversion med alla funktioner — nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',
   },
 
   howItWorks: {

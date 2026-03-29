@@ -2,28 +2,30 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'labyrint arbetsblad generator',
+    primaryKeyword: 'bildlabyrint att sälja på Etsy',
     secondaryKeywords: [
-      'utskrivbar labyrintaktivitet skapare för Etsy-säljare',
-      'bildväg arbetsblad generator för KDP-publicerare',
-      'labyrint arbetsblad skapare kommersiell licens Gumroad',
-      'sälja vägpussel arbetsblad på Etsy och Amazon',
+      'labyrint arbetsblad för Etsy-säljare',
+      'vägpussel generator för Amazon KDP',
+      'bildväg arbetsblad kommersiell licens',
+      'labyrintblad att sälja online',
+      'labyrintbok att publicera på KDP',
     ],
     lsiKeywords: [
-      'digitala labyrint utskriftsbara produkter onlineföretag',
-      'kommersiellt bruk vägpussel arbetsblad generator',
-      'utskrivbar pusselaktivitet affärsverktyg',
+      'passiv inkomst labyrintblad',
+      'printables-verksamhet labyrint',
+      'bildväg aktiviteter produktlinje',
+      'svenska marknaden labyrintblad Etsy',
     ],
-    titleTag: 'Labyrint Arbetsblad Generator | Skapa Vägpussel — Säljguide',
+    titleTag: 'Bildlabyrint att sälja på Etsy | LessonCraftStudio',
     metaDescription:
-      'Skapa labyrintarbetsblad att sälja på Etsy, KDP och Gumroad. 3 spellägen, LPF-algoritm, automatiskt facit, 104 teman, tryckfärdiga PDF:er. Gratis provversion.',
+      'Skapa bildlabyrint att sälja på Etsy och KDP. 3 spellägen, LPF-algoritm, facit, 104 teman, kommersiell licens. Testa gratis med vattenmärke.',
   },
 
   hero: {
-    title: 'Bildväg Labyrint Arbetsblad Generator för Väg- och Labyrintaktiviteter',
-    tagline: 'Tre spellägen i en generator — Bildväg, Klassisk Labyrint och Välj Rätt Väg — drivna av en LPF (Longest Path First) labyrintalgoritm med automatiskt genererade facit, vägganpassning och visuell design som fungerar globalt utan översättning.',
+    title: 'Skapa bildlabyrint att sälja på Etsy och Amazon KDP',
+    tagline: 'Tre spellägen — Bildväg, Klassisk Labyrint och Välj Rätt Väg — med LPF-algoritm, facit och visuell design som fungerar globalt.',
     description:
-      'Bygg professionella labyrint- och vägarbetsblad med tre distinkta spellägen. Bildväg skapar ett rutnät av bilder där användarna följer rätt väg från start till mål genom att identifiera vägbilder bland distraktorer. Klassisk Labyrint genererar väggbaserade labyrinter med LPF-algoritmen (Longest Path First) med samlingsbilder utspridda genom korridorerna — konfigurera rutnätsstorlekar från 15×15 till 20×20, ställ in 1 till 3 vägar med återvändsgränd-blockering, och anpassa väggfärg, tjocklek (1–10px) och opacitet (10–100%). Välj Rätt Väg presenterar trevägs-labyrinter med fyra riktningsalternativ (nedifrån-upp, uppifrån-ner, vänster-till-höger, höger-till-vänster) där användarna identifierar den enda korrekta vägen bland lockbeten. Varje läge genererar ett medföljande facit på en separat arbetsyteflik — lösningsvägar markeras med rosa cirklar längs den korrekta rutten, och Välj Väg-läget lägger till en \"✓ KORREKT VÄG\"-etikett. Tilldela bilder till fem distinkta roller: Start, Mål, Väg, Distraktor och Dekoration. Bläddra bland 104 tematiska samlingar med mer än 3 100 illustrationer eller ladda upp egna. Den automatiskt genererade \"Bildväg\"-rubriken med orange ram renderar lokaliserade titlar och instruktioner på alla 11 stödda språk. Bildväg är helt visuell — labyrinter kräver ingen läsning eller språkförståelse, vilket gör varje arbetsblad direkt säljbart på vilken marknad som helst i världen. Samma labyrintarbetsblad fungerar identiskt för köpare i alla länder utan översättning. Full Access låser upp alla 104 teman med mer än 3 100 illustrationer och alla 11 gränssnittsspråk. Lägg till bakgrundsteman och ramteman med oberoende opacitetskontroller, inkludera namn- och datumfält, och exportera tryckfärdiga PDF:er och JPEG-bilder med 300 DPI i Letter, A4, Kvadrat (1200×1200) eller anpassade storlekar. Kommersiellt Paket inkluderar 10 färgglada teman; Full Access låser upp alla 104 teman för maximal kreativ variation. Gratis provversion med alla funktioner — ingen registrering, inget kreditkort. Nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',
+      'Skapa labyrint- och vägarbetsblad att sälja på Etsy eller sammanställa i labyrintböcker för Amazon KDP. Tre spellägen: Bildväg med rutnät av bilder, Klassisk Labyrint med LPF-algoritm och konfigurerbara väggar, och Välj Rätt Väg med trevägs-labyrinter. Automatiskt facit med markerade lösningsvägar ingår. Labyrinter är helt visuella — kräver ingen läsning, fungerar globalt utan översättning. Välj bland mer än 3 100 illustrationer i 104 teman. Labyrintblad och labyrintböcker är konsekvent populära på Etsy och KDP — köpare söker aktivt efter engagerande labyrintaktiviteter. Den svenska marknaden saknar konkurrens. Exportera tryckfärdiga PDF:er i Letter, A4 och anpassade storlekar. Kommersiell licens ingår. Gratis provversion med alla funktioner — nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',
   },
 
   howItWorks: {

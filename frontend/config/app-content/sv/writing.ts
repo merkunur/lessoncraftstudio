@@ -2,28 +2,30 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'skrivövning generator',
+    primaryKeyword: 'skrivövningar generator att sälja på Etsy och KDP',
     secondaryKeywords: [
-      'handstilsövning arbetsblad sälja på Etsy',
-      'skrivövning arbetsblad generator för Amazon KDP',
+      'handstilsövning arbetsblad för Etsy-säljare',
+      'skrivövningar för Amazon KDP-böcker',
       'bokstavsträning arbetsblad kommersiell licens',
-      'utskrivbara skrivövningar skapa för Gumroad',
+      'skrivövningsblad att sälja online',
+      'handstilsbok att publicera på KDP',
     ],
     lsiKeywords: [
-      'digitala handstilsövning produkter onlineföretag',
-      'utskrivbara bokstavsspårning arbetsblad företag',
-      'skrivövning generator kommersiellt bruk',
+      'passiv inkomst skrivövningar',
+      'printables-verksamhet handstil',
+      'bokstavsspårning produktlinje',
+      'svenska marknaden skrivövningar Etsy',
     ],
-    titleTag: 'Skrivövning Generator | Skapa och Sälj Handstilsark',
+    titleTag: 'Skrivövningar att sälja på Etsy | LessonCraftStudio',
     metaDescription:
-      'Skapa skrivövningsarbetsblad att sälja på Etsy, KDP och Gumroad. Tre övningslägen, fem typsnittsstilar, pilguidad streckordning, toningsövning. Gratis.',
+      'Skapa skrivövningar att sälja på Etsy och KDP. Tre övningslägen, fem typsnitt, pilguidad streckordning, kommersiell licens. Testa gratis med vattenmärke.',
   },
 
   hero: {
-    title: 'Skrivövning Arbetsblad Generator för Handstilsträning',
+    title: 'Skapa skrivövningar att sälja på Etsy och Amazon KDP',
     tagline: 'Tre progressiva övningslägen med pilguidad streckordning och tonande bokstavsguider — bygg handstilsflyt från full spårning till självständigt skrivande på ett enda arbetsblad.',
     description:
-      'Designa professionella skrivövningsarbetsblad med tre distinkta övningslägen som skapar en naturlig inlärningsprogression: Spåra-läget ger solida bokstavsguider som nybörjare följer direkt, Tonande Spårning minskar bokstavssynligheten progressivt över raden för att bygga självförtroende, och Guidad Kopiering erbjuder en svag kontur för nästan självständigt skrivande. Välj bland fem typsnittsstilar — Print Vanlig, Print Vanlig Pil med numrerade streckordningspilar, Print Spårning, Print Spårning Pil som kombinerar spårningskonturer med streckpilar, och Kursiv (Great Vibes) — för att matcha valfri handstilsmetodik. Varje rad på arbetsbladet kan konfigureras individuellt: blanda Spåra-läge för nya bokstäver, Tonande Spårning för övade bokstäver och Guidad Kopiering för repetition, allt på samma sida. Förskrivningsstreckövningar (vertikala linjer, horisontella linjer, cirklar och sicksacklinjer) lägger till finmotoriska uppvärmningar som förbereder händerna för bokstavsformning. Innehåll hämtas från det inbyggda bildbiblioteket med mer än 3 100 illustrationer i 104 teman: använd Begynnelsebokstav-läge för att öva den första bokstaven i varje bildnamn, Hela Filnamn-läge för att skriva hela ord, eller skriv valfri Egen Text. Full Access låser upp alla 104 teman och alla 11 gränssnittsspråk. Exportera tryckfärdiga PDF:er och JPEG-bilder med cirka 300 DPI i Letter-, A4- eller anpassat format. Oavsett om du säljer handstilsövningspaket på Etsy, sammanställer skrivarbetsböcker för Amazon KDP eller skapar nivågrupperade skrivstationer för Gumroad — Skrivövning Arbetsblad Generatorn levererar professionella resultat på några minuter. Gratis provversion med alla funktioner — ingen registrering, inget kreditkort. Nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',
+      'Skapa skrivövningsarbetsblad att sälja på Etsy eller sammanställa i handstilsböcker för Amazon KDP. Tre progressiva övningslägen — Spåra, Tonande Spårning och Guidad Kopiering — skapar en inlärningsprogression från full spårning till självständigt skrivande. Välj bland fem typsnittsstilar inklusive pilguidad streckordning för korrekt bokstavsformning. Bildbiblioteket med mer än 3 100 illustrationer i 104 teman ger tematiska övningar som engagerar köpare. Förskrivningsstreckövningar för finmotorisk uppvärmning ingår. Handstilsövningar är en av de mest eftertraktade produkterna på Etsy för föräldrar till förskolebarn och förskoleklassbarn. Den svenska marknaden har i princip noll konkurrens för denna typ av produkter. Stöd för 11 språk multiplicerar din produktkatalog. Automatiskt facit och export i 400+ DPI ingår. Kommersiell licens ingår. Gratis provversion med alla funktioner — nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',
   },
 
   howItWorks: {

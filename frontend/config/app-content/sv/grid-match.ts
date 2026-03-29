@@ -2,28 +2,30 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'rutmatchning pussel generator',
+    primaryKeyword: 'rutnätskopplingspussel för printables-verksamhet',
     secondaryKeywords: [
-      'utskrivbar rutnätspussel skapare för Etsy-säljare',
-      'bildplattor matchnings arbetsblad generator för KDP',
-      'rutnätsmatchning pussel skapare kommersiell licens',
-      'sälja rutnätsbildpussel på Gumroad',
+      'rutmatchning pussel för Etsy-säljare',
+      'bildplattor pussel generator för Amazon KDP',
+      'rutnätspussel arbetsblad kommersiell licens',
+      'rutnätskoppling att sälja online',
+      'bildpusselbok att publicera på KDP',
     ],
     lsiKeywords: [
-      'digitala plattor matchnings utskriftsbara onlineföretag',
-      'kommersiellt bruk rutnätspussel arbetsblad generator',
-      'utskrivbar bildpussel affärsverktyg',
+      'passiv inkomst rutnätspussel',
+      'printables-verksamhet bildpussel',
+      'visuell perception produktlinje',
+      'svenska marknaden rutnätspussel Etsy',
     ],
-    titleTag: 'Rutmatchning Pussel Generator | Skapa och Sälj — Säljguide',
+    titleTag: 'Rutnätspussel att sälja på Etsy | LessonCraftStudio',
     metaDescription:
-      'Skapa rutmatchningspussel att sälja på Etsy, KDP och Gumroad. Konfigurerbar rutnätsstorlek, justerbara ledtrådsceller, automatiskt facit, 104 teman. Gratis.',
+      'Skapa rutnätskopplingspussel att sälja på Etsy och KDP. Konfigurerbar storlek, ledtrådsceller, facit, 104 teman, kommersiell licens. Testa gratis med vattenmärke.',
   },
 
   hero: {
-    title: 'Rutmatchning Pussel Generator för Bildplattors Matchningsaktiviteter',
-    tagline: 'Förvandla vilken bild som helst till ett rutnätsbaserat bildpussel — dela upp den i plattor, visa konfigurerbara ledtrådsceller, blanda återstående plattor till en numrerad palett, och auto-generera ett facit med numrerade cirkelöverlägg över 104 tematiska bildsamlingar.',
+    title: 'Skapa rutnätskopplingspussel att sälja på Etsy och KDP',
+    tagline: 'Förvandla vilken bild som helst till ett rutnätsbaserat bildpussel med konfigurerbara ledtrådsceller, numrerad palett och automatiskt facit.',
     description:
-      'Bygg professionella rutmatchningspussel där en enstaka bild delas upp i ett rutnät av plattor och användarna matchar numrerade plattor tillbaka till deras korrekta positioner. Konfigurera rutnätet från 2×2 upp till 4×4 (2–4 rader × 2–4 kolumner) och ställ in 1–5 ledtrådsceller som förblir synliga som tips — färre ledtrådar innebär svårare pussel. Appen blandar återstående plattor med Fisher-Yates-randomisering och visar dem i en numrerad palett bredvid eller under rutnätet. användarna studerar de synliga ledtrådscellerna, granskar de numrerade plattorna och skriver vilket nummer som hör hemma i varje tom cell. Dubbelarbetsyte-systemet genererar både en arbetsbladsflik och en facitflik — facit visar den kompletta bilden med numrerade cirklar överlagrade på varje cell som visar korrekt plattplacering, så du aldrig behöver skapa facit manuellt. Rutmatchning är INTE språkkänslig: pusselresultatet är rent visuellt utan lokaliserat ordinnehåll på själva arbetsbladet. Samma rutnätspussel fungerar identiskt på alla marknader utan översättning — ett enda skapandeflöde betjänar varje marknad. Språkbytet påverkar bara appgränssnittets menyer, knappar och rubriktext, inte det genererade pusslet. Full Access låser upp alla 104 teman med mer än 3 100 illustrationer och alla 11 gränssnittsspråk för appgränssnittet. Lägg till bakgrundsteman och ramteman med oberoende opacitetskontroller, inkludera anpassad text med sju typsnittsalternativ, och exportera tryckfärdiga PDF:er och JPEG-bilder med 300 DPI i Letter, A4 eller anpassade storlekar. Kommersiellt Paket inkluderar 10 färgglada teman; Full Access låser upp alla 104 teman för maximal kreativ variation över alla rutnätspussel-produkter. Oavsett om du säljer bildpussel-paket på Etsy, sammanställer visuell perception-arbetsböcker för Amazon KDP eller skapar snabbsluts-pusselaktiviteter för Gumroad — denna generator levererar produktionsfärdiga rutnätspussel på några minuter. Gratis provversion med alla funktioner — ingen registrering, inget kreditkort. Nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',
+      'Skapa rutnätskopplingspussel att sälja på Etsy eller sammanställa i visuella pusselböcker för Amazon KDP. En bild delas upp i plattor och köparna matchar numrerade plattor till rätt positioner. Konfigurera rutnätet från 2×2 till 4×4 och ställ in 1–5 ledtrådsceller — färre ledtrådar ger svårare pussel. Automatiskt facit med numrerade cirklar ingår. Pusslen är rent visuella — samma produkt fungerar globalt utan översättning, ett enda skapandeflöde betjänar varje marknad. Välj bland mer än 3 100 illustrationer i 104 teman. Rutnätspussel är ett populärt och unikt format som särskiljer dina produkter från vanliga arbetsblad. Den svenska marknaden på Etsy saknar denna produkttyp helt. Exportera tryckfärdiga PDF:er i Letter och A4. Kommersiell licens ingår. Gratis provversion med alla funktioner — nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',
   },
 
   howItWorks: {

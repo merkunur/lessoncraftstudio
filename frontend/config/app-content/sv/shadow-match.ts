@@ -2,28 +2,30 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'skuggmatchning generator',
+    primaryKeyword: 'skuggkopplingsblad att sälja på Etsy',
     secondaryKeywords: [
-      'utskrivbar siluettmatchning aktivitet skapare för Etsy-säljare',
-      'bildskuggpussel arbetsblad generator för KDP-publicerare',
-      'skuggmatchning arbetsblad skapare kommersiell licens',
-      'sälja skuggmatchnings arbetsblad på Gumroad',
+      'siluettmatchning arbetsblad för Etsy-säljare',
+      'skuggpussel generator för Amazon KDP',
+      'skuggmatchning arbetsblad kommersiell licens',
+      'skuggkopplingsblad att sälja online',
+      'siluettbok att publicera på KDP',
     ],
     lsiKeywords: [
-      'digitala siluettmatchnings utskriftsbara onlineföretag',
-      'kommersiellt bruk skuggpussel arbetsblad generator',
-      'utskrivbar visuell matchningsaktivitet affärsverktyg',
+      'passiv inkomst skuggmatchning',
+      'printables-verksamhet siluettblad',
+      'visuell perception produktlinje',
+      'svenska marknaden skuggblad Etsy',
     ],
-    titleTag: 'Skuggmatchning Generator | Skapa Siluettpussel — Säljguide',
+    titleTag: 'Skuggkopplingsblad för Etsy | LessonCraftStudio',
     metaDescription:
-      'Skapa skuggmatchnings arbetsblad att sälja på Etsy, KDP och Gumroad. Skuggmatchning och gör-den-hel-lägen, autosiluetter, 104 teman. Gratis provversion med.',
+      'Skapa skuggkopplingsblad att sälja på Etsy och KDP. Siluettmatchning och Gör Den Hel, autosiluetter, facit, 104 teman. Testa gratis med vattenmärke.',
   },
 
   hero: {
-    title: 'Skuggmatchning Arbetsblad Generator för Siluett- och Delad-Bild Matchningsaktiviteter',
-    tagline: 'Två matchningslägen i en generator — Skuggmatchning skapar automatiskt genererade svarta siluetter från vilken bild som helst, Gör Den Hel delar bilder i halvor — båda med Fisher-Yates-derangering som säkerställer inga triviala matchningar, automatiskt genererade facit och 104 tematiska bildsamlingar.',
+    title: 'Skapa skuggkopplingsblad att sälja på Etsy och Amazon KDP',
+    tagline: 'Två matchningslägen — Skuggmatchning med autosiluetter och Gör Den Hel med delade bilder — med Fisher-Yates-derangering och automatiskt facit.',
     description:
-      'Bygg professionella skuggmatchnings arbetsblad där användarna matchar färgade bilder med deras siluetter eller återkopplar delade bildhalvor. Skuggmatchning-läget placerar 4 färgade bilder märkta A, B, C, D i den övre raden och 4 automatiskt genererade svarta siluetter märkta 1, 2, 3, 4 i den nedre raden — siluetterna skapas genom bildbearbetning på pixelnivå som konverterar varje pixel med alfa > 10 till rent svart, vilket producerar korrekta konturer som bevarar varje bilds exakta transparensprofil. Gör Den Hel-läget delar bilder i halvor med horisontell eller vertikal klippriktning, märker första halvorna A–D och andra halvorna 1–4, och anpassar layouten baserat på orientering. Båda lägena använder Fisher-Yates-derangering för att garantera att inget objekt visas i sin ursprungliga position, vilket skapar genuina matchningsutmaningar varje gång. Växla visa/dölj etiketter för A/B/C/D och 1/2/3/4 identifierare, lägg till valfria namn- och datumfält för produktlinjesanvändning, och generera autofacit som visar varje korrekt bokstav-till-nummer-parning. Skuggmatchning Arbetsblad Generatorn är INTE språkkänslig: resultatet är rent visuellt utan lokaliserat ordinnehåll på själva arbetsbladet. Samma skuggmatchningsarbetsblad fungerar identiskt på alla marknader utan översättning. Språkbytet påverkar bara appgränssnittets menyer, knappar och rubriktext, inte det genererade arbetsbladet. Full Access låser upp alla 104 teman med mer än 3 100 illustrationer och alla 11 gränssnittsspråk för appgränssnittet. Lägg till bakgrundsteman och ramteman med oberoende opacitetskontroller, inkludera anpassad text med sju typsnittsalternativ, och exportera tryckfärdiga PDF:er och JPEG-bilder med 300 DPI i Letter, A4, Kvadrat (1200×1200) eller anpassade storlekar. Kommersiellt Paket inkluderar 10 färgglada teman; Full Access låser upp alla 104 teman för maximal kreativ variation. Oavsett om du säljer skuggpussel-paket på Etsy, sammanställer visuell perception-arbetsböcker för Amazon KDP eller skapar snabbsluts-aktiviteter för Gumroad — denna generator levererar produktionsfärdiga arbetsblad på några minuter. Gratis provversion med alla funktioner — ingen registrering, inget kreditkort. Nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',
+      'Skapa skuggkopplingsblad att sälja på Etsy eller sammanställa i visuell perception-arbetsböcker för Amazon KDP. Skuggmatchning-läget matchar färgade bilder med automatiskt genererade svarta siluetter. Gör Den Hel-läget delar bilder i halvor som köparna kopplar ihop. Båda lägena använder Fisher-Yates-derangering som garanterar genuina matchningsutmaningar. Automatiskt facit ingår. Arbetsbladen är rent visuella — samma produkt säljs globalt utan översättning. Välj bland mer än 3 100 illustrationer i 104 teman. Skuggmatchning är ett populärt format som förskollärare och föräldrar aktivt söker efter. Den svenska marknaden har minimal konkurrens för detta produktformat. Kommersiell licens ingår. Gratis provversion med alla funktioner — nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',
   },
 
   howItWorks: {

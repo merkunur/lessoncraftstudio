@@ -2,28 +2,30 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'hitta och räkna arbetsblad generator',
+    primaryKeyword: 'hitta och räkna-blad att sälja på Etsy',
     secondaryKeywords: [
-      'utskrivbar hitta och räkna arbetsblad skapare för Etsy-säljare',
-      'dolda objekt sökaktivitet generator för KDP-publicerare',
-      'hitta och räkna arbetsblad skapare kommersiell licens',
-      'sälja hitta och räkna arbetsblad på Gumroad',
+      'hitta och räkna arbetsblad för Etsy-säljare',
+      'sökaktivitet generator för Amazon KDP',
+      'bokstavsletning arbetsblad kommersiell licens',
+      'hitta och räkna printables att sälja online',
+      'sökarbetsbok att publicera på KDP',
     ],
     lsiKeywords: [
-      'digitala sökarbetsblad utskriftsbara onlineföretag',
-      'kommersiellt bruk dolda objekt arbetsblad generator',
-      'utskrivbar räkningsaktivitet affärsverktyg',
+      'passiv inkomst sök-och-räkna',
+      'printables-verksamhet räkneaktiviteter',
+      'bokstavsletning svenska ÅÄÖ produktlinje',
+      'svenska marknaden sökblad Etsy',
     ],
-    titleTag: 'Hitta och Räkna Generator | Skapa Sökarbetsblad — Säljguide',
+    titleTag: 'Hitta och räkna att sälja på Etsy | LessonCraftStudio',
     metaDescription:
-      'Skapa hitta och räkna arbetsblad att sälja på Etsy, KDP och Gumroad. 4 uppgiftstyper, Bokstavsletning, automatiskt facit, 104 teman. Gratis provversion med.',
+      'Skapa hitta och räkna-blad att sälja på Etsy och KDP. 4 uppgiftstyper, Bokstavsletning med ÅÄÖ, facit, kommersiell licens. Testa gratis med vattenmärke.',
   },
 
   hero: {
-    title: 'Hitta och Räkna Arbetsblad Generator för Sök- och Räkneaktiviteter',
-    tagline: 'Två aktivitetslägen i en generator — Dolda Objekt Sökning och Bokstavsletning — med fyra mixbara uppgiftstyper (ringa in, ruta, stryk över, räkna), lokalspecifika alfabet med accentuerade bokstäver, lokaliserade bildnamnsetiketter på 11 språk och automatiskt genererade facit med visuella annoteringer.',
+    title: 'Skapa hitta och räkna-blad att sälja på Etsy och Amazon KDP',
+    tagline: 'Två aktivitetslägen — Dolda Objekt och Bokstavsletning — med fyra uppgiftstyper, svenska ÅÄÖ-alfabet och automatiskt facit.',
     description:
-      'Bygg professionella sök- och räknearbetsblad där användarna söker i en spridd bildscen för att hitta, ringa in, stryka över eller räkna specifika objekt. Välj mellan två aktivitetslägen: Dolda Objekt-läget sprider bilder över ett konfigurerbart rutnät (5–10 rader × 5–10 kolumner) och låter dig tilldela upp till 4 målobjekt med individuella uppgiftstyper — ringa in objektet, sätt en ruta runt det, stryk över det, eller räkna hur många som finns. Bokstavsletning-läget visar ett lokalspecifikt alfabet med accentuerade bokstäver (svenska ÅÄÖ, tyska ÄÖÜ, spanska Ñ, danska/norska ÆØÅ) och genererar sökscener med bilder som börjar på den valda bokstaven. Varje arbetsblad inkluderar en automatiskt genererad rubrik — \"Hitta och räkna\" eller \"Bokstavsletning\" — lokaliserad på alla 11 stödda språk med blå ram (#2196F3). Dubbelarbetsyte-systemet genererar både en arbetsbladsflik och en facitflik med röda cirkel-, rut- och korsannoteringer plus kvantitetsvisningar. Hitta och Räkna Generatorn är språkkänslig: bildnamnsetiketter på arbetsbladet renderas på det valda språket via bildvokabulärsystemet. Det innebär att samma bildtema genererar unika arbetsblad på 11 olika språk — varje språkversion har lokaliserade etiketter och bokstavsletning anpassas till det språkets alfabet (svenska ÅÄÖ), vilket gör varje version till en separat produkt. Full Access låser upp alla 104 teman med mer än 3 100 illustrationer och alla 11 gränssnittsspråk för lokaliserade etiketter. Lägg till bakgrundsteman och ramteman med oberoende opacitetskontroller, och exportera tryckfärdiga PDF:er och JPEG-bilder med 300 DPI i Letter, A4, Kvadrat (1200×1200) eller anpassade storlekar. Kommersiellt Paket inkluderar 10 färgglada teman; Full Access låser upp alla 104 teman och alla 11 språk. Oavsett om du säljer sökaktivitetspaket på Etsy, sammanställer dolda objekt-arbetsböcker för Amazon KDP eller skapar räkneaktiviteter för Gumroad — denna generator levererar produktionsfärdiga arbetsblad på några minuter. Gratis provversion med alla funktioner — ingen registrering, inget kreditkort. Nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',
+      'Skapa sök- och räkneblad att sälja på Etsy eller sammanställa i aktivitetsböcker för Amazon KDP. Två lägen: Dolda Objekt sprider bilder i ett konfigurerbart rutnät med fyra uppgiftstyper — ringa in, ruta, stryk över eller räkna. Bokstavsletning visar det svenska alfabetet med ÅÄÖ och genererar sökscener med bilder som börjar på den valda bokstaven — en unik produkt för den svenska marknaden. Generatorn är språkkänslig: samma bildtema producerar unika arbetsblad på 11 språk med lokaliserade etiketter. Automatiskt facit med visuella annoteringer ingår. Välj bland mer än 3 100 illustrationer i 104 teman. Hitta och räkna-blad säljer konsekvent året runt och den svenska marknaden på Etsy har minimal konkurrens. Kommersiell licens ingår. Gratis provversion med alla funktioner — nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',
   },
 
   howItWorks: {

@@ -14,6 +14,10 @@ import { getBlogContent } from '@/config/blog-content';
 import { getSectionLabel } from '@/config/section-labels';
 import { isValidInternalLink } from '@/lib/resolve-internal-link';
 import ReadMoreText from '@/components/ReadMoreText';
+import { getBlogVisualConfig } from '@/config/blog-visual-sections/blog-visual-map';
+import { getSectionPlacements, buildInsertionMap } from '@/config/blog-visual-sections/section-placement';
+import { BlogVisualSection } from '@/components/blog-showcase';
+import { imgUrl } from '@/config/showcase-i18n';
 
 const baseUrl = 'https://www.lessoncraftstudio.com';
 
@@ -46,6 +50,12 @@ export async function generateMetadata({
       ? [content.seo.primaryKeyword, ...(content.seo.secondaryKeywords || []), ...(content.seo.lsiKeywords || [])]
       : undefined;
 
+    // Use real sample worksheet image for og:image when visual config exists
+    const visualConfig = getBlogVisualConfig(config.blogId);
+    const ogImageUrl = visualConfig
+      ? `${baseUrl}${imgUrl(visualConfig.heroImages[0].appFolder, visualConfig.heroImages[0].filename, locale)}`
+      : `${baseUrl}/api/og?locale=${locale}&type=blog&title=${encodeURIComponent(title)}`;
+
     return {
       title,
       description,
@@ -63,14 +73,14 @@ export async function generateMetadata({
         locale: ogLocaleMap[locale] || locale,
         alternateLocale: SUPPORTED_LOCALES.filter(l => l !== locale).map(l => ogLocaleMap[l] || l),
         images: [
-          { url: `${baseUrl}/api/og?locale=${locale}&type=blog&title=${encodeURIComponent(title)}`, width: 1200, height: 630, alt: title },
+          { url: ogImageUrl, width: 1200, height: 630, alt: title },
         ],
       },
       twitter: {
         card: 'summary_large_image',
         title,
         description,
-        images: [`${baseUrl}/api/og?locale=${locale}&type=blog&title=${encodeURIComponent(title)}`],
+        images: [ogImageUrl],
       },
       robots: content ? undefined : { index: false },
     };
@@ -96,6 +106,12 @@ export default async function BlogPostPage({
     const localeSlug = getBlogSlugForLocale(config.blogId, locale);
     const pageUrl = `${baseUrl}/${locale}/blog/${localeSlug || slug}`;
 
+    // Visual sections config
+    const visualConfig = getBlogVisualConfig(config.blogId);
+    const schemaImageUrl = visualConfig
+      ? `${baseUrl}${imgUrl(visualConfig.heroImages[0].appFolder, visualConfig.heroImages[0].filename, locale)}`
+      : `${baseUrl}/api/og?locale=${locale}&type=blog&title=${encodeURIComponent(content.hero.title)}`;
+
     const articleSchema = {
       '@context': 'https://schema.org',
       '@type': 'BlogPosting',
@@ -103,7 +119,7 @@ export default async function BlogPostPage({
       headline: content.hero.title,
       description: content.seo?.metaDescription || content.hero.description,
       url: pageUrl,
-      image: `${baseUrl}/api/og?locale=${locale}&type=blog&title=${encodeURIComponent(content.hero.title)}`,
+      image: schemaImageUrl,
       inLanguage: getHreflangCode(locale),
       publisher: { '@type': 'Organization', name: 'LessonCraftStudio', url: baseUrl },
       author: { '@type': 'Organization', name: 'LessonCraftStudio', url: baseUrl },
@@ -127,6 +143,12 @@ export default async function BlogPostPage({
     if (content.faq?.length) {
       schemas.push(generateFAQSchema(content.faq, locale, pageUrl));
     }
+
+    // Compute visual section insertion points
+    const placements = visualConfig
+      ? getSectionPlacements(content.category, content.sections?.length || 0, visualConfig)
+      : [];
+    const insertionMap = buildInsertionMap(placements);
 
     return (
       <div className="min-h-screen bg-white">
@@ -153,6 +175,11 @@ export default async function BlogPostPage({
           </div>
         </section>
 
+        {/* Visual Section A: Hero Banner (after hero text) */}
+        {visualConfig && insertionMap.afterHero.map((p, i) => (
+          <BlogVisualSection key={`ah-${i}`} type={p.type} config={visualConfig} content={content} locale={locale} />
+        ))}
+
         {/* Introduction */}
         {content.introduction && (
           <section className="py-10 md:py-14">
@@ -162,19 +189,28 @@ export default async function BlogPostPage({
           </section>
         )}
 
-        {/* Main Content Sections */}
+        {/* Main Content Sections — interleaved with visual sections */}
         {content.sections && content.sections.length > 0 && (
           <article className="py-8 md:py-12">
-            <div className="container mx-auto px-4 max-w-3xl space-y-10">
-              {content.sections.map((section, i) => (
-                <div key={i}>
+            {content.sections.map((section, i) => (
+              <div key={i}>
+                <div className="container mx-auto px-4 max-w-3xl mb-10">
                   <h2 className="text-2xl font-bold text-gray-900 mb-4">{section.heading}</h2>
                   <ReadMoreText text={section.content} locale={locale} className="text-gray-700 leading-relaxed" preserveWhitespace lines={15} />
                 </div>
-              ))}
-            </div>
+                {/* Visual sections inserted after this text section */}
+                {visualConfig && insertionMap.afterSection.get(i)?.map((p, vi) => (
+                  <BlogVisualSection key={`as-${i}-${vi}`} type={p.type} config={visualConfig} content={content} locale={locale} />
+                ))}
+              </div>
+            ))}
           </article>
         )}
+
+        {/* Visual Section J: CTA with Sample (before takeaways) */}
+        {visualConfig && insertionMap.beforeTakeaways.map((p, i) => (
+          <BlogVisualSection key={`bt-${i}`} type={p.type} config={visualConfig} content={content} locale={locale} />
+        ))}
 
         {/* Key Takeaways */}
         {content.keyTakeaways && content.keyTakeaways.length > 0 && (
@@ -193,8 +229,8 @@ export default async function BlogPostPage({
           </section>
         )}
 
-        {/* CTA */}
-        {content.cta && (
+        {/* Original CTA (kept as fallback when no visual config, hidden when visual J replaces it) */}
+        {content.cta && !visualConfig && (
           <section className="py-12 md:py-16 bg-emerald-600">
             <div className="container mx-auto px-4 text-center">
               <h2 className="text-2xl font-bold text-white mb-4">{content.cta.heading}</h2>

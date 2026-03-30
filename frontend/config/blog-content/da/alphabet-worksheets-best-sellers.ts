@@ -59,9 +59,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'alfabet-arbejdsark', anchorText: 'Alfabet-Generator' },
-    { pageType: 'app', slug: 'haandskrift-arbejdsark', anchorText: 'Håndskrift-Generator' },
-    { pageType: 'app', slug: 'spoer-arbejdsark', anchorText: 'Sporings-Generator' },
+    { pageType: 'app', slug: 'alphabet-train-worksheets', anchorText: 'Alfabet-Generator' },
+    { pageType: 'app', slug: 'writing-worksheets', anchorText: 'Håndskrift-Generator' },
+    { pageType: 'app', slug: 'drawing-lines-worksheets', anchorText: 'Sporings-Generator' },
   ],
   relatedPosts: [
     { slug: 'saelg-additions-arbejdsark-etsy-guide', title: 'Sælg Additions-Arbejdsark på Etsy' },

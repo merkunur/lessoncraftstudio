@@ -67,9 +67,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'sortier-arbeitsblaetter', anchorText: 'Sortier-Generator' },
-    { pageType: 'app', slug: 'zuordnungs-arbeitsblaetter', anchorText: 'Zuordnungs-Generator' },
-    { pageType: 'app', slug: 'groessenvergleich-arbeitsblaetter', anchorText: 'Groessenvergleich-Generator' },
+    { pageType: 'app', slug: 'picture-sort-worksheets', anchorText: 'Sortier-Generator' },
+    { pageType: 'app', slug: 'matching-worksheets', anchorText: 'Zuordnungs-Generator' },
+    { pageType: 'app', slug: 'big-small-worksheets', anchorText: 'Groessenvergleich-Generator' },
   ],
   relatedPosts: [
     { slug: 'zuordnungs-arbeitsblaetter-kleinkind-markt', title: 'Zuordnungs-Arbeitsblaetter: Der Kleinkind-Markt' },

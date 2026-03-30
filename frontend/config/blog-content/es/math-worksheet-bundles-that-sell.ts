@@ -14,7 +14,7 @@ const content: BlogContent = {
       'fichas descarga digital pack',
     ],
     titleTag: 'Paquetes Fichas Matemáticas que Venden | LCS',
-    metaDescription: 'Descubra qué paquetes de fichas matemáticas generan más ventas en Etsy y KDP. Estrategias de empaquetado y precios probadas. Prueba gratuita con marca de agua.',
+    metaDescription: 'Descubra qué paquetes de fichas matemáticas generan más ventas en Etsy y KDP. Estrategias de empaquetado y precios probadas.',
   },
   hero: {
     title: 'Paquetes de Fichas Matemáticas que se Venden',
@@ -67,11 +67,11 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'suma-fichas', anchorText: 'Generador de fichas de suma' },
-    { pageType: 'app', slug: 'resta-fichas', anchorText: 'Generador de fichas de resta' },
-    { pageType: 'app', slug: 'puzzles-matematicos-fichas', anchorText: 'Generador de puzzles matemáticos' },
-    { pageType: 'app', slug: 'graficos-conteo-fichas', anchorText: 'Generador de gráficos y conteo' },
-    { pageType: 'app', slug: 'codigo-suma-fichas', anchorText: 'Generador de código suma' },
+    { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Generador de fichas de suma' },
+    { pageType: 'app', slug: 'subtraction-worksheets', anchorText: 'Generador de fichas de resta' },
+    { pageType: 'app', slug: 'math-puzzle-worksheets', anchorText: 'Generador de puzzles matemáticos' },
+    { pageType: 'app', slug: 'chart-count-worksheets', anchorText: 'Generador de gráficos y conteo' },
+    { pageType: 'app', slug: 'code-addition-worksheets', anchorText: 'Generador de código suma' },
   ],
   relatedPosts: [
     { slug: 'guia-vender-fichas-suma-etsy', title: 'Vender fichas de suma en Etsy: guía completa' },

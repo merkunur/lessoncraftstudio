@@ -67,9 +67,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'addition-fiches', anchorText: 'Générateur de fiches d\'addition' },
-    { pageType: 'start', slug: 'guide-complet-activite-imprimables', anchorText: 'Guide complet' },
-    { pageType: 'guide', slug: 'droit-auteur-imprimables', anchorText: 'Guide droit d\'auteur' },
+    { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Générateur de fiches d\'addition' },
+    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Guide complet' },
+    { pageType: 'guide', slug: 'copyright-printable-sellers', anchorText: 'Guide droit d\'auteur' },
   ],
   relatedPosts: [
     { slug: 'commercial-license-printables-explained', title: 'Licences commerciales' },

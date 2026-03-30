@@ -59,9 +59,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'addition-arbeitsblaetter', anchorText: 'Additions-Generator testen' },
-    { pageType: 'app', slug: 'wortsuche-arbeitsblaetter', anchorText: 'Wortsuche-Generator' },
-    { pageType: 'start', slug: 'druckvorlagen-auf-etsy-verkaufen', anchorText: 'Etsy-Shop fuer Druckvorlagen starten' },
+    { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Additions-Generator testen' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Wortsuche-Generator' },
+    { pageType: 'start', slug: 'etsy-printable-business', anchorText: 'Etsy-Shop fuer Druckvorlagen starten' },
   ],
   relatedPosts: [
     { slug: 'arbeitsblaetter-stapelweise-effizient-erstellen', title: 'Arbeitsblaetter effizient in Serie erstellen' },

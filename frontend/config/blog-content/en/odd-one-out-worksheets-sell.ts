@@ -69,8 +69,8 @@ const content: BlogContent = {
   internalLinks: [
     { pageType: 'app', slug: 'odd-one-out-worksheets', anchorText: 'Odd One Out Generator' },
     { pageType: 'tool', slug: 'odd-one-out-maker', anchorText: 'Try the odd one out maker free trial' },
-    { pageType: 'guide', slug: 'create-odd-one-out-worksheets', anchorText: 'Odd one out creation guide' },
-    { pageType: 'bundle', slug: 'puzzle-games-bundle', anchorText: 'Puzzles & Games Bundle' },
+    { pageType: 'guide', slug: 'create-odd-one-out-puzzles', anchorText: 'Odd one out creation guide' },
+    { pageType: 'bundle', slug: 'puzzles-logic-bundle', anchorText: 'Puzzles & Games Bundle' },
   ],
   relatedPosts: [
     { slug: 'pattern-worksheets-sell-online', title: 'Pattern Worksheets: The STEM Niche No One\'s Talking About' },

@@ -69,8 +69,8 @@ const content: BlogContent = {
   internalLinks: [
     { pageType: 'app', slug: 'word-guess-worksheets', anchorText: 'Word Guess Generator' },
     { pageType: 'tool', slug: 'word-guess-maker', anchorText: 'Try the word guess maker free trial' },
-    { pageType: 'bundle', slug: 'letters-words-bundle', anchorText: 'Letters & Words Bundle' },
-    { pageType: 'start', slug: 'sell-educational-printables-etsy', anchorText: 'Start selling educational printables' },
+    { pageType: 'bundle', slug: 'literacy-language-bundle', anchorText: 'Letters & Words Bundle' },
+    { pageType: 'guide', slug: 'sell-educational-printables-etsy', anchorText: 'Start selling educational printables' },
   ],
   relatedPosts: [
     { slug: 'word-scramble-printables-business', title: 'Word Scramble Printables: 7 Product Ideas' },

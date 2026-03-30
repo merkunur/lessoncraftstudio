@@ -67,9 +67,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'fehlende-teile-arbeitsblaetter', anchorText: 'Fehlende-Teile-Generator' },
-    { pageType: 'app', slug: 'bilder-sudoku-arbeitsblaetter', anchorText: 'Bilder-Sudoku-Generator' },
-    { pageType: 'app', slug: 'schatten-zuordnung-arbeitsblaetter', anchorText: 'Schatten-Zuordnungs-Generator' },
+    { pageType: 'app', slug: 'missing-pieces-worksheets', anchorText: 'Fehlende-Teile-Generator' },
+    { pageType: 'app', slug: 'sudoku-worksheets', anchorText: 'Bilder-Sudoku-Generator' },
+    { pageType: 'app', slug: 'shadow-match-worksheets', anchorText: 'Schatten-Zuordnungs-Generator' },
   ],
   relatedPosts: [
     { slug: 'bilder-sudoku-buecher-kdp', title: 'Bilder-Sudoku fuer Kinder: KDP ohne Konkurrenz' },

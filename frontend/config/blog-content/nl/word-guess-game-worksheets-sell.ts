@@ -35,9 +35,9 @@ const content: BlogContent = {
     { question: 'Moet ik ook Engelstalige versies maken?', answer: 'Ja, absoluut. De Engelstalige markt is veel groter. Maak eerst een sterke Nederlandstalige productlijn, breid dan uit naar Engels voor internationaal bereik.' },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'woord-raad-werkbladen', anchorText: 'Woord Raad Spel Generator' },
-    { pageType: 'app', slug: 'woordzoeker-werkbladen', anchorText: 'Woordzoeker Generator' },
-    { pageType: 'app', slug: 'woordkraker-werkbladen', anchorText: 'Woordkraker Generator' },
+    { pageType: 'app', slug: 'word-guess-worksheets', anchorText: 'Woord Raad Spel Generator' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Woordzoeker Generator' },
+    { pageType: 'app', slug: 'word-scramble-worksheets', anchorText: 'Woordkraker Generator' },
   ],
   relatedPosts: [
     { slug: 'woordzoeker-printables-winst', title: 'Woordzoeker Printables voor Winst' },

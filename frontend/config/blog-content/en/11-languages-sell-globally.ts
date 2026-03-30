@@ -69,8 +69,8 @@ const content: BlogContent = {
   internalLinks: [
     { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Multilingual Word Search Generator' },
     { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Addition Generator (11 languages)' },
-    { pageType: 'start', slug: 'sell-educational-printables-etsy', anchorText: 'Start your Etsy shop' },
-    { pageType: 'guide', slug: 'multilingual-worksheets', anchorText: 'Multilingual worksheet guide' },
+    { pageType: 'guide', slug: 'sell-educational-printables-etsy', anchorText: 'Start your Etsy shop' },
+    { pageType: 'guide', slug: 'worksheets-multiple-languages', anchorText: 'Multilingual worksheet guide' },
   ],
   relatedPosts: [
     { slug: 'multilingual-printables-advantage', title: 'The Multilingual Printables Advantage' },

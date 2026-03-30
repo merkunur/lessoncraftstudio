@@ -59,9 +59,9 @@ const content: BlogContent = {
     }
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'ordsoegning-arbejdsark', anchorText: 'Mini-Ordsøgning Generator' },
-    { pageType: 'app', slug: 'krydsord-arbejdsark', anchorText: 'Mini-Krydsord Generator' },
-    { pageType: 'app', slug: 'find-og-tael-arbejdsark', anchorText: 'Find og Tæl Generator' }
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Mini-Ordsøgning Generator' },
+    { pageType: 'app', slug: 'crossword-worksheets', anchorText: 'Mini-Krydsord Generator' },
+    { pageType: 'app', slug: 'find-and-count-worksheets', anchorText: 'Find og Tæl Generator' }
   ],
   relatedPosts: [
     { slug: 'saelg-additions-arbejdsark-etsy-guide', title: 'Sælg Additions-Arbejdsark på Etsy' },

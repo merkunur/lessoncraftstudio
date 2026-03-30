@@ -67,9 +67,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'bingo-fichas', anchorText: 'Generador de bingo educativo' },
-    { pageType: 'start', slug: 'guia-completa-negocio-imprimibles', anchorText: 'Guia para iniciar su negocio' },
-    { pageType: 'guide', slug: 'planificacion-estacional-imprimibles', anchorText: 'Planificacion estacional de imprimibles' },
+    { pageType: 'app', slug: 'picture-bingo-worksheets', anchorText: 'Generador de bingo educativo' },
+    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Guia para iniciar su negocio' },
+    { pageType: 'guide', slug: 'seasonal-marketing-printables', anchorText: 'Planificacion estacional de imprimibles' },
   ],
   relatedPosts: [
     { slug: 'best-printables-sell-christmas', title: 'Imprimibles que Mas Venden en Navidad' },

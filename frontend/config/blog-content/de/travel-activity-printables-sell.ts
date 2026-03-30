@@ -35,9 +35,9 @@ const content: BlogContent = {
     { question: 'Lohnt sich der Reise-Markt auch ausserhalb des Sommers?', answer: 'Ja, mit reduziertem Volumen. Herbstferien, Skiurlaub und Wochenend-Ausfluege sorgen fuer Grundnachfrage. Der Sommer macht aber 60-70% des Jahresumsatzes aus.' },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'wortsuche-arbeitsblaetter', anchorText: 'Reise-Wortsuche erstellen' },
-    { pageType: 'app', slug: 'suchbilder-arbeitsblaetter', anchorText: 'Reise-Suchbilder generieren' },
-    { pageType: 'app', slug: 'bilder-bingo-arbeitsblaetter', anchorText: 'Autofahrt-Bingo erstellen' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Reise-Wortsuche erstellen' },
+    { pageType: 'app', slug: 'find-objects-worksheets', anchorText: 'Reise-Suchbilder generieren' },
+    { pageType: 'app', slug: 'picture-bingo-worksheets', anchorText: 'Autofahrt-Bingo erstellen' },
   ],
   relatedPosts: [
     { slug: 'sommer-aktivitaeten-druckvorlagen-verkaufen', title: 'Sommer-Aktivitaets-Druckvorlagen verkaufen' },

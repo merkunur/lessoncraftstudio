@@ -67,8 +67,8 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'aakkosjuna-tyoarkit', anchorText: 'Aakkosjunageneraattori' },
-    { pageType: 'app', slug: 'kasinkirjoitus-tyoarkit', anchorText: 'Kaunokirjoitusgeneraattori' },
+    { pageType: 'app', slug: 'alphabet-train-worksheets', anchorText: 'Aakkosjunageneraattori' },
+    { pageType: 'app', slug: 'writing-worksheets', anchorText: 'Kaunokirjoitusgeneraattori' },
   ],
   relatedPosts: [
     { slug: 'kaunokirjoitus-tyoarkit-etsy-niche', title: 'Kaunokirjoitustyoarkit Etsy-nichena' },

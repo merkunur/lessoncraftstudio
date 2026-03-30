@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'Gratisproben Lead Magnete Druckvorlagen Shop',
     secondaryKeywords: ['Gratisproben als Lead-Magnete fuer Ihren Druckvorlagen-Shop Anleitung', 'Druckvorlagen Gratisproben Guide', 'Arbeitsblatt Verkauf Tipps'],
     lsiKeywords: ['Druckvorlagen Geschaeft optimieren', 'Etsy Verkaeufer Tipps', 'Arbeitsblaetter professionell erstellen'],
-    titleTag: 'Gratisproben als Lead-Magnete fuer Ihren Druckvorlagen-Shop | LCS',
+    titleTag: 'Gratisproben als Lead-Magnete: So geht\'s | LCS',
     metaDescription: 'Wie Sie kostenlose Probeseiten als Lead-Magnete nutzen, um E-Mail-Adressen zu sammeln und Stammkunden aufzubauen.',
   },
   hero: {
@@ -59,9 +59,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'wortsuche-arbeitsblaetter', anchorText: 'Wortsuche-Generator testen' },
-    { pageType: 'app', slug: 'addition-arbeitsblaetter', anchorText: 'Mathe-Generator testen' },
-    { pageType: 'start', slug: 'druckvorlagen-auf-etsy-verkaufen', anchorText: 'Etsy-Shop starten' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Wortsuche-Generator testen' },
+    { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Mathe-Generator testen' },
+    { pageType: 'start', slug: 'etsy-printable-business', anchorText: 'Etsy-Shop starten' },
   ],
   relatedPosts: [
     { slug: 'arbeitsblatt-paket-erstellen-35-minuten', title: '50 Arbeitsblaetter-Paket in 35 Minuten' },

@@ -59,9 +59,9 @@ const content: BlogContent = {
     }
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'suma-fichas', anchorText: 'Generador de fichas de suma' },
-    { pageType: 'start', slug: 'guia-completa-negocio-imprimibles', anchorText: 'Guia completa para empezar' },
-    { pageType: 'guide', slug: 'crear-fichas-educativas', anchorText: 'Crear fichas educativas' }
+    { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Generador de fichas de suma' },
+    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Guia completa para empezar' },
+    { pageType: 'guide', slug: 'create-addition-worksheets', anchorText: 'Crear fichas educativas' }
   ],
   relatedPosts: [
     { slug: 'batch-create-worksheets-efficiently', title: 'Crear Fichas en Lote' },

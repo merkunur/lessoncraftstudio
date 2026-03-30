@@ -67,9 +67,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'subtraktions-arbeitsblaetter', anchorText: 'Subtraktions-Arbeitsblatt-Generator' },
-    { pageType: 'app', slug: 'addition-arbeitsblaetter', anchorText: 'Additions-Arbeitsblatt-Generator' },
-    { pageType: 'guide', slug: 'subtraktions-arbeitsblaetter-erstellen', anchorText: 'Anleitung: Subtraktions-Arbeitsblaetter erstellen' },
+    { pageType: 'app', slug: 'subtraction-worksheets', anchorText: 'Subtraktions-Arbeitsblatt-Generator' },
+    { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Additions-Arbeitsblatt-Generator' },
+    { pageType: 'guide', slug: 'create-subtraction-worksheets', anchorText: 'Anleitung: Subtraktions-Arbeitsblaetter erstellen' },
   ],
   relatedPosts: [
     { slug: 'additions-arbeitsblaetter-verkaufen-etsy-guide', title: 'Additions-Arbeitsblaetter auf Etsy verkaufen 2026' },

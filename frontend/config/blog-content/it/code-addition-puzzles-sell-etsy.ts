@@ -67,9 +67,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'codice-addizione-schede', anchorText: 'Generatore Puzzle Codice Addizione' },
-    { pageType: 'app', slug: 'addizione-schede', anchorText: 'Generatore Schede Addizione Standard' },
-    { pageType: 'guide', slug: 'creare-puzzle-codice-addizione', anchorText: 'Come creare puzzle codice' },
+    { pageType: 'app', slug: 'code-addition-worksheets', anchorText: 'Generatore Puzzle Codice Addizione' },
+    { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Generatore Schede Addizione Standard' },
+    { pageType: 'guide', slug: 'create-addition-worksheets', anchorText: 'Come creare puzzle codice' },
   ],
   relatedPosts: [
     { slug: 'guida-vendere-schede-addizione-etsy', title: 'Guida: Vendere Schede Addizione su Etsy' },

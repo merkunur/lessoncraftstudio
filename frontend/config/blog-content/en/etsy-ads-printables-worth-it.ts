@@ -67,10 +67,10 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'start', slug: 'sell-educational-printables-etsy', anchorText: 'Start selling printables on Etsy' },
+    { pageType: 'guide', slug: 'sell-educational-printables-etsy', anchorText: 'Start selling printables on Etsy' },
     { pageType: 'guide', slug: 'create-worksheet-bundles', anchorText: 'Create bundles worth advertising' },
     { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Build word search bundles' },
-    { pageType: 'idea', slug: 'math-worksheet-ideas', anchorText: 'Math worksheet product ideas' },
+    { pageType: 'idea', slug: 'math-facts-printable-ideas', anchorText: 'Math worksheet product ideas' },
   ],
   relatedPosts: [
     { slug: 'etsy-printable-pricing-strategy', title: 'Etsy Printable Pricing Strategy' },

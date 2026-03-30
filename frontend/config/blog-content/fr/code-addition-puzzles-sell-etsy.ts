@@ -67,10 +67,10 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'code-addition-fiches', anchorText: 'Générateur de puzzles code addition' },
-    { pageType: 'tool', slug: 'code-addition-fiches', anchorText: 'Essayer le générateur code addition' },
-    { pageType: 'guide', slug: 'code-addition-fiches', anchorText: 'Guide création puzzles code addition' },
-    { pageType: 'app', slug: 'addition-fiches', anchorText: 'Générateur de fiches d\'addition' },
+    { pageType: 'app', slug: 'code-addition-worksheets', anchorText: 'Générateur de puzzles code addition' },
+    { pageType: 'tool', slug: 'code-addition-worksheet-maker', anchorText: 'Essayer le générateur code addition' },
+    { pageType: 'guide', slug: 'create-addition-worksheets', anchorText: 'Guide création puzzles code addition' },
+    { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Générateur de fiches d\'addition' },
   ],
   relatedPosts: [
     { slug: 'guide-vendre-fiches-addition-etsy', title: 'Vendre des fiches d\'addition sur Etsy : guide complet' },

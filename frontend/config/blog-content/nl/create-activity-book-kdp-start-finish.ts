@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'activiteitenboek kdp maken compleet',
     secondaryKeywords: ['printable activiteitenboek kdp maken', 'werkbladen activiteitenboek kdp', 'printables how-to gids'],
     lsiKeywords: ['printable productie tips', 'werkbladen maken strategie', 'printable business how-to'],
-    titleTag: 'Een Activiteitenboek voor KDP Maken: Van Start tot Finish | LCS',
+    titleTag: 'Activiteitenboek voor KDP: Start tot Finish | LCS',
     metaDescription: 'Een Activiteitenboek voor KDP Maken: Van Start tot Finish. Stap-voor-stap instructies en praktische tips voor printable verkopers. Direct toepasbaar.',
   },
   hero: {
@@ -35,9 +35,9 @@ const content: BlogContent = {
     { question: 'Hoeveel producten moet ik maken voordat ik begin met verkopen?', answer: 'Begin met 10-15 listings en voeg wekelijks 3-5 nieuwe toe. Wacht niet tot u 100 producten hebt — lanceer vroeg en bouw terwijl u verkoopt.' },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'optellen-werkbladen', anchorText: 'Probeer de Optellen Generator' },
-    { pageType: 'app', slug: 'woordzoeker-werkbladen', anchorText: 'Probeer de Woordzoeker Generator' },
-    { pageType: 'start', slug: 'printables-verkopen-etsy', anchorText: 'Begin met printables verkopen' },
+    { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Probeer de Optellen Generator' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Probeer de Woordzoeker Generator' },
+    { pageType: 'start', slug: 'etsy-printable-business', anchorText: 'Begin met printables verkopen' },
   ],
   relatedPosts: [
     { slug: 'optellen-werkbladen-verkopen-etsy-gids', title: 'Optellen Werkbladen Verkopen op Etsy' },

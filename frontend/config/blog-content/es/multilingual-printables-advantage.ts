@@ -35,9 +35,9 @@ const content: BlogContent = {
     { question: 'El mismo producto puede venderse con el mismo precio en todos los idiomas?', answer: 'Ajuste los precios por mercado. Los compradores alemanes y escandinavos aceptan precios mas altos que los latinoamericanos. Use precios en dolares para Etsy global y considere Hotmart con precios en moneda local para Latinoamerica.' },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'sopa-letras-fichas', anchorText: 'Generador multilingue de sopas de letras' },
-    { pageType: 'start', slug: 'guia-completa-negocio-imprimibles', anchorText: 'Iniciar negocio de imprimibles' },
-    { pageType: 'guide', slug: 'imprimibles-multilingues-negocio', anchorText: 'Negocio multilingue de imprimibles' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Generador multilingue de sopas de letras' },
+    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Iniciar negocio de imprimibles' },
+    { pageType: 'guide', slug: 'multilingual-printable-business', anchorText: 'Negocio multilingue de imprimibles' },
   ],
   relatedPosts: [
     { slug: '11-languages-sell-globally', title: '11 Idiomas para Vender Globalmente' },

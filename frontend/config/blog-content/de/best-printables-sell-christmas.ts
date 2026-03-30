@@ -67,9 +67,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'wortsuche-arbeitsblaetter', anchorText: 'Wortsuche-Generator fuer Weihnachtsthemen' },
-    { pageType: 'start', slug: 'druckvorlagen-auf-etsy-verkaufen', anchorText: 'Etsy-Shop fuer Druckvorlagen starten' },
-    { pageType: 'app', slug: 'addition-arbeitsblaetter', anchorText: 'Mathe-Arbeitsblaetter mit Wintermotiven' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Wortsuche-Generator fuer Weihnachtsthemen' },
+    { pageType: 'start', slug: 'etsy-printable-business', anchorText: 'Etsy-Shop fuer Druckvorlagen starten' },
+    { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Mathe-Arbeitsblaetter mit Wintermotiven' },
   ],
   relatedPosts: [
     { slug: 'winter-druckvorlagen-verkaufen-dezember-januar', title: 'Winter-Druckvorlagen: Beste Produkte fuer die kalte Jahreszeit' },

@@ -69,7 +69,7 @@ const content: BlogContent = {
   internalLinks: [
     { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Addition Generator with answer keys' },
     { pageType: 'app', slug: 'subtraction-worksheets', anchorText: 'Subtraction Generator with answer keys' },
-    { pageType: 'start', slug: 'sell-educational-printables-etsy', anchorText: 'Start your Etsy printable shop' },
+    { pageType: 'guide', slug: 'sell-educational-printables-etsy', anchorText: 'Start your Etsy printable shop' },
     { pageType: 'guide', slug: 'create-worksheet-bundles', anchorText: 'Bundle creation guide' },
   ],
   relatedPosts: [

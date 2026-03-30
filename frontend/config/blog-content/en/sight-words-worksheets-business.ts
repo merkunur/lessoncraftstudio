@@ -67,10 +67,10 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'wordsearch', anchorText: 'Sight Word Search Generator' },
-    { pageType: 'app', slug: 'crossword', anchorText: 'Sight Word Crossword Maker' },
-    { pageType: 'app', slug: 'bingo', anchorText: 'Sight Word Bingo Creator' },
-    { pageType: 'start', slug: 'sell-educational-printables-etsy', anchorText: 'Start your sight word business' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Sight Word Search Generator' },
+    { pageType: 'app', slug: 'crossword-worksheets', anchorText: 'Sight Word Crossword Maker' },
+    { pageType: 'app', slug: 'picture-bingo-worksheets', anchorText: 'Sight Word Bingo Creator' },
+    { pageType: 'guide', slug: 'sell-educational-printables-etsy', anchorText: 'Start your sight word business' },
   ],
   relatedPosts: [
     { slug: 'word-search-printables-profit', title: 'Word Search Printables: Profit Guide' },

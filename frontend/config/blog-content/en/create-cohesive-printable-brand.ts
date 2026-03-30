@@ -67,10 +67,10 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'coloring-pages', anchorText: 'Coloring Page Generator' },
-    { pageType: 'start', slug: 'sell-educational-printables-etsy', anchorText: 'Etsy shop setup guide' },
+    { pageType: 'app', slug: 'coloring-worksheets', anchorText: 'Coloring Page Generator' },
+    { pageType: 'guide', slug: 'sell-educational-printables-etsy', anchorText: 'Etsy shop setup guide' },
     { pageType: 'guide', slug: 'create-printable-product-line', anchorText: 'Build a product line' },
-    { pageType: 'idea', slug: 'etsy-worksheet-bundles', anchorText: 'Worksheet bundle ideas' },
+    { pageType: 'idea', slug: 'christmas-printable-ideas', anchorText: 'Worksheet bundle ideas' },
   ],
   relatedPosts: [
     { slug: 'printable-shop-branding-tips', title: 'Printable Shop Branding Tips' },

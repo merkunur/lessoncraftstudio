@@ -67,9 +67,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'start', slug: 'druckvorlagen-auf-etsy-verkaufen', anchorText: 'Druckvorlagen auf Etsy verkaufen' },
-    { pageType: 'app', slug: 'wortsuche-arbeitsblaetter', anchorText: 'Wortsuche-Generator testen' },
-    { pageType: 'guide', slug: 'kommerzielle-lizenz-fuer-druckvorlagen', anchorText: 'Kommerzielle Lizenz Details' },
+    { pageType: 'start', slug: 'etsy-printable-business', anchorText: 'Druckvorlagen auf Etsy verkaufen' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Wortsuche-Generator testen' },
+    { pageType: 'guide', slug: 'understanding-commercial-licenses', anchorText: 'Kommerzielle Lizenz Details' },
   ],
   relatedPosts: [
     { slug: 'copyright-printable-sellers-basics', title: 'Urheberrecht fuer Druckvorlagen-Verkaeufer' },

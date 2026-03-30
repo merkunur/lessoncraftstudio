@@ -67,10 +67,10 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'comparaison-tailles-fiches', anchorText: 'Générateur comparaison de tailles' },
-    { pageType: 'tool', slug: 'comparaison-tailles-fiches', anchorText: 'Essayer le générateur de comparaison' },
-    { pageType: 'app', slug: 'tri-fiches', anchorText: 'Générateur de fiches de tri' },
-    { pageType: 'app', slug: 'plus-moins-fiches', anchorText: 'Générateur fiches plus ou moins' },
+    { pageType: 'app', slug: 'big-small-worksheets', anchorText: 'Générateur comparaison de tailles' },
+    { pageType: 'tool', slug: 'big-and-small-worksheet-maker', anchorText: 'Essayer le générateur de comparaison' },
+    { pageType: 'app', slug: 'picture-sort-worksheets', anchorText: 'Générateur de fiches de tri' },
+    { pageType: 'app', slug: 'more-less-worksheets', anchorText: 'Générateur fiches plus ou moins' },
   ],
   relatedPosts: [
     { slug: 'guide-vendre-fiches-addition-etsy', title: 'Vendre des fiches d\'addition sur Etsy : guide complet' },

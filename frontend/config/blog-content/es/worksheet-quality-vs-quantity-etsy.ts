@@ -67,9 +67,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'crucigramas-fichas', anchorText: 'Generador de crucigramas' },
-    { pageType: 'start', slug: 'guia-completa-negocio-imprimibles', anchorText: 'Guia para empezar' },
-    { pageType: 'guide', slug: 'estrategia-catalogo-imprimibles', anchorText: 'Estrategia de catalogo' },
+    { pageType: 'app', slug: 'crossword-worksheets', anchorText: 'Generador de crucigramas' },
+    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Guia para empezar' },
+    { pageType: 'guide', slug: 'create-printable-product-line', anchorText: 'Estrategia de catalogo' },
   ],
   relatedPosts: [
     { slug: 'how-many-listings-etsy-success', title: 'Cuantos Listings Necesita en Etsy' },

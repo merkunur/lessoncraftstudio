@@ -67,9 +67,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'praepositionen-arbeitsblaetter', anchorText: 'Praepositionen-Generator' },
-    { pageType: 'app', slug: 'zuordnungs-arbeitsblaetter', anchorText: 'Zuordnungs-Generator' },
-    { pageType: 'app', slug: 'alphabet-arbeitsblaetter', anchorText: 'Alphabet-Generator' },
+    { pageType: 'app', slug: 'prepositions-worksheets', anchorText: 'Praepositionen-Generator' },
+    { pageType: 'app', slug: 'matching-worksheets', anchorText: 'Zuordnungs-Generator' },
+    { pageType: 'app', slug: 'alphabet-train-worksheets', anchorText: 'Alphabet-Generator' },
   ],
   relatedPosts: [
     { slug: 'alphabet-arbeitsblaetter-bestseller', title: 'Alphabet-Arbeitsblaetter: Was Bestseller unterscheidet' },

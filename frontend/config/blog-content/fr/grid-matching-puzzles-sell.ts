@@ -67,10 +67,10 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'grille-association-fiches', anchorText: 'Générateur de grilles d\'association' },
-    { pageType: 'tool', slug: 'grille-association-fiches', anchorText: 'Essayer le générateur de grilles' },
-    { pageType: 'app', slug: 'association-fiches', anchorText: 'Générateur de fiches d\'association' },
-    { pageType: 'app', slug: 'sudoku-images-fiches', anchorText: 'Générateur de sudoku images' },
+    { pageType: 'app', slug: 'grid-match-worksheets', anchorText: 'Générateur de grilles d\'association' },
+    { pageType: 'tool', slug: 'grid-match-maker', anchorText: 'Essayer le générateur de grilles' },
+    { pageType: 'app', slug: 'matching-worksheets', anchorText: 'Générateur de fiches d\'association' },
+    { pageType: 'app', slug: 'sudoku-worksheets', anchorText: 'Générateur de sudoku images' },
   ],
   relatedPosts: [
     { slug: 'packs-fiches-maths-qui-se-vendent', title: 'Packs de fiches maths qui se vendent' },

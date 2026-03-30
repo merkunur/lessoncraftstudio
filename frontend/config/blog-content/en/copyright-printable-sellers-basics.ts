@@ -67,10 +67,10 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'guide', slug: 'commercial-license', anchorText: 'Learn about commercial licenses' },
-    { pageType: 'start', slug: 'sell-educational-printables-etsy', anchorText: 'Start your printable business safely' },
+    { pageType: 'guide', slug: 'understanding-commercial-licenses', anchorText: 'Learn about commercial licenses' },
+    { pageType: 'guide', slug: 'sell-educational-printables-etsy', anchorText: 'Start your printable business safely' },
     { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Create original word search products' },
-    { pageType: 'guide', slug: 'printable-business-legal', anchorText: 'Legal basics for printable businesses' },
+    { pageType: 'start', slug: 'printable-business-legal', anchorText: 'Legal basics for printable businesses' },
   ],
   relatedPosts: [
     { slug: 'passive-income-printables-truth', title: 'Passive Income from Printables: The Truth' },

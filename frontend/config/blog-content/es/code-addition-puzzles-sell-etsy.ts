@@ -14,7 +14,7 @@ const content: BlogContent = {
       'puzzles educativos rentables',
     ],
     titleTag: 'Puzzles Código Suma: Nicho Oculto Etsy | LCS',
-    metaDescription: 'Los puzzles de código suma son un nicho de baja competencia en Etsy con alta demanda. Aprenda a crear y vender este producto único. Prueba gratuita con marca de agua.',
+    metaDescription: 'Los puzzles de código suma son un nicho de baja competencia en Etsy con alta demanda. Aprenda a crear y vender este producto único.',
   },
   hero: {
     title: 'Puzzles de Código Suma: Nicho Oculto en Etsy',
@@ -67,10 +67,10 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'codigo-suma-fichas', anchorText: 'Generador de puzzles de código suma' },
-    { pageType: 'app', slug: 'suma-fichas', anchorText: 'Generador de fichas de suma' },
-    { pageType: 'app', slug: 'criptogramas-fichas', anchorText: 'Generador de criptogramas' },
-    { pageType: 'app', slug: 'puzzles-matematicos-fichas', anchorText: 'Generador de puzzles matemáticos' },
+    { pageType: 'app', slug: 'code-addition-worksheets', anchorText: 'Generador de puzzles de código suma' },
+    { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Generador de fichas de suma' },
+    { pageType: 'app', slug: 'cryptogram-worksheets', anchorText: 'Generador de criptogramas' },
+    { pageType: 'app', slug: 'math-puzzle-worksheets', anchorText: 'Generador de puzzles matemáticos' },
   ],
   relatedPosts: [
     { slug: 'guia-vender-fichas-suma-etsy', title: 'Vender fichas de suma en Etsy: guía completa' },

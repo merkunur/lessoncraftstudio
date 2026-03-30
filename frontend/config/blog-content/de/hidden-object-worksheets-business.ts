@@ -67,9 +67,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'suchbild-arbeitsblaetter', anchorText: 'Suchbild-Generator' },
-    { pageType: 'app', slug: 'finde-und-zaehle-arbeitsblaetter', anchorText: 'Finde-und-Zaehle-Generator' },
-    { pageType: 'app', slug: 'schatten-zuordnung-arbeitsblaetter', anchorText: 'Schatten-Zuordnungs-Generator' },
+    { pageType: 'app', slug: 'find-objects-worksheets', anchorText: 'Suchbild-Generator' },
+    { pageType: 'app', slug: 'find-and-count-worksheets', anchorText: 'Finde-und-Zaehle-Generator' },
+    { pageType: 'app', slug: 'shadow-match-worksheets', anchorText: 'Schatten-Zuordnungs-Generator' },
   ],
   relatedPosts: [
     { slug: 'finde-und-zaehle-druckvorlagen-gewinn', title: 'Finde-und-Zaehle-Druckvorlagen: Profitable Nische' },

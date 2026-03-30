@@ -285,6 +285,8 @@ export default async function BlogIndexPage({
     nl: 'Gidsen, tips & strategieën voor printable-verkopers',
     sv: 'Guider, tips och strategier för printable-säljare',
     da: 'Guider, tips og strategier for printable-sælgere',
+    no: 'Guider, tips og strategier for printable-selgere',
+    fi: 'Oppaat, vinkit ja strategiat tulosteiden myyjille',
   };
 
   return (

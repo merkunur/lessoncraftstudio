@@ -59,9 +59,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'bingo-fichas', anchorText: 'Generador de tarjetas de bingo' },
-    { pageType: 'app', slug: 'busqueda-tesoro-fichas', anchorText: 'Generador de búsqueda del tesoro' },
-    { pageType: 'app', slug: 'sopa-letras-fichas', anchorText: 'Generador de sopas de letras' },
+    { pageType: 'app', slug: 'picture-bingo-worksheets', anchorText: 'Generador de tarjetas de bingo' },
+    { pageType: 'app', slug: 'treasure-hunt-worksheets', anchorText: 'Generador de búsqueda del tesoro' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Generador de sopas de letras' },
   ],
   relatedPosts: [
     { slug: 'sopa-letras-imprimibles-ganancias', title: 'Sopas de letras imprimibles: cuánto se gana' },

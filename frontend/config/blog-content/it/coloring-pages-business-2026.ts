@@ -59,9 +59,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'colorare-schede', anchorText: 'Generatore Pagine da Colorare' },
-    { pageType: 'app', slug: 'disegnare-e-colorare-schede', anchorText: 'Generatore Disegna e Colora' },
-    { pageType: 'app', slug: 'alfabeto-schede', anchorText: 'Generatore Schede Alfabeto' },
+    { pageType: 'app', slug: 'coloring-worksheets', anchorText: 'Generatore Pagine da Colorare' },
+    { pageType: 'app', slug: 'draw-and-color-worksheets', anchorText: 'Generatore Disegna e Colora' },
+    { pageType: 'app', slug: 'alphabet-train-worksheets', anchorText: 'Generatore Schede Alfabeto' },
   ],
   relatedPosts: [
     { slug: 'schede-disegnare-e-colorare-vendere', title: 'Schede Disegna e Colora: Vendere' },

@@ -67,9 +67,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'wortsuche-arbeitsblaetter', anchorText: 'Wortsuche-Raetsel fuer KDP-Buecher erstellen' },
-    { pageType: 'app', slug: 'kreuzwortraetsel-arbeitsblaetter', anchorText: 'Kreuzwortraetsel-Generator' },
-    { pageType: 'guide', slug: 'raetselbuecher-fuer-amazon-kdp', anchorText: 'Raetselbuecher fuer Amazon KDP' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Wortsuche-Raetsel fuer KDP-Buecher erstellen' },
+    { pageType: 'app', slug: 'crossword-worksheets', anchorText: 'Kreuzwortraetsel-Generator' },
+    { pageType: 'guide', slug: 'publish-puzzle-books-kdp', anchorText: 'Raetselbuecher fuer Amazon KDP' },
   ],
   relatedPosts: [
     { slug: 'kdp-vs-etsy-which-earns-more', title: 'KDP vs Etsy: Was verdient mehr?' },

@@ -67,9 +67,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'objetos-escondidos-fichas', anchorText: 'Gerador Objetos Escondidos' },
-    { pageType: 'app', slug: 'encontrar-e-contar-fichas', anchorText: 'Gerador Encontrar e Contar' },
-    { pageType: 'app', slug: 'labirintos-imagens-fichas', anchorText: 'Gerador Labirintos com Imagens' },
+    { pageType: 'app', slug: 'find-objects-worksheets', anchorText: 'Gerador Objetos Escondidos' },
+    { pageType: 'app', slug: 'find-and-count-worksheets', anchorText: 'Gerador Encontrar e Contar' },
+    { pageType: 'app', slug: 'picture-path-worksheets', anchorText: 'Gerador Labirintos com Imagens' },
   ],
   relatedPosts: [
     { slug: 'encontrar-e-contar-imprimiveis-lucro', title: 'Encontrar e Contar: Lucro' },

@@ -67,8 +67,8 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'ristisanatehtavat-tyoarkit', anchorText: 'Ristikkogeneraattori' },
-    { pageType: 'app', slug: 'sananhaku-tyoarkit', anchorText: 'Sananhakugeneraattori' },
+    { pageType: 'app', slug: 'crossword-worksheets', anchorText: 'Ristikkogeneraattori' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Sananhakugeneraattori' },
     { pageType: 'guide', slug: 'create-crossword-puzzles', anchorText: 'Ristikkotehtavien luontiopas' },
   ],
   relatedPosts: [

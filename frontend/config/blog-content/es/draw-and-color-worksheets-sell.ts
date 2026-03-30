@@ -67,10 +67,10 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'dibujar-y-colorear-fichas', anchorText: 'Generador de fichas de dibujar y colorear' },
-    { pageType: 'app', slug: 'colorear-fichas', anchorText: 'Generador de fichas de colorear' },
-    { pageType: 'app', slug: 'trazado-fichas', anchorText: 'Generador de fichas de trazado' },
-    { pageType: 'app', slug: 'patrones-fichas', anchorText: 'Generador de fichas de patrones' },
+    { pageType: 'app', slug: 'draw-and-color-worksheets', anchorText: 'Generador de fichas de dibujar y colorear' },
+    { pageType: 'app', slug: 'coloring-worksheets', anchorText: 'Generador de fichas de colorear' },
+    { pageType: 'app', slug: 'drawing-lines-worksheets', anchorText: 'Generador de fichas de trazado' },
+    { pageType: 'app', slug: 'pattern-worksheets', anchorText: 'Generador de fichas de patrones' },
   ],
   relatedPosts: [
     { slug: 'sopa-letras-imprimibles-ganancias', title: 'Sopas de letras imprimibles: cuánto se gana' },

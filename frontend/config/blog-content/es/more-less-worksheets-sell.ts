@@ -56,10 +56,10 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'mas-menos-fichas', anchorText: 'Generador de fichas de más o menos' },
-    { pageType: 'app', slug: 'graficos-conteo-fichas', anchorText: 'Generador de gráficos y conteo' },
-    { pageType: 'app', slug: 'suma-fichas', anchorText: 'Generador de fichas de suma' },
-    { pageType: 'app', slug: 'comparacion-tamanos-fichas', anchorText: 'Generador de comparación de tamaños' },
+    { pageType: 'app', slug: 'more-less-worksheets', anchorText: 'Generador de fichas de más o menos' },
+    { pageType: 'app', slug: 'chart-count-worksheets', anchorText: 'Generador de gráficos y conteo' },
+    { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Generador de fichas de suma' },
+    { pageType: 'app', slug: 'big-small-worksheets', anchorText: 'Generador de comparación de tamaños' },
   ],
   relatedPosts: [
     { slug: 'guia-vender-fichas-suma-etsy', title: 'Vender fichas de suma en Etsy: guía completa' },

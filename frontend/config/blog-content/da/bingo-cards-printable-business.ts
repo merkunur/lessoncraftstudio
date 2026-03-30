@@ -59,9 +59,9 @@ const content: BlogContent = {
     }
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'banko-arbejdsark', anchorText: 'Banko-Generator' },
-    { pageType: 'app', slug: 'matchning-arbejdsark', anchorText: 'Matchning Generator' },
-    { pageType: 'app', slug: 'find-og-tael-arbejdsark', anchorText: 'Find og Tæl Generator' }
+    { pageType: 'app', slug: 'picture-bingo-worksheets', anchorText: 'Banko-Generator' },
+    { pageType: 'app', slug: 'matching-worksheets', anchorText: 'Matchning Generator' },
+    { pageType: 'app', slug: 'find-and-count-worksheets', anchorText: 'Find og Tæl Generator' }
   ],
   relatedPosts: [
     { slug: 'saelg-additions-arbejdsark-etsy-guide', title: 'Sælg Additions-Arbejdsark på Etsy' },

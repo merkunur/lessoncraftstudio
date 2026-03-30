@@ -67,9 +67,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'intruso-fichas', anchorText: 'Gerador de Intruso' },
-    { pageType: 'app', slug: 'classificacao-fichas', anchorText: 'Gerador de Classificação' },
-    { pageType: 'app', slug: 'padroes-fichas', anchorText: 'Gerador de Padrões' },
+    { pageType: 'app', slug: 'odd-one-out-worksheets', anchorText: 'Gerador de Intruso' },
+    { pageType: 'app', slug: 'picture-sort-worksheets', anchorText: 'Gerador de Classificação' },
+    { pageType: 'app', slug: 'pattern-worksheets', anchorText: 'Gerador de Padrões' },
   ],
   relatedPosts: [
     { slug: 'fichas-classificacao-pre-escola-vender', title: 'Fichas Classificação Pré-escola' },

@@ -6,7 +6,7 @@ const content: BlogContent = {
     secondaryKeywords: ['vender fichas comparación tamaños Etsy', 'size comparison worksheets sell online', 'fichas grande pequeño preescolar negocio'],
     lsiKeywords: ['fichas conceptos tamaño niños', 'imprimibles grande mediano pequeño', 'size worksheets preschool printable'],
     titleTag: 'Fichas Comparación Tamaños: Mercado Infantil | LCS',
-    metaDescription: 'Las fichas de comparación de tamaños son esenciales en preescolar con competencia baja. Cree productos para este mercado estable. Prueba gratuita con marca de agua.',
+    metaDescription: 'Las fichas de comparación de tamaños son esenciales en preescolar con competencia baja. Cree productos para este mercado estable.',
   },
   hero: {
     title: 'Fichas de Comparación de Tamaños: Mercado Infantil',
@@ -56,10 +56,10 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'comparacion-tamanos-fichas', anchorText: 'Generador de comparación de tamaños' },
-    { pageType: 'app', slug: 'clasificacion-fichas', anchorText: 'Generador de clasificación' },
-    { pageType: 'app', slug: 'mas-menos-fichas', anchorText: 'Generador de más o menos' },
-    { pageType: 'app', slug: 'patrones-fichas', anchorText: 'Generador de patrones' },
+    { pageType: 'app', slug: 'big-small-worksheets', anchorText: 'Generador de comparación de tamaños' },
+    { pageType: 'app', slug: 'picture-sort-worksheets', anchorText: 'Generador de clasificación' },
+    { pageType: 'app', slug: 'more-less-worksheets', anchorText: 'Generador de más o menos' },
+    { pageType: 'app', slug: 'pattern-worksheets', anchorText: 'Generador de patrones' },
   ],
   relatedPosts: [
     { slug: 'guia-vender-fichas-suma-etsy', title: 'Vender fichas de suma en Etsy: guía completa' },

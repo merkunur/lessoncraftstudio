@@ -35,9 +35,9 @@ const content: BlogContent = {
     { question: 'Hvordan får jeg Etsys Star Seller badge?', answer: 'Star Seller kræver: 95%+ svartid inden 24 timer, 4,8+ gennemsnitlig rating, og minimum 5 salg pr. måned. Svartid er det nemmeste at kontrollere — opsæt Etsy-notifikationer på din telefon.' }
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'addition-arbejdsark', anchorText: 'Additions-Generator' },
-    { pageType: 'app', slug: 'ordsoegning-arbejdsark', anchorText: 'Ordsøgning Generator' },
-    { pageType: 'app', slug: 'farvelaegning-arbejdsark', anchorText: 'Farvelægnings-Generator' }
+    { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Additions-Generator' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Ordsøgning Generator' },
+    { pageType: 'app', slug: 'coloring-worksheets', anchorText: 'Farvelægnings-Generator' }
   ],
   relatedPosts: [
     { slug: 'saelg-additions-arbejdsark-etsy-guide', title: 'Sælg Additions-Arbejdsark på Etsy' },

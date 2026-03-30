@@ -35,9 +35,9 @@ const content: BlogContent = {
     { question: 'Kan jeg rebrande senere?', answer: 'Ja, men det er bedre at vælge rigtigt fra starten. Rebranding mister den eksisterende genkendelse. Hvis du rebrander, gør det gradvist og kommunikér ændringen til dine eksisterende kunder.' }
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'addition-arbejdsark', anchorText: 'Additions-Generator' },
-    { pageType: 'app', slug: 'farvelaegning-arbejdsark', anchorText: 'Farvelægnings-Generator' },
-    { pageType: 'app', slug: 'ordsoegning-arbejdsark', anchorText: 'Ordsøgning Generator' }
+    { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Additions-Generator' },
+    { pageType: 'app', slug: 'coloring-worksheets', anchorText: 'Farvelægnings-Generator' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Ordsøgning Generator' }
   ],
   relatedPosts: [
     { slug: 'saelg-additions-arbejdsark-etsy-guide', title: 'Sælg Additions-Arbejdsark på Etsy' },

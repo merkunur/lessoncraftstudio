@@ -67,9 +67,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'caca-palavras-fichas', anchorText: 'Gerador de Caça-Palavras' },
-    { pageType: 'app', slug: 'palavras-cruzadas-fichas', anchorText: 'Gerador de Palavras Cruzadas' },
-    { pageType: 'app', slug: 'criptogramas-fichas', anchorText: 'Gerador de Criptogramas' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Gerador de Caça-Palavras' },
+    { pageType: 'app', slug: 'crossword-worksheets', anchorText: 'Gerador de Palavras Cruzadas' },
+    { pageType: 'app', slug: 'cryptogram-worksheets', anchorText: 'Gerador de Criptogramas' },
   ],
   relatedPosts: [
     { slug: 'livros-palavras-cruzadas-kdp-nicho', title: 'Livros Palavras Cruzadas KDP: Nicho' },

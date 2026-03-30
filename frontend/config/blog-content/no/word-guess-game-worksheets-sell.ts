@@ -50,9 +50,9 @@ const content: BlogContent = {
     { question: 'Passer dette for norsk som andrespråk?', answer: 'Veldig godt. Bildebaserte ordgjettespill er ideelle for vokabularbygging. Eleven ser et bilde og må huske det norske ordet. Svært etterspurt på Undervisningsbyen.no.' },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'gjetteoppgaver-arbeidsark', anchorText: 'Ordgjettespill-generator' },
-    { pageType: 'app', slug: 'ordsoek-arbeidsark', anchorText: 'Ordsøk-generator' },
-    { pageType: 'app', slug: 'kryptogram-arbeidsark', anchorText: 'Kryptogram-generator' },
+    { pageType: 'app', slug: 'word-guess-worksheets', anchorText: 'Ordgjettespill-generator' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Ordsøk-generator' },
+    { pageType: 'app', slug: 'cryptogram-worksheets', anchorText: 'Kryptogram-generator' },
   ],
   relatedPosts: [
     { slug: 'bokstavblanding-utskrifter-bedrift', title: 'Bokstavblanding som forretning' },

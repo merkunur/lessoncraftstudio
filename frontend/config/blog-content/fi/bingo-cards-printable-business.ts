@@ -67,8 +67,8 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'kuva-bingo-tyoarkit', anchorText: 'Bingogeneraattori' },
-    { pageType: 'app', slug: 'etsi-ja-laske-tyoarkit', anchorText: 'Etsi ja laske -generaattori' },
+    { pageType: 'app', slug: 'picture-bingo-worksheets', anchorText: 'Bingogeneraattori' },
+    { pageType: 'app', slug: 'find-and-count-worksheets', anchorText: 'Etsi ja laske -generaattori' },
   ],
   relatedPosts: [
     { slug: 'tulostettavat-pelit-syntymapaivajuhlat', title: 'Tulostettavat pelit syntymapaivajahliin' },

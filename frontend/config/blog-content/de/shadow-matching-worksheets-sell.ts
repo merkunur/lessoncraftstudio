@@ -67,9 +67,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'schatten-zuordnung-arbeitsblaetter', anchorText: 'Schatten-Zuordnungs-Generator' },
-    { pageType: 'app', slug: 'zuordnungs-arbeitsblaetter', anchorText: 'Standard-Zuordnungs-Generator' },
-    { pageType: 'app', slug: 'suchbild-arbeitsblaetter', anchorText: 'Suchbild-Generator' },
+    { pageType: 'app', slug: 'shadow-match-worksheets', anchorText: 'Schatten-Zuordnungs-Generator' },
+    { pageType: 'app', slug: 'matching-worksheets', anchorText: 'Standard-Zuordnungs-Generator' },
+    { pageType: 'app', slug: 'find-objects-worksheets', anchorText: 'Suchbild-Generator' },
   ],
   relatedPosts: [
     { slug: 'zuordnungs-arbeitsblaetter-kleinkind-markt', title: 'Zuordnungs-Arbeitsblaetter: Der Kleinkind-Markt' },

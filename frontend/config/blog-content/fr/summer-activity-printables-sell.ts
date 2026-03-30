@@ -67,9 +67,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'mots-caches-fiches', anchorText: 'Générateur de mots cachés' },
-    { pageType: 'start', slug: 'guide-complet-activite-imprimables', anchorText: 'Guide complet imprimables' },
-    { pageType: 'guide', slug: 'niches-imprimables', anchorText: 'Guide niches' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Générateur de mots cachés' },
+    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Guide complet imprimables' },
+    { pageType: 'guide', slug: 'best-kdp-activity-book-niches', anchorText: 'Guide niches' },
   ],
   relatedPosts: [
     { slug: 'back-to-school-printable-rush', title: 'Ruée de la rentrée' },

@@ -67,10 +67,10 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'coloring', anchorText: 'Halloween Coloring Page Generator' },
-    { pageType: 'app', slug: 'wordsearch', anchorText: 'Halloween Word Search Creator' },
-    { pageType: 'app', slug: 'bingo', anchorText: 'Halloween Bingo Card Maker' },
-    { pageType: 'start', slug: 'sell-educational-printables-etsy', anchorText: 'Start selling printables on Etsy' },
+    { pageType: 'app', slug: 'coloring-worksheets', anchorText: 'Halloween Coloring Page Generator' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Halloween Word Search Creator' },
+    { pageType: 'app', slug: 'picture-bingo-worksheets', anchorText: 'Halloween Bingo Card Maker' },
+    { pageType: 'guide', slug: 'sell-educational-printables-etsy', anchorText: 'Start selling printables on Etsy' },
   ],
   relatedPosts: [
     { slug: 'seasonal-printable-calendar-sellers', title: 'Seasonal Printable Calendar for Sellers' },

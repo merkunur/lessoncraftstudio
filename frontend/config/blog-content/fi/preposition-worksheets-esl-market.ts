@@ -67,8 +67,8 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'prepositio-tyoarkit', anchorText: 'Prepositiogeneraattori' },
-    { pageType: 'app', slug: 'sananhaku-tyoarkit', anchorText: 'Sananhakugeneraattori' },
+    { pageType: 'app', slug: 'prepositions-worksheets', anchorText: 'Prepositiogeneraattori' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Sananhakugeneraattori' },
   ],
   relatedPosts: [
     { slug: 's2-tyoarkit-globaali-markkina', title: 'S2-tyoarkit: globaali markkina' },

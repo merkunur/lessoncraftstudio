@@ -67,10 +67,10 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'coloring-pages', anchorText: 'Themed Coloring Page Generator' },
+    { pageType: 'app', slug: 'coloring-worksheets', anchorText: 'Themed Coloring Page Generator' },
     { pageType: 'app', slug: 'find-and-count-worksheets', anchorText: 'Find and Count Generator' },
-    { pageType: 'start', slug: 'sell-educational-printables-etsy', anchorText: 'Start selling on Etsy' },
-    { pageType: 'idea', slug: 'etsy-coloring-pages', anchorText: 'Coloring page business ideas' },
+    { pageType: 'guide', slug: 'sell-educational-printables-etsy', anchorText: 'Start selling on Etsy' },
+    { pageType: 'idea', slug: 'christmas-printable-ideas', anchorText: 'Coloring page business ideas' },
   ],
   relatedPosts: [
     { slug: 'animal-themed-printables-sell', title: 'Why Animal-Themed Printables Sell So Well' },

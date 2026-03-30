@@ -67,9 +67,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'addition-fiches', anchorText: 'Générateur de fiches d\'addition' },
-    { pageType: 'start', slug: 'guide-complet-activite-imprimables', anchorText: 'Guide complet imprimables' },
-    { pageType: 'guide', slug: 'guide-creation-fiches', anchorText: 'Guide création' },
+    { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Générateur de fiches d\'addition' },
+    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Guide complet imprimables' },
+    { pageType: 'guide', slug: 'create-addition-worksheets', anchorText: 'Guide création' },
   ],
   relatedPosts: [
     { slug: 'printable-shop-branding-tips', title: 'Branding boutique' },

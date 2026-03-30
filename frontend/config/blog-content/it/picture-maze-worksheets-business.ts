@@ -59,9 +59,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'labirinti-immagini-schede', anchorText: 'Generatore Labirinti' },
-    { pageType: 'app', slug: 'caccia-tesoro-schede', anchorText: 'Generatore Caccia al Tesoro' },
-    { pageType: 'app', slug: 'ricalco-schede', anchorText: 'Generatore Schede Ricalco' },
+    { pageType: 'app', slug: 'picture-path-worksheets', anchorText: 'Generatore Labirinti' },
+    { pageType: 'app', slug: 'treasure-hunt-worksheets', anchorText: 'Generatore Caccia al Tesoro' },
+    { pageType: 'app', slug: 'drawing-lines-worksheets', anchorText: 'Generatore Schede Ricalco' },
   ],
   relatedPosts: [
     { slug: 'caccia-tesoro-stampabili-vendere', title: 'Caccia al Tesoro Stampabili: Vendere' },

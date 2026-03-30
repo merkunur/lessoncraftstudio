@@ -67,8 +67,8 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'bildeaddisjon-arbeidsark', anchorText: 'Kodeaddisjon-generator' },
-    { pageType: 'app', slug: 'addisjon-arbeidsark', anchorText: 'Addisjonsoppgave-generator' },
+    { pageType: 'app', slug: 'code-addition-worksheets', anchorText: 'Kodeaddisjon-generator' },
+    { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Addisjonsoppgave-generator' },
     { pageType: 'guide', slug: 'create-addition-worksheets', anchorText: 'Guide til matteoppgaver' },
   ],
   relatedPosts: [

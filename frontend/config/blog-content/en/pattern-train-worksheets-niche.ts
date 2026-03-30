@@ -69,8 +69,8 @@ const content: BlogContent = {
   internalLinks: [
     { pageType: 'app', slug: 'pattern-train-worksheets', anchorText: 'Pattern Train Generator' },
     { pageType: 'tool', slug: 'pattern-train-maker', anchorText: 'Try the pattern train maker free trial' },
-    { pageType: 'guide', slug: 'create-pattern-train-worksheets', anchorText: 'Pattern train creation guide' },
-    { pageType: 'bundle', slug: 'pattern-logic-bundle', anchorText: 'Pattern & Logic Bundle' },
+    { pageType: 'guide', slug: 'create-pattern-worksheets', anchorText: 'Pattern train creation guide' },
+    { pageType: 'bundle', slug: 'matching-sorting-bundle', anchorText: 'Pattern & Logic Bundle' },
   ],
   relatedPosts: [
     { slug: 'pattern-worksheets-sell-online', title: 'Pattern Worksheets: The STEM Niche No One\'s Talking About' },

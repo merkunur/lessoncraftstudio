@@ -34,9 +34,9 @@ const content: BlogContent = {
     { question: 'Hvilke formater bør jeg tilby?', answer: 'PDF er standard. Tilby både A4 (for Europa/Norge) og US Letter (for USA). Mange selgere inkluderer begge formater i nedlastingen.' },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'addisjon-arbeidsark', anchorText: 'Prøv en arbeidsark-generator' },
-    { pageType: 'app', slug: 'ordsoek-arbeidsark', anchorText: 'Ordsøk-generator' },
-    { pageType: 'guide', slug: 'create-worksheets', anchorText: 'Komplett guide til arbeidsark' },
+    { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Prøv en arbeidsark-generator' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Ordsøk-generator' },
+    { pageType: 'guide', slug: 'create-addition-worksheets', anchorText: 'Komplett guide til arbeidsark' },
   ],
   relatedPosts: [
     { slug: 'printable-pakke-strategi-etsy', title: 'Pakkestrategi for Etsy' },

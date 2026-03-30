@@ -59,9 +59,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'confronto-dimensioni-schede', anchorText: 'Generatore Confronto Dimensioni' },
-    { pageType: 'app', slug: 'piu-meno-schede', anchorText: 'Generatore Più/Meno' },
-    { pageType: 'app', slug: 'classificazione-schede', anchorText: 'Generatore Classificazione' },
+    { pageType: 'app', slug: 'big-small-worksheets', anchorText: 'Generatore Confronto Dimensioni' },
+    { pageType: 'app', slug: 'more-less-worksheets', anchorText: 'Generatore Più/Meno' },
+    { pageType: 'app', slug: 'picture-sort-worksheets', anchorText: 'Generatore Classificazione' },
   ],
   relatedPosts: [
     { slug: 'schede-maggiore-minore-vendere', title: 'Schede Maggiore/Minore: Vendere' },

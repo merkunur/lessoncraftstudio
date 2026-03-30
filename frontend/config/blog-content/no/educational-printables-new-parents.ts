@@ -49,9 +49,9 @@ const content: BlogContent = {
     { question: 'Selger sesongprodukter bare i sesongen?', answer: 'Mesteparten av salget skjer i sesongen, men noen kunder planlegger tidlig. Jule-utskrifter kan selge allerede fra september. La annonsene være aktive hele året.' },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'ordsoek-arbeidsark', anchorText: 'Ordsøk-generator' },
-    { pageType: 'app', slug: 'fargeleggingsbilder-arbeidsark', anchorText: 'Fargeleggings-generator' },
-    { pageType: 'app', slug: 'addisjon-arbeidsark', anchorText: 'Matteoppgave-generator' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Ordsøk-generator' },
+    { pageType: 'app', slug: 'coloring-worksheets', anchorText: 'Fargeleggings-generator' },
+    { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Matteoppgave-generator' },
   ],
   relatedPosts: [
     { slug: 'sesongkalender-printable-selgere', title: 'Sesongkalender for selgere' },

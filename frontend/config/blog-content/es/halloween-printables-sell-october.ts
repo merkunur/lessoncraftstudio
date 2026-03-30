@@ -59,9 +59,9 @@ const content: BlogContent = {
     }
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'sopa-letras-fichas', anchorText: 'Generador de sopas de letras tematicas' },
-    { pageType: 'start', slug: 'guia-completa-negocio-imprimibles', anchorText: 'Guia para empezar' },
-    { pageType: 'guide', slug: 'nichos-imprimibles-rentables', anchorText: 'Nichos rentables de imprimibles' }
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Generador de sopas de letras tematicas' },
+    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Guia para empezar' },
+    { pageType: 'guide', slug: 'research-profitable-niches', anchorText: 'Nichos rentables de imprimibles' }
   ],
   relatedPosts: [
     { slug: 'best-printables-sell-christmas', title: 'Imprimibles de Navidad' },

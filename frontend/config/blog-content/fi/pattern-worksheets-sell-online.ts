@@ -67,8 +67,8 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'kuviotehtava-tyoarkit', anchorText: 'Kuviogeneraattori' },
-    { pageType: 'app', slug: 'kuviojuna-tyoarkit', anchorText: 'Kuviojunageneraattori' },
+    { pageType: 'app', slug: 'pattern-worksheets', anchorText: 'Kuviogeneraattori' },
+    { pageType: 'app', slug: 'pattern-train-worksheets', anchorText: 'Kuviojunageneraattori' },
   ],
   relatedPosts: [
     { slug: 'kuviojuna-tyoarkit-niche', title: 'Kuviojunatyoarkit nichena' },

@@ -68,9 +68,9 @@ const content: BlogContent = {
   ],
   internalLinks: [
     { pageType: 'app', slug: 'find-objects-worksheets', anchorText: 'Hidden Object Generator' },
-    { pageType: 'tool', slug: 'find-objects-maker', anchorText: 'Try the hidden object maker free trial' },
-    { pageType: 'guide', slug: 'create-find-objects-worksheets', anchorText: 'Hidden object creation guide' },
-    { pageType: 'bundle', slug: 'search-bundle', anchorText: 'Search & Find Bundle' },
+    { pageType: 'tool', slug: 'hidden-object-maker', anchorText: 'Try the hidden object maker free trial' },
+    { pageType: 'guide', slug: 'create-hidden-object-worksheets', anchorText: 'Hidden object creation guide' },
+    { pageType: 'bundle', slug: 'search-find-bundle', anchorText: 'Search & Find Bundle' },
   ],
   relatedPosts: [
     { slug: 'find-and-count-printables-profit', title: 'Find and Count Printables: A Profitable Evergreen Niche' },

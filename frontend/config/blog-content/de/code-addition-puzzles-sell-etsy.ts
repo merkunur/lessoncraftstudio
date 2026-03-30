@@ -67,9 +67,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'code-additions-arbeitsblaetter', anchorText: 'Code-Additions-Generator' },
-    { pageType: 'app', slug: 'addition-arbeitsblaetter', anchorText: 'Standard-Additions-Generator' },
-    { pageType: 'guide', slug: 'code-additions-arbeitsblaetter-erstellen', anchorText: 'Anleitung: Code-Raetsel erstellen' },
+    { pageType: 'app', slug: 'code-addition-worksheets', anchorText: 'Code-Additions-Generator' },
+    { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Standard-Additions-Generator' },
+    { pageType: 'guide', slug: 'create-addition-worksheets', anchorText: 'Anleitung: Code-Raetsel erstellen' },
   ],
   relatedPosts: [
     { slug: 'additions-arbeitsblaetter-verkaufen-etsy-guide', title: 'Additions-Arbeitsblaetter auf Etsy verkaufen' },

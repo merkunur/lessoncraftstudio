@@ -67,8 +67,8 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'varityskuvat-tyoarkit', anchorText: 'Varityssivugeneraattori' },
-    { pageType: 'app', slug: 'ruudukkopiirustus-tyoarkit', anchorText: 'Ruudukkopiirustustyoarkit' },
+    { pageType: 'app', slug: 'coloring-worksheets', anchorText: 'Varityssivugeneraattori' },
+    { pageType: 'app', slug: 'draw-and-color-worksheets', anchorText: 'Ruudukkopiirustustyoarkit' },
   ],
   relatedPosts: [
     { slug: 'piirra-ja-varita-tyoarkit-myy', title: 'Piirra ja varita -tyoarkit: myyntiopas' },

@@ -6,7 +6,7 @@ const content: BlogContent = {
     secondaryKeywords: ['Dino Arbeitsblaetter Etsy', 'Dinosaurier Raetsel Kinder PDF', 'T-Rex Wortsuche verkaufen'],
     lsiKeywords: ['Dinosaurier Wortsuche Grundschule', 'Dino-Mathe Arbeitsblaetter', 'Urzeit Lernmaterial Kinder'],
     titleTag: 'Dinosaurier-Druckvorlagen: Immergruener Bestseller | LCS',
-    metaDescription: 'Dinosaurier-Druckvorlagen: Immergruener Bestseller: Marktanalyse, Produkte und Strategien fuer Druckvorlagen-Verkaeufer im DACH-Raum. Profitabel auf Etsy.de und Amazon KDP.',
+    metaDescription: 'Dinosaurier-Druckvorlagen: Marktanalyse, Produkte und Strategien fuer Verkaeufer im DACH-Raum. Profitabel auf Etsy.de und Amazon KDP.',
   },
   hero: {
     title: 'Dinosaurier-Druckvorlagen: Immergruener Bestseller',
@@ -59,9 +59,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'wortsuche-arbeitsblaetter', anchorText: 'Dino-Wortsuche erstellen' },
-    { pageType: 'app', slug: 'schatzsuche-arbeitsblaetter', anchorText: 'Dino-Schatzsuche generieren' },
-    { pageType: 'app', slug: 'mathe-raetsel-arbeitsblaetter', anchorText: 'Dino-Mathe-Raetsel' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Dino-Wortsuche erstellen' },
+    { pageType: 'app', slug: 'treasure-hunt-worksheets', anchorText: 'Dino-Schatzsuche generieren' },
+    { pageType: 'app', slug: 'math-puzzle-worksheets', anchorText: 'Dino-Mathe-Raetsel' },
   ],
   relatedPosts: [
     { slug: 'tier-themen-druckvorlagen-verkaufen', title: 'Tier-Druckvorlagen: Immer Bestseller' },

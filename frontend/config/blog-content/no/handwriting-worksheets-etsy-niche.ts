@@ -34,9 +34,9 @@ const content: BlogContent = {
     { question: 'Fungerer norske skriveark på det internasjonale markedet?', answer: 'Det norske alfabetet er nisje, men du kan lage engelske, tyske og andre versjoner med generatoren for å nå større markeder.' },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'skriveark-arbeidsark', anchorText: 'Skriveark-generator' },
-    { pageType: 'app', slug: 'bokstavoppgaver-arbeidsark', anchorText: 'Bokstavoppgave-generator' },
-    { pageType: 'app', slug: 'tegning-av-linjer-arbeidsark', anchorText: 'Strektrening-generator' },
+    { pageType: 'app', slug: 'writing-worksheets', anchorText: 'Skriveark-generator' },
+    { pageType: 'app', slug: 'word-scramble-worksheets', anchorText: 'Bokstavoppgave-generator' },
+    { pageType: 'app', slug: 'drawing-lines-worksheets', anchorText: 'Strektrening-generator' },
   ],
   relatedPosts: [
     { slug: 'alfabet-arbeidsark-bestselgere', title: 'Alfabet-arbeidsark som bestselgere' },

@@ -59,9 +59,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'mots-caches-fiches', anchorText: 'Générateur de mots cachés' },
-    { pageType: 'start', slug: 'guide-complet-activite-imprimables', anchorText: 'Guide complet imprimables' },
-    { pageType: 'guide', slug: 'avis-clients-etsy', anchorText: 'Guide avis Etsy' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Générateur de mots cachés' },
+    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Guide complet imprimables' },
+    { pageType: 'guide', slug: 'get-reviews-printable-products', anchorText: 'Guide avis Etsy' },
   ],
   relatedPosts: [
     { slug: 'customer-service-digital-products', title: 'Service client produits numériques' },

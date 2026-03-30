@@ -59,9 +59,9 @@ const content: BlogContent = {
     }
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'addition-arbejdsark', anchorText: 'Additions-Generator (universelt format)' },
-    { pageType: 'app', slug: 'farvelaegning-arbejdsark', anchorText: 'Farvelægnings-Generator' },
-    { pageType: 'app', slug: 'ordsoegning-arbejdsark', anchorText: 'Ordsøgning Generator' }
+    { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Additions-Generator (universelt format)' },
+    { pageType: 'app', slug: 'coloring-worksheets', anchorText: 'Farvelægnings-Generator' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Ordsøgning Generator' }
   ],
   relatedPosts: [
     { slug: 'saelg-additions-arbejdsark-etsy-guide', title: 'Sælg Additions-Arbejdsark på Etsy' },

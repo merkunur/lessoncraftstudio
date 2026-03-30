@@ -44,7 +44,8 @@ export const bundlePageSlugs: BundleSlugConfig[] = [
       fr: 'pack-maitrise-maths',
       es: 'paquete-dominio-matematicas', pt: 'pacote-dominio-matematica', it: 'pacchetto-padronanza-matematica', nl: 'wiskunde-meester-pakket',
       sv: 'matematik-mastare-paket',
-      da: 'matematik-mestring-pakke'
+      da: 'matematik-mestring-pakke',
+      no: 'matematikk-mestring-pakke'
     },
   },
   {
@@ -55,7 +56,8 @@ export const bundlePageSlugs: BundleSlugConfig[] = [
       fr: 'pack-lecture-langage',
       es: 'paquete-lectura-lenguaje', pt: 'pacote-leitura-linguagem', it: 'pacchetto-lettura-linguaggio', nl: 'lezen-taal-pakket',
       sv: 'laesning-spraak-paket',
-      da: 'laesning-sprog-pakke'
+      da: 'laesning-sprog-pakke',
+      no: 'lesing-spraak-pakke'
     },
   },
   {
@@ -66,7 +68,8 @@ export const bundlePageSlugs: BundleSlugConfig[] = [
       fr: 'pack-apprentissage-visuel',
       es: 'paquete-aprendizaje-visual', pt: 'pacote-aprendizagem-visual', it: 'pacchetto-apprendimento-visivo', nl: 'visueel-leren-pakket',
       sv: 'visuellt-laerande-paket',
-      da: 'visuel-laering-pakke'
+      da: 'visuel-laering-pakke',
+      no: 'visuell-laering-pakke'
     },
   },
   {
@@ -77,7 +80,8 @@ export const bundlePageSlugs: BundleSlugConfig[] = [
       fr: 'pack-association-tri',
       es: 'paquete-asociacion-clasificacion', pt: 'pacote-associacao-classificacao', it: 'pacchetto-abbinamento-classificazione', nl: 'matchen-sorteren-pakket',
       sv: 'matchning-sortering-paket',
-      da: 'matchning-sortering-pakke'
+      da: 'matchning-sortering-pakke',
+      no: 'kobling-sortering-pakke'
     },
   },
   {
@@ -88,7 +92,8 @@ export const bundlePageSlugs: BundleSlugConfig[] = [
       fr: 'pack-puzzles-logique',
       es: 'paquete-puzzles-logica', pt: 'pacote-puzzles-logica', it: 'pacchetto-puzzle-logica', nl: 'puzzels-logica-pakket',
       sv: 'pussel-logik-paket',
-      da: 'puslespil-logik-pakke'
+      da: 'puslespil-logik-pakke',
+      no: 'puslespill-logikk-pakke'
     },
   },
   {
@@ -99,7 +104,8 @@ export const bundlePageSlugs: BundleSlugConfig[] = [
       fr: 'pack-cherche-trouve',
       es: 'paquete-busca-encuentra', pt: 'pacote-procura-encontra', it: 'pacchetto-cerca-trova', nl: 'zoeken-vinden-pakket',
       sv: 'soek-hitta-paket',
-      da: 'soeg-find-pakke'
+      da: 'soeg-find-pakke',
+      no: 'soek-finn-pakke'
     },
   },
 ];

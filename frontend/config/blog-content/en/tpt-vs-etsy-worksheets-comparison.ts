@@ -67,7 +67,7 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'start', slug: 'sell-educational-printables-etsy', anchorText: 'Start selling on Etsy' },
+    { pageType: 'guide', slug: 'sell-educational-printables-etsy', anchorText: 'Start selling on Etsy' },
     { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Create addition worksheets for both platforms' },
     { pageType: 'guide', slug: 'create-worksheet-bundles', anchorText: 'Create bundles that sell on any platform' },
     { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Try the Word Search Generator' },

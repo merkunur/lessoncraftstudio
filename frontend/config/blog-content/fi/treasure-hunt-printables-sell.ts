@@ -67,8 +67,8 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'aarteenetsinta-tyoarkit', anchorText: 'Aarteenetsintaegeneraattori' },
-    { pageType: 'app', slug: 'etsi-esineet-tyoarkit', anchorText: 'Piilokuvageneraattori' },
+    { pageType: 'app', slug: 'treasure-hunt-worksheets', anchorText: 'Aarteenetsintaegeneraattori' },
+    { pageType: 'app', slug: 'find-objects-worksheets', anchorText: 'Piilokuvageneraattori' },
   ],
   relatedPosts: [
     { slug: 'tulostettavat-pelit-syntymapaivajuhlat', title: 'Tulostettavat pelit syntymapaivajahliin' },

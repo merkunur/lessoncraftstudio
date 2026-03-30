@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'Arbeitsblaetter Etsy Listing formatieren',
     secondaryKeywords: ['Arbeitsblaetter fuer das perfekte Etsy-Listing formatieren Anleitung', 'Druckvorlagen Arbeitsblaetter Guide', 'Arbeitsblatt Verkauf Tipps'],
     lsiKeywords: ['Druckvorlagen Geschaeft optimieren', 'Etsy Verkaeufer Tipps', 'Arbeitsblaetter professionell erstellen'],
-    titleTag: 'Arbeitsblaetter fuer das perfekte Etsy-Listing formatieren | LCS',
+    titleTag: 'Arbeitsblaetter fuer Etsy-Listings formatieren | LCS',
     metaDescription: 'So formatieren Sie Ihre Arbeitsblaetter fuer ein professionelles Etsy-Listing: PDF-Erstellung, Mockups und Listing-Optimierung.',
   },
   hero: {
@@ -59,9 +59,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'wortsuche-arbeitsblaetter', anchorText: 'Wortsuche-Generator testen' },
-    { pageType: 'app', slug: 'addition-arbeitsblaetter', anchorText: 'Mathe-Generator testen' },
-    { pageType: 'start', slug: 'druckvorlagen-auf-etsy-verkaufen', anchorText: 'Etsy-Shop starten' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Wortsuche-Generator testen' },
+    { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Mathe-Generator testen' },
+    { pageType: 'start', slug: 'etsy-printable-business', anchorText: 'Etsy-Shop starten' },
   ],
   relatedPosts: [
     { slug: 'arbeitsblatt-paket-erstellen-35-minuten', title: '50 Arbeitsblaetter-Paket in 35 Minuten' },

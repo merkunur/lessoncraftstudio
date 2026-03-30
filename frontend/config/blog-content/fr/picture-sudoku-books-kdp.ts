@@ -67,10 +67,10 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'sudoku-images-fiches', anchorText: 'Générateur de sudoku images' },
-    { pageType: 'tool', slug: 'sudoku-images-fiches', anchorText: 'Essayer le générateur de sudoku images' },
-    { pageType: 'app', slug: 'puzzles-maths-fiches', anchorText: 'Générateur de puzzles maths' },
-    { pageType: 'app', slug: 'grille-association-fiches', anchorText: 'Générateur de grilles d\'association' },
+    { pageType: 'app', slug: 'sudoku-worksheets', anchorText: 'Générateur de sudoku images' },
+    { pageType: 'tool', slug: 'sudoku-maker', anchorText: 'Essayer le générateur de sudoku images' },
+    { pageType: 'app', slug: 'math-puzzle-worksheets', anchorText: 'Générateur de puzzles maths' },
+    { pageType: 'app', slug: 'grid-match-worksheets', anchorText: 'Générateur de grilles d\'association' },
   ],
   relatedPosts: [
     { slug: 'livres-puzzles-maths-amazon-kdp', title: 'Livres de puzzles maths pour Amazon KDP' },

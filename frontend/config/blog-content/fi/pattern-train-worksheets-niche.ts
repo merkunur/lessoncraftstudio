@@ -67,8 +67,8 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'kuviojuna-tyoarkit', anchorText: 'Kuviojunageneraattori' },
-    { pageType: 'app', slug: 'kuviotehtava-tyoarkit', anchorText: 'Kuviogeneraattori' },
+    { pageType: 'app', slug: 'pattern-train-worksheets', anchorText: 'Kuviojunageneraattori' },
+    { pageType: 'app', slug: 'pattern-worksheets', anchorText: 'Kuviogeneraattori' },
   ],
   relatedPosts: [
     { slug: 'kuvio-tyoarkit-myy-verkossa', title: 'Kuviotyoarkit: myy verkossa' },

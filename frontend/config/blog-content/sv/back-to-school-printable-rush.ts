@@ -63,9 +63,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'addition-arbetsblad', anchorText: 'Skapa Skolstartspaket' },
-    { pageType: 'app', slug: 'alfabet-arbetsblad', anchorText: 'Alfabet-Generator för Förskoleklass' },
-    { pageType: 'guide', slug: 'skapa-arbetsblad-paket', anchorText: 'Guide: Skapa Paket' },
+    { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Skapa Skolstartspaket' },
+    { pageType: 'app', slug: 'alphabet-train-worksheets', anchorText: 'Alfabet-Generator för Förskoleklass' },
+    { pageType: 'guide', slug: 'create-worksheet-bundles', anchorText: 'Guide: Skapa Paket' },
   ],
   relatedPosts: [
     { slug: 'foerskola-printables-baestsaeljare', title: 'Förskola Utskrifter: Bästsäljare' },

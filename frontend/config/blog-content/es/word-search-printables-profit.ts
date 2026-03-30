@@ -67,10 +67,10 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'sopa-letras-fichas', anchorText: 'Generador de sopas de letras' },
-    { pageType: 'app', slug: 'crucigramas-fichas', anchorText: 'Generador de crucigramas' },
-    { pageType: 'app', slug: 'criptogramas-fichas', anchorText: 'Generador de criptogramas' },
-    { pageType: 'app', slug: 'anagramas-fichas', anchorText: 'Generador de anagramas' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Generador de sopas de letras' },
+    { pageType: 'app', slug: 'crossword-worksheets', anchorText: 'Generador de crucigramas' },
+    { pageType: 'app', slug: 'cryptogram-worksheets', anchorText: 'Generador de criptogramas' },
+    { pageType: 'app', slug: 'word-scramble-worksheets', anchorText: 'Generador de anagramas' },
   ],
   relatedPosts: [
     { slug: 'puzzles-codigo-suma-vender-etsy', title: 'Puzzles de código suma: nicho oculto en Etsy' },

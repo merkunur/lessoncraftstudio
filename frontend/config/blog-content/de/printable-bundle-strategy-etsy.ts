@@ -67,9 +67,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'bundle', slug: 'mathe-zahlen-paket', anchorText: 'Mathe-Bundle Beispiel' },
-    { pageType: 'app', slug: 'addition-arbeitsblaetter', anchorText: 'Additions-Generator fuer Bundles' },
-    { pageType: 'start', slug: 'druckvorlagen-auf-etsy-verkaufen', anchorText: 'Druckvorlagen auf Etsy verkaufen' },
+    { pageType: 'bundle', slug: 'math-mastery-bundle', anchorText: 'Mathe-Bundle Beispiel' },
+    { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Additions-Generator fuer Bundles' },
+    { pageType: 'start', slug: 'etsy-printable-business', anchorText: 'Druckvorlagen auf Etsy verkaufen' },
   ],
   relatedPosts: [
     { slug: 'etsy-printable-pricing-strategy', title: 'Preisstrategie fuer Druckvorlagen' },

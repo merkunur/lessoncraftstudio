@@ -70,7 +70,7 @@ const content: BlogContent = {
     { pageType: 'app', slug: 'treasure-hunt-worksheets', anchorText: 'Treasure Hunt Generator' },
     { pageType: 'tool', slug: 'treasure-hunt-maker', anchorText: 'Try the treasure hunt maker free trial' },
     { pageType: 'guide', slug: 'create-treasure-hunt-worksheets', anchorText: 'Treasure hunt creation guide' },
-    { pageType: 'bundle', slug: 'puzzle-games-bundle', anchorText: 'Puzzles & Games Bundle' },
+    { pageType: 'bundle', slug: 'puzzles-logic-bundle', anchorText: 'Puzzles & Games Bundle' },
   ],
   relatedPosts: [
     { slug: 'bingo-cards-printable-business', title: 'Printable Bingo Cards: From Classroom to Party Business' },

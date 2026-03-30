@@ -67,9 +67,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'sopa-letras-fichas', anchorText: 'Generador de sopas de letras' },
-    { pageType: 'start', slug: 'guia-completa-negocio-imprimibles', anchorText: 'Guia completa para empezar' },
-    { pageType: 'guide', slug: 'ingresos-pasivos-imprimibles', anchorText: 'Guia sobre ingresos pasivos' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Generador de sopas de letras' },
+    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Guia completa para empezar' },
+    { pageType: 'guide', slug: 'passive-income-worksheets', anchorText: 'Guia sobre ingresos pasivos' },
   ],
   relatedPosts: [
     { slug: 'printable-business-income-realistic', title: 'Ingresos Realistas de Imprimibles' },

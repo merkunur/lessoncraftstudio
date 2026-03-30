@@ -59,9 +59,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'scrittura-schede', anchorText: 'Generatore Schede Scrittura' },
-    { pageType: 'app', slug: 'ricalco-schede', anchorText: 'Generatore Schede Ricalco' },
-    { pageType: 'app', slug: 'alfabeto-schede', anchorText: 'Generatore Schede Alfabeto' },
+    { pageType: 'app', slug: 'writing-worksheets', anchorText: 'Generatore Schede Scrittura' },
+    { pageType: 'app', slug: 'drawing-lines-worksheets', anchorText: 'Generatore Schede Ricalco' },
+    { pageType: 'app', slug: 'alphabet-train-worksheets', anchorText: 'Generatore Schede Alfabeto' },
   ],
   relatedPosts: [
     { slug: 'schede-ricalco-motricita-fine-vendere', title: 'Schede Ricalco e Motricità Fine: Vendere' },

@@ -14,7 +14,7 @@ const content: BlogContent = {
       'math fact speed tests printable',
     ],
     titleTag: 'Math Fact Fluency Printables: Sell to All | LCS',
-    metaDescription: 'Math fact fluency printables sell to teachers AND parents. Learn how to create timed tests, practice sheets, and math games that generate recurring revenue.',
+    metaDescription: 'Math fact fluency printables sell to teachers AND parents. Learn to create timed tests, practice sheets, and math games that generate revenue.',
   },
   hero: {
     title: 'Math Fact Fluency Printables: Sell to Teachers AND Parents',
@@ -67,10 +67,10 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'addition', anchorText: 'Addition Worksheet Generator' },
-    { pageType: 'app', slug: 'subtraction', anchorText: 'Subtraction Worksheet Generator' },
-    { pageType: 'app', slug: 'math-puzzle', anchorText: 'Math Puzzle Creator' },
-    { pageType: 'start', slug: 'sell-educational-printables-etsy', anchorText: 'Start your math printable business' },
+    { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Addition Worksheet Generator' },
+    { pageType: 'app', slug: 'subtraction-worksheets', anchorText: 'Subtraction Worksheet Generator' },
+    { pageType: 'app', slug: 'math-puzzle-worksheets', anchorText: 'Math Puzzle Creator' },
+    { pageType: 'guide', slug: 'sell-educational-printables-etsy', anchorText: 'Start your math printable business' },
   ],
   relatedPosts: [
     { slug: 'sell-addition-worksheets-etsy-guide', title: 'Sell Addition Worksheets on Etsy' },

@@ -67,9 +67,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'schatzsuche-arbeitsblaetter', anchorText: 'Schatzsuche-Generator' },
-    { pageType: 'app', slug: 'bilder-bingo-arbeitsblaetter', anchorText: 'Bingo-Karten erstellen' },
-    { pageType: 'app', slug: 'wortsuche-arbeitsblaetter', anchorText: 'Wortsuche fuer Partyspiele' },
+    { pageType: 'app', slug: 'treasure-hunt-worksheets', anchorText: 'Schatzsuche-Generator' },
+    { pageType: 'app', slug: 'picture-bingo-worksheets', anchorText: 'Bingo-Karten erstellen' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Wortsuche fuer Partyspiele' },
   ],
   relatedPosts: [
     { slug: 'tier-themen-druckvorlagen-verkaufen', title: 'Tier-Druckvorlagen: Warum sie immer Bestseller sind' },

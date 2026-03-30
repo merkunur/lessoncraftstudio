@@ -35,9 +35,9 @@ const content: BlogContent = {
     { question: 'Is er vraag naar raster werkbladen in Nederland?', answer: 'Ja. Het Nederlandse basisonderwijs besteedt aandacht aan ruimtelijke oriëntatie en gegevensverwerking. Raster werkbladen sluiten hier direct op aan.' },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'raster-koppel-werkbladen', anchorText: 'Raster Koppel Generator' },
-    { pageType: 'app', slug: 'plaatjes-sudoku-werkbladen', anchorText: 'Plaatjes Sudoku Generator' },
-    { pageType: 'app', slug: 'patronen-werkbladen', anchorText: 'Patronen Werkbladen Generator' },
+    { pageType: 'app', slug: 'grid-match-worksheets', anchorText: 'Raster Koppel Generator' },
+    { pageType: 'app', slug: 'sudoku-worksheets', anchorText: 'Plaatjes Sudoku Generator' },
+    { pageType: 'app', slug: 'pattern-worksheets', anchorText: 'Patronen Werkbladen Generator' },
   ],
   relatedPosts: [
     { slug: 'woordzoeker-printables-winst', title: 'Woordzoeker Printables voor Winst' },

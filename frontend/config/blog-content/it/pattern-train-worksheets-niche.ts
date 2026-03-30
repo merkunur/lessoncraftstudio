@@ -59,9 +59,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'treno-motivi-schede', anchorText: 'Generatore Treno Pattern' },
-    { pageType: 'app', slug: 'motivi-schede', anchorText: 'Generatore Sequenze' },
-    { pageType: 'app', slug: 'classificazione-schede', anchorText: 'Generatore Classificazione' },
+    { pageType: 'app', slug: 'pattern-train-worksheets', anchorText: 'Generatore Treno Pattern' },
+    { pageType: 'app', slug: 'pattern-worksheets', anchorText: 'Generatore Sequenze' },
+    { pageType: 'app', slug: 'picture-sort-worksheets', anchorText: 'Generatore Classificazione' },
   ],
   relatedPosts: [
     { slug: 'schede-sequenze-vendere-online', title: 'Schede Sequenze: Vendere Online' },

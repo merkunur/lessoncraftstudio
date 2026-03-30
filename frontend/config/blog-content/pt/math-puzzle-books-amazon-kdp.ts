@@ -67,9 +67,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'puzzles-matematicos-fichas', anchorText: 'Gerador de Puzzles Matemáticos' },
-    { pageType: 'app', slug: 'adicao-fichas', anchorText: 'Gerador de Fichas de Adição' },
-    { pageType: 'app', slug: 'sudoku-imagens-fichas', anchorText: 'Gerador de Sudoku com Imagens' },
+    { pageType: 'app', slug: 'math-puzzle-worksheets', anchorText: 'Gerador de Puzzles Matemáticos' },
+    { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Gerador de Fichas de Adição' },
+    { pageType: 'app', slug: 'sudoku-worksheets', anchorText: 'Gerador de Sudoku com Imagens' },
   ],
   relatedPosts: [
     { slug: 'guia-formatacao-livro-atividades-kdp', title: 'Guia Formatação Livro Atividades KDP' },

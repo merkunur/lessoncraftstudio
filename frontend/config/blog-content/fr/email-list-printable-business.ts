@@ -58,9 +58,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'mots-caches-fiches', anchorText: 'Générateur de mots cachés' },
-    { pageType: 'start', slug: 'guide-complet-activite-imprimables', anchorText: 'Guide complet imprimables' },
-    { pageType: 'guide', slug: 'email-marketing-imprimables', anchorText: 'Guide email marketing' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Générateur de mots cachés' },
+    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Guide complet imprimables' },
+    { pageType: 'guide', slug: 'email-marketing-printables', anchorText: 'Guide email marketing' },
   ],
   relatedPosts: [
     { slug: 'free-printable-samples-lead-magnet', title: 'Échantillons comme lead magnet' },

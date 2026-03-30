@@ -6,7 +6,7 @@ const content: BlogContent = {
     secondaryKeywords: ['vender fichas alfabeto Etsy best seller', 'fichas abecedario imprimibles negocio', 'alphabet worksheets best sellers strategy'],
     lsiKeywords: ['fichas letras preescolar rentables', 'abecedario imprimible vender online', 'alphabet printables what sells best'],
     titleTag: 'Fichas del Alfabeto: Qué Diferencia a los Más Vendidos | LCS',
-    metaDescription: 'Descubra qué diferencia a las fichas del alfabeto más vendidas de las que no venden. Estrategias probadas para Etsy y KDP. Prueba gratuita con marca de agua.',
+    metaDescription: 'Descubra qué diferencia a las fichas del alfabeto más vendidas de las que no venden. Estrategias probadas para Etsy y KDP.',
   },
   hero: {
     title: 'Fichas del Alfabeto: Qué Diferencia a los Más Vendidos',
@@ -59,10 +59,10 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'alfabeto-fichas', anchorText: 'Generador de fichas del alfabeto' },
-    { pageType: 'app', slug: 'escritura-fichas', anchorText: 'Generador de fichas de escritura' },
-    { pageType: 'app', slug: 'trazado-fichas', anchorText: 'Generador de fichas de trazado' },
-    { pageType: 'app', slug: 'sopa-letras-fichas', anchorText: 'Generador de sopas de letras' },
+    { pageType: 'app', slug: 'alphabet-train-worksheets', anchorText: 'Generador de fichas del alfabeto' },
+    { pageType: 'app', slug: 'writing-worksheets', anchorText: 'Generador de fichas de escritura' },
+    { pageType: 'app', slug: 'drawing-lines-worksheets', anchorText: 'Generador de fichas de trazado' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Generador de sopas de letras' },
   ],
   relatedPosts: [
     { slug: 'sopa-letras-imprimibles-ganancias', title: 'Sopas de letras imprimibles: cuánto se gana' },

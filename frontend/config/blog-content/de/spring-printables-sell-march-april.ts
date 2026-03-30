@@ -5,8 +5,8 @@ const content: BlogContent = {
     primaryKeyword: 'Fruehlings-Druckvorlagen Maerz April verkaufen',
     secondaryKeywords: ['Fruehlings-Raetsel Kinder Etsy', 'Maerz April Druckvorlagen DACH', 'Fruehlingsblumen Arbeitsblaetter'],
     lsiKeywords: ['Fruehling Wortsuche PDF', 'Garten Arbeitsblaetter Grundschule', 'Fruehlingstiere Raetsel Kinder'],
-    titleTag: 'Fruehlings-Druckvorlagen: Was sich im Maerz/April verkauft | LCS',
-    metaDescription: 'Fruehlings-Druckvorlagen: Was sich im Maerz/April verkauft: Marktanalyse, Produkte und Strategien fuer Druckvorlagen-Verkaeufer im DACH-Raum. Profitabel auf Etsy.de und Amazon KDP.',
+    titleTag: 'Fruehlings-Druckvorlagen: Maerz/April-Hits | LCS',
+    metaDescription: 'Fruehlings-Druckvorlagen: Marktanalyse, Produkte und Strategien fuer Druckvorlagen-Verkaeufer im DACH-Raum. Profitabel auf Etsy.de und KDP.',
   },
   hero: {
     title: 'Fruehlings-Druckvorlagen: Was sich im Maerz/April verkauft',
@@ -59,9 +59,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'wortsuche-arbeitsblaetter', anchorText: 'Fruehlings-Wortsuche erstellen' },
-    { pageType: 'app', slug: 'suchen-und-zaehlen-arbeitsblaetter', anchorText: 'Insekten-Suchen-und-Zaehlen' },
-    { pageType: 'app', slug: 'zuordnungs-arbeitsblaetter', anchorText: 'Fruehlings-Zuordnungsspiele' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Fruehlings-Wortsuche erstellen' },
+    { pageType: 'app', slug: 'find-and-count-worksheets', anchorText: 'Insekten-Suchen-und-Zaehlen' },
+    { pageType: 'app', slug: 'matching-worksheets', anchorText: 'Fruehlings-Zuordnungsspiele' },
   ],
   relatedPosts: [
     { slug: 'ostern-druckvorlagen-geschaeft-fruehling', title: 'Oster-Druckvorlagen: Fruehlings-Geschaeftsideen' },

@@ -50,9 +50,9 @@ const content: BlogContent = {
     { question: 'Kann ich Mehr/Weniger-Arbeitsblaetter fuer DaF/DaZ anbieten?', answer: 'Ja. Mengenvergleiche mit einfachen deutschen Saetzen (\"Hier sind mehr Aepfel\") sind eine effektive Sprachuebung fuer Deutschlerner. Die bildliche Darstellung hilft beim Verstaendnis.' },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'mehr-weniger-arbeitsblaetter', anchorText: 'Mehr-Weniger-Generator' },
-    { pageType: 'app', slug: 'groessenvergleich-arbeitsblaetter', anchorText: 'Groessenvergleich-Generator' },
-    { pageType: 'app', slug: 'finde-und-zaehle-arbeitsblaetter', anchorText: 'Finde-und-Zaehle-Generator' },
+    { pageType: 'app', slug: 'more-less-worksheets', anchorText: 'Mehr-Weniger-Generator' },
+    { pageType: 'app', slug: 'big-small-worksheets', anchorText: 'Groessenvergleich-Generator' },
+    { pageType: 'app', slug: 'find-and-count-worksheets', anchorText: 'Finde-und-Zaehle-Generator' },
   ],
   relatedPosts: [
     { slug: 'groessenvergleich-arbeitsblaetter-verkaufen', title: 'Groessenvergleich-Arbeitsblaetter: Kleinkind-Markt' },

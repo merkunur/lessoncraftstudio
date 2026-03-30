@@ -67,9 +67,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'coloring', anchorText: 'Space Coloring Page Generator' },
-    { pageType: 'app', slug: 'wordsearch', anchorText: 'Space Word Search Creator' },
-    { pageType: 'app', slug: 'matching', anchorText: 'Planet Matching Activity Maker' },
+    { pageType: 'app', slug: 'coloring-worksheets', anchorText: 'Space Coloring Page Generator' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Space Word Search Creator' },
+    { pageType: 'app', slug: 'matching-worksheets', anchorText: 'Planet Matching Activity Maker' },
     { pageType: 'guide', slug: 'create-worksheet-bundles', anchorText: 'Bundle your space products' },
   ],
   relatedPosts: [

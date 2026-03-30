@@ -70,7 +70,7 @@ const content: BlogContent = {
     { pageType: 'app', slug: 'crossword-worksheets', anchorText: 'Crossword Puzzle Generator' },
     { pageType: 'tool', slug: 'crossword-maker', anchorText: 'Try the crossword maker free trial' },
     { pageType: 'guide', slug: 'create-crossword-puzzles', anchorText: 'Crossword creation guide' },
-    { pageType: 'bundle', slug: 'puzzle-games-bundle', anchorText: 'Puzzles & Games Bundle' },
+    { pageType: 'bundle', slug: 'puzzles-logic-bundle', anchorText: 'Puzzles & Games Bundle' },
   ],
   relatedPosts: [
     { slug: 'math-puzzle-books-amazon-kdp', title: 'Create Math Puzzle Books for Amazon KDP' },

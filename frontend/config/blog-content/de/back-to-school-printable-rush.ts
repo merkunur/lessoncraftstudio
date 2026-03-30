@@ -67,9 +67,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'schreibuebungen-arbeitsblaetter', anchorText: 'Schreibuebungen-Generator' },
-    { pageType: 'app', slug: 'zuordnungs-arbeitsblaetter', anchorText: 'Zuordnungs-Arbeitsblaetter fuer Erstklassen' },
-    { pageType: 'start', slug: 'druckvorlagen-auf-etsy-verkaufen', anchorText: 'Etsy-Shop fuer Druckvorlagen starten' },
+    { pageType: 'app', slug: 'writing-worksheets', anchorText: 'Schreibuebungen-Generator' },
+    { pageType: 'app', slug: 'matching-worksheets', anchorText: 'Zuordnungs-Arbeitsblaetter fuer Erstklassen' },
+    { pageType: 'start', slug: 'etsy-printable-business', anchorText: 'Etsy-Shop fuer Druckvorlagen starten' },
   ],
   relatedPosts: [
     { slug: 'vorschule-druckvorlagen-bestseller', title: 'Vorschul-Druckvorlagen: Die Bestseller auf Etsy' },

@@ -67,10 +67,10 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'diagramme-comptage-fiches', anchorText: 'Générateur de fiches graphiques et comptage' },
-    { pageType: 'tool', slug: 'diagramme-comptage-fiches', anchorText: 'Essayer le générateur de comptage' },
-    { pageType: 'app', slug: 'trouver-et-compter-fiches', anchorText: 'Générateur trouver et compter' },
-    { pageType: 'guide', slug: 'diagramme-comptage-fiches', anchorText: 'Guide création fiches comptage' },
+    { pageType: 'app', slug: 'chart-count-worksheets', anchorText: 'Générateur de fiches graphiques et comptage' },
+    { pageType: 'tool', slug: 'chart-count-maker', anchorText: 'Essayer le générateur de comptage' },
+    { pageType: 'app', slug: 'find-and-count-worksheets', anchorText: 'Générateur trouver et compter' },
+    { pageType: 'guide', slug: 'create-chart-count-worksheets', anchorText: 'Guide création fiches comptage' },
   ],
   relatedPosts: [
     { slug: 'packs-fiches-maths-qui-se-vendent', title: 'Packs de fiches maths qui se vendent' },

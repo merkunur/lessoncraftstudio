@@ -49,9 +49,9 @@ const content: BlogContent = {
     { question: 'Hvilke plattformer bør jeg selge på?', answer: 'Start med Etsy for internasjonalt marked og Undervisningsbyen.no for norsk marked. Legg til Amazon KDP når du har nok innhold til bøker (60–100 sider).' },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'rutenett-tilpasning-arbeidsark', anchorText: 'Rutenett Tilpasning Arbeidsark-generator' },
-    { pageType: 'guide', slug: 'create-worksheets', anchorText: 'Guide til arbeidsark' },
-    { pageType: 'start', slug: 'sell-worksheets-etsy', anchorText: 'Kom i gang med å selge' },
+    { pageType: 'app', slug: 'grid-match-worksheets', anchorText: 'Rutenett Tilpasning Arbeidsark-generator' },
+    { pageType: 'guide', slug: 'create-addition-worksheets', anchorText: 'Guide til arbeidsark' },
+    { pageType: 'start', slug: 'create-worksheets-that-sell', anchorText: 'Kom i gang med å selge' },
   ],
   relatedPosts: [
     { slug: 'printable-pakke-strategi-etsy', title: 'Pakkestrategi for Etsy' },

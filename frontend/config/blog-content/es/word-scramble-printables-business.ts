@@ -14,7 +14,7 @@ const content: BlogContent = {
       'fichas desorden palabras rentable',
     ],
     titleTag: 'Anagramas Imprimibles: 7 Ideas Productos | LCS',
-    metaDescription: 'Descubra 7 ideas de productos con anagramas imprimibles para vender en Etsy, KDP y Hotmart. Nicho versátil con múltiples públicos. Prueba gratuita con marca de agua.',
+    metaDescription: 'Descubra 7 ideas de productos con anagramas imprimibles para vender en Etsy, KDP y Hotmart. Nicho versátil con múltiples públicos.',
   },
   hero: {
     title: 'Anagramas Imprimibles: 7 Ideas de Productos',
@@ -67,10 +67,10 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'anagramas-fichas', anchorText: 'Generador de anagramas' },
-    { pageType: 'app', slug: 'sopa-letras-fichas', anchorText: 'Generador de sopas de letras' },
-    { pageType: 'app', slug: 'crucigramas-fichas', anchorText: 'Generador de crucigramas' },
-    { pageType: 'app', slug: 'adivinar-palabras-fichas', anchorText: 'Generador de adivinar palabras' },
+    { pageType: 'app', slug: 'word-scramble-worksheets', anchorText: 'Generador de anagramas' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Generador de sopas de letras' },
+    { pageType: 'app', slug: 'crossword-worksheets', anchorText: 'Generador de crucigramas' },
+    { pageType: 'app', slug: 'word-guess-worksheets', anchorText: 'Generador de adivinar palabras' },
   ],
   relatedPosts: [
     { slug: 'sopa-letras-imprimibles-ganancias', title: 'Sopas de letras imprimibles: cuánto se gana' },

@@ -14,7 +14,7 @@ const content: BlogContent = {
       'toddler screen free activities printable',
     ],
     titleTag: 'Toddler Activity Printables: Hot on Etsy 2026 | LCS',
-    metaDescription: 'Toddler activity printables are trending on Etsy in 2026. Discover which products sell, pricing strategies, and how to create toddler-appropriate worksheets.',
+    metaDescription: 'Toddler activity printables are trending on Etsy in 2026. Discover which products sell, pricing tips, and how to create toddler worksheets.',
   },
   hero: {
     title: 'Toddler Activity Printables: What\'s Hot on Etsy in 2026',
@@ -67,10 +67,10 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'matching', anchorText: 'Toddler Matching Activity Creator' },
-    { pageType: 'app', slug: 'coloring', anchorText: 'Simple Coloring Page Generator' },
-    { pageType: 'app', slug: 'big-small', anchorText: 'Big & Small Sorting Activities' },
-    { pageType: 'start', slug: 'sell-educational-printables-etsy', anchorText: 'Start selling toddler printables' },
+    { pageType: 'app', slug: 'matching-worksheets', anchorText: 'Toddler Matching Activity Creator' },
+    { pageType: 'app', slug: 'coloring-worksheets', anchorText: 'Simple Coloring Page Generator' },
+    { pageType: 'app', slug: 'big-small-worksheets', anchorText: 'Big & Small Sorting Activities' },
+    { pageType: 'guide', slug: 'sell-educational-printables-etsy', anchorText: 'Start selling toddler printables' },
   ],
   relatedPosts: [
     { slug: 'matching-worksheets-toddler-market', title: 'Matching Worksheets: The Toddler Market' },

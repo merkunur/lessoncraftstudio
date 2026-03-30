@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'alte Listings auffrischen Verkaeufe steigern 24 Stunden',
     secondaryKeywords: ['Alte Listings auffrischen Anleitung', 'Druckvorlagen Alte Guide', 'Arbeitsblatt Verkauf Tipps'],
     lsiKeywords: ['Druckvorlagen Geschaeft optimieren', 'Etsy Verkaeufer Tipps', 'Arbeitsblaetter professionell erstellen'],
-    titleTag: 'Alte Listings auffrischen: Mehr Verkaeufe in 24 Stunden | LCS',
+    titleTag: 'Alte Listings auffrischen: Mehr Verkaeufe | LCS',
     metaDescription: 'Wie Sie bestehende Etsy-Listings optimieren und in 24 Stunden mehr Verkaeufe erzielen. Titel, Tags, Fotos und Preise anpassen.',
   },
   hero: {
@@ -59,9 +59,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'wortsuche-arbeitsblaetter', anchorText: 'Wortsuche-Generator testen' },
-    { pageType: 'app', slug: 'addition-arbeitsblaetter', anchorText: 'Mathe-Generator testen' },
-    { pageType: 'start', slug: 'druckvorlagen-auf-etsy-verkaufen', anchorText: 'Etsy-Shop starten' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Wortsuche-Generator testen' },
+    { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Mathe-Generator testen' },
+    { pageType: 'start', slug: 'etsy-printable-business', anchorText: 'Etsy-Shop starten' },
   ],
   relatedPosts: [
     { slug: 'arbeitsblatt-paket-erstellen-35-minuten', title: '50 Arbeitsblaetter-Paket in 35 Minuten' },

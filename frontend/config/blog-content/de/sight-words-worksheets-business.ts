@@ -59,9 +59,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'wortsuche-arbeitsblaetter', anchorText: 'Wortschatz-Wortsuche erstellen' },
-    { pageType: 'app', slug: 'bilderkreuzwortraetsel-arbeitsblaetter', anchorText: 'Kreuzwortraetsel fuer Wortschatz' },
-    { pageType: 'app', slug: 'buchstabensalat-arbeitsblaetter', anchorText: 'Buchstabensalat-Generator' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Wortschatz-Wortsuche erstellen' },
+    { pageType: 'app', slug: 'crossword-worksheets', anchorText: 'Kreuzwortraetsel fuer Wortschatz' },
+    { pageType: 'app', slug: 'word-scramble-worksheets', anchorText: 'Buchstabensalat-Generator' },
   ],
   relatedPosts: [
     { slug: 'kopfrechnen-druckvorlagen-verkaufen', title: 'Kopfrechnen-Druckvorlagen: An Lehrer UND Eltern verkaufen' },

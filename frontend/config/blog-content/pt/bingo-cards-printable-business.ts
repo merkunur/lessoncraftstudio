@@ -67,9 +67,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'bingo-fichas', anchorText: 'Gerador de Cartelas de Bingo' },
-    { pageType: 'app', slug: 'caca-palavras-fichas', anchorText: 'Gerador Caça-Palavras' },
-    { pageType: 'app', slug: 'associacao-fichas', anchorText: 'Gerador de Associação' },
+    { pageType: 'app', slug: 'picture-bingo-worksheets', anchorText: 'Gerador de Cartelas de Bingo' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Gerador Caça-Palavras' },
+    { pageType: 'app', slug: 'matching-worksheets', anchorText: 'Gerador de Associação' },
   ],
   relatedPosts: [
     { slug: 'caca-palavras-imprimiveis-lucro', title: 'Caça-Palavras: Lucro' },

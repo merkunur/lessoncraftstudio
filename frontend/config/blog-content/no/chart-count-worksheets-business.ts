@@ -50,9 +50,9 @@ const content: BlogContent = {
     { question: 'Kan jeg lage disse med en generator?', answer: 'Ja, LessonCraftStudios bildediagram-generator lar deg velge tema, antall objekter og vanskelighetsgrad. Et komplett ark med fasit genereres på sekunder.' },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'bildediagram-arbeidsark', anchorText: 'Bildediagram-generator' },
-    { pageType: 'app', slug: 'finn-og-tell-arbeidsark', anchorText: 'Finn-og-tell-generator' },
-    { pageType: 'app', slug: 'sammenligningsoppgaver-arbeidsark', anchorText: 'Sammenligningsoppgave-generator' },
+    { pageType: 'app', slug: 'chart-count-worksheets', anchorText: 'Bildediagram-generator' },
+    { pageType: 'app', slug: 'find-and-count-worksheets', anchorText: 'Finn-og-tell-generator' },
+    { pageType: 'app', slug: 'more-less-worksheets', anchorText: 'Sammenligningsoppgave-generator' },
   ],
   relatedPosts: [
     { slug: 'finn-og-tell-utskrifter-fortjeneste', title: 'Finn-og-tell-utskrifter for fortjeneste' },

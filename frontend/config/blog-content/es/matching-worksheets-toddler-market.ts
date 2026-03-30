@@ -67,10 +67,10 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'asociacion-fichas', anchorText: 'Generador de fichas de asociación' },
-    { pageType: 'app', slug: 'asociacion-sombras-fichas', anchorText: 'Generador de asociación de sombras' },
-    { pageType: 'app', slug: 'clasificacion-fichas', anchorText: 'Generador de fichas de clasificación' },
-    { pageType: 'app', slug: 'comparacion-tamanos-fichas', anchorText: 'Generador de comparación de tamaños' },
+    { pageType: 'app', slug: 'matching-worksheets', anchorText: 'Generador de fichas de asociación' },
+    { pageType: 'app', slug: 'shadow-match-worksheets', anchorText: 'Generador de asociación de sombras' },
+    { pageType: 'app', slug: 'picture-sort-worksheets', anchorText: 'Generador de fichas de clasificación' },
+    { pageType: 'app', slug: 'big-small-worksheets', anchorText: 'Generador de comparación de tamaños' },
   ],
   relatedPosts: [
     { slug: 'guia-vender-fichas-suma-etsy', title: 'Vender fichas de suma en Etsy: guía completa' },

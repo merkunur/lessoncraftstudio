@@ -12,7 +12,7 @@ import type { SupportedLocale } from '@/config/product-page-slugs';
 import { ogLocaleMap, generateFAQSchema, localizedHomeLabel, getHreflangCode } from '@/lib/schema-generator';
 import { getBlogContent } from '@/config/blog-content';
 import { getSectionLabel } from '@/config/section-labels';
-import { isValidInternalLink } from '@/lib/resolve-internal-link';
+import { isValidInternalLink, resolveInternalLinkSlug } from '@/lib/resolve-internal-link';
 import ReadMoreText from '@/components/ReadMoreText';
 import { getBlogVisualConfig } from '@/config/blog-visual-sections/blog-visual-map';
 import { getSectionPlacements, buildInsertionMap } from '@/config/blog-visual-sections/section-placement';
@@ -121,8 +121,8 @@ export default async function BlogPostPage({
       url: pageUrl,
       image: schemaImageUrl,
       inLanguage: getHreflangCode(locale),
-      publisher: { '@type': 'Organization', name: 'LessonCraftStudio', url: baseUrl },
-      author: { '@type': 'Organization', name: 'LessonCraftStudio', url: baseUrl },
+      publisher: { '@type': 'Organization', name: 'LessonCraftStudio', url: baseUrl, logo: { '@type': 'ImageObject', url: `${baseUrl}/logo-lcs-optimized.png` } },
+      author: { '@type': 'Organization', name: 'LessonCraftStudio', url: baseUrl, logo: { '@type': 'ImageObject', url: `${baseUrl}/logo-lcs-optimized.png` } },
       datePublished: '2026-03-29',
       dateModified: '2026-03-29',
       speakable: { '@type': 'SpeakableSpecification', cssSelector: ['.speakable-headline', '.speakable-summary'] },
@@ -299,15 +299,19 @@ export default async function BlogPostPage({
             <div className="container mx-auto px-4 max-w-3xl">
               <h2 className="text-2xl font-bold text-gray-900 mb-6">{getSectionLabel('relatedGuides', locale)}</h2>
               <div className="flex flex-wrap gap-3">
-                {content.internalLinks.filter(link => isValidInternalLink(link.pageType, link.slug)).map((link, i) => (
-                  <Link
-                    key={i}
-                    href={`/${locale}/${link.pageType === 'app' ? 'apps' : link.pageType === 'tool' ? 'tools' : link.pageType === 'bundle' ? 'bundles' : link.pageType === 'start' ? 'start' : link.pageType === 'guide' ? 'guides' : link.pageType === 'blog' ? 'blog' : 'ideas'}/${link.slug}`}
-                    className="text-sm text-emerald-600 hover:text-emerald-700 bg-emerald-50 px-3 py-1.5 rounded-full"
-                  >
-                    {link.anchorText}
-                  </Link>
-                ))}
+                {content.internalLinks.filter(link => isValidInternalLink(link.pageType, link.slug)).map((link, i) => {
+                  const section = link.pageType === 'app' ? 'apps' : link.pageType === 'tool' ? 'tools' : link.pageType === 'bundle' ? 'bundles' : link.pageType === 'start' ? 'start' : link.pageType === 'guide' ? 'guides' : link.pageType === 'blog' ? 'blog' : 'ideas';
+                  const resolvedSlug = resolveInternalLinkSlug(link.pageType, link.slug, locale) || link.slug;
+                  return (
+                    <Link
+                      key={i}
+                      href={`/${locale}/${section}/${resolvedSlug}`}
+                      className="text-sm text-emerald-600 hover:text-emerald-700 bg-emerald-50 px-3 py-1.5 rounded-full"
+                    >
+                      {link.anchorText}
+                    </Link>
+                  );
+                })}
               </div>
             </div>
           </section>

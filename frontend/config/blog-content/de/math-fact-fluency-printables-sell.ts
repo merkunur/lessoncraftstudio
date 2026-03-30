@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'Kopfrechnen Druckvorlagen verkaufen Lehrer Eltern',
     secondaryKeywords: ['Einmaleins Arbeitsblaetter Etsy', 'Mathe Uebungen Grundschule PDF', 'Rechentraining Druckvorlagen Geschaeft'],
     lsiKeywords: ['Kopfrechnen ueben Kinder PDF', 'Rechenflaeche Grundschule Material', 'Mathe Automatisierung Arbeitsblaetter'],
-    titleTag: 'Kopfrechnen-Druckvorlagen: An Lehrer UND Eltern verkaufen | LCS',
+    titleTag: 'Kopfrechnen-Druckvorlagen: Lehrer & Eltern | LCS',
     metaDescription: 'Kopfrechnen-Druckvorlagen verkaufen: Warum Einmaleins und Grundrechenarten ganzjaehrig gefragt sind. Produkte fuer Lehrer UND Eltern.',
   },
   hero: {
@@ -59,9 +59,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'addition-arbeitsblaetter', anchorText: 'Additions-Generator' },
-    { pageType: 'app', slug: 'subtraktion-arbeitsblaetter', anchorText: 'Subtraktions-Generator' },
-    { pageType: 'app', slug: 'mathe-raetsel-arbeitsblaetter', anchorText: 'Mathe-Raetsel-Generator' },
+    { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Additions-Generator' },
+    { pageType: 'app', slug: 'subtraction-worksheets', anchorText: 'Subtraktions-Generator' },
+    { pageType: 'app', slug: 'math-puzzle-worksheets', anchorText: 'Mathe-Raetsel-Generator' },
   ],
   relatedPosts: [
     { slug: 'kindergarten-arbeitsblaetter-markt', title: 'Der Grundschul-Arbeitsblaetter-Markt: Wie gross ist er?' },

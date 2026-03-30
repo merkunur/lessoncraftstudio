@@ -59,9 +59,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'intruso-schede', anchorText: 'Generatore Trova l\'Intruso' },
-    { pageType: 'app', slug: 'classificazione-schede', anchorText: 'Generatore Classificazione' },
-    { pageType: 'app', slug: 'motivi-schede', anchorText: 'Generatore Sequenze' },
+    { pageType: 'app', slug: 'odd-one-out-worksheets', anchorText: 'Generatore Trova l\'Intruso' },
+    { pageType: 'app', slug: 'picture-sort-worksheets', anchorText: 'Generatore Classificazione' },
+    { pageType: 'app', slug: 'pattern-worksheets', anchorText: 'Generatore Sequenze' },
   ],
   relatedPosts: [
     { slug: 'schede-classificazione-prescuola-vendere', title: 'Classificazione: Prescuola' },

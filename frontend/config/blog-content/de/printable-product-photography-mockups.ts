@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'Produktfotos Druckvorlagen Mockups Etsy Tipps',
     secondaryKeywords: ['Produktfotos fuer Druckvorlagen Anleitung', 'Druckvorlagen Produktfotos Guide', 'Arbeitsblatt Verkauf Tipps'],
     lsiKeywords: ['Druckvorlagen Geschaeft optimieren', 'Etsy Verkaeufer Tipps', 'Arbeitsblaetter professionell erstellen'],
-    titleTag: 'Produktfotos fuer Druckvorlagen: Mockup-Tipps fuer Etsy | LCS',
+    titleTag: 'Druckvorlagen-Mockups: Tipps fuer Etsy | LCS',
     metaDescription: 'Professionelle Mockups fuer Ihre Etsy-Druckvorlagen: Kostenlose Tools, beste Perspektiven und Lifestyle-Fotos die verkaufen.',
   },
   hero: {
@@ -59,9 +59,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'wortsuche-arbeitsblaetter', anchorText: 'Wortsuche-Generator testen' },
-    { pageType: 'app', slug: 'addition-arbeitsblaetter', anchorText: 'Mathe-Generator testen' },
-    { pageType: 'start', slug: 'druckvorlagen-auf-etsy-verkaufen', anchorText: 'Etsy-Shop starten' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Wortsuche-Generator testen' },
+    { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Mathe-Generator testen' },
+    { pageType: 'start', slug: 'etsy-printable-business', anchorText: 'Etsy-Shop starten' },
   ],
   relatedPosts: [
     { slug: 'arbeitsblatt-paket-erstellen-35-minuten', title: '50 Arbeitsblaetter-Paket in 35 Minuten' },

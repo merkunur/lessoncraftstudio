@@ -67,9 +67,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'start', slug: 'druckvorlagen-auf-etsy-verkaufen', anchorText: 'Druckvorlagen auf Etsy verkaufen' },
-    { pageType: 'app', slug: 'addition-arbeitsblaetter', anchorText: 'Additions-Generator testen' },
-    { pageType: 'guide', slug: 'etsy-seo-fuer-druckvorlagen', anchorText: 'Etsy SEO Guide' },
+    { pageType: 'start', slug: 'etsy-printable-business', anchorText: 'Druckvorlagen auf Etsy verkaufen' },
+    { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Additions-Generator testen' },
+    { pageType: 'guide', slug: 'etsy-seo-educational-printables', anchorText: 'Etsy SEO Guide' },
   ],
   relatedPosts: [
     { slug: 'how-many-listings-etsy-success', title: 'Wie viele Listings fuer Erfolg?' },

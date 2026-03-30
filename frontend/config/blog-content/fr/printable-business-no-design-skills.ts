@@ -67,9 +67,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'mots-croises-fiches', anchorText: 'Générateur de mots croisés' },
-    { pageType: 'start', slug: 'guide-complet-activite-imprimables', anchorText: 'Guide complet imprimables' },
-    { pageType: 'guide', slug: 'creer-fiches-sans-design', anchorText: 'Guide création sans design' },
+    { pageType: 'app', slug: 'crossword-worksheets', anchorText: 'Générateur de mots croisés' },
+    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Guide complet imprimables' },
+    { pageType: 'guide', slug: 'create-addition-worksheets', anchorText: 'Guide création sans design' },
   ],
   relatedPosts: [
     { slug: 'worksheet-generator-vs-canva-comparison', title: 'Générateur de fiches vs Canva' },

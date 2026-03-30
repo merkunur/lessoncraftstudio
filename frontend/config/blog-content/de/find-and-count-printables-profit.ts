@@ -67,9 +67,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'finde-und-zaehle-arbeitsblaetter', anchorText: 'Finde-und-Zaehle-Generator' },
-    { pageType: 'app', slug: 'diagramm-zaehlen-arbeitsblaetter', anchorText: 'Diagramm-Zaehlen-Generator' },
-    { pageType: 'app', slug: 'suchbild-arbeitsblaetter', anchorText: 'Suchbild-Generator' },
+    { pageType: 'app', slug: 'find-and-count-worksheets', anchorText: 'Finde-und-Zaehle-Generator' },
+    { pageType: 'app', slug: 'chart-count-worksheets', anchorText: 'Diagramm-Zaehlen-Generator' },
+    { pageType: 'app', slug: 'find-objects-worksheets', anchorText: 'Suchbild-Generator' },
   ],
   relatedPosts: [
     { slug: 'suchbild-arbeitsblaetter-geschaeft', title: 'Suchbild-Arbeitsblaetter: Skalierbare Produktlinie' },

@@ -70,7 +70,7 @@ const content: BlogContent = {
     { pageType: 'app', slug: 'pattern-worksheets', anchorText: 'Pattern Worksheet Generator' },
     { pageType: 'tool', slug: 'pattern-worksheet-maker', anchorText: 'Try the pattern maker free trial' },
     { pageType: 'guide', slug: 'create-pattern-worksheets', anchorText: 'Pattern worksheet creation guide' },
-    { pageType: 'bundle', slug: 'pattern-logic-bundle', anchorText: 'Pattern & Logic Bundle' },
+    { pageType: 'bundle', slug: 'matching-sorting-bundle', anchorText: 'Pattern & Logic Bundle' },
   ],
   relatedPosts: [
     { slug: 'pattern-train-worksheets-niche', title: 'Pattern Train Worksheets: A Unique Product That Stands Out' },

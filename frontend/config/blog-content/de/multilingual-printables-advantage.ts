@@ -67,9 +67,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'wortsuche-arbeitsblaetter', anchorText: 'Wortsuche in 11 Sprachen' },
-    { pageType: 'app', slug: 'kreuzwortraetsel-arbeitsblaetter', anchorText: 'Kreuzwortraetsel mehrsprachig' },
-    { pageType: 'start', slug: 'druckvorlagen-auf-etsy-verkaufen', anchorText: 'Druckvorlagen auf Etsy verkaufen' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Wortsuche in 11 Sprachen' },
+    { pageType: 'app', slug: 'crossword-worksheets', anchorText: 'Kreuzwortraetsel mehrsprachig' },
+    { pageType: 'start', slug: 'etsy-printable-business', anchorText: 'Druckvorlagen auf Etsy verkaufen' },
   ],
   relatedPosts: [
     { slug: 'best-printable-niches-low-competition', title: '15 Nischen mit wenig Konkurrenz' },

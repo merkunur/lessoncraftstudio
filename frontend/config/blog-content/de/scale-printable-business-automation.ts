@@ -67,9 +67,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'start', slug: 'druckvorlagen-auf-etsy-verkaufen', anchorText: 'Druckvorlagen auf Etsy verkaufen' },
-    { pageType: 'bundle', slug: 'mathe-zahlen-paket', anchorText: 'Mathe-Bundle erstellen' },
-    { pageType: 'app', slug: 'wortsuche-arbeitsblaetter', anchorText: 'Wortsuche-Generator' },
+    { pageType: 'start', slug: 'etsy-printable-business', anchorText: 'Druckvorlagen auf Etsy verkaufen' },
+    { pageType: 'bundle', slug: 'math-mastery-bundle', anchorText: 'Mathe-Bundle erstellen' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Wortsuche-Generator' },
   ],
   relatedPosts: [
     { slug: 'passive-income-printables-truth', title: 'Passives Einkommen: Die Wahrheit' },

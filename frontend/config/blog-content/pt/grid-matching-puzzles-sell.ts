@@ -67,9 +67,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'grade-associacao-fichas', anchorText: 'Gerador Grade de Associação' },
-    { pageType: 'app', slug: 'sudoku-imagens-fichas', anchorText: 'Gerador Sudoku com Imagens' },
-    { pageType: 'app', slug: 'padroes-fichas', anchorText: 'Gerador de Fichas de Padrões' },
+    { pageType: 'app', slug: 'grid-match-worksheets', anchorText: 'Gerador Grade de Associação' },
+    { pageType: 'app', slug: 'sudoku-worksheets', anchorText: 'Gerador Sudoku com Imagens' },
+    { pageType: 'app', slug: 'pattern-worksheets', anchorText: 'Gerador de Fichas de Padrões' },
   ],
   relatedPosts: [
     { slug: 'livros-sudoku-imagens-kdp', title: 'Livros Sudoku Imagens KDP' },

@@ -35,9 +35,9 @@ const content: BlogContent = {
     { question: 'Welk thema verkoopt het beste voor cryptogrammen?', answer: 'Spreekwoorden en gezegden zijn het populairst bij volwassenen. Voor kinderen verkopen dierenthema\'s het beste. NT2-thema\'s (dagelijks leven, boodschappen) hebben de minste concurrentie.' },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'cryptogram-werkbladen', anchorText: 'Cryptogram Generator' },
-    { pageType: 'app', slug: 'woordzoeker-werkbladen', anchorText: 'Woordzoeker Generator' },
-    { pageType: 'guide', slug: 'puzzels-verkopen-etsy', anchorText: 'Puzzels verkopen op Etsy gids' },
+    { pageType: 'app', slug: 'cryptogram-worksheets', anchorText: 'Cryptogram Generator' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Woordzoeker Generator' },
+    { pageType: 'guide', slug: 'sell-word-search-etsy', anchorText: 'Puzzels verkopen op Etsy gids' },
   ],
   relatedPosts: [
     { slug: 'woordzoeker-printables-winst', title: 'Woordzoeker Printables voor Winst' },

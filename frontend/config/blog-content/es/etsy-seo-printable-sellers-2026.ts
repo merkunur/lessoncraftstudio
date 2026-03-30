@@ -67,9 +67,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'suma-fichas', anchorText: 'Generador de fichas de suma' },
-    { pageType: 'start', slug: 'guia-completa-negocio-imprimibles', anchorText: 'Guia completa para negocio de imprimibles' },
-    { pageType: 'guide', slug: 'seo-etsy-imprimibles-educativos', anchorText: 'Guia avanzada de SEO en Etsy' },
+    { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Generador de fichas de suma' },
+    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Guia completa para negocio de imprimibles' },
+    { pageType: 'guide', slug: 'etsy-seo-educational-printables', anchorText: 'Guia avanzada de SEO en Etsy' },
   ],
   relatedPosts: [
     { slug: 'etsy-printable-shop-first-month', title: 'Su Primer Mes Vendiendo Imprimibles en Etsy' },

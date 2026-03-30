@@ -67,10 +67,10 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'sorting-worksheets', anchorText: 'Sorting Worksheet Generator' },
-    { pageType: 'tool', slug: 'sorting-worksheet-maker', anchorText: 'Try the sorting maker free trial' },
+    { pageType: 'app', slug: 'picture-sort-worksheets', anchorText: 'Sorting Worksheet Generator' },
+    { pageType: 'tool', slug: 'picture-sort-maker', anchorText: 'Try the sorting maker free trial' },
     { pageType: 'guide', slug: 'create-sorting-worksheets', anchorText: 'Sorting worksheet creation guide' },
-    { pageType: 'bundle', slug: 'visual-bundle', anchorText: 'Visual Activities Bundle' },
+    { pageType: 'bundle', slug: 'visual-learning-bundle', anchorText: 'Visual Activities Bundle' },
   ],
   relatedPosts: [
     { slug: 'matching-worksheets-toddler-market', title: 'Matching Worksheets: Dominating the Toddler Market' },

@@ -67,9 +67,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'graficos-contagem-fichas', anchorText: 'Gerador de Gráficos e Contagem' },
-    { pageType: 'app', slug: 'adicao-fichas', anchorText: 'Gerador de Fichas de Adição' },
-    { pageType: 'app', slug: 'encontrar-e-contar-fichas', anchorText: 'Gerador Encontrar e Contar' },
+    { pageType: 'app', slug: 'chart-count-worksheets', anchorText: 'Gerador de Gráficos e Contagem' },
+    { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Gerador de Fichas de Adição' },
+    { pageType: 'app', slug: 'find-and-count-worksheets', anchorText: 'Gerador Encontrar e Contar' },
   ],
   relatedPosts: [
     { slug: 'guia-vender-fichas-adicao-etsy', title: 'Guia: Vender Fichas de Adição no Etsy' },

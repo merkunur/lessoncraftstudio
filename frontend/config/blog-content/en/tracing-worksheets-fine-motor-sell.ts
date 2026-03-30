@@ -67,10 +67,10 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'handwriting-worksheets', anchorText: 'Handwriting Worksheet Generator' },
+    { pageType: 'app', slug: 'writing-worksheets', anchorText: 'Handwriting Worksheet Generator' },
     { pageType: 'tool', slug: 'handwriting-worksheet-maker', anchorText: 'Try the tracing maker free trial' },
-    { pageType: 'guide', slug: 'create-handwriting-worksheets', anchorText: 'Tracing worksheet creation guide' },
-    { pageType: 'bundle', slug: 'letters-words-bundle', anchorText: 'Letters & Words Bundle' },
+    { pageType: 'guide', slug: 'create-handwriting-sheets', anchorText: 'Tracing worksheet creation guide' },
+    { pageType: 'bundle', slug: 'literacy-language-bundle', anchorText: 'Letters & Words Bundle' },
   ],
   relatedPosts: [
     { slug: 'handwriting-worksheets-etsy-niche', title: 'Handwriting Worksheets on Etsy: What\'s Selling in 2026' },

@@ -70,7 +70,7 @@ const content: BlogContent = {
     { pageType: 'app', slug: 'coloring-worksheets', anchorText: 'Coloring Page Generator' },
     { pageType: 'tool', slug: 'coloring-page-maker', anchorText: 'Try the coloring maker free trial' },
     { pageType: 'guide', slug: 'create-coloring-pages', anchorText: 'Coloring page creation guide' },
-    { pageType: 'bundle', slug: 'drawing-art-bundle', anchorText: 'Drawing & Art Bundle' },
+    { pageType: 'bundle', slug: 'visual-learning-bundle', anchorText: 'Drawing & Art Bundle' },
   ],
   relatedPosts: [
     { slug: 'draw-and-color-worksheets-sell', title: 'Draw & Color Worksheets: Combine Two Niches' },

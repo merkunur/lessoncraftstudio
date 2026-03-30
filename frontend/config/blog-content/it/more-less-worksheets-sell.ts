@@ -59,9 +59,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'piu-meno-schede', anchorText: 'Generatore Più/Meno' },
-    { pageType: 'app', slug: 'addizione-schede', anchorText: 'Generatore Addizione' },
-    { pageType: 'app', slug: 'confronto-dimensioni-schede', anchorText: 'Generatore Confronto Dimensioni' },
+    { pageType: 'app', slug: 'more-less-worksheets', anchorText: 'Generatore Più/Meno' },
+    { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Generatore Addizione' },
+    { pageType: 'app', slug: 'big-small-worksheets', anchorText: 'Generatore Confronto Dimensioni' },
   ],
   relatedPosts: [
     { slug: 'guida-vendere-schede-addizione-etsy', title: 'Schede Addizione: Guida Etsy' },

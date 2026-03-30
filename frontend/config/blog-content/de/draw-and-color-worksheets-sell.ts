@@ -67,9 +67,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'zeichnen-und-ausmalen-arbeitsblaetter', anchorText: 'Zeichnen-und-Ausmalen-Generator' },
-    { pageType: 'app', slug: 'malvorlagen-arbeitsblaetter', anchorText: 'Malvorlagen-Generator' },
-    { pageType: 'app', slug: 'nachspur-arbeitsblaetter', anchorText: 'Nachspur-Generator' },
+    { pageType: 'app', slug: 'draw-and-color-worksheets', anchorText: 'Zeichnen-und-Ausmalen-Generator' },
+    { pageType: 'app', slug: 'coloring-worksheets', anchorText: 'Malvorlagen-Generator' },
+    { pageType: 'app', slug: 'drawing-lines-worksheets', anchorText: 'Nachspur-Generator' },
   ],
   relatedPosts: [
     { slug: 'malvorlagen-geschaeft-2026', title: 'Malvorlagen-Geschaeft 2026: Noch profitabel?' },

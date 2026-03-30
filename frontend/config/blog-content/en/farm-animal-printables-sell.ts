@@ -67,10 +67,10 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'matching', anchorText: 'Farm Animal Matching Generator' },
-    { pageType: 'app', slug: 'coloring', anchorText: 'Farm Coloring Page Creator' },
-    { pageType: 'app', slug: 'big-small', anchorText: 'Farm Animal Size Sorting' },
-    { pageType: 'start', slug: 'sell-educational-printables-etsy', anchorText: 'Start your farm printable business' },
+    { pageType: 'app', slug: 'matching-worksheets', anchorText: 'Farm Animal Matching Generator' },
+    { pageType: 'app', slug: 'coloring-worksheets', anchorText: 'Farm Coloring Page Creator' },
+    { pageType: 'app', slug: 'big-small-worksheets', anchorText: 'Farm Animal Size Sorting' },
+    { pageType: 'guide', slug: 'sell-educational-printables-etsy', anchorText: 'Start your farm printable business' },
   ],
   relatedPosts: [
     { slug: 'animal-themed-printables-sell', title: 'Animal-Themed Printables: Why They\'re Always Best Sellers' },

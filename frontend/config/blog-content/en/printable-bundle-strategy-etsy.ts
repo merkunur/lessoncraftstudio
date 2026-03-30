@@ -67,9 +67,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'bundle', slug: 'math-number-bundle', anchorText: 'Math & Number Bundle' },
-    { pageType: 'bundle', slug: 'letters-words-bundle', anchorText: 'Letters & Words Bundle' },
-    { pageType: 'start', slug: 'sell-educational-printables-etsy', anchorText: 'Start selling printables' },
+    { pageType: 'bundle', slug: 'math-mastery-bundle', anchorText: 'Math & Number Bundle' },
+    { pageType: 'bundle', slug: 'literacy-language-bundle', anchorText: 'Letters & Words Bundle' },
+    { pageType: 'guide', slug: 'sell-educational-printables-etsy', anchorText: 'Start selling printables' },
     { pageType: 'guide', slug: 'create-worksheet-bundles', anchorText: 'Bundle creation guide' },
   ],
   relatedPosts: [

@@ -67,9 +67,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'wortsuche-arbeitsblaetter', anchorText: 'Oster-Wortsuche erstellen' },
-    { pageType: 'app', slug: 'schatzsuche-arbeitsblaetter', anchorText: 'Eiersuche-Schatzsuche generieren' },
-    { pageType: 'app', slug: 'zuordnungs-arbeitsblaetter', anchorText: 'Oster-Zuordnungsspiele erstellen' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Oster-Wortsuche erstellen' },
+    { pageType: 'app', slug: 'treasure-hunt-worksheets', anchorText: 'Eiersuche-Schatzsuche generieren' },
+    { pageType: 'app', slug: 'matching-worksheets', anchorText: 'Oster-Zuordnungsspiele erstellen' },
   ],
   relatedPosts: [
     { slug: 'fruehling-druckvorlagen-verkaufen-maerz-april', title: 'Fruehlings-Druckvorlagen: Was sich im Maerz/April verkauft' },

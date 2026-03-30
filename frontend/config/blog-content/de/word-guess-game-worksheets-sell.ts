@@ -67,9 +67,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'wort-ratespiel-arbeitsblaetter', anchorText: 'Wort-Ratespiel-Generator' },
-    { pageType: 'app', slug: 'buchstabensalat-arbeitsblaetter', anchorText: 'Buchstabensalat-Generator' },
-    { pageType: 'app', slug: 'wortsuche-arbeitsblaetter', anchorText: 'Wortsuche-Generator' },
+    { pageType: 'app', slug: 'word-guess-worksheets', anchorText: 'Wort-Ratespiel-Generator' },
+    { pageType: 'app', slug: 'word-scramble-worksheets', anchorText: 'Buchstabensalat-Generator' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Wortsuche-Generator' },
   ],
   relatedPosts: [
     { slug: 'buchstabensalat-druckvorlagen-geschaeft', title: 'Buchstabensalat-Druckvorlagen: 7 Produktideen' },

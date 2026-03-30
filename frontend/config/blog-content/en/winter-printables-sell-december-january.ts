@@ -67,10 +67,10 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'coloring', anchorText: 'Winter Coloring Page Generator' },
-    { pageType: 'app', slug: 'wordsearch', anchorText: 'Winter Word Search Creator' },
-    { pageType: 'app', slug: 'matching', anchorText: 'Arctic Animal Matching Maker' },
-    { pageType: 'start', slug: 'sell-educational-printables-etsy', anchorText: 'Start your winter printable business' },
+    { pageType: 'app', slug: 'coloring-worksheets', anchorText: 'Winter Coloring Page Generator' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Winter Word Search Creator' },
+    { pageType: 'app', slug: 'matching-worksheets', anchorText: 'Arctic Animal Matching Maker' },
+    { pageType: 'guide', slug: 'sell-educational-printables-etsy', anchorText: 'Start your winter printable business' },
   ],
   relatedPosts: [
     { slug: 'best-printables-sell-christmas', title: 'Best Printables to Sell for Christmas 2026' },

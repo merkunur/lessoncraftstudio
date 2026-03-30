@@ -67,9 +67,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'escritura-fichas', anchorText: 'Generador de fichas de escritura' },
-    { pageType: 'app', slug: 'trazado-fichas', anchorText: 'Generador de fichas de trazado' },
-    { pageType: 'app', slug: 'alfabeto-fichas', anchorText: 'Generador de fichas del alfabeto' },
+    { pageType: 'app', slug: 'writing-worksheets', anchorText: 'Generador de fichas de escritura' },
+    { pageType: 'app', slug: 'drawing-lines-worksheets', anchorText: 'Generador de fichas de trazado' },
+    { pageType: 'app', slug: 'alphabet-train-worksheets', anchorText: 'Generador de fichas del alfabeto' },
   ],
   relatedPosts: [
     { slug: 'guia-vender-fichas-suma-etsy', title: 'Vender fichas de suma en Etsy: guía completa' },

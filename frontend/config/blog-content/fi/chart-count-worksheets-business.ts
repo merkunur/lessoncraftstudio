@@ -67,8 +67,8 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'kuvakaavio-tyoarkit', anchorText: 'Kaaviolaskugeneraattori' },
-    { pageType: 'app', slug: 'etsi-ja-laske-tyoarkit', anchorText: 'Etsi ja laske -generaattori' },
+    { pageType: 'app', slug: 'chart-count-worksheets', anchorText: 'Kaaviolaskugeneraattori' },
+    { pageType: 'app', slug: 'find-and-count-worksheets', anchorText: 'Etsi ja laske -generaattori' },
     { pageType: 'guide', slug: 'create-chart-count-worksheets', anchorText: 'Kaaviolaskutehtavien luontiopas' },
   ],
   relatedPosts: [

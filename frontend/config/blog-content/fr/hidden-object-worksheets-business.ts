@@ -67,10 +67,10 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'objets-caches-fiches', anchorText: 'Générateur de fiches objets cachés' },
-    { pageType: 'tool', slug: 'objets-caches-fiches', anchorText: 'Essayer le générateur d\'objets cachés' },
-    { pageType: 'app', slug: 'trouver-et-compter-fiches', anchorText: 'Générateur trouver et compter' },
-    { pageType: 'guide', slug: 'objets-caches-fiches', anchorText: 'Guide création objets cachés' },
+    { pageType: 'app', slug: 'find-objects-worksheets', anchorText: 'Générateur de fiches objets cachés' },
+    { pageType: 'tool', slug: 'hidden-object-maker', anchorText: 'Essayer le générateur d\'objets cachés' },
+    { pageType: 'app', slug: 'find-and-count-worksheets', anchorText: 'Générateur trouver et compter' },
+    { pageType: 'guide', slug: 'create-hidden-object-worksheets', anchorText: 'Guide création objets cachés' },
   ],
   relatedPosts: [
     { slug: 'mots-caches-imprimables-profits', title: 'Mots cachés imprimables : combien peut-on gagner ?' },

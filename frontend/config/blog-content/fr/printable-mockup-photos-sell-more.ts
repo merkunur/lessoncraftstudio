@@ -67,9 +67,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'coloriage-fiches', anchorText: 'Générateur de coloriages' },
-    { pageType: 'start', slug: 'guide-complet-activite-imprimables', anchorText: 'Guide complet' },
-    { pageType: 'guide', slug: 'photos-mockup-imprimables', anchorText: 'Guide mockups' },
+    { pageType: 'app', slug: 'coloring-worksheets', anchorText: 'Générateur de coloriages' },
+    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Guide complet' },
+    { pageType: 'guide', slug: 'social-media-printable-marketing', anchorText: 'Guide mockups' },
   ],
   relatedPosts: [
     { slug: 'etsy-listing-optimization-worksheets', title: 'Optimiser vos fiches Etsy' },

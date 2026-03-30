@@ -35,9 +35,9 @@ const content: BlogContent = {
     { question: 'Hoe bereik ik kinderdagverblijven als klant?', answer: 'Maak een apart \"Professioneel Pakket\" met 30 exemplaren en een gebruikslicentie voor de groep. Adverteer in Facebook-groepen voor pedagogisch medewerkers en op platforms als Kinderopvangtotaal.nl.' },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'koppel-werkbladen', anchorText: 'Koppel Werkbladen Generator' },
-    { pageType: 'app', slug: 'schaduw-koppel-werkbladen', anchorText: 'Schaduw Koppel Generator' },
-    { pageType: 'app', slug: 'raster-koppel-werkbladen', anchorText: 'Raster Koppel Generator' },
+    { pageType: 'app', slug: 'matching-worksheets', anchorText: 'Koppel Werkbladen Generator' },
+    { pageType: 'app', slug: 'shadow-match-worksheets', anchorText: 'Schaduw Koppel Generator' },
+    { pageType: 'app', slug: 'grid-match-worksheets', anchorText: 'Raster Koppel Generator' },
   ],
   relatedPosts: [
     { slug: 'optellen-werkbladen-verkopen-etsy-gids', title: 'Optellen Werkbladen Verkopen op Etsy' },

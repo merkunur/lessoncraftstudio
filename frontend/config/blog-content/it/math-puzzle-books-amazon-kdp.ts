@@ -67,9 +67,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'codice-addizione-schede', anchorText: 'Generatore Puzzle Codice Addizione' },
-    { pageType: 'app', slug: 'sudoku-immagini-schede', anchorText: 'Generatore Sudoku con Immagini' },
-    { pageType: 'app', slug: 'labirinti-immagini-schede', anchorText: 'Generatore Labirinti con Immagini' },
+    { pageType: 'app', slug: 'code-addition-worksheets', anchorText: 'Generatore Puzzle Codice Addizione' },
+    { pageType: 'app', slug: 'sudoku-worksheets', anchorText: 'Generatore Sudoku con Immagini' },
+    { pageType: 'app', slug: 'picture-path-worksheets', anchorText: 'Generatore Labirinti con Immagini' },
   ],
   relatedPosts: [
     { slug: 'puzzle-codice-addizione-vendere-etsy', title: 'Puzzle Codice Addizione: Vendere su Etsy' },

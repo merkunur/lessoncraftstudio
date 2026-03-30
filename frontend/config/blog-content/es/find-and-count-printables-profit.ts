@@ -67,10 +67,10 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'buscar-y-contar-fichas', anchorText: 'Generador de fichas de buscar y contar' },
-    { pageType: 'app', slug: 'graficos-conteo-fichas', anchorText: 'Generador de gráficos y conteo' },
-    { pageType: 'app', slug: 'objetos-ocultos-fichas', anchorText: 'Generador de objetos ocultos' },
-    { pageType: 'app', slug: 'mas-menos-fichas', anchorText: 'Generador de fichas de más o menos' },
+    { pageType: 'app', slug: 'find-and-count-worksheets', anchorText: 'Generador de fichas de buscar y contar' },
+    { pageType: 'app', slug: 'chart-count-worksheets', anchorText: 'Generador de gráficos y conteo' },
+    { pageType: 'app', slug: 'find-objects-worksheets', anchorText: 'Generador de objetos ocultos' },
+    { pageType: 'app', slug: 'more-less-worksheets', anchorText: 'Generador de fichas de más o menos' },
   ],
   relatedPosts: [
     { slug: 'sopa-letras-imprimibles-ganancias', title: 'Sopas de letras imprimibles: cuánto se gana' },

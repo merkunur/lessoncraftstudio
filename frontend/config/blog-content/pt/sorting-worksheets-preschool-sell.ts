@@ -67,9 +67,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'classificacao-fichas', anchorText: 'Gerador de Classificação' },
-    { pageType: 'app', slug: 'padroes-fichas', anchorText: 'Gerador de Padrões' },
-    { pageType: 'app', slug: 'comparacao-tamanhos-fichas', anchorText: 'Gerador Comparação Tamanhos' },
+    { pageType: 'app', slug: 'picture-sort-worksheets', anchorText: 'Gerador de Classificação' },
+    { pageType: 'app', slug: 'pattern-worksheets', anchorText: 'Gerador de Padrões' },
+    { pageType: 'app', slug: 'big-small-worksheets', anchorText: 'Gerador Comparação Tamanhos' },
   ],
   relatedPosts: [
     { slug: 'fichas-padroes-vender-online', title: 'Fichas Padrões: Vender Online' },

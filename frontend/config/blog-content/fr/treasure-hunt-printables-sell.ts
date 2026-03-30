@@ -67,10 +67,10 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'chasse-tresor-fiches', anchorText: 'Générateur de chasses au trésor' },
-    { pageType: 'tool', slug: 'chasse-tresor-fiches', anchorText: 'Essayer le générateur de chasse au trésor' },
-    { pageType: 'app', slug: 'labyrinthes-images-fiches', anchorText: 'Générateur de labyrinthes' },
-    { pageType: 'app', slug: 'bingo-fiches', anchorText: 'Générateur de cartes de bingo' },
+    { pageType: 'app', slug: 'treasure-hunt-worksheets', anchorText: 'Générateur de chasses au trésor' },
+    { pageType: 'tool', slug: 'treasure-hunt-maker', anchorText: 'Essayer le générateur de chasse au trésor' },
+    { pageType: 'app', slug: 'picture-path-worksheets', anchorText: 'Générateur de labyrinthes' },
+    { pageType: 'app', slug: 'picture-bingo-worksheets', anchorText: 'Générateur de cartes de bingo' },
   ],
   relatedPosts: [
     { slug: 'mots-caches-imprimables-profits', title: 'Mots cachés imprimables : combien peut-on gagner ?' },

@@ -67,8 +67,8 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'sananhaku-tyoarkit', anchorText: 'Sananhakugeneraattori' },
-    { pageType: 'app', slug: 'sanansekoitus-tyoarkit', anchorText: 'Sanansekoitusgeneraattori' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Sananhakugeneraattori' },
+    { pageType: 'app', slug: 'word-scramble-worksheets', anchorText: 'Sanansekoitusgeneraattori' },
     { pageType: 'guide', slug: 'create-word-search-puzzles', anchorText: 'Sananhakujen luontiopas' },
   ],
   relatedPosts: [

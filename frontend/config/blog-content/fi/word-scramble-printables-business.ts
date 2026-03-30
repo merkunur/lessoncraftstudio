@@ -67,9 +67,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'sanansekoitus-tyoarkit', anchorText: 'Sanasekoitusgeneraattori' },
-    { pageType: 'app', slug: 'sananhaku-tyoarkit', anchorText: 'Sananhakugeneraattori' },
-    { pageType: 'guide', slug: 'create-word-scramble-worksheets', anchorText: 'Sanasekoitustehtavien luontiopas' },
+    { pageType: 'app', slug: 'word-scramble-worksheets', anchorText: 'Sanasekoitusgeneraattori' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Sananhakugeneraattori' },
+    { pageType: 'guide', slug: 'create-word-search-puzzles', anchorText: 'Sanasekoitustehtavien luontiopas' },
   ],
   relatedPosts: [
     { slug: 'sananhaku-tulosteet-tuotto', title: 'Sananhakutulosteet: tuottavuusopas' },

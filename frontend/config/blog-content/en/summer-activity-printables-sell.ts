@@ -14,7 +14,7 @@ const content: BlogContent = {
       'summer camp printable activities',
     ],
     titleTag: 'Summer Activity Printables: What Parents Buy | LCS',
-    metaDescription: 'Summer activity printables sell from May through August. Learn which products parents buy for road trips, summer learning, and keeping kids busy during break.',
+    metaDescription: 'Summer activity printables sell from May through August. Learn which products parents buy for road trips, learning, and keeping kids busy.',
   },
   hero: {
     title: 'Summer Activity Printables: What Parents Buy in June',
@@ -67,10 +67,10 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'coloring', anchorText: 'Summer Coloring Page Generator' },
-    { pageType: 'app', slug: 'wordsearch', anchorText: 'Summer Word Search Creator' },
-    { pageType: 'app', slug: 'find-and-count', anchorText: 'Find & Count Activity Maker' },
-    { pageType: 'start', slug: 'sell-educational-printables-etsy', anchorText: 'Start your Etsy printable shop' },
+    { pageType: 'app', slug: 'coloring-worksheets', anchorText: 'Summer Coloring Page Generator' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Summer Word Search Creator' },
+    { pageType: 'app', slug: 'find-and-count-worksheets', anchorText: 'Find & Count Activity Maker' },
+    { pageType: 'guide', slug: 'sell-educational-printables-etsy', anchorText: 'Start your Etsy printable shop' },
   ],
   relatedPosts: [
     { slug: 'seasonal-printable-calendar-sellers', title: 'Seasonal Printable Calendar for Sellers' },

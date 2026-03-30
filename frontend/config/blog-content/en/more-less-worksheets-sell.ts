@@ -68,9 +68,9 @@ const content: BlogContent = {
   ],
   internalLinks: [
     { pageType: 'app', slug: 'more-less-worksheets', anchorText: 'More or Less Generator' },
-    { pageType: 'tool', slug: 'more-less-maker', anchorText: 'Try the more/less maker free trial' },
-    { pageType: 'guide', slug: 'create-more-less-worksheets', anchorText: 'More/less worksheet guide' },
-    { pageType: 'bundle', slug: 'math-number-bundle', anchorText: 'Math & Number Bundle' },
+    { pageType: 'tool', slug: 'more-or-less-worksheet-maker', anchorText: 'Try the more/less maker free trial' },
+    { pageType: 'guide', slug: 'create-size-comparison-worksheets', anchorText: 'More/less worksheet guide' },
+    { pageType: 'bundle', slug: 'math-mastery-bundle', anchorText: 'Math & Number Bundle' },
   ],
   relatedPosts: [
     { slug: 'size-comparison-worksheets-sell', title: 'Big & Small Worksheets: Toddler Printables That Sell' },

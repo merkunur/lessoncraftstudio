@@ -67,8 +67,8 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'sananhaku-tyoarkit', anchorText: 'Kokeile generaattoria' },
-    { pageType: 'app', slug: 'yhteenlasku-tyoarkit', anchorText: 'Yhteenlaskugeneraattori' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Kokeile generaattoria' },
+    { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Yhteenlaskugeneraattori' },
   ],
   relatedPosts: [
     { slug: 'etsy-tulosteet-kauppa-ensimmainen-kuukausi', title: 'Etsy-kaupan ensimmainen kuukausi' },

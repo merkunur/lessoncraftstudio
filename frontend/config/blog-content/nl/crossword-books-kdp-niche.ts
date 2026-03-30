@@ -67,10 +67,10 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'kruiswoordpuzzel-werkbladen', anchorText: 'Kruiswoordpuzzel Generator' },
-    { pageType: 'app', slug: 'woordzoeker-werkbladen', anchorText: 'Woordzoeker Generator' },
-    { pageType: 'guide', slug: 'kdp-puzzelboeken-publiceren', anchorText: 'KDP puzzelboeken gids' },
-    { pageType: 'start', slug: 'puzzels-verkopen-amazon', anchorText: 'Begin met puzzels verkopen op Amazon' },
+    { pageType: 'app', slug: 'crossword-worksheets', anchorText: 'Kruiswoordpuzzel Generator' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Woordzoeker Generator' },
+    { pageType: 'guide', slug: 'publish-puzzle-books-kdp', anchorText: 'KDP puzzelboeken gids' },
+    { pageType: 'start', slug: 'amazon-kdp-activity-books', anchorText: 'Begin met puzzels verkopen op Amazon' },
   ],
   relatedPosts: [
     { slug: 'woordzoeker-printables-winst', title: 'Woordzoeker Printables voor Winst' },

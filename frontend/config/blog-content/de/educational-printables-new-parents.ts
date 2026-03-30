@@ -67,9 +67,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'zuordnungs-arbeitsblaetter', anchorText: 'Zuordnungsspiele erstellen' },
-    { pageType: 'app', slug: 'gross-klein-arbeitsblaetter', anchorText: 'Gross-Klein-Uebungen' },
-    { pageType: 'app', slug: 'linien-ziehen-arbeitsblaetter', anchorText: 'Schwunguebungen-Generator' },
+    { pageType: 'app', slug: 'matching-worksheets', anchorText: 'Zuordnungsspiele erstellen' },
+    { pageType: 'app', slug: 'big-small-worksheets', anchorText: 'Gross-Klein-Uebungen' },
+    { pageType: 'app', slug: 'drawing-lines-worksheets', anchorText: 'Schwunguebungen-Generator' },
   ],
   relatedPosts: [
     { slug: 'kleinkind-aktivitaeten-druckvorlagen-verkaufen', title: 'Kleinkind-Aktivitaeten: Was auf Etsy im Trend liegt' },

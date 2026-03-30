@@ -14,7 +14,7 @@ const content: BlogContent = {
       'material didáctico conteo datos',
     ],
     titleTag: 'Fichas Gráficos y Conteo: Nicho sin Explotar | LCS',
-    metaDescription: 'Las fichas de gráficos y conteo son una categoría sin explotar en Etsy. Aprenda a posicionarse primero en este nicho rentable. Prueba gratuita con marca de agua.',
+    metaDescription: 'Las fichas de gráficos y conteo son una categoría sin explotar en Etsy. Aprenda a posicionarse primero en este nicho rentable.',
   },
   hero: {
     title: 'Fichas de Gráficos y Conteo: Categoría sin Explotar',
@@ -67,10 +67,10 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'graficos-conteo-fichas', anchorText: 'Generador de fichas de gráficos y conteo' },
-    { pageType: 'app', slug: 'patrones-fichas', anchorText: 'Generador de fichas de patrones' },
-    { pageType: 'app', slug: 'comparacion-tamanos-fichas', anchorText: 'Generador de comparación de tamaños' },
-    { pageType: 'app', slug: 'clasificacion-fichas', anchorText: 'Generador de fichas de clasificación' },
+    { pageType: 'app', slug: 'chart-count-worksheets', anchorText: 'Generador de fichas de gráficos y conteo' },
+    { pageType: 'app', slug: 'pattern-worksheets', anchorText: 'Generador de fichas de patrones' },
+    { pageType: 'app', slug: 'big-small-worksheets', anchorText: 'Generador de comparación de tamaños' },
+    { pageType: 'app', slug: 'picture-sort-worksheets', anchorText: 'Generador de fichas de clasificación' },
   ],
   relatedPosts: [
     { slug: 'paquetes-fichas-matematicas-que-venden', title: 'Paquetes de fichas matemáticas que se venden' },

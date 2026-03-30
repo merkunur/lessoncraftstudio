@@ -67,9 +67,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'asociacion-fichas', anchorText: 'Generador de fichas de asociacion' },
-    { pageType: 'start', slug: 'guia-completa-negocio-imprimibles', anchorText: 'Iniciar negocio de imprimibles' },
-    { pageType: 'guide', slug: 'conseguir-resenas-etsy', anchorText: 'Estrategia de resenas en Etsy' },
+    { pageType: 'app', slug: 'matching-worksheets', anchorText: 'Generador de fichas de asociacion' },
+    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Iniciar negocio de imprimibles' },
+    { pageType: 'guide', slug: 'get-reviews-printable-products', anchorText: 'Estrategia de resenas en Etsy' },
   ],
   relatedPosts: [
     { slug: 'etsy-printable-shop-first-month', title: 'Su Primer Mes en Etsy' },

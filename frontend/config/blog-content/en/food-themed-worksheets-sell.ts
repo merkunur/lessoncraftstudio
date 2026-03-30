@@ -67,10 +67,10 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'coloring', anchorText: 'Food Coloring Page Generator' },
-    { pageType: 'app', slug: 'matching', anchorText: 'Food Matching Activity Creator' },
-    { pageType: 'app', slug: 'find-and-count', anchorText: 'Food Find & Count Maker' },
-    { pageType: 'start', slug: 'sell-educational-printables-etsy', anchorText: 'Start your food printable business' },
+    { pageType: 'app', slug: 'coloring-worksheets', anchorText: 'Food Coloring Page Generator' },
+    { pageType: 'app', slug: 'matching-worksheets', anchorText: 'Food Matching Activity Creator' },
+    { pageType: 'app', slug: 'find-and-count-worksheets', anchorText: 'Food Find & Count Maker' },
+    { pageType: 'guide', slug: 'sell-educational-printables-etsy', anchorText: 'Start your food printable business' },
   ],
   relatedPosts: [
     { slug: 'animal-themed-printables-sell', title: 'Animal-Themed Printables: Why They\'re Always Best Sellers' },

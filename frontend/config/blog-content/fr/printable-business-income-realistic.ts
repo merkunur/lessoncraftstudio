@@ -67,9 +67,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'mots-caches-fiches', anchorText: 'Générateur de mots cachés' },
-    { pageType: 'start', slug: 'guide-complet-activite-imprimables', anchorText: 'Guide complet pour démarrer' },
-    { pageType: 'guide', slug: 'revenus-imprimables-realiste', anchorText: 'Guide revenus imprimables' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Générateur de mots cachés' },
+    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Guide complet pour démarrer' },
+    { pageType: 'guide', slug: 'passive-income-worksheets', anchorText: 'Guide revenus imprimables' },
   ],
   relatedPosts: [
     { slug: 'passive-income-printables-truth', title: 'Revenus passifs d\'imprimables : la vérité' },

@@ -67,9 +67,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'adicao-fichas', anchorText: 'Gerador de Fichas de Adição' },
-    { pageType: 'start', slug: 'vender-fichas-matematica-etsy', anchorText: 'Comece a vender fichas de matemática' },
-    { pageType: 'guide', slug: 'criar-fichas-adicao', anchorText: 'Guia passo a passo de criação' },
+    { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Gerador de Fichas de Adição' },
+    { pageType: 'start', slug: 'create-worksheets-that-sell', anchorText: 'Comece a vender fichas de matemática' },
+    { pageType: 'guide', slug: 'create-addition-worksheets', anchorText: 'Guia passo a passo de criação' },
   ],
   relatedPosts: [
     { slug: 'vender-fichas-subtracao-online', title: 'Vender Fichas de Subtração Online' },

@@ -67,9 +67,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'kryptogram-arbejdsark', anchorText: 'Kryptogram Generator' },
-    { pageType: 'app', slug: 'kode-addition-arbejdsark', anchorText: 'Kode-Addition Generator' },
-    { pageType: 'app', slug: 'ordsoegning-arbejdsark', anchorText: 'Ordsøgning Generator' },
+    { pageType: 'app', slug: 'cryptogram-worksheets', anchorText: 'Kryptogram Generator' },
+    { pageType: 'app', slug: 'code-addition-worksheets', anchorText: 'Kode-Addition Generator' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Ordsøgning Generator' },
   ],
   relatedPosts: [
     { slug: 'ordsoegning-printables-fortjeneste', title: 'Ordsøgning-Printables med Fortjeneste' },

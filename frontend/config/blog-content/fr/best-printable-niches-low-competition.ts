@@ -59,9 +59,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'bingo-fiches', anchorText: 'Générateur de bingo éducatif' },
-    { pageType: 'start', slug: 'guide-complet-activite-imprimables', anchorText: 'Guide complet imprimables' },
-    { pageType: 'guide', slug: 'trouver-niche-imprimables', anchorText: 'Guide niches imprimables' },
+    { pageType: 'app', slug: 'picture-bingo-worksheets', anchorText: 'Générateur de bingo éducatif' },
+    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Guide complet imprimables' },
+    { pageType: 'guide', slug: 'niche-selection-printables', anchorText: 'Guide niches imprimables' },
   ],
   relatedPosts: [
     { slug: 'esl-worksheets-global-market', title: 'Le marché mondial du FLE' },

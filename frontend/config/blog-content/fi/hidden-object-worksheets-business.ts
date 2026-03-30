@@ -50,8 +50,8 @@ const content: BlogContent = {
     { question: 'Voiko piilokuvatehtavia myoda KDP-kirjana?', answer: 'Kylla. Piilokuvatehtavakirjat ovat suosittuja KDP:ssa. 60-100 sivuinen kirja myy hyvin 7,99-11,99 USD hintaan.' },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'etsi-esineet-tyoarkit', anchorText: 'Piilokuvageneraattori' },
-    { pageType: 'app', slug: 'etsi-ja-laske-tyoarkit', anchorText: 'Etsi ja laske -generaattori' },
+    { pageType: 'app', slug: 'find-objects-worksheets', anchorText: 'Piilokuvageneraattori' },
+    { pageType: 'app', slug: 'find-and-count-worksheets', anchorText: 'Etsi ja laske -generaattori' },
     { pageType: 'guide', slug: 'create-hidden-object-worksheets', anchorText: 'Piilokuvatehtavien luontiopas' },
   ],
   relatedPosts: [

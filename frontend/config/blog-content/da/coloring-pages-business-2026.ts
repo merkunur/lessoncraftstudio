@@ -35,9 +35,9 @@ const content: BlogContent = {
     { question: 'Kan jeg sælge farvelægningssider uden at være kunstner?', answer: 'Ja. LessonCraftStudios generator opretter professionelle farvelægningssider baseret på tematiske billeder. Du behøver ingen tegneevner — generatoren håndterer illustrationerne.' }
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'farvelaegning-arbejdsark', anchorText: 'Farvelægnings-Generator' },
-    { pageType: 'app', slug: 'tegn-og-farvelaeg-arbejdsark', anchorText: 'Tegn og Farvelæg Generator' },
-    { pageType: 'app', slug: 'alfabet-arbejdsark', anchorText: 'Alfabet-Generator (farvelæg-og-lær)' }
+    { pageType: 'app', slug: 'coloring-worksheets', anchorText: 'Farvelægnings-Generator' },
+    { pageType: 'app', slug: 'draw-and-color-worksheets', anchorText: 'Tegn og Farvelæg Generator' },
+    { pageType: 'app', slug: 'alphabet-train-worksheets', anchorText: 'Alfabet-Generator (farvelæg-og-lær)' }
   ],
   relatedPosts: [
     { slug: 'saelg-additions-arbejdsark-etsy-guide', title: 'Sælg Additions-Arbejdsark på Etsy' },

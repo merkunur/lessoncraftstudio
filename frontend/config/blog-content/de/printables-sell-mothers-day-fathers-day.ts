@@ -35,9 +35,9 @@ const content: BlogContent = {
     { question: 'Wie gehe ich mit Kindern ohne Mama/Papa um?', answer: 'Bieten Sie neutrale Varianten an: "Fuer jemand Besonderen", "Fuer meine Oma/meinen Opa". Lehrer schaetzen diese Sensibilitaet besonders.' },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'malvorlagen-arbeitsblaetter', anchorText: 'Muttertag-Malvorlagen erstellen' },
-    { pageType: 'app', slug: 'wortsuche-arbeitsblaetter', anchorText: 'Elterntag-Wortsuche' },
-    { pageType: 'start', slug: 'druckvorlagen-auf-etsy-verkaufen', anchorText: 'Etsy-Shop starten' },
+    { pageType: 'app', slug: 'coloring-worksheets', anchorText: 'Muttertag-Malvorlagen erstellen' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Elterntag-Wortsuche' },
+    { pageType: 'start', slug: 'etsy-printable-business', anchorText: 'Etsy-Shop starten' },
   ],
   relatedPosts: [
     { slug: 'valentinstag-druckvorlagen-verkaufen', title: 'Valentinstag-Druckvorlagen verkaufen' },

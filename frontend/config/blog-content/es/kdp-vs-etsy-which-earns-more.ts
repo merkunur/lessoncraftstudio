@@ -67,9 +67,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'suma-fichas', anchorText: 'Generador de fichas de suma' },
-    { pageType: 'start', slug: 'guia-completa-negocio-imprimibles', anchorText: 'Guia para iniciar su negocio de imprimibles' },
-    { pageType: 'guide', slug: 'comparar-plataformas-imprimibles', anchorText: 'Comparacion de plataformas para imprimibles' },
+    { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Generador de fichas de suma' },
+    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Guia para iniciar su negocio de imprimibles' },
+    { pageType: 'guide', slug: 'kdp-vs-etsy-printables', anchorText: 'Comparacion de plataformas para imprimibles' },
   ],
   relatedPosts: [
     { slug: 'kdp-activity-book-formatting-guide', title: 'Formatear Libro de Actividades para Amazon KDP' },

@@ -67,10 +67,10 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'puzzles-maths-fiches', anchorText: 'Générateur de puzzles maths' },
-    { pageType: 'app', slug: 'addition-fiches', anchorText: 'Générateur de fiches d\'addition' },
-    { pageType: 'app', slug: 'code-addition-fiches', anchorText: 'Générateur de puzzles code addition' },
-    { pageType: 'guide', slug: 'puzzles-maths-fiches', anchorText: 'Guide création puzzles maths' },
+    { pageType: 'app', slug: 'math-puzzle-worksheets', anchorText: 'Générateur de puzzles maths' },
+    { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Générateur de fiches d\'addition' },
+    { pageType: 'app', slug: 'code-addition-worksheets', anchorText: 'Générateur de puzzles code addition' },
+    { pageType: 'guide', slug: 'create-math-puzzle-worksheets', anchorText: 'Guide création puzzles maths' },
   ],
   relatedPosts: [
     { slug: 'packs-fiches-maths-qui-se-vendent', title: 'Packs de fiches maths qui se vendent' },

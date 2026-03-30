@@ -67,10 +67,10 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'coloring-pages', anchorText: 'Coloring Page Generator' },
-    { pageType: 'start', slug: 'sell-educational-printables-etsy', anchorText: 'Start your Etsy shop' },
-    { pageType: 'guide', slug: 'marketing-printable-business', anchorText: 'Marketing your printable business' },
-    { pageType: 'idea', slug: 'etsy-coloring-pages', anchorText: 'Coloring page business ideas' },
+    { pageType: 'app', slug: 'coloring-worksheets', anchorText: 'Coloring Page Generator' },
+    { pageType: 'guide', slug: 'sell-educational-printables-etsy', anchorText: 'Start your Etsy shop' },
+    { pageType: 'start', slug: 'marketing-printable-business', anchorText: 'Marketing your printable business' },
+    { pageType: 'idea', slug: 'christmas-printable-ideas', anchorText: 'Coloring page business ideas' },
   ],
   relatedPosts: [
     { slug: 'printable-mockup-photos-sell-more', title: 'Printable Mockup Photos That Sell More' },

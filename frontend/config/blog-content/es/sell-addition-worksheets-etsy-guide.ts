@@ -14,7 +14,7 @@ const content: BlogContent = {
       'descarga digital Etsy matemáticas',
     ],
     titleTag: 'Vender Fichas de Suma en Etsy: Guía | LCS',
-    metaDescription: 'Aprenda a vender fichas de suma en Etsy de forma rentable. Estrategias de precios, paquetes y listados que funcionan en 2026. Prueba gratuita con marca de agua.',
+    metaDescription: 'Aprenda a vender fichas de suma en Etsy de forma rentable. Estrategias de precios, paquetes y listados que funcionan en 2026. Prueba gratuita.',
   },
   hero: {
     title: 'Vender Fichas de Suma en Etsy: Guía Completa',
@@ -67,11 +67,11 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'suma-fichas', anchorText: 'Generador de fichas de suma' },
-    { pageType: 'tool', slug: 'suma-fichas', anchorText: 'Pruebe la prueba gratuita del generador de suma' },
-    { pageType: 'guide', slug: 'suma-fichas', anchorText: 'Guía paso a paso para crear fichas de suma' },
-    { pageType: 'app', slug: 'resta-fichas', anchorText: 'Generador de fichas de resta' },
-    { pageType: 'app', slug: 'puzzles-matematicos-fichas', anchorText: 'Generador de puzzles matemáticos' },
+    { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Generador de fichas de suma' },
+    { pageType: 'tool', slug: 'addition-worksheet-maker', anchorText: 'Pruebe la prueba gratuita del generador de suma' },
+    { pageType: 'guide', slug: 'create-addition-worksheets', anchorText: 'Guía paso a paso para crear fichas de suma' },
+    { pageType: 'app', slug: 'subtraction-worksheets', anchorText: 'Generador de fichas de resta' },
+    { pageType: 'app', slug: 'math-puzzle-worksheets', anchorText: 'Generador de puzzles matemáticos' },
   ],
   relatedPosts: [
     { slug: 'vender-fichas-resta-en-linea', title: 'Vender fichas de resta en línea' },

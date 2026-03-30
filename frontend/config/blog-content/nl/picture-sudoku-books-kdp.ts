@@ -35,9 +35,9 @@ const content: BlogContent = {
     { question: 'Op welke leeftijdsgroep moet ik mij eerst richten?', answer: 'Begin met groep 1-3 (4-7 jaar). Deze leeftijdsgroep heeft de hoogste vraag en ouders kopen het meest actief aanvullend materiaal.' },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'plaatjes-sudoku-werkbladen', anchorText: 'Plaatjes Sudoku Generator' },
-    { pageType: 'guide', slug: 'plaatjes-sudoku-werkbladen-gids', anchorText: 'Plaatjes Sudoku verkopen gids' },
-    { pageType: 'start', slug: 'printables-verkopen-etsy', anchorText: 'Begin met printables verkopen' },
+    { pageType: 'app', slug: 'sudoku-worksheets', anchorText: 'Plaatjes Sudoku Generator' },
+    { pageType: 'guide', slug: 'create-picture-sudoku', anchorText: 'Plaatjes Sudoku verkopen gids' },
+    { pageType: 'start', slug: 'etsy-printable-business', anchorText: 'Begin met printables verkopen' },
   ],
   relatedPosts: [
     { slug: 'optellen-werkbladen-verkopen-etsy-gids', title: 'Optellen Werkbladen Verkopen op Etsy' },

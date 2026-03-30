@@ -68,8 +68,8 @@ const content: BlogContent = {
   ],
   internalLinks: [
     { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Addition Worksheet Generator' },
-    { pageType: 'start', slug: 'sell-educational-printables-etsy', anchorText: 'Start selling on Etsy' },
-    { pageType: 'guide', slug: 'amazon-kdp-activity-books', anchorText: 'KDP activity book guide' },
+    { pageType: 'guide', slug: 'sell-educational-printables-etsy', anchorText: 'Start selling on Etsy' },
+    { pageType: 'start', slug: 'amazon-kdp-activity-books', anchorText: 'KDP activity book guide' },
   ],
   relatedPosts: [
     { slug: 'multilingual-printables-advantage', title: 'The Multilingual Printables Advantage' },

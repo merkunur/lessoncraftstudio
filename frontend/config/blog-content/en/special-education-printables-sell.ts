@@ -14,7 +14,7 @@ const content: BlogContent = {
       'modified worksheets special education',
     ],
     titleTag: 'Special Ed Printables: High Demand, Low Comp | LCS',
-    metaDescription: 'Special education printables are high demand, low competition. Learn what SPED teachers and parents buy, pricing strategies, and how to create adaptive worksheets.',
+    metaDescription: 'Special education printables are high demand, low competition. Learn what SPED teachers and parents buy and how to create adaptive worksheets.',
   },
   hero: {
     title: 'Special Education Printables: High Demand, Low Competition',
@@ -67,10 +67,10 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'matching', anchorText: 'Matching Activity Generator' },
-    { pageType: 'app', slug: 'coloring', anchorText: 'Simple Coloring Page Creator' },
-    { pageType: 'app', slug: 'find-and-count', anchorText: 'Find & Count Activity Maker' },
-    { pageType: 'start', slug: 'sell-educational-printables-etsy', anchorText: 'Start selling SPED printables' },
+    { pageType: 'app', slug: 'matching-worksheets', anchorText: 'Matching Activity Generator' },
+    { pageType: 'app', slug: 'coloring-worksheets', anchorText: 'Simple Coloring Page Creator' },
+    { pageType: 'app', slug: 'find-and-count-worksheets', anchorText: 'Find & Count Activity Maker' },
+    { pageType: 'guide', slug: 'sell-educational-printables-etsy', anchorText: 'Start selling SPED printables' },
   ],
   relatedPosts: [
     { slug: 'fine-motor-activities-printables', title: 'Fine Motor Printables: Sell to Parents and Therapists' },

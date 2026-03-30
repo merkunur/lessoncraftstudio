@@ -67,11 +67,11 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'handwriting-worksheets', anchorText: 'Handwriting Worksheet Generator' },
+    { pageType: 'app', slug: 'writing-worksheets', anchorText: 'Handwriting Worksheet Generator' },
     { pageType: 'tool', slug: 'handwriting-worksheet-maker', anchorText: 'Try the handwriting maker free trial' },
-    { pageType: 'guide', slug: 'create-handwriting-worksheets', anchorText: 'Handwriting worksheet guide' },
-    { pageType: 'idea', slug: 'handwriting-printables-niche', anchorText: 'Handwriting printables niche ideas' },
-    { pageType: 'bundle', slug: 'letters-words-bundle', anchorText: 'Letters & Words Bundle' },
+    { pageType: 'guide', slug: 'create-handwriting-sheets', anchorText: 'Handwriting worksheet guide' },
+    { pageType: 'idea', slug: 'preschool-printable-ideas', anchorText: 'Handwriting printables niche ideas' },
+    { pageType: 'bundle', slug: 'literacy-language-bundle', anchorText: 'Letters & Words Bundle' },
   ],
   relatedPosts: [
     { slug: 'alphabet-worksheets-best-sellers', title: 'Alphabet Worksheets on Etsy: What Separates Best Sellers' },

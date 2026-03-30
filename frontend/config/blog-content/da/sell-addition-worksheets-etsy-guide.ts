@@ -14,7 +14,7 @@ const content: BlogContent = {
       'Etsy digital download matematik',
     ],
     titleTag: 'Sælg Additions-Arbejdsark på Etsy: Guide | LCS',
-    metaDescription: 'Lær at sælge additions-arbejdsark på Etsy med fortjeneste. Prissætning, bundling og listingstrategier der virker i 2026. Prøv generatoren gratis med vandmærke.',
+    metaDescription: 'Lær at sælge additions-arbejdsark på Etsy med fortjeneste. Prissætning, bundling og listingstrategier der virker i 2026.',
   },
   hero: {
     title: 'Sælg Additions-Arbejdsark på Etsy: Komplet Guide',
@@ -67,9 +67,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'addition-arbejdsark', anchorText: 'Additions-Arbejdsark Generator' },
-    { pageType: 'start', slug: 'saelg-matematik-arbejdsark-etsy', anchorText: 'Begynd at sælge matematikark' },
-    { pageType: 'guide', slug: 'opret-additions-arbejdsark', anchorText: 'Trin-for-trin oprettelsesguide' },
+    { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Additions-Arbejdsark Generator' },
+    { pageType: 'start', slug: 'create-worksheets-that-sell', anchorText: 'Begynd at sælge matematikark' },
+    { pageType: 'guide', slug: 'create-addition-worksheets', anchorText: 'Trin-for-trin oprettelsesguide' },
   ],
   relatedPosts: [
     { slug: 'saelg-subtraktions-arbejdsark-online', title: 'Sælg Subtraktions-Arbejdsark Online' },

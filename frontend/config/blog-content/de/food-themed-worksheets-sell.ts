@@ -6,7 +6,7 @@ const content: BlogContent = {
     secondaryKeywords: ['Ernaehrung Arbeitsblaetter Etsy', 'Gesundes Essen Kinder Raetsel PDF', 'Lebensmittel Druckvorlagen verkaufen'],
     lsiKeywords: ['Obst Gemuese Zuordnung', 'Ernaehrungspyramide Arbeitsblaetter', 'Kochen Kinder Lernmaterial'],
     titleTag: 'Essen-Arbeitsblaetter: Ernaehrungsbildung als Nische | LCS',
-    metaDescription: 'Essen-Arbeitsblaetter: Ernaehrungsbildung als Nische: Marktanalyse, Produkte und Strategien fuer Druckvorlagen-Verkaeufer im DACH-Raum. Profitabel auf Etsy.de und Amazon KDP.',
+    metaDescription: 'Essen-Arbeitsblaetter: Ernaehrungsbildung als Nische. Marktanalyse, Produkte und Strategien fuer Verkaeufer im DACH-Raum auf Etsy.de.',
   },
   hero: {
     title: 'Essen-Arbeitsblaetter: Ernaehrungsbildung als Nische',
@@ -59,9 +59,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'wortsuche-arbeitsblaetter', anchorText: 'Thematische Wortsuche erstellen' },
-    { pageType: 'app', slug: 'zuordnungs-arbeitsblaetter', anchorText: 'Zuordnungsspiele erstellen' },
-    { pageType: 'start', slug: 'druckvorlagen-auf-etsy-verkaufen', anchorText: 'Etsy-Shop starten' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Thematische Wortsuche erstellen' },
+    { pageType: 'app', slug: 'matching-worksheets', anchorText: 'Zuordnungsspiele erstellen' },
+    { pageType: 'start', slug: 'etsy-printable-business', anchorText: 'Etsy-Shop starten' },
   ],
   relatedPosts: [
     { slug: 'tier-themen-druckvorlagen-verkaufen', title: 'Tier-Druckvorlagen: Immer Bestseller' },

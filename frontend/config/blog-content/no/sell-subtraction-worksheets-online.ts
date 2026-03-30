@@ -67,8 +67,8 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'subtraksjon-arbeidsark', anchorText: 'Subtraksjonsoppgave-generator' },
-    { pageType: 'app', slug: 'addisjon-arbeidsark', anchorText: 'Addisjonsoppgave-generator' },
+    { pageType: 'app', slug: 'subtraction-worksheets', anchorText: 'Subtraksjonsoppgave-generator' },
+    { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Addisjonsoppgave-generator' },
     { pageType: 'guide', slug: 'create-subtraction-worksheets', anchorText: 'Steg-for-steg subtraksjonsguide' },
   ],
   relatedPosts: [

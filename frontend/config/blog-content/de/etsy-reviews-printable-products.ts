@@ -67,9 +67,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'start', slug: 'druckvorlagen-auf-etsy-verkaufen', anchorText: 'Druckvorlagen auf Etsy verkaufen' },
-    { pageType: 'app', slug: 'wortsuche-arbeitsblaetter', anchorText: 'Wortsuche-Generator' },
-    { pageType: 'guide', slug: 'kundenservice-fuer-digitale-produkte', anchorText: 'Kundenservice-Guide' },
+    { pageType: 'start', slug: 'etsy-printable-business', anchorText: 'Druckvorlagen auf Etsy verkaufen' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Wortsuche-Generator' },
+    { pageType: 'guide', slug: 'customer-support-digital-products', anchorText: 'Kundenservice-Guide' },
   ],
   relatedPosts: [
     { slug: 'customer-service-digital-products', title: 'Kundenservice: 5-Sterne behalten' },

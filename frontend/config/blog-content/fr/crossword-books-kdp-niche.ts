@@ -67,10 +67,10 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'mots-croises-fiches', anchorText: 'Générateur de mots croisés' },
-    { pageType: 'tool', slug: 'mots-croises-fiches', anchorText: 'Essayer le générateur de mots croisés' },
-    { pageType: 'guide', slug: 'mots-croises-fiches', anchorText: 'Guide création mots croisés' },
-    { pageType: 'app', slug: 'mots-caches-fiches', anchorText: 'Générateur de mots cachés' },
+    { pageType: 'app', slug: 'crossword-worksheets', anchorText: 'Générateur de mots croisés' },
+    { pageType: 'tool', slug: 'crossword-maker', anchorText: 'Essayer le générateur de mots croisés' },
+    { pageType: 'guide', slug: 'create-crossword-puzzles', anchorText: 'Guide création mots croisés' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Générateur de mots cachés' },
   ],
   relatedPosts: [
     { slug: 'mots-caches-imprimables-profits', title: 'Mots cachés imprimables : combien peut-on gagner ?' },

@@ -70,7 +70,7 @@ const content: BlogContent = {
     { pageType: 'app', slug: 'math-puzzle-worksheets', anchorText: 'Math Puzzle Generator' },
     { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Addition Worksheet Generator' },
     { pageType: 'guide', slug: 'publish-puzzle-books-kdp', anchorText: 'KDP publishing guide' },
-    { pageType: 'start', slug: 'sell-math-worksheets-etsy', anchorText: 'Start selling math worksheets' },
+    { pageType: 'guide', slug: 'sell-math-worksheets-etsy', anchorText: 'Start selling math worksheets' },
   ],
   relatedPosts: [
     { slug: 'crossword-books-kdp-niche', title: 'Crossword Books on KDP: A Low-Competition Goldmine' },

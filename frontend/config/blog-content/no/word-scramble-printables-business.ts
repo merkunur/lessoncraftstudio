@@ -50,9 +50,9 @@ const content: BlogContent = {
     { question: 'Fungerer bokstavblanding på norsk?', answer: 'Absolutt. Norske ord fungerer utmerket for bokstavblanding. Bruk hverdagsord som barn kjenner. For det internasjonale markedet: lag engelske versjoner i tillegg.' },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'gjetteoppgaver-arbeidsark', anchorText: 'Ordgjettespill-generator' },
-    { pageType: 'app', slug: 'ordsoek-arbeidsark', anchorText: 'Ordsøk-generator' },
-    { pageType: 'app', slug: 'kryptogram-arbeidsark', anchorText: 'Kryptogram-generator' },
+    { pageType: 'app', slug: 'word-guess-worksheets', anchorText: 'Ordgjettespill-generator' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Ordsøk-generator' },
+    { pageType: 'app', slug: 'cryptogram-worksheets', anchorText: 'Kryptogram-generator' },
   ],
   relatedPosts: [
     { slug: 'ordsok-utskrifter-fortjeneste', title: 'Ordsøk for fortjeneste' },

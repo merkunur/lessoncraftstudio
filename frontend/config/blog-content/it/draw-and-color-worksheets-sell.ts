@@ -59,9 +59,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'disegnare-e-colorare-schede', anchorText: 'Generatore Disegna e Colora' },
-    { pageType: 'app', slug: 'colorare-schede', anchorText: 'Generatore Colorare' },
-    { pageType: 'app', slug: 'ricalco-schede', anchorText: 'Generatore Ricalco' },
+    { pageType: 'app', slug: 'draw-and-color-worksheets', anchorText: 'Generatore Disegna e Colora' },
+    { pageType: 'app', slug: 'coloring-worksheets', anchorText: 'Generatore Colorare' },
+    { pageType: 'app', slug: 'drawing-lines-worksheets', anchorText: 'Generatore Ricalco' },
   ],
   relatedPosts: [
     { slug: 'colorare-business-2026', title: 'Pagine da Colorare: Business 2026' },

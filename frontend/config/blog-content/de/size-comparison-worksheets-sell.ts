@@ -50,9 +50,9 @@ const content: BlogContent = {
     { question: 'Kann ich Groessenvergleich mit Mathe-Arbeitsblaettern buendeln?', answer: 'Ja. Ein \"Vorschul-Mathe Komplett\" Bundle mit Groessenvergleich + Zaehlen + Muster erzielt Premium-Preise von €14,99-€19,99 und spricht Eltern an, die Komplett-Loesungen bevorzugen.' },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'groessenvergleich-arbeitsblaetter', anchorText: 'Groessenvergleich-Generator' },
-    { pageType: 'app', slug: 'mehr-weniger-arbeitsblaetter', anchorText: 'Mehr-Weniger-Generator' },
-    { pageType: 'app', slug: 'sortier-arbeitsblaetter', anchorText: 'Sortier-Generator' },
+    { pageType: 'app', slug: 'big-small-worksheets', anchorText: 'Groessenvergleich-Generator' },
+    { pageType: 'app', slug: 'more-less-worksheets', anchorText: 'Mehr-Weniger-Generator' },
+    { pageType: 'app', slug: 'picture-sort-worksheets', anchorText: 'Sortier-Generator' },
   ],
   relatedPosts: [
     { slug: 'mehr-weniger-arbeitsblaetter-verkaufen', title: 'Mehr-oder-Weniger-Arbeitsblaetter verkaufen' },

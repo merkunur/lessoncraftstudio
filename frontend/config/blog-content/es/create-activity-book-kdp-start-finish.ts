@@ -59,9 +59,9 @@ const content: BlogContent = {
     }
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'puzzles-matematicos-fichas', anchorText: 'Generador de puzzles matematicos' },
-    { pageType: 'start', slug: 'guia-completa-negocio-imprimibles', anchorText: 'Guia completa para empezar' },
-    { pageType: 'guide', slug: 'crear-fichas-educativas', anchorText: 'Crear fichas educativas' }
+    { pageType: 'app', slug: 'math-puzzle-worksheets', anchorText: 'Generador de puzzles matematicos' },
+    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Guia completa para empezar' },
+    { pageType: 'guide', slug: 'create-addition-worksheets', anchorText: 'Crear fichas educativas' }
   ],
   relatedPosts: [
     { slug: 'create-worksheet-bundle-35-minutes', title: 'Crear Paquete en 35 Minutos' },

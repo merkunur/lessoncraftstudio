@@ -67,10 +67,10 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'start', slug: 'sell-educational-printables-etsy', anchorText: 'Start your Etsy printable business' },
+    { pageType: 'guide', slug: 'sell-educational-printables-etsy', anchorText: 'Start your Etsy printable business' },
     { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Try the Addition Worksheet Generator' },
     { pageType: 'guide', slug: 'create-worksheet-bundles', anchorText: 'Learn to create worksheet bundles' },
-    { pageType: 'idea', slug: 'math-worksheet-ideas', anchorText: 'Math worksheet business ideas' },
+    { pageType: 'idea', slug: 'math-facts-printable-ideas', anchorText: 'Math worksheet business ideas' },
   ],
   relatedPosts: [
     { slug: 'how-many-listings-etsy-success', title: 'How Many Listings Do You Need for Etsy Success?' },

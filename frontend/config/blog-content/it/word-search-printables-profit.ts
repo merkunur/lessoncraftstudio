@@ -67,9 +67,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'cerca-parole-schede', anchorText: 'Generatore Cerca Parole' },
-    { pageType: 'app', slug: 'cruciverba-schede', anchorText: 'Generatore Cruciverba' },
-    { pageType: 'app', slug: 'crittogrammi-schede', anchorText: 'Generatore Crittogrammi' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Generatore Cerca Parole' },
+    { pageType: 'app', slug: 'crossword-worksheets', anchorText: 'Generatore Cruciverba' },
+    { pageType: 'app', slug: 'cryptogram-worksheets', anchorText: 'Generatore Crittogrammi' },
   ],
   relatedPosts: [
     { slug: 'libri-cruciverba-kdp-nicchia', title: 'Libri di Cruciverba: Nicchia KDP' },

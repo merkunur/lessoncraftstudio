@@ -63,9 +63,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'addition-arbetsblad', anchorText: 'Generator med Automatiskt Facit' },
-    { pageType: 'app', slug: 'ordsoek-arbetsblad', anchorText: 'Ordsök med Inbyggt Facit' },
-    { pageType: 'guide', slug: 'skapa-professionella-arbetsblad', anchorText: 'Guide: Professionella Arbetsblad' },
+    { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Generator med Automatiskt Facit' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Ordsök med Inbyggt Facit' },
+    { pageType: 'guide', slug: 'create-worksheet-bundles', anchorText: 'Guide: Professionella Arbetsblad' },
   ],
   relatedPosts: [
     { slug: 'arbetsblad-design-tips-saelj-mer', title: 'Designtips för Arbetsblad som Säljer' },

@@ -69,7 +69,7 @@ const content: BlogContent = {
   internalLinks: [
     { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Try the Word Search Generator' },
     { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Try the Addition Generator' },
-    { pageType: 'start', slug: 'sell-educational-printables-etsy', anchorText: 'Start selling printables' },
+    { pageType: 'guide', slug: 'sell-educational-printables-etsy', anchorText: 'Start selling printables' },
     { pageType: 'guide', slug: 'start-etsy-printable-shop', anchorText: 'How to start an Etsy shop' },
   ],
   relatedPosts: [

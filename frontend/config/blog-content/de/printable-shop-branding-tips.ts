@@ -67,9 +67,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'start', slug: 'druckvorlagen-auf-etsy-verkaufen', anchorText: 'Druckvorlagen auf Etsy verkaufen' },
-    { pageType: 'app', slug: 'wortsuche-arbeitsblaetter', anchorText: 'Wortsuche-Generator' },
-    { pageType: 'guide', slug: 'etsy-shop-fuer-druckvorlagen-eroeffnen', anchorText: 'Etsy-Shop eroeffnen' },
+    { pageType: 'start', slug: 'etsy-printable-business', anchorText: 'Druckvorlagen auf Etsy verkaufen' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Wortsuche-Generator' },
+    { pageType: 'guide', slug: 'start-etsy-printable-shop', anchorText: 'Etsy-Shop eroeffnen' },
   ],
   relatedPosts: [
     { slug: 'etsy-listing-optimization-worksheets', title: 'Listing-Optimierung' },

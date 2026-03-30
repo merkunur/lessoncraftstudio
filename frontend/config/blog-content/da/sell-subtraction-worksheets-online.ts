@@ -67,9 +67,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'subtraktion-arbejdsark', anchorText: 'Subtraktions-Generator' },
-    { pageType: 'app', slug: 'addition-arbejdsark', anchorText: 'Additions-Generator' },
-    { pageType: 'app', slug: 'kode-addition-arbejdsark', anchorText: 'Kode-Addition Generator' },
+    { pageType: 'app', slug: 'subtraction-worksheets', anchorText: 'Subtraktions-Generator' },
+    { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Additions-Generator' },
+    { pageType: 'app', slug: 'code-addition-worksheets', anchorText: 'Kode-Addition Generator' },
   ],
   relatedPosts: [
     { slug: 'saelg-additions-arbejdsark-etsy-guide', title: 'Sælg Additions-Arbejdsark på Etsy: Guide' },

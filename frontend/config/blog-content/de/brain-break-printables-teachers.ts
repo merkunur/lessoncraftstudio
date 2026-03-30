@@ -59,9 +59,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'suchbilder-arbeitsblaetter', anchorText: 'Suchbilder-Generator' },
-    { pageType: 'app', slug: 'wortsuche-arbeitsblaetter', anchorText: 'Wortsuche als Gehirnpause' },
-    { pageType: 'app', slug: 'bilderpfad-arbeitsblaetter', anchorText: 'Labyrinth-Generator' },
+    { pageType: 'app', slug: 'find-objects-worksheets', anchorText: 'Suchbilder-Generator' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Wortsuche als Gehirnpause' },
+    { pageType: 'app', slug: 'picture-path-worksheets', anchorText: 'Labyrinth-Generator' },
   ],
   relatedPosts: [
     { slug: 'sonderpaedagogik-druckvorlagen-verkaufen', title: 'Foerdermaterial: Hohe Nachfrage, wenig Konkurrenz' },

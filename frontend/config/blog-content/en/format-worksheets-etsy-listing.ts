@@ -68,9 +68,9 @@ const content: BlogContent = {
   ],
   internalLinks: [
     { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Try the worksheet generator' },
-    { pageType: 'start', slug: 'sell-educational-printables-etsy', anchorText: 'Etsy printable shop setup guide' },
+    { pageType: 'guide', slug: 'sell-educational-printables-etsy', anchorText: 'Etsy printable shop setup guide' },
     { pageType: 'guide', slug: 'create-worksheet-bundles', anchorText: 'Bundle creation guide' },
-    { pageType: 'idea', slug: 'etsy-coloring-pages', anchorText: 'Etsy coloring page ideas' },
+    { pageType: 'idea', slug: 'christmas-printable-ideas', anchorText: 'Etsy coloring page ideas' },
   ],
   relatedPosts: [
     { slug: 'etsy-listing-optimization-worksheets', title: 'Etsy Listing Optimization for Worksheets' },

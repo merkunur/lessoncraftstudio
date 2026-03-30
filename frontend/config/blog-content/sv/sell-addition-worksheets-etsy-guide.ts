@@ -67,9 +67,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'addition-arbetsblad', anchorText: 'Additions-Arbetsblad Generator' },
-    { pageType: 'guide', slug: 'skapa-additions-arbetsblad', anchorText: 'Steg-för-steg skapandeguide' },
-    { pageType: 'start', slug: 'saelj-matte-arbetsblad-etsy', anchorText: 'Börja sälja matte-arbetsblad' },
+    { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Additions-Arbetsblad Generator' },
+    { pageType: 'guide', slug: 'create-addition-worksheets', anchorText: 'Steg-för-steg skapandeguide' },
+    { pageType: 'start', slug: 'create-worksheets-that-sell', anchorText: 'Börja sälja matte-arbetsblad' },
   ],
   relatedPosts: [
     { slug: 'saelj-subtraktions-arbetsblad-online', title: 'Sälj Subtraktions-Arbetsblad Online' },

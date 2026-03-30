@@ -14,7 +14,7 @@ const content: BlogContent = {
       'homeschool co-op worksheet demand',
     ],
     titleTag: 'Homeschool Printables: A Growing Market 2026 | LCS',
-    metaDescription: 'The homeschool market is growing 8-10% annually. Learn how to sell printables to homeschool families, what they buy, and how to price for this premium audience.',
+    metaDescription: 'The homeschool market grows 8-10% annually. Learn how to sell printables to homeschool families, what they buy, and pricing strategies.',
   },
   hero: {
     title: 'Homeschool Printables: A Growing Market in 2026',
@@ -67,10 +67,10 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'addition', anchorText: 'Math Worksheet Generator' },
-    { pageType: 'app', slug: 'wordsearch', anchorText: 'Sight Word Search Creator' },
+    { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Math Worksheet Generator' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Sight Word Search Creator' },
     { pageType: 'guide', slug: 'create-worksheet-bundles', anchorText: 'How to create curriculum bundles' },
-    { pageType: 'start', slug: 'sell-educational-printables-etsy', anchorText: 'Start selling to homeschool families' },
+    { pageType: 'guide', slug: 'sell-educational-printables-etsy', anchorText: 'Start selling to homeschool families' },
   ],
   relatedPosts: [
     { slug: 'kindergarten-worksheets-market', title: 'The Kindergarten Worksheet Market: How Big Is It?' },

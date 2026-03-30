@@ -14,7 +14,7 @@ const content: BlogContent = {
       'decode math activities sell',
     ],
     titleTag: 'Code Addition Puzzles: Etsy Bestseller Niche | LCS',
-    metaDescription: 'Code addition puzzles are a hidden bestseller niche on Etsy. Learn how to create and sell these unique math printables that stand out from generic worksheets.',
+    metaDescription: 'Code addition puzzles are a hidden bestseller niche on Etsy. Learn to create and sell these unique math printables that outsell generic worksheets.',
   },
   hero: {
     title: 'Code Addition Puzzles: A Hidden Etsy Bestseller Niche',
@@ -68,9 +68,9 @@ const content: BlogContent = {
   ],
   internalLinks: [
     { pageType: 'app', slug: 'code-addition-worksheets', anchorText: 'Code Addition Generator' },
-    { pageType: 'tool', slug: 'code-addition-maker', anchorText: 'Try the code addition maker free trial' },
-    { pageType: 'guide', slug: 'create-code-addition-worksheets', anchorText: 'How to create code addition puzzles' },
-    { pageType: 'bundle', slug: 'math-number-bundle', anchorText: 'Math & Number Bundle' },
+    { pageType: 'tool', slug: 'code-addition-worksheet-maker', anchorText: 'Try the code addition maker free trial' },
+    { pageType: 'guide', slug: 'create-addition-worksheets', anchorText: 'How to create code addition puzzles' },
+    { pageType: 'bundle', slug: 'math-mastery-bundle', anchorText: 'Math & Number Bundle' },
   ],
   relatedPosts: [
     { slug: 'sell-addition-worksheets-etsy-guide', title: 'How to Sell Addition Worksheets on Etsy' },

@@ -67,9 +67,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'wortsuche-arbeitsblaetter', anchorText: 'Wortsuche-Generator' },
-    { pageType: 'app', slug: 'kreuzwortraetsel-arbeitsblaetter', anchorText: 'Kreuzwortraetsel-Generator' },
-    { pageType: 'guide', slug: 'wortsuche-arbeitsblaetter-erstellen', anchorText: 'Anleitung: Wortsuche erstellen' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Wortsuche-Generator' },
+    { pageType: 'app', slug: 'crossword-worksheets', anchorText: 'Kreuzwortraetsel-Generator' },
+    { pageType: 'guide', slug: 'create-word-search-puzzles', anchorText: 'Anleitung: Wortsuche erstellen' },
   ],
   relatedPosts: [
     { slug: 'kreuzwortraetsel-buecher-kdp-nische', title: 'Kreuzwortraetsel-Buecher auf KDP' },

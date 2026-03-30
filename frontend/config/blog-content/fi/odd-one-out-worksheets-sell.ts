@@ -67,7 +67,7 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'poikkea-joukosta-tyoarkit', anchorText: 'Generaattori' },
+    { pageType: 'app', slug: 'odd-one-out-worksheets', anchorText: 'Generaattori' },
   ],
   relatedPosts: [
     { slug: 'kuvio-tyoarkit-myy-verkossa', title: 'Kuviotyoarkit: myy verkossa' },

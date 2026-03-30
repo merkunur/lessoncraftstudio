@@ -34,9 +34,9 @@ const content: BlogContent = {
     { question: 'Kan ik zoek en tel werkbladen combineren met andere producten?', answer: 'Absoluut. De beste bundels combineren zoek en tel met zoek voorwerp, sorteer en meer-minder werkbladen. Dit \"visuele rekenpakket\" verkoopt voor €16,99-€22,99.' },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'zoek-en-tel-werkbladen', anchorText: 'Zoek en Tel Generator' },
-    { pageType: 'app', slug: 'zoek-voorwerp-werkbladen', anchorText: 'Zoek Voorwerp Generator' },
-    { pageType: 'app', slug: 'meer-minder-werkbladen', anchorText: 'Meer of Minder Generator' },
+    { pageType: 'app', slug: 'find-and-count-worksheets', anchorText: 'Zoek en Tel Generator' },
+    { pageType: 'app', slug: 'find-objects-worksheets', anchorText: 'Zoek Voorwerp Generator' },
+    { pageType: 'app', slug: 'more-less-worksheets', anchorText: 'Meer of Minder Generator' },
   ],
   relatedPosts: [
     { slug: 'woordzoeker-printables-winst', title: 'Woordzoeker Printables voor Winst' },

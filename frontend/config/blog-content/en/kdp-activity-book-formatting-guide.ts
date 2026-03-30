@@ -68,7 +68,7 @@ const content: BlogContent = {
   ],
   internalLinks: [
     { pageType: 'guide', slug: 'publish-puzzle-books-kdp', anchorText: 'KDP puzzle book publishing guide' },
-    { pageType: 'start', slug: 'create-kdp-activity-books', anchorText: 'Start creating KDP activity books' },
+    { pageType: 'start', slug: 'amazon-kdp-activity-books', anchorText: 'Start creating KDP activity books' },
     { pageType: 'app', slug: 'math-puzzle-worksheets', anchorText: 'Math Puzzle Generator' },
     { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Word Search Generator' },
   ],

@@ -35,9 +35,9 @@ const content: BlogContent = {
     { question: 'Kan jeg bruge rigtige dinosaurbilleder?', answer: 'Dinosaurbilleder i LessonCraftStudios generator er kunstneriske illustrationer, ikke fotografier (dinosaurer er jo uddøde). Disse illustrationer er inkluderet i den kommercielle licens og kan sælges frit.' }
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'farvelaegning-arbejdsark', anchorText: 'Dinosaur Farvelægning' },
-    { pageType: 'app', slug: 'ordsoegning-arbejdsark', anchorText: 'Dinosaur Ordsøgning' },
-    { pageType: 'app', slug: 'addition-arbejdsark', anchorText: 'Dinosaur Addition' }
+    { pageType: 'app', slug: 'coloring-worksheets', anchorText: 'Dinosaur Farvelægning' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Dinosaur Ordsøgning' },
+    { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Dinosaur Addition' }
   ],
   relatedPosts: [
     { slug: 'saelg-additions-arbejdsark-etsy-guide', title: 'Sælg Additions-Arbejdsark på Etsy' },

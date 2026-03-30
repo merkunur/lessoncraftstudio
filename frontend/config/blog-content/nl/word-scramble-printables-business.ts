@@ -35,9 +35,9 @@ const content: BlogContent = {
     { question: 'Hoeveel woordkrakers kan ik per dag produceren?', answer: 'Met een generator: 100-200 puzzels per dag. Zonder generator: 20-30 per dag. Het verschil in productietijd bepaalt hoe snel u uw catalogus kunt opbouwen.' },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'woordkraker-werkbladen', anchorText: 'Woordkraker Generator' },
-    { pageType: 'app', slug: 'woordzoeker-werkbladen', anchorText: 'Woordzoeker Generator' },
-    { pageType: 'app', slug: 'kruiswoordpuzzel-werkbladen', anchorText: 'Kruiswoordpuzzel Generator' },
+    { pageType: 'app', slug: 'word-scramble-worksheets', anchorText: 'Woordkraker Generator' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Woordzoeker Generator' },
+    { pageType: 'app', slug: 'crossword-worksheets', anchorText: 'Kruiswoordpuzzel Generator' },
   ],
   relatedPosts: [
     { slug: 'woordzoeker-printables-winst', title: 'Woordzoeker Printables voor Winst' },

@@ -67,9 +67,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'codigo-adicao-fichas', anchorText: 'Gerador de Código de Adição' },
-    { pageType: 'app', slug: 'adicao-fichas', anchorText: 'Gerador de Fichas de Adição' },
-    { pageType: 'guide', slug: 'criar-fichas-adicao', anchorText: 'Como criar fichas de adição' },
+    { pageType: 'app', slug: 'code-addition-worksheets', anchorText: 'Gerador de Código de Adição' },
+    { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Gerador de Fichas de Adição' },
+    { pageType: 'guide', slug: 'create-addition-worksheets', anchorText: 'Como criar fichas de adição' },
   ],
   relatedPosts: [
     { slug: 'guia-vender-fichas-adicao-etsy', title: 'Guia: Vender Fichas de Adição no Etsy' },

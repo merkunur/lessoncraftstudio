@@ -14,7 +14,7 @@ const content: BlogContent = {
       'november printable sales strategy',
     ],
     titleTag: 'Thanksgiving Printables: November Sales Max | LCS',
-    metaDescription: 'Thanksgiving printables drive strong November sales. Learn which products sell, the listing timeline, and how to bridge Thanksgiving into Christmas revenue.',
+    metaDescription: 'Thanksgiving printables drive strong November sales. Learn which products sell, listing timelines, and how to bridge into Christmas revenue.',
   },
   hero: {
     title: 'Thanksgiving Printables: Maximize Your November Sales',
@@ -67,10 +67,10 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'coloring', anchorText: 'Thanksgiving Coloring Generator' },
-    { pageType: 'app', slug: 'wordsearch', anchorText: 'Thanksgiving Word Search Creator' },
-    { pageType: 'app', slug: 'bingo', anchorText: 'Thanksgiving Bingo Card Maker' },
-    { pageType: 'start', slug: 'sell-educational-printables-etsy', anchorText: 'Start selling seasonal printables' },
+    { pageType: 'app', slug: 'coloring-worksheets', anchorText: 'Thanksgiving Coloring Generator' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Thanksgiving Word Search Creator' },
+    { pageType: 'app', slug: 'picture-bingo-worksheets', anchorText: 'Thanksgiving Bingo Card Maker' },
+    { pageType: 'guide', slug: 'sell-educational-printables-etsy', anchorText: 'Start selling seasonal printables' },
   ],
   relatedPosts: [
     { slug: 'seasonal-printable-calendar-sellers', title: 'Seasonal Printable Calendar for Sellers' },

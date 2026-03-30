@@ -34,9 +34,9 @@ const content: BlogContent = {
     { question: 'Hvilke formater selger best?', answer: 'PDF-nedlastinger på Etsy selger best for daglig bruk. KDP-bøker for foreldre som foretrekker ferdige bøker. Tilby begge for maksimal rekkevidde.' },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'tegning-av-linjer-arbeidsark', anchorText: 'Strektrening-generator' },
-    { pageType: 'app', slug: 'skriveark-arbeidsark', anchorText: 'Skriveark-generator' },
-    { pageType: 'app', slug: 'bokstavoppgaver-arbeidsark', anchorText: 'Bokstavoppgave-generator' },
+    { pageType: 'app', slug: 'drawing-lines-worksheets', anchorText: 'Strektrening-generator' },
+    { pageType: 'app', slug: 'writing-worksheets', anchorText: 'Skriveark-generator' },
+    { pageType: 'app', slug: 'word-scramble-worksheets', anchorText: 'Bokstavoppgave-generator' },
   ],
   relatedPosts: [
     { slug: 'handskrift-arbeidsark-etsy-nisje', title: 'Håndskrift-arbeidsark på Etsy' },

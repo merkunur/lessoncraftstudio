@@ -67,9 +67,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'start', slug: 'druckvorlagen-auf-etsy-verkaufen', anchorText: 'Druckvorlagen auf Etsy verkaufen starten' },
-    { pageType: 'app', slug: 'wortsuche-arbeitsblaetter', anchorText: 'Wortsuche-Generator fuer KDP' },
-    { pageType: 'bundle', slug: 'mathe-zahlen-paket', anchorText: 'Mathe-Generatoren im Bundle' },
+    { pageType: 'start', slug: 'etsy-printable-business', anchorText: 'Druckvorlagen auf Etsy verkaufen starten' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Wortsuche-Generator fuer KDP' },
+    { pageType: 'bundle', slug: 'math-mastery-bundle', anchorText: 'Mathe-Generatoren im Bundle' },
   ],
   relatedPosts: [
     { slug: 'kdp-activity-book-formatting-guide', title: 'KDP-Aktivitaetsbuch Formatierung' },

@@ -5,8 +5,8 @@ const content: BlogContent = {
     primaryKeyword: 'Bauernhof Druckvorlagen Kleinkind Vorschule',
     secondaryKeywords: ['Bauernhof Arbeitsblaetter Etsy', 'Kuh Schwein Huhn Raetsel PDF', 'Bauernhoftiere Zuordnung Vorschule'],
     lsiKeywords: ['Bauernhof Wortsuche Kinder', 'Tiere auf dem Bauernhof Arbeitsblaetter', 'Landwirtschaft Material Grundschule'],
-    titleTag: 'Bauernhof-Druckvorlagen: Pflicht fuer Kleinkind & Vorschule | LCS',
-    metaDescription: 'Bauernhof-Druckvorlagen: Pflicht fuer Kleinkind & Vorschule: Marktanalyse, Produkte und Strategien fuer Druckvorlagen-Verkaeufer im DACH-Raum. Profitabel auf Etsy.de und Amazon KDP.',
+    titleTag: 'Bauernhof-Druckvorlagen: Kleinkind-Nische | LCS',
+    metaDescription: 'Bauernhof-Druckvorlagen: Marktanalyse, Produkte und Strategien fuer Verkaeufer im DACH-Raum. Profitabel auf Etsy.de und Amazon KDP.',
   },
   hero: {
     title: 'Bauernhof-Druckvorlagen: Pflicht fuer Kleinkind & Vorschule',
@@ -59,9 +59,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'wortsuche-arbeitsblaetter', anchorText: 'Thematische Wortsuche erstellen' },
-    { pageType: 'app', slug: 'zuordnungs-arbeitsblaetter', anchorText: 'Zuordnungsspiele erstellen' },
-    { pageType: 'start', slug: 'druckvorlagen-auf-etsy-verkaufen', anchorText: 'Etsy-Shop starten' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Thematische Wortsuche erstellen' },
+    { pageType: 'app', slug: 'matching-worksheets', anchorText: 'Zuordnungsspiele erstellen' },
+    { pageType: 'start', slug: 'etsy-printable-business', anchorText: 'Etsy-Shop starten' },
   ],
   relatedPosts: [
     { slug: 'tier-themen-druckvorlagen-verkaufen', title: 'Tier-Druckvorlagen: Immer Bestseller' },

@@ -35,9 +35,9 @@ const content: BlogContent = {
     { question: 'Kan jeg sælge tegneark på KDP?', answer: 'Absolut. "Lær at Tegne Dyr — Trin for Trin Tegnebog" i A4-format er en populær KDP-niche. 50-80 tegninger med plads til øvelse kan sælges til 65-95 kr.' }
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'tegn-og-farvelaeg-arbejdsark', anchorText: 'Tegn og Farvelæg Generator' },
-    { pageType: 'app', slug: 'farvelaegning-arbejdsark', anchorText: 'Farvelægnings-Generator' },
-    { pageType: 'app', slug: 'spoer-arbejdsark', anchorText: 'Sporings-Generator' }
+    { pageType: 'app', slug: 'draw-and-color-worksheets', anchorText: 'Tegn og Farvelæg Generator' },
+    { pageType: 'app', slug: 'coloring-worksheets', anchorText: 'Farvelægnings-Generator' },
+    { pageType: 'app', slug: 'drawing-lines-worksheets', anchorText: 'Sporings-Generator' }
   ],
   relatedPosts: [
     { slug: 'saelg-additions-arbejdsark-etsy-guide', title: 'Sælg Additions-Arbejdsark på Etsy' },

@@ -50,9 +50,9 @@ const content: BlogContent = {
     { question: 'Kan jeg selge samme innhold på både KDP og Etsy?', answer: 'Ja, men ikke identisk. Selg den trykte boken på KDP og individuelle PDF-nedlastinger på Etsy. Samme innhold, forskjellig format.' },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'matematikk-oppgaver-arbeidsark', anchorText: 'Mattepuslespill-generator' },
-    { pageType: 'app', slug: 'sudoku-arbeidsark', anchorText: 'Sudoku-generator' },
-    { pageType: 'app', slug: 'bildeaddisjon-arbeidsark', anchorText: 'Kodeaddisjon-generator' },
+    { pageType: 'app', slug: 'math-worksheets', anchorText: 'Mattepuslespill-generator' },
+    { pageType: 'app', slug: 'sudoku-worksheets', anchorText: 'Sudoku-generator' },
+    { pageType: 'app', slug: 'code-addition-worksheets', anchorText: 'Kodeaddisjon-generator' },
   ],
   relatedPosts: [
     { slug: 'bildesudoku-boeker-kdp', title: 'Bildesudoku-bøker på KDP' },

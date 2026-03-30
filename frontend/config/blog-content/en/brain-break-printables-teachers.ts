@@ -14,7 +14,7 @@ const content: BlogContent = {
       'calm down corner printables sell',
     ],
     titleTag: 'Brain Break Printables: What Teachers Buy | LCS',
-    metaDescription: 'Brain break printables are a fast-growing teacher market. Learn which classroom break activities sell, pricing tips, and how to target this underserved niche.',
+    metaDescription: 'Brain break printables are a fast-growing teacher market. Learn which break activities sell, pricing tips, and how to target this niche.',
   },
   hero: {
     title: 'Brain Break Printables: What Every Teacher Wants to Buy',
@@ -67,10 +67,10 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'bingo', anchorText: 'Brain Break Bingo Generator' },
-    { pageType: 'app', slug: 'treasure-hunt', anchorText: 'Movement Treasure Hunt Creator' },
-    { pageType: 'app', slug: 'wordsearch', anchorText: 'Movement Word Search Maker' },
-    { pageType: 'start', slug: 'sell-educational-printables-etsy', anchorText: 'Start selling teacher printables' },
+    { pageType: 'app', slug: 'picture-bingo-worksheets', anchorText: 'Brain Break Bingo Generator' },
+    { pageType: 'app', slug: 'treasure-hunt-worksheets', anchorText: 'Movement Treasure Hunt Creator' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Movement Word Search Maker' },
+    { pageType: 'guide', slug: 'sell-educational-printables-etsy', anchorText: 'Start selling teacher printables' },
   ],
   relatedPosts: [
     { slug: 'back-to-school-printable-rush', title: 'Back-to-School Printables: Your August Sales Rush' },

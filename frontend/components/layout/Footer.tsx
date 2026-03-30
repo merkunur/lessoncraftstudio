@@ -145,6 +145,7 @@ export function Footer() {
               <li><Link href={`/${locale}/bundles`} className="hover:text-white">{{ en: 'Bundles', de: 'Pakete', fr: 'Packs', es: 'Paquetes', pt: 'Pacotes', it: 'Pacchetti', nl: 'Bundels', sv: 'Paket', da: 'Pakker', no: 'Pakker', fi: 'Paketit' }[locale] || 'Bundles'}</Link></li>
               <li><Link href={`/${locale}/ideas`} className="hover:text-white">{{ en: 'Niche Ideas', de: 'Nischen-Ideen', fr: 'Idées de niches', es: 'Ideas de nichos', pt: 'Ideias de nichos', it: 'Idee di nicchia', nl: 'Niche-ideeën', sv: 'Nischidéer', da: 'Nicheideer', no: 'Nisjeideer', fi: 'Niche-ideat' }[locale] || 'Niche Ideas'}</Link></li>
               <li><Link href={`/${locale}/start`} className="hover:text-white">{{ en: 'Get Started', de: 'Erste Schritte', fr: 'Démarrer', es: 'Comenzar', pt: 'Começar', it: 'Inizia', nl: 'Aan de slag', sv: 'Kom igång', da: 'Kom i gang', no: 'Kom i gang', fi: 'Aloita' }[locale] || 'Get Started'}</Link></li>
+              <li><Link href={`/${locale}/blog`} className="hover:text-white">{{ en: 'Blog', de: 'Blog', fr: 'Blog', es: 'Blog', pt: 'Blog', it: 'Blog', nl: 'Blog', sv: 'Blogg', da: 'Blog', no: 'Blogg', fi: 'Blogi' }[locale] || 'Blog'}</Link></li>
             </ul>
           </div>
 

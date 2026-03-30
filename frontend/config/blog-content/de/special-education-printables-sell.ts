@@ -13,7 +13,7 @@ const content: BlogContent = {
       'Dyskalkulie Arbeitsblaetter PDF',
       'differenziertes Material Grundschule',
     ],
-    titleTag: 'Foerdermaterial-Druckvorlagen: Hohe Nachfrage, wenig Konkurrenz | LCS',
+    titleTag: 'Foerdermaterial-Druckvorlagen: Hohe Nachfrage | LCS',
     metaDescription: 'Foerdermaterial-Druckvorlagen: Eine Premium-Nische mit wenig Konkurrenz. LRS, Dyskalkulie, Inklusion. Wie Sie in den DACH-Foerdermarkt einsteigen.',
   },
   hero: {
@@ -67,9 +67,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'suchbilder-arbeitsblaetter', anchorText: 'Suchbilder fuer Konzentrationstraining' },
-    { pageType: 'app', slug: 'muster-arbeitsblatt-arbeitsblaetter', anchorText: 'Muster-Erkennung fuer visuelle Wahrnehmung' },
-    { pageType: 'app', slug: 'schattenbilder-zuordnen-arbeitsblaetter', anchorText: 'Schatten-Zuordnung fuer Foerderung' },
+    { pageType: 'app', slug: 'find-objects-worksheets', anchorText: 'Suchbilder fuer Konzentrationstraining' },
+    { pageType: 'app', slug: 'pattern-worksheets', anchorText: 'Muster-Erkennung fuer visuelle Wahrnehmung' },
+    { pageType: 'app', slug: 'shadow-match-worksheets', anchorText: 'Schatten-Zuordnung fuer Foerderung' },
   ],
   relatedPosts: [
     { slug: 'feinmotorik-aktivitaeten-druckvorlagen', title: 'Feinmotorik-Druckvorlagen: An Eltern und Therapeuten verkaufen' },

@@ -67,10 +67,10 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'anagrammes-fiches', anchorText: 'Générateur d\'anagrammes' },
-    { pageType: 'tool', slug: 'anagrammes-fiches', anchorText: 'Essayer le générateur d\'anagrammes' },
-    { pageType: 'app', slug: 'mots-caches-fiches', anchorText: 'Générateur de mots cachés' },
-    { pageType: 'app', slug: 'cryptogramme-fiches', anchorText: 'Générateur de cryptogrammes' },
+    { pageType: 'app', slug: 'word-scramble-worksheets', anchorText: 'Générateur d\'anagrammes' },
+    { pageType: 'tool', slug: 'word-scramble-maker', anchorText: 'Essayer le générateur d\'anagrammes' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Générateur de mots cachés' },
+    { pageType: 'app', slug: 'cryptogram-worksheets', anchorText: 'Générateur de cryptogrammes' },
   ],
   relatedPosts: [
     { slug: 'mots-caches-imprimables-profits', title: 'Mots cachés imprimables : combien peut-on gagner ?' },

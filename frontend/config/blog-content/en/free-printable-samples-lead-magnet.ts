@@ -68,9 +68,9 @@ const content: BlogContent = {
   ],
   internalLinks: [
     { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Word Search Generator' },
-    { pageType: 'app', slug: 'coloring-pages', anchorText: 'Coloring Page Generator' },
-    { pageType: 'start', slug: 'sell-educational-printables-etsy', anchorText: 'Start your Etsy printable shop' },
-    { pageType: 'guide', slug: 'marketing-printable-business', anchorText: 'Marketing your printable business' },
+    { pageType: 'app', slug: 'coloring-worksheets', anchorText: 'Coloring Page Generator' },
+    { pageType: 'guide', slug: 'sell-educational-printables-etsy', anchorText: 'Start your Etsy printable shop' },
+    { pageType: 'start', slug: 'marketing-printable-business', anchorText: 'Marketing your printable business' },
   ],
   relatedPosts: [
     { slug: 'email-list-printable-business', title: 'Building an Email List for Your Printable Business' },

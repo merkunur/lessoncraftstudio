@@ -67,9 +67,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'sopa-letras-fichas', anchorText: 'Generador de sopas de letras' },
-    { pageType: 'start', slug: 'guia-completa-negocio-imprimibles', anchorText: 'Guia para empezar a vender imprimibles' },
-    { pageType: 'guide', slug: 'crear-tienda-etsy-imprimibles', anchorText: 'Como abrir una tienda de imprimibles en Etsy' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Generador de sopas de letras' },
+    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Guia para empezar a vender imprimibles' },
+    { pageType: 'guide', slug: 'start-etsy-printable-shop', anchorText: 'Como abrir una tienda de imprimibles en Etsy' },
   ],
   relatedPosts: [
     { slug: 'how-many-listings-etsy-success', title: 'Cuantos Listings Necesita para el Exito en Etsy' },

@@ -67,9 +67,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'caca-tesouro-fichas', anchorText: 'Gerador Caça ao Tesouro' },
-    { pageType: 'app', slug: 'labirintos-imagens-fichas', anchorText: 'Gerador de Labirintos' },
-    { pageType: 'app', slug: 'bingo-fichas', anchorText: 'Gerador de Bingo' },
+    { pageType: 'app', slug: 'treasure-hunt-worksheets', anchorText: 'Gerador Caça ao Tesouro' },
+    { pageType: 'app', slug: 'picture-path-worksheets', anchorText: 'Gerador de Labirintos' },
+    { pageType: 'app', slug: 'picture-bingo-worksheets', anchorText: 'Gerador de Bingo' },
   ],
   relatedPosts: [
     { slug: 'cartelas-bingo-imprimiveis-negocio', title: 'Cartelas Bingo: Negócio' },

@@ -67,9 +67,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'shadow-matching-worksheets', anchorText: 'Try the Shadow Matching Generator' },
+    { pageType: 'app', slug: 'shadow-match-worksheets', anchorText: 'Try the Shadow Matching Generator' },
     { pageType: 'app', slug: 'cryptogram-worksheets', anchorText: 'Create Cryptogram Puzzles' },
-    { pageType: 'start', slug: 'sell-educational-printables-etsy', anchorText: 'Start selling printables on Etsy' },
+    { pageType: 'guide', slug: 'sell-educational-printables-etsy', anchorText: 'Start selling printables on Etsy' },
     { pageType: 'guide', slug: 'niche-selection-printables', anchorText: 'Complete niche selection guide' },
   ],
   relatedPosts: [

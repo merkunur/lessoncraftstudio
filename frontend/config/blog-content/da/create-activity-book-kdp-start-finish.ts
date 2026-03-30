@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'opret aktivitetsbog KDP start til slut',
     secondaryKeywords: ['opret aktivitetsbog KDP start til slut Etsy', 'opret aktivitetsbog KDP start til slut online', 'opret aktivitetsbog KDP start til slut sælg'],
     lsiKeywords: ['printbar forretning', 'digital download salg', 'Etsy printables'],
-    titleTag: 'Opret en Aktivitetsbog til KDP: Fra Start til Udgivelse | LCS',
+    titleTag: 'Aktivitetsbog til KDP: Start til Slut | LCS',
     metaDescription: 'Amazon KDP er en af de mest profitable kanaler for printable-sælgere. Aktivitetsbøger — med arbejdsark, puslespil og farvelægning — sælger konsistent som f',
   },
   hero: {
@@ -35,9 +35,9 @@ const content: BlogContent = {
     { question: 'Hvad er den optimale pris for en dansk aktivitetsbog?', answer: 'For sort-hvid A4 med 100 sider: 69-89 kr. giver den bedste balance mellem volumen og royalty. Under 60 kr. giver for lav royalty. Over 100 kr. reducerer salgsvolumen for arbejdsbøger.' }
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'addition-arbejdsark', anchorText: 'Additions-Generator' },
-    { pageType: 'app', slug: 'ordsoegning-arbejdsark', anchorText: 'Ordsøgning Generator' },
-    { pageType: 'app', slug: 'krydsord-arbejdsark', anchorText: 'Krydsord Generator' }
+    { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Additions-Generator' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Ordsøgning Generator' },
+    { pageType: 'app', slug: 'crossword-worksheets', anchorText: 'Krydsord Generator' }
   ],
   relatedPosts: [
     { slug: 'saelg-additions-arbejdsark-etsy-guide', title: 'Sælg Additions-Arbejdsark på Etsy' },

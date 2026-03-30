@@ -67,9 +67,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'coloring', anchorText: 'Valentine\'s Coloring Page Generator' },
-    { pageType: 'app', slug: 'matching', anchorText: 'Valentine\'s Matching Activity Creator' },
-    { pageType: 'start', slug: 'sell-educational-printables-etsy', anchorText: 'Start your Etsy printable shop' },
+    { pageType: 'app', slug: 'coloring-worksheets', anchorText: 'Valentine\'s Coloring Page Generator' },
+    { pageType: 'app', slug: 'matching-worksheets', anchorText: 'Valentine\'s Matching Activity Creator' },
+    { pageType: 'guide', slug: 'sell-educational-printables-etsy', anchorText: 'Start your Etsy printable shop' },
     { pageType: 'guide', slug: 'create-worksheet-bundles', anchorText: 'How to bundle seasonal products' },
   ],
   relatedPosts: [

@@ -67,9 +67,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'coloriage-fiches', anchorText: 'Générateur de coloriages' },
-    { pageType: 'start', slug: 'guide-complet-activite-imprimables', anchorText: 'Guide complet imprimables' },
-    { pageType: 'guide', slug: 'creer-fiches-rapidement', anchorText: 'Créer des fiches rapidement' },
+    { pageType: 'app', slug: 'coloring-worksheets', anchorText: 'Générateur de coloriages' },
+    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Guide complet imprimables' },
+    { pageType: 'guide', slug: 'create-addition-worksheets', anchorText: 'Créer des fiches rapidement' },
   ],
   relatedPosts: [
     { slug: 'etsy-printable-shop-first-month', title: 'Premier mois sur Etsy' },

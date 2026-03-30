@@ -67,9 +67,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'wortsuche-arbeitsblaetter', anchorText: 'DaF-Wortsuche-Generator' },
-    { pageType: 'app', slug: 'bilderkreuzwortraetsel-arbeitsblaetter', anchorText: 'Kreuzwortraetsel fuer DaF-Lerner' },
-    { pageType: 'app', slug: 'zuordnungs-arbeitsblaetter', anchorText: 'Zuordnungsspiele fuer Sprachlerner' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'DaF-Wortsuche-Generator' },
+    { pageType: 'app', slug: 'crossword-worksheets', anchorText: 'Kreuzwortraetsel fuer DaF-Lerner' },
+    { pageType: 'app', slug: 'matching-worksheets', anchorText: 'Zuordnungsspiele fuer Sprachlerner' },
   ],
   relatedPosts: [
     { slug: '11-sprachen-weltweit-verkaufen', title: 'Arbeitsblaetter in 11 Sprachen erstellen und global verkaufen' },

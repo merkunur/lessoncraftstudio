@@ -67,10 +67,10 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'bingo-fiches', anchorText: 'Générateur de cartes de bingo' },
-    { pageType: 'tool', slug: 'bingo-fiches', anchorText: 'Essayer le générateur de bingo' },
-    { pageType: 'app', slug: 'association-fiches', anchorText: 'Générateur de fiches d\'association' },
-    { pageType: 'guide', slug: 'bingo-fiches', anchorText: 'Guide création cartes de bingo' },
+    { pageType: 'app', slug: 'picture-bingo-worksheets', anchorText: 'Générateur de cartes de bingo' },
+    { pageType: 'tool', slug: 'bingo-card-maker', anchorText: 'Essayer le générateur de bingo' },
+    { pageType: 'app', slug: 'matching-worksheets', anchorText: 'Générateur de fiches d\'association' },
+    { pageType: 'guide', slug: 'create-bingo-cards', anchorText: 'Guide création cartes de bingo' },
   ],
   relatedPosts: [
     { slug: 'mots-caches-imprimables-profits', title: 'Mots cachés imprimables : combien peut-on gagner ?' },

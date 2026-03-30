@@ -14,7 +14,7 @@ const content: BlogContent = {
       'nicho premium imprimibles puzzles',
     ],
     titleTag: 'Fichas Criptogramas: Nicho Premium Etsy | LCS',
-    metaDescription: 'Los criptogramas son un nicho premium con poca competencia en Etsy. Aprenda a crear y vender este producto de alto valor. Prueba gratuita con marca de agua.',
+    metaDescription: 'Los criptogramas son un nicho premium con poca competencia en Etsy. Aprenda a crear y vender este producto de alto valor.',
   },
   hero: {
     title: 'Fichas de Criptogramas: Nicho Premium para Etsy',
@@ -67,10 +67,10 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'criptogramas-fichas', anchorText: 'Generador de criptogramas' },
-    { pageType: 'app', slug: 'sopa-letras-fichas', anchorText: 'Generador de sopas de letras' },
-    { pageType: 'app', slug: 'crucigramas-fichas', anchorText: 'Generador de crucigramas' },
-    { pageType: 'app', slug: 'codigo-suma-fichas', anchorText: 'Generador de código suma' },
+    { pageType: 'app', slug: 'cryptogram-worksheets', anchorText: 'Generador de criptogramas' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Generador de sopas de letras' },
+    { pageType: 'app', slug: 'crossword-worksheets', anchorText: 'Generador de crucigramas' },
+    { pageType: 'app', slug: 'code-addition-worksheets', anchorText: 'Generador de código suma' },
   ],
   relatedPosts: [
     { slug: 'sopa-letras-imprimibles-ganancias', title: 'Sopas de letras imprimibles: cuánto se gana' },

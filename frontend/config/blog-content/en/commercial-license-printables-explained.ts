@@ -67,8 +67,8 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'guide', slug: 'commercial-license', anchorText: 'Learn about our commercial license' },
-    { pageType: 'start', slug: 'sell-educational-printables-etsy', anchorText: 'Start selling printables on Etsy' },
+    { pageType: 'guide', slug: 'understanding-commercial-licenses', anchorText: 'Learn about our commercial license' },
+    { pageType: 'guide', slug: 'sell-educational-printables-etsy', anchorText: 'Start selling printables on Etsy' },
     { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Try the Word Search Generator' },
   ],
   relatedPosts: [

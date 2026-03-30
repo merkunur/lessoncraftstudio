@@ -67,9 +67,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'coloriage-fiches', anchorText: 'Générateur de coloriages' },
-    { pageType: 'start', slug: 'guide-complet-activite-imprimables', anchorText: 'Guide complet imprimables' },
-    { pageType: 'guide', slug: 'marketing-imprimables-pinterest', anchorText: 'Guide Pinterest imprimables' },
+    { pageType: 'app', slug: 'coloring-worksheets', anchorText: 'Générateur de coloriages' },
+    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Guide complet imprimables' },
+    { pageType: 'guide', slug: 'pinterest-marketing-worksheets', anchorText: 'Guide Pinterest imprimables' },
   ],
   relatedPosts: [
     { slug: 'social-media-printable-sellers', title: 'Réseaux sociaux pour vendeurs d\'imprimables' },

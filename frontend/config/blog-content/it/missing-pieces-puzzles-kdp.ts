@@ -59,9 +59,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'pezzi-mancanti-schede', anchorText: 'Generatore Pezzi Mancanti' },
-    { pageType: 'app', slug: 'intruso-schede', anchorText: 'Generatore Trova l\'Intruso' },
-    { pageType: 'app', slug: 'sudoku-immagini-schede', anchorText: 'Generatore Sudoku Immagini' },
+    { pageType: 'app', slug: 'missing-pieces-worksheets', anchorText: 'Generatore Pezzi Mancanti' },
+    { pageType: 'app', slug: 'odd-one-out-worksheets', anchorText: 'Generatore Trova l\'Intruso' },
+    { pageType: 'app', slug: 'sudoku-worksheets', anchorText: 'Generatore Sudoku Immagini' },
   ],
   relatedPosts: [
     { slug: 'schede-intruso-vendere', title: 'Schede Trova l\'Intruso: Vendere' },

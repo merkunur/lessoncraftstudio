@@ -67,10 +67,10 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'mathe-raetsel-arbeitsblaetter', anchorText: 'Mathe-Raetsel-Generator' },
-    { pageType: 'app', slug: 'addition-arbeitsblaetter', anchorText: 'Additions-Generator' },
-    { pageType: 'guide', slug: 'mathe-raetsel-arbeitsblaetter-erstellen', anchorText: 'Anleitung: Mathe-Raetsel erstellen' },
-    { pageType: 'app', slug: 'code-additions-arbeitsblaetter', anchorText: 'Code-Additions-Generator' },
+    { pageType: 'app', slug: 'math-puzzle-worksheets', anchorText: 'Mathe-Raetsel-Generator' },
+    { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Additions-Generator' },
+    { pageType: 'guide', slug: 'create-math-puzzle-worksheets', anchorText: 'Anleitung: Mathe-Raetsel erstellen' },
+    { pageType: 'app', slug: 'code-addition-worksheets', anchorText: 'Code-Additions-Generator' },
   ],
   relatedPosts: [
     { slug: 'kreuzwortraetsel-buecher-kdp-nische', title: 'Kreuzwortraetsel-Buecher auf KDP' },

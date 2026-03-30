@@ -67,9 +67,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'criptogramas-fichas', anchorText: 'Gerador de Criptogramas' },
-    { pageType: 'app', slug: 'caca-palavras-fichas', anchorText: 'Gerador de Caça-Palavras' },
-    { pageType: 'app', slug: 'anagramas-fichas', anchorText: 'Gerador de Anagramas' },
+    { pageType: 'app', slug: 'cryptogram-worksheets', anchorText: 'Gerador de Criptogramas' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Gerador de Caça-Palavras' },
+    { pageType: 'app', slug: 'word-scramble-worksheets', anchorText: 'Gerador de Anagramas' },
   ],
   relatedPosts: [
     { slug: 'caca-palavras-imprimiveis-lucro', title: 'Caça-Palavras Imprimíveis: Lucro' },

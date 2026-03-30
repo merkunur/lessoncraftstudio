@@ -14,7 +14,7 @@ const content: BlogContent = {
       'occupational therapy printable activities',
     ],
     titleTag: 'Fine Motor Printables: Parents & Therapists | LCS',
-    metaDescription: 'Fine motor printables sell to parents, teachers, AND occupational therapists. Learn how to create and price activities for this underserved three-market niche.',
+    metaDescription: 'Fine motor printables sell to parents, teachers, AND occupational therapists. Learn to create and price activities for this three-market niche.',
   },
   hero: {
     title: 'Fine Motor Printables: Sell to Parents and Therapists',
@@ -67,10 +67,10 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'drawing-lines', anchorText: 'Line Tracing Activity Generator' },
-    { pageType: 'app', slug: 'coloring', anchorText: 'Fine Motor Coloring Creator' },
-    { pageType: 'app', slug: 'matching', anchorText: 'Hand-Eye Coordination Activities' },
-    { pageType: 'start', slug: 'sell-educational-printables-etsy', anchorText: 'Start your fine motor printable business' },
+    { pageType: 'app', slug: 'drawing-lines-worksheets', anchorText: 'Line Tracing Activity Generator' },
+    { pageType: 'app', slug: 'coloring-worksheets', anchorText: 'Fine Motor Coloring Creator' },
+    { pageType: 'app', slug: 'matching-worksheets', anchorText: 'Hand-Eye Coordination Activities' },
+    { pageType: 'guide', slug: 'sell-educational-printables-etsy', anchorText: 'Start your fine motor printable business' },
   ],
   relatedPosts: [
     { slug: 'special-education-printables-sell', title: 'Special Education Printables: High Demand, Low Competition' },

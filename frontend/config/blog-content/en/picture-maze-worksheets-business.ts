@@ -67,10 +67,10 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'picture-maze-worksheets', anchorText: 'Picture Maze Generator' },
-    { pageType: 'tool', slug: 'picture-maze-maker', anchorText: 'Try the maze maker free trial' },
+    { pageType: 'app', slug: 'picture-path-worksheets', anchorText: 'Picture Maze Generator' },
+    { pageType: 'tool', slug: 'picture-path-maker', anchorText: 'Try the maze maker free trial' },
     { pageType: 'guide', slug: 'create-maze-worksheets', anchorText: 'Maze worksheet creation guide' },
-    { pageType: 'bundle', slug: 'puzzle-games-bundle', anchorText: 'Puzzles & Games Bundle' },
+    { pageType: 'bundle', slug: 'puzzles-logic-bundle', anchorText: 'Puzzles & Games Bundle' },
   ],
   relatedPosts: [
     { slug: 'hidden-object-worksheets-business', title: 'Hidden Object Worksheets: Build a Product Line That Scales' },

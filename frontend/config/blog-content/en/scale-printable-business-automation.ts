@@ -69,8 +69,8 @@ const content: BlogContent = {
   internalLinks: [
     { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Batch-create word searches in minutes' },
     { pageType: 'guide', slug: 'create-worksheet-bundles', anchorText: 'Build profitable bundles' },
-    { pageType: 'start', slug: 'sell-educational-printables-etsy', anchorText: 'Start your printable business' },
-    { pageType: 'guide', slug: 'scaling-printable-business', anchorText: 'Complete scaling guide' },
+    { pageType: 'guide', slug: 'sell-educational-printables-etsy', anchorText: 'Start your printable business' },
+    { pageType: 'start', slug: 'scaling-printable-business', anchorText: 'Complete scaling guide' },
   ],
   relatedPosts: [
     { slug: 'batch-create-worksheets-efficiently', title: 'Batch Create Worksheets Efficiently' },

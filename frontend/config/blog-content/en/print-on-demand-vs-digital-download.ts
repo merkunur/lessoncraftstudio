@@ -69,7 +69,7 @@ const content: BlogContent = {
   internalLinks: [
     { pageType: 'guide', slug: 'kdp-formatting-worksheets', anchorText: 'KDP formatting guide for worksheets' },
     { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Create word search books for KDP' },
-    { pageType: 'start', slug: 'sell-educational-printables-etsy', anchorText: 'Start selling digital downloads' },
+    { pageType: 'guide', slug: 'sell-educational-printables-etsy', anchorText: 'Start selling digital downloads' },
     { pageType: 'app', slug: 'math-puzzle-worksheets', anchorText: 'Create math puzzle books' },
   ],
   relatedPosts: [

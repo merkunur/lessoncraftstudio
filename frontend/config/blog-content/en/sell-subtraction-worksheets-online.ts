@@ -70,7 +70,7 @@ const content: BlogContent = {
     { pageType: 'app', slug: 'subtraction-worksheets', anchorText: 'Subtraction Worksheet Generator' },
     { pageType: 'tool', slug: 'subtraction-worksheet-maker', anchorText: 'Try the subtraction maker free trial' },
     { pageType: 'guide', slug: 'create-subtraction-worksheets', anchorText: 'Step-by-step subtraction guide' },
-    { pageType: 'idea', slug: 'subtraction-printables-niche', anchorText: 'Subtraction printables niche ideas' },
+    { pageType: 'idea', slug: 'math-facts-printable-ideas', anchorText: 'Subtraction printables niche ideas' },
   ],
   relatedPosts: [
     { slug: 'sell-addition-worksheets-etsy-guide', title: 'How to Sell Addition Worksheets on Etsy' },

@@ -35,9 +35,9 @@ const content: BlogContent = {
     { question: 'Kan jeg kombinere tælleark med andre produkttyper?', answer: 'Absolut. Tælleark + matchning + sortering = "Visuel Matematik Pakke" er en populær kombination der sælger til højere priser end de individuelle produkter.' }
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'find-og-tael-arbejdsark', anchorText: 'Find og Tæl Generator' },
-    { pageType: 'app', slug: 'addition-arbejdsark', anchorText: 'Additions-Generator' },
-    { pageType: 'app', slug: 'sorterings-arbejdsark', anchorText: 'Sorterings-Generator' }
+    { pageType: 'app', slug: 'find-and-count-worksheets', anchorText: 'Find og Tæl Generator' },
+    { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Additions-Generator' },
+    { pageType: 'app', slug: 'picture-sort-worksheets', anchorText: 'Sorterings-Generator' }
   ],
   relatedPosts: [
     { slug: 'saelg-additions-arbejdsark-etsy-guide', title: 'Sælg Additions-Arbejdsark på Etsy' },

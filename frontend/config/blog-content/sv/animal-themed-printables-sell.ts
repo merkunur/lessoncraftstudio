@@ -63,9 +63,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'matchning-arbetsblad', anchorText: 'Matchnings-Generator med Djurtema' },
-    { pageType: 'app', slug: 'ordsoek-arbetsblad', anchorText: 'Djur-Ordsöks-Generator' },
-    { pageType: 'app', slug: 'hitta-och-raekna-arbetsblad', anchorText: 'Hitta och Räkna med Djur' },
+    { pageType: 'app', slug: 'matching-worksheets', anchorText: 'Matchnings-Generator med Djurtema' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Djur-Ordsöks-Generator' },
+    { pageType: 'app', slug: 'find-and-count-worksheets', anchorText: 'Hitta och Räkna med Djur' },
   ],
   relatedPosts: [
     { slug: 'dinosaurie-printables-saelja-evergreen', title: 'Dinosaurie-Utskrifter: Evergreen Försäljning' },

@@ -67,7 +67,7 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'iso-pieni-tyoarkit', anchorText: 'Generaattori' },
+    { pageType: 'app', slug: 'big-small-worksheets', anchorText: 'Generaattori' },
   ],
   relatedPosts: [
     { slug: 'kuvio-tyoarkit-myy-verkossa', title: 'Kuviotyoarkit: myy verkossa' },

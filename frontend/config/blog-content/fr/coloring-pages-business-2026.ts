@@ -67,10 +67,10 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'coloriage-fiches', anchorText: 'Générateur de coloriages' },
-    { pageType: 'tool', slug: 'coloriage-fiches', anchorText: 'Essayer le générateur de coloriage' },
-    { pageType: 'app', slug: 'dessiner-et-colorier-fiches', anchorText: 'Générateur dessiner et colorier' },
-    { pageType: 'app', slug: 'addition-fiches', anchorText: 'Générateur de fiches d\'addition' },
+    { pageType: 'app', slug: 'coloring-worksheets', anchorText: 'Générateur de coloriages' },
+    { pageType: 'tool', slug: 'coloring-page-maker', anchorText: 'Essayer le générateur de coloriage' },
+    { pageType: 'app', slug: 'draw-and-color-worksheets', anchorText: 'Générateur dessiner et colorier' },
+    { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Générateur de fiches d\'addition' },
   ],
   relatedPosts: [
     { slug: 'guide-vendre-fiches-addition-etsy', title: 'Vendre des fiches d\'addition sur Etsy : guide complet' },

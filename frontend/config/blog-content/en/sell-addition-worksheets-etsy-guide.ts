@@ -74,8 +74,8 @@ const content: BlogContent = {
     { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Addition Worksheet Generator' },
     { pageType: 'tool', slug: 'addition-worksheet-maker', anchorText: 'Try the free trial addition maker' },
     { pageType: 'guide', slug: 'create-addition-worksheets', anchorText: 'Step-by-step creation guide' },
-    { pageType: 'bundle', slug: 'math-number-bundle', anchorText: 'Math & Number Bundle' },
-    { pageType: 'start', slug: 'sell-math-worksheets-etsy', anchorText: 'Start selling math worksheets' },
+    { pageType: 'bundle', slug: 'math-mastery-bundle', anchorText: 'Math & Number Bundle' },
+    { pageType: 'guide', slug: 'sell-math-worksheets-etsy', anchorText: 'Start selling math worksheets' },
   ],
   relatedPosts: [
     { slug: 'sell-subtraction-worksheets-online', title: 'Sell Subtraction Worksheets Online' },

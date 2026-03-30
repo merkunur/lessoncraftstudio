@@ -67,9 +67,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'wortsuche-arbeitsblaetter', anchorText: 'Halloween-Wortsuche erstellen' },
-    { pageType: 'app', slug: 'suchbilder-arbeitsblaetter', anchorText: 'Halloween-Suchbilder generieren' },
-    { pageType: 'start', slug: 'druckvorlagen-auf-etsy-verkaufen', anchorText: 'Etsy-Shop fuer Druckvorlagen starten' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Halloween-Wortsuche erstellen' },
+    { pageType: 'app', slug: 'find-objects-worksheets', anchorText: 'Halloween-Suchbilder generieren' },
+    { pageType: 'start', slug: 'etsy-printable-business', anchorText: 'Etsy-Shop fuer Druckvorlagen starten' },
   ],
   relatedPosts: [
     { slug: 'beste-druckvorlagen-verkaufen-weihnachten', title: 'Beste Druckvorlagen fuer Weihnachten 2026 verkaufen' },

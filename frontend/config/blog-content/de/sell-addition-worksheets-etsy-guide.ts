@@ -67,10 +67,10 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'addition-arbeitsblaetter', anchorText: 'Additions-Arbeitsblatt-Generator' },
-    { pageType: 'tool', slug: 'addition-arbeitsblaetter', anchorText: 'Kostenlose Testversion des Additions-Generators ausprobieren' },
-    { pageType: 'guide', slug: 'addition-arbeitsblaetter-erstellen', anchorText: 'Schritt-fuer-Schritt-Anleitung zur Erstellung' },
-    { pageType: 'bundle', slug: 'mathe-zahlen-paket', anchorText: 'Mathe- und Zahlen-Bundle' },
+    { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Additions-Arbeitsblatt-Generator' },
+    { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Kostenlose Testversion des Additions-Generators ausprobieren' },
+    { pageType: 'guide', slug: 'create-addition-worksheets', anchorText: 'Schritt-fuer-Schritt-Anleitung zur Erstellung' },
+    { pageType: 'bundle', slug: 'math-mastery-bundle', anchorText: 'Mathe- und Zahlen-Bundle' },
   ],
   relatedPosts: [
     { slug: 'subtraktions-arbeitsblaetter-online-verkaufen', title: 'Subtraktions-Arbeitsblaetter online verkaufen' },

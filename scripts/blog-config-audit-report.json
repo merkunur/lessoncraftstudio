@@ -1,0 +1,158 @@
+{
+  "timestamp": "2026-03-30T19:33:37.887Z",
+  "summary": {
+    "totalExpected": 1232,
+    "totalFound": 1232,
+    "totalMissing": 0,
+    "seoIssues": 0,
+    "academicContent": 0,
+    "brokenInternalLinks": 0,
+    "brokenRelatedPosts": 0,
+    "hreflangIssues": 0,
+    "structureIssues": 0
+  },
+  "perLocale": {
+    "en": {
+      "inventory": {
+        "found": 112,
+        "missing": [],
+        "extra": []
+      }
+    },
+    "de": {
+      "inventory": {
+        "found": 112,
+        "missing": [],
+        "extra": []
+      }
+    },
+    "fr": {
+      "inventory": {
+        "found": 112,
+        "missing": [],
+        "extra": []
+      }
+    },
+    "es": {
+      "inventory": {
+        "found": 112,
+        "missing": [],
+        "extra": []
+      }
+    },
+    "pt": {
+      "inventory": {
+        "found": 112,
+        "missing": [],
+        "extra": []
+      }
+    },
+    "it": {
+      "inventory": {
+        "found": 112,
+        "missing": [],
+        "extra": []
+      }
+    },
+    "nl": {
+      "inventory": {
+        "found": 112,
+        "missing": [],
+        "extra": []
+      }
+    },
+    "sv": {
+      "inventory": {
+        "found": 112,
+        "missing": [],
+        "extra": []
+      }
+    },
+    "da": {
+      "inventory": {
+        "found": 112,
+        "missing": [],
+        "extra": []
+      }
+    },
+    "no": {
+      "inventory": {
+        "found": 112,
+        "missing": [],
+        "extra": []
+      }
+    },
+    "fi": {
+      "inventory": {
+        "found": 112,
+        "missing": [],
+        "extra": []
+      }
+    }
+  },
+  "issues": [
+    {
+      "check": "teacher-phrase",
+      "locale": "en",
+      "blogId": "find-and-count-printables-profit",
+      "severity": "LOW",
+      "message": "Teacher phrase found (review needed): \"curriculum alignment\""
+    },
+    {
+      "check": "teacher-phrase",
+      "locale": "en",
+      "blogId": "best-printable-niches-low-competition",
+      "severity": "LOW",
+      "message": "Teacher phrase found (review needed): \"Common Core\""
+    },
+    {
+      "check": "teacher-phrase",
+      "locale": "en",
+      "blogId": "tpt-vs-etsy-worksheets-comparison",
+      "severity": "LOW",
+      "message": "Teacher phrase found (review needed): \"lesson plan\""
+    },
+    {
+      "check": "teacher-phrase",
+      "locale": "en",
+      "blogId": "tpt-vs-etsy-worksheets-comparison",
+      "severity": "LOW",
+      "message": "Teacher phrase found (review needed): \"Common Core\""
+    },
+    {
+      "check": "teacher-phrase",
+      "locale": "en",
+      "blogId": "tpt-vs-etsy-worksheets-comparison",
+      "severity": "LOW",
+      "message": "Teacher phrase found (review needed): \"CCSS\""
+    },
+    {
+      "check": "teacher-phrase",
+      "locale": "en",
+      "blogId": "homeschool-printables-growing-market",
+      "severity": "LOW",
+      "message": "Teacher phrase found (review needed): \"Common Core\""
+    },
+    {
+      "check": "teacher-phrase",
+      "locale": "en",
+      "blogId": "travel-activity-printables-sell",
+      "severity": "LOW",
+      "message": "Teacher phrase found (review needed): \"Common Core\""
+    },
+    {
+      "check": "teacher-phrase",
+      "locale": "en",
+      "blogId": "food-themed-worksheets-sell",
+      "severity": "LOW",
+      "message": "Teacher phrase found (review needed): \"curriculum alignment\""
+    },
+    {
+      "check": "teacher-phrase",
+      "locale": "en",
+      "blogId": "create-printable-curriculum-packs",
+      "severity": "LOW",
+      "message": "Teacher phrase found (review needed): \"lesson plan\""
+    }
+  ]
+}

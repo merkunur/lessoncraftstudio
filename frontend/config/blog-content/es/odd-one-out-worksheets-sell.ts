@@ -6,7 +6,7 @@ const content: BlogContent = {
     secondaryKeywords: ['vender fichas intruso Etsy niños', 'odd one out worksheets sell critical thinking', 'fichas cuál no pertenece negocio'],
     lsiKeywords: ['fichas pensamiento crítico infantil', 'imprimibles lógica razonamiento niños', 'odd one out printables business'],
     titleTag: 'Fichas del Intruso: Vender Pensamiento Crítico | LCS',
-    metaDescription: 'Las fichas del intruso enseñan pensamiento crítico, una habilidad premium que los padres buscan activamente. Nicho con altos márgenes. Prueba gratuita con marca de agua.',
+    metaDescription: 'Las fichas del intruso enseñan pensamiento crítico, una habilidad premium que padres buscan activamente. Nicho con altos márgenes.',
   },
   hero: {
     title: 'Fichas del Intruso: Vender Pensamiento Crítico',
@@ -56,10 +56,10 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'intruso-fichas', anchorText: 'Generador de fichas del intruso' },
-    { pageType: 'app', slug: 'clasificacion-fichas', anchorText: 'Generador de clasificación' },
-    { pageType: 'app', slug: 'patrones-fichas', anchorText: 'Generador de patrones' },
-    { pageType: 'app', slug: 'cuadricula-asociacion-fichas', anchorText: 'Generador de cuadrícula lógica' },
+    { pageType: 'app', slug: 'odd-one-out-worksheets', anchorText: 'Generador de fichas del intruso' },
+    { pageType: 'app', slug: 'picture-sort-worksheets', anchorText: 'Generador de clasificación' },
+    { pageType: 'app', slug: 'pattern-worksheets', anchorText: 'Generador de patrones' },
+    { pageType: 'app', slug: 'grid-match-worksheets', anchorText: 'Generador de cuadrícula lógica' },
   ],
   relatedPosts: [
     { slug: 'guia-vender-fichas-suma-etsy', title: 'Vender fichas de suma en Etsy: guía completa' },

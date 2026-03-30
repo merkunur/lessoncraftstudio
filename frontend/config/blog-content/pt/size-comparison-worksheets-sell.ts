@@ -67,9 +67,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'comparacao-tamanhos-fichas', anchorText: 'Gerador Comparação Tamanhos' },
-    { pageType: 'app', slug: 'mais-menos-fichas', anchorText: 'Gerador Mais/Menos' },
-    { pageType: 'app', slug: 'classificacao-fichas', anchorText: 'Gerador Classificação' },
+    { pageType: 'app', slug: 'big-small-worksheets', anchorText: 'Gerador Comparação Tamanhos' },
+    { pageType: 'app', slug: 'more-less-worksheets', anchorText: 'Gerador Mais/Menos' },
+    { pageType: 'app', slug: 'picture-sort-worksheets', anchorText: 'Gerador Classificação' },
   ],
   relatedPosts: [
     { slug: 'fichas-mais-menos-vender', title: 'Fichas Mais/Menos: Vender' },

@@ -67,9 +67,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'crucigramas-fichas', anchorText: 'Generador de crucigramas educativos' },
-    { pageType: 'start', slug: 'guia-completa-negocio-imprimibles', anchorText: 'Guia para iniciar su negocio' },
-    { pageType: 'guide', slug: 'precios-imprimibles-etsy', anchorText: 'Guia de precios para imprimibles' },
+    { pageType: 'app', slug: 'crossword-worksheets', anchorText: 'Generador de crucigramas educativos' },
+    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Guia para iniciar su negocio' },
+    { pageType: 'guide', slug: 'price-etsy-printables', anchorText: 'Guia de precios para imprimibles' },
   ],
   relatedPosts: [
     { slug: 'printable-bundle-strategy-etsy', title: 'Estrategia de Paquetes en Etsy' },

@@ -59,9 +59,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'mots-caches-fiches', anchorText: 'Mots cachés en 11 langues' },
-    { pageType: 'start', slug: 'guide-complet-activite-imprimables', anchorText: 'Guide complet imprimables' },
-    { pageType: 'guide', slug: 'imprimables-multilingues', anchorText: 'Guide imprimables multilingues' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Mots cachés en 11 langues' },
+    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Guide complet imprimables' },
+    { pageType: 'guide', slug: 'multilingual-printable-business', anchorText: 'Guide imprimables multilingues' },
   ],
   relatedPosts: [
     { slug: '11-languages-sell-globally', title: '11 langues pour vendre mondialement' },

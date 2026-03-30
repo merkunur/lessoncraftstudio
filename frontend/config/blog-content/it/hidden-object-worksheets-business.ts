@@ -59,9 +59,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'oggetti-nascosti-schede', anchorText: 'Generatore Oggetti Nascosti' },
-    { pageType: 'app', slug: 'trova-e-conta-schede', anchorText: 'Generatore Trova e Conta' },
-    { pageType: 'app', slug: 'labirinti-immagini-schede', anchorText: 'Generatore Labirinti' },
+    { pageType: 'app', slug: 'find-objects-worksheets', anchorText: 'Generatore Oggetti Nascosti' },
+    { pageType: 'app', slug: 'find-and-count-worksheets', anchorText: 'Generatore Trova e Conta' },
+    { pageType: 'app', slug: 'picture-path-worksheets', anchorText: 'Generatore Labirinti' },
   ],
   relatedPosts: [
     { slug: 'trova-e-conta-stampabili-profitto', title: 'Trova e Conta Stampabili: Profitto' },

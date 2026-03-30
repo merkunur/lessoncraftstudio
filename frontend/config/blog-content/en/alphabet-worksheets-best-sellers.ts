@@ -67,10 +67,10 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'alphabet-worksheets', anchorText: 'Alphabet Worksheet Generator' },
-    { pageType: 'tool', slug: 'alphabet-worksheet-maker', anchorText: 'Try the alphabet maker free trial' },
+    { pageType: 'app', slug: 'alphabet-train-worksheets', anchorText: 'Alphabet Worksheet Generator' },
+    { pageType: 'tool', slug: 'alphabet-train-maker', anchorText: 'Try the alphabet maker free trial' },
     { pageType: 'guide', slug: 'create-alphabet-worksheets', anchorText: 'Alphabet worksheet guide' },
-    { pageType: 'bundle', slug: 'letters-words-bundle', anchorText: 'Letters & Words Bundle' },
+    { pageType: 'bundle', slug: 'literacy-language-bundle', anchorText: 'Letters & Words Bundle' },
   ],
   relatedPosts: [
     { slug: 'handwriting-worksheets-etsy-niche', title: 'Handwriting Worksheets: What\'s Selling on Etsy in 2026' },

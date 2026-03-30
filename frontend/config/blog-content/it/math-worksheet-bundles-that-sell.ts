@@ -67,9 +67,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'addizione-schede', anchorText: 'Generatore Schede Addizione' },
-    { pageType: 'app', slug: 'sottrazione-schede', anchorText: 'Generatore Schede Sottrazione' },
-    { pageType: 'app', slug: 'codice-addizione-schede', anchorText: 'Generatore Puzzle Codice Addizione' },
+    { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Generatore Schede Addizione' },
+    { pageType: 'app', slug: 'subtraction-worksheets', anchorText: 'Generatore Schede Sottrazione' },
+    { pageType: 'app', slug: 'code-addition-worksheets', anchorText: 'Generatore Puzzle Codice Addizione' },
   ],
   relatedPosts: [
     { slug: 'guida-vendere-schede-addizione-etsy', title: 'Guida: Vendere Schede Addizione su Etsy' },

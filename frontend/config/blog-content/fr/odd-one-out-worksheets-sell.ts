@@ -67,10 +67,10 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'intrus-fiches', anchorText: 'Générateur de fiches intrus' },
-    { pageType: 'tool', slug: 'intrus-fiches', anchorText: 'Essayer le générateur d\'intrus' },
-    { pageType: 'app', slug: 'tri-fiches', anchorText: 'Générateur de fiches de tri' },
-    { pageType: 'app', slug: 'motifs-fiches', anchorText: 'Générateur de fiches de motifs' },
+    { pageType: 'app', slug: 'odd-one-out-worksheets', anchorText: 'Générateur de fiches intrus' },
+    { pageType: 'tool', slug: 'odd-one-out-maker', anchorText: 'Essayer le générateur d\'intrus' },
+    { pageType: 'app', slug: 'picture-sort-worksheets', anchorText: 'Générateur de fiches de tri' },
+    { pageType: 'app', slug: 'pattern-worksheets', anchorText: 'Générateur de fiches de motifs' },
   ],
   relatedPosts: [
     { slug: 'packs-fiches-maths-qui-se-vendent', title: 'Packs de fiches maths qui se vendent' },

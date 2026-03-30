@@ -67,8 +67,8 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'sananhaku-tyoarkit', anchorText: 'Kokeile generaattoria' },
-    { pageType: 'app', slug: 'varityskuvat-tyoarkit', anchorText: 'Varityssivugeneraattori' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Kokeile generaattoria' },
+    { pageType: 'app', slug: 'coloring-worksheets', anchorText: 'Varityssivugeneraattori' },
   ],
   relatedPosts: [
     { slug: 'kausikalenteri-tulosteet-myyjat', title: 'Kausikalenteri tulostekauppiaalle' },

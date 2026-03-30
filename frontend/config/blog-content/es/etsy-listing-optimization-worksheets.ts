@@ -67,9 +67,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'colorear-fichas', anchorText: 'Generador de fichas para colorear' },
-    { pageType: 'start', slug: 'guia-completa-negocio-imprimibles', anchorText: 'Guia completa para iniciar su negocio' },
-    { pageType: 'guide', slug: 'optimizar-listings-etsy-fichas', anchorText: 'Guia avanzada de optimizacion de listings' },
+    { pageType: 'app', slug: 'coloring-worksheets', anchorText: 'Generador de fichas para colorear' },
+    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Guia completa para iniciar su negocio' },
+    { pageType: 'guide', slug: 'etsy-seo-educational-printables', anchorText: 'Guia avanzada de optimizacion de listings' },
   ],
   relatedPosts: [
     { slug: 'etsy-seo-printable-sellers-2026', title: 'SEO en Etsy para Vendedores de Imprimibles 2026' },

@@ -69,8 +69,8 @@ const content: BlogContent = {
   internalLinks: [
     { pageType: 'app', slug: 'word-scramble-worksheets', anchorText: 'Word Scramble Generator' },
     { pageType: 'tool', slug: 'word-scramble-maker', anchorText: 'Try the word scramble maker free trial' },
-    { pageType: 'guide', slug: 'create-word-scramble-worksheets', anchorText: 'Word scramble creation guide' },
-    { pageType: 'bundle', slug: 'letters-words-bundle', anchorText: 'Letters & Words Bundle' },
+    { pageType: 'guide', slug: 'create-word-search-puzzles', anchorText: 'Word scramble creation guide' },
+    { pageType: 'bundle', slug: 'literacy-language-bundle', anchorText: 'Letters & Words Bundle' },
   ],
   relatedPosts: [
     { slug: 'word-search-printables-profit', title: 'How Much Can You Earn Selling Word Search Printables?' },

@@ -67,9 +67,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'adicao-fichas', anchorText: 'Gerador de Fichas de Adição' },
-    { pageType: 'app', slug: 'caca-palavras-fichas', anchorText: 'Gerador de Caça-Palavras' },
-    { pageType: 'app', slug: 'colorir-fichas', anchorText: 'Gerador de Colorir' },
+    { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Gerador de Fichas de Adição' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Gerador de Caça-Palavras' },
+    { pageType: 'app', slug: 'coloring-worksheets', anchorText: 'Gerador de Colorir' },
   ],
   relatedPosts: [
     { slug: 'calendario-sazonal-vendedores-imprimiveis', title: 'Calendário Sazonal Vendedores' },

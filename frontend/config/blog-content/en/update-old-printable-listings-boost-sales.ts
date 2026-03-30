@@ -69,7 +69,7 @@ const content: BlogContent = {
   internalLinks: [
     { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Addition Worksheet Generator' },
     { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Word Search Generator' },
-    { pageType: 'start', slug: 'sell-educational-printables-etsy', anchorText: 'Etsy shop guide' },
+    { pageType: 'guide', slug: 'sell-educational-printables-etsy', anchorText: 'Etsy shop guide' },
     { pageType: 'guide', slug: 'etsy-seo-educational-printables', anchorText: 'Etsy SEO guide' },
   ],
   relatedPosts: [

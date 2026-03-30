@@ -67,9 +67,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'gitter-zuordnungs-arbeitsblaetter', anchorText: 'Gitter-Zuordnungs-Generator' },
-    { pageType: 'app', slug: 'bilder-sudoku-arbeitsblaetter', anchorText: 'Bilder-Sudoku-Generator' },
-    { pageType: 'app', slug: 'muster-arbeitsblaetter', anchorText: 'Muster-Generator' },
+    { pageType: 'app', slug: 'grid-match-worksheets', anchorText: 'Gitter-Zuordnungs-Generator' },
+    { pageType: 'app', slug: 'sudoku-worksheets', anchorText: 'Bilder-Sudoku-Generator' },
+    { pageType: 'app', slug: 'pattern-worksheets', anchorText: 'Muster-Generator' },
   ],
   relatedPosts: [
     { slug: 'bilder-sudoku-buecher-kdp', title: 'Bilder-Sudoku fuer Kinder: KDP ohne Konkurrenz' },

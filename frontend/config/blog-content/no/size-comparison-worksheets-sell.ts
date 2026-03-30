@@ -5,7 +5,7 @@ const content: BlogContent = {
     secondaryKeywords: ['størrelsessammenligning arbeidsark selge Etsy', 'størrelsessammenligning arbeidsark selge tips', 'størrelsessammenligning arbeidsark selge strategi'],
     lsiKeywords: ['utskrivbare arbeidsark bedrift', 'pedagogiske utskrifter salg', 'Etsy nedlasting'],
     titleTag: 'Størrelsessammenligning-arbeidsark: Selg på nett | LCS',
-    metaDescription: 'Størrelsessammenligning-arbeidsark: Selg på nett. Komplett guide til produktoppbygging, prissetting og markedsføring for størrelsessammenligning arbeidsark selge i 2026.',
+    metaDescription: 'Størrelsessammenligning-arbeidsark: Komplett guide til produktoppbygging, prissetting og markedsføring. Selg arbeidsark på nett i 2026.',
   },
   hero: {
     title: 'Størrelsessammenligning-arbeidsark: Selg på nett',
@@ -49,9 +49,9 @@ const content: BlogContent = {
     { question: 'Hvilke plattformer bør jeg selge på?', answer: 'Etsy for internasjonalt, Undervisningsbyen.no for norsk, Amazon KDP for trykte bøker. De mest lønnsomme selgerne er på alle tre.' },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'stor-og-liten-arbeidsark', anchorText: 'Prøv generatoren' },
-    { pageType: 'guide', slug: 'create-worksheets', anchorText: 'Guide til arbeidsark' },
-    { pageType: 'start', slug: 'sell-worksheets-etsy', anchorText: 'Kom i gang med å selge' },
+    { pageType: 'app', slug: 'big-small-worksheets', anchorText: 'Prøv generatoren' },
+    { pageType: 'guide', slug: 'create-addition-worksheets', anchorText: 'Guide til arbeidsark' },
+    { pageType: 'start', slug: 'create-worksheets-that-sell', anchorText: 'Kom i gang med å selge' },
   ],
   relatedPosts: [
     { slug: 'printable-pakke-strategi-etsy', title: 'Pakkestrategi for Etsy' },

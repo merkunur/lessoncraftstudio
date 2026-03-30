@@ -14,7 +14,7 @@ const content: BlogContent = {
       'size ordering activities printable',
     ],
     titleTag: 'Big & Small Worksheets: Toddler Sales | LCS',
-    metaDescription: 'Big and small worksheets are toddler printables that sell year-round. Learn how to create and price size comparison activities for the early learning market.',
+    metaDescription: 'Big and small worksheets are toddler printables that sell year-round. Learn to create and price size comparison activities for early learners.',
   },
   hero: {
     title: 'Big & Small Worksheets: Toddler Printables That Sell Year-Round',
@@ -67,10 +67,10 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'size-comparison-worksheets', anchorText: 'Size Comparison Generator' },
-    { pageType: 'tool', slug: 'size-comparison-maker', anchorText: 'Try the size comparison maker free trial' },
+    { pageType: 'app', slug: 'big-small-worksheets', anchorText: 'Size Comparison Generator' },
+    { pageType: 'tool', slug: 'big-and-small-worksheet-maker', anchorText: 'Try the size comparison maker free trial' },
     { pageType: 'guide', slug: 'create-size-comparison-worksheets', anchorText: 'Size comparison creation guide' },
-    { pageType: 'bundle', slug: 'visual-bundle', anchorText: 'Visual Activities Bundle' },
+    { pageType: 'bundle', slug: 'visual-learning-bundle', anchorText: 'Visual Activities Bundle' },
   ],
   relatedPosts: [
     { slug: 'more-less-worksheets-sell', title: 'More or Less Worksheets: The Early Math Niche' },

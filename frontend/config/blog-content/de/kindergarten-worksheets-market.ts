@@ -67,9 +67,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'addition-arbeitsblaetter', anchorText: 'Additions-Arbeitsblaetter erstellen' },
-    { pageType: 'app', slug: 'subtraktion-arbeitsblaetter', anchorText: 'Subtraktions-Generator' },
-    { pageType: 'app', slug: 'wortsuche-arbeitsblaetter', anchorText: 'Wortsuche-Raetsel erstellen' },
+    { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Additions-Arbeitsblaetter erstellen' },
+    { pageType: 'app', slug: 'subtraction-worksheets', anchorText: 'Subtraktions-Generator' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Wortsuche-Raetsel erstellen' },
   ],
   relatedPosts: [
     { slug: 'vorschule-druckvorlagen-bestseller', title: 'Vorschul-Druckvorlagen: Die Bestseller auf Etsy' },

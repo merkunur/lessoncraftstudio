@@ -67,10 +67,10 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'start', slug: 'sell-educational-printables-etsy', anchorText: 'Start your printable business' },
+    { pageType: 'guide', slug: 'sell-educational-printables-etsy', anchorText: 'Start your printable business' },
     { pageType: 'guide', slug: 'start-etsy-printable-shop', anchorText: 'Etsy printable shop guide' },
     { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Word Search Generator' },
-    { pageType: 'idea', slug: 'printable-business-ideas', anchorText: 'Printable business ideas' },
+    { pageType: 'idea', slug: 'christmas-printable-ideas', anchorText: 'Printable business ideas' },
   ],
   relatedPosts: [
     { slug: 'printable-business-income-realistic', title: 'Printable Business Income: Realistic Expectations' },

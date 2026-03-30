@@ -18,7 +18,7 @@ export const revalidate = 1800;
 const STATIC_CONTENT_DATE = new Date(process.env.BUILD_DATE || '2026-03-20');
 
 /**
- * Nine sitemaps (total ~3,020 URLs as of 2026-03-29):
+ * Ten sitemaps (total ~3,244 URLs as of 2026-03-30):
  * ID 0: Static pages (154 URLs) - homepage, apps, tools, bundles, start, guides, ideas, legal × 11 locales
  * ID 1: App detail pages (363 URLs) - 33 apps × 11 locales
  * ID 2: Sales pages (8 URLs) - WarriorPlus product pages (English only)
@@ -28,7 +28,7 @@ const STATIC_CONTENT_DATE = new Date(process.env.BUILD_DATE || '2026-03-20');
  * ID 6: Guide pages (585 URLs) - 65 Create X guides × 9 locales
  * ID 7: Idea pages (405 URLs) - 45 niche idea pages × 9 locales
  * ID 8: Compare pages (3 URLs) - comparison pages (English only for now)
- * ID 9: Blog pages (~1,008 URLs) - 112 blog posts × 9 locales
+ * ID 9: Blog pages (1,232 URLs) - 112 blog posts × 11 locales
  *
  * Image discovery is handled by dedicated image sitemaps at /image-sitemap/{id}
  * (referenced via /image-sitemap-index.xml in robots.txt).

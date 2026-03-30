@@ -34,9 +34,9 @@ const content: BlogContent = {
     { question: 'Selger koblingsoppgaver godt på Etsy?', answer: 'Ja, «matching worksheets» er blant de mest populære kategoriene for småbarnsutskrifter på Etsy. Både digitale nedlastinger og trykte varianter selger.' },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'kobling-arbeidsark', anchorText: 'Koblingsoppgave-generator' },
-    { pageType: 'app', slug: 'skyggematching-arbeidsark', anchorText: 'Skyggekobling-generator' },
-    { pageType: 'app', slug: 'bildesortering-arbeidsark', anchorText: 'Sorteringsoppgave-generator' },
+    { pageType: 'app', slug: 'matching-worksheets', anchorText: 'Koblingsoppgave-generator' },
+    { pageType: 'app', slug: 'shadow-match-worksheets', anchorText: 'Skyggekobling-generator' },
+    { pageType: 'app', slug: 'picture-sort-worksheets', anchorText: 'Sorteringsoppgave-generator' },
   ],
   relatedPosts: [
     { slug: 'skyggekobling-arbeidsark-selg', title: 'Skyggekobling-arbeidsark selge' },

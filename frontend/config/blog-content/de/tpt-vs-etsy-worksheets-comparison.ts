@@ -67,9 +67,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'start', slug: 'druckvorlagen-auf-etsy-verkaufen', anchorText: 'Druckvorlagen auf Etsy verkaufen' },
-    { pageType: 'app', slug: 'addition-arbeitsblaetter', anchorText: 'Additions-Generator' },
-    { pageType: 'guide', slug: 'arbeitsblaetter-pakete-erstellen', anchorText: 'Arbeitsblaetter-Pakete erstellen' },
+    { pageType: 'start', slug: 'etsy-printable-business', anchorText: 'Druckvorlagen auf Etsy verkaufen' },
+    { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Additions-Generator' },
+    { pageType: 'guide', slug: 'create-worksheet-bundles', anchorText: 'Arbeitsblaetter-Pakete erstellen' },
   ],
   relatedPosts: [
     { slug: 'kdp-vs-etsy-which-earns-more', title: 'KDP vs Etsy Vergleich' },

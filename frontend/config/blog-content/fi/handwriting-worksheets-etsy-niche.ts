@@ -50,9 +50,9 @@ const content: BlogContent = {
     { question: 'Miten suomenkieliset kaunokirjoitustyoarkit eroavat englanninkielisista?', answer: 'Suomalainen aakkosto sisaltaa 29 kirjainta mukaan lukien a, o ja a. Nama erikoiskirjaimet puuttuvat kansainvalisista tuotteista mika on kilpailuetusi.' },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'kasinkirjoitus-tyoarkit', anchorText: 'Kaunokirjoitusgeneraattori' },
-    { pageType: 'app', slug: 'aakkosjuna-tyoarkit', anchorText: 'Aakkosjunageneraattori' },
-    { pageType: 'guide', slug: 'create-handwriting-worksheets', anchorText: 'Kaunokirjoitustyoarkkien luontiopas' },
+    { pageType: 'app', slug: 'writing-worksheets', anchorText: 'Kaunokirjoitusgeneraattori' },
+    { pageType: 'app', slug: 'alphabet-train-worksheets', anchorText: 'Aakkosjunageneraattori' },
+    { pageType: 'guide', slug: 'create-handwriting-sheets', anchorText: 'Kaunokirjoitustyoarkkien luontiopas' },
   ],
   relatedPosts: [
     { slug: 'aakkoset-tyoarkit-myydyimmat', title: 'Aakkostyoarkit: myydyimmat tuotteet' },

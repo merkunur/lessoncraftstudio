@@ -67,10 +67,10 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'devinettes-mots-fiches', anchorText: 'Générateur de devinettes de mots' },
-    { pageType: 'tool', slug: 'devinettes-mots-fiches', anchorText: 'Essayer le générateur de devinettes' },
-    { pageType: 'app', slug: 'mots-caches-fiches', anchorText: 'Générateur de mots cachés' },
-    { pageType: 'app', slug: 'anagrammes-fiches', anchorText: 'Générateur d\'anagrammes' },
+    { pageType: 'app', slug: 'word-guess-worksheets', anchorText: 'Générateur de devinettes de mots' },
+    { pageType: 'tool', slug: 'word-guess-maker', anchorText: 'Essayer le générateur de devinettes' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Générateur de mots cachés' },
+    { pageType: 'app', slug: 'word-scramble-worksheets', anchorText: 'Générateur d\'anagrammes' },
   ],
   relatedPosts: [
     { slug: 'mots-caches-imprimables-profits', title: 'Mots cachés imprimables : combien peut-on gagner ?' },

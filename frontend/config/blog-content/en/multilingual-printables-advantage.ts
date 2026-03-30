@@ -68,8 +68,8 @@ const content: BlogContent = {
   ],
   internalLinks: [
     { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Try the Word Search Generator in 11 languages' },
-    { pageType: 'guide', slug: 'multilingual-worksheets', anchorText: 'Guide to multilingual worksheet creation' },
-    { pageType: 'start', slug: 'sell-educational-printables-etsy', anchorText: 'Start selling printables on Etsy' },
+    { pageType: 'guide', slug: 'worksheets-multiple-languages', anchorText: 'Guide to multilingual worksheet creation' },
+    { pageType: 'guide', slug: 'sell-educational-printables-etsy', anchorText: 'Start selling printables on Etsy' },
     { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Create addition worksheets in any language' },
   ],
   relatedPosts: [

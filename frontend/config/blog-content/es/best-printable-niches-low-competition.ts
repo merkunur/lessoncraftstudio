@@ -67,9 +67,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'bingo-fichas', anchorText: 'Generador de bingo educativo' },
-    { pageType: 'start', slug: 'guia-completa-negocio-imprimibles', anchorText: 'Guia para empezar su negocio' },
-    { pageType: 'guide', slug: 'encontrar-nicho-imprimibles', anchorText: 'Como encontrar su nicho' },
+    { pageType: 'app', slug: 'picture-bingo-worksheets', anchorText: 'Generador de bingo educativo' },
+    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Guia para empezar su negocio' },
+    { pageType: 'guide', slug: 'niche-selection-printables', anchorText: 'Como encontrar su nicho' },
   ],
   relatedPosts: [
     { slug: 'esl-worksheets-global-market', title: 'Fichas ELE: Mercado Global' },

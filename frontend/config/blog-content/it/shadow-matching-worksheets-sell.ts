@@ -59,9 +59,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'abbinamento-ombre-schede', anchorText: 'Generatore Abbinamento Ombre' },
-    { pageType: 'app', slug: 'abbinamento-schede', anchorText: 'Generatore Abbinamento' },
-    { pageType: 'app', slug: 'intruso-schede', anchorText: 'Generatore Trova l\'Intruso' },
+    { pageType: 'app', slug: 'shadow-match-worksheets', anchorText: 'Generatore Abbinamento Ombre' },
+    { pageType: 'app', slug: 'matching-worksheets', anchorText: 'Generatore Abbinamento' },
+    { pageType: 'app', slug: 'odd-one-out-worksheets', anchorText: 'Generatore Trova l\'Intruso' },
   ],
   relatedPosts: [
     { slug: 'schede-abbinamento-mercato-bambini-piccoli', title: 'Schede Abbinamento: Bambini Piccoli' },

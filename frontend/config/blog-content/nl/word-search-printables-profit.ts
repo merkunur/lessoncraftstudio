@@ -67,10 +67,10 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'woordzoeker-werkbladen', anchorText: 'Woordzoeker Generator' },
-    { pageType: 'app', slug: 'kruiswoordpuzzel-werkbladen', anchorText: 'Kruiswoordpuzzel Generator' },
-    { pageType: 'guide', slug: 'woordpuzzels-verkopen', anchorText: 'Woordpuzzels verkopen gids' },
-    { pageType: 'start', slug: 'puzzels-verkopen-etsy', anchorText: 'Begin met puzzels verkopen' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Woordzoeker Generator' },
+    { pageType: 'app', slug: 'crossword-worksheets', anchorText: 'Kruiswoordpuzzel Generator' },
+    { pageType: 'guide', slug: 'sell-word-search-etsy', anchorText: 'Woordpuzzels verkopen gids' },
+    { pageType: 'start', slug: 'etsy-printable-business', anchorText: 'Begin met puzzels verkopen' },
   ],
   relatedPosts: [
     { slug: 'optellen-werkbladen-verkopen-etsy-gids', title: 'Optellen Werkbladen Verkopen op Etsy' },

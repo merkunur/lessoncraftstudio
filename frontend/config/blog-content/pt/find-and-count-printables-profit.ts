@@ -67,9 +67,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'encontrar-e-contar-fichas', anchorText: 'Gerador Encontrar e Contar' },
-    { pageType: 'app', slug: 'graficos-contagem-fichas', anchorText: 'Gerador Gráficos e Contagem' },
-    { pageType: 'app', slug: 'objetos-escondidos-fichas', anchorText: 'Gerador Objetos Escondidos' },
+    { pageType: 'app', slug: 'find-and-count-worksheets', anchorText: 'Gerador Encontrar e Contar' },
+    { pageType: 'app', slug: 'chart-count-worksheets', anchorText: 'Gerador Gráficos e Contagem' },
+    { pageType: 'app', slug: 'find-objects-worksheets', anchorText: 'Gerador Objetos Escondidos' },
   ],
   relatedPosts: [
     { slug: 'fichas-graficos-contagem-negocio', title: 'Fichas Gráficos Contagem: Negócio' },

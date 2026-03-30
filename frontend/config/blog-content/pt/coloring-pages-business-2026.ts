@@ -67,9 +67,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'colorir-fichas', anchorText: 'Gerador de Colorir' },
-    { pageType: 'app', slug: 'desenhar-e-colorir-fichas', anchorText: 'Gerador Desenhar e Colorir' },
-    { pageType: 'app', slug: 'padroes-fichas', anchorText: 'Gerador de Padrões' },
+    { pageType: 'app', slug: 'coloring-worksheets', anchorText: 'Gerador de Colorir' },
+    { pageType: 'app', slug: 'draw-and-color-worksheets', anchorText: 'Gerador Desenhar e Colorir' },
+    { pageType: 'app', slug: 'pattern-worksheets', anchorText: 'Gerador de Padrões' },
   ],
   relatedPosts: [
     { slug: 'fichas-desenhar-e-colorir-vender', title: 'Fichas Desenhar e Colorir' },

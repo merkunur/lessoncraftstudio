@@ -67,8 +67,8 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'matematiikkapulmat-tyoarkit', anchorText: 'Matematiikkapulmageneraattori' },
-    { pageType: 'app', slug: 'kuva-yhteenlasku-tyoarkit', anchorText: 'Kuvayhteenlaskugeneraattori' },
+    { pageType: 'app', slug: 'math-puzzle-worksheets', anchorText: 'Matematiikkapulmageneraattori' },
+    { pageType: 'app', slug: 'code-addition-worksheets', anchorText: 'Kuvayhteenlaskugeneraattori' },
     { pageType: 'guide', slug: 'create-math-puzzle-worksheets', anchorText: 'Matematiikkapulmien luontiopas' },
   ],
   relatedPosts: [

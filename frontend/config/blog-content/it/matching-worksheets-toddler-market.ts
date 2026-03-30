@@ -59,9 +59,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'abbinamento-schede', anchorText: 'Generatore Schede Abbinamento' },
-    { pageType: 'app', slug: 'abbinamento-ombre-schede', anchorText: 'Generatore Abbinamento Ombre' },
-    { pageType: 'app', slug: 'classificazione-schede', anchorText: 'Generatore Schede Classificazione' },
+    { pageType: 'app', slug: 'matching-worksheets', anchorText: 'Generatore Schede Abbinamento' },
+    { pageType: 'app', slug: 'shadow-match-worksheets', anchorText: 'Generatore Abbinamento Ombre' },
+    { pageType: 'app', slug: 'picture-sort-worksheets', anchorText: 'Generatore Schede Classificazione' },
   ],
   relatedPosts: [
     { slug: 'schede-abbinamento-ombre-vendere', title: 'Schede Abbinamento Ombre: Vendere' },

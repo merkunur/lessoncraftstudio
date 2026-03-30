@@ -50,9 +50,9 @@ const content: BlogContent = {
     { question: 'Onko ruudukkoyhdistamispulmille riittavasti kysynta?', answer: 'Kysynta kasvaa koska STEM-koulutus ja loogisen ajattelun taidot ovat trendeja. Matala kilpailu tarkoittaa etta pienempikin kysynta riittaa kannattavaan liiketoimintaan.' },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'ruudukko-sovitus-tyoarkit', anchorText: 'Ruudukkogeneraattori' },
-    { pageType: 'app', slug: 'sudoku-tyoarkit', anchorText: 'Sudokugeneraattori' },
-    { pageType: 'guide', slug: 'create-grid-matching-puzzles', anchorText: 'Ruudukkopulmien luontiopas' },
+    { pageType: 'app', slug: 'grid-match-worksheets', anchorText: 'Ruudukkogeneraattori' },
+    { pageType: 'app', slug: 'sudoku-worksheets', anchorText: 'Sudokugeneraattori' },
+    { pageType: 'guide', slug: 'create-matching-worksheets', anchorText: 'Ruudukkopulmien luontiopas' },
   ],
   relatedPosts: [
     { slug: 'kuvasudoku-kirjat-kdp', title: 'Kuvasudokukirjat KDP:ssa' },

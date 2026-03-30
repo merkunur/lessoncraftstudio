@@ -70,8 +70,8 @@ const content: BlogContent = {
     { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Word Search Generator' },
     { pageType: 'tool', slug: 'word-search-maker', anchorText: 'Try the word search maker free trial' },
     { pageType: 'guide', slug: 'create-word-search-puzzles', anchorText: 'Word search creation guide' },
-    { pageType: 'idea', slug: 'word-search-business-ideas', anchorText: 'Word search business ideas' },
-    { pageType: 'start', slug: 'sell-word-search-etsy', anchorText: 'Start selling word searches' },
+    { pageType: 'idea', slug: 'christmas-printable-ideas', anchorText: 'Word search business ideas' },
+    { pageType: 'start', slug: 'create-worksheets-that-sell', anchorText: 'Start selling word searches' },
   ],
   relatedPosts: [
     { slug: 'crossword-books-kdp-niche', title: 'Crossword Books on KDP: Low-Competition Goldmine' },

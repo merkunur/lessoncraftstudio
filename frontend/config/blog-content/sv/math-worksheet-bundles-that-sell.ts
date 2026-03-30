@@ -59,9 +59,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'addition-arbetsblad', anchorText: 'Additions-Generator' },
-    { pageType: 'app', slug: 'subtraktion-arbetsblad', anchorText: 'Subtraktions-Generator' },
-    { pageType: 'guide', slug: 'skapa-arbetsblad-paket', anchorText: 'Guide: Skapa arbetsbladspaket' },
+    { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Additions-Generator' },
+    { pageType: 'app', slug: 'subtraction-worksheets', anchorText: 'Subtraktions-Generator' },
+    { pageType: 'guide', slug: 'create-worksheet-bundles', anchorText: 'Guide: Skapa arbetsbladspaket' },
   ],
   relatedPosts: [
     { slug: 'saelj-additions-arbetsblad-etsy-guide', title: 'Sälj Additions-Arbetsblad på Etsy' },

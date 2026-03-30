@@ -67,9 +67,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'puzzles-matematicos-fichas', anchorText: 'Generador de puzzles matematicos' },
-    { pageType: 'start', slug: 'guia-completa-negocio-imprimibles', anchorText: 'Iniciar negocio de imprimibles' },
-    { pageType: 'guide', slug: 'crear-paquetes-imprimibles', anchorText: 'Crear paquetes de imprimibles' },
+    { pageType: 'app', slug: 'math-puzzle-worksheets', anchorText: 'Generador de puzzles matematicos' },
+    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Iniciar negocio de imprimibles' },
+    { pageType: 'guide', slug: 'create-worksheet-bundles', anchorText: 'Crear paquetes de imprimibles' },
   ],
   relatedPosts: [
     { slug: 'etsy-printable-pricing-strategy', title: 'Estrategia de Precios en Etsy' },

@@ -35,9 +35,9 @@ const content: BlogContent = {
     { question: 'Wie viele Tier-Listings brauche ich fuer ein stabiles Einkommen?', answer: 'Mit 30-50 Listings ueber verschiedene Tier-Nischen und Formate sind €500-€1.200 monatlich realistisch. Fokussieren Sie sich auf 2-3 Nischen und decken Sie diese tief ab.' },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'wortsuche-arbeitsblaetter', anchorText: 'Tier-Wortsuche erstellen' },
-    { pageType: 'app', slug: 'zuordnungs-arbeitsblaetter', anchorText: 'Tier-Zuordnungsspiele' },
-    { pageType: 'app', slug: 'suchbilder-arbeitsblaetter', anchorText: 'Tier-Suchbilder generieren' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Tier-Wortsuche erstellen' },
+    { pageType: 'app', slug: 'matching-worksheets', anchorText: 'Tier-Zuordnungsspiele' },
+    { pageType: 'app', slug: 'find-objects-worksheets', anchorText: 'Tier-Suchbilder generieren' },
   ],
   relatedPosts: [
     { slug: 'dinosaurier-druckvorlagen-verkaufen-evergreen', title: 'Dinosaurier-Druckvorlagen: Immergruener Bestseller' },

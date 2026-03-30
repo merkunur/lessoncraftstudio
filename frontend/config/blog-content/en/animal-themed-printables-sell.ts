@@ -67,9 +67,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'matching', anchorText: 'Animal Matching Activity Generator' },
-    { pageType: 'app', slug: 'coloring', anchorText: 'Animal Coloring Page Creator' },
-    { pageType: 'app', slug: 'find-and-count', anchorText: 'Animal Find & Count Maker' },
+    { pageType: 'app', slug: 'matching-worksheets', anchorText: 'Animal Matching Activity Generator' },
+    { pageType: 'app', slug: 'coloring-worksheets', anchorText: 'Animal Coloring Page Creator' },
+    { pageType: 'app', slug: 'find-and-count-worksheets', anchorText: 'Animal Find & Count Maker' },
     { pageType: 'guide', slug: 'create-worksheet-bundles', anchorText: 'How to bundle themed products' },
   ],
   relatedPosts: [

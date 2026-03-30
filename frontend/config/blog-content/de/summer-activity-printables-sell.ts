@@ -67,9 +67,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'wortsuche-arbeitsblaetter', anchorText: 'Sommer-Wortsuche erstellen' },
-    { pageType: 'app', slug: 'bilderpfad-arbeitsblaetter', anchorText: 'Labyrinth-Raetsel fuer Ferien' },
-    { pageType: 'start', slug: 'druckvorlagen-auf-etsy-verkaufen', anchorText: 'Etsy-Shop starten' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Sommer-Wortsuche erstellen' },
+    { pageType: 'app', slug: 'picture-path-worksheets', anchorText: 'Labyrinth-Raetsel fuer Ferien' },
+    { pageType: 'start', slug: 'etsy-printable-business', anchorText: 'Etsy-Shop starten' },
   ],
   relatedPosts: [
     { slug: 'reise-aktivitaeten-druckvorlagen-verkaufen', title: 'Reise-Aktivitaets-Druckvorlagen: Der Urlaubs-Eltern-Markt' },

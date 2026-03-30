@@ -67,9 +67,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'start', slug: 'sell-educational-printables-etsy', anchorText: 'Start selling on Etsy' },
+    { pageType: 'guide', slug: 'sell-educational-printables-etsy', anchorText: 'Start selling on Etsy' },
     { pageType: 'guide', slug: 'publish-puzzle-books-kdp', anchorText: 'KDP publishing guide' },
-    { pageType: 'start', slug: 'create-kdp-activity-books', anchorText: 'Start creating KDP books' },
+    { pageType: 'start', slug: 'amazon-kdp-activity-books', anchorText: 'Start creating KDP books' },
     { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Word Search Generator' },
   ],
   relatedPosts: [

@@ -67,10 +67,10 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'mots-caches-fiches', anchorText: 'Générateur de mots cachés' },
-    { pageType: 'tool', slug: 'mots-caches-fiches', anchorText: 'Essayer le générateur de mots cachés' },
-    { pageType: 'guide', slug: 'mots-caches-fiches', anchorText: 'Guide création mots cachés' },
-    { pageType: 'app', slug: 'mots-croises-fiches', anchorText: 'Générateur de mots croisés' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Générateur de mots cachés' },
+    { pageType: 'tool', slug: 'word-search-maker', anchorText: 'Essayer le générateur de mots cachés' },
+    { pageType: 'guide', slug: 'create-word-search-puzzles', anchorText: 'Guide création mots cachés' },
+    { pageType: 'app', slug: 'crossword-worksheets', anchorText: 'Générateur de mots croisés' },
   ],
   relatedPosts: [
     { slug: 'livres-mots-croises-kdp-niche', title: 'Livres de mots croisés KDP : niche en or' },

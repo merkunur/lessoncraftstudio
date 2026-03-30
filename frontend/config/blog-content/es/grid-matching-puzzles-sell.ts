@@ -67,10 +67,10 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'cuadricula-asociacion-fichas', anchorText: 'Generador de puzzles de cuadrícula' },
-    { pageType: 'app', slug: 'sudoku-imagenes-fichas', anchorText: 'Generador de sudoku con imágenes' },
-    { pageType: 'app', slug: 'patrones-fichas', anchorText: 'Generador de fichas de patrones' },
-    { pageType: 'app', slug: 'intruso-fichas', anchorText: 'Generador de fichas del intruso' },
+    { pageType: 'app', slug: 'grid-match-worksheets', anchorText: 'Generador de puzzles de cuadrícula' },
+    { pageType: 'app', slug: 'sudoku-worksheets', anchorText: 'Generador de sudoku con imágenes' },
+    { pageType: 'app', slug: 'pattern-worksheets', anchorText: 'Generador de fichas de patrones' },
+    { pageType: 'app', slug: 'odd-one-out-worksheets', anchorText: 'Generador de fichas del intruso' },
   ],
   relatedPosts: [
     { slug: 'sopa-letras-imprimibles-ganancias', title: 'Sopas de letras imprimibles: cuánto se gana' },

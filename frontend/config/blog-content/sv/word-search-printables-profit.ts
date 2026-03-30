@@ -59,9 +59,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'ordsoek-arbetsblad', anchorText: 'Ordsöks-Generator' },
-    { pageType: 'app', slug: 'korsord-arbetsblad', anchorText: 'Korsords-Generator' },
-    { pageType: 'guide', slug: 'skapa-ordsoek-pussel', anchorText: 'Guide: Skapa ordsökspussel' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Ordsöks-Generator' },
+    { pageType: 'app', slug: 'crossword-worksheets', anchorText: 'Korsords-Generator' },
+    { pageType: 'guide', slug: 'create-word-search-puzzles', anchorText: 'Guide: Skapa ordsökspussel' },
   ],
   relatedPosts: [
     { slug: 'korsordboecker-kdp-nisch', title: 'Korsordsböcker på KDP: Nischguide' },

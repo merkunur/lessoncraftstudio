@@ -14,7 +14,7 @@ const content: BlogContent = {
       'coloring business saturation strategy',
     ],
     titleTag: 'Negocio de Colorear 2026: Sigue Rentable? | LCS',
-    metaDescription: 'Descubra si el negocio de páginas para colorear sigue siendo rentable en 2026. Nichos que funcionan y estrategias actualizadas. Prueba gratuita con marca de agua.',
+    metaDescription: 'Descubra si el negocio de páginas para colorear sigue siendo rentable en 2026. Nichos que funcionan y estrategias actualizadas.',
   },
   hero: {
     title: 'Negocio de Colorear 2026: ¿Sigue Siendo Rentable?',
@@ -67,10 +67,10 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'colorear-fichas', anchorText: 'Generador de fichas de colorear' },
-    { pageType: 'app', slug: 'dibujar-y-colorear-fichas', anchorText: 'Generador de dibujar y colorear' },
-    { pageType: 'app', slug: 'suma-fichas', anchorText: 'Generador de fichas de suma' },
-    { pageType: 'app', slug: 'sopa-letras-fichas', anchorText: 'Generador de sopas de letras' },
+    { pageType: 'app', slug: 'coloring-worksheets', anchorText: 'Generador de fichas de colorear' },
+    { pageType: 'app', slug: 'draw-and-color-worksheets', anchorText: 'Generador de dibujar y colorear' },
+    { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Generador de fichas de suma' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Generador de sopas de letras' },
   ],
   relatedPosts: [
     { slug: 'sopa-letras-imprimibles-ganancias', title: 'Sopas de letras imprimibles: cuánto se gana' },

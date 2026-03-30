@@ -59,9 +59,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'cruciverba-schede', anchorText: 'Generatore di Cruciverba' },
-    { pageType: 'app', slug: 'cerca-parole-schede', anchorText: 'Generatore Cerca Parole' },
-    { pageType: 'app', slug: 'crittogrammi-schede', anchorText: 'Generatore Crittogrammi' },
+    { pageType: 'app', slug: 'crossword-worksheets', anchorText: 'Generatore di Cruciverba' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Generatore Cerca Parole' },
+    { pageType: 'app', slug: 'cryptogram-worksheets', anchorText: 'Generatore Crittogrammi' },
   ],
   relatedPosts: [
     { slug: 'cerca-parole-stampabili-profitto', title: 'Cerca Parole Stampabili: Profitto' },

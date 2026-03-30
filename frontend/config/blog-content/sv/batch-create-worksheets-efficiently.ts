@@ -63,9 +63,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'addition-arbetsblad', anchorText: 'Testa Batch-Skapande' },
-    { pageType: 'app', slug: 'ordsoek-arbetsblad', anchorText: 'Ordsök i Batch' },
-    { pageType: 'guide', slug: 'skapa-arbetsblad-paket', anchorText: 'Guide: Paket-Skapande' },
+    { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Testa Batch-Skapande' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Ordsök i Batch' },
+    { pageType: 'guide', slug: 'create-worksheet-bundles', anchorText: 'Guide: Paket-Skapande' },
   ],
   relatedPosts: [
     { slug: 'skala-printable-foeretagande-automatisering', title: 'Skala med Automatisering' },

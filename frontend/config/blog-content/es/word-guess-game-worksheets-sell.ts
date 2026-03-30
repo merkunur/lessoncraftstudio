@@ -67,9 +67,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'adivinar-palabras-fichas', anchorText: 'Generador de fichas de adivinar palabras' },
-    { pageType: 'app', slug: 'sopa-letras-fichas', anchorText: 'Generador de sopas de letras' },
-    { pageType: 'app', slug: 'anagramas-fichas', anchorText: 'Generador de anagramas' },
+    { pageType: 'app', slug: 'word-guess-worksheets', anchorText: 'Generador de fichas de adivinar palabras' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Generador de sopas de letras' },
+    { pageType: 'app', slug: 'word-scramble-worksheets', anchorText: 'Generador de anagramas' },
   ],
   relatedPosts: [
     { slug: 'sopa-letras-imprimibles-ganancias', title: 'Sopas de letras imprimibles: cuánto se gana' },

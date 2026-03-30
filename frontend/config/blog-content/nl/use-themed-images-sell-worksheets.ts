@@ -5,8 +5,8 @@ const content: BlogContent = {
     primaryKeyword: 'thematische afbeeldingen werkbladen verkopen',
     secondaryKeywords: ['printable thematische afbeeldingen strategie', 'werkbladen thematische afbeeldingen verkopen', 'educatieve printables werkbladen verkopen'],
     lsiKeywords: ['printable niche thematische afbeeldingen', 'seizoensgebonden printables', 'thematische werkbladen verkopen'],
-    titleTag: 'Thematische Afbeeldingen Gebruiken om Werkbladen te Verkopen | LCS',
-    metaDescription: 'Thematische Afbeeldingen Gebruiken om Werkbladen te Verkopen. Ontdek welke producten het beste verkopen, wanneer u moet beginnen en hoe u maximale omzet genereert.',
+    titleTag: 'Thematische Afbeeldingen voor Werkbladen | LCS',
+    metaDescription: 'Thematische afbeeldingen voor werkbladen. Ontdek welke producten het beste verkopen, wanneer u moet beginnen en hoe u maximale omzet genereert.',
   },
   hero: {
     title: 'Thematische Afbeeldingen Gebruiken om Werkbladen te Verkopen',
@@ -35,9 +35,9 @@ const content: BlogContent = {
     { question: 'Hoeveel seizoensproducten moet ik maken?', answer: 'Streef naar 15-25 listings per seizoen, verspreid over verschillende producttypen en leeftijdsgroepen. Dit geeft u brede zoekwoorddekking.' },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'woordzoeker-werkbladen', anchorText: 'Woordzoeker Generator' },
-    { pageType: 'app', slug: 'kleurplaten-werkbladen', anchorText: 'Kleurplaten Generator' },
-    { pageType: 'app', slug: 'bingo-werkbladen', anchorText: 'Bingo Generator' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Woordzoeker Generator' },
+    { pageType: 'app', slug: 'coloring-worksheets', anchorText: 'Kleurplaten Generator' },
+    { pageType: 'app', slug: 'picture-bingo-worksheets', anchorText: 'Bingo Generator' },
   ],
   relatedPosts: [
     { slug: 'optellen-werkbladen-verkopen-etsy-gids', title: 'Optellen Werkbladen Verkopen op Etsy' },

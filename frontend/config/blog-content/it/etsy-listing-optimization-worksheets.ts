@@ -59,9 +59,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'addizione-schede', anchorText: 'Generatore Schede Addizione' },
-    { pageType: 'app', slug: 'cerca-parole-schede', anchorText: 'Generatore Cerca Parole' },
-    { pageType: 'app', slug: 'cruciverba-schede', anchorText: 'Generatore Cruciverba' },
+    { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Generatore Schede Addizione' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Generatore Cerca Parole' },
+    { pageType: 'app', slug: 'crossword-worksheets', anchorText: 'Generatore Cruciverba' },
   ],
   relatedPosts: [
     { slug: 'guida-vendere-schede-addizione-etsy', title: 'Vendere Schede Addizione su Etsy' },

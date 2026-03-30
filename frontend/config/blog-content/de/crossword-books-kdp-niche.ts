@@ -67,9 +67,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'kreuzwortraetsel-arbeitsblaetter', anchorText: 'Kreuzwortraetsel-Generator' },
-    { pageType: 'app', slug: 'wortsuche-arbeitsblaetter', anchorText: 'Wortsuche-Generator' },
-    { pageType: 'guide', slug: 'kreuzwortraetsel-arbeitsblaetter-erstellen', anchorText: 'Anleitung: Kreuzwortraetsel erstellen' },
+    { pageType: 'app', slug: 'crossword-worksheets', anchorText: 'Kreuzwortraetsel-Generator' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Wortsuche-Generator' },
+    { pageType: 'guide', slug: 'create-crossword-puzzles', anchorText: 'Anleitung: Kreuzwortraetsel erstellen' },
   ],
   relatedPosts: [
     { slug: 'wortsuche-druckvorlagen-gewinn', title: 'Wortsuche-Druckvorlagen: Wie viel verdient man?' },

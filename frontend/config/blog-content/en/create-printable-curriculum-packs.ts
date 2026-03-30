@@ -69,8 +69,8 @@ const content: BlogContent = {
   internalLinks: [
     { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Addition Worksheet Generator' },
     { pageType: 'app', slug: 'subtraction-worksheets', anchorText: 'Subtraction Worksheet Generator' },
-    { pageType: 'bundle', slug: 'math-number-bundle', anchorText: 'Math & Number Bundle' },
-    { pageType: 'start', slug: 'sell-educational-printables-etsy', anchorText: 'Start selling printables' },
+    { pageType: 'bundle', slug: 'math-mastery-bundle', anchorText: 'Math & Number Bundle' },
+    { pageType: 'guide', slug: 'sell-educational-printables-etsy', anchorText: 'Start selling printables' },
   ],
   relatedPosts: [
     { slug: 'homeschool-printables-growing-market', title: 'Homeschool Printables: A Growing Market' },

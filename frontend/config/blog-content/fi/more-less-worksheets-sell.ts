@@ -67,7 +67,7 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'enemman-vahemman-tyoarkit', anchorText: 'Generaattori' },
+    { pageType: 'app', slug: 'more-less-worksheets', anchorText: 'Generaattori' },
   ],
   relatedPosts: [
     { slug: 'kuvio-tyoarkit-myy-verkossa', title: 'Kuviotyoarkit: myy verkossa' },

@@ -67,10 +67,10 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'start', slug: 'sell-educational-printables-etsy', anchorText: 'Start your Etsy printable shop' },
-    { pageType: 'app', slug: 'coloring-pages', anchorText: 'Create branded coloring pages' },
+    { pageType: 'guide', slug: 'sell-educational-printables-etsy', anchorText: 'Start your Etsy printable shop' },
+    { pageType: 'app', slug: 'coloring-worksheets', anchorText: 'Create branded coloring pages' },
     { pageType: 'guide', slug: 'create-worksheet-bundles', anchorText: 'Create consistent worksheet bundles' },
-    { pageType: 'idea', slug: 'printable-business-ideas', anchorText: 'Printable business niche ideas' },
+    { pageType: 'idea', slug: 'christmas-printable-ideas', anchorText: 'Printable business niche ideas' },
   ],
   relatedPosts: [
     { slug: 'etsy-listing-optimization-worksheets', title: 'Etsy Listing Optimization for Worksheets' },

@@ -14,7 +14,7 @@ const content: BlogContent = {
       'preposition activities printable sell',
     ],
     titleTag: 'Fichas Preposiciones: El Mercado ELE | LCS',
-    metaDescription: 'Las fichas de preposiciones tienen un mercado masivo en ELE con 20M+ estudiantes. Cree productos para este público premium. Prueba gratuita con marca de agua.',
+    metaDescription: 'Las fichas de preposiciones tienen un mercado masivo en ELE con 20M+ estudiantes. Cree productos para este público premium.',
   },
   hero: {
     title: 'Fichas de Preposiciones: El Mercado ELE',
@@ -67,10 +67,10 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'preposiciones-fichas', anchorText: 'Generador de fichas de preposiciones' },
-    { pageType: 'app', slug: 'asociacion-fichas', anchorText: 'Generador de fichas de asociación' },
-    { pageType: 'app', slug: 'clasificacion-fichas', anchorText: 'Generador de fichas de clasificación' },
-    { pageType: 'app', slug: 'comparacion-tamanos-fichas', anchorText: 'Generador de comparación de tamaños' },
+    { pageType: 'app', slug: 'prepositions-worksheets', anchorText: 'Generador de fichas de preposiciones' },
+    { pageType: 'app', slug: 'matching-worksheets', anchorText: 'Generador de fichas de asociación' },
+    { pageType: 'app', slug: 'picture-sort-worksheets', anchorText: 'Generador de fichas de clasificación' },
+    { pageType: 'app', slug: 'big-small-worksheets', anchorText: 'Generador de comparación de tamaños' },
   ],
   relatedPosts: [
     { slug: 'sopa-letras-imprimibles-ganancias', title: 'Sopas de letras imprimibles: cuánto se gana' },

@@ -67,10 +67,10 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'start', slug: 'sell-educational-printables-etsy', anchorText: 'Start your printable business' },
+    { pageType: 'guide', slug: 'sell-educational-printables-etsy', anchorText: 'Start your printable business' },
     { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Create sample worksheets for your lead magnet' },
-    { pageType: 'guide', slug: 'marketing-printable-business', anchorText: 'Complete printable marketing guide' },
-    { pageType: 'idea', slug: 'printable-business-ideas', anchorText: 'Printable business niche ideas' },
+    { pageType: 'start', slug: 'marketing-printable-business', anchorText: 'Complete printable marketing guide' },
+    { pageType: 'idea', slug: 'christmas-printable-ideas', anchorText: 'Printable business niche ideas' },
   ],
   relatedPosts: [
     { slug: 'pinterest-traffic-printable-shop', title: 'Pinterest Traffic for Your Printable Shop' },

@@ -67,9 +67,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'labirintos-imagens-fichas', anchorText: 'Gerador de Labirintos' },
-    { pageType: 'app', slug: 'caca-tesouro-fichas', anchorText: 'Gerador Caça ao Tesouro' },
-    { pageType: 'app', slug: 'objetos-escondidos-fichas', anchorText: 'Gerador Objetos Escondidos' },
+    { pageType: 'app', slug: 'picture-path-worksheets', anchorText: 'Gerador de Labirintos' },
+    { pageType: 'app', slug: 'treasure-hunt-worksheets', anchorText: 'Gerador Caça ao Tesouro' },
+    { pageType: 'app', slug: 'find-objects-worksheets', anchorText: 'Gerador Objetos Escondidos' },
   ],
   relatedPosts: [
     { slug: 'fichas-objetos-escondidos-negocio', title: 'Fichas Objetos Escondidos: Negócio' },

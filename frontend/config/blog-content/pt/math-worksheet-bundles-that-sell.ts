@@ -67,9 +67,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'adicao-fichas', anchorText: 'Gerador de Fichas de Adição' },
-    { pageType: 'app', slug: 'subtracao-fichas', anchorText: 'Gerador de Fichas de Subtração' },
-    { pageType: 'app', slug: 'puzzles-matematicos-fichas', anchorText: 'Gerador de Puzzles Matemáticos' },
+    { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Gerador de Fichas de Adição' },
+    { pageType: 'app', slug: 'subtraction-worksheets', anchorText: 'Gerador de Fichas de Subtração' },
+    { pageType: 'app', slug: 'math-puzzle-worksheets', anchorText: 'Gerador de Puzzles Matemáticos' },
   ],
   relatedPosts: [
     { slug: 'guia-vender-fichas-adicao-etsy', title: 'Guia: Vender Fichas de Adição no Etsy' },

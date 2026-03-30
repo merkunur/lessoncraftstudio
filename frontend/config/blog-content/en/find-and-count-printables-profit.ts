@@ -69,8 +69,8 @@ const content: BlogContent = {
   internalLinks: [
     { pageType: 'app', slug: 'find-and-count-worksheets', anchorText: 'Find and Count Generator' },
     { pageType: 'tool', slug: 'find-and-count-maker', anchorText: 'Try the find and count maker free trial' },
-    { pageType: 'guide', slug: 'create-find-and-count-worksheets', anchorText: 'Find and count creation guide' },
-    { pageType: 'bundle', slug: 'search-bundle', anchorText: 'Search & Find Bundle' },
+    { pageType: 'guide', slug: 'create-counting-worksheets', anchorText: 'Find and count creation guide' },
+    { pageType: 'bundle', slug: 'search-find-bundle', anchorText: 'Search & Find Bundle' },
   ],
   relatedPosts: [
     { slug: 'hidden-object-worksheets-business', title: 'Hidden Object Worksheets: Build a Product Line That Scales' },

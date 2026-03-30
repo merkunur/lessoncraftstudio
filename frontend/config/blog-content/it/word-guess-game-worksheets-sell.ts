@@ -59,9 +59,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'indovina-parola-schede', anchorText: 'Generatore Indovina la Parola' },
-    { pageType: 'app', slug: 'cerca-parole-schede', anchorText: 'Generatore Cerca Parole' },
-    { pageType: 'app', slug: 'anagrammi-schede', anchorText: 'Generatore Anagrammi' },
+    { pageType: 'app', slug: 'word-guess-worksheets', anchorText: 'Generatore Indovina la Parola' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Generatore Cerca Parole' },
+    { pageType: 'app', slug: 'word-scramble-worksheets', anchorText: 'Generatore Anagrammi' },
   ],
   relatedPosts: [
     { slug: 'cerca-parole-stampabili-profitto', title: 'Cerca Parole Stampabili: Profitto' },

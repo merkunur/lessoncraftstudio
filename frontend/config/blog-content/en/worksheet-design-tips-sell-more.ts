@@ -67,9 +67,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'coloring-pages', anchorText: 'Coloring Page Generator' },
+    { pageType: 'app', slug: 'coloring-worksheets', anchorText: 'Coloring Page Generator' },
     { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Addition Worksheet Generator' },
-    { pageType: 'start', slug: 'sell-educational-printables-etsy', anchorText: 'Start selling on Etsy' },
+    { pageType: 'guide', slug: 'sell-educational-printables-etsy', anchorText: 'Start selling on Etsy' },
     { pageType: 'guide', slug: 'create-printable-product-line', anchorText: 'Build a printable product line' },
   ],
   relatedPosts: [

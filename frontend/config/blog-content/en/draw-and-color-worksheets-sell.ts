@@ -69,8 +69,8 @@ const content: BlogContent = {
   internalLinks: [
     { pageType: 'app', slug: 'draw-and-color-worksheets', anchorText: 'Draw and Color Generator' },
     { pageType: 'tool', slug: 'draw-and-color-maker', anchorText: 'Try the draw-and-color maker free trial' },
-    { pageType: 'guide', slug: 'create-draw-and-color-worksheets', anchorText: 'Draw-and-color creation guide' },
-    { pageType: 'bundle', slug: 'drawing-art-bundle', anchorText: 'Drawing & Art Bundle' },
+    { pageType: 'guide', slug: 'create-drawing-worksheets', anchorText: 'Draw-and-color creation guide' },
+    { pageType: 'bundle', slug: 'visual-learning-bundle', anchorText: 'Drawing & Art Bundle' },
   ],
   relatedPosts: [
     { slug: 'coloring-pages-business-2026', title: 'Is a Coloring Pages Business Still Profitable in 2026?' },

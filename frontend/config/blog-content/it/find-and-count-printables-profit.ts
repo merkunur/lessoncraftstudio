@@ -59,9 +59,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'trova-e-conta-schede', anchorText: 'Generatore Trova e Conta' },
-    { pageType: 'app', slug: 'piu-meno-schede', anchorText: 'Generatore Schede Più/Meno' },
-    { pageType: 'app', slug: 'addizione-schede', anchorText: 'Generatore Schede Addizione' },
+    { pageType: 'app', slug: 'find-and-count-worksheets', anchorText: 'Generatore Trova e Conta' },
+    { pageType: 'app', slug: 'more-less-worksheets', anchorText: 'Generatore Schede Più/Meno' },
+    { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Generatore Schede Addizione' },
   ],
   relatedPosts: [
     { slug: 'schede-oggetti-nascosti-business', title: 'Schede Oggetti Nascosti: Business' },

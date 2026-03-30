@@ -69,8 +69,8 @@ const content: BlogContent = {
   internalLinks: [
     { pageType: 'app', slug: 'missing-pieces-worksheets', anchorText: 'Missing Pieces Generator' },
     { pageType: 'tool', slug: 'missing-pieces-maker', anchorText: 'Try the missing pieces maker free trial' },
-    { pageType: 'guide', slug: 'create-missing-pieces-worksheets', anchorText: 'Missing pieces creation guide' },
-    { pageType: 'bundle', slug: 'puzzle-games-bundle', anchorText: 'Puzzles & Games Bundle' },
+    { pageType: 'guide', slug: 'create-missing-pieces-puzzles', anchorText: 'Missing pieces creation guide' },
+    { pageType: 'bundle', slug: 'puzzles-logic-bundle', anchorText: 'Puzzles & Games Bundle' },
   ],
   relatedPosts: [
     { slug: 'picture-sudoku-books-kdp', title: 'Picture Sudoku Books for Kids: A KDP Niche with Zero Competition' },

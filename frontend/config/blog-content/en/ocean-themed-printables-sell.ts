@@ -14,7 +14,7 @@ const content: BlogContent = {
       'underwater printables kids market',
     ],
     titleTag: 'Ocean Printables: Summer Sales Wave | LCS',
-    metaDescription: 'Ocean-themed printables surge in summer and sell year-round. Learn which sea animal products convert, pricing tips, and how to build an ocean product empire.',
+    metaDescription: 'Ocean-themed printables surge in summer and sell year-round. Learn which sea animal products convert, pricing tips, and how to build your lineup.',
   },
   hero: {
     title: 'Ocean-Themed Printables: Ride the Summer Sales Wave',
@@ -67,10 +67,10 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'coloring', anchorText: 'Ocean Coloring Page Generator' },
-    { pageType: 'app', slug: 'matching', anchorText: 'Sea Animal Matching Creator' },
-    { pageType: 'app', slug: 'wordsearch', anchorText: 'Ocean Word Search Maker' },
-    { pageType: 'start', slug: 'sell-educational-printables-etsy', anchorText: 'Start your ocean printable business' },
+    { pageType: 'app', slug: 'coloring-worksheets', anchorText: 'Ocean Coloring Page Generator' },
+    { pageType: 'app', slug: 'matching-worksheets', anchorText: 'Sea Animal Matching Creator' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Ocean Word Search Maker' },
+    { pageType: 'guide', slug: 'sell-educational-printables-etsy', anchorText: 'Start your ocean printable business' },
   ],
   relatedPosts: [
     { slug: 'animal-themed-printables-sell', title: 'Animal-Themed Printables: Why They\'re Always Best Sellers' },

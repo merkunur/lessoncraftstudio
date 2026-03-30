@@ -67,9 +67,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'start', slug: 'sell-educational-printables-etsy', anchorText: 'Start your printable business' },
-    { pageType: 'app', slug: 'coloring-pages', anchorText: 'Create shareable coloring pages' },
-    { pageType: 'guide', slug: 'marketing-printable-business', anchorText: 'Complete marketing guide for printables' },
+    { pageType: 'guide', slug: 'sell-educational-printables-etsy', anchorText: 'Start your printable business' },
+    { pageType: 'app', slug: 'coloring-worksheets', anchorText: 'Create shareable coloring pages' },
+    { pageType: 'start', slug: 'marketing-printable-business', anchorText: 'Complete marketing guide for printables' },
     { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Create word search content for social' },
   ],
   relatedPosts: [

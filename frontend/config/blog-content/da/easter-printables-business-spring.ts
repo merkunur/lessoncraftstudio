@@ -35,9 +35,9 @@ const content: BlogContent = {
     { question: 'Kan jeg genbruge juletemaer til påske?', answer: 'Nej, men du kan genbruge formatet. De samme arbejdsarktyper (matematik, puslespil, farvelægning) fungerer — du skifter bare temaet fra jul til påske.' }
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'banko-arbejdsark', anchorText: 'Påske Banko Generator' },
-    { pageType: 'app', slug: 'farvelaegning-arbejdsark', anchorText: 'Påske Farvelægning' },
-    { pageType: 'app', slug: 'ordsoegning-arbejdsark', anchorText: 'Påske Ordsøgning' }
+    { pageType: 'app', slug: 'picture-bingo-worksheets', anchorText: 'Påske Banko Generator' },
+    { pageType: 'app', slug: 'coloring-worksheets', anchorText: 'Påske Farvelægning' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Påske Ordsøgning' }
   ],
   relatedPosts: [
     { slug: 'saelg-additions-arbejdsark-etsy-guide', title: 'Sælg Additions-Arbejdsark på Etsy' },

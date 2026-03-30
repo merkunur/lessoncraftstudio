@@ -59,9 +59,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'sudoku-immagini-schede', anchorText: 'Generatore Sudoku Immagini' },
-    { pageType: 'app', slug: 'griglia-abbinamento-schede', anchorText: 'Generatore Griglia Abbinamento' },
-    { pageType: 'app', slug: 'motivi-schede', anchorText: 'Generatore Sequenze' },
+    { pageType: 'app', slug: 'sudoku-worksheets', anchorText: 'Generatore Sudoku Immagini' },
+    { pageType: 'app', slug: 'grid-match-worksheets', anchorText: 'Generatore Griglia Abbinamento' },
+    { pageType: 'app', slug: 'pattern-worksheets', anchorText: 'Generatore Sequenze' },
   ],
   relatedPosts: [
     { slug: 'puzzle-griglia-abbinamento-vendere', title: 'Puzzle Griglia: Vendere' },

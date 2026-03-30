@@ -67,9 +67,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'desenhar-e-colorir-fichas', anchorText: 'Gerador Desenhar e Colorir' },
-    { pageType: 'app', slug: 'colorir-fichas', anchorText: 'Gerador de Colorir' },
-    { pageType: 'app', slug: 'tracado-fichas', anchorText: 'Gerador de Traçado' },
+    { pageType: 'app', slug: 'draw-and-color-worksheets', anchorText: 'Gerador Desenhar e Colorir' },
+    { pageType: 'app', slug: 'coloring-worksheets', anchorText: 'Gerador de Colorir' },
+    { pageType: 'app', slug: 'drawing-lines-worksheets', anchorText: 'Gerador de Traçado' },
   ],
   relatedPosts: [
     { slug: 'colorir-negocio-2026', title: 'Negócio Colorir 2026' },

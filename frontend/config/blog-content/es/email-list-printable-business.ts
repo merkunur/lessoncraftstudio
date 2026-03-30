@@ -6,7 +6,7 @@ const content: BlogContent = {
     secondaryKeywords: ['email marketing vendedores imprimibles', 'construir lista suscriptores imprimibles', 'correo electronico tienda Etsy'],
     lsiKeywords: ['lead magnet imprimibles', 'automatizar email vendedores', 'lista email productos digitales'],
     titleTag: 'Lista de Email para su Negocio de Imprimibles | LCS',
-    metaDescription: 'Como construir y usar una lista de email para vender mas imprimibles. Lead magnets, automatizacion y estrategias que convierten suscriptores en compradores.',
+    metaDescription: 'Como construir una lista de email para vender mas imprimibles. Lead magnets, automatizacion y estrategias que convierten suscriptores.',
   },
   hero: {
     title: 'Como Construir una Lista de Email para su Negocio de Imprimibles',
@@ -59,9 +59,9 @@ const content: BlogContent = {
     }
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'busqueda-tesoro-fichas', anchorText: 'Generador de busqueda del tesoro' },
-    { pageType: 'start', slug: 'guia-completa-negocio-imprimibles', anchorText: 'Guia para iniciar su negocio' },
-    { pageType: 'guide', slug: 'email-marketing-imprimibles', anchorText: 'Email marketing para imprimibles' }
+    { pageType: 'app', slug: 'treasure-hunt-worksheets', anchorText: 'Generador de busqueda del tesoro' },
+    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Guia para iniciar su negocio' },
+    { pageType: 'guide', slug: 'email-marketing-printables', anchorText: 'Email marketing para imprimibles' }
   ],
   relatedPosts: [
     { slug: 'free-printable-samples-lead-magnet', title: 'Muestras como Lead Magnet' },

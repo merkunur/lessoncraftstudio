@@ -35,9 +35,9 @@ const content: BlogContent = {
     { question: 'Kan jeg sælge på det danske marked?', answer: 'Absolut. Dansksprogede printables har minimal konkurrence på Etsy. Supplér med Saxo.com for KDP-bøger og Gumroad for premium-pakker. Det danske marked har høj betalingsvillighed.' },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'billedlabyrint-arbejdsark', anchorText: 'Billedlabyrint Generator' },
-    { pageType: 'app', slug: 'skjulte-genstande-arbejdsark', anchorText: 'Skjulte Genstande Generator' },
-    { pageType: 'app', slug: 'find-og-tael-arbejdsark', anchorText: 'Find og Tæl Generator' },
+    { pageType: 'app', slug: 'picture-path-worksheets', anchorText: 'Billedlabyrint Generator' },
+    { pageType: 'app', slug: 'find-objects-worksheets', anchorText: 'Skjulte Genstande Generator' },
+    { pageType: 'app', slug: 'find-and-count-worksheets', anchorText: 'Find og Tæl Generator' },
   ],
   relatedPosts: [
     { slug: 'saelg-additions-arbejdsark-etsy-guide', title: 'Sælg Additions-Arbejdsark på Etsy' },

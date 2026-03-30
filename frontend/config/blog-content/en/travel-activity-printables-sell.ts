@@ -67,10 +67,10 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'wordsearch', anchorText: 'Travel Word Search Generator' },
-    { pageType: 'app', slug: 'coloring', anchorText: 'Travel Coloring Page Creator' },
-    { pageType: 'app', slug: 'find-and-count', anchorText: 'I-Spy Activity Maker' },
-    { pageType: 'start', slug: 'sell-educational-printables-etsy', anchorText: 'Start your travel printable business' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Travel Word Search Generator' },
+    { pageType: 'app', slug: 'coloring-worksheets', anchorText: 'Travel Coloring Page Creator' },
+    { pageType: 'app', slug: 'find-and-count-worksheets', anchorText: 'I-Spy Activity Maker' },
+    { pageType: 'guide', slug: 'sell-educational-printables-etsy', anchorText: 'Start your travel printable business' },
   ],
   relatedPosts: [
     { slug: 'summer-activity-printables-sell', title: 'Summer Activity Printables: What Parents Buy in June' },

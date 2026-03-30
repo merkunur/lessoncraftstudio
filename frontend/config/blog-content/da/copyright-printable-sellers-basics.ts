@@ -35,9 +35,9 @@ const content: BlogContent = {
     { question: 'Er det lovligt at sælge arbejdsark der ligner andres?', answer: 'At ligne er ikke det samme som at kopiere. Du må gerne sælge additions-arbejdsark, selvom andre også gør det — formatet er ikke ophavsretsbeskyttet. Men du må ikke kopiere specifikt design, layout eller indhold fra et konkret produkt.' }
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'addition-arbejdsark', anchorText: 'Additions-Generator (licenseret)' },
-    { pageType: 'app', slug: 'ordsoegning-arbejdsark', anchorText: 'Ordsøgning Generator' },
-    { pageType: 'app', slug: 'krydsord-arbejdsark', anchorText: 'Krydsord Generator' }
+    { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Additions-Generator (licenseret)' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Ordsøgning Generator' },
+    { pageType: 'app', slug: 'crossword-worksheets', anchorText: 'Krydsord Generator' }
   ],
   relatedPosts: [
     { slug: 'saelg-additions-arbejdsark-etsy-guide', title: 'Sælg Additions-Arbejdsark på Etsy' },

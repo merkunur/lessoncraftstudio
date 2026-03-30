@@ -67,9 +67,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'padroes-fichas', anchorText: 'Gerador de Padrões' },
-    { pageType: 'app', slug: 'trem-padroes-fichas', anchorText: 'Gerador Trem de Padrões' },
-    { pageType: 'app', slug: 'classificacao-fichas', anchorText: 'Gerador de Classificação' },
+    { pageType: 'app', slug: 'pattern-worksheets', anchorText: 'Gerador de Padrões' },
+    { pageType: 'app', slug: 'pattern-train-worksheets', anchorText: 'Gerador Trem de Padrões' },
+    { pageType: 'app', slug: 'picture-sort-worksheets', anchorText: 'Gerador de Classificação' },
   ],
   relatedPosts: [
     { slug: 'fichas-trem-padroes-nicho', title: 'Fichas Trem Padrões: Nicho' },

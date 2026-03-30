@@ -35,9 +35,9 @@ const content: BlogContent = {
     { question: 'Hoeveel moet ik investeren om te beginnen?', answer: 'De initiële investering is minimaal: een Etsy-winkel kost €0,17 per listing, een werkbladgenerator biedt een proefversie met watermerk, en mockup-templates zijn gratis beschikbaar. De werkelijke investering is uw tijd.' },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'woordzoeker-werkbladen', anchorText: 'Probeer de Woordzoeker Generator' },
-    { pageType: 'app', slug: 'optellen-werkbladen', anchorText: 'Probeer de Optellen Generator' },
-    { pageType: 'start', slug: 'printables-verkopen-etsy', anchorText: 'Begin met printables verkopen' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Probeer de Woordzoeker Generator' },
+    { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Probeer de Optellen Generator' },
+    { pageType: 'start', slug: 'etsy-printable-business', anchorText: 'Begin met printables verkopen' },
   ],
   relatedPosts: [
     { slug: 'optellen-werkbladen-verkopen-etsy-gids', title: 'Optellen Werkbladen Verkopen op Etsy' },

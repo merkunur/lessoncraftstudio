@@ -59,9 +59,9 @@ const content: BlogContent = {
     }
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'bingo-fichas', anchorText: 'Generador de bingo navideno' },
-    { pageType: 'start', slug: 'guia-completa-negocio-imprimibles', anchorText: 'Guia para empezar' },
-    { pageType: 'guide', slug: 'nichos-imprimibles-rentables', anchorText: 'Nichos rentables de imprimibles' }
+    { pageType: 'app', slug: 'picture-bingo-worksheets', anchorText: 'Generador de bingo navideno' },
+    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Guia para empezar' },
+    { pageType: 'guide', slug: 'research-profitable-niches', anchorText: 'Nichos rentables de imprimibles' }
   ],
   relatedPosts: [
     { slug: 'halloween-printables-sell-october', title: 'Imprimibles de Halloween' },

@@ -67,9 +67,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'addition-fiches', anchorText: 'Créer des fiches d\'addition' },
-    { pageType: 'start', slug: 'guide-complet-activite-imprimables', anchorText: 'Guide complet pour démarrer' },
-    { pageType: 'guide', slug: 'publier-cahier-exercices-kdp', anchorText: 'Guide publication KDP' },
+    { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Créer des fiches d\'addition' },
+    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Guide complet pour démarrer' },
+    { pageType: 'guide', slug: 'publish-puzzle-books-kdp', anchorText: 'Guide publication KDP' },
   ],
   relatedPosts: [
     { slug: 'kdp-activity-book-formatting-guide', title: 'Formater un cahier d\'activités pour KDP' },

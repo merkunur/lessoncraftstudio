@@ -35,9 +35,9 @@ const content: BlogContent = {
     { question: 'Faut-il tout recommencer ?', answer: 'Non. Corrigez progressivement. Ajoutez des fiches, optimisez les titres, créez des bundles.' },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'mots-caches-fiches', anchorText: 'Générateur de mots cachés' },
-    { pageType: 'start', slug: 'guide-complet-activite-imprimables', anchorText: 'Guide complet imprimables' },
-    { pageType: 'guide', slug: 'eviter-erreurs-imprimables', anchorText: 'Guide anti-erreurs' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Générateur de mots cachés' },
+    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Guide complet imprimables' },
+    { pageType: 'guide', slug: 'quality-standards-worksheets', anchorText: 'Guide anti-erreurs' },
   ],
   relatedPosts: [
     { slug: 'etsy-printable-shop-first-month', title: 'Premier mois sur Etsy' },

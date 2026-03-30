@@ -59,9 +59,9 @@ const content: BlogContent = {
     }
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'banko-arbejdsark', anchorText: 'Banko-Generator (juletema)' },
-    { pageType: 'app', slug: 'farvelaegning-arbejdsark', anchorText: 'Julefarvelægning Generator' },
-    { pageType: 'app', slug: 'ordsoegning-arbejdsark', anchorText: 'Juleordsøgning Generator' }
+    { pageType: 'app', slug: 'picture-bingo-worksheets', anchorText: 'Banko-Generator (juletema)' },
+    { pageType: 'app', slug: 'coloring-worksheets', anchorText: 'Julefarvelægning Generator' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Juleordsøgning Generator' }
   ],
   relatedPosts: [
     { slug: 'saelg-additions-arbejdsark-etsy-guide', title: 'Sælg Additions-Arbejdsark på Etsy' },

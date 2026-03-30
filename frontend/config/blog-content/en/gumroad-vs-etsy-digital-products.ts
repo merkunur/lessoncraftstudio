@@ -67,7 +67,7 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'start', slug: 'sell-educational-printables-etsy', anchorText: 'Start selling on Etsy' },
+    { pageType: 'guide', slug: 'sell-educational-printables-etsy', anchorText: 'Start selling on Etsy' },
     { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Create products for both platforms' },
     { pageType: 'guide', slug: 'create-worksheet-bundles', anchorText: 'Create bundles for Gumroad' },
     { pageType: 'guide', slug: 'sell-printables-gumroad', anchorText: 'Complete Gumroad seller guide' },

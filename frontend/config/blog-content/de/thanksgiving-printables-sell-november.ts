@@ -35,9 +35,9 @@ const content: BlogContent = {
     { question: 'Wie unterscheide ich mich von US-Thanksgiving-Material?', answer: 'Authentische DACH-Themen nutzen: Laterne, Martinsgans, heimische Herbsttiere. Kein Truthahn, keine Pilgrims. Der DACH-November hat eine eigene Identitaet.' },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'wortsuche-arbeitsblaetter', anchorText: 'St.-Martin-Wortsuche erstellen' },
-    { pageType: 'app', slug: 'zuordnungs-arbeitsblaetter', anchorText: 'Erntedank-Zuordnungsspiele' },
-    { pageType: 'app', slug: 'malvorlagen-arbeitsblaetter', anchorText: 'Laternen-Malvorlagen' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'St.-Martin-Wortsuche erstellen' },
+    { pageType: 'app', slug: 'matching-worksheets', anchorText: 'Erntedank-Zuordnungsspiele' },
+    { pageType: 'app', slug: 'coloring-worksheets', anchorText: 'Laternen-Malvorlagen' },
   ],
   relatedPosts: [
     { slug: 'halloween-druckvorlagen-verkaufen-oktober', title: 'Halloween-Druckvorlagen im Oktober verkaufen' },

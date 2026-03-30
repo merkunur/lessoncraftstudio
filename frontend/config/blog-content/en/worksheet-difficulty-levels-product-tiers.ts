@@ -69,7 +69,7 @@ const content: BlogContent = {
   internalLinks: [
     { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Word Search Generator with difficulty levels' },
     { pageType: 'app', slug: 'math-puzzle-worksheets', anchorText: 'Math Puzzle Generator' },
-    { pageType: 'start', slug: 'sell-educational-printables-etsy', anchorText: 'Start selling printables' },
+    { pageType: 'guide', slug: 'sell-educational-printables-etsy', anchorText: 'Start selling printables' },
     { pageType: 'guide', slug: 'create-worksheet-bundles', anchorText: 'Bundle creation guide' },
   ],
   relatedPosts: [

@@ -50,9 +50,9 @@ const content: BlogContent = {
     { question: 'Kann ich das Zug-Konzept auf andere Fahrzeuge uebertragen?', answer: 'Absolut. Muster-Bus, Muster-Schiff oder Muster-Rakete sind natuerliche Varianten. Jedes Fahrzeug ist ein neues Listing.' },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'muster-zug-arbeitsblaetter', anchorText: 'Muster-Zug-Generator' },
-    { pageType: 'app', slug: 'muster-arbeitsblaetter', anchorText: 'Standard-Muster-Generator' },
-    { pageType: 'app', slug: 'bilder-labyrinth-arbeitsblaetter', anchorText: 'Labyrinth-Generator' },
+    { pageType: 'app', slug: 'pattern-train-worksheets', anchorText: 'Muster-Zug-Generator' },
+    { pageType: 'app', slug: 'pattern-worksheets', anchorText: 'Standard-Muster-Generator' },
+    { pageType: 'app', slug: 'picture-path-worksheets', anchorText: 'Labyrinth-Generator' },
   ],
   relatedPosts: [
     { slug: 'muster-arbeitsblaetter-online-verkaufen', title: 'Muster-Arbeitsblaetter: Die MINT-Nische' },

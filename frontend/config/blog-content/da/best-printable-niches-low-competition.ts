@@ -59,9 +59,9 @@ const content: BlogContent = {
     }
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'kryptogram-arbejdsark', anchorText: 'Kryptogram Generator (lav konkurrence niche)' },
-    { pageType: 'app', slug: 'skyggematching-arbejdsark', anchorText: 'Skyggematching Generator' },
-    { pageType: 'app', slug: 'billed-sudoku-arbejdsark', anchorText: 'Billed-Sudoku Generator' }
+    { pageType: 'app', slug: 'cryptogram-worksheets', anchorText: 'Kryptogram Generator (lav konkurrence niche)' },
+    { pageType: 'app', slug: 'shadow-match-worksheets', anchorText: 'Skyggematching Generator' },
+    { pageType: 'app', slug: 'sudoku-worksheets', anchorText: 'Billed-Sudoku Generator' }
   ],
   relatedPosts: [
     { slug: 'saelg-additions-arbejdsark-etsy-guide', title: 'Sælg Additions-Arbejdsark på Etsy' },

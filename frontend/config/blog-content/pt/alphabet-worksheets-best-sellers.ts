@@ -67,9 +67,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'alfabeto-fichas', anchorText: 'Gerador de Fichas de Alfabeto' },
-    { pageType: 'app', slug: 'caligrafia-fichas', anchorText: 'Gerador de Caligrafia' },
-    { pageType: 'app', slug: 'tracado-fichas', anchorText: 'Gerador de Traçado' },
+    { pageType: 'app', slug: 'alphabet-train-worksheets', anchorText: 'Gerador de Fichas de Alfabeto' },
+    { pageType: 'app', slug: 'writing-worksheets', anchorText: 'Gerador de Caligrafia' },
+    { pageType: 'app', slug: 'drawing-lines-worksheets', anchorText: 'Gerador de Traçado' },
   ],
   relatedPosts: [
     { slug: 'fichas-caligrafia-etsy-nicho', title: 'Fichas Caligrafia Etsy: Nicho' },

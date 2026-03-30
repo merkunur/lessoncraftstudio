@@ -67,7 +67,7 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'sudoku-tyoarkit', anchorText: 'Generaattori' },
+    { pageType: 'app', slug: 'sudoku-worksheets', anchorText: 'Generaattori' },
   ],
   relatedPosts: [
     { slug: 'kuvio-tyoarkit-myy-verkossa', title: 'Kuviotyoarkit: myy verkossa' },

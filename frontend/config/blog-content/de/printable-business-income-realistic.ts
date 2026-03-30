@@ -67,9 +67,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'start', slug: 'druckvorlagen-auf-etsy-verkaufen', anchorText: 'Druckvorlagen auf Etsy verkaufen' },
-    { pageType: 'app', slug: 'addition-arbeitsblaetter', anchorText: 'Additions-Generator testen' },
-    { pageType: 'guide', slug: 'druckvorlagen-geschaeft-starten', anchorText: 'Druckvorlagen-Geschaeft starten' },
+    { pageType: 'start', slug: 'etsy-printable-business', anchorText: 'Druckvorlagen auf Etsy verkaufen' },
+    { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Additions-Generator testen' },
+    { pageType: 'guide', slug: 'scale-printable-business-guide', anchorText: 'Druckvorlagen-Geschaeft starten' },
   ],
   relatedPosts: [
     { slug: 'passive-income-printables-truth', title: 'Passives Einkommen mit Druckvorlagen: Die Wahrheit' },

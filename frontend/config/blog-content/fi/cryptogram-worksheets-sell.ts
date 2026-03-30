@@ -67,8 +67,8 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'kuvakryptogrammi-tyoarkit', anchorText: 'Kryptogrammigeneraattori' },
-    { pageType: 'app', slug: 'sananhaku-tyoarkit', anchorText: 'Sananhakugeneraattori' },
+    { pageType: 'app', slug: 'cryptogram-worksheets', anchorText: 'Kryptogrammigeneraattori' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Sananhakugeneraattori' },
     { pageType: 'guide', slug: 'create-cryptogram-puzzles', anchorText: 'Kryptogrammien luontiopas' },
   ],
   relatedPosts: [

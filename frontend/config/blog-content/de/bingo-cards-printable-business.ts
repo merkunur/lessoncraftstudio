@@ -67,9 +67,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'bingo-arbeitsblaetter', anchorText: 'Bingo-Karten-Generator' },
-    { pageType: 'app', slug: 'schatzsuche-arbeitsblaetter', anchorText: 'Schatzsuche-Generator' },
-    { pageType: 'app', slug: 'wortsuche-arbeitsblaetter', anchorText: 'Wortsuche-Generator' },
+    { pageType: 'app', slug: 'picture-bingo-worksheets', anchorText: 'Bingo-Karten-Generator' },
+    { pageType: 'app', slug: 'treasure-hunt-worksheets', anchorText: 'Schatzsuche-Generator' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Wortsuche-Generator' },
   ],
   relatedPosts: [
     { slug: 'schatzsuche-druckvorlagen-verkaufen', title: 'Schatzsuche-Druckvorlagen: Der Geburtstags-Markt' },

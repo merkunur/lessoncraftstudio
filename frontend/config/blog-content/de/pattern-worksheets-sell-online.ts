@@ -67,9 +67,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'muster-arbeitsblaetter', anchorText: 'Muster-Generator' },
-    { pageType: 'app', slug: 'muster-zug-arbeitsblaetter', anchorText: 'Muster-Zug-Generator' },
-    { pageType: 'app', slug: 'gitter-zuordnungs-arbeitsblaetter', anchorText: 'Gitter-Zuordnungs-Generator' },
+    { pageType: 'app', slug: 'pattern-worksheets', anchorText: 'Muster-Generator' },
+    { pageType: 'app', slug: 'pattern-train-worksheets', anchorText: 'Muster-Zug-Generator' },
+    { pageType: 'app', slug: 'grid-match-worksheets', anchorText: 'Gitter-Zuordnungs-Generator' },
   ],
   relatedPosts: [
     { slug: 'musterzug-arbeitsblaetter-nische', title: 'Muster-Zug-Arbeitsblaetter: Einzigartiges Produkt' },

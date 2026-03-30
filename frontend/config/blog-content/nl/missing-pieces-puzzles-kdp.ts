@@ -35,9 +35,9 @@ const content: BlogContent = {
     { question: 'Kan ik deze puzzels in meerdere talen verkopen?', answer: 'Het format is taalvrij — u kunt hetzelfde boek wereldwijd verkopen. Alleen de instructies en de cover hoeven vertaald te worden.' },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'ontbrekende-stukjes-werkbladen', anchorText: 'Ontbrekende Stukjes Generator' },
-    { pageType: 'app', slug: 'patronen-werkbladen', anchorText: 'Patronen Werkbladen Generator' },
-    { pageType: 'app', slug: 'plaatjes-sudoku-werkbladen', anchorText: 'Plaatjes Sudoku Generator' },
+    { pageType: 'app', slug: 'missing-pieces-worksheets', anchorText: 'Ontbrekende Stukjes Generator' },
+    { pageType: 'app', slug: 'pattern-worksheets', anchorText: 'Patronen Werkbladen Generator' },
+    { pageType: 'app', slug: 'sudoku-worksheets', anchorText: 'Plaatjes Sudoku Generator' },
   ],
   relatedPosts: [
     { slug: 'woordzoeker-printables-winst', title: 'Woordzoeker Printables voor Winst' },

@@ -67,9 +67,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'zuordnungs-arbeitsblaetter', anchorText: 'Zuordnungsspiele fuer Vorschulkinder' },
-    { pageType: 'app', slug: 'schattenbilder-zuordnen-arbeitsblaetter', anchorText: 'Schatten-Zuordnung Generator' },
-    { pageType: 'app', slug: 'muster-arbeitsblatt-arbeitsblaetter', anchorText: 'Muster-Arbeitsblaetter erstellen' },
+    { pageType: 'app', slug: 'matching-worksheets', anchorText: 'Zuordnungsspiele fuer Vorschulkinder' },
+    { pageType: 'app', slug: 'shadow-match-worksheets', anchorText: 'Schatten-Zuordnung Generator' },
+    { pageType: 'app', slug: 'pattern-worksheets', anchorText: 'Muster-Arbeitsblaetter erstellen' },
   ],
   relatedPosts: [
     { slug: 'kindergarten-arbeitsblaetter-markt', title: 'Der Grundschul-Arbeitsblaetter-Markt: Wie gross ist er?' },

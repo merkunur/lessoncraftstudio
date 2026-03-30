@@ -56,9 +56,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'tren-patrones-fichas', anchorText: 'Generador de tren de patrones' },
-    { pageType: 'app', slug: 'patrones-fichas', anchorText: 'Generador de fichas de patrones' },
-    { pageType: 'app', slug: 'clasificacion-fichas', anchorText: 'Generador de clasificación' },
+    { pageType: 'app', slug: 'pattern-train-worksheets', anchorText: 'Generador de tren de patrones' },
+    { pageType: 'app', slug: 'pattern-worksheets', anchorText: 'Generador de fichas de patrones' },
+    { pageType: 'app', slug: 'picture-sort-worksheets', anchorText: 'Generador de clasificación' },
   ],
   relatedPosts: [
     { slug: 'guia-vender-fichas-suma-etsy', title: 'Vender fichas de suma en Etsy: guía completa' },

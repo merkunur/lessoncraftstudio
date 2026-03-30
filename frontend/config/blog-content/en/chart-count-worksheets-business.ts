@@ -61,7 +61,7 @@ const content: BlogContent = {
     { pageType: 'app', slug: 'chart-count-worksheets', anchorText: 'Chart & Count Generator' },
     { pageType: 'tool', slug: 'chart-count-maker', anchorText: 'Try the chart & count maker' },
     { pageType: 'guide', slug: 'create-chart-count-worksheets', anchorText: 'Chart worksheet creation guide' },
-    { pageType: 'bundle', slug: 'math-number-bundle', anchorText: 'Math & Number Bundle' },
+    { pageType: 'bundle', slug: 'math-mastery-bundle', anchorText: 'Math & Number Bundle' },
   ],
   relatedPosts: [
     { slug: 'find-and-count-printables-profit', title: 'Find and Count Printables: A Profitable Evergreen Niche' },

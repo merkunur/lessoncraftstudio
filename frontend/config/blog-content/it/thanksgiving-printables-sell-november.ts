@@ -59,9 +59,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'addizione-schede', anchorText: 'Generatore Schede Addizione' },
-    { pageType: 'app', slug: 'cerca-parole-schede', anchorText: 'Generatore Cerca Parole' },
-    { pageType: 'app', slug: 'colorare-schede', anchorText: 'Generatore Pagine Colorare' },
+    { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Generatore Schede Addizione' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Generatore Cerca Parole' },
+    { pageType: 'app', slug: 'coloring-worksheets', anchorText: 'Generatore Pagine Colorare' },
   ],
   relatedPosts: [
     { slug: 'guida-vendere-schede-addizione-etsy', title: 'Vendere Schede Addizione su Etsy' },

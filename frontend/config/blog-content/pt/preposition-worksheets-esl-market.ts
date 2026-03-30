@@ -67,9 +67,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'preposicoes-fichas', anchorText: 'Gerador de Preposições' },
-    { pageType: 'app', slug: 'caca-palavras-fichas', anchorText: 'Gerador Caça-Palavras' },
-    { pageType: 'app', slug: 'bingo-fichas', anchorText: 'Gerador de Bingo' },
+    { pageType: 'app', slug: 'prepositions-worksheets', anchorText: 'Gerador de Preposições' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Gerador Caça-Palavras' },
+    { pageType: 'app', slug: 'picture-bingo-worksheets', anchorText: 'Gerador de Bingo' },
   ],
   relatedPosts: [
     { slug: 'caca-palavras-imprimiveis-lucro', title: 'Caça-Palavras: Lucro' },

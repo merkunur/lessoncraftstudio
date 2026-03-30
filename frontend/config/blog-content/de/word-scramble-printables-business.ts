@@ -67,9 +67,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'buchstabensalat-arbeitsblaetter', anchorText: 'Buchstabensalat-Generator' },
-    { pageType: 'app', slug: 'wortsuche-arbeitsblaetter', anchorText: 'Wortsuche-Generator' },
-    { pageType: 'app', slug: 'kreuzwortraetsel-arbeitsblaetter', anchorText: 'Kreuzwortraetsel-Generator' },
+    { pageType: 'app', slug: 'word-scramble-worksheets', anchorText: 'Buchstabensalat-Generator' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Wortsuche-Generator' },
+    { pageType: 'app', slug: 'crossword-worksheets', anchorText: 'Kreuzwortraetsel-Generator' },
   ],
   relatedPosts: [
     { slug: 'wortsuche-druckvorlagen-gewinn', title: 'Wortsuche-Druckvorlagen: Wie viel verdient man?' },

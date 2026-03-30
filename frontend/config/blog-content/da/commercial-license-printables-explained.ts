@@ -35,9 +35,9 @@ const content: BlogContent = {
     { question: 'Dækker LessonCraftStudios licens KDP-salg?', answer: 'Ja. Den kommercielle licens dækker salg på alle platforme: Etsy, Amazon KDP, Gumroad, din egen hjemmeside, Saxo.com og alle andre. Ingen begrænsninger på platform eller antal salg.' }
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'addition-arbejdsark', anchorText: 'Additions-Generator (kommerciel licens)' },
-    { pageType: 'app', slug: 'ordsoegning-arbejdsark', anchorText: 'Ordsøgning Generator' },
-    { pageType: 'app', slug: 'farvelaegning-arbejdsark', anchorText: 'Farvelægnings-Generator' }
+    { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Additions-Generator (kommerciel licens)' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Ordsøgning Generator' },
+    { pageType: 'app', slug: 'coloring-worksheets', anchorText: 'Farvelægnings-Generator' }
   ],
   relatedPosts: [
     { slug: 'saelg-additions-arbejdsark-etsy-guide', title: 'Sælg Additions-Arbejdsark på Etsy' },

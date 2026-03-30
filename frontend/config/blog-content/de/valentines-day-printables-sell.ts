@@ -13,7 +13,7 @@ const content: BlogContent = {
       'Februar saisonale Verkaeufe',
       'Valentinstag Aktivitaeten Grundschule',
     ],
-    titleTag: 'Valentinstag-Druckvorlagen: Was sich im Februar verkauft | LCS',
+    titleTag: 'Valentinstag-Druckvorlagen: Februar-Verkaeufe | LCS',
     metaDescription: 'Valentinstag-Druckvorlagen fuer den DACH-Markt: Freundschafts-Raetsel, Herz-Mathe und Liebes-Wortsuchen. So nutzen Sie die Februar-Saison auf Etsy.de.',
   },
   hero: {
@@ -67,9 +67,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'wortsuche-arbeitsblaetter', anchorText: 'Freundschafts-Wortsuche erstellen' },
-    { pageType: 'app', slug: 'zuordnungs-arbeitsblaetter', anchorText: 'Zuordnungsspiele mit Herz-Motiven' },
-    { pageType: 'app', slug: 'bilder-bingo-arbeitsblaetter', anchorText: 'Valentinstag-Bingo-Generator' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Freundschafts-Wortsuche erstellen' },
+    { pageType: 'app', slug: 'matching-worksheets', anchorText: 'Zuordnungsspiele mit Herz-Motiven' },
+    { pageType: 'app', slug: 'picture-bingo-worksheets', anchorText: 'Valentinstag-Bingo-Generator' },
   ],
   relatedPosts: [
     { slug: 'ostern-druckvorlagen-geschaeft-fruehling', title: 'Oster-Druckvorlagen: Fruehlings-Geschaeftsideen' },

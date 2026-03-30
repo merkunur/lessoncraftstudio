@@ -67,9 +67,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'trova-e-conta-schede', anchorText: 'Generatore Trova e Conta' },
-    { pageType: 'app', slug: 'addizione-schede', anchorText: 'Generatore Schede Addizione' },
-    { pageType: 'app', slug: 'classificazione-schede', anchorText: 'Generatore Schede Classificazione' },
+    { pageType: 'app', slug: 'find-and-count-worksheets', anchorText: 'Generatore Trova e Conta' },
+    { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Generatore Schede Addizione' },
+    { pageType: 'app', slug: 'picture-sort-worksheets', anchorText: 'Generatore Schede Classificazione' },
   ],
   relatedPosts: [
     { slug: 'guida-vendere-schede-addizione-etsy', title: 'Vendere Schede Addizione su Etsy' },

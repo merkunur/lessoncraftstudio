@@ -67,10 +67,10 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'trazado-fichas', anchorText: 'Generador de fichas de trazado' },
-    { pageType: 'app', slug: 'escritura-fichas', anchorText: 'Generador de fichas de escritura' },
-    { pageType: 'app', slug: 'colorear-fichas', anchorText: 'Generador de fichas de colorear' },
-    { pageType: 'app', slug: 'laberintos-imagenes-fichas', anchorText: 'Generador de laberintos con imágenes' },
+    { pageType: 'app', slug: 'drawing-lines-worksheets', anchorText: 'Generador de fichas de trazado' },
+    { pageType: 'app', slug: 'writing-worksheets', anchorText: 'Generador de fichas de escritura' },
+    { pageType: 'app', slug: 'coloring-worksheets', anchorText: 'Generador de fichas de colorear' },
+    { pageType: 'app', slug: 'picture-path-worksheets', anchorText: 'Generador de laberintos con imágenes' },
   ],
   relatedPosts: [
     { slug: 'guia-vender-fichas-suma-etsy', title: 'Vender fichas de suma en Etsy: guía completa' },

@@ -63,9 +63,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'addition-arbetsblad', anchorText: 'Additions-Generator' },
-    { pageType: 'app', slug: 'ordsoek-arbetsblad', anchorText: 'Ordsöks-Generator' },
-    { pageType: 'start', slug: 'saelj-utskrifter-etsy', anchorText: 'Börja Sälja på Etsy' },
+    { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Additions-Generator' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Ordsöks-Generator' },
+    { pageType: 'start', slug: 'etsy-printable-business', anchorText: 'Börja Sälja på Etsy' },
   ],
   relatedPosts: [
     { slug: 'etsy-seo-printable-saeljare-2026', title: 'Etsy SEO 2026' },

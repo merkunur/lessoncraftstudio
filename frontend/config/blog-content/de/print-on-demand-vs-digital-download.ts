@@ -67,9 +67,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'wortsuche-arbeitsblaetter', anchorText: 'Wortsuche fuer KDP und Etsy' },
-    { pageType: 'start', slug: 'druckvorlagen-auf-etsy-verkaufen', anchorText: 'Druckvorlagen auf Etsy verkaufen' },
-    { pageType: 'guide', slug: 'raetselbuecher-fuer-amazon-kdp', anchorText: 'Raetselbuecher fuer KDP' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Wortsuche fuer KDP und Etsy' },
+    { pageType: 'start', slug: 'etsy-printable-business', anchorText: 'Druckvorlagen auf Etsy verkaufen' },
+    { pageType: 'guide', slug: 'publish-puzzle-books-kdp', anchorText: 'Raetselbuecher fuer KDP' },
   ],
   relatedPosts: [
     { slug: 'kdp-vs-etsy-which-earns-more', title: 'KDP vs Etsy Vergleich' },

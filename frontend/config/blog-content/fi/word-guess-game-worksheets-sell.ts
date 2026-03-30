@@ -67,9 +67,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'kuva-arvaus-tyoarkit', anchorText: 'Sana-arvausgeneraattori' },
-    { pageType: 'app', slug: 'sanansekoitus-tyoarkit', anchorText: 'Sanasekoitusgeneraattori' },
-    { pageType: 'app', slug: 'sananhaku-tyoarkit', anchorText: 'Sananhakugeneraattori' },
+    { pageType: 'app', slug: 'word-guess-worksheets', anchorText: 'Sana-arvausgeneraattori' },
+    { pageType: 'app', slug: 'word-scramble-worksheets', anchorText: 'Sanasekoitusgeneraattori' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Sananhakugeneraattori' },
   ],
   relatedPosts: [
     { slug: 'sanasekoitus-tulosteet-liiketoiminta', title: 'Sanasekoitustulosteet: liiketoimintaopas' },

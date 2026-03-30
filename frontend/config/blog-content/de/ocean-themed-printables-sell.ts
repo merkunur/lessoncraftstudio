@@ -6,7 +6,7 @@ const content: BlogContent = {
     secondaryKeywords: ['Meerestiere Arbeitsblaetter Etsy', 'Unterwasserwelt Raetsel Kinder PDF', 'Strand Druckvorlagen Sommer'],
     lsiKeywords: ['Ozean Wortsuche Grundschule', 'Hai Delfin Wal Arbeitsblaetter', 'Meer Lernmaterial Kinder'],
     titleTag: 'Ozean-Druckvorlagen: Die Sommer-Verkaufswelle nutzen | LCS',
-    metaDescription: 'Ozean-Druckvorlagen: Die Sommer-Verkaufswelle nutzen: Marktanalyse, Produkte und Strategien fuer Druckvorlagen-Verkaeufer im DACH-Raum. Profitabel auf Etsy.de und Amazon KDP.',
+    metaDescription: 'Ozean-Druckvorlagen: Marktanalyse, Produkte und Strategien fuer Verkaeufer im DACH-Raum. Die Sommer-Verkaufswelle profitabel nutzen.',
   },
   hero: {
     title: 'Ozean-Druckvorlagen: Die Sommer-Verkaufswelle nutzen',
@@ -59,9 +59,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'wortsuche-arbeitsblaetter', anchorText: 'Thematische Wortsuche erstellen' },
-    { pageType: 'app', slug: 'zuordnungs-arbeitsblaetter', anchorText: 'Zuordnungsspiele erstellen' },
-    { pageType: 'start', slug: 'druckvorlagen-auf-etsy-verkaufen', anchorText: 'Etsy-Shop starten' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Thematische Wortsuche erstellen' },
+    { pageType: 'app', slug: 'matching-worksheets', anchorText: 'Zuordnungsspiele erstellen' },
+    { pageType: 'start', slug: 'etsy-printable-business', anchorText: 'Etsy-Shop starten' },
   ],
   relatedPosts: [
     { slug: 'tier-themen-druckvorlagen-verkaufen', title: 'Tier-Druckvorlagen: Immer Bestseller' },

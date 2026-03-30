@@ -14,7 +14,7 @@ const content: BlogContent = {
       'winter break activity printables profit',
     ],
     titleTag: 'New Year Printables: January Fresh Start | LCS',
-    metaDescription: 'New Year printables sell in January when parents and teachers want fresh-start activities. Learn which products convert and how to maximize this short window.',
+    metaDescription: 'New Year printables sell in January when parents and teachers want fresh-start activities. Learn which products convert in this short window.',
   },
   hero: {
     title: 'New Year Printables: Cash In on January\'s Fresh Start',
@@ -67,10 +67,10 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'coloring', anchorText: 'Winter Coloring Page Generator' },
-    { pageType: 'app', slug: 'wordsearch', anchorText: 'New Year Word Search Creator' },
-    { pageType: 'app', slug: 'addition', anchorText: 'Winter Math Worksheet Generator' },
-    { pageType: 'start', slug: 'sell-educational-printables-etsy', anchorText: 'Start your printable business fresh' },
+    { pageType: 'app', slug: 'coloring-worksheets', anchorText: 'Winter Coloring Page Generator' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'New Year Word Search Creator' },
+    { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Winter Math Worksheet Generator' },
+    { pageType: 'guide', slug: 'sell-educational-printables-etsy', anchorText: 'Start your printable business fresh' },
   ],
   relatedPosts: [
     { slug: 'seasonal-printable-calendar-sellers', title: 'Seasonal Printable Calendar for Sellers' },

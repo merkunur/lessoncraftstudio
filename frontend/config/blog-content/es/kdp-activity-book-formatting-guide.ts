@@ -67,9 +67,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'puzzles-matematicos-fichas', anchorText: 'Generador de puzzles matematicos' },
-    { pageType: 'start', slug: 'guia-completa-negocio-imprimibles', anchorText: 'Guia para iniciar negocio de imprimibles' },
-    { pageType: 'guide', slug: 'publicar-libros-actividades-kdp', anchorText: 'Publicar libros en Amazon KDP' },
+    { pageType: 'app', slug: 'math-puzzle-worksheets', anchorText: 'Generador de puzzles matematicos' },
+    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Guia para iniciar negocio de imprimibles' },
+    { pageType: 'guide', slug: 'publish-puzzle-books-kdp', anchorText: 'Publicar libros en Amazon KDP' },
   ],
   relatedPosts: [
     { slug: 'create-activity-book-kdp-start-finish', title: 'Crear un Libro de Actividades para KDP de Inicio a Fin' },

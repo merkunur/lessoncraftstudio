@@ -67,10 +67,10 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'association-ombres-fiches', anchorText: 'Générateur association d\'ombres' },
-    { pageType: 'tool', slug: 'association-ombres-fiches', anchorText: 'Essayer le générateur d\'ombres' },
-    { pageType: 'app', slug: 'association-fiches', anchorText: 'Générateur de fiches d\'association' },
-    { pageType: 'app', slug: 'pieces-manquantes-fiches', anchorText: 'Générateur pièces manquantes' },
+    { pageType: 'app', slug: 'shadow-match-worksheets', anchorText: 'Générateur association d\'ombres' },
+    { pageType: 'tool', slug: 'shadow-match-maker', anchorText: 'Essayer le générateur d\'ombres' },
+    { pageType: 'app', slug: 'matching-worksheets', anchorText: 'Générateur de fiches d\'association' },
+    { pageType: 'app', slug: 'missing-pieces-worksheets', anchorText: 'Générateur pièces manquantes' },
   ],
   relatedPosts: [
     { slug: 'guide-vendre-fiches-addition-etsy', title: 'Vendre des fiches d\'addition sur Etsy : guide complet' },

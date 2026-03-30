@@ -70,8 +70,8 @@ const content: BlogContent = {
     { pageType: 'app', slug: 'matching-worksheets', anchorText: 'Matching Worksheet Generator' },
     { pageType: 'tool', slug: 'matching-worksheet-maker', anchorText: 'Try the matching maker free trial' },
     { pageType: 'guide', slug: 'create-matching-worksheets', anchorText: 'Matching worksheet creation guide' },
-    { pageType: 'bundle', slug: 'matching-bundle', anchorText: 'Matching Bundle' },
-    { pageType: 'idea', slug: 'toddler-printables-niche', anchorText: 'Toddler printables niche ideas' },
+    { pageType: 'bundle', slug: 'matching-sorting-bundle', anchorText: 'Matching Bundle' },
+    { pageType: 'idea', slug: 'preschool-printable-ideas', anchorText: 'Toddler printables niche ideas' },
   ],
   relatedPosts: [
     { slug: 'shadow-matching-worksheets-sell', title: 'Shadow Matching Worksheets: Why They Outsell Competitors' },

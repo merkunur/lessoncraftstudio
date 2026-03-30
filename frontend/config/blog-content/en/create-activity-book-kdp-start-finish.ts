@@ -67,11 +67,11 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'coloring-pages', anchorText: 'Coloring Page Generator' },
+    { pageType: 'app', slug: 'coloring-worksheets', anchorText: 'Coloring Page Generator' },
     { pageType: 'app', slug: 'math-puzzle-worksheets', anchorText: 'Math Puzzle Generator' },
-    { pageType: 'start', slug: 'sell-educational-printables-etsy', anchorText: 'Selling printables on Etsy' },
-    { pageType: 'guide', slug: 'amazon-kdp-activity-books', anchorText: 'KDP activity book guide' },
-    { pageType: 'bundle', slug: 'puzzle-games-bundle', anchorText: 'Puzzle & Games Bundle' },
+    { pageType: 'guide', slug: 'sell-educational-printables-etsy', anchorText: 'Selling printables on Etsy' },
+    { pageType: 'start', slug: 'amazon-kdp-activity-books', anchorText: 'KDP activity book guide' },
+    { pageType: 'bundle', slug: 'puzzles-logic-bundle', anchorText: 'Puzzle & Games Bundle' },
   ],
   relatedPosts: [
     { slug: 'kdp-activity-book-formatting-guide', title: 'KDP Activity Book Formatting Guide' },

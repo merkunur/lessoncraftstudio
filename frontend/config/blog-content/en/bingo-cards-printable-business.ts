@@ -67,10 +67,10 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'bingo-worksheets', anchorText: 'Bingo Card Generator' },
+    { pageType: 'app', slug: 'picture-bingo-worksheets', anchorText: 'Bingo Card Generator' },
     { pageType: 'tool', slug: 'bingo-card-maker', anchorText: 'Try the bingo maker free trial' },
     { pageType: 'guide', slug: 'create-bingo-cards', anchorText: 'Bingo card creation guide' },
-    { pageType: 'bundle', slug: 'matching-bundle', anchorText: 'Matching & Games Bundle' },
+    { pageType: 'bundle', slug: 'matching-sorting-bundle', anchorText: 'Matching & Games Bundle' },
   ],
   relatedPosts: [
     { slug: 'treasure-hunt-printables-sell', title: 'Treasure Hunt Printables: The Birthday Party Market' },

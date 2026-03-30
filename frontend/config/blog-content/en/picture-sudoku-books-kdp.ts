@@ -67,10 +67,10 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'picture-sudoku-worksheets', anchorText: 'Picture Sudoku Generator' },
-    { pageType: 'tool', slug: 'picture-sudoku-maker', anchorText: 'Try the picture sudoku maker free trial' },
-    { pageType: 'guide', slug: 'create-picture-sudoku-worksheets', anchorText: 'Picture sudoku creation guide' },
-    { pageType: 'bundle', slug: 'puzzle-games-bundle', anchorText: 'Puzzles & Games Bundle' },
+    { pageType: 'app', slug: 'sudoku-worksheets', anchorText: 'Picture Sudoku Generator' },
+    { pageType: 'tool', slug: 'sudoku-maker', anchorText: 'Try the picture sudoku maker free trial' },
+    { pageType: 'guide', slug: 'create-picture-sudoku', anchorText: 'Picture sudoku creation guide' },
+    { pageType: 'bundle', slug: 'puzzles-logic-bundle', anchorText: 'Puzzles & Games Bundle' },
   ],
   relatedPosts: [
     { slug: 'missing-pieces-puzzles-kdp', title: 'Missing Pieces Puzzles: Perfect for KDP Activity Books' },

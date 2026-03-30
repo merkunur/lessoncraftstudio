@@ -34,9 +34,9 @@ const content: BlogContent = {
     { question: 'Kan jeg selge på flere plattformer samtidig?', answer: 'Ja. De mest lønnsomme selgerne er på Etsy, Undervisningsbyen.no, Amazon KDP og Gumroad. Samme innhold, tilpasset hvert format.' },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'addisjon-arbeidsark', anchorText: 'Prøv en arbeidsark-generator' },
-    { pageType: 'guide', slug: 'create-worksheets', anchorText: 'Guide til arbeidsark' },
-    { pageType: 'start', slug: 'sell-worksheets-etsy', anchorText: 'Kom i gang med å selge' },
+    { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Prøv en arbeidsark-generator' },
+    { pageType: 'guide', slug: 'create-addition-worksheets', anchorText: 'Guide til arbeidsark' },
+    { pageType: 'start', slug: 'create-worksheets-that-sell', anchorText: 'Kom i gang med å selge' },
   ],
   relatedPosts: [
     { slug: 'etsy-printable-prisstrategi', title: 'Prisstrategi for Etsy-printables' },

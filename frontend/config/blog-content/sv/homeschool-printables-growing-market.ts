@@ -63,9 +63,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'addition-arbetsblad', anchorText: 'Additions-Generator' },
-    { pageType: 'app', slug: 'ordsoek-arbetsblad', anchorText: 'Ordsöks-Generator' },
-    { pageType: 'app', slug: 'korsord-arbetsblad', anchorText: 'Korsords-Generator' },
+    { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Additions-Generator' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Ordsöks-Generator' },
+    { pageType: 'app', slug: 'crossword-worksheets', anchorText: 'Korsords-Generator' },
   ],
   relatedPosts: [
     { slug: 'saesongskalender-printable-saeljare', title: 'Säsongskalender för Säljare' },

@@ -67,10 +67,10 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'code-optellen-werkbladen', anchorText: 'Code Optellen Generator' },
-    { pageType: 'app', slug: 'optellen-werkbladen', anchorText: 'Standaard Optellen Generator' },
-    { pageType: 'app', slug: 'cryptogram-werkbladen', anchorText: 'Cryptogram Generator' },
-    { pageType: 'guide', slug: 'puzzels-verkopen-etsy', anchorText: 'Puzzels verkopen op Etsy' },
+    { pageType: 'app', slug: 'code-addition-worksheets', anchorText: 'Code Optellen Generator' },
+    { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Standaard Optellen Generator' },
+    { pageType: 'app', slug: 'cryptogram-worksheets', anchorText: 'Cryptogram Generator' },
+    { pageType: 'guide', slug: 'sell-word-search-etsy', anchorText: 'Puzzels verkopen op Etsy' },
   ],
   relatedPosts: [
     { slug: 'optellen-werkbladen-verkopen-etsy-gids', title: 'Optellen Werkbladen Verkopen op Etsy' },

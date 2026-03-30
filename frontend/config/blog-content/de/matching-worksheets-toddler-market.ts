@@ -67,9 +67,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'zuordnungs-arbeitsblaetter', anchorText: 'Zuordnungs-Generator' },
-    { pageType: 'app', slug: 'schatten-zuordnung-arbeitsblaetter', anchorText: 'Schatten-Zuordnungs-Generator' },
-    { pageType: 'app', slug: 'sortier-arbeitsblaetter', anchorText: 'Sortier-Generator' },
+    { pageType: 'app', slug: 'matching-worksheets', anchorText: 'Zuordnungs-Generator' },
+    { pageType: 'app', slug: 'shadow-match-worksheets', anchorText: 'Schatten-Zuordnungs-Generator' },
+    { pageType: 'app', slug: 'picture-sort-worksheets', anchorText: 'Sortier-Generator' },
   ],
   relatedPosts: [
     { slug: 'schatten-zuordnung-arbeitsblaetter-verkaufen', title: 'Schatten-Zuordnung: Warum sie sich besser verkaufen' },

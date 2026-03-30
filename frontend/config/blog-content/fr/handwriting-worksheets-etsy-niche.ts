@@ -67,10 +67,10 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'ecriture-fiches', anchorText: 'Générateur de fiches d\'écriture' },
-    { pageType: 'tool', slug: 'ecriture-fiches', anchorText: 'Essayer le générateur d\'écriture' },
-    { pageType: 'app', slug: 'tracage-fiches', anchorText: 'Générateur de fiches de traçage' },
-    { pageType: 'app', slug: 'alphabet-fiches', anchorText: 'Générateur de fiches alphabet' },
+    { pageType: 'app', slug: 'writing-worksheets', anchorText: 'Générateur de fiches d\'écriture' },
+    { pageType: 'tool', slug: 'handwriting-worksheet-maker', anchorText: 'Essayer le générateur d\'écriture' },
+    { pageType: 'app', slug: 'drawing-lines-worksheets', anchorText: 'Générateur de fiches de traçage' },
+    { pageType: 'app', slug: 'alphabet-train-worksheets', anchorText: 'Générateur de fiches alphabet' },
   ],
   relatedPosts: [
     { slug: 'guide-vendre-fiches-addition-etsy', title: 'Vendre des fiches d\'addition sur Etsy : guide complet' },

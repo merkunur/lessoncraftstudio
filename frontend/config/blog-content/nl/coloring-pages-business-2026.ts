@@ -35,9 +35,9 @@ const content: BlogContent = {
     { question: 'Op welke leeftijdsgroep moet ik mij eerst richten?', answer: 'Begin met groep 1-3 (4-7 jaar). Deze leeftijdsgroep heeft de hoogste vraag en ouders kopen het meest actief aanvullend materiaal.' },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'kleurplaten-werkbladen', anchorText: 'Kleurplaten Generator' },
-    { pageType: 'guide', slug: 'kleurplaten-werkbladen-gids', anchorText: 'Kleurplaten verkopen gids' },
-    { pageType: 'start', slug: 'printables-verkopen-etsy', anchorText: 'Begin met printables verkopen' },
+    { pageType: 'app', slug: 'coloring-worksheets', anchorText: 'Kleurplaten Generator' },
+    { pageType: 'guide', slug: 'create-coloring-pages', anchorText: 'Kleurplaten verkopen gids' },
+    { pageType: 'start', slug: 'etsy-printable-business', anchorText: 'Begin met printables verkopen' },
   ],
   relatedPosts: [
     { slug: 'optellen-werkbladen-verkopen-etsy-gids', title: 'Optellen Werkbladen Verkopen op Etsy' },

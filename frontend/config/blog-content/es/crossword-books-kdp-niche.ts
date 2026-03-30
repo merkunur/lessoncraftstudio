@@ -14,7 +14,7 @@ const content: BlogContent = {
       'KDP libros puzzles palabras rentable',
     ],
     titleTag: 'Libros Crucigramas KDP: Baja Competencia | LCS',
-    metaDescription: 'Los libros de crucigramas para niños en KDP son un nicho de baja competencia con altos márgenes. Guía completa para publicar. Prueba gratuita con marca de agua.',
+    metaDescription: 'Los libros de crucigramas para niños en KDP son un nicho de baja competencia con altos márgenes. Guía completa para publicar.',
   },
   hero: {
     title: 'Libros de Crucigramas KDP: Nicho de Baja Competencia',
@@ -67,10 +67,10 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'crucigramas-fichas', anchorText: 'Generador de crucigramas' },
-    { pageType: 'app', slug: 'sopa-letras-fichas', anchorText: 'Generador de sopas de letras' },
-    { pageType: 'app', slug: 'criptogramas-fichas', anchorText: 'Generador de criptogramas' },
-    { pageType: 'app', slug: 'anagramas-fichas', anchorText: 'Generador de anagramas' },
+    { pageType: 'app', slug: 'crossword-worksheets', anchorText: 'Generador de crucigramas' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Generador de sopas de letras' },
+    { pageType: 'app', slug: 'cryptogram-worksheets', anchorText: 'Generador de criptogramas' },
+    { pageType: 'app', slug: 'word-scramble-worksheets', anchorText: 'Generador de anagramas' },
   ],
   relatedPosts: [
     { slug: 'sopa-letras-imprimibles-ganancias', title: 'Sopas de letras imprimibles: cuánto se gana' },

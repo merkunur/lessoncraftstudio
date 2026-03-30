@@ -59,9 +59,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'preposizioni-schede', anchorText: 'Generatore Preposizioni' },
-    { pageType: 'app', slug: 'abbinamento-schede', anchorText: 'Generatore Abbinamento' },
-    { pageType: 'app', slug: 'cerca-parole-schede', anchorText: 'Generatore Cerca Parole' },
+    { pageType: 'app', slug: 'prepositions-worksheets', anchorText: 'Generatore Preposizioni' },
+    { pageType: 'app', slug: 'matching-worksheets', anchorText: 'Generatore Abbinamento' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Generatore Cerca Parole' },
   ],
   relatedPosts: [
     { slug: 'schede-scrittura-etsy-nicchia', title: 'Schede Scrittura: Nicchia Etsy' },

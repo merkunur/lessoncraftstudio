@@ -67,9 +67,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'asociacion-fichas', anchorText: 'Generador de fichas de asociacion' },
-    { pageType: 'start', slug: 'guia-completa-negocio-imprimibles', anchorText: 'Guia completa para su negocio' },
-    { pageType: 'guide', slug: 'estrategia-catalogo-etsy', anchorText: 'Estrategia de catalogo para Etsy' },
+    { pageType: 'app', slug: 'matching-worksheets', anchorText: 'Generador de fichas de asociacion' },
+    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Guia completa para su negocio' },
+    { pageType: 'guide', slug: 'create-printable-product-line', anchorText: 'Estrategia de catalogo para Etsy' },
   ],
   relatedPosts: [
     { slug: 'etsy-printable-shop-first-month', title: 'Su Primer Mes en Etsy: Que Esperar' },

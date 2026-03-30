@@ -50,9 +50,9 @@ const content: BlogContent = {
     { question: 'Kann ich Was-passt-nicht auch fuer den DaF-Markt anbieten?', answer: 'Ja. Was-passt-nicht mit deutschen Woertern (\"Welches Wort gehoert nicht zur Wortfamilie?\") ist eine effektive Vokabel- und Grammatikuebung fuer Deutschlerner. Besonders fuer Niveau B1-B2 geeignet.' },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'was-passt-nicht-arbeitsblaetter', anchorText: 'Was-passt-nicht-Generator' },
-    { pageType: 'app', slug: 'gitter-zuordnungs-arbeitsblaetter', anchorText: 'Gitter-Zuordnungs-Generator' },
-    { pageType: 'app', slug: 'muster-arbeitsblaetter', anchorText: 'Muster-Generator' },
+    { pageType: 'app', slug: 'odd-one-out-worksheets', anchorText: 'Was-passt-nicht-Generator' },
+    { pageType: 'app', slug: 'grid-match-worksheets', anchorText: 'Gitter-Zuordnungs-Generator' },
+    { pageType: 'app', slug: 'pattern-worksheets', anchorText: 'Muster-Generator' },
   ],
   relatedPosts: [
     { slug: 'gitter-zuordnungs-raetsel-verkaufen', title: 'Gitter-Zuordnungsraetsel: Einzigartige Produkte' },

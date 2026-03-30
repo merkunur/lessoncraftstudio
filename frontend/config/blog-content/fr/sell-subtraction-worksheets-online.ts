@@ -67,10 +67,10 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'soustraction-fiches', anchorText: 'Générateur de fiches de soustraction' },
-    { pageType: 'tool', slug: 'soustraction-fiches', anchorText: 'Essayer le générateur de soustraction' },
-    { pageType: 'guide', slug: 'soustraction-fiches', anchorText: 'Guide création fiches soustraction' },
-    { pageType: 'app', slug: 'addition-fiches', anchorText: 'Générateur de fiches d\'addition' },
+    { pageType: 'app', slug: 'subtraction-worksheets', anchorText: 'Générateur de fiches de soustraction' },
+    { pageType: 'tool', slug: 'subtraction-worksheet-maker', anchorText: 'Essayer le générateur de soustraction' },
+    { pageType: 'guide', slug: 'create-subtraction-worksheets', anchorText: 'Guide création fiches soustraction' },
+    { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Générateur de fiches d\'addition' },
   ],
   relatedPosts: [
     { slug: 'guide-vendre-fiches-addition-etsy', title: 'Vendre des fiches d\'addition sur Etsy : guide complet' },

@@ -67,9 +67,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'adicao-fichas', anchorText: 'Gerador de Fichas de Adição' },
-    { pageType: 'app', slug: 'caca-palavras-fichas', anchorText: 'Gerador de Caça-Palavras' },
-    { pageType: 'app', slug: 'puzzles-matematicos-fichas', anchorText: 'Gerador de Puzzles Matemáticos' },
+    { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Gerador de Fichas de Adição' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Gerador de Caça-Palavras' },
+    { pageType: 'app', slug: 'math-puzzle-worksheets', anchorText: 'Gerador de Puzzles Matemáticos' },
   ],
   relatedPosts: [
     { slug: 'loja-etsy-imprimiveis-primeiro-mes', title: 'Loja Etsy: Primeiro Mês' },

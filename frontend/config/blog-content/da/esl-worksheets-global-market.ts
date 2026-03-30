@@ -35,9 +35,9 @@ const content: BlogContent = {
     { question: 'Fungerer dette marked også i Danmark?', answer: 'Absolut. Det danske marked har minimal konkurrence og god betalingsvillighed. Danske produkter tilpasset folkeskolen, DSA-undervisning og danske traditioner har et dedikeret publikum.' }
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'addition-arbejdsark', anchorText: 'Additions-Generator' },
-    { pageType: 'app', slug: 'ordsoegning-arbejdsark', anchorText: 'Ordsøgning Generator' },
-    { pageType: 'app', slug: 'matchning-arbejdsark', anchorText: 'Matchning Generator' }
+    { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Additions-Generator' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Ordsøgning Generator' },
+    { pageType: 'app', slug: 'matching-worksheets', anchorText: 'Matchning Generator' }
   ],
   relatedPosts: [
     { slug: 'saelg-additions-arbejdsark-etsy-guide', title: 'Sælg Additions-Arbejdsark på Etsy' },

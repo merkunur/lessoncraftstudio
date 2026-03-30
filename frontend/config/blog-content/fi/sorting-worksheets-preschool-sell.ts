@@ -67,8 +67,8 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'kuvalajittelu-tyoarkit', anchorText: 'Lajittelugeneraattori' },
-    { pageType: 'app', slug: 'yhdista-parit-tyoarkit', anchorText: 'Yhdistamisgeneraattori' },
+    { pageType: 'app', slug: 'picture-sort-worksheets', anchorText: 'Lajittelugeneraattori' },
+    { pageType: 'app', slug: 'matching-worksheets', anchorText: 'Yhdistamisgeneraattori' },
   ],
   relatedPosts: [
     { slug: 'yhdistamis-tyoarkit-taaperomarkkina', title: 'Yhdistamistyoarkit taaperomarkkinoilla' },

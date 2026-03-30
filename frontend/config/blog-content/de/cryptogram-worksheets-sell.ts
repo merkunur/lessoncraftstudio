@@ -67,9 +67,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'kryptogramm-arbeitsblaetter', anchorText: 'Kryptogramm-Generator' },
-    { pageType: 'app', slug: 'code-additions-arbeitsblaetter', anchorText: 'Code-Additions-Generator' },
-    { pageType: 'app', slug: 'wortsuche-arbeitsblaetter', anchorText: 'Wortsuche-Generator' },
+    { pageType: 'app', slug: 'cryptogram-worksheets', anchorText: 'Kryptogramm-Generator' },
+    { pageType: 'app', slug: 'code-addition-worksheets', anchorText: 'Code-Additions-Generator' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Wortsuche-Generator' },
   ],
   relatedPosts: [
     { slug: 'code-additions-raetsel-verkaufen-etsy', title: 'Code-Additions-Raetsel auf Etsy verkaufen' },

@@ -67,10 +67,10 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'resta-fichas', anchorText: 'Generador de fichas de resta' },
-    { pageType: 'app', slug: 'suma-fichas', anchorText: 'Generador de fichas de suma' },
-    { pageType: 'app', slug: 'codigo-suma-fichas', anchorText: 'Generador de código suma' },
-    { pageType: 'app', slug: 'matematicas-fichas', anchorText: 'Generador de fichas de matemáticas' },
+    { pageType: 'app', slug: 'subtraction-worksheets', anchorText: 'Generador de fichas de resta' },
+    { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Generador de fichas de suma' },
+    { pageType: 'app', slug: 'code-addition-worksheets', anchorText: 'Generador de código suma' },
+    { pageType: 'app', slug: 'math-worksheets', anchorText: 'Generador de fichas de matemáticas' },
   ],
   relatedPosts: [
     { slug: 'guia-vender-fichas-suma-etsy', title: 'Vender fichas de suma en Etsy: guía completa' },

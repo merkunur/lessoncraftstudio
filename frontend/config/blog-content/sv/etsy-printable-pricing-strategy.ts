@@ -59,9 +59,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'start', slug: 'saelj-utskrifter-etsy', anchorText: 'Börja sälja utskrifter på Etsy' },
-    { pageType: 'guide', slug: 'skapa-arbetsblad-paket', anchorText: 'Skapa lönsamma arbetsbladspaket' },
-    { pageType: 'app', slug: 'addition-arbetsblad', anchorText: 'Testa Additions-Generatorn' },
+    { pageType: 'start', slug: 'etsy-printable-business', anchorText: 'Börja sälja utskrifter på Etsy' },
+    { pageType: 'guide', slug: 'create-worksheet-bundles', anchorText: 'Skapa lönsamma arbetsbladspaket' },
+    { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Testa Additions-Generatorn' },
   ],
   relatedPosts: [
     { slug: 'mattebladpaket-som-saeljer', title: 'Mattebladpaket som Säljer' },

@@ -67,9 +67,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'associacao-fichas', anchorText: 'Gerador de Fichas de Associação' },
-    { pageType: 'app', slug: 'associacao-sombras-fichas', anchorText: 'Gerador Associação de Sombras' },
-    { pageType: 'app', slug: 'encontrar-e-contar-fichas', anchorText: 'Gerador Encontrar e Contar' },
+    { pageType: 'app', slug: 'matching-worksheets', anchorText: 'Gerador de Fichas de Associação' },
+    { pageType: 'app', slug: 'shadow-match-worksheets', anchorText: 'Gerador Associação de Sombras' },
+    { pageType: 'app', slug: 'find-and-count-worksheets', anchorText: 'Gerador Encontrar e Contar' },
   ],
   relatedPosts: [
     { slug: 'fichas-associacao-sombras-vender', title: 'Fichas Associação Sombras: Vender' },

@@ -67,9 +67,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'addition', anchorText: 'Addition Worksheet Generator' },
-    { pageType: 'app', slug: 'wordsearch', anchorText: 'Word Search Creator for Vocabulary' },
-    { pageType: 'start', slug: 'sell-educational-printables-etsy', anchorText: 'Start selling printables on Etsy' },
+    { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Addition Worksheet Generator' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Word Search Creator for Vocabulary' },
+    { pageType: 'guide', slug: 'sell-educational-printables-etsy', anchorText: 'Start selling printables on Etsy' },
     { pageType: 'guide', slug: 'create-worksheet-bundles', anchorText: 'Bundle creation guide' },
   ],
   relatedPosts: [

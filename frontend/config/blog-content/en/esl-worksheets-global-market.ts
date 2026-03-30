@@ -67,10 +67,10 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'matching', anchorText: 'Vocabulary Matching Generator' },
-    { pageType: 'app', slug: 'wordsearch', anchorText: 'ESL Word Search Creator' },
-    { pageType: 'app', slug: 'prepositions', anchorText: 'Preposition Worksheet Generator' },
-    { pageType: 'start', slug: 'sell-educational-printables-etsy', anchorText: 'Start your ESL printable business' },
+    { pageType: 'app', slug: 'matching-worksheets', anchorText: 'Vocabulary Matching Generator' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'ESL Word Search Creator' },
+    { pageType: 'app', slug: 'prepositions-worksheets', anchorText: 'Preposition Worksheet Generator' },
+    { pageType: 'guide', slug: 'sell-educational-printables-etsy', anchorText: 'Start your ESL printable business' },
   ],
   relatedPosts: [
     { slug: 'etsy-printable-pricing-strategy', title: 'Etsy Printable Pricing Strategy' },

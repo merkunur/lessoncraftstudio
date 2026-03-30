@@ -67,9 +67,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'malvorlagen-arbeitsblaetter', anchorText: 'Malvorlagen-Generator' },
-    { pageType: 'app', slug: 'zeichnen-und-ausmalen-arbeitsblaetter', anchorText: 'Zeichnen-und-Ausmalen-Generator' },
-    { pageType: 'app', slug: 'alphabet-arbeitsblaetter', anchorText: 'Alphabet-Generator (Buchstaben ausmalen)' },
+    { pageType: 'app', slug: 'coloring-worksheets', anchorText: 'Malvorlagen-Generator' },
+    { pageType: 'app', slug: 'draw-and-color-worksheets', anchorText: 'Zeichnen-und-Ausmalen-Generator' },
+    { pageType: 'app', slug: 'alphabet-train-worksheets', anchorText: 'Alphabet-Generator (Buchstaben ausmalen)' },
   ],
   relatedPosts: [
     { slug: 'zeichnen-und-ausmalen-arbeitsblaetter-verkaufen', title: 'Zeichnen und Ausmalen: Zwei Nischen kombinieren' },

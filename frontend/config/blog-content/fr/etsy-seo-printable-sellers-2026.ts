@@ -67,9 +67,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'addition-fiches', anchorText: 'Créer des fiches d\'addition professionnelles' },
-    { pageType: 'start', slug: 'guide-complet-activite-imprimables', anchorText: 'Guide complet pour lancer votre activité' },
-    { pageType: 'guide', slug: 'optimisation-seo-etsy-imprimables', anchorText: 'Guide SEO Etsy approfondi' },
+    { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Créer des fiches d\'addition professionnelles' },
+    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Guide complet pour lancer votre activité' },
+    { pageType: 'guide', slug: 'etsy-seo-educational-printables', anchorText: 'Guide SEO Etsy approfondi' },
   ],
   relatedPosts: [
     { slug: 'etsy-listing-optimization-worksheets', title: 'Optimiser vos fiches Etsy pour les imprimables' },

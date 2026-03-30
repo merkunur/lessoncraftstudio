@@ -67,8 +67,8 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'varityskuvat-tyoarkit', anchorText: 'Varityssivugeneraattori' },
-    { pageType: 'app', slug: 'viivojen-piirtaminen-tyoarkit', anchorText: 'Viivapiirtosgeneraattori' },
+    { pageType: 'app', slug: 'coloring-worksheets', anchorText: 'Varityssivugeneraattori' },
+    { pageType: 'app', slug: 'drawing-lines-worksheets', anchorText: 'Viivapiirtosgeneraattori' },
   ],
   relatedPosts: [
     { slug: 'varityssivut-liiketoiminta-2026', title: 'Varityssivut liiketoimintana 2026' },

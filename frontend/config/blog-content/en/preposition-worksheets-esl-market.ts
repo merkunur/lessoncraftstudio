@@ -67,10 +67,10 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'preposition-worksheets', anchorText: 'Preposition Worksheet Generator' },
-    { pageType: 'tool', slug: 'preposition-maker', anchorText: 'Try the preposition maker free trial' },
+    { pageType: 'app', slug: 'prepositions-worksheets', anchorText: 'Preposition Worksheet Generator' },
+    { pageType: 'tool', slug: 'prepositions-worksheet-maker', anchorText: 'Try the preposition maker free trial' },
     { pageType: 'guide', slug: 'create-preposition-worksheets', anchorText: 'Preposition worksheet guide' },
-    { pageType: 'idea', slug: 'multilingual-worksheets-niche', anchorText: 'Multilingual worksheets niche ideas' },
+    { pageType: 'idea', slug: 'esl-printable-ideas', anchorText: 'Multilingual worksheets niche ideas' },
   ],
   relatedPosts: [
     { slug: 'esl-worksheets-global-market', title: 'ESL Worksheets: The Global Market Opportunity' },

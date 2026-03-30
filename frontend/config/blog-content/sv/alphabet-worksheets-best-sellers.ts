@@ -59,9 +59,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'alfabet-arbetsblad', anchorText: 'Alfabet-Arbetsblad Generator' },
-    { pageType: 'app', slug: 'handskrivning-arbetsblad', anchorText: 'Handskrivnings-Generator' },
-    { pageType: 'app', slug: 'spoera-arbetsblad', anchorText: 'Spårnings-Generator' },
+    { pageType: 'app', slug: 'alphabet-train-worksheets', anchorText: 'Alfabet-Arbetsblad Generator' },
+    { pageType: 'app', slug: 'writing-worksheets', anchorText: 'Handskrivnings-Generator' },
+    { pageType: 'app', slug: 'drawing-lines-worksheets', anchorText: 'Spårnings-Generator' },
   ],
   relatedPosts: [
     { slug: 'handskrivning-arbetsblad-etsy-nisch', title: 'Handskrivningsarbetsblad: Etsy-Nisch' },

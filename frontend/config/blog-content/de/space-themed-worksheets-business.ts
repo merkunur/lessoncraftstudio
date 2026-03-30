@@ -35,9 +35,9 @@ const content: BlogContent = {
     { question: 'Lohnt sich ein reines Weltraum-Sortiment?', answer: 'Als Teilsortiment ja. 15-25 Weltraum-Listings sind profitabel. Fuer ein vollstaendiges Geschaeft empfiehlt sich ein breiteres MINT-Sortiment.' },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'wortsuche-arbeitsblaetter', anchorText: 'Weltraum-Wortsuche erstellen' },
-    { pageType: 'app', slug: 'mathe-raetsel-arbeitsblaetter', anchorText: 'Raketen-Mathe-Raetsel' },
-    { pageType: 'app', slug: 'schatzsuche-arbeitsblaetter', anchorText: 'Astronauten-Schatzsuche erstellen' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Weltraum-Wortsuche erstellen' },
+    { pageType: 'app', slug: 'math-puzzle-worksheets', anchorText: 'Raketen-Mathe-Raetsel' },
+    { pageType: 'app', slug: 'treasure-hunt-worksheets', anchorText: 'Astronauten-Schatzsuche erstellen' },
   ],
   relatedPosts: [
     { slug: 'tier-themen-druckvorlagen-verkaufen', title: 'Tier-Druckvorlagen: Warum sie immer Bestseller sind' },

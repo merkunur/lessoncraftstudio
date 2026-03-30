@@ -67,9 +67,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'colorear-fichas', anchorText: 'Generador de fichas para colorear' },
-    { pageType: 'start', slug: 'guia-completa-negocio-imprimibles', anchorText: 'Iniciar negocio de imprimibles' },
-    { pageType: 'guide', slug: 'marketing-pinterest-imprimibles', anchorText: 'Marketing en Pinterest para imprimibles' },
+    { pageType: 'app', slug: 'coloring-worksheets', anchorText: 'Generador de fichas para colorear' },
+    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Iniciar negocio de imprimibles' },
+    { pageType: 'guide', slug: 'pinterest-marketing-worksheets', anchorText: 'Marketing en Pinterest para imprimibles' },
   ],
   relatedPosts: [
     { slug: 'social-media-printable-sellers', title: 'Redes Sociales para Vendedores de Imprimibles' },

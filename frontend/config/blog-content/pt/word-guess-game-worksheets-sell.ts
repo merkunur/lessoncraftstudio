@@ -67,9 +67,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'adivinhar-palavras-fichas', anchorText: 'Gerador Adivinhar Palavras' },
-    { pageType: 'app', slug: 'caca-palavras-fichas', anchorText: 'Gerador de Caça-Palavras' },
-    { pageType: 'app', slug: 'palavras-cruzadas-fichas', anchorText: 'Gerador Palavras Cruzadas' },
+    { pageType: 'app', slug: 'word-guess-worksheets', anchorText: 'Gerador Adivinhar Palavras' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Gerador de Caça-Palavras' },
+    { pageType: 'app', slug: 'crossword-worksheets', anchorText: 'Gerador Palavras Cruzadas' },
   ],
   relatedPosts: [
     { slug: 'caca-palavras-imprimiveis-lucro', title: 'Caça-Palavras Imprimíveis: Lucro' },

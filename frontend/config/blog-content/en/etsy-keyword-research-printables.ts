@@ -68,9 +68,9 @@ const content: BlogContent = {
   ],
   internalLinks: [
     { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Word Search Generator' },
-    { pageType: 'start', slug: 'sell-educational-printables-etsy', anchorText: 'Start your Etsy printable shop' },
+    { pageType: 'guide', slug: 'sell-educational-printables-etsy', anchorText: 'Start your Etsy printable shop' },
     { pageType: 'guide', slug: 'etsy-seo-educational-printables', anchorText: 'Etsy SEO guide for printables' },
-    { pageType: 'idea', slug: 'etsy-worksheet-bundles', anchorText: 'Worksheet bundle ideas' },
+    { pageType: 'idea', slug: 'christmas-printable-ideas', anchorText: 'Worksheet bundle ideas' },
   ],
   relatedPosts: [
     { slug: 'etsy-seo-printable-sellers-2026', title: 'Etsy SEO for Printable Sellers in 2026' },

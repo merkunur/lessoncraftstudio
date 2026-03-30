@@ -67,10 +67,10 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'start', slug: 'sell-educational-printables-etsy', anchorText: 'Start selling printables' },
-    { pageType: 'guide', slug: 'marketing-printable-business', anchorText: 'Marketing guide for printable sellers' },
+    { pageType: 'guide', slug: 'sell-educational-printables-etsy', anchorText: 'Start selling printables' },
+    { pageType: 'start', slug: 'marketing-printable-business', anchorText: 'Marketing guide for printable sellers' },
     { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Word Search Generator' },
-    { pageType: 'idea', slug: 'printable-business-ideas', anchorText: 'Printable business ideas' },
+    { pageType: 'idea', slug: 'christmas-printable-ideas', anchorText: 'Printable business ideas' },
   ],
   relatedPosts: [
     { slug: 'social-media-printable-sellers', title: 'Social Media for Printable Sellers: What Drives Sales' },

@@ -59,9 +59,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'linien-ziehen-arbeitsblaetter', anchorText: 'Schwunguebungen-Generator' },
-    { pageType: 'app', slug: 'rasterzeichnen-arbeitsblaetter', anchorText: 'Zeichnen-und-Ausmalen-Generator' },
-    { pageType: 'app', slug: 'muster-arbeitsblatt-arbeitsblaetter', anchorText: 'Muster-Arbeitsblaetter' },
+    { pageType: 'app', slug: 'drawing-lines-worksheets', anchorText: 'Schwunguebungen-Generator' },
+    { pageType: 'app', slug: 'draw-and-color-worksheets', anchorText: 'Zeichnen-und-Ausmalen-Generator' },
+    { pageType: 'app', slug: 'pattern-worksheets', anchorText: 'Muster-Arbeitsblaetter' },
   ],
   relatedPosts: [
     { slug: 'vorschule-druckvorlagen-bestseller', title: 'Vorschul-Druckvorlagen: Die Bestseller auf Etsy' },

@@ -50,9 +50,9 @@ const content: BlogContent = {
     { question: 'Kann ich Bilder-Sudoku auch fuer Senioren anbieten?', answer: 'Ja. Bilder-Sudoku fuer Senioren (grosse Bilder, klare Kontraste) ist eine eigene KDP-Nische. Positionieren Sie es als Gedaechtnistraining — ein wachsender Markt.' },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'bilder-sudoku-arbeitsblaetter', anchorText: 'Bilder-Sudoku-Generator' },
-    { pageType: 'app', slug: 'gitter-zuordnungs-arbeitsblaetter', anchorText: 'Gitter-Zuordnungs-Generator' },
-    { pageType: 'app', slug: 'muster-arbeitsblaetter', anchorText: 'Muster-Generator' },
+    { pageType: 'app', slug: 'sudoku-worksheets', anchorText: 'Bilder-Sudoku-Generator' },
+    { pageType: 'app', slug: 'grid-match-worksheets', anchorText: 'Gitter-Zuordnungs-Generator' },
+    { pageType: 'app', slug: 'pattern-worksheets', anchorText: 'Muster-Generator' },
   ],
   relatedPosts: [
     { slug: 'mathe-raetselbuecher-amazon-kdp', title: 'Mathe-Raetselbuecher fuer Amazon KDP' },

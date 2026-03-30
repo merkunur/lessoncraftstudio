@@ -50,9 +50,9 @@ const content: BlogContent = {
     { question: 'Ovatko elainkuvat aina paras teema taaperoille?', answer: 'Elaimet ovat ylivoimaisesti suosituimpia mutta ajoneuvot, ruoka ja varis sopivat myos erinomaisesti. Testaa useita teemoja ja katso mika myy parhaiten.' },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'yhdista-parit-tyoarkit', anchorText: 'Yhdistamisgeneraattori' },
-    { pageType: 'app', slug: 'varjoyhdistely-tyoarkit', anchorText: 'Varjoyhdistelygeneraattori' },
-    { pageType: 'app', slug: 'iso-pieni-tyoarkit', anchorText: 'Iso-pieni generaattori' },
+    { pageType: 'app', slug: 'matching-worksheets', anchorText: 'Yhdistamisgeneraattori' },
+    { pageType: 'app', slug: 'shadow-match-worksheets', anchorText: 'Varjoyhdistelygeneraattori' },
+    { pageType: 'app', slug: 'big-small-worksheets', anchorText: 'Iso-pieni generaattori' },
   ],
   relatedPosts: [
     { slug: 'varjoyhdistamis-tyoarkit-myy', title: 'Varjoyhdistamistyoarkit: myyntiopas' },

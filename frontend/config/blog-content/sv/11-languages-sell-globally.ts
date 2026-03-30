@@ -59,9 +59,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'addition-arbetsblad', anchorText: 'Testa Generatorn på 11 Språk' },
-    { pageType: 'app', slug: 'ordsoek-arbetsblad', anchorText: 'Flerspråkig Ordsöks-Generator' },
-    { pageType: 'guide', slug: 'flersprakiga-arbetsblad', anchorText: 'Guide: Flerspråkiga Arbetsblad' },
+    { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Testa Generatorn på 11 Språk' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Flerspråkig Ordsöks-Generator' },
+    { pageType: 'guide', slug: 'worksheets-multiple-languages', anchorText: 'Guide: Flerspråkiga Arbetsblad' },
   ],
   relatedPosts: [
     { slug: 'flersprakiga-printables-foerdel', title: 'Flerspråkiga Utskrifters Fördel' },

@@ -14,7 +14,7 @@ const content: BlogContent = {
       'march april printable sales',
     ],
     titleTag: 'Spring Printables: March & April Sales | LCS',
-    metaDescription: 'Spring printables sell strongly in March-April. Learn which flower, butterfly, and garden themes convert, plus how to extend spring into a 10-week revenue stream.',
+    metaDescription: 'Spring printables sell strongly in March-April. Learn which flower, butterfly, and garden themes convert and how to extend into 10 weeks of revenue.',
   },
   hero: {
     title: 'Spring Printables: What Sells in March and April',
@@ -67,10 +67,10 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'coloring', anchorText: 'Spring Coloring Page Generator' },
-    { pageType: 'app', slug: 'matching', anchorText: 'Butterfly Matching Activity Creator' },
-    { pageType: 'app', slug: 'find-and-count', anchorText: 'Nature Find & Count Maker' },
-    { pageType: 'start', slug: 'sell-educational-printables-etsy', anchorText: 'Start your spring printable business' },
+    { pageType: 'app', slug: 'coloring-worksheets', anchorText: 'Spring Coloring Page Generator' },
+    { pageType: 'app', slug: 'matching-worksheets', anchorText: 'Butterfly Matching Activity Creator' },
+    { pageType: 'app', slug: 'find-and-count-worksheets', anchorText: 'Nature Find & Count Maker' },
+    { pageType: 'guide', slug: 'sell-educational-printables-etsy', anchorText: 'Start your spring printable business' },
   ],
   relatedPosts: [
     { slug: 'seasonal-printable-calendar-sellers', title: 'Seasonal Printable Calendar for Sellers' },

@@ -59,9 +59,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'wortsuche-arbeitsblaetter', anchorText: 'Winter-Wortsuche erstellen' },
-    { pageType: 'app', slug: 'mathe-raetsel-arbeitsblaetter', anchorText: 'Winter-Mathe-Raetsel' },
-    { pageType: 'start', slug: 'druckvorlagen-auf-etsy-verkaufen', anchorText: 'Etsy-Shop starten' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Winter-Wortsuche erstellen' },
+    { pageType: 'app', slug: 'math-puzzle-worksheets', anchorText: 'Winter-Mathe-Raetsel' },
+    { pageType: 'start', slug: 'etsy-printable-business', anchorText: 'Etsy-Shop starten' },
   ],
   relatedPosts: [
     { slug: 'winter-druckvorlagen-verkaufen-dezember-januar', title: 'Winter-Druckvorlagen: Beste Produkte fuer die kalte Jahreszeit' },

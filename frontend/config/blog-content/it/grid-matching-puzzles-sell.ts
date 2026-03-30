@@ -59,9 +59,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'griglia-abbinamento-schede', anchorText: 'Generatore Griglia Abbinamento' },
-    { pageType: 'app', slug: 'sudoku-immagini-schede', anchorText: 'Generatore Sudoku Immagini' },
-    { pageType: 'app', slug: 'classificazione-schede', anchorText: 'Generatore Classificazione' },
+    { pageType: 'app', slug: 'grid-match-worksheets', anchorText: 'Generatore Griglia Abbinamento' },
+    { pageType: 'app', slug: 'sudoku-worksheets', anchorText: 'Generatore Sudoku Immagini' },
+    { pageType: 'app', slug: 'picture-sort-worksheets', anchorText: 'Generatore Classificazione' },
   ],
   relatedPosts: [
     { slug: 'libri-sudoku-immagini-kdp', title: 'Libri Sudoku Immagini: KDP' },

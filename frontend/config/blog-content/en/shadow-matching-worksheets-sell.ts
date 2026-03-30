@@ -67,10 +67,10 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'shadow-matching-worksheets', anchorText: 'Shadow Matching Generator' },
-    { pageType: 'tool', slug: 'shadow-matching-maker', anchorText: 'Try the shadow matching maker free trial' },
+    { pageType: 'app', slug: 'shadow-match-worksheets', anchorText: 'Shadow Matching Generator' },
+    { pageType: 'tool', slug: 'shadow-match-maker', anchorText: 'Try the shadow matching maker free trial' },
     { pageType: 'guide', slug: 'create-shadow-matching-worksheets', anchorText: 'Shadow matching creation guide' },
-    { pageType: 'bundle', slug: 'matching-bundle', anchorText: 'Matching Bundle' },
+    { pageType: 'bundle', slug: 'matching-sorting-bundle', anchorText: 'Matching Bundle' },
   ],
   relatedPosts: [
     { slug: 'matching-worksheets-toddler-market', title: 'Matching Worksheets: Dominating the Toddler Market' },

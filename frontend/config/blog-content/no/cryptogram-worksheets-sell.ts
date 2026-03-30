@@ -50,9 +50,9 @@ const content: BlogContent = {
     { question: 'Kan jeg selge kryptogram på både Etsy og KDP?', answer: 'Ja. Selg enkeltpuslespill og pakker på Etsy, og samlede bøker på KDP. Begge plattformene har etterspørsel etter denne typen innhold.' },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'kryptogram-arbeidsark', anchorText: 'Kryptogram-generator' },
-    { pageType: 'app', slug: 'ordsoek-arbeidsark', anchorText: 'Ordsøk-generator' },
-    { pageType: 'app', slug: 'bildekryssord-arbeidsark', anchorText: 'Bildekryssord-generator' },
+    { pageType: 'app', slug: 'cryptogram-worksheets', anchorText: 'Kryptogram-generator' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Ordsøk-generator' },
+    { pageType: 'app', slug: 'crossword-worksheets', anchorText: 'Bildekryssord-generator' },
   ],
   relatedPosts: [
     { slug: 'ordsok-utskrifter-fortjeneste', title: 'Ordsøk for fortjeneste' },

@@ -5,8 +5,8 @@ const content: BlogContent = {
     primaryKeyword: 'Winter Druckvorlagen Dezember Januar verkaufen',
     secondaryKeywords: ['Winter Raetsel Kinder Etsy', 'Schneemann Arbeitsblaetter PDF', 'kalte Jahreszeit Druckvorlagen DACH'],
     lsiKeywords: ['Winterwald Wortsuche', 'Eiszapfen Mathe Raetsel', 'Schneeflocken Arbeitsblaetter'],
-    titleTag: 'Winter-Druckvorlagen: Beste Produkte fuer die kalte Jahreszeit | LCS',
-    metaDescription: 'Winter-Druckvorlagen: Beste Produkte fuer die kalte Jahreszeit: Marktanalyse, Produkte und Strategien fuer Druckvorlagen-Verkaeufer im DACH-Raum. Profitabel auf Etsy.de und Amazon KDP.',
+    titleTag: 'Winter-Druckvorlagen: Beste Saisonprodukte | LCS',
+    metaDescription: 'Winter-Druckvorlagen: Marktanalyse, Produkte und Strategien fuer Druckvorlagen-Verkaeufer im DACH-Raum. Profitabel auf Etsy.de und KDP.',
   },
   hero: {
     title: 'Winter-Druckvorlagen: Beste Produkte fuer die kalte Jahreszeit',
@@ -59,9 +59,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'wortsuche-arbeitsblaetter', anchorText: 'Winter-Wortsuche erstellen' },
-    { pageType: 'app', slug: 'addition-arbeitsblaetter', anchorText: 'Schneemann-Mathe-Generator' },
-    { pageType: 'app', slug: 'suchbilder-arbeitsblaetter', anchorText: 'Winter-Suchbilder' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Winter-Wortsuche erstellen' },
+    { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Schneemann-Mathe-Generator' },
+    { pageType: 'app', slug: 'find-objects-worksheets', anchorText: 'Winter-Suchbilder' },
   ],
   relatedPosts: [
     { slug: 'beste-druckvorlagen-verkaufen-weihnachten', title: 'Beste Druckvorlagen fuer Weihnachten 2026' },

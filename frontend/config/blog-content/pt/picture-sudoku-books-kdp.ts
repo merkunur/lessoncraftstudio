@@ -67,9 +67,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'sudoku-imagens-fichas', anchorText: 'Gerador Sudoku Imagens' },
-    { pageType: 'app', slug: 'grade-associacao-fichas', anchorText: 'Gerador Grade Associação' },
-    { pageType: 'app', slug: 'pecas-faltantes-fichas', anchorText: 'Gerador Peças Faltantes' },
+    { pageType: 'app', slug: 'sudoku-worksheets', anchorText: 'Gerador Sudoku Imagens' },
+    { pageType: 'app', slug: 'grid-match-worksheets', anchorText: 'Gerador Grade Associação' },
+    { pageType: 'app', slug: 'missing-pieces-worksheets', anchorText: 'Gerador Peças Faltantes' },
   ],
   relatedPosts: [
     { slug: 'livros-puzzles-matematicos-amazon-kdp', title: 'Livros Puzzles Matemáticos KDP' },

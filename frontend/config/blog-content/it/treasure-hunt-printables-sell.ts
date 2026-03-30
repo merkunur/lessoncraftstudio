@@ -59,9 +59,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'caccia-tesoro-schede', anchorText: 'Generatore Caccia al Tesoro' },
-    { pageType: 'app', slug: 'tombola-schede', anchorText: 'Generatore Tombola' },
-    { pageType: 'app', slug: 'cruciverba-schede', anchorText: 'Generatore Cruciverba' },
+    { pageType: 'app', slug: 'treasure-hunt-worksheets', anchorText: 'Generatore Caccia al Tesoro' },
+    { pageType: 'app', slug: 'picture-bingo-worksheets', anchorText: 'Generatore Tombola' },
+    { pageType: 'app', slug: 'crossword-worksheets', anchorText: 'Generatore Cruciverba' },
   ],
   relatedPosts: [
     { slug: 'cartelle-tombola-stampabili-business', title: 'Cartelle Tombola: Business' },

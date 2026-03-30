@@ -67,10 +67,10 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'grid-matching-worksheets', anchorText: 'Grid Matching Generator' },
-    { pageType: 'tool', slug: 'grid-matching-maker', anchorText: 'Try the grid matching maker free trial' },
-    { pageType: 'guide', slug: 'create-grid-matching-worksheets', anchorText: 'Grid matching creation guide' },
-    { pageType: 'bundle', slug: 'matching-bundle', anchorText: 'Matching Bundle' },
+    { pageType: 'app', slug: 'grid-match-worksheets', anchorText: 'Grid Matching Generator' },
+    { pageType: 'tool', slug: 'grid-match-maker', anchorText: 'Try the grid matching maker free trial' },
+    { pageType: 'guide', slug: 'create-matching-worksheets', anchorText: 'Grid matching creation guide' },
+    { pageType: 'bundle', slug: 'matching-sorting-bundle', anchorText: 'Matching Bundle' },
   ],
   relatedPosts: [
     { slug: 'matching-worksheets-toddler-market', title: 'Matching Worksheets: Dominating the Toddler Market' },

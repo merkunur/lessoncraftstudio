@@ -71,9 +71,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'start', slug: 'sell-educational-printables-etsy', anchorText: 'Start selling printables on Etsy' },
+    { pageType: 'guide', slug: 'sell-educational-printables-etsy', anchorText: 'Start selling printables on Etsy' },
     { pageType: 'guide', slug: 'start-etsy-printable-shop', anchorText: 'How to start an Etsy printable shop' },
-    { pageType: 'idea', slug: 'printable-business-ideas', anchorText: 'Printable business niche ideas' },
+    { pageType: 'idea', slug: 'christmas-printable-ideas', anchorText: 'Printable business niche ideas' },
     { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Try the Word Search Generator' },
   ],
   relatedPosts: [

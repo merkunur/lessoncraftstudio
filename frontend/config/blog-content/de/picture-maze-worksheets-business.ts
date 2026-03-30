@@ -67,9 +67,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'bilder-labyrinth-arbeitsblaetter', anchorText: 'Bilder-Labyrinth-Generator' },
-    { pageType: 'app', slug: 'schatzsuche-arbeitsblaetter', anchorText: 'Schatzsuche-Generator' },
-    { pageType: 'app', slug: 'suchbild-arbeitsblaetter', anchorText: 'Suchbild-Generator' },
+    { pageType: 'app', slug: 'picture-path-worksheets', anchorText: 'Bilder-Labyrinth-Generator' },
+    { pageType: 'app', slug: 'treasure-hunt-worksheets', anchorText: 'Schatzsuche-Generator' },
+    { pageType: 'app', slug: 'find-objects-worksheets', anchorText: 'Suchbild-Generator' },
   ],
   relatedPosts: [
     { slug: 'schatzsuche-druckvorlagen-verkaufen', title: 'Schatzsuche-Druckvorlagen: Der Geburtstags-Markt' },

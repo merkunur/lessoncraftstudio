@@ -67,10 +67,10 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'piezas-faltantes-fichas', anchorText: 'Generador de puzzles de piezas faltantes' },
-    { pageType: 'app', slug: 'objetos-ocultos-fichas', anchorText: 'Generador de objetos ocultos' },
-    { pageType: 'app', slug: 'asociacion-sombras-fichas', anchorText: 'Generador de asociación de sombras' },
-    { pageType: 'app', slug: 'sudoku-imagenes-fichas', anchorText: 'Generador de sudoku con imágenes' },
+    { pageType: 'app', slug: 'missing-pieces-worksheets', anchorText: 'Generador de puzzles de piezas faltantes' },
+    { pageType: 'app', slug: 'find-objects-worksheets', anchorText: 'Generador de objetos ocultos' },
+    { pageType: 'app', slug: 'shadow-match-worksheets', anchorText: 'Generador de asociación de sombras' },
+    { pageType: 'app', slug: 'sudoku-worksheets', anchorText: 'Generador de sudoku con imágenes' },
   ],
   relatedPosts: [
     { slug: 'libros-puzzles-matematicos-amazon-kdp', title: 'Libros de puzzles matemáticos para Amazon KDP' },

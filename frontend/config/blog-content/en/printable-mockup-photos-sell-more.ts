@@ -67,7 +67,7 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'start', slug: 'sell-educational-printables-etsy', anchorText: 'Start your Etsy printable shop' },
+    { pageType: 'guide', slug: 'sell-educational-printables-etsy', anchorText: 'Start your Etsy printable shop' },
     { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Create worksheets to photograph' },
     { pageType: 'guide', slug: 'create-worksheet-bundles', anchorText: 'Create bundle products' },
   ],

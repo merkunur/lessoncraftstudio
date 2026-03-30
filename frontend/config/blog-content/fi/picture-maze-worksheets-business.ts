@@ -67,8 +67,8 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'kuvapolku-tyoarkit', anchorText: 'Kuvapolkugeneraattori' },
-    { pageType: 'app', slug: 'etsi-esineet-tyoarkit', anchorText: 'Piilokuvageneraattori' },
+    { pageType: 'app', slug: 'picture-path-worksheets', anchorText: 'Kuvapolkugeneraattori' },
+    { pageType: 'app', slug: 'find-objects-worksheets', anchorText: 'Piilokuvageneraattori' },
   ],
   relatedPosts: [
     { slug: 'piilokuvat-tyoarkit-liiketoiminta', title: 'Piilokuvatehtavat liiketoimintana' },

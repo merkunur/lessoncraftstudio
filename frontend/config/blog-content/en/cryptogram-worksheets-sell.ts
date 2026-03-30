@@ -70,7 +70,7 @@ const content: BlogContent = {
     { pageType: 'app', slug: 'cryptogram-worksheets', anchorText: 'Cryptogram Generator' },
     { pageType: 'tool', slug: 'cryptogram-maker', anchorText: 'Try the cryptogram maker free trial' },
     { pageType: 'guide', slug: 'create-cryptogram-puzzles', anchorText: 'Cryptogram creation guide' },
-    { pageType: 'bundle', slug: 'puzzle-games-bundle', anchorText: 'Puzzles & Games Bundle' },
+    { pageType: 'bundle', slug: 'puzzles-logic-bundle', anchorText: 'Puzzles & Games Bundle' },
   ],
   relatedPosts: [
     { slug: 'code-addition-puzzles-sell-etsy', title: 'Code Addition Puzzles: A Hidden Etsy Bestseller' },

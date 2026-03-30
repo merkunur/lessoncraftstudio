@@ -35,9 +35,9 @@ const content: BlogContent = {
     { question: 'Kan jeg sælge curriculum-pakker på KDP?', answer: 'Ja, formatér dem som arbejdsbøger med forside, indholdsfortegnelse og sektionsinddelinger. Prissæt til 90-140 kr. for en 100+ siders bog. KDP-formatet appellerer til bedsteforældre og gavekøbere.' }
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'addition-arbejdsark', anchorText: 'Additions-Generator' },
-    { pageType: 'app', slug: 'haandskrift-arbejdsark', anchorText: 'Håndskrift-Generator' },
-    { pageType: 'app', slug: 'ordsoegning-arbejdsark', anchorText: 'Ordsøgning Generator' }
+    { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Additions-Generator' },
+    { pageType: 'app', slug: 'writing-worksheets', anchorText: 'Håndskrift-Generator' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Ordsøgning Generator' }
   ],
   relatedPosts: [
     { slug: 'saelg-additions-arbejdsark-etsy-guide', title: 'Sælg Additions-Arbejdsark på Etsy' },

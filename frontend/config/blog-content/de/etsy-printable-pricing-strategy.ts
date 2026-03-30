@@ -67,9 +67,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'start', slug: 'druckvorlagen-auf-etsy-verkaufen', anchorText: 'Druckvorlagen auf Etsy verkaufen' },
-    { pageType: 'bundle', slug: 'mathe-zahlen-paket', anchorText: 'Mathe-Bundle als Beispiel' },
-    { pageType: 'app', slug: 'addition-arbeitsblaetter', anchorText: 'Additions-Generator testen' },
+    { pageType: 'start', slug: 'etsy-printable-business', anchorText: 'Druckvorlagen auf Etsy verkaufen' },
+    { pageType: 'bundle', slug: 'math-mastery-bundle', anchorText: 'Mathe-Bundle als Beispiel' },
+    { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Additions-Generator testen' },
   ],
   relatedPosts: [
     { slug: 'printable-bundle-strategy-etsy', title: 'Bundle-Strategie fuer Etsy' },

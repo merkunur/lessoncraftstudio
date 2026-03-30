@@ -67,9 +67,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'associacao-sombras-fichas', anchorText: 'Gerador Associação de Sombras' },
-    { pageType: 'app', slug: 'associacao-fichas', anchorText: 'Gerador de Fichas de Associação' },
-    { pageType: 'app', slug: 'comparacao-tamanhos-fichas', anchorText: 'Gerador Comparação de Tamanhos' },
+    { pageType: 'app', slug: 'shadow-match-worksheets', anchorText: 'Gerador Associação de Sombras' },
+    { pageType: 'app', slug: 'matching-worksheets', anchorText: 'Gerador de Fichas de Associação' },
+    { pageType: 'app', slug: 'big-small-worksheets', anchorText: 'Gerador Comparação de Tamanhos' },
   ],
   relatedPosts: [
     { slug: 'fichas-associacao-mercado-criancas-pequenas', title: 'Fichas Associação: Crianças Pequenas' },

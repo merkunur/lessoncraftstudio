@@ -67,10 +67,10 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'bingo', anchorText: 'Party Bingo Card Generator' },
-    { pageType: 'app', slug: 'treasure-hunt', anchorText: 'Birthday Treasure Hunt Creator' },
-    { pageType: 'app', slug: 'wordsearch', anchorText: 'Party Word Search Maker' },
-    { pageType: 'start', slug: 'sell-educational-printables-etsy', anchorText: 'Start your party printable business' },
+    { pageType: 'app', slug: 'picture-bingo-worksheets', anchorText: 'Party Bingo Card Generator' },
+    { pageType: 'app', slug: 'treasure-hunt-worksheets', anchorText: 'Birthday Treasure Hunt Creator' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Party Word Search Maker' },
+    { pageType: 'guide', slug: 'sell-educational-printables-etsy', anchorText: 'Start your party printable business' },
   ],
   relatedPosts: [
     { slug: 'bingo-cards-printable-business', title: 'Printable Bingo Cards: From Classroom to Party Business' },

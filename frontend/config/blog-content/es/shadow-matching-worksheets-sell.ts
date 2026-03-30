@@ -14,7 +14,7 @@ const content: BlogContent = {
       'shadow matching printables preschool',
     ],
     titleTag: 'Fichas Asociación Sombras: Por qué Venden Mejor | LCS',
-    metaDescription: 'Las fichas de asociación de sombras se venden mejor que las fichas genéricas de asociación. Descubra por qué y cómo crear las suyas. Prueba gratuita con marca de agua.',
+    metaDescription: 'Las fichas de asociación de sombras se venden mejor que las genéricas. Descubra por qué y cómo crear las suyas para Etsy.',
   },
   hero: {
     title: 'Fichas de Asociación de Sombras: Por qué se Venden Mejor',
@@ -67,10 +67,10 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'asociacion-sombras-fichas', anchorText: 'Generador de asociación de sombras' },
-    { pageType: 'app', slug: 'asociacion-fichas', anchorText: 'Generador de fichas de asociación' },
-    { pageType: 'app', slug: 'piezas-faltantes-fichas', anchorText: 'Generador de piezas faltantes' },
-    { pageType: 'app', slug: 'intruso-fichas', anchorText: 'Generador de fichas del intruso' },
+    { pageType: 'app', slug: 'shadow-match-worksheets', anchorText: 'Generador de asociación de sombras' },
+    { pageType: 'app', slug: 'matching-worksheets', anchorText: 'Generador de fichas de asociación' },
+    { pageType: 'app', slug: 'missing-pieces-worksheets', anchorText: 'Generador de piezas faltantes' },
+    { pageType: 'app', slug: 'odd-one-out-worksheets', anchorText: 'Generador de fichas del intruso' },
   ],
   relatedPosts: [
     { slug: 'guia-vender-fichas-suma-etsy', title: 'Vender fichas de suma en Etsy: guía completa' },

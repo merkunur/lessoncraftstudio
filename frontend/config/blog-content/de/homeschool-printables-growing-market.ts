@@ -67,9 +67,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'addition-arbeitsblaetter', anchorText: 'Mathe-Arbeitsblaetter erstellen' },
-    { pageType: 'app', slug: 'wortsuche-arbeitsblaetter', anchorText: 'Wortsuche-Generator' },
-    { pageType: 'guide', slug: 'mehrsprachige-arbeitsblaetter-erstellen', anchorText: 'Mehrsprachige Arbeitsblaetter erstellen' },
+    { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Mathe-Arbeitsblaetter erstellen' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Wortsuche-Generator' },
+    { pageType: 'guide', slug: 'worksheets-multiple-languages', anchorText: 'Mehrsprachige Arbeitsblaetter erstellen' },
   ],
   relatedPosts: [
     { slug: 'lernmaterial-druckvorlagen-neue-eltern', title: 'Lern-Druckvorlagen fuer junge Eltern: Wachsender Markt' },

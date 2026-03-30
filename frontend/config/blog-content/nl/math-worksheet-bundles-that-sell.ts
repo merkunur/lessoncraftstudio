@@ -67,10 +67,10 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'optellen-werkbladen', anchorText: 'Optellen Werkbladen Generator' },
-    { pageType: 'app', slug: 'aftrekken-werkbladen', anchorText: 'Aftrekken Werkbladen Generator' },
-    { pageType: 'guide', slug: 'bundels-samenstellen', anchorText: 'Bundels samenstellen gids' },
-    { pageType: 'start', slug: 'reken-werkbladen-verkopen-etsy', anchorText: 'Begin met reken werkbladen verkopen' },
+    { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Optellen Werkbladen Generator' },
+    { pageType: 'app', slug: 'subtraction-worksheets', anchorText: 'Aftrekken Werkbladen Generator' },
+    { pageType: 'guide', slug: 'create-worksheet-bundles', anchorText: 'Bundels samenstellen gids' },
+    { pageType: 'start', slug: 'create-worksheets-that-sell', anchorText: 'Begin met reken werkbladen verkopen' },
   ],
   relatedPosts: [
     { slug: 'optellen-werkbladen-verkopen-etsy-gids', title: 'Optellen Werkbladen Verkopen op Etsy' },

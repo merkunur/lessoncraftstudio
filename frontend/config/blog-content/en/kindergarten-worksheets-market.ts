@@ -14,7 +14,7 @@ const content: BlogContent = {
       'K-1 worksheets business opportunity',
     ],
     titleTag: 'The Kindergarten Worksheet Market: How Big? | LCS',
-    metaDescription: 'The kindergarten worksheet market is worth millions on Etsy alone. Discover market size, top products, pricing, and how to compete in this high-demand niche.',
+    metaDescription: 'The kindergarten worksheet market is worth millions on Etsy. Discover market size, top products, pricing, and how to compete in this niche.',
   },
   hero: {
     title: 'The Kindergarten Worksheet Market: How Big Is It?',
@@ -67,10 +67,10 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'addition', anchorText: 'Kindergarten Addition Generator' },
-    { pageType: 'app', slug: 'wordsearch', anchorText: 'Sight Word Search Creator' },
-    { pageType: 'app', slug: 'matching', anchorText: 'Kindergarten Matching Activities' },
-    { pageType: 'start', slug: 'sell-educational-printables-etsy', anchorText: 'Start your kindergarten printable business' },
+    { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Kindergarten Addition Generator' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Sight Word Search Creator' },
+    { pageType: 'app', slug: 'matching-worksheets', anchorText: 'Kindergarten Matching Activities' },
+    { pageType: 'guide', slug: 'sell-educational-printables-etsy', anchorText: 'Start your kindergarten printable business' },
   ],
   relatedPosts: [
     { slug: 'preschool-printables-best-sellers', title: 'Preschool Printables: What\'s Selling Best on Etsy' },

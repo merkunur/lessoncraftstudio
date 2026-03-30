@@ -67,9 +67,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'mots-caches-fiches', anchorText: 'Générateur de mots cachés pour KDP' },
-    { pageType: 'start', slug: 'guide-complet-activite-imprimables', anchorText: 'Guide complet des imprimables' },
-    { pageType: 'guide', slug: 'publier-cahier-exercices-kdp', anchorText: 'Guide de publication KDP' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Générateur de mots cachés pour KDP' },
+    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Guide complet des imprimables' },
+    { pageType: 'guide', slug: 'publish-puzzle-books-kdp', anchorText: 'Guide de publication KDP' },
   ],
   relatedPosts: [
     { slug: 'kdp-vs-etsy-which-earns-more', title: 'KDP vs Etsy : lequel rapporte le plus ?' },

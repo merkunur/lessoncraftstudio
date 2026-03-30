@@ -14,7 +14,7 @@ const content: BlogContent = {
       'december printable demand spike',
     ],
     titleTag: 'Best Printables to Sell for Christmas 2026 | LCS',
-    metaDescription: 'Discover the best-selling Christmas printables for 2026. From coloring pages to math puzzles, learn what sells, when to list, and how to price holiday products.',
+    metaDescription: 'Discover the best-selling Christmas printables for 2026. From coloring pages to math puzzles, learn what sells and how to price holiday products.',
   },
   hero: {
     title: 'Best Printables to Sell for Christmas 2026',
@@ -67,9 +67,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'coloring', anchorText: 'Christmas Coloring Page Generator' },
-    { pageType: 'app', slug: 'wordsearch', anchorText: 'Holiday Word Search Creator' },
-    { pageType: 'start', slug: 'sell-educational-printables-etsy', anchorText: 'Start selling printables on Etsy' },
+    { pageType: 'app', slug: 'coloring-worksheets', anchorText: 'Christmas Coloring Page Generator' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Holiday Word Search Creator' },
+    { pageType: 'guide', slug: 'sell-educational-printables-etsy', anchorText: 'Start selling printables on Etsy' },
     { pageType: 'guide', slug: 'create-worksheet-bundles', anchorText: 'How to create profitable bundles' },
   ],
   relatedPosts: [

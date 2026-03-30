@@ -67,9 +67,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'addition-fiches', anchorText: 'Générateur de fiches d\'addition' },
-    { pageType: 'start', slug: 'guide-complet-activite-imprimables', anchorText: 'Guide complet des imprimables' },
-    { pageType: 'guide', slug: 'creer-fiches-exercices-vendre', anchorText: 'Comment créer des fiches qui se vendent' },
+    { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Générateur de fiches d\'addition' },
+    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Guide complet des imprimables' },
+    { pageType: 'guide', slug: 'create-worksheet-bundles', anchorText: 'Comment créer des fiches qui se vendent' },
   ],
   relatedPosts: [
     { slug: 'etsy-seo-printable-sellers-2026', title: 'SEO Etsy pour vendeurs d\'imprimables en 2026' },

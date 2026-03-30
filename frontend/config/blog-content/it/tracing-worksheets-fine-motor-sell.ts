@@ -59,9 +59,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'ricalco-schede', anchorText: 'Generatore Schede Ricalco' },
-    { pageType: 'app', slug: 'scrittura-schede', anchorText: 'Generatore Schede Scrittura' },
-    { pageType: 'app', slug: 'abbinamento-schede', anchorText: 'Generatore Schede Abbinamento' },
+    { pageType: 'app', slug: 'drawing-lines-worksheets', anchorText: 'Generatore Schede Ricalco' },
+    { pageType: 'app', slug: 'writing-worksheets', anchorText: 'Generatore Schede Scrittura' },
+    { pageType: 'app', slug: 'matching-worksheets', anchorText: 'Generatore Schede Abbinamento' },
   ],
   relatedPosts: [
     { slug: 'schede-scrittura-etsy-nicchia', title: 'Schede Scrittura su Etsy: Nicchia' },

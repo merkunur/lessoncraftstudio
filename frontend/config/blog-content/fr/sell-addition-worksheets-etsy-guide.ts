@@ -67,10 +67,10 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'addition-fiches', anchorText: 'Générateur de fiches d\'addition' },
-    { pageType: 'tool', slug: 'addition-fiches', anchorText: 'Essayer le générateur d\'addition' },
-    { pageType: 'guide', slug: 'addition-fiches', anchorText: 'Guide de création pas à pas' },
-    { pageType: 'bundle', slug: 'math-number-bundle', anchorText: 'Pack Maths & Chiffres' },
+    { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Générateur de fiches d\'addition' },
+    { pageType: 'tool', slug: 'addition-worksheet-maker', anchorText: 'Essayer le générateur d\'addition' },
+    { pageType: 'guide', slug: 'create-addition-worksheets', anchorText: 'Guide de création pas à pas' },
+    { pageType: 'bundle', slug: 'math-mastery-bundle', anchorText: 'Pack Maths & Chiffres' },
   ],
   relatedPosts: [
     { slug: 'vendre-fiches-soustraction-en-ligne', title: 'Vendre des fiches de soustraction en ligne' },

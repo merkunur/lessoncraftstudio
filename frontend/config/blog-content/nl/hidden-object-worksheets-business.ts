@@ -34,9 +34,9 @@ const content: BlogContent = {
     { question: 'Moet ik antwoorden bijvoegen?', answer: 'Absoluut. Elke zoekplaatje moet een antwoordsleutel bevatten. Ouders en leerkrachten willen kunnen controleren of alle objecten gevonden zijn. Listings zonder antwoorden krijgen lagere beoordelingen.' },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'zoek-voorwerp-werkbladen', anchorText: 'Zoek Voorwerp Generator' },
-    { pageType: 'app', slug: 'zoek-en-tel-werkbladen', anchorText: 'Zoek en Tel Generator' },
-    { pageType: 'app', slug: 'plaatjes-doolhof-werkbladen', anchorText: 'Plaatjes Doolhof Generator' },
+    { pageType: 'app', slug: 'find-objects-worksheets', anchorText: 'Zoek Voorwerp Generator' },
+    { pageType: 'app', slug: 'find-and-count-worksheets', anchorText: 'Zoek en Tel Generator' },
+    { pageType: 'app', slug: 'picture-path-worksheets', anchorText: 'Plaatjes Doolhof Generator' },
   ],
   relatedPosts: [
     { slug: 'woordzoeker-printables-winst', title: 'Woordzoeker Printables voor Winst' },

@@ -49,9 +49,9 @@ const content: BlogContent = {
     { question: 'Hvilke plattformer bør jeg selge på?', answer: 'Etsy for internasjonalt, Undervisningsbyen.no for norsk, Amazon KDP for trykte bøker. De mest lønnsomme selgerne er på alle tre.' },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'finn-den-ulike-arbeidsark', anchorText: 'Prøv generatoren' },
-    { pageType: 'guide', slug: 'create-worksheets', anchorText: 'Guide til arbeidsark' },
-    { pageType: 'start', slug: 'sell-worksheets-etsy', anchorText: 'Kom i gang med å selge' },
+    { pageType: 'app', slug: 'odd-one-out-worksheets', anchorText: 'Prøv generatoren' },
+    { pageType: 'guide', slug: 'create-addition-worksheets', anchorText: 'Guide til arbeidsark' },
+    { pageType: 'start', slug: 'create-worksheets-that-sell', anchorText: 'Kom i gang med å selge' },
   ],
   relatedPosts: [
     { slug: 'printable-pakke-strategi-etsy', title: 'Pakkestrategi for Etsy' },

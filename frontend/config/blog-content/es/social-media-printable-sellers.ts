@@ -59,9 +59,9 @@ const content: BlogContent = {
     }
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'crucigramas-fichas', anchorText: 'Generador de crucigramas' },
-    { pageType: 'start', slug: 'guia-completa-negocio-imprimibles', anchorText: 'Guia completa' },
-    { pageType: 'guide', slug: 'estrategia-negocio-imprimibles', anchorText: 'Estrategia de negocio' }
+    { pageType: 'app', slug: 'crossword-worksheets', anchorText: 'Generador de crucigramas' },
+    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Guia completa' },
+    { pageType: 'guide', slug: 'scale-printable-business-guide', anchorText: 'Estrategia de negocio' }
   ],
   relatedPosts: [
     { slug: 'printable-business-mistakes-avoid', title: 'Errores a Evitar' },

@@ -67,9 +67,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'addizione-schede', anchorText: 'Generatore di Schede di Addizione' },
-    { pageType: 'start', slug: 'vendere-schede-matematica-etsy', anchorText: 'Inizi a vendere schede matematiche' },
-    { pageType: 'guide', slug: 'creare-schede-addizione', anchorText: 'Guida alla creazione passo dopo passo' },
+    { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Generatore di Schede di Addizione' },
+    { pageType: 'start', slug: 'create-worksheets-that-sell', anchorText: 'Inizi a vendere schede matematiche' },
+    { pageType: 'guide', slug: 'create-addition-worksheets', anchorText: 'Guida alla creazione passo dopo passo' },
   ],
   relatedPosts: [
     { slug: 'vendere-schede-sottrazione-online', title: 'Vendere Schede di Sottrazione Online' },

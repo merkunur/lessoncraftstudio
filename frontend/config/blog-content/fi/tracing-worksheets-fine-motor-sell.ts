@@ -50,9 +50,9 @@ const content: BlogContent = {
     { question: 'Miten jaljennostehtavat eroavat kaunokirjoitustehtavista?', answer: 'Jaljennostehtavat ovat perusmuotoja ja yksinkertaisia viivoja. Kaunokirjoitustehtavat ovat kirjainten ja sanojen kirjoittamista. Jaljennostehtavat ovat yleensa helpompia ja nuoremmille lapsille.' },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'viivojen-piirtaminen-tyoarkit', anchorText: 'Viivapiirtosgeneraattori' },
-    { pageType: 'app', slug: 'kasinkirjoitus-tyoarkit', anchorText: 'Kaunokirjoitusgeneraattori' },
-    { pageType: 'app', slug: 'aakkosjuna-tyoarkit', anchorText: 'Aakkosjunageneraattori' },
+    { pageType: 'app', slug: 'drawing-lines-worksheets', anchorText: 'Viivapiirtosgeneraattori' },
+    { pageType: 'app', slug: 'writing-worksheets', anchorText: 'Kaunokirjoitusgeneraattori' },
+    { pageType: 'app', slug: 'alphabet-train-worksheets', anchorText: 'Aakkosjunageneraattori' },
   ],
   relatedPosts: [
     { slug: 'kaunokirjoitus-tyoarkit-etsy-niche', title: 'Kaunokirjoitustyoarkit Etsy-nichena' },

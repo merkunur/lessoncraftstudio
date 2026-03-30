@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'Loesungsblaetter Druckvorlagen Verkaeufe verdoppeln',
     secondaryKeywords: ['Warum Loesungsblaetter Ihre Druckvorlagen-Verkaeufe verdoppeln Anleitung', 'Druckvorlagen Warum Guide', 'Arbeitsblatt Verkauf Tipps'],
     lsiKeywords: ['Druckvorlagen Geschaeft optimieren', 'Etsy Verkaeufer Tipps', 'Arbeitsblaetter professionell erstellen'],
-    titleTag: 'Warum Loesungsblaetter Ihre Druckvorlagen-Verkaeufe verdoppeln | LCS',
+    titleTag: 'Loesungsblaetter: Verkaeufe verdoppeln | LCS',
     metaDescription: 'Loesungsblaetter sind das am meisten unterschaetzte Feature. Warum sie Bewertungen, Verkaeufe und Wiederholungskaeufe steigern.',
   },
   hero: {
@@ -59,9 +59,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'wortsuche-arbeitsblaetter', anchorText: 'Wortsuche-Generator testen' },
-    { pageType: 'app', slug: 'addition-arbeitsblaetter', anchorText: 'Mathe-Generator testen' },
-    { pageType: 'start', slug: 'druckvorlagen-auf-etsy-verkaufen', anchorText: 'Etsy-Shop starten' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Wortsuche-Generator testen' },
+    { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Mathe-Generator testen' },
+    { pageType: 'start', slug: 'etsy-printable-business', anchorText: 'Etsy-Shop starten' },
   ],
   relatedPosts: [
     { slug: 'arbeitsblatt-paket-erstellen-35-minuten', title: '50 Arbeitsblaetter-Paket in 35 Minuten' },

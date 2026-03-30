@@ -67,10 +67,10 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'motifs-fiches', anchorText: 'Générateur de fiches de motifs' },
-    { pageType: 'tool', slug: 'motifs-fiches', anchorText: 'Essayer le générateur de motifs' },
-    { pageType: 'app', slug: 'tri-fiches', anchorText: 'Générateur de fiches de tri' },
-    { pageType: 'app', slug: 'sudoku-images-fiches', anchorText: 'Générateur de sudoku images' },
+    { pageType: 'app', slug: 'pattern-worksheets', anchorText: 'Générateur de fiches de motifs' },
+    { pageType: 'tool', slug: 'pattern-worksheet-maker', anchorText: 'Essayer le générateur de motifs' },
+    { pageType: 'app', slug: 'picture-sort-worksheets', anchorText: 'Générateur de fiches de tri' },
+    { pageType: 'app', slug: 'sudoku-worksheets', anchorText: 'Générateur de sudoku images' },
   ],
   relatedPosts: [
     { slug: 'packs-fiches-maths-qui-se-vendent', title: 'Packs de fiches maths qui se vendent' },

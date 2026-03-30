@@ -14,7 +14,7 @@ const content: BlogContent = {
       'religious easter printables market',
     ],
     titleTag: 'Easter Printables: Spring Business Ideas | LCS',
-    metaDescription: 'Easter printables convert well in March-April. Learn which spring products sell, how to price Easter bundles, and the timeline for maximizing seasonal revenue.',
+    metaDescription: 'Easter printables convert well in March-April. Learn which spring products sell, how to price bundles, and how to maximize seasonal revenue.',
   },
   hero: {
     title: 'Easter Printables: Spring Business Ideas That Convert',
@@ -67,9 +67,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'coloring', anchorText: 'Spring Coloring Page Generator' },
-    { pageType: 'app', slug: 'addition', anchorText: 'Easter Math Worksheet Creator' },
-    { pageType: 'start', slug: 'sell-educational-printables-etsy', anchorText: 'Start selling printables on Etsy' },
+    { pageType: 'app', slug: 'coloring-worksheets', anchorText: 'Spring Coloring Page Generator' },
+    { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Easter Math Worksheet Creator' },
+    { pageType: 'guide', slug: 'sell-educational-printables-etsy', anchorText: 'Start selling printables on Etsy' },
     { pageType: 'guide', slug: 'create-worksheet-bundles', anchorText: 'How to create seasonal bundles' },
   ],
   relatedPosts: [

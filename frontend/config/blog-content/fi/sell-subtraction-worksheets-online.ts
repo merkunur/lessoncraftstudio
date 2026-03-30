@@ -67,8 +67,8 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'vahennyslasku-tyoarkit', anchorText: 'Vahennyslaskugeneraattori' },
-    { pageType: 'app', slug: 'yhteenlasku-tyoarkit', anchorText: 'Yhteenlaskugeneraattori' },
+    { pageType: 'app', slug: 'subtraction-worksheets', anchorText: 'Vahennyslaskugeneraattori' },
+    { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Yhteenlaskugeneraattori' },
     { pageType: 'guide', slug: 'create-subtraction-worksheets', anchorText: 'Vahennyslaskutehtavien luontiopas' },
   ],
   relatedPosts: [

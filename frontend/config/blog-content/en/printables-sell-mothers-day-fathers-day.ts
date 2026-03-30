@@ -67,10 +67,10 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'coloring', anchorText: 'Mother\'s Day Coloring Generator' },
-    { pageType: 'app', slug: 'wordsearch', anchorText: 'Parent Appreciation Word Search' },
-    { pageType: 'app', slug: 'crossword', anchorText: 'Family Crossword Creator' },
-    { pageType: 'start', slug: 'sell-educational-printables-etsy', anchorText: 'Start your seasonal printable business' },
+    { pageType: 'app', slug: 'coloring-worksheets', anchorText: 'Mother\'s Day Coloring Generator' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Parent Appreciation Word Search' },
+    { pageType: 'app', slug: 'crossword-worksheets', anchorText: 'Family Crossword Creator' },
+    { pageType: 'guide', slug: 'sell-educational-printables-etsy', anchorText: 'Start your seasonal printable business' },
   ],
   relatedPosts: [
     { slug: 'seasonal-printable-calendar-sellers', title: 'Seasonal Printable Calendar for Sellers' },

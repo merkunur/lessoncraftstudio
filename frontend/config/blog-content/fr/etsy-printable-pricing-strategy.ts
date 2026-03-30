@@ -67,9 +67,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'addition-fiches', anchorText: 'Générateur de fiches d\'addition' },
-    { pageType: 'start', slug: 'guide-complet-activite-imprimables', anchorText: 'Guide complet imprimables' },
-    { pageType: 'guide', slug: 'fixer-prix-imprimables', anchorText: 'Guide tarification imprimables' },
+    { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Générateur de fiches d\'addition' },
+    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Guide complet imprimables' },
+    { pageType: 'guide', slug: 'price-etsy-printables', anchorText: 'Guide tarification imprimables' },
   ],
   relatedPosts: [
     { slug: 'printable-bundle-strategy-etsy', title: 'Stratégie de bundles sur Etsy' },

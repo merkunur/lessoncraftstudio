@@ -67,9 +67,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'kuva-yhteenlasku-tyoarkit', anchorText: 'Kuvayhteenlaskugeneraattori' },
-    { pageType: 'app', slug: 'kuvakryptogrammi-tyoarkit', anchorText: 'Kryptogrammigeneraattori' },
-    { pageType: 'guide', slug: 'create-code-addition-puzzles', anchorText: 'Koodipulmien luontiopas' },
+    { pageType: 'app', slug: 'code-addition-worksheets', anchorText: 'Kuvayhteenlaskugeneraattori' },
+    { pageType: 'app', slug: 'cryptogram-worksheets', anchorText: 'Kryptogrammigeneraattori' },
+    { pageType: 'guide', slug: 'create-addition-worksheets', anchorText: 'Koodipulmien luontiopas' },
   ],
   relatedPosts: [
     { slug: 'myy-yhteenlasku-tyoarkit-etsy-opas', title: 'Myy yhteenlaskutehtavia Etsyssa' },

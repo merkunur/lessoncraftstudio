@@ -35,9 +35,9 @@ const content: BlogContent = {
     { question: 'Zijn digitale handschrift werkbladen niet achterhaald?', answer: 'Integendeel. Juist door de toenemende digitalisering maken ouders zich zorgen over de handschriftvaardigheden van hun kinderen. De vraag naar handschrift oefenmateriaal groeit.' },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'handschrift-werkbladen', anchorText: 'Handschrift Werkbladen Generator' },
-    { pageType: 'app', slug: 'overtrek-werkbladen', anchorText: 'Overtrek Werkbladen Generator' },
-    { pageType: 'app', slug: 'alfabet-werkbladen', anchorText: 'Alfabet Werkbladen Generator' },
+    { pageType: 'app', slug: 'writing-worksheets', anchorText: 'Handschrift Werkbladen Generator' },
+    { pageType: 'app', slug: 'drawing-lines-worksheets', anchorText: 'Overtrek Werkbladen Generator' },
+    { pageType: 'app', slug: 'alphabet-train-worksheets', anchorText: 'Alfabet Werkbladen Generator' },
   ],
   relatedPosts: [
     { slug: 'optellen-werkbladen-verkopen-etsy-gids', title: 'Optellen Werkbladen Verkopen op Etsy' },

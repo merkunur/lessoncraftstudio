@@ -67,10 +67,10 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'addition-arbeitsblaetter', anchorText: 'Additions-Arbeitsblatt-Generator' },
-    { pageType: 'app', slug: 'subtraktions-arbeitsblaetter', anchorText: 'Subtraktions-Generator' },
-    { pageType: 'bundle', slug: 'mathe-zahlen-paket', anchorText: 'Mathe- und Zahlen-Bundle ansehen' },
-    { pageType: 'app', slug: 'mathe-raetsel-arbeitsblaetter', anchorText: 'Mathe-Raetsel-Generator' },
+    { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Additions-Arbeitsblatt-Generator' },
+    { pageType: 'app', slug: 'subtraction-worksheets', anchorText: 'Subtraktions-Generator' },
+    { pageType: 'bundle', slug: 'math-mastery-bundle', anchorText: 'Mathe- und Zahlen-Bundle ansehen' },
+    { pageType: 'app', slug: 'math-puzzle-worksheets', anchorText: 'Mathe-Raetsel-Generator' },
   ],
   relatedPosts: [
     { slug: 'additions-arbeitsblaetter-verkaufen-etsy-guide', title: 'Additions-Arbeitsblaetter auf Etsy verkaufen' },

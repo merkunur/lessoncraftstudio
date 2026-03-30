@@ -35,9 +35,9 @@ const content: BlogContent = {
     { question: 'Op welke leeftijdsgroep moet ik mij eerst richten?', answer: 'Begin met groep 1-3 (4-7 jaar). Deze leeftijdsgroep heeft de hoogste vraag en ouders kopen het meest actief aanvullend materiaal.' },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'optellen-werkbladen', anchorText: 'Rekenvaardigheid Generator' },
-    { pageType: 'guide', slug: 'optellen-werkbladen-gids', anchorText: 'Rekenvaardigheid verkopen gids' },
-    { pageType: 'start', slug: 'printables-verkopen-etsy', anchorText: 'Begin met printables verkopen' },
+    { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Rekenvaardigheid Generator' },
+    { pageType: 'guide', slug: 'create-addition-worksheets', anchorText: 'Rekenvaardigheid verkopen gids' },
+    { pageType: 'start', slug: 'etsy-printable-business', anchorText: 'Begin met printables verkopen' },
   ],
   relatedPosts: [
     { slug: 'optellen-werkbladen-verkopen-etsy-gids', title: 'Optellen Werkbladen Verkopen op Etsy' },

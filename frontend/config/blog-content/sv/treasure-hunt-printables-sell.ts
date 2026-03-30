@@ -63,9 +63,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'addition-arbetsblad', anchorText: 'Additions-Generator' },
-    { pageType: 'app', slug: 'ordsoek-arbetsblad', anchorText: 'Ordsöks-Generator' },
-    { pageType: 'guide', slug: 'skapa-arbetsblad-paket', anchorText: 'Guide: Skapa Paket' },
+    { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Additions-Generator' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Ordsöks-Generator' },
+    { pageType: 'guide', slug: 'create-worksheet-bundles', anchorText: 'Guide: Skapa Paket' },
   ],
   relatedPosts: [
     { slug: 'mattebladpaket-som-saeljer', title: 'Mattebladpaket som Säljer' },

@@ -67,9 +67,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'alphabet-arbeitsblaetter', anchorText: 'Alphabet-Generator' },
-    { pageType: 'app', slug: 'handschrift-arbeitsblaetter', anchorText: 'Handschrift-Generator' },
-    { pageType: 'app', slug: 'nachspur-arbeitsblaetter', anchorText: 'Nachspur-Generator' },
+    { pageType: 'app', slug: 'alphabet-train-worksheets', anchorText: 'Alphabet-Generator' },
+    { pageType: 'app', slug: 'writing-worksheets', anchorText: 'Handschrift-Generator' },
+    { pageType: 'app', slug: 'drawing-lines-worksheets', anchorText: 'Nachspur-Generator' },
   ],
   relatedPosts: [
     { slug: 'handschrift-arbeitsblaetter-etsy-nische', title: 'Handschrift-Arbeitsblaetter auf Etsy 2026' },

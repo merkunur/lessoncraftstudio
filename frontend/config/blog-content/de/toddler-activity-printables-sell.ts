@@ -59,9 +59,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'zuordnungs-arbeitsblaetter', anchorText: 'Zuordnungsspiele fuer Kleinkinder' },
-    { pageType: 'app', slug: 'bilder-sortieren-arbeitsblaetter', anchorText: 'Sortier-Arbeitsblaetter' },
-    { pageType: 'app', slug: 'gross-klein-arbeitsblaetter', anchorText: 'Gross-Klein-Uebungen' },
+    { pageType: 'app', slug: 'matching-worksheets', anchorText: 'Zuordnungsspiele fuer Kleinkinder' },
+    { pageType: 'app', slug: 'picture-sort-worksheets', anchorText: 'Sortier-Arbeitsblaetter' },
+    { pageType: 'app', slug: 'big-small-worksheets', anchorText: 'Gross-Klein-Uebungen' },
   ],
   relatedPosts: [
     { slug: 'lernmaterial-druckvorlagen-neue-eltern', title: 'Lern-Druckvorlagen fuer junge Eltern: Wachsender Markt' },

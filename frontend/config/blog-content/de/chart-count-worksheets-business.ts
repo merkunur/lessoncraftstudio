@@ -67,9 +67,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'diagramm-zaehlen-arbeitsblaetter', anchorText: 'Diagramm-Zaehlen-Generator' },
-    { pageType: 'app', slug: 'finde-und-zaehle-arbeitsblaetter', anchorText: 'Finde-und-Zaehle-Generator' },
-    { pageType: 'app', slug: 'groessenvergleich-arbeitsblaetter', anchorText: 'Groessenvergleich-Generator' },
+    { pageType: 'app', slug: 'chart-count-worksheets', anchorText: 'Diagramm-Zaehlen-Generator' },
+    { pageType: 'app', slug: 'find-and-count-worksheets', anchorText: 'Finde-und-Zaehle-Generator' },
+    { pageType: 'app', slug: 'big-small-worksheets', anchorText: 'Groessenvergleich-Generator' },
   ],
   relatedPosts: [
     { slug: 'finde-und-zaehle-druckvorlagen-gewinn', title: 'Finde-und-Zaehle-Druckvorlagen: Profitable Nische' },

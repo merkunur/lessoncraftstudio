@@ -67,10 +67,10 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'matching', anchorText: 'Preschool Matching Activity Generator' },
-    { pageType: 'app', slug: 'coloring', anchorText: 'Preschool Coloring Page Creator' },
-    { pageType: 'app', slug: 'find-and-count', anchorText: 'Find & Count for Preschoolers' },
-    { pageType: 'start', slug: 'sell-educational-printables-etsy', anchorText: 'Start your preschool printable business' },
+    { pageType: 'app', slug: 'matching-worksheets', anchorText: 'Preschool Matching Activity Generator' },
+    { pageType: 'app', slug: 'coloring-worksheets', anchorText: 'Preschool Coloring Page Creator' },
+    { pageType: 'app', slug: 'find-and-count-worksheets', anchorText: 'Find & Count for Preschoolers' },
+    { pageType: 'guide', slug: 'sell-educational-printables-etsy', anchorText: 'Start your preschool printable business' },
   ],
   relatedPosts: [
     { slug: 'matching-worksheets-toddler-market', title: 'Matching Worksheets: The Toddler Market' },

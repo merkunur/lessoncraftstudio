@@ -67,9 +67,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'mots-caches-fiches', anchorText: 'Essayez le générateur de mots cachés' },
-    { pageType: 'start', slug: 'guide-complet-activite-imprimables', anchorText: 'Guide complet pour vendre des imprimables' },
-    { pageType: 'guide', slug: 'lancer-boutique-etsy-imprimables', anchorText: 'Comment lancer votre boutique Etsy' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Essayez le générateur de mots cachés' },
+    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Guide complet pour vendre des imprimables' },
+    { pageType: 'guide', slug: 'start-etsy-printable-shop', anchorText: 'Comment lancer votre boutique Etsy' },
   ],
   relatedPosts: [
     { slug: 'how-many-listings-etsy-success', title: 'Combien de fiches pour réussir sur Etsy ?' },

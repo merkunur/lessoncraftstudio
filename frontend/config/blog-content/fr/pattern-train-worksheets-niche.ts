@@ -67,10 +67,10 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'train-motifs-fiches', anchorText: 'Générateur de fiches train de motifs' },
-    { pageType: 'tool', slug: 'train-motifs-fiches', anchorText: 'Essayer le générateur train de motifs' },
-    { pageType: 'app', slug: 'motifs-fiches', anchorText: 'Générateur de fiches de motifs' },
-    { pageType: 'app', slug: 'alphabet-fiches', anchorText: 'Générateur de fiches alphabet' },
+    { pageType: 'app', slug: 'pattern-train-worksheets', anchorText: 'Générateur de fiches train de motifs' },
+    { pageType: 'tool', slug: 'pattern-train-maker', anchorText: 'Essayer le générateur train de motifs' },
+    { pageType: 'app', slug: 'pattern-worksheets', anchorText: 'Générateur de fiches de motifs' },
+    { pageType: 'app', slug: 'alphabet-train-worksheets', anchorText: 'Générateur de fiches alphabet' },
   ],
   relatedPosts: [
     { slug: 'packs-fiches-maths-qui-se-vendent', title: 'Packs de fiches maths qui se vendent' },

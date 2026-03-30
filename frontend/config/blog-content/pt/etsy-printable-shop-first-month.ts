@@ -67,9 +67,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'adicao-fichas', anchorText: 'Gerador de Fichas de Adição' },
-    { pageType: 'app', slug: 'caca-palavras-fichas', anchorText: 'Gerador de Caça-Palavras' },
-    { pageType: 'guide', slug: 'como-vender-etsy', anchorText: 'Guia Como Vender no Etsy' },
+    { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Gerador de Fichas de Adição' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Gerador de Caça-Palavras' },
+    { pageType: 'guide', slug: 'sell-educational-printables-etsy', anchorText: 'Guia Como Vender no Etsy' },
   ],
   relatedPosts: [
     { slug: 'seo-etsy-vendedores-imprimiveis-2026', title: 'SEO Etsy para Vendedores 2026' },

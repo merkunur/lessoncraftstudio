@@ -67,9 +67,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'yhteenlasku-tyoarkit', anchorText: 'Yhteenlaskugeneraattori' },
-    { pageType: 'app', slug: 'vahennyslasku-tyoarkit', anchorText: 'Vahennyslaskugeneraattori' },
-    { pageType: 'start', slug: 'sell-math-worksheets-etsy', anchorText: 'Aloita matikkatyoarkkien myynti' },
+    { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Yhteenlaskugeneraattori' },
+    { pageType: 'app', slug: 'subtraction-worksheets', anchorText: 'Vahennyslaskugeneraattori' },
+    { pageType: 'guide', slug: 'sell-math-worksheets-etsy', anchorText: 'Aloita matikkatyoarkkien myynti' },
   ],
   relatedPosts: [
     { slug: 'myy-yhteenlasku-tyoarkit-etsy-opas', title: 'Myy yhteenlaskutehtavia Etsyssa' },

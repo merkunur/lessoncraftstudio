@@ -67,10 +67,10 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'prepositions-fiches', anchorText: 'Générateur de fiches prépositions' },
-    { pageType: 'tool', slug: 'prepositions-fiches', anchorText: 'Essayer le générateur de prépositions' },
-    { pageType: 'app', slug: 'association-fiches', anchorText: 'Générateur de fiches d\'association' },
-    { pageType: 'guide', slug: 'prepositions-fiches', anchorText: 'Guide création fiches prépositions' },
+    { pageType: 'app', slug: 'prepositions-worksheets', anchorText: 'Générateur de fiches prépositions' },
+    { pageType: 'tool', slug: 'prepositions-worksheet-maker', anchorText: 'Essayer le générateur de prépositions' },
+    { pageType: 'app', slug: 'matching-worksheets', anchorText: 'Générateur de fiches d\'association' },
+    { pageType: 'guide', slug: 'create-preposition-worksheets', anchorText: 'Guide création fiches prépositions' },
   ],
   relatedPosts: [
     { slug: 'mots-caches-imprimables-profits', title: 'Mots cachés imprimables : combien peut-on gagner ?' },

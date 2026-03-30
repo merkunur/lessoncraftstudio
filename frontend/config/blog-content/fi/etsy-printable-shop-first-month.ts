@@ -67,9 +67,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'sananhaku-tyoarkit', anchorText: 'Sananhakugeneraattori' },
-    { pageType: 'app', slug: 'yhteenlasku-tyoarkit', anchorText: 'Yhteenlaskugeneraattori' },
-    { pageType: 'start', slug: 'start-etsy-printable-shop', anchorText: 'Etsy-kaupan aloitusopas' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Sananhakugeneraattori' },
+    { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Yhteenlaskugeneraattori' },
+    { pageType: 'start', slug: 'etsy-printable-business', anchorText: 'Etsy-kaupan aloitusopas' },
   ],
   relatedPosts: [
     { slug: 'etsy-seo-tulosteet-myyjat-2026', title: 'Etsy-SEO tulostemyyjille 2026' },

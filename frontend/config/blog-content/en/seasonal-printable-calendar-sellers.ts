@@ -67,10 +67,10 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'start', slug: 'sell-educational-printables-etsy', anchorText: 'Start selling printables' },
-    { pageType: 'idea', slug: 'seasonal-printable-ideas', anchorText: 'Seasonal printable ideas' },
+    { pageType: 'guide', slug: 'sell-educational-printables-etsy', anchorText: 'Start selling printables' },
+    { pageType: 'idea', slug: 'christmas-printable-ideas', anchorText: 'Seasonal printable ideas' },
     { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Word Search Generator' },
-    { pageType: 'guide', slug: 'marketing-printable-business', anchorText: 'Marketing your printable business' },
+    { pageType: 'start', slug: 'marketing-printable-business', anchorText: 'Marketing your printable business' },
   ],
   relatedPosts: [
     { slug: 'best-printables-sell-christmas', title: 'Best Printables to Sell for Christmas 2026' },

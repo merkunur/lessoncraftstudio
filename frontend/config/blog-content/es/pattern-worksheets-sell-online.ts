@@ -6,7 +6,7 @@ const content: BlogContent = {
     secondaryKeywords: ['vender fichas patrones online STEM', 'pattern worksheets STEM niche sell', 'fichas secuencias patrones negocio'],
     lsiKeywords: ['fichas reconocimiento patrones niños', 'imprimibles secuencias lógicas vender', 'STEM pattern activities printable'],
     titleTag: 'Fichas de Patrones: El Nicho STEM Oculto | LCS',
-    metaDescription: 'Las fichas de patrones son el nicho STEM del que nadie habla. Competencia baja, demanda creciente. Estrategias para vender. Prueba gratuita con marca de agua.',
+    metaDescription: 'Las fichas de patrones son el nicho STEM del que nadie habla. Competencia baja, demanda creciente. Estrategias para vender.',
   },
   hero: {
     title: 'Fichas de Patrones: El Nicho STEM del que Nadie Habla',
@@ -56,10 +56,10 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'patrones-fichas', anchorText: 'Generador de fichas de patrones' },
-    { pageType: 'app', slug: 'tren-patrones-fichas', anchorText: 'Generador de tren de patrones' },
-    { pageType: 'app', slug: 'clasificacion-fichas', anchorText: 'Generador de clasificación' },
-    { pageType: 'app', slug: 'intruso-fichas', anchorText: 'Generador de fichas del intruso' },
+    { pageType: 'app', slug: 'pattern-worksheets', anchorText: 'Generador de fichas de patrones' },
+    { pageType: 'app', slug: 'pattern-train-worksheets', anchorText: 'Generador de tren de patrones' },
+    { pageType: 'app', slug: 'picture-sort-worksheets', anchorText: 'Generador de clasificación' },
+    { pageType: 'app', slug: 'odd-one-out-worksheets', anchorText: 'Generador de fichas del intruso' },
   ],
   relatedPosts: [
     { slug: 'guia-vender-fichas-suma-etsy', title: 'Vender fichas de suma en Etsy: guía completa' },

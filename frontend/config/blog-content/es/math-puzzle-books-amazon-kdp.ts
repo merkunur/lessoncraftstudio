@@ -14,7 +14,7 @@ const content: BlogContent = {
       'libros ejercicios niños bajo contenido',
     ],
     titleTag: 'Libros Puzzles Matemáticos Amazon KDP | LCS',
-    metaDescription: 'Publique libros de puzzles matemáticos en Amazon KDP con márgenes altos. Guía paso a paso para crear, publicar y posicionar. Prueba gratuita con marca de agua.',
+    metaDescription: 'Publique libros de puzzles matemáticos en Amazon KDP con márgenes altos. Guía paso a paso para crear, publicar y posicionar.',
   },
   hero: {
     title: 'Libros de Puzzles Matemáticos para Amazon KDP',
@@ -67,10 +67,10 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'puzzles-matematicos-fichas', anchorText: 'Generador de puzzles matemáticos' },
-    { pageType: 'app', slug: 'suma-fichas', anchorText: 'Generador de fichas de suma' },
-    { pageType: 'app', slug: 'codigo-suma-fichas', anchorText: 'Generador de código suma' },
-    { pageType: 'app', slug: 'sudoku-imagenes-fichas', anchorText: 'Generador de sudoku con imágenes' },
+    { pageType: 'app', slug: 'math-puzzle-worksheets', anchorText: 'Generador de puzzles matemáticos' },
+    { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Generador de fichas de suma' },
+    { pageType: 'app', slug: 'code-addition-worksheets', anchorText: 'Generador de código suma' },
+    { pageType: 'app', slug: 'sudoku-worksheets', anchorText: 'Generador de sudoku con imágenes' },
   ],
   relatedPosts: [
     { slug: 'paquetes-fichas-matematicas-que-venden', title: 'Paquetes de fichas matemáticas que se venden' },

@@ -67,9 +67,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'start', slug: 'druckvorlagen-auf-etsy-verkaufen', anchorText: 'Druckvorlagen auf Etsy verkaufen' },
-    { pageType: 'app', slug: 'kreuzwortraetsel-arbeitsblaetter', anchorText: 'Kreuzwortraetsel-Generator' },
-    { pageType: 'guide', slug: 'arbeitsblaetter-pakete-erstellen', anchorText: 'Bundle-Strategie fuer Etsy' },
+    { pageType: 'start', slug: 'etsy-printable-business', anchorText: 'Druckvorlagen auf Etsy verkaufen' },
+    { pageType: 'app', slug: 'crossword-worksheets', anchorText: 'Kreuzwortraetsel-Generator' },
+    { pageType: 'guide', slug: 'create-worksheet-bundles', anchorText: 'Bundle-Strategie fuer Etsy' },
   ],
   relatedPosts: [
     { slug: 'etsy-printable-shop-first-month', title: 'Erster Monat Druckvorlagen auf Etsy' },

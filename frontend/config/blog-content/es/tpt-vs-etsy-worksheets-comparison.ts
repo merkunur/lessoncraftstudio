@@ -59,9 +59,9 @@ const content: BlogContent = {
     }
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'sopa-letras-fichas', anchorText: 'Generador de sopas de letras' },
-    { pageType: 'start', slug: 'guia-completa-negocio-imprimibles', anchorText: 'Guia para empezar' },
-    { pageType: 'guide', slug: 'comparar-plataformas-imprimibles', anchorText: 'Comparar plataformas' }
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Generador de sopas de letras' },
+    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Guia para empezar' },
+    { pageType: 'guide', slug: 'kdp-vs-etsy-printables', anchorText: 'Comparar plataformas' }
   ],
   relatedPosts: [
     { slug: 'kdp-vs-etsy-which-earns-more', title: 'KDP vs Etsy: Cual Gana Mas' },

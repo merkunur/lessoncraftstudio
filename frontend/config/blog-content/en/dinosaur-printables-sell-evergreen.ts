@@ -14,7 +14,7 @@ const content: BlogContent = {
       'dinosaur themed learning activities',
     ],
     titleTag: 'Dinosaur Printables: Evergreen Best Seller | LCS',
-    metaDescription: 'Dinosaur printables are an evergreen best seller for kids. Learn why dinos outsell most themes, which products convert, and how to build a dinosaur product empire.',
+    metaDescription: 'Dinosaur printables are an evergreen best seller for kids. Learn why dinos outsell most themes, which products convert, and how to build your lineup.',
   },
   hero: {
     title: 'Dinosaur Printables: An Evergreen Best Seller for Kids',
@@ -67,9 +67,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'coloring', anchorText: 'Dinosaur Coloring Page Generator' },
-    { pageType: 'app', slug: 'matching', anchorText: 'Dinosaur Matching Activity Creator' },
-    { pageType: 'app', slug: 'wordsearch', anchorText: 'Dinosaur Word Search Maker' },
+    { pageType: 'app', slug: 'coloring-worksheets', anchorText: 'Dinosaur Coloring Page Generator' },
+    { pageType: 'app', slug: 'matching-worksheets', anchorText: 'Dinosaur Matching Activity Creator' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Dinosaur Word Search Maker' },
     { pageType: 'guide', slug: 'create-worksheet-bundles', anchorText: 'How to bundle dinosaur products' },
   ],
   relatedPosts: [

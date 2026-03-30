@@ -67,9 +67,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'bingo-fiches', anchorText: 'Générateur de bingo thématique' },
-    { pageType: 'start', slug: 'guide-complet-activite-imprimables', anchorText: 'Guide complet imprimables' },
-    { pageType: 'guide', slug: 'planification-saisonniere-imprimables', anchorText: 'Guide saisonnalité' },
+    { pageType: 'app', slug: 'picture-bingo-worksheets', anchorText: 'Générateur de bingo thématique' },
+    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Guide complet imprimables' },
+    { pageType: 'guide', slug: 'seasonal-marketing-printables', anchorText: 'Guide saisonnalité' },
   ],
   relatedPosts: [
     { slug: 'best-printables-sell-christmas', title: 'Imprimables de Noël qui se vendent' },

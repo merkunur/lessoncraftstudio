@@ -50,9 +50,9 @@ const content: BlogContent = {
     { question: 'Kan jeg lage flerspråklige kryssordbøker?', answer: 'Ja, med 11 språk tilgjengelig kan du lage kryssord på norsk, engelsk, tysk og flere. Flerspråklige bøker er populære for språklæring.' },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'bildekryssord-arbeidsark', anchorText: 'Bildekryssord-generator' },
-    { pageType: 'app', slug: 'ordsoek-arbeidsark', anchorText: 'Ordsøk-generator' },
-    { pageType: 'app', slug: 'kryptogram-arbeidsark', anchorText: 'Kryptogram-generator' },
+    { pageType: 'app', slug: 'crossword-worksheets', anchorText: 'Bildekryssord-generator' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Ordsøk-generator' },
+    { pageType: 'app', slug: 'cryptogram-worksheets', anchorText: 'Kryptogram-generator' },
   ],
   relatedPosts: [
     { slug: 'ordsok-utskrifter-fortjeneste', title: 'Ordsøk-utskrifter for fortjeneste' },

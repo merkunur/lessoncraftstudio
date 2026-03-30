@@ -67,10 +67,10 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'matching', anchorText: 'Toddler Matching Activity Generator' },
-    { pageType: 'app', slug: 'coloring', anchorText: 'Simple Coloring Page Creator' },
-    { pageType: 'app', slug: 'find-and-count', anchorText: 'Counting Activity Maker' },
-    { pageType: 'start', slug: 'sell-educational-printables-etsy', anchorText: 'Start selling to new parents' },
+    { pageType: 'app', slug: 'matching-worksheets', anchorText: 'Toddler Matching Activity Generator' },
+    { pageType: 'app', slug: 'coloring-worksheets', anchorText: 'Simple Coloring Page Creator' },
+    { pageType: 'app', slug: 'find-and-count-worksheets', anchorText: 'Counting Activity Maker' },
+    { pageType: 'guide', slug: 'sell-educational-printables-etsy', anchorText: 'Start selling to new parents' },
   ],
   relatedPosts: [
     { slug: 'toddler-activity-printables-sell', title: 'Toddler Activity Printables: What\'s Hot on Etsy' },

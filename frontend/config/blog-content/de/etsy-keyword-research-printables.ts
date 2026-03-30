@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'Etsy Keyword Recherche Druckvorlagen Anfaenger',
     secondaryKeywords: ['Etsy-Keyword-Recherche fuer Druckvorlagen Anleitung', 'Druckvorlagen Etsy-Keyword-Recherche Guide', 'Arbeitsblatt Verkauf Tipps'],
     lsiKeywords: ['Druckvorlagen Geschaeft optimieren', 'Etsy Verkaeufer Tipps', 'Arbeitsblaetter professionell erstellen'],
-    titleTag: 'Etsy-Keyword-Recherche fuer Druckvorlagen: Anfaenger-Guide | LCS',
+    titleTag: 'Etsy-Keyword-Recherche: Anfaenger-Guide | LCS',
     metaDescription: 'Etsy-Keyword-Recherche fuer Druckvorlagen: Wie Sie die richtigen Keywords finden, Ihre Tags optimieren und mehr Kaeufer erreichen.',
   },
   hero: {
@@ -59,9 +59,9 @@ const content: BlogContent = {
     },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'wortsuche-arbeitsblaetter', anchorText: 'Wortsuche-Generator testen' },
-    { pageType: 'app', slug: 'addition-arbeitsblaetter', anchorText: 'Mathe-Generator testen' },
-    { pageType: 'start', slug: 'druckvorlagen-auf-etsy-verkaufen', anchorText: 'Etsy-Shop starten' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Wortsuche-Generator testen' },
+    { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Mathe-Generator testen' },
+    { pageType: 'start', slug: 'etsy-printable-business', anchorText: 'Etsy-Shop starten' },
   ],
   relatedPosts: [
     { slug: 'arbeitsblatt-paket-erstellen-35-minuten', title: '50 Arbeitsblaetter-Paket in 35 Minuten' },

@@ -35,9 +35,9 @@ const content: BlogContent = {
     { question: 'Kan jeg genbruge mockup-skabelonerne?', answer: 'Absolut. Opret 3-5 mockup-skabeloner i Canva med Smart Objects/rammer, og genbrug dem til alle fremtidige produkter. Du skifter bare det viste ark ud.' }
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'addition-arbejdsark', anchorText: 'Additions-Generator' },
-    { pageType: 'app', slug: 'ordsoegning-arbejdsark', anchorText: 'Ordsøgning Generator' },
-    { pageType: 'app', slug: 'matchning-arbejdsark', anchorText: 'Matchning Generator' }
+    { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Additions-Generator' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Ordsøgning Generator' },
+    { pageType: 'app', slug: 'matching-worksheets', anchorText: 'Matchning Generator' }
   ],
   relatedPosts: [
     { slug: 'saelg-additions-arbejdsark-etsy-guide', title: 'Sælg Additions-Arbejdsark på Etsy' },

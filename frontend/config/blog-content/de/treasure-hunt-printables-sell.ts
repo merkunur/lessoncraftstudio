@@ -50,9 +50,9 @@ const content: BlogContent = {
     { question: 'Wie personalisiere ich Schatzsuche-Sets auf Etsy?', answer: 'Bieten Sie editierbare PDF-Versionen an (z.B. ueber Canva-Templates). Alternativ bieten Sie den Namen als personalisierte Bestellung an, bei der Sie den Namen vor dem Versand einfuegen.' },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'schatzsuche-arbeitsblaetter', anchorText: 'Schatzsuche-Generator' },
-    { pageType: 'app', slug: 'bingo-arbeitsblaetter', anchorText: 'Bingo-Karten-Generator' },
-    { pageType: 'app', slug: 'bilder-labyrinth-arbeitsblaetter', anchorText: 'Labyrinth-Generator' },
+    { pageType: 'app', slug: 'treasure-hunt-worksheets', anchorText: 'Schatzsuche-Generator' },
+    { pageType: 'app', slug: 'picture-bingo-worksheets', anchorText: 'Bingo-Karten-Generator' },
+    { pageType: 'app', slug: 'picture-path-worksheets', anchorText: 'Labyrinth-Generator' },
   ],
   relatedPosts: [
     { slug: 'bingo-karten-druckvorlagen-geschaeft', title: 'Bingo-Karten: Vom Klassenzimmer zum Party-Geschaeft' },

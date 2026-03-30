@@ -59,9 +59,9 @@ const content: BlogContent = {
     }
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'suma-fichas', anchorText: 'Generador de fichas de suma' },
-    { pageType: 'start', slug: 'guia-completa-negocio-imprimibles', anchorText: 'Guia para empezar' },
-    { pageType: 'guide', slug: 'publicidad-etsy-imprimibles', anchorText: 'Publicidad en Etsy para imprimibles' }
+    { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Generador de fichas de suma' },
+    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Guia para empezar' },
+    { pageType: 'guide', slug: 'etsy-seo-educational-printables', anchorText: 'Publicidad en Etsy para imprimibles' }
   ],
   relatedPosts: [
     { slug: 'etsy-seo-printable-sellers-2026', title: 'SEO en Etsy 2026' },

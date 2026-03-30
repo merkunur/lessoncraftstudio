@@ -50,8 +50,8 @@ const content: BlogContent = {
     { question: 'Hvilke temaer selger best?', answer: 'Dyr, sesong (jul, påske), sport og populærkultur-temaer selger best. For det norske markedet: 17. mai, norske dyr og natur.' },
   ],
   internalLinks: [
-    { pageType: 'app', slug: 'ordsoek-arbeidsark', anchorText: 'Ordsøk-generator' },
-    { pageType: 'app', slug: 'bildekryssord-arbeidsark', anchorText: 'Bildekryssord-generator' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Ordsøk-generator' },
+    { pageType: 'app', slug: 'crossword-worksheets', anchorText: 'Bildekryssord-generator' },
     { pageType: 'guide', slug: 'create-word-search-puzzles', anchorText: 'Guide til ordsøk-puslespill' },
   ],
   relatedPosts: [

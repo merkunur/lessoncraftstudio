@@ -11,9 +11,69 @@ const content: BlogContent = {
   hero: {
     title: 'Mockup Foto\'s Die Uw Printables Beter Verkopen',
     tagline: 'Professionele productfoto\'s zijn de halve verkoop',
-    description: 'Professionele productfoto\\'s zijn de halve verkoop. In deze gids ontdekt u hoe u deze kennis toepast op uw printable business voor maximale resultaten.',\n  },\n  category: 'platform-strategy',\n  introduction: 'Het succes van een printable business hangt niet alleen af van de kwaliteit van uw producten — het hangt af van uw strategie. De verkopers die consistent groeien, zijn degenen die hun platform begrijpen, hun marketing optimaliseren en hun productlijn strategisch uitbreiden. Deze gids deelt de inzichten die het verschil maken tussen een hobby en een business.',\n  sections: [\n    { heading: 'De Huidige Stand van Zaken', content: 'De printable markt is in 2026 volwassener dan ooit. Er zijn meer verkopers, maar ook meer kopers. De totale markt groeit elk jaar met 15-20%. Dit betekent dat er ruimte is voor nieuwe verkopers, maar dat u slimmer moet werken dan vijf jaar geleden.\n\nVoor de Nederlandse markt geldt specifiek:\n- De vraag naar Nederlandstalige printables groeit sneller dan het aanbod\n- Bol.com wordt een steeds relevanter verkoopkanaal voor digitale downloads\n- NT2-materiaal is een snelgroeiende niche\n- Ouders investeren meer in educatief materiaal voor thuis\n\nDeze trends bieden kansen voor verkopers die zich richten op de Nederlandse markt.' },\n    { heading: 'Strategische Benadering', content: 'Een succesvolle printable business vereist een strategische benadering op meerdere niveaus:\n\n**Productstrategie:** Bouw een coherente productlijn met duidelijke progressie. Zorg dat elk product verwijst naar gerelateerde producten in uw winkel.\n\n**Prijsstrategie:** Gebruik een gelaagd prijsmodel met instapproducten, kernproducten en premium bundels. De ankerprijs van uw duurste bundel maakt uw andere producten aantrekkelijker.\n\n**Marketingstrategie:** Focus op de kanalen die werken: Etsy SEO, Pinterest en email. Sociale media zijn secundair.\n\n**Seizoensstrategie:** Plan uw productlanceringen 6-8 weken voor seizoenspieken. In Nederland: Sinterklaas-producten in september, Koningsdag-producten in februari, zomervakantie-producten in april.' },\n    { heading: 'Implementatie Stappenplan', content: 'Volg dit stappenplan voor implementatie:\n\n**Week 1-2: Fundament**\nAnalyseer uw huidige positie. Welke producten verkopen het beste? Welke zoekwoorden genereren het meeste verkeer? Waar zijn de gaten in uw productlijn?\n\n**Week 3-4: Optimalisatie**\nOptimaliseer uw bestaande listings op basis van de analyse. Update titels, tags en foto\'s van uw top-20 producten. Voeg bundelopties toe aan individuele producten.\n\n**Week 5-8: Uitbreiding**\nLanceer nieuwe producten die de gaten in uw productlijn vullen. Focus op seizoensgebonden producten voor de komende verkooppiek.\n\n**Doorlopend: Evaluatie**\nEvalueer maandelijks welke producten en zoekwoorden presteren. Pas uw strategie aan op basis van data, niet op gevoel.' },
-    { heading: 'Specifiek voor de Nederlandse Markt', content: 'De Nederlandse markt heeft unieke eigenschappen die uw strategie beïnvloeden:\n\n**Taal:** Veel Nederlandse kopers zoeken in zowel het Nederlands als het Engels op Etsy. Optimaliseer uw listings voor beide talen.\n\n**Formaat:** A4 is standaard in Nederland (niet US Letter). Vermeld dit duidelijk in uw listings.\n\n**Verkoopkanalen:** Naast Etsy zijn Bol.com en Samen Voor Onderwijs relevante kanalen. Multi-channel verkoop vergroot uw bereik.\n\n**Feestdagen:** Sinterklaas (5 december) is belangrijker dan Kerst voor kinderproducten. Koningsdag (27 april) is uniek Nederlands. Plan uw seizoensstrategie hierop.\n\n**Onderwijs:** Het Nederlandse groepensysteem (groep 1-8) verschilt van het internationale gradesysteem. Stem uw producten hierop af voor de lokale markt.' },
-    { heading: 'Veelgemaakte Fouten en Hoe Ze te Vermijden', content: 'De meest voorkomende fouten van printable verkopers:\n\n**Fout 1: Te snel opgeven**\nDe meeste winkels worden verlaten na 2-3 maanden. Succes komt doorgaans pas na 6-12 maanden consistent werk.\n\n**Fout 2: Geen bundels**\nLosse werkbladen verkopen is zoals munten oprapen. Bundels zijn bankbiljetten. Begin direct met bundelen.\n\n**Fout 3: Slechte foto\'s**\nPlatte PDF-screenshots converteren slecht. Investeer tijd in mockup-foto\'s die uw product tonen geprint op papier.\n\n**Fout 4: Te brede focus**\nRicht u eerst op één niche (bijv. reken werkbladen groep 3) en bouw van daaruit uit. Breed beginnen leidt tot middelmatigheid.\n\n**Fout 5: Geen email lijst**\nBegin vanaf dag één met het opbouwen van een emaillijst. Het is het enige kanaal dat u volledig bezit en controleert.' },
+    description: 'Professionele productfoto\'s zijn de halve verkoop. In deze gids ontdekt u hoe u deze kennis toepast op uw printable business voor maximale resultaten.',
+  },
+  category: 'platform-strategy',
+  introduction: 'Het succes van een printable business hangt niet alleen af van de kwaliteit van uw producten — het hangt af van uw strategie. De verkopers die consistent groeien, zijn degenen die hun platform begrijpen, hun marketing optimaliseren en hun productlijn strategisch uitbreiden. Deze gids deelt de inzichten die het verschil maken tussen een hobby en een business.',
+  sections: [
+    { heading: `De Huidige Stand van Zaken`, content: `De printable markt is in 2026 volwassener dan ooit. Er zijn meer verkopers, maar ook meer kopers. De totale markt groeit elk jaar met 15-20%. Dit betekent dat er ruimte is voor nieuwe verkopers, maar dat u slimmer moet werken dan vijf jaar geleden.
+
+Voor de Nederlandse markt geldt specifiek:
+- De vraag naar Nederlandstalige printables groeit sneller dan het aanbod
+- Bol.com wordt een steeds relevanter verkoopkanaal voor digitale downloads
+- NT2-materiaal is een snelgroeiende niche
+- Ouders investeren meer in educatief materiaal voor thuis
+
+Deze trends bieden kansen voor verkopers die zich richten op de Nederlandse markt.` },
+    { heading: `Strategische Benadering`, content: `Een succesvolle printable business vereist een strategische benadering op meerdere niveaus:
+
+**Productstrategie:** Bouw een coherente productlijn met duidelijke progressie. Zorg dat elk product verwijst naar gerelateerde producten in uw winkel.
+
+**Prijsstrategie:** Gebruik een gelaagd prijsmodel met instapproducten, kernproducten en premium bundels. De ankerprijs van uw duurste bundel maakt uw andere producten aantrekkelijker.
+
+**Marketingstrategie:** Focus op de kanalen die werken: Etsy SEO, Pinterest en email. Sociale media zijn secundair.
+
+**Seizoensstrategie:** Plan uw productlanceringen 6-8 weken voor seizoenspieken. In Nederland: Sinterklaas-producten in september, Koningsdag-producten in februari, zomervakantie-producten in april.` },
+    { heading: `Implementatie Stappenplan`, content: `Volg dit stappenplan voor implementatie:
+
+**Week 1-2: Fundament**
+Analyseer uw huidige positie. Welke producten verkopen het beste? Welke zoekwoorden genereren het meeste verkeer? Waar zijn de gaten in uw productlijn?
+
+**Week 3-4: Optimalisatie**
+Optimaliseer uw bestaande listings op basis van de analyse. Update titels, tags en foto's van uw top-20 producten. Voeg bundelopties toe aan individuele producten.
+
+**Week 5-8: Uitbreiding**
+Lanceer nieuwe producten die de gaten in uw productlijn vullen. Focus op seizoensgebonden producten voor de komende verkooppiek.
+
+**Doorlopend: Evaluatie**
+Evalueer maandelijks welke producten en zoekwoorden presteren. Pas uw strategie aan op basis van data, niet op gevoel.` },
+    { heading: `Specifiek voor de Nederlandse Markt`, content: `De Nederlandse markt heeft unieke eigenschappen die uw strategie beïnvloeden:
+
+**Taal:** Veel Nederlandse kopers zoeken in zowel het Nederlands als het Engels op Etsy. Optimaliseer uw listings voor beide talen.
+
+**Formaat:** A4 is standaard in Nederland (niet US Letter). Vermeld dit duidelijk in uw listings.
+
+**Verkoopkanalen:** Naast Etsy zijn Bol.com en Samen Voor Onderwijs relevante kanalen. Multi-channel verkoop vergroot uw bereik.
+
+**Feestdagen:** Sinterklaas (5 december) is belangrijker dan Kerst voor kinderproducten. Koningsdag (27 april) is uniek Nederlands. Plan uw seizoensstrategie hierop.
+
+**Onderwijs:** Het Nederlandse groepensysteem (groep 1-8) verschilt van het internationale gradesysteem. Stem uw producten hierop af voor de lokale markt.` },
+    { heading: `Veelgemaakte Fouten en Hoe Ze te Vermijden`, content: `De meest voorkomende fouten van printable verkopers:
+
+**Fout 1: Te snel opgeven**
+De meeste winkels worden verlaten na 2-3 maanden. Succes komt doorgaans pas na 6-12 maanden consistent werk.
+
+**Fout 2: Geen bundels**
+Losse werkbladen verkopen is zoals munten oprapen. Bundels zijn bankbiljetten. Begin direct met bundelen.
+
+**Fout 3: Slechte foto's**
+Platte PDF-screenshots converteren slecht. Investeer tijd in mockup-foto's die uw product tonen geprint op papier.
+
+**Fout 4: Te brede focus**
+Richt u eerst op één niche (bijv. reken werkbladen groep 3) en bouw van daaruit uit. Breed beginnen leidt tot middelmatigheid.
+
+**Fout 5: Geen email lijst**
+Begin vanaf dag één met het opbouwen van een emaillijst. Het is het enige kanaal dat u volledig bezit en controleert.` },
   ],
   keyTakeaways: [
     'De Nederlandse printable markt groeit — er is ruimte voor nieuwe verkopers die strategisch te werk gaan',

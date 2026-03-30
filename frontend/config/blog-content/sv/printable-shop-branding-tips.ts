@@ -68,9 +68,9 @@ const content: BlogContent = {
     { pageType: 'app', slug: 'korsord-arbetsblad', anchorText: 'Korsords-Generator' },
   ],
   relatedPosts: [
-    { slug: 'arbetsblad-designtips-saelj-mer', title: 'Designtips: Sälj Mer' },
-    { slug: 'formatera-arbetsblad-etsy-listning', title: 'Formatera för Etsy' },
-    { slug: 'arbetsblad-kvalitet-vs-kvantitet-etsy', title: 'Kvalitet vs Kvantitet' },
+    { slug: 'arbetsblad-design-tips-saelj-mer', title: 'Designtips: Sälj Mer' },
+    { slug: 'formatera-arbetsblad-etsy-annons', title: 'Formatera för Etsy' },
+    { slug: 'arbetsblad-kvalitet-kvantitet-etsy', title: 'Kvalitet vs Kvantitet' },
   ],
   cta: {
     heading: 'Skapa Professionella Utskrifter',

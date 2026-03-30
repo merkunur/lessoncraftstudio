@@ -68,8 +68,8 @@ const content: BlogContent = {
     { pageType: 'start', slug: 'saelj-utskrifter-etsy', anchorText: 'Börja Sälja på Etsy' },
   ],
   relatedPosts: [
-    { slug: 'etsy-seo-utskriftsfoersaeljare-2026', title: 'Etsy SEO 2026' },
-    { slug: 'utskriftsfoeretagande-inkomst-realistisk', title: 'Realistisk Inkomst' },
+    { slug: 'etsy-seo-printable-saeljare-2026', title: 'Etsy SEO 2026' },
+    { slug: 'printable-foeretagande-inkomst-realistisk', title: 'Realistisk Inkomst' },
     { slug: 'saelj-additions-arbetsblad-etsy-guide', title: 'Sälj Additions-Arbetsblad' },
   ],
   cta: {

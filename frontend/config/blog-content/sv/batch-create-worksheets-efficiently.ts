@@ -68,9 +68,9 @@ const content: BlogContent = {
     { pageType: 'guide', slug: 'skapa-arbetsblad-paket', anchorText: 'Guide: Paket-Skapande' },
   ],
   relatedPosts: [
-    { slug: 'skala-utskriftsfoeretagande-automatisering', title: 'Skala med Automatisering' },
+    { slug: 'skala-printable-foeretagande-automatisering', title: 'Skala med Automatisering' },
     { slug: 'ateranvaend-arbetsblad-flera-produkter', title: 'Återanvänd i Flera Produkter' },
-    { slug: 'arbetsblad-generator-vs-canva-jaemfoerelse', title: 'Generator vs Canva' },
+    { slug: 'arbetsblad-generator-eller-canva-jaemfoerelse', title: 'Generator vs Canva' },
   ],
   cta: {
     heading: 'Börja Batch-Skapa Arbetsblad',

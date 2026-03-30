@@ -13,6 +13,7 @@ import { startPageSlugs } from './config/start-page-slugs';
 import { guidePageSlugs } from './config/guide-page-slugs';
 import { ideaPageSlugs } from './config/idea-page-slugs';
 import { getBlogConfigBySlug } from './config/blog-page-slugs';
+import { getBlogLegacyRedirect } from './config/blog-legacy-redirect-map';
 
 // Build legacy appId → localized slugs map for product page redirects
 // This redirects /de/apps/image-addition → /de/apps/addition-arbeitsblaetter
@@ -530,6 +531,13 @@ export default function middleware(request: NextRequest) {
     const url = request.nextUrl.clone();
     url.hostname = 'www.lessoncraftstudio.com';
     return NextResponse.redirect(url, 301);
+  }
+
+  // 301 redirects for legacy blog slugs (old academic → new seller-focused)
+  // Must be checked BEFORE isRemovedRoute, which would 410 these old slugs
+  const blogRedirect = getBlogLegacyRedirect(pathname);
+  if (blogRedirect) {
+    return NextResponse.redirect(new URL(blogRedirect, request.url), 301);
   }
 
   // 410 Gone for all removed routes (blog, worksheets, pricing, categories, grades, buy)

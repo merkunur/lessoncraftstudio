@@ -68,9 +68,9 @@ const content: BlogContent = {
     { pageType: 'guide', slug: 'skapa-professionella-arbetsblad', anchorText: 'Guide: Professionella Arbetsblad' },
   ],
   relatedPosts: [
-    { slug: 'arbetsblad-designtips-saelj-mer', title: 'Designtips för Arbetsblad som Säljer' },
-    { slug: 'arbetsblad-kvalitet-vs-kvantitet-etsy', title: 'Kvalitet vs Kvantitet på Etsy' },
-    { slug: 'formatera-arbetsblad-etsy-listning', title: 'Formatera Arbetsblad för Etsy' },
+    { slug: 'arbetsblad-design-tips-saelj-mer', title: 'Designtips för Arbetsblad som Säljer' },
+    { slug: 'arbetsblad-kvalitet-kvantitet-etsy', title: 'Kvalitet vs Kvantitet på Etsy' },
+    { slug: 'formatera-arbetsblad-etsy-annons', title: 'Formatera Arbetsblad för Etsy' },
   ],
   cta: {
     heading: 'Skapa Arbetsblad med Automatiskt Facit',

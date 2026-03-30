@@ -65,8 +65,8 @@ const content: BlogContent = {
   ],
   relatedPosts: [
     { slug: 'mattebladpaket-som-saeljer', title: 'Mattebladpaket som Säljer' },
-    { slug: 'etsy-seo-utskriftsfoersaeljare-2026', title: 'Etsy SEO för Utskriftssäljare 2026' },
-    { slug: 'utskriftsfoeretagande-inkomst-realistisk', title: 'Utskriftsföretagande: Realistisk Inkomst' },
+    { slug: 'etsy-seo-printable-saeljare-2026', title: 'Etsy SEO för Utskriftssäljare 2026' },
+    { slug: 'printable-foeretagande-inkomst-realistisk', title: 'Utskriftsföretagande: Realistisk Inkomst' },
   ],
   cta: {
     heading: 'Skapa Produkter Värda Premiumpris',

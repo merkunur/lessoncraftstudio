@@ -70,7 +70,7 @@ const content: BlogContent = {
   relatedPosts: [
     { slug: 'mattebladpaket-som-saeljer', title: 'Mattebladpaket som Säljer' },
     { slug: 'ordsoek-utskrifter-vinst', title: 'Ordsök-Utskrifter: Vinst' },
-    { slug: 'etsy-prissaettning-utskrifter', title: 'Etsy Prissättningsstrategi' },
+    { slug: 'etsy-printable-prisstrategi', title: 'Etsy Prissättningsstrategi' },
   ],
   cta: {
     heading: 'Skapa Professionella Utskrifter',

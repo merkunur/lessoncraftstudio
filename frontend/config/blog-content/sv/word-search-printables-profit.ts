@@ -64,7 +64,7 @@ const content: BlogContent = {
     { pageType: 'guide', slug: 'skapa-ordsoek-pussel', anchorText: 'Guide: Skapa ordsökspussel' },
   ],
   relatedPosts: [
-    { slug: 'korsord-boecker-kdp-nisch', title: 'Korsordsböcker på KDP: Nischguide' },
+    { slug: 'korsordboecker-kdp-nisch', title: 'Korsordsböcker på KDP: Nischguide' },
     { slug: 'kryptogram-arbetsblad-saelj', title: 'Kryptogram-Arbetsblad: Sälj Online' },
     { slug: 'ordvirvel-utskrifter-foeretagande', title: 'Ordvirvel-Utskrifter som Företagande' },
   ],

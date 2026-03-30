@@ -68,8 +68,8 @@ const content: BlogContent = {
     { pageType: 'app', slug: 'korsord-arbetsblad', anchorText: 'Korsords-Generator' },
   ],
   relatedPosts: [
-    { slug: 'saesong-utskrifts-kalender-saeljare', title: 'Säsongskalender för Säljare' },
-    { slug: 'foerskola-utskrifter-baestsaeljare', title: 'Förskola: Bästsäljare' },
+    { slug: 'saesongskalender-printable-saeljare', title: 'Säsongskalender för Säljare' },
+    { slug: 'foerskola-printables-baestsaeljare', title: 'Förskola: Bästsäljare' },
     { slug: 'mattebladpaket-som-saeljer', title: 'Mattebladpaket som Säljer' },
   ],
   cta: {

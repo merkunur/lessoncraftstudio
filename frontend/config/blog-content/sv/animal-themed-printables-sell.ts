@@ -68,9 +68,9 @@ const content: BlogContent = {
     { pageType: 'app', slug: 'hitta-och-raekna-arbetsblad', anchorText: 'Hitta och Räkna med Djur' },
   ],
   relatedPosts: [
-    { slug: 'dinosaurie-utskrifter-saelj-evergreen', title: 'Dinosaurie-Utskrifter: Evergreen Försäljning' },
-    { slug: 'bondgaardsdjur-utskrifter-saelj', title: 'Bondgårdsdjur-Utskrifter som Säljer' },
-    { slug: 'anvend-tematiska-bilder-saelj-arbetsblad', title: 'Använd Tematiska Bilder för Försäljning' },
+    { slug: 'dinosaurie-printables-saelja-evergreen', title: 'Dinosaurie-Utskrifter: Evergreen Försäljning' },
+    { slug: 'bondgaardsdjur-printables-saelja', title: 'Bondgårdsdjur-Utskrifter som Säljer' },
+    { slug: 'anvaend-temabilder-saelja-arbetsblad', title: 'Använd Tematiska Bilder för Försäljning' },
   ],
   cta: {
     heading: 'Skapa Djurtema Arbetsblad',

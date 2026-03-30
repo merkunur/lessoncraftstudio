@@ -68,9 +68,9 @@ const content: BlogContent = {
     { pageType: 'guide', slug: 'skapa-arbetsblad-paket', anchorText: 'Guide: Skapa Paket' },
   ],
   relatedPosts: [
-    { slug: 'foerskola-utskrifter-baestsaeljare', title: 'Förskola Utskrifter: Bästsäljare' },
+    { slug: 'foerskola-printables-baestsaeljare', title: 'Förskola Utskrifter: Bästsäljare' },
     { slug: 'mattebladpaket-som-saeljer', title: 'Mattebladpaket som Säljer' },
-    { slug: 'saesong-utskrifts-kalender-saeljare', title: 'Säsongskalender för Utskriftssäljare' },
+    { slug: 'saesongskalender-printable-saeljare', title: 'Säsongskalender för Utskriftssäljare' },
   ],
   cta: {
     heading: 'Förbered Dig för Skolstartsrushen',

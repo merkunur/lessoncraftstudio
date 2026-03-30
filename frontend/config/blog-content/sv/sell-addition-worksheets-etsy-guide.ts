@@ -74,7 +74,7 @@ const content: BlogContent = {
   relatedPosts: [
     { slug: 'saelj-subtraktions-arbetsblad-online', title: 'Sälj Subtraktions-Arbetsblad Online' },
     { slug: 'mattebladpaket-som-saeljer', title: 'Mattebladpaket som Säljer' },
-    { slug: 'etsy-prissaettning-utskrifter', title: 'Etsy Prissättningsstrategi för Utskrifter' },
+    { slug: 'etsy-printable-prisstrategi', title: 'Etsy Prissättningsstrategi för Utskrifter' },
   ],
   cta: {
     heading: 'Börja Skapa Additions-Arbetsblad',

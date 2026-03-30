@@ -186,6 +186,14 @@ const blogIndexMetadata: Record<string, { title: string; description: string }> 
     title: 'Blog for printable-sælgere | LessonCraftStudio',
     description: 'Praktiske guider, tips og strategier til at opbygge din printable-virksomhed på Etsy, Amazon KDP og mere.',
   },
+  no: {
+    title: 'Blogg for printable-selgere | LessonCraftStudio',
+    description: 'Praktiske guider, tips og strategier for å bygge din printable-virksomhet på Etsy, Amazon KDP og mer.',
+  },
+  fi: {
+    title: 'Blogi tulosteiden myyjille | LessonCraftStudio',
+    description: 'Käytännön oppaat, vinkit ja strategiat tulostettavien tuotteiden liiketoiminnan rakentamiseen Etsyssä, Amazon KDP:ssä ja muualla.',
+  },
 };
 
 export async function generateMetadata({

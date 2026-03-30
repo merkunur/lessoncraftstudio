@@ -16,55 +16,11 @@ const content: BlogContent = {
   category: 'product-guide',
   introduction: 'Tælle- og diagramøvelser er en unik niche inden for matematikprintables. De er visuelt tiltalende, pædagogisk effektive og har relativt lav konkurrence sammenlignet med standard additionsark. Formatet er særligt populært for børnehaveklasse og 1. klasse, hvor visuel støtte er afgørende for matematikforståelsen.',
   sections: [
-    { heading: 'Hvad er diagram-tælleark?', content: 'Diagram-tælleark præsenterer et billede med flere objekter (f.eks. 5 æbler, 3 bananer, 7 appelsiner). Barnet tæller hvert objekt og udfylder et søjlediagram eller tabel med antallet. Øvelsen træner både tælning, kategorisering og datavisualisering.
-
-Formatet fungerer med alle temaer: dyr, mad, køretøjer, natur — hvert tema er en ny produktmulighed. Med LessonCraftStudios find-og-tæl generator kan du oprette tematiske tælleark med professionelle billeder på under 5 minutter.
-
-De mest efterspurgte varianter er bondegårdsdyr-tælling (populært for de yngste), havdyr-tælling og insekt-tælling.' },
-    { heading: 'Produktformater og prissætning', content: 'Tælleark sælger i flere formater:
-
-**Enkeltsider med ét tema:** 8-15 kr. — hurtige impulskøb
-**Temapakke (10-15 ark):** 35-55 kr. — hvert ark har et nyt tema
-**Progressionspakke:** 45-70 kr. — fra let tælling (1-5) til avanceret (1-20)
-**Diagram-komplet pakke:** 90-130 kr. — søjlediagram, lagkagediagram, tabel
-**Matematik-starter pakke:** 120-180 kr. — tælling + addition + subtraktion
-
-Tælleark har en unik fordel: de er visuelt attraktive i Etsy-thumbnails. Farverige billeder af dyr og mad fanger øjet og genererer højere klikrater end standard talgitre.' },
-    { heading: 'Målgrupper og søgeord', content: 'Tælleark har tre primære målgrupper:
-
-**Forældre til børnehaveklassebørn (alder 5-6):**
-- "tælleøvelse børnehaveklasse"
-- "diagram matematik printbar"
-- "visuel matematikøvelse for børn"
-
-**Folkeskolelærere (1.-2. klasse):**
-- "diagram øvelse folkeskole"
-- "tælle og sortér arbejdsark"
-- "datavisualisering matematik"
-
-**DSA-undervisere:**
-- "tælleøvelse dansk som andetsprog"
-- "visuel matematik DSA"
-
-Det danske marked har minimal konkurrence for denne type produkt. Engelske tælleark dominerer, men dansksprogede versioner har et dedikeret publikum.' },
-    { heading: 'Oprettelse og variation', content: 'LessonCraftStudios generatorer lader dig oprette tælleark med 100+ temaer. Skab variation med:
-
-- **Tematisk variation:** Dyr, mad, køretøjer, natur, sæsoner
-- **Sværhedsvariation:** Tæl 1-5 (let), 1-10 (middel), 1-20 (svært)
-- **Formatvariation:** Simpel tælling, søjlediagram, sammenligning
-- **Sæsonvariation:** Juletælling, påsketælling, sommertælling
-
-En komplet temapakke tager cirka 20 minutter at generere. Prøv den gratis prøveversion med vandmærke for at teste kvaliteten og planlægge din produktlinje.' },
-    { heading: 'Skalering og bundlestrategier', content: 'Tælleark er ideelle til bundling:
-
-**Horizontal bundle:** Tælleark + addition + subtraktion = "Matematik Komplet Pakke"
-**Vertikal bundle:** Alle temaer i én pakke = "100 Tælle-Aktiviteter"
-**Sæsonbundle:** Alle sæsoner i én pakke = "Hele Årets Tælleøvelser"
-**KDP-bog:** Saml 50-80 tælleark i en aktivitetsbog til Amazon
-
-Cross-selling er naturligt: kunder der køber tælleark køber ofte også additions- og subtraktionsark. Link mellem produkterne i dine Etsy-beskrivelser.
-
-En tælleark-produktlinje med 20-30 lister kan generere 1.500-3.500 kr./md som del af en bredere matematikforretning.' }
+    { heading: 'Hvad er diagram-tælleark?', content: 'Diagram-tælleark præsenterer et billede med flere objekter (f.eks. 5 æbler, 3 bananer, 7 appelsiner). Barnet tæller hvert objekt og udfylder et søjlediagram eller tabel med antallet. Øvelsen træner både tælning, kategorisering og datavisualisering.\n\nFormatet fungerer med alle temaer: dyr, mad, køretøjer, natur — hvert tema er en ny produktmulighed. Med LessonCraftStudios find-og-tæl generator kan du oprette tematiske tælleark med professionelle billeder på under 5 minutter.\n\nDe mest efterspurgte varianter er bondegårdsdyr-tælling (populært for de yngste), havdyr-tælling og insekt-tælling.' },
+    { heading: 'Produktformater og prissætning', content: 'Tælleark sælger i flere formater:\n\n**Enkeltsider med ét tema:** 8-15 kr. — hurtige impulskøb\n**Temapakke (10-15 ark):** 35-55 kr. — hvert ark har et nyt tema\n**Progressionspakke:** 45-70 kr. — fra let tælling (1-5) til avanceret (1-20)\n**Diagram-komplet pakke:** 90-130 kr. — søjlediagram, lagkagediagram, tabel\n**Matematik-starter pakke:** 120-180 kr. — tælling + addition + subtraktion\n\nTælleark har en unik fordel: de er visuelt attraktive i Etsy-thumbnails. Farverige billeder af dyr og mad fanger øjet og genererer højere klikrater end standard talgitre.' },
+    { heading: 'Målgrupper og søgeord', content: 'Tælleark har tre primære målgrupper:\n\n**Forældre til børnehaveklassebørn (alder 5-6):**\n- "tælleøvelse børnehaveklasse"\n- "diagram matematik printbar"\n- "visuel matematikøvelse for børn"\n\n**Folkeskolelærere (1.-2. klasse):**\n- "diagram øvelse folkeskole"\n- "tælle og sortér arbejdsark"\n- "datavisualisering matematik"\n\n**DSA-undervisere:**\n- "tælleøvelse dansk som andetsprog"\n- "visuel matematik DSA"\n\nDet danske marked har minimal konkurrence for denne type produkt. Engelske tælleark dominerer, men dansksprogede versioner har et dedikeret publikum.' },
+    { heading: 'Oprettelse og variation', content: 'LessonCraftStudios generatorer lader dig oprette tælleark med 100+ temaer. Skab variation med:\n\n- **Tematisk variation:** Dyr, mad, køretøjer, natur, sæsoner\n- **Sværhedsvariation:** Tæl 1-5 (let), 1-10 (middel), 1-20 (svært)\n- **Formatvariation:** Simpel tælling, søjlediagram, sammenligning\n- **Sæsonvariation:** Juletælling, påsketælling, sommertælling\n\nEn komplet temapakke tager cirka 20 minutter at generere. Prøv den gratis prøveversion med vandmærke for at teste kvaliteten og planlægge din produktlinje.' },
+    { heading: 'Skalering og bundlestrategier', content: 'Tælleark er ideelle til bundling:\n\n**Horizontal bundle:** Tælleark + addition + subtraktion = "Matematik Komplet Pakke"\n**Vertikal bundle:** Alle temaer i én pakke = "100 Tælle-Aktiviteter"\n**Sæsonbundle:** Alle sæsoner i én pakke = "Hele Årets Tælleøvelser"\n**KDP-bog:** Saml 50-80 tælleark i en aktivitetsbog til Amazon\n\nCross-selling er naturligt: kunder der køber tælleark køber ofte også additions- og subtraktionsark. Link mellem produkterne i dine Etsy-beskrivelser.\n\nEn tælleark-produktlinje med 20-30 lister kan generere 1.500-3.500 kr./md som del af en bredere matematikforretning.' }
   ],
   keyTakeaways: [
     'Diagram-tælleark er visuelt tiltalende og har lav konkurrence',

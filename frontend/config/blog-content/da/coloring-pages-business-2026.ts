@@ -16,61 +16,11 @@ const content: BlogContent = {
   category: 'product-guide',
   introduction: 'Farvelægningsmarkedet er delt i to verdener: voksenfarvelægning (mindfulness, stress-relief) og børnefarvelægning (pædagogisk, underholdning). Begge markeder er store, men kræver helt forskellige strategier. Lad os dykke ned i, hvordan du positionerer dig profitabelt i 2026.',
   sections: [
-    { heading: 'Markedsstatus: Farvelægning i 2026', content: 'Farvelægningsmarkedet har udviklet sig markant:
-
-**Voksenfarvelægning:** Voksen-mandala-boblen fra 2015-2020 er forbi. Markedet er modnet, og generiske mandalas er overmættede. Men niche-voksenfarvelægning (arkitektur, haver, dyr i habitat) vokser stadig.
-
-**Børnefarvelægning:** Stabil og voksende. Forældre søger aldersspecifik farvelægning med pædagogisk værdi. Farvelægning-og-lær formater (bogstavfarvelægning, talfarvelægning) er populære.
-
-**Tematisk farvelægning:** Dinosaurer, enhjørninger, rummet, dyr — temaspecifik farvelægning har lavere konkurrence og højere konvertering end generisk.
-
-**Dansk farvelægning:** Minimalt udbud. Danske temaer (vikinger, nordiske dyr, danske seværdigheder) er en åben niche.' },
-    { heading: 'Produkttyper der sælger i 2026', content: 'De mest profitable farvelægningsprodukter i 2026:
-
-**Tematiske pakker (25-45 kr. for 15-20 sider):**
-Specifikke temaer: dinosaurer, havdyr, bondegård. Hvert tema er en separat listing.
-
-**Farvelæg-og-lær (35-55 kr. for 15-20 sider):**
-Farvelægning kombineret med bogstaver, tal eller ordforråd. Pædagogisk værdi øger prisen.
-
-**KDP-farvelægningsbøger (55-90 kr.):**
-Fysiske bøger til Amazon. 50-80 sider i A4-format. Populære gaver.
-
-**Sæsonfarvelægning (25-40 kr. for 10-15 sider):**
-Jul, halloween, påske, fastelavn — sæsonspikes med tematisk farvelægning.
-
-**Voksen premium-farvelægning (45-80 kr. for 20-30 sider):**
-Detaljerede illustrationer med fine linjer. Natur, arkitektur, dyr.' },
-    { heading: 'Differentiering i et konkurrencepræget marked', content: 'For at skille dig ud i farvelægningsmarkedet:
-
-- **Nichespecialisering:** "Dinosaurer for 3-5 årige" i stedet for "Farvelægning for Børn"
-- **Pædagogisk vinkel:** Tilføj bogstaver, tal eller fakta til hver side
-- **Kulturel unikhed:** Danske temaer, vikinger, nordisk natur
-- **Kvalitetsillustration:** Detaljerede, professionelle illustrationer — ikke simple konturer
-- **Bundle-strategi:** Kombinér farvelægning med andre aktiviteter (puslespil, matching)
-
-LessonCraftStudios farvelægningsgenerator producerer professionelle tematiske sider med 100+ temaer. Kvaliteten er konsistent, og du kan oprette en hel kollektion på en formiddag.' },
-    { heading: 'KDP-farvelægningsbøger: Strategi', content: 'KDP er den mest profitable kanal for farvelægningsprodukter:
-
-**Format:** A4 (210×297mm), enkeltsidet print, minimum 50 sider
-**Pris:** 55-90 kr. (70-120 kr. for premium)
-**Forside:** Professionel, farverig forside med et eksempel fra bogen
-**Titel:** Beskrivende: "Dinosaurer Farvelægning for Børn 3-6 År — 60 Sider"
-
-KDP-farvelægningsbøger er populære gaver til fødselsdage og jul. Udgiv i september for at fange julesæsonen.
-
-På det danske marked kan du også udgive via Saxo.com for lokal distribution. Danske farvelægningsbøger med nordiske temaer har minimal konkurrence.' },
-    { heading: 'Skalering af farvelægningsforretningen', content: 'Farvelægning skalerer godt med den rigtige strategi:
-
-1. **Temamultiplikation:** 50+ temaer = 50+ lister
-2. **Aldersspecifikke versioner:** Samme tema i 3-5 år, 5-8 år og voksenversion
-3. **Sprogversioner:** Farvelæg-og-lær med dansk, engelsk, tysk ordforråd
-4. **Sæsonprodukter:** 6-8 sæsonspecifikke pakker pr. år
-5. **KDP-serier:** Volume 1, 2, 3 af tematiske farvelægningsbøger
-
-En moden farvelægningsforretning med 40-60 lister plus 5-10 KDP-bøger kan generere 3.000-8.000 kr./md. Nøglen er nichespecialisering — bliv den bedste i din niche i stedet for at konkurrere bredt.
-
-Prøv LessonCraftStudios gratis prøveversion med vandmærke for at teste alle farvelægningstemaer.' }
+    { heading: 'Markedsstatus: Farvelægning i 2026', content: 'Farvelægningsmarkedet har udviklet sig markant:\n\n**Voksenfarvelægning:** Voksen-mandala-boblen fra 2015-2020 er forbi. Markedet er modnet, og generiske mandalas er overmættede. Men niche-voksenfarvelægning (arkitektur, haver, dyr i habitat) vokser stadig.\n\n**Børnefarvelægning:** Stabil og voksende. Forældre søger aldersspecifik farvelægning med pædagogisk værdi. Farvelægning-og-lær formater (bogstavfarvelægning, talfarvelægning) er populære.\n\n**Tematisk farvelægning:** Dinosaurer, enhjørninger, rummet, dyr — temaspecifik farvelægning har lavere konkurrence og højere konvertering end generisk.\n\n**Dansk farvelægning:** Minimalt udbud. Danske temaer (vikinger, nordiske dyr, danske seværdigheder) er en åben niche.' },
+    { heading: 'Produkttyper der sælger i 2026', content: 'De mest profitable farvelægningsprodukter i 2026:\n\n**Tematiske pakker (25-45 kr. for 15-20 sider):**\nSpecifikke temaer: dinosaurer, havdyr, bondegård. Hvert tema er en separat listing.\n\n**Farvelæg-og-lær (35-55 kr. for 15-20 sider):**\nFarvelægning kombineret med bogstaver, tal eller ordforråd. Pædagogisk værdi øger prisen.\n\n**KDP-farvelægningsbøger (55-90 kr.):**\nFysiske bøger til Amazon. 50-80 sider i A4-format. Populære gaver.\n\n**Sæsonfarvelægning (25-40 kr. for 10-15 sider):**\nJul, halloween, påske, fastelavn — sæsonspikes med tematisk farvelægning.\n\n**Voksen premium-farvelægning (45-80 kr. for 20-30 sider):**\nDetaljerede illustrationer med fine linjer. Natur, arkitektur, dyr.' },
+    { heading: 'Differentiering i et konkurrencepræget marked', content: 'For at skille dig ud i farvelægningsmarkedet:\n\n- **Nichespecialisering:** "Dinosaurer for 3-5 årige" i stedet for "Farvelægning for Børn"\n- **Pædagogisk vinkel:** Tilføj bogstaver, tal eller fakta til hver side\n- **Kulturel unikhed:** Danske temaer, vikinger, nordisk natur\n- **Kvalitetsillustration:** Detaljerede, professionelle illustrationer — ikke simple konturer\n- **Bundle-strategi:** Kombinér farvelægning med andre aktiviteter (puslespil, matching)\n\nLessonCraftStudios farvelægningsgenerator producerer professionelle tematiske sider med 100+ temaer. Kvaliteten er konsistent, og du kan oprette en hel kollektion på en formiddag.' },
+    { heading: 'KDP-farvelægningsbøger: Strategi', content: 'KDP er den mest profitable kanal for farvelægningsprodukter:\n\n**Format:** A4 (210×297mm), enkeltsidet print, minimum 50 sider\n**Pris:** 55-90 kr. (70-120 kr. for premium)\n**Forside:** Professionel, farverig forside med et eksempel fra bogen\n**Titel:** Beskrivende: "Dinosaurer Farvelægning for Børn 3-6 År — 60 Sider"\n\nKDP-farvelægningsbøger er populære gaver til fødselsdage og jul. Udgiv i september for at fange julesæsonen.\n\nPå det danske marked kan du også udgive via Saxo.com for lokal distribution. Danske farvelægningsbøger med nordiske temaer har minimal konkurrence.' },
+    { heading: 'Skalering af farvelægningsforretningen', content: 'Farvelægning skalerer godt med den rigtige strategi:\n\n1. **Temamultiplikation:** 50+ temaer = 50+ lister\n2. **Aldersspecifikke versioner:** Samme tema i 3-5 år, 5-8 år og voksenversion\n3. **Sprogversioner:** Farvelæg-og-lær med dansk, engelsk, tysk ordforråd\n4. **Sæsonprodukter:** 6-8 sæsonspecifikke pakker pr. år\n5. **KDP-serier:** Volume 1, 2, 3 af tematiske farvelægningsbøger\n\nEn moden farvelægningsforretning med 40-60 lister plus 5-10 KDP-bøger kan generere 3.000-8.000 kr./md. Nøglen er nichespecialisering — bliv den bedste i din niche i stedet for at konkurrere bredt.\n\nPrøv LessonCraftStudios gratis prøveversion med vandmærke for at teste alle farvelægningstemaer.' }
   ],
   keyTakeaways: [
     'Nichespecialisering er nøglen — generiske farvelægningssider drukner i konkurrence',

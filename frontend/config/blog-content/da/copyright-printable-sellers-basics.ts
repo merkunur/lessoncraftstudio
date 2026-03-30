@@ -16,74 +16,11 @@ const content: BlogContent = {
   category: 'how-to',
   introduction: 'Ophavsretsloven er faktisk simpel i sin kerne: den der skaber et originalt værk, ejer det automatisk. Problemerne opstår, når sælgere bruger andres materiale uden tilladelse eller ikke beskytter deres eget. Lad os gennemgå de vigtigste regler.',
   sections: [
-    { heading: 'Ophavsret i Danmark: Grundreglerne', content: 'Dansk ophavsret (Ophavsretsloven) beskytter automatisk alle originale værker:
-
-- Du behøver IKKE at registrere copyright — beskyttelsen er automatisk ved skabelse
-- Beskyttelsen varer til 70 år efter skaberens død
-- Både digitale og fysiske værker er beskyttet
-- Værket skal være "originalt" — dvs. have et minimum af kreativitet
-
-For printable-sælgere betyder det:
-- Dine originale arbejdsark er automatisk beskyttede
-- Du behøver ikke et ©-symbol (men det er god praksis at inkludere det)
-- Andre må ikke kopiere dine produkter uden tilladelse
-- Du må ikke kopiere andres produkter uden licens' },
-    { heading: 'Hvad du må og ikke må bruge', content: 'Klare regler for hvad du kan bruge i dine produkter:
-
-**Sikker at bruge:**
-- Dine egne originale designs og tekster
-- Public domain materiale (70+ år gammel)
-- Creative Commons licenseret materiale (tjek den specifikke licens)
-- Materiale du har kommerciel licens til (f.eks. LessonCraftStudio)
-- Google Fonts (alle har åben licens)
-
-**ALDRIG brug uden licens:**
-- Disney, Marvel, Pokémon eller andre kendte karakterer
-- Andres arbejdsark eller designs (heller ikke modificerede)
-- Stock-fotos uden kommerciel licens
-- Fonte med restriktive licenser
-- Screenshots fra bøger eller websider' },
-    { heading: 'Beskyttelse af dine produkter', content: 'Praktiske trin til at beskytte dine produkter:
-
-1. **Copyright-notice i alle PDF-filer:** "© 2026 [Dit Navn/Firmanavn]. Alle rettigheder forbeholdes."
-2. **Vandmærke på preview-billeder:** Forhindrer direkte kopiering fra Etsy-listinger
-3. **Metadata i PDF:** Indlejr dit navn og copyright i PDF-dokumentets metadata
-4. **Terms of Use side:** Inkludér en side med brugsvilkår i hver download
-5. **Dokumentation:** Gem daterede kopier af dine originale designs
-
-Hvis du opdager kopiering:
-- Tag screenshots som bevis
-- Indsend DMCA-takedown via Etsys system
-- Kontakt en advokat for alvorlige overtrædelser' },
-    { heading: 'Internationale aspekter', content: 'Som dansk sælger på Etsy opererer du internationalt:
-
-**Berne-konventionen:** Dansk ophavsret er anerkendt i de fleste lande. Dit copyright gælder automatisk i USA, EU og 170+ andre lande.
-
-**DMCA (USA):** Etsys takedown-system følger den amerikanske DMCA-lovgivning. Du kan indsende takedowns mod amerikanske og internationale sælgere.
-
-**EU-ophavsretsdirektivet:** Ekstra beskyttelse inden for EU. Platforme som Etsy har ansvar for at fjerne krænkende indhold.
-
-**Amazon KDP:** Amazon har sit eget copyright-klagesystem. Du kan rapportere kopierede bøger direkte.
-
-Din vigtigste beskyttelse er at skabe originalt indhold. Jo mere unikt dit produkt er, jo lettere er det at bevise overtrædelser.' },
-    { heading: 'Ophavsret og AI-genereret indhold', content: 'AI-genereret indhold rejser nye ophavsretsspørgsmål:
-
-**Nuværende status (2026):**
-- AI-genererede billeder har uklart ophavsretsstatus
-- Mange jurisdiktioner kræver menneskelig kreativitet for ophavsretsbeskyttelse
-- Ren AI-output kan muligvis ikke beskyttes med copyright
-
-**Hvad det betyder for dig:**
-- Brug generatorer der tilføjer menneskeligt design (som LessonCraftStudio)
-- Tilpas og tilføj dine egne elementer til AI-genereret indhold
-- Dokumentér din kreative proces
-
-**Bedste praksis:**
-- Brug LessonCraftStudios generatorer, hvor designet er menneskeligt skabt og licenseret
-- Tilføj dine egne tilpasninger (temavalg, layout, indhold)
-- Kombinér genereret materiale med originale elementer
-
-Med en kommerciel licens fra LessonCraftStudio er din juridiske position klar: du har ret til at sælge de produkter, du opretter med generatoren.' }
+    { heading: 'Ophavsret i Danmark: Grundreglerne', content: 'Dansk ophavsret (Ophavsretsloven) beskytter automatisk alle originale værker:\n\n- Du behøver IKKE at registrere copyright — beskyttelsen er automatisk ved skabelse\n- Beskyttelsen varer til 70 år efter skaberens død\n- Både digitale og fysiske værker er beskyttet\n- Værket skal være "originalt" — dvs. have et minimum af kreativitet\n\nFor printable-sælgere betyder det:\n- Dine originale arbejdsark er automatisk beskyttede\n- Du behøver ikke et ©-symbol (men det er god praksis at inkludere det)\n- Andre må ikke kopiere dine produkter uden tilladelse\n- Du må ikke kopiere andres produkter uden licens' },
+    { heading: 'Hvad du må og ikke må bruge', content: 'Klare regler for hvad du kan bruge i dine produkter:\n\n**Sikker at bruge:**\n- Dine egne originale designs og tekster\n- Public domain materiale (70+ år gammel)\n- Creative Commons licenseret materiale (tjek den specifikke licens)\n- Materiale du har kommerciel licens til (f.eks. LessonCraftStudio)\n- Google Fonts (alle har åben licens)\n\n**ALDRIG brug uden licens:**\n- Disney, Marvel, Pokémon eller andre kendte karakterer\n- Andres arbejdsark eller designs (heller ikke modificerede)\n- Stock-fotos uden kommerciel licens\n- Fonte med restriktive licenser\n- Screenshots fra bøger eller websider' },
+    { heading: 'Beskyttelse af dine produkter', content: 'Praktiske trin til at beskytte dine produkter:\n\n1. **Copyright-notice i alle PDF-filer:** "© 2026 [Dit Navn/Firmanavn]. Alle rettigheder forbeholdes."\n2. **Vandmærke på preview-billeder:** Forhindrer direkte kopiering fra Etsy-listinger\n3. **Metadata i PDF:** Indlejr dit navn og copyright i PDF-dokumentets metadata\n4. **Terms of Use side:** Inkludér en side med brugsvilkår i hver download\n5. **Dokumentation:** Gem daterede kopier af dine originale designs\n\nHvis du opdager kopiering:\n- Tag screenshots som bevis\n- Indsend DMCA-takedown via Etsys system\n- Kontakt en advokat for alvorlige overtrædelser' },
+    { heading: 'Internationale aspekter', content: 'Som dansk sælger på Etsy opererer du internationalt:\n\n**Berne-konventionen:** Dansk ophavsret er anerkendt i de fleste lande. Dit copyright gælder automatisk i USA, EU og 170+ andre lande.\n\n**DMCA (USA):** Etsys takedown-system følger den amerikanske DMCA-lovgivning. Du kan indsende takedowns mod amerikanske og internationale sælgere.\n\n**EU-ophavsretsdirektivet:** Ekstra beskyttelse inden for EU. Platforme som Etsy har ansvar for at fjerne krænkende indhold.\n\n**Amazon KDP:** Amazon har sit eget copyright-klagesystem. Du kan rapportere kopierede bøger direkte.\n\nDin vigtigste beskyttelse er at skabe originalt indhold. Jo mere unikt dit produkt er, jo lettere er det at bevise overtrædelser.' },
+    { heading: 'Ophavsret og AI-genereret indhold', content: 'AI-genereret indhold rejser nye ophavsretsspørgsmål:\n\n**Nuværende status (2026):**\n- AI-genererede billeder har uklart ophavsretsstatus\n- Mange jurisdiktioner kræver menneskelig kreativitet for ophavsretsbeskyttelse\n- Ren AI-output kan muligvis ikke beskyttes med copyright\n\n**Hvad det betyder for dig:**\n- Brug generatorer der tilføjer menneskeligt design (som LessonCraftStudio)\n- Tilpas og tilføj dine egne elementer til AI-genereret indhold\n- Dokumentér din kreative proces\n\n**Bedste praksis:**\n- Brug LessonCraftStudios generatorer, hvor designet er menneskeligt skabt og licenseret\n- Tilføj dine egne tilpasninger (temavalg, layout, indhold)\n- Kombinér genereret materiale med originale elementer\n\nMed en kommerciel licens fra LessonCraftStudio er din juridiske position klar: du har ret til at sælge de produkter, du opretter med generatoren.' }
   ],
   keyTakeaways: [
     'Ophavsret er automatisk i Danmark — ingen registrering nødvendig',

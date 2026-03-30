@@ -16,69 +16,11 @@ const content: BlogContent = {
   category: 'how-to',
   introduction: 'KDP-aktivitetsbøger er en naturlig udvidelse af din Etsy-forretning. De samme arbejdsark du allerede opretter kan formateres som en bog og sælges som fysisk produkt. KDP er gratis at bruge, Amazon håndterer print og forsendelse, og du tjener royalty på hvert salg.',
   sections: [
-    { heading: 'Hvad er en KDP-aktivitetsbog?', content: 'En KDP-aktivitetsbog er en fysisk bog udgivet via Amazons print-on-demand service. Bogen printes kun når en kunde bestiller den — du behøver ingen lagerføring.
-
-Typiske formater:
-- Matematikøvelsesbog (addition, subtraktion, blandet)
-- Puslespilsbog (ordsøgning, krydsord, kryptogrammer)
-- Farvelægningsbog (tematisk, aldersspecifik)
-- Aktivitetsmix (puslespil + matematik + farvelægning)
-
-En god aktivitetsbog har 80-150 sider med variation i indhold og sværhedsgrad. Facitlister samles bagerst i bogen. A4-format er standard for arbejdsbøger i Danmark og det skandinaviske marked.' },
-    { heading: 'Formatering til KDP', content: 'KDP-formatering kræver specifikke tekniske krav:
-
-**Sidestørrelse:** A4 (210×297mm) eller 8,5×11 tommer
-**Marger:** Minimum 19mm indermargen (binding), 13mm øvrige
-**Opløsning:** 300 DPI for skarpt print
-**Filformat:** PDF (alle fonts indlejret)
-**Forside:** Separat PDF, 300 DPI, med ryg-bredde baseret på sideantal
-**Papirtype:** Hvidt papir til farve, creme til sort-hvid
-
-Tip: Opret en KDP-skabelon i Canva med de korrekte marger og dimensioner. Genbrug skabelonen til alle fremtidige bøger.
-
-LessonCraftStudios generatorer producerer arbejdsark i printklart A4-format, der kan indsættes direkte i din KDP-bog.' },
-    { heading: 'Forsidedesign der sælger', content: 'Forsiden er det vigtigste salgselement på Amazon:
-
-- **Klar titel:** Stort, læsbart. "Matematikøvelser for 1. Klasse — 100 Opgaver med Facit"
-- **Aldersmærkning:** "3-5 år", "6-8 år" — forældre filtrerer efter alder
-- **Preview-billede:** Vis 1-2 eksempler fra indholdet
-- **Farverig og professionel:** Brug klare farver og et rent layout
-- **Underkategori:** Nævn hvad bogen indeholder (puslespil, matematik, farvelægning)
-
-Canva har gratis KDP-forsideskabeloner. BookBolt er et professionelt alternativ til puslespilsbøger.
-
-Undgå generiske forsider. Et design med temabilleder (dyr, rummet, natur) skiller sig ud i søgeresultaterne.' },
-    { heading: 'Søgeords- og kategoristrategi', content: 'KDP giver dig 7 søgeord og 2 kategorier. Brug dem strategisk:
-
-**Søgeord (7 pladser):**
-1. Hovedterm: "aktivitetsbog børn"
-2. Aldersgruppe: "matematikøvelser 6-8 år"
-3. Tema: "dyretema puslespil bog"
-4. Gavevinkel: "aktivitetsbog gave børn"
-5. Format: "A4 arbejdsbog med facit"
-6. Sæson: "sommeraktiviteter børn bog"
-7. Specifik: "addition subtraktion øvelser folkeskole"
-
-**Kategorier:** Vælg de mest specifikke. "Børnebøger > Aktiviteter > Matematik" er bedre end "Børnebøger".
-
-For det danske marked: publicér via Amazon.de (dækker Skandinavien). Danske søgeord har ekstremt lav konkurrence sammenlignet med engelske.' },
-    { heading: 'Prissætning og royalties', content: 'KDP-prissætning afhænger af sideantal og format:
-
-**Sort-hvid A4 (100 sider):**
-- Printomkostning: ca. 30 kr.
-- Pris: 69-89 kr.
-- Royalty (60%): ca. 12-23 kr. pr. salg
-
-**Fuld farve A4 (100 sider):**
-- Printomkostning: ca. 75 kr.
-- Pris: 139-169 kr.
-- Royalty (60%): ca. 8-26 kr. pr. salg
-
-Sort-hvid er mere profitabelt pr. salg. Farve er kun nødvendigt for farvelægningsbøger.
-
-For det danske marked kan du supplere KDP med Saxo.com, som er Danmarks største online boghandel. Saxo accepterer print-on-demand bøger via distribution.
-
-Med LessonCraftStudios generatorer kan du oprette alt indhold til en komplet aktivitetsbog på en dag. Prøv den gratis prøveversion med vandmærke.' }
+    { heading: 'Hvad er en KDP-aktivitetsbog?', content: 'En KDP-aktivitetsbog er en fysisk bog udgivet via Amazons print-on-demand service. Bogen printes kun når en kunde bestiller den — du behøver ingen lagerføring.\n\nTypiske formater:\n- Matematikøvelsesbog (addition, subtraktion, blandet)\n- Puslespilsbog (ordsøgning, krydsord, kryptogrammer)\n- Farvelægningsbog (tematisk, aldersspecifik)\n- Aktivitetsmix (puslespil + matematik + farvelægning)\n\nEn god aktivitetsbog har 80-150 sider med variation i indhold og sværhedsgrad. Facitlister samles bagerst i bogen. A4-format er standard for arbejdsbøger i Danmark og det skandinaviske marked.' },
+    { heading: 'Formatering til KDP', content: 'KDP-formatering kræver specifikke tekniske krav:\n\n**Sidestørrelse:** A4 (210×297mm) eller 8,5×11 tommer\n**Marger:** Minimum 19mm indermargen (binding), 13mm øvrige\n**Opløsning:** 300 DPI for skarpt print\n**Filformat:** PDF (alle fonts indlejret)\n**Forside:** Separat PDF, 300 DPI, med ryg-bredde baseret på sideantal\n**Papirtype:** Hvidt papir til farve, creme til sort-hvid\n\nTip: Opret en KDP-skabelon i Canva med de korrekte marger og dimensioner. Genbrug skabelonen til alle fremtidige bøger.\n\nLessonCraftStudios generatorer producerer arbejdsark i printklart A4-format, der kan indsættes direkte i din KDP-bog.' },
+    { heading: 'Forsidedesign der sælger', content: 'Forsiden er det vigtigste salgselement på Amazon:\n\n- **Klar titel:** Stort, læsbart. "Matematikøvelser for 1. Klasse — 100 Opgaver med Facit"\n- **Aldersmærkning:** "3-5 år", "6-8 år" — forældre filtrerer efter alder\n- **Preview-billede:** Vis 1-2 eksempler fra indholdet\n- **Farverig og professionel:** Brug klare farver og et rent layout\n- **Underkategori:** Nævn hvad bogen indeholder (puslespil, matematik, farvelægning)\n\nCanva har gratis KDP-forsideskabeloner. BookBolt er et professionelt alternativ til puslespilsbøger.\n\nUndgå generiske forsider. Et design med temabilleder (dyr, rummet, natur) skiller sig ud i søgeresultaterne.' },
+    { heading: 'Søgeords- og kategoristrategi', content: 'KDP giver dig 7 søgeord og 2 kategorier. Brug dem strategisk:\n\n**Søgeord (7 pladser):**\n1. Hovedterm: "aktivitetsbog børn"\n2. Aldersgruppe: "matematikøvelser 6-8 år"\n3. Tema: "dyretema puslespil bog"\n4. Gavevinkel: "aktivitetsbog gave børn"\n5. Format: "A4 arbejdsbog med facit"\n6. Sæson: "sommeraktiviteter børn bog"\n7. Specifik: "addition subtraktion øvelser folkeskole"\n\n**Kategorier:** Vælg de mest specifikke. "Børnebøger > Aktiviteter > Matematik" er bedre end "Børnebøger".\n\nFor det danske marked: publicér via Amazon.de (dækker Skandinavien). Danske søgeord har ekstremt lav konkurrence sammenlignet med engelske.' },
+    { heading: 'Prissætning og royalties', content: 'KDP-prissætning afhænger af sideantal og format:\n\n**Sort-hvid A4 (100 sider):**\n- Printomkostning: ca. 30 kr.\n- Pris: 69-89 kr.\n- Royalty (60%): ca. 12-23 kr. pr. salg\n\n**Fuld farve A4 (100 sider):**\n- Printomkostning: ca. 75 kr.\n- Pris: 139-169 kr.\n- Royalty (60%): ca. 8-26 kr. pr. salg\n\nSort-hvid er mere profitabelt pr. salg. Farve er kun nødvendigt for farvelægningsbøger.\n\nFor det danske marked kan du supplere KDP med Saxo.com, som er Danmarks største online boghandel. Saxo accepterer print-on-demand bøger via distribution.\n\nMed LessonCraftStudios generatorer kan du oprette alt indhold til en komplet aktivitetsbog på en dag. Prøv den gratis prøveversion med vandmærke.' }
   ],
   keyTakeaways: [
     'KDP-aktivitetsbøger er en naturlig udvidelse af Etsy-printable-forretningen',

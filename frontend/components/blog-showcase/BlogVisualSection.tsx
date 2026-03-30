@@ -26,98 +26,25 @@ interface BlogVisualSectionProps {
 export default function BlogVisualSection({ type, config, content, locale }: BlogVisualSectionProps) {
   switch (type) {
     case 'A':
-      return (
-        <HeroBanner
-          images={config.heroImages}
-          accentColor={config.accentColor}
-          locale={locale}
-        />
-      );
-
+      return <HeroBanner images={config.heroImages} accentColor={config.accentColor} locale={locale} />;
     case 'B':
-      if (!config.productCards) return null;
-      return (
-        <ProductCards
-          items={config.productCards.items}
-          locale={locale}
-        />
-      );
-
+      return config.productCards ? <ProductCards items={config.productCards.items} locale={locale} /> : null;
     case 'C':
-      if (!config.beforeAfter) return null;
-      return (
-        <BeforeAfter
-          lcsImage={config.beforeAfter.lcsImage}
-          locale={locale}
-        />
-      );
-
+      return config.beforeAfter ? <BeforeAfter lcsImage={config.beforeAfter.lcsImage} locale={locale} /> : null;
     case 'D':
-      if (!config.difficultyTiers) return null;
-      return (
-        <DifficultyTiers
-          beginner={config.difficultyTiers.beginner}
-          intermediate={config.difficultyTiers.intermediate}
-          advanced={config.difficultyTiers.advanced}
-          locale={locale}
-          accentColor={config.accentColor}
-        />
-      );
-
+      return config.difficultyTiers ? <DifficultyTiers beginner={config.difficultyTiers.beginner} intermediate={config.difficultyTiers.intermediate} advanced={config.difficultyTiers.advanced} locale={locale} accentColor={config.accentColor} /> : null;
     case 'E':
-      if (!config.themedGrid) return null;
-      return (
-        <ThemedGrid
-          images={config.themedGrid.images}
-          locale={locale}
-        />
-      );
-
+      return config.themedGrid ? <ThemedGrid images={config.themedGrid.images} locale={locale} /> : null;
     case 'F':
-      if (!config.bundle) return null;
-      return (
-        <BundleVisualization
-          images={config.bundle.images}
-          pageCount={config.bundle.pageCount}
-          locale={locale}
-        />
-      );
-
+      return config.bundle ? <BundleVisualization images={config.bundle.images} pageCount={config.bundle.pageCount} locale={locale} /> : null;
     case 'G':
-      if (!config.worksheetAnswerPair) return null;
-      return (
-        <WorksheetAnswerPair
-          worksheet={config.worksheetAnswerPair.worksheet}
-          answerKey={config.worksheetAnswerPair.answerKey}
-          locale={locale}
-        />
-      );
-
+      return config.worksheetAnswerPair ? <WorksheetAnswerPair worksheet={config.worksheetAnswerPair.worksheet} answerKey={config.worksheetAnswerPair.answerKey} locale={locale} /> : null;
     case 'H':
-      if (!config.platformMockup) return null;
-      return (
-        <PlatformMockup
-          platform={config.platformMockup.platform}
-          image={config.platformMockup.image}
-          locale={locale}
-        />
-      );
-
+      return config.platformMockup ? <PlatformMockup platform={config.platformMockup.platform} image={config.platformMockup.image} locale={locale} /> : null;
     case 'I':
       return <StatsBar locale={locale} />;
-
     case 'J':
-      return (
-        <CtaWithSample
-          image={config.ctaSample}
-          locale={locale}
-          ctaHeading={content.cta?.heading || ''}
-          ctaDescription={content.cta?.description || ''}
-          ctaButtonText={content.cta?.buttonText || ''}
-          ctaButtonUrl={content.cta?.buttonUrl || '/apps'}
-        />
-      );
-
+      return <CtaWithSample image={config.ctaSample} locale={locale} ctaHeading={content.cta?.heading || ''} ctaDescription={content.cta?.description || ''} ctaButtonText={content.cta?.buttonText || ''} ctaButtonUrl={content.cta?.buttonUrl || '/apps'} />;
     default:
       return null;
   }

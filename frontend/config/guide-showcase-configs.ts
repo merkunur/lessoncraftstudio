@@ -51,7 +51,7 @@ function localizedImg(appFolder: string, filename: string, locale: string) {
 // Each app provides: representative images, accent color, decorative symbol,
 // display name, and short descriptors for generated configs.
 
-interface AppVisualData {
+export interface AppVisualData {
   folder: string;           // /samples/english/{folder}/
   accent: string;           // Tailwind color name
   symbol: string;           // decorative symbol
@@ -65,7 +65,7 @@ interface AppVisualData {
   frameColor: string;       // gallery frame hex
 }
 
-const appData: Record<string, AppVisualData> = {
+export const appData: Record<string, AppVisualData> = {
   addition: {
     folder: 'addition', accent: 'orange', symbol: '+', label: 'Addition',
     imgs: ['Addition Fun 1.webp', 'Addition Fun 2.webp', 'Addition Fun 3.webp', 'Addition Fun 4.webp', 'Addition Fun 5.webp', 'Addition Fun 6.webp'],

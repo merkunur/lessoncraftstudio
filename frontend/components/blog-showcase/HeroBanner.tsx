@@ -6,8 +6,8 @@
  */
 
 import type { ImageRef } from '@/config/blog-visual-sections/types';
-import { imgUrl } from '@/config/showcase-i18n';
-import { worksheetAltText, appDisplayName } from '@/config/blog-visual-sections/alt-text';
+import { resolveBlogImageUrl, getAppLabel } from '@/config/blog-visual-sections/image-resolver';
+import { worksheetAltText } from '@/config/blog-visual-sections/alt-text';
 import { getSectionLabel } from '@/config/section-labels';
 
 interface HeroBannerProps {
@@ -54,66 +54,51 @@ export default function HeroBanner({ images, accentColor, locale }: HeroBannerPr
   const bg = gradients[accentColor] || gradients.emerald;
   const border = borderColors[accentColor] || 'border-emerald-200';
   const badge = badgeColors[accentColor] || 'text-emerald-700';
-  const appName = appDisplayName(images[0].appFolder);
+  const appName = getAppLabel(images[0].appKey);
   const hasThree = images.length === 3;
 
   return (
     <section className="relative overflow-hidden py-10 md:py-14" style={{ background: bg }}>
       <div className="container mx-auto px-4">
-        {/* Badge */}
         <div className="text-center mb-6">
           <span className={`inline-block px-4 py-1.5 rounded-full text-xs font-bold tracking-widest uppercase bg-white/80 ${badge} shadow-sm`}>
             {getSectionLabel('sampleWorksheets', locale)}
           </span>
         </div>
 
-        {/* Fanned card layout */}
         <div className="flex items-center justify-center gap-3 md:gap-5 max-w-3xl mx-auto">
-          {/* Card 1 — tilted left */}
           <div className="w-1/3 max-w-[220px] flex-shrink-0" style={{ transform: 'rotate(-6deg) translateY(8px)' }}>
             <div className={`rounded-lg overflow-hidden shadow-lg bg-white border-2 ${border}`}>
               <img
-                src={imgUrl(images[0].appFolder, images[0].filename, locale)}
+                src={resolveBlogImageUrl(images[0].appKey, images[0].idx, locale)}
                 alt={worksheetAltText(locale, appName, 'sample 1')}
-                width={400}
-                height={566}
-                className="w-full h-auto"
-                loading="eager"
-                decoding="async"
-                fetchPriority="high"
+                width={400} height={566} className="w-full h-auto"
+                loading="eager" decoding="async" fetchPriority="high"
                 style={{ aspectRatio: '400/566' }}
               />
             </div>
           </div>
 
-          {/* Card 2 — center, elevated */}
           <div className="w-1/3 max-w-[240px] flex-shrink-0 z-10" style={{ transform: 'translateY(-8px)' }}>
             <div className={`rounded-lg overflow-hidden shadow-xl bg-white border-2 ${border}`}>
               <img
-                src={imgUrl(images[1].appFolder, images[1].filename, locale)}
+                src={resolveBlogImageUrl(images[1].appKey, images[1].idx, locale)}
                 alt={worksheetAltText(locale, appName, 'sample 2')}
-                width={400}
-                height={566}
-                className="w-full h-auto"
-                loading="lazy"
-                decoding="async"
+                width={400} height={566} className="w-full h-auto"
+                loading="lazy" decoding="async"
                 style={{ aspectRatio: '400/566' }}
               />
             </div>
           </div>
 
-          {/* Card 3 — tilted right (if 3 images) */}
           {hasThree && images[2] && (
             <div className="w-1/3 max-w-[220px] flex-shrink-0" style={{ transform: 'rotate(6deg) translateY(8px)' }}>
               <div className={`rounded-lg overflow-hidden shadow-lg bg-white border-2 ${border}`}>
                 <img
-                  src={imgUrl(images[2].appFolder, images[2].filename, locale)}
+                  src={resolveBlogImageUrl(images[2].appKey, images[2].idx, locale)}
                   alt={worksheetAltText(locale, appName, 'sample 3')}
-                  width={400}
-                  height={566}
-                  className="w-full h-auto"
-                  loading="lazy"
-                  decoding="async"
+                  width={400} height={566} className="w-full h-auto"
+                  loading="lazy" decoding="async"
                   style={{ aspectRatio: '400/566' }}
                 />
               </div>

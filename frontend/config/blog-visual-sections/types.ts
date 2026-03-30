@@ -3,16 +3,22 @@ import type { BlogCategory } from '@/config/blog-content/types';
 /** Which visual section type to render */
 export type VisualSectionType = 'A' | 'B' | 'C' | 'D' | 'E' | 'F' | 'G' | 'H' | 'I' | 'J';
 
-/** Locale-independent image reference — resolved to full URL at render time via imgUrl() */
+/** Locale-independent image reference — resolved at render time via image-resolver.ts */
 export interface ImageRef {
-  appFolder: string;   // sample folder name, e.g. 'addition', 'word search'
-  filename: string;    // e.g. 'addition_worksheet portrait.jpeg'
+  appKey: string;   // key into appData / showcase-images, e.g. 'addition', 'code-addition'
+  idx: number;      // index into imgs[] array (0-5)
+}
+
+/** Answer key reference — resolved at render time */
+export interface AnswerKeyRef {
+  appKey: string;
+  answerKey: true;
 }
 
 /** Product showcase card config */
 export interface ProductCardItem {
   image: ImageRef;
-  productName: string;   // English display name (localized at render time if needed)
+  productName: string;   // English display name
   price: string;         // e.g. '$4.99'
   stars: number;         // 1-5
 }
@@ -22,7 +28,7 @@ export interface BlogVisualConfig {
   /** Primary generator(s) this post references */
   primaryGenerators: string[];
 
-  /** Section A: Hero Sample Banner — 2-3 fanned worksheets */
+  /** Section A: Hero Sample Banner — 2-3 images */
   heroImages: [ImageRef, ImageRef] | [ImageRef, ImageRef, ImageRef];
 
   /** Section B: Product Showcase Cards (Category 1 & 3) */
@@ -47,7 +53,7 @@ export interface BlogVisualConfig {
   /** Section G: Worksheet + Answer Key Pair (Category 1 & 4) */
   worksheetAnswerPair?: {
     worksheet: ImageRef;
-    answerKey: ImageRef;
+    answerKey: AnswerKeyRef;
   };
 
   /** Section H: Platform Mockup (Category 2) */
@@ -63,8 +69,6 @@ export interface BlogVisualConfig {
 /** Where a visual section should be placed relative to the text content */
 export interface SectionPlacement {
   type: VisualSectionType;
-  /** Placement position in the blog post flow */
   position: 'after-hero' | 'after-intro' | 'after-section' | 'before-takeaways';
-  /** For 'after-section': which text section index to place after */
   sectionIndex?: number;
 }

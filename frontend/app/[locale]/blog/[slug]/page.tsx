@@ -17,7 +17,7 @@ import ReadMoreText from '@/components/ReadMoreText';
 import { getBlogVisualConfig } from '@/config/blog-visual-sections/blog-visual-map';
 import { getSectionPlacements, buildInsertionMap } from '@/config/blog-visual-sections/section-placement';
 import { BlogVisualSection } from '@/components/blog-showcase';
-import { imgUrl } from '@/config/showcase-i18n';
+import { resolveBlogImageUrl } from '@/config/blog-visual-sections/image-resolver';
 
 const baseUrl = 'https://www.lessoncraftstudio.com';
 
@@ -53,7 +53,7 @@ export async function generateMetadata({
     // Use real sample worksheet image for og:image when visual config exists
     const visualConfig = getBlogVisualConfig(config.blogId);
     const ogImageUrl = visualConfig
-      ? `${baseUrl}${imgUrl(visualConfig.heroImages[0].appFolder, visualConfig.heroImages[0].filename, locale)}`
+      ? `${baseUrl}${resolveBlogImageUrl(visualConfig.heroImages[0].appKey, visualConfig.heroImages[0].idx, locale)}`
       : `${baseUrl}/api/og?locale=${locale}&type=blog&title=${encodeURIComponent(title)}`;
 
     return {
@@ -109,7 +109,7 @@ export default async function BlogPostPage({
     // Visual sections config
     const visualConfig = getBlogVisualConfig(config.blogId);
     const schemaImageUrl = visualConfig
-      ? `${baseUrl}${imgUrl(visualConfig.heroImages[0].appFolder, visualConfig.heroImages[0].filename, locale)}`
+      ? `${baseUrl}${resolveBlogImageUrl(visualConfig.heroImages[0].appKey, visualConfig.heroImages[0].idx, locale)}`
       : `${baseUrl}/api/og?locale=${locale}&type=blog&title=${encodeURIComponent(content.hero.title)}`;
 
     const articleSchema = {

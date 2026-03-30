@@ -51,7 +51,6 @@ export const productPageSlugs: AppSlugConfig[] = [
       nl: 'woordzoeker-werkbladen',
       da: 'ordsoegning-arbejdsark',
       no: 'ordsoek-arbeidsark',
-      fi: 'sananhaku-tyoarkit',
     },
   },
   {
@@ -67,7 +66,6 @@ export const productPageSlugs: AppSlugConfig[] = [
       nl: 'optellen-werkbladen',
       da: 'addition-arbejdsark',
       no: 'addisjon-arbeidsark',
-      fi: 'yhteenlasku-tyoarkit',
     },
   },
   {
@@ -83,7 +81,6 @@ export const productPageSlugs: AppSlugConfig[] = [
       nl: 'alfabet-trein-werkbladen',
       da: 'alfabet-tog-arbejdsark',
       no: 'alfabet-tog-arbeidsark',
-      fi: 'aakkosjuna-tyoarkit',
     },
   },
   {
@@ -99,7 +96,6 @@ export const productPageSlugs: AppSlugConfig[] = [
       nl: 'kleurplaten-werkbladen',
       da: 'malebog-arbejdsark',
       no: 'fargeleggingsbilder-arbeidsark',
-      fi: 'varityskuvat-tyoarkit',
     },
   },
   {
@@ -115,7 +111,6 @@ export const productPageSlugs: AppSlugConfig[] = [
       nl: 'rekenen-werkbladen',
       da: 'matematikopgaver-arbejdsark',
       no: 'matematikk-oppgaver-arbeidsark',
-      fi: 'matematiikka-tyoarkit',
     },
   },
   {
@@ -131,7 +126,6 @@ export const productPageSlugs: AppSlugConfig[] = [
       nl: 'woordkruisel-werkbladen',
       da: 'bogstavblanding-arbejdsark',
       no: 'bokstavoppgaver-arbeidsark',
-      fi: 'sanansekoitus-tyoarkit',
     },
   },
   {
@@ -147,7 +141,6 @@ export const productPageSlugs: AppSlugConfig[] = [
       nl: 'zoek-en-tel-werkbladen',
       da: 'find-og-tael-arbejdsark',
       no: 'finn-og-tell-arbeidsark',
-      fi: 'etsi-ja-laske-tyoarkit',
     },
   },
   {
@@ -163,7 +156,6 @@ export const productPageSlugs: AppSlugConfig[] = [
       nl: 'verbindings-werkbladen',
       da: 'matchning-arbejdsark',
       no: 'kobling-arbeidsark',
-      fi: 'yhdista-parit-tyoarkit',
     },
   },
   {
@@ -179,7 +171,6 @@ export const productPageSlugs: AppSlugConfig[] = [
       nl: 'lijnen-trekken-werkbladen',
       da: 'linjetraening-arbejdsark',
       no: 'tegning-av-linjer-arbeidsark',
-      fi: 'viivojen-piirtaminen-tyoarkit',
     },
   },
   {
@@ -195,7 +186,6 @@ export const productPageSlugs: AppSlugConfig[] = [
       nl: 'plaatjes-bingo-werkbladen',
       da: 'bingo-arbejdsark',
       no: 'bildlotto-arbeidsark',
-      fi: 'kuva-bingo-tyoarkit',
     },
   },
   {
@@ -211,7 +201,6 @@ export const productPageSlugs: AppSlugConfig[] = [
       nl: 'sudoku-werkbladen',
       da: 'sudoku-arbejdsark',
       no: 'sudoku-arbeidsark',
-      fi: 'sudoku-tyoarkit',
     },
   },
   {
@@ -227,7 +216,6 @@ export const productPageSlugs: AppSlugConfig[] = [
       nl: 'groot-klein-werkbladen',
       da: 'stor-lille-arbejdsark',
       no: 'stor-og-liten-arbeidsark',
-      fi: 'iso-pieni-tyoarkit',
     },
   },
   {
@@ -243,7 +231,6 @@ export const productPageSlugs: AppSlugConfig[] = [
       nl: 'telgrafieken-werkbladen',
       da: 'billediagram-arbejdsark',
       no: 'bildediagram-arbeidsark',
-      fi: 'kuvakaavio-tyoarkit',
     },
   },
   {
@@ -259,7 +246,6 @@ export const productPageSlugs: AppSlugConfig[] = [
       nl: 'visuele-optelsommen-werkbladen',
       da: 'kode-plusstykker-arbejdsark',
       no: 'bildeaddisjon-arbeidsark',
-      fi: 'kuva-yhteenlasku-tyoarkit',
     },
   },
   {
@@ -275,7 +261,6 @@ export const productPageSlugs: AppSlugConfig[] = [
       nl: 'rastertekenen-werkbladen',
       da: 'tegn-og-farvelaeg-arbejdsark',
       no: 'rutenetttegning-arbeidsark',
-      fi: 'ruudukkopiirustus-tyoarkit',
     },
   },
   {
@@ -291,7 +276,6 @@ export const productPageSlugs: AppSlugConfig[] = [
       nl: 'zoek-voorwerpen-werkbladen',
       da: 'find-objekterne-arbejdsark',
       no: 'finn-objektene-arbeidsark',
-      fi: 'etsi-esineet-tyoarkit',
     },
   },
   {
@@ -307,7 +291,6 @@ export const productPageSlugs: AppSlugConfig[] = [
       nl: 'raster-puzzel-werkbladen',
       da: 'raster-puslespil-arbejdsark',
       no: 'rutenett-tilpasning-arbeidsark',
-      fi: 'ruudukko-sovitus-tyoarkit',
     },
   },
   {
@@ -323,7 +306,6 @@ export const productPageSlugs: AppSlugConfig[] = [
       nl: 'kruiswoordpuzzel-werkbladen',
       da: 'krydsord-arbejdsark',
       no: 'bildekryssord-arbeidsark',
-      fi: 'ristisanatehtavat-tyoarkit',
     },
   },
   {
@@ -339,7 +321,6 @@ export const productPageSlugs: AppSlugConfig[] = [
       nl: 'cryptogram-werkbladen',
       da: 'kryptogram-arbejdsark',
       no: 'kryptogram-arbeidsark',
-      fi: 'kuvakryptogrammi-tyoarkit',
     },
   },
   {
@@ -355,7 +336,6 @@ export const productPageSlugs: AppSlugConfig[] = [
       nl: 'rekenpuzzels-werkbladen',
       da: 'matteleger-arbejdsark',
       no: 'matematikkgater-arbeidsark',
-      fi: 'matematiikkapulmat-tyoarkit',
     },
   },
   {
@@ -371,7 +351,6 @@ export const productPageSlugs: AppSlugConfig[] = [
       nl: 'ontbrekende-puzzelstukjes-werkbladen',
       da: 'manglende-brikker-arbejdsark',
       no: 'manglende-biter-arbeidsark',
-      fi: 'puuttuvat-palat-tyoarkit',
     },
   },
   {
@@ -387,7 +366,6 @@ export const productPageSlugs: AppSlugConfig[] = [
       nl: 'meer-minder-werkbladen',
       da: 'sammenligningsopgaver-arbejdsark',
       no: 'sammenligningsoppgaver-arbeidsark',
-      fi: 'enemman-vahemman-tyoarkit',
     },
   },
   {
@@ -403,7 +381,6 @@ export const productPageSlugs: AppSlugConfig[] = [
       nl: 'welke-hoort-niet-bij-werkbladen',
       da: 'find-den-ulige-arbejdsark',
       no: 'finn-den-ulike-arbeidsark',
-      fi: 'poikkea-joukosta-tyoarkit',
     },
   },
   {
@@ -419,7 +396,6 @@ export const productPageSlugs: AppSlugConfig[] = [
       nl: 'patroontrein-werkbladen',
       da: 'moenstertog-arbejdsark',
       no: 'monstertog-arbeidsark',
-      fi: 'kuviojuna-tyoarkit',
     },
   },
   {
@@ -435,7 +411,6 @@ export const productPageSlugs: AppSlugConfig[] = [
       nl: 'patronen-werkbladen',
       da: 'moenstre-arbejdsark',
       no: 'monsteroppgaver-arbeidsark',
-      fi: 'kuviotehtava-tyoarkit',
     },
   },
   {
@@ -451,7 +426,6 @@ export const productPageSlugs: AppSlugConfig[] = [
       nl: 'doolhof-werkbladen',
       da: 'billedsti-arbejdsark',
       no: 'bildesti-arbeidsark',
-      fi: 'kuvapolku-tyoarkit',
     },
   },
   {
@@ -467,7 +441,6 @@ export const productPageSlugs: AppSlugConfig[] = [
       nl: 'sorteer-werkbladen',
       da: 'billedsortering-arbejdsark',
       no: 'bildesortering-arbeidsark',
-      fi: 'kuvalajittelu-tyoarkit',
     },
   },
   {
@@ -483,7 +456,6 @@ export const productPageSlugs: AppSlugConfig[] = [
       nl: 'voorzetsels-werkbladen',
       da: 'praepositioner-arbejdsark',
       no: 'preposisjoner-arbeidsark',
-      fi: 'prepositio-tyoarkit',
     },
   },
   {
@@ -491,7 +463,6 @@ export const productPageSlugs: AppSlugConfig[] = [
     slugs: {
       en: 'shadow-match-worksheets',
       sv: 'skuggmatchning-arbetsblad',
-      fi: 'varjoyhdistely-tyoarkit',
       de: 'schattenbilder-zuordnen-arbeitsblaetter',
       fr: 'discrimination-visuelle-fiches',
       es: 'asociacion-sombras-fichas',
@@ -515,7 +486,6 @@ export const productPageSlugs: AppSlugConfig[] = [
       nl: 'aftrekken-werkbladen',
       da: 'subtraktion-arbejdsark',
       no: 'subtraksjon-arbeidsark',
-      fi: 'vahennyslasku-tyoarkit',
     },
   },
   {
@@ -531,7 +501,6 @@ export const productPageSlugs: AppSlugConfig[] = [
       nl: 'schattenjacht-werkbladen',
       da: 'skattejagt-arbejdsark',
       no: 'skattejakt-arbeidsark',
-      fi: 'aarteenetsinta-tyoarkit',
     },
   },
   {
@@ -547,7 +516,6 @@ export const productPageSlugs: AppSlugConfig[] = [
       nl: 'woordraadsel-werkbladen',
       da: 'gaet-ordet-arbejdsark',
       no: 'gjetteoppgaver-arbeidsark',
-      fi: 'kuva-arvaus-tyoarkit',
     },
   },
   {
@@ -563,7 +531,6 @@ export const productPageSlugs: AppSlugConfig[] = [
       nl: 'schrijfoefeningen-werkbladen',
       da: 'skriveopgaver-arbejdsark',
       no: 'skriveark-arbeidsark',
-      fi: 'kasinkirjoitus-tyoarkit',
     },
   },
 ];

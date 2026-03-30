@@ -135,8 +135,8 @@ cd frontend
 # to cp -r, it would follow symlinks at public/worksheet-generators and public/admin,
 # copying ~25MB of HTML apps into standalone/public/. Cleaning first is a safety net.
 echo ""
-echo "🧹 Cleaning stale .next/standalone to prevent build hang..."
-rm -rf .next/standalone
+echo "🧹 Cleaning stale build output to force full regeneration..."
+rm -rf .next/server .next/standalone
 echo "🔨 Building Next.js application..."
 export BUILD_DATE=$(date -u +%Y-%m-%dT%H:%M:%SZ)
 echo "   BUILD_DATE=${BUILD_DATE}"

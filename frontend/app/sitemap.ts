@@ -18,15 +18,15 @@ export const revalidate = 1800;
 const STATIC_CONTENT_DATE = new Date(process.env.BUILD_DATE || '2026-03-20');
 
 /**
- * Ten sitemaps (total ~3,244 URLs as of 2026-03-30):
- * ID 0: Static pages (154 URLs) - homepage, apps, tools, bundles, start, guides, ideas, legal × 11 locales
- * ID 1: App detail pages (363 URLs) - 33 apps × 11 locales
+ * Ten sitemaps (total ~3,232 URLs as of 2026-03-30):
+ * ID 0: Static pages (165 URLs) - 15 pages × 11 locales
+ * ID 1: App detail pages (330 URLs) - 33 apps × 10 locales (no fi)
  * ID 2: Sales pages (8 URLs) - WarriorPlus product pages (English only)
- * ID 3: Tool pages (297 URLs) - 33 tools × 9 locales (maker/generator intent)
- * ID 4: Bundle pages (54 URLs) - 6 bundles × 9 locales
- * ID 5: Start pages (108 URLs) - 12 cornerstone guides × 9 locales
- * ID 6: Guide pages (585 URLs) - 65 Create X guides × 9 locales
- * ID 7: Idea pages (405 URLs) - 45 niche idea pages × 9 locales
+ * ID 3: Tool pages (330 URLs) - 33 tools × 10 locales (no fi)
+ * ID 4: Bundle pages (60 URLs) - 6 bundles × 10 locales (no fi)
+ * ID 5: Start pages (114 URLs) - 12 cornerstone guides × 10 locales − 6 (no partial)
+ * ID 6: Guide pages (585 URLs) - 65 Create X guides × 9 locales (no no/fi)
+ * ID 7: Idea pages (405 URLs) - 45 niche idea pages × 9 locales (no no/fi)
  * ID 8: Compare pages (3 URLs) - comparison pages (English only for now)
  * ID 9: Blog pages (1,232 URLs) - 112 blog posts × 11 locales
  *

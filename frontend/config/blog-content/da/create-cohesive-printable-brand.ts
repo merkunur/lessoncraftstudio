@@ -16,62 +16,11 @@ const content: BlogContent = {
   category: 'platform-strategy',
   introduction: 'Branding handler ikke om at have et flot logo. Det handler om at skabe en konsistent oplevelse, der får kunder til at genkende dine produkter, stole på kvaliteten og vende tilbage for mere. De mest succesfulde printable-sælgere har stærke brands der fungerer som kvalitetsgaranti.',
   sections: [
-    { heading: 'Hvad udgør et printable-brand?', content: 'Et printable-brand består af fire elementer:
-
-**1. Visuelt design:** Konsistente farver, fonte og layoutstil på tværs af alle produkter
-**2. Tone og stemme:** Din kommunikationsstil — professionel, venlig, pædagogisk
-**3. Produktkvalitet:** Konsistent høj standard i alle produkter
-**4. Kundeserviceniveau:** Hurtige svar, hjælpsomme instruktioner, fejlrettelser
-
-Hvert element forstærker de andre. Professionelt visuelt design + høj kvalitet + god service = et brand der opbygger loyalitet.
-
-Start med at definere din brandidentitet: hvem er din kunde, hvad er dit kvalitetsniveau, og hvad adskiller dig fra konkurrenterne?' },
-    { heading: 'Visuelt brand-kit', content: 'Opret et visuelt brand-kit med disse elementer:
-
-**Farvepalette:** 3-5 farver der bruges konsistent. Vælg 1 primærfarve, 1 sekundærfarve, 1 accentfarve og 2 neutrale farver.
-
-**Typografi:** 1 font til overskrifter, 1 font til brødtekst. Brug Google Fonts (gratis kommerciel licens).
-
-**Logo:** Simpelt, genkendeligt, skalerbart. Canva har gratis logoskabeloner.
-
-**Forsideskabeloner:** Ensartet forsidedesign til alle dine Etsy-listings og KDP-bøger.
-
-**Mockup-stil:** Brug den samme mockup-skabelon til alle produktfotos.
-
-Konsistens er vigtigere end perfektion. Et simpelt men konsistent brand slår et flot men inkonsistent brand hver gang.' },
-    { heading: 'Brand-konsistens på tværs af platforme', content: 'Dit brand skal være genkendeligt overalt:
-
-**Etsy-butik:** Bannerbillede, butiksikon og listing-fotos med konsistente farver og stil
-**KDP-bøger:** Forsider med samme designsprog som dine Etsy-produkter
-**Pinterest:** Pins med brandfarver og -fonts
-**Instagram:** Konsistent visuelt tema
-**E-mailliste:** Brandede e-mails med dit logo og farver
-
-Når en kunde ser dit Pinterest-pin og genkender stilen fra et Etsy-køb, opbygges brandloyalitet.
-
-Med LessonCraftStudios generatorer er produktkvaliteten automatisk konsistent. Alle ark har professionelt layout og tematiske billeder — du skal kun sikre konsistens i dine forsider og listing-design.' },
-    { heading: 'Opbygning af brandloyalitet', content: 'Loyale kunder er 5-10x mere værdifulde end nye kunder:
-
-**Thank-you note:** Inkludér en brandede takkeside i hver download med link til din butik
-**Kuponer:** Tilbyd 10-15% rabat på næste køb for tilbagevendende kunder
-**E-mailliste:** Saml e-mails og send nyheder om nye produkter
-**Konsistent kvalitet:** Hvert produkt skal matche eller overgå kundens forventning
-**Hurtig service:** Besvar beskeder inden for 24 timer
-
-De mest loyale kunder bliver dine bedste markedsførere. Positive anmeldelser, mundtlig anbefaling og social deling driver organisk vækst.' },
-    { heading: 'Brandstrategi for det danske marked', content: 'Det danske marked har unikke brandmuligheder:
-
-**Dansk identitet:** Brug dit danske ophav som brandværdi. "Dansk kvalitet" og "designet i Danmark" har positiv klang internationalt.
-
-**Nordisk designtradition:** Rent, minimalistisk design der afspejler skandinavisk æstetik
-
-**Lokalsprog-fordel:** Et brand der kommunikerer på naturligt dansk virker mere troværdigt for danske købere
-
-**Nichefokus:** Et brand der specialiserer sig i danske undervisningsmaterialer har ingen direkte konkurrenter
-
-Kombinér dansk designtradition med professionel produktkvalitet, og du har et brand der skiller sig ud både nationalt og internationalt.
-
-LessonCraftStudios gratis prøveversion med vandmærke lader dig teste produktkvaliteten og planlægge dit brand, før du investerer.' }
+    { heading: 'Hvad udgør et printable-brand?', content: 'Et printable-brand består af fire elementer:\n\n**1. Visuelt design:** Konsistente farver, fonte og layoutstil på tværs af alle produkter\n**2. Tone og stemme:** Din kommunikationsstil — professionel, venlig, pædagogisk\n**3. Produktkvalitet:** Konsistent høj standard i alle produkter\n**4. Kundeserviceniveau:** Hurtige svar, hjælpsomme instruktioner, fejlrettelser\n\nHvert element forstærker de andre. Professionelt visuelt design + høj kvalitet + god service = et brand der opbygger loyalitet.\n\nStart med at definere din brandidentitet: hvem er din kunde, hvad er dit kvalitetsniveau, og hvad adskiller dig fra konkurrenterne?' },
+    { heading: 'Visuelt brand-kit', content: 'Opret et visuelt brand-kit med disse elementer:\n\n**Farvepalette:** 3-5 farver der bruges konsistent. Vælg 1 primærfarve, 1 sekundærfarve, 1 accentfarve og 2 neutrale farver.\n\n**Typografi:** 1 font til overskrifter, 1 font til brødtekst. Brug Google Fonts (gratis kommerciel licens).\n\n**Logo:** Simpelt, genkendeligt, skalerbart. Canva har gratis logoskabeloner.\n\n**Forsideskabeloner:** Ensartet forsidedesign til alle dine Etsy-listings og KDP-bøger.\n\n**Mockup-stil:** Brug den samme mockup-skabelon til alle produktfotos.\n\nKonsistens er vigtigere end perfektion. Et simpelt men konsistent brand slår et flot men inkonsistent brand hver gang.' },
+    { heading: 'Brand-konsistens på tværs af platforme', content: 'Dit brand skal være genkendeligt overalt:\n\n**Etsy-butik:** Bannerbillede, butiksikon og listing-fotos med konsistente farver og stil\n**KDP-bøger:** Forsider med samme designsprog som dine Etsy-produkter\n**Pinterest:** Pins med brandfarver og -fonts\n**Instagram:** Konsistent visuelt tema\n**E-mailliste:** Brandede e-mails med dit logo og farver\n\nNår en kunde ser dit Pinterest-pin og genkender stilen fra et Etsy-køb, opbygges brandloyalitet.\n\nMed LessonCraftStudios generatorer er produktkvaliteten automatisk konsistent. Alle ark har professionelt layout og tematiske billeder — du skal kun sikre konsistens i dine forsider og listing-design.' },
+    { heading: 'Opbygning af brandloyalitet', content: 'Loyale kunder er 5-10x mere værdifulde end nye kunder:\n\n**Thank-you note:** Inkludér en brandede takkeside i hver download med link til din butik\n**Kuponer:** Tilbyd 10-15% rabat på næste køb for tilbagevendende kunder\n**E-mailliste:** Saml e-mails og send nyheder om nye produkter\n**Konsistent kvalitet:** Hvert produkt skal matche eller overgå kundens forventning\n**Hurtig service:** Besvar beskeder inden for 24 timer\n\nDe mest loyale kunder bliver dine bedste markedsførere. Positive anmeldelser, mundtlig anbefaling og social deling driver organisk vækst.' },
+    { heading: 'Brandstrategi for det danske marked', content: 'Det danske marked har unikke brandmuligheder:\n\n**Dansk identitet:** Brug dit danske ophav som brandværdi. "Dansk kvalitet" og "designet i Danmark" har positiv klang internationalt.\n\n**Nordisk designtradition:** Rent, minimalistisk design der afspejler skandinavisk æstetik\n\n**Lokalsprog-fordel:** Et brand der kommunikerer på naturligt dansk virker mere troværdigt for danske købere\n\n**Nichefokus:** Et brand der specialiserer sig i danske undervisningsmaterialer har ingen direkte konkurrenter\n\nKombinér dansk designtradition med professionel produktkvalitet, og du har et brand der skiller sig ud både nationalt og internationalt.\n\nLessonCraftStudios gratis prøveversion med vandmærke lader dig teste produktkvaliteten og planlægge dit brand, før du investerer.' }
   ],
   keyTakeaways: [
     'Et sammenhængende brand opbygger tillid og genkendelse hos kunderne',

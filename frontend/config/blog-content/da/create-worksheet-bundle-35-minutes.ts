@@ -16,63 +16,11 @@ const content: BlogContent = {
   category: 'how-to',
   introduction: 'Tid er penge i printable-forretningen. Jo hurtigere du kan producere kvalitetsprodukter, jo flere lister kan du oprette, og jo mere tjener du. Denne guide er designet til at maksimere din produktionseffektivitet.',
   sections: [
-    { heading: 'Minutter 1-5: Planlæg din pakke', content: 'De første 5 minutter er afgørende. Beslut:
-
-**Produkttype:** Hvad slags arbejdsark? (matematik, puslespil, motorik)
-**Tema:** Hvilket visuelt tema? (dyr, køretøjer, årstider)
-**Aldersgruppe:** Hvem er det til? (3-5, 5-7, 7-9)
-**Antal ark:** Hvor mange? (15-25 for standardpakke)
-**Sværhedsgrad:** Progression fra let til svært
-
-Skriv dette ned som en hurtig plan. F.eks.: "15 additions-ark med dyretema for 5-7 årige, progression fra encifret til tocifret."
-
-Denne plan styrer resten af processen og forhindrer beslutningstræthed undervejs.' },
-    { heading: 'Minutter 5-20: Generér alle ark', content: 'Åbn LessonCraftStudios generator og batch-generér alle ark:
-
-1. Vælg produkttypen (f.eks. addition)
-2. Vælg temaet (f.eks. bondegårdsdyr)
-3. Indstil sværhed for ark 1-5 (let)
-4. Generér og download
-5. Øg sværhed for ark 6-10 (middel)
-6. Generér og download
-7. Øg sværhed for ark 11-15 (svært)
-8. Generér og download
-
-15 ark × ~1 minut = 15 minutter. Generatoren opretter automatisk facitlister til alle ark.
-
-Pro tip: Hold generatoren åben i en browser-fane og download-mappen synlig. Minimér tab-switching.' },
-    { heading: 'Minutter 20-25: Sammensæt PDF', content: 'Saml dine ark i en salgsklar PDF:
-
-1. Åbn en PDF-sammenføjer (SmallPDF, Adobe Acrobat)
-2. Tilføj forside (brug en Canva-skabelon med titel og tema)
-3. Tilføj indholdsfortegnelse (valgfri men professionel)
-4. Tilføj alle arbejdsark i rækkefølge
-5. Tilføj facitlister bagerst
-6. Gem som enkelt PDF
-
-Resultat: En professionel PDF med forside, 15 arbejdsark og facitlister. Total tid: 5 minutter med forberedte skabeloner.' },
-    { heading: 'Minutter 25-30: Opret listing-billeder', content: 'Etsy-billeder afgør dit klik-through-rate:
-
-1. **Billede 1:** Mockup af pakken (brug Canva eller Placeit)
-2. **Billede 2:** Nærbillede af 2-3 ark spredt ud
-3. **Billede 3:** Indholdsfortegnelse eller "hvad du får" infografik
-4. **Billede 4:** Facitliste-eksempel
-5. **Billede 5:** Printinstruktioner
-
-Med en forberedt mockup-skabelon tager dette 5 minutter. Du skifter blot det viste ark ud i skabelonen.' },
-    { heading: 'Minutter 30-35: Publicér Etsy-listing', content: 'De sidste 5 minutter bruger du på Etsy-listing:
-
-**Titel:** "[Tema] [Produkttype] for [Aldersgruppe] — [Antal] Ark med Facit | Printbar PDF"
-**Tags:** 13 tags med klassetrin, emne, format og brugsscenario
-**Pris:** 35-55 kr. for en 15-arks pakke
-**Beskrivelse:** Brug din standardskabelon (hvad du får, printinstruktioner, licensinfo)
-**Upload:** Tilføj PDF og billeder
-
-Tryk "Publicér" — din pakke er live.
-
-Total tid: 35 minutter fra idé til live listing. Gentag processen 3-4 gange om dagen, og du opretter 15-20 nye lister om ugen.
-
-Prøv LessonCraftStudios gratis prøveversion med vandmærke for at teste hele workflowet.' }
+    { heading: 'Minutter 1-5: Planlæg din pakke', content: 'De første 5 minutter er afgørende. Beslut:\n\n**Produkttype:** Hvad slags arbejdsark? (matematik, puslespil, motorik)\n**Tema:** Hvilket visuelt tema? (dyr, køretøjer, årstider)\n**Aldersgruppe:** Hvem er det til? (3-5, 5-7, 7-9)\n**Antal ark:** Hvor mange? (15-25 for standardpakke)\n**Sværhedsgrad:** Progression fra let til svært\n\nSkriv dette ned som en hurtig plan. F.eks.: "15 additions-ark med dyretema for 5-7 årige, progression fra encifret til tocifret."\n\nDenne plan styrer resten af processen og forhindrer beslutningstræthed undervejs.' },
+    { heading: 'Minutter 5-20: Generér alle ark', content: 'Åbn LessonCraftStudios generator og batch-generér alle ark:\n\n1. Vælg produkttypen (f.eks. addition)\n2. Vælg temaet (f.eks. bondegårdsdyr)\n3. Indstil sværhed for ark 1-5 (let)\n4. Generér og download\n5. Øg sværhed for ark 6-10 (middel)\n6. Generér og download\n7. Øg sværhed for ark 11-15 (svært)\n8. Generér og download\n\n15 ark × ~1 minut = 15 minutter. Generatoren opretter automatisk facitlister til alle ark.\n\nPro tip: Hold generatoren åben i en browser-fane og download-mappen synlig. Minimér tab-switching.' },
+    { heading: 'Minutter 20-25: Sammensæt PDF', content: 'Saml dine ark i en salgsklar PDF:\n\n1. Åbn en PDF-sammenføjer (SmallPDF, Adobe Acrobat)\n2. Tilføj forside (brug en Canva-skabelon med titel og tema)\n3. Tilføj indholdsfortegnelse (valgfri men professionel)\n4. Tilføj alle arbejdsark i rækkefølge\n5. Tilføj facitlister bagerst\n6. Gem som enkelt PDF\n\nResultat: En professionel PDF med forside, 15 arbejdsark og facitlister. Total tid: 5 minutter med forberedte skabeloner.' },
+    { heading: 'Minutter 25-30: Opret listing-billeder', content: 'Etsy-billeder afgør dit klik-through-rate:\n\n1. **Billede 1:** Mockup af pakken (brug Canva eller Placeit)\n2. **Billede 2:** Nærbillede af 2-3 ark spredt ud\n3. **Billede 3:** Indholdsfortegnelse eller "hvad du får" infografik\n4. **Billede 4:** Facitliste-eksempel\n5. **Billede 5:** Printinstruktioner\n\nMed en forberedt mockup-skabelon tager dette 5 minutter. Du skifter blot det viste ark ud i skabelonen.' },
+    { heading: 'Minutter 30-35: Publicér Etsy-listing', content: 'De sidste 5 minutter bruger du på Etsy-listing:\n\n**Titel:** "[Tema] [Produkttype] for [Aldersgruppe] — [Antal] Ark med Facit | Printbar PDF"\n**Tags:** 13 tags med klassetrin, emne, format og brugsscenario\n**Pris:** 35-55 kr. for en 15-arks pakke\n**Beskrivelse:** Brug din standardskabelon (hvad du får, printinstruktioner, licensinfo)\n**Upload:** Tilføj PDF og billeder\n\nTryk "Publicér" — din pakke er live.\n\nTotal tid: 35 minutter fra idé til live listing. Gentag processen 3-4 gange om dagen, og du opretter 15-20 nye lister om ugen.\n\nPrøv LessonCraftStudios gratis prøveversion med vandmærke for at teste hele workflowet.' }
   ],
   keyTakeaways: [
     'En komplet arbejdsark-pakke kan oprettes på 35 minutter med den rigtige workflow',

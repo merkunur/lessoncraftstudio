@@ -16,64 +16,11 @@ const content: BlogContent = {
   category: 'how-to',
   introduction: 'Designkvaliteten af dine arbejdsark afgør om kunder køber eller scroller videre. For printable-sælgere i Danmark giver dette unikke muligheder i 2026.',
   sections: [
-    { heading: 'Design-grundprincipper', content: 'Design-grundprincipper præsenterer en unik mulighed for printable-sælgere. Det danske marked har lavere konkurrence end det engelske, og danske forældre har høje kvalitetsforventninger.
-
-Med LessonCraftStudios generatorer kan du oprette professionelle produkter på minutter i stedet for timer. Den gratis prøveversion med vandmærke lader dig teste alle funktioner.
-
-Markedet dækker flere købersegmenter:
-- Forældre til børnehaveklasse og folkeskolebørn
-- Folkeskolelærere der søger supplerende materiale
-- DSA-undervisere (Dansk som Andetsprog)
-- Hjemmeundervisningsfamilier
-
-Hvert segment kræver lidt forskellige produkter, men det samme generatorværktøj kan producere til alle.' },
-    { heading: 'Layout og læsbarhed', content: 'De mest profitable produkttyper i denne niche:
-
-**Enkeltark (8-18 kr.):** Lavt indgangspunkt, tiltrækker førstegangskøbere
-**Temapakker (10-15 ark, 35-55 kr.):** Dit kerneprodukt med god balance mellem pris og værdi
-**Megapakker (50+ ark, 90-160 kr.):** Højeste fortjeneste pr. salg
-**KDP-aktivitetsbøger (60-100 kr.):** Fysisk bogformat til Amazon
-**Curriculum-pakker (100+ ark, 180-350 kr.):** Premium-produkter til dedikerede købere
-
-Den mest profitable strategi er at have produkter i alle prisklasser. Enkeltark tiltrækker trafik, temapakker genererer volumen, og megapakker giver højeste margin.
-
-Inkludér ALTID facitlister — produkter uden facit får lavere anmeldelser og højere refunderingsrate.' },
-    { heading: 'Farver og temaer', content: 'Effektive søgeord for denne niche:
-
-- Inkludér klassetrin: "børnehaveklasse", "1. klasse", "folkeskole"
-- Tilføj brugsscenario: "øvelsesark", "lektiehjælp", "hjemmeundervisning"
-- Nævn formatet: "printbar PDF", "øjeblikkelig download", "med facitliste"
-- Sæsonbestemte vinkler: "skolestart", "sommerferie", "juleferie"
-
-Det danske marked har specifikke søgemønstre. Brug "arbejdsark" (ikke "worksheet"), "børnehaveklasse" (ikke "kindergarten"), og "folkeskole" (ikke "elementary school").
-
-Optimér dine 13 Etsy-tags med en blanding af brede og specifikke søgeord. Inkludér altid "printbar", "PDF" og "med facit" i dine tags.
-
-Prøv den gratis prøveversion med vandmærke for at se produktkvaliteten, før du investerer i en kommerciel licens.' },
-    { heading: 'Konsistens i produktlinjen', content: 'Det danske marked har specifikke fordele:
-
-- Lavere konkurrence end det engelsksprogede marked
-- Dansk folkeskolesystem (børnehaveklasse til 9. klasse) giver specifikke produktmuligheder
-- DSA-markedet (Dansk som Andetsprog) er voksende
-- Fastelavn, konfirmation og julebanko er unikke danske traditioner
-- A4-papirformat er standard (fungerer i hele Europa)
-- Saxo.com giver ekstra salgskanal for KDP-bøger
-
-Dansksprogede produkter har en naturlig niche-fordel. Engelske produkter dominerer Etsy, men danske forældre foretrækker materialer på dansk — især for sprogbaserede øvelser som ordsøgninger, krydsord og staveøvelser.
-
-Kombinér dansk fokus med skandinavisk udvidelse: svenske og norske versioner kræver minimal tilpasning og åbner to ekstra markeder.' },
-    { heading: 'Generatorer vs. manuelt design', content: 'Skalér din forretning i denne niche:
-
-1. **Temaudvidelse:** Hvert nyt tema (dyr, køretøjer, mad, natur, rummet) er en ny listing
-2. **Sværhedsgrader:** Let, middel, svært — tre produkter fra samme base
-3. **Aldersgrupper:** 3-5 år, 5-7 år, 7-9 år — tre separate markeder
-4. **Sprogversioner:** Dansk, engelsk, tysk, svensk, norsk — fem markeder
-5. **Pakker og bundles:** Kombinér enkeltprodukter til højværdi-pakker
-6. **KDP-bøger:** Saml dine bedste ark i aktivitetsbøger til Amazon
-
-En moden produktlinje med 30-50 lister kan generere 2.000-7.000 kr./md. Konsistens er nøglen — opret 3-5 nye lister om ugen og vedligehold et stabilt udgivelsestempo.
-
-Start med LessonCraftStudios gratis prøveversion med vandmærke og test alle funktioner, før du investerer i en kommerciel licens.' }
+    { heading: 'Design-grundprincipper', content: 'Design-grundprincipper præsenterer en unik mulighed for printable-sælgere. Det danske marked har lavere konkurrence end det engelske, og danske forældre har høje kvalitetsforventninger.\n\nMed LessonCraftStudios generatorer kan du oprette professionelle produkter på minutter i stedet for timer. Den gratis prøveversion med vandmærke lader dig teste alle funktioner.\n\nMarkedet dækker flere købersegmenter:\n- Forældre til børnehaveklasse og folkeskolebørn\n- Folkeskolelærere der søger supplerende materiale\n- DSA-undervisere (Dansk som Andetsprog)\n- Hjemmeundervisningsfamilier\n\nHvert segment kræver lidt forskellige produkter, men det samme generatorværktøj kan producere til alle.' },
+    { heading: 'Layout og læsbarhed', content: 'De mest profitable produkttyper i denne niche:\n\n**Enkeltark (8-18 kr.):** Lavt indgangspunkt, tiltrækker førstegangskøbere\n**Temapakker (10-15 ark, 35-55 kr.):** Dit kerneprodukt med god balance mellem pris og værdi\n**Megapakker (50+ ark, 90-160 kr.):** Højeste fortjeneste pr. salg\n**KDP-aktivitetsbøger (60-100 kr.):** Fysisk bogformat til Amazon\n**Curriculum-pakker (100+ ark, 180-350 kr.):** Premium-produkter til dedikerede købere\n\nDen mest profitable strategi er at have produkter i alle prisklasser. Enkeltark tiltrækker trafik, temapakker genererer volumen, og megapakker giver højeste margin.\n\nInkludér ALTID facitlister — produkter uden facit får lavere anmeldelser og højere refunderingsrate.' },
+    { heading: 'Farver og temaer', content: 'Effektive søgeord for denne niche:\n\n- Inkludér klassetrin: "børnehaveklasse", "1. klasse", "folkeskole"\n- Tilføj brugsscenario: "øvelsesark", "lektiehjælp", "hjemmeundervisning"\n- Nævn formatet: "printbar PDF", "øjeblikkelig download", "med facitliste"\n- Sæsonbestemte vinkler: "skolestart", "sommerferie", "juleferie"\n\nDet danske marked har specifikke søgemønstre. Brug "arbejdsark" (ikke "worksheet"), "børnehaveklasse" (ikke "kindergarten"), og "folkeskole" (ikke "elementary school").\n\nOptimér dine 13 Etsy-tags med en blanding af brede og specifikke søgeord. Inkludér altid "printbar", "PDF" og "med facit" i dine tags.\n\nPrøv den gratis prøveversion med vandmærke for at se produktkvaliteten, før du investerer i en kommerciel licens.' },
+    { heading: 'Konsistens i produktlinjen', content: 'Det danske marked har specifikke fordele:\n\n- Lavere konkurrence end det engelsksprogede marked\n- Dansk folkeskolesystem (børnehaveklasse til 9. klasse) giver specifikke produktmuligheder\n- DSA-markedet (Dansk som Andetsprog) er voksende\n- Fastelavn, konfirmation og julebanko er unikke danske traditioner\n- A4-papirformat er standard (fungerer i hele Europa)\n- Saxo.com giver ekstra salgskanal for KDP-bøger\n\nDansksprogede produkter har en naturlig niche-fordel. Engelske produkter dominerer Etsy, men danske forældre foretrækker materialer på dansk — især for sprogbaserede øvelser som ordsøgninger, krydsord og staveøvelser.\n\nKombinér dansk fokus med skandinavisk udvidelse: svenske og norske versioner kræver minimal tilpasning og åbner to ekstra markeder.' },
+    { heading: 'Generatorer vs. manuelt design', content: 'Skalér din forretning i denne niche:\n\n1. **Temaudvidelse:** Hvert nyt tema (dyr, køretøjer, mad, natur, rummet) er en ny listing\n2. **Sværhedsgrader:** Let, middel, svært — tre produkter fra samme base\n3. **Aldersgrupper:** 3-5 år, 5-7 år, 7-9 år — tre separate markeder\n4. **Sprogversioner:** Dansk, engelsk, tysk, svensk, norsk — fem markeder\n5. **Pakker og bundles:** Kombinér enkeltprodukter til højværdi-pakker\n6. **KDP-bøger:** Saml dine bedste ark i aktivitetsbøger til Amazon\n\nEn moden produktlinje med 30-50 lister kan generere 2.000-7.000 kr./md. Konsistens er nøglen — opret 3-5 nye lister om ugen og vedligehold et stabilt udgivelsestempo.\n\nStart med LessonCraftStudios gratis prøveversion med vandmærke og test alle funktioner, før du investerer i en kommerciel licens.' }
   ],
   keyTakeaways: [
     'Arbejdsark Design-Tips er en profitabel niche for danske sælgere',

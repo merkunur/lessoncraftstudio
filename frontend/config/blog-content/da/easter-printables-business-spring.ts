@@ -16,69 +16,11 @@ const content: BlogContent = {
   category: 'niche-seasonal',
   introduction: 'Påskesæsonen i Danmark strækker sig fra medio marts til påskedag (variabel dato, typisk marts-april). Forberedelserne starter dog allerede i februar, og de mest forberedte sælgere har deres påskeprodukter klar 6 uger før påske.',
   sections: [
-    { heading: 'Top påskeprodukter for det danske marked', content: 'De bedst sælgende påskeprintables i Danmark:
-
-1. **Påskefarvelægning:** Påskeharer, påskeæg, kyllinger — klassisk og eviggrønt
-2. **Påskematematik:** Addition og subtraktion med påsketema
-3. **Påskeordsøgning:** Påskeord på dansk
-4. **Påskebanko:** Billedbanko med påskemotiver — dansk tradition
-5. **Påskekrydsord:** Påskerelaterede ord og begreber
-6. **Påske klip-og-lim:** Motorikøvelser med påsketema
-7. **Påskepuslespil-pakke:** Kryptogrammer, kode-addition med påskebeskeder
-8. **Gækkebreve skabeloner:** Unikt dansk — gækkebrevstradition
-
-Gækkebreve er en helt unik dansk påsketradition uden international konkurrence. Printbare gækkebrevsskabeloner er et nichéprodukt med stabil efterspørgsel.' },
-    { heading: 'Tidslinje for påskesalg', content: 'Påskesalget følger denne tidslinje:
-
-**6 uger før påske:** List alle produkter. Opbyg søgeautoritet.
-**4 uger før:** Salget begynder at stige. Gækkebreve starter her.
-**2 uger før:** Peak forberedelse. Forældre og lærere køber aktiviteter.
-**Påskeugen:** Last-minute køb. Hurtige downloads dominerer.
-**Ugen efter:** Salget stopper brat. Skift fokus til forår/sommer.
-
-Vigtig: Påskedag varierer hvert år (marts eller april). Planlæg din tidslinje baseret på den specifikke dato.
-
-Påskeprodukter akkumulerer søgeautoritet over årene — behold dine listings aktive, og de sælger bedre næste år.' },
-    { heading: 'Prissætning i påskesæsonen', content: 'Påskesæsonen tillader moderate premium-priser:
-
-**Enkelt påskeark:** 10-18 kr.
-**Påske-temapakke (10-15 ark):** 40-65 kr.
-**Påske-megapakke (30+ ark):** 90-140 kr.
-**Påske-aktivitetsbog KDP:** 55-85 kr.
-**Gækkebrevsskabeloner (10-15 stk.):** 30-50 kr.
-
-Påskebanko-sæt er særligt profitable i Danmark — et sæt med 20 unikke bankoplader i påsketema kan sælges for 40-65 kr.
-
-Combinér påskeprodukter med generelle forårsprodukter for at udvide sæsonen: "Påske og Forår Megapakke" sælger fra marts til maj.' },
-    { heading: 'Unikke danske påsketraditioner', content: 'Udnyt disse danske traditioner:
-
-**Gækkebreve:**
-Danske børn sender anonyme gækkebreve med snefnugtilklip og rim. Printbare gækkebrevsskabeloner med forudtrykte rammer og plads til rim er højt efterspurgte.
-
-**Påskefrokost:**
-Printbare påskefrokost-spil, banko og quiz er populære for familiesammenkomster.
-
-**Påskeæggejagt:**
-Printbare spor og opgaver til påskeæggejagt i haven. Et nichéprodukt med minimal konkurrence.
-
-**Påskeris:**
-Printbare aktiviteter relateret til påskepyntning af risgene er kulturelt specifikke for Danmark.' },
-    { heading: 'Fra påske til helårs sæsonforretning', content: 'Påskeprodukter er del af en bredere sæsonstrategi:
-
-**Sæsonkalender for printable-sælgere i Danmark:**
-- Januar: Nytår + vinteraktiviteter
-- Februar: Fastelavn (unikt dansk!)
-- Marts-april: Påske
-- Maj: Konfirmation + mors dag
-- Juni: Sommerafslutning + fars dag
-- Juli-august: Sommeraktiviteter + skolestart
-- September: Efterårsaktiviteter
-- Oktober: Halloween
-- November-december: Jul
-
-Hvert sæsonprodukt kan oprettes med LessonCraftStudios generatorer ved at skifte tema. De samme arbejdsarkformater (matematik, puslespil, farvelægning) fungerer med alle sæsontemaer.
-
-Prøv den gratis prøveversion med vandmærke for at oprette påskeprodukter nu.' }
+    { heading: 'Top påskeprodukter for det danske marked', content: 'De bedst sælgende påskeprintables i Danmark:\n\n1. **Påskefarvelægning:** Påskeharer, påskeæg, kyllinger — klassisk og eviggrønt\n2. **Påskematematik:** Addition og subtraktion med påsketema\n3. **Påskeordsøgning:** Påskeord på dansk\n4. **Påskebanko:** Billedbanko med påskemotiver — dansk tradition\n5. **Påskekrydsord:** Påskerelaterede ord og begreber\n6. **Påske klip-og-lim:** Motorikøvelser med påsketema\n7. **Påskepuslespil-pakke:** Kryptogrammer, kode-addition med påskebeskeder\n8. **Gækkebreve skabeloner:** Unikt dansk — gækkebrevstradition\n\nGækkebreve er en helt unik dansk påsketradition uden international konkurrence. Printbare gækkebrevsskabeloner er et nichéprodukt med stabil efterspørgsel.' },
+    { heading: 'Tidslinje for påskesalg', content: 'Påskesalget følger denne tidslinje:\n\n**6 uger før påske:** List alle produkter. Opbyg søgeautoritet.\n**4 uger før:** Salget begynder at stige. Gækkebreve starter her.\n**2 uger før:** Peak forberedelse. Forældre og lærere køber aktiviteter.\n**Påskeugen:** Last-minute køb. Hurtige downloads dominerer.\n**Ugen efter:** Salget stopper brat. Skift fokus til forår/sommer.\n\nVigtig: Påskedag varierer hvert år (marts eller april). Planlæg din tidslinje baseret på den specifikke dato.\n\nPåskeprodukter akkumulerer søgeautoritet over årene — behold dine listings aktive, og de sælger bedre næste år.' },
+    { heading: 'Prissætning i påskesæsonen', content: 'Påskesæsonen tillader moderate premium-priser:\n\n**Enkelt påskeark:** 10-18 kr.\n**Påske-temapakke (10-15 ark):** 40-65 kr.\n**Påske-megapakke (30+ ark):** 90-140 kr.\n**Påske-aktivitetsbog KDP:** 55-85 kr.\n**Gækkebrevsskabeloner (10-15 stk.):** 30-50 kr.\n\nPåskebanko-sæt er særligt profitable i Danmark — et sæt med 20 unikke bankoplader i påsketema kan sælges for 40-65 kr.\n\nCombinér påskeprodukter med generelle forårsprodukter for at udvide sæsonen: "Påske og Forår Megapakke" sælger fra marts til maj.' },
+    { heading: 'Unikke danske påsketraditioner', content: 'Udnyt disse danske traditioner:\n\n**Gækkebreve:**\nDanske børn sender anonyme gækkebreve med snefnugtilklip og rim. Printbare gækkebrevsskabeloner med forudtrykte rammer og plads til rim er højt efterspurgte.\n\n**Påskefrokost:**\nPrintbare påskefrokost-spil, banko og quiz er populære for familiesammenkomster.\n\n**Påskeæggejagt:**\nPrintbare spor og opgaver til påskeæggejagt i haven. Et nichéprodukt med minimal konkurrence.\n\n**Påskeris:**\nPrintbare aktiviteter relateret til påskepyntning af risgene er kulturelt specifikke for Danmark.' },
+    { heading: 'Fra påske til helårs sæsonforretning', content: 'Påskeprodukter er del af en bredere sæsonstrategi:\n\n**Sæsonkalender for printable-sælgere i Danmark:**\n- Januar: Nytår + vinteraktiviteter\n- Februar: Fastelavn (unikt dansk!)\n- Marts-april: Påske\n- Maj: Konfirmation + mors dag\n- Juni: Sommerafslutning + fars dag\n- Juli-august: Sommeraktiviteter + skolestart\n- September: Efterårsaktiviteter\n- Oktober: Halloween\n- November-december: Jul\n\nHvert sæsonprodukt kan oprettes med LessonCraftStudios generatorer ved at skifte tema. De samme arbejdsarkformater (matematik, puslespil, farvelægning) fungerer med alle sæsontemaer.\n\nPrøv den gratis prøveversion med vandmærke for at oprette påskeprodukter nu.' }
   ],
   keyTakeaways: [
     'Påsken er forårets største salgsperiode for printable-sælgere i Danmark',

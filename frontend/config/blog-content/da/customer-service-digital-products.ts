@@ -16,79 +16,11 @@ const content: BlogContent = {
   category: 'platform-strategy',
   introduction: 'I en verden af digitale produkter, hvor det er nemt at føle sig anonym, er personlig og effektiv kundeservice en massiv differentieringsfaktor. De fleste sælgere svarer langsomt eller slet ikke. Vær undtagelsen, og du skiller dig markant ud.',
   sections: [
-    { heading: 'De tre mest almindelige kundehenvendelser', content: 'Forstå og forbered dig på de typiske henvendelser:
-
-**1. Downloadproblemer (40% af henvendelser):**
-"Jeg kan ikke downloade filen" — Etsy sender linket automatisk, men kunder overser det.
-Løsning: Inkludér en automatisk besked med downloadlink og instruktioner.
-
-**2. Printproblemer (30%):**
-"Udskriften er forvrænget/afskåret" — typisk pga. A4/Letter forskel.
-Løsning: Inkludér en printinstruktionsside i din PDF og nævn "Tilpas side" i printerindstillinger.
-
-**3. Produktspørgsmål (20%):**
-"Er facitliste inkluderet?" "Kan jeg bruge det til klassebrug?"
-Løsning: Besvares i din listing-beskrivelse. Jo mere detaljeret beskrivelse, jo færre spørgsmål.
-
-**4. Refunderingsanmodninger (10%):**
-Håndteres professionelt med hurtig refundering og spørgsmål om årsagen.' },
-    { heading: 'Automatiserede kundeservice-systemer', content: 'Automatisér de mest almindelige svar:
-
-**Automatisk velkomstbesked (Etsy Auto-Reply):**
-"Tak for dit køb! Din download er klar via linket i din bekræftelsesmail. Brug printerindstillingen \'Tilpas side\' for bedste resultat. Har du spørgsmål? Svar på denne besked."
-
-**FAQ i listing-beskrivelse:**
-- Hvordan downloader jeg?
-- Hvilket papirformat bruger jeg?
-- Er facitliste inkluderet?
-- Kan jeg printe flere kopier?
-
-**Thank-you PDF i download:**
-Inkludér en ekstra side med printinstruktioner, kontaktinfo og link til dine andre produkter.
-
-Disse automatiseringer eliminerer 60-70% af henvendelser uden at du skal gøre noget manuelt.' },
-    { heading: 'Svartider og professionelt sprog', content: 'Svartid er afgørende for kundetilfredshed:
-
-**Ideal:** Under 2 timer (Etsy belønner hurtige svartider med "Star Seller" badge)
-**Acceptabelt:** Under 24 timer
-**For langsomt:** Over 24 timer (risikerer negativ anmeldelse)
-
-Brug professionelt men venligt sprog:
-- "Tak for din henvendelse! Jeg hjælper gerne."
-- "Beklager ulejligheden. Her er løsningen:"
-- "Jeg har sendt en opdateret version. God fornøjelse!"
-
-Undgå:
-- Defensivt sprog ("det er din printers skyld")
-- Ignorering af beskeder
-- Henvisninger til FAQ uden personligt svar' },
-    { heading: 'Håndtering af negative anmeldelser', content: 'Negative anmeldelser sker. Håndtér dem professionelt:
-
-**1. Respondér altid offentligt** — viser andre kunder at du tager ansvar
-**2. Anerkend problemet** — "Jeg beklager, at du oplevede dette"
-**3. Tilbyd løsning** — "Jeg sender gerne en opdateret version"
-**4. Følg op privat** — send en besked med detaljeret hjælp
-
-En negativ anmeldelse med et professionelt svar kan faktisk HJÆLPE dit salg. Potentielle købere ser, at du tager ansvar og løser problemer.
-
-Forebyggelse er bedre end helbredelse: inkludér detaljerede instruktioner, facitlister og printguides i alle produkter. LessonCraftStudios generatorer inkluderer automatisk facitlister, som eliminerer den mest almindelige klage.' },
-    { heading: 'Kundeservice som markedsføringskanal', content: 'God kundeservice er markedsføring i forklædning:
-
-**Overrask med ekstra værdi:**
-- Send en gratis bonusfil til kunder der kontakter dig
-- Tilbyd 10% rabatkode til næste køb
-- Opret personaliserede versioner for kunder der beder om det
-
-**Opmuntre til anmeldelser:**
-- Afslut hver kundeservice-interaktion med: "Hvis du er tilfreds, ville en anmeldelse hjælpe enormt!"
-- Følg op 7 dage efter køb med en venlig påmindelse
-
-**Byg relationer:**
-- Husk faste kunders navne
-- Informér loyale kunder om nye produkter før alle andre
-- Opret en VIP-liste for dine bedste kunder
-
-Én tilfreds kunde der skriver en detaljeret 5-stjernet anmeldelse er mere værd end 100 kr. i reklame.' }
+    { heading: 'De tre mest almindelige kundehenvendelser', content: 'Forstå og forbered dig på de typiske henvendelser:\n\n**1. Downloadproblemer (40% af henvendelser):**\n"Jeg kan ikke downloade filen" — Etsy sender linket automatisk, men kunder overser det.\nLøsning: Inkludér en automatisk besked med downloadlink og instruktioner.\n\n**2. Printproblemer (30%):**\n"Udskriften er forvrænget/afskåret" — typisk pga. A4/Letter forskel.\nLøsning: Inkludér en printinstruktionsside i din PDF og nævn "Tilpas side" i printerindstillinger.\n\n**3. Produktspørgsmål (20%):**\n"Er facitliste inkluderet?" "Kan jeg bruge det til klassebrug?"\nLøsning: Besvares i din listing-beskrivelse. Jo mere detaljeret beskrivelse, jo færre spørgsmål.\n\n**4. Refunderingsanmodninger (10%):**\nHåndteres professionelt med hurtig refundering og spørgsmål om årsagen.' },
+    { heading: 'Automatiserede kundeservice-systemer', content: 'Automatisér de mest almindelige svar:\n\n**Automatisk velkomstbesked (Etsy Auto-Reply):**\n"Tak for dit køb! Din download er klar via linket i din bekræftelsesmail. Brug printerindstillingen \'Tilpas side\' for bedste resultat. Har du spørgsmål? Svar på denne besked."\n\n**FAQ i listing-beskrivelse:**\n- Hvordan downloader jeg?\n- Hvilket papirformat bruger jeg?\n- Er facitliste inkluderet?\n- Kan jeg printe flere kopier?\n\n**Thank-you PDF i download:**\nInkludér en ekstra side med printinstruktioner, kontaktinfo og link til dine andre produkter.\n\nDisse automatiseringer eliminerer 60-70% af henvendelser uden at du skal gøre noget manuelt.' },
+    { heading: 'Svartider og professionelt sprog', content: 'Svartid er afgørende for kundetilfredshed:\n\n**Ideal:** Under 2 timer (Etsy belønner hurtige svartider med "Star Seller" badge)\n**Acceptabelt:** Under 24 timer\n**For langsomt:** Over 24 timer (risikerer negativ anmeldelse)\n\nBrug professionelt men venligt sprog:\n- "Tak for din henvendelse! Jeg hjælper gerne."\n- "Beklager ulejligheden. Her er løsningen:"\n- "Jeg har sendt en opdateret version. God fornøjelse!"\n\nUndgå:\n- Defensivt sprog ("det er din printers skyld")\n- Ignorering af beskeder\n- Henvisninger til FAQ uden personligt svar' },
+    { heading: 'Håndtering af negative anmeldelser', content: 'Negative anmeldelser sker. Håndtér dem professionelt:\n\n**1. Respondér altid offentligt** — viser andre kunder at du tager ansvar\n**2. Anerkend problemet** — "Jeg beklager, at du oplevede dette"\n**3. Tilbyd løsning** — "Jeg sender gerne en opdateret version"\n**4. Følg op privat** — send en besked med detaljeret hjælp\n\nEn negativ anmeldelse med et professionelt svar kan faktisk HJÆLPE dit salg. Potentielle købere ser, at du tager ansvar og løser problemer.\n\nForebyggelse er bedre end helbredelse: inkludér detaljerede instruktioner, facitlister og printguides i alle produkter. LessonCraftStudios generatorer inkluderer automatisk facitlister, som eliminerer den mest almindelige klage.' },
+    { heading: 'Kundeservice som markedsføringskanal', content: 'God kundeservice er markedsføring i forklædning:\n\n**Overrask med ekstra værdi:**\n- Send en gratis bonusfil til kunder der kontakter dig\n- Tilbyd 10% rabatkode til næste køb\n- Opret personaliserede versioner for kunder der beder om det\n\n**Opmuntre til anmeldelser:**\n- Afslut hver kundeservice-interaktion med: "Hvis du er tilfreds, ville en anmeldelse hjælpe enormt!"\n- Følg op 7 dage efter køb med en venlig påmindelse\n\n**Byg relationer:**\n- Husk faste kunders navne\n- Informér loyale kunder om nye produkter før alle andre\n- Opret en VIP-liste for dine bedste kunder\n\nÉn tilfreds kunde der skriver en detaljeret 5-stjernet anmeldelse er mere værd end 100 kr. i reklame.' }
   ],
   keyTakeaways: [
     'Automatisér 60-70% af kundehenvendelser med velkomstbeskeder og FAQ',

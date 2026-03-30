@@ -16,78 +16,11 @@ const content: BlogContent = {
   category: 'product-guide',
   introduction: 'Tegn-og-farvelæg ark har en unik fordel: de fungerer som både motoriktræning og kreativt udløb. Barnet følger tegneinstruktioner (trin-for-trin tegning) og farvelægger derefter resultatet. Forældre opfatter produktet som mere værdifuldt end ren farvelægning, fordi det inkluderer en læringskomponent.',
   sections: [
-    { heading: 'Hvad er tegn-og-farvelæg ark?', content: 'Tegn-og-farvelæg ark præsenterer en trin-for-trin tegneinstruktion (f.eks. "tegn en kat i 6 trin") med plads til at tegne og farvelægge resultatet.
-
-Formatet kombinerer:
-- **Instrueret tegning:** Barnet følger trinene og lærer at tegne
-- **Finmotorik:** Tegneøvelsen træner håndstyring
-- **Kreativitet:** Fri farvelægning efter tegningen
-- **Selvtillid:** Barnet producerer noget det er stolt af
-
-Hver tegning er baseret på et tema — dyr, køretøjer, mad, natur. Med LessonCraftStudios tegn-og-farvelæg generator kan du oprette professionelle trin-for-trin ark med 100+ temaer.
-
-Formatet er populært for børn 4-8 år og har relativt lav konkurrence på Etsy.' },
-    { heading: 'Prissætning og pakkestrategier', content: 'Tegn-og-farvelæg produkter sælger i disse formater:
-
-**Enkelttema (10-15 tegninger):** 30-45 kr.
-F.eks. "Tegn Bondegårdsdyr — 12 Trin-for-Trin Tegninger"
-
-**Temamix (20-30 tegninger):** 50-75 kr.
-Blandede temaer: dyr + køretøjer + mad
-
-**Komplet tegneprogram (50+ tegninger):** 100-150 kr.
-Progression fra let til svært med alle temaer
-
-**KDP-tegnebog:** 60-90 kr.
-Formateret som fysisk tegne-og-farvelægningsbog
-
-**Kombipakke med farvelægning:** 70-100 kr.
-Tegn-og-farvelæg + ren farvelægning i én pakke
-
-Pro tip: Inkludér et "færdigt eksempel" i farver for hvert trin-for-trin ark. Det viser barnet, hvad målet er, og gør produktet mere attraktivt i Etsy-fotos.' },
-    { heading: 'Målgrupper og søgeord', content: 'Tegn-og-farvelæg ark har tre købersegmenter:
-
-**Forældre til småbørn (4-6 år):**
-- "tegneøvelse børn"
-- "lær at tegne dyr børn"
-- "finmotorik tegneark"
-
-**Folkeskolelærere (1.-3. klasse):**
-- "kreativ aktivitet folkeskole"
-- "tegneøvelse klasse printbar"
-- "tegnelektie arbejdsark"
-
-**Fritidspædagoger og SFO:**
-- "SFO aktivitet printbar"
-- "fritidshjem tegneøvelse"
-
-Det danske marked har minimal konkurrence for tegneinstruktions-produkter. Engelske "how to draw" ark dominerer, men dansksprogede versioner med danske instruktioner har et dedikeret publikum.' },
-    { heading: 'Oprettelse og differentiering', content: 'LessonCraftStudios tegn-og-farvelæg generator opretter trin-for-trin ark automatisk:
-
-- Vælg tema (100+ muligheder)
-- Vælg sværhedsgrad (simpel, middel, avanceret)
-- Generatoren opretter trin-for-trin instruktion
-- Plads til tegning og farvelægning inkluderet
-- Facit/eksempel inkluderet
-
-Differentiér dig med:
-- Danske instruktioner (i stedet for engelske)
-- Temarelaterede fakta (f.eks. "Vidste du at en giraf..." under tegneinstruktionen)
-- Progressiv sværhed (start med 4-trins tegninger, avancér til 8-trins)
-
-Prøv den gratis prøveversion med vandmærke for at teste kvaliteten.' },
-    { heading: 'Skalering og bundling', content: 'Tegn-og-farvelæg er ideelt til bundling:
-
-**Med farvelægning:** Tegn-og-farvelæg + ren farvelægning = "Kreativ Pakke"
-**Med motorik:** Tegn + sporing + klip-og-lim = "Finmotorik Pakke"
-**Med puslespil:** Tegn + ordsøgning + matching = "Dyre-Aktivitetspakke"
-**KDP-serie:** "Lær at Tegne — Volume 1, 2, 3"
-
-Cross-selling mellem tegne- og farvelægningsprodukter er naturligt. Kunder der køber tegneark køber ofte også farvelægning og omvendt.
-
-En tegn-og-farvelæg produktlinje med 15-25 lister kan generere 1.500-3.500 kr./md som del af en bredere kreativ produktlinje.
-
-Med LessonCraftStudios gratis prøveversion med vandmærke kan du teste alle temaer og planlægge din produktlinje.' }
+    { heading: 'Hvad er tegn-og-farvelæg ark?', content: 'Tegn-og-farvelæg ark præsenterer en trin-for-trin tegneinstruktion (f.eks. "tegn en kat i 6 trin") med plads til at tegne og farvelægge resultatet.\n\nFormatet kombinerer:\n- **Instrueret tegning:** Barnet følger trinene og lærer at tegne\n- **Finmotorik:** Tegneøvelsen træner håndstyring\n- **Kreativitet:** Fri farvelægning efter tegningen\n- **Selvtillid:** Barnet producerer noget det er stolt af\n\nHver tegning er baseret på et tema — dyr, køretøjer, mad, natur. Med LessonCraftStudios tegn-og-farvelæg generator kan du oprette professionelle trin-for-trin ark med 100+ temaer.\n\nFormatet er populært for børn 4-8 år og har relativt lav konkurrence på Etsy.' },
+    { heading: 'Prissætning og pakkestrategier', content: 'Tegn-og-farvelæg produkter sælger i disse formater:\n\n**Enkelttema (10-15 tegninger):** 30-45 kr.\nF.eks. "Tegn Bondegårdsdyr — 12 Trin-for-Trin Tegninger"\n\n**Temamix (20-30 tegninger):** 50-75 kr.\nBlandede temaer: dyr + køretøjer + mad\n\n**Komplet tegneprogram (50+ tegninger):** 100-150 kr.\nProgression fra let til svært med alle temaer\n\n**KDP-tegnebog:** 60-90 kr.\nFormateret som fysisk tegne-og-farvelægningsbog\n\n**Kombipakke med farvelægning:** 70-100 kr.\nTegn-og-farvelæg + ren farvelægning i én pakke\n\nPro tip: Inkludér et "færdigt eksempel" i farver for hvert trin-for-trin ark. Det viser barnet, hvad målet er, og gør produktet mere attraktivt i Etsy-fotos.' },
+    { heading: 'Målgrupper og søgeord', content: 'Tegn-og-farvelæg ark har tre købersegmenter:\n\n**Forældre til småbørn (4-6 år):**\n- "tegneøvelse børn"\n- "lær at tegne dyr børn"\n- "finmotorik tegneark"\n\n**Folkeskolelærere (1.-3. klasse):**\n- "kreativ aktivitet folkeskole"\n- "tegneøvelse klasse printbar"\n- "tegnelektie arbejdsark"\n\n**Fritidspædagoger og SFO:**\n- "SFO aktivitet printbar"\n- "fritidshjem tegneøvelse"\n\nDet danske marked har minimal konkurrence for tegneinstruktions-produkter. Engelske "how to draw" ark dominerer, men dansksprogede versioner med danske instruktioner har et dedikeret publikum.' },
+    { heading: 'Oprettelse og differentiering', content: 'LessonCraftStudios tegn-og-farvelæg generator opretter trin-for-trin ark automatisk:\n\n- Vælg tema (100+ muligheder)\n- Vælg sværhedsgrad (simpel, middel, avanceret)\n- Generatoren opretter trin-for-trin instruktion\n- Plads til tegning og farvelægning inkluderet\n- Facit/eksempel inkluderet\n\nDifferentiér dig med:\n- Danske instruktioner (i stedet for engelske)\n- Temarelaterede fakta (f.eks. "Vidste du at en giraf..." under tegneinstruktionen)\n- Progressiv sværhed (start med 4-trins tegninger, avancér til 8-trins)\n\nPrøv den gratis prøveversion med vandmærke for at teste kvaliteten.' },
+    { heading: 'Skalering og bundling', content: 'Tegn-og-farvelæg er ideelt til bundling:\n\n**Med farvelægning:** Tegn-og-farvelæg + ren farvelægning = "Kreativ Pakke"\n**Med motorik:** Tegn + sporing + klip-og-lim = "Finmotorik Pakke"\n**Med puslespil:** Tegn + ordsøgning + matching = "Dyre-Aktivitetspakke"\n**KDP-serie:** "Lær at Tegne — Volume 1, 2, 3"\n\nCross-selling mellem tegne- og farvelægningsprodukter er naturligt. Kunder der køber tegneark køber ofte også farvelægning og omvendt.\n\nEn tegn-og-farvelæg produktlinje med 15-25 lister kan generere 1.500-3.500 kr./md som del af en bredere kreativ produktlinje.\n\nMed LessonCraftStudios gratis prøveversion med vandmærke kan du teste alle temaer og planlægge din produktlinje.' }
   ],
   keyTakeaways: [
     'Tegn-og-farvelæg kombinerer motorik og kreativitet — høj opfattet værdi',

@@ -16,63 +16,11 @@ const content: BlogContent = {
   category: 'niche-seasonal',
   introduction: 'Dinosaurer har en unik markedsposition: de appellerer massivt til drenge 3-8 år (forældre søger "dinosaur arbejdsark til drenge"), men også til piger og til hele aldersspektret. Det er et tema der fungerer i matematik, puslespil, farvelægning, motorik og alle andre arbejdsarkformater.',
   sections: [
-    { heading: 'Dinosaur-markedets styrke', content: 'Dinosaurer sælger hele året med små spikes:
-
-- **Skolestart (august):** Dinosaur-tema arbejdsark til folkeskolen
-- **Fødselsdage:** Dinosaur er det mest populære drengefødselsdagstema
-- **Jul:** Dinosaur-aktivitetsbøger som gaver
-- **Sommer:** Dinosaur-øvelser til sommerferietravlhed
-
-Hovedstyrken er eviggrønt salg. Hvor juleprintables kun sælger i november-december, sælger dinosaurer HVER eneste måned. Forældre opdager dinosaurfascinationen løbende, og der er altid nye kunder.
-
-På det danske marked er "dinosaur arbejdsark" en undervurderet søgeterm med få konkurrenter og stabil efterspørgsel.' },
-    { heading: 'Top produkttyper med dinosaurtema', content: 'De mest profitable dinosaurprodukter:
-
-**Dinosaur-matematik (35-55 kr.):** Addition og subtraktion med dinosaurbilleder
-**Dinosaur-farvelægning (25-40 kr.):** Detaljerede dinosaurillustrationer
-**Dinosaur-ordsøgning (30-50 kr.):** Dinosaurnavne og relaterede ord
-**Dinosaur-matchning (30-45 kr.):** Match dinosaur med navn/habitat/føde
-**Dinosaur-puslespil pakke (55-80 kr.):** Krydsord, kryptogram, kode-addition
-**Dinosaur-aktivitetsbog KDP (65-95 kr.):** 50-80 sider blandet indhold
-**Dinosaur-megapakke Etsy (100-160 kr.):** Alle typer samlet
-
-Hvert produktformat er en separat listing, og dinosaurtemaet kan bruges med alle 33 LessonCraftStudio-generatorer.' },
-    { heading: 'Dinosaur-fakta som salgspunkt', content: 'Tilføj pædagogisk værdi med dinosaurfakta:
-
-- Navne og udtale (Tyrannosaurus Rex, Triceratops, Stegosaurus)
-- Størrelse (sammenlign med kendte objekter)
-- Diæt (planteæder vs. kødæder)
-- Tidsperiode (Trias, Jura, Kridt)
-
-Faktabaserede produkter appellerer til forældre der søger "pædagogiske dinosaurøvelser". En "Dinosaur Fakta og Matematik Pakke" der kombinerer dinosaurinfo med matematikøvelser sælger bedre end ren matematik.
-
-Tip til det danske marked: brug de danske betegnelser (planteæder, kødæder, rovdinosaurier) for at differentiere dig fra engelske produkter.' },
-    { heading: 'KDP-dinosaurbøger', content: 'Dinosaur-aktivitetsbøger er en af de mest populære KDP-nicher:
-
-**Format:** A4, 60-80 sider, sort-hvid print
-**Pris:** 65-95 kr.
-**Indhold:** Farvelægning + matematik + puslespil + fakta
-**Forside:** Farverig dinosaurillustration med aldersmærkning
-
-Optimér med søgeord:
-- "dinosaur aktivitetsbog børn"
-- "dinosaur arbejdsbog 4-6 år"
-- "dinosaur puslespil bog"
-
-Udgiv serier: Volume 1, 2, 3. Loyale kunder køber alle bind.
-
-På Amazon.de (som dækker Danmark) har danske dinosaurbøger ekstremt lav konkurrence. En dansksprogede dinosauraktivitetsbog er nærmest alene på markedet.' },
-    { heading: 'Skalering af dinosaurlinjen', content: 'Dinosaurer åbner døren for hele den palæontologiske niche:
-
-1. **Andre forhistoriske dyr:** Mammutter, sabeltandtiger, pterodactyl
-2. **Havdinosaurier:** Plesiosaurus, Megalodon — kombinér med havtema
-3. **Dinosaur + matematik serier:** Addition, subtraktion, multiplikation
-4. **Sprogversioner:** Dansk, engelsk, tysk, svensk, norsk
-5. **Aldersversioner:** Småbørn (3-5), folkeskole (6-9), tweens (10-12)
-
-En komplet dinosaurproduktlinje med 30-50 lister kan generere 2.500-6.000 kr./md som en stabil, eviggrøn indtægtskilde.
-
-Prøv LessonCraftStudios gratis prøveversion med vandmærke for at teste alle dinosaurtemaer.' }
+    { heading: 'Dinosaur-markedets styrke', content: 'Dinosaurer sælger hele året med små spikes:\n\n- **Skolestart (august):** Dinosaur-tema arbejdsark til folkeskolen\n- **Fødselsdage:** Dinosaur er det mest populære drengefødselsdagstema\n- **Jul:** Dinosaur-aktivitetsbøger som gaver\n- **Sommer:** Dinosaur-øvelser til sommerferietravlhed\n\nHovedstyrken er eviggrønt salg. Hvor juleprintables kun sælger i november-december, sælger dinosaurer HVER eneste måned. Forældre opdager dinosaurfascinationen løbende, og der er altid nye kunder.\n\nPå det danske marked er "dinosaur arbejdsark" en undervurderet søgeterm med få konkurrenter og stabil efterspørgsel.' },
+    { heading: 'Top produkttyper med dinosaurtema', content: 'De mest profitable dinosaurprodukter:\n\n**Dinosaur-matematik (35-55 kr.):** Addition og subtraktion med dinosaurbilleder\n**Dinosaur-farvelægning (25-40 kr.):** Detaljerede dinosaurillustrationer\n**Dinosaur-ordsøgning (30-50 kr.):** Dinosaurnavne og relaterede ord\n**Dinosaur-matchning (30-45 kr.):** Match dinosaur med navn/habitat/føde\n**Dinosaur-puslespil pakke (55-80 kr.):** Krydsord, kryptogram, kode-addition\n**Dinosaur-aktivitetsbog KDP (65-95 kr.):** 50-80 sider blandet indhold\n**Dinosaur-megapakke Etsy (100-160 kr.):** Alle typer samlet\n\nHvert produktformat er en separat listing, og dinosaurtemaet kan bruges med alle 33 LessonCraftStudio-generatorer.' },
+    { heading: 'Dinosaur-fakta som salgspunkt', content: 'Tilføj pædagogisk værdi med dinosaurfakta:\n\n- Navne og udtale (Tyrannosaurus Rex, Triceratops, Stegosaurus)\n- Størrelse (sammenlign med kendte objekter)\n- Diæt (planteæder vs. kødæder)\n- Tidsperiode (Trias, Jura, Kridt)\n\nFaktabaserede produkter appellerer til forældre der søger "pædagogiske dinosaurøvelser". En "Dinosaur Fakta og Matematik Pakke" der kombinerer dinosaurinfo med matematikøvelser sælger bedre end ren matematik.\n\nTip til det danske marked: brug de danske betegnelser (planteæder, kødæder, rovdinosaurier) for at differentiere dig fra engelske produkter.' },
+    { heading: 'KDP-dinosaurbøger', content: 'Dinosaur-aktivitetsbøger er en af de mest populære KDP-nicher:\n\n**Format:** A4, 60-80 sider, sort-hvid print\n**Pris:** 65-95 kr.\n**Indhold:** Farvelægning + matematik + puslespil + fakta\n**Forside:** Farverig dinosaurillustration med aldersmærkning\n\nOptimér med søgeord:\n- "dinosaur aktivitetsbog børn"\n- "dinosaur arbejdsbog 4-6 år"\n- "dinosaur puslespil bog"\n\nUdgiv serier: Volume 1, 2, 3. Loyale kunder køber alle bind.\n\nPå Amazon.de (som dækker Danmark) har danske dinosaurbøger ekstremt lav konkurrence. En dansksprogede dinosauraktivitetsbog er nærmest alene på markedet.' },
+    { heading: 'Skalering af dinosaurlinjen', content: 'Dinosaurer åbner døren for hele den palæontologiske niche:\n\n1. **Andre forhistoriske dyr:** Mammutter, sabeltandtiger, pterodactyl\n2. **Havdinosaurier:** Plesiosaurus, Megalodon — kombinér med havtema\n3. **Dinosaur + matematik serier:** Addition, subtraktion, multiplikation\n4. **Sprogversioner:** Dansk, engelsk, tysk, svensk, norsk\n5. **Aldersversioner:** Småbørn (3-5), folkeskole (6-9), tweens (10-12)\n\nEn komplet dinosaurproduktlinje med 30-50 lister kan generere 2.500-6.000 kr./md som en stabil, eviggrøn indtægtskilde.\n\nPrøv LessonCraftStudios gratis prøveversion med vandmærke for at teste alle dinosaurtemaer.' }
   ],
   keyTakeaways: [
     'Dinosaurer er det mest eviggrønne tema — sælger konsistent hele året',

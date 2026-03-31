@@ -433,7 +433,7 @@ function return410(): NextResponse {
  * Patterns removed in the pivot to Professional Printable Business Toolkit:
  * - /[locale]/blog/* (all blog posts, categories, listings)
  * - /[locale]/worksheets/* (all theme/grade pages)
- * - /[locale]/pricing (pricing page)
+ * - /[locale]/pricing (RE-ENABLED - page is live again)
  * - /[locale]/apps/category/* (product category pages)
  * - /[locale]/apps/grades/* (grade hub pages)
  * - /buy/* (purchase pages)
@@ -444,7 +444,7 @@ function isRemovedRoute(pathname: string): boolean {
   // Non-locale-prefixed blog routes — let intl middleware redirect to /en/blog
   // (do NOT 410 — the blog is being reactivated with seller-focused content)
   if (pathname === '/worksheets' || pathname.startsWith('/worksheets/')) return true;
-  if (pathname === '/pricing') return true;
+  // Pricing page is live again — do not 410
   if (pathname.startsWith('/buy')) return true;
   if (pathname.startsWith('/apps/category/') || pathname === '/apps/category') return true;
   if (pathname.startsWith('/apps/grades/') || pathname === '/apps/grades') return true;
@@ -468,24 +468,13 @@ function isRemovedRoute(pathname: string): boolean {
     // Worksheets (theme/grade pages)
     if (rest === 'worksheets' || rest.startsWith('worksheets/')) return true;
 
-    // Pricing
-    if (rest === 'pricing') return true;
+    // Pricing page is live again — do not 410
 
     // Product category pages
     if (rest.startsWith('apps/category/') || rest === 'apps/category') return true;
 
     // Grade hub pages
     if (rest.startsWith('apps/grades/') || rest === 'apps/grades') return true;
-  }
-
-  // Localized pricing slugs (e.g., /de/preise, /fr/tarifs)
-  const localizedPricingSlugs = new Set([
-    'prising', 'tarifs', 'preise', 'precios', 'prezzi', 'precos',
-    'prijzen', 'hinnoittelu', 'priser',
-  ]);
-  const localizedPageMatch = pathname.match(/^\/([a-z]{2})\/([a-z]+)$/);
-  if (localizedPageMatch && localizedPricingSlugs.has(localizedPageMatch[2])) {
-    return true;
   }
 
   return false;
@@ -540,7 +529,17 @@ export default function middleware(request: NextRequest) {
     return NextResponse.redirect(new URL(blogRedirect, request.url), 301);
   }
 
-  // 410 Gone for all removed routes (blog, worksheets, pricing, categories, grades, buy)
+  // 301 redirects for old localized pricing slugs → /xx/pricing
+  const localizedPricingSlugs = new Set([
+    'prising', 'tarifs', 'preise', 'precios', 'prezzi', 'precos',
+    'prijzen', 'hinnoittelu', 'priser',
+  ]);
+  const localizedPricingMatch = pathname.match(/^\/([a-z]{2})\/([a-z]+)$/);
+  if (localizedPricingMatch && localizedPricingSlugs.has(localizedPricingMatch[2])) {
+    return NextResponse.redirect(new URL(`/${localizedPricingMatch[1]}/pricing`, request.url), 301);
+  }
+
+  // 410 Gone for all removed routes (blog, worksheets, categories, grades, buy)
   // Must be checked early, before intl middleware or any redirect logic
   if (isRemovedRoute(pathname)) {
     return return410();

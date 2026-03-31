@@ -67,6 +67,7 @@ export default async function sitemap({ id }: { id: number }): Promise<MetadataR
     const staticPages = [
       { path: '', priority: 1.0, changeFreq: 'daily' as const },
       { path: '/apps', priority: 0.8, changeFreq: 'weekly' as const },
+      { path: '/pricing', priority: 0.8, changeFreq: 'weekly' as const },
       { path: '/tools', priority: 0.7, changeFreq: 'weekly' as const },
       { path: '/bundles', priority: 0.8, changeFreq: 'weekly' as const },
       { path: '/start', priority: 0.7, changeFreq: 'weekly' as const },

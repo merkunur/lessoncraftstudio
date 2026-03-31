@@ -86,6 +86,10 @@ export function Navigation() {
               {t('apps')}
             </Link>
 
+            <Link href={`/${locale}/pricing`} className="text-gray-600 hover:text-primary transition-colors">
+              {t('pricing')}
+            </Link>
+
             {/* Resources Dropdown */}
             <div
               className="relative"
@@ -174,6 +178,14 @@ export function Navigation() {
               onClick={() => setMobileMenuOpen(false)}
             >
               {t('apps')}
+            </Link>
+
+            <Link
+              href={`/${locale}/pricing`}
+              className="block py-2 text-gray-600 hover:text-primary transition-colors"
+              onClick={() => setMobileMenuOpen(false)}
+            >
+              {t('pricing')}
             </Link>
 
             {/* Mobile Resources Section */}

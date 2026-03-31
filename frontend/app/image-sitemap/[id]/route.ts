@@ -4,6 +4,7 @@ import { bundlePageSlugs } from '@/config/bundle-page-slugs';
 import { startPageSlugs } from '@/config/start-page-slugs';
 import { guidePageSlugs } from '@/config/guide-page-slugs';
 import { ideaPageSlugs } from '@/config/idea-page-slugs';
+import { blogPageSlugs } from '@/config/blog-page-slugs';
 import { SUPPORTED_LOCALES } from '@/config/locales';
 import {
   getAppImageEntries,
@@ -11,6 +12,7 @@ import {
   getStartImageEntries,
   getGuideImageEntries,
   getIdeaImageEntries,
+  getBlogImageEntries,
   type ImageSitemapEntry,
 } from '@/lib/image-sitemap-data';
 
@@ -117,6 +119,21 @@ export async function GET(
         if (images.length === 0) continue;
         urlEntries.push(
           `  <url>\n    <loc>${baseUrl}/${locale}/ideas/${slug}</loc>\n${buildImageXml(images)}\n  </url>`
+        );
+      }
+    }
+  }
+
+  // ID 9: Blog pages (112 posts × 11 locales)
+  if (id === 9) {
+    for (const blog of blogPageSlugs) {
+      for (const locale of allLocales) {
+        const slug = blog.slugs[locale as keyof typeof blog.slugs];
+        if (!slug) continue;
+        const images = getBlogImageEntries(blog.blogId, locale);
+        if (images.length === 0) continue;
+        urlEntries.push(
+          `  <url>\n    <loc>${baseUrl}/${locale}/blog/${slug}</loc>\n${buildImageXml(images)}\n  </url>`
         );
       }
     }

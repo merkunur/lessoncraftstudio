@@ -1,7 +1,7 @@
 /**
  * Image sitemap data helper.
  * Extracts image entries from showcase configs AND content visuals
- * for all 6 page types: apps, tools, guides, bundles, ideas, starts.
+ * for all 7 page types: apps, tools, guides, bundles, ideas, starts, blog.
  */
 
 import { getLocalizedShowcaseConfig } from '@/app/[locale]/apps/[slug]/showcase/showcase-configs';
@@ -13,6 +13,9 @@ import { getGuideContent } from '@/config/guide-content';
 import { getBundleContent } from '@/config/bundle-content';
 import { getIdeaContent } from '@/config/idea-content';
 import { getStartContent } from '@/config/start-content';
+import { getBlogVisualConfig } from '@/config/blog-visual-sections/blog-visual-map';
+import { resolveBlogImageUrl, resolveBlogAnswerKeyUrl, getAppLabel } from '@/config/blog-visual-sections/image-resolver';
+import { worksheetAltText, answerKeyAltText, productCardAltText, ctaAltText, getDifficultyLabels } from '@/config/blog-visual-sections/alt-text';
 
 const baseUrl = 'https://www.lessoncraftstudio.com';
 
@@ -291,4 +294,116 @@ export async function getIdeaImageUrls(ideaId: string, locale: string): Promise<
 
 export async function getStartImageUrls(startId: string, locale: string): Promise<string[]> {
   return (await getStartImageEntries(startId, locale)).map(e => e.loc);
+}
+
+// ═══════════════════════════════════════════════════════════════════
+// Blog pages — visual section images (synchronous, no content loading)
+// ═══════════════════════════════════════════════════════════════════
+
+/** Blog pages — all images from visual sections (heroImages, productCards, etc.) */
+export function getBlogImageEntries(blogId: string, locale: string): ImageSitemapEntry[] {
+  const config = getBlogVisualConfig(blogId);
+  if (!config) return [];
+
+  const licenseUrl = `${baseUrl}/${locale}/license`;
+  const entries: ImageSitemapEntry[] = [];
+  const seen = new Set<string>();
+
+  function add(src: string, alt: string) {
+    if (!src) return;
+    const loc = toAbsoluteUrl(src);
+    if (seen.has(loc)) return;
+    seen.add(loc);
+    entries.push({ loc, title: alt, caption: alt, license: licenseUrl });
+  }
+
+  // heroImages (2-3 images)
+  for (const ref of config.heroImages) {
+    const url = resolveBlogImageUrl(ref.appKey, ref.idx, locale);
+    const label = getAppLabel(ref.appKey);
+    add(url, worksheetAltText(locale, label, `sample ${ref.idx + 1}`));
+  }
+
+  // productCards items
+  if (config.productCards) {
+    for (const card of config.productCards.items) {
+      const url = resolveBlogImageUrl(card.image.appKey, card.image.idx, locale);
+      const label = getAppLabel(card.image.appKey);
+      add(url, productCardAltText(locale, label, card.productName));
+    }
+  }
+
+  // difficultyTiers (beginner, intermediate, advanced)
+  if (config.difficultyTiers) {
+    const labels = getDifficultyLabels(locale);
+    const tiers = [
+      { ref: config.difficultyTiers.beginner, label: labels[0] },
+      { ref: config.difficultyTiers.intermediate, label: labels[1] },
+      { ref: config.difficultyTiers.advanced, label: labels[2] },
+    ];
+    for (const tier of tiers) {
+      const url = resolveBlogImageUrl(tier.ref.appKey, tier.ref.idx, locale);
+      const appLabel = getAppLabel(tier.ref.appKey);
+      add(url, worksheetAltText(locale, appLabel, tier.label));
+    }
+  }
+
+  // themedGrid
+  if (config.themedGrid) {
+    for (const ref of config.themedGrid.images) {
+      const url = resolveBlogImageUrl(ref.appKey, ref.idx, locale);
+      const label = getAppLabel(ref.appKey);
+      add(url, worksheetAltText(locale, label, `themed ${ref.idx + 1}`));
+    }
+  }
+
+  // bundle
+  if (config.bundle) {
+    for (const ref of config.bundle.images) {
+      const url = resolveBlogImageUrl(ref.appKey, ref.idx, locale);
+      const label = getAppLabel(ref.appKey);
+      add(url, worksheetAltText(locale, label, 'bundle page'));
+    }
+  }
+
+  // worksheetAnswerPair
+  if (config.worksheetAnswerPair) {
+    const wsRef = config.worksheetAnswerPair.worksheet;
+    const wsUrl = resolveBlogImageUrl(wsRef.appKey, wsRef.idx, locale);
+    const wsLabel = getAppLabel(wsRef.appKey);
+    add(wsUrl, worksheetAltText(locale, wsLabel, 'worksheet'));
+
+    const akRef = config.worksheetAnswerPair.answerKey;
+    const akUrl = resolveBlogAnswerKeyUrl(akRef.appKey, locale);
+    add(akUrl, answerKeyAltText(locale, wsLabel));
+  }
+
+  // beforeAfter (Category 2)
+  if (config.beforeAfter) {
+    const ref = config.beforeAfter.lcsImage;
+    const url = resolveBlogImageUrl(ref.appKey, ref.idx, locale);
+    const label = getAppLabel(ref.appKey);
+    add(url, worksheetAltText(locale, label, 'professional sample'));
+  }
+
+  // platformMockup (Category 2)
+  if (config.platformMockup) {
+    const ref = config.platformMockup.image;
+    const url = resolveBlogImageUrl(ref.appKey, ref.idx, locale);
+    const label = getAppLabel(ref.appKey);
+    add(url, worksheetAltText(locale, label, `${config.platformMockup.platform} listing`));
+  }
+
+  // ctaSample
+  {
+    const url = resolveBlogImageUrl(config.ctaSample.appKey, config.ctaSample.idx, locale);
+    const label = getAppLabel(config.ctaSample.appKey);
+    add(url, ctaAltText(locale, label));
+  }
+
+  return entries;
+}
+
+export function getBlogImageUrls(blogId: string, locale: string): string[] {
+  return getBlogImageEntries(blogId, locale).map(e => e.loc);
 }

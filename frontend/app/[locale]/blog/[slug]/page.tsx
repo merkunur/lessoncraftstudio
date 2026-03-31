@@ -108,9 +108,11 @@ export default async function BlogPostPage({
 
     // Visual sections config
     const visualConfig = getBlogVisualConfig(config.blogId);
-    const schemaImageUrl = visualConfig
-      ? `${baseUrl}${resolveBlogImageUrl(visualConfig.heroImages[0].appKey, visualConfig.heroImages[0].idx, locale)}`
-      : `${baseUrl}/api/og?locale=${locale}&type=blog&title=${encodeURIComponent(content.hero.title)}`;
+    const schemaImages = visualConfig
+      ? visualConfig.heroImages.map(ref =>
+          `${baseUrl}${resolveBlogImageUrl(ref.appKey, ref.idx, locale)}`
+        )
+      : [`${baseUrl}/api/og?locale=${locale}&type=blog&title=${encodeURIComponent(content.hero.title)}`];
 
     const articleSchema = {
       '@context': 'https://schema.org',
@@ -119,7 +121,7 @@ export default async function BlogPostPage({
       headline: content.hero.title,
       description: content.seo?.metaDescription || content.hero.description,
       url: pageUrl,
-      image: schemaImageUrl,
+      image: schemaImages,
       inLanguage: getHreflangCode(locale),
       publisher: { '@type': 'Organization', name: 'LessonCraftStudio', url: baseUrl, logo: { '@type': 'ImageObject', url: `${baseUrl}/logo-lcs-optimized.png` } },
       author: { '@type': 'Organization', name: 'LessonCraftStudio', url: baseUrl, logo: { '@type': 'ImageObject', url: `${baseUrl}/logo-lcs-optimized.png` } },

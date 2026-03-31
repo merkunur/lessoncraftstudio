@@ -49,7 +49,7 @@ export default function PlatformMockup({ platform, image, locale }: PlatformMock
   const heading = platform === 'etsy' ? (etsyHeading[locale] || etsyHeading.en) : (kdpHeading[locale] || kdpHeading.en);
   const appName = getAppLabel(image.appKey);
   const worksheetImg = (
-    <img src={resolveBlogImageUrl(image.appKey, image.idx, locale)} alt={worksheetAltText(locale, appName, platform === 'etsy' ? 'Etsy listing' : 'KDP book')} width={400} height={566} className="w-full h-auto rounded" loading="lazy" decoding="async" style={{ aspectRatio: '400/566' }} />
+    <img src={resolveBlogImageUrl(image.appKey, image.idx, locale)} alt={worksheetAltText(locale, appName, platform === 'etsy' ? 'Etsy listing' : 'KDP book')} className="w-full h-auto rounded" loading="lazy" decoding="async" />
   );
 
   return (

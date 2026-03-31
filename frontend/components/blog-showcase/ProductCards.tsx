@@ -40,7 +40,7 @@ export default function ProductCards({ items, locale }: ProductCardsProps) {
           {items.map((item, i) => (
             <div key={i} className="bg-white rounded-xl shadow-md overflow-hidden border border-gray-100 hover:shadow-lg transition-shadow">
               <div className="relative">
-                <img src={resolveBlogImageUrl(item.image.appKey, item.image.idx, locale)} alt={productCardAltText(locale, getAppLabel(item.image.appKey), item.productName)} width={400} height={566} className="w-full h-auto" loading="lazy" decoding="async" style={{ aspectRatio: '400/566' }} />
+                <img src={resolveBlogImageUrl(item.image.appKey, item.image.idx, locale)} alt={productCardAltText(locale, getAppLabel(item.image.appKey), item.productName)} className="w-full h-auto" loading="lazy" decoding="async" />
               </div>
               <div className="p-4">
                 <p className="font-semibold text-gray-900 text-sm mb-1.5 line-clamp-2">{item.productName}</p>

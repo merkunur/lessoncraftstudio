@@ -72,9 +72,8 @@ export default function HeroBanner({ images, accentColor, locale }: HeroBannerPr
               <img
                 src={resolveBlogImageUrl(images[0].appKey, images[0].idx, locale)}
                 alt={worksheetAltText(locale, appName, 'sample 1')}
-                width={400} height={566} className="w-full h-auto"
+                className="w-full h-auto"
                 loading="eager" decoding="async" fetchPriority="high"
-                style={{ aspectRatio: '400/566' }}
               />
             </div>
           </div>
@@ -84,9 +83,8 @@ export default function HeroBanner({ images, accentColor, locale }: HeroBannerPr
               <img
                 src={resolveBlogImageUrl(images[1].appKey, images[1].idx, locale)}
                 alt={worksheetAltText(locale, appName, 'sample 2')}
-                width={400} height={566} className="w-full h-auto"
+                className="w-full h-auto"
                 loading="lazy" decoding="async"
-                style={{ aspectRatio: '400/566' }}
               />
             </div>
           </div>
@@ -97,9 +95,8 @@ export default function HeroBanner({ images, accentColor, locale }: HeroBannerPr
                 <img
                   src={resolveBlogImageUrl(images[2].appKey, images[2].idx, locale)}
                   alt={worksheetAltText(locale, appName, 'sample 3')}
-                  width={400} height={566} className="w-full h-auto"
+                  className="w-full h-auto"
                   loading="lazy" decoding="async"
-                  style={{ aspectRatio: '400/566' }}
                 />
               </div>
             </div>

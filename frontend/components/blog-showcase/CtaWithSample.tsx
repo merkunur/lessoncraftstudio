@@ -39,8 +39,8 @@ export default function CtaWithSample({ image, locale, ctaHeading, ctaDescriptio
               <img
                 src={resolveBlogImageUrl(image.appKey, image.idx, locale)}
                 alt={ctaAltText(locale, appName)}
-                width={400} height={566} className="w-full h-auto"
-                loading="lazy" decoding="async" style={{ aspectRatio: '400/566' }}
+                className="w-full h-auto"
+                loading="lazy" decoding="async"
               />
             </div>
           </div>

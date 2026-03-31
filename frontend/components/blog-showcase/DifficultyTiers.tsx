@@ -64,7 +64,7 @@ export default function DifficultyTiers({ beginner, intermediate, advanced, loca
                 <span className="ml-1 uppercase tracking-wide">{tier.label}</span>
               </div>
               <div className={`rounded-lg overflow-hidden shadow-lg bg-white border-2 ${tierBorders[i]} w-full`}>
-                <img src={resolveBlogImageUrl(tier.image.appKey, tier.image.idx, locale)} alt={worksheetAltText(locale, appName, tier.label)} width={400} height={566} className="w-full h-auto" loading="lazy" decoding="async" style={{ aspectRatio: '400/566' }} />
+                <img src={resolveBlogImageUrl(tier.image.appKey, tier.image.idx, locale)} alt={worksheetAltText(locale, appName, tier.label)} className="w-full h-auto" loading="lazy" decoding="async" />
               </div>
             </div>
           ))}

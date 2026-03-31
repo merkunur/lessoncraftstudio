@@ -36,7 +36,7 @@ export default function ThemedGrid({ images, locale }: ThemedGridProps) {
         <div className={`grid gap-3 max-w-4xl mx-auto ${displayed.length <= 6 ? 'grid-cols-2 sm:grid-cols-3' : displayed.length <= 9 ? 'grid-cols-2 sm:grid-cols-3 lg:grid-cols-3' : 'grid-cols-2 sm:grid-cols-3 lg:grid-cols-4'}`}>
           {displayed.map((img, i) => (
             <div key={i} className="rounded-lg overflow-hidden shadow-md bg-white border border-gray-100 hover:shadow-lg transition-shadow">
-              <img src={resolveBlogImageUrl(img.appKey, img.idx, locale)} alt={worksheetAltText(locale, getAppLabel(img.appKey), `theme ${i + 1}`)} width={400} height={566} className="w-full h-auto" loading="lazy" decoding="async" style={{ aspectRatio: '400/566' }} />
+              <img src={resolveBlogImageUrl(img.appKey, img.idx, locale)} alt={worksheetAltText(locale, getAppLabel(img.appKey), `theme ${i + 1}`)} className="w-full h-auto" loading="lazy" decoding="async" />
             </div>
           ))}
         </div>

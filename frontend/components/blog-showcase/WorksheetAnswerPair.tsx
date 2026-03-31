@@ -32,7 +32,7 @@ export default function WorksheetAnswerPair({ worksheet, answerKey, locale }: Wo
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 md:gap-8 max-w-3xl mx-auto">
           <figure className="w-full sm:w-5/12">
             <div className="rounded-lg overflow-hidden shadow-lg bg-white border-2 border-amber-200">
-              <img src={resolveBlogImageUrl(worksheet.appKey, worksheet.idx, locale)} alt={worksheetAltText(locale, appName, wsLabel)} width={400} height={566} className="w-full h-auto" loading="lazy" decoding="async" style={{ aspectRatio: '400/566' }} />
+              <img src={resolveBlogImageUrl(worksheet.appKey, worksheet.idx, locale)} alt={worksheetAltText(locale, appName, wsLabel)} className="w-full h-auto" loading="lazy" decoding="async" />
             </div>
             <figcaption className="mt-2 text-center"><span className="inline-block px-3 py-1 rounded-full text-xs font-bold bg-amber-100 text-amber-800 uppercase tracking-wide">{wsLabel}</span></figcaption>
           </figure>
@@ -42,7 +42,7 @@ export default function WorksheetAnswerPair({ worksheet, answerKey, locale }: Wo
           </div>
           <figure className="w-full sm:w-5/12">
             <div className="rounded-lg overflow-hidden shadow-lg bg-white border-2 border-emerald-200">
-              <img src={resolveBlogAnswerKeyUrl(answerKey.appKey, locale)} alt={answerKeyAltText(locale, appName)} width={400} height={566} className="w-full h-auto" loading="lazy" decoding="async" style={{ aspectRatio: '400/566' }} />
+              <img src={resolveBlogAnswerKeyUrl(answerKey.appKey, locale)} alt={answerKeyAltText(locale, appName)} className="w-full h-auto" loading="lazy" decoding="async" />
             </div>
             <figcaption className="mt-2 text-center"><span className="inline-block px-3 py-1 rounded-full text-xs font-bold bg-emerald-100 text-emerald-800 uppercase tracking-wide">{akLabel}</span></figcaption>
           </figure>

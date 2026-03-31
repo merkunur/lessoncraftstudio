@@ -35,7 +35,7 @@ export default function BundleVisualization({ images, pageCount, locale }: Bundl
             const zIndex = i === Math.floor(displayed.length / 2) ? 10 : displayed.length - Math.abs(i - Math.floor(displayed.length / 2));
             return (
               <div key={i} className="absolute w-[180px] md:w-[220px] rounded-lg overflow-hidden shadow-lg bg-white border border-gray-200" style={{ transform: transforms[i] || 'rotate(0deg)', zIndex }}>
-                <img src={resolveBlogImageUrl(img.appKey, img.idx, locale)} alt={worksheetAltText(locale, getAppLabel(img.appKey), `bundle page ${i + 1}`)} width={400} height={566} className="w-full h-auto" loading="lazy" decoding="async" style={{ aspectRatio: '400/566' }} />
+                <img src={resolveBlogImageUrl(img.appKey, img.idx, locale)} alt={worksheetAltText(locale, getAppLabel(img.appKey), `bundle page ${i + 1}`)} className="w-full h-auto" loading="lazy" decoding="async" />
               </div>
             );
           })}

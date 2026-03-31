@@ -121,7 +121,26 @@ export default async function ComparePage({
       ],
     };
 
-    const schemas: object[] = [articleSchema, breadcrumbSchema];
+    // WebPage schema with primaryImageOfPage — aligns Google's thumbnail signal
+    const webPageSchema = {
+      '@context': 'https://schema.org',
+      '@type': 'WebPage',
+      '@id': `${pageUrl}#webpage`,
+      url: pageUrl,
+      name: content.hero.title,
+      description: content.hero.description,
+      isPartOf: { '@type': 'WebSite', '@id': `${baseUrl}/#website` },
+      primaryImageOfPage: {
+        '@type': 'ImageObject',
+        url: articleSchema.image,
+        width: 1200,
+        height: 630,
+      },
+      mainEntity: { '@id': `${pageUrl}#article` },
+      inLanguage: getHreflangCode(locale),
+    };
+
+    const schemas: object[] = [webPageSchema, articleSchema, breadcrumbSchema];
     if (content.faq?.length) {
       schemas.push(generateFAQSchema(content.faq, locale, pageUrl));
     }

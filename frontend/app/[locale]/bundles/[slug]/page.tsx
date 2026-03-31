@@ -68,6 +68,19 @@ export async function generateMetadata({
       ? [content.seo.primaryKeyword, ...(content.seo.secondaryKeywords || []), ...(content.seo.lsiKeywords || [])]
       : undefined;
 
+    // Canonical image: showcase hero first (matching JSON-LD), then content
+    const bundleShowcaseConfig = getPageShowcaseConfig('bundle', bundleConfig.bundleId, locale);
+    const canonicalImagePath = bundleShowcaseConfig?.hero?.images?.[0]?.src
+      ? encodeImagePath(bundleShowcaseConfig.hero.images[0].src)
+      : content?.visuals?.heroImages?.primary
+        ? encodeImagePath(content.visuals.heroImages.primary)
+        : content?.visuals?.sampleGallery?.[0]?.src
+          ? encodeImagePath(content.visuals.sampleGallery[0].src)
+          : null;
+    const canonicalImageAlt = bundleShowcaseConfig?.hero?.images?.[0]?.alt
+      || content?.visuals?.heroImages?.primaryAlt
+      || title;
+
     return {
       title,
       description,
@@ -79,28 +92,23 @@ export async function generateMetadata({
       openGraph: {
         title,
         description,
-        type: 'website',
+        type: 'article',
         url: `${baseUrl}/${locale}/bundles/${localeSlug || slug}`,
         siteName: 'LessonCraftStudio',
         locale: ogLocaleMap[locale] || locale,
         alternateLocale: SUPPORTED_LOCALES.filter(l => l !== locale).map(l => ogLocaleMap[l] || l),
         images: [
-          ...(content?.visuals?.heroImages?.primary ? [{
-            url: `${baseUrl}${encodeImagePath(content.visuals.heroImages.primary)}`,
-            width: 400,
-            height: 566,
-            alt: content.visuals.heroImages.primaryAlt || title,
-          }] : content?.visuals?.sampleGallery?.[0]?.src ? [{
-            url: `${baseUrl}${encodeImagePath(content.visuals.sampleGallery[0].src)}`,
-            width: 400,
-            height: 566,
-            alt: content.visuals.sampleGallery[0].alt || title,
+          ...(canonicalImagePath ? [{
+            url: `${baseUrl}${canonicalImagePath}`,
+            width: 2480,
+            height: 3508,
+            alt: canonicalImageAlt,
           }] : []),
           { url: `${baseUrl}/api/og?locale=${locale}&type=bundle&title=${encodeURIComponent(title)}`, width: 1200, height: 630, alt: title },
           ...(content?.visuals?.sampleGallery?.slice(0, 3).map((img: { src: string; alt: string }) => ({
             url: `${baseUrl}${encodeImagePath(img.src)}`,
-            width: 400,
-            height: 566,
+            width: 2480,
+            height: 3508,
             alt: img.alt,
           })) || []),
         ],
@@ -110,11 +118,9 @@ export async function generateMetadata({
         card: 'summary_large_image',
         title,
         description,
-        images: [content?.visuals?.heroImages?.primary
-          ? `${baseUrl}${encodeImagePath(content.visuals.heroImages.primary)}`
-          : content?.visuals?.sampleGallery?.[0]?.src
-            ? `${baseUrl}${encodeImagePath(content.visuals.sampleGallery[0].src)}`
-            : `${baseUrl}/api/og?locale=${locale}&type=bundle&title=${encodeURIComponent(title)}`],
+        images: [canonicalImagePath
+          ? `${baseUrl}${canonicalImagePath}`
+          : `${baseUrl}/api/og?locale=${locale}&type=bundle&title=${encodeURIComponent(title)}`],
       },
       robots: content ? undefined : { index: false },
     };
@@ -154,7 +160,7 @@ export default async function BundlePage({
 
     const bundleHeroImage = showcaseConfig?.hero?.images?.[0]?.src;
     const bundleSchemaImage = bundleHeroImage
-      ? `${baseUrl}${bundleHeroImage}`
+      ? `${baseUrl}${encodeImagePath(bundleHeroImage)}`
       : content.visuals?.heroImages?.primary
         ? `${baseUrl}${encodeImagePath(content.visuals.heroImages.primary)}`
         : content.visuals?.sampleGallery?.[0]?.src
@@ -193,7 +199,26 @@ export default async function BundlePage({
       ],
     };
 
-    const schemas: object[] = [productSchema, breadcrumbSchema];
+    // WebPage schema with primaryImageOfPage — aligns Google's thumbnail signal
+    const webPageSchema = {
+      '@context': 'https://schema.org',
+      '@type': 'WebPage',
+      '@id': `${pageUrl}#webpage`,
+      url: pageUrl,
+      name: content.hero.title,
+      description: content.hero.description,
+      isPartOf: { '@type': 'WebSite', '@id': `${baseUrl}/#website` },
+      primaryImageOfPage: {
+        '@type': 'ImageObject',
+        url: bundleSchemaImage,
+        width: bundleSchemaImage.includes('/api/og') ? 1200 : 2480,
+        height: bundleSchemaImage.includes('/api/og') ? 630 : 3508,
+      },
+      mainEntity: { '@id': `${pageUrl}#product` },
+      inLanguage: getHreflangCode(locale),
+    };
+
+    const schemas: object[] = [webPageSchema, productSchema, breadcrumbSchema];
     if (content.faq?.length) {
       schemas.push(generateFAQSchema(content.faq, locale, pageUrl));
     }

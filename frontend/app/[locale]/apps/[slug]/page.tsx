@@ -599,6 +599,19 @@ export async function generateMetadata({
       ? [content.seo.primaryKeyword, ...(content.seo.secondaryKeywords || []), ...(content.seo.lsiKeywords || [])]
       : undefined;
 
+    // Canonical image: same priority as JSON-LD schemaImage so og:image[0] = JSON-LD image
+    const showcaseConfig = getShowcaseConfig(wpAppId, locale);
+    const canonicalImagePath = showcaseConfig?.hero?.images?.[0]?.src
+      ? encodeImagePath(showcaseConfig.hero.images[0].src)
+      : content?.visuals?.heroImages?.primary
+        ? encodeImagePath(content.visuals.heroImages.primary)
+        : content?.visuals?.sampleGallery?.[0]?.src
+          ? encodeImagePath(content.visuals.sampleGallery[0].src)
+          : null;
+    const canonicalImageAlt = showcaseConfig?.hero?.images?.[0]?.alt
+      || content?.visuals?.heroImages?.primaryAlt
+      || title;
+
     return {
       title,
       description,
@@ -610,23 +623,23 @@ export async function generateMetadata({
       openGraph: {
         title,
         description,
-        type: 'website',
+        type: 'article',
         url: `${baseUrl}/${locale}/apps/${localeSlug || slug}`,
         siteName: 'LessonCraftStudio',
         locale: ogLocaleMap[locale] || locale,
         alternateLocale: SUPPORTED_LOCALES.filter(l => l !== locale).map(l => ogLocaleMap[l] || l),
         images: [
-          ...(content?.visuals?.heroImages?.primary ? [{
-            url: `${baseUrl}${encodeImagePath(content.visuals.heroImages.primary)}`,
-            width: 400,
-            height: 566,
-            alt: content.visuals.heroImages.primaryAlt || title,
+          ...(canonicalImagePath ? [{
+            url: `${baseUrl}${canonicalImagePath}`,
+            width: 2480,
+            height: 3508,
+            alt: canonicalImageAlt,
           }] : []),
           { url: `${baseUrl}/api/og?app=${wpAppId}&locale=${locale}&type=app&title=${encodeURIComponent(title)}`, width: 1200, height: 630, alt: title },
           ...(content?.visuals?.sampleGallery?.slice(0, 3).map((img: { src: string; alt: string }) => ({
             url: `${baseUrl}${encodeImagePath(img.src)}`,
-            width: 400,
-            height: 566,
+            width: 2480,
+            height: 3508,
             alt: img.alt,
           })) || []),
         ],
@@ -636,8 +649,8 @@ export async function generateMetadata({
         card: 'summary_large_image',
         title,
         description,
-        images: [content?.visuals?.heroImages?.primary
-          ? `${baseUrl}${encodeImagePath(content.visuals.heroImages.primary)}`
+        images: [canonicalImagePath
+          ? `${baseUrl}${canonicalImagePath}`
           : `${baseUrl}/api/og?app=${wpAppId}&locale=${locale}&type=app&title=${encodeURIComponent(title)}`],
       },
     };
@@ -718,14 +731,15 @@ export default async function AppDetailPage({
       '@type': 'ImageObject',
       url: `${baseUrl}${encodeImagePath(img.src)}`,
       caption: img.alt,
-      width: 400,
-      height: 566,
+      width: 2480,
+      height: 3508,
       encodingFormat: 'image/webp',
     }));
 
   const jsonLd = {
     '@context': 'https://schema.org',
     '@type': 'SoftwareApplication',
+    '@id': `${pageUrl}#software`,
     name: `${localizedName} ${localizedSuffix}`,
     description: desc,
     url: pageUrl,
@@ -788,10 +802,33 @@ export default async function AppDetailPage({
     })),
   } : null;
 
+  // WebPage schema with primaryImageOfPage — aligns Google's thumbnail signal
+  const webPageJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'WebPage',
+    '@id': `${pageUrl}#webpage`,
+    url: pageUrl,
+    name: `${localizedName} ${localizedSuffix}`,
+    description: desc,
+    isPartOf: { '@type': 'WebSite', '@id': `${baseUrl}/#website` },
+    primaryImageOfPage: {
+      '@type': 'ImageObject',
+      url: schemaImage,
+      width: 2480,
+      height: 3508,
+    },
+    mainEntity: { '@id': `${pageUrl}#software` },
+    inLanguage: getHreflangCode(locale),
+  };
+
   // ── Enriched layout (when content file exists) ──
   if (content) {
     return (
       <>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(webPageJsonLd) }}
+        />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
@@ -1127,6 +1164,10 @@ export default async function AppDetailPage({
   // ── Thin fallback layout (no content file) ──
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(webPageJsonLd) }}
+      />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}

@@ -56,6 +56,19 @@ export async function generateMetadata({
       ? [content.seo.primaryKeyword, ...(content.seo.secondaryKeywords || []), ...(content.seo.lsiKeywords || [])]
       : undefined;
 
+    // Canonical image: showcase hero first (matching JSON-LD), then content
+    const guideShowcaseConfig = getPageShowcaseConfig('guide', config.guideId, locale);
+    const canonicalImagePath = guideShowcaseConfig?.hero?.images?.[0]?.src
+      ? encodeImagePath(guideShowcaseConfig.hero.images[0].src)
+      : content?.visuals?.heroImage?.src
+        ? encodeImagePath(content.visuals.heroImage.src)
+        : content?.visuals?.samples?.[0]?.src
+          ? encodeImagePath(content.visuals.samples[0].src)
+          : null;
+    const canonicalImageAlt = guideShowcaseConfig?.hero?.images?.[0]?.alt
+      || content?.visuals?.heroImage?.alt
+      || title;
+
     return {
       title,
       description,
@@ -73,22 +86,17 @@ export async function generateMetadata({
         locale: ogLocaleMap[locale] || locale,
         alternateLocale: SUPPORTED_LOCALES.filter(l => l !== locale).map(l => ogLocaleMap[l] || l),
         images: [
-          ...(content?.visuals?.heroImage?.src ? [{
-            url: `${baseUrl}${encodeImagePath(content.visuals.heroImage.src)}`,
-            width: 400,
-            height: 566,
-            alt: content.visuals.heroImage.alt || title,
-          }] : content?.visuals?.samples?.[0]?.src ? [{
-            url: `${baseUrl}${encodeImagePath(content.visuals.samples[0].src)}`,
-            width: 400,
-            height: 566,
-            alt: content.visuals.samples[0].alt || title,
+          ...(canonicalImagePath ? [{
+            url: `${baseUrl}${canonicalImagePath}`,
+            width: 2480,
+            height: 3508,
+            alt: canonicalImageAlt,
           }] : []),
           { url: `${baseUrl}/api/og?locale=${locale}&type=guide&title=${encodeURIComponent(title)}`, width: 1200, height: 630, alt: title },
           ...(content?.visuals?.samples?.slice(0, 3).map((img: { src: string; alt: string }) => ({
             url: `${baseUrl}${encodeImagePath(img.src)}`,
-            width: 400,
-            height: 566,
+            width: 2480,
+            height: 3508,
             alt: img.alt,
           })) || []),
         ],
@@ -98,11 +106,9 @@ export async function generateMetadata({
         card: 'summary_large_image',
         title,
         description,
-        images: [content?.visuals?.heroImage?.src
-          ? `${baseUrl}${encodeImagePath(content.visuals.heroImage.src)}`
-          : content?.visuals?.samples?.[0]?.src
-            ? `${baseUrl}${encodeImagePath(content.visuals.samples[0].src)}`
-            : `${baseUrl}/api/og?locale=${locale}&type=guide&title=${encodeURIComponent(title)}`],
+        images: [canonicalImagePath
+          ? `${baseUrl}${canonicalImagePath}`
+          : `${baseUrl}/api/og?locale=${locale}&type=guide&title=${encodeURIComponent(title)}`],
       },
       robots: content ? undefined : { index: false },
     };
@@ -147,7 +153,7 @@ export default async function GuidePage({
       description: content.hero.description,
       url: pageUrl,
       image: guideHeroImage
-        ? `${baseUrl}${guideHeroImage}`
+        ? `${baseUrl}${encodeImagePath(guideHeroImage)}`
         : content.visuals?.heroImage?.src
           ? `${baseUrl}${encodeImagePath(content.visuals.heroImage.src)}`
           : content.visuals?.samples?.[0]?.src
@@ -172,7 +178,26 @@ export default async function GuidePage({
       ],
     };
 
-    const schemas: object[] = [articleSchema, breadcrumbSchema];
+    // WebPage schema with primaryImageOfPage — aligns Google's thumbnail signal
+    const webPageSchema = {
+      '@context': 'https://schema.org',
+      '@type': 'WebPage',
+      '@id': `${pageUrl}#webpage`,
+      url: pageUrl,
+      name: content.hero.title,
+      description: content.hero.description,
+      isPartOf: { '@type': 'WebSite', '@id': `${baseUrl}/#website` },
+      primaryImageOfPage: {
+        '@type': 'ImageObject',
+        url: articleSchema.image,
+        width: (articleSchema.image as string).includes('/api/og') ? 1200 : 2480,
+        height: (articleSchema.image as string).includes('/api/og') ? 630 : 3508,
+      },
+      mainEntity: { '@id': `${pageUrl}#article` },
+      inLanguage: getHreflangCode(locale),
+    };
+
+    const schemas: object[] = [webPageSchema, articleSchema, breadcrumbSchema];
     if (content.tutorial?.length) {
       schemas.push({
         '@context': 'https://schema.org',

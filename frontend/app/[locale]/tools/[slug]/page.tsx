@@ -108,6 +108,19 @@ export async function generateMetadata({
       ? [content.seo.primaryKeyword, ...content.seo.secondaryKeywords, ...content.seo.lsiKeywords]
       : undefined;
 
+    // Canonical image: showcase hero first, then content, matching JSON-LD source priority
+    const toolShowcaseConfig = getToolShowcaseConfig(toolConfig.toolId, locale);
+    const canonicalImagePath = toolShowcaseConfig?.hero?.images?.[0]?.src
+      ? encodeImagePath(toolShowcaseConfig.hero.images[0].src)
+      : content?.visuals?.heroImages?.primary
+        ? encodeImagePath(content.visuals.heroImages.primary)
+        : content?.visuals?.sampleGallery?.[0]?.src
+          ? encodeImagePath(content.visuals.sampleGallery[0].src)
+          : null;
+    const canonicalImageAlt = toolShowcaseConfig?.hero?.images?.[0]?.alt
+      || content?.visuals?.heroImages?.primaryAlt
+      || title;
+
     return {
       title,
       description,
@@ -119,17 +132,23 @@ export async function generateMetadata({
       openGraph: {
         title,
         description,
-        type: 'website',
+        type: 'article',
         url: `${baseUrl}/${locale}/tools/${localeSlug || slug}`,
         siteName: 'LessonCraftStudio',
         locale: ogLocaleMap[locale] || locale,
         alternateLocale: SUPPORTED_LOCALES.filter(l => l !== locale).map(l => ogLocaleMap[l] || l),
         images: [
+          ...(canonicalImagePath ? [{
+            url: `${baseUrl}${canonicalImagePath}`,
+            width: 2480,
+            height: 3508,
+            alt: canonicalImageAlt,
+          }] : []),
           { url: `${baseUrl}/api/og?app=${wpAppId}&locale=${locale}&type=tool&title=${encodeURIComponent(title)}`, width: 1200, height: 630, alt: title },
           ...(content?.visuals?.sampleGallery?.slice(0, 3).map((img: { src: string; alt: string }) => ({
             url: `${baseUrl}${encodeImagePath(img.src)}`,
-            width: 400,
-            height: 566,
+            width: 2480,
+            height: 3508,
             alt: img.alt,
           })) || []),
         ],
@@ -139,7 +158,9 @@ export async function generateMetadata({
         card: 'summary_large_image',
         title,
         description,
-        images: [`${baseUrl}/api/og?app=${wpAppId}&locale=${locale}&type=tool&title=${encodeURIComponent(title)}`],
+        images: [canonicalImagePath
+          ? `${baseUrl}${canonicalImagePath}`
+          : `${baseUrl}/api/og?app=${wpAppId}&locale=${locale}&type=tool&title=${encodeURIComponent(title)}`],
       },
     };
   } catch {
@@ -183,16 +204,20 @@ export default async function ToolPage({
   // SoftwareApplication schema
   const heroImages = showcaseConfig?.hero?.images;
   const toolSchemaImage = heroImages?.[0]?.src
-    ? `${baseUrl}${heroImages[0].src}`
-    : `${baseUrl}/opengraph-image.png`;
+    ? `${baseUrl}${encodeImagePath(heroImages[0].src)}`
+    : content?.visuals?.heroImages?.primary
+      ? `${baseUrl}${encodeImagePath(content.visuals.heroImages.primary)}`
+      : content?.visuals?.sampleGallery?.[0]?.src
+        ? `${baseUrl}${encodeImagePath(content.visuals.sampleGallery[0].src)}`
+        : `${baseUrl}/opengraph-image.png`;
   const toolScreenshots = heroImages?.slice(0, 3)
     .filter(img => img.src)
     .map(img => ({
       '@type': 'ImageObject',
-      url: `${baseUrl}${img.src}`,
+      url: `${baseUrl}${encodeImagePath(img.src)}`,
       caption: img.alt,
-      width: 400,
-      height: 566,
+      width: 2480,
+      height: 3508,
       encodingFormat: 'image/webp',
     }));
 
@@ -222,6 +247,24 @@ export default async function ToolPage({
     softwareSchema.description = content.hero.description;
   }
   schemas.push(softwareSchema);
+
+  // WebPage schema with primaryImageOfPage — aligns Google's thumbnail signal
+  schemas.push({
+    '@context': 'https://schema.org',
+    '@type': 'WebPage',
+    '@id': `${pageUrl}#webpage`,
+    url: pageUrl,
+    name: localizedName,
+    description: content?.hero?.description || cta.fallbackDesc,
+    isPartOf: { '@type': 'WebSite', '@id': `${baseUrl}/#website` },
+    primaryImageOfPage: {
+      '@type': 'ImageObject',
+      url: toolSchemaImage,
+      width: toolSchemaImage.includes('/opengraph-image.png') ? 1200 : 2480,
+      height: toolSchemaImage.includes('/opengraph-image.png') ? 630 : 3508,
+    },
+    inLanguage: getHreflangCode(locale),
+  });
 
   // BreadcrumbList schema
   schemas.push({

@@ -69,6 +69,69 @@ export function generateFAQSchema(faqs: Array<{question: string; answer: string}
   };
 }
 
+/** Locale-aware homepage screenshot URLs (verified filenames from content files) */
+function getHomepageScreenshots(locale: string, baseUrl: string): string[] {
+  const screenshotMap: Record<string, [string, string, string]> = {
+    en: [
+      '/samples/english/addition/Addition Fun 1.webp',
+      '/samples/english/wordsearch/Word Search 1.webp',
+      '/samples/english/coloring/coloring portrait 1.webp',
+    ],
+    de: [
+      '/samples/german/addition/Additionsspa 1.webp',
+      '/samples/german/wordsearch/Worter suchen 1.webp',
+      '/samples/german/coloring/coloring portrait 1.webp',
+    ],
+    fr: [
+      '/samples/french/addition/Addition Amusant 1.webp',
+      '/samples/french/wordsearch/Mots Caches 1.webp',
+      '/samples/french/coloring/coloring portrait 1.webp',
+    ],
+    es: [
+      '/samples/spanish/addition/Suma Divertida 1.webp',
+      '/samples/spanish/wordsearch/Sopa de Letras 1.webp',
+      '/samples/spanish/coloring/coloring portrait 1.webp',
+    ],
+    pt: [
+      '/samples/portuguese/addition/Adição Divertida 1.webp',
+      '/samples/portuguese/wordsearch/Caça-Palavras 1.webp',
+      '/samples/portuguese/coloring/coloring landscape 1.webp',
+    ],
+    it: [
+      '/samples/italian/addition/Addizione Divertente 1.webp',
+      '/samples/italian/wordsearch/Cerca Parole 1.webp',
+      '/samples/italian/coloring/coloring landscape 1.webp',
+    ],
+    nl: [
+      '/samples/dutch/addition/Optellen is Leuk 1.webp',
+      '/samples/dutch/wordsearch/Woordzoeker 1.webp',
+      '/samples/dutch/coloring/coloring portrait 1.webp',
+    ],
+    sv: [
+      '/samples/swedish/addition/addition_övning.webp',
+      '/samples/swedish/wordsearch/ordletning portrait.webp',
+      '/samples/swedish/coloring/coloring portrait 1.webp',
+    ],
+    da: [
+      '/samples/danish/addition/Sjov Addition 1.webp',
+      '/samples/danish/wordsearch/Ordsøgning 1.webp',
+      '/samples/danish/coloring/coloring portrait 1.webp',
+    ],
+    no: [
+      '/samples/norwegian/addition/Gøy Addisjon 1.webp',
+      '/samples/norwegian/wordsearch/Ordleting 1.webp',
+      '/samples/norwegian/coloring/coloring portrait 1.webp',
+    ],
+    fi: [
+      '/samples/english/addition/Addition Fun 1.webp',
+      '/samples/english/wordsearch/Word Search 1.webp',
+      '/samples/english/coloring/coloring portrait 1.webp',
+    ],
+  };
+  const paths = screenshotMap[locale] || screenshotMap.en;
+  return paths.map(p => `${baseUrl}${encodeImagePath(p)}`);
+}
+
 /**
  * Generate Homepage Schemas
  * Includes: Organization, WebSite, and SoftwareApplication schemas
@@ -202,11 +265,7 @@ export function generateHomepageSchemas(locale: string, baseUrl: string = getBas
     },
     "description": homepageSoftwareDescriptions[locale] || homepageSoftwareDescriptions.en,
     "featureList": homepageFeatureLists[locale] || homepageFeatureLists.en,
-    "screenshot": [
-      `${baseUrl}/samples/english/addition/Addition%20Fun%201.webp`,
-      `${baseUrl}/samples/english/wordsearch/Word%20Search%20Fun%201.webp`,
-      `${baseUrl}/samples/english/coloring/Coloring%20Fun%201.webp`,
-    ],
+    "screenshot": getHomepageScreenshots(locale, baseUrl),
     "provider": { "@id": `${baseUrl}/#organization` }
   };
   schemas.push(softwareSchema);

@@ -211,6 +211,17 @@ export async function generateMetadata({
       ? [content.seo.primaryKeyword, ...(content.seo.secondaryKeywords || []), ...(content.seo.lsiKeywords || [])]
       : undefined;
 
+    // Canonical image: showcase hero first (matching JSON-LD), then themeImages
+    const ideaShowcaseConfig = getPageShowcaseConfig('idea', config.ideaId, locale);
+    const canonicalImagePath = ideaShowcaseConfig?.hero?.images?.[0]?.src
+      ? encodeImagePath(ideaShowcaseConfig.hero.images[0].src)
+      : content?.themeImages?.[0]?.src
+        ? encodeImagePath(content.themeImages[0].src)
+        : null;
+    const canonicalImageAlt = ideaShowcaseConfig?.hero?.images?.[0]?.alt
+      || content?.themeImages?.[0]?.alt
+      || title;
+
     return {
       title,
       description,
@@ -228,17 +239,17 @@ export async function generateMetadata({
         locale: ogLocaleMap[locale] || locale,
         alternateLocale: SUPPORTED_LOCALES.filter(l => l !== locale).map(l => ogLocaleMap[l] || l),
         images: [
-          ...(content?.themeImages?.[0]?.src ? [{
-            url: `${baseUrl}${encodeImagePath(content.themeImages[0].src)}`,
-            width: 400,
-            height: 566,
-            alt: content.themeImages[0].alt || title,
+          ...(canonicalImagePath ? [{
+            url: `${baseUrl}${canonicalImagePath}`,
+            width: 2480,
+            height: 3508,
+            alt: canonicalImageAlt,
           }] : []),
           { url: `${baseUrl}/api/og?locale=${locale}&type=idea&title=${encodeURIComponent(title)}`, width: 1200, height: 630, alt: title },
           ...(content?.themeImages?.slice(1, 4).map((img: { src: string; alt: string }) => ({
             url: `${baseUrl}${encodeImagePath(img.src)}`,
-            width: 400,
-            height: 566,
+            width: 2480,
+            height: 3508,
             alt: img.alt,
           })) || []),
         ],
@@ -248,8 +259,8 @@ export async function generateMetadata({
         card: 'summary_large_image',
         title,
         description,
-        images: [content?.themeImages?.[0]?.src
-          ? `${baseUrl}${encodeImagePath(content.themeImages[0].src)}`
+        images: [canonicalImagePath
+          ? `${baseUrl}${canonicalImagePath}`
           : `${baseUrl}/api/og?locale=${locale}&type=idea&title=${encodeURIComponent(title)}`],
       },
       robots: content ? undefined : { index: false },
@@ -295,7 +306,7 @@ export default async function IdeaPage({
       description: content.hero.description,
       url: pageUrl,
       image: ideaHeroImage
-        ? `${baseUrl}${ideaHeroImage}`
+        ? `${baseUrl}${encodeImagePath(ideaHeroImage)}`
         : content.themeImages?.[0]?.src
           ? `${baseUrl}${encodeImagePath(content.themeImages[0].src)}`
           : content.productIdeas?.[0]?.appId && getAppHeroImage(content.productIdeas[0].appId, locale)
@@ -320,7 +331,26 @@ export default async function IdeaPage({
       ],
     };
 
-    const schemas: object[] = [articleSchema, breadcrumbSchema];
+    // WebPage schema with primaryImageOfPage — aligns Google's thumbnail signal
+    const webPageSchema = {
+      '@context': 'https://schema.org',
+      '@type': 'WebPage',
+      '@id': `${pageUrl}#webpage`,
+      url: pageUrl,
+      name: content.hero.title,
+      description: content.hero.description,
+      isPartOf: { '@type': 'WebSite', '@id': `${baseUrl}/#website` },
+      primaryImageOfPage: {
+        '@type': 'ImageObject',
+        url: articleSchema.image,
+        width: (articleSchema.image as string).includes('/api/og') ? 1200 : 2480,
+        height: (articleSchema.image as string).includes('/api/og') ? 630 : 3508,
+      },
+      mainEntity: { '@id': `${pageUrl}#article` },
+      inLanguage: getHreflangCode(locale),
+    };
+
+    const schemas: object[] = [webPageSchema, articleSchema, breadcrumbSchema];
     if (content.faq?.length) {
       schemas.push(generateFAQSchema(content.faq, locale, pageUrl));
     }

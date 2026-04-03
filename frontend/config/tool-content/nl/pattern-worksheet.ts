@@ -6,7 +6,7 @@ const content: ToolContent = {
     secondaryKeywords: [
       'patronen werkbladen online maken gratis',
       'patroonvoltooiing werkbladen generator',
-      'patronenherkenning werkblad maker negen typen',
+      'patronenherkenning werkblad generator negen typen',
       'rastergebaseerde patronen werkblad gratis proberen',
     ],
     lsiKeywords: [
@@ -28,7 +28,7 @@ const content: ToolContent = {
     title: 'Patronen herkennen werkbladen gratis maken in 8 stappen',
     steps: [
       {
-        title: 'Open de Patronen Werkblad Maker',
+        title: 'Open de Patronen Werkblad Generator',
         description: 'Klik op "Gratis proefversie" om de generator te starten in je browser. De tool laadt direct met een instellingenzijbalk links en een live voorbeeldcanvas rechts. Geen account aanmaken, geen software downloaden, geen installatie nodig — begin onmiddellijk met het maken van patronenherkenning werkbladen.',
       },
       {
@@ -203,11 +203,11 @@ const content: ToolContent = {
   internalLinks: [
     { pageType: 'app', slug: 'patronen-werkbladen', anchorText: 'Watermerk verwijderen en verkopen met commerciële licentie' },
     { pageType: 'tool', slug: 'patroontrein-maker', anchorText: 'Patroontrein Maker' },
-    { pageType: 'tool', slug: 'groot-klein-werkblad-maker', anchorText: 'Groot & Klein Werkblad Maker' },
-    { pageType: 'tool', slug: 'rastertekenen-maker', anchorText: 'Rastertekenen Werkblad Maker' },
-    { pageType: 'tool', slug: 'koppelen-werkblad-maker', anchorText: 'Koppelwerkblad Maker' },
+    { pageType: 'tool', slug: 'groot-klein-werkblad-generator', anchorText: 'Groot & Klein Werkblad Generator' },
+    { pageType: 'tool', slug: 'rastertekenen-maker', anchorText: 'Rastertekenen Werkblad Generator' },
+    { pageType: 'tool', slug: 'koppelen-werkblad-generator', anchorText: 'Koppelwerkblad Maker' },
     { pageType: 'tool', slug: 'wat-hoort-er-niet-bij-maker', anchorText: 'Welke Hoort Er Niet Bij Maker' },
-    { pageType: 'tool', slug: 'schaduw-koppelen-maker', anchorText: 'Schaduw Matching Werkblad Maker' },
+    { pageType: 'tool', slug: 'schaduw-koppelen-maker', anchorText: 'Schaduw Matching Werkblad Generator' },
     { pageType: 'tool', slug: 'kleurplaten-maker', anchorText: 'Kleurplaten Maker' },
   ],
 

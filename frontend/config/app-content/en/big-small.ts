@@ -2,9 +2,9 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'size comparison worksheet maker for Etsy',
+    primaryKeyword: 'size comparison worksheet generator for Etsy',
     secondaryKeywords: [
-      'size comparison worksheet maker for Etsy printables',
+      'size comparison worksheet generator for Etsy printables',
       'create big and small worksheets for Etsy shop',
       'size discrimination printables for Amazon KDP',
       'size comparison worksheets with commercial license',
@@ -15,7 +15,7 @@ const content: AppContent = {
       'sell visual discrimination worksheets commercially',
       'early learning classification products',
     ],
-    titleTag: 'Size Comparison Worksheet Maker for Etsy | LCS',
+    titleTag: 'Size Comparison Worksheet Generator for Etsy | LCS',
     metaDescription: 'Create size comparison worksheets to sell on Etsy & KDP. Five question types, themed images, auto answer keys, commercial license. Try free -- no signup.',
   },
 

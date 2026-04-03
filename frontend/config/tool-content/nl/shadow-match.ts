@@ -6,11 +6,11 @@ const content: ToolContent = {
     secondaryKeywords: [
       'schaduw koppelen werkbladen online maken gratis',
       'silhouet koppelwerkblad generator',
-      'printbare schaduwpuzzel maker met antwoordblad',
+      'printbare schaduwpuzzel generator met antwoordblad',
       'schaduw matching werkblad tool online',
     ],
     lsiKeywords: [
-      'pixelniveau silhouet werkblad maker gratis',
+      'pixelniveau silhouet werkblad generator gratis',
       'gesplitste-afbeelding koppelpuzzel generator',
       'automatisch antwoordblad schaduwpuzzel tool',
     ],
@@ -28,7 +28,7 @@ const content: ToolContent = {
     title: 'Hoe maakt u gratis schaduwwerkbladen online?',
     steps: [
       {
-        title: 'Open de Schaduw Koppelen Maker',
+        title: 'Open de Schaduw Koppelen Generator',
         description: 'Klik op "Gratis proefversie" om de schaduw koppelen werkblad generator te starten in je browser. De tool laadt direct met een instellingenzijbalk links en een dubbel-tabblad canvas rechts — één tabblad voor het werkblad, één voor het antwoordblad. Geen account aanmaken, geen software downloaden, geen installatie nodig — begin onmiddellijk met het maken van schaduw koppelen werkbladen.',
       },
       {
@@ -187,7 +187,7 @@ const content: ToolContent = {
       answer: 'Beide oefenmodi gebruiken een vast aantal van 4 koppelitems per werkblad. Dit biedt de optimale balans voor schaduw- en gesplitste-afbeelding koppeling: genoeg variatie om een echte koppeluitdaging te creëren met het derangement-algoritme, terwijl elke afbeelding groot genoeg blijft voor gebruikers om fijne details in silhouetten en gesplitste helften te bestuderen. Het consistente 4-items formaat werkt ook goed voor gebundelde producten waar elke pagina voorspelbare inhoudsdichtheid en visuele balans heeft.',
     },
     {
-      question: 'Is de Schaduw Koppelen Maker taalgevoelig?',
+      question: 'Is de Schaduw Koppelen Generator taalgevoelig?',
       answer: 'Nee. Schaduw Koppelen is puur visueel — de werkbladuitvoer bevat uitsluitend afbeeldingen, silhouetten en gesplitste helften zonder gelokaliseerde woordinhoud op het werkblad zelf. De app-interface (menu\'s, knoppen, koptekst) ondersteunt alle 11 talen, maar het gegenereerde werkblad werkt identiek ongeacht taalselectie. Dit maakt schaduw koppelen werkbladen universeel verkoopbaar over alle markten zonder vertaling.',
     },
     {
@@ -206,12 +206,12 @@ const content: ToolContent = {
 
   internalLinks: [
     { pageType: 'app', slug: 'schaduw-matching-werkbladen', anchorText: 'Watermerk verwijderen en verkopen met commerciële licentie' },
-    { pageType: 'tool', slug: 'koppelen-werkblad-maker', anchorText: 'Koppelwerkblad Maker' },
+    { pageType: 'tool', slug: 'koppelen-werkblad-generator', anchorText: 'Koppelwerkblad Maker' },
     { pageType: 'tool', slug: 'raster-puzzel-maker', anchorText: 'Rasterpuzzel Maker' },
     { pageType: 'tool', slug: 'plaatjesbingo-maker', anchorText: 'Plaatjesbingo Maker' },
     { pageType: 'tool', slug: 'ontbrekende-stukjes-maker', anchorText: 'Ontbrekende Stukjes Puzzel Maker' },
     { pageType: 'tool', slug: 'wat-hoort-er-niet-bij-maker', anchorText: 'Welke Hoort Er Niet Bij Maker' },
-    { pageType: 'tool', slug: 'plaatjes-sorteren-maker', anchorText: 'Sorteer Werkblad Maker' },
+    { pageType: 'tool', slug: 'plaatjes-sorteren-maker', anchorText: 'Sorteer Werkblad Generator' },
     { pageType: 'tool', slug: 'kleurplaten-maker', anchorText: 'Kleurplaten Maker' },
   ],
 

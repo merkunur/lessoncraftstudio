@@ -28,8 +28,8 @@ const content: ToolContent = {
     title: 'Aftrekwerkbladen maken in 8 eenvoudige stappen',
     steps: [
       {
-        title: 'Open de werkblad maker',
-        description: 'Klik op "Gratis proefversie" om de aftrekken werkblad maker te starten. De tool opent direct in je browser met een donkere zijbalk links voor alle instellingen en een helder canvas rechts voor de live voorbeeldweergave. Geen account of software-download nodig — alles draait direct in de browser.',
+        title: 'Open de werkblad generator',
+        description: 'Klik op "Gratis proefversie" om de aftrekken werkblad generator te starten. De tool opent direct in je browser met een donkere zijbalk links voor alle instellingen en een helder canvas rechts voor de live voorbeeldweergave. Geen account of software-download nodig — alles draait direct in de browser.',
       },
       {
         title: 'Kies je oefenmodus',
@@ -196,12 +196,12 @@ const content: ToolContent = {
 
   internalLinks: [
     { pageType: 'app', slug: 'aftrekken-werkbladen', anchorText: 'Watermerk verwijderen en verkopen met commerciële licentie' },
-    { pageType: 'tool', slug: 'optellen-werkblad-maker', anchorText: 'Gratis optelwerkbladen maker' },
-    { pageType: 'tool', slug: 'code-optellen-werkblad-maker', anchorText: 'Code optellen werkblad maker' },
-    { pageType: 'tool', slug: 'meer-minder-werkblad-maker', anchorText: 'Meer of minder werkblad maker' },
+    { pageType: 'tool', slug: 'optellen-werkblad-generator', anchorText: 'Gratis optelwerkbladen maker' },
+    { pageType: 'tool', slug: 'code-optellen-werkblad-generator', anchorText: 'Code optellen werkblad generator' },
+    { pageType: 'tool', slug: 'meer-minder-werkblad-generator', anchorText: 'Meer of minder werkblad generator' },
     { pageType: 'tool', slug: 'rekenpuzzel-maker', anchorText: 'Gratis rekenpuzzel maker' },
-    { pageType: 'tool', slug: 'reken-werkblad-maker', anchorText: 'Gratis rekenwerkbladen maker' },
-    { pageType: 'tool', slug: 'koppelen-werkblad-maker', anchorText: 'Gratis koppelwerkbladen maker' },
+    { pageType: 'tool', slug: 'reken-werkblad-generator', anchorText: 'Gratis rekenwerkbladen maker' },
+    { pageType: 'tool', slug: 'koppelen-werkblad-generator', anchorText: 'Gratis koppelwerkbladen maker' },
     { pageType: 'tool', slug: 'kleurplaten-maker', anchorText: 'Gratis kleurplaten maker' },
   ],
 

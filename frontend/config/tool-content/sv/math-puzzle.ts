@@ -29,7 +29,7 @@ const content: ToolContent = {
     steps: [
       {
         title: 'Öppna pusselgeneratorn',
-        description: 'Klicka på \"Prova gratis nu\" för att starta mattepussel-skaparen. Verktyget öppnas direkt i din webbläsare med ett mörkt sidofält till vänster för inställningar och en ljus arbetsyta till höger för din liveförhandsvisning. Inget konto eller nedladdning krävs.',
+        description: 'Klicka på \"Prova gratis nu\" för att starta mattepussel-generatorn. Verktyget öppnas direkt i din webbläsare med ett mörkt sidofält till vänster för inställningar och en ljus arbetsyta till höger för din liveförhandsvisning. Inget konto eller nedladdning krävs.',
       },
       {
         title: 'Ställ in rutnätsstorleken',
@@ -198,13 +198,13 @@ const content: ToolContent = {
 
   internalLinks: [
     { pageType: 'app', slug: 'mattepussel-arbetsblad', anchorText: 'Mattepussel Arbetsblad — Fullständiga Produktdetaljer' },
-    { pageType: 'tool', slug: 'additions-arbetsblad-skapare', anchorText: 'Additions Arbetsblad Skapare' },
-    { pageType: 'tool', slug: 'subtraktions-arbetsblad-skapare', anchorText: 'Subtraktions Arbetsblad Skapare' },
-    { pageType: 'tool', slug: 'kodadditions-arbetsblad-skapare', anchorText: 'Kodadditions Arbetsblad Skapare' },
-    { pageType: 'tool', slug: 'mer-eller-mindre-arbetsblad-skapare', anchorText: 'Mer eller Mindre Arbetsblad Skapare' },
-    { pageType: 'tool', slug: 'matte-arbetsblad-skapare', anchorText: 'Matte Arbetsblad Skapare' },
-    { pageType: 'tool', slug: 'matchnings-arbetsblad-skapare', anchorText: 'Matchnings Arbetsblad Skapare' },
-    { pageType: 'tool', slug: 'saknade-bitar-skapare', anchorText: 'Saknade Bitar Skapare' },
+    { pageType: 'tool', slug: 'additions-arbetsblad-skapare', anchorText: 'Additions Arbetsblad Generator' },
+    { pageType: 'tool', slug: 'subtraktions-arbetsblad-skapare', anchorText: 'Subtraktions Arbetsblad Generator' },
+    { pageType: 'tool', slug: 'kodadditions-arbetsblad-skapare', anchorText: 'Kodadditions Arbetsblad Generator' },
+    { pageType: 'tool', slug: 'mer-eller-mindre-arbetsblad-skapare', anchorText: 'Mer eller Mindre Arbetsblad Generator' },
+    { pageType: 'tool', slug: 'matte-arbetsblad-skapare', anchorText: 'Matte Arbetsblad Generator' },
+    { pageType: 'tool', slug: 'matchnings-arbetsblad-skapare', anchorText: 'Matchnings Arbetsblad Generator' },
+    { pageType: 'tool', slug: 'saknade-bitar-skapare', anchorText: 'Saknade Bitar Generator' },
   ],
 
   visuals: {

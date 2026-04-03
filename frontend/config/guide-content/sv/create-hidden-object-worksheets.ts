@@ -15,7 +15,7 @@ const content: GuideContent = {
       'söka och hitta utskriftsklara sidor',
       'sälja hitta dolda föremål-arbetsblad på Etsy',
       'Amazon KDP sök och hitta aktivitetsböcker',
-      'kommersiell licens hitta dolda föremål-skapare',
+      'kommersiell licens hitta dolda föremål-generator',
     ],
     titleTag: 'Hitta och finn att sälja online | LessonCraftStudio',
     metaDescription: 'Hur du skapar hitta föremålen-arbetsblad med 2 spellägen: I Spy och Udda en ut. Bygg tematiska scener, generera facit och sälj på Etsy och Amazon KDP.',

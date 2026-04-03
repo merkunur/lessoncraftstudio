@@ -4,7 +4,7 @@ const content: AppContent = {
   seo: {
     primaryKeyword: 'word scramble maker for Etsy sellers',
     secondaryKeywords: [
-      'word scramble worksheet maker for Etsy sellers',
+      'word scramble worksheet generator for Etsy sellers',
       'create word scramble puzzles for Etsy shop',
       'letter unscramble printables for Amazon KDP',
       'word scramble generator with commercial license',

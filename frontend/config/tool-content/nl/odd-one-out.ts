@@ -6,11 +6,11 @@ const content: ToolContent = {
     secondaryKeywords: [
       'welke hoort er niet bij werkbladen online maken gratis',
       'vreemde eend puzzel generator',
-      'printbare welke hoort er niet bij maker met antwoordblad',
+      'printbare welke hoort er niet bij generator met antwoordblad',
       'visuele discriminatie werkblad tool online',
     ],
     lsiKeywords: [
-      'identiek en vergelijkbaar modus vreemde eend maker',
+      'identiek en vergelijkbaar modus vreemde eend generator',
       'per-oefening overschrijving puzzel generator gratis',
       'automatisch antwoordblad rode cirkel werkblad tool',
     ],
@@ -28,7 +28,7 @@ const content: ToolContent = {
     title: 'Hoe maakt u gratis welke hoort er niet bij werkbladen?',
     steps: [
       {
-        title: 'Open de Welke Hoort Er Niet Bij Maker',
+        title: 'Open de Welke Hoort Er Niet Bij Generator',
         description: 'Klik op "Gratis proefversie" om de welke hoort er niet bij werkblad generator te starten in je browser. De tool laadt direct met een instellingenzijbalk links en een dubbel-tabblad canvas rechts — één tabblad voor het werkblad, één voor het antwoordblad. Geen account aanmaken, geen software downloaden, geen installatie nodig — begin onmiddellijk met het maken van welke hoort er niet bij werkbladen.',
       },
       {
@@ -183,7 +183,7 @@ const content: ToolContent = {
       answer: 'Ja. Schakel het selectievakje "Naam-/Datumvelden Toevoegen" in om naam- en datumlijnen toe te voegen voor gebruikerverantwoording. Schakel "Oefeningnummers Tonen" in om cijfers aan de linkerkant van elke oefenkaart weer te geven — nummers gebruiken 25px breedte met 15px tussenruimte van de kaartinhoud. Oefeningnummers helpen bij klasbespreking en maken het gemakkelijk voor verkopers om naar specifieke rijen te verwijzen. Beide opties zijn onafhankelijk en kunnen samen of apart worden ingeschakeld.',
     },
     {
-      question: 'Is de Welke Hoort Er Niet Bij Maker taalgevoelig?',
+      question: 'Is de Welke Hoort Er Niet Bij Generator taalgevoelig?',
       answer: 'Nee. Welke Hoort Er Niet Bij is een puur visueel puzzelformaat — er verschijnt geen tekst op de werkbladinhoud zelf. De vier afbeeldingen per rij, de rode cirkelmarkeringen op het antwoordblad en de oefenindeling zijn allemaal universeel. Het enige taalgevoelige element is de automatisch gegenereerde koptekst ("Vind de Vreemde Eend"), die vertaalt in alle 11 ondersteunde talen. Dit maakt welke hoort er niet bij werkbladen universeel verkoopbaar over alle markten zonder vertaling — één set puzzels bedient elke internationale marktplaats.',
     },
     {
@@ -203,11 +203,11 @@ const content: ToolContent = {
   internalLinks: [
     { pageType: 'app', slug: 'welke-hoort-niet-bij-werkbladen', anchorText: 'Watermerk verwijderen en verkopen met commerciële licentie' },
     { pageType: 'tool', slug: 'ontbrekende-stukjes-maker', anchorText: 'Ontbrekende Stukjes Puzzel Maker' },
-    { pageType: 'tool', slug: 'schaduw-koppelen-maker', anchorText: 'Schaduw Matching Werkblad Maker' },
+    { pageType: 'tool', slug: 'schaduw-koppelen-maker', anchorText: 'Schaduw Matching Werkblad Generator' },
     { pageType: 'tool', slug: 'raster-puzzel-maker', anchorText: 'Rasterpuzzel Maker' },
-    { pageType: 'tool', slug: 'koppelen-werkblad-maker', anchorText: 'Koppelwerkblad Maker' },
-    { pageType: 'tool', slug: 'plaatjes-sorteren-maker', anchorText: 'Sorteer Werkblad Maker' },
-    { pageType: 'tool', slug: 'woordzoeker-maker', anchorText: 'Woordzoeker Werkblad Maker' },
+    { pageType: 'tool', slug: 'koppelen-werkblad-generator', anchorText: 'Koppelwerkblad Maker' },
+    { pageType: 'tool', slug: 'plaatjes-sorteren-maker', anchorText: 'Sorteer Werkblad Generator' },
+    { pageType: 'tool', slug: 'woordzoeker-maker', anchorText: 'Woordzoeker Werkblad Generator' },
     { pageType: 'tool', slug: 'kleurplaten-maker', anchorText: 'Kleurplaten Maker' },
   ],
 

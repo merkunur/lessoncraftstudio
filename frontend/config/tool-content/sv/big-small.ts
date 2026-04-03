@@ -28,7 +28,7 @@ const content: ToolContent = {
     title: 'Hur du Skapar Storleksjämförelse Arbetsblad i 8 Enkla Steg',
     steps: [
       {
-        title: 'Öppna Stor och Liten Arbetsblad Skaparen',
+        title: 'Öppna Stor och Liten Arbetsblad Generatorn',
         description: 'Klicka på \"Prova gratis nu\" för att starta generatorn i din webbläsare. Verktyget laddas direkt med ett inställningssidofält till vänster och en liveförhandsvisnings arbetsyta till höger. Inget konto, ingen nedladdning, ingen installation krävs — börja bygga storleksjämförelse arbetsblad omedelbart.',
       },
       {
@@ -202,13 +202,13 @@ const content: ToolContent = {
 
   internalLinks: [
     { pageType: 'app', slug: 'stort-litet-arbetsblad', anchorText: 'Stor och Liten Arbetsblad — Fullständiga Produktdetaljer' },
-    { pageType: 'tool', slug: 'moenstertaag-skapare', anchorText: 'Mönstertåg Skapare' },
-    { pageType: 'tool', slug: 'moenster-arbetsblad-skapare', anchorText: 'Mönster Arbetsblad Skapare' },
-    { pageType: 'tool', slug: 'rita-och-faerglaeg-skapare', anchorText: 'Rita och Färglägg Skapare' },
-    { pageType: 'tool', slug: 'matchnings-arbetsblad-skapare', anchorText: 'Matchnings Arbetsblad Skapare' },
-    { pageType: 'tool', slug: 'hitta-udda-skapare', anchorText: 'Hitta Udda Bilden Skapare' },
-    { pageType: 'tool', slug: 'skuggmatchning-skapare', anchorText: 'Skuggmatchning Skapare' },
-    { pageType: 'tool', slug: 'linjer-ovningar-skapare', anchorText: 'Rita Linjer Skapare' },
+    { pageType: 'tool', slug: 'moenstertaag-skapare', anchorText: 'Mönstertåg Generator' },
+    { pageType: 'tool', slug: 'moenster-arbetsblad-skapare', anchorText: 'Mönster Arbetsblad Generator' },
+    { pageType: 'tool', slug: 'rita-och-faerglaeg-skapare', anchorText: 'Rita och Färglägg Generator' },
+    { pageType: 'tool', slug: 'matchnings-arbetsblad-skapare', anchorText: 'Matchnings Arbetsblad Generator' },
+    { pageType: 'tool', slug: 'hitta-udda-skapare', anchorText: 'Hitta Udda Bilden Generator' },
+    { pageType: 'tool', slug: 'skuggmatchning-skapare', anchorText: 'Skuggmatchning Generator' },
+    { pageType: 'tool', slug: 'linjer-ovningar-skapare', anchorText: 'Rita Linjer Generator' },
   ],
 
   visuals: {

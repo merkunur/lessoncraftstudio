@@ -4,7 +4,7 @@ const content: ToolContent = {
   seo: {
     primaryKeyword: 'præpositioner arbejdsark generator',
     secondaryKeywords: [
-      'præpositioner arbejdsark skaber for sælgere',
+      'præpositioner arbejdsark generator for sælgere',
       'opret præpositioner arbejdsark til salg',
       'printbare rumlige præpositioner arbejdsark kommercielt brug',
       'præpositioner generator til KDP',
@@ -28,7 +28,7 @@ const content: ToolContent = {
     title: 'Sådan Opretter du Præpositioner Arbejdsark i 8 Enkle Trin',
     steps: [
       {
-        title: 'Åbn Præpositioner Arbejdsark Skaberen',
+        title: 'Åbn Præpositioner Arbejdsark Generatoren',
         description: 'Klik på \"Prøv gratis nu\" for at starte generatoren. Værktøjet åbner direkte i din webbrowser med et indstillingssidepanel til venstre og et liveforhåndsvisnings-lærred til højre. Ingen konto, download eller installation krævet.',
       },
       {
@@ -81,7 +81,7 @@ const content: ToolContent = {
     },
     {
       title: 'Tilpassede billed-brandede arbejdsark',
-      description: 'Upload egne illustrationer, maskotbilleder eller licenseret kunstværk for at oprette præpositioner arbejdsark, som ingen anden sælger kan replikere. Kombinér tilpassede hovedbilleder med tilpassede formerstatninger for en helt brandet visuel identitet. Hjemmeundervisningsindholdsskabere kan bruge velkendte objekter, og Etsy-sælgere kan opbygge en distinkt butiksæstetik gennem hele deres produktlinje.',
+      description: 'Upload egne illustrationer, maskotbilleder eller licenseret kunstværk for at oprette præpositioner arbejdsark, som ingen anden sælger kan replikere. Kombinér tilpassede hovedbilleder med tilpassede formerstatninger for en helt brandet visuel identitet. Hjemmeundervisningsindholdsgeneratore kan bruge velkendte objekter, og Etsy-sælgere kan opbygge en distinkt butiksæstetik gennem hele deres produktlinje.',
     },
     {
       title: 'Sæsonbetonede præpositionspakker',
@@ -202,13 +202,13 @@ const content: ToolContent = {
 
   internalLinks: [
     { pageType: 'app', slug: 'praepositioner-arbejdsark', anchorText: 'Præpositioner Arbejdsark — Komplette Produktdetaljer' },
-    { pageType: 'tool', slug: 'alfabettog-skaber', anchorText: 'Alfabettog Skaber' },
-    { pageType: 'tool', slug: 'gaet-ordet-skaber', anchorText: 'Gæt Ordet Skaber' },
-    { pageType: 'tool', slug: 'ordmix-skaber', anchorText: 'Bogstavrod Skaber' },
-    { pageType: 'tool', slug: 'ordsoegning-skaber', anchorText: 'Ordsøgning Skaber' },
-    { pageType: 'tool', slug: 'kryptogram-skaber', anchorText: 'Kryptogram Skaber' },
-    { pageType: 'tool', slug: 'skriveovelser-skaber', anchorText: 'Skriveøvelser Skaber' },
-    { pageType: 'tool', slug: 'matchnings-arbejdsark-skaber', anchorText: 'Matchnings Arbejdsark Skaber' },
+    { pageType: 'tool', slug: 'alfabettog-skaber', anchorText: 'Alfabettog Generator' },
+    { pageType: 'tool', slug: 'gaet-ordet-skaber', anchorText: 'Gæt Ordet Generator' },
+    { pageType: 'tool', slug: 'ordmix-skaber', anchorText: 'Bogstavrod Generator' },
+    { pageType: 'tool', slug: 'ordsoegning-skaber', anchorText: 'Ordsøgning Generator' },
+    { pageType: 'tool', slug: 'kryptogram-skaber', anchorText: 'Kryptogram Generator' },
+    { pageType: 'tool', slug: 'skriveovelser-skaber', anchorText: 'Skriveøvelser Generator' },
+    { pageType: 'tool', slug: 'matchnings-arbejdsark-skaber', anchorText: 'Matchnings Arbejdsark Generator' },
   ],
 
   visuals: {

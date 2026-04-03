@@ -11,10 +11,10 @@ export async function GET(request: NextRequest) {
       {
         id: 'post_1',
         platform: 'facebook',
-        content: '🎒 Back to school season is here! Create engaging worksheets for your students with our easy-to-use generators. Try it free today! #Education #Teachers #BackToSchool',
+        content: '🎒 Back to school season means peak demand! Create printable worksheets to sell on Etsy with our easy-to-use generators. Try free today! #PrintableBusiness #EtsySellers #BackToSchool',
         images: ['https://example.com/image1.jpg'],
         link: 'https://www.lessoncraftstudio.com/en/apps',
-        hashtags: ['#Education', '#Teachers', '#BackToSchool'],
+        hashtags: ['#PrintableBusiness', '#EtsySellers', '#BackToSchool'],
         scheduledAt: new Date(Date.now() + 2 * 60 * 60 * 1000).toISOString(),
         status: 'scheduled'
       },

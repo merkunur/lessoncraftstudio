@@ -162,7 +162,7 @@ const content: GuideContent = {
     { pageType: 'start', slug: 'guide-licence-commerciale', anchorText: 'Guide des licences commerciales' },
     { pageType: 'app', slug: 'parcours-images-fiches', anchorText: 'Générateur de labyrinthes Picture Path — Détails complets' },
     { pageType: 'app', slug: 'sudoku-enfants-fiches', anchorText: 'Générateur de sudoku en images — Détails complets' },
-    { pageType: 'tool', slug: 'generateur-parcours-images', anchorText: 'Essayer le créateur de labyrinthes Picture Path' },
+    { pageType: 'tool', slug: 'generateur-parcours-images', anchorText: 'Essayer le générateur de labyrinthes Picture Path' },
   ],
 
   toolsRecommended: [

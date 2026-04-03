@@ -5,7 +5,7 @@ const content: AppContent = {
     primaryKeyword: 'præpositioner arbejdsark generator',
     secondaryKeywords: [
       'printbare præpositioner arbejdsark til Etsy-sælgere',
-      'rumligt sprog arbejdsark skaber til KDP-udgivere',
+      'rumligt sprog arbejdsark generator til KDP-udgivere',
       'præpositioner aktiviteter sælg på Gumroad',
       'præpositioner printables kommerciel licens',
     ],
@@ -63,7 +63,7 @@ const content: AppContent = {
       {
         title: '8 rumlige præpositioner med udfyldnings- og flervalgstilstande',
         description:
-          'Øv otte kernepræpositioner — i, på, under, ved siden af, bag, mellem, over og foran — via to forskellige øvelsestyper. Tilstanden Udfyldningsøvelse viser billede-og-form sætninger med en manglende præposition, som brugerne udfylder, hvilket bygger skrive- og hukommelsesfærdigheder. Tilstanden Flervalgsspørgsmål viser en rumlig beskrivelse og beder brugerne om at identificere det matchende billede, hvilket styrker genkendelse og forståelse. At bruge begge tilstande på forskellige arbejdsark skaber en naturlig progression fra let til svær inden for den samme produktpakke.',
+          'Øv otte kernepræpositioner — i, på, under, ved siden af, bag, mellem, over og foran — via to forskellige øvelsestyper. Tilstanden Udfyldningsøvelse viser billede-og-form sætninger med en manglende præposition, som brugerne udfylder, hvilket bygger skrive- og hukommelsesfærdigheder. Tilstanden Flervalgsspørgsmål viser en rumlig beskrivelse og beder brugerne om at identificere det matchende billede, hvilket styrker genkendelse og forståelse. At bruge begge tilstande på forskellige arbejdsark generator en naturlig progression fra let til svær inden for den samme produktpakke.',
       },
       {
         title: 'Sprogbevidst grammatik med kasus, elision og artikelregler',
@@ -73,7 +73,7 @@ const content: AppContent = {
       {
         title: 'Genstande + Former: to billedtyper for rumlig kontekst',
         description:
-          'Hver øvelse placerer en genstand (en tematisk illustration som en kat, bil eller æble) i forhold til en form (cirkel, kubus, cylinder, hjerte, sekskant, kvadrat, stjerne eller trekant). Dette system med to billedtyper skaber tydelige, entydige rumlige relationer, som brugerne kan forstå med et blik. Genstandene kommer fra biblioteket med 104 temaer og mere end 3.100 illustrationer, mens de 8 geometriske former også fungerer som tidlig introduktion til geometri. Formnavne er fuldstændigt oversat i alle 11 sprog med korrekte bøjningsformer.',
+          'Hver øvelse placerer en genstand (en tematisk illustration som en kat, bil eller æble) i forhold til en form (cirkel, kubus, cylinder, hjerte, sekskant, kvadrat, stjerne eller trekant). Dette system med to billedtyper generator tydelige, entydige rumlige relationer, som brugerne kan forstå med et blik. Genstandene kommer fra biblioteket med 104 temaer og mere end 3.100 illustrationer, mens de 8 geometriske former også fungerer som tidlig introduktion til geometri. Formnavne er fuldstændigt oversat i alle 11 sprog med korrekte bøjningsformer.',
       },
       {
         title: 'Justerbart antal øvelser fra 1 til 8 per arbejdsark',
@@ -83,7 +83,7 @@ const content: AppContent = {
       {
         title: '104 visuelle temaer med 3.100+ billeder og 8 geometriske former',
         description:
-          'Gennemse et bibliotek med mere end 3.100 højopløste illustrationer, organiseret i 104 temaer, herunder dyr, køretøjer, mad, højtider, sport, rummet, natur og mere. Hvert tema leverer genstandsbilleder, der placeres i forhold til en af de 8 geometriske former. Du kan også uploade dine egne billeder til brandede arbejdsark. Kombinationen af tematiske genstande og geometriske former skaber tusindvis af unikke øvelsespermutationer — tilstrækkelig variation til årevis af produktskabelse.',
+          'Gennemse et bibliotek med mere end 3.100 højopløste illustrationer, organiseret i 104 temaer, herunder dyr, køretøjer, mad, højtider, sport, rummet, natur og mere. Hvert tema leverer genstandsbilleder, der placeres i forhold til en af de 8 geometriske former. Du kan også uploade dine egne billeder til brandede arbejdsark. Kombinationen af tematiske genstande og geometriske former generator tusindvis af unikke øvelsespermutationer — tilstrækkelig variation til årevis af produktskabelse.',
       },
       {
         title: 'Automatisk generering af facit',
@@ -153,12 +153,12 @@ const content: AppContent = {
     {
       question: 'Hvad er forskellen mellem genstande og former?',
       answer:
-        'Genstande er tematiske illustrationer fra billedbiblioteket — dyr, køretøjer, mad og mere — som repræsenterer det objekt, der placeres. Former er geometriske figurer (cirkel, kubus, cylinder, hjerte, sekskant, kvadrat, stjerne, trekant), der fungerer som rumlig referencepunkt. Hver øvelse placerer en genstand i forhold til en form, hvilket skaber tydelige rumlige relationer som \"Katten er under kubusen.\"',
+        'Genstande er tematiske illustrationer fra billedbiblioteket — dyr, køretøjer, mad og mere — som repræsenterer det objekt, der placeres. Former er geometriske figurer (cirkel, kubus, cylinder, hjerte, sekskant, kvadrat, stjerne, trekant), der fungerer som rumlig referencepunkt. Hver øvelse placerer en genstand i forhold til en form, hvilket generator tydelige rumlige relationer som \"Katten er under kubusen.\"',
     },
     {
       question: 'Hvor mange øvelser kan jeg have på hvert arbejdsark?',
       answer:
-        'Du kan indstille fra 1 til 8 øvelser per arbejdsark. Færre øvelser skaber enklere, mere overskuelige sider, perfekte til yngre brugere eller målrettet øvelse. Flere øvelser maksimerer øvelsestætheden til gennemgangssessioner, evalueringer eller lektieark. At variere antallet af øvelser i dine produktlistinger hjælper dig også med at oprette forskellige priskategorier.',
+        'Du kan indstille fra 1 til 8 øvelser per arbejdsark. Færre øvelser generator enklere, mere overskuelige sider, perfekte til yngre brugere eller målrettet øvelse. Flere øvelser maksimerer øvelsestætheden til gennemgangssessioner, evalueringer eller lektieark. At variere antallet af øvelser i dine produktlistinger hjælper dig også med at oprette forskellige priskategorier.',
     },
     {
       question: 'Er Præpositioner Arbejdsark Generatoren sprogfølsom?',

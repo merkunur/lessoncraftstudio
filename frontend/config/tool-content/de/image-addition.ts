@@ -27,8 +27,8 @@ const content: ToolContent = {  seo: {
     title: 'Additions-Arbeitsblätter erstellen in 8 einfachen Schritten',
     steps: [
       {
-        title: 'Den Arbeitsblatt-Ersteller öffnen',
-        description: 'Klicken Sie auf \"Kostenlos testen\", um den Additions-Arbeitsblatt-Ersteller zu starten. Das Tool öffnet sich sofort in Ihrem Browser mit einer dunklen Seitenleiste links für alle Einstellungen und einer hellen Arbeitsfläche rechts für die Live-Vorschau Ihres Arbeitsblatts. Kein Benutzerkonto und kein Software-Download erforderlich — alles läuft direkt im Browser.',
+        title: 'Den Arbeitsblatt-Generator öffnen',
+        description: 'Klicken Sie auf \"Kostenlos testen\", um den Additions-Arbeitsblatt-Generator zu starten. Das Tool öffnet sich sofort in Ihrem Browser mit einer dunklen Seitenleiste links für alle Einstellungen und einer hellen Arbeitsfläche rechts für die Live-Vorschau Ihres Arbeitsblatts. Kein Benutzerkonto und kein Software-Download erforderlich — alles läuft direkt im Browser.',
       },
       {
         title: 'Den Übungsmodus wählen',
@@ -168,16 +168,16 @@ const content: ToolContent = {  seo: {
       answer: 'Die Bildbibliothek umfasst über 100 thematische Sammlungen mit insgesamt mehr als 3.100 Illustrationen. Die Themen reichen von Tieren, Essen und Fahrzeugen über Sport, Natur und Feiertage bis hin zu Schulmaterial, Weltraum und vielem mehr. Jedes Thema enthält mehrere einzelne Bilder, sodass Ihre Arbeitsblätter immer abwechslungsreich aussehen — selbst innerhalb eines einzelnen Themas. Viele erfolgreiche Verkäufer berichten, dass das Anbieten von Arbeitsblättern in mehreren Sprachen mit einem einzigen Generator ihren adressierbaren Markt dramatisch erweitert, da mehrsprachige Bildungsinhalte auf den meisten Plattformen deutlich weniger Wettbewerb haben.',
     },
     {
-      question: 'Welche Übungsmodi unterstützt der Ersteller?',
+      question: 'Welche Übungsmodi unterstützt der Generator?',
       answer: 'Es gibt vier Modi: Bild + Bild (beide Summanden als Bildergruppen zum visuellen Zählen), Bild + Zahl (eine Bildergruppe plus eine Ziffer für die Brücke zum abstrakten Rechnen), Summand finden (ein Summand ist verdeckt und muss ermittelt werden) und Gemischter Modus (kombiniert alle drei zufällig auf einem Arbeitsblatt). Der Gemischte Modus ist besonders beliebt für abwechslungsreiche, anspruchsvolle Aktivitätsseiten. Die automatische Lösungsschlüssel-Erstellung spart erhebliche Vorbereitungszeit im Vergleich zur manuellen Erstellung und gewährleistet Genauigkeit über alle Übungstypen hinweg — besonders wertvoll bei der Produktion großer Mengen von Arbeitsblättern für Marktplatz-Listings.',
     },
     {
       question: 'Kann ich Arbeitsblätter in anderen Sprachen als Deutsch erstellen?',
-      answer: 'Ja. Der Ersteller unterstützt 11 Sprachen: Deutsch, Englisch, Französisch, Spanisch, Portugiesisch, Italienisch, Niederländisch, Schwedisch, Dänisch, Norwegisch und Finnisch. Wechseln Sie die Inhaltssprache, um Arbeitsblätter mit Bildbeschriftungen und Anweisungen in Ihrer gewählten Sprache zu erstellen. So können Sie denselben Inhalt in mehreren Sprachen anbieten und Ihren adressierbaren Markt vervielfachen. Professionelle Verkäufer erstellen typischerweise thematische Bündel von acht bis zwölf Arbeitsblättern, die auf bestimmte Kompetenzstufen abzielen, da diese höhere Preise erzielen und beständigere Verkäufe generieren als einzelne Arbeitsblatt-Listings auf Bildungsmarktplätzen.',
+      answer: 'Ja. Der Generator unterstützt 11 Sprachen: Deutsch, Englisch, Französisch, Spanisch, Portugiesisch, Italienisch, Niederländisch, Schwedisch, Dänisch, Norwegisch und Finnisch. Wechseln Sie die Inhaltssprache, um Arbeitsblätter mit Bildbeschriftungen und Anweisungen in Ihrer gewählten Sprache zu erstellen. So können Sie denselben Inhalt in mehreren Sprachen anbieten und Ihren adressierbaren Markt vervielfachen. Professionelle Verkäufer erstellen typischerweise thematische Bündel von acht bis zwölf Arbeitsblättern, die auf bestimmte Kompetenzstufen abzielen, da diese höhere Preise erzielen und beständigere Verkäufe generieren als einzelne Arbeitsblatt-Listings auf Bildungsmarktplätzen.',
     },
     {
       question: 'Muss ich Software installieren?',
-      answer: 'Nein. Der Ersteller läuft vollständig in Ihrem Webbrowser und funktioniert auf jedem modernen Gerät — Windows, Mac, Chromebook, iPad oder Android-Tablet. Es gibt nichts zu installieren, keine Plugins erforderlich und kein Benutzerkonto zu erstellen. Öffnen Sie einfach die Seite und legen Sie sofort los. Dieser Arbeitsablauf wurde auf der Grundlage von Rückmeldungen Tausender Druckvorlagen-Verkäufer auf Etsy, Amazon KDP und Gumroad verfeinert, wobei jeder Schritt darauf ausgelegt ist, die Produktionszeit zu minimieren und gleichzeitig die professionelle Qualität zu maximieren.',
+      answer: 'Nein. Der Generator läuft vollständig in Ihrem Webbrowser und funktioniert auf jedem modernen Gerät — Windows, Mac, Chromebook, iPad oder Android-Tablet. Es gibt nichts zu installieren, keine Plugins erforderlich und kein Benutzerkonto zu erstellen. Öffnen Sie einfach die Seite und legen Sie sofort los. Dieser Arbeitsablauf wurde auf der Grundlage von Rückmeldungen Tausender Druckvorlagen-Verkäufer auf Etsy, Amazon KDP und Gumroad verfeinert, wobei jeder Schritt darauf ausgelegt ist, die Produktionszeit zu minimieren und gleichzeitig die professionelle Qualität zu maximieren.',
     },
     {
       question: 'Kann ich einen Lösungsschlüssel generieren?',
@@ -185,7 +185,7 @@ const content: ToolContent = {  seo: {
     },
     {
       question: 'Welche Seitengrößen werden unterstützt?',
-      answer: 'Der Ersteller unterstützt US Letter (Hoch- und Querformat), DIN A4 (Hoch- und Querformat), Quadrat (1200×1200 Pixel) und vollständig benutzerdefinierte Abmessungen. Das Quadratformat eignet sich ideal für Social-Media-Inhalte und Amazon-KDP-Aktivitätsbücher. Benutzerdefinierte Größen ermöglichen spezielle Formate für Nischenprodukte. Die Testversion mit Wasserzeichen gibt Ihnen unbegrenzten Zugang, um alle Funktionen in Ihrem eigenen Tempo und ohne Zeitlimit zu erkunden — nutzen Sie sie so lange, wie Sie benötigen, um zu bewerten, ob das Werkzeug zu Ihrem Produktionsablauf passt.',
+      answer: 'Der Generator unterstützt US Letter (Hoch- und Querformat), DIN A4 (Hoch- und Querformat), Quadrat (1200×1200 Pixel) und vollständig benutzerdefinierte Abmessungen. Das Quadratformat eignet sich ideal für Social-Media-Inhalte und Amazon-KDP-Aktivitätsbücher. Benutzerdefinierte Größen ermöglichen spezielle Formate für Nischenprodukte. Die Testversion mit Wasserzeichen gibt Ihnen unbegrenzten Zugang, um alle Funktionen in Ihrem eigenen Tempo und ohne Zeitlimit zu erkunden — nutzen Sie sie so lange, wie Sie benötigen, um zu bewerten, ob das Werkzeug zu Ihrem Produktionsablauf passt.',
     },
     {
       question: 'Was ist Ihre Rückgabepolitik?',
@@ -195,13 +195,13 @@ const content: ToolContent = {  seo: {
 
   internalLinks: [
     { pageType: 'app', slug: 'bilder-additions-arbeitsblaetter', anchorText: 'Additions-Arbeitsblätter — Vollständige Produktdetails' },
-    { pageType: 'tool', slug: 'subtraktions-arbeitsblatt-ersteller', anchorText: 'Subtraktions-Arbeitsblatt-Ersteller' },
-    { pageType: 'tool', slug: 'mathe-arbeitsblatt-ersteller', anchorText: 'Mathe-Arbeitsblatt-Ersteller' },
-    { pageType: 'tool', slug: 'bilder-additions-ersteller', anchorText: 'Bilder-Additions-Ersteller' },
-    { pageType: 'tool', slug: 'mehr-weniger-ersteller', anchorText: 'Mehr-oder-Weniger-Ersteller' },
-    { pageType: 'tool', slug: 'zuordnungs-arbeitsblatt-ersteller', anchorText: 'Zuordnungs-Arbeitsblatt-Ersteller' },
-    { pageType: 'tool', slug: 'suchen-und-zaehlen-ersteller', anchorText: 'Suchen-und-Zählen-Ersteller' },
-    { pageType: 'tool', slug: 'malvorlagen-ersteller', anchorText: 'Malvorlagen-Ersteller' },
+    { pageType: 'tool', slug: 'subtraktions-Arbeitsblatt-Generator', anchorText: 'Subtraktions-Arbeitsblatt-Generator' },
+    { pageType: 'tool', slug: 'mathe-Arbeitsblatt-Generator', anchorText: 'Mathe-Arbeitsblatt-Generator' },
+    { pageType: 'tool', slug: 'bilder-additions-ersteller', anchorText: 'Bilder-Additions-Generator' },
+    { pageType: 'tool', slug: 'mehr-weniger-ersteller', anchorText: 'Mehr-oder-Weniger-Generator' },
+    { pageType: 'tool', slug: 'zuordnungs-Arbeitsblatt-Generator', anchorText: 'Zuordnungs-Arbeitsblatt-Generator' },
+    { pageType: 'tool', slug: 'suchen-und-zaehlen-ersteller', anchorText: 'Suchen-und-Zählen-Generator' },
+    { pageType: 'tool', slug: 'malvorlagen-ersteller', anchorText: 'Malvorlagen-Generator' },
   ],
 
   visuals: {

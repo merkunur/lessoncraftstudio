@@ -11,7 +11,7 @@ const content: GuideContent = {
     ],
     lsiKeywords: [
       'klipp-och-sortera arbetsblad för förskola',
-      'bildklassificering aktivitetsskapare',
+      'bildklassificering aktivitetsgenerator',
       'sorteringsarbetsblad med facit',
       'sälja sorteringsarbetsblad på Etsy',
       'Amazon KDP klassificeringsarbetsböcker',
@@ -31,8 +31,8 @@ const content: GuideContent = {
 
   tutorial: [
     {
-      heading: 'Öppna Bildsortering-skaparen',
-      content: 'Navigera till Bildsortering-skaparen och klicka starta. Verktyget laddas med en inställningssidopanel till vänster och en dubbelfliks-arbetsyta till höger — arbetsblad och facit genereras simultant.\n\nUtforska sidopanelerna. Sorteringskategorier kontrollerar urvalläge och kategoriinställning. Bildbiblioteket ger tillgång till temasamlingar. Sidinställningar hanterar layout och dekoration.',
+      heading: 'Öppna Bildsortering-generatorn',
+      content: 'Navigera till Bildsortering-generatorn och klicka starta. Verktyget laddas med en inställningssidopanel till vänster och en dubbelfliks-arbetsyta till höger — arbetsblad och facit genereras simultant.\n\nUtforska sidopanelerna. Sorteringskategorier kontrollerar urvalläge och kategoriinställning. Bildbiblioteket ger tillgång till temasamlingar. Sidinställningar hanterar layout och dekoration.',
     },
     {
       heading: 'Välj ditt urvalläge',
@@ -90,7 +90,7 @@ const content: GuideContent = {
     },
     {
       heading: 'Flerspråkiga och säsongsbetonade strategier',
-      content: 'Bildsortering-skaparen är språkkänslig — att byta språk ändrar kategorietiketter och rubriktext. Generera tematiska set på engelska, byt sedan till tyska, franska, spanska eller valfritt av de 11 stödda språken. Flerspråkiga sorteringspaket är underbetjänade.\n\nSäsongsbetonade möjligheter: Halloween (kostymer kontra godis), jul (dekorationer kontra mat), alla hjärtans dag (hjärtan kontra blommor), vår (blommor kontra löv, insekter kontra fåglar).\n\nSkapa säsongsprodukter under lågsäsong och lista 4–6 veckor före varje högtid.',
+      content: 'Bildsortering-generatorn är språkkänslig — att byta språk ändrar kategorietiketter och rubriktext. Generera tematiska set på engelska, byt sedan till tyska, franska, spanska eller valfritt av de 11 stödda språken. Flerspråkiga sorteringspaket är underbetjänade.\n\nSäsongsbetonade möjligheter: Halloween (kostymer kontra godis), jul (dekorationer kontra mat), alla hjärtans dag (hjärtan kontra blommor), vår (blommor kontra löv, insekter kontra fåglar).\n\nSkapa säsongsprodukter under lågsäsong och lista 4–6 veckor före varje högtid.',
     },
   ],
 

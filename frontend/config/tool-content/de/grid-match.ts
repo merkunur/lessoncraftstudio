@@ -2,12 +2,12 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'kostenloser Gitter-Zuordnungsrätsel Ersteller',
+    primaryKeyword: 'kostenloser Gitter-Zuordnungsrätsel Generator',
     secondaryKeywords: [
       'Gitter-Zuordnungsrätsel kostenlos erstellen',
       'Raster-Puzzle-Generator online ohne Anmeldung',
       'kostenlose Kachel-Zuordnungs-Arbeitsblätter erstellen',
-      'Gitter-Zuordnung Ersteller mit Lösungsschlüssel kostenlos',
+      'Gitter-Zuordnung Generator mit Lösungsschlüssel kostenlos',
     ],
     lsiKeywords: [
       'Raster-Puzzle Kachel-Zuordnung Arbeitsblätter',
@@ -28,7 +28,7 @@ const content: ToolContent = {
     title: 'Raster-Puzzle-Arbeitsblätter erstellen in 8 Schritten',
     steps: [
       {
-        title: 'Den Raster-Puzzle-Ersteller öffnen',
+        title: 'Den Raster-Puzzle-Generator öffnen',
         description: 'Klicken Sie auf \"Kostenlos testen\", um den Raster-Puzzle-Generator in Ihrem Browser zu starten. Das Tool lädt sofort mit einer Einstellungsleiste links und einer Dual-Tab-Arbeitsfläche rechts — ein Tab für das Arbeitsblatt, einer für den Lösungsschlüssel. Kein Konto erstellen, kein Software-Download, keine Installation nötig — beginnen Sie sofort mit der Erstellung von Raster-Puzzle-Arbeitsblättern.',
       },
       {
@@ -187,7 +187,7 @@ const content: ToolContent = {
       answer: 'Der Generator erkennt automatisch Ihre Seitenausrichtung und repositioniert Elemente. Hochformat-Seiten (Höhe > Breite) platzieren das Raster oben mit 45 % der verfügbaren Höhe, die nummerierte Palette darunter und eine Kopfzeile in voller Breite (100px Höhe, 15px Radius). Querformat-Seiten (Breite > Höhe) positionieren das Raster links (48 % der verfügbaren Breite) mit der Palette rechts und einer kompakten Kopfzeile (70px Höhe, 35px Radius). Diese automatische Neupositionierung stellt sicher, dass Raster-Puzzles in beiden Ausrichtungen ausgewogen und professionell aussehen, ohne manuelle Layoutanpassungen.',
     },
     {
-      question: 'Ist der Raster-Puzzle-Ersteller sprachabhängig?',
+      question: 'Ist der Raster-Puzzle-Generator sprachabhängig?',
       answer: 'Nein. Raster-Puzzle ist rein visuell — die Puzzle-Ausgabe enthält nur Bildkacheln und Nummern, ohne lokalisierte Wortinhalte auf dem Arbeitsblatt selbst. Die App-Oberfläche (Menüs, Schaltflächen, Kopfzeilentext) unterstützt alle 11 Sprachen, aber das generierte Puzzle funktioniert identisch unabhängig von der Sprachauswahl. Das macht Raster-Puzzles universell verkaufbar über alle Märkte ohne Übersetzung. Ein Puzzle-Set bedient jeden internationalen Etsy-Shop, KDP-Marktplatz und Gumroad-Käufer.',
     },
     {
@@ -206,13 +206,13 @@ const content: ToolContent = {
 
   internalLinks: [
     { pageType: 'app', slug: 'raster-puzzle-arbeitsblaetter', anchorText: 'Raster-Puzzle-Arbeitsblätter — Alle Produktdetails' },
-    { pageType: 'tool', slug: 'zuordnungs-arbeitsblatt-ersteller', anchorText: 'Zuordnungs-Arbeitsblatt-Ersteller' },
-    { pageType: 'tool', slug: 'schattenbilder-ersteller', anchorText: 'Schattenbilder-Ersteller' },
-    { pageType: 'tool', slug: 'bingo-karten-ersteller', anchorText: 'Bingo-Karten-Ersteller' },
-    { pageType: 'tool', slug: 'fehlende-puzzleteile-ersteller', anchorText: 'Fehlende-Puzzleteile-Ersteller' },
-    { pageType: 'tool', slug: 'was-passt-nicht-ersteller', anchorText: 'Was-Passt-Nicht-Ersteller' },
-    { pageType: 'tool', slug: 'bilder-sortieren-ersteller', anchorText: 'Bilder-Sortieren-Ersteller' },
-    { pageType: 'tool', slug: 'additions-arbeitsblatt-ersteller', anchorText: 'Additions-Arbeitsblatt-Ersteller' },
+    { pageType: 'tool', slug: 'zuordnungs-Arbeitsblatt-Generator', anchorText: 'Zuordnungs-Arbeitsblatt-Generator' },
+    { pageType: 'tool', slug: 'schattenbilder-ersteller', anchorText: 'Schattenbilder-Generator' },
+    { pageType: 'tool', slug: 'bingo-karten-ersteller', anchorText: 'Bingo-Karten-Generator' },
+    { pageType: 'tool', slug: 'fehlende-puzzleteile-ersteller', anchorText: 'Fehlende-Puzzleteile-Generator' },
+    { pageType: 'tool', slug: 'was-passt-nicht-ersteller', anchorText: 'Was-Passt-Nicht-Generator' },
+    { pageType: 'tool', slug: 'bilder-sortieren-ersteller', anchorText: 'Bilder-Sortieren-Generator' },
+    { pageType: 'tool', slug: 'additions-Arbeitsblatt-Generator', anchorText: 'Additions-Arbeitsblatt-Generator' },
   ],
 
   visuals: {

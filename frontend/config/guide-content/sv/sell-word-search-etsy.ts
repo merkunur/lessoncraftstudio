@@ -159,7 +159,7 @@ const content: GuideContent = {
     { pageType: 'guide', slug: 'skapa-korsord', anchorText: 'Hur du skapar korsordspussel' },
     { pageType: 'guide', slug: 'saelja-mattearbetsblad-etsy', anchorText: 'Hur du säljer mattearbetsblad på Etsy' },
     { pageType: 'app', slug: 'ordletar-arbetsblad', anchorText: 'Ordsökning Generator — Fullständig information' },
-    { pageType: 'tool', slug: 'ordsoek-skapare', anchorText: 'Prova Ordsökning Skaparen' },
+    { pageType: 'tool', slug: 'ordsoek-skapare', anchorText: 'Prova Ordsökning Generatorn' },
   ],
 
   toolsRecommended: [

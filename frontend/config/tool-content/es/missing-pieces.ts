@@ -28,7 +28,7 @@ const content: ToolContent = {
     title: 'Cómo crear fichas de piezas faltantes gratis en 8 pasos',
     steps: [
       {
-        title: 'Abra el Creador de Fichas de Rompecabezas',
+        title: 'Abra el Generador de Fichas de Rompecabezas',
         description: 'Haga clic en "Pruebe Gratis Ahora" para abrir el generador de fichas de rompecabezas en su navegador. La herramienta carga instantáneamente con una barra lateral de ajustes a la izquierda y un lienzo de doble pestaña a la derecha — una pestaña para la ficha y otra para la clave de respuestas. Sin crear cuenta, sin descargar software, sin instalación — empiece a crear fichas de rompecabezas de piezas faltantes de inmediato.',
       },
       {

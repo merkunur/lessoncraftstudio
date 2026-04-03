@@ -15,7 +15,7 @@ const content: CompareContent = {
       'puzzle book creator',
       'word search generator',
       'KDP activity book',
-      'printable worksheet maker',
+      'printable worksheet generator',
       'crossword puzzle generator',
       'commercial license worksheets',
       'Etsy printables tool',

@@ -6,20 +6,20 @@ const content: ToolContent = {
     secondaryKeywords: [
       'find og tæl arbejdsark generator for sælgere',
       'lav søge- og tællearbejdsark til salg',
-      'printbar søgeaktivitet skaber kommerciel brug',
+      'printbar søgeaktivitet generator kommerciel brug',
       'skjulte objekter arbejdsark generator til KDP og Etsy',
     ],
     lsiKeywords: [
-      'skjulte objekter bogstavsøgning dobbelt tilstands aktivitet skaber',
+      'skjulte objekter bogstavsøgning dobbelt tilstands aktivitet generator',
       'fire opgavetyper ring om firkant kryds over tæl mixbar arbejdsark',
       'lokalspecifikt alfabet accentuerede bogstaver søgegenerator',
     ],
-    titleTag: 'Find og Tæl Skaber — Søgearbejdsark Generator | Online',
+    titleTag: 'Find og Tæl Generator — Søgearbejdsark Generator | Online',
     metaDescription: 'Lav søgearbejdsark med Skjulte Objekter og Bogstavsøgning-tilstande, fire opgavetyper, lokalspecifikke alfabeter, 104 temaer. Gratis prøveversion med vandmærke.',
   },
 
   hero: {
-    title: 'Find og Tæl Skaber',
+    title: 'Find og Tæl Generator',
     tagline: 'Dobbelt tilstands søgearbejdsark generator med Skjulte Objekter-tilstand (spredt billedgitter med op til 4 målobjekter) og Bogstavsøgning-tilstand (lokalspecifikt alfabet med danske ÆØÅ), fire mixbare opgavetyper (ring om, firkant, kryds over, tæl), lokaliserede billednavnsetiketter på 11 sprog og konfigurerbar gittertæthed 5×5 til 10×10',
     description: 'Lav professionelle søge- og tællearbejdsark med to aktivitetstilstande. Skjulte Objekter spreder billeder i et konfigurerbart gitter (5–10 rækker × 5–10 kolonner, standard 6×6) med op til 4 målobjekter med individuelle opgavetyper — ring om, firkant, kryds over eller tæl. Bogstavsøgning viser et lokalspecifikt alfabet med danske A–Å inklusive Æ, Ø og Å (29 bogstaver) og genererer søgescener med billeder, der begynder med det valgte bogstav. Sprogfølsom: billednavnsetiketter gengives på det valgte sprog via billedvokabulærsystemet — \"Kat\" på dansk, \"Cat\" på engelsk, \"Katze\" på tysk. Dobbeltarbejdsområde-systemet genererer facit med røde visuelle annoteringer: cirkler, firkanter, kryds og kvantitetsvisninger. En automatisk genereret overskrift viser \"Find og tæl\" eller \"Bogstavsøgning\" med blå ramme (#2196F3) lokaliseret på alle 11 sprog. Gennemse 104 tematiske samlinger med mere end 3.100 illustrationer. Eksportér fire filer per session med 300 DPI. Den gratis prøveversion indeholder alle funktioner med vandmærke. Køb en licens for at fjerne vandmærket.',
   },
@@ -28,7 +28,7 @@ const content: ToolContent = {
     title: 'Sådan Laver du Søgearbejdsark i 8 Trin',
     steps: [
       {
-        title: 'Åbn Find og Tæl Skaberen',
+        title: 'Åbn Find og Tæl Generatoren',
         description: 'Klik på \"Prøv gratis nu\" for at starte søgearbejdsark generatoren. Appen autogenererer et komplet søgearbejdsark ved sideindlæsning med dyretemaet, 4 tilfældige billeder og tilfældige opgavetyper på et 6×6-gitter — en direkte forhåndsvisning. Ingen konto, ingen download kræves.',
       },
       {
@@ -102,12 +102,12 @@ const content: ToolContent = {
     },
     {
       title: 'Gumroad produktlinjens søgeaktivitetspakker',
-      description: 'Upload søgeaktivitetspakker til Gumroad med navn/dato-felter og autogenererede facit. Lav produktkatalogtilstødende sæt. Fire opgavetyper skaber niveauopdelte versioner. Bogstavsøgning betjener foniks- og alfabetsbevidstedsmarkedet.',
+      description: 'Upload søgeaktivitetspakker til Gumroad med navn/dato-felter og autogenererede facit. Lav produktkatalogtilstødende sæt. Fire opgavetyper generator niveauopdelte versioner. Bogstavsøgning betjener foniks- og alfabetsbevidstedsmarkedet.',
       platform: 'Gumroad',
     },
     {
       title: 'Pinterest søgearbejdsark trafiktragt',
-      description: 'Søgearbejdsark med farverige spredte billedgitre og blå-rammet overskrift skaber øjeblikkeligt genkendeligt uddannelsesindhold. Pin prøvearbejdsark med begge tilstande. Facitforhåndsvisninger med røde annoteringer demonstrerer professionel kvalitet.',
+      description: 'Søgearbejdsark med farverige spredte billedgitre og blå-rammet overskrift generator øjeblikkeligt genkendeligt uddannelsesindhold. Pin prøvearbejdsark med begge tilstande. Facitforhåndsvisninger med røde annoteringer demonstrerer professionel kvalitet.',
       platform: 'Pinterest',
     },
     {
@@ -133,7 +133,7 @@ const content: ToolContent = {
     },
     {
       title: 'Udnyt Bogstavsøgning til foniks-produkter',
-      description: 'Bogstavsøgning med danske ÆØÅ (29 bogstaver), tyske ÄÖÜ, spanske Ñ og nordiske ÆØÅ skaber sprogspecifikke foniks-pakker, som kun-engelske værktøjer ikke kan matche.',
+      description: 'Bogstavsøgning med danske ÆØÅ (29 bogstaver), tyske ÄÖÜ, spanske Ñ og nordiske ÆØÅ generator sprogspecifikke foniks-pakker, som kun-engelske værktøjer ikke kan matche.',
     },
     {
       title: 'Udnyt de sprogfølsomme etiketter for lokaliserede produktlinjer',
@@ -180,7 +180,7 @@ const content: ToolContent = {
     },
     {
       question: 'Hvordan fungerer det automatisk genererede facit?',
-      answer: 'Dobbeltarbejdsområde-system. Facittet genskaber layoutet og tilføjer røde annoteringer: cirkler, firkanter, kryds, kvantitetsvisninger. Fire downloadfiler per generering.',
+      answer: 'Dobbeltarbejdsområde-system. Facittet gengenerator layoutet og tilføjer røde annoteringer: cirkler, firkanter, kryds, kvantitetsvisninger. Fire downloadfiler per generering.',
     },
     {
       question: 'Hvordan ser den automatisk genererede overskrift ud?',
@@ -206,13 +206,13 @@ const content: ToolContent = {
 
   internalLinks: [
     { pageType: 'app', slug: 'find-og-tael-arbejdsark', anchorText: 'Find og Tæl Aktiviteter — Fulde Produktdetaljer' },
-    { pageType: 'tool', slug: 'find-objekterne-skaber', anchorText: 'Skjulte Objekter Skaber' },
-    { pageType: 'tool', slug: 'billedkrydsord-skaber', anchorText: 'Krydsordspuslespil Skaber' },
-    { pageType: 'tool', slug: 'skattejagt-skaber', anchorText: 'Skattejagt Skaber' },
-    { pageType: 'tool', slug: 'ordsoegning-skaber', anchorText: 'Ordsøgning Skaber' },
-    { pageType: 'tool', slug: 'billedsti-skaber', anchorText: 'Billedsti Labyrint Skaber' },
-    { pageType: 'tool', slug: 'matchnings-arbejdsark-skaber', anchorText: 'Matchnings Arbejdsark Skaber' },
-    { pageType: 'tool', slug: 'malebilleder-skaber', anchorText: 'Malebilleder Skaber' },
+    { pageType: 'tool', slug: 'find-objekterne-skaber', anchorText: 'Skjulte Objekter Generator' },
+    { pageType: 'tool', slug: 'billedkrydsord-skaber', anchorText: 'Krydsordspuslespil Generator' },
+    { pageType: 'tool', slug: 'skattejagt-skaber', anchorText: 'Skattejagt Generator' },
+    { pageType: 'tool', slug: 'ordsoegning-skaber', anchorText: 'Ordsøgning Generator' },
+    { pageType: 'tool', slug: 'billedsti-skaber', anchorText: 'Billedsti Labyrint Generator' },
+    { pageType: 'tool', slug: 'matchnings-arbejdsark-skaber', anchorText: 'Matchnings Arbejdsark Generator' },
+    { pageType: 'tool', slug: 'malebilleder-skaber', anchorText: 'Malebilleder Generator' },
   ],
 
   visuals: {

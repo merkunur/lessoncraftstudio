@@ -2,19 +2,19 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'free subtraction worksheet maker online',
+    primaryKeyword: 'free subtraction worksheet generator online',
     secondaryKeywords: [
       'make subtraction worksheets free online',
       'subtraction worksheet generator no signup',
-      'free math worksheet maker with images',
+      'free math worksheet generator with images',
       'printable subtraction worksheets free trial',
     ],
     lsiKeywords: [
       'free worksheet tool online',
-      'instant worksheet maker no account',
+      'instant worksheet generator no account',
       'try before you buy math tools',
     ],
-    titleTag: 'Free Subtraction Worksheet Maker Online | LCS',
+    titleTag: 'Free Subtraction Worksheet Generator Online | LCS',
     metaDescription: 'Make subtraction worksheets free online with watermark — no signup needed. Cross-out mode, 104 themes, answer keys. Upgrade for commercial license.',
   },
 
@@ -200,7 +200,7 @@ const content: ToolContent = {
 
   internalLinks: [
     { pageType: 'app', slug: 'subtraction-worksheets', anchorText: 'Remove watermark and sell commercially' },
-    { pageType: 'tool', slug: 'addition-worksheet-maker', anchorText: 'Free addition worksheet maker' },
+    { pageType: 'tool', slug: 'addition-worksheet-maker', anchorText: 'Free addition worksheet generator' },
     { pageType: 'guide', slug: 'create-subtraction-worksheets', anchorText: 'How to create subtraction worksheets to sell' },
   ],
 

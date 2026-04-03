@@ -127,7 +127,7 @@ const content: AppContent = {
       {
         title: 'Digitale produkter i din egen webshop',
         description:
-          'Brug generatoren til at producere ugentlige mattepuslespilspakker og distribuer dem via din egen Shopify-, Gumroad- eller Payhip-butik. En abonnementsmodel — hver uge en ny temapuslespilspakke — skaber tilbagevendende indtægter og opbygger en loyal kundebase af hjemmeundervisende familier og lektiehjælpscentre. Med tre operationer, variable gitterstørrelser og 104 temaer har du tilstrækkeligt med kombinationer til års unikt indhold uden gentagelse.',
+          'Brug generatoren til at producere ugentlige mattepuslespilspakker og distribuer dem via din egen Shopify-, Gumroad- eller Payhip-butik. En abonnementsmodel — hver uge en ny temapuslespilspakke — generator tilbagevendende indtægter og opbygger en loyal kundebase af hjemmeundervisende familier og lektiehjælpscentre. Med tre operationer, variable gitterstørrelser og 104 temaer har du tilstrækkeligt med kombinationer til års unikt indhold uden gentagelse.',
         platform: 'Gumroad / Shopify / Payhip',
       },
       {
@@ -148,7 +148,7 @@ const content: AppContent = {
     {
       question: 'Hvilke gitterstørrelser er tilgængelige for puslespillene?',
       answer:
-        'Du kan indstille rækker fra 2 til 4 og kolonner fra 2 til 4, hvilket skaber puslespil med 4 brikker (2×2) til 16 brikker (4×4). Mindre gitter er perfekte til yngre brugere eller hurtige aktiviteter, mens større gitter tilbyder flere opgaver og en større puslespilsudfordring. Dette udvalg af gittermuligheder gør det også nemt at oprette lagdelte produktpakker — grupper lette, mellemsvære og svære puslespil i et tilbud, der appellerer til købere på tværs af flere aldersgrupper.',
+        'Du kan indstille rækker fra 2 til 4 og kolonner fra 2 til 4, hvilket generator puslespil med 4 brikker (2×2) til 16 brikker (4×4). Mindre gitter er perfekte til yngre brugere eller hurtige aktiviteter, mens større gitter tilbyder flere opgaver og en større puslespilsudfordring. Dette udvalg af gittermuligheder gør det også nemt at oprette lagdelte produktpakker — grupper lette, mellemsvære og svære puslespil i et tilbud, der appellerer til købere på tværs af flere aldersgrupper.',
     },
     {
       question: 'Hvilke matematikoperationer understøtter Mattepuslespil Generatoren?',

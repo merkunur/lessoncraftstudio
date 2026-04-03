@@ -7,7 +7,7 @@ const content: ToolContent = {
       'Fehlende-Teile-Rätsel kostenlos erstellen',
       'Puzzleteil-Generator online ohne Anmeldung',
       'kostenlose Jigsaw-Puzzle-Arbeitsblätter erstellen',
-      'Fehlende-Puzzleteile Ersteller mit Lösungsschlüssel kostenlos',
+      'Fehlende-Puzzleteile Generator mit Lösungsschlüssel kostenlos',
     ],
     lsiKeywords: [
       'Jigsaw-Puzzle Arbeitsblätter Teilformen',
@@ -28,7 +28,7 @@ const content: ToolContent = {
     title: 'Jigsaw-Puzzle-Arbeitsblätter erstellen in 8 Schritten',
     steps: [
       {
-        title: 'Den Fehlende-Puzzleteile-Ersteller öffnen',
+        title: 'Den Fehlende-Puzzleteile-Generator öffnen',
         description: 'Klicken Sie auf \"Kostenlos testen\", um den Jigsaw-Puzzle-Arbeitsblatt-Generator in Ihrem Browser zu starten. Das Werkzeug lädt sofort mit einer Einstellungs-Seitenleiste links und einer Dual-Tab-Arbeitsfläche rechts — ein Tab für das Arbeitsblatt, einer für den Lösungsschlüssel. Keine Kontoerstellung, kein Software-Download, keine Installation erforderlich — beginnen Sie sofort mit der Erstellung von Puzzleteil-Rätseln.',
       },
       {
@@ -117,7 +117,7 @@ const content: ToolContent = {
     },
     {
       title: 'Globale visuelle Puzzle-Produktlinie',
-      description: 'Der Fehlende-Puzzleteile-Ersteller erzeugt rein visuelle Rätsel — Bilder mit Löchern, nummerierte Lösungsoptionen und gelb hervorgehobene Lösungsbeschriftungen sind universell ohne sprachspezifischen Text auf dem Arbeitsblatt-Output. Dieselben Produktdateien funktionieren in jedem Land ohne Übersetzung oder Anpassung. Eine einzige Erstellungssitzung produziert einen global verkaufbaren Katalog. Verkaufen Sie identische Dateien über Etsy-Shops, die verschiedene Länder ansprechen, veröffentlichen Sie dieselben KDP-Buchinhalte auf allen internationalen Amazon-Marktplätzen und listen Sie auf Gumroad für internationale Verkäufer. Keine separaten Sprachversionen, keine Übersetzungskosten, keine länderspezifische Wartung.',
+      description: 'Der Fehlende-Puzzleteile-Generator erzeugt rein visuelle Rätsel — Bilder mit Löchern, nummerierte Lösungsoptionen und gelb hervorgehobene Lösungsbeschriftungen sind universell ohne sprachspezifischen Text auf dem Arbeitsblatt-Output. Dieselben Produktdateien funktionieren in jedem Land ohne Übersetzung oder Anpassung. Eine einzige Erstellungssitzung produziert einen global verkaufbaren Katalog. Verkaufen Sie identische Dateien über Etsy-Shops, die verschiedene Länder ansprechen, veröffentlichen Sie dieselben KDP-Buchinhalte auf allen internationalen Amazon-Marktplätzen und listen Sie auf Gumroad für internationale Verkäufer. Keine separaten Sprachversionen, keine Übersetzungskosten, keine länderspezifische Wartung.',
       platform: 'Etsy / Amazon KDP',
     },
   ],
@@ -187,7 +187,7 @@ const content: ToolContent = {
       answer: 'Jedes generierte Rätsel verfügt über einen gestalteten Header mit \"Fehlende Puzzleteile\" in Türkis (#06B6D4) und einer rosafarbenen Beschreibung (#DB2777), gerahmt von zwei dekorativen Rahmen. Der äußere Rahmen verwendet leuchtendes Blaugrün (#14B8A6) mit 8px Strichstärke, 34px Abständen und 12px Randradius. Der innere Rahmen verwendet leuchtendes Pink (#EC4899) mit 3px Strichstärke, 46,5px Abständen, 8px Randradius und einem leichten Versatz von 2px nach rechts und 3px nach unten. Zusammen erzeugen sie einen polierten, professionellen Rahmen, der die visuelle Qualität der Puzzle-Arbeitsblätter für Marktplatz-Listings steigert.',
     },
     {
-      question: 'Ist der Fehlende-Puzzleteile-Ersteller sprachabhängig?',
+      question: 'Ist der Fehlende-Puzzleteile-Generator sprachabhängig?',
       answer: 'Nein. Fehlende Puzzleteile ist ein rein visuelles Rätselformat — das Arbeitsblatt-Output enthält nur Bilder, Löcher und nummerierte Lösungsoptionen ohne sprachabhängige Inhalte. Das einzige sprachabhängige Element ist der automatisch generierte Header-Text (\"Fehlende Puzzleteile\" und die Beschreibung), der in allen 11 unterstützten Sprachen lokalisiert ist. Das Rätsel selbst funktioniert unabhängig von der Sprachauswahl identisch. Dies macht Puzzleteil-Rätsel universell über alle Märkte verkaufbar ohne Übersetzung — ein Set Rätsel bedient jeden internationalen Marktplatz.',
     },
     {
@@ -206,13 +206,13 @@ const content: ToolContent = {
 
   internalLinks: [
     { pageType: 'app', slug: 'fehlende-puzzleteile-arbeitsblaetter', anchorText: 'Fehlende-Puzzleteile-Rätsel — Vollständige Produktdetails' },
-    { pageType: 'tool', slug: 'was-passt-nicht-ersteller', anchorText: 'Was-Passt-Nicht-Ersteller' },
-    { pageType: 'tool', slug: 'schattenbilder-ersteller', anchorText: 'Schattenbilder-Ersteller' },
-    { pageType: 'tool', slug: 'raster-puzzle-ersteller', anchorText: 'Raster-Puzzle-Ersteller' },
-    { pageType: 'tool', slug: 'zuordnungs-arbeitsblatt-ersteller', anchorText: 'Zuordnungs-Arbeitsblatt-Ersteller' },
-    { pageType: 'tool', slug: 'bilder-sortieren-ersteller', anchorText: 'Bilder-Sortieren-Ersteller' },
-    { pageType: 'tool', slug: 'wortsuche-ersteller', anchorText: 'Wortsuche-Ersteller' },
-    { pageType: 'tool', slug: 'malvorlagen-ersteller', anchorText: 'Malvorlagen-Ersteller' },
+    { pageType: 'tool', slug: 'was-passt-nicht-ersteller', anchorText: 'Was-Passt-Nicht-Generator' },
+    { pageType: 'tool', slug: 'schattenbilder-ersteller', anchorText: 'Schattenbilder-Generator' },
+    { pageType: 'tool', slug: 'raster-puzzle-ersteller', anchorText: 'Raster-Puzzle-Generator' },
+    { pageType: 'tool', slug: 'zuordnungs-Arbeitsblatt-Generator', anchorText: 'Zuordnungs-Arbeitsblatt-Generator' },
+    { pageType: 'tool', slug: 'bilder-sortieren-ersteller', anchorText: 'Bilder-Sortieren-Generator' },
+    { pageType: 'tool', slug: 'wortsuche-ersteller', anchorText: 'Wortsuche-Generator' },
+    { pageType: 'tool', slug: 'malvorlagen-ersteller', anchorText: 'Malvorlagen-Generator' },
   ],
 
   visuals: {

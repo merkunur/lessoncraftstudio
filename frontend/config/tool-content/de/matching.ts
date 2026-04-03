@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'kostenloser Zuordnungs-Arbeitsblatt Ersteller',
+    primaryKeyword: 'kostenloser Zuordnungs-Arbeitsblatt-Generator',
     secondaryKeywords: [
       'Zuordnungs-Arbeitsblätter kostenlos erstellen',
       'Paare-Verbinden-Generator online ohne Anmeldung',
@@ -15,20 +15,20 @@ const content: ToolContent = {
       'Zuordnungs-Aktivitäten mit Lösungsschlüssel',
     ],
     titleTag: 'Kostenloser Zuordnungs-Arbeitsblatt Maker | LCS',
-    metaDescription: 'Kostenloser Zuordnungs-Arbeitsblatt Ersteller: Paare-Verbinden mit vier Modi und Lösungsschlüssel erstellen. Ohne Anmeldung. Kommerzielle Lizenz verfügbar.',
+    metaDescription: 'Kostenloser Zuordnungs-Arbeitsblatt-Generator: Paare-Verbinden mit vier Modi und Lösungsschlüssel erstellen. Ohne Anmeldung. Kommerzielle Lizenz verfügbar.',
   },
 
   hero: {
     title: 'Zuordnungs-Arbeitsblätter kostenlos erstellen online',
     tagline: 'Vier-Modi Zuordnungs-Arbeitsblatt-Generator mit Anfangsbuchstabe, Bild+Wort, Mischung und Eigenes Wort, automatisch generiertem Lösungsschlüssel mit Verbindungslinien, konfigurierbarer Paaranzahl, lokalisierter \"Finde die Paare!\"-Überschrift in 11 Sprachen und 104 thematischen Bildsammlungen für Zuordnungs-Aktivitäten, die weltweit verkaufen',
-    description: 'Erstellen Sie Zuordnungs-Arbeitsblätter kostenlos mit unserem Zuordnungs-Arbeitsblatt Ersteller — direkt im Browser, ohne Anmeldung und ohne Software-Download. Vier verschiedene Zuordnungsmodi decken jeden Anwendungsfall ab: Anfangsbuchstaben-Modus paart Bilder mit ihren Anfangsbuchstaben, Bild+Wort-Modus zeigt beschriftete Bildpaare für Wortschatzaufbau, der Mischungs-Modus kombiniert Bilder und Wörter flexibel, und Eigenes-Wort-Modus paart Bilder mit Ihren eigenen Begriffen. Konfigurieren Sie 4, 5 oder 6 Paare pro Arbeitsblatt für flexible Schwierigkeitsgrade. Das Doppel-Canvas-System generiert automatisch einen Lösungsschlüssel mit Verbindungslinien zwischen korrekten Paaren. Über 3.100 Illustrationen aus 104 Themensammlungen stehen zur Verfügung. Exportieren Sie als druckfertiges PDF oder JPEG bei 300 DPI in Letter, A4 oder benutzerdefinierten Größen. Die kostenlose Testversion bietet alle Funktionen mit Wasserzeichen — erwerben Sie eine kommerzielle Lizenz, um das Wasserzeichen zu entfernen und Ihre Arbeitsblätter zu verkaufen.',
+    description: 'Erstellen Sie Zuordnungs-Arbeitsblätter kostenlos mit unserem Zuordnungs-Arbeitsblatt-Generator — direkt im Browser, ohne Anmeldung und ohne Software-Download. Vier verschiedene Zuordnungsmodi decken jeden Anwendungsfall ab: Anfangsbuchstaben-Modus paart Bilder mit ihren Anfangsbuchstaben, Bild+Wort-Modus zeigt beschriftete Bildpaare für Wortschatzaufbau, der Mischungs-Modus kombiniert Bilder und Wörter flexibel, und Eigenes-Wort-Modus paart Bilder mit Ihren eigenen Begriffen. Konfigurieren Sie 4, 5 oder 6 Paare pro Arbeitsblatt für flexible Schwierigkeitsgrade. Das Doppel-Canvas-System generiert automatisch einen Lösungsschlüssel mit Verbindungslinien zwischen korrekten Paaren. Über 3.100 Illustrationen aus 104 Themensammlungen stehen zur Verfügung. Exportieren Sie als druckfertiges PDF oder JPEG bei 300 DPI in Letter, A4 oder benutzerdefinierten Größen. Die kostenlose Testversion bietet alle Funktionen mit Wasserzeichen — erwerben Sie eine kommerzielle Lizenz, um das Wasserzeichen zu entfernen und Ihre Arbeitsblätter zu verkaufen.',
   },
 
   tutorial: {
     title: 'Zuordnungs-Arbeitsblätter erstellen in 8 Schritten',
     steps: [
       {
-        title: 'Den Zuordnungs-Arbeitsblatt-Ersteller öffnen',
+        title: 'Den Zuordnungs-Arbeitsblatt-Generator öffnen',
         description: 'Klicken Sie auf \"Kostenlos testen\", um den Zuordnungs-Generator in Ihrem Browser zu starten. Das Tool lädt sofort mit einer Einstellungsleiste links und einer Dual-Tab-Arbeitsfläche rechts — ein Tab für das Arbeitsblatt, einer für den Lösungsschlüssel. Kein Konto erstellen, kein Software-Download, keine Installation nötig — beginnen Sie sofort mit der Erstellung von Zuordnungs-Arbeitsblättern.',
       },
       {
@@ -175,7 +175,7 @@ const content: ToolContent = {
       answer: 'Der Anfangsbuchstaben-Modus bietet drei Untermodi für die Bildauswahl. Zufälliges Thema und Bilder wählt ein Thema und Bilder automatisch. Zufällig aus gewähltem Thema lässt Sie ein bestimmtes Thema auswählen und wählt dann zufällige Bilder aus dieser Sammlung. Bestimmte Bilder auswählen öffnet die Bildbibliothek für manuelle Auswahl genau der gewünschten Bilder. Zusätzlich können Sie zwischen Groß- und Kleinbuchstaben-Anzeige über die Buchstabentyp-Umschaltung wählen — Großbuchstaben für Anfänger, Kleinbuchstaben für fortgeschrittene Phonikübungen.',
     },
     {
-      question: 'Ist der Zuordnungs-Ersteller sprachabhängig?',
+      question: 'Ist der Zuordnungs-Generator sprachabhängig?',
       answer: 'Ja. Die Modi Anfangsbuchstabe und Bild+Wort verwenden lokalisierte Bildnamen aus der Bildbibliothek, sodass ein Sprachwechsel die Wörter und Anfangsbuchstaben auf dem Arbeitsblatt ändert. Ein Katzenbild zeigt beispielsweise K im deutschen Anfangsbuchstaben-Modus (Katze), C im Englischen (Cat) und C im Französischen (Chat). Die lokalisierte \"Finde die Paare!\"-Überschrift ändert sich ebenfalls mit der gewählten Sprache. Diese Sprachabhängigkeit ermöglicht Zuordnungs-Arbeitsblätter in allen 11 unterstützten Sprachen aus denselben Bildauswahlen und multipliziert Ihren Produktkatalog für internationale Märkte.',
     },
     {
@@ -202,13 +202,13 @@ const content: ToolContent = {
 
   internalLinks: [
     { pageType: 'app', slug: 'zuordnungs-arbeitsblaetter', anchorText: 'Zuordnungs-Arbeitsblätter — Alle Produktdetails' },
-    { pageType: 'tool', slug: 'raster-puzzle-ersteller', anchorText: 'Raster-Puzzle-Ersteller' },
-    { pageType: 'tool', slug: 'schattenbilder-ersteller', anchorText: 'Schattenbilder-Ersteller' },
-    { pageType: 'tool', slug: 'bingo-karten-ersteller', anchorText: 'Bingo-Karten-Ersteller' },
-    { pageType: 'tool', slug: 'bilder-sortieren-ersteller', anchorText: 'Bilder-Sortieren-Ersteller' },
-    { pageType: 'tool', slug: 'alphabet-zug-ersteller', anchorText: 'Alphabet-Zug-Ersteller' },
-    { pageType: 'tool', slug: 'wortsuche-ersteller', anchorText: 'Wortsuche-Ersteller' },
-    { pageType: 'tool', slug: 'additions-arbeitsblatt-ersteller', anchorText: 'Additions-Arbeitsblatt-Ersteller' },
+    { pageType: 'tool', slug: 'raster-puzzle-ersteller', anchorText: 'Raster-Puzzle-Generator' },
+    { pageType: 'tool', slug: 'schattenbilder-ersteller', anchorText: 'Schattenbilder-Generator' },
+    { pageType: 'tool', slug: 'bingo-karten-ersteller', anchorText: 'Bingo-Karten-Generator' },
+    { pageType: 'tool', slug: 'bilder-sortieren-ersteller', anchorText: 'Bilder-Sortieren-Generator' },
+    { pageType: 'tool', slug: 'alphabet-zug-ersteller', anchorText: 'Alphabet-Zug-Generator' },
+    { pageType: 'tool', slug: 'wortsuche-ersteller', anchorText: 'Wortsuche-Generator' },
+    { pageType: 'tool', slug: 'additions-Arbeitsblatt-Generator', anchorText: 'Additions-Arbeitsblatt-Generator' },
   ],
 
   visuals: {

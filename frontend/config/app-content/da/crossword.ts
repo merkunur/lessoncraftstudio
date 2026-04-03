@@ -4,9 +4,9 @@ const content: AppContent = {
   seo: {
     primaryKeyword: 'billedkrydsord generator',
     secondaryKeywords: [
-      'printbar billedkrydsord skaber til Etsy-sælgere',
+      'printbar billedkrydsord generator til Etsy-sælgere',
       'billedkrydsordspuslespil generator til KDP-udgivere',
-      'billedkrydsord arbejdsark skaber kommerciel licens',
+      'billedkrydsord arbejdsark generator kommerciel licens',
       'sælg krydsordspuslespil på Gumroad',
     ],
     lsiKeywords: [
@@ -63,7 +63,7 @@ const content: AppContent = {
       {
         title: 'Billedkrydsordspuslespil med billedledetråde på et fast 15×15 gitter',
         description:
-          'Generer krydsordspuslespil, hvor farverige billeder erstatter traditionelle tekstledetråde. Otte billeder giver otte ord, som algoritmen placerer på et fast 15×15-gitter — sorte celler danner baggrunden med farvede konturer, der markerer svarceller. Placeringsalgoritmen udtrækker ord fra billednavne, sorterer efter længde (længst først) for optimal gitterdækning og positionerer ord med krydsende bogstaver. Nummererede ledetrådspositioner i begyndelsen af hvert ord kobler billedledetrådene til deres gitterpositioner. Dette billedledetrådsformat skaber en unik krydsordoplevelse, der fungerer til ordforrådsopbygning i alle aldre.',
+          'Generer krydsordspuslespil, hvor farverige billeder erstatter traditionelle tekstledetråde. Otte billeder giver otte ord, som algoritmen placerer på et fast 15×15-gitter — sorte celler danner baggrunden med farvede konturer, der markerer svarceller. Placeringsalgoritmen udtrækker ord fra billednavne, sorterer efter længde (længst først) for optimal gitterdækning og positionerer ord med krydsende bogstaver. Nummererede ledetrådspositioner i begyndelsen af hvert ord kobler billedledetrådene til deres gitterpositioner. Dette billedledetrådsformat generator en unik krydsordoplevelse, der fungerer til ordforrådsopbygning i alle aldre.',
       },
       {
         title: 'Fire indtastningsmetoder: Tema Autovalg, Manuel Redigering, Tilpasset Ordliste og Billedupload',
@@ -73,7 +73,7 @@ const content: AppContent = {
       {
         title: 'Automatisk genereret facit med udfyldt krydsordgitter',
         description:
-          'Hvert billedkrydsord genererer automatisk en ledsagende facitliste på en separat lærredsfane. Facit genskaber det præcise puslespilslayout og udfylder gitteret med alle korrekte svar synlige i cellerne. Ingen manuel facitoprettelse, ingen separat fil — facit forbliver perfekt synkroniseret med puslespillet. Denne dobbeltlærred-tilgang sparer betydelig produktionstid for sælgere, der opretter krydsordspakker, hvor hvert puslespil har brug for sin egen facitside.',
+          'Hvert billedkrydsord genererer automatisk en ledsagende facitliste på en separat lærredsfane. Facit gengenerator det præcise puslespilslayout og udfylder gitteret med alle korrekte svar synlige i cellerne. Ingen manuel facitoprettelse, ingen separat fil — facit forbliver perfekt synkroniseret med puslespillet. Denne dobbeltlærred-tilgang sparer betydelig produktionstid for sælgere, der opretter krydsordspakker, hvor hvert puslespil har brug for sin egen facitside.',
       },
       {
         title: 'Lokaliserede puslespilsord på 11 sprog via billedordforråds­systemet',
@@ -133,7 +133,7 @@ const content: AppContent = {
       {
         title: 'Sæsonbetonede billedkrydsords-samlinger',
         description:
-          'De 104 tematiske billedsamlinger dækker enhver sæson- og højtidslejlighed — jul, halloween, påske, valentinsdag, skolestart, sommerferie og flere. Opret tidsbegrænsede billedkrydsords-samlinger, der falder sammen med topindkøbsperioder. Udgiv halloween-krydsordspakker i september, julesamlinger i oktober og valentinsdag-pakker i januar. Den visuelle natur af billedkrydsord gør sæsontemaer særligt overbevisende — højtidsbilleder som ledetråde skaber øjeblikkelig sæsonappel. Sæsonprodukter motiverer højere priser under deres topvinduer og driver genkøb.',
+          'De 104 tematiske billedsamlinger dækker enhver sæson- og højtidslejlighed — jul, halloween, påske, valentinsdag, skolestart, sommerferie og flere. Opret tidsbegrænsede billedkrydsords-samlinger, der falder sammen med topindkøbsperioder. Udgiv halloween-krydsordspakker i september, julesamlinger i oktober og valentinsdag-pakker i januar. Den visuelle natur af billedkrydsord gør sæsontemaer særligt overbevisende — højtidsbilleder som ledetråde generator øjeblikkelig sæsonappel. Sæsonprodukter motiverer højere priser under deres topvinduer og driver genkøb.',
         platform: 'Etsy / Amazon KDP / Gumroad (sæsonbetonet)',
       },
     ],
@@ -173,7 +173,7 @@ const content: AppContent = {
     {
       question: 'Er Billedkrydsord Generatoren sprogfølsom?',
       answer:
-        'Ja. Puslespilsord kommer fra lokaliserede billednavne indlæst gennem billedordforråds­systemet. At skifte indholdssprog ændrer de faktiske ord placeret i krydsordsgitteret. Et kattebillede genererer \"KAT\" på dansk, men \"CAT\" på engelsk, \"KATZE\" på tysk og \"CHAT\" på fransk — hvilket skaber helt forskellige krydsordspuslespil fra identiske billedvalg. Den lokaliserede \"Billedkrydsord\"-overskrift ændres også med det valgte sprog. Kommerciel Pakke inkluderer engelsk; Fuld Adgang låser op for alle 11 sprog.',
+        'Ja. Puslespilsord kommer fra lokaliserede billednavne indlæst gennem billedordforråds­systemet. At skifte indholdssprog ændrer de faktiske ord placeret i krydsordsgitteret. Et kattebillede genererer \"KAT\" på dansk, men \"CAT\" på engelsk, \"KATZE\" på tysk og \"CHAT\" på fransk — hvilket generator helt forskellige krydsordspuslespil fra identiske billedvalg. Den lokaliserede \"Billedkrydsord\"-overskrift ændres også med det valgte sprog. Kommerciel Pakke inkluderer engelsk; Fuld Adgang låser op for alle 11 sprog.',
     },
     {
       question: 'Hvordan fungerer den automatisk genererede overskrift?',
@@ -188,7 +188,7 @@ const content: AppContent = {
     {
       question: 'Hvordan fungerer det automatisk genererede facit?',
       answer:
-        'Generatoren bruger et dobbeltlærredssystem med en Arbejdsarkfane (puslespillet) og en Facitfane (det udfyldte gitter). Arbejdsarket viser det tomme krydsordsgitter med nummererede positioner og billed- eller tekstledetråde — klar til løsere at udfylde. Facit genskaber det identiske layout og udfylder hver celle med de korrekte bogstaver. Begge versioner eksporteres separat med fire dedikerede downloadknapper.',
+        'Generatoren bruger et dobbeltlærredssystem med en Arbejdsarkfane (puslespillet) og en Facitfane (det udfyldte gitter). Arbejdsarket viser det tomme krydsordsgitter med nummererede positioner og billed- eller tekstledetråde — klar til løsere at udfylde. Facit gengenerator det identiske layout og udfylder hver celle med de korrekte bogstaver. Begge versioner eksporteres separat med fire dedikerede downloadknapper.',
     },
     {
       question: 'Kan jeg sælge billedkrydsord oprettet med dette værktøj på Etsy og Amazon KDP?',

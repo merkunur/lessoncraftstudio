@@ -4,22 +4,22 @@ const content: ToolContent = {
   seo: {
     primaryKeyword: 'find den ulige arbejdsark',
     secondaryKeywords: [
-      'find den ulige arbejdsark skaber for sælgere',
+      'find den ulige arbejdsark generator for sælgere',
       'lav find den anderledes puslespil til salg',
       'printbar find den ulige generator kommerciel brug',
-      'find den ulige puslespil skaber til KDP og Etsy',
+      'find den ulige puslespil generator til KDP og Etsy',
     ],
     lsiKeywords: [
-      'dobbelt tilstands identisk lignende visuel skelnelse skaber',
+      'dobbelt tilstands identisk lignende visuel skelnelse generator',
       'per-øvelse tilstandstilsidesættelse find den ulige generator',
-      'automatisk facit rød cirkel underligt objekt arbejdsark skaber',
+      'automatisk facit rød cirkel underligt objekt arbejdsark generator',
     ],
-    titleTag: 'Find den Ulige Skaber — Arbejdsark Generator — Sælgerguide',
+    titleTag: 'Find den Ulige Generator — Arbejdsark Generator — Sælgerguide',
     metaDescription: 'Lav find den ulige arbejdsark med Identisk og Lignende tilstand, per-øvelse tilsidesættelser, automatiske facit med røde cirkler. Gratis prøveversion med vandmærke.',
   },
 
   hero: {
-    title: 'Find den Ulige Skaber',
+    title: 'Find den Ulige Generator',
     tagline: 'Dobbelt tilstands find den ulige arbejdsark generator med Identisk tilstand (3 kloner + 1 anderledes) og Lignende tilstand (3 fra Tema A + 1 fra Tema B), per-øvelse tilstandstilsidesættelse, 5–10 konfigurerbare øvelser, automatisk genererede facit med røde cirkelmarkeringer og 104 tematiske billedsamlinger',
     description: 'Lav professionelle find den ulige arbejdsark, hvor brugerne identificerer og sætter ring om billedet, der ikke hører til i hver række af fire billeder. To distinkte tilstande: Identisk tilstand placerer tre kloner ved siden af et anderledes billede fra det samme tema — brugerne finder den, der ikke er dublet. Lignende tilstand henter tre billeder fra Tema A og ét fra Tema B — brugerne identificerer den tematiske afviger. Per-øvelse tilstandstilsidesættelse med dropdown på hver række — bland Identiske og Lignende øvelser på ét enkelt arbejdsark for progressiv sværhed. \"Ryd Valg\"-knap nulstiller alle tilsidesættelser. Konfigurér 5–10 øvelser (standard 6) med 4 billeder per øvelse — den uliges position blandes tilfældigt. Layoutet tilpasses automatisk med 2-kolonner for liggende sider og stående med 7+ øvelser. Totema-system for krydsende kategoriskelnelsespuslespil. Dobbeltarbejdsområde-systemet genererer samtidigt arbejdsark og facit — facittet tegner røde cirkelkonturer rundt det ulige objekt med dynamisk skaleret stregbredde (max(imageSize × 0,04, 3px)). En stiliseret overskrift med koral ydre ramme (#FF6B6B), ravgul indre ramme (#FFB84D) og turkis baggrund (#4ECDC4) viser \"Find den der ikke hører til\" lokaliseret på alle 11 sprog. IKKE sprogfølsomt — rent visuelt, universelt sælgbart uden oversættelse. Gennemse 104 tematiske samlinger med mere end 3.100 illustrationer. Eksportér fire filer per session med 300 DPI. Den gratis prøveversion indeholder alle funktioner med vandmærke. Køb en licens for at fjerne vandmærket og sælge kommercielt.',
   },
@@ -28,12 +28,12 @@ const content: ToolContent = {
     title: 'Sådan Laver du Find den Ulige Arbejdsark i 8 Trin',
     steps: [
       {
-        title: 'Åbn Find den Ulige Skaberen',
+        title: 'Åbn Find den Ulige Generatoren',
         description: 'Klik på \"Prøv gratis nu\" for at starte generatoren. Værktøjet indlæses direkte med et indstillingssidepanel til venstre og et dobbeltfane-arbejdsområde til højre. Ingen konto, ingen download, ingen installation kræves.',
       },
       {
         title: 'Vælg din genereringstilstand',
-        description: 'Åbn panelen Øvelseskonfiguration. Identisk tilstand — tre kloner af det samme billede ved siden af et anderledes billede fra det samme tema. Lignende tilstand — tre billeder fra Tema A og ét fra Tema B. Hver tilstand skaber en fundamentalt anderledes kognitiv udfordring.',
+        description: 'Åbn panelen Øvelseskonfiguration. Identisk tilstand — tre kloner af det samme billede ved siden af et anderledes billede fra det samme tema. Lignende tilstand — tre billeder fra Tema A og ét fra Tema B. Hver tilstand generator en fundamentalt anderledes kognitiv udfordring.',
       },
       {
         title: 'Indstil øvelsesantal og per-øvelse tilsidesættelser',
@@ -53,7 +53,7 @@ const content: ToolContent = {
       },
       {
         title: 'Gennemse det automatisk genererede facit',
-        description: 'Klik på fanen Facit. Facittet genskaber layoutet og tegner røde cirkelkonturer rundt det ulige objekt i hver række. Cirklens stregbredde skaleres dynamisk med billedstørrelse (max(imageSize × 0,04, 3px)). Facittet genereres samtidigt med arbejdsarket.',
+        description: 'Klik på fanen Facit. Facittet gengenerator layoutet og tegner røde cirkelkonturer rundt det ulige objekt i hver række. Cirklens stregbredde skaleres dynamisk med billedstørrelse (max(imageSize × 0,04, 3px)). Facittet genereres samtidigt med arbejdsarket.',
       },
       {
         title: 'Download alle fire filer',
@@ -73,7 +73,7 @@ const content: ToolContent = {
     },
     {
       title: 'Produktlinjens kritisk tænkning-aktiviteter med facit',
-      description: 'Byg produktlinjefærdige arbejdsark med navn/dato-felter, øvelsesnumre og facit. Lav produktkatalogtilstødende sæt. Per-øvelse tilsidesættelse skaber niveauopdelte versioner på den samme side. Hvert arbejdsark eksporteres med autogenereret facit.',
+      description: 'Byg produktlinjefærdige arbejdsark med navn/dato-felter, øvelsesnumre og facit. Lav produktkatalogtilstødende sæt. Per-øvelse tilsidesættelse generator niveauopdelte versioner på den samme side. Hvert arbejdsark eksporteres med autogenereret facit.',
     },
     {
       title: 'Blandsværheds progressive puslespilsider',
@@ -107,7 +107,7 @@ const content: ToolContent = {
     },
     {
       title: 'Pinterest find den ulige trafiktragt',
-      description: 'Fire farverige billeder i en række med ét der ikke hører til skaber et øjeblikkeligt engagerende format. Pin prøvearbejdsark, der viser begge tilstande. Det rent visuelle format appellerer til alle lande.',
+      description: 'Fire farverige billeder i en række med ét der ikke hører til generator et øjeblikkeligt engagerende format. Pin prøvearbejdsark, der viser begge tilstande. Det rent visuelle format appellerer til alle lande.',
       platform: 'Pinterest',
     },
     {
@@ -129,7 +129,7 @@ const content: ToolContent = {
     },
     {
       title: 'Brug per-øvelse tilsidesættelser for premium progressiv sværhed',
-      description: 'Per-øvelse tilstands-dropdown skaber progressive arbejdsark, der betjener flere niveauer på én side. Begynd med 2–3 Identiske øvelser, gå over til 3–4 Lignende. Mærk dine annoncer som \"progressiv sværhed\" eller \"niveauopdelt udfordring\". \"Ryd Valg\"-knappen gør eksperimentering hurtigt.',
+      description: 'Per-øvelse tilstands-dropdown generator progressive arbejdsark, der betjener flere niveauer på én side. Begynd med 2–3 Identiske øvelser, gå over til 3–4 Lignende. Mærk dine annoncer som \"progressiv sværhed\" eller \"niveauopdelt udfordring\". \"Ryd Valg\"-knappen gør eksperimentering hurtigt.',
     },
     {
       title: 'Udnyt det rent visuelle format for globalt salg',
@@ -137,7 +137,7 @@ const content: ToolContent = {
     },
     {
       title: 'Inkludér begge tilstande i hvert pakke for maksimal oplevet værdi',
-      description: 'Pakker med både Identisk og Lignende tilstand tilbyder mere variation. Identisk tilstand producerer enklere udfordringer; Lignende tilstand skaber krydsende tematisk skelnelse. At inkludere begge fordobler variation og retfærdiggør højere pris.',
+      description: 'Pakker med både Identisk og Lignende tilstand tilbyder mere variation. Identisk tilstand producerer enklere udfordringer; Lignende tilstand generator krydsende tematisk skelnelse. At inkludere begge fordobler variation og retfærdiggør højere pris.',
     },
     {
       title: 'Udnyt øvelsesantal for aldersrettede produkter',
@@ -164,7 +164,7 @@ const content: ToolContent = {
     },
     {
       question: 'Hvordan fungerer per-øvelse tilstandstilsidesættelse?',
-      answer: 'Hver øvelsesrække har en dropdown, der tilsidesætter den globale tilstand. Indstil globalt til Lignende, skift derefter individuelle øvelser til Identisk. \"Ryd Valg\" nulstiller alle. Dette skaber blandsværheds arbejdsark.',
+      answer: 'Hver øvelsesrække har en dropdown, der tilsidesætter den globale tilstand. Indstil globalt til Lignende, skift derefter individuelle øvelser til Identisk. \"Ryd Valg\" nulstiller alle. Dette generator blandsværheds arbejdsark.',
     },
     {
       question: 'Hvordan fungerer totema-systemet i Lignende tilstand?',
@@ -187,7 +187,7 @@ const content: ToolContent = {
       answer: 'Ja. Uafhængige afkrydsningsfelter. Navn/dato-felter for produktlinjeansvar. Øvelsesnumre (25px bredde, 15px mellemrum) for nem reference under gennemgang. Begge kan aktiveres sammen eller separat.',
     },
     {
-      question: 'Er Find den Ulige Skaberen sprogfølsom?',
+      question: 'Er Find den Ulige Generatoren sprogfølsom?',
       answer: 'Nej. Rent visuelt format — ingen tekst på arbejdsarkets indhold. Fire billeder per række og røde cirkelmarkeringer på facittet er universelle. Det eneste lokaliserede element er overskriftsteksten, oversat til alle 11 sprog. Universelt sælgbart.',
     },
     {
@@ -206,13 +206,13 @@ const content: ToolContent = {
 
   internalLinks: [
     { pageType: 'app', slug: 'find-den-ulige-arbejdsark', anchorText: 'Find den Ulige Puslespil — Fulde Produktdetaljer' },
-    { pageType: 'tool', slug: 'manglende-brikker-skaber', anchorText: 'Manglende Brikker Puslespil Skaber' },
-    { pageType: 'tool', slug: 'skyggematchning-skaber', anchorText: 'Skyggematchning Skaber' },
-    { pageType: 'tool', slug: 'gitterpuslespil-skaber', anchorText: 'Gitterpuslespil Skaber' },
-    { pageType: 'tool', slug: 'matchnings-arbejdsark-skaber', anchorText: 'Matchnings Arbejdsark Skaber' },
-    { pageType: 'tool', slug: 'sorter-billeder-skaber', anchorText: 'Sortér Billeder Skaber' },
-    { pageType: 'tool', slug: 'ordsoegning-skaber', anchorText: 'Ordsøgning Skaber' },
-    { pageType: 'tool', slug: 'malebilleder-skaber', anchorText: 'Malebilleder Skaber' },
+    { pageType: 'tool', slug: 'manglende-brikker-skaber', anchorText: 'Manglende Brikker Puslespil Generator' },
+    { pageType: 'tool', slug: 'skyggematchning-skaber', anchorText: 'Skyggematchning Generator' },
+    { pageType: 'tool', slug: 'gitterpuslespil-skaber', anchorText: 'Gitterpuslespil Generator' },
+    { pageType: 'tool', slug: 'matchnings-arbejdsark-skaber', anchorText: 'Matchnings Arbejdsark Generator' },
+    { pageType: 'tool', slug: 'sorter-billeder-skaber', anchorText: 'Sortér Billeder Generator' },
+    { pageType: 'tool', slug: 'ordsoegning-skaber', anchorText: 'Ordsøgning Generator' },
+    { pageType: 'tool', slug: 'malebilleder-skaber', anchorText: 'Malebilleder Generator' },
   ],
 
   visuals: {

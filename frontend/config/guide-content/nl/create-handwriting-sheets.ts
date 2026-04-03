@@ -10,7 +10,7 @@ const content: GuideContent = {
       'schrijfwerkbladen verkopen Etsy KDP Bol.com',
     ],
     lsiKeywords: [
-      'letters overtrekken werkblad maker',
+      'letters overtrekken werkblad generator',
       'schrijfletters oefenbladen',
       'streekrichting lettervorming',
       'voorbereidend schrijven kleuters',

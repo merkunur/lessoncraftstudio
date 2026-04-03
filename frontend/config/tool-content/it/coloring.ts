@@ -29,7 +29,7 @@ const content: ToolContent = {  seo: {
     title: 'Come Creare Pagine da Colorare Personalizzate in 8 Passaggi',
     steps: [
       {
-        title: 'Apri il Creatore di Pagine da Colorare',
+        title: 'Apri il Generatore di Pagine da Colorare',
         description: 'Clicca "Prova Gratis Ora" per avviare il generatore di pagine da colorare nel tuo browser. Lo strumento si carica istantaneamente con una barra laterale delle impostazioni a sinistra e un canvas di anteprima dal vivo a destra. Nessuna creazione di account, nessun download di software, nessuna installazione necessaria — inizia a creare pagine da colorare immediatamente sul canvas libero.',
       },
       {
@@ -118,7 +118,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Linea di Prodotti Visivi Globale',
-      description: 'Il Creatore di Pagine da Colorare produce output puramente visivo senza testo sulle schede — la stessa pagina da colorare funziona in ogni lingua senza modifiche. Una singola sessione di creazione produce un catalogo vendibile universalmente. Vendi gli stessi file prodotto su negozi Etsy in diversi paesi, pubblica interni KDP identici su tutti i marketplace Amazon internazionali e vendi su Gumroad per venditori internazionali. Nessuna inserzione separata, nessun costo di traduzione, nessuna manutenzione per lingua. Ogni pagina da colorare che crei serve istantaneamente un mercato globale.',
+      description: 'Il Generatore di Pagine da Colorare produce output puramente visivo senza testo sulle schede — la stessa pagina da colorare funziona in ogni lingua senza modifiche. Una singola sessione di creazione produce un catalogo vendibile universalmente. Vendi gli stessi file prodotto su negozi Etsy in diversi paesi, pubblica interni KDP identici su tutti i marketplace Amazon internazionali e vendi su Gumroad per venditori internazionali. Nessuna inserzione separata, nessun costo di traduzione, nessuna manutenzione per lingua. Ogni pagina da colorare che crei serve istantaneamente un mercato globale.',
       platform: 'Etsy / Amazon KDP',
     },
   ],
@@ -161,7 +161,7 @@ const content: ToolContent = {  seo: {
     },
     {
       question: 'Cosa rende il canvas libero diverso dagli strumenti basati su modelli?',
-      answer: 'Il Creatore di Pagine da Colorare ti offre un canvas completamente aperto senza griglie, senza modelli, senza slot e senza layout predeterminati. Ogni immagine viene posizionata esattamente dove la trascini. Puoi sovrapporre immagini, ruotarle a qualsiasi angolo, ridimensionare liberamente e creare composizioni stratificate. Gli strumenti a modello ti bloccano in posizioni fisse e producono output dall\'aspetto identico. L\'approccio a canvas libero significa che ogni pagina da colorare che crei è unica e impossibile da replicare con generatori a modello.',
+      answer: 'Il Generatore di Pagine da Colorare ti offre un canvas completamente aperto senza griglie, senza modelli, senza slot e senza layout predeterminati. Ogni immagine viene posizionata esattamente dove la trascini. Puoi sovrapporre immagini, ruotarle a qualsiasi angolo, ridimensionare liberamente e creare composizioni stratificate. Gli strumenti a modello ti bloccano in posizioni fisse e producono output dall\'aspetto identico. L\'approccio a canvas libero significa che ogni pagina da colorare che crei è unica e impossibile da replicare con generatori a modello.',
     },
     {
       question: 'Come funziona l\'esportazione in scala di grigi?',
@@ -177,7 +177,7 @@ const content: ToolContent = {  seo: {
     },
     {
       question: 'Le pagine da colorare sono sensibili alla lingua?',
-      answer: 'No. Il Creatore di Pagine da Colorare produce output puramente visivo senza testo sulla pagina da colorare stessa. Cambiare la lingua nel generatore modifica solo le etichette dell\'interfaccia, non il foglio esportato. Questo rende le tue pagine da colorare vendibili universalmente senza traduzione. Un unico file prodotto serve ogni mercato nel mondo.',
+      answer: 'No. Il Generatore di Pagine da Colorare produce output puramente visivo senza testo sulla pagina da colorare stessa. Cambiare la lingua nel generatore modifica solo le etichette dell\'interfaccia, non il foglio esportato. Questo rende le tue pagine da colorare vendibili universalmente senza traduzione. Un unico file prodotto serve ogni mercato nel mondo.',
     },
     {
       question: 'Perché non c\'è una chiave di risposta?',

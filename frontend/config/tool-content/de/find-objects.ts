@@ -7,7 +7,7 @@ const content: ToolContent = {
       'Suchbilder-Arbeitsblätter kostenlos erstellen',
       'Suchbilder-Generator online ohne Anmeldung',
       'kostenlose Versteckte-Objekte-Rätsel erstellen',
-      'Suchbilder-Ersteller mit Lösungsschlüssel kostenlos',
+      'Suchbilder-Generator mit Lösungsschlüssel kostenlos',
     ],
     lsiKeywords: [
       'Ich-sehe-was Rätsel Arbeitsblätter',
@@ -28,7 +28,7 @@ const content: ToolContent = {
     title: 'Suchbild-Arbeitsblätter erstellen in 8 Schritten',
     steps: [
       {
-        title: 'Den Suchbilder-Ersteller öffnen',
+        title: 'Den Suchbilder-Generator öffnen',
         description: 'Klicken Sie auf \"Kostenlos testen\", um den Suchbilder-Generator in Ihrem Browser zu starten. Das Tool lädt sofort mit einer Einstellungs-Seitenleiste links und einer Dual-Tab-Canvas rechts — ein Tab für das Arbeitsblatt, einer für den Lösungsschlüssel. Keine Kontoerstellung, kein Software-Download, keine Installation erforderlich — beginnen Sie sofort mit dem Erstellen von Suchbild-Arbeitsblättern.',
       },
       {
@@ -117,7 +117,7 @@ const content: ToolContent = {
     },
     {
       title: 'Globale visuelle Rätsel-Produktlinie',
-      description: 'Der Suchbilder-Ersteller erzeugt rein visuelle Rätsel — kein sprachspezifischer Text erscheint auf dem Arbeitsblatt-Inhalt selbst. Die Ich-sehe-was-Legende verwendet Bilder, keinen Text, und Welches-passt-nicht ist komplett visuell. Dieselben Produktdateien funktionieren in jedem Land ohne Übersetzung oder Anpassung. Eine einzige Erstellungssitzung erzeugt einen global verkaufbaren Katalog. Verkaufen Sie identische Dateien über Etsy-Shops für verschiedene Länder, veröffentlichen Sie dieselben KDP-Buchinhalte auf allen internationalen Amazon-Märkten und listen Sie auf Gumroad für deutschsprachige Verkäufer. Keine separaten Sprachversionen, keine Übersetzungskosten, keine länderspezifische Pflege — das rein visuelle Format ist Ihr stärkster globaler Verkaufsvorteil.',
+      description: 'Der Suchbilder-Generator erzeugt rein visuelle Rätsel — kein sprachspezifischer Text erscheint auf dem Arbeitsblatt-Inhalt selbst. Die Ich-sehe-was-Legende verwendet Bilder, keinen Text, und Welches-passt-nicht ist komplett visuell. Dieselben Produktdateien funktionieren in jedem Land ohne Übersetzung oder Anpassung. Eine einzige Erstellungssitzung erzeugt einen global verkaufbaren Katalog. Verkaufen Sie identische Dateien über Etsy-Shops für verschiedene Länder, veröffentlichen Sie dieselben KDP-Buchinhalte auf allen internationalen Amazon-Märkten und listen Sie auf Gumroad für deutschsprachige Verkäufer. Keine separaten Sprachversionen, keine Übersetzungskosten, keine länderspezifische Pflege — das rein visuelle Format ist Ihr stärkster globaler Verkaufsvorteil.',
       platform: 'Etsy / Amazon KDP',
     },
   ],
@@ -183,8 +183,8 @@ const content: ToolContent = {
       answer: 'Jedes Arbeitsblatt enthält einen automatisch angepassten Titel, gerendert in Fredoka-Schrift mit dekorativen weißen Kapsel-Dekorelementen und Schatten. Die Titel-Schriftgröße passt sich automatisch basierend auf der Textlänge an: 32px für kurze Titel (unter 12 Zeichen), herunterskaliert auf 18px für längere Titel (über 22 Zeichen). Sie können auch ein Beschreibungsfeld unterhalb des Titels hinzufügen. Das Header-System gewährleistet professionell wirkende Arbeitsblätter unabhängig von der Titel-Länge.',
     },
     {
-      question: 'Ist der Suchbilder-Ersteller sprachabhängig?',
-      answer: 'Nein. Der Suchbilder-Ersteller ist ein rein visuelles Rätselformat — keine lokalisierten Bildbezeichnungen erscheinen auf dem Arbeitsblatt-Inhalt selbst. Die Ich-sehe-was-Legende zeigt Suchobjekte als Bilder, nicht als Text. Die Spracheinstellung beeinflusst nur Oberflächenbeschriftungen (Buttons, Panel-Titel, Tooltips), NICHT den Inhalt der Arbeitsblätter. Das macht jedes generierte Arbeitsblatt universell in jedem Markt verkaufbar, ohne Übersetzung oder Anpassung — ein einziger Satz Suchbilder bedient jeden internationalen Marktplatz.',
+      question: 'Ist der Suchbilder-Generator sprachabhängig?',
+      answer: 'Nein. Der Suchbilder-Generator ist ein rein visuelles Rätselformat — keine lokalisierten Bildbezeichnungen erscheinen auf dem Arbeitsblatt-Inhalt selbst. Die Ich-sehe-was-Legende zeigt Suchobjekte als Bilder, nicht als Text. Die Spracheinstellung beeinflusst nur Oberflächenbeschriftungen (Buttons, Panel-Titel, Tooltips), NICHT den Inhalt der Arbeitsblätter. Das macht jedes generierte Arbeitsblatt universell in jedem Markt verkaufbar, ohne Übersetzung oder Anpassung — ein einziger Satz Suchbilder bedient jeden internationalen Marktplatz.',
     },
     {
       question: 'Welche Seitengrößen und Exportformate sind verfügbar?',
@@ -206,13 +206,13 @@ const content: ToolContent = {
 
   internalLinks: [
     { pageType: 'app', slug: 'suchbilder-arbeitsblaetter', anchorText: 'Suchbild-Aktivitäten — Vollständige Produktdetails' },
-    { pageType: 'tool', slug: 'suchen-und-zaehlen-ersteller', anchorText: 'Suchen-und-Zählen-Ersteller' },
-    { pageType: 'tool', slug: 'bilderkreuzwortraetsel-ersteller', anchorText: 'Bilderkreuzworträtsel-Ersteller' },
-    { pageType: 'tool', slug: 'schatzsuche-ersteller', anchorText: 'Schatzsuche-Ersteller' },
-    { pageType: 'tool', slug: 'wortsuche-ersteller', anchorText: 'Wortsuche-Ersteller' },
-    { pageType: 'tool', slug: 'was-passt-nicht-ersteller', anchorText: 'Was-passt-nicht-Ersteller' },
-    { pageType: 'tool', slug: 'zuordnungs-arbeitsblatt-ersteller', anchorText: 'Zuordnungs-Arbeitsblatt-Ersteller' },
-    { pageType: 'tool', slug: 'malvorlagen-ersteller', anchorText: 'Malvorlagen-Ersteller' },
+    { pageType: 'tool', slug: 'suchen-und-zaehlen-ersteller', anchorText: 'Suchen-und-Zählen-Generator' },
+    { pageType: 'tool', slug: 'bilderkreuzwortraetsel-ersteller', anchorText: 'Bilderkreuzworträtsel-Generator' },
+    { pageType: 'tool', slug: 'schatzsuche-ersteller', anchorText: 'Schatzsuche-Generator' },
+    { pageType: 'tool', slug: 'wortsuche-ersteller', anchorText: 'Wortsuche-Generator' },
+    { pageType: 'tool', slug: 'was-passt-nicht-ersteller', anchorText: 'Was-passt-nicht-Generator' },
+    { pageType: 'tool', slug: 'zuordnungs-Arbeitsblatt-Generator', anchorText: 'Zuordnungs-Arbeitsblatt-Generator' },
+    { pageType: 'tool', slug: 'malvorlagen-ersteller', anchorText: 'Malvorlagen-Generator' },
   ],
 
   visuals: {

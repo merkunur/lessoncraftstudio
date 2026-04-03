@@ -5,7 +5,7 @@ const content: ToolContent = {  seo: {
     secondaryKeywords: [
       'kleurplaten online maken gratis',
       'kleurplaat generator gratis proberen',
-      'aangepaste kleurplaten maker met thema\'s',
+      'aangepaste kleurplaten generator met thema\'s',
       'printbare kleurplaten gratis proefversie',
     ],
     lsiKeywords: [
@@ -27,7 +27,7 @@ const content: ToolContent = {  seo: {
     title: 'Aangepaste kleurplaten maken in 8 stappen',
     steps: [
       {
-        title: 'Open de Kleurplaten Maker',
+        title: 'Open de Kleurplaten Generator',
         description: 'Klik op "Gratis proefversie" om de kleurplaten generator te starten in je browser. De tool laadt direct met een instellingenzijbalk links en een live voorbeeldcanvas rechts. Geen account aanmaken, geen software downloaden, geen installatie nodig — begin onmiddellijk met het maken van kleurplaten op het vrije-vorm canvas.',
       },
       {
@@ -116,7 +116,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Wereldwijde Visuele Productlijn',
-      description: 'De Kleurplaten Maker produceert puur visuele uitvoer zonder tekst op de werkbladen — dezelfde kleurplaat werkt in elke taal zonder aanpassing. Eén creatiesessie produceert een universeel verkoopbare catalogus. Verkoop dezelfde productbestanden in Etsy-winkels die verschillende landen bedienen, publiceer identieke KDP-binnenwerken op alle internationale Amazon-marktplaatsen, en vermeld op Gumroad voor internationale verkopers. Geen aparte vermeldingen, geen vertaalkosten, geen taalspecifiek onderhoud. Elke kleurplaat die je maakt bedient direct een wereldwijde markt.',
+      description: 'De Kleurplaten Generator produceert puur visuele uitvoer zonder tekst op de werkbladen — dezelfde kleurplaat werkt in elke taal zonder aanpassing. Eén creatiesessie produceert een universeel verkoopbare catalogus. Verkoop dezelfde productbestanden in Etsy-winkels die verschillende landen bedienen, publiceer identieke KDP-binnenwerken op alle internationale Amazon-marktplaatsen, en vermeld op Gumroad voor internationale verkopers. Geen aparte vermeldingen, geen vertaalkosten, geen taalspecifiek onderhoud. Elke kleurplaat die je maakt bedient direct een wereldwijde markt.',
       platform: 'Etsy / Amazon KDP',
     },
   ],
@@ -159,7 +159,7 @@ const content: ToolContent = {  seo: {
     },
     {
       question: 'Wat maakt het vrije-vorm canvas anders dan sjabloongebaseerde tools?',
-      answer: 'De Kleurplaten Maker geeft je een volledig open canvas zonder rasters, zonder sjablonen, zonder vakjes en zonder vooraf bepaalde indelingen. Elke afbeelding wordt precies geplaatst waar je hem sleept. Je kunt afbeeldingen laten overlappen, naar elke hoek roteren, vrij schalen en gelaagde composities maken. Sjabloontools beperken je tot vaste posities en produceren identiek uitziende uitvoer. De vrije-vorm aanpak betekent dat elke kleurplaat die je maakt uniek is en onmogelijk na te maken met sjabloongenerators.',
+      answer: 'De Kleurplaten Generator geeft je een volledig open canvas zonder rasters, zonder sjablonen, zonder vakjes en zonder vooraf bepaalde indelingen. Elke afbeelding wordt precies geplaatst waar je hem sleept. Je kunt afbeeldingen laten overlappen, naar elke hoek roteren, vrij schalen en gelaagde composities maken. Sjabloontools beperken je tot vaste posities en produceren identiek uitziende uitvoer. De vrije-vorm aanpak betekent dat elke kleurplaat die je maakt uniek is en onmogelijk na te maken met sjabloongenerators.',
     },
     {
       question: 'Hoe werkt de grijstintenexport?',
@@ -175,7 +175,7 @@ const content: ToolContent = {  seo: {
     },
     {
       question: 'Zijn de kleurplaten taalgevoelig?',
-      answer: 'Nee. De Kleurplaten Maker produceert puur visuele uitvoer zonder tekst op de kleurplaat zelf. Het wisselen van taal in de generator beïnvloedt alleen de UI-labels, niet het geëxporteerde werkblad. Dit maakt je kleurplaten universeel verkoopbaar zonder vertaling. Eén productbestand bedient elke markt wereldwijd.',
+      answer: 'Nee. De Kleurplaten Generator produceert puur visuele uitvoer zonder tekst op de kleurplaat zelf. Het wisselen van taal in de generator beïnvloedt alleen de UI-labels, niet het geëxporteerde werkblad. Dit maakt je kleurplaten universeel verkoopbaar zonder vertaling. Eén productbestand bedient elke markt wereldwijd.',
     },
     {
       question: 'Waarom is er geen antwoordblad?',
@@ -203,9 +203,9 @@ const content: ToolContent = {  seo: {
     { pageType: 'app', slug: 'kleurplaten-werkbladen', anchorText: 'Watermerk verwijderen en verkopen met commerciële licentie' },
     { pageType: 'tool', slug: 'rastertekenen-maker', anchorText: 'Gratis rastertekenen maker' },
     { pageType: 'tool', slug: 'lijnen-trekken-maker', anchorText: 'Gratis lijnen trekken maker' },
-    { pageType: 'tool', slug: 'groot-klein-werkblad-maker', anchorText: 'Gratis groot en klein maker' },
+    { pageType: 'tool', slug: 'groot-klein-werkblad-generator', anchorText: 'Gratis groot en klein maker' },
     { pageType: 'tool', slug: 'patroontrein-maker', anchorText: 'Gratis patroontrein maker' },
-    { pageType: 'tool', slug: 'koppelen-werkblad-maker', anchorText: 'Gratis koppelwerkbladen maker' },
+    { pageType: 'tool', slug: 'koppelen-werkblad-generator', anchorText: 'Gratis koppelwerkbladen maker' },
     { pageType: 'tool', slug: 'schaduw-koppelen-maker', anchorText: 'Gratis schaduw matching maker' },
     { pageType: 'tool', slug: 'schrijfoefeningen-maker', anchorText: 'Gratis schrijfoefeningen maker' },
   ],

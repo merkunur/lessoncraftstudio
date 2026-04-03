@@ -2,11 +2,11 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'free shadow matching worksheet maker',
+    primaryKeyword: 'free shadow matching worksheet generator',
     secondaryKeywords: [
       'make shadow matching worksheets free online',
       'silhouette matching generator no signup',
-      'free shadow match worksheet maker',
+      'free shadow match worksheet generator',
       'shadow matching worksheets free trial',
     ],
     lsiKeywords: [
@@ -14,7 +14,7 @@ const content: ToolContent = {
       'instant shadow matching maker',
       'try before you buy matching tools',
     ],
-    titleTag: 'Free Shadow Matching Worksheet Maker | LCS',
+    titleTag: 'Free Shadow Matching Worksheet Generator | LCS',
     metaDescription: 'Make shadow matching worksheets free online with watermark — no signup. Silhouette puzzles, auto answer keys, 104 themes. Upgrade for commercial license.',
   },
 
@@ -206,7 +206,7 @@ const content: ToolContent = {
 
   internalLinks: [
     { pageType: 'app', slug: 'shadow-match-worksheets', anchorText: 'Remove watermark and sell commercially' },
-    { pageType: 'tool', slug: 'matching-worksheet-maker', anchorText: 'Free matching worksheet maker' },
+    { pageType: 'tool', slug: 'matching-worksheet-maker', anchorText: 'Free matching worksheet generator' },
     { pageType: 'guide', slug: 'create-shadow-matching-worksheets', anchorText: 'How to create shadow matching worksheets to sell' },
   ],
 

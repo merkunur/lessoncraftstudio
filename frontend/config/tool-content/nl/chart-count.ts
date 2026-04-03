@@ -5,13 +5,13 @@ const content: ToolContent = {  seo: {
     secondaryKeywords: [
       'tel- en grafiekwerkbladen online maken gratis',
       'plaatjesgrafiek werkblad generator',
-      'printbare telgrafiek maker met antwoordblad',
+      'printbare telgrafiek generator met antwoordblad',
       'datavisualisatie werkblad tool online',
     ],
     lsiKeywords: [
       'verspreide afbeeldingraster tel werkblad gratis',
       'automatisch antwoordblad staafdiagram generator',
-      'plaatjesgrafiek activiteit maker online',
+      'plaatjesgrafiek activiteit generator online',
     ],
     titleTag: 'Tel- en grafiekwerkbladen gratis | LessonCraftStudio',
     metaDescription: 'Maak gratis tel- en grafiekwerkbladen online met 4x5 rasters, automatische staafdiagram antwoordbladen en 104 thema\'s. Probeer nu zonder account.',
@@ -27,7 +27,7 @@ const content: ToolContent = {  seo: {
     title: 'Hoe maakt u gratis tel- en grafiekwerkbladen online?',
     steps: [
       {
-        title: 'Open de Telgrafiek Werkblad Maker',
+        title: 'Open de Telgrafiek Werkblad Generator',
         description: 'Klik op "Gratis proefversie" om de plaatjesgrafiek generator te starten in je browser. De tool laadt direct met een instellingenzijbalk links en een dubbel-tabblad canvas rechts — één tabblad voor het werkblad, één voor het antwoordblad. Geen account aanmaken, geen software downloaden, geen installatie nodig — begin onmiddellijk met het maken van plaatjesgrafiek werkbladen.',
       },
       {
@@ -201,13 +201,13 @@ const content: ToolContent = {  seo: {
 
   internalLinks: [
     { pageType: 'app', slug: 'telgrafieken-werkbladen', anchorText: 'Watermerk verwijderen en verkopen met commerciële licentie' },
-    { pageType: 'tool', slug: 'groot-klein-werkblad-maker', anchorText: 'Groot & Klein Werkblad Maker' },
-    { pageType: 'tool', slug: 'patroontrein-maker', anchorText: 'Patroontrein Werkblad Maker' },
-    { pageType: 'tool', slug: 'rastertekenen-maker', anchorText: 'Rastertekenen Werkblad Maker' },
-    { pageType: 'tool', slug: 'lijnen-trekken-maker', anchorText: 'Lijnen Trekken Werkblad Maker' },
-    { pageType: 'tool', slug: 'kleurplaten-maker', anchorText: 'Kleurplaten Werkblad Maker' },
-    { pageType: 'tool', slug: 'koppelen-werkblad-maker', anchorText: 'Matching Werkblad Maker' },
-    { pageType: 'tool', slug: 'optellen-werkblad-maker', anchorText: 'Optelling Werkblad Maker' },
+    { pageType: 'tool', slug: 'groot-klein-werkblad-generator', anchorText: 'Groot & Klein Werkblad Generator' },
+    { pageType: 'tool', slug: 'patroontrein-maker', anchorText: 'Patroontrein Werkblad Generator' },
+    { pageType: 'tool', slug: 'rastertekenen-maker', anchorText: 'Rastertekenen Werkblad Generator' },
+    { pageType: 'tool', slug: 'lijnen-trekken-maker', anchorText: 'Lijnen Trekken Werkblad Generator' },
+    { pageType: 'tool', slug: 'kleurplaten-maker', anchorText: 'Kleurplaten Werkblad Generator' },
+    { pageType: 'tool', slug: 'koppelen-werkblad-generator', anchorText: 'Matching Werkblad Generator' },
+    { pageType: 'tool', slug: 'optellen-werkblad-generator', anchorText: 'Optelling Werkblad Generator' },
   ],
 
   visuals: {

@@ -5,7 +5,7 @@ const content: ToolContent = {  seo: {
     secondaryKeywords: [
       'Alphabet-Arbeitsblätter kostenlos erstellen online',
       'Alphabet-Zug-Generator ohne Anmeldung',
-      'kostenloser Buchstaben-Arbeitsblatt Ersteller',
+      'kostenloser Buchstaben-Arbeitsblatt-Generator',
       'Alphabet-Übungen online erstellen und drucken',
     ],
     lsiKeywords: [
@@ -27,7 +27,7 @@ const content: ToolContent = {  seo: {
     title: 'Alphabet-Zug-Arbeitsblätter erstellen in 8 einfachen Schritten',
     steps: [
       {
-        title: 'Den Alphabet-Zug-Ersteller öffnen',
+        title: 'Den Alphabet-Zug-Generator öffnen',
         description: 'Klicken Sie auf \"Kostenlos testen\", um den Generator zu starten. Das Tool öffnet sich sofort in Ihrem Browser mit einer Einstellungsleiste links und einer Live-Vorschau rechts. Kein Benutzerkonto, kein Software-Download und keine Installation erforderlich.',
       },
       {
@@ -80,7 +80,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Eigene-Bilder-Marken-Arbeitsblätter',
-      description: 'Laden Sie eigene Illustrationen, Maskottchen oder lizenzierte Grafiken hoch, um Alphabet-Züge zu erstellen, die kein Wettbewerber kopieren kann. Homeschool-Ersteller können Familienfotos verwenden, Verkäufer Schulmaskottchen und Etsy-Verkäufer eine unverwechselbare visuelle Markenidentität über den gesamten Shop aufbauen.',
+      description: 'Laden Sie eigene Illustrationen, Maskottchen oder lizenzierte Grafiken hoch, um Alphabet-Züge zu erstellen, die kein Wettbewerber kopieren kann. Homeschool-Generator können Familienfotos verwenden, Verkäufer Schulmaskottchen und Etsy-Verkäufer eine unverwechselbare visuelle Markenidentität über den gesamten Shop aufbauen.',
     },
     {
       title: 'Saisonale Alphabet-Zug-Bündel',
@@ -148,7 +148,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Mit Muster-Zug für ein Zug-Themen-Bündel kombinieren',
-      description: 'Der Muster-Zug-Ersteller verwendet dasselbe Zugwaggon-Format, konzentriert sich aber auf Mustererkennung statt auf Buchstaben. Bündeln Sie die Ausgaben beider Tools zu einem \"Zug-Aktivitäten\"-Mega-Paket, das Literacy- und Logik-Fähigkeiten abdeckt. Der einheitliche visuelle Stil erzeugt eine zusammenhängende Produktlinie.',
+      description: 'Der Muster-Zug-Generator verwendet dasselbe Zugwaggon-Format, konzentriert sich aber auf Mustererkennung statt auf Buchstaben. Bündeln Sie die Ausgaben beider Tools zu einem \"Zug-Aktivitäten\"-Mega-Paket, das Literacy- und Logik-Fähigkeiten abdeckt. Der einheitliche visuelle Stil erzeugt eine zusammenhängende Produktlinie.',
     },
   ],
 
@@ -201,13 +201,13 @@ const content: ToolContent = {  seo: {
 
   internalLinks: [
     { pageType: 'app', slug: 'alphabet-zug-arbeitsblaetter', anchorText: 'Alphabet-Zug-Arbeitsblätter — Vollständige Produktdetails' },
-    { pageType: 'tool', slug: 'praepositionen-arbeitsblatt-ersteller', anchorText: 'Präpositionen-Arbeitsblatt-Ersteller' },
-    { pageType: 'tool', slug: 'woerter-raten-ersteller', anchorText: 'Wörter-Raten-Ersteller' },
-    { pageType: 'tool', slug: 'buchstabensalat-ersteller', anchorText: 'Buchstabensalat-Ersteller' },
-    { pageType: 'tool', slug: 'wortsuche-ersteller', anchorText: 'Wortsuche-Ersteller' },
-    { pageType: 'tool', slug: 'kryptogramm-ersteller', anchorText: 'Kryptogramm-Ersteller' },
-    { pageType: 'tool', slug: 'schreibuebungen-ersteller', anchorText: 'Schreibübungen-Ersteller' },
-    { pageType: 'tool', slug: 'muster-zug-ersteller', anchorText: 'Muster-Zug-Ersteller' },
+    { pageType: 'tool', slug: 'praepositionen-Arbeitsblatt-Generator', anchorText: 'Präpositionen-Arbeitsblatt-Generator' },
+    { pageType: 'tool', slug: 'woerter-raten-ersteller', anchorText: 'Wörter-Raten-Generator' },
+    { pageType: 'tool', slug: 'buchstabensalat-ersteller', anchorText: 'Buchstabensalat-Generator' },
+    { pageType: 'tool', slug: 'wortsuche-ersteller', anchorText: 'Wortsuche-Generator' },
+    { pageType: 'tool', slug: 'kryptogramm-ersteller', anchorText: 'Kryptogramm-Generator' },
+    { pageType: 'tool', slug: 'schreibuebungen-ersteller', anchorText: 'Schreibübungen-Generator' },
+    { pageType: 'tool', slug: 'muster-zug-ersteller', anchorText: 'Muster-Zug-Generator' },
   ],
 
   visuals: {

@@ -11,7 +11,7 @@ const content: GuideContent = {
     ],
     lsiKeywords: [
       'fiches découper-et-trier marché préscolaire préscolaire activités classification',
-      'créateur activités classification images catégories',
+      'générateur activités classification images catégories',
       'fiches de tri avec corrigé automatique vendeur',
       'vendre fiches de tri sur Etsy',
       'cahiers classification Amazon KDP activités tri',

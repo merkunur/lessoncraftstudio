@@ -27,7 +27,7 @@ const content: ToolContent = {  seo: {
     title: 'Hur du skapar bildkorsord i 8 steg',
     steps: [
       {
-        title: 'Öppna Bildkorsord Skaparen',
+        title: 'Öppna Bildkorsord Generatorn',
         description: 'Klicka på "Prova gratis nu" för att starta bildkorsordsverktyget i din webbläsare. Verktyget laddas direkt med en inställningssidofält till vänster och en dubbelflikad canvas till höger — en flik för korsordsbladet, en för facit. Inget konto behövs, ingen programvara att ladda ner, ingen installation krävs — börja bygga bildkorsord omedelbart.',
       },
       {
@@ -44,7 +44,7 @@ const content: ToolContent = {  seo: {
       },
       {
         title: 'Välj ditt innehållsspråk',
-        description: 'Välj innehållsspråk för att styra orden som visas i korsordsrutnätet. Bildkorsord Skaparen är språkberoende — pusselord kommer från lokaliserade bildnamn via bildvokabulärsystemet. Samma kattbild genererar "CAT" på engelska, "KATZE" på tyska, "CHAT" på franska och "GATTO" på italienska, vilket producerar helt olika korsordspussel från identiska bildval. Commercial-nivån inkluderar engelska; Full Access låser upp alla 11 språk. Denna flerspråkiga förmåga låter dig skapa och sälja korsordsprodukter för internationella marknader från samma bilduppsättningar.',
+        description: 'Välj innehållsspråk för att styra orden som visas i korsordsrutnätet. Bildkorsord Generatorn är språkberoende — pusselord kommer från lokaliserade bildnamn via bildvokabulärsystemet. Samma kattbild genererar "CAT" på engelska, "KATZE" på tyska, "CHAT" på franska och "GATTO" på italienska, vilket producerar helt olika korsordspussel från identiska bildval. Commercial-nivån inkluderar engelska; Full Access låser upp alla 11 språk. Denna flerspråkiga förmåga låter dig skapa och sälja korsordsprodukter för internationella marknader från samma bilduppsättningar.',
       },
       {
         title: 'Generera bildkorsordspusslet',
@@ -174,8 +174,8 @@ const content: ToolContent = {  seo: {
       answer: 'Generatorn använder ett dubbelt canvas-system med en Arbetsblads-flik (det tomma pusslet) och en Facit-flik (det ifyllda rutnätet). Arbetsbladet visar korsordsrutnätet med numrerade positioner och bild- eller textledtrådar — redo för lösare att fylla i. Facit återger den identiska layouten och fyller varje cell med rätt bokstäver. Båda versionerna exporteras separat med fyra dedikerade nedladdningsknappar. Facit genereras samtidigt med pusslet, så det finns inget manuellt facitskapningssteg och ingen risk för felmatchade lösningar.',
     },
     {
-      question: 'Är Bildkorsord Skaparen språkberoende?',
-      answer: 'Ja. Pusselord kommer från lokaliserade bildnamn som laddas genom bildvokabulärsystemet. Att byta innehållsspråk ändrar de faktiska orden som placeras i korsordsrutnätet. En kattbild genererar "CAT" på engelska men "KATZE" på tyska, "CHAT" på franska och "GATTO" på italienska — vilket skapar helt olika korsordspussel från identiska bildval. Den lokaliserade rubriktexten ändras också med det valda språket. Commercial-nivån inkluderar engelskt innehåll; Full Access låser upp alla 11 språk för lokaliserade pusselord. Detta gör Bildkorsord Skaparen till ett av de mest mångsidiga verktygen för att skapa flerspråkiga säljbara produkter.',
+      question: 'Är Bildkorsord Generatorn språkberoende?',
+      answer: 'Ja. Pusselord kommer från lokaliserade bildnamn som laddas genom bildvokabulärsystemet. Att byta innehållsspråk ändrar de faktiska orden som placeras i korsordsrutnätet. En kattbild genererar "CAT" på engelska men "KATZE" på tyska, "CHAT" på franska och "GATTO" på italienska — vilket skapar helt olika korsordspussel från identiska bildval. Den lokaliserade rubriktexten ändras också med det valda språket. Commercial-nivån inkluderar engelskt innehåll; Full Access låser upp alla 11 språk för lokaliserade pusselord. Detta gör Bildkorsord Generatorn till ett av de mest mångsidiga verktygen för att skapa flerspråkiga säljbara produkter.',
     },
     {
       question: 'Hur fungerar läget Anpassad ordlista med ledtrådar?',
@@ -201,13 +201,13 @@ const content: ToolContent = {  seo: {
 
   internalLinks: [
     { pageType: 'app', slug: 'bildkorsord-arbetsblad', anchorText: 'Bildkorsord — Fullständig produktinformation' },
-    { pageType: 'tool', slug: 'ordsoek-skapare', anchorText: 'Ordsökning Skapare' },
-    { pageType: 'tool', slug: 'ordmix-skapare', anchorText: 'Ordmix Skapare' },
-    { pageType: 'tool', slug: 'gissa-ordet-skapare', anchorText: 'Gissa Ordet Skapare' },
-    { pageType: 'tool', slug: 'skattjakt-skapare', anchorText: 'Skattjakt Skapare' },
-    { pageType: 'tool', slug: 'hitta-och-raekna-skapare', anchorText: 'Hitta och Räkna Skapare' },
-    { pageType: 'tool', slug: 'hitta-foeremaalen-skapare', anchorText: 'Hitta Föremålen Skapare' },
-    { pageType: 'tool', slug: 'kryptogram-skapare', anchorText: 'Kryptogram Skapare' },
+    { pageType: 'tool', slug: 'ordsoek-skapare', anchorText: 'Ordsökning Generator' },
+    { pageType: 'tool', slug: 'ordmix-skapare', anchorText: 'Ordmix Generator' },
+    { pageType: 'tool', slug: 'gissa-ordet-skapare', anchorText: 'Gissa Ordet Generator' },
+    { pageType: 'tool', slug: 'skattjakt-skapare', anchorText: 'Skattjakt Generator' },
+    { pageType: 'tool', slug: 'hitta-och-raekna-skapare', anchorText: 'Hitta och Räkna Generator' },
+    { pageType: 'tool', slug: 'hitta-foeremaalen-skapare', anchorText: 'Hitta Föremålen Generator' },
+    { pageType: 'tool', slug: 'kryptogram-skapare', anchorText: 'Kryptogram Generator' },
   ],
 
   visuals: {

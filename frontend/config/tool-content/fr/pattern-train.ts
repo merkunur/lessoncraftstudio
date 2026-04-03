@@ -28,7 +28,7 @@ const content: ToolContent = {
     title: 'Comment Créer des Fiches Train de Suites Logiques en 8 Étapes',
     steps: [
       {
-        title: 'Ouvrir le Créateur de Fiches Train de Suites Logiques',
+        title: 'Ouvrir le Générateur de Fiches Train de Suites Logiques',
         description: 'Cliquez sur \" Essayer maintenant \" pour lancer le générateur dans votre navigateur. L\'outil s\'ouvre instantanément avec une barre latérale de réglages à gauche et un canevas d\'aperçu en temps réel à droite. Aucun compte, téléchargement ni installation requis — commencez à créer des fiches train de suites logiques immédiatement.',
       },
       {
@@ -137,7 +137,7 @@ const content: ToolContent = {
     },
     {
       title: 'Créez des Produits Train et Grille de Motifs Complémentaires',
-      description: 'Le Créateur de Fiches Train de Suites Logiques et le Créateur de Fiches Séquences Logiques produisent des formats visuels fondamentalement différents pour la même compétence — la reconnaissance de motifs. Le format train utilise 11 wagons avec une seule position manquante. Le format grille utilise des lignes et colonnes standard pour la complétion de motifs. Vendez les deux formats séparément ou regroupez-les en \" Pack Complet de Reconnaissance de Motifs \" pour un prix premium.',
+      description: 'Le Générateur de Fiches Train de Suites Logiques et le Générateur de Fiches Séquences Logiques produisent des formats visuels fondamentalement différents pour la même compétence — la reconnaissance de motifs. Le format train utilise 11 wagons avec une seule position manquante. Le format grille utilise des lignes et colonnes standard pour la complétion de motifs. Vendez les deux formats séparément ou regroupez-les en \" Pack Complet de Reconnaissance de Motifs \" pour un prix premium.',
     },
     {
       title: 'Adaptez le Nombre d\'Indices à Votre Tranche d\'Âge Cible',
@@ -202,13 +202,13 @@ const content: ToolContent = {
 
   internalLinks: [
     { pageType: 'app', slug: 'train-suites-logiques-fiches', anchorText: 'Fiches Train de Suites Logiques — Détails Complets du Produit' },
-    { pageType: 'tool', slug: 'generateur-fiches-grand-petit', anchorText: 'Créateur de Fiches Grand et Petit' },
-    { pageType: 'tool', slug: 'generateur-fiches-sequences-logiques', anchorText: 'Créateur de Fiches Séquences Logiques' },
-    { pageType: 'tool', slug: 'generateur-dessin-quadrillage', anchorText: 'Créateur de Fiches Dessin sur Quadrillage' },
-    { pageType: 'tool', slug: 'generateur-fiches-association', anchorText: 'Créateur de Fiches d\'Association' },
-    { pageType: 'tool', slug: 'generateur-fiches-intrus', anchorText: 'Créateur de Fiches de l\'Intrus' },
-    { pageType: 'tool', slug: 'generateur-discrimination-visuelle', anchorText: 'Créateur de Fiches Discrimination Visuelle' },
-    { pageType: 'tool', slug: 'generateur-pages-coloriage', anchorText: 'Créateur de Pages de Coloriage' },
+    { pageType: 'tool', slug: 'generateur-fiches-grand-petit', anchorText: 'Générateur de Fiches Grand et Petit' },
+    { pageType: 'tool', slug: 'generateur-fiches-sequences-logiques', anchorText: 'Générateur de Fiches Séquences Logiques' },
+    { pageType: 'tool', slug: 'generateur-dessin-quadrillage', anchorText: 'Générateur de Fiches Dessin sur Quadrillage' },
+    { pageType: 'tool', slug: 'generateur-fiches-association', anchorText: 'Générateur de Fiches d\'Association' },
+    { pageType: 'tool', slug: 'generateur-fiches-intrus', anchorText: 'Générateur de Fiches de l\'Intrus' },
+    { pageType: 'tool', slug: 'generateur-discrimination-visuelle', anchorText: 'Générateur de Fiches Discrimination Visuelle' },
+    { pageType: 'tool', slug: 'generateur-pages-coloriage', anchorText: 'Générateur de Pages de Coloriage' },
   ],
 
   visuals: {

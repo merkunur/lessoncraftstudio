@@ -2,19 +2,19 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'alfabettog arbejdsark skaber for børn',
+    primaryKeyword: 'alfabettog arbejdsark generator for børn',
     secondaryKeywords: [
-      'alfabettog skaber online',
+      'alfabettog generator online',
       'bogstavgenkendelse arbejdsark for børn',
       'printbart alfabettog til børnehaven',
-      'alfabet matchning arbejdsark skaber for sælgere',
+      'alfabet matchning arbejdsark generator for sælgere',
     ],
     lsiKeywords: [
       'bogstav-billede matchning togarbejdsark for børn',
       'flersproget alfabet aktivitet online',
       'farverigt alfabettog printbart til børnehaven',
     ],
-    titleTag: 'Alfabettog Skaber — Bogstavsøvelse for Børn',
+    titleTag: 'Alfabettog Generator — Bogstavsøvelse for Børn',
     metaDescription: 'Opret alfabettog arbejdsark til bogstavgenkendelse. 11 farverige vogne, bogstav-billede matchning, 11 sprog, 104 temaer. Gratis prøveversion med vandmærke.',
   },
 
@@ -28,7 +28,7 @@ const content: ToolContent = {
     title: 'Sådan Opretter du Alfabettog Arbejdsark i 8 Enkle Trin',
     steps: [
       {
-        title: 'Åbn Alfabettog Skaberen',
+        title: 'Åbn Alfabettog Generatoren',
         description: 'Klik på \"Prøv gratis nu\" for at starte generatoren. Værktøjet åbner direkte i din webbrowser med et indstillingssidepanel til venstre og et liveforhåndsvisnings-lærred til højre. Ingen konto, download eller installation krævet.',
       },
       {
@@ -81,7 +81,7 @@ const content: ToolContent = {
     },
     {
       title: 'Tilpassede billed-brandede arbejdsark',
-      description: 'Upload egne illustrationer, maskotbilleder eller licenseret kunstværk for at oprette alfabettog, som ingen anden sælger kan replikere. Hjemmeundervisningsindholdsskabere kan bruge familiebilleder, produktlinjesælgere kan bruge skolemaskotbilleder, og Etsy-sælgere kan opbygge en distinkt visuel identitet gennem hele deres butik.',
+      description: 'Upload egne illustrationer, maskotbilleder eller licenseret kunstværk for at oprette alfabettog, som ingen anden sælger kan replikere. Hjemmeundervisningsindholdsgeneratore kan bruge familiebilleder, produktlinjesælgere kan bruge skolemaskotbilleder, og Etsy-sælgere kan opbygge en distinkt visuel identitet gennem hele deres butik.',
     },
     {
       title: 'Sæsonbetonede alfabettog-pakker',
@@ -149,7 +149,7 @@ const content: ToolContent = {
     },
     {
       title: 'Par med Mønstertog for en togtema-pakke',
-      description: 'Mønstertog-skaberen bruger det samme togvogns visuelle format, men fokuserer på mønstergenkendelse i stedet for bogstaver. Pak begge værktøjers output til en \"Togaktiviteter\" megapakke, der dækker læsefærdighed og logikfærdigheder. Den matchende visuelle stil opretter en sammenhængende produktlinje.',
+      description: 'Mønstertog-generatoren bruger det samme togvogns visuelle format, men fokuserer på mønstergenkendelse i stedet for bogstaver. Pak begge værktøjers output til en \"Togaktiviteter\" megapakke, der dækker læsefærdighed og logikfærdigheder. Den matchende visuelle stil opretter en sammenhængende produktlinje.',
     },
   ],
 
@@ -202,13 +202,13 @@ const content: ToolContent = {
 
   internalLinks: [
     { pageType: 'app', slug: 'alfabet-tog-arbejdsark', anchorText: 'Alfabettog Arbejdsark — Komplette Produktdetaljer' },
-    { pageType: 'tool', slug: 'praepositioner-arbejdsark-skaber', anchorText: 'Præpositioner Arbejdsark Skaber' },
-    { pageType: 'tool', slug: 'gaet-ordet-skaber', anchorText: 'Gæt Ordet Skaber' },
-    { pageType: 'tool', slug: 'ordmix-skaber', anchorText: 'Bogstavrod Skaber' },
-    { pageType: 'tool', slug: 'ordsoegning-skaber', anchorText: 'Ordsøgning Skaber' },
-    { pageType: 'tool', slug: 'kryptogram-skaber', anchorText: 'Kryptogram Skaber' },
-    { pageType: 'tool', slug: 'skriveovelser-skaber', anchorText: 'Skriveøvelser Skaber' },
-    { pageType: 'tool', slug: 'moenstertog-skaber', anchorText: 'Mønstertog Skaber' },
+    { pageType: 'tool', slug: 'praepositioner-arbejdsark-skaber', anchorText: 'Præpositioner Arbejdsark Generator' },
+    { pageType: 'tool', slug: 'gaet-ordet-skaber', anchorText: 'Gæt Ordet Generator' },
+    { pageType: 'tool', slug: 'ordmix-skaber', anchorText: 'Bogstavrod Generator' },
+    { pageType: 'tool', slug: 'ordsoegning-skaber', anchorText: 'Ordsøgning Generator' },
+    { pageType: 'tool', slug: 'kryptogram-skaber', anchorText: 'Kryptogram Generator' },
+    { pageType: 'tool', slug: 'skriveovelser-skaber', anchorText: 'Skriveøvelser Generator' },
+    { pageType: 'tool', slug: 'moenstertog-skaber', anchorText: 'Mønstertog Generator' },
   ],
 
   visuals: {

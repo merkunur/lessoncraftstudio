@@ -29,7 +29,7 @@ const content: ToolContent = {
     steps: [
       {
         title: 'Öppna arbetsblad-generatorn',
-        description: 'Klicka på \"Prova gratis nu\" för att starta matte arbetsblad-skaparen. Verktyget öppnas direkt i din webbläsare med ett mörkt sidofält till vänster för inställningar och en ljus arbetsyta till höger för din liveförhandsvisning. Inget konto eller nedladdning krävs.',
+        description: 'Klicka på \"Prova gratis nu\" för att starta matte arbetsblad-generatorn. Verktyget öppnas direkt i din webbläsare med ett mörkt sidofält till vänster för inställningar och en ljus arbetsyta till höger för din liveförhandsvisning. Inget konto eller nedladdning krävs.',
       },
       {
         title: 'Ställ in sidlayout och storlek',
@@ -141,7 +141,7 @@ const content: ToolContent = {
     },
     {
       title: 'Para ihop med vanliga matteverktyg',
-      description: 'Skapa matchande set med Additions-, Subtraktions- och Kodadditionsgeneratorerna bredvid algebrapussel-skaparen. Sälj dem individuellt och som ett kombinerat \"Matteövning + Algebrapussel\"-paket. Den visuella algebrakomponenten lägger till en utmaning som gör paketet mer attraktivt än enbart arbetsblad.',
+      description: 'Skapa matchande set med Additions-, Subtraktions- och Kodadditionsgeneratorerna bredvid algebrapussel-generatorn. Sälj dem individuellt och som ett kombinerat \"Matteövning + Algebrapussel\"-paket. Den visuella algebrakomponenten lägger till en utmaning som gör paketet mer attraktivt än enbart arbetsblad.',
     },
     {
       title: 'Exportera båda formaten',
@@ -202,13 +202,13 @@ const content: ToolContent = {
 
   internalLinks: [
     { pageType: 'app', slug: 'matematik-arbetsblad', anchorText: 'Matematik Arbetsblad — Fullständiga Produktdetaljer' },
-    { pageType: 'tool', slug: 'additions-arbetsblad-skapare', anchorText: 'Additions Arbetsblad Skapare' },
-    { pageType: 'tool', slug: 'subtraktions-arbetsblad-skapare', anchorText: 'Subtraktions Arbetsblad Skapare' },
-    { pageType: 'tool', slug: 'kodadditions-arbetsblad-skapare', anchorText: 'Kodadditions Arbetsblad Skapare' },
-    { pageType: 'tool', slug: 'mer-eller-mindre-arbetsblad-skapare', anchorText: 'Mer eller Mindre Arbetsblad Skapare' },
-    { pageType: 'tool', slug: 'mattepussel-skapare', anchorText: 'Mattepussel Skapare' },
-    { pageType: 'tool', slug: 'matchnings-arbetsblad-skapare', anchorText: 'Matchnings Arbetsblad Skapare' },
-    { pageType: 'tool', slug: 'saknade-bitar-skapare', anchorText: 'Saknade Bitar Skapare' },
+    { pageType: 'tool', slug: 'additions-arbetsblad-skapare', anchorText: 'Additions Arbetsblad Generator' },
+    { pageType: 'tool', slug: 'subtraktions-arbetsblad-skapare', anchorText: 'Subtraktions Arbetsblad Generator' },
+    { pageType: 'tool', slug: 'kodadditions-arbetsblad-skapare', anchorText: 'Kodadditions Arbetsblad Generator' },
+    { pageType: 'tool', slug: 'mer-eller-mindre-arbetsblad-skapare', anchorText: 'Mer eller Mindre Arbetsblad Generator' },
+    { pageType: 'tool', slug: 'mattepussel-skapare', anchorText: 'Mattepussel Generator' },
+    { pageType: 'tool', slug: 'matchnings-arbetsblad-skapare', anchorText: 'Matchnings Arbetsblad Generator' },
+    { pageType: 'tool', slug: 'saknade-bitar-skapare', anchorText: 'Saknade Bitar Generator' },
   ],
 
   visuals: {

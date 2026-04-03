@@ -28,7 +28,7 @@ const content: ToolContent = {
     title: 'Comment Créer des Puzzles Pièces Manquantes en 8 Étapes',
     steps: [
       {
-        title: 'Ouvrir le Créateur de Puzzles Pièces Manquantes',
+        title: 'Ouvrir le Générateur de Puzzles Pièces Manquantes',
         description: 'Cliquez sur \" Essayer maintenant \" pour lancer le générateur de puzzles pièces manquantes dans votre navigateur. L\'outil s\'ouvre instantanément avec une barre latérale de réglages à gauche et un canevas à double onglet à droite — un onglet pour la fiche, un pour le corrigé. Aucun compte, aucun téléchargement de logiciel, aucune installation requis — commencez à créer des puzzles pièces manquantes immédiatement.',
       },
       {
@@ -187,7 +187,7 @@ const content: ToolContent = {
       answer: 'Chaque puzzle généré comporte un en-tête stylisé avec \" Pièces Manquantes \" en turquoise (#06B6D4) et une description rose (#DB2777), encadré par deux bordures décoratives. La bordure extérieure utilise du bleu sarcelle vif (#14B8A6) avec un trait de 8px, des marges de 34px et un rayon de bordure de 12px. La bordure intérieure utilise du rose vif (#EC4899) avec un trait de 3px, des marges de 46,5px, un rayon de bordure de 8px et un léger décalage de 2px à droite et 3px vers le bas. Ensemble, elles créent un cadre soigné et professionnel qui augmente la qualité visuelle de vos fiches de puzzles pour les listings marketplace.',
     },
     {
-      question: 'Le Créateur de Puzzles Pièces Manquantes est-il sensible à la langue ?',
+      question: 'Le Générateur de Puzzles Pièces Manquantes est-il sensible à la langue ?',
       answer: 'Non. Pièces Manquantes est un format de puzzle purement visuel — la fiche contient uniquement des images, des trous et des options de réponse numérotées sans contenu dépendant de la locale. Le seul élément dépendant de la langue est le texte d\'en-tête auto-généré (\" Pièces Manquantes \" et la description), localisé dans les 11 langues prises en charge. Le puzzle lui-même fonctionne identiquement quelle que soit la langue sélectionnée. Cela rend les puzzles pièces manquantes universellement vendables dans tous les marchés sans traduction — un seul jeu de puzzles sert chaque place de marché internationale.',
     },
     {
@@ -206,13 +206,13 @@ const content: ToolContent = {
 
   internalLinks: [
     { pageType: 'app', slug: 'pieces-manquantes-fiches', anchorText: 'Puzzles Pièces Manquantes — Détails Complets du Produit' },
-    { pageType: 'tool', slug: 'generateur-fiches-intrus', anchorText: 'Créateur de Fiches Intrus' },
-    { pageType: 'tool', slug: 'generateur-discrimination-visuelle', anchorText: 'Créateur de Discrimination Visuelle' },
-    { pageType: 'tool', slug: 'generateur-puzzle-grille', anchorText: 'Créateur de Puzzles Grille' },
-    { pageType: 'tool', slug: 'generateur-fiches-association', anchorText: 'Créateur de Fiches d\'Association' },
-    { pageType: 'tool', slug: 'generateur-tri-images', anchorText: 'Créateur de Fiches de Tri d\'Images' },
-    { pageType: 'tool', slug: 'generateur-mots-caches', anchorText: 'Créateur de Mots Cachés' },
-    { pageType: 'tool', slug: 'generateur-pages-coloriage', anchorText: 'Créateur de Pages de Coloriage' },
+    { pageType: 'tool', slug: 'generateur-fiches-intrus', anchorText: 'Générateur de Fiches Intrus' },
+    { pageType: 'tool', slug: 'generateur-discrimination-visuelle', anchorText: 'Générateur de Discrimination Visuelle' },
+    { pageType: 'tool', slug: 'generateur-puzzle-grille', anchorText: 'Générateur de Puzzles Grille' },
+    { pageType: 'tool', slug: 'generateur-fiches-association', anchorText: 'Générateur de Fiches d\'Association' },
+    { pageType: 'tool', slug: 'generateur-tri-images', anchorText: 'Générateur de Fiches de Tri d\'Images' },
+    { pageType: 'tool', slug: 'generateur-mots-caches', anchorText: 'Générateur de Mots Cachés' },
+    { pageType: 'tool', slug: 'generateur-pages-coloriage', anchorText: 'Générateur de Pages de Coloriage' },
   ],
 
   visuals: {

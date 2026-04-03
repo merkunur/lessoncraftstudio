@@ -162,7 +162,7 @@ const content: GuideContent = {
     { pageType: 'start', slug: 'komplettanleitung-druckvorlagen-geschaeft', anchorText: 'Komplettanleitung zum Start eines Druckvorlagen-Geschäfts' },
     { pageType: 'start', slug: 'kommerzielle-lizenz-leitfaden', anchorText: 'Leitfaden zur kommerziellen Lizenz' },
     { pageType: 'app', slug: 'addition-arbeitsblaetter', anchorText: 'Additions-Arbeitsblatt-Generator — Alle Details' },
-    { pageType: 'tool', slug: 'additions-arbeitsblatt-ersteller', anchorText: 'Den Additions-Arbeitsblatt-Ersteller testen' },
+    { pageType: 'tool', slug: 'additions-Arbeitsblatt-Generator', anchorText: 'Den Additions-Arbeitsblatt-Generator testen' },
   ],
 
   toolsRecommended: [

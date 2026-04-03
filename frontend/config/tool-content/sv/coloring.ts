@@ -28,7 +28,7 @@ const content: ToolContent = {
     title: 'Hur du Skapar Anpassade Målarsidor i 8 Steg',
     steps: [
       {
-        title: 'Öppna Målarsida Skaparen',
+        title: 'Öppna Målarsida Generatorn',
         description: 'Klicka på \"Prova gratis nu\" för att starta målarsidegeneratorn i din webbläsare. Verktyget laddas direkt med ett inställningssidofält till vänster och en liveförhandsvisnings arbetsyta till höger. Inget konto, ingen nedladdning, ingen installation krävs — börja bygga målarsidor omedelbart på den fria arbetsytan.',
       },
       {
@@ -117,7 +117,7 @@ const content: ToolContent = {
     },
     {
       title: 'Global visuell produktlinje',
-      description: 'Målarsida Skaparen producerar rent visuell utmatning utan text på arbetsbladen — samma målarsida fungerar på alla språk utan modifiering. En skapandesession producerar en universellt säljbar katalog. Sälj samma produktfiler globalt utan översättningskostnader eller språkspecifikt underhåll.',
+      description: 'Målarsida Generatorn producerar rent visuell utmatning utan text på arbetsbladen — samma målarsida fungerar på alla språk utan modifiering. En skapandesession producerar en universellt säljbar katalog. Sälj samma produktfiler globalt utan översättningskostnader eller språkspecifikt underhåll.',
       platform: 'Etsy / Amazon KDP',
     },
   ],
@@ -160,7 +160,7 @@ const content: ToolContent = {
     },
     {
       question: 'Vad gör den fria arbetsytan annorlunda från mallbaserade verktyg?',
-      answer: 'Målarsida Skaparen ger dig en helt öppen arbetsyta utan rutnät, mallar, fack eller förbestämda layouter. Varje bild placeras exakt var du drar den. Du kan överlappa bilder, rotera dem till valfri vinkel, ändra storlek fritt och skapa lagerkompositioner. Mallverktyg låser dig i fasta positioner. Den fria metoden innebär att varje målarsida du skapar är unik.',
+      answer: 'Målarsida Generatorn ger dig en helt öppen arbetsyta utan rutnät, mallar, fack eller förbestämda layouter. Varje bild placeras exakt var du drar den. Du kan överlappa bilder, rotera dem till valfri vinkel, ändra storlek fritt och skapa lagerkompositioner. Mallverktyg låser dig i fasta positioner. Den fria metoden innebär att varje målarsida du skapar är unik.',
     },
     {
       question: 'Hur fungerar gråskaleexporten?',
@@ -176,7 +176,7 @@ const content: ToolContent = {
     },
     {
       question: 'Är målarsidorna språkkänsliga?',
-      answer: 'Nej. Målarsida Skaparen producerar rent visuell utmatning utan text på själva målarsidan. Att byta språk i generatorn påverkar bara gränssnittsetiketterna, inte det exporterade arbetsbladet. Detta gör dina målarsidor universellt säljbara utan översättning.',
+      answer: 'Nej. Målarsida Generatorn producerar rent visuell utmatning utan text på själva målarsidan. Att byta språk i generatorn påverkar bara gränssnittsetiketterna, inte det exporterade arbetsbladet. Detta gör dina målarsidor universellt säljbara utan översättning.',
     },
     {
       question: 'Varför finns det inget facit?',
@@ -202,13 +202,13 @@ const content: ToolContent = {
 
   internalLinks: [
     { pageType: 'app', slug: 'malarbilder-arbetsblad', anchorText: 'Målarbilder — Fullständiga Produktdetaljer' },
-    { pageType: 'tool', slug: 'rita-och-faerglaeg-skapare', anchorText: 'Rita och Färglägg Skapare' },
-    { pageType: 'tool', slug: 'linjer-ovningar-skapare', anchorText: 'Rita Linjer Skapare' },
-    { pageType: 'tool', slug: 'stor-liten-arbetsblad-skapare', anchorText: 'Stor och Liten Arbetsblad Skapare' },
-    { pageType: 'tool', slug: 'moenstertaag-skapare', anchorText: 'Mönstertåg Skapare' },
-    { pageType: 'tool', slug: 'matchnings-arbetsblad-skapare', anchorText: 'Matchnings Arbetsblad Skapare' },
-    { pageType: 'tool', slug: 'skuggmatchning-skapare', anchorText: 'Skuggmatchning Skapare' },
-    { pageType: 'tool', slug: 'skrivoevningar-skapare', anchorText: 'Skrivövningar Skapare' },
+    { pageType: 'tool', slug: 'rita-och-faerglaeg-skapare', anchorText: 'Rita och Färglägg Generator' },
+    { pageType: 'tool', slug: 'linjer-ovningar-skapare', anchorText: 'Rita Linjer Generator' },
+    { pageType: 'tool', slug: 'stor-liten-arbetsblad-skapare', anchorText: 'Stor och Liten Arbetsblad Generator' },
+    { pageType: 'tool', slug: 'moenstertaag-skapare', anchorText: 'Mönstertåg Generator' },
+    { pageType: 'tool', slug: 'matchnings-arbetsblad-skapare', anchorText: 'Matchnings Arbetsblad Generator' },
+    { pageType: 'tool', slug: 'skuggmatchning-skapare', anchorText: 'Skuggmatchning Generator' },
+    { pageType: 'tool', slug: 'skrivoevningar-skapare', anchorText: 'Skrivövningar Generator' },
   ],
 
   visuals: {

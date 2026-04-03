@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'criador de cartelas de bingo para vender na Etsy',
+    primaryKeyword: 'gerador de cartelas de bingo para vender na Etsy',
     secondaryKeywords: [
       'gerador de bingo com imagens para Hotmart',
       'cartelas de bingo para vender na Amazon KDP',

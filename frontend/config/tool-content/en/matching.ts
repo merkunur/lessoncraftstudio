@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'free matching worksheet maker',
+    primaryKeyword: 'free matching worksheet generator',
     secondaryKeywords: [
       'make matching worksheets free online',
       'matching activity generator no signup',
@@ -11,10 +11,10 @@ const content: ToolContent = {
     ],
     lsiKeywords: [
       'free matching tool online',
-      'instant matching worksheet maker',
+      'instant matching worksheet generator',
       'try before you buy matching tools',
     ],
-    titleTag: 'Free Matching Worksheet Maker Online | LCS',
+    titleTag: 'Free Matching Worksheet Generator Online | LCS',
     metaDescription: 'Make matching worksheets free online with watermark — no signup. 4 matching modes, auto answer keys, 104 themes. Upgrade for commercial license to sell.',
   },
 
@@ -28,7 +28,7 @@ const content: ToolContent = {
     title: 'How to Make Matching Worksheets Free in 8 Steps',
     steps: [
       {
-        title: 'Open the Matching Worksheet Maker',
+        title: 'Open the Matching Worksheet Generator',
         description: 'Click \"Try Free Now\" to launch the matching worksheet generator in your browser. The tool loads instantly with a settings sidebar on the left and a dual-tab canvas on the right — one tab for the worksheet, one for the answer key. No account creation, no software download, no installation required — start building draw-a-line matching worksheets immediately.',
       },
       {
@@ -175,7 +175,7 @@ const content: ToolContent = {
       answer: 'Beginning Letter mode offers three sub-modes for image selection. Random Theme & Images picks a random theme and images from it automatically. Random from Chosen Theme lets you select a specific theme and then picks random images from that collection. Select Specific Images opens the Image Library so you can manually pick exactly the images you want. You can also choose between uppercase and lowercase letter display using the letter type toggle — uppercase for early learners, lowercase for more advanced phonics practice.',
     },
     {
-      question: 'Is the Matching Worksheet Maker language-sensitive?',
+      question: 'Is the Matching Worksheet Generator language-sensitive?',
       answer: 'Yes. Beginning Letter and Image+Word modes use localized image names from the Image Library, so switching languages changes the words and first letters that appear on the worksheet. For example, a cat image shows C in English Beginning Letter mode but K in German (Katze) and C in French (Chat). The localized Match Up header also changes with the selected language. This language sensitivity lets you create matching worksheets in all 11 supported languages from the same image selections, multiplying your product catalog for international markets.',
     },
     {

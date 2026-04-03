@@ -4,36 +4,36 @@ const content: ToolContent = {
   seo: {
     primaryKeyword: 'gittermatchning arbejdsark',
     secondaryKeywords: [
-      'gittermatchning arbejdsark skaber for sælgere',
+      'gittermatchning arbejdsark generator for sælgere',
       'lav gitterpuslespil til salg',
       'printbar gitterpuslespil generator kommerciel brug',
-      'billedfliser matchning arbejdsark skaber til KDP og Etsy',
+      'billedfliser matchning arbejdsark generator til KDP og Etsy',
     ],
     lsiKeywords: [
       'enkeltbilled gitterpuslespil fliser matchningsværktøj',
       'automatisk facit nummereret cirkeloverlejring generator',
-      'konfigurerbar ledetrådscelle sværhed gitterskaber',
+      'konfigurerbar ledetrådscelle sværhed gittergenerator',
     ],
-    titleTag: 'Gitterpuslespil Skaber — Gitter Arbejdsark Generator',
+    titleTag: 'Gitterpuslespil Generator — Gitter Arbejdsark Generator',
     metaDescription: 'Lav gittermatchnings arbejdsark med konfigurerbar gitterstørrelse, justerbare ledetrådsceller, Fisher-Yates-blanding og 104 tematiske billeder. Gratis prøveversion.',
   },
 
   hero: {
-    title: 'Gitterpuslespil Skaber',
+    title: 'Gitterpuslespil Generator',
     tagline: 'Enkeltbilled gitterpuslespil generator med konfigurerbare gitterstørrelser fra 2×2 til 4×4, justerbare ledetrådsceller for skalerbar sværhed, Fisher-Yates fliserandomisering, automatisk genererede facit med nummererede cirkeloverlejringer og 104 tematiske billedsamlinger',
-    description: 'Lav professionelle gittermatchnings arbejdsark, hvor et enkelt billede deles op i et gitter af fliser, og brugerne matcher nummererede fliser tilbage til deres korrekte positioner — et rumligt ræsonnementpuslespil bygget af ét billede. Konfigurér gitteret fra 2×2 op til 4×4 (2–4 rækker × 2–4 kolonner, standard 3×3) for at lave puslespil fra 4 til 16 fliser. Indstil 1–5 ledetrådsceller (standard 1), der forbliver synlige som tips — færre ledetråde betyder sværere puslespil, flere ledetråde skaber tilgængelige opvarmninger. Appen blander skjulte fliser med Fisher-Yates-randomisering og viser dem i en nummereret palet. Dobbeltarbejdsområde-systemet genererer samtidigt en arbejdsarksfane og en facitfane — facittet viser det komplette ubeskadigede billede med nummererede cirkler overlejret på hver gittercelle (gul baggrund #ffffe0, sort kontur, Fredoka-skrifttype). Det responsive layout tilpasses automatisk: stående sider placerer gitteret øverst med paletten nedenunder; liggende sider positionerer gitteret til venstre med paletten til højre. Gitterpuslespil er IKKE sprogfølsomt — puslespiloutputtet er rent visuelt uden lokaliseret ordindhold, hvilket gør hvert arbejdsark universelt sælgbart uden oversættelse. Gennemse 104 tematiske samlinger med mere end 3.100 illustrationer eller upload egne billeder. Anvend baggrunds- og rammetemaer med uafhængige gennemsigtighedsskydere. Eksportér fire filer per session: arbejdsark-JPEG, arbejdsark-PDF, facit-JPEG og facit-PDF — alle med 300 DPI. Den gratis prøveversion indeholder alle funktioner med et vandmærke. Køb en licens for at fjerne vandmærket og sælge kommercielt.',
+    description: 'Lav professionelle gittermatchnings arbejdsark, hvor et enkelt billede deles op i et gitter af fliser, og brugerne matcher nummererede fliser tilbage til deres korrekte positioner — et rumligt ræsonnementpuslespil bygget af ét billede. Konfigurér gitteret fra 2×2 op til 4×4 (2–4 rækker × 2–4 kolonner, standard 3×3) for at lave puslespil fra 4 til 16 fliser. Indstil 1–5 ledetrådsceller (standard 1), der forbliver synlige som tips — færre ledetråde betyder sværere puslespil, flere ledetråde generator tilgængelige opvarmninger. Appen blander skjulte fliser med Fisher-Yates-randomisering og viser dem i en nummereret palet. Dobbeltarbejdsområde-systemet genererer samtidigt en arbejdsarksfane og en facitfane — facittet viser det komplette ubeskadigede billede med nummererede cirkler overlejret på hver gittercelle (gul baggrund #ffffe0, sort kontur, Fredoka-skrifttype). Det responsive layout tilpasses automatisk: stående sider placerer gitteret øverst med paletten nedenunder; liggende sider positionerer gitteret til venstre med paletten til højre. Gitterpuslespil er IKKE sprogfølsomt — puslespiloutputtet er rent visuelt uden lokaliseret ordindhold, hvilket gør hvert arbejdsark universelt sælgbart uden oversættelse. Gennemse 104 tematiske samlinger med mere end 3.100 illustrationer eller upload egne billeder. Anvend baggrunds- og rammetemaer med uafhængige gennemsigtighedsskydere. Eksportér fire filer per session: arbejdsark-JPEG, arbejdsark-PDF, facit-JPEG og facit-PDF — alle med 300 DPI. Den gratis prøveversion indeholder alle funktioner med et vandmærke. Køb en licens for at fjerne vandmærket og sælge kommercielt.',
   },
 
   tutorial: {
     title: 'Sådan Laver du Gittermatchnings Arbejdsark i 8 Trin',
     steps: [
       {
-        title: 'Åbn Gitterpuslespil Skaberen',
+        title: 'Åbn Gitterpuslespil Generatoren',
         description: 'Klik på \"Prøv gratis nu\" for at starte gittermatchnings arbejdsark generatoren i din browser. Værktøjet indlæses direkte med et indstillingssidepanel til venstre og et dobbeltfane-arbejdsområde til højre. Ingen konto, ingen download, ingen installation kræves.',
       },
       {
         title: 'Konfigurér gitterstørrelsen',
-        description: 'Åbn panelen Gittermuligheder og indstil antal rækker (2–4, standard 3) og kolonner (2–4, standard 3) uafhængigt. Et 2×2-gitter skaber 4 fliser for simple introduktionspuslespil. Et 3×3-gitter producerer 9 fliser for afbalanceret sværhed. Et 4×4-gitter leverer 16 fliser for avancerede rumlige ræsonnementudfordringer. Du kan også blande rækker og kolonner — et 2×4-gitter skaber et bredt rektangulært puslespil med 8 fliser.',
+        description: 'Åbn panelen Gittermuligheder og indstil antal rækker (2–4, standard 3) og kolonner (2–4, standard 3) uafhængigt. Et 2×2-gitter generator 4 fliser for simple introduktionspuslespil. Et 3×3-gitter producerer 9 fliser for afbalanceret sværhed. Et 4×4-gitter leverer 16 fliser for avancerede rumlige ræsonnementudfordringer. Du kan også blande rækker og kolonner — et 2×4-gitter generator et bredt rektangulært puslespil med 8 fliser.',
       },
       {
         title: 'Indstil ledetrådscelle-antallet for sværhed',
@@ -107,7 +107,7 @@ const content: ToolContent = {
     },
     {
       title: 'Pinterest gitterpuslespil trafiktragt',
-      description: 'Gittermatchningspuslespil gør visuelt slående Pinterest-pins — det opdelte billedgitter med nummereret flisepalet og farverig overskrift skaber et øjeblikkeligt genkendeligt uddannelsesformat. Pin prøvepuslespil, der viser forskellige gitterstørrelser. Det rent visuelle format appellerer til forældre og sælgere i hvert land.',
+      description: 'Gittermatchningspuslespil gør visuelt slående Pinterest-pins — det opdelte billedgitter med nummereret flisepalet og farverig overskrift generator et øjeblikkeligt genkendeligt uddannelsesformat. Pin prøvepuslespil, der viser forskellige gitterstørrelser. Det rent visuelle format appellerer til forældre og sælgere i hvert land.',
       platform: 'Pinterest',
     },
     {
@@ -125,7 +125,7 @@ const content: ToolContent = {
   proTips: [
     {
       title: 'Kombinér gitterstørrelse og ledetrådantal for graduerede sværhedssæt',
-      description: 'De to uafhængige sværhedskontroller — gitterstørrelse (2×2 til 4×4) og ledetrådsceller (1–5) — skaber et bredt udfordringsspektrum fra ét enkelt billede. Et 2×2-gitter med 3 ledetråde efterlader kun 1 flise at matche: en triviel opvarmning. Et 4×4-gitter med 1 ledetråd kræver matchning af 15 fliser: en ægte udfordring. Lav graduerede sværhedspakker.',
+      description: 'De to uafhængige sværhedskontroller — gitterstørrelse (2×2 til 4×4) og ledetrådsceller (1–5) — generator et bredt udfordringsspektrum fra ét enkelt billede. Et 2×2-gitter med 3 ledetråde efterlader kun 1 flise at matche: en triviel opvarmning. Et 4×4-gitter med 1 ledetråd kræver matchning af 15 fliser: en ægte udfordring. Lav graduerede sværhedspakker.',
     },
     {
       title: 'Brug Fisher-Yates-randomisering til at multiplicere unikke puslespil',
@@ -145,7 +145,7 @@ const content: ToolContent = {
     },
     {
       title: 'Brug baggrunds- og rammetemaer for sammenhængende produktbranding',
-      description: 'Det uafhængige baggrunds- og rammetema-system med separate gennemsigtighedsskydere lader dig lave en konsistent visuel identitet. Indstil en subtil baggrund ved 15–25% gennemsigtighed og lagdel en dekorativ ramme ved 80–100%. Konsistent stil gennem en pakke skaber et sammenhængende produktudseende.',
+      description: 'Det uafhængige baggrunds- og rammetema-system med separate gennemsigtighedsskydere lader dig lave en konsistent visuel identitet. Indstil en subtil baggrund ved 15–25% gennemsigtighed og lagdel en dekorativ ramme ved 80–100%. Konsistent stil gennem en pakke generator et sammenhængende produktudseende.',
     },
     {
       title: 'Vælg den rigtige gitterstørrelse til din målgruppe',
@@ -168,7 +168,7 @@ const content: ToolContent = {
     },
     {
       question: 'Hvilke gitterstørrelser er tilgængelige?',
-      answer: 'Generatoren understøtter 2–4 rækker og 2–4 kolonner, konfigureret uafhængigt. Dette skaber gitre fra 2×2 (4 fliser) op til 4×4 (16 fliser). Standard er 3×3 (9 fliser). Du kan indstille rækker og kolonner til forskellige værdier for rektangulære puslespil.',
+      answer: 'Generatoren understøtter 2–4 rækker og 2–4 kolonner, konfigureret uafhængigt. Dette generator gitre fra 2×2 (4 fliser) op til 4×4 (16 fliser). Standard er 3×3 (9 fliser). Du kan indstille rækker og kolonner til forskellige værdier for rektangulære puslespil.',
     },
     {
       question: 'Hvordan kontrollerer ledetrådsceller puslespilsværheden?',
@@ -187,7 +187,7 @@ const content: ToolContent = {
       answer: 'Generatoren registrerer automatisk din sideorientering. Stående sider placerer gitteret øverst (45% af højden) med paletten nedenunder. Liggende sider positionerer gitteret til venstre (48% af bredden) med paletten til højre. Denne automatiske ompositionering sikrer, at puslespil ser afbalancerede ud i begge orienteringer.',
     },
     {
-      question: 'Er Gitterpuslespil Skaberen sprogfølsom?',
+      question: 'Er Gitterpuslespil Generatoren sprogfølsom?',
       answer: 'Nej. Gitterpuslespil er rent visuelt — puslespiloutputtet indeholder kun billedfliser og tal, uden lokaliseret ordindhold. App-grænsefladen understøtter alle 11 sprog, men det genererede puslespil fungerer identisk uanset sprogvalg. Dette gør gittermatchningspuslespil universelt sælgbare uden oversættelse.',
     },
     {
@@ -206,13 +206,13 @@ const content: ToolContent = {
 
   internalLinks: [
     { pageType: 'app', slug: 'raster-puslespil-arbejdsark', anchorText: 'Gitterpuslespil — Fulde Produktdetaljer' },
-    { pageType: 'tool', slug: 'matchnings-arbejdsark-skaber', anchorText: 'Matchnings Arbejdsark Skaber' },
-    { pageType: 'tool', slug: 'skyggematchning-skaber', anchorText: 'Skyggematchning Skaber' },
-    { pageType: 'tool', slug: 'billedbingo-skaber', anchorText: 'Billedbingo Skaber' },
-    { pageType: 'tool', slug: 'manglende-brikker-skaber', anchorText: 'Manglende Brikker Puslespil Skaber' },
-    { pageType: 'tool', slug: 'find-den-underlige-skaber', anchorText: 'Find den Underlige Skaber' },
-    { pageType: 'tool', slug: 'sorter-billeder-skaber', anchorText: 'Sortér Billeder Skaber' },
-    { pageType: 'tool', slug: 'additions-arbejdsark-skaber', anchorText: 'Additions Arbejdsark Skaber' },
+    { pageType: 'tool', slug: 'matchnings-arbejdsark-skaber', anchorText: 'Matchnings Arbejdsark Generator' },
+    { pageType: 'tool', slug: 'skyggematchning-skaber', anchorText: 'Skyggematchning Generator' },
+    { pageType: 'tool', slug: 'billedbingo-skaber', anchorText: 'Billedbingo Generator' },
+    { pageType: 'tool', slug: 'manglende-brikker-skaber', anchorText: 'Manglende Brikker Puslespil Generator' },
+    { pageType: 'tool', slug: 'find-den-underlige-skaber', anchorText: 'Find den Underlige Generator' },
+    { pageType: 'tool', slug: 'sorter-billeder-skaber', anchorText: 'Sortér Billeder Generator' },
+    { pageType: 'tool', slug: 'additions-arbejdsark-skaber', anchorText: 'Additions Arbejdsark Generator' },
   ],
 
   visuals: {

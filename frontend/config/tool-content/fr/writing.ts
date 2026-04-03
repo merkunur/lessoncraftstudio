@@ -202,13 +202,13 @@ const content: ToolContent = {
 
   internalLinks: [
     { pageType: 'app', slug: 'ecriture-fiches', anchorText: 'Fiches d\'Écriture — Détails Complets du Produit' },
-    { pageType: 'tool', slug: 'generateur-train-alphabet', anchorText: 'Créateur de Fiches Train de l\'Alphabet' },
-    { pageType: 'tool', slug: 'generateur-deviner-mots', anchorText: 'Créateur de Fiches Deviner les Mots' },
-    { pageType: 'tool', slug: 'generateur-mots-melanges', anchorText: 'Créateur de Fiches Mots Mélangés' },
-    { pageType: 'tool', slug: 'generateur-mots-caches', anchorText: 'Créateur de Fiches Mots Cachés' },
-    { pageType: 'tool', slug: 'generateur-cryptogramme', anchorText: 'Créateur de Fiches Cryptogramme' },
-    { pageType: 'tool', slug: 'generateur-fiches-graphisme', anchorText: 'Créateur de Fiches de Graphisme' },
-    { pageType: 'tool', slug: 'generateur-fiches-prepositions', anchorText: 'Créateur de Fiches de Prépositions' },
+    { pageType: 'tool', slug: 'generateur-train-alphabet', anchorText: 'Générateur de Fiches Train de l\'Alphabet' },
+    { pageType: 'tool', slug: 'generateur-deviner-mots', anchorText: 'Générateur de Fiches Deviner les Mots' },
+    { pageType: 'tool', slug: 'generateur-mots-melanges', anchorText: 'Générateur de Fiches Mots Mélangés' },
+    { pageType: 'tool', slug: 'generateur-mots-caches', anchorText: 'Générateur de Fiches Mots Cachés' },
+    { pageType: 'tool', slug: 'generateur-cryptogramme', anchorText: 'Générateur de Fiches Cryptogramme' },
+    { pageType: 'tool', slug: 'generateur-fiches-graphisme', anchorText: 'Générateur de Fiches de Graphisme' },
+    { pageType: 'tool', slug: 'generateur-fiches-prepositions', anchorText: 'Générateur de Fiches de Prépositions' },
   ],
 
   visuals: {

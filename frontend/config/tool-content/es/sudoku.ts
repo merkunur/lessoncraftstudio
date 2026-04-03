@@ -28,7 +28,7 @@ const content: ToolContent = {
     title: 'Cómo crear sudoku con imágenes gratis en 8 pasos',
     steps: [
       {
-        title: 'Abra el Creador de Sudoku con Imágenes',
+        title: 'Abra el Generador de Sudoku con Imágenes',
         description: 'Haga clic en \"Pruebe Gratis Ahora\" para abrir el generador de sudoku con imágenes en su navegador. La herramienta se carga instantáneamente con una barra lateral de configuración a la izquierda y un lienzo de doble pestaña a la derecha — una pestaña para la ficha y otra para la clave de respuestas. Sin crear cuenta, sin descargar software, sin instalación — empiece a crear puzzles de sudoku con imágenes inmediatamente.',
       },
       {
@@ -187,7 +187,7 @@ const content: ToolContent = {
       answer: 'Sí. La aplicación baraja las imágenes de forma aleatoria antes de poblar la cuadrícula 4×4, y luego seleccione al azar qué celdas quedan vacías según el nivel de dificultad. Incluso con las mismas 4 imágenes y el mismo ajuste de dificultad, regenerar produce una disposición de sudoku válida diferente con posiciones de celdas vacías distintas. Esta aleatorización le permite crear grandes colecciones de puzzles únicos a partir de un pequeño conjunto de imágenes temáticas — haga clic en Generar repetidamente para crear paquetes con docenas de configuraciones de puzzle únicas.',
     },
     {
-      question: '¿El Creador de Sudoku con Imágenes depende del idioma?',
+      question: '¿El Generador de Sudoku con Imágenes depende del idioma?',
       answer: 'No. El sudoku con imágenes es completamente visual — la cuadrícula del puzzle contiene solo imágenes, ninguna palabra, letra o número. Esto hace que cada ficha funcione de forma idéntica en los 11 idiomas soportados. El único elemento localizado es el texto del encabezado \"Sudoku con Imágenes\" autogenerado sobre la cuadrícula con su fondo púrpura (#5E35B1), que se traduce automáticamente al cambiar de idioma. El puzzle en sí no requiere ninguna modificación para diferentes mercados, haciéndolo ideal para ventas globales en todos los mercados internacionales.',
     },
     {
@@ -206,11 +206,11 @@ const content: ToolContent = {
 
   internalLinks: [
     { pageType: 'app', slug: 'sudoku-fichas-niños', anchorText: 'Sudoku con Imágenes — Detalles Completos del Producto' },
-    { pageType: 'tool', slug: 'generador-piezas-faltantes', anchorText: 'Creador de Fichas de Piezas Faltantes' },
-    { pageType: 'tool', slug: 'generador-fichas-intruso', anchorText: 'Creador de Fichas del Intruso' },
+    { pageType: 'tool', slug: 'generador-piezas-faltantes', anchorText: 'Generador de Fichas de Piezas Faltantes' },
+    { pageType: 'tool', slug: 'generador-fichas-intruso', anchorText: 'Generador de Fichas del Intruso' },
     { pageType: 'tool', slug: 'generador-recorrido-imágenes', anchorText: 'Creador de Laberintos con Imágenes' },
-    { pageType: 'tool', slug: 'generador-puzzle-cuadricula', anchorText: 'Creador de Fichas de Coincidencia de Cuadrícula' },
-    { pageType: 'tool', slug: 'generador-fichas-asociación', anchorText: 'Creador de Fichas de Parejas' },
+    { pageType: 'tool', slug: 'generador-puzzle-cuadricula', anchorText: 'Generador de Fichas de Coincidencia de Cuadrícula' },
+    { pageType: 'tool', slug: 'generador-fichas-asociación', anchorText: 'Generador de Fichas de Parejas' },
     { pageType: 'tool', slug: 'generador-sopa-letras', anchorText: 'Creador de Sopas de Letras' },
     { pageType: 'tool', slug: 'generador-páginas-colorear', anchorText: 'Creador de Páginas para Colorear' },
   ],

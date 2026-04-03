@@ -4,9 +4,9 @@ const content: AppContent = {
   seo: {
     primaryKeyword: 'find den ulige generator',
     secondaryKeywords: [
-      'printbar find den ulige puslespil skaber til Etsy-sælgere',
+      'printbar find den ulige puslespil generator til Etsy-sælgere',
       'find den der ikke hører til arbejdsark generator til KDP',
-      'ulige billede aktivitet skaber kommerciel licens',
+      'ulige billede aktivitet generator kommerciel licens',
       'sælg find den ulige puslespil på Gumroad',
     ],
     lsiKeywords: [
@@ -63,7 +63,7 @@ const content: AppContent = {
       {
         title: 'Find den der ikke hører til-puslespil med to genereringstilstande',
         description:
-          'Hver øvelse viser fire billeder i et horisontalt kort — tre almindelige objekter og ét uligt objekt — og brugerne ringer den ind, der ikke hører til. Generatoren tilbyder to distinkte tilstande. Identisk tilstand placerer tre kloner af præcis det samme billede ved siden af et anderledes billede fra det samme tema, hvilket skaber en simpel find-forskellen-udfordring. Lignende tilstand henter tre billeder fra Tema A (f.eks. dyr) og ét billede fra Tema B (f.eks. mad), hvilket kræver, at brugerne identificerer den tematiske afviger frem for en visuel dublet. Hver tilstand producerer en fundamentalt anderledes kognitiv udfordring fra det samme billedbibliotek.',
+          'Hver øvelse viser fire billeder i et horisontalt kort — tre almindelige objekter og ét uligt objekt — og brugerne ringer den ind, der ikke hører til. Generatoren tilbyder to distinkte tilstande. Identisk tilstand placerer tre kloner af præcis det samme billede ved siden af et anderledes billede fra det samme tema, hvilket generator en simpel find-forskellen-udfordring. Lignende tilstand henter tre billeder fra Tema A (f.eks. dyr) og ét billede fra Tema B (f.eks. mad), hvilket kræver, at brugerne identificerer den tematiske afviger frem for en visuel dublet. Hver tilstand producerer en fundamentalt anderledes kognitiv udfordring fra det samme billedbibliotek.',
       },
       {
         title: 'Tilstandstilsidesættelse per øvelse til arbejdsark med blandet sværhed',
@@ -73,17 +73,17 @@ const content: AppContent = {
       {
         title: 'Konfigurerbart øvelsesantal fra 5 til 10 per arbejdsark',
         description:
-          'Indstil antallet af øvelser fra 5 til 10 med panelet Øvelseskonfiguration, med standard sat til 6. Færre øvelser skaber arbejdsark med større billedkort og mere afstand — ideelt for yngre brugere eller arbejdsark beregnet til finmotorisk øvelse, hvor indrigning behøver plads. Flere øvelser øger indholdstætheden og udfordringen for ældre brugere. Layoutet tilpasser sig automatisk: stående sider med 7 eller flere øvelser skifter til et 2-kolonnelayout, og liggende sider bruger altid 2 kolonner for optimalt mellemrum.',
+          'Indstil antallet af øvelser fra 5 til 10 med panelet Øvelseskonfiguration, med standard sat til 6. Færre øvelser generator arbejdsark med større billedkort og mere afstand — ideelt for yngre brugere eller arbejdsark beregnet til finmotorisk øvelse, hvor indrigning behøver plads. Flere øvelser øger indholdstætheden og udfordringen for ældre brugere. Layoutet tilpasser sig automatisk: stående sider med 7 eller flere øvelser skifter til et 2-kolonnelayout, og liggende sider bruger altid 2 kolonner for optimalt mellemrum.',
       },
       {
         title: 'Totemasystem med Tema A (almindelige) og Tema B (ulige)',
         description:
-          'Lignende tilstand bruger et totemasystem, der gør temaovergribende diskrimineringspuslespil nemme at oprette. Vælg Tema A fra dropdownen til de tre almindelige billeder i hver øvelse, vælg derefter Tema B til det ene ulige objekt. Par dyr med mad, køretøjer med natur, erhverv med sport — enhver kombination fra de 104 tilgængelige temaer. Dette system garanterer, at det ulige objekt altid er tematisk distinkt, hvilket skaber tydelige og pædagogisk meningsfulde puslespil uden manuelt billedvalg for hver øvelse.',
+          'Lignende tilstand bruger et totemasystem, der gør temaovergribende diskrimineringspuslespil nemme at oprette. Vælg Tema A fra dropdownen til de tre almindelige billeder i hver øvelse, vælg derefter Tema B til det ene ulige objekt. Par dyr med mad, køretøjer med natur, erhverv med sport — enhver kombination fra de 104 tilgængelige temaer. Dette system garanterer, at det ulige objekt altid er tematisk distinkt, hvilket generator tydelige og pædagogisk meningsfulde puslespil uden manuelt billedvalg for hver øvelse.',
       },
       {
         title: 'Automatisk genereret facit med røde cirkelmarkeringer',
         description:
-          'Hvert find den ulige arbejdsark genererer automatisk en ledsagende facitliste på en separat lærredsfane. Facit genskaber det præcise arbejdsarkslayout og tegner en rød cirkelkontur rundt det ulige objekt i hver øvelsesrække. Cirklens stregbredde skaleres dynamisk med billedstørrelse — beregnet som det større af imageSize × 0,04 eller 3 pixels — hvilket sikrer konsistent synlighed over alle sidestørrelser og øvelsesantal. Ingen manuel markering, ingen separat filoprettelse — facit forbliver synkroniseret med arbejdsarket automatisk.',
+          'Hvert find den ulige arbejdsark genererer automatisk en ledsagende facitliste på en separat lærredsfane. Facit gengenerator det præcise arbejdsarkslayout og tegner en rød cirkelkontur rundt det ulige objekt i hver øvelsesrække. Cirklens stregbredde skaleres dynamisk med billedstørrelse — beregnet som det større af imageSize × 0,04 eller 3 pixels — hvilket sikrer konsistent synlighed over alle sidestørrelser og øvelsesantal. Ingen manuel markering, ingen separat filoprettelse — facit forbliver synkroniseret med arbejdsarket automatisk.',
       },
       {
         title: 'Billedbibliotek med 104 tematiske samlinger og mere end 3.100 illustrationer',
@@ -127,7 +127,7 @@ const content: AppContent = {
       {
         title: 'Sæsonbetonede og højtidspuslespil-samlinger',
         description:
-          'De 104 tematiske billedsamlinger dækker enhver sæson- og højtidslejlighed — jul, halloween, påske, valentinsdag, skolestart, sommerferie og flere. Opret tidsbegrænsede find den ulige-samlinger, der falder sammen med topindkøbsperioder. Udgiv halloween-puslespilspakker i september, julesamlinger i oktober og valentinsdag-pakker i januar. Bland Identisk og Lignende tilstand inden for hvert sæsonsæt for variation og oplevet værdi. Sæsonprodukter motiverer højere priser under deres topvinduer og skaber naturlige grunde til genkøb.',
+          'De 104 tematiske billedsamlinger dækker enhver sæson- og højtidslejlighed — jul, halloween, påske, valentinsdag, skolestart, sommerferie og flere. Opret tidsbegrænsede find den ulige-samlinger, der falder sammen med topindkøbsperioder. Udgiv halloween-puslespilspakker i september, julesamlinger i oktober og valentinsdag-pakker i januar. Bland Identisk og Lignende tilstand inden for hvert sæsonsæt for variation og oplevet værdi. Sæsonprodukter motiverer højere priser under deres topvinduer og generator naturlige grunde til genkøb.',
         platform: 'Etsy / Amazon KDP / Gumroad (sæsonbetonet)',
       },
       {
@@ -158,7 +158,7 @@ const content: AppContent = {
     {
       question: 'Hvor mange øvelser kan jeg inkludere på et arbejdsark?',
       answer:
-        'Øvelsesantallet er konfigurerbart fra 5 til 10, med standard sat til 6. Hver øvelse indeholder altid præcis 4 billeder (3 almindelige + 1 ulig). Færre øvelser skaber større billedkort med mere afstand; flere øvelser øger indholdstætheden. Layoutet tilpasser sig automatisk — stående sider med 7+ øvelser og alle liggende sider bruger et 2-kolonnelayout for optimalt mellemrum.',
+        'Øvelsesantallet er konfigurerbart fra 5 til 10, med standard sat til 6. Hver øvelse indeholder altid præcis 4 billeder (3 almindelige + 1 ulig). Færre øvelser generator større billedkort med mere afstand; flere øvelser øger indholdstætheden. Layoutet tilpasser sig automatisk — stående sider med 7+ øvelser og alle liggende sider bruger et 2-kolonnelayout for optimalt mellemrum.',
     },
     {
       question: 'Hvordan fungerer totemasystemet i Lignende tilstand?',
@@ -168,7 +168,7 @@ const content: AppContent = {
     {
       question: 'Hvordan fungerer det automatisk genererede facit med røde cirkler?',
       answer:
-        'Generatoren bruger et dobbeltlærredssystem med en Arbejdsarkfane og en Facitfane. Arbejdsarket viser øvelseskortene uden markeringer — brugerne ringer det ulige objekt ind selv. Facit genskaber det identiske layout og tegner en rød cirkelkontur rundt det ulige objekt i hver række. Cirklens stregbredde skaleres dynamisk med billedstørrelse (det større af imageSize × 0,04 eller 3 pixels). Begge versioner eksporteres separat med fire dedikerede downloadknapper.',
+        'Generatoren bruger et dobbeltlærredssystem med en Arbejdsarkfane og en Facitfane. Arbejdsarket viser øvelseskortene uden markeringer — brugerne ringer det ulige objekt ind selv. Facit gengenerator det identiske layout og tegner en rød cirkelkontur rundt det ulige objekt i hver række. Cirklens stregbredde skaleres dynamisk med billedstørrelse (det større af imageSize × 0,04 eller 3 pixels). Begge versioner eksporteres separat med fire dedikerede downloadknapper.',
     },
     {
       question: 'Kan jeg tilføje navn- og datofelter på find den ulige arbejdsark?',

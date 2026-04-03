@@ -37,7 +37,7 @@ const content: AppContent = {
       {
         title: 'Vælg en linjeskabelon',
         description:
-          'Vælg blandt otte SVG-baserede linjeskabeloner i panelet Indhold. Fire kurveskabeloner skaber flydende, svejende linjebaner i liggende format med 4 billedpar hver. To diagonalskabeloner producerer vinklede linjer i stående format med 5 par. En horisontal skabelon genererer lige venstre-til-højre-linjer i stående format med 5 par. En vertikal skabelon skaber oppefra-og-ned-linjer i stående format med 4 par. Hver skabelontype retter sig mod en anderledes finmotorisk færdighed — kurver udvikler håndledsfleksibilitet, diagonaler bygger tværsidig koordination, og lige linjer forstærker retningskontrol.',
+          'Vælg blandt otte SVG-baserede linjeskabeloner i panelet Indhold. Fire kurveskabeloner generator flydende, svejende linjebaner i liggende format med 4 billedpar hver. To diagonalskabeloner producerer vinklede linjer i stående format med 5 par. En horisontal skabelon genererer lige venstre-til-højre-linjer i stående format med 5 par. En vertikal skabelon generator oppefra-og-ned-linjer i stående format med 4 par. Hver skabelontype retter sig mod en anderledes finmotorisk færdighed — kurver udvikler håndledsfleksibilitet, diagonaler bygger tværsidig koordination, og lige linjer forstærker retningskontrol.',
       },
       {
         title: 'Vælg temabilleder eller auto-udfyld par',
@@ -63,12 +63,12 @@ const content: AppContent = {
       {
         title: 'Otte SVG-linjeskabeloner: kurver, diagonaler, horisontale og vertikale',
         description:
-          'Otte distinkte SVG-baserede skabeloner dækker fire linjetyper for dækkende finmotorisk udvikling. Fire kurveskabeloner skaber flydende, svejende baner, der udvikler håndledsfleksibilitet og flydende bevægelse — hver kurvevariant tilbyder en anderledes form for visuel variation. To diagonalskabeloner producerer vinklede linjer, der bygger tværsidig koordination, når brugerne sporer fra et hjørne til et andet. En horisontal skabelon genererer lige venstre-til-højre-linjer for retningskontrol. En vertikal skabelon skaber oppefra-og-ned-linjer for nedadgående stregøvelse. Variationen af linjetyper lader dig oprette progressive sværhedspakker: begynd med lige horisontale linjer, avancér til kurver og afslut med diagonaler for et komplet finmotorisk produktkatalog.',
+          'Otte distinkte SVG-baserede skabeloner dækker fire linjetyper for dækkende finmotorisk udvikling. Fire kurveskabeloner generator flydende, svejende baner, der udvikler håndledsfleksibilitet og flydende bevægelse — hver kurvevariant tilbyder en anderledes form for visuel variation. To diagonalskabeloner producerer vinklede linjer, der bygger tværsidig koordination, når brugerne sporer fra et hjørne til et andet. En horisontal skabelon genererer lige venstre-til-højre-linjer for retningskontrol. En vertikal skabelon generator oppefra-og-ned-linjer for nedadgående stregøvelse. Variationen af linjetyper lader dig oprette progressive sværhedspakker: begynd med lige horisontale linjer, avancér til kurver og afslut med diagonaler for et komplet finmotorisk produktkatalog.',
       },
       {
         title: 'Billedparmatchning med auto-udfyld fra 104 temaer',
         description:
-          'Hver skabelon placerer matchende billedpar på modsatte sider af linjebanen — brugerne ser et billede ved starten og dets match ved slutningen, hvilket skaber et visuelt mål, der motiverer linjesporing. Auto-udfyld tildeler tilfældigt billedpar fra det valgte tema eller på tværs af alle 104 temaer samtidig og udfylder direkte hver parplads på siden. Dette gør batchproduktion hurtig: vælg et tema, klik auto-udfyld, og skabelonen er klar til eksport. Skift tema og gentag for at generere snesevis af unikke arbejdsark på minutter. Hvert tema giver koordinerede billeder, der fungerer visuelt sammen, hvilket skaber naturlige pakkeringsmuligheder for tematiske produktpakker.',
+          'Hver skabelon placerer matchende billedpar på modsatte sider af linjebanen — brugerne ser et billede ved starten og dets match ved slutningen, hvilket generator et visuelt mål, der motiverer linjesporing. Auto-udfyld tildeler tilfældigt billedpar fra det valgte tema eller på tværs af alle 104 temaer samtidig og udfylder direkte hver parplads på siden. Dette gør batchproduktion hurtig: vælg et tema, klik auto-udfyld, og skabelonen er klar til eksport. Skift tema og gentag for at generere snesevis af unikke arbejdsark på minutter. Hvert tema giver koordinerede billeder, der fungerer visuelt sammen, hvilket generator naturlige pakkeringsmuligheder for tematiske produktpakker.',
       },
       {
         title: 'Skabelondrevet sideorientering',
@@ -143,7 +143,7 @@ const content: AppContent = {
     {
       question: 'Hvad er de otte linjeskabeloner, og hvordan adskiller de sig?',
       answer:
-        'De otte skabeloner dækker fire linjetyper. Fire kurveskabeloner skaber flydende, svejende baner i liggende format med 4 billedpar hver — hver kurvevariant tilbyder en anderledes form for visuel variation. To diagonalskabeloner producerer vinklede linjer i stående format med 5 par. En horisontal skabelon genererer lige venstre-til-højre-linjer i stående format med 5 par. En vertikal skabelon skaber oppefra-og-ned-linjer i stående format med 4 par. Hver linjetype retter sig mod en anderledes finmotorisk færdighed, hvilket lader dig oprette progressive sværhedssæt.',
+        'De otte skabeloner dækker fire linjetyper. Fire kurveskabeloner generator flydende, svejende baner i liggende format med 4 billedpar hver — hver kurvevariant tilbyder en anderledes form for visuel variation. To diagonalskabeloner producerer vinklede linjer i stående format med 5 par. En horisontal skabelon genererer lige venstre-til-højre-linjer i stående format med 5 par. En vertikal skabelon generator oppefra-og-ned-linjer i stående format med 4 par. Hver linjetype retter sig mod en anderledes finmotorisk færdighed, hvilket lader dig oprette progressive sværhedssæt.',
     },
     {
       question: 'Hvilke linjetyper findes, og hvilke færdigheder udvikler de?',

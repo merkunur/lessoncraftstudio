@@ -159,7 +159,7 @@ const content: GuideContent = {
     { pageType: 'start', slug: 'kommerzielle-lizenz-leitfaden', anchorText: 'Leitfaden für kommerzielle Lizenzen' },
     { pageType: 'app', slug: 'suchbilder-arbeitsblaetter', anchorText: 'Objekte-finden-Szenen-Generator — Alle Details' },
     { pageType: 'app', slug: 'bilderpfad-arbeitsblaetter', anchorText: 'Bilderpfad-Labyrinth-Generator — Alle Details' },
-    { pageType: 'tool', slug: 'suchbilder-ersteller', anchorText: 'Den Suchbilder-Szenen-Ersteller ausprobieren' },
+    { pageType: 'tool', slug: 'suchbilder-ersteller', anchorText: 'Den Suchbilder-Szenen-Generator ausprobieren' },
   ],
 
   toolsRecommended: [

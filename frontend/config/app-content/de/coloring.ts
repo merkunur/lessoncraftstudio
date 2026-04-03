@@ -7,7 +7,7 @@ const content: AppContent = {
       'Ausmalbilder erstellen und auf Etsy verkaufen',
       'Malvorlagen-Generator für KDP-Ausmalbücher',
       'druckbare Ausmalseiten für Printable-Business',
-      'Ausmalbilder-Ersteller kommerzielle Lizenz Etsy',
+      'Ausmalbilder-Generator kommerzielle Lizenz Etsy',
     ],
     lsiKeywords: [
       'Ausmalbücher Amazon KDP veröffentlichen Einnahmen',

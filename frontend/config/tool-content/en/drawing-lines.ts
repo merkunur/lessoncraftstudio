@@ -2,11 +2,11 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'free tracing worksheet maker',
+    primaryKeyword: 'free tracing worksheet generator',
     secondaryKeywords: [
       'make tracing worksheets free online',
       'line drawing generator no signup',
-      'free fine motor worksheet maker',
+      'free fine motor worksheet generator',
       'tracing worksheets free trial',
     ],
     lsiKeywords: [
@@ -14,7 +14,7 @@ const content: ToolContent = {
       'instant line tracing maker',
       'try before you buy tracing tools',
     ],
-    titleTag: 'Free Tracing Worksheet Maker Online | LCS',
+    titleTag: 'Free Tracing Worksheet Generator Online | LCS',
     metaDescription: 'Make tracing worksheets free online with watermark — no signup. 8 SVG line templates, themed image pairs, fine motor skills. Upgrade to sell.',
   },
 
@@ -28,7 +28,7 @@ const content: ToolContent = {
     title: 'How to Make Tracing Worksheets Free in 8 Steps',
     steps: [
       {
-        title: 'Open the Drawing Lines Worksheet Maker',
+        title: 'Open the Drawing Lines Worksheet Generator',
         description: 'Click \"Try Free Now\" to launch the generator in your browser. The tool loads instantly with a settings sidebar on the left and a live preview canvas on the right. No account creation, no software download, no installation required — start building line tracing worksheets immediately.',
       },
       {

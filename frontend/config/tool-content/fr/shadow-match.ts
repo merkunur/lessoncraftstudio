@@ -28,7 +28,7 @@ const content: ToolContent = {
     title: 'Comment Créer des Fiches de Discrimination Visuelle en 8 Étapes',
     steps: [
       {
-        title: 'Ouvrir le Créateur de Discrimination Visuelle',
+        title: 'Ouvrir le Générateur de Discrimination Visuelle',
         description: 'Cliquez sur \" Essayer maintenant \" pour lancer le générateur de fiches de discrimination visuelle dans votre navigateur. L\'outil s\'ouvre instantanément avec une barre latérale de réglages à gauche et un canevas à double onglet à droite — un onglet pour la fiche de travail, un pour le corrigé. Aucun compte, aucun téléchargement de logiciel, aucune installation requis — commencez à créer des fiches de discrimination visuelle immédiatement.',
       },
       {
@@ -187,7 +187,7 @@ const content: ToolContent = {
       answer: 'Les deux modes d\'exercice utilisent un nombre fixe de 4 éléments de correspondance par fiche. Ce n\'est pas configurable. Quatre éléments offrent l\'équilibre optimal pour la correspondance de silhouettes et d\'images divisées : suffisamment de variété pour créer un véritable défi de correspondance avec l\'algorithme de dérangement, tout en gardant chaque image assez grande pour que les utilisateurs étudient les détails fins des silhouettes et des moitiés divisées. Le format constant de 4 éléments fonctionne aussi bien pour les produits en lot où chaque page a une densité de contenu et un équilibre visuel prévisibles.',
     },
     {
-      question: 'Le Créateur de Discrimination Visuelle est-il sensible à la langue ?',
+      question: 'Le Générateur de Discrimination Visuelle est-il sensible à la langue ?',
       answer: 'Non. La Discrimination Visuelle est purement visuelle — la fiche ne contient que des images, des silhouettes et des moitiés divisées sans contenu textuel localisé sur la fiche elle-même. L\'interface de l\'application (menus, boutons, texte de l\'en-tête) prend en charge les 11 langues, mais la fiche générée fonctionne de manière identique quel que soit le choix de la langue. Cela rend les fiches de discrimination visuelle universellement vendables sur tous les marchés sans traduction. Un ensemble de puzzles de silhouettes sert toutes les boutiques Etsy internationales, toutes les places de marché KDP et tous les acheteurs Gumroad.',
     },
     {
@@ -206,13 +206,13 @@ const content: ToolContent = {
 
   internalLinks: [
     { pageType: 'app', slug: 'discrimination-visuelle-fiches', anchorText: 'Discrimination Visuelle — Détails Complets du Produit' },
-    { pageType: 'tool', slug: 'generateur-fiches-association', anchorText: 'Créateur de Fiches d\'Association' },
-    { pageType: 'tool', slug: 'generateur-puzzle-grille', anchorText: 'Créateur de Puzzles Grille' },
-    { pageType: 'tool', slug: 'generateur-cartes-bingo', anchorText: 'Créateur de Cartes Bingo' },
-    { pageType: 'tool', slug: 'generateur-pieces-manquantes', anchorText: 'Créateur de Fiches Pièces Manquantes' },
-    { pageType: 'tool', slug: 'generateur-fiches-intrus', anchorText: 'Créateur de Fiches Intrus' },
-    { pageType: 'tool', slug: 'generateur-tri-images', anchorText: 'Créateur de Fiches Tri d\'Images' },
-    { pageType: 'tool', slug: 'generateur-pages-coloriage', anchorText: 'Créateur de Pages de Coloriage' },
+    { pageType: 'tool', slug: 'generateur-fiches-association', anchorText: 'Générateur de Fiches d\'Association' },
+    { pageType: 'tool', slug: 'generateur-puzzle-grille', anchorText: 'Générateur de Puzzles Grille' },
+    { pageType: 'tool', slug: 'generateur-cartes-bingo', anchorText: 'Générateur de Cartes Bingo' },
+    { pageType: 'tool', slug: 'generateur-pieces-manquantes', anchorText: 'Générateur de Fiches Pièces Manquantes' },
+    { pageType: 'tool', slug: 'generateur-fiches-intrus', anchorText: 'Générateur de Fiches Intrus' },
+    { pageType: 'tool', slug: 'generateur-tri-images', anchorText: 'Générateur de Fiches Tri d\'Images' },
+    { pageType: 'tool', slug: 'generateur-pages-coloriage', anchorText: 'Générateur de Pages de Coloriage' },
   ],
 
   visuals: {

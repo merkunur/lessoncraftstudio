@@ -28,7 +28,7 @@ const content: ToolContent = {
     title: 'Comment Créer des Fiches Intrus en 8 Étapes',
     steps: [
       {
-        title: 'Ouvrir le Créateur de Fiches Intrus',
+        title: 'Ouvrir le Générateur de Fiches Intrus',
         description: 'Cliquez sur \" Essayer maintenant \" pour lancer le générateur de fiches intrus dans votre navigateur. L\'outil s\'ouvre instantanément avec une barre latérale de réglages à gauche et un canevas à double onglet à droite — un onglet pour la fiche, un pour le corrigé. Aucun compte, aucun téléchargement de logiciel, aucune installation requis — commencez à créer des fiches intrus immédiatement.',
       },
       {
@@ -187,7 +187,7 @@ const content: ToolContent = {
       answer: 'Oui. Activez la case \" Inclure les Champs Nom/Date \" pour ajouter des lignes nom et date pour le suivi en ligne. Activez \" Inclure les Numéros d\'Exercices \" pour afficher les numéros sur le côté gauche de chaque carte d\'exercice — les numéros utilisent une largeur de 25px avec un écart de 15px du contenu de la carte. Les numéros d\'exercices facilitent la correction en ligne et permettent aux vendeurs de référencer des rangées spécifiques lors de la discussion. Les deux options sont indépendantes et peuvent être activées ensemble ou séparément.',
     },
     {
-      question: 'Le Créateur de Fiches Intrus est-il sensible à la langue ?',
+      question: 'Le Générateur de Fiches Intrus est-il sensible à la langue ?',
       answer: 'Non. Les fiches intrus sont un format de puzzle purement visuel — aucun texte n\'apparaît sur le contenu de la fiche. Les quatre images par rangée, les marqueurs cercle rouge sur le corrigé et la disposition des exercices sont tous universels. Le seul élément dépendant de la langue est le texte d\'en-tête auto-généré (\" Trouve l\'Intrus \"), localisé dans les 11 langues prises en charge. Cela rend les fiches intrus universellement vendables dans tous les marchés sans traduction — un seul jeu de puzzles sert chaque place de marché internationale.',
     },
     {
@@ -206,13 +206,13 @@ const content: ToolContent = {
 
   internalLinks: [
     { pageType: 'app', slug: 'intrus-fiches', anchorText: 'Fiches Intrus — Détails Complets du Produit' },
-    { pageType: 'tool', slug: 'generateur-pieces-manquantes', anchorText: 'Créateur de Puzzles Pièces Manquantes' },
-    { pageType: 'tool', slug: 'generateur-discrimination-visuelle', anchorText: 'Créateur de Discrimination Visuelle' },
-    { pageType: 'tool', slug: 'generateur-puzzle-grille', anchorText: 'Créateur de Puzzles Grille' },
-    { pageType: 'tool', slug: 'generateur-fiches-association', anchorText: 'Créateur de Fiches d\'Association' },
-    { pageType: 'tool', slug: 'generateur-tri-images', anchorText: 'Créateur de Fiches de Tri d\'Images' },
-    { pageType: 'tool', slug: 'generateur-mots-caches', anchorText: 'Créateur de Mots Cachés' },
-    { pageType: 'tool', slug: 'generateur-pages-coloriage', anchorText: 'Créateur de Pages de Coloriage' },
+    { pageType: 'tool', slug: 'generateur-pieces-manquantes', anchorText: 'Générateur de Puzzles Pièces Manquantes' },
+    { pageType: 'tool', slug: 'generateur-discrimination-visuelle', anchorText: 'Générateur de Discrimination Visuelle' },
+    { pageType: 'tool', slug: 'generateur-puzzle-grille', anchorText: 'Générateur de Puzzles Grille' },
+    { pageType: 'tool', slug: 'generateur-fiches-association', anchorText: 'Générateur de Fiches d\'Association' },
+    { pageType: 'tool', slug: 'generateur-tri-images', anchorText: 'Générateur de Fiches de Tri d\'Images' },
+    { pageType: 'tool', slug: 'generateur-mots-caches', anchorText: 'Générateur de Mots Cachés' },
+    { pageType: 'tool', slug: 'generateur-pages-coloriage', anchorText: 'Générateur de Pages de Coloriage' },
   ],
 
   visuals: {

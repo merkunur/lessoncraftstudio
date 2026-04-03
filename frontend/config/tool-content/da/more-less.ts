@@ -4,7 +4,7 @@ const content: ToolContent = {
   seo: {
     primaryKeyword: 'større end mindre end arbejdsark',
     secondaryKeywords: [
-      'større end mindre end arbejdsark skaber for sælgere',
+      'større end mindre end arbejdsark generator for sælgere',
       'opret sammenligningsarbejdsark til salg',
       'printbare talsammenligning arbejdsark kommercielt brug',
       'mere eller mindre matematik arbejdsark generator til KDP',
@@ -19,7 +19,7 @@ const content: ToolContent = {
   },
 
   hero: {
-    title: 'Større End Mindre End Arbejdsark Skaber',
+    title: 'Større End Mindre End Arbejdsark Generator',
     tagline: 'Opret visuelle sammenligningsarbejdsark med tre øvelsestilstande på under 60 sekunder',
     description: 'Undervis i større end, mindre end og lig med gennem billedbaserede sammenligningsarbejdsark, der gør abstrakte begreber konkrete. Dette værktøj genererer tre distinkte øvelsestyper: Billede mod Billede (sammenlign to billedgrupper side om side), Billede mod Tal (brobygning mellem visuel tælling og skrevne tal), og den unikke Tjek og Kryds Grupper-tilstand, hvor brugerne sorterer en blandet kasse med omflyttede billeder i majoritets- og minoritetskategorier. Vælg blandt mere end 100 billedtemaer, indstil dit talinterval, vælg mellem illustrerede eller almindelige sammenligningssymboler og download trykklare PDF\'er eller højopløste JPEG-billeder. Fordi arbejdsarkene kun bruger billeder, tal og symboler, fungerer de identisk på alle 11 understøttede sprog — opret én gang og sælg til købere verden over. Den gratis prøveversion indeholder et vandmærke på downloads. Køb en licens for at fjerne vandmærket og sælge kommercielt.',
   },
@@ -33,7 +33,7 @@ const content: ToolContent = {
       },
       {
         title: 'Vælg din øvelsestilstand',
-        description: 'Åbn panelet \"Øvelseskonfiguration\" og vælg blandt tre tilstande: Billede mod Billede (to billedgrupper side om side — brugerne tæller og sammenligner mængder), Billede mod Tal (en billedgruppe parret med et tal — brobygger visuel og abstrakt talgenkendelse), eller Tjek og Kryds Grupper (en enkelt kasse med 8–20 blandede billeder fra to kategorier blandet sammen — brugerne sætter flueben ved majoritetsgruppen og krydser minoritetsgruppen). Tjek og Kryds er unikt for dette værktøj og skaber produkter, ingen konkurrent kan matche.',
+        description: 'Åbn panelet \"Øvelseskonfiguration\" og vælg blandt tre tilstande: Billede mod Billede (to billedgrupper side om side — brugerne tæller og sammenligner mængder), Billede mod Tal (en billedgruppe parret med et tal — brobygger visuel og abstrakt talgenkendelse), eller Tjek og Kryds Grupper (en enkelt kasse med 8–20 blandede billeder fra to kategorier blandet sammen — brugerne sætter flueben ved majoritetsgruppen og krydser minoritetsgruppen). Tjek og Kryds er unikt for dette værktøj og generator produkter, ingen konkurrent kan matche.',
       },
       {
         title: 'Indstil talintervallet',
@@ -197,13 +197,13 @@ const content: ToolContent = {
 
   internalLinks: [
     { pageType: 'app', slug: 'sammenligningsopgaver-arbejdsark', anchorText: 'Sammenlignings Arbejdsark — Komplette Produktdetaljer' },
-    { pageType: 'tool', slug: 'additions-arbejdsark-skaber', anchorText: 'Additions Arbejdsark Skaber' },
-    { pageType: 'tool', slug: 'subtraktions-arbejdsark-skaber', anchorText: 'Subtraktions Arbejdsark Skaber' },
-    { pageType: 'tool', slug: 'kode-additions-arbejdsark-skaber', anchorText: 'Kode-additions Arbejdsark Skaber' },
-    { pageType: 'tool', slug: 'mattepuslespil-skaber', anchorText: 'Mattepuslespil Skaber' },
-    { pageType: 'tool', slug: 'matematik-arbejdsark-skaber', anchorText: 'Matematik Arbejdsark Skaber' },
-    { pageType: 'tool', slug: 'matchnings-arbejdsark-skaber', anchorText: 'Matchnings Arbejdsark Skaber' },
-    { pageType: 'tool', slug: 'stor-lille-arbejdsark-skaber', anchorText: 'Stor og Lille Arbejdsark Skaber' },
+    { pageType: 'tool', slug: 'additions-arbejdsark-skaber', anchorText: 'Additions Arbejdsark Generator' },
+    { pageType: 'tool', slug: 'subtraktions-arbejdsark-skaber', anchorText: 'Subtraktions Arbejdsark Generator' },
+    { pageType: 'tool', slug: 'kode-additions-arbejdsark-skaber', anchorText: 'Kode-additions Arbejdsark Generator' },
+    { pageType: 'tool', slug: 'mattepuslespil-skaber', anchorText: 'Mattepuslespil Generator' },
+    { pageType: 'tool', slug: 'matematik-arbejdsark-skaber', anchorText: 'Matematik Arbejdsark Generator' },
+    { pageType: 'tool', slug: 'matchnings-arbejdsark-skaber', anchorText: 'Matchnings Arbejdsark Generator' },
+    { pageType: 'tool', slug: 'stor-lille-arbejdsark-skaber', anchorText: 'Stor og Lille Arbejdsark Generator' },
   ],
 
   visuals: {

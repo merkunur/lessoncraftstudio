@@ -27,7 +27,7 @@ const content: ToolContent = {  seo: {
     title: 'Comment Créer des Pages de Coloriage Personnalisées en 8 Étapes',
     steps: [
       {
-        title: 'Ouvrir le Créateur de Pages de Coloriage',
+        title: 'Ouvrir le Générateur de Pages de Coloriage',
         description: 'Cliquez sur \" Essayer maintenant \" pour lancer le générateur de pages de coloriage dans votre navigateur. L\'outil s\'ouvre instantanément avec une barre latérale de réglages à gauche et un canevas d\'aperçu en temps réel à droite. Aucun compte, aucun téléchargement de logiciel, aucune installation requis — commencez à créer des pages de coloriage immédiatement sur le canevas libre.',
       },
       {
@@ -116,7 +116,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Gamme de Produits Visuels pour le Marché Mondial',
-      description: 'Le Créateur de Pages de Coloriage produit une sortie purement visuelle sans aucun texte sur les fiches — la même page de coloriage fonctionne dans toutes les langues sans modification. Une seule session de création produit un catalogue universellement vendable. Vendez les mêmes fichiers produits sur des boutiques Etsy ciblant différents pays, publiez des intérieurs KDP identiques sur toutes les places de marché Amazon internationales et listez sur Gumroad pour les vendeurs internationaux. Aucun listing séparé, aucun coût de traduction, aucune maintenance par langue. Chaque page de coloriage que vous créez dessert instantanément un marché mondial.',
+      description: 'Le Générateur de Pages de Coloriage produit une sortie purement visuelle sans aucun texte sur les fiches — la même page de coloriage fonctionne dans toutes les langues sans modification. Une seule session de création produit un catalogue universellement vendable. Vendez les mêmes fichiers produits sur des boutiques Etsy ciblant différents pays, publiez des intérieurs KDP identiques sur toutes les places de marché Amazon internationales et listez sur Gumroad pour les vendeurs internationaux. Aucun listing séparé, aucun coût de traduction, aucune maintenance par langue. Chaque page de coloriage que vous créez dessert instantanément un marché mondial.',
       platform: 'Etsy.fr / Amazon KDP',
     },
   ],
@@ -159,7 +159,7 @@ const content: ToolContent = {  seo: {
     },
     {
       question: 'En quoi le canevas libre diffère-t-il des outils basés sur des modèles ?',
-      answer: 'Le Créateur de Pages de Coloriage vous offre un canevas complètement ouvert sans grilles, modèles, emplacements ni mises en page prédéterminées. Chaque image est placée exactement où vous la glissez. Vous pouvez superposer les images, les pivoter à n\'importe quel angle, les redimensionner librement et créer des compositions en couches. Les outils basés sur des modèles vous enferment dans des positions fixes et produisent des résultats d\'apparence identique. L\'approche en forme libre signifie que chaque page de coloriage que vous créez est unique et impossible à reproduire avec des générateurs basés sur des modèles.',
+      answer: 'Le Générateur de Pages de Coloriage vous offre un canevas complètement ouvert sans grilles, modèles, emplacements ni mises en page prédéterminées. Chaque image est placée exactement où vous la glissez. Vous pouvez superposer les images, les pivoter à n\'importe quel angle, les redimensionner librement et créer des compositions en couches. Les outils basés sur des modèles vous enferment dans des positions fixes et produisent des résultats d\'apparence identique. L\'approche en forme libre signifie que chaque page de coloriage que vous créez est unique et impossible à reproduire avec des générateurs basés sur des modèles.',
     },
     {
       question: 'Comment fonctionne l\'export en niveaux de gris ?',
@@ -175,7 +175,7 @@ const content: ToolContent = {  seo: {
     },
     {
       question: 'Les pages de coloriage sont-elles sensibles à la langue ?',
-      answer: 'Non. Le Créateur de Pages de Coloriage produit une sortie purement visuelle sans aucun texte sur la page de coloriage elle-même. Changer la langue dans le générateur n\'affecte que les étiquettes de l\'interface, pas la fiche exportée. Cela rend vos pages de coloriage universellement vendables sans traduction. Un seul fichier produit dessert tous les marchés dans le monde.',
+      answer: 'Non. Le Générateur de Pages de Coloriage produit une sortie purement visuelle sans aucun texte sur la page de coloriage elle-même. Changer la langue dans le générateur n\'affecte que les étiquettes de l\'interface, pas la fiche exportée. Cela rend vos pages de coloriage universellement vendables sans traduction. Un seul fichier produit dessert tous les marchés dans le monde.',
     },
     {
       question: 'Pourquoi n\'y a-t-il pas de corrigé ?',
@@ -201,13 +201,13 @@ const content: ToolContent = {  seo: {
 
   internalLinks: [
     { pageType: 'app', slug: 'coloriage-fiches', anchorText: 'Pages de Coloriage — Détails Complets du Produit' },
-    { pageType: 'tool', slug: 'generateur-dessin-quadrillage', anchorText: 'Créateur de Fiches Dessin sur Quadrillage' },
-    { pageType: 'tool', slug: 'generateur-fiches-graphisme', anchorText: 'Créateur de Fiches de Graphisme' },
-    { pageType: 'tool', slug: 'generateur-fiches-grand-petit', anchorText: 'Créateur de Fiches Grand et Petit' },
-    { pageType: 'tool', slug: 'generateur-train-suites-logiques', anchorText: 'Créateur de Fiches Train de Suites Logiques' },
-    { pageType: 'tool', slug: 'generateur-fiches-association', anchorText: 'Créateur de Fiches d\'Association' },
-    { pageType: 'tool', slug: 'generateur-discrimination-visuelle', anchorText: 'Créateur de Fiches Discrimination Visuelle' },
-    { pageType: 'tool', slug: 'generateur-fiches-ecriture', anchorText: 'Créateur de Fiches d\'Écriture' },
+    { pageType: 'tool', slug: 'generateur-dessin-quadrillage', anchorText: 'Générateur de Fiches Dessin sur Quadrillage' },
+    { pageType: 'tool', slug: 'generateur-fiches-graphisme', anchorText: 'Générateur de Fiches de Graphisme' },
+    { pageType: 'tool', slug: 'generateur-fiches-grand-petit', anchorText: 'Générateur de Fiches Grand et Petit' },
+    { pageType: 'tool', slug: 'generateur-train-suites-logiques', anchorText: 'Générateur de Fiches Train de Suites Logiques' },
+    { pageType: 'tool', slug: 'generateur-fiches-association', anchorText: 'Générateur de Fiches d\'Association' },
+    { pageType: 'tool', slug: 'generateur-discrimination-visuelle', anchorText: 'Générateur de Fiches Discrimination Visuelle' },
+    { pageType: 'tool', slug: 'generateur-fiches-ecriture', anchorText: 'Générateur de Fiches d\'Écriture' },
   ],
 
   visuals: {

@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'bingokaarten maker om te verkopen op Etsy',
+    primaryKeyword: 'bingokaarten generator om te verkopen op Etsy',
     secondaryKeywords: [
       'bingokaarten met afbeeldingen generator Etsy',
       'bingo spel maken voor Amazon KDP',
@@ -14,7 +14,7 @@ const content: AppContent = {
       'commercieel gebruik bingokaart generator',
       'printbare plaatjesbingo business tools',
     ],
-    titleTag: 'Bingokaarten maker voor Etsy | LessonCraftStudio',
+    titleTag: 'Bingokaarten generator voor Etsy | LessonCraftStudio',
     metaDescription:
       'Maak bingokaarten met afbeeldingen om te verkopen op Etsy en KDP. Unieke kaarten, thema\'s, commerciële licentie. Gratis proefversie met watermerk.',
   },
@@ -24,7 +24,7 @@ const content: AppContent = {
     tagline:
       'Genereer unieke plaatjesbingokaarten in batch met afroepbladen — gratis proefversie met watermerk, commerciële licentie voor onbeperkte verkoop.',
     description:
-      'Met de Bingokaarten Maker genereert u in enkele minuten complete sets plaatjesbingokaarten voor uw printables-business op Etsy, Amazon KDP en Bol.com. Bingo is universeel populair bij feesten, familiebijeenkomsten en evenementen — van Sinterklaas tot Koningsdag, van verjaardagen tot babyshowers. Configureer rasters van 3x3 tot 5x5, kies tussen afbeeldings- of woordvulling, en genereer tot 10 unieke kaarten per batch. Elke kaart is gegarandeerd anders, zodat het bingospel eerlijk verloopt. De generator maakt automatisch een afroepblad bij elke set, compleet met alle spelitems in een overzichtelijk raster. Selecteer afbeeldingen uit 104 thematische collecties met meer dan 3100 illustraties en exporteer alles als ZIP-bestand met individuele JPEG\'s of als printklare PDF\'s op 300 DPI. Seizoensgebonden bingosets zijn bijzonder populair op Etsy.nl — denk aan Kerst-bingo, Halloween-bingo en Sinterklaas-bingo als unieke niche voor de Nederlandse en Belgische markt. De commerciële licentie verleent volledige verkooprechten op alle platforms, inclusief Etsy, Amazon KDP en Brave New Books. Gratis proefversie met watermerk — test alle functies zonder registratie of creditcard voordat u een licentie aanschaft.',
+      'Met de Bingokaarten Generator genereert u in enkele minuten complete sets plaatjesbingokaarten voor uw printables-business op Etsy, Amazon KDP en Bol.com. Bingo is universeel populair bij feesten, familiebijeenkomsten en evenementen — van Sinterklaas tot Koningsdag, van verjaardagen tot babyshowers. Configureer rasters van 3x3 tot 5x5, kies tussen afbeeldings- of woordvulling, en genereer tot 10 unieke kaarten per batch. Elke kaart is gegarandeerd anders, zodat het bingospel eerlijk verloopt. De generator maakt automatisch een afroepblad bij elke set, compleet met alle spelitems in een overzichtelijk raster. Selecteer afbeeldingen uit 104 thematische collecties met meer dan 3100 illustraties en exporteer alles als ZIP-bestand met individuele JPEG\'s of als printklare PDF\'s op 300 DPI. Seizoensgebonden bingosets zijn bijzonder populair op Etsy.nl — denk aan Kerst-bingo, Halloween-bingo en Sinterklaas-bingo als unieke niche voor de Nederlandse en Belgische markt. De commerciële licentie verleent volledige verkooprechten op alle platforms, inclusief Etsy, Amazon KDP en Brave New Books. Gratis proefversie met watermerk — test alle functies zonder registratie of creditcard voordat u een licentie aanschaft.',
   },
 
   howItWorks: {

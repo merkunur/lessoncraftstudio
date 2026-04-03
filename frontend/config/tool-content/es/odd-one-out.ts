@@ -28,7 +28,7 @@ const content: ToolContent = {
     title: 'Cómo crear fichas de encuentra el intruso gratis en 8 pasos',
     steps: [
       {
-        title: 'Abra el Creador de Fichas del Intruso',
+        title: 'Abra el Generador de Fichas del Intruso',
         description: 'Haga clic en \"Pruebe Gratis Ahora\" para abrir el generador de fichas del intruso en su navegador. La herramienta se carga instantáneamente con una barra lateral de configuración a la izquierda y un lienzo de doble pestaña a la derecha — una pestaña para la ficha y otra para la clave de respuestas. Sin crear cuenta, sin descargar software, sin instalación — empiece a crear fichas del intruso inmediatamente.',
       },
       {
@@ -206,11 +206,11 @@ const content: ToolContent = {
 
   internalLinks: [
     { pageType: 'app', slug: 'encuentra-el-diferente-fichas', anchorText: 'Fichas del Intruso — Detalles Completos del Producto' },
-    { pageType: 'tool', slug: 'generador-piezas-faltantes', anchorText: 'Creador de Fichas de Piezas Faltantes' },
-    { pageType: 'tool', slug: 'generador-discriminación-visual', anchorText: 'Creador de Fichas de Sombras' },
-    { pageType: 'tool', slug: 'generador-puzzle-cuadricula', anchorText: 'Creador de Fichas de Cuadrícula' },
-    { pageType: 'tool', slug: 'generador-fichas-asociación', anchorText: 'Creador de Fichas de Emparejamiento' },
-    { pageType: 'tool', slug: 'generador-clasificación-imágenes', anchorText: 'Creador de Fichas de Clasificación' },
+    { pageType: 'tool', slug: 'generador-piezas-faltantes', anchorText: 'Generador de Fichas de Piezas Faltantes' },
+    { pageType: 'tool', slug: 'generador-discriminación-visual', anchorText: 'Generador de Fichas de Sombras' },
+    { pageType: 'tool', slug: 'generador-puzzle-cuadricula', anchorText: 'Generador de Fichas de Cuadrícula' },
+    { pageType: 'tool', slug: 'generador-fichas-asociación', anchorText: 'Generador de Fichas de Emparejamiento' },
+    { pageType: 'tool', slug: 'generador-clasificación-imágenes', anchorText: 'Generador de Fichas de Clasificación' },
     { pageType: 'tool', slug: 'generador-sopa-letras', anchorText: 'Creador de Sopa de Letras' },
     { pageType: 'tool', slug: 'generador-páginas-colorear', anchorText: 'Creador de Páginas para Colorear' },
   ],

@@ -104,7 +104,7 @@ export async function GET(request: NextRequest) {
             id: 'step_3',
             order: 3,
             title: 'Configure Difficulty',
-            content: 'Set the appropriate difficulty level for your students.',
+            content: 'Set the appropriate difficulty level for the target age group.',
             type: 'action',
             skipable: true
           }
@@ -120,7 +120,7 @@ export async function GET(request: NextRequest) {
       {
         id: 'tutorial_3',
         title: 'Using the Word Search Generator',
-        description: 'Create custom word search puzzles for your students',
+        description: 'Create custom word search puzzles with themed images',
         category: 'worksheets',
         difficulty: 'beginner',
         duration: 8,
@@ -229,8 +229,8 @@ export async function GET(request: NextRequest) {
           {
             id: 'step_2',
             order: 2,
-            title: 'Invite Students',
-            content: 'Add students to your classroom.',
+            title: 'Invite Team Members',
+            content: 'Add members to your workspace.',
             type: 'instruction',
             skipable: false
           },
@@ -238,16 +238,16 @@ export async function GET(request: NextRequest) {
             id: 'step_3',
             order: 3,
             title: 'Assign Worksheets',
-            content: 'Distribute worksheets to your students.',
+            content: 'Export worksheets for your product listings.',
             type: 'action',
             skipable: false
           }
         ],
-        tags: ['classroom', 'management', 'teacher'],
+        tags: ['workspace', 'management', 'seller'],
         interactive: true,
         createdAt: new Date(Date.now() - 25 * 24 * 60 * 60 * 1000).toISOString(),
         updatedAt: new Date(Date.now() - 7 * 24 * 60 * 60 * 1000).toISOString(),
-        author: 'Education Team',
+        author: 'Product Team',
         rating: 4.7,
         completions: 1567
       }

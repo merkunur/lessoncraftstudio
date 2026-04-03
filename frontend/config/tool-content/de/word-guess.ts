@@ -6,7 +6,7 @@ const content: ToolContent = {
     secondaryKeywords: [
       'Wörter-Raten Generator kostenlos online',
       'Rechtschreib-Arbeitsblätter erstellen ohne Anmeldung',
-      'Wörter-Raten Ersteller sofort nutzen',
+      'Wörter-Raten Generator sofort nutzen',
       'kostenlose Bild-Hinweis Rechtschreibübungen',
     ],
     lsiKeywords: [
@@ -28,7 +28,7 @@ const content: ToolContent = {
     title: 'Wörter-Raten-Arbeitsblätter erstellen in 8 einfachen Schritten',
     steps: [
       {
-        title: 'Den Wörter-Raten-Arbeitsblatt-Ersteller öffnen',
+        title: 'Den Wörter-Raten-Arbeitsblatt-Generator öffnen',
         description: 'Klicken Sie auf \"Kostenlos testen\", um den Generator zu starten. Das Tool öffnet sich sofort in Ihrem Browser mit einer Einstellungsleiste links und einer Live-Vorschau rechts. Kein Benutzerkonto, kein Software-Download und keine Installation erforderlich.',
       },
       {
@@ -202,13 +202,13 @@ const content: ToolContent = {
 
   internalLinks: [
     { pageType: 'app', slug: 'woerter-raten-arbeitsblaetter', anchorText: 'Wörter-Raten-Arbeitsblätter — Vollständige Produktdetails' },
-    { pageType: 'tool', slug: 'alphabet-zug-ersteller', anchorText: 'Alphabet-Zug-Ersteller' },
-    { pageType: 'tool', slug: 'praepositionen-arbeitsblatt-ersteller', anchorText: 'Präpositionen-Arbeitsblatt-Ersteller' },
-    { pageType: 'tool', slug: 'buchstabensalat-ersteller', anchorText: 'Buchstabensalat-Ersteller' },
-    { pageType: 'tool', slug: 'wortsuche-ersteller', anchorText: 'Wortsuche-Ersteller' },
-    { pageType: 'tool', slug: 'kryptogramm-ersteller', anchorText: 'Kryptogramm-Ersteller' },
-    { pageType: 'tool', slug: 'schreibuebungen-ersteller', anchorText: 'Schreibübungen-Ersteller' },
-    { pageType: 'tool', slug: 'zuordnungs-arbeitsblatt-ersteller', anchorText: 'Zuordnungs-Arbeitsblatt-Ersteller' },
+    { pageType: 'tool', slug: 'alphabet-zug-ersteller', anchorText: 'Alphabet-Zug-Generator' },
+    { pageType: 'tool', slug: 'praepositionen-Arbeitsblatt-Generator', anchorText: 'Präpositionen-Arbeitsblatt-Generator' },
+    { pageType: 'tool', slug: 'buchstabensalat-ersteller', anchorText: 'Buchstabensalat-Generator' },
+    { pageType: 'tool', slug: 'wortsuche-ersteller', anchorText: 'Wortsuche-Generator' },
+    { pageType: 'tool', slug: 'kryptogramm-ersteller', anchorText: 'Kryptogramm-Generator' },
+    { pageType: 'tool', slug: 'schreibuebungen-ersteller', anchorText: 'Schreibübungen-Generator' },
+    { pageType: 'tool', slug: 'zuordnungs-Arbeitsblatt-Generator', anchorText: 'Zuordnungs-Arbeitsblatt-Generator' },
   ],
 
   visuals: {

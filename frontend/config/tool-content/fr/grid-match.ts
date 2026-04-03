@@ -28,7 +28,7 @@ const content: ToolContent = {
     title: 'Comment Créer des Puzzles Grille en 8 Étapes',
     steps: [
       {
-        title: 'Ouvrir le Créateur de Puzzles Grille',
+        title: 'Ouvrir le Générateur de Puzzles Grille',
         description: 'Cliquez sur \" Essayer maintenant \" pour lancer le générateur de puzzles grille dans votre navigateur. L\'outil s\'ouvre instantanément avec une barre latérale de réglages à gauche et un canevas à double onglet à droite — un onglet pour la fiche de travail, un pour le corrigé. Aucun compte, aucun téléchargement de logiciel, aucune installation requis — commencez à créer des puzzles grille immédiatement.',
       },
       {
@@ -187,7 +187,7 @@ const content: ToolContent = {
       answer: 'Le générateur détecte automatiquement l\'orientation de votre page et repositionne les éléments. Les pages portrait (hauteur > largeur) placent la grille en haut utilisant 45 % de la hauteur disponible avec la palette numérotée en dessous et un en-tête pleine largeur (100 px de hauteur, rayon de 15 px). Les pages paysage (largeur > hauteur) positionnent la grille à gauche (48 % de la largeur disponible) avec la palette à droite et un en-tête compact (70 px de hauteur, rayon de 35 px). Ce repositionnement automatique garantit que les puzzles grille sont équilibrés et professionnels dans les deux orientations sans ajustement manuel de la mise en page.',
     },
     {
-      question: 'Le Créateur de Puzzles Grille est-il sensible à la langue ?',
+      question: 'Le Générateur de Puzzles Grille est-il sensible à la langue ?',
       answer: 'Non. Le Puzzle Grille est purement visuel — le résultat du puzzle ne contient que des tuiles d\'images et des numéros, sans contenu textuel localisé sur la fiche elle-même. L\'interface de l\'application (menus, boutons, texte d\'en-tête) prend en charge les 11 langues, mais le puzzle généré fonctionne de manière identique quel que soit le choix de la langue. Cela rend les puzzles grille universellement vendables sur tous les marchés sans traduction. Un ensemble de puzzles sert toutes les boutiques Etsy internationales, toutes les places de marché KDP et tous les acheteurs Gumroad.',
     },
     {
@@ -206,13 +206,13 @@ const content: ToolContent = {
 
   internalLinks: [
     { pageType: 'app', slug: 'puzzle-grille-fiches', anchorText: 'Puzzles Grille — Détails Complets du Produit' },
-    { pageType: 'tool', slug: 'generateur-fiches-association', anchorText: 'Créateur de Fiches d\'Association' },
-    { pageType: 'tool', slug: 'generateur-discrimination-visuelle', anchorText: 'Créateur de Fiches Discrimination Visuelle' },
-    { pageType: 'tool', slug: 'generateur-cartes-bingo', anchorText: 'Créateur de Cartes Bingo' },
-    { pageType: 'tool', slug: 'generateur-pieces-manquantes', anchorText: 'Créateur de Fiches Pièces Manquantes' },
-    { pageType: 'tool', slug: 'generateur-fiches-intrus', anchorText: 'Créateur de Fiches Intrus' },
-    { pageType: 'tool', slug: 'generateur-tri-images', anchorText: 'Créateur de Fiches Tri d\'Images' },
-    { pageType: 'tool', slug: 'generateur-fiches-addition', anchorText: 'Créateur de Fiches d\'Addition' },
+    { pageType: 'tool', slug: 'generateur-fiches-association', anchorText: 'Générateur de Fiches d\'Association' },
+    { pageType: 'tool', slug: 'generateur-discrimination-visuelle', anchorText: 'Générateur de Fiches Discrimination Visuelle' },
+    { pageType: 'tool', slug: 'generateur-cartes-bingo', anchorText: 'Générateur de Cartes Bingo' },
+    { pageType: 'tool', slug: 'generateur-pieces-manquantes', anchorText: 'Générateur de Fiches Pièces Manquantes' },
+    { pageType: 'tool', slug: 'generateur-fiches-intrus', anchorText: 'Générateur de Fiches Intrus' },
+    { pageType: 'tool', slug: 'generateur-tri-images', anchorText: 'Générateur de Fiches Tri d\'Images' },
+    { pageType: 'tool', slug: 'generateur-fiches-addition', anchorText: 'Générateur de Fiches d\'Addition' },
   ],
 
   visuals: {

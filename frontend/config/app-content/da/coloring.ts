@@ -133,7 +133,7 @@ const content: AppContent = {
       {
         title: 'Sæson- og højtidsmalesamlinger',
         description:
-          'De 104 tematiske billedsamlinger dækker enhver sæson- og højtidslejlighed — jul, halloween, påske, valentinsdag, skolestart, sommerferie, vinterferie og flere. Opret tidsbegrænsede malebilledssamlinger, der falder sammen med topindkøbsperioder. Udgiv halloween-malepakker i september, julesamlinger i oktober og valentinsdag-pakker i januar. Sæsonprodukter motiverer højere priser under deres topvinduer og skaber naturlige grunde til genkøb fra den samme kundebase.',
+          'De 104 tematiske billedsamlinger dækker enhver sæson- og højtidslejlighed — jul, halloween, påske, valentinsdag, skolestart, sommerferie, vinterferie og flere. Opret tidsbegrænsede malebilledssamlinger, der falder sammen med topindkøbsperioder. Udgiv halloween-malepakker i september, julesamlinger i oktober og valentinsdag-pakker i januar. Sæsonprodukter motiverer højere priser under deres topvinduer og generator naturlige grunde til genkøb fra den samme kundebase.',
         platform: 'Etsy / Amazon KDP / Gumroad (sæsonbetonet)',
       },
     ],

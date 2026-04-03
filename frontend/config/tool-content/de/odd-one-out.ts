@@ -6,7 +6,7 @@ const content: ToolContent = {
     secondaryKeywords: [
       'Was-passt-nicht-Rätsel kostenlos erstellen',
       'Ausreißer-Rätsel Generator ohne Anmeldung',
-      'kostenloser Was-passt-nicht Ersteller online',
+      'kostenloser Was-passt-nicht Generator online',
       'Was-passt-nicht-Arbeitsblätter online drucken',
     ],
     lsiKeywords: [
@@ -28,7 +28,7 @@ const content: ToolContent = {
     title: 'Was-Passt-Nicht-Arbeitsblätter erstellen in 8 Schritten',
     steps: [
       {
-        title: 'Den Was-Passt-Nicht-Ersteller öffnen',
+        title: 'Den Was-Passt-Nicht-Generator öffnen',
         description: 'Klicken Sie auf \"Kostenlos testen\", um den Was-passt-nicht-Arbeitsblatt-Generator in Ihrem Browser zu starten. Das Tool lädt sofort mit einer Einstellungs-Seitenleiste links und einer Dual-Tab-Arbeitsfläche rechts — ein Tab für das Arbeitsblatt, einer für den Lösungsschlüssel. Keine Kontoerstellung, kein Software-Download, keine Installation erforderlich — beginnen Sie sofort mit der Erstellung von Was-passt-nicht-Arbeitsblättern.',
       },
       {
@@ -117,7 +117,7 @@ const content: ToolContent = {
     },
     {
       title: 'Globale visuelle Rätsel-Produktlinie',
-      description: 'Der Was-Passt-Nicht-Ersteller erzeugt rein visuelle Rätsel — vier Bilder pro Reihe ohne sprachabhängigen Text auf dem Arbeitsblattinhalt selbst. Der automatisch generierte Header übersetzt sich in alle 11 unterstützten Sprachen, aber die eigentlichen Übungen enthalten nur Bilder. Dieselben Produktdateien funktionieren in jedem Land ohne Übersetzung oder Anpassung. Eine einzige Erstellungssitzung erzeugt einen global verkaufbaren Katalog. Verkaufen Sie identische Dateien über Etsy-Shops, die verschiedene Länder ansprechen, veröffentlichen Sie dieselben KDP-Buchinhalte auf allen internationalen Amazon-Marktplätzen und listen Sie auf Gumroad für internationale Verkäufer. Keine separaten Sprachversionen, keine Übersetzungskosten, keine ortsübliche Wartung.',
+      description: 'Der Was-Passt-Nicht-Generator erzeugt rein visuelle Rätsel — vier Bilder pro Reihe ohne sprachabhängigen Text auf dem Arbeitsblattinhalt selbst. Der automatisch generierte Header übersetzt sich in alle 11 unterstützten Sprachen, aber die eigentlichen Übungen enthalten nur Bilder. Dieselben Produktdateien funktionieren in jedem Land ohne Übersetzung oder Anpassung. Eine einzige Erstellungssitzung erzeugt einen global verkaufbaren Katalog. Verkaufen Sie identische Dateien über Etsy-Shops, die verschiedene Länder ansprechen, veröffentlichen Sie dieselben KDP-Buchinhalte auf allen internationalen Amazon-Marktplätzen und listen Sie auf Gumroad für internationale Verkäufer. Keine separaten Sprachversionen, keine Übersetzungskosten, keine ortsübliche Wartung.',
       platform: 'Etsy / Amazon KDP',
     },
   ],
@@ -187,8 +187,8 @@ const content: ToolContent = {
       answer: 'Ja. Aktivieren Sie das Kontrollkästchen \"Name-und-Datum-Felder einfügen\", um Namens- und Datumszeilen für unterrichtsfertige Zuordnung hinzuzufügen. Aktivieren Sie \"Übungsnummern einfügen\", um Nummern auf der linken Seite jeder Übungskarte anzuzeigen — die Nummern verwenden 25px Breite mit 15px Abstand zum Karteninhalt. Übungsnummern helfen bei der Klassenbesprechung und erleichtern es Verkäufern, auf bestimmte Reihen während der Diskussion zu verweisen. Beide Optionen sind unabhängig und können zusammen oder separat aktiviert werden.',
     },
     {
-      question: 'Ist der Was-Passt-Nicht-Ersteller sprachabhängig?',
-      answer: 'Nein. Der Was-Passt-Nicht-Ersteller erzeugt ein rein visuelles Rätselformat — kein Text erscheint auf dem Arbeitsblattinhalt selbst. Die vier Bilder pro Reihe, die roten Kreismarkierungen auf dem Lösungsschlüssel und das Übungs-Layout sind universell. Das einzige sprachabhängige Element ist der automatisch generierte Header-Text (\"Finde den Ausreißer\"), der sich in alle 11 unterstützten Sprachen übersetzt. Das macht Was-passt-nicht-Arbeitsblätter universell verkaufbar über alle Märkte ohne Übersetzung — ein Set von Rätseln bedient jeden internationalen Marktplatz.',
+      question: 'Ist der Was-Passt-Nicht-Generator sprachabhängig?',
+      answer: 'Nein. Der Was-Passt-Nicht-Generator erzeugt ein rein visuelles Rätselformat — kein Text erscheint auf dem Arbeitsblattinhalt selbst. Die vier Bilder pro Reihe, die roten Kreismarkierungen auf dem Lösungsschlüssel und das Übungs-Layout sind universell. Das einzige sprachabhängige Element ist der automatisch generierte Header-Text (\"Finde den Ausreißer\"), der sich in alle 11 unterstützten Sprachen übersetzt. Das macht Was-passt-nicht-Arbeitsblätter universell verkaufbar über alle Märkte ohne Übersetzung — ein Set von Rätseln bedient jeden internationalen Marktplatz.',
     },
     {
       question: 'Welche Seitengrößen und Exportformate sind verfügbar?',
@@ -206,13 +206,13 @@ const content: ToolContent = {
 
   internalLinks: [
     { pageType: 'app', slug: 'was-passt-nicht-arbeitsblaetter', anchorText: 'Was-Passt-Nicht-Rätsel — Alle Produktdetails' },
-    { pageType: 'tool', slug: 'fehlende-puzzleteile-ersteller', anchorText: 'Fehlende-Puzzleteile-Ersteller' },
-    { pageType: 'tool', slug: 'schattenbilder-ersteller', anchorText: 'Schattenbilder-Ersteller' },
-    { pageType: 'tool', slug: 'raster-puzzle-ersteller', anchorText: 'Raster-Puzzle-Ersteller' },
-    { pageType: 'tool', slug: 'zuordnungs-arbeitsblatt-ersteller', anchorText: 'Zuordnungs-Arbeitsblatt-Ersteller' },
-    { pageType: 'tool', slug: 'bilder-sortieren-ersteller', anchorText: 'Bilder-Sortieren-Ersteller' },
-    { pageType: 'tool', slug: 'wortsuche-ersteller', anchorText: 'Wortsuche-Ersteller' },
-    { pageType: 'tool', slug: 'malvorlagen-ersteller', anchorText: 'Malvorlagen-Ersteller' },
+    { pageType: 'tool', slug: 'fehlende-puzzleteile-ersteller', anchorText: 'Fehlende-Puzzleteile-Generator' },
+    { pageType: 'tool', slug: 'schattenbilder-ersteller', anchorText: 'Schattenbilder-Generator' },
+    { pageType: 'tool', slug: 'raster-puzzle-ersteller', anchorText: 'Raster-Puzzle-Generator' },
+    { pageType: 'tool', slug: 'zuordnungs-Arbeitsblatt-Generator', anchorText: 'Zuordnungs-Arbeitsblatt-Generator' },
+    { pageType: 'tool', slug: 'bilder-sortieren-ersteller', anchorText: 'Bilder-Sortieren-Generator' },
+    { pageType: 'tool', slug: 'wortsuche-ersteller', anchorText: 'Wortsuche-Generator' },
+    { pageType: 'tool', slug: 'malvorlagen-ersteller', anchorText: 'Malvorlagen-Generator' },
   ],
 
   visuals: {

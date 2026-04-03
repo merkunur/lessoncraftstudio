@@ -4,7 +4,7 @@ const content: ToolContent = {
   seo: {
     primaryKeyword: 'subtraktions arbejdsark generator',
     secondaryKeywords: [
-      'subtraktions arbejdsark skaber til Etsy-sælgere',
+      'subtraktions arbejdsark generator til Etsy-sælgere',
       'opret subtraktions arbejdsark til salg',
       'printbare subtraktions arbejdsark kommercielt brug',
       'billede subtraktions arbejdsark til KDP',
@@ -196,13 +196,13 @@ const content: ToolContent = {
 
   internalLinks: [
     { pageType: 'app', slug: 'subtraktion-arbejdsark', anchorText: 'Subtraktions Arbejdsark — Komplette Produktdetaljer' },
-    { pageType: 'tool', slug: 'additions-arbejdsark-skaber', anchorText: 'Additions Arbejdsark Skaber' },
-    { pageType: 'tool', slug: 'kode-additions-arbejdsark-skaber', anchorText: 'Kode-additions Arbejdsark Skaber' },
-    { pageType: 'tool', slug: 'mere-eller-mindre-arbejdsark-skaber', anchorText: 'Mere eller Mindre Arbejdsark Skaber' },
-    { pageType: 'tool', slug: 'mattepuslespil-skaber', anchorText: 'Mattepuslespil Skaber' },
-    { pageType: 'tool', slug: 'matematik-arbejdsark-skaber', anchorText: 'Matematik Arbejdsark Skaber' },
-    { pageType: 'tool', slug: 'matchnings-arbejdsark-skaber', anchorText: 'Matchnings Arbejdsark Skaber' },
-    { pageType: 'tool', slug: 'farvelaegningssider-skaber', anchorText: 'Malebilleder Skaber' },
+    { pageType: 'tool', slug: 'additions-arbejdsark-skaber', anchorText: 'Additions Arbejdsark Generator' },
+    { pageType: 'tool', slug: 'kode-additions-arbejdsark-skaber', anchorText: 'Kode-additions Arbejdsark Generator' },
+    { pageType: 'tool', slug: 'mere-eller-mindre-arbejdsark-skaber', anchorText: 'Mere eller Mindre Arbejdsark Generator' },
+    { pageType: 'tool', slug: 'mattepuslespil-skaber', anchorText: 'Mattepuslespil Generator' },
+    { pageType: 'tool', slug: 'matematik-arbejdsark-skaber', anchorText: 'Matematik Arbejdsark Generator' },
+    { pageType: 'tool', slug: 'matchnings-arbejdsark-skaber', anchorText: 'Matchnings Arbejdsark Generator' },
+    { pageType: 'tool', slug: 'farvelaegningssider-skaber', anchorText: 'Malebilleder Generator' },
   ],
 
   visuals: {

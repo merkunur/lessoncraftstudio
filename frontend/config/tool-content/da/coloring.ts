@@ -2,33 +2,33 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'tilpasset farvelægningsside skaber',
+    primaryKeyword: 'tilpasset farvelægningsside generator',
     secondaryKeywords: [
-      'farvelægningsside skaber for sælgere',
+      'farvelægningsside generator for sælgere',
       'tilpassede farvelægningsarbejdsark online',
-      'farvelægningsside skaber for hjemmeundervisning',
+      'farvelægningsside generator for hjemmeundervisning',
       'printbare farvelægningssider for børn online',
     ],
     lsiKeywords: [
       'produktlinjens farvelægningsside designer online',
       'gråtone farvelægningsarbejdsark til tryk',
-      'frihåndstegning farvelægningsaktivitet skaber',
+      'frihåndstegning farvelægningsaktivitet generator',
     ],
-    titleTag: 'Tilpasset Farvelægningsside Skaber — Lav Sider Online — Sælgerguide',
+    titleTag: 'Tilpasset Farvelægningsside Generator — Lav Sider Online — Sælgerguide',
     metaDescription: 'Lav tilpassede farvelægningssider for din produktlinje eller hjemme. Frit arbejdsområde, mere end 3.100 illustrationer, 104 temaer, frihåndstegning, gråtoneeksport. Gratis.',
   },
 
   hero: {
-    title: 'Farvelægningsside Skaber',
+    title: 'Farvelægningsside Generator',
     tagline: 'Frit arbejdsområde farvelægningsside generator med frihåndstegning, gråtoneeksport, produktlinjehjælpere og 104 tematiske billedsamlinger for professionelle farvelægningssider, der sælger globalt uden oversættelse',
-    description: 'Design professionelle farvelægningssider på et helt åbent arbejdsområde, hvor du placerer billeder præcis, hvor du vil — ingen gitre, ingen skabeloner, ingen bokse, ren kreativ frihed. Denne frie tilgang er kernedifferentiatoren: hver farvelægningsside, du laver, er unik og umulig at replikere med skabelonbaserede værktøjer. Gennemse 104 tematiske billedsamlinger med mere end 3.100 farverige illustrationer, klik for at tilføje billeder, arrangér derefter, ændr størrelse, rotér og lagdel elementer hvor som helst på arbejdsområdet. Frihåndstegningsværktøjet lader dig skitsere originale illustrationer direkte ved siden af biblioteksbilleder med justerbar penselfarve og størrelse (1–50 pixels), hvilket skaber hybridfarvelægningssider, der blander kurateret kunstværk med dine egne tegninger. Étkliksproduktlinjehjælpere tilføjer et navnefelt (\"Navn: ____\") og skriveøvelseslinjer (heltrukket, stiplet, heltrukket) — forvandler farvelægningssider til produktlinjefærdige aktivitetsark, der sælger på Gumroad. Skift gråtoneeksport for at konvertere din farverige komposition til blækvenlige farvelægningssider perfekte til KDP-interiører og massetryk. Tilføj dekorative rammetemaer, tilpasset tekst med kontureffekter, og upload egne PNG-, JPG- eller GIF-billeder. Dette er en helt visuel app — outputtet indeholder ingen tekst, hvilket gør farvelægningssider universelt sælgbare uden oversættelse. Intet facit eksisterer, da farvelægning er en kreativ aktivitet uden korrekt svar. Eksportér trykfærdige PDF\'er og JPEG-billeder med 300 DPI i Letter, A4, Kvadrat (1200×1200) eller tilpassede størrelser. Den gratis prøveversion indeholder alle funktioner med et vandmærke på downloads. Køb en licens for at fjerne vandmærket og sælge kommercielt.',
+    description: 'Design professionelle farvelægningssider på et helt åbent arbejdsområde, hvor du placerer billeder præcis, hvor du vil — ingen gitre, ingen skabeloner, ingen bokse, ren kreativ frihed. Denne frie tilgang er kernedifferentiatoren: hver farvelægningsside, du laver, er unik og umulig at replikere med skabelonbaserede værktøjer. Gennemse 104 tematiske billedsamlinger med mere end 3.100 farverige illustrationer, klik for at tilføje billeder, arrangér derefter, ændr størrelse, rotér og lagdel elementer hvor som helst på arbejdsområdet. Frihåndstegningsværktøjet lader dig skitsere originale illustrationer direkte ved siden af biblioteksbilleder med justerbar penselfarve og størrelse (1–50 pixels), hvilket generator hybridfarvelægningssider, der blander kurateret kunstværk med dine egne tegninger. Étkliksproduktlinjehjælpere tilføjer et navnefelt (\"Navn: ____\") og skriveøvelseslinjer (heltrukket, stiplet, heltrukket) — forvandler farvelægningssider til produktlinjefærdige aktivitetsark, der sælger på Gumroad. Skift gråtoneeksport for at konvertere din farverige komposition til blækvenlige farvelægningssider perfekte til KDP-interiører og massetryk. Tilføj dekorative rammetemaer, tilpasset tekst med kontureffekter, og upload egne PNG-, JPG- eller GIF-billeder. Dette er en helt visuel app — outputtet indeholder ingen tekst, hvilket gør farvelægningssider universelt sælgbare uden oversættelse. Intet facit eksisterer, da farvelægning er en kreativ aktivitet uden korrekt svar. Eksportér trykfærdige PDF\'er og JPEG-billeder med 300 DPI i Letter, A4, Kvadrat (1200×1200) eller tilpassede størrelser. Den gratis prøveversion indeholder alle funktioner med et vandmærke på downloads. Køb en licens for at fjerne vandmærket og sælge kommercielt.',
   },
 
   tutorial: {
     title: 'Sådan Laver du Tilpassede Farvelægningssider i 8 Trin',
     steps: [
       {
-        title: 'Åbn Farvelægningsside Skaberen',
+        title: 'Åbn Farvelægningsside Generatoren',
         description: 'Klik på \"Prøv gratis nu\" for at starte farvelægningsside-generatoren i din browser. Værktøjet indlæses direkte med et indstillingssidepanel til venstre og et liveforhåndsvisningsarbejdsområde til højre. Ingen konto, ingen download, ingen installation kræves — begynd at bygge farvelægningssider med det samme på det frie arbejdsområde.',
       },
       {
@@ -45,7 +45,7 @@ const content: ToolContent = {
       },
       {
         title: 'Skitsér med frihåndstegningsværktøjet',
-        description: 'Skift til Tegnetilstand og skitsér direkte på arbejdsområdet med frihåndspenslen. Vælg enhver penselfarve og justér penselstørrelsen fra 1 til 50 pixels. Tegn egne rammer, tilføj dekorative krusseduller, lav originale illustrationer eller skitsér forbindelseslinjer mellem billeder. Frihåndsværktøjet skaber hybridfarvelægningssider, der blander biblioteksbilleder med dit eget originale kunstværk — et kraftfuldt differentieringspunkt.',
+        description: 'Skift til Tegnetilstand og skitsér direkte på arbejdsområdet med frihåndspenslen. Vælg enhver penselfarve og justér penselstørrelsen fra 1 til 50 pixels. Tegn egne rammer, tilføj dekorative krusseduller, lav originale illustrationer eller skitsér forbindelseslinjer mellem billeder. Frihåndsværktøjet generator hybridfarvelægningssider, der blander biblioteksbilleder med dit eget originale kunstværk — et kraftfuldt differentieringspunkt.',
       },
       {
         title: 'Tilføj produktlinjehjælpere og tekst',
@@ -117,7 +117,7 @@ const content: ToolContent = {
     },
     {
       title: 'Global visuel produktlinje',
-      description: 'Farvelægningsside Skaberen producerer rent visuelt output uden tekst på arbejdsarkene — den samme farvelægningsside fungerer på alle sprog uden ændring. Én designsession producerer et universelt sælgbart katalog. Sælg de samme produktfiler globalt uden oversættelsesomkostninger eller sprogspecifik vedligeholdelse.',
+      description: 'Farvelægningsside Generatoren producerer rent visuelt output uden tekst på arbejdsarkene — den samme farvelægningsside fungerer på alle sprog uden ændring. Én designsession producerer et universelt sælgbart katalog. Sælg de samme produktfiler globalt uden oversættelsesomkostninger eller sprogspecifik vedligeholdelse.',
       platform: 'Etsy / Amazon KDP',
     },
   ],
@@ -137,7 +137,7 @@ const content: ToolContent = {
     },
     {
       title: 'Kombinér frihåndstegning med biblioteksbilleder',
-      description: 'Brug frihåndstegningsværktøjet til at tilføje originale skitser ved siden af biblioteksbilleder. Tegn egne rammer, forbindende elementer, dekorative krusseduller eller helt originale illustrationer. Denne hybridtilgang skaber farvelægningssider, som ingen anden sælger kan præcist duplikere.',
+      description: 'Brug frihåndstegningsværktøjet til at tilføje originale skitser ved siden af biblioteksbilleder. Tegn egne rammer, forbindende elementer, dekorative krusseduller eller helt originale illustrationer. Denne hybridtilgang generator farvelægningssider, som ingen anden sælger kan præcist duplikere.',
     },
     {
       title: 'Byg sæsonsamlinger for tilbagevendende indtægter',
@@ -149,7 +149,7 @@ const content: ToolContent = {
     },
     {
       title: 'Brug dekorative rammer for et poleret professionelt udseende',
-      description: 'Vælg et dekorativt rammetema fra rammebiblioteket for at indramme hver farvelægningsside med et konsistent, professionelt udseende. Rammer med justerbar gennemsigtighed tilføjer visuel polish uden at overvælde farvelægningsindholdet. Konsistent rammestil gennem en produktpakke skaber et sammenhængende udseende.',
+      description: 'Vælg et dekorativt rammetema fra rammebiblioteket for at indramme hver farvelægningsside med et konsistent, professionelt udseende. Rammer med justerbar gennemsigtighed tilføjer visuel polish uden at overvælde farvelægningsindholdet. Konsistent rammestil gennem en produktpakke generator et sammenhængende udseende.',
     },
   ],
 
@@ -160,7 +160,7 @@ const content: ToolContent = {
     },
     {
       question: 'Hvad gør det frie arbejdsområde anderledes end skabelonbaserede værktøjer?',
-      answer: 'Farvelægningsside Skaberen giver dig et helt åbent arbejdsområde uden gitre, skabeloner, bokse eller forudbestemte layouts. Hvert billede placeres præcis, hvor du trækker det. Du kan overlappe billeder, rotere dem til enhver vinkel, ændre størrelse frit og skabe lagdelte kompositioner. Skabelonværktøjer låser dig i faste positioner. Den frie tilgang betyder, at hver farvelægningsside, du laver, er unik.',
+      answer: 'Farvelægningsside Generatoren giver dig et helt åbent arbejdsområde uden gitre, skabeloner, bokse eller forudbestemte layouts. Hvert billede placeres præcis, hvor du trækker det. Du kan overlappe billeder, rotere dem til enhver vinkel, ændre størrelse frit og skabe lagdelte kompositioner. Skabelonværktøjer låser dig i faste positioner. Den frie tilgang betyder, at hver farvelægningsside, du laver, er unik.',
     },
     {
       question: 'Hvordan fungerer gråtoneeksporten?',
@@ -176,7 +176,7 @@ const content: ToolContent = {
     },
     {
       question: 'Er farvelægningssiderne sprogfølsomme?',
-      answer: 'Nej. Farvelægningsside Skaberen producerer rent visuelt output uden tekst på selve farvelægningssiden. At skifte sprog i generatoren påvirker kun grænsefladeetiketter, ikke det eksporterede arbejdsark. Dette gør dine farvelægningssider universelt sælgbare uden oversættelse.',
+      answer: 'Nej. Farvelægningsside Generatoren producerer rent visuelt output uden tekst på selve farvelægningssiden. At skifte sprog i generatoren påvirker kun grænsefladeetiketter, ikke det eksporterede arbejdsark. Dette gør dine farvelægningssider universelt sælgbare uden oversættelse.',
     },
     {
       question: 'Hvorfor er der intet facit?',
@@ -202,13 +202,13 @@ const content: ToolContent = {
 
   internalLinks: [
     { pageType: 'app', slug: 'malebog-arbejdsark', anchorText: 'Malebilleder — Fulde Produktdetaljer' },
-    { pageType: 'tool', slug: 'tegn-og-farvelaeg-skaber', anchorText: 'Tegn og Farvelæg Skaber' },
-    { pageType: 'tool', slug: 'linjeovelser-skaber', anchorText: 'Tegne Linjer Skaber' },
-    { pageType: 'tool', slug: 'stor-lille-arbejdsark-skaber', anchorText: 'Stor og Lille Arbejdsark Skaber' },
-    { pageType: 'tool', slug: 'moenstertog-skaber', anchorText: 'Mønstertog Skaber' },
-    { pageType: 'tool', slug: 'matchning-arbejdsark-skaber', anchorText: 'Matchning Arbejdsark Skaber' },
-    { pageType: 'tool', slug: 'skyggematchning-skaber', anchorText: 'Skyggematchning Skaber' },
-    { pageType: 'tool', slug: 'skriveovelser-skaber', anchorText: 'Skriveøvelser Skaber' },
+    { pageType: 'tool', slug: 'tegn-og-farvelaeg-skaber', anchorText: 'Tegn og Farvelæg Generator' },
+    { pageType: 'tool', slug: 'linjeovelser-skaber', anchorText: 'Tegne Linjer Generator' },
+    { pageType: 'tool', slug: 'stor-lille-arbejdsark-skaber', anchorText: 'Stor og Lille Arbejdsark Generator' },
+    { pageType: 'tool', slug: 'moenstertog-skaber', anchorText: 'Mønstertog Generator' },
+    { pageType: 'tool', slug: 'matchning-arbejdsark-skaber', anchorText: 'Matchning Arbejdsark Generator' },
+    { pageType: 'tool', slug: 'skyggematchning-skaber', anchorText: 'Skyggematchning Generator' },
+    { pageType: 'tool', slug: 'skriveovelser-skaber', anchorText: 'Skriveøvelser Generator' },
   ],
 
   visuals: {

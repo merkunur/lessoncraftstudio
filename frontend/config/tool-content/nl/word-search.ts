@@ -2,24 +2,24 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'gratis woordzoeker maker met afbeeldingen',
+    primaryKeyword: 'gratis woordzoeker generator met afbeeldingen',
     secondaryKeywords: [
       'woordzoeker online maken gratis',
       'woordzoeker puzzel generator met plaatjes',
-      'verborgen woorden raster maker gratis proberen',
-      'woordzoeker werkblad maker met thema\'s',
+      'verborgen woorden raster generator gratis proberen',
+      'woordzoeker werkblad generator met thema\'s',
     ],
     lsiKeywords: [
       'verborgen-woorden rasterpuzzel gratis online',
       'taalgebonden woordzoeker generator',
       'meertalige woordzoeker puzzel gratis proefversie',
     ],
-    titleTag: 'Woordzoeker maker gratis online | LessonCraftStudio',
+    titleTag: 'Woordzoeker generator gratis online | LessonCraftStudio',
     metaDescription: 'Maak gratis woordzoekers met afbeeldingen online. Rasters van 5x5 tot 30x30, taalgebonden vulletters, 104 thema\'s, kleurgecodeerd antwoordblad. Probeer nu.',
   },
 
   hero: {
-    title: 'Gratis woordzoeker maker met afbeeldingen',
+    title: 'Gratis woordzoeker generator met afbeeldingen',
     tagline: 'Maak verborgen-woorden rasterpuzzels met instelbare formaten en taalgebonden vulletters — gratis online',
     description: 'Maak woordzoeker werkbladen waarbij verborgen woorden zijn ingebed in een raster van willekeurige vulletters. Woordzoekers zijn een van de populairste puzzelformaten voor kinderen en volwassenen — en met deze gratis online tool maakt u ze in enkele klikken. Stel de rastergrootte in van 5x5 tot 30x30, schakel diagonale en achterwaartse woorden in of uit voor precieze moeilijkheidsregeling, en kies uit drie inhoudsbronnen: Afbeeldingenbibliotheek met meer dan 3.100 illustraties over 104 thema\'s, Handmatige Bewerkingsmodus voor aangepaste woorden bij afbeeldingen, of Aangepaste Woordenlijst voor puur tekstgebaseerde puzzels. De unieke functie is taalgebonden alfabetvulling: Nederlandse rasters gebruiken het volledige Nederlandse alfabet met correcte letterfrequenties, Duitse rasters bevatten ä, ö, ü en ß, Franse rasters bevatten é, è, ç. Het kleurgecodeerde antwoordblad markeert elk woord in zes wisselende kleuren voor directe verificatie. U kunt de tool direct in uw browser gebruiken — geen account, geen software, geen creditcard nodig. De gratis proefversie biedt alle functies met een watermerk op downloads. Ideaal voor ouders, leerkrachten en puzzelliefhebbers die woordzoekers willen uitproberen.',
   },
@@ -28,7 +28,7 @@ const content: ToolContent = {
     title: 'Woordzoeker werkbladen maken in 8 eenvoudige stappen',
     steps: [
       {
-        title: 'Open de woordzoeker werkblad maker',
+        title: 'Open de woordzoeker werkblad generator',
         description: 'Klik op "Gratis proefversie" om de generator te starten in je browser. De tool laadt direct met een instellingenzijbalk links en een live voorbeeldcanvas rechts. Geen account, geen software-download, geen installatie nodig — begin onmiddellijk met het bouwen van woordzoeker puzzels.',
       },
       {
@@ -208,7 +208,7 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'alfabettrein-maker', anchorText: 'Gratis alfabettrein maker' },
     { pageType: 'tool', slug: 'kruiswoordpuzzel-maker', anchorText: 'Gratis kruiswoordpuzzel maker' },
     { pageType: 'tool', slug: 'schrijfoefeningen-maker', anchorText: 'Gratis schrijfoefeningen maker' },
-    { pageType: 'tool', slug: 'koppelen-werkblad-maker', anchorText: 'Gratis koppelwerkbladen maker' },
+    { pageType: 'tool', slug: 'koppelen-werkblad-generator', anchorText: 'Gratis koppelwerkbladen maker' },
   ],
 
   visuals: {

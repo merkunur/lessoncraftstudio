@@ -7,7 +7,7 @@ const content: AppContent = {
       'printbare billeddiagram arbejdsark sælg på Etsy',
       'billeddiagram generator til Amazon KDP-udgivere',
       'sælg billeddiagram aktiviteter på Gumroad',
-      'datarepræsentation arbejdsark skaber kommerciel licens',
+      'datarepræsentation arbejdsark generator kommerciel licens',
     ],
     lsiKeywords: [
       'digitale piktogram printbare produkter online forretning',
@@ -21,7 +21,7 @@ const content: AppContent = {
 
   hero: {
     title: 'Billeddiagram Arbejdsark Generator til Printbare Diagramtælling Aktiviteter',
-    tagline: 'Dobbeltlærred piktogram-skaber — generer spredte billedgitre med 6 billedtyper, automatisk udfyldte søjlediagram-facit, lokaliserede overskrifter på 11 sprog og 104 tematiske billedsamlinger til datarepræsentation arbejdsark.',
+    tagline: 'Dobbeltlærred piktogram-generator — generer spredte billedgitre med 6 billedtyper, automatisk udfyldte søjlediagram-facit, lokaliserede overskrifter på 11 sprog og 104 tematiske billedsamlinger til datarepræsentation arbejdsark.',
     description:
       'Forvandl visuel tælling til en komplet datafærdighedsaktivitet med den eneste arbejdsark-generator, der er bygget specifikt til billeddiagrammer. Hvert arbejdsark indeholder et spredt billedgitter med 20 ikoner fra 6 forskellige typer arrangeret i et 4×5-layout — brugerne tæller, hvor mange af hver type der er, og farvelægger derefter de tilsvarende celler i søjlediagrammet nedenfor. Appen genererer samtidigt en facitliste med gulmarkerede celler, der viser de korrekte antal, så sælgere kan verificere udfyldte ark øjeblikkeligt. Vælg billeder automatisk ved at vælge et tema fra dropdownmenuen Arbejdsarkets Billedkilde, eller vælg manuelt præcis 6 billeder fra det gennemsøgelige Billedbibliotek med mere end 3.100 illustrationer i 104 samlinger. Hvert arbejdsark inkluderer en automatisk genereret overskrift med en lokaliseret \"Billeddiagram\"-titel og tælleinstruktioner — overskriften tilpasses til alle 11 understøttede sprog automatisk. Tilføj navn- og datofelter med et enkelt flueben, anvend baggrunds- og rammetemaer med uafhængige opacitetskontroller, og tilpas med tekstværktøjer og frihånds lærredsredigering. Diagramtælling Generatoren er ikke sprogfølsom — visuel tælling bruger universelle tal og billeder, så arbejdsarkene fungerer identisk på ethvert sprog. Det samme billeddiagram arbejdsark kan bruges globalt uden oversættelse — et enkelt skabelsesflow betjener ethvert marked uden sprogspecifikke varianter. Fuld Adgang låser op for alle 104 temaer og alle 11 brugerfladesprog. Eksporter trykklare PDF\'er og JPEG-billeder med 300 DPI via 6× renderingsmultiplikator i Letter, A4, Kvadrat (1200×1200) eller brugerdefinerede størrelser. Download alle fire filer — arbejdsark-JPEG, arbejdsark-PDF, facit-JPEG og facit-PDF — i en enkelt session. Kommerciel Pakke inkluderer 10 farverige temaer; Fuld Adgang låser op for alle 104 temaer for maksimal variation over billeddiagram-pakker. Uanset om du sælger billeddiagram-pakker på Etsy.dk, sammensætter datafærdigheds-arbejdsbøger til Amazon KDP eller opretter matematikstationsaktiviteter til Gumroad — Diagramtælling Generatoren leverer produktlinjefærdige resultater på få minutter. Gratis prøveversion med alle funktioner — ingen tilmelding, intet kreditkort. Downloads indeholder et vandmærke; køb en licens for at fjerne det.',
   },
@@ -63,7 +63,7 @@ const content: AppContent = {
       {
         title: 'Billeddiagram arbejdsark generator med spredt billedgitter og søjlediagram',
         description:
-          'Hvert genereret arbejdsark kombinerer to sammenkoblede elementer: et 4×5-gitter med 20 spredte ikoner fra 6 forskellige billedtyper, og et søjlediagram med 6 kolonner × 5 rækker, hvor hver kolonne svarer til en billedtype. Billedtyperne forekommer hver 1–5 gange i gitteret (maksimalt 5 per type, tilfældigt fordelt), hvilket skaber en unik tælleudfordring, hver gang du genererer. Brugerne tæller, hvor mange af hver billedtype der er i gitteret, og farvelægger derefter det tilsvarende antal celler i diagrammet nedenfor. Dette todelte format lærer dataindsamling og datarepræsentation samtidig — kernen i tidlige diagramfærdigheder.',
+          'Hvert genereret arbejdsark kombinerer to sammenkoblede elementer: et 4×5-gitter med 20 spredte ikoner fra 6 forskellige billedtyper, og et søjlediagram med 6 kolonner × 5 rækker, hvor hver kolonne svarer til en billedtype. Billedtyperne forekommer hver 1–5 gange i gitteret (maksimalt 5 per type, tilfældigt fordelt), hvilket generator en unik tælleudfordring, hver gang du genererer. Brugerne tæller, hvor mange af hver billedtype der er i gitteret, og farvelægger derefter det tilsvarende antal celler i diagrammet nedenfor. Dette todelte format lærer dataindsamling og datarepræsentation samtidig — kernen i tidlige diagramfærdigheder.',
       },
       {
         title: 'Automatisk genereret facit med udfyldte diagramceller',
@@ -133,7 +133,7 @@ const content: AppContent = {
       {
         title: 'Sæsonbetonede tællings- og diagramsamlinger',
         description:
-          'De 104 tematiske billedsamlinger dækker enhver sæson- og højtidslejlighed — julepynt, halloween-ikoner, påskegenstande, valentinsdag-hjerter, skolstartstilbehør, sommeraktiviteter og vinterscener. Opret tidsbegrænsede billeddiagram-samlinger, der falder sammen med topindkøbsperioder. Udgiv halloween-tællings-pakker i september, julediagram-pakker i oktober og valentinsdag-dataaktiviteter i januar. Inkluder facit med hvert sæt til komplette sælgerpakker. Sæsonprodukter motiverer højere priser under deres topvinduer og skaber naturlige grunde til genkøb.',
+          'De 104 tematiske billedsamlinger dækker enhver sæson- og højtidslejlighed — julepynt, halloween-ikoner, påskegenstande, valentinsdag-hjerter, skolstartstilbehør, sommeraktiviteter og vinterscener. Opret tidsbegrænsede billeddiagram-samlinger, der falder sammen med topindkøbsperioder. Udgiv halloween-tællings-pakker i september, julediagram-pakker i oktober og valentinsdag-dataaktiviteter i januar. Inkluder facit med hvert sæt til komplette sælgerpakker. Sæsonprodukter motiverer højere priser under deres topvinduer og generator naturlige grunde til genkøb.',
         platform: 'Etsy / Amazon KDP / Gumroad (sæsonbetonet)',
       },
     ],

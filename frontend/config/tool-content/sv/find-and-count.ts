@@ -28,7 +28,7 @@ const content: ToolContent = {
     title: 'Hur du Skapar Sökarbetsblad i 8 Steg',
     steps: [
       {
-        title: 'Öppna Hitta och Räkna Skaparen',
+        title: 'Öppna Hitta och Räkna Generatorn',
         description: 'Klicka på \"Prova gratis nu\" för att starta sökarbetsblad generatorn. Appen autogenererar ett komplett sökarbetsblad vid sidladdning med djurtemat, 4 slumpmässiga bilder och slumpmässiga uppgiftstyper på ett 6×6-rutnät — en direkt förhandsgranskning. Inget konto, ingen nedladdning krävs.',
       },
       {
@@ -206,13 +206,13 @@ const content: ToolContent = {
 
   internalLinks: [
     { pageType: 'app', slug: 'hitta-och-rakna-arbetsblad', anchorText: 'Hitta och Räkna Aktiviteter — Fullständiga Produktdetaljer' },
-    { pageType: 'tool', slug: 'hitta-foeremaalen-skapare', anchorText: 'Dolda Objekt Skapare' },
-    { pageType: 'tool', slug: 'bildkorsord-skapare', anchorText: 'Korsordspussel Skapare' },
-    { pageType: 'tool', slug: 'skattjakt-skapare', anchorText: 'Skattjakt Skapare' },
-    { pageType: 'tool', slug: 'ordsoek-skapare', anchorText: 'Ordsök Skapare' },
-    { pageType: 'tool', slug: 'bildvaeg-skapare', anchorText: 'Bildväg Labyrint Skapare' },
-    { pageType: 'tool', slug: 'matchnings-arbetsblad-skapare', anchorText: 'Matchnings Arbetsblad Skapare' },
-    { pageType: 'tool', slug: 'maelarsidor-skapare', anchorText: 'Målarbilder Skapare' },
+    { pageType: 'tool', slug: 'hitta-foeremaalen-skapare', anchorText: 'Dolda Objekt Generator' },
+    { pageType: 'tool', slug: 'bildkorsord-skapare', anchorText: 'Korsordspussel Generator' },
+    { pageType: 'tool', slug: 'skattjakt-skapare', anchorText: 'Skattjakt Generator' },
+    { pageType: 'tool', slug: 'ordsoek-skapare', anchorText: 'Ordsök Generator' },
+    { pageType: 'tool', slug: 'bildvaeg-skapare', anchorText: 'Bildväg Labyrint Generator' },
+    { pageType: 'tool', slug: 'matchnings-arbetsblad-skapare', anchorText: 'Matchnings Arbetsblad Generator' },
+    { pageType: 'tool', slug: 'maelarsidor-skapare', anchorText: 'Målarbilder Generator' },
   ],
 
   visuals: {

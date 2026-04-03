@@ -28,7 +28,7 @@ const content: ToolContent = {
     title: 'Hur du Skapar Prepositioner Arbetsblad i 8 Enkla Steg',
     steps: [
       {
-        title: 'Öppna Prepositioner Arbetsblad Skaparen',
+        title: 'Öppna Prepositioner Arbetsblad Generatorn',
         description: 'Klicka på \"Prova gratis nu\" för att starta generatorn. Verktyget öppnas direkt i din webbläsare med ett inställningssidofält till vänster och en liveförhandsvisnings arbetsyta till höger. Inget konto, nedladdning eller installation krävs.',
       },
       {
@@ -81,7 +81,7 @@ const content: ToolContent = {
     },
     {
       title: 'Anpassade bildvarumärkta arbetsblad',
-      description: 'Ladda upp egna illustrationer, maskotbilder eller licensierat konstverk för att skapa prepositioner arbetsblad som ingen annan säljare kan replikera. Kombinera anpassade huvudbilder med anpassade formersättningar för en helt varumärkt visuell identitet. Hemundervisningsinnehållsskapare kan använda välbekanta objekt, och Etsy-säljare kan bygga en distinkt butiksestetik genom hela sin produktlinje.',
+      description: 'Ladda upp egna illustrationer, maskotbilder eller licensierat konstverk för att skapa prepositioner arbetsblad som ingen annan säljare kan replikera. Kombinera anpassade huvudbilder med anpassade formersättningar för en helt varumärkt visuell identitet. Hemundervisningsinnehållsgenerator kan använda välbekanta objekt, och Etsy-säljare kan bygga en distinkt butiksestetik genom hela sin produktlinje.',
     },
     {
       title: 'Säsongsbetonade prepositionspaket',
@@ -202,13 +202,13 @@ const content: ToolContent = {
 
   internalLinks: [
     { pageType: 'app', slug: 'prepositioner-arbetsblad', anchorText: 'Prepositioner Arbetsblad — Fullständiga Produktdetaljer' },
-    { pageType: 'tool', slug: 'alfabetstaag-skapare', anchorText: 'Alfabetståg Skapare' },
-    { pageType: 'tool', slug: 'gissa-ordet-skapare', anchorText: 'Gissa Ordet Skapare' },
-    { pageType: 'tool', slug: 'ordmix-skapare', anchorText: 'Ordmix Skapare' },
-    { pageType: 'tool', slug: 'ordsoek-skapare', anchorText: 'Ordsök Skapare' },
-    { pageType: 'tool', slug: 'kryptogram-skapare', anchorText: 'Kryptogram Skapare' },
-    { pageType: 'tool', slug: 'skrivoevningar-skapare', anchorText: 'Skrivövningar Skapare' },
-    { pageType: 'tool', slug: 'matchnings-arbetsblad-skapare', anchorText: 'Matchnings Arbetsblad Skapare' },
+    { pageType: 'tool', slug: 'alfabetstaag-skapare', anchorText: 'Alfabetståg Generator' },
+    { pageType: 'tool', slug: 'gissa-ordet-skapare', anchorText: 'Gissa Ordet Generator' },
+    { pageType: 'tool', slug: 'ordmix-skapare', anchorText: 'Ordmix Generator' },
+    { pageType: 'tool', slug: 'ordsoek-skapare', anchorText: 'Ordsök Generator' },
+    { pageType: 'tool', slug: 'kryptogram-skapare', anchorText: 'Kryptogram Generator' },
+    { pageType: 'tool', slug: 'skrivoevningar-skapare', anchorText: 'Skrivövningar Generator' },
+    { pageType: 'tool', slug: 'matchnings-arbetsblad-skapare', anchorText: 'Matchnings Arbetsblad Generator' },
   ],
 
   visuals: {

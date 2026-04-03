@@ -7,7 +7,7 @@ const content: AppContent = {
       'Versteckte-Objekte-Arbeitsblätter erstellen für Etsy',
       'Ich-sehe-was-Generator für KDP-Arbeitsbücher',
       'Was-passt-nicht-Druckvorlagen verkaufen',
-      'Suchbild-Ersteller kommerzielle Lizenz',
+      'Suchbild-Generator kommerzielle Lizenz',
     ],
     lsiKeywords: [
       'Printable-Business visuelle Suchaktivitäten erstellen',

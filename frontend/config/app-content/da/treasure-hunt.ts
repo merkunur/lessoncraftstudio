@@ -4,9 +4,9 @@ const content: AppContent = {
   seo: {
     primaryKeyword: 'skattejagt arbejdsark generator',
     secondaryKeywords: [
-      'printbar skattejagt vejfinding skaber til Etsy-sælgere',
+      'printbar skattejagt vejfinding generator til Etsy-sælgere',
       'retningspuslespil arbejdsark generator til KDP-udgivere',
-      'koordinatgitter skattejagt skaber kommerciel licens',
+      'koordinatgitter skattejagt generator kommerciel licens',
       'sælg skattejagt arbejdsark på Gumroad',
     ],
     lsiKeywords: [
@@ -63,7 +63,7 @@ const content: AppContent = {
       {
         title: 'Vejfinding skattejagtpuslespil på et 5×5 koordinatgitter',
         description:
-          'Generer retningspuslespil på et fast 5×5 gitter mærket med bogstavsrækker (A–E) og talkolonner (1–5). Hvert puslespil spreder 6 tematiske billeder over de 25 celler som visuelle vartegn og genererer derefter en tilfældig startposition og præcis 4 sekventielle bevægelser, der navigerer gitteret til et skattemål. Det konsekvente 5-instruktionsformat — startposition, 4 bevægelser og et \"Hvor er skatten?\"-spørgsmål — skaber en struktureret vejfindingsudfordring, der opbygger rumligt ræsonnement og koordinatkundskab. Alle bevægelser forbliver inden for gitterets grænser for gyldige, løsbare puslespil hver gang.',
+          'Generer retningspuslespil på et fast 5×5 gitter mærket med bogstavsrækker (A–E) og talkolonner (1–5). Hvert puslespil spreder 6 tematiske billeder over de 25 celler som visuelle vartegn og genererer derefter en tilfældig startposition og præcis 4 sekventielle bevægelser, der navigerer gitteret til et skattemål. Det konsekvente 5-instruktionsformat — startposition, 4 bevægelser og et \"Hvor er skatten?\"-spørgsmål — generator en struktureret vejfindingsudfordring, der opbygger rumligt ræsonnement og koordinatkundskab. Alle bevægelser forbliver inden for gitterets grænser for gyldige, løsbare puslespil hver gang.',
       },
       {
         title: 'To retningstyper: Grundlæggende (Op/Ned/Venstre/Højre) og Kompas (Nord/Syd/Øst/Vest)',
@@ -73,7 +73,7 @@ const content: AppContent = {
       {
         title: 'Automatisk genereret facit med markeret skatteplads',
         description:
-          'Hvert skattejagtpuslespil genererer automatisk en ledsagende facitliste på en separat lærredsfane. Facit genskaber det præcise puslespilslayout og markerer den endelige skattecelle i bleggu (rgba(255, 250, 205, 0.8)) med mørkegrå kontur, hvilket gør destinationen øjeblikkeligt synlig. Ingen manuel markering, ingen separat filoprettelse — facit forbliver perfekt synkroniseret med puslespillet. Denne dobbeltlærred-tilgang sparer betydelig produktionstid for sælgere, der opretter skattejagtpakker.',
+          'Hvert skattejagtpuslespil genererer automatisk en ledsagende facitliste på en separat lærredsfane. Facit gengenerator det præcise puslespilslayout og markerer den endelige skattecelle i bleggu (rgba(255, 250, 205, 0.8)) med mørkegrå kontur, hvilket gør destinationen øjeblikkeligt synlig. Ingen manuel markering, ingen separat filoprettelse — facit forbliver perfekt synkroniseret med puslespillet. Denne dobbeltlærred-tilgang sparer betydelig produktionstid for sælgere, der opretter skattejagtpakker.',
       },
       {
         title: 'Fuldt lokaliserede retningsanvisninger på 11 sprog',
@@ -133,7 +133,7 @@ const content: AppContent = {
       {
         title: 'Sæsonbetonede skattejagtsamlinger',
         description:
-          'De 104 tematiske billedsamlinger dækker enhver sæson- og højtidslejlighed — jul, halloween, påske, valentinsdag, skolestart, sommerferie og flere. Opret tidsbegrænsede skattejagtsamlinger, der falder sammen med topindkøbsperioder. Udgiv halloweenskattejagter i september, julesamlinger i oktober og valentinsdag-pakker i januar. Inkluder både Grundlæggende og Kompas-retningstyper i hvert sæsonsæt for maksimal værdi. Sæsonprodukter motiverer højere priser under deres topvinduer og skaber naturlige grunde til genkøb.',
+          'De 104 tematiske billedsamlinger dækker enhver sæson- og højtidslejlighed — jul, halloween, påske, valentinsdag, skolestart, sommerferie og flere. Opret tidsbegrænsede skattejagtsamlinger, der falder sammen med topindkøbsperioder. Udgiv halloweenskattejagter i september, julesamlinger i oktober og valentinsdag-pakker i januar. Inkluder både Grundlæggende og Kompas-retningstyper i hvert sæsonsæt for maksimal værdi. Sæsonprodukter motiverer højere priser under deres topvinduer og generator naturlige grunde til genkøb.',
         platform: 'Etsy / Amazon KDP / Gumroad (sæsonbetonet)',
       },
     ],
@@ -158,7 +158,7 @@ const content: AppContent = {
     {
       question: 'Hvorfor har hvert puslespil præcis 4 bevægelser?',
       answer:
-        'Den konsekvente 4-bevægelsesstruktur skaber et standardiseret puslespilsformat, der fungerer pålideligt på 5×5-gitteret. Fire bevægelser giver tilstrækkelig kompleksitet til meningsfuld vejfinding uden at overvælde yngre brugere. Hvert puslespil følger det samme 5-linjes instruktionsformat: startposition, 4 sekventielle bevægelser og \"Hvor er skatten?\"-spørgsmålet. Denne konsistens gør skattejagtarbejdsark forudsigelige for brugere og nemme at pakke i strukturerede aktivitetssæt for sælgere.',
+        'Den konsekvente 4-bevægelsesstruktur generator et standardiseret puslespilsformat, der fungerer pålideligt på 5×5-gitteret. Fire bevægelser giver tilstrækkelig kompleksitet til meningsfuld vejfinding uden at overvælde yngre brugere. Hvert puslespil følger det samme 5-linjes instruktionsformat: startposition, 4 sekventielle bevægelser og \"Hvor er skatten?\"-spørgsmålet. Denne konsistens gør skattejagtarbejdsark forudsigelige for brugere og nemme at pakke i strukturerede aktivitetssæt for sælgere.',
     },
     {
       question: 'Hvordan bruges de 6 billeder i puslespillet?',
@@ -178,7 +178,7 @@ const content: AppContent = {
     {
       question: 'Hvordan fungerer det automatisk genererede facit?',
       answer:
-        'Generatoren bruger et dobbeltlærredssystem med en Arbejdsarkfane og en Facitfane, hver med separate fortryd/gentag-stakke. Arbejdsarket viser 5×5-gitteret med spredte billeder og retningsanvisninger — klar til brugerne at følge. Facit genskaber det identiske layout og markerer den endelige skattecelle i bleggu (rgba(255, 250, 205, 0.8)) med mørkegrå kontur, hvilket gør destinationen øjeblikkeligt synlig. Begge versioner eksporteres separat med fire dedikerede downloadknapper.',
+        'Generatoren bruger et dobbeltlærredssystem med en Arbejdsarkfane og en Facitfane, hver med separate fortryd/gentag-stakke. Arbejdsarket viser 5×5-gitteret med spredte billeder og retningsanvisninger — klar til brugerne at følge. Facit gengenerator det identiske layout og markerer den endelige skattecelle i bleggu (rgba(255, 250, 205, 0.8)) med mørkegrå kontur, hvilket gør destinationen øjeblikkeligt synlig. Begge versioner eksporteres separat med fire dedikerede downloadknapper.',
     },
     {
       question: 'Findes der en gratis prøveversion?',

@@ -6,11 +6,11 @@ const content: ToolContent = {
     secondaryKeywords: [
       'ontbrekende stukjes puzzel online maken gratis',
       'legpuzzel werkblad generator',
-      'printbare ontbrekende stukjes maker met antwoordblad',
+      'printbare ontbrekende stukjes generator met antwoordblad',
       'puzzelstukjes werkblad tool online',
     ],
     lsiKeywords: [
-      'zes stukvormen legpuzzel maker gratis',
+      'zes stukvormen legpuzzel generator gratis',
       'slimme stuk-extractie puzzel generator',
       'automatisch antwoordblad ontbrekende stukjes tool',
     ],
@@ -28,7 +28,7 @@ const content: ToolContent = {
     title: 'Hoe maakt u gratis ontbrekende stukjes puzzels online?',
     steps: [
       {
-        title: 'Open de Ontbrekende Stukjes Maker',
+        title: 'Open de Ontbrekende Stukjes Generator',
         description: 'Klik op "Gratis proefversie" om de legpuzzel werkblad generator te starten in je browser. De tool laadt direct met een instellingenzijbalk links en een dubbel-tabblad canvas rechts — één tabblad voor het werkblad, één voor het antwoordblad. Geen account aanmaken, geen software downloaden, geen installatie nodig — begin onmiddellijk met het maken van ontbrekende stukjes puzzelwerkbladen.',
       },
       {
@@ -187,7 +187,7 @@ const content: ToolContent = {
       answer: 'Elke gegenereerde puzzel bevat een gestileerde koptekst met "Ontbrekende Stukjes" in turquoise (#06B6D4) en een roze-roze beschrijving (#DB2777), omlijst door twee decoratieve kaders. Het buitenkader gebruikt groenblauw (#14B8A6) met 8px streek, 34px marges en 12px straal. Het binnenkader gebruikt felroze (#EC4899) met 3px streek, 46,5px marges, 8px straal en een lichte offset van 2px rechts en 3px naar beneden. Samen creëren ze een gepolijst, professioneel frame dat de visuele kwaliteit van puzzelwerkbladen verhoogt voor marktplaatsvermeldingen.',
     },
     {
-      question: 'Is de Ontbrekende Stukjes Maker taalgevoelig?',
+      question: 'Is de Ontbrekende Stukjes Generator taalgevoelig?',
       answer: 'Nee. Ontbrekende Stukjes is een puur visueel puzzelformaat — de werkbladuitvoer bevat uitsluitend afbeeldingen, gaten en genummerde oplossingsopties zonder taalafhankelijke inhoud. Het enige taalgevoelige element is de automatisch gegenereerde koptekst ("Ontbrekende Stukjes" en de beschrijving), die is gelokaliseerd in alle 11 ondersteunde talen. De puzzel zelf werkt identiek ongeacht taalselectie. Dit maakt ontbrekende stukjes puzzels universeel verkoopbaar over alle markten zonder vertaling — één set puzzels bedient elke internationale marktplaats.',
     },
     {
@@ -206,12 +206,12 @@ const content: ToolContent = {
 
   internalLinks: [
     { pageType: 'app', slug: 'ontbrekende-puzzelstukjes-werkbladen', anchorText: 'Watermerk verwijderen en verkopen met commerciële licentie' },
-    { pageType: 'tool', slug: 'wat-hoort-er-niet-bij-maker', anchorText: 'Zoek de Uitzondering Werkblad Maker' },
-    { pageType: 'tool', slug: 'schaduw-koppelen-maker', anchorText: 'Schaduw Matching Werkblad Maker' },
+    { pageType: 'tool', slug: 'wat-hoort-er-niet-bij-maker', anchorText: 'Zoek de Uitzondering Werkblad Generator' },
+    { pageType: 'tool', slug: 'schaduw-koppelen-maker', anchorText: 'Schaduw Matching Werkblad Generator' },
     { pageType: 'tool', slug: 'raster-puzzel-maker', anchorText: 'Rasterpuzzel Maker' },
-    { pageType: 'tool', slug: 'koppelen-werkblad-maker', anchorText: 'Koppelwerkblad Maker' },
-    { pageType: 'tool', slug: 'plaatjes-sorteren-maker', anchorText: 'Sorteer Werkblad Maker' },
-    { pageType: 'tool', slug: 'woordzoeker-maker', anchorText: 'Woordzoeker Werkblad Maker' },
+    { pageType: 'tool', slug: 'koppelen-werkblad-generator', anchorText: 'Koppelwerkblad Maker' },
+    { pageType: 'tool', slug: 'plaatjes-sorteren-maker', anchorText: 'Sorteer Werkblad Generator' },
+    { pageType: 'tool', slug: 'woordzoeker-maker', anchorText: 'Woordzoeker Werkblad Generator' },
     { pageType: 'tool', slug: 'kleurplaten-maker', anchorText: 'Kleurplaten Maker' },
   ],
 

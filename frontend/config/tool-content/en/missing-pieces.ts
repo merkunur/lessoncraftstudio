@@ -6,7 +6,7 @@ const content: ToolContent = {
     secondaryKeywords: [
       'make missing pieces puzzles free online',
       'visual puzzle generator no signup',
-      'free jigsaw piece worksheet maker',
+      'free jigsaw piece worksheet generator',
       'missing pieces worksheets free trial',
     ],
     lsiKeywords: [

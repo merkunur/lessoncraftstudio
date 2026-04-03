@@ -4,9 +4,9 @@ const content: AppContent = {
   seo: {
     primaryKeyword: 'billedsortering generator',
     secondaryKeywords: [
-      'printbar sorteringsaktivitet skaber til Etsy-sælgere',
+      'printbar sorteringsaktivitet generator til Etsy-sælgere',
       'tokategori sortering arbejdsark generator til KDP',
-      'billedklassificering arbejdsark skaber kommerciel licens',
+      'billedklassificering arbejdsark generator kommerciel licens',
       'sælg sorteringsarbejdsark på Gumroad',
     ],
     lsiKeywords: [
@@ -68,7 +68,7 @@ const content: AppContent = {
       {
         title: 'Konfigurerbart billedantal fra 4 til 12 med 2–10 per kategori',
         description:
-          'Kontroller det samlede antal sorteringsbilleder fra minimum 4 til maksimum 12 per arbejdsark, med hver kategori, der indeholder mellem 2 og 10 billeder. Tematilstanden henter automatisk 4–6 billeder per tema, hvilket skaber arbejdsark med 8–12 billeder totalt. Manuel tilstand lader dig indstille præcise antal per kategori. Færre billeder skaber enklere sorteringsopgaver, ideelle til yngre brugere; flere billeder øger sværheden og indholdstætheden. Udklipsgitteret justerer automatisk sin kolonnelayout (3–4 kolonner baseret på totalt antal) for at opretholde rent visuelt mellemrum.',
+          'Kontroller det samlede antal sorteringsbilleder fra minimum 4 til maksimum 12 per arbejdsark, med hver kategori, der indeholder mellem 2 og 10 billeder. Tematilstanden henter automatisk 4–6 billeder per tema, hvilket generator arbejdsark med 8–12 billeder totalt. Manuel tilstand lader dig indstille præcise antal per kategori. Færre billeder generator enklere sorteringsopgaver, ideelle til yngre brugere; flere billeder øger sværheden og indholdstætheden. Udklipsgitteret justerer automatisk sin kolonnelayout (3–4 kolonner baseret på totalt antal) for at opretholde rent visuelt mellemrum.',
       },
       {
         title: 'Automatisk genereret facit med 6× større billeder i kategorifelter',
@@ -127,7 +127,7 @@ const content: AppContent = {
       {
         title: 'Sæsonbetonede og højtidssorteringssamlinger',
         description:
-          'De 104 tematiske billedsamlinger dækker enhver sæson- og højtidslejlighed — jul, halloween, påske, valentinsdag, skolestart, sommerferie og flere. Opret sæsonbetonede sorteringsarbejdsark, hvor brugerne klassificerer højtidsgenstande i kategorier: julepynt mod julemad, halloweenkostumer mod halloweenslik, sommeraktiviteter mod vinteraktiviteter. Udgiv halloweensorteringspakker i september, julesamlinger i oktober og valentinsdag-pakker i januar. Sæsonprodukter motiverer højere priser under topvinduer og skaber naturlige grunde til genkøb.',
+          'De 104 tematiske billedsamlinger dækker enhver sæson- og højtidslejlighed — jul, halloween, påske, valentinsdag, skolestart, sommerferie og flere. Opret sæsonbetonede sorteringsarbejdsark, hvor brugerne klassificerer højtidsgenstande i kategorier: julepynt mod julemad, halloweenkostumer mod halloweenslik, sommeraktiviteter mod vinteraktiviteter. Udgiv halloweensorteringspakker i september, julesamlinger i oktober og valentinsdag-pakker i januar. Sæsonprodukter motiverer højere priser under topvinduer og generator naturlige grunde til genkøb.',
         platform: 'Etsy / Amazon KDP / Gumroad (sæsonbetonet)',
       },
       {
@@ -143,17 +143,17 @@ const content: AppContent = {
     {
       question: 'Hvordan fungerer tokategorisorteringsmekanikken?',
       answer:
-        'Hvert sorteringsarbejdsark har præcis to kategorier — venstre og højre. Arbejdsarket viser to stiplede kategorirammer øverst, hvor brugerne sorterer deres billeder, og et blandet udklipsgitter nedenfor med alle billeder blandet. Brugerne klipper billederne ud fra gitteret og placerer hver i den korrekte kategoriramme. Tokategoriformatet skaber en tydelig binær klassificeringsopgave, der fungerer til alle emner — dyr mod mad, land mod vand, levende mod ikke-levende og tusindvis af andre parringer.',
+        'Hvert sorteringsarbejdsark har præcis to kategorier — venstre og højre. Arbejdsarket viser to stiplede kategorirammer øverst, hvor brugerne sorterer deres billeder, og et blandet udklipsgitter nedenfor med alle billeder blandet. Brugerne klipper billederne ud fra gitteret og placerer hver i den korrekte kategoriramme. Tokategoriformatet generator en tydelig binær klassificeringsopgave, der fungerer til alle emner — dyr mod mad, land mod vand, levende mod ikke-levende og tusindvis af andre parringer.',
     },
     {
       question: 'Hvad er forskellen mellem tematilstand og manuel tilstand?',
       answer:
-        'Tematilstanden lader dig vælge ét tema til den venstre kategori og et andet tema til den højre kategori. Appen vælger automatisk 4–6 tilfældige billeder per tema fra billedbiblioteket, hvilket skaber arbejdsark med 8–12 billeder totalt. Manuel tilstand giver dig fuldstændig kontrol: du håndvælger individuelle billeder fra ethvert tema og tildeler hver til venstre eller højre kategori. Tematilstand er hurtigere til masseproduktion; manuel tilstand er ideel til at oprette specifikke, produktkatalogtilpassede sorteringsaktiviteter.',
+        'Tematilstanden lader dig vælge ét tema til den venstre kategori og et andet tema til den højre kategori. Appen vælger automatisk 4–6 tilfældige billeder per tema fra billedbiblioteket, hvilket generator arbejdsark med 8–12 billeder totalt. Manuel tilstand giver dig fuldstændig kontrol: du håndvælger individuelle billeder fra ethvert tema og tildeler hver til venstre eller højre kategori. Tematilstand er hurtigere til masseproduktion; manuel tilstand er ideel til at oprette specifikke, produktkatalogtilpassede sorteringsaktiviteter.',
     },
     {
       question: 'Hvor mange billeder kan jeg inkludere på hvert sorteringsarbejdsark?',
       answer:
-        'Hvert arbejdsark understøtter 4 til 12 samlede billeder, med hver kategori, der holder mellem 2 og 10 billeder. Tematilstanden henter automatisk 4–6 billeder per tema. Manuel tilstand lader dig indstille præcise antal per kategori. Udklipsgitteret justerer sin kolonnelayout (3–4 kolonner baseret på antal) for at opretholde rent visuelt mellemrum. Færre billeder skaber enklere sorteringsopgaver; flere billeder øger sværheden.',
+        'Hvert arbejdsark understøtter 4 til 12 samlede billeder, med hver kategori, der holder mellem 2 og 10 billeder. Tematilstanden henter automatisk 4–6 billeder per tema. Manuel tilstand lader dig indstille præcise antal per kategori. Udklipsgitteret justerer sin kolonnelayout (3–4 kolonner baseret på antal) for at opretholde rent visuelt mellemrum. Færre billeder generator enklere sorteringsopgaver; flere billeder øger sværheden.',
     },
     {
       question: 'Hvordan fungerer det blandede udklipsgitter?',

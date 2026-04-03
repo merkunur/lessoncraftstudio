@@ -28,7 +28,7 @@ const content: ToolContent = {
     title: 'Hur du Skapar Bildbingokort i 8 Steg',
     steps: [
       {
-        title: 'Öppna Bingokort Skaparen',
+        title: 'Öppna Bingokort Generatorn',
         description: 'Klicka på \"Prova gratis nu\" för att starta bildbingo kort generatorn. Verktyget laddas direkt med ett inställningssidofält till vänster och en dubbelfliks arbetsyta till höger — en flik för bingokortet med brickor, en för uppropslistan. Inget konto, ingen nedladdning, ingen installation krävs.',
       },
       {
@@ -69,7 +69,7 @@ const content: ToolContent = {
     },
     {
       title: 'Flerspråkiga vokabulärbingoprodukter',
-      description: 'Bingokort Skaparen är språkkänslig — Ordfyllning visar lokaliserade bildnamn. Skapa bingoset på alla 11 stödda språk från samma bilder. En kattbild visar \"Katt\" på svenska, \"Cat\" på engelska, \"Katze\" på tyska. Ordkort med bildbrickor skapar särskilt effektiva vokabulärrepetitionsverktyg.',
+      description: 'Bingokort Generatorn är språkkänslig — Ordfyllning visar lokaliserade bildnamn. Skapa bingoset på alla 11 stödda språk från samma bilder. En kattbild visar \"Katt\" på svenska, \"Cat\" på engelska, \"Katze\" på tyska. Ordkort med bildbrickor skapar särskilt effektiva vokabulärrepetitionsverktyg.',
     },
     {
       title: 'KDP bingoaktivitetsböcker med uppropslistor',
@@ -117,7 +117,7 @@ const content: ToolContent = {
     },
     {
       title: 'Flerspråkiga bingoprodukter för globala marknader',
-      description: 'Bingokort Skaparen är språkkänslig — Ordfyllning använder lokaliserade bildnamn. Producera bingokort på alla 11 språk från samma bilder. Flerspråkiga vokabulärbingopaket motiverar premiumpriser och når köpare som enspråkiga konkurrenter inte kan.',
+      description: 'Bingokort Generatorn är språkkänslig — Ordfyllning använder lokaliserade bildnamn. Producera bingokort på alla 11 språk från samma bilder. Flerspråkiga vokabulärbingopaket motiverar premiumpriser och når köpare som enspråkiga konkurrenter inte kan.',
       platform: 'Etsy / Gumroad',
     },
   ],
@@ -183,7 +183,7 @@ const content: ToolContent = {
       answer: 'Aktivera \"Använd anpassat urval\" för att handplocka vilka specifika bilder som visas i uppropspoolen. En levande räknare visar \"Valda för anpassade upprop: X\" medan du väljer. Ger exakt kontroll för produktkatalogsanpassade bingospel.',
     },
     {
-      question: 'Är Bingokort Skaparen språkkänslig?',
+      question: 'Är Bingokort Generatorn språkkänslig?',
       answer: 'Ja. Ordfyllning visar lokaliserade bildnamn. Att byta språk ändrar ord på kort, brickor och uppropslista. En kattbild visar \"Katt\" på svenska, \"Cat\" på engelska, \"Katze\" på tyska. Bildfyllning är inte språkkänslig.',
     },
     {
@@ -206,13 +206,13 @@ const content: ToolContent = {
 
   internalLinks: [
     { pageType: 'app', slug: 'bildlotto-arbetsblad', anchorText: 'Bildbingo Kort — Fullständiga Produktdetaljer' },
-    { pageType: 'tool', slug: 'matchnings-arbetsblad-skapare', anchorText: 'Matchnings Arbetsblad Skapare' },
-    { pageType: 'tool', slug: 'rutnaetspussel-skapare', anchorText: 'Rutmatchning Skapare' },
-    { pageType: 'tool', slug: 'skuggmatchning-skapare', anchorText: 'Skuggmatchning Skapare' },
-    { pageType: 'tool', slug: 'sortera-bilder-skapare', anchorText: 'Sortera Bilder Skapare' },
-    { pageType: 'tool', slug: 'ordsoek-skapare', anchorText: 'Ordsök Skapare' },
-    { pageType: 'tool', slug: 'hitta-udda-skapare', anchorText: 'Hitta Udda Bilden Skapare' },
-    { pageType: 'tool', slug: 'maelarsidor-skapare', anchorText: 'Målarbilder Skapare' },
+    { pageType: 'tool', slug: 'matchnings-arbetsblad-skapare', anchorText: 'Matchnings Arbetsblad Generator' },
+    { pageType: 'tool', slug: 'rutnaetspussel-skapare', anchorText: 'Rutmatchning Generator' },
+    { pageType: 'tool', slug: 'skuggmatchning-skapare', anchorText: 'Skuggmatchning Generator' },
+    { pageType: 'tool', slug: 'sortera-bilder-skapare', anchorText: 'Sortera Bilder Generator' },
+    { pageType: 'tool', slug: 'ordsoek-skapare', anchorText: 'Ordsök Generator' },
+    { pageType: 'tool', slug: 'hitta-udda-skapare', anchorText: 'Hitta Udda Bilden Generator' },
+    { pageType: 'tool', slug: 'maelarsidor-skapare', anchorText: 'Målarbilder Generator' },
   ],
 
   visuals: {

@@ -4,7 +4,7 @@ const content: AppContent = {
   seo: {
     primaryKeyword: 'alfabettog arbejdsark generator',
     secondaryKeywords: [
-      'printbar alfabettog skaber til Etsy-sælgere',
+      'printbar alfabettog generator til Etsy-sælgere',
       'bogstavgenkendelse arbejdsark generator til KDP-udgivere',
       'alfabet arbejdsark sælg på Gumroad',
       'alfabettog printables kommerciel licens',
@@ -63,7 +63,7 @@ const content: AppContent = {
       {
         title: 'Togvogns-arbejdsarkformat med bogstav-billedkobling',
         description:
-          'Hvert arbejdsark indeholder 11 farverige togvogne, der ruller hen over siden. Hver vogn indeholder et bogstav og en matchende illustration, hvis navn begynder med det pågældende bogstav — A med et æble, B med en bil, K med en kat. Denne visuelle kobling forstærker bogstav-lyd-associationen gennem et legende transporttema, der fanger opmærksomheden langt mere effektivt end almindelige bogstavsøvelsesark. Togformatet skaber en naturlig læseretning fra venstre mod højre, som stemmer overens med, hvordan børn lærer at læse.',
+          'Hvert arbejdsark indeholder 11 farverige togvogne, der ruller hen over siden. Hver vogn indeholder et bogstav og en matchende illustration, hvis navn begynder med det pågældende bogstav — A med et æble, B med en bil, K med en kat. Denne visuelle kobling forstærker bogstav-lyd-associationen gennem et legende transporttema, der fanger opmærksomheden langt mere effektivt end almindelige bogstavsøvelsesark. Togformatet generator en naturlig læseretning fra venstre mod højre, som stemmer overens med, hvordan børn lærer at læse.',
       },
       {
         title: 'To oprettelsestilstande: Automatisk og Manuelt bogstavsvalg',
@@ -78,7 +78,7 @@ const content: AppContent = {
       {
         title: 'Justerbart ledetrådssystem for tilpasselig sværhedsgrad',
         description:
-          'Indstil fra 3 til 11 ledetråde per arbejdsark. Ledetråde er billedledetråde, der vises separat fra toget — brugerne skal identificere, hvilken bogstavsvogn hvert ledetrådbillede hører til. Færre ledetråde skaber en enklere koblingsaktivitet egnet til børnehavebørn, mens fulde 11 ledetråde udfordrer brugere i børnehaveklasse og 1. klasse til at koble hver vogn. Denne indbyggede sværhedsregulering gør det nemt at oprette niveauinddelte produktlinjer eller printbare produkter i niveauer fra den samme app.',
+          'Indstil fra 3 til 11 ledetråde per arbejdsark. Ledetråde er billedledetråde, der vises separat fra toget — brugerne skal identificere, hvilken bogstavsvogn hvert ledetrådbillede hører til. Færre ledetråde generator en enklere koblingsaktivitet egnet til børnehavebørn, mens fulde 11 ledetråde udfordrer brugere i børnehaveklasse og 1. klasse til at koble hver vogn. Denne indbyggede sværhedsregulering gør det nemt at oprette niveauinddelte produktlinjer eller printbare produkter i niveauer fra den samme app.',
       },
       {
         title: '104 visuelle temaer med mere end 3.100 billeder til bogstavskobling',

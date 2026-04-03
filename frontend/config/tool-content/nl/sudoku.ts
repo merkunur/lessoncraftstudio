@@ -28,7 +28,7 @@ const content: ToolContent = {
     title: 'Zo maakt u plaatjes sudoku werkbladen in 8 stappen',
     steps: [
       {
-        title: 'Open de Plaatjes Sudoku Maker',
+        title: 'Open de Plaatjes Sudoku Generator',
         description: 'Klik op "Gratis proefversie" om de plaatjes sudoku generator te starten in je browser. De tool laadt direct met een instellingenzijbalk links en een dubbel-tabblad canvas rechts — één tabblad voor het werkblad, één voor het antwoordblad. Geen account aanmaken, geen software downloaden, geen installatie nodig — begin onmiddellijk met het maken van plaatjes sudoku puzzels.',
       },
       {
@@ -187,7 +187,7 @@ const content: ToolContent = {
       answer: 'Ja. De app schudt afbeeldingen willekeurig voordat het 4×4 raster wordt gevuld, en selecteert vervolgens willekeurig welke cellen leeg worden op basis van het moeilijkheidsniveau. Zelfs met dezelfde 4 afbeeldingen en dezelfde moeilijkheidsinstelling produceert opnieuw genereren een andere geldige sudoku-rangschikking met andere lege celposities. Deze randomisatie laat je grote collecties unieke puzzels maken vanuit een kleine set thematische afbeeldingen.',
     },
     {
-      question: 'Is de Plaatjes Sudoku Maker taalgevoelig?',
+      question: 'Is de Plaatjes Sudoku Generator taalgevoelig?',
       answer: 'Nee. Plaatjes sudoku is volledig visueel — het puzzelraster bevat uitsluitend afbeeldingen, geen woorden, letters of cijfers. Dit maakt elk werkblad identiek functioneel in alle 11 ondersteunde talen. Het enige gelokaliseerde element is de automatisch gegenereerde "Plaatjes Sudoku" koptekst boven het raster met zijn paarse achtergrond (#5E35B1), die automatisch vertaalt wanneer je van taal wisselt. De puzzel zelf vereist nul aanpassing voor verschillende markten, waardoor het ideaal is voor wereldwijde verkoop over alle internationale marktplaatsen.',
     },
     {
@@ -210,8 +210,8 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'wat-hoort-er-niet-bij-maker', anchorText: 'Welke Hoort Er Niet Bij Maker' },
     { pageType: 'tool', slug: 'plaatjespad-maker', anchorText: 'Plaatjespad Doolhof Maker' },
     { pageType: 'tool', slug: 'raster-puzzel-maker', anchorText: 'Rasterpuzzel Maker' },
-    { pageType: 'tool', slug: 'koppelen-werkblad-maker', anchorText: 'Koppelwerkblad Maker' },
-    { pageType: 'tool', slug: 'woordzoeker-maker', anchorText: 'Woordzoeker Werkblad Maker' },
+    { pageType: 'tool', slug: 'koppelen-werkblad-generator', anchorText: 'Koppelwerkblad Maker' },
+    { pageType: 'tool', slug: 'woordzoeker-maker', anchorText: 'Woordzoeker Werkblad Generator' },
     { pageType: 'tool', slug: 'kleurplaten-maker', anchorText: 'Kleurplaten Maker' },
   ],
 

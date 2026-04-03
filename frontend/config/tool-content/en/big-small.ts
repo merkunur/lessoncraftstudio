@@ -1,11 +1,11 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'free size comparison worksheet maker',
+    primaryKeyword: 'free size comparison worksheet generator',
     secondaryKeywords: [
       'make size comparison worksheets free online',
       'big and small generator no signup',
-      'free visual discrimination worksheet maker',
+      'free visual discrimination worksheet generator',
       'size comparison worksheets free trial',
     ],
     lsiKeywords: [
@@ -13,7 +13,7 @@ const content: ToolContent = {  seo: {
       'instant big small maker',
       'try before you buy size tools',
     ],
-    titleTag: 'Free Size Comparison Worksheet Maker | LCS',
+    titleTag: 'Free Size Comparison Worksheet Generator | LCS',
     metaDescription: 'Make size comparison worksheets free online with watermark — no signup. 5 question types, themed images, answer keys. Upgrade to sell.',
     },
 
@@ -27,7 +27,7 @@ const content: ToolContent = {  seo: {
     title: 'How to Make Size Comparison Worksheets Free in 8 Steps',
     steps: [
       {
-        title: 'Open the Big & Small Worksheet Maker',
+        title: 'Open the Big & Small Worksheet Generator',
         description: 'Click \"Try Free Now\" to launch the generator in your browser. The tool loads instantly with a settings sidebar on the left and a live preview canvas on the right. No account creation, no software download, no installation required — start building size comparison worksheets immediately.',
       },
       {

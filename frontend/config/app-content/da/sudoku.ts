@@ -4,9 +4,9 @@ const content: AppContent = {
   seo: {
     primaryKeyword: 'billedsudoku generator',
     secondaryKeywords: [
-      'printbar billedsudoku skaber til Etsy-sælgere',
+      'printbar billedsudoku generator til Etsy-sælgere',
       'billedsudoku puslespil generator til KDP-udgivere',
-      'billedsudoku arbejdsark skaber kommerciel licens',
+      'billedsudoku arbejdsark generator kommerciel licens',
       'sælg sudoku puslespilsarbejdsark på Gumroad',
     ],
     lsiKeywords: [
@@ -88,7 +88,7 @@ const content: AppContent = {
       {
         title: 'Billedbibliotek med 104 tematiske samlinger og mere end 3.100 illustrationer',
         description:
-          'Gennemse 104 tematiske billedsamlinger, der dækker dyr, mad, køretøjer, natur, erhverv, højtider, sport, årstider og snesevis flere. Hvert tema giver et koordineret sæt farverige illustrationer, der skaber visuelt sammenhængende sudokupuslespil. Filtrer efter tema med dropdownen eller søg efter specifikke billeder med nøgleord. Klik på ethvert billede for at tilføje det til dit puslespil. Kommerciel Pakke inkluderer 10 farverige temaer til at komme i gang; Fuld Adgang låser op for alle 104 temaer for maksimal kreativ variation over alle dine sudokuprodukter.',
+          'Gennemse 104 tematiske billedsamlinger, der dækker dyr, mad, køretøjer, natur, erhverv, højtider, sport, årstider og snesevis flere. Hvert tema giver et koordineret sæt farverige illustrationer, der generator visuelt sammenhængende sudokupuslespil. Filtrer efter tema med dropdownen eller søg efter specifikke billeder med nøgleord. Klik på ethvert billede for at tilføje det til dit puslespil. Kommerciel Pakke inkluderer 10 farverige temaer til at komme i gang; Fuld Adgang låser op for alle 104 temaer for maksimal kreativ variation over alle dine sudokuprodukter.',
       },
       {
         title: 'Trykfærdig PDF- og JPEG-eksport med 300 DPI og gråtoneomskifter',
@@ -127,7 +127,7 @@ const content: AppContent = {
       {
         title: 'Sæsonbetonede og højtidssudoku puslespilssamlinger',
         description:
-          'De 104 tematiske billedsamlinger dækker enhver sæson- og højtidslejlighed — jul, halloween, påske, valentinsdag, skolestart, sommerferie og flere. Opret tidsbegrænsede sudoku puslespilssamlinger, der falder sammen med topindkøbsperioder. Udgiv halloween-sudokupakker i september, julesamlinger i oktober og valentinsdag-pakker i januar. Inkluder alle tre sværhedsgrader i hvert sæsonsæt for maksimal værdi. Sæsonprodukter motiverer højere priser under deres topvinduer og skaber naturlige grunde til genkøb hele året.',
+          'De 104 tematiske billedsamlinger dækker enhver sæson- og højtidslejlighed — jul, halloween, påske, valentinsdag, skolestart, sommerferie og flere. Opret tidsbegrænsede sudoku puslespilssamlinger, der falder sammen med topindkøbsperioder. Udgiv halloween-sudokupakker i september, julesamlinger i oktober og valentinsdag-pakker i januar. Inkluder alle tre sværhedsgrader i hvert sæsonsæt for maksimal værdi. Sæsonprodukter motiverer højere priser under deres topvinduer og generator naturlige grunde til genkøb hele året.',
         platform: 'Etsy / Amazon KDP / Gumroad (sæsonbetonet)',
       },
       {
@@ -153,7 +153,7 @@ const content: AppContent = {
     {
       question: 'Hvad kontrollerer de tre sværhedsgrader?',
       answer:
-        'Sværhed bestemmer, hvor mange celler der efterlades tomme til brugeren at løse. Let fjerner 4 celler fra 16-cellers gitteret og efterlader 12 ledetråde for enkel løsning. Middel fjerner 6 celler, hvilket kræver mere omhyggelig logisk deduktion. Svær fjerner 8 celler — præcis halvdelen af gitteret — og kræver flertrins ræsonnement. Systemet vælger tilfældigt, hvilke celler der bliver tomme, så at regenerere den samme sværhed skaber et anderledes puslespilslayout hver gang.',
+        'Sværhed bestemmer, hvor mange celler der efterlades tomme til brugeren at løse. Let fjerner 4 celler fra 16-cellers gitteret og efterlader 12 ledetråde for enkel løsning. Middel fjerner 6 celler, hvilket kræver mere omhyggelig logisk deduktion. Svær fjerner 8 celler — præcis halvdelen af gitteret — og kræver flertrins ræsonnement. Systemet vælger tilfældigt, hvilke celler der bliver tomme, så at regenerere den samme sværhed generator et anderledes puslespilslayout hver gang.',
     },
     {
       question: 'Hvorfor kræver generatoren præcis 4 billeder?',

@@ -78,7 +78,7 @@ const content: AppContent = {
       {
         title: 'Konfigurerbare talintervaller og symbolantal',
         description:
-          'Indstil minimum- og maksimumværdier for additionsleddene fra 1 til 20 for at styre opgavernes sværhedsgrad. Vælg mellem to og fem unikke billedsymboler per arbejdsark for at tilpasse deduktionens kompleksitet — to symboler skaber et tilgængeligt puslespil for yngre brugere, mens fem symboler kræver, at brugerne holder styr på flere ukendte gennem mange ligninger. Kombinationen af talinterval og symbolantal giver dig præcis kontrol over sværhedsgraden, så du kan oprette progressive arbejdsarkssæt fra let til avanceret på få minutter.',
+          'Indstil minimum- og maksimumværdier for additionsleddene fra 1 til 20 for at styre opgavernes sværhedsgrad. Vælg mellem to og fem unikke billedsymboler per arbejdsark for at tilpasse deduktionens kompleksitet — to symboler generator et tilgængeligt puslespil for yngre brugere, mens fem symboler kræver, at brugerne holder styr på flere ukendte gennem mange ligninger. Kombinationen af talinterval og symbolantal giver dig præcis kontrol over sværhedsgraden, så du kan oprette progressive arbejdsarkssæt fra let til avanceret på få minutter.',
       },
       {
         title: '104 visuelle temaer med mere end 3.100 billeder',
@@ -127,7 +127,7 @@ const content: AppContent = {
       {
         title: 'Flersprogede puslespilspakker til din egen webshop',
         description:
-          'Udnyt den flersprogede Afslør Ord funktion til at oprette kodeadditionspakker på forskellige sprog og sælg dem via Gumroad, Shopify eller Payhip. En dansk pakke bruger det korrekte danske alfabet med æ, ø, å; en tysk pakke indeholder Umlauterne. Dette er en markedsmulighed — praktisk talt ingen konkurrerende generator tilbyder kodeknækningspuslespil tilpasset hvert sprog. Henvend dig til tosprogede familier, hjemmeundervisningsfællesskaber og internationale skoler med sprogspecifikke pakker, som ingen konkurrent nemt kan kopiere.',
+          'Udnyt den flersprogede Afslør Ord funktion til at oprette kodeadditionspakker på forskellige sprog og sælg dem via Gumroad, Shopify eller Payhip. En dansk pakke bruger det korrekte danske alfabet med æ, ø, å; en tysk pakke indeholder Umlauterne. Dette er en markedsmulighed — praktisk talt ingen konkurrerende generator tilbyder kodeknækningspuslespil tilpasset hvert sprog. Henvend dig til tosprogede familier, hjemmeundervisningsfællesgenerator og internationale skoler med sprogspecifikke pakker, som ingen konkurrent nemt kan kopiere.',
         platform: 'Gumroad / Shopify / Payhip',
       },
       {
@@ -163,7 +163,7 @@ const content: AppContent = {
     {
       question: 'Hvor mange symboler kan jeg bruge per arbejdsark?',
       answer:
-        'Du kan vælge mellem to og fem unikke billedsymboler per arbejdsark. Færre symboler skaber enklere puslespil, som yngre brugere kan løse; flere symboler skaber komplekse udfordringer, hvor flere ukendte skal spores gennem mange ligninger. At justere antallet af symboler er den nemmeste måde at skalere sværhedsgraden uden at ændre talintervallet.',
+        'Du kan vælge mellem to og fem unikke billedsymboler per arbejdsark. Færre symboler generator enklere puslespil, som yngre brugere kan løse; flere symboler generator komplekse udfordringer, hvor flere ukendte skal spores gennem mange ligninger. At justere antallet af symboler er den nemmeste måde at skalere sværhedsgraden uden at ændre talintervallet.',
     },
     {
       question: 'Er Kodeaddition sprogfølsom?',

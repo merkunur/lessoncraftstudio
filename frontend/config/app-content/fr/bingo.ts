@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'créateur de cartes de loto à vendre sur Etsy',
+    primaryKeyword: 'générateur de cartes de loto à vendre sur Etsy',
     secondaryKeywords: [
       'générateur de cartes bingo pour vendeurs Etsy',
       'cartes de loto imprimables pour Amazon KDP',

@@ -7,7 +7,7 @@ const content: ToolContent = {
       'Schreibübungen-Arbeitsblätter kostenlos erstellen',
       'Handschrift-Generator online ohne Anmeldung',
       'kostenlose Buchstaben-Nachspur-Arbeitsblätter erstellen',
-      'Schreibübungen-Ersteller mit Strichrichtungspfeilen kostenlos',
+      'Schreibübungen-Generator mit Strichrichtungspfeilen kostenlos',
     ],
     lsiKeywords: [
       'pfeilgeführte Buchstabenbildung Druckvorlagen',
@@ -28,7 +28,7 @@ const content: ToolContent = {
     title: 'Schreibübungen-Arbeitsblätter erstellen in 8 einfachen Schritten',
     steps: [
       {
-        title: 'Den Schreibübungen-Arbeitsblatt-Ersteller öffnen',
+        title: 'Den Schreibübungen-Arbeitsblatt-Generator öffnen',
         description: 'Klicken Sie auf \"Kostenlos testen\", um den Generator in Ihrem Browser zu starten. Das Tool öffnet sich sofort mit einer Einstellungsleiste links und einer Live-Vorschau rechts. Kein Benutzerkonto, kein Software-Download und keine Installation erforderlich — beginnen Sie sofort mit der Erstellung von Handschrift-Übungsblättern.',
       },
       {
@@ -202,13 +202,13 @@ const content: ToolContent = {
 
   internalLinks: [
     { pageType: 'app', slug: 'schreibuebungen-arbeitsblaetter', anchorText: 'Schreibübungen-Arbeitsblätter — Vollständige Produktdetails' },
-    { pageType: 'tool', slug: 'alphabet-zug-ersteller', anchorText: 'Alphabet-Zug-Ersteller' },
-    { pageType: 'tool', slug: 'woerter-raten-ersteller', anchorText: 'Wörter-Raten-Ersteller' },
-    { pageType: 'tool', slug: 'buchstabensalat-ersteller', anchorText: 'Buchstabensalat-Ersteller' },
-    { pageType: 'tool', slug: 'wortsuche-ersteller', anchorText: 'Wortsuche-Ersteller' },
-    { pageType: 'tool', slug: 'kryptogramm-ersteller', anchorText: 'Kryptogramm-Ersteller' },
-    { pageType: 'tool', slug: 'linien-ziehen-ersteller', anchorText: 'Linien-Ziehen-Ersteller' },
-    { pageType: 'tool', slug: 'praepositionen-arbeitsblatt-ersteller', anchorText: 'Präpositionen-Arbeitsblatt-Ersteller' },
+    { pageType: 'tool', slug: 'alphabet-zug-ersteller', anchorText: 'Alphabet-Zug-Generator' },
+    { pageType: 'tool', slug: 'woerter-raten-ersteller', anchorText: 'Wörter-Raten-Generator' },
+    { pageType: 'tool', slug: 'buchstabensalat-ersteller', anchorText: 'Buchstabensalat-Generator' },
+    { pageType: 'tool', slug: 'wortsuche-ersteller', anchorText: 'Wortsuche-Generator' },
+    { pageType: 'tool', slug: 'kryptogramm-ersteller', anchorText: 'Kryptogramm-Generator' },
+    { pageType: 'tool', slug: 'linien-ziehen-ersteller', anchorText: 'Linien-Ziehen-Generator' },
+    { pageType: 'tool', slug: 'praepositionen-Arbeitsblatt-Generator', anchorText: 'Präpositionen-Arbeitsblatt-Generator' },
   ],
 
   visuals: {

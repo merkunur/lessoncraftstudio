@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'free odd one out worksheet maker',
+    primaryKeyword: 'free odd one out worksheet generator',
     secondaryKeywords: [
       'make odd one out worksheets free online',
       'find the different generator no signup',
@@ -14,7 +14,7 @@ const content: ToolContent = {
       'instant find the different maker',
       'try before you buy puzzle tools',
     ],
-    titleTag: 'Free Odd One Out Worksheet Maker | LCS',
+    titleTag: 'Free Odd One Out Worksheet Generator | LCS',
     metaDescription: 'Make odd one out sheets free online with watermark — no signup. Two puzzle modes, auto answer keys with red circles, 104 themes. Upgrade for commercial ...',
   },
 
@@ -206,7 +206,7 @@ const content: ToolContent = {
 
   internalLinks: [
     { pageType: 'app', slug: 'odd-one-out-worksheets', anchorText: 'Remove watermark and sell commercially' },
-    { pageType: 'tool', slug: 'hidden-object-maker', anchorText: 'Free I Spy worksheet maker' },
+    { pageType: 'tool', slug: 'hidden-object-maker', anchorText: 'Free I Spy worksheet generator' },
     { pageType: 'guide', slug: 'create-odd-one-out-puzzles', anchorText: 'How to create odd one out puzzles to sell' },
   ],
 

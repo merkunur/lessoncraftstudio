@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'free handwriting worksheet maker',
+    primaryKeyword: 'free handwriting worksheet generator',
     secondaryKeywords: [
       'make handwriting worksheets free online',
       'letter tracing generator no signup',
@@ -14,7 +14,7 @@ const content: ToolContent = {
       'instant handwriting maker',
       'try before you buy writing tools',
     ],
-    titleTag: 'Free Handwriting Worksheet Maker Online | LCS',
+    titleTag: 'Free Handwriting Worksheet Generator Online | LCS',
     metaDescription: 'Make handwriting worksheets free online with watermark — no signup. 3 practice modes, 5 font styles, stroke guides. Upgrade for commercial license to sell.',
   },
 
@@ -28,7 +28,7 @@ const content: ToolContent = {
     title: 'How to Make Handwriting Worksheets Free in 8 Steps',
     steps: [
       {
-        title: 'Open the Handwriting Worksheet Maker',
+        title: 'Open the Handwriting Worksheet Generator',
         description: 'Click \"Try Free Now\" to launch the generator in your browser. The tool loads instantly with a settings sidebar on the left and a live preview canvas on the right. No account creation, no software download, no installation required — start building handwriting practice worksheets immediately.',
       },
       {
@@ -202,7 +202,7 @@ const content: ToolContent = {
 
   internalLinks: [
     { pageType: 'app', slug: 'writing-worksheets', anchorText: 'Remove watermark and sell commercially' },
-    { pageType: 'tool', slug: 'alphabet-train-maker', anchorText: 'Free alphabet worksheet maker' },
+    { pageType: 'tool', slug: 'alphabet-train-maker', anchorText: 'Free alphabet worksheet generator' },
     { pageType: 'guide', slug: 'create-handwriting-sheets', anchorText: 'How to create handwriting sheets to sell' },
   ],
 

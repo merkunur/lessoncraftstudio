@@ -27,7 +27,7 @@ const content: ToolContent = {  seo: {
     title: 'Zo maakt u geheime code werkbladen in 8 eenvoudige stappen',
     steps: [
       {
-        title: 'Open de werkblad maker',
+        title: 'Open de werkblad generator',
         description: 'Klik op "Gratis proefversie" om de geheime code optellen generator te starten in je browser. De donkere zijbalk links bevat alle instellingen; het heldere canvas rechts toont je live voorbeeldweergave. Geen account, geen download, geen plug-ins nodig.',
       },
       {
@@ -197,13 +197,13 @@ const content: ToolContent = {  seo: {
 
   internalLinks: [
     { pageType: 'app', slug: 'visuele-optelsommen-werkbladen', anchorText: 'Watermerk verwijderen en verkopen met commerciële licentie' },
-    { pageType: 'tool', slug: 'optellen-werkblad-maker', anchorText: 'Optellen Werkblad Maker' },
-    { pageType: 'tool', slug: 'aftrekken-werkblad-maker', anchorText: 'Aftrekken Werkblad Maker' },
+    { pageType: 'tool', slug: 'optellen-werkblad-generator', anchorText: 'Optellen Werkblad Generator' },
+    { pageType: 'tool', slug: 'aftrekken-werkblad-generator', anchorText: 'Aftrekken Werkblad Generator' },
     { pageType: 'tool', slug: 'rekenpuzzel-maker', anchorText: 'Rekenpuzzel Maker' },
-    { pageType: 'tool', slug: 'reken-werkblad-maker', anchorText: 'Reken Werkblad Maker' },
+    { pageType: 'tool', slug: 'reken-werkblad-generator', anchorText: 'Reken Werkblad Generator' },
     { pageType: 'tool', slug: 'cryptogram-maker', anchorText: 'Cryptogram Maker' },
     { pageType: 'tool', slug: 'woordzoeker-maker', anchorText: 'Woordzoeker Maker' },
-    { pageType: 'tool', slug: 'koppelen-werkblad-maker', anchorText: 'Koppelen Werkblad Maker' },
+    { pageType: 'tool', slug: 'koppelen-werkblad-generator', anchorText: 'Koppelen Werkblad Generator' },
   ],
 
   visuals: {

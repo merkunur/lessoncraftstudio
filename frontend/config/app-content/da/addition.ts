@@ -93,7 +93,7 @@ const content: AppContent = {
       {
         title: 'Dekorative rammer og baggrundstemaer',
         description:
-          'Forvandl dine arbejdsark fra enkle til professionelle med dekorative rammer og baggrundsbilleder fra det samme bibliotek med 104 temaer. Juster gennemsigtigheden for ramme og baggrund uafhængigt af hinanden, så visuelle elementer beriger designet uden at distrahere fra det matematiske indhold. At kombinere en sæsonramme med en farverig baggrund skaber temapakker, der opnår højere priser på Etsy.dk. Forestil dig arbejdsark med en blomsterramme og pastelbaggrund til foråret, eller en snefnugramme og lyseblå baggrund til vinteren — så skaber du sæsonkollektioner, som købere aktivt søger efter.',
+          'Forvandl dine arbejdsark fra enkle til professionelle med dekorative rammer og baggrundsbilleder fra det samme bibliotek med 104 temaer. Juster gennemsigtigheden for ramme og baggrund uafhængigt af hinanden, så visuelle elementer beriger designet uden at distrahere fra det matematiske indhold. At kombinere en sæsonramme med en farverig baggrund generator temapakker, der opnår højere priser på Etsy.dk. Forestil dig arbejdsark med en blomsterramme og pastelbaggrund til foråret, eller en snefnugramme og lyseblå baggrund til vinteren — så generator du sæsonkollektioner, som købere aktivt søger efter.',
       },
       {
         title: 'Fuld lærredsredigering med fortryd og gentag',
@@ -133,7 +133,7 @@ const content: AppContent = {
       {
         title: 'Øvelsesarbejdsark online og privatundervisning',
         description:
-          'Generer tilpassede additions arbejdsark skræddersyet til hver brugers aktuelle niveau. Print Billede + Billede arbejdsark til begyndere og Find Leddet arbejdsark til avancerede brugere — alt i samme session. Den automatiske facitliste sparer oplevet værdi. Uanset om du driver et lektiehjælpscenter, underviser i børnehaveklassen eller hjemmeunderviser — generatoren erstatter timers manuelt arbejde med et par klik. Privatundervisere kan desuden tilpasse arbejdsarkene med navne og specielle temaer, der matcher deres interesser, hvilket skaber en personlig oplevelse, der øger engagementet.',
+          'Generer tilpassede additions arbejdsark skræddersyet til hver brugers aktuelle niveau. Print Billede + Billede arbejdsark til begyndere og Find Leddet arbejdsark til avancerede brugere — alt i samme session. Den automatiske facitliste sparer oplevet værdi. Uanset om du driver et lektiehjælpscenter, underviser i børnehaveklassen eller hjemmeunderviser — generatoren erstatter timers manuelt arbejde med et par klik. Privatundervisere kan desuden tilpasse arbejdsarkene med navne og specielle temaer, der matcher deres interesser, hvilket generator en personlig oplevelse, der øger engagementet.',
         platform: 'Online / Privatundervisning / Hjemmeundervisning',
       },
     ],

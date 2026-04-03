@@ -163,22 +163,22 @@ const content: GuideContent = {
   toolsRecommended: [
     {
       appId: 'addition',
-      title: 'Optellen Werkblad Maker',
+      title: 'Optellen Werkblad Generator',
       description: 'Maakt professionele rekenwerkbladen die tot de populairste producten behoren voor bundels. Rekenbundels scoren consequent als bestverkopende bundeltypen op alle platforms.',
     },
     {
       appId: 'wordsearch',
-      title: 'Woordzoeker Werkblad Maker',
+      title: 'Woordzoeker Werkblad Generator',
       description: 'Produceert thematische woordzoekpuzzels die werken in vakbundels, themabundels en formaatbundels. Een veelzijdig producttype dat variatie toevoegt aan elke bundelconfiguratie.',
     },
     {
       appId: 'coloring',
-      title: 'Kleurplaat Maker',
+      title: 'Kleurplaat Generator',
       description: 'Maakt visueel aansprekende kleurplaten die van nature passen bij andere activiteitentypen in themabundels. Zeer gewilde producten die bundelpreviewafbeeldingen visueel overtuigender maken.',
     },
     {
       appId: 'matching',
-      title: 'Koppelwerkblad Maker',
+      title: 'Koppelwerkblad Generator',
       description: 'Genereert koppelactiviteiten die andere werkbladtypen aanvullen in formaat- en themabundels. Voegt de variatie toe die bundels boeiend houdt voor gebruikers over meerdere sessies.',
     },
   ],

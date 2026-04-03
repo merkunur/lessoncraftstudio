@@ -11,7 +11,7 @@ const content: GuideContent = {
     ],
     lsiKeywords: [
       'pixelnivå silhuettgenerering för arbetsblad',
-      'visuell perception matchningsaktivitet skapare',
+      'visuell perception matchningsaktivitet generator',
       'skuggmatchning arbetsblad med automatiskt facit',
       'sälja skuggpussel på Etsy',
       'Amazon KDP visuell perception arbetsböcker',
@@ -24,15 +24,15 @@ const content: GuideContent = {
   hero: {
     title: 'Hur du skapar skuggmatchningsarbetsblad',
     tagline: 'En steg-för-steg-guide för att skapa dubbelläges skuggmatchningsarbetsblad med pixelnivå silhuettgenerering, Gör det helt delad-bild-halvor, Fisher-Yates-derangering, växlingsbara etiketter, autogenererade facit och helt visuell output du kan sälja världen över',
-    description: 'Skuggmatchning är en grundläggande visuell perceptionsfärdighet som barn utvecklar före läsning och matematik. Föräldrar behöver dem för visuell diskriminering hemma. säljare behöver dem för perceptionscentra. Arbetsterapeuter använder dem för visuella bearbetningsutvärderingar. Denna guide leder dig genom hela skapandeprocessen med Skuggmatchning-skaparen — från att välja mellan Skuggmatchning och Gör det helt-lägen till att konfigurera etiketter, generera pixelnivå-silhuetter och exportera produktionsklara filer med automatiska facit.',
+    description: 'Skuggmatchning är en grundläggande visuell perceptionsfärdighet som barn utvecklar före läsning och matematik. Föräldrar behöver dem för visuell diskriminering hemma. säljare behöver dem för perceptionscentra. Arbetsterapeuter använder dem för visuella bearbetningsutvärderingar. Denna guide leder dig genom hela skapandeprocessen med Skuggmatchning-generatorn — från att välja mellan Skuggmatchning och Gör det helt-lägen till att konfigurera etiketter, generera pixelnivå-silhuetter och exportera produktionsklara filer med automatiska facit.',
   },
 
-  introduction: 'Visuell perception är en av de grundläggande kognitiva färdigheterna i tidig barndomsutveckling. Innan barn kan läsa, lösa ekvationer eller navigera fysiska utrymmen utvecklar de förmågan att känna igen former, urskilja konturer och mentalt rekonstruera ofullständiga bilder. Skuggmatchning och delad-bild-aktiviteter tränar dessa färdigheter direkt.\n\nVad som gör skuggmatchningsarbetsblad särskilt effektiva som produkt är det helt visuella formatet. Inga ord att översätta, inget språkhinder. Ett enda arbetsblad säljer identiskt i alla länder.\n\nSkuggmatchning-skaparen erbjuder två distinkta övningslägen. Skuggmatchningsläge autogenererar pixelnivå svarta silhuetter — varje pixel med alpha över 10 konverteras till rent svart, vilket producerar noggranna konturer. Gör det helt-läge delar bilder i halvor längs horisontella eller vertikala snittlinjer. Båda lägena använder en Fisher-Yates-derangeringsalgoritm som garanterar att inget objekt visas i sin ursprungsposition.\n\nVäxlingsbara etiketter skapar två svårighetsnivåer. Med etiketter på visas A, B, C, D och 1, 2, 3, 4 identifierare. Med etiketter av blir det en ren visuell matchningsutmaning.\n\nVarje funktion som nämns i denna guide är tillgänglig i den gratis provversionen med vattenstämpel.',
+  introduction: 'Visuell perception är en av de grundläggande kognitiva färdigheterna i tidig barndomsutveckling. Innan barn kan läsa, lösa ekvationer eller navigera fysiska utrymmen utvecklar de förmågan att känna igen former, urskilja konturer och mentalt rekonstruera ofullständiga bilder. Skuggmatchning och delad-bild-aktiviteter tränar dessa färdigheter direkt.\n\nVad som gör skuggmatchningsarbetsblad särskilt effektiva som produkt är det helt visuella formatet. Inga ord att översätta, inget språkhinder. Ett enda arbetsblad säljer identiskt i alla länder.\n\nSkuggmatchning-generatorn erbjuder två distinkta övningslägen. Skuggmatchningsläge autogenererar pixelnivå svarta silhuetter — varje pixel med alpha över 10 konverteras till rent svart, vilket producerar noggranna konturer. Gör det helt-läge delar bilder i halvor längs horisontella eller vertikala snittlinjer. Båda lägena använder en Fisher-Yates-derangeringsalgoritm som garanterar att inget objekt visas i sin ursprungsposition.\n\nVäxlingsbara etiketter skapar två svårighetsnivåer. Med etiketter på visas A, B, C, D och 1, 2, 3, 4 identifierare. Med etiketter av blir det en ren visuell matchningsutmaning.\n\nVarje funktion som nämns i denna guide är tillgänglig i den gratis provversionen med vattenstämpel.',
 
   tutorial: [
     {
-      heading: 'Öppna Skuggmatchning-skaparen',
-      content: 'Navigera till Skuggmatchning-skaparen och klicka starta. Verktyget laddas med en inställningssidopanel till vänster och en dubbelfliks-arbetsyta till höger — arbetsblad och facit genereras simultant.\n\nUtforska sidopanelerna. Övningskonfiguration kontrollerar lägesval (Skuggmatchning eller Gör det helt), etikettsynlighet och snittlinje. Bildbiblioteket ger tillgång till temasamlingar. Sidinställningar hanterar layout och dekoration.',
+      heading: 'Öppna Skuggmatchning-generatorn',
+      content: 'Navigera till Skuggmatchning-generatorn och klicka starta. Verktyget laddas med en inställningssidopanel till vänster och en dubbelfliks-arbetsyta till höger — arbetsblad och facit genereras simultant.\n\nUtforska sidopanelerna. Övningskonfiguration kontrollerar lägesval (Skuggmatchning eller Gör det helt), etikettsynlighet och snittlinje. Bildbiblioteket ger tillgång till temasamlingar. Sidinställningar hanterar layout och dekoration.',
     },
     {
       heading: 'Välj ditt övningsläge',
@@ -90,7 +90,7 @@ const content: GuideContent = {
     },
     {
       heading: 'Global försäljningsstrategi för helt visuella produkter',
-      content: 'Skuggmatchning-skaparen producerar helt visuella arbetsblad — bilder, silhuetter och delade halvor utan språkspecifik text. En skapandesession producerar filer som säljer i alla länder.\n\nPå Etsy: lista identiska produkter på internationella butiker utan lokalisering.\n\nPå Amazon KDP: en interiörfil publiceras på alla marknadsplatser.\n\nDenna noll-översättnings-fördel ackumuleras. En katalog med 50 skuggmatchningsprodukter täcker omedelbart varje global marknad, medan en konkurrent med 50 textbaserade produkter täcker bara ett språk.',
+      content: 'Skuggmatchning-generatorn producerar helt visuella arbetsblad — bilder, silhuetter och delade halvor utan språkspecifik text. En skapandesession producerar filer som säljer i alla länder.\n\nPå Etsy: lista identiska produkter på internationella butiker utan lokalisering.\n\nPå Amazon KDP: en interiörfil publiceras på alla marknadsplatser.\n\nDenna noll-översättnings-fördel ackumuleras. En katalog med 50 skuggmatchningsprodukter täcker omedelbart varje global marknad, medan en konkurrent med 50 textbaserade produkter täcker bara ett språk.',
     },
   ],
 

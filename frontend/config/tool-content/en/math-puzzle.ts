@@ -5,7 +5,7 @@ const content: ToolContent = {  seo: {
     secondaryKeywords: [
       'make math puzzles free online',
       'math puzzle generator no signup',
-      'free picture puzzle worksheet maker',
+      'free picture puzzle worksheet generator',
       'printable math puzzles free trial',
     ],
     lsiKeywords: [
@@ -201,7 +201,7 @@ const content: ToolContent = {  seo: {
 
   internalLinks: [
     { pageType: 'app', slug: 'math-puzzle-worksheets', anchorText: 'Remove watermark and sell commercially' },
-    { pageType: 'tool', slug: 'addition-worksheet-maker', anchorText: 'Free addition worksheet maker' },
+    { pageType: 'tool', slug: 'addition-worksheet-maker', anchorText: 'Free addition worksheet generator' },
     { pageType: 'guide', slug: 'publish-puzzle-books-kdp', anchorText: 'How to publish puzzle books on Amazon KDP' },
   ],
 

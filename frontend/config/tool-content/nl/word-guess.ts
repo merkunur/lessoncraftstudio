@@ -28,7 +28,7 @@ const content: ToolContent = {
     title: 'Woordraadspel werkbladen gratis maken in 8 stappen',
     steps: [
       {
-        title: 'Open de raad het woord werkblad maker',
+        title: 'Open de raad het woord werkblad generator',
         description: 'Klik op "Gratis proefversie" om de generator te starten. De tool opent direct in je browser met een instellingenzijbalk links en een live voorbeeldcanvas rechts. Geen account, download of installatie nodig.',
       },
       {
@@ -203,12 +203,12 @@ const content: ToolContent = {
   internalLinks: [
     { pageType: 'app', slug: 'woordraadsel-werkbladen', anchorText: 'Watermerk verwijderen en verkopen met commerciële licentie' },
     { pageType: 'tool', slug: 'alfabettrein-maker', anchorText: 'Alfabettrein Maker' },
-    { pageType: 'tool', slug: 'voorzetsels-werkblad-maker', anchorText: 'Voorzetsels Werkblad Maker' },
+    { pageType: 'tool', slug: 'voorzetsels-werkblad-generator', anchorText: 'Voorzetsels Werkblad Generator' },
     { pageType: 'tool', slug: 'letterpuzzel-maker', anchorText: 'Letterpuzzel Maker' },
     { pageType: 'tool', slug: 'woordzoeker-maker', anchorText: 'Woordzoeker Maker' },
     { pageType: 'tool', slug: 'cryptogram-maker', anchorText: 'Cryptogram Maker' },
     { pageType: 'tool', slug: 'schrijfoefeningen-maker', anchorText: 'Schrijfoefeningen Maker' },
-    { pageType: 'tool', slug: 'koppelen-werkblad-maker', anchorText: 'Koppelen Werkblad Maker' },
+    { pageType: 'tool', slug: 'koppelen-werkblad-generator', anchorText: 'Koppelen Werkblad Generator' },
   ],
 
   visuals: {

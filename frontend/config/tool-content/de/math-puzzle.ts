@@ -1,9 +1,9 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'kostenloser Mathe-Rätsel Ersteller',
+    primaryKeyword: 'kostenloser Mathe-Rätsel Generator',
     secondaryKeywords: [
-      'Mathe-Rätsel Ersteller kostenlos online',
+      'Mathe-Rätsel Generator kostenlos online',
       'Jigsaw-Puzzle-Arbeitsblätter erstellen ohne Anmeldung',
       'Mathe-Puzzle Generator sofort nutzen',
       'kostenlose Mathe-Rätsel mit Bildern erstellen',
@@ -13,14 +13,14 @@ const content: ToolContent = {  seo: {
       'Jigsaw-Mathe-Aktivität für Kinder',
       'konfigurierbarer Mathe-Puzzle-Generator',
     ],
-    titleTag: 'Kostenloser Mathe-Rätsel Ersteller | LCS',
-    metaDescription: 'Kostenloser Mathe-Rätsel Ersteller — Jigsaw-Puzzle-Arbeitsblätter mit Bildern online erstellen, ohne Anmeldung. Testversion mit Wasserzeichen verfügbar.',
+    titleTag: 'Kostenloser Mathe-Rätsel Generator | LCS',
+    metaDescription: 'Kostenloser Mathe-Rätsel Generator — Jigsaw-Puzzle-Arbeitsblätter mit Bildern online erstellen, ohne Anmeldung. Testversion mit Wasserzeichen verfügbar.',
     },
 
   hero: {
-    title: 'Mathe-Rätsel Ersteller — Jigsaw-Puzzles kostenlos erstellen',
+    title: 'Mathe-Rätsel Generator — Jigsaw-Puzzles kostenlos erstellen',
     tagline: 'Puzzle-Mathe-Arbeitsblätter im Jigsaw-Stil in unter 60 Sekunden erstellen',
-    description: 'Unser kostenloser Mathe-Rätsel Ersteller verwandelt Mathe-Übungen in fesselnde visuelle Puzzles — direkt im Browser, ohne Anmeldung und ohne Installation. Das Tool zerlegt ein gewähltes Bild in ein Raster aus Zellen, die jeweils eine Mathe-Gleichung enthalten. Darunter erscheinen durcheinander geworfene Puzzleteile mit Lösungszahlen — Nutzer lösen jede Gleichung und ordnen das richtige Teil zu, um das Bild zu rekonstruieren. Wählen Sie aus drei Rechenarten: Addition, Subtraktion oder Gemischt. Passen Sie die Rastergröße von 2x2 (4 Teile) bis 4x4 (16 Teile) an jedes Fähigkeitsniveau an. Laden Sie eigene Bilder hoch oder durchstöbern Sie die integrierte Bibliothek mit über 3.100 Bildern in 104 Themen. Graustufen-Export für tintenschonende Ausgabe und automatische Lösungsschlüssel-Generierung sind integriert. Die kostenlose Testversion bietet sämtliche Funktionen mit einem Wasserzeichen auf Downloads. Für den kommerziellen Einsatz können Sie eine Lizenz erwerben, die das Wasserzeichen entfernt und volle Verkaufsrechte freischaltet.',
+    description: 'Unser kostenloser Mathe-Rätsel Generator verwandelt Mathe-Übungen in fesselnde visuelle Puzzles — direkt im Browser, ohne Anmeldung und ohne Installation. Das Tool zerlegt ein gewähltes Bild in ein Raster aus Zellen, die jeweils eine Mathe-Gleichung enthalten. Darunter erscheinen durcheinander geworfene Puzzleteile mit Lösungszahlen — Nutzer lösen jede Gleichung und ordnen das richtige Teil zu, um das Bild zu rekonstruieren. Wählen Sie aus drei Rechenarten: Addition, Subtraktion oder Gemischt. Passen Sie die Rastergröße von 2x2 (4 Teile) bis 4x4 (16 Teile) an jedes Fähigkeitsniveau an. Laden Sie eigene Bilder hoch oder durchstöbern Sie die integrierte Bibliothek mit über 3.100 Bildern in 104 Themen. Graustufen-Export für tintenschonende Ausgabe und automatische Lösungsschlüssel-Generierung sind integriert. Die kostenlose Testversion bietet sämtliche Funktionen mit einem Wasserzeichen auf Downloads. Für den kommerziellen Einsatz können Sie eine Lizenz erwerben, die das Wasserzeichen entfernt und volle Verkaufsrechte freischaltet.',
   },
 
   tutorial: {
@@ -28,7 +28,7 @@ const content: ToolContent = {  seo: {
     steps: [
       {
         title: 'Den Puzzle-Generator öffnen',
-        description: 'Klicken Sie auf \"Kostenlos testen\", um den Mathe-Rätsel-Ersteller zu starten. Das Tool öffnet sich sofort in Ihrem Browser mit einer dunklen Seitenleiste links für alle Einstellungen und einer hellen Arbeitsfläche rechts für die Live-Vorschau. Kein Benutzerkonto, kein Software-Download und keine Plugins erforderlich.',
+        description: 'Klicken Sie auf \"Kostenlos testen\", um den Mathe-Rätsel-Generator zu starten. Das Tool öffnet sich sofort in Ihrem Browser mit einer dunklen Seitenleiste links für alle Einstellungen und einer hellen Arbeitsfläche rechts für die Live-Vorschau. Kein Benutzerkonto, kein Software-Download und keine Plugins erforderlich.',
       },
       {
         title: 'Die Rastergröße festlegen',
@@ -197,13 +197,13 @@ const content: ToolContent = {  seo: {
 
   internalLinks: [
     { pageType: 'app', slug: 'mathe-raetsel-arbeitsblaetter', anchorText: 'Mathe-Rätsel-Arbeitsblätter — Vollständige Produktdetails' },
-    { pageType: 'tool', slug: 'additions-arbeitsblatt-ersteller', anchorText: 'Additions-Arbeitsblatt-Ersteller' },
-    { pageType: 'tool', slug: 'subtraktions-arbeitsblatt-ersteller', anchorText: 'Subtraktions-Arbeitsblatt-Ersteller' },
-    { pageType: 'tool', slug: 'bilder-additions-ersteller', anchorText: 'Bilder-Additions-Ersteller' },
-    { pageType: 'tool', slug: 'mehr-weniger-ersteller', anchorText: 'Mehr-oder-Weniger-Ersteller' },
-    { pageType: 'tool', slug: 'mathe-arbeitsblatt-ersteller', anchorText: 'Mathe-Arbeitsblatt-Ersteller' },
-    { pageType: 'tool', slug: 'zuordnungs-arbeitsblatt-ersteller', anchorText: 'Zuordnungs-Arbeitsblatt-Ersteller' },
-    { pageType: 'tool', slug: 'fehlende-puzzleteile-ersteller', anchorText: 'Fehlende-Puzzleteile-Ersteller' },
+    { pageType: 'tool', slug: 'additions-Arbeitsblatt-Generator', anchorText: 'Additions-Arbeitsblatt-Generator' },
+    { pageType: 'tool', slug: 'subtraktions-Arbeitsblatt-Generator', anchorText: 'Subtraktions-Arbeitsblatt-Generator' },
+    { pageType: 'tool', slug: 'bilder-additions-ersteller', anchorText: 'Bilder-Additions-Generator' },
+    { pageType: 'tool', slug: 'mehr-weniger-ersteller', anchorText: 'Mehr-oder-Weniger-Generator' },
+    { pageType: 'tool', slug: 'mathe-Arbeitsblatt-Generator', anchorText: 'Mathe-Arbeitsblatt-Generator' },
+    { pageType: 'tool', slug: 'zuordnungs-Arbeitsblatt-Generator', anchorText: 'Zuordnungs-Arbeitsblatt-Generator' },
+    { pageType: 'tool', slug: 'fehlende-puzzleteile-ersteller', anchorText: 'Fehlende-Puzzleteile-Generator' },
   ],
 
   visuals: {

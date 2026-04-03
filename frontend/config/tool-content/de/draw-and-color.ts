@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'kostenloser Mal-und-Zeichenvorlagen Ersteller',
+    primaryKeyword: 'kostenloser Mal-und-Zeichenvorlagen Generator',
     secondaryKeywords: [
       'Rasterzeichnen-Generator kostenlos online',
       'Mal-und-Zeichenvorlagen ohne Anmeldung erstellen',
@@ -15,7 +15,7 @@ const content: ToolContent = {
       'Zelle-für-Zelle-Zeichenübungen zum Ausdrucken',
     ],
     titleTag: 'Kostenloser Mal-und-Zeichen Generator | LCS',
-    metaDescription: 'Kostenloser Mal-und-Zeichenvorlagen Ersteller mit Rastersystem und Hinweisprozent. Online ohne Anmeldung nutzbar. Kommerzielle Lizenz für den Verkauf verfügbar.',
+    metaDescription: 'Kostenloser Mal-und-Zeichenvorlagen Generator mit Rastersystem und Hinweisprozent. Online ohne Anmeldung nutzbar. Kommerzielle Lizenz für den Verkauf verfügbar.',
   },
 
   hero: {
@@ -28,7 +28,7 @@ const content: ToolContent = {
     title: 'Rasterzeichnen-Arbeitsblätter erstellen in 8 Schritten',
     steps: [
       {
-        title: 'Den Rasterzeichnen-Ersteller öffnen',
+        title: 'Den Rasterzeichnen-Generator öffnen',
         description: 'Klicken Sie auf \"Kostenlos testen\", um den Generator in Ihrem Browser zu starten. Das Tool lädt sofort mit einer Einstellungsleiste links und einer Live-Vorschau-Arbeitsfläche rechts. Kein Konto erstellen, kein Software-Download, keine Installation nötig — beginnen Sie sofort mit der Erstellung von Rasterzeichnen-Arbeitsblättern.',
       },
       {
@@ -172,7 +172,7 @@ const content: ToolContent = {
     },
     {
       question: 'Warum verwendet diese App S&W-Umriss-Themen statt farbiger?',
-      answer: 'Der Rasterzeichnen-Ersteller verwendet Schwarz-Weiß-Umriss-Illustrationen, die speziell für Zeichen- und Ausmal-Aktivitäten gestaltet sind. Klare Umrisse sind ideal für Zelle-für-Zelle-Reproduktion — Lernende können die Linien, die sie kopieren müssen, deutlich erkennen. Nach Fertigstellung der Zeichnung können Lernende ihre Reproduktion als zusätzliche Aktivität ausmalen. Farbige Bilder wären schwieriger von Hand zu reproduzieren und würden nicht zum anschließenden Ausmalen einladen. Das S&W-Format druckt zudem perfekt im Schwarzweißdruck und hält die Kosten für Shop- und Arbeitsheft-Nutzung niedrig.',
+      answer: 'Der Rasterzeichnen-Generator verwendet Schwarz-Weiß-Umriss-Illustrationen, die speziell für Zeichen- und Ausmal-Aktivitäten gestaltet sind. Klare Umrisse sind ideal für Zelle-für-Zelle-Reproduktion — Lernende können die Linien, die sie kopieren müssen, deutlich erkennen. Nach Fertigstellung der Zeichnung können Lernende ihre Reproduktion als zusätzliche Aktivität ausmalen. Farbige Bilder wären schwieriger von Hand zu reproduzieren und würden nicht zum anschließenden Ausmalen einladen. Das S&W-Format druckt zudem perfekt im Schwarzweißdruck und hält die Kosten für Shop- und Arbeitsheft-Nutzung niedrig.',
     },
     {
       question: 'Warum gibt es keinen separaten Lösungsschlüssel?',
@@ -184,7 +184,7 @@ const content: ToolContent = {
     },
     {
       question: 'Sind die Arbeitsblätter sprachabhängig?',
-      answer: 'Nein. Der Rasterzeichnen-Ersteller ist eine rein visuelle App — Arbeitsblätter enthalten ausschließlich Rasterbilder mit null Text auf der Ausgabe. Die Sprachumschaltung betrifft nur die Oberflächenbeschriftungen des Generators, nicht das gedruckte Arbeitsblatt. Das macht Ihre Produkte universell verkaufbar ohne Übersetzung. Eine Produktdatei bedient jeden Markt weltweit.',
+      answer: 'Nein. Der Rasterzeichnen-Generator ist eine rein visuelle App — Arbeitsblätter enthalten ausschließlich Rasterbilder mit null Text auf der Ausgabe. Die Sprachumschaltung betrifft nur die Oberflächenbeschriftungen des Generators, nicht das gedruckte Arbeitsblatt. Das macht Ihre Produkte universell verkaufbar ohne Übersetzung. Eine Produktdatei bedient jeden Markt weltweit.',
     },
     {
       question: 'Welche Dateiformate und Seitengrößen sind verfügbar?',
@@ -202,13 +202,13 @@ const content: ToolContent = {
 
   internalLinks: [
     { pageType: 'app', slug: 'rasterzeichnen-arbeitsblaetter', anchorText: 'Rasterzeichnen-Arbeitsblätter — Alle Produktdetails' },
-    { pageType: 'tool', slug: 'muster-zug-ersteller', anchorText: 'Muster-Zug-Ersteller' },
-    { pageType: 'tool', slug: 'muster-arbeitsblatt-ersteller', anchorText: 'Muster-Arbeitsblatt-Ersteller' },
-    { pageType: 'tool', slug: 'gross-klein-ersteller', anchorText: 'Groß-Klein-Ersteller' },
-    { pageType: 'tool', slug: 'linien-ziehen-ersteller', anchorText: 'Linien-Ziehen-Ersteller' },
-    { pageType: 'tool', slug: 'malvorlagen-ersteller', anchorText: 'Malvorlagen-Ersteller' },
-    { pageType: 'tool', slug: 'zuordnungs-arbeitsblatt-ersteller', anchorText: 'Zuordnungs-Arbeitsblatt-Ersteller' },
-    { pageType: 'tool', slug: 'schattenbilder-ersteller', anchorText: 'Schattenbilder-Ersteller' },
+    { pageType: 'tool', slug: 'muster-zug-ersteller', anchorText: 'Muster-Zug-Generator' },
+    { pageType: 'tool', slug: 'muster-Arbeitsblatt-Generator', anchorText: 'Muster-Arbeitsblatt-Generator' },
+    { pageType: 'tool', slug: 'gross-klein-ersteller', anchorText: 'Groß-Klein-Generator' },
+    { pageType: 'tool', slug: 'linien-ziehen-ersteller', anchorText: 'Linien-Ziehen-Generator' },
+    { pageType: 'tool', slug: 'malvorlagen-ersteller', anchorText: 'Malvorlagen-Generator' },
+    { pageType: 'tool', slug: 'zuordnungs-Arbeitsblatt-Generator', anchorText: 'Zuordnungs-Arbeitsblatt-Generator' },
+    { pageType: 'tool', slug: 'schattenbilder-ersteller', anchorText: 'Schattenbilder-Generator' },
   ],
 
   visuals: {

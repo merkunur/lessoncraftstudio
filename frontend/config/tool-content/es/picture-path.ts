@@ -28,7 +28,7 @@ const content: ToolContent = {
     title: 'Cómo crear laberintos ilustrados gratis en 8 pasos',
     steps: [
       {
-        title: 'Abra el Creador de Laberintos con Imágenes',
+        title: 'Abra el Generador de Laberintos con Imágenes',
         description: 'Haga clic en \"Pruebe Gratis Ahora\" para abrir el generador de fichas de laberintos en su navegador. La herramienta se carga instantáneamente con una barra lateral de configuración a la izquierda y un lienzo de doble pestaña a la derecha — una pestaña para la ficha y otra para la clave de respuesta. Sin crear cuenta, sin descargar software, sin instalación — empiece a crear fichas de laberintos inmediatamente.',
       },
       {
@@ -187,7 +187,7 @@ const content: ToolContent = {
       answer: 'Cada ficha incluye un encabezado estilizado con un borde exterior naranja (trazo de 8px) y márgenes de 34px. El título \"Camino de Imágenes\" y la descripción \"¡Sigue el camino desde el inicio hasta el final!\" se traducen automáticamente a los 11 idiomas soportados. Las fichas en vertical muestran un encabezado de 240px; las fichas en horizontal usan un diseño compacto de 165px. El encabezado se renderiza con texto localizado para inglés, alemán (Bilderpfad), francés (Chemin d\'Images), español (Camino de Imágenes) y todos los demás idiomas soportados.',
     },
     {
-      question: '¿Las fichas del Creador de Laberintos dependen del idioma?',
+      question: '¿Las fichas del Generador de Laberintos dependen del idioma?',
       answer: 'No. Las fichas de Camino de Imágenes son completamente visuales — los usuarios navegan caminos, siguen imágenes y resuelven puzzles espaciales sin leer ningún texto. El contenido del laberinto en sí no requiere comprensión lingüística. El único elemento localizado es el texto del encabezado autogenerado \"Camino de Imágenes\", que se traduce automáticamente a los 11 idiomas soportados. Esto hace que cada ficha de laberinto sea universalmente vendible en todos los mercados sin traducción — un mismo conjunto de laberintos sirve para todos los mercados internacionales.',
     },
     {

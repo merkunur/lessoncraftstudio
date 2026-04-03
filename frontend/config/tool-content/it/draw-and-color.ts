@@ -30,7 +30,7 @@ const content: ToolContent = {
     title: 'Come Creare Schede Disegno su Griglia in 8 Passaggi',
     steps: [
       {
-        title: 'Apri il Creatore di Schede Disegno e Colora',
+        title: 'Apri il Generatore di Schede Disegno e Colora',
         description: 'Clicca "Prova Gratis Ora" per avviare il generatore nel tuo browser. Lo strumento si carica istantaneamente con una barra laterale delle impostazioni a sinistra e un\'anteprima live del canvas a destra. Nessuna creazione di account, nessun download di software, nessuna installazione necessaria — inizia a creare schede disegno su griglia immediatamente.',
       },
       {

@@ -12,7 +12,7 @@ const content: GuideContent = {
     lsiKeywords: [
       'bildbaserade logikpussel för barn',
       'visuell sudoku för unga inlärare',
-      'förskola logik arbetsblad-skapare',
+      'förskola logik arbetsblad-generator',
       'sälja sudokuarbetsblad på Etsy',
       'Amazon KDP pussel aktivitetsböcker',
       'kommersiell licens pusselverktyg',
@@ -24,10 +24,10 @@ const content: GuideContent = {
   hero: {
     title: 'Hur du skapar bildsudoku för unga barn',
     tagline: 'En steg-för-steg-guide för att skapa bildbaserade 4×4 sudokupussel du kan sälja på Etsy, Amazon KDP och Gumroad',
-    description: 'Bildsudoku ersätter siffror med bilder, vilket gör logikpussel tillgängliga för barn så unga som tre år. Istället för att fylla ett rutnät med siffror placerar barn tematiska bilder — djur, frukter, fordon eller valfri bilduppsättning — så att varje rad och kolumn innehåller varje bild exakt en gång. Denna guide leder dig genom hela skapandeprocessen med Bildsudoku-skaparen — från att välja svårighetsnivå och tema till att exportera en polerad, tryckfärdig PDF med automatiskt facit.',
+    description: 'Bildsudoku ersätter siffror med bilder, vilket gör logikpussel tillgängliga för barn så unga som tre år. Istället för att fylla ett rutnät med siffror placerar barn tematiska bilder — djur, frukter, fordon eller valfri bilduppsättning — så att varje rad och kolumn innehåller varje bild exakt en gång. Denna guide leder dig genom hela skapandeprocessen med Bildsudoku-generatorn — från att välja svårighetsnivå och tema till att exportera en polerad, tryckfärdig PDF med automatiskt facit.',
   },
 
-  introduction: 'Sudoku är ett av världens mest igenkända pusselformat, men standard 9×9 sifferrutnät är alldeles för komplexa för unga barn. Bildsudoku löser detta med ett 4×4 rutnät med fyra tematiska bilder istället för nio siffror. Reglerna förblir desamma — varje rad och kolumn måste innehålla varje bild exakt en gång — men den reducerade rutnätsstorleken och det visuella formatet gör det lämpligt för barn 3–7 år.\n\nVad som gör bildsudoku särskilt starkt som produkt är att det lär logik, inte matte. Föräldrar som söker "logikpussel för förskola" eller "kritiskt tänkande arbetsblad" hittar bildsudoku. Detta positionerar dina produkter i logik- och pusselkategorin snarare än att konkurrera direkt med den mättade mattearbetsbladmarknaden.\n\nDen visuella naturen gör bildsudoku språkoberoende för pusselinnehållet. Rubriken och instruktionerna är lokaliserade med 11 inbyggda språk, men det faktiska pusslet behöver ingen översättning.\n\nBildsudoku-skaparen hanterar all pusselgenerering. Den skapar giltiga 4×4 sudokurutnät, tar bort celler baserat på svårighetsnivå, genererar ett utklippsområde och producerar automatiska facit. Du fokuserar på produktstrategi medan generatorn hanterar pussellogik, layout och tryckformatering.\n\nVarje funktion som nämns i denna guide är tillgänglig i den gratis provversionen med vattenstämpel.',
+  introduction: 'Sudoku är ett av världens mest igenkända pusselformat, men standard 9×9 sifferrutnät är alldeles för komplexa för unga barn. Bildsudoku löser detta med ett 4×4 rutnät med fyra tematiska bilder istället för nio siffror. Reglerna förblir desamma — varje rad och kolumn måste innehålla varje bild exakt en gång — men den reducerade rutnätsstorleken och det visuella formatet gör det lämpligt för barn 3–7 år.\n\nVad som gör bildsudoku särskilt starkt som produkt är att det lär logik, inte matte. Föräldrar som söker "logikpussel för förskola" eller "kritiskt tänkande arbetsblad" hittar bildsudoku. Detta positionerar dina produkter i logik- och pusselkategorin snarare än att konkurrera direkt med den mättade mattearbetsbladmarknaden.\n\nDen visuella naturen gör bildsudoku språkoberoende för pusselinnehållet. Rubriken och instruktionerna är lokaliserade med 11 inbyggda språk, men det faktiska pusslet behöver ingen översättning.\n\nBildsudoku-generatorn hanterar all pusselgenerering. Den skapar giltiga 4×4 sudokurutnät, tar bort celler baserat på svårighetsnivå, genererar ett utklippsområde och producerar automatiska facit. Du fokuserar på produktstrategi medan generatorn hanterar pussellogik, layout och tryckformatering.\n\nVarje funktion som nämns i denna guide är tillgänglig i den gratis provversionen med vattenstämpel.',
 
   tutorial: [
     {
@@ -107,7 +107,7 @@ const content: GuideContent = {
 
   faq: [
     {
-      question: 'Vilken rutnätsstorlek använder Bildsudoku-skaparen?',
+      question: 'Vilken rutnätsstorlek använder Bildsudoku-generatorn?',
       answer: 'Fast 4×4 rutnät designat för barn 3–7 år. Kräver exakt fyra unika bilder. Rutnätet är inte justerbart — det hålls avsiktligt vid 4×4 för åldersanpassning.',
     },
     {
@@ -168,7 +168,7 @@ const content: GuideContent = {
   toolsRecommended: [
     {
       appId: 'sudoku',
-      title: 'Bildsudoku-skapare',
+      title: 'Bildsudoku-generator',
       description: 'Det primära verktyget för denna guide. Skapa bildbaserade 4×4 sudokupussel med tematiska bilder, tre svårighetsnivåer, lokaliserade rubriker och automatiska facit.',
     },
     {

@@ -28,7 +28,7 @@ const content: ToolContent = {
     title: 'Cómo crear fichas de búsqueda del tesoro gratis en 8 pasos',
     steps: [
       {
-        title: 'Abra el Creador de Búsqueda del Tesoro',
+        title: 'Abra el Generador de Búsqueda del Tesoro',
         description: 'Haga clic en \"Pruebe Gratis Ahora\" para abrir el generador de fichas de búsqueda del tesoro en su navegador. La herramienta se carga al instante con una barra lateral de ajustes a la izquierda y un lienzo con dos pestañas a la derecha — una pestaña para la ficha de búsqueda del tesoro y otra para la clave de respuestas. Sin necesidad de crear cuenta, descargar software ni instalar nada — empiece a crear puzzles de búsqueda del tesoro inmediatamente.',
       },
       {
@@ -41,7 +41,7 @@ const content: ToolContent = {
       },
       {
         title: 'Seleccione el Idioma del Contenido',
-        description: 'Elija el idioma del contenido para controlar el texto de las pistas direccionales que aparece en la ficha. El Creador de Búsqueda del Tesoro es sensible al idioma — todas las direcciones están completamente traducidas a los 11 idiomas soportados. \"Empiece en\", \"Muévete\", \"casilla(s)\" y \"¿Dónde está el tesoro?\" se localizan junto con el vocabulario de direcciones Básicas y Cardinales. El contenido de imágenes también se actualiza según el idioma seleccionado. El nivel Comercial incluya contenido en inglés; el Acceso Completo desbloquea los 11 idiomas para fichas de búsqueda del tesoro auténticas en el idioma nativo que puede vender en mercados internacionales.',
+        description: 'Elija el idioma del contenido para controlar el texto de las pistas direccionales que aparece en la ficha. El Generador de Búsqueda del Tesoro es sensible al idioma — todas las direcciones están completamente traducidas a los 11 idiomas soportados. \"Empiece en\", \"Muévete\", \"casilla(s)\" y \"¿Dónde está el tesoro?\" se localizan junto con el vocabulario de direcciones Básicas y Cardinales. El contenido de imágenes también se actualiza según el idioma seleccionado. El nivel Comercial incluya contenido en inglés; el Acceso Completo desbloquea los 11 idiomas para fichas de búsqueda del tesoro auténticas en el idioma nativo que puede vender en mercados internacionales.',
       },
       {
         title: 'Seleccione Imágenes para la Cuadrícula 5×5',
@@ -171,7 +171,7 @@ const content: ToolContent = {
       answer: 'El generador usa un sistema de doble lienzo con una pestaña de Ficha y una pestaña de Clave de Respuestas. La ficha muestra la cuadrícula 5×5 con imágenes distribuidas y pistas direccionales — lista para que los usuarios la sigan. La clave de respuestas reproduce el diseño idéntico y resalta la celda final del tesoro en amarillo pálido (rgba(255, 250, 205, 0.8)) con un trazo gris oscuro, haciendo el destino inmediatamente visible. Ambas versiones se exportan por separado usando cuatro botones de descargue dedicados: JPEG de ficha, JPEG de clave de respuestas, PDF de ficha y PDF de clave de respuestas. La clave de respuestas se genera simultáneamente con el puzzle, así que no hay paso de marcado manual y no hay posibilidad de soluciones que no coincidan.',
     },
     {
-      question: '¿El Creador de Búsqueda del Tesoro es sensible al idioma?',
+      question: '¿El Generador de Búsqueda del Tesoro es sensible al idioma?',
       answer: 'Sí, de dos maneras. Primero, todo el texto de pistas direccionales — \"Empiece en\", \"Muévete\", vocabulario de dirección (tanto Básico como Cardinal), \"casilla(s)\" y \"¿Dónde está el tesoro?\" — está completamente traducido a los 11 idiomas soportados: inglés, alemán, francés, español, portugués, italiano, neerlandés, sueco, danés, noruego y finlandés. Segundo, el contenido de imágenes cargado desde la biblioteca se actualiza según el idioma seleccionado. Cambiar de idioma produce fichas de búsqueda del tesoro auténticas en el idioma nativo con direcciones e imágenes localizadas — no puzzles en inglés con encabezados traducidos. El nivel Comercial incluya inglés; el Acceso Completo desbloquea los 11 idiomas.',
     },
     {
@@ -207,7 +207,7 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'generador-busque-objetos', anchorText: 'Creador de Buscar Objetos' },
     { pageType: 'tool', slug: 'generador-sopa-letras', anchorText: 'Creador de Sopa de Letras' },
     { pageType: 'tool', slug: 'generador-recorrido-imágenes', anchorText: 'Creador de Laberintos con Imágenes' },
-    { pageType: 'tool', slug: 'generador-fichas-asociación', anchorText: 'Creador de Fichas de Emparejamiento' },
+    { pageType: 'tool', slug: 'generador-fichas-asociación', anchorText: 'Generador de Fichas de Emparejamiento' },
     { pageType: 'tool', slug: 'generador-puzzles-matemáticos', anchorText: 'Creador de Rompecabezas Matemáticos' },
   ],
 

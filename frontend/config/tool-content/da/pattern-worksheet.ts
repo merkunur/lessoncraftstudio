@@ -4,7 +4,7 @@ const content: ToolContent = {
   seo: {
     primaryKeyword: 'mønstergenkendelse arbejdsark',
     secondaryKeywords: [
-      'mønster arbejdsark skaber for sælgere',
+      'mønster arbejdsark generator for sælgere',
       'lav mønsterkomplettering arbejdsark til salg',
       'printbare mønstersekvens arbejdsark kommerciel brug',
       'gitterbaseret mønster arbejdsark generator til KDP',
@@ -12,23 +12,23 @@ const content: ToolContent = {
     lsiKeywords: [
       'visuel mønstergenkendelse printbare til Etsy',
       'tekstfri mønsterkomplettering arbejdsark værktøj',
-      'AB ABC ABCD mønstersekvens arbejdsark skaber',
+      'AB ABC ABCD mønstersekvens arbejdsark generator',
     ],
-    titleTag: 'Mønstergenkendelse Arbejdsark Skaber | Lav og Sælg',
+    titleTag: 'Mønstergenkendelse Arbejdsark Generator | Lav og Sælg',
     metaDescription: 'Generér mønsterarbejdsark med ni typer, to spørgsmålstilstande, per-øvelse konfiguration, automatiske facit og 104 temabilleder. Gratis prøveversion med vandmærke.',
   },
 
   hero: {
-    title: 'Mønster Arbejdsark Skaber',
+    title: 'Mønster Arbejdsark Generator',
     tagline: 'Generér gitterbaserede mønstergenkendelse arbejdsark med ni mønstertyper, to spørgsmålstilstande, per-øvelse uafhængig konfiguration og helt visuelt tekstfrit output, der sælger globalt uden oversættelse',
-    description: 'Lav professionelle mønsterkompletteringsarbejdsark, hvor brugerne identificerer gentagende sekvenser og udfylder det manglende objekt eller vælger det rigtige svar blandt flervalsmuligheder. Ni distinkte mønstertyper dækker det bredeste udvalg af sekvenskompleksitet: AB alternerer to objekter, AAB og ABB introducerer asymmetriske grupperinger, ABC roterer tre forskellige objekter, AABB parrer to af hvert, ABBC og AABC tilføjer trebillede asymmetriske mønstre, ABCC udvider med fordoblet slutning, og ABCD roterer fire forskellige objekter for maksimal udfordring. To spørgsmålstilstande skaber fundamentalt forskellige øvelser: Tom Rude erstatter et objekt med et tomt felt for åbent ræsonnement, mens Vælg blandt Alternativer præsenterer hullet plus tre svarmuligheder med ét korrekt og to distraktorer. Konfigurér 1–8 øvelser per side med hver øvelse uafhængigt indstillet for mønstertype, spørgsmålstilstand og tema — én side kan blande en AB udfyldningsopvarmning med en ABCD flervalsudfordring. Aktivér Tilfældig Start for at begynde mønstre midt i cyklussen og Tilfældig Hul for at placere det manglende objekt hvor som helst i sekvensen. Hvert arbejdsark er helt visuelt med kun billeder og nul tekst i outputtet — ingen ord vises, hvilket gør dine produkter universelt sælgbare uden oversættelse. Hent fra mere end 3.100 illustrationer i 104 tematiske samlinger eller upload egne billeder. En separat facitfane viser alle huller udfyldt med det rigtige mønsterobjekt. Eksportér trykfærdige PDF\'er og JPEG-billeder med høj DPI i Letter, A4, Kvadrat (1200×1200) eller tilpassede størrelser. Skift gråtone for blækvenligt output. Den gratis prøveversion indeholder alle funktioner med et vandmærke på downloads. Køb en licens for at fjerne vandmærket og sælge kommercielt.',
+    description: 'Lav professionelle mønsterkompletteringsarbejdsark, hvor brugerne identificerer gentagende sekvenser og udfylder det manglende objekt eller vælger det rigtige svar blandt flervalsmuligheder. Ni distinkte mønstertyper dækker det bredeste udvalg af sekvenskompleksitet: AB alternerer to objekter, AAB og ABB introducerer asymmetriske grupperinger, ABC roterer tre forskellige objekter, AABB parrer to af hvert, ABBC og AABC tilføjer trebillede asymmetriske mønstre, ABCC udvider med fordoblet slutning, og ABCD roterer fire forskellige objekter for maksimal udfordring. To spørgsmålstilstande generator fundamentalt forskellige øvelser: Tom Rude erstatter et objekt med et tomt felt for åbent ræsonnement, mens Vælg blandt Alternativer præsenterer hullet plus tre svarmuligheder med ét korrekt og to distraktorer. Konfigurér 1–8 øvelser per side med hver øvelse uafhængigt indstillet for mønstertype, spørgsmålstilstand og tema — én side kan blande en AB udfyldningsopvarmning med en ABCD flervalsudfordring. Aktivér Tilfældig Start for at begynde mønstre midt i cyklussen og Tilfældig Hul for at placere det manglende objekt hvor som helst i sekvensen. Hvert arbejdsark er helt visuelt med kun billeder og nul tekst i outputtet — ingen ord vises, hvilket gør dine produkter universelt sælgbare uden oversættelse. Hent fra mere end 3.100 illustrationer i 104 tematiske samlinger eller upload egne billeder. En separat facitfane viser alle huller udfyldt med det rigtige mønsterobjekt. Eksportér trykfærdige PDF\'er og JPEG-billeder med høj DPI i Letter, A4, Kvadrat (1200×1200) eller tilpassede størrelser. Skift gråtone for blækvenligt output. Den gratis prøveversion indeholder alle funktioner med et vandmærke på downloads. Køb en licens for at fjerne vandmærket og sælge kommercielt.',
   },
 
   tutorial: {
     title: 'Sådan Laver du Mønstergenkendelse Arbejdsark i 8 Trin',
     steps: [
       {
-        title: 'Åbn Mønster Arbejdsark Skaberen',
+        title: 'Åbn Mønster Arbejdsark Generatoren',
         description: 'Klik på \"Prøv gratis nu\" for at starte generatoren i din browser. Værktøjet indlæses direkte med et indstillingssidepanel til venstre og et liveforhåndsvisningsarbejdsområde til højre. Ingen konto, ingen download, ingen installation kræves.',
       },
       {
@@ -145,7 +145,7 @@ const content: ToolContent = {
     },
     {
       title: 'Match mønsterkompleksitet til målaldersgruppe',
-      description: 'For førskolebørn (3–4 år), brug AB og AAB-mønstre med tom-rude tilstand for simpel genkendelse. For børnehavebørn (4–6 år), introducér ABC-mønstre og flervalstilstand. For første klasse og op, ABBC gennem ABCD-mønstre med tilfældig start skaber ægte vurderingsudfordringer.',
+      description: 'For førskolebørn (3–4 år), brug AB og AAB-mønstre med tom-rude tilstand for simpel genkendelse. For børnehavebørn (4–6 år), introducér ABC-mønstre og flervalstilstand. For første klasse og op, ABBC gennem ABCD-mønstre med tilfældig start generator ægte vurderingsudfordringer.',
     },
     {
       title: 'Brug gråtoner til KDP og massetryk',
@@ -160,7 +160,7 @@ const content: ToolContent = {
     },
     {
       question: 'Hvad er de ni mønstertyper?',
-      answer: 'AB alternerer to objekter (A-B-A-B). AAB grupperer to af ét derefter ét af et andet (A-A-B-A-A-B). ABB vender den gruppering (A-B-B-A-B-B). ABC roterer tre objekter (A-B-C-A-B-C). AABB parrer to af hvert (A-A-B-B-A-A-B-B). ABBC placerer to B mellem A og C. AABC leder med to A før B og C. ABCC slutter med to C efter A og B. ABCD roterer fire forskellige objekter for maksimal kompleksitet. Progressionen fra 2-billede til 4-billede mønstre skaber en naturlig sværhedsstige.',
+      answer: 'AB alternerer to objekter (A-B-A-B). AAB grupperer to af ét derefter ét af et andet (A-A-B-A-A-B). ABB vender den gruppering (A-B-B-A-B-B). ABC roterer tre objekter (A-B-C-A-B-C). AABB parrer to af hvert (A-A-B-B-A-A-B-B). ABBC placerer to B mellem A og C. AABC leder med to A før B og C. ABCC slutter med to C efter A og B. ABCD roterer fire forskellige objekter for maksimal kompleksitet. Progressionen fra 2-billede til 4-billede mønstre generator en naturlig sværhedsstige.',
     },
     {
       question: 'Hvad er de to spørgsmålstilstande?',
@@ -202,13 +202,13 @@ const content: ToolContent = {
 
   internalLinks: [
     { pageType: 'app', slug: 'moenstre-arbejdsark', anchorText: 'Mønster Arbejdsark — Fulde Produktdetaljer' },
-    { pageType: 'tool', slug: 'moenstertog-skaber', anchorText: 'Mønstertog Skaber' },
-    { pageType: 'tool', slug: 'stor-lille-arbejdsark-skaber', anchorText: 'Stor og Lille Arbejdsark Skaber' },
-    { pageType: 'tool', slug: 'tegn-og-farvelaeg-skaber', anchorText: 'Tegn og Farvelæg Skaber' },
-    { pageType: 'tool', slug: 'matchning-arbejdsark-skaber', anchorText: 'Matchning Arbejdsark Skaber' },
-    { pageType: 'tool', slug: 'find-den-underlige-skaber', anchorText: 'Find den Underlige Skaber' },
-    { pageType: 'tool', slug: 'skyggematchning-skaber', anchorText: 'Skyggematchning Skaber' },
-    { pageType: 'tool', slug: 'malebilleder-skaber', anchorText: 'Malebilleder Skaber' },
+    { pageType: 'tool', slug: 'moenstertog-skaber', anchorText: 'Mønstertog Generator' },
+    { pageType: 'tool', slug: 'stor-lille-arbejdsark-skaber', anchorText: 'Stor og Lille Arbejdsark Generator' },
+    { pageType: 'tool', slug: 'tegn-og-farvelaeg-skaber', anchorText: 'Tegn og Farvelæg Generator' },
+    { pageType: 'tool', slug: 'matchning-arbejdsark-skaber', anchorText: 'Matchning Arbejdsark Generator' },
+    { pageType: 'tool', slug: 'find-den-underlige-skaber', anchorText: 'Find den Underlige Generator' },
+    { pageType: 'tool', slug: 'skyggematchning-skaber', anchorText: 'Skyggematchning Generator' },
+    { pageType: 'tool', slug: 'malebilleder-skaber', anchorText: 'Malebilleder Generator' },
   ],
 
   visuals: {

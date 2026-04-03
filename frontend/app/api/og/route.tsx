@@ -50,7 +50,7 @@ const localeFolderMap: Record<string, string> = {
 // Page type labels
 const typeLabels: Record<string, string> = {
   app: 'Worksheet Generator',
-  tool: 'Free Printable Tool',
+  tool: 'Free Printable Generator',
   bundle: 'Generator Bundle',
   guide: 'How-To Guide',
   idea: 'Business Niche Idea',

@@ -2,11 +2,11 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'free find and count worksheet maker',
+    primaryKeyword: 'free find and count worksheet generator',
     secondaryKeywords: [
       'make find and count worksheets free online',
       'I Spy counting generator no signup',
-      'free search and count worksheet maker',
+      'free search and count worksheet generator',
       'find and count worksheets free trial',
     ],
     lsiKeywords: [
@@ -14,7 +14,7 @@ const content: ToolContent = {
       'instant I Spy counting maker',
       'try before you buy counting tools',
     ],
-    titleTag: 'Free Find and Count Worksheet Maker | LCS',
+    titleTag: 'Free Find and Count Worksheet Generator | LCS',
     metaDescription: 'Make find-and-count worksheets free online with watermark — no signup. I Spy + Letter Spotting modes, auto answer keys. Upgrade for commercial license.',
   },
 
@@ -206,7 +206,7 @@ const content: ToolContent = {
 
   internalLinks: [
     { pageType: 'app', slug: 'find-and-count-worksheets', anchorText: 'Remove watermark and sell commercially' },
-    { pageType: 'tool', slug: 'hidden-object-maker', anchorText: 'Free I Spy worksheet maker' },
+    { pageType: 'tool', slug: 'hidden-object-maker', anchorText: 'Free I Spy worksheet generator' },
     { pageType: 'guide', slug: 'create-counting-worksheets', anchorText: 'How to create counting worksheets to sell' },
   ],
 

@@ -15,7 +15,7 @@ const content: GuideContent = {
       'puzzles maths visuels marché préscolaire CP',
       'vendre puzzles maths sur Etsy',
       'livres puzzles maths Amazon KDP',
-      'créateur puzzles licence commerciale',
+      'générateur puzzles licence commerciale',
     ],
     titleTag: 'Puzzles de maths à vendre en ligne | LCS',
     metaDescription: 'Comment créer des fiches puzzles maths où les enfants résolvent des équations pour reconstruire des images. Grilles, opérations et vente sur Etsy et KDP.',

@@ -7,7 +7,7 @@ const content: ToolContent = {
       'Schwungübungen-Arbeitsblätter kostenlos erstellen',
       'Linienverfolgung-Generator online ohne Anmeldung',
       'kostenlose Linien-Ziehen-Arbeitsblätter mit Bildpaaren',
-      'Schwungübungen-Ersteller mit SVG-Vorlagen kostenlos',
+      'Schwungübungen-Generator mit SVG-Vorlagen kostenlos',
     ],
     lsiKeywords: [
       'Feinmotorik-Arbeitsblätter Linienverfolgung',
@@ -28,7 +28,7 @@ const content: ToolContent = {
     title: 'Linienverfolgung-Arbeitsblätter erstellen in 8 Schritten',
     steps: [
       {
-        title: 'Den Linien-Ziehen-Ersteller öffnen',
+        title: 'Den Linien-Ziehen-Generator öffnen',
         description: 'Klicken Sie auf \"Kostenlos testen\", um den Generator in Ihrem Browser zu starten. Das Tool lädt sofort mit einer Einstellungsleiste links und einer Live-Vorschau-Arbeitsfläche rechts. Kein Konto erstellen, kein Software-Download, keine Installation nötig — beginnen Sie sofort mit der Erstellung von Linienverfolgung-Arbeitsblättern.',
       },
       {
@@ -141,7 +141,7 @@ const content: ToolContent = {
     },
     {
       title: 'Farbenfrohe Themen als visuellen Engagement-Vorteil hervorheben',
-      description: 'Der Linien-Ziehen-Ersteller verwendet farbenfrohe Illustrationen, keine Schwarz-Weiß-Umrisse. Betonen Sie dies in Ihren Produktangeboten — farbenfrohe Bildpaare machen Arbeitsblätter visuell ansprechend für junge Lernende und erzeugen attraktivere Etsy-Vorschaubilder mit höheren Klickraten in Suchergebnissen. Die lebendigen Bilder differenzieren Ihre Produkte von schlichten Linienverfolgung-Arbeitsblättern.',
+      description: 'Der Linien-Ziehen-Generator verwendet farbenfrohe Illustrationen, keine Schwarz-Weiß-Umrisse. Betonen Sie dies in Ihren Produktangeboten — farbenfrohe Bildpaare machen Arbeitsblätter visuell ansprechend für junge Lernende und erzeugen attraktivere Etsy-Vorschaubilder mit höheren Klickraten in Suchergebnissen. Die lebendigen Bilder differenzieren Ihre Produkte von schlichten Linienverfolgung-Arbeitsblättern.',
     },
     {
       title: 'Graustufen für kosteneffizienten Druck nutzen',
@@ -184,7 +184,7 @@ const content: ToolContent = {
     },
     {
       question: 'Sind die Arbeitsblätter sprachabhängig?',
-      answer: 'Nein. Der Linien-Ziehen-Ersteller ist eine rein visuelle App — Arbeitsblätter enthalten ausschließlich Bilder, Linienpfade und dekorative Rahmen mit null Text auf der Ausgabe. Die Sprachumschaltung betrifft nur die Oberflächenbeschriftungen des Generators, nicht das gedruckte Arbeitsblatt. Das macht Ihre Produkte universell verkaufbar ohne Übersetzung. Eine Produktdatei bedient jeden Markt weltweit.',
+      answer: 'Nein. Der Linien-Ziehen-Generator ist eine rein visuelle App — Arbeitsblätter enthalten ausschließlich Bilder, Linienpfade und dekorative Rahmen mit null Text auf der Ausgabe. Die Sprachumschaltung betrifft nur die Oberflächenbeschriftungen des Generators, nicht das gedruckte Arbeitsblatt. Das macht Ihre Produkte universell verkaufbar ohne Übersetzung. Eine Produktdatei bedient jeden Markt weltweit.',
     },
     {
       question: 'Welche Dateiformate und Seitengrößen sind verfügbar?',
@@ -202,13 +202,13 @@ const content: ToolContent = {
 
   internalLinks: [
     { pageType: 'app', slug: 'linien-ziehen-arbeitsblaetter', anchorText: 'Linien-Ziehen-Arbeitsblätter — Alle Produktdetails' },
-    { pageType: 'tool', slug: 'rasterzeichnen-ersteller', anchorText: 'Rasterzeichnen-Ersteller' },
-    { pageType: 'tool', slug: 'malvorlagen-ersteller', anchorText: 'Malvorlagen-Ersteller' },
-    { pageType: 'tool', slug: 'gross-klein-ersteller', anchorText: 'Groß-Klein-Ersteller' },
-    { pageType: 'tool', slug: 'muster-zug-ersteller', anchorText: 'Muster-Zug-Ersteller' },
-    { pageType: 'tool', slug: 'zuordnungs-arbeitsblatt-ersteller', anchorText: 'Zuordnungs-Arbeitsblatt-Ersteller' },
-    { pageType: 'tool', slug: 'schattenbilder-ersteller', anchorText: 'Schattenbilder-Ersteller' },
-    { pageType: 'tool', slug: 'schreibuebungen-ersteller', anchorText: 'Schreibübungen-Ersteller' },
+    { pageType: 'tool', slug: 'rasterzeichnen-ersteller', anchorText: 'Rasterzeichnen-Generator' },
+    { pageType: 'tool', slug: 'malvorlagen-ersteller', anchorText: 'Malvorlagen-Generator' },
+    { pageType: 'tool', slug: 'gross-klein-ersteller', anchorText: 'Groß-Klein-Generator' },
+    { pageType: 'tool', slug: 'muster-zug-ersteller', anchorText: 'Muster-Zug-Generator' },
+    { pageType: 'tool', slug: 'zuordnungs-Arbeitsblatt-Generator', anchorText: 'Zuordnungs-Arbeitsblatt-Generator' },
+    { pageType: 'tool', slug: 'schattenbilder-ersteller', anchorText: 'Schattenbilder-Generator' },
+    { pageType: 'tool', slug: 'schreibuebungen-ersteller', anchorText: 'Schreibübungen-Generator' },
   ],
 
   visuals: {

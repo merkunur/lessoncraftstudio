@@ -17,7 +17,7 @@ const content: CompareContent = {
       'KDP activity book creator',
       'Etsy printable tools',
       'puzzle book design software',
-      'commercial license worksheet maker',
+      'commercial license worksheet generator',
       'print-ready PDF generator',
       'multilingual puzzle software',
     ],
@@ -194,7 +194,7 @@ const content: CompareContent = {
     {
       pageType: 'app',
       slug: 'maze-worksheet-maker',
-      anchorText: 'Try the Maze Worksheet Maker free with watermark',
+      anchorText: 'Try the Maze Worksheet Generator free with watermark',
     },
     {
       pageType: 'app',

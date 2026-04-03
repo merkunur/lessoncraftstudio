@@ -38,7 +38,7 @@ const content: ToolContent = {
     title: 'Como Criar Atividades do Intruso em 8 Passos',
     steps: [
       {
-        title: 'Abra o Criador de Atividades do Intruso',
+        title: 'Abra o Gerador de Atividades do Intruso',
         description: 'Clique em \"Teste Grátis Agora\" para abrir o gerador de atividades do intruso no seu navegador. A ferramenta carrega instantaneamente com uma barra lateral de configurações à esquerda e um canvas de duplo aba à direita — um aba para a atividade e outro para o gabarito. Sem criar conta, sem baixar software, sem instalação — comece a criar atividades do intruso imediatamente.',
       },
       {
@@ -216,7 +216,7 @@ const content: ToolContent = {
 
   internalLinks: [
     { pageType: 'app', slug: 'encontre-diferente-atividades', anchorText: 'Atividades do Intruso — Detalhes Completos do Produto' },
-    { pageType: 'tool', slug: 'gerador-pecas-faltantes', anchorText: 'Criador de Atividades de Peças Faltantes' },
+    { pageType: 'tool', slug: 'gerador-pecas-faltantes', anchorText: 'Gerador de Atividades de Peças Faltantes' },
     { pageType: 'tool', slug: 'gerador-discriminacao-visual', anchorText: 'Gerador de Discriminação Visual' },
     { pageType: 'tool', slug: 'gerador-puzzle-quadricula', anchorText: 'Gerador de Puzzle de Quadrícula' },
     { pageType: 'tool', slug: 'gerador-atividades-associacao', anchorText: 'Gerador de Atividades de Associação' },

@@ -28,7 +28,7 @@ const content: ToolContent = {
     title: 'Hur du Skapar Rutnätsritning Arbetsblad i 8 Steg',
     steps: [
       {
-        title: 'Öppna Rita och Färglägg Arbetsblad Skaparen',
+        title: 'Öppna Rita och Färglägg Arbetsblad Generatorn',
         description: 'Klicka på \"Prova gratis nu\" för att starta generatorn i din webbläsare. Verktyget laddas direkt med ett inställningssidofält till vänster och en liveförhandsvisnings arbetsyta till höger. Inget konto, ingen nedladdning, ingen installation krävs.',
       },
       {
@@ -202,13 +202,13 @@ const content: ToolContent = {
 
   internalLinks: [
     { pageType: 'app', slug: 'rutritning-arbetsblad', anchorText: 'Rita och Färglägg Arbetsblad — Fullständiga Produktdetaljer' },
-    { pageType: 'tool', slug: 'moenstertaag-skapare', anchorText: 'Mönstertåg Skapare' },
-    { pageType: 'tool', slug: 'moenster-arbetsblad-skapare', anchorText: 'Mönster Arbetsblad Skapare' },
-    { pageType: 'tool', slug: 'stor-liten-arbetsblad-skapare', anchorText: 'Stor och Liten Arbetsblad Skapare' },
-    { pageType: 'tool', slug: 'linjer-ovningar-skapare', anchorText: 'Rita Linjer Skapare' },
-    { pageType: 'tool', slug: 'maelarsidor-skapare', anchorText: 'Målarbilder Skapare' },
-    { pageType: 'tool', slug: 'matchnings-arbetsblad-skapare', anchorText: 'Matchnings Arbetsblad Skapare' },
-    { pageType: 'tool', slug: 'skuggmatchning-skapare', anchorText: 'Skuggmatchning Skapare' },
+    { pageType: 'tool', slug: 'moenstertaag-skapare', anchorText: 'Mönstertåg Generator' },
+    { pageType: 'tool', slug: 'moenster-arbetsblad-skapare', anchorText: 'Mönster Arbetsblad Generator' },
+    { pageType: 'tool', slug: 'stor-liten-arbetsblad-skapare', anchorText: 'Stor och Liten Arbetsblad Generator' },
+    { pageType: 'tool', slug: 'linjer-ovningar-skapare', anchorText: 'Rita Linjer Generator' },
+    { pageType: 'tool', slug: 'maelarsidor-skapare', anchorText: 'Målarbilder Generator' },
+    { pageType: 'tool', slug: 'matchnings-arbetsblad-skapare', anchorText: 'Matchnings Arbetsblad Generator' },
+    { pageType: 'tool', slug: 'skuggmatchning-skapare', anchorText: 'Skuggmatchning Generator' },
   ],
 
   visuals: {

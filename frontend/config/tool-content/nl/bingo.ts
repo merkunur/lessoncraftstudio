@@ -1,16 +1,16 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'gratis bingokaarten maker met afbeeldingen',
+    primaryKeyword: 'gratis bingokaarten generator met afbeeldingen',
     secondaryKeywords: [
       'plaatjesbingo kaarten gratis online maken',
       'bingokaarten met afbeeldingen gratis printen',
       'gratis bingo generator voor kinderen',
-      'bingokaarten maker gratis downloaden',
+      'bingokaarten generator gratis downloaden',
     ],
     lsiKeywords: [
       'batch bingokaarten generator online',
-      'beeld-en-woord bingo maker gratis',
+      'beeld-en-woord bingo generator gratis',
       'afroepblad bingo werkblad generator',
     ],
     titleTag: 'Bingokaarten gratis met afbeeldingen | LessonCraftStudio',
@@ -18,7 +18,7 @@ const content: ToolContent = {  seo: {
     },
 
   hero: {
-    title: 'Gratis bingokaarten maker met afbeeldingen',
+    title: 'Gratis bingokaarten generator met afbeeldingen',
     tagline: 'Maak gratis plaatjesbingokaarten met unieke kaarten, afroepbladen en 104 thema\'s',
     description: 'Probeer onze gratis proefversie met watermerk om plaatjesbingokaarten te maken — direct in uw browser, zonder account of registratie. Elke speler krijgt een unieke kaart met verschillende afbeeldingen op verschillende posities, zodat bingo als spel goed werkt. Configureer rasters van 3×3 tot 5×5 en genereer tot 10 unieke bingokaarten per batch. Kies uit meer dan 104 thematische collecties met meer dan 3.100 illustraties, of upload uw eigen afbeeldingen. Kies Afbeelding of Woord als vulling voor zowel kaartvakjes als ronde fiches — vier verschillende bingokaart-stijlen vanuit één generator. Het speciale afroepblad op een apart tabblad toont een dynamisch woordraster voor de afroeper. Download als printklare PDF, hoge-resolutie JPEG of exporteer alle kaarten als ZIP. De gratis proefversie bevat alle functies met een watermerk op downloads.',
   },
@@ -27,7 +27,7 @@ const content: ToolContent = {  seo: {
     title: 'Zo maakt u plaatjesbingokaarten in 8 stappen',
     steps: [
       {
-        title: 'Open de Plaatjesbingo Maker',
+        title: 'Open de Plaatjesbingo Generator',
         description: 'Klik op "Gratis proefversie" om de plaatjesbingo kaart generator te starten in je browser. De tool laadt direct met een instellingenzijbalk links en een dubbel-tabblad canvas rechts — één tabblad voor de bingokaart met fiches, één voor het afroepblad. Geen account aanmaken, geen software downloaden, geen installatie nodig — begin onmiddellijk met het maken van plaatjesbingokaarten.',
       },
       {
@@ -68,7 +68,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Meertalige Woordenschat-Bingoproducten',
-      description: 'De Plaatjesbingo Maker is taalgevoelig — Woordvullingsmodus toont gelokaliseerde afbeeldingsnamen uit de Afbeeldingenbibliotheek, dus het wisselen van taal verandert de woorden op kaarten, fiches en het afroepblad. Maak bingosets in het Engels, Duits, Frans, Spaans, Portugees, Italiaans, Nederlands, Zweeds, Deens, Noors en Fins vanuit dezelfde afbeeldingen zonder iets opnieuw op te bouwen. Een katafbeelding toont "Kat" in het Nederlands, "Cat" in het Engels en "Katze" in het Duits. Verkoop woordenschat-bingoproducten op internationale marktplaatsen door elke taalversie in enkele minuten te genereren. Woordkaarten met afbeeldingsfiches zijn bijzonder effectieve woordenschat-herhalingstools.',
+      description: 'De Plaatjesbingo Generator is taalgevoelig — Woordvullingsmodus toont gelokaliseerde afbeeldingsnamen uit de Afbeeldingenbibliotheek, dus het wisselen van taal verandert de woorden op kaarten, fiches en het afroepblad. Maak bingosets in het Engels, Duits, Frans, Spaans, Portugees, Italiaans, Nederlands, Zweeds, Deens, Noors en Fins vanuit dezelfde afbeeldingen zonder iets opnieuw op te bouwen. Een katafbeelding toont "Kat" in het Nederlands, "Cat" in het Engels en "Katze" in het Duits. Verkoop woordenschat-bingoproducten op internationale marktplaatsen door elke taalversie in enkele minuten te genereren. Woordkaarten met afbeeldingsfiches zijn bijzonder effectieve woordenschat-herhalingstools.',
     },
     {
       title: 'KDP Bingo-Activiteitenboeken met Afroepbladen',
@@ -116,7 +116,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Meertalige Bingoproducten voor Wereldwijde Markten',
-      description: 'De Plaatjesbingo Maker is taalgevoelig — Woordvullingsmodus gebruikt gelokaliseerde afbeeldingsnamen in 11 talen, waardoor het eenvoudig is om bingokaarten te produceren in het Engels, Duits, Frans, Spaans, Portugees, Italiaans, Nederlands, Zweeds, Deens, Noors en Fins vanuit dezelfde afbeeldingen. Maak woordenschat-bingoproducten gericht op internationale Etsy-winkels, meertalige Gumroad-kopers en taalleerders wereldwijd. Verkoop dezelfde thematische bingoset in meerdere taalversies zonder herontwerp — schakel gewoon van taal en genereer opnieuw. Meertalige bundels brengen premiumprijzen op en bereiken kopers die eentalige concurrenten niet kunnen bedienen.',
+      description: 'De Plaatjesbingo Generator is taalgevoelig — Woordvullingsmodus gebruikt gelokaliseerde afbeeldingsnamen in 11 talen, waardoor het eenvoudig is om bingokaarten te produceren in het Engels, Duits, Frans, Spaans, Portugees, Italiaans, Nederlands, Zweeds, Deens, Noors en Fins vanuit dezelfde afbeeldingen. Maak woordenschat-bingoproducten gericht op internationale Etsy-winkels, meertalige Gumroad-kopers en taalleerders wereldwijd. Verkoop dezelfde thematische bingoset in meerdere taalversies zonder herontwerp — schakel gewoon van taal en genereer opnieuw. Meertalige bundels brengen premiumprijzen op en bereiken kopers die eentalige concurrenten niet kunnen bedienen.',
       platform: 'Etsy / Gumroad',
     },
   ],
@@ -182,7 +182,7 @@ const content: ToolContent = {  seo: {
       answer: 'Schakel het selectievakje "Aangepaste selectie gebruiken" in het paneel Bingokaart-instellingen in om handmatig te kiezen welke specifieke afbeeldingen in de afroeppool verschijnen. Wanneer ingeschakeld, klik je op afbeeldingen in de Afbeeldingenbibliotheek om ze toe te voegen aan je aangepaste afroepselectie — een live teller toont je selectieaantal terwijl je kiest. Dit geeft je precieze controle over welke items in het bingospel verschijnen, handig voor lesstof-gerelateerde woordenschat-activiteiten, thematische evenementen, of elke situatie waarin je de exacte items wilt samenstellen die spelers tegenkomen.',
     },
     {
-      question: 'Is de Plaatjesbingo Maker taalgevoelig?',
+      question: 'Is de Plaatjesbingo Generator taalgevoelig?',
       answer: 'Ja. Bij gebruik van Woordvullingsmodus voor kaartvakjes of fiches zijn de weergegeven woorden gelokaliseerde afbeeldingsnamen uit de Afbeeldingenbibliotheek. Het wisselen van taal in de werkbladinstellingen verandert de woorden op kaarten, fiches en het afroepblad. Een katafbeelding toont bijvoorbeeld "Kat" in het Nederlands maar "Cat" in het Engels en "Katze" in het Duits. Dit maakt het eenvoudig om meertalige woordenschat-bingoproducten te maken vanuit dezelfde afbeeldingen. Afbeeldingsvulling is niet taalgevoelig aangezien deze illustraties toont in plaats van woorden.',
     },
     {
@@ -205,13 +205,13 @@ const content: ToolContent = {  seo: {
 
   internalLinks: [
     { pageType: 'app', slug: 'plaatjes-bingo-werkbladen', anchorText: 'Watermerk verwijderen en verkopen met commerciële licentie' },
-    { pageType: 'tool', slug: 'koppelen-werkblad-maker', anchorText: 'Matching Werkblad Maker' },
-    { pageType: 'tool', slug: 'raster-puzzel-maker', anchorText: 'Rasterpuzzel Werkblad Maker' },
-    { pageType: 'tool', slug: 'schaduw-koppelen-maker', anchorText: 'Schaduw Matching Werkblad Maker' },
-    { pageType: 'tool', slug: 'plaatjes-sorteren-maker', anchorText: 'Sorteer Werkblad Maker' },
-    { pageType: 'tool', slug: 'woordzoeker-maker', anchorText: 'Woordzoeker Werkblad Maker' },
-    { pageType: 'tool', slug: 'wat-hoort-er-niet-bij-maker', anchorText: 'Zoek de Uitzondering Werkblad Maker' },
-    { pageType: 'tool', slug: 'kleurplaten-maker', anchorText: 'Kleurplaten Werkblad Maker' },
+    { pageType: 'tool', slug: 'koppelen-werkblad-generator', anchorText: 'Matching Werkblad Generator' },
+    { pageType: 'tool', slug: 'raster-puzzel-maker', anchorText: 'Rasterpuzzel Werkblad Generator' },
+    { pageType: 'tool', slug: 'schaduw-koppelen-maker', anchorText: 'Schaduw Matching Werkblad Generator' },
+    { pageType: 'tool', slug: 'plaatjes-sorteren-maker', anchorText: 'Sorteer Werkblad Generator' },
+    { pageType: 'tool', slug: 'woordzoeker-maker', anchorText: 'Woordzoeker Werkblad Generator' },
+    { pageType: 'tool', slug: 'wat-hoort-er-niet-bij-maker', anchorText: 'Zoek de Uitzondering Werkblad Generator' },
+    { pageType: 'tool', slug: 'kleurplaten-maker', anchorText: 'Kleurplaten Werkblad Generator' },
   ],
 
   visuals: {

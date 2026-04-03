@@ -18,11 +18,11 @@ const content: GuideContent = {
       'kommerciel licens arbejdsarksvaerktoej',
     ],
     titleTag: 'Skab additionsarbejdsark — Trin-for-trin-guide — Sælgerguide',
-    metaDescription: 'Sådan skaber du additionsarbejdsark til børn. Trin-for-trin-guide: vælg temaer, indstil sværhedsgrad, generér facit og eksportér PDF til salg på Etsy og KDP.',
+    metaDescription: 'Sådan generator du additionsarbejdsark til børn. Trin-for-trin-guide: vælg temaer, indstil sværhedsgrad, generér facit og eksportér PDF til salg på Etsy og KDP.',
   },
 
   hero: {
-    title: 'Sådan skaber du additionsarbejdsark til børn',
+    title: 'Sådan generator du additionsarbejdsark til børn',
     tagline: 'En trin-for-trin-guide til at skabe tematiske, trykklare additionsarbejdsark du kan sælge på Etsy, Amazon KDP og Gumroad',
     description: 'Additionsarbejdsark er en af de mest konsekvent søgte printable-produkter på alle store markedspladser. Forældre har brug for dem til øvelse derhjemme. Sælgere har brug for dem til daglige drilløvelser og hjemmeopgaver. Vejledningscentre har brug for nye sæt hver uge. Denne guide fører dig gennem hele skabelsesprocessen med Additionsarbejdsark-generatoren — fra at vælge din målaldersgruppe og tema til at eksportere en poleret, trykklart PDF med automatisk facit.',
   },
@@ -36,7 +36,7 @@ const content: GuideContent = {
     },
     {
       heading: 'Vælg et visuelt tema til dine arbejdsark',
-      content: 'Tematiske additionsarbejdsark outsælger konsekvent rene ciferarbejdsark på alle markedspladser. Forældre og sælgere søger aktivt termer som "dinosaur additionsarbejdsark" eller "havdyr matematikøvelse."\n\nAdditionsarbejdsark-generatoren inkluderer en temavælger med billedsæt organiseret efter kategori. Med kommerciel licens får du adgang til 10 tematiske billedsæt. Full Access-licensen låser op for over 100 sæt der dækker dyr, mad, køretøjer, natur, højtider, erhverv og dusinvis af flere kategorier.\n\nVælg et tema via Vælg tema-rullemenuen i Øvelseskonfigurationen. Et "bondegårdsdyr"-tema viser køer, grise, kyllinger og heste i additionsligningerne.\n\nTemavalg er en strategisk produktbeslutning. Hvert tema skaber et distinkt produkt du kan liste separat. En enkelt sværhedsgrad med 10 forskellige temaer giver dig 10 unikke produkter. Sæsonbetonede temaer (højtid, skolestart, sommer) skaber produkter med forudsigelig efterspørgsel.\n\nDu kan også indstille baggrunds- og rammetemaer uafhængigt via Sideindstillinger-sektionen med opacitetskontroller.',
+      content: 'Tematiske additionsarbejdsark outsælger konsekvent rene ciferarbejdsark på alle markedspladser. Forældre og sælgere søger aktivt termer som "dinosaur additionsarbejdsark" eller "havdyr matematikøvelse."\n\nAdditionsarbejdsark-generatoren inkluderer en temavælger med billedsæt organiseret efter kategori. Med kommerciel licens får du adgang til 10 tematiske billedsæt. Full Access-licensen låser op for over 100 sæt der dækker dyr, mad, køretøjer, natur, højtider, erhverv og dusinvis af flere kategorier.\n\nVælg et tema via Vælg tema-rullemenuen i Øvelseskonfigurationen. Et "bondegårdsdyr"-tema viser køer, grise, kyllinger og heste i additionsligningerne.\n\nTemavalg er en strategisk produktbeslutning. Hvert tema generator et distinkt produkt du kan liste separat. En enkelt sværhedsgrad med 10 forskellige temaer giver dig 10 unikke produkter. Sæsonbetonede temaer (højtid, skolestart, sommer) generator produkter med forudsigelig efterspørgsel.\n\nDu kan også indstille baggrunds- og rammetemaer uafhængigt via Sideindstillinger-sektionen med opacitetskontroller.',
     },
     {
       heading: 'Vælg din øvelsestilstand',
@@ -52,7 +52,7 @@ const content: GuideContent = {
     },
     {
       heading: 'Gennemgå det automatiske facit',
-      content: 'Hvert genereret additionsarbejdsark inkluderer et automatisk facit. Klik på Facit-fanen ved siden af Arbejdsark-fanen.\n\nFacit spejler arbejdsarkets layout men viser korrekte svar udfyldt. Dette er afgørende for to købersegmenter:\n\nSælgere bruger facit til hurtig rettelse. Et arbejdsark uden facit er væsentligt mindre attraktivt.\n\nForældre bruger facit til at verificere deres barns arbejde. Hjemmeundervisende forældre værdsætter facit særligt.\n\nFacit genereres automatisk baseret på de matematiske operationer. Du behøver ikke beregne eller verificere svarene manuelt.\n\nNår du skaber produktpakker, inkludér altid facit. "Med facit" er en almindeligt søgt kvalificering på Etsy og Gumroad.',
+      content: 'Hvert genereret additionsarbejdsark inkluderer et automatisk facit. Klik på Facit-fanen ved siden af Arbejdsark-fanen.\n\nFacit spejler arbejdsarkets layout men viser korrekte svar udfyldt. Dette er afgørende for to købersegmenter:\n\nSælgere bruger facit til hurtig rettelse. Et arbejdsark uden facit er væsentligt mindre attraktivt.\n\nForældre bruger facit til at verificere deres barns arbejde. Hjemmeundervisende forældre værdsætter facit særligt.\n\nFacit genereres automatisk baseret på de matematiske operationer. Du behøver ikke beregne eller verificere svarene manuelt.\n\nNår du generator produktpakker, inkludér altid facit. "Med facit" er en almindeligt søgt kvalificering på Etsy og Gumroad.',
     },
     {
       heading: 'Eksportér som trykklart PDF og JPEG',
@@ -101,7 +101,7 @@ const content: GuideContent = {
     },
     {
       heading: 'Højtydende temakombinationer',
-      content: 'Dyr + Børnehaveklasse-addition: Dyretemaer er den mest søgte kategori. Bondegårdsdyr, havskabninger, jungledyr og kæledyr skaber hver sit distinkte produkt.\n\nDinosaurier + 1. klasse-addition: Dinosaurtematiserede pædagogiske materialer har dedikerede købersegmenter. Forældre og sælgere søger specifikt.\n\nMad + Førskole-tælning: Frugter, grøntsager og bagværk er fremragende visuelle hjælpemidler for de yngste. Øjeblikkeligt genkendelige.\n\nKøretøjer + Børnehaveklasse-addition: Biler, lastbiler, flyvemaskiner og både appellerer stærkt til et specifikt segment.\n\nSæsontemaer + Enhver sværhedsgrad: Halloween-græskar, snefnug til vinter, hjerter til valentinsdag, blomster til forår.\n\nStrategien er at vælge temaer der matcher virkelige søgeforespørgsler. Før du skaber et nyt tematiseret produkt, søg efter det tema på Etsy og notér antal resultater og kvalitet. Lav konkurrence plus høj søgevolumen = dine bedste muligheder.',
+      content: 'Dyr + Børnehaveklasse-addition: Dyretemaer er den mest søgte kategori. Bondegårdsdyr, havskabninger, jungledyr og kæledyr generator hver sit distinkte produkt.\n\nDinosaurier + 1. klasse-addition: Dinosaurtematiserede pædagogiske materialer har dedikerede købersegmenter. Forældre og sælgere søger specifikt.\n\nMad + Førskole-tælning: Frugter, grøntsager og bagværk er fremragende visuelle hjælpemidler for de yngste. Øjeblikkeligt genkendelige.\n\nKøretøjer + Børnehaveklasse-addition: Biler, lastbiler, flyvemaskiner og både appellerer stærkt til et specifikt segment.\n\nSæsontemaer + Enhver sværhedsgrad: Halloween-græskar, snefnug til vinter, hjerter til valentinsdag, blomster til forår.\n\nStrategien er at vælge temaer der matcher virkelige søgeforespørgsler. Før du generator et nyt tematiseret produkt, søg efter det tema på Etsy og notér antal resultater og kvalitet. Lav konkurrence plus høj søgevolumen = dine bedste muligheder.',
     },
   ],
 
@@ -115,15 +115,15 @@ const content: GuideContent = {
       answer: 'Ja. Kontrollerne Min genstande per gruppe og Max genstande per gruppe lader dig indstille præcist sværhedsinterval. Førskole: max 3 (summer til 5). Børnehaveklasse: max 5 (summer til 10). 1. klasse: max 10 (summer til 20).',
     },
     {
-      question: 'Skaber generatoren facit automatisk?',
+      question: 'Generator generatoren facit automatisk?',
       answer: 'Ja. Hvert genereret arbejdsark inkluderer et automatisk facit der spejler layoutet med korrekte svar udfyldt. Facit eksporteres som både PDF og JPEG, separat fra arbejdsarksfilen.',
     },
     {
       question: 'Hvor mange tematiske billedsæt er der?',
-      answer: 'Den kommercielle licens inkluderer 10 tematiske billedsæt. Full Access-licensen låser op for over 100 sæt der dækker dyr, mad, køretøjer, natur, højtider, erhverv, sport og dusinvis af flere. Hvert tema skaber distinkte produkter med forskellige søgetermer.',
+      answer: 'Den kommercielle licens inkluderer 10 tematiske billedsæt. Full Access-licensen låser op for over 100 sæt der dækker dyr, mad, køretøjer, natur, højtider, erhverv, sport og dusinvis af flere. Hvert tema generator distinkte produkter med forskellige søgetermer.',
     },
     {
-      question: 'Kan jeg sælge de arbejdsark jeg skaber på Etsy og Amazon KDP?',
+      question: 'Kan jeg sælge de arbejdsark jeg generator på Etsy og Amazon KDP?',
       answer: 'Ja. En kommerciel licens giver dig fulde rettigheder til at sælge genererede arbejdsark på enhver platform. Der er ingen royaltyafgifter eller per-salgs-afgifter.',
     },
     {
@@ -156,7 +156,7 @@ const content: GuideContent = {
 
   internalLinks: [
     { pageType: 'start', slug: 'komplet-guide-printbar-forretning', anchorText: 'Komplet guide til at starte en printbar forretning' },
-    { pageType: 'start', slug: 'skab-arbejdsark-der-saelger', anchorText: 'Sådan skaber du professionelle arbejdsark der sælger' },
+    { pageType: 'start', slug: 'skab-arbejdsark-der-saelger', anchorText: 'Sådan generator du professionelle arbejdsark der sælger' },
     { pageType: 'start', slug: 'etsy-printbar-forretning', anchorText: 'Etsy printbar forretning masterclass' },
     { pageType: 'start', slug: 'amazon-kdp-aktivitetsboeger', anchorText: 'Amazon KDP aktivitetsbogs-forretningsguide' },
     { pageType: 'start', slug: 'kommerciel-licens-guide', anchorText: 'Kommerciel licensguide' },
@@ -179,7 +179,7 @@ const content: GuideContent = {
     {
       appId: 'code-addition',
       title: 'Kodeaddition Arbejdsark Generator',
-      description: 'En kodeknækningsvariant af additionsarbejdsark hvor børn løser matematikopgaver for at afkode hemmelige beskeder. Skaber unikke produkter der differentierer dit katalog.',
+      description: 'En kodeknækningsvariant af additionsarbejdsark hvor børn løser matematikopgaver for at afkode hemmelige beskeder. Generator unikke produkter der differentierer dit katalog.',
     },
     {
       appId: 'subtraction',
@@ -196,7 +196,7 @@ const content: GuideContent = {
       { src: '/samples/danish/addition/Sjov%20Addition%203.webp', alt: 'Additionsarbejdsark — dansk eksempel 3', caption: 'Additionsarbejdsark eksempel 3' },
     ],
     youtubeId: '6O5aCzHkh8M',
-    videoTitle: 'Sådan skaber du additionsarbejdsark — Komplet guide',
+    videoTitle: 'Sådan generator du additionsarbejdsark — Komplet guide',
   },
 
   themeImages: [

@@ -28,7 +28,7 @@ const content: ToolContent = {
     title: 'Comment Créer des Fiches d\'Association en 8 Étapes',
     steps: [
       {
-        title: 'Ouvrir le Créateur de Fiches d\'Association',
+        title: 'Ouvrir le Générateur de Fiches d\'Association',
         description: 'Cliquez sur \" Essayer maintenant \" pour lancer le générateur de fiches d\'association dans votre navigateur. L\'outil s\'ouvre instantanément avec une barre latérale de réglages à gauche et un canevas à double onglet à droite — un onglet pour la fiche, un pour le corrigé. Aucun compte, aucun téléchargement de logiciel, aucune installation requis — commencez à créer des fiches d\'association immédiatement.',
       },
       {
@@ -117,7 +117,7 @@ const content: ToolContent = {
     },
     {
       title: 'Gamme de Produits d\'Association Multilingues',
-      description: 'Le Créateur de Fiches d\'Association est sensible à la langue — les modes Lettre Initiale et Image+Mot produisent des mots et lettres localisés quand vous changez de langue. Les mêmes images d\'animaux génèrent une association anglaise (C pour Cat), allemande (K pour Katze), française (C pour Chat) et ainsi de suite dans les 11 langues. Créez des packs d\'association par langue pour chaque place de marché ou des méga-packs multilingues à des prix premium. Les vendeurs de FLE, les classes bilingues et les familles d\'instruction à domicile internationales recherchent activement des fiches d\'association dans leur langue maternelle.',
+      description: 'Le Générateur de Fiches d\'Association est sensible à la langue — les modes Lettre Initiale et Image+Mot produisent des mots et lettres localisés quand vous changez de langue. Les mêmes images d\'animaux génèrent une association anglaise (C pour Cat), allemande (K pour Katze), française (C pour Chat) et ainsi de suite dans les 11 langues. Créez des packs d\'association par langue pour chaque place de marché ou des méga-packs multilingues à des prix premium. Les vendeurs de FLE, les classes bilingues et les familles d\'instruction à domicile internationales recherchent activement des fiches d\'association dans leur langue maternelle.',
       platform: 'Etsy.fr / Gumroad',
     },
   ],
@@ -175,7 +175,7 @@ const content: ToolContent = {
       answer: 'Le mode Lettre Initiale propose trois sous-modes pour la sélection des images. \" Thème et Images Aléatoires \" choisit un thème au hasard et des images aléatoires depuis ce thème. \" Aléatoire depuis le Thème Choisi \" vous permet de sélectionner un thème spécifique puis choisit des images aléatoires depuis cette collection. \" Sélectionner des Images Spécifiques \" ouvre la Bibliothèque d\'Images pour que vous puissiez choisir manuellement exactement les images souhaitées. Vous pouvez également choisir entre l\'affichage en majuscules ou minuscules via le basculement de type de lettre — majuscules pour les jeunes apprenants, minuscules pour la pratique phonétique avancée.',
     },
     {
-      question: 'Le Créateur de Fiches d\'Association est-il sensible à la langue ?',
+      question: 'Le Générateur de Fiches d\'Association est-il sensible à la langue ?',
       answer: 'Oui. Les modes Lettre Initiale et Image+Mot utilisent les noms localisés des images de la Bibliothèque d\'Images, donc changer de langue modifie les mots et les premières lettres qui apparaissent sur la fiche. Par exemple, une image de chat affiche C en mode Lettre Initiale en anglais, mais K en allemand (Katze) et C en français (Chat). L\'en-tête localisé \" Trouve les Paires ! \" change également avec la langue sélectionnée. Cette sensibilité linguistique permet de créer des fiches d\'association dans les 11 langues prises en charge à partir des mêmes sélections d\'images, multipliant votre catalogue pour les marchés internationaux.',
     },
     {
@@ -202,13 +202,13 @@ const content: ToolContent = {
 
   internalLinks: [
     { pageType: 'app', slug: 'association-fiches', anchorText: 'Fiches d\'Association — Détails Complets du Produit' },
-    { pageType: 'tool', slug: 'generateur-puzzle-grille', anchorText: 'Créateur de Fiches Puzzle Grille' },
-    { pageType: 'tool', slug: 'generateur-discrimination-visuelle', anchorText: 'Créateur de Fiches Discrimination Visuelle' },
-    { pageType: 'tool', slug: 'generateur-cartes-bingo', anchorText: 'Créateur de Cartes Bingo' },
-    { pageType: 'tool', slug: 'generateur-tri-images', anchorText: 'Créateur de Fiches Tri d\'Images' },
-    { pageType: 'tool', slug: 'generateur-train-alphabet', anchorText: 'Créateur de Fiches Train Alphabet' },
-    { pageType: 'tool', slug: 'generateur-mots-caches', anchorText: 'Créateur de Mots Cachés' },
-    { pageType: 'tool', slug: 'generateur-fiches-addition', anchorText: 'Créateur de Fiches d\'Addition' },
+    { pageType: 'tool', slug: 'generateur-puzzle-grille', anchorText: 'Générateur de Fiches Puzzle Grille' },
+    { pageType: 'tool', slug: 'generateur-discrimination-visuelle', anchorText: 'Générateur de Fiches Discrimination Visuelle' },
+    { pageType: 'tool', slug: 'generateur-cartes-bingo', anchorText: 'Générateur de Cartes Bingo' },
+    { pageType: 'tool', slug: 'generateur-tri-images', anchorText: 'Générateur de Fiches Tri d\'Images' },
+    { pageType: 'tool', slug: 'generateur-train-alphabet', anchorText: 'Générateur de Fiches Train Alphabet' },
+    { pageType: 'tool', slug: 'generateur-mots-caches', anchorText: 'Générateur de Mots Cachés' },
+    { pageType: 'tool', slug: 'generateur-fiches-addition', anchorText: 'Générateur de Fiches d\'Addition' },
   ],
 
   visuals: {

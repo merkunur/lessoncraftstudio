@@ -10,7 +10,7 @@ const content: GuideContent = {
       'anpassade bokstavsövningsarbetsblad',
     ],
     lsiKeywords: [
-      'spåra bokstäver arbetsblad-skapare',
+      'spåra bokstäver arbetsblad-generator',
       'skrivstil övningsblad',
       'streckordning bokstavsformning',
       'förskrivningsövningar för förskola',

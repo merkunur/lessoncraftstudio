@@ -2,19 +2,19 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'free pattern worksheet maker',
+    primaryKeyword: 'free pattern worksheet generator',
     secondaryKeywords: [
       'make pattern worksheets free online',
       'pattern sequence generator no signup',
-      'free pattern train worksheet maker',
+      'free pattern train worksheet generator',
       'pattern worksheets free trial',
     ],
     lsiKeywords: [
       'free pattern tool online',
-      'instant pattern worksheet maker',
+      'instant pattern worksheet generator',
       'try before you buy pattern tools',
     ],
-    titleTag: 'Free Pattern Worksheet Maker Online | LCS',
+    titleTag: 'Free Pattern Worksheet Generator Online | LCS',
     metaDescription: 'Make pattern worksheets free online with watermark — no signup. Train-car sequences, themed images, auto answer keys. Upgrade to sell.',
   },
 
@@ -137,7 +137,7 @@ const content: ToolContent = {
     },
     {
       title: 'Create Both Train and Grid Pattern Products',
-      description: 'The Pattern Train Maker and Pattern Worksheet Maker produce fundamentally different visual formats for the same skill — pattern recognition. Train format uses 11 wagons with a single missing position. Grid format uses standard rows and columns for pattern completion. Sell both formats separately or bundle them as a \"Complete Pattern Recognition Pack\" for a premium price.',
+      description: 'The Pattern Train Maker and Pattern Worksheet Generator produce fundamentally different visual formats for the same skill — pattern recognition. Train format uses 11 wagons with a single missing position. Grid format uses standard rows and columns for pattern completion. Sell both formats separately or bundle them as a \"Complete Pattern Recognition Pack\" for a premium price.',
     },
     {
       title: 'Match Clue Count to Your Target Age Group',
@@ -202,7 +202,7 @@ const content: ToolContent = {
 
   internalLinks: [
     { pageType: 'app', slug: 'pattern-train-worksheets', anchorText: 'Remove watermark and sell commercially' },
-    { pageType: 'tool', slug: 'pattern-worksheet-maker', anchorText: 'Free pattern recognition worksheet maker' },
+    { pageType: 'tool', slug: 'pattern-worksheet-maker', anchorText: 'Free pattern recognition worksheet generator' },
     { pageType: 'guide', slug: 'create-pattern-worksheets', anchorText: 'How to create pattern worksheets to sell' },
   ],
 

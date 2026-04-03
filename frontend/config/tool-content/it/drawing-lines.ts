@@ -32,7 +32,7 @@ const content: ToolContent = {
     title: 'Come Creare Schede Pregrafismo in 8 Passaggi',
     steps: [
       {
-        title: 'Apri il Creatore di Schede Pregrafismo',
+        title: 'Apri il Generatore di Schede Pregrafismo',
         description: 'Clicca "Prova Gratuita" per avviare il generatore nel tuo browser. Lo strumento si carica istantaneamente con una barra laterale delle impostazioni a sinistra e un\'anteprima live del canvas a destra. Nessun account da creare, nessun software da scaricare, nessuna installazione — inizia subito a costruire schede pregrafismo.',
       },
       {

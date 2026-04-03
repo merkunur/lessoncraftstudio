@@ -2,33 +2,33 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'bingokort skaber for sælgere',
+    primaryKeyword: 'bingokort generator for sælgere',
     secondaryKeywords: [
-      'billedbingo kort skaber online',
-      'bingospil skaber for børn',
+      'billedbingo kort generator online',
+      'bingospil generator for børn',
       'printbare bingokort for skolen',
       'tilpasset bingokort generator for sælgere',
     ],
     lsiKeywords: [
       'batch bingokort generator til produktlinjens spil',
-      'billede og ord bingokort skaber',
-      'opråbsliste bingo arbejdsark skaber',
+      'billede og ord bingokort generator',
+      'opråbsliste bingo arbejdsark generator',
     ],
-    titleTag: 'Bingokort Skaber — Billedbingo online — Lav Online Gratis',
+    titleTag: 'Bingokort Generator — Billedbingo online — Lav Online Gratis',
     metaDescription: 'Lav billedbingokort til produktlinjens spil. Gitre fra 3×3 til 5×5, batch unikke kort, opråbslister, 104 temaer. Gratis prøveversion med vandmærke.',
   },
 
   hero: {
-    title: 'Bingokort Skaber',
+    title: 'Bingokort Generator',
     tagline: 'Billedbingokort generator med konfigurerbare gitre fra 3×3 til 5×5, batch-generering af 1–10 unikke kort per sæt, ZIP-eksport af alle kort i én download, dobbelte fyldningstilstande for celler og cirkulære brikker uafhængigt, dedikeret opråbsliste med dynamisk ordgitter og 104 tematiske billedsamlinger',
-    description: 'Lav professionelle billedbingokort, hvor hver spiller får et unikt kort med forskellige billeder i forskellige positioner — essentielt for at bingo fungerer som spil. Konfigurér rækker 3–5 og kolonner 3–5 uafhængigt, standard 4×4 (16 celler). Generér 1–10 unikke kort per batch, hvert med anderledes tilfældigt billedudvalg. Eksportér alle kort som individuelle JPEG-billeder i én enkelt bingo_cards.zip-fil. Vælg Billede- eller Ordfyldning uafhængigt for både kortceller og cirkulære brikker — skaber fire distinkte bingokortsstile. Ordfyldning viser lokaliserede billednavne, hvilket gør Bingokort Skaberen sprogfølsom — at skifte sprog ændrer ord på kort, brikker og opråbsliste. Cirkulære brikker har stiplede kanter og Fisher-Yates-blanding. En dedikeret opråbsliste viser et dynamisk ordgitter for spillelederen. Aktivér tilpasset opråbsudvalg for at håndplukke specifikke billeder med en levende tæller. Gennemse 104 tematiske samlinger med mere end 3.100 illustrationer eller upload egne billeder. Anvend baggrunds- og rammetemaer med uafhængige gennemsigtighedsskydere. Eksportér arbejdsark-JPEG, opråb-JPEG, arbejdsark-PDF, opråb-PDF med 300 DPI, plus ZIP batch-eksport. Vælg Letter, A4, Kvadrat eller tilpassede sidestørrelser med gråtonekontakt. Den gratis prøveversion indeholder alle funktioner med vandmærke. Køb en licens for at fjerne vandmærket og sælge kommercielt.',
+    description: 'Lav professionelle billedbingokort, hvor hver spiller får et unikt kort med forskellige billeder i forskellige positioner — essentielt for at bingo fungerer som spil. Konfigurér rækker 3–5 og kolonner 3–5 uafhængigt, standard 4×4 (16 celler). Generér 1–10 unikke kort per batch, hvert med anderledes tilfældigt billedudvalg. Eksportér alle kort som individuelle JPEG-billeder i én enkelt bingo_cards.zip-fil. Vælg Billede- eller Ordfyldning uafhængigt for både kortceller og cirkulære brikker — generator fire distinkte bingokortsstile. Ordfyldning viser lokaliserede billednavne, hvilket gør Bingokort Generatoren sprogfølsom — at skifte sprog ændrer ord på kort, brikker og opråbsliste. Cirkulære brikker har stiplede kanter og Fisher-Yates-blanding. En dedikeret opråbsliste viser et dynamisk ordgitter for spillelederen. Aktivér tilpasset opråbsudvalg for at håndplukke specifikke billeder med en levende tæller. Gennemse 104 tematiske samlinger med mere end 3.100 illustrationer eller upload egne billeder. Anvend baggrunds- og rammetemaer med uafhængige gennemsigtighedsskydere. Eksportér arbejdsark-JPEG, opråb-JPEG, arbejdsark-PDF, opråb-PDF med 300 DPI, plus ZIP batch-eksport. Vælg Letter, A4, Kvadrat eller tilpassede sidestørrelser med gråtonekontakt. Den gratis prøveversion indeholder alle funktioner med vandmærke. Køb en licens for at fjerne vandmærket og sælge kommercielt.',
   },
 
   tutorial: {
     title: 'Sådan Laver du Billedbingokort i 8 Trin',
     steps: [
       {
-        title: 'Åbn Bingokort Skaberen',
+        title: 'Åbn Bingokort Generatoren',
         description: 'Klik på \"Prøv gratis nu\" for at starte billedbingo kort generatoren. Værktøjet indlæses direkte med et indstillingssidepanel til venstre og et dobbeltfane-arbejdsområde til højre — en fane for bingokortet med brikker, en for opråbslisten. Ingen konto, ingen download, ingen installation kræves.',
       },
       {
@@ -37,7 +37,7 @@ const content: ToolContent = {
       },
       {
         title: 'Vælg fyldningstilstande for celler og brikker',
-        description: 'Vælg kortcellefyldning (Billede eller Ord) og brikfyldning (Billede eller Ord) uafhængigt. Billedfyldning viser tematiske illustrationer. Ordfyldning viser lokaliserede billednavne — at skifte appsprog ændrer alle ord. Bland tilstande for kreativ variation: billedkort med ordbrikker skaber visuel-til-tekst matchning, ordkort med billedbrikker vender dynamikken. Fire distinkte bingokortsstile fra én generator.',
+        description: 'Vælg kortcellefyldning (Billede eller Ord) og brikfyldning (Billede eller Ord) uafhængigt. Billedfyldning viser tematiske illustrationer. Ordfyldning viser lokaliserede billednavne — at skifte appsprog ændrer alle ord. Bland tilstande for kreativ variation: billedkort med ordbrikker generator visuel-til-tekst matchning, ordkort med billedbrikker vender dynamikken. Fire distinkte bingokortsstile fra én generator.',
       },
       {
         title: 'Vælg billeder fra biblioteket',
@@ -69,7 +69,7 @@ const content: ToolContent = {
     },
     {
       title: 'Flersprogede ordforråds bingoprodukter',
-      description: 'Bingokort Skaberen er sprogfølsom — Ordfyldning viser lokaliserede billednavne. Lav bingosæt på alle 11 understøttede sprog fra de samme billeder. Et kattebillede viser \"Kat\" på dansk, \"Cat\" på engelsk, \"Katze\" på tysk. Ordkort med billedbrikker skaber særligt effektive ordforrådsgentagelsesværktøjer.',
+      description: 'Bingokort Generatoren er sprogfølsom — Ordfyldning viser lokaliserede billednavne. Lav bingosæt på alle 11 understøttede sprog fra de samme billeder. Et kattebillede viser \"Kat\" på dansk, \"Cat\" på engelsk, \"Katze\" på tysk. Ordkort med billedbrikker generator særligt effektive ordforrådsgentagelsesværktøjer.',
     },
     {
       title: 'KDP bingoaktivitetsbøger med opråbslister',
@@ -92,7 +92,7 @@ const content: ToolContent = {
   businessIdeas: [
     {
       title: 'Tematisk bingokortbutik på Etsy',
-      description: 'Åbn en Etsy-butik specialiseret i billedbingokortpakker med de 104 billedsamlinger. Dyr, mad, køretøjer, højtider, natur og erhverv bliver hver separate annoncer med 10–30 unikke kort og opråbslister. Batch-generering skaber 10 kort per klik, ZIP-eksport pakker dem direkte. Bland gitterstørrelser inden for pakker.',
+      description: 'Åbn en Etsy-butik specialiseret i billedbingokortpakker med de 104 billedsamlinger. Dyr, mad, køretøjer, højtider, natur og erhverv bliver hver separate annoncer med 10–30 unikke kort og opråbslister. Batch-generering generator 10 kort per klik, ZIP-eksport pakker dem direkte. Bland gitterstørrelser inden for pakker.',
       platform: 'Etsy',
     },
     {
@@ -107,7 +107,7 @@ const content: ToolContent = {
     },
     {
       title: 'Pinterest bingokort trafiktragt',
-      description: 'Bingokort gør visuelt slående Pinterest-pins — det farverige gitter med tematiske billeder og cirkulære brikker skaber et øjeblikkeligt genkendeligt spilformat. Pin prøvekort, der viser forskellige temaer. Bingo er et universelt genkendt spil, så pins appellerer til alle lande.',
+      description: 'Bingokort gør visuelt slående Pinterest-pins — det farverige gitter med tematiske billeder og cirkulære brikker generator et øjeblikkeligt genkendeligt spilformat. Pin prøvekort, der viser forskellige temaer. Bingo er et universelt genkendt spil, så pins appellerer til alle lande.',
       platform: 'Pinterest',
     },
     {
@@ -117,7 +117,7 @@ const content: ToolContent = {
     },
     {
       title: 'Flersprogede bingoprodukter til globale markeder',
-      description: 'Bingokort Skaberen er sprogfølsom — Ordfyldning bruger lokaliserede billednavne. Producér bingokort på alle 11 sprog fra de samme billeder. Flersprogede ordforråds bingopakker retfærdiggør premiumpriser og når købere, som etsprogede konkurrenter ikke kan.',
+      description: 'Bingokort Generatoren er sprogfølsom — Ordfyldning bruger lokaliserede billednavne. Producér bingokort på alle 11 sprog fra de samme billeder. Flersprogede ordforråds bingopakker retfærdiggør premiumpriser og når købere, som etsprogede konkurrenter ikke kan.',
       platform: 'Etsy / Gumroad',
     },
   ],
@@ -129,7 +129,7 @@ const content: ToolContent = {
     },
     {
       title: 'Bland fyldningstilstande for fire distinkte produktstile',
-      description: 'Kortceller og brikker har uafhængige fyldningsvalg — Billede eller Ord. Dette skaber fire distinkte bingokortsstile: billedkort med billedbrikker (helt visuelt), billedkort med ordbrikker (visuel-til-tekst matchning), ordkort med billedbrikker (tekst-til-visuel matchning), ordkort med ordbrikker (helt tekstbaseret). Inkludér alle fire stile i premiumpakker.',
+      description: 'Kortceller og brikker har uafhængige fyldningsvalg — Billede eller Ord. Dette generator fire distinkte bingokortsstile: billedkort med billedbrikker (helt visuelt), billedkort med ordbrikker (visuel-til-tekst matchning), ordkort med billedbrikker (tekst-til-visuel matchning), ordkort med ordbrikker (helt tekstbaseret). Inkludér alle fire stile i premiumpakker.',
     },
     {
       title: 'Udnyt tilpasset opråbsudvalg til produktkatalogtilpasning',
@@ -164,7 +164,7 @@ const content: ToolContent = {
     },
     {
       question: 'Hvilke gitterstørrelser findes for bingokort?',
-      answer: 'Rækker og kolonner er uafhængigt konfigurerbare 3–5, skaber gitre fra 3×3 (9 celler) til 5×5 (25 celler). Standard 4×4 med 16 celler. Du kan også lave ikke-kvadratiske gitre som 3×5 eller 5×3.',
+      answer: 'Rækker og kolonner er uafhængigt konfigurerbare 3–5, generator gitre fra 3×3 (9 celler) til 5×5 (25 celler). Standard 4×4 med 16 celler. Du kan også lave ikke-kvadratiske gitre som 3×5 eller 5×3.',
     },
     {
       question: 'Hvad er forskellen mellem kortcellefyldning og brikfyldning?',
@@ -183,7 +183,7 @@ const content: ToolContent = {
       answer: 'Aktivér \"Brug tilpasset udvalg\" for at håndplukke, hvilke specifikke billeder der optræder i opråbspoolen. En levende tæller viser \"Valgt til tilpassede opråb: X\" mens du vælger. Giver præcis kontrol til produktkatalogtilpassede bingospil.',
     },
     {
-      question: 'Er Bingokort Skaberen sprogfølsom?',
+      question: 'Er Bingokort Generatoren sprogfølsom?',
       answer: 'Ja. Ordfyldning viser lokaliserede billednavne. At skifte sprog ændrer ord på kort, brikker og opråbsliste. Et kattebillede viser \"Kat\" på dansk, \"Cat\" på engelsk, \"Katze\" på tysk. Billedfyldning er ikke sprogfølsom.',
     },
     {
@@ -206,13 +206,13 @@ const content: ToolContent = {
 
   internalLinks: [
     { pageType: 'app', slug: 'bingo-arbejdsark', anchorText: 'Billedbingo Kort — Fulde Produktdetaljer' },
-    { pageType: 'tool', slug: 'matchnings-arbejdsark-skaber', anchorText: 'Matchnings Arbejdsark Skaber' },
-    { pageType: 'tool', slug: 'gitterpuslespil-skaber', anchorText: 'Gitterpuslespil Skaber' },
-    { pageType: 'tool', slug: 'skyggematchning-skaber', anchorText: 'Skyggematchning Skaber' },
-    { pageType: 'tool', slug: 'sorter-billeder-skaber', anchorText: 'Sortér Billeder Skaber' },
-    { pageType: 'tool', slug: 'ordsoegning-skaber', anchorText: 'Ordsøgning Skaber' },
-    { pageType: 'tool', slug: 'find-den-underlige-skaber', anchorText: 'Find den Underlige Skaber' },
-    { pageType: 'tool', slug: 'malebilleder-skaber', anchorText: 'Malebilleder Skaber' },
+    { pageType: 'tool', slug: 'matchnings-arbejdsark-skaber', anchorText: 'Matchnings Arbejdsark Generator' },
+    { pageType: 'tool', slug: 'gitterpuslespil-skaber', anchorText: 'Gitterpuslespil Generator' },
+    { pageType: 'tool', slug: 'skyggematchning-skaber', anchorText: 'Skyggematchning Generator' },
+    { pageType: 'tool', slug: 'sorter-billeder-skaber', anchorText: 'Sortér Billeder Generator' },
+    { pageType: 'tool', slug: 'ordsoegning-skaber', anchorText: 'Ordsøgning Generator' },
+    { pageType: 'tool', slug: 'find-den-underlige-skaber', anchorText: 'Find den Underlige Generator' },
+    { pageType: 'tool', slug: 'malebilleder-skaber', anchorText: 'Malebilleder Generator' },
   ],
 
   visuals: {

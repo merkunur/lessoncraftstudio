@@ -2,33 +2,33 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'billedkrydsord skaber til udskrift',
+    primaryKeyword: 'billedkrydsord generator til udskrift',
     secondaryKeywords: [
       'krydsord med billeder online',
       'lav billedkrydsord arbejdsark',
-      'krydsordspuslespil skaber med billedledetråde',
+      'krydsordspuslespil generator med billedledetråde',
       'ordforråds krydsord generator for brugere',
     ],
     lsiKeywords: [
       'billedkrydsord puslespil med billedledetråde til ordforrådsøvelse',
       'flersproget krydsordsgenerator med automatisk facit',
-      'tilpasset ordliste krydsord med ledetråde skaber',
+      'tilpasset ordliste krydsord med ledetråde generator',
     ],
-    titleTag: 'Billedkrydsord Skaber — Krydsordspuslespil med Billedledetråde',
+    titleTag: 'Billedkrydsord Generator — Krydsordspuslespil med Billedledetråde',
     metaDescription: 'Lav billedkrydsord med billedledetråde på 15×15 gitter. 4 indtastningsmetoder, automatisk facit med udfyldt gitter, 104 temaer. Gratis prøveversion med vandmærke.',
   },
 
   hero: {
-    title: 'Billedkrydsord Skaber',
+    title: 'Billedkrydsord Generator',
     tagline: 'Billedkrydsordværktøj med billedledetråde på fast 15×15 gitter, fire indtastningsmetoder (hurtig temagenerering, manuel billednavnredigering, tilpasset ordliste med ledetråde og upload egne billeder), automatisk genereret facit med udfyldt gitter via dobbelt lærredssystem, sprogafhængige puslespilord på 11 sprog gennem billedvokabulær og en lokaliseret blå overskrift (#5B9BD5) med Fredoka-titel og Quicksand-beskrivelse over 104 tematiske billedsamlinger',
-    description: 'Lav professionelle billedkrydsord, hvor farverige billeder erstatter traditionelle tekstledetråde. Otte billeder genererer otte ord på et fast 15×15 gitter — algoritmen udtrækker ord fra billednavne, fjerner mellemrum, konverterer til store bogstaver, blander, sorterer efter længde (længste først) og placerer ord med optimal krydsning ved delte bogstaver. Nummererede ledetrådpositioner markerer begyndelsen af hvert ord, og billedledetråde vises ved siden af gitteret med matchende numre. Vælg mellem fire indtastningsmetoder. Hurtig Temagenerering vælger automatisk 8 tilfældige billeder fra de 104 temasamlinger og genererer direkte. Manuel Billednavnredigering lader dig klikke på individuelle billeder og omdøbe dem før generering. Tilpasset Ordliste med Ledetråde skifter til traditionelle tekstkrydsord med ORD: ledetråd-format. Upload Egne Billeder lader dig tilføje egne JPEG-, PNG-, GIF- eller WebP-filer. Billedkrydsord Skaberen er sprogafhængig: puslespilord kommer fra lokaliserede billednavne via billedvokabulærsystemet. At skifte indholdssprog ændrer de faktiske krydsord — et kattebillede genererer \"CAT\" på engelsk men \"KATZE\" på tysk, \"CHAT\" på fransk og \"GATTO\" på italiensk, hvilket producerer helt forskellige krydsordspuslespil fra de samme billeder. Det dobbelte lærredssystem genererer både en puslespil-fane og en facit-fane — facittet viser det udfyldte gitter med alle korrekte svar synlige i cellerne. Hver puslespil inkluderer en automatisk genereret lokaliseret overskrift med blå baggrund (#5B9BD5). Gennemse 104 temasamlinger med 3.100+ illustrationer eller upload egne billeder. Anvend baggrunds- og rammetemaer med uafhængige gennemsigtighedskontroller. Eksportér trykfærdige PDF\'er og JPEG\'er i 300 DPI i Letter, A4 eller tilpassede størrelser. Skift gråtone for blækvenligt output. Den gratis prøveversion indeholder alle funktioner med vandmærke. Køb en licens for at fjerne vandmærket og sælge kommercielt.',
+    description: 'Lav professionelle billedkrydsord, hvor farverige billeder erstatter traditionelle tekstledetråde. Otte billeder genererer otte ord på et fast 15×15 gitter — algoritmen udtrækker ord fra billednavne, fjerner mellemrum, konverterer til store bogstaver, blander, sorterer efter længde (længste først) og placerer ord med optimal krydsning ved delte bogstaver. Nummererede ledetrådpositioner markerer begyndelsen af hvert ord, og billedledetråde vises ved siden af gitteret med matchende numre. Vælg mellem fire indtastningsmetoder. Hurtig Temagenerering vælger automatisk 8 tilfældige billeder fra de 104 temasamlinger og genererer direkte. Manuel Billednavnredigering lader dig klikke på individuelle billeder og omdøbe dem før generering. Tilpasset Ordliste med Ledetråde skifter til traditionelle tekstkrydsord med ORD: ledetråd-format. Upload Egne Billeder lader dig tilføje egne JPEG-, PNG-, GIF- eller WebP-filer. Billedkrydsord Generatoren er sprogafhængig: puslespilord kommer fra lokaliserede billednavne via billedvokabulærsystemet. At skifte indholdssprog ændrer de faktiske krydsord — et kattebillede genererer \"CAT\" på engelsk men \"KATZE\" på tysk, \"CHAT\" på fransk og \"GATTO\" på italiensk, hvilket producerer helt forskellige krydsordspuslespil fra de samme billeder. Det dobbelte lærredssystem genererer både en puslespil-fane og en facit-fane — facittet viser det udfyldte gitter med alle korrekte svar synlige i cellerne. Hver puslespil inkluderer en automatisk genereret lokaliseret overskrift med blå baggrund (#5B9BD5). Gennemse 104 temasamlinger med 3.100+ illustrationer eller upload egne billeder. Anvend baggrunds- og rammetemaer med uafhængige gennemsigtighedskontroller. Eksportér trykfærdige PDF\'er og JPEG\'er i 300 DPI i Letter, A4 eller tilpassede størrelser. Skift gråtone for blækvenligt output. Den gratis prøveversion indeholder alle funktioner med vandmærke. Køb en licens for at fjerne vandmærket og sælge kommercielt.',
   },
 
   tutorial: {
     title: 'Sådan Laver du Billedkrydsord i 8 Trin',
     steps: [
       {
-        title: 'Åbn Billedkrydsord Skaberen',
+        title: 'Åbn Billedkrydsord Generatoren',
         description: 'Klik på \"Prøv gratis nu\" for at starte billedkrydsordværktøjet i din browser. Værktøjet indlæses direkte med et indstillingssidepanel til venstre og et dobbeltfane-lærred til højre — en fane for krydsordsbladet, en for facittet. Ingen konto, ingen download, ingen installation kræves.',
       },
       {
@@ -45,7 +45,7 @@ const content: ToolContent = {
       },
       {
         title: 'Vælg dit indholdssprog',
-        description: 'Vælg indholdssprog for at styre ordene, der vises i krydsordsgitteret. Billedkrydsord Skaberen er sprogafhængig — puslespilord kommer fra lokaliserede billednavne. Det samme kattebillede genererer \"KAT\" på dansk, \"CAT\" på engelsk, \"KATZE\" på tysk, \"CHAT\" på fransk — helt forskellige krydsordspuslespil fra identiske billedvalg. Denne flersprogede evne lader dig lave og sælge krydsordsprodukter til internationale markeder fra de samme billedsæt.',
+        description: 'Vælg indholdssprog for at styre ordene, der vises i krydsordsgitteret. Billedkrydsord Generatoren er sprogafhængig — puslespilord kommer fra lokaliserede billednavne. Det samme kattebillede genererer \"KAT\" på dansk, \"CAT\" på engelsk, \"KATZE\" på tysk, \"CHAT\" på fransk — helt forskellige krydsordspuslespil fra identiske billedvalg. Denne flersprogede evne lader dig lave og sælge krydsordsprodukter til internationale markeder fra de samme billedsæt.',
       },
       {
         title: 'Generér billedkrydsordspuslespillet',
@@ -92,7 +92,7 @@ const content: ToolContent = {
   businessIdeas: [
     {
       title: 'Tematisk billedkrydsordbutik på Etsy',
-      description: 'Åbn en Etsy-butik specialiseret i billedkrydsordspakker organiseret efter tema med de 104 billedsamlinger. Hvert tema bliver en separat annonce med 15–20 unikke puslespil og facit. Hurtig Temagenerering producerer unikke krydsord ved hvert klik. Billedledetrådsformatet skaber visuelt tiltalende annonceminiaturer.',
+      description: 'Åbn en Etsy-butik specialiseret i billedkrydsordspakker organiseret efter tema med de 104 billedsamlinger. Hvert tema bliver en separat annonce med 15–20 unikke puslespil og facit. Hurtig Temagenerering producerer unikke krydsord ved hvert klik. Billedledetrådsformatet generator visuelt tiltalende annonceminiaturer.',
       platform: 'Etsy',
     },
     {
@@ -107,12 +107,12 @@ const content: ToolContent = {
     },
     {
       title: 'Flersproget krydsordforretning for internationale markeder',
-      description: 'Den sprogafhængige ordgenerering skaber helt forskellige krydsordspuslespil fra identiske billeder, når du skifter sprog. Et enkelt sæt af 8 dyrebilleder producerer unikke krydsordsgittere på 11 sprog. Lav sprogspecifikke krydsordspakker for hver markedsplads. Ét billedsæt genererer 11 sælgbare produkter.',
+      description: 'Den sprogafhængige ordgenerering generator helt forskellige krydsordspuslespil fra identiske billeder, når du skifter sprog. Et enkelt sæt af 8 dyrebilleder producerer unikke krydsordsgittere på 11 sprog. Lav sprogspecifikke krydsordspakker for hver markedsplads. Ét billedsæt genererer 11 sælgbare produkter.',
       platform: 'Etsy / Gumroad',
     },
     {
       title: 'Pinterest billedkrydsords trafiktragt',
-      description: 'Billedkrydsord gør visuelt slående Pinterest-pins — et farverigt krydsordsgitter omgivet af billedledetråde skaber et øjeblikkeligt engagerende puslespilformat. Pin prøvekrydsord, der viser billedledetrådslayoutet med nummererede positioner.',
+      description: 'Billedkrydsord gør visuelt slående Pinterest-pins — et farverigt krydsordsgitter omgivet af billedledetråde generator et øjeblikkeligt engagerende puslespilformat. Pin prøvekrydsord, der viser billedledetrådslayoutet med nummererede positioner.',
       platform: 'Pinterest',
     },
     {
@@ -133,7 +133,7 @@ const content: ToolContent = {
     },
     {
       title: 'Udnyt sprogafhængig generering for flersprogede produkter',
-      description: 'De samme 8 billeder producerer helt forskellige krydsordsgittere, når du skifter sprog. Et kattebillede skaber \"KAT\" på dansk, \"CAT\" på engelsk, \"KATZE\" på tysk, \"CHAT\" på fransk — forskellige ordlængder betyder forskellige gitterplaceringer, forskellige krydsninger og forskellig puslespilsværhed. Lav ét tematisk billedsæt og generér krydsord på alle 11 sprog.',
+      description: 'De samme 8 billeder producerer helt forskellige krydsordsgittere, når du skifter sprog. Et kattebillede generator \"KAT\" på dansk, \"CAT\" på engelsk, \"KATZE\" på tysk, \"CHAT\" på fransk — forskellige ordlængder betyder forskellige gitterplaceringer, forskellige krydsninger og forskellig puslespilsværhed. Lav ét tematisk billedsæt og generér krydsord på alle 11 sprog.',
     },
     {
       title: 'Brug tilpasset ordlistetilstand til produktkatalogtilpassede produkter',
@@ -175,7 +175,7 @@ const content: ToolContent = {
       answer: 'Dobbelt lærredssystem med en Arbejdsarks-fane (det tomme puslespil) og en Facit-fane (det udfyldte gitter). Arbejdsarket viser krydsordsgitteret med nummererede positioner og ledetråde. Facittet gengiver det identiske layout og fylder hver celle med de korrekte bogstaver. Begge versioner eksporteres separat med fire downloadknapper.',
     },
     {
-      question: 'Er Billedkrydsord Skaberen sprogafhængig?',
+      question: 'Er Billedkrydsord Generatoren sprogafhængig?',
       answer: 'Ja. Puslespilord kommer fra lokaliserede billednavne via billedvokabulærsystemet. At skifte indholdssprog ændrer de faktiske ord i krydsordsgitteret. Et kattebillede genererer \"KAT\" på dansk men \"CAT\" på engelsk, \"KATZE\" på tysk, \"CHAT\" på fransk — helt forskellige krydsordspuslespil fra identiske billedvalg.',
     },
     {
@@ -202,13 +202,13 @@ const content: ToolContent = {
 
   internalLinks: [
     { pageType: 'app', slug: 'krydsord-arbejdsark', anchorText: 'Billedkrydsord — Fulde Produktdetaljer' },
-    { pageType: 'tool', slug: 'ordsoegning-skaber', anchorText: 'Ordsøgning Skaber' },
-    { pageType: 'tool', slug: 'ordmix-skaber', anchorText: 'Bogstavblanding Skaber' },
-    { pageType: 'tool', slug: 'gaet-ordet-skaber', anchorText: 'Gæt Ordet Skaber' },
-    { pageType: 'tool', slug: 'skattejagt-skaber', anchorText: 'Skattejagt Skaber' },
-    { pageType: 'tool', slug: 'find-og-tael-skaber', anchorText: 'Find og Tæl Skaber' },
-    { pageType: 'tool', slug: 'find-genstandene-skaber', anchorText: 'Skjulte Objekter Skaber' },
-    { pageType: 'tool', slug: 'kryptogram-skaber', anchorText: 'Kryptogram Skaber' },
+    { pageType: 'tool', slug: 'ordsoegning-skaber', anchorText: 'Ordsøgning Generator' },
+    { pageType: 'tool', slug: 'ordmix-skaber', anchorText: 'Bogstavblanding Generator' },
+    { pageType: 'tool', slug: 'gaet-ordet-skaber', anchorText: 'Gæt Ordet Generator' },
+    { pageType: 'tool', slug: 'skattejagt-skaber', anchorText: 'Skattejagt Generator' },
+    { pageType: 'tool', slug: 'find-og-tael-skaber', anchorText: 'Find og Tæl Generator' },
+    { pageType: 'tool', slug: 'find-genstandene-skaber', anchorText: 'Skjulte Objekter Generator' },
+    { pageType: 'tool', slug: 'kryptogram-skaber', anchorText: 'Kryptogram Generator' },
   ],
 
   visuals: {

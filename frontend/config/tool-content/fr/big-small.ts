@@ -27,7 +27,7 @@ const content: ToolContent = {  seo: {
     title: 'Comment Créer des Fiches de Comparaison de Tailles en 8 Étapes Simples',
     steps: [
       {
-        title: 'Ouvrir le Créateur de Fiches Grand & Petit',
+        title: 'Ouvrir le Générateur de Fiches Grand & Petit',
         description: 'Cliquez sur \" Essayer maintenant \" pour lancer le générateur dans votre navigateur. L\'outil s\'ouvre instantanément avec une barre latérale de réglages à gauche et un canevas d\'aperçu en temps réel à droite. Aucun compte, téléchargement ni installation requis — commencez à créer des fiches de comparaison de tailles immédiatement.',
       },
       {
@@ -201,13 +201,13 @@ const content: ToolContent = {  seo: {
 
   internalLinks: [
     { pageType: 'app', slug: 'grand-petit-fiches', anchorText: 'Fiches Grand & Petit — Détails Complets du Produit' },
-    { pageType: 'tool', slug: 'generateur-train-suites-logiques', anchorText: 'Créateur de Fiches Train Suites Logiques' },
-    { pageType: 'tool', slug: 'generateur-fiches-sequences-logiques', anchorText: 'Créateur de Fiches Séquences Logiques' },
-    { pageType: 'tool', slug: 'generateur-dessin-quadrillage', anchorText: 'Créateur de Fiches Dessin sur Quadrillage' },
-    { pageType: 'tool', slug: 'generateur-fiches-association', anchorText: 'Créateur de Fiches d\'Association' },
-    { pageType: 'tool', slug: 'generateur-fiches-intrus', anchorText: 'Créateur de Fiches d\'Intrus' },
-    { pageType: 'tool', slug: 'generateur-discrimination-visuelle', anchorText: 'Créateur de Fiches de Discrimination Visuelle' },
-    { pageType: 'tool', slug: 'generateur-fiches-graphisme', anchorText: 'Créateur de Fiches de Graphisme' },
+    { pageType: 'tool', slug: 'generateur-train-suites-logiques', anchorText: 'Générateur de Fiches Train Suites Logiques' },
+    { pageType: 'tool', slug: 'generateur-fiches-sequences-logiques', anchorText: 'Générateur de Fiches Séquences Logiques' },
+    { pageType: 'tool', slug: 'generateur-dessin-quadrillage', anchorText: 'Générateur de Fiches Dessin sur Quadrillage' },
+    { pageType: 'tool', slug: 'generateur-fiches-association', anchorText: 'Générateur de Fiches d\'Association' },
+    { pageType: 'tool', slug: 'generateur-fiches-intrus', anchorText: 'Générateur de Fiches d\'Intrus' },
+    { pageType: 'tool', slug: 'generateur-discrimination-visuelle', anchorText: 'Générateur de Fiches de Discrimination Visuelle' },
+    { pageType: 'tool', slug: 'generateur-fiches-graphisme', anchorText: 'Générateur de Fiches de Graphisme' },
   ],
 
   visuals: {

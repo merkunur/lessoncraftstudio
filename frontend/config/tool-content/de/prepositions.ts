@@ -7,7 +7,7 @@ const content: ToolContent = {
       'Präpositionen-Arbeitsblätter kostenlos erstellen',
       'Ortspräpositionen-Generator online ohne Anmeldung',
       'kostenlose Präpositionen-Übungen mit Lösungsschlüssel',
-      'Präpositionen-Ersteller Lückentext Multiple Choice kostenlos',
+      'Präpositionen-Generator Lückentext Multiple Choice kostenlos',
     ],
     lsiKeywords: [
       'räumliche Präpositionen Lückentext Übungen',
@@ -28,7 +28,7 @@ const content: ToolContent = {
     title: 'Präpositionen-Arbeitsblätter erstellen in 8 einfachen Schritten',
     steps: [
       {
-        title: 'Den Präpositionen-Arbeitsblatt-Ersteller öffnen',
+        title: 'Den Präpositionen-Arbeitsblatt-Generator öffnen',
         description: 'Klicken Sie auf \"Kostenlos testen\", um den Generator zu starten. Das Tool öffnet sich sofort in Ihrem Browser mit einer Einstellungsleiste links und einer Live-Vorschau rechts. Kein Benutzerkonto, kein Software-Download und keine Installation erforderlich.',
       },
       {
@@ -81,7 +81,7 @@ const content: ToolContent = {
     },
     {
       title: 'Eigene-Bilder-Marken-Arbeitsblätter',
-      description: 'Laden Sie eigene Illustrationen, Maskottchen oder lizenzierte Grafiken hoch, um Präpositions-Arbeitsblätter zu erstellen, die kein Wettbewerber kopieren kann. Kombinieren Sie eigene Hauptbilder mit eigenen Formenaustausch-Formen für eine komplett einzigartige visuelle Identität. Homeschool-Ersteller können vertraute Gegenstände verwenden, und Etsy-Verkäufer bauen eine unverwechselbare Shop-Ästhetik über die gesamte Produktlinie auf.',
+      description: 'Laden Sie eigene Illustrationen, Maskottchen oder lizenzierte Grafiken hoch, um Präpositions-Arbeitsblätter zu erstellen, die kein Wettbewerber kopieren kann. Kombinieren Sie eigene Hauptbilder mit eigenen Formenaustausch-Formen für eine komplett einzigartige visuelle Identität. Homeschool-Generator können vertraute Gegenstände verwenden, und Etsy-Verkäufer bauen eine unverwechselbare Shop-Ästhetik über die gesamte Produktlinie auf.',
     },
     {
       title: 'Saisonale Präpositions-Bündel',
@@ -202,13 +202,13 @@ const content: ToolContent = {
 
   internalLinks: [
     { pageType: 'app', slug: 'praepositionen-arbeitsblaetter', anchorText: 'Präpositionen-Arbeitsblätter — Vollständige Produktdetails' },
-    { pageType: 'tool', slug: 'alphabet-zug-ersteller', anchorText: 'Alphabet-Zug-Ersteller' },
-    { pageType: 'tool', slug: 'woerter-raten-ersteller', anchorText: 'Wörter-Raten-Ersteller' },
-    { pageType: 'tool', slug: 'buchstabensalat-ersteller', anchorText: 'Buchstabensalat-Ersteller' },
-    { pageType: 'tool', slug: 'wortsuche-ersteller', anchorText: 'Wortsuche-Ersteller' },
-    { pageType: 'tool', slug: 'kryptogramm-ersteller', anchorText: 'Kryptogramm-Ersteller' },
-    { pageType: 'tool', slug: 'schreibuebungen-ersteller', anchorText: 'Schreibübungen-Ersteller' },
-    { pageType: 'tool', slug: 'zuordnungs-arbeitsblatt-ersteller', anchorText: 'Zuordnungs-Arbeitsblatt-Ersteller' },
+    { pageType: 'tool', slug: 'alphabet-zug-ersteller', anchorText: 'Alphabet-Zug-Generator' },
+    { pageType: 'tool', slug: 'woerter-raten-ersteller', anchorText: 'Wörter-Raten-Generator' },
+    { pageType: 'tool', slug: 'buchstabensalat-ersteller', anchorText: 'Buchstabensalat-Generator' },
+    { pageType: 'tool', slug: 'wortsuche-ersteller', anchorText: 'Wortsuche-Generator' },
+    { pageType: 'tool', slug: 'kryptogramm-ersteller', anchorText: 'Kryptogramm-Generator' },
+    { pageType: 'tool', slug: 'schreibuebungen-ersteller', anchorText: 'Schreibübungen-Generator' },
+    { pageType: 'tool', slug: 'zuordnungs-Arbeitsblatt-Generator', anchorText: 'Zuordnungs-Arbeitsblatt-Generator' },
   ],
 
   visuals: {

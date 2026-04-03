@@ -6,7 +6,7 @@ const content: ToolContent = {
     secondaryKeywords: [
       'Schatzsuche-Arbeitsblätter kostenlos erstellen',
       'Schatzsuche-Generator online ohne Anmeldung',
-      'kostenloser Richtungsrätsel-Ersteller für Kinder',
+      'kostenloser Richtungsrätsel-Generator für Kinder',
       'Wegfindungs-Rätsel online erstellen und drucken',
     ],
     lsiKeywords: [
@@ -28,7 +28,7 @@ const content: ToolContent = {
     title: 'Schatzsuche-Arbeitsblätter erstellen in 8 Schritten',
     steps: [
       {
-        title: 'Schatzsuche-Ersteller öffnen',
+        title: 'Schatzsuche-Generator öffnen',
         description: 'Klicken Sie auf \"Kostenlos testen\", um den Schatzsuche-Arbeitsblatt-Generator in Ihrem Browser zu starten. Das Tool lädt sofort mit einer Einstellungsleiste links und einem Dual-Tab-Canvas rechts — ein Tab für das Schatzsuche-Arbeitsblatt, ein Tab für den Lösungsschlüssel. Keine Kontoerstellung, kein Software-Download, keine Installation erforderlich — beginnen Sie sofort mit der Erstellung von Schatzsuche-Rätseln.',
       },
       {
@@ -41,7 +41,7 @@ const content: ToolContent = {
       },
       {
         title: 'Inhaltssprache auswählen',
-        description: 'Wählen Sie die Inhaltssprache, um den Richtungsanweisungstext auf dem Arbeitsblatt zu steuern. Der Schatzsuche-Ersteller ist sprachabhängig — alle Richtungen sind vollständig in 11 unterstützte Sprachen übersetzt. \"Starte bei\", \"Bewege dich\", \"Feld(er)\" und \"Wo ist der Schatz?\" lokalisieren sich zusammen mit den Grund- und Himmelsrichtungsvokabeln. Bildinhalte aktualisieren sich ebenfalls basierend auf der gewählten Sprache. Die kommerzielle Lizenz umfasst englische Inhalte; Vollzugriff schaltet alle 11 Sprachen für authentische muttersprachliche Schatzsuche-Arbeitsblätter frei, die Sie auf internationalen Märkten verkaufen können.',
+        description: 'Wählen Sie die Inhaltssprache, um den Richtungsanweisungstext auf dem Arbeitsblatt zu steuern. Der Schatzsuche-Generator ist sprachabhängig — alle Richtungen sind vollständig in 11 unterstützte Sprachen übersetzt. \"Starte bei\", \"Bewege dich\", \"Feld(er)\" und \"Wo ist der Schatz?\" lokalisieren sich zusammen mit den Grund- und Himmelsrichtungsvokabeln. Bildinhalte aktualisieren sich ebenfalls basierend auf der gewählten Sprache. Die kommerzielle Lizenz umfasst englische Inhalte; Vollzugriff schaltet alle 11 Sprachen für authentische muttersprachliche Schatzsuche-Arbeitsblätter frei, die Sie auf internationalen Märkten verkaufen können.',
       },
       {
         title: 'Bilder für das 5×5-Raster auswählen',
@@ -171,7 +171,7 @@ const content: ToolContent = {
       answer: 'Der Generator verwendet ein Dual-Canvas-System mit einem Arbeitsblatt-Tab und einem Lösungsschlüssel-Tab. Das Arbeitsblatt zeigt das 5×5-Raster mit verteilten Bildern und Richtungsanweisungen — bereit zum Lösen. Der Lösungsschlüssel reproduziert das identische Layout und hebt die finale Schatzzelle in Blassgelb (rgba(255, 250, 205, 0.8)) mit einem dunkelgrauen Rahmen hervor, sodass das Ziel sofort sichtbar ist. Beide Versionen werden separat über vier dedizierte Download-Buttons exportiert: Arbeitsblatt-JPEG, Lösungsschlüssel-JPEG, Arbeitsblatt-PDF und Lösungsschlüssel-PDF. Der Lösungsschlüssel generiert sich gleichzeitig mit dem Rätsel, sodass kein manuelles Markieren nötig ist und keine nicht übereinstimmenden Lösungen entstehen können.',
     },
     {
-      question: 'Ist der Schatzsuche-Ersteller sprachabhängig?',
+      question: 'Ist der Schatzsuche-Generator sprachabhängig?',
       answer: 'Ja, auf zwei Ebenen. Erstens sind alle Richtungsanweisungstexte — \"Starte bei\", \"Bewege dich\", Richtungsvokabeln (Grundrichtungen und Himmelsrichtungen), \"Feld(er)\" und \"Wo ist der Schatz?\" — vollständig in alle 11 unterstützten Sprachen übersetzt: Deutsch, Englisch, Französisch, Spanisch, Portugiesisch, Italienisch, Niederländisch, Schwedisch, Dänisch, Norwegisch und Finnisch. Zweitens aktualisieren sich Bildinhalte aus der Bibliothek basierend auf der gewählten Sprache. Ein Sprachwechsel erzeugt authentische muttersprachliche Schatzsuche-Arbeitsblätter mit lokalisierten Richtungsanweisungen und Bildern — keine englischen Rätsel mit übersetzten Überschriften. Die kommerzielle Lizenz umfasst englische Inhalte; Vollzugriff schaltet alle 11 Sprachen frei.',
     },
     {
@@ -202,13 +202,13 @@ const content: ToolContent = {
 
   internalLinks: [
     { pageType: 'app', slug: 'schatzsuche-arbeitsblaetter', anchorText: 'Schatzsuche-Arbeitsblätter — Vollständige Produktdetails' },
-    { pageType: 'tool', slug: 'bilderkreuzwortraetsel-ersteller', anchorText: 'Bilderkreuzworträtsel-Ersteller' },
-    { pageType: 'tool', slug: 'suchen-und-zaehlen-ersteller', anchorText: 'Suchen-und-Zählen-Ersteller' },
-    { pageType: 'tool', slug: 'suchbilder-ersteller', anchorText: 'Suchbilder-Ersteller' },
-    { pageType: 'tool', slug: 'wortsuche-ersteller', anchorText: 'Wortsuche-Ersteller' },
-    { pageType: 'tool', slug: 'bilderpfad-ersteller', anchorText: 'Bilderpfad-Labyrinth-Ersteller' },
-    { pageType: 'tool', slug: 'zuordnungs-arbeitsblatt-ersteller', anchorText: 'Zuordnungs-Arbeitsblatt-Ersteller' },
-    { pageType: 'tool', slug: 'mathe-raetsel-ersteller', anchorText: 'Mathe-Rätsel-Ersteller' },
+    { pageType: 'tool', slug: 'bilderkreuzwortraetsel-ersteller', anchorText: 'Bilderkreuzworträtsel-Generator' },
+    { pageType: 'tool', slug: 'suchen-und-zaehlen-ersteller', anchorText: 'Suchen-und-Zählen-Generator' },
+    { pageType: 'tool', slug: 'suchbilder-ersteller', anchorText: 'Suchbilder-Generator' },
+    { pageType: 'tool', slug: 'wortsuche-ersteller', anchorText: 'Wortsuche-Generator' },
+    { pageType: 'tool', slug: 'bilderpfad-ersteller', anchorText: 'Bilderpfad-Labyrinth-Generator' },
+    { pageType: 'tool', slug: 'zuordnungs-Arbeitsblatt-Generator', anchorText: 'Zuordnungs-Arbeitsblatt-Generator' },
+    { pageType: 'tool', slug: 'mathe-raetsel-ersteller', anchorText: 'Mathe-Rätsel-Generator' },
   ],
 
   visuals: {

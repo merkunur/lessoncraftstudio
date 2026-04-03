@@ -28,7 +28,7 @@ const content: ToolContent = {
     title: 'Comment Créer des Fiches de Prépositions en 8 Étapes Simples',
     steps: [
       {
-        title: 'Ouvrir le Créateur de Fiches de Prépositions',
+        title: 'Ouvrir le Générateur de Fiches de Prépositions',
         description: 'Cliquez sur \" Essayer maintenant \" pour lancer le générateur. L\'outil s\'ouvre instantanément dans votre navigateur avec une barre latérale de réglages à gauche et un canevas d\'aperçu en temps réel à droite. Aucun compte, téléchargement ni installation requis.',
       },
       {
@@ -81,7 +81,7 @@ const content: ToolContent = {
     },
     {
       title: 'Fiches Personnalisées avec Images de Marque',
-      description: 'Téléchargez vos propres illustrations, mascottes ou œuvres sous licence pour créer des fiches de prépositions qu\'aucun autre vendeur ne peut reproduire. Combinez des images principales personnalisées avec des formes de remplacement personnalisées pour une identité visuelle entièrement unique. Les créateurs de contenu éducatif peuvent utiliser des objets familiers, et les vendeurs Etsy peuvent construire une esthétique de boutique distinctive à travers toute leur gamme.',
+      description: 'Téléchargez vos propres illustrations, mascottes ou œuvres sous licence pour créer des fiches de prépositions qu\'aucun autre vendeur ne peut reproduire. Combinez des images principales personnalisées avec des formes de remplacement personnalisées pour une identité visuelle entièrement unique. Les générateurs de contenu éducatif peuvent utiliser des objets familiers, et les vendeurs Etsy peuvent construire une esthétique de boutique distinctive à travers toute leur gamme.',
     },
     {
       title: 'Packs Saisonniers de Prépositions',

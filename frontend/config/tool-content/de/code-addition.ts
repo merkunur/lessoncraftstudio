@@ -13,7 +13,7 @@ const content: ToolContent = {  seo: {
       'Wort-Entschlüsselungs-Modus Mathe-Rätsel',
       'Zahlencode-Logik-Rätsel Generator',
     ],
-    titleTag: 'Kostenloser Code-Mathe-Rätsel Ersteller | LCS',
+    titleTag: 'Kostenloser Code-Mathe-Rätsel Generator | LCS',
     metaDescription: 'Kostenloser Code-Mathe-Rätsel Generator — kryptarithmetische Additions-Rätsel mit Bildsymbolen sofort erstellen. Testversion mit Wasserzeichen verfügbar.',
     },
 
@@ -27,8 +27,8 @@ const content: ToolContent = {  seo: {
     title: 'Code-Knacker-Additions-Rätsel erstellen in 8 einfachen Schritten',
     steps: [
       {
-        title: 'Den Arbeitsblatt-Ersteller öffnen',
-        description: 'Klicken Sie auf \"Kostenlos testen\", um den Bilder-Additions-Ersteller zu starten. Das Tool öffnet sich sofort in Ihrem Browser mit einer dunklen Seitenleiste links für alle Einstellungen und einer hellen Arbeitsfläche rechts für die Live-Vorschau. Kein Benutzerkonto, kein Software-Download und keine Plugins erforderlich.',
+        title: 'Den Arbeitsblatt-Generator öffnen',
+        description: 'Klicken Sie auf \"Kostenlos testen\", um den Bilder-Additions-Generator zu starten. Das Tool öffnet sich sofort in Ihrem Browser mit einer dunklen Seitenleiste links für alle Einstellungen und einer hellen Arbeitsfläche rechts für die Live-Vorschau. Kein Benutzerkonto, kein Software-Download und keine Plugins erforderlich.',
       },
       {
         title: 'Die Symbolanzahl festlegen',
@@ -183,7 +183,7 @@ const content: ToolContent = {  seo: {
     },
     {
       question: 'Muss ich Software installieren?',
-      answer: 'Nein. Der Ersteller läuft vollständig in Ihrem Webbrowser und funktioniert auf jedem modernen Gerät — Windows, Mac, Chromebook, iPad oder Android-Tablet. Es gibt nichts zu installieren, keine Plugins erforderlich und kein Benutzerkonto zu erstellen. Inhaber einer kommerziellen Lizenz erhalten lebenslangen Zugang zu allen aktuellen Funktionen und allen zukünftigen Aktualisierungen des Generators, einschließlich unbegrenzter Arbeitsblatterstellung über alle unterstützten Themen und Exportformate hinweg. Verkäufer, die mehrere Übungsmodi in thematischen Bündeln kombinieren, erzielen durchweg höhere durchschnittliche Bestellwerte, da Eltern und Verkäufer umfassende Aktivitätspakete gegenüber einzelnen Arbeitsblattseiten bevorzugen. Die Fabric.js-basierte Canvas-Bearbeitung ermöglicht Echtzeit-Anpassungen von Text, Bildern und Layout, bevor Sie exportieren — so können Sie Ihre Arbeitsblätter perfektionieren und sicherstellen, dass jedes Detail Ihren Qualitätsstandards entspricht.',
+      answer: 'Nein. Der Generator läuft vollständig in Ihrem Webbrowser und funktioniert auf jedem modernen Gerät — Windows, Mac, Chromebook, iPad oder Android-Tablet. Es gibt nichts zu installieren, keine Plugins erforderlich und kein Benutzerkonto zu erstellen. Inhaber einer kommerziellen Lizenz erhalten lebenslangen Zugang zu allen aktuellen Funktionen und allen zukünftigen Aktualisierungen des Generators, einschließlich unbegrenzter Arbeitsblatterstellung über alle unterstützten Themen und Exportformate hinweg. Verkäufer, die mehrere Übungsmodi in thematischen Bündeln kombinieren, erzielen durchweg höhere durchschnittliche Bestellwerte, da Eltern und Verkäufer umfassende Aktivitätspakete gegenüber einzelnen Arbeitsblattseiten bevorzugen. Die Fabric.js-basierte Canvas-Bearbeitung ermöglicht Echtzeit-Anpassungen von Text, Bildern und Layout, bevor Sie exportieren — so können Sie Ihre Arbeitsblätter perfektionieren und sicherstellen, dass jedes Detail Ihren Qualitätsstandards entspricht.',
     },
     {
       question: 'Wie unterscheidet sich das von regulären Additions-Arbeitsblättern?',
@@ -197,13 +197,13 @@ const content: ToolContent = {  seo: {
 
   internalLinks: [
     { pageType: 'app', slug: 'bilder-additions-arbeitsblaetter', anchorText: 'Bilder-Additions-Arbeitsblätter — Vollständige Produktdetails' },
-    { pageType: 'tool', slug: 'additions-arbeitsblatt-ersteller', anchorText: 'Additions-Arbeitsblatt-Ersteller' },
-    { pageType: 'tool', slug: 'subtraktions-arbeitsblatt-ersteller', anchorText: 'Subtraktions-Arbeitsblatt-Ersteller' },
-    { pageType: 'tool', slug: 'mathe-raetsel-ersteller', anchorText: 'Mathe-Rätsel-Ersteller' },
-    { pageType: 'tool', slug: 'mathe-arbeitsblatt-ersteller', anchorText: 'Mathe-Arbeitsblatt-Ersteller' },
-    { pageType: 'tool', slug: 'kryptogramm-ersteller', anchorText: 'Kryptogramm-Ersteller' },
-    { pageType: 'tool', slug: 'wortsuche-ersteller', anchorText: 'Wortsuche-Ersteller' },
-    { pageType: 'tool', slug: 'zuordnungs-arbeitsblatt-ersteller', anchorText: 'Zuordnungs-Arbeitsblatt-Ersteller' },
+    { pageType: 'tool', slug: 'additions-Arbeitsblatt-Generator', anchorText: 'Additions-Arbeitsblatt-Generator' },
+    { pageType: 'tool', slug: 'subtraktions-Arbeitsblatt-Generator', anchorText: 'Subtraktions-Arbeitsblatt-Generator' },
+    { pageType: 'tool', slug: 'mathe-raetsel-ersteller', anchorText: 'Mathe-Rätsel-Generator' },
+    { pageType: 'tool', slug: 'mathe-Arbeitsblatt-Generator', anchorText: 'Mathe-Arbeitsblatt-Generator' },
+    { pageType: 'tool', slug: 'kryptogramm-ersteller', anchorText: 'Kryptogramm-Generator' },
+    { pageType: 'tool', slug: 'wortsuche-ersteller', anchorText: 'Wortsuche-Generator' },
+    { pageType: 'tool', slug: 'zuordnungs-Arbeitsblatt-Generator', anchorText: 'Zuordnungs-Arbeitsblatt-Generator' },
   ],
 
   visuals: {

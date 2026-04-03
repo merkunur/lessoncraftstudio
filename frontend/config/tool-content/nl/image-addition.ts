@@ -27,8 +27,8 @@ const content: ToolContent = {  seo: {
     title: 'Optelwerkbladen maken in 8 eenvoudige stappen',
     steps: [
       {
-        title: 'Open de werkblad maker',
-        description: 'Klik op "Gratis proefversie" om de optellen werkblad maker te starten. De tool opent direct in je browser met een donkere zijbalk links voor alle instellingen en een helder canvas rechts voor de live voorbeeldweergave van je werkblad. Geen account of software-download nodig — alles draait direct in de browser.',
+        title: 'Open de werkblad generator',
+        description: 'Klik op "Gratis proefversie" om de optellen werkblad generator te starten. De tool opent direct in je browser met een donkere zijbalk links voor alle instellingen en een helder canvas rechts voor de live voorbeeldweergave van je werkblad. Geen account of software-download nodig — alles draait direct in de browser.',
       },
       {
         title: 'Kies je oefenmodus',
@@ -195,12 +195,12 @@ const content: ToolContent = {  seo: {
 
   internalLinks: [
     { pageType: 'app', slug: 'optellen-werkbladen', anchorText: 'Watermerk verwijderen en verkopen met commerciële licentie' },
-    { pageType: 'tool', slug: 'aftrekken-werkblad-maker', anchorText: 'Gratis aftrekwerkbladen maker' },
-    { pageType: 'tool', slug: 'reken-werkblad-maker', anchorText: 'Gratis rekenwerkbladen maker' },
-    { pageType: 'tool', slug: 'code-optellen-werkblad-maker', anchorText: 'Code optellen werkblad maker' },
-    { pageType: 'tool', slug: 'meer-minder-werkblad-maker', anchorText: 'Meer of minder werkblad maker' },
-    { pageType: 'tool', slug: 'koppelen-werkblad-maker', anchorText: 'Gratis koppelwerkbladen maker' },
-    { pageType: 'tool', slug: 'zoek-en-tel-maker', anchorText: 'Zoek en tel werkblad maker' },
+    { pageType: 'tool', slug: 'aftrekken-werkblad-generator', anchorText: 'Gratis aftrekwerkbladen maker' },
+    { pageType: 'tool', slug: 'reken-werkblad-generator', anchorText: 'Gratis rekenwerkbladen maker' },
+    { pageType: 'tool', slug: 'code-optellen-werkblad-generator', anchorText: 'Code optellen werkblad generator' },
+    { pageType: 'tool', slug: 'meer-minder-werkblad-generator', anchorText: 'Meer of minder werkblad generator' },
+    { pageType: 'tool', slug: 'koppelen-werkblad-generator', anchorText: 'Gratis koppelwerkbladen maker' },
+    { pageType: 'tool', slug: 'zoek-en-tel-maker', anchorText: 'Zoek en tel werkblad generator' },
     { pageType: 'tool', slug: 'kleurplaten-maker', anchorText: 'Gratis kleurplaten maker' },
   ],
 

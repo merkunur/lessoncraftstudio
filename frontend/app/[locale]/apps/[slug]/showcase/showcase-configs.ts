@@ -37,7 +37,7 @@ export const showcaseConfigs: Record<string, ShowcaseConfig> = {
       accentColor: 'orange',
       badge: 'Grades K-2',
       heading: 'Learn Math with Pictures!',
-      subheading: 'Professional addition worksheets your students will love',
+      subheading: 'Professional addition worksheets your customers will love',
       images: [
         { src: img('addition', 'Addition Fun 1.webp'), alt: 'Addition worksheet with themed pictures — beginner level' },
         { src: img('addition', 'Addition Fun 2.webp'), alt: 'Addition worksheet with themed pictures — intermediate level' },
@@ -55,7 +55,7 @@ export const showcaseConfigs: Record<string, ShowcaseConfig> = {
       gradient: 'linear-gradient(180deg, #dbeafe 0%, #fef3c7 40%, #fed7aa 70%, #fecaca 100%)',
       badge: 'Skill Levels',
       heading: 'Differentiated Learning for Every Child',
-      subheading: 'Three difficulty tiers that grow with your students',
+      subheading: 'Three difficulty tiers that match every skill level',
       tiers: [
         {
           name: 'Beginner', gradientClass: 'from-emerald-400 to-green-500', textColorClass: 'text-emerald-700', borderColorClass: 'border-emerald-300', stars: 1,
@@ -400,7 +400,7 @@ export const showcaseConfigs: Record<string, ShowcaseConfig> = {
       gradient: 'linear-gradient(180deg, #ede9fe 0%, #dbeafe 40%, #fef3c7 100%)',
       badge: 'Skill Levels',
       heading: 'Algebra Concepts for Every Level',
-      subheading: 'Visual equations that grow with your students',
+      subheading: 'Visual equations that match every skill level',
       tiers: [
         {
           name: 'Beginner', gradientClass: 'from-emerald-400 to-green-500', textColorClass: 'text-emerald-700', borderColorClass: 'border-emerald-300', stars: 1,

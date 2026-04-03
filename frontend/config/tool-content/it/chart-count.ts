@@ -30,7 +30,7 @@ const content: ToolContent = {  seo: {
     title: 'Come Creare Schede Grafico con Immagini in 8 Passaggi',
     steps: [
       {
-        title: 'Apri il Creatore di Schede Grafico con Immagini',
+        title: 'Apri il Generatore di Schede Grafico con Immagini',
         description: 'Clicca "Prova Gratis Ora" per avviare il generatore di grafici con immagini nel tuo browser. Lo strumento si carica istantaneamente con una barra laterale delle impostazioni a sinistra e un canvas a doppia scheda a destra — una scheda per il foglio di lavoro, una per la chiave di risposta. Nessuna registrazione, nessun software da scaricare, nessuna installazione — inizia a creare schede grafico con immagini immediatamente.',
       },
       {

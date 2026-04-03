@@ -4,22 +4,22 @@ const content: ToolContent = {
   seo: {
     primaryKeyword: 'puslespilarbejdsark manglende brikker',
     secondaryKeywords: [
-      'puslespilarbejdsark skaber for sælgere',
+      'puslespilarbejdsark generator for sælgere',
       'lav manglende brikker puslespil til salg',
       'printbar puslespilgenerator kommerciel brug',
-      'manglende brikker puslespil skaber til KDP og Etsy',
+      'manglende brikker puslespil generator til KDP og Etsy',
     ],
     lsiKeywords: [
       'smart brikekstraktion farvevarians puslespil generator',
-      'seks former manglende brikker arbejdsark skaber med facit',
-      'distraktor-brikker puslespilarbejdsark skaber værktøj',
+      'seks former manglende brikker arbejdsark generator med facit',
+      'distraktor-brikker puslespilarbejdsark generator værktøj',
     ],
-    titleTag: 'Manglende Brikker Skaber — Puslespilarbejdsark Generator',
+    titleTag: 'Manglende Brikker Generator — Puslespilarbejdsark Generator',
     metaDescription: 'Lav puslespilarbejdsark med 6 brikformer, konfigurerbar sværhed, smart ekstraktion med distraktor-brikker, 104 temaer. Gratis prøveversion med vandmærke.',
   },
 
   hero: {
-    title: 'Manglende Brikker Skaber',
+    title: 'Manglende Brikker Generator',
     tagline: 'Puslespilarbejdsark generator med 6 brikformer (firkant, cirkel, rektangel stående/liggende, ellipse stående/liggende), 1–5 manglende brikker med 2–6 løsningsalternativer inklusive distraktorer, smart brikekstraktion med farvevariansdetektering og 250px minimumafstand, automatisk genererede facit med gulmarkerede nummertiketter, dobbelt rammesystem i blågrøn og hot pink, og 104 tematiske billedsamlinger',
     description: 'Lav professionelle puslespilarbejdsark, hvor et billede har huller klippet ud, og brugerne identificerer, hvilket nummereret alternativ der fylder hvert hul. Den smarte brikekstraktions-algoritme tester op til 150 placeringsforsøg for at finde brikker med tilstrækkelig farvevarians (mindste lysstyrke-varians 15) med mindst 250 pixels afstand mellem brikker. Brikstørrelse beregnes som 12% af billedets bredde med minimum 50 pixels. Vælg blandt 6 brikformer: firkant (standard) og cirkel for rene geometriske klip, rektangel stående/liggende for aflange huller, ellipse stående/liggende for blødere kurvede klip. Konfigurér sværheden med to uafhængige kontroller: 1–5 manglende brikker og 2–6 løsningsalternativer. Distraktor-brikker ekstraheres fra ikke-overlappende områder. Dobbeltarbejdsområde-systemet genererer samtidigt arbejdsark og facit — facittet viser gulmarkerede nummertiketter (rgba(255,255,0,0.7)) inde i hvert hul. En automatisk genereret overskrift gengiver \"Manglende brikker\" i turkis (#06B6D4) med rosafarvet beskrivelse (#DB2777) og dobbelt rammesystem — blågrøn ydre (#14B8A6, 8px) og hot pink indre (#EC4899, 3px). Manglende Brikker er IKKE sprogfølsomt — rent visuelt, universelt sælgbart uden oversættelse. Gennemse 104 tematiske samlinger med mere end 3.100 illustrationer eller upload egne billeder. Eksportér fire filer per session med 300 DPI. Den gratis prøveversion indeholder alle funktioner med vandmærke. Køb en licens for at fjerne vandmærket og sælge kommercielt.',
   },
@@ -28,7 +28,7 @@ const content: ToolContent = {
     title: 'Sådan Laver du Puslespilarbejdsark i 8 Trin',
     steps: [
       {
-        title: 'Åbn Manglende Brikker Skaberen',
+        title: 'Åbn Manglende Brikker Generatoren',
         description: 'Klik på \"Prøv gratis nu\" for at starte puslespilarbejdsark generatoren. Værktøjet indlæses direkte med et indstillingssidepanel til venstre og et dobbeltfane-arbejdsområde til højre. Ingen konto, ingen download, ingen installation kræves.',
       },
       {
@@ -37,7 +37,7 @@ const content: ToolContent = {
       },
       {
         title: 'Vælg en brikform blandt 6 alternativer',
-        description: 'Vælg en brikform: firkant (standard), cirkel, rektangel stående (80% bredde, 100% højde), rektangel liggende (100% bredde, 80% højde), ellipse stående eller ellipse liggende. Hver form interagerer anderledes med kildebilledet og skaber seks distinkte puslespilsoplevelser.',
+        description: 'Vælg en brikform: firkant (standard), cirkel, rektangel stående (80% bredde, 100% højde), rektangel liggende (100% bredde, 80% højde), ellipse stående eller ellipse liggende. Hver form interagerer anderledes med kildebilledet og generator seks distinkte puslespilsoplevelser.',
       },
       {
         title: 'Vælg et billede eller upload eget',
@@ -92,7 +92,7 @@ const content: ToolContent = {
   businessIdeas: [
     {
       title: 'Tematisk puslespilarbejdsarkbutik på Etsy',
-      description: 'Åbn en Etsy-butik specialiseret i puslespilarbejdsarkspakker med de 104 billedsamlinger. Seks brikformer skaber distinkte visuelle produkter. Det autogenererede facit med gulmarkerede nummertiketter eliminerer produktionsflaskehalsen.',
+      description: 'Åbn en Etsy-butik specialiseret i puslespilarbejdsarkspakker med de 104 billedsamlinger. Seks brikformer generator distinkte visuelle produkter. Det autogenererede facit med gulmarkerede nummertiketter eliminerer produktionsflaskehalsen.',
       platform: 'Etsy',
     },
     {
@@ -107,7 +107,7 @@ const content: ToolContent = {
     },
     {
       title: 'Pinterest puslespilarbejdsark trafiktragt',
-      description: 'Puslespilarbejdsark med huller klippet ud og nummererede alternativer skaber et øjeblikkeligt iøjnefaldende format. Pin prøvepuslespil med forskellige brikformer. Det rent visuelle format appellerer til alle lande.',
+      description: 'Puslespilarbejdsark med huller klippet ud og nummererede alternativer generator et øjeblikkeligt iøjnefaldende format. Pin prøvepuslespil med forskellige brikformer. Det rent visuelle format appellerer til alle lande.',
       platform: 'Pinterest',
     },
     {
@@ -129,7 +129,7 @@ const content: ToolContent = {
     },
     {
       title: 'Brug alle 6 brikformer for at multiplicere dit produktkatalog',
-      description: 'Det samme kildebillede producerer seks visuelt distinkte puslespil. Firkant, cirkel, rektangel stående/liggende og ellipse stående/liggende skaber alle anderledes udfordringer. Et 20-billede tema producerer op til 120 unikke puslespil.',
+      description: 'Det samme kildebillede producerer seks visuelt distinkte puslespil. Firkant, cirkel, rektangel stående/liggende og ellipse stående/liggende generator alle anderledes udfordringer. Et 20-billede tema producerer op til 120 unikke puslespil.',
     },
     {
       title: 'Udnyt distraktor-brikker for premium sværhedsprodukter',
@@ -137,7 +137,7 @@ const content: ToolContent = {
     },
     {
       title: 'Udnyt toakset sværhed for progressiv arbejdsbogsdesign',
-      description: 'Uafhængige manglende brikker (1–5) og løsningsalternativer (2–6) skaber en sværhedsmatrix. Kortlæg denne til arbejdsarkskapitler: begynd med 1 brik, 2 alternativer, avancér til 3 brikker, 4 alternativer, afslut med 5 brikker, 6 alternativer med distraktorer.',
+      description: 'Uafhængige manglende brikker (1–5) og løsningsalternativer (2–6) generator en sværhedsmatrix. Kortlæg denne til arbejdsarkskapitler: begynd med 1 brik, 2 alternativer, avancér til 3 brikker, 4 alternativer, afslut med 5 brikker, 6 alternativer med distraktorer.',
     },
     {
       title: 'Udnyt det rent visuelle format for globalt salg',
@@ -164,7 +164,7 @@ const content: ToolContent = {
     },
     {
       question: 'Hvilke 6 brikformer findes?',
-      answer: 'Firkant (standard), cirkel, rektangel stående (80% bredde, 100% højde), rektangel liggende (100% bredde, 80% højde), ellipse stående og ellipse liggende. Hver form skaber en anderledes visuel udfordring.',
+      answer: 'Firkant (standard), cirkel, rektangel stående (80% bredde, 100% højde), rektangel liggende (100% bredde, 80% højde), ellipse stående og ellipse liggende. Hver form generator en anderledes visuel udfordring.',
     },
     {
       question: 'Hvordan fungerer de to uafhængige sværhedskontroller?',
@@ -187,7 +187,7 @@ const content: ToolContent = {
       answer: 'Hvert puslespil har en stiliseret overskrift med \"Manglende brikker\" i turkis (#06B6D4) og rosafarvet beskrivelse (#DB2777), indrammet af blågrøn ydre (#14B8A6, 8px) og hot pink indre (#EC4899, 3px) rammer med en let forskydning.',
     },
     {
-      question: 'Er Manglende Brikker Skaberen sprogfølsom?',
+      question: 'Er Manglende Brikker Generatoren sprogfølsom?',
       answer: 'Nej. Rent visuelt format — ingen lokalafhængige elementer på arbejdsarket. Det eneste lokaliserede element er overskriftsteksten, oversat til alle 11 sprog. Puslespillet selv fungerer identisk på alle sprog. Universelt sælgbart uden oversættelse.',
     },
     {
@@ -206,13 +206,13 @@ const content: ToolContent = {
 
   internalLinks: [
     { pageType: 'app', slug: 'manglende-brikker-arbejdsark', anchorText: 'Manglende Brikker Puslespil — Fulde Produktdetaljer' },
-    { pageType: 'tool', slug: 'find-den-underlige-skaber', anchorText: 'Find den Underlige Skaber' },
-    { pageType: 'tool', slug: 'skyggematchning-skaber', anchorText: 'Skyggematchning Skaber' },
-    { pageType: 'tool', slug: 'gitterpuslespil-skaber', anchorText: 'Gitterpuslespil Skaber' },
-    { pageType: 'tool', slug: 'matchnings-arbejdsark-skaber', anchorText: 'Matchnings Arbejdsark Skaber' },
-    { pageType: 'tool', slug: 'sorter-billeder-skaber', anchorText: 'Sortér Billeder Skaber' },
-    { pageType: 'tool', slug: 'ordsoegning-skaber', anchorText: 'Ordsøgning Skaber' },
-    { pageType: 'tool', slug: 'malebilleder-skaber', anchorText: 'Malebilleder Skaber' },
+    { pageType: 'tool', slug: 'find-den-underlige-skaber', anchorText: 'Find den Underlige Generator' },
+    { pageType: 'tool', slug: 'skyggematchning-skaber', anchorText: 'Skyggematchning Generator' },
+    { pageType: 'tool', slug: 'gitterpuslespil-skaber', anchorText: 'Gitterpuslespil Generator' },
+    { pageType: 'tool', slug: 'matchnings-arbejdsark-skaber', anchorText: 'Matchnings Arbejdsark Generator' },
+    { pageType: 'tool', slug: 'sorter-billeder-skaber', anchorText: 'Sortér Billeder Generator' },
+    { pageType: 'tool', slug: 'ordsoegning-skaber', anchorText: 'Ordsøgning Generator' },
+    { pageType: 'tool', slug: 'malebilleder-skaber', anchorText: 'Malebilleder Generator' },
   ],
 
   visuals: {

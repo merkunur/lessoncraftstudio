@@ -4,9 +4,9 @@ const content: AppContent = {
   seo: {
     primaryKeyword: 'manglende brikker puslespil generator',
     secondaryKeywords: [
-      'printbar puslespil skaber til Etsy-sælgere',
+      'printbar puslespil generator til Etsy-sælgere',
       'manglende brikker arbejdsark generator til KDP-udgivere',
-      'visuelt puslespil skaber kommerciel licens Gumroad',
+      'visuelt puslespil generator kommerciel licens Gumroad',
       'sælg manglende brikker arbejdsark på Gumroad',
     ],
     lsiKeywords: [
@@ -37,7 +37,7 @@ const content: AppContent = {
       {
         title: 'Konfigurer puslespillet',
         description:
-          'Åbn panelet Puslespilskonfiguration og indstil antallet af manglende brikker fra 1 til 5 — dette kontrollerer, hvor mange huller der klippes ud af billedet. Indstil antallet af løsningsalternativer fra 2 til 6, som inkluderer de korrekte brikker plus distraktorbrikker, der øger sværheden. Vælg en brikform blandt 6 muligheder: firkant (standard), cirkel, rektangel stående, rektangel liggende, ellipse stående eller ellipse liggende. Hver form skaber en anderledes visuel udfordring.',
+          'Åbn panelet Puslespilskonfiguration og indstil antallet af manglende brikker fra 1 til 5 — dette kontrollerer, hvor mange huller der klippes ud af billedet. Indstil antallet af løsningsalternativer fra 2 til 6, som inkluderer de korrekte brikker plus distraktorbrikker, der øger sværheden. Vælg en brikform blandt 6 muligheder: firkant (standard), cirkel, rektangel stående, rektangel liggende, ellipse stående eller ellipse liggende. Hver form generator en anderledes visuel udfordring.',
       },
       {
         title: 'Vælg et billede fra biblioteket eller upload et eget',
@@ -68,7 +68,7 @@ const content: AppContent = {
       {
         title: 'Seks brikformer: Firkant, Cirkel, Rektangel og Ellipsevarianter',
         description:
-          'Vælg blandt 6 distinkte brikformer, der ændrer den visuelle karakter af hvert puslespil. Firkant (standard) og cirkel tilbyder rene geometriske udklip. Rektangel stående og rektangel liggende skaber aflange huller med forskellige orienteringer — stående bruger 80% bredde og 100% højde, liggende bruger 100% bredde og 80% højde. Ellipse stående og ellipse liggende tilbyder blødere kurvede udklip med de samme dimensionsforhold. Hver form interagerer anderledes med kildebilledet, hvilket skaber unikke identifikationsudfordringer, selv når den samme underliggende illustration bruges.',
+          'Vælg blandt 6 distinkte brikformer, der ændrer den visuelle karakter af hvert puslespil. Firkant (standard) og cirkel tilbyder rene geometriske udklip. Rektangel stående og rektangel liggende generator aflange huller med forskellige orienteringer — stående bruger 80% bredde og 100% højde, liggende bruger 100% bredde og 80% højde. Ellipse stående og ellipse liggende tilbyder blødere kurvede udklip med de samme dimensionsforhold. Hver form interagerer anderledes med kildebilledet, hvilket generator unikke identifikationsudfordringer, selv når den samme underliggende illustration bruges.',
       },
       {
         title: 'Smart brikekstraktion med farvevariansdetektering',
@@ -127,7 +127,7 @@ const content: AppContent = {
       {
         title: 'Sæsonbetonede og højtidspuslespil-samlinger',
         description:
-          'De 104 tematiske billedsamlinger dækker enhver sæson- og højtidslejlighed — jul, halloween, påske, valentinsdag, skolestart, sommerferie og flere. Opret tidsbegrænsede puslespilssamlinger, der falder sammen med topindkøbsperioder. Udgiv halloween-puslespilspakker i september, julesamlinger i oktober og valentinsdag-pakker i januar. Varier brikformer og sværhedsgrader inden for hvert sæsonsæt for maksimal værdi. Sæsonprodukter motiverer højere priser under deres topvinduer og skaber naturlige grunde til genkøb fra din kundebase.',
+          'De 104 tematiske billedsamlinger dækker enhver sæson- og højtidslejlighed — jul, halloween, påske, valentinsdag, skolestart, sommerferie og flere. Opret tidsbegrænsede puslespilssamlinger, der falder sammen med topindkøbsperioder. Udgiv halloween-puslespilspakker i september, julesamlinger i oktober og valentinsdag-pakker i januar. Varier brikformer og sværhedsgrader inden for hvert sæsonsæt for maksimal værdi. Sæsonprodukter motiverer højere priser under deres topvinduer og generator naturlige grunde til genkøb fra din kundebase.',
         platform: 'Etsy / Amazon KDP / Gumroad (sæsonbetonet)',
       },
       {
@@ -148,7 +148,7 @@ const content: AppContent = {
     {
       question: 'Hvilke 6 brikformer er tilgængelige?',
       answer:
-        'Du kan vælge blandt firkant (standard), cirkel, rektangel stående (80% bredde, 100% højde), rektangel liggende (100% bredde, 80% højde), ellipse stående (80% rx, 100% ry) og ellipse liggende (100% rx, 80% ry). Hver form skaber en anderledes visuel udfordring. Firkant og cirkel tilbyder rene geometriske udklip, mens rektangel- og ellipsevarianter skaber aflange eller kurvede former, der interagerer anderledes med kildebilledet.',
+        'Du kan vælge blandt firkant (standard), cirkel, rektangel stående (80% bredde, 100% højde), rektangel liggende (100% bredde, 80% højde), ellipse stående (80% rx, 100% ry) og ellipse liggende (100% rx, 80% ry). Hver form generator en anderledes visuel udfordring. Firkant og cirkel tilbyder rene geometriske udklip, mens rektangel- og ellipsevarianter generator aflange eller kurvede former, der interagerer anderledes med kildebilledet.',
     },
     {
       question: 'Hvordan fungerer sværhedsindstillingerne?',
@@ -178,7 +178,7 @@ const content: AppContent = {
     {
       question: 'Hvordan fungerer det dobbelte rammesystem?',
       answer:
-        'Hvert genereret puslespil har to dekorative rammer. Den ydre ramme bruger lysende blågrøn (#14B8A6) med 8px streg, 34px marginer og 12px kantradius. Den indre ramme bruger varm rosa (#EC4899) med 3px streg, 46,5px marginer, 8px kantradius og en let forskydning på 2px højre og 3px ned. Sammen skaber de en poleret, professionel indramning, der øger den visuelle kvalitet af dine puslespilsarbejdsark til markedspladsannoncer.',
+        'Hvert genereret puslespil har to dekorative rammer. Den ydre ramme bruger lysende blågrøn (#14B8A6) med 8px streg, 34px marginer og 12px kantradius. Den indre ramme bruger varm rosa (#EC4899) med 3px streg, 46,5px marginer, 8px kantradius og en let forskydning på 2px højre og 3px ned. Sammen generator de en poleret, professionel indramning, der øger den visuelle kvalitet af dine puslespilsarbejdsark til markedspladsannoncer.',
     },
     {
       question: 'Findes der en gratis prøveversion?',

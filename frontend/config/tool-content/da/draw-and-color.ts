@@ -4,7 +4,7 @@ const content: ToolContent = {
   seo: {
     primaryKeyword: 'tegne arbejdsark generator',
     secondaryKeywords: [
-      'gittertegning arbejdsark skaber for sælgere',
+      'gittertegning arbejdsark generator for sælgere',
       'lav tegn og farvelæg arbejdsark til salg',
       'printbare gitterreproduktion arbejdsark kommerciel brug',
       'celle-for-celle tegne arbejdsark generator til KDP',
@@ -12,14 +12,14 @@ const content: ToolContent = {
     lsiKeywords: [
       'dobbeltgitter tegning printbare til Etsy',
       'justerbar ledetrådsprocent arbejdsark værktøj',
-      'symmetri spejltilstand tegne arbejdsark skaber',
+      'symmetri spejltilstand tegne arbejdsark generator',
     ],
-    titleTag: 'Tegne Arbejdsark Generator — Gittertegning Skaber | Sælg',
+    titleTag: 'Tegne Arbejdsark Generator — Gittertegning Generator | Sælg',
     metaDescription: 'Generér gittertegning arbejdsark med dobbeltgitter, justerbar ledetrådsprocent, tre symmetritilstande og tematiske billedsæt. Gratis prøveversion med vandmærke.',
   },
 
   hero: {
-    title: 'Tegn og Farvelæg Arbejdsark Skaber',
+    title: 'Tegn og Farvelæg Arbejdsark Generator',
     tagline: 'Generér dobbeltgitter tegnearbejdsark med justerbar ledetrådsprocent, tre symmetritilstande og helt visuelt tekstfrit output, der sælger globalt uden oversættelse',
     description: 'Lav professionelle gittertegning arbejdsark, hvor brugerne reproducerer et referencebillede ved at kopiere det celle-for-celle fra et ledetrådsgitter til et tomt øvelsesgitter. To gitre vises per valgt billede: et Øvelsesgitter med tomme celler, hvor brugerne tegner, og et Ledetrådsgitter, der viser en konfigurerbar procentdel af referencebilledet som visuelle tips. Justér ledetrådsprocenten fra 10% til 75% for at kontrollere sværhedsgraden — færre ledetråde betyder sværere øvelser, der kræver skarpere observation. Konfigurér gitterdimensioner fra 3×3 (9 celler) til 10×10 (100 celler), med rækker og kolonner justerbare uafhængigt. Tre symmetritilstande tilføjer en rumlig vurderingsdimension: Tilfældig spreder ledetråde i vilkårlige positioner, Horisontal spejler ledetråde venstre-højre, og Vertikal spejler ledetråde oppefra-ned. Indhold hentes fra det indbyggede sort-hvid konturbibliotek med 100+ samlinger med mere end 3.000 sort-hvide illustrationer specifikt designet til tegning og farvelægning — rene konturer som brugerne reproducerer og derefter farvelægger. Dette er en helt visuel app: arbejdsark indeholder kun gitterbilleder med nul tekst, hvilket gør dem universelt sælgbare uden oversættelse. Intet separat facit eksisterer, da ledetrådsgitteret selv fungerer som referenceløsningen. Eksportér trykfærdige PDF\'er og JPEG-billeder med 300 DPI i Letter, A4, Kvadrat (1200×1200) eller tilpassede størrelser. Skift gråtone for blækvenligt output. Den gratis prøveversion indeholder alle funktioner med et vandmærke på downloads. Køb en licens for at fjerne vandmærket og sælge kommercielt.',
   },
@@ -28,7 +28,7 @@ const content: ToolContent = {
     title: 'Sådan Laver du Gittertegning Arbejdsark i 8 Trin',
     steps: [
       {
-        title: 'Åbn Tegn og Farvelæg Arbejdsark Skaberen',
+        title: 'Åbn Tegn og Farvelæg Arbejdsark Generatoren',
         description: 'Klik på \"Prøv gratis nu\" for at starte generatoren i din browser. Værktøjet indlæses direkte med et indstillingssidepanel til venstre og et liveforhåndsvisningsarbejdsområde til højre. Ingen konto, ingen download, ingen installation kræves.',
       },
       {
@@ -92,7 +92,7 @@ const content: ToolContent = {
   businessIdeas: [
     {
       title: 'Ledetrådsprocent-gradueret tegnebutik på Etsy',
-      description: 'Åbn en Etsy-butik specialiseret i gittertegning arbejdsark organiseret efter sværhedsgrad med ledetrådsprocent som primært differentieringspunkt. Lette pakker har 75% ledetråde med 4×4-gitre. Mellempakker bruger 40–50% ledetråde med 6×6-gitre. Svære pakker sænker til 15–25% ledetråde med 8×8-gitre. Ekspertpakker skubber til 10% ledetråde med 10×10-gitre. Dobbeltgitterformatet skaber et premiumprodukt, der skiller sig ud fra grundlæggende malebilleder.',
+      description: 'Åbn en Etsy-butik specialiseret i gittertegning arbejdsark organiseret efter sværhedsgrad med ledetrådsprocent som primært differentieringspunkt. Lette pakker har 75% ledetråde med 4×4-gitre. Mellempakker bruger 40–50% ledetråde med 6×6-gitre. Svære pakker sænker til 15–25% ledetråde med 8×8-gitre. Ekspertpakker skubber til 10% ledetråde med 10×10-gitre. Dobbeltgitterformatet generator et premiumprodukt, der skiller sig ud fra grundlæggende malebilleder.',
       platform: 'Etsy',
     },
     {
@@ -125,7 +125,7 @@ const content: ToolContent = {
   proTips: [
     {
       title: 'Brug to uafhængige sværhedsakser for maksimal produktvariation',
-      description: 'Gitterstørrelse og ledetrådsprocent skaber to uafhængige sværhedsdimensioner. Et 5×5-gitter ved 50% ledetråde er moderat. Et 5×5-gitter ved 10% ledetråde er svært. Et 10×10-gitter ved 50% ledetråde er også svært, men på en anden måde. Et 10×10-gitter ved 10% ledetråde er ekspertniveau. Dette betyder snesevis af distinkte sværhedskombinationer fra ét enkelt temabillede.',
+      description: 'Gitterstørrelse og ledetrådsprocent generator to uafhængige sværhedsdimensioner. Et 5×5-gitter ved 50% ledetråde er moderat. Et 5×5-gitter ved 10% ledetråde er svært. Et 10×10-gitter ved 50% ledetråde er også svært, men på en anden måde. Et 10×10-gitter ved 10% ledetråde er ekspertniveau. Dette betyder snesevis af distinkte sværhedskombinationer fra ét enkelt temabillede.',
     },
     {
       title: 'Udnyt symmetritilstande som undervisningsværktøj',
@@ -192,7 +192,7 @@ const content: ToolContent = {
     },
     {
       question: 'Kan jeg sælge arbejdsark lavet med dette værktøj kommercielt?',
-      answer: 'Ja. Med en kommerciel licens har du fulde rettigheder til at sælge gittertegning arbejdsark som digitale downloads på Etsy, trykte arbejdsbøger på Amazon KDP, sælgerressourcer på Gumroad eller gennem enhver anden salgskanal. Dobbeltgitterformatet, justerbar ledetrådsprocent, symmetritilstande og sort-hvid konturstil skaber et distinkt produkt.',
+      answer: 'Ja. Med en kommerciel licens har du fulde rettigheder til at sælge gittertegning arbejdsark som digitale downloads på Etsy, trykte arbejdsbøger på Amazon KDP, sælgerressourcer på Gumroad eller gennem enhver anden salgskanal. Dobbeltgitterformatet, justerbar ledetrådsprocent, symmetritilstande og sort-hvid konturstil generator et distinkt produkt.',
     },
     {
       question: 'Hvad er jeres tilbagebetalingspolitik?',
@@ -202,13 +202,13 @@ const content: ToolContent = {
 
   internalLinks: [
     { pageType: 'app', slug: 'tegn-og-farvelaeg-arbejdsark', anchorText: 'Tegn og Farvelæg Arbejdsark — Fulde Produktdetaljer' },
-    { pageType: 'tool', slug: 'moenstertog-skaber', anchorText: 'Mønstertog Skaber' },
-    { pageType: 'tool', slug: 'moenster-arbejdsark-skaber', anchorText: 'Mønster Arbejdsark Skaber' },
-    { pageType: 'tool', slug: 'stor-lille-arbejdsark-skaber', anchorText: 'Stor og Lille Arbejdsark Skaber' },
-    { pageType: 'tool', slug: 'tegne-linjer-skaber', anchorText: 'Tegne Linjer Skaber' },
-    { pageType: 'tool', slug: 'malebilleder-skaber', anchorText: 'Malebilleder Skaber' },
-    { pageType: 'tool', slug: 'matchning-arbejdsark-skaber', anchorText: 'Matchning Arbejdsark Skaber' },
-    { pageType: 'tool', slug: 'skyggematchning-skaber', anchorText: 'Skyggematchning Skaber' },
+    { pageType: 'tool', slug: 'moenstertog-skaber', anchorText: 'Mønstertog Generator' },
+    { pageType: 'tool', slug: 'moenster-arbejdsark-skaber', anchorText: 'Mønster Arbejdsark Generator' },
+    { pageType: 'tool', slug: 'stor-lille-arbejdsark-skaber', anchorText: 'Stor og Lille Arbejdsark Generator' },
+    { pageType: 'tool', slug: 'tegne-linjer-skaber', anchorText: 'Tegne Linjer Generator' },
+    { pageType: 'tool', slug: 'malebilleder-skaber', anchorText: 'Malebilleder Generator' },
+    { pageType: 'tool', slug: 'matchning-arbejdsark-skaber', anchorText: 'Matchning Arbejdsark Generator' },
+    { pageType: 'tool', slug: 'skyggematchning-skaber', anchorText: 'Skyggematchning Generator' },
   ],
 
   visuals: {

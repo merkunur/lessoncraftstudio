@@ -4,7 +4,7 @@ const content: AppContent = {
   seo: {
     primaryKeyword: 'cryptogram generator om te verkopen op Etsy',
     secondaryKeywords: [
-      'cryptogram puzzels maker voor Etsy-shop',
+      'cryptogram puzzels generator voor Etsy-shop',
       'geheimcode puzzels voor Amazon KDP',
       'cryptogram werkbladen commerciële licentie',
       'letterpuzzels verkopen online',

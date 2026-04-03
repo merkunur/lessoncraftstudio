@@ -4,7 +4,7 @@ const content: ToolContent = {
   seo: {
     primaryKeyword: 'matematik arbejdsark generator',
     secondaryKeywords: [
-      'matematik arbejdsark skaber for sælgere',
+      'matematik arbejdsark generator for sælgere',
       'opret algebra puslespilsarbejdsark til salg',
       'printbare mattepuslespil arbejdsark kommercielt brug',
       'algebra billedpuslespil generator til KDP',
@@ -29,7 +29,7 @@ const content: ToolContent = {
     steps: [
       {
         title: 'Åbn arbejdsark-generatoren',
-        description: 'Klik på \"Prøv gratis nu\" for at starte matematik arbejdsark-skaberen. Værktøjet åbner direkte i din webbrowser med et mørkt sidepanel til venstre for indstillinger og et lyst lærred til højre for din liveforhåndsvisning. Ingen konto eller download krævet.',
+        description: 'Klik på \"Prøv gratis nu\" for at starte matematik arbejdsark-generatoren. Værktøjet åbner direkte i din webbrowser med et mørkt sidepanel til venstre for indstillinger og et lyst lærred til højre for din liveforhåndsvisning. Ingen konto eller download krævet.',
       },
       {
         title: 'Indstil sidelayout og størrelse',
@@ -141,7 +141,7 @@ const content: ToolContent = {
     },
     {
       title: 'Par med almindelige matematikværktøjer',
-      description: 'Opret matchende sæt med Additions-, Subtraktions- og Kode-additions-generatorerne ved siden af algebrapuslespil-skaberen. Sælg dem individuelt og som en kombineret \"Matematikøvelse + Algebrapuslespil\"-pakke. Den visuelle algebrakomponent tilføjer en udfordring, der gør pakken mere attraktiv end arbejdsark alene.',
+      description: 'Opret matchende sæt med Additions-, Subtraktions- og Kode-additions-generatorerne ved siden af algebrapuslespil-generatoren. Sælg dem individuelt og som en kombineret \"Matematikøvelse + Algebrapuslespil\"-pakke. Den visuelle algebrakomponent tilføjer en udfordring, der gør pakken mere attraktiv end arbejdsark alene.',
     },
     {
       title: 'Eksporter begge formater',
@@ -202,13 +202,13 @@ const content: ToolContent = {
 
   internalLinks: [
     { pageType: 'app', slug: 'matematikopgaver-arbejdsark', anchorText: 'Matematik Arbejdsark — Komplette Produktdetaljer' },
-    { pageType: 'tool', slug: 'additions-arbejdsark-skaber', anchorText: 'Additions Arbejdsark Skaber' },
-    { pageType: 'tool', slug: 'subtraktions-arbejdsark-skaber', anchorText: 'Subtraktions Arbejdsark Skaber' },
-    { pageType: 'tool', slug: 'kode-additions-arbejdsark-skaber', anchorText: 'Kode-additions Arbejdsark Skaber' },
-    { pageType: 'tool', slug: 'mere-eller-mindre-arbejdsark-skaber', anchorText: 'Mere eller Mindre Arbejdsark Skaber' },
-    { pageType: 'tool', slug: 'mattepuslespil-skaber', anchorText: 'Mattepuslespil Skaber' },
-    { pageType: 'tool', slug: 'matchnings-arbejdsark-skaber', anchorText: 'Matchnings Arbejdsark Skaber' },
-    { pageType: 'tool', slug: 'manglende-brikker-skaber', anchorText: 'Manglende Brikker Skaber' },
+    { pageType: 'tool', slug: 'additions-arbejdsark-skaber', anchorText: 'Additions Arbejdsark Generator' },
+    { pageType: 'tool', slug: 'subtraktions-arbejdsark-skaber', anchorText: 'Subtraktions Arbejdsark Generator' },
+    { pageType: 'tool', slug: 'kode-additions-arbejdsark-skaber', anchorText: 'Kode-additions Arbejdsark Generator' },
+    { pageType: 'tool', slug: 'mere-eller-mindre-arbejdsark-skaber', anchorText: 'Mere eller Mindre Arbejdsark Generator' },
+    { pageType: 'tool', slug: 'mattepuslespil-skaber', anchorText: 'Mattepuslespil Generator' },
+    { pageType: 'tool', slug: 'matchnings-arbejdsark-skaber', anchorText: 'Matchnings Arbejdsark Generator' },
+    { pageType: 'tool', slug: 'manglende-brikker-skaber', anchorText: 'Manglende Brikker Generator' },
   ],
 
   visuals: {

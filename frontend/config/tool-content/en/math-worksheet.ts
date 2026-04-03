@@ -6,7 +6,7 @@ const content: ToolContent = {
     secondaryKeywords: [
       'make math worksheets free online',
       'math problem generator no signup',
-      'free algebra puzzle worksheet maker',
+      'free algebra puzzle worksheet generator',
       'printable math worksheets free trial',
     ],
     lsiKeywords: [
@@ -29,7 +29,7 @@ const content: ToolContent = {
     steps: [
       {
         title: 'Open the Worksheet Generator',
-        description: 'Click "Try Free Now" to launch the math worksheet maker. The tool opens instantly in your browser with a dark sidebar on the left for settings and a bright canvas on the right for your live preview. No account or download required.',
+        description: 'Click "Try Free Now" to launch the math worksheet generator. The tool opens instantly in your browser with a dark sidebar on the left for settings and a bright canvas on the right for your live preview. No account or download required.',
       },
       {
         title: 'Set Page Layout and Size',
@@ -206,7 +206,7 @@ const content: ToolContent = {
 
   internalLinks: [
     { pageType: 'app', slug: 'math-worksheets', anchorText: 'Remove watermark and sell commercially' },
-    { pageType: 'tool', slug: 'addition-worksheet-maker', anchorText: 'Free addition worksheet maker' },
+    { pageType: 'tool', slug: 'addition-worksheet-maker', anchorText: 'Free addition worksheet generator' },
     { pageType: 'guide', slug: 'kdp-formatting-worksheets', anchorText: 'KDP formatting guide for worksheet books' },
   ],
 

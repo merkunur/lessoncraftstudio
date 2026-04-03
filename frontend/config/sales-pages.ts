@@ -362,7 +362,7 @@ export const SALES_PAGES: Record<string, SalesPageConfig> = {
       {
         icon: 'users',
         title: 'Personal Use',
-        description: 'Print for classrooms, homework, family game nights, parties. Use however you want, as often as you want.',
+        description: 'Print for homework, tutoring, family game nights, parties. Use however you want, as often as you want.',
       },
       {
         icon: 'store',
@@ -674,7 +674,7 @@ export const SALES_PAGES: Record<string, SalesPageConfig> = {
       {
         icon: 'users',
         title: 'Personal Use',
-        description: 'Print for classrooms, homework, tutoring sessions, homeschool. Use however you want, as often as you want.',
+        description: 'Print for homework, tutoring sessions, homeschool, family activities. Use however you want, as often as you want.',
       },
       {
         icon: 'store',
@@ -1423,7 +1423,7 @@ export const SALES_PAGES: Record<string, SalesPageConfig> = {
       {
         icon: 'users',
         title: 'Personal Use',
-        description: 'Print for classrooms, homework, tutoring sessions, homeschool. Use however you want, as often as you want.',
+        description: 'Print for homework, tutoring sessions, homeschool, family activities. Use however you want, as often as you want.',
       },
       {
         icon: 'store',
@@ -1612,7 +1612,7 @@ export const SALES_PAGES: Record<string, SalesPageConfig> = {
     seo: {
       title: 'Code Addition Studio Pro — Create & Sell Code Breaker Addition Worksheets | $27 One-Time',
       description: 'Create professional code breaker addition worksheets in 60 seconds. Image symbols, auto answer keys, canvas editor, PDF export. Sell on Etsy & Amazon KDP. $27 one-time.',
-      keywords: 'code addition studio pro, code breaker worksheet maker, addition worksheet creator, printable math puzzles, Etsy math worksheets, KDP addition worksheets, commercial math worksheets',
+      keywords: 'code addition studio pro, code breaker worksheet generator, addition worksheet generator, printable math puzzles, Etsy math worksheets, KDP addition worksheets, commercial math worksheets',
     },
   },
 

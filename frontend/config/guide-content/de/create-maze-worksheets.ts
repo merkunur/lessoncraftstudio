@@ -159,7 +159,7 @@ const content: GuideContent = {
     { pageType: 'start', slug: 'kommerzielle-lizenz-leitfaden', anchorText: 'Leitfaden zur kommerziellen Lizenz' },
     { pageType: 'app', slug: 'bilderpfad-arbeitsblaetter', anchorText: 'Bilderpfad-Labyrinth-Generator — Alle Details' },
     { pageType: 'app', slug: 'kinder-sudoku-arbeitsblaetter', anchorText: 'Bilder-Sudoku-Generator — Alle Details' },
-    { pageType: 'tool', slug: 'bilderpfad-ersteller', anchorText: 'Den Bilderpfad-Labyrinth-Ersteller ausprobieren' },
+    { pageType: 'tool', slug: 'bilderpfad-ersteller', anchorText: 'Den Bilderpfad-Labyrinth-Generator ausprobieren' },
   ],
 
   toolsRecommended: [

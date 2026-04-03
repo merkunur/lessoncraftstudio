@@ -2,11 +2,11 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'free I Spy worksheet maker',
+    primaryKeyword: 'free I Spy worksheet generator',
     secondaryKeywords: [
       'make I Spy worksheets free online',
       'hidden object generator no signup',
-      'free find objects worksheet maker',
+      'free find objects worksheet generator',
       'I Spy worksheets free trial',
     ],
     lsiKeywords: [
@@ -14,7 +14,7 @@ const content: ToolContent = {
       'instant I Spy maker',
       'try before you buy search tools',
     ],
-    titleTag: 'Free I Spy Worksheet Maker Online | LCS',
+    titleTag: 'Free I Spy Worksheet Generator Online | LCS',
     metaDescription: 'Make I Spy worksheets free online with watermark — no signup. Two activity modes, auto answer keys, 104 themes. Upgrade for commercial license to sell.',
   },
 

@@ -32,7 +32,7 @@ const content: ToolContent = {
     title: 'Come Creare Schede di Abbinamento in 8 Passaggi',
     steps: [
       {
-        title: 'Apri il Creatore di Schede di Abbinamento',
+        title: 'Apri il Generatore di Schede di Abbinamento',
         description: 'Clicca "Prova Gratis Ora" per avviare il generatore di schede di abbinamento nel tuo browser. Lo strumento si carica istantaneamente con una barra laterale delle impostazioni a sinistra e un canvas a doppia scheda a destra — una scheda per la scheda di lavoro, una per la chiave di risposta. Nessuna creazione di account, nessun download di software, nessuna installazione richiesta — inizia a creare schede di abbinamento traccia-una-linea immediatamente.',
       },
       {
@@ -179,7 +179,7 @@ const content: ToolContent = {
       answer: 'La modalità Lettera Iniziale offre tre sotto-modalità per la selezione delle immagini. Tema e Immagini Casuali sceglie un tema casuale e le immagini da esso automaticamente. Immagini Casuali dal Tema Scelto ti permette di selezionare un tema specifico e poi sceglie immagini casuali da quella collezione. Seleziona Immagini Specifiche apre la Libreria Immagini così puoi scegliere manualmente le immagini che desideri. Puoi anche scegliere tra visualizzazione maiuscola e minuscola usando il toggle del tipo di lettera — maiuscolo per i primi apprendimenti, minuscolo per pratica fonetica più avanzata.',
     },
     {
-      question: 'Il Creatore di Schede di Abbinamento è sensibile alla lingua?',
+      question: 'Il Generatore di Schede di Abbinamento è sensibile alla lingua?',
       answer: 'Sì. Le modalità Lettera Iniziale e Immagine+Parola usano i nomi localizzati delle immagini dalla Libreria Immagini, quindi cambiando lingua cambiano le parole e le lettere iniziali che appaiono sulla scheda. Per esempio, un\'immagine di gatto mostra G in italiano nella modalità Lettera Iniziale ma C in inglese (Cat) e K in tedesco (Katze). Anche l\'intestazione localizzata "Trova le Coppie!" cambia con la lingua selezionata. Questa sensibilità linguistica ti permette di creare schede di abbinamento in tutte le 11 lingue supportate dalle stesse selezioni di immagini, moltiplicando il tuo catalogo prodotti per i mercati internazionali.',
     },
     {

@@ -1,19 +1,19 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'free alphabet worksheet maker',
+    primaryKeyword: 'free alphabet worksheet generator',
     secondaryKeywords: [
       'make alphabet worksheets free online',
       'letter learning generator no signup',
-      'free alphabet train worksheet maker',
+      'free alphabet train worksheet generator',
       'alphabet worksheets free trial',
     ],
     lsiKeywords: [
       'free alphabet tool online',
-      'instant letter worksheet maker',
+      'instant letter worksheet generator',
       'try before you buy literacy tools',
     ],
-    titleTag: 'Free Alphabet Worksheet Maker Online | LCS',
+    titleTag: 'Free Alphabet Worksheet Generator Online | LCS',
     metaDescription: 'Make alphabet worksheets free online with watermark — no signup. Train-car letter learning, themed images, 11 languages. Upgrade for commercial license.',
     },
 
@@ -205,7 +205,7 @@ const content: ToolContent = {  seo: {
 
   internalLinks: [
     { pageType: 'app', slug: 'alphabet-train-worksheets', anchorText: 'Remove watermark and sell commercially' },
-    { pageType: 'tool', slug: 'handwriting-worksheet-maker', anchorText: 'Free handwriting worksheet maker' },
+    { pageType: 'tool', slug: 'handwriting-worksheet-maker', anchorText: 'Free handwriting worksheet generator' },
     { pageType: 'guide', slug: 'create-alphabet-worksheets', anchorText: 'How to create alphabet worksheets to sell' },
   ],
 

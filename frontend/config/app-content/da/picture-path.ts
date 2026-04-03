@@ -4,9 +4,9 @@ const content: AppContent = {
   seo: {
     primaryKeyword: 'labyrint arbejdsark generator',
     secondaryKeywords: [
-      'printbar labyrintaktivitet skaber til Etsy-sælgere',
+      'printbar labyrintaktivitet generator til Etsy-sælgere',
       'billedsti arbejdsark generator til KDP-udgivere',
-      'labyrint arbejdsark skaber kommerciel licens Gumroad',
+      'labyrint arbejdsark generator kommerciel licens Gumroad',
       'sælg vejpuslespil arbejdsark på Etsy og Amazon',
     ],
     lsiKeywords: [
@@ -83,7 +83,7 @@ const content: AppContent = {
       {
         title: 'Automatisk genereret facit med løsningsvejmarkering',
         description:
-          'Hvert labyrintarbejdsark genererer automatisk en ledsagende facitliste på en separat lærredsfane. Facit genskaber det præcise labyrintlayout og markerer den korrekte løsningsvej med rosa cirkler placeret langs ruten. Vælg den Rigtige Vej-tilstanden tilføjer en \"✓ KORREKT VEJ\"-etiket, der identificerer den korrekte rute blandt de tre alternativer. Klassisk Labyrint-tilstanden inkluderer en samlingslegende, der viser antallet af hvert samlingsbillede fundet langs løsningsvejen. Start- og slutpile vises i de relevante celler. Download facit separat som answer_key.jpeg eller answer_key.pdf ved siden af arbejdsarket.',
+          'Hvert labyrintarbejdsark genererer automatisk en ledsagende facitliste på en separat lærredsfane. Facit gengenerator det præcise labyrintlayout og markerer den korrekte løsningsvej med rosa cirkler placeret langs ruten. Vælg den Rigtige Vej-tilstanden tilføjer en \"✓ KORREKT VEJ\"-etiket, der identificerer den korrekte rute blandt de tre alternativer. Klassisk Labyrint-tilstanden inkluderer en samlingslegende, der viser antallet af hvert samlingsbillede fundet langs løsningsvejen. Start- og slutpile vises i de relevante celler. Download facit separat som answer_key.jpeg eller answer_key.pdf ved siden af arbejdsarket.',
       },
       {
         title: 'Billedbibliotek med 104 tematiske samlinger og mere end 3.100 illustrationer',
@@ -127,7 +127,7 @@ const content: AppContent = {
       {
         title: 'Sæsonbetonede og højtidslabyrint-samlinger',
         description:
-          'De 104 tematiske billedsamlinger dækker enhver sæson- og højtidslejlighed — jul, halloween, påske, valentinsdag, skolestart, sommerferie og flere. Opret tidsbegrænsede labyrintsamlinger, der falder sammen med topindkøbsperioder. Udgiv halloween-labyrintpakker i september, julesamlinger i oktober og valentinsdag-pakker i januar. Inkluder alle tre spiltilstande i hvert sæsonsæt for maksimal værdi. Sæsonprodukter motiverer højere priser under topvinduer og skaber naturlige grunde til genkøb fra tilbagevendende kunder.',
+          'De 104 tematiske billedsamlinger dækker enhver sæson- og højtidslejlighed — jul, halloween, påske, valentinsdag, skolestart, sommerferie og flere. Opret tidsbegrænsede labyrintsamlinger, der falder sammen med topindkøbsperioder. Udgiv halloween-labyrintpakker i september, julesamlinger i oktober og valentinsdag-pakker i januar. Inkluder alle tre spiltilstande i hvert sæsonsæt for maksimal værdi. Sæsonprodukter motiverer højere priser under topvinduer og generator naturlige grunde til genkøb fra tilbagevendende kunder.',
         platform: 'Etsy / Amazon KDP / Gumroad (sæsonbetonet)',
       },
       {
@@ -173,7 +173,7 @@ const content: AppContent = {
     {
       question: 'Hvordan fungerer det automatisk genererede facit?',
       answer:
-        'Generatoren bruger et dobbeltlærredssystem med en Arbejdsarkfane og en Facitfane. Facit genskaber det præcise labyrintlayout og markerer den korrekte løsningsvej med rosa cirkler placeret langs ruten. Vælg den Rigtige Vej-tilstanden tilføjer en \"✓ KORREKT VEJ\"-etiket. Klassisk Labyrint inkluderer en samlingslegende. Download begge versioner separat med fire dedikerede knapper: Arbejdsark-JPEG, Facit-JPEG, Arbejdsark-PDF og Facit-PDF.',
+        'Generatoren bruger et dobbeltlærredssystem med en Arbejdsarkfane og en Facitfane. Facit gengenerator det præcise labyrintlayout og markerer den korrekte løsningsvej med rosa cirkler placeret langs ruten. Vælg den Rigtige Vej-tilstanden tilføjer en \"✓ KORREKT VEJ\"-etiket. Klassisk Labyrint inkluderer en samlingslegende. Download begge versioner separat med fire dedikerede knapper: Arbejdsark-JPEG, Facit-JPEG, Arbejdsark-PDF og Facit-PDF.',
     },
     {
       question: 'Hvordan fungerer den automatisk genererede overskrift?',

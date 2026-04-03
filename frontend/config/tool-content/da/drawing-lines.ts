@@ -4,7 +4,7 @@ const content: ToolContent = {
   seo: {
     primaryKeyword: 'linjesporing arbejdsark',
     secondaryKeywords: [
-      'linjesporing arbejdsark skaber for sælgere',
+      'linjesporing arbejdsark generator for sælgere',
       'lav tegne linjer arbejdsark til salg',
       'printbare linjesporing arbejdsark kommerciel brug',
       'tegne linjer arbejdsark generator til KDP',
@@ -14,12 +14,12 @@ const content: ToolContent = {
       'SVG linjeskabelon arbejdsark generator',
       'billedpar matchning linjesporing printbare',
     ],
-    titleTag: 'Linjesporing Arbejdsark Skaber — Tegne Linjer Generator',
+    titleTag: 'Linjesporing Arbejdsark Generator — Tegne Linjer Generator',
     metaDescription: 'Lav linjesporing arbejdsark med otte SVG-skabeloner, mere end 3.100 illustrationer i 104 temaer og autoudfyldning af billedpar. Gratis prøveversion med vandmærke.',
   },
 
   hero: {
-    title: 'Tegne Linjer Arbejdsark Skaber',
+    title: 'Tegne Linjer Arbejdsark Generator',
     tagline: 'Otte SVG-linjeskabeloner med billedparmatchning, autoudfyldning fra 104 farverige temaer og skabelonstyret sideorientering for professionelle linjesporing arbejdsark, der sælger globalt',
     description: 'Lav professionelle linjesporing arbejdsark, hvor brugerne tegner langs guidede stier for at forbinde matchende billedpar. Otte SVG-baserede skabeloner dækker en komplet finmotorisk progression: en horisontal skabelon for lige venstre-til-højre sporinger (enklest), en vertikal skabelon for oppefra-og-ned streger, fire kurveskabeloner for flydende håndledsbevægelser, og to diagonale skabeloner for krydsende kropskoordinering (sværest). Hver skabelon placerer 4 eller 5 matchede billedpar på modsatte sider af linjestien, hvilket giver brugerne et visuelt mål ved hver ende. Skabelonvalg driver automatisk sideorientering — kurver defaulter til liggende for svejfende buer, mens diagonal-, horisontal- og vertikalskabeloner bruger stående for fokuseret øvelse. Autoudfyldning fylder øjeblikkeligt hver parplads med tilfældige billeder fra ethvert valgt tema eller alle 104 temaer samtidigt, hvilket gør batchoprettelse hurtig. Indhold hentes fra mere end 3.100 farverige illustrationer i 104 tematiske samlinger — dyr, køretøjer, mad, natur og snesevis flere. Hvert arbejdsark er helt visuelt med nul tekst i outputtet, hvilket gør produkter universelt sælgbare uden oversættelse. Intet facit er nødvendigt, da linjestien selv guider brugeren — en selvkontrollerende aktivitet af design. Eksportér trykfærdige PDF\'er og JPEG-billeder med 300 DPI i Letter, A4, Kvadrat (1200×1200) eller tilpassede størrelser. Den gratis prøveversion indeholder alle funktioner med et vandmærke på downloads. Køb en licens for at fjerne vandmærket og sælge kommercielt.',
   },
@@ -28,7 +28,7 @@ const content: ToolContent = {
     title: 'Sådan Laver du Linjesporing Arbejdsark i 8 Trin',
     steps: [
       {
-        title: 'Åbn Tegne Linjer Arbejdsark Skaberen',
+        title: 'Åbn Tegne Linjer Arbejdsark Generatoren',
         description: 'Klik på \"Prøv gratis nu\" for at starte generatoren i din browser. Værktøjet indlæses direkte med et indstillingssidepanel til venstre og et liveforhåndsvisningsarbejdsområde til højre. Ingen konto, ingen download, ingen installation kræves.',
       },
       {
@@ -37,7 +37,7 @@ const content: ToolContent = {
       },
       {
         title: 'Vælg en linjeskabelon',
-        description: 'I Indholdspanelet, vælg blandt otte SVG-baserede linjeskabeloner. Fire kurveskabeloner skaber flydende, svejfende stier i liggende orientering med 4 billedpar hver — hver variant tilbyder en anderledes bueform for visuel variation. To diagonale skabeloner producerer vinklede linjer i stående orientering med 5 par. En horisontal skabelon genererer lige venstre-til-højre linjer i stående med 5 par. En vertikal skabelon skaber oppefra-og-ned linjer i stående med 4 par.',
+        description: 'I Indholdspanelet, vælg blandt otte SVG-baserede linjeskabeloner. Fire kurveskabeloner generator flydende, svejfende stier i liggende orientering med 4 billedpar hver — hver variant tilbyder en anderledes bueform for visuel variation. To diagonale skabeloner producerer vinklede linjer i stående orientering med 5 par. En horisontal skabelon genererer lige venstre-til-højre linjer i stående med 5 par. En vertikal skabelon generator oppefra-og-ned linjer i stående med 4 par.',
       },
       {
         title: 'Vælg tema og gennemse billedpar',
@@ -141,7 +141,7 @@ const content: ToolContent = {
     },
     {
       title: 'Fremhæv farverige temaer som visuelt engagements fordel',
-      description: 'Tegne Linjer bruger farverige illustrationer, ikke sort-hvide konturer. Fremhæv dette i dine produktannoncer — farverige billedpar gør arbejdsark visuelt engagerende for unge brugere og skaber mere attraktive Etsy-miniaturer.',
+      description: 'Tegne Linjer bruger farverige illustrationer, ikke sort-hvide konturer. Fremhæv dette i dine produktannoncer — farverige billedpar gør arbejdsark visuelt engagerende for unge brugere og generator mere attraktive Etsy-miniaturer.',
     },
     {
       title: 'Brug gråtoner til omkostningseffektivt tryk',
@@ -160,7 +160,7 @@ const content: ToolContent = {
     },
     {
       question: 'Hvad er de otte linjeskabeloner?',
-      answer: 'Otte SVG-baserede skabeloner dækker fire linjetyper for omfattende finmotorisk udvikling. Fire kurveskabeloner skaber flydende, svejfende stier i liggende orientering med 4 billedpar hver — hver kurvevariant tilbyder en anderledes bueform. To diagonale skabeloner producerer vinklede linjer i stående orientering med 5 par. En horisontal skabelon genererer lige venstre-til-højre linjer i stående med 5 par. En vertikal skabelon skaber oppefra-og-ned linjer i stående med 4 par.',
+      answer: 'Otte SVG-baserede skabeloner dækker fire linjetyper for omfattende finmotorisk udvikling. Fire kurveskabeloner generator flydende, svejfende stier i liggende orientering med 4 billedpar hver — hver kurvevariant tilbyder en anderledes bueform. To diagonale skabeloner producerer vinklede linjer i stående orientering med 5 par. En horisontal skabelon genererer lige venstre-til-højre linjer i stående med 5 par. En vertikal skabelon generator oppefra-og-ned linjer i stående med 4 par.',
     },
     {
       question: 'Hvordan fungerer billedparmatchning?',
@@ -192,7 +192,7 @@ const content: ToolContent = {
     },
     {
       question: 'Kan jeg sælge arbejdsark lavet med dette værktøj kommercielt?',
-      answer: 'Ja. Med en kommerciel licens har du fulde rettigheder til at sælge linjesporing arbejdsark som digitale downloads på Etsy, trykte arbejdsbøger på Amazon KDP, sælgerressourcer på Gumroad eller gennem enhver anden salgskanal. De otte distinkte skabeloner, 104 farverige temaer, autoudfyldningsworkflowet og det tekstfrie visuelle format skaber stærk differentiering og global sælgbarhed.',
+      answer: 'Ja. Med en kommerciel licens har du fulde rettigheder til at sælge linjesporing arbejdsark som digitale downloads på Etsy, trykte arbejdsbøger på Amazon KDP, sælgerressourcer på Gumroad eller gennem enhver anden salgskanal. De otte distinkte skabeloner, 104 farverige temaer, autoudfyldningsworkflowet og det tekstfrie visuelle format generator stærk differentiering og global sælgbarhed.',
     },
     {
       question: 'Hvad er jeres tilbagebetalingspolitik?',
@@ -202,13 +202,13 @@ const content: ToolContent = {
 
   internalLinks: [
     { pageType: 'app', slug: 'linjetraening-arbejdsark', anchorText: 'Tegne Linjer Arbejdsark — Fulde Produktdetaljer' },
-    { pageType: 'tool', slug: 'tegn-og-farvelaeg-skaber', anchorText: 'Tegn og Farvelæg Skaber' },
-    { pageType: 'tool', slug: 'malebilleder-skaber', anchorText: 'Malebilleder Skaber' },
-    { pageType: 'tool', slug: 'stor-lille-arbejdsark-skaber', anchorText: 'Stor og Lille Arbejdsark Skaber' },
-    { pageType: 'tool', slug: 'moenstertog-skaber', anchorText: 'Mønstertog Skaber' },
-    { pageType: 'tool', slug: 'matchning-arbejdsark-skaber', anchorText: 'Matchning Arbejdsark Skaber' },
-    { pageType: 'tool', slug: 'skyggematchning-skaber', anchorText: 'Skyggematchning Skaber' },
-    { pageType: 'tool', slug: 'skriveovelser-skaber', anchorText: 'Skriveøvelser Skaber' },
+    { pageType: 'tool', slug: 'tegn-og-farvelaeg-skaber', anchorText: 'Tegn og Farvelæg Generator' },
+    { pageType: 'tool', slug: 'malebilleder-skaber', anchorText: 'Malebilleder Generator' },
+    { pageType: 'tool', slug: 'stor-lille-arbejdsark-skaber', anchorText: 'Stor og Lille Arbejdsark Generator' },
+    { pageType: 'tool', slug: 'moenstertog-skaber', anchorText: 'Mønstertog Generator' },
+    { pageType: 'tool', slug: 'matchning-arbejdsark-skaber', anchorText: 'Matchning Arbejdsark Generator' },
+    { pageType: 'tool', slug: 'skyggematchning-skaber', anchorText: 'Skyggematchning Generator' },
+    { pageType: 'tool', slug: 'skriveovelser-skaber', anchorText: 'Skriveøvelser Generator' },
   ],
 
   visuals: {

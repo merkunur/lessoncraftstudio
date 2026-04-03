@@ -28,7 +28,7 @@ const content: ToolContent = {
     title: 'Comment Créer des Fiches Mots Mélangés en 8 Étapes Simples',
     steps: [
       {
-        title: 'Ouvrir le Créateur de Fiches Mots Mélangés',
+        title: 'Ouvrir le Générateur de Fiches Mots Mélangés',
         description: 'Cliquez sur \" Essayer maintenant \" pour lancer le générateur dans votre navigateur. L\'outil s\'ouvre instantanément avec une barre latérale de réglages à gauche et un canevas d\'aperçu en temps réel à droite. Aucun compte, téléchargement ni installation requis — commencez à créer des puzzles mots mélangés immédiatement.',
       },
       {

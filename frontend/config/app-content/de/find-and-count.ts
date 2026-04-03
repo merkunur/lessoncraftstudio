@@ -6,7 +6,7 @@ const content: AppContent = {
     secondaryKeywords: [
       'Ich-sehe-was-Generator für Etsy-Druckvorlagen',
       'Buchstabenerkennung-Arbeitsblätter verkaufen KDP',
-      'Suchbild-Ersteller mit Lösungsschlüssel',
+      'Suchbild-Generator mit Lösungsschlüssel',
       'Zählaktivitäten Druckvorlagen kommerzielle Lizenz',
     ],
     lsiKeywords: [

@@ -205,7 +205,7 @@ const content: ToolContent = {  seo: {
 
   internalLinks: [
     { pageType: 'app', slug: 'picture-bingo-worksheets', anchorText: 'Remove watermark and sell commercially' },
-    { pageType: 'tool', slug: 'matching-worksheet-maker', anchorText: 'Free matching worksheet maker' },
+    { pageType: 'tool', slug: 'matching-worksheet-maker', anchorText: 'Free matching worksheet generator' },
     { pageType: 'guide', slug: 'create-bingo-cards', anchorText: 'How to create bingo cards to sell' },
   ],
 

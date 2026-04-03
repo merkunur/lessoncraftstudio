@@ -5,14 +5,14 @@ const content: ToolContent = {
     primaryKeyword: 'gratis cryptogram generator',
     secondaryKeywords: [
       'cryptogram puzzels gratis online maken',
-      'gratis cryptogram werkblad maker zonder account',
+      'gratis cryptogram werkblad generator zonder account',
       'cryptogram generator gratis met antwoordblad',
       'plaatjes cryptogram online genereren',
     ],
     lsiKeywords: [
       'afbeelding-naar-letter cijfer printables voor Etsy',
       'codekraak werkblad generator tool',
-      'meertalige plaatjes cryptogram maker',
+      'meertalige plaatjes cryptogram generator',
     ],
     titleTag: 'Cryptogram generator gratis online | LessonCraftStudio',
     metaDescription: 'Maak gratis cryptogram puzzels online met plaatjescijfer-codering, Letters Onthullen moeilijkheidsregelaar, antwoordbladen en 104 thema\'s. Geen account nodig.',
@@ -28,7 +28,7 @@ const content: ToolContent = {
     title: 'Cryptogram puzzels gratis maken in 8 eenvoudige stappen',
     steps: [
       {
-        title: 'Open de cryptogram werkblad maker',
+        title: 'Open de cryptogram werkblad generator',
         description: 'Klik op "Gratis proefversie" om de generator te starten in je browser. De tool laadt direct met een instellingenzijbalk links en een live voorbeeldcanvas rechts. Geen account, geen software-download, geen installatie nodig — begin onmiddellijk met het bouwen van plaatjescijfer-puzzels.',
       },
       {
@@ -206,9 +206,9 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'woordraadsel-maker', anchorText: 'Raad het Woord Maker' },
     { pageType: 'tool', slug: 'letterpuzzel-maker', anchorText: 'Letterpuzzel Maker' },
     { pageType: 'tool', slug: 'alfabettrein-maker', anchorText: 'Alfabettrein Maker' },
-    { pageType: 'tool', slug: 'voorzetsels-werkblad-maker', anchorText: 'Voorzetsels Werkblad Maker' },
+    { pageType: 'tool', slug: 'voorzetsels-werkblad-generator', anchorText: 'Voorzetsels Werkblad Generator' },
     { pageType: 'tool', slug: 'schrijfoefeningen-maker', anchorText: 'Schrijfoefeningen Maker' },
-    { pageType: 'tool', slug: 'koppelen-werkblad-maker', anchorText: 'Koppelen Werkblad Maker' },
+    { pageType: 'tool', slug: 'koppelen-werkblad-generator', anchorText: 'Koppelen Werkblad Generator' },
   ],
 
   visuals: {

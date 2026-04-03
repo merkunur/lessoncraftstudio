@@ -6,7 +6,7 @@ const content: ToolContent = {
     secondaryKeywords: [
       'Bilder-Sudoku kostenlos erstellen online',
       'Bilder-Sudoku-Generator ohne Anmeldung',
-      'kostenloser Kinder-Sudoku Ersteller mit Bildern',
+      'kostenloser Kinder-Sudoku Generator mit Bildern',
       'Sudoku-Rätsel für Kinder online erstellen',
     ],
     lsiKeywords: [
@@ -28,7 +28,7 @@ const content: ToolContent = {
     title: 'Bilder-Sudoku-Arbeitsblätter erstellen in 8 Schritten',
     steps: [
       {
-        title: 'Bilder-Sudoku-Ersteller öffnen',
+        title: 'Bilder-Sudoku-Generator öffnen',
         description: 'Klicken Sie auf \"Kostenlos testen\", um den Bilder-Sudoku-Generator in Ihrem Browser zu starten. Das Tool lädt sofort mit einer Einstellungsleiste links und einer Dual-Tab-Arbeitsfläche rechts — ein Tab für das Arbeitsblatt, einer für den Lösungsschlüssel. Keine Kontoerstellung, kein Software-Download, keine Installation erforderlich — beginnen Sie sofort mit der Erstellung von Bilder-Sudoku-Rätseln.',
       },
       {
@@ -187,7 +187,7 @@ const content: ToolContent = {
       answer: 'Ja. Die App ordnet Bilder zufällig an, bevor sie das 4×4-Raster füllt, und wählt dann zufällig aus, welche Zellen basierend auf dem Schwierigkeitsgrad leer werden. Selbst mit denselben 4 Bildern und demselben Schwierigkeitsgrad erzeugt das Neugenerieren eine andere gültige Sudoku-Anordnung mit anderen Leerzellen-Positionen. Diese Randomisierung lässt Sie große Sammlungen einzigartiger Rätsel aus einem kleinen Set thematischer Bilder erstellen — klicken Sie wiederholt auf Generieren, um Pakete mit Dutzenden einzigartiger Rätselkonfigurationen aufzubauen.',
     },
     {
-      question: 'Ist der Bilder-Sudoku-Ersteller sprachabhängig?',
+      question: 'Ist der Bilder-Sudoku-Generator sprachabhängig?',
       answer: 'Nein. Bilder-Sudoku ist vollständig visuell — das Rätselraster enthält nur Bilder, keine Wörter, Buchstaben oder Zahlen. Dadurch funktioniert jedes Arbeitsblatt identisch in allen 11 unterstützten Sprachen. Das einzige lokalisierte Element ist der automatisch generierte \"Bilder-Sudoku\"-Header-Text über dem Raster mit seinem lila Hintergrund (#5E35B1), der beim Sprachwechsel automatisch übersetzt wird. Das Rätsel selbst erfordert keinerlei Änderung für verschiedene Märkte, was es ideal für den globalen Verkauf über alle internationalen Marktplätze macht.',
     },
     {
@@ -206,13 +206,13 @@ const content: ToolContent = {
 
   internalLinks: [
     { pageType: 'app', slug: 'kinder-sudoku-arbeitsblaetter', anchorText: 'Bilder-Sudoku-Rätsel — Vollständige Produktdetails' },
-    { pageType: 'tool', slug: 'fehlende-puzzleteile-ersteller', anchorText: 'Fehlende-Puzzleteile-Ersteller' },
-    { pageType: 'tool', slug: 'was-passt-nicht-ersteller', anchorText: 'Was-Passt-Nicht-Ersteller' },
-    { pageType: 'tool', slug: 'bilderpfad-ersteller', anchorText: 'Bilderpfad-Ersteller' },
-    { pageType: 'tool', slug: 'raster-puzzle-ersteller', anchorText: 'Raster-Puzzle-Ersteller' },
-    { pageType: 'tool', slug: 'zuordnungs-arbeitsblatt-ersteller', anchorText: 'Zuordnungs-Arbeitsblatt-Ersteller' },
-    { pageType: 'tool', slug: 'wortsuche-ersteller', anchorText: 'Wortsuche-Ersteller' },
-    { pageType: 'tool', slug: 'malvorlagen-ersteller', anchorText: 'Malvorlagen-Ersteller' },
+    { pageType: 'tool', slug: 'fehlende-puzzleteile-ersteller', anchorText: 'Fehlende-Puzzleteile-Generator' },
+    { pageType: 'tool', slug: 'was-passt-nicht-ersteller', anchorText: 'Was-Passt-Nicht-Generator' },
+    { pageType: 'tool', slug: 'bilderpfad-ersteller', anchorText: 'Bilderpfad-Generator' },
+    { pageType: 'tool', slug: 'raster-puzzle-ersteller', anchorText: 'Raster-Puzzle-Generator' },
+    { pageType: 'tool', slug: 'zuordnungs-Arbeitsblatt-Generator', anchorText: 'Zuordnungs-Arbeitsblatt-Generator' },
+    { pageType: 'tool', slug: 'wortsuche-ersteller', anchorText: 'Wortsuche-Generator' },
+    { pageType: 'tool', slug: 'malvorlagen-ersteller', anchorText: 'Malvorlagen-Generator' },
   ],
 
   visuals: {

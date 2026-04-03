@@ -7,7 +7,7 @@ const content: ToolContent = {
       'patroontrein werkbladen online maken',
       'reeksen herkennen werkbladen gratis proberen',
       'patroonreeks werkbladen generator treinformaat',
-      'herhalende patronen werkblad maker gratis',
+      'herhalende patronen werkblad generator gratis',
     ],
     lsiKeywords: [
       'visuele patronenherkenning werkbladen online',
@@ -28,7 +28,7 @@ const content: ToolContent = {
     title: 'Reeksen werkbladen gratis maken in 8 stappen',
     steps: [
       {
-        title: 'Open de Patroontrein Maker',
+        title: 'Open de Patroontrein Generator',
         description: 'Klik op "Gratis proefversie" om de generator te starten in je browser. De tool laadt direct met een instellingenzijbalk links en een live voorbeeldcanvas rechts. Geen account aanmaken, geen software downloaden, geen installatie nodig — begin onmiddellijk met het maken van patroontrein werkbladen.',
       },
       {
@@ -137,7 +137,7 @@ const content: ToolContent = {
     },
     {
       title: 'Maak zowel trein- als raster patroonproducten',
-      description: 'De Patroontrein Maker en Patronen Werkblad Maker produceren fundamenteel verschillende visuele formaten voor dezelfde vaardigheid — patronenherkenning. Treinformaat gebruikt 11 wagons met één ontbrekende positie. Rasterformaat gebruikt standaard rijen en kolommen voor patroonvoltooiing. Verkoop beide formaten apart of bundel ze als een "Compleet Patronenherkenning Pakket" voor een premiumprijs.',
+      description: 'De Patroontrein Generator en Patronen Werkblad Generator produceren fundamenteel verschillende visuele formaten voor dezelfde vaardigheid — patronenherkenning. Treinformaat gebruikt 11 wagons met één ontbrekende positie. Rasterformaat gebruikt standaard rijen en kolommen voor patroonvoltooiing. Verkoop beide formaten apart of bundel ze als een "Compleet Patronenherkenning Pakket" voor een premiumprijs.',
     },
     {
       title: 'Stem het aantal aanwijzingen af op je doelleeftijd',
@@ -202,12 +202,12 @@ const content: ToolContent = {
 
   internalLinks: [
     { pageType: 'app', slug: 'patroontrein-werkbladen', anchorText: 'Watermerk verwijderen en verkopen met commerciële licentie' },
-    { pageType: 'tool', slug: 'groot-klein-werkblad-maker', anchorText: 'Groot & Klein Werkblad Maker' },
-    { pageType: 'tool', slug: 'patronen-werkblad-maker', anchorText: 'Patronen Werkblad Maker' },
-    { pageType: 'tool', slug: 'rastertekenen-maker', anchorText: 'Rastertekenen Werkblad Maker' },
-    { pageType: 'tool', slug: 'koppelen-werkblad-maker', anchorText: 'Koppelwerkblad Maker' },
+    { pageType: 'tool', slug: 'groot-klein-werkblad-generator', anchorText: 'Groot & Klein Werkblad Generator' },
+    { pageType: 'tool', slug: 'patronen-werkblad-generator', anchorText: 'Patronen Werkblad Generator' },
+    { pageType: 'tool', slug: 'rastertekenen-maker', anchorText: 'Rastertekenen Werkblad Generator' },
+    { pageType: 'tool', slug: 'koppelen-werkblad-generator', anchorText: 'Koppelwerkblad Maker' },
     { pageType: 'tool', slug: 'wat-hoort-er-niet-bij-maker', anchorText: 'Welke Hoort Er Niet Bij Maker' },
-    { pageType: 'tool', slug: 'schaduw-koppelen-maker', anchorText: 'Schaduw Matching Werkblad Maker' },
+    { pageType: 'tool', slug: 'schaduw-koppelen-maker', anchorText: 'Schaduw Matching Werkblad Generator' },
     { pageType: 'tool', slug: 'kleurplaten-maker', anchorText: 'Kleurplaten Maker' },
   ],
 

@@ -2,9 +2,9 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'pattern recognition worksheet maker for Etsy',
+    primaryKeyword: 'pattern recognition worksheet generator for Etsy',
     secondaryKeywords: [
-      'pattern recognition worksheet maker for Etsy sellers',
+      'pattern recognition worksheet generator for Etsy sellers',
       'create pattern recognition worksheets for Etsy',
       'visual pattern printables for Amazon KDP',
       'pattern worksheets with commercial license',
@@ -15,7 +15,7 @@ const content: AppContent = {
       'sell pattern worksheets commercially',
       'cognitive skills worksheet products',
     ],
-    titleTag: 'Pattern Recognition Worksheet Maker for Etsy | LCS',
+    titleTag: 'Pattern Recognition Worksheet Generator for Etsy | LCS',
     metaDescription: 'Create pattern recognition worksheets to sell on Etsy & KDP. Visual sequence activities, themed images, auto answer keys, commercial license. Try free.',
   },
 

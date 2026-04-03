@@ -158,7 +158,7 @@ const content: GuideContent = {
     { pageType: 'bundle', slug: 'wiskunde-meester-pakket', anchorText: 'Wiskunde Meester Pakket' },
     { pageType: 'bundle', slug: 'puzzels-logica-pakket', anchorText: 'Puzzels en Logica Pakket' },
     { pageType: 'app', slug: 'optellen-werkbladen', anchorText: 'Optellen Werkblad Generator' },
-    { pageType: 'tool', slug: 'optellen-werkblad-maker', anchorText: 'Probeer de Optellen Werkblad Maker' },
+    { pageType: 'tool', slug: 'optellen-werkblad-generator', anchorText: 'Probeer de Optellen Werkblad Generator' },
   ],
 
   toolsRecommended: [

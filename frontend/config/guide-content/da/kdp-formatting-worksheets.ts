@@ -44,7 +44,7 @@ const content: GuideContent = {
     },
     {
       heading: 'Håndtér beskæring og ingen-beskæring indstillinger',
-      content: 'Beskæring bestemmer om dit indhold strækker sig til den helt yderste kant af den trykte side eller stopper inden for en hvid ramme. Denne indstilling påvirker dine manuskriptdimensioner og er en af de mest almindelige kilder til KDP upload-fejl.\n\nDe fleste arbejdsark- og aktivitetsbøger bør bruge ingen-beskæring indstillingen. Ingen-beskæring betyder at dit indhold forbliver inden for margenerne og hvid plads omgiver hver side. Dette er det korrekte valg for matematikarbejdsark, puslespilgitter, håndskriftsøvelse og enhver aktivitetstype hvor indholdet er selvbeholdt inden for rammer.\n\nBeskæring kræves når designelementer bevidst strækker sig til sidens kant uden hvid ramme. Malebøger med kant-til-kant illustrationer, aktivitetssider med helside baggrundsmønstre og dekorative sider hvor designet fylder hele overfladen har brug for beskæring. Når beskæring er aktiveret, kræver KDP yderligere 0,125 tommer på hver kant af siden — dine manuskriptdimensioner stiger med 0,25 tommer i både bredde og højde. For en 8,5 gange 11 tommer trim med beskæring skal dine manuskriptsider være 8,75 gange 11,25 tommer.\n\nBeskæringsområdet er den zone der trimmes af under bogfremstilling. Indhold i denne zone kan optræde eller ikke optræde i det endelige produkt afhængigt af trimmepræcision. Placér aldrig vigtigt indhold — tekst, svarfelter, puslespilgitter eller instruktioner — i beskæringszonen. Udstræk kun baggrundsfarver, mønstre eller dekorative illustrationselementer ind i beskæringsområdet.\n\nHvis din bog har en blanding af beskærings- og ingen-beskæringssider (for eksempel farvelægningssider med fuldside illustrationer der alternerer med puslespilsider der har hvide rammer), sæt hele manuskriptet til beskæring og sikr at dine ingen-beskæringssider har indhold positioneret inden for standard margengrænser. Du kan ikke blande beskæringsindstillinger inden for ét manuskript — det er enten alt med beskæring eller alt uden.\n\nEn almindelig fejl er at sætte beskæring men ikke udstrække indhold til trimkanten. Dette skaber en ujævn hvid ramme der ligner en trykfejl frem for et designvalg. Hvis du aktiverer beskæring, sikr at hver side har indhold der strækker sig helt ind i beskæringszonen på alle kanter hvor du vil have kant-til-kant trykning.',
+      content: 'Beskæring bestemmer om dit indhold strækker sig til den helt yderste kant af den trykte side eller stopper inden for en hvid ramme. Denne indstilling påvirker dine manuskriptdimensioner og er en af de mest almindelige kilder til KDP upload-fejl.\n\nDe fleste arbejdsark- og aktivitetsbøger bør bruge ingen-beskæring indstillingen. Ingen-beskæring betyder at dit indhold forbliver inden for margenerne og hvid plads omgiver hver side. Dette er det korrekte valg for matematikarbejdsark, puslespilgitter, håndskriftsøvelse og enhver aktivitetstype hvor indholdet er selvbeholdt inden for rammer.\n\nBeskæring kræves når designelementer bevidst strækker sig til sidens kant uden hvid ramme. Malebøger med kant-til-kant illustrationer, aktivitetssider med helside baggrundsmønstre og dekorative sider hvor designet fylder hele overfladen har brug for beskæring. Når beskæring er aktiveret, kræver KDP yderligere 0,125 tommer på hver kant af siden — dine manuskriptdimensioner stiger med 0,25 tommer i både bredde og højde. For en 8,5 gange 11 tommer trim med beskæring skal dine manuskriptsider være 8,75 gange 11,25 tommer.\n\nBeskæringsområdet er den zone der trimmes af under bogfremstilling. Indhold i denne zone kan optræde eller ikke optræde i det endelige produkt afhængigt af trimmepræcision. Placér aldrig vigtigt indhold — tekst, svarfelter, puslespilgitter eller instruktioner — i beskæringszonen. Udstræk kun baggrundsfarver, mønstre eller dekorative illustrationselementer ind i beskæringsområdet.\n\nHvis din bog har en blanding af beskærings- og ingen-beskæringssider (for eksempel farvelægningssider med fuldside illustrationer der alternerer med puslespilsider der har hvide rammer), sæt hele manuskriptet til beskæring og sikr at dine ingen-beskæringssider har indhold positioneret inden for standard margengrænser. Du kan ikke blande beskæringsindstillinger inden for ét manuskript — det er enten alt med beskæring eller alt uden.\n\nEn almindelig fejl er at sætte beskæring men ikke udstrække indhold til trimkanten. Dette generator en ujævn hvid ramme der ligner en trykfejl frem for et designvalg. Hvis du aktiverer beskæring, sikr at hver side har indhold der strækker sig helt ind i beskæringszonen på alle kanter hvor du vil have kant-til-kant trykning.',
     },
     {
       heading: 'Eksportér trykklare PDF-filer ved 300 DPI',
@@ -97,7 +97,7 @@ const content: GuideContent = {
   examples: [
     {
       heading: 'Eksempel: formatering af en 60-siders matematik-arbejdsbog til KDP',
-      content: 'En 1. klasse additions-arbejdsbog med 8,5 gange 11 tommer trim uden beskæring. Margener sat til 0,5 tommer top og bund, 0,5 tommer yderkant og 0,75 tommer ryg, der skaber et indholdsområde på 7,25 gange 10 tommer. Manuskriptet indeholder 68 totale sider: titelside, kolofon, indholdsfortegnelse, instruktionsside, 50 aktivitetssider (25 lette opgaver per side organiseret som et 5-kolonne gange 5-række gitter med 0,85-tommer celler, progredierende gennem let, medium og svær sektioner), et 4-siders facit med miniaturegitter der viser løsninger, og 4 siders bagstof inklusive en om-forfatteren side og andre-titler listning. Alle sider er sort-hvid. PDF-filen er eksporteret ved 300 DPI i gråtone med alle skrifttyper indlejret og gennemsigtighed fladet. Total filstørrelse er cirka 8 MB. Omslagsdimensionerne beregnes som: rygbredde lig med 68 gange 0,002252 lig med 0,153 tommer, total omslagsbredde lig med 8,5 plus 0,153 plus 8,5 plus 0,25 lig med 17,403 tommer, total omslagshøjde lig med 11,25 tommer. Trykkeomkostning er cirka 1,67 dollars. Prissat til 8,99 dollars er royaltyen cirka 3,72 dollars per salg.',
+      content: 'En 1. klasse additions-arbejdsbog med 8,5 gange 11 tommer trim uden beskæring. Margener sat til 0,5 tommer top og bund, 0,5 tommer yderkant og 0,75 tommer ryg, der generator et indholdsområde på 7,25 gange 10 tommer. Manuskriptet indeholder 68 totale sider: titelside, kolofon, indholdsfortegnelse, instruktionsside, 50 aktivitetssider (25 lette opgaver per side organiseret som et 5-kolonne gange 5-række gitter med 0,85-tommer celler, progredierende gennem let, medium og svær sektioner), et 4-siders facit med miniaturegitter der viser løsninger, og 4 siders bagstof inklusive en om-forfatteren side og andre-titler listning. Alle sider er sort-hvid. PDF-filen er eksporteret ved 300 DPI i gråtone med alle skrifttyper indlejret og gennemsigtighed fladet. Total filstørrelse er cirka 8 MB. Omslagsdimensionerne beregnes som: rygbredde lig med 68 gange 0,002252 lig med 0,153 tommer, total omslagsbredde lig med 8,5 plus 0,153 plus 8,5 plus 0,25 lig med 17,403 tommer, total omslagshøjde lig med 11,25 tommer. Trykkeomkostning er cirka 1,67 dollars. Prissat til 8,99 dollars er royaltyen cirka 3,72 dollars per salg.',
     },
     {
       heading: 'Eksempel: formatering af en 100-siders ordsøgningsbog med beskæring',
@@ -116,7 +116,7 @@ const content: GuideContent = {
     },
     {
       question: 'Skal jeg bruge beskæring eller ingen-beskæring til min arbejdsarkbog?',
-      answer: 'Brug ingen-beskæring til de fleste arbejdsark- og aktivitetsbøger. Matematikarbejdsark, puslespilgitter, håndskriftsøvelse og strukturerede aktivitetssider fungerer perfekt med hvide margener omkring indholdet. Brug beskæring kun når designelementer bevidst strækker sig til sidekanten uden hvid ramme — malebøger med kant-til-kant illustrationer, sider med helside baggrundsmønstre eller dekorative sidedesigns. Hvis kun nogle sider har brug for beskæring, sæt hele manuskriptet til beskæring og sikr at ikke-beskæringssider holder indhold inden for standard margener. Aktivér aldrig beskæring uden faktisk at udstrække indhold til beskæringskanten, da dette skaber ujævne hvide rammer der ligner trykfejl.',
+      answer: 'Brug ingen-beskæring til de fleste arbejdsark- og aktivitetsbøger. Matematikarbejdsark, puslespilgitter, håndskriftsøvelse og strukturerede aktivitetssider fungerer perfekt med hvide margener omkring indholdet. Brug beskæring kun når designelementer bevidst strækker sig til sidekanten uden hvid ramme — malebøger med kant-til-kant illustrationer, sider med helside baggrundsmønstre eller dekorative sidedesigns. Hvis kun nogle sider har brug for beskæring, sæt hele manuskriptet til beskæring og sikr at ikke-beskæringssider holder indhold inden for standard margener. Aktivér aldrig beskæring uden faktisk at udstrække indhold til beskæringskanten, da dette generator ujævne hvide rammer der ligner trykfejl.',
     },
     {
       question: 'Hvilken opløsning og format bør min PDF være til KDP?',
@@ -155,14 +155,14 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'matematik-aktivitetsboeger-kdp', anchorText: 'Sådan skaber du matematik aktivitetsbøger til Amazon KDP' },
+    { pageType: 'guide', slug: 'matematik-aktivitetsboeger-kdp', anchorText: 'Sådan generator du matematik aktivitetsbøger til Amazon KDP' },
     { pageType: 'guide', slug: 'udgiv-puslespilsboeger-kdp', anchorText: 'Sådan udgiver du puslespilbøger på Amazon KDP' },
-    { pageType: 'guide', slug: 'ordsoegningsboeger-kdp', anchorText: 'Sådan skaber du ordsøgningsbøger til Amazon KDP' },
+    { pageType: 'guide', slug: 'ordsoegningsboeger-kdp', anchorText: 'Sådan generator du ordsøgningsbøger til Amazon KDP' },
     { pageType: 'guide', slug: 'tjen-penge-kdp-aktivitetsboeger', anchorText: 'Sådan tjener du penge med KDP aktivitetsbøger' },
     { pageType: 'guide', slug: 'bedste-kdp-aktivitetsbog-nicher', anchorText: 'Top KDP aktivitetsbog-nicher' },
-    { pageType: 'guide', slug: 'sudoku-boeger-kdp', anchorText: 'Sådan skaber du sudokubøger til Amazon KDP' },
+    { pageType: 'guide', slug: 'sudoku-boeger-kdp', anchorText: 'Sådan generator du sudokubøger til Amazon KDP' },
     { pageType: 'guide', slug: 'kdp-eller-etsy-printables', anchorText: 'Amazon KDP vs Etsy: Hvor skal du sælge printables' },
-    { pageType: 'guide', slug: 'skab-additions-arbejdsark', anchorText: 'Sådan skaber du additionsarbejdsark til børn' },
+    { pageType: 'guide', slug: 'skab-additions-arbejdsark', anchorText: 'Sådan generator du additionsarbejdsark til børn' },
     { pageType: 'start', slug: 'komplet-guide-printbar-forretning', anchorText: 'Komplet guide til at starte en printable-virksomhed' },
     { pageType: 'start', slug: 'kommerciel-licens-guide', anchorText: 'Guide til kommerciel licens' },
     { pageType: 'app', slug: 'matematikopgaver-arbejdsark', anchorText: 'Matematikarbejdsark-generator — Alle detaljer' },
@@ -172,7 +172,7 @@ const content: GuideContent = {
     {
       appId: 'math-worksheet',
       title: 'Matematikarbejdsark-generator',
-      description: 'Skaber gitterbaserede matematikarbejdsark med præcis cellestørrelse og afstand ideel til at demonstrere KDP formateringskrav. Matematikarbejdsark kræver nøjagtig justering og tilstrækkelig svarplads, hvilket gør dem til det tydeligste eksempel på hvorfor korrekt margen- og layoutkonfiguration er vigtig for tryk.',
+      description: 'Generator gitterbaserede matematikarbejdsark med præcis cellestørrelse og afstand ideel til at demonstrere KDP formateringskrav. Matematikarbejdsark kræver nøjagtig justering og tilstrækkelig svarplads, hvilket gør dem til det tydeligste eksempel på hvorfor korrekt margen- og layoutkonfiguration er vigtig for tryk.',
     },
     {
       appId: 'addition',
@@ -187,7 +187,7 @@ const content: GuideContent = {
     {
       appId: 'writing',
       title: 'Håndskriftsarbejdsark-generator',
-      description: 'Skaber linjerede håndskriftsøvelsessider der demonstrerer linjeafstand og sporingsområde formatering til KDP. Håndskriftsarbejdsark har de strengeste afstandskrav fordi linjerede linjer skal være præcist målt til mål-aldersgruppen.',
+      description: 'Generator linjerede håndskriftsøvelsessider der demonstrerer linjeafstand og sporingsområde formatering til KDP. Håndskriftsarbejdsark har de strengeste afstandskrav fordi linjerede linjer skal være præcist målt til mål-aldersgruppen.',
     },
     {
       appId: 'coloring',
@@ -204,7 +204,7 @@ const content: GuideContent = {
       { src: '/samples/danish/math%20worksheet/Matematikopgave%203.webp', alt: 'Matematikopgave — dansk eksempel 3', caption: 'Matematikopgave eksempel 3' },
     ],
     youtubeId: '-JIawojGNr0',
-    videoTitle: 'Sådan skaber du trykklare matematikarbejdsark til Amazon KDP — Formateringsvejledning',
+    videoTitle: 'Sådan generator du trykklare matematikarbejdsark til Amazon KDP — Formateringsvejledning',
   },
 
   themeImages: [

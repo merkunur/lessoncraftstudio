@@ -28,7 +28,7 @@ const content: ToolContent = {
     title: 'Comment Créer des Fiches Je Vois Je Vois en 8 Étapes',
     steps: [
       {
-        title: 'Ouvrir le Créateur de Cherche et Compte',
+        title: 'Ouvrir le Générateur de Cherche et Compte',
         description: 'Cliquez sur \" Essayer maintenant \" pour lancer le générateur de fiches Je Vois Je Vois dans votre navigateur. L\'outil s\'ouvre instantanément avec une barre latérale de réglages à gauche et un canevas à double onglet à droite — un onglet pour la fiche, un pour le corrigé. L\'application génère automatiquement une fiche complète à l\'ouverture de la page avec le thème animaux, 4 images sélectionnées aléatoirement, des types de tâches assignés aléatoirement et une grille 6×6 — vous donnant un aperçu instantané de ce que l\'outil produit. Aucun compte, aucun téléchargement de logiciel, aucune installation requis.',
       },
       {
@@ -206,13 +206,13 @@ const content: ToolContent = {
 
   internalLinks: [
     { pageType: 'app', slug: 'cherche-et-compte-fiches', anchorText: 'Activités Cherche et Compte Je Vois Je Vois — Détails Complets du Produit' },
-    { pageType: 'tool', slug: 'generateur-cherche-objets', anchorText: 'Créateur de Fiches Cherche Objets' },
-    { pageType: 'tool', slug: 'generateur-mots-croises-images', anchorText: 'Créateur de Mots Croisés à Images' },
-    { pageType: 'tool', slug: 'generateur-chasse-au-tresor', anchorText: 'Créateur de Chasse au Trésor' },
-    { pageType: 'tool', slug: 'generateur-mots-caches', anchorText: 'Créateur de Mots Cachés' },
-    { pageType: 'tool', slug: 'generateur-parcours-images', anchorText: 'Créateur de Labyrinthes Chemin d\'Images' },
-    { pageType: 'tool', slug: 'generateur-fiches-association', anchorText: 'Créateur de Fiches d\'Association' },
-    { pageType: 'tool', slug: 'generateur-pages-coloriage', anchorText: 'Créateur de Pages de Coloriage' },
+    { pageType: 'tool', slug: 'generateur-cherche-objets', anchorText: 'Générateur de Fiches Cherche Objets' },
+    { pageType: 'tool', slug: 'generateur-mots-croises-images', anchorText: 'Générateur de Mots Croisés à Images' },
+    { pageType: 'tool', slug: 'generateur-chasse-au-tresor', anchorText: 'Générateur de Chasse au Trésor' },
+    { pageType: 'tool', slug: 'generateur-mots-caches', anchorText: 'Générateur de Mots Cachés' },
+    { pageType: 'tool', slug: 'generateur-parcours-images', anchorText: 'Générateur de Labyrinthes Chemin d\'Images' },
+    { pageType: 'tool', slug: 'generateur-fiches-association', anchorText: 'Générateur de Fiches d\'Association' },
+    { pageType: 'tool', slug: 'generateur-pages-coloriage', anchorText: 'Générateur de Pages de Coloriage' },
   ],
 
   visuals: {

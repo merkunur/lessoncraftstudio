@@ -6,13 +6,13 @@ const content: GuideContent = {
     secondaryKeywords: [
       'skapa hitta udda bilden-pussel att sälja',
       'visuell diskriminering arbetsblad generator',
-      'utskriftsbar hitta udda bilden-skapare kommersiellt bruk',
+      'utskriftsbar hitta udda bilden-generator kommersiellt bruk',
       'hitta den annorlunda pussel för Etsy och KDP',
     ],
     lsiKeywords: [
       'dubbelt läge identisk liknande hitta udda generator',
       'per-övning lägesöverstyrning visuella pussel',
-      'automatiskt facit röd cirkel arbetsblad-skapare',
+      'automatiskt facit röd cirkel arbetsblad-generator',
       'sälja hitta udda bilden arbetsblad på Etsy',
       'Amazon KDP visuell diskriminering arbetsböcker',
       'kommersiell licens hitta udda bilden verktyg',
@@ -31,8 +31,8 @@ const content: GuideContent = {
 
   tutorial: [
     {
-      heading: 'Öppna Hitta Udda Bilden-skaparen',
-      content: 'Navigera till Hitta Udda Bilden-skaparen och klicka starta. Verktyget laddas med en inställningssidopanel till vänster och en dubbelfliks-arbetsyta till höger — arbetsblad och facit. Båda genereras simultant.\n\nUtforska sidopanelerna. Övningskonfiguration kontrollerar genereringsläge, övningsantal och per-övning-överstyrningar. Bildbiblioteket ger tillgång till tematiska samlingar med tvåtemasystemet. Sidinställningar hanterar layout och dekoration.',
+      heading: 'Öppna Hitta Udda Bilden-generatorn',
+      content: 'Navigera till Hitta Udda Bilden-generatorn och klicka starta. Verktyget laddas med en inställningssidopanel till vänster och en dubbelfliks-arbetsyta till höger — arbetsblad och facit. Båda genereras simultant.\n\nUtforska sidopanelerna. Övningskonfiguration kontrollerar genereringsläge, övningsantal och per-övning-överstyrningar. Bildbiblioteket ger tillgång till tematiska samlingar med tvåtemasystemet. Sidinställningar hanterar layout och dekoration.',
     },
     {
       heading: 'Välj ditt genereringsläge',
@@ -107,7 +107,7 @@ const content: GuideContent = {
 
   faq: [
     {
-      question: 'Vilka är de två genereringslägen i Hitta Udda Bilden-skaparen?',
+      question: 'Vilka är de två genereringslägen i Hitta Udda Bilden-generatorn?',
       answer: 'Identiskt läge placerar tre kloner av exakt samma bild bredvid en annorlunda — användare hittar icke-duplikaten. Liknande läge hämtar tre bilder från Tema A och en från Tema B — användare identifierar den tematiska utomstående. Du kan överstyrka läget per övning med varje rads rullgardinsmeny.',
     },
     {

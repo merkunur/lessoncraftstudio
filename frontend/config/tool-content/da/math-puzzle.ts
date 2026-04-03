@@ -2,26 +2,26 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'mattepuslespil skaber online',
+    primaryKeyword: 'mattepuslespil generator online',
     secondaryKeywords: [
       'puslespil matematikarbejdsark for sælgere',
-      'mattepuslespil skaber for børn',
+      'mattepuslespil generator for børn',
       'billede mattepuslespil online',
       'printbare mattepuslespil arbejdsark for brugere',
     ],
     lsiKeywords: [
       'billedgitter mattepuslespil til produktlinjebrug',
       'puslespilsstil matematikaktivitet for børn',
-      'konfigurerbar mattepuslespil arbejdsark skaber',
+      'konfigurerbar mattepuslespil arbejdsark generator',
     ],
-    titleTag: 'Mattepuslespil Skaber — Puslespilsarbejdsark til Klassen',
+    titleTag: 'Mattepuslespil Generator — Puslespilsarbejdsark til Klassen',
     metaDescription: 'Opret puslespilsstil mattepuslespil til din produktlinje. Billedgitter puslespil med addition og subtraktion, konfigurerbare gitre, facit. Gratis prøveversion.',
   },
 
   hero: {
     title: 'Mattepuslespil Arbejdsark Generator',
     tagline: 'Opret puslespilsstil billedpuslespil med matematikligninger på under 60 sekunder',
-    description: 'Forvandl matematikøvelse til et engagerende visuelt puslespil, der ser helt anderledes ud end et almindeligt arbejdsark. Dette værktøj deler et valgt billede op i et gitter af celler, hver med en matematikligning. Blandede puslespilsbrikker med svarcifre vises nedenfor — brugerne løser hver ligning og matcher den rigtige brik for at rekonstruere billedet. Vælg blandt tre operationstilstande: Addition, Subtraktion eller Blandet (begge operationer tilfældigt kombineret). Juster gitterstørrelse fra 2×2 (4 brikker, lettest) op til 4×4 (16 brikker, sværest) for at matche ethvert færdighedsniveau. Upload egne PNG- eller JPEG-billeder til brandede, sæsonbetonede eller nichepuslespil, eller gennemse det indbyggede bibliotek med mere end 3.100 billeder i 104 temaer. Puslespilsformatet skaber et direkte genkendeligt produkt, der skiller sig ud i markedspladsens søgeresultater — købere, der scroller gennem rækker af identiske arbejdsark, stopper ved et farverigt billedpuslespil. Download som trykfærdig PDF eller højopløst JPEG. Den gratis prøveversion indeholder et vandmærke på downloads. Køb en licens for at fjerne vandmærket og sælge kommercielt.',
+    description: 'Forvandl matematikøvelse til et engagerende visuelt puslespil, der ser helt anderledes ud end et almindeligt arbejdsark. Dette værktøj deler et valgt billede op i et gitter af celler, hver med en matematikligning. Blandede puslespilsbrikker med svarcifre vises nedenfor — brugerne løser hver ligning og matcher den rigtige brik for at rekonstruere billedet. Vælg blandt tre operationstilstande: Addition, Subtraktion eller Blandet (begge operationer tilfældigt kombineret). Juster gitterstørrelse fra 2×2 (4 brikker, lettest) op til 4×4 (16 brikker, sværest) for at matche ethvert færdighedsniveau. Upload egne PNG- eller JPEG-billeder til brandede, sæsonbetonede eller nichepuslespil, eller gennemse det indbyggede bibliotek med mere end 3.100 billeder i 104 temaer. Puslespilsformatet generator et direkte genkendeligt produkt, der skiller sig ud i markedspladsens søgeresultater — købere, der scroller gennem rækker af identiske arbejdsark, stopper ved et farverigt billedpuslespil. Download som trykfærdig PDF eller højopløst JPEG. Den gratis prøveversion indeholder et vandmærke på downloads. Køb en licens for at fjerne vandmærket og sælge kommercielt.',
   },
 
   tutorial: {
@@ -29,7 +29,7 @@ const content: ToolContent = {
     steps: [
       {
         title: 'Åbn puslespilsgeneratoren',
-        description: 'Klik på \"Prøv gratis nu\" for at starte mattepuslespil-skaberen. Værktøjet åbner direkte i din webbrowser med et mørkt sidepanel til venstre for indstillinger og et lyst lærred til højre for din liveforhåndsvisning. Ingen konto eller download krævet.',
+        description: 'Klik på \"Prøv gratis nu\" for at starte mattepuslespil-generatoren. Værktøjet åbner direkte i din webbrowser med et mørkt sidepanel til venstre for indstillinger og et lyst lærred til højre for din liveforhåndsvisning. Ingen konto eller download krævet.',
       },
       {
         title: 'Indstil gitterstørrelsen',
@@ -37,7 +37,7 @@ const content: ToolContent = {
       },
       {
         title: 'Vælg matematikoperationen',
-        description: 'Vælg operationstilstand: Addition (hver celle viser en additionsligning), Subtraktion (hver celle viser en subtraktionsligning), eller Addition og Subtraktion (begge operationer tilfældigt blandet over gitteret). Blandet tilstand er ideel til gennemgangsarbejdsark og skaber mest variation i et enkelt puslespil.',
+        description: 'Vælg operationstilstand: Addition (hver celle viser en additionsligning), Subtraktion (hver celle viser en subtraktionsligning), eller Addition og Subtraktion (begge operationer tilfældigt blandet over gitteret). Blandet tilstand er ideel til gennemgangsarbejdsark og generator mest variation i et enkelt puslespil.',
       },
       {
         title: 'Vælg eller upload et billede',
@@ -198,13 +198,13 @@ const content: ToolContent = {
 
   internalLinks: [
     { pageType: 'app', slug: 'matteleger-arbejdsark', anchorText: 'Mattepuslespil Arbejdsark — Komplette Produktdetaljer' },
-    { pageType: 'tool', slug: 'additions-arbejdsark-skaber', anchorText: 'Additions Arbejdsark Skaber' },
-    { pageType: 'tool', slug: 'subtraktions-arbejdsark-skaber', anchorText: 'Subtraktions Arbejdsark Skaber' },
-    { pageType: 'tool', slug: 'kode-additions-arbejdsark-skaber', anchorText: 'Kode-additions Arbejdsark Skaber' },
-    { pageType: 'tool', slug: 'mere-eller-mindre-arbejdsark-skaber', anchorText: 'Mere eller Mindre Arbejdsark Skaber' },
-    { pageType: 'tool', slug: 'matematik-arbejdsark-skaber', anchorText: 'Matematik Arbejdsark Skaber' },
-    { pageType: 'tool', slug: 'matchnings-arbejdsark-skaber', anchorText: 'Matchnings Arbejdsark Skaber' },
-    { pageType: 'tool', slug: 'manglende-brikker-skaber', anchorText: 'Manglende Brikker Skaber' },
+    { pageType: 'tool', slug: 'additions-arbejdsark-skaber', anchorText: 'Additions Arbejdsark Generator' },
+    { pageType: 'tool', slug: 'subtraktions-arbejdsark-skaber', anchorText: 'Subtraktions Arbejdsark Generator' },
+    { pageType: 'tool', slug: 'kode-additions-arbejdsark-skaber', anchorText: 'Kode-additions Arbejdsark Generator' },
+    { pageType: 'tool', slug: 'mere-eller-mindre-arbejdsark-skaber', anchorText: 'Mere eller Mindre Arbejdsark Generator' },
+    { pageType: 'tool', slug: 'matematik-arbejdsark-skaber', anchorText: 'Matematik Arbejdsark Generator' },
+    { pageType: 'tool', slug: 'matchnings-arbejdsark-skaber', anchorText: 'Matchnings Arbejdsark Generator' },
+    { pageType: 'tool', slug: 'manglende-brikker-skaber', anchorText: 'Manglende Brikker Generator' },
   ],
 
   visuals: {

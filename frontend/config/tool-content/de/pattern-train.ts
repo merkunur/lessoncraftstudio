@@ -6,7 +6,7 @@ const content: ToolContent = {
     secondaryKeywords: [
       'Muster-Zug-Arbeitsblätter kostenlos erstellen',
       'Musterfolge-Generator ohne Anmeldung online',
-      'kostenloser Zugwaggon-Muster-Ersteller',
+      'kostenloser Zugwaggon-Muster-Generator',
       'Mustererkennungs-Arbeitsblätter online drucken',
     ],
     lsiKeywords: [
@@ -28,7 +28,7 @@ const content: ToolContent = {
     title: 'Muster-Zug-Arbeitsblätter erstellen in 8 einfachen Schritten',
     steps: [
       {
-        title: 'Den Muster-Zug-Ersteller öffnen',
+        title: 'Den Muster-Zug-Generator öffnen',
         description: 'Klicken Sie auf \"Kostenlos testen\", um den Generator in Ihrem Browser zu starten. Das Tool lädt sofort mit einer Einstellungsleiste links und einer Live-Vorschau-Arbeitsfläche rechts. Kein Konto erstellen, kein Software-Download, keine Installation nötig — beginnen Sie sofort mit der Erstellung von Muster-Zug-Arbeitsblättern.',
       },
       {
@@ -137,7 +137,7 @@ const content: ToolContent = {
     },
     {
       title: 'Zug- und Gitter-Muster-Produkte parallel erstellen',
-      description: 'Der Muster-Zug-Ersteller und der Muster-Arbeitsblatt-Ersteller erzeugen grundsätzlich verschiedene visuelle Formate für dieselbe Fähigkeit — Mustererkennung. Das Zug-Format nutzt 11 Waggons mit einer einzelnen fehlenden Position. Das Gitter-Format nutzt Zeilen und Spalten zur Musterergänzung. Verkaufen Sie beide Formate einzeln oder bündeln Sie sie als \"Komplett-Paket Mustererkennung\" für einen Premium-Preis.',
+      description: 'Der Muster-Zug-Generator und der Muster-Arbeitsblatt-Generator erzeugen grundsätzlich verschiedene visuelle Formate für dieselbe Fähigkeit — Mustererkennung. Das Zug-Format nutzt 11 Waggons mit einer einzelnen fehlenden Position. Das Gitter-Format nutzt Zeilen und Spalten zur Musterergänzung. Verkaufen Sie beide Formate einzeln oder bündeln Sie sie als \"Komplett-Paket Mustererkennung\" für einen Premium-Preis.',
     },
     {
       title: 'Hinweisanzahl auf die Ziel-Altersgruppe abstimmen',
@@ -202,13 +202,13 @@ const content: ToolContent = {
 
   internalLinks: [
     { pageType: 'app', slug: 'muster-zug-arbeitsblaetter', anchorText: 'Muster-Zug-Arbeitsblätter — Alle Produktdetails' },
-    { pageType: 'tool', slug: 'gross-klein-ersteller', anchorText: 'Groß-Klein-Ersteller' },
-    { pageType: 'tool', slug: 'muster-arbeitsblatt-ersteller', anchorText: 'Muster-Arbeitsblatt-Ersteller' },
-    { pageType: 'tool', slug: 'rasterzeichnen-ersteller', anchorText: 'Rasterzeichnen-Ersteller' },
-    { pageType: 'tool', slug: 'zuordnungs-arbeitsblatt-ersteller', anchorText: 'Zuordnungs-Arbeitsblatt-Ersteller' },
-    { pageType: 'tool', slug: 'was-passt-nicht-ersteller', anchorText: 'Was-Passt-Nicht-Ersteller' },
-    { pageType: 'tool', slug: 'schattenbilder-ersteller', anchorText: 'Schattenbilder-Ersteller' },
-    { pageType: 'tool', slug: 'malvorlagen-ersteller', anchorText: 'Malvorlagen-Ersteller' },
+    { pageType: 'tool', slug: 'gross-klein-ersteller', anchorText: 'Groß-Klein-Generator' },
+    { pageType: 'tool', slug: 'muster-Arbeitsblatt-Generator', anchorText: 'Muster-Arbeitsblatt-Generator' },
+    { pageType: 'tool', slug: 'rasterzeichnen-ersteller', anchorText: 'Rasterzeichnen-Generator' },
+    { pageType: 'tool', slug: 'zuordnungs-Arbeitsblatt-Generator', anchorText: 'Zuordnungs-Arbeitsblatt-Generator' },
+    { pageType: 'tool', slug: 'was-passt-nicht-ersteller', anchorText: 'Was-Passt-Nicht-Generator' },
+    { pageType: 'tool', slug: 'schattenbilder-ersteller', anchorText: 'Schattenbilder-Generator' },
+    { pageType: 'tool', slug: 'malvorlagen-ersteller', anchorText: 'Malvorlagen-Generator' },
   ],
 
   visuals: {

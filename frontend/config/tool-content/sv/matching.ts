@@ -28,7 +28,7 @@ const content: ToolContent = {
     title: 'Hur du Skapar Matchnings Arbetsblad i 8 Steg',
     steps: [
       {
-        title: 'Öppna Matchnings Arbetsblad Skaparen',
+        title: 'Öppna Matchnings Arbetsblad Generatorn',
         description: 'Klicka på \"Prova gratis nu\" för att starta matchnings arbetsblad generatorn i din webbläsare. Verktyget laddas direkt med ett inställningssidofält till vänster och en dubbelfliks arbetsyta till höger — en flik för arbetsbladet, en för facit. Inget konto, ingen nedladdning, ingen installation krävs.',
       },
       {
@@ -175,7 +175,7 @@ const content: ToolContent = {
       answer: 'Begynnelsebokstav erbjuder tre underlägen. Slumpmässigt Tema och Bilder väljer ett slumpmässigt tema och bilder automatiskt. Slumpmässigt från Valt Tema låter dig välja temat. Välj Specifika Bilder öppnar Bildbiblioteket för manuellt val. Växla också mellan versaler och gemener.',
     },
     {
-      question: 'Är Matchnings Arbetsblad Skaparen språkkänslig?',
+      question: 'Är Matchnings Arbetsblad Generatorn språkkänslig?',
       answer: 'Ja. Begynnelsebokstav och Bild+Ord-lägen använder lokaliserade bildnamn. Att byta språk ändrar orden och begynnelsebokstäverna — en kattbild visar K på svenska men C på engelska (Cat) och K på tyska (Katze). Den lokaliserade Para ihop-rubriken ändras också. Detta låter dig skapa matchnings arbetsblad på alla 11 stödda språk.',
     },
     {
@@ -202,13 +202,13 @@ const content: ToolContent = {
 
   internalLinks: [
     { pageType: 'app', slug: 'matchnings-arbetsblad', anchorText: 'Matchnings Arbetsblad — Fullständiga Produktdetaljer' },
-    { pageType: 'tool', slug: 'rutnaetspussel-skapare', anchorText: 'Rutmatchning Skapare' },
-    { pageType: 'tool', slug: 'skuggmatchning-skapare', anchorText: 'Skuggmatchning Skapare' },
-    { pageType: 'tool', slug: 'bildbingo-skapare', anchorText: 'Bildbingo Skapare' },
-    { pageType: 'tool', slug: 'sortera-bilder-skapare', anchorText: 'Sortera Bilder Skapare' },
-    { pageType: 'tool', slug: 'alfabetstaag-skapare', anchorText: 'Alfabetståg Skapare' },
-    { pageType: 'tool', slug: 'ordsoek-skapare', anchorText: 'Ordsök Skapare' },
-    { pageType: 'tool', slug: 'additions-arbetsblad-skapare', anchorText: 'Additions Arbetsblad Skapare' },
+    { pageType: 'tool', slug: 'rutnaetspussel-skapare', anchorText: 'Rutmatchning Generator' },
+    { pageType: 'tool', slug: 'skuggmatchning-skapare', anchorText: 'Skuggmatchning Generator' },
+    { pageType: 'tool', slug: 'bildbingo-skapare', anchorText: 'Bildbingo Generator' },
+    { pageType: 'tool', slug: 'sortera-bilder-skapare', anchorText: 'Sortera Bilder Generator' },
+    { pageType: 'tool', slug: 'alfabetstaag-skapare', anchorText: 'Alfabetståg Generator' },
+    { pageType: 'tool', slug: 'ordsoek-skapare', anchorText: 'Ordsök Generator' },
+    { pageType: 'tool', slug: 'additions-arbetsblad-skapare', anchorText: 'Additions Arbetsblad Generator' },
   ],
 
   visuals: {

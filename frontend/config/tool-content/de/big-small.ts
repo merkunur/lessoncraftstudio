@@ -5,7 +5,7 @@ const content: ToolContent = {  seo: {
     secondaryKeywords: [
       'Größenvergleich-Arbeitsblätter kostenlos erstellen',
       'Groß-Klein-Generator online ohne Anmeldung',
-      'kostenloser Größenanordnung-Ersteller für Kinder',
+      'kostenloser Größenanordnung-Generator für Kinder',
       'Größenvergleich-Übungen online erstellen und drucken',
     ],
     lsiKeywords: [
@@ -201,13 +201,13 @@ const content: ToolContent = {  seo: {
 
   internalLinks: [
     { pageType: 'app', slug: 'gross-klein-arbeitsblaetter', anchorText: 'Groß-Klein-Arbeitsblätter — Alle Produktdetails' },
-    { pageType: 'tool', slug: 'muster-zug-ersteller', anchorText: 'Muster-Zug-Ersteller' },
-    { pageType: 'tool', slug: 'muster-arbeitsblatt-ersteller', anchorText: 'Muster-Arbeitsblatt-Ersteller' },
-    { pageType: 'tool', slug: 'rasterzeichnen-ersteller', anchorText: 'Rasterzeichnen-Ersteller' },
-    { pageType: 'tool', slug: 'zuordnungs-arbeitsblatt-ersteller', anchorText: 'Zuordnungs-Arbeitsblatt-Ersteller' },
-    { pageType: 'tool', slug: 'was-passt-nicht-ersteller', anchorText: 'Was-Passt-Nicht-Ersteller' },
-    { pageType: 'tool', slug: 'schattenbilder-ersteller', anchorText: 'Schattenbilder-Ersteller' },
-    { pageType: 'tool', slug: 'linien-ziehen-ersteller', anchorText: 'Linien-Ziehen-Ersteller' },
+    { pageType: 'tool', slug: 'muster-zug-ersteller', anchorText: 'Muster-Zug-Generator' },
+    { pageType: 'tool', slug: 'muster-Arbeitsblatt-Generator', anchorText: 'Muster-Arbeitsblatt-Generator' },
+    { pageType: 'tool', slug: 'rasterzeichnen-ersteller', anchorText: 'Rasterzeichnen-Generator' },
+    { pageType: 'tool', slug: 'zuordnungs-Arbeitsblatt-Generator', anchorText: 'Zuordnungs-Arbeitsblatt-Generator' },
+    { pageType: 'tool', slug: 'was-passt-nicht-ersteller', anchorText: 'Was-Passt-Nicht-Generator' },
+    { pageType: 'tool', slug: 'schattenbilder-ersteller', anchorText: 'Schattenbilder-Generator' },
+    { pageType: 'tool', slug: 'linien-ziehen-ersteller', anchorText: 'Linien-Ziehen-Generator' },
   ],
 
   visuals: {

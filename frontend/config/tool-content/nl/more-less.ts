@@ -28,8 +28,8 @@ const content: ToolContent = {
     title: 'Zo maakt u vergelijkingswerkbladen in 8 eenvoudige stappen',
     steps: [
       {
-        title: 'Open de werkblad maker',
-        description: 'Klik op "Gratis proefversie" om de meer of minder werkblad maker te starten. De tool opent direct in je browser met een donkere zijbalk links voor alle instellingen en een helder canvas rechts voor de live voorbeeldweergave. Geen account of download nodig.',
+        title: 'Open de werkblad generator',
+        description: 'Klik op "Gratis proefversie" om de meer of minder werkblad generator te starten. De tool opent direct in je browser met een donkere zijbalk links voor alle instellingen en een helder canvas rechts voor de live voorbeeldweergave. Geen account of download nodig.',
       },
       {
         title: 'Kies je oefenmodus',
@@ -197,13 +197,13 @@ const content: ToolContent = {
 
   internalLinks: [
     { pageType: 'app', slug: 'meer-minder-werkbladen', anchorText: 'Watermerk verwijderen en verkopen met commerciële licentie' },
-    { pageType: 'tool', slug: 'optellen-werkblad-maker', anchorText: 'Optellen Werkblad Maker' },
-    { pageType: 'tool', slug: 'aftrekken-werkblad-maker', anchorText: 'Aftrekken Werkblad Maker' },
-    { pageType: 'tool', slug: 'code-optellen-werkblad-maker', anchorText: 'Code Optellen Werkblad Maker' },
+    { pageType: 'tool', slug: 'optellen-werkblad-generator', anchorText: 'Optellen Werkblad Generator' },
+    { pageType: 'tool', slug: 'aftrekken-werkblad-generator', anchorText: 'Aftrekken Werkblad Generator' },
+    { pageType: 'tool', slug: 'code-optellen-werkblad-generator', anchorText: 'Code Optellen Werkblad Generator' },
     { pageType: 'tool', slug: 'rekenpuzzel-maker', anchorText: 'Rekenpuzzel Maker' },
-    { pageType: 'tool', slug: 'reken-werkblad-maker', anchorText: 'Reken Werkblad Maker' },
-    { pageType: 'tool', slug: 'koppelen-werkblad-maker', anchorText: 'Koppelen Werkblad Maker' },
-    { pageType: 'tool', slug: 'groot-klein-werkblad-maker', anchorText: 'Groot en Klein Werkblad Maker' },
+    { pageType: 'tool', slug: 'reken-werkblad-generator', anchorText: 'Reken Werkblad Generator' },
+    { pageType: 'tool', slug: 'koppelen-werkblad-generator', anchorText: 'Koppelen Werkblad Generator' },
+    { pageType: 'tool', slug: 'groot-klein-werkblad-generator', anchorText: 'Groot en Klein Werkblad Generator' },
   ],
 
   visuals: {

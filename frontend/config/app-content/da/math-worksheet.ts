@@ -14,7 +14,7 @@ const content: AppContent = {
       'printbare ligningspuslespil business',
       'kommercielt brug algebraisk arbejdsark generator',
     ],
-    titleTag: 'Algebrapuslespil Generator | Matematikarbejdsark Skaber',
+    titleTag: 'Algebrapuslespil Generator | Matematikarbejdsark Generator',
     metaDescription:
       'Opret algebrapuslespil arbejdsark til salg på Etsy, KDP og Gumroad. Billeder som variabler, 4 sværhedsgrader, unikke løsninger. Gratis prøveversion.',
   },
@@ -127,7 +127,7 @@ const content: AppContent = {
       {
         title: 'Digitale produkter i din egen webshop',
         description:
-          'Brug generatoren til at producere ugentlige algebrapuslespilspakker og distribuer dem via din egen Shopify-, Gumroad- eller Payhip-butik. En abonnementsmodel — hver uge en ny tematisk puslespilspakke — skaber tilbagevendende indtægter og opbygger en loyal kundebase af hjemmeundervisende familier og lektiehjælpscentre. Med fire sværhedsgrader, to operationstilstande, justerbare talintervaller og 104 temaer har du tilstrækkeligt med kombinationer til års unikt indhold.',
+          'Brug generatoren til at producere ugentlige algebrapuslespilspakker og distribuer dem via din egen Shopify-, Gumroad- eller Payhip-butik. En abonnementsmodel — hver uge en ny tematisk puslespilspakke — generator tilbagevendende indtægter og opbygger en loyal kundebase af hjemmeundervisende familier og lektiehjælpscentre. Med fire sværhedsgrader, to operationstilstande, justerbare talintervaller og 104 temaer har du tilstrækkeligt med kombinationer til års unikt indhold.',
         platform: 'Gumroad / Shopify / Payhip',
       },
       {
@@ -143,7 +143,7 @@ const content: AppContent = {
     {
       question: 'Hvordan fungerer det algebraiske billedpuslespilformat?',
       answer:
-        'Hvert puslespil præsenterer et system af koblede ligninger, hvor billeder forestiller ukendte variabler. For eksempel: et tosymbolspuslespil kan vise: æble + æble = 6, æble + banan = 8. Brugerne udleder, at hvert æble er 3 og hver banan 5. Højere sværhedsgrader tilføjer flere symboler og flere ligninger, hvilket skaber ægte flervariable algebraiske puslespil — alt uden abstrakt bogstavnotation. Dette visuelle format gør algebra tilgængeligt for brugere allerede fra 1. klasse.',
+        'Hvert puslespil præsenterer et system af koblede ligninger, hvor billeder forestiller ukendte variabler. For eksempel: et tosymbolspuslespil kan vise: æble + æble = 6, æble + banan = 8. Brugerne udleder, at hvert æble er 3 og hver banan 5. Højere sværhedsgrader tilføjer flere symboler og flere ligninger, hvilket generator ægte flervariable algebraiske puslespil — alt uden abstrakt bogstavnotation. Dette visuelle format gør algebra tilgængeligt for brugere allerede fra 1. klasse.',
     },
     {
       question: 'Hvad betyder de fire sværhedsgrader?',
@@ -153,12 +153,12 @@ const content: AppContent = {
     {
       question: 'Hvilke matematikoperationer er tilgængelige?',
       answer:
-        'Du kan vælge mellem Kun Addition, hvor ligningerne udelukkende bruger addition, eller Addition og Subtraktion, hvor begge operationer blandes inden for samme puslespil. Kun Addition er perfekt for yngre brugere, mens blandede operationer tilføjer kompleksitet for avancerede brugere og skaber mere varierede ligningsstrukturer.',
+        'Du kan vælge mellem Kun Addition, hvor ligningerne udelukkende bruger addition, eller Addition og Subtraktion, hvor begge operationer blandes inden for samme puslespil. Kun Addition er perfekt for yngre brugere, mens blandede operationer tilføjer kompleksitet for avancerede brugere og generator mere varierede ligningsstrukturer.',
     },
     {
       question: 'Hvilke talintervaller kan jeg indstille for puslespillene?',
       answer:
-        'Du indstiller et minimum- og maksimumværdi for løsningerne, med et standardinterval på 0 til 20. Mindre intervaller (f.eks. 1–5) skaber enklere puslespil for begyndere, mens større intervaller giver mere udfordrende beregninger inden for ligningerne. Du kan også aktivere Tillad Negative Resultater for avancerede brugere, der er klar til at øve med negative tal.',
+        'Du indstiller et minimum- og maksimumværdi for løsningerne, med et standardinterval på 0 til 20. Mindre intervaller (f.eks. 1–5) generator enklere puslespil for begyndere, mens større intervaller giver mere udfordrende beregninger inden for ligningerne. Du kan også aktivere Tillad Negative Resultater for avancerede brugere, der er klar til at øve med negative tal.',
     },
     {
       question: 'Har hvert puslespil virkelig præcis én løsning?',

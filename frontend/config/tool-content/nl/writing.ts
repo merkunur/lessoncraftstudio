@@ -7,7 +7,7 @@ const content: ToolContent = {
       'schrijfoefeningen werkblad online maken',
       'letter-overtrek werkbladen gratis proberen',
       'schrijfwerkbladen generator met streekvolgorde',
-      'schrijfoefeningen maker drie oefenmodi',
+      'schrijfoefeningen generator drie oefenmodi',
     ],
     lsiKeywords: [
       'pijl-streekorde schrijfwerkbladen online',
@@ -28,7 +28,7 @@ const content: ToolContent = {
     title: 'Schrijfwerkbladen gratis maken in 8 eenvoudige stappen',
     steps: [
       {
-        title: 'Open de schrijfoefeningen werkblad maker',
+        title: 'Open de schrijfoefeningen werkblad generator',
         description: 'Klik op "Gratis proefversie" om de generator te starten in je browser. De tool laadt direct met een instellingenzijbalk links en een live voorbeeldcanvas rechts. Geen account, geen software-download, geen installatie nodig — begin onmiddellijk met het maken van schrijfoefeningen werkbladen.',
       },
       {
@@ -208,7 +208,7 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'woordzoeker-maker', anchorText: 'Woordzoeker Maker' },
     { pageType: 'tool', slug: 'cryptogram-maker', anchorText: 'Cryptogram Maker' },
     { pageType: 'tool', slug: 'lijnen-trekken-maker', anchorText: 'Lijnen Trekken Maker' },
-    { pageType: 'tool', slug: 'voorzetsels-werkblad-maker', anchorText: 'Voorzetsels Werkblad Maker' },
+    { pageType: 'tool', slug: 'voorzetsels-werkblad-generator', anchorText: 'Voorzetsels Werkblad Generator' },
   ],
 
   visuals: {

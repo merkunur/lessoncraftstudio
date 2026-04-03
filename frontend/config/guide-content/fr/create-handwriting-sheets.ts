@@ -10,7 +10,7 @@ const content: GuideContent = {
       'fiches tracé lettres personnalisées',
     ],
     lsiKeywords: [
-      'créateur fiches tracé lettres',
+      'générateur fiches tracé lettres',
       'fiches écriture cursive à imprimer',
       'ordre des traits formation lettres',
       'graphisme préparatoire marché préscolaire',

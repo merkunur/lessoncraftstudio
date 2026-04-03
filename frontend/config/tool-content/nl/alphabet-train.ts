@@ -6,7 +6,7 @@ const content: ToolContent = {  seo: {
       'alfabettrein werkbladen online maken',
       'letterherkenning werkbladen gratis proberen',
       'alfabet werkbladen generator meertalig',
-      'letter-afbeelding koppeling werkblad maker',
+      'letter-afbeelding koppeling werkblad generator',
     ],
     lsiKeywords: [
       'letter-afbeelding trein werkblad gratis online',
@@ -27,7 +27,7 @@ const content: ToolContent = {  seo: {
     title: 'Alfabet werkbladen gratis maken in 8 eenvoudige stappen',
     steps: [
       {
-        title: 'Open de alfabettrein maker',
+        title: 'Open de alfabettrein generator',
         description: 'Klik op "Gratis proefversie" om de generator te starten. De tool opent direct in je browser met een instellingenzijbalk links en een live voorbeeldcanvas rechts. Geen account, download of installatie nodig.',
       },
       {
@@ -148,7 +148,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Combineer met Patroontrein voor een Trein-Thema Bundel',
-      description: 'De Patroontrein maker gebruikt hetzelfde treinwagon visuele formaat maar richt zich op patroonherkenning in plaats van letters. Bundel de uitvoer van beide tools in een "Trein Activiteiten" megapakket dat zowel geletterdheid als logische vaardigheden dekt. De bijpassende visuele stijl creëert een samenhangende productlijn.',
+      description: 'De Patroontrein generator gebruikt hetzelfde treinwagon visuele formaat maar richt zich op patroonherkenning in plaats van letters. Bundel de uitvoer van beide tools in een "Trein Activiteiten" megapakket dat zowel geletterdheid als logische vaardigheden dekt. De bijpassende visuele stijl creëert een samenhangende productlijn.',
     },
   ],
 
@@ -201,7 +201,7 @@ const content: ToolContent = {  seo: {
 
   internalLinks: [
     { pageType: 'app', slug: 'alfabet-trein-werkbladen', anchorText: 'Watermerk verwijderen en verkopen met commerciële licentie' },
-    { pageType: 'tool', slug: 'voorzetsels-werkblad-maker', anchorText: 'Voorzetsels Werkblad Maker' },
+    { pageType: 'tool', slug: 'voorzetsels-werkblad-generator', anchorText: 'Voorzetsels Werkblad Generator' },
     { pageType: 'tool', slug: 'woordraadsel-maker', anchorText: 'Woordraadsel Maker' },
     { pageType: 'tool', slug: 'letterpuzzel-maker', anchorText: 'Letterpuzzel Maker' },
     { pageType: 'tool', slug: 'woordzoeker-maker', anchorText: 'Woordzoeker Maker' },

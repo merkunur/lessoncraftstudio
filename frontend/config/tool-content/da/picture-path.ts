@@ -6,29 +6,29 @@ const content: ToolContent = {
     secondaryKeywords: [
       'labyrint arbejdsark generator for sælgere',
       'lav billedsti labyrint arbejdsark til salg',
-      'printbar labyrintpuslespil skaber kommerciel brug',
-      'labyrintaktivitet arbejdsark skaber til KDP og Etsy',
+      'printbar labyrintpuslespil generator kommerciel brug',
+      'labyrintaktivitet arbejdsark generator til KDP og Etsy',
     ],
     lsiKeywords: [
       'tre spiltilstande billedsti klassisk labyrint vælg vej',
-      'LPF longest path first algoritme vægbaseret labyrint skaber',
+      'LPF longest path first algoritme vægbaseret labyrint generator',
       'automatisk facit rosa cirkel løsningsvej labyrint generator',
     ],
-    titleTag: 'Billedsti Skaber — Labyrint Arbejdsark Generator — Sælgerguide',
+    titleTag: 'Billedsti Generator — Labyrint Arbejdsark Generator — Sælgerguide',
     metaDescription: 'Lav labyrintarbejdsark med Billedsti, Klassisk Labyrint og Vælg den Rigtige Vej-tilstande, samlingsbilleder og automatiske facit. Gratis prøveversion med vandmærke.',
   },
 
   hero: {
-    title: 'Billedsti Labyrint Skaber',
+    title: 'Billedsti Labyrint Generator',
     tagline: 'Tretilstands labyrint arbejdsark generator med Billedsti (billedgitter vejfølgning), Klassisk Labyrint (LPF vægbaseret algoritme med samlingsbilleder og blindgyde-blokering) og Vælg den Rigtige Vej (trevejs retningslabyrint), fem billedroller, tilpasbar vægdesign og helt visuelle labyrinter der sælger globalt uden oversættelse',
-    description: 'Lav professionelle labyrint- og vejarbejdsark med tre distinkte spiltilstande. Billedsti skaber billedgitre, hvor brugerne følger den rigtige vej. Klassisk Labyrint genererer vægbaserede labyrinter med LPF-algoritmen, konfigurerbare gitterstørrelser 15×15 til 20×20, 1–3 veje med blindgyde-blokering, og tilpasbar vægfarve/tykkelse/gennemsigtighed. Samlingsbilleder spredes gennem korridorer. Vælg den Rigtige Vej præsenterer trevejslabyrinter med fire retningsmuligheder. Fem billedroller: Start, Mål, Vej, Distraktor og Dekoration. Hver tilstand genererer facit med rosa cirkler langs løsningsvejen. Vælg Vej tilføjer \"✓ KORREKT VEJ\". Klassisk Labyrint inkluderer samlingslegende. Helt visuelle labyrinter — universelt sælgbare uden oversættelse. Gennemse 104 tematiske samlinger med mere end 3.100 illustrationer. Eksportér fire filer per session med 300 DPI. Den gratis prøveversion indeholder alle funktioner med vandmærke. Køb en licens for at fjerne vandmærket.',
+    description: 'Lav professionelle labyrint- og vejarbejdsark med tre distinkte spiltilstande. Billedsti generator billedgitre, hvor brugerne følger den rigtige vej. Klassisk Labyrint genererer vægbaserede labyrinter med LPF-algoritmen, konfigurerbare gitterstørrelser 15×15 til 20×20, 1–3 veje med blindgyde-blokering, og tilpasbar vægfarve/tykkelse/gennemsigtighed. Samlingsbilleder spredes gennem korridorer. Vælg den Rigtige Vej præsenterer trevejslabyrinter med fire retningsmuligheder. Fem billedroller: Start, Mål, Vej, Distraktor og Dekoration. Hver tilstand genererer facit med rosa cirkler langs løsningsvejen. Vælg Vej tilføjer \"✓ KORREKT VEJ\". Klassisk Labyrint inkluderer samlingslegende. Helt visuelle labyrinter — universelt sælgbare uden oversættelse. Gennemse 104 tematiske samlinger med mere end 3.100 illustrationer. Eksportér fire filer per session med 300 DPI. Den gratis prøveversion indeholder alle funktioner med vandmærke. Køb en licens for at fjerne vandmærket.',
   },
 
   tutorial: {
     title: 'Sådan Laver du Labyrintarbejdsark i 8 Trin',
     steps: [
       {
-        title: 'Åbn Billedsti Labyrint Skaberen',
+        title: 'Åbn Billedsti Labyrint Generatoren',
         description: 'Klik på \"Prøv gratis nu\" for at starte labyrint arbejdsark generatoren. Værktøjet indlæses direkte med et indstillingssidepanel til venstre og et dobbeltfane-arbejdsområde til højre. Ingen konto, ingen download, ingen installation kræves.',
       },
       {
@@ -145,7 +145,7 @@ const content: ToolContent = {
     },
     {
       title: 'Brug vægtilpasning for distinkte visuelle stile',
-      description: 'Vægfarve, tykkelse og gennemsigtighed kontroller skaber distinkte produkter. Tynde grå vægge til sofistikerede puslespilbøger. Tykke farverige vægge til børnehavebørn. Halvtransparente vægge til lageffekter.',
+      description: 'Vægfarve, tykkelse og gennemsigtighed kontroller generator distinkte produkter. Tynde grå vægge til sofistikerede puslespilbøger. Tykke farverige vægge til børnehavebørn. Halvtransparente vægge til lageffekter.',
     },
     {
       title: 'Brug gråtone for budgetvenlige produktlinje- og KDP-produkter',
@@ -164,7 +164,7 @@ const content: ToolContent = {
     },
     {
       question: 'Hvordan fungerer LPF labyrintalgoritmen?',
-      answer: 'Longest Path First (LPF) bruger et korridor-celle-system med dynamisk vægplacering. Vejkvalitetsscoring evaluerer sving, længde og blokeringer. Flervejsstøtte skaber 1–3 veje med automatisk blindgyde-blokering. Konfigurerbar vejlængde 4–30 celler (standard 8–12). Gitre 15×15 til 20×20.',
+      answer: 'Longest Path First (LPF) bruger et korridor-celle-system med dynamisk vægplacering. Vejkvalitetsscoring evaluerer sving, længde og blokeringer. Flervejsstøtte generator 1–3 veje med automatisk blindgyde-blokering. Konfigurerbar vejlængde 4–30 celler (standard 8–12). Gitre 15×15 til 20×20.',
     },
     {
       question: 'Hvad er de fem billedroller?',
@@ -180,14 +180,14 @@ const content: ToolContent = {
     },
     {
       question: 'Hvordan fungerer det automatisk genererede facit?',
-      answer: 'Dobbeltarbejdsområde-system. Facittet genskaber labyrintlayoutet og markerer løsningsvejen med rosa cirkler. Vælg den Rigtige Vej tilføjer \"✓ KORREKT VEJ\". Klassisk Labyrint inkluderer samlingslegende. Fire downloadfiler per generering.',
+      answer: 'Dobbeltarbejdsområde-system. Facittet gengenerator labyrintlayoutet og markerer løsningsvejen med rosa cirkler. Vælg den Rigtige Vej tilføjer \"✓ KORREKT VEJ\". Klassisk Labyrint inkluderer samlingslegende. Fire downloadfiler per generering.',
     },
     {
       question: 'Hvordan ser den automatisk genererede overskrift ud?',
       answer: 'Orange ydre ramme (8px streg) med 34px marginer. Titlen \"Billedsti\" og \"Følg vejen fra start til mål!\" oversættes til alle 11 understøttede sprog. Stående 240px overskrift; liggende 165px kompakt layout.',
     },
     {
-      question: 'Er Billedsti Labyrint Skaberen sprogfølsom?',
+      question: 'Er Billedsti Labyrint Generatoren sprogfølsom?',
       answer: 'Nej. Helt visuelle labyrinter — brugerne navigerer uden at læse tekst. Det eneste lokaliserede element er overskriftsteksten, oversat til 11 sprog. Labyrintindholdet kræver ingen sprogforståelse. Universelt sælgbart.',
     },
     {
@@ -206,13 +206,13 @@ const content: ToolContent = {
 
   internalLinks: [
     { pageType: 'app', slug: 'billedsti-arbejdsark', anchorText: 'Billedsti Labyrint Puslespil — Fulde Produktdetaljer' },
-    { pageType: 'tool', slug: 'boerne-sudoku-skaber', anchorText: 'Billedsudoku Skaber' },
-    { pageType: 'tool', slug: 'manglende-brikker-skaber', anchorText: 'Manglende Brikker Puslespil Skaber' },
-    { pageType: 'tool', slug: 'find-den-forkerte-skaber', anchorText: 'Find den Ulige Skaber' },
-    { pageType: 'tool', slug: 'gitterpuslespil-skaber', anchorText: 'Gitterpuslespil Skaber' },
-    { pageType: 'tool', slug: 'find-og-tael-skaber', anchorText: 'Find og Tæl Skaber' },
-    { pageType: 'tool', slug: 'ordsoegning-skaber', anchorText: 'Ordsøgning Skaber' },
-    { pageType: 'tool', slug: 'malebilleder-skaber', anchorText: 'Malebilleder Skaber' },
+    { pageType: 'tool', slug: 'boerne-sudoku-skaber', anchorText: 'Billedsudoku Generator' },
+    { pageType: 'tool', slug: 'manglende-brikker-skaber', anchorText: 'Manglende Brikker Puslespil Generator' },
+    { pageType: 'tool', slug: 'find-den-forkerte-skaber', anchorText: 'Find den Ulige Generator' },
+    { pageType: 'tool', slug: 'gitterpuslespil-skaber', anchorText: 'Gitterpuslespil Generator' },
+    { pageType: 'tool', slug: 'find-og-tael-skaber', anchorText: 'Find og Tæl Generator' },
+    { pageType: 'tool', slug: 'ordsoegning-skaber', anchorText: 'Ordsøgning Generator' },
+    { pageType: 'tool', slug: 'malebilleder-skaber', anchorText: 'Malebilleder Generator' },
   ],
 
   visuals: {

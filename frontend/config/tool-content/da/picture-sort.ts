@@ -6,29 +6,29 @@ const content: ToolContent = {
     secondaryKeywords: [
       'sorterings arbejdsark generator for sælgere',
       'lav sorteringsarbejdsark til salg på Etsy',
-      'printbar sorteringsaktivitet skaber kommerciel brug',
+      'printbar sorteringsaktivitet generator kommerciel brug',
       'billedsortering arbejdsark generator til KDP og Etsy',
     ],
     lsiKeywords: [
-      'tokategori sorterings arbejdsark skaber med facit',
+      'tokategori sorterings arbejdsark generator med facit',
       'temabaseret manuelt tilstand billedklassificering generator',
-      'blandet udklipsgitter sorteringsaktivitet skaber',
+      'blandet udklipsgitter sorteringsaktivitet generator',
     ],
-    titleTag: 'Billedsortering Skaber — Sorterings Arbejdsark Generator',
+    titleTag: 'Billedsortering Generator — Sorterings Arbejdsark Generator',
     metaDescription: 'Lav sorteringsarbejdsark med tokategori tematilstand, blandede udklipsgitre, automatiske facit og 104 tematiske billedsamlinger. Gratis prøveversion med vandmærke.',
   },
 
   hero: {
-    title: 'Billedsortering Skaber',
+    title: 'Billedsortering Generator',
     tagline: 'Tokategori sorterings arbejdsark generator med temabaseret og manuelt billedvalg, blandede udklipsgitre af 4–12 billeder, stiplede kategorirammer, automatisk genererede facit med 6× større billeder i kategorikasser, lokaliseret Sortér billeder-overskrift på 11 sprog og 104 tematiske billedsamlinger',
-    description: 'Lav professionelle sorteringsarbejdsark, hvor brugerne klipper billeder ud fra et blandet gitter og klassificerer dem i to kategorier — venstre og højre. Vælg tematilstand for at autoudfylde kategorier: vælg et venstre tema og et højre tema, appen henter 4–6 tilfældige billeder per tema. Eller skift til manuel tilstand for at håndvælge individuelle billeder og tildele hver til venstre eller højre. Hvert arbejdsark har to side-om-side stiplede kategorirammer med #FAFAFA-fyldning øverst og et blandet udklipsgitter nedenunder med hvide celler, stiplede #666-kanter, 4px afrundede hjørner og 3–4 kolonner. Konfigurér 4–12 totale billeder med 2–10 per kategori. Dobbeltarbejdsområde-systemet genererer samtidigt arbejdsark og facit — facittet viser billeder med 6× størrelse i kategorikasser med max 2 kolonner, #FAFAFA-fyldning, #444-streg og 12px kantradius. Billedsortering Skaberen er sprogfølsom: kategorietiketter bruger lokaliserede billednavne. En lokaliseret overskrift gengives med mintgrøn baggrund (#4DB6AC), blågrøn titel (#00796B) i Fredoka Bold og orange beskrivelse (#FF7043) i Quicksand. En blågrøn ydre ramme (#26A69A, 8px streg, 12px radius) indrammer siden. Gennemse 104 tematiske samlinger med mere end 3.100 illustrationer eller upload egne billeder. Anvend baggrunds- og rammetemaer med uafhængige gennemsigtighedsskydere. Tilføj navn- og datofelter. Eksportér fire filer per session med 300 DPI. Den gratis prøveversion indeholder alle funktioner med vandmærke. Køb en licens for at fjerne vandmærket og sælge kommercielt.',
+    description: 'Lav professionelle sorteringsarbejdsark, hvor brugerne klipper billeder ud fra et blandet gitter og klassificerer dem i to kategorier — venstre og højre. Vælg tematilstand for at autoudfylde kategorier: vælg et venstre tema og et højre tema, appen henter 4–6 tilfældige billeder per tema. Eller skift til manuel tilstand for at håndvælge individuelle billeder og tildele hver til venstre eller højre. Hvert arbejdsark har to side-om-side stiplede kategorirammer med #FAFAFA-fyldning øverst og et blandet udklipsgitter nedenunder med hvide celler, stiplede #666-kanter, 4px afrundede hjørner og 3–4 kolonner. Konfigurér 4–12 totale billeder med 2–10 per kategori. Dobbeltarbejdsområde-systemet genererer samtidigt arbejdsark og facit — facittet viser billeder med 6× størrelse i kategorikasser med max 2 kolonner, #FAFAFA-fyldning, #444-streg og 12px kantradius. Billedsortering Generatoren er sprogfølsom: kategorietiketter bruger lokaliserede billednavne. En lokaliseret overskrift gengives med mintgrøn baggrund (#4DB6AC), blågrøn titel (#00796B) i Fredoka Bold og orange beskrivelse (#FF7043) i Quicksand. En blågrøn ydre ramme (#26A69A, 8px streg, 12px radius) indrammer siden. Gennemse 104 tematiske samlinger med mere end 3.100 illustrationer eller upload egne billeder. Anvend baggrunds- og rammetemaer med uafhængige gennemsigtighedsskydere. Tilføj navn- og datofelter. Eksportér fire filer per session med 300 DPI. Den gratis prøveversion indeholder alle funktioner med vandmærke. Køb en licens for at fjerne vandmærket og sælge kommercielt.',
   },
 
   tutorial: {
     title: 'Sådan Laver du Sorteringsarbejdsark i 8 Trin',
     steps: [
       {
-        title: 'Åbn Billedsortering Skaberen',
+        title: 'Åbn Billedsortering Generatoren',
         description: 'Klik på \"Prøv gratis nu\" for at starte sorterings arbejdsark generatoren. Værktøjet indlæses direkte med et indstillingssidepanel til venstre og et dobbeltfane-arbejdsområde til højre — en fane for arbejdsarket, en for facittet. Ingen konto, ingen download, ingen installation kræves.',
       },
       {
@@ -77,7 +77,7 @@ const content: ToolContent = {
     },
     {
       title: 'Flersprogede sorteringsprodukter til internationale markeder',
-      description: 'Billedsortering Skaberen er sprogfølsom — kategorietiketter bruger lokaliserede billednavne. Lav sorteringsarbejdsark på alle 11 understøttede sprog fra de samme billeder. Den lokaliserede Sortér billeder-overskrift oversættes automatisk. Sælg flersprogede pakker.',
+      description: 'Billedsortering Generatoren er sprogfølsom — kategorietiketter bruger lokaliserede billednavne. Lav sorteringsarbejdsark på alle 11 understøttede sprog fra de samme billeder. Den lokaliserede Sortér billeder-overskrift oversættes automatisk. Sælg flersprogede pakker.',
     },
     {
       title: 'Tilpassede foto sorteringsarbejdsark',
@@ -85,7 +85,7 @@ const content: ToolContent = {
     },
     {
       title: 'Sæsonbetonede og højtidssorteringssamlinger',
-      description: 'Julepynt mod julemad, halloweenkostumer mod halloweenslik, sommeraktiviteter mod vinteraktiviteter — sæsonbetonede kategoriparringer skaber naturlige sorteringsaktiviteter. Udgiv 4–6 uger før højtiden. Inkludér enkle (4–6 billeder) og avancerede (10–12 billeder) versioner.',
+      description: 'Julepynt mod julemad, halloweenkostumer mod halloweenslik, sommeraktiviteter mod vinteraktiviteter — sæsonbetonede kategoriparringer generator naturlige sorteringsaktiviteter. Udgiv 4–6 uger før højtiden. Inkludér enkle (4–6 billeder) og avancerede (10–12 billeder) versioner.',
     },
   ],
 
@@ -107,7 +107,7 @@ const content: ToolContent = {
     },
     {
       title: 'Pinterest sorteringsarbejdsark trafiktragt',
-      description: 'Sorteringsarbejdsark gør visuelt slående Pinterest-pins — tokategori layoutet med kategorirammer og blandet udklipsgitter skaber et øjeblikkeligt genkendeligt uddannelsesformat. Pin prøvearbejdsark med forskellige kategoriparringer.',
+      description: 'Sorteringsarbejdsark gør visuelt slående Pinterest-pins — tokategori layoutet med kategorirammer og blandet udklipsgitter generator et øjeblikkeligt genkendeligt uddannelsesformat. Pin prøvearbejdsark med forskellige kategoriparringer.',
       platform: 'Pinterest',
     },
     {
@@ -117,7 +117,7 @@ const content: ToolContent = {
     },
     {
       title: 'Flersprogede sorteringsprodukter til globale markeder',
-      description: 'Billedsortering Skaberen er sprogfølsom — kategorietiketter og Sortér billeder-overskriften bruger lokaliserede billednavne. Producér sorteringsarbejdsark på alle 11 sprog. Flersprogede pakker retfærdiggør premiumpriser.',
+      description: 'Billedsortering Generatoren er sprogfølsom — kategorietiketter og Sortér billeder-overskriften bruger lokaliserede billednavne. Producér sorteringsarbejdsark på alle 11 sprog. Flersprogede pakker retfærdiggør premiumpriser.',
       platform: 'Etsy / Gumroad',
     },
   ],
@@ -125,7 +125,7 @@ const content: ToolContent = {
   proTips: [
     {
       title: 'Brug tematilstand til hurtig masseproduktion',
-      description: 'Tematilstand autovælger 4–6 billeder per kategori. Vælg venstre og højre tema, klik Generér, og appen producerer et komplet sorteringsarbejdsark på sekunder. At klikke Generér igen med de samme temaer skaber et anderledes arbejdsark med anderledes billeder. Generér 10–15 unikke arbejdsark per temaparring.',
+      description: 'Tematilstand autovælger 4–6 billeder per kategori. Vælg venstre og højre tema, klik Generér, og appen producerer et komplet sorteringsarbejdsark på sekunder. At klikke Generér igen med de samme temaer generator et anderledes arbejdsark med anderledes billeder. Generér 10–15 unikke arbejdsark per temaparring.',
     },
     {
       title: 'Brug manuel tilstand til produktkatalogtilpasset præcision',
@@ -179,7 +179,7 @@ const content: ToolContent = {
       answer: 'Dobbeltarbejdsområde-systemet genererer samtidigt arbejdsark og facit. Facittet viser to kategorikasser med billeder sorteret i den korrekte gruppe — gengivet med 6× størrelsen. Max 2 kolonner per kasse med #FAFAFA-fyldning, #444-streg og 12px kantradius. Fire produktionsklare filer per generering.',
     },
     {
-      question: 'Er Billedsortering Skaberen sprogfølsom?',
+      question: 'Er Billedsortering Generatoren sprogfølsom?',
       answer: 'Ja. Kategorietiketter bruger lokaliserede billednavne — at skifte sprog ændrer teksten. Et kattebillede vises som \"Kat\" på dansk, \"Cat\" på engelsk, \"Katze\" på tysk. Den lokaliserede Sortér billeder-overskrift oversættes automatisk til alle 11 understøttede sprog.',
     },
     {
@@ -206,13 +206,13 @@ const content: ToolContent = {
 
   internalLinks: [
     { pageType: 'app', slug: 'billedsortering-arbejdsark', anchorText: 'Billedsortering Arbejdsark — Fulde Produktdetaljer' },
-    { pageType: 'tool', slug: 'matchnings-arbejdsark-skaber', anchorText: 'Matchnings Arbejdsark Skaber' },
-    { pageType: 'tool', slug: 'gitterpuslespil-skaber', anchorText: 'Gitterpuslespil Skaber' },
-    { pageType: 'tool', slug: 'skyggematchning-skaber', anchorText: 'Skyggematchning Skaber' },
-    { pageType: 'tool', slug: 'billedbingo-skaber', anchorText: 'Billedbingo Skaber' },
-    { pageType: 'tool', slug: 'find-den-underlige-skaber', anchorText: 'Find den Underlige Skaber' },
-    { pageType: 'tool', slug: 'ordsoegning-skaber', anchorText: 'Ordsøgning Skaber' },
-    { pageType: 'tool', slug: 'malebilleder-skaber', anchorText: 'Malebilleder Skaber' },
+    { pageType: 'tool', slug: 'matchnings-arbejdsark-skaber', anchorText: 'Matchnings Arbejdsark Generator' },
+    { pageType: 'tool', slug: 'gitterpuslespil-skaber', anchorText: 'Gitterpuslespil Generator' },
+    { pageType: 'tool', slug: 'skyggematchning-skaber', anchorText: 'Skyggematchning Generator' },
+    { pageType: 'tool', slug: 'billedbingo-skaber', anchorText: 'Billedbingo Generator' },
+    { pageType: 'tool', slug: 'find-den-underlige-skaber', anchorText: 'Find den Underlige Generator' },
+    { pageType: 'tool', slug: 'ordsoegning-skaber', anchorText: 'Ordsøgning Generator' },
+    { pageType: 'tool', slug: 'malebilleder-skaber', anchorText: 'Malebilleder Generator' },
   ],
 
   visuals: {

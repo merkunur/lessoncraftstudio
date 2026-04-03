@@ -28,7 +28,7 @@ const content: ToolContent = {
     title: 'Comment Créer des Fiches Deviner les Mots en 8 Étapes Simples',
     steps: [
       {
-        title: 'Ouvrir le Créateur de Fiches Deviner les Mots',
+        title: 'Ouvrir le Générateur de Fiches Deviner les Mots',
         description: 'Cliquez sur \" Essayer maintenant \" pour lancer le générateur. L\'outil s\'ouvre instantanément dans votre navigateur avec une barre latérale de réglages à gauche et un canevas d\'aperçu en temps réel à droite. Aucun compte, téléchargement ni installation requis.',
       },
       {

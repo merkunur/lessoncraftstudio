@@ -28,7 +28,7 @@ const content: ToolContent = {
     title: 'Sortier-Arbeitsblätter erstellen in 8 Schritten',
     steps: [
       {
-        title: 'Den Bilder-Sortieren-Ersteller öffnen',
+        title: 'Den Bilder-Sortieren-Generator öffnen',
         description: 'Klicken Sie auf \"Kostenlos testen\", um den Sortier-Arbeitsblatt-Generator in Ihrem Browser zu starten. Das Tool lädt sofort mit einer Einstellungsleiste links und einer Dual-Tab-Arbeitsfläche rechts — ein Tab für das Arbeitsblatt, ein Tab für den Lösungsschlüssel. Kein Konto erstellen, kein Software-Download, keine Installation erforderlich — beginnen Sie sofort mit der Erstellung von Sortier-Arbeitsblättern.',
       },
       {
@@ -77,7 +77,7 @@ const content: ToolContent = {
     },
     {
       title: 'Mehrsprachige Sortier-Produkte für internationale Märkte',
-      description: 'Der Bilder-Sortieren-Ersteller ist sprachabhängig — Kategoriebeschriftungen verwenden lokalisierte Bildnamen aus der Bildbibliothek, sodass ein Sprachwechsel den Text auf dem Arbeitsblatt ändert. Erstellen Sie Sortier-Arbeitsblätter in Englisch, Deutsch, Französisch, Spanisch, Portugiesisch, Italienisch, Niederländisch, Schwedisch, Dänisch, Norwegisch und Finnisch aus denselben Bildern, ohne etwas neu zu gestalten. Der lokalisierte Bilder-Sortieren-Header wird ebenfalls automatisch übersetzt. Verkaufen Sie sprachspezifische Sortier-Pakete auf internationalen Etsy-Shops und mehrsprachigen Gumroad-Käufern, oder erstellen Sie DaF/DaZ-Sortier-Aktivitäten, bei denen zweisprachige Kategoriebeschriftungen den Wortschatzerwerb fördern.',
+      description: 'Der Bilder-Sortieren-Generator ist sprachabhängig — Kategoriebeschriftungen verwenden lokalisierte Bildnamen aus der Bildbibliothek, sodass ein Sprachwechsel den Text auf dem Arbeitsblatt ändert. Erstellen Sie Sortier-Arbeitsblätter in Englisch, Deutsch, Französisch, Spanisch, Portugiesisch, Italienisch, Niederländisch, Schwedisch, Dänisch, Norwegisch und Finnisch aus denselben Bildern, ohne etwas neu zu gestalten. Der lokalisierte Bilder-Sortieren-Header wird ebenfalls automatisch übersetzt. Verkaufen Sie sprachspezifische Sortier-Pakete auf internationalen Etsy-Shops und mehrsprachigen Gumroad-Käufern, oder erstellen Sie DaF/DaZ-Sortier-Aktivitäten, bei denen zweisprachige Kategoriebeschriftungen den Wortschatzerwerb fördern.',
     },
     {
       title: 'Sortier-Arbeitsblätter mit eigenen Fotos',
@@ -117,7 +117,7 @@ const content: ToolContent = {
     },
     {
       title: 'Mehrsprachige Sortier-Produkte für globale Märkte',
-      description: 'Der Bilder-Sortieren-Ersteller ist sprachabhängig — Kategoriebeschriftungen und der Bilder-Sortieren-Header verwenden lokalisierte Bildnamen in 11 Sprachen, was die Produktion von Sortier-Arbeitsblättern in Englisch, Deutsch, Französisch, Spanisch, Portugiesisch, Italienisch, Niederländisch, Schwedisch, Dänisch, Norwegisch und Finnisch aus denselben Bildern einfach macht. Erstellen Sie mehrsprachige Sortier-Pakete für internationale Etsy-Shops, zweisprachige Gumroad-Käufer und DaF/DaZ-Klassenräume weltweit. Verkaufen Sie dasselbe thematische Sortier-Set in mehreren Sprachversionen ohne Neugestaltung — wechseln Sie die Sprache und generieren Sie neu. Mehrsprachige Pakete erzielen Premium-Preise und erreichen Käufer, die einsprachige Wettbewerber nicht bedienen können.',
+      description: 'Der Bilder-Sortieren-Generator ist sprachabhängig — Kategoriebeschriftungen und der Bilder-Sortieren-Header verwenden lokalisierte Bildnamen in 11 Sprachen, was die Produktion von Sortier-Arbeitsblättern in Englisch, Deutsch, Französisch, Spanisch, Portugiesisch, Italienisch, Niederländisch, Schwedisch, Dänisch, Norwegisch und Finnisch aus denselben Bildern einfach macht. Erstellen Sie mehrsprachige Sortier-Pakete für internationale Etsy-Shops, zweisprachige Gumroad-Käufer und DaF/DaZ-Klassenräume weltweit. Verkaufen Sie dasselbe thematische Sortier-Set in mehreren Sprachversionen ohne Neugestaltung — wechseln Sie die Sprache und generieren Sie neu. Mehrsprachige Pakete erzielen Premium-Preise und erreichen Käufer, die einsprachige Wettbewerber nicht bedienen können.',
       platform: 'Etsy / Gumroad',
     },
   ],
@@ -179,7 +179,7 @@ const content: ToolContent = {
       answer: 'Das Dual-Canvas-System generiert gleichzeitig einen Arbeitsblatt-Tab und einen Lösungsschlüssel-Tab. Der Lösungsschlüssel zeigt zwei Kategorieboxen (eine pro Kategorie, gleiche Breite) mit Bildern in ihrer korrekten Gruppe — dargestellt in 6-facher Größe der Ausschneidegitter-Zellen für klare, leicht lesbare Überprüfung. Jede Kategoriebox verwendet maximal 2 Spalten mit #FAFAFA-Füllung, #444-gestricheltem Strich und 12px Randradius. Laden Sie jede Version separat herunter — Arbeitsblatt-JPEG, Arbeitsblatt-PDF, Lösungsschlüssel-JPEG und Lösungsschlüssel-PDF — vier produktionsfertige Dateien aus einer einzigen Generierung.',
     },
     {
-      question: 'Ist der Bilder-Sortieren-Ersteller sprachabhängig?',
+      question: 'Ist der Bilder-Sortieren-Generator sprachabhängig?',
       answer: 'Ja. Kategoriebeschriftungen verwenden lokalisierte Bildnamen aus der Bildbibliothek, sodass ein Sprachwechsel den Text auf dem Arbeitsblatt ändert. Ein Katzenbild erscheint beispielsweise als \"Katze\" auf Deutsch, aber als \"Cat\" auf Englisch und \"Chat\" auf Französisch. Der lokalisierte Bilder-Sortieren-Header und seine Beschreibung werden ebenfalls automatisch in alle 11 unterstützten Sprachen übersetzt: Englisch, Deutsch, Französisch, Spanisch, Portugiesisch, Italienisch, Niederländisch, Schwedisch, Dänisch, Norwegisch und Finnisch. Das macht es einfach, mehrsprachige Sortier-Produkte aus denselben Bildern zu erstellen.',
     },
     {
@@ -206,13 +206,13 @@ const content: ToolContent = {
 
   internalLinks: [
     { pageType: 'app', slug: 'bilder-sortieren-arbeitsblaetter', anchorText: 'Bilder-Sortieren-Arbeitsblätter — Vollständige Produktdetails' },
-    { pageType: 'tool', slug: 'zuordnungs-arbeitsblatt-ersteller', anchorText: 'Zuordnungs-Arbeitsblatt-Ersteller' },
-    { pageType: 'tool', slug: 'raster-puzzle-ersteller', anchorText: 'Raster-Puzzle-Ersteller' },
-    { pageType: 'tool', slug: 'schattenbilder-ersteller', anchorText: 'Schattenbilder-Ersteller' },
-    { pageType: 'tool', slug: 'bingo-karten-ersteller', anchorText: 'Bingo-Karten-Ersteller' },
-    { pageType: 'tool', slug: 'was-passt-nicht-ersteller', anchorText: 'Was-Passt-Nicht-Ersteller' },
-    { pageType: 'tool', slug: 'wortsuche-ersteller', anchorText: 'Wortsuche-Ersteller' },
-    { pageType: 'tool', slug: 'malvorlagen-ersteller', anchorText: 'Malvorlagen-Ersteller' },
+    { pageType: 'tool', slug: 'zuordnungs-Arbeitsblatt-Generator', anchorText: 'Zuordnungs-Arbeitsblatt-Generator' },
+    { pageType: 'tool', slug: 'raster-puzzle-ersteller', anchorText: 'Raster-Puzzle-Generator' },
+    { pageType: 'tool', slug: 'schattenbilder-ersteller', anchorText: 'Schattenbilder-Generator' },
+    { pageType: 'tool', slug: 'bingo-karten-ersteller', anchorText: 'Bingo-Karten-Generator' },
+    { pageType: 'tool', slug: 'was-passt-nicht-ersteller', anchorText: 'Was-Passt-Nicht-Generator' },
+    { pageType: 'tool', slug: 'wortsuche-ersteller', anchorText: 'Wortsuche-Generator' },
+    { pageType: 'tool', slug: 'malvorlagen-ersteller', anchorText: 'Malvorlagen-Generator' },
   ],
 
   visuals: {

@@ -15,7 +15,7 @@ const content: GuideContent = {
       'fiches trouve l\'image cachée',
       'vendre fiches objets cachés sur Etsy',
       'cahiers cherche et trouve Amazon KDP',
-      'créateur scènes objets cachés licence commerciale',
+      'générateur scènes objets cachés licence commerciale',
     ],
     titleTag: 'Cherche et trouve à vendre en ligne | LCS',
     metaDescription: 'Créez des fiches objets cachés avec deux modes de jeu : Cherche et Trouve et Trouve l\'intrus. Scènes thématiques, corrigés auto et vente sur Etsy et KDP.',
@@ -162,7 +162,7 @@ const content: GuideContent = {
     { pageType: 'start', slug: 'guide-licence-commerciale', anchorText: 'Guide des licences commerciales' },
     { pageType: 'app', slug: 'cherche-objets-fiches', anchorText: 'Générateur de scènes Cherche et Trouve — Détails complets' },
     { pageType: 'app', slug: 'parcours-images-fiches', anchorText: 'Générateur de labyrinthes d\'images — Détails complets' },
-    { pageType: 'tool', slug: 'generateur-cherche-objets', anchorText: 'Essayer le créateur de scènes objets cachés' },
+    { pageType: 'tool', slug: 'generateur-cherche-objets', anchorText: 'Essayer le générateur de scènes objets cachés' },
   ],
 
   toolsRecommended: [

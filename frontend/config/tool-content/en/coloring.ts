@@ -201,7 +201,7 @@ const content: ToolContent = {  seo: {
 
   internalLinks: [
     { pageType: 'app', slug: 'coloring-worksheets', anchorText: 'Remove watermark and sell commercially' },
-    { pageType: 'tool', slug: 'draw-and-color-maker', anchorText: 'Free draw and color worksheet maker' },
+    { pageType: 'tool', slug: 'draw-and-color-maker', anchorText: 'Free draw and color worksheet generator' },
     { pageType: 'guide', slug: 'create-coloring-pages', anchorText: 'How to create coloring pages to sell' },
   ],
 

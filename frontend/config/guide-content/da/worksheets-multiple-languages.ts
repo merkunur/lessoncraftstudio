@@ -18,11 +18,11 @@ const content: GuideContent = {
       'batchproduktion flersproget indholdsgenerering automatiserede oversættelsesværktøjer vokabulardatabaser',
     ],
     titleTag: 'Skab arbejdsark på flere sprog — Guide',
-    metaDescription: 'Sådan skaber du arbejdsark på flere sprog med produktionsworkflows, tegnhåndtering, skrifttypevalg, kvalitetssikring og listningstilpasning.',
+    metaDescription: 'Sådan generator du arbejdsark på flere sprog med produktionsworkflows, tegnhåndtering, skrifttypevalg, kvalitetssikring og listningstilpasning.',
   },
 
   hero: {
-    title: 'Sådan skaber du arbejdsark på flere sprog',
+    title: 'Sådan generator du arbejdsark på flere sprog',
     tagline: 'En praktisk guide til flersproget arbejdsark-produktion — der dækker hvordan du vælger sprogtilpassede arbejdsarktyper, opsætter et flersproget arbejdsområde, håndterer specialtegn og skrifttyper, tilpasser indhold naturligt til hvert marked, implementerer oversættelseskvalitetssikring, bruger automatiserede flersprogede værktøjer, bygger effektive batchproduktionsworkflows og optimerer markedspladslistninger til internationale købere',
     description: 'At skabe arbejdsark på flere sprog er ikke blot et spørgsmål om at køre tekst igennem en oversætter. Professionel flersproget produktion kræver forståelse af tegnsæt, skrifttypekompatibilitet, tekstlængdevariationer, kulturel kontekst og kvalitetssikringsprocesser der sikrer at enhver sprogversion opfylder den samme standard som din original. Denne guide gennemgår den komplette produktionsmetodologi for at skabe arbejdsark der ser ud og læses professionelt på hvert målsprog.',
   },
@@ -86,7 +86,7 @@ const content: GuideContent = {
     },
     {
       heading: 'Multiplicér omsætning gennem sprogudvidelse af beviste produkter',
-      content: 'Den mest effektive monetiseringsstrategi er at udvide dine bedst ydende engelske produkter til yderligere sprog før du skaber helt nye engelske produkter. Et bevist sælger har allerede valideret markedsefterspørgsel — at tilpasse det til tysk, fransk og spansk skaber tre nye omsætningsstrømme fra et koncept du ved fungerer. Produktionstiden for sprogtilpasning er typisk 20% til 30% af den originale skabelsestid fordi designbeslutningerne, layoutet og den pædagogiske struktur allerede er fuldført. Dette gør sprogudvidelse til en af de højest afkast-på-tid aktiviteter tilgængelige for arbejdsark-sælgere.',
+      content: 'Den mest effektive monetiseringsstrategi er at udvide dine bedst ydende engelske produkter til yderligere sprog før du generator helt nye engelske produkter. Et bevist sælger har allerede valideret markedsefterspørgsel — at tilpasse det til tysk, fransk og spansk generator tre nye omsætningsstrømme fra et koncept du ved fungerer. Produktionstiden for sprogtilpasning er typisk 20% til 30% af den originale skabelsestid fordi designbeslutningerne, layoutet og den pædagogiske struktur allerede er fuldført. Dette gør sprogudvidelse til en af de højest afkast-på-tid aktiviteter tilgængelige for arbejdsark-sælgere.',
     },
     {
       heading: 'Byg sprogspecifikke produktlinjer',
@@ -97,11 +97,11 @@ const content: GuideContent = {
   examples: [
     {
       heading: 'Eksempel: Fra kun-engelsk til professionel flersproget produktion',
-      content: 'En arbejdsark-sælger med 25 engelske matematik- og ordsoegnings-produkter på Etsy beslutter at udvide til tysk og fransk. Hun starter med at kategorisere sine produkter efter sprogtilpasningssværhedsgrad: 15 matematikarbejdsark behøver kun instruktionsoversættelse, mens 10 ordsoegnings-arbejdsark behøver komplet vokabulartilpasning. Hun begynder med matematikarbejdsarkene, oversætter instruktioner til tysk og fransk, med omhyggelig opmærksomhed på talformatering (komma vs. punktum for decimaler) og instruktionsformulering. Hun bruger en skrifttype med omfattende Unicode-support der gengiver omlydstegn og accenter korrekt. For ordsoegningerne bruger hun LessonCraft Studio generatorer til at producere tyske og franske versioner med modersmåls vokabulardatabaser, der eliminerer behovet for manuel ordoversættelse og diakritisk mærke-verifikation. Hvert genereret ordsoegning gennemgås mod hendes sprogspecifikke QA-tjekliste før listning. Hun skaber tyske og franske markedspladslistninger med uafhængigt undersøgte nøgleord frem for oversatte engelske termer. Inden for tre måneder genererer hendes flersprogede produkter yderligere månedlig omsætning fra markeder hvor hun møder en brøkdel af den konkurrence hun møder på engelsk. De tyske ordsoegnings-arbejdsark præsterer særligt godt fordi få konkurrenter tilbyder professionelt producerede tyske ordsoegninger med korrekt tegnhåndtering.',
+      content: 'En arbejdsark-sælger med 25 engelske matematik- og ordsoegnings-produkter på Etsy beslutter at udvide til tysk og fransk. Hun starter med at kategorisere sine produkter efter sprogtilpasningssværhedsgrad: 15 matematikarbejdsark behøver kun instruktionsoversættelse, mens 10 ordsoegnings-arbejdsark behøver komplet vokabulartilpasning. Hun begynder med matematikarbejdsarkene, oversætter instruktioner til tysk og fransk, med omhyggelig opmærksomhed på talformatering (komma vs. punktum for decimaler) og instruktionsformulering. Hun bruger en skrifttype med omfattende Unicode-support der gengiver omlydstegn og accenter korrekt. For ordsoegningerne bruger hun LessonCraft Studio generatorer til at producere tyske og franske versioner med modersmåls vokabulardatabaser, der eliminerer behovet for manuel ordoversættelse og diakritisk mærke-verifikation. Hvert genereret ordsoegning gennemgås mod hendes sprogspecifikke QA-tjekliste før listning. Hun generator tyske og franske markedspladslistninger med uafhængigt undersøgte nøgleord frem for oversatte engelske termer. Inden for tre måneder genererer hendes flersprogede produkter yderligere månedlig omsætning fra markeder hvor hun møder en brøkdel af den konkurrence hun møder på engelsk. De tyske ordsoegnings-arbejdsark præsterer særligt godt fordi få konkurrenter tilbyder professionelt producerede tyske ordsoegninger med korrekt tegnhåndtering.',
     },
     {
       heading: 'Eksempel: Opbygning af et batchproduktionssystem til fire sprog',
-      content: 'En sælger der producerer alfabet- og vokabulararbejdsark etablerer en ugentlig batchproduktionsplan på tværs af engelsk, tysk, fransk og spansk. Mandag er designdag — han skaber layouts og vælger temaer for ugens batch af 6 arbejdsarkvariationer. Tirsdag er engelsk produktion — han genererer alle 6 variationer på engelsk og gennemfører den engelske QA-tjekliste. Onsdag formiddag er tysk produktion — med generatorer med tyske vokabulardatabaser og hans tyske QA-tjekliste der specifikt tjekker omlydstegn, substantivkapitalisering og sammensatte ords stavning. Onsdag eftermiddag er fransk produktion — med en separat tjekliste der dækker accenter, kønsoverensstemmelse og tegnsætningsafstand. Torsdag er spansk produktion — der tjekker accentmærker, omvendt tegnsætning og regional vokabularneutralitet. Fredag er listningsdag — han forbereder markedspladslistninger for alle 24 arbejdsark (6 variationer gange 4 sprog) med sprogspecifik nøgleordsundersøgelse for hvert marked. Denne strukturerede batchtilgang producerer 24 markedsplads-klare arbejdsark per uge fra ét enkelt koncept, med konsistent kvalitet på tværs af alle fire sprog.',
+      content: 'En sælger der producerer alfabet- og vokabulararbejdsark etablerer en ugentlig batchproduktionsplan på tværs af engelsk, tysk, fransk og spansk. Mandag er designdag — han generator layouts og vælger temaer for ugens batch af 6 arbejdsarkvariationer. Tirsdag er engelsk produktion — han genererer alle 6 variationer på engelsk og gennemfører den engelske QA-tjekliste. Onsdag formiddag er tysk produktion — med generatorer med tyske vokabulardatabaser og hans tyske QA-tjekliste der specifikt tjekker omlydstegn, substantivkapitalisering og sammensatte ords stavning. Onsdag eftermiddag er fransk produktion — med en separat tjekliste der dækker accenter, kønsoverensstemmelse og tegnsætningsafstand. Torsdag er spansk produktion — der tjekker accentmærker, omvendt tegnsætning og regional vokabularneutralitet. Fredag er listningsdag — han forbereder markedspladslistninger for alle 24 arbejdsark (6 variationer gange 4 sprog) med sprogspecifik nøgleordsundersøgelse for hvert marked. Denne strukturerede batchtilgang producerer 24 markedsplads-klare arbejdsark per uge fra ét enkelt koncept, med konsistent kvalitet på tværs af alle fire sprog.',
     },
   ],
 
@@ -139,14 +139,14 @@ const content: GuideContent = {
   internalLinks: [
     { pageType: 'guide', slug: 'flersproget-printbar-forretning', anchorText: 'Opbygning af en flersproget printable-virksomhed' },
     { pageType: 'guide', slug: 'undersoeg-profitable-nicher', anchorText: 'Sådan undersøger du profitable printable-nicher' },
-    { pageType: 'guide', slug: 'skab-printbar-produktlinje', anchorText: 'Sådan skaber du en printbar produktlinje' },
-    { pageType: 'guide', slug: 'skab-ordsoegning-puslespil', anchorText: 'Sådan skaber du ordsoegning-puslespil' },
-    { pageType: 'guide', slug: 'skab-alfabet-arbejdsark', anchorText: 'Sådan skaber du alfabet-lærings-arbejdsark' },
-    { pageType: 'guide', slug: 'skab-praepositioner-arbejdsark', anchorText: 'Sådan skaber du præpositionsarbejdsark til ESL' },
+    { pageType: 'guide', slug: 'skab-printbar-produktlinje', anchorText: 'Sådan generator du en printbar produktlinje' },
+    { pageType: 'guide', slug: 'skab-ordsoegning-puslespil', anchorText: 'Sådan generator du ordsoegning-puslespil' },
+    { pageType: 'guide', slug: 'skab-alfabet-arbejdsark', anchorText: 'Sådan generator du alfabet-lærings-arbejdsark' },
+    { pageType: 'guide', slug: 'skab-praepositioner-arbejdsark', anchorText: 'Sådan generator du præpositionsarbejdsark til ESL' },
     { pageType: 'guide', slug: 'saelg-matematik-arbejdsark-etsy', anchorText: 'Sådan sælger du matematikarbejdsark på Etsy' },
     { pageType: 'guide', slug: 'guide-skaler-printbar-forretning', anchorText: 'Sådan skalerer du din printable-virksomhed' },
     { pageType: 'guide', slug: 'seo-etsy-paedagogisk-materiale', anchorText: 'Etsy SEO for pædagogiske printables' },
-    { pageType: 'guide', slug: 'skab-arbejdsark-pakker', anchorText: 'Sådan skaber du arbejdsarkpakker der sælger' },
+    { pageType: 'guide', slug: 'skab-arbejdsark-pakker', anchorText: 'Sådan generator du arbejdsarkpakker der sælger' },
     { pageType: 'start', slug: 'komplet-guide-printbar-forretning', anchorText: 'Komplet guide til at starte en printable-virksomhed' },
     { pageType: 'start', slug: 'kommerciel-licens-guide', anchorText: 'Guide til kommerciel licens' },
   ],
@@ -185,7 +185,7 @@ const content: GuideContent = {
       { src: '/samples/danish/word%20scramble/Bogstavrod%203.webp', alt: 'Bogstavrod — dansk eksempel 3', caption: 'Bogstavrod eksempel 3' },
     ],
     youtubeId: '_dDQegRq9JQ',
-    videoTitle: 'Sådan skaber du flersprogede alfabetarbejdsark',
+    videoTitle: 'Sådan generator du flersprogede alfabetarbejdsark',
   },
 
   themeImages: [

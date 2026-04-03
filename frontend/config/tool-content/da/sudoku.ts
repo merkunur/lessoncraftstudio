@@ -4,22 +4,22 @@ const content: ToolContent = {
   seo: {
     primaryKeyword: 'billedsudoku for børn',
     secondaryKeywords: [
-      'billedsudoku skaber for sælgere',
+      'billedsudoku generator for sælgere',
       'lav billedsudoku puslespil til salg',
       'printbar billedsudoku generator kommerciel brug',
-      'billedsudoku arbejdsark skaber til KDP og Etsy',
+      'billedsudoku arbejdsark generator til KDP og Etsy',
     ],
     lsiKeywords: [
-      '4x4 gitter billedlogik puslespil skaber',
-      'tre sværhedsgrader let medium svær sudoku skaber',
+      '4x4 gitter billedlogik puslespil generator',
+      'tre sværhedsgrader let medium svær sudoku generator',
       'automatisk facit komplet udfyldt gitter sudoku generator',
     ],
-    titleTag: 'Billedsudoku Skaber — Billedsudoku for Børn Generator',
+    titleTag: 'Billedsudoku Generator — Billedsudoku for Børn Generator',
     metaDescription: 'Lav billedsudoku for børn med 4×4 billedgitre, tre sværhedsgrader, automatiske facit og 104 tematiske samlinger. Gratis prøveversion med vandmærke.',
   },
 
   hero: {
-    title: 'Billedsudoku Skaber',
+    title: 'Billedsudoku Generator',
     tagline: '4×4 billedbaseret sudoku puslespil generator med tre sværhedsgrader (Let 4 tomme, Medium 6 tomme, Svær 8 tomme), automatisk genererede facit med komplette udfyldte gitre, temabaseret og manuelt billedvalg over 104 samlinger med mere end 3.100 illustrationer, premiumgitterdesign med alternerende blokfarver og flerlagede skygger, og rent visuelle puslespil der sælger globalt uden oversættelse',
     description: 'Lav professionelle billedsudoku for børn, hvor brugerne udfylder tomme celler med de rigtige billeder ved hjælp af række-og-kolonne-logik på et 4×4 gitter. Hvert puslespil bruger præcis 4 unikke billeder, der skal optræde én gang i hver række og én gang i hver kolonne — de samme regler som klassisk sudoku, men med farverige illustrationer i stedet for tal. Tre sværhedsgrader: Let fjerner 4 celler, Medium fjerner 6, Svær fjerner 8 — halvdelen af gitteret. Vælg billeder gennem temabaseret autovalg, der tilfældigt vælger 4 billeder fra 104 tematiske samlinger, eller manuelt valg. Premiumgitterdesignet har alternerende 2×2-blokfarver i lyseblå (#F8F9FC) og lyserosa (#FFF5F7), fede midtdelere (#7C8DB5, 3px), lettere indre linjer (#D1D9E6, 1,5px), indigoblå ydre ramme (#667EEA) med 18px afrundede hjørner, og tre flerlagede skygger. Billeder vises med 65% af cellestørrelsen. Hvert puslespil genererer en stiliseret \"Billedsudoku\"-overskrift med lilla baggrund (#5E35B1). Dobbeltarbejdsområde-systemet opretter samtidigt arbejdsark og facit — facittet viser det komplette udfyldte 4×4-gitter med alle 16 celler. Da billedsudoku er helt visuelt — ingen ord på puslespilgitteret — fungerer hvert arbejdsark identisk på alle sprog, universelt sælgbart. Eksportér PDF\'er og JPEG-billeder med 300 DPI i Letter, A4 eller tilpassede størrelser. Skift gråtone. 50-trins fortryd/gentag. Den gratis prøveversion indeholder alle funktioner med vandmærke. Køb en licens for at fjerne vandmærket.',
   },
@@ -28,7 +28,7 @@ const content: ToolContent = {
     title: 'Sådan Laver du Billedsudoku Arbejdsark i 8 Trin',
     steps: [
       {
-        title: 'Åbn Billedsudoku Skaberen',
+        title: 'Åbn Billedsudoku Generatoren',
         description: 'Klik på \"Prøv gratis nu\" for at starte billedsudoku generatoren. Værktøjet indlæses direkte med et indstillingssidepanel til venstre og et dobbeltfane-arbejdsområde til højre. Ingen konto, ingen download, ingen installation kræves.',
       },
       {
@@ -107,7 +107,7 @@ const content: ToolContent = {
     },
     {
       title: 'Pinterest billedsudoku trafiktragt',
-      description: '4×4-gitteret med farverige billeder i alternerende blå og rosa blokke, fede delere og indigoblå ramme skaber et øjeblikkeligt genkendeligt puslespilformat. Pin prøvearbejdsark med alle tre sværhedsgrader. Premiumgitterdesignet skiller sig ud.',
+      description: '4×4-gitteret med farverige billeder i alternerende blå og rosa blokke, fede delere og indigoblå ramme generator et øjeblikkeligt genkendeligt puslespilformat. Pin prøvearbejdsark med alle tre sværhedsgrader. Premiumgitterdesignet skiller sig ud.',
       platform: 'Pinterest',
     },
     {
@@ -137,7 +137,7 @@ const content: ToolContent = {
     },
     {
       title: 'Vis premiumgitterdesignet i produktfotos',
-      description: 'De alternerende blå og rosa blokfarver, fede midtdelere, indigoblå ydre ramme med afrundede hjørner og flerlagede skygger skaber et premium visuelt indtryk. Vis gitterdesignet fremtrædende i dine produktfotos.',
+      description: 'De alternerende blå og rosa blokfarver, fede midtdelere, indigoblå ydre ramme med afrundede hjørner og flerlagede skygger generator et premium visuelt indtryk. Vis gitterdesignet fremtrædende i dine produktfotos.',
     },
     {
       title: 'Inkludér facit i enhver annonceringsforhåndsvisning',
@@ -187,7 +187,7 @@ const content: ToolContent = {
       answer: 'Ja. Appen blander billeder tilfældigt og vælger tilfældigt, hvilke celler der bliver tomme. Selv med de samme billeder og sværhed producerer hver generering et anderledes gyldigt sudokuarrangement.',
     },
     {
-      question: 'Er Billedsudoku Skaberen sprogfølsom?',
+      question: 'Er Billedsudoku Generatoren sprogfølsom?',
       answer: 'Nej. Rent visuelt — puslespilgitteret indeholder kun billeder. Det eneste lokaliserede element er \"Billedsudoku\"-overskriften med lilla baggrund (#5E35B1), der oversættes automatisk. Puslespillet selv kræver nul ændring. Universelt sælgbart.',
     },
     {
@@ -206,13 +206,13 @@ const content: ToolContent = {
 
   internalLinks: [
     { pageType: 'app', slug: 'sudoku-arbejdsark', anchorText: 'Billedsudoku Puslespil — Fulde Produktdetaljer' },
-    { pageType: 'tool', slug: 'manglende-brikker-skaber', anchorText: 'Manglende Brikker Puslespil Skaber' },
-    { pageType: 'tool', slug: 'find-den-forkerte-skaber', anchorText: 'Find den Ulige Skaber' },
-    { pageType: 'tool', slug: 'billedsti-skaber', anchorText: 'Billedsti Labyrint Skaber' },
-    { pageType: 'tool', slug: 'gitterpuslespil-skaber', anchorText: 'Gitterpuslespil Skaber' },
-    { pageType: 'tool', slug: 'matchnings-arbejdsark-skaber', anchorText: 'Matchnings Arbejdsark Skaber' },
-    { pageType: 'tool', slug: 'ordsoegning-skaber', anchorText: 'Ordsøgning Skaber' },
-    { pageType: 'tool', slug: 'malebilleder-skaber', anchorText: 'Malebilleder Skaber' },
+    { pageType: 'tool', slug: 'manglende-brikker-skaber', anchorText: 'Manglende Brikker Puslespil Generator' },
+    { pageType: 'tool', slug: 'find-den-forkerte-skaber', anchorText: 'Find den Ulige Generator' },
+    { pageType: 'tool', slug: 'billedsti-skaber', anchorText: 'Billedsti Labyrint Generator' },
+    { pageType: 'tool', slug: 'gitterpuslespil-skaber', anchorText: 'Gitterpuslespil Generator' },
+    { pageType: 'tool', slug: 'matchnings-arbejdsark-skaber', anchorText: 'Matchnings Arbejdsark Generator' },
+    { pageType: 'tool', slug: 'ordsoegning-skaber', anchorText: 'Ordsøgning Generator' },
+    { pageType: 'tool', slug: 'malebilleder-skaber', anchorText: 'Malebilleder Generator' },
   ],
 
   visuals: {

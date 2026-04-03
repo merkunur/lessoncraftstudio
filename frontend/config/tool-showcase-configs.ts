@@ -88,7 +88,7 @@ export const toolShowcaseConfigs: Record<string, ToolShowcaseConfig> = {
     gallery: {
       gradient: 'linear-gradient(180deg, #FFFDE7 0%, #FFF9C4 50%, #FFF176 100%)',
       heading: 'Printable Addition Collection',
-      subheading: 'Ready-to-use worksheets for home and classroom',
+      subheading: 'Ready-to-use worksheets for home, tutoring, and homeschool',
       items: [
         { image: { src: img('addition', 'Addition Fun 5.webp'), alt: 'Addition practice sheet — themed layout' }, label: 'Practice Sheet' },
         { image: { src: img('addition', 'Addition Fun 6.webp'), alt: 'Addition activity — mixed image problems' }, label: 'Activity Page' },
@@ -1626,7 +1626,7 @@ export const toolShowcaseConfigs: Record<string, ToolShowcaseConfig> = {
       heading: 'Custom Picture Bingo Card Generator',
       subheading: 'Create unique bingo cards with themed images and words for any group size',
       images: [
-        { src: img('bingo', 'bingo_card.webp'), alt: 'Custom bingo card — themed picture bingo for classrooms' },
+        { src: img('bingo', 'bingo_card.webp'), alt: 'Custom bingo card — themed picture bingo for any group size' },
         { src: img('bingo', 'bingo_card_1.webp'), alt: 'Picture bingo card — image-based game activity' },
         { src: img('bingo', 'bingo_card_2.webp'), alt: 'Bingo card set — multiple unique cards per theme' },
       ],

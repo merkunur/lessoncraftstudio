@@ -6,11 +6,11 @@ const content: ToolContent = {
     secondaryKeywords: [
       'voorzetsels werkbladen online maken gratis',
       'positiewoorden werkblad generator',
-      'printbare voorzetsels oefeningen maker met antwoordblad',
+      'printbare voorzetsels oefeningen generator met antwoordblad',
       'NT2 voorzetsels werkblad tool online',
     ],
     lsiKeywords: [
-      'ruimtelijke voorzetsels werkblad maker gratis',
+      'ruimtelijke voorzetsels werkblad generator gratis',
       'invuloefening meerkeuze voorzetsels generator',
       'meertalige positiewoorden werkblad tool',
     ],
@@ -28,7 +28,7 @@ const content: ToolContent = {
     title: 'Hoe maakt u gratis voorzetsels werkbladen online?',
     steps: [
       {
-        title: 'Open de voorzetsels werkblad maker',
+        title: 'Open de voorzetsels werkblad generator',
         description: 'Klik op "Gratis proefversie" om de generator te starten. De tool opent direct in je browser met een instellingenzijbalk links en een live voorbeeldcanvas rechts. Geen account, download of installatie nodig.',
       },
       {
@@ -208,7 +208,7 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'woordzoeker-maker', anchorText: 'Woordzoeker Maker' },
     { pageType: 'tool', slug: 'cryptogram-maker', anchorText: 'Cryptogram Maker' },
     { pageType: 'tool', slug: 'schrijfoefeningen-maker', anchorText: 'Schrijfoefeningen Maker' },
-    { pageType: 'tool', slug: 'koppelen-werkblad-maker', anchorText: 'Koppelen Werkblad Maker' },
+    { pageType: 'tool', slug: 'koppelen-werkblad-generator', anchorText: 'Koppelen Werkblad Generator' },
   ],
 
   visuals: {

@@ -28,7 +28,7 @@ const content: ToolContent = {
     title: 'Comment Créer des Fiches Sudoku en Images en 8 Étapes',
     steps: [
       {
-        title: 'Ouvrir le Créateur de Sudoku en Images',
+        title: 'Ouvrir le Générateur de Sudoku en Images',
         description: 'Cliquez sur \" Essayer maintenant \" pour lancer le générateur de sudoku en images dans votre navigateur. L\'outil s\'ouvre instantanément avec une barre latérale de réglages à gauche et un canevas à double onglet à droite — un onglet pour la fiche, un pour le corrigé. Aucun compte, aucun téléchargement de logiciel, aucune installation requis — commencez à créer des puzzles sudoku en images immédiatement.',
       },
       {
@@ -187,7 +187,7 @@ const content: ToolContent = {
       answer: 'Oui. L\'application mélange aléatoirement les images avant de remplir la grille 4×4, puis sélectionne aléatoirement quelles cases vider selon le niveau de difficulté. Même avec les mêmes 4 images et le même réglage de difficulté, régénérer produit un arrangement sudoku valide différent avec des positions de cases vides différentes. Cette randomisation vous permet de créer de grandes collections de puzzles uniques à partir d\'un petit ensemble d\'images thématiques — cliquez sur Générer plusieurs fois pour construire des lots avec des dizaines de configurations uniques.',
     },
     {
-      question: 'Le Créateur de Sudoku en Images est-il sensible à la langue ?',
+      question: 'Le Générateur de Sudoku en Images est-il sensible à la langue ?',
       answer: 'Non. Le sudoku en images est entièrement visuel — la grille du puzzle ne contient que des images, aucun mot, lettre ou chiffre. Cela fait fonctionner chaque fiche identiquement dans les 11 langues prises en charge. Le seul élément localisé est le texte d\'en-tête auto-généré \" Sudoku en Images \" au-dessus de la grille avec son fond violet (#5E35B1), qui se traduit automatiquement quand vous changez de langue. Le puzzle lui-même ne nécessite aucune modification pour différents marchés, ce qui le rend idéal pour les ventes mondiales sur toutes les places de marché internationales.',
     },
     {
@@ -206,13 +206,13 @@ const content: ToolContent = {
 
   internalLinks: [
     { pageType: 'app', slug: 'sudoku-enfants-fiches', anchorText: 'Sudoku en Images — Détails Complets du Produit' },
-    { pageType: 'tool', slug: 'generateur-pieces-manquantes', anchorText: 'Créateur de Puzzles Pièces Manquantes' },
-    { pageType: 'tool', slug: 'generateur-fiches-intrus', anchorText: 'Créateur de Fiches Intrus' },
-    { pageType: 'tool', slug: 'generateur-parcours-images', anchorText: 'Créateur de Parcours d\'Images' },
-    { pageType: 'tool', slug: 'generateur-puzzle-grille', anchorText: 'Créateur de Puzzles Grille' },
-    { pageType: 'tool', slug: 'generateur-fiches-association', anchorText: 'Créateur de Fiches d\'Association' },
-    { pageType: 'tool', slug: 'generateur-mots-caches', anchorText: 'Créateur de Mots Cachés' },
-    { pageType: 'tool', slug: 'generateur-pages-coloriage', anchorText: 'Créateur de Pages de Coloriage' },
+    { pageType: 'tool', slug: 'generateur-pieces-manquantes', anchorText: 'Générateur de Puzzles Pièces Manquantes' },
+    { pageType: 'tool', slug: 'generateur-fiches-intrus', anchorText: 'Générateur de Fiches Intrus' },
+    { pageType: 'tool', slug: 'generateur-parcours-images', anchorText: 'Générateur de Parcours d\'Images' },
+    { pageType: 'tool', slug: 'generateur-puzzle-grille', anchorText: 'Générateur de Puzzles Grille' },
+    { pageType: 'tool', slug: 'generateur-fiches-association', anchorText: 'Générateur de Fiches d\'Association' },
+    { pageType: 'tool', slug: 'generateur-mots-caches', anchorText: 'Générateur de Mots Cachés' },
+    { pageType: 'tool', slug: 'generateur-pages-coloriage', anchorText: 'Générateur de Pages de Coloriage' },
   ],
 
   visuals: {

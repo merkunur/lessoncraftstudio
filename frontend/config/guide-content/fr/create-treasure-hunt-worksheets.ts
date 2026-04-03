@@ -10,7 +10,7 @@ const content: GuideContent = {
       'fiches parcours fléché grille coordonnées avec corrigés',
     ],
     lsiKeywords: [
-      'deux types de direction basique cardinal grille coordonnées créateur fiches',
+      'deux types de direction basique cardinal grille coordonnées générateur fiches',
       'grille cinq par cinq lettres-chiffres indices directionnels parcours fléché',
       'corrigé automatique cellule trésor surlignée jaune pâle double canvas générateur',
       'vendre fiches chasse au trésor sur Etsy',

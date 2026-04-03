@@ -28,7 +28,7 @@ const content: ToolContent = {
     title: 'How to Make Word Search Puzzles Free in 8 Steps',
     steps: [
       {
-        title: 'Open the Word Search Worksheet Maker',
+        title: 'Open the Word Search Worksheet Generator',
         description: 'Click "Try Free Now" to launch the generator in your browser. The tool loads instantly with a settings sidebar on the left and a live preview canvas on the right. No account creation, no software download, no installation required — start building word search puzzles immediately.',
       },
       {

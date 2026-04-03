@@ -14,7 +14,7 @@ const content: GuideContent = {
       'I Spy activiteitenboek Brave New Books',
       'visuele zoekwerkbladen productlijn',
       'zoekplaatjes generator commercieel gebruik',
-      'commerciële licentie zoekplaatjes maker',
+      'commerciële licentie zoekplaatjes generator',
       'zoek en vind catalogus opbouwen',
     ],
     titleTag: 'Zoek en vind maken en verkopen | LessonCraftStudio',

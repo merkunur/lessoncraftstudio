@@ -6,7 +6,7 @@ const content: ToolContent = {
     secondaryKeywords: [
       'Mustererkennungs-Arbeitsblätter kostenlos erstellen',
       'Muster-Generator online ohne Anmeldung',
-      'kostenloser Mustervervollständigungs-Ersteller',
+      'kostenloser Mustervervollständigungs-Generator',
       'Muster-Arbeitsblätter online erstellen und drucken',
     ],
     lsiKeywords: [
@@ -28,7 +28,7 @@ const content: ToolContent = {
     title: 'Mustervervollständigungs-Arbeitsblätter erstellen in 8 Schritten',
     steps: [
       {
-        title: 'Den Muster-Arbeitsblatt-Ersteller öffnen',
+        title: 'Den Muster-Arbeitsblatt-Generator öffnen',
         description: 'Klicken Sie auf \"Kostenlos testen\", um den Generator in Ihrem Browser zu starten. Das Tool lädt sofort mit einer Einstellungsleiste links und einer Live-Vorschau-Arbeitsfläche rechts. Kein Konto erstellen, kein Software-Download, keine Installation nötig — beginnen Sie sofort mit der Erstellung von Mustervervollständigungs-Arbeitsblättern.',
       },
       {
@@ -202,13 +202,13 @@ const content: ToolContent = {
 
   internalLinks: [
     { pageType: 'app', slug: 'muster-arbeitsblatt-arbeitsblaetter', anchorText: 'Muster-Arbeitsblätter — Alle Produktdetails' },
-    { pageType: 'tool', slug: 'muster-zug-ersteller', anchorText: 'Muster-Zug-Ersteller' },
-    { pageType: 'tool', slug: 'gross-klein-ersteller', anchorText: 'Groß-Klein-Ersteller' },
-    { pageType: 'tool', slug: 'rasterzeichnen-ersteller', anchorText: 'Rasterzeichnen-Ersteller' },
-    { pageType: 'tool', slug: 'zuordnungs-arbeitsblatt-ersteller', anchorText: 'Zuordnungs-Arbeitsblatt-Ersteller' },
-    { pageType: 'tool', slug: 'was-passt-nicht-ersteller', anchorText: 'Was-Passt-Nicht-Ersteller' },
-    { pageType: 'tool', slug: 'schattenbilder-ersteller', anchorText: 'Schattenbilder-Ersteller' },
-    { pageType: 'tool', slug: 'malvorlagen-ersteller', anchorText: 'Malvorlagen-Ersteller' },
+    { pageType: 'tool', slug: 'muster-zug-ersteller', anchorText: 'Muster-Zug-Generator' },
+    { pageType: 'tool', slug: 'gross-klein-ersteller', anchorText: 'Groß-Klein-Generator' },
+    { pageType: 'tool', slug: 'rasterzeichnen-ersteller', anchorText: 'Rasterzeichnen-Generator' },
+    { pageType: 'tool', slug: 'zuordnungs-Arbeitsblatt-Generator', anchorText: 'Zuordnungs-Arbeitsblatt-Generator' },
+    { pageType: 'tool', slug: 'was-passt-nicht-ersteller', anchorText: 'Was-Passt-Nicht-Generator' },
+    { pageType: 'tool', slug: 'schattenbilder-ersteller', anchorText: 'Schattenbilder-Generator' },
+    { pageType: 'tool', slug: 'malvorlagen-ersteller', anchorText: 'Malvorlagen-Generator' },
   ],
 
   visuals: {

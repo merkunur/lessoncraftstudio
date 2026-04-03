@@ -165,7 +165,7 @@ const content: GuideContent = {
     { pageType: 'start', slug: 'komplett-guide-utskriftsbart-foeretag', anchorText: 'Komplett guide till att starta utskriftsbart företag' },
     { pageType: 'start', slug: 'kommersiell-licensguide', anchorText: 'Kommersiell licensguide' },
     { pageType: 'app', slug: 'ordletar-arbetsblad', anchorText: 'Ordsökning Arbetsblad Generator — Fullständig information' },
-    { pageType: 'tool', slug: 'bildkorsord-skapare', anchorText: 'Prova Korsordspussel Skaparen' },
+    { pageType: 'tool', slug: 'bildkorsord-skapare', anchorText: 'Prova Korsordspussel Generatorn' },
   ],
 
   toolsRecommended: [

@@ -6,7 +6,7 @@ const content: ToolContent = {
     secondaryKeywords: [
       'doolhof werkbladen online maken gratis',
       'afbeeldingspad doolhof generator gratis proberen',
-      'doolhof puzzel maker drie spelmodi',
+      'doolhof puzzel generator drie spelmodi',
       'doolhoven met afbeeldingen werkblad gratis',
     ],
     lsiKeywords: [
@@ -28,7 +28,7 @@ const content: ToolContent = {
     title: 'Doolhoven gratis online maken in 8 stappen',
     steps: [
       {
-        title: 'Open de Plaatjespad Doolhof Maker',
+        title: 'Open de Plaatjespad Doolhof Generator',
         description: 'Klik op "Gratis proefversie" om de doolhof werkblad generator te starten in je browser. De tool laadt direct met een instellingenzijbalk links en een dubbel-tabblad canvas rechts — één tabblad voor het werkblad, één voor het antwoordblad. Geen account aanmaken, geen software downloaden, geen installatie nodig — begin onmiddellijk met het maken van doolhof werkbladen.',
       },
       {
@@ -187,7 +187,7 @@ const content: ToolContent = {
       answer: 'Elk werkblad bevat een gestileerde koptekst met een oranje buitenkader (8px streek) en 34px marges. De titel "Afbeeldingspad" en beschrijving "Volg het pad van start tot finish!" worden automatisch vertaald in alle 11 ondersteunde talen. Staande werkbladen tonen een 240px koptekst; liggende werkbladen gebruiken een compacte 165px indeling. De koptekst rendert gelokaliseerde tekst voor Nederlands, Engels, Duits, Frans, Spaans en alle andere ondersteunde talen.',
     },
     {
-      question: 'Is de Plaatjespad Doolhof Maker taalgevoelig?',
+      question: 'Is de Plaatjespad Doolhof Generator taalgevoelig?',
       answer: 'Nee. Afbeeldingspad doolhoven zijn volledig visueel — gebruikers navigeren paden, volgen afbeeldingen en lossen ruimtelijke puzzels op zonder tekst te lezen. De doolhofinhoud zelf vereist geen taalbegrip. Het enige gelokaliseerde element is de automatisch gegenereerde "Afbeeldingspad" koptekst, die automatisch vertaalt in alle 11 ondersteunde talen. Dit maakt elk doolhof werkblad universeel verkoopbaar over alle markten zonder vertaling — één set doolhoven bedient elke internationale marktplaats.',
     },
     {
@@ -211,7 +211,7 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'wat-hoort-er-niet-bij-maker', anchorText: 'Welke Hoort Er Niet Bij Maker' },
     { pageType: 'tool', slug: 'raster-puzzel-maker', anchorText: 'Rasterpuzzel Maker' },
     { pageType: 'tool', slug: 'zoek-en-tel-maker', anchorText: 'Zoek & Tel Maker' },
-    { pageType: 'tool', slug: 'woordzoeker-maker', anchorText: 'Woordzoeker Werkblad Maker' },
+    { pageType: 'tool', slug: 'woordzoeker-maker', anchorText: 'Woordzoeker Werkblad Generator' },
     { pageType: 'tool', slug: 'kleurplaten-maker', anchorText: 'Kleurplaten Maker' },
   ],
 

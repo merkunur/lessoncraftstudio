@@ -7,10 +7,10 @@ const content: ToolContent = {
       'koppelwerkbladen online maken gratis',
       'trek-een-lijn verbindingswerkbladen gratis',
       'koppelactiviteit generator gratis proberen',
-      'afbeelding koppelwerkblad maker met thema\'s',
+      'afbeelding koppelwerkblad generator met thema\'s',
     ],
     lsiKeywords: [
-      'vier-modus koppelwerkblad maker gratis online',
+      'vier-modus koppelwerkblad generator gratis online',
       'automatisch antwoordblad koppelactiviteit gratis',
       'beginletter afbeelding woord koppelen gratis proefversie',
     ],
@@ -28,7 +28,7 @@ const content: ToolContent = {
     title: 'Koppelwerkbladen maken in 8 stappen',
     steps: [
       {
-        title: 'Open de Koppelwerkblad Maker',
+        title: 'Open de Koppelwerkblad Generator',
         description: 'Klik op "Gratis proefversie" om de koppelwerkblad generator te starten in je browser. De tool laadt direct met een instellingenzijbalk links en een dubbel-tabblad canvas rechts — één tabblad voor het werkblad, één voor het antwoordblad. Geen account aanmaken, geen software downloaden, geen installatie nodig — begin onmiddellijk met het maken van trek-een-lijn koppelwerkbladen.',
       },
       {
@@ -175,7 +175,7 @@ const content: ToolContent = {
       answer: 'Beginletter modus biedt drie submodi voor afbeeldingsselectie. Willekeurig Thema & Afbeeldingen kiest een willekeurig thema en afbeeldingen daaruit automatisch. Willekeurig uit Gekozen Thema laat je een specifiek thema selecteren en kiest dan willekeurige afbeeldingen uit die collectie. Specifieke Afbeeldingen Selecteren opent de Afbeeldingenbibliotheek zodat je handmatig precies de gewenste afbeeldingen kunt kiezen. Je kunt ook kiezen tussen weergave in hoofdletters en kleine letters met de lettertype-schakelaar — hoofdletters voor vroege gebruikers, kleine letters voor meer gevorderde foneticoefening.',
     },
     {
-      question: 'Is de Koppelwerkblad Maker taalgevoelig?',
+      question: 'Is de Koppelwerkblad Generator taalgevoelig?',
       answer: 'Ja. De modi Beginletter en Afbeelding+Woord gebruiken gelokaliseerde afbeeldingsnamen uit de Afbeeldingenbibliotheek, dus het wisselen van taal verandert de woorden en eerste letters die op het werkblad verschijnen. Een katafbeelding toont bijvoorbeeld K in de Nederlandse Beginletter modus maar C in het Engels (Cat) en K in het Duits (Katze). De gelokaliseerde Zoek de Paren koptekst verandert ook mee met de geselecteerde taal. Deze taalgevoeligheid laat je koppelwerkbladen maken in alle 11 ondersteunde talen vanuit dezelfde afbeeldingsselecties, waardoor je productcatalogus voor internationale markten wordt vermenigvuldigd.',
     },
     {
@@ -201,10 +201,10 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'raster-puzzel-maker', anchorText: 'Gratis rasterpuzzel maker' },
     { pageType: 'tool', slug: 'schaduw-koppelen-maker', anchorText: 'Gratis schaduw matching maker' },
     { pageType: 'tool', slug: 'plaatjesbingo-maker', anchorText: 'Gratis plaatjesbingo maker' },
-    { pageType: 'tool', slug: 'plaatjes-sorteren-maker', anchorText: 'Gratis sorteer werkblad maker' },
+    { pageType: 'tool', slug: 'plaatjes-sorteren-maker', anchorText: 'Gratis sorteer werkblad generator' },
     { pageType: 'tool', slug: 'alfabettrein-maker', anchorText: 'Gratis alfabettrein maker' },
     { pageType: 'tool', slug: 'woordzoeker-maker', anchorText: 'Gratis woordzoeker maker' },
-    { pageType: 'tool', slug: 'optellen-werkblad-maker', anchorText: 'Gratis optelwerkbladen maker' },
+    { pageType: 'tool', slug: 'optellen-werkblad-generator', anchorText: 'Gratis optelwerkbladen maker' },
   ],
 
   visuals: {

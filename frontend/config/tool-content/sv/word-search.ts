@@ -28,7 +28,7 @@ const content: ToolContent = {
     title: 'Hur du Skapar Ordsökning Arbetsblad i 8 Enkla Steg',
     steps: [
       {
-        title: 'Öppna Ordsökning Arbetsblad Skaparen',
+        title: 'Öppna Ordsökning Arbetsblad Generatorn',
         description: 'Klicka på \"Prova gratis nu\" för att starta generatorn i din webbläsare. Verktyget laddas direkt med ett inställningssidofält till vänster och en liveförhandsvisnings arbetsyta till höger. Inget konto, ingen nedladdning, ingen installation krävs — börja bygga ordsökningspussel omedelbart.',
       },
       {
@@ -202,13 +202,13 @@ const content: ToolContent = {
 
   internalLinks: [
     { pageType: 'app', slug: 'ordsokning-arbetsblad', anchorText: 'Ordsökning Arbetsblad — Fullständiga Produktdetaljer' },
-    { pageType: 'tool', slug: 'gissa-ordet-skapare', anchorText: 'Gissa Ordet Skapare' },
-    { pageType: 'tool', slug: 'ordmix-skapare', anchorText: 'Ordmix Skapare' },
-    { pageType: 'tool', slug: 'kryptogram-skapare', anchorText: 'Kryptogram Skapare' },
-    { pageType: 'tool', slug: 'alfabetstaag-skapare', anchorText: 'Alfabetståg Skapare' },
-    { pageType: 'tool', slug: 'prepositioner-arbetsblad-skapare', anchorText: 'Prepositioner Arbetsblad Skapare' },
-    { pageType: 'tool', slug: 'skrivoevningar-skapare', anchorText: 'Skrivövningar Skapare' },
-    { pageType: 'tool', slug: 'matchnings-arbetsblad-skapare', anchorText: 'Matchnings Arbetsblad Skapare' },
+    { pageType: 'tool', slug: 'gissa-ordet-skapare', anchorText: 'Gissa Ordet Generator' },
+    { pageType: 'tool', slug: 'ordmix-skapare', anchorText: 'Ordmix Generator' },
+    { pageType: 'tool', slug: 'kryptogram-skapare', anchorText: 'Kryptogram Generator' },
+    { pageType: 'tool', slug: 'alfabetstaag-skapare', anchorText: 'Alfabetståg Generator' },
+    { pageType: 'tool', slug: 'prepositioner-arbetsblad-skapare', anchorText: 'Prepositioner Arbetsblad Generator' },
+    { pageType: 'tool', slug: 'skrivoevningar-skapare', anchorText: 'Skrivövningar Generator' },
+    { pageType: 'tool', slug: 'matchnings-arbetsblad-skapare', anchorText: 'Matchnings Arbetsblad Generator' },
   ],
 
   visuals: {

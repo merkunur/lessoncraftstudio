@@ -6,11 +6,11 @@ const content: ToolContent = {
     secondaryKeywords: [
       'sorteerwerkbladen online maken gratis',
       'afbeeldingen sorteren werkblad generator',
-      'printbare sorteeractiviteit maker met antwoordblad',
+      'printbare sorteeractiviteit generator met antwoordblad',
       'twee-categorieën sorteer werkblad tool online',
     ],
     lsiKeywords: [
-      'themagestuurde classificatie werkblad maker',
+      'themagestuurde classificatie werkblad generator',
       'uitknipraster sorteeractiviteit generator gratis',
       'automatisch antwoordblad sorteer werkblad tool',
     ],
@@ -28,7 +28,7 @@ const content: ToolContent = {
     title: 'Hoe maakt u gratis sorteerwerkbladen online?',
     steps: [
       {
-        title: 'Open de Sorteer Werkblad Maker',
+        title: 'Open de Sorteer Werkblad Generator',
         description: 'Klik op "Gratis proefversie" om de sorteer werkblad generator te starten in je browser. De tool laadt direct met een instellingenzijbalk links en een dubbel-tabblad canvas rechts — één tabblad voor het werkblad, één voor het antwoordblad. Geen account aanmaken, geen software downloaden, geen installatie nodig — begin onmiddellijk met het maken van sorteer werkbladen.',
       },
       {
@@ -77,7 +77,7 @@ const content: ToolContent = {
     },
     {
       title: 'Meertalige Sorteer Producten voor Internationale Markten',
-      description: 'De Sorteer Werkblad Maker is taalgevoelig — categorielabels gebruiken gelokaliseerde afbeeldingsnamen uit de Afbeeldingenbibliotheek, dus het wisselen van taal verandert de tekst op het werkblad. Maak sorteer werkbladen in het Nederlands, Engels, Duits, Frans, Spaans, Portugees, Italiaans, Zweeds, Deens, Noors en Fins vanuit dezelfde afbeeldingen zonder iets opnieuw op te bouwen. De gelokaliseerde Afbeeldingen Sorteren koptekst vertaalt ook automatisch. Verkoop taalspecifieke sorteerbundels gericht op internationale Etsy-winkels en meertalige Gumroad-kopers, of maak NT2-sorteeractiviteiten waarbij tweetalige categorielabels woordenschatverwerving versterken.',
+      description: 'De Sorteer Werkblad Generator is taalgevoelig — categorielabels gebruiken gelokaliseerde afbeeldingsnamen uit de Afbeeldingenbibliotheek, dus het wisselen van taal verandert de tekst op het werkblad. Maak sorteer werkbladen in het Nederlands, Engels, Duits, Frans, Spaans, Portugees, Italiaans, Zweeds, Deens, Noors en Fins vanuit dezelfde afbeeldingen zonder iets opnieuw op te bouwen. De gelokaliseerde Afbeeldingen Sorteren koptekst vertaalt ook automatisch. Verkoop taalspecifieke sorteerbundels gericht op internationale Etsy-winkels en meertalige Gumroad-kopers, of maak NT2-sorteeractiviteiten waarbij tweetalige categorielabels woordenschatverwerving versterken.',
     },
     {
       title: 'Eigen Foto Sorteer Werkbladen',
@@ -117,7 +117,7 @@ const content: ToolContent = {
     },
     {
       title: 'Meertalige Sorteer Producten voor Wereldwijde Markten',
-      description: 'De Sorteer Werkblad Maker is taalgevoelig — categorielabels en de Afbeeldingen Sorteren koptekst gebruiken gelokaliseerde afbeeldingsnamen over 11 talen, waardoor het eenvoudig is om sorteer werkbladen te produceren in het Nederlands, Engels, Duits, Frans, Spaans, Portugees, Italiaans, Zweeds, Deens, Noors en Fins vanuit dezelfde afbeeldingen. Maak meertalige sorteerbundels gericht op internationale Etsy-winkels, tweetalige Gumroad-kopers en NT2-winkels wereldwijd. Verkoop dezelfde thematische sorteerset in meerdere taalversies zonder herontwerp — wissel van taal en genereer opnieuw. Meertalige bundels brengen premiumprijzen op en bereiken kopers die eentalige concurrenten niet kunnen bedienen.',
+      description: 'De Sorteer Werkblad Generator is taalgevoelig — categorielabels en de Afbeeldingen Sorteren koptekst gebruiken gelokaliseerde afbeeldingsnamen over 11 talen, waardoor het eenvoudig is om sorteer werkbladen te produceren in het Nederlands, Engels, Duits, Frans, Spaans, Portugees, Italiaans, Zweeds, Deens, Noors en Fins vanuit dezelfde afbeeldingen. Maak meertalige sorteerbundels gericht op internationale Etsy-winkels, tweetalige Gumroad-kopers en NT2-winkels wereldwijd. Verkoop dezelfde thematische sorteerset in meerdere taalversies zonder herontwerp — wissel van taal en genereer opnieuw. Meertalige bundels brengen premiumprijzen op en bereiken kopers die eentalige concurrenten niet kunnen bedienen.',
       platform: 'Etsy / Gumroad',
     },
   ],
@@ -179,7 +179,7 @@ const content: ToolContent = {
       answer: 'Het dubbele-canvassysteem genereert zowel een werkblad-tabblad als een antwoordblad-tabblad tegelijkertijd. Het antwoordblad toont twee categorievakken (één per categorie, gelijke breedte) met afbeeldingen gesorteerd in hun juiste groep — weergegeven op 6× de grootte van de uitkniprastercellen voor duidelijke, gemakkelijk leesbare verificatie. Elk categorievak gebruikt maximaal 2 kolommen met #FAFAFA-vulling, #444 stippelstreek en 12px randstraal. Download elke versie onafhankelijk — werkblad-JPEG, werkblad-PDF, antwoordblad-JPEG en antwoordblad-PDF — waardoor je vier productieklare bestanden krijgt vanuit één generatie.',
     },
     {
-      question: 'Is de Sorteer Werkblad Maker taalgevoelig?',
+      question: 'Is de Sorteer Werkblad Generator taalgevoelig?',
       answer: 'Ja. Categorielabels gebruiken gelokaliseerde afbeeldingsnamen uit de Afbeeldingenbibliotheek, dus het wisselen van taal verandert de tekst op het werkblad. Een katafbeelding verschijnt bijvoorbeeld als "Kat" in het Nederlands maar "Cat" in het Engels, "Katze" in het Duits en "Chat" in het Frans. De gelokaliseerde "Afbeeldingen Sorteren" koptekst en beschrijving vertalen ook automatisch in alle 11 ondersteunde talen. Dit maakt het eenvoudig om meertalige sorteerproducten te maken vanuit dezelfde afbeeldingen.',
     },
     {
@@ -206,12 +206,12 @@ const content: ToolContent = {
 
   internalLinks: [
     { pageType: 'app', slug: 'sorteer-werkbladen', anchorText: 'Watermerk verwijderen en verkopen met commerciële licentie' },
-    { pageType: 'tool', slug: 'koppelen-werkblad-maker', anchorText: 'Koppelwerkblad Maker' },
+    { pageType: 'tool', slug: 'koppelen-werkblad-generator', anchorText: 'Koppelwerkblad Maker' },
     { pageType: 'tool', slug: 'raster-puzzel-maker', anchorText: 'Rasterpuzzel Maker' },
-    { pageType: 'tool', slug: 'schaduw-koppelen-maker', anchorText: 'Schaduw Matching Werkblad Maker' },
+    { pageType: 'tool', slug: 'schaduw-koppelen-maker', anchorText: 'Schaduw Matching Werkblad Generator' },
     { pageType: 'tool', slug: 'plaatjesbingo-maker', anchorText: 'Plaatjesbingo Maker' },
     { pageType: 'tool', slug: 'wat-hoort-er-niet-bij-maker', anchorText: 'Welke Hoort Er Niet Bij Maker' },
-    { pageType: 'tool', slug: 'woordzoeker-maker', anchorText: 'Woordzoeker Werkblad Maker' },
+    { pageType: 'tool', slug: 'woordzoeker-maker', anchorText: 'Woordzoeker Werkblad Generator' },
     { pageType: 'tool', slug: 'kleurplaten-maker', anchorText: 'Kleurplaten Maker' },
   ],
 

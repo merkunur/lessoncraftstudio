@@ -6,7 +6,7 @@ const content: ToolContent = {
     secondaryKeywords: [
       'Größer-Kleiner-Arbeitsblätter kostenlos erstellen',
       'Mengenvergleich-Generator online ohne Anmeldung',
-      'kostenloser Vergleichs-Arbeitsblatt Ersteller',
+      'kostenloser Vergleichs-Arbeitsblatt-Generator',
       'Mehr-oder-Weniger-Übungen online erstellen',
     ],
     lsiKeywords: [
@@ -28,8 +28,8 @@ const content: ToolContent = {
     title: 'Vergleichs-Arbeitsblätter erstellen in 8 einfachen Schritten',
     steps: [
       {
-        title: 'Den Arbeitsblatt-Ersteller öffnen',
-        description: 'Klicken Sie auf \"Kostenlos testen\", um den Mehr-oder-Weniger-Ersteller zu starten. Das Tool öffnet sich sofort in Ihrem Browser mit einer dunklen Seitenleiste links für alle Einstellungen und einer hellen Arbeitsfläche rechts für die Live-Vorschau. Kein Benutzerkonto, kein Software-Download und keine Plugins erforderlich.',
+        title: 'Den Arbeitsblatt-Generator öffnen',
+        description: 'Klicken Sie auf \"Kostenlos testen\", um den Mehr-oder-Weniger-Generator zu starten. Das Tool öffnet sich sofort in Ihrem Browser mit einer dunklen Seitenleiste links für alle Einstellungen und einer hellen Arbeitsfläche rechts für die Live-Vorschau. Kein Benutzerkonto, kein Software-Download und keine Plugins erforderlich.',
       },
       {
         title: 'Den Übungsmodus wählen',
@@ -187,7 +187,7 @@ const content: ToolContent = {
     },
     {
       question: 'Muss ich Software installieren?',
-      answer: 'Nein. Der Ersteller läuft vollständig in Ihrem Webbrowser und funktioniert auf jedem modernen Gerät — Windows, Mac, Chromebook, iPad oder Android-Tablet. Es gibt nichts zu installieren, keine Plugins erforderlich und kein Benutzerkonto zu erstellen. Die Testversion mit Wasserzeichen gibt Ihnen unbegrenzten Zugang, um alle Funktionen in Ihrem eigenen Tempo und ohne Zeitlimit zu erkunden — nutzen Sie sie so lange, wie Sie benötigen, um zu bewerten, ob das Werkzeug zu Ihrem Produktionsablauf passt. Der Canvas-Editor mit professionellen Typografie-Optionen einschließlich Baloo, Fredoka, Lexend Deca, Nunito und Quicksand Schriftarten verleiht Ihren Arbeitsblättern ein poliertes, unverwechselbares Erscheinungsbild, das sie von amateurhaft wirkenden Alternativen unterscheidet.',
+      answer: 'Nein. Der Generator läuft vollständig in Ihrem Webbrowser und funktioniert auf jedem modernen Gerät — Windows, Mac, Chromebook, iPad oder Android-Tablet. Es gibt nichts zu installieren, keine Plugins erforderlich und kein Benutzerkonto zu erstellen. Die Testversion mit Wasserzeichen gibt Ihnen unbegrenzten Zugang, um alle Funktionen in Ihrem eigenen Tempo und ohne Zeitlimit zu erkunden — nutzen Sie sie so lange, wie Sie benötigen, um zu bewerten, ob das Werkzeug zu Ihrem Produktionsablauf passt. Der Canvas-Editor mit professionellen Typografie-Optionen einschließlich Baloo, Fredoka, Lexend Deca, Nunito und Quicksand Schriftarten verleiht Ihren Arbeitsblättern ein poliertes, unverwechselbares Erscheinungsbild, das sie von amateurhaft wirkenden Alternativen unterscheidet.',
     },
     {
       question: 'Was ist Ihre Rückgabepolitik?',
@@ -197,13 +197,13 @@ const content: ToolContent = {
 
   internalLinks: [
     { pageType: 'app', slug: 'mehr-weniger-arbeitsblaetter', anchorText: 'Mehr-oder-Weniger-Arbeitsblätter — Vollständige Produktdetails' },
-    { pageType: 'tool', slug: 'additions-arbeitsblatt-ersteller', anchorText: 'Additions-Arbeitsblatt-Ersteller' },
-    { pageType: 'tool', slug: 'subtraktions-arbeitsblatt-ersteller', anchorText: 'Subtraktions-Arbeitsblatt-Ersteller' },
-    { pageType: 'tool', slug: 'bilder-additions-ersteller', anchorText: 'Bilder-Additions-Ersteller' },
-    { pageType: 'tool', slug: 'mathe-raetsel-ersteller', anchorText: 'Mathe-Rätsel-Ersteller' },
-    { pageType: 'tool', slug: 'mathe-arbeitsblatt-ersteller', anchorText: 'Mathe-Arbeitsblatt-Ersteller' },
-    { pageType: 'tool', slug: 'zuordnungs-arbeitsblatt-ersteller', anchorText: 'Zuordnungs-Arbeitsblatt-Ersteller' },
-    { pageType: 'tool', slug: 'gross-klein-ersteller', anchorText: 'Groß-und-Klein-Ersteller' },
+    { pageType: 'tool', slug: 'additions-Arbeitsblatt-Generator', anchorText: 'Additions-Arbeitsblatt-Generator' },
+    { pageType: 'tool', slug: 'subtraktions-Arbeitsblatt-Generator', anchorText: 'Subtraktions-Arbeitsblatt-Generator' },
+    { pageType: 'tool', slug: 'bilder-additions-ersteller', anchorText: 'Bilder-Additions-Generator' },
+    { pageType: 'tool', slug: 'mathe-raetsel-ersteller', anchorText: 'Mathe-Rätsel-Generator' },
+    { pageType: 'tool', slug: 'mathe-Arbeitsblatt-Generator', anchorText: 'Mathe-Arbeitsblatt-Generator' },
+    { pageType: 'tool', slug: 'zuordnungs-Arbeitsblatt-Generator', anchorText: 'Zuordnungs-Arbeitsblatt-Generator' },
+    { pageType: 'tool', slug: 'gross-klein-ersteller', anchorText: 'Groß-und-Klein-Generator' },
   ],
 
   visuals: {

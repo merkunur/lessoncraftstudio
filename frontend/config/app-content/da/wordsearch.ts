@@ -42,7 +42,7 @@ const content: AppContent = {
       {
         title: 'Konfigurer gitterstørrelse og ordretninger',
         description:
-          'Indstil gitterets dimensioner ved at justere rækker og kolonner uafhængigt af hinanden fra 5 til 30 (standard 12×12). Små gitre som 5×5 eller 6×6 fungerer godt for begyndere; store gitre som 20×20 eller 30×30 skaber seriøse udfordringer. Slå derefter diagonale ord til eller fra og baglæns ord til eller fra. Med begge aktiveret kan ord placeres i otte retninger — horisontalt, vertikalt, diagonalt og deres omvendinger. At deaktivere diagonaler begrænser placeringen til kun horisontalt og vertikalt, hvilket skaber enklere puslespil for yngre eller mindre erfarne løsere. Denne kontrolniveau lader dig oprette progressive sværhedspakker fra enkle toretnings-gitre til komplekse otteretnings-puslespil.',
+          'Indstil gitterets dimensioner ved at justere rækker og kolonner uafhængigt af hinanden fra 5 til 30 (standard 12×12). Små gitre som 5×5 eller 6×6 fungerer godt for begyndere; store gitre som 20×20 eller 30×30 generator seriøse udfordringer. Slå derefter diagonale ord til eller fra og baglæns ord til eller fra. Med begge aktiveret kan ord placeres i otte retninger — horisontalt, vertikalt, diagonalt og deres omvendinger. At deaktivere diagonaler begrænser placeringen til kun horisontalt og vertikalt, hvilket generator enklere puslespil for yngre eller mindre erfarne løsere. Denne kontrolniveau lader dig oprette progressive sværhedspakker fra enkle toretnings-gitre til komplekse otteretnings-puslespil.',
       },
       {
         title: 'Indstil visningstilstand og tilføj brugerdefinerede detaljer',
@@ -63,17 +63,17 @@ const content: AppContent = {
       {
         title: 'Skjulte-ord gitterpuslespil med billedledetråde',
         description:
-          'Hvert puslespil indlejrer skjulte ord i et gitter af tilfældige fyldningsbogstaver. Brugerne skanner rækker, kolonner og diagonaler for at finde dem — det klassiske ordsøgningsformat, der engagerer visuel scanning, mønstergenkendelse og ordforråds­gengivelse samtidig. Når du bruger Billedbibliotek eller Manuel Redigeringstilstand, vises billeder ved siden af gitteret som visuelle ledetråde, hvilket kobler billedgenkendelse og ordidentifikation sammen. Egen Ordliste-tilstanden skaber rendyrkede tekstbaserede ordsøgningspuslespil uden billeder, hvilket udvider formatet til ethvert emne eller ordforråds­sæt.',
+          'Hvert puslespil indlejrer skjulte ord i et gitter af tilfældige fyldningsbogstaver. Brugerne skanner rækker, kolonner og diagonaler for at finde dem — det klassiske ordsøgningsformat, der engagerer visuel scanning, mønstergenkendelse og ordforråds­gengivelse samtidig. Når du bruger Billedbibliotek eller Manuel Redigeringstilstand, vises billeder ved siden af gitteret som visuelle ledetråde, hvilket kobler billedgenkendelse og ordidentifikation sammen. Egen Ordliste-tilstanden generator rendyrkede tekstbaserede ordsøgningspuslespil uden billeder, hvilket udvider formatet til ethvert emne eller ordforråds­sæt.',
       },
       {
         title: 'Tilpasselig gitterstørrelse fra 5×5 til 30×30',
         description:
-          'Juster rækker og kolonner uafhængigt af hinanden fra 5 til 30, hvilket skaber gitre så kompakte som 5×5 (25 celler) eller så ekspansive som 30×30 (900 celler). Små gitre giver hurtige, tilgængelige puslespil, ideelle for yngre brugere eller opvarmningsaktiviteter. Store gitre skaber tætte, udfordrende søgeøvelser, der holder erfarne løsere engagerede længere. Standardgitteret 12×12 balancerer sværhed og sideplads for de fleste målgrupper. Denne spændvidde lader dig oprette progressive sværhedspakker — fra små startgitre til massive ekspertniveau-udfordringer — alt fra det samme værktøj.',
+          'Juster rækker og kolonner uafhængigt af hinanden fra 5 til 30, hvilket generator gitre så kompakte som 5×5 (25 celler) eller så ekspansive som 30×30 (900 celler). Små gitre giver hurtige, tilgængelige puslespil, ideelle for yngre brugere eller opvarmningsaktiviteter. Store gitre generator tætte, udfordrende søgeøvelser, der holder erfarne løsere engagerede længere. Standardgitteret 12×12 balancerer sværhed og sideplads for de fleste målgrupper. Denne spændvidde lader dig oprette progressive sværhedspakker — fra små startgitre til massive ekspertniveau-udfordringer — alt fra det samme værktøj.',
       },
       {
         title: 'Ordretningskontroller: diagonal- og baglæns omskiftere',
         description:
-          'To uafhængige omskiftere styrer, hvor ord kan placeres i gitteret. Aktiver diagonale ord for at tillade placering langs begge diagonalakser ud over horisontalt og vertikalt. Aktiver baglæns ord for at tillade baglæns placering i enhver aktiveret retning. Med begge aktiveret kan ord vises i otte mulige retninger; med begge deaktiveret vises ord kun venstre-til-højre horisontalt og oppefra-og-ned vertikalt. Disse kontroller skaber en enorm sværhedsvidde fra enkle toretnings-gitre til komplekse otteretnings-puslespil, hvilket giver dig præcis kontrol over udfordringsniveauet.',
+          'To uafhængige omskiftere styrer, hvor ord kan placeres i gitteret. Aktiver diagonale ord for at tillade placering langs begge diagonalakser ud over horisontalt og vertikalt. Aktiver baglæns ord for at tillade baglæns placering i enhver aktiveret retning. Med begge aktiveret kan ord vises i otte mulige retninger; med begge deaktiveret vises ord kun venstre-til-højre horisontalt og oppefra-og-ned vertikalt. Disse kontroller generator en enorm sværhedsvidde fra enkle toretnings-gitre til komplekse otteretnings-puslespil, hvilket giver dig præcis kontrol over udfordringsniveauet.',
       },
       {
         title: 'Tre indholdskilder: Billedbibliotek, Manuel Redigering og Egen Ordliste',
@@ -83,7 +83,7 @@ const content: AppContent = {
       {
         title: 'Sprogbevidst alfabetsfyldning med sprogspecifikke tegn',
         description:
-          'Gitterets fyldningstegn matcher automatisk det valgte sprogs alfabet og tegnfrekvens. Danske gitre inkluderer æ, ø og å ved vægtede frekvenser, der matcher naturlig dansk tekst. Tyske gitre inkluderer ä, ö, ü og ß. Franske gitre inkluderer é, è, ç og à. Hvert understøttet sprog får autentiske fyldningstegn, hvilket gør puslespillene lingvistisk ægte frem for åbenlyst engelskgenererede. Denne funktion er unik for Ordsøgning — den påvirker ikke kun de skjulte ord, men hele gitterbaggrunden, hvilket skaber en helt anderledes løseroplevelse per sprog.',
+          'Gitterets fyldningstegn matcher automatisk det valgte sprogs alfabet og tegnfrekvens. Danske gitre inkluderer æ, ø og å ved vægtede frekvenser, der matcher naturlig dansk tekst. Tyske gitre inkluderer ä, ö, ü og ß. Franske gitre inkluderer é, è, ç og à. Hvert understøttet sprog får autentiske fyldningstegn, hvilket gør puslespillene lingvistisk ægte frem for åbenlyst engelskgenererede. Denne funktion er unik for Ordsøgning — den påvirker ikke kun de skjulte ord, men hele gitterbaggrunden, hvilket generator en helt anderledes løseroplevelse per sprog.',
       },
       {
         title: 'Farvekodet facitliste med 6 markeringsfarver',
@@ -148,7 +148,7 @@ const content: AppContent = {
     {
       question: 'Hvilke gitterstørrelser er tilgængelige?',
       answer:
-        'Du kan indstille rækker og kolonner uafhængigt af hinanden fra 5 til 30. Standard er 12×12. Et 5×5-gitter skaber et hurtigt, enkelt puslespil med kun 25 celler; et 30×30-gitter skaber et tæt, udfordrende søgepuslespil med 900 celler. At justere gitterstørrelsen er den primære måde at kontrollere sværheden sammen med ordretningsindstillingerne.',
+        'Du kan indstille rækker og kolonner uafhængigt af hinanden fra 5 til 30. Standard er 12×12. Et 5×5-gitter generator et hurtigt, enkelt puslespil med kun 25 celler; et 30×30-gitter generator et tæt, udfordrende søgepuslespil med 900 celler. At justere gitterstørrelsen er den primære måde at kontrollere sværheden sammen med ordretningsindstillingerne.',
     },
     {
       question: 'Hvad gør diagonal- og baglæns omskifterne?',
@@ -163,7 +163,7 @@ const content: AppContent = {
     {
       question: 'Hvad er de tre visningstilstande?',
       answer:
-        'Vis Ord og Billeder (standard) viser både billedledetråde og ordlister ved siden af gitteret. Vis Kun Billeder viser billedledetråde uden tekstlister, hvilket kræver, at brugerne identificerer billedet og finder ordet selv. Vis Kun Ord viser tekstlister uden billeder, hvilket skaber en rendyrket tekstbaseret ordsøgningsoplevelse. Hver tilstand styrer, hvad der vises som ledetrådsreferencer ved siden af gitteret.',
+        'Vis Ord og Billeder (standard) viser både billedledetråde og ordlister ved siden af gitteret. Vis Kun Billeder viser billedledetråde uden tekstlister, hvilket kræver, at brugerne identificerer billedet og finder ordet selv. Vis Kun Ord viser tekstlister uden billeder, hvilket generator en rendyrket tekstbaseret ordsøgningsoplevelse. Hver tilstand styrer, hvad der vises som ledetrådsreferencer ved siden af gitteret.',
     },
     {
       question: 'Hvordan fungerer den sprogbevidste alfabetsfyldning?',

@@ -159,7 +159,7 @@ const content: GuideContent = {
     { pageType: 'start', slug: 'kommerzielle-lizenz-leitfaden', anchorText: 'Leitfaden zur kommerziellen Lizenz' },
     { pageType: 'app', slug: 'subtraktion-arbeitsblaetter', anchorText: 'Subtraktions-Arbeitsblatt-Generator — Alle Details' },
     { pageType: 'app', slug: 'mathe-arbeitsblaetter', anchorText: 'Mathe-Arbeitsblatt-Generator — Alle Details' },
-    { pageType: 'tool', slug: 'subtraktions-arbeitsblatt-ersteller', anchorText: 'Den Subtraktions-Arbeitsblatt-Ersteller ausprobieren' },
+    { pageType: 'tool', slug: 'subtraktions-Arbeitsblatt-Generator', anchorText: 'Den Subtraktions-Arbeitsblatt-Generator ausprobieren' },
   ],
 
   toolsRecommended: [

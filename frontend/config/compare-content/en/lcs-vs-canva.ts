@@ -6,13 +6,13 @@ const content: CompareContent = {
     secondaryKeywords: [
       'Canva alternative for worksheets',
       'Canva vs LessonCraftStudio',
-      'best worksheet maker vs Canva',
+      'best worksheet generator vs Canva',
       'Canva for printable sellers',
       'puzzle generator vs Canva',
       'Canva worksheet limitations',
     ],
     lsiKeywords: [
-      'printable worksheet maker',
+      'printable worksheet generator',
       'word search generator',
       'Canva templates for printable sellers',
       'educational printable design',

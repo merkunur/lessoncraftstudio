@@ -6,7 +6,7 @@ const content: AppContent = {
     secondaryKeywords: [
       'bingokort generator för Etsy-säljare',
       'bildbingo arbetsblad för Amazon KDP',
-      'bingokort skapare kommersiell licens',
+      'bingokort generator kommersiell licens',
       'bingo-brickor att sälja online',
       'bingobok att publicera på KDP',
     ],

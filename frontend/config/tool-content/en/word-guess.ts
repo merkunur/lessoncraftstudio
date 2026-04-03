@@ -28,7 +28,7 @@ const content: ToolContent = {
     title: 'How to Make Word Guess Puzzles Free in 8 Steps',
     steps: [
       {
-        title: 'Open the Word Guess Worksheet Maker',
+        title: 'Open the Word Guess Worksheet Generator',
         description: 'Click "Try Free Now" to launch the generator. The tool opens instantly in your browser with a settings sidebar on the left and a live preview canvas on the right. No account, download, or installation required.',
       },
       {

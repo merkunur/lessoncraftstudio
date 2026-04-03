@@ -28,7 +28,7 @@ const content: ToolContent = {
     title: 'Hur du Skapar Sorteringsarbetsblad i 8 Steg',
     steps: [
       {
-        title: 'Öppna Bildsortering Skaparen',
+        title: 'Öppna Bildsortering Generatorn',
         description: 'Klicka på \"Prova gratis nu\" för att starta sorterings arbetsblad generatorn. Verktyget laddas direkt med ett inställningssidofält till vänster och en dubbelfliks arbetsyta till höger — en flik för arbetsbladet, en för facit. Inget konto, ingen nedladdning, ingen installation krävs.',
       },
       {
@@ -77,7 +77,7 @@ const content: ToolContent = {
     },
     {
       title: 'Flerspråkiga sorteringsprodukter för internationella marknader',
-      description: 'Bildsortering Skaparen är språkkänslig — kategorietiketter använder lokaliserade bildnamn. Skapa sorteringsarbetsblad på alla 11 stödda språk från samma bilder. Den lokaliserade Sortera bilder-rubriken översätts automatiskt. Sälj flerspråkiga paket.',
+      description: 'Bildsortering Generatorn är språkkänslig — kategorietiketter använder lokaliserade bildnamn. Skapa sorteringsarbetsblad på alla 11 stödda språk från samma bilder. Den lokaliserade Sortera bilder-rubriken översätts automatiskt. Sälj flerspråkiga paket.',
     },
     {
       title: 'Anpassade foto sorteringsarbetsblad',
@@ -117,7 +117,7 @@ const content: ToolContent = {
     },
     {
       title: 'Flerspråkiga sorteringsprodukter för globala marknader',
-      description: 'Bildsortering Skaparen är språkkänslig — kategorietiketter och Sortera bilder-rubriken använder lokaliserade bildnamn. Producera sorteringsarbetsblad på alla 11 språk. Flerspråkiga paket motiverar premiumpriser.',
+      description: 'Bildsortering Generatorn är språkkänslig — kategorietiketter och Sortera bilder-rubriken använder lokaliserade bildnamn. Producera sorteringsarbetsblad på alla 11 språk. Flerspråkiga paket motiverar premiumpriser.',
       platform: 'Etsy / Gumroad',
     },
   ],
@@ -179,7 +179,7 @@ const content: ToolContent = {
       answer: 'Dubbelarbetsyte-systemet genererar samtidigt arbetsblad och facit. Facit visar två kategorirutor med bilder sorterade i korrekt grupp — renderade med 6× storleken. Max 2 kolumner per ruta med #FAFAFA-fyllning, #444-streck och 12px kantradie. Fyra produktionsklara filer per generering.',
     },
     {
-      question: 'Är Bildsortering Skaparen språkkänslig?',
+      question: 'Är Bildsortering Generatorn språkkänslig?',
       answer: 'Ja. Kategorietiketter använder lokaliserade bildnamn — att byta språk ändrar texten. En kattbild visas som \"Katt\" på svenska, \"Cat\" på engelska, \"Katze\" på tyska. Den lokaliserade Sortera bilder-rubriken översätts automatiskt till alla 11 stödda språk.',
     },
     {
@@ -206,13 +206,13 @@ const content: ToolContent = {
 
   internalLinks: [
     { pageType: 'app', slug: 'bildsortering-arbetsblad', anchorText: 'Bildsortering Arbetsblad — Fullständiga Produktdetaljer' },
-    { pageType: 'tool', slug: 'matchnings-arbetsblad-skapare', anchorText: 'Matchnings Arbetsblad Skapare' },
-    { pageType: 'tool', slug: 'rutnaetspussel-skapare', anchorText: 'Rutmatchning Skapare' },
-    { pageType: 'tool', slug: 'skuggmatchning-skapare', anchorText: 'Skuggmatchning Skapare' },
-    { pageType: 'tool', slug: 'bildbingo-skapare', anchorText: 'Bildbingo Skapare' },
-    { pageType: 'tool', slug: 'hitta-udda-skapare', anchorText: 'Hitta Udda Bilden Skapare' },
-    { pageType: 'tool', slug: 'ordsoek-skapare', anchorText: 'Ordsök Skapare' },
-    { pageType: 'tool', slug: 'maelarsidor-skapare', anchorText: 'Målarbilder Skapare' },
+    { pageType: 'tool', slug: 'matchnings-arbetsblad-skapare', anchorText: 'Matchnings Arbetsblad Generator' },
+    { pageType: 'tool', slug: 'rutnaetspussel-skapare', anchorText: 'Rutmatchning Generator' },
+    { pageType: 'tool', slug: 'skuggmatchning-skapare', anchorText: 'Skuggmatchning Generator' },
+    { pageType: 'tool', slug: 'bildbingo-skapare', anchorText: 'Bildbingo Generator' },
+    { pageType: 'tool', slug: 'hitta-udda-skapare', anchorText: 'Hitta Udda Bilden Generator' },
+    { pageType: 'tool', slug: 'ordsoek-skapare', anchorText: 'Ordsök Generator' },
+    { pageType: 'tool', slug: 'maelarsidor-skapare', anchorText: 'Målarbilder Generator' },
   ],
 
   visuals: {

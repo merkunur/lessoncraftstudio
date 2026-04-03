@@ -6,11 +6,11 @@ const content: ToolContent = {
     secondaryKeywords: [
       'zoek en tel werkbladen gratis online maken',
       'ik zie ik zie werkblad generator gratis',
-      'gratis zoek en tel werkblad maker zonder account',
+      'gratis zoek en tel werkblad generator zonder account',
       'zoek en tel activiteit online genereren',
     ],
     lsiKeywords: [
-      'verborgen voorwerp letterherkenning dubbele activiteitsmodus maker',
+      'verborgen voorwerp letterherkenning dubbele activiteitsmodus generator',
       'vier taaktypen omcirkel vierkant doorstrepen tel mixbaar werkblad',
       'taalspecifiek alfabet accentletters zoek en tel generator',
     ],
@@ -28,7 +28,7 @@ const content: ToolContent = {
     title: 'Zoek en tel werkbladen gratis maken in 8 stappen',
     steps: [
       {
-        title: 'Open de Zoek & Tel Maker',
+        title: 'Open de Zoek & Tel Generator',
         description: 'Klik op "Gratis proefversie" om de ik zie ik zie werkblad generator te starten in je browser. De tool laadt direct met een instellingenzijbalk links en een dubbel-tabblad canvas rechts — één tabblad voor het werkblad, één voor het antwoordblad. De app genereert automatisch een compleet ik zie ik zie werkblad bij het laden met het dierenthema, 4 willekeurig geselecteerde afbeeldingen, willekeurig toegewezen taaktypen en een 6×6 raster — zodat je direct een preview ziet van wat de tool produceert. Geen account aanmaken, geen software downloaden, geen installatie nodig.',
       },
       {
@@ -202,12 +202,12 @@ const content: ToolContent = {
 
   internalLinks: [
     { pageType: 'app', slug: 'zoek-en-tel-werkbladen', anchorText: 'Watermerk verwijderen en verkopen met commerciële licentie' },
-    { pageType: 'tool', slug: 'zoek-en-vind-maker', anchorText: 'Zoek Voorwerpen Werkblad Maker' },
+    { pageType: 'tool', slug: 'zoek-en-vind-maker', anchorText: 'Zoek Voorwerpen Werkblad Generator' },
     { pageType: 'tool', slug: 'kruiswoordpuzzel-maker', anchorText: 'Kruiswoordpuzzel Maker' },
-    { pageType: 'tool', slug: 'schattenjacht-maker', anchorText: 'Schattenjacht Werkblad Maker' },
-    { pageType: 'tool', slug: 'woordzoeker-maker', anchorText: 'Woordzoeker Werkblad Maker' },
+    { pageType: 'tool', slug: 'schattenjacht-maker', anchorText: 'Schattenjacht Werkblad Generator' },
+    { pageType: 'tool', slug: 'woordzoeker-maker', anchorText: 'Woordzoeker Werkblad Generator' },
     { pageType: 'tool', slug: 'plaatjespad-maker', anchorText: 'Plaatjespad Doolhof Maker' },
-    { pageType: 'tool', slug: 'koppelen-werkblad-maker', anchorText: 'Matching Werkblad Maker' },
+    { pageType: 'tool', slug: 'koppelen-werkblad-generator', anchorText: 'Matching Werkblad Generator' },
     { pageType: 'tool', slug: 'kleurplaten-maker', anchorText: 'Kleurplaten Maker' },
   ],
 

@@ -6,7 +6,7 @@ const content: ToolContent = {
     secondaryKeywords: [
       'rekenbladen online maken gratis',
       'gratis algebra beeldpuzzels generator',
-      'rekenwerkblad maker gratis downloaden',
+      'rekenwerkblad generator gratis downloaden',
       'visuele algebra puzzels gratis printen',
     ],
     lsiKeywords: [
@@ -29,7 +29,7 @@ const content: ToolContent = {
     steps: [
       {
         title: 'Open de werkblad generator',
-        description: 'Klik op "Gratis proefversie" om de rekenwerkblad maker te starten. De tool opent direct in je browser met een donkere zijbalk links voor alle instellingen en een helder canvas rechts voor de live voorbeeldweergave. Geen account of download nodig.',
+        description: 'Klik op "Gratis proefversie" om de rekenwerkblad generator te starten. De tool opent direct in je browser met een donkere zijbalk links voor alle instellingen en een helder canvas rechts voor de live voorbeeldweergave. Geen account of download nodig.',
       },
       {
         title: 'Stel pagina-indeling en -formaat in',
@@ -141,7 +141,7 @@ const content: ToolContent = {
     },
     {
       title: 'Combineer met Standaard Rekenwerkblad Tools',
-      description: 'Maak bijpassende sets met de Optellen, Aftrekken en Code Optellen generators naast de algebra puzzel maker. Verkoop ze individueel én als gecombineerde "Rekenoefening + Algebra Puzzel" bundel. De visuele algebra-component voegt een uitdagingselement toe dat de bundel aantrekkelijker maakt dan werkbladen alleen.',
+      description: 'Maak bijpassende sets met de Optellen, Aftrekken en Code Optellen generators naast de algebra puzzel generator. Verkoop ze individueel én als gecombineerde "Rekenoefening + Algebra Puzzel" bundel. De visuele algebra-component voegt een uitdagingselement toe dat de bundel aantrekkelijker maakt dan werkbladen alleen.',
     },
     {
       title: 'Exporteer Beide Formaten',
@@ -202,12 +202,12 @@ const content: ToolContent = {
 
   internalLinks: [
     { pageType: 'app', slug: 'rekenen-werkbladen', anchorText: 'Watermerk verwijderen en verkopen met commerciële licentie' },
-    { pageType: 'tool', slug: 'optellen-werkblad-maker', anchorText: 'Optellen Werkblad Maker' },
-    { pageType: 'tool', slug: 'aftrekken-werkblad-maker', anchorText: 'Aftrekken Werkblad Maker' },
-    { pageType: 'tool', slug: 'code-optellen-werkblad-maker', anchorText: 'Code Optellen Werkblad Maker' },
-    { pageType: 'tool', slug: 'meer-minder-werkblad-maker', anchorText: 'Meer of Minder Werkblad Maker' },
+    { pageType: 'tool', slug: 'optellen-werkblad-generator', anchorText: 'Optellen Werkblad Generator' },
+    { pageType: 'tool', slug: 'aftrekken-werkblad-generator', anchorText: 'Aftrekken Werkblad Generator' },
+    { pageType: 'tool', slug: 'code-optellen-werkblad-generator', anchorText: 'Code Optellen Werkblad Generator' },
+    { pageType: 'tool', slug: 'meer-minder-werkblad-generator', anchorText: 'Meer of Minder Werkblad Generator' },
     { pageType: 'tool', slug: 'rekenpuzzel-maker', anchorText: 'Rekenpuzzel Maker' },
-    { pageType: 'tool', slug: 'koppelen-werkblad-maker', anchorText: 'Koppelen Werkblad Maker' },
+    { pageType: 'tool', slug: 'koppelen-werkblad-generator', anchorText: 'Koppelen Werkblad Generator' },
     { pageType: 'tool', slug: 'ontbrekende-stukjes-maker', anchorText: 'Ontbrekende Stukjes Maker' },
   ],
 

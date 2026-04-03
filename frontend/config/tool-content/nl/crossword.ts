@@ -1,7 +1,7 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'gratis kruiswoordpuzzel maker met afbeeldingen',
+    primaryKeyword: 'gratis kruiswoordpuzzel generator met afbeeldingen',
     secondaryKeywords: [
       'kruiswoordpuzzel online maken gratis',
       'plaatjes kruiswoordpuzzel generator gratis',
@@ -11,14 +11,14 @@ const content: ToolContent = {  seo: {
     lsiKeywords: [
       'kruiswoordpuzzel met visuele aanwijzingen online',
       'taalgebonden kruiswoordpuzzel generator gratis',
-      'automatisch antwoordblad kruiswoordpuzzel maker',
+      'automatisch antwoordblad kruiswoordpuzzel generator',
     ],
-    titleTag: 'Kruiswoordpuzzel maker gratis | LessonCraftStudio',
+    titleTag: 'Kruiswoordpuzzel generator gratis | LessonCraftStudio',
     metaDescription: 'Maak gratis kruiswoordpuzzels met afbeeldingsaanwijzingen online. 15x15 raster, vier invoermethoden, automatisch antwoordblad, 104 thema\'s. Probeer nu.',
     },
 
   hero: {
-    title: 'Gratis kruiswoordpuzzel maker met afbeeldingen',
+    title: 'Gratis kruiswoordpuzzel generator met afbeeldingen',
     tagline: 'Maak plaatjes kruiswoordpuzzels met vier invoermethoden en automatisch antwoordblad — gratis online',
     description: 'Maak kruiswoordpuzzels waarbij kleurrijke afbeeldingen de traditionele tekstaanwijzingen vervangen. Met deze gratis online tool genereert u professionele plaatjes kruiswoordpuzzels op een vast 15x15 raster. Acht afbeeldingen worden automatisch omgezet naar acht kruiswoordwoorden met optimale kruising bij gedeelde letters. Kies uit vier invoermethoden: Snel Thema Genereren selecteert automatisch afbeeldingen uit 104 thematische collecties met meer dan 3.100 illustraties. Handmatige Bewerkingsmodus geeft u controle over de woordkeuze. Aangepaste Woordenlijst laat u eigen woorden met tekstaanwijzingen invoeren. Upload Aangepaste Afbeeldingen voegt uw eigen bestanden toe. De tool is taalgebonden: een katafbeelding genereert "KAT" in het Nederlands, "CAT" in het Engels, "KATZE" in het Duits en "CHAT" in het Frans. Het antwoordblad met ingevuld raster wordt automatisch meegegenereerd. U kunt de tool direct in uw browser gebruiken — geen account, geen software, geen creditcard nodig. De gratis proefversie biedt alle functies met een watermerk op downloads. Ideaal voor ouders, leerkrachten en puzzelliefhebbers die kruiswoordpuzzels met afbeeldingen willen uitproberen.',
   },
@@ -27,7 +27,7 @@ const content: ToolContent = {  seo: {
     title: 'Plaatjes kruiswoordpuzzels maken in 8 stappen',
     steps: [
       {
-        title: 'Open de Kruiswoordpuzzel Maker',
+        title: 'Open de Kruiswoordpuzzel Generator',
         description: 'Klik op "Gratis proefversie" om de plaatjes kruiswoordpuzzel generator te starten in je browser. De tool laadt direct met een instellingenzijbalk links en een dubbel-tabblad canvas rechts — één tabblad voor het kruiswoordwerkblad, één voor het antwoordblad. Geen account aanmaken, geen software downloaden, geen installatie nodig — begin onmiddellijk met het maken van plaatjes kruiswoordpuzzels.',
       },
       {
@@ -44,7 +44,7 @@ const content: ToolContent = {  seo: {
       },
       {
         title: 'Kies je inhoudstaal',
-        description: 'Selecteer de inhoudstaal om de woorden te bepalen die in het kruiswoordraster verschijnen. De Kruiswoordpuzzel Maker is taalgebonden — puzzelwoorden komen uit gelokaliseerde afbeeldingsnamen via het Beeldwoordenschat-systeem. Dezelfde katafbeelding genereert "KAT" in het Nederlands, "CAT" in het Engels, "KATZE" in het Duits, "CHAT" in het Frans en "GATTO" in het Italiaans, waardoor volledig verschillende kruiswoordpuzzels ontstaan vanuit identieke afbeeldingsselecties. Het Commerciële abonnement bevat Engels; Volledige Toegang ontgrendelt alle 11 talen. Deze meertalige mogelijkheid laat je kruiswoordproducten maken en verkopen voor internationale markten vanuit dezelfde afbeeldingensets.',
+        description: 'Selecteer de inhoudstaal om de woorden te bepalen die in het kruiswoordraster verschijnen. De Kruiswoordpuzzel Generator is taalgebonden — puzzelwoorden komen uit gelokaliseerde afbeeldingsnamen via het Beeldwoordenschat-systeem. Dezelfde katafbeelding genereert "KAT" in het Nederlands, "CAT" in het Engels, "KATZE" in het Duits, "CHAT" in het Frans en "GATTO" in het Italiaans, waardoor volledig verschillende kruiswoordpuzzels ontstaan vanuit identieke afbeeldingsselecties. Het Commerciële abonnement bevat Engels; Volledige Toegang ontgrendelt alle 11 talen. Deze meertalige mogelijkheid laat je kruiswoordproducten maken en verkopen voor internationale markten vanuit dezelfde afbeeldingensets.',
       },
       {
         title: 'Genereer de plaatjes kruiswoordpuzzel',
@@ -174,7 +174,7 @@ const content: ToolContent = {  seo: {
       answer: 'De generator gebruikt een dubbel canvassysteem met een tabblad Werkblad (de lege puzzel) en een tabblad Antwoordblad (het ingevulde raster). Het werkblad toont het kruiswoordraster met genummerde posities en afbeeldings- of tekstaanwijzingen — klaar voor oplossers om in te vullen. Het antwoordblad reproduceert de identieke indeling en vult elke cel met de correcte letters. Beide versies exporteren apart met vier speciale downloadknoppen. Het antwoordblad wordt tegelijkertijd met de puzzel gegenereerd, dus er is geen handmatige antwoordcreatiestap en geen kans op niet-overeenkomende oplossingen.',
     },
     {
-      question: 'Is de Kruiswoordpuzzel Maker taalgebonden?',
+      question: 'Is de Kruiswoordpuzzel Generator taalgebonden?',
       answer: 'Ja. Puzzelwoorden komen uit gelokaliseerde afbeeldingsnamen geladen via het Beeldwoordenschat-systeem. Het wisselen van de inhoudstaal verandert de daadwerkelijke woorden die in het kruiswoordraster worden geplaatst. Een katafbeelding genereert "KAT" in het Nederlands maar "CAT" in het Engels, "KATZE" in het Duits, "CHAT" in het Frans en "GATTO" in het Italiaans — waardoor volledig verschillende kruiswoordpuzzels ontstaan vanuit identieke afbeeldingsselecties. De gelokaliseerde koptekst verandert ook mee met de geselecteerde taal. Het Commerciële abonnement bevat Engelse inhoud; Volledige Toegang ontgrendelt alle 11 talen voor gelokaliseerde puzzelwoorden.',
     },
     {

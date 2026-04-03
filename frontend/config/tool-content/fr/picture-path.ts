@@ -28,7 +28,7 @@ const content: ToolContent = {
     title: 'Comment Créer des Fiches Labyrinthes en 8 Étapes',
     steps: [
       {
-        title: 'Ouvrir le Créateur de Labyrinthes Chemin d\'Images',
+        title: 'Ouvrir le Générateur de Labyrinthes Chemin d\'Images',
         description: 'Cliquez sur \" Essayer maintenant \" pour lancer le générateur de fiches labyrinthes dans votre navigateur. L\'outil s\'ouvre instantanément avec une barre latérale de réglages à gauche et un canevas à double onglet à droite — un onglet pour la fiche, un pour le corrigé. Aucun compte, aucun téléchargement de logiciel, aucune installation requis — commencez à créer des fiches labyrinthes immédiatement.',
       },
       {
@@ -187,7 +187,7 @@ const content: ToolContent = {
       answer: 'Chaque fiche inclut un en-tête stylisé avec une bordure extérieure orange (trait de 8px) et des marges de 34px. Le titre \" Chemin d\'Images \" et la description \" Suis le chemin du départ à l\'arrivée ! \" sont automatiquement traduits dans les 11 langues prises en charge. Les fiches portrait affichent un en-tête de 240px ; les fiches paysage utilisent une disposition compacte de 165px. L\'en-tête se rend en texte localisé pour le français (Chemin d\'Images), l\'allemand (Bilderpfad), l\'anglais (Picture Pathway), l\'espagnol (Camino de Imágenes) et toutes les autres langues prises en charge.',
     },
     {
-      question: 'Le Créateur de Labyrinthes Chemin d\'Images est-il sensible à la langue ?',
+      question: 'Le Générateur de Labyrinthes Chemin d\'Images est-il sensible à la langue ?',
       answer: 'Non. Les labyrinthes Chemin d\'Images sont entièrement visuels — les utilisateurs naviguent dans des chemins, suivent des images et résolvent des puzzles spatiaux sans lire aucun texte. Le contenu du labyrinthe lui-même ne nécessite aucune compréhension linguistique. Le seul élément localisé est le texte d\'en-tête auto-généré \" Chemin d\'Images \", qui se traduit automatiquement dans les 11 langues prises en charge. Cela rend chaque fiche labyrinthe universellement vendable sur tous les marchés sans traduction — un seul ensemble de labyrinthes sert toutes les places de marché internationales.',
     },
     {
@@ -206,13 +206,13 @@ const content: ToolContent = {
 
   internalLinks: [
     { pageType: 'app', slug: 'parcours-images-fiches', anchorText: 'Labyrinthes Chemin d\'Images — Détails Complets du Produit' },
-    { pageType: 'tool', slug: 'generateur-sudoku-enfants', anchorText: 'Créateur de Sudoku en Images' },
-    { pageType: 'tool', slug: 'generateur-pieces-manquantes', anchorText: 'Créateur de Puzzles Pièces Manquantes' },
-    { pageType: 'tool', slug: 'generateur-fiches-intrus', anchorText: 'Créateur de Fiches Intrus' },
-    { pageType: 'tool', slug: 'generateur-puzzle-grille', anchorText: 'Créateur de Puzzles Grille' },
-    { pageType: 'tool', slug: 'generateur-cherche-et-compte', anchorText: 'Créateur de Cherche et Compte' },
-    { pageType: 'tool', slug: 'generateur-mots-caches', anchorText: 'Créateur de Mots Cachés' },
-    { pageType: 'tool', slug: 'generateur-pages-coloriage', anchorText: 'Créateur de Pages de Coloriage' },
+    { pageType: 'tool', slug: 'generateur-sudoku-enfants', anchorText: 'Générateur de Sudoku en Images' },
+    { pageType: 'tool', slug: 'generateur-pieces-manquantes', anchorText: 'Générateur de Puzzles Pièces Manquantes' },
+    { pageType: 'tool', slug: 'generateur-fiches-intrus', anchorText: 'Générateur de Fiches Intrus' },
+    { pageType: 'tool', slug: 'generateur-puzzle-grille', anchorText: 'Générateur de Puzzles Grille' },
+    { pageType: 'tool', slug: 'generateur-cherche-et-compte', anchorText: 'Générateur de Cherche et Compte' },
+    { pageType: 'tool', slug: 'generateur-mots-caches', anchorText: 'Générateur de Mots Cachés' },
+    { pageType: 'tool', slug: 'generateur-pages-coloriage', anchorText: 'Générateur de Pages de Coloriage' },
   ],
 
   visuals: {

@@ -28,7 +28,7 @@ const content: ToolContent = {
     title: 'Hur du Skapar Mönstertåg Arbetsblad i 8 Steg',
     steps: [
       {
-        title: 'Öppna Mönstertåg Skaparen',
+        title: 'Öppna Mönstertåg Generatorn',
         description: 'Klicka på \"Prova gratis nu\" för att starta generatorn i din webbläsare. Verktyget laddas direkt med ett inställningssidofält till vänster och en liveförhandsvisnings arbetsyta till höger. Inget konto, ingen nedladdning, ingen installation krävs — börja bygga mönstertåg arbetsblad omedelbart.',
       },
       {
@@ -137,7 +137,7 @@ const content: ToolContent = {
     },
     {
       title: 'Skapa både tåg- och rutnätsmönsterprodukter',
-      description: 'Mönstertåg Skaparen och Mönster Arbetsblad Skaparen producerar fundamentalt olika visuella format för samma färdighet — mönsterigenkänning. Tågformat använder 11 vagnar med en enda saknad position. Rutnätsformat använder standard rader och kolumner. Sälj båda formaten separat eller paketera dem som ett \"Komplett Mönsterigenkänningspaket\" till ett premiumpris.',
+      description: 'Mönstertåg Generatorn och Mönster Arbetsblad Generatorn producerar fundamentalt olika visuella format för samma färdighet — mönsterigenkänning. Tågformat använder 11 vagnar med en enda saknad position. Rutnätsformat använder standard rader och kolumner. Sälj båda formaten separat eller paketera dem som ett \"Komplett Mönsterigenkänningspaket\" till ett premiumpris.',
     },
     {
       title: 'Matcha ledtrådsantal till din målåldersgrupp',
@@ -202,13 +202,13 @@ const content: ToolContent = {
 
   internalLinks: [
     { pageType: 'app', slug: 'monster-tag-arbetsblad', anchorText: 'Mönstertåg Arbetsblad — Fullständiga Produktdetaljer' },
-    { pageType: 'tool', slug: 'stor-liten-arbetsblad-skapare', anchorText: 'Stor och Liten Arbetsblad Skapare' },
-    { pageType: 'tool', slug: 'moenster-arbetsblad-skapare', anchorText: 'Mönster Arbetsblad Skapare' },
-    { pageType: 'tool', slug: 'rita-och-faerglaeg-skapare', anchorText: 'Rita och Färglägg Skapare' },
-    { pageType: 'tool', slug: 'matchnings-arbetsblad-skapare', anchorText: 'Matchnings Arbetsblad Skapare' },
-    { pageType: 'tool', slug: 'hitta-udda-skapare', anchorText: 'Hitta Udda Bilden Skapare' },
-    { pageType: 'tool', slug: 'skuggmatchning-skapare', anchorText: 'Skuggmatchning Skapare' },
-    { pageType: 'tool', slug: 'maelarsidor-skapare', anchorText: 'Målarbilder Skapare' },
+    { pageType: 'tool', slug: 'stor-liten-arbetsblad-skapare', anchorText: 'Stor och Liten Arbetsblad Generator' },
+    { pageType: 'tool', slug: 'moenster-arbetsblad-skapare', anchorText: 'Mönster Arbetsblad Generator' },
+    { pageType: 'tool', slug: 'rita-och-faerglaeg-skapare', anchorText: 'Rita och Färglägg Generator' },
+    { pageType: 'tool', slug: 'matchnings-arbetsblad-skapare', anchorText: 'Matchnings Arbetsblad Generator' },
+    { pageType: 'tool', slug: 'hitta-udda-skapare', anchorText: 'Hitta Udda Bilden Generator' },
+    { pageType: 'tool', slug: 'skuggmatchning-skapare', anchorText: 'Skuggmatchning Generator' },
+    { pageType: 'tool', slug: 'maelarsidor-skapare', anchorText: 'Målarbilder Generator' },
   ],
 
   visuals: {

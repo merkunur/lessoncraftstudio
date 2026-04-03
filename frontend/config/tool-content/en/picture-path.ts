@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'free picture path worksheet maker',
+    primaryKeyword: 'free picture path worksheet generator',
     secondaryKeywords: [
       'make picture path worksheets free online',
       'maze worksheet generator no signup',
@@ -11,10 +11,10 @@ const content: ToolContent = {
     ],
     lsiKeywords: [
       'free maze tool online',
-      'instant path worksheet maker',
+      'instant path worksheet generator',
       'try before you buy maze tools',
     ],
-    titleTag: 'Free Picture Path Worksheet Maker | LCS',
+    titleTag: 'Free Picture Path Worksheet Generator | LCS',
     metaDescription: 'Make picture path worksheets free online with watermark — no signup. Themed image destinations, auto answer keys, 104 themes. Upgrade to sell.',
   },
 
@@ -206,7 +206,7 @@ const content: ToolContent = {
 
   internalLinks: [
     { pageType: 'app', slug: 'picture-path-worksheets', anchorText: 'Remove watermark and sell commercially' },
-    { pageType: 'tool', slug: 'treasure-hunt-maker', anchorText: 'Free treasure hunt worksheet maker' },
+    { pageType: 'tool', slug: 'treasure-hunt-maker', anchorText: 'Free treasure hunt worksheet generator' },
     { pageType: 'guide', slug: 'create-maze-worksheets', anchorText: 'How to create maze worksheets to sell' },
   ],
 

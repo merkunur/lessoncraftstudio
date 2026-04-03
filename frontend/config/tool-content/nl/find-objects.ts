@@ -10,7 +10,7 @@ const content: ToolContent = {
       'verborgen voorwerp activiteit online genereren',
     ],
     lsiKeywords: [
-      'vind de verborgen voorwerpen vreemde eend dubbele activiteitsmodus maker',
+      'vind de verborgen voorwerpen vreemde eend dubbele activiteitsmodus generator',
       'nul-overlap scènegeneratie adaptieve grootte algoritme',
       'automatisch antwoordblad rode cirkel annotaties verborgen voorwerp creator',
     ],
@@ -28,7 +28,7 @@ const content: ToolContent = {
     title: 'Zoek en vind werkbladen gratis maken in 8 stappen',
     steps: [
       {
-        title: 'Open de Zoek Voorwerpen Maker',
+        title: 'Open de Zoek Voorwerpen Generator',
         description: 'Klik op "Gratis proefversie" om de verborgen voorwerp werkblad generator te starten in je browser. De tool laadt direct met een instellingenzijbalk links en een dubbel-tabblad canvas rechts — één tabblad voor het werkblad, één voor het antwoordblad. Geen account aanmaken, geen software downloaden, geen installatie nodig — begin onmiddellijk met het maken van verborgen voorwerp werkbladen.',
       },
       {
@@ -117,7 +117,7 @@ const content: ToolContent = {
     },
     {
       title: 'Wereldwijde Visuele Puzzel Productlijn',
-      description: 'De Zoek Voorwerpen Maker produceert puur visuele puzzels — er verschijnt geen taalspecifieke tekst op de werkbladinhoud zelf. De legenda bij Vind de Verborgen Voorwerpen gebruikt afbeeldingen, geen woorden, en Vind de Vreemde Eend is volledig visueel. Dezelfde productbestanden werken in elk land zonder vertaling of aanpassing. Eén creatiesessie produceert een wereldwijd verkoopbare catalogus. Verkoop identieke bestanden in Etsy-winkels die verschillende landen bedienen, publiceer dezelfde KDP-binnenwerken op alle internationale Amazon-marktplaatsen, en vermeld op Gumroad voor internationale verkopers. Geen aparte taalversies, geen vertaalkosten, geen per-taal onderhoud — het puur visuele formaat is je sterkste wereldwijde verkoopvoordeel.',
+      description: 'De Zoek Voorwerpen Generator produceert puur visuele puzzels — er verschijnt geen taalspecifieke tekst op de werkbladinhoud zelf. De legenda bij Vind de Verborgen Voorwerpen gebruikt afbeeldingen, geen woorden, en Vind de Vreemde Eend is volledig visueel. Dezelfde productbestanden werken in elk land zonder vertaling of aanpassing. Eén creatiesessie produceert een wereldwijd verkoopbare catalogus. Verkoop identieke bestanden in Etsy-winkels die verschillende landen bedienen, publiceer dezelfde KDP-binnenwerken op alle internationale Amazon-marktplaatsen, en vermeld op Gumroad voor internationale verkopers. Geen aparte taalversies, geen vertaalkosten, geen per-taal onderhoud — het puur visuele formaat is je sterkste wereldwijde verkoopvoordeel.',
       platform: 'Etsy / Amazon KDP',
     },
   ],
@@ -179,8 +179,8 @@ const content: ToolContent = {
       answer: 'De generator gebruikt een dubbel canvassysteem met een tabblad Werkblad en een tabblad Antwoordblad. Het werkblad toont de verborgen voorwerp scène zonder markeringen — gebruikers zoeken en omcirkelen objecten zelf. Het antwoordblad reproduceert de identieke indeling en tekent rode cirkels rond de juiste objecten: verborgen doelen in Vind de Verborgen Voorwerpen modus en ongekoppelde items in Vind de Vreemde Eend modus. Cirkels zijn 3–5px groter dan het object voor duidelijke zichtbaarheid. Download elke versie onafhankelijk met vier speciale knoppen: werkblad-JPEG, werkblad-PDF, antwoordblad-JPEG en antwoordblad-PDF.',
     },
     {
-      question: 'Is de Zoek Voorwerpen Maker taalgebonden?',
-      answer: 'Nee. De Zoek Voorwerpen Maker is een puur visueel puzzelformaat — er verschijnen geen gelokaliseerde afbeeldingsnamen op de werkbladinhoud zelf. De legenda bij Vind de Verborgen Voorwerpen toont doelafbeeldingen als afbeeldingen, niet als tekst. Taalinstellingen beïnvloeden alleen UI-labels (knoppen, paneeltitels, tooltips), NIET de inhoud van de werkbladen. Dit maakt elk gegenereerd werkblad universeel verkoopbaar over alle markten zonder vertaling of aanpassing — één set verborgen voorwerp puzzels bedient elke internationale marktplaats.',
+      question: 'Is de Zoek Voorwerpen Generator taalgebonden?',
+      answer: 'Nee. De Zoek Voorwerpen Generator is een puur visueel puzzelformaat — er verschijnen geen gelokaliseerde afbeeldingsnamen op de werkbladinhoud zelf. De legenda bij Vind de Verborgen Voorwerpen toont doelafbeeldingen als afbeeldingen, niet als tekst. Taalinstellingen beïnvloeden alleen UI-labels (knoppen, paneeltitels, tooltips), NIET de inhoud van de werkbladen. Dit maakt elk gegenereerd werkblad universeel verkoopbaar over alle markten zonder vertaling of aanpassing — één set verborgen voorwerp puzzels bedient elke internationale marktplaats.',
     },
     {
       question: 'Welke paginaformaten en exportformaten zijn beschikbaar?',
@@ -204,10 +204,10 @@ const content: ToolContent = {
     { pageType: 'app', slug: 'zoek-voorwerpen-werkbladen', anchorText: 'Watermerk verwijderen en verkopen met commerciële licentie' },
     { pageType: 'tool', slug: 'zoek-en-tel-maker', anchorText: 'Zoek & Tel Maker' },
     { pageType: 'tool', slug: 'kruiswoordpuzzel-maker', anchorText: 'Kruiswoordpuzzel Maker' },
-    { pageType: 'tool', slug: 'schattenjacht-maker', anchorText: 'Schattenjacht Werkblad Maker' },
-    { pageType: 'tool', slug: 'woordzoeker-maker', anchorText: 'Woordzoeker Werkblad Maker' },
-    { pageType: 'tool', slug: 'wat-hoort-er-niet-bij-maker', anchorText: 'Zoek de Uitzondering Werkblad Maker' },
-    { pageType: 'tool', slug: 'koppelen-werkblad-maker', anchorText: 'Matching Werkblad Maker' },
+    { pageType: 'tool', slug: 'schattenjacht-maker', anchorText: 'Schattenjacht Werkblad Generator' },
+    { pageType: 'tool', slug: 'woordzoeker-maker', anchorText: 'Woordzoeker Werkblad Generator' },
+    { pageType: 'tool', slug: 'wat-hoort-er-niet-bij-maker', anchorText: 'Zoek de Uitzondering Werkblad Generator' },
+    { pageType: 'tool', slug: 'koppelen-werkblad-generator', anchorText: 'Matching Werkblad Generator' },
     { pageType: 'tool', slug: 'kleurplaten-maker', anchorText: 'Kleurplaten Maker' },
   ],
 

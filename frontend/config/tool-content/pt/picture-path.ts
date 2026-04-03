@@ -38,7 +38,7 @@ const content: ToolContent = {
     title: 'Como Criar Atividades de Labirintos em 8 Passos',
     steps: [
       {
-        title: 'Abra o Criador de Labirintos com Imagens',
+        title: 'Abra o Gerador de Labirintos com Imagens',
         description: 'Clique em \"Teste Grátis Agora\" para abrir o gerador de atividades de labirintos no seu navegador. A ferramenta carrega instantaneamente com uma barra lateral de configurações à esquerda e um canvas de duplo aba à direita — um aba para a atividade e outro para o gabarito. Sem criar conta, sem baixar software, sem instalação — comece a criar atividades de labirintos imediatamente.',
       },
       {
@@ -197,7 +197,7 @@ const content: ToolContent = {
       answer: 'Cada atividade inclui um cabeçalho estilizado com uma borda exterior laranja (traço de 8px) e margens de 34px. O título \"Caminho de Imagens\" e a descrição \"Segue o caminho desde o início até ao final!\" traduzem-se automaticamente para os 11 idiomas suportados. As atividades em vertical exibem um cabeçalho de 240px; as atividades em horizontal usam um layout compacto de 165px. O cabeçalho renderiza-se com texto localizado para inglês, alemão (Bilderpfad), francês (Chemin d\'Images), português (Caminho de Imagens) e todos os demais idiomas suportados.',
     },
     {
-      question: 'As atividades do Criador de Labirintos dependem do idioma?',
+      question: 'As atividades do Gerador de Labirintos dependem do idioma?',
       answer: 'Não. As atividades de Caminho de Imagens são completamente visuais — os usuários navegam caminhos, seguem imagens e resolvem puzzles espaciais sem ler qualquer texto. O conteúdo do labirinto em si não requer compreensão linguística. O único elemento localizado é o texto do cabeçalho autogerado \"Caminho de Imagens\", que se traduz automaticamente para os 11 idiomas suportados. Isto torna cada atividade de labirinto universalmente vendível em todos os mercados sem tradução — um mesmo conjunto de labirintos serve para todos os mercados internacionais.',
     },
     {
@@ -216,11 +216,11 @@ const content: ToolContent = {
 
   internalLinks: [
     { pageType: 'app', slug: 'labirinto-caminhos-atividades', anchorText: 'Atividades de Labirintos com Imagens — Detalhes Completos do Produto' },
-    { pageType: 'tool', slug: 'gerador-sudoku-infantil', anchorText: 'Criador de Sudoku com Imagens' },
-    { pageType: 'tool', slug: 'gerador-pecas-faltantes', anchorText: 'Criador de Atividades de Peças Faltantes' },
-    { pageType: 'tool', slug: 'gerador-atividades-intruso', anchorText: 'Criador de Atividades do Intruso' },
-    { pageType: 'tool', slug: 'gerador-puzzle-quadricula', anchorText: 'Criador de Atividades de Puzzle de Quadrícula' },
-    { pageType: 'tool', slug: 'gerador-procura-conta', anchorText: 'Criador de Atividades de Procura e Conta' },
+    { pageType: 'tool', slug: 'gerador-sudoku-infantil', anchorText: 'Gerador de Sudoku com Imagens' },
+    { pageType: 'tool', slug: 'gerador-pecas-faltantes', anchorText: 'Gerador de Atividades de Peças Faltantes' },
+    { pageType: 'tool', slug: 'gerador-atividades-intruso', anchorText: 'Gerador de Atividades do Intruso' },
+    { pageType: 'tool', slug: 'gerador-puzzle-quadricula', anchorText: 'Gerador de Atividades de Puzzle de Quadrícula' },
+    { pageType: 'tool', slug: 'gerador-procura-conta', anchorText: 'Gerador de Atividades de Procura e Conta' },
     { pageType: 'tool', slug: 'gerador-caca-palavras', anchorText: 'Gerador de Caça-Palavras' },
     { pageType: 'tool', slug: 'gerador-paginas-colorir', anchorText: 'Gerador de Páginas para Colorir' },
   ],

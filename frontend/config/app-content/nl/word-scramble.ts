@@ -14,7 +14,7 @@ const content: AppContent = {
       'printbare woordkruisel werkbladen bedrijf',
       'commercieel gebruik letterpuzzel generator',
     ],
-    titleTag: 'Door-elkaar-woorden maker voor Etsy | LessonCraftStudio',
+    titleTag: 'Door-elkaar-woorden generator voor Etsy | LessonCraftStudio',
     metaDescription:
       'Maak door-elkaar-woorden werkbladen met commerciële licentie voor Etsy en Amazon KDP. Gratis proefversie met watermerk. 4 niveaus, 104 thema\'s, 11 talen.',
   },

@@ -165,7 +165,7 @@ const content: GuideContent = {
     { pageType: 'start', slug: 'komplett-guide-utskriftsbart-foeretag', anchorText: 'Komplett guide till att starta utskriftsbart företag' },
     { pageType: 'start', slug: 'kommersiell-licensguide', anchorText: 'Kommersiell licensguide' },
     { pageType: 'app', slug: 'addition-arbetsblad', anchorText: 'Addition Arbetsblad Generator — Fullständig information' },
-    { pageType: 'tool', slug: 'additions-arbetsblad-skapare', anchorText: 'Prova Additions Arbetsblad Skaparen' },
+    { pageType: 'tool', slug: 'additions-arbetsblad-skapare', anchorText: 'Prova Additions Arbetsblad Generatorn' },
   ],
 
   toolsRecommended: [

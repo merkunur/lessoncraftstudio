@@ -127,7 +127,7 @@ const content: AppContent = {
       {
         title: 'Printbart abonnementsindhold til din egen webshop',
         description:
-          'Brug generatoren til at producere nye sammenligningsarbejdsark pakker hver uge og distribuer dem via din egen Shopify-, Gumroad- eller Payhip-butik. En abonnementsmodel — hver uge en ny temapakke — skaber tilbagevendende indtægter og opbygger en loyal kundebase af hjemmeundervisende familier og lektiehjælpscentre. De tre øvelsestilstande, to billedvariationsindstillinger og 104 temaer giver dig tilstrækkelig variation til års unikt indhold.',
+          'Brug generatoren til at producere nye sammenligningsarbejdsark pakker hver uge og distribuer dem via din egen Shopify-, Gumroad- eller Payhip-butik. En abonnementsmodel — hver uge en ny temapakke — generator tilbagevendende indtægter og opbygger en loyal kundebase af hjemmeundervisende familier og lektiehjælpscentre. De tre øvelsestilstande, to billedvariationsindstillinger og 104 temaer giver dig tilstrækkelig variation til års unikt indhold.',
         platform: 'Gumroad / Shopify / Payhip',
       },
       {
@@ -158,7 +158,7 @@ const content: AppContent = {
     {
       question: 'Hvad gør indstillingen Billedvariation?',
       answer:
-        'Billedvariation bestemmer, om begge sider af en sammenligning bruger den samme type billede eller forskellige typer. Tilstanden Samme Billeder sammenligner mængder af identiske objekter (for eksempel 5 katte mod 7 katte), med fokus udelukkende på talforståelse. Tilstanden Forskellige Billeder bruger distinkte objekter (for eksempel 5 katte mod 7 hunde), hvilket tilføjer visuel kompleksitet. Denne ene omskifter skaber to forskellige sværhedsgrader med de samme indstillinger.',
+        'Billedvariation bestemmer, om begge sider af en sammenligning bruger den samme type billede eller forskellige typer. Tilstanden Samme Billeder sammenligner mængder af identiske objekter (for eksempel 5 katte mod 7 katte), med fokus udelukkende på talforståelse. Tilstanden Forskellige Billeder bruger distinkte objekter (for eksempel 5 katte mod 7 hunde), hvilket tilføjer visuel kompleksitet. Denne ene omskifter generator to forskellige sværhedsgrader med de samme indstillinger.',
     },
     {
       question: 'Hvilke muligheder findes for symbolvisning?',

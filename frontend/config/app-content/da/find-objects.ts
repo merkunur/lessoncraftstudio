@@ -4,9 +4,9 @@ const content: AppContent = {
   seo: {
     primaryKeyword: 'skjulte objekter arbejdsark generator',
     secondaryKeywords: [
-      'printbar søgebillede skaber til Etsy-sælgere',
+      'printbar søgebillede generator til Etsy-sælgere',
       'find genstandene arbejdsark generator til KDP-udgivere',
-      'skjulte objekter aktivitet skaber kommerciel licens',
+      'skjulte objekter aktivitet generator kommerciel licens',
       'sælg find genstandene arbejdsark på Gumroad',
     ],
     lsiKeywords: [
@@ -73,7 +73,7 @@ const content: AppContent = {
       {
         title: 'Automatisk genereret facit med cirkelannoteringer',
         description:
-          'Hvert skjulte objekter-arbejdsark genererer automatisk en ledsagende facitliste på en separat lærredsfane. Facit genskaber det præcise arbejdsarkslayout og tegner røde cirkler rundt de korrekte objekter — skjulte mål i Søgnings-tilstanden og uparrede objekter i Find den Ulige Billede-tilstanden. Cirkler dimensioneres 3–5px større end objektet for tydelig synlighed. Ingen manuel markering, ingen separat filoprettelse — facit er altid synkroniseret med arbejdsarket.',
+          'Hvert skjulte objekter-arbejdsark genererer automatisk en ledsagende facitliste på en separat lærredsfane. Facit gengenerator det præcise arbejdsarkslayout og tegner røde cirkler rundt de korrekte objekter — skjulte mål i Søgnings-tilstanden og uparrede objekter i Find den Ulige Billede-tilstanden. Cirkler dimensioneres 3–5px større end objektet for tydelig synlighed. Ingen manuel markering, ingen separat filoprettelse — facit er altid synkroniseret med arbejdsarket.',
       },
       {
         title: 'Legendevisning, der viser objekter at finde i Søgnings-tilstanden',
@@ -168,7 +168,7 @@ const content: AppContent = {
     {
       question: 'Hvordan fungerer det automatisk genererede facit?',
       answer:
-        'Generatoren bruger et dobbeltlærredssystem med en Arbejdsarkfane og en Facitfane. Arbejdsarket viser den skjulte objekter-scene uden markeringer — brugerne søger og ringer objekter ind selv. Facit genskaber det identiske layout og tegner røde cirkler rundt de korrekte objekter: skjulte mål i Søgnings-tilstanden og uparrede objekter i Find den Ulige Billede-tilstanden. Cirkler dimensioneres 3–5px større end objektet for tydelig synlighed. Begge versioner eksporteres separat med fire downloadknapper.',
+        'Generatoren bruger et dobbeltlærredssystem med en Arbejdsarkfane og en Facitfane. Arbejdsarket viser den skjulte objekter-scene uden markeringer — brugerne søger og ringer objekter ind selv. Facit gengenerator det identiske layout og tegner røde cirkler rundt de korrekte objekter: skjulte mål i Søgnings-tilstanden og uparrede objekter i Find den Ulige Billede-tilstanden. Cirkler dimensioneres 3–5px større end objektet for tydelig synlighed. Begge versioner eksporteres separat med fire downloadknapper.',
     },
     {
       question: 'Kan jeg tilføje navn- og datofelter på arbejdsarket?',

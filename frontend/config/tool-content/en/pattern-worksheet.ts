@@ -2,11 +2,11 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'free pattern recognition worksheet maker',
+    primaryKeyword: 'free pattern recognition worksheet generator',
     secondaryKeywords: [
       'make pattern recognition worksheets free online',
       'visual pattern generator no signup',
-      'free sequence worksheet maker',
+      'free sequence worksheet generator',
       'pattern worksheets free trial',
     ],
     lsiKeywords: [
@@ -14,7 +14,7 @@ const content: ToolContent = {
       'instant pattern maker',
       'try before you buy sequence tools',
     ],
-    titleTag: 'Free Pattern Recognition Worksheet Maker | LCS',
+    titleTag: 'Free Pattern Recognition Worksheet Generator | LCS',
     metaDescription: 'Make pattern recognition worksheets free online with watermark — no signup. Visual sequences, themed images, answer keys. Upgrade for commercial license.',
   },
 
@@ -28,7 +28,7 @@ const content: ToolContent = {
     title: 'How to Make Pattern Recognition Worksheets Free in 8 Steps',
     steps: [
       {
-        title: 'Open the Pattern Worksheet Maker',
+        title: 'Open the Pattern Worksheet Generator',
         description: 'Click \"Try Free Now\" to launch the generator in your browser. The tool loads instantly with a settings sidebar on the left and a live preview canvas on the right. No account creation, no software download, no installation required — start building pattern recognition worksheets immediately.',
       },
       {
@@ -202,7 +202,7 @@ const content: ToolContent = {
 
   internalLinks: [
     { pageType: 'app', slug: 'pattern-worksheets', anchorText: 'Remove watermark and sell commercially' },
-    { pageType: 'tool', slug: 'pattern-train-maker', anchorText: 'Free pattern train worksheet maker' },
+    { pageType: 'tool', slug: 'pattern-train-maker', anchorText: 'Free pattern train worksheet generator' },
     { pageType: 'guide', slug: 'create-pattern-worksheets', anchorText: 'How to create pattern worksheets to sell' },
   ],
 

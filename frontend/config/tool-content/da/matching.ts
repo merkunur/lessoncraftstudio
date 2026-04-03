@@ -4,22 +4,22 @@ const content: ToolContent = {
   seo: {
     primaryKeyword: 'matchnings arbejdsark generator',
     secondaryKeywords: [
-      'matchnings arbejdsark skaber for sælgere',
+      'matchnings arbejdsark generator for sælgere',
       'lav tegn-en-streg matchnings arbejdsark til salg',
       'printbar matchningsaktivitet generator kommerciel brug',
-      'billedmatchning arbejdsark skaber til KDP og Etsy',
+      'billedmatchning arbejdsark generator til KDP og Etsy',
     ],
     lsiKeywords: [
       'firetilstands tegn-en-streg matchnings arbejdsark værktøj',
       'automatisk facit matchningsaktivitet generator',
-      'begyndelsesbogstav billede ord matchning skaber',
+      'begyndelsesbogstav billede ord matchning generator',
     ],
-    titleTag: 'Matchnings Arbejdsark Generator — Tegn-en-Streg Skaber',
+    titleTag: 'Matchnings Arbejdsark Generator — Tegn-en-Streg Generator',
     metaDescription: 'Lav matchnings arbejdsark med 4 tilstande, automatisk facit med forbindelseslinjer, konfigurerbare par, 11 sprog, 104 temaer. Gratis prøveversion med vandmærke.',
   },
 
   hero: {
-    title: 'Matchnings Arbejdsark Skaber',
+    title: 'Matchnings Arbejdsark Generator',
     tagline: 'Firetilstands tegn-en-streg matchnings arbejdsark generator med Begyndelsesbogstav, Billede+Ord, Blandet og Tilpasset Ord-tilstande, automatisk genererede facit med forbindelseslinjer, konfigurerbare parantal, lokaliseret Find Par-overskrift på 11 sprog og 104 tematiske billedsamlinger',
     description: 'Lav professionelle tegn-en-streg matchnings arbejdsark, hvor brugerne forbinder par ved at tegne linjer mellem to kolonner — med fire distinkte matchningstilstande i én enkelt generator. Begyndelsesbogstav-tilstand placerer billeder til venstre og deres første bogstaver til højre, med tre undertilstande: Tilfældigt Tema og Billeder, Tilfældigt fra Valgt Tema, og Vælg Specifikke Billeder. Skift store eller små bogstaver. Billede+Ord-tilstand viser mærkede billedpar på begge sider for ordforrådsforstærkning. Billede/Ord Blandet-tilstand bruger per-række dropdown-vælgere. Tilpasset Ord-tilstand parrer billeder med dine egne indtastede matchningstermer. Konfigurér 4, 5 eller 6 par per arbejdsark (standard 6). Skift artikelnummer (standard TIL) og punktmarkeringer (standard TIL) uafhængigt. Hvert arbejdsark inkluderer en automatisk genereret lokaliseret \"Find Par!\"-overskrift med gul pillebaggrund (#FFD700), koralramme (#FF7F50, 8px streg), lokaliseret titel i Fredoka (700) og beskrivelse i Quicksand (500), automatisk oversat til alle 11 understøttede sprog. Dobbeltarbejdsområde-systemet genererer samtidigt en arbejdsarksfane og en facitfane — facittet tegner horisontale forbindelseslinjer (#555, stregbredde 2) mellem korrekte matchninger. Denne generator er sprogfølsom: Begyndelsesbogstav og Billede+Ord-tilstande bruger lokaliserede billednavne, så at skifte sprog ændrer ordene og begyndelsesbogstaverne — det samme kattebillede viser K på dansk men C på engelsk (Cat) og K på tysk (Katze). Gennemse 104 tematiske samlinger med mere end 3.100 illustrationer. Anvend baggrunds- og rammetemaer med uafhængige gennemsigtighedsskydere. Tilføj navn- og datofelter. Eksportér fire filer per session: arbejdsark-JPEG, arbejdsark-PDF, facit-JPEG og facit-PDF — alle med 300 DPI. Vælg Letter, A4, Kvadrat eller tilpassede sidestørrelser med gråtonekontakt. Den gratis prøveversion indeholder alle funktioner med et vandmærke. Køb en licens for at fjerne vandmærket og sælge kommercielt.',
   },
@@ -28,7 +28,7 @@ const content: ToolContent = {
     title: 'Sådan Laver du Matchnings Arbejdsark i 8 Trin',
     steps: [
       {
-        title: 'Åbn Matchnings Arbejdsark Skaberen',
+        title: 'Åbn Matchnings Arbejdsark Generatoren',
         description: 'Klik på \"Prøv gratis nu\" for at starte matchnings arbejdsark generatoren i din browser. Værktøjet indlæses direkte med et indstillingssidepanel til venstre og et dobbeltfane-arbejdsområde til højre — en fane for arbejdsarket, en for facittet. Ingen konto, ingen download, ingen installation kræves.',
       },
       {
@@ -37,7 +37,7 @@ const content: ToolContent = {
       },
       {
         title: 'Konfigurér par, nummer og formatering',
-        description: 'Indstil antal matchningspar til 4, 5 eller 6 med dropdown (standard 6). Færre par skaber arbejdsark med større billeder og mere afstand for yngre brugere; flere par øger sværhed og indholdstæthed. Skift \"Inkludér artikelnummer\" (standard TIL) for at tilføje tal foran hvert par. Skift \"Vis punktmarkeringer\" (standard TIL) for dekorative punkter ved siden af objekter. Afkryds \"Inkludér Navn/Dato-felter\" for navn og datumlinjer.',
+        description: 'Indstil antal matchningspar til 4, 5 eller 6 med dropdown (standard 6). Færre par generator arbejdsark med større billeder og mere afstand for yngre brugere; flere par øger sværhed og indholdstæthed. Skift \"Inkludér artikelnummer\" (standard TIL) for at tilføje tal foran hvert par. Skift \"Vis punktmarkeringer\" (standard TIL) for dekorative punkter ved siden af objekter. Afkryds \"Inkludér Navn/Dato-felter\" for navn og datumlinjer.',
       },
       {
         title: 'Vælg billeder fra biblioteket',
@@ -53,7 +53,7 @@ const content: ToolContent = {
       },
       {
         title: 'Gennemse det automatisk genererede facit',
-        description: 'Klik på fanen Facit for at se løsningen. Facittet genskaber det præcise arbejdsarkslayout og tilføjer horisontale forbindelseslinjer (#555, stregbredde 2) tegnet mellem hvert korrekt par. Facittet genereres samtidigt med arbejdsarket — ingen manuel linjetegning, intet separat oprettelsestrin.',
+        description: 'Klik på fanen Facit for at se løsningen. Facittet gengenerator det præcise arbejdsarkslayout og tilføjer horisontale forbindelseslinjer (#555, stregbredde 2) tegnet mellem hvert korrekt par. Facittet genereres samtidigt med arbejdsarket — ingen manuel linjetegning, intet separat oprettelsestrin.',
       },
       {
         title: 'Download alle fire filer',
@@ -164,18 +164,18 @@ const content: ToolContent = {
     },
     {
       question: 'Hvordan fungerer det automatisk genererede facit?',
-      answer: 'Når du genererer et arbejdsark, opretter appen samtidigt et matchende facit på en separat arbejdsområdefane. Facittet genskaber det præcise arbejdsarkslayout og tilføjer horisontale forbindelseslinjer (#555, stregbredde 2) tegnet mellem hvert korrekt par. Download hver version uafhængigt — fire produktionsklare filer fra én enkelt generering.',
+      answer: 'Når du genererer et arbejdsark, opretter appen samtidigt et matchende facit på en separat arbejdsområdefane. Facittet gengenerator det præcise arbejdsarkslayout og tilføjer horisontale forbindelseslinjer (#555, stregbredde 2) tegnet mellem hvert korrekt par. Download hver version uafhængigt — fire produktionsklare filer fra én enkelt generering.',
     },
     {
       question: 'Hvordan fungerer det konfigurerbare parantal?',
-      answer: 'I panelen Arbejdsarkskonfiguration vælger du 4, 5 eller 6 fra dropdown for maksimalt antal par. Standard er 6 par. Færre par skaber arbejdsark med større billeder og mere afstand — ideelt for yngre brugere. Flere par øger sværhedsgraden og indholdstætheden.',
+      answer: 'I panelen Arbejdsarkskonfiguration vælger du 4, 5 eller 6 fra dropdown for maksimalt antal par. Standard er 6 par. Færre par generator arbejdsark med større billeder og mere afstand — ideelt for yngre brugere. Flere par øger sværhedsgraden og indholdstætheden.',
     },
     {
       question: 'Hvad er Begyndelsesbogstav-undertilstandene?',
       answer: 'Begyndelsesbogstav tilbyder tre undertilstande. Tilfældigt Tema og Billeder vælger et tilfældigt tema og billeder automatisk. Tilfældigt fra Valgt Tema lader dig vælge temaet. Vælg Specifikke Billeder åbner Billedbiblioteket for manuelt valg. Skift også mellem store og små bogstaver.',
     },
     {
-      question: 'Er Matchnings Arbejdsark Skaberen sprogfølsom?',
+      question: 'Er Matchnings Arbejdsark Generatoren sprogfølsom?',
       answer: 'Ja. Begyndelsesbogstav og Billede+Ord-tilstande bruger lokaliserede billednavne. At skifte sprog ændrer ordene og begyndelsesbogstaverne — et kattebillede viser K på dansk men C på engelsk (Cat) og K på tysk (Katze). Den lokaliserede Find Par-overskrift ændres også. Dette lader dig lave matchnings arbejdsark på alle 11 understøttede sprog.',
     },
     {
@@ -202,13 +202,13 @@ const content: ToolContent = {
 
   internalLinks: [
     { pageType: 'app', slug: 'matchning-arbejdsark', anchorText: 'Matchnings Arbejdsark — Fulde Produktdetaljer' },
-    { pageType: 'tool', slug: 'gittermatchning-skaber', anchorText: 'Gittermatchning Skaber' },
-    { pageType: 'tool', slug: 'skyggematchning-skaber', anchorText: 'Skyggematchning Skaber' },
-    { pageType: 'tool', slug: 'billedbingo-skaber', anchorText: 'Billedbingo Skaber' },
-    { pageType: 'tool', slug: 'sorter-billeder-skaber', anchorText: 'Sortér Billeder Skaber' },
-    { pageType: 'tool', slug: 'alfabet-tog-skaber', anchorText: 'Alfabet Tog Skaber' },
-    { pageType: 'tool', slug: 'ordsoegning-skaber', anchorText: 'Ordsøgning Skaber' },
-    { pageType: 'tool', slug: 'additions-arbejdsark-skaber', anchorText: 'Additions Arbejdsark Skaber' },
+    { pageType: 'tool', slug: 'gittermatchning-skaber', anchorText: 'Gittermatchning Generator' },
+    { pageType: 'tool', slug: 'skyggematchning-skaber', anchorText: 'Skyggematchning Generator' },
+    { pageType: 'tool', slug: 'billedbingo-skaber', anchorText: 'Billedbingo Generator' },
+    { pageType: 'tool', slug: 'sorter-billeder-skaber', anchorText: 'Sortér Billeder Generator' },
+    { pageType: 'tool', slug: 'alfabet-tog-skaber', anchorText: 'Alfabet Tog Generator' },
+    { pageType: 'tool', slug: 'ordsoegning-skaber', anchorText: 'Ordsøgning Generator' },
+    { pageType: 'tool', slug: 'additions-arbejdsark-skaber', anchorText: 'Additions Arbejdsark Generator' },
   ],
 
   visuals: {

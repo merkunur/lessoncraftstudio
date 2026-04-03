@@ -5,7 +5,7 @@ const content: ToolContent = {  seo: {
     secondaryKeywords: [
       'Bingo-Karten kostenlos erstellen online',
       'Bilder-Bingo-Generator ohne Anmeldung',
-      'kostenloser Bingo-Karten Ersteller für Kinder',
+      'kostenloser Bingo-Karten Generator für Kinder',
       'Bingo-Karten online erstellen und drucken',
     ],
     lsiKeywords: [
@@ -27,7 +27,7 @@ const content: ToolContent = {  seo: {
     title: 'Bilder-Bingo-Karten erstellen in 8 Schritten',
     steps: [
       {
-        title: 'Den Bingo-Karten-Ersteller öffnen',
+        title: 'Den Bingo-Karten-Generator öffnen',
         description: 'Klicken Sie auf \"Kostenlos testen\", um den Bilder-Bingo-Karten-Generator in Ihrem Browser zu starten. Das Tool lädt sofort mit einer Einstellungsleiste links und einer Doppel-Tab-Arbeitsfläche rechts — ein Tab für die Bingo-Karte mit Chips, einer für das Ansageblatt. Keine Kontoerstellung, kein Software-Download, keine Installation erforderlich — beginnen Sie sofort mit der Erstellung von Bilder-Bingo-Karten.',
       },
       {
@@ -68,7 +68,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Mehrsprachige Vokabel-Bingo-Produkte',
-      description: 'Der Bingo-Karten-Ersteller ist sprachabhängig — die Wort-Füllung zeigt lokalisierte Bildnamen aus der Bildbibliothek, sodass ein Sprachwechsel die Wörter auf Karten, Chips und dem Ansageblatt ändert. Erstellen Sie Bingo-Sets in Deutsch, Englisch, Französisch, Spanisch, Portugiesisch, Italienisch, Niederländisch, Schwedisch, Dänisch, Norwegisch und Finnisch aus denselben Bildern, ohne etwas neu aufbauen zu müssen. Ein Katzenbild zeigt \"Katze\" auf Deutsch, \"Cat\" auf Englisch und \"Chat\" auf Französisch. Verkaufen Sie Vokabel-Bingo-Produkte über internationale Marktplätze, indem Sie jede Sprachversion in Minuten generieren. Wortkarten mit Bild-Chips sind besonders effektive Vokabelwiederholungs-Tools.',
+      description: 'Der Bingo-Karten-Generator ist sprachabhängig — die Wort-Füllung zeigt lokalisierte Bildnamen aus der Bildbibliothek, sodass ein Sprachwechsel die Wörter auf Karten, Chips und dem Ansageblatt ändert. Erstellen Sie Bingo-Sets in Deutsch, Englisch, Französisch, Spanisch, Portugiesisch, Italienisch, Niederländisch, Schwedisch, Dänisch, Norwegisch und Finnisch aus denselben Bildern, ohne etwas neu aufbauen zu müssen. Ein Katzenbild zeigt \"Katze\" auf Deutsch, \"Cat\" auf Englisch und \"Chat\" auf Französisch. Verkaufen Sie Vokabel-Bingo-Produkte über internationale Marktplätze, indem Sie jede Sprachversion in Minuten generieren. Wortkarten mit Bild-Chips sind besonders effektive Vokabelwiederholungs-Tools.',
     },
     {
       title: 'KDP-Bingo-Aktivitätsbücher mit Ansageblättern',
@@ -116,7 +116,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Mehrsprachige Bingo-Produkte für globale Märkte',
-      description: 'Der Bingo-Karten-Ersteller ist sprachabhängig — die Wort-Füllung verwendet lokalisierte Bildnamen in 11 Sprachen, was die Erstellung von Bingo-Karten in Deutsch, Englisch, Französisch, Spanisch, Portugiesisch, Italienisch, Niederländisch, Schwedisch, Dänisch, Norwegisch und Finnisch aus denselben Bildern einfach macht. Erstellen Sie Vokabel-Bingo-Produkte für internationale Etsy-Shops, mehrsprachige Gumroad-Käufer und Sprachlerner weltweit. Verkaufen Sie dasselbe thematische Bingo-Set in mehreren Sprachversionen ohne Neugestaltung — einfach die Sprache wechseln und neu generieren. Mehrsprachige Pakete erzielen Premium-Preise und erreichen Käufer, die einsprachige Wettbewerber nicht bedienen können.',
+      description: 'Der Bingo-Karten-Generator ist sprachabhängig — die Wort-Füllung verwendet lokalisierte Bildnamen in 11 Sprachen, was die Erstellung von Bingo-Karten in Deutsch, Englisch, Französisch, Spanisch, Portugiesisch, Italienisch, Niederländisch, Schwedisch, Dänisch, Norwegisch und Finnisch aus denselben Bildern einfach macht. Erstellen Sie Vokabel-Bingo-Produkte für internationale Etsy-Shops, mehrsprachige Gumroad-Käufer und Sprachlerner weltweit. Verkaufen Sie dasselbe thematische Bingo-Set in mehreren Sprachversionen ohne Neugestaltung — einfach die Sprache wechseln und neu generieren. Mehrsprachige Pakete erzielen Premium-Preise und erreichen Käufer, die einsprachige Wettbewerber nicht bedienen können.',
       platform: 'Etsy / Gumroad',
     },
   ],
@@ -182,7 +182,7 @@ const content: ToolContent = {  seo: {
       answer: 'Aktivieren Sie das Kontrollkästchen \"Benutzerdefinierte Auswahl verwenden\" im Bingo-Karten-Einstellungen-Panel, um bestimmte Bilder für den Ansage-Pool von Hand auszuwählen. Wenn aktiviert, klicken Sie auf Bilder in der Bildbibliothek, um sie Ihrer benutzerdefinierten Ansage-Auswahl hinzuzufügen — ein Live-Zähler zeigt Ihre Auswahlanzahl an. Das gibt Ihnen präzise Kontrolle darüber, welche Elemente im Bingo-Spiel erscheinen — ideal für lehrplanorientierte Vokabelaktivitäten, thematische Veranstaltungen oder jede Situation, in der Sie die exakten Elemente kuratieren möchten, die Spieler während des Spiels antreffen.',
     },
     {
-      question: 'Ist der Bingo-Karten-Ersteller sprachabhängig?',
+      question: 'Ist der Bingo-Karten-Generator sprachabhängig?',
       answer: 'Ja. Bei Verwendung der Wort-Füllung für Kartenzellen oder Chips werden lokalisierte Bildnamen aus der Bildbibliothek angezeigt. Ein Sprachwechsel in den Arbeitsblatt-Einstellungen ändert die Wörter auf Karten, Chips und dem Ansageblatt. Ein Katzenbild zeigt beispielsweise \"Katze\" auf Deutsch, aber \"Cat\" auf Englisch und \"Chat\" auf Französisch. Das macht es einfach, mehrsprachige Vokabel-Bingo-Produkte aus denselben Bildern zu erstellen. Die Bild-Füllung ist nicht sprachabhängig, da sie Illustrationen statt Wörter anzeigt.',
     },
     {
@@ -205,13 +205,13 @@ const content: ToolContent = {  seo: {
 
   internalLinks: [
     { pageType: 'app', slug: 'bilder-bingo-arbeitsblaetter', anchorText: 'Bilder-Bingo-Karten — Alle Produktdetails' },
-    { pageType: 'tool', slug: 'zuordnungs-arbeitsblatt-ersteller', anchorText: 'Zuordnungs-Arbeitsblatt-Ersteller' },
-    { pageType: 'tool', slug: 'raster-puzzle-ersteller', anchorText: 'Raster-Puzzle-Ersteller' },
-    { pageType: 'tool', slug: 'schattenbilder-ersteller', anchorText: 'Schattenbilder-Ersteller' },
-    { pageType: 'tool', slug: 'bilder-sortieren-ersteller', anchorText: 'Bilder-Sortieren-Ersteller' },
-    { pageType: 'tool', slug: 'wortsuche-ersteller', anchorText: 'Wortsuche-Ersteller' },
-    { pageType: 'tool', slug: 'was-passt-nicht-ersteller', anchorText: 'Was-Passt-Nicht-Ersteller' },
-    { pageType: 'tool', slug: 'malvorlagen-ersteller', anchorText: 'Malvorlagen-Ersteller' },
+    { pageType: 'tool', slug: 'zuordnungs-Arbeitsblatt-Generator', anchorText: 'Zuordnungs-Arbeitsblatt-Generator' },
+    { pageType: 'tool', slug: 'raster-puzzle-ersteller', anchorText: 'Raster-Puzzle-Generator' },
+    { pageType: 'tool', slug: 'schattenbilder-ersteller', anchorText: 'Schattenbilder-Generator' },
+    { pageType: 'tool', slug: 'bilder-sortieren-ersteller', anchorText: 'Bilder-Sortieren-Generator' },
+    { pageType: 'tool', slug: 'wortsuche-ersteller', anchorText: 'Wortsuche-Generator' },
+    { pageType: 'tool', slug: 'was-passt-nicht-ersteller', anchorText: 'Was-Passt-Nicht-Generator' },
+    { pageType: 'tool', slug: 'malvorlagen-ersteller', anchorText: 'Malvorlagen-Generator' },
   ],
 
   visuals: {

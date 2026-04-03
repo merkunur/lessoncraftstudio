@@ -27,7 +27,7 @@ const content: GuideContent = {
     description: 'Prissætning er den enkelte beslutning med størst løftestangseffekt i din printable-virksomhed. En $3 prisstigning på tværs af dit katalog kan fordoble din profitmargin natten over, mens underprissætning med bare et par dollars efterlader tusindvis af dollars på bordet hvert år. Alligevel sætter de fleste printable-sælgere priser baseret på mavefornemmelse eller ved at kopiere konkurrenter uden at forstå hvorfor de konkurrenter valgte deres priser. Denne guide dækker en komplet prissætningsramme der fungerer på Etsy, Amazon KDP, Gumroad, Creative Fabrica og enhver anden platform hvor du sælger pædagogiske printables.',
   },
 
-  introduction: 'Prissætningsfejl er de dyreste fejl en printable-sælger kan lave, og de mest almindelige. Flertallet af nye sælgere underprissætter deres produkter dramatisk — ikke fordi deres arbejde mangler værdi, men fordi de mangler selvtillid, frygter at højere priser vil skræmme købere væk, eller blot kopierer de laveste priser de ser på deres platform uden at forstå hvorfor de produkter er prissat sådan.\n\nUnderprissætning skaber en ond cirkel der er svær at undslippe. Lave priser tiltrækker prisfølsomme købere der efterlader færre anmeldelser og viser mindre loyalitet. Lave marginer betyder at du ikke har råd til annoncering, ikke kan investere i bedre værktøjer og ikke kan retfærdiggøre den tid der bruges på at skabe kvalitetsindhold. Frustrationen ved at arbejde hårdt for minimalt afkast fører mange talentfulde sælgere til at opgive før deres virksomhed får trækkraft — ikke fordi efterspørgslen efter deres produkter var lav, men fordi deres prissætning gjorde virksomheden uholdbar.\n\nOverprissætning bærer sine egne risici, selvom de er mindre alvorlige end de fleste sælgere frygter. Et produkt der er prissat for højt genererer simpelthen færre salg, hvilket giver dig et tydeligt signal om at justere nedad. Dataen er øjeblikkelig og handlingsbar. Underprissætning kan derimod fortsætte i måneder eller år fordi produktet stadig sælger — du indser bare aldrig hvor meget omsætning du efterlader fordi du aldrig testede en højere pris.\n\nDen rigtige pris for dine pædagogiske printables er ikke ét enkelt tal men et interval bestemt af dine omkostninger, dit marked, din produktkvalitet og den platform du sælger på. Denne guide gennemgår en systematisk prissætningsramme: undersøgelse af dit konkurrencelandskab, beregning af dine sande omkostninger, valg af den rigtige prissætningsmodel, anvendelse af prispsykologi, tilpasning til forskellige platforme og pristest over tid.\n\nPrissætning er heller ikke en engangsbeslutning. Markeder skifter, konkurrence ændres, platformgebyrer justeres og din egen produktkvalitet forbedres over tid. De sælgere der tjener mest fra deres printable-virksomheder er ikke dem der fandt den perfekte pris på dag ét — det er dem der byggede en vane med systematisk prisevaluering og -justering baseret på rigtige data frem for antagelser.',
+  introduction: 'Prissætningsfejl er de dyreste fejl en printable-sælger kan lave, og de mest almindelige. Flertallet af nye sælgere underprissætter deres produkter dramatisk — ikke fordi deres arbejde mangler værdi, men fordi de mangler selvtillid, frygter at højere priser vil skræmme købere væk, eller blot kopierer de laveste priser de ser på deres platform uden at forstå hvorfor de produkter er prissat sådan.\n\nUnderprissætning generator en ond cirkel der er svær at undslippe. Lave priser tiltrækker prisfølsomme købere der efterlader færre anmeldelser og viser mindre loyalitet. Lave marginer betyder at du ikke har råd til annoncering, ikke kan investere i bedre værktøjer og ikke kan retfærdiggøre den tid der bruges på at skabe kvalitetsindhold. Frustrationen ved at arbejde hårdt for minimalt afkast fører mange talentfulde sælgere til at opgive før deres virksomhed får trækkraft — ikke fordi efterspørgslen efter deres produkter var lav, men fordi deres prissætning gjorde virksomheden uholdbar.\n\nOverprissætning bærer sine egne risici, selvom de er mindre alvorlige end de fleste sælgere frygter. Et produkt der er prissat for højt genererer simpelthen færre salg, hvilket giver dig et tydeligt signal om at justere nedad. Dataen er øjeblikkelig og handlingsbar. Underprissætning kan derimod fortsætte i måneder eller år fordi produktet stadig sælger — du indser bare aldrig hvor meget omsætning du efterlader fordi du aldrig testede en højere pris.\n\nDen rigtige pris for dine pædagogiske printables er ikke ét enkelt tal men et interval bestemt af dine omkostninger, dit marked, din produktkvalitet og den platform du sælger på. Denne guide gennemgår en systematisk prissætningsramme: undersøgelse af dit konkurrencelandskab, beregning af dine sande omkostninger, valg af den rigtige prissætningsmodel, anvendelse af prispsykologi, tilpasning til forskellige platforme og pristest over tid.\n\nPrissætning er heller ikke en engangsbeslutning. Markeder skifter, konkurrence ændres, platformgebyrer justeres og din egen produktkvalitet forbedres over tid. De sælgere der tjener mest fra deres printable-virksomheder er ikke dem der fandt den perfekte pris på dag ét — det er dem der byggede en vane med systematisk prisevaluering og -justering baseret på rigtige data frem for antagelser.',
 
   tutorial: [
     {
@@ -48,7 +48,7 @@ const content: GuideContent = {
     },
     {
       heading: 'Brug prispsykologi til at øge konverteringer',
-      content: 'Prispsykologi udnytter veldokumenterede mønstre i hvordan mennesker opfatter og reagerer på priser. Disse teknikker manipulerer ikke købere — de præsenterer din eksisterende værdi på måder der stemmer overens med naturlige beslutningsmønstre.\n\nAnkring er den mest kraftfulde prispsykologiteknik for printable-sælgere. Ankring fungerer ved at etablere en referencepris der gør din faktiske pris føles som et tilbud. I din produktlistning, vis den samlede værdi af alle komponenter før du viser pakkeprisen: "Inkluderer 5 arbejdsarkpakker til en værdi af $50 ved separat køb — pakkepris: $35." Køberen evaluerer $35 mod $50 ankeret. Enhver pakkelistning bør vise ankerprisen fremtrædende.\n\nCharm-prissætning bruger priser der slutter på 7 eller 9 frem for runde tal. Et $9,97 produkt outseller et $10 produkt trods en triviel prisforskel. Prissæt dine individuelle produkter ved $7,97, $9,97 eller $12,97. For premiumprodukter og pakker over $25 kan runde tal faktisk præstere bedre fordi de signalerer kvalitet.\n\nGradueret prissætning skaber en sammenligningsramme der guider købere mod din foretrukne mulighed. Tilbyd tre versioner af et produkt: en basal version til $7, en standardversion til $12 og en premiumversion til $19. De fleste købere vælger det midterste niveau fordi det føles som et balanceret valg. Design dine niveauer så den midterste mulighed har den profitmargin du ønsker.\n\nLokkefugle-effekten bruger en strategisk mindre attraktiv mulighed til at gøre en anden mulighed mere tiltalende.\n\nSæsonbetonet og tidsbegrænset framing skaber urgency uden vildledende rabatter. "Skolestartspris: $8,97 (normal $11,97)" under august og september giver købere en ægte grund til at købe nu.',
+      content: 'Prispsykologi udnytter veldokumenterede mønstre i hvordan mennesker opfatter og reagerer på priser. Disse teknikker manipulerer ikke købere — de præsenterer din eksisterende værdi på måder der stemmer overens med naturlige beslutningsmønstre.\n\nAnkring er den mest kraftfulde prispsykologiteknik for printable-sælgere. Ankring fungerer ved at etablere en referencepris der gør din faktiske pris føles som et tilbud. I din produktlistning, vis den samlede værdi af alle komponenter før du viser pakkeprisen: "Inkluderer 5 arbejdsarkpakker til en værdi af $50 ved separat køb — pakkepris: $35." Køberen evaluerer $35 mod $50 ankeret. Enhver pakkelistning bør vise ankerprisen fremtrædende.\n\nCharm-prissætning bruger priser der slutter på 7 eller 9 frem for runde tal. Et $9,97 produkt outseller et $10 produkt trods en triviel prisforskel. Prissæt dine individuelle produkter ved $7,97, $9,97 eller $12,97. For premiumprodukter og pakker over $25 kan runde tal faktisk præstere bedre fordi de signalerer kvalitet.\n\nGradueret prissætning generator en sammenligningsramme der guider købere mod din foretrukne mulighed. Tilbyd tre versioner af et produkt: en basal version til $7, en standardversion til $12 og en premiumversion til $19. De fleste købere vælger det midterste niveau fordi det føles som et balanceret valg. Design dine niveauer så den midterste mulighed har den profitmargin du ønsker.\n\nLokkefugle-effekten bruger en strategisk mindre attraktiv mulighed til at gøre en anden mulighed mere tiltalende.\n\nSæsonbetonet og tidsbegrænset framing generator urgency uden vildledende rabatter. "Skolestartspris: $8,97 (normal $11,97)" under august og september giver købere en ægte grund til at købe nu.',
     },
     {
       heading: 'Sæt priser for forskellige produkttyper',
@@ -101,7 +101,7 @@ const content: GuideContent = {
     },
     {
       heading: 'Eksempel: En multi-platform sælger der optimerer prissætning på tværs af kanaler',
-      content: 'En printable-sælger lister sine 15 arbejdsarkprodukter på Etsy, Amazon KDP og Gumroad. Hun bruger oprindeligt identisk prissætning ($9,97) på alle platforme. Efter at have analyseret sin nettoomsætning per salg opdager hun betydelige forskelle: Etsy giver $8,47 per salg, Amazon KDP giver $5,98, og Gumroad giver $8,77. Hun justerer sin strategi platform for platform. På Amazon KDP hæver hun priserne til $11,97 for at kompensere for den lavere royaltysats. På Gumroad skaber hun eksklusive "direkte køb" versioner der inkluderer en bonus planlægningsguide, prissat til $12,97. På Etsy opretholder hun $9,97 men forbedrer sin værdikommunikation med detaljeret prisankring i listningsbeskrivelserne. Efter tre måneder med platformspecifik prissætning stiger hendes samlede månedlige omsætning med 28% med sammenlignelige samlede enhedssalg. Forbedringen kommer udelukkende fra bedre prisafstemning med hver platforms gebyrstruktur og køberforventninger.',
+      content: 'En printable-sælger lister sine 15 arbejdsarkprodukter på Etsy, Amazon KDP og Gumroad. Hun bruger oprindeligt identisk prissætning ($9,97) på alle platforme. Efter at have analyseret sin nettoomsætning per salg opdager hun betydelige forskelle: Etsy giver $8,47 per salg, Amazon KDP giver $5,98, og Gumroad giver $8,77. Hun justerer sin strategi platform for platform. På Amazon KDP hæver hun priserne til $11,97 for at kompensere for den lavere royaltysats. På Gumroad generator hun eksklusive "direkte køb" versioner der inkluderer en bonus planlægningsguide, prissat til $12,97. På Etsy opretholder hun $9,97 men forbedrer sin værdikommunikation med detaljeret prisankring i listningsbeskrivelserne. Efter tre måneder med platformspecifik prissætning stiger hendes samlede månedlige omsætning med 28% med sammenlignelige samlede enhedssalg. Forbedringen kommer udelukkende fra bedre prisafstemning med hver platforms gebyrstruktur og køberforventninger.',
     },
   ],
 
@@ -144,7 +144,7 @@ const content: GuideContent = {
     },
     {
       slug: 'skab-arbejdsark-pakker',
-      title: 'Sådan skaber du arbejdsarkpakker der sælger',
+      title: 'Sådan generator du arbejdsarkpakker der sælger',
       description: 'Pakkeskabelsesstrategier inklusive pakketyper, værdi-stabling og pakkeprissætningspsykologi til maksimal omsætning per transaktion.',
     },
     {
@@ -155,16 +155,16 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'skab-arbejdsark-pakker', anchorText: 'Sådan skaber du arbejdsarkpakker der sælger' },
-    { pageType: 'guide', slug: 'skab-printbar-produktlinje', anchorText: 'Sådan skaber du en printbar produktlinje' },
+    { pageType: 'guide', slug: 'skab-arbejdsark-pakker', anchorText: 'Sådan generator du arbejdsarkpakker der sælger' },
+    { pageType: 'guide', slug: 'skab-printbar-produktlinje', anchorText: 'Sådan generator du en printbar produktlinje' },
     { pageType: 'guide', slug: 'nichevalg-printables', anchorText: 'Nichevalgsguide til printable-virksomheder' },
     { pageType: 'guide', slug: 'undersoeg-profitable-nicher', anchorText: 'Sådan undersøger du profitable printable-nicher' },
     { pageType: 'guide', slug: 'etsy-printables-prissaetning', anchorText: 'Sådan prissætter du dine Etsy printable-arbejdsark' },
     { pageType: 'guide', slug: 'saelg-matematik-arbejdsark-etsy', anchorText: 'Sådan sælger du matematikarbejdsark på Etsy' },
     { pageType: 'guide', slug: 'start-etsy-printables-butik', anchorText: 'Sådan starter du en Etsy printable-butik fra bunden' },
-    { pageType: 'guide', slug: 'skab-additions-arbejdsark', anchorText: 'Sådan skaber du additionsarbejdsark' },
-    { pageType: 'guide', slug: 'skab-ordsoegning-puslespil', anchorText: 'Sådan skaber du ordsoegning med billeder' },
-    { pageType: 'guide', slug: 'skab-farvelaegningssider', anchorText: 'Sådan skaber du farvelægningssider fra tematiske billeder' },
+    { pageType: 'guide', slug: 'skab-additions-arbejdsark', anchorText: 'Sådan generator du additionsarbejdsark' },
+    { pageType: 'guide', slug: 'skab-ordsoegning-puslespil', anchorText: 'Sådan generator du ordsoegning med billeder' },
+    { pageType: 'guide', slug: 'skab-farvelaegningssider', anchorText: 'Sådan generator du farvelægningssider fra tematiske billeder' },
     { pageType: 'start', slug: 'komplet-guide-printbar-forretning', anchorText: 'Komplet guide til at starte en printable-virksomhed' },
     { pageType: 'start', slug: 'kommerciel-licens-guide', anchorText: 'Guide til kommerciel licens' },
   ],
@@ -173,7 +173,7 @@ const content: GuideContent = {
     {
       appId: 'math-worksheet',
       title: 'Matematik arbejdsark-generator',
-      description: 'Skaber professionelle matematikarbejdsark på minutter frem for timer. At forstå produktionshastighed er essentielt for nøjagtige omkostning-per-produkt beregninger der informerer din prissætningsstrategi.',
+      description: 'Generator professionelle matematikarbejdsark på minutter frem for timer. At forstå produktionshastighed er essentielt for nøjagtige omkostning-per-produkt beregninger der informerer din prissætningsstrategi.',
     },
     {
       appId: 'addition',
@@ -183,7 +183,7 @@ const content: GuideContent = {
     {
       appId: 'wordsearch',
       title: 'Ordsoegning arbejdsark-generator',
-      description: 'Skaber ordsoegning med bred prisvariation på tværs af platforme. Intervallet fra basale tekst-kun puslespil til premium tematiske versioner demonstrerer hvordan funktioner og kvalitet retfærdiggør forskellige prispunkter.',
+      description: 'Generator ordsoegning med bred prisvariation på tværs af platforme. Intervallet fra basale tekst-kun puslespil til premium tematiske versioner demonstrerer hvordan funktioner og kvalitet retfærdiggør forskellige prispunkter.',
     },
     {
       appId: 'coloring',
@@ -200,7 +200,7 @@ const content: GuideContent = {
       { src: '/samples/danish/math%20worksheet/Matematikopgave%203.webp', alt: 'Matematikopgave — dansk eksempel 3', caption: 'Matematikopgave eksempel 3' },
     ],
     youtubeId: '-JIawojGNr0',
-    videoTitle: 'Sådan skaber du matematikarbejdsark hurtigt — Effektiv produktion til bedre profitmarginer',
+    videoTitle: 'Sådan generator du matematikarbejdsark hurtigt — Effektiv produktion til bedre profitmarginer',
   },
 
   themeImages: [

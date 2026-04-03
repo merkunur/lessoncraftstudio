@@ -7,7 +7,7 @@ const content: GuideContent = {
       'bilddiagram arbetsblad generator',
       'skapa räkne- och diagramarbetsblad',
       'utskriftsklara bilddiagram arbetsblad att sälja',
-      'stapeldiagram räkningsarbetsblad skapare',
+      'stapeldiagram räkningsarbetsblad generator',
     ],
     lsiKeywords: [
       'utspridd bildrutnät räkningsaktivitet',
@@ -15,7 +15,7 @@ const content: GuideContent = {
       'dubbelarbetsyta datarepresentationsverktyg',
       'sälja diagramarbetsblad på Etsy',
       'Amazon KDP datakompetens arbetsböcker',
-      'kommersiell licens bilddiagram-skapare',
+      'kommersiell licens bilddiagram-generator',
     ],
     titleTag: 'Räkneblad att sälja på Etsy | LessonCraftStudio',
     metaDescription: 'Hur du skapar räkningsarbetsblad med bilddiagram, automatiskt facit och 104 teman. Steg-för-steg-guide för att sälja printables på Etsy, KDP och Gumroad.',
@@ -24,15 +24,15 @@ const content: GuideContent = {
   hero: {
     title: 'Hur du skapar räkne- och diagramarbetsblad',
     tagline: 'En steg-för-steg-guide för att skapa bilddiagram-arbetsblad med utspridda bildrutnät, autogenererade facit och stapeldiagram du kan sälja på Etsy, Amazon KDP och Gumroad',
-    description: 'Räkne- och diagramarbetsblad lär ut två grundläggande mattefärdigheter i en enda aktivitet: datainsamling (räkna utspridda bilder) och datarepresentation (fylla i ett stapeldiagram). Detta dubbelafärdighetsformat är en produktkatalogsstandard i tidiga grundskolemarknader världen över, vilket skapar stadig helårsefterfrågan. Denna guide leder dig genom hela skapandeprocessen med Diagram Räkning Arbetsblad-skaparen — från att välja bilder och generera det utspridda rutnätet till att granska det autogenererade facit och exportera tryckfärdiga filer.',
+    description: 'Räkne- och diagramarbetsblad lär ut två grundläggande mattefärdigheter i en enda aktivitet: datainsamling (räkna utspridda bilder) och datarepresentation (fylla i ett stapeldiagram). Detta dubbelafärdighetsformat är en produktkatalogsstandard i tidiga grundskolemarknader världen över, vilket skapar stadig helårsefterfrågan. Denna guide leder dig genom hela skapandeprocessen med Diagram Räkning Arbetsblad-generatorn — från att välja bilder och generera det utspridda rutnätet till att granska det autogenererade facit och exportera tryckfärdiga filer.',
   },
 
-  introduction: 'Bilddiagram är en av de tidigaste datarepresentationsfärdigheterna barn lär sig. Från förskoleklass övar användare på att räkna objekt och registrera sina resultat i enkla diagram — en färdighet som förstärks genom årskurs 2 och vidare. Det fleråriga produktkatalogssfönstret skapar stadig marknadsplatsefterfrågan.\n\nVad som gör räkne- och diagramarbetsblad särskilt starka som printable-produkt är deras dubbelfärdighetskaraktär. Varje arbetsblad kräver att användare räknar utspridda bilder (datainsamling) och sedan fyller i ett stapeldiagram (datarepresentation). säljare värderar aktiviteter som täcker två lärandemål simultant. Föräldrar och handledare uppskattar det visuella, hands-on-formatet.\n\nDiagram Räkning Arbetsblad-skaparen hanterar den tekniska komplexiteten. Den genererar ett 4×5 utspritt bildrutnät med 20 ikoner från 6 bildtyper, var och en förekommande 1–5 gånger i en slumpmässig fördelning som gör varje generering unik. Nedanför rutnätet ger ett strukturerat 6-kolumns × 5-raders stapeldiagram användarna en tydlig plats. Appen producerar simultant ett facit på en separat arbetsyteflik med gulmarkerade celler som visar korrekta antal — inget manuellt räknande, inget separat skapandesteg.\n\nDu fokuserar på produktstrategi — vilka teman, hur du paketerar, vilka marknadsplatser — medan generatorn hanterar layout, fördelningslogik, facitnoggrannhet och tryckformatering. Varje funktion som nämns är tillgänglig i den gratis provversionen med vattenstämpel.',
+  introduction: 'Bilddiagram är en av de tidigaste datarepresentationsfärdigheterna barn lär sig. Från förskoleklass övar användare på att räkna objekt och registrera sina resultat i enkla diagram — en färdighet som förstärks genom årskurs 2 och vidare. Det fleråriga produktkatalogssfönstret skapar stadig marknadsplatsefterfrågan.\n\nVad som gör räkne- och diagramarbetsblad särskilt starka som printable-produkt är deras dubbelfärdighetskaraktär. Varje arbetsblad kräver att användare räknar utspridda bilder (datainsamling) och sedan fyller i ett stapeldiagram (datarepresentation). säljare värderar aktiviteter som täcker två lärandemål simultant. Föräldrar och handledare uppskattar det visuella, hands-on-formatet.\n\nDiagram Räkning Arbetsblad-generatorn hanterar den tekniska komplexiteten. Den genererar ett 4×5 utspritt bildrutnät med 20 ikoner från 6 bildtyper, var och en förekommande 1–5 gånger i en slumpmässig fördelning som gör varje generering unik. Nedanför rutnätet ger ett strukturerat 6-kolumns × 5-raders stapeldiagram användarna en tydlig plats. Appen producerar simultant ett facit på en separat arbetsyteflik med gulmarkerade celler som visar korrekta antal — inget manuellt räknande, inget separat skapandesteg.\n\nDu fokuserar på produktstrategi — vilka teman, hur du paketerar, vilka marknadsplatser — medan generatorn hanterar layout, fördelningslogik, facitnoggrannhet och tryckformatering. Varje funktion som nämns är tillgänglig i den gratis provversionen med vattenstämpel.',
 
   tutorial: [
     {
-      heading: 'Öppna Diagram Räkning Arbetsblad-skaparen',
-      content: 'Navigera till Diagram Räkning Arbetsblad-skaparen och klicka starta-knappen. Verktyget laddas omedelbart med en inställningssidopanel till vänster och en dubbelfliks-arbetsyta till höger — en flik för arbetsbladet, en för facit. Inget konto, ingen programvarunedladdning krävs.\n\nDubbelfliks-arbetsytan är en utmärkande funktion. Till skillnad från enkelarbetsyte-verktyg producerar Diagram Räkning-skaparen simultant både ett arbetsblad och ett lärarfacit i samma session. Du arbetar primärt på Arbetsblad-fliken under skapande och byter sedan till Facit-fliken för att granska lösningen innan export.\n\nBekanta dig med sidopanelens sektioner: Sidinställning för dimensioner och dekorationer, Bildbibliotek för att välja dina 6 bildtyper, och Textverktyg för anpassade titlar och instruktioner.',
+      heading: 'Öppna Diagram Räkning Arbetsblad-generatorn',
+      content: 'Navigera till Diagram Räkning Arbetsblad-generatorn och klicka starta-knappen. Verktyget laddas omedelbart med en inställningssidopanel till vänster och en dubbelfliks-arbetsyta till höger — en flik för arbetsbladet, en för facit. Inget konto, ingen programvarunedladdning krävs.\n\nDubbelfliks-arbetsytan är en utmärkande funktion. Till skillnad från enkelarbetsyte-verktyg producerar Diagram Räkning-generatorn simultant både ett arbetsblad och ett lärarfacit i samma session. Du arbetar primärt på Arbetsblad-fliken under skapande och byter sedan till Facit-fliken för att granska lösningen innan export.\n\nBekanta dig med sidopanelens sektioner: Sidinställning för dimensioner och dekorationer, Bildbibliotek för att välja dina 6 bildtyper, och Textverktyg för anpassade titlar och instruktioner.',
     },
     {
       heading: 'Ställ in sidlayout och bakgrund',
@@ -40,7 +40,7 @@ const content: GuideContent = {
     },
     {
       heading: 'Välj din bildkälla',
-      content: 'Diagram Räkning-skaparen erbjuder två arbetsflöden för att välja de 6 bildtyper som visas.\n\nAutomatiskt läge: Välj ett tema som djur, mat eller fordon. Appen plockar slumpmässigt 6 bilder. Snabbaste arbetsflödet för stora paket — med 104 temasamlingar och 3 100+ illustrationer.\n\nManuellt läge: Bläddra bildbiblioteket efter tema eller sök efter nyckelord, välj sedan exakt 6 bilder. Valda bilder visas i en förhandsgranskningsremsa. Manuellt val ger exakt kontroll — användbart för produktkatalogsanpassade arbetsblad.\n\nDu kan också ladda upp egna PNG-, JPG- eller GIF-bilder för ämnesspecifika bilddiagram, varumärkt innehåll eller nischer utanför de 104 inbyggda samlingarna.\n\nBåda lägena garanterar exakt 6 bildtyper per arbetsblad, avgörande för det 6-kolumns stapeldiagramformatet.',
+      content: 'Diagram Räkning-generatorn erbjuder två arbetsflöden för att välja de 6 bildtyper som visas.\n\nAutomatiskt läge: Välj ett tema som djur, mat eller fordon. Appen plockar slumpmässigt 6 bilder. Snabbaste arbetsflödet för stora paket — med 104 temasamlingar och 3 100+ illustrationer.\n\nManuellt läge: Bläddra bildbiblioteket efter tema eller sök efter nyckelord, välj sedan exakt 6 bilder. Valda bilder visas i en förhandsgranskningsremsa. Manuellt val ger exakt kontroll — användbart för produktkatalogsanpassade arbetsblad.\n\nDu kan också ladda upp egna PNG-, JPG- eller GIF-bilder för ämnesspecifika bilddiagram, varumärkt innehåll eller nischer utanför de 104 inbyggda samlingarna.\n\nBåda lägena garanterar exakt 6 bildtyper per arbetsblad, avgörande för det 6-kolumns stapeldiagramformatet.',
     },
     {
       heading: 'Generera bilddiagram-arbetsbladet',
@@ -60,7 +60,7 @@ const content: GuideContent = {
     },
     {
       heading: 'Ladda ner alla fyra filer',
-      content: 'Diagram Räkning-skaparen producerar fyra filer per session. Arbetsblad-fliken erbjuder arbetsblad JPEG och arbetsblad PDF. Facit-fliken erbjuder facit JPEG och facit PDF. Alla filer vid 300 DPI.\n\nVäxla gråskala innan nedladdning för bläcksnåla versioner idealiska för volymutskrift och Amazon KDP svartvita interiörer. Gråskaleväxeln gäller för den aktiva fliken.\n\nFör marknadsplatslistningar, exportera JPEG för förhandsgranskningsbilder och PDF för levererbara produktfiler. Bygg ett komplett produktpaket genom att generera flera arbetsblad med samma eller olika teman. Varje klick producerar en ny slumpmässig fördelning.\n\nDen gratis provversionen med vattenstämpel producerar fullt funktionella exporter. Kommersiell licens tar bort vattenstämpeln.',
+      content: 'Diagram Räkning-generatorn producerar fyra filer per session. Arbetsblad-fliken erbjuder arbetsblad JPEG och arbetsblad PDF. Facit-fliken erbjuder facit JPEG och facit PDF. Alla filer vid 300 DPI.\n\nVäxla gråskala innan nedladdning för bläcksnåla versioner idealiska för volymutskrift och Amazon KDP svartvita interiörer. Gråskaleväxeln gäller för den aktiva fliken.\n\nFör marknadsplatslistningar, exportera JPEG för förhandsgranskningsbilder och PDF för levererbara produktfiler. Bygg ett komplett produktpaket genom att generera flera arbetsblad med samma eller olika teman. Varje klick producerar en ny slumpmässig fördelning.\n\nDen gratis provversionen med vattenstämpel producerar fullt funktionella exporter. Kommersiell licens tar bort vattenstämpeln.',
     },
   ],
 

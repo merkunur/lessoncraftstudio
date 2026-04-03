@@ -24,10 +24,10 @@ const content: GuideContent = {
   hero: {
     title: 'Hur du skapar mönsterigenkänningsarbetsblad',
     tagline: 'En steg-för-steg-guide för att skapa tematiska, tryckfärdiga mönsterigenkänningsarbetsblad du kan sälja på Etsy, Amazon KDP och Gumroad',
-    description: 'Mönsterigenkänning är en av de mest grundläggande förmattematiska färdigheterna barn utvecklar, och arbetsblad som lär detta är i konstant efterfrågan. Denna guide leder dig genom hela skapandeprocessen med Mönsterarbetsblad-skaparen — från att välja mönstertyper och frågeformat till att exportera tryckfärdiga PDF:er med automatiska facit. Med 9 distinkta mönstertyper som sträcker sig från enkla AB-sekvenser till komplexa ABCD-mönster kan du skapa produkter för alla åldrar från förskola genom tidig grundskola.',
+    description: 'Mönsterigenkänning är en av de mest grundläggande förmattematiska färdigheterna barn utvecklar, och arbetsblad som lär detta är i konstant efterfrågan. Denna guide leder dig genom hela skapandeprocessen med Mönsterarbetsblad-generatorn — från att välja mönstertyper och frågeformat till att exportera tryckfärdiga PDF:er med automatiska facit. Med 9 distinkta mönstertyper som sträcker sig från enkla AB-sekvenser till komplexa ABCD-mönster kan du skapa produkter för alla åldrar från förskola genom tidig grundskola.',
   },
 
-  introduction: 'Mönsterigenkänning är den kognitiva färdigheten som underbygger allt matematiskt tänkande. Innan barn lär sig addera, subtrahera eller räkna med syfte lär de sig identifiera mönster — vad kommer härnäst, vad saknas, vad upprepas. Denna färdighet överförs direkt till algebra, talsekvenser, geometri och logiskt resonerande. Den grundläggande betydelsen skapar stadig efterfrågan för mönsterarbetsblad från förskola genom årskurs 2.\n\nVad som gör mönsterarbetsblad särskilt starka som produkt är deras universella visuella natur. Till skillnad från arbetsblad som beror på språkspecifikt innehåll använder mönsterigenkänning bilder exklusivt. Ett barn i Tyskland arbetar genom samma AB-mönster av katter och hundar som ett barn i Brasilien. En enda produkt betjänar köpare i alla marknader utan översättning.\n\nMönsterarbetsblad-skaparen hanterar komplexiteten. Den stöder 9 mönstertyper från enkla 2-bilds AB-sekvenser till avancerade 4-bilds ABCD-mönster, erbjuder två frågeformat (tom ruta och flerval), randomiserar tomma positioner och startelement, och genererar automatiska facit. Du fokuserar på produktstrategi medan generatorn hanterar layout, mönsternoggrannhet och tryckformatering.\n\nVarje funktion som nämns i denna guide är tillgänglig i den gratis provversionen med vattenstämpel.',
+  introduction: 'Mönsterigenkänning är den kognitiva färdigheten som underbygger allt matematiskt tänkande. Innan barn lär sig addera, subtrahera eller räkna med syfte lär de sig identifiera mönster — vad kommer härnäst, vad saknas, vad upprepas. Denna färdighet överförs direkt till algebra, talsekvenser, geometri och logiskt resonerande. Den grundläggande betydelsen skapar stadig efterfrågan för mönsterarbetsblad från förskola genom årskurs 2.\n\nVad som gör mönsterarbetsblad särskilt starka som produkt är deras universella visuella natur. Till skillnad från arbetsblad som beror på språkspecifikt innehåll använder mönsterigenkänning bilder exklusivt. Ett barn i Tyskland arbetar genom samma AB-mönster av katter och hundar som ett barn i Brasilien. En enda produkt betjänar köpare i alla marknader utan översättning.\n\nMönsterarbetsblad-generatorn hanterar komplexiteten. Den stöder 9 mönstertyper från enkla 2-bilds AB-sekvenser till avancerade 4-bilds ABCD-mönster, erbjuder två frågeformat (tom ruta och flerval), randomiserar tomma positioner och startelement, och genererar automatiska facit. Du fokuserar på produktstrategi medan generatorn hanterar layout, mönsternoggrannhet och tryckformatering.\n\nVarje funktion som nämns i denna guide är tillgänglig i den gratis provversionen med vattenstämpel.',
 
   tutorial: [
     {
@@ -107,7 +107,7 @@ const content: GuideContent = {
 
   faq: [
     {
-      question: 'Vilka mönstertyper stöder Mönsterarbetsblad-skaparen?',
+      question: 'Vilka mönstertyper stöder Mönsterarbetsblad-generatorn?',
       answer: 'Generatorn stöder 9 mönstertyper. 2-bilds mönster: AB, AAB, ABB och AABB. 3-bilds mönster: ABC, ABBC, AABC och ABCC. 4-bilds mönster: ABCD. Varje typ använder olika antal unika bilder och skapar olika upprepande sekvenser.',
     },
     {
@@ -124,7 +124,7 @@ const content: GuideContent = {
     },
     {
       question: 'Kan jag tilldela olika teman till olika pussel på samma sida?',
-      answer: 'Ja. Mönsterarbetsblad-skaparen stöder per-pussel tematilldelning. Varje övning kan använda ett annorlunda tema, eller ett enda tema kan appliceras på alla övningar.',
+      answer: 'Ja. Mönsterarbetsblad-generatorn stöder per-pussel tematilldelning. Varje övning kan använda ett annorlunda tema, eller ett enda tema kan appliceras på alla övningar.',
     },
     {
       question: 'Kan jag sälja mönsterarbetsblad på Etsy och Amazon KDP?',

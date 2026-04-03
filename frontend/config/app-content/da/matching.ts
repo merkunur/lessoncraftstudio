@@ -4,9 +4,9 @@ const content: AppContent = {
   seo: {
     primaryKeyword: 'matchnings arbejdsark generator',
     secondaryKeywords: [
-      'printbar matchningsaktivitet skaber til Etsy-sælgere',
+      'printbar matchningsaktivitet generator til Etsy-sælgere',
       'træk-en-streg matchnings arbejdsark generator til KDP',
-      'billedmatchnings arbejdsark skaber kommerciel licens',
+      'billedmatchnings arbejdsark generator kommerciel licens',
       'sælg matchnings arbejdsark på Gumroad',
     ],
     lsiKeywords: [
@@ -63,12 +63,12 @@ const content: AppContent = {
       {
         title: 'Fire matchningstilstande: Begyndelsesbogstav, Billede+Ord, Billede/Ord Blandet og Tilpasset Ord',
         description:
-          'Én generator dækker fire distinkte matchningsaktiviteter. Begyndelsesbogstav-tilstanden placerer billeder til venstre og deres første bogstaver til højre — med tre undertilstande for tilfældige temaer, tilfældige billeder fra et valgt tema eller manuelt billedvalg. Billede+Ord-tilstanden viser mærkede billedpar på begge sider til ordforrådsforstærkning. Billede/Ord Blandet-tilstanden bruger dropdown-vælgere per række, så hver side kan vise et billede eller et ord uafhængigt, hvilket skaber varieret sværhedsgrad inden for et enkelt arbejdsark. Tilpasset Ord-tilstanden parrer billeder med dine egne indtastede ord til staveøvelse, ordforrådsquiz eller sprogøvelser. Hver tilstand producerer en anderledes kognitiv udfordring fra det samme billedbibliotek.',
+          'Én generator dækker fire distinkte matchningsaktiviteter. Begyndelsesbogstav-tilstanden placerer billeder til venstre og deres første bogstaver til højre — med tre undertilstande for tilfældige temaer, tilfældige billeder fra et valgt tema eller manuelt billedvalg. Billede+Ord-tilstanden viser mærkede billedpar på begge sider til ordforrådsforstærkning. Billede/Ord Blandet-tilstanden bruger dropdown-vælgere per række, så hver side kan vise et billede eller et ord uafhængigt, hvilket generator varieret sværhedsgrad inden for et enkelt arbejdsark. Tilpasset Ord-tilstanden parrer billeder med dine egne indtastede ord til staveøvelse, ordforrådsquiz eller sprogøvelser. Hver tilstand producerer en anderledes kognitiv udfordring fra det samme billedbibliotek.',
       },
       {
         title: 'Automatisk genereret facit med forbindelseslinjer mellem matchede par',
         description:
-          'Hvert matchnings arbejdsark genererer automatisk en ledsagende facitliste på en separat lærredsfane. Facit genskaber den præcise arbejdsarkslayout og tilføjer horisontale forbindelseslinjer (#555 farve, stregbredde 2) tegnet mellem hvert korrekt par. Ingen manuel linjetegning, ingen separat filoprettelse — facit er altid synkroniseret med arbejdsarket. Denne dobbeltlærred-tilgang sparer betydelig produktionstid for sælgere, der opretter matchningsaktivitetspakker, hvor hvert arbejdsark har brug for sin egen facitliste. Download facit som answer_key.jpeg eller answer_key.pdf ved siden af arbejdsarket.',
+          'Hvert matchnings arbejdsark genererer automatisk en ledsagende facitliste på en separat lærredsfane. Facit gengenerator den præcise arbejdsarkslayout og tilføjer horisontale forbindelseslinjer (#555 farve, stregbredde 2) tegnet mellem hvert korrekt par. Ingen manuel linjetegning, ingen separat filoprettelse — facit er altid synkroniseret med arbejdsarket. Denne dobbeltlærred-tilgang sparer betydelig produktionstid for sælgere, der opretter matchningsaktivitetspakker, hvor hvert arbejdsark har brug for sin egen facitliste. Download facit som answer_key.jpeg eller answer_key.pdf ved siden af arbejdsarket.',
       },
       {
         title: 'Konfigurerbart parantal med 4, 5 eller 6 matchningspar per arbejdsark',
@@ -133,7 +133,7 @@ const content: AppContent = {
       {
         title: 'Sæsonbetonede matchningsaktivitets-samlinger',
         description:
-          'De 104 tematiske billedsamlinger dækker enhver sæson- og højtidslejlighed — jul, halloween, påske, valentinsdag, skolestart, sommerferie og flere. Opret tidsbegrænsede matchnings arbejdsarkssamlinger, der falder sammen med topindkøbsperioder. Udgiv halloween-matchningspakker i september, julesamlinger i oktober og valentinsdag-pakker i januar. Inkluder alle fire matchningstilstande i hvert sæsonsæt for maksimal værdi. Sæsonprodukter motiverer højere priser under deres topvinduer og skaber naturlige grunde til genkøb.',
+          'De 104 tematiske billedsamlinger dækker enhver sæson- og højtidslejlighed — jul, halloween, påske, valentinsdag, skolestart, sommerferie og flere. Opret tidsbegrænsede matchnings arbejdsarkssamlinger, der falder sammen med topindkøbsperioder. Udgiv halloween-matchningspakker i september, julesamlinger i oktober og valentinsdag-pakker i januar. Inkluder alle fire matchningstilstande i hvert sæsonsæt for maksimal værdi. Sæsonprodukter motiverer højere priser under deres topvinduer og generator naturlige grunde til genkøb.',
         platform: 'Etsy / Amazon KDP / Gumroad (sæsonbetonet)',
       },
     ],
@@ -143,7 +143,7 @@ const content: AppContent = {
     {
       question: 'Hvad er de fire matchningstilstande, og hvordan adskiller de sig?',
       answer:
-        'Generatoren tilbyder fire distinkte tilstande. Begyndelsesbogstav-tilstanden placerer billeder til venstre og deres første bogstaver til højre — brugerne matcher hvert billede med bogstavet, det begynder med. Billede+Ord-tilstanden viser mærkede billedpar på begge sider til ordforrådsmatchning. Billede/Ord Blandet-tilstanden bruger dropdown-vælgere per række, så hver side kan vise et billede eller et ord uafhængigt, hvilket skaber varieret sværhedsgrad inden for et enkelt arbejdsark. Tilpasset Ord-tilstanden parrer billeder med dine egne indtastede ord til stavning, ordforråd eller sprogøvelser. Hver tilstand producerer en anderledes læringsaktivitet fra det samme billedbibliotek.',
+        'Generatoren tilbyder fire distinkte tilstande. Begyndelsesbogstav-tilstanden placerer billeder til venstre og deres første bogstaver til højre — brugerne matcher hvert billede med bogstavet, det begynder med. Billede+Ord-tilstanden viser mærkede billedpar på begge sider til ordforrådsmatchning. Billede/Ord Blandet-tilstanden bruger dropdown-vælgere per række, så hver side kan vise et billede eller et ord uafhængigt, hvilket generator varieret sværhedsgrad inden for et enkelt arbejdsark. Tilpasset Ord-tilstanden parrer billeder med dine egne indtastede ord til stavning, ordforråd eller sprogøvelser. Hver tilstand producerer en anderledes læringsaktivitet fra det samme billedbibliotek.',
     },
     {
       question: 'Hvordan fungerer det konfigurerbare parantal?',
@@ -153,7 +153,7 @@ const content: AppContent = {
     {
       question: 'Hvordan fungerer det automatisk genererede facit?',
       answer:
-        'Generatoren bruger et dobbeltlærredssystem med en Arbejdsarkfane og en Facitfane. Arbejdsarket viser den tocolonne-layout uden forbindelseslinjer — brugerne tegner deres egne linjer for at matche par. Facit genskaber den identiske layout og tilføjer horisontale forbindelseslinjer (#555 farve, stregbredde 2) mellem hvert korrekt par. Begge versioner eksporteres separat med fire dedikerede downloadknapper: worksheet.jpeg, worksheet.pdf, answer_key.jpeg og answer_key.pdf.',
+        'Generatoren bruger et dobbeltlærredssystem med en Arbejdsarkfane og en Facitfane. Arbejdsarket viser den tocolonne-layout uden forbindelseslinjer — brugerne tegner deres egne linjer for at matche par. Facit gengenerator den identiske layout og tilføjer horisontale forbindelseslinjer (#555 farve, stregbredde 2) mellem hvert korrekt par. Begge versioner eksporteres separat med fire dedikerede downloadknapper: worksheet.jpeg, worksheet.pdf, answer_key.jpeg og answer_key.pdf.',
     },
     {
       question: 'Hvad er Begyndelsesbogstav-undertilstandene?',

@@ -6,12 +6,12 @@ const content: GuideContent = {
     secondaryKeywords: [
       'skapa skattjakt arbetsblad att sälja',
       'skattjakt arbetsblad generator kommersiellt bruk',
-      'utskriftsbar skattjakt-skapare för Etsy och KDP',
+      'utskriftsbar skattjakt-generator för Etsy och KDP',
       'koordinatrutnät vägfinnararbetsblad med facit',
     ],
     lsiKeywords: [
-      'två riktningstyper grundläggande kardinal koordinatrutnät skapare',
-      'fem gånger fem bokstav-siffra rutnät riktningsledningstrådar vägfinnar-skapare',
+      'två riktningstyper grundläggande kardinal koordinatrutnät generator',
+      'fem gånger fem bokstav-siffra rutnät riktningsledningstrådar vägfinnar-generator',
       'automatiskt facit ljusgul markerad skattcell dubbelarbetsyta generator',
       'sälja skattjakt arbetsblad på Etsy',
       'Amazon KDP riktnings-vägfinnararbetsböcker',
@@ -24,15 +24,15 @@ const content: GuideContent = {
   hero: {
     title: 'Hur du skapar skattjakt-arbetsblad',
     tagline: 'En steg-för-steg-guide för att skapa vägfinnar-skattjakt-arbetsblad på ett 5×5 koordinatrutnät med två riktningstyper (grundläggande upp/ner/vänster/höger och kardinal norr/söder/öster/väster), exakt 4 riktningsförflyttningar per pussel, 6 tematiska landmärkesbilder, autogenererade facit med ljusgul markerad skattcell, och fullt lokaliserade riktningsledtrådar på 11 språk',
-    description: 'Skattjakt-arbetsblad är en unikt engagerande vägfinnaraktivitet där användare följer sekventiella riktningsledtrådar för att lokalisera gömd skatt på ett 5×5 koordinatrutnät märkt med bokstavsrader (A–E) och sifferkolumner (1–5). Formatet kombinerar koordinatläsning med riktningsvokabulär. Skattjakt-skaparen erbjuder två riktningstyper — grundläggande (upp/ner/vänster/höger) och kardinal (norr/söder/öster/väster) — varje pussel differentieras naturligt efter åldersgrupp. Fullt lokaliserade riktningsledtrådar på 11 språk skapar flerspråkiga produktlinjer.',
+    description: 'Skattjakt-arbetsblad är en unikt engagerande vägfinnaraktivitet där användare följer sekventiella riktningsledtrådar för att lokalisera gömd skatt på ett 5×5 koordinatrutnät märkt med bokstavsrader (A–E) och sifferkolumner (1–5). Formatet kombinerar koordinatläsning med riktningsvokabulär. Skattjakt-generatorn erbjuder två riktningstyper — grundläggande (upp/ner/vänster/höger) och kardinal (norr/söder/öster/väster) — varje pussel differentieras naturligt efter åldersgrupp. Fullt lokaliserade riktningsledtrådar på 11 språk skapar flerspråkiga produktlinjer.',
   },
 
-  introduction: 'Koordinatläsning och riktningsresonerande är grundläggande kognitiva färdigheter. Innan barn kan navigera kartor, läsa diagram eller lösa rumsliga problem måste de lära sig tolka rutnätsreferenser och följa sekventiella riktningsinstruktioner. Skattjakt-arbetsblad tränar båda simultant.\n\nVad som gör skattjakt-arbetsblad särskilt kraftfulla är de två riktningstyper som skapar naturlig åldersgruppsdifferentiering. Grundläggande läge använder upp, ner, vänster och höger — bekant rumsligt vokabulär för förskoleklass till årskurs 1. Kardinalläge använder norr, söder, öster och väster — kompassriktningar för årskurs 2 och uppåt. Båda lägena genererar samma 4-förflyttnings pusselstruktur, så säljare kan skapa progressiva svårighetsset.\n\nTill skillnad från rent visuella arbetsblad är skattjakt-arbetsblad språkkänsliga. All riktningsledtrådstext — "Börja vid," "Flytta," riktningsvokabulär, "ruta/rutor" och "Var är skatten?" — översätts fullständigt till alla 11 stödda språk. En pusseldesign genererar 11 autentiska inhemska språkversioner.\n\nSkattjakt-skaparen hanterar komplexiteten genom ett automatiserat pusselgenereringssystem. Sex tematiska bilder sprids över 25-cellsrutnätet som visuella landmärken. Generatorn väljer en slumpmässig startcell och skapar exakt 4 riktningsförflyttningar. Dubbelarbetsytesystemet genererar arbetsblad och facit simultant med skattcellen markerad i ljusgult (#FFFACD).\n\nVarje funktion som nämns i denna guide är tillgänglig i den gratis provversionen med vattenstämpel.',
+  introduction: 'Koordinatläsning och riktningsresonerande är grundläggande kognitiva färdigheter. Innan barn kan navigera kartor, läsa diagram eller lösa rumsliga problem måste de lära sig tolka rutnätsreferenser och följa sekventiella riktningsinstruktioner. Skattjakt-arbetsblad tränar båda simultant.\n\nVad som gör skattjakt-arbetsblad särskilt kraftfulla är de två riktningstyper som skapar naturlig åldersgruppsdifferentiering. Grundläggande läge använder upp, ner, vänster och höger — bekant rumsligt vokabulär för förskoleklass till årskurs 1. Kardinalläge använder norr, söder, öster och väster — kompassriktningar för årskurs 2 och uppåt. Båda lägena genererar samma 4-förflyttnings pusselstruktur, så säljare kan skapa progressiva svårighetsset.\n\nTill skillnad från rent visuella arbetsblad är skattjakt-arbetsblad språkkänsliga. All riktningsledtrådstext — "Börja vid," "Flytta," riktningsvokabulär, "ruta/rutor" och "Var är skatten?" — översätts fullständigt till alla 11 stödda språk. En pusseldesign genererar 11 autentiska inhemska språkversioner.\n\nSkattjakt-generatorn hanterar komplexiteten genom ett automatiserat pusselgenereringssystem. Sex tematiska bilder sprids över 25-cellsrutnätet som visuella landmärken. Generatorn väljer en slumpmässig startcell och skapar exakt 4 riktningsförflyttningar. Dubbelarbetsytesystemet genererar arbetsblad och facit simultant med skattcellen markerad i ljusgult (#FFFACD).\n\nVarje funktion som nämns i denna guide är tillgänglig i den gratis provversionen med vattenstämpel.',
 
   tutorial: [
     {
-      heading: 'Öppna Skattjakt-skaparen',
-      content: 'Navigera till Skattjakt-skaparen och klicka starta. Verktyget laddas med en inställningssidopanel till vänster och en dubbelfliks-arbetsyta till höger — arbetsblad och facit genereras simultant.\n\nArbetsblad-fliken visar 5×5 koordinatrutnätet med utspridda tematiska bilder, riktningsledtrådsinstruktioner och den skatttematiserade rubriken. Facit-fliken visar identisk layout med skattcellen markerad i ljusgult.\n\nUtforska sidopanelerna. Pusselinställningar kontrollerar riktningstyp och språk. Bildbiblioteket ger tillgång till 104 temasamlingar med 3 100+ illustrationer. Sidinställningar hanterar layout och dekoration.',
+      heading: 'Öppna Skattjakt-generatorn',
+      content: 'Navigera till Skattjakt-generatorn och klicka starta. Verktyget laddas med en inställningssidopanel till vänster och en dubbelfliks-arbetsyta till höger — arbetsblad och facit genereras simultant.\n\nArbetsblad-fliken visar 5×5 koordinatrutnätet med utspridda tematiska bilder, riktningsledtrådsinstruktioner och den skatttematiserade rubriken. Facit-fliken visar identisk layout med skattcellen markerad i ljusgult.\n\nUtforska sidopanelerna. Pusselinställningar kontrollerar riktningstyp och språk. Bildbiblioteket ger tillgång till 104 temasamlingar med 3 100+ illustrationer. Sidinställningar hanterar layout och dekoration.',
     },
     {
       heading: 'Välj din riktningstyp',
@@ -40,7 +40,7 @@ const content: GuideContent = {
     },
     {
       heading: 'Konfigurera pusselrutnät och språk',
-      content: 'Varje pussel använder ett fast 5×5 koordinatrutnät med rader A–E och kolumner 1–5. Bokstav-siffra-koordinatsystemet lär samma rutnätsreferensförmåga som används i geografi och matematik.\n\nExakt 4 riktningsförflyttningar per pussel. Generatorn väljer en slumpmässig startcell och skapar 4 sekventiella förflyttningar inom rutnätsgränserna. Arbetsbladet visar 5 instruktionsrader: "Börja vid [cell]" följt av 4 "Flytta [riktning] [antal] ruta/rutor" och "Var är skatten?"\n\nVälj innehållsspråk. Skattjakt-skaparen är språkkänslig — alla riktningar översätts fullständigt till 11 stödda språk. "Börja vid," "Flytta," riktningsvokabulär, "ruta/rutor" och "Var är skatten?" lokaliseras helt. Att byta språk genererar en helt ny säljbar produkt.',
+      content: 'Varje pussel använder ett fast 5×5 koordinatrutnät med rader A–E och kolumner 1–5. Bokstav-siffra-koordinatsystemet lär samma rutnätsreferensförmåga som används i geografi och matematik.\n\nExakt 4 riktningsförflyttningar per pussel. Generatorn väljer en slumpmässig startcell och skapar 4 sekventiella förflyttningar inom rutnätsgränserna. Arbetsbladet visar 5 instruktionsrader: "Börja vid [cell]" följt av 4 "Flytta [riktning] [antal] ruta/rutor" och "Var är skatten?"\n\nVälj innehållsspråk. Skattjakt-generatorn är språkkänslig — alla riktningar översätts fullständigt till 11 stödda språk. "Börja vid," "Flytta," riktningsvokabulär, "ruta/rutor" och "Var är skatten?" lokaliseras helt. Att byta språk genererar en helt ny säljbar produkt.',
     },
     {
       heading: 'Lägg till tematiska bilder i rutnätet',
@@ -107,7 +107,7 @@ const content: GuideContent = {
 
   faq: [
     {
-      question: 'Vilka är de två riktningstyper i Skattjakt-skaparen?',
+      question: 'Vilka är de två riktningstyper i Skattjakt-generatorn?',
       answer: 'Grundläggande läge använder upp, ner, vänster och höger — bekant vokabulär för förskoleklass till årskurs 1. Kardinalläge använder norr, söder, öster och väster — kompassriktningar för årskurs 2 och uppåt. Båda genererar samma 4-förflyttnings pusselstruktur på samma 5×5 rutnät.',
     },
     {

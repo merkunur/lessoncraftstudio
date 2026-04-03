@@ -5,7 +5,7 @@ const content: ToolContent = {  seo: {
     secondaryKeywords: [
       'Kreuzworträtsel-Generator kostenlos online',
       'Bilderkreuzworträtsel erstellen ohne Anmeldung',
-      'Kreuzworträtsel Ersteller sofort nutzen',
+      'Kreuzworträtsel Generator sofort nutzen',
       'kostenloses Kreuzworträtsel mit Bildern generieren',
     ],
     lsiKeywords: [
@@ -27,7 +27,7 @@ const content: ToolContent = {  seo: {
     title: 'Bilderkreuzworträtsel erstellen in 8 Schritten',
     steps: [
       {
-        title: 'Den Bilderkreuzworträtsel-Ersteller öffnen',
+        title: 'Den Bilderkreuzworträtsel-Generator öffnen',
         description: 'Klicken Sie auf \"Kostenlos testen\", um den Bilderkreuzworträtsel-Generator in Ihrem Browser zu starten. Das Tool lädt sofort mit einer Einstellungs-Seitenleiste links und einer Dual-Tab-Canvas rechts — ein Tab für das Kreuzworträtsel-Arbeitsblatt, einer für den Lösungsschlüssel. Keine Kontoerstellung, kein Software-Download, keine Installation erforderlich — beginnen Sie sofort mit dem Erstellen von Bilderkreuzworträtseln.',
       },
       {
@@ -44,7 +44,7 @@ const content: ToolContent = {  seo: {
       },
       {
         title: 'Inhaltssprache wählen',
-        description: 'Wählen Sie die Inhaltssprache, um die Wörter im Kreuzwortraster zu steuern. Der Bilderkreuzworträtsel-Ersteller ist sprachabhängig — Kreuzwortwörter stammen aus lokalisierten Bildbezeichnungen über das Bildvokabular-System. Dasselbe Katzenbild erzeugt \"KATZE\" auf Deutsch, \"CAT\" auf Englisch, \"CHAT\" auf Französisch und \"GATTO\" auf Italienisch, was völlig verschiedene Kreuzworträtsel aus identischen Bildauswahlen entstehen lässt. Die kommerzielle Lizenz umfasst englische Inhalte; Vollzugriff schaltet alle 11 Sprachen frei. Diese mehrsprachige Fähigkeit ermöglicht es Ihnen, Kreuzworträtsel-Produkte für internationale Märkte aus denselben Bildsets zu erstellen und zu verkaufen.',
+        description: 'Wählen Sie die Inhaltssprache, um die Wörter im Kreuzwortraster zu steuern. Der Bilderkreuzworträtsel-Generator ist sprachabhängig — Kreuzwortwörter stammen aus lokalisierten Bildbezeichnungen über das Bildvokabular-System. Dasselbe Katzenbild erzeugt \"KATZE\" auf Deutsch, \"CAT\" auf Englisch, \"CHAT\" auf Französisch und \"GATTO\" auf Italienisch, was völlig verschiedene Kreuzworträtsel aus identischen Bildauswahlen entstehen lässt. Die kommerzielle Lizenz umfasst englische Inhalte; Vollzugriff schaltet alle 11 Sprachen frei. Diese mehrsprachige Fähigkeit ermöglicht es Ihnen, Kreuzworträtsel-Produkte für internationale Märkte aus denselben Bildsets zu erstellen und zu verkaufen.',
       },
       {
         title: 'Bilderkreuzworträtsel generieren',
@@ -174,8 +174,8 @@ const content: ToolContent = {  seo: {
       answer: 'Der Generator verwendet ein Dual-Canvas-System mit einem Arbeitsblatt-Tab (das leere Rätsel) und einem Lösungsschlüssel-Tab (das ausgefüllte Raster). Das Arbeitsblatt zeigt das Kreuzwortraster mit nummerierten Positionen und Bild- oder Text-Hinweisen — bereit zum Ausfüllen. Der Lösungsschlüssel reproduziert das identische Layout und füllt jede Zelle mit den korrekten Buchstaben. Beide Versionen werden separat über vier dedizierte Download-Buttons exportiert. Der Lösungsschlüssel wird gleichzeitig mit dem Rätsel generiert, sodass kein manuelles Eintragen der Antworten nötig ist und keine abweichenden Lösungen entstehen können.',
     },
     {
-      question: 'Ist der Bilderkreuzworträtsel-Ersteller sprachabhängig?',
-      answer: 'Ja. Kreuzwortwörter stammen aus lokalisierten Bildbezeichnungen, die über das Bildvokabular-System geladen werden. Ein Sprachwechsel ändert die tatsächlichen Wörter im Kreuzwortraster. Ein Katzenbild erzeugt \"KATZE\" auf Deutsch, aber \"CAT\" auf Englisch, \"CHAT\" auf Französisch und \"GATTO\" auf Italienisch — was völlig verschiedene Kreuzworträtsel aus identischen Bildauswahlen entstehen lässt. Der lokalisierte Header-Text wechselt ebenfalls mit der ausgewählten Sprache. Die kommerzielle Lizenz umfasst englische Inhalte; Vollzugriff schaltet alle 11 Sprachen für lokalisierte Kreuzwortwörter frei. Damit ist der Bilderkreuzworträtsel-Ersteller eines der vielseitigsten Werkzeuge für mehrsprachige verkaufbare Produkte.',
+      question: 'Ist der Bilderkreuzworträtsel-Generator sprachabhängig?',
+      answer: 'Ja. Kreuzwortwörter stammen aus lokalisierten Bildbezeichnungen, die über das Bildvokabular-System geladen werden. Ein Sprachwechsel ändert die tatsächlichen Wörter im Kreuzwortraster. Ein Katzenbild erzeugt \"KATZE\" auf Deutsch, aber \"CAT\" auf Englisch, \"CHAT\" auf Französisch und \"GATTO\" auf Italienisch — was völlig verschiedene Kreuzworträtsel aus identischen Bildauswahlen entstehen lässt. Der lokalisierte Header-Text wechselt ebenfalls mit der ausgewählten Sprache. Die kommerzielle Lizenz umfasst englische Inhalte; Vollzugriff schaltet alle 11 Sprachen für lokalisierte Kreuzwortwörter frei. Damit ist der Bilderkreuzworträtsel-Generator eines der vielseitigsten Werkzeuge für mehrsprachige verkaufbare Produkte.',
     },
     {
       question: 'Wie funktioniert der Modus Benutzerdefinierte Wortliste mit Hinweisen?',
@@ -201,13 +201,13 @@ const content: ToolContent = {  seo: {
 
   internalLinks: [
     { pageType: 'app', slug: 'bilderkreuzwortraetsel-arbeitsblaetter', anchorText: 'Bilderkreuzworträtsel — Alle Produktdetails' },
-    { pageType: 'tool', slug: 'wortsuche-ersteller', anchorText: 'Wortsuche-Ersteller' },
-    { pageType: 'tool', slug: 'buchstabensalat-ersteller', anchorText: 'Buchstabensalat-Ersteller' },
-    { pageType: 'tool', slug: 'woerter-raten-ersteller', anchorText: 'Wörter-Raten-Ersteller' },
-    { pageType: 'tool', slug: 'schatzsuche-ersteller', anchorText: 'Schatzsuche-Ersteller' },
-    { pageType: 'tool', slug: 'suchen-und-zaehlen-ersteller', anchorText: 'Suchen-und-Zählen-Ersteller' },
-    { pageType: 'tool', slug: 'suchbilder-ersteller', anchorText: 'Suchbilder-Ersteller' },
-    { pageType: 'tool', slug: 'kryptogramm-ersteller', anchorText: 'Kryptogramm-Ersteller' },
+    { pageType: 'tool', slug: 'wortsuche-ersteller', anchorText: 'Wortsuche-Generator' },
+    { pageType: 'tool', slug: 'buchstabensalat-ersteller', anchorText: 'Buchstabensalat-Generator' },
+    { pageType: 'tool', slug: 'woerter-raten-ersteller', anchorText: 'Wörter-Raten-Generator' },
+    { pageType: 'tool', slug: 'schatzsuche-ersteller', anchorText: 'Schatzsuche-Generator' },
+    { pageType: 'tool', slug: 'suchen-und-zaehlen-ersteller', anchorText: 'Suchen-und-Zählen-Generator' },
+    { pageType: 'tool', slug: 'suchbilder-ersteller', anchorText: 'Suchbilder-Generator' },
+    { pageType: 'tool', slug: 'kryptogramm-ersteller', anchorText: 'Kryptogramm-Generator' },
   ],
 
   visuals: {

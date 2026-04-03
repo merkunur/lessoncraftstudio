@@ -29,7 +29,7 @@ const content: ToolContent = {
     steps: [
       {
         title: 'Den Arbeitsblatt-Generator öffnen',
-        description: 'Klicken Sie auf \"Kostenlos testen\", um den Mathe-Arbeitsblatt-Ersteller zu starten. Das Tool öffnet sich sofort in Ihrem Browser mit einer dunklen Seitenleiste links für alle Einstellungen und einer hellen Arbeitsfläche rechts für die Live-Vorschau. Kein Benutzerkonto, kein Software-Download und keine Plugins erforderlich.',
+        description: 'Klicken Sie auf \"Kostenlos testen\", um den Mathe-Arbeitsblatt-Generator zu starten. Das Tool öffnet sich sofort in Ihrem Browser mit einer dunklen Seitenleiste links für alle Einstellungen und einer hellen Arbeitsfläche rechts für die Live-Vorschau. Kein Benutzerkonto, kein Software-Download und keine Plugins erforderlich.',
       },
       {
         title: 'Das Seitenlayout festlegen',
@@ -141,7 +141,7 @@ const content: ToolContent = {
     },
     {
       title: 'Mit Standard-Mathe-Tools kombinieren',
-      description: 'Erstellen Sie passende Sets mit den Additions-, Subtraktions- und Bilder-Additions-Generatoren neben dem Algebra-Rätsel-Ersteller. Verkaufen Sie einzeln und als kombiniertes \"Mathe-Übung + Algebra-Rätsel\"-Bündel. Die visuelle Algebra-Komponente fügt ein Herausforderungselement hinzu, das das Bündel attraktiver macht als reine Arbeitsblätter.',
+      description: 'Erstellen Sie passende Sets mit den Additions-, Subtraktions- und Bilder-Additions-Generatoren neben dem Algebra-Rätsel-Generator. Verkaufen Sie einzeln und als kombiniertes \"Mathe-Übung + Algebra-Rätsel\"-Bündel. Die visuelle Algebra-Komponente fügt ein Herausforderungselement hinzu, das das Bündel attraktiver macht als reine Arbeitsblätter.',
     },
     {
       title: 'Beide Formate exportieren',
@@ -202,13 +202,13 @@ const content: ToolContent = {
 
   internalLinks: [
     { pageType: 'app', slug: 'mathe-arbeitsblaetter', anchorText: 'Mathe-Arbeitsblätter — Vollständige Produktdetails' },
-    { pageType: 'tool', slug: 'additions-arbeitsblatt-ersteller', anchorText: 'Additions-Arbeitsblatt-Ersteller' },
-    { pageType: 'tool', slug: 'subtraktions-arbeitsblatt-ersteller', anchorText: 'Subtraktions-Arbeitsblatt-Ersteller' },
-    { pageType: 'tool', slug: 'bilder-additions-ersteller', anchorText: 'Bilder-Additions-Ersteller' },
-    { pageType: 'tool', slug: 'mehr-weniger-ersteller', anchorText: 'Mehr-oder-Weniger-Ersteller' },
-    { pageType: 'tool', slug: 'mathe-raetsel-ersteller', anchorText: 'Mathe-Rätsel-Ersteller' },
-    { pageType: 'tool', slug: 'zuordnungs-arbeitsblatt-ersteller', anchorText: 'Zuordnungs-Arbeitsblatt-Ersteller' },
-    { pageType: 'tool', slug: 'fehlende-puzzleteile-ersteller', anchorText: 'Fehlende-Puzzleteile-Ersteller' },
+    { pageType: 'tool', slug: 'additions-Arbeitsblatt-Generator', anchorText: 'Additions-Arbeitsblatt-Generator' },
+    { pageType: 'tool', slug: 'subtraktions-Arbeitsblatt-Generator', anchorText: 'Subtraktions-Arbeitsblatt-Generator' },
+    { pageType: 'tool', slug: 'bilder-additions-ersteller', anchorText: 'Bilder-Additions-Generator' },
+    { pageType: 'tool', slug: 'mehr-weniger-ersteller', anchorText: 'Mehr-oder-Weniger-Generator' },
+    { pageType: 'tool', slug: 'mathe-raetsel-ersteller', anchorText: 'Mathe-Rätsel-Generator' },
+    { pageType: 'tool', slug: 'zuordnungs-Arbeitsblatt-Generator', anchorText: 'Zuordnungs-Arbeitsblatt-Generator' },
+    { pageType: 'tool', slug: 'fehlende-puzzleteile-ersteller', anchorText: 'Fehlende-Puzzleteile-Generator' },
   ],
 
   visuals: {

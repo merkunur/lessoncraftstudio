@@ -23,7 +23,7 @@ const content: AppContent = {
 
   hero: {
     title: 'Skapa räkne- och diagramblad att sälja på Etsy och KDP',
-    tagline: 'Dubbelarbetsyta piktogram-skapare — generera spridda bildsrutnät med 6 bildtyper, automatiskt ifyllda stapeldiagram-facit, lokaliserade rubriker på 11 språk och 104 tematiska bildsamlingar för datarepresentation arbetsblad.',
+    tagline: 'Dubbelarbetsyta piktogram-generator — generera spridda bildsrutnät med 6 bildtyper, automatiskt ifyllda stapeldiagram-facit, lokaliserade rubriker på 11 språk och 104 tematiska bildsamlingar för datarepresentation arbetsblad.',
     description:
       'Skapa professionella räkne- och diagramblad att sälja på Etsy eller sammanställa i arbetsböcker för Amazon KDP. Varje arbetsblad innehåller ett spritt bildsrutnät med 20 ikoner från 6 olika typer — köparna räknar varje typ och fyller i stapeldiagrammet. Appen genererar automatiskt ett facit med gulmarkerade celler, så du slipper kontrollera manuellt. Välj bland mer än 3 100 illustrationer i 104 teman eller välj manuellt exakt 6 bilder. Bilddiagram är inte språkkänsliga — samma arbetsblad fungerar globalt utan översättning, vilket gör det möjligt att sälja samma produkt på alla marknader. Exportera tryckfärdiga PDF:er i Letter, A4 eller anpassade storlekar. Den svenska marknaden för pedagogiska diagramblad på Etsy saknar i princip konkurrenter — en outnyttjad nisch med hög potential. Kommersiell licens ingår. Gratis provversion med alla funktioner — nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',
   },

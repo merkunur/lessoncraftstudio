@@ -28,7 +28,7 @@ const content: ToolContent = {
     title: 'How to Make Cryptogram Puzzles Free in 8 Steps',
     steps: [
       {
-        title: 'Open the Cryptogram Worksheet Maker',
+        title: 'Open the Cryptogram Worksheet Generator',
         description: 'Click \"Try Free Now\" to launch the generator in your browser. The tool loads instantly with a settings sidebar on the left and a live preview canvas on the right. No account creation, no software download, no installation required — start building picture cipher puzzles immediately.',
       },
       {

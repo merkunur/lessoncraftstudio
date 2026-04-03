@@ -28,7 +28,7 @@ const content: ToolContent = {
     title: 'Hur du Skapar Skrivövnings Arbetsblad i 8 Enkla Steg',
     steps: [
       {
-        title: 'Öppna Skrivövnings Arbetsblad Skaparen',
+        title: 'Öppna Skrivövnings Arbetsblad Generatorn',
         description: 'Klicka på \"Prova gratis nu\" för att starta generatorn i din webbläsare. Verktyget laddas direkt med ett inställningssidofält till vänster och en liveförhandsvisnings arbetsyta till höger. Inget konto, ingen nedladdning, ingen installation krävs — börja bygga skrivövnings arbetsblad omedelbart.',
       },
       {
@@ -202,13 +202,13 @@ const content: ToolContent = {
 
   internalLinks: [
     { pageType: 'app', slug: 'skrivovningar-arbetsblad', anchorText: 'Skrivövningar Arbetsblad — Fullständiga Produktdetaljer' },
-    { pageType: 'tool', slug: 'alfabetstaag-skapare', anchorText: 'Alfabetståg Skapare' },
-    { pageType: 'tool', slug: 'gissa-ordet-skapare', anchorText: 'Gissa Ordet Skapare' },
-    { pageType: 'tool', slug: 'ordmix-skapare', anchorText: 'Ordmix Skapare' },
-    { pageType: 'tool', slug: 'ordsoek-skapare', anchorText: 'Ordsök Skapare' },
-    { pageType: 'tool', slug: 'kryptogram-skapare', anchorText: 'Kryptogram Skapare' },
-    { pageType: 'tool', slug: 'linjer-ovningar-skapare', anchorText: 'Rita Linjer Skapare' },
-    { pageType: 'tool', slug: 'prepositioner-arbetsblad-skapare', anchorText: 'Prepositioner Arbetsblad Skapare' },
+    { pageType: 'tool', slug: 'alfabetstaag-skapare', anchorText: 'Alfabetståg Generator' },
+    { pageType: 'tool', slug: 'gissa-ordet-skapare', anchorText: 'Gissa Ordet Generator' },
+    { pageType: 'tool', slug: 'ordmix-skapare', anchorText: 'Ordmix Generator' },
+    { pageType: 'tool', slug: 'ordsoek-skapare', anchorText: 'Ordsök Generator' },
+    { pageType: 'tool', slug: 'kryptogram-skapare', anchorText: 'Kryptogram Generator' },
+    { pageType: 'tool', slug: 'linjer-ovningar-skapare', anchorText: 'Rita Linjer Generator' },
+    { pageType: 'tool', slug: 'prepositioner-arbetsblad-skapare', anchorText: 'Prepositioner Arbetsblad Generator' },
   ],
 
   visuals: {

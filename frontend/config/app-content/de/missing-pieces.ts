@@ -7,7 +7,7 @@ const content: AppContent = {
       'Puzzleteil-Rätsel-Generator für Etsy-Verkäufer',
       'Fehlende-Puzzleteile Druckvorlagen erstellen KDP',
       'Jigsaw-Puzzle-Arbeitsblätter verkaufen kommerzielle Lizenz',
-      'visueller Puzzle-Ersteller mit Lösungsschlüssel',
+      'visueller Puzzle-Generator mit Lösungsschlüssel',
     ],
     lsiKeywords: [
       'Printable-Business Puzzle-Rätsel Druckvorlagen erstellen',

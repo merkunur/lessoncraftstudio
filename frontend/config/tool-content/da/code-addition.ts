@@ -2,24 +2,24 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'kodeknækker matematik arbejdsark skaber',
+    primaryKeyword: 'kodeknækker matematik arbejdsark generator',
     secondaryKeywords: [
       'knæk koden matematik arbejdsark for sælgere',
       'kodeknækker puslespil online',
       'printbare chiffer matematik arbejdsark for børn',
-      'hemmelig kode additions arbejdsark skaber',
+      'hemmelig kode additions arbejdsark generator',
     ],
     lsiKeywords: [
       'billede chiffer matematik puslespil online',
       'ord afsløring kodeknækning arbejdsark',
       'talkode matematik aktivitet for brugere',
     ],
-    titleTag: 'Kodeknækker Matematik Skaber — Arbejdsark til Klassen',
+    titleTag: 'Kodeknækker Matematik Generator — Arbejdsark til Klassen',
     metaDescription: 'Opret kodeknækkende matematik arbejdsark til produktlinjesjov. Billedchiffer puslespil med addition, Ord Afsløring-tilstand, 11 sprog. Gratis prøveversion med vandmærke.',
   },
 
   hero: {
-    title: 'Kodeknækker Matematik Arbejdsark Skaber',
+    title: 'Kodeknækker Matematik Arbejdsark Generator',
     tagline: 'Opret kryptaritmetikpuslespil, hvor brugerne knækker hemmelige koder gennem addition',
     description: 'Dette er ikke bare endnu et additions arbejdsark — det er en kodeknækningsudfordring. Hvert puslespil gemmer tal bag billedsymboler, og brugerne skal løse additionsligninger for at finde ud af, hvilken ciffer der hører til hvilket billede. I Normal Tilstand repræsenterer hvert symbol en unik ciffer. Skift til Ord Afsløring-tilstanden, og hver løst ligning afslører et bogstav i et hemmeligt ord, med vildledende bogstaver, der holder brugerne gættende. Vælg blandt mere end 100 billedtemaer, juster symbolantal og addendkompleksitet, og download trykklare PDF\'er eller JPEG-billeder. Understøtter 11 sprog med lokalbevidste alfabeter. Den gratis prøveversion indeholder et vandmærke på downloads. Køb en licens for at fjerne vandmærket og sælge kommercielt.',
   },
@@ -198,13 +198,13 @@ const content: ToolContent = {
 
   internalLinks: [
     { pageType: 'app', slug: 'kode-plusstykker-arbejdsark', anchorText: 'Kode-addition Arbejdsark — Komplette Produktdetaljer' },
-    { pageType: 'tool', slug: 'additions-arbejdsark-skaber', anchorText: 'Additions Arbejdsark Skaber' },
-    { pageType: 'tool', slug: 'subtraktions-arbejdsark-skaber', anchorText: 'Subtraktions Arbejdsark Skaber' },
-    { pageType: 'tool', slug: 'mattepuslespil-skaber', anchorText: 'Mattepuslespil Skaber' },
-    { pageType: 'tool', slug: 'matematik-arbejdsark-skaber', anchorText: 'Matematik Arbejdsark Skaber' },
-    { pageType: 'tool', slug: 'kryptogram-skaber', anchorText: 'Kryptogram Skaber' },
-    { pageType: 'tool', slug: 'ordsoegning-skaber', anchorText: 'Ordsøgning Skaber' },
-    { pageType: 'tool', slug: 'matchnings-arbejdsark-skaber', anchorText: 'Matchnings Arbejdsark Skaber' },
+    { pageType: 'tool', slug: 'additions-arbejdsark-skaber', anchorText: 'Additions Arbejdsark Generator' },
+    { pageType: 'tool', slug: 'subtraktions-arbejdsark-skaber', anchorText: 'Subtraktions Arbejdsark Generator' },
+    { pageType: 'tool', slug: 'mattepuslespil-skaber', anchorText: 'Mattepuslespil Generator' },
+    { pageType: 'tool', slug: 'matematik-arbejdsark-skaber', anchorText: 'Matematik Arbejdsark Generator' },
+    { pageType: 'tool', slug: 'kryptogram-skaber', anchorText: 'Kryptogram Generator' },
+    { pageType: 'tool', slug: 'ordsoegning-skaber', anchorText: 'Ordsøgning Generator' },
+    { pageType: 'tool', slug: 'matchnings-arbejdsark-skaber', anchorText: 'Matchnings Arbejdsark Generator' },
   ],
 
   visuals: {

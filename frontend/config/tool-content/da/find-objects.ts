@@ -4,22 +4,22 @@ const content: ToolContent = {
   seo: {
     primaryKeyword: 'skjulte objekter arbejdsark',
     secondaryKeywords: [
-      'skjulte objekter arbejdsark skaber for sælgere',
+      'skjulte objekter arbejdsark generator for sælgere',
       'lav søgebillede skjulte objekter arbejdsark til salg',
       'printbar skjulte objekter generator kommerciel brug',
-      'skjulte objekter puslespil skaber til KDP og Etsy',
+      'skjulte objekter puslespil generator til KDP og Etsy',
     ],
     lsiKeywords: [
-      'søgning find den underlige dobbelt tilstands aktivitet skaber',
+      'søgning find den underlige dobbelt tilstands aktivitet generator',
       'nul-overlapning scenegenerering adaptiv størrelse algoritme',
-      'automatisk facit rød cirkel annoterings skjulte objekter skaber',
+      'automatisk facit rød cirkel annoterings skjulte objekter generator',
     ],
-    titleTag: 'Skjulte Objekter Skaber — Skjulte Objekter Arbejdsark Generator',
+    titleTag: 'Skjulte Objekter Generator — Skjulte Objekter Arbejdsark Generator',
     metaDescription: 'Lav skjulte objekter arbejdsark med Søgning og Find den Underlige-tilstande, nul-overlapning scener, automatiske facit og 104 temabilleder. Gratis prøveversion.',
   },
 
   hero: {
-    title: 'Skjulte Objekter Skaber',
+    title: 'Skjulte Objekter Generator',
     tagline: 'Dobbelt tilstands skjulte objekter arbejdsark generator med Søgning-tilstand (nul-overlapning spredte scener med 1–5 skjulte objekter blandt 8–12 distraktorer og bundlegende) og Find den Underlige-tilstand (8–12 parrede billeder med 1–5 uparrede objekter gengivet 50% større), adaptiv billedstørrelsesalgoritme og automatisk genererede facit med røde cirkelannoteringer',
     description: 'Lav professionelle skjulte objekter-arbejdsark med to distinkte aktivitetstilstande. Søgning-tilstanden spreder 1–5 skjulte objekter blandt 8–12 distraktorer med nul-overlapningsalgoritme — findBestPosition() tester 50 positioner per billede og reducerer adaptivt størrelsen. En legende i bunden viser målobjekterne. Find den Underlige-tilstanden arrangerer 8–12 parrede billeder med 1–5 uparrede objekter gengivet 50% større. Dobbeltarbejdsområde-systemet genererer facit med røde cirkler 3–5px større end objekterne. IKKE sprogfølsomt — rent visuelt uden lokaliserede billednavne, universelt sælgbart. Gennemse 104 tematiske samlinger med mere end 3.100 illustrationer. Eksportér fire filer per session med 300 DPI. Den gratis prøveversion indeholder alle funktioner med vandmærke. Køb en licens for at fjerne vandmærket.',
   },
@@ -28,7 +28,7 @@ const content: ToolContent = {
     title: 'Sådan Laver du Skjulte Objekter Arbejdsark i 8 Trin',
     steps: [
       {
-        title: 'Åbn Skjulte Objekter Skaberen',
+        title: 'Åbn Skjulte Objekter Generatoren',
         description: 'Klik på \"Prøv gratis nu\" for at starte generatoren. Værktøjet indlæses direkte med dobbeltfane-arbejdsområde. Ingen konto, ingen download kræves.',
       },
       {
@@ -107,7 +107,7 @@ const content: ToolContent = {
     },
     {
       title: 'Pinterest skjulte objekter arbejdsark trafiktragt',
-      description: 'Skjulte objekter scener med farverige spredte billeder og facitforhåndsvisninger med røde cirkler skaber engagerende Pinterest-pins. Det visuelle format appellerer til alle lande.',
+      description: 'Skjulte objekter scener med farverige spredte billeder og facitforhåndsvisninger med røde cirkler generator engagerende Pinterest-pins. Det visuelle format appellerer til alle lande.',
       platform: 'Pinterest',
     },
     {
@@ -117,7 +117,7 @@ const content: ToolContent = {
     },
     {
       title: 'Global visuel puslespil produktlinje',
-      description: 'Skjulte Objekter Skaberen producerer rent visuelle puslespil — ingen sprogspecifik tekst på arbejdsarkets indhold. Søgningslegenden bruger billeder, ikke ord. De samme produktfiler fungerer i hvert land. Én designsession producerer et globalt sælgbart katalog.',
+      description: 'Skjulte Objekter Generatoren producerer rent visuelle puslespil — ingen sprogspecifik tekst på arbejdsarkets indhold. Søgningslegenden bruger billeder, ikke ord. De samme produktfiler fungerer i hvert land. Én designsession producerer et globalt sælgbart katalog.',
       platform: 'Etsy / Amazon KDP',
     },
   ],
@@ -164,7 +164,7 @@ const content: ToolContent = {
     },
     {
       question: 'Hvordan fungerer nul-overlapnings placeringsalgoritmen?',
-      answer: 'findBestPosition() tester 50 tilfældige positioner per billede og vælger placeringen med mindst overlapning. Ved trange forhold reduceres billedstørrelsen adaptivt. Skaber naturlige scener i stedet for forudsigelige gitterlayouts. Hver generering producerer et anderledes layout.',
+      answer: 'findBestPosition() tester 50 tilfældige positioner per billede og vælger placeringen med mindst overlapning. Ved trange forhold reduceres billedstørrelsen adaptivt. Generator naturlige scener i stedet for forudsigelige gitterlayouts. Hver generering producerer et anderledes layout.',
     },
     {
       question: 'Hvordan fungerer legendevisningen i Søgning-tilstanden?',
@@ -176,14 +176,14 @@ const content: ToolContent = {
     },
     {
       question: 'Hvordan fungerer det automatisk genererede facit?',
-      answer: 'Dobbeltarbejdsområde-system. Facittet genskaber layoutet og tegner røde cirkler rundt skjulte objekter (Søgning) eller uparrede objekter (Find den Underlige), dimensioneret 3–5px større. Fire downloadfiler per generering.',
+      answer: 'Dobbeltarbejdsområde-system. Facittet gengenerator layoutet og tegner røde cirkler rundt skjulte objekter (Søgning) eller uparrede objekter (Find den Underlige), dimensioneret 3–5px større. Fire downloadfiler per generering.',
     },
     {
       question: 'Hvordan fungerer den automatisk genererede overskrift?',
       answer: 'Autostørrelse Fredoka-titel — 32px for korte titler, skaleres ned til 18px. Dekorative hvide pillecontainere og skygger. Beskrivelsesfelt tilgængeligt. Professionelt udseende uanset titellængde.',
     },
     {
-      question: 'Er Skjulte Objekter Skaberen sprogfølsom?',
+      question: 'Er Skjulte Objekter Generatoren sprogfølsom?',
       answer: 'Nej. Rent visuelt format — ingen lokaliserede billednavne på arbejdsarkets indhold. Søgningslegenden viser billeder, ikke tekst. Sprogindstillinger påvirker kun grænsefladeetiketter. Universelt sælgbart uden oversættelse.',
     },
     {
@@ -206,13 +206,13 @@ const content: ToolContent = {
 
   internalLinks: [
     { pageType: 'app', slug: 'find-objekterne-arbejdsark', anchorText: 'Skjulte Objekter Aktiviteter — Fulde Produktdetaljer' },
-    { pageType: 'tool', slug: 'find-og-tael-skaber', anchorText: 'Find og Tæl Skaber' },
-    { pageType: 'tool', slug: 'billedkrydsord-skaber', anchorText: 'Krydsordspuslespil Skaber' },
-    { pageType: 'tool', slug: 'skattejagt-skaber', anchorText: 'Skattejagt Skaber' },
-    { pageType: 'tool', slug: 'ordsoegning-skaber', anchorText: 'Ordsøgning Skaber' },
-    { pageType: 'tool', slug: 'find-den-forkerte-skaber', anchorText: 'Find den Ulige Skaber' },
-    { pageType: 'tool', slug: 'matchnings-arbejdsark-skaber', anchorText: 'Matchnings Arbejdsark Skaber' },
-    { pageType: 'tool', slug: 'malebilleder-skaber', anchorText: 'Malebilleder Skaber' },
+    { pageType: 'tool', slug: 'find-og-tael-skaber', anchorText: 'Find og Tæl Generator' },
+    { pageType: 'tool', slug: 'billedkrydsord-skaber', anchorText: 'Krydsordspuslespil Generator' },
+    { pageType: 'tool', slug: 'skattejagt-skaber', anchorText: 'Skattejagt Generator' },
+    { pageType: 'tool', slug: 'ordsoegning-skaber', anchorText: 'Ordsøgning Generator' },
+    { pageType: 'tool', slug: 'find-den-forkerte-skaber', anchorText: 'Find den Ulige Generator' },
+    { pageType: 'tool', slug: 'matchnings-arbejdsark-skaber', anchorText: 'Matchnings Arbejdsark Generator' },
+    { pageType: 'tool', slug: 'malebilleder-skaber', anchorText: 'Malebilleder Generator' },
   ],
 
   visuals: {

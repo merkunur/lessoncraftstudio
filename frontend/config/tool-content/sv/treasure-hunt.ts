@@ -28,7 +28,7 @@ const content: ToolContent = {
     title: 'Hur du skapar skattjakt arbetsblad i 8 steg',
     steps: [
       {
-        title: 'Öppna Skattjakt Skaparen',
+        title: 'Öppna Skattjakt Generatorn',
         description: 'Klicka på "Prova gratis nu" för att starta skattjakt arbetsblads-generatorn i din webbläsare. Verktyget laddas direkt med en inställningssidofält till vänster och en dubbelflikad canvas till höger — en flik för skattjaktsbladet, en för facit. Inget konto behövs, ingen programvara att ladda ner, ingen installation krävs — börja bygga skattjaktspussel omedelbart.',
       },
       {
@@ -41,7 +41,7 @@ const content: ToolContent = {
       },
       {
         title: 'Välj ditt innehållsspråk',
-        description: 'Välj innehållsspråk för att styra riktningstext som visas på arbetsbladet. Skattjakt Skaparen är språkberoende — alla riktningar är fullständigt översatta till 11 språk som stöds. "Börja vid", "Flytta", riktningsord, "ruta(or)" och "Var är skatten?" lokaliseras alla tillsammans med grundläggande och kardinalt riktningsordförråd. Bildinnehåll uppdateras också baserat på valt språk. Commercial-nivån inkluderar engelskt innehåll; Full Access låser upp alla 11 språk för autentiska skattjakt arbetsblad på modersmål som du kan sälja på internationella marknader.',
+        description: 'Välj innehållsspråk för att styra riktningstext som visas på arbetsbladet. Skattjakt Generatorn är språkberoende — alla riktningar är fullständigt översatta till 11 språk som stöds. "Börja vid", "Flytta", riktningsord, "ruta(or)" och "Var är skatten?" lokaliseras alla tillsammans med grundläggande och kardinalt riktningsordförråd. Bildinnehåll uppdateras också baserat på valt språk. Commercial-nivån inkluderar engelskt innehåll; Full Access låser upp alla 11 språk för autentiska skattjakt arbetsblad på modersmål som du kan sälja på internationella marknader.',
       },
       {
         title: 'Välj bilder för 5×5 rutnätet',
@@ -171,7 +171,7 @@ const content: ToolContent = {
       answer: 'Generatorn använder ett dubbelt canvas-system med en Arbetsblads-flik och en Facit-flik. Arbetsbladet visar 5×5 rutnätet med spridda bilder och riktningsledtrådar — redo för användare att följa. Facit återger den identiska layouten och markerar den slutliga skattcellen i ljusgult (rgba(255, 250, 205, 0.8)) med en mörkgrå ram, vilket gör destinationen omedelbart synlig. Båda versionerna exporteras separat med fyra dedikerade nedladdningsknappar: arbetsblad-JPEG, facit-JPEG, arbetsblad-PDF och facit-PDF. Facit genereras samtidigt med pusslet, så det finns inget manuellt markeringssteg och ingen risk för felmatchade lösningar.',
     },
     {
-      question: 'Är Skattjakt Skaparen språkberoende?',
+      question: 'Är Skattjakt Generatorn språkberoende?',
       answer: 'Ja, på två sätt. Först är all riktningstext — "Börja vid", "Flytta", riktningsordförråd (både grundläggande och kardinal), "ruta(or)" och "Var är skatten?" — fullständigt översatt till alla 11 språk som stöds: engelska, tyska, franska, spanska, portugisiska, italienska, holländska, svenska, danska, norska och finska. Sedan uppdateras bildinnehåll från biblioteket baserat på valt språk. Att byta språk producerar autentiska skattjakt arbetsblad på modersmål med lokaliserade riktningar och bilder — inte engelska pussel med översatta rubriker. Commercial-nivån inkluderar engelska; Full Access låser upp alla 11 språk.',
     },
     {
@@ -202,13 +202,13 @@ const content: ToolContent = {
 
   internalLinks: [
     { pageType: 'app', slug: 'skattjakt-arbetsblad', anchorText: 'Skattjakt — Fullständig produktinformation' },
-    { pageType: 'tool', slug: 'bildkorsord-skapare', anchorText: 'Bildkorsord Skapare' },
-    { pageType: 'tool', slug: 'hitta-och-raekna-skapare', anchorText: 'Hitta och Räkna Skapare' },
-    { pageType: 'tool', slug: 'hitta-foeremaalen-skapare', anchorText: 'Hitta Föremålen Skapare' },
-    { pageType: 'tool', slug: 'ordsoek-skapare', anchorText: 'Ordsökning Skapare' },
-    { pageType: 'tool', slug: 'bildvaeg-skapare', anchorText: 'Bildväg Skapare' },
-    { pageType: 'tool', slug: 'matchnings-arbetsblad-skapare', anchorText: 'Matchning Skapare' },
-    { pageType: 'tool', slug: 'mattepussel-skapare', anchorText: 'Mattepussel Skapare' },
+    { pageType: 'tool', slug: 'bildkorsord-skapare', anchorText: 'Bildkorsord Generator' },
+    { pageType: 'tool', slug: 'hitta-och-raekna-skapare', anchorText: 'Hitta och Räkna Generator' },
+    { pageType: 'tool', slug: 'hitta-foeremaalen-skapare', anchorText: 'Hitta Föremålen Generator' },
+    { pageType: 'tool', slug: 'ordsoek-skapare', anchorText: 'Ordsökning Generator' },
+    { pageType: 'tool', slug: 'bildvaeg-skapare', anchorText: 'Bildväg Generator' },
+    { pageType: 'tool', slug: 'matchnings-arbetsblad-skapare', anchorText: 'Matchning Generator' },
+    { pageType: 'tool', slug: 'mattepussel-skapare', anchorText: 'Mattepussel Generator' },
   ],
 
   visuals: {

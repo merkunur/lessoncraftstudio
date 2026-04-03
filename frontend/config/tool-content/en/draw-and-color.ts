@@ -2,11 +2,11 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'free draw and color worksheet maker',
+    primaryKeyword: 'free draw and color worksheet generator',
     secondaryKeywords: [
       'make draw and color worksheets free online',
       'grid drawing generator no signup',
-      'free art activity worksheet maker',
+      'free art activity worksheet generator',
       'draw and color worksheets free trial',
     ],
     lsiKeywords: [
@@ -14,7 +14,7 @@ const content: ToolContent = {
       'instant draw and color maker',
       'try before you buy art tools',
     ],
-    titleTag: 'Free Draw and Color Worksheet Maker | LCS',
+    titleTag: 'Free Draw and Color Worksheet Generator | LCS',
     metaDescription: 'Make draw and color worksheets free online with watermark — no signup. Grid drawing activities, themed images, 300 DPI export. Upgrade to sell.',
   },
 
@@ -28,7 +28,7 @@ const content: ToolContent = {
     title: 'How to Make Draw and Color Worksheets Free in 8 Steps',
     steps: [
       {
-        title: 'Open the Draw & Color Worksheet Maker',
+        title: 'Open the Draw & Color Worksheet Generator',
         description: 'Click \"Try Free Now\" to launch the generator in your browser. The tool loads instantly with a settings sidebar on the left and a live preview canvas on the right. No account creation, no software download, no installation required — start building grid drawing worksheets immediately.',
       },
       {

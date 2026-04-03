@@ -37,7 +37,7 @@ const content: AppContent = {
       {
         title: 'Konfigurer gitterdimensioner og ledetrådsprocent',
         description:
-          'Indstil gitterets rækker (3–10) og kolonner (3–10) uafhængigt for at kontrollere celleantal og billedforhold. Et 3×3-gitter med 9 store celler er enkelt for begyndere; et 10×10-gitter med 100 små celler udfordrer avancerede brugere. Indstil derefter ledetrådsprocenten fra 10% til 75%. Ved 75% er det meste af referencebilledet synligt, og brugerne udfylder den resterende fjerdedel. Ved 10% ser brugerne kun spredte ledetråde og skal rekonstruere næsten hele billedet — en ægte udfordring selv for voksne. Denne ene skyder skaber en jævn sværhedskurve over hele dit produktsortiment.',
+          'Indstil gitterets rækker (3–10) og kolonner (3–10) uafhængigt for at kontrollere celleantal og billedforhold. Et 3×3-gitter med 9 store celler er enkelt for begyndere; et 10×10-gitter med 100 små celler udfordrer avancerede brugere. Indstil derefter ledetrådsprocenten fra 10% til 75%. Ved 75% er det meste af referencebilledet synligt, og brugerne udfylder den resterende fjerdedel. Ved 10% ser brugerne kun spredte ledetråde og skal rekonstruere næsten hele billedet — en ægte udfordring selv for voksne. Denne ene skyder generator en jævn sværhedskurve over hele dit produktsortiment.',
       },
       {
         title: 'Vælg symmetritilstand og vælg et sort-hvidt temabillede',
@@ -63,7 +63,7 @@ const content: AppContent = {
       {
         title: 'Dobbelt gittersystem: Øvelsesgitter og Ledetrådsgitter',
         description:
-          'Hvert billede genererer to ledsagergitre, der fungerer sammen som en komplet tegneøvelse. Øvelsesgitteret viser tomme celler med lette konturer, hvor brugerne tegner deres reproduktion. Ledetrådsgitteret viser en konfigurerbar brøkdel af referencebilledet — nogle celler udfyldt, andre tomme — så brugerne kan se delvise visuelle ledetråde og udfylde resten. Denne dobbelt-gitter-metode lærer observation, rumligt ræsonnement og finmotorisk kontrol samtidig. For sælgere skaber to-gitter-formatet et premiumprodukt, der adskiller sig fra enkle malebilleder, hvilket motiverer højere priser på Etsy.dk, Gumroad og KDP.',
+          'Hvert billede genererer to ledsagergitre, der fungerer sammen som en komplet tegneøvelse. Øvelsesgitteret viser tomme celler med lette konturer, hvor brugerne tegner deres reproduktion. Ledetrådsgitteret viser en konfigurerbar brøkdel af referencebilledet — nogle celler udfyldt, andre tomme — så brugerne kan se delvise visuelle ledetråde og udfylde resten. Denne dobbelt-gitter-metode lærer observation, rumligt ræsonnement og finmotorisk kontrol samtidig. For sælgere generator to-gitter-formatet et premiumprodukt, der adskiller sig fra enkle malebilleder, hvilket motiverer højere priser på Etsy.dk, Gumroad og KDP.',
       },
       {
         title: 'Justerbar ledetrådsprocent fra 10% til 75%',
@@ -109,7 +109,7 @@ const content: AppContent = {
       {
         title: 'Gitterritningspakker på Etsy.dk',
         description:
-          'Opret tematiske gitterritningspakker med progressiv sværhed baseret på ledetrådsprocent som sværhedsakse. Pak hvert tema i tre niveauer: Let (75% ledetråde, 4×4-gitter), Middel (40% ledetråde, 6×6-gitter) og Svær (15% ledetråde, 8×8-gitter). Pak bondegårdsdyr, dinosaurer, havdyr og køretøjer som separate temapakker med 15–25 arbejdsark hver. Det dobbelte gitterformat — øvelsesgitter plus ledetrådsgitter — skaber et premiumprodukt, der adskiller sig fra enkle malebilleder. Den sort-hvide konturstil indbyder til farvelægning efter tegning, hvilket tilføjer endnu et aktivitetsniveau, der øger oplevet værdi. Prissæt enkle temapakker til 25–40 kr og multipakker med progressiv sværhed til 100–150 kr.',
+          'Opret tematiske gitterritningspakker med progressiv sværhed baseret på ledetrådsprocent som sværhedsakse. Pak hvert tema i tre niveauer: Let (75% ledetråde, 4×4-gitter), Middel (40% ledetråde, 6×6-gitter) og Svær (15% ledetråde, 8×8-gitter). Pak bondegårdsdyr, dinosaurer, havdyr og køretøjer som separate temapakker med 15–25 arbejdsark hver. Det dobbelte gitterformat — øvelsesgitter plus ledetrådsgitter — generator et premiumprodukt, der adskiller sig fra enkle malebilleder. Den sort-hvide konturstil indbyder til farvelægning efter tegning, hvilket tilføjer endnu et aktivitetsniveau, der øger oplevet værdi. Prissæt enkle temapakker til 25–40 kr og multipakker med progressiv sværhed til 100–150 kr.',
         platform: 'Etsy (etsy.dk)',
       },
       {
@@ -153,7 +153,7 @@ const content: AppContent = {
     {
       question: 'Hvilke gitterstørrelser kan jeg konfigurere?',
       answer:
-        'Rækker og kolonner justeres uafhængigt fra 3 til 10. Et 3×3-gitter har 9 store celler — enkelt for unge brugere. Et 10×10-gitter har 100 små celler — krævende for avancerede brugere. Ikke-kvadratiske gitre som 4×6 eller 8×5 tilpasser sig til forskellige billedforhold. Gitterstørrelse og ledetrådsprocent skaber to uafhængige sværhedsaksler, så et 5×5-gitter ved 50% ledetråde er middelsværhedsgrad, mens et 10×10-gitter ved 10% ledetråde er ekspertniveau.',
+        'Rækker og kolonner justeres uafhængigt fra 3 til 10. Et 3×3-gitter har 9 store celler — enkelt for unge brugere. Et 10×10-gitter har 100 små celler — krævende for avancerede brugere. Ikke-kvadratiske gitre som 4×6 eller 8×5 tilpasser sig til forskellige billedforhold. Gitterstørrelse og ledetrådsprocent generator to uafhængige sværhedsaksler, så et 5×5-gitter ved 50% ledetråde er middelsværhedsgrad, mens et 10×10-gitter ved 10% ledetråde er ekspertniveau.',
     },
     {
       question: 'Hvordan fungerer symmetri- og spejltilstandene?',
@@ -193,7 +193,7 @@ const content: AppContent = {
     {
       question: 'Kan jeg sælge arbejdsark oprettet med dette værktøj på Etsy og Amazon KDP?',
       answer:
-        'Ja. Med en kommerciel licens har du fulde rettigheder til at sælge dine gitterritningsarbejdsark som digitale downloads på Etsy.dk, som trykte arbejdsbøger på Amazon KDP, som pædagogiske ressourcer på Gumroad eller via enhver anden salgskanal. Det dobbelte gitterformat, den justerbare ledetrådsprocent, symmetritilstandene og den sort-hvide konturstil skaber et distinkt produkt, der konkurrerer stærkt i tegning- og aktivitetsarbejdsark-kategorier.',
+        'Ja. Med en kommerciel licens har du fulde rettigheder til at sælge dine gitterritningsarbejdsark som digitale downloads på Etsy.dk, som trykte arbejdsbøger på Amazon KDP, som pædagogiske ressourcer på Gumroad eller via enhver anden salgskanal. Det dobbelte gitterformat, den justerbare ledetrådsprocent, symmetritilstandene og den sort-hvide konturstil generator et distinkt produkt, der konkurrerer stærkt i tegning- og aktivitetsarbejdsark-kategorier.',
     },
     {
       question: 'Hvad er returpolitikken?',

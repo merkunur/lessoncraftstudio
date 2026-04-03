@@ -2,11 +2,11 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'free prepositions worksheet maker',
+    primaryKeyword: 'free prepositions worksheet generator',
     secondaryKeywords: [
       'make preposition worksheets free online',
       'prepositions generator no signup',
-      'free ESL grammar worksheet maker',
+      'free ESL grammar worksheet generator',
       'prepositions worksheets free trial',
     ],
     lsiKeywords: [
@@ -14,7 +14,7 @@ const content: ToolContent = {
       'instant prepositions maker',
       'try before you buy ESL tools',
     ],
-    titleTag: 'Free Prepositions Worksheet Maker | LCS',
+    titleTag: 'Free Prepositions Worksheet Generator | LCS',
     metaDescription: 'Make preposition worksheets free online with watermark — no signup. Visual grammar activities, 11 languages, auto answer keys. Upgrade to sell.',
   },
 
@@ -28,7 +28,7 @@ const content: ToolContent = {
     title: 'How to Make Prepositions Worksheets Free in 8 Steps',
     steps: [
       {
-        title: 'Open the Prepositions Worksheet Maker',
+        title: 'Open the Prepositions Worksheet Generator',
         description: 'Click "Try Free Now" to launch the generator. The tool opens instantly in your browser with a settings sidebar on the left and a live preview canvas on the right. No account, download, or installation required.',
       },
       {

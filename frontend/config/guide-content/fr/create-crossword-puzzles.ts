@@ -5,7 +5,7 @@ const content: GuideContent = {
     primaryKeyword: 'créer des mots croisés à vendre en ligne',
     secondaryKeywords: [
       'générateur mots croisés pour enfants',
-      'créateur mots croisés imprimables',
+      'générateur mots croisés imprimables',
       'mots croisés en images à vendre',
       'mots croisés personnalisés avec indices visuels',
     ],

@@ -96,7 +96,7 @@ const content: GuideContent = {
 
   examples: [
     {
-      heading: 'Exempel: En hantverksfokuserad skapare expanderar till pedagogiska printables',
+      heading: 'Exempel: En hantverksfokuserad generator expanderar till pedagogiska printables',
       content: 'En designer som har sålt SVG-filer och clipart i ett år märker att hennes djurtematiserade grafik rankar bland hennes toppprodukter. Hon skapar pedagogiska printables med samma djurteman: matchningsarbetsblad, målarbilder och ordsökningar som matchar hennes befintliga varumärkesestetik. Inom tre månader står hennes pedagogiska produkter för 25% av hennes prenumerationsnedladdningar. Föräldrar som ursprungligen följde henne för Cricut-färdiga djur-SVG:er börjar ladda ner hennes djurtematiserade arbetsblad. Hon paketerar sin kompletta djursamling — arbetsblad, målarbilder och ordsökningar — till ett $12-paket som blir hennes starkaste individuella försäljningsprodukt.',
     },
     {

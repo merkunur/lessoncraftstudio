@@ -38,7 +38,7 @@ const content: ToolContent = {
     title: 'Como Criar Atividades de Puzzles de Peças Faltantes em 8 Passos',
     steps: [
       {
-        title: 'Abra o Criador de Atividades de Puzzles',
+        title: 'Abra o Gerador de Atividades de Puzzles',
         description: 'Clique em \"Teste Grátis Agora\" para abrir o gerador de atividades de puzzles no seu navegador. A ferramenta carrega instantaneamente com uma barra lateral de configurações à esquerda e um canvas de duplo aba à direita — um aba para a atividade e outro para o gabarito. Sem criar conta, sem baixar software, sem instalação — comece a criar atividades de puzzles de peças faltantes imediatamente.',
       },
       {

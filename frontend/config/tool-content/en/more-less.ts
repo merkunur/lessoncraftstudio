@@ -6,7 +6,7 @@ const content: ToolContent = {
     secondaryKeywords: [
       'make comparison worksheets free online',
       'more or less generator no signup',
-      'free number comparison worksheet maker',
+      'free number comparison worksheet generator',
       'greater less than worksheets free trial',
     ],
     lsiKeywords: [
@@ -201,7 +201,7 @@ const content: ToolContent = {
 
   internalLinks: [
     { pageType: 'app', slug: 'more-less-worksheets', anchorText: 'Remove watermark and sell commercially' },
-    { pageType: 'tool', slug: 'big-and-small-worksheet-maker', anchorText: 'Free size comparison worksheet maker' },
+    { pageType: 'tool', slug: 'big-and-small-worksheet-maker', anchorText: 'Free size comparison worksheet generator' },
     { pageType: 'guide', slug: 'sell-math-worksheets-etsy', anchorText: 'How to sell math worksheets on Etsy' },
   ],
 

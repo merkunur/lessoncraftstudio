@@ -2,10 +2,10 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'størrelsessammenligning arbejdsark skaber for børn',
+    primaryKeyword: 'størrelsessammenligning arbejdsark generator for børn',
     secondaryKeywords: [
       'stor og lille arbejdsark for førskolen',
-      'størrelsessammenligning skaber online',
+      'størrelsessammenligning generator online',
       'printbare størrelsessortering arbejdsark for børn',
       'stor lille medium arbejdsark for børnehaven',
     ],
@@ -14,21 +14,21 @@ const content: ToolContent = {
       'tekstfri størrelsessammenligning printbar',
       'stor lille rækkefølge aktivitet for førskolen',
     ],
-    titleTag: 'Størrelsessammenligning Arbejdsark Skaber — For Børn — Sælgerguide',
+    titleTag: 'Størrelsessammenligning Arbejdsark Generator — For Børn — Sælgerguide',
     metaDescription: 'Lav størrelsessammenligning arbejdsark for førskolen og børnehaven. Fem spørgsmålstyper, identiske og forskellige billedtilstande, 104 temaer. Gratis prøveversion med vandmærke.',
   },
 
   hero: {
-    title: 'Stor og Lille Arbejdsark Skaber',
+    title: 'Stor og Lille Arbejdsark Generator',
     tagline: 'Generér størrelsessammenligning arbejdsark med fem spørgsmålstyper, to billedtilstande og helt visuelt tekstfrit output, der sælger globalt uden oversættelse',
-    description: 'Lav professionelle størrelsessammenligning arbejdsark, hvor brugerne identificerer større, mindre og mellemstore billeder eller nummererer dem i størrelsesrækkefølge. Fem spørgsmålstyper dækker enhver størrelsesskelnelsesfærdighed: Sæt Ring om den Store, Sæt Ring om den Lille, Sæt Ring om den Mellemstore, Nummerer 1–2–3 Lille til Stor og Nummerer 1–2–3 Stor til Lille. To billedtilstande skaber fundamentalt forskellige øvelser fra det samme værktøj: Identiske Billeder viser det samme billede i forskellige størrelser for ren størrelsesopfattelse, mens Forskellige Billeder viser distinkte objekter i forskellige størrelser for relativ størrelsesvurdering. Indstil 1–10 øvelser per side med 2 eller 3 billeder per øvelse — to billeder for simple større/mindre sammenligninger, tre billeder for at introducere medium-alternativet og muliggøre rækkefølgeudfordringer. Hvert arbejdsark er helt visuelt med nul tekst i outputtet. Ingen ord vises på den genererede side — kun billeder og visuelle indikatorer. Dette gør dine arbejdsark universelt brugbare uanset sprog, læseniveau eller litteracitetsstatus, og universelt sælgbare uden oversættelse. Én produktannonce betjener hvert marked i verden. Hent fra mere end 3.100 illustrationer i 104 tematiske samlinger eller upload egne billeder. Det automatisk genererede facit markerer og cirkler korrekte svar for øjeblikkelig verifikation. Eksportér trykfærdige PDF\'er og JPEG-billeder med 300 DPI i Letter, A4, Kvadrat (1200×1200) eller tilpassede størrelser. Skift gråtone for blækvenligt output. Den gratis prøveversion indeholder alle funktioner med et vandmærke på downloads. Køb en licens for at fjerne vandmærket og sælge kommercielt.',
+    description: 'Lav professionelle størrelsessammenligning arbejdsark, hvor brugerne identificerer større, mindre og mellemstore billeder eller nummererer dem i størrelsesrækkefølge. Fem spørgsmålstyper dækker enhver størrelsesskelnelsesfærdighed: Sæt Ring om den Store, Sæt Ring om den Lille, Sæt Ring om den Mellemstore, Nummerer 1–2–3 Lille til Stor og Nummerer 1–2–3 Stor til Lille. To billedtilstande generator fundamentalt forskellige øvelser fra det samme værktøj: Identiske Billeder viser det samme billede i forskellige størrelser for ren størrelsesopfattelse, mens Forskellige Billeder viser distinkte objekter i forskellige størrelser for relativ størrelsesvurdering. Indstil 1–10 øvelser per side med 2 eller 3 billeder per øvelse — to billeder for simple større/mindre sammenligninger, tre billeder for at introducere medium-alternativet og muliggøre rækkefølgeudfordringer. Hvert arbejdsark er helt visuelt med nul tekst i outputtet. Ingen ord vises på den genererede side — kun billeder og visuelle indikatorer. Dette gør dine arbejdsark universelt brugbare uanset sprog, læseniveau eller litteracitetsstatus, og universelt sælgbare uden oversættelse. Én produktannonce betjener hvert marked i verden. Hent fra mere end 3.100 illustrationer i 104 tematiske samlinger eller upload egne billeder. Det automatisk genererede facit markerer og cirkler korrekte svar for øjeblikkelig verifikation. Eksportér trykfærdige PDF\'er og JPEG-billeder med 300 DPI i Letter, A4, Kvadrat (1200×1200) eller tilpassede størrelser. Skift gråtone for blækvenligt output. Den gratis prøveversion indeholder alle funktioner med et vandmærke på downloads. Køb en licens for at fjerne vandmærket og sælge kommercielt.',
   },
 
   tutorial: {
     title: 'Sådan Laver du Størrelsessammenligning Arbejdsark i 8 Enkle Trin',
     steps: [
       {
-        title: 'Åbn Stor og Lille Arbejdsark Skaberen',
+        title: 'Åbn Stor og Lille Arbejdsark Generatoren',
         description: 'Klik på \"Prøv gratis nu\" for at starte generatoren i din browser. Værktøjet indlæses direkte med et indstillingssidepanel til venstre og et liveforhåndsvisningsarbejdsområde til højre. Ingen konto, ingen download, ingen installation kræves — begynd at bygge størrelsessammenligning arbejdsark med det samme.',
       },
       {
@@ -45,7 +45,7 @@ const content: ToolContent = {
       },
       {
         title: 'Konfigurér øvelsesantal og billeder per øvelse',
-        description: 'Indstil antal øvelser per side fra 1 til 10. Vælg 2 eller 3 billeder per øvelse. To billeder skaber simple større/mindre sammenligninger. Tre billeder tilføjer medium-alternativet, aktiverer spørgsmålstypen Sæt Ring om den Mellemstore og gør nummereringsøvelser mere udfordrende med tre genstande at ordne.',
+        description: 'Indstil antal øvelser per side fra 1 til 10. Vælg 2 eller 3 billeder per øvelse. To billeder generator simple større/mindre sammenligninger. Tre billeder tilføjer medium-alternativet, aktiverer spørgsmålstypen Sæt Ring om den Mellemstore og gør nummereringsøvelser mere udfordrende med tre genstande at ordne.',
       },
       {
         title: 'Gennemse temaer eller upload egne billeder',
@@ -125,7 +125,7 @@ const content: ToolContent = {
   proTips: [
     {
       title: 'Brug spørgsmålstype som din primære sværhedsakse',
-      description: 'De fem spørgsmålstyper skaber en naturlig sværhedsprogression. Sæt Ring om den Store er enklest — brugerne opdager det åbenlyst største billede. Sæt Ring om den Lille er lidt sværere. Sæt Ring om den Mellemstore er den sværeste identifikationsopgave. Nummerer 1–2–3 rækkefølge kræver flertrins sekventering. Brug denne progression til at lave graduerede produktpakker fra én designsession.',
+      description: 'De fem spørgsmålstyper generator en naturlig sværhedsprogression. Sæt Ring om den Store er enklest — brugerne opdager det åbenlyst største billede. Sæt Ring om den Lille er lidt sværere. Sæt Ring om den Mellemstore er den sværeste identifikationsopgave. Nummerer 1–2–3 rækkefølge kræver flertrins sekventering. Brug denne progression til at lave graduerede produktpakker fra én designsession.',
     },
     {
       title: 'Udnyt Identisk vs. Forskellige tilstande for dobbelte produkter',
@@ -137,7 +137,7 @@ const content: ToolContent = {
     },
     {
       title: 'Match øvelsesantal til din målaldersgruppe',
-      description: 'For småbørn og førskolebørn (2–4 år), brug 2–3 store øvelser per side med 2 billeder hver for maksimal tydelighed. For børnehavebørn (4–6 år), brug 4–6 øvelser med 2 eller 3 billeder. For første klasse og op, 6–10 øvelser per side skaber effektive vurderingsark.',
+      description: 'For småbørn og førskolebørn (2–4 år), brug 2–3 store øvelser per side med 2 billeder hver for maksimal tydelighed. For børnehavebørn (4–6 år), brug 4–6 øvelser med 2 eller 3 billeder. For første klasse og op, 6–10 øvelser per side generator effektive vurderingsark.',
     },
     {
       title: 'Brug gråtoner til KDP og massetryk',
@@ -164,7 +164,7 @@ const content: ToolContent = {
     },
     {
       question: 'Hvad er forskellen mellem Identiske Billeder og Forskellige Billeder-tilstand?',
-      answer: 'Identiske Billeder-tilstand viser det samme billede i forskellige størrelser — for eksempel tre kopier af en kat i lille, medium og stor skala. Dette isolerer ren størrelsesopfattelse. Forskellige Billeder-tilstand viser distinkte objekter i forskellige størrelser, kræver relativ størrelsesvurdering. De to tilstande skaber fundamentalt forskellige øvelser og fordobler effektivt din produktvariation fra ét værktøj.',
+      answer: 'Identiske Billeder-tilstand viser det samme billede i forskellige størrelser — for eksempel tre kopier af en kat i lille, medium og stor skala. Dette isolerer ren størrelsesopfattelse. Forskellige Billeder-tilstand viser distinkte objekter i forskellige størrelser, kræver relativ størrelsesvurdering. De to tilstande generator fundamentalt forskellige øvelser og fordobler effektivt din produktvariation fra ét værktøj.',
     },
     {
       question: 'Hvorfor har arbejdsarkene ingen tekst?',
@@ -176,7 +176,7 @@ const content: ToolContent = {
     },
     {
       question: 'Hvordan fungerer facittet?',
-      answer: 'Det autogenererede facit skaber en løst version af dit arbejdsark. For cirkeltype-spørgsmål markeres og cirkles det korrekte billede visuelt. For nummereringsspørgsmål vises den korrekte størrelsesrækkefølge. Facittet downloades som en separat fil ved siden af arbejdsarket.',
+      answer: 'Det autogenererede facit generator en løst version af dit arbejdsark. For cirkeltype-spørgsmål markeres og cirkles det korrekte billede visuelt. For nummereringsspørgsmål vises den korrekte størrelsesrækkefølge. Facittet downloades som en separat fil ved siden af arbejdsarket.',
     },
     {
       question: 'Kan jeg indstille 2 eller 3 billeder per øvelse?',
@@ -202,13 +202,13 @@ const content: ToolContent = {
 
   internalLinks: [
     { pageType: 'app', slug: 'stor-lille-arbejdsark', anchorText: 'Stor og Lille Arbejdsark — Fulde Produktdetaljer' },
-    { pageType: 'tool', slug: 'moenstertog-skaber', anchorText: 'Mønstertog Skaber' },
-    { pageType: 'tool', slug: 'moenster-arbejdsark-skaber', anchorText: 'Mønster Arbejdsark Skaber' },
-    { pageType: 'tool', slug: 'tegn-og-farvelaeg-skaber', anchorText: 'Tegn og Farvelæg Skaber' },
-    { pageType: 'tool', slug: 'matchning-arbejdsark-skaber', anchorText: 'Matchning Arbejdsark Skaber' },
-    { pageType: 'tool', slug: 'find-den-underlige-skaber', anchorText: 'Find den Underlige Skaber' },
-    { pageType: 'tool', slug: 'skyggematchning-skaber', anchorText: 'Skyggematchning Skaber' },
-    { pageType: 'tool', slug: 'tegne-linjer-skaber', anchorText: 'Tegne Linjer Skaber' },
+    { pageType: 'tool', slug: 'moenstertog-skaber', anchorText: 'Mønstertog Generator' },
+    { pageType: 'tool', slug: 'moenster-arbejdsark-skaber', anchorText: 'Mønster Arbejdsark Generator' },
+    { pageType: 'tool', slug: 'tegn-og-farvelaeg-skaber', anchorText: 'Tegn og Farvelæg Generator' },
+    { pageType: 'tool', slug: 'matchning-arbejdsark-skaber', anchorText: 'Matchning Arbejdsark Generator' },
+    { pageType: 'tool', slug: 'find-den-underlige-skaber', anchorText: 'Find den Underlige Generator' },
+    { pageType: 'tool', slug: 'skyggematchning-skaber', anchorText: 'Skyggematchning Generator' },
+    { pageType: 'tool', slug: 'tegne-linjer-skaber', anchorText: 'Tegne Linjer Generator' },
   ],
 
   visuals: {

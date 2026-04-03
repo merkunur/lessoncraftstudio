@@ -2,24 +2,24 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'billeddiagram arbejdsark skaber for sælgere',
+    primaryKeyword: 'billeddiagram arbejdsark generator for sælgere',
     secondaryKeywords: [
-      'piktogram arbejdsark skaber online',
+      'piktogram arbejdsark generator online',
       'diagramtælling arbejdsark for børn',
       'printbare datadiagram arbejdsark for skolen',
-      'billeddiagram aktivitet skaber for sælgere',
+      'billeddiagram aktivitet generator for sælgere',
     ],
     lsiKeywords: [
       'spredt billedgitter tællearbejdsark',
-      'autofacit billeddiagram skaber',
+      'autofacit billeddiagram generator',
       'datarepræsentation arbejdsark online',
     ],
-    titleTag: 'Billeddiagram Arbejdsark Skaber — online | Online Værktøj',
+    titleTag: 'Billeddiagram Arbejdsark Generator — online | Online Værktøj',
     metaDescription: 'Lav billeddiagram arbejdsark til matematik. Spredte 4×5 gitre, 6 billedtyper, automatiske facit, 11 sprog, 104 temaer. Gratis prøveversion med vandmærke.',
   },
 
   hero: {
-    title: 'Diagramtælling Arbejdsark Skaber',
+    title: 'Diagramtælling Arbejdsark Generator',
     tagline: 'Billeddiagram arbejdsark generator med spredte billedgitre, automatisk genererede søjlediagram-facit, lokaliserede overskrifter på 11 sprog og 104 tematiske billedsamlinger for datarepræsentations arbejdsark, der sælger globalt',
     description: 'Lav professionelle billeddiagram arbejdsark, hvor brugerne tæller spredte billeder og udfylder et søjlediagram nedenfor — underviser i dataindsamling og datarepræsentation i én enkelt aktivitet. Hvert arbejdsark har et 4×5-gitter med 20 ikoner fra 6 forskellige billedtyper, hver type forekommer 1–5 gange i en tilfældig fordeling, der gør hver generering unik. Under gitteret viser et søjlediagram med 6 kolonner × 5 rækker, hvor brugerne registrerer deres tælleresultater. Appen genererer samtidigt et facit på en separat arbejdsområdefane med gulmarkerede (#FFC857) celler, der viser de korrekte antal. Vælg billeder automatisk ved at vælge et tema fra dropdown — appen vælger tilfældigt 6 billeder — eller gennemse Billedbiblioteket manuelt med mere end 3.100 illustrationer i 104 tematiske samlinger og klik præcis 6 billeder. Hvert arbejdsark inkluderer en automatisk genereret overskrift med en lokaliseret \"Billeddiagram\"-titel, der tilpasses til alle 11 understøttede sprog. Tilføj navn- og datofelter med et enkelt afkrydsningsfelt. Anvend både baggrundstemaer og rammetemaer med uafhængige gennemsigtighedsskydere (0–1, trin 0,05). Diagramtælling Generatoren er ikke sprogfølsom — visuel tælling med universelle tal og billeder gør arbejdsarkene identisk brugbare på alle sprog. Download fire filer per session: arbejdsark-JPEG, arbejdsark-PDF, facit-JPEG og facit-PDF — alle med 300 DPI. Eksportér i Letter, A4, Kvadrat (1200×1200) eller tilpassede størrelser med gråtonekontakt for blækvenligt output. Den gratis prøveversion indeholder alle funktioner med et vandmærke. Køb en licens for at fjerne vandmærket og sælge kommercielt.',
   },
@@ -28,7 +28,7 @@ const content: ToolContent = {
     title: 'Sådan Laver du Billeddiagram Arbejdsark i 8 Trin',
     steps: [
       {
-        title: 'Åbn Diagramtælling Arbejdsark Skaberen',
+        title: 'Åbn Diagramtælling Arbejdsark Generatoren',
         description: 'Klik på \"Prøv gratis nu\" for at starte billeddiagram-generatoren i din browser. Værktøjet indlæses direkte med et indstillingssidepanel til venstre og et dobbeltfane-arbejdsområde til højre — en fane for arbejdsarket, en for facittet. Ingen konto, ingen download, ingen installation kræves.',
       },
       {
@@ -107,7 +107,7 @@ const content: ToolContent = {
     },
     {
       title: 'Pinterest billeddiagram trafiktragt',
-      description: 'Billeddiagram arbejdsark gør visuelt slående Pinterest-pins — det farverige spredte billedgitter og strukturerede søjlediagram skaber et øjeblikkeligt genkendeligt uddannelsesformat. Pin prøvearbejdsark, der viser forskellige temaer med det autogenererede facit side om side.',
+      description: 'Billeddiagram arbejdsark gør visuelt slående Pinterest-pins — det farverige spredte billedgitter og strukturerede søjlediagram generator et øjeblikkeligt genkendeligt uddannelsesformat. Pin prøvearbejdsark, der viser forskellige temaer med det autogenererede facit side om side.',
       platform: 'Pinterest',
     },
     {
@@ -133,7 +133,7 @@ const content: ToolContent = {
     },
     {
       title: 'Brug både baggrunds- og rammetemaer sammen',
-      description: 'I modsætning til apps med kun rammetemaer tilbyder Diagramtælling Generatoren uafhængige baggrunds- og rammetemaer med separate gennemsigtighedskontroller. Indstil en subtil akvarelbaggrund ved 15–25% gennemsigtighed og lagdel en dekorativ ramme ved 80–100% gennemsigtighed. Denne dobbelt-temametode skaber professionelt udseende arbejdsark, der skiller sig ud.',
+      description: 'I modsætning til apps med kun rammetemaer tilbyder Diagramtælling Generatoren uafhængige baggrunds- og rammetemaer med separate gennemsigtighedskontroller. Indstil en subtil akvarelbaggrund ved 15–25% gennemsigtighed og lagdel en dekorativ ramme ved 80–100% gennemsigtighed. Denne dobbelt-temametode generator professionelt udseende arbejdsark, der skiller sig ud.',
     },
     {
       title: 'Ret dig mod datarepræsentations produktkatalog-nichen',
@@ -202,13 +202,13 @@ const content: ToolContent = {
 
   internalLinks: [
     { pageType: 'app', slug: 'billediagram-arbejdsark', anchorText: 'Diagramtælling Arbejdsark — Fulde Produktdetaljer' },
-    { pageType: 'tool', slug: 'stor-lille-arbejdsark-skaber', anchorText: 'Stor og Lille Arbejdsark Skaber' },
-    { pageType: 'tool', slug: 'moenstertog-skaber', anchorText: 'Mønstertog Skaber' },
-    { pageType: 'tool', slug: 'tegn-og-farvelaeg-skaber', anchorText: 'Tegn og Farvelæg Skaber' },
-    { pageType: 'tool', slug: 'linjeovelser-skaber', anchorText: 'Tegne Linjer Skaber' },
-    { pageType: 'tool', slug: 'farvelaegningssider-skaber', anchorText: 'Malebilleder Skaber' },
-    { pageType: 'tool', slug: 'matchning-arbejdsark-skaber', anchorText: 'Matchning Arbejdsark Skaber' },
-    { pageType: 'tool', slug: 'additions-arbejdsark-skaber', anchorText: 'Additions Arbejdsark Skaber' },
+    { pageType: 'tool', slug: 'stor-lille-arbejdsark-skaber', anchorText: 'Stor og Lille Arbejdsark Generator' },
+    { pageType: 'tool', slug: 'moenstertog-skaber', anchorText: 'Mønstertog Generator' },
+    { pageType: 'tool', slug: 'tegn-og-farvelaeg-skaber', anchorText: 'Tegn og Farvelæg Generator' },
+    { pageType: 'tool', slug: 'linjeovelser-skaber', anchorText: 'Tegne Linjer Generator' },
+    { pageType: 'tool', slug: 'farvelaegningssider-skaber', anchorText: 'Malebilleder Generator' },
+    { pageType: 'tool', slug: 'matchning-arbejdsark-skaber', anchorText: 'Matchning Arbejdsark Generator' },
+    { pageType: 'tool', slug: 'additions-arbejdsark-skaber', anchorText: 'Additions Arbejdsark Generator' },
   ],
 
   visuals: {

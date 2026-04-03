@@ -7,7 +7,7 @@ const content: ToolContent = {
       'lijnen trekken werkbladen online maken',
       'trekwerkbladen fijne motoriek gratis proberen',
       'lijntraceer werkbladen generator gratis online',
-      'fijne motoriek werkblad maker acht sjablonen',
+      'fijne motoriek werkblad generator acht sjablonen',
     ],
     lsiKeywords: [
       'fijne motoriek werkblad tool gratis online',
@@ -28,7 +28,7 @@ const content: ToolContent = {
     title: 'Trekwerkbladen gratis maken in 8 stappen',
     steps: [
       {
-        title: 'Open de Lijnen Trekken Werkblad Maker',
+        title: 'Open de Lijnen Trekken Werkblad Generator',
         description: 'Klik op "Gratis proefversie" om de generator te starten in je browser. De tool laadt direct met een instellingenzijbalk links en een live voorbeeldcanvas rechts. Geen account aanmaken, geen software downloaden, geen installatie nodig — begin onmiddellijk met het maken van lijntraceer werkbladen.',
       },
       {
@@ -202,13 +202,13 @@ const content: ToolContent = {
 
   internalLinks: [
     { pageType: 'app', slug: 'lijnen-trekken-werkbladen', anchorText: 'Watermerk verwijderen en verkopen met commerciële licentie' },
-    { pageType: 'tool', slug: 'rastertekenen-maker', anchorText: 'Rastertekenen Werkblad Maker' },
+    { pageType: 'tool', slug: 'rastertekenen-maker', anchorText: 'Rastertekenen Werkblad Generator' },
     { pageType: 'tool', slug: 'kleurplaten-maker', anchorText: 'Kleurplaten Maker' },
-    { pageType: 'tool', slug: 'groot-klein-werkblad-maker', anchorText: 'Groot & Klein Werkblad Maker' },
-    { pageType: 'tool', slug: 'patroontrein-maker', anchorText: 'Patroontrein Werkblad Maker' },
-    { pageType: 'tool', slug: 'koppelen-werkblad-maker', anchorText: 'Matching Werkblad Maker' },
-    { pageType: 'tool', slug: 'schaduw-koppelen-maker', anchorText: 'Schaduw Matching Werkblad Maker' },
-    { pageType: 'tool', slug: 'schrijfoefeningen-maker', anchorText: 'Schrijfoefeningen Werkblad Maker' },
+    { pageType: 'tool', slug: 'groot-klein-werkblad-generator', anchorText: 'Groot & Klein Werkblad Generator' },
+    { pageType: 'tool', slug: 'patroontrein-maker', anchorText: 'Patroontrein Werkblad Generator' },
+    { pageType: 'tool', slug: 'koppelen-werkblad-generator', anchorText: 'Matching Werkblad Generator' },
+    { pageType: 'tool', slug: 'schaduw-koppelen-maker', anchorText: 'Schaduw Matching Werkblad Generator' },
+    { pageType: 'tool', slug: 'schrijfoefeningen-maker', anchorText: 'Schrijfoefeningen Werkblad Generator' },
   ],
 
   visuals: {

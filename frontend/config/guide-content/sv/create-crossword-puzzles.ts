@@ -5,7 +5,7 @@ const content: GuideContent = {
     primaryKeyword: 'skapa korsord att sälja online',
     secondaryKeywords: [
       'korsordspussel generator för barn',
-      'utskriftsbar korsord-skapare',
+      'utskriftsbar korsord-generator',
       'korsordspussel att sälja',
       'anpassat korsord med bildledtrådar',
     ],

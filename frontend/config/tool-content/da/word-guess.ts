@@ -4,7 +4,7 @@ const content: ToolContent = {
   seo: {
     primaryKeyword: 'gæt ordet arbejdsark generator',
     secondaryKeywords: [
-      'gæt ordet arbejdsark skaber for sælgere',
+      'gæt ordet arbejdsark generator for sælgere',
       'opret stavningsgætning arbejdsark til salg',
       'printbare ordbyggende arbejdsark kommercielt brug',
       'gæt ordet generator til KDP',
@@ -28,7 +28,7 @@ const content: ToolContent = {
     title: 'Sådan Opretter du Gæt Ordet Arbejdsark i 8 Enkle Trin',
     steps: [
       {
-        title: 'Åbn Gæt Ordet Arbejdsark Skaberen',
+        title: 'Åbn Gæt Ordet Arbejdsark Generatoren',
         description: 'Klik på \"Prøv gratis nu\" for at starte generatoren. Værktøjet åbner direkte i din webbrowser med et indstillingssidepanel til venstre og et liveforhåndsvisnings-lærred til højre. Ingen konto, download eller installation krævet.',
       },
       {
@@ -202,13 +202,13 @@ const content: ToolContent = {
 
   internalLinks: [
     { pageType: 'app', slug: 'gaet-ordet-arbejdsark', anchorText: 'Gæt Ordet Arbejdsark — Komplette Produktdetaljer' },
-    { pageType: 'tool', slug: 'alfabettog-skaber', anchorText: 'Alfabettog Skaber' },
-    { pageType: 'tool', slug: 'praepositioner-arbejdsark-skaber', anchorText: 'Præpositioner Arbejdsark Skaber' },
-    { pageType: 'tool', slug: 'ordmix-skaber', anchorText: 'Bogstavrod Skaber' },
-    { pageType: 'tool', slug: 'ordsoegning-skaber', anchorText: 'Ordsøgning Skaber' },
-    { pageType: 'tool', slug: 'kryptogram-skaber', anchorText: 'Kryptogram Skaber' },
-    { pageType: 'tool', slug: 'skriveovelser-skaber', anchorText: 'Skriveøvelser Skaber' },
-    { pageType: 'tool', slug: 'matchnings-arbejdsark-skaber', anchorText: 'Matchnings Arbejdsark Skaber' },
+    { pageType: 'tool', slug: 'alfabettog-skaber', anchorText: 'Alfabettog Generator' },
+    { pageType: 'tool', slug: 'praepositioner-arbejdsark-skaber', anchorText: 'Præpositioner Arbejdsark Generator' },
+    { pageType: 'tool', slug: 'ordmix-skaber', anchorText: 'Bogstavrod Generator' },
+    { pageType: 'tool', slug: 'ordsoegning-skaber', anchorText: 'Ordsøgning Generator' },
+    { pageType: 'tool', slug: 'kryptogram-skaber', anchorText: 'Kryptogram Generator' },
+    { pageType: 'tool', slug: 'skriveovelser-skaber', anchorText: 'Skriveøvelser Generator' },
+    { pageType: 'tool', slug: 'matchnings-arbejdsark-skaber', anchorText: 'Matchnings Arbejdsark Generator' },
   ],
 
   visuals: {

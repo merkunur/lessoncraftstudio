@@ -159,7 +159,7 @@ const content: GuideContent = {
     { pageType: 'start', slug: 'kommerzielle-lizenz-leitfaden', anchorText: 'Leitfaden für kommerzielle Lizenzen' },
     { pageType: 'app', slug: 'schreibuebungen-arbeitsblaetter', anchorText: 'Schreibübungen-Generator — Alle Details' },
     { pageType: 'app', slug: 'alphabet-zug-arbeitsblaetter', anchorText: 'Alphabet-Zug-Generator — Alle Details' },
-    { pageType: 'tool', slug: 'schreibuebungen-ersteller', anchorText: 'Den Schreibübungen-Ersteller ausprobieren' },
+    { pageType: 'tool', slug: 'schreibuebungen-ersteller', anchorText: 'Den Schreibübungen-Generator ausprobieren' },
   ],
 
   toolsRecommended: [

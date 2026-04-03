@@ -7,7 +7,7 @@ const content: ToolContent = {
       'Suchen-und-Zählen-Arbeitsblätter kostenlos erstellen',
       'Suchbild-Generator online ohne Anmeldung',
       'kostenlose Ich-sehe-was-Rätsel mit Lösungsschlüssel',
-      'Suchen-und-Zählen Ersteller mit Buchstabenerkennung kostenlos',
+      'Suchen-und-Zählen Generator mit Buchstabenerkennung kostenlos',
     ],
     lsiKeywords: [
       'Suchbild Einkreisen Zählen Aufgabentypen',
@@ -28,7 +28,7 @@ const content: ToolContent = {
     title: 'Suchbild-Arbeitsblätter erstellen in 8 Schritten',
     steps: [
       {
-        title: 'Suchen-und-Zählen-Ersteller öffnen',
+        title: 'Suchen-und-Zählen-Generator öffnen',
         description: 'Klicken Sie auf \"Kostenlos testen\", um den Suchbild-Arbeitsblatt-Generator in Ihrem Browser zu starten. Das Tool lädt sofort mit einer Einstellungsleiste links und einer Dual-Tab-Arbeitsfläche rechts — ein Tab für das Arbeitsblatt, einer für den Lösungsschlüssel. Die App generiert beim Laden automatisch ein vollständiges Suchbild-Arbeitsblatt mit dem Thema Tiere, 4 zufällig ausgewählten Bildern, zufällig zugewiesenen Aufgabentypen und einem 6×6-Raster — eine sofortige Vorschau der Generierungsergebnisse. Keine Kontoerstellung, kein Software-Download, keine Installation erforderlich.',
       },
       {
@@ -206,13 +206,13 @@ const content: ToolContent = {
 
   internalLinks: [
     { pageType: 'app', slug: 'suchen-und-zaehlen-arbeitsblaetter', anchorText: 'Suchbild- und Suchen-und-Zählen-Aktivitäten — Vollständige Produktdetails' },
-    { pageType: 'tool', slug: 'suchbilder-ersteller', anchorText: 'Suchbilder-Ersteller' },
-    { pageType: 'tool', slug: 'bilderkreuzwortraetsel-ersteller', anchorText: 'Bilderkreuzworträtsel-Ersteller' },
-    { pageType: 'tool', slug: 'schatzsuche-ersteller', anchorText: 'Schatzsuche-Ersteller' },
-    { pageType: 'tool', slug: 'wortsuche-ersteller', anchorText: 'Wortsuche-Ersteller' },
-    { pageType: 'tool', slug: 'bilderpfad-ersteller', anchorText: 'Bilderpfad-Labyrinth-Ersteller' },
-    { pageType: 'tool', slug: 'zuordnungs-arbeitsblatt-ersteller', anchorText: 'Zuordnungs-Arbeitsblatt-Ersteller' },
-    { pageType: 'tool', slug: 'malvorlagen-ersteller', anchorText: 'Malvorlagen-Ersteller' },
+    { pageType: 'tool', slug: 'suchbilder-ersteller', anchorText: 'Suchbilder-Generator' },
+    { pageType: 'tool', slug: 'bilderkreuzwortraetsel-ersteller', anchorText: 'Bilderkreuzworträtsel-Generator' },
+    { pageType: 'tool', slug: 'schatzsuche-ersteller', anchorText: 'Schatzsuche-Generator' },
+    { pageType: 'tool', slug: 'wortsuche-ersteller', anchorText: 'Wortsuche-Generator' },
+    { pageType: 'tool', slug: 'bilderpfad-ersteller', anchorText: 'Bilderpfad-Labyrinth-Generator' },
+    { pageType: 'tool', slug: 'zuordnungs-Arbeitsblatt-Generator', anchorText: 'Zuordnungs-Arbeitsblatt-Generator' },
+    { pageType: 'tool', slug: 'malvorlagen-ersteller', anchorText: 'Malvorlagen-Generator' },
   ],
 
   visuals: {

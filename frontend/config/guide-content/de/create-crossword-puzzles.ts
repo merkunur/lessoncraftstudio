@@ -159,7 +159,7 @@ const content: GuideContent = {
     { pageType: 'start', slug: 'kommerzielle-lizenz-leitfaden', anchorText: 'Leitfaden für kommerzielle Lizenzen' },
     { pageType: 'app', slug: 'bilderkreuzwortraetsel-arbeitsblaetter', anchorText: 'Kreuzworträtsel-Generator — Alle Details' },
     { pageType: 'app', slug: 'wortsuche-arbeitsblaetter', anchorText: 'Wortsuchrätsel-Generator — Alle Details' },
-    { pageType: 'tool', slug: 'bilderkreuzwortraetsel-ersteller', anchorText: 'Den Kreuzworträtsel-Ersteller ausprobieren' },
+    { pageType: 'tool', slug: 'bilderkreuzwortraetsel-ersteller', anchorText: 'Den Kreuzworträtsel-Generator ausprobieren' },
   ],
 
   toolsRecommended: [

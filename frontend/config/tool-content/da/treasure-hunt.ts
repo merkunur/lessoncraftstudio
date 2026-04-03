@@ -2,33 +2,33 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'skattejagt arbejdsark skaber til udskrift',
+    primaryKeyword: 'skattejagt arbejdsark generator til udskrift',
     secondaryKeywords: [
-      'skattejagt arbejdsark skaber for sælgere',
+      'skattejagt arbejdsark generator for sælgere',
       'lav retningspuslespil til salg',
       'printbar skattejagt generator kommerciel brug',
-      'skattejagt puslespil skaber til KDP og Etsy',
+      'skattejagt puslespil generator til KDP og Etsy',
     ],
     lsiKeywords: [
-      'to retningstyper grundlæggende kardinal koordinatgitter skaber',
+      'to retningstyper grundlæggende kardinal koordinatgitter generator',
       'sprogafhængige lokaliserede retningsledetråde 11 sprog',
       'automatisk facit markeret skattecelle dobbelt lærredssystem',
     ],
-    titleTag: 'Skattejagt Skaber — Skattejagt Arbejdsark Generator',
+    titleTag: 'Skattejagt Generator — Skattejagt Arbejdsark Generator',
     metaDescription: 'Lav skattejagt arbejdsark på 5×5 gitter med to retningstyper, tematiske landemærker, automatisk facit og 104 billedsamlinger. Gratis prøveversion med vandmærke.',
   },
 
   hero: {
-    title: 'Skattejagt Skaber',
+    title: 'Skattejagt Generator',
     tagline: 'Vejfindende skattejagt arbejdsark-generator med fast 5×5 koordinatgitter (A–E rækker, 1–5 kolonner), to retningstyper (Grundlæggende: op/ned/venstre/højre for førskole til 1. klasse, og Kardinal: nord/syd/øst/vest for 2. klasse+), 6 tematiske landemærkebilleder, præcis 4 retningsbevægelser per puslespil, automatisk genereret facit med lysegul markeret skattecelle via dobbelt lærredssystem, fuldt lokaliserede retningsledetråde på 11 sprog og en skattejagt-tematiseret tealoverskrift (#2C8C7C) med gylden Fredoka-titel over 104 tematiske billedsamlinger',
-    description: 'Lav professionelle skattejagt arbejdsark, hvor brugere følger sekventielle retningsledetråde for at finde skjult skat på et 5×5 koordinatgitter mærket med bogstavrækker (A–E) og nummerkolonner (1–5). Hvert puslespil spreder 6 tematiske billeder over gitteret som visuelle landemærker, genererer derefter en startposition og præcis 4 retningsbevægelser, der fører til skattecellen. Arbejdsarket viser 5 instruktionslinjer: \"Begynd ved [celle]\" efterfulgt af 4 \"Flyt [retning] [antal] felt(er)\" ledetråde, afsluttende med \"Hvor er skatten?\" Vælg mellem to retningstyper. Grundlæggende tilstand bruger op, ned, venstre og højre for førskole til 1. klasse. Kardinaltilstand bruger nord, syd, øst og vest for 2. klasse og op. Skattejagt Skaberen er sprogafhængig: retningsledetråde og billedindhold ændres begge, når du skifter sprog. Alle retninger er fuldt oversat til 11 understøttede sprog. Det dobbelte lærredssystem genererer både en arbejdsarks-fane og en facit-fane — facittet markerer den endelige skattecelle i lysegul (rgba(255, 250, 205, 0.8)) med en mørkegrå ramme. Hvert puslespil inkluderer en skattejagt-tematiseret automatisk genereret overskrift med teal baggrund (#2C8C7C), ravgul ydre ramme (#D4A574), sandbeige indre ramme (#F4E4C1) og gylden titel (#D4A017) i Fredoka. Gennemse 104 temasamlinger med 3.100+ illustrationer eller upload egne billeder. Eksportér trykfærdige PDF\'er og JPEG\'er i 300 DPI. Skift gråtone. Den gratis prøveversion indeholder alle funktioner med vandmærke. Køb en licens for at fjerne vandmærket og sælge kommercielt.',
+    description: 'Lav professionelle skattejagt arbejdsark, hvor brugere følger sekventielle retningsledetråde for at finde skjult skat på et 5×5 koordinatgitter mærket med bogstavrækker (A–E) og nummerkolonner (1–5). Hvert puslespil spreder 6 tematiske billeder over gitteret som visuelle landemærker, genererer derefter en startposition og præcis 4 retningsbevægelser, der fører til skattecellen. Arbejdsarket viser 5 instruktionslinjer: \"Begynd ved [celle]\" efterfulgt af 4 \"Flyt [retning] [antal] felt(er)\" ledetråde, afsluttende med \"Hvor er skatten?\" Vælg mellem to retningstyper. Grundlæggende tilstand bruger op, ned, venstre og højre for førskole til 1. klasse. Kardinaltilstand bruger nord, syd, øst og vest for 2. klasse og op. Skattejagt Generatoren er sprogafhængig: retningsledetråde og billedindhold ændres begge, når du skifter sprog. Alle retninger er fuldt oversat til 11 understøttede sprog. Det dobbelte lærredssystem genererer både en arbejdsarks-fane og en facit-fane — facittet markerer den endelige skattecelle i lysegul (rgba(255, 250, 205, 0.8)) med en mørkegrå ramme. Hvert puslespil inkluderer en skattejagt-tematiseret automatisk genereret overskrift med teal baggrund (#2C8C7C), ravgul ydre ramme (#D4A574), sandbeige indre ramme (#F4E4C1) og gylden titel (#D4A017) i Fredoka. Gennemse 104 temasamlinger med 3.100+ illustrationer eller upload egne billeder. Eksportér trykfærdige PDF\'er og JPEG\'er i 300 DPI. Skift gråtone. Den gratis prøveversion indeholder alle funktioner med vandmærke. Køb en licens for at fjerne vandmærket og sælge kommercielt.',
   },
 
   tutorial: {
     title: 'Sådan Laver du Skattejagt Arbejdsark i 8 Trin',
     steps: [
       {
-        title: 'Åbn Skattejagt Skaberen',
+        title: 'Åbn Skattejagt Generatoren',
         description: 'Klik på \"Prøv gratis nu\" for at starte skattejagt arbejdsark-generatoren i din browser. Værktøjet indlæses direkte med et indstillingssidepanel til venstre og et dobbeltfane-lærred til højre. Ingen konto, ingen download, ingen installation kræves.',
       },
       {
@@ -41,7 +41,7 @@ const content: ToolContent = {
       },
       {
         title: 'Vælg dit indholdssprog',
-        description: 'Vælg indholdssprog for at styre retningsteksten på arbejdsarket. Skattejagt Skaberen er sprogafhængig — alle retninger er fuldt oversat til 11 understøttede sprog. \"Begynd ved\", \"Flyt\", retningsord, \"felt(er)\" og \"Hvor er skatten?\" lokaliseres alle. At skifte sprog producerer autentiske skattejagt arbejdsark på modersmål.',
+        description: 'Vælg indholdssprog for at styre retningsteksten på arbejdsarket. Skattejagt Generatoren er sprogafhængig — alle retninger er fuldt oversat til 11 understøttede sprog. \"Begynd ved\", \"Flyt\", retningsord, \"felt(er)\" og \"Hvor er skatten?\" lokaliseres alle. At skifte sprog producerer autentiske skattejagt arbejdsark på modersmål.',
       },
       {
         title: 'Vælg billeder til 5×5 gitteret',
@@ -49,7 +49,7 @@ const content: ToolContent = {
       },
       {
         title: 'Generér skattejagts puslespillet',
-        description: 'Klik på Generér for at lave vejfindende puslespillet på 5×5 koordinatgitteret (A–E rækker, 1–5 kolonner). Generatoren spreder dine 6 valgte billeder over de 25 celler som visuelle landemærker, vælger en tilfældig startcelle og skaber præcis 4 retningsbevægelser. Arbejdsarket viser 5 instruktionslinjer med en skattejagt-tematiseret overskrift med teal baggrund (#2C8C7C) og gylden titel.',
+        description: 'Klik på Generér for at lave vejfindende puslespillet på 5×5 koordinatgitteret (A–E rækker, 1–5 kolonner). Generatoren spreder dine 6 valgte billeder over de 25 celler som visuelle landemærker, vælger en tilfældig startcelle og generator præcis 4 retningsbevægelser. Arbejdsarket viser 5 instruktionslinjer med en skattejagt-tematiseret overskrift med teal baggrund (#2C8C7C) og gylden titel.',
       },
       {
         title: 'Gennemse det automatisk genererede facit',
@@ -65,7 +65,7 @@ const content: ToolContent = {
   whatYouCanCreate: [
     {
       title: 'Tematiske skattejagtpakker per billedsamling',
-      description: 'Lav skattejagtpakker organiseret efter tema med de 104 billedsamlinger — dyreskattejagter, havskattejagter, rumskattejagter, dinosaurskattejagter, højtidsskattejagter og snesevis flere. Generér fra Tema autovælger 6 tilfældige billeder og skaber unikke startpositioner og bevægelsessekvenser per generering, så hvert klik producerer et helt anderledes puslespil. Pakér 10–20 skattejagt arbejdsark per tema med autogenererede facit.',
+      description: 'Lav skattejagtpakker organiseret efter tema med de 104 billedsamlinger — dyreskattejagter, havskattejagter, rumskattejagter, dinosaurskattejagter, højtidsskattejagter og snesevis flere. Generér fra Tema autovælger 6 tilfældige billeder og generator unikke startpositioner og bevægelsessekvenser per generering, så hvert klik producerer et helt anderledes puslespil. Pakér 10–20 skattejagt arbejdsark per tema med autogenererede facit.',
     },
     {
       title: 'Progressive retningsfærdigheds arbejdsbøger',
@@ -107,12 +107,12 @@ const content: ToolContent = {
     },
     {
       title: 'Flersproget retningsordforråds forretning',
-      description: 'De fuldt lokaliserede retningsledetråde skaber autentiske skattejagts puslespil på modersmål, når du skifter sprog. Al instruktionstekst oversættes til 11 understøttede sprog. Lav sprogspecifikke skattejagtpakker for ESL/EFL-købere. Ét puslespildesign genererer 11 sælgbare sprogversioner.',
+      description: 'De fuldt lokaliserede retningsledetråde generator autentiske skattejagts puslespil på modersmål, når du skifter sprog. Al instruktionstekst oversættes til 11 understøttede sprog. Lav sprogspecifikke skattejagtpakker for ESL/EFL-købere. Ét puslespildesign genererer 11 sælgbare sprogversioner.',
       platform: 'Etsy / Gumroad',
     },
     {
       title: 'Pinterest skattejagt arbejdsark trafiktragt',
-      description: 'Skattejagt arbejdsark med farverige koordinatgitre og spredte tematiske billeder skaber visuelt overbevisende Pinterest-pins. Pin prøvearbejdsark, der viser 5×5 gitteret med retningsledetråde og tematiske landemærker. Inkludér facitforhåndsvisninger med lysegult markeret skattecelle.',
+      description: 'Skattejagt arbejdsark med farverige koordinatgitre og spredte tematiske billeder generator visuelt overbevisende Pinterest-pins. Pin prøvearbejdsark, der viser 5×5 gitteret med retningsledetråde og tematiske landemærker. Inkludér facitforhåndsvisninger med lysegult markeret skattecelle.',
       platform: 'Pinterest',
     },
     {
@@ -125,11 +125,11 @@ const content: ToolContent = {
   proTips: [
     {
       title: 'Brug begge retningstyper for progressiv sværhed inden for hvert pakke',
-      description: 'Inkludér både grundlæggende (op/ned/venstre/højre) og kardinale (nord/syd/øst/vest) retningsarbejdsark i hvert pakke. Begynd med grundlæggende retningsskattejagter og følg op med kardinale retningsversioner med de samme temaer. Denne progression skaber struktureret sværhedsvækst.',
+      description: 'Inkludér både grundlæggende (op/ned/venstre/højre) og kardinale (nord/syd/øst/vest) retningsarbejdsark i hvert pakke. Begynd med grundlæggende retningsskattejagter og følg op med kardinale retningsversioner med de samme temaer. Denne progression generator struktureret sværhedsvækst.',
     },
     {
       title: 'Klik på Generér gentagne gange for hurtig batchproduktion',
-      description: 'Hvert klik på Generér-knappen skaber et helt unikt skattejagts puslespil — anderledes tilfældig billedplacering, anderledes startposition og anderledes bevægelsessekvens — selv med det samme tema og retningstype valgt. Batchproducér 10+ unikke skattejagter per tema på minutter.',
+      description: 'Hvert klik på Generér-knappen generator et helt unikt skattejagts puslespil — anderledes tilfældig billedplacering, anderledes startposition og anderledes bevægelsessekvens — selv med det samme tema og retningstype valgt. Batchproducér 10+ unikke skattejagter per tema på minutter.',
     },
     {
       title: 'Udnyt lokaliserede retninger for flersprogede skattejagtsprodukter',
@@ -171,12 +171,12 @@ const content: ToolContent = {
       answer: 'Dobbelt lærredssystem med en Arbejdsarks-fane og en Facit-fane. Arbejdsarket viser 5×5 gitteret med spredte billeder og retningsledetråde. Facittet gengiver det identiske layout og markerer den endelige skattecelle i lysegul (rgba(255, 250, 205, 0.8)) med en mørkegrå ramme. Fire downloadfiler per generering.',
     },
     {
-      question: 'Er Skattejagt Skaberen sprogafhængig?',
+      question: 'Er Skattejagt Generatoren sprogafhængig?',
       answer: 'Ja, på to måder. Først er al retningstekst — \"Begynd ved\", \"Flyt\", retningsordforråd, \"felt(er)\" og \"Hvor er skatten?\" — fuldt oversat til alle 11 understøttede sprog. Derefter opdateres billedindhold baseret på valgt sprog. At skifte sprog producerer autentiske skattejagt arbejdsark på modersmål.',
     },
     {
       question: 'Hvorfor har hvert puslespil præcis 4 bevægelser på et 5×5 gitter?',
-      answer: 'Den konsistente 4-bevægelses struktur på et fast 5×5 gitter skaber et standardiseret puslespilformat, der fungerer pålideligt. Fire bevægelser giver tilstrækkelig kompleksitet for meningsfulde retningsudfordringer uden at overvælde yngre brugere. Hvert puslespil følger det samme 5-linjers instruktionsformat.',
+      answer: 'Den konsistente 4-bevægelses struktur på et fast 5×5 gitter generator et standardiseret puslespilformat, der fungerer pålideligt. Fire bevægelser giver tilstrækkelig kompleksitet for meningsfulde retningsudfordringer uden at overvælde yngre brugere. Hvert puslespil følger det samme 5-linjers instruktionsformat.',
     },
     {
       question: 'Hvad er de tre billedindtastningsmetoder?',
@@ -202,13 +202,13 @@ const content: ToolContent = {
 
   internalLinks: [
     { pageType: 'app', slug: 'skattejagt-arbejdsark', anchorText: 'Skattejagt — Fulde Produktdetaljer' },
-    { pageType: 'tool', slug: 'billedkrydsord-skaber', anchorText: 'Billedkrydsord Skaber' },
-    { pageType: 'tool', slug: 'find-og-tael-skaber', anchorText: 'Find og Tæl Skaber' },
-    { pageType: 'tool', slug: 'find-genstandene-skaber', anchorText: 'Skjulte Objekter Skaber' },
-    { pageType: 'tool', slug: 'ordsoegning-skaber', anchorText: 'Ordsøgning Skaber' },
-    { pageType: 'tool', slug: 'billedsti-skaber', anchorText: 'Billedsti Skaber' },
-    { pageType: 'tool', slug: 'matchnings-arbejdsark-skaber', anchorText: 'Matchning Skaber' },
-    { pageType: 'tool', slug: 'matematik-puslespil-skaber', anchorText: 'Matematik Puslespil Skaber' },
+    { pageType: 'tool', slug: 'billedkrydsord-skaber', anchorText: 'Billedkrydsord Generator' },
+    { pageType: 'tool', slug: 'find-og-tael-skaber', anchorText: 'Find og Tæl Generator' },
+    { pageType: 'tool', slug: 'find-genstandene-skaber', anchorText: 'Skjulte Objekter Generator' },
+    { pageType: 'tool', slug: 'ordsoegning-skaber', anchorText: 'Ordsøgning Generator' },
+    { pageType: 'tool', slug: 'billedsti-skaber', anchorText: 'Billedsti Generator' },
+    { pageType: 'tool', slug: 'matchnings-arbejdsark-skaber', anchorText: 'Matchning Generator' },
+    { pageType: 'tool', slug: 'matematik-puslespil-skaber', anchorText: 'Matematik Puslespil Generator' },
   ],
 
   visuals: {

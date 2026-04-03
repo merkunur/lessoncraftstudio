@@ -28,7 +28,7 @@ const content: ToolContent = {
     title: 'Hur du Skapar Dolda Objekt Arbetsblad i 8 Steg',
     steps: [
       {
-        title: 'Öppna Dolda Objekt Skaparen',
+        title: 'Öppna Dolda Objekt Generatorn',
         description: 'Klicka på \"Prova gratis nu\" för att starta generatorn. Verktyget laddas direkt med dubbelfliks arbetsyta. Inget konto, ingen nedladdning krävs.',
       },
       {
@@ -117,7 +117,7 @@ const content: ToolContent = {
     },
     {
       title: 'Global visuell pussel produktlinje',
-      description: 'Dolda Objekt Skaparen producerar rent visuella pussel — ingen språkspecifik text på arbetsbladets innehåll. Sökningslegenden använder bilder, inte ord. Samma produktfiler fungerar i varje land. En skapandesession producerar en globalt säljbar katalog.',
+      description: 'Dolda Objekt Generatorn producerar rent visuella pussel — ingen språkspecifik text på arbetsbladets innehåll. Sökningslegenden använder bilder, inte ord. Samma produktfiler fungerar i varje land. En skapandesession producerar en globalt säljbar katalog.',
       platform: 'Etsy / Amazon KDP',
     },
   ],
@@ -183,7 +183,7 @@ const content: ToolContent = {
       answer: 'Autostorlek Fredoka-titel — 32px för korta titlar, skalas ner till 18px. Dekorativa vita pillercontainrar och skuggor. Beskrivningsfält tillgängligt. Professionellt utseende oavsett titellängd.',
     },
     {
-      question: 'Är Dolda Objekt Skaparen språkkänslig?',
+      question: 'Är Dolda Objekt Generatorn språkkänslig?',
       answer: 'Nej. Rent visuellt format — inga lokaliserade bildnamn på arbetsbladets innehåll. Sökningslegenden visar bilder, inte text. Språkinställningar påverkar bara gränssnittsetiketter. Universellt säljbart utan översättning.',
     },
     {
@@ -206,13 +206,13 @@ const content: ToolContent = {
 
   internalLinks: [
     { pageType: 'app', slug: 'hitta-foremal-arbetsblad', anchorText: 'Dolda Objekt Aktiviteter — Fullständiga Produktdetaljer' },
-    { pageType: 'tool', slug: 'hitta-och-raekna-skapare', anchorText: 'Hitta och Räkna Skapare' },
-    { pageType: 'tool', slug: 'bildkorsord-skapare', anchorText: 'Korsordspussel Skapare' },
-    { pageType: 'tool', slug: 'skattjakt-skapare', anchorText: 'Skattjakt Skapare' },
-    { pageType: 'tool', slug: 'ordsoek-skapare', anchorText: 'Ordsök Skapare' },
-    { pageType: 'tool', slug: 'hitta-udda-skapare', anchorText: 'Hitta Udda Bilden Skapare' },
-    { pageType: 'tool', slug: 'matchnings-arbetsblad-skapare', anchorText: 'Matchnings Arbetsblad Skapare' },
-    { pageType: 'tool', slug: 'maelarsidor-skapare', anchorText: 'Målarbilder Skapare' },
+    { pageType: 'tool', slug: 'hitta-och-raekna-skapare', anchorText: 'Hitta och Räkna Generator' },
+    { pageType: 'tool', slug: 'bildkorsord-skapare', anchorText: 'Korsordspussel Generator' },
+    { pageType: 'tool', slug: 'skattjakt-skapare', anchorText: 'Skattjakt Generator' },
+    { pageType: 'tool', slug: 'ordsoek-skapare', anchorText: 'Ordsök Generator' },
+    { pageType: 'tool', slug: 'hitta-udda-skapare', anchorText: 'Hitta Udda Bilden Generator' },
+    { pageType: 'tool', slug: 'matchnings-arbetsblad-skapare', anchorText: 'Matchnings Arbetsblad Generator' },
+    { pageType: 'tool', slug: 'maelarsidor-skapare', anchorText: 'Målarbilder Generator' },
   ],
 
   visuals: {

@@ -2,9 +2,9 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'math worksheet maker',
+    primaryKeyword: 'math worksheet generator',
     secondaryKeywords: [
-      'math worksheet maker for Etsy and KDP sellers',
+      'math worksheet generator for Etsy and KDP sellers',
       'custom math problem generator with commercial license',
       'create math drill worksheets to sell online',
       'math worksheet generator for printable business',
@@ -15,7 +15,7 @@ const content: AppContent = {
       'grade-level math worksheet business',
       'sell math workbooks online',
     ],
-    titleTag: 'Math Worksheet Maker for Etsy & KDP Sellers | LCS',
+    titleTag: 'Math Worksheet Generator for Etsy & KDP Sellers | LCS',
     metaDescription: 'Create custom math drill worksheets to sell on Etsy & Amazon KDP. All operations, auto answer keys, commercial license. Generate in under 3 minutes.',
   },
 

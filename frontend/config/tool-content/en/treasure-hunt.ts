@@ -2,11 +2,11 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'free treasure hunt worksheet maker',
+    primaryKeyword: 'free treasure hunt worksheet generator',
     secondaryKeywords: [
       'make treasure hunt worksheets free online',
       'directional puzzle generator no signup',
-      'free coordinate grid worksheet maker',
+      'free coordinate grid worksheet generator',
       'treasure hunt worksheets free trial',
     ],
     lsiKeywords: [
@@ -14,7 +14,7 @@ const content: ToolContent = {
       'instant directional puzzle maker',
       'try before you buy adventure tools',
     ],
-    titleTag: 'Free Treasure Hunt Worksheet Maker | LCS',
+    titleTag: 'Free Treasure Hunt Worksheet Generator | LCS',
     metaDescription: 'Make treasure hunt worksheets free online with watermark — no signup. Coordinate grid puzzles, 2 direction modes, 11 languages. Upgrade to sell.',
   },
 
@@ -202,7 +202,7 @@ const content: ToolContent = {
 
   internalLinks: [
     { pageType: 'app', slug: 'treasure-hunt-worksheets', anchorText: 'Remove watermark and sell commercially' },
-    { pageType: 'tool', slug: 'picture-path-maker', anchorText: 'Free picture path worksheet maker' },
+    { pageType: 'tool', slug: 'picture-path-maker', anchorText: 'Free picture path worksheet generator' },
     { pageType: 'guide', slug: 'create-treasure-hunt-worksheets', anchorText: 'How to create treasure hunt worksheets to sell' },
   ],
 

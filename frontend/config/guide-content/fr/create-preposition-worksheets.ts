@@ -7,10 +7,10 @@ const content: GuideContent = {
       'fiches prépositions spatiales à vendre licence commerciale',
       'générateur fiches de prépositions usage commercial Etsy et KDP',
       'fiches langage spatial imprimables avec corrigés à vendre',
-      'outil créateur fiches prépositions mots de position multilingues',
+      'outil générateur fiches prépositions mots de position multilingues',
     ],
     lsiKeywords: [
-      'deux modes exercice texte à trous choix multiples créateur fiches prépositions',
+      'deux modes exercice texte à trous choix multiples générateur fiches prépositions',
       'remplacement de formes couche image scènes combinaisons générateur',
       'grille sélection prépositions sept mots de position pratique ciblée',
       'vendre fiches de prépositions sur Etsy',

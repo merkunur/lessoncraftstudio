@@ -4,7 +4,7 @@ const content: ToolContent = {
   seo: {
     primaryKeyword: 'mønster arbejdsark generator',
     secondaryKeywords: [
-      'mønstertog arbejdsark skaber for sælgere',
+      'mønstertog arbejdsark generator for sælgere',
       'lav gentagende mønster arbejdsark til salg',
       'printbare mønstersekvens arbejdsark kommerciel brug',
       'togmønster arbejdsark generator til KDP',
@@ -12,14 +12,14 @@ const content: ToolContent = {
     lsiKeywords: [
       'visuel mønstergenkendelse printbare til Etsy',
       'tekstfri togvogn mønster arbejdsark værktøj',
-      'AB ABC mønstersekvens arbejdsark skaber',
+      'AB ABC mønstersekvens arbejdsark generator',
     ],
-    titleTag: 'Mønster Arbejdsark Generator — Togskaber | Sælg — Sælgerguide',
+    titleTag: 'Mønster Arbejdsark Generator — Toggenerator | Sælg — Sælgerguide',
     metaDescription: 'Generér mønstertog arbejdsark med fem mønstertyper, 11 tematiske togvogne, justerbart ledetrådantal og automatiske facit. Gratis prøveversion med vandmærke.',
   },
 
   hero: {
-    title: 'Mønstertog Skaber',
+    title: 'Mønstertog Generator',
     tagline: 'Generér gentagende mønster arbejdsark vist på 11 tematiske togvogne med fem mønstertyper, justerbart ledetrådantal og helt visuelt tekstfrit output, der sælger globalt uden oversættelse',
     description: 'Lav professionelle mønstergenkendelse arbejdsark, hvor brugerne identificerer og fuldender gentagende sekvenser vist som billeder på et tematisk tog med 11 vogne. Fem distinkte mønstertyper dækker hvert niveau af sekvenskompleksitet: AB alternerer to objekter, AAB grupperer to af ét efterfulgt af ét af et andet, ABB vender den gruppering, ABC roterer tre forskellige objekter, og AABB parrer to af hvert før gentagelse. Toglayoutet arrangerer 11 vogne over tre rækker (5 + 3 + 3), med hver vogn der indeholder et billede fra det gentagende mønster. Én vogn efterlades tom — brugerne identificerer mønsteret og bestemmer det manglende objekt. Justér ledetrådantallet fra 4 til 10 for at kontrollere sværhedsgraden: at vise 10 ledetråde gør mønsteret åbenlyst, mens at vise kun 4 kræver ægte mønstervurdering. Det distinkte togvognslayout er et visuelt differentieringspunkt fra almindelige gitterarbejdsark. Hent fra mere end 3.100 illustrationer i 104 tematiske samlinger eller upload egne billeder. En separat facitfane viser alle 11 vogne udfyldt med den korrekte mønstersekvens. Hvert arbejdsark er helt visuelt med kun billeder på togvogne og nul tekst i outputtet. Ingen ord vises — kun billeder. Dette gør dine arbejdsark universelt sælgbare uden oversættelse: én produktannonce betjener hvert marked i verden. Eksportér trykfærdige PDF\'er og JPEG-billeder med høj DPI i Letter, A4, Kvadrat (1200×1200) eller tilpassede størrelser. Skift gråtone for blækvenligt output. Den gratis prøveversion indeholder alle funktioner med et vandmærke på downloads. Køb en licens for at fjerne vandmærket og sælge kommercielt.',
   },
@@ -28,7 +28,7 @@ const content: ToolContent = {
     title: 'Sådan Laver du Mønstertog Arbejdsark i 8 Trin',
     steps: [
       {
-        title: 'Åbn Mønstertog Skaberen',
+        title: 'Åbn Mønstertog Generatoren',
         description: 'Klik på \"Prøv gratis nu\" for at starte generatoren i din browser. Værktøjet indlæses direkte med et indstillingssidepanel til venstre og et liveforhåndsvisningsarbejdsområde til højre. Ingen konto, ingen download, ingen installation kræves — begynd at bygge mønstertog arbejdsark med det samme.',
       },
       {
@@ -102,7 +102,7 @@ const content: ToolContent = {
     },
     {
       title: 'Gumroad mønsterstationer',
-      description: 'Upload mønstertog arbejdsarkpakker til Gumroad organiseret efter færdighedsniveau og tema. Inkludér fire sværhedsgrader per tema med mønstertype og ledetrådantal som differentieringsakser. Pakér med autogenererede facit og fremskridtssporingsark. Togvognsformatet skaber et engagerende visuelt tema, der fungerer som en produktlinjestationsaktivitet.',
+      description: 'Upload mønstertog arbejdsarkpakker til Gumroad organiseret efter færdighedsniveau og tema. Inkludér fire sværhedsgrader per tema med mønstertype og ledetrådantal som differentieringsakser. Pakér med autogenererede facit og fremskridtssporingsark. Togvognsformatet generator et engagerende visuelt tema, der fungerer som en produktlinjestationsaktivitet.',
       platform: 'Gumroad',
     },
     {
@@ -125,7 +125,7 @@ const content: ToolContent = {
   proTips: [
     {
       title: 'Brug mønstertype og ledetrådantal som to uafhængige sværhedsakser',
-      description: 'Mønstertype kontrollerer sekvenskompleksitet (AB er enklest, AABB er sværest). Ledetrådantal kontrollerer visuelt støtte (10 ledetråde er enklest, 4 er sværest). At kombinere begge skaber en bred sværhedsmatrix: AB med 10 ledetråde for absolutte begyndere, AABB med 4 ledetråde for avancerede brugere. Denne dobbeltaksede metode multiplicerer din produktvariation.',
+      description: 'Mønstertype kontrollerer sekvenskompleksitet (AB er enklest, AABB er sværest). Ledetrådantal kontrollerer visuelt støtte (10 ledetråde er enklest, 4 er sværest). At kombinere begge generator en bred sværhedsmatrix: AB med 10 ledetråde for absolutte begyndere, AABB med 4 ledetråde for avancerede brugere. Denne dobbeltaksede metode multiplicerer din produktvariation.',
     },
     {
       title: 'Fremhæv togformatet som din markedspladsdifferentiator',
@@ -137,11 +137,11 @@ const content: ToolContent = {
     },
     {
       title: 'Lav både tog- og gittermønsterprodukter',
-      description: 'Mønstertog Skaberen og Mønster Arbejdsark Skaberen producerer fundamentalt forskellige visuelle formater for den samme færdighed — mønstergenkendelse. Togformat bruger 11 vogne med en enkelt manglende position. Gitterformat bruger standard rækker og kolonner. Sælg begge formater separat eller pakér dem som en \"Komplet Mønstergenkendelsespakke\" til en premiumpris.',
+      description: 'Mønstertog Generatoren og Mønster Arbejdsark Generatoren producerer fundamentalt forskellige visuelle formater for den samme færdighed — mønstergenkendelse. Togformat bruger 11 vogne med en enkelt manglende position. Gitterformat bruger standard rækker og kolonner. Sælg begge formater separat eller pakér dem som en \"Komplet Mønstergenkendelsespakke\" til en premiumpris.',
     },
     {
       title: 'Match ledetrådantal til din målaldersgruppe',
-      description: 'For førskolebørn (3–4 år), brug AB-mønstre med 8–10 ledetråde for maksimalt visuelt støtte. For børnehavebørn (4–6 år), brug AAB/ABB-mønstre med 6–8 ledetråde. For første klasse og op, ABC og AABB-mønstre med 4–6 ledetråde skaber ægte vurderingsudfordringer.',
+      description: 'For førskolebørn (3–4 år), brug AB-mønstre med 8–10 ledetråde for maksimalt visuelt støtte. For børnehavebørn (4–6 år), brug AAB/ABB-mønstre med 6–8 ledetråde. For første klasse og op, ABC og AABB-mønstre med 4–6 ledetråde generator ægte vurderingsudfordringer.',
     },
     {
       title: 'Brug gråtoner til KDP og massetryk',
@@ -160,7 +160,7 @@ const content: ToolContent = {
     },
     {
       question: 'Hvad er de fem mønstertyper?',
-      answer: 'AB alternerer to objekter (A-B-A-B) for det enkleste gentagende mønster. AAB grupperer to af ét derefter ét af et andet (A-A-B-A-A-B). ABB vender den gruppering (A-B-B-A-B-B). ABC roterer tre forskellige objekter (A-B-C-A-B-C), kræver at brugerne sporer en længere gentagende enhed. AABB parrer to af hvert objekt (A-A-B-B-A-A-B-B) i en udvidet cyklus. Progressionen fra AB til AABB skaber en naturlig sværhedsstige.',
+      answer: 'AB alternerer to objekter (A-B-A-B) for det enkleste gentagende mønster. AAB grupperer to af ét derefter ét af et andet (A-A-B-A-A-B). ABB vender den gruppering (A-B-B-A-B-B). ABC roterer tre forskellige objekter (A-B-C-A-B-C), kræver at brugerne sporer en længere gentagende enhed. AABB parrer to af hvert objekt (A-A-B-B-A-A-B-B) i en udvidet cyklus. Progressionen fra AB til AABB generator en naturlig sværhedsstige.',
     },
     {
       question: 'Hvordan kontrollerer ledetrådantallet sværheden?',
@@ -168,11 +168,11 @@ const content: ToolContent = {
     },
     {
       question: 'Hvordan er de 11 togvogne arrangeret på siden?',
-      answer: 'Toget viser 11 vogne over tre rækker: 5 vogne på den øverste række, 3 i midten-venstre og 3 i midten-højre. Hver vogn indeholder et billede fra den gentagende mønstersekvens. Det tematiske togværk forbinder vognene visuelt og skaber et distinkt layout, der skiller sig ud fra almindelige gitterbaserede mønsterarbejdsark.',
+      answer: 'Toget viser 11 vogne over tre rækker: 5 vogne på den øverste række, 3 i midten-venstre og 3 i midten-højre. Hver vogn indeholder et billede fra den gentagende mønstersekvens. Det tematiske togværk forbinder vognene visuelt og generator et distinkt layout, der skiller sig ud fra almindelige gitterbaserede mønsterarbejdsark.',
     },
     {
       question: 'Hvordan adskiller Mønstertog sig fra gitterbaserede mønsterarbejdsark?',
-      answer: 'Mønstertog viser sekvenser på 11 tematiske togvogne i et distinkt visuelt format med en enkelt manglende position. Gitterbaserede mønsterarbejdsark bruger standard rækker og kolonner. Togformatet er mere visuelt engagerende og skaber produkter, der direkte skiller sig ud i søgeresultaterne. Mønstertog har også justerbart ledetrådantal (4–10) for finkontrolleret sværhed.',
+      answer: 'Mønstertog viser sekvenser på 11 tematiske togvogne i et distinkt visuelt format med en enkelt manglende position. Gitterbaserede mønsterarbejdsark bruger standard rækker og kolonner. Togformatet er mere visuelt engagerende og generator produkter, der direkte skiller sig ud i søgeresultaterne. Mønstertog har også justerbart ledetrådantal (4–10) for finkontrolleret sværhed.',
     },
     {
       question: 'Hvorfor har arbejdsarkene ingen tekst?',
@@ -202,13 +202,13 @@ const content: ToolContent = {
 
   internalLinks: [
     { pageType: 'app', slug: 'moenstertog-arbejdsark', anchorText: 'Mønstertog Arbejdsark — Fulde Produktdetaljer' },
-    { pageType: 'tool', slug: 'stor-lille-arbejdsark-skaber', anchorText: 'Stor og Lille Arbejdsark Skaber' },
-    { pageType: 'tool', slug: 'moenster-arbejdsark-skaber', anchorText: 'Mønster Arbejdsark Skaber' },
-    { pageType: 'tool', slug: 'tegn-og-farvelaeg-skaber', anchorText: 'Tegn og Farvelæg Skaber' },
-    { pageType: 'tool', slug: 'matchning-arbejdsark-skaber', anchorText: 'Matchning Arbejdsark Skaber' },
-    { pageType: 'tool', slug: 'find-den-underlige-skaber', anchorText: 'Find den Underlige Skaber' },
-    { pageType: 'tool', slug: 'skyggematchning-skaber', anchorText: 'Skyggematchning Skaber' },
-    { pageType: 'tool', slug: 'malebilleder-skaber', anchorText: 'Malebilleder Skaber' },
+    { pageType: 'tool', slug: 'stor-lille-arbejdsark-skaber', anchorText: 'Stor og Lille Arbejdsark Generator' },
+    { pageType: 'tool', slug: 'moenster-arbejdsark-skaber', anchorText: 'Mønster Arbejdsark Generator' },
+    { pageType: 'tool', slug: 'tegn-og-farvelaeg-skaber', anchorText: 'Tegn og Farvelæg Generator' },
+    { pageType: 'tool', slug: 'matchning-arbejdsark-skaber', anchorText: 'Matchning Arbejdsark Generator' },
+    { pageType: 'tool', slug: 'find-den-underlige-skaber', anchorText: 'Find den Underlige Generator' },
+    { pageType: 'tool', slug: 'skyggematchning-skaber', anchorText: 'Skyggematchning Generator' },
+    { pageType: 'tool', slug: 'malebilleder-skaber', anchorText: 'Malebilleder Generator' },
   ],
 
   visuals: {
@@ -225,7 +225,7 @@ const content: ToolContent = {
       {
         src: '/samples/danish/pattern%20train/Mønstertoget%202.webp',
         alt: 'Mønstertog arbejdsark i ABC treelementsmønster med tematiske billeder på togvogne',
-        caption: 'ABC-mønster — tre roterende objekter skaber en mere kompleks gentagende sekvens',
+        caption: 'ABC-mønster — tre roterende objekter generator en mere kompleks gentagende sekvens',
       },
       {
         src: '/samples/danish/pattern%20train/Mønstertoget%203.webp',

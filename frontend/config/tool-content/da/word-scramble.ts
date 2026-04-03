@@ -4,7 +4,7 @@ const content: ToolContent = {
   seo: {
     primaryKeyword: 'bogstavblanding arbejdsark generator',
     secondaryKeywords: [
-      'bogstavblanding arbejdsark skaber for sælgere',
+      'bogstavblanding arbejdsark generator for sælgere',
       'lav bogstavomstilling puslespil til salg',
       'printbare bogstavblanding arbejdsark kommerciel brug',
       'bogstavblanding generator til KDP',
@@ -28,7 +28,7 @@ const content: ToolContent = {
     title: 'Sådan Laver du Bogstavblanding Arbejdsark i 8 Enkle Trin',
     steps: [
       {
-        title: 'Åbn Bogstavblanding Arbejdsark Skaberen',
+        title: 'Åbn Bogstavblanding Arbejdsark Generatoren',
         description: 'Klik på \"Prøv gratis nu\" for at starte generatoren i din browser. Værktøjet indlæses direkte med et indstillingssidepanel til venstre og et liveforhåndsvisningsarbejdsområde til højre. Ingen konto, ingen download, ingen installation kræves — begynd at lave bogstavblandingspuslespil med det samme.',
       },
       {
@@ -49,7 +49,7 @@ const content: ToolContent = {
       },
       {
         title: 'Konfigurér bogstavtilstand, nummerering og sprog',
-        description: 'Skift mellem store bogstaver (standard) og små bogstaver på brikkerne. Slå øvelsesnummerering til eller fra. Aktivér navn- og datofelter. Vælg blandt 11 understøttede sprog — hvert sprog ændrer målordet helt, så det samme billede skaber et helt andet blandingspuslespil. Tilføj tilpassede tekstoverlejringer med instruktioner til vejledning.',
+        description: 'Skift mellem store bogstaver (standard) og små bogstaver på brikkerne. Slå øvelsesnummerering til eller fra. Aktivér navn- og datofelter. Vælg blandt 11 understøttede sprog — hvert sprog ændrer målordet helt, så det samme billede generator et helt andet blandingspuslespil. Tilføj tilpassede tekstoverlejringer med instruktioner til vejledning.',
       },
       {
         title: 'Tilpas skrifttype, tekst og arbejdsområde',
@@ -92,7 +92,7 @@ const content: ToolContent = {
   businessIdeas: [
     {
       title: 'Foniks-fokuseret blandingsbutik på Etsy',
-      description: 'Åbn en Etsy-butik specialiseret i farvekodede bogstavblanding arbejdsark — en produktkategori, som ingen konkurrent kan replikere med grundlæggende ordlistegeneratorer. Vokal-konsonant farvekodningsfunktionen skaber et visuelt distinkt produkt, der fanger opmærksomhed i Etsys søgeresultater og appellerer til foniks-fokuserede forældre og ESL-sælgere. Lav tematiske pakker i både farvekodede og klassiske sorte udgaver, og prissæt de farvekodede foniks-sæt til en premiumpris.',
+      description: 'Åbn en Etsy-butik specialiseret i farvekodede bogstavblanding arbejdsark — en produktkategori, som ingen konkurrent kan replikere med grundlæggende ordlistegeneratorer. Vokal-konsonant farvekodningsfunktionen generator et visuelt distinkt produkt, der fanger opmærksomhed i Etsys søgeresultater og appellerer til foniks-fokuserede forældre og ESL-sælgere. Lav tematiske pakker i både farvekodede og klassiske sorte udgaver, og prissæt de farvekodede foniks-sæt til en premiumpris.',
       platform: 'Etsy',
     },
     {
@@ -129,7 +129,7 @@ const content: ToolContent = {
     },
     {
       title: 'Brug Ingen Ledetråde til stavevurdering',
-      description: 'Ingen Ledetråde-tilstand blander hvert bogstav med nul forudplacerede positioner, hvilket skaber en ægte stavevurdering fra en billedprompt. Brugerne skal huske den komplette stavemåde og omarrangere alle brikker selvstændigt. Brug det til prøver, afsluttende udfordringsafsnit i arbejdsbøger eller premium \"ekspertudgave\"-produkter.',
+      description: 'Ingen Ledetråde-tilstand blander hvert bogstav med nul forudplacerede positioner, hvilket generator en ægte stavevurdering fra en billedprompt. Brugerne skal huske den komplette stavemåde og omarrangere alle brikker selvstændigt. Brug det til prøver, afsluttende udfordringsafsnit i arbejdsbøger eller premium \"ekspertudgave\"-produkter.',
     },
     {
       title: 'Gå flersproget for 11× produktudbud',
@@ -202,13 +202,13 @@ const content: ToolContent = {
 
   internalLinks: [
     { pageType: 'app', slug: 'bogstavblanding-arbejdsark', anchorText: 'Bogstavblanding Arbejdsark — Fulde Produktdetaljer' },
-    { pageType: 'tool', slug: 'gaet-ordet-skaber', anchorText: 'Gæt Ordet Skaber' },
-    { pageType: 'tool', slug: 'alfabet-tog-skaber', anchorText: 'Alfabet Tog Skaber' },
-    { pageType: 'tool', slug: 'ordsoegning-skaber', anchorText: 'Ordsøgning Skaber' },
-    { pageType: 'tool', slug: 'kryptogram-skaber', anchorText: 'Kryptogram Skaber' },
-    { pageType: 'tool', slug: 'forholdsord-arbejdsark-skaber', anchorText: 'Forholdsord Arbejdsark Skaber' },
-    { pageType: 'tool', slug: 'skriveoevelser-skaber', anchorText: 'Skriveøvelser Skaber' },
-    { pageType: 'tool', slug: 'matchning-arbejdsark-skaber', anchorText: 'Matchning Arbejdsark Skaber' },
+    { pageType: 'tool', slug: 'gaet-ordet-skaber', anchorText: 'Gæt Ordet Generator' },
+    { pageType: 'tool', slug: 'alfabet-tog-skaber', anchorText: 'Alfabet Tog Generator' },
+    { pageType: 'tool', slug: 'ordsoegning-skaber', anchorText: 'Ordsøgning Generator' },
+    { pageType: 'tool', slug: 'kryptogram-skaber', anchorText: 'Kryptogram Generator' },
+    { pageType: 'tool', slug: 'forholdsord-arbejdsark-skaber', anchorText: 'Forholdsord Arbejdsark Generator' },
+    { pageType: 'tool', slug: 'skriveoevelser-skaber', anchorText: 'Skriveøvelser Generator' },
+    { pageType: 'tool', slug: 'matchning-arbejdsark-skaber', anchorText: 'Matchning Arbejdsark Generator' },
   ],
 
   visuals: {

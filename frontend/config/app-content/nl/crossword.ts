@@ -2,9 +2,9 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'kruiswoordpuzzel maker om te verkopen op Etsy en KDP',
+    primaryKeyword: 'kruiswoordpuzzel generator om te verkopen op Etsy en KDP',
     secondaryKeywords: [
-      'kruiswoordpuzzels met afbeeldingen maker Etsy',
+      'kruiswoordpuzzels met afbeeldingen generator Etsy',
       'kruiswoordraadsels voor Amazon KDP-boeken',
       'kruiswoordpuzzel generator commerciële licentie',
       'woordpuzzels verkopen online',
@@ -14,7 +14,7 @@ const content: AppContent = {
       'commercieel gebruik kruiswoordpuzzel generator',
       'printbare plaatjes kruiswoordpuzzel business tools',
     ],
-    titleTag: 'Kruiswoordpuzzel maker voor Etsy | LessonCraftStudio',
+    titleTag: 'Kruiswoordpuzzel generator voor Etsy | LessonCraftStudio',
     metaDescription:
       'Maak kruiswoordpuzzels met afbeeldingen om te verkopen op Etsy en KDP. Thema-illustraties, automatische antwoorden. Gratis proefversie met watermerk.',
   },

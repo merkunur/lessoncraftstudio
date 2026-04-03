@@ -15,7 +15,7 @@ const content: GuideContent = {
       'visuella mattepussel förskola förskoleklass',
       'sälja mattepussel på Etsy',
       'Amazon KDP mattepussel böcker',
-      'kommersiell licens pussel-skapare',
+      'kommersiell licens pussel-generator',
     ],
     titleTag: 'Mattepussel att sälja online | LessonCraftStudio',
     metaDescription: 'Hur du skapar mattepussel där barn löser ekvationer för att återställa bilder. Rutnätsstorlekar, operationer, facit och tips för att sälja på Etsy. Prova.',

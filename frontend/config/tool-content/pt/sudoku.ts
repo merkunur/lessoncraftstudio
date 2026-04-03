@@ -38,7 +38,7 @@ const content: ToolContent = {
     title: 'Como Criar Atividades de Sudoku com Imagens em 8 Passos',
     steps: [
       {
-        title: 'Abra o Criador de Sudoku com Imagens',
+        title: 'Abra o Gerador de Sudoku com Imagens',
         description: 'Clique em \"Teste Grátis Agora\" para abrir o gerador de sudoku com imagens no seu navegador. A ferramenta carrega instantaneamente com uma barra lateral de configurações à esquerda e um canvas de duplo aba à direita — um aba para a atividade e outro para o gabarito. Sem criar conta, sem baixar software, sem instalação — comece a criar puzzles de sudoku com imagens imediatamente.',
       },
       {
@@ -197,7 +197,7 @@ const content: ToolContent = {
       answer: 'Sim. A aplicação baralha as imagens de forma aleatória antes de preencher a quadrícula 4×4, e depois seleciona ao acaso quais células ficam vazias conforme o nível de dificuldade. Mesmo com as mesmas 4 imagens e a mesma definição de dificuldade, regenerar produz uma disposição de sudoku válida diferente com posições de células vazias distintas. Esta aleatoriedade permite-lhe criar grandes coleções de puzzles únicos a partir de um pequeno conjunto de imagens temáticas — clique em Gerar repetidamente para criar pacotes com dezenas de configurações de puzzle únicas.',
     },
     {
-      question: 'O Criador de Sudoku com Imagens depende do idioma?',
+      question: 'O Gerador de Sudoku com Imagens depende do idioma?',
       answer: 'Não. O sudoku com imagens é completamente visual — a quadrícula do puzzle contém apenas imagens, nenhuma palavra, letra ou número. Isto faz com que cada atividade funcione de forma idêntica nos 11 idiomas suportados. O único elemento localizado é o texto do cabeçalho \"Sudoku de Imagens\" autogerado sobre a quadrícula com o seu fundo púrpura (#5E35B1), que se traduz automaticamente ao mudar de idioma. O puzzle em si não requer qualquer modificação para diferentes mercados, tornando-o ideal para vendas globais em todos os mercados internacionais.',
     },
     {
@@ -216,11 +216,11 @@ const content: ToolContent = {
 
   internalLinks: [
     { pageType: 'app', slug: 'sudoku-criancas-atividades', anchorText: 'Sudoku com Imagens — Detalhes Completos do Produto' },
-    { pageType: 'tool', slug: 'gerador-pecas-faltantes', anchorText: 'Criador de Atividades de Peças Faltantes' },
-    { pageType: 'tool', slug: 'gerador-atividades-intruso', anchorText: 'Criador de Atividades do Intruso' },
-    { pageType: 'tool', slug: 'gerador-percurso-imagens', anchorText: 'Criador de Labirintos com Imagens' },
-    { pageType: 'tool', slug: 'gerador-puzzle-quadricula', anchorText: 'Criador de Atividades de Puzzle de Quadrícula' },
-    { pageType: 'tool', slug: 'gerador-atividades-associacao', anchorText: 'Criador de Atividades de Associação' },
+    { pageType: 'tool', slug: 'gerador-pecas-faltantes', anchorText: 'Gerador de Atividades de Peças Faltantes' },
+    { pageType: 'tool', slug: 'gerador-atividades-intruso', anchorText: 'Gerador de Atividades do Intruso' },
+    { pageType: 'tool', slug: 'gerador-percurso-imagens', anchorText: 'Gerador de Labirintos com Imagens' },
+    { pageType: 'tool', slug: 'gerador-puzzle-quadricula', anchorText: 'Gerador de Atividades de Puzzle de Quadrícula' },
+    { pageType: 'tool', slug: 'gerador-atividades-associacao', anchorText: 'Gerador de Atividades de Associação' },
     { pageType: 'tool', slug: 'gerador-caca-palavras', anchorText: 'Gerador de Caça-Palavras' },
     { pageType: 'tool', slug: 'gerador-paginas-colorir', anchorText: 'Gerador de Páginas para Colorir' },
   ],

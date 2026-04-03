@@ -4,7 +4,7 @@ const content: AppContent = {
   seo: {
     primaryKeyword: 'counting chart worksheets',
     secondaryKeywords: [
-      'counting chart worksheet maker for Etsy shop',
+      'counting chart worksheet generator for Etsy shop',
       'picture graph worksheets to sell online',
       'counting and graphing printables for KDP',
       'data graphing worksheets for printable business',

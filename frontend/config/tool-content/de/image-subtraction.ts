@@ -28,8 +28,8 @@ const content: ToolContent = {
     title: 'Subtraktions-Arbeitsblätter erstellen in 8 einfachen Schritten',
     steps: [
       {
-        title: 'Den Arbeitsblatt-Ersteller öffnen',
-        description: 'Klicken Sie auf \"Kostenlos testen\", um den Subtraktions-Arbeitsblatt-Ersteller zu starten. Das Tool öffnet sich sofort in Ihrem Browser mit einer dunklen Seitenleiste links für alle Einstellungen und einer hellen Arbeitsfläche rechts für die Live-Vorschau Ihres Arbeitsblatts. Kein Benutzerkonto und kein Software-Download erforderlich — alles läuft direkt im Browser.',
+        title: 'Den Arbeitsblatt-Generator öffnen',
+        description: 'Klicken Sie auf \"Kostenlos testen\", um den Subtraktions-Arbeitsblatt-Generator zu starten. Das Tool öffnet sich sofort in Ihrem Browser mit einer dunklen Seitenleiste links für alle Einstellungen und einer hellen Arbeitsfläche rechts für die Live-Vorschau Ihres Arbeitsblatts. Kein Benutzerkonto und kein Software-Download erforderlich — alles läuft direkt im Browser.',
       },
       {
         title: 'Den Übungsmodus wählen',
@@ -158,7 +158,7 @@ const content: ToolContent = {
     },
     {
       question: 'Welche vier Übungsmodi gibt es?',
-      answer: 'Der Ersteller unterstützt vier Modi: Durchstreichen (Nutzer streichen Bilder durch, um Subtraktion visuell zu begreifen), Bild − Zahl (eine Bildergruppe minus eine Ziffer), Subtrahend finden (der Minuend und das Ergebnis werden angezeigt; das Kind ermittelt, wie viele weggenommen wurden) und Gemischter Modus (kombiniert alle drei Stile zufällig auf einem Arbeitsblatt für maximale Abwechslung). Die Themenbibliothek mit über dreitausend Illustrationen in einhundervier Kategorien bietet genügend visuelle Vielfalt, um einzigartige Arbeitsblatt-Sets zu erstellen, die sich von Wettbewerbern abheben, die generische Clip-Art oder Stock-Illustrationen verwenden.',
+      answer: 'Der Generator unterstützt vier Modi: Durchstreichen (Nutzer streichen Bilder durch, um Subtraktion visuell zu begreifen), Bild − Zahl (eine Bildergruppe minus eine Ziffer), Subtrahend finden (der Minuend und das Ergebnis werden angezeigt; das Kind ermittelt, wie viele weggenommen wurden) und Gemischter Modus (kombiniert alle drei Stile zufällig auf einem Arbeitsblatt für maximale Abwechslung). Die Themenbibliothek mit über dreitausend Illustrationen in einhundervier Kategorien bietet genügend visuelle Vielfalt, um einzigartige Arbeitsblatt-Sets zu erstellen, die sich von Wettbewerbern abheben, die generische Clip-Art oder Stock-Illustrationen verwenden.',
     },
     {
       question: 'Welche Dateiformate kann ich herunterladen?',
@@ -178,11 +178,11 @@ const content: ToolContent = {
     },
     {
       question: 'Kann ich Arbeitsblätter in anderen Sprachen erstellen?',
-      answer: 'Ja. Der Ersteller unterstützt 11 Sprachen: Deutsch, Englisch, Französisch, Spanisch, Portugiesisch, Italienisch, Niederländisch, Schwedisch, Dänisch, Norwegisch und Finnisch. Da Subtraktions-Arbeitsblätter rein visuell sind — Bilder, X-Markierungen und Zahlen statt Wörter — funktionieren Ihre Produkte in jeder Sprache und jedem Shop weltweit. Dieser Arbeitsablauf wurde auf der Grundlage von Rückmeldungen Tausender Druckvorlagen-Verkäufer auf Etsy, Amazon KDP und Gumroad verfeinert, wobei jeder Schritt darauf ausgelegt ist, die Produktionszeit zu minimieren und gleichzeitig die professionelle Qualität zu maximieren.',
+      answer: 'Ja. Der Generator unterstützt 11 Sprachen: Deutsch, Englisch, Französisch, Spanisch, Portugiesisch, Italienisch, Niederländisch, Schwedisch, Dänisch, Norwegisch und Finnisch. Da Subtraktions-Arbeitsblätter rein visuell sind — Bilder, X-Markierungen und Zahlen statt Wörter — funktionieren Ihre Produkte in jeder Sprache und jedem Shop weltweit. Dieser Arbeitsablauf wurde auf der Grundlage von Rückmeldungen Tausender Druckvorlagen-Verkäufer auf Etsy, Amazon KDP und Gumroad verfeinert, wobei jeder Schritt darauf ausgelegt ist, die Produktionszeit zu minimieren und gleichzeitig die professionelle Qualität zu maximieren.',
     },
     {
       question: 'Muss ich Software installieren?',
-      answer: 'Nein. Der Ersteller läuft vollständig in Ihrem Webbrowser und funktioniert auf jedem modernen Gerät — Windows, Mac, Chromebook, iPad oder Android-Tablet. Es gibt nichts zu installieren, keine Plugins erforderlich und kein Benutzerkonto zu erstellen. Öffnen Sie einfach die Seite und legen Sie sofort los. Inhaber einer kommerziellen Lizenz erhalten lebenslangen Zugang zu allen aktuellen Funktionen und allen zukünftigen Aktualisierungen des Generators, einschließlich unbegrenzter Arbeitsblatterstellung über alle unterstützten Themen und Exportformate hinweg. Verkäufer, die mehrere Übungsmodi in thematischen Bündeln kombinieren, erzielen durchweg höhere durchschnittliche Bestellwerte, da Eltern und Verkäufer umfassende Aktivitätspakete gegenüber einzelnen Arbeitsblattseiten bevorzugen.',
+      answer: 'Nein. Der Generator läuft vollständig in Ihrem Webbrowser und funktioniert auf jedem modernen Gerät — Windows, Mac, Chromebook, iPad oder Android-Tablet. Es gibt nichts zu installieren, keine Plugins erforderlich und kein Benutzerkonto zu erstellen. Öffnen Sie einfach die Seite und legen Sie sofort los. Inhaber einer kommerziellen Lizenz erhalten lebenslangen Zugang zu allen aktuellen Funktionen und allen zukünftigen Aktualisierungen des Generators, einschließlich unbegrenzter Arbeitsblatterstellung über alle unterstützten Themen und Exportformate hinweg. Verkäufer, die mehrere Übungsmodi in thematischen Bündeln kombinieren, erzielen durchweg höhere durchschnittliche Bestellwerte, da Eltern und Verkäufer umfassende Aktivitätspakete gegenüber einzelnen Arbeitsblattseiten bevorzugen.',
     },
     {
       question: 'Kann ich einen Lösungsschlüssel generieren?',
@@ -196,13 +196,13 @@ const content: ToolContent = {
 
   internalLinks: [
     { pageType: 'app', slug: 'subtraktion-arbeitsblaetter', anchorText: 'Subtraktions-Arbeitsblätter — Vollständige Produktdetails' },
-    { pageType: 'tool', slug: 'additions-arbeitsblatt-ersteller', anchorText: 'Additions-Arbeitsblatt-Ersteller' },
-    { pageType: 'tool', slug: 'bilder-additions-ersteller', anchorText: 'Bilder-Additions-Ersteller' },
-    { pageType: 'tool', slug: 'mehr-weniger-ersteller', anchorText: 'Mehr-oder-Weniger-Ersteller' },
-    { pageType: 'tool', slug: 'mathe-raetsel-ersteller', anchorText: 'Mathe-Rätsel-Ersteller' },
-    { pageType: 'tool', slug: 'mathe-arbeitsblatt-ersteller', anchorText: 'Mathe-Arbeitsblatt-Ersteller' },
-    { pageType: 'tool', slug: 'zuordnungs-arbeitsblatt-ersteller', anchorText: 'Zuordnungs-Arbeitsblatt-Ersteller' },
-    { pageType: 'tool', slug: 'malvorlagen-ersteller', anchorText: 'Malvorlagen-Ersteller' },
+    { pageType: 'tool', slug: 'additions-Arbeitsblatt-Generator', anchorText: 'Additions-Arbeitsblatt-Generator' },
+    { pageType: 'tool', slug: 'bilder-additions-ersteller', anchorText: 'Bilder-Additions-Generator' },
+    { pageType: 'tool', slug: 'mehr-weniger-ersteller', anchorText: 'Mehr-oder-Weniger-Generator' },
+    { pageType: 'tool', slug: 'mathe-raetsel-ersteller', anchorText: 'Mathe-Rätsel-Generator' },
+    { pageType: 'tool', slug: 'mathe-Arbeitsblatt-Generator', anchorText: 'Mathe-Arbeitsblatt-Generator' },
+    { pageType: 'tool', slug: 'zuordnungs-Arbeitsblatt-Generator', anchorText: 'Zuordnungs-Arbeitsblatt-Generator' },
+    { pageType: 'tool', slug: 'malvorlagen-ersteller', anchorText: 'Malvorlagen-Generator' },
   ],
 
   visuals: {

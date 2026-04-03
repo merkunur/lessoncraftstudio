@@ -4,7 +4,7 @@ const content: ToolContent = {
   seo: {
     primaryKeyword: 'skriveøvelser arbejdsark generator',
     secondaryKeywords: [
-      'skriveøvelser arbejdsark skaber for sælgere',
+      'skriveøvelser arbejdsark generator for sælgere',
       'lav bogstavsporing arbejdsark til salg',
       'printbare skriveøvelser arbejdsark kommerciel brug',
       'skriveøvelser generator til KDP',
@@ -28,7 +28,7 @@ const content: ToolContent = {
     title: 'Sådan Laver du Skriveøvelser Arbejdsark i 8 Enkle Trin',
     steps: [
       {
-        title: 'Åbn Skriveøvelser Arbejdsark Skaberen',
+        title: 'Åbn Skriveøvelser Arbejdsark Generatoren',
         description: 'Klik på \"Prøv gratis nu\" for at starte generatoren i din browser. Værktøjet indlæses direkte med et indstillingssidepanel til venstre og et liveforhåndsvisningsarbejdsområde til højre. Ingen konto, ingen download, ingen installation kræves — begynd at bygge skriveøvelser arbejdsark med det samme.',
       },
       {
@@ -45,7 +45,7 @@ const content: ToolContent = {
       },
       {
         title: 'Indstil indholdskilde og bogstavtilstand',
-        description: 'Konfigurér, hvad hver række øver. Billedbibliotek — Begyndelsesbogstav-tilstand bruger det første bogstav af hvert billednavn med billedet som visuel reference. Billedbibliotek — Fuldt Filnavn-tilstand skriver det komplette ord. Tilpasset Tekst-tilstand lader dig skrive ethvert ord, sætning eller frase. Tom-tilstand skaber blanke linjerede rækker med trelinjes guidesystem. Indstil derefter bogstavtilstand: Store Bogstaver, Små Bogstaver eller Begyndelses Store Bogstaver per række.',
+        description: 'Konfigurér, hvad hver række øver. Billedbibliotek — Begyndelsesbogstav-tilstand bruger det første bogstav af hvert billednavn med billedet som visuel reference. Billedbibliotek — Fuldt Filnavn-tilstand skriver det komplette ord. Tilpasset Tekst-tilstand lader dig skrive ethvert ord, sætning eller frase. Tom-tilstand generator blanke linjerede rækker med trelinjes guidesystem. Indstil derefter bogstavtilstand: Store Bogstaver, Små Bogstaver eller Begyndelses Store Bogstaver per række.',
       },
       {
         title: 'Tilføj førskrivnings stregøvelser for finmotoriske opvarmninger',
@@ -125,7 +125,7 @@ const content: ToolContent = {
   proTips: [
     {
       title: 'Brug de tre øvelsestilstande som en indbygget sværhedsprogression',
-      description: 'Sporingstilstand giver fuld støtte for nye bogstaver. Tonende Sporing reducerer støtten trinvist hen over hver række. Guidet Kopiering tilbyder minimalt støtte for næsten selvstændig skrivning. Denne treniveauprogression skaber en naturlig sværhedskurve inden for et enkelt arbejdsark eller over en produktpakke. Brug den som din primære differentieringsakse for niveauopdelte produkter.',
+      description: 'Sporingstilstand giver fuld støtte for nye bogstaver. Tonende Sporing reducerer støtten trinvist hen over hver række. Guidet Kopiering tilbyder minimalt støtte for næsten selvstændig skrivning. Denne treniveauprogression generator en naturlig sværhedskurve inden for et enkelt arbejdsark eller over en produktpakke. Brug den som din primære differentieringsakse for niveauopdelte produkter.',
     },
     {
       title: 'Pilstregrækkefølge er dit stærkeste differentieringspunkt',
@@ -133,11 +133,11 @@ const content: ToolContent = {
     },
     {
       title: 'Bland tilstande per række for maksimal fleksibilitet',
-      description: 'Per-række-uafhængighed betyder, at hver række har egen øvelsestilstand, skrifttypestil, indholdskilde og store/små bogstaver-konfiguration. Placér pilguided Sporing øverst for instruktion, Tonende Sporing i midten for øvelse og Guidet Kopiering nederst for vurdering — alt på én side. Dette skaber arbejdsark, som skabelonbaserede konkurrenter ikke kan replikere.',
+      description: 'Per-række-uafhængighed betyder, at hver række har egen øvelsestilstand, skrifttypestil, indholdskilde og store/små bogstaver-konfiguration. Placér pilguided Sporing øverst for instruktion, Tonende Sporing i midten for øvelse og Guidet Kopiering nederst for vurdering — alt på én side. Dette generator arbejdsark, som skabelonbaserede konkurrenter ikke kan replikere.',
     },
     {
       title: 'Gå forrest med førskrivningsstreger for unge brugere',
-      description: 'Placér førskrivnings stregrækker (lodrette linjer, vandrette linjer, cirkler, zigzag) øverst på arbejdsark rettet mod førskolebørn og børnehavebørn. Disse opvarmningsøvelser bygger pennegreb og motorisk kontrol, inden brugerne forsøger bogstavformation. Førskrivningsstreger skaber også en distinkt produktniche.',
+      description: 'Placér førskrivnings stregrækker (lodrette linjer, vandrette linjer, cirkler, zigzag) øverst på arbejdsark rettet mod førskolebørn og børnehavebørn. Disse opvarmningsøvelser bygger pennegreb og motorisk kontrol, inden brugerne forsøger bogstavformation. Førskrivningsstreger generator også en distinkt produktniche.',
     },
     {
       title: 'Brug gråtoner til KDP og massetryk',
@@ -160,7 +160,7 @@ const content: ToolContent = {
     },
     {
       question: 'Hvad er de tre øvelsestilstande?',
-      answer: 'Sporingstilstand giver faste bogstavkonturer, som brugerne følger direkte — fuld visuel støtte for nye bogstaver. Tonende Sporing begynder med faste bogstaver i venstre side af rækken og reducerer progressivt gennemsigtigheden hen over rækken og bygger selvstændighed med hver gentagelse. Guidet Kopiering viser en svag bogstavkontur for næsten selvstændig skrivning med minimalt visuelt støtte. Disse tre tilstande skaber en naturlig progression fra fuld støtte til selvstændig skrivning.',
+      answer: 'Sporingstilstand giver faste bogstavkonturer, som brugerne følger direkte — fuld visuel støtte for nye bogstaver. Tonende Sporing begynder med faste bogstaver i venstre side af rækken og reducerer progressivt gennemsigtigheden hen over rækken og bygger selvstændighed med hver gentagelse. Guidet Kopiering viser en svag bogstavkontur for næsten selvstændig skrivning med minimalt visuelt støtte. Disse tre tilstande generator en naturlig progression fra fuld støtte til selvstændig skrivning.',
     },
     {
       question: 'Hvordan fungerer den pilguidede stregrækkefølge?',
@@ -202,13 +202,13 @@ const content: ToolContent = {
 
   internalLinks: [
     { pageType: 'app', slug: 'skriveopgaver-arbejdsark', anchorText: 'Skriveøvelser Arbejdsark — Fulde Produktdetaljer' },
-    { pageType: 'tool', slug: 'alfabet-tog-skaber', anchorText: 'Alfabet Tog Skaber' },
-    { pageType: 'tool', slug: 'gaet-ordet-skaber', anchorText: 'Gæt Ordet Skaber' },
-    { pageType: 'tool', slug: 'ordmix-skaber', anchorText: 'Bogstavblanding Skaber' },
-    { pageType: 'tool', slug: 'ordsoegning-skaber', anchorText: 'Ordsøgning Skaber' },
-    { pageType: 'tool', slug: 'kryptogram-skaber', anchorText: 'Kryptogram Skaber' },
-    { pageType: 'tool', slug: 'tegne-linjer-skaber', anchorText: 'Tegne Linjer Skaber' },
-    { pageType: 'tool', slug: 'forholdsord-arbejdsark-skaber', anchorText: 'Forholdsord Arbejdsark Skaber' },
+    { pageType: 'tool', slug: 'alfabet-tog-skaber', anchorText: 'Alfabet Tog Generator' },
+    { pageType: 'tool', slug: 'gaet-ordet-skaber', anchorText: 'Gæt Ordet Generator' },
+    { pageType: 'tool', slug: 'ordmix-skaber', anchorText: 'Bogstavblanding Generator' },
+    { pageType: 'tool', slug: 'ordsoegning-skaber', anchorText: 'Ordsøgning Generator' },
+    { pageType: 'tool', slug: 'kryptogram-skaber', anchorText: 'Kryptogram Generator' },
+    { pageType: 'tool', slug: 'tegne-linjer-skaber', anchorText: 'Tegne Linjer Generator' },
+    { pageType: 'tool', slug: 'forholdsord-arbejdsark-skaber', anchorText: 'Forholdsord Arbejdsark Generator' },
   ],
 
   visuals: {

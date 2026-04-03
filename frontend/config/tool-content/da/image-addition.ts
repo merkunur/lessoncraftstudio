@@ -2,9 +2,9 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'additions arbejdsark skaber for sælgere',
+    primaryKeyword: 'additions arbejdsark generator for sælgere',
     secondaryKeywords: [
-      'additions arbejdsark skaber online',
+      'additions arbejdsark generator online',
       'matematik additions arbejdsark for børn',
       'printbare additions øvelsesark',
       'billede additions arbejdsark til børnehave',
@@ -14,7 +14,7 @@ const content: ToolContent = {
       'billedbaseret additions øvelse for børn',
       'børnehave matematik printbare for sælgere',
     ],
-    titleTag: 'Additions Arbejdsark Skaber — Matematikark til Klassen',
+    titleTag: 'Additions Arbejdsark Generator — Matematikark til Klassen',
     metaDescription: 'Opret additions arbejdsark med tematiske billeder til din produktlinje. 104 temaer, 4 øvelsestilstande, facit, trykklare PDF\'er. Gratis prøveversion med vandmærke.',
   },
 
@@ -147,7 +147,7 @@ const content: ToolContent = {
     },
     {
       title: 'Udnyt ramme- og baggrundsbiblioteket',
-      description: 'Et almindeligt hvidt arbejdsark og et arbejdsark med en tematisk ramme og subtil baggrund ser helt anderledes ud i produktannoncer. At tilføje visuel finish tager 30 sekunder og kan motivere en højere pris. Juster baggrundsopacitet for at holde øvelserne læsbare. Konsekvente rammevalg gennem en hel pakke skaber et professionelt, brandet udseende, der signalerer kvalitet til købere.',
+      description: 'Et almindeligt hvidt arbejdsark og et arbejdsark med en tematisk ramme og subtil baggrund ser helt anderledes ud i produktannoncer. At tilføje visuel finish tager 30 sekunder og kan motivere en højere pris. Juster baggrundsopacitet for at holde øvelserne læsbare. Konsekvente rammevalg gennem en hel pakke generator et professionelt, brandet udseende, der signalerer kvalitet til købere.',
     },
   ],
 
@@ -196,13 +196,13 @@ const content: ToolContent = {
 
   internalLinks: [
     { pageType: 'app', slug: 'addition-arbejdsark', anchorText: 'Additions Arbejdsark — Komplette Produktdetaljer' },
-    { pageType: 'tool', slug: 'subtraktions-arbejdsark-skaber', anchorText: 'Subtraktions Arbejdsark Skaber' },
-    { pageType: 'tool', slug: 'matematik-arbejdsark-skaber', anchorText: 'Matematik Arbejdsark Skaber' },
-    { pageType: 'tool', slug: 'kode-additions-arbejdsark-skaber', anchorText: 'Kode-additions Arbejdsark Skaber' },
-    { pageType: 'tool', slug: 'mere-eller-mindre-arbejdsark-skaber', anchorText: 'Mere eller Mindre Arbejdsark Skaber' },
-    { pageType: 'tool', slug: 'matchnings-arbejdsark-skaber', anchorText: 'Matchnings Arbejdsark Skaber' },
-    { pageType: 'tool', slug: 'find-og-tael-skaber', anchorText: 'Find og Tæl Skaber' },
-    { pageType: 'tool', slug: 'farvelaegningssider-skaber', anchorText: 'Malebilleder Skaber' },
+    { pageType: 'tool', slug: 'subtraktions-arbejdsark-skaber', anchorText: 'Subtraktions Arbejdsark Generator' },
+    { pageType: 'tool', slug: 'matematik-arbejdsark-skaber', anchorText: 'Matematik Arbejdsark Generator' },
+    { pageType: 'tool', slug: 'kode-additions-arbejdsark-skaber', anchorText: 'Kode-additions Arbejdsark Generator' },
+    { pageType: 'tool', slug: 'mere-eller-mindre-arbejdsark-skaber', anchorText: 'Mere eller Mindre Arbejdsark Generator' },
+    { pageType: 'tool', slug: 'matchnings-arbejdsark-skaber', anchorText: 'Matchnings Arbejdsark Generator' },
+    { pageType: 'tool', slug: 'find-og-tael-skaber', anchorText: 'Find og Tæl Generator' },
+    { pageType: 'tool', slug: 'farvelaegningssider-skaber', anchorText: 'Malebilleder Generator' },
   ],
 
   visuals: {

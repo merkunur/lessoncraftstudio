@@ -4,9 +4,9 @@ const content: AppContent = {
   seo: {
     primaryKeyword: 'gittermatchning puslespil generator',
     secondaryKeywords: [
-      'printbar gitterpuslespil skaber til Etsy-sælgere',
+      'printbar gitterpuslespil generator til Etsy-sælgere',
       'billedfliser matchnings arbejdsark generator til KDP',
-      'gittermatchning puslespil skaber kommerciel licens',
+      'gittermatchning puslespil generator kommerciel licens',
       'sælg gitterbilledpuslespil på Gumroad',
     ],
     lsiKeywords: [
@@ -37,7 +37,7 @@ const content: AppContent = {
       {
         title: 'Konfigurer gitteret',
         description:
-          'Åbn panelet Gittermuligheder og indstil antallet af rækker (2–4, standard 3) og kolonner (2–4, standard 3) til dit puslespilsgitter. Indstil derefter antallet af ledetrådsceller (1–5, standard 1) — dette er fliser, der forbliver synlige på arbejdsarket som tips til brugerne. Et 3×3-gitter med 1 ledetråd skaber et udfordrende puslespil med 8 fliser at matche, mens et 2×2-gitter med 3 ledetråde skaber en simpel opvarmning med kun 1 flise at placere. Denne konfigurerbare sværhedsgrad gør det nemt at oprette graderede puslespilssæt.',
+          'Åbn panelet Gittermuligheder og indstil antallet af rækker (2–4, standard 3) og kolonner (2–4, standard 3) til dit puslespilsgitter. Indstil derefter antallet af ledetrådsceller (1–5, standard 1) — dette er fliser, der forbliver synlige på arbejdsarket som tips til brugerne. Et 3×3-gitter med 1 ledetråd generator et udfordrende puslespil med 8 fliser at matche, mens et 2×2-gitter med 3 ledetråde generator en simpel opvarmning med kun 1 flise at placere. Denne konfigurerbare sværhedsgrad gør det nemt at oprette graderede puslespilssæt.',
       },
       {
         title: 'Vælg et billede',
@@ -63,7 +63,7 @@ const content: AppContent = {
       {
         title: 'Enkeltbilledgitterpuslespil med konfigurerbare rækker og kolonner (2–4 × 2–4)',
         description:
-          'Hvert puslespil begynder med ét billede opdelt i et gitter af fliser. Indstil 2–4 rækker og 2–4 kolonner uafhængigt, hvilket skaber gitre fra 2×2 (4 fliser) op til 4×4 (16 fliser). Standard 3×3-gitteret producerer 9 fliser — en balanceret sværhedsgrad for de fleste aldre. Mindre gitre fungerer godt til introduktionspuslespil og yngre brugere, mens større gitre udfordrer ældre brugere og skaber premiumpuslespilsprodukter. Til forskel fra matchningsarbejdsark med flere billeder tester gitterpuslespillet rumligt ræsonnement og visuel analyse af et enkelt komplet billede.',
+          'Hvert puslespil begynder med ét billede opdelt i et gitter af fliser. Indstil 2–4 rækker og 2–4 kolonner uafhængigt, hvilket generator gitre fra 2×2 (4 fliser) op til 4×4 (16 fliser). Standard 3×3-gitteret producerer 9 fliser — en balanceret sværhedsgrad for de fleste aldre. Mindre gitre fungerer godt til introduktionspuslespil og yngre brugere, mens større gitre udfordrer ældre brugere og generator premiumpuslespilsprodukter. Til forskel fra matchningsarbejdsark med flere billeder tester gitterpuslespillet rumligt ræsonnement og visuel analyse af et enkelt komplet billede.',
       },
       {
         title: 'Justerbart antal ledetrådsceller for skalerbar sværhedsgrad (1–5 synlige celler)',
@@ -127,13 +127,13 @@ const content: AppContent = {
       {
         title: 'Sæsonbetonede gitterpuslespil-samlinger',
         description:
-          'De 104 tematiske billedsamlinger dækker enhver sæson- og højtidslejlighed — jul, halloween, påske, valentinsdag, skolestart, sommerferie og flere. Opret tidsbegrænsede gitterpuslespil-samlinger, der falder sammen med topindkøbsperioder. Udgiv halloween-puslespilspakker i september, julesamlinger i oktober og valentinsdag-pakker i januar. Inkluder flere gitterstørrelser og sværhedsgrader i hvert sæsonsæt for maksimal værdi. Sæsonprodukter motiverer højere priser under deres topvinduer og skaber naturlige grunde til genkøb.',
+          'De 104 tematiske billedsamlinger dækker enhver sæson- og højtidslejlighed — jul, halloween, påske, valentinsdag, skolestart, sommerferie og flere. Opret tidsbegrænsede gitterpuslespil-samlinger, der falder sammen med topindkøbsperioder. Udgiv halloween-puslespilspakker i september, julesamlinger i oktober og valentinsdag-pakker i januar. Inkluder flere gitterstørrelser og sværhedsgrader i hvert sæsonsæt for maksimal værdi. Sæsonprodukter motiverer højere priser under deres topvinduer og generator naturlige grunde til genkøb.',
         platform: 'Etsy / Amazon KDP / Gumroad (sæsonbetonet)',
       },
       {
         title: 'Tilpassede fotogitterpuslespil til personaliserede produkter',
         description:
-          'Brug funktionen Upload Egne Billeder til at oprette gitterpuslespil fra ethvert foto eller kunstværk. Familiefotopuslespil bliver unikke personlige gaver. Sælgere kan uploade klassebilleder til semesterafslutningsaktiviteter. Kæledyrsfotopuslespil, feriefotopuslespil og holdfotopuslespil skaber alle unikke produkter. Tilbyd tilpasset gitterpuslespil-oprettelse som en premiumtjeneste på Etsy.dk, hvor kunder sender deres fotos, og du leverer trykte puslespilsarbejdsark med facit — et højmarginpersonaliseret produkt med minimal produktionstid.',
+          'Brug funktionen Upload Egne Billeder til at oprette gitterpuslespil fra ethvert foto eller kunstværk. Familiefotopuslespil bliver unikke personlige gaver. Sælgere kan uploade klassebilleder til semesterafslutningsaktiviteter. Kæledyrsfotopuslespil, feriefotopuslespil og holdfotopuslespil generator alle unikke produkter. Tilbyd tilpasset gitterpuslespil-oprettelse som en premiumtjeneste på Etsy.dk, hvor kunder sender deres fotos, og du leverer trykte puslespilsarbejdsark med facit — et højmarginpersonaliseret produkt med minimal produktionstid.',
         platform: 'Etsy (personaliserede produkter)',
       },
     ],
@@ -143,7 +143,7 @@ const content: AppContent = {
     {
       question: 'Hvilke gitterstørrelser er tilgængelige for gittermatchningspuslespil?',
       answer:
-        'Generatoren understøtter 2–4 rækker og 2–4 kolonner, konfigureret uafhængigt. Dette skaber gitre fra 2×2 (4 fliser) op til 4×4 (16 fliser). Standard er 3×3 (9 fliser). Mindre gitre er lettere og fungerer godt for yngre brugere; større gitre øger sværhedsgraden og visuel kompleksitet. Du kan indstille rækker og kolonner til forskellige værdier — for eksempel skaber 2 rækker × 4 kolonner et bredt rektangulært puslespil.',
+        'Generatoren understøtter 2–4 rækker og 2–4 kolonner, konfigureret uafhængigt. Dette generator gitre fra 2×2 (4 fliser) op til 4×4 (16 fliser). Standard er 3×3 (9 fliser). Mindre gitre er lettere og fungerer godt for yngre brugere; større gitre øger sværhedsgraden og visuel kompleksitet. Du kan indstille rækker og kolonner til forskellige værdier — for eksempel generator 2 rækker × 4 kolonner et bredt rektangulært puslespil.',
     },
     {
       question: 'Hvordan kontrollerer ledetrådsceller puslespillets sværhed?',

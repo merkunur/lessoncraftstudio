@@ -4,7 +4,7 @@ const content: ToolContent = {
   seo: {
     primaryKeyword: 'ordsøgning arbejdsark generator',
     secondaryKeywords: [
-      'ordsøgning puslespil skaber for sælgere',
+      'ordsøgning puslespil generator for sælgere',
       'lav ordgitter arbejdsark til salg',
       'printbare ordsøgning arbejdsark kommerciel brug',
       'ordsøgning generator til KDP',
@@ -21,14 +21,14 @@ const content: ToolContent = {
   hero: {
     title: 'Ordsøgning Arbejdsark Generator',
     tagline: 'Lav skjulte-ord gitterpuslespil med justerbare størrelser, retningskontroller og lokalbevidste fyldningsbogstaver på 11 sprog',
-    description: 'Design professionelle ordsøgning arbejdsark, hvor skjulte ord er indlejret i et gitter af tilfældige fyldningsbogstaver, og brugerne scanner rækker, kolonner og diagonaler for at finde dem — det klassiske puslespilformat, der aldrig går af mode. Dette værktøj giver dig præcis kontrol over sværhedsgraden gennem to uafhængige akser: gitterstørrelse (justerbar fra 5×5 til 30×30 med rækker og kolonner indstillet uafhængigt) og ordretningskontakter (diagonale ord til eller fra, baglæns ord til eller fra), der skaber alt fra to til otte mulige placeringsretninger. Vælg blandt tre indholdskilder: Billedbibliotek henter fra mere end 3.100 illustrationer i 104 tematiske samlinger, Manuelt Redigeringstilstand lader dig vælge billeder og tilpasse visningsnavne, og Tilpasset Ordliste lader dig skrive op til 8 ord direkte til tekstbaserede puslespil. Tre visningstilstande — Ord + Billeder, Kun Billeder og Kun Ord — styrer, hvad der vises som ledetråde ved siden af gitteret. Den kendetegnende funktion er lokalbevidst alfabetsfyldning: når du skifter sprog, ændres gitterets fyldningsbogstaver til at matche det pågældende sprogs tegnsæt med vægtede frekvensfordelinger. Danske gitre inkluderer æ, ø, å ved naturlige frekvenser. Tyske gitre inkluderer ä, ö, ü og ß. Franske gitre inkluderer é, è, ç, à. Hvert sprog får autentiske fyldningstegn, hvilket gør puslespillene sprogligt ægte snarere end åbenlyst engelskgenererede. Et farvekodede facit markerer hvert fundet ord i en af seks cyklende farver — rosa, blå, grøn, guld, koral og lavendel — for øjeblikkelig visuel verifikation. Eksportér trykfærdige PDF\'er og JPEG-billeder med 400+ DPI i Letter, A4 eller tilpassede størrelser. Vælg blandt 7 skrifttypefamilier, tilføj navn- og datofelter, skift gråtone for blækvenligt output, og brug hele Fabric.js arbejdsområdet til at flytte hvert element. Den gratis prøveversion indeholder et vandmærke på downloads. Køb en licens for at fjerne vandmærket og sælge kommercielt.',
+    description: 'Design professionelle ordsøgning arbejdsark, hvor skjulte ord er indlejret i et gitter af tilfældige fyldningsbogstaver, og brugerne scanner rækker, kolonner og diagonaler for at finde dem — det klassiske puslespilformat, der aldrig går af mode. Dette værktøj giver dig præcis kontrol over sværhedsgraden gennem to uafhængige akser: gitterstørrelse (justerbar fra 5×5 til 30×30 med rækker og kolonner indstillet uafhængigt) og ordretningskontakter (diagonale ord til eller fra, baglæns ord til eller fra), der generator alt fra to til otte mulige placeringsretninger. Vælg blandt tre indholdskilder: Billedbibliotek henter fra mere end 3.100 illustrationer i 104 tematiske samlinger, Manuelt Redigeringstilstand lader dig vælge billeder og tilpasse visningsnavne, og Tilpasset Ordliste lader dig skrive op til 8 ord direkte til tekstbaserede puslespil. Tre visningstilstande — Ord + Billeder, Kun Billeder og Kun Ord — styrer, hvad der vises som ledetråde ved siden af gitteret. Den kendetegnende funktion er lokalbevidst alfabetsfyldning: når du skifter sprog, ændres gitterets fyldningsbogstaver til at matche det pågældende sprogs tegnsæt med vægtede frekvensfordelinger. Danske gitre inkluderer æ, ø, å ved naturlige frekvenser. Tyske gitre inkluderer ä, ö, ü og ß. Franske gitre inkluderer é, è, ç, à. Hvert sprog får autentiske fyldningstegn, hvilket gør puslespillene sprogligt ægte snarere end åbenlyst engelskgenererede. Et farvekodede facit markerer hvert fundet ord i en af seks cyklende farver — rosa, blå, grøn, guld, koral og lavendel — for øjeblikkelig visuel verifikation. Eksportér trykfærdige PDF\'er og JPEG-billeder med 400+ DPI i Letter, A4 eller tilpassede størrelser. Vælg blandt 7 skrifttypefamilier, tilføj navn- og datofelter, skift gråtone for blækvenligt output, og brug hele Fabric.js arbejdsområdet til at flytte hvert element. Den gratis prøveversion indeholder et vandmærke på downloads. Køb en licens for at fjerne vandmærket og sælge kommercielt.',
   },
 
   tutorial: {
     title: 'Sådan Laver du Ordsøgning Arbejdsark i 8 Enkle Trin',
     steps: [
       {
-        title: 'Åbn Ordsøgning Arbejdsark Skaberen',
+        title: 'Åbn Ordsøgning Arbejdsark Generatoren',
         description: 'Klik på \"Prøv gratis nu\" for at starte generatoren i din browser. Værktøjet indlæses direkte med et indstillingssidepanel til venstre og et liveforhåndsvisningsarbejdsområde til højre. Ingen konto, ingen download, ingen installation kræves — begynd at bygge ordsøgningspuslespil med det samme.',
       },
       {
@@ -41,7 +41,7 @@ const content: ToolContent = {
       },
       {
         title: 'Konfigurér gitterstørrelse og dimensioner',
-        description: 'Indstil rækker og kolonner uafhængigt fra 5 til 30. Standard er 12×12. Et 5×5-gitter med 25 celler skaber et hurtigt, tilgængeligt puslespil for unge brugere. Et 20×20 eller 30×30-gitter skaber en tæt, udfordrende søgning for erfarne løsere. At justere gitterdimensioner er den primære måde at kontrollere, hvor meget visuel scanning hvert puslespil kræver. Match gitterstørrelse med din målgruppe: lille for børnehavebørn, mellemstor for grundskolebrugere, stor for voksne og puslespilsentusiaster.',
+        description: 'Indstil rækker og kolonner uafhængigt fra 5 til 30. Standard er 12×12. Et 5×5-gitter med 25 celler generator et hurtigt, tilgængeligt puslespil for unge brugere. Et 20×20 eller 30×30-gitter generator en tæt, udfordrende søgning for erfarne løsere. At justere gitterdimensioner er den primære måde at kontrollere, hvor meget visuel scanning hvert puslespil kræver. Match gitterstørrelse med din målgruppe: lille for børnehavebørn, mellemstor for grundskolebrugere, stor for voksne og puslespilsentusiaster.',
       },
       {
         title: 'Skift ordretningskontroller',
@@ -49,7 +49,7 @@ const content: ToolContent = {
       },
       {
         title: 'Indstil visningstilstand og sprog',
-        description: 'Vælg blandt tre visningstilstande: Ord + Billeder (standard) viser både billedledetråde og ordetiketter ved siden af gitteret, Kun Billeder viser billedledetråde uden tekstetiketter, og Kun Ord skaber en ren tekstbaseret ordsøgning. Vælg derefter dit sprog blandt 11 understøttede sprog. Når du skifter sprog, ændres både de skjulte ord og gitterets fyldningsbogstaver — danske gitre fylder med æ, ø, å ved naturlige frekvenser, og hvert sprog bruger sit autentiske tegnsæt.',
+        description: 'Vælg blandt tre visningstilstande: Ord + Billeder (standard) viser både billedledetråde og ordetiketter ved siden af gitteret, Kun Billeder viser billedledetråde uden tekstetiketter, og Kun Ord generator en ren tekstbaseret ordsøgning. Vælg derefter dit sprog blandt 11 understøttede sprog. Når du skifter sprog, ændres både de skjulte ord og gitterets fyldningsbogstaver — danske gitre fylder med æ, ø, å ved naturlige frekvenser, og hvert sprog bruger sit autentiske tegnsæt.',
       },
       {
         title: 'Tilpas skrifttype, tekst og arbejdsområde',
@@ -129,7 +129,7 @@ const content: ToolContent = {
     },
     {
       title: 'Lagdel retningskontroller for progressiv udfordring',
-      description: 'Begynd med kun vandrette ord (både diagonaler og baglæns deaktiveret) for de enkleste puslespil. Tilføj lodret som standard. Aktivér derefter diagonaler for mellemniveau sværhed. Til sidst, aktivér baglæns ord for ekspertniveau-udfordringer, hvor ord løber bagud. Denne firetrinsprogression — 2 retninger, 4 retninger, 6 retninger, 8 retninger — skaber en ren sværhedskurve gennem dine arbejdsarkpakker.',
+      description: 'Begynd med kun vandrette ord (både diagonaler og baglæns deaktiveret) for de enkleste puslespil. Tilføj lodret som standard. Aktivér derefter diagonaler for mellemniveau sværhed. Til sidst, aktivér baglæns ord for ekspertniveau-udfordringer, hvor ord løber bagud. Denne firetrinsprogression — 2 retninger, 4 retninger, 6 retninger, 8 retninger — generator en ren sværhedskurve gennem dine arbejdsarkpakker.',
     },
     {
       title: 'Udnyt lokalbevidste fyldningsbogstaver for autentiske produkter',
@@ -137,7 +137,7 @@ const content: ToolContent = {
     },
     {
       title: 'Brug visningstilstande strategisk',
-      description: 'Ord + Billeder-tilstand er standard — fremragende til ordforrådsopbygning. Kun Billeder-tilstand tilføjer en ekstra udfordring: brugerne skal identificere, hvad billedet forestiller, før de kan søge efter ordet. Kun Ord-tilstand skaber klassiske tekstbaserede ordsøgninger uden visuelle ledetråde. Tilbyd alle tre tilstande som varianter af den samme temapakke for at tredoble dit produktudbud fra én enkelt designsession.',
+      description: 'Ord + Billeder-tilstand er standard — fremragende til ordforrådsopbygning. Kun Billeder-tilstand tilføjer en ekstra udfordring: brugerne skal identificere, hvad billedet forestiller, før de kan søge efter ordet. Kun Ord-tilstand generator klassiske tekstbaserede ordsøgninger uden visuelle ledetråde. Tilbyd alle tre tilstande som varianter af den samme temapakke for at tredoble dit produktudbud fra én enkelt designsession.',
     },
     {
       title: 'Brug gråtoner til KDP og massetryk',
@@ -164,7 +164,7 @@ const content: ToolContent = {
     },
     {
       question: 'Hvilke gitterstørrelser er tilgængelige?',
-      answer: 'Du kan indstille rækker og kolonner uafhængigt fra 5 til 30. Standard er 12×12. Et 5×5-gitter skaber et hurtigt, enkelt puslespil med kun 25 celler. Et 30×30-gitter skaber en tæt, udfordrende søgning med 900 celler. At justere gitterstørrelse er den primære måde at kontrollere sværhed sammen med retningsindstillinger.',
+      answer: 'Du kan indstille rækker og kolonner uafhængigt fra 5 til 30. Standard er 12×12. Et 5×5-gitter generator et hurtigt, enkelt puslespil med kun 25 celler. Et 30×30-gitter generator en tæt, udfordrende søgning med 900 celler. At justere gitterstørrelse er den primære måde at kontrollere sværhed sammen med retningsindstillinger.',
     },
     {
       question: 'Hvad gør diagonal- og baglænsretningskontakterne?',
@@ -202,13 +202,13 @@ const content: ToolContent = {
 
   internalLinks: [
     { pageType: 'app', slug: 'ordsoegning-arbejdsark', anchorText: 'Ordsøgning Arbejdsark — Fulde Produktdetaljer' },
-    { pageType: 'tool', slug: 'gaet-ordet-skaber', anchorText: 'Gæt Ordet Skaber' },
-    { pageType: 'tool', slug: 'ordmix-skaber', anchorText: 'Bogstavblanding Skaber' },
-    { pageType: 'tool', slug: 'kryptogram-skaber', anchorText: 'Kryptogram Skaber' },
-    { pageType: 'tool', slug: 'alfabet-tog-skaber', anchorText: 'Alfabet Tog Skaber' },
-    { pageType: 'tool', slug: 'forholdsord-arbejdsark-skaber', anchorText: 'Forholdsord Arbejdsark Skaber' },
-    { pageType: 'tool', slug: 'skriveoevelser-skaber', anchorText: 'Skriveøvelser Skaber' },
-    { pageType: 'tool', slug: 'matchning-arbejdsark-skaber', anchorText: 'Matchning Arbejdsark Skaber' },
+    { pageType: 'tool', slug: 'gaet-ordet-skaber', anchorText: 'Gæt Ordet Generator' },
+    { pageType: 'tool', slug: 'ordmix-skaber', anchorText: 'Bogstavblanding Generator' },
+    { pageType: 'tool', slug: 'kryptogram-skaber', anchorText: 'Kryptogram Generator' },
+    { pageType: 'tool', slug: 'alfabet-tog-skaber', anchorText: 'Alfabet Tog Generator' },
+    { pageType: 'tool', slug: 'forholdsord-arbejdsark-skaber', anchorText: 'Forholdsord Arbejdsark Generator' },
+    { pageType: 'tool', slug: 'skriveoevelser-skaber', anchorText: 'Skriveøvelser Generator' },
+    { pageType: 'tool', slug: 'matchning-arbejdsark-skaber', anchorText: 'Matchning Arbejdsark Generator' },
   ],
 
   visuals: {

@@ -4,7 +4,7 @@ const content: GuideContent = {
   seo: {
     primaryKeyword: 'skapa målarbilder för Etsy och KDP',
     secondaryKeywords: [
-      'målarbild-skapare från bilder',
+      'målarbild-generator från bilder',
       'utskriftsklara målarbilder att sälja',
       'gråskale målarbild generator',
       'anpassade målarblad för barn',
@@ -24,10 +24,10 @@ const content: GuideContent = {
   hero: {
     title: 'Hur du skapar målarbilder från tematiska bilder',
     tagline: 'En steg-för-steg-guide för att designa anpassade målarbilder med en fri arbetsyta, 3 100+ tematiska bilder, frihandsritning och gråskaleexport med ett klick',
-    description: 'Målarbilder är en av de mest sökta och köpta printable-produkterna på alla stora marknadsplatser. Föräldrar vill ha dem för offline, opluggade aktiviteter. säljare använder dem som produktlinjesuppvärmning och belöningsblad. Etsy-säljare bygger hela butiker kring tematiska målarbild-paket. Denna guide leder dig genom hela skapandeprocessen med Målarbild-skaparen — från att placera tematiska bilder på en fri arbetsyta till att aktivera gråskaleväxeln som konverterar din färgglada design till en ren, tryckfärdig målarbild.',
+    description: 'Målarbilder är en av de mest sökta och köpta printable-produkterna på alla stora marknadsplatser. Föräldrar vill ha dem för offline, opluggade aktiviteter. säljare använder dem som produktlinjesuppvärmning och belöningsblad. Etsy-säljare bygger hela butiker kring tematiska målarbild-paket. Denna guide leder dig genom hela skapandeprocessen med Målarbild-generatorn — från att placera tematiska bilder på en fri arbetsyta till att aktivera gråskaleväxeln som konverterar din färgglada design till en ren, tryckfärdig målarbild.',
   },
 
-  introduction: 'Målarbilder intar en unik position på printable-marknaden. Till skillnad från arbetsblad som riktar sig mot specifika åldersgrupper eller färdighetsnivåer tilltalar målarbilder praktiskt taget alla — småbarn, skolbarn, tonåringar och även vuxna. Denna universella attraktionskraft översätts till massiv, helårsefterfrågan på Etsy, Amazon KDP och Gumroad.\n\nVad som gör målarbilder särskilt attraktiva som produkt är deras enkelhet. Det finns inga facit att generera, inga svårighetsnivåer att konfigurera och ingen produktkatalogsanpassning att oroa sig över. En väldesignad målarbild med tilltalande bildspråk säljer på sin visuella merit.\n\nMålarbild-skaparen tar en fundamentalt annorlunda metod. Istället för att arbeta med färdiga mallar eller spåra konturer för hand arbetar du på en fri arbetsyta där du placerar tematiska bilder från ett bibliotek med över 3 100 illustrationer i 104 teman. Du drar, ändrar storlek och roterar bilder fritt. Sedan konverterar gråskaleexportväxeln din färgglada design till rena svartvita konturer redo för utskrift och färgläggning.\n\nVerktyget inkluderar också ett frihandsritningsverktyg för att lägga till handritade detaljer, textverktyg för titlar och instruktioner, och produktlinjeshjälpare som namnfält och skrivlinjer. Denna kombination låter dig skapa allt från enkla målarbladssidor till komplexa tematiska aktivitetsblad.\n\nVarje funktion som nämns i denna guide är tillgänglig i den gratis provversionen med vattenstämpel.',
+  introduction: 'Målarbilder intar en unik position på printable-marknaden. Till skillnad från arbetsblad som riktar sig mot specifika åldersgrupper eller färdighetsnivåer tilltalar målarbilder praktiskt taget alla — småbarn, skolbarn, tonåringar och även vuxna. Denna universella attraktionskraft översätts till massiv, helårsefterfrågan på Etsy, Amazon KDP och Gumroad.\n\nVad som gör målarbilder särskilt attraktiva som produkt är deras enkelhet. Det finns inga facit att generera, inga svårighetsnivåer att konfigurera och ingen produktkatalogsanpassning att oroa sig över. En väldesignad målarbild med tilltalande bildspråk säljer på sin visuella merit.\n\nMålarbild-generatorn tar en fundamentalt annorlunda metod. Istället för att arbeta med färdiga mallar eller spåra konturer för hand arbetar du på en fri arbetsyta där du placerar tematiska bilder från ett bibliotek med över 3 100 illustrationer i 104 teman. Du drar, ändrar storlek och roterar bilder fritt. Sedan konverterar gråskaleexportväxeln din färgglada design till rena svartvita konturer redo för utskrift och färgläggning.\n\nVerktyget inkluderar också ett frihandsritningsverktyg för att lägga till handritade detaljer, textverktyg för titlar och instruktioner, och produktlinjeshjälpare som namnfält och skrivlinjer. Denna kombination låter dig skapa allt från enkla målarbladssidor till komplexa tematiska aktivitetsblad.\n\nVarje funktion som nämns i denna guide är tillgänglig i den gratis provversionen med vattenstämpel.',
 
   tutorial: [
     {
@@ -40,7 +40,7 @@ const content: GuideContent = {
     },
     {
       heading: 'Placera och arrangera bilder på arbetsytan',
-      content: 'Målarbild-skaparen använder en fri arbetsyta — det finns inga rutnät, mallar eller förutbestämda platser. Du har fullständig kreativ frihet.\n\nNär en bild är på arbetsytan kan du:\n\nDra den till valfri position. Placera ett stort djur i mitten, stoppa ett mindre i ett hörn, eller sprid bilder jämnt.\n\nÄndra storlek genom att dra i hörnhandtagen. Gör en enda bild till att fylla sidan eller krympa flera bilder för ett collagelayout.\n\nRotera bilder för dynamiska kompositioner. Att luta bilder något förhindrar det stela clip-art-rutnätsutseendet.\n\nLager bilder genom att justera deras ordning. Placera bakgrundselement bakom förgrundsmotiv.\n\nLås bilder på plats efter positionering. Detta förhindrar oavsiktliga förflyttningar.\n\nAnvänd zoomkontroller (25% till 300%) för att arbeta på olika detaljnivåer.\n\nÅngra och gör om (upp till 20 steg) låter dig experimentera fritt.\n\nDe bästa målarbladssidorna har medvetna kompositioner. Undvik att dumpa bilder slumpmässigt — tänk på visuell balans, avstånd och hur sidan ser ut utskriven. Lämna tillräckligt med vitt utrymme mellan bilder för färgläggningsbekvämlighet.',
+      content: 'Målarbild-generatorn använder en fri arbetsyta — det finns inga rutnät, mallar eller förutbestämda platser. Du har fullständig kreativ frihet.\n\nNär en bild är på arbetsytan kan du:\n\nDra den till valfri position. Placera ett stort djur i mitten, stoppa ett mindre i ett hörn, eller sprid bilder jämnt.\n\nÄndra storlek genom att dra i hörnhandtagen. Gör en enda bild till att fylla sidan eller krympa flera bilder för ett collagelayout.\n\nRotera bilder för dynamiska kompositioner. Att luta bilder något förhindrar det stela clip-art-rutnätsutseendet.\n\nLager bilder genom att justera deras ordning. Placera bakgrundselement bakom förgrundsmotiv.\n\nLås bilder på plats efter positionering. Detta förhindrar oavsiktliga förflyttningar.\n\nAnvänd zoomkontroller (25% till 300%) för att arbeta på olika detaljnivåer.\n\nÅngra och gör om (upp till 20 steg) låter dig experimentera fritt.\n\nDe bästa målarbladssidorna har medvetna kompositioner. Undvik att dumpa bilder slumpmässigt — tänk på visuell balans, avstånd och hur sidan ser ut utskriven. Lämna tillräckligt med vitt utrymme mellan bilder för färgläggningsbekvämlighet.',
     },
     {
       heading: 'Lägg till frihandsritningselement',
@@ -56,7 +56,7 @@ const content: GuideContent = {
     },
     {
       heading: 'Aktivera gråskala för tryckfärdiga målarbilder',
-      content: 'Gråskaleväxeln är funktionen som gör detta till en målarbild-skapare snarare än bara en arbetsytedesigner. Med ett klick konverteras hela din färgglada komposition — biblioteksbilder, ritningar, text och allt — till rena svartvita konturer perfekta för utskrift och handfärgläggning.\n\nHitta gråskaleväxeln i exportsektionen. När den aktiveras uppdateras förhandsgranskningen omedelbart.\n\nVarför gråskala spelar roll:\n\nUtskriftseffektivitet: Svartvita sidor använder minimalt bläck — ett genuint säljargument.\n\nFärgläggingstydlighet: Gråskalekonvertering producerar rena konturer som är lätta att se.\n\nProfessionellt utseende: Konverteringen är konsekvent och ren.\n\nDubbelt användningspotential: Designa i fullfärg för digital produkt eller listningsförhandsgranskning, sedan växla gråskala för utskriftsversion. En design, två produkter.\n\nFöre export, zooma in och kontrollera gråskaleförhandsgranskningen. Verifiera att alla konturer är tydliga och inga viktiga detaljer försvinner.',
+      content: 'Gråskaleväxeln är funktionen som gör detta till en målarbild-generator snarare än bara en arbetsytedesigner. Med ett klick konverteras hela din färgglada komposition — biblioteksbilder, ritningar, text och allt — till rena svartvita konturer perfekta för utskrift och handfärgläggning.\n\nHitta gråskaleväxeln i exportsektionen. När den aktiveras uppdateras förhandsgranskningen omedelbart.\n\nVarför gråskala spelar roll:\n\nUtskriftseffektivitet: Svartvita sidor använder minimalt bläck — ett genuint säljargument.\n\nFärgläggingstydlighet: Gråskalekonvertering producerar rena konturer som är lätta att se.\n\nProfessionellt utseende: Konverteringen är konsekvent och ren.\n\nDubbelt användningspotential: Designa i fullfärg för digital produkt eller listningsförhandsgranskning, sedan växla gråskala för utskriftsversion. En design, två produkter.\n\nFöre export, zooma in och kontrollera gråskaleförhandsgranskningen. Verifiera att alla konturer är tydliga och inga viktiga detaljer försvinner.',
     },
     {
       heading: 'Exportera som PDF och JPEG',
@@ -168,13 +168,13 @@ const content: GuideContent = {
   toolsRecommended: [
     {
       appId: 'coloring',
-      title: 'Målarbild-skapare',
+      title: 'Målarbild-generator',
       description: 'Det primära verktyget för denna guide. En fri arbetsytedesigner med 3 100+ tematiska bilder, frihandsritning, produktlinjeshjälpare och gråskaleexport med ett klick.',
     },
     {
       appId: 'draw-and-color',
       title: 'Rita och Färglägg Generator',
-      description: 'En avancerad rit- och illustrationskompanjon med ytterligare kreativa verktyg. Para med Målarbild-skaparen för mer komplexa konstnärliga produkter.',
+      description: 'En avancerad rit- och illustrationskompanjon med ytterligare kreativa verktyg. Para med Målarbild-generatorn för mer komplexa konstnärliga produkter.',
     },
     {
       appId: 'drawing-lines',

@@ -7,7 +7,7 @@ const content: ToolContent = {
       'Schattenbilder-Arbeitsblätter kostenlos erstellen',
       'Silhouetten-Zuordnung Generator online ohne Anmeldung',
       'kostenlose Schattenbilder-Rätsel mit Lösungsschlüssel',
-      'Schattenbilder-Ersteller mit Bild-Vervollständigung kostenlos',
+      'Schattenbilder-Generator mit Bild-Vervollständigung kostenlos',
     ],
     lsiKeywords: [
       'Silhouetten-Zuordnung pixelgenaue Verarbeitung',
@@ -28,7 +28,7 @@ const content: ToolContent = {
     title: 'Schattenbilder-Zuordnungsblätter erstellen in 8 Schritten',
     steps: [
       {
-        title: 'Den Schattenbilder-Ersteller öffnen',
+        title: 'Den Schattenbilder-Generator öffnen',
         description: 'Klicken Sie auf \"Kostenlos testen\", um den Schattenbilder-Zuordnungs-Generator in Ihrem Browser zu starten. Das Tool lädt sofort mit einer Einstellungsleiste links und einer Doppel-Tab-Arbeitsfläche rechts — ein Tab für das Arbeitsblatt, einer für den Lösungsschlüssel. Keine Kontoerstellung, kein Software-Download, keine Installation erforderlich — beginnen Sie sofort mit der Erstellung von Schattenbilder-Zuordnungsblättern.',
       },
       {
@@ -117,7 +117,7 @@ const content: ToolContent = {
     },
     {
       title: 'Globale visuelle Rätsel-Produktlinie',
-      description: 'Der Schattenbilder-Ersteller erzeugt rein visuelle Rätsel — Bilder, Silhouetten und geteilte Hälften sind universell ohne sprachspezifischen Text auf der Arbeitsblatt-Ausgabe. Dieselben Produktdateien funktionieren in jedem Land ohne Übersetzung oder Anpassung. Eine Erstellungssitzung produziert einen weltweit verkaufbaren Katalog. Verkaufen Sie identische Dateien über Etsy-Shops, die verschiedene Länder ansprechen, veröffentlichen Sie dieselben KDP-Buchinhalte auf allen internationalen Amazon-Marktplätzen und listen Sie auf Gumroad für internationale Verkäufer. Keine separaten Sprachversionen, keine Übersetzungskosten, keine länderspezifische Wartung. Die Funktion zum Hochladen eigener Bilder ermöglicht zusätzlich lokalisierte Personalisierungsdienste, ohne das Kernproduktformat zu ändern.',
+      description: 'Der Schattenbilder-Generator erzeugt rein visuelle Rätsel — Bilder, Silhouetten und geteilte Hälften sind universell ohne sprachspezifischen Text auf der Arbeitsblatt-Ausgabe. Dieselben Produktdateien funktionieren in jedem Land ohne Übersetzung oder Anpassung. Eine Erstellungssitzung produziert einen weltweit verkaufbaren Katalog. Verkaufen Sie identische Dateien über Etsy-Shops, die verschiedene Länder ansprechen, veröffentlichen Sie dieselben KDP-Buchinhalte auf allen internationalen Amazon-Marktplätzen und listen Sie auf Gumroad für internationale Verkäufer. Keine separaten Sprachversionen, keine Übersetzungskosten, keine länderspezifische Wartung. Die Funktion zum Hochladen eigener Bilder ermöglicht zusätzlich lokalisierte Personalisierungsdienste, ohne das Kernproduktformat zu ändern.',
       platform: 'Etsy / Amazon KDP',
     },
   ],
@@ -187,8 +187,8 @@ const content: ToolContent = {
       answer: 'Beide Übungsmodi verwenden eine feste Anzahl von 4 Zuordnungsaufgaben pro Arbeitsblatt. Dies bietet die optimale Balance für Schatten- und Bildhälften-Zuordnung: genug Vielfalt, um mit dem Derangement-Algorithmus eine echte Zuordnungsherausforderung zu schaffen, während jedes Bild groß genug bleibt, damit Lernende feine Details in Silhouetten und geteilten Hälften studieren können. Das konsistente 4-Elemente-Format eignet sich auch gut für gebündelte Produkte, bei denen jede Seite vorhersehbare Inhaltsdichte und visuelle Ausgewogenheit hat.',
     },
     {
-      question: 'Ist der Schattenbilder-Ersteller sprachabhängig?',
-      answer: 'Nein. Der Schattenbilder-Ersteller ist rein visuell — die Arbeitsblatt-Ausgabe enthält nur Bilder, Silhouetten und geteilte Hälften ohne lokalisierten Wortinhalt auf dem Arbeitsblatt selbst. Die App-Oberfläche (Menüs, Buttons, Überschriftentext) unterstützt alle 11 Sprachen, aber das generierte Arbeitsblatt funktioniert unabhängig von der Sprachauswahl identisch. Das macht Schattenbilder-Zuordnungsblätter universell verkaufbar über alle Märkte hinweg ohne Übersetzung. Ein Set von Schattenbilder-Rätseln bedient jeden internationalen Etsy-Shop, KDP-Marktplatz und Gumroad-Käufer.',
+      question: 'Ist der Schattenbilder-Generator sprachabhängig?',
+      answer: 'Nein. Der Schattenbilder-Generator ist rein visuell — die Arbeitsblatt-Ausgabe enthält nur Bilder, Silhouetten und geteilte Hälften ohne lokalisierten Wortinhalt auf dem Arbeitsblatt selbst. Die App-Oberfläche (Menüs, Buttons, Überschriftentext) unterstützt alle 11 Sprachen, aber das generierte Arbeitsblatt funktioniert unabhängig von der Sprachauswahl identisch. Das macht Schattenbilder-Zuordnungsblätter universell verkaufbar über alle Märkte hinweg ohne Übersetzung. Ein Set von Schattenbilder-Rätseln bedient jeden internationalen Etsy-Shop, KDP-Marktplatz und Gumroad-Käufer.',
     },
     {
       question: 'Welche Seitengrößen und Exportformate sind verfügbar?',
@@ -206,13 +206,13 @@ const content: ToolContent = {
 
   internalLinks: [
     { pageType: 'app', slug: 'schattenbilder-zuordnen-arbeitsblaetter', anchorText: 'Schattenbilder-Zuordnen-Arbeitsblätter — Vollständige Produktdetails' },
-    { pageType: 'tool', slug: 'zuordnungs-arbeitsblatt-ersteller', anchorText: 'Zuordnungs-Arbeitsblatt-Ersteller' },
-    { pageType: 'tool', slug: 'raster-puzzle-ersteller', anchorText: 'Raster-Puzzle-Ersteller' },
-    { pageType: 'tool', slug: 'bingo-karten-ersteller', anchorText: 'Bingo-Karten-Ersteller' },
-    { pageType: 'tool', slug: 'fehlende-puzzleteile-ersteller', anchorText: 'Fehlende-Puzzleteile-Ersteller' },
-    { pageType: 'tool', slug: 'was-passt-nicht-ersteller', anchorText: 'Was-Passt-Nicht-Ersteller' },
-    { pageType: 'tool', slug: 'bilder-sortieren-ersteller', anchorText: 'Bilder-Sortieren-Ersteller' },
-    { pageType: 'tool', slug: 'malvorlagen-ersteller', anchorText: 'Malvorlagen-Ersteller' },
+    { pageType: 'tool', slug: 'zuordnungs-Arbeitsblatt-Generator', anchorText: 'Zuordnungs-Arbeitsblatt-Generator' },
+    { pageType: 'tool', slug: 'raster-puzzle-ersteller', anchorText: 'Raster-Puzzle-Generator' },
+    { pageType: 'tool', slug: 'bingo-karten-ersteller', anchorText: 'Bingo-Karten-Generator' },
+    { pageType: 'tool', slug: 'fehlende-puzzleteile-ersteller', anchorText: 'Fehlende-Puzzleteile-Generator' },
+    { pageType: 'tool', slug: 'was-passt-nicht-ersteller', anchorText: 'Was-Passt-Nicht-Generator' },
+    { pageType: 'tool', slug: 'bilder-sortieren-ersteller', anchorText: 'Bilder-Sortieren-Generator' },
+    { pageType: 'tool', slug: 'malvorlagen-ersteller', anchorText: 'Malvorlagen-Generator' },
   ],
 
   visuals: {

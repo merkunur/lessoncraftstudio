@@ -24,7 +24,7 @@ const toolToWpApp: Record<string, string> = {
 };
 
 const toolsKeywords: Record<string, string[]> = {
-  en: ['free printable generators online no signup', 'free worksheet maker online', 'try printable tools free with watermark', 'free word search generator', 'free math worksheet maker', 'free coloring page generator'],
+  en: ['free printable generators online no signup', 'free worksheet generator online', 'try printable tools free with watermark', 'free word search generator', 'free math worksheet generator', 'free coloring page generator'],
   de: ['kostenlose Druckvorlagen-Generatoren', 'Online-Arbeitsblatt-Ersteller', 'Druckvorlagen-Tools gratis testen', 'Wortsuche-Generator kostenlos', 'Mathe-Arbeitsblatt-Generator', 'Ausmalbilder-Ersteller online'],
   fr: ['générateurs imprimables gratuits', 'créateur de fiches en ligne', 'outils imprimables essai gratuit', 'générateur mots cachés gratuit', 'générateur fiches maths', 'créateur coloriages en ligne'],
   es: ['generadores imprimibles gratis', 'creador de fichas online gratis', 'herramientas imprimibles prueba gratis', 'generador sopa de letras gratis', 'generador fichas matemáticas gratis', 'creador colorear online gratis'],

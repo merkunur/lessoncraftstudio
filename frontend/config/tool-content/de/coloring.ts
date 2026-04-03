@@ -5,7 +5,7 @@ const content: ToolContent = {  seo: {
     secondaryKeywords: [
       'Ausmalbilder kostenlos erstellen online',
       'Malvorlagen-Generator ohne Anmeldung',
-      'kostenloser Ausmalseiten-Ersteller für Kinder',
+      'kostenloser Ausmalseiten-Generator für Kinder',
       'Ausmalbilder online erstellen und drucken',
     ],
     lsiKeywords: [
@@ -27,7 +27,7 @@ const content: ToolContent = {  seo: {
     title: 'Individuelle Ausmalseiten erstellen in 8 Schritten',
     steps: [
       {
-        title: 'Den Malvorlagen-Ersteller öffnen',
+        title: 'Den Malvorlagen-Generator öffnen',
         description: 'Klicken Sie auf \"Kostenlos testen\", um den Ausmalseiten-Generator in Ihrem Browser zu starten. Das Tool lädt sofort mit einer Einstellungsleiste links und einer Live-Vorschau-Arbeitsfläche rechts. Kein Konto erstellen, kein Software-Download, keine Installation nötig — beginnen Sie sofort mit der Gestaltung von Ausmalseiten auf der freien Arbeitsfläche.',
       },
       {
@@ -116,7 +116,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Textfreie globale Produktlinie',
-      description: 'Der Malvorlagen-Ersteller erzeugt rein visuelle Ausgabe ohne Text auf den Arbeitsblättern — dieselbe Malvorlage funktioniert in jeder Sprache ohne Änderung. Eine Erstellungssitzung produziert einen universell verkaufbaren Katalog. Verkaufen Sie dieselben Produktdateien über Etsy-Shops in verschiedenen Ländern, veröffentlichen Sie identische KDP-Innenteile auf allen internationalen Amazon-Marktplätzen und listen Sie auf Gumroad für internationale Verkäufer. Keine separaten Angebote, keine Übersetzungskosten, keine sprachspezifische Pflege. Jede Malvorlage, die Sie erstellen, bedient sofort einen globalen Markt.',
+      description: 'Der Malvorlagen-Generator erzeugt rein visuelle Ausgabe ohne Text auf den Arbeitsblättern — dieselbe Malvorlage funktioniert in jeder Sprache ohne Änderung. Eine Erstellungssitzung produziert einen universell verkaufbaren Katalog. Verkaufen Sie dieselben Produktdateien über Etsy-Shops in verschiedenen Ländern, veröffentlichen Sie identische KDP-Innenteile auf allen internationalen Amazon-Marktplätzen und listen Sie auf Gumroad für internationale Verkäufer. Keine separaten Angebote, keine Übersetzungskosten, keine sprachspezifische Pflege. Jede Malvorlage, die Sie erstellen, bedient sofort einen globalen Markt.',
       platform: 'Etsy / Amazon KDP',
     },
   ],
@@ -159,7 +159,7 @@ const content: ToolContent = {  seo: {
     },
     {
       question: 'Was unterscheidet die freie Arbeitsfläche von vorlagenbasierten Tools?',
-      answer: 'Der Malvorlagen-Ersteller bietet Ihnen eine komplett offene Arbeitsfläche ohne Raster, ohne Vorlagen, ohne Slots und ohne vorbestimmte Layouts. Jedes Bild wird exakt dort platziert, wo Sie es hinziehen. Sie können Bilder überlappen, in beliebigem Winkel drehen, frei skalieren und geschichtete Kompositionen erstellen. Vorlagenbasierte Tools sperren Sie in feste Positionen und erzeugen identisch aussehende Ausgaben. Der Freiform-Ansatz bedeutet, dass jede Malvorlage, die Sie erstellen, einzigartig und mit Vorlagen-Generatoren nicht replizierbar ist.',
+      answer: 'Der Malvorlagen-Generator bietet Ihnen eine komplett offene Arbeitsfläche ohne Raster, ohne Vorlagen, ohne Slots und ohne vorbestimmte Layouts. Jedes Bild wird exakt dort platziert, wo Sie es hinziehen. Sie können Bilder überlappen, in beliebigem Winkel drehen, frei skalieren und geschichtete Kompositionen erstellen. Vorlagenbasierte Tools sperren Sie in feste Positionen und erzeugen identisch aussehende Ausgaben. Der Freiform-Ansatz bedeutet, dass jede Malvorlage, die Sie erstellen, einzigartig und mit Vorlagen-Generatoren nicht replizierbar ist.',
     },
     {
       question: 'Wie funktioniert der Graustufen-Export?',
@@ -175,7 +175,7 @@ const content: ToolContent = {  seo: {
     },
     {
       question: 'Sind die Malvorlagen sprachabhängig?',
-      answer: 'Nein. Der Malvorlagen-Ersteller erzeugt rein visuelle Ausgabe ohne Text auf der Malvorlage selbst. Die Sprachumschaltung im Generator betrifft nur die Oberflächenbeschriftungen, nicht das exportierte Arbeitsblatt. Das macht Ihre Malvorlagen universell verkaufbar ohne Übersetzung. Eine Produktdatei bedient jeden Markt weltweit.',
+      answer: 'Nein. Der Malvorlagen-Generator erzeugt rein visuelle Ausgabe ohne Text auf der Malvorlage selbst. Die Sprachumschaltung im Generator betrifft nur die Oberflächenbeschriftungen, nicht das exportierte Arbeitsblatt. Das macht Ihre Malvorlagen universell verkaufbar ohne Übersetzung. Eine Produktdatei bedient jeden Markt weltweit.',
     },
     {
       question: 'Warum gibt es keinen Lösungsschlüssel?',
@@ -201,13 +201,13 @@ const content: ToolContent = {  seo: {
 
   internalLinks: [
     { pageType: 'app', slug: 'malvorlagen-arbeitsblaetter', anchorText: 'Malvorlagen-Arbeitsblätter — Alle Produktdetails' },
-    { pageType: 'tool', slug: 'rasterzeichnen-ersteller', anchorText: 'Rasterzeichnen-Ersteller' },
-    { pageType: 'tool', slug: 'linien-ziehen-ersteller', anchorText: 'Linien-Ziehen-Ersteller' },
-    { pageType: 'tool', slug: 'gross-klein-ersteller', anchorText: 'Groß-Klein-Ersteller' },
-    { pageType: 'tool', slug: 'muster-zug-ersteller', anchorText: 'Muster-Zug-Ersteller' },
-    { pageType: 'tool', slug: 'zuordnungs-arbeitsblatt-ersteller', anchorText: 'Zuordnungs-Arbeitsblatt-Ersteller' },
-    { pageType: 'tool', slug: 'schattenbilder-ersteller', anchorText: 'Schattenbilder-Ersteller' },
-    { pageType: 'tool', slug: 'schreibuebungen-ersteller', anchorText: 'Schreibübungen-Ersteller' },
+    { pageType: 'tool', slug: 'rasterzeichnen-ersteller', anchorText: 'Rasterzeichnen-Generator' },
+    { pageType: 'tool', slug: 'linien-ziehen-ersteller', anchorText: 'Linien-Ziehen-Generator' },
+    { pageType: 'tool', slug: 'gross-klein-ersteller', anchorText: 'Groß-Klein-Generator' },
+    { pageType: 'tool', slug: 'muster-zug-ersteller', anchorText: 'Muster-Zug-Generator' },
+    { pageType: 'tool', slug: 'zuordnungs-Arbeitsblatt-Generator', anchorText: 'Zuordnungs-Arbeitsblatt-Generator' },
+    { pageType: 'tool', slug: 'schattenbilder-ersteller', anchorText: 'Schattenbilder-Generator' },
+    { pageType: 'tool', slug: 'schreibuebungen-ersteller', anchorText: 'Schreibübungen-Generator' },
   ],
 
   visuals: {

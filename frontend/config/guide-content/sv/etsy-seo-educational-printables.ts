@@ -162,7 +162,7 @@ const content: GuideContent = {
     { pageType: 'start', slug: 'kommersiell-licensguide', anchorText: 'Kommersiell licensguide' },
     { pageType: 'app', slug: 'ordletar-arbetsblad', anchorText: 'Ordsökning Generator — Fullständig information' },
     { pageType: 'app', slug: 'addition-arbetsblad', anchorText: 'Addition Arbetsblad Generator — Fullständig information' },
-    { pageType: 'tool', slug: 'ordsoek-skapare', anchorText: 'Prova Ordsökning Skaparen' },
+    { pageType: 'tool', slug: 'ordsoek-skapare', anchorText: 'Prova Ordsökning Generatorn' },
   ],
 
   toolsRecommended: [

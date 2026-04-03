@@ -1,19 +1,19 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'free counting chart worksheet maker',
+    primaryKeyword: 'free counting chart worksheet generator',
     secondaryKeywords: [
       'make picture graph worksheets free online',
       'counting chart generator no signup',
-      'free data graphing worksheet maker',
+      'free data graphing worksheet generator',
       'picture graph worksheets free trial',
     ],
     lsiKeywords: [
       'free graphing tool online',
-      'instant chart worksheet maker',
+      'instant chart worksheet generator',
       'try before you buy counting tools',
     ],
-    titleTag: 'Free Counting Chart Worksheet Maker | LCS',
+    titleTag: 'Free Counting Chart Worksheet Generator | LCS',
     metaDescription: 'Make picture graph worksheets free online with watermark — no signup needed. 6 image types, auto answer keys, 104 themes. Upgrade for commercial license.',
     },
 
@@ -27,7 +27,7 @@ const content: ToolContent = {  seo: {
     title: 'How to Make Counting Chart Worksheets Free in 8 Steps',
     steps: [
       {
-        title: 'Open the Chart Count Worksheet Maker',
+        title: 'Open the Chart Count Worksheet Generator',
         description: 'Click \"Try Free Now\" to launch the picture graph generator in your browser. The tool loads instantly with a settings sidebar on the left and a dual-tab canvas on the right — one tab for the worksheet, one for the answer key. No account creation, no software download, no installation required — start building picture graph worksheets immediately.',
       },
       {
@@ -201,7 +201,7 @@ const content: ToolContent = {  seo: {
 
   internalLinks: [
     { pageType: 'app', slug: 'chart-count-worksheets', anchorText: 'Remove watermark and sell commercially' },
-    { pageType: 'tool', slug: 'find-and-count-maker', anchorText: 'Free find and count worksheet maker' },
+    { pageType: 'tool', slug: 'find-and-count-maker', anchorText: 'Free find and count worksheet generator' },
     { pageType: 'guide', slug: 'create-counting-worksheets', anchorText: 'How to create counting worksheets to sell' },
   ],
 

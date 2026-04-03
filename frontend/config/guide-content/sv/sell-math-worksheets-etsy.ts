@@ -68,7 +68,7 @@ const content: GuideContent = {
     },
     {
       heading: 'Bygg ett igenkännbart pedagogiskt säljarvarumärke på Etsy',
-      content: 'Varumärkesbyggande skiljer din butik från tusentals generiska arbetsbladsäljare på Etsy. Ett igenkännbart varumärke uppmuntrar återkommande köp, bygger recensionsmomentum och motiverar premiumprissättning.\n\nVisuell konsekvens är grunden. Välj en konsekvent färgpalett, typsnittsstil och dekorationsmetod över alla dina arbetsbladsproduktioner. När en köpare som bläddrar bland sökresultat ser tre av dina annonser med samma visuella stil framstår din butik omedelbart som mer professionell.\n\nDin butiksbanderoll och logotyp bör tydligt kommunicera "pedagogiska utskrifter." Inkludera ditt butiksnamn och en kort tagline.\n\nSkriv en "Om"-sektion som etablerar din trovärdighet som skapare av utbildningsresurser. Fokusera på vad som gör dina arbetsblad effektiva: professionellt designade layouter, automatiskt genererade facit, tematiska illustrationer, utskriftsklar 300 DPI-kvalitet och flera sidstorlekar.\n\nDina butikspolicyer bör adressera de vanligaste frågorna om digitala nedladdningar i förväg.',
+      content: 'Varumärkesbyggande skiljer din butik från tusentals generiska arbetsbladsäljare på Etsy. Ett igenkännbart varumärke uppmuntrar återkommande köp, bygger recensionsmomentum och motiverar premiumprissättning.\n\nVisuell konsekvens är grunden. Välj en konsekvent färgpalett, typsnittsstil och dekorationsmetod över alla dina arbetsbladsproduktioner. När en köpare som bläddrar bland sökresultat ser tre av dina annonser med samma visuella stil framstår din butik omedelbart som mer professionell.\n\nDin butiksbanderoll och logotyp bör tydligt kommunicera "pedagogiska utskrifter." Inkludera ditt butiksnamn och en kort tagline.\n\nSkriv en "Om"-sektion som etablerar din trovärdighet som generator av utbildningsresurser. Fokusera på vad som gör dina arbetsblad effektiva: professionellt designade layouter, automatiskt genererade facit, tematiska illustrationer, utskriftsklar 300 DPI-kvalitet och flera sidstorlekar.\n\nDina butikspolicyer bör adressera de vanligaste frågorna om digitala nedladdningar i förväg.',
     },
     {
       heading: 'Kundservice bästa praxis för digital arbetsbladsförsäljning',
@@ -159,7 +159,7 @@ const content: GuideContent = {
     { pageType: 'guide', slug: 'skapa-subtraktions-arbetsblad', anchorText: 'Hur du skapar subtraktionsarbetsblad' },
     { pageType: 'guide', slug: 'skapa-mattepussel-arbetsblad', anchorText: 'Hur du skapar mattepussel-arbetsblad' },
     { pageType: 'app', slug: 'addition-arbetsblad', anchorText: 'Addition Arbetsblad Generator — Fullständig information' },
-    { pageType: 'tool', slug: 'additions-arbetsblad-skapare', anchorText: 'Prova Additions Arbetsblad Skaparen' },
+    { pageType: 'tool', slug: 'additions-arbetsblad-skapare', anchorText: 'Prova Additions Arbetsblad Generatorn' },
   ],
 
   toolsRecommended: [

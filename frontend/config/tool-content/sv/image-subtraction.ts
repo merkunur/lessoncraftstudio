@@ -196,13 +196,13 @@ const content: ToolContent = {
 
   internalLinks: [
     { pageType: 'app', slug: 'subtraktions-arbetsblad', anchorText: 'Subtraktions Arbetsblad — Fullständiga Produktdetaljer' },
-    { pageType: 'tool', slug: 'additions-arbetsblad-skapare', anchorText: 'Additions Arbetsblad Skapare' },
-    { pageType: 'tool', slug: 'kodadditions-arbetsblad-skapare', anchorText: 'Kodadditions Arbetsblad Skapare' },
-    { pageType: 'tool', slug: 'mer-eller-mindre-arbetsblad-skapare', anchorText: 'Mer eller Mindre Arbetsblad Skapare' },
-    { pageType: 'tool', slug: 'mattepussel-skapare', anchorText: 'Mattepussel Skapare' },
-    { pageType: 'tool', slug: 'matte-arbetsblad-skapare', anchorText: 'Matte Arbetsblad Skapare' },
-    { pageType: 'tool', slug: 'matchnings-arbetsblad-skapare', anchorText: 'Matchnings Arbetsblad Skapare' },
-    { pageType: 'tool', slug: 'malarbilder-skapare', anchorText: 'Målarbilder Skapare' },
+    { pageType: 'tool', slug: 'additions-arbetsblad-skapare', anchorText: 'Additions Arbetsblad Generator' },
+    { pageType: 'tool', slug: 'kodadditions-arbetsblad-skapare', anchorText: 'Kodadditions Arbetsblad Generator' },
+    { pageType: 'tool', slug: 'mer-eller-mindre-arbetsblad-skapare', anchorText: 'Mer eller Mindre Arbetsblad Generator' },
+    { pageType: 'tool', slug: 'mattepussel-skapare', anchorText: 'Mattepussel Generator' },
+    { pageType: 'tool', slug: 'matte-arbetsblad-skapare', anchorText: 'Matte Arbetsblad Generator' },
+    { pageType: 'tool', slug: 'matchnings-arbetsblad-skapare', anchorText: 'Matchnings Arbetsblad Generator' },
+    { pageType: 'tool', slug: 'malarbilder-skapare', anchorText: 'Målarbilder Generator' },
   ],
 
   visuals: {

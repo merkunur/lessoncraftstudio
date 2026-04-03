@@ -28,7 +28,7 @@ const content: ToolContent = {
     title: 'Hur du Skapar Alfabetståg Arbetsblad i 8 Enkla Steg',
     steps: [
       {
-        title: 'Öppna Alfabetståg Skaparen',
+        title: 'Öppna Alfabetståg Generatorn',
         description: 'Klicka på \"Prova gratis nu\" för att starta generatorn. Verktyget öppnas direkt i din webbläsare med ett inställningssidofält till vänster och en liveförhandsvisnings arbetsyta till höger. Inget konto, nedladdning eller installation krävs.',
       },
       {
@@ -81,7 +81,7 @@ const content: ToolContent = {
     },
     {
       title: 'Anpassade bild varumärkta arbetsblad',
-      description: 'Ladda upp egna illustrationer, maskotbilder eller licensierat konstverk för att skapa alfabetståg som ingen annan säljare kan replikera. Hemundervisningsinnehållsskapare kan använda familjefoton, produktlinjessäljare kan använda skolmaskotbilder, och Etsy-säljare kan bygga en distinkt visuell identitet genom hela sin butik.',
+      description: 'Ladda upp egna illustrationer, maskotbilder eller licensierat konstverk för att skapa alfabetståg som ingen annan säljare kan replikera. Hemundervisningsinnehållsgenerator kan använda familjefoton, produktlinjessäljare kan använda skolmaskotbilder, och Etsy-säljare kan bygga en distinkt visuell identitet genom hela sin butik.',
     },
     {
       title: 'Säsongsbetonade alfabetståg-paket',
@@ -149,7 +149,7 @@ const content: ToolContent = {
     },
     {
       title: 'Para ihop med Mönstertåg för ett tågtema-paket',
-      description: 'Mönstertåg-skaparen använder samma tågvagns visuella format men fokuserar på mönsterigenkänning istället för bokstäver. Paketera båda verktygens utmatning till ett \"Tågaktiviteter\" megapaket som täcker litteracitet och logikfärdigheter. Den matchande visuella stilen skapar en sammanhängande produktlinje.',
+      description: 'Mönstertåg-generatorn använder samma tågvagns visuella format men fokuserar på mönsterigenkänning istället för bokstäver. Paketera båda verktygens utmatning till ett \"Tågaktiviteter\" megapaket som täcker litteracitet och logikfärdigheter. Den matchande visuella stilen skapar en sammanhängande produktlinje.',
     },
   ],
 
@@ -202,13 +202,13 @@ const content: ToolContent = {
 
   internalLinks: [
     { pageType: 'app', slug: 'alfabettag-arbetsblad', anchorText: 'Alfabetståg Arbetsblad — Fullständiga Produktdetaljer' },
-    { pageType: 'tool', slug: 'prepositioner-arbetsblad-skapare', anchorText: 'Prepositioner Arbetsblad Skapare' },
-    { pageType: 'tool', slug: 'gissa-ordet-skapare', anchorText: 'Gissa Ordet Skapare' },
-    { pageType: 'tool', slug: 'ordmix-skapare', anchorText: 'Ordmix Skapare' },
-    { pageType: 'tool', slug: 'ordsoek-skapare', anchorText: 'Ordsök Skapare' },
-    { pageType: 'tool', slug: 'kryptogram-skapare', anchorText: 'Kryptogram Skapare' },
-    { pageType: 'tool', slug: 'skrivoevningar-skapare', anchorText: 'Skrivövningar Skapare' },
-    { pageType: 'tool', slug: 'moenstertaag-skapare', anchorText: 'Mönstertåg Skapare' },
+    { pageType: 'tool', slug: 'prepositioner-arbetsblad-skapare', anchorText: 'Prepositioner Arbetsblad Generator' },
+    { pageType: 'tool', slug: 'gissa-ordet-skapare', anchorText: 'Gissa Ordet Generator' },
+    { pageType: 'tool', slug: 'ordmix-skapare', anchorText: 'Ordmix Generator' },
+    { pageType: 'tool', slug: 'ordsoek-skapare', anchorText: 'Ordsök Generator' },
+    { pageType: 'tool', slug: 'kryptogram-skapare', anchorText: 'Kryptogram Generator' },
+    { pageType: 'tool', slug: 'skrivoevningar-skapare', anchorText: 'Skrivövningar Generator' },
+    { pageType: 'tool', slug: 'moenstertaag-skapare', anchorText: 'Mönstertåg Generator' },
   ],
 
   visuals: {

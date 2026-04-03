@@ -28,7 +28,7 @@ const content: ToolContent = {
     title: 'Hur du Skapar Pusselarbetsblad i 8 Steg',
     steps: [
       {
-        title: 'Öppna Saknade Bitar Skaparen',
+        title: 'Öppna Saknade Bitar Generatorn',
         description: 'Klicka på \"Prova gratis nu\" för att starta pusselarbetsblad generatorn. Verktyget laddas direkt med ett inställningssidofält till vänster och en dubbelfliks arbetsyta till höger. Inget konto, ingen nedladdning, ingen installation krävs.',
       },
       {
@@ -187,7 +187,7 @@ const content: ToolContent = {
       answer: 'Varje pussel har en stiliserad rubrik med \"Saknade bitar\" i turkos (#06B6D4) och rosarosa beskrivning (#DB2777), inramat av blågrön yttre (#14B8A6, 8px) och het rosa inre (#EC4899, 3px) ramar med en lätt förskjutning.',
     },
     {
-      question: 'Är Saknade Bitar Skaparen språkkänslig?',
+      question: 'Är Saknade Bitar Generatorn språkkänslig?',
       answer: 'Nej. Rent visuellt format — inga lokalberoende element på arbetsbladet. Det enda lokaliserade elementet är rubriktexten, översatt till alla 11 språk. Pusslet i sig fungerar identiskt på alla språk. Universellt säljbart utan översättning.',
     },
     {
@@ -206,13 +206,13 @@ const content: ToolContent = {
 
   internalLinks: [
     { pageType: 'app', slug: 'saknade-bitar-arbetsblad', anchorText: 'Saknade Bitar Pussel — Fullständiga Produktdetaljer' },
-    { pageType: 'tool', slug: 'hitta-udda-skapare', anchorText: 'Hitta Udda Bilden Skapare' },
-    { pageType: 'tool', slug: 'skuggmatchning-skapare', anchorText: 'Skuggmatchning Skapare' },
-    { pageType: 'tool', slug: 'rutnaetspussel-skapare', anchorText: 'Rutmatchning Skapare' },
-    { pageType: 'tool', slug: 'matchnings-arbetsblad-skapare', anchorText: 'Matchnings Arbetsblad Skapare' },
-    { pageType: 'tool', slug: 'sortera-bilder-skapare', anchorText: 'Sortera Bilder Skapare' },
-    { pageType: 'tool', slug: 'ordsoek-skapare', anchorText: 'Ordsök Skapare' },
-    { pageType: 'tool', slug: 'maelarsidor-skapare', anchorText: 'Målarbilder Skapare' },
+    { pageType: 'tool', slug: 'hitta-udda-skapare', anchorText: 'Hitta Udda Bilden Generator' },
+    { pageType: 'tool', slug: 'skuggmatchning-skapare', anchorText: 'Skuggmatchning Generator' },
+    { pageType: 'tool', slug: 'rutnaetspussel-skapare', anchorText: 'Rutmatchning Generator' },
+    { pageType: 'tool', slug: 'matchnings-arbetsblad-skapare', anchorText: 'Matchnings Arbetsblad Generator' },
+    { pageType: 'tool', slug: 'sortera-bilder-skapare', anchorText: 'Sortera Bilder Generator' },
+    { pageType: 'tool', slug: 'ordsoek-skapare', anchorText: 'Ordsök Generator' },
+    { pageType: 'tool', slug: 'maelarsidor-skapare', anchorText: 'Målarbilder Generator' },
   ],
 
   visuals: {

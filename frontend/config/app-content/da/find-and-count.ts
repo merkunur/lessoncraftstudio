@@ -4,9 +4,9 @@ const content: AppContent = {
   seo: {
     primaryKeyword: 'find og tæl arbejdsark generator',
     secondaryKeywords: [
-      'printbar find og tæl arbejdsark skaber til Etsy-sælgere',
+      'printbar find og tæl arbejdsark generator til Etsy-sælgere',
       'skjulte objekter søgeaktivitet generator til KDP-udgivere',
-      'find og tæl arbejdsark skaber kommerciel licens',
+      'find og tæl arbejdsark generator kommerciel licens',
       'sælg find og tæl arbejdsark på Gumroad',
     ],
     lsiKeywords: [
@@ -83,7 +83,7 @@ const content: AppContent = {
       {
         title: 'Automatisk genereret facit med visuelle annoteringer og mængdevisninger',
         description:
-          'Hvert søgearbejdsark genererer automatisk en ledsagende facitliste på en separat lærredsfane. Facit genskaber det præcise arbejdsarkslayout og tilføjer røde visuelle annoteringer: cirkler rundt ring-om-opgaveobjekter, firkanter rundt firkant-opgaveobjekter, kors over streg-over-opgaveobjekter og mængdevisninger for tæl-opgaveobjekter. Ingen manuel markering, ingen separat filoprettelse — facit er altid synkroniseret med arbejdsarket. Denne dobbeltlærred-tilgang sparer betydelig produktionstid for sælgere, der opretter søgepakker.',
+          'Hvert søgearbejdsark genererer automatisk en ledsagende facitliste på en separat lærredsfane. Facit gengenerator det præcise arbejdsarkslayout og tilføjer røde visuelle annoteringer: cirkler rundt ring-om-opgaveobjekter, firkanter rundt firkant-opgaveobjekter, kors over streg-over-opgaveobjekter og mængdevisninger for tæl-opgaveobjekter. Ingen manuel markering, ingen separat filoprettelse — facit er altid synkroniseret med arbejdsarket. Denne dobbeltlærred-tilgang sparer betydelig produktionstid for sælgere, der opretter søgepakker.',
       },
       {
         title: 'Billedbibliotek med 104 tematiske samlinger og mere end 3.100 illustrationer',
@@ -173,7 +173,7 @@ const content: AppContent = {
     {
       question: 'Hvordan fungerer det automatisk genererede facit?',
       answer:
-        'Generatoren bruger et dobbeltlærredssystem med en Arbejdsarkfane og en Facitfane. Arbejdsarket viser den spredte billedscene uden markeringer — brugerne søger og fuldender opgaverne selv. Facit genskaber det identiske layout og tilføjer røde visuelle annoteringer: cirkler rundt ring-om-opgaveobjekter, firkanter rundt firkant-opgaveobjekter, kors over streg-over-opgaveobjekter og mængdevisninger for tæl-opgaveobjekter. Begge versioner eksporteres separat med fire dedikerede knapper.',
+        'Generatoren bruger et dobbeltlærredssystem med en Arbejdsarkfane og en Facitfane. Arbejdsarket viser den spredte billedscene uden markeringer — brugerne søger og fuldender opgaverne selv. Facit gengenerator det identiske layout og tilføjer røde visuelle annoteringer: cirkler rundt ring-om-opgaveobjekter, firkanter rundt firkant-opgaveobjekter, kors over streg-over-opgaveobjekter og mængdevisninger for tæl-opgaveobjekter. Begge versioner eksporteres separat med fire dedikerede knapper.',
     },
     {
       question: 'Autogenereres arbejdsarket ved sideindlæsning?',

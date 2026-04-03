@@ -6,7 +6,7 @@ const content: AppContent = {
     secondaryKeywords: [
       'målarbilder att sälja på Etsy',
       'målarbok generator för Amazon KDP',
-      'målarsida skapare kommersiell licens',
+      'målarsida generator kommersiell licens',
       'skapa målarbilder att sälja online',
       'målarbok att publicera på KDP',
     ],

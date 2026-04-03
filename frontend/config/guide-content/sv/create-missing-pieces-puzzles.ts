@@ -6,13 +6,13 @@ const content: GuideContent = {
     secondaryKeywords: [
       'skapa saknade bitar-pussel att sälja',
       'pusselarbetsblad generator kommersiellt bruk',
-      'utskriftsklara saknade bitar-skapare för Etsy och KDP',
+      'utskriftsklara saknade bitar-generator för Etsy och KDP',
       'visuella pusselarbetsblad med facit',
     ],
     lsiKeywords: [
       'smart bitutdragning färgvariansberäkning pusselgenerator',
-      'sex former pussel arbetsblad-skapare med distraktionsbitar',
-      'automatiskt facit gulmarkering saknade bitar skapare',
+      'sex former pussel arbetsblad-generator med distraktionsbitar',
+      'automatiskt facit gulmarkering saknade bitar generator',
       'sälja saknade bitar-pussel på Etsy',
       'Amazon KDP pusselarbetsböcker',
       'kommersiell licens saknade bitar-verktyg',
@@ -31,8 +31,8 @@ const content: GuideContent = {
 
   tutorial: [
     {
-      heading: 'Öppna Saknade Bitar-skaparen',
-      content: 'Navigera till Saknade Bitar-skaparen och klicka starta-knappen. Verktyget laddas med en inställningssidopanel till vänster och en dubbelfliks-arbetsyta till höger — en flik för arbetsbladet, en för facit. Inget konto, ingen nedladdning krävs.\n\nDubbelfliks-arbetsytan är kärnan. Arbetsblad-fliken visar pusselbilden med utstansade hål och numrerade alternativ. Facit-fliken visar samma pussel med gulmarkerade nummeretiketter inuti varje hål. Båda genereras simultant.\n\nUtforska sidopanelerna: Pusselkonfiguration kontrollerar bitform, antal saknade bitar och antal lösningsalternativ. Bildbiblioteket ger tillgång till 104 temasamlingar med över 3 100 illustrationer. Sidinställningar hanterar layout och dekoration.',
+      heading: 'Öppna Saknade Bitar-generatorn',
+      content: 'Navigera till Saknade Bitar-generatorn och klicka starta-knappen. Verktyget laddas med en inställningssidopanel till vänster och en dubbelfliks-arbetsyta till höger — en flik för arbetsbladet, en för facit. Inget konto, ingen nedladdning krävs.\n\nDubbelfliks-arbetsytan är kärnan. Arbetsblad-fliken visar pusselbilden med utstansade hål och numrerade alternativ. Facit-fliken visar samma pussel med gulmarkerade nummeretiketter inuti varje hål. Båda genereras simultant.\n\nUtforska sidopanelerna: Pusselkonfiguration kontrollerar bitform, antal saknade bitar och antal lösningsalternativ. Bildbiblioteket ger tillgång till 104 temasamlingar med över 3 100 illustrationer. Sidinställningar hanterar layout och dekoration.',
     },
     {
       heading: 'Konfigurera pusselsvårighet med två oberoende kontroller',
@@ -107,7 +107,7 @@ const content: GuideContent = {
 
   faq: [
     {
-      question: 'Vilka sex bitformer finns i Saknade Bitar-skaparen?',
+      question: 'Vilka sex bitformer finns i Saknade Bitar-generatorn?',
       answer: 'Generatorn erbjuder kvadrat (standard), cirkel, rektangel stående (80% bredd, 100% höjd), rektangel liggande (100% bredd, 80% höjd), ellips stående och ellips liggande. Varje form skapar en annorlunda visuell utmaning. En källbild producerar sex distinkta pusselupplevelser.',
     },
     {

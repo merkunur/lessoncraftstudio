@@ -29,7 +29,7 @@ const content: ToolContent = {
     steps: [
       {
         title: 'Ouvrir le Générateur d\'Exercices',
-        description: 'Cliquez sur \" Essayer maintenant \" pour lancer le créateur d\'exercices de maths. L\'outil s\'ouvre instantanément dans votre navigateur avec une barre latérale sombre à gauche pour les réglages et un canevas lumineux à droite pour l\'aperçu en temps réel. Aucun compte ni téléchargement requis.',
+        description: 'Cliquez sur \" Essayer maintenant \" pour lancer le générateur d\'exercices de maths. L\'outil s\'ouvre instantanément dans votre navigateur avec une barre latérale sombre à gauche pour les réglages et un canevas lumineux à droite pour l\'aperçu en temps réel. Aucun compte ni téléchargement requis.',
       },
       {
         title: 'Définir la Mise en Page et le Format',
@@ -137,7 +137,7 @@ const content: ToolContent = {
     },
     {
       title: 'Associez avec des Outils de Fiches de Maths Classiques',
-      description: 'Créez des ensembles assortis en utilisant les générateurs d\'Addition, de Soustraction et d\'Addition Codée aux côtés du créateur de puzzles algébriques. Vendez-les individuellement et en pack combiné \" Exercices de Maths + Puzzles Algébriques \". Le composant d\'algèbre visuelle ajoute un élément de défi qui rend le pack plus attractif que les fiches d\'exercices seules.',
+      description: 'Créez des ensembles assortis en utilisant les générateurs d\'Addition, de Soustraction et d\'Addition Codée aux côtés du générateur de puzzles algébriques. Vendez-les individuellement et en pack combiné \" Exercices de Maths + Puzzles Algébriques \". Le composant d\'algèbre visuelle ajoute un élément de défi qui rend le pack plus attractif que les fiches d\'exercices seules.',
     },
     {
       title: 'Exportez les Deux Formats',

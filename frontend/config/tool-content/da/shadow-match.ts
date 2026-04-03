@@ -4,36 +4,36 @@ const content: ToolContent = {
   seo: {
     primaryKeyword: 'skyggematchning arbejdsark',
     secondaryKeywords: [
-      'skyggematchning arbejdsark skaber for sælgere',
+      'skyggematchning arbejdsark generator for sælgere',
       'lav silhuetmatchning arbejdsark til salg',
       'printbar skyggepuslespil generator kommerciel brug',
-      'skyggematchning arbejdsark skaber til KDP og Etsy',
+      'skyggematchning arbejdsark generator til KDP og Etsy',
     ],
     lsiKeywords: [
       'dobbelt tilstands silhuet og delt-billede matchningsværktøj',
-      'pixelniveau skygge-generering derangeringsalgoritme skaber',
+      'pixelniveau skygge-generering derangeringsalgoritme generator',
       'automatisk facit skyggepuslespil arbejdsark generator',
     ],
-    titleTag: 'Skyggematchning Skaber — Arbejdsark Generator — Sælgerguide',
+    titleTag: 'Skyggematchning Generator — Arbejdsark Generator — Sælgerguide',
     metaDescription: 'Lav skyggematchning arbejdsark med pixelniveau silhuetter og Gør Billedet Helt billeddeling, automatiske facit, 104 temaer. Gratis prøveversion med vandmærke.',
   },
 
   hero: {
-    title: 'Skyggematchning Skaber',
+    title: 'Skyggematchning Generator',
     tagline: 'Dobbelt tilstands skyggematchning arbejdsark generator med pixelniveau silhuetoprettelse, Gør Billedet Helt delt-billede halvdele med horisontale og vertikale klipretninger, Fisher-Yates-derangering der garanterer ingen trivielle matchninger, automatisk genererede facit med bogstav-til-nummer etiketter og 104 tematiske billedsamlinger',
-    description: 'Lav professionelle skyggematchnings arbejdsark med to distinkte øvelsestilstande. Skyggematchning-tilstand placerer 4 farvede billeder mærket A, B, C, D i øverste række og 4 automatisk genererede sorte silhuetter mærket 1, 2, 3, 4 i nederste række — silhuetterne oprettes gennem billedbehandling på pixelniveau, der konverterer hver pixel med alfa > 10 til rent sort, ægte pixelbehandling, ikke CSS-filtre. Gør Billedet Helt-tilstand deler 4 billeder i halvdele — vælg horisontal (øvre/nedre) eller vertikal (venstre/højre) klipretning. Begge tilstande bruger Fisher-Yates-derangering, der garanterer, at intet objekt vises i sin oprindelige position. Skift vis/skjul etiketter for A/B/C/D og 1/2/3/4 identifikatorer — etiketter TIL giver struktureret støtte, etiketter FRA skaber ren visuel matchningsudfordring. Dobbeltarbejdsområde-systemet genererer samtidigt arbejdsark og facit — facittet viser hver korrekt bogstav-til-nummer-parring. Skyggematchning er IKKE sprogfølsom — rent visuelt output, universelt sælgbart uden oversættelse. Gennemse 104 tematiske samlinger med mere end 3.100 illustrationer eller upload egne billeder. Eksportér fire filer per session med 300 DPI. Den gratis prøveversion indeholder alle funktioner med vandmærke. Køb en licens for at fjerne det og sælge kommercielt.',
+    description: 'Lav professionelle skyggematchnings arbejdsark med to distinkte øvelsestilstande. Skyggematchning-tilstand placerer 4 farvede billeder mærket A, B, C, D i øverste række og 4 automatisk genererede sorte silhuetter mærket 1, 2, 3, 4 i nederste række — silhuetterne oprettes gennem billedbehandling på pixelniveau, der konverterer hver pixel med alfa > 10 til rent sort, ægte pixelbehandling, ikke CSS-filtre. Gør Billedet Helt-tilstand deler 4 billeder i halvdele — vælg horisontal (øvre/nedre) eller vertikal (venstre/højre) klipretning. Begge tilstande bruger Fisher-Yates-derangering, der garanterer, at intet objekt vises i sin oprindelige position. Skift vis/skjul etiketter for A/B/C/D og 1/2/3/4 identifikatorer — etiketter TIL giver struktureret støtte, etiketter FRA generator ren visuel matchningsudfordring. Dobbeltarbejdsområde-systemet genererer samtidigt arbejdsark og facit — facittet viser hver korrekt bogstav-til-nummer-parring. Skyggematchning er IKKE sprogfølsom — rent visuelt output, universelt sælgbart uden oversættelse. Gennemse 104 tematiske samlinger med mere end 3.100 illustrationer eller upload egne billeder. Eksportér fire filer per session med 300 DPI. Den gratis prøveversion indeholder alle funktioner med vandmærke. Køb en licens for at fjerne det og sælge kommercielt.',
   },
 
   tutorial: {
     title: 'Sådan Laver du Skyggematchnings Arbejdsark i 8 Trin',
     steps: [
       {
-        title: 'Åbn Skyggematchning Skaberen',
+        title: 'Åbn Skyggematchning Generatoren',
         description: 'Klik på \"Prøv gratis nu\" for at starte skyggematchnings arbejdsark generatoren. Værktøjet indlæses direkte med et indstillingssidepanel til venstre og et dobbeltfane-arbejdsområde til højre. Ingen konto, ingen download, ingen installation kræves.',
       },
       {
         title: 'Vælg din øvelsestilstand',
-        description: 'Åbn panelen Øvelseskonfiguration og vælg tilstand. Skyggematchning genererer sorte silhuetter gennem pixelniveau-behandling — hver pixel med alfa > 10 konverteres til rent sort. Gør Billedet Helt deler billeder i halvdele — vælg horisontal (øvre/nedre) eller vertikal (venstre/højre) klipretning. Hver tilstand skaber en fundamentalt anderledes matchningsaktivitet.',
+        description: 'Åbn panelen Øvelseskonfiguration og vælg tilstand. Skyggematchning genererer sorte silhuetter gennem pixelniveau-behandling — hver pixel med alfa > 10 konverteres til rent sort. Gør Billedet Helt deler billeder i halvdele — vælg horisontal (øvre/nedre) eller vertikal (venstre/højre) klipretning. Hver tilstand generator en fundamentalt anderledes matchningsaktivitet.',
       },
       {
         title: 'Konfigurér etiketter og navn/dato-felter',
@@ -73,7 +73,7 @@ const content: ToolContent = {
     },
     {
       title: 'Produktlinjens hurtigafslutnings skyggepuslespilaktiviteter',
-      description: 'Byg produktlinjefærdige skyggematchnings arbejdsark med navn/dato-felter og facit. Etiket-kontakten skaber støttede versioner (med etiketter) og udfordringsversioner (uden etiketter) i samme generation — sælgere tildeler efter niveau. Hvert arbejdsark eksporteres med autogenereret facit.',
+      description: 'Byg produktlinjefærdige skyggematchnings arbejdsark med navn/dato-felter og facit. Etiket-kontakten generator støttede versioner (med etiketter) og udfordringsversioner (uden etiketter) i samme generation — sælgere tildeler efter niveau. Hvert arbejdsark eksporteres med autogenereret facit.',
     },
     {
       title: 'Tilpassede foto skyggematchningsprodukter',
@@ -107,7 +107,7 @@ const content: ToolContent = {
     },
     {
       title: 'Pinterest skyggepuslespil trafiktragt',
-      description: 'Skyggematchnings arbejdsark gør visuelt slående Pinterest-pins — kontrasten mellem farverige billeder og deres sorte silhuetter skaber et øjeblikkeligt iøjnefaldende format. Halloween skyggeaktiviteter præsterer særligt godt på Pinterest om efteråret.',
+      description: 'Skyggematchnings arbejdsark gør visuelt slående Pinterest-pins — kontrasten mellem farverige billeder og deres sorte silhuetter generator et øjeblikkeligt iøjnefaldende format. Halloween skyggeaktiviteter præsterer særligt godt på Pinterest om efteråret.',
       platform: 'Pinterest',
     },
     {
@@ -129,15 +129,15 @@ const content: ToolContent = {
     },
     {
       title: 'Brug begge klipretninger i Gør Billedet Helt for maksimal variation',
-      description: 'Gør Billedet Helt tilbyder horisontale (øvre/nedre) og vertikale (venstre/højre) klipretninger. Inkludér begge i dine produktpakker — horisontale klip skaber anderledes matchningsudfordringer. Et dyr delt horisontalt viser hoved og krop separat; det samme dyr delt vertikalt viser venstre og højre profiler. At bruge begge klipretninger fordobler dine unikke arbejdsark.',
+      description: 'Gør Billedet Helt tilbyder horisontale (øvre/nedre) og vertikale (venstre/højre) klipretninger. Inkludér begge i dine produktpakker — horisontale klip generator anderledes matchningsudfordringer. Et dyr delt horisontalt viser hoved og krop separat; det samme dyr delt vertikalt viser venstre og højre profiler. At bruge begge klipretninger fordobler dine unikke arbejdsark.',
     },
     {
       title: 'Skift etiketter FRA for premium puslespilbogsprodukter',
-      description: 'Når Vis Etiketter er FRA, bliver arbejdsarket en ren visuel matchningsudfordring uden A/B/C/D og 1/2/3/4 identifikatorer. Dette skaber en renere, mere professionel puslespilside ideel til trykte puslespilbøger og premium digitale downloads. Etiketfrie arbejdsark retfærdiggør højere oplevet værdi.',
+      description: 'Når Vis Etiketter er FRA, bliver arbejdsarket en ren visuel matchningsudfordring uden A/B/C/D og 1/2/3/4 identifikatorer. Dette generator en renere, mere professionel puslespilside ideel til trykte puslespilbøger og premium digitale downloads. Etiketfrie arbejdsark retfærdiggør højere oplevet værdi.',
     },
     {
       title: 'Udnyt derangeringsalgoritmen til hurtig pakkeoprettelse',
-      description: 'Fisher-Yates-derangeringen genberegnes ved hver generering. At klikke på Generér gentagne gange med identiske indstillinger skaber flere unikke arbejdsark. Generér 5–10 unikke arbejdsark per billedsæt, multiplicér derefter over 104 temaer.',
+      description: 'Fisher-Yates-derangeringen genberegnes ved hver generering. At klikke på Generér gentagne gange med identiske indstillinger generator flere unikke arbejdsark. Generér 5–10 unikke arbejdsark per billedsæt, multiplicér derefter over 104 temaer.',
     },
     {
       title: 'Udnyt det rent visuelle format for globalt salg',
@@ -172,7 +172,7 @@ const content: ToolContent = {
     },
     {
       question: 'Hvilke klipretningsindstillinger findes i Gør Billedet Helt?',
-      answer: 'Horisontale klip deler billeder i øvre og nedre halvdele. Vertikale klip deler billeder i venstre og højre halvdele. Klipretningen gælder alle 4 billeder. Forskellige klipretninger skaber forskellige matchningsudfordringer fra de samme billeder.',
+      answer: 'Horisontale klip deler billeder i øvre og nedre halvdele. Vertikale klip deler billeder i venstre og højre halvdele. Klipretningen gælder alle 4 billeder. Forskellige klipretninger generator forskellige matchningsudfordringer fra de samme billeder.',
     },
     {
       question: 'Hvordan fungerer det automatisk genererede facit?',
@@ -187,7 +187,7 @@ const content: ToolContent = {
       answer: 'Begge tilstande bruger 4 matchningsobjekter — optimal balance for skygge- og delt-billede matchning: tilstrækkelig variation for derangeringsudfordring, samtidig med at hvert billede holdes tilstrækkeligt stort til at studere fine detaljer.',
     },
     {
-      question: 'Er Skyggematchning Skaberen sprogfølsom?',
+      question: 'Er Skyggematchning Generatoren sprogfølsom?',
       answer: 'Nej. Skyggematchning er rent visuelt — billeder, silhuetter og delte halvdele uden lokaliseret ordindhold. App-grænsefladen understøtter alle 11 sprog, men det genererede arbejdsark fungerer identisk uanset sprogvalg. Universelt sælgbart uden oversættelse.',
     },
     {
@@ -206,13 +206,13 @@ const content: ToolContent = {
 
   internalLinks: [
     { pageType: 'app', slug: 'skygge-match-arbejdsark', anchorText: 'Skyggematchning Arbejdsark — Fulde Produktdetaljer' },
-    { pageType: 'tool', slug: 'matchnings-arbejdsark-skaber', anchorText: 'Matchnings Arbejdsark Skaber' },
-    { pageType: 'tool', slug: 'gitterpuslespil-skaber', anchorText: 'Gitterpuslespil Skaber' },
-    { pageType: 'tool', slug: 'billedbingo-skaber', anchorText: 'Billedbingo Skaber' },
-    { pageType: 'tool', slug: 'manglende-brikker-skaber', anchorText: 'Manglende Brikker Puslespil Skaber' },
-    { pageType: 'tool', slug: 'find-den-underlige-skaber', anchorText: 'Find den Underlige Skaber' },
-    { pageType: 'tool', slug: 'sorter-billeder-skaber', anchorText: 'Sortér Billeder Skaber' },
-    { pageType: 'tool', slug: 'malebilleder-skaber', anchorText: 'Malebilleder Skaber' },
+    { pageType: 'tool', slug: 'matchnings-arbejdsark-skaber', anchorText: 'Matchnings Arbejdsark Generator' },
+    { pageType: 'tool', slug: 'gitterpuslespil-skaber', anchorText: 'Gitterpuslespil Generator' },
+    { pageType: 'tool', slug: 'billedbingo-skaber', anchorText: 'Billedbingo Generator' },
+    { pageType: 'tool', slug: 'manglende-brikker-skaber', anchorText: 'Manglende Brikker Puslespil Generator' },
+    { pageType: 'tool', slug: 'find-den-underlige-skaber', anchorText: 'Find den Underlige Generator' },
+    { pageType: 'tool', slug: 'sorter-billeder-skaber', anchorText: 'Sortér Billeder Generator' },
+    { pageType: 'tool', slug: 'malebilleder-skaber', anchorText: 'Malebilleder Generator' },
   ],
 
   visuals: {

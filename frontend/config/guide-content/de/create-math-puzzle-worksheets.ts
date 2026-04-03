@@ -159,7 +159,7 @@ const content: GuideContent = {
     { pageType: 'start', slug: 'kommerzielle-lizenz-leitfaden', anchorText: 'Leitfaden zur kommerziellen Lizenz' },
     { pageType: 'app', slug: 'mathe-raetsel-arbeitsblaetter', anchorText: 'Mathe-Rätsel-Generator — Alle Details' },
     { pageType: 'app', slug: 'addition-arbeitsblaetter', anchorText: 'Additions-Arbeitsblatt-Generator — Alle Details' },
-    { pageType: 'tool', slug: 'mathe-raetsel-ersteller', anchorText: 'Den Mathe-Rätsel-Ersteller ausprobieren' },
+    { pageType: 'tool', slug: 'mathe-raetsel-ersteller', anchorText: 'Den Mathe-Rätsel-Generator ausprobieren' },
   ],
 
   toolsRecommended: [

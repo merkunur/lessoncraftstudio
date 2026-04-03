@@ -11,7 +11,7 @@ const content: ToolContent = {  seo: {
     lsiKeywords: [
       'visuele grootte-discriminatie werkblad gratis',
       'tekstvrije groottevergelijking generator',
-      'groot klein ordenen activiteit maker',
+      'groot klein ordenen activiteit generator',
     ],
     titleTag: 'Groot en klein gratis online | LessonCraftStudio',
     metaDescription: 'Maak gratis groot en klein werkbladen online. Vijf vraagtypen, twee afbeeldingsmodi, 104 thema\'s en automatische antwoordbladen. Probeer nu zonder account.',
@@ -27,7 +27,7 @@ const content: ToolContent = {  seo: {
     title: 'Hoe maakt u gratis groot en klein werkbladen online?',
     steps: [
       {
-        title: 'Open de Groot & Klein Werkblad Maker',
+        title: 'Open de Groot & Klein Werkblad Generator',
         description: 'Klik op "Gratis proefversie" om de generator te starten in je browser. De tool laadt direct met een instellingenzijbalk links en een live voorbeeldcanvas rechts. Geen account aanmaken, geen software downloaden, geen installatie nodig — begin onmiddellijk met het maken van groottevergelijking werkbladen.',
       },
       {
@@ -201,13 +201,13 @@ const content: ToolContent = {  seo: {
 
   internalLinks: [
     { pageType: 'app', slug: 'groot-klein-werkbladen', anchorText: 'Watermerk verwijderen en verkopen met commerciële licentie' },
-    { pageType: 'tool', slug: 'patroontrein-maker', anchorText: 'Patroontrein Werkblad Maker' },
-    { pageType: 'tool', slug: 'patronen-werkblad-maker', anchorText: 'Patronen Werkblad Maker' },
-    { pageType: 'tool', slug: 'rastertekenen-maker', anchorText: 'Rastertekenen Werkblad Maker' },
-    { pageType: 'tool', slug: 'koppelen-werkblad-maker', anchorText: 'Matching Werkblad Maker' },
-    { pageType: 'tool', slug: 'wat-hoort-er-niet-bij-maker', anchorText: 'Zoek de Uitzondering Werkblad Maker' },
-    { pageType: 'tool', slug: 'schaduw-koppelen-maker', anchorText: 'Schaduw Matching Werkblad Maker' },
-    { pageType: 'tool', slug: 'lijnen-trekken-maker', anchorText: 'Lijnen Trekken Werkblad Maker' },
+    { pageType: 'tool', slug: 'patroontrein-maker', anchorText: 'Patroontrein Werkblad Generator' },
+    { pageType: 'tool', slug: 'patronen-werkblad-generator', anchorText: 'Patronen Werkblad Generator' },
+    { pageType: 'tool', slug: 'rastertekenen-maker', anchorText: 'Rastertekenen Werkblad Generator' },
+    { pageType: 'tool', slug: 'koppelen-werkblad-generator', anchorText: 'Matching Werkblad Generator' },
+    { pageType: 'tool', slug: 'wat-hoort-er-niet-bij-maker', anchorText: 'Zoek de Uitzondering Werkblad Generator' },
+    { pageType: 'tool', slug: 'schaduw-koppelen-maker', anchorText: 'Schaduw Matching Werkblad Generator' },
+    { pageType: 'tool', slug: 'lijnen-trekken-maker', anchorText: 'Lijnen Trekken Werkblad Generator' },
   ],
 
   visuals: {

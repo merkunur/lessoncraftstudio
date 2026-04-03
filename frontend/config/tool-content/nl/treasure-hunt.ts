@@ -5,12 +5,12 @@ const content: ToolContent = {
     primaryKeyword: 'gratis speurtocht generator',
     secondaryKeywords: [
       'schattenjacht werkbladen gratis online maken',
-      'gratis speurtocht werkblad maker zonder account',
+      'gratis speurtocht werkblad generator zonder account',
       'schattenjacht puzzel gratis genereren',
       'speurtocht activiteit online maken voor kinderen',
     ],
     lsiKeywords: [
-      'twee richtingstypen basis kompas coördinatenraster maker',
+      'twee richtingstypen basis kompas coördinatenraster generator',
       'taalgebonden gelokaliseerde richtingsaanwijzingen 11 talen',
       'automatisch antwoordblad gemarkeerde schatcel dubbel-canvas creator',
     ],
@@ -28,7 +28,7 @@ const content: ToolContent = {
     title: 'Schattenjacht werkbladen gratis maken in 8 stappen',
     steps: [
       {
-        title: 'Open de Schattenjacht Maker',
+        title: 'Open de Schattenjacht Generator',
         description: 'Klik op "Gratis proefversie" om de schattenjacht werkblad generator te starten in je browser. De tool laadt direct met een instellingenzijbalk links en een dubbel-tabblad canvas rechts — één tabblad voor het schattenjacht werkblad, één voor het antwoordblad. Geen account aanmaken, geen software downloaden, geen installatie nodig — begin onmiddellijk met het maken van schattenjacht puzzels.',
       },
       {
@@ -41,7 +41,7 @@ const content: ToolContent = {
       },
       {
         title: 'Selecteer je inhoudstaal',
-        description: 'Kies de inhoudstaal om de richtingsaanwijzingstekst te bepalen die op het werkblad verschijnt. De Schattenjacht Maker is taalgebonden — alle richtingen zijn volledig vertaald in 11 ondersteunde talen. "Begin bij", "Ga", "vakje(s)" en "Waar is de schat?" lokaliseren allemaal samen met Basis en Kompas richtingswoordenschat. Afbeeldingsinhoud wordt ook bijgewerkt op basis van de geselecteerde taal. Het Commerciële abonnement bevat Engelse inhoud; Volledige Toegang ontgrendelt alle 11 talen voor authentieke Nederlandstalige schattenjacht werkbladen die je kunt verkopen op internationale markten.',
+        description: 'Kies de inhoudstaal om de richtingsaanwijzingstekst te bepalen die op het werkblad verschijnt. De Schattenjacht Generator is taalgebonden — alle richtingen zijn volledig vertaald in 11 ondersteunde talen. "Begin bij", "Ga", "vakje(s)" en "Waar is de schat?" lokaliseren allemaal samen met Basis en Kompas richtingswoordenschat. Afbeeldingsinhoud wordt ook bijgewerkt op basis van de geselecteerde taal. Het Commerciële abonnement bevat Engelse inhoud; Volledige Toegang ontgrendelt alle 11 talen voor authentieke Nederlandstalige schattenjacht werkbladen die je kunt verkopen op internationale markten.',
       },
       {
         title: 'Selecteer afbeeldingen voor het 5×5 raster',
@@ -171,7 +171,7 @@ const content: ToolContent = {
       answer: 'De generator gebruikt een dubbel-canvassysteem met een tabblad Werkblad en een tabblad Antwoordblad. Het werkblad toont het 5×5 raster met verspreide afbeeldingen en richtingsaanwijzingen — klaar voor gebruikers om te volgen. Het antwoordblad reproduceert de identieke indeling en markeert de uiteindelijke schatcel in lichtgeel (rgba(255, 250, 205, 0.8)) met een donkergrijze streek, waardoor de bestemming direct zichtbaar is. Beide versies exporteren apart met vier speciale downloadknoppen: werkblad-JPEG, antwoordblad-JPEG, werkblad-PDF en antwoordblad-PDF. Het antwoordblad wordt tegelijkertijd met de puzzel gegenereerd, dus er is geen handmatige markeerstap en geen kans op niet-overeenkomende oplossingen.',
     },
     {
-      question: 'Is de Schattenjacht Maker taalgevoelig?',
+      question: 'Is de Schattenjacht Generator taalgevoelig?',
       answer: 'Ja, op twee manieren. Ten eerste worden alle richtingsaanwijzingstekst — "Begin bij", "Ga", richtingswoordenschat (zowel Basis als Kompas), "vakje(s)" en "Waar is de schat?" — volledig vertaald in alle 11 ondersteunde talen: Nederlands, Engels, Duits, Frans, Spaans, Portugees, Italiaans, Zweeds, Deens, Noors en Fins. Ten tweede wordt afbeeldingsinhoud geladen uit de bibliotheek bijgewerkt op basis van de geselecteerde taal. Het wisselen van taal produceert authentieke moedertaal-schattenjacht werkbladen met gelokaliseerde richtingen en afbeeldingen — geen Engelse puzzels met vertaalde kopteksten. Het Commerciële abonnement bevat Engels; Volledige Toegang ontgrendelt alle 11 talen.',
     },
     {
@@ -205,10 +205,10 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'kruiswoordpuzzel-maker', anchorText: 'Kruiswoordpuzzel Maker' },
     { pageType: 'tool', slug: 'zoek-en-tel-maker', anchorText: 'Zoek & Tel Maker' },
     { pageType: 'tool', slug: 'zoek-en-vind-maker', anchorText: 'Zoek Voorwerpen Maker' },
-    { pageType: 'tool', slug: 'woordzoeker-maker', anchorText: 'Woordzoeker Werkblad Maker' },
+    { pageType: 'tool', slug: 'woordzoeker-maker', anchorText: 'Woordzoeker Werkblad Generator' },
     { pageType: 'tool', slug: 'plaatjespad-maker', anchorText: 'Plaatjespad Doolhof Maker' },
-    { pageType: 'tool', slug: 'koppelen-werkblad-maker', anchorText: 'Koppelwerkblad Maker' },
-    { pageType: 'tool', slug: 'rekenpuzzel-maker', anchorText: 'Rekenpuzzel Werkblad Maker' },
+    { pageType: 'tool', slug: 'koppelen-werkblad-generator', anchorText: 'Koppelwerkblad Maker' },
+    { pageType: 'tool', slug: 'rekenpuzzel-maker', anchorText: 'Rekenpuzzel Werkblad Generator' },
   ],
 
   visuals: {

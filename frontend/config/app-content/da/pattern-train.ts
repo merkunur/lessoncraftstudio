@@ -63,27 +63,27 @@ const content: AppContent = {
       {
         title: 'Togvognsformat med 11 tematiske vogne',
         description:
-          'Mønstre vises over et tematisk tog med 11 vogne arrangeret i tre rækker (5 øverst, 3 midten-venstre, 3 midten-højre). Hver vogn holder et billede fra den gentagne sekvens, hvilket skaber et visuelt engagerende format, der adskiller sig fra almindelige gitterbaserede mønsterarbejdsark. Toglayoutet giver produkterne et distinkt udseende i markedspladsannoncer — købere, der browser på Etsy.dk eller Gumroad, ser øjeblikkeligt noget anderledes fra de typiske række-og-kolonne-mønsterøvelser. Den tematiske togkunst tilføjer produktionsværdi, der motiverer premiumpris­sætning.',
+          'Mønstre vises over et tematisk tog med 11 vogne arrangeret i tre rækker (5 øverst, 3 midten-venstre, 3 midten-højre). Hver vogn holder et billede fra den gentagne sekvens, hvilket generator et visuelt engagerende format, der adskiller sig fra almindelige gitterbaserede mønsterarbejdsark. Toglayoutet giver produkterne et distinkt udseende i markedspladsannoncer — købere, der browser på Etsy.dk eller Gumroad, ser øjeblikkeligt noget anderledes fra de typiske række-og-kolonne-mønsterøvelser. Den tematiske togkunst tilføjer produktionsværdi, der motiverer premiumpris­sætning.',
       },
       {
         title: 'Fem gentagne mønstertyper for progressiv sværhed',
         description:
-          'Fem mønstertyper dækker hele spektret af gentagen sekvenskompleksitet. AB alternerer to elementer i det enklest mulige mønster. AAB og ABB introducerer asymmetriske grupperinger, hvor ét element vises to gange før eller efter det andet. ABC roterer tre forskellige elementer, hvilket kræver, at brugerne holder styr på en længere gentagen enhed. AABB parrer to af hvert element i en udvidet cyklus. Denne progression skaber en naturlig sværhedsstige fra børnehaveniveau-alternering til avancerede flerelements-sekvenser — hvilket giver sælgere en indbygget differentieringsakse til niveauinddelte produktpakker.',
+          'Fem mønstertyper dækker hele spektret af gentagen sekvenskompleksitet. AB alternerer to elementer i det enklest mulige mønster. AAB og ABB introducerer asymmetriske grupperinger, hvor ét element vises to gange før eller efter det andet. ABC roterer tre forskellige elementer, hvilket kræver, at brugerne holder styr på en længere gentagen enhed. AABB parrer to af hvert element i en udvidet cyklus. Denne progression generator en naturlig sværhedsstige fra børnehaveniveau-alternering til avancerede flerelements-sekvenser — hvilket giver sælgere en indbygget differentieringsakse til niveauinddelte produktpakker.',
       },
       {
         title: 'Justerbart antal ledetråde fra 4 til 10 for sværhedskontrol',
         description:
-          'Ledetrådsskyderen styrer, hvor mange af de 11 vognspositioner der viser billeder kontra den ene tomme position. De første 3 vogne vises altid og etablerer mønsterets grundlag. At indstille 10 ledetråde efterlader kun 1 tom blandt 10 synlige elementer — mønsteret er meget åbenlyst. At indstille 4 ledetråde viser minimal information, hvilket kræver ægte ræsonnement for at identificere sekvensen fra begrænset data. Denne ene indstilling skaber et bredt sværhedsspænd fra hver mønstertype og multiplicerer effektivt din produktvariation: et AB-mønster med 10 ledetråde passer begyndere, mens et ABC-mønster med 4 ledetråde udfordrer avancerede brugere.',
+          'Ledetrådsskyderen styrer, hvor mange af de 11 vognspositioner der viser billeder kontra den ene tomme position. De første 3 vogne vises altid og etablerer mønsterets grundlag. At indstille 10 ledetråde efterlader kun 1 tom blandt 10 synlige elementer — mønsteret er meget åbenlyst. At indstille 4 ledetråde viser minimal information, hvilket kræver ægte ræsonnement for at identificere sekvensen fra begrænset data. Denne ene indstilling generator et bredt sværhedsspænd fra hver mønstertype og multiplicerer effektivt din produktvariation: et AB-mønster med 10 ledetråde passer begyndere, mens et ABC-mønster med 4 ledetråde udfordrer avancerede brugere.',
       },
       {
         title: 'Dynamisk manglende position med intelligent placering',
         description:
-          'Den tomme vognposition vælges dynamisk fra position 3 til 10 baseret på det konfigurerede antal ledetråde, hvilket sikrer, at det manglende element altid falder inden for mønsterets gentagne sektion frem for ved den åbenlyse start. De første 3 positioner udfyldes altid for at etablere mønsteret visuelt, før udfordringen præsenteres. Denne intelligente placering skaber retfærdige, løsbare puslespil hver gang — brugerne har tilstrækkelig kontekst til at identificere mønsteret, før de møder den tomme vogn. Den dynamiske positionering betyder også, at to arbejdsark med den samme mønstertype kan have forskellige manglende positioner, hvilket tilføjer variation i produktpakker.',
+          'Den tomme vognposition vælges dynamisk fra position 3 til 10 baseret på det konfigurerede antal ledetråde, hvilket sikrer, at det manglende element altid falder inden for mønsterets gentagne sektion frem for ved den åbenlyse start. De første 3 positioner udfyldes altid for at etablere mønsteret visuelt, før udfordringen præsenteres. Denne intelligente placering generator retfærdige, løsbare puslespil hver gang — brugerne har tilstrækkelig kontekst til at identificere mønsteret, før de møder den tomme vogn. Den dynamiske positionering betyder også, at to arbejdsark med den samme mønstertype kan have forskellige manglende positioner, hvilket tilføjer variation i produktpakker.',
       },
       {
         title: 'Billedbibliotek med 104 tematiske samlinger',
         description:
-          'Få adgang til mere end 3.100 illustrationer i 104 tematiske samlinger — dyr, mad, køretøjer, natur, erhverv, højtider og snesevis flere. Hvert tema giver et koordineret sæt billeder, der ser sammenhængende ud over togvognene. Kommerciel Pakke inkluderer 10 farverige temaer til at komme i gang; Fuld Adgang låser op for alle 104 temaer for maksimal produktvariation. Det tematiske bibliotek skaber naturlige pakkeringsmuligheder: bondegårdsdyr mønstertog, havdyr sekvenser, dinosaur mønstergenkendelse — hvert tema bliver en distinkt produktannonce med øjeblikkelig visuel tiltrækningskraft.',
+          'Få adgang til mere end 3.100 illustrationer i 104 tematiske samlinger — dyr, mad, køretøjer, natur, erhverv, højtider og snesevis flere. Hvert tema giver et koordineret sæt billeder, der ser sammenhængende ud over togvognene. Kommerciel Pakke inkluderer 10 farverige temaer til at komme i gang; Fuld Adgang låser op for alle 104 temaer for maksimal produktvariation. Det tematiske bibliotek generator naturlige pakkeringsmuligheder: bondegårdsdyr mønstertog, havdyr sekvenser, dinosaur mønstergenkendelse — hvert tema bliver en distinkt produktannonce med øjeblikkelig visuel tiltrækningskraft.',
       },
       {
         title: 'Dobbelt lærredsystem med separat facit',
@@ -121,7 +121,7 @@ const content: AppContent = {
       {
         title: 'Niveauinddelte matematik- og visuelle stationer til Gumroad',
         description:
-          'Byg niveauinddelte mønstergenkendelsesøvelsessæt med mønsterkompleksitet som differentieringsakse: Niveau 1 (AB-mønstre, 8–10 ledetråde), Niveau 2 (AAB/ABB-mønstre, 6–8 ledetråde), Niveau 3 (ABC-mønstre, 5–6 ledetråde) og Niveau 4 (AABB-mønstre, 4–5 ledetråde). Hvert niveau retter sig mod en anderledes kognitiv udfordring — fra at genkende simpel alternering til at identificere komplekse flerelements-sekvenser fra begrænset information. Togvognsformatet skaber et engagerende visuelt tema, der fungerer som produktlinjestationsaktivitet. Pak hvert niveau med tematiske øvelser og separate facit til sælgernes bekvemmelighed.',
+          'Byg niveauinddelte mønstergenkendelsesøvelsessæt med mønsterkompleksitet som differentieringsakse: Niveau 1 (AB-mønstre, 8–10 ledetråde), Niveau 2 (AAB/ABB-mønstre, 6–8 ledetråde), Niveau 3 (ABC-mønstre, 5–6 ledetråde) og Niveau 4 (AABB-mønstre, 4–5 ledetråde). Hvert niveau retter sig mod en anderledes kognitiv udfordring — fra at genkende simpel alternering til at identificere komplekse flerelements-sekvenser fra begrænset information. Togvognsformatet generator et engagerende visuelt tema, der fungerer som produktlinjestationsaktivitet. Pak hvert niveau med tematiske øvelser og separate facit til sælgernes bekvemmelighed.',
         platform: 'Gumroad (gumroad.com)',
       },
       {
@@ -143,7 +143,7 @@ const content: AppContent = {
     {
       question: 'Hvad er de fem mønstertyper, og hvordan adskiller de sig?',
       answer:
-        'AB alternerer to elementer (A-B-A-B) for det enkleste gentagne mønster. AAB grupperer to af ét element derefter ét af et andet (A-A-B-A-A-B). ABB vender den gruppering (A-B-B-A-B-B). ABC roterer tre forskellige elementer (A-B-C-A-B-C), hvilket kræver, at brugerne holder styr på en længere gentagen enhed. AABB parrer to af hvert element (A-A-B-B-A-A-B-B) i en udvidet cyklus. Progressionen fra AB til AABB skaber en naturlig sværhedsstige fra simpel toelements-alternering til komplekse flerelements-sekvenser.',
+        'AB alternerer to elementer (A-B-A-B) for det enkleste gentagne mønster. AAB grupperer to af ét element derefter ét af et andet (A-A-B-A-A-B). ABB vender den gruppering (A-B-B-A-B-B). ABC roterer tre forskellige elementer (A-B-C-A-B-C), hvilket kræver, at brugerne holder styr på en længere gentagen enhed. AABB parrer to af hvert element (A-A-B-B-A-A-B-B) i en udvidet cyklus. Progressionen fra AB til AABB generator en naturlig sværhedsstige fra simpel toelements-alternering til komplekse flerelements-sekvenser.',
     },
     {
       question: 'Hvordan styrer antallet af ledetråde sværheden?',
@@ -153,7 +153,7 @@ const content: AppContent = {
     {
       question: 'Hvordan er de 11 togvogne arrangeret på siden?',
       answer:
-        'Toget viser 11 vogne over tre rækker: 5 vogne på øverste række, 3 på midten-venstre og 3 på midten-højre. Hver vogn holder et billede fra den gentagne mønstersekvens. Den tematiske togkunst forbinder vognene visuelt, hvilket skaber et engagerende layout, der adskiller sig fra almindelige gitterbaserede mønsterarbejdsark. Dette distinkte format hjælper produkter med at skille sig ud i søgeresultater på markedspladser.',
+        'Toget viser 11 vogne over tre rækker: 5 vogne på øverste række, 3 på midten-venstre og 3 på midten-højre. Hver vogn holder et billede fra den gentagne mønstersekvens. Den tematiske togkunst forbinder vognene visuelt, hvilket generator et engagerende layout, der adskiller sig fra almindelige gitterbaserede mønsterarbejdsark. Dette distinkte format hjælper produkter med at skille sig ud i søgeresultater på markedspladser.',
     },
     {
       question: 'Hvordan bestemmes den manglende vogns position?',
@@ -173,7 +173,7 @@ const content: AppContent = {
     {
       question: 'Hvordan adskiller mønstertog-arbejdsark sig fra gitterbaserede mønsterarbejdsark?',
       answer:
-        'Mønstertog viser sekvenser over et tematisk tog med 11 vogne i et distinkt visuelt format, mens gitterbaserede mønsterarbejdsark bruger almindelige rækker og kolonner. Togformatet er mere visuelt engagerende og skaber produkter, der skiller sig ud i markedspladsannoncer. Mønstertog har også justerbart antal ledetråde (4–10) for finkornig sværhedskontrol og dynamisk placering af den manglende vogn — funktioner, der ikke findes i standard gitterlayouts.',
+        'Mønstertog viser sekvenser over et tematisk tog med 11 vogne i et distinkt visuelt format, mens gitterbaserede mønsterarbejdsark bruger almindelige rækker og kolonner. Togformatet er mere visuelt engagerende og generator produkter, der skiller sig ud i markedspladsannoncer. Mønstertog har også justerbart antal ledetråde (4–10) for finkornig sværhedskontrol og dynamisk placering af den manglende vogn — funktioner, der ikke findes i standard gitterlayouts.',
     },
     {
       question: 'Findes der en gratis prøveversion?',
@@ -269,7 +269,7 @@ const content: AppContent = {
       {
         src: '/samples/danish/pattern%20train/Mønstertoget%202.webp',
         alt: 'Mønstertog-arbejdsark med ABC treelement-mønster og tematiske billeder over togvogne',
-        caption: 'ABC-mønster — tre roterende elementer skaber en mere kompleks gentagen sekvens',
+        caption: 'ABC-mønster — tre roterende elementer generator en mere kompleks gentagen sekvens',
       },
       {
         src: '/samples/danish/pattern%20train/Mønstertoget%203.webp',

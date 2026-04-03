@@ -4,7 +4,7 @@ const content: ToolContent = {
   seo: {
     primaryKeyword: 'kryptogram arbejdsark generator',
     secondaryKeywords: [
-      'billedchiffer puslespil skaber for sælgere',
+      'billedchiffer puslespil generator for sælgere',
       'lav kryptogram arbejdsark til salg',
       'printbare kryptogram puslespil kommerciel brug',
       'kryptogram generator til KDP',
@@ -12,7 +12,7 @@ const content: ToolContent = {
     lsiKeywords: [
       'billed-til-bogstav chiffer printbare til Etsy',
       'kodeknæknings arbejdsark generator værktøj',
-      'flersproget billedkryptogram skaber',
+      'flersproget billedkryptogram generator',
     ],
     titleTag: 'Kryptogram Arbejdsark Generator | Lav og Sælg Puslespil',
     metaDescription: 'Generér kryptogram arbejdsark med billedchiffer kodning, sværhedsregler, autotildelingstilstand, facit på 11 sprog. Gratis prøveversion med vandmærke.',
@@ -28,7 +28,7 @@ const content: ToolContent = {
     title: 'Sådan Laver du Kryptogram Arbejdsark i 8 Enkle Trin',
     steps: [
       {
-        title: 'Åbn Kryptogram Arbejdsark Skaberen',
+        title: 'Åbn Kryptogram Arbejdsark Generatoren',
         description: 'Klik på \"Prøv gratis nu\" for at starte generatoren i din browser. Værktøjet indlæses direkte med et indstillingssidepanel til venstre og et liveforhåndsvisningsarbejdsområde til højre. Ingen konto, ingen download, ingen installation kræves — begynd at bygge billedchiffer puslespil med det samme.',
       },
       {
@@ -49,7 +49,7 @@ const content: ToolContent = {
       },
       {
         title: 'Indstil sværhed med Bogstaver at Afsløre',
-        description: 'Justér skyderen Bogstaver at Afsløre fra 0 til 10 for at kontrollere, hvor mange bogstav-til-billede-tilknytninger der er forudafsløret som tips på arbejdsarket. Nul afsløringer skaber en ren kodeknækningsudfordring, hvor brugerne starter uden information. Ti afsløringer giver tung støttning for yngre eller mindre erfarne løsere. Denne enkelte kontrol skaber en blød sværhedsgradient og fungerer som den primære differentieringsakse for niveauopdelte produktpakker.',
+        description: 'Justér skyderen Bogstaver at Afsløre fra 0 til 10 for at kontrollere, hvor mange bogstav-til-billede-tilknytninger der er forudafsløret som tips på arbejdsarket. Nul afsløringer generator en ren kodeknækningsudfordring, hvor brugerne starter uden information. Ti afsløringer giver tung støttning for yngre eller mindre erfarne løsere. Denne enkelte kontrol generator en blød sværhedsgradient og fungerer som den primære differentieringsakse for niveauopdelte produktpakker.',
       },
       {
         title: 'Tilpas skrifttype, tekst og arbejdsområde',
@@ -202,13 +202,13 @@ const content: ToolContent = {
 
   internalLinks: [
     { pageType: 'app', slug: 'kryptogram-arbejdsark', anchorText: 'Kryptogram Arbejdsark — Fulde Produktdetaljer' },
-    { pageType: 'tool', slug: 'ordsoegning-skaber', anchorText: 'Ordsøgning Skaber' },
-    { pageType: 'tool', slug: 'gaet-ordet-skaber', anchorText: 'Gæt Ordet Skaber' },
-    { pageType: 'tool', slug: 'ordmix-skaber', anchorText: 'Bogstavblanding Skaber' },
-    { pageType: 'tool', slug: 'alfabet-tog-skaber', anchorText: 'Alfabet Tog Skaber' },
-    { pageType: 'tool', slug: 'forholdsord-arbejdsark-skaber', anchorText: 'Forholdsord Arbejdsark Skaber' },
-    { pageType: 'tool', slug: 'skriveoevelser-skaber', anchorText: 'Skriveøvelser Skaber' },
-    { pageType: 'tool', slug: 'matchning-arbejdsark-skaber', anchorText: 'Matchning Arbejdsark Skaber' },
+    { pageType: 'tool', slug: 'ordsoegning-skaber', anchorText: 'Ordsøgning Generator' },
+    { pageType: 'tool', slug: 'gaet-ordet-skaber', anchorText: 'Gæt Ordet Generator' },
+    { pageType: 'tool', slug: 'ordmix-skaber', anchorText: 'Bogstavblanding Generator' },
+    { pageType: 'tool', slug: 'alfabet-tog-skaber', anchorText: 'Alfabet Tog Generator' },
+    { pageType: 'tool', slug: 'forholdsord-arbejdsark-skaber', anchorText: 'Forholdsord Arbejdsark Generator' },
+    { pageType: 'tool', slug: 'skriveoevelser-skaber', anchorText: 'Skriveøvelser Generator' },
+    { pageType: 'tool', slug: 'matchning-arbejdsark-skaber', anchorText: 'Matchning Arbejdsark Generator' },
   ],
 
   visuals: {

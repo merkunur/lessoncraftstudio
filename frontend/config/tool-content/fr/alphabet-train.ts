@@ -27,7 +27,7 @@ const content: ToolContent = {  seo: {
     title: 'Comment Créer des Fiches Train Alphabet en 8 Étapes Simples',
     steps: [
       {
-        title: 'Ouvrir le Créateur de Fiches Train Alphabet',
+        title: 'Ouvrir le Générateur de Fiches Train Alphabet',
         description: 'Cliquez sur \" Essayer maintenant \" pour lancer le générateur. L\'outil s\'ouvre instantanément dans votre navigateur avec une barre latérale de réglages à gauche et un canevas d\'aperçu en temps réel à droite. Aucun compte, téléchargement ni installation requis.',
       },
       {
@@ -80,7 +80,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Fiches Personnalisées avec Images de Marque',
-      description: 'Téléchargez vos propres illustrations, mascottes ou œuvres sous licence pour créer des trains alphabet qu\'aucun autre vendeur ne peut reproduire. Les créateurs de contenu éducatif peuvent utiliser des photos de famille, les vendeurs peuvent utiliser la mascotte de l\'école, et les vendeurs Etsy peuvent construire une identité visuelle distinctive à travers toute leur boutique.',
+      description: 'Téléchargez vos propres illustrations, mascottes ou œuvres sous licence pour créer des trains alphabet qu\'aucun autre vendeur ne peut reproduire. Les générateurs de contenu éducatif peuvent utiliser des photos de famille, les vendeurs peuvent utiliser la mascotte de l\'école, et les vendeurs Etsy peuvent construire une identité visuelle distinctive à travers toute leur boutique.',
     },
     {
       title: 'Packs Saisonniers de Train Alphabet',
@@ -148,7 +148,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Associez avec le Train de Suites Logiques pour un Pack Train',
-      description: 'Le créateur de Train de Suites Logiques utilise le même format visuel de wagons mais se concentre sur la reconnaissance de patterns au lieu des lettres. Regroupez les productions des deux outils dans un méga-pack \" Activités Train \" couvrant alphabétisation et logique. Le style visuel harmonieux crée une gamme de produits cohérente.',
+      description: 'Le générateur de Train de Suites Logiques utilise le même format visuel de wagons mais se concentre sur la reconnaissance de patterns au lieu des lettres. Regroupez les productions des deux outils dans un méga-pack \" Activités Train \" couvrant alphabétisation et logique. Le style visuel harmonieux crée une gamme de produits cohérente.',
     },
   ],
 

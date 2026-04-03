@@ -6,11 +6,11 @@ const content: ToolContent = {
     secondaryKeywords: [
       'rasterpuzzel werkbladen online maken gratis',
       'tegelpuzzel werkblad generator',
-      'printbare raster-koppelpuzzel maker met antwoordblad',
+      'printbare raster-koppelpuzzel generator met antwoordblad',
       'rasterpuzzel tool online voor kinderen',
     ],
     lsiKeywords: [
-      'instelbare rastergrootte puzzel maker gratis',
+      'instelbare rastergrootte puzzel generator gratis',
       'aanwijzingscellen moeilijkheid tegelpuzzel generator',
       'automatisch antwoordblad rasterpuzzel tool',
     ],
@@ -28,7 +28,7 @@ const content: ToolContent = {
     title: 'Hoe maakt u gratis raster-koppelpuzzels online?',
     steps: [
       {
-        title: 'Open de Rasterpuzzel Maker',
+        title: 'Open de Rasterpuzzel Generator',
         description: 'Klik op "Gratis proefversie" om de rasterpuzzel werkblad generator te starten in je browser. De tool laadt direct met een instellingenzijbalk links en een dubbel-tabblad canvas rechts — één tabblad voor het werkblad, één voor het antwoordblad. Geen account aanmaken, geen software downloaden, geen installatie nodig — begin onmiddellijk met het maken van rasterpuzzels.',
       },
       {
@@ -187,7 +187,7 @@ const content: ToolContent = {
       answer: 'De generator detecteert automatisch je pagina-oriëntatie en herpositioneert elementen. Staande pagina\'s (hoogte > breedte) plaatsen het raster bovenaan met 45% van de beschikbare hoogte met het genummerde palet eronder en een koptekst over de volle breedte (100px hoogte, 15px straal). Liggende pagina\'s (breedte > hoogte) positioneren het raster links (48% van de beschikbare breedte) met het palet rechts en een compacte koptekst (70px hoogte, 35px straal). Deze automatische herpositionering garandeert dat rasterpuzzels er gebalanceerd en professioneel uitzien in beide oriëntaties zonder handmatige indelingsaanpassingen.',
     },
     {
-      question: 'Is de Rasterpuzzel Maker taalgebonden?',
+      question: 'Is de Rasterpuzzel Generator taalgebonden?',
       answer: 'Nee. Rasterpuzzel is puur visueel — de puzzeluitvoer bevat uitsluitend afbeeldingstegels en nummers, zonder gelokaliseerde woordinhoud op het werkblad zelf. De app-interface (menu\'s, knoppen, koptekst) ondersteunt alle 11 talen, maar de gegenereerde puzzel werkt identiek ongeacht taalselectie. Dit maakt rasterpuzzels universeel verkoopbaar over alle markten zonder vertaling. Eén set puzzels bedient elke internationale Etsy-winkel, KDP-marktplaats en Gumroad-koper.',
     },
     {
@@ -206,13 +206,13 @@ const content: ToolContent = {
 
   internalLinks: [
     { pageType: 'app', slug: 'raster-puzzel-werkbladen', anchorText: 'Watermerk verwijderen en verkopen met commerciële licentie' },
-    { pageType: 'tool', slug: 'koppelen-werkblad-maker', anchorText: 'Matching Werkblad Maker' },
-    { pageType: 'tool', slug: 'schaduw-koppelen-maker', anchorText: 'Schaduw Matching Werkblad Maker' },
+    { pageType: 'tool', slug: 'koppelen-werkblad-generator', anchorText: 'Matching Werkblad Generator' },
+    { pageType: 'tool', slug: 'schaduw-koppelen-maker', anchorText: 'Schaduw Matching Werkblad Generator' },
     { pageType: 'tool', slug: 'plaatjesbingo-maker', anchorText: 'Plaatjesbingo Maker' },
     { pageType: 'tool', slug: 'ontbrekende-stukjes-maker', anchorText: 'Ontbrekende Stukken Puzzel Maker' },
-    { pageType: 'tool', slug: 'wat-hoort-er-niet-bij-maker', anchorText: 'Zoek de Uitzondering Werkblad Maker' },
-    { pageType: 'tool', slug: 'plaatjes-sorteren-maker', anchorText: 'Sorteer Werkblad Maker' },
-    { pageType: 'tool', slug: 'optellen-werkblad-maker', anchorText: 'Optelling Werkblad Maker' },
+    { pageType: 'tool', slug: 'wat-hoort-er-niet-bij-maker', anchorText: 'Zoek de Uitzondering Werkblad Generator' },
+    { pageType: 'tool', slug: 'plaatjes-sorteren-maker', anchorText: 'Sorteer Werkblad Generator' },
+    { pageType: 'tool', slug: 'optellen-werkblad-generator', anchorText: 'Optelling Werkblad Generator' },
   ],
 
   visuals: {

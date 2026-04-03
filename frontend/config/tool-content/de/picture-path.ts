@@ -7,7 +7,7 @@ const content: ToolContent = {
       'Bilderpfad-Arbeitsblätter kostenlos erstellen',
       'Labyrinth-Generator online ohne Anmeldung',
       'kostenlose Labyrinth-Rätsel mit Lösungsschlüssel',
-      'Bilderpfad-Ersteller mit drei Spielmodi kostenlos',
+      'Bilderpfad-Generator mit drei Spielmodi kostenlos',
     ],
     lsiKeywords: [
       'Labyrinth Bilderpfad Pfadverfolgung Rätsel',
@@ -206,13 +206,13 @@ const content: ToolContent = {
 
   internalLinks: [
     { pageType: 'app', slug: 'bilderpfad-arbeitsblaetter', anchorText: 'Bilderpfad-Labyrinth-Rätsel — Vollständige Produktdetails' },
-    { pageType: 'tool', slug: 'kinder-sudoku-ersteller', anchorText: 'Bilder-Sudoku-Ersteller' },
-    { pageType: 'tool', slug: 'fehlende-puzzleteile-ersteller', anchorText: 'Fehlende-Puzzleteile-Ersteller' },
-    { pageType: 'tool', slug: 'was-passt-nicht-ersteller', anchorText: 'Was-Passt-Nicht-Ersteller' },
-    { pageType: 'tool', slug: 'raster-puzzle-ersteller', anchorText: 'Raster-Puzzle-Ersteller' },
-    { pageType: 'tool', slug: 'suchen-und-zaehlen-ersteller', anchorText: 'Suchen-und-Zählen-Ersteller' },
-    { pageType: 'tool', slug: 'wortsuche-ersteller', anchorText: 'Wortsuche-Ersteller' },
-    { pageType: 'tool', slug: 'malvorlagen-ersteller', anchorText: 'Malvorlagen-Ersteller' },
+    { pageType: 'tool', slug: 'kinder-sudoku-ersteller', anchorText: 'Bilder-Sudoku-Generator' },
+    { pageType: 'tool', slug: 'fehlende-puzzleteile-ersteller', anchorText: 'Fehlende-Puzzleteile-Generator' },
+    { pageType: 'tool', slug: 'was-passt-nicht-ersteller', anchorText: 'Was-Passt-Nicht-Generator' },
+    { pageType: 'tool', slug: 'raster-puzzle-ersteller', anchorText: 'Raster-Puzzle-Generator' },
+    { pageType: 'tool', slug: 'suchen-und-zaehlen-ersteller', anchorText: 'Suchen-und-Zählen-Generator' },
+    { pageType: 'tool', slug: 'wortsuche-ersteller', anchorText: 'Wortsuche-Generator' },
+    { pageType: 'tool', slug: 'malvorlagen-ersteller', anchorText: 'Malvorlagen-Generator' },
   ],
 
   visuals: {

@@ -159,7 +159,7 @@ const content: GuideContent = {
     { pageType: 'guide', slug: 'kreuzwortraetsel-erstellen', anchorText: 'Kreuzworträtsel erstellen — Schritt für Schritt' },
     { pageType: 'guide', slug: 'mathe-arbeitsblaetter-verkaufen-etsy', anchorText: 'Mathe-Arbeitsblätter auf Etsy verkaufen' },
     { pageType: 'app', slug: 'wortsuche-arbeitsblaetter', anchorText: 'Wortsuche-Generator — Alle Details' },
-    { pageType: 'tool', slug: 'wortsuche-ersteller', anchorText: 'Wortsuche-Ersteller ausprobieren' },
+    { pageType: 'tool', slug: 'wortsuche-ersteller', anchorText: 'Wortsuche-Generator ausprobieren' },
   ],
 
   toolsRecommended: [

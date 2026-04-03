@@ -158,7 +158,7 @@ const content: GuideContent = {
     { pageType: 'app', slug: 'optellen-werkbladen', anchorText: 'Optellen Werkblad Generator' },
     { pageType: 'app', slug: 'aftrekken-werkbladen', anchorText: 'Aftrekken Werkblad Generator' },
     { pageType: 'app', slug: 'rekenpuzzels-werkbladen', anchorText: 'Rekenpuzzel Generator' },
-    { pageType: 'tool', slug: 'optellen-werkblad-maker', anchorText: 'Probeer de Optellen Werkblad Maker' },
+    { pageType: 'tool', slug: 'optellen-werkblad-generator', anchorText: 'Probeer de Optellen Werkblad Generator' },
   ],
 
   toolsRecommended: [

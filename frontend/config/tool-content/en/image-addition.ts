@@ -1,19 +1,19 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'free addition worksheet maker online',
+    primaryKeyword: 'free addition worksheet generator online',
     secondaryKeywords: [
       'make addition worksheets free online',
       'addition worksheet generator no signup',
-      'free math worksheet maker for kids',
+      'free math worksheet generator for kids',
       'printable addition worksheets free trial',
     ],
     lsiKeywords: [
       'free worksheet generator online',
-      'no signup worksheet maker',
+      'no signup worksheet generator',
       'try before you buy printable tools',
     ],
-    titleTag: 'Free Addition Worksheet Maker Online | LCS',
+    titleTag: 'Free Addition Worksheet Generator Online | LCS',
     metaDescription: 'Make addition worksheets free online with watermark — no signup needed. 104 themes, 4 exercise modes, answer keys. Upgrade for commercial license to sell.',
     },
 
@@ -195,7 +195,7 @@ const content: ToolContent = {  seo: {
 
   internalLinks: [
     { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Remove watermark and sell commercially' },
-    { pageType: 'tool', slug: 'subtraction-worksheet-maker', anchorText: 'Free subtraction worksheet maker' },
+    { pageType: 'tool', slug: 'subtraction-worksheet-maker', anchorText: 'Free subtraction worksheet generator' },
     { pageType: 'guide', slug: 'create-addition-worksheets', anchorText: 'How to create addition worksheets to sell' },
   ],
 

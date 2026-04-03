@@ -27,7 +27,7 @@ const content: ToolContent = {  seo: {
     title: 'Como generar crucigramas gratis en 3 pasos',
     steps: [
       {
-        title: 'Abra el Creador de Crucigramas',
+        title: 'Abra el Generador de Crucigramas',
         description: 'Haga clic en \"Pruebe Gratis Ahora\" para abrir el generador de crucigramas con imágenes en su navegador. La herramienta se carga instantáneamente con una barra lateral de configuración a la izquierda y un lienzo de doble pestaña a la derecha — una pestaña para la ficha del crucigrama y otra para la clave de respuestas. Sin necesidad de crear cuenta, sin descargue de software, sin instalación — empiece a crear crucigramas con imágenes de inmediato.',
       },
       {
@@ -44,7 +44,7 @@ const content: ToolContent = {  seo: {
       },
       {
         title: 'Elija el Idioma del Contenido',
-        description: 'Seleccione el idioma del contenido para controlar las palabras que aparecen en la cuadrícula del crucigrama. El Creador de Crucigramas con Imágenes es sensible al idioma — las palabras del puzzle provienen de nombres de imagen localizados a través del sistema de Vocabulario de Imágenes. La misma imagen de gato genere \"CAT\" en inglés, \"KATZE\" en alemán, \"CHAT\" en francés y \"GATTO\" en italiano, produciendo crucigramas completamente diferentes a partir de selecciones de imágenes idénticas. El nivel Comercial incluya inglés; el Acceso Completo desbloquea los 11 idiomas. Esta capacidad multilingüe permite crear y vender productos de crucigramas para mercados internacionales usando los mismos conjuntos de imágenes.',
+        description: 'Seleccione el idioma del contenido para controlar las palabras que aparecen en la cuadrícula del crucigrama. El Generador de Crucigramas con Imágenes es sensible al idioma — las palabras del puzzle provienen de nombres de imagen localizados a través del sistema de Vocabulario de Imágenes. La misma imagen de gato genere \"CAT\" en inglés, \"KATZE\" en alemán, \"CHAT\" en francés y \"GATTO\" en italiano, produciendo crucigramas completamente diferentes a partir de selecciones de imágenes idénticas. El nivel Comercial incluya inglés; el Acceso Completo desbloquea los 11 idiomas. Esta capacidad multilingüe permite crear y vender productos de crucigramas para mercados internacionales usando los mismos conjuntos de imágenes.',
       },
       {
         title: 'Genere el Crucigrama con Imágenes',
@@ -174,8 +174,8 @@ const content: ToolContent = {  seo: {
       answer: 'El generador usa un sistema de doble lienzo con una pestaña de Ficha (el puzzle vacío) y una pestaña de Clave de Respuestas (la cuadrícula completada). La ficha muestra la cuadrícula del crucigrama con posiciones numeradas y pistas con imágenes o texto — lista para que los solucionadores la completen. La clave de respuestas reproduce el diseño idéntico y rellena cada celda con las letras correctas. Ambas versiones se exportan por separado usando cuatro botones de descargue dedicados. La clave de respuestas se genera simultáneamente con el puzzle, por lo que no hay paso de creación manual de respuestas y no hay posibilidad de soluciones que no coincidan.',
     },
     {
-      question: '¿Es el Creador de Crucigramas sensible al idioma?',
-      answer: 'Sí. Las palabras del puzzle provienen de nombres de imagen localizados cargados a través del sistema de Vocabulario de Imágenes. Cambiar el idioma del contenido cambie las palabras reales colocadas en la cuadrícula del crucigrama. Una imagen de gato genere \"CAT\" en inglés pero \"KATZE\" en alemán, \"CHAT\" en francés y \"GATTO\" en italiano — creando crucigramas completamente diferentes a partir de selecciones de imágenes idénticas. El texto del encabezado localizado también cambie con el idioma seleccionado. El nivel Comercial incluya contenido en inglés; el Acceso Completo desbloquea los 11 idiomas para palabras de puzzle localizadas. Esto convierte al Creador de Crucigramas en una de las herramientas más versátiles para crear productos multilingües vendibles.',
+      question: '¿Es el Generador de Crucigramas sensible al idioma?',
+      answer: 'Sí. Las palabras del puzzle provienen de nombres de imagen localizados cargados a través del sistema de Vocabulario de Imágenes. Cambiar el idioma del contenido cambie las palabras reales colocadas en la cuadrícula del crucigrama. Una imagen de gato genere \"CAT\" en inglés pero \"KATZE\" en alemán, \"CHAT\" en francés y \"GATTO\" en italiano — creando crucigramas completamente diferentes a partir de selecciones de imágenes idénticas. El texto del encabezado localizado también cambie con el idioma seleccionado. El nivel Comercial incluya contenido en inglés; el Acceso Completo desbloquea los 11 idiomas para palabras de puzzle localizadas. Esto convierte al Generador de Crucigramas en una de las herramientas más versátiles para crear productos multilingües vendibles.',
     },
     {
       question: '¿Cómo funciona el modo Lista Personalizada de Palabras con Pistas?',

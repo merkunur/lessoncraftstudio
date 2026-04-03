@@ -220,7 +220,7 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'gerador-palavras-cruzadas', anchorText: 'Gerador de Palavras Cruzadas com Imagens' },
     { pageType: 'tool', slug: 'gerador-caca-tesouro', anchorText: 'Gerador de Caça ao Tesouro' },
     { pageType: 'tool', slug: 'gerador-caca-palavras', anchorText: 'Gerador de Caça-Palavras' },
-    { pageType: 'tool', slug: 'gerador-percurso-imagens', anchorText: 'Criador de Labirintos com Imagens' },
+    { pageType: 'tool', slug: 'gerador-percurso-imagens', anchorText: 'Gerador de Labirintos com Imagens' },
     { pageType: 'tool', slug: 'gerador-atividades-associacao', anchorText: 'Gerador de Atividades de Associação' },
     { pageType: 'tool', slug: 'gerador-paginas-colorir', anchorText: 'Gerador de Páginas para Colorir' },
   ],

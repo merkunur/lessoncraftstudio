@@ -2,19 +2,19 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'free sorting worksheet maker for kids',
+    primaryKeyword: 'free sorting worksheet generator for kids',
     secondaryKeywords: [
       'make sorting worksheets free online',
       'category sorting generator no signup',
-      'free picture sort worksheet maker',
+      'free picture sort worksheet generator',
       'sorting worksheets free trial',
     ],
     lsiKeywords: [
       'free sorting tool online',
-      'instant sorting worksheet maker',
+      'instant sorting worksheet generator',
       'try before you buy sorting tools',
     ],
-    titleTag: 'Free Sorting Worksheet Maker Online | LCS',
+    titleTag: 'Free Sorting Worksheet Generator Online | LCS',
     metaDescription: 'Make sorting sheets free online with watermark — no signup. Category sorting with themed images, auto answer keys, 104 themes. Upgrade for commercial use.',
   },
 
@@ -206,7 +206,7 @@ const content: ToolContent = {
 
   internalLinks: [
     { pageType: 'app', slug: 'picture-sort-worksheets', anchorText: 'Remove watermark and sell commercially' },
-    { pageType: 'tool', slug: 'matching-worksheet-maker', anchorText: 'Free matching worksheet maker' },
+    { pageType: 'tool', slug: 'matching-worksheet-maker', anchorText: 'Free matching worksheet generator' },
     { pageType: 'guide', slug: 'create-sorting-worksheets', anchorText: 'How to create sorting worksheets to sell' },
   ],
 

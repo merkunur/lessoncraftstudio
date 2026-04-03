@@ -27,7 +27,7 @@
   "homepage": {
     "hero": {
       "title": "Créez des fiches d'exercices captivantes en quelques minutes",
-      "subtitle": "Générateurs professionnels de fiches pédagogiques pour enseignants et parents. Accédez à 33 applications interactives avec de magnifiques illustrations.",
+      "subtitle": "33 générateurs de fiches professionnelles pour vendeurs Etsy, éditeurs KDP et entrepreneurs du printable. Licence commerciale incluse.",
       "cta": {
         "tryFree": "Essayer la recherche de mots",
         "viewApps": "Voir tous les générateurs"
@@ -156,7 +156,7 @@
     "subtitle": "Choisissez parmi 33 générateurs professionnels",
     "search": "Rechercher des générateurs...",
     "heroTitle": "33 générateurs de fiches pédagogiques",
-    "heroSubtitle": "Transformez vos supports pédagogiques avec notre suite complète de générateurs de fiches éducatives. Des mots cachés aux énigmes mathématiques, tout ce dont vous avez besoin est ici.",
+    "heroSubtitle": "33 générateurs de printables professionnels pour vendeurs Etsy et éditeurs KDP. Créez des mots cachés, des fiches de maths, des coloriages et plus — licence commerciale incluse.",
     "categories": {
       "all": "Tous les générateurs",
       "math": "Mathématiques",
@@ -1049,11 +1049,11 @@
     "loadError": "Impossible de charger vos demandes. Veuillez actualiser la page."
   },
   "about": {
-    "metaTitle": "À propos de LessonCraftStudio | Générateurs de Fiches Pédagogiques",
-    "metaDescription": "Découvrez LessonCraftStudio — 33 générateurs de fiches professionnels en 11 langues avec plus de 3 000 images thématiques pour enseignants, parents et thérapeutes.",
+    "metaTitle": "À propos de LessonCraftStudio | Générateurs de Printables pour Vendeurs",
+    "metaDescription": "LessonCraftStudio — 33 générateurs de printables professionnels pour vendeurs Etsy, éditeurs Amazon KDP et entrepreneurs. 11 langues, 3 000+ images, licence commerciale incluse.",
     "hero": {
       "title": "À propos de LessonCraftStudio",
-      "subtitle": "Accompagner les éducateurs du monde entier avec des générateurs de fiches professionnels"
+      "subtitle": "Générateurs de printables professionnels pour vendeurs Etsy et éditeurs KDP dans le monde entier"
     },
     "stats": {
       "generators": "33",
@@ -1067,8 +1067,8 @@
     },
     "mission": {
       "title": "Notre mission",
-      "description": "Nous croyons que chaque enfant mérite d’accéder à des supports pédagogiques de qualité. LessonCraftStudio a été créé pour aider les enseignants, les parents et les thérapeutes à produire des fiches professionnelles en un instant — sans compétences en design, logiciel coûteux ni heures de préparation.",
-      "description2": "Nos générateurs allient pédagogie fondée sur la recherche et design soigné, facilitant la création de supports prêts à imprimer qui captent l’attention des jeunes apprenants, de la maternelle au CE2."
+      "description": "LessonCraftStudio a été créé pour aider les vendeurs Etsy, les éditeurs KDP et les entrepreneurs du printable à produire des fiches professionnelles en un instant — sans compétences en design, logiciel coûteux ni heures de préparation.",
+      "description2": "Nos 33 générateurs créent des PDFs prêts à imprimer en 300 DPI avec corrigés, 3 000+ images thématiques et 11 langues — le tout avec licence commerciale pour vendre sur toutes les plateformes."
     },
     "methodology": {
       "title": "Notre approche",
@@ -1077,8 +1077,8 @@
         "description": "Choisissez un thème, personnalisez les paramètres et générez une fiche prête à imprimer en quelques secondes. Aucune compétence en design requise."
       },
       "research": {
-        "title": "Fondé sur la recherche",
-        "description": "Chaque générateur repose sur des méthodes pédagogiques éprouvées pour le développement de la petite enfance — mathématiques, lecture, motricité et développement cognitif."
+        "title": "Qualité professionnelle",
+        "description": "Chaque générateur crée des PDFs prêts à vendre en 300 DPI avec corrigés — parfaits pour les boutiques Etsy, les livres KDP et les téléchargements numériques."
       },
       "inclusive": {
         "title": "Multilingue & Inclusif",
@@ -1088,16 +1088,16 @@
     "audience": {
       "title": "Pour qui ?",
       "teachers": {
-        "title": "Enseignants",
-        "description": "Créez des fiches différenciées pour votre classe en quelques secondes. Accompagnez chaque élève avec des supports dans sa langue maternelle."
+        "title": "Vendeurs Etsy & KDP",
+        "description": "Créez rapidement un catalogue de produits imprimables. Générez des fiches thématiques uniques qui se démarquent sur le marché."
       },
       "parents": {
-        "title": "Parents",
-        "description": "Offrez à votre enfant des exercices attrayants à la maison avec des fiches de qualité professionnelle adaptées à ses intérêts et son niveau."
+        "title": "Usage personnel",
+        "description": "Créez des fiches pour le soutien scolaire ou vos projets personnels en quelques secondes. Essai gratuit avec filigrane — aucune inscription requise."
       },
       "therapists": {
-        "title": "Thérapeutes & Éducateurs spécialisés",
-        "description": "Générez des supports ciblés pour l’orthophonie, l’ergothérapie et l’éducation spécialisée — personnalisés pour chaque élève."
+        "title": "Créateurs de contenu & Éditeurs",
+        "description": "Produisez du contenu imprimable professionnel à grande échelle. 33 générateurs, 104 thèmes, 11 langues — créez des centaines de produits uniques sur une seule plateforme."
       }
     },
     "cta": {

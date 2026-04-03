@@ -34,7 +34,7 @@
       }
     },
     "features": {
-      "title": "Alles was Sie für erfolgreiche Unterrichtsmaterialien brauchen",
+      "title": "Alles was Sie für erfolgreiche Printable-Produkte brauchen",
       "items": {
         "apps": {
           "title": "33 Arbeitsblatt-Generatoren",
@@ -104,7 +104,7 @@
     "subtitle": "Wählen Sie aus 33 professionellen Arbeitsblatt-Generatoren",
     "search": "Generatoren suchen...",
     "heroTitle": "33 Arbeitsblatt-Generator Apps",
-    "heroSubtitle": "Verwandeln Sie Ihre Unterrichtsmaterialien mit unserer umfassenden Suite pädagogischer Arbeitsblatt-Generatoren. Von Worträtseln bis zu Mathe-Aufgaben – bei uns finden Sie alles, was Sie brauchen.",
+    "heroSubtitle": "33 professionelle Printable-Generatoren für Etsy-Verkäufer und KDP-Publisher. Erstellen Sie Worträtsel, Mathe-Aufgaben, Ausmalbilder und mehr — mit kommerzieller Lizenz zum Verkauf.",
     "categories": {
       "all": "Alle Generatoren",
       "math": "Mathematik",
@@ -1007,7 +1007,7 @@
       },
       "CORE": {
         "name": "Basis-Paket",
-        "description": "Perfekt für den Alltag im Klassenzimmer",
+        "description": "Perfekt zum Aufbau Ihres Printable-Geschäfts",
         "features": [
           "Zugriff auf 10 beliebte Arbeitsblattgeneratoren",
           "Unbegrenzte Arbeitsblattgenerierung",
@@ -1110,11 +1110,11 @@
     "loadError": "Beim Laden der Anfragen ist ein Fehler aufgetreten. Bitte laden Sie die Seite neu."
   },
   "about": {
-    "metaTitle": "Über LessonCraftStudio | Pädagogische Arbeitsblatt-Generatoren",
-    "metaDescription": "Erfahren Sie mehr über LessonCraftStudio — 33 professionelle Arbeitsblatt-Generatoren in 11 Sprachen mit über 3.000 thematischen Bildern für Lehrer, Eltern und Therapeuten.",
+    "metaTitle": "Über LessonCraftStudio | Professionelle Printable-Generatoren für Verkäufer",
+    "metaDescription": "LessonCraftStudio — 33 professionelle Printable-Generatoren für Etsy-Verkäufer, Amazon-KDP-Publisher und Printable-Unternehmer. 11 Sprachen, 3.000+ Bilder, kommerzielle Lizenz inklusive.",
     "hero": {
       "title": "Über LessonCraftStudio",
-      "subtitle": "Wir unterstützen Pädagogen weltweit mit professionellen Arbeitsblatt-Generatoren"
+      "subtitle": "Professionelle Printable-Generatoren für Etsy-Verkäufer und KDP-Publisher weltweit"
     },
     "stats": {
       "generators": "33",
@@ -1128,8 +1128,8 @@
     },
     "mission": {
       "title": "Unsere Mission",
-      "description": "Wir glauben, dass jedes Kind Zugang zu hochwertigen Lernmaterialien verdient. LessonCraftStudio wurde entwickelt, um Lehrern, Eltern und Therapeuten zu helfen, professionelle Arbeitsblätter sofort zu erstellen — ohne Designkenntnisse, teure Software oder stundenlange Vorbereitung.",
-      "description2": "Unsere Generatoren verbinden forschungsbasierte Pädagogik mit ansprechendem Design und machen es einfach, druckfertige Materialien zu erstellen, die junge Lernende von der Vorschule bis zur 3. Klasse begeistern."
+      "description": "LessonCraftStudio wurde entwickelt, um Etsy-Verkäufern, KDP-Publishern und Printable-Unternehmern zu helfen, professionelle Arbeitsblätter sofort zu erstellen — ohne Designkenntnisse, teure Software oder stundenlange Vorbereitung.",
+      "description2": "Unsere 33 Generatoren erstellen druckfertige PDFs in 300 DPI mit Antwortschlüsseln, 3.000+ thematischen Bildern und 11 Sprachen — alles mit kommerzieller Lizenz zum Verkauf auf jeder Plattform."
     },
     "methodology": {
       "title": "Unser Ansatz",
@@ -1138,8 +1138,8 @@
         "description": "Wählen Sie ein Thema, passen Sie die Einstellungen an und erstellen Sie in Sekunden ein druckfertiges Arbeitsblatt. Keine Designkenntnisse erforderlich."
       },
       "research": {
-        "title": "Forschungsbasiert",
-        "description": "Jeder Generator basiert auf bewährten pädagogischen Methoden für die frühkindliche Entwicklung — Mathematik, Lesen, Motorik und kognitive Fähigkeiten."
+        "title": "Professionelle Qualität",
+        "description": "Jeder Generator erstellt verkaufsfertige PDFs in 300 DPI mit Antwortschlüsseln — perfekt für Etsy-Shops, KDP-Bücher und digitale Downloads."
       },
       "inclusive": {
         "title": "Mehrsprachig & Inklusiv",
@@ -1149,16 +1149,16 @@
     "audience": {
       "title": "Für wen wir da sind",
       "teachers": {
-        "title": "Lehrkräfte",
-        "description": "Erstellen Sie in Sekunden differenzierte Arbeitsblätter für Ihren Unterricht. Unterstützen Sie vielfältige Lernende mit Materialien in ihrer Muttersprache."
+        "title": "Etsy- & KDP-Verkäufer",
+        "description": "Bauen Sie schnell einen Katalog druckbarer Produkte auf. Erstellen Sie einzigartige, thematische Arbeitsblätter und Rätselbücher, die sich auf dem Marktplatz abheben."
       },
       "parents": {
-        "title": "Eltern",
-        "description": "Bieten Sie Ihrem Kind ansprechende Übungen zu Hause mit professionellen Arbeitsblättern, die auf seine Interessen und sein Niveau zugeschnitten sind."
+        "title": "Persönliche Nutzung",
+        "description": "Erstellen Sie Arbeitsblätter für Homeschooling oder persönliche Projekte in Sekunden. Kostenlos testen mit Wasserzeichen — keine Anmeldung erforderlich."
       },
       "therapists": {
-        "title": "Therapeuten & Sonderpädagogen",
-        "description": "Erstellen Sie gezieltes Material für Sprachtherapie, Ergotherapie und Sonderpädagogik — individuell auf jeden Schüler abgestimmt."
+        "title": "Content-Ersteller & Verleger",
+        "description": "Produzieren Sie professionelle Printable-Inhalte im großen Maßstab. 33 Generatoren, 104 Themen, 11 Sprachen — erstellen Sie Hunderte einzigartiger Produkte auf einer Plattform."
       }
     },
     "cta": {

@@ -14,7 +14,7 @@ export async function GET(request: NextRequest) {
         title: 'Word Search Generator',
         metaTags: {
           title: 'Word Search Puzzle Generator - Create Custom Word Searches',
-          description: 'Create custom word search puzzles for education and fun. Perfect for teachers and parents.',
+          description: 'Create custom word search puzzles to sell on Etsy and Amazon KDP. Commercial license included.',
           keywords: ['word search', 'puzzle generator', 'educational games'],
           canonical: 'https://www.lessoncraftstudio.com/en/apps/word-search',
           ogTitle: 'Word Search Puzzle Generator',
@@ -51,12 +51,12 @@ export async function GET(request: NextRequest) {
         url: '/en/pricing',
         title: 'Pricing Plans',
         metaTags: {
-          title: 'Pricing - Affordable Plans for Educators | LessonCraftStudio',
-          description: 'Choose the perfect plan for your educational needs. Free trial available.',
-          keywords: ['pricing', 'subscription', 'educational software pricing'],
+          title: 'Pricing - Professional Printable Generators | LessonCraftStudio',
+          description: 'Try all 33 generators free with watermark. One-time purchase, commercial license included. Sell on Etsy, KDP & more.',
+          keywords: ['pricing', 'commercial license', 'printable generator pricing'],
           canonical: 'https://www.lessoncraftstudio.com/en/pricing',
           ogTitle: 'LessonCraftStudio Pricing',
-          ogDescription: 'Affordable plans for educators and parents',
+          ogDescription: 'One-time purchase, commercial license included for printable sellers',
           ogImage: 'https://www.lessoncraftstudio.com/images/pricing-og.png',
           ogUrl: 'https://www.lessoncraftstudio.com/en/pricing'
         },

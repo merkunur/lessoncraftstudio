@@ -14,12 +14,12 @@ const content: ToolContent = {
       'instant picture sudoku maker',
       'try before you buy logic tools',
     ],
-    titleTag: 'Free Picture Sudoku Maker for Kids | LCS',
+    titleTag: 'Free Picture Sudoku Maker Online | LCS',
     metaDescription: 'Make picture sudoku free online with watermark — no signup. 4x4 image grids, 3 difficulty levels, auto answer keys. Upgrade for commercial license to sell.',
   },
 
   hero: {
-    title: 'Make Picture Sudoku for Kids Free Online — No Signup',
+    title: 'Make Picture Sudoku Free Online — No Signup',
     tagline: '4×4 image-based sudoku puzzle generator with three difficulty levels (Easy 4 blanks, Medium 6 blanks, Hard 8 blanks), auto-generated answer keys showing complete filled grids, theme-based and manual image selection across 104 collections with 3,100+ illustrations, premium grid design with alternating block colors and multi-layered shadows, and purely visual puzzles that sell worldwide without translation',
     description: 'Create 4x4 picture sudoku puzzles right now — free, instant, no account required. Each puzzle uses four themed images that must appear once in every row and column — the same rules as classic sudoku, but with colorful illustrations instead of numbers. Three difficulty levels remove 4 to 8 cells for progressive challenge. Choose from 104 themed collections with 3,000+ images. Every feature is unlocked in the free trial including automatic answer keys and 300 DPI export. Downloads include a small watermark. Want to sell sudoku puzzles on Etsy or compile logic puzzle books for Amazon KDP? Upgrade to a commercial license to remove the watermark and sell with full rights.',
   },

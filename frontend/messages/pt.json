@@ -27,7 +27,7 @@
   "homepage": {
     "hero": {
       "title": "Crie fichas de trabalho incríveis em minutos",
-      "subtitle": "Geradores profissionais de fichas de trabalho para professores e pais. Acesse 33 aplicações interativas com belas ilustrações.",
+      "subtitle": "33 geradores profissionais de imprimíveis para vendedores Etsy, editores KDP e empreendedores. Licença comercial incluída.",
       "cta": {
         "tryFree": "Experimente o caça-palavras grátis",
         "viewApps": "Ver todos os geradores"
@@ -156,7 +156,7 @@
     "subtitle": "Escolha entre 33 geradores profissionais",
     "search": "Pesquisar geradores...",
     "heroTitle": "33 geradores de fichas educativas",
-    "heroSubtitle": "Transforme os seus materiais pedagógicos com a nossa suite completa de geradores de fichas educativas. Desde sopas de letras até enigmas matemáticos, temos tudo o que precisa.",
+    "heroSubtitle": "33 geradores profissionais de imprimíveis para vendedores Etsy e editores KDP. Crie caça-palavras, fichas de matemática, páginas para colorir e mais — licença comercial incluída.",
     "categories": {
       "all": "Todos os geradores",
       "math": "Matemática",
@@ -359,7 +359,7 @@
   },
   "contact": {
     "title": "Entre em contato",
-    "subtitle": "Que legal que você quer falar com a gente! Manda sua mensagem que respondemos rapidinho. Adoramos conectar com educadores como você!",
+    "subtitle": "Que legal que você quer falar com a gente! Manda sua mensagem que respondemos rapidinho. Adoramos conectar com empreendedores como você!",
     "getInTouch": "Entre em contato",
     "name": "Nome",
     "email": "E-mail",
@@ -531,7 +531,7 @@
     },
     "children": {
       "title": "11. MENORES",
-      "content": "Serviço para educadores/pais. Sem coleta de dados de menores de 16 anos."
+      "content": "Serviço para empreendedores e uso pessoal. Sem coleta de dados de menores de 16 anos."
     },
     "international": {
       "title": "12. TRANSFERÊNCIAS INTERNACIONAIS",
@@ -702,7 +702,7 @@
         ]
       },
       "core": {
-        "description": "Ideal para o dia a dia em sala de aula",
+        "description": "Ideal para construir seu negócio de imprimíveis",
         "features": [
           "Os 10 geradores mais populares",
           "Atividades ilimitadas",
@@ -946,7 +946,7 @@
       },
       "CORE": {
         "name": "Pacote Essencial",
-        "description": "Ideal para o dia a dia em sala de aula",
+        "description": "Ideal para construir seu negócio de imprimíveis",
         "features": [
           "Acesso a 10 geradores populares",
           "Atividades ilimitadas",
@@ -1039,11 +1039,11 @@
     "loadError": "Não foi possível carregar suas solicitações. Por favor, atualize a página."
   },
   "about": {
-    "metaTitle": "Sobre o LessonCraftStudio | Geradores de Atividades Educativas",
-    "metaDescription": "Conheça o LessonCraftStudio — 33 geradores de atividades profissionais em 11 idiomas com mais de 3.000 imagens temáticas para professores, pais e terapeutas.",
+    "metaTitle": "Sobre o LessonCraftStudio | Geradores Profissionais de Imprimíveis",
+    "metaDescription": "Conheça o LessonCraftStudio — 33 geradores profissionais de imprimíveis para vendedores Etsy, editores Amazon KDP e empreendedores de imprimíveis. 11 idiomas, 3.000+ imagens, licença comercial incluída.",
     "hero": {
       "title": "Sobre o LessonCraftStudio",
-      "subtitle": "Capacitando educadores em todo o mundo com geradores de atividades profissionais"
+      "subtitle": "Geradores profissionais de imprimíveis para vendedores Etsy e editores KDP no mundo todo"
     },
     "stats": {
       "generators": "33",
@@ -1057,8 +1057,8 @@
     },
     "mission": {
       "title": "Nossa missão",
-      "description": "Acreditamos que toda criança merece acesso a materiais educacionais de alta qualidade. O LessonCraftStudio foi criado para ajudar professores, pais e terapeutas a gerar atividades profissionais instantaneamente — sem habilidades de design, software caro ou horas de preparação.",
-      "description2": "Nossos geradores combinam pedagogia baseada em pesquisa com design atraente, facilitando a criação de materiais prontos para imprimir que engajam jovens aprendizes da pré-escola ao 3º ano."
+      "description": "LessonCraftStudio foi criado para ajudar vendedores Etsy, editores KDP e empreendedores de imprimíveis a gerar fichas profissionais instantaneamente — sem habilidades de design, software caro ou horas de preparação.",
+      "description2": "Nossos 33 geradores criam PDFs prontos para impressão em 300 DPI com gabaritos, 3.000+ imagens temáticas e 11 idiomas — tudo com licença comercial para vender em qualquer plataforma."
     },
     "methodology": {
       "title": "Nossa abordagem",
@@ -1067,8 +1067,8 @@
         "description": "Escolha um tema, personalize as configurações e gere uma atividade pronta para imprimir em segundos. Nenhuma habilidade de design necessária."
       },
       "research": {
-        "title": "Baseado em pesquisa",
-        "description": "Cada gerador é construído com métodos educacionais comprovados para o desenvolvimento infantil — matemática, leitura, habilidades motoras e desenvolvimento cognitivo."
+        "title": "Qualidade profissional",
+        "description": "Cada gerador cria PDFs prontos para venda em 300 DPI com gabaritos — perfeitos para lojas Etsy, livros KDP e downloads digitais."
       },
       "inclusive": {
         "title": "Multilingual e inclusivo",
@@ -1078,16 +1078,16 @@
     "audience": {
       "title": "Para quem servimos",
       "teachers": {
-        "title": "Professores",
-        "description": "Crie atividades diferenciadas para sua sala de aula em segundos. Apoie alunos diversos com materiais em seu idioma nativo."
+        "title": "Vendedores Etsy e KDP",
+        "description": "Crie rapidamente um catálogo de produtos imprimíveis. Gere fichas temáticas únicas que se destaquem no mercado."
       },
       "parents": {
-        "title": "Pais",
-        "description": "Ofereça ao seu filho práticas envolventes em casa com atividades de qualidade profissional adaptadas aos seus interesses e nível."
+        "title": "Uso pessoal",
+        "description": "Crie fichas para educação domiciliar ou projetos pessoais em segundos. Teste grátis com marca d'água — sem cadastro."
       },
       "therapists": {
-        "title": "Terapeutas e educadores especiais",
-        "description": "Gere materiais direcionados para fonoaudiologia, terapia ocupacional e educação especial — personalizados para cada aluno."
+        "title": "Criadores de conteúdo e editores",
+        "description": "Produza conteúdo imprimível profissional em escala. 33 geradores, 104 temas, 11 idiomas — crie centenas de produtos únicos em uma única plataforma."
       }
     },
     "cta": {

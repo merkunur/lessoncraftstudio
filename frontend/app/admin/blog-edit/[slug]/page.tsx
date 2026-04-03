@@ -33,14 +33,14 @@ export default function EditBlogPost() {
       setLoading(true);
       // For now, just set some default data
       setBlogPost({
-        title: 'Math worksheet generator for kindergarten',
+        title: 'Math Worksheet Generator for Etsy Sellers',
         content: 'This is where the blog content would go...',
-        excerpt: 'Generate fun and interesting math worksheets for kindergarten.',
+        excerpt: 'Create professional math worksheets to sell on Etsy and Amazon KDP.',
         category: 'worksheet-tips',
         author: 'LessonCraftStudio Team',
-        metaTitle: 'Math worksheet generator for kindergarten',
-        metaDescription: 'Generate fun and interesting math worksheets for kindergarten.',
-        keywords: 'worksheet,education,kindergarten,math',
+        metaTitle: 'Math Worksheet Generator for Etsy Sellers',
+        metaDescription: 'Create professional math worksheets to sell on Etsy and Amazon KDP.',
+        keywords: 'worksheet,printable,Etsy,KDP,math',
       });
     } catch (error) {
       console.error('Error fetching blog post:', error);

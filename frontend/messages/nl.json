@@ -27,14 +27,14 @@
   "homepage": {
     "hero": {
       "title": "Maak indrukwekkende werkbladen in enkele minuten",
-      "subtitle": "Professionele werkbladgenerators voor leerkrachten en ouders. Toegang tot 33 interactieve applicaties met prachtige illustraties.",
+      "subtitle": "33 professionele printable-generatoren voor Etsy-verkopers, KDP-uitgevers en ondernemers. Commerciële licentie inbegrepen.",
       "cta": {
         "tryFree": "Probeer woordzoeker gratis",
         "viewApps": "Bekijk alle generators"
       }
     },
     "features": {
-      "title": "Alles wat je nodig hebt voor kwalitatief lesmateriaal",
+      "title": "Alles wat je nodig hebt voor professionele printables",
       "items": {
         "apps": {
           "title": "33 werkbladgenerators",
@@ -156,7 +156,7 @@
     "subtitle": "Kies uit 33 professionele werkbladgenerators",
     "search": "Zoek generators...",
     "heroTitle": "33 werkbladgeneratoren",
-    "heroSubtitle": "Transformeer je lesmateriaal met ons complete pakket werkbladgeneratoren. Van woordzoekers tot rekenraadsels, wij hebben alles wat je nodig hebt.",
+    "heroSubtitle": "33 professionele printable-generatoren voor Etsy-verkopers en KDP-uitgevers. Maak woordzoekers, rekenbladen, kleurplaten en meer — commerciële licentie inbegrepen.",
     "categories": {
       "all": "Alle generators",
       "math": "Rekenen",
@@ -531,7 +531,7 @@
     },
     "children": {
       "title": "11. KINDEREN",
-      "content": "Dienst voor docenten/ouders. Geen verzameling bij kinderen onder 16."
+      "content": "Dienst voor ondernemers en persoonlijk gebruik. Geen verzameling bij kinderen onder 16."
     },
     "international": {
       "title": "12. INTERNATIONALE DOORGIFTEN",
@@ -702,7 +702,7 @@
         ]
       },
       "core": {
-        "description": "Ideaal voor dagelijks gebruik in de klas",
+        "description": "Ideaal voor het opbouwen van uw printable-bedrijf",
         "features": [
           "De 10 meest populaire generatoren",
           "Onbeperkt werkbladen maken",
@@ -946,7 +946,7 @@
       },
       "CORE": {
         "name": "Basispakket",
-        "description": "Ideaal voor dagelijks gebruik in de klas",
+        "description": "Ideaal voor het opbouwen van uw printable-bedrijf",
         "features": [
           "Toegang tot 10 populaire werkbladgeneratoren",
           "Onbeperkt werkbladen maken",
@@ -1026,11 +1026,11 @@
     }
   },
   "about": {
-    "metaTitle": "Over LessonCraftStudio | Educatieve Werkblad-Generatoren",
-    "metaDescription": "Leer meer over LessonCraftStudio — 33 professionele werkblad-generatoren in 11 talen met meer dan 3.000 thematische afbeeldingen voor leraren, ouders en therapeuten.",
+    "metaTitle": "Over LessonCraftStudio | Professionele Printable-Generatoren",
+    "metaDescription": "Leer meer over LessonCraftStudio — 33 professionele printable-generatoren voor Etsy-verkopers, Amazon KDP-uitgevers en printable-ondernemers. 11 talen, 3.000+ afbeeldingen, commerciële licentie inbegrepen.",
     "hero": {
       "title": "Over LessonCraftStudio",
-      "subtitle": "Wereldwijd docenten ondersteunen met professionele werkblad-generatoren"
+      "subtitle": "Professionele printable-generatoren voor Etsy-verkopers en KDP-uitgevers wereldwijd"
     },
     "stats": {
       "generators": "33",
@@ -1044,8 +1044,8 @@
     },
     "mission": {
       "title": "Onze missie",
-      "description": "Wij geloven dat elk kind toegang verdient tot hoogwaardig lesmateriaal. LessonCraftStudio is gebouwd om leraren, ouders en therapeuten te helpen direct professionele werkbladen te maken — zonder designvaardigheden, dure software of uren voorbereiding.",
-      "description2": "Onze generatoren combineren op onderzoek gebaseerde pedagogiek met mooi design, waardoor het eenvoudig is drukklare materialen te maken die jonge leerlingen van kleuterschool tot groep 5 aanspreken."
+      "description": "LessonCraftStudio is gebouwd om Etsy-verkopers, KDP-uitgevers en printable-ondernemers te helpen direct professionele werkbladen te maken — zonder designvaardigheden, dure software of uren voorbereiding.",
+      "description2": "Onze 33 generatoren maken drukklare PDF's in 300 DPI met antwoordsleutels, 3.000+ thematische afbeeldingen en 11 talen — alles met commerciële licentie om op elk platform te verkopen."
     },
     "methodology": {
       "title": "Onze aanpak",
@@ -1054,8 +1054,8 @@
         "description": "Kies een thema, pas de instellingen aan en genereer in enkele seconden een drukklaar werkblad. Geen designvaardigheden nodig."
       },
       "research": {
-        "title": "Op onderzoek gebaseerd",
-        "description": "Elke generator is gebaseerd op bewezen educatieve methoden voor de vroege ontwikkeling — rekenen, lezen, motoriek en cognitieve ontwikkeling."
+        "title": "Professionele kwaliteit",
+        "description": "Elke generator maakt verkoopklare PDF's in 300 DPI met antwoordsleutels — perfect voor Etsy-winkels, KDP-boeken en digitale downloads."
       },
       "inclusive": {
         "title": "Meertalig & inclusief",
@@ -1065,16 +1065,16 @@
     "audience": {
       "title": "Voor wie",
       "teachers": {
-        "title": "Leraren",
-        "description": "Maak in seconden gedifferentieerde werkbladen voor uw klas. Ondersteun diverse leerlingen met materiaal in hun moedertaal."
+        "title": "Etsy- en KDP-verkopers",
+        "description": "Bouw snel een catalogus van printable producten op. Genereer unieke thematische werkbladen die opvallen op de markt."
       },
       "parents": {
-        "title": "Ouders",
-        "description": "Geef uw kind boeiende oefeningen thuis met professionele werkbladen afgestemd op zijn interesses en niveau."
+        "title": "Persoonlijk gebruik",
+        "description": "Maak werkbladen voor thuisonderwijs of persoonlijke projecten in seconden. Gratis uitproberen met watermerk — zonder registratie."
       },
       "therapists": {
-        "title": "Therapeuten & speciale educatie",
-        "description": "Genereer gericht materiaal voor logopedie, ergotherapie en speciaal onderwijs — aangepast aan elke leerling."
+        "title": "Contentmakers en uitgevers",
+        "description": "Produceer professionele printbare content op schaal. 33 generatoren, 104 thema's, 11 talen — maak honderden unieke producten op een enkel platform."
       }
     },
     "cta": {

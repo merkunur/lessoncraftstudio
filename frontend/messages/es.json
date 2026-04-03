@@ -27,7 +27,7 @@
   "homepage": {
     "hero": {
       "title": "Crea hojas de trabajo impresionantes en minutos",
-      "subtitle": "Generadores profesionales de hojas de trabajo para profesores y padres. Accede a 33 aplicaciones interactivas con hermosas ilustraciones.",
+      "subtitle": "33 generadores profesionales de imprimibles para vendedores de Etsy, editores KDP y emprendedores. Licencia comercial incluida.",
       "cta": {
         "tryFree": "Prueba la sopa de letras gratis",
         "viewApps": "Ver todos los generadores"
@@ -156,7 +156,7 @@
     "subtitle": "Elige entre 33 generadores profesionales",
     "search": "Buscar generadores...",
     "heroTitle": "33 aplicaciones generadoras de fichas",
-    "heroSubtitle": "Transforma tus materiales didácticos con nuestra completa suite de generadores de fichas educativas. Desde sopas de letras hasta acertijos matemáticos, tenemos todo lo que necesitas.",
+    "heroSubtitle": "33 generadores profesionales de imprimibles para vendedores Etsy y editores KDP. Cree sopas de letras, fichas de matemáticas, páginas para colorear y más — licencia comercial incluida.",
     "categories": {
       "all": "Todos los generadores",
       "math": "Matemáticas",
@@ -702,7 +702,7 @@
         ]
       },
       "core": {
-        "description": "Ideal para el día a día en el aula",
+        "description": "Ideal para construir tu negocio de imprimibles",
         "features": [
           "Los 10 generadores más populares",
           "Fichas ilimitadas",
@@ -946,7 +946,7 @@
       },
       "CORE": {
         "name": "Paquete Esencial",
-        "description": "Ideal para el día a día en el aula",
+        "description": "Ideal para construir tu negocio de imprimibles",
         "features": [
           "Acceso a 10 generadores populares",
           "Fichas ilimitadas",
@@ -1057,8 +1057,8 @@
     },
     "mission": {
       "title": "Nuestra misión",
-      "description": "Creemos que cada niño merece acceso a materiales educativos de alta calidad. LessonCraftStudio fue creado para ayudar a maestros, padres y terapeutas a generar fichas profesionales al instante — sin habilidades de diseño, software costoso ni horas de preparación.",
-      "description2": "Nuestros generadores combinan pedagogía basada en investigación con un diseño atractivo, facilitando la creación de materiales listos para imprimir que motivan a los pequeños estudiantes desde preescolar hasta tercer grado."
+      "description": "LessonCraftStudio fue creado para ayudar a vendedores de Etsy, editores KDP y emprendedores de imprimibles a generar fichas profesionales al instante — sin habilidades de diseño, software costoso ni horas de preparación.",
+      "description2": "Nuestros 33 generadores crean PDFs listos para imprimir en 300 DPI con claves de respuesta, 3.000+ imágenes temáticas y 11 idiomas — todo con licencia comercial para vender en cualquier plataforma."
     },
     "methodology": {
       "title": "Nuestro enfoque",
@@ -1067,8 +1067,8 @@
         "description": "Seleccione un tema, personalice los ajustes y genere una ficha lista para imprimir en segundos. No se requieren habilidades de diseño."
       },
       "research": {
-        "title": "Basado en investigación",
-        "description": "Cada generador se basa en métodos educativos comprobados para el desarrollo infantil temprano — matemáticas, lectura, motricidad y desarrollo cognitivo."
+        "title": "Calidad profesional",
+        "description": "Cada generador crea PDFs listos para vender en 300 DPI con claves de respuesta — perfectos para tiendas Etsy, libros KDP y descargas digitales."
       },
       "inclusive": {
         "title": "Multilingüe e inclusivo",
@@ -1078,16 +1078,16 @@
     "audience": {
       "title": "¿A quién servimos?",
       "teachers": {
-        "title": "Maestros",
-        "description": "Cree fichas diferenciadas para su aula en segundos. Apoye a estudiantes diversos con materiales en su idioma materno."
+        "title": "Vendedores Etsy y KDP",
+        "description": "Cree rápidamente un catálogo de productos imprimibles. Genere fichas temáticas únicas que destaquen en el mercado."
       },
       "parents": {
-        "title": "Padres",
-        "description": "Ofrezca a su hijo prácticas atractivas en casa con fichas de calidad profesional adaptadas a sus intereses y nivel."
+        "title": "Uso personal",
+        "description": "Cree fichas para educación en casa o proyectos personales en segundos. Prueba gratuita con marca de agua — sin registro."
       },
       "therapists": {
-        "title": "Terapeutas y educadores especiales",
-        "description": "Genere materiales dirigidos para terapia del habla, terapia ocupacional y educación especial — personalizados para cada estudiante."
+        "title": "Creadores de contenido y editores",
+        "description": "Produzca contenido imprimible profesional a gran escala. 33 generadores, 104 temas, 11 idiomas — cree cientos de productos únicos en una sola plataforma."
       }
     },
     "cta": {

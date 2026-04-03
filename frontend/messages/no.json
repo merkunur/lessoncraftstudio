@@ -27,7 +27,7 @@
   "homepage": {
     "hero": {
       "title": "Lag fantastiske arbeidsark på få minutter",
-      "subtitle": "Profesjonelle arbeidsarkgeneratorer for lærere og foreldre. Få tilgang til 33 interaktive applikasjoner med vakre illustrasjoner.",
+      "subtitle": "33 profesjonelle printable-generatorer for Etsy-selgere, KDP-utgivere og gründere. Kommersiell lisens inkludert.",
       "cta": {
         "tryFree": "Prøv ordsøk gratis",
         "viewApps": "Se alle generatorer"
@@ -156,7 +156,7 @@
     "subtitle": "Velg blant 33 profesjonelle arbeidsarkgeneratorer",
     "search": "Søk generatorer...",
     "heroTitle": "33 oppgavearkgeneratorer",
-    "heroSubtitle": "Forvandle undervisningsmaterialene dine med vårt komplette utvalg av pedagogiske oppgavearkgeneratorer. Fra ordsøking til matematiske gåter har vi alt du trenger.",
+    "heroSubtitle": "33 profesjonelle printable-generatorer for Etsy-selgere og KDP-utgivere. Lag ordsok, matteoppgaver, fargeleggingsbilder og mer — kommersiell lisens inkludert.",
     "categories": {
       "all": "Alle generatorer",
       "math": "Matematikk",
@@ -696,7 +696,7 @@
         ]
       },
       "core": {
-        "description": "Ideell for daglig bruk i klasserommet",
+        "description": "Ideell for å bygge din printable-virksomhet",
         "features": [
           "De 10 mest populære generatorene",
           "Ubegrenset antall oppgaveark",
@@ -940,7 +940,7 @@
       },
       "CORE": {
         "name": "Standard",
-        "description": "Ideell for daglig bruk i klasserommet",
+        "description": "Ideell for å bygge en printable-produktlinje",
         "features": [
           "Tilgang til 10 populære generatorer",
           "Ubegrenset antall oppgaveark",
@@ -1020,11 +1020,11 @@
     }
   },
   "about": {
-    "metaTitle": "Om LessonCraftStudio | Pedagogiske Arbeidsark-Generatorer",
-    "metaDescription": "Lær mer om LessonCraftStudio — 33 profesjonelle arbeidsark-generatorer på 11 språk med over 3 000 tematiske bilder for lærere, foreldre og terapeuter.",
+    "metaTitle": "Om LessonCraftStudio | Profesjonelle Printable-Generatorer",
+    "metaDescription": "Lær mer om LessonCraftStudio — 33 profesjonelle printable-generatorer for Etsy-selgere, Amazon KDP-utgivere og printable-gründere. 11 språk, 3 000+ bilder, kommersiell lisens inkludert.",
     "hero": {
       "title": "Om LessonCraftStudio",
-      "subtitle": "Støtter pedagoger verden over med profesjonelle arbeidsark-generatorer"
+      "subtitle": "Profesjonelle printable-generatorer for Etsy-selgere, KDP-utgivere og gründere"
     },
     "stats": {
       "generators": "33",
@@ -1038,8 +1038,8 @@
     },
     "mission": {
       "title": "Vårt oppdrag",
-      "description": "Vi tror at hvert barn fortjener tilgang til undervisningsmateriell av høy kvalitet. LessonCraftStudio ble skapt for å hjelpe lærere, foreldre og terapeuter med å lage profesjonelle arbeidsark umiddelbart — uten designferdigheter, dyr programvare eller timevis med forberedelse.",
-      "description2": "Våre generatorer kombinerer forskningsbasert pedagogikk med vakker design, og gjør det enkelt å lage utskriftsklare materialer som engasjerer unge elever fra barnehage til 3. klasse."
+      "description": "LessonCraftStudio ble skapt for å hjelpe Etsy-selgere, KDP-utgivere og printable-gründere med å lage profesjonelle arbeidsark umiddelbart — uten designferdigheter, dyr programvare eller timevis med forberedelse.",
+      "description2": "Våre 33 generatorer lager utskriftsklare PDF-filer i 300 DPI med svarark, 3 000+ temabilder og 11 språk — alt med kommersiell lisens for salg på alle plattformer."
     },
     "methodology": {
       "title": "Vår tilnærming",
@@ -1048,8 +1048,8 @@
         "description": "Velg et tema, tilpass innstillingene og generer et utskriftsklart arbeidsark på sekunder. Ingen designferdigheter nødvendig."
       },
       "research": {
-        "title": "Forskningsbasert",
-        "description": "Hver generator er bygget på dokumenterte pedagogiske metoder for tidlig barndomsutvikling — matematikk, lesing, motorikk og kognitiv utvikling."
+        "title": "Profesjonell kvalitet",
+        "description": "Hver generator produserer salgsklare PDF-filer i 300 DPI med automatiske svarnøkler, KDP-optimert formatering og gråtonemodus for kostnadseffektiv utskrift."
       },
       "inclusive": {
         "title": "Flerspråklig & inkluderende",
@@ -1059,16 +1059,16 @@
     "audience": {
       "title": "Hvem vi tjener",
       "teachers": {
-        "title": "Lærere",
-        "description": "Lag differensierte arbeidsark for klasserommet ditt på sekunder. Støtt ulike elever med materialer på deres morsmål."
+        "title": "Etsy- og KDP-selgere",
+        "description": "Bygg raskt opp en katalog av utskrivbare produkter. Lag unike, tematiske arbeidsark som skiller seg ut i markedet."
       },
       "parents": {
-        "title": "Foreldre",
-        "description": "Gi barnet ditt engasjerende øvelser hjemme med profesjonelle arbeidsark tilpasset deres interesser og nivå."
+        "title": "Personlig bruk",
+        "description": "Lag tilpassede arbeidsark for barna dine hjemme — velg blant 100+ temaer og 11 språk for engasjerende læring."
       },
       "therapists": {
-        "title": "Terapeuter & spesialpedagoger",
-        "description": "Generer målrettet materiell for logopedi, ergoterapi og spesialundervisning — tilpasset hver enkelt elev."
+        "title": "Innholdsskapere og utgivere",
+        "description": "Produser profesjonelle arbeidsbøker og aktivitetshefter for Amazon KDP, Gumroad eller din egen nettbutikk — med kommersiell lisens."
       }
     },
     "cta": {

@@ -183,7 +183,7 @@ export async function generateMetadata({ params }: PageProps) {
   };
 
   const title = titles[pageName]?.[locale] || `${pageName} - LessonCraftStudio`;
-  const description = descriptions[pageName]?.[locale] || 'Professional worksheet generators with 100+ themed images for educators and publishers';
+  const description = descriptions[pageName]?.[locale] || 'Professional printable generators for Etsy sellers, KDP publishers, and printable entrepreneurs. Commercial license included.';
 
   // If page is not in known pages list, add noindex to prevent search engine indexing
   if (!knownPages.includes(pageName)) {

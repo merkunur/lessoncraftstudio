@@ -27,7 +27,7 @@
   "homepage": {
     "hero": {
       "title": "Luo upeita työarkkeja muutamassa minuutissa",
-      "subtitle": "Ammattimaisia työarkkigeneraattoreita opettajille ja vanhemmille. Saat käyttöösi 33 interaktiivista sovellusta kauniilla kuvituksilla.",
+      "subtitle": "33 ammattimaista printable-generaattoria Etsy-myyjille, KDP-julkaisijoille ja yrittäjille. Kaupallinen lisenssi sisältyy.",
       "cta": {
         "tryFree": "Kokeile sananhakua ilmaiseksi",
         "viewApps": "Näytä kaikki generaattorit"
@@ -156,7 +156,7 @@
     "subtitle": "Valitse 33 ammattimaisesta tehtävämonistegeneraattorista",
     "search": "Hae generaattoreita...",
     "heroTitle": "33 tehtävämonistegeneraattoria",
-    "heroSubtitle": "Muuta opetusmateriaalisi täydellisellä valikoimalla pedagogisia tehtävämonistegeneraattoreita. Sanaristikoista matemaattisiin pulmiin, meillä on kaikki mitä tarvitset.",
+    "heroSubtitle": "33 ammattimaista tulostettavien generaattoria Etsy-myyjille ja KDP-julkaisijoille. Luo sanaristikkoja, matikkatehtäviä, värityskuvia ja muuta — kaupallinen lisenssi sisältyy.",
     "categories": {
       "all": "Kaikki generaattorit",
       "math": "Matematiikka",
@@ -689,7 +689,7 @@
         ]
       },
       "core": {
-        "description": "Ihanteellinen päivittäiseen käyttöön luokassa",
+        "description": "Ihanteellinen printable-liiketoiminnan rakentamiseen",
         "features": [
           "10 suosituinta generaattoria",
           "Rajaton määrä tehtävämonisteja",
@@ -925,7 +925,7 @@
       },
       "CORE": {
         "name": "Perus",
-        "description": "Ihanteellinen päivittäiseen käyttöön luokassa",
+        "description": "Ihanteellinen printable-tuotelinjan rakentamiseen",
         "features": [
           "Pääsy 10 suosituimpaan generaattoriin",
           "Rajaton määrä tehtävämonisteja",
@@ -1005,11 +1005,11 @@
     }
   },
   "about": {
-    "metaTitle": "Tietoa LessonCraftStudiosta | Työarkki-Generaattorit",
-    "metaDescription": "Tutustu LessonCraftStudioon — 33 työarkki-generaattoria 11 kielellä ja 3 000+ teemakuvaa. Ilmaisia opetusresursseja opettajille, vanhemmille ja terapeuteille.",
+    "metaTitle": "Tietoa LessonCraftStudiosta | Ammattimaiset Printable-Generaattorit",
+    "metaDescription": "Tutustu LessonCraftStudioon — 33 ammattimaista printable-generaattoria Etsy-myyjille, Amazon KDP-julkaisijoille ja printable-yrittäjille. 11 kieltä, 3 000+ kuvaa, kaupallinen lisenssi sisältyy.",
     "hero": {
       "title": "Tietoa LessonCraftStudiosta",
-      "subtitle": "Tuemme opettajia ympäri maailmaa ammattimaisilla työarkki-generaattoreilla"
+      "subtitle": "Ammattimaiset printable-generaattorit Etsy-myyjille, KDP-julkaisijoille ja yrittäjille"
     },
     "stats": {
       "generators": "33",
@@ -1023,8 +1023,8 @@
     },
     "mission": {
       "title": "Tehtävämme",
-      "description": "Uskomme, että jokaisella lapsella on oikeus laadukkaaseen oppimateriaaliin. LessonCraftStudio luotiin auttamaan opettajia, vanhempia ja terapeutteja luomaan ammattimaisia työarkkeja välittömästi — ilman suunnittelutaitoja, kallista ohjelmistoa tai tuntien valmistelutyötä.",
-      "description2": "Generaattorimme yhdistävät tutkimukseen perustuvan pedagogiikan kauniiseen muotoiluun, mikä tekee tulostusvalmiiden materiaalien luomisesta helppoa esikoulusta 3. luokkaan."
+      "description": "LessonCraftStudio luotiin auttamaan Etsy-myyjiä, KDP-julkaisijoita ja printable-yrittäjiä luomaan ammattimaisia työarkkeja välittömästi — ilman suunnittelutaitoja, kallista ohjelmistoa tai tuntien valmistelutyötä.",
+      "description2": "33 generaattoriamme luovat tulostusvalmiita PDF-tiedostoja 300 DPI:llä vastausavaimineen, 3 000+ teemakuvaa ja 11 kieltä — kaikki kaupallisella lisenssillä myyntiin kaikilla alustoilla."
     },
     "methodology": {
       "title": "Lähestymistapamme",
@@ -1033,8 +1033,8 @@
         "description": "Valitse teema, muokkaa asetuksia ja luo tulostusvalmis työarkki sekunneissa. Suunnittelutaitoja ei tarvita."
       },
       "research": {
-        "title": "Tutkimukseen perustuva",
-        "description": "Jokainen generaattori perustuu hyväksi havaittuihin opetusmenetelmään varhaiskasvatuksessa — matematiikka, lukeminen, motoriikka ja kognitiivinen kehitys."
+        "title": "Ammattilainen laatu",
+        "description": "Jokainen generaattori tuottaa myyntivalmiita PDF-tiedostoja 300 DPI:llä automaattisilla vastausavaimilla, KDP-optimoidulla muotoilulla ja harmaasävytilalla kustannustehokkaaseen tulostukseen."
       },
       "inclusive": {
         "title": "Monikielinen ja inklusiivinen",
@@ -1044,16 +1044,16 @@
     "audience": {
       "title": "Kenelle palvelumme on",
       "teachers": {
-        "title": "Opettajat",
-        "description": "Luo eriytettyjä työarkkeja luokallesi sekunneissa. Tue monenlaisia oppilaita materiaaleilla heidän äidinkielellään."
+        "title": "Etsy- ja KDP-myyjät",
+        "description": "Rakenna nopeasti tulostettavien tuotteiden katalogi. Luo ainutlaatuisia, temaattisia työarkkeja, jotka erottuvat markkinoilla."
       },
       "parents": {
-        "title": "Vanhemmat",
-        "description": "Tarjoa lapsellesi innostavia harjoituksia kotona ammattimaisilla työarkkeilla, jotka on räätälöity heidän kiinnostuksiinsa ja tasoonsa."
+        "title": "Henkilökohtainen käyttö",
+        "description": "Luo räätälöityjä työarkkeja lapsillesi kotona — valitse 100+ teemasta ja 11 kielestä innostavaan oppimiseen."
       },
       "therapists": {
-        "title": "Terapeutit ja erityisopettajat",
-        "description": "Luo kohdennettuja materiaaleja puheterapiaan, toimintaterapiaan ja erityisopetukseen — räätälöitynä jokaiselle oppilaalle."
+        "title": "Sisällöntuottajat ja julkaisijat",
+        "description": "Tuota ammattimaisia työkirjoja ja aktiviteettivihkoja Amazon KDP:hen, Gumroadiin tai omaan verkkokauppaasi — kaupallisella lisenssillä."
       }
     },
     "cta": {

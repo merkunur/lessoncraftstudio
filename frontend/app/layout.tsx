@@ -26,9 +26,9 @@ const poppins = Poppins({
 
 export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_APP_URL || 'https://www.lessoncraftstudio.com'),
-  title: 'LessonCraftStudio - Professional Worksheet Generator',
-  description: '33 powerful worksheet generators with 100+ themed images for Teachers Pay Teachers sellers and educational publishers',
-  keywords: 'worksheet generator, teachers pay teachers, educational resources, printable worksheets, POD license',
+  title: 'LessonCraftStudio - Professional Printable Generators for Sellers',
+  description: '33 professional printable generators for Etsy sellers, KDP publishers, and printable entrepreneurs. Commercial license included.',
+  keywords: 'printable generator, Etsy printables, KDP worksheet generator, commercial license printables, sell worksheets online',
   icons: {
     icon: [
       { url: '/favicon.ico', sizes: '64x64', type: 'image/x-icon' },
@@ -47,8 +47,8 @@ export const metadata: Metadata = {
     'max-video-preview': -1,
   },
   openGraph: {
-    title: 'LessonCraftStudio - Professional Worksheet Generator',
-    description: '33 powerful worksheet generators with 100+ themed images for Teachers Pay Teachers sellers and educational publishers',
+    title: 'LessonCraftStudio - Professional Printable Generators for Sellers',
+    description: '33 professional printable generators for Etsy sellers, KDP publishers, and printable entrepreneurs. Commercial license included.',
     siteName: 'LessonCraftStudio',
     images: [
       {
@@ -62,8 +62,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'LessonCraftStudio - Professional Worksheet Generator',
-    description: '33 powerful worksheet generators with 100+ themed images for Teachers Pay Teachers sellers and educational publishers',
+    title: 'LessonCraftStudio - Professional Printable Generators for Sellers',
+    description: '33 professional printable generators for Etsy sellers, KDP publishers, and printable entrepreneurs. Commercial license included.',
     images: ['/opengraph-image.png'],
   },
 };

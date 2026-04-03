@@ -27,7 +27,7 @@
   "homepage": {
     "hero": {
       "title": "Crea schede didattiche straordinarie in pochi minuti",
-      "subtitle": "Generatori professionali di schede didattiche per insegnanti e genitori. Accedi a 33 applicazioni interattive con bellissime illustrazioni.",
+      "subtitle": "33 generatori professionali di stampabili per venditori Etsy, editori KDP e imprenditori. Licenza commerciale inclusa.",
       "cta": {
         "tryFree": "Prova il crucipuzzle gratis",
         "viewApps": "Vedi tutti i generatori"
@@ -156,7 +156,7 @@
     "subtitle": "Scegli tra 33 generatori professionali",
     "search": "Cerca generatori...",
     "heroTitle": "33 generatori di schede didattiche",
-    "heroSubtitle": "Trasforma i tuoi materiali didattici con la nostra suite completa di generatori di schede educative. Dal crucipuzzle agli enigmi matematici, abbiamo tutto ciò di cui hai bisogno.",
+    "heroSubtitle": "33 generatori professionali di stampabili per venditori Etsy e editori KDP. Crea crucipuzzle, schede di matematica, pagine da colorare e altro — licenza commerciale inclusa.",
     "categories": {
       "all": "Tutti i generatori",
       "math": "Matematica",
@@ -531,7 +531,7 @@
     },
     "children": {
       "title": "11. MINORI",
-      "content": "Servizio per educatori/genitori. Nessuna raccolta da minori di 16 anni."
+      "content": "Servizio per imprenditori e uso personale. Nessuna raccolta da minori di 16 anni."
     },
     "international": {
       "title": "12. TRASFERIMENTI INTERNAZIONALI",
@@ -702,7 +702,7 @@
         ]
       },
       "core": {
-        "description": "Ideale per l'uso quotidiano in classe",
+        "description": "Ideale per costruire il tuo business di stampabili",
         "features": [
           "I 10 generatori più popolari",
           "Schede illimitate",
@@ -946,7 +946,7 @@
       },
       "CORE": {
         "name": "Pacchetto Essenziale",
-        "description": "Ideale per l'uso quotidiano in classe",
+        "description": "Ideale per costruire il tuo business di stampabili",
         "features": [
           "Accesso a 10 generatori popolari",
           "Schede illimitate",
@@ -1039,11 +1039,11 @@
     "loadError": "Impossibile caricare le tue richieste. Aggiorna la pagina."
   },
   "about": {
-    "metaTitle": "Chi siamo | LessonCraftStudio — Generatori di Schede Didattiche",
-    "metaDescription": "Scopri LessonCraftStudio — 33 generatori di schede professionali in 11 lingue con oltre 3.000 immagini tematiche per insegnanti, genitori e terapisti.",
+    "metaTitle": "Chi siamo | LessonCraftStudio — Generatori Professionali di Stampabili",
+    "metaDescription": "Scopri LessonCraftStudio — 33 generatori professionali di stampabili per venditori Etsy, editori Amazon KDP e imprenditori di stampabili. 11 lingue, 3.000+ immagini, licenza commerciale inclusa.",
     "hero": {
       "title": "Chi siamo",
-      "subtitle": "Supportiamo gli educatori di tutto il mondo con generatori di schede professionali"
+      "subtitle": "Generatori professionali di stampabili per venditori Etsy e editori KDP in tutto il mondo"
     },
     "stats": {
       "generators": "33",
@@ -1057,8 +1057,8 @@
     },
     "mission": {
       "title": "La nostra missione",
-      "description": "Crediamo che ogni bambino meriti l’accesso a materiali didattici di alta qualità. LessonCraftStudio è stato creato per aiutare insegnanti, genitori e terapisti a generare schede professionali in un istante — senza competenze di design, software costoso o ore di preparazione.",
-      "description2": "I nostri generatori combinano pedagogia basata sulla ricerca con un design accattivante, rendendo facile la creazione di materiali pronti da stampare che coinvolgono i giovani studenti dalla scuola materna alla terza elementare."
+      "description": "LessonCraftStudio è stato creato per aiutare venditori Etsy, editori KDP e imprenditori di stampabili a generare schede professionali in un istante — senza competenze di design, software costoso o ore di preparazione.",
+      "description2": "I nostri 33 generatori creano PDF pronti per la stampa a 300 DPI con chiavi di risposta, 3.000+ immagini tematiche e 11 lingue — tutto con licenza commerciale per vendere su qualsiasi piattaforma."
     },
     "methodology": {
       "title": "Il nostro approccio",
@@ -1067,8 +1067,8 @@
         "description": "Scegli un tema, personalizza le impostazioni e genera una scheda pronta da stampare in pochi secondi. Nessuna competenza di design richiesta."
       },
       "research": {
-        "title": "Basato sulla ricerca",
-        "description": "Ogni generatore si basa su metodi educativi comprovati per lo sviluppo della prima infanzia — matematica, lettura, abilità motorie e sviluppo cognitivo."
+        "title": "Qualità professionale",
+        "description": "Ogni generatore crea PDF pronti per la vendita a 300 DPI con chiavi di risposta — perfetti per negozi Etsy, libri KDP e download digitali."
       },
       "inclusive": {
         "title": "Multilingue e inclusivo",
@@ -1078,16 +1078,16 @@
     "audience": {
       "title": "Chi serviamo",
       "teachers": {
-        "title": "Insegnanti",
-        "description": "Crea schede differenziate per la tua classe in pochi secondi. Supporta studenti diversi con materiali nella loro lingua madre."
+        "title": "Venditori Etsy e KDP",
+        "description": "Crea rapidamente un catalogo di prodotti stampabili. Genera schede tematiche uniche che si distinguono sul mercato."
       },
       "parents": {
-        "title": "Genitori",
-        "description": "Offri al tuo bambino esercizi coinvolgenti a casa con schede di qualità professionale adattate ai suoi interessi e livello."
+        "title": "Uso personale",
+        "description": "Crea schede per homeschooling o progetti personali in pochi secondi. Prova gratuita con filigrana — senza registrazione."
       },
       "therapists": {
-        "title": "Terapisti ed educatori speciali",
-        "description": "Genera materiali mirati per logopedia, terapia occupazionale ed educazione speciale — personalizzati per ogni studente."
+        "title": "Creatori di contenuti ed editori",
+        "description": "Produci contenuti stampabili professionali su larga scala. 33 generatori, 104 temi, 11 lingue — crea centinaia di prodotti unici su un'unica piattaforma."
       }
     },
     "cta": {

@@ -1328,7 +1328,7 @@ export const SALES_PAGES: Record<string, SalesPageConfig> = {
       {
         icon: 'sliders',
         title: 'Adjustable Difficulty',
-        description: '2–5 symbols per worksheet, 2–4 addends per question, customizable number ranges (1–20). Create worksheets for pre-K through 3rd grade with precision control.',
+        description: '2–5 symbols per worksheet, 2–4 addends per question, customizable number ranges (1–20). Create worksheets for ages 3–9 with precision control.',
       },
       {
         icon: 'images',
@@ -1449,7 +1449,7 @@ export const SALES_PAGES: Record<string, SalesPageConfig> = {
         number: 2,
         icon: 'sliders',
         title: 'Set Difficulty',
-        description: 'Choose 2–5 symbols, 2–4 addends per question, and your number range. Create worksheets for any age from pre-K to 3rd grade.',
+        description: 'Choose 2–5 symbols, 2–4 addends per question, and your number range. Create worksheets for any age from 3 to 9.',
       },
       {
         number: 3,

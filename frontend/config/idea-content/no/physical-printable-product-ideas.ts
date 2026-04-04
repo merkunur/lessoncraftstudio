@@ -30,7 +30,7 @@ Kjøpersegmentene for fysiske utskriftsbare produkter inkluderer foreldre som fo
 
 Det som gjør fysiske produkter spesielt attraktive som utvidelse for digitale selgere er at det eksisterende innholdet kan reformateres for fysisk produksjon med relativt lite tilleggsarbeid. Arbeidsark som allerede selger godt digitalt har bevist markedsetterspørsel, og fysiske versjoner av de samme produktene når et nytt kjøpersegment uten å kannibalisere det digitale salget.
 
-Prissetting for fysiske utskriftsbare produkter er generelt høyere enn digitale ekvivalenter. Aktivitetsbøker på KDP med førti til seksti sider selger godt til fire til åtte dollar med tredve til femti prosent royaltymarginer. Premiumformaterte bøker med fargeillustrasjoner kan prises høyere. Laminerte kortsettt og ferdigpakkede fysiske kit på Etsy og egne nettsider krever ti til tjuefem dollar.',
+Prissetting for fysiske utskriftsbare produkter er generelt høyere enn digitale ekvivalenter. Aktivitetsbøker på KDP med førti til seksti sider selger godt til fire til åtte dollar med tredve til femti prosent royaltymarginer. Premiumformaterte bøker med fargeillustrasjoner kan prises høyere. Laminerte kortsett og ferdigpakkede fysiske kit på Etsy og egne nettsider krever ti til tjuefem dollar.`,
 
   productIdeas: [
     {

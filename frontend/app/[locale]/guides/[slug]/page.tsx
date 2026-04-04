@@ -148,6 +148,16 @@ export default async function GuidePage({
     const pageUrl = `${baseUrl}/${locale}/guides/${localeSlug || slug}`;
 
     const guideHeroImage = showcaseConfig?.hero?.images?.[0]?.src;
+    const primaryImageUrl = guideHeroImage
+      ? `${baseUrl}${encodeImagePath(guideHeroImage)}`
+      : content.visuals?.heroImage?.src
+        ? `${baseUrl}${encodeImagePath(content.visuals.heroImage.src)}`
+        : content.visuals?.samples?.[0]?.src
+          ? `${baseUrl}${encodeImagePath(content.visuals.samples[0].src)}`
+          : null;
+    const ogImageUrl = `${baseUrl}/api/og?locale=${locale}&type=guide&title=${encodeURIComponent(content.hero.title)}`;
+    const isRealImage = !!primaryImageUrl;
+
     const articleSchema = {
       '@context': 'https://schema.org',
       '@type': 'Article',
@@ -155,13 +165,9 @@ export default async function GuidePage({
       headline: content.hero.title,
       description: content.hero.description,
       url: pageUrl,
-      image: guideHeroImage
-        ? `${baseUrl}${encodeImagePath(guideHeroImage)}`
-        : content.visuals?.heroImage?.src
-          ? `${baseUrl}${encodeImagePath(content.visuals.heroImage.src)}`
-          : content.visuals?.samples?.[0]?.src
-            ? `${baseUrl}${encodeImagePath(content.visuals.samples[0].src)}`
-            : `${baseUrl}/api/og?locale=${locale}&type=guide&title=${encodeURIComponent(content.hero.title)}`,
+      image: primaryImageUrl
+        ? [primaryImageUrl, ogImageUrl]
+        : [ogImageUrl],
       inLanguage: getHreflangCode(locale),
       publisher: { '@type': 'Organization', name: 'LessonCraftStudio', url: baseUrl },
       author: { '@type': 'Organization', name: 'LessonCraftStudio', url: baseUrl },
@@ -182,6 +188,9 @@ export default async function GuidePage({
     };
 
     // WebPage schema with primaryImageOfPage — aligns Google's thumbnail signal
+    const guideImageCaption = showcaseConfig?.hero?.images?.[0]?.alt
+      || content?.visuals?.heroImage?.alt
+      || content.hero.title;
     const webPageSchema = {
       '@context': 'https://schema.org',
       '@type': 'WebPage',
@@ -192,9 +201,11 @@ export default async function GuidePage({
       isPartOf: { '@type': 'WebSite', '@id': `${baseUrl}/#website` },
       primaryImageOfPage: {
         '@type': 'ImageObject',
-        url: articleSchema.image,
-        width: (articleSchema.image as string).includes('/api/og') ? 1200 : 2480,
-        height: (articleSchema.image as string).includes('/api/og') ? 630 : 3508,
+        url: primaryImageUrl || ogImageUrl,
+        contentUrl: primaryImageUrl || ogImageUrl,
+        caption: guideImageCaption,
+        width: isRealImage ? 2480 : 1200,
+        height: isRealImage ? 3508 : 630,
       },
       mainEntity: { '@id': `${pageUrl}#article` },
       inLanguage: getHreflangCode(locale),

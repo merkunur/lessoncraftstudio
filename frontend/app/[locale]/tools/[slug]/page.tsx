@@ -251,6 +251,9 @@ export default async function ToolPage({
   schemas.push(softwareSchema);
 
   // WebPage schema with primaryImageOfPage — aligns Google's thumbnail signal
+  const toolImageCaption = heroImages?.[0]?.alt
+    || content?.visuals?.heroImages?.primaryAlt
+    || localizedName;
   schemas.push({
     '@context': 'https://schema.org',
     '@type': 'WebPage',
@@ -262,6 +265,8 @@ export default async function ToolPage({
     primaryImageOfPage: {
       '@type': 'ImageObject',
       url: toolSchemaImage,
+      contentUrl: toolSchemaImage,
+      caption: toolImageCaption,
       width: toolSchemaImage.includes('/opengraph-image.png') ? 1200 : 2480,
       height: toolSchemaImage.includes('/opengraph-image.png') ? 630 : 3508,
     },

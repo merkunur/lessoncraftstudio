@@ -202,6 +202,9 @@ export default async function BundlePage({
     };
 
     // WebPage schema with primaryImageOfPage — aligns Google's thumbnail signal
+    const bundleImageCaption = showcaseConfig?.hero?.images?.[0]?.alt
+      || content?.visuals?.heroImages?.primaryAlt
+      || content.hero.title;
     const webPageSchema = {
       '@context': 'https://schema.org',
       '@type': 'WebPage',
@@ -213,6 +216,8 @@ export default async function BundlePage({
       primaryImageOfPage: {
         '@type': 'ImageObject',
         url: bundleSchemaImage,
+        contentUrl: bundleSchemaImage,
+        caption: bundleImageCaption,
         width: bundleSchemaImage.includes('/api/og') ? 1200 : 2480,
         height: bundleSchemaImage.includes('/api/og') ? 630 : 3508,
       },

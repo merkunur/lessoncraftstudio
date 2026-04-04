@@ -301,6 +301,16 @@ export default async function IdeaPage({
     const pageUrl = `${baseUrl}/${locale}/ideas/${localeSlug || slug}`;
 
     const ideaHeroImage = showcaseConfig?.hero?.images?.[0]?.src;
+    const primaryImageUrl = ideaHeroImage
+      ? `${baseUrl}${encodeImagePath(ideaHeroImage)}`
+      : content.themeImages?.[0]?.src
+        ? `${baseUrl}${encodeImagePath(content.themeImages[0].src)}`
+        : content.productIdeas?.[0]?.appId && getAppHeroImage(content.productIdeas[0].appId, locale)
+          ? `${baseUrl}${encodeImagePath(getAppHeroImage(content.productIdeas[0].appId, locale)!)}`
+          : null;
+    const ogImageUrl = `${baseUrl}/api/og?locale=${locale}&type=idea&title=${encodeURIComponent(content.hero.title)}`;
+    const isRealImage = !!primaryImageUrl;
+
     const articleSchema = {
       '@context': 'https://schema.org',
       '@type': 'Article',
@@ -308,13 +318,9 @@ export default async function IdeaPage({
       headline: content.hero.title,
       description: content.hero.description,
       url: pageUrl,
-      image: ideaHeroImage
-        ? `${baseUrl}${encodeImagePath(ideaHeroImage)}`
-        : content.themeImages?.[0]?.src
-          ? `${baseUrl}${encodeImagePath(content.themeImages[0].src)}`
-          : content.productIdeas?.[0]?.appId && getAppHeroImage(content.productIdeas[0].appId, locale)
-            ? `${baseUrl}${encodeImagePath(getAppHeroImage(content.productIdeas[0].appId, locale)!)}`
-            : `${baseUrl}/api/og?locale=${locale}&type=idea&title=${encodeURIComponent(content.hero.title)}`,
+      image: primaryImageUrl
+        ? [primaryImageUrl, ogImageUrl]
+        : [ogImageUrl],
       inLanguage: getHreflangCode(locale),
       publisher: { '@type': 'Organization', name: 'LessonCraftStudio', url: baseUrl },
       author: { '@type': 'Organization', name: 'LessonCraftStudio', url: baseUrl },
@@ -335,6 +341,9 @@ export default async function IdeaPage({
     };
 
     // WebPage schema with primaryImageOfPage — aligns Google's thumbnail signal
+    const ideaImageCaption = showcaseConfig?.hero?.images?.[0]?.alt
+      || content.themeImages?.[0]?.alt
+      || content.hero.title;
     const webPageSchema = {
       '@context': 'https://schema.org',
       '@type': 'WebPage',
@@ -345,9 +354,11 @@ export default async function IdeaPage({
       isPartOf: { '@type': 'WebSite', '@id': `${baseUrl}/#website` },
       primaryImageOfPage: {
         '@type': 'ImageObject',
-        url: articleSchema.image,
-        width: (articleSchema.image as string).includes('/api/og') ? 1200 : 2480,
-        height: (articleSchema.image as string).includes('/api/og') ? 630 : 3508,
+        url: primaryImageUrl || ogImageUrl,
+        contentUrl: primaryImageUrl || ogImageUrl,
+        caption: ideaImageCaption,
+        width: isRealImage ? 2480 : 1200,
+        height: isRealImage ? 3508 : 630,
       },
       mainEntity: { '@id': `${pageUrl}#article` },
       inLanguage: getHreflangCode(locale),
@@ -357,6 +368,14 @@ export default async function IdeaPage({
     if (content.faq?.length) {
       schemas.push(generateFAQSchema(content.faq, locale, pageUrl));
     }
+
+    // Hero image for placement below H1 (Google thumbnail signal)
+    const ideaHeroImgSrc = showcaseConfig?.hero?.images?.[0]?.src
+      || content.themeImages?.[0]?.src
+      || (content.productIdeas?.[0]?.appId ? getAppHeroImage(content.productIdeas[0].appId, locale) : undefined);
+    const ideaHeroImgAlt = showcaseConfig?.hero?.images?.[0]?.alt
+      || content.themeImages?.[0]?.alt
+      || content.hero.title;
 
     return (
       <div className="min-h-screen bg-white">
@@ -415,6 +434,22 @@ export default async function IdeaPage({
               {content.hero.title}
             </h1>
             <ReadMoreText text={content.hero.description} locale={locale} className="text-lg text-gray-600" lines={5} />
+            {/* Hero image below H1 — Google thumbnail signal */}
+            {ideaHeroImgSrc && (
+              <div className="mt-8 rounded-xl overflow-hidden shadow-lg max-w-md mx-auto">
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img
+                  src={encodeImagePath(ideaHeroImgSrc)}
+                  alt={ideaHeroImgAlt}
+                  width={800}
+                  height={1132}
+                  className="w-full h-auto"
+                  loading="eager"
+                  decoding="async"
+                  fetchPriority="high"
+                />
+              </div>
+            )}
           </div>
         </section>
 

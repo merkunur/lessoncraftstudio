@@ -1106,6 +1106,9 @@ export default async function AppDetailPage({
   } : null;
 
   // WebPage schema with primaryImageOfPage — aligns Google's thumbnail signal
+  const schemaImageCaption = heroImages?.[0]?.alt
+    || content?.visuals?.heroImages?.primaryAlt
+    || `${localizedName} ${localizedSuffix}`;
   const webPageJsonLd = {
     '@context': 'https://schema.org',
     '@type': 'WebPage',
@@ -1117,6 +1120,8 @@ export default async function AppDetailPage({
     primaryImageOfPage: {
       '@type': 'ImageObject',
       url: schemaImage,
+      contentUrl: schemaImage,
+      caption: schemaImageCaption,
       width: 2480,
       height: 3508,
     },

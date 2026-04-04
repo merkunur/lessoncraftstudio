@@ -132,6 +132,8 @@ export default async function ComparePage({
       primaryImageOfPage: {
         '@type': 'ImageObject',
         url: articleSchema.image,
+        contentUrl: articleSchema.image,
+        caption: content.hero.title,
         width: 1200,
         height: 630,
       },

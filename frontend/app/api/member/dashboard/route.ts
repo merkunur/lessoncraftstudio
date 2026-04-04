@@ -1,24 +1,33 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { withAuth } from '@/lib/auth-middleware';
 import { prisma } from '@/lib/prisma';
+import { getAllAppIds } from '@/config/products';
 
 export const dynamic = 'force-dynamic';
 
 /**
  * GET /api/member/dashboard
  * Returns the authenticated user's purchased apps.
- * Checks purchases by userId (direct link) AND email (fallback).
- * Also checks legacy LicenseKey records for backward compatibility.
+ * Admin users get access to all apps.
+ * Regular users: checks purchases by userId AND email.
  */
 export async function GET(request: NextRequest) {
   return withAuth(request, async (_req, userId) => {
     const user = await prisma.user.findUnique({
       where: { id: userId },
-      select: { email: true },
+      select: { email: true, isAdmin: true },
     });
 
     if (!user) {
       return NextResponse.json({ error: 'User not found' }, { status: 404 });
+    }
+
+    // Admin override: full access to all apps
+    if (user.isAdmin || user.email.toLowerCase() === 'admin@lessoncraftstudio.com') {
+      return NextResponse.json({
+        email: user.email,
+        apps: getAllAppIds(),
+      });
     }
 
     const email = user.email.toLowerCase().trim();

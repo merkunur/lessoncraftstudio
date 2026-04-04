@@ -28,11 +28,32 @@ export async function POST(request: NextRequest) {
       return NextResponse.json({ hasAccess: false }, { status: 200 });
     }
 
-    // Verify session still exists in database (prevents revoked sessions)
+    // Extract appId from body
+    const body = await request.json();
+    const appId = body.appId;
+    if (!appId || typeof appId !== 'string') {
+      return NextResponse.json({ hasAccess: false }, { status: 200 });
+    }
+
+    const userId = decoded.userId;
+
+    // Admin override: FIRST check, bypasses all session/device/purchase checks
+    const user = await prisma.user.findUnique({
+      where: { id: userId },
+      select: { email: true, isAdmin: true },
+    });
+
+    if (user && (user.isAdmin || user.email.toLowerCase() === 'admin@lessoncraftstudio.com')) {
+      return NextResponse.json({ hasAccess: true }, { status: 200 });
+    }
+
+    // --- Non-admin users: full session + device + purchase validation ---
+
+    // Verify session still exists in database
     const session = await prisma.session.findFirst({
       where: {
         token: token,
-        userId: decoded.userId,
+        userId,
         expiresAt: { gt: new Date() },
       },
     });
@@ -51,25 +72,6 @@ export async function POST(request: NextRequest) {
       where: { id: session.id },
       data: { lastActivityAt: new Date() },
     });
-
-    // Extract appId from body
-    const body = await request.json();
-    const appId = body.appId;
-    if (!appId || typeof appId !== 'string') {
-      return NextResponse.json({ hasAccess: false }, { status: 200 });
-    }
-
-    const userId = decoded.userId;
-
-    // Admin override: full access to all apps
-    const user = await prisma.user.findUnique({
-      where: { id: userId },
-      select: { email: true, isAdmin: true },
-    });
-
-    if (user && (user.isAdmin || user.email.toLowerCase() === 'admin@lessoncraftstudio.com')) {
-      return NextResponse.json({ hasAccess: true }, { status: 200 });
-    }
 
     // Check purchases by userId
     const purchases = await prisma.purchase.findMany({

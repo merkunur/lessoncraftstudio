@@ -26,6 +26,8 @@ import {
   GallerySection,
 } from '@/app/[locale]/apps/[slug]/showcase/ShowcaseSections';
 import { getPageShowcaseConfig } from '@/config/guide-showcase-configs';
+import BuyButton from '@/components/BuyButton';
+import type { CategoryId } from '@/config/products';
 
 const baseUrl = 'https://www.lessoncraftstudio.com';
 
@@ -278,7 +280,10 @@ export default async function BundlePage({
             <h1 className="speakable-headline text-3xl md:text-4xl font-bold text-gray-900 mb-4">
               {content.hero.title}
             </h1>
-            <ReadMoreText text={content.hero.description} locale={locale} className="speakable-summary text-lg text-gray-600 mb-8" lines={5} />
+            <ReadMoreText text={content.hero.description} locale={locale} className="speakable-summary text-lg text-gray-600 mb-6" lines={5} />
+            <div className="mb-8">
+              <BuyButton categoryId={bundleConfig.bundleId.replace('-bundle', '') as CategoryId} locale={locale} />
+            </div>
 
             {/* Hero Image */}
             {content.visuals?.heroImages?.primary && (

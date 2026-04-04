@@ -25,6 +25,9 @@ import {
   GallerySection,
 } from '@/app/[locale]/apps/[slug]/showcase/ShowcaseSections';
 import { getPageShowcaseConfig } from '@/config/guide-showcase-configs';
+import BuyButton from '@/components/BuyButton';
+import { isValidAppId } from '@/config/products';
+import type { AppId } from '@/config/products';
 
 const baseUrl = 'https://www.lessoncraftstudio.com';
 
@@ -466,14 +469,20 @@ export default async function GuidePage({
               <h2 className="text-2xl font-bold text-gray-900 mb-8">{getSectionLabel('recommendedTools', locale)}</h2>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 {content.toolsRecommended.map((tool, i) => (
-                  <Link
+                  <div
                     key={i}
-                    href={`/${locale}/apps/${resolveWpAppIdToSlug(tool.appId, locale)}`}
                     className="p-4 bg-white border border-gray-200 rounded-lg hover:border-indigo-300 hover:shadow-sm transition-all"
                   >
-                    <h3 className="font-semibold text-gray-900">{tool.title}</h3>
-                    <ReadMoreText text={tool.description} locale={locale} className="text-gray-600 text-sm mt-1" />
-                  </Link>
+                    <Link href={`/${locale}/apps/${resolveWpAppIdToSlug(tool.appId, locale)}`}>
+                      <h3 className="font-semibold text-gray-900">{tool.title}</h3>
+                      <ReadMoreText text={tool.description} locale={locale} className="text-gray-600 text-sm mt-1" />
+                    </Link>
+                    {isValidAppId(tool.appId) && (
+                      <div className="mt-3">
+                        <BuyButton appId={tool.appId as AppId} locale={locale} variant="compact" />
+                      </div>
+                    )}
+                  </div>
                 ))}
               </div>
             </div>

@@ -24,6 +24,9 @@ import {
   GallerySection,
 } from '@/app/[locale]/apps/[slug]/showcase/ShowcaseSections';
 import { getPageShowcaseConfig } from '@/config/guide-showcase-configs';
+import BuyButton from '@/components/BuyButton';
+import { isValidAppId } from '@/config/products';
+import type { AppId } from '@/config/products';
 
 const baseUrl = 'https://www.lessoncraftstudio.com';
 
@@ -473,9 +476,11 @@ export default async function IdeaPage({
                     <div className="flex-1 min-w-0">
                       <h3 className="font-semibold text-gray-900">{idea.title}</h3>
                       <ReadMoreText text={idea.description} locale={locale} className="text-gray-600 text-sm mt-1" />
-                      <span className="inline-block mt-2 text-xs bg-amber-50 text-amber-700 px-2 py-0.5 rounded">
-                        {idea.appId}
-                      </span>
+                      {isValidAppId(idea.appId) && (
+                        <div className="mt-2">
+                          <BuyButton appId={idea.appId as AppId} locale={locale} variant="compact" />
+                        </div>
+                      )}
                     </div>
                   </div>
                 ))}

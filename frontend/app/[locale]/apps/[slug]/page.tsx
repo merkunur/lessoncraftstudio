@@ -11,6 +11,7 @@ import type { SupportedLocale } from '@/config/product-page-slugs';
 import { ogLocaleMap, getHreflangCode, generateVideoSchema, generateShowcaseImageSchemas } from '@/lib/schema-generator';
 import { getAppFallbackDescription } from '@/lib/localized-meta-fallback';
 import { ALL_APPS, APP_CATEGORIES, type AppId, type CategoryId } from '@/config/products';
+import BuyButton from '@/components/BuyButton';
 import { getLocalizedAppName, getLocalizedCategoryName, getLocalizedSuffix } from '@/config/app-translations';
 import Link from 'next/link';
 import TryFreeButton from './TryFreeButton';
@@ -1215,7 +1216,10 @@ export default async function AppDetailPage({
                     </h1>
                     <p className="text-lg font-medium text-indigo-600 mb-4">{content.hero.tagline}</p>
                     <ReadMoreText text={content.hero.description} locale={locale} className="speakable-summary text-gray-600 mb-6" lines={10} />
-                    <TryFreeButton launchUrl={launchUrl} label={ui.tryFree} />
+                    <div className="flex flex-wrap items-center gap-3">
+                      <TryFreeButton launchUrl={launchUrl} label={ui.tryFree} />
+                      <BuyButton appId={wpAppId} locale={locale} variant="default" />
+                    </div>
                     <p className="mt-3 text-sm text-gray-500">{ui.tryFreeDesc}</p>
                     <div className="flex flex-wrap gap-4 mt-6 text-sm text-gray-500">
                       <span className="flex items-center gap-1.5">

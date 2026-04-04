@@ -51,7 +51,7 @@ const bundlesContent: Record<string, {
     ctaTitle: 'Try Before You Buy',
     ctaDescription: 'All generators are free to try with watermark. See the quality before purchasing a bundle.',
     ctaButton: 'Try Free Generators',
-    priceFrom: 'From $79',
+    priceFrom: '$149',
     pricePurchase: 'One-time purchase',
   },
   de: {
@@ -62,7 +62,7 @@ const bundlesContent: Record<string, {
     ctaTitle: 'Erst testen, dann kaufen',
     ctaDescription: 'Alle Generatoren gratis mit Wasserzeichen testen. Überzeugen Sie sich vor dem Kauf.',
     ctaButton: 'Generatoren gratis testen',
-    priceFrom: 'Ab 79 $',
+    priceFrom: '$149',
     pricePurchase: 'Einmalzahlung',
   },
   fr: {
@@ -73,7 +73,7 @@ const bundlesContent: Record<string, {
     ctaTitle: 'Essayez avant d\'acheter',
     ctaDescription: 'Tous les générateurs sont gratuits à essayer avec filigrane. Jugez la qualité avant d\'acheter.',
     ctaButton: 'Essayer les générateurs',
-    priceFrom: 'À partir de 79 $',
+    priceFrom: '$149',
     pricePurchase: 'Achat unique',
   },
   es: {
@@ -84,7 +84,7 @@ const bundlesContent: Record<string, {
     ctaTitle: 'Pruebe antes de comprar',
     ctaDescription: 'Todos los generadores son gratis para probar con marca de agua. Compruebe la calidad antes de comprar.',
     ctaButton: 'Probar generadores gratis',
-    priceFrom: 'Desde 79 $',
+    priceFrom: '$149',
     pricePurchase: 'Compra única',
   },
   pt: {
@@ -95,7 +95,7 @@ const bundlesContent: Record<string, {
     ctaTitle: 'Teste antes de comprar',
     ctaDescription: 'Todos os geradores são grátis para testar com marca d\'água. Veja a qualidade antes de comprar.',
     ctaButton: 'Testar geradores grátis',
-    priceFrom: 'A partir de 79 $',
+    priceFrom: '$149',
     pricePurchase: 'Compra única',
   },
   it: {
@@ -106,7 +106,7 @@ const bundlesContent: Record<string, {
     ctaTitle: 'Prova prima di acquistare',
     ctaDescription: 'Tutti i generatori sono gratis da provare con filigrana. Verifica la qualità prima dell\'acquisto.',
     ctaButton: 'Prova i generatori gratis',
-    priceFrom: 'Da 79 $',
+    priceFrom: '$149',
     pricePurchase: 'Acquisto singolo',
   },
   nl: {
@@ -117,7 +117,7 @@ const bundlesContent: Record<string, {
     ctaTitle: 'Probeer voor je koopt',
     ctaDescription: 'Alle generatoren zijn gratis te proberen met watermerk. Bekijk de kwaliteit voor aankoop.',
     ctaButton: 'Generatoren gratis proberen',
-    priceFrom: 'Vanaf $ 79',
+    priceFrom: '$149',
     pricePurchase: 'Eenmalige aankoop',
   },
   sv: {
@@ -128,7 +128,7 @@ const bundlesContent: Record<string, {
     ctaTitle: 'Prova innan du köper',
     ctaDescription: 'Alla generatorer är gratis att prova med vattenstämpel. Se kvaliteten innan köp.',
     ctaButton: 'Prova generatorerna gratis',
-    priceFrom: 'Från 79 $',
+    priceFrom: '$149',
     pricePurchase: 'Engångsköp',
   },
   da: {
@@ -139,7 +139,7 @@ const bundlesContent: Record<string, {
     ctaTitle: 'Prøv før du køber',
     ctaDescription: 'Alle generatorer er gratis at prøve med vandmærke. Se kvaliteten inden køb.',
     ctaButton: 'Prøv generatorerne gratis',
-    priceFrom: 'Fra 79 $',
+    priceFrom: '$149',
     pricePurchase: 'Engangskøb',
   },
   no: {
@@ -150,7 +150,7 @@ const bundlesContent: Record<string, {
     ctaTitle: 'Prøv før du kjøper',
     ctaDescription: 'Alle generatorer er gratis å prøve med vannmerke. Se kvaliteten før kjøp.',
     ctaButton: 'Prøv generatorene gratis',
-    priceFrom: 'Fra 79 $',
+    priceFrom: '$149',
     pricePurchase: 'Engangskjøp',
   },
   fi: {
@@ -161,7 +161,7 @@ const bundlesContent: Record<string, {
     ctaTitle: 'Kokeile ennen ostoa',
     ctaDescription: 'Kaikkia generaattoreita voi kokeilla ilmaiseksi vesileimalla. Tarkista laatu ennen ostoa.',
     ctaButton: 'Kokeile generaattoreita ilmaiseksi',
-    priceFrom: 'Alkaen 79 $',
+    priceFrom: '$149',
     pricePurchase: 'Kertaosto',
   },
 };

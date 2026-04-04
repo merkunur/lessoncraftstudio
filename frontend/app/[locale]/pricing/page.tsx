@@ -4,7 +4,7 @@ import { SUPPORTED_LOCALES } from '@/config/locales';
 import { getHreflangCode, ogLocaleMap } from '@/lib/schema-generator';
 import { ALL_APPS, APP_CATEGORIES, type CategoryId } from '@/config/products';
 import { APP_NAME_TRANSLATIONS, CATEGORY_NAME_TRANSLATIONS } from '@/config/app-translations';
-import { getBundleCheckoutUrl } from '@/config/lemonsqueezy-products';
+import { getCheckoutUrl, getBundleCheckoutUrl } from '@/config/lemonsqueezy-products';
 import FAQAccordion from '@/components/FAQAccordion';
 
 const baseUrl = 'https://www.lessoncraftstudio.com';
@@ -36,6 +36,11 @@ const pricingContent: Record<string, {
   ctaButton: string;
   comingSoon: string;
   noRefund: string;
+  buyApp: string;
+  buyBundle: string;
+  saveVsIndividual: string;
+  catalogTitle: string;
+  catalogSubtitle: string;
 }> = {
   en: {
     metaTitle: 'Pricing - Professional Printable Generators | LessonCraftStudio',
@@ -109,6 +114,11 @@ const pricingContent: Record<string, {
     ctaButton: 'Explore Generators',
     comingSoon: 'Coming Soon',
     noRefund: 'No refunds - try free with watermark first',
+    buyApp: 'Buy for $49',
+    buyBundle: 'Buy Bundle for $149',
+    saveVsIndividual: 'Save vs individual',
+    catalogTitle: 'Choose Your Apps',
+    catalogSubtitle: 'Buy individual apps for $49 each, or save with a category bundle for $149.',
   },
   de: {
     metaTitle: 'Preise - Professionelle Druckvorlagen-Generatoren | LessonCraftStudio',
@@ -182,6 +192,11 @@ const pricingContent: Record<string, {
     ctaButton: 'Generatoren entdecken',
     comingSoon: 'Demnächst verfügbar',
     noRefund: 'Keine Erstattung - erst kostenlos mit Wasserzeichen testen',
+    buyApp: 'Kaufen fur $49',
+    buyBundle: 'Paket kaufen fur $149',
+    saveVsIndividual: 'Sparen vs. einzeln',
+    catalogTitle: 'Wahlen Sie Ihre Apps',
+    catalogSubtitle: 'Einzelne Apps fur $49 oder sparen Sie mit einem Kategorie-Paket fur $149.',
   },
   fr: {
     metaTitle: 'Tarifs - Générateurs d\'imprimables professionnels | LessonCraftStudio',
@@ -255,6 +270,11 @@ const pricingContent: Record<string, {
     ctaButton: 'Explorer les générateurs',
     comingSoon: 'Bientôt disponible',
     noRefund: 'Pas de remboursement - essayez gratuitement avec filigrane d\'abord',
+    buyApp: 'Acheter pour $49',
+    buyBundle: 'Acheter le pack pour $149',
+    saveVsIndividual: 'Economisez vs. individuel',
+    catalogTitle: 'Choisissez vos applications',
+    catalogSubtitle: 'Achetez des applications individuelles pour $49 ou economisez avec un pack categorie pour $149.',
   },
   es: {
     metaTitle: 'Precios - Generadores de imprimibles profesionales | LessonCraftStudio',
@@ -328,6 +348,11 @@ const pricingContent: Record<string, {
     ctaButton: 'Explorar generadores',
     comingSoon: 'Disponible pronto',
     noRefund: 'Sin reembolso - prueba gratis con marca de agua primero',
+    buyApp: 'Comprar por $49',
+    buyBundle: 'Comprar paquete por $149',
+    saveVsIndividual: 'Ahorra vs. individual',
+    catalogTitle: 'Elige tus aplicaciones',
+    catalogSubtitle: 'Compra aplicaciones individuales por $49 o ahorra con un paquete de categoria por $149.',
   },
   pt: {
     metaTitle: 'Preços - Geradores de imprimíveis profissionais | LessonCraftStudio',
@@ -400,7 +425,12 @@ const pricingContent: Record<string, {
     ctaSubtitle: 'Sem cadastro. Veja a qualidade antes de comprar. Cada gerador é grátis com marca d\'água.',
     ctaButton: 'Explorar geradores',
     comingSoon: 'Em breve',
-    noRefund: 'Sem reembolso - teste grátis com marca d\'água primeiro',
+    noRefund: 'Sem reembolso - teste gratis com marca d\'agua primeiro',
+    buyApp: 'Comprar por $49',
+    buyBundle: 'Comprar pacote por $149',
+    saveVsIndividual: 'Economize vs. individual',
+    catalogTitle: 'Escolha seus aplicativos',
+    catalogSubtitle: 'Compre aplicativos individuais por $49 ou economize com um pacote de categoria por $149.',
   },
   it: {
     metaTitle: 'Prezzi - Generatori di stampabili professionali | LessonCraftStudio',
@@ -474,6 +504,11 @@ const pricingContent: Record<string, {
     ctaButton: 'Esplora i generatori',
     comingSoon: 'Prossimamente',
     noRefund: 'Nessun rimborso - prova gratis con filigrana prima',
+    buyApp: 'Acquista per $49',
+    buyBundle: 'Acquista pacchetto per $149',
+    saveVsIndividual: 'Risparmia vs. individuale',
+    catalogTitle: 'Scegli le tue app',
+    catalogSubtitle: 'Acquista singole app per $49 o risparmia con un pacchetto categoria per $149.',
   },
   nl: {
     metaTitle: 'Prijzen - Professionele printbare generators | LessonCraftStudio',
@@ -547,6 +582,11 @@ const pricingContent: Record<string, {
     ctaButton: 'Ontdek generators',
     comingSoon: 'Binnenkort beschikbaar',
     noRefund: 'Geen restitutie - probeer eerst gratis met watermerk',
+    buyApp: 'Kopen voor $49',
+    buyBundle: 'Bundel kopen voor $149',
+    saveVsIndividual: 'Bespaar vs. individueel',
+    catalogTitle: 'Kies uw apps',
+    catalogSubtitle: 'Koop individuele apps voor $49 of bespaar met een categoriebundel voor $149.',
   },
   sv: {
     metaTitle: 'Priser - Professionella utskriftsgeneratorer | LessonCraftStudio',
@@ -619,7 +659,12 @@ const pricingContent: Record<string, {
     ctaSubtitle: 'Ingen registrering krävs. Se kvaliteten innan du köper. Varje generator är gratis med vattenstämpel.',
     ctaButton: 'Utforska generatorer',
     comingSoon: 'Kommer snart',
-    noRefund: 'Ingen återbetalning - prova gratis med vattenstämpel först',
+    noRefund: 'Ingen aterbetalning - prova gratis med vattenstampel forst',
+    buyApp: 'Kop for $49',
+    buyBundle: 'Kop paket for $149',
+    saveVsIndividual: 'Spara vs. enskild',
+    catalogTitle: 'Valj dina appar',
+    catalogSubtitle: 'Kop enskilda appar for $49 eller spara med ett kategoripaket for $149.',
   },
   da: {
     metaTitle: 'Priser - Professionelle printbare generatorer | LessonCraftStudio',
@@ -692,7 +737,12 @@ const pricingContent: Record<string, {
     ctaSubtitle: 'Ingen tilmelding nødvendig. Se kvaliteten før du køber. Hver generator er gratis med vandmærke.',
     ctaButton: 'Udforsk generatorer',
     comingSoon: 'Kommer snart',
-    noRefund: 'Ingen refusion - prøv gratis med vandmærke først',
+    noRefund: 'Ingen refusion - prov gratis med vandmaerke forst',
+    buyApp: 'Kob for $49',
+    buyBundle: 'Kob pakke for $149',
+    saveVsIndividual: 'Spar vs. enkelt',
+    catalogTitle: 'Vaelg dine apps',
+    catalogSubtitle: 'Kob individuelle apps for $49 eller spar med en kategoripakke for $149.',
   },
   no: {
     metaTitle: 'Priser - Profesjonelle utskriftsgeneratorer | LessonCraftStudio',
@@ -765,7 +815,12 @@ const pricingContent: Record<string, {
     ctaSubtitle: 'Ingen registrering nødvendig. Se kvaliteten før du kjøper. Hver generator er gratis med vannmerke.',
     ctaButton: 'Utforsk generatorer',
     comingSoon: 'Kommer snart',
-    noRefund: 'Ingen refusjon - prøv gratis med vannmerke først',
+    noRefund: 'Ingen refusjon - prov gratis med vannmerke forst',
+    buyApp: 'Kjop for $49',
+    buyBundle: 'Kjop pakke for $149',
+    saveVsIndividual: 'Spar vs. enkelt',
+    catalogTitle: 'Velg dine apper',
+    catalogSubtitle: 'Kjop individuelle apper for $49 eller spar med en kategoripakke for $149.',
   },
   fi: {
     metaTitle: 'Hinnat - Ammattimaiset tulostusgeneraattorit | LessonCraftStudio',
@@ -839,6 +894,11 @@ const pricingContent: Record<string, {
     ctaButton: 'Tutustu generaattoreihin',
     comingSoon: 'Tulossa pian',
     noRefund: 'Ei palautusta - kokeile ensin ilmaiseksi vesileimalla',
+    buyApp: 'Osta hintaan $49',
+    buyBundle: 'Osta paketti hintaan $149',
+    saveVsIndividual: 'Saasta vs. yksittainen',
+    catalogTitle: 'Valitse sovelluksesi',
+    catalogSubtitle: 'Osta yksittaisia sovelluksia hintaan $49 tai saasta kategoriapaketin hintaan $149.',
   },
 };
 
@@ -1027,9 +1087,7 @@ export default async function PricingPage({
                 </div>
                 <p className="text-sm text-gray-500 mb-6">{t.bundleTier.per} &middot; {t.oneTime}</p>
                 <a
-                  href={`https://lessoncraftstudio-com.lemonsqueezy.com`}
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  href="#catalog"
                   className="block w-full text-center px-6 py-3 rounded-xl bg-gradient-to-r from-amber-500 to-orange-500 text-white font-semibold shadow-lg shadow-orange-500/20 hover:shadow-xl hover:shadow-orange-500/30 transition-all mb-6"
                 >
                   {t.bundleTier.cta}
@@ -1056,9 +1114,7 @@ export default async function PricingPage({
               </div>
               <p className="text-sm text-gray-500 mb-6">{t.individualTier.per} &middot; {t.oneTime}</p>
               <a
-                href={`https://lessoncraftstudio-com.lemonsqueezy.com`}
-                target="_blank"
-                rel="noopener noreferrer"
+                href="#catalog"
                 className="block w-full text-center px-6 py-3 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-semibold shadow-sm hover:shadow-md transition-all mb-6"
               >
                 {t.individualTier.cta}
@@ -1082,72 +1138,82 @@ export default async function PricingPage({
         </div>
       </section>
 
-      {/* ========== BUNDLE EXPLORER ========== */}
-      <section className="py-16 md:py-24 bg-white">
-        <div className="container mx-auto px-4 max-w-5xl">
-          <div className="text-center mb-12">
+      {/* ========== PRODUCT CATALOG ========== */}
+      <section id="catalog" className="py-16 md:py-24 bg-white scroll-mt-8">
+        <div className="container mx-auto px-4 max-w-6xl">
+          <div className="text-center mb-16">
             <h2 className="font-display text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              {t.bundlesTitle}
+              {t.catalogTitle}
             </h2>
-            <p className="text-gray-600 max-w-2xl mx-auto">
-              {t.bundlesSubtitle}
+            <p className="text-gray-600 max-w-2xl mx-auto text-lg">
+              {t.catalogSubtitle}
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
+          <div className="space-y-12">
             {categories.map(([catId, cat]) => {
               const appIds = cat.apps;
               const catName = CATEGORY_NAME_TRANSLATIONS[catId]?.[loc] || cat.name;
               const iconPath = categoryIcons[catId];
+              const savePct = Math.round((1 - 149 / (appIds.length * 49)) * 100);
 
               return (
-                <div
-                  key={catId}
-                  className="group relative rounded-2xl border border-gray-100 bg-gray-50/50 p-6 hover:shadow-lg hover:border-gray-200 transition-all duration-300"
-                >
-                  {/* Colored accent line */}
-                  <div className="absolute top-0 left-6 right-6 h-1 rounded-b-full" style={{ backgroundColor: cat.color }} />
-
-                  <div className="flex items-start justify-between mb-4 mt-1">
+                <div key={catId} className="rounded-2xl border border-gray-200 overflow-hidden bg-white shadow-sm">
+                  {/* Category header */}
+                  <div className="px-6 py-5 flex flex-col sm:flex-row sm:items-center justify-between gap-4" style={{ backgroundColor: `${cat.color}08`, borderBottom: `2px solid ${cat.color}20` }}>
                     <div className="flex items-center gap-3">
-                      <div className="w-10 h-10 rounded-xl flex items-center justify-center" style={{ backgroundColor: `${cat.color}15` }}>
+                      <div className="w-11 h-11 rounded-xl flex items-center justify-center" style={{ backgroundColor: `${cat.color}15` }}>
                         <svg className="w-5 h-5" style={{ color: cat.color }} fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
                           <path strokeLinecap="round" strokeLinejoin="round" d={iconPath} />
                         </svg>
                       </div>
                       <div>
-                        <h3 className="font-display font-bold text-gray-900">{catName}</h3>
-                        <span className="text-xs text-gray-500">{appIds.length} {t.appsIncluded}</span>
+                        <h3 className="font-display text-lg font-bold text-gray-900">{catName}</h3>
+                        <span className="text-sm text-gray-500">{appIds.length} {t.appsIncluded}</span>
                       </div>
                     </div>
-                    <div className="text-right">
-                      <span className="font-display font-bold text-gray-900">$149</span>
-                      <p className="text-xs text-gray-400">{t.oneTime}</p>
+                    <div className="flex items-center gap-4">
+                      <div className="text-right hidden sm:block">
+                        <span className="text-xs font-medium px-2 py-1 rounded-full bg-emerald-100 text-emerald-700">{t.saveVsIndividual} {savePct}%</span>
+                      </div>
+                      <a
+                        href={getBundleCheckoutUrl(catId as CategoryId)}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl text-sm font-bold text-white shadow-md hover:shadow-lg transition-all whitespace-nowrap"
+                        style={{ backgroundColor: cat.color }}
+                      >
+                        {t.buyBundle}
+                      </a>
                     </div>
                   </div>
 
-                  <div className="flex flex-wrap gap-2 mb-4">
+                  {/* App grid */}
+                  <div className="p-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
                     {appIds.map(appId => {
                       const appName = APP_NAME_TRANSLATIONS[appId]?.[loc] || ALL_APPS[appId].name;
                       return (
-                        <span
+                        <div
                           key={appId}
-                          className="inline-flex items-center px-2.5 py-1 rounded-lg text-xs font-medium bg-white border border-gray-200 text-gray-700 group-hover:border-gray-300 transition-colors"
+                          className="flex items-center justify-between gap-3 px-4 py-3 rounded-xl border border-gray-100 bg-gray-50/50 hover:border-gray-200 hover:bg-white transition-all"
                         >
-                          {appName}
-                        </span>
+                          <div className="flex items-center gap-2.5 min-w-0">
+                            <div className="w-2 h-2 rounded-full flex-shrink-0" style={{ backgroundColor: cat.color }} />
+                            <span className="text-sm font-medium text-gray-800 truncate">{appName}</span>
+                          </div>
+                          <a
+                            href={getCheckoutUrl(appId)}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="flex-shrink-0 inline-flex items-center px-3 py-1.5 rounded-lg text-xs font-semibold text-white transition-all hover:opacity-90"
+                            style={{ backgroundColor: cat.color }}
+                          >
+                            $49
+                          </a>
+                        </div>
                       );
                     })}
                   </div>
-                  <a
-                    href={getBundleCheckoutUrl(catId as CategoryId)}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center justify-center px-5 py-2.5 rounded-xl text-sm font-semibold text-white shadow-sm hover:shadow-md transition-all"
-                    style={{ backgroundColor: cat.color }}
-                  >
-                    {t.bundleTier.cta} &rarr;
-                  </a>
                 </div>
               );
             })}

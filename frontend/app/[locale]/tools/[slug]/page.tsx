@@ -14,6 +14,7 @@ import type { SupportedLocale } from '@/config/product-page-slugs';
 import { ogLocaleMap, getHreflangCode, localizedHomeLabel, generateVideoSchema, generateShowcaseImageSchemas } from '@/lib/schema-generator';
 import { getToolFallbackDescription } from '@/lib/localized-meta-fallback';
 import { ALL_APPS, type AppId } from '@/config/products';
+import BuyButton from '@/components/BuyButton';
 import { getLocalizedAppName } from '@/config/app-translations';
 import { getToolContent } from '@/config/tool-content';
 import { getSectionLabel } from '@/config/section-labels';
@@ -391,12 +392,15 @@ export default async function ToolPage({
             </h1>
             <p className="text-indigo-600 font-medium mb-2">{content.hero.tagline}</p>
             <ReadMoreText text={content.hero.description} locale={locale} className="text-lg text-gray-600 mb-8" lines={5} />
-            <a
-              href={launchUrl}
-              className="inline-flex items-center px-6 py-3 bg-indigo-600 text-white font-semibold rounded-lg hover:bg-indigo-700 transition-colors"
-            >
-              {cta.tryFreeNow}
-            </a>
+            <div className="flex flex-wrap items-center gap-3">
+              <a
+                href={launchUrl}
+                className="inline-flex items-center px-6 py-3 bg-indigo-600 text-white font-semibold rounded-lg hover:bg-indigo-700 transition-colors"
+              >
+                {cta.tryFreeNow}
+              </a>
+              <BuyButton appId={wpAppId} locale={locale} variant="watermark" />
+            </div>
           </div>
         </section>
 

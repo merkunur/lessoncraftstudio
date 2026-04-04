@@ -3,12 +3,15 @@
 import { useEffect, useState } from 'react';
 import { useRouter } from 'next/navigation';
 import {
-  LogOut, ExternalLink, Mail,
-  LayoutGrid, LifeBuoy, User,
-  Menu, X,
+  LogOut, ExternalLink, Mail, Play,
+  LayoutGrid, LifeBuoy, User, ShoppingCart,
+  Menu, X, CheckCircle, Calculator,
+  BookOpen, Palette, Puzzle, Lightbulb, Search,
+  Package, ChevronDown, ChevronUp,
 } from 'lucide-react';
-import { ALL_APPS } from '@/config/products';
-import type { AppId } from '@/config/products';
+import { ALL_APPS, APP_CATEGORIES } from '@/config/products';
+import type { AppId, CategoryId } from '@/config/products';
+import { getCheckoutUrl, getBundleCheckoutUrl } from '@/config/lemonsqueezy-products';
 import { useAuth } from '@/contexts/auth-context';
 
 interface MemberAccess {
@@ -17,36 +20,93 @@ interface MemberAccess {
 }
 
 /* ──────────────────────────────────────────────
-   Category styling for the branded card design
+   Category styling
    ────────────────────────────────────────────── */
 
-const CATEGORY_COLORS: Record<string, {
+const CATEGORY_STYLES: Record<string, {
   border: string;
   text: string;
   button: string;
+  bg: string;
+  bgLight: string;
+  ring: string;
+  iconBg: string;
 }> = {
-  math:     { border: 'border-l-blue-500',    text: 'text-blue-600',    button: 'bg-blue-500 hover:bg-blue-600' },
-  literacy: { border: 'border-l-emerald-500',  text: 'text-emerald-600',  button: 'bg-emerald-500 hover:bg-emerald-600' },
-  visual:   { border: 'border-l-amber-500',    text: 'text-amber-600',    button: 'bg-amber-500 hover:bg-amber-600' },
-  matching: { border: 'border-l-violet-500',   text: 'text-violet-600',   button: 'bg-violet-500 hover:bg-violet-600' },
-  puzzle:   { border: 'border-l-red-500',      text: 'text-red-600',      button: 'bg-red-500 hover:bg-red-600' },
-  search:   { border: 'border-l-cyan-500',     text: 'text-cyan-600',     button: 'bg-cyan-500 hover:bg-cyan-600' },
+  math: {
+    border: 'border-blue-500',
+    text: 'text-blue-600',
+    button: 'bg-blue-500 hover:bg-blue-600',
+    bg: 'bg-blue-500',
+    bgLight: 'bg-blue-50',
+    ring: 'ring-blue-200',
+    iconBg: 'bg-blue-100',
+  },
+  literacy: {
+    border: 'border-emerald-500',
+    text: 'text-emerald-600',
+    button: 'bg-emerald-500 hover:bg-emerald-600',
+    bg: 'bg-emerald-500',
+    bgLight: 'bg-emerald-50',
+    ring: 'ring-emerald-200',
+    iconBg: 'bg-emerald-100',
+  },
+  visual: {
+    border: 'border-amber-500',
+    text: 'text-amber-600',
+    button: 'bg-amber-500 hover:bg-amber-600',
+    bg: 'bg-amber-500',
+    bgLight: 'bg-amber-50',
+    ring: 'ring-amber-200',
+    iconBg: 'bg-amber-100',
+  },
+  matching: {
+    border: 'border-violet-500',
+    text: 'text-violet-600',
+    button: 'bg-violet-500 hover:bg-violet-600',
+    bg: 'bg-violet-500',
+    bgLight: 'bg-violet-50',
+    ring: 'ring-violet-200',
+    iconBg: 'bg-violet-100',
+  },
+  puzzle: {
+    border: 'border-red-500',
+    text: 'text-red-600',
+    button: 'bg-red-500 hover:bg-red-600',
+    bg: 'bg-red-500',
+    bgLight: 'bg-red-50',
+    ring: 'ring-red-200',
+    iconBg: 'bg-red-100',
+  },
+  search: {
+    border: 'border-cyan-500',
+    text: 'text-cyan-600',
+    button: 'bg-cyan-500 hover:bg-cyan-600',
+    bg: 'bg-cyan-500',
+    bgLight: 'bg-cyan-50',
+    ring: 'ring-cyan-200',
+    iconBg: 'bg-cyan-100',
+  },
 };
 
-const CATEGORY_LABELS: Record<string, string> = {
-  math: 'Math & Number',
-  literacy: 'Letters & Words',
-  visual: 'Drawing & Art',
-  matching: 'Matching & Sorting',
-  puzzle: 'Puzzles & Logic',
-  search: 'Search & Find',
+const CATEGORY_ICONS: Record<string, React.ComponentType<{ className?: string }>> = {
+  calculator: Calculator,
+  'book-open': BookOpen,
+  palette: Palette,
+  puzzle: Puzzle,
+  lightbulb: Lightbulb,
+  search: Search,
 };
+
+/* ──────────────────────────────────────────────
+   Main Component
+   ────────────────────────────────────────────── */
 
 export default function MemberDashboard() {
   const router = useRouter();
   const { user, isAuthenticated, loading: authLoading, logout } = useAuth();
   const [access, setAccess] = useState<MemberAccess | null>(null);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [collapsedCategories, setCollapsedCategories] = useState<Set<string>>(new Set());
 
   useEffect(() => {
     if (authLoading) return;
@@ -76,7 +136,9 @@ export default function MemberDashboard() {
     );
   }
 
-  const accessibleApps = access.apps.filter(id => id in ALL_APPS) as AppId[];
+  const purchasedApps = new Set(access.apps.filter(id => id in ALL_APPS));
+  const totalPurchased = purchasedApps.size;
+  const totalApps = Object.keys(ALL_APPS).length;
 
   async function handleLogout() {
     await logout();
@@ -85,21 +147,34 @@ export default function MemberDashboard() {
 
   function handleLaunchApp(appId: AppId) {
     const htmlFile = ALL_APPS[appId].htmlFile;
-
     const params = new URLSearchParams();
     params.set('tier', 'full-access');
     params.set('themes', 'all');
     params.set('langs', 'all');
     params.set('modes', 'all');
-
-    const url = `/worksheet-generators/${encodeURIComponent(htmlFile)}?${params.toString()}`;
-    window.open(url, '_blank');
+    window.open(`/worksheet-generators/${encodeURIComponent(htmlFile)}?${params.toString()}`, '_blank');
   }
+
+  function handleFreeTrial(appId: AppId) {
+    const htmlFile = ALL_APPS[appId].htmlFile;
+    window.open(`/worksheet-generators/${encodeURIComponent(htmlFile)}?tier=free`, '_blank');
+  }
+
+  function toggleCategory(categoryId: string) {
+    setCollapsedCategories(prev => {
+      const next = new Set(prev);
+      if (next.has(categoryId)) next.delete(categoryId);
+      else next.add(categoryId);
+      return next;
+    });
+  }
+
+  const categoryEntries = Object.entries(APP_CATEGORIES) as [CategoryId, typeof APP_CATEGORIES[CategoryId]][];
 
   return (
     <div className="min-h-screen bg-gray-50 flex flex-col">
-      {/* ── Branded Header ── */}
-      <header className="sticky top-0 z-50 bg-white">
+      {/* ── Header ── */}
+      <header className="sticky top-0 z-50 bg-white shadow-sm">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
           <div className="flex items-center gap-6">
             <button
@@ -167,77 +242,196 @@ export default function MemberDashboard() {
 
       {/* ── Main Content ── */}
       <main className="flex-1 px-4 sm:px-6 lg:px-8 py-6 sm:py-8">
-        <div className="max-w-7xl mx-auto">
-          <section>
-            <h2 className="text-xl font-display font-semibold text-gray-900 mb-5">My Apps</h2>
+        <div className="max-w-7xl mx-auto space-y-8">
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
-              {accessibleApps.map(appId => {
-                const app = ALL_APPS[appId];
-                const colors = CATEGORY_COLORS[app.category] || CATEGORY_COLORS.math;
-
-                return (
+          {/* ── Stats Bar ── */}
+          <div className="bg-white rounded-2xl border border-gray-200 p-6 shadow-sm">
+            <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
+              <div>
+                <h2 className="text-xl font-display font-semibold text-gray-900">
+                  Your Toolkit
+                </h2>
+                <p className="text-sm text-gray-500 mt-1">
+                  {totalPurchased === 0
+                    ? 'Try any app free with watermark, or purchase for clean exports + commercial license.'
+                    : `${totalPurchased} of ${totalApps} apps purchased`}
+                </p>
+              </div>
+              <div className="flex items-center gap-3 min-w-[200px]">
+                <div className="flex-1 h-2.5 bg-gray-100 rounded-full overflow-hidden">
                   <div
-                    key={appId}
-                    className={`bg-white rounded-lg border border-gray-200 border-l-4 ${colors.border} p-5 hover:-translate-y-0.5 hover:shadow-md transition-all duration-200`}
-                  >
-                    <span className={`text-[11px] font-semibold uppercase tracking-wider ${colors.text}`}>
-                      {CATEGORY_LABELS[app.category] || app.category}
-                    </span>
-                    <h3 className="text-lg font-display font-semibold text-gray-900 mt-1">
-                      {app.name}
-                    </h3>
-                    <p className="text-sm text-gray-500 mt-1">
-                      Create {app.name.toLowerCase()} worksheets
-                    </p>
+                    className="h-full bg-gradient-to-r from-primary to-secondary rounded-full transition-all duration-500"
+                    style={{ width: `${(totalPurchased / totalApps) * 100}%` }}
+                  />
+                </div>
+                <span className="text-sm font-semibold text-gray-700 whitespace-nowrap">
+                  {totalPurchased}/{totalApps}
+                </span>
+              </div>
+            </div>
+          </div>
 
-                    <div className="border-t border-gray-100 mt-4 pt-4 flex items-center gap-2">
-                      <button
-                        onClick={() => handleLaunchApp(appId)}
-                        className={`flex-1 inline-flex items-center justify-center gap-1.5 px-4 py-2 text-sm font-medium text-white ${colors.button} rounded-full transition-colors`}
-                      >
-                        Access Now
-                        <ExternalLink className="h-3.5 w-3.5" />
-                      </button>
-                      <a
-                        href="mailto:support@lessoncraftstudio.com"
-                        className="inline-flex items-center justify-center w-9 h-9 text-gray-400 hover:text-gray-600 border border-gray-200 hover:bg-gray-50 rounded-full transition-colors shrink-0"
-                        title="Support"
-                      >
-                        <LifeBuoy className="h-4 w-4" />
-                      </a>
+          {/* ── Category Sections ── */}
+          {categoryEntries.map(([categoryId, category]) => {
+            const styles = CATEGORY_STYLES[categoryId] || CATEGORY_STYLES.math;
+            const IconComponent = CATEGORY_ICONS[category.icon] || LayoutGrid;
+            const apps = category.apps;
+            const ownedInCategory = apps.filter(id => purchasedApps.has(id)).length;
+            const allOwned = ownedInCategory === apps.length;
+            const isCollapsed = collapsedCategories.has(categoryId);
+
+            return (
+              <section key={categoryId} className="bg-white rounded-2xl border border-gray-200 shadow-sm overflow-hidden">
+                {/* Category Header */}
+                <div
+                  className={`px-6 py-5 border-b border-gray-100 cursor-pointer select-none ${styles.bgLight}`}
+                  onClick={() => toggleCategory(categoryId)}
+                >
+                  <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
+                    <div className="flex items-center gap-4">
+                      <div className={`h-12 w-12 rounded-xl ${styles.iconBg} flex items-center justify-center shrink-0`}>
+                        <IconComponent className={`h-6 w-6 ${styles.text}`} />
+                      </div>
+                      <div className="flex-1 min-w-0">
+                        <div className="flex items-center gap-3">
+                          <h3 className="text-lg font-display font-semibold text-gray-900">
+                            {category.name}
+                          </h3>
+                          {allOwned ? (
+                            <span className="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full text-xs font-semibold bg-green-100 text-green-700">
+                              <CheckCircle className="h-3.5 w-3.5" />
+                              Complete
+                            </span>
+                          ) : (
+                            <span className="text-xs font-medium text-gray-400">
+                              {ownedInCategory}/{apps.length} owned
+                            </span>
+                          )}
+                        </div>
+                        <p className="text-sm text-gray-500 mt-0.5">{category.description}</p>
+                      </div>
+                    </div>
+
+                    <div className="flex items-center gap-3 shrink-0">
+                      {!allOwned && (
+                        <a
+                          href={getBundleCheckoutUrl(categoryId)}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          onClick={(e) => e.stopPropagation()}
+                          className={`inline-flex items-center gap-2 px-5 py-2.5 text-sm font-semibold text-white ${styles.button} rounded-xl shadow-sm hover:shadow-md transition-all duration-200`}
+                        >
+                          <Package className="h-4 w-4" />
+                          Buy Bundle - $149
+                        </a>
+                      )}
+                      {isCollapsed
+                        ? <ChevronDown className="h-5 w-5 text-gray-400" />
+                        : <ChevronUp className="h-5 w-5 text-gray-400" />}
                     </div>
                   </div>
-                );
-              })}
-            </div>
+                </div>
 
-            {accessibleApps.length === 0 && (
-              <div className="text-center py-16 bg-white rounded-2xl border border-gray-200">
-                <div className="w-16 h-16 mx-auto mb-4 rounded-full bg-gray-100 flex items-center justify-center">
-                  <LayoutGrid className="w-7 h-7 text-gray-400" />
-                </div>
-                <h3 className="text-lg font-semibold text-gray-900 mb-2">No apps found</h3>
-                <p className="text-gray-500 text-sm max-w-md mx-auto mb-6">
-                  If you recently purchased, make sure you are signed in with the same email you used at checkout.
-                </p>
-                <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
-                  <a
-                    href="/en/pricing"
-                    className="inline-flex items-center px-5 py-2.5 bg-blue-600 text-white text-sm font-semibold rounded-lg hover:bg-blue-700 transition-colors"
-                  >
-                    View Pricing
-                  </a>
-                  <a
-                    href="mailto:support@lessoncraftstudio.com"
-                    className="inline-flex items-center px-5 py-2.5 border border-gray-300 text-gray-700 text-sm font-semibold rounded-lg hover:bg-gray-50 transition-colors"
-                  >
-                    Contact Support
-                  </a>
-                </div>
+                {/* App Cards Grid */}
+                {!isCollapsed && (
+                  <div className="p-6">
+                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+                      {apps.map(appId => {
+                        const app = ALL_APPS[appId];
+                        const owned = purchasedApps.has(appId);
+
+                        if (owned) {
+                          return (
+                            <div
+                              key={appId}
+                              className={`relative rounded-xl border-2 ${styles.border} bg-white p-5 hover:-translate-y-0.5 hover:shadow-lg transition-all duration-200`}
+                            >
+                              <div className="flex items-start justify-between mb-3">
+                                <div>
+                                  <span className={`text-[11px] font-semibold uppercase tracking-wider ${styles.text}`}>
+                                    {category.name}
+                                  </span>
+                                  <h4 className="text-base font-display font-semibold text-gray-900 mt-0.5">
+                                    {app.name}
+                                  </h4>
+                                </div>
+                                <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[10px] font-bold bg-green-100 text-green-700 uppercase tracking-wider">
+                                  <CheckCircle className="h-3 w-3" />
+                                  Owned
+                                </span>
+                              </div>
+                              <p className="text-sm text-gray-500 mb-4">
+                                Create {app.name.toLowerCase()} worksheets
+                              </p>
+                              <button
+                                onClick={() => handleLaunchApp(appId)}
+                                className={`w-full inline-flex items-center justify-center gap-2 px-4 py-2.5 text-sm font-semibold text-white ${styles.button} rounded-xl transition-colors`}
+                              >
+                                <ExternalLink className="h-4 w-4" />
+                                Access Now
+                              </button>
+                            </div>
+                          );
+                        }
+
+                        return (
+                          <div
+                            key={appId}
+                            className="relative rounded-xl border border-gray-200 bg-white p-5 hover:-translate-y-0.5 hover:shadow-md transition-all duration-200"
+                          >
+                            <div className="flex items-start justify-between mb-3">
+                              <div>
+                                <span className="text-[11px] font-semibold uppercase tracking-wider text-gray-400">
+                                  {category.name}
+                                </span>
+                                <h4 className="text-base font-display font-semibold text-gray-900 mt-0.5">
+                                  {app.name}
+                                </h4>
+                              </div>
+                            </div>
+                            <p className="text-sm text-gray-500 mb-4">
+                              Create {app.name.toLowerCase()} worksheets
+                            </p>
+                            <div className="flex gap-2">
+                              <a
+                                href={getCheckoutUrl(appId)}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="flex-1 inline-flex items-center justify-center gap-1.5 px-4 py-2.5 text-sm font-semibold text-white bg-gray-900 hover:bg-gray-800 rounded-xl transition-colors"
+                              >
+                                <ShoppingCart className="h-3.5 w-3.5" />
+                                Buy $49
+                              </a>
+                              <button
+                                onClick={() => handleFreeTrial(appId)}
+                                className="flex-1 inline-flex items-center justify-center gap-1.5 px-4 py-2.5 text-sm font-semibold text-gray-700 bg-gray-100 hover:bg-gray-200 rounded-xl transition-colors"
+                              >
+                                <Play className="h-3.5 w-3.5" />
+                                Free Trial
+                              </button>
+                            </div>
+                          </div>
+                        );
+                      })}
+                    </div>
+                  </div>
+                )}
+              </section>
+            );
+          })}
+
+          {/* ── Empty State (no apps in system — shouldn't happen but safety) ── */}
+          {totalApps === 0 && (
+            <div className="text-center py-16 bg-white rounded-2xl border border-gray-200">
+              <div className="w-16 h-16 mx-auto mb-4 rounded-full bg-gray-100 flex items-center justify-center">
+                <LayoutGrid className="w-7 h-7 text-gray-400" />
               </div>
-            )}
-          </section>
+              <h3 className="text-lg font-semibold text-gray-900 mb-2">No apps available</h3>
+              <p className="text-gray-500 text-sm max-w-md mx-auto">
+                Something went wrong loading the app catalog. Please contact support.
+              </p>
+            </div>
+          )}
         </div>
       </main>
 

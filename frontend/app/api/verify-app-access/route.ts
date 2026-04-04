@@ -28,6 +28,18 @@ export async function POST(request: NextRequest) {
       return NextResponse.json({ hasAccess: false }, { status: 200 });
     }
 
+    // Verify session still exists in database (prevents revoked sessions)
+    const session = await prisma.session.findFirst({
+      where: {
+        token: token,
+        userId: decoded.userId,
+        expiresAt: { gt: new Date() },
+      },
+    });
+    if (!session) {
+      return NextResponse.json({ hasAccess: false }, { status: 200 });
+    }
+
     // Extract appId from body
     const body = await request.json();
     const appId = body.appId;

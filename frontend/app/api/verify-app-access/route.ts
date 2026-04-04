@@ -37,6 +37,16 @@ export async function POST(request: NextRequest) {
 
     const userId = decoded.userId;
 
+    // Admin override: full access to all apps
+    const user = await prisma.user.findUnique({
+      where: { id: userId },
+      select: { email: true, isAdmin: true },
+    });
+
+    if (user && (user.isAdmin || user.email.toLowerCase() === 'admin@lessoncraftstudio.com')) {
+      return NextResponse.json({ hasAccess: true }, { status: 200 });
+    }
+
     // Check purchases by userId
     const purchases = await prisma.purchase.findMany({
       where: { userId, status: 'active' },
@@ -50,11 +60,6 @@ export async function POST(request: NextRequest) {
     }
 
     // Also check by email (catches unlinked purchases)
-    const user = await prisma.user.findUnique({
-      where: { id: userId },
-      select: { email: true },
-    });
-
     if (user) {
       const emailPurchases = await prisma.purchase.findMany({
         where: { buyerEmail: user.email.toLowerCase().trim(), status: 'active', userId: null },

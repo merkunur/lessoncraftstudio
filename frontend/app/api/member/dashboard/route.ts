@@ -1,18 +1,16 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { withAuth } from '@/lib/auth-middleware';
 import { prisma } from '@/lib/prisma';
-import { getMergedAppAccess } from '@/lib/license-manager';
 
 export const dynamic = 'force-dynamic';
 
 /**
  * GET /api/member/dashboard
- * Returns the authenticated user's license-based access data.
- * Queries by userId (linked licenses) OR email (legacy unlinked licenses).
+ * Returns the authenticated user's purchased apps.
+ * Checks both new Purchase records (Lemon Squeezy) and legacy LicenseKey records.
  */
 export async function GET(request: NextRequest) {
   return withAuth(request, async (_req, userId) => {
-    // Get user email for legacy license lookup
     const user = await prisma.user.findUnique({
       where: { id: userId },
       select: { email: true },
@@ -22,31 +20,35 @@ export async function GET(request: NextRequest) {
       return NextResponse.json({ error: 'User not found' }, { status: 404 });
     }
 
-    // Get merged access across all active licenses for this email
-    const access = await getMergedAppAccess(user.email);
+    const email = user.email.toLowerCase().trim();
+    const allApps = new Set<string>();
+
+    // 1. Check Lemon Squeezy purchases
+    const purchases = await prisma.purchase.findMany({
+      where: { buyerEmail: email, status: 'active' },
+      orderBy: { createdAt: 'desc' },
+    });
+
+    for (const purchase of purchases) {
+      for (const app of purchase.appsAccess) {
+        allApps.add(app);
+      }
+    }
+
+    // 2. Check legacy license keys (backward compatibility)
+    const licenses = await prisma.licenseKey.findMany({
+      where: { email, status: 'active' },
+    });
+
+    for (const license of licenses) {
+      for (const app of license.appsAccess) {
+        allApps.add(app);
+      }
+    }
 
     return NextResponse.json({
       email: user.email,
-      apps: access.apps,
-      highestTier: access.highestTier,
-      hasCommercialLicense: access.hasCommercialLicense,
-      licenses: access.licenses.map(l => ({
-        licenseKey: maskLicenseKey(l.licenseKey),
-        productId: l.productId,
-        productTier: l.productTier,
-        status: l.status,
-        createdAt: l.createdAt,
-        expiresAt: l.expiresAt,
-      })),
+      apps: Array.from(allApps),
     });
   });
-}
-
-function maskLicenseKey(key: string): string {
-  // LCS-XXXXX-XXXXX-XXXXX-XXXXX → LCS-XXXXX-*****-*****-XXXXX
-  const parts = key.split('-');
-  if (parts.length === 5) {
-    return `${parts[0]}-${parts[1]}-*****-*****-${parts[4]}`;
-  }
-  return key;
 }

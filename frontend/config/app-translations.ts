@@ -8,7 +8,7 @@
  * apps page localeContent category names.
  */
 
-import type { AppId, CategoryId } from './warriorplus-products';
+import type { AppId, CategoryId } from './products';
 
 type Locale = 'en' | 'de' | 'fr' | 'es' | 'it' | 'pt' | 'nl' | 'da' | 'sv' | 'no' | 'fi';
 export type TierId = 'commercial' | 'full-access';

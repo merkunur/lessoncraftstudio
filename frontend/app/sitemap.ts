@@ -7,7 +7,6 @@ import { guidePageSlugs, getGuideAlternateUrls } from '@/config/guide-page-slugs
 import { ideaPageSlugs, getIdeaAlternateUrls } from '@/config/idea-page-slugs';
 import { comparePageSlugs, getCompareAlternateUrls } from '@/config/compare-page-slugs';
 import { blogPageSlugs, getBlogAlternateUrls } from '@/config/blog-page-slugs';
-import { getAllSalesPageSlugs } from '@/config/sales-pages';
 import { getHreflangCode } from '@/lib/schema-generator';
 import { SUPPORTED_LOCALES } from '@/config/locales';
 
@@ -119,14 +118,9 @@ export default async function sitemap({ id }: { id: number }): Promise<MetadataR
   }
 
   // ID 2: Sales pages (English only — WarriorPlus audience)
+  // ID 2: Reserved (sales pages removed during Lemon Squeezy migration)
   if (id === 2) {
-    const slugs = getAllSalesPageSlugs();
-    return slugs.map((slug) => ({
-      url: `${baseUrl}/en/get/${slug}`,
-      lastModified: STATIC_CONTENT_DATE,
-      changeFrequency: 'weekly' as const,
-      priority: 0.9,
-    }));
+    return [];
   }
 
   // ID 3: Tool pages (maker/generator intent — separate from /apps/ worksheets intent)

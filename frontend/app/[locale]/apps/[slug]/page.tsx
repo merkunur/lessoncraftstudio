@@ -10,7 +10,7 @@ import {
 import type { SupportedLocale } from '@/config/product-page-slugs';
 import { ogLocaleMap, getHreflangCode, generateVideoSchema, generateShowcaseImageSchemas } from '@/lib/schema-generator';
 import { getAppFallbackDescription } from '@/lib/localized-meta-fallback';
-import { ALL_APPS, APP_CATEGORIES, type AppId, type CategoryId } from '@/config/warriorplus-products';
+import { ALL_APPS, APP_CATEGORIES, type AppId, type CategoryId } from '@/config/products';
 import { getLocalizedAppName, getLocalizedCategoryName, getLocalizedSuffix } from '@/config/app-translations';
 import Link from 'next/link';
 import TryFreeButton from './TryFreeButton';

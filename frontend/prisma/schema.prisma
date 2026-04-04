@@ -1112,3 +1112,49 @@ model LicenseDevice {
   @@index([lastSeenAt])
   @@map("license_devices")
 }
+
+// ==========================================
+// LEMON SQUEEZY PURCHASES
+// ==========================================
+
+model Purchase {
+  id          String   @id @default(cuid())
+  lsOrderId   String   @unique @map("ls_order_id")
+  lsProductId String   @map("ls_product_id")
+
+  // Buyer info
+  buyerEmail String @map("buyer_email")
+  buyerName  String? @map("buyer_name")
+
+  // What was purchased
+  appsAccess String[] @default([]) @map("apps_access")
+  amount     Int // Price in cents
+  currency   String @default("USD")
+
+  // Status
+  status     String   @default("active") // "active", "refunded"
+  refundedAt DateTime? @map("refunded_at")
+
+  createdAt DateTime @default(now()) @map("created_at")
+  updatedAt DateTime @updatedAt @map("updated_at")
+
+  @@index([buyerEmail])
+  @@index([lsOrderId])
+  @@index([status])
+  @@map("purchases")
+}
+
+model LSWebhookEvent {
+  id          String   @id @default(cuid())
+  eventId     String   @unique @map("event_id")
+  eventType   String   @map("event_type")
+  orderId     String?  @map("order_id")
+  processedAt DateTime @default(now()) @map("processed_at")
+  status      String   @default("processed")
+  errorMessage String? @map("error_message") @db.Text
+  payload     Json?
+
+  @@index([eventId])
+  @@index([eventType])
+  @@map("ls_webhook_events")
+}

@@ -1,13 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { getAuthUser } from '@/lib/server-auth';
 import { prisma } from '@/lib/prisma';
-import Stripe from 'stripe';
 
 export const dynamic = 'force-dynamic';
-
-const stripe = new Stripe(process.env.STRIPE_SECRET_KEY!, {
-  apiVersion: '2025-08-27.basil',
-});
 
 /**
  * POST /api/gdpr/delete
@@ -76,22 +71,7 @@ export async function POST(req: NextRequest) {
       console.log('Could not log deletion request:', err);
     }
 
-    // Step 1: Cancel active Stripe subscription
-    if (user.stripeCustomerId && user.subscription) {
-      try {
-        const isActive = user.subscription.status === 'active' || user.subscription.status === 'past_due';
-
-        if (isActive && user.subscription.stripeSubscriptionId) {
-          await stripe.subscriptions.cancel(user.subscription.stripeSubscriptionId);
-          console.log(`Canceled subscription: ${user.subscription.stripeSubscriptionId}`);
-        }
-      } catch (error) {
-        console.error('Error canceling Stripe subscription:', error);
-        // Continue with deletion even if Stripe cancellation fails
-      }
-    }
-
-    // Step 2: Anonymize payment records (must retain for 7 years for tax/legal)
+    // Step 1: Anonymize payment records (must retain for 7 years for tax/legal)
     await prisma.payment.updateMany({
       where: { userId: currentUser.id },
       data: {
@@ -100,7 +80,7 @@ export async function POST(req: NextRequest) {
       },
     });
 
-    // Step 3: Delete user-specific data (cascade will handle related records)
+    // Step 2: Delete user-specific data (cascade will handle related records)
     // This will delete:
     // - User record
     // - Sessions
@@ -110,18 +90,6 @@ export async function POST(req: NextRequest) {
     await prisma.user.delete({
       where: { id: currentUser.id },
     });
-
-    // Step 4: Request Stripe to delete customer data
-    // Note: Stripe may retain some data for legal/compliance reasons
-    if (user.stripeCustomerId) {
-      try {
-        await stripe.customers.del(user.stripeCustomerId);
-        console.log(`Deleted Stripe customer: ${user.stripeCustomerId}`);
-      } catch (error) {
-        console.error('Error deleting Stripe customer:', error);
-        // Customer was already deleted or doesn't exist
-      }
-    }
 
     // Return success
     return NextResponse.json({
@@ -134,7 +102,6 @@ export async function POST(req: NextRequest) {
         dataRetention: {
           personalData: 'Immediately deleted',
           paymentRecords: 'Anonymized and retained for 7 years (legal requirement)',
-          stripeData: 'Deletion requested (subject to Stripe retention policies)',
         },
       },
     });

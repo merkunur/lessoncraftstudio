@@ -7,8 +7,8 @@
 
 import crypto from 'crypto';
 import { prisma } from '@/lib/prisma';
-import { getAppsForProduct, isValidAppId, WPLUS_PRODUCTS } from '@/config/warriorplus-products';
-import type { AppId } from '@/config/warriorplus-products';
+import { isValidAppId, getAllAppIds } from '@/config/products';
+import type { AppId } from '@/config/products';
 
 // ==========================================
 // LICENSE KEY FORMAT
@@ -39,7 +39,7 @@ function generateLicenseKeyString(): string {
 
 export type LicenseTier = 'single-app' | 'category-bundle' | 'full-access' | 'commercial' | 'agency' | 'pro-features';
 export type LicenseStatus = 'active' | 'revoked' | 'expired' | 'suspended';
-export type LicenseSource = 'warriorplus' | 'gumroad' | 'direct';
+export type LicenseSource = 'lemonsqueezy' | 'warriorplus' | 'gumroad' | 'direct';
 
 export interface GenerateLicenseOptions {
   email: string;
@@ -102,15 +102,13 @@ export async function generateLicenseKey(options: GenerateLicenseOptions): Promi
   // Determine which apps this license grants access to
   let appsAccess = options.appsAccess;
   if (!appsAccess || appsAccess.length === 0) {
-    appsAccess = getAppsForProduct(productId);
+    // Full-access tiers get all apps
+    appsAccess = getAllAppIds();
   }
 
-  // For commercial/agency tiers, always grant all apps
-  if (productTier === 'commercial' || productTier === 'agency') {
-    const megaBundleApps = WPLUS_PRODUCTS['mega-bundle']?.apps ?? [];
-    appsAccess = megaBundleApps.length > 0
-      ? [...megaBundleApps] as AppId[]
-      : getAppsForProduct('mega-bundle');
+  // For full-access/commercial/agency tiers, always grant all apps
+  if (productTier === 'full-access' || productTier === 'commercial' || productTier === 'agency') {
+    appsAccess = getAllAppIds();
   }
 
   // Generate unique license key
@@ -388,14 +386,12 @@ export async function upgradeLicense(
   newTier: LicenseTier,
   transactionId?: string
 ): Promise<LicenseInfo> {
-  // Generate a new license for the upgrade
-  const newApps = getAppsForProduct(newProductId);
-
+  // With the simplified model, all licenses get full access
   return generateLicenseKey({
     email,
     productId: newProductId,
     productTier: newTier,
     transactionId,
-    appsAccess: newApps as AppId[],
+    appsAccess: getAllAppIds(),
   });
 }

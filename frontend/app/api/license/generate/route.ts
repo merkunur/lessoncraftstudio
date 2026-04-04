@@ -13,12 +13,12 @@ import { NextRequest, NextResponse } from 'next/server';
 import { getCurrentUser } from '@/lib/auth';
 import { generateLicenseKey } from '@/lib/license-manager';
 import type { LicenseTier, LicenseSource } from '@/lib/license-manager';
-import { WPLUS_PRODUCTS } from '@/config/warriorplus-products';
+import { isValidAppId } from '@/config/products';
 
 export const dynamic = 'force-dynamic';
 
 const VALID_TIERS: LicenseTier[] = ['single-app', 'category-bundle', 'full-access', 'commercial', 'agency', 'pro-features'];
-const VALID_SOURCES: LicenseSource[] = ['warriorplus', 'gumroad', 'direct'];
+const VALID_SOURCES: LicenseSource[] = ['lemonsqueezy', 'warriorplus', 'gumroad', 'direct'];
 
 export async function POST(request: NextRequest) {
   try {
@@ -66,8 +66,8 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    // Validate product exists
-    if (!WPLUS_PRODUCTS[productId]) {
+    // Validate product ID is a known app ID or known product
+    if (!isValidAppId(productId) && !productId.endsWith('-bundle') && productId !== 'full-access') {
       return NextResponse.json(
         { error: `Unknown product ID: ${productId}` },
         { status: 400 }

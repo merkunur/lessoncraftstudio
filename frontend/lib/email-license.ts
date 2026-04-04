@@ -7,8 +7,8 @@
 import { render } from '@react-email/render';
 import { sendEmail } from './email';
 import { LicenseDeliveryEmail } from './email/templates/license-delivery-email';
-import { ALL_APPS } from '@/config/warriorplus-products';
-import type { AppId } from '@/config/warriorplus-products';
+import { ALL_APPS } from '@/config/products';
+import type { AppId } from '@/config/products';
 
 interface SendLicenseDeliveryOptions {
   to: string;

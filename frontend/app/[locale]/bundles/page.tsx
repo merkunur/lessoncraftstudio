@@ -4,7 +4,7 @@ import { SUPPORTED_LOCALES } from '@/config/locales';
 import { bundlePageSlugs, getBundleSlugForLocale } from '@/config/bundle-page-slugs';
 import { getHreflangCode, ogLocaleMap, generateBundlesCollectionSchema, generateBundlesItemListSchema } from '@/lib/schema-generator';
 import type { SupportedLocale } from '@/config/product-page-slugs';
-import { APP_CATEGORIES } from '@/config/warriorplus-products';
+import { APP_CATEGORIES } from '@/config/products';
 import { getBundleContent } from '@/config/bundle-content';
 
 const baseUrl = 'https://www.lessoncraftstudio.com';

@@ -4,7 +4,7 @@ import { SUPPORTED_LOCALES } from '@/config/locales';
 import { toolPageSlugs, getToolSlugForLocale } from '@/config/tool-page-slugs';
 import { getHreflangCode, ogLocaleMap, generateToolsCollectionSchema, generateToolsItemListSchema } from '@/lib/schema-generator';
 import type { SupportedLocale } from '@/config/product-page-slugs';
-import { ALL_APPS, APP_CATEGORIES, type AppId } from '@/config/warriorplus-products';
+import { ALL_APPS, APP_CATEGORIES, type AppId } from '@/config/products';
 import { getLocalizedAppName } from '@/config/app-translations';
 import { showcaseConfigs } from '@/app/[locale]/apps/[slug]/showcase/showcase-configs';
 import { encodeImagePath } from '@/lib/encode-image-path';

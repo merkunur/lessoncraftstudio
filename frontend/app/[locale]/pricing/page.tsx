@@ -2,8 +2,9 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 import { SUPPORTED_LOCALES } from '@/config/locales';
 import { getHreflangCode, ogLocaleMap } from '@/lib/schema-generator';
-import { ALL_APPS, APP_CATEGORIES, type CategoryId } from '@/config/warriorplus-products';
+import { ALL_APPS, APP_CATEGORIES, type CategoryId } from '@/config/products';
 import { APP_NAME_TRANSLATIONS, CATEGORY_NAME_TRANSLATIONS } from '@/config/app-translations';
+import { getBundleCheckoutUrl } from '@/config/lemonsqueezy-products';
 import FAQAccordion from '@/components/FAQAccordion';
 
 const baseUrl = 'https://www.lessoncraftstudio.com';
@@ -70,7 +71,7 @@ const pricingContent: Record<string, {
         '11 languages included',
         'Answer keys included',
       ],
-      cta: 'Coming Soon',
+      cta: 'Browse Apps',
     },
     bundleTier: {
       name: 'Category Bundle',
@@ -86,7 +87,7 @@ const pricingContent: Record<string, {
         '11 languages included',
       ],
       badge: 'Best Value',
-      cta: 'Coming Soon',
+      cta: 'Browse Bundles',
     },
     bundlesTitle: '6 Category Bundles Available',
     bundlesSubtitle: 'Each bundle includes all generators in a category with full commercial license.',
@@ -99,8 +100,8 @@ const pricingContent: Record<string, {
       { question: 'Why is there no refund policy?', answer: 'Because you can try everything free with watermark before purchasing. You know exactly what you\'re getting. The paid license simply removes the watermark and grants commercial rights to sell your creations.' },
       { question: 'What does the commercial license include?', answer: 'Full commercial rights to sell the printables you create. Sell on Etsy, Amazon KDP, Gumroad, your own website, or any other platform. No attribution required, no royalties, no limits on sales volume.' },
       { question: 'What\'s the difference between individual and bundle?', answer: 'An individual license covers one specific generator for $49. A bundle covers all generators in a category (4-7 apps) for $149 - saving up to 70% compared to buying individually.' },
-      { question: 'What payment methods will be accepted?', answer: 'We\'re setting up payments through Lemon Squeezy, which supports all major credit cards, PayPal, and more. Purchase options will be available soon.' },
-      { question: 'When will purchases be available?', answer: 'We\'re currently setting up our payment system with Lemon Squeezy. In the meantime, try all 33 generators free with watermark to find the ones that work best for your printable business.' },
+      { question: 'What payment methods are accepted?', answer: 'We use Lemon Squeezy for secure payments, which supports all major credit cards, PayPal, and more.' },
+      { question: 'How do I access my purchased apps?', answer: 'After purchase, sign in at lessoncraftstudio.com/member with the same email you used to buy. Your apps will be unlocked automatically.' },
     ],
     faqTitle: 'Frequently Asked Questions',
     ctaTitle: 'Try All 33 Generators Free',
@@ -1025,9 +1026,14 @@ export default async function PricingPage({
                   <span className="font-display text-5xl font-bold text-gray-900">{t.bundleTier.price}</span>
                 </div>
                 <p className="text-sm text-gray-500 mb-6">{t.bundleTier.per} &middot; {t.oneTime}</p>
-                <div className="block w-full text-center px-6 py-3 rounded-xl bg-gradient-to-r from-amber-500 to-orange-500 text-white font-semibold shadow-lg shadow-orange-500/20 mb-6 opacity-75 cursor-default">
-                  {t.comingSoon}
-                </div>
+                <a
+                  href={`https://lessoncraftstudio-com.lemonsqueezy.com`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block w-full text-center px-6 py-3 rounded-xl bg-gradient-to-r from-amber-500 to-orange-500 text-white font-semibold shadow-lg shadow-orange-500/20 hover:shadow-xl hover:shadow-orange-500/30 transition-all mb-6"
+                >
+                  {t.bundleTier.cta}
+                </a>
                 <ul className="space-y-3">
                   {t.bundleTier.features.map((feature, i) => (
                     <li key={i} className="flex items-start gap-3 text-sm text-gray-700">
@@ -1049,9 +1055,14 @@ export default async function PricingPage({
                 <span className="font-display text-5xl font-bold text-gray-900">{t.individualTier.price}</span>
               </div>
               <p className="text-sm text-gray-500 mb-6">{t.individualTier.per} &middot; {t.oneTime}</p>
-              <div className="block w-full text-center px-6 py-3 rounded-xl bg-blue-600 text-white font-semibold shadow-sm mb-6 opacity-75 cursor-default">
-                {t.comingSoon}
-              </div>
+              <a
+                href={`https://lessoncraftstudio-com.lemonsqueezy.com`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block w-full text-center px-6 py-3 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-semibold shadow-sm hover:shadow-md transition-all mb-6"
+              >
+                {t.individualTier.cta}
+              </a>
               <ul className="space-y-3">
                 {t.individualTier.features.map((feature, i) => (
                   <li key={i} className="flex items-start gap-3 text-sm text-gray-600">
@@ -1115,7 +1126,7 @@ export default async function PricingPage({
                     </div>
                   </div>
 
-                  <div className="flex flex-wrap gap-2">
+                  <div className="flex flex-wrap gap-2 mb-4">
                     {appIds.map(appId => {
                       const appName = APP_NAME_TRANSLATIONS[appId]?.[loc] || ALL_APPS[appId].name;
                       return (
@@ -1128,6 +1139,15 @@ export default async function PricingPage({
                       );
                     })}
                   </div>
+                  <a
+                    href={getBundleCheckoutUrl(catId as CategoryId)}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center justify-center px-5 py-2.5 rounded-xl text-sm font-semibold text-white shadow-sm hover:shadow-md transition-all"
+                    style={{ backgroundColor: cat.color }}
+                  >
+                    {t.bundleTier.cta} &rarr;
+                  </a>
                 </div>
               );
             })}

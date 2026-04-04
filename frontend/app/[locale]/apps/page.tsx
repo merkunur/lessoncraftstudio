@@ -4,7 +4,7 @@ import AppCard from '@/components/apps/AppCard';
 import { generateAppsCollectionSchema, generateAppsItemListSchema, getHreflangCode, ogLocaleMap } from '@/lib/schema-generator';
 import { getSlugForLocale, type SupportedLocale } from '@/config/product-page-slugs';
 import { SUPPORTED_LOCALES } from '@/config/locales';
-import { ALL_APPS, APP_CATEGORIES, type AppId, type CategoryId } from '@/config/warriorplus-products';
+import { ALL_APPS, APP_CATEGORIES, type AppId, type CategoryId } from '@/config/products';
 import { getLocalizedAppName } from '@/config/app-translations';
 import { showcaseConfigs } from '@/app/[locale]/apps/[slug]/showcase/showcase-configs';
 import { encodeImagePath } from '@/lib/encode-image-path';

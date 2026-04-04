@@ -213,17 +213,17 @@ const content: BundleContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/wordsearch/wordsearch portrait.webp',
+      primary: '/samples/finnish/wordsearch/Sanahaku%201.webp',
       primaryAlt: 'Sanahakutyoarkki temaattisella sanastoristikolla ja varikoroitetuilla vastausavaimilla',
     },
     sampleGallery: [
-      { src: '/samples/english/alphabet train/Alphabet Train 1.webp', alt: 'Aakkosjunatyoarkki kirjain-kuva-parituksella', caption: 'Aakkosjunatyoarkki' },
-      { src: '/samples/english/prepositions/prepositions_worksheet (1).webp', alt: 'Prepositiotyoarkki paikallisilla suhteilla ja kuvilla', caption: 'Prepositiotyoarkki' },
-      { src: '/samples/english/word guess/clue-grid_worksheet.webp', alt: 'Arvaa sana -tyoarkki kuvavihjeilla ja kirjainaukoilla', caption: 'Arvaa sana -tyoarkki' },
-      { src: '/samples/english/word scramble/word scramble portrait.webp', alt: 'Kirjainsekoitustyoarkki varikoroitetuilla kirjainlaatoilla', caption: 'Kirjainsekoitustyoarkki' },
-      { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Sanahakuristikko piilotetuilla sanastosanoilla', caption: 'Sanahakutyoarkki' },
-      { src: '/samples/english/cryptogram/cryptogram_worksheet.webp', alt: 'Kryptogrammipulma kuvasalakirjoituskoodauksella', caption: 'Kryptogrammityoarkki' },
-      { src: '/samples/english/writing/writing.webp', alt: 'Kasialasta kirjoitusharjoitustyoarkki ohjatuilla piirroilla', caption: 'Kirjoitusharjoitustyoarkki' },
+      { src: '/samples/finnish/alphabet%20train/Aakkostjuna%201.webp', alt: 'Aakkosjunatyoarkki kirjain-kuva-parituksella', caption: 'Aakkosjunatyoarkki' },
+      { src: '/samples/finnish/prepositions/Prepositiot%201.webp', alt: 'Prepositiotyoarkki paikallisilla suhteilla ja kuvilla', caption: 'Prepositiotyoarkki' },
+      { src: '/samples/finnish/word%20guess/Arvaa%20Sana%201.webp', alt: 'Arvaa sana -tyoarkki kuvavihjeilla ja kirjainaukoilla', caption: 'Arvaa sana -tyoarkki' },
+      { src: '/samples/finnish/word%20scramble/Kirjainsekoitus%202.webp', alt: 'Kirjainsekoitustyoarkki varikoroitetuilla kirjainlaatoilla', caption: 'Kirjainsekoitustyoarkki' },
+      { src: '/samples/finnish/wordsearch/Sanahaku%201.webp', alt: 'Sanahakuristikko piilotetuilla sanastosanoilla', caption: 'Sanahakutyoarkki' },
+      { src: '/samples/finnish/cryptogram/Kuvakryptogrammi%201.webp', alt: 'Kryptogrammipulma kuvasalakirjoituskoodauksella', caption: 'Kryptogrammityoarkki' },
+      { src: '/samples/finnish/writing/writing.webp', alt: 'Kasialasta kirjoitusharjoitustyoarkki ohjatuilla piirroilla', caption: 'Kirjoitusharjoitustyoarkki' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Lukeminen ja kieli -paketti — Katso kaikki 7 generaattoria toiminnassa',

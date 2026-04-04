@@ -81,10 +81,10 @@ const content: ToolContent = {
   ],
 
   visuals: {
-    heroImages: { primary: '/samples/english/crossword/crossword_worksheet.webp', primaryAlt: 'Kuvaristikkopalapeli kuvavihjeilla 15x15-ristikkoruudukon vieressa numeroiduilla vihjepaikoilla ja lokalisoidulla sinisella otsikolla' },
+    heroImages: { primary: '/samples/finnish/crossword/Kuvaristikko%201.webp', primaryAlt: 'Kuvaristikkopalapeli kuvavihjeilla 15x15-ristikkoruudukon vieressa numeroiduilla vihjepaikoilla ja lokalisoidulla sinisella otsikolla' },
     sampleGallery: [
-      { src: '/samples/english/crossword/crossword_worksheet (1).webp', alt: 'Mukautetun sanalistan ristikko tekstivihjeilla ja ristikkoruudukolla nayttaen SANA vihje -muodon syoetemenetelman', caption: 'Mukautettu Sanalista -tila — perinteiset teksti vihje-ristikot omalla sanastollasi' },
-      { src: '/samples/english/crossword/crossword_worksheet (5).webp', alt: 'Ristikkopalapelin vastausavain kaikilla oikeilla kirjaimilla taeytettyna 15x15-ruudukon soluihin', caption: 'Automaattisesti generoitu vastausavain — taeytetty ruudukko nayttaa kaikki oikeat vastaukset itsetarkistukseen' },
+      { src: '/samples/finnish/crossword/Kuvaristikko%202.webp', alt: 'Mukautetun sanalistan ristikko tekstivihjeilla ja ristikkoruudukolla nayttaen SANA vihje -muodon syoetemenetelman', caption: 'Mukautettu Sanalista -tila — perinteiset teksti vihje-ristikot omalla sanastollasi' },
+      { src: '/samples/finnish/crossword/Kuvaristikko%203.webp', alt: 'Ristikkopalapelin vastausavain kaikilla oikeilla kirjaimilla taeytettyna 15x15-ruudukon soluihin', caption: 'Automaattisesti generoitu vastausavain — taeytetty ruudukko nayttaa kaikki oikeat vastaukset itsetarkistukseen' },
     ],
     youtubeId: 'b3WKDrzif-w',
     videoTitle: 'Nain teet kuvaristikkoja kuvavihjeilla, neljalla syoetemenetelmalla ja automaattisilla vastausavaimilla — vaiheittainen opas',

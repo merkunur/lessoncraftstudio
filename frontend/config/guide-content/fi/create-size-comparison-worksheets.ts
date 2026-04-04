@@ -185,10 +185,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/big small/big-small-worksheet_worksheet.webp', alt: 'Kokovertailutyöarkki temaattisilla kuvilla eri kokoina, joka näyttää ympyröi iso -harjoituksen esikouluun' },
+    heroImage: { src: '/samples/finnish/big%20small/Iso%20vai%20Pieni%202.webp', alt: 'Kokovertailutyöarkki temaattisilla kuvilla eri kokoina, joka näyttää ympyröi iso -harjoituksen esikouluun' },
     samples: [
-      { src: '/samples/english/big small/big-small-worksheet_worksheet.webp', alt: 'Iso ja pieni kokovertailutyöarkki temaattisilla kuvilla ja viidellä harjoitustyypillä', caption: 'Kokovertailutyöarkki temaattisilla kuvilla ja automaattisilla vastausilmaisimilla' },
-      { src: '/samples/english/big small/big-small-different images.webp', alt: 'Ympyröi iso -työarkki identtisillä eläinkuvilla eri kokoina', caption: 'Ympyröi iso -tila temaattisilla kuvilla visuaalisen koon erottelun harjoittamiseen' },
+      { src: '/samples/finnish/big%20small/Iso%20vai%20Pieni%202.webp', alt: 'Iso ja pieni kokovertailutyöarkki temaattisilla kuvilla ja viidellä harjoitustyypillä', caption: 'Kokovertailutyöarkki temaattisilla kuvilla ja automaattisilla vastausilmaisimilla' },
+      { src: '/samples/finnish/big%20small/Iso%20vai%20Pieni%201.webp', alt: 'Ympyröi iso -työarkki identtisillä eläinkuvilla eri kokoina', caption: 'Ympyröi iso -tila temaattisilla kuvilla visuaalisen koon erottelun harjoittamiseen' },
     ],
     youtubeId: 'S2s2U6Nb7FI',
     videoTitle: 'Näin luot kokovertailutyöarkkeja — Täydellinen opas',

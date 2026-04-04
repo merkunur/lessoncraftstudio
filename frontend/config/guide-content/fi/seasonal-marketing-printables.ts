@@ -142,22 +142,22 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/english/bingo/bingo_card.webp',
+      src: '/samples/finnish/bingo/kuvabingo%201.webp',
       alt: 'Bingokortti joka esittää kausiluonteista tulostettavaa tuotetta ihanteellista juhlapyhämarkkinointikampanjoihin',
     },
     samples: [
       {
-        src: '/samples/english/bingo/bingo_card.webp',
+        src: '/samples/finnish/bingo/kuvabingo%201.webp',
         alt: 'Bingokortti kausiluonteisena tulostettavana juhlapyhätapahtumiin ja juhliin',
         caption: 'Bingokortit sopeutuvat kaikkiin kausiteemoihin tehden niistä ihanteellisia tuotteita ympärivuotiseen kausimarkkinointiin',
       },
       {
-        src: '/samples/english/coloring/coloring portrait 1.webp',
+        src: '/samples/finnish/coloring/coloring%20portrait%201.webp',
         alt: 'Värityssivu kausiluonteisena tulostettavana sisältönä juhlapyhä­markkinapaikka­listauksiin',
         caption: 'Kausiluonteiset värityssivut ovat johdonmukaisesti myydyimpiä tuotteita juhlapyhien kysynnän huippujen aikana',
       },
       {
-        src: '/samples/english/wordsearch/wordsearch portrait.webp',
+        src: '/samples/finnish/wordsearch/Sanahaku%201.webp',
         alt: 'Sananetsintäpulma kausiluonteisella sanastolla juhlapyhämarkkinointiin',
         caption: 'Temaattiset sananetsinnät yhdistävät kausiluonteisen vetovoiman opetukselliseen arvoon vahvaan markkinapaikkasuoritukseen',
       },

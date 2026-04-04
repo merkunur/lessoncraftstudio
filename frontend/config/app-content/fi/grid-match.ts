@@ -208,22 +208,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/grid match/Grid Match.webp',
+      primary: '/samples/finnish/grid%20match/Ruudukkopalapeli%201.webp',
       primaryAlt: 'Ruudukkoyhdistäminen kuvapulmatyöarkki kuvaruuduilla jaettuna ruudukkoon, vihjesolut paljastettuina ja numeroitu ruutupaletti yhdistämistä varten',
     },
     sampleGallery: [
       {
-        src: '/samples/english/grid match/Grid Match (1).webp',
+        src: '/samples/finnish/grid%20match/Ruudukkopalapeli%202.webp',
         alt: 'Kolme kertaa kolme ruudukkoyhdistämispulma yhdellä vihjesolulla ja kahdeksalla numeroidulla ruudulla paletissa',
         caption: '3×3 ruudukkopulma — yksi vihjesolu paljastettuna, kahdeksan ruutua yhdistettäväksi numeroidusta paletista',
       },
       {
-        src: '/samples/english/grid match/Grid Match (5).webp',
+        src: '/samples/finnish/grid%20match/Ruudukkopalapeli%203.webp',
         alt: 'Neljä kertaa neljä edistynyt ruudukkoyhdistämispulma kuudellatoista ruudulla ja minimaalisilla vihjeillä',
         caption: '4×4 edistynyt pulma — suurin ruudukkokoko haastaviin visuaalisen havainnon harjoituksiin',
       },
       {
-        src: '/samples/english/grid match/Grid Match answer_key.webp',
+        src: '/samples/finnish/grid%20match/Ruudukkopalapeli%201%20answer_key.webp',
         alt: 'Ruudukkoyhdistämisen vastauslehti näyttäen kokonaisen kuvan numeroiduilla ympyröillä jokaisen ruudukon solun päällä',
         caption: 'Automaattisesti generoitu vastauslehti — numeroidut ympyrät näyttävät oikean ruudun sijoituksen kokonaisella kuvalla',
       },

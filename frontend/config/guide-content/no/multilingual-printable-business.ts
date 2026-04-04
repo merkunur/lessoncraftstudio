@@ -39,11 +39,11 @@ const content: GuideContent = {
     { appId: 'addition', title: 'Addisjonsarbeidsark-generator', description: 'Mattearbeidsark krysser sprakbarrierer naturlig siden tall er universelle pa tvers av markeder.' },
   ],
   visuals: {
-    heroImage: { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Ordsoek-arbeidsark som demonstrerer flerspraklig printable-virksomhetspotensial' },
+    heroImage: { src: '/samples/norwegian/wordsearch/Ordleting%201.webp', alt: 'Ordsoek-arbeidsark som demonstrerer flerspraklig printable-virksomhetspotensial' },
     samples: [
-      { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Ordsoek-puslespill med flerspraklig kapasitet for internasjonalt salg', caption: 'Ordsoek kan genereres pa 11 sprak, noe som gjor dem ideelle for flerspraklig utvidelse' },
-      { src: '/samples/english/matching/matching portrait.webp', alt: 'Matchingsarbeidsark med visuelle temaer som fungerer pa tvers av sprakmarkeder', caption: 'Visuelle matchingsarbeidsark bruker bilder som oversetter universelt pa tvers av sprak' },
-      { src: '/samples/english/addition/Addition Fun 1.webp', alt: 'Addisjonsarbeidsark som demonstrerer universell appell pa tvers av sprakbarrierer', caption: 'Mattearbeidsark krysser sprakbarrierer naturlig siden tall er universelle' },
+      { src: '/samples/norwegian/wordsearch/Ordleting%201.webp', alt: 'Ordsoek-puslespill med flerspraklig kapasitet for internasjonalt salg', caption: 'Ordsoek kan genereres pa 11 sprak, noe som gjor dem ideelle for flerspraklig utvidelse' },
+      { src: '/samples/norwegian/matching/Finn%20Parene%201.webp', alt: 'Matchingsarbeidsark med visuelle temaer som fungerer pa tvers av sprakmarkeder', caption: 'Visuelle matchingsarbeidsark bruker bilder som oversetter universelt pa tvers av sprak' },
+      { src: '/samples/norwegian/addition/G%C3%B8y%20Addisjon%201.webp', alt: 'Addisjonsarbeidsark som demonstrerer universell appell pa tvers av sprakbarrierer', caption: 'Mattearbeidsark krysser sprakbarrierer naturlig siden tall er universelle' },
     ],
   },
 };

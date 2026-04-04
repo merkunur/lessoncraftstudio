@@ -63,11 +63,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/addition/Addition Fun 1.webp', alt: 'Ammattimainen yhteenlaskutyöarkki esittelemässä premium-hinnoittelua tukevaa laatua' },
+    heroImage: { src: '/samples/finnish/addition/Hauska%20Yhteenlasku%201.webp', alt: 'Ammattimainen yhteenlaskutyöarkki esittelemässä premium-hinnoittelua tukevaa laatua' },
     samples: [
-      { src: '/samples/english/addition/Addition Fun 1.webp', alt: 'Yhteenlaskutyöarkki temaattisilla kuvilla tukemassa premium-hinnoittelua', caption: 'Ammattimainen muotoilu ja temaattiset kuvat oikeuttavat korkeammat hintapisteet' },
-      { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Sananetsintäpulma esittelemässä ominaisuusdifferentiointia hinnoittelua varten', caption: 'Sananetsintäpulmat temaattisilla kuvilla myyvät korkeammalla hinnalla kuin pelkät tekstiversiot kaikilla alustoilla' },
-      { src: '/samples/english/coloring/coloring portrait 2.webp', alt: 'Värityssivu näyttäen laatua joka tukee kilpailukykyistä hinnoittelua', caption: 'Korkealaatuiset värityssivut osoittavat miten tuotteen laatu mahdollistaa suoraan premium-hinnoittelun kilpailluissa kategorioissa' },
+      { src: '/samples/finnish/addition/Hauska%20Yhteenlasku%201.webp', alt: 'Yhteenlaskutyöarkki temaattisilla kuvilla tukemassa premium-hinnoittelua', caption: 'Ammattimainen muotoilu ja temaattiset kuvat oikeuttavat korkeammat hintapisteet' },
+      { src: '/samples/finnish/wordsearch/Sanahaku%201.webp', alt: 'Sananetsintäpulma esittelemässä ominaisuusdifferentiointia hinnoittelua varten', caption: 'Sananetsintäpulmat temaattisilla kuvilla myyvät korkeammalla hinnalla kuin pelkät tekstiversiot kaikilla alustoilla' },
+      { src: '/samples/finnish/coloring/coloring%20portrait%202.webp', alt: 'Värityssivu näyttäen laatua joka tukee kilpailukykyistä hinnoittelua', caption: 'Korkealaatuiset värityssivut osoittavat miten tuotteen laatu mahdollistaa suoraan premium-hinnoittelun kilpailluissa kategorioissa' },
     ],
     youtubeId: '-JIawojGNr0',
     videoTitle: 'Kuinka luoda matematiikkatyöarkkeja nopeasti — Tehokas tuotanto parempiin voittomarginaaleihin',

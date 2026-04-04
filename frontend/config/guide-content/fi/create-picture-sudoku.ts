@@ -189,10 +189,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/sudoku/sudoku_worksheet.webp', alt: 'Kuvasudoku-työarkki temaattisilla kuvilla, joka näyttää 4x4-logiikkapalapelin nuoremmille käyttäjille' },
+    heroImage: { src: '/samples/finnish/sudoku/Kuva-Sudoku%202.webp', alt: 'Kuvasudoku-työarkki temaattisilla kuvilla, joka näyttää 4x4-logiikkapalapelin nuoremmille käyttäjille' },
     samples: [
-      { src: '/samples/english/sudoku/sudoku_worksheet.webp', alt: 'Kuvapohjainen 4x4 sudoku-palapeli eläinteemalla esikoululaisille', caption: 'Helppo vaikeustason kuvasudoku maatilan eläimet -teemalla neljällä tyhjällä solulla' },
-      { src: '/samples/english/sudoku/sudoku_worksheet.webp', alt: 'Kuvasudokun vastausavain, joka näyttää täydellisen 4x4-ruudukon kaikilla kuvilla täytettyinä', caption: 'Automaattinen vastausavain, joka luodaan jokaisen kuvasudoku-palapelin rinnalle' },
+      { src: '/samples/finnish/sudoku/Kuva-Sudoku%202.webp', alt: 'Kuvapohjainen 4x4 sudoku-palapeli eläinteemalla esikoululaisille', caption: 'Helppo vaikeustason kuvasudoku maatilan eläimet -teemalla neljällä tyhjällä solulla' },
+      { src: '/samples/finnish/sudoku/Kuva-Sudoku%202.webp', alt: 'Kuvasudokun vastausavain, joka näyttää täydellisen 4x4-ruudukon kaikilla kuvilla täytettyinä', caption: 'Automaattinen vastausavain, joka luodaan jokaisen kuvasudoku-palapelin rinnalle' },
     ],
     youtubeId: 'bqVioFbkYbA',
     videoTitle: 'Näin luot kuvasudokuja — Täydellinen opas',

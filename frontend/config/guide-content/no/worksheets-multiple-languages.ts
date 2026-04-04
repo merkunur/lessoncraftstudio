@@ -37,11 +37,11 @@ const content: GuideContent = {
     { appId: 'matching', title: 'Matchingsarbeidsark-generator', description: 'Kombinerer visuelle elementer med sprakspesifikt vokabular for internasjonale markeder.' },
   ],
   visuals: {
-    heroImage: { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Ordsoek-arbeidsark som demonstrerer flerspraklig innholdsgenerering med korrekt tegnhondtering' },
+    heroImage: { src: '/samples/norwegian/wordsearch/Ordleting%201.webp', alt: 'Ordsoek-arbeidsark som demonstrerer flerspraklig innholdsgenerering med korrekt tegnhondtering' },
     samples: [
-      { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Ordsoek som viser vokabularbasert innhold som krever korrekt flerspraklig tegnstotte', caption: 'Ordsoek demonstrerer viktigheten av korrekt tegnhondtering pa tvers av sprak' },
-      { src: '/samples/english/alphabet train/Alphabet Train 1.webp', alt: 'Alfabettog-arbeidsark som viser sprakspesifikk bokstav- og tegngenerering', caption: 'Alfabetarbeidsark krever sprakspesifikke tegn inkludert umlauter og aksenterte bokstaver' },
-      { src: '/samples/english/matching/matching portrait.webp', alt: 'Matchingsarbeidsark som viser flerspraklig produksjon med visuelle og tekstelementer', caption: 'Matchingsarbeidsark kombinerer visuelle elementer med sprakspesifikt vokabular for internasjonale markeder' },
+      { src: '/samples/norwegian/wordsearch/Ordleting%201.webp', alt: 'Ordsoek som viser vokabularbasert innhold som krever korrekt flerspraklig tegnstotte', caption: 'Ordsoek demonstrerer viktigheten av korrekt tegnhondtering pa tvers av sprak' },
+      { src: '/samples/norwegian/alphabet%20train/Alfabettog%201.webp', alt: 'Alfabettog-arbeidsark som viser sprakspesifikk bokstav- og tegngenerering', caption: 'Alfabetarbeidsark krever sprakspesifikke tegn inkludert umlauter og aksenterte bokstaver' },
+      { src: '/samples/norwegian/matching/Finn%20Parene%201.webp', alt: 'Matchingsarbeidsark som viser flerspraklig produksjon med visuelle og tekstelementer', caption: 'Matchingsarbeidsark kombinerer visuelle elementer med sprakspesifikt vokabular for internasjonale markeder' },
     ],
   },
 };

@@ -202,22 +202,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/treasure hunt/Treasure Hunt 1.webp',
+      primary: '/samples/finnish/treasure%20hunt/Aarteenetsint%C3%A4%201.webp',
       primaryAlt: 'Aarteenetsintä polunetsintä -työlehti 5×5-koordinaattiruudukolla, hajautetuilla kuvilla, suuntavihjeillä ja aarre-aiheisella otsikolla',
     },
     sampleGallery: [
       {
-        src: '/samples/english/treasure hunt/Treasure Hunt 1.webp',
+        src: '/samples/finnish/treasure%20hunt/Aarteenetsint%C3%A4%201.webp',
         alt: 'Aarteenetsintä-palapeelityölehti 6 temaattisella kuvalla 5×5-ruudukossa ja Perus-suuntavihjeet',
         caption: 'Perus-suuntatila — seuraa ylös, alas, vasen ja oikea -vihjeitä aarteen löytämiseksi',
       },
       {
-        src: '/samples/english/treasure hunt/north south.webp',
+        src: '/samples/finnish/treasure%20hunt/Aarteenetsint%C3%A4%202.webp',
         alt: 'Aarteenetsintä-palapeelityölehti Ilmansuunta-vihjein pohjoinen, etelä, itä ja länsi',
         caption: 'Ilmansuunnat-tila — kompassisuunnat edistyneeseen tilalliseen päättelyyn',
       },
       {
-        src: '/samples/english/treasure hunt/Treasure Hunt 1 answer_key.webp',
+        src: '/samples/finnish/treasure%20hunt/Aarteenetsint%C3%A4%201%20answer_key.webp',
         alt: 'Aarteenetsinnän vastausavain lopullinen aarresolu korostettuna vaaleankeltaisella koordinaattiruudukossa',
         caption: 'Automaattisesti luotu vastausavain — vaaleankeltainen korostus merkitsee aarteen määränpään',
       },

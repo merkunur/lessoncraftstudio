@@ -212,22 +212,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/word scramble/Word Scramble (1).webp',
+      primary: '/samples/finnish/word%20scramble/Kirjainsekoitus%201.webp',
       primaryAlt: 'Kirjainsekoitus tyoarkki sekoitetuilla kirjainlaatoilla, kuvavihjeilla ja värikoodatuilla vokaaleilla ja konsonanteilla',
     },
     sampleGallery: [
       {
-        src: '/samples/english/word scramble/Word Scramble (1).webp',
+        src: '/samples/finnish/word%20scramble/Kirjainsekoitus%201.webp',
         alt: 'Kirjainsekoitus tyoarkki Helppo-vaikeustasolla puolilla kirjaimista oikeassa paikassa ja eläinteemalla',
         caption: 'Helppo vaikeustaso — puolet kirjaimista ennalta sijoitettu oikeaan paikkaan aloitteleville oikeinkirjoittajille',
       },
       {
-        src: '/samples/english/word scramble/Word Scramble (5).webp',
+        src: '/samples/finnish/word%20scramble/Kirjainsekoitus%202.webp',
         alt: 'Kirjainsekoitus tyoarkki vokaali-konsonantti-värikoodauksella ja ruokateemalla',
         caption: 'Värikoodaus — vokaalit ja konsonantit eri vareissä foniikka-avuksi',
       },
       {
-        src: '/samples/english/word scramble/Word Scramble (10).webp',
+        src: '/samples/finnish/word%20scramble/Kirjainsekoitus%201%20answer-key.webp',
         alt: 'Kirjainsekoitus vastausavain kaikilla kirjaimilla oikeassa järjestyksessä',
         caption: 'Vastausavain — kaikki kirjaimet oikeassa järjestyksessä helppoon tarkistamiseen',
       },

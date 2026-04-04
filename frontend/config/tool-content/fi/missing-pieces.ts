@@ -205,22 +205,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/missing pieces/Missing Pieces.webp',
+      primary: '/samples/finnish/missing%20pieces/Puuttuvat%20Palat%201.webp',
       primaryAlt: 'Palapelitehtava aukoilla leikattuna varikkaasta kuvituksesta ja numeroiduilla ratkaisuvaihtoehdoilla harhauttajineen turkoosilla Puuttuvat palat -otsikolla ja sinivihrea-pinkilla kaksoisreunuksella',
     },
     sampleGallery: [
       {
-        src: '/samples/english/missing pieces/Missing Pieces (1).webp',
+        src: '/samples/finnish/missing%20pieces/Puuttuvat%20Palat%202.webp',
         alt: 'Puuttuvat palat -palapeli nelionmuotoisilla aukoilla varikkaasta kuvituksesta ja numeroiduilla ratkaisuvaihtoehdoilla',
         caption: 'Neliopalamuoto — siistit geometriset leikkaukset numeroiduilla ratkaisuvaihtoehdoilla harhauttajineen',
       },
       {
-        src: '/samples/english/missing pieces/Missing Pieces (5).webp',
+        src: '/samples/finnish/missing%20pieces/Puuttuvat%20Palat%203.webp',
         alt: 'Puuttuvat palat -palapeli pyoreilla aukoilla ja numeroiduilla ratkaisuvaihtoehdoilla harhauttajapaloilla',
         caption: 'Ymppyraepalamuoto — pyoristetyt leikkaukset harhauttajilla, jotka estaevat poissulkemisratkaisun',
       },
       {
-        src: '/samples/english/missing pieces/Missing Pieces answer_key.webp',
+        src: '/samples/finnish/missing%20pieces/Puuttuvat%20Palat%201%20answer_key.webp',
         alt: 'Puuttuvat palat -palapelin vastausavain keltaisilla koristetuilla numerotunnisteilla kunkin aukon sisalla oikean vaihtoehdon indeksilla',
         caption: 'Automaattisesti generoitu vastausavain — keltaiset korostetut tunnisteet (rgba(255,255,0,0.7)) nayttavat oikean vaihtoehdon jokaiselle aukolle',
       },

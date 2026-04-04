@@ -247,22 +247,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/code addition/Code Breaker Addition 1.webp',
+      primary: '/samples/finnish/code%20addition/Salainen%20Koodi%20Yhteenlasku%201.webp',
       primaryAlt: 'Koodiyhteenlasku tyoarkki elainkuvilla, jotka piilottavat salaisia numeroita koodimurtamispulmassa',
     },
     sampleGallery: [
       {
-        src: '/samples/english/code addition/Code Breaker Addition 1.webp',
+        src: '/samples/finnish/code%20addition/Salainen%20Koodi%20Yhteenlasku%201.webp',
         alt: 'Koodiyhteenlasku tyoarkki Klassisessa Tilassa temaattisilla elainkuvilla koodisymboleina',
         caption: 'Klassinen Tila — kayttajat murtavat koodin paattelemalla, mitka numerot kuvat edustavat',
       },
       {
-        src: '/samples/english/code addition/Code Breaker Addition 2.webp',
+        src: '/samples/finnish/code%20addition/Salainen%20Koodi%20Yhteenlasku%202.webp',
         alt: 'Koodiyhteenlasku tyoarkki toisella visuaalisella teemalla kryptaritmeettisilla yhtalöilla',
         caption: 'Monisymbolihaaste — useammat kuvat lisaavat paattelyn monimutkaisuutta',
       },
       {
-        src: '/samples/english/code addition/Code Breaker Addition 3.webp',
+        src: '/samples/finnish/code%20addition/Salainen%20Koodi%20Yhteenlasku%201%20answer_key.webp',
         alt: 'Koodiyhteenlaskupulma tyoarkki varikkäilla teemakuvilla ja yhtalöilla',
         caption: 'Teemapulmat — 104 visuaalista teemaa tekevat jokaisesta tyoarkista ainutlaatuisen ja sitouttavan',
       },

@@ -217,11 +217,11 @@ const content: StartContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Sananhakupulmatehtävä joka demonstroi monikielistä tehtävien luomista 11 kielellä' },
+    heroImage: { src: '/samples/finnish/wordsearch/Sanahaku%201.webp', alt: 'Sananhakupulmatehtävä joka demonstroi monikielistä tehtävien luomista 11 kielellä' },
     samples: [
-      { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Sananhaku — esimerkkitehtävä', caption: 'Sananhaku — monikielinen demonstraatio' },
-      { src: '/samples/english/crossword/crossword_worksheet.webp', alt: 'Ristisana — esimerkkitehtävä', caption: 'Ristisana — kielitietoinen tuloste' },
-      { src: '/samples/english/coloring/coloring portrait 1.webp', alt: 'Värityssivu — kieliriippumaton', caption: 'Väritys — universaali kansainvälinen tuote' },
+      { src: '/samples/finnish/wordsearch/Sanahaku%201.webp', alt: 'Sananhaku — esimerkkitehtävä', caption: 'Sananhaku — monikielinen demonstraatio' },
+      { src: '/samples/finnish/crossword/Kuvaristikko%201.webp', alt: 'Ristisana — esimerkkitehtävä', caption: 'Ristisana — kielitietoinen tuloste' },
+      { src: '/samples/finnish/coloring/coloring%20portrait%201.webp', alt: 'Värityssivu — kieliriippumaton', caption: 'Väritys — universaali kansainvälinen tuote' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Näin luot sananhakupulmatehtäviä useilla kielillä — LessonCraftStudio-demo',

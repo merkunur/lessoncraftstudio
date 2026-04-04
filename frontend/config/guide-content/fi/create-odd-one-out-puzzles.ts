@@ -55,10 +55,10 @@ const content: GuideContent = {
     { appId: 'pattern-worksheet', title: 'Kuviotyöarkkigeneraattori', description: 'Peräkkäisen hahmontunnistuksen kumppani. Kuviot laajentavat kategorointitaitoja sekventiaaliseen analyysiin.' },
   ],
   visuals: {
-    heroImage: { src: '/samples/english/odd one out/Find the Odd One Out (1).webp', alt: 'Etsi erilainen -työarkki neljällä kuvalla per harjoitusrivi joista kolme yhteistä ja yksi erilainen' },
+    heroImage: { src: '/samples/finnish/odd%20one%20out/L%C3%B6yd%C3%A4%20Outo%20Lintu%202.webp', alt: 'Etsi erilainen -työarkki neljällä kuvalla per harjoitusrivi joista kolme yhteistä ja yksi erilainen' },
     samples: [
-      { src: '/samples/english/odd one out/Find the Odd One Out (1).webp', alt: 'Etsi erilainen -työarkki neljän kuvan harjoitusrivein ja mukautuvalla sarakeasettelulla', caption: 'Etsi erilainen -työarkki neljän kuvan harjoitusrivein ja mukautuvalla sarakeasettelulla' },
-      { src: '/samples/english/odd one out/Find the Odd One Out answer-key.webp', alt: 'Automaattisesti luotu vastausavain punaisilla ympyrämerkinnöillä erilaisen kuvan ympärillä jokaisella rivillä', caption: 'Automaattisesti luotu vastausavain punaisilla ympyrämerkinnöillä jotka tunnistavat erilaisen kuvan jokaisella rivillä' },
+      { src: '/samples/finnish/odd%20one%20out/L%C3%B6yd%C3%A4%20Outo%20Lintu%202.webp', alt: 'Etsi erilainen -työarkki neljän kuvan harjoitusrivein ja mukautuvalla sarakeasettelulla', caption: 'Etsi erilainen -työarkki neljän kuvan harjoitusrivein ja mukautuvalla sarakeasettelulla' },
+      { src: '/samples/finnish/odd%20one%20out/L%C3%B6yd%C3%A4%20Outo%20Lintu%203.webp', alt: 'Automaattisesti luotu vastausavain punaisilla ympyrämerkinnöillä erilaisen kuvan ympärillä jokaisella rivillä', caption: 'Automaattisesti luotu vastausavain punaisilla ympyrämerkinnöillä jotka tunnistavat erilaisen kuvan jokaisella rivillä' },
     ],
     youtubeId: '0R6WFUfY7Mk',
     videoTitle: 'Kuinka luot etsi erilainen -pulmiä — Täydellinen opas',

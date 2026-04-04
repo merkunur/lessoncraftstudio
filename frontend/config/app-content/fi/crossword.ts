@@ -192,22 +192,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/crossword/crossword_worksheet.webp',
+      primary: '/samples/finnish/crossword/Kuvaristikko%201.webp',
       primaryAlt: 'Kuvaristikko-palapeli kuvavihjei llä 15×15-ruudukossa lokalisoidulla Kuvaristikko-otsikolla ja numeroiduilla vihjepaikoilla',
     },
     sampleGallery: [
       {
-        src: '/samples/english/crossword/crossword_worksheet.webp',
+        src: '/samples/finnish/crossword/Kuvaristikko%201.webp',
         alt: 'Kuvaristikko-palapeli temaattisilla kuvavihjei llä 15×15-ristikkoruudukon vieressä',
         caption: 'Kuvaristikko — kuvavihjeeet korvaavat perinteiset tekstivihjeet 15×15-ruudukossa',
       },
       {
-        src: '/samples/english/crossword/crossword_worksheet (5).webp',
+        src: '/samples/finnish/crossword/Kuvaristikko%202.webp',
         alt: 'Mukautettu sanalista -ristikko tekstivihjeillä ja täytetyllä ristikkoruudukolla',
         caption: 'Mukautettu sanalista -tila — perinteiset tekstivihjeen ristikot omalla sanastollasi',
       },
       {
-        src: '/samples/english/crossword/crossword_answer_key.webp',
+        src: '/samples/finnish/crossword/Kuvaristikko%201%20answer_key.webp',
         alt: 'Ristikko-palapelin vastausavain kaikki oikeat kirjaimet täytettynä ruudukkoon',
         caption: 'Automaattisesti luotu vastausavain — täytetty ruudukko näyttää kaikki oikeat vastaukset',
       },

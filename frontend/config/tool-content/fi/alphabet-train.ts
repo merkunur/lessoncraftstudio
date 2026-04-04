@@ -87,13 +87,13 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/alphabet train/Alphabet Train 1.webp',
+      primary: '/samples/finnish/alphabet%20train/Aakkostjuna%201.webp',
       primaryAlt: 'Aakkosjunatehtäväarkki, jossa 11 värikästä vaunua kirjaimilla ja vastaavilla vihjekuvilla kirjaintunnistukseen',
     },
     sampleGallery: [
-      { src: '/samples/english/alphabet train/Alphabet Train 1.webp', alt: 'Värikäs aakkosjunatehtäväarkki kirjain-kuva-yhdistämisaktiviteetilla nuorille oppijoille', caption: 'Junavaunumuoto kirjain-kuva-yhdistämisellä' },
-      { src: '/samples/english/alphabet train/Alphabet Train 5.webp', alt: 'Aakkosjunatehtäväarkki teemakuvilla ja useilla vihjeyhdistystehtävillä', caption: 'Teemakuvat säädettävällä vihjemäärällä' },
-      { src: '/samples/english/alphabet train/Alphabet Train 10.webp', alt: 'Edistynyt aakkosjunatehtäväarkki 11 vihjeellä maksimivaikeudella kirjaintunnistukseen', caption: 'Täysi 11 vihjeen vaikeus edistyneille käyttäjille' },
+      { src: '/samples/finnish/alphabet%20train/Aakkostjuna%201.webp', alt: 'Värikäs aakkosjunatehtäväarkki kirjain-kuva-yhdistämisaktiviteetilla nuorille oppijoille', caption: 'Junavaunumuoto kirjain-kuva-yhdistämisellä' },
+      { src: '/samples/finnish/alphabet%20train/Aakkostjuna%202.webp', alt: 'Aakkosjunatehtäväarkki teemakuvilla ja useilla vihjeyhdistystehtävillä', caption: 'Teemakuvat säädettävällä vihjemäärällä' },
+      { src: '/samples/finnish/alphabet%20train/Aakkostjuna%203.webp', alt: 'Edistynyt aakkosjunatehtäväarkki 11 vihjeellä maksimivaikeudella kirjaintunnistukseen', caption: 'Täysi 11 vihjeen vaikeus edistyneille käyttäjille' },
     ],
     youtubeId: '_dDQegRq9JQ',
     videoTitle: 'Näin Luot Aakkosjunatehtäviä — Video-opas',

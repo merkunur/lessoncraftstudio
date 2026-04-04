@@ -173,13 +173,13 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/english/writing/writing.webp',
+      src: '/samples/finnish/writing/writing.webp',
       alt: 'Ammattimainen kirjoitustyöarkki, joka havainnollistaa alkuperäisiä luovia muotoiluelementtejä, jotka ovat tekijänoikeudella suojattavia',
     },
     samples: [
-      { src: '/samples/english/writing/writing.webp', alt: 'Kirjoitustyöarkki — alkuperäinen ohjeteksti ja luova asettelu', caption: 'Kirjoitustyöarkit sisältävät merkittävää alkuperäistä luovaa ilmaisua ohjetekstissä ja muotoilussa' },
-      { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Sananetsintäpulma — temaattinen kuvitus ja luova sisällön järjestely', caption: 'Sananetsintäpulmat havainnollistavat tekijänoikeudella suojattavaa sanavarastoelementtien luovaa järjestelyä' },
-      { src: '/samples/english/coloring/coloring portrait 1.webp', alt: 'Värityskuva — alkuperäinen temaattinen kuvitusmuotoilu', caption: 'Värityskuvilla on vahvat tekijänoikeusasemat visuaalisen alkuperäisyytensä ansiosta' },
+      { src: '/samples/finnish/writing/writing.webp', alt: 'Kirjoitustyöarkki — alkuperäinen ohjeteksti ja luova asettelu', caption: 'Kirjoitustyöarkit sisältävät merkittävää alkuperäistä luovaa ilmaisua ohjetekstissä ja muotoilussa' },
+      { src: '/samples/finnish/wordsearch/Sanahaku%201.webp', alt: 'Sananetsintäpulma — temaattinen kuvitus ja luova sisällön järjestely', caption: 'Sananetsintäpulmat havainnollistavat tekijänoikeudella suojattavaa sanavarastoelementtien luovaa järjestelyä' },
+      { src: '/samples/finnish/coloring/coloring%20portrait%201.webp', alt: 'Värityskuva — alkuperäinen temaattinen kuvitusmuotoilu', caption: 'Värityskuvilla on vahvat tekijänoikeusasemat visuaalisen alkuperäisyytensä ansiosta' },
     ],
     youtubeId: '0b4WglqyXu0',
     videoTitle: 'Tekijänoikeuden perusteet tulostettavien myyjille',

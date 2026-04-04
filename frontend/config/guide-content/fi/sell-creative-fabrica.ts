@@ -174,11 +174,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/coloring/coloring portrait 1.webp', alt: 'Värityssivu tulostettavana opetuksellisena resurssina myyntiin Creative Fabrica -markkinapaikalla' },
+    heroImage: { src: '/samples/finnish/coloring/coloring%20portrait%201.webp', alt: 'Värityssivu tulostettavana opetuksellisena resurssina myyntiin Creative Fabrica -markkinapaikalla' },
     samples: [
-      { src: '/samples/english/coloring/coloring portrait 2.webp', alt: 'Tulostettava värityssivu Creative Fabrican Learning-osiolle', caption: 'Värityssivut yhdistävät käsityön ja koulutuksen Creative Fabricassa — vetoavat sekä suunnittelija- että ostajayleisöihin' },
-      { src: '/samples/english/matching/matching portrait.webp', alt: 'Yhdistämistehtävätyöarkki Creative Fabrican opetuksellisille tuotteille', caption: 'Temaattiset yhdistämisaktiviteetit ovat korkean kysynnän resursseja Creative Fabrican Learning-osiossa' },
-      { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Sananetsintäpulma tulostettavana Creative Fabrica -markkinapaikalle', caption: 'Sananetsintäpulmat houkuttelevat tilauslatauksia ostajilta Creative Fabricassa' },
+      { src: '/samples/finnish/coloring/coloring%20portrait%202.webp', alt: 'Tulostettava värityssivu Creative Fabrican Learning-osiolle', caption: 'Värityssivut yhdistävät käsityön ja koulutuksen Creative Fabricassa — vetoavat sekä suunnittelija- että ostajayleisöihin' },
+      { src: '/samples/finnish/matching/Yhdist%C3%A4%20Parit%201.webp', alt: 'Yhdistämistehtävätyöarkki Creative Fabrican opetuksellisille tuotteille', caption: 'Temaattiset yhdistämisaktiviteetit ovat korkean kysynnän resursseja Creative Fabrican Learning-osiossa' },
+      { src: '/samples/finnish/wordsearch/Sanahaku%201.webp', alt: 'Sananetsintäpulma tulostettavana Creative Fabrica -markkinapaikalle', caption: 'Sananetsintäpulmat houkuttelevat tilauslatauksia ostajilta Creative Fabricassa' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'Opetuksellisten työarkkien luominen Creative Fabricaan',

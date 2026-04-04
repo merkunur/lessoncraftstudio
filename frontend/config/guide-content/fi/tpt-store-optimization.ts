@@ -50,11 +50,11 @@ const content: GuideContent = {
     { appId: 'crossword', title: 'Ristisanatehtävägeneraattori', description: 'Ristisanatehtävät ovat korkean kysynnän sanastoaktiviteetteja joita ostajat hakevat aineittain ja luokka-asteittain.' },
   ],
   visuals: {
-    heroImage: { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Sananetsintätyöarkki optimoituna Gumroad-kaupan näkyvyyteen ja myyntiin' },
+    heroImage: { src: '/samples/finnish/wordsearch/Sanahaku%201.webp', alt: 'Sananetsintätyöarkki optimoituna Gumroad-kaupan näkyvyyteen ja myyntiin' },
     samples: [
-      { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Sananetsintäpulma optimoituna Gumroad-kaupan katalogin kasvuun', caption: 'Sananetsintäpulmat ovat monipuolisimpia Gumroad-resursseja — luo temaattisia kausivaihteluita nopeaan katalogin laajentamiseen' },
-      { src: '/samples/english/math puzzle/Math Puzzles (5).webp', alt: 'Matemaattinen pulmatyöarkki Gumroad-kaupan erilaistamiseen', caption: 'Ainutlaatuiset matemaattiset pulmaformaatit kohtaavat vähemmän kilpailua Gumroadissa kuin standardityöarkit' },
-      { src: '/samples/english/crossword/crossword_worksheet.webp', alt: 'Ristisanatehtäväaktiviteetti Gumroad-sanaresursseille', caption: 'Ristisanatehtävät ovat korkean kysynnän sanastoaktiviteetteja Gumroadissa' },
+      { src: '/samples/finnish/wordsearch/Sanahaku%201.webp', alt: 'Sananetsintäpulma optimoituna Gumroad-kaupan katalogin kasvuun', caption: 'Sananetsintäpulmat ovat monipuolisimpia Gumroad-resursseja — luo temaattisia kausivaihteluita nopeaan katalogin laajentamiseen' },
+      { src: '/samples/finnish/math%20puzzle/Matematiikkapulmat%203.webp', alt: 'Matemaattinen pulmatyöarkki Gumroad-kaupan erilaistamiseen', caption: 'Ainutlaatuiset matemaattiset pulmaformaatit kohtaavat vähemmän kilpailua Gumroadissa kuin standardityöarkit' },
+      { src: '/samples/finnish/crossword/Kuvaristikko%201.webp', alt: 'Ristisanatehtäväaktiviteetti Gumroad-sanaresursseille', caption: 'Ristisanatehtävät ovat korkean kysynnän sanastoaktiviteetteja Gumroadissa' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Sananetsintäpulmien luominen Gumroad-kauppaasi — Optimointiopas',

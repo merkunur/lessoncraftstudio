@@ -35,11 +35,11 @@ const content: GuideContent = {
     { appId: 'coloring', title: 'Fargeleggingssider-generator', description: 'Fargeleggingssider avslorer hvilke visuelle temaer som tiltrekker kjoperinteresse pa tvers av markedssegmenter.' },
   ],
   visuals: {
-    heroImage: { src: '/samples/english/matching/matching portrait.webp', alt: 'Matchingsarbeidsark som viser temaalsidighet for lonnsom nisjeutforskning' },
+    heroImage: { src: '/samples/norwegian/matching/Finn%20Parene%201.webp', alt: 'Matchingsarbeidsark som viser temaalsidighet for lonnsom nisjeutforskning' },
     samples: [
-      { src: '/samples/english/matching/matching portrait.webp', alt: 'Tematisk matchingsarbeidsark som demonstrerer nisjemangfold pa tvers av pedagogiske temaer', caption: 'Matchingsarbeidsark spenner over dusinvis av temaer for a utforske og teste flere nisjer raskt' },
-      { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Ordsoek som viser kryssfag nisjetestingspotensial pa flere sprak', caption: 'Ordsoek validerer nisjeetterspørsel pa tvers av emner og sprak med minimal produksjonstid' },
-      { src: '/samples/english/coloring/coloring portrait 1.webp', alt: 'Tematisk fargeleggingsside som demonstrerer hvordan visuelle nisjer oversettes til salgbare produkter', caption: 'Fargeleggingssider avslorer hvilke visuelle temaer som tiltrekker kjoperinteresse' },
+      { src: '/samples/norwegian/matching/Finn%20Parene%201.webp', alt: 'Tematisk matchingsarbeidsark som demonstrerer nisjemangfold pa tvers av pedagogiske temaer', caption: 'Matchingsarbeidsark spenner over dusinvis av temaer for a utforske og teste flere nisjer raskt' },
+      { src: '/samples/norwegian/wordsearch/Ordleting%201.webp', alt: 'Ordsoek som viser kryssfag nisjetestingspotensial pa flere sprak', caption: 'Ordsoek validerer nisjeetterspørsel pa tvers av emner og sprak med minimal produksjonstid' },
+      { src: '/samples/norwegian/coloring/coloring%20portrait%201.webp', alt: 'Tematisk fargeleggingsside som demonstrerer hvordan visuelle nisjer oversettes til salgbare produkter', caption: 'Fargeleggingssider avslorer hvilke visuelle temaer som tiltrekker kjoperinteresse' },
     ],
   },
 };

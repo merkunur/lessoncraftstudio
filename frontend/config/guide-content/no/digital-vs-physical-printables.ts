@@ -95,22 +95,22 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/english/addition/Addition Fun 1.webp',
+      src: '/samples/norwegian/addition/G%C3%B8y%20Addisjon%201.webp',
       alt: 'Profesjonelt addisjonsarbeidsark som demonstrerer digitalt printable-produkt for bade nedlasting og fysisk trykking',
     },
     samples: [
       {
-        src: '/samples/english/addition/Addition Fun 1.webp',
+        src: '/samples/norwegian/addition/G%C3%B8y%20Addisjon%201.webp',
         alt: 'Addisjonsarbeidsark egnet for bade digital nedlasting og fysisk utskrift',
         caption: 'Mattearbeidsark fungerer godt som digitale nedlastinger og som sider i trykte arbeidsboker',
       },
       {
-        src: '/samples/english/coloring/coloring portrait 1.webp',
+        src: '/samples/norwegian/coloring/coloring%20portrait%201.webp',
         alt: 'Fargeleggingsside som demonstrerer produkttype populaer i bade digitalt og fysisk format',
         caption: 'Fargeleggingssider er toppselgere i bade digital nedlasting og print-on-demand bokformat',
       },
       {
-        src: '/samples/english/wordsearch/wordsearch portrait.webp',
+        src: '/samples/norwegian/wordsearch/Ordleting%201.webp',
         alt: 'Ordsoek-puslespill ideelt for hybrid digital og fysisk salg',
         caption: 'Ordsoek selger individuelt som digitale nedlastinger og kompilert til fysiske puslespillboker',
       },

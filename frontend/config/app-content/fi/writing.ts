@@ -222,22 +222,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/writing/writing.webp',
+      primary: '/samples/finnish/writing/writing.webp',
       primaryAlt: 'Kirjoitusharjoitustyöarkki jäljennys-, häipyvä jäljennys- ja ohjattu kopiointi -tiloilla nuoliohjatulla vetojärjestyksellä',
     },
     sampleGallery: [
       {
-        src: '/samples/english/writing/writing.webp',
+        src: '/samples/finnish/writing/writing.webp',
         alt: 'Kirjoitusharjoitustyöarkki jäljennystilassa tulostus nuoli -fontilla numeroiduilla vetojärjestyksen suunnilla',
         caption: 'Jäljennä-tila nuoliveto-järjestyksellä — numeroidut suuntanuolet näyttävät tarkan kirjainmuodostussekvenssin',
       },
       {
-        src: '/samples/english/writing/writing beginning letter.webp',
+        src: '/samples/finnish/writing/writing%20beginning%20letter.webp',
         alt: 'Kirjoitusharjoitustyöarkki häipyvässä jäljennystilassa kirjaimilla jotka progressiivisesti häipyvät jokaisella rivillä',
         caption: 'Häipyvä Jäljennys -tila — kirjaimet häipyvät progressiivisesti itsenäisen kirjoittamisen rakentamiseksi',
       },
       {
-        src: '/samples/english/writing/writing custom.webp',
+        src: '/samples/finnish/writing/writing%20custom.webp',
         alt: 'Kirjoitusharjoitustyöarkki ohjatun kopioinnin tilassa kaunokirjoitusfonttityylillä kolmiviivaohjaimilla',
         caption: 'Kaunokirjoitus Ohjattu Kopiointi — haaleat kaunokirjoitusääriviivat kolmiviivajärjestelmällä',
       },

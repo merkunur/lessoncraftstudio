@@ -208,22 +208,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/draw and color/grid-drawing_worksheet.webp',
+      primary: '/samples/finnish/draw%20and%20color/Piirr%C3%A4%20ja%20V%C3%A4rit%C3%A4%201.webp',
       primaryAlt: 'Piirustus ja väritys ruudukkopiirrustustyöarkki kaksoisruudukkojärjestelmällä näyttäen harjoitusruudukon ja vihjeruudukon mustavalkoisen ääriviivateeman kanssa',
     },
     sampleGallery: [
       {
-        src: '/samples/english/draw and color/grid-drawing_worksheet (1).webp',
+        src: '/samples/finnish/draw%20and%20color/Piirr%C3%A4%20ja%20V%C3%A4rit%C3%A4%202.webp',
         alt: 'Ruudukkopiirrustustyöarkki eläimen mustavalkoisella ääriviivateemalla 25 % vihjeprosentilla',
         caption: 'Eläinteema 25 % vihjeillä — kopioi ääriviiva hajallaan olevista ruudukkohjeista',
       },
       {
-        src: '/samples/english/draw and color/grid-drawing_worksheet (5).webp',
+        src: '/samples/finnish/draw%20and%20color/Piirr%C3%A4%20ja%20V%C3%A4rit%C3%A4%203.webp',
         alt: 'Ruudukkopiirrustustyöarkki vaakasymetrian peilaustilassa vihjesolut peilattuina vasemmalta oikealle',
         caption: 'Vaakasymetriatila — vihjesolut peilaavat vasemmalta oikealle spatiaalisen päättelyn harjoitteluun',
       },
       {
-        src: '/samples/english/draw and color/grid-drawing_worksheet (10).webp',
+        src: '/samples/finnish/draw%20and%20color/Piirr%C3%A4%20ja%20V%C3%A4rit%C3%A4%204.webp',
         alt: 'Ruudukkopiirrustustyöarkki 10 % vihjeprosentilla näyttäen minimaaliset referenssisolut eksperttitason haasteeseen',
         caption: '10 % vihjehaaste — minimaaliset referenssisolut eksperttitason ruudukkokopiointiin',
       },

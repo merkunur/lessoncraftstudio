@@ -159,22 +159,22 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/english/wordsearch/wordsearch portrait.webp',
+      src: '/samples/finnish/wordsearch/Sanahaku%201.webp',
       alt: 'Sananetsintätyöarkki esittelemässä monikielisen tulostettavan liiketoiminnan potentiaalia kansainvälisillä markkinoilla',
     },
     samples: [
       {
-        src: '/samples/english/wordsearch/wordsearch portrait.webp',
+        src: '/samples/finnish/wordsearch/Sanahaku%201.webp',
         alt: 'Sananetsintäpulma-työarkki näyttäen monikielisen kyvykkyyden kansainväliseen tulostettavien myyntiin',
         caption: 'Sananetsintätyöarkkeja voidaan luoda 11 kielellä, mikä tekee niistä ihanteellisia monikieliseen laajennukseen',
       },
       {
-        src: '/samples/english/matching/matching portrait.webp',
+        src: '/samples/finnish/matching/Yhdist%C3%A4%20Parit%201.webp',
         alt: 'Yhdistämistyöarkki visuaalisilla teemoilla jotka toimivat kielimarkkinoiden välillä',
         caption: 'Visuaaliset yhdistämistyöarkit käyttävät kuvia jotka kääntyvät universaalisti kielten välillä',
       },
       {
-        src: '/samples/english/addition/Addition Fun 1.webp',
+        src: '/samples/finnish/addition/Hauska%20Yhteenlasku%201.webp',
         alt: 'Yhteenlaskumatematiikkatyöarkki esittelemässä universaalia vetovoimaa kielirajojen yli',
         caption: 'Matematiikkatyöarkit ylittävät kielirajat luontevasti koska luvut ovat universaaleja markkinoiden välillä',
       },

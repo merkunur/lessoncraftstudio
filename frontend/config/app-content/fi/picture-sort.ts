@@ -262,22 +262,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/picture sort/Picture Sort.webp',
+      primary: '/samples/finnish/picture%20sort/Lajittele%20Kuvat%201.webp',
       primaryAlt: 'Kahden kategorian kuvalajittelutyölehti temaattisilla kategoriaraamilla, sekoitetulla leikkausruudukolla ja lokalisoidulla Lajittele kuvat -otsikolla',
     },
     sampleGallery: [
       {
-        src: '/samples/english/picture sort/Picture Sort (1).webp',
+        src: '/samples/finnish/picture%20sort/Lajittele%20Kuvat%202.webp',
         alt: 'Teematilan lajittelutyölehti eläimillä vasemmalla ja ruoalla oikealla kategorioissa',
         caption: 'Teematila — automaattisesti täytetyt kategoriat kuvakirjastosta',
       },
       {
-        src: '/samples/english/picture sort/Picture Sort (5).webp',
+        src: '/samples/finnish/picture%20sort/Lajittele%20Kuvat%203.webp',
         alt: 'Manuaalitilan lajittelutyölehti käsinvalituilla kuvilla vasempaan ja oikeaan kategoriaan',
         caption: 'Manuaalitila — käsinvalitse kuvat ja määrää kategorioihin',
       },
       {
-        src: '/samples/english/picture sort/Picture Sort answer_key.webp',
+        src: '/samples/finnish/picture%20sort/Lajittele%20Kuvat%201%20answer_key.webp',
         alt: 'Kuvalajittelun vastausavain 6x suuremmilla kuvilla oikeissa kategorialaatikoissa',
         caption: 'Automaattisesti luotu vastausavain — 6× suuremmat kuvat kategorialaatikoissa',
       },

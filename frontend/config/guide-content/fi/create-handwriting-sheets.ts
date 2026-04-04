@@ -55,10 +55,10 @@ const content: GuideContent = {
     { appId: 'crossword', title: 'Ristisanatehtävägeneraattori', description: 'Sanastokumppani. Ristisanatehtävät vahvistavat tavaamista joka tukee kirjoitusharjoitusta.' },
   ],
   visuals: {
-    heroImage: { src: '/samples/english/writing/writing.webp', alt: 'Kirjoitusharjoitustyöarkki progressiivisilla jäljennä-ja-kopioi kirjainmuodostusharjoituksilla lapsille' },
+    heroImage: { src: '/samples/finnish/writing/writing.webp', alt: 'Kirjoitusharjoitustyöarkki progressiivisilla jäljennä-ja-kopioi kirjainmuodostusharjoituksilla lapsille' },
     samples: [
-      { src: '/samples/english/writing/writing.webp', alt: 'Kirjoitusharjoitusarkki jäljentämisrivein ja piirtosuuntanuoliin kirjainmuodostukseen', caption: 'Progressiivinen kirjoitustyöarkki jäljentämis-, häipyvä- ja vapailla riveillä kirjainharjoitusta varten' },
-      { src: '/samples/english/writing/writing.webp', alt: 'Kirjoitustyöarkki temaattisilla kuvilla yhdistettynä kirjainjäljentämisharjoitukseen', caption: 'Temaattinen kirjoitusharjoitusarkki joka yhdistää kirjainjäljentämisen kuvakirjaston visuaaleihin' },
+      { src: '/samples/finnish/writing/writing.webp', alt: 'Kirjoitusharjoitusarkki jäljentämisrivein ja piirtosuuntanuoliin kirjainmuodostukseen', caption: 'Progressiivinen kirjoitustyöarkki jäljentämis-, häipyvä- ja vapailla riveillä kirjainharjoitusta varten' },
+      { src: '/samples/finnish/writing/writing.webp', alt: 'Kirjoitustyöarkki temaattisilla kuvilla yhdistettynä kirjainjäljentämisharjoitukseen', caption: 'Temaattinen kirjoitusharjoitusarkki joka yhdistää kirjainjäljentämisen kuvakirjaston visuaaleihin' },
     ],
     youtubeId: '0b4WglqyXu0',
     videoTitle: 'Kuinka luot kirjoitusharjoitusarkkeja — Täydellinen opas',

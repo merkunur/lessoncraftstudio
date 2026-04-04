@@ -220,11 +220,11 @@ const content: StartContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Sananhakutehtävä luotu LessonCraftStudio-generaattorilla' },
+    heroImage: { src: '/samples/finnish/wordsearch/Sanahaku%201.webp', alt: 'Sananhakutehtävä luotu LessonCraftStudio-generaattorilla' },
     samples: [
-      { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Sananhakutehtävä — esimerkkituloste', caption: 'Sananhaku — suosituin aloitustuote' },
-      { src: '/samples/english/addition/Addition Fun 1.webp', alt: 'Yhteenlaskutehtävä — esimerkkituloste', caption: 'Yhteenlasku — ikiviheä matemaattinen myyjä' },
-      { src: '/samples/english/coloring/coloring portrait 1.webp', alt: 'Värityssivu — esimerkkituloste', caption: 'Väritys — Etsyn bestsellerikategoria' },
+      { src: '/samples/finnish/wordsearch/Sanahaku%201.webp', alt: 'Sananhakutehtävä — esimerkkituloste', caption: 'Sananhaku — suosituin aloitustuote' },
+      { src: '/samples/finnish/addition/Hauska%20Yhteenlasku%201.webp', alt: 'Yhteenlaskutehtävä — esimerkkituloste', caption: 'Yhteenlasku — ikiviheä matemaattinen myyjä' },
+      { src: '/samples/finnish/coloring/coloring%20portrait%201.webp', alt: 'Värityssivu — esimerkkituloste', caption: 'Väritys — Etsyn bestsellerikategoria' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Näin luot sananhakutehtäviä — LessonCraftStudio-demo',

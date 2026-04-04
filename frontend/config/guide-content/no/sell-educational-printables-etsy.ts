@@ -192,11 +192,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/addition/addition_worksheet portrait.webp', alt: 'Pedagogisk printable-arbeidsark som viser bildebaserte matteoppgaver for salg på Etsy på tvers av flere kategorier' },
+    heroImage: { src: '/samples/norwegian/addition/G%C3%B8y%20Addisjon%202.webp', alt: 'Pedagogisk printable-arbeidsark som viser bildebaserte matteoppgaver for salg på Etsy på tvers av flere kategorier' },
     samples: [
-      { src: '/samples/english/addition/Addition Fun 1.webp', alt: 'Dyretematisk addisjonsarbeidsark for en diversifisert pedagogisk printable Etsy-butikk', caption: 'Addisjonsarbeidsark med dyretema — ett av dusinvis av matteprodukter du kan lage for Etsy-butikken din' },
-      { src: '/samples/english/wordsearch/wordsearch landscape.webp', alt: 'Ordsøk-puslespill arbeidsark som viser språkbasert pedagogisk printable for Etsy', caption: 'Ordsøk-puslespill — språkfølsomt format som multipliseres på tvers av 11 språkmarkeder på Etsy' },
-      { src: '/samples/english/coloring/coloring portrait 5.webp', alt: 'Fargeleggingsside-printable som viser visuell læringsprodukt for Etsy pedagogisk butikk', caption: 'Fargeleggingsside — bredeste kjøperdemografi av noen pedagogisk printable-kategori på Etsy' },
+      { src: '/samples/norwegian/addition/G%C3%B8y%20Addisjon%201.webp', alt: 'Dyretematisk addisjonsarbeidsark for en diversifisert pedagogisk printable Etsy-butikk', caption: 'Addisjonsarbeidsark med dyretema — ett av dusinvis av matteprodukter du kan lage for Etsy-butikken din' },
+      { src: '/samples/norwegian/wordsearch/Ordleting%202.webp', alt: 'Ordsøk-puslespill arbeidsark som viser språkbasert pedagogisk printable for Etsy', caption: 'Ordsøk-puslespill — språkfølsomt format som multipliseres på tvers av 11 språkmarkeder på Etsy' },
+      { src: '/samples/norwegian/coloring/coloring%20portrait%205.webp', alt: 'Fargeleggingsside-printable som viser visuell læringsprodukt for Etsy pedagogisk butikk', caption: 'Fargeleggingsside — bredeste kjøperdemografi av noen pedagogisk printable-kategori på Etsy' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Slik lager du pedagogiske printables for salg på Etsy — flerkategori butikkstrategi',

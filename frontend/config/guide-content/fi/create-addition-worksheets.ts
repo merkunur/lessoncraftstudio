@@ -185,10 +185,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/addition/Addition Fun 1.webp', alt: 'Yhteenlaskutyöarkki temaattisilla kuvilla, jotka näyttävät visuaalisia laskutehtäviä lapsille' },
+    heroImage: { src: '/samples/finnish/addition/Hauska%20Yhteenlasku%201.webp', alt: 'Yhteenlaskutyöarkki temaattisilla kuvilla, jotka näyttävät visuaalisia laskutehtäviä lapsille' },
     samples: [
-      { src: '/samples/english/addition/Addition Fun 1.webp', alt: 'Kuvapohjainen yhteenlaskutyöarkki eläinteemalla päiväkodille', caption: 'Päiväkodin yhteenlaskutyöarkki maatilaeläimet-teemalla Kuva + Kuva -harjoitustilassa' },
-      { src: '/samples/english/addition/Addition Fun 1.webp', alt: 'Yhteenlaskutyöarkki vastausavaimella', caption: 'Automaattinen vastausavain luodaan jokaisen yhteenlaskutyöarkin rinnalle' },
+      { src: '/samples/finnish/addition/Hauska%20Yhteenlasku%201.webp', alt: 'Kuvapohjainen yhteenlaskutyöarkki eläinteemalla päiväkodille', caption: 'Päiväkodin yhteenlaskutyöarkki maatilaeläimet-teemalla Kuva + Kuva -harjoitustilassa' },
+      { src: '/samples/finnish/addition/Hauska%20Yhteenlasku%201.webp', alt: 'Yhteenlaskutyöarkki vastausavaimella', caption: 'Automaattinen vastausavain luodaan jokaisen yhteenlaskutyöarkin rinnalle' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'Näin luot yhteenlaskutyöarkkeja — Täydellinen opas',

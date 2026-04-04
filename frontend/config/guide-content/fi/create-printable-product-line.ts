@@ -189,11 +189,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/matching/matching portrait.webp', alt: 'Yhdistämistyöarkki, joka osoittaa johdonmukaisen tuoteformaatin tulostettavalle tuotelinjalle' },
+    heroImage: { src: '/samples/finnish/matching/Yhdist%C3%A4%20Parit%201.webp', alt: 'Yhdistämistyöarkki, joka osoittaa johdonmukaisen tuoteformaatin tulostettavalle tuotelinjalle' },
     samples: [
-      { src: '/samples/english/matching/matching portrait.webp', alt: 'Yhdistämistyöarkki, joka näyttää johdonmukaisen formaatin eri teemoilla tuotelinjan rakentamiseen', caption: 'Yhdistämistyöarkit ylläpitävät saman ammattimaisen formaatin kaikilla teemoilla — visuaalisesti johdonmukaisen tuotelinjan perusta' },
-      { src: '/samples/english/addition/Addition Fun 1.webp', alt: 'Yhteenlaskutyöarkki, joka edustaa matemaattista tuotelinjaa progressiivisilla vaikeustasoilla', caption: 'Matemaattiset työarkit useilla vaikeustasoilla luovat progressiivisen syvyyden tuotelinjassa' },
-      { src: '/samples/english/coloring/coloring portrait 2.webp', alt: 'Värityskuva, joka osoittaa visuaalisen johdonmukaisuuden eri temaattisissa tuotevariaatioissa', caption: 'Värityskuvat eri teemoilla osoittavat, miten tuotelinja ylläpitää visuaalista koheesiota tarjoten vaihtelua' },
+      { src: '/samples/finnish/matching/Yhdist%C3%A4%20Parit%201.webp', alt: 'Yhdistämistyöarkki, joka näyttää johdonmukaisen formaatin eri teemoilla tuotelinjan rakentamiseen', caption: 'Yhdistämistyöarkit ylläpitävät saman ammattimaisen formaatin kaikilla teemoilla — visuaalisesti johdonmukaisen tuotelinjan perusta' },
+      { src: '/samples/finnish/addition/Hauska%20Yhteenlasku%201.webp', alt: 'Yhteenlaskutyöarkki, joka edustaa matemaattista tuotelinjaa progressiivisilla vaikeustasoilla', caption: 'Matemaattiset työarkit useilla vaikeustasoilla luovat progressiivisen syvyyden tuotelinjassa' },
+      { src: '/samples/finnish/coloring/coloring%20portrait%202.webp', alt: 'Värityskuva, joka osoittaa visuaalisen johdonmukaisuuden eri temaattisissa tuotevariaatioissa', caption: 'Värityskuvat eri teemoilla osoittavat, miten tuotelinja ylläpitää visuaalista koheesiota tarjoten vaihtelua' },
     ],
     youtubeId: 'y3ghkjt_67s',
     videoTitle: 'Näin luot yhdistämistyöarkkeja johdonmukaiseen tulostettavaan tuotelinjaan',

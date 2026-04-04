@@ -187,11 +187,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/sudoku/sudoku_worksheet.webp', alt: 'Sudoku puslespillarbeidsark som demonstrerer KDP aktivitetsbokinnhold for inntektsgenerering' },
+    heroImage: { src: '/samples/norwegian/sudoku/Bilde-Sudoku%202.webp', alt: 'Sudoku puslespillarbeidsark som demonstrerer KDP aktivitetsbokinnhold for inntektsgenerering' },
     samples: [
-      { src: '/samples/english/sudoku/sudoku_worksheet.webp', alt: 'Sudoku puslespill formatert for KDP aktivitetsbok-interiørsider', caption: 'Sudoku puslespill — en konsekvent lønnsom aktivitetsbokkategori på Amazon KDP med lojale gjenkjøpere' },
-      { src: '/samples/english/math worksheet/Math Worksheet 1.webp', alt: 'Mattearbeidsark formatert for KDP arbeidsbok-interiørsider', caption: 'Mattearbeidsbøker — høy-etterspørsel KDP-kategori med naturlige katalogutvidelsesmuligheter etter klassetrinn' },
-      { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Ordsøkpuslespill for KDP puslespillbok katalogdiversifisering', caption: 'Ordsøkbøker — den største puslespillbokkategorien på Amazon med sterkt potensial for flerbinds serieinntekter' },
+      { src: '/samples/norwegian/sudoku/Bilde-Sudoku%202.webp', alt: 'Sudoku puslespill formatert for KDP aktivitetsbok-interiørsider', caption: 'Sudoku puslespill — en konsekvent lønnsom aktivitetsbokkategori på Amazon KDP med lojale gjenkjøpere' },
+      { src: '/samples/norwegian/math%20worksheet/Matematikkoppgave%201.webp', alt: 'Mattearbeidsark formatert for KDP arbeidsbok-interiørsider', caption: 'Mattearbeidsbøker — høy-etterspørsel KDP-kategori med naturlige katalogutvidelsesmuligheter etter klassetrinn' },
+      { src: '/samples/norwegian/wordsearch/Ordleting%201.webp', alt: 'Ordsøkpuslespill for KDP puslespillbok katalogdiversifisering', caption: 'Ordsøkbøker — den største puslespillbokkategorien på Amazon med sterkt potensial for flerbinds serieinntekter' },
     ],
     youtubeId: 'bqVioFbkYbA',
     videoTitle: 'Slik lager du sudoku aktivitetsbøker for Amazon KDP — inntektsbyggende veiledning',

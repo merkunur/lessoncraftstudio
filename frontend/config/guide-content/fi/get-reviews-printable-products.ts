@@ -150,11 +150,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/matching/matching portrait.webp', alt: 'Ammattimainen yhdistämistyöarkki, joka demonstroi tuotelaatua positiivisten ostajaArvostelujen ansaitsemiseksi' },
+    heroImage: { src: '/samples/finnish/matching/Yhdist%C3%A4%20Parit%201.webp', alt: 'Ammattimainen yhdistämistyöarkki, joka demonstroi tuotelaatua positiivisten ostajaArvostelujen ansaitsemiseksi' },
     samples: [
-      { src: '/samples/english/matching/matching portrait.webp', alt: 'Yhdistämistyöarkki, joka osoittaa visuaalisen laadun positiivisten arvostelujen ajurina', caption: 'Korkealaatuiset yhdistämistyöarkit ansaitsevat luonnollisesti positiivisia arvosteluja' },
-      { src: '/samples/english/coloring/coloring portrait 1.webp', alt: 'Värityskuva, joka osoittaa ammattimaisen suunnittelulaadun arvostelujen motivoijana', caption: 'Ammattimaiset värityskuvat tuottavat arvosteluja koska ostajat näkevät välittömästi laadun' },
-      { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Sanakäärmepalapeli suositun tuoteformaatin arvosteluvolyymin osoittamiseksi', caption: 'Sanakäärmeet tuottavat korkeaa myyntivolyymia ja johdonmukaista arvosteluprosenttia' },
+      { src: '/samples/finnish/matching/Yhdist%C3%A4%20Parit%201.webp', alt: 'Yhdistämistyöarkki, joka osoittaa visuaalisen laadun positiivisten arvostelujen ajurina', caption: 'Korkealaatuiset yhdistämistyöarkit ansaitsevat luonnollisesti positiivisia arvosteluja' },
+      { src: '/samples/finnish/coloring/coloring%20portrait%201.webp', alt: 'Värityskuva, joka osoittaa ammattimaisen suunnittelulaadun arvostelujen motivoijana', caption: 'Ammattimaiset värityskuvat tuottavat arvosteluja koska ostajat näkevät välittömästi laadun' },
+      { src: '/samples/finnish/wordsearch/Sanahaku%201.webp', alt: 'Sanakäärmepalapeli suositun tuoteformaatin arvosteluvolyymin osoittamiseksi', caption: 'Sanakäärmeet tuottavat korkeaa myyntivolyymia ja johdonmukaista arvosteluprosenttia' },
     ],
     youtubeId: 'y3ghkjt_67s',
     videoTitle: 'Näin saat arvosteluja tulostettaville tuotteille',

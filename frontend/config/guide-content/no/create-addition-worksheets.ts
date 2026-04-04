@@ -181,10 +181,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/addition/Addition Fun 1.webp', alt: 'Addisjonsarbeidsark med tematiske bilder som viser visuelle telleovelser for barn' },
+    heroImage: { src: '/samples/norwegian/addition/G%C3%B8y%20Addisjon%201.webp', alt: 'Addisjonsarbeidsark med tematiske bilder som viser visuelle telleovelser for barn' },
     samples: [
-      { src: '/samples/english/addition/Addition Fun 1.webp', alt: 'Bildebasert addisjonsarbeidsark med dyretema for barnehage', caption: 'Barnehage addisjonsarbeidsark med bondegardsdyr-tema i Bilde + Bilde-ovelsesmodus' },
-      { src: '/samples/english/addition/Addition Fun 1.webp', alt: 'Addisjonsarbeidsark med fasit som viser korrekte losninger', caption: 'Automatisk fasit generert sammen med hvert addisjonsarbeidsark' },
+      { src: '/samples/norwegian/addition/G%C3%B8y%20Addisjon%201.webp', alt: 'Bildebasert addisjonsarbeidsark med dyretema for barnehage', caption: 'Barnehage addisjonsarbeidsark med bondegardsdyr-tema i Bilde + Bilde-ovelsesmodus' },
+      { src: '/samples/norwegian/addition/G%C3%B8y%20Addisjon%201.webp', alt: 'Addisjonsarbeidsark med fasit som viser korrekte losninger', caption: 'Automatisk fasit generert sammen med hvert addisjonsarbeidsark' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'Hvordan lage addisjonsarbeidsark — komplett veiledning',

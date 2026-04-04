@@ -189,11 +189,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/prepositions/prepositions_worksheet (1).webp', alt: 'Prepositiotyöarkki kuvakohtauksilla ja avaruudellisten suhteiden harjoituksilla' },
+    heroImage: { src: '/samples/finnish/prepositions/Prepositiot%201.webp', alt: 'Prepositiotyöarkki kuvakohtauksilla ja avaruudellisten suhteiden harjoituksilla' },
     samples: [
-      { src: '/samples/english/prepositions/prepositions_worksheet (1).webp', alt: 'Prepositiotyöarkki täytä tyhjät -harjoituksilla värikkäiden kuvakohtausten kanssa', caption: 'Täytä tyhjät -prepositioharjoitukset kuvakohtauksilla' },
-      { src: '/samples/english/prepositions/prepositions_worksheet (5).webp', alt: 'Prepositiotyöarkki monivalintaharjoituksilla ohjattua harjoittelua varten', caption: 'Monivalintatila ohjattua aloittelijaystävällistä harjoittelua varten' },
-      { src: '/samples/english/prepositions/prepositions_worksheet (10).webp', alt: 'Edistynyt prepositiotyöarkki muodonvaihdolla uniikkien kohtausyhdistelmien luomiseksi', caption: 'Muodonvaihto moninkertaistaa visuaaliset yhdistelmät tuotevaihtelua varten' },
+      { src: '/samples/finnish/prepositions/Prepositiot%201.webp', alt: 'Prepositiotyöarkki täytä tyhjät -harjoituksilla värikkäiden kuvakohtausten kanssa', caption: 'Täytä tyhjät -prepositioharjoitukset kuvakohtauksilla' },
+      { src: '/samples/finnish/prepositions/Prepositiot%202.webp', alt: 'Prepositiotyöarkki monivalintaharjoituksilla ohjattua harjoittelua varten', caption: 'Monivalintatila ohjattua aloittelijaystävällistä harjoittelua varten' },
+      { src: '/samples/finnish/prepositions/Prepositiot%203.webp', alt: 'Edistynyt prepositiotyöarkki muodonvaihdolla uniikkien kohtausyhdistelmien luomiseksi', caption: 'Muodonvaihto moninkertaistaa visuaaliset yhdistelmät tuotevaihtelua varten' },
     ],
     youtubeId: 'ifIXbViR5_o',
     videoTitle: 'Näin luot prepositiotyöarkkeja — Täydellinen opas',

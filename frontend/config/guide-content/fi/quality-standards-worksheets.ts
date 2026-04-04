@@ -58,11 +58,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Sananetsintätyöarkki esittelemässä ammattimaisia laatustandardeja siistillä asettelulla ja tarkalla muotoilulla' },
+    heroImage: { src: '/samples/finnish/wordsearch/Sanahaku%201.webp', alt: 'Sananetsintätyöarkki esittelemässä ammattimaisia laatustandardeja siistillä asettelulla ja tarkalla muotoilulla' },
     samples: [
-      { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Sananetsintäpulma näyttäen ammattimaisen tulostusvalmin muotoilun ja laadukkaan ristikkolinjauksen', caption: 'Ammattimainen sananetsintätuloste osoittaa siistiä asettelua, luettavaa typografiaa ja tarkkaa ristikkolinjausta' },
-      { src: '/samples/english/addition/Addition Fun 1.webp', alt: 'Yhteenlaskutyöarkki näyttäen laatustandardeja numeroiden linjauksessa ja vastausavainten tarkkuudessa', caption: 'Matematiikkatyöarkit vaativat tarkkaa linjausta, selkeää typografiaa ja varmennettuja vastausavaimia ammattimaista laatua varten' },
-      { src: '/samples/english/coloring/coloring portrait 1.webp', alt: 'Värityssivu esittelemässä visuaalisia laatustandardeja johdonmukaisilla viivapainoilla ja tulostusoptimoinnilla', caption: 'Visuaaliset tuotteet vaativat johdonmukaisia viivapainoja, harmaasävyoptimointia ja ammattimaista tulostuslaatua' },
+      { src: '/samples/finnish/wordsearch/Sanahaku%201.webp', alt: 'Sananetsintäpulma näyttäen ammattimaisen tulostusvalmin muotoilun ja laadukkaan ristikkolinjauksen', caption: 'Ammattimainen sananetsintätuloste osoittaa siistiä asettelua, luettavaa typografiaa ja tarkkaa ristikkolinjausta' },
+      { src: '/samples/finnish/addition/Hauska%20Yhteenlasku%201.webp', alt: 'Yhteenlaskutyöarkki näyttäen laatustandardeja numeroiden linjauksessa ja vastausavainten tarkkuudessa', caption: 'Matematiikkatyöarkit vaativat tarkkaa linjausta, selkeää typografiaa ja varmennettuja vastausavaimia ammattimaista laatua varten' },
+      { src: '/samples/finnish/coloring/coloring%20portrait%201.webp', alt: 'Värityssivu esittelemässä visuaalisia laatustandardeja johdonmukaisilla viivapainoilla ja tulostusoptimoinnilla', caption: 'Visuaaliset tuotteet vaativat johdonmukaisia viivapainoja, harmaasävyoptimointia ja ammattimaista tulostuslaatua' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Kuinka ylläpitää laatustandardeja tulostettaville työarkeille',

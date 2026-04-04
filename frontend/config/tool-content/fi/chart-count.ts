@@ -213,22 +213,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/chart count/Chart Count 1.webp',
+      primary: '/samples/finnish/chart%20count/Kuvakaavio%201.webp',
       primaryAlt: 'Kuvakaavio-tehtäväarkki levitetyllä 4×5 kuvaruudukolla, jossa 20 kuvaketta 6 tyypistä ja tyhjä pylväskaavio käyttäjille tietojen laskemiseen ja kaavion piirtämiseen',
     },
     sampleGallery: [
       {
-        src: '/samples/english/chart count/Chart Count 1.webp',
+        src: '/samples/finnish/chart%20count/Kuvakaavio%201.webp',
         alt: 'Eläinteemainen kuvakaavio-tehtäväarkki 20 levitetyllä eläinkuvakkeella 4×5-ruudukossa ja 6 sarakkeen pylväskaavio alla laskentaharjoitukseen',
         caption: 'Eläinteemainen kuvakaavio — 6 eläintyyppiä levitetty ruudukkoon pylväskaaviolla alla tietojen esittämisen harjoitukseen',
       },
       {
-        src: '/samples/english/chart count/Chart Count 2.webp',
+        src: '/samples/finnish/chart%20count/Kuvakaavio%202.webp',
         alt: 'Kuvakaavio-tehtäväarkki koristeellisella tausta- ja kehysteemalla riippumattomilla läpinäkyvyyssäätimillä',
         caption: 'Koristeltu kuvakaavio — tausta- ja kehysteemat riippumattomilla läpinäkyvyyssäätimillä ammattimaista tuoteilmettä varten',
       },
       {
-        src: '/samples/english/chart count/Chart Count 3.webp',
+        src: '/samples/finnish/chart%20count/Kuvakaavio%203.webp',
         alt: 'Kuvakaavion vastausavain keltaisilla korostetuilla soluilla, jotka osoittavat oikeat lukumäärät jokaiselle 6 kuvatyypille pylväskaaviossa',
         caption: 'Automaattisesti luotu vastausavain — keltaiset (#FFC857) solut osoittavat oikean lukumäärän jokaiselle kuvatyypille',
       },

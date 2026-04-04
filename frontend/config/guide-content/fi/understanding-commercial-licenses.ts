@@ -52,11 +52,11 @@ const content: GuideContent = {
     { appId: 'coloring', title: 'Värityssivugeneraattori', description: 'Kaupallisesti lisensoidut kuvat sisältyvät generaattorin lisenssiin — erillistä kuvallisenssien hankintaa ei tarvita visuaalisille tuotteille.' },
   ],
   visuals: {
-    heroImage: { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Ammattimainen sananetsintätyöarkki kaupallisesti lisensoidulla tulostettavalla tulostuksella' },
+    heroImage: { src: '/samples/finnish/wordsearch/Sanahaku%201.webp', alt: 'Ammattimainen sananetsintätyöarkki kaupallisesti lisensoidulla tulostettavalla tulostuksella' },
     samples: [
-      { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Sananetsintäpulma kaupallisella lisenssillä monialustaiseen myyntiin', caption: 'Kaupallisella lisenssillä luodut sananetsintäpulmat voidaan myydä millä tahansa alustalla' },
-      { src: '/samples/english/addition/Addition Fun 1.webp', alt: 'Yhteenlaskutyöarkki rojaltivapaalla kaupallisella lisensoinnilla', caption: 'Yksi kaupallinen lisenssi kattaa rajattoman yhteenlaskutyöarkkien tuotannon ilman per-tuote-maksuja' },
-      { src: '/samples/english/coloring/coloring portrait 1.webp', alt: 'Värityssivu asianmukaisesti lisensoiduilla temaattisilla kuvilla kaupalliseen myyntiin', caption: 'Kaupallisesti lisensoidut kuvat sisältyvät generaattorin lisenssiin visuaalisia tuotteita varten' },
+      { src: '/samples/finnish/wordsearch/Sanahaku%201.webp', alt: 'Sananetsintäpulma kaupallisella lisenssillä monialustaiseen myyntiin', caption: 'Kaupallisella lisenssillä luodut sananetsintäpulmat voidaan myydä millä tahansa alustalla' },
+      { src: '/samples/finnish/addition/Hauska%20Yhteenlasku%201.webp', alt: 'Yhteenlaskutyöarkki rojaltivapaalla kaupallisella lisensoinnilla', caption: 'Yksi kaupallinen lisenssi kattaa rajattoman yhteenlaskutyöarkkien tuotannon ilman per-tuote-maksuja' },
+      { src: '/samples/finnish/coloring/coloring%20portrait%201.webp', alt: 'Värityssivu asianmukaisesti lisensoiduilla temaattisilla kuvilla kaupalliseen myyntiin', caption: 'Kaupallisesti lisensoidut kuvat sisältyvät generaattorin lisenssiin visuaalisia tuotteita varten' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Sananetsintäpulmien luominen kaupallisella lisensoinnilla',

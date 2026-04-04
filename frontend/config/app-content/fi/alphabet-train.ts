@@ -212,22 +212,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/alphabet train/Alphabet Train 1.webp',
+      primary: '/samples/finnish/alphabet%20train/Aakkostjuna%201.webp',
       primaryAlt: 'Aakkosjuna tyoarkki varikkäilla junavaunuilla, jotka kantavat kirjaimia ja vastaavia elainkuvia',
     },
     sampleGallery: [
       {
-        src: '/samples/english/alphabet train/Alphabet Train 1.webp',
+        src: '/samples/finnish/alphabet%20train/Aakkostjuna%201.webp',
         alt: 'Aakkosjuna tyoarkki eläinteemalla ja 11 kirjainvaunulla vihjekuvineen',
         caption: 'Automaattinen Luonti -tila — 11 satunnaista kirjainvaunua eläinteemaisilla vihjekuvilla',
       },
       {
-        src: '/samples/english/alphabet train/Alphabet Train 5.webp',
+        src: '/samples/finnish/alphabet%20train/Aakkostjuna%202.webp',
         alt: 'Aakkosjuna tyoarkki ruokateemalla ja 5 vihjekuvalla yhdistettavaksi',
         caption: 'Manuaalinen tila — käsin valitut kirjaimet ruokateemalla ja 5 vihjettä helpompaan yhdistamiseen',
       },
       {
-        src: '/samples/english/alphabet train/Alphabet Train 10.webp',
+        src: '/samples/finnish/alphabet%20train/Aakkostjuna%201%20answer_key.webp',
         alt: 'Aakkosjuna tyoarkki ajoneuvoteemalla ja kaikki 11 vihjettä edistyneeseen harjoitteluun',
         caption: 'Taysi vihjehaaste — 11 vihjettä taydelliseen kirjain-kuva-yhdistamisen harjoitteluun',
       },

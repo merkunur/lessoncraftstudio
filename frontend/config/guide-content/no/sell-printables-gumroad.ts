@@ -181,11 +181,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/coloring/coloring portrait 1.webp', alt: 'Fargeleggingsside utskriftsprodukt klart for salg på Gumroad-butikkfront' },
+    heroImage: { src: '/samples/norwegian/coloring/coloring%20portrait%201.webp', alt: 'Fargeleggingsside utskriftsprodukt klart for salg på Gumroad-butikkfront' },
     samples: [
-      { src: '/samples/english/coloring/coloring portrait 2.webp', alt: 'Utskriftsbar fargeleggingsside for Gumroad digitalt produktsalg', caption: 'Fargeleggingssider skaper visuelt overbevisende produktbilder som driver sosiale medier-trafikk til Gumroad-butikken din' },
-      { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Ordsøk-puslespill utskriftsprodukt for Gumroad-butikkkatalog', caption: 'Ordsøk-puslespill har bred appell på tvers av foreldre- og kjøperpublikum — en allsidig Gumroad-produkttype' },
-      { src: '/samples/english/matching/matching portrait.webp', alt: 'Matchingarbeidsark-aktivitet for Gumroad utskriftsvirksomhet', caption: 'Matchingaktiviteter er høyetterspørsels pedagogiske utskriftsprodukter som fungerer godt som individuelle produkter og i bunter' },
+      { src: '/samples/norwegian/coloring/coloring%20portrait%202.webp', alt: 'Utskriftsbar fargeleggingsside for Gumroad digitalt produktsalg', caption: 'Fargeleggingssider skaper visuelt overbevisende produktbilder som driver sosiale medier-trafikk til Gumroad-butikken din' },
+      { src: '/samples/norwegian/wordsearch/Ordleting%201.webp', alt: 'Ordsøk-puslespill utskriftsprodukt for Gumroad-butikkkatalog', caption: 'Ordsøk-puslespill har bred appell på tvers av foreldre- og kjøperpublikum — en allsidig Gumroad-produkttype' },
+      { src: '/samples/norwegian/matching/Finn%20Parene%201.webp', alt: 'Matchingarbeidsark-aktivitet for Gumroad utskriftsvirksomhet', caption: 'Matchingaktiviteter er høyetterspørsels pedagogiske utskriftsprodukter som fungerer godt som individuelle produkter og i bunter' },
     ],
     youtubeId: 'ZdpCr2txHcc',
     videoTitle: 'Slik lager du fargeleggingssider for din Gumroad utskriftsbutikk',

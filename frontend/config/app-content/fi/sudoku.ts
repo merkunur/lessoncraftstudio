@@ -202,22 +202,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/sudoku/sudoku_worksheet.webp',
+      primary: '/samples/finnish/sudoku/Kuva-Sudoku%201.webp',
       primaryAlt: '4×4-kuvasudoku-työlehti temaattisilla kuvilla premium-ruudukossa vuorottelevilla lohkoväreillä ja automaattisesti luodulla Kuvasudoku-otsikolla',
     },
     sampleGallery: [
       {
-        src: '/samples/english/sudoku/sudoku_easy.webp',
+        src: '/samples/finnish/sudoku/Kuva-Sudoku%202.webp',
         alt: 'Helppo kuvasudoku 4 tyhjällä solulla ja 12 täytetyllä solulla 4×4-ruudukossa',
         caption: 'Helppo vaikeus — 4 tyhjää solua aloittelijoille rivi-ja-sarake-logiikan oppimiseen',
       },
       {
-        src: '/samples/english/sudoku/sudoku hard.webp',
+        src: '/samples/finnish/sudoku/Kuva-Sudoku%203.webp',
         alt: 'Vaikea kuvasudoku 8 tyhjällä solulla ja 8 täytetyllä solulla 4×4-ruudukossa',
         caption: 'Vaikea vaikeus — 8 tyhjää solua vaatien monivaiheista loogista päättelyä',
       },
       {
-        src: '/samples/english/sudoku/sudoku_answer_key.webp',
+        src: '/samples/finnish/sudoku/Kuva-Sudoku%201%20answer_key.webp',
         alt: 'Kuvasudoku-vastausavain näyttäen täydellisen täytetyn 4×4-ruudukon kaikki 16 solua täytettynä',
         caption: 'Automaattisesti luotu vastausavain — täydellinen täytetty ruudukko kaikki kuvat paikoillaan',
       },

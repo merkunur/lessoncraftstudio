@@ -182,10 +182,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/writing/writing.webp', alt: 'Handskriftsovelsesarbeidsark som viser progressive spor-til-kopi bokstavformasjonovelser for barn' },
+    heroImage: { src: '/samples/norwegian/writing/writing.webp', alt: 'Handskriftsovelsesarbeidsark som viser progressive spor-til-kopi bokstavformasjonovelser for barn' },
     samples: [
-      { src: '/samples/english/writing/writing.webp', alt: 'Handskriftsovelsesark med sporingsrader og strekrekkefolge-piler for bokstavformasjon', caption: 'Progressivt handskriftsarbeidsark med sporing, falmende sporing og veiledet kopi-rader for bokstavovelse' },
-      { src: '/samples/english/writing/writing.webp', alt: 'Handskriftsarbeidsark med tematiske bilder paret med bokstavsporingsovelse', caption: 'Tematisk handskriftsovelsesark som parer bokstavsporing med bildebibliotekvisuelle elementer' },
+      { src: '/samples/norwegian/writing/writing.webp', alt: 'Handskriftsovelsesark med sporingsrader og strekrekkefolge-piler for bokstavformasjon', caption: 'Progressivt handskriftsarbeidsark med sporing, falmende sporing og veiledet kopi-rader for bokstavovelse' },
+      { src: '/samples/norwegian/writing/writing.webp', alt: 'Handskriftsarbeidsark med tematiske bilder paret med bokstavsporingsovelse', caption: 'Tematisk handskriftsovelsesark som parer bokstavsporing med bildebibliotekvisuelle elementer' },
     ],
     youtubeId: '0b4WglqyXu0',
     videoTitle: 'Hvordan lage handskriftsovelsesark — komplett veiledning',

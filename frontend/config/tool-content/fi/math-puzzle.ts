@@ -87,13 +87,13 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/math puzzle/Math Puzzles.webp',
+      primary: '/samples/finnish/math%20puzzle/Matematiikkapulmat%201.webp',
       primaryAlt: 'Matikkapalapeliarkki, jossa näkyy palapelityylinen kuvaruudukko yhteenlaskuyhtälöillä ja sekoitetuilla vastauspalasilla',
     },
     sampleGallery: [
-      { src: '/samples/english/math puzzle/Math Puzzles (1).webp', alt: 'Palapeli-matematiikka-arkki yhteenlaskuyhtälöillä värikkäässä kuvaruudukossa', caption: 'Yhteenlaskutila teemakuvapalapelillä' },
-      { src: '/samples/english/math puzzle/Math Puzzles (5).webp', alt: 'Matikkapalapeliarkki vähennyslaskuyhtälöillä ja sekoitetuilla numeropaloilla ruudukon alla', caption: 'Vähennyslaskutila — ratkaise yhtälöt rekonstruoidaksesi kuvan' },
-      { src: '/samples/english/math puzzle/Math Puzzles (10).webp', alt: 'Sekoitetun yhteenlasku- ja vähennyslaskun matikkapalapeli suuremmalla ruudukolla', caption: 'Sekoitetut laskutoimitukset — yhteenlasku ja vähennyslasku yhdessä palapelissa' },
+      { src: '/samples/finnish/math%20puzzle/Matematiikkapulmat%202.webp', alt: 'Palapeli-matematiikka-arkki yhteenlaskuyhtälöillä värikkäässä kuvaruudukossa', caption: 'Yhteenlaskutila teemakuvapalapelillä' },
+      { src: '/samples/finnish/math%20puzzle/Matematiikkapulmat%203.webp', alt: 'Matikkapalapeliarkki vähennyslaskuyhtälöillä ja sekoitetuilla numeropaloilla ruudukon alla', caption: 'Vähennyslaskutila — ratkaise yhtälöt rekonstruoidaksesi kuvan' },
+      { src: '/samples/finnish/math%20puzzle/Matematiikkapulmat%204.webp', alt: 'Sekoitetun yhteenlasku- ja vähennyslaskun matikkapalapeli suuremmalla ruudukolla', caption: 'Sekoitetut laskutoimitukset — yhteenlasku ja vähennyslasku yhdessä palapelissa' },
     ],
     youtubeId: 'n5QO39Lq5l8',
     videoTitle: 'Näin Luot Matikkapalapelitehtäviä — Video-opas',

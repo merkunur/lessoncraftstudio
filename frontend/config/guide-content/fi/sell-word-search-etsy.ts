@@ -138,11 +138,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Sananetsintäpulma temaattisella sanastolla myyntiin Etsyssä' },
+    heroImage: { src: '/samples/finnish/wordsearch/Sanahaku%201.webp', alt: 'Sananetsintäpulma temaattisella sanastolla myyntiin Etsyssä' },
     samples: [
-      { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Eläinteemainen sananetsintäpulma Etsy-digitaalilatauslistaukseen', caption: 'Sananetsintäpulma eläinsanastolla — ristikkoformaatti tuottaa näyttäviä Etsy-listauskuvia' },
-      { src: '/samples/english/crossword/crossword_worksheet.webp', alt: 'Ristisanatehtävä täydentämässä sananetsintätuotteita Etsy-pulmakaupassa', caption: 'Ristisanatehtävä — luonnollinen ristikkäismyyntikumppani sananetsintälistauksille' },
-      { src: '/samples/english/word scramble/Word Scramble 1.webp', alt: 'Sana-sekoituspulma täydentävänä formaattina Etsy-pulmapaketeille', caption: 'Sana-sekoituspulma — nopea sanastoaktiviteetti joka lisää vaihtelua moniformaattipaketteihin' },
+      { src: '/samples/finnish/wordsearch/Sanahaku%201.webp', alt: 'Eläinteemainen sananetsintäpulma Etsy-digitaalilatauslistaukseen', caption: 'Sananetsintäpulma eläinsanastolla — ristikkoformaatti tuottaa näyttäviä Etsy-listauskuvia' },
+      { src: '/samples/finnish/crossword/Kuvaristikko%201.webp', alt: 'Ristisanatehtävä täydentämässä sananetsintätuotteita Etsy-pulmakaupassa', caption: 'Ristisanatehtävä — luonnollinen ristikkäismyyntikumppani sananetsintälistauksille' },
+      { src: '/samples/finnish/word%20scramble/Kirjainsekoitus%201.webp', alt: 'Sana-sekoituspulma täydentävänä formaattina Etsy-pulmapaketeille', caption: 'Sana-sekoituspulma — nopea sanastoaktiviteetti joka lisää vaihtelua moniformaattipaketteihin' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Sananetsintäpulmien luominen myyntiin Etsyssä — Vaihe vaiheelta -opas',

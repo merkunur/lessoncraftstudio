@@ -55,10 +55,10 @@ const content: GuideContent = {
     { appId: 'find-objects', title: 'Piiloesineet-generaattori', description: 'Visuaalisen haun kumppani. I Spy -aktiviteetit yhdistyvät puuttuvat palat -pulmiin moniformaattisissa visuaalisten pulmien paketeissa.' },
   ],
   visuals: {
-    heroImage: { src: '/samples/english/missing pieces/Missing Pieces (1).webp', alt: 'Palapelityöarkki aukoilla värikkäässä kuvassa ja numeroiduilla ratkaisuvaihtoehdoilla alla' },
+    heroImage: { src: '/samples/finnish/missing%20pieces/Puuttuvat%20Palat%202.webp', alt: 'Palapelityöarkki aukoilla värikkäässä kuvassa ja numeroiduilla ratkaisuvaihtoehdoilla alla' },
     samples: [
-      { src: '/samples/english/missing pieces/Missing Pieces (1).webp', alt: 'Puuttuvat palat -pulmatyöarkki kuvasta irrotetuin aukoin ja numeroiduin ratkaisuvaihtoehtoin alla', caption: 'Palapelityöarkki älykkäästi irrotetuin paloin ja numeroiduin ratkaisuvaihtoehtoin mukaan lukien häiritsevät valinnat' },
-      { src: '/samples/english/missing pieces/Missing Pieces answer_key.webp', alt: 'Automaattisesti luotu vastausavain keltakorosteisin merkinnöin jotka näyttävät oikean vaihtoehdon numeron jokaiselle aukolle', caption: 'Automaattisesti luotu vastausavain keltakorosteisin merkinnöin jotka näyttävät oikean vaihtoehdon jokaiselle aukolle' },
+      { src: '/samples/finnish/missing%20pieces/Puuttuvat%20Palat%202.webp', alt: 'Puuttuvat palat -pulmatyöarkki kuvasta irrotetuin aukoin ja numeroiduin ratkaisuvaihtoehtoin alla', caption: 'Palapelityöarkki älykkäästi irrotetuin paloin ja numeroiduin ratkaisuvaihtoehtoin mukaan lukien häiritsevät valinnat' },
+      { src: '/samples/finnish/missing%20pieces/Puuttuvat%20Palat%203.webp', alt: 'Automaattisesti luotu vastausavain keltakorosteisin merkinnöin jotka näyttävät oikean vaihtoehdon numeron jokaiselle aukolle', caption: 'Automaattisesti luotu vastausavain keltakorosteisin merkinnöin jotka näyttävät oikean vaihtoehdon jokaiselle aukolle' },
     ],
     youtubeId: 'gb-xE_Ay4fc',
     videoTitle: 'Kuinka luot puuttuvat palat -pulmiä — Täydellinen opas',

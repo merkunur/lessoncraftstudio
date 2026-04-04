@@ -204,22 +204,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/subtraction/Subtraction Fun 1.webp',
+      primary: '/samples/finnish/subtraction/Hauskaa%20V%C3%A4hennyslaskua%201.webp',
       primaryAlt: 'Vähennyslaskutehtäväarkki yliviivauskuvilla, joka näyttää visuaalisia poisto-matematiikkaharjoituksia',
     },
     sampleGallery: [
       {
-        src: '/samples/english/subtraction/Subtraction Fun 1.webp',
+        src: '/samples/finnish/subtraction/Hauskaa%20V%C3%A4hennyslaskua%201.webp',
         alt: 'Yliviivaus-vähennyslaskutehtäväarkki eläinteemalla, jossa näkyy yliviivattuja kuvia',
         caption: 'Yliviivaus-tila eläinteemalla',
       },
       {
-        src: '/samples/english/subtraction/cross out.webp',
+        src: '/samples/finnish/subtraction/Hauskaa%20V%C3%A4hennyslaskua%202.webp',
         alt: 'Vähennyslaskutehtäväarkki ruokakuvilla Kuva miinus Numero -tilassa',
         caption: 'Kuva − Numero -tila ruokateemalla',
       },
       {
-        src: '/samples/english/subtraction/image number.webp',
+        src: '/samples/finnish/subtraction/Hauskaa%20V%C3%A4hennyslaskua%203.webp',
         alt: 'Etsi Vähennettävä -tehtäväarkki ajoneuvoilla ja koristeellisella kehyksellä',
         caption: 'Etsi Vähennettävä -tila ajoneuvoilla ja kehyksellä',
       },

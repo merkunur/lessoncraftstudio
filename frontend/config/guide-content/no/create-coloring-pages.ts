@@ -182,10 +182,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/coloring/coloring portrait 1.webp', alt: 'Fargeleggingsside laget fra tematiske bilder som viser gratonekonvertering for utskriftsklare fargeleggingsark' },
+    heroImage: { src: '/samples/norwegian/coloring/coloring%20portrait%201.webp', alt: 'Fargeleggingsside laget fra tematiske bilder som viser gratonekonvertering for utskriftsklare fargeleggingsark' },
     samples: [
-      { src: '/samples/english/coloring/coloring portrait 1.webp', alt: 'Tematisk fargeleggingsside med dyreillustrasjoner arrangert pa et friformlerret', caption: 'Fargeleggingsside laget med tematiske bilder fra biblioteket med friform lerretplassering' },
-      { src: '/samples/english/coloring/coloring portrait 1.webp', alt: 'Gratone fargeleggingsside klar for utskrift med rene svart-hvitt-konturer', caption: 'Gratoneeksport konverterer fargerike design til utskriftsklare fargeleggingssider' },
+      { src: '/samples/norwegian/coloring/coloring%20portrait%201.webp', alt: 'Tematisk fargeleggingsside med dyreillustrasjoner arrangert pa et friformlerret', caption: 'Fargeleggingsside laget med tematiske bilder fra biblioteket med friform lerretplassering' },
+      { src: '/samples/norwegian/coloring/coloring%20portrait%201.webp', alt: 'Gratone fargeleggingsside klar for utskrift med rene svart-hvitt-konturer', caption: 'Gratoneeksport konverterer fargerike design til utskriftsklare fargeleggingssider' },
     ],
     youtubeId: 'ZdpCr2txHcc',
     videoTitle: 'Hvordan lage fargeleggingssider fra tematiske bilder — komplett veiledning',

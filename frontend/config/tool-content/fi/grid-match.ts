@@ -92,13 +92,13 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/grid match/Grid Match 1.webp',
+      primary: '/samples/finnish/grid%20match/Ruudukkopalapeli%201.webp',
       primaryAlt: 'Ruudukkoyhdistämistehtäväarkki yksittäisellä kuvalla jaettuna laattoihin, näkyvät vihjesolut ja numeroitu laattapaletti tilallisen päättelyn pulma',
     },
     sampleGallery: [
-      { src: '/samples/english/grid match/Grid Match 1.webp', alt: '3×3 ruudukkoyhdistämispulma yhdellä näkyvällä vihjesolulla ja kahdeksalla numeroidulla laatalla sekoitetussa paletissa', caption: '3×3 ruudukkopulma — yksi vihjesolu näkyvissä, kahdeksan laattaa yhdistettäväksi numeroidusta paletista' },
-      { src: '/samples/english/grid match/Grid Match 2.webp', alt: '4×4 edistynyt ruudukkoyhdistämispulma kuudellatoista laatalla ja minimaalisilla vihjeillä haastavaan visuaaliseen havaitsemiseen', caption: '4×4 edistynyt pulma — maksimi ruudukon koko 16 laatalla haastavaan tilalliseen päättelyyn' },
-      { src: '/samples/english/grid match/Grid Match 3.webp', alt: 'Ruudukkoyhdistämisen vastausavain täydellisellä kuvalla ja numeroiduilla keltaisilla ympyröillä jokaisen ruudukkosolun päällä osoittaen oikean laattasijainnin', caption: 'Automaattisesti luotu vastausavain — numeroidut ympyrät (#ffffe0) osoittavat oikean laattasijainnin täydellisessä kuvassa' },
+      { src: '/samples/finnish/grid%20match/Ruudukkopalapeli%201.webp', alt: '3×3 ruudukkoyhdistämispulma yhdellä näkyvällä vihjesolulla ja kahdeksalla numeroidulla laatalla sekoitetussa paletissa', caption: '3×3 ruudukkopulma — yksi vihjesolu näkyvissä, kahdeksan laattaa yhdistettäväksi numeroidusta paletista' },
+      { src: '/samples/finnish/grid%20match/Ruudukkopalapeli%202.webp', alt: '4×4 edistynyt ruudukkoyhdistämispulma kuudellatoista laatalla ja minimaalisilla vihjeillä haastavaan visuaaliseen havaitsemiseen', caption: '4×4 edistynyt pulma — maksimi ruudukon koko 16 laatalla haastavaan tilalliseen päättelyyn' },
+      { src: '/samples/finnish/grid%20match/Ruudukkopalapeli%201%20answer_key.webp', alt: 'Ruudukkoyhdistämisen vastausavain täydellisellä kuvalla ja numeroiduilla keltaisilla ympyröillä jokaisen ruudukkosolun päällä osoittaen oikean laattasijainnin', caption: 'Automaattisesti luotu vastausavain — numeroidut ympyrät (#ffffe0) osoittavat oikean laattasijainnin täydellisessä kuvassa' },
     ],
     youtubeId: 'RGtED1Bnut8',
     videoTitle: 'Näin Teet Ruudukkoyhdistämispulmia Konfiguroitavilla Ruudukkoko\'oilla, Säädettävillä Vihjesoluilla ja Automaattisilla Vastausavaimilla — Vaiheittainen Opas',

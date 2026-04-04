@@ -221,12 +221,12 @@ const content: StartContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/sudoku/sudoku_worksheet.webp', alt: 'Sudoku-pulmatehtävä esimerkki Amazon KDP -aktiviteettikirjan julkaisemiseen' },
+    heroImage: { src: '/samples/finnish/sudoku/Kuva-Sudoku%202.webp', alt: 'Sudoku-pulmatehtävä esimerkki Amazon KDP -aktiviteettikirjan julkaisemiseen' },
     samples: [
-      { src: '/samples/english/sudoku/sudoku_worksheet.webp', alt: 'Sudoku-pulmatehtävä KDP-aktiviteettikirjan sisäsivuksi', caption: 'Sudoku — suosituin KDP-pulmatehtäväkategoria' },
-      { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Sananhakupulmatehtävä Amazon KDP -aktiviteettikirjaan', caption: 'Sananhaku — KDP-bestsellerikategoria' },
-      { src: '/samples/english/math puzzle/Math Puzzles.webp', alt: 'Matemaattinen pulmatehtävä KDP-tehtäväkirjan sisäsivuksi', caption: 'Matemaattinen pulmatehtävä — ikiviheä KDP-markkinarako' },
-      { src: '/samples/english/crossword/crossword_worksheet.webp', alt: 'Ristisanapulmatehtävä KDP-aktiviteettikirjaan', caption: 'Ristisana — klassinen aktiviteettikirjaformaatti' },
+      { src: '/samples/finnish/sudoku/Kuva-Sudoku%202.webp', alt: 'Sudoku-pulmatehtävä KDP-aktiviteettikirjan sisäsivuksi', caption: 'Sudoku — suosituin KDP-pulmatehtäväkategoria' },
+      { src: '/samples/finnish/wordsearch/Sanahaku%201.webp', alt: 'Sananhakupulmatehtävä Amazon KDP -aktiviteettikirjaan', caption: 'Sananhaku — KDP-bestsellerikategoria' },
+      { src: '/samples/finnish/math%20puzzle/Matematiikkapulmat%201.webp', alt: 'Matemaattinen pulmatehtävä KDP-tehtäväkirjan sisäsivuksi', caption: 'Matemaattinen pulmatehtävä — ikiviheä KDP-markkinarako' },
+      { src: '/samples/finnish/crossword/Kuvaristikko%201.webp', alt: 'Ristisanapulmatehtävä KDP-aktiviteettikirjaan', caption: 'Ristisana — klassinen aktiviteettikirjaformaatti' },
     ],
     youtubeId: 'bqVioFbkYbA',
     videoTitle: 'Näin luot Sudoku-pulmatehtäviä — LessonCraftStudio-demo',

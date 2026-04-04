@@ -192,22 +192,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/find objects/spotworks_worksheet.webp',
+      primary: '/samples/finnish/find%20objects/L%C3%B6yd%C3%A4%20Piilotetut%20Esineet%201.webp',
       primaryAlt: 'Piiloesineiden Etsi ja Löydä -työlehti hajautetuilla kuvilla päällekkäisyyttä välttävällä algoritmilla sijoitettuna, legenda alaosassa näyttäen etsittävät esineet ja koristeellinen otsikko',
     },
     sampleGallery: [
       {
-        src: '/samples/english/find objects/spotworks_worksheet (1).webp',
+        src: '/samples/finnish/find%20objects/L%C3%B6yd%C3%A4%20Piilotetut%20Esineet%202.webp',
         alt: 'Etsi ja Löydä -piiloesineiden kohtaus hajautetuilla kuvilla ja legendalla näyttäen kohdeobjektit alaosassa',
         caption: 'Etsi ja Löydä -tila — vapaasti hajautettu piiloesineiden kohtaus legendanäytöllä',
       },
       {
-        src: '/samples/english/find objects/spotworks_worksheet (5).webp',
+        src: '/samples/finnish/find%20objects/L%C3%B6yd%C3%A4%20Piilotetut%20Esineet%203.webp',
         alt: 'Kumpi Ei Kuulu -työlehti paritetuilla kuvilla riveissä ja parittomilla kohteilla tunnistettavaksi',
         caption: 'Kumpi Ei Kuulu -tila — paritettuja kuvia parittomilla kohteilla visuaaliseen erotteluun',
       },
       {
-        src: '/samples/english/find objects/spotworks_answer_key.webp',
+        src: '/samples/finnish/find%20objects/L%C3%B6yd%C3%A4%20Piilotetut%20Esineet%201%20answer_key.webp',
         alt: 'Piiloesineiden työlehden vastausavain punaisilla ympyröillä kohdeobjektien ympärillä',
         caption: 'Automaattisesti luotu vastausavain — punaiset ympyrät merkitsevät piiloesineet ja parittomat kohteet',
       },

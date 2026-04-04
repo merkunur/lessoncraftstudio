@@ -50,11 +50,11 @@ const content: GuideContent = {
     { appId: 'word-scramble', title: 'Sana-sekoituspulmageneraattori', description: 'Lisäpulmaformaatti joka sopii monipulmakirjoihin sananetsintöjen ja ristisanatehtävien rinnalle.' },
   ],
   visuals: {
-    heroImage: { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Sananetsintäpulma temaattisella sanaristikolla Amazon KDP:n sananetsintäkirjan sisäsivuille' },
+    heroImage: { src: '/samples/finnish/wordsearch/Sanahaku%201.webp', alt: 'Sananetsintäpulma temaattisella sanaristikolla Amazon KDP:n sananetsintäkirjan sisäsivuille' },
     samples: [
-      { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Eläinteemainen sananetsintäpulma KDP-sananetsintäkirjaan', caption: 'Temaattinen eläinten sananetsintäpulma — temaattiset sanalistat luovat kiinnostavaa sisältöä joka ylittää satunnaiset sanakokoelmat' },
-      { src: '/samples/english/wordsearch/custom word list.webp', alt: 'Ruoka-aiheinen sananetsintäpulma KDP-kirjaan', caption: 'Ruoka-aiheinen sananetsintä — temaattiset osiot lisäävät rakennetta joka erottaa ammattimaiset sananetsintäkirjat amatöörikokoelmista' },
-      { src: '/samples/english/crossword/crossword_worksheet.webp', alt: 'Ristisanatehtävä KDP-pulmakatalogin täydentäjäksi', caption: 'Ristisanatehtävä — täydentävä pulmatyyppi katalogin monipuolistamiseen ja ristikkäispromootioon sananetsintäteosten kanssa' },
+      { src: '/samples/finnish/wordsearch/Sanahaku%201.webp', alt: 'Eläinteemainen sananetsintäpulma KDP-sananetsintäkirjaan', caption: 'Temaattinen eläinten sananetsintäpulma — temaattiset sanalistat luovat kiinnostavaa sisältöä joka ylittää satunnaiset sanakokoelmat' },
+      { src: '/samples/finnish/wordsearch/Sanahaku%203.webp', alt: 'Ruoka-aiheinen sananetsintäpulma KDP-kirjaan', caption: 'Ruoka-aiheinen sananetsintä — temaattiset osiot lisäävät rakennetta joka erottaa ammattimaiset sananetsintäkirjat amatöörikokoelmista' },
+      { src: '/samples/finnish/crossword/Kuvaristikko%201.webp', alt: 'Ristisanatehtävä KDP-pulmakatalogin täydentäjäksi', caption: 'Ristisanatehtävä — täydentävä pulmatyyppi katalogin monipuolistamiseen ja ristikkäispromootioon sananetsintäteosten kanssa' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Sananetsintäpulmien luominen Amazon KDP -kirjoihin — Vaihe vaiheelta -opas',

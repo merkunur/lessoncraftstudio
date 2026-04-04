@@ -55,10 +55,10 @@ const content: GuideContent = {
     { appId: 'odd-one-out', title: 'Etsi erilainen -generaattori', description: 'Visuaalisen erottelun pulmakumppani. Etsi erilainen -harjoitukset vahvistavat tarkkaa havainnointia.' },
   ],
   visuals: {
-    heroImage: { src: '/samples/english/find objects/spotworks_worksheet.webp', alt: 'Piiloesineet-kohtaustyöarkki temaattisilla kuvilla lapsille tiettyjen esineiden etsimiseen' },
+    heroImage: { src: '/samples/finnish/find%20objects/L%C3%B6yd%C3%A4%20Piilotetut%20Esineet%201.webp', alt: 'Piiloesineet-kohtaustyöarkki temaattisilla kuvilla lapsille tiettyjen esineiden etsimiseen' },
     samples: [
-      { src: '/samples/english/find objects/spotworks_worksheet.webp', alt: 'I Spy piiloesineet-työarkki temaattisella kohtauksella visuaalisen haun aktiviteettia varten', caption: 'I Spy piiloesineet-kohtaus temaattisilla kuvilla ja häiritsevinesineitä visuaalisen haun harjoitteluun' },
-      { src: '/samples/english/find objects/spotworks_worksheet.webp', alt: 'Piiloesineet-työarkin vastausavain joka korostaa piilotettujen esineiden sijainnit', caption: 'Automaattinen vastausavain luotu jokaiselle piiloesineet-kohtaustyöarkille' },
+      { src: '/samples/finnish/find%20objects/L%C3%B6yd%C3%A4%20Piilotetut%20Esineet%201.webp', alt: 'I Spy piiloesineet-työarkki temaattisella kohtauksella visuaalisen haun aktiviteettia varten', caption: 'I Spy piiloesineet-kohtaus temaattisilla kuvilla ja häiritsevinesineitä visuaalisen haun harjoitteluun' },
+      { src: '/samples/finnish/find%20objects/L%C3%B6yd%C3%A4%20Piilotetut%20Esineet%201.webp', alt: 'Piiloesineet-työarkin vastausavain joka korostaa piilotettujen esineiden sijainnit', caption: 'Automaattinen vastausavain luotu jokaiselle piiloesineet-kohtaustyöarkille' },
     ],
     youtubeId: '8Y3jrVr1Phs',
     videoTitle: 'Kuinka luot piiloesineet-kohtaustyöarkkeja — Täydellinen opas',

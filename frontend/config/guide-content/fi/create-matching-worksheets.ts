@@ -55,10 +55,10 @@ const content: GuideContent = {
     { appId: 'pattern-worksheet', title: 'Kuviotyöarkkigeneraattori', description: 'Peräkkäisen hahmontunnistuksen kumppani. Kuviot laajentavat matchingin visuaalista erottelua sekventiaaliseen analyysiin.' },
   ],
   visuals: {
-    heroImage: { src: '/samples/english/matching/matching portrait.webp', alt: 'Matchingtyöarkki temaattisilla kuvilla näyttäen piirrä-viiva-parit esikouluikäisille' },
+    heroImage: { src: '/samples/finnish/matching/Yhdist%C3%A4%20Parit%201.webp', alt: 'Matchingtyöarkki temaattisilla kuvilla näyttäen piirrä-viiva-parit esikouluikäisille' },
     samples: [
-      { src: '/samples/english/matching/matching portrait.webp', alt: 'Piirrä-viiva matchingtyöarkki eläinteemalla esikouluikäisille', caption: 'Esikoulun matchingtyöarkki eläinteemalla kirjain-matchingtilassa 5 parilla' },
-      { src: '/samples/english/matching/matching portrait.webp', alt: 'Matchingtyöarkin vastausavain yhdistävillä viivoilla oikeiden parien välillä', caption: 'Automaattinen vastausavain vaakasuuntaisilla yhdistävillä viivoilla yhdistettyjen parien välillä' },
+      { src: '/samples/finnish/matching/Yhdist%C3%A4%20Parit%201.webp', alt: 'Piirrä-viiva matchingtyöarkki eläinteemalla esikouluikäisille', caption: 'Esikoulun matchingtyöarkki eläinteemalla kirjain-matchingtilassa 5 parilla' },
+      { src: '/samples/finnish/matching/Yhdist%C3%A4%20Parit%201.webp', alt: 'Matchingtyöarkin vastausavain yhdistävillä viivoilla oikeiden parien välillä', caption: 'Automaattinen vastausavain vaakasuuntaisilla yhdistävillä viivoilla yhdistettyjen parien välillä' },
     ],
     youtubeId: 'y3ghkjt_67s',
     videoTitle: 'Kuinka luot matchingtyöarkkeja — Täydellinen opas',

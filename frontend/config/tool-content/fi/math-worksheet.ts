@@ -87,13 +87,13 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/math worksheet/Math Worksheet 10.webp',
+      primary: '/samples/finnish/math%20worksheet/Matematiikkalehti%201.webp',
       primaryAlt: 'Algebrapalapeliarkki kuvasymbolien kanssa tuntemattomina muuttujina kytketyissä yhtälöissä',
     },
     sampleGallery: [
-      { src: '/samples/english/math worksheet/Math Worksheet 1.webp', alt: 'Visuaalinen algebrapalapeli kahdella kuvasymbolilla ja yhteenlaskuyhtälöillä aloittelijoille', caption: 'Erittäin Helppo -tila — kaksi symbolia yksinkertaisella yhteenlaskulla' },
-      { src: '/samples/english/math worksheet/Math Worksheet 5.webp', alt: 'Keskitason algebrapalapeli kolmella kuvamuuttujalla kytketyissä yhtälöissä', caption: 'Keskitason vaikeus — kolme tuntematonta kytketyissä yhtälöissä' },
-      { src: '/samples/english/math worksheet/Math Worksheet 10.webp', alt: 'Vaikea algebrapalapeliarkki neljällä samanaikaisella tuntemattomalla ja sekoitetuilla laskutoimituksilla', caption: 'Vaikea-tila — neljä muuttujaa yhteenlaskulla ja vähennyslaskulla' },
+      { src: '/samples/finnish/math%20worksheet/Matematiikkalehti%202.webp', alt: 'Visuaalinen algebrapalapeli kahdella kuvasymbolilla ja yhteenlaskuyhtälöillä aloittelijoille', caption: 'Erittäin Helppo -tila — kaksi symbolia yksinkertaisella yhteenlaskulla' },
+      { src: '/samples/finnish/math%20worksheet/Matematiikkalehti%203.webp', alt: 'Keskitason algebrapalapeli kolmella kuvamuuttujalla kytketyissä yhtälöissä', caption: 'Keskitason vaikeus — kolme tuntematonta kytketyissä yhtälöissä' },
+      { src: '/samples/finnish/math%20worksheet/Matematiikkalehti%201.webp', alt: 'Vaikea algebrapalapeliarkki neljällä samanaikaisella tuntemattomalla ja sekoitetuilla laskutoimituksilla', caption: 'Vaikea-tila — neljä muuttujaa yhteenlaskulla ja vähennyslaskulla' },
     ],
     youtubeId: '-JIawojGNr0',
     videoTitle: 'Näin Luot Matematiikkatehtäviä — Video-opas',

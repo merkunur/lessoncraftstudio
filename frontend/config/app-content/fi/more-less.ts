@@ -242,22 +242,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/more less/More Less (10).webp',
+      primary: '/samples/finnish/more%20less/Enemm%C3%A4n%20V%C3%A4hemm%C3%A4n%201.webp',
       primaryAlt: 'Enemman vai Vahemman tyoarkki varikkäillä elainkuvilla Kuva Kuvaan -vertailutilassa',
     },
     sampleGallery: [
       {
-        src: '/samples/english/more less/More Less (10).webp',
+        src: '/samples/finnish/more%20less/Enemm%C3%A4n%20V%C3%A4hemm%C3%A4n%201.webp',
         alt: 'Vertailutyoarkki Kuva Kuvaan -tilassa eläinteemalla',
         caption: 'Kuva Kuvaan -tila — laske kaksi kuvaryhmaa ja vertaa maaraa',
       },
       {
-        src: '/samples/english/more less/More Less (12).webp',
+        src: '/samples/finnish/more%20less/Enemm%C3%A4n%20V%C3%A4hemm%C3%A4n%202.webp',
         alt: 'Vertailutyoarkki Kuva Numeroon -tilassa ruokateemalla',
         caption: 'Kuva Numeroon -tila — yhdistaa kuvaryhmat numeroihin siltataitojen kehittamiseksi',
       },
       {
-        src: '/samples/english/more less/More Less (14).webp',
+        src: '/samples/finnish/more%20less/Enemm%C3%A4n%20V%C3%A4hemm%C3%A4n%201%20answer_key.webp',
         alt: 'Merkki ja Rasti Ryhmat tyoarkki sekoitetuilla kuvilla visuaaliseen lajitteluun',
         caption: 'Merkki ja Rasti Ryhmat -tila — loyda enemmistöryhmä sekoitetusta kuvalaatikosta',
       },

@@ -181,11 +181,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/cryptogram/cryptogram_worksheet.webp', alt: 'Kryptogramarbeidsark med bildechiffer som viser tematiske bilder mappet til alfabetbokstaver som koder en hemmelig frase' },
+    heroImage: { src: '/samples/norwegian/cryptogram/Bildekryptogram%201.webp', alt: 'Kryptogramarbeidsark med bildechiffer som viser tematiske bilder mappet til alfabetbokstaver som koder en hemmelig frase' },
     samples: [
-      { src: '/samples/english/cryptogram/cryptogram_worksheet.webp', alt: 'Kryptogramarbeidsark med tematiske bilder som erstatter bokstaver i en kodet hemmelig frase', caption: 'Bilde-chifferpuslespill — dekod den hemmelige meldingen ved a identifisere hvilket bilde som representerer hvilken bokstav' },
-      { src: '/samples/english/cryptogram/cryptogram_worksheet (5).webp', alt: 'Kryptogramarbeidsark med tematiske bilder og Bokstaver a avsslore-hint for stilasert vanskelighetsgrad', caption: 'Tematisk chiffer med Bokstaver a avsslore — forhandsloste tilordninger gir stilasering for nybegynnere' },
-      { src: '/samples/english/cryptogram/cryptogram_answer_key.webp', alt: 'Kryptogram-fasit med komplett bokstavforklaring som viser alle alfabet-til-bilde-tilordninger i sortert rekkefolge', caption: 'Bokstavforklaring-fasit — hver alfabetbokstav paret med sitt tilordnede bilde for definitiv losningsreferanse' },
+      { src: '/samples/norwegian/cryptogram/Bildekryptogram%201.webp', alt: 'Kryptogramarbeidsark med tematiske bilder som erstatter bokstaver i en kodet hemmelig frase', caption: 'Bilde-chifferpuslespill — dekod den hemmelige meldingen ved a identifisere hvilket bilde som representerer hvilken bokstav' },
+      { src: '/samples/norwegian/cryptogram/Bildekryptogram%202.webp', alt: 'Kryptogramarbeidsark med tematiske bilder og Bokstaver a avsslore-hint for stilasert vanskelighetsgrad', caption: 'Tematisk chiffer med Bokstaver a avsslore — forhandsloste tilordninger gir stilasering for nybegynnere' },
+      { src: '/samples/norwegian/cryptogram/Bildekryptogram%203.webp', alt: 'Kryptogram-fasit med komplett bokstavforklaring som viser alle alfabet-til-bilde-tilordninger i sortert rekkefolge', caption: 'Bokstavforklaring-fasit — hver alfabetbokstav paret med sitt tilordnede bilde for definitiv losningsreferanse' },
     ],
     youtubeId: '9U0BIIjCnco',
     videoTitle: 'Hvordan lage bilde-kryptogram chifferpuslespill — trinn-for-trinn veiledning',

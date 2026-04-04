@@ -55,10 +55,10 @@ const content: GuideContent = {
     { appId: 'pattern-worksheet', title: 'Kuviotyöarkkigeneraattori', description: 'Peräkkäisen hahmontunnistuksen kumppani. Kuviot yhdistyvät labyrinttien loogiseen ongelmanratkaisuun.' },
   ],
   visuals: {
-    heroImage: { src: '/samples/english/picture path/Picture Pathway.webp', alt: 'Labyrinttityöarkki temaattisella kuvapolku-aktiviteetilla aloitus- ja loppukuvilla lapsille' },
+    heroImage: { src: '/samples/finnish/picture%20path/Kuvapolku%202.webp', alt: 'Labyrinttityöarkki temaattisella kuvapolku-aktiviteetilla aloitus- ja loppukuvilla lapsille' },
     samples: [
-      { src: '/samples/english/picture path/Picture Pathway.webp', alt: 'Kuvapolkulabyrinttityöarkki temaattisilla kuvilla esikouluikäisille ja esikoululaisille', caption: 'Kuvapolku-tila: lapset seuraavat visuaalista polkua aloituskuvasta loppukuvaan temaattisten koristelujen läpi' },
-      { src: '/samples/english/picture path/Picture Pathway.webp', alt: 'Klassinen labyrinttityöarkki keräilykuvilla ja vastausavaimella ratkaisupolkua ja lukumääriä näyttäen', caption: 'Klassinen labyrintti -tila keräilykuvilla ja automaattisella vastausavaimella ratkaisupolkua ja lukumääriä näyttäen' },
+      { src: '/samples/finnish/picture%20path/Kuvapolku%202.webp', alt: 'Kuvapolkulabyrinttityöarkki temaattisilla kuvilla esikouluikäisille ja esikoululaisille', caption: 'Kuvapolku-tila: lapset seuraavat visuaalista polkua aloituskuvasta loppukuvaan temaattisten koristelujen läpi' },
+      { src: '/samples/finnish/picture%20path/Kuvapolku%202.webp', alt: 'Klassinen labyrinttityöarkki keräilykuvilla ja vastausavaimella ratkaisupolkua ja lukumääriä näyttäen', caption: 'Klassinen labyrintti -tila keräilykuvilla ja automaattisella vastausavaimella ratkaisupolkua ja lukumääriä näyttäen' },
     ],
     youtubeId: 'Sl1o0uPBDCg',
     videoTitle: 'Kuinka luot labyrinttityöarkkeja — Täydellinen opas',

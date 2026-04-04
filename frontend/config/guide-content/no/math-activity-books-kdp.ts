@@ -186,11 +186,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/addition/addition_worksheet portrait.webp', alt: 'Addisjonsarbeidsark som viser bildebaserte matteoppgaver egnet for Amazon KDP aktivitetsbok-interiørsider' },
+    heroImage: { src: '/samples/norwegian/addition/G%C3%B8y%20Addisjon%202.webp', alt: 'Addisjonsarbeidsark som viser bildebaserte matteoppgaver egnet for Amazon KDP aktivitetsbok-interiørsider' },
     samples: [
-      { src: '/samples/english/addition/Addition Fun 1.webp', alt: 'Dyretematisk addisjonsarbeidsark formatert for KDP matte aktivitetsbok', caption: 'Addisjonsarbeidsark med dyretema — bildebaserte matteoppgaver som generator engasjerende KDP aktivitetsboksider' },
-      { src: '/samples/english/subtraction/cross out.webp', alt: 'Subtraksjonsarbeidsark for fleroperasjons KDP matte arbeidsbok', caption: 'Subtraksjonsarbeidsark — pares med addisjonssider for å skape omfattende matte aktivitetsbøker på Amazon' },
-      { src: '/samples/english/math puzzle/Math Puzzles (1).webp', alt: 'Mattepuslespill rutenett-arbeidsark som tilfører variasjon til KDP aktivitetsbøker', caption: 'Mattepuslespill-rutenett — tilfører engasjerende variasjon til aktivitetsboksider utover standard arbeidsarkdriller' },
+      { src: '/samples/norwegian/addition/G%C3%B8y%20Addisjon%201.webp', alt: 'Dyretematisk addisjonsarbeidsark formatert for KDP matte aktivitetsbok', caption: 'Addisjonsarbeidsark med dyretema — bildebaserte matteoppgaver som generator engasjerende KDP aktivitetsboksider' },
+      { src: '/samples/norwegian/subtraction/Moro%20med%20Subtraksjon%202.webp', alt: 'Subtraksjonsarbeidsark for fleroperasjons KDP matte arbeidsbok', caption: 'Subtraksjonsarbeidsark — pares med addisjonssider for å skape omfattende matte aktivitetsbøker på Amazon' },
+      { src: '/samples/norwegian/math%20puzzle/Mattepuslespill%202.webp', alt: 'Mattepuslespill rutenett-arbeidsark som tilfører variasjon til KDP aktivitetsbøker', caption: 'Mattepuslespill-rutenett — tilfører engasjerende variasjon til aktivitetsboksider utover standard arbeidsarkdriller' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'Slik lager du mattearbeidsark for Amazon KDP aktivitetsbøker — trinn-for-trinn veiledning',

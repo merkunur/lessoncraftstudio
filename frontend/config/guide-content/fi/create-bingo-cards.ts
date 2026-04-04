@@ -181,10 +181,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/bingo/bingo_card.webp', alt: 'Temaattiset kuvabingokortit värikkäällä kuvitetulla ruudukolla ja kutsukorttia lapsille' },
+    heroImage: { src: '/samples/finnish/bingo/kuvabingo%201.webp', alt: 'Temaattiset kuvabingokortit värikkäällä kuvitetulla ruudukolla ja kutsukorttia lapsille' },
     samples: [
-      { src: '/samples/english/bingo/bingo_card.webp', alt: 'Kuvabingokortti eläinteemalla 4×4 ruudukolla ryhmäkäyttöön', caption: '4×4 kuvabingokortti eläinteemalla vain kuvat -näyttötilassa' },
-      { src: '/samples/english/bingo/bingo_card.webp', alt: 'Bingon kutsukortti näyttäen kaikki sarjassa käytetyt temaattiset kuvat', caption: 'Kutsukortti näyttää kaikki korttisarjassa käytetyt kuvat' },
+      { src: '/samples/finnish/bingo/kuvabingo%201.webp', alt: 'Kuvabingokortti eläinteemalla 4×4 ruudukolla ryhmäkäyttöön', caption: '4×4 kuvabingokortti eläinteemalla vain kuvat -näyttötilassa' },
+      { src: '/samples/finnish/bingo/kuvabingo%201.webp', alt: 'Bingon kutsukortti näyttäen kaikki sarjassa käytetyt temaattiset kuvat', caption: 'Kutsukortti näyttää kaikki korttisarjassa käytetyt kuvat' },
     ],
     youtubeId: 'd6AOiDXoK1c',
     videoTitle: 'Näin luot bingokortit temaattisilla kuvilla — Täydellinen opas',

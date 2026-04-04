@@ -222,22 +222,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/cryptogram/cryptogram_worksheet.webp',
+      primary: '/samples/finnish/cryptogram/Kuvakryptogrammi%201.webp',
       primaryAlt: 'Kryptogrammi-työarkki kuvakoodilla, joka näyttää kuvat yhdistettyinä aakkosten kirjaimiin salaiseksi lauseeksi',
     },
     sampleGallery: [
       {
-        src: '/samples/english/cryptogram/cryptogram_worksheet.webp',
+        src: '/samples/finnish/cryptogram/Kuvakryptogrammi%201.webp',
         alt: 'Kryptogrammi-työarkki temaattisilla kuvilla, jotka korvaavat kirjaimet koodatussa lauseessa',
         caption: 'Kuvakoodipulma — pura salainen viesti tunnistamalla, mikä kuva edustaa mitäkin kirjainta',
       },
       {
-        src: '/samples/english/cryptogram/cryptogram_worksheet (5).webp',
+        src: '/samples/finnish/cryptogram/Kuvakryptogrammi%202.webp',
         alt: 'Kryptogrammi-työarkki eläinteemalla ja Kirjaimia Paljastettavaksi -vihjeet näkyvissä',
         caption: 'Eläinteema Kirjaimia Paljastettavaksi -tuella — paljastetut yhdistelmät tukevat aloittelijoita',
       },
       {
-        src: '/samples/english/cryptogram/cryptogram_answer_key.webp',
+        src: '/samples/finnish/cryptogram/Kuvakryptogrammi%201%20answer_key.webp',
         alt: 'Kryptogrammi-vastauslehti täydellisellä kirjainlegendalla, joka näyttää kaikki aakkos-kuva-yhdistelmät',
         caption: 'Vastauslehti kirjainlegendalla — jokainen aakkoskirjain paritettuina kuvansa kanssa aakkosjärjestyksessä',
       },

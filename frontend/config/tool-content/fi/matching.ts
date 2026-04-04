@@ -90,13 +90,13 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/matching/Matching 1.webp',
+      primary: '/samples/finnish/matching/Yhdist%C3%A4%20Parit%201.webp',
       primaryAlt: 'Piirrä viiva -yhdistämistehtäväarkki temaattisilla kuvilla kahteen sarakkeeseen järjestettynä lokalisoidulla Etsi Parit -otsikolla, artikkelinumeroilla ja koristeellisilla pistemerkinnöillä',
     },
     sampleGallery: [
-      { src: '/samples/english/matching/Matching 1.webp', alt: 'Alkukirjain-yhdistämistehtäväarkki kuvilla vasemmalla ja alkukirjaimilla oikealla äänneharjoitukseen', caption: 'Alkukirjaintila — käyttäjät yhdistävät kuvat alkukirjaimiin isoilla tai pienillä kirjaimilla' },
-      { src: '/samples/english/matching/Matching 2.webp', alt: 'Kuva ja sana -yhdistämistehtäväarkki nimetyillä pareilla molemmin puolin sanavaraston vahvistamiseen', caption: 'Kuva+Sana-tila — nimetyt kuvaparit molemmin puolin sanavarastomatchaukseen ja sanantunnistukseen' },
-      { src: '/samples/english/matching/Matching 3.webp', alt: 'Yhdistämistehtäväarkin vastausavain vaakasuorilla yhdistysviivoilla oikeiden parien välillä välittömään varmistukseen', caption: 'Automaattisesti luotu vastausavain — yhdistysviivat (#555) oikeiden parien välillä välittömään varmistukseen' },
+      { src: '/samples/finnish/matching/Yhdist%C3%A4%20Parit%201.webp', alt: 'Alkukirjain-yhdistämistehtäväarkki kuvilla vasemmalla ja alkukirjaimilla oikealla äänneharjoitukseen', caption: 'Alkukirjaintila — käyttäjät yhdistävät kuvat alkukirjaimiin isoilla tai pienillä kirjaimilla' },
+      { src: '/samples/finnish/matching/Yhdist%C3%A4%20Parit%202.webp', alt: 'Kuva ja sana -yhdistämistehtäväarkki nimetyillä pareilla molemmin puolin sanavaraston vahvistamiseen', caption: 'Kuva+Sana-tila — nimetyt kuvaparit molemmin puolin sanavarastomatchaukseen ja sanantunnistukseen' },
+      { src: '/samples/finnish/matching/Yhdist%C3%A4%20Parit%201%20answer_key.webp', alt: 'Yhdistämistehtäväarkin vastausavain vaakasuorilla yhdistysviivoilla oikeiden parien välillä välittömään varmistukseen', caption: 'Automaattisesti luotu vastausavain — yhdistysviivat (#555) oikeiden parien välillä välittömään varmistukseen' },
     ],
     youtubeId: 'y3ghkjt_67s',
     videoTitle: 'Näin Teet Yhdistämistehtäviä 4 Tilalla, Automaattisilla Vastausavaimilla ja Lokalisoiduilla Otsikoilla — Vaiheittainen Opas',

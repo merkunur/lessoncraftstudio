@@ -205,22 +205,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/odd one out/Find the Odd One Out.webp',
+      primary: '/samples/finnish/odd%20one%20out/L%C3%B6yd%C3%A4%20Outo%20Lintu%201.webp',
       primaryAlt: 'Etsi erilainen -tehtava neljalla kuvalla per harjoitusrivi nayttaen kolme tavallista kohdetta ja yhden poikkeavan koralli-meripihka-turkoosi-otsikolla',
     },
     sampleGallery: [
       {
-        src: '/samples/english/odd one out/Find the Odd One Out (1).webp',
+        src: '/samples/finnish/odd%20one%20out/L%C3%B6yd%C3%A4%20Outo%20Lintu%202.webp',
         alt: 'Samanlainen-tilan etsi erilainen -tehtava kolmella kuvalla Teemasta A ja yhdella temaattisella poikkeavalla Teemasta B per harjoitusrivi',
         caption: 'Samanlainen-tila — kolme kuvaa Teemasta A ja yksi poikkeava kohde Teemasta B teemojen valista erottelua varten',
       },
       {
-        src: '/samples/english/odd one out/Find the Odd One Out (5).webp',
+        src: '/samples/finnish/odd%20one%20out/L%C3%B6yd%C3%A4%20Outo%20Lintu%203.webp',
         alt: 'Identtinen-tilan etsi erilainen -tehtava kolmella kloonilla samasta kuvasta ja yhdella erilaisella kuvalla samasta teemasta per rivi',
         caption: 'Identtinen-tila — kolme kloonia samasta kuvasta ja yksi erilainen kuva kopion loystaemishaasteita varten',
       },
       {
-        src: '/samples/english/odd one out/Find the Odd One Out answer-key.webp',
+        src: '/samples/finnish/odd%20one%20out/L%C3%B6yd%C3%A4%20Outo%20Lintu%201%20answer-key.webp',
         alt: 'Etsi erilainen -vastausavain punaisilla ympyraereunuksilla piirrettyina poikkeavan kohteen ympaerille jokaisessa harjoitusrivissa',
         caption: 'Automaattisesti generoitu vastausavain — punaiset ympyraemerkinnae (viiva = max(imageSize x 0,04, 3px)) tunnistavat poikkeavan kohteen jokaisessa rivissa',
       },

@@ -39,11 +39,11 @@ const content: GuideContent = {
     { appId: 'bingo', title: 'Bingokort-generator', description: 'Bingokort tilpasser seg til hvert sesongbasert tema og er ideelle produkter for hoytidsbegivenheter.' },
   ],
   visuals: {
-    heroImage: { src: '/samples/english/bingo/bingo_card.webp', alt: 'Bingokort som demonstrerer sesongbasert printable-produkt ideelt for hoytidsmarkedsforing' },
+    heroImage: { src: '/samples/norwegian/bingo/bildebingo%201.webp', alt: 'Bingokort som demonstrerer sesongbasert printable-produkt ideelt for hoytidsmarkedsforing' },
     samples: [
-      { src: '/samples/english/bingo/bingo_card.webp', alt: 'Bingokort som viser sesongbasert printable-produkt for hoytidsarrangementer', caption: 'Bingokort tilpasser seg til hvert sesongbasert tema for helars sesongmarkedsforing' },
-      { src: '/samples/english/coloring/coloring portrait 1.webp', alt: 'Fargeleggingsside for sesongbaserte markedsplassoppforinger', caption: 'Sesongbaserte fargeleggingssider er konsekvent toppselgere under hoytidsettersporselstopper' },
-      { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Ordsoek med sesongbasert vokabular for hoytidsmarkedsforing', caption: 'Tematiske ordsoek kombinerer sesongappell med pedagogisk verdi' },
+      { src: '/samples/norwegian/bingo/bildebingo%201.webp', alt: 'Bingokort som viser sesongbasert printable-produkt for hoytidsarrangementer', caption: 'Bingokort tilpasser seg til hvert sesongbasert tema for helars sesongmarkedsforing' },
+      { src: '/samples/norwegian/coloring/coloring%20portrait%201.webp', alt: 'Fargeleggingsside for sesongbaserte markedsplassoppforinger', caption: 'Sesongbaserte fargeleggingssider er konsekvent toppselgere under hoytidsettersporselstopper' },
+      { src: '/samples/norwegian/wordsearch/Ordleting%201.webp', alt: 'Ordsoek med sesongbasert vokabular for hoytidsmarkedsforing', caption: 'Tematiske ordsoek kombinerer sesongappell med pedagogisk verdi' },
     ],
   },
 };

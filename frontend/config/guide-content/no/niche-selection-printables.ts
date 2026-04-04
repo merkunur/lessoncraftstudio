@@ -41,11 +41,11 @@ const content: GuideContent = {
     { appId: 'matching', title: 'Matchingsarbeidsark-generator', description: 'Matchingsaktiviteter fungerer pa tvers av pedagogiske nisjer fra vokabular til matte — en enkelt produkttype som validerer nisjeetterspørsel raskt.' },
   ],
   visuals: {
-    heroImage: { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Ordsoek-arbeidsark som demonstrerer tematisk nisjeinnhold for printable-virksomheter' },
+    heroImage: { src: '/samples/norwegian/wordsearch/Ordleting%201.webp', alt: 'Ordsoek-arbeidsark som demonstrerer tematisk nisjeinnhold for printable-virksomheter' },
     samples: [
-      { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Tematisk ordsoek-puslespill som viser nisjetilpasning pa tvers av emner', caption: 'Ordsoek tilpasser seg til enhver nisje — dyr, hoytider, fag og sesongbaserte temaer' },
-      { src: '/samples/english/coloring/coloring portrait 2.webp', alt: 'Fargeleggingsside som demonstrerer visuell nisjeprodukt alsidighet', caption: 'Fargeleggingssider er blant de mest allsidige nisjeprodukter med appell pa tvers av aldersgrupper' },
-      { src: '/samples/english/matching/matching portrait.webp', alt: 'Matchingsarbeidsark som viser pedagogisk nisjeprodukt variasjon', caption: 'Matchingsaktiviteter fungerer pa tvers av pedagogiske nisjer fra vokabular til matte' },
+      { src: '/samples/norwegian/wordsearch/Ordleting%201.webp', alt: 'Tematisk ordsoek-puslespill som viser nisjetilpasning pa tvers av emner', caption: 'Ordsoek tilpasser seg til enhver nisje — dyr, hoytider, fag og sesongbaserte temaer' },
+      { src: '/samples/norwegian/coloring/coloring%20portrait%202.webp', alt: 'Fargeleggingsside som demonstrerer visuell nisjeprodukt alsidighet', caption: 'Fargeleggingssider er blant de mest allsidige nisjeprodukter med appell pa tvers av aldersgrupper' },
+      { src: '/samples/norwegian/matching/Finn%20Parene%201.webp', alt: 'Matchingsarbeidsark som viser pedagogisk nisjeprodukt variasjon', caption: 'Matchingsaktiviteter fungerer pa tvers av pedagogiske nisjer fra vokabular til matte' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Hvordan lage ordsoek-puslespill for ethvert nisjetema',

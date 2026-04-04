@@ -88,13 +88,13 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/prepositions/prepositions_worksheet (1).webp',
+      primary: '/samples/finnish/prepositions/Prepositiot%201.webp',
       primaryAlt: 'Prepositiotehtäväarkki, jossa kuvanäkymiä tilasuhdeharjoituksilla paikkasanojen harjoitteluun',
     },
     sampleGallery: [
-      { src: '/samples/english/prepositions/prepositions_worksheet (1).webp', alt: 'Prepositiotehtäväarkki täydennysharjoituksilla värikkäiden kuvanäkymien kanssa', caption: 'Täydennys-prepositioharjoituksia kuvanäkymillä' },
-      { src: '/samples/english/prepositions/prepositions_worksheet (5).webp', alt: 'Prepositiotehtäväarkki monivalintaharjoituksilla tilasuhteista', caption: 'Monivalintatila aloittelijaystävällistä harjoittelua varten' },
-      { src: '/samples/english/prepositions/prepositions_worksheet (10).webp', alt: 'Edistynyt prepositiotehtäväarkki muodonkorvauulla ja useilla harjoituksilla per sivu', caption: 'Muodonkorvaus luo uniikkeja näkymäyhdistelmiä' },
+      { src: '/samples/finnish/prepositions/Prepositiot%201.webp', alt: 'Prepositiotehtäväarkki täydennysharjoituksilla värikkäiden kuvanäkymien kanssa', caption: 'Täydennys-prepositioharjoituksia kuvanäkymillä' },
+      { src: '/samples/finnish/prepositions/Prepositiot%202.webp', alt: 'Prepositiotehtäväarkki monivalintaharjoituksilla tilasuhteista', caption: 'Monivalintatila aloittelijaystävällistä harjoittelua varten' },
+      { src: '/samples/finnish/prepositions/Prepositiot%203.webp', alt: 'Edistynyt prepositiotehtäväarkki muodonkorvauulla ja useilla harjoituksilla per sivu', caption: 'Muodonkorvaus luo uniikkeja näkymäyhdistelmiä' },
     ],
     youtubeId: 'ifIXbViR5_o',
     videoTitle: 'Näin Luot Prepositiotehtäviä — Video-opas',

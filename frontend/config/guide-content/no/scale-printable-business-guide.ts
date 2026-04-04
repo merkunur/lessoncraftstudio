@@ -42,11 +42,11 @@ const content: GuideContent = {
     { appId: 'matching', title: 'Matchingsarbeidsark-generator', description: 'Matchingsarbeidsark pa tvers av temaer viser systematisk produktlinjeutvidelse — hvert nytt tema tilfoyer produkter med bevist format.' },
   ],
   visuals: {
-    heroImage: { src: '/samples/english/addition/Addition Fun 1.webp', alt: 'Profesjonelt addisjonsarbeidsark som demonstrerer produktkvalitet for skalerbar virksomhetsvekst' },
+    heroImage: { src: '/samples/norwegian/addition/G%C3%B8y%20Addisjon%201.webp', alt: 'Profesjonelt addisjonsarbeidsark som demonstrerer produktkvalitet for skalerbar virksomhetsvekst' },
     samples: [
-      { src: '/samples/english/addition/Addition Fun 1.webp', alt: 'Addisjonsarbeidsark med temavariasjoner for katalog-skalering', caption: 'Tematiske arbeidsarkvariasjoner demonstrerer hvordan ett produktkonsept skalerer til flere oppforinger' },
-      { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Ordsoek med flerspraklig skaleringspotensial', caption: 'Ordsoek laget pa 11 sprak multipliserer katalogen uten a multiplisere kreativ innsats' },
-      { src: '/samples/english/matching/matching portrait.webp', alt: 'Matchingsarbeidsark som demonstrerer systematisk katalogutvidelse', caption: 'Matchingsarbeidsark pa tvers av temaer viser systematisk produktlinjeutvidelse med bevist format' },
+      { src: '/samples/norwegian/addition/G%C3%B8y%20Addisjon%201.webp', alt: 'Addisjonsarbeidsark med temavariasjoner for katalog-skalering', caption: 'Tematiske arbeidsarkvariasjoner demonstrerer hvordan ett produktkonsept skalerer til flere oppforinger' },
+      { src: '/samples/norwegian/wordsearch/Ordleting%201.webp', alt: 'Ordsoek med flerspraklig skaleringspotensial', caption: 'Ordsoek laget pa 11 sprak multipliserer katalogen uten a multiplisere kreativ innsats' },
+      { src: '/samples/norwegian/matching/Finn%20Parene%201.webp', alt: 'Matchingsarbeidsark som demonstrerer systematisk katalogutvidelse', caption: 'Matchingsarbeidsark pa tvers av temaer viser systematisk produktlinjeutvidelse med bevist format' },
     ],
     youtubeId: '1uZubAOGIkM',
     videoTitle: 'Hvordan lage fargeleggingssider — demonstrerer kreativt spekter for katalogskalering',

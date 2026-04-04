@@ -207,22 +207,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/missing pieces/Missing Pieces.webp',
+      primary: '/samples/finnish/missing%20pieces/Puuttuvat%20Palat%201.webp',
       primaryAlt: 'Puuttuvien palojen palapeelityölehti reikiä leikattuina kuvasta ja numeroiduilla ratkaisuvaihtoehdoilla häiriöpalojen kanssa',
     },
     sampleGallery: [
       {
-        src: '/samples/english/missing pieces/Missing Pieces (1).webp',
+        src: '/samples/finnish/missing%20pieces/Puuttuvat%20Palat%202.webp',
         alt: 'Puuttuvien palojen palapeli neliönmuotoisilla reíillä leikattuna värikkäästä kuvituksesta',
         caption: 'Neliömäinen palan muoto — siistit geometriset leikkaukset selkeään visuaaliseen tunnistamiseen',
       },
       {
-        src: '/samples/english/missing pieces/Missing Pieces (5).webp',
+        src: '/samples/finnish/missing%20pieces/Puuttuvat%20Palat%203.webp',
         alt: 'Puuttuvien palojen palapeli pyöreillä reíillä ja numeroiduilla ratkaisuvaihtoehdoilla',
         caption: 'Ympyräpalan muoto — pyöristetyt leikkaukset häiriövaihtoehdoilla lisähaasteeseen',
       },
       {
-        src: '/samples/english/missing pieces/Missing Pieces answer_key.webp',
+        src: '/samples/finnish/missing%20pieces/Puuttuvat%20Palat%201%20answer_key.webp',
         alt: 'Puuttuvien palojen palapelin vastausavain keltaisilla numeroilla jokaisen reiän sisällä',
         caption: 'Automaattisesti luotu vastausavain — keltaiset merkinnät näyttävät oikean vaihtoehdon jokaiselle reiälle',
       },

@@ -218,22 +218,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/pattern train/pattern_train_worksheet.webp',
+      primary: '/samples/finnish/pattern%20train/Kuviojuna%201.webp',
       primaryAlt: 'Kuviojuna-työarkki temaattisilla junavaunuilla näyttäen AB-toistuvan kuvion yhdellä puuttuvalla vaunulla täydennettäväksi',
     },
     sampleGallery: [
       {
-        src: '/samples/english/pattern train/pattern_train_worksheet (1).webp',
+        src: '/samples/finnish/pattern%20train/Kuviojuna%202.webp',
         alt: 'Kuviojuna-työarkki AB-vuorottelukuviotilassa eläinkuvilla 11 temaattisessa junavaunussa',
         caption: 'AB-kuvio eläinteemalla — tunnista vuorottelusarja ja täydennä puuttuva vaunu',
       },
       {
-        src: '/samples/english/pattern train/pattern_train_worksheet (5).webp',
+        src: '/samples/finnish/pattern%20train/Kuviojuna%203.webp',
         alt: 'Kuviojuna-työarkki ABC-kolmen elementin kuviotilassa ajoneuvokuvilla',
         caption: 'ABC-kuvio ajoneuvoteemalla — kolme kiertävää elementtiä luovat monimutkaisemman sarjan',
       },
       {
-        src: '/samples/english/pattern train/pattern_train_answer_key.webp',
+        src: '/samples/finnish/pattern%20train/Kuviojuna%201%20answer_key.webp',
         alt: 'Kuviojuna-vastauslehti kaikkine 11 vaunuineen täytettyinä oikealla kuviosarjalla',
         caption: 'Vastauslehtinäkymä — kaikki 11 vaunua täytettyinä oikealla kuviolla välittömään varmistukseen',
       },

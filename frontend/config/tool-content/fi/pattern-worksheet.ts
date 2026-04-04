@@ -213,22 +213,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/pattern%20worksheet/Pattern%20Worksheet%201.webp',
+      primary: '/samples/finnish/pattern%20worksheet/Kuvioteht%C3%A4v%C3%A4t%201.webp',
       primaryAlt: 'Kuvionhavaitsemistehtävä ruudukkomuotoisilla harjoituksilla jotka näyttävät toistuvia kuviokuvioita tyhjillä ruuduilla ja monivalintavaihtoehdoilla käyttäjien täydennettäviksi',
     },
     sampleGallery: [
       {
-        src: '/samples/english/pattern%20worksheet/Pattern%20Worksheet%201.webp',
+        src: '/samples/finnish/pattern%20worksheet/Kuvioteht%C3%A4v%C3%A4t%201.webp',
         alt: 'Kuviotehtävä AB-täydennysharjoituksilla eläinkuvilla ruudukkoasettelussa tyhjillä ruuduilla käyttäjien täydennettäviksi',
         caption: 'AB-tyhjäruutuharjoitukset eläinteemalla — käyttäjät tunnistavat vuorottelevan kuvion ja täyttävät puuttuvan kuvan',
       },
       {
-        src: '/samples/english/pattern%20worksheet/Pattern%20Worksheet%202.webp',
+        src: '/samples/finnish/pattern%20worksheet/Kuvioteht%C3%A4v%C3%A4t%202.webp',
         alt: 'Kuviotehtävä ABC-monivalintaharjoituksilla temaattisilla kuvilla ja kolmella vastausvaihtoehdolla per harjoitus',
         caption: 'ABC-monivalintaharjoitukset — käyttäjät valitsevat oikean puuttuvan kohteen kolmesta vaihtoehdosta',
       },
       {
-        src: '/samples/english/pattern%20worksheet/Pattern%20Worksheet%203.webp',
+        src: '/samples/finnish/pattern%20worksheet/Kuvioteht%C3%A4v%C3%A4t%203.webp',
         alt: 'Kuviotehtävän vastausavain joka näyttää kaikki aukot täytettyinä oikealla kuviokohteella varmistusta varten',
         caption: 'Vastausavainnäkymä — kaikki aukot täytetty oikeilla kuviokohteilla varmistusta varten',
       },

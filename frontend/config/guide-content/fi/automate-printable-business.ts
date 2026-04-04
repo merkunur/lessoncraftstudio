@@ -176,13 +176,13 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/english/math worksheet/Math Worksheet 10.webp',
+      src: '/samples/finnish/math%20worksheet/Matematiikkalehti%202.webp',
       alt: 'Ammattimainen matemaattinen työarkki, joka osoittaa nopean automatisoidun luomisen tulostettavan liiketoiminnan tehostamiseksi',
     },
     samples: [
-      { src: '/samples/english/math worksheet/Math Worksheet 10.webp', alt: 'Matemaattinen työarkki — automatisoidun tuotannon laadun esimerkki', caption: 'Työarkkigeneraattorit automatisoivat tulostettavan tuotannon eniten aikaa vievän vaiheen' },
-      { src: '/samples/english/addition/Addition Fun 1.webp', alt: 'Yhteenlaskutyöarkki — erätuotanto teemavariaatioilla', caption: 'Temaattisten variaatioiden erätuotanto moninkertaistaa katalogituotannon tehokkaasti' },
-      { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Sananetsintäpulma — järjestelmällinen sisällönluonti teemojen välillä', caption: 'Järjestelmällinen variaatio teemojen ja kielten välillä skaalaa katalogien kasvua' },
+      { src: '/samples/finnish/math%20worksheet/Matematiikkalehti%202.webp', alt: 'Matemaattinen työarkki — automatisoidun tuotannon laadun esimerkki', caption: 'Työarkkigeneraattorit automatisoivat tulostettavan tuotannon eniten aikaa vievän vaiheen' },
+      { src: '/samples/finnish/addition/Hauska%20Yhteenlasku%201.webp', alt: 'Yhteenlaskutyöarkki — erätuotanto teemavariaatioilla', caption: 'Temaattisten variaatioiden erätuotanto moninkertaistaa katalogituotannon tehokkaasti' },
+      { src: '/samples/finnish/wordsearch/Sanahaku%201.webp', alt: 'Sananetsintäpulma — järjestelmällinen sisällönluonti teemojen välillä', caption: 'Järjestelmällinen variaatio teemojen ja kielten välillä skaalaa katalogien kasvua' },
     ],
     youtubeId: '-JIawojGNr0',
     videoTitle: 'Näin automatisoit työarkkien luomisen tulostettavalle liiketoiminnallesi',

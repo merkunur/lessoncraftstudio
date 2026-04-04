@@ -90,10 +90,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/picture sort/Picture Sort (1).webp', alt: 'To-kategori sorteringsarbeidsark med stiplede kategoriramme og stokket klippegrid' },
+    heroImage: { src: '/samples/norwegian/picture%20sort/Sorter%20Bilder%201.webp', alt: 'To-kategori sorteringsarbeidsark med stiplede kategoriramme og stokket klippegrid' },
     samples: [
-      { src: '/samples/english/picture sort/Picture Sort (1).webp', alt: 'Bildesorteringsarbeidsark med to side-om-side kategoriramme og stokket klippegrid under', caption: 'To-kategori sorteringsarbeidsark med side-om-side kategoriramme og stokket klippegrid' },
-      { src: '/samples/english/picture sort/Picture Sort answer_key.webp', alt: 'Automatisk generert fasit med forstorrede bilder sortert i korrekte kategoribokser', caption: 'Automatisk generert fasit med bilder vist pa seks ganger klippegrid-cellestorrelsen' },
+      { src: '/samples/norwegian/picture%20sort/Sorter%20Bilder%201.webp', alt: 'Bildesorteringsarbeidsark med to side-om-side kategoriramme og stokket klippegrid under', caption: 'To-kategori sorteringsarbeidsark med side-om-side kategoriramme og stokket klippegrid' },
+      { src: '/samples/norwegian/picture%20sort/Sorter%20Bilder%202.webp', alt: 'Automatisk generert fasit med forstorrede bilder sortert i korrekte kategoribokser', caption: 'Automatisk generert fasit med bilder vist pa seks ganger klippegrid-cellestorrelsen' },
     ],
     youtubeId: '9kzmlABtNVQ',
     videoTitle: 'Hvordan lage kategori-sorteringsarbeidsark — komplett veiledning',

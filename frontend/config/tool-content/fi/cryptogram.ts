@@ -211,22 +211,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/cryptogram/cryptogram_worksheet.webp',
+      primary: '/samples/finnish/cryptogram/Kuvakryptogrammi%201.webp',
       primaryAlt: 'Kryptogrammi-työkirja kuvakoodauksella, jossa temaattiset kuvat yhdistetty aakkoskirjaimiin salaisen lauseen koodaamiseksi',
     },
     sampleGallery: [
       {
-        src: '/samples/english/cryptogram/cryptogram_worksheet.webp',
+        src: '/samples/finnish/cryptogram/Kuvakryptogrammi%201.webp',
         alt: 'Kryptogrammi-työkirja temaattisilla kuvilla, jotka korvaavat kirjaimet koodatussa salaisessa lauseessa',
         caption: 'Kuvakoodipulma — pura salainen viesti tunnistamalla, mikä kuva edustaa mitäkin kirjainta',
       },
       {
-        src: '/samples/english/cryptogram/cryptogram_worksheet (5).webp',
+        src: '/samples/finnish/cryptogram/Kuvakryptogrammi%202.webp',
         alt: 'Kryptogrammi-työkirja eläinteemakuvilla ja Paljastettavat kirjaimet -vihjeillä tuettua vaikeustasoa varten',
         caption: 'Temaattinen koodaus Paljastettavat kirjaimet -asetuksella — ennalta paljastetut määritykset tarjoavat tukea aloittelijoille',
       },
       {
-        src: '/samples/english/cryptogram/cryptogram_answer_key.webp',
+        src: '/samples/finnish/cryptogram/Kuvakryptogrammi%201%20answer_key.webp',
         alt: 'Kryptogrammin ratkaisuavain täydellisellä kirjainselitteellä, joka näyttää kaikki aakkos-kuva-määritykset järjestyksessä',
         caption: 'Kirjainseliteratkaisuavain — jokainen aakkoskirjain paritettuna määritettyyn kuvaansa lopullista ratkaisuviitettä varten',
       },

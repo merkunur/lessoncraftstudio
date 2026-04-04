@@ -211,22 +211,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/writing/writing.webp',
+      primary: '/samples/finnish/writing/writing.webp',
       primaryAlt: 'Kirjoitusharjoitus-työkirja jäljennös-, häivyvä jäljennös- ja ohjattu kopiointi -tiloilla, jotka näyttävät nuoliohjattuja piirtojärjestyskirjaimia',
     },
     sampleGallery: [
       {
-        src: '/samples/english/writing/writing.webp',
+        src: '/samples/finnish/writing/writing.webp',
         alt: 'Kirjoitusharjoitus-työkirja kolmella progressiivisella harjoitustilalla ja temaattisella kuvaintegroinilla',
         caption: 'Kolme harjoitustilaa yhdellä työkirjalla — Jäljennös, Häivyvä jäljennös ja Ohjattu kopiointi rivikohtaisella riippumattomuudella',
       },
       {
-        src: '/samples/english/writing/writing beginning letter.webp',
+        src: '/samples/finnish/writing/writing beginning letter.webp',
         alt: 'Kirjoitusharjoitus-työkirja jäljennöstilassa painokirjoitus nuoli -fontilla, joka näyttää numeroidut piirtojärjestyssuunnat',
         caption: 'Nuoliohjattu piirtojärjestys — numeroidut suuntanuolet näyttävät tarkan kirjainmuodostusjärjestyksen',
       },
       {
-        src: '/samples/english/writing/writing custom.webp',
+        src: '/samples/finnish/writing/writing custom.webp',
         alt: 'Kirjoitusharjoitus-työkirja häivyvässä jäljennöstilassa kirjainten progressiivisesti häivyessä jokaisen rivin yli',
         caption: 'Häivyvä jäljennös -tila — kirjaimet häivyvät progressiivisesti rakentaen itsenäistä kirjoitusluottamusta',
       },

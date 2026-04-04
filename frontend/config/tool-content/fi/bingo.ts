@@ -217,22 +217,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/bingo/bingo_card.webp',
+      primary: '/samples/finnish/bingo/kuvabingo%201.webp',
       primaryAlt: 'Kuvabingokortti teemakuvineen saadettaevassa ruudukossa ja pyoreillae pelimerkeilla katkoviivareunoilla alapuolella yhdistelya varten bingopelin aikana',
     },
     sampleGallery: [
       {
-        src: '/samples/english/bingo/bingo_card_1.webp',
+        src: '/samples/finnish/bingo/kuvabingo%202.webp',
         alt: 'Kuvabingokortti kuvatayetolla nayttaen varikkaat teemakuvitukset ruudukkosoluissa ja pyoreissae kuvapelimerkeissae katkoviivareunoilla',
         caption: 'Kuvatayettotila — varikkaat kuvitukset seka korttisoluissa etta pyoreissae pelimerkeissae visuaaliseen bingoon',
       },
       {
-        src: '/samples/english/bingo/bingo_card_1 word.webp',
+        src: '/samples/finnish/bingo/kuvabingo%203.webp',
         alt: 'Kuvabingokortti sanatayetolla nayttaen lokalisoidut kuvanimet ruudukkosoluissa ja sanapelimerkit sanastobingoon',
         caption: 'Sanatayettotila — lokalisoidut kuvanimet sanastopohjaisiin monikielisiin bingotuotteisiin',
       },
       {
-        src: '/samples/english/bingo/callout.webp',
+        src: '/samples/finnish/bingo/kuvabingo%201%20callout.webp',
         alt: 'Bingon kutsujalista dynaamisella sanaruudukolla nayttaen kaikki pelikohteet sarakkeittain pelinvetajalle',
         caption: 'Kutsujalista — dynaaminen sanaruudukko lasketuilla sarakkeilla ja yhtenaisella fonttikoolla pelinvetajalle',
       },

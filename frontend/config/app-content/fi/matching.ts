@@ -193,22 +193,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/matching/matching portrait.webp',
+      primary: '/samples/finnish/matching/Yhdist%C3%A4%20Parit%201.webp',
       primaryAlt: 'Viivanyhdistämistyöarkki temaattisilla kuvilla kahdessa palstassa lokalisoidulla Yhdistä-otsikolla ja kohtanumeroilla',
     },
     sampleGallery: [
       {
-        src: '/samples/english/matching/matching portrait.webp',
+        src: '/samples/finnish/matching/Yhdist%C3%A4%20Parit%201.webp',
         alt: 'Alkukirjainyhdistämistyöarkki kuvilla vasemmalla ja alkukirjaimilla oikealla',
         caption: 'Alkukirjain-tila — ratkojat yhdistävät kuvat niiden alkukirjaimiin',
       },
       {
-        src: '/samples/english/matching/image and word.webp',
+        src: '/samples/finnish/matching/Yhdist%C3%A4%20Parit%202.webp',
         alt: 'Kuva ja sana -yhdistämistyöarkki merkityillä pareilla molemmilla puolilla',
         caption: 'Kuva+Sana-tila — merkityt kuvaparit sanastoharjoitteluun',
       },
       {
-        src: '/samples/english/matching/matching portrait answer_key.webp',
+        src: '/samples/finnish/matching/Yhdist%C3%A4%20Parit%201%20answer_key.webp',
         alt: 'Yhdistämistyöarkin vastauslehti yhdistysviivoilla piirrettyinä oikeiden parien välille',
         caption: 'Automaattisesti generoitu vastauslehti — yhdistysviivat näyttävät oikeat parit',
       },

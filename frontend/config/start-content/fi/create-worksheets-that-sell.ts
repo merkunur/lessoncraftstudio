@@ -213,11 +213,11 @@ const content: StartContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/addition/Addition Fun 1.webp', alt: 'Ammattimainen yhteenlaskutehtävä luotu LessonCraftStudio-generaattorilla' },
+    heroImage: { src: '/samples/finnish/addition/Hauska%20Yhteenlasku%201.webp', alt: 'Ammattimainen yhteenlaskutehtävä luotu LessonCraftStudio-generaattorilla' },
     samples: [
-      { src: '/samples/english/addition/Addition Fun 1.webp', alt: 'Yhteenlaskutehtävä — esimerkkituloste', caption: 'Yhteenlasku — ammattimainen tuloste' },
-      { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Sananhaku — esimerkkituloste', caption: 'Sananhaku — suosittu tehtävätyyppi' },
-      { src: '/samples/english/coloring/coloring portrait 1.webp', alt: 'Värityssivu — esimerkkituloste', caption: 'Väritys — Etsyn bestsellerikategoria' },
+      { src: '/samples/finnish/addition/Hauska%20Yhteenlasku%201.webp', alt: 'Yhteenlaskutehtävä — esimerkkituloste', caption: 'Yhteenlasku — ammattimainen tuloste' },
+      { src: '/samples/finnish/wordsearch/Sanahaku%201.webp', alt: 'Sananhaku — esimerkkituloste', caption: 'Sananhaku — suosittu tehtävätyyppi' },
+      { src: '/samples/finnish/coloring/coloring%20portrait%201.webp', alt: 'Värityssivu — esimerkkituloste', caption: 'Väritys — Etsyn bestsellerikategoria' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'Näin luot yhteenlaskutehtäviä — LessonCraftStudio-demo',

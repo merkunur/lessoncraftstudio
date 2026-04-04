@@ -181,10 +181,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/sudoku/sudoku_worksheet.webp', alt: 'Bildesudoku-arbeidsark med tematiske bilder som viser et 4x4 logikkpuslespill for det yngre publikumet' },
+    heroImage: { src: '/samples/norwegian/sudoku/Bilde-Sudoku%202.webp', alt: 'Bildesudoku-arbeidsark med tematiske bilder som viser et 4x4 logikkpuslespill for det yngre publikumet' },
     samples: [
-      { src: '/samples/english/sudoku/sudoku_worksheet.webp', alt: 'Bildebasert 4x4 sudoku-puslespill med dyretema for forskolebarn', caption: 'Lett vanskelighetsgrad bildesudoku med bondegardsdyr-tema med fire tomme celler' },
-      { src: '/samples/english/sudoku/sudoku_worksheet.webp', alt: 'Bildesudoku-fasit som viser det fullforte 4x4-rutenettet med alle bilder fylt inn', caption: 'Automatisk fasit generert sammen med hvert bildesudoku-puslespill' },
+      { src: '/samples/norwegian/sudoku/Bilde-Sudoku%202.webp', alt: 'Bildebasert 4x4 sudoku-puslespill med dyretema for forskolebarn', caption: 'Lett vanskelighetsgrad bildesudoku med bondegardsdyr-tema med fire tomme celler' },
+      { src: '/samples/norwegian/sudoku/Bilde-Sudoku%202.webp', alt: 'Bildesudoku-fasit som viser det fullforte 4x4-rutenettet med alle bilder fylt inn', caption: 'Automatisk fasit generert sammen med hvert bildesudoku-puslespill' },
     ],
     youtubeId: 'bqVioFbkYbA',
     videoTitle: 'Hvordan lage bildesudoku — komplett veiledning',

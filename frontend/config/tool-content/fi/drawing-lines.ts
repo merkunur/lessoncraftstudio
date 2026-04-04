@@ -93,13 +93,13 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/drawing lines/Drawing Lines 1.webp',
+      primary: '/samples/finnish/drawing%20lines/Viivojen%20Piirt%C3%A4misharjoitus%201.webp',
       primaryAlt: 'Viivanjäljitystehtäväarkki SVG-kaaremallilla, joka yhdistää vastaavat värilliset kuvaparit vaakasuunnassa',
     },
     sampleGallery: [
-      { src: '/samples/english/drawing lines/Drawing Lines 1.webp', alt: 'Viivanjäljitystehtäväarkki kaaremallilla, joka yhdistää vastaavat eläinkuvaparit vaakasuunnassa', caption: 'Kaaremalli — sulavat viivapolut 4 värikkäällä kuvaparilla vaakasuunnassa' },
-      { src: '/samples/english/drawing lines/Drawing Lines 2.webp', alt: 'Viivanjäljitystehtäväarkki diagonaalimallilla, joka yhdistää viisi kuvaparia pystysuunnassa', caption: 'Diagonaalimalli — vinottaiset viivat 5 kuvaparilla risteävän koordinaation harjoitukseen' },
-      { src: '/samples/english/drawing lines/Drawing Lines 4.webp', alt: 'Viivanjäljitystehtäväarkki pystysuoralla mallilla, joka yhdistää luontoteemaisia kuvapareja pystysuunnassa', caption: 'Pystysuora malli — ylhäältä-alas-viivat aloittelijan hienomotoriseen harjoitukseen' },
+      { src: '/samples/finnish/drawing%20lines/Viivojen%20Piirt%C3%A4misharjoitus%201.webp', alt: 'Viivanjäljitystehtäväarkki kaaremallilla, joka yhdistää vastaavat eläinkuvaparit vaakasuunnassa', caption: 'Kaaremalli — sulavat viivapolut 4 värikkäällä kuvaparilla vaakasuunnassa' },
+      { src: '/samples/finnish/drawing%20lines/Viivojen%20Piirt%C3%A4misharjoitus%202.webp', alt: 'Viivanjäljitystehtäväarkki diagonaalimallilla, joka yhdistää viisi kuvaparia pystysuunnassa', caption: 'Diagonaalimalli — vinottaiset viivat 5 kuvaparilla risteävän koordinaation harjoitukseen' },
+      { src: '/samples/finnish/drawing%20lines/Viivojen%20Piirt%C3%A4misharjoitus%203.webp', alt: 'Viivanjäljitystehtäväarkki pystysuoralla mallilla, joka yhdistää luontoteemaisia kuvapareja pystysuunnassa', caption: 'Pystysuora malli — ylhäältä-alas-viivat aloittelijan hienomotoriseen harjoitukseen' },
     ],
     youtubeId: 'P9q3ymjFnOQ',
     videoTitle: 'Näin Teet Viivanjäljitystehtäviä Kahdeksalla SVG-Mallilla ja Kuvaparien Automaattitäytöllä — Vaiheittainen Opas',

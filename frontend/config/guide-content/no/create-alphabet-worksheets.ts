@@ -182,11 +182,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/alphabet train/Alphabet Train 1.webp', alt: 'Alfabettog-arbeidsark som viser 11 fargerike togvogner med bokstaver og matchende ledetradsbilder for bokstavgjenkjenning' },
+    heroImage: { src: '/samples/norwegian/alphabet%20train/Alfabettog%201.webp', alt: 'Alfabettog-arbeidsark som viser 11 fargerike togvogner med bokstaver og matchende ledetradsbilder for bokstavgjenkjenning' },
     samples: [
-      { src: '/samples/english/alphabet train/Alphabet Train 1.webp', alt: 'Fargerikt alfabettog-arbeidsark med 11 vogner som barer bokstaver og spredte ledetradsbilder for bokstav-bilde-matching', caption: 'Alfabettog-arbeidsark med 11 fargerike vogner og bokstav-bilde-matchende ledetrader' },
-      { src: '/samples/english/alphabet train/Alphabet Train 5.webp', alt: 'Alfabettog-arbeidsark med tematiske bilder og flere ledetrad-matchingoppgaver pa middels vanskelighetsgrad', caption: 'Tematisk alfabettog med konfigurerbart ledetradsantall for vanskelighetsskalering' },
-      { src: '/samples/english/alphabet train/Alphabet Train 10.webp', alt: 'Avansert alfabettog-arbeidsark med 11 ledetrader for maksimal vanskelighetsgrad omfattende bokstavgjenkjenning', caption: 'Fullt 11-ledetrad vanskelighetsniva for avansert bokstavgjenkjenningsovelse' },
+      { src: '/samples/norwegian/alphabet%20train/Alfabettog%201.webp', alt: 'Fargerikt alfabettog-arbeidsark med 11 vogner som barer bokstaver og spredte ledetradsbilder for bokstav-bilde-matching', caption: 'Alfabettog-arbeidsark med 11 fargerike vogner og bokstav-bilde-matchende ledetrader' },
+      { src: '/samples/norwegian/alphabet%20train/Alfabettog%202.webp', alt: 'Alfabettog-arbeidsark med tematiske bilder og flere ledetrad-matchingoppgaver pa middels vanskelighetsgrad', caption: 'Tematisk alfabettog med konfigurerbart ledetradsantall for vanskelighetsskalering' },
+      { src: '/samples/norwegian/alphabet%20train/Alfabettog%203.webp', alt: 'Avansert alfabettog-arbeidsark med 11 ledetrader for maksimal vanskelighetsgrad omfattende bokstavgjenkjenning', caption: 'Fullt 11-ledetrad vanskelighetsniva for avansert bokstavgjenkjenningsovelse' },
     ],
     youtubeId: '_dDQegRq9JQ',
     videoTitle: 'Hvordan lage alfabettog-arbeidsark — komplett veiledning',

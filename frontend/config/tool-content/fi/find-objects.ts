@@ -80,11 +80,11 @@ const content: ToolContent = {
   ],
 
   visuals: {
-    heroImages: { primary: '/samples/english/find objects/spotworks_worksheet.webp', primaryAlt: 'Piilotetut esineet -hakutehtava hajautetuilla kuvilla nollapaeaellekkaeisyysalgoritmilla legendalla alaosassa kohde-esineilla ja koristeellisella Fredoka-otsikolla' },
+    heroImages: { primary: '/samples/finnish/find%20objects/L%C3%B6yd%C3%A4%20Piilotetut%20Esineet%201.webp', primaryAlt: 'Piilotetut esineet -hakutehtava hajautetuilla kuvilla nollapaeaellekkaeisyysalgoritmilla legendalla alaosassa kohde-esineilla ja koristeellisella Fredoka-otsikolla' },
     sampleGallery: [
-      { src: '/samples/english/find objects/spotworks_worksheet (1).webp', alt: 'Haku-piilotetut esineet -kohtaus hajautetuilla kuvilla ja legendalla nayttaen kohde-esineet tehtavan alaosassa', caption: 'Haku-tila — vapaamuotoinen piilotetut esineet -kohtaus nollapaeaellekkaeisyyssijoituksella ja alalegendanaytolla' },
-      { src: '/samples/english/find objects/spotworks_worksheet (5).webp', alt: 'Etsi poikkeava -tehtava parillisilla kuvilla riveissa ja parittomilla kohteilla tunnistettavaksi 50 prosenttia suurempina', caption: 'Etsi poikkeava -tila — parilliset kuvat parittomilla kohteilla visuaalisen erottelun aktiviteetteihin' },
-      { src: '/samples/english/find objects/spotworks_answer_key.webp', alt: 'Piilotetut esineet -tehtavan vastausavain punaisilla ympaeroilla piirrettyina kohdekuvien ympaerille 3-5 pikselia suurempina', caption: 'Automaattisesti generoitu vastausavain — punaiset ympyramerkinnaeaemerkitsevat piilotetut ja parittomat kohteet itsetarkistukseen' },
+      { src: '/samples/finnish/find%20objects/L%C3%B6yd%C3%A4%20Piilotetut%20Esineet%202.webp', alt: 'Haku-piilotetut esineet -kohtaus hajautetuilla kuvilla ja legendalla nayttaen kohde-esineet tehtavan alaosassa', caption: 'Haku-tila — vapaamuotoinen piilotetut esineet -kohtaus nollapaeaellekkaeisyyssijoituksella ja alalegendanaytolla' },
+      { src: '/samples/finnish/find%20objects/L%C3%B6yd%C3%A4%20Piilotetut%20Esineet%203.webp', alt: 'Etsi poikkeava -tehtava parillisilla kuvilla riveissa ja parittomilla kohteilla tunnistettavaksi 50 prosenttia suurempina', caption: 'Etsi poikkeava -tila — parilliset kuvat parittomilla kohteilla visuaalisen erottelun aktiviteetteihin' },
+      { src: '/samples/finnish/find%20objects/L%C3%B6yd%C3%A4%20Piilotetut%20Esineet%201%20answer_key.webp', alt: 'Piilotetut esineet -tehtavan vastausavain punaisilla ympaeroilla piirrettyina kohdekuvien ympaerille 3-5 pikselia suurempina', caption: 'Automaattisesti generoitu vastausavain — punaiset ympyramerkinnaeaemerkitsevat piilotetut ja parittomat kohteet itsetarkistukseen' },
     ],
     youtubeId: '8Y3jrVr1Phs',
     videoTitle: 'Nain teet piilotetut esineet -tehtavia Haku- ja Etsi poikkeava -tiloilla, nollapaeaellekkaeisyyssijoituksella ja automaattisilla vastausavaimilla — vaiheittainen opas',

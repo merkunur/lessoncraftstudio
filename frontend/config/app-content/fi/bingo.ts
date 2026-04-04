@@ -262,22 +262,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/bingo/bingo_card.webp',
+      primary: '/samples/finnish/bingo/kuvabingo%201.webp',
       primaryAlt: 'Kuvabingokortti temaattisilla kuvilla ruudukossa ja pyöreillä pelimerkeillä katkoviivareunoilla alapuolella',
     },
     sampleGallery: [
       {
-        src: '/samples/english/bingo/bingo_card_1.webp',
+        src: '/samples/finnish/bingo/kuvabingo%202.webp',
         alt: 'Kuvabingokortti kuvatäytöllä, jossa värikkäät temaattiset kuvitukset ruudukon soluissa ja pyöreissä kuvapelimerkeissä',
         caption: 'Kuvatäyttötila — värikkäät kuvitukset sekä korttisoluissa että pyöreissä pelimerkeissä',
       },
       {
-        src: '/samples/english/bingo/bingo_card_1 word.webp',
+        src: '/samples/finnish/bingo/kuvabingo%203.webp',
         alt: 'Kuvabingokortti sanatäytöllä, jossa lokalisoidut kuvanimet ruudukon soluissa ja sanapelimerkeissä',
         caption: 'Sanatäyttötila — lokalisoidut kuvanimet sanastoperusteiseen bingoon',
       },
       {
-        src: '/samples/english/bingo/callout.webp',
+        src: '/samples/finnish/bingo/kuvabingo%201%20callout.webp',
         alt: 'Bingon huutolista dynaamisella sanaruudukolla, joka näyttää kaikki pelikohteet pelinjohtajalle',
         caption: 'Huutolista — dynaaminen sanaruudukko bingopeliä johtavalle henkilölle',
       },

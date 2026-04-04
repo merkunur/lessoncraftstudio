@@ -181,10 +181,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/odd one out/Find the Odd One Out (1).webp', alt: 'Finn den ulike-arbeidsark med fire bilder per ovelsesrad som viser tre vanlige elementer og en ulik med korall-ravgul-turkis overskrift' },
+    heroImage: { src: '/samples/norwegian/odd%20one%20out/Finn%20den%20Rare%201.webp', alt: 'Finn den ulike-arbeidsark med fire bilder per ovelsesrad som viser tre vanlige elementer og en ulik med korall-ravgul-turkis overskrift' },
     samples: [
-      { src: '/samples/english/odd one out/Find the Odd One Out (1).webp', alt: 'Finn den ulike-arbeidsark som viser ovelseskort med fire bilder per rad og stilisert Finn den ulike-overskrift', caption: 'Finn den ulike-arbeidsark med fire-bilds ovelsesrader og adaptivt kolonneoppsett' },
-      { src: '/samples/english/odd one out/Find the Odd One Out answer-key.webp', alt: 'Autogenerert fasit med rode sirkelkonturer tegnet rundt den ulike gjenstanden i hver ovelsesrad', caption: 'Autogenerert fasit med rode sirkelmarkorer som identifiserer den ulike gjenstanden i hver rad' },
+      { src: '/samples/norwegian/odd%20one%20out/Finn%20den%20Rare%201.webp', alt: 'Finn den ulike-arbeidsark som viser ovelseskort med fire bilder per rad og stilisert Finn den ulike-overskrift', caption: 'Finn den ulike-arbeidsark med fire-bilds ovelsesrader og adaptivt kolonneoppsett' },
+      { src: '/samples/norwegian/odd%20one%20out/Finn%20den%20Rare%202.webp', alt: 'Autogenerert fasit med rode sirkelkonturer tegnet rundt den ulike gjenstanden i hver ovelsesrad', caption: 'Autogenerert fasit med rode sirkelmarkorer som identifiserer den ulike gjenstanden i hver rad' },
     ],
     youtubeId: '0R6WFUfY7Mk',
     videoTitle: 'Hvordan lage finn den ulike-puslespill — komplett veiledning',

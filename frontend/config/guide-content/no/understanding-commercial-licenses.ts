@@ -38,11 +38,11 @@ const content: GuideContent = {
     { appId: 'coloring', title: 'Fargeleggingssider-generator', description: 'Kommersielle lisenser som inkluderer innebygde bilder forenkler lisenskompliance for visuelle produkter.' },
   ],
   visuals: {
-    heroImage: { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Profesjonelt ordsoek-arbeidsark som demonstrerer kommersielt lisensiert printable-output' },
+    heroImage: { src: '/samples/norwegian/wordsearch/Ordleting%201.webp', alt: 'Profesjonelt ordsoek-arbeidsark som demonstrerer kommersielt lisensiert printable-output' },
     samples: [
-      { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Ordsoek laget med kommersiell lisens for multi-plattform salg', caption: 'Ordsoek laget under kommersiell lisens kan selges pa enhver plattform' },
-      { src: '/samples/english/addition/Addition Fun 1.webp', alt: 'Addisjonsarbeidsark generert med royaltyfri kommersiell lisensiering', caption: 'En kommersiell lisens dekker ubegrenset arbeidsark-generering uten per-produkt-gebyrer' },
-      { src: '/samples/english/coloring/coloring portrait 1.webp', alt: 'Fargeleggingsside med korrekt lisensiert tematisk bildebruk for kommersielt salg', caption: 'Kommersielle lisenser som inkluderer innebygde bilder forenkler compliance for visuelle produkter' },
+      { src: '/samples/norwegian/wordsearch/Ordleting%201.webp', alt: 'Ordsoek laget med kommersiell lisens for multi-plattform salg', caption: 'Ordsoek laget under kommersiell lisens kan selges pa enhver plattform' },
+      { src: '/samples/norwegian/addition/G%C3%B8y%20Addisjon%201.webp', alt: 'Addisjonsarbeidsark generert med royaltyfri kommersiell lisensiering', caption: 'En kommersiell lisens dekker ubegrenset arbeidsark-generering uten per-produkt-gebyrer' },
+      { src: '/samples/norwegian/coloring/coloring%20portrait%201.webp', alt: 'Fargeleggingsside med korrekt lisensiert tematisk bildebruk for kommersielt salg', caption: 'Kommersielle lisenser som inkluderer innebygde bilder forenkler compliance for visuelle produkter' },
     ],
   },
 };

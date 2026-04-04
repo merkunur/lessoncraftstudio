@@ -38,11 +38,11 @@ const content: GuideContent = {
     { appId: 'wordsearch', title: 'Ordsoek-generator', description: 'Allsidige produkter som stotter flere pin-varianter for bredere sokedekning pa Pinterest.' },
   ],
   visuals: {
-    heroImage: { src: '/samples/english/coloring/coloring portrait 1.webp', alt: 'Profesjonell fargeleggingsside som demonstrerer visuelt slående Pinterest-pin-innhold' },
+    heroImage: { src: '/samples/norwegian/coloring/coloring%20portrait%201.webp', alt: 'Profesjonell fargeleggingsside som demonstrerer visuelt slående Pinterest-pin-innhold' },
     samples: [
-      { src: '/samples/english/coloring/coloring portrait 1.webp', alt: 'Fargeleggingsside med visuell innvirkning for Pinterest pin-design', caption: 'Visuelt slående arbeidsark lager naturlig overbevisende Pinterest-pin-bilder' },
-      { src: '/samples/english/bingo/bingo_card.webp', alt: 'Bingokort som demonstrerer fargerike pin-verdige produktdesign', caption: 'Fargerike, tematiske produkter genererer hoyere lagrerater og klikkrater pa Pinterest' },
-      { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Ordsoek som viser allsidig produkttype for Pinterest-markedsforing', caption: 'Allsidige produkttyper stotter flere pin-varianter for bredere sokedekning' },
+      { src: '/samples/norwegian/coloring/coloring%20portrait%201.webp', alt: 'Fargeleggingsside med visuell innvirkning for Pinterest pin-design', caption: 'Visuelt slående arbeidsark lager naturlig overbevisende Pinterest-pin-bilder' },
+      { src: '/samples/norwegian/bingo/bildebingo%201.webp', alt: 'Bingokort som demonstrerer fargerike pin-verdige produktdesign', caption: 'Fargerike, tematiske produkter genererer hoyere lagrerater og klikkrater pa Pinterest' },
+      { src: '/samples/norwegian/wordsearch/Ordleting%201.webp', alt: 'Ordsoek som viser allsidig produkttype for Pinterest-markedsforing', caption: 'Allsidige produkttyper stotter flere pin-varianter for bredere sokedekning' },
     ],
   },
 };

@@ -182,11 +182,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Ordsøk-puslespillarbeidsark egnet for salg som Etsy digital nedlasting eller kompilering til Amazon KDP puslespillbok' },
+    heroImage: { src: '/samples/norwegian/wordsearch/Ordleting%201.webp', alt: 'Ordsøk-puslespillarbeidsark egnet for salg som Etsy digital nedlasting eller kompilering til Amazon KDP puslespillbok' },
     samples: [
-      { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Dyretema ordsøk-puslespill for Etsy og KDP', caption: 'Ordsøk-puslespill selger på begge plattformer — som individuelle digitale nedlastinger på Etsy og kompilert til puslespillbøker på KDP' },
-      { src: '/samples/english/addition/addition_worksheet portrait.webp', alt: 'Addisjonsarbeidsark for Etsy digital nedlasting eller KDP aktivitetsbok', caption: 'Mattearbeidsark fungerer som Etsy enkeltark og små pakker eller kompilert til KDP matteaktivitetsbøker' },
-      { src: '/samples/english/coloring/coloring portrait 1.webp', alt: 'Fargeleggingsside for salg på både Etsy og KDP', caption: 'Fargeleggingssider er en toppkategori på begge plattformer — individuelle nedlastinger på Etsy og fargeleggingsbøker på KDP' },
+      { src: '/samples/norwegian/wordsearch/Ordleting%201.webp', alt: 'Dyretema ordsøk-puslespill for Etsy og KDP', caption: 'Ordsøk-puslespill selger på begge plattformer — som individuelle digitale nedlastinger på Etsy og kompilert til puslespillbøker på KDP' },
+      { src: '/samples/norwegian/addition/G%C3%B8y%20Addisjon%202.webp', alt: 'Addisjonsarbeidsark for Etsy digital nedlasting eller KDP aktivitetsbok', caption: 'Mattearbeidsark fungerer som Etsy enkeltark og små pakker eller kompilert til KDP matteaktivitetsbøker' },
+      { src: '/samples/norwegian/coloring/coloring%20portrait%201.webp', alt: 'Fargeleggingsside for salg på både Etsy og KDP', caption: 'Fargeleggingssider er en toppkategori på begge plattformer — individuelle nedlastinger på Etsy og fargeleggingsbøker på KDP' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Slik lager du utskriftsbare arbeidsark for Etsy og Amazon KDP — Trinn-for-trinn-veiledning',

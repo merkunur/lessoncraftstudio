@@ -160,11 +160,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/prepositions/prepositions_worksheet (1).webp', alt: 'Preposisjonsarbeidsark med bildescener som viser romlige relasjonsovelser for posisjonsordovelse' },
+    heroImage: { src: '/samples/norwegian/prepositions/Preposisjoner%201.webp', alt: 'Preposisjonsarbeidsark med bildescener som viser romlige relasjonsovelser for posisjonsordovelse' },
     samples: [
-      { src: '/samples/english/prepositions/prepositions_worksheet (1).webp', alt: 'Preposisjonsarbeidsark med utfyll-det-blanke-ovelser som bruker fargerike bildescener som viser romlige relasjoner', caption: 'Utfyll-det-blanke preposisjonsovelser med bildescener' },
-      { src: '/samples/english/prepositions/prepositions_worksheet (5).webp', alt: 'Preposisjonsarbeidsark med flervalg romlige relasjonsovelser for stillasbasert ovelse', caption: 'Flervalg-modus for stillasbasert nybegynnervennlig ovelse' },
-      { src: '/samples/english/prepositions/prepositions_worksheet (10).webp', alt: 'Avansert preposisjonsarbeidsark med formbytte som lager unike scenekombinasjoner', caption: 'Formbytte multipliserer visuelle kombinasjoner for produktvariasjon' },
+      { src: '/samples/norwegian/prepositions/Preposisjoner%201.webp', alt: 'Preposisjonsarbeidsark med utfyll-det-blanke-ovelser som bruker fargerike bildescener som viser romlige relasjoner', caption: 'Utfyll-det-blanke preposisjonsovelser med bildescener' },
+      { src: '/samples/norwegian/prepositions/Preposisjoner%202.webp', alt: 'Preposisjonsarbeidsark med flervalg romlige relasjonsovelser for stillasbasert ovelse', caption: 'Flervalg-modus for stillasbasert nybegynnervennlig ovelse' },
+      { src: '/samples/norwegian/prepositions/Preposisjoner%203.webp', alt: 'Avansert preposisjonsarbeidsark med formbytte som lager unike scenekombinasjoner', caption: 'Formbytte multipliserer visuelle kombinasjoner for produktvariasjon' },
     ],
     youtubeId: 'ifIXbViR5_o',
     videoTitle: 'Hvordan lage preposisjonsarbeidsark — komplett veiledning',

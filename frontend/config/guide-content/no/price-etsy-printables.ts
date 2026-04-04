@@ -181,11 +181,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/addition/addition_worksheet portrait.webp', alt: 'Pedagogisk printable-arbeidsark for prisstrategi-demonstrasjon på Etsy' },
+    heroImage: { src: '/samples/norwegian/addition/G%C3%B8y%20Addisjon%202.webp', alt: 'Pedagogisk printable-arbeidsark for prisstrategi-demonstrasjon på Etsy' },
     samples: [
-      { src: '/samples/english/addition/Addition Fun 1.webp', alt: 'Dyretematisk addisjonsarbeidsark som viser inngangsnivå prissettingsprodukt for Etsy', caption: 'Addisjonsarbeidsark med dyretema — et typisk inngangsnivåprodukt priset til $3,99 for en 10-siders pakke' },
-      { src: '/samples/english/wordsearch/wordsearch landscape.webp', alt: 'Ordsøk-puslespill arbeidsark som demonstrerer premiumprising for språkspesifikke produkter', caption: 'Ordsøk-puslespill — språkversjoner krever premiumprising med mindre konkurranse i ikke-engelske markeder' },
-      { src: '/samples/english/sudoku/sudoku hard.webp', alt: 'Sudoku-puslespill arbeidsark som viser trinnvis vanskelighetsgrad prisstrategi', caption: 'Sudoku-puslespill — vanskelighetsbasert nivåinndeling støtter progressiv prissetting innen en enkelt produktkategori' },
+      { src: '/samples/norwegian/addition/G%C3%B8y%20Addisjon%201.webp', alt: 'Dyretematisk addisjonsarbeidsark som viser inngangsnivå prissettingsprodukt for Etsy', caption: 'Addisjonsarbeidsark med dyretema — et typisk inngangsnivåprodukt priset til $3,99 for en 10-siders pakke' },
+      { src: '/samples/norwegian/wordsearch/Ordleting%202.webp', alt: 'Ordsøk-puslespill arbeidsark som demonstrerer premiumprising for språkspesifikke produkter', caption: 'Ordsøk-puslespill — språkversjoner krever premiumprising med mindre konkurranse i ikke-engelske markeder' },
+      { src: '/samples/norwegian/sudoku/Bilde-Sudoku%203.webp', alt: 'Sudoku-puslespill arbeidsark som viser trinnvis vanskelighetsgrad prisstrategi', caption: 'Sudoku-puslespill — vanskelighetsbasert nivåinndeling støtter progressiv prissetting innen en enkelt produktkategori' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'Slik lager du printbare arbeidsark for salg på Etsy — forstå produktverdi og prissetting',

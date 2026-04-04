@@ -150,11 +150,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Ammattimainen sanakäärmetyöarkki liidimagneetiksi sähköpostimarkkinointikampanjoihin' },
+    heroImage: { src: '/samples/finnish/wordsearch/Sanahaku%201.webp', alt: 'Ammattimainen sanakäärmetyöarkki liidimagneetiksi sähköpostimarkkinointikampanjoihin' },
     samples: [
-      { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Sanakäärmetyöarkki sähköpostiliidimagneetiksi tulostettavien ostajien houkuttelemiseen', caption: 'Sanakäärmeet ovat erinomaisia liidimagneeteja kohdeostajayleisön houkuttelemiseen' },
-      { src: '/samples/english/coloring/coloring portrait 1.webp', alt: 'Värityskuva visuaalisesti houkuttelevana sähköpostikampanjan tuotteena', caption: 'Visuaalisesti houkuttelevat tuotteet ohjaavat korkeampaa klikkiprosenttia sähköpostikampanjoissa' },
-      { src: '/samples/english/addition/Addition Fun 1.webp', alt: 'Yhteenlaskutyöarkki automaattisiin kausikohtaisiin sähköpostikampanjoihin', caption: 'Matemaattinen ikivihreä sisältö ohjaa automaattisia kausikohtaisia kampanjoita' },
+      { src: '/samples/finnish/wordsearch/Sanahaku%201.webp', alt: 'Sanakäärmetyöarkki sähköpostiliidimagneetiksi tulostettavien ostajien houkuttelemiseen', caption: 'Sanakäärmeet ovat erinomaisia liidimagneeteja kohdeostajayleisön houkuttelemiseen' },
+      { src: '/samples/finnish/coloring/coloring%20portrait%201.webp', alt: 'Värityskuva visuaalisesti houkuttelevana sähköpostikampanjan tuotteena', caption: 'Visuaalisesti houkuttelevat tuotteet ohjaavat korkeampaa klikkiprosenttia sähköpostikampanjoissa' },
+      { src: '/samples/finnish/addition/Hauska%20Yhteenlasku%201.webp', alt: 'Yhteenlaskutyöarkki automaattisiin kausikohtaisiin sähköpostikampanjoihin', caption: 'Matemaattinen ikivihreä sisältö ohjaa automaattisia kausikohtaisia kampanjoita' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Sanakäärmegeneraattori — Luo liidimagneeteja sähköpostimarkkinointistrategiaasi',

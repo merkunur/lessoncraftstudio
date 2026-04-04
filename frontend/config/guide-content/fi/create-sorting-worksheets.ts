@@ -185,10 +185,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/picture sort/Picture Sort (1).webp', alt: 'Kahden kategorian lajittelutyöarkki katkoviivakehyksillä ja sekoitetulla leikkausalueella' },
+    heroImage: { src: '/samples/finnish/picture%20sort/Lajittele%20Kuvat%202.webp', alt: 'Kahden kategorian lajittelutyöarkki katkoviivakehyksillä ja sekoitetulla leikkausalueella' },
     samples: [
-      { src: '/samples/english/picture sort/Picture Sort (1).webp', alt: 'Kuvalajittelutyöarkki kahdella vierekkäisellä kategoriakehyksellä ja sekoitetulla leikkausalueella', caption: 'Kahden kategorian lajittelutyöarkki vierekkäisillä kategoriakehyksillä ja sekoitetulla leikkausalueella' },
-      { src: '/samples/english/picture sort/Picture Sort answer_key.webp', alt: 'Automaattinen vastausavain suurennetuilla kuvilla oikeissa kategorioissa', caption: 'Automaattinen vastausavain kuvilla kuusinkertaisella leikkausalueen solukokoisella' },
+      { src: '/samples/finnish/picture%20sort/Lajittele%20Kuvat%202.webp', alt: 'Kuvalajittelutyöarkki kahdella vierekkäisellä kategoriakehyksellä ja sekoitetulla leikkausalueella', caption: 'Kahden kategorian lajittelutyöarkki vierekkäisillä kategoriakehyksillä ja sekoitetulla leikkausalueella' },
+      { src: '/samples/finnish/picture%20sort/Lajittele%20Kuvat%203.webp', alt: 'Automaattinen vastausavain suurennetuilla kuvilla oikeissa kategorioissa', caption: 'Automaattinen vastausavain kuvilla kuusinkertaisella leikkausalueen solukokoisella' },
     ],
     youtubeId: '9kzmlABtNVQ',
     videoTitle: 'Näin luot kategorioiden lajittelutyöarkkeja — Täydellinen opas',

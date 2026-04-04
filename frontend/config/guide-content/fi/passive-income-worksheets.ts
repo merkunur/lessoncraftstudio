@@ -148,13 +148,13 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/english/addition/Addition Fun 1.webp',
+      src: '/samples/finnish/addition/Hauska%20Yhteenlasku%201.webp',
       alt: 'Ammattimainen yhteenlaskutyöarkki esittelemässä ikivihreää opetuksellista sisältöä jatkuvaan tuloon',
     },
     samples: [
-      { src: '/samples/english/addition/Addition Fun 1.webp', alt: 'Yhteenlaskutyöarkki näyttäen ammattimaista muotoilun laatua markkinapaikkamyyntiin', caption: 'Matematiikkatyöarkit tuottavat tasaista ympärivuotista tuloa ikivihreänä opetuksellisina tuotteina' },
-      { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Sananetsintäpulma saatavilla useilla kielillä laajempaan markkina-ulottuvuuteen', caption: 'Monikieliset sananetsinnät moninkertaistavat liikevaihdon tavoittamalla alipalveltuja kansainvälisiä markkinoita' },
-      { src: '/samples/english/matching/matching portrait.webp', alt: 'Temaattinen yhdistämistyöarkki esittelemässä katalogin syvyyttä teemamonipuolisuuden kautta', caption: 'Temaattiset yhdistämisaktiviteetit rakentavat katalogin syvyyttä joka ajaa kertyvää löydettävyyttä' },
+      { src: '/samples/finnish/addition/Hauska%20Yhteenlasku%201.webp', alt: 'Yhteenlaskutyöarkki näyttäen ammattimaista muotoilun laatua markkinapaikkamyyntiin', caption: 'Matematiikkatyöarkit tuottavat tasaista ympärivuotista tuloa ikivihreänä opetuksellisina tuotteina' },
+      { src: '/samples/finnish/wordsearch/Sanahaku%201.webp', alt: 'Sananetsintäpulma saatavilla useilla kielillä laajempaan markkina-ulottuvuuteen', caption: 'Monikieliset sananetsinnät moninkertaistavat liikevaihdon tavoittamalla alipalveltuja kansainvälisiä markkinoita' },
+      { src: '/samples/finnish/matching/Yhdist%C3%A4%20Parit%201.webp', alt: 'Temaattinen yhdistämistyöarkki esittelemässä katalogin syvyyttä teemamonipuolisuuden kautta', caption: 'Temaattiset yhdistämisaktiviteetit rakentavat katalogin syvyyttä joka ajaa kertyvää löydettävyyttä' },
     ],
     youtubeId: '-JIawojGNr0',
     videoTitle: 'Kuinka luoda matematiikkatyöarkkeja jatkuvaan tuloon',

@@ -217,22 +217,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/big small/big-small-worksheet_worksheet.webp',
+      primary: '/samples/finnish/big%20small/Iso%20vai%20Pieni%201.webp',
       primaryAlt: 'Iso ja pieni kokovertailutyöarkki temaattisilla kuvilla eri koissa näyttäen ympyröi iso -harjoituksen',
     },
     sampleGallery: [
       {
-        src: '/samples/english/big small/big-small-different images.webp',
+        src: '/samples/finnish/big%20small/Iso%20vai%20Pieni%202.webp',
         alt: 'Kokovertailutyöarkki ympyröi iso -tilassa temaattisilla eläinkuvilla eri koissa',
         caption: 'Ympyröi Iso -tila — tunnista suurin kuva jokaisessa harjoituksessa',
       },
       {
-        src: '/samples/english/big small/big-small number 1-2-3.webp',
+        src: '/samples/finnish/big%20small/Iso%20vai%20Pieni%203.webp',
         alt: 'Kokovertailutyöarkki numeroi nouseva -tilassa kolmella kuvalla järjestettäväksi pienimmästä suurimpaan',
         caption: 'Numeroi 1–2–3 Pienestä Isoon — järjestä kuvat koon mukaan pienimmästä suurimpaan',
       },
       {
-        src: '/samples/english/big small/big-small identical images.webp',
+        src: '/samples/finnish/big%20small/Iso%20vai%20Pieni%201%20answer_key.webp',
         alt: 'Kokovertailutyöarkki identtisillä kuvilla samasta kuvasta kolmessa eri koossa',
         caption: 'Identtiset Kuvat -tila — sama kuva eri koissa puhtaan kokonhavainnon harjoituksiin',
       },

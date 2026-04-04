@@ -181,11 +181,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/addition/addition_worksheet portrait.webp', alt: 'Addisjonsarbeidsark som viser en kjernekomponent i pedagogiske printable-pakker for Etsy-selgere' },
+    heroImage: { src: '/samples/norwegian/addition/G%C3%B8y%20Addisjon%202.webp', alt: 'Addisjonsarbeidsark som viser en kjernekomponent i pedagogiske printable-pakker for Etsy-selgere' },
     samples: [
-      { src: '/samples/english/addition/Addition Fun 1.webp', alt: 'Dyretematisk addisjonsarbeidsark som matte pakkekomponent for Etsy', caption: 'Addisjonsarbeidsark med dyretema — en kjernekomponent for matte fagpakker på Etsy' },
-      { src: '/samples/english/subtraction/Subtraction Fun 1.webp', alt: 'Dyretematisk subtraksjonsarbeidsark som komplementerer addisjon i Etsy mattepakker', caption: 'Subtraksjonsarbeidsark med dyretema — pares med addisjonsarbeidsark for komplette mattepakker' },
-      { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Dyre-ordsøk-puslespill som tilfører krysskategorivariasjon til Etsy arbeidsarkpakker', caption: 'Ordsøk-puslespill med dyretema — tilfører leseferdighetsverdi til krysskategori temapakker' },
+      { src: '/samples/norwegian/addition/G%C3%B8y%20Addisjon%201.webp', alt: 'Dyretematisk addisjonsarbeidsark som matte pakkekomponent for Etsy', caption: 'Addisjonsarbeidsark med dyretema — en kjernekomponent for matte fagpakker på Etsy' },
+      { src: '/samples/norwegian/subtraction/Moro%20med%20Subtraksjon%201.webp', alt: 'Dyretematisk subtraksjonsarbeidsark som komplementerer addisjon i Etsy mattepakker', caption: 'Subtraksjonsarbeidsark med dyretema — pares med addisjonsarbeidsark for komplette mattepakker' },
+      { src: '/samples/norwegian/wordsearch/Ordleting%201.webp', alt: 'Dyre-ordsøk-puslespill som tilfører krysskategorivariasjon til Etsy arbeidsarkpakker', caption: 'Ordsøk-puslespill med dyretema — tilfører leseferdighetsverdi til krysskategori temapakker' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'Slik lager du addisjonsarbeidsark for Etsy-pakker — flerprodukt pakkestrategi',

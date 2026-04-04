@@ -38,11 +38,11 @@ const content: GuideContent = {
     { appId: 'wordsearch', title: 'Ordsoek-generator', description: 'Ordsoek tiltrekker bredt publikumsengasjement og presterer godt pa tvers av sosiale medier-plattformer.' },
   ],
   visuals: {
-    heroImage: { src: '/samples/english/bingo/bingo_card.webp', alt: 'Profesjonelt bingokort som demonstrerer visuelt tiltrekkende printable-produkter for sosiale medier' },
+    heroImage: { src: '/samples/norwegian/bingo/bildebingo%201.webp', alt: 'Profesjonelt bingokort som demonstrerer visuelt tiltrekkende printable-produkter for sosiale medier' },
     samples: [
-      { src: '/samples/english/bingo/bingo_card.webp', alt: 'Bingokort med hoy delingsverdi for sosiale medier-innhold', caption: 'Visuelt tiltrekkende produkter som bingokort lager naturlig overbevisende sosiale medier-innhold' },
-      { src: '/samples/english/coloring/coloring portrait 1.webp', alt: 'Fargeleggingsside for Instagram og Pinterest-presentasjon', caption: 'Fargeleggingssider fotograferes vakkert for flat-lay produktvisning pa visuelle plattformer' },
-      { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Ordsoek med sterk sosiale medier-appell', caption: 'Ordsoek tiltrekker bredt publikumsengasjement pa tvers av sosiale medier-plattformer' },
+      { src: '/samples/norwegian/bingo/bildebingo%201.webp', alt: 'Bingokort med hoy delingsverdi for sosiale medier-innhold', caption: 'Visuelt tiltrekkende produkter som bingokort lager naturlig overbevisende sosiale medier-innhold' },
+      { src: '/samples/norwegian/coloring/coloring%20portrait%201.webp', alt: 'Fargeleggingsside for Instagram og Pinterest-presentasjon', caption: 'Fargeleggingssider fotograferes vakkert for flat-lay produktvisning pa visuelle plattformer' },
+      { src: '/samples/norwegian/wordsearch/Ordleting%201.webp', alt: 'Ordsoek med sterk sosiale medier-appell', caption: 'Ordsoek tiltrekker bredt publikumsengasjement pa tvers av sosiale medier-plattformer' },
     ],
   },
 };

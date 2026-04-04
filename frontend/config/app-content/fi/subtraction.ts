@@ -242,22 +242,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/subtraction/cross out.webp',
+      primary: '/samples/finnish/subtraction/Hauskaa%20V%C3%A4hennyslaskua%201.webp',
       primaryAlt: 'Vahennyslaskutyoarkki yliviivaus-visualisoinnilla, diagonaaliset rastit vahennettyjen kuvien paalla',
     },
     sampleGallery: [
       {
-        src: '/samples/english/subtraction/cross out.webp',
+        src: '/samples/finnish/subtraction/Hauskaa%20V%C3%A4hennyslaskua%201.webp',
         alt: 'Vahennyslaskutyoarkki Yliviivaus-tilassa rasteilla vahennettyjen kuvien paalla',
         caption: 'Yliviivaus-tila — diagonaaliset rastit osoittavat, mitka elementit vahennetaan',
       },
       {
-        src: '/samples/english/subtraction/image number.webp',
+        src: '/samples/finnish/subtraction/Hauskaa%20V%C3%A4hennyslaskua%202.webp',
         alt: 'Vahennyslaskutyoarkki Kuva miinus Numero -tilassa kuvaryhmilla ja numeroilla',
         caption: 'Kuva - Numero -tila — yhdistaa kuvaryhmat numeroihin siltataitojen kehittamiseksi',
       },
       {
-        src: '/samples/english/subtraction/find subtrahend.webp',
+        src: '/samples/finnish/subtraction/Hauskaa%20V%C3%A4hennyslaskua%201%20answer_key.webp',
         alt: 'Vahennyslaskutyoarkki Etsi Vahennettava -tilassa, haastaa kayttajat loytamaan puuttuvan arvon',
         caption: 'Etsi Vahennettava -tila — kayttajat maarittelevat kuinka monta poistettiin',
       },

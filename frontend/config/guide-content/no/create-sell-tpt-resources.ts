@@ -182,11 +182,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/addition/Addition Fun 1.webp', alt: 'Addisjonsarbeidsark-ressurs egnet for salg på Gumroad-markedsplassen' },
+    heroImage: { src: '/samples/norwegian/addition/G%C3%B8y%20Addisjon%201.webp', alt: 'Addisjonsarbeidsark-ressurs egnet for salg på Gumroad-markedsplassen' },
     samples: [
-      { src: '/samples/english/addition/addition_worksheet portrait.webp', alt: 'Matteaddisjonsarbeidsark for Gumroad-butikkressurs', caption: 'Mattearbeidsark er blant de mest søkte ressurstypene på Gumroad — kjøpere trenger standardtilpasset øvelse for hver ferdighet' },
-      { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Ordsøk-puslespillaktivitet for Gumroad-butikkoppføring', caption: 'Ordsøk-puslespill fungerer på tvers av alle klassetrinn på Gumroad som ordforrådsbyggere, stasjonsaktiviteter og tidligferdig-arbeid' },
-      { src: '/samples/english/matching/image and word.webp', alt: 'Matchingaktivitetsarbeidsark for Gumroad-selgere', caption: 'Matchingaktiviteter er allsidige Gumroad-ressurser som kjøpere bruker for vurdering, øvelse og repetisjon på tvers av flere fag' },
+      { src: '/samples/norwegian/addition/G%C3%B8y%20Addisjon%202.webp', alt: 'Matteaddisjonsarbeidsark for Gumroad-butikkressurs', caption: 'Mattearbeidsark er blant de mest søkte ressurstypene på Gumroad — kjøpere trenger standardtilpasset øvelse for hver ferdighet' },
+      { src: '/samples/norwegian/wordsearch/Ordleting%201.webp', alt: 'Ordsøk-puslespillaktivitet for Gumroad-butikkoppføring', caption: 'Ordsøk-puslespill fungerer på tvers av alle klassetrinn på Gumroad som ordforrådsbyggere, stasjonsaktiviteter og tidligferdig-arbeid' },
+      { src: '/samples/norwegian/matching/Finn%20Parene%202.webp', alt: 'Matchingaktivitetsarbeidsark for Gumroad-selgere', caption: 'Matchingaktiviteter er allsidige Gumroad-ressurser som kjøpere bruker for vurdering, øvelse og repetisjon på tvers av flere fag' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'Slik lager du pedagogiske arbeidsark for Gumroad — Trinn-for-trinn-veiledning',

@@ -114,7 +114,6 @@ export async function generateMetadata({
           ? `${baseUrl}${canonicalImagePath}`
           : `${baseUrl}/api/og?locale=${locale}&type=guide&title=${encodeURIComponent(title)}`],
       },
-      robots: content ? undefined : { index: false },
     };
   } catch {
     return {};

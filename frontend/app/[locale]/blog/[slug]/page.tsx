@@ -82,7 +82,6 @@ export async function generateMetadata({
         description,
         images: [ogImageUrl],
       },
-      robots: content ? undefined : { index: false },
     };
   } catch {
     return {};

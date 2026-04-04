@@ -71,7 +71,6 @@ export async function generateMetadata({
         description,
         images: [`${baseUrl}/api/og?locale=${locale}&type=compare&title=${encodeURIComponent(title)}`],
       },
-      robots: content ? undefined : { index: false },
     };
   } catch {
     return {};

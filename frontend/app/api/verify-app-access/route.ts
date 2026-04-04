@@ -52,13 +52,7 @@ export async function POST(request: NextRequest) {
       return NextResponse.json({ hasAccess: false, error: 'session_expired' }, { status: 200 });
     }
 
-    // 4. Check device ID matches (ALL users including admin)
-    const requestDeviceId = request.headers.get('x-device-id');
-    if (requestDeviceId && session.deviceId && requestDeviceId !== session.deviceId) {
-      return NextResponse.json({ hasAccess: false, error: 'session_expired' }, { status: 200 });
-    }
-
-    // 5. Update lastActivityAt (ALL users including admin)
+    // 4. Update lastActivityAt (ALL users including admin)
     await prisma.session.update({
       where: { id: session.id },
       data: { lastActivityAt: new Date() },

@@ -1,4 +1,5 @@
 import { Metadata } from 'next';
+import SessionExpiredModal from '@/components/SessionExpiredModal';
 
 export const metadata: Metadata = {
   title: 'Member Portal - LessonCraftStudio',
@@ -7,5 +8,10 @@ export const metadata: Metadata = {
 };
 
 export default function MemberLayout({ children }: { children: React.ReactNode }) {
-  return <>{children}</>;
+  return (
+    <>
+      {children}
+      <SessionExpiredModal />
+    </>
+  );
 }

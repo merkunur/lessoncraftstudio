@@ -135,6 +135,14 @@ export async function POST(request: NextRequest) {
       console.log(`Cleaned up ${deletedExpired.count} expired session(s) for user ${user.id}`);
     }
 
+    // Also clean up stale sessions (inactive for 24+ hours)
+    await prisma.session.deleteMany({
+      where: {
+        userId: user.id,
+        lastActivityAt: { lt: new Date(Date.now() - 24 * 60 * 60 * 1000) },
+      },
+    });
+
     // STEP 2: Get all active (non-expired) sessions for this user
     const activeSessions = await prisma.session.findMany({
       where: {
@@ -194,84 +202,40 @@ export async function POST(request: NextRequest) {
       return response;
     }
 
-    // STEP 4: Check for sessions with null deviceId (legacy/zombie sessions)
-    // These are from before the fix - upgrade them if possible
-    const nullDeviceSession = activeSessions.find(s => !s.deviceId || s.deviceId === null);
+    // STEP 4: Different device — silently invalidate old sessions (new device wins)
+    const fiveMinutesAgo = new Date(Date.now() - 5 * 60 * 1000);
+    const wasRecentlyActive = activeSessions.some(s => s.lastActivityAt > fiveMinutesAgo);
 
-    if (nullDeviceSession && activeSessions.length === 1) {
-      // Only one session and it has null deviceId - likely the same device before fix
-      // Upgrade this session with the new deviceId
-      console.log(`Upgrading null deviceId session ${nullDeviceSession.id} to deviceId: ${deviceId}`);
+    // Delete ALL other sessions for this user (one device at a time)
+    const revokedCount = await prisma.session.deleteMany({
+      where: {
+        userId: user.id,
+        deviceId: { not: deviceId },
+      },
+    });
 
-      const { accessToken: newAccessToken, refreshToken: newRefreshToken } = generateTokens(user);
-
-      await prisma.session.update({
-        where: { id: nullDeviceSession.id },
-        data: {
-          token: newAccessToken,
-          refreshToken: newRefreshToken,
-          deviceId: deviceId, // Upgrade with proper deviceId
-          lastActivityAt: new Date(),
-          expiresAt: new Date(Date.now() + 30 * 24 * 60 * 60 * 1000), // 30 days
-        },
-      });
-
-      const response = NextResponse.json({
-        success: true,
-        message: 'Login successful',
-        upgraded: true,
-        user: {
-          id: user.id,
-          email: user.email,
-          firstName: user.firstName,
-          lastName: user.lastName,
-          subscriptionTier: user.subscriptionTier,
-          emailVerified: user.emailVerified,
-          language: user.language,
-          isAdmin: user.isAdmin,
-        },
-        subscription: user.subscription,
-        accessToken: newAccessToken,
-        refreshToken: newRefreshToken,
-      });
-
-      response.cookies.set('refreshToken', newRefreshToken, {
-        httpOnly: true,
-        secure: process.env.NODE_ENV === 'production',
-        sameSite: 'strict',
-        maxAge: 30 * 24 * 60 * 60, // 30 days
-        path: '/',
-      });
-
-      return response;
+    if (revokedCount.count > 0) {
+      console.log(`Revoked ${revokedCount.count} session(s) for user ${user.id} (new device: ${deviceId})`);
+      try {
+        await prisma.accountSharingLog.create({
+          data: {
+            userId: user.id,
+            eventType: 'session_replaced',
+            deviceId,
+            ipAddress: request.headers.get('x-forwarded-for') || request.headers.get('x-real-ip') || 'unknown',
+            metadata: {
+              revokedSessions: revokedCount.count,
+              wasRecentlyActive,
+              newDeviceId: deviceId,
+            },
+          },
+        });
+      } catch (logErr) {
+        console.error('Failed to log session replacement:', logErr);
+      }
     }
 
-    // STEP 5: Different device - check if there are other active sessions
-    if (activeSessions.length >= 3) {
-      // Device conflict! Return conflict info for modal
-      const conflictSession = activeSessions[0]; // Most recent
-
-      console.log(`Device conflict detected for user ${user.id}. Existing deviceId: ${conflictSession.deviceId}, New deviceId: ${deviceId}`);
-
-      return NextResponse.json({
-        conflict: true,
-        message: "You're already signed in on another device",
-        currentSession: {
-          deviceName: conflictSession.deviceName || 'Unknown Device',
-          deviceType: conflictSession.deviceType || 'desktop',
-          browser: conflictSession.browser,
-          os: conflictSession.os,
-          location: conflictSession.city && conflictSession.country
-            ? `${conflictSession.city}, ${conflictSession.country}`
-            : conflictSession.country || 'Unknown',
-          lastActive: conflictSession.lastActivityAt,
-        },
-        // Include credentials for force-signin
-        email: user.email,
-      }, { status: 409 }); // 409 Conflict status
-    }
-
-    // STEP 6: No existing sessions found - proceed with fresh login
+    // STEP 5: Create new session
     console.log(`No existing sessions found for user ${user.id}. Creating new session.`);
 
     // Update last login

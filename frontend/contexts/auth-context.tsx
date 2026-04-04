@@ -119,14 +119,30 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
       throw new Error('No access token available');
     }
 
-    return fetch(url, {
+    const response = await fetch(url, {
       ...options,
       headers: {
         ...options.headers,
         'Authorization': `Bearer ${accessToken}`,
         'Content-Type': 'application/json',
+        'X-Device-Id': getDeviceId(),
       },
     });
+
+    // Detect session invalidation (another device logged in)
+    if (response.status === 401) {
+      try {
+        const cloned = response.clone();
+        const data = await cloned.json();
+        if (data.error === 'session_expired') {
+          window.dispatchEvent(new CustomEvent('session-expired'));
+        }
+      } catch {
+        // Ignore parse errors
+      }
+    }
+
+    return response;
   }, [accessToken]);
 
   // Check authentication status on mount
@@ -273,59 +289,6 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
           } else {
             router.push(`/${locale}/dashboard`);
           }
-        }
-      } else if (response.status === 409) {
-        // Device conflict - user is signed in on another device
-        const confirmMessage =
-          `You're already signed in on another device:\n\n` +
-          `Device: ${data.currentSession?.deviceName || 'Unknown'}\n` +
-          `Last active: ${data.currentSession?.lastActive ? new Date(data.currentSession.lastActive).toLocaleString() : 'Unknown'}\n\n` +
-          `Do you want to sign out from that device and sign in here?`;
-
-        if (confirm(confirmMessage)) {
-          // User wants to force sign-in - call force-signin endpoint
-          const forceResponse = await fetch('/api/auth/force-signin', {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ email, password, deviceId, rememberMe }),
-          });
-
-          const forceData = await forceResponse.json();
-
-          if (forceResponse.ok) {
-            setAccessToken(forceData.accessToken);
-            localStorage.setItem('accessToken', forceData.accessToken);
-
-            if (forceData.refreshToken) {
-              localStorage.setItem('refreshToken', forceData.refreshToken);
-            }
-
-            // Merge subscription into user object
-            const userWithSubscription = {
-              ...forceData.user,
-              subscription: forceData.subscription
-            };
-            setUser(userWithSubscription);
-            localStorage.setItem('user', JSON.stringify(userWithSubscription));
-            toast.success('Welcome back!');
-
-            // Redirect: use explicit redirectTo, or fall back to role-based default
-            if (redirectTo) {
-              router.push(redirectTo);
-            } else {
-              const locale = getCurrentLocale();
-              if (forceData.user.isAdmin) {
-                router.push(`/${locale}/admin`);
-              } else {
-                router.push(`/${locale}/dashboard`);
-              }
-            }
-          } else {
-            throw new Error(forceData.error || 'Force sign-in failed');
-          }
-        } else {
-          // User cancelled - don't proceed with login
-          throw new Error('Login cancelled');
         }
       } else {
         // Other error

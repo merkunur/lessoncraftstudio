@@ -37,8 +37,20 @@ export async function POST(request: NextRequest) {
       },
     });
     if (!session) {
-      return NextResponse.json({ hasAccess: false }, { status: 200 });
+      return NextResponse.json({ hasAccess: false, error: 'session_expired' }, { status: 200 });
     }
+
+    // Check device ID matches
+    const requestDeviceId = request.headers.get('x-device-id');
+    if (requestDeviceId && session.deviceId && requestDeviceId !== session.deviceId) {
+      return NextResponse.json({ hasAccess: false, error: 'session_expired' }, { status: 200 });
+    }
+
+    // Update lastActivityAt
+    await prisma.session.update({
+      where: { id: session.id },
+      data: { lastActivityAt: new Date() },
+    });
 
     // Extract appId from body
     const body = await request.json();

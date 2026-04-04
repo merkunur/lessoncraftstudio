@@ -27,9 +27,9 @@ function WelcomeContent() {
           <div style={styles.step}>
             <div style={styles.stepNumber}>1</div>
             <div style={styles.stepContent}>
-              <strong>Sign in or create an account</strong>
+              <strong>Check your email</strong>
               <p style={styles.stepText}>
-                Use the same email address you used for your purchase. Your apps will appear automatically.
+                We sent you a link to set your password. Check your inbox (and spam folder) for an email from LessonCraftStudio.
               </p>
             </div>
           </div>
@@ -37,9 +37,9 @@ function WelcomeContent() {
           <div style={styles.step}>
             <div style={styles.stepNumber}>2</div>
             <div style={styles.stepContent}>
-              <strong>Access your apps</strong>
+              <strong>Set your password and sign in</strong>
               <p style={styles.stepText}>
-                Your purchased apps will be unlocked in your dashboard. Click any app to start creating.
+                Click the link in the email to set your password. Then sign in to access your apps.
               </p>
             </div>
           </div>

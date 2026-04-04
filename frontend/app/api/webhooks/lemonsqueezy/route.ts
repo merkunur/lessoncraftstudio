@@ -4,14 +4,17 @@
  * POST /api/webhooks/lemonsqueezy
  *
  * Handles:
- * - order_created → create Purchase record (unlocks apps for buyer)
+ * - order_created → create Purchase + auto-create user account + send email
  * - order_refunded → revoke Purchase
  */
 
 import { NextRequest, NextResponse } from 'next/server';
 import crypto from 'crypto';
+import bcrypt from 'bcryptjs';
 import { prisma } from '@/lib/prisma';
 import { getAppsForLSProduct } from '@/config/lemonsqueezy-products';
+import { generatePasswordResetToken, hashToken } from '@/lib/auth-utils';
+import { sendPasswordResetEmail } from '@/lib/email';
 
 export const dynamic = 'force-dynamic';
 
@@ -28,7 +31,12 @@ function verifyWebhookSignature(rawBody: string, signature: string): boolean {
 
   const hmac = crypto.createHmac('sha256', secret);
   const digest = hmac.update(rawBody).digest('hex');
-  return crypto.timingSafeEqual(Buffer.from(signature), Buffer.from(digest));
+
+  try {
+    return crypto.timingSafeEqual(Buffer.from(signature), Buffer.from(digest));
+  } catch {
+    return false;
+  }
 }
 
 // ==========================================
@@ -79,7 +87,6 @@ export async function POST(request: NextRequest) {
         await handleOrderRefunded(payload, eventId);
         break;
       default:
-        // Mark as processed but ignored
         await prisma.lSWebhookEvent.update({
           where: { eventId },
           data: { status: 'processed' },
@@ -94,7 +101,7 @@ export async function POST(request: NextRequest) {
 }
 
 // ==========================================
-// EVENT HANDLERS
+// ORDER CREATED
 // ==========================================
 
 async function handleOrderCreated(payload: any, eventId: string) {
@@ -103,7 +110,7 @@ async function handleOrderCreated(payload: any, eventId: string) {
     const orderId = String(payload.data?.id);
     const buyerEmail = (attrs.user_email || '').toLowerCase().trim();
     const buyerName = attrs.user_name || null;
-    const amount = attrs.total || 0; // In cents
+    const amount = attrs.total || 0;
     const currency = attrs.currency || 'USD';
 
     // Get the first order item's product ID
@@ -117,13 +124,42 @@ async function handleOrderCreated(payload: any, eventId: string) {
       throw new Error(`Missing data: email=${buyerEmail}, productId=${lsProductId}`);
     }
 
-    // Create purchase record
+    // Find or create user account
+    let user = await prisma.user.findUnique({
+      where: { email: buyerEmail },
+    });
+
+    let isNewAccount = false;
+
+    if (!user) {
+      // Auto-create account for new buyer
+      const nameParts = (buyerName || '').trim().split(/\s+/);
+      const tempPassword = crypto.randomBytes(24).toString('hex');
+      const passwordHash = await bcrypt.hash(tempPassword, 12);
+
+      user = await prisma.user.create({
+        data: {
+          email: buyerEmail,
+          passwordHash,
+          firstName: nameParts[0] || null,
+          lastName: nameParts.slice(1).join(' ') || null,
+          emailVerified: true,
+          emailVerifiedAt: new Date(),
+        },
+      });
+
+      isNewAccount = true;
+      console.log(`LS webhook: created account for ${buyerEmail}`);
+    }
+
+    // Create purchase record linked to user
     await prisma.purchase.create({
       data: {
         lsOrderId: orderId,
         lsProductId,
         buyerEmail,
         buyerName,
+        userId: user.id,
         appsAccess,
         amount,
         currency,
@@ -131,7 +167,35 @@ async function handleOrderCreated(payload: any, eventId: string) {
       },
     });
 
-    console.log(`LS purchase: ${buyerEmail} bought product ${lsProductId} (${appsAccess.length} apps)`);
+    console.log(`LS purchase: ${buyerEmail} bought product ${lsProductId} (${appsAccess.length} apps, user: ${user.id})`);
+
+    // Send "set your password" email for new accounts
+    if (isNewAccount) {
+      try {
+        const resetToken = generatePasswordResetToken();
+        const hashedToken = hashToken(resetToken);
+
+        await prisma.passwordReset.create({
+          data: {
+            userId: user.id,
+            token: hashedToken,
+            expiresAt: new Date(Date.now() + 24 * 60 * 60 * 1000), // 24 hours (longer than normal reset)
+          },
+        });
+
+        await sendPasswordResetEmail({
+          email: buyerEmail,
+          firstName: user.firstName || 'there',
+          token: resetToken,
+          language: 'en',
+        });
+
+        console.log(`LS webhook: sent password setup email to ${buyerEmail}`);
+      } catch (emailErr) {
+        console.error(`LS webhook: failed to send email to ${buyerEmail}:`, emailErr);
+        // Don't fail the webhook — purchase is recorded, user can use "forgot password" later
+      }
+    }
 
     // Mark webhook as processed
     await prisma.lSWebhookEvent.update({
@@ -147,11 +211,14 @@ async function handleOrderCreated(payload: any, eventId: string) {
   }
 }
 
+// ==========================================
+// ORDER REFUNDED
+// ==========================================
+
 async function handleOrderRefunded(payload: any, eventId: string) {
   try {
     const orderId = String(payload.data?.id);
 
-    // Revoke the purchase
     await prisma.purchase.updateMany({
       where: { lsOrderId: orderId },
       data: {

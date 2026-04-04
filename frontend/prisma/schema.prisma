@@ -69,6 +69,7 @@ model User {
   supportTickets     SupportTicket[]
   userRoles          UserRole[]
   licenseKeys        LicenseKey[]
+  purchases          Purchase[]
 
   @@index([email])
   @@index([stripeCustomerId])
@@ -1126,6 +1127,10 @@ model Purchase {
   buyerEmail String @map("buyer_email")
   buyerName  String? @map("buyer_name")
 
+  // User link (auto-set by webhook when account exists or is created)
+  userId String? @map("user_id")
+  user   User?   @relation(fields: [userId], references: [id], onDelete: SetNull)
+
   // What was purchased
   appsAccess String[] @default([]) @map("apps_access")
   amount     Int // Price in cents
@@ -1140,6 +1145,7 @@ model Purchase {
 
   @@index([buyerEmail])
   @@index([lsOrderId])
+  @@index([userId])
   @@index([status])
   @@map("purchases")
 }

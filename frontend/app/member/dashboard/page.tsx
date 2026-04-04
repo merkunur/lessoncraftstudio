@@ -213,8 +213,28 @@ export default function MemberDashboard() {
             </div>
 
             {accessibleApps.length === 0 && (
-              <div className="text-center py-12">
-                <p className="text-gray-500 text-sm">No apps purchased yet. Visit our pricing page to get started.</p>
+              <div className="text-center py-16 bg-white rounded-2xl border border-gray-200">
+                <div className="w-16 h-16 mx-auto mb-4 rounded-full bg-gray-100 flex items-center justify-center">
+                  <LayoutGrid className="w-7 h-7 text-gray-400" />
+                </div>
+                <h3 className="text-lg font-semibold text-gray-900 mb-2">No apps found</h3>
+                <p className="text-gray-500 text-sm max-w-md mx-auto mb-6">
+                  If you recently purchased, make sure you are signed in with the same email you used at checkout.
+                </p>
+                <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
+                  <a
+                    href="/en/pricing"
+                    className="inline-flex items-center px-5 py-2.5 bg-blue-600 text-white text-sm font-semibold rounded-lg hover:bg-blue-700 transition-colors"
+                  >
+                    View Pricing
+                  </a>
+                  <a
+                    href="mailto:support@lessoncraftstudio.com"
+                    className="inline-flex items-center px-5 py-2.5 border border-gray-300 text-gray-700 text-sm font-semibold rounded-lg hover:bg-gray-50 transition-colors"
+                  >
+                    Contact Support
+                  </a>
+                </div>
               </div>
             )}
           </section>

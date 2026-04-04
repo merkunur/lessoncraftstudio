@@ -51,17 +51,6 @@ export async function GET(request: NextRequest) {
       });
     }
 
-    // 3. Check legacy license keys (backward compatibility)
-    const licenses = await prisma.licenseKey.findMany({
-      where: { email, status: 'active' },
-    });
-
-    for (const license of licenses) {
-      for (const app of license.appsAccess) {
-        allApps.add(app);
-      }
-    }
-
     return NextResponse.json({
       email: user.email,
       apps: Array.from(allApps),

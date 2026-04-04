@@ -77,16 +77,6 @@ export const GET = withAdmin(async (request: NextRequest) => {
             },
             orderBy: { createdAt: 'desc' },
           },
-          licenseKeys: {
-            select: {
-              id: true,
-              licenseKey: true,
-              appsAccess: true,
-              status: true,
-              source: true,
-            },
-            where: { status: 'active' },
-          },
         },
       }),
       prisma.user.count({ where }),

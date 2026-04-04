@@ -46,14 +46,6 @@ interface PurchaseData {
   refundedAt: string | null;
 }
 
-interface LicenseData {
-  id: string;
-  licenseKey: string;
-  appsAccess: string[];
-  status: string;
-  source: string;
-}
-
 interface UserData {
   id: string;
   email: string;
@@ -62,7 +54,6 @@ interface UserData {
   createdAt: string;
   emailVerified: boolean;
   purchases: PurchaseData[];
-  licenseKeys: LicenseData[];
 }
 
 interface StatsData {
@@ -307,11 +298,6 @@ export default function UserControlPage() {
     for (const p of user.purchases) {
       if (p.status === 'active') {
         for (const a of p.appsAccess) apps.add(a);
-      }
-    }
-    for (const l of user.licenseKeys) {
-      if (l.status === 'active') {
-        for (const a of l.appsAccess) apps.add(a);
       }
     }
     return apps;
@@ -649,15 +635,7 @@ export default function UserControlPage() {
                                 </div>
                               </div>
                             ))}
-                            {user.licenseKeys.length > 0 && (
-                              <div className="text-xs rounded-lg p-2.5 border bg-purple-50 border-purple-200">
-                                <span className="font-semibold text-purple-700">Legacy Licenses</span>
-                                <div className="text-gray-500 mt-0.5">
-                                  {user.licenseKeys.flatMap(l => l.appsAccess).length} apps via {user.licenseKeys.length} license key(s)
-                                </div>
-                              </div>
-                            )}
-                            {user.purchases.length === 0 && user.licenseKeys.length === 0 && (
+                            {user.purchases.length === 0 && (
                               <div className="text-xs text-gray-400 italic">No purchases or licenses</div>
                             )}
                           </div>

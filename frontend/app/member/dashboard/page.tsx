@@ -4,10 +4,10 @@ import { useEffect, useState } from 'react';
 import { useRouter } from 'next/navigation';
 import {
   LogOut, ExternalLink, Mail, Play,
-  LayoutGrid, LifeBuoy, User, ShoppingCart,
+  User, ShoppingCart,
   Menu, X, CheckCircle, Calculator,
   BookOpen, Palette, Puzzle, Lightbulb, Search,
-  Package, ChevronDown, ChevronUp,
+  Package, ChevronDown, ChevronUp, LayoutGrid,
 } from 'lucide-react';
 import { ALL_APPS, APP_CATEGORIES } from '@/config/products';
 import type { AppId, CategoryId } from '@/config/products';
@@ -173,72 +173,87 @@ export default function MemberDashboard() {
 
   return (
     <div className="min-h-screen bg-gray-50 flex flex-col">
-      {/* ── Header ── */}
-      <header className="sticky top-0 z-50 bg-white shadow-sm">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
-          <div className="flex items-center gap-6">
+      {/* ── Site Navigation (matches main site) ── */}
+      <nav className="bg-white border-b border-gray-200 relative z-50">
+        <div className="container mx-auto px-4">
+          <div className="flex items-center justify-between h-[60px] md:h-[140px]">
+            {/* Logo — same as main Navigation */}
+            <a href="/en" className="flex items-center space-x-2 md:space-x-4 h-full relative z-10">
+              <div className="flex items-center justify-center h-[67px] md:h-[151px] w-auto max-w-[108px] md:max-w-[242px]">
+                <picture>
+                  <source srcSet="/logo-lcs.webp" type="image/webp" />
+                  <img
+                    src="/logo-lcs-optimized.png"
+                    alt="LessonCraftStudio"
+                    loading="eager"
+                    fetchPriority="high"
+                    width={242}
+                    height={313}
+                    className="max-h-[67px] md:max-h-[151px] max-w-[108px] md:max-w-[242px] w-auto h-auto object-contain relative -z-10"
+                  />
+                </picture>
+              </div>
+              <div className="flex flex-col justify-center">
+                <span className="font-display font-bold text-base sm:text-lg md:text-2xl text-gray-900 tracking-tight leading-none">
+                  LessonCraftStudio
+                </span>
+                <span className="hidden sm:block text-[10px] md:text-xs text-gray-500 tracking-wide mt-0.5">
+                  Professional Printable Generator
+                </span>
+              </div>
+            </a>
+
+            {/* Desktop Navigation */}
+            <div className="hidden lg:flex items-center space-x-8">
+              <a href="/en/apps" className="text-gray-600 hover:text-primary transition-colors">Apps</a>
+              <a href="/en/pricing" className="text-gray-600 hover:text-primary transition-colors">Pricing</a>
+              <span className="text-primary font-medium border-b-2 border-primary pb-0.5">My Apps</span>
+            </div>
+
+            {/* Desktop Actions */}
+            <div className="hidden md:flex items-center space-x-4">
+              <span className="text-sm text-gray-500">{access.email}</span>
+              <div className="h-6 w-px bg-gray-300" />
+              <button
+                onClick={handleLogout}
+                className="flex items-center gap-1.5 text-sm text-gray-600 hover:text-red-600 transition-colors"
+              >
+                <LogOut className="h-4 w-4" />
+                Sign Out
+              </button>
+            </div>
+
+            {/* Mobile Menu Button */}
             <button
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-              className="lg:hidden p-2 rounded-lg text-gray-500 hover:bg-gray-100 transition-colors"
+              className="md:hidden p-2 text-gray-600 hover:text-gray-900"
             >
-              {mobileMenuOpen ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
+              {mobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
             </button>
-            <div className="flex items-center gap-2.5">
-              <div className="h-9 w-9 bg-primary-50 rounded-xl flex items-center justify-center">
-                <LayoutGrid className="h-5 w-5 text-primary" />
-              </div>
-              <span className="text-base font-display font-semibold text-primary tracking-tight hidden sm:inline">
-                LessonCraftStudio
-              </span>
-            </div>
-            <nav className="hidden lg:flex items-center gap-1">
-              <span className="px-3 py-1.5 text-sm font-medium text-primary bg-primary-50 rounded-lg">
-                My Apps
-              </span>
-              <a
-                href="mailto:support@lessoncraftstudio.com"
-                className="px-3 py-1.5 text-sm font-medium text-gray-500 hover:text-gray-900 hover:bg-gray-100 rounded-lg transition-colors"
-              >
-                Support
-              </a>
-            </nav>
-          </div>
-
-          <div className="flex items-center gap-3">
-            <span className="hidden sm:inline text-sm text-gray-500">{access.email}</span>
-            <button
-              onClick={handleLogout}
-              className="flex items-center gap-1.5 px-3 py-1.5 text-sm text-gray-400 hover:text-red-500 hover:bg-red-50 rounded-lg transition-colors"
-            >
-              <LogOut className="h-4 w-4" />
-              <span className="hidden sm:inline">Log out</span>
-            </button>
-            <div className="h-9 w-9 bg-primary-50 rounded-xl flex items-center justify-center">
-              <User className="h-4 w-4 text-primary" />
-            </div>
           </div>
         </div>
 
-        <div className="h-[3px] bg-gradient-to-r from-primary to-secondary" />
-
+        {/* Mobile Menu */}
         {mobileMenuOpen && (
-          <div className="lg:hidden border-t border-gray-100 bg-white shadow-lg">
-            <nav className="px-4 py-3 space-y-1">
-              <span className="flex items-center gap-2.5 px-3 py-2.5 rounded-lg text-primary bg-primary-50 text-sm font-medium">
-                <LayoutGrid className="h-4 w-4" />
-                My Apps
-              </span>
-              <a
-                href="mailto:support@lessoncraftstudio.com"
-                className="flex items-center gap-2.5 px-3 py-2.5 rounded-lg text-gray-600 hover:bg-gray-100 text-sm font-medium transition-colors"
-              >
-                <LifeBuoy className="h-4 w-4" />
-                Support
-              </a>
-            </nav>
+          <div className="md:hidden border-t border-gray-200 bg-white">
+            <div className="container mx-auto px-4 py-4 space-y-4">
+              <a href="/en/apps" className="block py-2 text-gray-600 hover:text-primary transition-colors">Apps</a>
+              <a href="/en/pricing" className="block py-2 text-gray-600 hover:text-primary transition-colors">Pricing</a>
+              <span className="block py-2 text-primary font-medium">My Apps</span>
+              <div className="pt-4 border-t border-gray-200 space-y-2">
+                <p className="text-sm text-gray-500">{access.email}</p>
+                <button
+                  onClick={handleLogout}
+                  className="flex items-center gap-1.5 py-2 text-sm text-gray-600 hover:text-red-600 transition-colors"
+                >
+                  <LogOut className="h-4 w-4" />
+                  Sign Out
+                </button>
+              </div>
+            </div>
           </div>
         )}
-      </header>
+      </nav>
 
       {/* ── Main Content ── */}
       <main className="flex-1 px-4 sm:px-6 lg:px-8 py-6 sm:py-8">

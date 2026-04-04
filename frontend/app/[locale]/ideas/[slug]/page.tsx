@@ -10,6 +10,7 @@ import {
 } from '@/config/idea-page-slugs';
 import type { SupportedLocale } from '@/config/product-page-slugs';
 import { ogLocaleMap, generateFAQSchema, generateVideoSchema, localizedHomeLabel, getHreflangCode, generateShowcaseImageSchemas } from '@/lib/schema-generator';
+import { getIdeaFallbackDescription } from '@/lib/localized-meta-fallback';
 import { getIdeaContent } from '@/config/idea-content';
 import { getSectionLabel } from '@/config/section-labels';
 import { encodeImagePath } from '@/lib/encode-image-path';
@@ -205,7 +206,7 @@ export async function generateMetadata({
     const localeSlug = getIdeaSlugForLocale(config.ideaId, locale);
 
     const title = content?.seo?.titleTag || `${config.ideaId} | LessonCraftStudio`;
-    const description = content?.seo?.metaDescription || '';
+    const description = content?.seo?.metaDescription || getIdeaFallbackDescription(locale);
 
     const keywords = content?.seo?.primaryKeyword
       ? [content.seo.primaryKeyword, ...(content.seo.secondaryKeywords || []), ...(content.seo.lsiKeywords || [])]

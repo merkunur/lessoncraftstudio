@@ -16,7 +16,7 @@ const content: GuideContent = {
       'TPT seller success strategies',
     ],
     titleTag: 'TPT Store Setup & Optimization Guide | LCS',
-    metaDescription: 'Optimize your TPT store for more sales. Store setup, listing optimization, SEO strategies, and conversion tips for Teachers Pay Teachers sellers.',
+    metaDescription: 'Optimize your Gumroad store for more sales. Store setup, listing optimization, SEO strategies, and conversion tips for digital printable sellers.',
   },
 
   hero: {

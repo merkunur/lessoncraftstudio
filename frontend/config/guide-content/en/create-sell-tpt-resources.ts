@@ -16,7 +16,7 @@ const content: GuideContent = {
       'sell teaching materials online',
     ],
     titleTag: 'How to Create & Sell TPT Resources | LCS',
-    metaDescription: 'Guide to creating and selling resources on Teachers Pay Teachers. Product creation, store setup, pricing, and marketing strategies for TPT sellers.',
+    metaDescription: 'Guide to creating and selling printable resources on Gumroad. Product creation, store setup, pricing, and marketing strategies for digital product sellers.',
   },
 
   hero: {

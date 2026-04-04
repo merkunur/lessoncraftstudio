@@ -15,7 +15,7 @@ import { SUPPORTED_LOCALES } from '@/config/locales';
 export const revalidate = 1800;
 
 // Dynamic date from build environment, falls back to static date
-const STATIC_CONTENT_DATE = new Date(process.env.BUILD_DATE || '2026-03-20');
+const STATIC_CONTENT_DATE = new Date(process.env.BUILD_DATE || '2026-04-04');
 
 /**
  * Ten sitemaps (total ~3,232 URLs as of 2026-03-30):

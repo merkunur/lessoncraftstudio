@@ -12,6 +12,7 @@ import {
 import { getSlugForLocale } from '@/config/product-page-slugs';
 import type { SupportedLocale } from '@/config/product-page-slugs';
 import { ogLocaleMap, getHreflangCode, localizedHomeLabel, generateVideoSchema, generateShowcaseImageSchemas } from '@/lib/schema-generator';
+import { getToolFallbackDescription } from '@/lib/localized-meta-fallback';
 import { ALL_APPS, type AppId } from '@/config/warriorplus-products';
 import { getLocalizedAppName } from '@/config/app-translations';
 import { getToolContent } from '@/config/tool-content';
@@ -102,7 +103,7 @@ export async function generateMetadata({
     const canonicalUrl = `${baseUrl}/${locale}/tools/${localeSlug || slug}`;
 
     const title = content?.seo?.titleTag || `${localizedName} | LessonCraftStudio`;
-    const description = content?.seo?.metaDescription || `${localizedName} — try free with watermark. No signup required.`;
+    const description = content?.seo?.metaDescription || getToolFallbackDescription(localizedName, locale);
 
     const keywords = content?.seo?.primaryKeyword
       ? [content.seo.primaryKeyword, ...content.seo.secondaryKeywords, ...content.seo.lsiKeywords]

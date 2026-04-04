@@ -11,6 +11,7 @@ import {
 } from '@/config/bundle-page-slugs';
 import type { SupportedLocale } from '@/config/product-page-slugs';
 import { ogLocaleMap, generateFAQSchema, generateVideoSchema, localizedHomeLabel, getHreflangCode, generateShowcaseImageSchemas } from '@/lib/schema-generator';
+import { getBundleFallbackDescription } from '@/lib/localized-meta-fallback';
 import { getBundleContent } from '@/config/bundle-content';
 import { getBundleTierComparison } from '@/config/app-content/tier-comparison';
 import { getSectionLabel } from '@/config/section-labels';
@@ -62,7 +63,7 @@ export async function generateMetadata({
     const name = bundleNames[bundleConfig.bundleId] || bundleConfig.bundleId;
 
     const title = content?.seo?.titleTag || `${name} | LessonCraftStudio`;
-    const description = content?.seo?.metaDescription || `Get the ${name} with all generators included.`;
+    const description = content?.seo?.metaDescription || getBundleFallbackDescription(name, locale);
 
     const keywords = content?.seo?.primaryKeyword
       ? [content.seo.primaryKeyword, ...(content.seo.secondaryKeywords || []), ...(content.seo.lsiKeywords || [])]

@@ -7,7 +7,7 @@ export const dynamic = 'force-dynamic';
 
 /**
  * GET /api/admin/user-control/search
- * Search and filter users with subscription details
+ * Search and filter users with Lemon Squeezy purchase details
  *
  * Auth: Requires admin
  */
@@ -18,17 +18,15 @@ export const GET = withAdmin(async (request: NextRequest) => {
     const page = parseInt(searchParams.get('page') || '1');
     const limit = parseInt(searchParams.get('limit') || '20');
     const query = searchParams.get('query') || '';
-    const tier = searchParams.get('tier') || 'all';
-    const status = searchParams.get('status') || 'all';
+    const purchaseFilter = searchParams.get('purchaseFilter') || 'all';
     const sortBy = searchParams.get('sortBy') || 'createdAt';
     const sortOrder = searchParams.get('sortOrder') || 'desc';
 
     const skip = (page - 1) * limit;
 
-    // Build where clause for filtering
+    // Build where clause
     const where: any = {};
 
-    // Text search across email, firstName, lastName, and ID
     if (query) {
       where.OR = [
         { email: { contains: query, mode: 'insensitive' } },
@@ -38,23 +36,20 @@ export const GET = withAdmin(async (request: NextRequest) => {
       ];
     }
 
-    // Filter by subscription tier
-    if (tier !== 'all') {
-      where.subscriptionTier = tier;
+    // Filter by purchase status
+    if (purchaseFilter === 'with-purchases') {
+      where.purchases = { some: { status: 'active' } };
+    } else if (purchaseFilter === 'no-purchases') {
+      where.purchases = { none: { status: 'active' } };
+    } else if (purchaseFilter === 'refunded') {
+      where.purchases = { some: { status: 'refunded' } };
     }
 
-    // Filter by subscription status
-    if (status !== 'all') {
-      where.subscription = {
-        status: status,
-      };
-    }
-
-    // Build orderBy clause
+    // Build orderBy
     const orderBy: any = {};
     orderBy[sortBy] = sortOrder;
 
-    // Fetch users with subscription details
+    // Fetch users with purchase details
     const [users, total] = await Promise.all([
       prisma.user.findMany({
         where,
@@ -66,32 +61,69 @@ export const GET = withAdmin(async (request: NextRequest) => {
           email: true,
           firstName: true,
           lastName: true,
-          subscriptionTier: true,
-          stripeCustomerId: true,
           createdAt: true,
-          subscription: {
+          emailVerified: true,
+          purchases: {
             select: {
-              planName: true,
+              id: true,
+              lsOrderId: true,
+              lsProductId: true,
+              appsAccess: true,
+              amount: true,
+              currency: true,
               status: true,
-              currentPeriodEnd: true,
-              cancelAtPeriodEnd: true,
-              billingInterval: true,
+              createdAt: true,
+              refundedAt: true,
             },
+            orderBy: { createdAt: 'desc' },
           },
-          _count: {
+          licenseKeys: {
             select: {
-              payments: true,
+              id: true,
+              licenseKey: true,
+              appsAccess: true,
+              status: true,
+              source: true,
             },
+            where: { status: 'active' },
           },
         },
       }),
       prisma.user.count({ where }),
     ]);
 
+    // Compute stats from the full filtered set
+    const allFilteredUsers = await prisma.user.findMany({
+      where,
+      select: {
+        id: true,
+        purchases: {
+          select: { status: true, amount: true },
+        },
+      },
+    });
+
+    const statsData = {
+      total,
+      withPurchases: allFilteredUsers.filter(u =>
+        u.purchases.some(p => p.status === 'active')
+      ).length,
+      totalRevenue: allFilteredUsers.reduce((sum, u) =>
+        sum + u.purchases
+          .filter(p => p.status === 'active')
+          .reduce((s, p) => s + p.amount, 0),
+        0
+      ),
+      refunded: allFilteredUsers.filter(u =>
+        u.purchases.some(p => p.status === 'refunded')
+      ).length,
+    };
+
     const totalPages = Math.ceil(total / limit);
 
     return NextResponse.json({
       users,
+      stats: statsData,
       pagination: {
         page,
         limit,

@@ -50,27 +50,27 @@ export const faqData = {
   pricing: [
     {
       question: "Was kostet LessonCraftStudio?",
-      answer: "Wir bieten drei Tarife an: Kostenlos ($0 – Word Search mit Wasserzeichen), Core Bundle ($15/Monat oder $144/Jahr) und Full Access ($25/Monat oder $240/Jahr). Mit Jahresabos sparen Sie 20%."
+      answer: "Alle 33 Apps können kostenlos mit Wasserzeichen getestet werden. Einzelne Apps kosten $49 als Einmalzahlung. Kategorie-Bundles (6 Apps) kosten $149 als Einmalzahlung. Kein Abonnement, keine wiederkehrenden Gebühren."
     },
     {
-      question: "Kann ich jederzeit den Tarif wechseln?",
-      answer: "Absolut! Sie können Ihren Tarif jederzeit upgraden oder downgraden. Upgrades werden anteilig berechnet, Downgrades werden zum nächsten Abrechnungszyklus wirksam."
+      question: "Gibt es ein Abonnement?",
+      answer: "Nein! Alle Käufe sind Einmalzahlungen mit unbegrenztem Zugriff. Sie zahlen einmal und nutzen die App dauerhaft ohne weitere Kosten."
     },
     {
       question: "Welche Zahlungsmethoden akzeptieren Sie?",
-      answer: "Wir akzeptieren alle gängigen Kreditkarten (Visa, Mastercard, American Express) sowie PayPal. Alle Zahlungen werden sicher über Stripe abgewickelt."
+      answer: "Zahlungen werden sicher über Lemon Squeezy abgewickelt. Visa, Mastercard, American Express, PayPal und weitere Zahlungsmethoden werden akzeptiert."
     },
     {
-      question: "Kann ich mein Abonnement kündigen?",
-      answer: "Ja, Sie können jederzeit über Ihre Kontoeinstellungen kündigen. Der Zugriff bleibt bis zum Ende des aktuellen Abrechnungszeitraums bestehen. Es fallen keine Kündigungsgebühren an."
+      question: "Wie erhalte ich Zugang nach dem Kauf?",
+      answer: "Nach dem Kauf erhalten Sie eine Bestätigungs-E-Mail. Besuchen Sie lessoncraftstudio.com/member und melden Sie sich mit Ihrer Kauf-E-Mail-Adresse an, um auf Ihre freigeschalteten Apps zuzugreifen."
     },
     {
       question: "Bieten Sie Rückerstattungen an?",
-      answer: "Wir erstatten keine anteiligen Abrechnungszeiträume. Wir empfehlen jedoch, unseren kostenlosen Tarif zu nutzen, um sicherzustellen, dass die Plattform Ihren Anforderungen entspricht, bevor Sie ein Abonnement abschließen."
+      answer: "Nein, da alle Apps kostenlos und ohne Einschränkungen getestet werden können (nur mit Wasserzeichen). Testen Sie die Apps ausgiebig, bevor Sie kaufen."
     },
     {
-      question: "Gibt es einen Rabatt für Jahresabos?",
-      answer: "Ja! Mit Jahresabos sparen Sie 20% gegenüber monatlicher Abrechnung. Core Bundle kostet $144/Jahr (statt $180), Full Access $240/Jahr (statt $300)."
+      question: "Was sind die Kategorie-Bundles?",
+      answer: "Wir bieten 6 Kategorie-Bundles für je $149 an: Aktivitäten, Mathematik & Zahlen, Buchstaben & Wörter, Zeichnen & Kunst, Rätsel & Spiele sowie Muster & Logik. Jedes Bundle enthält alle Apps der jeweiligen Kategorie."
     }
   ],
   technical: [
@@ -92,21 +92,21 @@ export const faqData = {
     },
     {
       question: "Was passiert, wenn ich auf einen Fehler stoße?",
-      answer: "Kontaktieren Sie unser Support-Team unter support@lessoncraftstudio.com. Core Bundle-Nutzer erhalten Standard-Support, Full Access-Nutzer prioritäre Unterstützung."
+      answer: "Kontaktieren Sie unser Support-Team unter support@lessoncraftstudio.com. Wir helfen Ihnen gerne bei technischen Fragen oder Problemen."
     },
     {
       question: "Gibt es Nutzungsbeschränkungen?",
-      answer: "Nein! Erstellen Sie unbegrenzt viele Arbeitsblätter mit Ihrem Abonnement. Es gibt keine täglichen oder monatlichen Generierungslimits."
+      answer: "Nein! Erstellen Sie unbegrenzt viele Arbeitsblätter mit Ihren gekauften Apps. Es gibt keine täglichen oder monatlichen Generierungslimits."
     }
   ],
   commercial: [
     {
       question: "Was ist die POD-Gewerbelizenz?",
-      answer: "Die POD-Gewerbelizenz (Print-on-Demand) erlaubt Ihnen, die erstellten Arbeitsblätter auf Plattformen wie Teachers Pay Teachers, Amazon KDP, Etsy oder in Ihrem eigenen Shop zu verkaufen. Sie ist in den Core Bundle- und Full Access-Tarifen enthalten."
+      answer: "Die POD-Gewerbelizenz (Print-on-Demand) erlaubt Ihnen, die erstellten Arbeitsblätter auf Plattformen wie Amazon KDP, Etsy oder in Ihrem eigenen Shop zu verkaufen. Sie ist in jedem Kauf enthalten."
     },
     {
       question: "Kann ich mit dem kostenlosen Tarif erstellte Arbeitsblätter verkaufen?",
-      answer: "Nein, der kostenlose Tarif ist ausschließlich für den persönlichen, nicht-kommerziellen Gebrauch. Für den Verkauf von Arbeitsblättern benötigen Sie entweder das Core Bundle oder Full Access."
+      answer: "Nein, die kostenlose Testversion ist ausschließlich für den persönlichen, nicht-kommerziellen Gebrauch und enthält ein Wasserzeichen. Für den Verkauf von Arbeitsblättern benötigen Sie eine gekaufte App."
     },
     {
       question: "Kann ich die Arbeitsblätter in meinem Unterricht verwenden?",
@@ -114,19 +114,19 @@ export const faqData = {
     },
     {
       question: "Darf ich Arbeitsblätter mit anderen Lehrkräften teilen?",
-      answer: "Mit Core Bundle und Full Access können Sie Arbeitsblätter auf Marktplätzen verkaufen. Für das kostenlose Teilen innerhalb Ihrer Schule prüfen Sie bitte die Richtlinien Ihrer Einrichtung bezüglich kommerzieller Lizenzen."
+      answer: "Mit gekauften Apps können Sie Arbeitsblätter auf Marktplätzen verkaufen. Für das kostenlose Teilen innerhalb Ihrer Schule prüfen Sie bitte die Richtlinien Ihrer Einrichtung bezüglich kommerzieller Lizenzen."
     },
     {
       question: "Muss ich LessonCraftStudio auf verkauften Arbeitsblättern nennen?",
-      answer: "Nein, bei Arbeitsblättern aus Core Bundle oder Full Access ist keine Quellenangabe erforderlich. Arbeitsblätter aus dem kostenlosen Tarif enthalten ein Wasserzeichen."
+      answer: "Nein, bei Arbeitsblättern aus gekauften Apps ist keine Quellenangabe erforderlich. Arbeitsblätter aus der kostenlosen Testversion enthalten ein Wasserzeichen."
     },
     {
       question: "Kann ich die Bilder in anderen Projekten verwenden?",
       answer: "Die Gewerbelizenz gilt nur für vollständige, über unsere Plattform generierte Arbeitsblätter. Das Extrahieren einzelner Bilder oder deren Verwendung in Nicht-Arbeitsblatt-Projekten ist nicht gestattet."
     },
     {
-      question: "Was passiert nach der Kündigung – darf ich bestehende Arbeitsblätter weiter verkaufen?",
-      answer: "Ja! Arbeitsblätter, die während eines aktiven Abonnements erstellt wurden, behalten auch nach der Kündigung ihre Gewerbelizenz."
+      question: "Behalte ich den Zugriff dauerhaft?",
+      answer: "Ja! Da es sich um einen Einmalkauf handelt, behalten Sie den Zugriff auf Ihre gekauften Apps und die Gewerbelizenz dauerhaft."
     }
   ]
 };

@@ -50,7 +50,7 @@ export const faqData = {
   pricing: [
     {
       question: "Quanto costa LessonCraftStudio?",
-      answer: "Offriamo tre piani: Gratuito ($0 - Cruciverba con watermark), Pacchetto Base ($15/mese o $144/anno) e Accesso Completo ($25/mese o $240/anno). Gli abbonamenti annuali fanno risparmiare il 20%."
+      answer: "Tutti i 33 generatori sono gratuiti da provare con watermark. Le app individuali costano $49 (acquisto unico). I pacchetti categoria costano $149 e includono 4-7 app. Nessun abbonamento, nessun costo ricorrente."
     },
     {
       question: "Posso cambiare piano in qualsiasi momento?",
@@ -58,7 +58,7 @@ export const faqData = {
     },
     {
       question: "Quali metodi di pagamento accettate?",
-      answer: "Accettiamo tutte le principali carte di credito (Visa, Mastercard, American Express) e PayPal. Tutti i pagamenti sono elaborati in modo sicuro tramite Stripe."
+      answer: "I pagamenti vengono elaborati in modo sicuro tramite Lemon Squeezy, che accetta tutte le principali carte di credito (Visa, Mastercard, American Express), PayPal e altro."
     },
     {
       question: "Posso cancellare l'abbonamento?",

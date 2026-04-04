@@ -50,7 +50,7 @@ export const faqData = {
   pricing: [
     {
       question: "Hvad koster LessonCraftStudio?",
-      answer: "Vi har tre muligheder: Gratis ($0 - Krydsord med vandmærke), Basispakke ($15/måned eller $144/år) og Fuld adgang ($25/måned eller $240/år). Årsabonnement giver 20% rabat."
+      answer: "Alle 33 generatorer er gratis at prøve med vandmærke. Enkelt-apps koster $49 (engangskøb). Kategoripakker koster $149 og inkluderer 4-7 apps. Ingen abonnement, ingen tilbagevendende gebyrer."
     },
     {
       question: "Kan jeg skifte abonnement når som helst?",
@@ -58,7 +58,7 @@ export const faqData = {
     },
     {
       question: "Hvilke betalingsmetoder accepterer I?",
-      answer: "Vi accepterer alle almindelige betalingskort (Visa, Mastercard, American Express) og PayPal. Alle betalinger håndteres sikkert via Stripe."
+      answer: "Betalinger håndteres sikkert via Lemon Squeezy, som accepterer alle almindelige betalingskort (Visa, Mastercard, American Express), PayPal og mere."
     },
     {
       question: "Kan jeg opsige mit abonnement?",

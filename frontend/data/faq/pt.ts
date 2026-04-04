@@ -50,7 +50,7 @@ export const faqData = {
   pricing: [
     {
       question: "Quanto custa o LessonCraftStudio?",
-      answer: "Oferecemos três planos: Gratuito ($0 - Caça-Palavras com marca d'água), Pacote Essencial ($15/mês ou $144/ano) e Acesso Completo ($25/mês ou $240/ano). As assinaturas anuais economizam 20%."
+      answer: "Todos os 33 geradores são gratuitos para experimentar com marca d\'água. Aplicativos individuais custam $49 (compra única). Pacotes de categoria custam $149 e incluem 4-7 aplicativos. Sem assinaturas, sem taxas recorrentes."
     },
     {
       question: "Posso mudar de plano a qualquer momento?",
@@ -58,7 +58,7 @@ export const faqData = {
     },
     {
       question: "Quais formas de pagamento vocês aceitam?",
-      answer: "Aceitamos todos os principais cartões de crédito (Visa, Mastercard, American Express) e PayPal. Todos os pagamentos são processados com segurança através do Stripe."
+      answer: "Os pagamentos são processados de forma segura através do Lemon Squeezy, que aceita todos os principais cartões de crédito (Visa, Mastercard, American Express), PayPal e mais."
     },
     {
       question: "Posso cancelar minha assinatura?",

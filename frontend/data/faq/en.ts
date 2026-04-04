@@ -49,16 +49,16 @@ export const faqData = {
       answer: "All 33 generators are free to use \u2014 no signup required. Free output includes a small watermark and is for personal, non-commercial use only. This lets you fully test every generator before purchasing."
     },
     {
-      question: "What do I get when I purchase a product?",
-      answer: "Paid products are one-time purchases (no subscription). You get watermark-free output, full commercial rights to sell on any platform, and a license key for instant activation. Different products unlock different generators, image themes, and languages."
+      question: "What do I get when I purchase?",
+      answer: "All purchases are one-time (no subscription). You get watermark-free output and full commercial rights to sell on any platform. After purchase, sign in at lessoncraftstudio.com/member with the same email to access your apps instantly."
     },
     {
       question: "How many image themes are available?",
-      answer: "We offer 104 themed image collections with 3,000+ images including animals, food, holidays, seasons, transportation, occupations, sports, and educational themes. The base product includes 10 themes; the Complete Image Library unlocks all 104."
+      answer: "We offer 104 themed image collections with 3,000+ images including animals, food, holidays, seasons, transportation, occupations, sports, and educational themes. Every purchased app includes all 104 themes."
     },
     {
       question: "Can I create worksheets in multiple languages?",
-      answer: "Yes! Our platform supports 11 languages: English, German, French, Spanish, Portuguese, Italian, Dutch, Swedish, Danish, Norwegian, and Finnish. The base product includes English; the All Languages upgrade unlocks all 11."
+      answer: "Yes! Our platform supports 11 languages: English, German, French, Spanish, Portuguese, Italian, Dutch, Swedish, Danish, Norwegian, and Finnish. Every purchased app includes all 11 languages."
     },
     {
       question: "Can I customize the worksheets?",
@@ -68,7 +68,7 @@ export const faqData = {
   pricing: [
     {
       question: "How much do your products cost?",
-      answer: "All generators are free to use with a watermark. Paid products are one-time purchases starting at $27 \u2014 no subscriptions, no recurring fees. For example, Word Search Studio Pro is $27, the Complete Image Library (104 themes) is $37, and the All Languages pack is $27."
+      answer: "All 33 generators are free to try with a watermark. Individual apps are $49 each (one-time). Category bundles are $149 each and include 4\u20137 apps. No subscriptions, no recurring fees."
     },
     {
       question: "Is this a subscription?",
@@ -76,19 +76,19 @@ export const faqData = {
     },
     {
       question: "What payment methods do you accept?",
-      answer: "Payments are processed securely through WarriorPlus, which supports all major credit cards (Visa, Mastercard, American Express) and PayPal."
+      answer: "Payments are processed securely through Lemon Squeezy, which supports all major credit cards (Visa, Mastercard, American Express), PayPal, and more."
     },
     {
-      question: "Do you offer a money-back guarantee?",
-      answer: "Yes! All products come with a 30-day money-back guarantee. If the product doesn\u2019t meet your expectations for any reason, contact us for a full refund. No questions asked."
+      question: "Why is there no refund policy?",
+      answer: "Because you can try every generator free with watermark before purchasing. You know exactly what you are getting. The paid purchase simply removes the watermark and grants commercial rights."
     },
     {
       question: "How do I access my purchase?",
-      answer: "After purchase, you receive a license key via email. Enter your license key at lessoncraftstudio.com/member to activate your products. Activation is instant \u2014 your purchased features unlock immediately."
+      answer: "After purchase, sign in at lessoncraftstudio.com/member with the same email you used to buy. Your purchased apps are unlocked automatically \u2014 no activation codes needed."
     },
     {
-      question: "Can I upgrade later?",
-      answer: "Yes. You can purchase additional products (more themes, more languages, more generators) at any time. The best prices are available right after your initial purchase, but upgrades are always available."
+      question: "Can I buy more apps later?",
+      answer: "Yes. You can purchase additional individual apps or bundles at any time. Each purchase is independent \u2014 buy only the generators you need."
     }
   ],
   technical: [

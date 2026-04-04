@@ -50,7 +50,7 @@ export const faqData = {
   pricing: [
     {
       question: "Vad kostar LessonCraftStudio?",
-      answer: "Vi har tre alternativ: Gratis ($0 - Korsord med vattenstämpel), Baspaket ($15/månad eller $144/år) och Fullständig åtkomst ($25/månad eller $240/år). Årsprenumeration ger 20% rabatt."
+      answer: "Alla 33 generatorer är gratis att prova med vattenmärke. Enskilda appar kostar $49 (engångsköp). Kategoripaket kostar $149 och inkluderar 4-7 appar. Inga prenumerationer, inga återkommande avgifter."
     },
     {
       question: "Kan jag byta abonnemang när jag vill?",
@@ -58,7 +58,7 @@ export const faqData = {
     },
     {
       question: "Vilka betalmetoder accepterar ni?",
-      answer: "Vi accepterar alla vanliga kreditkort (Visa, Mastercard, American Express) och PayPal. Alla betalningar hanteras säkert via Stripe."
+      answer: "Betalningar hanteras säkert via Lemon Squeezy, som accepterar alla vanliga kreditkort (Visa, Mastercard, American Express), PayPal och mer."
     },
     {
       question: "Kan jag säga upp mitt abonnemang?",

@@ -15,24 +15,24 @@ export default function FAQAccordion({ items }: FAQAccordionProps) {
   // Fallback to English if no items provided
   const faqData = items || [
     {
-      question: "Can I switch plans anytime?",
-      answer: "Yes! You can upgrade or downgrade your plan at any time. Changes take effect immediately, and we'll prorate any differences."
+      question: "Is it really free to try?",
+      answer: "Yes! All 33 generators are free to try with full feature access. Your downloads will include a small watermark. No signup, no credit card, no time limit."
     },
     {
       question: "What payment methods do you accept?",
-      answer: "We accept all major credit cards (Visa, MasterCard, American Express) and PayPal. All payments are processed securely through Stripe."
+      answer: "We use Lemon Squeezy for secure payments, which supports all major credit cards (Visa, MasterCard, American Express), PayPal, and more."
     },
     {
-      question: "Is there a free tier?",
-      answer: "Yes! All users start with free access to the Word Search generator. You can create unlimited worksheets with a watermark. Upgrade anytime to unlock more generators and remove watermarks."
+      question: "What does the commercial license include?",
+      answer: "Full commercial rights to sell the printables you create on Etsy, Amazon KDP, Gumroad, your own website, or any other platform. No attribution required, no royalties, no limits on sales volume."
     },
     {
-      question: "What's the POD commercial license?",
-      answer: "The Print-on-Demand (POD) commercial license allows you to sell worksheets you create on platforms like Teachers Pay Teachers, Etsy, or your own website."
+      question: "What is the difference between individual and bundle?",
+      answer: "An individual license covers one specific generator for $49. A bundle covers all generators in a category (4-7 apps) for $149, saving up to 70% compared to buying individually."
     },
     {
-      question: "Can I cancel my subscription?",
-      answer: "Absolutely! You can cancel your subscription at any time from your account settings. You'll continue to have access until the end of your billing period."
+      question: "How do I access my purchased apps?",
+      answer: "After purchase, sign in at lessoncraftstudio.com/member with the same email you used to buy. Your apps will be unlocked automatically with no watermark."
     }
   ];
   const [openIndex, setOpenIndex] = useState<number | null>(null);

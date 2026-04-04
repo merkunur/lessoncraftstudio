@@ -50,7 +50,7 @@ export const faqData = {
   pricing: [
     {
       question: "Paljonko LessonCraftStudio maksaa?",
-      answer: "Meillä on kolme vaihtoehtoa: Ilmainen ($0 - Ristisanat vesileimalla), Peruspaketti ($15/kk tai $144/vuosi) ja Täydellä käyttöoikeus ($25/kk tai $240/vuosi). Vuositilaus säästää 20%."
+      answer: "Kaikkia 33 generaattoria voi kokeilla ilmaiseksi vesileimalla. Yksittäiset sovellukset maksavat $49 (kertamaksu). Kategoriapaketit maksavat $149 ja sisältävät 4-7 sovellusta. Ei tilauksia, ei toistuvia maksuja."
     },
     {
       question: "Voinko vaihtaa tilausta milloin tahansa?",
@@ -58,7 +58,7 @@ export const faqData = {
     },
     {
       question: "Mitä maksutapoja hyväksytte?",
-      answer: "Hyväksymme kaikki yleisimmät maksukortit (Visa, Mastercard, American Express) ja PayPal. Kaikki maksut käsitellään turvallisesti Stripen kautta."
+      answer: "Maksut käsitellään turvallisesti Lemon Squeezyn kautta, joka hyväksyy kaikki yleisimmät maksukortit (Visa, Mastercard, American Express), PayPalin ja muita maksutapoja."
     },
     {
       question: "Voinko peruuttaa tilaukseni?",

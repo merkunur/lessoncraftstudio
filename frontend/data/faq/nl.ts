@@ -50,7 +50,7 @@ export const faqData = {
   pricing: [
     {
       question: "Wat kost LessonCraftStudio?",
-      answer: "We bieden drie abonnementen: Gratis ($0 - Woordzoeker met watermerk), Basispakket ($15/maand of $144/jaar) en Volledige Toegang ($25/maand of $240/jaar). Jaarabonnementen besparen 20%."
+      answer: "Alle 33 generatoren zijn gratis te proberen met watermerk. Individuele apps kosten $49 (eenmalige aankoop). Categoriebundels kosten $149 en bevatten 4-7 apps. Geen abonnementen, geen terugkerende kosten."
     },
     {
       question: "Kan ik op elk moment van abonnement wisselen?",
@@ -58,7 +58,7 @@ export const faqData = {
     },
     {
       question: "Welke betaalmethoden accepteren jullie?",
-      answer: "We accepteren alle gangbare creditcards (Visa, Mastercard, American Express) en PayPal. Alle betalingen worden veilig verwerkt via Stripe."
+      answer: "Betalingen worden veilig verwerkt via Lemon Squeezy, dat alle gangbare creditcards (Visa, Mastercard, American Express), PayPal en meer accepteert."
     },
     {
       question: "Kan ik mijn abonnement opzeggen?",

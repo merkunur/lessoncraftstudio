@@ -50,27 +50,27 @@ export const faqData = {
   pricing: [
     {
       question: "¿Cuánto cuesta LessonCraftStudio?",
-      answer: "Ofrecemos tres planes: Gratuito ($0 - Sopa de Letras con marca de agua), Paquete Básico ($15/mes o $144/año) y Acceso Completo ($25/mes o $240/año). Los planes anuales ahorran un 20%."
+      answer: "Las 33 aplicaciones se pueden probar gratis con marca de agua. Las aplicaciones individuales cuestan $49 como pago único. Los paquetes por categoría (6 aplicaciones) cuestan $149 como pago único. Sin suscripción, sin cargos recurrentes."
     },
     {
-      question: "¿Puedo cambiar de plan en cualquier momento?",
-      answer: "¡Absolutamente! Puede actualizar o bajar de categoría su plan en cualquier momento. Las actualizaciones se prorratean y las bajas de categoría tienen efecto en el siguiente ciclo de facturación."
+      question: "¿Hay alguna suscripción?",
+      answer: "¡No! Todas las compras son pagos únicos con acceso ilimitado. Paga una sola vez y usa la aplicación de forma permanente sin costos adicionales."
     },
     {
       question: "¿Qué métodos de pago aceptan?",
-      answer: "Aceptamos todas las tarjetas de crédito principales (Visa, Mastercard, American Express) y PayPal. Todos los pagos se procesan de forma segura a través de Stripe."
+      answer: "Los pagos se procesan de forma segura a través de Lemon Squeezy, que acepta todas las tarjetas de crédito principales (Visa, Mastercard, American Express), PayPal y más."
     },
     {
-      question: "¿Puedo cancelar mi suscripción?",
-      answer: "Sí, puede cancelar en cualquier momento desde la configuración de su cuenta. Conservará el acceso hasta el final de su período de facturación actual y no hay cargos por cancelación."
+      question: "¿Cómo accedo a mis compras?",
+      answer: "Después de la compra, recibirá un correo electrónico de confirmación. Visite lessoncraftstudio.com/member e inicie sesión con el correo electrónico utilizado para la compra para acceder a sus aplicaciones desbloqueadas."
     },
     {
       question: "¿Ofrecen reembolsos?",
-      answer: "No ofrecemos reembolsos por períodos de facturación parciales. Sin embargo, le recomendamos que utilice nuestro plan gratuito para asegurarse de que la plataforma satisface sus necesidades antes de suscribirse."
+      answer: "No, ya que todas las aplicaciones se pueden probar de forma gratuita y sin restricciones (solo con marca de agua). Pruebe las aplicaciones a fondo antes de comprar."
     },
     {
-      question: "¿Hay descuento para suscripciones anuales?",
-      answer: "¡Sí! Las suscripciones anuales le ahorran un 20% en comparación con la facturación mensual. El Paquete Básico cuesta $144/año (en lugar de $180) y el Acceso Completo $240/año (en lugar de $300)."
+      question: "¿Qué son los paquetes por categoría?",
+      answer: "Ofrecemos 6 paquetes por categoría a $149 cada uno: Actividades, Matemáticas y Números, Letras y Palabras, Dibujo y Arte, Rompecabezas y Juegos, y Patrones y Lógica. Cada paquete incluye todas las aplicaciones de la categoría correspondiente."
     }
   ],
   technical: [
@@ -92,21 +92,21 @@ export const faqData = {
     },
     {
       question: "¿Qué hago si encuentro un error o problema?",
-      answer: "Contacte a nuestro equipo de soporte en support@lessoncraftstudio.com. Los usuarios del Paquete Básico reciben soporte estándar, mientras que los usuarios de Acceso Completo reciben asistencia prioritaria."
+      answer: "Contacte a nuestro equipo de soporte en support@lessoncraftstudio.com. Estamos a su disposición para cualquier pregunta técnica o problema."
     },
     {
       question: "¿Hay límites de uso?",
-      answer: "¡No! Cree fichas ilimitadas con su suscripción. No hay límites diarios ni mensuales de generación."
+      answer: "¡No! Cree fichas ilimitadas con sus aplicaciones compradas. No hay límites diarios ni mensuales de generación."
     }
   ],
   commercial: [
     {
       question: "¿Qué es la licencia comercial POD?",
-      answer: "La licencia comercial POD (Impresión bajo Demanda) le permite vender las fichas que cree en plataformas como Teachers Pay Teachers, Amazon KDP, Etsy o su propia tienda. Está incluida en los planes Paquete Básico y Acceso Completo."
+      answer: "La licencia comercial POD (Impresión bajo Demanda) le permite vender las fichas que cree en plataformas como Amazon KDP, Etsy o su propia tienda. Está incluida en cada compra."
     },
     {
       question: "¿Puedo vender las fichas creadas con el plan gratuito?",
-      answer: "No, el plan gratuito es solo para uso personal y no comercial. Para vender fichas, necesita el Paquete Básico o el Acceso Completo."
+      answer: "No, la versión de prueba gratuita es solo para uso personal y no comercial, e incluye marca de agua. Para vender fichas, necesita comprar una aplicación."
     },
     {
       question: "¿Puedo usar las fichas en mi aula?",
@@ -114,19 +114,19 @@ export const faqData = {
     },
     {
       question: "¿Puedo compartir fichas con otros docentes?",
-      answer: "Con el Paquete Básico y el Acceso Completo, puede vender fichas en mercados. Para compartir gratuitamente dentro de su escuela, consulte las políticas de su institución sobre licencias comerciales."
+      answer: "Con las aplicaciones compradas, puede vender fichas en mercados. Para compartir gratuitamente dentro de su escuela, consulte las políticas de su institución sobre licencias comerciales."
     },
     {
       question: "¿Debo dar crédito a LessonCraftStudio en las fichas que vendo?",
-      answer: "No se requiere atribución en las fichas creadas con los planes Paquete Básico o Acceso Completo. Las fichas del plan gratuito incluyen marca de agua."
+      answer: "No se requiere atribución en las fichas creadas con aplicaciones compradas. Las fichas de la versión de prueba gratuita incluyen marca de agua."
     },
     {
       question: "¿Puedo usar las imágenes en otros proyectos?",
       answer: "La licencia comercial se aplica únicamente a fichas completas generadas a través de nuestra plataforma. No está permitida la extracción de imágenes individuales ni su uso en proyectos que no sean fichas."
     },
     {
-      question: "Si cancelo mi suscripción, ¿puedo seguir vendiendo mis fichas existentes?",
-      answer: "¡Sí! Las fichas creadas durante un período de suscripción activo conservan su licencia comercial incluso después de la cancelación."
+      question: "¿El acceso es permanente?",
+      answer: "¡Sí! Al tratarse de una compra única, conserva el acceso a sus aplicaciones compradas y la licencia comercial de forma permanente."
     }
   ]
 };

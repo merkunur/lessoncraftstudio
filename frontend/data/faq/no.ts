@@ -50,7 +50,7 @@ export const faqData = {
   pricing: [
     {
       question: "Hva koster LessonCraftStudio?",
-      answer: "Vi har tre alternativer: Gratis ($0 - Kryssord med vannmerke), Basispakke ($15/måned eller $144/år) og Fullstendig tilgang ($25/måned eller $240/år). Årsabonnement gir 20% rabatt."
+      answer: "Alle 33 generatorer er gratis å prøve med vannmerke. Enkeltapper koster $49 (engangskjøp). Kategoripakker koster $149 og inkluderer 4-7 apper. Ingen abonnement, ingen gjentakende avgifter."
     },
     {
       question: "Kan jeg bytte abonnement når som helst?",
@@ -58,7 +58,7 @@ export const faqData = {
     },
     {
       question: "Hvilke betalingsmetoder aksepterer dere?",
-      answer: "Vi aksepterer alle vanlige betalingskort (Visa, Mastercard, American Express) og PayPal. Alle betalinger håndteres sikkert via Stripe."
+      answer: "Betalinger håndteres sikkert via Lemon Squeezy, som aksepterer alle vanlige betalingskort (Visa, Mastercard, American Express), PayPal og mer."
     },
     {
       question: "Kan jeg si opp abonnementet mitt?",

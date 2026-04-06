@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'ouvrir une boutique Etsy d\'imprimables',
+    primaryKeyword: 'ouvrir une boutique Etsy imprimables',
     secondaryKeywords: [
-      'comment ouvrir une boutique Etsy d\'imprimables',
-      'créer boutique Etsy imprimables de zéro',
-      'commencer à vendre des imprimables sur Etsy',
-      'boutique Etsy téléchargements numériques pour débutants',
+      'démarrer boutique Etsy guide',
+      'lancer business imprimables Etsy',
+      'créer boutique Etsy fiches',
+      'guide débutant Etsy imprimables',
     ],
     lsiKeywords: [
-      'Etsy compte vendeur création téléchargements numériques fiches imprimables',
-      'boutique imprimables image de marque Etsy optimisation annonces nouveaux vendeurs',
-      'Etsy frais stratégie de prix produits imprimables éducatifs',
-      'Etsy SEO tags titres descriptions annonces fiches imprimables',
-      'boutique téléchargements numériques conditions de retour Etsy vendeurs',
-      'Etsy boutique imprimables stratégie de lancement premiers 30 jours plan de croissance',
+      'Etsy',
+      'boutique',
+      'démarrer',
+      'imprimables',
+      'fiches',
+      'vendeur',
     ],
-    titleTag: 'Ouvrir une boutique Etsy d\'imprimables | LCS',
-    metaDescription: 'Ouvrez votre boutique Etsy d\'imprimables avec 33 générateurs. Configuration, image de marque, optimisation annonces, tarification et plan de lancement.',
+    titleTag: 'Ouvrir une boutique Etsy imprimables | Guide débutant',
+    metaDescription: 'Comment ouvrir une boutique Etsy pour vendre des imprimables. Guide étape par étape : inscription, mise en vente, SEO et premières ventes.',
   },
 
   hero: {

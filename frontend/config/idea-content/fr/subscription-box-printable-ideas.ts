@@ -2,21 +2,11 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Box d\'imprimables par abonnement | LCS',
-    metaDescription: 'Idées de box d\'abonnement de fiches à vendre sur Etsy, Gumroad et Patreon. Créez des revenus récurrents avec des packs mensuels et des lots thématiques.',
-
-    primaryKeyword: 'box d\'imprimables par abonnement idées',
-    secondaryKeywords: [
-      'business abonnement fiches imprimables',
-      'modèle abonnement mensuel fiches éducatives',
-      'service livraison récurrente imprimables',
-      'vendre abonnements imprimables en ligne',
-    ],
-    lsiKeywords: [
-      'produits éducatifs livraison mensuelle',
-      'modèle revenus récurrents fiches commercials',
-      'service packs imprimables sélectionnés',
-    ],
+    primaryKeyword: 'box abonnement imprimables idées',
+    secondaryKeywords: ['abonnement fiches pédagogiques idées', 'box mensuelle imprimables', 'subscription box éducative', 'revenus récurrents imprimables'],
+    lsiKeywords: ['abonnement', 'box', 'mensuel', 'récurrent', 'revenus', 'fidélisation'],
+    titleTag: 'Box abonnement imprimables | Idées revenus récurrents',
+    metaDescription: 'Idées de box abonnement pour imprimables pédagogiques. Revenus récurrents, fidélisation, thèmes mensuels. Guide des modèles rentables.',
   },
   hero: {
     title: 'Idées de Business Box d\'Abonnement de Fiches pour Vendeurs',

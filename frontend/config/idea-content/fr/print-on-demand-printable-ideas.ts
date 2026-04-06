@@ -2,21 +2,11 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Impression à la demande — Business | LCS',
-    metaDescription: 'Idées de fiches d\'impression à la demande pour vendeurs Etsy, KDP et Shopify. Lancez une entreprise sans stock avec cahiers, packs d\'activités et puzzles.',
-
-    primaryKeyword: 'impression à la demande fiches business',
-    secondaryKeywords: [
-      'business imprimables impression à la demande',
-      'produits éducatifs impression à la demande',
-      'vendre fiches avec impression à la demande',
-      'modèle commercial fiches POD',
-    ],
-    lsiKeywords: [
-      'impression et expédition automatisées',
-      'vente de produits éducatifs à la demande',
-      'entreprise de fiches sans stock',
-    ],
+    primaryKeyword: 'impression à la demande imprimables idées',
+    secondaryKeywords: ['print on demand éducatif idées', 'POD fiches à vendre', 'impression demande KDP idées', 'produits POD éducatifs'],
+    lsiKeywords: ['POD', 'impression à la demande', 'automatisé', 'sans stock', 'KDP', 'Lulu'],
+    titleTag: 'Impression à la demande imprimables | Idées POD',
+    metaDescription: 'Idées d\'imprimables en impression à la demande (POD). Sans stock, sans expédition. KDP, Lulu, alternatives. Guide des meilleures niches.',
   },
   hero: {
     title: 'Idées de Business de Fiches d\'Impression à la Demande pour Vendeurs',

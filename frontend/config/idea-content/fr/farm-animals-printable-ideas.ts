@@ -2,21 +2,16 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Imprimables ferme à vendre sur Etsy | LCS',
-    metaDescription: 'Idées d\'imprimables animaux de la ferme à vendre sur Etsy, KDP & Gumroad. Concepts produits, stratégies de prix et conseils de plateformes pour vendeurs.',
-
     primaryKeyword: 'imprimables animaux de la ferme à vendre',
     secondaryKeywords: [
-      'fiches animaux de la ferme à vendre',
-      'activité imprimable thème ferme business',
-      'fiches activités ferme pour vendeurs',
-      'vendre imprimables ferme sur Etsy',
+      'fiches animaux ferme à imprimer',
+      'cahier activités ferme KDP',
+      'coloriages animaux ferme à vendre',
+      'jeux ferme imprimables',
     ],
-    lsiKeywords: [
-      'fiches éducatives thème basse-cour',
-      'activités agriculture pour enfants',
-      'imprimables éducatifs thème élevage',
-    ],
+    lsiKeywords: ['ferme', 'vache', 'cochon', 'poule', 'mouton', 'maternelle'],
+    titleTag: 'Imprimables animaux ferme Etsy & KDP | Idées niches',
+    metaDescription: 'Idées d\'imprimables animaux de la ferme à vendre sur Etsy et KDP. Coloriages, mots mêlés, maths, puzzles thème ferme. Niche populaire.',
   },
   hero: {
     title: 'Idées d\'Imprimables Animaux de la Ferme pour les Vendeurs',

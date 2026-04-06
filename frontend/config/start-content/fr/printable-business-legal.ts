@@ -2,23 +2,11 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'imprimables juridique business statut fiscalité',
-    secondaryKeywords: [
-      'aspects juridiques activité imprimables',
-      'obligations fiscales produits numériques',
-      'structure juridique vendeurs imprimables',
-      'propriété intellectuelle fiches imprimables',
-    ],
-    lsiKeywords: [
-      'taxe vente téléchargements numériques par pays',
-      'auto-entrepreneur activité imprimables',
-      'tenue registres vendeurs Etsy',
-      'conformité conditions utilisation plateformes',
-      'fiscalité transfrontalière produits numériques',
-      'charges déductibles activité imprimables',
-    ],
-    titleTag: 'Business d\'imprimables : statut juridique | LCS',
-    metaDescription: 'Obligations fiscales pour la vente d\'imprimables. Structure juridique, charges déductibles, propriété. Vendez sur Etsy & KDP avec licence commerciale.',
+    primaryKeyword: 'aspects juridiques business imprimables',
+    secondaryKeywords: ['droits auteur imprimables guide', 'légalité vente imprimables', 'juridique vendeur imprimables', 'auto-entrepreneur imprimables'],
+    lsiKeywords: ['juridique', 'légal', 'droits auteur', 'auto-entrepreneur', 'statut', 'fiscalité'],
+    titleTag: 'Aspects juridiques business imprimables | Guide',
+    metaDescription: 'Les aspects juridiques d\'un business d\'imprimables. Statut, fiscalité, droits d\'auteur, licences. Guide complet pour vendeurs francophones.',
   },
 
   hero: {

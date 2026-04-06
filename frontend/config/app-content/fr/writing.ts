@@ -2,24 +2,29 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'générateur de fiches d\'écriture à vendre sur Etsy et KDP',
+    primaryKeyword: 'fiches graphisme à imprimer',
     secondaryKeywords: [
-      'créer des fiches d\'écriture pour boutique Etsy',
-      'fiches d\'écriture manuscrite pour Amazon KDP',
-      'exercices d\'écriture imprimables licence commerciale',
-      'cahiers d\'écriture pour La Salle des Maîtres',
+      'générateur écriture',
+      'fiches écriture maternelle GS CP',
+      'tracer lettres fiche',
+      'graphisme maternelle à imprimer',
     ],
     lsiKeywords: [
-      'licence commerciale 300 DPI prêt à imprimer',
-      'business d\'imprimables fiches d\'écriture vendeurs',
-      'tracé fléché 5 polices 3 modes progressifs',
+      'tracé',
+      'lettres',
+      'cursive',
+      'script',
+      'motricité fine',
+      'maternelle',
+      'GS',
+      'CP',
     ],
-    titleTag: 'Fiches d\'écriture à vendre sur Etsy & KDP | LCS',
-    metaDescription: 'Créez des fiches d\'écriture à vendre sur Etsy & KDP. 3 modes progressifs, 5 polices, licence commerciale. 49 $ paiement unique.',
+    titleTag: 'Fiches de graphisme à imprimer | Générateur écriture',
+    metaDescription: 'Créez des fiches d\'écriture et de graphisme avec mots personnalisés. 11 langues, PDF 300 DPI. Essai gratuit — licence commerciale pour vendeurs.',
   },
 
   hero: {
-    title: 'Créez des fiches d\'écriture à vendre sur Etsy & Amazon KDP',
+    title: 'Fiches de graphisme à imprimer — Générateur d\'écriture et tracé',
     tagline: 'Trois modes de pratique progressifs avec un ordre des traits guidé par des flèches et des guides de lettres à opacité dégressive — développez la fluidité d\'écriture du tracé complet à l\'écriture autonome sur une seule fiche.',
     description:
       'Créez des fiches d\'écriture à vendre sur Etsy, Amazon KDP ou La Salle des Maîtres — trois modes progressifs qui créent une progression d\'apprentissage naturelle : le mode Tracé fournit des guides de lettres pleins que les débutants suivent directement, le Tracé Progressif réduit progressivement la visibilité des lettres à travers la ligne pour renforcer la confiance, et la Copie Guidée offre un contour léger pour une écriture quasi-autonome. Choisissez parmi cinq styles de police — Imprimé Standard pour les lettres bâtons classiques, Imprimé Standard Fléché avec des flèches numérotées indiquant l\'ordre des traits, Imprimé Tracé pour les contours en pointillés conçus pour le tracé, Imprimé Tracé Fléché combinant contours en pointillés et flèches d\'ordre des traits, et Cursive (Great Vibes) pour la pratique de l\'écriture liée. Chaque ligne de la fiche est configurable indépendamment : combinez le mode Tracé pour les nouvelles lettres, le Tracé Progressif pour les lettres pratiquées, et la Copie Guidée pour la révision, le tout sur la même page. Les exercices de tracés de pré-écriture (lignes verticales, lignes horizontales, cercles et lignes en zigzag) ajoutent des échauffements de motricité fine qui préparent les mains à la formation des lettres. Le contenu provient de la Bibliothèque d\'Images intégrée avec plus de 3 100 illustrations réparties dans 104 thèmes : utilisez le mode Lettre Initiale pour pratiquer la première lettre de chaque nom d\'image, le mode Nom Complet pour écrire des mots entiers, ou saisissez n\'importe quel Texte Personnalisé. L\'Accès Complet déverrouille les 104 thèmes et les 11 langues d\'interface. Exportez des PDF et JPEG prêts à imprimer à ~300 DPI en format Letter, A4 ou dimensions personnalisées. Que vous vendiez des packs de pratique d\'écriture sur Etsy, compiliez des cahiers d\'écriture pour Amazon KDP ou créiez des ateliers d\'écriture différenciés pour Gumroad, le Générateur de Fiches d\'Écriture livre des résultats professionnels en quelques minutes — essai gratuit avec toutes les fonctionnalités, sans inscription, sans carte bancaire. Les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.',
@@ -198,6 +203,11 @@ const content: AppContent = {
       question: 'Quelle est la politique de remboursement ?',
       answer:
         'L\'essai gratuit vous donnant accès à toutes les fonctionnalités, nous n\'offrons pas de remboursement sur les achats de licence commerciale. Vous pouvez tester chaque mode de pratique, chaque style de police, les tracés de pré-écriture, chaque source de contenu, chaque format d\'export et chaque taille de page avant d\'acheter. L\'essai gratuit est la politique de remboursement — assurez-vous que l\'outil répond à vos besoins avant d\'acheter une licence.',
+    },
+    {
+      question: 'Ces fiches de graphisme conviennent-elles à la maternelle et au CP ?',
+      answer:
+        'Oui. Les fiches de graphisme sont conçues pour la moyenne section (MS), la grande section (GS) et le CP. Le tracé de lettres, les lignes et les motifs développent la motricité fine. Au Québec, cela correspond au préscolaire et à la 1re année.',
     },
   ],
 

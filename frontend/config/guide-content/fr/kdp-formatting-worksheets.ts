@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'mise en page KDP pour livres d\'exercices guide',
+    primaryKeyword: 'formatage KDP pour fiches et cahiers',
     secondaryKeywords: [
-      'guide de formatage KDP pour livres de fiches',
-      'spécifications de formatage manuscrit Amazon KDP',
-      'format de coupe marges fond perdu livres KDP',
-      'export PDF impression 300 DPI livres activités KDP',
+      'formatage Amazon KDP guide',
+      'mise en page KDP cahiers',
+      'dimensions KDP fiches',
+      'PDF KDP formatage guide',
     ],
     lsiKeywords: [
-      'KDP format de coupe 8.5x11 6x9 8x10 mise en page intérieur fiches',
-      'marges manuscrit gouttière reliure zone de sécurité fond perdu',
-      'export PDF 300 DPI incorporation polices niveaux de gris CMYK',
-      'KDP dimensions couverture largeur dos code-barres calculateur',
-      'numérotation pages liminaires pages de fin table des matières',
-      'KDP erreurs téléversement rejet dépannage prévisualiseur épreuve',
+      'formatage',
+      'KDP',
+      'mise en page',
+      'dimensions',
+      'PDF',
+      'couverture',
     ],
-    titleTag: 'Mise en page KDP livres d\'exercices | LCS',
-    metaDescription: 'Guide formatage KDP : formats de coupe, marges, fond perdu, export PDF 300 DPI, dimensions de couverture et dépannage du téléversement pour livres.',
+    titleTag: 'Formatage KDP fiches et cahiers | Guide technique',
+    metaDescription: 'Comment formater vos fiches et cahiers pour Amazon KDP. Dimensions, marges, résolution, PDF. Guide technique étape par étape.',
   },
 
   hero: {

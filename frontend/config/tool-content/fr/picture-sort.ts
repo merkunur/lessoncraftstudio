@@ -2,24 +2,29 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'générateur de fiches de tri gratuit',
+    primaryKeyword: 'fiches tri et classement gratuit',
     secondaryKeywords: [
-      'créer des fiches de tri gratuitement en ligne',
-      'fiches de tri d\'images gratuit sans inscription',
-      'générateur de classification gratuit PDF',
-      'fiches de tri gratuites avec corrigé automatique',
+      'exercice trier et ranger gratuit',
+      'classement images gratuit en ligne',
+      'catégoriser exercice gratuit',
+      'tri maternelle gratuit à imprimer',
     ],
     lsiKeywords: [
-      'essai gratuit avec filigrane sans inscription',
-      'licence commerciale pour vendre sur Etsy',
-      'tri à deux catégories grille découpée 104 thèmes',
+      'trier',
+      'classer',
+      'ranger',
+      'catégoriser',
+      'gratuit',
+      'sans inscription',
+      'solution',
+      'PDF',
     ],
-    titleTag: 'Fiches de tri gratuites en ligne | LCS',
-    metaDescription: 'Créez des fiches de tri gratuitement en ligne. Tri à deux catégories, corrigé auto, 104 thèmes, sans inscription. Licence commerciale disponible.',
+    titleTag: 'Fiches tri et classement gratuit en ligne | LCS',
+    metaDescription: 'Créez des fiches de tri et classement gratuitement en ligne. Images thématiques, corrections automatiques, sans inscription. Licence commerciale disponible.',
   },
 
   hero: {
-    title: 'Fiches de tri gratuites — créez en ligne sans inscription',
+    title: 'Fiches de tri et classement gratuites — créez en ligne sans inscription',
     tagline: 'Générateur de fiches de tri d\'images avec tri à deux catégories gauche/droite, mode thématique et mode manuel de sélection d\'images, grille découpée mélangée de 4 à 12 images en 3–4 colonnes auto-ajustables, cadres de catégories à bordure pointillée, corrigés auto-générés avec images 6× plus grandes dans des boîtes de catégories, en-tête localisé \" Tri d\'Images \" en 11 langues et 104 collections d\'images thématiques pour des fiches de tri vendables dans le monde entier',
     description: 'Créez des fiches de tri gratuitement en ligne — sans inscription, sans carte bancaire. Les utilisateurs découpent des images d\'une grille mélangée et les classifient dans deux catégories. Choisissez le mode thématique pour remplir automatiquement les catégories à partir de la bibliothèque d\'images : sélectionnez un thème à gauche et un thème à droite, et l\'application génère 4 à 6 images aléatoires par thème. Ou passez en mode manuel pour sélectionner individuellement les images et assigner chacune à la catégorie gauche ou droite. Chaque fiche comporte deux cadres de catégories à bordure pointillée en haut avec remplissage #FAFAFA comme destinations de tri et une grille découpée mélangée en dessous avec des cellules blanches, des bordures pointillées #666, des coins arrondis de 4 px et 3 à 4 colonnes selon le nombre total d\'images. Chaque image remplit 85 % de sa cellule. Configurez 4 à 12 images au total avec 2 à 10 par catégorie — moins d\'images créent des exercices de tri plus simples pour les jeunes apprenants, plus d\'images augmentent la difficulté et la densité de contenu. Le système à double canevas génère à la fois un onglet fiche et un onglet corrigé simultanément. Le corrigé affiche les images à 6× la taille des cellules de la grille découpée, organisées dans des boîtes de catégories avec un maximum de 2 colonnes par boîte, remplissage #FAFAFA, contour #444 et rayon de bordure de 12 px — aucune création manuelle de corrigé nécessaire. Le Générateur de Fiches de Tri d\'Images est sensible à la langue : les étiquettes de catégories utilisent des noms d\'images localisés de la Bibliothèque d\'Images, donc changer de langue modifie le texte sur la fiche. Un en-tête localisé s\'affiche automatiquement avec un fond vert menthe (#4DB6AC), un conteneur pilule blanc, un titre bleu sarcelle (#00796B) en police Fredoka Bold et une description orange (#FF7043) en police Quicksand. Les fiches en portrait affichent un en-tête de 100 px avec un titre de 28–48 px ; les fiches en paysage utilisent un en-tête de 70 px avec un titre de 24–36 px. Une bordure extérieure bleu sarcelle (#26A69A, 8 px, rayon 12 px) encadre l\'ensemble de la page. Parcourez 104 collections thématiques avec plus de 3 100 illustrations ou importez vos propres images PNG, JPG ou GIF. Appliquez des thèmes de fond et de bordure avec des curseurs d\'opacité indépendants (0–1, pas de 0,05). Ajoutez des champs nom et date pour la responsabilité en ligne. Ajoutez du texte personnalisé avec 7 polices (Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial, Verdana) et contour de texte 0–10. Exportez quatre fichiers par session : fiche JPEG, fiche PDF, corrigé JPEG et corrigé PDF — tous à 300 DPI (multiplicateur 6×, qualité JPEG 1.0). Choisissez Letter, A4, Carré (1200×1200) ou dimensions personnalisées avec mode niveaux de gris pour une sortie économique en encre. Éditez tout sur le canevas Fabric.js avec 6 options d\'alignement plus centrage sur la page, calques, verrouillage, zoom 25 %–300 % et annuler/rétablir 20 états. L\'essai gratuit inclut toutes les fonctionnalités avec un filigrane sur les téléchargements. Achetez une licence pour supprimer le filigrane et vendre à usage commercial.',
   },

@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'créer des puzzles pièces manquantes à vendre',
+    primaryKeyword: 'créer des puzzles pièces manquantes',
     secondaryKeywords: [
-      'générateur puzzles pièces manquantes licence commerciale',
-      'fiches puzzles visuels à vendre Etsy et KDP',
-      'créer puzzles jigsaw imprimables avec corrigés',
-      'outil puzzles discrimination visuelle usage commercial',
+      'tutoriel pièces manquantes',
+      'guide jeux logique visuelle',
+      'fiches puzzle à imprimer guide',
+      'observation visuelle exercice guide',
     ],
     lsiKeywords: [
-      'générateur puzzles extraction intelligente variance de luminosité',
-      'six formes de pièces puzzles jigsaw avec distracteurs',
-      'corrigés automatiques surlignage jaune pièces manquantes',
-      'vendre puzzles pièces manquantes sur Etsy',
-      'cahiers puzzles jigsaw Amazon KDP',
-      'outil pièces manquantes licence commerciale',
+      'puzzle',
+      'pièces manquantes',
+      'observation',
+      'raisonnement',
+      'maternelle',
+      'GS',
     ],
-    titleTag: 'Pièces manquantes à vendre en ligne | LCS',
-    metaDescription: 'Créez des puzzles pièces manquantes avec 6 formes, extraction intelligente, distractrices et corrigés automatiques. Guide de vente pour Etsy et KDP.',
+    titleTag: 'Créer des puzzles pièces manquantes | Guide complet',
+    metaDescription: 'Comment créer des fiches « pièces manquantes » avec images thématiques et solutions automatiques. Guide étape par étape pour vendeurs.',
   },
 
   hero: {

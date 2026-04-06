@@ -2,21 +2,16 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Imprimables transports — Business | LCS',
-    metaDescription: 'Idées d\'imprimables transports à vendre sur Etsy, KDP et Gumroad. Concepts de produits véhicules, stratégies par plateforme et conseils vendeurs.',
-
-    primaryKeyword: 'imprimables transports idées business',
+    primaryKeyword: 'imprimables véhicules et transports à vendre',
     secondaryKeywords: [
-      'fiches transports à vendre',
-      'idées business imprimables véhicules',
-      'fiches activités transports vendeurs',
-      'vendre imprimables transports Etsy',
+      'fiches transports à imprimer idées',
+      'cahier activités véhicules KDP',
+      'coloriages voitures à vendre',
+      'jeux transports imprimables',
     ],
-    lsiKeywords: [
-      'fiches éducatives voitures et camions',
-      'pages activités véhicules thématiques',
-      'imprimables transports et voyages',
-    ],
+    lsiKeywords: ['véhicule', 'voiture', 'avion', 'train', 'camion', 'bateau'],
+    titleTag: 'Imprimables transports Etsy & KDP | Idées de niches',
+    metaDescription: 'Idées d\'imprimables véhicules et transports à vendre sur Etsy et KDP. Coloriages voitures, mots mêlés, puzzles. Niche populaire garçons.',
   },
   hero: {
     title: 'Idées d\'Imprimables Transports pour les Vendeurs',

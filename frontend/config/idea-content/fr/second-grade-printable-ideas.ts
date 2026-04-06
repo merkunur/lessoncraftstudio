@@ -2,21 +2,11 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Imprimables CE1 — Idées business | LCS',
-    metaDescription: 'Idées d\'imprimables CE1 à vendre sur Etsy, KDP et Gumroad. Concepts de produits et stratégies de niche pour les vendeurs ciblant le programme du.',
-
-    primaryKeyword: 'imprimables CE1 idées business',
-    secondaryKeywords: [
-      'fiches CE1 à vendre',
-      'idées business imprimables cours élémentaire',
-      'fiches activités CE1 pour vendeurs',
-      'vendre imprimables CE1 sur Gumroad',
-    ],
-    lsiKeywords: [
-      'fiches maths et lecture élémentaire',
-      'ressources programme CE1 imprimables',
-      'pages activités apprentissage 7-8 ans',
-    ],
+    primaryKeyword: 'imprimables CE1 à vendre',
+    secondaryKeywords: ['fiches CE1 à imprimer idées', 'cahier activités CE1 KDP', 'exercices CE1 à vendre', 'fiches CE1 imprimables'],
+    lsiKeywords: ['CE1', 'cours élémentaire', '7 ans', 'calcul', 'lecture', 'grammaire'],
+    titleTag: 'Imprimables CE1 pour Etsy & KDP | Idées de niches',
+    metaDescription: 'Idées d\'imprimables CE1 (cours élémentaire 1) à vendre sur Etsy et KDP. Maths, lecture, grammaire, puzzles. Niche éducative primaire.',
   },
   hero: {
     title: 'Idées d\'Imprimables CE1 pour les Vendeurs',

@@ -2,21 +2,11 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Imprimables alimentation pour Etsy | LCS',
-    metaDescription: 'Idées d\'imprimables cuisine et alimentation à vendre sur Etsy, KDP et Gumroad. Concepts de produits recettes, stratégies et conseils pour vendeurs.',
-
-    primaryKeyword: 'imprimables alimentation à vendre Etsy',
-    secondaryKeywords: [
-      'fiches cuisine à vendre',
-      'idées business imprimables alimentation',
-      'fiches activités cuisine vendeurs',
-      'vendre imprimables alimentation Etsy',
-    ],
-    lsiKeywords: [
-      'fiches éducatives thème culinaire',
-      'activités nutrition pour enfants',
-      'imprimables recettes de cuisine éducatifs',
-    ],
+    primaryKeyword: 'imprimables cuisine et aliments à vendre',
+    secondaryKeywords: ['fiches cuisine à imprimer idées', 'cahier activités aliments KDP', 'coloriages nourriture à vendre', 'jeux cuisine imprimables'],
+    lsiKeywords: ['cuisine', 'aliment', 'fruit', 'légume', 'recette', 'nutrition'],
+    titleTag: 'Imprimables cuisine & aliments Etsy & KDP | Idées',
+    metaDescription: 'Idées d\'imprimables cuisine et aliments à vendre sur Etsy et KDP. Coloriages fruits, mots mêlés nourriture, puzzles. Niche éducative.',
   },
   hero: {
     title: 'Idées d\'Imprimables Cuisine et Alimentation pour les Vendeurs',

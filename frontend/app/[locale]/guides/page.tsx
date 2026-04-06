@@ -12,7 +12,7 @@ const baseUrl = 'https://www.lessoncraftstudio.com';
 const guidesKeywords: Record<string, string[]> = {
   en: ['printable business guides', 'how to sell printables guides', 'etsy printable tutorials', 'kdp activity book guides', 'create and sell printables guide', 'printable seller strategies'],
   de: ['Druckvorlagen verkaufen Anleitungen', 'Etsy Druckvorlagen Tutorials', 'KDP Rätselbuch Anleitungen', 'Arbeitsblätter verkaufen Tipps'],
-  fr: ['guides business imprimables', 'comment vendre des fiches', 'tutoriel Etsy imprimables', 'guide publication KDP', 'créer et vendre imprimables', 'conseils vendeur imprimables'],
+  fr: ['guides vendre imprimables', 'tutoriel Etsy imprimables', 'guide KDP fiches', 'créer imprimables guide', 'SEO Etsy imprimables', 'stratégie prix imprimables'],
   es: ['guías negocio imprimibles', 'cómo vender fichas Etsy', 'tutorial Etsy KDP imprimibles', 'guía publicación KDP Hotmart', 'crear y vender imprimibles', 'consejos vendedor imprimibles'],
   pt: ['guias negócio imprimíveis', 'como vender fichas', 'tutorial Etsy imprimíveis', 'guia publicação KDP', 'criar e vender imprimíveis', 'dicas vendedor imprimíveis'],
   it: ['guide business stampabili', 'come vendere schede', 'tutorial Etsy stampabili', 'guida pubblicazione KDP', 'creare e vendere stampabili', 'consigli venditore stampabili'],
@@ -113,8 +113,8 @@ const guidesContent: Record<string, {
   fr: {
     heroTitle: 'Guides pratiques',
     heroDescription: 'Guides étape par étape pour créer et vendre des imprimables. Des tutoriels de plateformes aux stratégies commerciales.',
-    metaTitle: 'Guides pratiques | Créer et vendre des imprimables | LessonCraftStudio',
-    metaDescription: '65 guides pour créer et vendre des imprimables. Guides de plateformes, tutoriels de création et stratégies commerciales pour Etsy, KDP, TPT.',
+    metaTitle: '65 guides : créer et vendre des imprimables sur Etsy & KDP',
+    metaDescription: 'Guides pas à pas sur le SEO Etsy, le formatage KDP, les stratégies de prix, le choix de niche et plus. Tout pour votre business d\'imprimables.',
     ctaTitle: 'Commencez à créer',
     ctaDescription: 'Essayez les 33 générateurs gratuits avec filigrane. Sans inscription.',
     ctaButton: 'Essayer les générateurs',

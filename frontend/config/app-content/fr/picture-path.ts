@@ -2,24 +2,29 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'labyrinthes illustrés à vendre sur Etsy',
+    primaryKeyword: 'labyrinthe à imprimer',
     secondaryKeywords: [
-      'générateur de labyrinthes pour vendeurs Etsy',
-      'fiches de labyrinthes pour Amazon KDP',
-      'labyrinthes imprimables licence commerciale',
-      'créer des cahiers de labyrinthes pour vendeurs',
+      'générateur labyrinthe',
+      'labyrinthe enfant à imprimer',
+      'créer labyrinthe',
+      'labyrinthe maternelle à imprimer',
     ],
     lsiKeywords: [
-      'licence commerciale 300 DPI prêt à imprimer',
-      'business d\'imprimables labyrinthes vendeurs Etsy',
-      '3 modes de jeu algorithme LPF corrigé automatique',
+      'parcours',
+      'chemin',
+      'sortie',
+      'motricité fine',
+      'concentration',
+      'maternelle',
+      'GS',
+      'CP',
     ],
-    titleTag: 'Labyrinthes illustrés à vendre sur Etsy | LCS',
-    metaDescription: 'Créez des labyrinthes illustrés à vendre sur Etsy & KDP. 3 modes de jeu, 104 thèmes, licence commerciale. 49 $ paiement unique.',
+    titleTag: 'Labyrinthe à imprimer | Générateur de labyrinthes',
+    metaDescription: 'Créez des labyrinthes avec images thématiques. Solutions automatiques, PDF 300 DPI. Essai gratuit — vendez sur Etsy & Amazon KDP.',
   },
 
   hero: {
-    title: 'Créez des labyrinthes illustrés à vendre sur Etsy & KDP',
+    title: 'Labyrinthe à imprimer — Générateur de labyrinthes avec images et solutions',
     tagline: 'Trois modes de jeu en un seul générateur — Chemin d\'Images, Labyrinthe Classique et Choisis le Bon Chemin — propulsés par un algorithme LPF (Longest Path First) avec corrigés auto-générés, personnalisation des murs et design purement visuel fonctionnant dans le monde entier sans traduction.',
     description:
       'Créez des labyrinthes illustrés à vendre sur Etsy, Amazon KDP ou La Salle des Maîtres — trois modes de jeu distincts pour des produits variés. Le mode Chemin d\'Images crée une grille d\'images où les utilisateurs suivent le chemin correct du départ à l\'arrivée en identifiant les images du chemin parmi les distractrices. Le Labyrinthe Classique génère des labyrinthes à murs utilisant l\'algorithme LPF (Longest Path First) avec un système couloir-case et placement dynamique des murs — configurez la taille de la grille de 15×15 à 20×20, définissez 1 à 3 chemins avec blocage des impasses, et personnalisez la couleur, l\'épaisseur (1–10px) et l\'opacité (10–100%) des murs. Le mode Choisis le Bon Chemin présente des labyrinthes à trois chemins avec quatre options directionnelles (bas vers haut, haut vers bas, gauche vers droite, droite vers gauche) où les utilisateurs identifient le seul chemin correct parmi les leurres. Chaque mode génère un corrigé compagnon sur un onglet de canevas séparé — les chemins de solution sont mis en évidence avec des cercles roses le long du parcours correct, et le mode Choisis le Bon Chemin ajoute une étiquette \" ✓ CHEMIN CORRECT \". Attribuez des images à cinq rôles distincts : Image de Départ, Image d\'Arrivée, Images du Chemin, Images Distractrices et Décoration. Parcourez 104 collections thématiques avec plus de 3 100 illustrations ou importez les vôtres. L\'en-tête auto-généré \" Chemin d\'Images \" avec bordure extérieure orange affiche des titres et instructions localisés dans les 11 langues prises en charge. Ajoutez des thèmes de fond et de bordure avec des contrôles d\'opacité indépendants, incluez des champs nom et date, et exportez des PDF et JPEG prêts à imprimer à 300 DPI en format Letter, A4, Carré (1200×1200) ou dimensions personnalisées. Le Chemin d\'Images est entièrement visuel — les labyrinthes ne nécessitent aucune lecture ni compréhension linguistique, rendant chaque fiche instantanément vendable sur n\'importe quel marché mondial. Essai gratuit avec toutes les fonctionnalités — sans inscription, sans carte bancaire. Les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.',
@@ -198,6 +203,11 @@ const content: AppContent = {
       question: 'Quelle est la politique de remboursement ?',
       answer:
         'Comme l\'essai gratuit vous donne accès à chaque fonctionnalité, nous n\'offrons pas de remboursement sur les achats de licence commerciale. Vous pouvez tester les trois modes de jeu, l\'algorithme LPF, les cinq rôles d\'images, la personnalisation des murs, le corrigé auto-généré, la bibliothèque d\'images complète, les thèmes de fond et de bordure, les champs nom/date et tous les formats de téléchargement avant d\'acheter. L\'essai gratuit est la politique de remboursement — assurez-vous que l\'outil correspond à vos besoins avant d\'acheter une licence.',
+    },
+    {
+      question: 'Les labyrinthes sont-ils adaptés à la maternelle et au CP ?',
+      answer:
+        'Oui. Les labyrinthes développent la motricité fine et la concentration dès la grande section (GS). Des parcours simples conviennent à la GS, des labyrinthes plus complexes au CP et CE1. Au Québec, cela correspond au préscolaire et à la 1re année.',
     },
   ],
 

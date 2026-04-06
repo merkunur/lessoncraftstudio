@@ -2,21 +2,11 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Imprimables maternelle pour Etsy | LCS',
-    metaDescription: 'Idées d\'imprimables préscolaires à vendre sur Etsy, KDP et Gumroad. Concepts produits marché préscolaire, stratégies de niche et conseils pour.',
-
-    primaryKeyword: 'imprimables maternelle etsy idées préscolaires vendeurs',
-    secondaryKeywords: [
-      'fiches marché préscolaire à vendre',
-      'idées business imprimables pré-marché préscolaire',
-      'fiches activités préscolaires vendeurs',
-      'vendre imprimables marché préscolaire Etsy',
-    ],
-    lsiKeywords: [
-      'fiches éducatives petite enfance',
-      'pages activités apprentissage 3-5 ans',
-      'imprimables préparation école marché préscolaire',
-    ],
+    primaryKeyword: 'imprimables maternelle à vendre',
+    secondaryKeywords: ['fiches maternelle à imprimer idées', 'cahier activités maternelle KDP', 'exercices maternelle à vendre', 'fiches PS MS GS imprimables'],
+    lsiKeywords: ['maternelle', 'PS', 'MS', 'GS', 'motricité fine', 'graphisme'],
+    titleTag: 'Imprimables maternelle pour Etsy & KDP | Idées niches',
+    metaDescription: 'Idées d\'imprimables maternelle (PS, MS, GS) à vendre sur Etsy et KDP. Graphisme, association, tri, coloriages. Niche très demandée.',
   },
   hero: {
     title: 'Idées d\'Imprimables Préscolaires pour les Vendeurs',

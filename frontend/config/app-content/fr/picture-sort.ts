@@ -2,24 +2,29 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'fiches de tri et classement pour business Etsy',
+    primaryKeyword: 'fiches tri et classement à imprimer',
     secondaryKeywords: [
-      'générateur de fiches de tri pour vendeurs Etsy',
-      'fiches de classification d\'images pour Amazon KDP',
-      'fiches de tri imprimables licence commerciale',
-      'créer des cahiers de tri pour La Salle des Maîtres',
+      'exercice trier et ranger maternelle',
+      'classement images fiche',
+      'catégoriser exercice à imprimer',
+      'tri maternelle GS',
     ],
     lsiKeywords: [
-      'licence commerciale 300 DPI prêt à imprimer',
-      'business d\'imprimables fiches de tri vendeurs Etsy',
-      'tri à deux catégories corrigé automatique 104 thèmes',
+      'trier',
+      'classer',
+      'ranger',
+      'catégoriser',
+      'grouper',
+      'maternelle',
+      'GS',
+      'CP',
     ],
-    titleTag: 'Fiches de tri pour business Etsy & KDP | LCS',
-    metaDescription: 'Créez des fiches de tri et classement à vendre sur Etsy & KDP. Deux catégories, corrigé auto, licence commerciale. 49 $ paiement unique.',
+    titleTag: 'Fiches tri et classement | Générateur catégorisation',
+    metaDescription: 'Créez des fiches de tri et classement avec images thématiques. Corrections automatiques, PDF imprimables. Essai gratuit — licence commerciale incluse.',
   },
 
   hero: {
-    title: 'Créez des fiches de tri et classement à vendre sur Etsy & KDP',
+    title: 'Fiches de tri et classement à imprimer — Générateur de catégorisation',
     tagline: 'Tri à deux catégories en un seul générateur puissant — mode thématique ou sélection manuelle des images — avec des corrigés auto-générés, 4 à 12 images configurables, un en-tête localisé \" Tri d\'Images \" en 11 langues et 104 collections d\'images thématiques.',
     description:
       'Créez des fiches de tri et classement à vendre sur Etsy, Amazon KDP ou La Salle des Maîtres — des fiches où les acheteurs classifient des images dans deux catégories en triant des images découpées dans le bon groupe. Choisissez le mode thématique pour remplir automatiquement les catégories à partir de la bibliothèque d\'images — sélectionnez un thème à gauche et un thème à droite, et l\'application génère 4 à 6 images aléatoires par thème — ou passez en mode manuel pour sélectionner individuellement les images et assigner chacune à une catégorie. Chaque fiche comporte deux cadres de catégories à bordure pointillée en haut comme destinations de tri et une grille découpée mélangée en dessous avec des images mixtes prêtes à être découpées et triées. Le système à double canevas génère à la fois un onglet fiche de travail et un onglet corrigé avec des images 6× plus grandes organisées dans des boîtes de catégories, vous n\'avez donc jamais à créer de corrigés manuellement. Le Générateur de Tri d\'Images est sensible à la langue : les étiquettes de catégories utilisent des noms d\'images localisés, donc changer de langue modifie le texte sur la fiche. Un en-tête localisé \" Tri d\'Images \" avec un fond vert menthe et un titre bleu sarcelle s\'affiche automatiquement dans les 11 langues prises en charge. L\'Accès Complet déverrouille les 104 thèmes avec plus de 3 100 illustrations et les 11 langues d\'interface pour des étiquettes de catégories localisées. Ajoutez des thèmes de fond et de bordure avec des contrôles d\'opacité indépendants, incluez des champs nom et date pour la responsabilité en ligne, et exportez des PDF et JPEG prêts à imprimer à 300 DPI en format Letter, A4, Carré (1200×1200) ou dimensions personnalisées. Que vous vendiez des packs d\'activités de tri sur Etsy, compiliez des cahiers de classification pour Amazon KDP ou créiez des activités de tri pour Gumroad, ce générateur produit des fiches prêtes pour la production en quelques minutes — essai gratuit avec toutes les fonctionnalités, sans inscription, sans carte bancaire. Les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.',
@@ -198,6 +203,11 @@ const content: AppContent = {
       question: 'Quelle est la politique de remboursement ?',
       answer:
         'Comme l\'essai gratuit vous donne accès à chaque fonctionnalité, nous n\'offrons pas de remboursements sur les achats de licences commerciales. Vous pouvez tester la sélection de catégories thématique et manuelle, le nombre d\'images configurable, le corrigé auto-généré, la bibliothèque d\'images complète, les thèmes de fond et de bordure, les champs nom/date et tous les formats de téléchargement avant d\'acheter. L\'essai gratuit est la politique de remboursement — assurez-vous que l\'outil répond à vos besoins avant d\'acheter une licence.',
+    },
+    {
+      question: 'Les fiches de tri sont-elles adaptées à la maternelle (GS) et au CP ?',
+      answer:
+        'Oui. Le tri et le classement sont des compétences fondamentales dès la grande section (GS). Trier par catégorie convient à la GS, des critères plus complexes au CP et CE1. Au Québec, cela correspond au préscolaire et à la 1re année.',
     },
   ],
 

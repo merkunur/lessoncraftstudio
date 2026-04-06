@@ -2,24 +2,28 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'générateur cherche et compte gratuit',
+    primaryKeyword: 'cherche et compte gratuit à imprimer',
     secondaryKeywords: [
-      'créer des fiches cherche et compte gratuitement',
-      'générateur Je Vois Je Vois gratuit sans inscription',
-      'fiches cherche et compte gratuites PDF',
-      'cherche et compte gratuit avec corrigé automatique',
+      'dénombrement maternelle gratuit en ligne',
+      'compter les objets exercice gratuit',
+      'jeu dénombrement GS CP gratuit',
+      'cherche et compte gratuit en ligne',
     ],
     lsiKeywords: [
-      'essai gratuit avec filigrane sans inscription',
-      'licence commerciale pour vendre sur Etsy',
-      'modes Objets Cachés Repérage Lettres 4 tâches',
+      'dénombrer',
+      'compter',
+      'discrimination visuelle',
+      'gratuit',
+      'sans inscription',
+      'GS',
+      'CP',
     ],
-    titleTag: 'Cherche et compte gratuit en ligne | LCS',
-    metaDescription: 'Créez des fiches cherche et compte gratuitement. Modes Objets Cachés et Lettres, 4 types de tâches, sans inscription. Licence commerciale disponible.',
+    titleTag: 'Cherche et compte gratuit à imprimer | LCS',
+    metaDescription: 'Créez des fiches « cherche et compte » gratuitement en ligne. Images thématiques, corrections automatiques, sans inscription. Essai gratuit.',
   },
 
   hero: {
-    title: 'Cherche et compte gratuit — créez en ligne sans inscription',
+    title: 'Cherche et compte gratuit — créez des fiches de dénombrement en ligne',
     tagline: 'Générateur de fiches Je Vois Je Vois à deux modes avec le mode Objets Cachés (grille d\'images dispersées avec jusqu\'à 4 objets cibles) et le mode Repérage de Lettres (alphabet spécifique à la langue avec lettres accentuées), quatre types de tâches combinables (entourer, encadrer, barrer, compter) assignables par objet cible, étiquettes de noms d\'images localisées dans 11 langues via le système de Vocabulaire d\'Images, densité de grille configurable de 5×5 à 10×10, corrigés auto-générés avec annotations rouges cercle/carré/croix et affichages de quantités, et des fiches sensibles à la langue où les étiquettes d\'images changent par locale',
     description: 'Créez des fiches cherche et compte gratuitement en ligne — sans inscription, sans carte bancaire. Les utilisateurs explorent une scène d\'images dispersées pour trouver, entourer, barrer ou compter des objets spécifiques. Le générateur propose deux modes d\'activité distincts en un seul outil. Le mode Objets Cachés disperse les images dans une grille configurable (5–10 lignes × 5–10 colonnes, défaut 6×6) et vous permet d\'assigner jusqu\'à 4 objets cibles avec des types de tâches individuels — entourer l\'objet, l\'encadrer, le barrer ou compter combien apparaissent. Chaque case affiche une image d\'une taille maximale de 80 px. Les objets cibles sont distribués aléatoirement avec 1–5 instances chacun, et les cases restantes se remplissent d\'images distractrices du thème. Le mode Repérage de Lettres affiche un alphabet spécifique à la langue avec lettres accentuées — français A–Z + é, è, ç, à (30 lettres), allemand A–Z + ÄÖÜ (29 lettres), espagnol A–Z + Ñ (27 lettres), suédois/finnois A–Z + ÅÄÖ (29 lettres), danois/norvégien A–Z + ÆØÅ (29 lettres) — affiché sur 7 colonnes avec ajustement automatique des lignes. Les utilisateurs sélectionnent une lettre, et le générateur crée une scène Je Vois Je Vois avec des images commençant par cette lettre dans la langue sélectionnée. Le Générateur Cherche et Compte est sensible à la langue : les étiquettes de noms d\'images sur la fiche sont rendues dans la langue sélectionnée via le système de Vocabulaire d\'Images. \" Cat \" s\'affiche \" Chat \" en français, \" Katze \" en allemand, \" Gato \" en espagnol — et les premières lettres du Repérage de Lettres sont mises à jour en conséquence. La Licence Commerciale inclut l\'anglais uniquement ; l\'Accès Complet déverrouille les 11 langues pour les étiquettes localisées. Le système à double canevas génère à la fois un onglet Fiche et un onglet Corrigé simultanément. Le corrigé reproduit la disposition exacte de la fiche et superpose des annotations visuelles rouges : cercles autour des objets à entourer, carrés autour des objets à encadrer, croix sur les objets à barrer et affichages de quantités pour les objets à compter. Un en-tête auto-généré affiche \" Je Vois, Je Vois \" ou \" Repérage de Lettres \" (selon le mode) avec une bordure bleue (#2196F3), un accent intérieur jaune, et le titre et les consignes localisés en polices Fredoka et Quicksand dans les 11 langues prises en charge. L\'application génère automatiquement une fiche complète à l\'ouverture de la page avec le thème animaux, 4 images aléatoires, des types de tâches aléatoires et une grille 6×6 pour un aperçu instantané. Parcourez 104 collections thématiques avec plus de 3 100 illustrations ou importez des images PNG, JPG ou GIF personnalisées. Appliquez des thèmes de fond et de bordure avec des curseurs d\'opacité indépendants. Ajoutez du texte personnalisé avec 7 options de police et contour de texte 0–10. Activez les champs nom et date pour l\'identification des utilisateurs. Exportez des PDF et JPEG prêts à imprimer à 300 DPI (multiplicateur 6×) en format Par défaut (800×1000), Letter, A4, Carré (1200×1200) ou dimensions personnalisées. Activez les niveaux de gris pour une sortie économique en encre. L\'essai gratuit inclut toutes les fonctionnalités avec un filigrane sur les téléchargements. Achetez une licence pour supprimer le filigrane et vendre à usage commercial.',
   },

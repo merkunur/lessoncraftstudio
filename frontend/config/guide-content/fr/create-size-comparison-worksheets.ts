@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'créer des fiches de comparaison à vendre',
+    primaryKeyword: 'créer des fiches comparaison de tailles',
     secondaryKeywords: [
-      'fiches grand et petit pour enfants licence commerciale',
-      'générateur fiches discrimination tailles à vendre Etsy et KDP',
-      'fiches comparaison de tailles imprimables marché préscolaire à vendre',
-      'fiches classement par taille sans texte vente internationale',
+      'tutoriel fiches grand petit',
+      'guide comparaison tailles maternelle',
+      'fiches ranger par taille guide',
+      'exercices grand petit à imprimer',
     ],
     lsiKeywords: [
-      'activités discrimination visuelle des tailles marché préscolaire préscolaire',
-      'fiches sans texte vente internationale tous marchés',
-      'entoure le plus grand fiches exercices visuels',
-      'vendre fiches comparaison de tailles sur Etsy',
-      'cahiers classement par taille Amazon KDP',
-      'outil fiches tailles licence commerciale',
+      'grand',
+      'petit',
+      'comparer',
+      'ranger',
+      'trier',
+      'maternelle',
     ],
-    titleTag: 'Fiches de comparaison à vendre | LCS',
-    metaDescription: 'Créez des fiches comparaison de tailles avec 5 types de questions et 2 modes d\'image. Sortie sans texte vendable partout. Guide pour Etsy, KDP et Gumroad.',
+    titleTag: 'Créer des fiches grand/petit | Guide complet',
+    metaDescription: 'Comment créer des fiches de comparaison de tailles avec images thématiques. Grand vs petit, tri par taille. Guide étape par étape.',
   },
 
   hero: {

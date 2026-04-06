@@ -2,22 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'normes de qualité pour fiches vendables',
+    primaryKeyword: 'standards qualité fiches pédagogiques',
     secondaryKeywords: [
-      'checklist qualité imprimables professionnels',
-      'standards conception fiches professionnelles',
-      'contrôle qualité fiches exercices vente',
-      'formatage fiches prêtes à imprimer',
+      'qualité fiches à imprimer guide',
+      'normes fiches pédagogiques',
+      'résolution impression fiches',
+      'qualité PDF imprimables',
     ],
     lsiKeywords: [
-      'qualité impression résolution DPI réglages marges alignement lisibilité polices',
-      'cohérence couleurs formatage PDF mise en page précision corrigés',
-      'flux vérification attentes clients sortie professionnelle format fichier',
-      'réglages fond perdu compatibilité papier cohérence visuelle standards marque',
-      'évaluations notes confiance acheteurs checklist production assurance qualité',
+      'qualité',
+      'résolution',
+      '300 DPI',
+      'impression',
+      'lisibilité',
+      'professionnel',
     ],
-    titleTag: 'Normes de qualité pour fiches vendables | LCS',
-    metaDescription: 'Normes qualité pour vendeurs de fiches : résultat professionnel, résolution, marges, typographie, corrigés et tests impression. Vendez sur Etsy et KDP.',
+    titleTag: 'Standards qualité fiches pédagogiques | Guide',
+    metaDescription: 'Les standards de qualité pour vos fiches pédagogiques. Résolution, mise en page, lisibilité, formats d\'impression. Guide complet pour vendeurs.',
   },
 
   hero: {

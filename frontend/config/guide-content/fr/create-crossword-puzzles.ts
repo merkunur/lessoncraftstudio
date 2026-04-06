@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'créer des mots croisés à vendre en ligne',
+    primaryKeyword: 'créer des mots croisés à imprimer',
     secondaryKeywords: [
-      'générateur mots croisés pour enfants',
-      'générateur mots croisés imprimables',
-      'mots croisés en images à vendre',
-      'mots croisés personnalisés avec indices visuels',
+      'tutoriel mots croisés',
+      'guide créer grille mots croisés',
+      'mots croisés avec images guide',
+      'mots croisés personnalisés',
     ],
     lsiKeywords: [
-      'fiches mots croisés avec indices en images',
-      'mots croisés multilingues pour enfants',
-      'mots croisés vocabulaire pour enfants',
-      'vendre livres mots croisés sur KDP',
-      'mots croisés imprimables Etsy',
-      'outil puzzles avec licence commerciale',
+      'mots croisés',
+      'grille',
+      'indices',
+      'images',
+      'CP',
+      'CE1',
     ],
-    titleTag: 'Mots croisés à vendre en ligne | LCS',
-    metaDescription: 'Comment créer des mots croisés en images pour enfants. Thèmes, grilles 15×15 croisées, indices numérotés, corrigés automatiques et vente sur Etsy et KDP.',
+    titleTag: 'Créer des mots croisés | Guide étape par étape',
+    metaDescription: 'Comment créer des mots croisés avec indices images. 4 modes de saisie, 104 thèmes, solutions automatiques. Guide complet pour créateurs de fiches.',
   },
 
   hero: {

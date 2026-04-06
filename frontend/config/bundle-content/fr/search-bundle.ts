@@ -2,21 +2,11 @@ import type { BundleContent } from '../types';
 
 const content: BundleContent = {
   seo: {
-    primaryKeyword: 'pack cherche et trouve pour vendeurs',
-    secondaryKeywords: [
-      'pack générateurs fiches cherche et trouve pour vendeurs',
-      'kit fiches objets cachés imprimables licence commerciale',
-      'pack mots croisés chasse au trésor fiches pour Etsy.fr',
-      'générateurs cherche et compte pour vendeurs KDP',
-    ],
-    lsiKeywords: [
-      'pack fiches objets cachés mots croisés chasse au trésor',
-      'collection activités de recherche imprimables multilingues',
-      'licence commerciale fiches de découverte',
-      'outil création fiches cherche et trouve en masse',
-    ],
-    titleTag: 'Pack cherche & trouve pour vendeurs | LCS',
-    metaDescription: 'Pack cherche et trouve avec 4 générateurs : cherche et compte, objets cachés, mots croisés en images et chasse au trésor. 149 $ paiement unique.',
+    primaryKeyword: 'pack générateurs jeux de recherche',
+    secondaryKeywords: ['bundle cherche et trouve', 'pack mots mêlés cherche compte', 'générateurs recherche groupés', 'pack fiches observation'],
+    lsiKeywords: ['recherche', 'cherche et trouve', 'cherche et compte', 'mots mêlés', 'observation', 'pack'],
+    titleTag: 'Pack générateurs jeux de recherche | Prix groupé',
+    metaDescription: 'Pack de générateurs jeux de recherche : mots mêlés, cherche et trouve, cherche et compte, objets cachés. Prix groupé, licence commerciale.',
   },
 
   hero: {

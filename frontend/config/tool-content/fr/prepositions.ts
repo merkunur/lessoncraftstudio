@@ -2,24 +2,29 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'générateur de fiches de prépositions gratuit',
+    primaryKeyword: 'fiches repérage spatial gratuit à imprimer',
     secondaryKeywords: [
-      'créer des fiches de prépositions gratuitement',
-      'fiches de prépositions gratuit sans inscription',
-      'générateur de vocabulaire spatial gratuit PDF',
-      'fiches de prépositions gratuites 11 langues',
+      'prépositions de lieu gratuit en ligne',
+      'se repérer dans l\'espace gratuit',
+      'vocabulaire spatial gratuit',
+      'sur sous devant derrière gratuit',
     ],
     lsiKeywords: [
-      'essai gratuit avec filigrane sans inscription',
-      'licence commerciale pour vendre sur Etsy',
-      '8 prépositions texte à trous choix multiple',
+      'sur',
+      'sous',
+      'devant',
+      'derrière',
+      'espace',
+      'gratuit',
+      'sans inscription',
+      'maternelle',
     ],
-    titleTag: 'Fiches de prépositions gratuites | LCS',
-    metaDescription: 'Créez des fiches de prépositions gratuitement. 8 prépositions, texte à trous, choix multiple, 11 langues, sans inscription. Licence commerciale disponible.',
+    titleTag: 'Fiches repérage spatial gratuit à imprimer | LCS',
+    metaDescription: 'Créez des fiches de repérage spatial et prépositions gratuitement en ligne. Images thématiques, corrections automatiques, sans inscription. Essai gratuit.',
   },
 
   hero: {
-    title: 'Fiches de prépositions gratuites — créez en ligne',
+    title: 'Fiches de repérage spatial gratuites — créez des exercices de prépositions en ligne',
     tagline: 'Créez des fiches de prépositions spatiales avec deux modes d\'exercice dans 11 langues',
     description: 'Créez des fiches de prépositions gratuitement en ligne — sans inscription, sans carte bancaire. Cet outil génère des fiches de prépositions où les apprenants identifient les relations spatiales — dans, sur, sous, à côté de, derrière, entre, au-dessus de, devant — en utilisateur des scènes imagées et en complétant ou en sélectionnant la préposition correcte. Choisissez entre deux modes d\'exercice : le Texte à Trous, où les utilisateurs écrivent eux-mêmes la préposition correcte, ou le Choix Multiple, où ils choisissent parmi un ensemble d\'options avec une ligne d\'instruction personnalisable. Définissez de 1 à 8 exercices par fiche et sélectionnez exactement quelles prépositions inclure grâce à la liste de prépositions. La fonctionnalité phare de l\'outil est le Remplacement de Formes — une couche d\'image séparée vous permet de remplacer les formes des scènes indépendamment, créant bien plus de combinaisons visuelles qu\'un seul jeu d\'images ne pourrait offrir. La sensibilité linguistique est intégrée : passez du français à l\'une des 11 langues prises en charge et chaque mot de préposition se met à jour dans son équivalent natif. L\'allemand utilise \" auf, unter, über, neben, zwischen, drinnen, draußen \" ; l\'espagnol utilise \" sobre, debajo, encima, al lado, entre, dentro, fuera \". Un seul design de fiche devient 11 produits linguistiques uniques. Parcourez plus de 3 100 images réparties dans 104 thèmes, téléchargez vos propres PNG ou JPEG pour des designs de marque, et choisissez parmi plusieurs modèles et 7 familles de polices. Exportez en PDF prêt à imprimer ou en JPEG haute résolution. L\'essai gratuit inclut un filigrane sur les téléchargements. Achetez une licence pour supprimer le filigrane et vendre à usage commercial.',
   },

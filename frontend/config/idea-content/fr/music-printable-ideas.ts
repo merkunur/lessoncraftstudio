@@ -2,21 +2,11 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Imprimables musique à vendre | LCS',
-    metaDescription: 'Idées d\'imprimables musique à vendre sur Etsy, KDP et Gumroad. Concepts de produits instruments, stratégies par plateforme et conseils vendeurs.',
-
     primaryKeyword: 'imprimables musique à vendre',
-    secondaryKeywords: [
-      'fiches musique à vendre',
-      'idées business imprimables musique',
-      'fiches activités instruments vendeurs',
-      'vendre imprimables musique Etsy',
-    ],
-    lsiKeywords: [
-      'fiches éducatives instruments de musique',
-      'activités rythme et notes pour enfants',
-      'imprimables théorie musicale éducatifs',
-    ],
+    secondaryKeywords: ['fiches musique à imprimer idées', 'cahier activités musique KDP', 'coloriages instruments à vendre', 'jeux musique imprimables'],
+    lsiKeywords: ['musique', 'instrument', 'note', 'guitare', 'piano', 'rythme'],
+    titleTag: 'Imprimables musique pour Etsy & KDP | Idées de niches',
+    metaDescription: 'Idées d\'imprimables musique à vendre sur Etsy et KDP. Coloriages instruments, mots mêlés notes, puzzles musicaux. Niche créative.',
   },
   hero: {
     title: 'Idées d\'Imprimables Musique pour les Vendeurs',

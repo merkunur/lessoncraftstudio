@@ -2,21 +2,16 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Imprimables animaux marins — Business | LCS',
-    metaDescription: 'Idées d\'imprimables animaux marins à vendre sur Etsy, KDP & Gumroad. Concepts produits océaniques, stratégies de plateformes et conseils pour vendeurs.',
-
-    primaryKeyword: 'imprimables animaux marins idées business',
+    primaryKeyword: 'imprimables animaux marins à vendre',
     secondaryKeywords: [
-      'fiches animaux marins à vendre',
-      'activité imprimable créatures marines business',
-      'fiches activités océan pour vendeurs',
-      'vendre imprimables océan sur Etsy',
+      'fiches océan à imprimer idées',
+      'cahier activités mer KDP',
+      'coloriages animaux marins à vendre',
+      'jeux océan imprimables',
     ],
-    lsiKeywords: [
-      'fiches éducatives vie marine',
-      'activités thème sous-marin pour enfants',
-      'imprimables éducatifs créatures de la mer',
-    ],
+    lsiKeywords: ['océan', 'mer', 'poisson', 'dauphin', 'baleine', 'requin'],
+    titleTag: 'Imprimables animaux marins Etsy & KDP | Idées niches',
+    metaDescription: 'Idées d\'imprimables animaux marins à vendre sur Etsy et KDP. Coloriages océan, mots mêlés mer, puzzles aquatiques. Niche thématique.',
   },
   hero: {
     title: 'Idées d\'Imprimables Animaux Marins pour les Vendeurs',

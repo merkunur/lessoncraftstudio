@@ -2,24 +2,29 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'générateur de fiches de maths gratuit en ligne',
+    primaryKeyword: 'générateur fiches maths gratuit',
     secondaryKeywords: [
-      'créer des fiches de maths gratuitement',
-      'puzzles algébriques gratuit sans inscription',
-      'générateur de fiches algébriques gratuit en ligne',
-      'fiches de maths PDF gratuit avec corrigés',
+      'fiches maths à imprimer gratuit',
+      'créer exercices maths en ligne',
+      'générateur exercices mathématiques gratuit',
+      'fiches calcul PDF gratuit',
     ],
     lsiKeywords: [
-      'essai gratuit avec filigrane sans inscription',
-      'licence commerciale pour vendre sur Etsy',
-      '4 niveaux solution unique images comme variables',
+      'CP',
+      'CE1',
+      'CE2',
+      'gratuit',
+      'sans inscription',
+      'corrections',
+      'opérations',
+      'calcul mental',
     ],
-    titleTag: 'Générateur de fiches de maths gratuit | LCS',
-    metaDescription: 'Créez des fiches de maths gratuitement en ligne. Puzzles algébriques, 4 niveaux, sans inscription. Passez à la licence commerciale pour vendre.',
+    titleTag: 'Générateur fiches maths gratuit en ligne | LCS',
+    metaDescription: 'Créez des fiches de mathématiques gratuitement en ligne. Corrections automatiques, PDF 300 DPI, sans inscription. Licence commerciale disponible.',
   },
 
   hero: {
-    title: 'Fiches de maths gratuites — créez en ligne sans inscription',
+    title: 'Générateur de fiches de maths gratuit — créez des exercices en ligne',
     tagline: 'Créez des puzzles algébriques visuels avec des images comme variables en moins de 60 secondes',
     description: 'Créez des fiches de maths gratuitement en ligne — sans inscription, sans carte bancaire. Allez au-delà des exercices d\'arithmétique classiques avec des puzzles algébriques illustrés qui amènent les utilisateurs à raisonner en systèmes d\'équations. Chaque fiche présente un ensemble d\'équations liées où des images remplacent les variables inconnues — les utilisateurs doivent déterminer la valeur numérique que chaque image représente. Quatre niveaux de difficulté s\'échelonnent de deux symboles en addition simple à quatre inconnues simultanées en opérations mixtes. Un solveur algébrique intégré garantit que chaque puzzle a exactement une solution correcte — aucune ambiguïté, aucune devinette. Choisissez Addition Uniquement pour un entraînement ciblé ou Addition et Soustraction pour une résolution de problèmes avancée. Définissez la plage de nombres, activez les résultats négatifs pour les utilisateurs plus âgés et contrôlez le nombre de puzzles par page de 1 à 6 avec mise en page automatique. Sélectionnez des images individuellement, chargez un thème complet ou téléchargez votre propre PNG ou JPEG pour des puzzles personnalisés. Comme les puzzles n\'utilisent que des images et des nombres, ils fonctionnent identiquement dans toutes les langues — vendez le même PDF dans le monde entier sans traduction. Téléchargez en PDF prêt à imprimer ou en JPEG haute résolution. L\'essai gratuit inclut un filigrane sur les téléchargements. Achetez une licence pour supprimer le filigrane et vendre à usage commercial.',
   },

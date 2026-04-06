@@ -4,21 +4,21 @@ const content: GuideContent = {
   seo: {
     primaryKeyword: 'développer son business d\'imprimables',
     secondaryKeywords: [
-      'comment développer une activité de fiches imprimables',
-      'croissance entreprise fiches pédagogiques',
-      'stratégie de croissance imprimables éducatifs',
-      'développer ventes imprimables éducatifs',
+      'scaler business imprimables guide',
+      'croissance business fiches',
+      'automatiser business imprimables',
+      'augmenter ventes imprimables',
     ],
     lsiKeywords: [
-      'croissance revenus développement automatisation externalisation expansion catalogue produits',
-      'vente multiplateforme optimisation flux travail production par lots pensée systémique',
-      'gestion temps délégation diversification produits expansion marché construction marque',
-      'valeur vie client efficacité opérationnelle documentation processus procédures standard',
-      'croissance catalogue revenu par produit diversification plateformes goulot étranglement',
-      'systèmes entreprise processus reproductibles pipeline production multiplication contenu',
+      'croissance',
+      'développer',
+      'scaler',
+      'automatiser',
+      'ventes',
+      'business',
     ],
-    titleTag: 'Développer son business d\'imprimables | LCS',
-    metaDescription: 'Comment développer votre activité d\'imprimables avec production par lots, expansion multiplateforme, catalogue, marchés multilingues et automatisation.',
+    titleTag: 'Développer son business d\'imprimables | Guide',
+    metaDescription: 'Comment développer et faire grandir votre business d\'imprimables. Automatisation, diversification, croissance. Guide complet pour vendeurs.',
   },
 
   hero: {

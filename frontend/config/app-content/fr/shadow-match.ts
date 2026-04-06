@@ -2,24 +2,29 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'fiches d\'ombres à associer pour boutique Etsy',
+    primaryKeyword: 'jeu d\'ombres à imprimer',
     secondaryKeywords: [
-      'générateur de fiches de silhouettes pour vendeurs Etsy',
-      'fiches de discrimination visuelle pour Amazon KDP',
-      'puzzles de correspondance d\'ombres licence commerciale',
-      'créer des cahiers de perception visuelle pour vendeurs',
+      'associer les ombres fiche',
+      'jeu de silhouettes à imprimer',
+      'ombres et images association',
+      'ombres maternelle exercice',
     ],
     lsiKeywords: [
-      'licence commerciale 300 DPI prêt à imprimer',
-      'business d\'imprimables fiches d\'ombres vendeurs Etsy',
-      'modes Ombre et Reconstitue l\'Image corrigé automatique',
+      'silhouette',
+      'ombre',
+      'association',
+      'discrimination visuelle',
+      'maternelle',
+      'PS',
+      'MS',
+      'GS',
     ],
-    titleTag: 'Fiches d\'ombres à vendre sur Etsy & KDP | LCS',
-    metaDescription: 'Créez des fiches d\'ombres à associer pour Etsy & KDP. Modes Ombre et Reconstitue l\'Image, licence commerciale. 49 $ paiement unique.',
+    titleTag: 'Jeu d\'ombres à imprimer | Générateur silhouettes',
+    metaDescription: 'Créez des fiches d\'association d\'ombres avec images et silhouettes thématiques. Corrections automatiques, PDF 300 DPI. Essai gratuit — licence commerciale.',
   },
 
   hero: {
-    title: 'Créez des fiches d\'ombres à associer pour Etsy & Amazon KDP',
+    title: 'Jeu d\'ombres à imprimer — Générateur d\'association de silhouettes',
     tagline: 'Deux modes de correspondance en un seul générateur — Trouve l\'Ombre crée des silhouettes noires générées automatiquement à partir de n\'importe quelle image, Reconstitue l\'Image divise les images en moitiés — les deux avec un algorithme de dérangement Fisher-Yates garantissant aucune correspondance triviale, des corrigés auto-générés et 104 collections d\'images thématiques.',
     description:
       'Créez des fiches d\'ombres à associer pour Etsy, Amazon KDP ou La Salle des Maîtres — des fiches où les acheteurs associent des images en couleur à leurs silhouettes ou reconnectent des moitiés d\'images séparées. Le mode Trouve l\'Ombre place 4 images en couleur étiquetées A, B, C, D dans la rangée du haut et 4 silhouettes noires auto-générées étiquetées 1, 2, 3, 4 dans la rangée du bas — les silhouettes sont créées par un traitement d\'images au niveau des pixels qui convertit chaque pixel avec un alpha > 10 en noir pur, produisant des contours précis qui préservent le profil de transparence exact de chaque image. Le mode Reconstitue l\'Image divise les images en moitiés avec une direction de coupe horizontale ou verticale, étiquette les premières moitiés A–D et les secondes moitiés 1–4, et adapte la mise en page selon l\'orientation. Les deux modes utilisent un algorithme de dérangement Fisher-Yates pour garantir qu\'aucun élément n\'apparaît à sa position d\'origine, créant de véritables défis de correspondance à chaque fois. Activez ou désactivez l\'affichage des étiquettes A/B/C/D et 1/2/3/4, ajoutez des champs optionnels nom et date pour l\'utilisation en ligne, et générez des corrigés automatiques qui affichent chaque appariement correct lettre-numéro. Le Générateur de Discrimination Visuelle n\'est PAS sensible à la langue : le résultat est purement visuel, sans contenu textuel localisé sur la fiche elle-même. L\'Accès Complet déverrouille les 104 thèmes avec plus de 3 100 illustrations et les 11 langues d\'interface. Ajoutez des thèmes de fond et de bordure avec des contrôles d\'opacité indépendants, insérez du texte personnalisé avec sept options de police, et exportez des PDF et JPEG prêts à imprimer à 300 DPI en format Letter, A4, Carré (1200×1200) ou dimensions personnalisées. Que vous vendiez des packs de puzzles de silhouettes sur Etsy, compiliez des cahiers de perception visuelle pour Amazon KDP ou créiez des activités rapides de fin de cours pour Gumroad, ce générateur produit des fiches prêtes pour la production en quelques minutes — essai gratuit avec toutes les fonctionnalités, sans inscription, sans carte bancaire. Les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.',
@@ -198,6 +203,11 @@ const content: AppContent = {
       question: 'Quelle est la politique de remboursement ?',
       answer:
         'Comme l\'essai gratuit vous donne accès à chaque fonctionnalité, nous n\'offrons pas de remboursements sur les achats de licences commerciales. Vous pouvez tester les deux modes d\'exercice, les silhouettes auto-générées, les options de direction de coupe, le corrigé, la bibliothèque d\'images complète, les thèmes de fond et de bordure, la bascule des étiquettes, les champs nom/date, les outils texte et tous les formats de téléchargement avant d\'acheter. L\'essai gratuit est la politique de remboursement — assurez-vous que l\'outil répond à vos besoins avant d\'acheter une licence.',
+    },
+    {
+      question: 'Le jeu d\'ombres est-il adapté à la petite section et à la maternelle ?',
+      answer:
+        'Oui. L\'association d\'ombres développe la discrimination visuelle dès la petite section (PS). Des silhouettes simples conviennent à la PS et MS, des formes plus complexes à la grande section (GS) et au CP. Au Québec, cela correspond au préscolaire.',
     },
   ],
 

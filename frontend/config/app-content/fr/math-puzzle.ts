@@ -2,24 +2,29 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'générateur de puzzles mathématiques à vendre sur Etsy',
+    primaryKeyword: 'puzzle maths à imprimer',
     secondaryKeywords: [
-      'créer des puzzles de maths pour boutique Etsy',
-      'fiches de puzzles maths images pour Amazon KDP',
-      'puzzles mathématiques imprimables licence commerciale',
-      'cahiers de puzzles maths pour vendeurs KDP',
+      'jeux de maths à imprimer',
+      'casse-tête mathématique fiche',
+      'énigme maths CP CE1',
+      'jeu de logique maths',
     ],
     lsiKeywords: [
-      'licence commerciale 300 DPI prêt à imprimer',
-      'business d\'imprimables puzzles maths vendeurs Etsy',
-      'grilles configurables corrigé automatique revenu passif',
+      'casse-tête',
+      'images',
+      'associer',
+      'réfléchir',
+      'logique',
+      'CP',
+      'CE1',
+      'correction',
     ],
-    titleTag: 'Puzzles maths à vendre sur Etsy & KDP | LCS',
-    metaDescription: 'Créez des puzzles de maths à vendre sur Etsy & KDP. Grilles configurables, images thématiques, licence commerciale. 49 $ paiement unique.',
+    titleTag: 'Puzzles maths à imprimer | Générateur jeux de maths',
+    metaDescription: 'Créez des puzzles mathématiques avec images où les enfants résolvent des calculs pour associer les pièces. Corrections incluses. Essai gratuit.',
   },
 
   hero: {
-    title: 'Créez et vendez des puzzles mathématiques sur Etsy & KDP',
+    title: 'Puzzles mathématiques à imprimer — Générateur de jeux de maths avec images',
     tagline: 'Fusionnez pratique des maths et excitation du puzzle — chaque pièce contient un problème, chaque solution révèle l\'image.',
     description:
       'Créez des puzzles mathématiques à vendre sur Etsy, Amazon KDP ou La Salle des Maîtres — un format de puzzle captivant où une image complète est divisée en une grille de pièces, chacune contenant un problème d\'addition ou de soustraction. Les utilisateurs résolvent les calculs, puis associent les réponses numérotées aux pièces mélangées affichées sous la grille — transformant l\'arithmétique de routine en un mystère visuel. Configurez des grilles de 2×2 jusqu\'à 4×4 pour créer des puzzles de 4 à 16 pièces, et choisissez addition, soustraction ou opérations mixtes pour s\'adapter à chaque niveau. Puisez dans plus de 3 100 illustrations dans 104 thèmes comme les animaux de la ferme, l\'espace, les dinosaures et les fêtes. Chaque fiche génère un corrigé automatique montrant la grille résolue à côté de l\'image complète. Exportez des PDF et JPEG prêts à imprimer à plus de 400 DPI en format Letter, A4 ou personnalisé. Que vous vendiez des packs de puzzles thématiques sur Etsy, compiliez des cahiers d\'activités progressifs pour Amazon KDP ou créiez des ateliers de maths interactifs pour votre classe, le Générateur de Puzzles Mathématiques produit des résultats professionnels en quelques minutes. Essai gratuit avec toutes les fonctionnalités — sans inscription, sans carte bancaire. Les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.',
@@ -198,6 +203,11 @@ const content: AppContent = {
       question: 'Quelle est la politique de remboursement ?',
       answer:
         'L\'essai gratuit vous donnant accès à toutes les fonctionnalités, nous n\'offrons pas de remboursement sur les achats de licence. Vous pouvez tester chaque opération, taille de grille, thème et format d\'export avant d\'acheter. L\'essai gratuit est la politique de remboursement — assurez-vous que l\'outil répond à vos besoins avant d\'acheter. Cette approche vous permet d\'évaluer chaque fonctionnalité, format d\'exportation et combinaison de thèmes avant de prendre une décision d\'achat, vous donnant une confiance totale dans votre investissement.',
+    },
+    {
+      question: 'Ces puzzles de maths sont-ils adaptés au CP et CE1 ?',
+      answer:
+        'Oui. Ajustez la plage de nombres pour cibler chaque niveau : grande section (GS) avec des calculs simples, CP avec des opérations jusqu\'à 10, CE1 et CE2 avec des opérations plus complexes. Au Québec, cela correspond au préscolaire et à la 1re année.',
     },
   ],
 

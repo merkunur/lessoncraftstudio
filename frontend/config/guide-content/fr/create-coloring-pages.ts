@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'coloriages etsy kdp comment créer pages coloriage partir',
+    primaryKeyword: 'créer des coloriages à imprimer',
     secondaryKeywords: [
-      'générateur pages coloriage à partir d\'images',
-      'pages coloriage imprimables à vendre',
-      'générateur pages coloriage niveaux de gris',
-      'fiches coloriage personnalisées pour enfants',
+      'tutoriel coloriages',
+      'guide créer coloriages personnalisés',
+      'coloriages à imprimer guide',
+      'fabriquer coloriages PDF',
     ],
     lsiKeywords: [
-      'pages coloriage thématiques pour Etsy',
-      'cahiers coloriage Amazon KDP',
-      'générateur pages coloriage canevas libre',
-      'convertir images en pages coloriage',
-      'fiches activité coloriage pour la boutique',
-      'outil coloriage licence commerciale',
+      'coloriage',
+      'dessin',
+      'contours',
+      'enfants',
+      'adultes',
+      'PDF',
     ],
-    titleTag: 'Coloriages pour Etsy & KDP | LCS',
-    metaDescription: 'Comment créer des pages de coloriage avec 3 100+ images thématiques. Canevas libre, export niveaux de gris et dessin à main levée. Vendez sur Etsy et KDP.',
+    titleTag: 'Créer des coloriages à imprimer | Guide complet',
+    metaDescription: 'Comment créer des coloriages avec 3 000+ images thématiques. Contours haute résolution, PDF imprimables. Guide étape par étape pour vendeurs.',
   },
 
   hero: {

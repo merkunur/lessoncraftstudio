@@ -4,21 +4,21 @@ const content: GuideContent = {
   seo: {
     primaryKeyword: 'droits d\'auteur pour vendeurs d\'imprimables',
     secondaryKeywords: [
-      'protection droit d\'auteur fiches',
-      'droit d\'auteur business imprimables',
-      'protéger fiches contre la copie',
-      'droit d\'auteur produits numériques',
+      'copyright fiches pédagogiques guide',
+      'droits auteur imprimables Etsy',
+      'protéger fiches pédagogiques',
+      'propriété intellectuelle imprimables',
     ],
     lsiKeywords: [
-      'propriété intellectuelle œuvre originale protection enregistrement droit d\'auteur retrait DMCA',
-      'usage équitable éducatif domaine public ressources contrefaçon œuvres dérivées',
-      'mention droit d\'auteur expression créative éléments protégeables protection design fiches',
-      'arrangement original vol produits numériques scraping contenu protection PI marketplace',
-      'titularité droit d\'auteur protection automatique avantages enregistrement dommages-intérêts légaux',
-      'choix créatifs expression versus idées faits méthodes standard contenu éducatif',
+      'droits d\'auteur',
+      'copyright',
+      'protection',
+      'propriété intellectuelle',
+      'imprimables',
+      'vendeurs',
     ],
-    titleTag: 'Droits d\'auteur pour vendeurs | LCS',
-    metaDescription: 'Droit d\'auteur pour vendeurs d\'imprimables : quels éléments de fiches sont protégeables, enregistrement, application et comment éviter la contrefaçon.',
+    titleTag: 'Droits d\'auteur vendeurs imprimables | Guide',
+    metaDescription: 'Guide des droits d\'auteur pour vendeurs d\'imprimables. Protéger vos fiches, comprendre les licences, éviter les infractions. Guide complet.',
   },
 
   hero: {

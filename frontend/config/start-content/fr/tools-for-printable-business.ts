@@ -2,23 +2,11 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'outils essentiels business d\'imprimables',
-    secondaryKeywords: [
-      'outils activité imprimable checklist',
-      'générateur de fiches outils pour vendeurs',
-      'outils pour vendre des imprimables en ligne',
-      'toolkit de production imprimables',
-    ],
-    lsiKeywords: [
-      'outils vendeur Etsy pour téléchargements numériques',
-      'outils de production livres activités Amazon KDP',
-      'logiciel création fiches pour entrepreneurs',
-      'automatisation workflow activité imprimable',
-      'outils générateur fiches multilingues',
-      'production fiches licence commerciale',
-    ],
-    titleTag: 'Outils essentiels business imprimables | LCS',
-    metaDescription: 'Meilleurs outils pour vendeurs de fiches imprimables : générateurs de fiches, outils de design, utilitaires de plateforme et workflows d\'automatisation.',
+    primaryKeyword: 'outils pour business d\'imprimables',
+    secondaryKeywords: ['outils vendeur imprimables guide', 'logiciels business fiches', 'générateurs fiches outils', 'stack technique imprimables'],
+    lsiKeywords: ['outils', 'logiciels', 'générateurs', 'efficacité', 'productivité', 'automatisation'],
+    titleTag: 'Outils pour business d\'imprimables | Guide complet',
+    metaDescription: 'Les meilleurs outils pour votre business d\'imprimables. Générateurs, design, gestion, marketing. Guide complet de la stack technique.',
   },
 
   hero: {

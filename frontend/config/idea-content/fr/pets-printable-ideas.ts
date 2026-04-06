@@ -2,21 +2,16 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Imprimables animaux de compagnie Etsy | LCS',
-    metaDescription: 'Idées d\'imprimables animaux de compagnie à vendre sur Etsy, KDP & Gumroad. Concepts produits chats, chiens et petits animaux avec stratégies vendeurs.',
-
-    primaryKeyword: 'imprimables animaux domestiques Etsy',
+    primaryKeyword: 'imprimables animaux domestiques à vendre',
     secondaryKeywords: [
-      'fiches animaux domestiques à vendre',
-      'activité imprimable thème animaux de compagnie business',
-      'fiches activités animaux familiers pour vendeurs',
-      'vendre imprimables animaux de compagnie sur Etsy',
+      'fiches animaux de compagnie à imprimer',
+      'cahier activités animaux KDP',
+      'coloriages chats chiens à vendre',
+      'jeux animaux imprimables',
     ],
-    lsiKeywords: [
-      'fiches éducatives animaux domestiques',
-      'activités thème chats et chiens pour enfants',
-      'imprimables éducatifs soins des animaux',
-    ],
+    lsiKeywords: ['chat', 'chien', 'animaux de compagnie', 'hamster', 'lapin', 'poisson'],
+    titleTag: 'Imprimables animaux domestiques Etsy & KDP | Idées',
+    metaDescription: 'Idées d\'imprimables animaux domestiques à vendre sur Etsy et KDP. Coloriages chats, chiens, mots mêlés. Niche populaire toute l\'année.',
   },
   hero: {
     title: 'Idées d\'Imprimables Animaux de Compagnie pour les Vendeurs',

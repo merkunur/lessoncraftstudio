@@ -1,24 +1,28 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'générateur de fiches d\'addition gratuit en ligne',
+    primaryKeyword: 'générateur fiches addition gratuit',
     secondaryKeywords: [
-      'créer des fiches d\'addition gratuitement',
-      'fiches d\'addition imprimables gratuit sans inscription',
-      'générateur de fiches maths gratuit en ligne',
-      'fiches d\'addition PDF gratuit avec corrigés',
+      'fiches addition à imprimer gratuit',
+      'créer fiches addition en ligne',
+      'exercices addition gratuit sans inscription',
+      'fiches calcul addition PDF gratuit',
     ],
     lsiKeywords: [
-      'essai gratuit avec filigrane sans inscription',
-      'licence commerciale pour vendre sur Etsy',
-      '104 thèmes images corrigés automatiques PDF',
+      'CP',
+      'CE1',
+      'gratuit',
+      'sans inscription',
+      'PDF',
+      'corrections',
+      'en ligne',
     ],
-    titleTag: 'Générateur de fiches d\'addition gratuit | LCS',
-    metaDescription: 'Créez des fiches d\'addition gratuitement en ligne. 104 thèmes, corrigés inclus, sans inscription. Passez à la licence commerciale pour vendre.',
-    },
+    titleTag: 'Générateur fiches addition gratuit en ligne | LCS',
+    metaDescription: 'Créez des fiches d\'addition gratuitement en ligne. 104 thèmes, corrections automatiques, sans inscription. Licence commerciale disponible pour Etsy & KDP.',
+  },
 
   hero: {
-    title: 'Créez des fiches d\'addition gratuitement — sans inscription',
+    title: 'Générateur de fiches d\'addition gratuit — créez en ligne sans inscription',
     tagline: 'Créez de superbes fiches d\'addition basées sur les images en moins de 60 secondes',
     description: 'Créez des fiches d\'addition gratuitement en ligne — sans inscription, sans carte bancaire. Ce générateur crée des fiches d\'addition personnalisées avec des images thématiques en quelques secondes. Choisissez parmi plus de 100 thèmes d\'images, réglez la plage de difficulté, sélectionnez votre mise en page et téléchargez des PDF prêts à imprimer ou des JPEG haute résolution. Parfait pour les vendeurs qui préparent des paquets de devoirs différenciés, les parents qui complètent l\'apprentissage en ligne et les vendeurs Etsy qui créent des produits de maths imprimables. L\'essai gratuit inclut un filigrane sur les téléchargements. Achetez une licence pour supprimer le filigrane et vendre vos créations à usage commercial.',
   },

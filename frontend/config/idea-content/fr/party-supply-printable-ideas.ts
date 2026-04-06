@@ -2,21 +2,11 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Imprimables fêtes — Idées business | LCS',
-    metaDescription: 'Imprimables fêtes à vendre sur Etsy. Packs d\'activités thématiques, jeux d\'anniversaire, fiches de célébration et imprimables pour vendeurs.',
-
-    primaryKeyword: 'imprimables anniversaire fêtes business',
-    secondaryKeywords: [
-      'imprimables fournitures de fête à vendre',
-      'business imprimables décoration de fête',
-      'idées imprimables fête d\'anniversaire',
-      'vendre imprimables fête sur Etsy',
-    ],
-    lsiKeywords: [
-      'produits imprimables thème célébration',
-      'modèles invitations et bannières de fête',
-      'téléchargements numériques décoration événement',
-    ],
+    primaryKeyword: 'imprimables fête et anniversaire à vendre',
+    secondaryKeywords: ['fiches anniversaire à imprimer idées', 'décorations fête imprimables KDP', 'jeux anniversaire à vendre', 'invitation imprimable'],
+    lsiKeywords: ['anniversaire', 'fête', 'invitation', 'décoration', 'jeux', 'gâteau'],
+    titleTag: 'Imprimables fête & anniversaire Etsy & KDP | Idées',
+    metaDescription: 'Idées d\'imprimables fête et anniversaire à vendre sur Etsy. Invitations, jeux, décorations, chasses au trésor. Niche populaire toute l\'année.',
   },
   hero: {
     title: 'Idées d\'Imprimables pour Fêtes pour les Vendeurs',

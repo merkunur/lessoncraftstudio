@@ -1,24 +1,28 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'créer des puzzles de maths gratuit',
+    primaryKeyword: 'puzzle maths gratuit à imprimer',
     secondaryKeywords: [
-      'générateur de puzzles maths gratuit en ligne',
-      'puzzles mathématiques gratuit sans inscription',
-      'créer des puzzles de maths images gratuitement',
-      'puzzles maths PDF gratuit avec corrigés',
+      'jeux de maths gratuit en ligne',
+      'casse-tête mathématique à imprimer gratuit',
+      'générateur puzzle maths gratuit',
+      'énigme maths en ligne',
     ],
     lsiKeywords: [
-      'essai gratuit avec filigrane sans inscription',
-      'licence commerciale pour vendre sur Etsy',
-      'grilles configurables addition soustraction corrigés',
+      'CP',
+      'CE1',
+      'gratuit',
+      'sans inscription',
+      'logique',
+      'images',
+      'corrections',
     ],
-    titleTag: 'Puzzles de maths gratuits en ligne | LCS',
-    metaDescription: 'Créez des puzzles de maths gratuitement en ligne. Grilles d\'images, addition et soustraction, sans inscription. Licence commerciale disponible.',
-    },
+    titleTag: 'Puzzle maths gratuit à imprimer | LCS',
+    metaDescription: 'Créez des puzzles mathématiques gratuitement en ligne. Les enfants résolvent des calculs pour assembler les images. Sans inscription. Essai gratuit.',
+  },
 
   hero: {
-    title: 'Puzzles de maths gratuits — créez en ligne sans inscription',
+    title: 'Puzzles mathématiques gratuits — créez et imprimez des jeux de maths en ligne',
     tagline: 'Créez des puzzles images jigsaw avec des équations mathématiques en moins de 60 secondes',
     description: 'Créez des puzzles de maths gratuitement en ligne — sans inscription, sans carte bancaire. Un format captivant qui ne ressemble en rien à une fiche d\'exercices classique. Cet outil divise une image choisie en une grille de cellules, chacune contenant une équation mathématique. Des pièces de puzzle mélangées avec des numéros de réponse apparaissent en dessous — les utilisateurs résolvent chaque équation et associent la bonne pièce pour reconstituer l\'image. Choisissez parmi trois modes d\'opération : Addition, Soustraction ou Mixte (les deux opérations combinées aléatoirement). Ajustez la taille de la grille de 2×2 (4 pièces, le plus facile) jusqu\'à 4×4 (16 pièces, le plus difficile) pour s\'adapter à chaque niveau. Téléchargez vos propres images PNG ou JPEG pour des puzzles de marque, saisonniers ou de niche, ou parcourez la bibliothèque intégrée de plus de 3 100 images dans 104 thèmes. Le format jigsaw crée un produit immédiatement reconnaissable qui se démarque dans les résultats de recherche des marketplaces — les acheteurs qui défilent devant des rangées de fiches identiques s\'arrêteront devant un puzzle image coloré. Téléchargez en PDF prêt à imprimer ou en JPEG haute résolution. L\'essai gratuit inclut un filigrane sur les téléchargements. Achetez une licence pour supprimer le filigrane et vendre à usage commercial.',
   },

@@ -12,7 +12,7 @@ const baseUrl = 'https://www.lessoncraftstudio.com';
 const bundlesKeywords: Record<string, string[]> = {
   en: ['worksheet generator bundles', 'printable maker bundle deals', 'educational worksheet tools bundle', 'Etsy printable generator packs', 'commercial license printable bundles', 'category bundle for printable sellers'],
   de: ['Arbeitsblatt Generator Bundles', 'Druckvorlagen-Tool Bundle Angebote', 'Arbeitsblatt-Ersteller Paket'],
-  fr: ['packs imprimables', 'lot de fiches', 'packs Etsy imprimables', 'lot livres activités KDP', 'licence commerciale pack', 'pack par catégorie'],
+  fr: ['packs générateurs fiches', 'lot générateurs imprimables', 'packs Etsy imprimables', 'lot cahiers activités KDP', 'licence commerciale pack', 'pack par catégorie'],
   es: ['paquetes imprimibles licencia comercial', 'lote de fichas Etsy', 'paquetes generadores KDP', 'licencia comercial paquete', 'paquete por categoría imprimibles', 'ahorro paquetes generadores'],
   pt: ['pacotes de imprimíveis', 'lote de fichas', 'pacotes Etsy imprimíveis', 'lote livros atividades KDP', 'licença comercial pacote', 'pacote por categoria'],
   it: ['pacchetti stampabili', 'bundle di schede', 'pacchetti Etsy stampabili', 'bundle libri attività KDP', 'licenza commerciale pacchetto', 'pacchetto per categoria'],
@@ -68,8 +68,8 @@ const bundlesContent: Record<string, {
   fr: {
     heroTitle: 'Packs de générateurs',
     heroDescription: 'Économisez avec les packs par catégorie. Obtenez tous les générateurs d\'une catégorie avec licence commerciale à prix groupé.',
-    metaTitle: 'Packs de générateurs d\'imprimables | Économisez par catégorie | LessonCraftStudio',
-    metaDescription: 'Tous les générateurs d\'une catégorie à prix groupé. 6 packs couvrant maths, lecture, dessin, association, puzzles et recherche. Achat unique avec licence commerciale.',
+    metaTitle: 'Packs de générateurs par catégorie | Économisez | LessonCraftStudio',
+    metaDescription: 'Tous les générateurs d\'une catégorie à prix groupé. 6 packs couvrant maths, vocabulaire, dessin, association, puzzles et jeux. Achat unique, licence commerciale.',
     ctaTitle: 'Essayez avant d\'acheter',
     ctaDescription: 'Tous les générateurs sont gratuits à essayer avec filigrane. Jugez la qualité avant d\'acheter.',
     ctaButton: 'Essayer les générateurs',

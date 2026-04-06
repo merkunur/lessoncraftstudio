@@ -2,24 +2,29 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'générateur de cartes de loto à vendre sur Etsy',
+    primaryKeyword: 'créer cartes de loto',
     secondaryKeywords: [
-      'générateur de cartes bingo pour vendeurs Etsy',
-      'cartes de loto imprimables pour Amazon KDP',
-      'cartes bingo à images licence commerciale',
-      'créer des sets de loto pour La Salle des Maîtres',
+      'générateur cartes bingo',
+      'loto images à imprimer',
+      'créer loto personnalisé',
+      'cartes de bingo à imprimer',
     ],
     lsiKeywords: [
-      'licence commerciale 300 DPI prêt à imprimer',
-      'business d\'imprimables cartes de loto vendeurs Etsy',
-      'lots de cartes uniques export ZIP feuilles d\'appel',
+      'loto',
+      'bingo',
+      'jeu de société',
+      'cartes',
+      'tirage',
+      'classe',
+      'fête',
+      'maternelle',
     ],
-    titleTag: 'Cartes de loto à vendre sur Etsy & KDP | LCS',
-    metaDescription: 'Créez des cartes de loto à vendre sur Etsy & KDP. Lots de cartes uniques, feuilles d\'appel, licence commerciale. 49 $ paiement unique.',
+    titleTag: 'Créer des cartes de loto | Générateur bingo images',
+    metaDescription: 'Créez des cartes de loto/bingo avec 3 000+ images thématiques. Cartes uniques par set, PDF imprimables. Essai gratuit — licence commerciale incluse.',
   },
 
   hero: {
-    title: 'Créez des cartes de loto à vendre sur Etsy & Amazon KDP',
+    title: 'Créer des cartes de loto à imprimer — Générateur de bingo avec images',
     tagline: 'Générez 1 à 10 cartes bingo uniques par lot avec des grilles configurables de 3×3 à 5×5 — remplissage par images ou par mots pour les cases et les jetons circulaires, une feuille d\'appel dédiée pour le meneur de jeu, export ZIP par lot de toutes les cartes, et 104 collections d\'images thématiques.',
     description:
       'Créez des cartes de loto à vendre sur Etsy, Amazon KDP ou La Salle des Maîtres — des cartes bingo professionnelles où les joueurs marquent les images ou mots correspondants sur leurs grilles uniques. Configurez les lignes de 3 à 5 et les colonnes de 3 à 5 indépendamment, créant des grilles de 3×3 (9 cases) jusqu\'à 5×5 (25 cases) avec un défaut de 4×4 (16 cases). Choisissez le remplissage par images ou par mots indépendamment pour les cases de la carte et les jetons circulaires — les jetons comportent des bordures en pointillés et un ordonnancement Fisher-Yates pour un jeu de bingo authentique. Générez 1 à 10 cartes bingo uniques par lot, chacune avec une sélection aléatoire différente depuis la banque d\'images. Une feuille d\'appel dédiée sur un onglet séparé affiche une grille dynamique de mots pour le meneur de jeu, avec des colonnes calculées selon la longueur du mot le plus long et une taille de police uniforme. Sélectionnez manuellement des images spécifiques pour la sélection personnalisée des appels ou laissez l\'application choisir depuis votre thème. Le Générateur de Cartes Bingo à Images est sensible à la langue : le remplissage par mots utilise les noms localisés des images de la Bibliothèque d\'Images, donc changer de langue modifie les mots sur les cartes, les jetons et la feuille d\'appel. L\'Accès Complet déverrouille les 104 thèmes avec plus de 3 100 illustrations et les 11 langues d\'interface pour du contenu textuel localisé. Ajoutez des thèmes de fond et de bordure avec contrôles d\'opacité indépendants, insérez du texte personnalisé avec sept polices, et exportez des PDF et JPEG prêts à imprimer à 300 DPI en format Letter, A4, Carré (1200×1200) ou dimensions personnalisées. Exportez par lot toutes les cartes générées en fichiers JPEG individuels dans un seul fichier ZIP. Que vous vendiez des packs de cartes bingo sur Etsy, compiliez des cahiers d\'activités bingo pour Amazon KDP ou créiez des sets bingo pour la vente sur Gumroad, ce générateur produit des cartes bingo prêtes pour la production en quelques minutes — essai gratuit avec toutes les fonctionnalités, sans inscription, sans carte bancaire. Les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.',
@@ -193,6 +198,11 @@ const content: AppContent = {
       question: 'Quelle est la politique de remboursement ?',
       answer:
         'L\'essai gratuit vous donnant accès à toutes les fonctionnalités, nous n\'offrons pas de remboursement sur les achats de licence commerciale. Vous pouvez tester toutes les tailles de grille, la génération par lot, l\'export ZIP, les modes remplissage images et mots, la feuille d\'appel, la bibliothèque d\'images complète, la sélection personnalisée des appels, les thèmes de fond et de bordure, les outils texte et tous les formats de téléchargement avant d\'acheter. L\'essai gratuit est la politique de remboursement — assurez-vous que l\'outil répond à vos besoins avant d\'acheter une licence.',
+    },
+    {
+      question: 'Le loto/bingo est-il adapté à la maternelle et au primaire ?',
+      answer:
+        'Oui. Le loto avec images est parfait dès la moyenne section (MS) et la grande section (GS). Les cartes avec mots conviennent au CP et CE1 pour travailler le vocabulaire. Au Québec, on utilise davantage le terme « bingo » plutôt que « loto ».',
     },
   ],
 

@@ -2,24 +2,28 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'créer des grilles d\'appariement gratuit',
+    primaryKeyword: 'dessin sur quadrillage gratuit à imprimer',
     secondaryKeywords: [
-      'générateur de puzzles grille gratuit en ligne',
-      'puzzles grille d\'images gratuit sans inscription',
-      'créer des puzzles de tuiles gratuitement',
-      'grilles d\'appariement gratuites PDF avec corrigé',
+      'reproduction quadrillage gratuit en ligne',
+      'pixel art gratuit à imprimer',
+      'reproduction sur grille gratuit',
+      'symétrie quadrillage gratuit',
     ],
     lsiKeywords: [
-      'essai gratuit avec filigrane sans inscription',
-      'licence commerciale pour vendre sur Etsy',
-      'cases-indices configurables Fisher-Yates 104 thèmes',
+      'quadrillage',
+      'reproduire',
+      'copier',
+      'gratuit',
+      'sans inscription',
+      'solution',
+      'PDF',
     ],
-    titleTag: 'Grilles d\'appariement gratuites | LCS',
-    metaDescription: 'Créez des grilles d\'appariement gratuitement en ligne. Taille configurable, cases-indices, 104 thèmes, sans inscription. Licence commerciale disponible.',
+    titleTag: 'Dessin sur quadrillage gratuit à imprimer | LCS',
+    metaDescription: 'Créez des fiches de reproduction sur quadrillage gratuitement en ligne. Images thématiques, corrections automatiques, sans inscription. Essai gratuit.',
   },
 
   hero: {
-    title: 'Grilles d\'appariement gratuites — créez en ligne',
+    title: 'Dessin sur quadrillage gratuit — créez des reproductions sur grille en ligne',
     tagline: 'Générateur de puzzles grille à image unique avec tailles de grille configurables de 2×2 à 4×4, cases-indices ajustables pour une difficulté modulable, mélange des tuiles par algorithme Fisher-Yates, corrigés auto-générés avec cercles numérotés superposés et 104 collections d\'images thématiques pour des fiches de puzzles grille vendables dans le monde entier',
     description: 'Créez des grilles d\'appariement gratuitement en ligne — sans inscription, sans carte bancaire. Une image unique est divisée en tuiles et les utilisateurs associent les tuiles numérotées à leurs positions correctes — un puzzle de raisonnement spatial construit à partir d\'une seule image. Configurez la grille de 2×2 à 4×4 (2–4 lignes × 2–4 colonnes, par défaut 3×3) pour créer des puzzles allant de 4 tuiles à 16 tuiles. Définissez 1–5 cases-indices (par défaut 1) qui restent visibles sur la fiche comme indices — moins d\'indices signifie un puzzle plus difficile, plus d\'indices crée des exercices d\'échauffement accessibles. L\'application mélange les tuiles masquées à l\'aide de l\'algorithme Fisher-Yates et les affiche dans une palette numérotée à côté ou en dessous de la grille, chaque génération produisant un ordre de tuiles différent même avec la même image et les mêmes paramètres. Les utilisateurs étudient les cases-indices révélées, examinent les tuiles numérotées dans la palette et écrivent quel numéro correspond à chaque cellule vide. Le système double canevas génère simultanément un onglet fiche de travail et un onglet corrigé — le corrigé affiche l\'image complète non découpée avec des cercles numérotés superposés sur chaque cellule de la grille (fond jaune #ffffe0, contour noir, police Fredoka), montrant exactement quel numéro de palette correspond à chaque position. La mise en page adaptative s\'ajuste automatiquement : les pages portrait placent la grille en haut (45 % de la hauteur) avec la palette en dessous ; les pages paysage positionnent la grille à gauche (48 % de la largeur) avec la palette à droite. Un en-tête stylisé apparaît avec un fond cyan (#00BCD4), un titre violet profond (#6A1B9A) et un cadre orange (#FF8C42) affichant \" Puzzle Grille \" et les instructions dans la langue sélectionnée. Le Puzzle Grille n\'est PAS sensible à la langue — le résultat du puzzle est purement visuel, sans contenu textuel localisé sur la fiche elle-même, rendant chaque fiche universellement vendable sur tous les marchés sans traduction. Parcourez 104 collections thématiques avec plus de 3 100 illustrations ou téléchargez vos propres images PNG, JPG ou GIF pour des puzzles grille personnalisés. Appliquez des thèmes de fond et de bordure avec des curseurs d\'opacité indépendants (0–1, pas de 0,05). Exportez quatre fichiers par session : fiche JPEG, fiche PDF, corrigé JPEG et corrigé PDF — tous à 300 DPI. Choisissez Letter, A4 ou des dimensions personnalisées avec un mode niveaux de gris pour une sortie économique en encre. Éditez tout sur le canevas Fabric.js avec 7 polices, contour de texte 0–10, outils d\'alignement, calques, verrouillage, zoom 25 %–300 % et annuler/rétablir 20 états. L\'essai gratuit inclut toutes les fonctionnalités avec un filigrane sur les téléchargements. Achetez une licence pour supprimer le filigrane et vendre à usage commercial.',
   },

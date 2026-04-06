@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'créer des fiches d\'alphabet à vendre sur Etsy',
+    primaryKeyword: 'créer des fiches d\'alphabet à imprimer',
     secondaryKeywords: [
-      'créer fiches train alphabet à vendre',
-      'générateur fiches train alphabet licence commerciale',
-      'générateur fiches reconnaissance lettres train imprimables pour Etsy et KDP',
-      'fiches alphabet multilingues correspondance lettres-images avec corrigés',
+      'tutoriel fiches alphabet',
+      'guide fiches lettres maternelle',
+      'reconnaissance lettres guide',
+      'fiches ABC à imprimer',
     ],
     lsiKeywords: [
-      'onze wagons colorés correspondance lettre-image générateur fiches',
-      'création automatique sélection manuelle deux modes création générateur alphabet',
-      'nombre indices configurable trois à onze niveaux difficulté générateur',
-      'vendre fiches train alphabet sur Etsy',
-      'cahiers reconnaissance lettres Amazon KDP',
-      'outil train alphabet licence commerciale',
+      'alphabet',
+      'lettres',
+      'reconnaissance',
+      'maternelle',
+      'GS',
+      'CP',
     ],
-    titleTag: 'Fiches d\'alphabet à vendre sur Etsy | LCS',
-    metaDescription: 'Créez des fiches train alphabet avec wagons colorés, deux modes de création, difficulté configurable et 104 thèmes. Vendez sur Etsy, KDP et Gumroad.',
+    titleTag: 'Créer des fiches d\'alphabet | Guide étape par étape',
+    metaDescription: 'Comment créer des fiches d\'alphabet avec images thématiques pour la reconnaissance des lettres. Solutions automatiques. Guide complet.',
   },
 
   hero: {

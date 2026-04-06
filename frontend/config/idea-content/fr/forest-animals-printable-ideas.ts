@@ -2,21 +2,16 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Imprimables forêt à vendre sur Etsy | LCS',
-    metaDescription: 'Idées d\'imprimables animaux de la forêt à vendre sur Etsy, KDP & Gumroad. Concepts produits thème bois, conseils par plateforme et stratégies de niche.',
-
-    primaryKeyword: 'imprimables animaux de la forêt Etsy',
+    primaryKeyword: 'imprimables animaux forêt à vendre',
     secondaryKeywords: [
-      'fiches animaux forestiers à vendre',
-      'activité imprimable thème bois',
-      'fiches activités forêt pour vendeurs',
-      'vendre des imprimables animaux de la forêt en ligne',
+      'fiches forêt à imprimer idées',
+      'cahier activités forêt KDP',
+      'coloriages animaux forêt à vendre',
+      'jeux forêt imprimables',
     ],
-    lsiKeywords: [
-      'fiches éducatives créatures des bois',
-      'activités habitat nature pour enfants',
-      'imprimables thème faune pour la vente',
-    ],
+    lsiKeywords: ['forêt', 'renard', 'cerf', 'ours', 'écureuil', 'nature'],
+    titleTag: 'Imprimables animaux forêt Etsy & KDP | Idées niches',
+    metaDescription: 'Idées d\'imprimables animaux de la forêt à vendre sur Etsy et KDP. Coloriages, mots mêlés, puzzles thème nature et forêt.',
   },
   hero: {
     title: 'Idées d\'Activité Imprimable Animaux de la Forêt pour les Vendeurs',

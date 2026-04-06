@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'créer des fiches en plusieurs langues à vendre',
+    primaryKeyword: 'créer des fiches en plusieurs langues',
     secondaryKeywords: [
-      'création fiches multilingues',
-      'traduire fiches pour vendre',
-      'production imprimables multi-langues',
-      'conception fiches internationales',
+      'fiches multilingues guide',
+      'fiches 11 langues tutoriel',
+      'imprimables internationaux guide',
+      'fiches pédagogiques multilingues',
     ],
     lsiKeywords: [
-      'formatage spécifique caractères spéciaux diacritiques sélection polices pour langues',
-      'trémas allemands accents français caractères espagnols caractères accentués caractères spéciaux',
-      'flux production multilingue traduction par lots révision locuteur natif assurance qualité',
-      'texte annonce localisé flux imprimables international outils contenu multi-langues',
-      'mise en page RTL variation longueur texte mots composés adaptation culturelle localisation fiches',
-      'production par lots génération contenu multi-langues outils traduction automatisée bases vocabulaire',
+      'multilingue',
+      'langues',
+      'traduction',
+      'international',
+      'francophone',
+      'vocabulaire',
     ],
-    titleTag: 'Fiches en plusieurs langues à vendre | LCS',
-    metaDescription: 'Créez des fiches en plusieurs langues : flux de production, gestion des caractères, sélection polices,. Vendez sur Etsy & KDP avec licence commerciale.',
+    titleTag: 'Fiches en plusieurs langues | Guide multilingue',
+    metaDescription: 'Comment créer des fiches pédagogiques en 11 langues. Vocabulaire automatique, images universelles, marché international. Guide complet.',
   },
 
   hero: {

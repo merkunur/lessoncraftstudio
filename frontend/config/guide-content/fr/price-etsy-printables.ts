@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'comment fixer le prix de ses imprimables Etsy',
+    primaryKeyword: 'tarification imprimables Etsy',
     secondaryKeywords: [
-      'comment fixer les prix des fiches imprimables sur Etsy',
-      'stratégie de prix Etsy imprimables éducatifs',
-      'tarification téléchargements numériques vendeurs Etsy',
-      'tarification lots fiches Etsy',
+      'prix imprimables Etsy guide',
+      'combien vendre imprimables',
+      'stratégie prix fiches Etsy',
+      'tarifs imprimables en ligne',
     ],
     lsiKeywords: [
-      'calcul frais Etsy produits numériques répartition revenu net',
-      'tarification à trois paliers structure lots imprimables éducatifs',
-      'psychologie tarification lots multiplicateur valeur perçue fiches',
-      'stratégie coupons Etsy ajustements prix saisonniers vendeurs',
-      'tests de prix Etsy Stats taux de conversion optimisation',
-      'tarification internationale devises Etsy téléchargements numériques A4 Letter',
+      'prix',
+      'tarification',
+      'Etsy',
+      'imprimables',
+      'marge',
+      'concurrence',
     ],
-    titleTag: 'Fixer le prix de vos imprimables Etsy | LCS',
-    metaDescription: 'Fixez les prix de vos fiches Etsy avec calcul des frais, tarification à trois paliers, stratégies de lots et ajustements saisonniers. Guide vendeurs.',
+    titleTag: 'Tarification imprimables Etsy | Guide des prix',
+    metaDescription: 'Comment fixer les prix de vos imprimables sur Etsy. Analyse de la concurrence, stratégies de prix, packs et promotions. Guide complet.',
   },
 
   hero: {

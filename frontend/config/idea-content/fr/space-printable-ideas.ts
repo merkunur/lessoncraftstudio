@@ -2,21 +2,16 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Imprimables espace pour Etsy | LCS',
-    metaDescription: 'Idées d\'imprimables sur l\'espace à vendre sur Etsy, KDP et Gumroad. Concepts STEM, stratégies par plateforme et conseils pour vendeurs créatifs.',
-
-    primaryKeyword: 'imprimables espace à vendre sur Etsy',
+    primaryKeyword: 'imprimables espace à vendre',
     secondaryKeywords: [
-      'fiches thème espace à vendre',
-      'idées business imprimables espace',
-      'fiches activités spatiales vendeurs',
-      'vendre imprimables espace Etsy',
+      'fiches espace à imprimer idées',
+      'cahier activités espace KDP',
+      'coloriages planètes à vendre',
+      'jeux espace imprimables',
     ],
-    lsiKeywords: [
-      'fiches éducatives astronomie',
-      'pages activités planètes et fusées',
-      'imprimables système solaire éducatifs',
-    ],
+    lsiKeywords: ['espace', 'planète', 'fusée', 'astronaute', 'étoile', 'lune'],
+    titleTag: 'Imprimables espace pour Etsy & KDP | Idées de niches',
+    metaDescription: 'Idées d\'imprimables espace à vendre sur Etsy et KDP. Coloriages planètes, mots mêlés astronaute, puzzles spatial. Niche populaire.',
   },
   hero: {
     title: 'Idées d\'Imprimables Espace pour les Vendeurs',

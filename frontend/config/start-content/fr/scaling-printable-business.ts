@@ -2,23 +2,11 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'du complément de revenus au business à temps plein',
-    secondaryKeywords: [
-      'passer activité imprimables à temps plein',
-      'croissance boutique Etsy imprimables',
-      'stratégie expansion activité imprimables',
-      'activité secondaire vers temps plein imprimables',
-    ],
-    lsiKeywords: [
-      'expansion du catalogue pour vendeurs d\'imprimables',
-      'distribution multi-plateforme pour fiches',
-      'stratégie de regroupement pour téléchargements numériques',
-      'optimisation du workflow de production imprimables',
-      'expansion multilingue des marchés imprimables',
-      'stratégie de réinvestissement pour activité imprimables',
-    ],
-    titleTag: 'Du complément au business à temps plein | LCS',
-    metaDescription: 'Développez votre activité d\'imprimables d\'activité secondaire à temps plein. Vendez sur Etsy & KDP avec licence commerciale.',
+    primaryKeyword: 'développer son business d\'imprimables',
+    secondaryKeywords: ['scaler business imprimables guide', 'croissance ventes imprimables', 'automatiser business fiches', 'augmenter revenus imprimables'],
+    lsiKeywords: ['croissance', 'développer', 'scaler', 'automatiser', 'diversifier', 'revenus'],
+    titleTag: 'Développer son business d\'imprimables | Guide croissance',
+    metaDescription: 'Comment développer votre business d\'imprimables. Automatisation, diversification, nouveaux marchés, croissance. Guide pour passer au niveau supérieur.',
   },
 
   hero: {

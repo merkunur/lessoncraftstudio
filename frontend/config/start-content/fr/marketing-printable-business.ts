@@ -2,23 +2,11 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'imprimables promouvoir business commercialiser fiches',
-    secondaryKeywords: [
-      'stratégies marketing pour vendeurs d\'imprimables',
-      'promouvoir des fiches imprimables en ligne',
-      'plan marketing activité imprimable',
-      'vendre plus de fiches sur Etsy',
-    ],
-    lsiKeywords: [
-      'SEO Etsy pour téléchargements numériques',
-      'marketing Pinterest pour produits imprimables',
-      'marketing par e-mail pour vendeurs de fiches',
-      'calendrier marketing saisonnier pour imprimables',
-      'optimisation de marketplace pour livres d\'activités',
-      'marketing de contenu pour entrepreneurs en imprimables',
-    ],
-    titleTag: 'Promouvoir son business d\'imprimables | LCS',
-    metaDescription: 'Comment commercialiser des fiches imprimables : SEO, stratégie Pinterest, e-mail marketing, timing saisonnier et construction de marque pour entrepreneurs.',
+    primaryKeyword: 'marketing pour business d\'imprimables',
+    secondaryKeywords: ['promouvoir imprimables guide', 'marketing Etsy imprimables', 'stratégie marketing fiches', 'faire connaître imprimables'],
+    lsiKeywords: ['marketing', 'promotion', 'visibilité', 'SEO', 'réseaux sociaux', 'trafic'],
+    titleTag: 'Marketing business d\'imprimables | Guide stratégie',
+    metaDescription: 'Comment promouvoir votre business d\'imprimables. SEO Etsy, Pinterest, réseaux sociaux, email marketing. Guide stratégique complet.',
   },
 
   hero: {

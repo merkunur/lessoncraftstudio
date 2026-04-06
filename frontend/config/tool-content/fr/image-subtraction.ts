@@ -2,24 +2,28 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'générateur de fiches de soustraction gratuit',
+    primaryKeyword: 'générateur fiches soustraction gratuit',
     secondaryKeywords: [
-      'créer des fiches de soustraction gratuitement en ligne',
-      'fiches de soustraction imprimables gratuit sans inscription',
-      'générateur de soustraction gratuit avec images barrées',
-      'fiches de soustraction PDF gratuit avec corrigés',
+      'fiches soustraction à imprimer gratuit',
+      'créer fiches soustraction en ligne',
+      'exercices soustraction gratuit sans inscription',
+      'fiches calcul soustraction PDF gratuit',
     ],
     lsiKeywords: [
-      'essai gratuit avec filigrane sans inscription',
-      'licence commerciale pour vendre sur Etsy',
-      '4 modes images barrées corrigés automatiques PDF',
+      'CP',
+      'CE1',
+      'gratuit',
+      'sans inscription',
+      'PDF',
+      'corrections',
+      'en ligne',
     ],
-    titleTag: 'Fiches de soustraction gratuites en ligne | LCS',
-    metaDescription: 'Créez des fiches de soustraction gratuitement en ligne. 4 modes, images barrées, sans inscription. Passez à la licence commerciale pour vendre.',
+    titleTag: 'Générateur fiches soustraction gratuit en ligne | LCS',
+    metaDescription: 'Créez des fiches de soustraction gratuitement en ligne. 104 thèmes, corrections automatiques, sans inscription. Licence commerciale disponible.',
   },
 
   hero: {
-    title: 'Fiches de soustraction gratuites — créez en ligne',
+    title: 'Générateur de fiches de soustraction gratuit — créez en ligne sans inscription',
     tagline: 'Créez des fiches de soustraction visuelles avec images barrées en moins de 60 secondes',
     description: 'Créez des fiches de soustraction gratuitement en ligne — sans inscription, sans carte bancaire. Ce générateur crée des fiches de soustraction basées sur les images où les utilisateurs barrent des images pour trouver la réponse — la méthode la plus naturelle pour visualiser la soustraction. Choisissez parmi plus de 100 thèmes d\'images, réglez le diminuende maximum, sélectionnez parmi quatre modes d\'exercice dont le format unique Barrer, et téléchargez des PDF prêts à imprimer ou des JPEG haute résolution. Parfait pour les vendeurs Etsy qui construisent des gammes de produits de maths différenciés, les vendeurs qui préparent des paquets pour la vente et les éditeurs KDP qui compilent des cahiers d\'activités de soustraction. L\'essai gratuit inclut un filigrane sur les téléchargements. Achetez une licence pour supprimer le filigrane et vendre vos créations à usage commercial.',
   },

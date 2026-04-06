@@ -4,21 +4,21 @@ const content: GuideContent = {
   seo: {
     primaryKeyword: 'automatiser son business d\'imprimables',
     secondaryKeywords: [
-      'automatisation business imprimables',
-      'automatiser création fiches',
-      'workflow automatisation produits numériques',
-      'efficacité vendeurs imprimables',
+      'automatisation business imprimables guide',
+      'outils automatisation vendeurs Etsy',
+      'gagner du temps imprimables',
+      'flux de travail imprimables',
     ],
     lsiKeywords: [
-      'production par lots workflow optimisation systèmes de modèles rapidité création',
-      'automatisation annonces traitement en masse gestion du temps pipeline production',
-      'création systématique processus reproductibles efficacité outils regroupement contenu',
-      'modèles annonces modèles descriptions organisation fichiers planification production',
-      'workflow rationalisé standardisation processus efficacité opérationnelle regroupement tâches',
-      'systèmes production processus évolutifs gestion catalogue conception workflow',
+      'automatisation',
+      'outils',
+      'flux de travail',
+      'efficacité',
+      'temps',
+      'productivité',
     ],
-    titleTag: 'Automatiser son business d\'imprimables | LCS',
-    metaDescription: 'Comment automatiser votre business d\'imprimables avec la production par lots, les modèles et les workflows. Gagnez du temps et augmentez votre production.',
+    titleTag: 'Automatiser son business d\'imprimables | Guide',
+    metaDescription: 'Comment automatiser votre business d\'imprimables. Outils, flux de travail, gains de temps, productivité. Guide complet pour vendeurs.',
   },
 
   hero: {

@@ -2,24 +2,29 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'générateur de sudoku images gratuit enfants',
+    primaryKeyword: 'générateur sudoku gratuit à imprimer',
     secondaryKeywords: [
-      'créer des sudoku images gratuitement en ligne',
-      'générateur de sudoku visuels gratuit sans inscription',
-      'sudoku images gratuit PDF avec corrigé',
-      'sudoku 4×4 gratuit pour enfants',
+      'sudoku gratuit en ligne',
+      'sudoku enfant gratuit à imprimer',
+      'sudoku images gratuit',
+      'créer grille sudoku gratuit',
     ],
     lsiKeywords: [
-      'essai gratuit avec filigrane sans inscription',
-      'licence commerciale pour vendre sur Etsy',
-      'grille 4×4 trois niveaux 104 thèmes',
+      'grille',
+      'logique',
+      'chiffres',
+      'images',
+      'gratuit',
+      'sans inscription',
+      '4x4',
+      '6x6',
     ],
-    titleTag: 'Sudoku images gratuit pour enfants | LCS',
-    metaDescription: 'Créez des sudoku images gratuitement en ligne. Grille 4×4, 3 niveaux, corrigé auto, sans inscription. Licence commerciale disponible.',
+    titleTag: 'Générateur sudoku gratuit à imprimer | LCS',
+    metaDescription: 'Créez des sudoku gratuitement en ligne. Images ou chiffres, difficulté réglable, solutions automatiques, sans inscription. Licence commerciale disponible.',
   },
 
   hero: {
-    title: 'Sudoku images gratuit pour enfants — créez en ligne',
+    title: 'Générateur de sudoku gratuit — créez des grilles à imprimer en ligne',
     tagline: 'Générateur de sudoku en images 4×4 avec trois niveaux de difficulté (Facile 4 cases vides, Moyen 6 cases vides, Difficile 8 cases vides), corrigés auto-générés montrant la grille complète remplie, sélection par thème et manuelle parmi 104 collections avec plus de 3 100 illustrations, design premium de grille avec couleurs alternées des blocs et ombres multicouches, et des puzzles purement visuels qui se vendent dans le monde entier sans traduction',
     description: 'Créez des sudoku images gratuitement en ligne — sans inscription, sans carte bancaire. Les utilisateurs remplissent les cases vides avec les bonnes images en utilisant la logique de lignes et colonnes sur une grille 4×4. Chaque puzzle utilise exactement 4 images uniques qui doivent apparaître une fois dans chaque ligne et une fois dans chaque colonne — les mêmes règles que le sudoku classique, mais avec des illustrations colorées au lieu de chiffres. Trois niveaux de difficulté contrôlent le défi : Facile supprime 4 cases, Moyen supprime 6 et Difficile supprime 8 — la moitié de la grille. Sélectionnez les images par thème avec une auto-sélection qui choisit aléatoirement 4 images parmi 104 collections thématiques, ou parcourez manuellement la bibliothèque, recherchez et importez pour choisir exactement 4 images vous-même. Le design premium de la grille présente des couleurs alternées des blocs 2×2 en bleu clair (#F8F9FC) et rose clair (#FFF5F7), des séparateurs centraux épais (#7C8DB5, trait de 3px), des lignes intérieures plus fines (#D1D9E6, 1,5px), une bordure extérieure indigo (#667EEA) avec des coins arrondis de 18px et trois ombres multicouches pour la profondeur. Les images s\'affichent à 65 % de la taille de la case pour une séparation visuelle nette. Chaque puzzle génère un en-tête stylisé \" Sudoku en Images \" avec un fond violet (#5E35B1) et un texte de titre localisé dans les 11 langues prises en charge. Le système à double canevas crée simultanément un onglet fiche et un onglet corrigé — le corrigé montre la grille 4×4 complète remplie avec les 16 cases remplies. Appliquez des thèmes de fond et de bordure avec des curseurs d\'opacité indépendants (0–1, pas de 0,05). Ajoutez du texte personnalisé avec 7 options de police (Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial, Verdana) et contour de texte 0–10. Exportez des PDF et JPEG prêts à imprimer à 300 DPI (multiplicateur 6×) en Letter Portrait, Letter Paysage, A4 Portrait, A4 Paysage ou dimensions personnalisées — pas de format Carré pour cette application. Activez les niveaux de gris pour une sortie économique en encre. Éditez tout sur le canevas Fabric.js avec 6 options d\'alignement plus centrage sur la page, calques, verrouillage, zoom 25 %–300 % par incréments de 25 % et annuler/rétablir 50 états. Le sudoku en images étant entièrement visuel — aucun mot n\'apparaît sur la grille du puzzle — chaque fiche fonctionne identiquement dans les 11 langues, rendant vos produits vendables dans le monde entier. L\'essai gratuit inclut toutes les fonctionnalités avec un filigrane sur les téléchargements. Achetez une licence pour supprimer le filigrane et vendre à usage commercial.',
   },

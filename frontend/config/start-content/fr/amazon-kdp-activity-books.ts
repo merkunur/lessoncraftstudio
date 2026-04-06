@@ -2,23 +2,11 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'business cahiers d\'activités Amazon KDP',
-    secondaryKeywords: [
-      'livres d\'activités Amazon KDP',
-      'vendre des cahiers de puzzles sur KDP',
-      'activité livres d\'activités KDP',
-      'publier des cahiers d\'activités Amazon',
-    ],
-    lsiKeywords: [
-      'Kindle Direct Publishing livres d\'activités',
-      'formatage intérieur KDP fiches',
-      'design de couverture KDP livres d\'activités',
-      'mots-clés backend Amazon cahiers de puzzles',
-      'calculateur de redevances KDP livres d\'activités',
-      'impression à la demande activité cahiers d\'activités',
-    ],
-    titleTag: 'Business cahiers d\'activités KDP | LCS',
-    metaDescription: 'Vendre des livres d\'activités sur Amazon KDP. Formatage intérieur, design couverture, mots-clés, tarification et mise à l\'échelle de votre activité.',
+    primaryKeyword: 'publier cahiers activités Amazon KDP guide',
+    secondaryKeywords: ['démarrer sur KDP imprimables', 'vendre cahiers activités Amazon', 'KDP fiches guide débutant', 'publier sur KDP guide'],
+    lsiKeywords: ['Amazon KDP', 'cahiers activités', 'publier', 'formatage', 'ISBN', 'couverture'],
+    titleTag: 'Cahiers activités Amazon KDP | Guide débutant',
+    metaDescription: 'Comment publier des cahiers d\'activités sur Amazon KDP. Formatage, couverture, tarification, publication. Guide débutant étape par étape.',
   },
 
   hero: {

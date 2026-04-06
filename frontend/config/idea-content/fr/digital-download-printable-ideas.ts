@@ -2,21 +2,11 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Business téléchargements numériques | LCS',
-    metaDescription: 'Idées de fiches téléchargeables pour vendeurs Etsy, Gumroad et Gumroad. Créez un business d\'imprimables sans stock avec des PDF éducatifs en livraison.',
-
-    primaryKeyword: 'téléchargements numériques business idées',
-    secondaryKeywords: [
-      'business imprimables téléchargeables',
-      'vendre fiches numériques en ligne',
-      'idées produits imprimables numériques',
-      'modèle business fiches téléchargeables',
-    ],
-    lsiKeywords: [
-      'produits éducatifs en téléchargement instantané',
-      'vente fiches PDF sur marketplace',
-      'livraison automatisée produits numériques',
-    ],
+    primaryKeyword: 'idées téléchargements numériques à vendre',
+    secondaryKeywords: ['produits numériques Etsy idées', 'téléchargements instantanés à vendre', 'produits digitaux éducatifs', 'fiches téléchargeables idées'],
+    lsiKeywords: ['téléchargement', 'numérique', 'digital', 'instantané', 'PDF', 'Etsy'],
+    titleTag: 'Téléchargements numériques à vendre Etsy | Idées',
+    metaDescription: 'Idées de téléchargements numériques à vendre sur Etsy. Fiches, cahiers, jeux imprimables en PDF instantané. Guide des meilleures niches.',
   },
   hero: {
     title: 'Idées de Business de Fiches Téléchargeables pour Vendeurs',

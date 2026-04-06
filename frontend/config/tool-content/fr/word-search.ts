@@ -2,24 +2,28 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'générateur de mots mêlés gratuit avec images',
+    primaryKeyword: 'générateur mots mêlés gratuit',
     secondaryKeywords: [
-      'créer des mots mêlés gratuitement en ligne',
-      'générateur de mots cachés gratuit sans inscription',
-      'grilles de mots mêlés gratuites avec images',
-      'mots mêlés PDF gratuit 11 langues',
+      'créer mots mêlés gratuit en ligne',
+      'mots mêlés à imprimer gratuit',
+      'mots cachés générateur gratuit',
+      'mots mêlés personnalisés gratuit',
     ],
     lsiKeywords: [
-      'essai gratuit avec filigrane sans inscription',
-      'licence commerciale pour vendre sur Etsy',
-      'grilles 5×5 à 30×30 lettres adaptées à la langue',
+      'grille',
+      'lettres',
+      'vocabulaire',
+      'gratuit',
+      'sans inscription',
+      'solution',
+      'PDF',
     ],
-    titleTag: 'Générateur de mots mêlés gratuit | LCS',
-    metaDescription: 'Créez des mots mêlés gratuit avec images en ligne. Grilles 5×5 à 30×30, 11 langues, sans inscription. Licence commerciale disponible.',
+    titleTag: 'Générateur mots mêlés gratuit en ligne | LCS',
+    metaDescription: 'Créez des mots mêlés gratuitement en ligne. 3 000+ images, grilles 5×5 à 30×30, solutions automatiques, sans inscription. Licence commerciale disponible.',
   },
 
   hero: {
-    title: 'Mots mêlés gratuits avec images — créez en ligne',
+    title: 'Générateur de mots mêlés gratuit — créez des grilles en ligne sans inscription',
     tagline: 'Créez des grilles de mots cachés avec tailles ajustables, contrôles de direction et lettres de remplissage adaptées à la langue dans 11 langues',
     description: 'Créez des mots mêlés gratuitement en ligne — sans inscription, sans carte bancaire. Des mots sont dissimulés dans une grille de lettres de remplissage aléatoires et les utilisateurs parcourent les lignes, les colonnes et les diagonales pour les trouver — le format de puzzle classique qui ne se démode jamais. Cet outil vous donne un contrôle précis sur la difficulté à travers deux axes indépendants : la taille de grille (ajustable de 5×5 à 30×30 avec lignes et colonnes réglées indépendamment) et les activateurs de direction des mots (mots en diagonale activés ou désactivés, mots inversés activés ou désactivés) créant de deux à huit directions de placement possibles. Choisissez parmi trois sources de contenu : le mode Bibliothèque d\'Images tire le vocabulaire de plus de 3 100 illustrations réparties dans 104 collections thématiques, le Mode Édition Manuelle vous permet de sélectionner des images puis de personnaliser les noms d\'affichage, et le mode Liste de Mots Personnalisée vous permet de taper jusqu\'à 8 mots directement pour des puzzles textuels. Trois modes d\'affichage — Afficher Mots et Images, Afficher Images Uniquement et Afficher Mots Uniquement — contrôlent ce qui apparaît comme indices à côté de la grille. La fonctionnalité phare est le remplissage alphabétique adapté à la langue : quand vous changez de langue, les lettres de remplissage de la grille changent pour correspondre au jeu de caractères de cette langue avec des distributions de fréquence pondérées. Les grilles allemandes incluent ä, ö, ü et ß à des fréquences naturelles. Les grilles françaises incluent é, è, ç, à. Les grilles suédoises incluent å, ä, ö. Chaque langue obtient des lettres de remplissage authentiques, rendant les puzzles linguistiquement naturels plutôt qu\'évidemment générés en anglais. Un corrigé avec code couleur met en évidence chaque mot trouvé dans l\'une de six couleurs alternées — rose, bleu, vert, doré, corail et lavande — pour une vérification visuelle instantanée. Exportez des PDF prêts à imprimer et des JPEG à plus de 400 DPI en format Letter, A4 ou dimensions personnalisées. Choisissez parmi 7 familles de polices, ajoutez les champs nom et date de l\'utilisateur, activez le mode niveaux de gris pour un rendu économique en encre, et utilisez le canevas Fabric.js complet pour repositionner chaque élément. L\'essai gratuit inclut un filigrane sur les téléchargements. Achetez une licence pour supprimer le filigrane et vendre à usage commercial.',
   },

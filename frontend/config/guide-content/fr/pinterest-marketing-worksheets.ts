@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'marketing Pinterest pour business de fiches',
+    primaryKeyword: 'marketing Pinterest pour fiches à imprimer',
     secondaryKeywords: [
-      'pinterest pour vendeurs imprimables',
-      'vendre fiches exercices avec pinterest',
-      'stratégie pinterest activité imprimables',
-      'trafic pinterest boutique fiches exercices',
+      'Pinterest imprimables guide',
+      'promouvoir fiches Pinterest',
+      'stratégie Pinterest vendeurs',
+      'épingles fiches pédagogiques',
     ],
     lsiKeywords: [
-      'moteur recherche visuel design épingles optimisation tableaux descriptions mots-clés',
-      'trafic pérenne programmation épingles taux clics découverte organique',
-      'épingles produits épingles idées Pinterest analytics Pinterest SEO épingles enrichies',
-      'impressions épingles stratégie réépinglage épinglage saisonnier stratégie tableaux',
-      'optimisation épingles format vertical algorithme Pinterest épingles fraîches',
-      'classement recherche taux enregistrement clics sortants données audience modèles épingles',
+      'Pinterest',
+      'épingles',
+      'SEO Pinterest',
+      'visuels',
+      'trafic',
+      'imprimables',
     ],
-    titleTag: 'Marketing Pinterest pour fiches | LCS',
-    metaDescription: 'Stratégie marketing Pinterest pour vendeurs de fiches imprimables. Trafic durable, optimisation des épingles, stratégie tableaux et contenu mots-clés.',
+    titleTag: 'Marketing Pinterest fiches à imprimer | Guide',
+    metaDescription: 'Comment utiliser Pinterest pour promouvoir vos fiches à imprimer. SEO Pinterest, visuels, épingles optimisées. Guide complet pour vendeurs.',
   },
 
   hero: {

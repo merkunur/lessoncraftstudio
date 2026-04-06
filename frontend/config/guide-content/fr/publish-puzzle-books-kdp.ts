@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'publier des livres de jeux sur Amazon KDP',
+    primaryKeyword: 'publier livre de jeux Amazon KDP',
     secondaryKeywords: [
-      'comment publier des livres de puzzles sur Amazon KDP',
-      'guide publication livres de puzzles KDP',
-      'créer des livres de mots cachés pour Amazon',
-      'Amazon KDP livres mots croisés sudoku puzzles',
+      'cahier de jeux KDP guide',
+      'livre puzzles Amazon à vendre',
+      'créer cahier activités KDP',
+      'puzzles KDP formatage',
     ],
     lsiKeywords: [
-      'mots cachés mots croisés sudoku pages intérieures livres de puzzles',
-      'livre de puzzles nombre de pages progression difficulté section solutions',
-      'KDP livre puzzles variés types mélangés mise en page',
-      'Amazon livre puzzles mots-clés catégories adultes enfants marché',
-      'impression à la demande catalogue puzzles séries volumes numérotation',
-      'grille puzzles espacement format livre corrigés annexes',
+      'puzzles',
+      'jeux',
+      'Amazon KDP',
+      'cahier activités',
+      'publier',
+      'formatage',
     ],
-    titleTag: 'Publier des livres de jeux sur KDP | LCS',
-    metaDescription: 'Comment publier des livres de puzzles sur KDP avec mots cachés, mots croisés et sudoku. Mise en page, livres variés, stratégie de série et optimisation.',
+    titleTag: 'Livre de jeux Amazon KDP | Guide publication',
+    metaDescription: 'Comment publier un livre de jeux et puzzles sur Amazon KDP. Mots mêlés, sudoku, labyrinthes, formatage. Guide complet pour éditeurs.',
   },
 
   hero: {

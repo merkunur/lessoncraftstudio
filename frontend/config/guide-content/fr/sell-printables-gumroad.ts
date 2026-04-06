@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'vendre des imprimables sur Gumroad guide',
+    primaryKeyword: 'vendre des imprimables sur Gumroad',
     secondaryKeywords: [
-      'comment vendre imprimables sur Gumroad',
-      'créer boutique Gumroad imprimables',
-      'vendre téléchargements numériques sur Gumroad',
-      'Gumroad pour vendeurs d\'imprimables',
+      'Gumroad imprimables guide',
+      'vendre fiches Gumroad',
+      'business imprimables Gumroad',
+      'Gumroad vs Etsy imprimables',
     ],
     lsiKeywords: [
-      'plateforme vente directe générateurs téléchargements numériques livraison instantanée liste e-mail',
-      'vitrine Gumroad branding page produit image couverture optimisation description',
-      'prix libre tarification codes promo liens offre tarification par paliers',
-      'marketing par e-mail construction audience liste abonnés mises à jour newsletters',
-      'trafic réseaux sociaux Pinterest Instagram blog contenu SEO promotion',
-      'lots produits abonnements revenus récurrents catalogue croissance',
+      'Gumroad',
+      'vendre',
+      'imprimables',
+      'fiches',
+      'téléchargement numérique',
+      'commissions',
     ],
-    titleTag: 'Vendre des imprimables sur Gumroad | LCS',
-    metaDescription: 'Vendez des imprimables sur Gumroad sans frais mensuels. Configuration boutique, stratégies tarification, marketing e-mail et relations directes clients.',
+    titleTag: 'Vendre des imprimables sur Gumroad | Guide vendeur',
+    metaDescription: 'Comment vendre des imprimables sur Gumroad. Inscription, mise en vente, tarification, marketing. Guide complet pour vendeurs de fiches.',
   },
 
   hero: {

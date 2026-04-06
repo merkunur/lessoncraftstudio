@@ -2,21 +2,11 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Service création de fiches — Business | LCS',
-    metaDescription: 'Idées de service de fiches personnalisées pour vendeurs Etsy et freelances. Proposez des imprimables éducatifs sur mesure avec une tarification premium.',
-
-    primaryKeyword: 'service de création de fiches business',
-    secondaryKeywords: [
-      'idées business fiches sur mesure',
-      'service création imprimables personnalisés',
-      'activité fiches sur commande à vendre',
-      'vendre fiches personnalisées en ligne',
-    ],
-    lsiKeywords: [
-      'imprimables éducatifs sur mesure',
-      'création de fiches à la demande',
-      'service freelance design imprimables',
-    ],
+    primaryKeyword: 'service fiches personnalisées idées',
+    secondaryKeywords: ['fiches sur mesure à vendre', 'service création fiches', 'fiches personnalisées commande', 'freelance fiches pédagogiques'],
+    lsiKeywords: ['personnalisé', 'sur mesure', 'commande', 'freelance', 'service', 'client'],
+    titleTag: 'Service fiches personnalisées | Idées de business',
+    metaDescription: 'Idées de services de fiches personnalisées. Création sur commande, freelance, abonnements personnalisés. Guide des modèles de service.',
   },
   hero: {
     title: 'Idées de Service de Fiches Personnalisées pour les Vendeurs',

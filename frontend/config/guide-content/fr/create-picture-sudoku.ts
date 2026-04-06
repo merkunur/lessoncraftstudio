@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'créer des sudoku images à vendre',
+    primaryKeyword: 'créer des sudoku à imprimer',
     secondaryKeywords: [
-      'sudoku illustré pour enfants licence commerciale',
-      'générateur sudoku en images fiches à vendre Etsy et KDP',
-      'créer sudoku visuel imprimable avec corrigés',
-      'outil sudoku en images usage commercial marché préscolaire',
+      'tutoriel sudoku images',
+      'guide créer grilles sudoku',
+      'sudoku enfants à imprimer guide',
+      'sudoku personnalisés guide',
     ],
     lsiKeywords: [
-      'puzzles logiques à images pour jeunes enfants',
-      'sudoku visuel marché préscolaire à imprimer et vendre',
-      'fiches raisonnement logique grande section à vendre',
-      'vendre fiches sudoku illustré sur Etsy',
-      'cahiers puzzles logiques Amazon KDP',
-      'outil sudoku en images licence commerciale',
+      'sudoku',
+      'grille',
+      'logique',
+      'images',
+      '4x4',
+      '6x6',
     ],
-    titleTag: 'Sudoku images à vendre en ligne | LCS',
-    metaDescription: 'Créez des sudoku en images pour enfants. Grilles 4×4, 3 niveaux de difficulté, images thématiques, corrigés auto et PDF prêts à imprimer pour Etsy et KDP.',
+    titleTag: 'Créer des sudoku à imprimer | Guide complet',
+    metaDescription: 'Comment créer des sudoku avec images ou chiffres, difficulté réglable. Solutions automatiques, PDF imprimables. Guide étape par étape.',
   },
 
   hero: {

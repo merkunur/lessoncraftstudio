@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'créer des fiches d\'écriture à vendre',
+    primaryKeyword: 'créer des fiches de graphisme à imprimer',
     secondaryKeywords: [
-      'générateur fiches écriture pour enfants',
-      'générateur fiches d\'écriture manuscrite',
-      'fiches écriture imprimables à vendre',
-      'fiches tracé lettres personnalisées',
+      'tutoriel fiches écriture',
+      'guide graphisme maternelle',
+      'fiches tracé lettres guide',
+      'fiches écriture GS CP',
     ],
     lsiKeywords: [
-      'générateur fiches tracé lettres',
-      'fiches écriture cursive à imprimer',
-      'ordre des traits formation lettres',
-      'graphisme préparatoire marché préscolaire',
-      'vendre fiches écriture sur Etsy',
-      'cahiers écriture Amazon KDP',
+      'graphisme',
+      'écriture',
+      'tracé',
+      'lettres',
+      'cursive',
+      'maternelle',
     ],
-    titleTag: 'Fiches d\'écriture à vendre en ligne | LCS',
-    metaDescription: 'Créez des fiches d\'écriture avec modes tracé, progressif et copie guidée. Flèches d\'ordre des traits, cinq polices et export PDF pour Etsy et KDP.',
+    titleTag: 'Créer des fiches de graphisme | Guide complet',
+    metaDescription: 'Comment créer des fiches de graphisme et écriture pour maternelle et CP. Mots personnalisés, 11 langues. Guide étape par étape.',
   },
 
   hero: {

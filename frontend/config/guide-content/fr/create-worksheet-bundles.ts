@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'créer des packs de fiches qui se vendent',
+    primaryKeyword: 'créer des bundles de fiches à vendre',
     secondaryKeywords: [
-      'stratégie packs fiches exercices',
-      'création packs imprimables',
-      'comment regrouper fiches pour vendre',
-      'tarification packs fiches exercices',
+      'bundles fiches pédagogiques guide',
+      'regrouper fiches imprimables',
+      'packs fiches à vendre en ligne',
+      'bundles imprimables stratégie',
     ],
     lsiKeywords: [
-      'types packs matière niveau scolaire thème saisonnier format méga valeur perçue',
-      'empilement valeur économies détaillées bonus matériel page couverture table des matières',
-      'prix d\'ancrage psychologie réduction tarification échelonnée tests de prix',
-      'produits complémentaires variété cohérence éviter remplissage standards qualité',
-      'packaging pack maquette aperçu branding organisation fichiers conventions nommage',
-      'multi-plateforme annonces packs stratégie universelle vente multi-canaux',
+      'bundle',
+      'pack',
+      'fiches',
+      'regrouper',
+      'thématique',
+      'prix',
     ],
-    titleTag: 'Créer des packs de fiches qui se vendent | LCS',
-    metaDescription: 'Créez des packs de fiches qui se vendent. Types de packs, psychologie des prix, empilement de valeur et packaging professionnel pour plus de revenus.',
+    titleTag: 'Créer des bundles de fiches | Guide stratégie',
+    metaDescription: 'Comment créer des bundles de fiches pédagogiques rentables. Regroupement thématique, stratégie de prix, plateformes. Guide complet.',
   },
 
   hero: {

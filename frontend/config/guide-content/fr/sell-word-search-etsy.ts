@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'vendre des mots mêlés sur Etsy astuces',
+    primaryKeyword: 'vendre des mots mêlés sur Etsy',
     secondaryKeywords: [
-      'comment vendre mots cachés sur Etsy',
-      'créer boutique Etsy mots cachés imprimables',
-      'mots cachés imprimables business Etsy',
-      'vendre puzzles de mots imprimables sur Etsy',
+      'mots mêlés Etsy guide',
+      'vendre mots cachés imprimables',
+      'mots mêlés à vendre en ligne',
+      'business mots mêlés Etsy',
     ],
     lsiKeywords: [
-      'Etsy téléchargement numérique mots cachés optimisation annonce',
-      'lot mots cachés stratégie de prix vendeurs Etsy',
-      'Etsy SEO tags pour puzzles de mots imprimables',
-      'vendre mots croisés mots mélangés boutique Etsy',
-      'fêtes thématiques mots cachés imprimables stratégie saisonnière Etsy',
-      'photos annonces Etsy mockups pour produits mots cachés',
+      'mots mêlés',
+      'Etsy',
+      'vendre',
+      'imprimables',
+      'licence commerciale',
+      'SEO',
     ],
-    titleTag: 'Vendre des mots mêlés sur Etsy | LCS',
-    metaDescription: 'Vendez des mots cachés sur Etsy avec 4 générateurs. SEO Etsy, optimisation annonces, tarification, lots avec mots croisés et mots mélangés et timing.',
+    titleTag: 'Vendre des mots mêlés sur Etsy | Guide vendeur',
+    metaDescription: 'Comment créer et vendre des mots mêlés sur Etsy. SEO, tarification, mise en vente. Guide complet pour lancer un business de mots mêlés imprimables.',
   },
 
   hero: {

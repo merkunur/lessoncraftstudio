@@ -4,21 +4,21 @@ const content: GuideContent = {
   seo: {
     primaryKeyword: 'créer des packs de fiches pour Etsy',
     secondaryKeywords: [
-      'comment créer des lots de fiches sur Etsy',
-      'stratégie d\'annonce de packs imprimables Etsy',
-      'vendre des lots de fiches sur Etsy',
-      'Etsy création de packs téléchargeables numériques',
+      'packs fiches Etsy guide',
+      'créer bundles imprimables',
+      'regrouper fiches pédagogiques Etsy',
+      'vendre packs fiches en ligne',
     ],
     lsiKeywords: [
-      'optimisation annonce lot Etsy organisation fichiers stratégie',
-      'lot fiches tarification prix d\'ancrage remise empilement de valeur',
-      'Etsy lot images de prévisualisation vignette mockup disposition',
-      'types de lots par matière niveau thème saison imprimables pédagogiques',
-      'Etsy livraison numérique fichiers multiples structure de lot',
-      'lot vs annonce individuelle cannibalisation stratégie boutique Etsy',
+      'pack',
+      'bundle',
+      'Etsy',
+      'fiches',
+      'regrouper',
+      'prix groupé',
     ],
-    titleTag: 'Créer des packs de fiches pour Etsy | LCS',
-    metaDescription: 'Créez des lots de fiches Etsy qui augmentent le panier moyen. Types de lots, organisation fichiers, prévisualisation et optimisation annonces et prix.',
+    titleTag: 'Créer des packs de fiches pour Etsy | Guide',
+    metaDescription: 'Comment créer et vendre des packs de fiches sur Etsy. Regroupement par thème, tarification, mise en vente. Guide étape par étape.',
   },
 
   hero: {

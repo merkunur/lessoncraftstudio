@@ -2,24 +2,28 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'générateur pièces manquantes gratuit',
+    primaryKeyword: 'puzzle pièces manquantes gratuit à imprimer',
     secondaryKeywords: [
-      'créer des puzzles pièces manquantes gratuitement',
-      'générateur de puzzles visuels gratuit sans inscription',
-      'pièces manquantes gratuit PDF avec corrigé',
-      'puzzles pièces manquantes gratuit en ligne',
+      'jeu pièce manquante gratuit en ligne',
+      'compléter le puzzle gratuit',
+      'observation visuelle gratuit',
+      'jeu logique visuelle gratuit',
     ],
     lsiKeywords: [
-      'essai gratuit avec filigrane sans inscription',
-      'licence commerciale pour vendre sur Etsy',
-      '6 formes extraction intelligente distractrices 104 thèmes',
+      'puzzle',
+      'compléter',
+      'observer',
+      'raisonnement',
+      'gratuit',
+      'sans inscription',
+      'solution',
     ],
-    titleTag: 'Pièces manquantes gratuit en ligne | LCS',
-    metaDescription: 'Créez des puzzles pièces manquantes gratuitement. 6 formes, difficulté configurable, 104 thèmes, sans inscription. Licence commerciale disponible.',
+    titleTag: 'Puzzle pièces manquantes gratuit à imprimer | LCS',
+    metaDescription: 'Créez des fiches « pièces manquantes » gratuitement en ligne. Images thématiques, solutions automatiques, sans inscription. Essai gratuit.',
   },
 
   hero: {
-    title: 'Pièces manquantes gratuit — créez en ligne sans inscription',
+    title: 'Puzzle pièces manquantes gratuit — créez des jeux de logique en ligne',
     tagline: 'Générateur de puzzles pièces manquantes avec 6 formes de pièces (carré, cercle, rectangle portrait/paysage, ellipse portrait/paysage), 1–5 pièces manquantes avec 2–6 options de réponse incluant des distractrices, extraction intelligente de pièces utilisant la détection de variance de couleur et un espacement minimum de 250 pixels, corrigés auto-générés avec étiquettes numériques surlignées en jaune, double bordure en bleu sarcelle et rose vif, et 104 collections d\'images thématiques pour des puzzles pièces manquantes vendables dans le monde entier',
     description: 'Créez des puzzles pièces manquantes gratuitement en ligne — sans inscription, sans carte bancaire. Une image a des trous découpés et les utilisateurs identifient quelle option numérotée remplit chaque espace. L\'algorithme d\'extraction intelligente de pièces effectue jusqu\'à 150 tentatives de placement pour trouver des pièces avec une variance de couleur suffisante (variance de luminosité minimale de 15), maintenant au moins 250 pixels de distance entre les pièces pour éviter le chevauchement. La taille des pièces est calculée à 12 % de la largeur de l\'image avec un minimum de 50 pixels. Choisissez parmi 6 formes de pièces qui changent le caractère visuel de chaque puzzle : carré (par défaut) et cercle offrent des découpes géométriques nettes, rectangle portrait (80 % de largeur, 100 % de hauteur) et rectangle paysage (100 % de largeur, 80 % de hauteur) créent des trous allongés, et ellipse portrait et ellipse paysage offrent des découpes courbes plus douces avec les mêmes proportions dimensionnelles. Configurez la difficulté avec deux contrôles indépendants : définissez 1–5 pièces manquantes pour contrôler combien de trous apparaissent dans l\'image, et définissez 2–6 options de réponse pour contrôler combien de choix numérotés les utilisateurs évaluent. Quand les options de réponse dépassent les pièces manquantes, les options supplémentaires sont des pièces distractrices — extraites de zones non chevauchantes de la même image avec jusqu\'à 200 tentatives de placement chacune. Les distractrices empêchent les utilisateurs de résoudre par simple élimination, forçant une comparaison visuelle attentive des couleurs, motifs et détails. Le système à double canevas génère à la fois un onglet fiche et un onglet corrigé simultanément. Le corrigé affiche la même image de puzzle avec les trous et place des étiquettes numériques surlignées en jaune (rgba(255,255,0,0.7)) à l\'intérieur de chaque trou montrant l\'index correct de l\'option (base 1). La taille de police s\'adapte à 60 % de la taille de la pièce pour une lisibilité claire. Un en-tête auto-généré affiche \" Pièces Manquantes \" en turquoise (#06B6D4) avec une description rose (#DB2777) à travers un système à double bordure — bordure extérieure bleu sarcelle (#14B8A6, trait 8px, marges 34px, rayon 12px) et bordure intérieure rose vif (#EC4899, trait 3px, marges 46,5px, rayon 8px, décalage 2px à droite et 3px vers le bas). Pièces Manquantes n\'est PAS sensible à la langue — les puzzles sont purement visuels sans contenu dépendant de la locale sur la fiche, rendant chaque puzzle universellement vendable dans tous les marchés sans traduction. Le seul élément localisé est le texte d\'en-tête, traduit dans les 11 langues prises en charge. Les mises en page portrait placent l\'image du puzzle en haut avec les options en dessous en rangée horizontale (75 % de la taille maximale) ; les mises en page paysage divisent la vue 50/50 avec les options sur le côté droit. Parcourez 104 collections thématiques avec plus de 3 100 illustrations colorées ou importez vos propres images PNG, JPG ou GIF. Appliquez des thèmes de fond et de bordure avec des curseurs d\'opacité indépendants (0–1, pas de 0,05). Ajoutez du texte personnalisé avec 7 polices (Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial, Verdana) et contour de texte 0–10. Exportez quatre fichiers par session : fiche JPEG, fiche PDF, corrigé JPEG et corrigé PDF — tous à 300 DPI (multiplicateur 6×, qualité JPEG 1.0). Choisissez Letter, A4, Carré (1200×1200) ou dimensions personnalisées avec mode niveaux de gris pour une sortie économique en encre. Éditez tout sur le canevas Fabric.js avec 6 options d\'alignement plus centrage sur la page, calques, verrouillage, zoom 25 %–300 % par incréments de 25 % et annuler/rétablir 50 états. L\'essai gratuit inclut toutes les fonctionnalités avec un filigrane sur les téléchargements. Achetez une licence pour supprimer le filigrane et vendre à usage commercial.',
   },

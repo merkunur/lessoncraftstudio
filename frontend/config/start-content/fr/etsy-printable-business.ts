@@ -2,23 +2,11 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'masterclass business Etsy imprimables',
-    secondaryKeywords: [
-      'activité imprimables Etsy',
-      'boutique Etsy fiches imprimables',
-      'comment vendre des fiches sur Etsy',
-      'activité téléchargements numériques Etsy',
-    ],
-    lsiKeywords: [
-      'SEO Etsy pour vendeurs imprimables',
-      'optimisation annonces Etsy fiches',
-      'création boutique Etsy produits numériques',
-      'tags Etsy pour fiches imprimables',
-      'générateur de fiches pour vendeurs Etsy',
-      'stratégie tarifaire imprimables Etsy',
-    ],
-    titleTag: 'Masterclass Etsy imprimables | LCS',
-    metaDescription: 'Comment vendre des imprimables sur Etsy étape par étape. Création de boutique, SEO Etsy, optimisation d\'annonces, tarification et générateurs de fiches.',
+    primaryKeyword: 'lancer un business imprimables sur Etsy',
+    secondaryKeywords: ['démarrer boutique Etsy imprimables', 'vendre sur Etsy guide débutant', 'business Etsy fiches pédagogiques', 'boutique Etsy imprimables'],
+    lsiKeywords: ['Etsy', 'boutique', 'démarrer', 'imprimables', 'vendre', 'débutant'],
+    titleTag: 'Business imprimables sur Etsy | Guide débutant',
+    metaDescription: 'Comment lancer un business d\'imprimables sur Etsy. Créer votre boutique, premières fiches, SEO, premières ventes. Guide débutant complet.',
   },
 
   hero: {

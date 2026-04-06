@@ -2,21 +2,16 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Imprimables sous-marins à vendre | LCS',
-    metaDescription: 'Idées d\'imprimables sous-marins à vendre sur Etsy, KDP et Gumroad. Concepts de produits océaniques, fiches marines et conseils pour vendeurs.',
-
     primaryKeyword: 'imprimables sous-marins à vendre',
     secondaryKeywords: [
-      'fiches sous-marines à vendre',
-      'idées business imprimables océan',
-      'fiches activités créatures marines vendeurs',
-      'vendre imprimables sous-marins Etsy',
+      'fiches monde sous-marin à imprimer',
+      'cahier activités mer KDP',
+      'coloriages sous-marins à vendre',
+      'jeux aquatiques imprimables',
     ],
-    lsiKeywords: [
-      'fiches éducatives créatures des profondeurs',
-      'pages activités récif corallien',
-      'imprimables thème aquatique',
-    ],
+    lsiKeywords: ['sous-marin', 'plongée', 'corail', 'méduse', 'tortue', 'océan'],
+    titleTag: 'Imprimables sous-marins Etsy & KDP | Idées de niches',
+    metaDescription: 'Idées d\'imprimables monde sous-marin à vendre sur Etsy et KDP. Coloriages océan, mots mêlés mer, puzzles aquatiques. Niche thématique.',
   },
   hero: {
     title: 'Idées d\'Imprimables Sous-Marins pour les Vendeurs',

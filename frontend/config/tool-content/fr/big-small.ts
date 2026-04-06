@@ -1,24 +1,29 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'fiches comparaison de tailles gratuites',
+    primaryKeyword: 'fiches grand petit gratuit à imprimer',
     secondaryKeywords: [
-      'créer des fiches grand et petit gratuitement',
-      'générateur de comparaison de tailles gratuit sans inscription',
-      'fiches grand petit gratuites PDF',
-      'comparaison de tailles gratuit en ligne',
+      'comparaison tailles gratuit en ligne',
+      'ranger par taille gratuit',
+      'plus grand plus petit gratuit',
+      'classement taille maternelle gratuit',
     ],
     lsiKeywords: [
-      'essai gratuit avec filigrane sans inscription',
-      'licence commerciale pour vendre sur Etsy',
-      '5 types de questions modes identiques et différents',
+      'grand',
+      'petit',
+      'comparer',
+      'trier',
+      'ranger',
+      'gratuit',
+      'sans inscription',
+      'maternelle',
     ],
-    titleTag: 'Comparaison de tailles gratuit | LCS',
-    metaDescription: 'Créez des fiches de comparaison de tailles gratuitement. 5 types de questions, 104 thèmes, sans inscription. Licence commerciale disponible.',
+    titleTag: 'Fiches grand/petit gratuit à imprimer | LCS',
+    metaDescription: 'Créez des fiches de comparaison de tailles gratuitement en ligne. Images thématiques, corrections automatiques, sans inscription. Essai gratuit.',
     },
 
   hero: {
-    title: 'Comparaison de tailles gratuit — créez en ligne',
+    title: 'Fiches grand/petit gratuites — créez des comparaisons de tailles en ligne',
     tagline: 'Créez des fiches de comparaison de tailles avec cinq types de questions, deux modes d\'images et une sortie entièrement visuelle sans aucun texte — vendables dans le monde entier sans traduction',
     description: 'Créez des fiches de comparaison de tailles gratuitement en ligne — sans inscription, sans carte bancaire. Les utilisateurs identifient les images plus grandes, plus petites ou de taille moyenne, ou les numérotent dans l\'ordre croissant ou décroissant. Cinq types de questions couvrent chaque compétence de discrimination de tailles : Entoure le Plus Grand, Entoure le Plus Petit, Entoure le Moyen, Numéroter 1–2–3 du Plus Petit au Plus Grand, et Numéroter 1–2–3 du Plus Grand au Plus Petit. Deux modes d\'images créent des exercices fondamentalement différents à partir du même outil : les Images Identiques montrent la même image à différentes tailles pour une perception pure de la taille, tandis que les Images Différentes montrent des objets distincts à différentes tailles pour un raisonnement de taille relative. Configurez 1 à 10 exercices par page avec 2 ou 3 images par exercice — deux images pour des comparaisons directes grand/petit, trois images pour introduire l\'option du moyen et activer les exercices de classement. Chaque fiche est entièrement visuelle avec aucun texte sur la sortie. Aucun mot n\'apparaît sur la page générée — uniquement des images et des indicateurs visuels. Cela rend vos fiches universellement utilisables quelle que soit la langue, le niveau de lecture ou la capacité de lecture, et universellement vendables sans traduction. Un seul listing de produit dessert tous les marchés du monde. Choisissez parmi plus de 3 100 illustrations réparties dans 104 collections thématiques ou téléchargez vos propres images. Le corrigé généré automatiquement met en évidence et entoure les réponses correctes pour une vérification instantanée. Exportez des PDF prêts à imprimer et des JPEG à 300 DPI en format Letter, A4, Carré (1200×1200) ou dimensions personnalisées. Activez les niveaux de gris pour une sortie économique en encre. Personnalisez chaque élément sur le canevas Fabric.js complet avec les polices Baloo 2, Fredoka, Lexend Deca, Nunito et Quicksand. L\'essai gratuit inclut toutes les fonctionnalités avec un filigrane sur les téléchargements. Achetez une licence pour supprimer le filigrane et vendre à usage commercial.',
   },

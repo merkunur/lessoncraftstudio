@@ -2,21 +2,11 @@ import type { BundleContent } from '../types';
 
 const content: BundleContent = {
   seo: {
-    primaryKeyword: 'pack visuels vendeurs imprimables apprentissage visuel',
-    secondaryKeywords: [
-      'pack générateur fiches coloriage dessin pour vendeurs',
-      'toolkit activités visuelles imprimables licence commerciale',
-      'pack fiches reconnaissance de motifs pour Etsy.fr',
-      'générateurs fiches dessin coloriage pour vendeurs KDP',
-    ],
-    lsiKeywords: [
-      'pack fiches coloriage dessin imprimables',
-      'collection fiches motifs graphiques comptage imprimables',
-      'licence commerciale fiches activités visuelles',
-      'outil création fiches visuelles en masse',
-    ],
-    titleTag: 'Pack visuels pour vendeurs d\'imprimables | LCS',
-    metaDescription: '7 générateurs d\'apprentissage visuel en un pack. Coloriage, dessin, motifs, tailles, graphiques et tracé de lignes à vendre sur Etsy, KDP et Gumroad. 49 $. .',
+    primaryKeyword: 'pack générateurs apprentissage visuel',
+    secondaryKeywords: ['bundle fiches visuelles', 'pack cherche et trouve ombres', 'générateurs visuels groupés', 'pack fiches observation'],
+    lsiKeywords: ['visuel', 'observation', 'cherche et trouve', 'ombres', 'pack', 'groupé'],
+    titleTag: 'Pack générateurs apprentissage visuel | Prix groupé',
+    metaDescription: 'Pack de générateurs d\'apprentissage visuel : cherche et trouve, ombres, pièces manquantes, quadrillage. Prix groupé, licence commerciale.',
   },
 
   hero: {

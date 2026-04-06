@@ -2,21 +2,11 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Imprimables CE2/CM1 à vendre | LCS',
-    metaDescription: 'Idées d\'imprimables CE2 à vendre sur Etsy, KDP & Gumroad. Stratégies de niche pour les vendeurs ciblant l\'année décisive du CE2.',
-
     primaryKeyword: 'imprimables CE2 CM1 à vendre',
-    secondaryKeywords: [
-      'fiches CE2 à vendre',
-      'idées business imprimables cours élémentaire 2',
-      'fiches activités CE2 pour vendeurs',
-      'vendre imprimables CE2 sur Gumroad',
-    ],
-    lsiKeywords: [
-      'fiches éducatives cycle 2 supérieur',
-      'produits imprimables CE2 imprimables',
-      'activités apprentissage 8-9 ans',
-    ],
+    secondaryKeywords: ['fiches CE2 à imprimer idées', 'cahier activités CM1 KDP', 'exercices CE2 CM1 à vendre', 'fiches primaire imprimables'],
+    lsiKeywords: ['CE2', 'CM1', 'cours moyen', '8-9 ans', 'multiplication', 'conjugaison'],
+    titleTag: 'Imprimables CE2/CM1 pour Etsy & KDP | Idées niches',
+    metaDescription: 'Idées d\'imprimables CE2 et CM1 à vendre sur Etsy et KDP. Maths, conjugaison, vocabulaire, puzzles. Niche éducative cycle 3.',
   },
   hero: {
     title: 'Idées d\'Imprimables CE2 pour les Vendeurs',

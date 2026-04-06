@@ -2,24 +2,29 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'fiches plus grand plus petit générateur pour Etsy',
+    primaryKeyword: 'fiches plus grand plus petit à imprimer',
     secondaryKeywords: [
-      'générateur de fiches de comparaison pour vendeurs Etsy',
-      'fiches plus ou moins pour Amazon KDP',
-      'fiches comparaison de quantités licence commerciale',
-      'créer des cahiers de comparaison pour La Salle des Maîtres',
+      'comparer des nombres GS CP',
+      'exercice comparaison quantités',
+      'plus que moins que fiche',
+      'dénombrement et comparaison',
     ],
     lsiKeywords: [
-      'licence commerciale 300 DPI prêt à imprimer',
-      'business d\'imprimables fiches comparaison vendeurs',
-      '3 modes de comparaison corrigé automatique 104 thèmes',
+      'plus grand que',
+      'plus petit que',
+      'égal',
+      'comparer',
+      'quantités',
+      'GS',
+      'CP',
+      'CE1',
     ],
-    titleTag: 'Fiches plus grand plus petit pour Etsy | LCS',
-    metaDescription: 'Créez des fiches plus grand plus petit à vendre sur Etsy & KDP. 3 modes de comparaison, licence commerciale. 49 $ paiement unique.',
+    titleTag: 'Fiches plus grand/plus petit | Générateur comparaison',
+    metaDescription: 'Créez des fiches de comparaison de nombres et quantités avec images thématiques. Corrections automatiques, PDF 300 DPI. Essai gratuit — licence commerciale.',
   },
 
   hero: {
-    title: 'Générez des fiches plus grand plus petit pour Etsy & KDP',
+    title: 'Fiches plus grand/plus petit à imprimer — Générateur de comparaison de nombres',
     tagline: 'Transformez la comparaison de nombres en découverte visuelle avec des fiches illustrées de plus grand et plus petit.',
     description:
       'Créez des fiches plus grand plus petit à vendre sur Etsy, Amazon KDP ou La Salle des Maîtres — des fiches qui permettent aux acheteurs d\'identifier quel groupe a plus, quel groupe a moins, et quand deux groupes sont égaux. Choisissez parmi trois modes d\'exercice distincts — Image contre Image, Image contre Nombre et le mode unique Cocher et Barrer les Groupes où les utilisateurs analysent des boîtes d\'images mélangées pour trouver le groupe majoritaire. Basculez entre comparaisons d\'images identiques et différentes, choisissez entre symboles illustrés et symboles mathématiques standards, et puisez dans plus de 3 100 images dans 104 thèmes. Chaque fiche génère un corrigé automatique, et vous pouvez exporter des PDF prêts à imprimer en format Letter, A4 ou personnalisé à plus de 400 DPI. Que vous vendiez des packs thématiques sur Etsy, compiliez des cahiers de comparaison sur Amazon KDP ou créiez des ateliers différenciés pour votre classe, le Générateur Plus ou Moins produit des résultats professionnels en quelques minutes. Essai gratuit avec toutes les fonctionnalités — sans inscription, sans carte bancaire. Les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.',
@@ -198,6 +203,11 @@ const content: AppContent = {
       question: 'Quelle est la politique de remboursement ?',
       answer:
         'L\'essai gratuit vous donnant accès à toutes les fonctionnalités, nous n\'offrons pas de remboursement sur les achats de licence. Vous pouvez tester chaque mode, thème, format d\'export et taille de page avant d\'acheter. L\'essai gratuit est la politique de remboursement — assurez-vous que l\'outil répond à vos besoins avant d\'acheter. Cette approche vous permet d\'évaluer chaque fonctionnalité, format d\'exportation et combinaison de thèmes avant de prendre une décision d\'achat, vous donnant une confiance totale dans votre investissement.',
+    },
+    {
+      question: 'Ces fiches de comparaison sont-elles adaptées à la GS et au CP ?',
+      answer:
+        'Oui. Comparer des quantités est au programme de la grande section (GS) et du CP. Les symboles > et < sont introduits au CP et consolidés au CE1. Au Québec, cela correspond au préscolaire et à la 1re année.',
     },
   ],
 

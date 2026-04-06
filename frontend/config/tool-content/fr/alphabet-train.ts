@@ -1,24 +1,29 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'générateur de fiches d\'alphabet gratuit',
+    primaryKeyword: 'générateur fiches alphabet gratuit',
     secondaryKeywords: [
-      'créer des fiches alphabet train gratuitement',
-      'fiches de reconnaissance des lettres gratuit sans inscription',
-      'générateur alphabet gratuit PDF 11 langues',
-      'fiches d\'alphabet gratuites avec corrigé',
+      'fiches alphabet à imprimer gratuit',
+      'exercices alphabet maternelle gratuit',
+      'reconnaissance lettres GS CP gratuit',
+      'fiches lettres gratuit en ligne',
     ],
     lsiKeywords: [
-      'essai gratuit avec filigrane sans inscription',
-      'licence commerciale pour vendre sur Etsy',
-      '11 wagons colorés alphabets natifs 104 thèmes',
+      'ABC',
+      'majuscules',
+      'minuscules',
+      'reconnaissance',
+      'gratuit',
+      'sans inscription',
+      'maternelle',
+      'GS',
     ],
-    titleTag: 'Fiches d\'alphabet gratuites en ligne | LCS',
-    metaDescription: 'Créez des fiches d\'alphabet gratuitement en ligne. 11 wagons colorés, 11 langues, 104 thèmes, sans inscription. Licence commerciale disponible.',
-    },
+    titleTag: 'Générateur fiches alphabet gratuit en ligne | LCS',
+    metaDescription: 'Créez des fiches d\'alphabet gratuitement en ligne. Images thématiques, reconnaissance des lettres, sans inscription. Licence commerciale disponible.',
+  },
 
   hero: {
-    title: 'Fiches d\'alphabet gratuites — créez en ligne sans inscription',
+    title: 'Générateur de fiches d\'alphabet gratuit — créez en ligne sans inscription',
     tagline: 'Créez des fiches colorées avec association lettre-image dans 11 langues — des wagons de train uniques pour chaque lettre',
     description: 'Créez des fiches d\'alphabet gratuitement en ligne — sans inscription, sans carte bancaire. Des fiches train qui ne ressemblent en rien aux exercices de traçage classiques. Cet outil dispose 11 wagons de train colorés sur la page, chacun portant une lettre et une illustration correspondante. Des images-indices sont dispersées autour du train — les utilisateurs identifient par quelle lettre chaque image commence et l\'associent au bon wagon. Choisissez entre le mode Création Automatique (l\'outil sélectionne aléatoirement 11 lettres et assigne les images correspondantes) ou la Sélection Manuelle (choisissez chaque lettre dans l\'alphabet complet et assignez chaque image vous-même). Ajustez la difficulté avec le curseur d\'indices : 3 indices pour les débutants, 5–7 pour le niveau intermédiaire, et 9–11 pour les utilisateurs avancés qui doivent associer presque chaque wagon. La vraie puissance réside dans la sensibilité linguistique — sélectionnez parmi 11 alphabets natifs dont l\'allemand (Ä/Ö/Ü), le suédois (Å/Ä/Ö), l\'espagnol (Ñ) et bien d\'autres. La même image s\'associe à des lettres différentes selon la langue : \" chien \" correspond à C en français mais à H en allemand (Hund). Un seul modèle de fiche devient 11 produits uniques. Parcourez plus de 3 100 images réparties dans 104 thèmes, ou téléchargez les vôtres pour des créations personnalisées. Choisissez parmi 7 familles de polices et exportez en PDF prêt à imprimer ou en JPEG haute résolution. L\'essai gratuit inclut un filigrane sur les téléchargements. Achetez une licence pour supprimer le filigrane et vendre à usage commercial.',
   },

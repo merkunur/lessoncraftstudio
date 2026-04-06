@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'numérique physique imprimables produits numériques physiques',
+    primaryKeyword: 'imprimables numériques ou physiques comparaison',
     secondaryKeywords: [
-      'modèle commercial imprimables numériques',
-      'impression à la demande ou téléchargement numérique',
-      'vendre produits imprimés physiques',
-      'stratégie téléchargement numérique imprimables',
+      'numérique vs physique imprimables',
+      'téléchargement ou impression guide',
+      'vendre numériques ou imprimés',
+      'avantages imprimables numériques',
     ],
     lsiKeywords: [
-      'téléchargement numérique produit physique impression à la demande modèle distribution',
-      'frais expédition marge bénéficiaire comparaison gestion stocks évolutivité',
-      'coûts production méthode livraison expérience client format produit',
-      'modèle hybride place de marché numérique marchés artisanaux physiques frais généraux',
-      'revenus récurrents coûts impression emballage contrôle qualité produit',
-      'sélection format comparaison modèle commercial stratégie vendeur trajectoire croissance',
+      'numérique',
+      'physique',
+      'comparaison',
+      'avantages',
+      'téléchargement',
+      'impression',
     ],
-    titleTag: 'Numérique vs physique : imprimables | LCS',
-    metaDescription: 'Comparaison imprimables numériques vs physiques pour vendeurs : marges bénéficiaires, évolutivité, logistique et choix du bon format pour votre activité.',
+    titleTag: 'Imprimables numériques ou physiques | Comparaison',
+    metaDescription: 'Numériques ou physiques : quel format choisir pour vendre vos imprimables ? Avantages, coûts, marges. Guide comparatif complet.',
   },
 
   hero: {

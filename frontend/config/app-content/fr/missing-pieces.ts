@@ -2,24 +2,29 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'puzzles pièces manquantes pour cahiers KDP',
+    primaryKeyword: 'puzzle pièces manquantes à imprimer',
     secondaryKeywords: [
-      'générateur de puzzles pièces manquantes pour Etsy',
-      'fiches pièces manquantes pour Amazon KDP',
-      'puzzles visuels imprimables licence commerciale',
-      'créer des cahiers de puzzles pour vendeurs',
+      'jeu pièce manquante fiche',
+      'compléter le puzzle exercice',
+      'observation visuelle fiche',
+      'jeu logique visuelle à imprimer',
     ],
     lsiKeywords: [
-      'licence commerciale 300 DPI prêt à imprimer',
-      'business d\'imprimables puzzles visuels vendeurs',
-      '6 formes de pièces corrigé automatique 104 thèmes',
+      'puzzle',
+      'compléter',
+      'observer',
+      'raisonnement visuel',
+      'maternelle',
+      'GS',
+      'CP',
+      'solution',
     ],
-    titleTag: 'Pièces manquantes pour cahiers KDP & Etsy | LCS',
-    metaDescription: 'Créez des puzzles pièces manquantes à vendre sur Etsy & KDP. 6 formes, difficulté configurable, licence commerciale. 49 $ paiement unique.',
+    titleTag: 'Puzzle pièces manquantes | Générateur jeux logiques',
+    metaDescription: 'Créez des fiches « pièces manquantes » avec images thématiques et solutions automatiques. PDF 300 DPI imprimables. Essai gratuit — licence commerciale.',
   },
 
   hero: {
-    title: 'Créez des puzzles pièces manquantes pour Etsy & Amazon KDP',
+    title: 'Puzzle pièces manquantes à imprimer — Générateur de jeux de logique visuelle',
     tagline: 'Créez des puzzles style puzzle où des pièces sont découpées dans des images et les utilisateurs identifient la bonne option numérotée — avec 6 formes de pièces, 1 à 5 pièces manquantes, 2 à 6 options de réponse incluant des pièces distractrices, des corrigés auto-générés et un design purement visuel qui fonctionne dans toutes les langues.',
     description:
       'Créez des puzzles pièces manquantes à vendre sur Etsy, Amazon KDP ou La Salle des Maîtres — des puzzles où une image a des trous découpés et les acheteurs identifient quelle option numérotée remplit chaque espace. L\'algorithme d\'extraction intelligente de pièces trouve des zones visuellement distinctes avec une variance de couleur suffisante, garantissant que chaque puzzle est résolvable et engageant. Choisissez parmi 6 formes de pièces — carré, cercle, rectangle portrait, rectangle paysage, ellipse portrait et ellipse paysage — et configurez la difficulté avec 1 à 5 pièces manquantes et 2 à 6 options de réponse qui incluent des pièces distractrices pour stimuler les compétences de discrimination visuelle. Chaque puzzle comprend un corrigé auto-généré avec des étiquettes numériques surlignées en jaune placées à l\'intérieur de chaque trou montrant la bonne option. L\'en-tête auto-généré affiche \" Pièces Manquantes \" en turquoise (#06B6D4) avec une description rose (#DB2777) à travers un système à double bordure — bordure extérieure bleu sarcelle (#14B8A6, 8px) et bordure intérieure rose vif (#EC4899, 3px) — localisé dans les 11 langues prises en charge. Pièces Manquantes n\'est PAS sensible à la langue : les puzzles sont purement visuels sans contenu dépendant de la locale, donc chaque puzzle fonctionne identiquement dans le monde entier. L\'Accès Complet déverrouille les 104 thèmes avec plus de 3 100 illustrations et les 11 langues d\'interface. Ajoutez des thèmes de fond et de bordure avec des contrôles d\'opacité indépendants, et exportez des PDF et JPEG prêts à imprimer à 300 DPI en format Letter, A4, Carré ou dimensions personnalisées. Que vous vendiez des packs de puzzles visuels sur Etsy, compiliez des cahiers de puzzles pour Amazon KDP ou créiez des activités de pensée critique pour Gumroad, ce générateur produit des puzzles prêts pour la production en quelques minutes — essai gratuit avec toutes les fonctionnalités, sans inscription, sans carte bancaire. Les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.',
@@ -198,6 +203,11 @@ const content: AppContent = {
       question: 'Quelle est la politique de remboursement ?',
       answer:
         'Comme l\'essai gratuit vous donne accès à chaque fonctionnalité, nous n\'offrons pas de remboursement sur les achats de licence commerciale. Vous pouvez tester les 6 formes de pièces, les réglages de difficulté configurables, le corrigé auto-généré, la bibliothèque d\'images complète, les thèmes de fond et de bordure et tous les formats de téléchargement avant d\'acheter. L\'essai gratuit est la politique de remboursement — assurez-vous que l\'outil correspond à vos besoins avant d\'acheter une licence.',
+    },
+    {
+      question: 'Ce jeu de pièces manquantes est-il adapté à la maternelle et au CP ?',
+      answer:
+        'Oui. L\'observation visuelle et le raisonnement logique se développent dès la grande section (GS). Des puzzles simples conviennent à la GS, des puzzles plus complexes au CP et CE1. Au Québec, cela correspond au préscolaire et à la 1re année.',
     },
   ],
 

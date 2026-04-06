@@ -30,10 +30,10 @@ const homepageMetadata: Record<string, { title: string; description: string; key
     ogAlt: 'LessonCraftStudio - Arbeitsblatt Generator für Etsy & KDP'
   },
   fr: {
-    title: 'Lancez un business d\'imprimables rentable | LessonCraftStudio',
-    description: 'Construisez un business d\'imprimables sur Etsy, Amazon KDP ou TPT. 33 generateurs professionnels, 3 000+ images, 11 langues. Essai gratuit avec filigrane.',
-    keywords: 'business imprimables, vendre imprimables Etsy, KDP imprimables, revenu complementaire imprimables, generateur mots meles, imprimables professionnels',
-    ogAlt: 'LessonCraftStudio - Lancez un business d\'imprimables rentable'
+    title: 'Générateur de fiches pédagogiques | Créer & vendre sur Etsy & KDP',
+    description: '33 générateurs de fiches avec 3 000+ images et 11 langues. PDF prêts à imprimer en minutes. Essai gratuit — licence commerciale pour Etsy, KDP & plus.',
+    keywords: 'générateur fiches pédagogiques, générateur mots mêlés, générateur mots croisés, fiches maths à imprimer, générateur coloriages, créer fiches à imprimer, générateur sudoku',
+    ogAlt: 'LessonCraftStudio - Générateur de fiches pédagogiques pour Etsy & KDP'
   },
   es: {
     title: 'Inicia un negocio de imprimibles rentable | LessonCraftStudio',

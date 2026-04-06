@@ -2,21 +2,11 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Licence en volume — Imprimables | LCS',
-    metaDescription: 'Idées de licences en gros d\'imprimables pour vendre des collections de fiches aux écoles et districts. Stratégies de licences en volume pour entrepreneurs.',
-
-    primaryKeyword: 'licence en volume imprimables business',
-    secondaryKeywords: [
-      'business licences fiches en gros',
-      'licences imprimables districts éducatifs',
-      'ventes fiches imprimables en gros',
-      'offres imprimables éducatifs en volume',
-    ],
-    lsiKeywords: [
-      'licences en volume produits numériques',
-      'accords imprimables institutionnels',
-      'packs fiches à l\'échelle du district',
-    ],
+    primaryKeyword: 'licence en gros imprimables idées',
+    secondaryKeywords: ['licence commerciale volume idées', 'vendre licences écoles', 'licences bulk imprimables', 'B2B imprimables éducatifs'],
+    lsiKeywords: ['licence', 'volume', 'gros', 'école', 'B2B', 'institutionnel'],
+    titleTag: 'Licence en gros imprimables | Idées B2B éducatif',
+    metaDescription: 'Idées de licences en gros pour imprimables éducatifs. Vente B2B aux écoles, centres, associations. Guide des modèles de licence rentables.',
   },
   hero: {
     title: 'Idées de Licences en Gros d\'Imprimables pour les Vendeurs',

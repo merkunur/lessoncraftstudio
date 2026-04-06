@@ -2,24 +2,29 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'fiches cherche et compte à vendre sur Etsy',
+    primaryKeyword: 'cherche et compte à imprimer',
     secondaryKeywords: [
-      'générateur de fiches Je Vois Je Vois pour vendeurs Etsy',
-      'fiches cherche et compte pour Amazon KDP',
-      'fiches repérage de lettres licence commerciale',
-      'créer des cahiers d\'objets cachés pour La Salle des Maîtres',
+      'dénombrement maternelle fiche',
+      'compter les objets exercice',
+      'combien y en a-t-il fiche',
+      'jeu de dénombrement GS CP',
     ],
     lsiKeywords: [
-      'licence commerciale 300 DPI prêt à imprimer',
-      'business d\'imprimables cherche et compte vendeurs',
-      '4 types de tâches repérage lettres corrigé automatique',
+      'dénombrer',
+      'combien',
+      'compter',
+      'discrimination visuelle',
+      'GS',
+      'CP',
+      'maternelle',
+      'correction',
     ],
-    titleTag: 'Fiches cherche et compte à vendre sur Etsy | LCS',
-    metaDescription: 'Créez des fiches cherche et compte à vendre sur Etsy & KDP. Modes Objets Cachés et Lettres, licence commerciale. 49 $ paiement unique.',
+    titleTag: 'Cherche et compte à imprimer | Générateur dénombrement',
+    metaDescription: 'Créez des fiches « cherche et compte » où les enfants trouvent et comptent des images thématiques. Corrections automatiques. Essai gratuit — licence commerciale.',
   },
 
   hero: {
-    title: 'Générez des fiches cherche et compte à vendre sur Etsy & KDP',
+    title: 'Cherche et compte à imprimer — Générateur de fiches de dénombrement',
     tagline: 'Deux modes d\'activité en un seul générateur — Objets Cachés Je Vois Je Vois et Repérage de Lettres — avec quatre types de tâches combinables (entourer, encadrer, barrer, compter), alphabets spécifiques à la langue avec lettres accentuées, étiquettes de noms d\'images localisées dans 11 langues, et corrigés auto-générés avec annotations visuelles.',
     description:
       'Créez des fiches cherche et compte à vendre sur Etsy, Amazon KDP ou La Salle des Maîtres — des fiches Je Vois Je Vois où les acheteurs explorent une scène d\'images dispersées pour trouver, entourer, barrer ou compter des objets spécifiques. Choisissez entre deux modes d\'activité : le mode Objets Cachés disperse les images dans une grille configurable (5–10 lignes × 5–10 colonnes) et vous permet d\'assigner jusqu\'à 4 objets cibles avec des types de tâches individuels — entourer l\'objet, l\'encadrer, le barrer ou compter combien apparaissent. Le mode Repérage de Lettres affiche un alphabet spécifique à la langue avec lettres accentuées (français é, è, ç, à ; allemand ÄÖÜ ; espagnol Ñ ; suédois ÅÄÖ ; danois/norvégien ÆØÅ) et génère des scènes Je Vois Je Vois avec des images commençant par la lettre sélectionnée. Chaque fiche inclut un en-tête auto-généré — \" Je Vois, Je Vois \" ou \" Repérage de Lettres \" — localisé dans les 11 langues prises en charge avec une bordure bleue (#2196F3). Le système à double canevas génère à la fois un onglet Fiche et un onglet Corrigé avec des annotations rouges cercle, carré et croix plus des affichages de quantités. Le Générateur Cherche et Compte est sensible à la langue : les étiquettes de noms d\'images sur la fiche sont rendues dans la langue sélectionnée via le système de Vocabulaire d\'Images. L\'Accès Complet déverrouille les 104 thèmes avec plus de 3 100 illustrations et les 11 langues d\'interface pour les étiquettes localisées. Ajoutez des thèmes de fond et des thèmes de bordure avec des contrôles d\'opacité indépendants, et exportez des PDF prêts à imprimer et des JPEG à 300 DPI en format Letter, A4, Carré (1200×1200) ou dimensions personnalisées. Que vous vendiez des packs d\'activités Je Vois Je Vois sur Etsy, compiliez des cahiers d\'objets cachés pour Amazon KDP ou créiez des activités de comptage pour Gumroad, ce générateur produit des fiches professionnelles en quelques minutes — essai gratuit avec toutes les fonctionnalités, sans inscription, sans carte bancaire. Les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.',
@@ -198,6 +203,11 @@ const content: AppContent = {
       question: 'Quelle est la politique de remboursement ?',
       answer:
         'L\'essai gratuit vous donnant accès à toutes les fonctionnalités, nous n\'offrons pas de remboursement sur les achats de licence commerciale. Vous pouvez tester les deux modes d\'activité, les quatre types de tâches, le mode Repérage de Lettres, les dimensions de grille configurables, le corrigé auto-généré, la bibliothèque d\'images complète, les thèmes de fond et de bordure et tous les formats de téléchargement avant d\'acheter. L\'essai gratuit est la politique de remboursement — assurez-vous que l\'outil répond à vos besoins avant d\'acheter une licence.',
+    },
+    {
+      question: 'Le cherche et compte est-il adapté à la maternelle GS et au CP ?',
+      answer:
+        'Oui. Le dénombrement est une compétence fondamentale en grande section (GS) et en CP. Ajustez le nombre d\'objets à compter pour chaque niveau. Au Québec, cela correspond au préscolaire et à la 1re année du primaire.',
     },
   ],
 

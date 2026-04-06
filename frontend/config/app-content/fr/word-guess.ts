@@ -2,24 +2,29 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'jeux de devinettes de mots à vendre sur Etsy',
+    primaryKeyword: 'jeu du pendu à imprimer',
     secondaryKeywords: [
-      'générateur de fiches deviner les mots pour Etsy',
-      'jeux de vocabulaire imprimables pour Amazon KDP',
-      'fiches de devinettes de mots licence commerciale',
-      'cahiers de puzzles vocabulaire pour vendeurs KDP',
+      'deviner le mot fiche',
+      'jeu de devinette mots',
+      'pendu à imprimer fiche',
+      'jeu de lettres vocabulaire',
     ],
     lsiKeywords: [
-      'licence commerciale 300 DPI prêt à imprimer',
-      'business d\'imprimables jeux de mots vendeurs Etsy',
-      'indices images 4 difficultés corrigé automatique',
+      'pendu',
+      'deviner',
+      'lettres',
+      'vocabulaire',
+      'indices',
+      'CP',
+      'CE1',
+      'solution',
     ],
-    titleTag: 'Devinettes de mots à vendre sur Etsy | LCS',
-    metaDescription: 'Créez des jeux de devinettes de mots à vendre sur Etsy & KDP. Indices images, 4 difficultés, licence commerciale. 49 $ paiement unique.',
+    titleTag: 'Jeu du pendu à imprimer | Générateur devinettes mots',
+    metaDescription: 'Créez des fiches de jeu du pendu avec vocabulaire thématique et images. Solutions automatiques, PDF imprimables. Essai gratuit — licence commerciale.',
   },
 
   hero: {
-    title: 'Générez des jeux de devinettes à vendre sur Etsy, KDP & plus',
+    title: 'Jeu du pendu à imprimer — Générateur de devinettes de mots avec images',
     tagline: 'La déduction style pendu rencontre les indices visuels — quatre niveaux de difficulté transforment chaque mot en un puzzle gratifiant.',
     description:
       'Créez des jeux de devinettes de mots à vendre sur Etsy, Amazon KDP ou La Salle des Maîtres — des fiches style pendu où les acheteurs voient un indice image et déduisent le mot caché en remplissant des cases de lettres vides, développant simultanément l\'orthographe et le vocabulaire. Choisissez parmi trois sources de contenu : la Bibliothèque d\'Images intégrée avec plus de 3 100 illustrations réparties dans 104 thèmes, le Mode Édition Manuelle où vous sélectionnez des images puis personnalisez leurs noms d\'affichage, ou le mode Liste de Mots Personnalisée pour des puzzles textuels utilisant le vocabulaire de votre choix. Quatre niveaux de difficulté contrôlent le nombre de lettres pré-révélées comme indices — de Sans Indices (aucune lettre révélée) au mode Facile montrant la moitié des lettres — créant un étayage naturel du débutant à l\'avancé. Placez de 1 à 10 puzzles par fiche et basculez entre des grilles de lettres en majuscules ou en minuscules. L\'Accès Complet déverrouille les 11 langues prises en charge où le mot cible change selon la langue — \" dog \" en anglais devient \" Hund \" en allemand, \" chien \" en français, \" perro \" en espagnol — faisant de chaque langue un produit distinct et vendable. Chaque fiche génère un corrigé automatique, et vous pouvez exporter des PDF prêts à imprimer et des JPEG à plus de 400 DPI en format Letter, A4, Carré ou dimensions personnalisées. Que vous vendiez des packs de vocabulaire thématiques sur Etsy, compiliez des cahiers de puzzles de mots pour Amazon KDP ou créiez des ateliers de lecture différenciés pour Gumroad, le Générateur de Fiches Deviner les Mots produit des résultats professionnels en quelques minutes — essai gratuit avec toutes les fonctionnalités, sans inscription, sans carte bancaire. Les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.',
@@ -198,6 +203,11 @@ const content: AppContent = {
       question: 'Quelle est la politique de remboursement ?',
       answer:
         'L\'essai gratuit vous donnant accès à toutes les fonctionnalités, nous n\'offrons pas de remboursement sur les achats de licence commerciale. Vous pouvez tester chaque source de contenu, chaque niveau de difficulté, chaque thème, chaque format d\'export et chaque format de page avant d\'acheter. L\'essai gratuit est la politique de remboursement — assurez-vous que l\'outil répond à vos besoins avant d\'acheter une licence.',
+    },
+    {
+      question: 'Le jeu du pendu est-il adapté au CP et CE1 ?',
+      answer:
+        'Oui. Utilisez des mots courts et des images comme indices pour le CP. Pour le CE1 et CE2, proposez des mots plus longs sans indices visuels pour augmenter la difficulté. Au Québec, cela correspond à la 1re et 2e année.',
     },
   ],
 

@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'licence commerciale pour vendeurs d\'imprimables',
+    primaryKeyword: 'licence commerciale imprimables comprendre',
     secondaryKeywords: [
-      'licence commerciale imprimables expliquée',
-      'vendre des fiches légalement',
-      'droits commerciaux produits numériques',
-      'licences pour vendeurs d\'imprimables',
+      'droits commerciaux fiches guide',
+      'licence commerciale Etsy guide',
+      'droits vente imprimables',
+      'licence commerciale KDP',
     ],
     lsiKeywords: [
-      'propriété intellectuelle droits d\'utilisation usage personnel vs commercial niveaux de licence',
-      'libre de droits droits de revente œuvres dérivées sous-licence conformité droits d\'auteur',
-      'conditions de licence droits produits numériques licence clip art licence modèles',
-      'droits de production commerciale contrat de licence vérification de licence système de conformité',
-      'erreurs de licence restrictions de plateforme exigences d\'attribution clauses d\'exclusivité',
-      'registres de licence documentation de licence licence multi-plateforme avantage concurrentiel',
+      'licence',
+      'commerciale',
+      'droits',
+      'vente',
+      'attribution',
+      'redevance',
     ],
-    titleTag: 'Licence commerciale pour vendeurs | LCS',
-    metaDescription: 'Licences commerciales pour imprimables avant de vendre. Types de licences, erreurs courantes et comment une licence appropriée protège votre activité.',
+    titleTag: 'Licence commerciale imprimables | Guide complet',
+    metaDescription: 'Comprendre les licences commerciales pour vendre des imprimables. Droits, restrictions, attribution, redevances. Guide complet pour vendeurs.',
   },
 
   hero: {

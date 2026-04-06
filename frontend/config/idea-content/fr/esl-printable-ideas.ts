@@ -2,21 +2,11 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Imprimables FLE — Idées business | LCS',
-    metaDescription: 'Idées d\'imprimables FLE/ESL à vendre sur Etsy, KDP et Gumroad. Stratégies de niche pour vendeurs ciblant vendeurs, tuteurs et apprenants d\'anglais dans le.',
-
-    primaryKeyword: 'imprimables fle idées business esl vendeurs',
-    secondaryKeywords: [
-      'fiches ESL à vendre',
-      'idées business imprimables anglais',
-      'fiches activités apprenants anglais',
-      'vendre imprimables FLE Etsy',
-    ],
-    lsiKeywords: [
-      'fiches éducatives apprenants langue anglaise',
-      'imprimables multilingues éducatifs',
-      'ressources activités TESOL',
-    ],
+    primaryKeyword: 'imprimables FLE français langue étrangère',
+    secondaryKeywords: ['fiches FLE à imprimer idées', 'cahier activités FLE KDP', 'exercices français langue étrangère', 'imprimables FLE à vendre'],
+    lsiKeywords: ['FLE', 'français langue étrangère', 'vocabulaire', 'grammaire', 'débutant', 'alphabétisation'],
+    titleTag: 'Imprimables FLE français langue étrangère | Idées',
+    metaDescription: 'Idées d\'imprimables FLE (français langue étrangère) à vendre sur Etsy et KDP. Vocabulaire, grammaire, activités. Niche internationale.',
   },
   hero: {
     title: 'Idées d\'Imprimables FLE/ESL pour les Vendeurs',

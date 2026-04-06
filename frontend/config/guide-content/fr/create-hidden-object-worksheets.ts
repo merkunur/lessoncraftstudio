@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'cherche trouve vendre ligne comment créer fiches scènes',
+    primaryKeyword: 'créer des jeux cherche et trouve à imprimer',
     secondaryKeywords: [
-      'générateur scènes objets cachés',
-      'fiches Cherche et Trouve pour enfants à vendre',
-      'fiches intrus imprimables licence commerciale',
-      'créer puzzles objets cachés pour Etsy et KDP',
+      'tutoriel cherche et trouve',
+      'guide objets cachés à imprimer',
+      'jeux d\'observation guide',
+      'fiches cherche et trouve maternelle',
     ],
     lsiKeywords: [
-      'fiches recherche visuelle marché préscolaire',
-      'activités cherche et trouve imprimables',
-      'fiches trouve l\'image cachée',
-      'vendre fiches objets cachés sur Etsy',
-      'cahiers cherche et trouve Amazon KDP',
-      'générateur scènes objets cachés licence commerciale',
+      'cherche et trouve',
+      'objets cachés',
+      'observation',
+      'concentration',
+      'maternelle',
+      'CP',
     ],
-    titleTag: 'Cherche et trouve à vendre en ligne | LCS',
-    metaDescription: 'Créez des fiches objets cachés avec deux modes de jeu : Cherche et Trouve et Trouve l\'intrus. Scènes thématiques, corrigés auto et vente sur Etsy et KDP.',
+    titleTag: 'Créer des jeux cherche et trouve | Guide complet',
+    metaDescription: 'Comment créer des fiches « cherche et trouve » avec images thématiques. Solutions automatiques. Guide étape par étape pour vendeurs.',
   },
 
   hero: {

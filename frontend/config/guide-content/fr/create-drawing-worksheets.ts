@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'créer des fiches de dessin à vendre',
+    primaryKeyword: 'créer des fiches de dessin à imprimer',
     secondaryKeywords: [
-      'fiches dessin sur grille pour enfants à vendre',
-      'générateur fiches symétrie licence commerciale',
-      'fiches dessin imprimables pour Etsy et KDP',
-      'fiches reproduction cellule par cellule',
+      'tutoriel fiches dessin',
+      'guide fiches arts visuels',
+      'dessin guidé à imprimer guide',
+      'fiches coloriage et dessin',
     ],
     lsiKeywords: [
-      'fiches dessin double grille imprimables',
-      'pourcentage d\'indices réglable fiches dessin',
-      'mode miroir exercices symétrie',
-      'vendre fiches dessin sur Etsy',
-      'cahiers activités dessin Amazon KDP',
-      'outil fiches contours N&B',
+      'dessin guidé',
+      'arts visuels',
+      'créativité',
+      'coloriage',
+      'maternelle',
+      'CP',
     ],
-    titleTag: 'Fiches de dessin à vendre en ligne | LCS',
-    metaDescription: 'Créez des fiches dessin et symétrie avec double grille, pourcentage d\'indices réglable, trois modes symétrie et contours N&B. Vendez sur Etsy et KDP.',
+    titleTag: 'Créer des fiches de dessin | Guide étape par étape',
+    metaDescription: 'Comment créer des fiches de dessin guidé et coloriage avec images thématiques. PDF imprimables, haute résolution. Guide complet pour créateurs.',
   },
 
   hero: {

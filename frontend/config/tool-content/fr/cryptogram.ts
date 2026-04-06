@@ -2,24 +2,28 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'générateur de cryptogrammes gratuit',
+    primaryKeyword: 'générateur message codé gratuit',
     secondaryKeywords: [
-      'créer des cryptogrammes gratuitement en ligne',
-      'générateur de puzzles chiffrés gratuit sans inscription',
-      'cryptogrammes à images gratuit PDF',
-      'cryptogrammes gratuit avec corrigé automatique',
+      'cryptogramme à imprimer gratuit',
+      'code secret gratuit en ligne',
+      'message codé à imprimer gratuit',
+      'jeu de décodage gratuit',
     ],
     lsiKeywords: [
-      'essai gratuit avec filigrane sans inscription',
-      'licence commerciale pour vendre sur Etsy',
-      'chiffre par images lettres à révéler 11 langues',
+      'alphabet codé',
+      'déchiffrer',
+      'substitution',
+      'gratuit',
+      'sans inscription',
+      'solution',
+      'PDF',
     ],
-    titleTag: 'Générateur de cryptogrammes gratuit | LCS',
-    metaDescription: 'Créez des cryptogrammes gratuitement en ligne. Chiffre par images, lettres à révéler, sans inscription. Licence commerciale disponible.',
+    titleTag: 'Générateur message codé gratuit en ligne | LCS',
+    metaDescription: 'Créez des cryptogrammes et messages codés gratuitement en ligne. Images thématiques, solutions automatiques, sans inscription. Essai gratuit.',
   },
 
   hero: {
-    title: 'Cryptogrammes gratuits — créez en ligne sans inscription',
+    title: 'Générateur de messages codés gratuit — créez des cryptogrammes en ligne',
     tagline: 'Créez des puzzles chiffre par images où chaque lettre correspond à une image et les utilisateurs décodent des phrases secrètes entières par reconnaissance de schémas',
     description: 'Créez des cryptogrammes gratuitement en ligne — sans inscription, sans carte bancaire. Chaque puzzle est construit sur une mécanique de chiffre par images : chaque lettre de l\'alphabet est associée à une image unique, et votre phrase secrète est rendue comme une séquence d\'images que les utilisateurs doivent décoder pour retrouver le texte lisible. Contrairement aux mots cachés ou aux mots mélangés qui travaillent avec des mots individuels, le Générateur de Cryptogramme encode des phrases et sentences entières — les utilisateurs déchiffrent le code en déduisant quelle image représente quelle lettre, utilisant des indices contextuels provenant de mots courants comme \" le \", \" et \" et \" est \" pour accélérer leur décryptage. Le curseur Lettres à Révéler (0–10) est le contrôle principal de difficulté : réglez-le à zéro pour un défi de décryptage pur sans aucune information de départ, ou montez-le à dix pour un guidage important où de nombreuses correspondances lettre-image sont pré-résolues comme indices. L\'Attribution Automatique tire des images aléatoires de n\'importe laquelle des 104 collections thématiques (plus de 3 100 illustrations) pour remplir tout le chiffre en un clic, tandis que l\'Attribution Manuelle vous permet de sélectionner manuellement des images spécifiques pour des lettres spécifiques avec un aperçu visuel complet de toutes les correspondances. Téléchargez des images personnalisées pour un contrôle créatif total. Le corrigé inclut une légende des lettres montrant chaque lettre de l\'alphabet associée à son image assignée par ordre alphabétique — la référence définitive pour vérifier les solutions. La sensibilité linguistique est intégrée : changez de langue et le texte du message secret ainsi que l\'alphabet changent. Les cryptogrammes allemands encodent des phrases allemandes avec ä, ö, ü, ß dans l\'alphabet ; les cryptogrammes français utilisent é, è, ç, à. Chaque version linguistique est un produit de chiffrage véritablement différent. Exportez des PDF prêts à imprimer et des JPEG à plus de 400 DPI en format Letter, A4 ou dimensions personnalisées. Choisissez parmi 5 polices, activez les niveaux de gris pour un rendu économique en encre, et utilisez le canevas Fabric.js complet pour repositionner chaque élément. L\'essai gratuit inclut un filigrane sur les téléchargements. Achetez une licence pour supprimer le filigrane et vendre à usage commercial.',
   },

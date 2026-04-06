@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'meilleures niches cahiers d\'activités KDP 2026',
+    primaryKeyword: 'meilleures niches cahiers activités KDP',
     secondaryKeywords: [
-      'meilleures niches livres activités KDP pour éditeurs',
-      'catégories rentables livres activités Amazon KDP',
-      'recherche de niches KDP livres activités',
-      'niches sous-exploitées livres activités KDP',
+      'niches KDP rentables guide',
+      'niches cahiers activités Amazon',
+      'quels cahiers vendre sur KDP',
+      'niches imprimables KDP',
     ],
     lsiKeywords: [
-      'Amazon BSR classement meilleures ventes analyse concurrence demande',
-      'livres activités sous-catégorie maths puzzles coloriage mots cachés',
-      'segmentation public marché préscolaire enfants adultes seniors gros caractères',
-      'niche saisonnière fêtes rentrée scolaire été pérenne',
-      'validation niche titre test ventes 90 jours stratégie catalogue',
-      'hybride inter-catégories livres activités thématiques sous-niche',
+      'niches',
+      'KDP',
+      'cahiers activités',
+      'rentables',
+      'concurrence',
+      'Amazon',
     ],
-    titleTag: 'Meilleures niches cahiers KDP (2026) | LCS',
-    metaDescription: 'Meilleures niches de livres d\'activités KDP pour éditeurs. Analyse de la demande, évaluation concurrence, catégories sous-exploitées et timing saisonnier.',
+    titleTag: 'Meilleures niches KDP cahiers activités | Guide',
+    metaDescription: 'Les meilleures niches pour publier des cahiers d\'activités sur Amazon KDP. Analyse de la concurrence, volumes de recherche. Guide complet.',
   },
 
   hero: {

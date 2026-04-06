@@ -2,21 +2,16 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Imprimables printemps — Idées business | LCS',
-    metaDescription: 'Idées d\'imprimables de printemps à vendre sur Etsy, KDP et Gumroad. Concepts saisonniers mars-mai, stratégies nature et conseils pour vendeurs.',
-
-    primaryKeyword: 'imprimables de printemps idées business',
+    primaryKeyword: 'imprimables printemps à vendre',
     secondaryKeywords: [
-      'fiches de printemps à vendre',
-      'idées business imprimables printemps',
-      'fiches activités printemps vendeurs',
-      'vendre imprimables printemps Etsy',
+      'fiches printemps à imprimer idées',
+      'cahier activités printemps KDP',
+      'coloriages printemps à vendre',
+      'jeux printemps imprimables',
     ],
-    lsiKeywords: [
-      'fiches éducatives fleurs et jardins',
-      'pages activités nature saisonnières',
-      'imprimables printemps ressources',
-    ],
+    lsiKeywords: ['printemps', 'fleurs', 'papillons', 'jardin', 'mars', 'avril'],
+    titleTag: 'Imprimables printemps pour Etsy & KDP | Idées niches',
+    metaDescription: 'Idées d\'imprimables printemps à vendre sur Etsy et KDP. Coloriages fleurs, mots mêlés nature, puzzles jardinage. Niche saisonnière.',
   },
   hero: {
     title: 'Idées d\'Imprimables de Printemps pour les Vendeurs',

@@ -2,24 +2,29 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'générateur de sudoku images pour livres de jeux KDP',
+    primaryKeyword: 'sudoku à imprimer',
     secondaryKeywords: [
-      'créer des sudoku en images pour vendeurs Etsy',
-      'sudoku visuels 4×4 pour Amazon KDP',
-      'fiches sudoku images licence commerciale',
-      'cahiers de sudoku pour La Salle des Maîtres',
+      'générateur sudoku',
+      'sudoku enfant à imprimer',
+      'sudoku images à imprimer',
+      'créer grille sudoku',
     ],
     lsiKeywords: [
-      'licence commerciale 300 DPI prêt à imprimer',
-      'business d\'imprimables sudoku images vendeurs',
-      'grille 4×4 trois niveaux corrigé automatique',
+      'grille',
+      'logique',
+      'chiffres',
+      'images',
+      'facile',
+      'difficile',
+      '4x4',
+      '6x6',
     ],
-    titleTag: 'Sudoku images pour livres de jeux KDP | LCS',
-    metaDescription: 'Créez des sudoku images à vendre sur Etsy & KDP. Grille 4×4, 3 niveaux de difficulté, licence commerciale. 49 $ paiement unique.',
+    titleTag: 'Sudoku à imprimer | Générateur de grilles sudoku',
+    metaDescription: 'Créez des sudoku avec images ou chiffres, difficulté réglable. Solutions automatiques, PDF imprimables. Essai gratuit — vendez sur Etsy & Amazon KDP.',
   },
 
   hero: {
-    title: 'Créez des sudoku images pour livres de jeux KDP & Etsy',
+    title: 'Sudoku à imprimer — Générateur de grilles sudoku avec images et solutions',
     tagline: 'Sudoku visuels 4×4 utilisant des images au lieu de chiffres — trois niveaux de difficulté de 4 à 8 cases vides, corrigés auto-générés avec grilles complètes remplies, et sélection d\'images par thème parmi 104 collections pour des puzzles vendables dans le monde entier sans traduction.',
     description:
       'Créez des sudoku images à vendre sur Etsy, Amazon KDP ou La Salle des Maîtres — des puzzles 4×4 où les acheteurs remplissent les cases vides avec les bonnes images en utilisant la logique de lignes et colonnes. Chaque puzzle utilise exactement 4 images uniques qui doivent apparaître une fois dans chaque ligne et une fois dans chaque colonne — les mêmes règles que le sudoku classique, mais avec des illustrations colorées au lieu de chiffres. Choisissez parmi trois niveaux de difficulté : Facile supprime 4 cases, Moyen supprime 6, et Difficile supprime 8 — la moitié de la grille. Sélectionnez les images par thème avec une auto-sélection qui choisit aléatoirement 4 images parmi 104 collections thématiques, ou sélectionnez manuellement exactement 4 images depuis la bibliothèque, la recherche ou vos propres imports. Le design premium de la grille présente des couleurs alternées des blocs 2×2 en bleu clair et rose clair, des ombres multicouches et une bordure extérieure indigo avec coins arrondis. Chaque puzzle inclut un en-tête auto-généré \" Sudoku en Images \" localisé dans les 11 langues et un corrigé sur double canevas montrant la grille complète remplie avec les 16 cases remplies. Ajoutez des thèmes de fond et de bordure avec des contrôles d\'opacité indépendants, puis exportez des PDF et JPEG prêts à imprimer à 300 DPI en format Letter, A4 ou dimensions personnalisées. Le sudoku en images étant entièrement visuel — aucun mot n\'apparaît sur la grille du puzzle — chaque fiche fonctionne identiquement dans les 11 langues, rendant vos produits vendables dans le monde entier sans aucune modification. L\'Accès Complet déverrouille les 104 thèmes avec plus de 3 100 illustrations et les 11 langues d\'interface. Que vous vendiez des packs de sudoku thématiques sur Etsy, compiliez des cahiers de logique pour Amazon KDP ou créiez des activités de raisonnement pour Gumroad, ce générateur produit des puzzles prêts pour la production en quelques minutes — essai gratuit avec toutes les fonctionnalités, sans inscription, sans carte bancaire. Les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.',
@@ -198,6 +203,11 @@ const content: AppContent = {
       question: 'Quelle est la politique de remboursement ?',
       answer:
         'Comme l\'essai gratuit vous donne accès à chaque fonctionnalité, nous n\'offrons pas de remboursement sur les achats de licence commerciale. Vous pouvez tester les trois niveaux de difficulté, la sélection par thème et manuelle, le corrigé auto-généré, la bibliothèque d\'images complète, les thèmes de fond et de bordure, les outils texte et tous les formats de téléchargement avant d\'acheter. L\'essai gratuit est la politique de remboursement — assurez-vous que l\'outil correspond à vos besoins avant d\'acheter une licence.',
+    },
+    {
+      question: 'Les sudoku sont-ils adaptés au CP, CE1 et à la maternelle ?',
+      answer:
+        'Oui. Les grilles 4×4 avec images conviennent à la grande section (GS) et au CP. Les grilles 6×6 sont adaptées au CE1 et CE2. Les grilles 9×9 classiques conviennent aux plus grands et aux adultes. Au Québec, cela correspond au préscolaire et au primaire.',
     },
   ],
 

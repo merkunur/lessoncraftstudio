@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'créer des fiches d\'ombres à vendre',
+    primaryKeyword: 'créer des jeux d\'ombres à imprimer',
     secondaryKeywords: [
-      'créer fiches discrimination visuelle ombres à vendre',
-      'générateur fiches silhouettes correspondance',
-      'fiches puzzles ombres imprimables Etsy et KDP',
-      'fiches reconstitution image moitiés découpées',
+      'tutoriel jeu d\'ombres',
+      'guide association silhouettes',
+      'fiches ombres maternelle guide',
+      'jeu de silhouettes à imprimer',
     ],
     lsiKeywords: [
-      'génération silhouettes au niveau pixel pour fiches',
-      'outil activités perception visuelle correspondance',
-      'fiches correspondance ombres avec corrigé automatique',
-      'vendre puzzles ombres sur Etsy',
-      'cahiers perception visuelle Amazon KDP',
-      'outil correspondance ombres licence commerciale',
+      'ombres',
+      'silhouettes',
+      'association',
+      'discrimination visuelle',
+      'maternelle',
+      'PS',
     ],
-    titleTag: 'Fiches d\'ombres à vendre en ligne | LCS',
-    metaDescription: 'Créez des fiches discrimination visuelle avec deux modes : Ombres et Reconstitution pour moitiés découpées. Guide complet pour Etsy et KDP.',
+    titleTag: 'Créer des jeux d\'ombres | Guide étape par étape',
+    metaDescription: 'Comment créer des fiches d\'association d\'ombres avec images et silhouettes thématiques. Corrections automatiques. Guide complet.',
   },
 
   hero: {

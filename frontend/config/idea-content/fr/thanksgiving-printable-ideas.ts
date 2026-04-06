@@ -2,21 +2,16 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Imprimables Action de grâces à vendre | LCS',
-    metaDescription: 'Idées d\'imprimables Thanksgiving à vendre sur Etsy, KDP et Gumroad. Concepts de produits automne-récolte, stratégies saisonnières et conseils pros.',
-
-    primaryKeyword: 'imprimables action grâces vendre idées thanksgiving vendeurs',
+    primaryKeyword: 'imprimables automne et récolte à vendre',
     secondaryKeywords: [
-      'fiches Thanksgiving à vendre',
-      'idées business imprimables Thanksgiving',
-      'fiches activités récolte automne vendeurs',
-      'vendre imprimables Thanksgiving Etsy',
+      'fiches automne à imprimer idées',
+      'cahier activités récolte KDP',
+      'coloriages automne à vendre',
+      'jeux automne imprimables',
     ],
-    lsiKeywords: [
-      'fiches éducatives récolte et gratitude',
-      'pages activités thème novembre automne',
-      'imprimables dinde citrouille pèlerins',
-    ],
+    lsiKeywords: ['automne', 'récolte', 'feuilles', 'citrouille', 'novembre', 'nature'],
+    titleTag: 'Imprimables automne & récolte Etsy & KDP | Idées',
+    metaDescription: 'Idées d\'imprimables automne et récolte à vendre sur Etsy et KDP. Coloriages, mots mêlés, puzzles thème nature automnale. Niche saisonnière.',
   },
   hero: {
     title: 'Idées d\'Imprimables Thanksgiving pour les Vendeurs',

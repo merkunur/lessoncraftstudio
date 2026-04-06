@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'vendre des ressources sur Creative Fabrica',
+    primaryKeyword: 'vendre des imprimables sur Creative Fabrica',
     secondaryKeywords: [
-      'comment vendre sur Creative Fabrica',
-      'Creative Fabrica pour entrepreneurs',
-      'vendre imprimables sur Creative Fabrica',
-      'ressources Creative Fabrica Classroom',
+      'Creative Fabrica imprimables guide',
+      'vendre fiches Creative Fabrica',
+      'business imprimables Creative Fabrica',
+      'Creative Fabrica vs Etsy',
     ],
     lsiKeywords: [
-      'marketplace design public créatif modèle abonnement téléchargements numériques imprimables éducatifs',
-      'Creative Fabrica section Classroom ressources vendeurs téléversement fiches listing produit',
-      'pool abonnement revenus ventes individuelles double modèle revenu compte designer',
-      'passerelle craft éducation activités imprimables fiches thématiques coloriages puzzles',
-      'tags produit catégories optimisation recherche images couverture formatage description',
-      'montée en charge catalogue lots promotion intercatégories polices graphiques ressources éducatives',
+      'Creative Fabrica',
+      'vendre',
+      'imprimables',
+      'fiches',
+      'marketplace',
+      'graphisme',
     ],
-    titleTag: 'Vendre sur Creative Fabrica | LCS',
-    metaDescription: 'Vendez des ressources éducatives sur Creative Fabrica. Revenus abonnements et ventes individuelles, public créatif et section Classroom pour entrepreneurs.',
+    titleTag: 'Vendre sur Creative Fabrica | Guide imprimables',
+    metaDescription: 'Comment vendre des imprimables sur Creative Fabrica. Inscription, mise en vente, SEO, tarification. Guide complet pour vendeurs.',
   },
 
   hero: {

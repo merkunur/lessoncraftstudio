@@ -2,24 +2,28 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'générateur de labyrinthes illustrés gratuit',
+    primaryKeyword: 'générateur labyrinthe gratuit à imprimer',
     secondaryKeywords: [
-      'créer des labyrinthes gratuitement en ligne',
-      'générateur de labyrinthes gratuit sans inscription',
-      'labyrinthes illustrés gratuit PDF avec corrigé',
-      'labyrinthes gratuit 3 modes de jeu',
+      'labyrinthe gratuit en ligne',
+      'labyrinthe enfant gratuit à imprimer',
+      'créer labyrinthe gratuit',
+      'labyrinthe maternelle gratuit',
     ],
     lsiKeywords: [
-      'essai gratuit avec filigrane sans inscription',
-      'licence commerciale pour vendre sur Etsy',
-      '3 modes algorithme LPF corrigé automatique',
+      'parcours',
+      'chemin',
+      'sortie',
+      'motricité fine',
+      'gratuit',
+      'sans inscription',
+      'solution',
     ],
-    titleTag: 'Labyrinthes illustrés gratuits en ligne | LCS',
-    metaDescription: 'Créez des labyrinthes illustrés gratuitement. 3 modes de jeu, 104 thèmes, corrigés auto, sans inscription. Licence commerciale disponible.',
+    titleTag: 'Générateur labyrinthe gratuit à imprimer | LCS',
+    metaDescription: 'Créez des labyrinthes gratuitement en ligne. Images thématiques, solutions automatiques, PDF imprimables, sans inscription. Essai gratuit.',
   },
 
   hero: {
-    title: 'Labyrinthes illustrés gratuits — créez en ligne',
+    title: 'Générateur de labyrinthes gratuit — créez des parcours à imprimer en ligne',
     tagline: 'Générateur de fiches labyrinthes à trois modes avec Chemin d\'Images (parcours sur grille d\'images), Labyrinthe Classique (algorithme LPF à murs avec objets à collectionner et blocage des impasses), et Choisis le Bon Chemin (labyrinthes directionnels à trois chemins), cinq rôles d\'images (Départ, Arrivée, Chemin, Distractrice, Décoration), personnalisation des murs avec contrôles couleur/épaisseur/opacité, corrigés auto-générés avec cercles roses sur le chemin de solution et légendes des objets à collectionner, et des labyrinthes entièrement visuels qui se vendent dans le monde entier sans traduction',
     description: 'Créez des labyrinthes illustrés gratuitement en ligne — sans inscription, sans carte bancaire. Trois modes de jeu distincts en un seul générateur. Le mode Chemin d\'Images crée une grille d\'images où les utilisateurs suivent le chemin correct du départ à l\'arrivée en identifiant les images du chemin parmi les distractrices — idéal pour les jeunes apprenants et les tâches de discrimination visuelle. Le Labyrinthe Classique génère des labyrinthes à murs utilisant l\'algorithme LPF (Longest Path First) avec un système couloir-cellule et placement dynamique des murs. Le score de qualité évalue les virages, la longueur et les blocages pour garantir des labyrinthes stimulants mais résolvables à chaque fois. Configurez la taille de la grille de 15×15 à 20×20, définissez 1 à 3 chemins avec blocage automatique des impasses, et personnalisez la couleur des murs (n\'importe quelle couleur via le sélecteur), l\'épaisseur (1–10px, défaut 3px) et l\'opacité (10–100%, défaut 100%). Les images à collectionner sont réparties dans les corridors du Labyrinthe Classique — configurez 1–4 types d\'images, 1–3 copies minimum et 1–10 copies maximum par type. Le mode Choisis le Bon Chemin présente des labyrinthes à trois chemins avec quatre options directionnelles (bas→haut, haut→bas, gauche→droite, droite→gauche) où les utilisateurs identifient le seul chemin correct parmi les leurres. Attribuez des images à cinq rôles distincts : Image de Départ (point d\'entrée), Image d\'Arrivée (destination — 1 pour Chemin/Labyrinthe, 3 pour Choisis le Bon Chemin), Images du Chemin (marqueurs du parcours correct ou objets à collectionner), Images Distractrices (remplissage hors chemin), et Décoration (placement libre sur le canevas). Chaque mode génère un corrigé compagnon sur un onglet de canevas séparé — les chemins de solution sont mis en évidence avec des cercles roses le long du parcours correct. Le mode Choisis le Bon Chemin ajoute une étiquette \" ✓ BON CHEMIN \" identifiant le parcours correct. Le Labyrinthe Classique inclut une légende des objets à collectionner montrant chaque image et son nombre le long du chemin de solution. L\'en-tête auto-généré \" Chemin d\'Images \" avec une bordure extérieure orange (trait de 8px) et des marges de 34px affiche un titre localisé et des instructions \" Suis le chemin \" dans les 11 langues prises en charge. Les fiches portrait affichent un en-tête de 240px ; les fiches paysage utilisent une disposition compacte de 165px. Parcourez 104 collections thématiques avec plus de 3 100 illustrations ou importez des images PNG, JPG ou GIF personnalisées. Appliquez des thèmes de fond et de bordure avec des curseurs d\'opacité indépendants (0–1, pas de 0,05). Ajoutez du texte personnalisé avec 7 options de police (Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial, Verdana) et contour de texte 0–10. Activez les champs nom et date pour l\'identification des utilisateurs. Exportez des PDF et JPEG prêts à imprimer à 300 DPI (multiplicateur 6×) en Letter Portrait, Letter Paysage, A4 Portrait, A4 Paysage, Carré (1200×1200) ou dimensions personnalisées. Activez les niveaux de gris pour une sortie économique en encre. Éditez sur le canevas Fabric.js avec 6 options d\'alignement plus centrage sur la page, calques, verrouillage, zoom 25 %–300 % par incréments de 25 % et annuler/rétablir 20 états. Les labyrinthes Chemin d\'Images sont entièrement visuels — aucune lecture ni compréhension linguistique requise, rendant chaque fiche instantanément vendable sur n\'importe quel marché mondial. L\'essai gratuit inclut toutes les fonctionnalités avec un filigrane sur les téléchargements. Achetez une licence pour supprimer le filigrane et vendre à usage commercial.',
   },

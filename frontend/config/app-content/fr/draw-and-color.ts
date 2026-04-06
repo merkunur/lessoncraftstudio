@@ -2,24 +2,29 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'fiches dessin et coloriage pour boutique Etsy',
+    primaryKeyword: 'fiches dessin à imprimer',
     secondaryKeywords: [
-      'générateur de fiches de dessin sur grille pour vendeurs Etsy',
-      'fiches reproduction sur quadrillage pour Amazon KDP',
-      'fiches dessin et coloriage licence commerciale',
-      'créer des cahiers de dessin pour La Salle des Maîtres',
+      'activités dessin à imprimer',
+      'fiches arts visuels à imprimer',
+      'dessin guidé fiche',
+      'activité coloriage et dessin',
     ],
     lsiKeywords: [
-      'licence commerciale 300 DPI prêt à imprimer',
-      'business d\'imprimables fiches dessin vendeurs Etsy',
-      'double quadrillage modes symétrie indices réglables',
+      'dessin guidé',
+      'arts visuels',
+      'créativité',
+      'colorier',
+      'maternelle',
+      'GS',
+      'CP',
+      'CE1',
     ],
-    titleTag: 'Fiches dessin et coloriage pour Etsy & KDP | LCS',
-    metaDescription: 'Créez des fiches dessin et coloriage à vendre sur Etsy & KDP. Double quadrillage, modes symétrie, licence commerciale. 49 $ paiement unique.',
+    titleTag: 'Fiches dessin et coloriage | Générateur arts visuels',
+    metaDescription: 'Créez des fiches de dessin guidé et coloriage avec images thématiques. PDF 300 DPI imprimables. Essai gratuit — licence commerciale incluse.',
   },
 
   hero: {
-    title: 'Créez des fiches dessin et coloriage à vendre sur Etsy & KDP',
+    title: 'Fiches de dessin et coloriage à imprimer — Générateur d\'arts visuels',
     tagline: 'Système de double grille — grille de pratique et grille d\'indices côte à côte — avec un pourcentage d\'indices réglable de 10 % à 75 %, des modes symétrie horizontale et verticale, et plus de 100 collections de contours noir et blanc pour des activités de dessin et de coloriage.',
     description:
       'Créez des fiches dessin et coloriage à vendre sur Etsy, Amazon KDP ou La Salle des Maîtres — des fiches où les acheteurs reproduisent une image de référence en la copiant cellule par cellule depuis une grille d\'indices vers une grille de pratique vierge. Deux grilles apparaissent par image sélectionnée : une Grille de Pratique avec des cellules vides où les utilisateurs dessinent, et une Grille d\'Indices montrant un pourcentage configurable de l\'image de référence comme indices visuels. Ajustez le pourcentage d\'indices de 10 % à 75 % pour contrôler la difficulté — moins d\'indices signifie des exercices plus difficiles qui exigent une observation plus fine. Configurez les dimensions de la grille de 3×3 (9 cellules) à 10×10 (100 cellules), avec les lignes et colonnes réglables indépendamment de 3 à 10. Trois modes de symétrie ajoutent une dimension de raisonnement spatial : Aléatoire place les indices dans des positions dispersées, Horizontal reflète les indices de gauche à droite, et Vertical reflète les indices de haut en bas, chacun avec un sélecteur de partie à révéler. Le contenu provient de la bibliothèque de thèmes de contours noir et blanc intégrée avec plus de 100 collections comportant plus de 3 000 illustrations en noir et blanc spécifiquement conçues pour la reproduction et le coloriage — pas des thèmes en couleur, mais des contours nets que les utilisateurs reproduisent puis colorient. C\'est une application purement visuelle : les fiches ne contiennent que des images en grille sans texte, les rendant universellement utilisables quelle que soit la langue. Aucun corrigé n\'est nécessaire car la grille d\'indices elle-même sert de solution de référence. L\'Accès Complet déverrouille tous les 100+ thèmes N&B et les 11 langues d\'interface. Exportez des PDF et JPEG prêts à imprimer à 300 DPI en format Letter, A4 ou dimensions personnalisées. Que vous vendiez des lots de dessin sur grille sur Etsy, compiliez des cahiers de dessin pour Amazon KDP ou créiez des ateliers de raisonnement spatial pour Gumroad, le Générateur de Fiches Dessin sur Quadrillage livre des résultats professionnels en quelques minutes — essai gratuit avec toutes les fonctionnalités, sans inscription, sans carte bancaire. Les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.',
@@ -198,6 +203,11 @@ const content: AppContent = {
       question: 'Quelle est la politique de remboursement ?',
       answer:
         'L\'essai gratuit vous donnant accès à toutes les fonctionnalités, nous n\'offrons pas de remboursement sur les achats de licence commerciale. Vous pouvez tester chaque taille de grille, chaque pourcentage d\'indices, chaque mode de symétrie, chaque format d\'export et chaque taille de page avant d\'acheter. L\'essai gratuit est la politique de remboursement — assurez-vous que l\'outil répond à vos besoins avant d\'acheter une licence.',
+    },
+    {
+      question: 'Ces fiches de dessin sont-elles adaptées à la maternelle et au CP ?',
+      answer:
+        'Oui. Le dessin guidé et le coloriage développent la motricité fine et la créativité dès la grande section (GS). Des modèles simples conviennent à la GS, des dessins plus élaborés au CP et CE1. Au Québec, cela correspond au préscolaire et à la 1re année.',
     },
   ],
 

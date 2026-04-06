@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'créer des labyrinthes à vendre sur Etsy',
+    primaryKeyword: 'créer des labyrinthes à imprimer',
     secondaryKeywords: [
-      'générateur de labyrinthes imprimables',
-      'fiches labyrinthes thématiques pour enfants à vendre',
-      'labyrinthes personnalisés avec corrigés',
-      'créer cahiers labyrinthes Etsy et Amazon KDP',
+      'tutoriel labyrinthes',
+      'guide créer labyrinthes enfants',
+      'labyrinthes personnalisés guide',
+      'labyrinthes maternelle à imprimer',
     ],
     lsiKeywords: [
-      'fiches parcours en images imprimables',
-      'activités raisonnement spatial enfants',
-      'fiches puzzles labyrinthes Etsy',
-      'cahiers labyrinthes Amazon KDP',
-      'labyrinthes thématiques avec images licence commerciale',
-      'générateur labyrinthes licence commerciale',
+      'labyrinthe',
+      'parcours',
+      'chemin',
+      'motricité fine',
+      'maternelle',
+      'CP',
     ],
-    titleTag: 'Labyrinthes à vendre sur Etsy | LCS',
-    metaDescription: 'Créez des fiches labyrinthes avec 3 modes de jeu, images thématiques et corrigés automatiques. Vendez vos labyrinthes sur Etsy et Amazon KDP.',
+    titleTag: 'Créer des labyrinthes à imprimer | Guide complet',
+    metaDescription: 'Comment créer des labyrinthes avec images thématiques. Solutions automatiques, PDF imprimables. Guide étape par étape pour vendeurs Etsy et KDP.',
   },
 
   hero: {

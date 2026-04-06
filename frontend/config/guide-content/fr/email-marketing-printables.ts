@@ -4,21 +4,21 @@ const content: GuideContent = {
   seo: {
     primaryKeyword: 'email marketing pour vendeurs d\'imprimables',
     secondaryKeywords: [
-      'liste email vendeurs imprimables',
-      'newsletter activité fiches exercices',
-      'email marketing produits numériques',
-      'stratégie email activité imprimables',
+      'newsletter imprimables guide',
+      'marketing email fiches vendeurs',
+      'construire liste email imprimables',
+      'automatisation email imprimables',
     ],
     lsiKeywords: [
-      'liste abonnés lead magnet opt-in cadeau bienvenue séquence automatisation email',
-      'taux ouverture taux clics segmentation emails diffusion campagne goutte-à-goutte',
-      'fournisseur service email page capture taux conversion taux désabonnement',
-      'optimisation objet email délivrabilité engagement abonnés',
-      'séquences automatisées campagne réactivation hygiène liste réputation expéditeur',
-      'calendrier contenu analytique email tests A/B personnalisation balises',
+      'email',
+      'newsletter',
+      'marketing',
+      'liste',
+      'automatisation',
+      'vendeurs',
     ],
-    titleTag: 'Email marketing pour vendeurs | LCS',
-    metaDescription: 'Email marketing pour vendeurs d\'imprimables. Construisez votre liste d\'abonnés, créez des lead magnets et automatisez vos séquences pour des ventes.',
+    titleTag: 'Email marketing vendeurs imprimables | Guide',
+    metaDescription: 'Comment utiliser l\'email marketing pour vendre vos imprimables. Construire votre liste, automatiser, convertir. Guide complet pour vendeurs.',
   },
 
   hero: {

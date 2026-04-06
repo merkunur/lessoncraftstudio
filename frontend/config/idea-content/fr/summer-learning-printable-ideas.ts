@@ -2,21 +2,16 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Cahiers de vacances à vendre sur Etsy | LCS',
-    metaDescription: 'Idées d\'imprimables révisions d\'été à vendre sur Etsy, KDP et Gumroad. Concepts produits pour parents, vendeurs et animateurs de stages estivaux.',
-
-    primaryKeyword: 'cahiers vacances vendre etsy idées imprimables révisions été',
+    primaryKeyword: 'cahiers vacances été imprimables à vendre',
     secondaryKeywords: [
-      'fiches apprentissage été à vendre',
-      'idées business imprimables vacances',
-      'fiches révisions estivales pour vendeurs',
-      'vendre imprimables été Etsy',
+      'fiches révisions été idées',
+      'cahier vacances à imprimer KDP',
+      'exercices été à vendre',
+      'cahier été imprimable',
     ],
-    lsiKeywords: [
-      'fiches prévention perte éducatif été',
-      'activités vacances éducatives imprimables',
-      'ressources maintien compétences éducatifs',
-    ],
+    lsiKeywords: ['cahier vacances', 'révisions', 'été', 'apprentissage', 'CP', 'CE1'],
+    titleTag: 'Cahiers vacances été imprimables | Idées Etsy & KDP',
+    metaDescription: 'Idées de cahiers de vacances été imprimables à vendre. Révisions maths, vocabulaire, jeux. Niche très demandée sur Etsy et KDP.',
   },
   hero: {
     title: 'Idées d\'Imprimables Révisions d\'Été pour les Vendeurs',

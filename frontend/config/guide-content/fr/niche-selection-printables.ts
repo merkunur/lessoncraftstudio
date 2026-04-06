@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'choisir sa niche d\'imprimables 2026',
+    primaryKeyword: 'choisir une niche imprimables rentable',
     secondaryKeywords: [
-      'recherche de niche imprimables',
-      'niches imprimables rentables',
-      'comment choisir une niche imprimable',
-      'stratégie de niche fiches exercices',
+      'sélection niche imprimables guide',
+      'niches rentables fiches à imprimer',
+      'trouver niche imprimables Etsy',
+      'recherche niche imprimables',
     ],
     lsiKeywords: [
-      'demande marché rentabilité niche public cible validation niche',
-      'niches permanentes niches saisonnières marchés sous-exploités analyse concurrence',
-      'expansion niche niches adjacentes expansion niveau scolaire expansion matière',
-      'besoins audience personas acheteurs segments clients positionnement niche',
-      'empilement niches stratégie multi-niches profondeur niche adéquation produit-marché',
-      'demande mots-clés volume recherche tendances marketplace signaux intention achat',
+      'niche',
+      'rentable',
+      'concurrence',
+      'demande',
+      'imprimables',
+      'analyse',
     ],
-    titleTag: 'Choisir sa niche d\'imprimables (2026) | LCS',
-    metaDescription: 'Sélection de niche pour activités imprimables : rechercher la demande, analyser la concurrence, évaluer la rentabilité, valider et planifier l\'expansion.',
+    titleTag: 'Choisir une niche imprimables rentable | Guide',
+    metaDescription: 'Comment choisir une niche rentable pour vos imprimables. Analyse de la concurrence, volumes de recherche, demande. Guide complet pour vendeurs.',
   },
 
   hero: {

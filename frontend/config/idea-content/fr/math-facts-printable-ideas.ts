@@ -2,21 +2,11 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Tables de multiplication — Business | LCS',
-    metaDescription: 'Idées d\'imprimables calcul mental et tables de maths à vendre sur Etsy, KDP et Gumroad. Stratégies de niche et conseils pour vendeurs ciblant les vendeurs.',
-
-    primaryKeyword: 'tables de multiplication imprimables business',
-    secondaryKeywords: [
-      'fiches calcul mental à vendre',
-      'idées business imprimables arithmétique',
-      'fiches pratique opérations pour vendeurs',
-      'vendre imprimables tables de maths Etsy',
-    ],
-    lsiKeywords: [
-      'fiches fluence numérique pratique',
-      'exercices calcul chronométré imprimables',
-      'ressources éducatives arithmétique de base',
-    ],
+    primaryKeyword: 'imprimables tables de calcul à vendre',
+    secondaryKeywords: ['fiches tables addition soustraction idées', 'cahier calcul mental KDP', 'exercices tables à vendre', 'imprimables maths drill'],
+    lsiKeywords: ['tables', 'calcul mental', 'addition', 'soustraction', 'multiplication', 'mémorisation'],
+    titleTag: 'Imprimables tables de calcul Etsy & KDP | Idées',
+    metaDescription: 'Idées d\'imprimables tables de calcul à vendre sur Etsy et KDP. Addition, soustraction, multiplication. Niche maths fondamentale.',
   },
   hero: {
     title: 'Idées d\'Imprimables Tables de Maths pour les Vendeurs',

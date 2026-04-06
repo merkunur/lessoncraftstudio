@@ -2,24 +2,29 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'fiches de reconnaissance de motifs pour vendeurs Etsy',
+    primaryKeyword: 'exercices suites logiques à imprimer',
     secondaryKeywords: [
-      'générateur de fiches séquences logiques pour Etsy',
-      'fiches de complétion de motifs pour Amazon KDP',
-      'fiches de reconnaissance de motifs licence commerciale',
-      'créer des cahiers de séquences pour La Salle des Maîtres',
+      'compléter la suite exercice',
+      'logique visuelle fiche',
+      'séquence à compléter GS CP',
+      'jeu de logique à imprimer',
     ],
     lsiKeywords: [
-      'licence commerciale 300 DPI prêt à imprimer',
-      'business d\'imprimables séquences logiques vendeurs',
-      '9 types de motifs choix multiple corrigé automatique',
+      'raisonnement logique',
+      'compléter',
+      'séquence',
+      'visuel',
+      'GS',
+      'CP',
+      'CE1',
+      'solution',
     ],
-    titleTag: 'Fiches de motifs pour vendeurs Etsy & KDP | LCS',
-    metaDescription: 'Créez des fiches de reconnaissance de motifs à vendre sur Etsy & KDP. 9 types, choix multiple, licence commerciale. 49 $ paiement unique.',
+    titleTag: 'Exercices suites logiques à imprimer | Générateur séquences',
+    metaDescription: 'Créez des exercices de suites logiques avec séquences visuelles et images thématiques. Solutions automatiques, PDF 300 DPI. Essai gratuit — licence commerciale.',
   },
 
   hero: {
-    title: 'Générez des fiches de motifs à vendre sur Etsy, KDP & plus',
+    title: 'Exercices de suites logiques à imprimer — Générateur de séquences visuelles',
     tagline: 'Neuf types de motifs de AB à ABCD — deux modes de question (case vide et choix multiple) — avec une configuration indépendante par exercice pour le type de motif, le mode de question et le thème sur chaque page.',
     description:
       'Créez des fiches de reconnaissance de motifs à vendre sur Etsy, Amazon KDP ou La Salle des Maîtres — des fiches où les acheteurs identifient des motifs répétitifs et complètent l\'élément manquant ou choisissent la bonne réponse parmi des options à choix multiple. Neuf types de motifs distincts couvrent tous les niveaux de complexité des séquences : AB alterne deux éléments, AAB et ABB introduisent des regroupements asymétriques, ABC fait tourner trois éléments, AABB associe deux de chaque, ABBC et AABC ajoutent des motifs asymétriques à trois images, ABCC prolonge avec des terminaisons doublées, et ABCD fait tourner quatre éléments différents pour un défi maximal. Deux modes de question créent des exercices fondamentalement différents à partir de chaque type de motif : Case Vide remplace un élément par un espace vide que les utilisateurs doivent compléter, tandis que Choix Multiple présente le vide accompagné de trois réponses possibles avec une correcte et deux distracteurs. Configurez 1 à 8 exercices par page avec chaque exercice paramétré indépendamment pour le type de motif, le mode de question et le thème — une même page peut combiner un exercice AB en case vide avec un exercice ABCD en choix multiple. Activez le Début Aléatoire pour commencer les motifs en milieu de cycle et la Position Vide Aléatoire pour placer l\'élément manquant n\'importe où dans la séquence pour une difficulté accrue. Le contenu provient de la Bibliothèque d\'Images intégrée avec plus de 3 100 illustrations réparties dans 104 thèmes. Un onglet de corrigé séparé montre toutes les cases vides remplies avec les éléments corrects du motif pour une vérification instantanée. L\'Accès Complet déverrouille les 104 thèmes et les 11 langues d\'interface. Exportez des PDF et JPEG prêts à imprimer en haute résolution aux formats Letter, A4, Carré ou dimensions personnalisées. Chaque fiche est entièrement visuelle avec uniquement des images en lignes de grille et zéro texte sur la sortie, rendant les produits vendables universellement sans traduction. Que vous créiez des lots de reconnaissance de motifs sur Etsy, compiliez des cahiers d\'apprentissage précoce pour Amazon KDP ou construisiez des ateliers visuels différenciés pour Gumroad, le Générateur de Fiches de Séquences Logiques offre la plus grande variété d\'exercices de motifs disponible — essai gratuit avec toutes les fonctionnalités, sans inscription, sans carte bancaire. Les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.',
@@ -203,6 +208,11 @@ const content: AppContent = {
       question: 'Quelle est la différence entre la Licence Commerciale et l\'Accès Complet ?',
       answer:
         'La Licence Commerciale inclut 10 thèmes colorés de la bibliothèque d\'images et les droits complets de vente commerciale pour tous les produits créés. L\'Accès Complet déverrouille les 104 thèmes de la bibliothèque d\'images et les 11 langues d\'interface, offrant une variété de produits maximale. Les deux licences suppriment le filigrane et accordent des droits commerciaux complets — la différence réside uniquement dans le nombre de thèmes et de langues d\'interface disponibles.',
+    },
+    {
+      question: 'Ces exercices de suites logiques sont-ils adaptés à la GS et au CP ?',
+      answer:
+        'Oui. Les séquences visuelles développent le raisonnement logique dès la grande section (GS). Des motifs simples conviennent à la GS, des séquences plus complexes au CP et CE1. Au Québec, cela correspond au préscolaire et à la 1re année.',
     },
   ],
 

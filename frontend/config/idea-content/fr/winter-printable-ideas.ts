@@ -2,21 +2,16 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Imprimables d\'hiver pour Etsy | LCS',
-    metaDescription: 'Idées d\'imprimables d\'hiver à vendre sur Etsy, KDP & Gumroad. Produits hivernaux avec forte demande de novembre à février pour vendeurs de fiches.',
-
-    primaryKeyword: 'imprimables d\'hiver à vendre sur Etsy',
+    primaryKeyword: 'imprimables hiver à vendre',
     secondaryKeywords: [
-      'fiches d\'hiver à vendre',
-      'activités imprimables thème hiver',
-      'fiches activités hivernales pour vendeurs',
-      'vendre des imprimables d\'hiver sur Etsy',
+      'fiches hiver à imprimer idées',
+      'cahier activités hiver KDP',
+      'coloriages hiver neige à vendre',
+      'jeux hiver imprimables',
     ],
-    lsiKeywords: [
-      'fiches éducatives neige et glace',
-      'pages d\'activités temps froid',
-      'imprimables saisonniers hiver pour la vente',
-    ],
+    lsiKeywords: ['hiver', 'neige', 'bonhomme de neige', 'froid', 'janvier', 'février'],
+    titleTag: 'Imprimables hiver pour Etsy & KDP | Idées de niches',
+    metaDescription: 'Idées d\'imprimables hiver à vendre sur Etsy et KDP. Coloriages neige, mots mêlés, puzzles hivernaux. Niche saisonnière décembre-février.',
   },
   hero: {
     title: 'Idées d\'Imprimables d\'Hiver pour les Vendeurs',

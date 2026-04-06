@@ -2,20 +2,11 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Imprimables fête des parents à vendre | LCS',
-    metaDescription: 'Idées d\'imprimables Fête des Mères et Fête des Pères à vendre sur Etsy, KDP et Gumroad. Concepts produits et conseils vendeurs pour les deux fêtes.',
-    primaryKeyword: 'imprimables fête des mères pères à vendre',
-    secondaryKeywords: [
-      'fiches Fête des Mères à vendre',
-      'idées business imprimables Fête des Pères',
-      'fiches activités appreciation parents vendeurs',
-      'vendre imprimables fête des parents Etsy',
-    ],
-    lsiKeywords: [
-      'fiches éducatives célébration familiale',
-      'pages activités appreciation parentale',
-      'imprimables saisonniers thème famille',
-    ],
+    primaryKeyword: 'imprimables fête des parents à vendre',
+    secondaryKeywords: ['fiches fête mères pères à imprimer', 'cahier activités fête parents KDP', 'coloriages fête mères à vendre', 'cadeaux imprimables parents'],
+    lsiKeywords: ['fête des mères', 'fête des pères', 'cadeau', 'famille', 'mai', 'juin'],
+    titleTag: 'Imprimables fête des parents Etsy & KDP | Idées',
+    metaDescription: 'Idées d\'imprimables fête des mères et des pères à vendre. Coloriages, cartes, mots mêlés thème famille. Niche saisonnière mai-juin.',
   },
   hero: {
     title: 'Idées d\'Imprimables Fête des Mères et des Pères pour les Vendeurs',

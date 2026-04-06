@@ -2,21 +2,16 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Imprimables de Pâques pour Etsy | LCS',
-    metaDescription: 'Idées d\'imprimables de Pâques à vendre sur Etsy, KDP & Gumroad. Concepts de produits printaniers, stratégies saisonnières et conseils pour les vendeurs.',
-
-    primaryKeyword: 'imprimables de Pâques à vendre sur Etsy',
+    primaryKeyword: 'imprimables Pâques à vendre',
     secondaryKeywords: [
-      'fiches de Pâques à vendre',
-      'activité imprimable thème Pâques',
-      'fiches d\'activités de Pâques pour vendeurs',
-      'vendre des imprimables de Pâques sur Etsy',
+      'fiches Pâques à imprimer idées',
+      'cahier activités Pâques KDP',
+      'coloriages Pâques à vendre',
+      'jeux Pâques imprimables',
     ],
-    lsiKeywords: [
-      'fiches éducatives vacances de printemps',
-      'pages d\'activités thème chasse aux œufs',
-      'ressources saisonnières de Pâques pour la vente',
-    ],
+    lsiKeywords: ['Pâques', 'lapin', 'œufs', 'printemps', 'chasse aux œufs', 'avril'],
+    titleTag: 'Imprimables Pâques pour Etsy & KDP | Idées niches',
+    metaDescription: 'Idées d\'imprimables Pâques à vendre sur Etsy et KDP. Coloriages, chasse aux œufs, mots mêlés thème Pâques. Niche saisonnière printanière.',
   },
   hero: {
     title: 'Idées d\'Imprimables de Pâques pour les Vendeurs',

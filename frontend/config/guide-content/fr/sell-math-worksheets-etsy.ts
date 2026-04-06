@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'vendre des fiches de maths sur Etsy guide',
+    primaryKeyword: 'vendre des fiches de maths sur Etsy',
     secondaryKeywords: [
-      'comment vendre fiches de maths sur Etsy',
-      'créer boutique Etsy fiches mathématiques',
-      'fiches de maths imprimables business Etsy',
-      'vendre imprimables éducatifs sur Etsy',
+      'fiches maths Etsy guide',
+      'vendre fiches mathématiques en ligne',
+      'fiches calcul Etsy business',
+      'maths imprimables à vendre',
     ],
     lsiKeywords: [
-      'Etsy téléchargement numérique activités maths optimisation annonce',
-      'lot fiches de maths stratégie de prix vendeurs Etsy',
-      'Etsy SEO tags pour fiches éducatives imprimables',
-      'vendre fiches addition soustraction boutique Etsy',
-      'rentrée scolaire fiches maths imprimables stratégie saisonnière Etsy',
-      'photos annonces Etsy mockups pour produits fiches de maths',
+      'fiches maths',
+      'Etsy',
+      'vendre',
+      'imprimables',
+      'licence commerciale',
+      'addition',
     ],
-    titleTag: 'Vendre des fiches de maths sur Etsy | LCS',
-    metaDescription: 'Vendez des fiches de maths sur Etsy avec nos 6 générateurs. SEO Etsy, optimisation des annonces, tarification, stratégies de lots et timing saisonnier.',
+    titleTag: 'Vendre des fiches de maths sur Etsy | Guide vendeur',
+    metaDescription: 'Comment créer et vendre des fiches de maths sur Etsy. SEO, tarification, mise en vente, packs thématiques. Guide complet pour vendeurs.',
   },
 
   hero: {

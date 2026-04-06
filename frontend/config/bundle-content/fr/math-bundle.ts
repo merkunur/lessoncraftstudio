@@ -2,21 +2,11 @@ import type { BundleContent } from '../types';
 
 const content: BundleContent = {
   seo: {
-    primaryKeyword: 'pack maths vendeurs etsy maîtrise',
-    secondaryKeywords: [
-      'pack fiches de maths pour vendeurs Etsy',
-      'générateur fiches maths licence commerciale',
-      'activités maths imprimables pack pour Etsy.fr',
-      'kit fiches de maths pour vendeurs KDP',
-    ],
-    lsiKeywords: [
-      'pack fiches addition soustraction',
-      'collection puzzles maths imprimables',
-      'licence commerciale fiches de maths',
-      'outil création fiches maths en masse',
-    ],
-    titleTag: 'Pack Maths pour vendeurs Etsy | LCS',
-    metaDescription: '6 générateurs de fiches de maths en un pack. Addition, soustraction, code, comparaison et algèbre pour Etsy & KDP. Licence commerciale. 149 $ paiement unique.',
+    primaryKeyword: 'pack générateurs fiches maths',
+    secondaryKeywords: ['bundle maths imprimables', 'pack fiches calcul Etsy', 'générateurs maths groupés', 'pack exercices maths KDP'],
+    lsiKeywords: ['maths', 'addition', 'soustraction', 'calcul', 'pack', 'groupé'],
+    titleTag: 'Pack générateurs maths | 6 outils à prix groupé',
+    metaDescription: 'Pack de 6 générateurs de fiches de maths : addition, soustraction, calcul codé, puzzle maths et plus. Prix groupé, licence commerciale incluse.',
   },
 
   hero: {

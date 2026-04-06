@@ -1,24 +1,28 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'générateur de coloriages gratuit avec images',
+    primaryKeyword: 'générateur coloriage gratuit en ligne',
     secondaryKeywords: [
-      'créer des coloriages gratuitement en ligne',
-      'générateur de pages de coloriage gratuit sans inscription',
-      'coloriages gratuit PDF avec images thématiques',
-      'pages de coloriage gratuites niveaux de gris',
+      'créer coloriage gratuit à imprimer',
+      'coloriage personnalisé gratuit',
+      'fabriquer coloriage gratuit en ligne',
+      'dessin à colorier gratuit créer',
     ],
     lsiKeywords: [
-      'essai gratuit avec filigrane sans inscription',
-      'licence commerciale pour vendre sur Etsy',
-      'canevas libre dessin à main levée 104 thèmes',
+      'dessin',
+      'colorier',
+      'contours',
+      'noir et blanc',
+      'gratuit',
+      'sans inscription',
+      'PDF',
     ],
-    titleTag: 'Générateur de coloriages gratuit | LCS',
-    metaDescription: 'Créez des coloriages gratuit avec images en ligne. Canevas libre, 104 thèmes, niveaux de gris, sans inscription. Licence commerciale disponible.',
+    titleTag: 'Générateur coloriage gratuit en ligne | LCS',
+    metaDescription: 'Créez des coloriages gratuitement en ligne. 3 000+ images thématiques, contours haute résolution, PDF imprimables, sans inscription. Essai gratuit.',
     },
 
   hero: {
-    title: 'Coloriages gratuits avec images — créez en ligne',
+    title: 'Générateur de coloriages gratuit — créez des dessins à colorier en ligne',
     tagline: 'Générateur de pages de coloriage sur canevas libre avec dessin à main levée, export en niveaux de gris, aides pour la vente et 104 collections d\'images thématiques pour des pages de coloriage professionnelles vendables dans le monde entier sans traduction',
     description: 'Créez des coloriages gratuitement en ligne — sans inscription, sans carte bancaire. Un canevas complètement ouvert où vous placez les images exactement où vous le souhaitez — aucune grille, aucun modèle, une liberté créative totale. Cette approche en forme libre est le différenciateur clé : chaque page de coloriage que vous créez est unique et impossible à reproduire avec des outils basés sur des modèles. Parcourez 104 collections d\'images thématiques avec plus de 3 100 illustrations colorées, cliquez pour ajouter des images, puis arrangez, redimensionnez, pivotez et superposez les éléments n\'importe où sur le canevas. L\'outil de dessin à main levée vous permet de dessiner des illustrations originales directement à côté des images de la bibliothèque avec une couleur et une taille de pinceau réglables (1–50 pixels), créant des pages de coloriage hybrides qui mélangent illustrations sélectionnées et vos propres dessins. Les aides pour la vente en un clic ajoutent un champ nom d\'utilisateur (\" Nom : ____ \") et des lignes de pratique d\'écriture (pleine, pointillée, pleine) — transformant les pages de coloriage en fiches d\'activités prêtes pour la vente qui se vendent sur Gumroad. Lorsque vous avez terminé, activez l\'export en niveaux de gris pour convertir votre composition colorée en pages de coloriage économiques en encre, parfaites pour les intérieurs KDP et l\'impression en volume. Ajoutez des thèmes de bordures décoratives depuis la bibliothèque de bordures, du texte personnalisé avec des effets de contour en utilisant des polices incluant Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial et Verdana, et téléversez vos propres images PNG, JPG ou GIF. Cette application est purement visuelle — la sortie ne contient aucun texte, rendant les pages de coloriage universellement vendables sans traduction. Aucun corrigé n\'existe car le coloriage est une activité créative sans réponse correcte. Exportez des PDF et JPEG prêts à imprimer à 300 DPI en format Letter, A4, Carré (1200×1200) ou dimensions personnalisées. L\'essai gratuit inclut toutes les fonctionnalités avec un filigrane sur les téléchargements. Achetez une licence pour supprimer le filigrane et vendre à usage commercial.',
   },

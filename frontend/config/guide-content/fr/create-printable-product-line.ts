@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'créer une gamme de produits imprimables',
+    primaryKeyword: 'créer une gamme d\'imprimables à vendre',
     secondaryKeywords: [
-      'stratégie gamme produits imprimables',
-      'construire gamme fiches exercices',
-      'créer catalogue imprimables',
-      'gamme produits activité imprimables',
+      'gamme produits imprimables guide',
+      'catalogue fiches à vendre',
+      'développer gamme imprimables',
+      'stratégie gamme produits Etsy',
     ],
     lsiKeywords: [
-      'catalogue produits cohérence produits cohésion marque progression produits stratégie catalogue',
-      'feuille de route produits modèles produits branding visuel conventions nommage profondeur catalogue',
-      'série produits langage design modèles mise en page reconnaissance marque identité boutique',
-      'expansion systématique extension niveaux scolaires variation formats cohérence thèmes grille produits',
-      'ventes croisées navigation catalogue organisation boutique séquençage produits couverture marché',
-      'identité visuelle hiérarchie produits produits complémentaires écosystème produits cohésion gamme',
+      'gamme',
+      'catalogue',
+      'produits',
+      'imprimables',
+      'développer',
+      'stratégie',
     ],
-    titleTag: 'Créer une gamme de produits imprimables | LCS',
-    metaDescription: 'Créez une gamme de produits imprimables avec branding cohérent, séquençage stratégique et expansion systématique pour un catalogue professionnel vendeur.',
+    titleTag: 'Créer une gamme d\'imprimables | Guide stratégie',
+    metaDescription: 'Comment créer une gamme complète d\'imprimables à vendre. Stratégie de produits, cohérence thématique, tarification. Guide complet pour vendeurs.',
   },
 
   hero: {

@@ -2,23 +2,11 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'plan d\'action business d\'imprimables',
-    secondaryKeywords: [
-      'plan d\'activité imprimables pour vendeurs',
-      'idées produits imprimables rentables',
-      'lancer une gamme de produits imprimables',
-      'feuille de route activité imprimables',
-    ],
-    lsiKeywords: [
-      'planification boutique Etsy.fr imprimables',
-      'stratégie produits Amazon KDP',
-      'objectifs chiffre d\'affaires fiches',
-      'expansion catalogue imprimables',
-      'planification gamme produits vendeurs',
-      'checklist lancement activité imprimables',
-    ],
-    titleTag: 'Plan d\'action : business d\'imprimables | LCS',
-    metaDescription: 'Transformez vos idées d\'imprimables en plan d\'action. Planifiez votre gamme, choisissez vos plateformes, fixez. Vendez sur Etsy & KDP avec licence commerciale.',
+    primaryKeyword: 'plan d\'action business imprimables',
+    secondaryKeywords: ['blueprint business imprimables', 'stratégie business fiches', 'plan business imprimables étapes', 'feuille route imprimables'],
+    lsiKeywords: ['plan', 'stratégie', 'feuille de route', 'étapes', 'business', 'objectifs'],
+    titleTag: 'Plan d\'action business imprimables | Blueprint',
+    metaDescription: 'Votre plan d\'action pour un business d\'imprimables rentable. Feuille de route étape par étape, objectifs, jalons. De la niche aux premières ventes.',
   },
 
   hero: {

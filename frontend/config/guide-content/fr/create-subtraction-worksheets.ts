@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'créer des fiches de soustraction à vendre',
+    primaryKeyword: 'créer des fiches de soustraction à imprimer',
     secondaryKeywords: [
-      'faire fiches soustraction pour enfants',
-      'générateur fiches soustraction',
-      'fiches soustraction imprimables à vendre',
-      'fiches exercices soustraction personnalisées',
+      'tutoriel fiches soustraction',
+      'guide fiches maths soustraction',
+      'fiches soustraction CP CE1 guide',
+      'créer exercices soustraction PDF',
     ],
     lsiKeywords: [
-      'fiches soustraction images barrées pour enfants',
-      'soustraction visuelle pour marché préscolaire',
-      'fiches exercices soustraction CP',
-      'vendre fiches soustraction sur Etsy',
-      'cahiers activités soustraction Amazon KDP',
-      'outil fiches avec licence commerciale',
+      'soustraction',
+      'calcul',
+      'CP',
+      'CE1',
+      'retenue',
+      'corrigé',
     ],
-    titleTag: 'Fiches de soustraction à vendre | LCS',
-    metaDescription: 'Créez des fiches de soustraction pour enfants avec images barrées, visuels thématiques et corrigés automatiques. Guide complet pour vendre sur Etsy, KDP.',
+    titleTag: 'Créer des fiches de soustraction | Guide complet',
+    metaDescription: 'Comment créer des fiches de soustraction avec images thématiques et corrections automatiques. Guide étape par étape pour Etsy et KDP.',
   },
 
   hero: {

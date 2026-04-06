@@ -2,24 +2,29 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'générateur de fiches de soustraction à vendre sur Etsy',
+    primaryKeyword: 'fiches soustraction à imprimer',
     secondaryKeywords: [
-      'créer des fiches de soustraction pour boutique Etsy',
-      'exercices de soustraction pour Amazon KDP',
-      'fiches de soustraction illustrées licence commerciale',
-      'fiches de calcul soustraction pour La Salle des Maîtres',
+      'générateur exercices soustraction',
+      'soustractions posées CP CE1',
+      'exercices soustraction à imprimer',
+      'calcul soustraction maternelle',
     ],
     lsiKeywords: [
-      'licence commerciale 300 DPI prêt à imprimer',
-      'business d\'imprimables fiches de maths vendeurs',
-      'corrigé automatique images thématiques revenu passif',
+      'CP',
+      'CE1',
+      'retenue',
+      'différence',
+      'calcul',
+      'correction',
+      'nombres',
+      'GS',
     ],
-    titleTag: 'Fiches de soustraction — Vendre sur Etsy | LCS',
-    metaDescription: 'Créez des fiches de soustraction à vendre sur Etsy & KDP. Images thématiques, corrigés, licence commerciale. 49 $ paiement unique.',
+    titleTag: 'Fiches de soustraction à imprimer | Générateur corrections',
+    metaDescription: 'Créez des fiches de soustraction avec images thématiques et corrections automatiques. PDF 300 DPI, 11 langues. Essai gratuit — licence commerciale incluse.',
   },
 
   hero: {
-    title: 'Générez des fiches de soustraction à vendre sur Etsy, KDP & plus',
+    title: 'Fiches de soustraction à imprimer — Générateur avec corrections automatiques',
     tagline: 'Rendez la soustraction intuitive grâce à des fiches où les enfants barrent les images pour trouver la réponse.',
     description:
       'Transformez la soustraction en produit vendable grâce à un générateur conçu pour les entrepreneurs en imprimables. Créez des fiches de soustraction illustrées avec des thématiques variées — animaux, véhicules, alimentation, nature — qui rendent les mathématiques attrayantes et vos annonces irrésistibles. Chaque fiche s\'exporte en PDF 300 DPI prêt à imprimer avec un corrigé automatique, prête à être mise en ligne sur Etsy, compilée dans un cahier d\'activités Amazon KDP, ou proposée sur La Salle des Maîtres. La licence commerciale est incluse avec chaque fiche. Astuce rentable : combinez addition et soustraction en packs — les vendeurs constatent des paniers moyens nettement plus élevés avec les offres groupées mathématiques. Choisissez parmi quatre modes d\'exercice — Barrer, Image − Nombre, Trouver le Nombre à Soustraire et Mode Mixte — pour accompagner l\'apprentissage de la maternelle au CE1. Parcourez plus de 3 100 illustrations dans 104 thèmes comme les dinosaures, la vie marine et les véhicules. Chaque fiche inclut un corrigé automatique, et vous pouvez exporter des PDF prêts à imprimer en format Letter, A4 ou personnalisé à plus de 400 DPI. Un mode niveaux de gris intégré permet de créer des versions noir et blanc économiques en un clic. Que vous vendiez des packs thématiques sur Etsy, publiiez des cahiers d\'activités sur Amazon KDP ou imprimiez des fiches de pratique pour vos utilisateurs, le Générateur de Fiches de Soustraction produit des résultats professionnels en quelques minutes. Essai gratuit avec toutes les fonctionnalités — sans inscription, sans carte bancaire. Les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.',
@@ -198,6 +203,11 @@ const content: AppContent = {
       question: 'Dois-je installer un logiciel ?',
       answer:
         'Non. Le Générateur de Fiches de Soustraction fonctionne entièrement dans votre navigateur web. Il n\'y a rien à télécharger, installer ou mettre à jour. Il fonctionne sur tout navigateur moderne : Chrome, Firefox, Safari et Edge. Ouvrez la page et commencez à créer. Cette approche vous permet d\'évaluer chaque fonctionnalité, format d\'exportation et combinaison de thèmes avant de prendre une décision d\'achat, vous donnant une confiance totale dans votre investissement.',
+    },
+    {
+      question: 'Ces fiches sont-elles adaptées au CP, CE1 et à la maternelle (GS) ?',
+      answer:
+        'Oui. Ajustez la difficulté par niveau : grande section (GS) avec des soustractions simples de 1 à 3, CP avec des différences jusqu\'à 10, CE1 et CE2 avec des soustractions plus complexes incluant la retenue. Au Québec, cela correspond au préscolaire et aux premières années du primaire.',
     },
   ],
 

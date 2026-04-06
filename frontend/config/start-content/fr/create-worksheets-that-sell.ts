@@ -3,22 +3,10 @@ import type { StartContent } from '../types';
 const content: StartContent = {
   seo: {
     primaryKeyword: 'créer des fiches qui se vendent',
-    secondaryKeywords: [
-      'créer des fiches professionnelles',
-      'faire des fiches à vendre sur Etsy.fr',
-      'création de fiches pour vendeurs',
-      'conseils design fiches imprimables',
-    ],
-    lsiKeywords: [
-      'standards de qualité des fiches',
-      'génération automatique de corrigés',
-      'processus de création de produits imprimables',
-      'stratégie de lots de fiches',
-      'images thématiques pour fiches',
-      'fiches PDF prêtes à imprimer',
-    ],
-    titleTag: 'Créer des fiches qui se vendent | LCS',
-    metaDescription: 'Comment créer des fiches qui se vendent sur Etsy, Amazon KDP et Gumroad. Guide étape par étape : images thématiques, corrigés, tarification et stratégie.',
+    secondaryKeywords: ['fiches qui se vendent bien guide', 'créer imprimables rentables', 'fiches pédagogiques best-seller', 'quelles fiches vendre'],
+    lsiKeywords: ['vendre', 'rentable', 'best-seller', 'demande', 'qualité', 'professionnel'],
+    titleTag: 'Créer des fiches qui se vendent | Guide vendeur',
+    metaDescription: 'Comment créer des fiches pédagogiques qui se vendent. Qualité, thèmes demandés, mise en page professionnelle. Guide pour maximiser vos ventes.',
   },
 
   hero: {

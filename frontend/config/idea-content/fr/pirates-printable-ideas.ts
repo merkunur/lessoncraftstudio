@@ -2,21 +2,11 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Imprimables pirates — Idées business | LCS',
-    metaDescription: 'Idées d\'imprimables pirates à vendre sur Etsy, KDP et Gumroad. Concepts de produits aventure, chasses au trésor et stratégies pour vendeurs.',
-
-    primaryKeyword: 'imprimables pirates idées business',
-    secondaryKeywords: [
-      'fiches pirates à vendre',
-      'idées business imprimables pirates',
-      'fiches activités pirates vendeurs',
-      'vendre imprimables pirates Etsy',
-    ],
-    lsiKeywords: [
-      'fiches éducatives chasse au trésor',
-      'pages activités aventure nautique',
-      'imprimables thème flibustier',
-    ],
+    primaryKeyword: 'imprimables pirates à vendre',
+    secondaryKeywords: ['fiches pirates à imprimer idées', 'cahier activités pirates KDP', 'coloriages pirates à vendre', 'jeux pirates imprimables'],
+    lsiKeywords: ['pirate', 'trésor', 'bateau', 'carte', 'aventure', 'mer'],
+    titleTag: 'Imprimables pirates pour Etsy & KDP | Idées niches',
+    metaDescription: 'Idées d\'imprimables pirates à vendre sur Etsy et KDP. Coloriages, chasses au trésor, mots mêlés thème pirates. Niche aventure populaire.',
   },
   hero: {
     title: 'Idées d\'Imprimables Pirates pour les Vendeurs',

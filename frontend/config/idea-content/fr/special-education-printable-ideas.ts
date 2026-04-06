@@ -2,21 +2,11 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Imprimables éducation spécialisée | LCS',
-    metaDescription: 'Imprimables éducation spécialisée à vendre sur Etsy, KDP & Gumroad. Produits adaptés pour vendeurs, thérapeutes et parents.',
-
     primaryKeyword: 'imprimables éducation spécialisée à vendre',
-    secondaryKeywords: [
-      'fiches adaptées à vendre',
-      'idées business imprimables ULIS',
-      'fiches activités besoins spécifiques vendeurs',
-      'vendre imprimables vente adapté Gumroad',
-    ],
-    lsiKeywords: [
-      'fiches apprentissage différencié',
-      'pages activités adaptées',
-      'ressources imprimables objectifs IEP',
-    ],
+    secondaryKeywords: ['fiches adaptées à imprimer idées', 'cahier activités besoins spéciaux KDP', 'exercices adaptés à vendre', 'imprimables ULIS SEGPA'],
+    lsiKeywords: ['éducation spécialisée', 'besoins spéciaux', 'ULIS', 'adapté', 'différenciation', 'inclusion'],
+    titleTag: 'Imprimables éducation spécialisée Etsy & KDP | Idées',
+    metaDescription: 'Idées d\'imprimables pour l\'éducation spécialisée à vendre sur Etsy et KDP. Fiches adaptées, visuels simplifiés. Niche peu concurrentielle.',
   },
   hero: {
     title: 'Idées d\'Imprimables pour l\'Éducation Spécialisée — Guide Vendeurs',

@@ -2,23 +2,11 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'comprendre la licence commerciale pour vendeurs',
-    secondaryKeywords: [
-      'licence commerciale pour vendre des fiches',
-      'vendre des fiches commercialement Etsy Amazon',
-      'guide licences activité imprimables',
-      'générateur de fiches droits commerciaux',
-    ],
-    lsiKeywords: [
-      'licence utilisation commerciale téléchargements numériques',
-      'exigences licences vendeurs imprimables',
-      'Etsy téléchargements numériques licence commerciale',
-      'Amazon KDP livres activités licence',
-      'générateur fiches niveaux de licence',
-      'utilisation commerciale vs personnelle imprimables',
-    ],
-    titleTag: 'Licence commerciale pour vendeurs | LCS',
-    metaDescription: 'Comprendre les licences commerciales pour vendre des fiches sur Etsy, KDP et d\'autres plateformes. Deux niveaux expliqués avec droits et tarification.',
+    primaryKeyword: 'guide licence commerciale imprimables',
+    secondaryKeywords: ['comprendre licence commerciale fiches', 'droits vente imprimables guide', 'licence commerciale Etsy KDP', 'quels droits licence commerciale'],
+    lsiKeywords: ['licence', 'commerciale', 'droits', 'vente', 'attribution', 'illimité'],
+    titleTag: 'Guide licence commerciale imprimables | Tout savoir',
+    metaDescription: 'Comprendre la licence commerciale pour vendre des imprimables. Droits inclus, restrictions, plateformes autorisées. Guide complet pour vendeurs.',
   },
 
   hero: {

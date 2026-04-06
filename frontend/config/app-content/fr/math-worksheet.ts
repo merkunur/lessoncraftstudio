@@ -2,24 +2,29 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'générateur de fiches de calcul pour vendeurs Etsy et KDP',
+    primaryKeyword: 'générateur fiches maths',
     secondaryKeywords: [
-      'fiches de maths imprimables pour boutique Etsy',
-      'générateur de fiches algébriques pour Amazon KDP',
-      'exercices de calcul licence commerciale à vendre',
-      'fiches d\'équations visuelles pour La Salle des Maîtres',
+      'fiches exercices mathématiques à imprimer',
+      'générateur exercices maths',
+      'créer fiches de calcul',
+      'fiches maths CP CE1 CE2',
     ],
     lsiKeywords: [
-      'licence commerciale 300 DPI résolution d\'équations',
-      'business d\'imprimables fiches de maths marché francophone',
-      'corrigé automatique puzzles algébriques revenu passif',
+      'opérations',
+      'calcul mental',
+      'numération',
+      'exercices',
+      'corrections',
+      'évaluation',
+      'CP',
+      'CE1',
     ],
-    titleTag: 'Fiches de calcul pour vendeurs Etsy & KDP | LCS',
-    metaDescription: 'Créez des fiches de calcul algébriques à vendre sur Etsy & KDP. 4 niveaux, solution unique, licence commerciale. 49 $ paiement unique.',
+    titleTag: 'Générateur de fiches de maths | Exercices à imprimer',
+    metaDescription: 'Créez des fiches de mathématiques personnalisées avec corrections automatiques. PDF 300 DPI, 11 langues. Essai gratuit — licence commerciale pour Etsy & KDP.',
   },
 
   hero: {
-    title: 'Générez des fiches de calcul à vendre sur Etsy & Amazon KDP',
+    title: 'Générateur de fiches de maths — Créer des exercices à imprimer',
     tagline: 'Transformez l\'algèbre en aventure visuelle — les images deviennent des variables et chaque puzzle a exactement une solution.',
     description:
       'Créez des fiches de calcul algébriques à vendre sur Etsy, Amazon KDP ou La Salle des Maîtres — des puzzles d\'équations visuelles où des images remplacent les variables inconnues. Les utilisateurs résolvent des équations liées pour déterminer la valeur que chaque image représente — transformant l\'algèbre abstraite en une expérience concrète et visuelle. Choisissez parmi quatre niveaux de difficulté : Très Facile et Facile utilisent deux symboles, Moyen en introduit trois, et Difficile met les apprenants au défi avec quatre inconnues simultanées. Sélectionnez des problèmes en addition uniquement ou ajoutez la soustraction pour une pratique avancée, et ajustez les plages de nombres de 0 à 20 avec une option pour autoriser les résultats négatifs. Le solveur algébrique intégré garantit que chaque puzzle a exactement une solution correcte — aucune ambiguïté, aucune devinette. Parcourez plus de 3 100 illustrations sélectionnées dans 104 thèmes pour servir de symboles algébriques, ou téléchargez vos propres images pour un rendu personnalisé. Chaque fiche génère un corrigé automatique, et vous pouvez exporter des PDF prêts à imprimer et des JPEG à plus de 400 DPI en format Letter, A4 ou personnalisé. Que vous vendiez des packs de puzzles thématiques sur Etsy, compiliez des cahiers d\'algèbre progressive sur Amazon KDP ou créiez des ateliers de maths différenciés pour votre classe, le Générateur de Puzzles Algébriques produit des résultats professionnels en quelques minutes — essai gratuit avec toutes les fonctionnalités, sans inscription, sans carte bancaire. Les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.',
@@ -198,6 +203,11 @@ const content: AppContent = {
       question: 'Quelle est la politique de remboursement ?',
       answer:
         'L\'essai gratuit vous donnant accès à toutes les fonctionnalités, nous n\'offrons pas de remboursement sur les achats de licence commerciale. Vous pouvez tester chaque niveau de difficulté, chaque mode d\'opération, chaque thème et chaque format d\'export avant d\'acheter. L\'essai gratuit est la politique de remboursement — assurez-vous que l\'outil répond à vos besoins avant d\'acheter une licence.',
+    },
+    {
+      question: 'Ces fiches de maths conviennent-elles à la maternelle et au primaire ?',
+      answer:
+        'Oui. Réglez la difficulté pour chaque niveau : grande section (GS), CP, CE1, CE2, CM1 et CM2. Les exercices couvrent l\'addition, la soustraction et les opérations mixtes. Au Québec, cela correspond au préscolaire et aux premières années du primaire.',
     },
   ],
 

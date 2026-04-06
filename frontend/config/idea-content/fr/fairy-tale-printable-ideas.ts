@@ -2,21 +2,11 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Imprimables contes de fées pour Etsy | LCS',
-    metaDescription: 'Idées d\'imprimables contes de fées à vendre sur Etsy, KDP et Gumroad. Concepts de produits féériques, stratégies et conseils pour les vendeurs.',
-
-    primaryKeyword: 'imprimables contes de fées à vendre Etsy',
-    secondaryKeywords: [
-      'fiches contes de fées à vendre',
-      'idées business imprimables féeriques',
-      'fiches activités contes de fées vendeurs',
-      'vendre imprimables contes de fées Etsy',
-    ],
-    lsiKeywords: [
-      'fiches éducatives thème contes et histoires',
-      'activités alphabétisation contes classiques',
-      'imprimables fantaisie thème féerique',
-    ],
+    primaryKeyword: 'imprimables contes de fées à vendre',
+    secondaryKeywords: ['fiches contes à imprimer idées', 'cahier activités contes KDP', 'coloriages princesse à vendre', 'jeux contes imprimables'],
+    lsiKeywords: ['conte', 'princesse', 'dragon', 'château', 'fée', 'magie'],
+    titleTag: 'Imprimables contes de fées Etsy & KDP | Idées niches',
+    metaDescription: 'Idées d\'imprimables contes de fées à vendre sur Etsy et KDP. Coloriages princesses, mots mêlés, puzzles thème contes. Niche populaire filles.',
   },
   hero: {
     title: 'Idées d\'Imprimables Contes de Fées pour les Vendeurs',

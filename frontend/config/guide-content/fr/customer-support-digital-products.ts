@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'service client pour produits numériques',
+    primaryKeyword: 'service client produits numériques',
     secondaryKeywords: [
-      'service client produits numériques',
-      'support business imprimables',
-      'gérer réclamations clients fiches exercices',
-      'support téléchargements numériques',
+      'support client imprimables guide',
+      'service client Etsy vendeurs',
+      'FAQ produits numériques',
+      'gérer retours imprimables',
     ],
     lsiKeywords: [
-      'gestion tickets support remboursement FAQ communication acheteur modèles réponse',
-      'satisfaction client dépannage téléchargement format fichier support instructions impression',
-      'messagerie marketplace automatisation support documentation proactive support self-service',
-      'fidélisation client gestion avis descriptions produits clarté gestion attentes',
-      'prévention support problèmes fréquents temps résolution communication professionnelle',
-      'systèmes support évolutifs bibliothèques modèles suivi tendances boucles retour',
+      'service client',
+      'support',
+      'FAQ',
+      'retours',
+      'réclamations',
+      'satisfaction',
     ],
-    titleTag: 'Service client produits numériques | LCS',
-    metaDescription: 'Stratégies de support client pour vendeurs numériques. Prévention des problèmes, modèles de réponse, gestion des remboursements et systèmes évolutifs.',
+    titleTag: 'Service client produits numériques | Guide vendeur',
+    metaDescription: 'Comment gérer le service client pour vos produits numériques. FAQ, retours, réclamations, satisfaction client. Guide complet pour vendeurs Etsy.',
   },
 
   hero: {

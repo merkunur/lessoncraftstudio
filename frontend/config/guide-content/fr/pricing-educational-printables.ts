@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'stratégie prix fiches éducatives stratégies tarification imprimables éducatifs',
+    primaryKeyword: 'prix fiches pédagogiques à vendre',
     secondaryKeywords: [
-      'comment fixer le prix des fiches imprimables',
-      'guide tarification imprimables éducatifs',
-      'stratégie de prix fiches exercices',
-      'tarification produits imprimables',
+      'tarification fiches éducatives',
+      'combien vendre fiches pédagogiques',
+      'stratégie prix imprimables éducatifs',
+      'tarifs fiches à imprimer',
     ],
     lsiKeywords: [
-      'point de prix valeur perçue tarification compétitive tarification basée sur la valeur coût majoré',
-      'ancrage de prix tarification par lots tarification échelonnée test de prix frais marketplace marge bénéficiaire',
-      'psychologie des prix stratégie de remise tarification premium élasticité des prix taux de conversion',
-      'frais de plateforme revenu net paliers de prix comparaison des prix analyse des coûts optimisation des revenus',
-      'tarification saisonnière ajustement des prix étude de marché disposition à payer modèle de tarification',
-      'cadre de tarification positionnement tarifaire sous-tarification surtarification tarification durable',
+      'prix',
+      'tarification',
+      'fiches pédagogiques',
+      'imprimables',
+      'marge',
+      'packs',
     ],
-    titleTag: 'Stratégie de prix fiches éducatives | LCS',
-    metaDescription: 'Stratégies de tarification pour imprimables éducatifs. Psychologie des prix, analyse concurrentielle, frais de plateforme, marges et tests pour vendeurs.',
+    titleTag: 'Prix fiches pédagogiques | Guide tarification',
+    metaDescription: 'Comment fixer les prix de vos fiches pédagogiques. Stratégies de tarification par type de produit et plateforme. Guide complet pour vendeurs.',
   },
 
   hero: {

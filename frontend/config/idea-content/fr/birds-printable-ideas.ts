@@ -2,21 +2,16 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Imprimables oiseaux à vendre en ligne | LCS',
-    metaDescription: 'Idées d\'imprimables oiseaux à vendre sur Etsy, KDP & Gumroad. Concepts de produits, stratégies de plateformes et positionnement de niche pour vendeurs.',
-
     primaryKeyword: 'imprimables oiseaux à vendre',
     secondaryKeywords: [
-      'fiches thème oiseaux à vendre',
-      'idées business imprimables oiseaux',
-      'vendre des fiches d\'activités oiseaux en ligne',
-      'niche fiches oiseaux pour vendeurs',
+      'fiches oiseaux à imprimer idées',
+      'cahier activités oiseaux KDP',
+      'coloriages oiseaux à vendre',
+      'jeux oiseaux imprimables',
     ],
-    lsiKeywords: [
-      'imprimables éducatifs thème nature',
-      'fiches observation de la nature',
-      'activités ornithologie pour enfants',
-    ],
+    lsiKeywords: ['oiseau', 'perroquet', 'hibou', 'aigle', 'plumes', 'nature'],
+    titleTag: 'Imprimables oiseaux pour Etsy & KDP | Idées de niches',
+    metaDescription: 'Idées d\'imprimables oiseaux à vendre sur Etsy et KDP. Coloriages, mots mêlés, puzzles thème oiseaux et nature. Niche éducative.',
   },
   hero: {
     title: 'Idées d\'Imprimables Oiseaux pour les Vendeurs',

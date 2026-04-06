@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'gagner de l\'argent avec des cahiers KDP 2026',
+    primaryKeyword: 'gagner de l\'argent avec des cahiers KDP',
     secondaryKeywords: [
-      'comment gagner de l\'argent avec les livres d\'activités KDP',
-      'stratégies de revenus livres d\'activités KDP',
-      'optimisation des revenus livres d\'activités Amazon KDP',
-      'publication rentable livres d\'activités KDP',
+      'revenus KDP cahiers activités',
+      'gagner argent Amazon KDP guide',
+      'cahiers activités KDP rentables',
+      'business KDP imprimables',
     ],
     lsiKeywords: [
-      'KDP calcul redevance coût impression stratégie prix',
-      'catalogue livres activités revenus composés gains mensuels',
-      'publication saisonnière fêtes Noël été rentrée scolaire',
-      'Amazon badge meilleures ventes mots-clés catégorie classement',
-      'multi-plateforme Etsy Gumroad numérique imprimable expansion',
-      'KDP rapports suivi performance revenu par titre analyse',
+      'KDP',
+      'cahiers activités',
+      'revenus',
+      'gagner argent',
+      'Amazon',
+      'business',
     ],
-    titleTag: 'Gagner de l\'argent avec des cahiers KDP | LCS',
-    metaDescription: 'Comment gagner de l\'argent avec les livres d\'activités KDP. Tarification, catalogue, redevances, publication saisonnière et expansion multi-plateformes.',
+    titleTag: 'Gagner de l\'argent avec KDP | Guide cahiers activités',
+    metaDescription: 'Comment gagner de l\'argent avec des cahiers d\'activités sur Amazon KDP. Niches rentables, tarification, formatage. Guide complet pour débutants.',
   },
 
   hero: {

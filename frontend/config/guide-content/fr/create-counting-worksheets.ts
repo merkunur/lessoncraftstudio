@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'créer des fiches de comptage à vendre sur Etsy',
+    primaryKeyword: 'créer des fiches cherche et compte à imprimer',
     secondaryKeywords: [
-      'créer fiches graphiques en images à vendre',
-      'générateur fiches comptage pictogrammes licence commerciale',
-      'fiches graphiques imprimables avec corrigés automatiques Etsy KDP',
-      'générateur fiches diagrammes barres comptage images',
+      'tutoriel cherche et compte',
+      'guide dénombrement visuel',
+      'fiches compter objets guide',
+      'exercices dénombrement GS CP',
     ],
     lsiKeywords: [
-      'grille 4×5 images dispersées activité comptage générateur fiches',
-      'corrigé auto-généré cellules jaunes surlignées outil double canevas',
-      'représentation données outil visuels comptage imprimable',
-      'vendre fiches graphiques comptage sur Etsy',
-      'cahiers compétences données Amazon KDP diagrammes barres',
-      'licence commerciale générateur fiches graphiques en images',
+      'cherche et compte',
+      'dénombrer',
+      'compter',
+      'discrimination visuelle',
+      'GS',
+      'CP',
     ],
-    titleTag: 'Fiches de comptage à vendre sur Etsy | LCS',
-    metaDescription: 'Créez des fiches de comptage avec graphiques en images, corrigés automatiques et 104 thèmes. Guide pour vendre sur Etsy, KDP et Gumroad.',
+    titleTag: 'Créer des fiches cherche et compte | Guide complet',
+    metaDescription: 'Comment créer des fiches « cherche et compte » où les enfants trouvent et comptent des images. Corrections automatiques. Guide complet.',
   },
 
   hero: {

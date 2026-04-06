@@ -2,24 +2,29 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'créer des énigmes mathématiques codées à vendre sur Etsy',
+    primaryKeyword: 'message codé maths à imprimer',
     secondaryKeywords: [
-      'générateur d\'addition codée pour vendeurs Etsy',
-      'fiches de puzzles maths codés pour Amazon KDP',
-      'énigmes mathématiques codées licence commerciale',
-      'créer des cahiers de décryptage maths pour KDP',
+      'code secret calcul fiche',
+      'déchiffrer code addition exercice',
+      'jeu de code maths CP CE1',
+      'calcul et décodage fiche',
     ],
     lsiKeywords: [
-      'licence commerciale 300 DPI prêt à imprimer',
-      'business d\'imprimables puzzles maths vendeurs',
-      'mot mystère corrigé automatique images thématiques',
+      'déchiffrer',
+      'code secret',
+      'message caché',
+      'énigme mathématique',
+      'CP',
+      'CE1',
+      'addition',
+      'correction',
     ],
-    titleTag: 'Énigmes maths codées à vendre sur Etsy | LCS',
-    metaDescription: 'Créez des énigmes mathématiques codées à vendre sur Etsy & KDP. Mode Mot Mystère, 11 langues, licence commerciale. 49 $ paiement unique.',
+    titleTag: 'Message codé maths | Générateur fiches calcul & décodage',
+    metaDescription: 'Créez des fiches de calcul où les enfants résolvent des additions pour déchiffrer un message codé. Images thématiques, corrections incluses. Essai gratuit.',
   },
 
   hero: {
-    title: 'Créez et vendez des énigmes maths codées sur Etsy & KDP',
+    title: 'Message codé maths à imprimer — Générateur de fiches calcul & décodage',
     tagline: 'Transformez l\'addition en mission de détective où chaque image cache un nombre secret.',
     description:
       'Créez des énigmes mathématiques codées à vendre sur Etsy, Amazon KDP ou La Salle des Maîtres — un format de puzzle unique qui se démarque dans les boutiques d\'imprimables. Chaque image sur la fiche représente un nombre caché — les utilisateurs résolvent des équations d\'addition pour déduire quel nombre appartient à quelle image, combinant fluence mathématique et raisonnement logique dans un seul exercice. Passez en mode Mot Mystère et l\'enjeu monte : entrez un mot secret de dix lettres maximum, et chaque équation correctement résolue révèle une lettre de la réponse tandis que trois lettres de distraction avec de mauvaises sommes maintiennent le suspense. Le générateur prend en charge onze alphabets spécifiques à chaque langue, donc le Mot Mystère fonctionne nativement en français, allemand, anglais, espagnol et sept autres langues — une fonctionnalité qu\'aucun autre générateur de fiches n\'offre. Choisissez parmi plus de 3 100 images dans 104 thèmes, définissez les plages de nombres de 1 à 20 avec deux à cinq symboles-codes par fiche, et exportez des PDF ou JPEG prêts à imprimer à plus de 400 DPI avec corrigés automatiques. Essai gratuit avec toutes les fonctionnalités — sans inscription, sans carte bancaire. Les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.',
@@ -198,6 +203,11 @@ const content: AppContent = {
       question: 'Quelle est la politique de remboursement ?',
       answer:
         'Testez avant d\'acheter grâce à notre essai gratuit — toutes les fonctionnalités sont disponibles pour évaluer l\'outil avant d\'acheter. L\'essai gratuit donnant un accès complet, nous n\'offrons pas de remboursement sur les achats de licence. Assurez-vous que l\'outil répond à vos besoins grâce à l\'essai gratuit avant d\'acheter. Cette approche vous permet d\'évaluer chaque fonctionnalité, format d\'exportation et combinaison de thèmes avant de prendre une décision d\'achat, vous donnant une confiance totale dans votre investissement.',
+    },
+    {
+      question: 'Ces fiches de message codé sont-elles adaptées au CP et CE1 ?',
+      answer:
+        'Oui. Le niveau de difficulté s\'ajuste via la plage de nombres : additions simples de 1 à 5 pour la grande section (GS), jusqu\'à 10 pour le CP, et plus complexes pour le CE1 et CE2. Au Québec, cela correspond au préscolaire et à la 1re année du primaire.',
     },
   ],
 

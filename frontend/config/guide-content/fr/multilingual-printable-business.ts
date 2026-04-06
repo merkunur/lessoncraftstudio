@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'business d\'imprimables multilingue',
+    primaryKeyword: 'vendre des imprimables multilingues',
     secondaryKeywords: [
-      'vendre imprimables plusieurs langues',
-      'marché international des imprimables',
-      'activité fiches exercices multilingue',
-      'développer imprimables à l\'international',
+      'imprimables plusieurs langues guide',
+      'business imprimables multilingues',
+      'fiches 11 langues vendre',
+      'marché francophone imprimables',
     ],
     lsiKeywords: [
-      'expansion linguistique marchés internationaux stratégie localisation marchés européens imprimables',
-      'marché éducatif allemand demande fiches françaises acheteurs imprimables espagnols',
-      'catalogue multilingue multiplication revenus diversification marchés vente transfrontalière',
-      'workflow traduction marché éducatif mondial places de marché linguistiques SEO international',
-      'portefeuille produits multilingue couverture linguistique avantage concurrentiel marchés sous-exploités',
-      'flux revenus multilangues internationalisation plateformes distribution multi-marchés',
+      'multilingue',
+      'langues',
+      'francophone',
+      'international',
+      'traduction',
+      'marché',
     ],
-    titleTag: 'Business d\'imprimables multilingue | LCS',
-    metaDescription: 'Développez une activité d\'imprimables multilingue sur les marchés internationaux. Langues prioritaires, workflows de traduction et stratégies de revenus.',
+    titleTag: 'Imprimables multilingues | Guide business mondial',
+    metaDescription: 'Comment vendre des imprimables en plusieurs langues. Marché francophone, stratégie internationale, 11 langues. Guide complet pour vendeurs.',
   },
 
   hero: {

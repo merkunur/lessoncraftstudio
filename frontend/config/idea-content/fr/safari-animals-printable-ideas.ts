@@ -2,21 +2,16 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Imprimables safari à vendre en ligne | LCS',
-    metaDescription: 'Idées d\'imprimables animaux de safari à vendre sur Etsy, KDP & Gumroad. Concepts produits faune africaine, stratégies plateformes et conseils vendeurs.',
-
     primaryKeyword: 'imprimables animaux safari à vendre',
     secondaryKeywords: [
-      'fiches animaux de safari à vendre',
-      'activité imprimable thème safari business',
-      'fiches activités jungle pour vendeurs',
-      'vendre imprimables safari sur Etsy',
+      'fiches animaux sauvages à imprimer',
+      'cahier activités safari KDP',
+      'coloriages jungle à vendre',
+      'jeux safari imprimables',
     ],
-    lsiKeywords: [
-      'fiches éducatives faune africaine',
-      'activités savane et jungle pour enfants',
-      'imprimables éducatifs animaux exotiques',
-    ],
+    lsiKeywords: ['safari', 'lion', 'éléphant', 'girafe', 'jungle', 'savane'],
+    titleTag: 'Imprimables animaux safari Etsy & KDP | Idées niches',
+    metaDescription: 'Idées d\'imprimables animaux safari à vendre sur Etsy et KDP. Coloriages jungle, mots mêlés savane, puzzles animaux. Niche populaire.',
   },
   hero: {
     title: 'Idées d\'Imprimables Animaux de Safari pour les Vendeurs',

@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'créer des fiches d\'addition à vendre',
+    primaryKeyword: 'créer des fiches d\'addition à imprimer',
     secondaryKeywords: [
-      'faire fiches addition pour enfants',
-      'générateur fiches addition',
-      'fiches addition imprimables à vendre',
-      'fiches exercices addition personnalisées',
+      'tutoriel fiches addition',
+      'guide fiches maths addition',
+      'fiches addition CP CE1 guide',
+      'créer exercices addition PDF',
     ],
     lsiKeywords: [
-      'fiches maths avec images pour enfants',
-      'addition visuelle pour marché préscolaire',
-      'fiches exercices maths grande section',
-      'vendre fiches maths sur Etsy',
-      'cahiers activités maths Amazon KDP',
-      'outil fiches avec licence commerciale',
+      'addition',
+      'calcul',
+      'CP',
+      'CE1',
+      'corrigé',
+      'images thématiques',
     ],
-    titleTag: 'Créer des fiches d\'addition à vendre | LCS',
-    metaDescription: 'Comment créer des fiches d\'addition pour enfants. Choisir les thèmes, régler la difficulté, générer les corrigés et exporter en PDF pour Etsy et KDP.',
+    titleTag: 'Créer des fiches d\'addition | Guide étape par étape',
+    metaDescription: 'Comment créer des fiches d\'addition avec images thématiques. Choisir le thème, régler la difficulté, générer les corrigés et exporter en PDF. Guide complet.',
   },
 
   hero: {

@@ -2,23 +2,11 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'lancer business imprimables 2026 guide complet activité',
-    secondaryKeywords: [
-      'activité d\'imprimables pour débutants',
-      'vendre des fiches imprimables en ligne',
-      'créer une boutique de fiches imprimables',
-      'guide de démarrage activité imprimables',
-    ],
-    lsiKeywords: [
-      'modèle commercial de téléchargement numérique',
-      'générateur de fiches pour vendeurs',
-      'boutique Etsy de fiches imprimables',
-      'livres d\'activités Amazon KDP',
-      'Gumroad fiches commercials',
-      'licence commerciale outils imprimables',
-    ],
-    titleTag: 'Lancer un business d\'imprimables (2026) | LCS',
-    metaDescription: 'Comment lancer une activité d\'imprimables. Guide étape par étape pour vendeurs Etsy, Amazon KDP et Gumroad avec générateurs de fiches pour créer et vendre.',
+    primaryKeyword: 'lancer un business d\'imprimables guide complet',
+    secondaryKeywords: ['démarrer business imprimables', 'guide complet imprimables 2026', 'business fiches à imprimer', 'commencer vendre imprimables'],
+    lsiKeywords: ['business', 'lancer', 'démarrer', 'guide', 'imprimables', 'étape par étape'],
+    titleTag: 'Lancer un business d\'imprimables | Guide complet 2026',
+    metaDescription: 'Guide complet pour lancer un business d\'imprimables en 2026. De zéro à votre première vente sur Etsy, KDP ou Gumroad. Étape par étape.',
   },
 
   hero: {

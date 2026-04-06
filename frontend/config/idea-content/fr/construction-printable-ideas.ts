@@ -2,21 +2,16 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Imprimables chantier à vendre | LCS',
-    metaDescription: 'Idées d\'imprimables construction à vendre sur Etsy, KDP et Gumroad. Concepts de produits véhicules et outils, stratégies et conseils vendeurs.',
-
-    primaryKeyword: 'imprimables chantier vendre idées construction vendeurs',
+    primaryKeyword: 'imprimables construction à vendre',
     secondaryKeywords: [
-      'fiches construction à vendre',
-      'idées business imprimables chantier',
-      'fiches activités véhicules de chantier vendeurs',
-      'vendre imprimables construction Etsy',
+      'fiches chantier à imprimer idées',
+      'cahier activités construction KDP',
+      'coloriages chantier à vendre',
+      'jeux construction imprimables',
     ],
-    lsiKeywords: [
-      'fiches éducatives thème chantier',
-      'activités STEM construction enfants',
-      'imprimables éducatifs véhicules et engins',
-    ],
+    lsiKeywords: ['construction', 'chantier', 'grue', 'pelleteuse', 'bâtiment', 'ouvrier'],
+    titleTag: 'Imprimables construction Etsy & KDP | Idées de niches',
+    metaDescription: 'Idées d\'imprimables construction à vendre sur Etsy et KDP. Coloriages chantier, mots mêlés, puzzles engins. Niche populaire garçons.',
   },
   hero: {
     title: 'Idées d\'Imprimables Construction pour les Vendeurs',

@@ -2,21 +2,16 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Imprimables de Noël pour Etsy | LCS',
-    metaDescription: 'Idées d\'imprimables de Noël à vendre sur Etsy, KDP & Gumroad. Concepts de produits festifs, stratégies saisonnières et conseils pour les vendeurs.',
-
-    primaryKeyword: 'imprimables noël etsy idées activité imprimable vendeurs',
+    primaryKeyword: 'imprimables Noël à vendre Etsy',
     secondaryKeywords: [
-      'fiches de Noël à vendre',
-      'idées activité imprimable fêtes de fin d\'année',
-      'fiches activités de Noël pour vendeurs',
-      'vendre des imprimables de Noël sur Etsy',
+      'fiches Noël à imprimer idées',
+      'cahier activités Noël KDP',
+      'coloriages Noël à vendre',
+      'jeux Noël imprimables',
     ],
-    lsiKeywords: [
-      'packs de fiches fêtes saisonnières',
-      'activités éducatives thème hiver',
-      'ressources imprimables festives pour la vente',
-    ],
+    lsiKeywords: ['Noël', 'Père Noël', 'sapin', 'cadeaux', 'hiver', 'décembre'],
+    titleTag: 'Imprimables Noël pour Etsy & KDP | Idées de niches',
+    metaDescription: 'Idées d\'imprimables de Noël à vendre sur Etsy et KDP. Coloriages, mots mêlés, maths, puzzles thème Noël. Trouvez votre niche saisonnière.',
   },
   hero: {
     title: 'Idées d\'Activité Imprimable de Noël pour les Vendeurs',

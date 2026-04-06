@@ -2,24 +2,29 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'créer des cherche et trouve à vendre sur Etsy et KDP',
+    primaryKeyword: 'cherche et trouve à imprimer',
     secondaryKeywords: [
-      'générateur de fiches objets cachés pour vendeurs Etsy',
-      'fiches Je Vois Je Vois pour Amazon KDP',
-      'cherche et trouve imprimables licence commerciale',
-      'cahiers de cherche et trouve pour La Salle des Maîtres',
+      'jeu cherche et trouve fiche',
+      'objets cachés à imprimer',
+      'jeu d\'observation à imprimer',
+      'cherche et trouve maternelle',
     ],
     lsiKeywords: [
-      'licence commerciale 300 DPI prêt à imprimer',
-      'business d\'imprimables cherche et trouve vendeurs',
-      'modes Cherche et Trouve l\'Intrus corrigé automatique',
+      'observation',
+      'concentration',
+      'attention visuelle',
+      'trouver',
+      'repérer',
+      'maternelle',
+      'GS',
+      'CP',
     ],
-    titleTag: 'Cherche et trouve à vendre sur Etsy & KDP | LCS',
-    metaDescription: 'Créez des cherche et trouve à vendre sur Etsy & KDP. Modes Je Vois et Trouve l\'Intrus, licence commerciale. 49 $ paiement unique.',
+    titleTag: 'Cherche et trouve à imprimer | Générateur jeux observation',
+    metaDescription: 'Créez des fiches « cherche et trouve » avec images thématiques. Solutions automatiques, PDF 300 DPI. Essai gratuit — vendez sur Etsy & KDP.',
   },
 
   hero: {
-    title: 'Créez des cherche et trouve à vendre sur Etsy & Amazon KDP',
+    title: 'Cherche et trouve à imprimer — Générateur de jeux d\'observation avec images',
     tagline: 'Deux modes d\'activité en un seul générateur — scènes d\'objets cachés Je Vois Je Vois avec placement sans chevauchement et rangées d\'images appariées Trouve l\'Intrus — avec corrigés auto-générés, dimensionnement adaptatif des images, champs nom et date, et légende montrant les objets à trouver.',
     description:
       'Créez des cherche et trouve à vendre sur Etsy, Amazon KDP ou La Salle des Maîtres — des fiches où les acheteurs explorent une scène d\'images dispersées pour trouver et entourer des objets spécifiques. Choisissez entre deux modes d\'activité : le mode Je Vois Je Vois utilise un algorithme de placement sans chevauchement pour disperser 1–5 objets cachés parmi 8–12 objets distracteurs sur toute la page — pas de grille, pas de lignes ni de colonnes, juste une scène visuelle cohérente générée par l\'algorithme findBestPosition() qui essaie 50 positions aléatoires par image et réduit adaptativement la taille quand l\'espace se fait rare. Une légende en bas de la fiche montre aux utilisateurs exactement quels objets chercher. Le mode Trouve l\'Intrus dispose 8–12 images appariées en rangées avec 1–5 éléments non appariés mélangés — les utilisateurs identifient les images qui n\'ont pas de partenaire correspondant. Le système à double canevas génère à la fois un onglet Fiche et un onglet Corrigé — le corrigé dessine des cercles rouges autour des objets cachés (Je Vois Je Vois) ou des éléments non appariés (Trouve l\'Intrus) pour que vous n\'ayez jamais à les marquer manuellement. Le Générateur Cherche Objets est uniquement visuel : la langue affecte les étiquettes de l\'interface mais PAS le contenu des fiches, donc chaque fiche fonctionne dans n\'importe quelle langue sans noms d\'images localisés. L\'Accès Complet déverrouille les 104 thèmes avec plus de 3 100 illustrations et les 11 langues d\'interface. Ajoutez des thèmes de fond et des thèmes de bordure avec des contrôles d\'opacité indépendants, activez ou désactivez les champs nom et date, personnalisez l\'en-tête à taille automatique avec 6 choix de polices, et exportez des PDF prêts à imprimer et des JPEG à 300 DPI en format Letter, A4 ou dimensions personnalisées. Que vous vendiez des packs d\'activités objets cachés sur Etsy, compiliez des cahiers Je Vois Je Vois pour Amazon KDP ou créiez des activités de discrimination visuelle pour Gumroad, ce générateur produit des fiches professionnelles en quelques minutes — essai gratuit avec toutes les fonctionnalités, sans inscription, sans carte bancaire. Les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.',
@@ -198,6 +203,11 @@ const content: AppContent = {
       question: 'Quelle est la politique de remboursement ?',
       answer:
         'L\'essai gratuit vous donnant accès à toutes les fonctionnalités, nous n\'offrons pas de remboursement sur les achats de licence commerciale. Vous pouvez tester les deux modes d\'activité, l\'algorithme de placement sans chevauchement, les quantités d\'objets configurables, le corrigé auto-généré, la bibliothèque d\'images complète, les thèmes de fond et de bordure, les champs nom et date et tous les formats de téléchargement avant d\'acheter. L\'essai gratuit est la politique de remboursement — assurez-vous que l\'outil répond à vos besoins avant d\'acheter une licence.',
+    },
+    {
+      question: 'Le cherche et trouve est-il adapté à la maternelle et au CP ?',
+      answer:
+        'Oui. Les jeux d\'observation développent l\'attention visuelle dès la grande section (GS). Ajustez le nombre d\'objets à trouver selon le niveau : peu d\'objets pour la GS, davantage pour le CP et CE1. Au Québec, cela correspond au préscolaire et à la 1re année.',
     },
   ],
 

@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'créer des fiches de prépositions FLE à vendre',
+    primaryKeyword: 'créer des fiches de repérage spatial',
     secondaryKeywords: [
-      'fiches prépositions spatiales à vendre licence commerciale',
-      'générateur fiches de prépositions usage commercial Etsy et KDP',
-      'fiches langage spatial imprimables avec corrigés à vendre',
-      'outil générateur fiches prépositions mots de position multilingues',
+      'tutoriel fiches prépositions',
+      'guide repérage spatial maternelle',
+      'fiches sur sous devant derrière',
+      'vocabulaire spatial GS CP guide',
     ],
     lsiKeywords: [
-      'deux modes exercice texte à trous choix multiples générateur fiches prépositions',
-      'remplacement de formes couche image scènes combinaisons générateur',
-      'grille sélection prépositions sept mots de position pratique ciblée',
-      'vendre fiches de prépositions sur Etsy',
-      'cahiers activités langage spatial Amazon KDP',
-      'outil fiches prépositions licence commerciale',
+      'prépositions',
+      'repérage spatial',
+      'sur',
+      'sous',
+      'devant',
+      'derrière',
     ],
-    titleTag: 'Fiches de prépositions FLE à vendre | LCS',
-    metaDescription: 'Créez des fiches de prépositions avec deux modes d\'exercice, Remplacement de Formes et grille de 7 prépositions en 11 langues. Vendez sur Etsy.',
+    titleTag: 'Créer des fiches de repérage spatial | Guide complet',
+    metaDescription: 'Comment créer des fiches de repérage spatial et prépositions avec images thématiques. Corrections automatiques, 11 langues. Guide complet.',
   },
 
   hero: {

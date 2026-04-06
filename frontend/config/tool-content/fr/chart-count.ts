@@ -1,24 +1,28 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'fiches de comptage et graphiques gratuites',
+    primaryKeyword: 'fiches dénombrement gratuit à imprimer',
     secondaryKeywords: [
-      'générateur de pictogrammes gratuit en ligne',
-      'fiches de comptage gratuites sans inscription',
-      'créer des graphiques à images gratuitement',
-      'fiches de comptage PDF gratuit avec corrigés',
+      'exercices compter et diagramme gratuit',
+      'générateur dénombrement en ligne',
+      'fiches graphiques maternelle gratuit',
+      'compter et classer gratuit',
     ],
     lsiKeywords: [
-      'essai gratuit avec filigrane sans inscription',
-      'licence commerciale pour vendre sur Etsy',
-      'grille 4×5 diagramme à barres 104 thèmes',
+      'GS',
+      'CP',
+      'gratuit',
+      'sans inscription',
+      'tableau',
+      'diagramme',
+      'dénombrer',
     ],
-    titleTag: 'Fiches de comptage gratuites en ligne | LCS',
-    metaDescription: 'Créez des fiches de comptage et graphiques gratuitement. 104 thèmes, corrigés, sans inscription. Passez à la licence commerciale pour vendre.',
-    },
+    titleTag: 'Fiches dénombrement gratuit en ligne | LCS',
+    metaDescription: 'Créez des fiches de dénombrement et diagrammes gratuitement en ligne. Images thématiques, corrections automatiques. Sans inscription. Essai gratuit.',
+  },
 
   hero: {
-    title: 'Fiches de comptage gratuites — créez en ligne sans inscription',
+    title: 'Fiches de dénombrement gratuites — créez des diagrammes à imprimer en ligne',
     tagline: 'Générateur de fiches graphique à images avec grilles d\'images dispersées, corrigés en diagramme à barres auto-générés, en-têtes localisés dans 11 langues et 104 collections d\'images thématiques pour des fiches de représentation de données vendables dans le monde entier',
     description: 'Créez des fiches de comptage et graphiques gratuitement en ligne — sans inscription, sans carte bancaire. Les utilisateurs comptent des images dispersées et remplissent un diagramme à barres — collecte de données et représentation en une seule activité. Chaque fiche présente une grille 4×5 contenant 20 icônes de 6 types d\'images différents, chaque type apparaissant 1 à 5 fois dans une distribution aléatoire qui rend chaque génération unique. Sous la grille, un diagramme à barres de 6 colonnes × 5 lignes avec les colonnes étiquetées par type d\'image et les lignes numérotées de 1 à 5 offre aux utilisateurs un espace structuré pour enregistrer leurs décomptes. L\'application génère simultanément un corrigé sur un onglet de canevas séparé avec des cases surlignées en jaune (#FFC857) montrant les décomptes corrects, permettant aux vendeurs de vérifier le travail des utilisateurs instantanément sans comptage manuel. Choisissez les images automatiquement en sélectionnant un thème dans le menu déroulant Source d\'Images de la Fiche — l\'application choisit aléatoirement 6 images de cette collection — ou parcourez manuellement la Bibliothèque d\'Images avec plus de 3 100 illustrations réparties dans 104 collections thématiques et cliquez exactement 6 images avec une bande d\'aperçu. Chaque fiche inclut un en-tête auto-généré avec un titre localisé \" Graphique en Images \" et des consignes de comptage affichés dans une pilule jaune stylisée (#FFD93D) avec un cadre de bordure orange, s\'adaptant automatiquement aux 11 langues prises en charge. Ajoutez des champs nom et date avec une simple case à cocher (Fredoka 18 px #333). Appliquez des thèmes de fond et de bordure avec des curseurs d\'opacité indépendants (0–1, pas de 0,05). Le Générateur de Graphique à Images n\'est pas sensible à la langue — le comptage visuel utilise des nombres et des images universels, rendant les fiches identiquement utilisables dans toutes les langues sans modification. Téléchargez quatre fichiers par session : fiche JPEG, fiche PDF, corrigé JPEG et corrigé PDF — tous à 300 DPI. Exportez en Letter, A4, Carré (1200×1200) ou dimensions personnalisées avec une option niveaux de gris pour une sortie économique en encre. Éditez tout sur le canevas Fabric.js complet avec des polices incluant Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial et Verdana, contour de texte de 0 à 10 avec une granularité de 0,5, annuler/rétablir jusqu\'à 20 états et zoom de 25 % à 300 %. L\'essai gratuit inclut toutes les fonctionnalités avec un filigrane sur les téléchargements. Achetez une licence pour supprimer le filigrane et vendre à usage commercial.',
   },

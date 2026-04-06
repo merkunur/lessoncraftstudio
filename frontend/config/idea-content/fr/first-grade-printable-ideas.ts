@@ -2,21 +2,11 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Imprimables CP à vendre sur Etsy | LCS',
-    metaDescription: 'Idées d\'imprimables CP à vendre sur Etsy, KDP & Gumroad. Concepts de produits Cours Préparatoire, stratégies de niche et conseils pour les vendeurs.',
-
-    primaryKeyword: 'imprimables vendre etsy idées vendeurs',
-    secondaryKeywords: [
-      'fiches CP à vendre',
-      'idées business imprimables cours préparatoire',
-      'fiches activités CP pour vendeurs',
-      'vendre imprimables CP sur Gumroad',
-    ],
-    lsiKeywords: [
-      'fiches éducatives début primaire',
-      'imprimables programme CP 6-7 ans',
-      'pages activités apprentissage lecture écriture CP',
-    ],
+    primaryKeyword: 'imprimables CP à vendre',
+    secondaryKeywords: ['fiches CP à imprimer idées', 'cahier activités CP KDP', 'exercices CP à vendre', 'fiches premier primaire imprimables'],
+    lsiKeywords: ['CP', 'cours préparatoire', '6 ans', 'lecture', 'addition', 'écriture'],
+    titleTag: 'Imprimables CP pour Etsy & KDP | Idées de niches',
+    metaDescription: 'Idées d\'imprimables CP (cours préparatoire) à vendre sur Etsy et KDP. Lecture, maths, écriture, puzzles. Niche éducative très demandée.',
   },
   hero: {
     title: 'Idées d\'Imprimables CP pour les Vendeurs',

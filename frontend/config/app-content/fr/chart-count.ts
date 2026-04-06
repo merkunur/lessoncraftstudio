@@ -2,24 +2,29 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'fiches de comptage et graphiques pour boutique Etsy',
+    primaryKeyword: 'fiches dénombrement à imprimer',
     secondaryKeywords: [
-      'générateur de graphiques à images pour vendeurs Etsy',
-      'fiches de pictogrammes pour Amazon KDP',
-      'fiches de comptage imprimables licence commerciale',
-      'créer des cahiers de graphiques pour La Salle des Maîtres',
+      'exercices compter et diagramme',
+      'fiches graphiques maternelle GS CP',
+      'dénombrement et tableau fiche',
+      'compter et classer exercices',
     ],
     lsiKeywords: [
-      'licence commerciale 300 DPI corrigé automatique',
-      'business d\'imprimables comptage visuel vendeurs',
-      'diagramme à barres images thématiques prêt à imprimer',
+      'tableau',
+      'graphique',
+      'diagramme en bâtons',
+      'dénombrer',
+      'classer',
+      'données',
+      'GS',
+      'CP',
     ],
-    titleTag: 'Fiches de comptage pour boutique Etsy | LCS',
-    metaDescription: 'Créez des fiches de comptage et graphiques à vendre sur Etsy & KDP. 104 thèmes, corrigés, licence commerciale. 49 $ paiement unique.',
+    titleTag: 'Fiches dénombrement et diagrammes | Générateur à imprimer',
+    metaDescription: 'Créez des fiches de dénombrement et diagrammes avec images thématiques. Corrections automatiques, PDF imprimables. Essai gratuit — licence commerciale.',
   },
 
   hero: {
-    title: 'Créez des fiches de comptage et graphiques à vendre sur Etsy',
+    title: 'Fiches de dénombrement et diagrammes à imprimer — Générateur avec corrections',
     tagline: 'Générateur double canevas de pictogrammes — créez des grilles d\'images dispersées avec 6 types d\'images, des corrigés en diagramme à barres remplis automatiquement, des en-têtes localisés dans 11 langues, et 104 collections d\'images thématiques pour des fiches de représentation de données.',
     description:
       'Créez des fiches de comptage et graphiques à vendre sur Etsy, Amazon KDP ou La Salle des Maîtres — le seul générateur conçu spécifiquement pour les graphiques à images. Chaque fiche présente une grille d\'images dispersées avec 20 icônes de 6 types différents disposées en format 4×5 — les utilisateurs comptent combien de chaque type apparaît, puis colorient les cases correspondantes dans le diagramme à barres en dessous. L\'application génère simultanément un corrigé avec des cases surlignées en jaune montrant les décomptes corrects, permettant aux vendeurs de vérifier le travail des utilisateurs instantanément. Choisissez les images automatiquement en sélectionnant un thème dans le menu déroulant Source d\'Images de la Fiche, ou sélectionnez manuellement exactement 6 images depuis la Bibliothèque d\'Images avec plus de 3 100 illustrations réparties dans 104 collections. Chaque fiche inclut un en-tête auto-généré avec un titre \" Graphique en Images \" localisé et des consignes de comptage — l\'en-tête s\'adapte aux 11 langues prises en charge automatiquement. Ajoutez des champs nom et date de l\'utilisateur avec une simple case à cocher, appliquez des thèmes de fond et de bordure avec des contrôles d\'opacité indépendants, et personnalisez avec des outils texte et l\'édition directe sur le canevas. Le Générateur de Graphique à Images n\'est pas sensible à la langue — le comptage visuel utilise des nombres et des images universels, donc les fiches fonctionnent de manière identique dans toutes les langues. L\'Accès Complet déverrouille les 104 thèmes et les 11 langues d\'interface. Exportez des PDF et JPEG prêts à imprimer à 300 DPI en format Letter, A4, Carré (1200×1200) ou dimensions personnalisées. Téléchargez les quatre fichiers — fiche JPEG, fiche PDF, corrigé JPEG et corrigé PDF — en une seule session. Que vous vendiez des packs de graphiques à images sur Etsy, compiliez des cahiers de compétences en données pour Amazon KDP ou créiez des activités de centre mathématique pour Gumroad, le Générateur de Graphique à Images livre des résultats prêts pour la vente en quelques minutes — essai gratuit avec toutes les fonctionnalités, sans inscription, sans carte bancaire. Les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.',
@@ -193,6 +198,11 @@ const content: AppContent = {
       question: 'Quelle est la politique de remboursement ?',
       answer:
         'L\'essai gratuit vous donnant accès à toutes les fonctionnalités, nous n\'offrons pas de remboursement sur les achats de licence commerciale. Vous pouvez tester le double canevas, la génération de grille d\'images, le corrigé automatique, la bibliothèque d\'images complète, les thèmes de fond et de bordure, les champs nom/date, l\'export en niveaux de gris et tous les formats de téléchargement avant d\'acheter. L\'essai gratuit est la politique de remboursement — assurez-vous que l\'outil répond à vos besoins avant d\'acheter une licence.',
+    },
+    {
+      question: 'Ces fiches de dénombrement conviennent-elles à la maternelle GS et au CP ?',
+      answer:
+        'Oui. Le dénombrement et les diagrammes sont des compétences clés en grande section (GS) et en CP. Ajustez la quantité d\'objets à compter selon le niveau. Au Québec, cela correspond au préscolaire et à la 1re année du primaire.',
     },
   ],
 

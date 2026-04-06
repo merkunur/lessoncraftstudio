@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'réseaux sociaux pour vendeurs d\'imprimables',
+    primaryKeyword: 'marketing réseaux sociaux imprimables',
     secondaryKeywords: [
-      'réseaux sociaux pour vendeurs imprimables',
-      'promouvoir imprimables sur réseaux sociaux',
-      'stratégie sociale activité imprimables',
-      'commercialiser fiches exercices en ligne',
+      'promouvoir imprimables Instagram',
+      'marketing Pinterest imprimables',
+      'réseaux sociaux vendeurs fiches',
+      'stratégie sociale imprimables',
     ],
     lsiKeywords: [
-      'marketing de contenu promotion produits marketing visuel stratégie plateformes',
-      'construction audience engagement notoriété marque présentation produits',
-      'portée organique calendrier contenu contenu visuel produits partageables',
-      'photographie produits preuve sociale communauté croissance abonnés',
-      'marketing Instagram stratégie Pinterest groupes Facebook promotion vendeur',
-      'stratégie hashtags calendrier publication taux engagement optimisation profil',
+      'réseaux sociaux',
+      'Instagram',
+      'Pinterest',
+      'marketing',
+      'promotion',
+      'imprimables',
     ],
-    titleTag: 'Réseaux sociaux pour vendeurs | LCS',
-    metaDescription: 'Stratégies marketing réseaux sociaux pour imprimables : choix des plateformes, contenu visuel, construction. Vendez sur Etsy & KDP avec licence commerciale.',
+    titleTag: 'Marketing réseaux sociaux imprimables | Guide',
+    metaDescription: 'Comment promouvoir vos imprimables sur les réseaux sociaux. Instagram, Pinterest, stratégies de contenu, engagement. Guide complet.',
   },
 
   hero: {

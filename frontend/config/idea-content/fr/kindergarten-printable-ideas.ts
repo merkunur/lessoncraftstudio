@@ -2,21 +2,11 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Imprimables grande section — Business | LCS',
-    metaDescription: 'Imprimables Grande Section à vendre sur Etsy, KDP & Gumroad. Concepts produits préscolaire, stratégies par plateforme et conseils pour vendeurs.',
-
-    primaryKeyword: 'imprimables grande section idées business',
-    secondaryKeywords: [
-      'fiches marché préscolaire à vendre',
-      'idées business imprimables marché préscolaire',
-      'fiches activités grande section vendeurs',
-      'vendre imprimables marché préscolaire Etsy',
-    ],
-    lsiKeywords: [
-      'fiches éducatives préscolaire et marché préscolaire',
-      'imprimables apprentissage petite enfance',
-      'pages activités éducatives 5-6 ans',
-    ],
+    primaryKeyword: 'imprimables grande section GS à vendre',
+    secondaryKeywords: ['fiches GS à imprimer idées', 'cahier activités grande section KDP', 'exercices GS à vendre', 'fiches préscolaire imprimables'],
+    lsiKeywords: ['grande section', 'GS', 'préscolaire', 'alphabet', 'nombres', 'graphisme'],
+    titleTag: 'Imprimables grande section GS Etsy & KDP | Idées',
+    metaDescription: 'Idées d\'imprimables grande section (GS) à vendre sur Etsy et KDP. Alphabet, nombres, graphisme, tri. Niche éducative pré-primaire.',
   },
   hero: {
     title: 'Idées d\'Imprimables Grande Section pour les Vendeurs',

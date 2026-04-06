@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'intrus trouve jeux vendre comment',
+    primaryKeyword: 'créer des jeux de l\'intrus à imprimer',
     secondaryKeywords: [
-      'générateur fiches trouve l\'intrus licence commerciale',
-      'fiches discrimination visuelle à vendre Etsy et KDP',
-      'créer puzzles trouve l\'intrus imprimables avec corrigés',
-      'outil puzzles intrus usage commercial',
+      'tutoriel cherche l\'intrus',
+      'guide jeu de l\'intrus maternelle',
+      'trouver l\'intrus fiches guide',
+      'jeu logique intrus guide',
     ],
     lsiKeywords: [
-      'générateur double mode identique similaire trouve l\'intrus',
-      'remplacement mode par exercice puzzles visuels',
-      'corrigés automatiques cercle rouge fiches intrus',
-      'vendre fiches trouve l\'intrus sur Etsy',
-      'cahiers discrimination visuelle Amazon KDP',
-      'outil trouve l\'intrus licence commerciale',
+      'intrus',
+      'classification',
+      'logique',
+      'raisonnement',
+      'maternelle',
+      'GS',
     ],
-    titleTag: 'Jeux de l\'intrus à vendre | LCS',
-    metaDescription: 'Créez des fiches trouve l\'intrus avec modes Identique et Similaire, remplacement par exercice et corrigés automatiques. Guide pour vendeurs Etsy et KDP.',
+    titleTag: 'Créer des jeux de l\'intrus | Guide complet',
+    metaDescription: 'Comment créer des fiches « cherche l\'intrus » avec images thématiques pour le raisonnement logique. Corrections automatiques. Guide complet.',
   },
 
   hero: {

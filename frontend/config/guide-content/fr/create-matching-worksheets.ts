@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'créer des fiches d\'appariement à vendre',
+    primaryKeyword: 'créer des fiches d\'association à imprimer',
     secondaryKeywords: [
-      'fiches d\'association pour la marché préscolaire',
-      'générateur fiches d\'association',
-      'fiches association imprimables à vendre',
-      'fiches association trace une ligne',
+      'tutoriel fiches association',
+      'guide fiches relier maternelle',
+      'jeux d\'association à imprimer guide',
+      'fiches association images',
     ],
     lsiKeywords: [
-      'fiches association images marché préscolaire',
-      'activités association lettres grande section',
-      'fiches discrimination visuelle',
-      'vendre fiches association sur Etsy',
-      'cahiers activités association Amazon KDP',
-      'outil fiches association licence commerciale',
+      'relier',
+      'associer',
+      'paires',
+      'maternelle',
+      'GS',
+      'CP',
     ],
-    titleTag: 'Fiches d\'appariement à vendre | LCS',
-    metaDescription: 'Comment créer des fiches d\'association pour enfants. 4 modes, images thématiques, corrigés auto avec lignes de liaison et PDF prêts à imprimer pour Etsy.',
+    titleTag: 'Créer des fiches d\'association | Guide complet',
+    metaDescription: 'Comment créer des fiches d\'association avec images thématiques pour maternelle et CP. Corrections automatiques. Guide étape par étape.',
   },
 
   hero: {

@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'trésor chasse fiches chasses vendre ligne comment',
+    primaryKeyword: 'créer une chasse au trésor à imprimer',
     secondaryKeywords: [
-      'créer fiches chasse au trésor à vendre',
-      'générateur fiches chasse au trésor licence commerciale',
-      'fiches chasse au trésor imprimables Etsy et KDP',
-      'fiches parcours fléché grille coordonnées avec corrigés',
+      'tutoriel chasse au trésor',
+      'guide jeu de piste enfants',
+      'indices chasse au trésor guide',
+      'chasse au trésor anniversaire guide',
     ],
     lsiKeywords: [
-      'deux types de direction basique cardinal grille coordonnées générateur fiches',
-      'grille cinq par cinq lettres-chiffres indices directionnels parcours fléché',
-      'corrigé automatique cellule trésor surlignée jaune pâle double canvas générateur',
-      'vendre fiches chasse au trésor sur Etsy',
-      'cahiers parcours fléché directionnels Amazon KDP',
-      'outil chasse au trésor licence commerciale',
+      'chasse au trésor',
+      'jeu de piste',
+      'indices',
+      'aventure',
+      'anniversaire',
+      'enfants',
     ],
-    titleTag: 'Chasses au trésor à vendre en ligne | LCS',
-    metaDescription: 'Créez des fiches chasse au trésor sur grille 5×5 avec déplacements directionnels, images-repères et corrigés auto. Guide étape par étape pour Etsy et KDP.',
+    titleTag: 'Créer une chasse au trésor | Guide étape par étape',
+    metaDescription: 'Comment créer des fiches de chasse au trésor et jeux de piste avec images thématiques. PDF imprimables. Guide complet.',
   },
 
   hero: {

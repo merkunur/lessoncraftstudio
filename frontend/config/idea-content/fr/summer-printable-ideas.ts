@@ -2,21 +2,16 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Imprimables d\'été — Idées business | LCS',
-    metaDescription: 'Idées d\'imprimables d\'été à vendre sur Etsy, KDP et Gumroad. Concepts de produits plage et soleil, stratégies saisonnières et conseils vendeurs.',
-
-    primaryKeyword: 'imprimables d\'été idées business',
+    primaryKeyword: 'imprimables été à vendre',
     secondaryKeywords: [
-      'fiches thème été à vendre',
-      'idées business imprimables été',
-      'fiches activités estivales vendeurs',
-      'vendre imprimables été sur Etsy',
+      'fiches été à imprimer idées',
+      'cahier activités été KDP',
+      'coloriages été vacances à vendre',
+      'jeux été imprimables',
     ],
-    lsiKeywords: [
-      'fiches éducatives plage et soleil',
-      'pages activités météo chaude',
-      'imprimables thème vacances',
-    ],
+    lsiKeywords: ['été', 'vacances', 'plage', 'soleil', 'juillet', 'août'],
+    titleTag: 'Imprimables été pour Etsy & KDP | Idées de niches',
+    metaDescription: 'Idées d\'imprimables été à vendre sur Etsy et KDP. Coloriages plage, mots mêlés vacances, puzzles estivaux. Niche saisonnière d\'été.',
   },
   hero: {
     title: 'Idées d\'Imprimables d\'Été pour les Vendeurs',

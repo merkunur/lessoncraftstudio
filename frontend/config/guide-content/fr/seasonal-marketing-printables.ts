@@ -2,22 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'marketing saisonnier imprimables calendrier vendeurs',
+    primaryKeyword: 'marketing saisonnier imprimables',
     secondaryKeywords: [
-      'stratégie saisonnière activité imprimables',
-      'marketing fiches vacances scolaires',
-      'ventes imprimables rentrée scolaire',
-      'calendrier produits saisonniers vendeurs',
+      'vendre imprimables saison guide',
+      'stratégie saisonnière Etsy',
+      'imprimables Noël Halloween Pâques',
+      'calendrier marketing imprimables',
     ],
     lsiKeywords: [
-      'cycle demande saisonnière planification produits pics de vente périodes clés',
-      'rentrée scolaire vacances fiches été apprentissage ressources nouvelle année',
-      'activités Saint-Valentin imprimables Pâques fiches Halloween fiches Noël',
-      'activités Toussaint tendances saisonnières prévision demande calendrier production',
-      'timing lancement mots-clés saisonniers analyse tendances calendrier contenu planification trimestrielle',
+      'saisonnier',
+      'Noël',
+      'Halloween',
+      'Pâques',
+      'rentrée',
+      'calendrier',
     ],
-    titleTag: 'Marketing saisonnier pour imprimables | LCS',
-    metaDescription: 'Planifiez vos campagnes saisonnières pour imprimables selon les cycles de demande. Calendrier vendeur, timing de production, mots-clés et pics de vente.',
+    titleTag: 'Marketing saisonnier imprimables | Guide stratégie',
+    metaDescription: 'Stratégie de marketing saisonnier pour vos imprimables. Noël, Halloween, Pâques, rentrée scolaire. Calendrier et guide complet.',
   },
 
   hero: {

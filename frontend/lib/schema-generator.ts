@@ -9,7 +9,7 @@ import { encodeImagePath } from '@/lib/encode-image-path';
 const authorSchemaDescriptions: Record<string, string> = {
   en: "Printable product creators building 33 professional worksheet generators for Etsy sellers, Amazon KDP publishers, and online entrepreneurs in 11 languages",
   de: "33 professionelle Arbeitsblatt-Generatoren zum Erstellen und Verkaufen von Druckvorlagen auf Etsy, Amazon KDP und weiteren Marktplätzen in 11 Sprachen",
-  fr: "Créateurs de produits imprimables proposant 33 générateurs professionnels pour les vendeurs Etsy, les éditeurs Amazon KDP et les entrepreneurs en ligne en 11 langues",
+  fr: "33 générateurs de fiches pédagogiques pour créer des mots mêlés, mots croisés, fiches maths, coloriages et plus. Licence commerciale pour Etsy, KDP et autres plateformes en 11 langues",
   es: "Creadores de productos imprimibles con 33 generadores profesionales para vendedores de Etsy, editores de Amazon KDP y emprendedores en línea en 11 idiomas",
   pt: "Criadores de produtos imprimíveis com 33 geradores profissionais para vendedores Etsy, editores Amazon KDP e empreendedores online em 11 idiomas",
   it: "Creatori di prodotti stampabili con 33 generatori professionali per venditori Etsy, editori Amazon KDP e imprenditori online in 11 lingue",
@@ -23,7 +23,7 @@ const authorSchemaDescriptions: Record<string, string> = {
 const authorKnowsAbout: Record<string, string[]> = {
   en: ["Printable Products", "Worksheet Generators", "Etsy Digital Downloads", "Amazon KDP Publishing", "Commercial Licensing", "Online Printable Business"],
   de: ["Arbeitsblatt Generator", "Suchsel erstellen", "Kreuzworträtsel erstellen", "Mathe Arbeitsblatt Generator", "Druckvorlagen für Etsy", "Amazon KDP Arbeitsblätter"],
-  fr: ["Produits imprimables", "Générateurs de fiches", "Téléchargements numériques Etsy", "Publication Amazon KDP", "Licence commerciale", "Business d'imprimables en ligne"],
+  fr: ["Générateur fiches pédagogiques", "Générateur mots mêlés", "Générateur mots croisés", "Fiches maths à imprimer", "Générateur coloriages", "Licence commerciale imprimables"],
   es: ["Productos imprimibles", "Generadores de fichas", "Descargas digitales Etsy", "Publicación Amazon KDP", "Licencia comercial", "Negocio de imprimibles en línea"],
   pt: ["Produtos imprimíveis", "Geradores de planilhas", "Downloads digitais Etsy", "Publicação Amazon KDP", "Licença comercial", "Negócio de impressos online"],
   it: ["Prodotti stampabili", "Generatori di schede", "Download digitali Etsy", "Pubblicazione Amazon KDP", "Licenza commerciale", "Business di stampabili online"],
@@ -143,7 +143,7 @@ export function generateHomepageSchemas(locale: string, baseUrl: string = getBas
   const homepageOrgDescriptions: Record<string, string> = {
     en: "33 professional printable generators for Etsy sellers, KDP publishers, and printable business entrepreneurs. Create and sell worksheets, puzzles, and activity books.",
     de: "33 Arbeitsblatt-Generatoren zum Erstellen von Suchsel, Kreuzworträtsel, Mathe-Arbeitsblätter, Ausmalbilder und mehr. Kommerzielle Lizenz für Etsy und KDP.",
-    fr: "33 générateurs professionnels d'imprimables pour les vendeurs Etsy, les éditeurs KDP et les entrepreneurs. Créez et vendez des fiches, des puzzles et des cahiers d'activités.",
+    fr: "33 générateurs de fiches pédagogiques avec 3 000+ images et 11 langues. Créez des mots mêlés, mots croisés, fiches maths et coloriages prêts à imprimer.",
     es: "33 generadores profesionales de imprimibles para vendedores de Etsy, editores KDP y emprendedores. Cree y venda fichas, rompecabezas y libros de actividades.",
     pt: "33 geradores profissionais de impressos para vendedores Etsy, editores KDP e empreendedores. Crie e venda planilhas, quebra-cabeças e livros de atividades.",
     it: "33 generatori professionali di stampabili per venditori Etsy, editori KDP e imprenditori. Crea e vendi schede, puzzle e libri di attività.",
@@ -157,7 +157,7 @@ export function generateHomepageSchemas(locale: string, baseUrl: string = getBas
   const homepageWebsiteDescriptions: Record<string, string> = {
     en: "Printable generators for creating and selling worksheets, puzzles, and activity books online",
     de: "Arbeitsblatt-Generatoren zum Erstellen von Suchsel, Kreuzworträtsel, Mathe-Arbeitsblätter und mehr — kostenlos testen",
-    fr: "Générateurs d'imprimables pour créer et vendre des fiches, des puzzles et des cahiers d'activités en ligne",
+    fr: "Générateurs de fiches pédagogiques pour créer des mots mêlés, mots croisés, fiches maths et coloriages à imprimer",
     es: "Generadores de imprimibles para crear y vender fichas, rompecabezas y libros de actividades en línea",
     pt: "Geradores de impressos para criar e vender planilhas, quebra-cabeças e livros de atividades online",
     it: "Generatori di stampabili per creare e vendere schede, puzzle e libri di attività online",
@@ -171,7 +171,7 @@ export function generateHomepageSchemas(locale: string, baseUrl: string = getBas
   const homepageSoftwareDescriptions: Record<string, string> = {
     en: "33 professional worksheet generators with 3,100+ themed images for creating printable products to sell on Etsy, Amazon KDP, and other marketplaces",
     de: "33 Arbeitsblatt-Generatoren mit 3.100+ Themenbildern in 11 Sprachen. Suchsel, Kreuzworträtsel, Mathe, Sudoku und mehr erstellen. 300 DPI PDF-Export.",
-    fr: "33 générateurs professionnels avec plus de 3 100 images thématiques pour créer des produits imprimables à vendre sur Etsy, Amazon KDP et d'autres plateformes",
+    fr: "33 générateurs de fiches avec plus de 3 100 images thématiques en 11 langues. Mots mêlés, mots croisés, fiches maths, coloriages, sudoku et plus. PDF 300 DPI.",
     es: "33 generadores profesionales con más de 3.100 imágenes temáticas para crear productos imprimibles para vender en Etsy, Amazon KDP y otros mercados",
     pt: "33 geradores profissionais com mais de 3.100 imagens temáticas para criar produtos imprimíveis para vender na Etsy, Amazon KDP e outros marketplaces",
     it: "33 generatori professionali con oltre 3.100 immagini tematiche per creare prodotti stampabili da vendere su Etsy, Amazon KDP e altri marketplace",
@@ -185,7 +185,7 @@ export function generateHomepageSchemas(locale: string, baseUrl: string = getBas
   const homepageFeatureLists: Record<string, string[]> = {
     en: ["Word Search Generator", "Crossword Puzzle Generator", "Math Worksheet Generator", "Pattern Recognition Activities", "Matching Games", "And 28 more generators"],
     de: ["Suchsel Generator", "Kreuzworträtsel Generator", "Mathe Arbeitsblatt Generator", "Ausmalbilder Generator", "Sudoku Generator", "Und 28 weitere Generatoren"],
-    fr: ["Générateur de mots cachés", "Générateur de mots croisés", "Générateur de fiches maths", "Activités de reconnaissance de motifs", "Jeux d'association", "Et 28 autres générateurs"],
+    fr: ["Générateur de mots mêlés", "Générateur de mots croisés", "Générateur de fiches maths", "Générateur de coloriages", "Générateur de sudoku", "Et 28 autres générateurs"],
     es: ["Generador de sopa de letras", "Generador de crucigramas", "Generador de fichas de matemáticas", "Actividades de reconocimiento de patrones", "Juegos de emparejar", "Y 28 generadores más"],
     pt: ["Gerador de caça-palavras", "Gerador de palavras cruzadas", "Gerador de fichas de matemática", "Atividades de reconhecimento de padrões", "Jogos de combinar", "E mais 28 geradores"],
     it: ["Generatore di ricerca parole", "Generatore di cruciverba", "Generatore di schede matematica", "Attività di riconoscimento pattern", "Giochi di abbinamento", "E altri 28 generatori"],
@@ -302,7 +302,7 @@ export function generateAppsCollectionSchema(locale: string, baseUrl: string = g
   const localizedNames: Record<string, string> = {
     en: "Worksheet Generator Apps",
     de: "33 Arbeitsblatt-Generatoren",
-    fr: "Applications Générateur de Fiches",
+    fr: "33 Générateurs de Fiches Pédagogiques",
     es: "Aplicaciones Generador de Fichas",
     pt: "Aplicativos Gerador de Planilhas",
     it: "App Generatore di Schede",
@@ -316,7 +316,7 @@ export function generateAppsCollectionSchema(locale: string, baseUrl: string = g
   const localizedDescriptions: Record<string, string> = {
     en: "33 professional printable generators for your online business. Create word searches, crosswords, math puzzles and more to sell on Etsy and Amazon KDP.",
     de: "33 Arbeitsblatt-Generatoren für Mathe, Sprache, visuelles Lernen, Kreativität und Logik. Suchsel, Kreuzworträtsel, Sudoku und mehr erstellen. Kostenlos testen.",
-    fr: "33 générateurs professionnels d'imprimables pour votre business en ligne. Créez des mots cachés, des mots croisés, des puzzles mathématiques et plus à vendre sur Etsy et Amazon KDP.",
+    fr: "33 générateurs de fiches pédagogiques : mots mêlés, mots croisés, fiches maths, coloriages, sudoku et plus. PDF 300 DPI, licence commerciale pour Etsy et Amazon KDP.",
     es: "33 generadores profesionales de imprimibles para su negocio en línea. Cree sopas de letras, crucigramas, rompecabezas matemáticos y más para vender en Etsy y Amazon KDP.",
     pt: "33 geradores profissionais de impressos para o seu negócio online. Crie caça-palavras, palavras cruzadas, quebra-cabeças de matemática e mais para vender na Etsy e Amazon KDP.",
     it: "33 generatori professionali di stampabili per il tuo business online. Crea ricerca di parole, cruciverba, puzzle matematici e altro da vendere su Etsy e Amazon KDP.",
@@ -395,7 +395,7 @@ export function generateAppsItemListSchema(
 export function generateToolsCollectionSchema(locale: string, baseUrl: string = getBaseUrl()) {
   const names: Record<string, string> = {
     en: "Professional Printable Generators", de: "Professionelle Druckvorlagen-Generatoren",
-    fr: "Générateurs Professionnels d'Imprimables", es: "Generadores Profesionales de Imprimibles",
+    fr: "Générateurs de Fiches Gratuits en Ligne", es: "Generadores Profesionales de Imprimibles",
     pt: "Geradores Profissionais de Impressos", it: "Generatori Professionali di Stampabili",
     nl: "Professionele Printable Generatoren", sv: "Professionella Generatorer för Utskrifter",
     da: "Professionelle Printbare Generatorer", no: "Profesjonelle Generatorer for Utskrifter",
@@ -472,7 +472,7 @@ export function generateGuidesItemListSchema(
 export function generateIdeasCollectionSchema(locale: string, baseUrl: string = getBaseUrl()) {
   const names: Record<string, string> = {
     en: "Printable Business Niche Ideas", de: "Nischen-Ideen für Druckvorlagen",
-    fr: "Idées de Niches pour Stampabili", es: "Ideas de Nichos para Imprimibles",
+    fr: "Idées de Niches d'Imprimables Rentables", es: "Ideas de Nichos para Imprimibles",
     pt: "Ideias de Nichos para Impressos", it: "Idee di Nicchia per Stampabili",
     nl: "Niche-ideeën voor Printables", sv: "Nischidéer för Utskrifter",
     da: "Nicheidéer til Tryksager", no: "Nisjeidéer for Utskrifter", fi: "Tulostettavien Liiketoimintaideat"
@@ -545,7 +545,7 @@ export function generateBundlesItemListSchema(
 export function generateStartCollectionSchema(locale: string, baseUrl: string = getBaseUrl()) {
   const names: Record<string, string> = {
     en: "Printable Business Guides", de: "Leitfäden für Druckvorlagen-Geschäft",
-    fr: "Guides Business Imprimables", es: "Guías de Negocio de Imprimibles",
+    fr: "Lancer votre Business d'Imprimables", es: "Guías de Negocio de Imprimibles",
     pt: "Guias de Negócio de Impressos", it: "Guide Business Stampabili",
     nl: "Printables Bedrijfsgidsen", sv: "Guider för Utskriftsföretag",
     da: "Vejledninger til Printvirksomhed", no: "Guider for Utskriftsvirksomhet",

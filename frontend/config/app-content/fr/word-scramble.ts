@@ -2,24 +2,29 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'anagrammes vendre etsy kdp créez vendez imprimables',
+    primaryKeyword: 'lettres mélangées à imprimer',
     secondaryKeywords: [
-      'générateur de mots mélangés pour vendeurs Etsy',
-      'fiches d\'anagrammes pour Amazon KDP',
-      'puzzles de mots mélangés licence commerciale',
-      'cahiers d\'anagrammes pour La Salle des Maîtres',
+      'anagramme générateur fiche',
+      'mots à reconstituer exercice',
+      'lettres à remettre en ordre',
+      'jeu de lettres à imprimer',
     ],
     lsiKeywords: [
-      'licence commerciale 300 DPI prêt à imprimer',
-      'business d\'imprimables puzzles de mots vendeurs',
-      'code couleur voyelles tuiles lettres 11 langues',
+      'anagramme',
+      'mélanger',
+      'reconstituer',
+      'orthographe',
+      'vocabulaire',
+      'CP',
+      'CE1',
+      'solution',
     ],
-    titleTag: 'Anagrammes à vendre sur Etsy & KDP | LCS',
-    metaDescription: 'Créez des anagrammes à vendre sur Etsy & KDP. Tuiles lettres, code couleur, 11 langues, licence commerciale. 49 $ paiement unique.',
+    titleTag: 'Lettres mélangées à imprimer | Générateur anagrammes',
+    metaDescription: 'Créez des fiches de lettres mélangées avec images thématiques. Solutions automatiques, PDF imprimables. Essai gratuit — licence commerciale pour Etsy & KDP.',
   },
 
   hero: {
-    title: 'Créez et vendez des anagrammes imprimables sur Etsy & KDP',
+    title: 'Lettres mélangées à imprimer — Générateur d\'anagrammes avec images',
     tagline: 'Des tuiles de lettres mélangées rencontrent les indices images — quatre niveaux de difficulté et un code couleur voyelles-consonnes transforment chaque mot en un puzzle d\'orthographe pratique.',
     description:
       'Créez des anagrammes imprimables à vendre sur Etsy, Amazon KDP ou La Salle des Maîtres — des fiches où les acheteurs voient un indice image et réarrangent des tuiles de lettres mélangées pour épeler le mot correct, développant simultanément la précision orthographique et la reconnaissance des mots. Choisissez parmi trois sources de contenu : la Bibliothèque d\'Images intégrée avec plus de 3 100 illustrations réparties dans 104 thèmes, le Mode Édition Manuelle où vous sélectionnez des images puis personnalisez leurs noms d\'affichage, ou le mode Liste de Mots Personnalisée pour des puzzles textuels utilisant jusqu\'à 8 mots que vous saisissez directement. Quatre niveaux de difficulté contrôlent le nombre de lettres-indices pré-placées dans la position correcte — de Sans Indices (aucune lettre placée) au mode Facile plaçant la moitié des lettres — créant un étayage naturel du débutant à l\'avancé. La fonctionnalité de code couleur voyelles-consonnes est unique aux Mots Mélangés : activez les tuiles colorées où les voyelles apparaissent dans une couleur et les consonnes dans une autre, ajoutant une dimension phonique visuelle qui aide les utilisateurs à identifier les types de lettres tout en reconstituant le mot. Placez de 1 à 10 puzzles par fiche et choisissez des tuiles en majuscules ou minuscules. L\'Accès Complet déverrouille les 11 langues prises en charge où le mot cible change selon la langue — \" dog \" en anglais devient \" Hund \" en allemand, \" chien \" en français, \" perro \" en espagnol — faisant de chaque langue un produit distinct et vendable. Chaque fiche génère un corrigé automatique, et vous pouvez exporter des PDF prêts à imprimer et des JPEG à plus de 300 DPI en format Letter, A4, Carré ou dimensions personnalisées. Que vous vendiez des packs d\'orthographe thématiques sur Etsy, compiliez des cahiers de puzzles de mots pour Amazon KDP ou créiez des ateliers de lecture différenciés pour Gumroad, le Générateur de Fiches Mots Mélangés produit des résultats professionnels en quelques minutes — essai gratuit avec toutes les fonctionnalités, sans inscription, sans carte bancaire. Les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.',
@@ -198,6 +203,11 @@ const content: AppContent = {
       question: 'Quelle est la politique de remboursement ?',
       answer:
         'L\'essai gratuit vous donnant accès à toutes les fonctionnalités, nous n\'offrons pas de remboursement sur les achats de licence commerciale. Vous pouvez tester chaque source de contenu, chaque niveau de difficulté, chaque thème, les options de code couleur, chaque format d\'export et chaque format de page avant d\'acheter. L\'essai gratuit est la politique de remboursement — assurez-vous que l\'outil répond à vos besoins avant d\'acheter une licence.',
+    },
+    {
+      question: 'Ces fiches de lettres mélangées conviennent-elles au CP et CE1 ?',
+      answer:
+        'Oui. Les mots courts (3-4 lettres) conviennent au CP, les mots plus longs au CE1 et CE2. Les images servent d\'indices visuels pour guider les enfants. Au Québec, cela correspond à la 1re et 2e année du primaire.',
     },
   ],
 

@@ -2,21 +2,11 @@ import type { BundleContent } from '../types';
 
 const content: BundleContent = {
   seo: {
-    primaryKeyword: 'pack puzzles logiques kdp logique',
-    secondaryKeywords: [
-      'pack générateurs fiches puzzles logique pour vendeurs',
-      'kit fiches puzzles imprimables licence commerciale',
-      'pack générateur sudoku labyrinthes pour Etsy.fr',
-      'générateurs fiches puzzles pour vendeurs KDP',
-    ],
-    lsiKeywords: [
-      'pack fiches pièces manquantes sudoku labyrinthes',
-      'collection intrus logique imprimable',
-      'licence commerciale fiches puzzles',
-      'outil création fiches puzzles en masse',
-    ],
-    titleTag: 'Pack puzzles logiques pour KDP | LCS',
-    metaDescription: 'Pack de fiches puzzles avec 4 générateurs : pièces manquantes, intrus, sudoku enfants et labyrinthes. Vendez sur Etsy, KDP et Gumroad. 149 $ paiement unique.',
+    primaryKeyword: 'pack générateurs puzzles et jeux logiques',
+    secondaryKeywords: ['bundle puzzles imprimables', 'pack sudoku labyrinthes', 'générateurs jeux logiques groupés', 'pack fiches puzzles'],
+    lsiKeywords: ['puzzle', 'sudoku', 'labyrinthe', 'logique', 'jeux', 'pack'],
+    titleTag: 'Pack générateurs puzzles & jeux logiques | Prix groupé',
+    metaDescription: 'Pack de générateurs puzzles et jeux : sudoku, labyrinthes, suites logiques, intrus et plus. Prix groupé, licence commerciale incluse.',
   },
 
   hero: {

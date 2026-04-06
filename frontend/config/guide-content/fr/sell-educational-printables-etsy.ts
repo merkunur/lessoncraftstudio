@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'etsy vendre imprimables imprimable fiches éducatives comment',
+    primaryKeyword: 'vendre des fiches pédagogiques sur Etsy',
     secondaryKeywords: [
-      'comment vendre imprimables éducatifs sur Etsy',
-      'stratégie boutique Etsy imprimables éducatifs',
-      'fiches imprimables Etsy business multi-catégorie',
-      'vendre fiches et activités éducatives sur Etsy',
+      'fiches pédagogiques Etsy guide',
+      'vendre imprimables éducatifs Etsy',
+      'business fiches pédagogiques',
+      'imprimables éducatifs à vendre',
     ],
     lsiKeywords: [
-      'Etsy téléchargement numérique activités éducatives optimisation annonce',
-      'boutique imprimables multi-catégorie stratégie de prix vendeurs Etsy',
-      'Etsy SEO tags pour fiches éducatives et puzzles imprimables',
-      'vendre maths lecture puzzles imprimables boutique Etsy diversifiée',
-      'regroupement imprimables éducatifs inter-catégories stratégie Etsy',
-      'photos annonces Etsy mockups pour produits imprimables éducatifs',
+      'fiches pédagogiques',
+      'Etsy',
+      'vendre',
+      'imprimables',
+      'licence commerciale',
+      'SEO Etsy',
     ],
-    titleTag: 'Vendre des fiches éducatives sur Etsy | LCS',
-    metaDescription: 'Vendez des imprimables éducatifs sur Etsy avec 33 générateurs répartis en 6 catégories. Stratégie de boutique, SEO Etsy, lots inter-catégories et.',
+    titleTag: 'Vendre des fiches pédagogiques sur Etsy | Guide',
+    metaDescription: 'Comment vendre des fiches pédagogiques sur Etsy. SEO, mise en vente, tarification, niches rentables. Guide complet pour lancer un business éducatif.',
   },
 
   hero: {

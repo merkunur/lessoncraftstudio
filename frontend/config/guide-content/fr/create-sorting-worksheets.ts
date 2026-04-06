@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'créer des fiches de tri à vendre',
+    primaryKeyword: 'créer des fiches de tri et classement',
     secondaryKeywords: [
-      'fiches de tri et classement pour enfants licence commerciale',
-      'générateur fiches de tri d\'images à vendre Etsy et KDP',
-      'fiches activités de classification imprimables à vendre',
-      'fiches tri deux catégories découper et coller marché préscolaire',
+      'tutoriel fiches tri',
+      'guide classement maternelle',
+      'fiches catégorisation à imprimer',
+      'exercices trier ranger guide',
     ],
     lsiKeywords: [
-      'fiches découper-et-trier marché préscolaire préscolaire activités classification',
-      'générateur activités classification images catégories',
-      'fiches de tri avec corrigé automatique vendeur',
-      'vendre fiches de tri sur Etsy',
-      'cahiers classification Amazon KDP activités tri',
-      'outil fiches tri licence commerciale',
+      'trier',
+      'classer',
+      'catégoriser',
+      'ranger',
+      'maternelle',
+      'GS',
     ],
-    titleTag: 'Fiches de tri à vendre en ligne | LCS',
-    metaDescription: 'Créez des fiches de tri avec mode thématique à deux catégories, 4–12 images, grilles découpées mélangées et corrigés automatiques. Guide pour Etsy et KDP.',
+    titleTag: 'Créer des fiches de tri et classement | Guide complet',
+    metaDescription: 'Comment créer des fiches de tri et classement avec images thématiques. Corrections automatiques. Guide étape par étape pour vendeurs.',
   },
 
   hero: {

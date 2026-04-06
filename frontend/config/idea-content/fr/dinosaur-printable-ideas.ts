@@ -2,21 +2,16 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Imprimables dinosaures — Idées business | LCS',
-    metaDescription: 'Idées rentables d\'imprimables dinosaures à vendre sur Etsy, KDP & Gumroad. Concepts de produits, stratégies de plateformes et conseils de niche vendeurs.',
-
-    primaryKeyword: 'imprimables dinosaures idées business Etsy',
+    primaryKeyword: 'imprimables dinosaures à vendre',
     secondaryKeywords: [
-      'fiches dinosaures à vendre',
-      'activité imprimable thème dinosaures',
-      'fiches d\'activités dinosaures pour vendeurs',
-      'vendre des imprimables dinosaures sur Etsy',
+      'fiches dinosaures à imprimer idées',
+      'cahier activités dinosaures KDP',
+      'coloriages dinosaures à vendre',
+      'jeux dinosaures imprimables',
     ],
-    lsiKeywords: [
-      'fiches éducatives thème préhistorique',
-      'activités de paléontologie pour enfants',
-      'imprimables éducatifs thème Jurassique',
-    ],
+    lsiKeywords: ['dinosaure', 'T-Rex', 'préhistoire', 'fossile', 'jurassique', 'enfants'],
+    titleTag: 'Imprimables dinosaures pour Etsy & KDP | Idées niches',
+    metaDescription: 'Idées d\'imprimables dinosaures à vendre sur Etsy et KDP. Coloriages, mots mêlés, puzzles thème dinosaures. Niche très populaire chez les enfants.',
   },
   hero: {
     title: 'Idées d\'Activités Imprimables Dinosaures pour les Vendeurs',

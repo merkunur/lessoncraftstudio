@@ -24,9 +24,9 @@ const appsMetadata: Record<string, { title: string; description: string; keyword
     keywords: 'Arbeitsblatt Generatoren, Unterrichtsmaterial erstellen, Arbeitsblätter selbst erstellen, Rätsel Generator Sammlung, Suchsel Generator, Kreuzworträtsel erstellen, Mathe Arbeitsblatt Generator',
   },
   fr: {
-    title: '33 G\én\érateurs d\'Imprimables | Outils Etsy & KDP',
-    description: 'D\écouvrez 33 g\én\érateurs d\'imprimables professionnels. Mots cach\és, fiches maths, coloriages, puzzles & plus. Essai gratuit avec filigrane. Vendez sur Etsy & Amazon KDP.',
-    keywords: 'g\én\érateur imprimables, Etsy imprimables, KDP fiches, vendre imprimables en ligne, g\én\érateur mots cach\és, cr\éateur fiches maths, g\én\érateur coloriages, business imprimables',
+    title: '33 générateurs de fiches | Maths, jeux, vocabulaire & plus',
+    description: 'Parcourez 33 générateurs de fiches : maths, vocabulaire, jeux visuels, créativité et logique. Tous gratuits à tester avec filigrane. PDF 300 DPI.',
+    keywords: 'générateurs fiches à imprimer, générateur mots mêlés, générateur mots croisés, fiches maths générateur, générateur coloriages, générateur sudoku, fiches graphisme',
   },
   es: {
     title: '33 generadores de imprimibles — Venda en Etsy | LCS',

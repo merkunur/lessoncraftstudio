@@ -11,7 +11,7 @@ const baseUrl = 'https://www.lessoncraftstudio.com';
 const ideasKeywords: Record<string, string[]> = {
   en: ['profitable printable niches', 'printable business ideas', 'etsy printable niches', 'what printables sell best', 'KDP niche ideas for activity books', 'printable business niche ideas'],
   de: ['profitable Druckvorlagen Nischen', 'Druckvorlagen Geschäftsideen', 'Etsy Druckvorlagen Nischen', 'was verkauft sich gut Etsy'],
-  fr: ['idées de niches imprimables', 'niches imprimables rentables', 'recherche de niche Etsy', 'idées niche KDP', 'quels imprimables se vendent le mieux', 'idées business imprimables'],
+  fr: ['niches imprimables rentables', 'idées niches Etsy', 'niches KDP imprimables', 'quels imprimables se vendent le mieux', 'recherche niche imprimables', 'idées business imprimables'],
   es: ['ideas nichos imprimibles rentables', 'nichos imprimibles Etsy KDP', 'investigación nicho imprimibles', 'ideas nicho Hotmart', 'qué imprimibles se venden mejor', 'ideas negocio imprimibles hispano'],
   pt: ['ideias de nichos imprimíveis', 'nichos imprimíveis rentáveis', 'pesquisa de nicho Etsy', 'ideias nicho KDP', 'quais imprimíveis vendem melhor', 'ideias negócio imprimíveis'],
   it: ['idee di nicchia stampabili', 'nicchie stampabili redditizie', 'ricerca di nicchia Etsy', 'idee nicchia KDP', 'quali stampabili si vendono meglio', 'idee business stampabili'],
@@ -68,8 +68,8 @@ const ideasContent: Record<string, {
   fr: {
     heroTitle: 'Idées de niches d\'imprimables',
     heroDescription: 'Trouvez votre niche parfaite. 45 idées rentables avec suggestions de produits, conseils de plateformes et stratégies de prix.',
-    metaTitle: 'Idées de niches d\'imprimables | 45 niches rentables | LessonCraftStudio',
-    metaDescription: 'Découvrez 45 niches rentables d\'imprimables. Idées classées par âge, thème, saison et format. Trouvez votre niche pour Etsy et KDP.',
+    metaTitle: '45 niches rentables d\'imprimables pour Etsy & KDP',
+    metaDescription: 'Découvrez 45 niches testées pour votre business d\'imprimables avec analyse de la concurrence. Trouvez des créneaux peu concurrentiels pour Etsy ou KDP.',
     ctaTitle: 'Prêt à lancer votre niche ?',
     ctaDescription: 'Essayez les 33 générateurs gratuits avec filigrane. Sans inscription.',
     ctaButton: 'Essayer les générateurs',

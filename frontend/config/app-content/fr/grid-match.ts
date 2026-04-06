@@ -2,24 +2,29 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'puzzles grille business imprimables créez vendre etsy kdp',
+    primaryKeyword: 'dessin sur quadrillage à imprimer',
     secondaryKeywords: [
-      'générateur de puzzles grille pour vendeurs Etsy',
-      'puzzles de correspondance par tuiles pour Amazon KDP',
-      'fiches de puzzles grille licence commerciale',
-      'créer des cahiers de puzzles visuels pour vendeurs',
+      'reproduire sur quadrillage fiche',
+      'pixel art à imprimer',
+      'reproduction sur grille',
+      'symétrie quadrillage exercice',
     ],
     lsiKeywords: [
-      'licence commerciale 300 DPI prêt à imprimer',
-      'business d\'imprimables puzzles grille vendeurs Etsy',
-      'cases-indices configurables corrigé automatique 104 thèmes',
+      'quadrillage',
+      'reproduire',
+      'copier',
+      'symétrie',
+      'repérage spatial',
+      'CP',
+      'CE1',
+      'GS',
     ],
-    titleTag: 'Puzzles grille pour business d\'imprimables | LCS',
-    metaDescription: 'Créez des puzzles de grille à vendre sur Etsy & KDP. Taille configurable, cases-indices, licence commerciale. 49 $ paiement unique.',
+    titleTag: 'Dessin sur quadrillage | Générateur reproduction grille',
+    metaDescription: 'Créez des fiches de reproduction sur quadrillage avec images thématiques. Corrections automatiques, PDF imprimables. Essai gratuit — licence commerciale.',
   },
 
   hero: {
-    title: 'Créez des puzzles de grille à vendre sur Etsy & KDP',
+    title: 'Dessin sur quadrillage à imprimer — Générateur de reproduction sur grille',
     tagline: 'Transformez n\'importe quelle image en puzzle à base de grille — divisez-la en tuiles, révélez des cases-indices configurables, mélangez les tuiles restantes dans une palette numérotée, et générez automatiquement un corrigé avec des cercles numérotés superposés à travers 104 collections d\'images thématiques.',
     description:
       'Créez des puzzles de grille d\'appariement à vendre sur Etsy, Amazon KDP ou La Salle des Maîtres — des puzzles où une image est divisée en tuiles et les acheteurs associent les tuiles numérotées à leurs positions correctes. Configurez la grille de 2×2 à 4×4 (2–4 lignes × 2–4 colonnes) et définissez 1–5 cases-indices qui restent visibles comme indices — moins d\'indices signifie un puzzle plus difficile. L\'application mélange les tuiles restantes à l\'aide de l\'algorithme Fisher-Yates et les affiche dans une palette numérotée à côté ou en dessous de la grille. Les utilisateurs étudient les cases-indices révélées, examinent les tuiles numérotées et écrivent quel numéro correspond à chaque cellule vide. Le système à double canevas génère à la fois un onglet fiche de travail et un onglet corrigé — le corrigé affiche l\'image complète avec des cercles numérotés superposés sur chaque cellule montrant le placement correct des tuiles, vous n\'avez donc jamais à créer de corrigé manuellement. Le Puzzle Grille n\'est PAS sensible à la langue : le résultat du puzzle est purement visuel, sans contenu textuel localisé sur la fiche elle-même. L\'Accès Complet déverrouille les 104 thèmes avec plus de 3 100 illustrations et les 11 langues d\'interface. Ajoutez des thèmes de fond et de bordure avec des contrôles d\'opacité indépendants, insérez du texte personnalisé avec sept options de police, et exportez des PDF et JPEG prêts à imprimer à 300 DPI en format Letter, A4 ou dimensions personnalisées. Que vous vendiez des packs de puzzles d\'images sur Etsy, compiliez des cahiers de perception visuelle pour Amazon KDP ou créiez des activités de puzzles rapides de fin de cours pour Gumroad, ce générateur produit des puzzles grille prêts pour la production en quelques minutes — essai gratuit avec toutes les fonctionnalités, sans inscription, sans carte bancaire. Les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.',
@@ -198,6 +203,11 @@ const content: AppContent = {
       question: 'Quelle est la politique de remboursement ?',
       answer:
         'Comme l\'essai gratuit vous donne accès à toutes les fonctionnalités, nous n\'offrons pas de remboursement sur les achats de licence commerciale. Vous pouvez tester toutes les tailles de grille, les configurations de cases-indices, le corrigé généré automatiquement avec les cercles numérotés, la bibliothèque d\'images complète, les thèmes de fond et de bordure, le téléchargement d\'images personnalisées, les outils texte et tous les formats de téléchargement avant d\'acheter. L\'essai gratuit est la politique de remboursement — assurez-vous que l\'outil correspond à vos besoins avant d\'acheter une licence.',
+    },
+    {
+      question: 'La reproduction sur quadrillage est-elle adaptée au CP et CE1 ?',
+      answer:
+        'Oui. Le repérage sur quadrillage est au programme du CP et du CE1. Des grilles simples conviennent à la grande section (GS), des modèles plus complexes au CE1 et CE2. Au Québec, cela correspond à la 1re et 2e année.',
     },
   ],
 

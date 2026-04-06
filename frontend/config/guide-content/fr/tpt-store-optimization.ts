@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'optimiser boutique salle maîtres guide configuration optimisation gumroad',
+    primaryKeyword: 'optimiser sa boutique La Salle des Maîtres',
     secondaryKeywords: [
-      'comment optimiser votre boutique Gumroad',
-      'facteurs de classement algorithme de recherche Gumroad',
-      'augmenter ventes Gumroad par optimisation de boutique',
-      'Gumroad stratégie de croissance boutique',
+      'SEO La Salle des Maîtres',
+      'optimisation boutique ressources pédagogiques',
+      'augmenter ventes fiches enseignants',
+      'référencement La Salle des Maîtres',
     ],
     lsiKeywords: [
-      'Gumroad classement recherche taux de conversion visibilité produit marketplace vendeurs',
-      'image de marque boutique bannière profil identité visuelle cohérente spécialité matière',
-      'aperçu produit miniature description rédaction optimisation fiche produit',
-      'génération avis preuve sociale confiance acheteur évaluation étoiles retour',
-      'sections boutique catégories navigation organisation conviviale',
-      'Gumroad analytique planification saisonnière stratégie de mise à l\'échelle catalogue basée données',
+      'optimisation',
+      'SEO',
+      'boutique',
+      'La Salle des Maîtres',
+      'ventes',
+      'visibilité',
     ],
-    titleTag: 'Optimiser sa boutique La Salle des Maîtres | LCS',
-    metaDescription: 'Optimisez votre boutique La Salle des Maîtres. Classement, aperçus, lots, avis et mise à l\'échelle du catalogue. Guide vendeurs LSDM.',
+    titleTag: 'Optimiser sa boutique La Salle des Maîtres | Guide',
+    metaDescription: 'Comment optimiser votre boutique La Salle des Maîtres. SEO, présentations, descriptions, mots-clés. Guide complet pour augmenter vos ventes.',
   },
 
   hero: {

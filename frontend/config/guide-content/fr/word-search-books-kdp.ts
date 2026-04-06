@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'créer des livres de mots mêlés pour KDP',
+    primaryKeyword: 'publier cahier mots mêlés Amazon KDP',
     secondaryKeywords: [
-      'comment créer des livres de mots cachés pour Amazon KDP',
-      'guide de publication de livres de mots cachés KDP',
-      'livres de mots cachés gros caractères Amazon',
-      'livres de mots cachés thématiques KDP publication',
+      'livre mots mêlés KDP guide',
+      'cahier mots cachés Amazon',
+      'créer livre mots mêlés à vendre',
+      'mots mêlés KDP formatage',
     ],
     lsiKeywords: [
-      'mots cachés taille de grille espacement des lettres difficulté',
-      'listes de mots thématiques vocabulaire curation mots adaptés à l\'âge',
-      'gros caractères mots cachés seniors adultes format accessible',
-      'livre de mots cachés Amazon mots-clés catégories optimisation',
-      'série de livres de mots cachés volumes achat répété catalogue',
-      'adultes enfants mots cachés marché public formatage de grille',
+      'mots mêlés',
+      'Amazon KDP',
+      'cahier',
+      'publier',
+      'formatage',
+      'ISBN',
     ],
-    titleTag: 'Livres de mots mêlés pour Amazon KDP | LCS',
-    metaDescription: 'Créez des livres mots cachés KDP avec listes de mots thématiques, formats gros caractères et stratégie de série. Taille de grille et optimisation Amazon.',
+    titleTag: 'Cahier mots mêlés Amazon KDP | Guide publication',
+    metaDescription: 'Comment publier un cahier de mots mêlés sur Amazon KDP. Formatage, mise en page, couverture, tarification. Guide complet étape par étape.',
   },
 
   hero: {

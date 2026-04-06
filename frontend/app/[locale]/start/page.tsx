@@ -52,8 +52,8 @@ const startPageContent: Record<string, {
   fr: {
     heroTitle: "Guides pour votre entreprise d\'imprimables",
     heroDescription: "Tout ce qu\'il faut pour lancer et développer une entreprise d\'imprimables rentable. Du choix de niche à la croissance des ventes.",
-    metaTitle: "Guides d\'entreprise d\'imprimables | Lancer et développer | LessonCraftStudio",
-    metaDescription: "Guides complets pour lancer et développer une entreprise d\'imprimables. Vente sur Etsy, Amazon KDP, TPT. Prix, marketing et stratégies de niche.",
+    metaTitle: 'Lancer votre business d\'imprimables | Guide étape par étape',
+    metaDescription: 'Plans complets pour lancer un business d\'imprimables sur Etsy, Amazon KDP ou votre propre site. De la première fiche à la première vente.',
     ctaTitle: 'Prêt à créer ?',
     ctaDescription: 'Essayez les 33 générateurs gratuits avec filigrane. Sans inscription.',
     ctaButton: 'Essayer les générateurs',

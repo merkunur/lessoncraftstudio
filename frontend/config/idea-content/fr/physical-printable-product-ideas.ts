@@ -2,21 +2,11 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Produits imprimés physiques — Business | LCS',
-    metaDescription: 'Idées de produits imprimables physiques pour vendeurs Etsy et marchés artisanaux. Créez une activité premium en imprimant, plastifiant et expédiant des.',
-
-    primaryKeyword: 'produits imprimés physiques business',
-    secondaryKeywords: [
-      'activité fiches imprimées à vendre',
-      'produits imprimables physiques à vendre',
-      'idées business imprimables tangibles',
-      'vendre fiches imprimées hors ligne',
-    ],
-    lsiKeywords: [
-      'produits éducatifs imprimés et expédiés',
-      'édition de cahiers physiques',
-      'vente de produits imprimables tangibles',
-    ],
+    primaryKeyword: 'imprimables physiques à vendre produits',
+    secondaryKeywords: ['produits imprimés à vendre idées', 'cahiers activités physiques KDP', 'livres imprimés à vendre', 'imprimables reliés idées'],
+    lsiKeywords: ['physique', 'imprimé', 'cahier', 'livre', 'reliure', 'expédition'],
+    titleTag: 'Produits imprimés à vendre Etsy & KDP | Idées',
+    metaDescription: 'Idées de produits imprimés physiques à vendre sur Etsy et KDP. Cahiers reliés, livres d\'activités, posters. Guide des formats rentables.',
   },
   hero: {
     title: 'Idées de Produits Imprimables Physiques pour les Vendeurs',

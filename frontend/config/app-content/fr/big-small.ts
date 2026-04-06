@@ -2,24 +2,29 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'fiches grand et petit pour boutique Etsy',
+    primaryKeyword: 'fiches grand petit à imprimer',
     secondaryKeywords: [
-      'générateur de fiches comparaison de tailles pour Etsy',
-      'fiches grand et petit pour Amazon KDP',
-      'fiches comparaison de tailles licence commerciale',
-      'créer des cahiers de discrimination visuelle pour vendeurs',
+      'comparaison tailles maternelle',
+      'ranger par taille exercice',
+      'plus grand plus petit fiche',
+      'classement taille maternelle',
     ],
     lsiKeywords: [
-      'licence commerciale 300 DPI prêt à imprimer',
-      'business d\'imprimables fiches grand petit vendeurs',
-      '5 types de questions modes identiques et différents',
+      'grand',
+      'petit',
+      'moyen',
+      'ranger',
+      'trier',
+      'comparer',
+      'maternelle',
+      'GS',
     ],
-    titleTag: 'Fiches grand et petit pour boutique Etsy | LCS',
-    metaDescription: 'Créez des fiches grand et petit à vendre sur Etsy & KDP. 5 types de questions, 104 thèmes, licence commerciale. 49 $ paiement unique.',
+    titleTag: 'Fiches grand/petit à imprimer | Générateur comparaison',
+    metaDescription: 'Créez des fiches de comparaison de tailles avec images thématiques. Grand vs petit, tri par taille, corrections automatiques. Essai gratuit — licence commerciale.',
   },
 
   hero: {
-    title: 'Créez des fiches grand et petit à vendre sur Etsy & KDP',
+    title: 'Fiches grand/petit à imprimer — Générateur de comparaison de tailles',
     tagline: 'Cinq types de questions — entoure le plus grand, entoure le plus petit, entoure le moyen, numéroter du plus petit au plus grand, numéroter du plus grand au plus petit — avec modes images identiques et différentes pour la discrimination visuelle de tailles.',
     description:
       'Créez des fiches grand et petit à vendre sur Etsy, Amazon KDP ou La Salle des Maîtres — des fiches où les acheteurs observent des images thématiques affichées à différentes tailles et identifient laquelle est plus grande, plus petite ou de taille moyenne, ou les numérotent dans l\'ordre du plus petit au plus grand ou du plus grand au plus petit. Cinq types de questions distincts couvrent chaque compétence de discrimination de tailles : Entoure le Plus Grand, Entoure le Plus Petit, Entoure le Moyen, Numéroter 1–2–3 du Plus Petit au Plus Grand, et Numéroter 1–2–3 du Plus Grand au Plus Petit. Deux modes d\'images créent des exercices fondamentalement différents : les Images Identiques montrent la même image à différentes tailles pour une perception pure de la taille, tandis que les Images Différentes montrent des objets distincts pour un raisonnement de taille relative. Configurez 1 à 10 exercices par page avec 2 ou 3 images par exercice — deux images pour des comparaisons plus simples, trois pour des exercices plus difficiles incluant l\'option du moyen. Chaque fiche est entièrement visuelle avec aucun texte sur la sortie, les rendant universellement utilisables quelle que soit la langue ou le niveau de lecture. Le contenu provient de la Bibliothèque d\'Images intégrée avec plus de 3 100 illustrations réparties dans 104 thèmes. Un corrigé généré automatiquement met en évidence les réponses correctes pour une vérification instantanée. L\'Accès Complet déverrouille les 104 thèmes et les 11 langues d\'interface. Exportez des PDF prêts à imprimer et des JPEG à 300 DPI en format Letter, A4 ou dimensions personnalisées. Que vous vendiez des packs de comparaison de tailles sur Etsy, compiliez des cahiers d\'apprentissage précoce pour Amazon KDP ou créiez des ateliers visuels différenciés pour Gumroad, le Générateur de Fiches Grand & Petit produit des résultats professionnels en quelques minutes — essai gratuit avec toutes les fonctionnalités, sans inscription, sans carte bancaire. Les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.',
@@ -198,6 +203,11 @@ const content: AppContent = {
       question: 'Quelle est la politique de remboursement ?',
       answer:
         'L\'essai gratuit vous donnant accès à toutes les fonctionnalités, nous n\'offrons pas de remboursement sur les achats de licence commerciale. Vous pouvez tester chaque type de question, chaque mode d\'images, chaque configuration d\'exercices, chaque format d\'export et chaque format de page avant d\'acheter. L\'essai gratuit est la politique de remboursement — assurez-vous que l\'outil répond à vos besoins avant d\'acheter une licence.',
+    },
+    {
+      question: 'Ces fiches grand/petit conviennent-elles à la maternelle ?',
+      answer:
+        'Oui. La comparaison de tailles est une compétence clé en petite section (PS), moyenne section (MS) et grande section (GS). Les exercices de tri par taille sont aussi utilisés au CP. Au Québec, cela correspond au préscolaire.',
     },
   ],
 

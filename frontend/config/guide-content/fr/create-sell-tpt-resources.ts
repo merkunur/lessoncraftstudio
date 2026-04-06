@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'vendre des ressources sur La Salle des Maîtres',
+    primaryKeyword: 'créer et vendre des fiches sur La Salle des Maîtres',
     secondaryKeywords: [
-      'comment vendre sur Gumroad',
-      'créer ressources Gumroad pour vendeurs',
-      'guide vendeur Gumroad fiches pédagogiques imprimables',
-      'Gumroad configuration boutique',
+      'La Salle des Maîtres guide vendeur',
+      'vendre ressources pédagogiques en ligne',
+      'créer fiches enseignants guide',
+      'TPT français équivalent guide',
     ],
     lsiKeywords: [
-      'marketplace éducatif ressources pédagogiques téléchargement numérique matériel didactique',
-      'Gumroad compte vendeur plan premium commission redevance structure paiement',
-      'conforme aux programmes niveau scolaire matière type de ressource catégorisation',
-      'aperçu produit miniature page de couverture conditions utilisation corrigé',
-      'Gumroad algorithme recherche tags titre description visibilité classement',
-      'pack fiches unité programme activités lot stratégie tarifaire',
+      'La Salle des Maîtres',
+      'fiches pédagogiques',
+      'enseignants',
+      'vendre',
+      'ressources',
+      'en ligne',
     ],
-    titleTag: 'Vendre sur La Salle des Maîtres | LCS',
-    metaDescription: 'Vendez des ressources sur La Salle des Maîtres et Mieux Enseigner. Configuration, optimisation fiches, tarification. Guide vendeurs LSDM.',
+    titleTag: 'Vendre sur La Salle des Maîtres | Guide vendeur',
+    metaDescription: 'Comment créer et vendre des fiches pédagogiques sur La Salle des Maîtres. Inscription, mise en vente, SEO, tarification. Guide complet.',
   },
 
   hero: {

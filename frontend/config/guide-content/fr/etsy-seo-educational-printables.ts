@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'seo etsy fiches pédagogiques 2026 produits imprimables imprimable',
+    primaryKeyword: 'SEO Etsy pour imprimables éducatifs',
     secondaryKeywords: [
-      'SEO Etsy pour fiches pédagogiques imprimables',
-      'recherche de mots-clés Etsy produits éducatifs',
-      'optimisation annonces Etsy vendeurs imprimables',
-      'stratégie tags Etsy pour fiches de travail',
+      'optimisation SEO Etsy fiches',
+      'mots-clés Etsy imprimables guide',
+      'référencement Etsy imprimables',
+      'tags Etsy fiches pédagogiques',
     ],
     lsiKeywords: [
-      'algorithme de recherche Etsy facteurs de classement téléchargements numériques',
-      'optimisation titre Etsy placement mots-clés annonces imprimables',
-      'stratégie 13 tags Etsy vendeurs fiches pédagogiques',
-      'description annonce Etsy structure SEO pour imprimables',
-      'Etsy Stats rapport termes de recherche optimisation mots-clés',
-      'catégorie attributs Etsy pour produits éducatifs numériques',
+      'SEO',
+      'Etsy',
+      'mots-clés',
+      'tags',
+      'référencement',
+      'imprimables',
     ],
-    titleTag: 'SEO Etsy pour fiches pédagogiques (2026) | LCS',
-    metaDescription: 'Guide SEO Etsy pour produits imprimables imprimable. Recherche de mots-clés, optimisation des titres, 13 tags, descriptions et facteurs de classement.',
+    titleTag: 'SEO Etsy pour imprimables éducatifs | Guide complet',
+    metaDescription: 'Comment optimiser votre SEO Etsy pour les imprimables éducatifs. Mots-clés, tags, titres, descriptions. Guide complet pour améliorer votre visibilité.',
   },
 
   hero: {

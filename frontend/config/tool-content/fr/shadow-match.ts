@@ -2,24 +2,28 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'générateur de fiches d\'ombres gratuit',
+    primaryKeyword: 'jeu d\'ombres gratuit à imprimer',
     secondaryKeywords: [
-      'créer des fiches d\'ombres gratuitement en ligne',
-      'fiches de silhouettes gratuit sans inscription',
-      'générateur discrimination visuelle gratuit PDF',
-      'fiches d\'ombres gratuites avec corrigé automatique',
+      'associer les ombres gratuit en ligne',
+      'jeu de silhouettes gratuit',
+      'ombres maternelle gratuit',
+      'association ombres gratuit en ligne',
     ],
     lsiKeywords: [
-      'essai gratuit avec filigrane sans inscription',
-      'licence commerciale pour vendre sur Etsy',
-      'modes Ombre et Reconstitue l\'Image 104 thèmes',
+      'silhouette',
+      'ombre',
+      'association',
+      'discrimination visuelle',
+      'gratuit',
+      'sans inscription',
+      'maternelle',
     ],
-    titleTag: 'Fiches d\'ombres gratuites en ligne | LCS',
-    metaDescription: 'Créez des fiches d\'ombres gratuitement en ligne. Modes Ombre et Reconstitue l\'Image, corrigés auto, sans inscription. Licence commerciale disponible.',
+    titleTag: 'Jeu d\'ombres gratuit à imprimer | LCS',
+    metaDescription: 'Créez des fiches d\'association d\'ombres gratuitement en ligne. Images et silhouettes thématiques, solutions automatiques, sans inscription. Essai gratuit.',
   },
 
   hero: {
-    title: 'Fiches d\'ombres gratuites — créez en ligne sans inscription',
+    title: 'Jeu d\'ombres gratuit — créez des fiches d\'association de silhouettes en ligne',
     tagline: 'Générateur double mode de fiches de discrimination visuelle avec création de silhouettes au niveau des pixels, mode Reconstitue l\'Image avec coupes horizontales et verticales, dérangement Fisher-Yates garantissant aucune correspondance triviale, corrigés auto-générés avec étiquettes lettre-numéro, identifiants A/B/C/D et 1/2/3/4 activables et 104 collections d\'images thématiques pour des fiches de discrimination visuelle vendables dans le monde entier',
     description: 'Créez des fiches d\'ombres gratuitement en ligne — sans inscription, sans carte bancaire. Deux modes d\'exercice distincts dans un seul générateur. Le mode Trouve l\'Ombre place 4 images en couleur étiquetées A, B, C, D dans la rangée du haut et 4 silhouettes noires auto-générées étiquetées 1, 2, 3, 4 dans la rangée du bas — les silhouettes sont créées par un traitement d\'images au niveau des pixels qui convertit chaque pixel avec un alpha > 10 en noir pur (R=0, G=0, B=0, A=255), produisant des contours fidèles qui préservent le profil de transparence exact de chaque image. Il s\'agit d\'un véritable traitement de pixels, pas de filtres CSS ni d\'éléments d\'ombres préfabriqués. Le mode Reconstitue l\'Image divise 4 images en moitiés — choisissez la coupe horizontale (moitiés haut/bas) ou la coupe verticale (moitiés gauche/droite) — étiquette les premières moitiés A–D et les secondes moitiés 1–4, et les utilisateurs reconnectent les pièces pour compléter chaque illustration. Les deux modes utilisent un algorithme de dérangement Fisher-Yates qui garantit qu\'aucun élément n\'apparaît à sa position d\'origine, éliminant les correspondances triviales et assurant que chaque fiche présente un véritable défi de correspondance. Le dérangement se recalcule à chaque génération, produisant des arrangements différents à partir du même ensemble d\'images. Activez ou désactivez les étiquettes A/B/C/D et 1/2/3/4 — étiquettes activées pour un guidage structuré des jeunes apprenants, étiquettes désactivées pour un défi de correspondance purement visuel idéal pour les cahiers de puzzles et les activités avancées. Ajoutez des champs optionnels nom et date pour la responsabilité en ligne. Le système double canevas génère simultanément un onglet fiche et un onglet corrigé — le corrigé affiche chaque correspondance correcte lettre-numéro (A → 2, B → 4, etc.) à côté des images originales et de leurs silhouettes ou images complètes, sans création manuelle de corrigé nécessaire. La mise en page s\'adapte automatiquement : les pages paysage disposent les éléments en 2 rangées × 4 éléments, les pages portrait utilisent 2 colonnes × 4 éléments. Un en-tête stylisé apparaît avec un fond ambre (#FFC107), un conteneur pilule blanc et une bordure ambre de 3 px affichant \" Trouve l\'Ombre \" et les instructions dans la langue sélectionnée. La Discrimination Visuelle n\'est PAS sensible à la langue — le résultat est purement visuel sans contenu textuel localisé sur la fiche elle-même, rendant chaque fiche universellement vendable sur tous les marchés sans traduction. Parcourez 104 collections thématiques avec plus de 3 100 illustrations ou téléchargez vos propres images PNG, JPG ou GIF. Appliquez des thèmes de fond et de bordure avec des curseurs d\'opacité indépendants (0–1, pas de 0,05). Ajoutez du texte personnalisé avec 7 polices (Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial, Verdana) et contour de texte 0–10. Exportez quatre fichiers par session : fiche JPEG, fiche PDF, corrigé JPEG et corrigé PDF — tous à 300 DPI (multiplicateur 6×, qualité JPEG 1.0). Choisissez Letter, A4, Carré (1200×1200) ou dimensions personnalisées avec mode niveaux de gris pour une sortie économique en encre. Éditez tout sur le canevas Fabric.js avec outils d\'alignement, calques, verrouillage, zoom 25 %–300 % et annuler/rétablir 20 états. L\'essai gratuit inclut toutes les fonctionnalités avec un filigrane sur les téléchargements. Achetez une licence pour supprimer le filigrane et vendre à usage commercial.',
   },

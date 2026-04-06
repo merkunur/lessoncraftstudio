@@ -2,24 +2,30 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'fiches de graphisme à vendre sur Etsy et KDP',
+    primaryKeyword: 'fiches graphisme maternelle à imprimer',
     secondaryKeywords: [
-      'générateur de fiches de tracé pour vendeurs Etsy',
-      'fiches de graphisme motricité fine pour Amazon KDP',
-      'fiches de tracé de lignes licence commerciale',
-      'créer des cahiers de graphisme pour La Salle des Maîtres',
+      'tracé lignes maternelle',
+      'exercices motricité fine à imprimer',
+      'lignes à tracer maternelle PS MS GS',
+      'graphisme décoratif à imprimer',
     ],
     lsiKeywords: [
-      'licence commerciale 300 DPI prêt à imprimer',
-      'business d\'imprimables fiches graphisme vendeurs',
-      'huit modèles SVG motricité fine pré-écriture',
+      'tracé',
+      'lignes droites',
+      'courbes',
+      'motricité fine',
+      'pointillés',
+      'maternelle',
+      'PS',
+      'MS',
+      'GS',
     ],
-    titleTag: 'Fiches de graphisme à vendre sur Etsy & KDP | LCS',
-    metaDescription: 'Créez des fiches de graphisme à vendre sur Etsy & KDP. 8 modèles de tracé, 104 thèmes, licence commerciale. 49 $ paiement unique.',
+    titleTag: 'Fiches graphisme maternelle | Générateur tracés & lignes',
+    metaDescription: 'Créez des fiches de graphisme et tracé avec images thématiques. PDF 300 DPI imprimables. Essai gratuit — licence commerciale incluse.',
   },
 
   hero: {
-    title: 'Générez des fiches de graphisme à vendre sur Etsy, KDP & plus',
+    title: 'Fiches de graphisme maternelle — Générateur de tracés et lignes à imprimer',
     tagline: 'Huit modèles de lignes SVG — courbes, diagonales, horizontale et verticale — avec 4 à 5 paires d\'images par page pour le développement de la motricité fine grâce au tracé de lignes guidé.',
     description:
       'Créez des fiches de graphisme à vendre sur Etsy, Amazon KDP ou La Salle des Maîtres — des fiches où les utilisateurs tracent le long de chemins guidés pour relier des paires d\'images assorties. Huit modèles basés sur des SVG couvrent quatre types de lignes : quatre modèles de courbes pour des mouvements fluides, deux modèles de diagonales pour des tracés en angle, un modèle horizontal pour le tracé de gauche à droite, et un modèle vertical pour la pratique de haut en bas. Chaque modèle place 4 ou 5 paires d\'images assorties de part et d\'autre du tracé, donnant aux utilisateurs un objectif visuel à chaque extrémité. Le remplissage automatique attribue aléatoirement des paires d\'images depuis n\'importe quel thème sélectionné ou depuis tous les thèmes à la fois. Le contenu provient de la Bibliothèque d\'Images intégrée avec plus de 3 100 illustrations colorées réparties dans 104 thèmes — animaux, véhicules, nourriture, nature et des dizaines d\'autres. Chaque fiche est purement visuelle avec zéro texte sur la sortie, les rendant universellement utilisables quelle que soit la langue ou le niveau de lecture. La sélection du modèle détermine automatiquement l\'orientation de la page : les modèles de courbes passent en paysage pour les mouvements amples, tandis que les modèles de diagonales, horizontal et vertical utilisent le portrait pour la pratique ciblée de haut en bas. L\'Accès Complet déverrouille les 104 thèmes et les 11 langues d\'interface. Exportez des PDF et JPEG prêts à imprimer à 300 DPI en format Letter, A4 ou dimensions personnalisées. Que vous vendiez des lots de tracé de lignes sur Etsy, compiliez des cahiers de motricité fine pour Amazon KDP ou créiez des ateliers de préparation à l\'écriture pour Gumroad, le Générateur de Fiches de Graphisme livre des résultats professionnels en quelques minutes — essai gratuit avec toutes les fonctionnalités, sans inscription, sans carte bancaire. Les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.',
@@ -193,6 +199,11 @@ const content: AppContent = {
       question: 'Quelle est la politique de remboursement ?',
       answer:
         'L\'essai gratuit vous donnant accès à toutes les fonctionnalités, nous n\'offrons pas de remboursement sur les achats de licence commerciale. Vous pouvez tester chaque modèle de ligne, chaque thème d\'images, le remplissage automatique, chaque format d\'export et chaque taille de page avant d\'acheter. L\'essai gratuit est la politique de remboursement — assurez-vous que l\'outil répond à vos besoins avant d\'acheter une licence.',
+    },
+    {
+      question: 'Ces fiches de tracé sont-elles adaptées à la petite et moyenne section ?',
+      answer:
+        'Oui. Le tracé de lignes est essentiel dès la petite section (PS). Les lignes droites conviennent à la PS, les courbes à la moyenne section (MS), et les motifs complexes à la grande section (GS). Au Québec, cela correspond au préscolaire.',
     },
   ],
 

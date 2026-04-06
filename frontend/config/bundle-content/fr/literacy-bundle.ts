@@ -2,21 +2,11 @@ import type { BundleContent } from '../types';
 
 const content: BundleContent = {
   seo: {
-    primaryKeyword: 'pack mots lecture jeux vendre langage',
-    secondaryKeywords: [
-      'pack générateurs fiches de lecture pour vendeurs',
-      'kit fiches de vocabulaire licence commerciale',
-      'pack fiches mots croisés mots cachés pour Etsy.fr',
-      'générateurs fiches multilingues pour vendeurs KDP',
-    ],
-    lsiKeywords: [
-      'pack fiches alphabet écriture mots cachés',
-      'collection mots mêlés cryptogramme imprimables',
-      'licence commerciale fiches de lecture',
-      'outil création fiches de vocabulaire en masse',
-    ],
-    titleTag: 'Pack jeux de mots — Vendre sur Etsy | LCS',
-    metaDescription: '7 générateurs de fiches de lecture en un pack. Alphabet, mots cachés, cryptogramme et écriture en 11 langues. Licence commerciale. 149 $ paiement unique.',
+    primaryKeyword: 'pack générateurs vocabulaire et lecture',
+    secondaryKeywords: ['bundle fiches vocabulaire', 'pack mots mêlés mots croisés', 'générateurs lecture groupés', 'pack fiches langue'],
+    lsiKeywords: ['vocabulaire', 'mots mêlés', 'mots croisés', 'lecture', 'pack', 'groupé'],
+    titleTag: 'Pack générateurs vocabulaire & lecture | Prix groupé',
+    metaDescription: 'Pack de générateurs vocabulaire : mots mêlés, mots croisés, cryptogrammes, lettres mélangées et plus. Prix groupé, licence commerciale.',
   },
 
   hero: {

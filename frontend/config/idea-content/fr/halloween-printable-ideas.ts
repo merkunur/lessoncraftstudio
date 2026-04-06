@@ -2,21 +2,16 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Imprimables Halloween — Idées business | LCS',
-    metaDescription: 'Idées d\'imprimables d\'Halloween à vendre sur Etsy, KDP & Gumroad. Concepts produits thème effrayant, stratégies saisonnières et conseils pour vendeurs.',
-
-    primaryKeyword: 'imprimables Halloween idées business',
+    primaryKeyword: 'imprimables Halloween à vendre',
     secondaryKeywords: [
-      'fiches halloween à vendre',
-      'activité imprimable thème halloween',
-      'fiches d\'activités halloween pour vendeurs',
-      'vendre des imprimables halloween sur Etsy',
+      'fiches Halloween à imprimer idées',
+      'cahier activités Halloween KDP',
+      'coloriages Halloween à vendre',
+      'jeux Halloween imprimables',
     ],
-    lsiKeywords: [
-      'fiches éducatives sur le thème effrayant',
-      'pages d\'activités de qualité en octobre',
-      'imprimables sur le thème des citrouilles et des costumes',
-    ],
+    lsiKeywords: ['Halloween', 'citrouille', 'fantôme', 'sorcière', 'octobre', 'automne'],
+    titleTag: 'Imprimables Halloween pour Etsy & KDP | Idées niches',
+    metaDescription: 'Idées d\'imprimables Halloween à vendre sur Etsy et KDP. Coloriages, labyrinthes, mots mêlés thème Halloween. Niche saisonnière rentable.',
   },
   hero: {
     title: 'Idées d\'Imprimables d\'Halloween pour les Vendeurs',

@@ -1,24 +1,28 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'générateur de mots croisés gratuit avec images',
+    primaryKeyword: 'générateur mots croisés gratuit',
     secondaryKeywords: [
-      'créer des mots croisés gratuitement en ligne',
-      'générateur de mots croisés gratuit sans inscription',
-      'mots croisés en images gratuit PDF',
-      'mots croisés gratuit avec corrigé automatique',
+      'créer mots croisés gratuit en ligne',
+      'mots croisés à imprimer gratuit',
+      'mots croisés avec images gratuit',
+      'générateur grille mots croisés',
     ],
     lsiKeywords: [
-      'essai gratuit avec filigrane sans inscription',
-      'licence commerciale pour vendre sur Etsy',
-      'grille 15×15 4 méthodes de saisie 104 thèmes',
+      'grille',
+      'indices',
+      'images',
+      'gratuit',
+      'sans inscription',
+      'solution',
+      'PDF',
     ],
-    titleTag: 'Générateur de mots croisés gratuit | LCS',
-    metaDescription: 'Créez des mots croisés gratuit avec images en ligne. Grille 15×15, 4 méthodes de saisie, sans inscription. Licence commerciale disponible.',
-    },
+    titleTag: 'Générateur mots croisés gratuit en ligne | LCS',
+    metaDescription: 'Créez des mots croisés gratuitement en ligne. Indices images, grille 15×15, solutions automatiques, sans inscription. Licence commerciale disponible.',
+  },
 
   hero: {
-    title: 'Mots croisés gratuits avec images — créez en ligne',
+    title: 'Générateur de mots croisés gratuit — créez des grilles en ligne avec images',
     tagline: 'Générateur de mots croisés en images avec indices visuels sur une grille fixe 15×15, quatre méthodes de saisie (Génération Rapide par Thème, Modification Manuelle des Noms d\'Images, Liste de Mots Personnalisée avec Indices et Importer des Images Personnalisées), corrigé auto-généré avec grille remplie via système à double canevas, mots de puzzle sensibles à la langue dans 11 langues via le système de Vocabulaire d\'Images, et en-tête localisé bleu (#5B9BD5) avec titre Fredoka et description Quicksand à travers 104 collections thématiques',
     description: 'Créez des mots croisés gratuitement en ligne — sans inscription, sans carte bancaire. Des images colorées remplacent les définitions textuelles traditionnelles. Huit images génèrent huit mots sur une grille fixe 15×15 — l\'algorithme extrait les mots des noms d\'images, supprime les espaces, convertit en majuscules, mélange, trie par longueur (les plus longs en premier) et place les mots avec un croisement optimal aux lettres communes. Les positions d\'indices numérotées marquent le début de chaque mot, et les images-indices apparaissent à côté de la grille avec les numéros correspondants. Choisissez parmi quatre méthodes de saisie adaptées à différents besoins de création de mots croisés. La Génération Rapide par Thème sélectionne automatiquement 8 images aléatoires parmi les 104 collections thématiques et génère instantanément — le chemin le plus rapide vers un puzzle terminé. La Modification Manuelle des Noms d\'Images vous permet de cliquer sur les images individuelles et de les renommer avant la génération, offrant un contrôle précis sur les mots qui apparaissent dans la grille. La Liste de Mots Personnalisée avec Indices bascule vers des mots croisés traditionnels à indices textuels en utilisant un format MOT : indice pour des puzzles de vocabulaire spécifiques sans images. Importer des Images Personnalisées vous permet d\'ajouter vos propres fichiers JPEG, PNG, GIF ou WebP aux côtés du contenu de la bibliothèque. Le Générateur de Mots Croisés en Images est sensible à la langue : les mots du puzzle proviennent des noms d\'images localisés via le système de Vocabulaire d\'Images. Changer la langue du contenu modifie les mots réels des mots croisés — une image de chat génère \" CHAT \" en français mais \" CAT \" en anglais, \" KATZE \" en allemand et \" GATTO \" en italien, produisant des puzzles de mots croisés entièrement différents à partir des mêmes images. La Licence Commerciale inclut le contenu anglais ; l\'Accès Complet déverrouille les 11 langues pour les mots de puzzle localisés. Le système à double canevas génère à la fois un onglet puzzle et un onglet corrigé — le corrigé affiche la grille remplie avec toutes les réponses correctes visibles dans les cases. Chaque puzzle inclut un en-tête localisé auto-généré avec un fond bleu (#5B9BD5), une pastille blanche, un titre Fredoka avec dimensionnement dynamique (48px pour les titres courts jusqu\'à 28px pour les traductions plus longues) et une description Quicksand. Le mode portrait affiche un en-tête pleine largeur (220px de hauteur) ; le mode paysage utilise une disposition centrée compacte (145px de hauteur). Parcourez 104 collections thématiques avec plus de 3 100 illustrations ou importez des images personnalisées. Appliquez des thèmes de fond et des thèmes de bordure avec des contrôles d\'opacité indépendants. Exportez des PDF prêts à imprimer et des JPEG à 300 DPI (multiplicateur 6×) en format Letter Portrait, Letter Paysage, A4 Portrait, A4 Paysage ou dimensions personnalisées. Activez les niveaux de gris pour une sortie économique en encre. L\'essai gratuit inclut toutes les fonctionnalités avec un filigrane sur les téléchargements. Achetez une licence pour supprimer le filigrane et vendre à usage commercial.',
   },

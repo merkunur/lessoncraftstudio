@@ -2,24 +2,29 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'fiches de prépositions pour FLE à vendre sur Etsy et Eduki',
+    primaryKeyword: 'fiches repérage spatial à imprimer',
     secondaryKeywords: [
-      'générateur de fiches de prépositions pour vendeurs Etsy',
-      'fiches de vocabulaire spatial FLE pour Amazon KDP',
-      'fiches de prépositions licence commerciale',
-      'créer des fiches FLE pour La Salle des Maîtres et Eduki',
+      'prépositions de lieu exercice',
+      'se repérer dans l\'espace fiche',
+      'vocabulaire spatial maternelle GS CP',
+      'sur sous devant derrière fiche',
     ],
     lsiKeywords: [
-      'licence commerciale 300 DPI prêt à imprimer',
-      'business d\'imprimables fiches FLE vendeurs Etsy',
-      '8 prépositions spatiales 11 langues corrigé automatique',
+      'sur',
+      'sous',
+      'devant',
+      'derrière',
+      'à côté',
+      'entre',
+      'espace',
+      'maternelle',
     ],
-    titleTag: 'Fiches prépositions FLE à vendre sur Etsy | LCS',
-    metaDescription: 'Créez des fiches de prépositions FLE à vendre sur Etsy & Eduki. 8 prépositions, 11 langues, licence commerciale. 49 $ paiement unique.',
+    titleTag: 'Fiches repérage spatial à imprimer | Générateur prépositions',
+    metaDescription: 'Créez des fiches de repérage spatial et prépositions avec images thématiques. Corrections automatiques, 11 langues. Essai gratuit — licence commerciale.',
   },
 
   hero: {
-    title: 'Créez des fiches de prépositions FLE à vendre sur Etsy & Eduki',
+    title: 'Fiches de repérage spatial à imprimer — Générateur de prépositions avec images',
     tagline: 'Huit prépositions spatiales combinées à des exercices images-et-formes — construisant le vocabulaire spatial phrase après phrase.',
     description:
       'Créez des fiches de prépositions FLE à vendre sur Etsy, Amazon KDP ou Eduki — des fiches qui enseignent les relations spatiales à travers des exercices pratiques images-et-formes. Les utilisateurs pratiquent huit prépositions fondamentales — dans, sur, sous, à côté de, derrière, entre, au-dessus de et devant — grâce à deux modes d\'exercice distincts : le Texte à Trous où les utilisateurs complètent la préposition manquante, et le Choix Multiple où les utilisateurs identifient l\'image correspondant à une description spatiale. Sélectionnez les prépositions à inclure depuis la liste de prépositions intégrée et configurez de 1 à 8 exercices par fiche. Parcourez plus de 3 100 illustrations sélectionnées dans 104 thèmes pour les objets positionnés, et choisissez parmi 8 formes géométriques (cercle, cube, cylindre, cœur, hexagone, carré, étoile, triangle) comme points de référence spatiale. L\'Accès Complet déverrouille les 11 langues prises en charge avec des prépositions grammaticalement correctes — l\'allemand avec les contractions datives comme \" im \" et \" am \", le français avec les règles d\'élision pour \" l\' \" devant les voyelles, l\'espagnol avec les articles genrés — multipliant votre catalogue de produits par onze à partir d\'un seul flux de travail. Chaque fiche génère un corrigé automatique, et vous pouvez exporter des PDF prêts à imprimer et des JPEG à plus de 400 DPI en format Letter, A4, Carré ou dimensions personnalisées. Que vous vendiez des packs de prépositions thématiques sur Etsy, compiliez des cahiers de vocabulaire spatial pour Amazon KDP ou créiez des ateliers de langage différenciés pour Gumroad, le Générateur de Fiches de Prépositions produit des résultats professionnels en quelques minutes — essai gratuit avec toutes les fonctionnalités, sans inscription, sans carte bancaire. Les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.',
@@ -198,6 +203,11 @@ const content: AppContent = {
       question: 'Quelle est la politique de remboursement ?',
       answer:
         'L\'essai gratuit vous donnant accès à toutes les fonctionnalités, nous n\'offrons pas de remboursement sur les achats de licence commerciale. Vous pouvez tester les deux modes d\'exercice, chaque préposition, chaque thème, chaque forme et chaque format d\'export avant d\'acheter. L\'essai gratuit est la politique de remboursement — assurez-vous que l\'outil répond à vos besoins avant d\'acheter une licence.',
+    },
+    {
+      question: 'Ces fiches de repérage spatial conviennent-elles à la maternelle et au CP ?',
+      answer:
+        'Oui. Se repérer dans l\'espace avec les prépositions (sur, sous, devant, derrière) est au programme de la grande section (GS) et du CP. Au Québec, cela correspond au préscolaire et à la 1re année du primaire.',
     },
   ],
 

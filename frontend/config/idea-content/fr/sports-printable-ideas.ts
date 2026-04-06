@@ -2,21 +2,16 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Imprimables sports — Idées business | LCS',
-    metaDescription: 'Idées d\'imprimables sportifs à vendre sur Etsy, KDP et Gumroad. Concepts de produits sportifs, stratégies par plateforme et conseils pour vendeurs.',
-
-    primaryKeyword: 'imprimables sports idées business',
+    primaryKeyword: 'imprimables sport à vendre',
     secondaryKeywords: [
-      'fiches sportives à vendre',
-      'idées business imprimables sport',
-      'fiches activités athlétiques vendeurs',
-      'vendre imprimables sportifs Etsy',
+      'fiches sport à imprimer idées',
+      'cahier activités sport KDP',
+      'coloriages sport à vendre',
+      'jeux sport imprimables',
     ],
-    lsiKeywords: [
-      'fiches éducatives sports équipe',
-      'pages activités ballons sports',
-      'imprimables éducation physique',
-    ],
+    lsiKeywords: ['sport', 'football', 'basket', 'tennis', 'natation', 'athlétisme'],
+    titleTag: 'Imprimables sport pour Etsy & KDP | Idées de niches',
+    metaDescription: 'Idées d\'imprimables sport à vendre sur Etsy et KDP. Coloriages football, mots mêlés sport, puzzles athlétiques. Niche thématique.',
   },
   hero: {
     title: 'Idées d\'Imprimables Sportifs pour les Vendeurs',

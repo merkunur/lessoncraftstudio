@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'cryptogrammes puzzles vendre ligne comment',
+    primaryKeyword: 'créer des messages codés à imprimer',
     secondaryKeywords: [
-      'créer puzzles cryptogrammes à vendre',
-      'générateur puzzles chiffré en images licence commerciale',
-      'fiches cryptogrammes imprimables pour Etsy et KDP',
-      'puzzles chiffré image-lettre avec corrigés légende',
+      'tutoriel cryptogrammes',
+      'guide code secret à imprimer',
+      'message codé fiche guide',
+      'jeu de décodage guide',
     ],
     lsiKeywords: [
-      'mécanique chiffré en images correspondance image-lettre encodage phrase générateur puzzles',
-      'curseur Lettres à révéler zéro à dix gradient difficulté générateur',
-      'Attribution automatique Attribution manuelle chiffré images légende lettres corrigé générateur',
-      'vendre puzzles cryptogrammes sur Etsy',
-      'cahiers puzzles chiffré en images Amazon KDP',
-      'licence commerciale outil fiches cryptogrammes',
+      'cryptogramme',
+      'message codé',
+      'code secret',
+      'déchiffrer',
+      'CE1',
+      'CE2',
     ],
-    titleTag: 'Cryptogrammes à vendre en ligne | LCS',
-    metaDescription: 'Créez des puzzles cryptogrammes avec chiffrement images, difficulté réglable, attribution automatique et alphabets adaptés. Vendez sur Etsy et KDP.',
+    titleTag: 'Créer des messages codés | Guide étape par étape',
+    metaDescription: 'Comment créer des cryptogrammes et messages codés avec images thématiques et solutions automatiques. Guide complet pour vendeurs.',
   },
 
   hero: {

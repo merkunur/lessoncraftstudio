@@ -2,24 +2,29 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'fiches d\'alphabet à vendre sur Etsy et KDP',
+    primaryKeyword: 'fiches alphabet à imprimer',
     secondaryKeywords: [
-      'générateur de fiches alphabet train pour vendeurs Etsy',
-      'fiches de reconnaissance des lettres pour Amazon KDP',
-      'fiches alphabet imprimables licence commerciale',
-      'créer des cahiers d\'alphabet pour La Salle des Maîtres',
+      'exercices alphabet maternelle',
+      'reconnaissance lettres GS CP',
+      'fiches lettres à imprimer',
+      'apprendre l\'alphabet exercices',
     ],
     lsiKeywords: [
-      'licence commerciale 300 DPI prêt à imprimer',
-      'business d\'imprimables fiches alphabet vendeurs',
-      'wagons colorés 11 langues alphabets natifs',
+      'ordre alphabétique',
+      'majuscules',
+      'minuscules',
+      'reconnaissance',
+      'maternelle',
+      'GS',
+      'CP',
+      'ABC',
     ],
-    titleTag: 'Fiches d\'alphabet à vendre sur Etsy & KDP | LCS',
-    metaDescription: 'Créez des fiches d\'alphabet à vendre sur Etsy & KDP. Wagons colorés, 11 langues, 104 thèmes, licence commerciale. 49 $ paiement unique.',
+    titleTag: 'Fiches alphabet à imprimer | Générateur exercices ABC',
+    metaDescription: 'Créez des fiches d\'alphabet avec images thématiques pour la reconnaissance des lettres. Solutions automatiques, 11 langues. Essai gratuit — licence commerciale.',
   },
 
   hero: {
-    title: 'Créez des fiches d\'alphabet à vendre sur Etsy & Amazon KDP',
+    title: 'Fiches alphabet à imprimer — Générateur d\'exercices ABC avec images',
     tagline: 'Chaque wagon transporte une lettre et une image correspondante — construisant la reconnaissance des lettres wagon après wagon.',
     description:
       'Créez des fiches d\'alphabet à vendre sur Etsy, Amazon KDP ou La Salle des Maîtres — des fiches train captivantes où 11 wagons colorés défilent sur la page, chacun portant une lettre associée à une illustration correspondante. Choisissez le mode Création Automatique pour une sélection aléatoire instantanée de lettres ou le Mode Manuel pour sélectionner précisément 11 lettres de l\'alphabet pour un entraînement ciblé. Ajoutez de 3 à 11 indices configurables par fiche — des images-indices que les utilisateurs associent au bon wagon-lettre — transformant la reconnaissance passive des lettres en un exercice actif de résolution de problèmes. Parcourez plus de 3 100 illustrations sélectionnées dans 104 thèmes pour trouver l\'image parfaite pour chaque lettre. L\'Accès Complet déverrouille les 11 langues prises en charge avec leurs alphabets natifs — l\'allemand avec Ä/Ö/Ü, le suédois avec Å/Ä/Ö, l\'espagnol avec Ñ, et plus encore — multipliant votre catalogue de produits par onze à partir d\'un seul flux de travail. Chaque fiche génère un corrigé automatique, et vous pouvez exporter des PDF prêts à imprimer et des JPEG à plus de 400 DPI en format Letter, A4 ou Carré. Que vous vendiez des packs alphabet thématiques sur Etsy, compiliez des cahiers d\'alphabétisation progressifs pour Amazon KDP ou créiez des ateliers de lettres différenciés pour Gumroad, le Générateur Train Alphabet produit des résultats professionnels en quelques minutes — essai gratuit avec toutes les fonctionnalités, sans inscription, sans carte bancaire. Les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.',
@@ -198,6 +203,11 @@ const content: AppContent = {
       question: 'Quelle est la politique de remboursement ?',
       answer:
         'L\'essai gratuit vous donnant accès à toutes les fonctionnalités, nous n\'offrons pas de remboursement sur les achats de licence commerciale. Vous pouvez tester les deux modes de création, chaque réglage d\'indices, chaque thème et chaque format d\'export avant d\'acheter. L\'essai gratuit est la politique de remboursement — assurez-vous que l\'outil répond à vos besoins avant d\'acheter une licence.',
+    },
+    {
+      question: 'Ces fiches d\'alphabet sont-elles adaptées à la maternelle GS et au CP ?',
+      answer:
+        'Oui. La reconnaissance des lettres est une compétence clé en grande section (GS) et en CP. Les images thématiques rendent l\'apprentissage ludique. Au Québec, cela correspond au préscolaire et à la 1re année du primaire.',
     },
   ],
 

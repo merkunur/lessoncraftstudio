@@ -2,20 +2,16 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Imprimables Saint-Valentin à vendre | LCS',
-    metaDescription: 'Imprimables Saint-Valentin à vendre sur Etsy, KDP & Gumroad. Produits thème amour, stratégies timing saisonnier et conseils vendeurs.',
     primaryKeyword: 'imprimables Saint-Valentin à vendre',
     secondaryKeywords: [
-      'fiches de Saint-Valentin à vendre',
-      'idées commerciales imprimables Saint-Valentin',
-      'fiches d\'activités Saint-Valentin pour vendeurs',
-      'vendre des imprimables Saint-Valentin sur Etsy',
+      'fiches Saint-Valentin à imprimer',
+      'activités Saint-Valentin KDP',
+      'coloriages cœurs à vendre',
+      'jeux Saint-Valentin imprimables',
     ],
-    lsiKeywords: [
-      'fiches éducatives thème cœurs',
-      'pages d\'activités de février pour la vente',
-      'imprimables thème amour et amitié',
-    ],
+    lsiKeywords: ['Saint-Valentin', 'cœur', 'amour', 'février', 'romantique', 'fête'],
+    titleTag: 'Imprimables Saint-Valentin Etsy & KDP | Idées niches',
+    metaDescription: 'Idées d\'imprimables Saint-Valentin à vendre sur Etsy et KDP. Coloriages cœurs, mots mêlés, puzzles. Niche saisonnière de février.',
   },
   hero: {
     title: 'Idées Commerciales d\'Imprimables de Saint-Valentin pour les Vendeurs',

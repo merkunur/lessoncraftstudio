@@ -2,24 +2,29 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'fiches d\'appariement à créer et vendre sur Etsy',
+    primaryKeyword: 'fiches association à imprimer',
     secondaryKeywords: [
-      'générateur de fiches d\'association pour vendeurs Etsy',
-      'fiches d\'appariement pour Amazon KDP',
-      'fiches relier par un trait licence commerciale',
-      'créer des cahiers d\'association pour La Salle des Maîtres',
+      'exercice relier maternelle',
+      'jeu d\'association à imprimer',
+      'fiches relier images',
+      'association images maternelle GS',
     ],
     lsiKeywords: [
-      'licence commerciale 300 DPI prêt à imprimer',
-      'business d\'imprimables fiches d\'appariement vendeurs',
-      '4 modes d\'association corrigé automatique 104 thèmes',
+      'relier',
+      'associer',
+      'paires',
+      'maternelle',
+      'PS',
+      'MS',
+      'GS',
+      'concentration',
     ],
-    titleTag: 'Fiches d\'appariement à vendre sur Etsy | LCS',
-    metaDescription: 'Créez des fiches d\'appariement à vendre sur Etsy & KDP. 4 modes, corrigé auto, 104 thèmes, licence commerciale. 49 $ paiement unique.',
+    titleTag: 'Fiches d\'association à imprimer | Générateur jeux liaison',
+    metaDescription: 'Créez des fiches d\'association avec images thématiques pour maternelle et CP. Corrections automatiques, PDF 300 DPI. Essai gratuit — licence commerciale.',
   },
 
   hero: {
-    title: 'Créez et vendez des fiches d\'appariement sur Etsy & KDP',
+    title: 'Fiches d\'association à imprimer — Générateur de jeux de liaison avec images',
     tagline: 'Quatre modes d\'association en un seul générateur — Lettre Initiale, Image+Mot, Image/Mot Mixte et Mot Personnalisé — avec corrigés générés automatiquement, nombre de paires configurable et en-tête localisé \" Trouve les Paires ! \" à travers 104 collections d\'images thématiques.',
     description:
       'Créez des fiches d\'appariement à vendre sur Etsy, Amazon KDP ou La Salle des Maîtres — des fiches où les acheteurs relient des paires en traçant des lignes entre deux colonnes. Choisissez parmi quatre modes d\'association distincts : Image ↔ Lettre Initiale associe les images à leur première lettre, Image+Mot ↔ Image+Mot apparie des images étiquetées des deux côtés, Image/Mot ↔ Image/Mot Mixte permet de mixer images et mots par ligne avec des sélecteurs déroulants, et Image ↔ Mot Personnalisé vous permet de saisir vos propres termes d\'association. Configurez 4, 5 ou 6 paires par fiche et activez ou désactivez les numéros d\'éléments et les puces décoratives pour une mise en page soignée. Chaque fiche inclut un en-tête localisé \" Trouve les Paires ! \" généré automatiquement, avec titre et consignes rendus dans les 11 langues prises en charge. Le système à double canevas génère à la fois un onglet fiche de travail et un onglet corrigé — le corrigé trace des lignes de liaison entre les bonnes correspondances, sans aucun travail manuel de votre part. Le Générateur de Fiches d\'Association est sensible à la langue : les modes Lettre Initiale et Image+Mot utilisent les noms localisés des images, donc changer de langue modifie les mots et les premières lettres sur la fiche. L\'Accès Complet déverrouille les 104 thèmes avec plus de 3 100 illustrations et les 11 langues d\'interface pour du contenu textuel localisé. Ajoutez des thèmes de fond et de bordure avec des contrôles d\'opacité indépendants, insérez des champs nom et date, et exportez des PDF et JPEG prêts à imprimer à 300 DPI en format Letter, A4, Carré ou dimensions personnalisées. Que vous vendiez des packs d\'activités d\'association sur Etsy, compiliez des cahiers d\'initiation à la lecture pour Amazon KDP ou créiez des fiches pour ateliers d\'association sur Gumroad, ce générateur produit des fiches prêtes pour la production en quelques minutes — essai gratuit avec toutes les fonctionnalités, sans inscription, sans carte bancaire. Les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.',
@@ -193,6 +198,11 @@ const content: AppContent = {
       question: 'Quelle est la politique de remboursement ?',
       answer:
         'L\'essai gratuit vous donnant accès à toutes les fonctionnalités, nous n\'offrons pas de remboursement sur les achats de licence commerciale. Vous pouvez tester les quatre modes d\'association, le corrigé généré automatiquement, la bibliothèque d\'images complète, les thèmes de fond et de bordure, les champs nom/date, les numéros d\'éléments, les puces décoratives et tous les formats de téléchargement avant d\'acheter. L\'essai gratuit est la politique de remboursement — assurez-vous que l\'outil correspond à vos besoins avant d\'acheter une licence.',
+    },
+    {
+      question: 'Ces fiches d\'association conviennent-elles à la maternelle (PS, MS, GS) ?',
+      answer:
+        'Oui. Les exercices de liaison et d\'association sont parfaits dès la petite section (PS). Augmentez le nombre de paires pour la moyenne section (MS) et la grande section (GS). Au Québec, cela correspond au préscolaire.',
     },
   ],
 

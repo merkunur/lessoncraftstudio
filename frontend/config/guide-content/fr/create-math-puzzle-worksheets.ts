@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'créer des puzzles de maths à vendre',
+    primaryKeyword: 'créer des puzzles mathématiques à imprimer',
     secondaryKeywords: [
-      'générateur puzzles maths pour enfants',
-      'puzzles mathématiques reconstruction d\'images',
-      'fiches puzzles maths imprimables à vendre',
-      'puzzles maths en grille pour enfants',
+      'tutoriel puzzles maths',
+      'guide jeux maths à imprimer',
+      'casse-tête mathématique guide',
+      'énigme maths CP CE1 guide',
     ],
     lsiKeywords: [
-      'activité puzzle image maths',
-      'résoudre équations reconstruire image',
-      'puzzles maths visuels marché préscolaire CP',
-      'vendre puzzles maths sur Etsy',
-      'livres puzzles maths Amazon KDP',
-      'générateur puzzles licence commerciale',
+      'puzzle maths',
+      'casse-tête',
+      'logique',
+      'calcul',
+      'CP',
+      'CE1',
     ],
-    titleTag: 'Puzzles de maths à vendre en ligne | LCS',
-    metaDescription: 'Comment créer des fiches puzzles maths où les enfants résolvent des équations pour reconstruire des images. Grilles, opérations et vente sur Etsy et KDP.',
+    titleTag: 'Créer des puzzles maths à imprimer | Guide complet',
+    metaDescription: 'Comment créer des puzzles mathématiques avec images où les enfants résolvent des calculs. Corrections incluses. Guide étape par étape.',
   },
 
   hero: {

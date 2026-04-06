@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'revenu passif avec des fiches 2026',
+    primaryKeyword: 'revenus passifs avec des fiches à imprimer',
     secondaryKeywords: [
-      'activité fiches exercices revenus',
-      'gagner argent vente fiches exercices',
-      'fiches imprimables revenus',
-      'revenus continus imprimables éducatifs',
+      'revenus passifs imprimables guide',
+      'gagner argent fiches pédagogiques',
+      'business passif imprimables',
+      'complément revenus fiches',
     ],
     lsiKeywords: [
-      'flux revenus produit numérique revenus produits durables automatisation ventes',
-      'canaux revenus multiples revenus redevances impression demande téléchargement numérique revenus',
-      'cycle vie produit revenus long terme monétisation catalogue contenu durable',
-      'ventes répétées rendements composés portefeuille produits revenus durables',
-      'multiplication revenus effets catalogue découverte organique ventes continues',
-      'modèle revenus évolutif flux revenus fiches multi-plateforme revenus',
+      'revenus passifs',
+      'imprimables',
+      'fiches',
+      'business',
+      'complément',
+      'automatisation',
     ],
-    titleTag: 'Revenu passif avec des fiches (2026) | LCS',
-    metaDescription: 'Construire des revenus récurrents avec les fiches. Catalogues durables, distribution multi-plateforme,. Vendez sur Etsy & KDP avec licence commerciale.',
+    titleTag: 'Revenus passifs avec fiches à imprimer | Guide',
+    metaDescription: 'Comment générer des revenus passifs avec des fiches à imprimer. Automatisation, plateformes, stratégie de vente. Guide complet pour débutants.',
   },
 
   hero: {

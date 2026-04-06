@@ -2,21 +2,11 @@ import type { BundleContent } from '../types';
 
 const content: BundleContent = {
   seo: {
-    primaryKeyword: 'pack appariement tri etsy association',
-    secondaryKeywords: [
-      'pack générateurs fiches association tri pour vendeurs',
-      'kit fiches association imprimables licence commerciale',
-      'pack générateur cartes bingo pour Etsy.fr',
-      'générateurs fiches tri pour vendeurs KDP',
-    ],
-    lsiKeywords: [
-      'pack fiches association tri bingo',
-      'collection discrimination visuelle puzzle grille imprimable',
-      'licence commerciale fiches association',
-      'outil création fiches association en masse',
-    ],
-    titleTag: 'Pack appariement & tri pour Etsy | LCS',
-    metaDescription: '5 générateurs de fiches d\'association en un pack. Créez fiches association, grille, bingo, tri et ombres à vendre sur Etsy, KDP et Gumroad. 49 $ paiement.',
+    primaryKeyword: 'pack générateurs association et tri',
+    secondaryKeywords: ['bundle fiches association', 'pack fiches maternelle groupé', 'générateurs tri classement', 'pack fiches relier'],
+    lsiKeywords: ['association', 'tri', 'classement', 'relier', 'maternelle', 'pack'],
+    titleTag: 'Pack générateurs association & tri | Prix groupé',
+    metaDescription: 'Pack de générateurs association et tri : fiches relier, classement, prépositions, grand/petit et plus. Prix groupé, licence commerciale.',
   },
 
   hero: {

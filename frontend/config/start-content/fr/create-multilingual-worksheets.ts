@@ -2,23 +2,11 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'fiches langues multilingue multilingues vendre comment créer',
-    secondaryKeywords: [
-      'créer des fiches en plusieurs langues',
-      'fiches imprimables multilingues',
-      'vendre des fiches en allemand français espagnol',
-      'générateur de cahiers d\'activités multilingues',
-    ],
-    lsiKeywords: [
-      'générateur de fiches sensible à la langue',
-      'créer des fiches en 11 langues',
-      'marché des imprimables non anglophones etsy',
-      'générateur de mots cachés multilingue',
-      'activité imprimable internationale',
-      'vendre des fiches sur etsy.de etsy.fr',
-    ],
-    titleTag: 'Fiches multilingues à vendre | LCS',
-    metaDescription: 'Créez et vendez des fiches dans 11 langues avec un générateur multilingue. Atteignez les acheteurs sur Etsy, Amazon KDP et les marchés internationaux.',
+    primaryKeyword: 'créer des fiches multilingues à vendre',
+    secondaryKeywords: ['fiches multilingues guide', 'imprimables 11 langues guide', 'fiches internationales à vendre', 'marché francophone imprimables'],
+    lsiKeywords: ['multilingue', 'langues', 'international', 'francophone', 'traduction', 'vocabulaire'],
+    titleTag: 'Fiches multilingues à vendre | Guide international',
+    metaDescription: 'Comment créer des fiches pédagogiques en 11 langues pour vendre à l\'international. Marché francophone, stratégie multilingue. Guide complet.',
   },
 
   hero: {

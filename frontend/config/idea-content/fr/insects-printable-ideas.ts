@@ -2,21 +2,16 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Imprimables insectes — Idées business | LCS',
-    metaDescription: 'Idées d\'imprimables insectes à vendre sur Etsy, KDP & Gumroad. Concepts produits papillons et petites bêtes, stratégies de plateformes et conseils.',
-
-    primaryKeyword: 'imprimables insectes idées business',
+    primaryKeyword: 'imprimables insectes à vendre',
     secondaryKeywords: [
-      'fiches thème insectes à vendre',
-      'idées business imprimables petites bêtes',
-      'fiches d\'activités insectes pour vendeurs',
-      'vendre des imprimables insectes sur Etsy',
+      'fiches insectes à imprimer idées',
+      'cahier activités insectes KDP',
+      'coloriages insectes à vendre',
+      'jeux insectes imprimables',
     ],
-    lsiKeywords: [
-      'activités entomologie pour enfants',
-      'fiches éducatives thème petites bêtes',
-      'imprimables insectes pour la vente',
-    ],
+    lsiKeywords: ['insecte', 'papillon', 'abeille', 'coccinelle', 'fourmi', 'nature'],
+    titleTag: 'Imprimables insectes pour Etsy & KDP | Idées de niches',
+    metaDescription: 'Idées d\'imprimables insectes à vendre sur Etsy et KDP. Coloriages papillons, mots mêlés nature, puzzles insectes. Niche éducative.',
   },
   hero: {
     title: 'Idées d\'Imprimables Insectes pour les Vendeurs',

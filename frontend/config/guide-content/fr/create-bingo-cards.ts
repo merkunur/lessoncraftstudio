@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'créer des cartes de loto avec images à vendre',
+    primaryKeyword: 'créer des cartes de loto à imprimer',
     secondaryKeywords: [
-      'créer cartes bingo avec images',
-      'générateur cartes bingo pour enfants',
-      'cartes bingo imprimables à vendre',
-      'générateur bingo images thématiques',
+      'tutoriel cartes bingo',
+      'guide créer loto images',
+      'cartes de bingo personnalisées',
+      'loto pédagogique guide',
     ],
     lsiKeywords: [
-      'cartes bingo thématiques pour la boutique',
-      'activités bingo imprimables pour fêtes',
-      'vendre cartes bingo sur Etsy',
-      'cahiers activités bingo Amazon KDP',
-      'outil bingo licence commerciale',
-      'générateur cartes bingo uniques multiples',
+      'loto',
+      'bingo',
+      'cartes',
+      'images',
+      'classe',
+      'maternelle',
     ],
-    titleTag: 'Cartes de loto à vendre en ligne | LCS',
-    metaDescription: 'Comment créer des cartes bingo avec images thématiques. Taille de grille, cartes uniques avec cartes d\'appel et PDF prêts à imprimer pour Etsy et KDP.',
+    titleTag: 'Créer des cartes de loto | Guide étape par étape',
+    metaDescription: 'Comment créer des cartes de loto/bingo avec images thématiques. Cartes uniques par set, PDF imprimables. Guide complet pour vendeurs Etsy et KDP.',
   },
 
   hero: {

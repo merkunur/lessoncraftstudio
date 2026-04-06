@@ -2,21 +2,16 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Imprimables rentrée scolaire Etsy | LCS',
-    metaDescription: 'Idées d\'imprimables de rentrée à vendre sur Etsy, KDP et Gumroad. Concepts produits pour la vente, stratégies juillet-septembre et conseils vendeurs.',
-
-    primaryKeyword: 'imprimables rentrée scolaire à vendre Etsy',
+    primaryKeyword: 'imprimables rentrée scolaire à vendre',
     secondaryKeywords: [
-      'fiches rentrée à vendre',
-      'idées business imprimables école',
-      'fiches activités rentrée des niveaux',
-      'vendre imprimables rentrée en ligne',
+      'fiches rentrée à imprimer idées',
+      'cahier activités rentrée KDP',
+      'exercices rentrée à vendre',
+      'imprimables septembre école',
     ],
-    lsiKeywords: [
-      'packs fiches éducatives',
-      'ressources vendeurs imprimables',
-      'activités thème fournitures',
-    ],
+    lsiKeywords: ['rentrée', 'école', 'septembre', 'fournitures', 'CP', 'CE1'],
+    titleTag: 'Imprimables rentrée scolaire Etsy & KDP | Idées',
+    metaDescription: 'Idées d\'imprimables rentrée scolaire à vendre sur Etsy et KDP. Fiches maths, vocabulaire, activités septembre. Niche saisonnière forte.',
   },
   hero: {
     title: 'Idées d\'Imprimables de Rentrée Scolaire pour les Vendeurs',

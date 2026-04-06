@@ -2,24 +2,30 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'générateur de fiches de graphisme gratuit',
+    primaryKeyword: 'fiches graphisme maternelle gratuit en ligne',
     secondaryKeywords: [
-      'créer des fiches de graphisme gratuitement en ligne',
-      'fiches de tracé de lignes gratuit sans inscription',
-      'générateur de graphisme motricité fine gratuit',
-      'fiches de graphisme gratuites PDF',
+      'tracé lignes maternelle gratuit',
+      'exercices motricité fine gratuit à imprimer',
+      'lignes à tracer gratuit en ligne',
+      'graphisme décoratif gratuit',
     ],
     lsiKeywords: [
-      'essai gratuit avec filigrane sans inscription',
-      'licence commerciale pour vendre sur Etsy',
-      '8 modèles SVG paires d\'images 104 thèmes',
+      'tracé',
+      'lignes',
+      'courbes',
+      'motricité fine',
+      'gratuit',
+      'sans inscription',
+      'maternelle',
+      'PS',
+      'MS',
     ],
-    titleTag: 'Fiches de graphisme gratuites en ligne | LCS',
-    metaDescription: 'Créez des fiches de graphisme gratuitement en ligne. 8 modèles de tracé, 104 thèmes, sans inscription. Licence commerciale disponible.',
+    titleTag: 'Fiches graphisme maternelle gratuit en ligne | LCS',
+    metaDescription: 'Créez des fiches de graphisme et tracé gratuitement en ligne. Images thématiques, PDF imprimables, sans inscription. Licence commerciale disponible.',
   },
 
   hero: {
-    title: 'Fiches de graphisme gratuites — créez en ligne',
+    title: 'Fiches de graphisme maternelle gratuites — créez des tracés en ligne',
     tagline: 'Huit modèles de lignes SVG avec association de paires d\'images, remplissage automatique depuis 104 thèmes colorés et orientation de page pilotée par le modèle pour des fiches de tracé de lignes professionnelles vendables dans le monde entier',
     description: 'Créez des fiches de graphisme gratuitement en ligne — sans inscription, sans carte bancaire. Les utilisateurs tracent le long de chemins guidés pour relier des paires d\'images assorties. Huit modèles basés sur des SVG couvrent une progression complète de motricité fine : un modèle horizontal pour le tracé de gauche à droite (le plus facile), un modèle vertical pour les tracés de haut en bas, quatre modèles de courbes pour des mouvements fluides du poignet, et deux modèles de diagonales pour la coordination croisée (le plus difficile). Chaque modèle place 4 ou 5 paires d\'images assorties de part et d\'autre du tracé, donnant aux utilisateurs un objectif visuel à chaque extrémité. La sélection du modèle détermine automatiquement l\'orientation de la page — les courbes passent en paysage pour les arcs amples, tandis que les modèles de diagonales, horizontal et vertical utilisent le portrait pour une pratique ciblée. Le remplissage automatique attribue instantanément des paires d\'images aléatoires depuis n\'importe quel thème sélectionné ou depuis les 104 thèmes à la fois, rendant la création en lot ultra rapide. Le contenu provient de plus de 3 100 illustrations colorées réparties dans 104 collections thématiques — animaux, véhicules, nourriture, nature et des dizaines d\'autres. Chaque fiche est purement visuelle avec zéro texte sur la sortie, rendant les produits universellement vendables sans traduction. Aucun corrigé n\'est nécessaire car le tracé lui-même guide l\'utilisateur — une activité auto-corrective par nature. Exportez des PDF et JPEG prêts à imprimer à 300 DPI en format Letter, A4, Carré (1200×1200) ou dimensions personnalisées. Modifiez chaque élément sur le canevas complet Fabric.js avec des polices incluant Lexend Deca, Baloo 2, Nunito, Quicksand et Fredoka. L\'essai gratuit inclut toutes les fonctionnalités avec un filigrane sur les téléchargements. Achetez une licence pour supprimer le filigrane et vendre à usage commercial.',
   },

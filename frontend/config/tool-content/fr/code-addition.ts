@@ -1,24 +1,28 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'créer des énigmes maths codées gratuitement',
+    primaryKeyword: 'message codé maths gratuit en ligne',
     secondaryKeywords: [
-      'générateur d\'addition codée gratuit en ligne',
-      'puzzles maths codés gratuit sans inscription',
-      'énigmes mathématiques gratuites avec images',
-      'fiches addition codée PDF gratuit',
+      'fiches code secret calcul gratuit',
+      'générateur message codé addition',
+      'déchiffrer code maths à imprimer gratuit',
+      'jeu de code maths en ligne',
     ],
     lsiKeywords: [
-      'essai gratuit avec filigrane sans inscription',
-      'licence commerciale pour vendre sur Etsy',
-      'mode Mot Mystère 11 langues corrigés PDF',
+      'CP',
+      'CE1',
+      'gratuit',
+      'sans inscription',
+      'déchiffrer',
+      'code secret',
+      'corrections',
     ],
-    titleTag: 'Énigmes maths codées gratuites en ligne | LCS',
-    metaDescription: 'Créez des énigmes maths codées gratuitement. Mode Mot Mystère, 11 langues, sans inscription. Passez à la licence commerciale pour vendre.',
-    },
+    titleTag: 'Message codé maths gratuit en ligne | LCS',
+    metaDescription: 'Créez des fiches de message codé maths gratuitement. Les enfants résolvent des additions pour déchiffrer un code secret. Sans inscription. Essai gratuit.',
+  },
 
   hero: {
-    title: 'Énigmes maths codées gratuites — créez en ligne',
+    title: 'Message codé maths gratuit — créez des fiches calcul & décodage en ligne',
     tagline: 'Créez des puzzles cryptarithmétiques où les utilisateurs déchiffrent des codes secrets grâce à l\'addition',
     description: 'Créez des énigmes maths codées gratuitement en ligne — sans inscription, sans carte bancaire. Chaque puzzle cache des nombres derrière des symboles-images, et les utilisateurs doivent résoudre des équations d\'addition pour déterminer quel nombre correspond à quelle image. En Mode Classique, chaque symbole représente un chiffre unique. Passez en Mode Mot Mystère et chaque équation résolue révèle une lettre d\'un mot secret, tandis que des lettres de distraction maintiennent le suspense. Choisissez parmi plus de 100 thèmes d\'images, ajustez le nombre de symboles et la complexité des opérandes, et téléchargez des PDF ou JPEG prêts à imprimer. Prend en charge 11 langues avec des alphabets adaptés à chaque langue — le Mode Mot Mystère fonctionne nativement en français avec à, â, ç, é, è, ê, ë, î, ï, ô, ù, û et ü. L\'essai gratuit inclut un filigrane sur les téléchargements. Achetez une licence pour supprimer le filigrane et vendre vos créations à usage commercial.',
   },

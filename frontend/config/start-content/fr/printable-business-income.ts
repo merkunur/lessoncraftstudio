@@ -2,23 +2,11 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'imprimables combien gagner revenus attentes',
-    secondaryKeywords: [
-      'attentes revenus activité imprimables',
-      'revenus réalistes vente de fiches',
-      'vendre des fiches en ligne revenus',
-      'facteurs de revenus activité imprimables',
-    ],
-    lsiKeywords: [
-      'revenus vendeurs imprimables Etsy facteurs',
-      'variables revenus livres activités Amazon KDP',
-      'taille catalogue activité fiches revenus',
-      'stratégie tarification imprimables frais marketplace',
-      'investissement temps activité téléchargements numériques',
-      'flux revenus multiples produits imprimables',
-    ],
-    titleTag: 'Combien gagner avec des imprimables | LCS',
-    metaDescription: 'Combien peut-on gagner en vendant des imprimables ? Attentes réalistes, frais de plateformes, stratégies de tarification et variables clés des revenus.',
+    primaryKeyword: 'revenus business d\'imprimables potentiel',
+    secondaryKeywords: ['combien gagner imprimables', 'revenus imprimables Etsy KDP', 'potentiel revenus fiches', 'objectifs revenus imprimables'],
+    lsiKeywords: ['revenus', 'potentiel', 'objectifs', 'réaliste', 'croissance', 'marge'],
+    titleTag: 'Revenus business d\'imprimables | Guide réaliste',
+    metaDescription: 'Quel potentiel de revenus pour un business d\'imprimables ? Objectifs réalistes, marges, croissance. Guide basé sur des données concrètes.',
   },
 
   hero: {

@@ -2,24 +2,28 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'générateur d\'anagrammes gratuit en ligne',
+    primaryKeyword: 'générateur lettres mélangées gratuit',
     secondaryKeywords: [
-      'créer des anagrammes gratuitement en ligne',
-      'générateur de mots mélangés gratuit sans inscription',
-      'anagrammes avec images gratuit PDF',
-      'mots mélangés gratuit avec corrigé automatique',
+      'lettres mélangées à imprimer gratuit',
+      'anagramme générateur gratuit en ligne',
+      'mots à reconstituer gratuit',
+      'jeu de lettres gratuit à imprimer',
     ],
     lsiKeywords: [
-      'essai gratuit avec filigrane sans inscription',
-      'licence commerciale pour vendre sur Etsy',
-      'tuiles lettres code couleur voyelles 11 langues',
+      'anagramme',
+      'reconstituer',
+      'orthographe',
+      'gratuit',
+      'sans inscription',
+      'solution',
+      'PDF',
     ],
-    titleTag: 'Générateur d\'anagrammes gratuit | LCS',
-    metaDescription: 'Créez des anagrammes gratuitement en ligne. Tuiles lettres, code couleur, 11 langues, sans inscription. Licence commerciale disponible.',
+    titleTag: 'Générateur lettres mélangées gratuit en ligne | LCS',
+    metaDescription: 'Créez des fiches de lettres mélangées gratuitement en ligne. Images thématiques, solutions automatiques, sans inscription. Licence commerciale disponible.',
   },
 
   hero: {
-    title: 'Anagrammes gratuits — créez en ligne sans inscription',
+    title: 'Générateur de lettres mélangées gratuit — créez des anagrammes en ligne',
     tagline: 'Créez des puzzles d\'orthographe par réarrangement de lettres avec indices images, code couleur et 4 niveaux de difficulté dans 11 langues',
     description: 'Créez des anagrammes gratuitement en ligne — sans inscription, sans carte bancaire. Les utilisateurs résolvent des puzzles d\'orthographe en réarrangeant des tuiles de lettres mélangées. Cet outil génère des fiches mots mélangés où un indice image est associé à un ensemble de tuiles contenant toutes les lettres du mot — mais dans le mauvais ordre. Les utilisateurs étudient l\'image, identifient ce qu\'elle représente et replacent les lettres dans le bon ordre pour épeler le mot correct. Contrairement aux exercices deviner les mots où les utilisateurs remplissent des cases vides, les mots mélangés donnent TOUTES les lettres mais mélangées, ce qui en fait un défi de réarrangement qui développe la précision orthographique par la manipulation active. La fonctionnalité phare est le code couleur voyelles-consonnes : activez-le pour afficher les voyelles dans une couleur et les consonnes dans une autre sur les tuiles, ajoutant une dimension phonique visuelle qui aide les utilisateurs à identifier les types de lettres tout en reconstituant le mot. Quatre niveaux de difficulté contrôlent le nombre de lettres pré-placées dans leur position correcte : Sans Indices mélange toutes les lettres pour un défi maximal, Facile pré-place la moitié pour un étayage adapté aux débutants, Normal place un quart pour une pratique équilibrée, et Difficile place seulement un sixième pour les orthographeurs confirmés. Choisissez entre trois sources de contenu : la Bibliothèque d\'Images tire le vocabulaire de plus de 3 100 illustrations réparties dans 104 collections thématiques, le Mode Édition Manuelle vous permet de sélectionner des images puis de personnaliser leurs noms d\'affichage, et le mode Liste de Mots Personnalisée vous permet de taper jusqu\'à 8 mots directement pour des puzzles textuels. La sensibilité linguistique est intégrée : passez du français à l\'une des 11 langues prises en charge et la même image produit un mot cible différent avec des lettres différentes et un arrangement mélangé complètement différent. Une image de chien génère \" CHIEN \" en français, \" DOG \" en anglais, \" HUND \" en allemand, \" PERRO \" en espagnol. Un seul design devient 11 produits uniques. Définissez 1 à 10 puzzles par page, choisissez des tuiles en majuscules ou minuscules, ajoutez la numérotation des exercices et sélectionnez parmi 7 familles de polices. Exportez en PDF prêt à imprimer ou en JPEG haute résolution avec génération automatique de corrigé. L\'essai gratuit inclut un filigrane sur les téléchargements. Achetez une licence pour supprimer le filigrane et vendre à usage commercial.',
   },

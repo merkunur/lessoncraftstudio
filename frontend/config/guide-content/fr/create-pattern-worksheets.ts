@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'créer des fiches de motifs à vendre',
+    primaryKeyword: 'créer des fiches de suites logiques',
     secondaryKeywords: [
-      'générateur fiches reconnaissance de motifs licence commerciale',
-      'fiches suites logiques visuelles à vendre Etsy et KDP',
-      'créer fiches de motifs imprimables avec corrigés',
-      'outil suites logiques usage commercial marché préscolaire',
+      'tutoriel suites logiques',
+      'guide algorithmes maternelle',
+      'fiches séquences à imprimer',
+      'motifs à compléter guide',
     ],
     lsiKeywords: [
-      'fiches motifs AB marché préscolaire à imprimer',
-      'activités reconnaissance de motifs visuels à vendre',
-      'fiches complétion de suites CP et grande section',
-      'vendre fiches de suites logiques sur Etsy',
-      'cahiers motifs visuels Amazon KDP',
-      'outil suites logiques licence commerciale',
+      'suite logique',
+      'algorithme',
+      'séquence',
+      'motif',
+      'maternelle',
+      'GS',
     ],
-    titleTag: 'Fiches de motifs à vendre en ligne | LCS',
-    metaDescription: 'Créez des fiches suites logiques avec 9 types de motifs, images thématiques, corrigés auto et 2 formats de questions. PDF pour Etsy, Amazon KDP et Gumroad.',
+    titleTag: 'Créer des fiches de suites logiques | Guide complet',
+    metaDescription: 'Comment créer des fiches de suites logiques et algorithmes avec images thématiques. Solutions automatiques. Guide étape par étape.',
   },
 
   hero: {

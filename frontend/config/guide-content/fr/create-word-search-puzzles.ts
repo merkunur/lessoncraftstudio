@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'créer des mots mêlés avec images à vendre',
+    primaryKeyword: 'créer des mots mêlés à imprimer',
     secondaryKeywords: [
-      'générateur puzzles mots cachés',
-      'générateur mots cachés imprimables',
-      'puzzles mots cachés à vendre',
-      'mots cachés personnalisés avec images',
+      'tutoriel mots mêlés',
+      'guide créer mots cachés',
+      'mots mêlés personnalisés guide',
+      'créer grilles mots mêlés',
     ],
     lsiKeywords: [
-      'fiches mots cachés avec images éducatives',
-      'puzzles mots cachés multilingues',
-      'mots cachés vocabulaire pour enfants',
-      'vendre livres mots cachés sur KDP',
-      'mots cachés imprimables Etsy',
-      'outil puzzles avec licence commerciale',
+      'mots mêlés',
+      'mots cachés',
+      'grille',
+      'vocabulaire',
+      'CP',
+      'CE1',
     ],
-    titleTag: 'Mots mêlés avec images à vendre | LCS',
-    metaDescription: 'Comment créer des mots cachés avec indices visuels. Choisissez thèmes, taille de grille, directions, générez les corrigés auto et vendez sur Etsy et KDP.',
+    titleTag: 'Créer des mots mêlés | Guide étape par étape',
+    metaDescription: 'Comment créer des mots mêlés avec images thématiques. Grilles personnalisées, solutions automatiques, PDF imprimables. Guide complet pour vendeurs.',
   },
 
   hero: {

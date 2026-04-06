@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'créer des cahiers de maths pour Amazon KDP',
+    primaryKeyword: 'publier cahier activités maths Amazon KDP',
     secondaryKeywords: [
-      'comment créer des livres d\'activités maths pour Amazon KDP',
-      'guide de publication KDP cahiers de maths',
-      'publier des livres d\'activités maths sur Amazon',
-      'Amazon KDP livre de fiches de maths',
+      'livre maths KDP guide',
+      'cahier exercices maths Amazon',
+      'créer cahier maths à vendre',
+      'maths KDP formatage',
     ],
     lsiKeywords: [
-      'KDP manuscrit formatage format rogné livre d\'activités pages intérieures',
-      'Amazon couverture de livre design largeur de tranche calculateur modèle',
-      'KDP optimisation mots-clés catégories de navigation livres de maths',
-      'impression à la demande redevances stratégie de prix livres d\'activités',
-      'cahier de maths nombre de pages progression de difficulté corrigés',
-      'KDP publication processus de vérification épreuve exemplaires auteur',
+      'maths',
+      'cahier activités',
+      'Amazon KDP',
+      'publier',
+      'exercices',
+      'formatage',
     ],
-    titleTag: 'Cahiers de maths pour Amazon KDP | LCS',
-    metaDescription: 'Créez des livres d\'activités maths KDP pour gagner des redevances. Formatage de manuscrit, design de couverture et optimisation des mots-clés sur Amazon.',
+    titleTag: 'Cahier maths Amazon KDP | Guide publication',
+    metaDescription: 'Comment publier un cahier d\'activités maths sur Amazon KDP. Formatage, exercices, couverture, tarification. Guide complet étape par étape.',
   },
 
   hero: {

@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'trouver des niches rentables d\'imprimables',
+    primaryKeyword: 'rechercher des niches imprimables rentables',
     secondaryKeywords: [
-      'méthodes recherche niches imprimables',
-      'trouver niches fiches exercices rentables',
-      'étude de marché imprimables éducatifs',
-      'analyse demande niches imprimables',
+      'analyse niches imprimables guide',
+      'niches rentables Etsy recherche',
+      'trouver créneaux peu concurrentiels',
+      'étude marché imprimables',
     ],
     lsiKeywords: [
-      'données marketplace recherche mots-clés volume recherche niveau concurrence signaux demande',
-      'intention acheteur niches tendances marchés sous-desservis validation niche lacunes marché',
-      'demande saisonnière demande pérenne recherche audience analyse tarification analyse concurrence',
-      'adéquation produit-marché tendances recherche analytique marketplace score rentabilité niche',
-      'quantification demande analyse saturation marché outils mots-clés décisions basées données',
-      'test produit minimum viable workflow recherche découverte niches processus systématique',
+      'niches',
+      'rentables',
+      'recherche',
+      'concurrence',
+      'analyse',
+      'marché',
     ],
-    titleTag: 'Niches rentables d\'imprimables | LCS',
-    metaDescription: 'Comment rechercher des créneaux imprimables rentables avec données marketplace, analyse mots-clés, étude concurrence, signaux de demande et validation.',
+    titleTag: 'Rechercher des niches rentables | Guide imprimables',
+    metaDescription: 'Comment rechercher des niches d\'imprimables rentables. Outils d\'analyse, concurrence, volumes de recherche. Guide complet étape par étape.',
   },
 
   hero: {

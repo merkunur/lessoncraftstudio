@@ -2,21 +2,11 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Imprimables camping — Idées business | LCS',
-    metaDescription: 'Idées d\'imprimables de camping à vendre sur Etsy, KDP et Gumroad. Concepts de produits plein air, fiches nature et conseils de niche pour vendeurs.',
-
-    primaryKeyword: 'imprimables camping idées business',
-    secondaryKeywords: [
-      'fiches camping à vendre',
-      'idées business imprimables plein air',
-      'fiches activités camping vendeurs',
-      'vendre imprimables camping Etsy',
-    ],
-    lsiKeywords: [
-      'fiches éducatives aventure plein air',
-      'pages activités thème nature',
-      'imprimables ressources camp été',
-    ],
+    primaryKeyword: 'imprimables camping et nature à vendre',
+    secondaryKeywords: ['fiches camping à imprimer idées', 'cahier activités nature KDP', 'coloriages camping à vendre', 'jeux plein air imprimables'],
+    lsiKeywords: ['camping', 'nature', 'forêt', 'randonnée', 'tente', 'feu de camp'],
+    titleTag: 'Imprimables camping & nature Etsy & KDP | Idées',
+    metaDescription: 'Idées d\'imprimables camping et nature à vendre sur Etsy et KDP. Coloriages forêt, mots mêlés nature, puzzles camping. Niche saisonnière été.',
   },
   hero: {
     title: 'Idées d\'Imprimables de Camping pour les Vendeurs',

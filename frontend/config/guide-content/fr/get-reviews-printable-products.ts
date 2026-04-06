@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'obtenir des avis pour produits imprimables',
+    primaryKeyword: 'obtenir des avis pour vos imprimables',
     secondaryKeywords: [
-      'stratégie avis produits imprimables',
-      'avis Etsy produits numériques',
-      'avis clients activité fiches exercices',
-      'augmenter avis boutique imprimables',
+      'avis Etsy imprimables guide',
+      'reviews produits imprimables',
+      'augmenter avis positifs fiches',
+      'stratégie avis clients Etsy',
     ],
     lsiKeywords: [
-      'note étoiles retour acheteur avis produit demande avis génération avis preuve sociale',
-      'satisfaction client suivi avis boucle rétroaction crédibilité boutique',
-      'taux conversion avis avis positifs signaux qualité produit expérience client',
-      'réponse avis réputation boutique confiance achat assurance acheteur',
-      'avis organiques retours authentiques volume avis classement place de marché',
-      'optimisation annonce gestion attentes communication acheteur expérience après-achat',
+      'avis',
+      'reviews',
+      'clients',
+      'Etsy',
+      'réputation',
+      'satisfaction',
     ],
-    titleTag: 'Obtenir des avis pour vos imprimables | LCS',
-    metaDescription: 'Stratégies pour obtenir des avis sur vos imprimables. Preuve sociale, retours authentiques et crédibilité de votre boutique Etsy, KDP et Gumroad.',
+    titleTag: 'Obtenir des avis pour vos imprimables | Guide',
+    metaDescription: 'Comment obtenir des avis positifs pour vos imprimables sur Etsy. Stratégies pour augmenter les reviews et la satisfaction client. Guide complet.',
   },
 
   hero: {

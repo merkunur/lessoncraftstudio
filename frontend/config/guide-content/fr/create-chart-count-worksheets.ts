@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'créer des fiches graphiques à vendre',
+    primaryKeyword: 'créer des fiches de dénombrement à imprimer',
     secondaryKeywords: [
-      'créer fiches graphiques en images à vendre',
-      'générateur fiches comptage graphique licence commerciale',
-      'fiches pictogrammes imprimables pour Etsy et KDP',
-      'fiches diagrammes barres comptage avec corrigés automatiques',
+      'tutoriel fiches compter',
+      'guide dénombrement maternelle',
+      'fiches diagrammes à imprimer guide',
+      'exercices compter GS CP',
     ],
     lsiKeywords: [
-      'grille 4x5 images dispersées collecte données comptage générateur fiches',
-      'double canevas corrigé cellules jaunes surlignées solution auto-générée',
-      'distribution aléatoire 6 types images 1-5 chaque génération unique générateur',
-      'vendre fiches graphiques en images sur Etsy',
-      'cahiers compétences données Amazon KDP avec diagrammes barres',
-      'outil fiches comptage graphique licence commerciale',
+      'dénombrement',
+      'compter',
+      'diagramme',
+      'tableau',
+      'maternelle',
+      'GS',
     ],
-    titleTag: 'Fiches graphiques à vendre en ligne | LCS',
-    metaDescription: 'Créez des fiches graphiques en images avec grilles 4×5, corrigés automatiques, distribution aléatoire et 104 thèmes. Guide pour vendre sur Etsy et KDP.',
+    titleTag: 'Créer des fiches de dénombrement | Guide complet',
+    metaDescription: 'Comment créer des fiches de dénombrement et diagrammes avec images thématiques. Corrections automatiques. Guide étape par étape.',
   },
 
   hero: {

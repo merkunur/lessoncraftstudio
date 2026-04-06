@@ -2,24 +2,29 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'fiches de l\'intrus à créer et vendre sur Etsy et KDP',
+    primaryKeyword: 'cherche l\'intrus à imprimer',
     secondaryKeywords: [
-      'générateur de fiches trouve l\'intrus pour vendeurs Etsy',
-      'fiches de l\'intrus pour Amazon KDP',
-      'puzzles trouve l\'intrus licence commerciale',
-      'créer des cahiers de puzzles visuels pour vendeurs',
+      'jeu de l\'intrus fiche',
+      'trouver l\'intrus exercice',
+      'quel est l\'intrus maternelle',
+      'jeu logique intrus à imprimer',
     ],
     lsiKeywords: [
-      'licence commerciale 300 DPI prêt à imprimer',
-      'business d\'imprimables fiches intrus vendeurs Etsy',
-      'modes Identique et Similaire corrigé automatique',
+      'catégorie',
+      'classification',
+      'logique',
+      'raisonnement',
+      'maternelle',
+      'GS',
+      'CP',
+      'solution',
     ],
-    titleTag: 'Fiches de l\'intrus à vendre sur Etsy & KDP | LCS',
-    metaDescription: 'Créez des fiches de l\'intrus à vendre sur Etsy & KDP. Modes Identique et Similaire, licence commerciale. 49 $ paiement unique.',
+    titleTag: 'Cherche l\'intrus à imprimer | Générateur jeux logique',
+    metaDescription: 'Créez des fiches « cherche l\'intrus » avec images thématiques pour le raisonnement logique. Corrections automatiques, PDF imprimables. Essai gratuit.',
   },
 
   hero: {
-    title: 'Créez des fiches de l\'intrus à vendre sur Etsy & Amazon KDP',
+    title: 'Cherche l\'intrus à imprimer — Générateur de jeux de logique avec images',
     tagline: 'Deux modes de génération — Identique et Similaire — avec remplacement du mode par exercice, 5 à 10 exercices configurables, corrigés auto-générés avec marqueurs cercle rouge, et des puzzles purement visuels qui fonctionnent dans les 11 langues sans traduction.',
     description:
       'Créez des fiches de l\'intrus à vendre sur Etsy, Amazon KDP ou La Salle des Maîtres — des fiches où les acheteurs identifient et entourent l\'élément différent dans chaque rangée de quatre images. Choisissez entre deux modes de génération : le mode Identique place trois clones de la même image à côté d\'une image différente du même thème pour des défis de discrimination visuelle, tandis que le mode Similaire utilise trois images du Thème A et une image du Thème B pour des puzzles de discrimination inter-thèmes. Remplacez le mode par exercice pour mélanger les niveaux de difficulté sur une seule fiche. Configurez 5 à 10 exercices par page avec 6 par défaut, et activez les champs nom et date optionnels ainsi que les numéros d\'exercices pour un formatage prêt pour la vente. Chaque fiche génère un corrigé compagnon sur un onglet de canevas séparé — le corrigé dessine un cercle rouge autour de l\'élément intrus dans chaque rangée pour ne jamais avoir à marquer les réponses manuellement. L\'en-tête auto-généré présente une bordure extérieure corail, une bordure intérieure ambre et un fond turquoise avec le titre localisé \" Trouve l\'Intrus \" rendu en Fredoka et les instructions en Quicksand dans les 11 langues. Comme les puzzles sont entièrement visuels — aucun mot n\'apparaît sur la fiche elle-même — ils ne sont pas sensibles à la langue et fonctionnent identiquement dans chaque locale. L\'Accès Complet déverrouille les 104 thèmes avec plus de 3 100 illustrations et les 11 langues d\'interface. Ajoutez des thèmes de fond et de bordure avec des contrôles d\'opacité indépendants, et exportez des PDF et JPEG prêts à imprimer à 300 DPI en format Letter, A4, Carré ou dimensions personnalisées. Que vous vendiez des packs de puzzles visuels sur Etsy, compiliez des cahiers de pensée critique pour Amazon KDP ou créiez des activités de classe pour Gumroad, ce générateur produit des fiches intrus prêtes pour la production en quelques minutes — essai gratuit avec toutes les fonctionnalités, sans inscription, sans carte bancaire. Les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.',
@@ -198,6 +203,11 @@ const content: AppContent = {
       question: 'Quelle est la politique de remboursement ?',
       answer:
         'Comme l\'essai gratuit vous donne accès à chaque fonctionnalité, nous n\'offrons pas de remboursement sur les achats de licence commerciale. Vous pouvez tester les deux modes de génération, le système de remplacement par exercice, le corrigé auto-généré, la bibliothèque d\'images complète, les thèmes de fond et de bordure, les champs nom/date, les numéros d\'exercices et tous les formats de téléchargement avant d\'acheter. L\'essai gratuit est la politique de remboursement — assurez-vous que l\'outil correspond à vos besoins avant d\'acheter une licence.',
+    },
+    {
+      question: 'Le jeu de l\'intrus est-il adapté à la maternelle et au CP ?',
+      answer:
+        'Oui. Trouver l\'intrus développe la classification et le raisonnement logique dès la grande section (GS). Des catégories simples conviennent à la GS, des classifications plus fines au CP et CE1. Au Québec, cela correspond au préscolaire et à la 1re année.',
     },
   ],
 

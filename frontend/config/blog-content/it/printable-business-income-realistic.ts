@@ -2,11 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'guadagni realistici business stampabili',
-    secondaryKeywords: ['business stampabili digitali Italia', 'vendere stampabili online strategia', 'Etsy KDP stampabili mercato italiano'],
-    lsiKeywords: ['stampabili educativi business', 'vendita online prodotti digitali', 'mercato italiano stampabili 2026'],
-    titleTag: 'Guadagni Realistici: Business Stampabili | LCS',
-    metaDescription: 'Quanto si guadagna realmente con un business di stampabili? Dati concreti, timeline e aspettative realistiche per il 2026.',
+    primaryKeyword: 'quanto si guadagna vendendo stampabili educativi',
+    secondaryKeywords: [
+      'guadagni realistici materiale didattico online',
+      'reddito medio vendita schede stampabili',
+      'aspettative guadagno schede educative',
+      'vendere materiale didattico è redditizio',
+    ],
+    lsiKeywords: [
+      'guadagno',
+      'reddito',
+      'realistico',
+      'aspettative',
+      'tempo',
+      'risultati',
+    ],
+    titleTag: 'Guadagni Realistici Schede Didattiche | LCS',
+    metaDescription: 'Quanto si guadagna realmente vendendo schede didattiche online. Dati concreti e aspettative realistiche con LessonCraftStudio — 33 generatori.',
   },
   hero: {
     title: 'Business Stampabili: Guadagni Realistici nel 2026',

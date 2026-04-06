@@ -2,26 +2,25 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Stampabili fattoria da vendere su Etsy | LessonCraftStudio',
-    metaDescription: 'Crea e vendi stampabili animali della fattoria su Etsy e KDP. Idee di prodotto, strategie di nicchia e strumenti per venditori di stampabili educativi.',
-
-    primaryKeyword: 'stampabili animali della fattoria da vendere',
+    titleTag: 'Schede animali della fattoria da stampare | LCS',
+    metaDescription: 'Crea schede sugli animali della fattoria da stampare: colorare, conteggio, abbinamento e crucipuzzle con mucche, galline e maiali per bambini 3-7 anni.',
+    primaryKeyword: 'schede animali della fattoria da stampare',
     secondaryKeywords: [
-      'schede fattoria da vendere su Etsy',
-      'business stampabili animali da cortile',
-      'creare stampabili fattoria per Etsy',
-      'nicchia stampabili fattoria KDP',
-      'idee prodotto stampabili animali rurali',
+      'attività fattoria da stampare per bambini',
+      'stampabili animali da cortile scuola infanzia',
+      'colorare animali della fattoria da stampare',
+      'giochi fattoria da stampare gratis',
     ],
     lsiKeywords: [
-      'vendere schede didattiche tema fattoria',
-      'mercato stampabili educativi animali',
-      'generatore schede animali della fattoria',
-      'stampabili digitali agricoltura bambini',
+      'scuola dell\'infanzia',
+      'colorare',
+      'conteggio',
+      'abbinamento',
+      'animali',
     ],
   },
   hero: {
-    title: 'Stampabili Animali della Fattoria: Idee per Vendere Online',
+    title: 'Schede Animali della Fattoria da Stampare: Idee Creative',
     description: 'Gli animali della fattoria rappresentano una nicchia sempreverde nel mercato italiano dei stampabili educativi, con domanda costante da genitori e famiglie durante tutto l\'anno. In Italia, dove la tradizione agricola è profondamente radicata nella cultura regionale, i temi della fattoria risuonano fortemente con le famiglie che cercano attività educative per i propri figli. Per gli imprenditori digitali, questa nicchia offre un\'opportunità concreta: creare schede didattiche a tema fattoria con i nostri generatori e venderle su Etsy, Amazon KDP e Gumroad. La domanda raggiunge picchi durante la primavera e il periodo del raccolto autunnale, ma resta solida tutto l\'anno. Con la giusta strategia di prodotto e posizionamento di nicchia, i stampabili sugli animali della fattoria possono diventare una fonte di reddito affidabile nel tuo business di stampabili digitali.',
   },
   marketOverview: `La nicchia dei stampabili sugli animali della fattoria si trova all\'intersezione di due potenti motivazioni d\'acquisto: il valore educativo e l\'attrattiva tematica. I genitori che cercano schede a tema fattoria cercano tipicamente modi coinvolgenti per insegnare competenze fondamentali come il conteggio, il riconoscimento delle lettere, la costruzione del vocabolario e lo sviluppo della motricità fine. i venditori cercano risorse pronte per il negozio che si allineino con le comuni unità didattiche della prima infanzia su fattorie e produzione alimentare.

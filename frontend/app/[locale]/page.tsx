@@ -48,9 +48,9 @@ const homepageMetadata: Record<string, { title: string; description: string; key
     ogAlt: 'LessonCraftStudio — Gerador de atividades educativas para Etsy e KDP'
   },
   it: {
-    title: 'Avvia un business di stampabili redditizio | LessonCraftStudio',
-    description: 'Costruisci un business di stampabili su Etsy, Amazon KDP o TPT. 33 generatori professionali, 3.000+ immagini, 11 lingue. Prova gratuita con filigrana.',
-    keywords: 'business stampabili, vendere stampabili Etsy, KDP stampabili, guadagno extra stampabili, generatore crucipuzzle, stampabili professionali',
+    title: 'Generatore di schede didattiche | Creare e vendere su Etsy e KDP',
+    description: '33 generatori di schede con 3.000+ immagini e 11 lingue. PDF pronti da stampare in pochi minuti. Prova gratis — licenza commerciale per Etsy, KDP e altro.',
+    keywords: 'generatore schede didattiche, creare schede didattiche da stampare, generatore esercizi, strumenti per creare schede, generatore materiale didattico',
     ogAlt: 'LessonCraftStudio - Avvia un business di stampabili redditizio'
   },
   nl: {

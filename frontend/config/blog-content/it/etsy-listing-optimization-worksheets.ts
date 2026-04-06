@@ -2,11 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'ottimizzazione inserzioni Etsy schede',
-    secondaryKeywords: ['business stampabili digitali Italia', 'vendere stampabili online strategia', 'Etsy KDP stampabili mercato italiano'],
-    lsiKeywords: ['stampabili educativi business', 'vendita online prodotti digitali', 'mercato italiano stampabili 2026'],
-    titleTag: 'Ottimizzare Inserzioni Etsy: Schede | LCS',
-    metaDescription: 'Ottimizzi titoli, tag, foto e descrizioni delle Sue inserzioni Etsy per massimizzare vendite di schede didattiche.',
+    primaryKeyword: 'ottimizzare inserzioni schede didattiche Etsy',
+    secondaryKeywords: [
+      'titolo descrizione schede stampabili Etsy',
+      'foto inserzione materiale educativo Etsy',
+      'tag ottimali schede didattiche marketplace',
+      'migliorare vendite schede Etsy',
+    ],
+    lsiKeywords: [
+      'inserzione',
+      'titolo',
+      'descrizione',
+      'foto',
+      'tag',
+      'ottimizzazione',
+    ],
+    titleTag: 'Ottimizzare Inserzioni Schede su Etsy | LCS',
+    metaDescription: 'Come ottimizzare titoli, foto e tag delle inserzioni di schede didattiche su Etsy. Consigli pratici e testati con LessonCraftStudio — 33 generatori.',
   },
   hero: {
     title: 'Ottimizzare le Inserzioni Etsy per le Schede Didattiche',

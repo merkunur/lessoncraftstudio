@@ -2,25 +2,26 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Stampabili estivi — Idee business | LessonCraftStudio',
-    metaDescription: 'Avvia un business di stampabili estivi: spiaggia, sole e compiti vacanze. Idee prodotto e strumenti per creare schede da vendere su Etsy e KDP in estate.',
-    primaryKeyword: 'stampabili estivi idee business',
+    titleTag: 'Schede estive da stampare per bambini | LCS',
+    metaDescription: 'Crea schede estive da stampare: colorare spiaggia e mare, crucipuzzle vacanze, conteggio e attività creative a tema estate per bambini 3-9 anni.',
+    primaryKeyword: 'schede estive da stampare',
     secondaryKeywords: [
-      'vendere stampabili estate su Etsy',
-      'business schede estive compiti vacanze',
-      'creare stampabili spiaggia sole KDP',
-      'nicchia stampabili vacanze estive',
-      'idee prodotto stampabili Ferragosto estate',
+      'attività estate da stampare per bambini',
+      'stampabili spiaggia e mare da colorare',
+      'schede didattiche estive scuola primaria',
+      'giochi estate da stampare gratis',
     ],
     lsiKeywords: [
-      'mercato stampabili estivi Italia',
-      'generatore schede tema estate spiaggia',
-      'vendere stampabili digitali vacanze',
-      'stampabili compiti delle vacanze bambini',
+      'scuola primaria',
+      'spiaggia',
+      'mare',
+      'vacanze',
+      'colorare',
+      'estate',
     ],
   },
   hero: {
-    title: 'Stampabili Estivi: Business con i Compiti delle Vacanze',
+    title: 'Schede Estive da Stampare: Idee Creative per Bambini',
     description: 'L\'estate è la finestra di vendita stagionale più lunga nel calendario dei stampabili, e in Italia questa opportunità è amplificata dalle lunghissime vacanze scolastiche — da giugno a metà settembre. I "compiti delle vacanze" sono una tradizione italiana profondamente radicata: i genitori cercano attivamente schede educative per mantenere i bambini in esercizio durante i tre mesi estivi, creando una domanda massiccia e sostenuta. Ferragosto, le vacanze al mare e i centri estivi aggiungono ulteriori contesti d\'uso per stampabili a tema spiaggia, sole, gelato e avventure all\'aperto. Per gli imprenditori digitali, la nicchia estiva offre quattro mesi interi di vendite attive da maggio ad agosto. Con i nostri generatori di schede puoi creare stampabili estivi da vendere su Etsy, Amazon KDP e Gumroad, sfruttando la cultura italiana dei compiti vacanze per costruire una linea di prodotti con domanda garantita.',
   },
   marketOverview: `La nicchia dei stampabili estivi si distingue dalle altre categorie stagionali per la sua durata e l\'intensità della domanda dei genitori per attività strutturate per i bambini. Mentre la maggior parte delle nicchie legate alle festività offre finestre di vendita concentrate di due-quattro settimane, l\'estate si estende su quattro mesi interi di acquisti attivi da maggio ad agosto, con venditori anticipatari e coordinatori di centri estivi che iniziano le ricerche già ad aprile. Questa tempistica prolungata significa che le inserzioni di stampabili estivi hanno più tempo per accumulare recensioni, scalare i negozifiche di ricerca e generare traffico organico composto durante tutta la stagione. I genitori diventano il segmento di acquirenti dominante durante i mesi estivi quando le routine scolastiche si dissolvono e la realtà di tenere i bambini impegnati, intrattenuti e in apprendimento per settimane intere spinge ricerche urgenti di attività stampabili che forniscano struttura senza la rigidità del catalogo prodotti formale.

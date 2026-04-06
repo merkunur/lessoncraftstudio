@@ -2,26 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'creare schede di classificazione da vendere',
+    primaryKeyword: 'come creare schede di classificazione da stampare',
     secondaryKeywords: [
-      'schede classificazione stampabili per Etsy e KDP',
-      'generatore schede classificazione immagini uso commerciale',
-      'vendere attività ritaglia e classifica online',
-      'creare schede categorizzazione con licenza commerciale',
-      'schede classificazione per bambini da vendere su Gumroad',
+      'schede ritaglia e classifica per bambini da stampare PDF',
+      'creare attività categorizzazione da stampare',
+      'generatore schede classificazione con immagini',
+      'esercizi classificazione prescolare da stampare',
     ],
     lsiKeywords: [
-      'ritaglia e classifica a due categorie con immagini',
-      'prodotti stampabili classificazione per venditori',
-      'griglie ritaglio mescolate con chiavi di risposta',
-      'schede categorizzazione prescolare marketplace',
+      'ritaglia e classifica',
+      'categorizzazione per bambini',
+      'classificazione immagini',
+      'schede prescolare',
+      'due categorie con immagini',
     ],
-    titleTag: 'Schede di classificazione da vendere | LessonCraftStudio',
-    metaDescription: 'Crea schede di classificazione a due categorie con griglie di ritaglio mescolate e chiavi di risposta automatiche. Vendi su Etsy, Amazon KDP e Gumroad.',
+    titleTag: 'Creare schede classificazione da stampare | Guida',
+    metaDescription: 'Come creare schede di classificazione da stampare con griglie di ritaglio, due categorie e chiavi di risposta automatiche. Tutorial passo passo.',
   },
 
   hero: {
-    title: 'Schede di classificazione da vendere online',
+    title: 'Come creare schede di classificazione da stampare',
     tagline: 'Tutorial passo passo per creare schede ritaglia e negozifica a due categorie con modalità tema e selezione manuale, chiavi di risposta auto-generate e supporto multilingue da vendere su Etsy, Amazon KDP e Gumroad',
     description: 'Le schede di classificazione per categorie sono tra i prodotti stampabili più richiesti per l\'educazione della prima infanzia. Il formato ritaglia e classifica crea un coinvolgimento pratico che genitori e strutture educative cercano attivamente, con acquirenti disposti a pagare prezzi premium per set ben curati. Il mercato italiano offre un\'opportunità concreta: la domanda di materiali educativi di qualità per la classificazione visiva è alta, con poca concorrenza per prodotti professionali con griglie di ritaglio mescolate e chiavi di risposta. Il Generatore Schede Classificazione Immagini offre due modalità di selezione — modalità tema per produzione rapida e modalità manuale per precisione — con intestazioni localizzate in 11 lingue. Questa guida ti mostra come creare prodotti professionali con griglie di ritaglio mescolate, chiavi di risposta automatiche e PDF pronti per la stampa. Che tu stia creando il tuo primo prodotto di classificazione o espandendo un catalogo esistente, avrai schede finite pronte per la pubblicazione.',
   },

@@ -2,25 +2,25 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Stampabili spazio per Etsy | LessonCraftStudio',
-    metaDescription: 'Crea e vendi stampabili a tema spazio su Etsy e KDP. Idee di prodotto STEM, strategie di nicchia e strumenti per generare schede spaziali redditizie.',
-    primaryKeyword: 'stampabili spazio da vendere su Etsy',
+    titleTag: 'Schede spazio da stampare per bambini | LCS',
+    metaDescription: 'Crea schede a tema spazio da stampare: colorare pianeti e razzi, conteggio stelle, crucipuzzle sistema solare e attività STEM per bambini 4-9 anni.',
+    primaryKeyword: 'schede spazio da stampare',
     secondaryKeywords: [
-      'schede spazio per venditori Etsy',
-      'stampabili sistema solare business',
-      'attività STEM spazio da vendere online',
-      'idee prodotto stampabili astronomia',
-      'nicchia spazio stampabili educativi',
+      'attività spazio da stampare per bambini',
+      'stampabili sistema solare da colorare',
+      'schede didattiche spazio scuola primaria',
+      'giochi tema spazio da stampare gratis',
     ],
     lsiKeywords: [
-      'schede pianeti razzi per negozio Etsy',
-      'stampabili astronauti educativi KDP',
-      'generatore schede spaziali vendita',
-      'business digitale tema spazio bambini',
+      'scuola primaria',
+      'pianeti',
+      'razzi',
+      'astronauti',
+      'sistema solare',
     ],
   },
   hero: {
-    title: 'Stampabili sullo spazio da vendere: idee di business',
+    title: 'Schede Spazio da Stampare: Idee Creative per Bambini',
     description: 'Lo spazio è una nicchia sempreverde potentissima per chi vende stampabili su Etsy, Amazon KDP e Gumroad. Pianeti, razzi, astronauti e costellazioni affascinano bambini di ogni età, garantendo domanda costante tutto l\'anno senza picchi stagionali. L\'allineamento con l\'educazione STEM conferisce ai tuoi prodotti un valore aggiunto: le schede spaziali integrano naturalmente matematica, scienze, vocabolario e arte in un unico tema coinvolgente. Il vocabolario visivo è enorme — dal sistema solare alle galassie, dalle navicelle alle stazioni spaziali — permettendoti di costruire un catalogo profondo con decine di sotto-nicchie distinte. Le famiglie che praticano l\'istruzione parentale e i genitori attenti all\'educazione scientifica cercano attivamente questo tipo di materiali, spesso acquistando pacchetti completi. In questa guida trovi idee di prodotto concrete, strategie per piattaforma e approcci di posizionamento per lanciare la tua linea di stampabili sullo spazio con i nostri generatori di schede didattiche.',
   },
   marketOverview: `La nicchia dei stampabili sullo spazio occupa una posizione particolarmente vantaggiosa per i venditori di stampabili perché offre una domanda costante tutto l\'anno senza i cicli di boom e calo che caratterizzano le nicchie stagionali. Il fascino dei bambini per lo spazio è profondamente universale, trasversale a fasce d\'età, culture e filosofie educative. I bambini della scuola dell\'infanzia sono affascinati da razzi e stelle, quelli della scuola materna adorano imparare i nomi dei pianeti e le avventure degli astronauti, e gli utenti della scuola primaria si immergono con entusiasmo nei fatti sul sistema solare, nell\'identificazione delle costellazioni e nella storia dell\'esplorazione spaziale. Questo ampio appeal per fasce d\'età significa che i venditori possono creare prodotti rivolti a molteplici livelli scolastici da un unico tema, moltiplicando la profondità del catalogo senza cambiare argomento.

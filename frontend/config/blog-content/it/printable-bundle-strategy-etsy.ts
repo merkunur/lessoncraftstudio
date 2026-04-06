@@ -2,11 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'strategia bundle stampabili Etsy',
-    secondaryKeywords: ['business stampabili digitali Italia', 'vendere stampabili online strategia', 'Etsy KDP stampabili mercato italiano'],
-    lsiKeywords: ['stampabili educativi business', 'vendita online prodotti digitali', 'mercato italiano stampabili 2026'],
-    titleTag: 'Strategia Bundle su Etsy: Stampabili | LCS',
-    metaDescription: 'Padroneggi la strategia dei bundle per stampabili su Etsy. Composizione, prezzo e presentazione che massimizzano i profitti.',
+    primaryKeyword: 'strategia pacchetti schede didattiche online',
+    secondaryKeywords: [
+      'come creare bundle schede stampabili',
+      'pacchetti esercizi didattici convenienti',
+      'bundle materiale educativo vantaggi',
+      'set schede didattiche offerta pacchetto',
+    ],
+    lsiKeywords: [
+      'pacchetto',
+      'bundle',
+      'set',
+      'offerta',
+      'risparmio',
+      'completo',
+    ],
+    titleTag: 'Strategia Pacchetti Schede Didattiche | LCS',
+    metaDescription: 'Come creare pacchetti di schede didattiche che offrono valore. Strategia bundle per materiale educativo con LessonCraftStudio — 33 generatori.',
   },
   hero: {
     title: 'Strategia Bundle su Etsy per Stampabili Educativi',

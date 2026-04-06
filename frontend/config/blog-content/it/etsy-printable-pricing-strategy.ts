@@ -2,11 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'strategia prezzi stampabili Etsy',
-    secondaryKeywords: ['business stampabili digitali Italia', 'vendere stampabili online strategia', 'Etsy KDP stampabili mercato italiano'],
-    lsiKeywords: ['stampabili educativi business', 'vendita online prodotti digitali', 'mercato italiano stampabili 2026'],
-    titleTag: 'Strategia Prezzi Stampabili Etsy | LCS',
-    metaDescription: 'Scopra la strategia di prezzo ottimale per stampabili su Etsy. Fasce di prezzo, psicologia e ottimizzazione margini.',
+    primaryKeyword: 'prezzo schede didattiche da stampare online',
+    secondaryKeywords: [
+      'quanto costano schede didattiche PDF',
+      'prezzi materiale educativo stampabile',
+      'strategia prezzo esercizi da stampare',
+      'costo schede didattiche download',
+    ],
+    lsiKeywords: [
+      'prezzo',
+      'costo',
+      'valore',
+      'pacchetto',
+      'singolo',
+      'bundle',
+    ],
+    titleTag: 'Prezzo Schede Didattiche da Stampare | LCS',
+    metaDescription: 'Guida ai prezzi per schede didattiche da stampare. Quanto costano singoli e pacchetti di esercizi stampabili con LessonCraftStudio — 33 generatori.',
   },
   hero: {
     title: 'Strategia di Prezzo per Stampabili su Etsy',

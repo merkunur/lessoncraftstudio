@@ -2,26 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'creare puzzle pezzi mancanti da vendere',
+    primaryKeyword: 'come creare puzzle pezzi mancanti da stampare',
     secondaryKeywords: [
-      'puzzle pezzi mancanti stampabili per Etsy e KDP',
-      'generatore puzzle a incastro uso commerciale',
-      'vendere schede puzzle visivi pezzi mancanti online',
-      'creare puzzle ragionamento spaziale con licenza commerciale',
-      'puzzle pezzi mancanti da vendere su Gumroad',
+      'puzzle a incastro per bambini da stampare PDF',
+      'creare schede pezzi mancanti da stampare',
+      'generatore puzzle ragionamento spaziale',
+      'puzzle visivi con pezzi mancanti da stampare',
     ],
     lsiKeywords: [
-      'sei forme pezzo con estrazione intelligente',
-      'output puramente visivo per vendite globali',
-      'pezzi distrattori per sfida autentica',
-      'chiavi di risposta automatiche con evidenziazione gialla',
+      'puzzle pezzi mancanti',
+      'ragionamento spaziale',
+      'estrazione intelligente',
+      'pezzi distrattori',
+      'puzzle visivi bambini',
     ],
-    titleTag: 'Pezzi mancanti da vendere | LessonCraftStudio',
-    metaDescription: 'Crea puzzle pezzi mancanti con 6 forme di pezzo, estrazione intelligente e chiavi di risposta automatiche. Vendi stampabili su Etsy, KDP e Gumroad.',
+    titleTag: 'Creare puzzle pezzi mancanti da stampare | Guida',
+    metaDescription: 'Come creare puzzle con pezzi mancanti da stampare: 6 forme di pezzo, estrazione intelligente e chiavi di risposta automatiche. Tutorial completo.',
   },
 
   hero: {
-    title: 'Puzzle pezzi mancanti da vendere: guida completa',
+    title: 'Come creare puzzle pezzi mancanti da stampare',
     tagline: 'Tutorial passo passo per creare schede di puzzle a incastro con sei forme di pezzo, estrazione intelligente dei pezzi usando il rilevamento della varianza di luminosità, pezzi distrattori per una sfida autentica, due controlli di difficoltà indipendenti, chiavi di risposta auto-generate con evidenziazione gialla e puzzle puramente visivi da vendere in tutto il mondo su Etsy, Amazon KDP e Gumroad',
     description: 'I puzzle di pezzi mancanti offrono un formato visivamente coinvolgente dove gli utenti esaminano un\'immagine con buchi ritagliati e identificano quale opzione numerata riempie ogni spazio. Il formato puramente visivo — solo immagini, buchi e opzioni numerate — rende ogni puzzle vendibile in tutto il mondo senza traduzione, un vantaggio competitivo enorme per i venditori italiani che vogliono raggiungere mercati internazionali. L\'algoritmo di estrazione intelligente del Generatore Schede Pezzi Mancanti trova automaticamente pezzi con sufficiente varianza di dettaglio, mentre i pezzi distrattori impediscono la risoluzione per eliminazione e creano sfide autentiche. Sei forme di pezzo e due controlli di difficoltà indipendenti (numero pezzi mancanti e numero opzioni) creano una matrice di prodotti diversificata. Questa guida ti mostra ogni passaggio dalla selezione delle forme alla generazione di chiavi di risposta con evidenziazione gialla e all\'esportazione di file pronti per la produzione. Che tu stia creando il tuo primo prodotto puzzle o espandendo un catalogo esistente, avrai schede finite pronte per la pubblicazione.',
   },

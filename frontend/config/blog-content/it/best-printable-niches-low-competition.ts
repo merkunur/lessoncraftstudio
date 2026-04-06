@@ -2,11 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'nicchie stampabili bassa competizione',
-    secondaryKeywords: ['business stampabili digitali Italia', 'vendere stampabili online strategia', 'Etsy KDP stampabili mercato italiano'],
-    lsiKeywords: ['stampabili educativi business', 'vendita online prodotti digitali', 'mercato italiano stampabili 2026'],
-    titleTag: 'Nicchie Stampabili a Bassa Competizione | LCS',
-    metaDescription: 'Scopra le nicchie di stampabili con meno competizione e alta domanda nel mercato italiano. Dati e strategie per il 2026.',
+    primaryKeyword: 'schede didattiche particolari da stampare',
+    secondaryKeywords: [
+      'attività educative originali da stampare',
+      'schede creative scuola primaria PDF',
+      'esercizi didattici innovativi bambini',
+      'schede tematiche uniche da stampare',
+    ],
+    lsiKeywords: [
+      'originale',
+      'creativo',
+      'innovativo',
+      'tematico',
+      'particolare',
+      'unico',
+    ],
+    titleTag: 'Schede Didattiche Originali da Stampare | LCS',
+    metaDescription: 'Schede didattiche originali e creative per bambini da stampare. Scopri attività educative uniche con LessonCraftStudio — 33 generatori, 11 lingue.',
   },
   hero: {
     title: 'Le Migliori Nicchie Stampabili a Bassa Competizione',

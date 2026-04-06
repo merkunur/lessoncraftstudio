@@ -2,25 +2,25 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Stampabili pirati — Idee business | LessonCraftStudio',
-    metaDescription: 'Crea stampabili pirati da vendere su Etsy e KDP. Idee prodotto caccia al tesoro, navi pirata e avventure per un business di schede redditizio.',
-    primaryKeyword: 'stampabili pirati idee business',
+    titleTag: 'Schede pirati da stampare per bambini | LCS',
+    metaDescription: 'Crea schede a tema pirati da stampare: caccia al tesoro, labirinti, crucipuzzle e colorare navi pirata. Attività di avventura per bambini 4-8 anni.',
+    primaryKeyword: 'schede pirati da stampare',
     secondaryKeywords: [
-      'schede pirati da vendere su Etsy',
-      'stampabili caccia al tesoro business',
-      'attività pirata stampabili per venditori',
-      'nicchia stampabili avventura piratesca',
-      'idee prodotto stampabili pirati bambini',
+      'attività pirati da stampare per bambini',
+      'stampabili caccia al tesoro da stampare',
+      'schede didattiche tema pirata scuola primaria',
+      'giochi pirati da stampare gratis',
     ],
     lsiKeywords: [
-      'schede mappa del tesoro vendita Etsy',
-      'stampabili educativi pirati KDP Gumroad',
-      'generatore schede pirata business online',
-      'prodotti digitali tema avventura bambini',
+      'scuola primaria',
+      'caccia al tesoro',
+      'labirinti',
+      'colorare',
+      'avventura',
     ],
   },
   hero: {
-    title: 'Stampabili sui pirati: idee per vendere di più',
+    title: 'Schede Pirati da Stampare: Idee Creative per Bambini',
     description: 'I pirati sono una nicchia sempreverde straordinaria per i venditori di stampabili, alimentata dalla fascinazione senza tempo dei bambini per cacce al tesoro, navi pirata e avventure marinaresche. I sotto-temi sono ricchissimi — forzieri del tesoro, mappe, bussole, isole, monete d\'oro, pappagalli — e ciascuno apre opportunità di prodotto distinte su Etsy, Amazon KDP e Gumroad. La versatilità educativa è un enorme punto di forza: i pirati si collegano alla matematica (conteggio tesori, coordinate sulle mappe), all\'alfabetizzazione (vocabolario piratesco, comprensione delle storie), alla geografia (oceani, isole, bussola) e alla scrittura creativa (diari di bordo, narrazioni d\'avventura). Il pubblico è ampio — genitori, famiglie con istruzione parentale e acquirenti di materiale immaginativo — e la domanda resta costante tutto l\'anno. In questa guida trovi idee concrete, strategie per piattaforma e approcci per costruire una linea redditizia di stampabili sui pirati.',
   },
   marketOverview: `La nicchia dei stampabili sui pirati occupa una posizione particolarmente vantaggiosa per i venditori perché praticamente ogni bambino piccolo vive una profonda fascinazione immaginativa per le cacce al tesoro, le navi pirata e le possibilità avventurose di esplorare isole misteriose e scoprire l\'oro nascosto. A differenza dei temi stagionali che concentrano la domanda in finestre temporali ristrette, la nicchia dei pirati beneficia di una genuina rilevanza tutto l\'anno: i bambini si dedicano al gioco piratesco durante ogni stagione, i media e i giocattoli a tema pirata mantengono una popolarità costante, e la narrativa d\'avventura che alimenta la fascinazione per i pirati funziona indipendentemente dal tempo meteorologico o dagli eventi del calendario. Questo schema di domanda costante rende i stampabili sui pirati una fonte di entrate affidabile senza i cicli di abbondanza e carestia che sfidano i venditori in nicchie più stagionali.

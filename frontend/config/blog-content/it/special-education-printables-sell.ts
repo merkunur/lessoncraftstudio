@@ -2,11 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'stampabili BES DSA vendere',
-    secondaryKeywords: ['stampabili tematici vendere Etsy Italia', 'nicchia stampabili educativi mercato', 'schede tematiche stagionali vendere'],
-    lsiKeywords: ['stampabili educativi nicchia', 'mercato stagionale stampabili', 'Etsy Italia schede tematiche'],
-    titleTag: 'Stampabili BES/DSA: Vendere | LCS',
-    metaDescription: 'Venda stampabili per BES e DSA nel mercato italiano. Una nicchia con alta domanda e poca concorrenza.',
+    primaryKeyword: 'schede didattiche BES DSA da stampare',
+    secondaryKeywords: [
+      'materiale facilitato bisogni educativi speciali',
+      'schede semplificate DSA da stampare PDF',
+      'esercizi adattati difficoltà apprendimento',
+      'attività inclusive BES scuola primaria',
+    ],
+    lsiKeywords: [
+      'BES',
+      'DSA',
+      'inclusione',
+      'facilitato',
+      'semplificato',
+      'adattato',
+    ],
+    titleTag: 'Schede Didattiche BES e DSA da Stampare | LCS',
+    metaDescription: 'Schede didattiche per BES e DSA da stampare. Materiale facilitato e adattato per difficoltà di apprendimento con LessonCraftStudio — 33 generatori.',
   },
   hero: {
     title: 'Stampabili per BES e DSA: Come Vendere',

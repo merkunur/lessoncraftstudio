@@ -2,27 +2,28 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'generatore schede di sottrazione gratis',
+    primaryKeyword: 'schede sottrazione da stampare gratis',
     secondaryKeywords: [
-      'creare schede sottrazione gratis online',
-      'schede sottrazione stampabili gratis',
-      'generatore sottrazione senza registrazione',
-      'esercizi sottrazione con immagini gratis PDF',
-      'schede sottrazione cancella e conta gratis',
+      'sottrazione gratis online da stampare',
+      'esercizi sottrazione da stampare gratis PDF',
+      'schede sottrazione con immagini gratis senza registrazione',
+      'schede sottrazione bambini da stampare gratis',
+      'generatore sottrazione gratis online',
     ],
     lsiKeywords: [
-      'gratis',
+      'sottrazione',
+      'esercizi matematica',
+      'cancella e conta',
+      'stampabile PDF',
+      'gratis online',
       'senza registrazione',
-      'stampabile',
-      'PDF',
-      'prova gratuita con filigrana',
     ],
-    titleTag: 'Schede di sottrazione gratis online | LessonCraftStudio',
-    metaDescription: 'Crea schede di sottrazione gratis online, senza registrazione. Modalità Cancella, 104 temi, PDF istantaneo. Licenza commerciale per vendere.',
+    titleTag: 'Schede sottrazione da stampare gratis | LessonCraftStudio',
+    metaDescription: 'Crea schede di sottrazione da stampare gratis online, senza registrazione. Modalità Cancella e Conta, 104 temi, PDF istantaneo. Prova subito nel browser.',
   },
 
   hero: {
-    title: 'Crea Schede di Sottrazione Gratis Online',
+    title: 'Schede di Sottrazione da Stampare Gratis Online',
     tagline: 'Crea schede di sottrazione con modalità Cancella in meno di 60 secondi',
     description: 'Crea schede di sottrazione gratis direttamente nel browser — nessuna registrazione, nessun download. Lo strumento genera esercizi basati su immagini con l\'esclusiva modalità Cancella in cui gli utenti barrano le figure per trovare la risposta. Scegli tra oltre 100 temi con più di 3.100 illustrazioni, imposta il minuendo massimo, seleziona una delle quattro modalità di esercizio e scarica PDF pronti per la stampa o JPEG ad alta risoluzione. Supporta formati Letter, A4 e quadrato con sfondi decorativi, cornici personalizzabili e chiave di risposta automatica. Perfetto per creare materiali di sottrazione visuale con conteggio per immagini e layout professionali. Vuoi vendere le tue schede su Etsy, Amazon KDP o Gumroad? Passa alla licenza commerciale per rimuovere la filigrana e ottenere i diritti di rivendita completi.',
   },

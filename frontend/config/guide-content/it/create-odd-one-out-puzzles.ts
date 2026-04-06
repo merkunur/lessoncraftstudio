@@ -2,26 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'creare trova l\'intruso da vendere',
+    primaryKeyword: 'come creare schede trova l\'intruso da stampare',
     secondaryKeywords: [
-      'schede trova l\'intruso stampabili per Etsy e KDP',
-      'generatore puzzle trova il diverso uso commerciale',
-      'vendere puzzle discriminazione visiva online',
-      'creare schede trova l\'intruso con licenza commerciale',
-      'puzzle trova l\'intruso da vendere su Gumroad',
+      'generatore trova l\'intruso per bambini PDF',
+      'creare puzzle trova il diverso da stampare',
+      'schede discriminazione visiva da stampare',
+      'trova l\'intruso con soluzioni da stampare',
     ],
     lsiKeywords: [
-      'doppia modalità identico e simile per puzzle',
-      'output puramente visivo per vendite globali',
-      'chiavi di risposta automatiche con cerchio rosso',
-      'prodotti stampabili trova l\'intruso per venditori',
+      'trova l\'intruso bambini',
+      'discriminazione visiva',
+      'modalità identico e simile',
+      'puzzle visivi da stampare',
+      'chiavi di risposta automatiche',
     ],
-    titleTag: 'Trova l\'intruso da vendere | LessonCraftStudio',
-    metaDescription: 'Crea schede trova l\'intruso con modalità Identico e Simile, override per esercizio e chiavi di risposta automatiche. Vendi su Etsy, KDP e Gumroad.',
+    titleTag: 'Creare trova l\'intruso da stampare | Guida',
+    metaDescription: 'Come creare schede trova l\'intruso da stampare con modalità Identico e Simile, override per esercizio e chiavi di risposta automatiche. Tutorial completo.',
   },
 
   hero: {
-    title: 'Trova l\'intruso da vendere: guida alla creazione',
+    title: 'Come creare schede trova l\'intruso da stampare',
     tagline: 'Tutorial passo passo per creare schede di discriminazione visiva con doppia modalità di generazione, override per esercizio, chiavi di risposta auto-generate con marcatori cerchio rosso e puzzle puramente visivi da vendere in tutto il mondo su Etsy, Amazon KDP e Gumroad',
     description: 'I puzzle trova l\'intruso sono tra le attività educative più universalmente accessibili e vendibili: non richiedono lettura, comprensione linguistica o competenze matematiche. Quattro immagini, una che non appartiene — il formato puramente visivo rende ogni scheda vendibile in qualsiasi paese del mondo senza traduzione. Per i venditori italiani che vogliono espandersi a livello internazionale, questa è un\'opportunità concreta con barriere d\'ingresso minime. Il Generatore Schede Trova l\'Intruso offre due modalità distinte — Identico (tre cloni più un diverso) e Simile (tre dallo stesso tema più uno da un altro) — con override per esercizio che permette di mescolare entrambe le modalità sulla stessa scheda. Le chiavi di risposta automatiche con marcatori cerchio rosso completano prodotti professionali in pochi minuti. Questa guida ti mostra ogni passaggio dalla configurazione all\'esportazione di file pronti per la produzione. Che tu stia creando il tuo primo prodotto di puzzle visivi o espandendo un catalogo esistente, avrai schede finite pronte per la pubblicazione.',
   },

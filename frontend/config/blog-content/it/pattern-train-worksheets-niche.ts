@@ -2,11 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'schede treno sequenze nicchia',
-    secondaryKeywords: ['schede treno pattern bambini', 'stampabili treno educativo vendere', 'business schede treno motivi'],
-    lsiKeywords: ['attività treno logica prescuola', 'pattern treno bambini stampabili', 'gioco treno educativo'],
-    titleTag: 'Schede Treno Sequenze: Nicchia Unica | LCS',
-    metaDescription: 'Scopra la nicchia delle schede treno-sequenze. Un formato unico che combina logica e divertimento per bambini prescuola.',
+    primaryKeyword: 'schede treno sequenze logiche da stampare',
+    secondaryKeywords: [
+      'esercizi sequenza treno bambini prescuola PDF',
+      'schede completa la sequenza con treno',
+      'attività pattern treno scuola infanzia',
+      'gioco sequenze logiche treno stampare',
+    ],
+    lsiKeywords: [
+      'treno',
+      'sequenza',
+      'pattern',
+      'logica',
+      'vagoni',
+      'completare',
+    ],
+    titleTag: 'Schede Treno Sequenze Logiche da Stampare | LCS',
+    metaDescription: 'Schede treno con sequenze logiche da stampare per bambini. Esercizi di pattern e logica per prescuola con LessonCraftStudio — 33 generatori.',
   },
   hero: {
     title: 'Schede Treno Sequenze: Una Nicchia Unica e Redditizia',

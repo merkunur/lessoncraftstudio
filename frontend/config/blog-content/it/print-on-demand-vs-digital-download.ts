@@ -2,11 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'print on demand vs download digitale stampabili',
-    secondaryKeywords: ['business stampabili digitali Italia', 'vendere stampabili online strategia', 'Etsy KDP stampabili mercato italiano'],
-    lsiKeywords: ['stampabili educativi business', 'vendita online prodotti digitali', 'mercato italiano stampabili 2026'],
-    titleTag: 'Print on Demand vs Download Digitale | LCS',
-    metaDescription: 'Confronto print on demand vs download digitale per stampabili. Margini, logistica e strategia per il 2026.',
+    primaryKeyword: 'stampa su richiesta vs download schede PDF',
+    secondaryKeywords: [
+      'print on demand vs scarica e stampa didattica',
+      'quale modello per materiale educativo',
+      'vendere schede stampate o digitali',
+      'confronto POD e download PDF educativo',
+    ],
+    lsiKeywords: [
+      'stampa su richiesta',
+      'download',
+      'PDF',
+      'fisico',
+      'digitale',
+      'confronto',
+    ],
+    titleTag: 'Stampa su Richiesta vs Download PDF | LCS',
+    metaDescription: 'Confronto tra stampa su richiesta e download PDF per schede didattiche. Quale modello di distribuzione scegliere con LessonCraftStudio — 33 generatori.',
   },
   hero: {
     title: 'Print on Demand vs Download Digitale: Cosa Scegliere?',

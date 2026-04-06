@@ -2,26 +2,28 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'schede maggiore minore gratis',
+    primaryKeyword: 'maggiore minore uguale da stampare gratis',
     secondaryKeywords: [
-      'schede maggiore minore uguale gratis online senza registrazione',
-      'generatore confronto quantità gratis PDF stampabile',
-      'schede maggiore minore gratis bambini immagini',
-      'creare schede confronto numeri gratis',
-      'schede più o meno gratis prova gratuita',
+      'schede maggiore minore gratis online',
+      'confronto quantità da stampare gratis PDF',
+      'maggiore minore gratis senza registrazione',
+      'esercizi maggiore minore uguale gratis',
+      'schede confronto numeri da stampare gratis',
     ],
     lsiKeywords: [
-      'schede maggiore minore gratis senza registrazione',
-      'stampabile PDF gratis filigrana',
-      'prova gratuita licenza commerciale',
-      'generatore confronto quantità gratis online',
+      'maggiore minore uguale',
+      'confronto quantità',
+      'più e meno',
+      'numeri',
+      'stampabile PDF',
+      'gratis online',
     ],
-    titleTag: 'Maggiore e minore gratis online | LessonCraftStudio',
-    metaDescription: 'Crea schede maggiore e minore gratis online, senza registrazione. Tre modalità inclusa Spunta e Croce, immagini colorate. Licenza commerciale disponibile.',
+    titleTag: 'Maggiore minore uguale gratis online | LessonCraftStudio',
+    metaDescription: 'Crea schede maggiore minore uguale da stampare gratis online, senza registrazione. Tre modalità inclusa Spunta e Croce, immagini colorate. Prova subito.',
   },
 
   hero: {
-    title: 'Crea Schede Maggiore e Minore Gratis',
+    title: 'Maggiore Minore Uguale da Stampare Gratis',
     tagline: 'Crea schede di confronto visivo con tre modalità di esercizio in meno di 60 secondi',
     description: 'Crea schede maggiore e minore gratis direttamente nel browser, senza registrazione e senza installare nulla. Tre modalità di esercizio: Immagine vs Immagine, Immagine vs Numero e l\'esclusiva Spunta e Croce dove gli utenti segnano il gruppo maggioritario e minoritario in un riquadro di immagini mischiate. Scegli tra oltre 100 temi di immagini, imposta l\'intervallo numerico (1–10), seleziona simboli illustrati o standard. Esporta PDF e JPEG a 300 DPI — tutto gratis con filigrana, istantaneamente. Le schede usano solo immagini, numeri e simboli, funzionando in tutte le 11 lingue. Ogni funzionalità è accessibile nella prova gratuita. Vuoi vendere le tue creazioni su Etsy, Amazon KDP o Gumroad? Passa alla licenza commerciale per rimuovere la filigrana e sbloccare l\'uso commerciale illimitato.',
   },

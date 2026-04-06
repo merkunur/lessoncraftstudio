@@ -2,26 +2,26 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'licenza commerciale per venditori stampabili',
+    primaryKeyword: 'licenza commerciale schede didattiche',
     secondaryKeywords: [
-      'diritti commerciali schede didattiche Etsy KDP',
-      'licenza uso commerciale generatori di schede',
-      'vendere schede generate legalmente su marketplace',
-      'differenza licenza personale e commerciale stampabili',
-      'livelli licenza stampabili prezzi e copertura',
+      'come ottenere licenza per vendere stampabili',
+      'diritti commerciali generatori di schede',
+      'licenza uso commerciale materiale didattico',
+      'vendere schede didattiche con licenza',
     ],
     lsiKeywords: [
-      'uso commerciale vs personale download digitali',
-      'licenza indipendente dalla piattaforma',
-      'prova gratuita con filigrana prima dell\'acquisto',
-      'diritti vendita illimitata schede generate',
+      'licenza commerciale',
+      'uso commerciale',
+      'schede didattiche',
+      'generatori',
+      'diritti di vendita',
     ],
-    titleTag: 'Licenza commerciale per venditori | LessonCraftStudio',
-    metaDescription: 'Guida completa alla licenza commerciale per vendere schede su Etsy, Amazon KDP e Gumroad. Due livelli, diritti chiari e prova gratuita con filigrana.',
+    titleTag: 'Guida alla licenza commerciale stampabili | LCS',
+    metaDescription: 'Guida alla licenza commerciale per generatori di schede didattiche: cosa puoi vendere, dove e quale livello scegliere. Prova gratuita con filigrana.',
   },
 
   hero: {
-    title: 'Licenza Commerciale per Venditori di Stampabili',
+    title: 'Guida alla Licenza Commerciale per Stampabili',
     tagline: 'Tutto ciò che devi sapere sulla licenza commerciale per i generatori di schede — cosa puoi vendere, dove puoi venderlo e quale livello si adatta alla tua attività',
     description: 'La confusione sulle licenze frena più venditori di stampabili di quanto facciano i prodotti scadenti. Quali piattaforme sono coperte? Servono licenze separate per ogni inserzione? Questa guida elimina ogni dubbio: scoprirai esattamente cosa copre la licenza commerciale, la differenza tra i due livelli di prezzo, come si applica a Etsy.it, Amazon.it KDP, Gumroad e ogni altro marketplace. La prova gratuita con filigrana ti permette di testare ogni generatore e valutare la qualità dell\'output prima di investire. Vendi con piena chiarezza sui tuoi diritti commerciali.',
   },

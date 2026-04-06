@@ -2,11 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'errori business stampabili evitare',
-    secondaryKeywords: ['business stampabili digitali Italia', 'vendere stampabili online strategia', 'Etsy KDP stampabili mercato italiano'],
-    lsiKeywords: ['stampabili educativi business', 'vendita online prodotti digitali', 'mercato italiano stampabili 2026'],
-    titleTag: 'Errori Business Stampabili da Evitare | LCS',
-    metaDescription: 'Eviti i 10 errori più comuni dei venditori di stampabili. Pricing, SEO, qualità e gestione del business.',
+    primaryKeyword: 'errori comuni vendita schede didattiche online',
+    secondaryKeywords: [
+      'sbagli da evitare materiale stampabile',
+      'errori principianti schede educative Etsy',
+      'problemi frequenti vendita PDF didattici',
+      'come non fallire vendendo stampabili',
+    ],
+    lsiKeywords: [
+      'errori',
+      'sbagli',
+      'evitare',
+      'principianti',
+      'problemi',
+      'soluzioni',
+    ],
+    titleTag: 'Errori da Evitare Vendendo Schede Online | LCS',
+    metaDescription: 'I 10 errori più comuni nella vendita di schede didattiche online e come evitarli. Consigli pratici per venditori con LessonCraftStudio — 33 generatori.',
   },
   hero: {
     title: 'I 10 Errori Più Comuni nel Business Stampabili',

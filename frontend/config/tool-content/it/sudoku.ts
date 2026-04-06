@@ -2,26 +2,28 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'generatore sudoku immagini gratis bambini',
+    primaryKeyword: 'sudoku da stampare gratis per bambini',
     secondaryKeywords: [
-      'sudoku con immagini gratis online senza registrazione',
-      'generatore sudoku bambini gratis PDF stampabile',
-      'sudoku immagini 4x4 gratis bambini',
-      'creare sudoku con figure gratis',
-      'puzzle sudoku immagini gratis prova gratuita',
+      'sudoku con immagini gratis online',
+      'sudoku bambini da stampare gratis PDF',
+      'sudoku facile gratis senza registrazione',
+      'sudoku 4x4 da stampare gratis',
+      'sudoku illustrato gratis online',
     ],
     lsiKeywords: [
-      'sudoku immagini gratis senza registrazione',
-      'stampabile PDF gratis filigrana',
-      'prova gratuita licenza commerciale',
-      'generatore sudoku 4x4 gratis online',
+      'sudoku bambini',
+      'sudoku immagini',
+      'puzzle logica',
+      'griglia 4x4',
+      'stampabile PDF',
+      'gratis online',
     ],
-    titleTag: 'Sudoku immagini gratis bambini | LessonCraftStudio',
-    metaDescription: 'Crea sudoku con immagini gratis online, senza registrazione. Griglia 4×4, tre difficoltà, risposte automatiche. Licenza commerciale disponibile.',
+    titleTag: 'Sudoku bambini da stampare gratis | LessonCraftStudio',
+    metaDescription: 'Crea sudoku con immagini da stampare gratis online, senza registrazione. Griglia 4×4, tre livelli di difficoltà, risposte automatiche. Prova subito.',
   },
 
   hero: {
-    title: 'Crea Sudoku con Immagini Gratis per Bambini',
+    title: 'Sudoku da Stampare Gratis per Bambini',
     tagline: 'Generatore di sudoku con immagini su griglia 4×4 con tre livelli di difficoltà (Facile 4 celle vuote, Medio 6 celle vuote, Difficile 8 celle vuote), chiavi di risposta auto-generate con griglia completa, selezione immagini basata su tema e manuale tra 104 collezioni con oltre 3.100 illustrazioni, design griglia premium con colori blocco alternati e ombre multi-livello, e puzzle puramente visivi vendibili in tutto il mondo senza traduzione',
     description: 'Crea sudoku con immagini gratis direttamente nel browser, senza registrazione e senza installare nulla. Griglia 4×4 con 4 immagini uniche che devono apparire una volta per riga e una volta per colonna. Tre livelli di difficoltà: Facile (4 celle vuote), Medio (6) e Difficile (8). Selezione automatica per tema o manuale tra 104 collezioni con oltre 3.100 illustrazioni. Design griglia premium con colori blocco alternati e ombre multi-livello. Chiave di risposta automatica inclusa. Esporta PDF e JPEG a 300 DPI in formato Letter, A4 o personalizzato — tutto gratis con filigrana, istantaneamente. Ogni funzionalità è accessibile nella prova gratuita. Vuoi vendere i tuoi puzzle su Etsy, Amazon KDP o Gumroad? Passa alla licenza commerciale per rimuovere la filigrana e sbloccare l\'uso commerciale illimitato.',
   },

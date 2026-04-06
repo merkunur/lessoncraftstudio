@@ -2,11 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'stampabili Pasqua business primavera',
-    secondaryKeywords: ['stampabili tematici vendere Etsy Italia', 'nicchia stampabili educativi mercato', 'schede tematiche stagionali vendere'],
-    lsiKeywords: ['stampabili educativi nicchia', 'mercato stagionale stampabili', 'Etsy Italia schede tematiche'],
-    titleTag: 'Stampabili Pasqua: Business Primavera | LCS',
-    metaDescription: 'Venda stampabili pasquali nel mercato italiano. Schede tematiche, cacce alle uova e attività primaverili.',
+    primaryKeyword: 'schede didattiche Pasqua da stampare bambini',
+    secondaryKeywords: [
+      'attività pasquali scuola primaria da stampare',
+      'lavoretti Pasqua da stampare e colorare',
+      'schede Pasqua scuola infanzia PDF',
+      'giochi pasquali da stampare bambini',
+    ],
+    lsiKeywords: [
+      'Pasqua',
+      'primavera',
+      'uova',
+      'coniglio',
+      'pulcino',
+      'lavoretti',
+    ],
+    titleTag: 'Schede Didattiche Pasqua da Stampare | LCS',
+    metaDescription: 'Schede didattiche di Pasqua da stampare per bambini. Attività pasquali per scuola primaria e infanzia con LessonCraftStudio — 33 generatori.',
   },
   hero: {
     title: 'Stampabili di Pasqua: Business di Primavera',

@@ -2,26 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'creare schede grafici da vendere',
+    primaryKeyword: 'come creare schede grafici da stampare',
     secondaryKeywords: [
-      'schede grafici con immagini stampabili per Etsy e KDP',
-      'generatore schede pittogramma uso commerciale',
-      'vendere schede grafici a barre per bambini online',
-      'creare schede rappresentazione dati con licenza commerciale',
-      'schede grafici con immagini da vendere su Gumroad',
+      'schede grafici con immagini per bambini PDF',
+      'creare schede pittogramma da stampare',
+      'generatore schede conteggio e grafici a barre',
+      'esercizi rappresentazione dati scuola primaria',
     ],
     lsiKeywords: [
-      'griglia 4x5 immagini sparse con grafici a barre',
-      'sistema doppio canvas chiave di risposta automatica',
-      'distribuzione casuale per schede uniche ogni generazione',
-      'prodotti stampabili grafici indipendenti dalla lingua',
+      'grafici per immagini',
+      'conteggio e grafici a barre',
+      'schede dati prescolare',
+      'doppio canvas automatico',
+      'attività STEM da stampare',
     ],
-    titleTag: 'Schede grafici da vendere | LessonCraftStudio',
-    metaDescription: 'Crea schede grafici con immagini, griglie 4x5 sparse e chiavi di risposta automatiche. 104 temi disponibili. Vendi su Etsy, Amazon KDP e Gumroad.',
+    titleTag: 'Creare schede grafici da stampare | Guida',
+    metaDescription: 'Come creare schede di grafici per immagini da stampare con griglie 4x5, chiavi di risposta automatiche e 104 temi disponibili. Tutorial completo.',
   },
 
   hero: {
-    title: 'Schede grafici con immagini da vendere online',
+    title: 'Come creare schede grafici con immagini da stampare',
     tagline: 'Un tutorial passo-passo per creare schede grafici con immagini dove gli utenti contano 20 immagini sparse su una griglia 4×5 e registrano i conteggi su un grafico a barre 6 colonne × 5 righe, con un sistema a doppio canvas che genera automaticamente chiavi di risposta con celle evidenziate in giallo (#FFC857) simultaneamente, distribuzione casuale che assegna a ciascuno dei 6 tipi di immagine 1–5 ripetizioni per schede uniche ad ogni generazione, tre modalità di selezione immagini (tema automatico, selezione manuale di 6, senza tema casuale), intestazioni localizzate \"Grafico con Immagini\" in 11 lingue, conteggio visivo indipendente dalla lingua che vende globalmente senza traduzione, 7 famiglie di font inclusi Arial e Verdana, ed esportazioni a 300 DPI vendibili in tutto il mondo su Etsy, Amazon KDP e Gumroad',
     description: 'Le schede grafici con immagini e pittogrammi combinano conteggio visivo e rappresentazione dati in un\'attività doppia competenza molto richiesta nelle scuole elementari di tutto il mondo. Il grande vantaggio per i venditori è che il conteggio visivo usa numeri e immagini universali — gli stessi file si vendono in qualsiasi paese senza traduzione. Il sistema a doppio canvas genera automaticamente scheda e chiave di risposta simultaneamente, eliminando il passaggio più dispendioso nella produzione di bundle e garantendo accuratezza su ogni pagina. La distribuzione casuale rende ogni generazione unica, permettendoti di produrre centinaia di schede diverse rapidamente per bundle premium. Tre modalità di selezione immagini (automatica, manuale e senza tema) servono diversi flussi di lavoro, con 104 temi disponibili e la possibilità di caricare immagini personalizzate. Questa guida ti mostra come usare il Generatore Schede Grafici con Immagini per creare prodotti professionali pronti per Etsy, Amazon KDP e Gumroad. Che tu stia lanciando il tuo primo prodotto di competenze dati o espandendo un catalogo esistente, avrai schede finite con chiavi di risposta pronte per la pubblicazione.',
   },

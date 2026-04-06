@@ -2,11 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'formati file stampabili PDF JPEG guida',
-    secondaryKeywords: ['come creare stampabili vendere', 'guida pratica stampabili business', 'tutorial stampabili educativi'],
-    lsiKeywords: ['creazione stampabili professionali', 'workflow produzione schede', 'ottimizzazione vendita stampabili'],
-    titleTag: 'Formati File Stampabili: PDF vs JPEG | LCS',
-    metaDescription: 'Guida ai formati file per stampabili. PDF, JPEG, risoluzione, dimensioni e impostazioni di stampa ottimali. Vendi su Etsy & KDP con licenza commerciale.',
+    primaryKeyword: 'formato file schede didattiche PDF o JPEG',
+    secondaryKeywords: [
+      'quale formato per schede da stampare',
+      'PDF vs JPEG schede educative',
+      'risoluzione file schede stampabili',
+      'impostazioni file stampa materiale didattico',
+    ],
+    lsiKeywords: [
+      'PDF',
+      'JPEG',
+      'formato',
+      'risoluzione',
+      'DPI',
+      'qualità stampa',
+    ],
+    titleTag: 'Formato File Schede: PDF vs JPEG Guida | LCS',
+    metaDescription: 'Guida ai formati file per schede didattiche da stampare. PDF, JPEG, risoluzione e qualità di stampa ottimale con LessonCraftStudio — 33 generatori.',
   },
   hero: {
     title: 'Formati File per Stampabili: PDF vs JPEG Guida',

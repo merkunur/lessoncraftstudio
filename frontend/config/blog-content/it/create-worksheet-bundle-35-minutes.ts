@@ -2,11 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'creare pacchetto schede 35 minuti',
-    secondaryKeywords: ['come creare stampabili vendere', 'guida pratica stampabili business', 'tutorial stampabili educativi'],
-    lsiKeywords: ['creazione stampabili professionali', 'workflow produzione schede', 'ottimizzazione vendita stampabili'],
-    titleTag: 'Creare un Pacchetto Schede in 35 Min | LCS',
-    metaDescription: 'Crei un pacchetto di schede professionali in 35 minuti con il generatore. Guida passo passo per venditori.',
+    primaryKeyword: 'creare pacchetto schede didattiche veloce',
+    secondaryKeywords: [
+      'generare schede didattiche in pochi minuti',
+      'pacchetto esercizi da stampare rapido',
+      'creare set schede automaticamente',
+      'kit schede didattiche generatore',
+    ],
+    lsiKeywords: [
+      'pacchetto',
+      'veloce',
+      'generatore',
+      'automatico',
+      'set',
+      'minuti',
+    ],
+    titleTag: 'Creare Pacchetto Schede in 35 Minuti | LCS',
+    metaDescription: 'Come creare un pacchetto di schede didattiche professionali in 35 minuti. Generatore automatico LessonCraftStudio — 33 strumenti, 11 lingue.',
   },
   hero: {
     title: 'Come Creare un Pacchetto di Schede in 35 Minuti',

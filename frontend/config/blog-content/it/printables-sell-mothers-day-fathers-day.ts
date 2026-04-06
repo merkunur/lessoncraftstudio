@@ -2,11 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'stampabili Festa Mamma Papà vendere',
-    secondaryKeywords: ['stampabili tematici vendere Etsy Italia', 'nicchia stampabili educativi mercato', 'schede tematiche stagionali vendere'],
-    lsiKeywords: ['stampabili educativi nicchia', 'mercato stagionale stampabili', 'Etsy Italia schede tematiche'],
-    titleTag: 'Stampabili Festa Mamma e Papà | LCS',
-    metaDescription: 'Venda stampabili per la Festa della Mamma (maggio) e del Papà (19 marzo). Lavoretti, schede e regali stampabili.',
+    primaryKeyword: 'schede Festa della Mamma Papà da stampare',
+    secondaryKeywords: [
+      'attività Festa Mamma scuola primaria stampare',
+      'lavoretti Festa Papà 19 marzo da stampare',
+      'schede regalo Festa Mamma bambini PDF',
+      'esercizi creativi Festa Papà stampabili',
+    ],
+    lsiKeywords: [
+      'Festa Mamma',
+      'Festa Papà',
+      '19 marzo',
+      'maggio',
+      'lavoretto',
+      'regalo',
+    ],
+    titleTag: 'Schede Festa Mamma e Papà da Stampare | LCS',
+    metaDescription: 'Schede per la Festa della Mamma e del Papà da stampare per bambini. Attività creative per la scuola primaria con LessonCraftStudio — 33 generatori.',
   },
   hero: {
     title: 'Stampabili per la Festa della Mamma e del Papà',

@@ -2,11 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'SEO Etsy venditori stampabili 2026',
-    secondaryKeywords: ['business stampabili digitali Italia', 'vendere stampabili online strategia', 'Etsy KDP stampabili mercato italiano'],
-    lsiKeywords: ['stampabili educativi business', 'vendita online prodotti digitali', 'mercato italiano stampabili 2026'],
-    titleTag: 'SEO Etsy per Stampabili nel 2026 | LCS',
-    metaDescription: 'Strategie SEO Etsy aggiornate al 2026 per venditori di stampabili. Keyword, tag, e ottimizzazione inserzioni.',
+    primaryKeyword: 'SEO schede didattiche stampabili Etsy 2026',
+    secondaryKeywords: [
+      'posizionamento schede educative Etsy ricerca',
+      'ottimizzazione SEO materiale didattico',
+      'visibilità schede stampabili marketplace 2026',
+      'come farsi trovare Etsy schede',
+    ],
+    lsiKeywords: [
+      'SEO',
+      'posizionamento',
+      'ricerca',
+      'visibilità',
+      'algoritmo',
+      'ranking',
+    ],
+    titleTag: 'SEO Schede Didattiche su Etsy 2026 | LCS',
+    metaDescription: 'Strategie SEO aggiornate al 2026 per schede didattiche su Etsy. Posizionamento e visibilità con LessonCraftStudio — 33 generatori, 11 lingue.',
   },
   hero: {
     title: 'SEO Etsy per Venditori di Stampabili nel 2026',

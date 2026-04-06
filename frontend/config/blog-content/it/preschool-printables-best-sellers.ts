@@ -2,11 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'stampabili scuola prescuola best seller',
-    secondaryKeywords: ['stampabili tematici vendere Etsy Italia', 'nicchia stampabili educativi mercato', 'schede tematiche stagionali vendere'],
-    lsiKeywords: ['stampabili educativi nicchia', 'mercato stagionale stampabili', 'Etsy Italia schede tematiche'],
-    titleTag: 'Stampabili Prescuola: Best Seller | LCS',
-    metaDescription: 'Scopra i stampabili più venduti per la scuola dell\'infanzia. Schede, attività e formati che i genitori adorano.',
+    primaryKeyword: 'schede scuola infanzia da stampare migliori',
+    secondaryKeywords: [
+      'attività prescuola più utili da stampare PDF',
+      'schede materna 3-5 anni da stampare',
+      'materiale didattico scuola infanzia stampabile',
+      'esercizi prescuola bambini 4 anni PDF',
+    ],
+    lsiKeywords: [
+      'scuola infanzia',
+      'prescuola',
+      'materna',
+      '3-5 anni',
+      'pregrafismo',
+      'primi concetti',
+    ],
+    titleTag: 'Schede Scuola Infanzia da Stampare | LCS',
+    metaDescription: 'Le migliori schede per la scuola dell\'infanzia da stampare. Attività educative per bambini 3-5 anni con pregrafismo — LessonCraftStudio — 33 generatori.'infanzia da stampare. Attività educative per bambini 3-5 anni con LessonCraftStudio — 33 generatori.',
   },
   hero: {
     title: 'Stampabili per la Prescuola: I Best Seller',

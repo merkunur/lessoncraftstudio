@@ -2,11 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'recensioni Etsy prodotti stampabili',
-    secondaryKeywords: ['business stampabili digitali Italia', 'vendere stampabili online strategia', 'Etsy KDP stampabili mercato italiano'],
-    lsiKeywords: ['stampabili educativi business', 'vendita online prodotti digitali', 'mercato italiano stampabili 2026'],
-    titleTag: 'Recensioni Etsy per Stampabili: Guida | LCS',
-    metaDescription: 'Strategie etiche per ottenere recensioni sui Suoi prodotti stampabili Etsy. Le recensioni migliorano visibilità e vendite.',
+    primaryKeyword: 'recensioni schede didattiche stampabili online',
+    secondaryKeywords: [
+      'feedback materiale educativo scaricabile',
+      'valutazioni schede didattiche PDF',
+      'opinioni genitori schede da stampare',
+      'recensioni prodotti educativi digitali',
+    ],
+    lsiKeywords: [
+      'recensioni',
+      'feedback',
+      'valutazione',
+      'qualità',
+      'soddisfazione',
+      'opinioni',
+    ],
+    titleTag: 'Recensioni Schede Didattiche Stampabili | LCS',
+    metaDescription: 'Come ottenere recensioni positive per schede didattiche stampabili. Strategie per feedback di qualità con LessonCraftStudio — 33 generatori.',
   },
   hero: {
     title: 'Come Ottenere Recensioni su Etsy per i Suoi Stampabili',

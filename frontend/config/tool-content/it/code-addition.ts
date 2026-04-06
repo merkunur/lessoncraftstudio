@@ -1,27 +1,28 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'creare enigmi matematici codificati gratis',
+    primaryKeyword: 'messaggio segreto con operazioni da stampare gratis',
     secondaryKeywords: [
-      'puzzle codice segreto matematica gratis online',
-      'generatore addizione codificata gratis',
-      'enigmi matematici cifrati stampabili gratis',
-      'creare schede addizione codificata senza registrazione',
-      'puzzle rivela parola matematica gratis PDF',
+      'enigmi matematici codificati gratis online',
+      'puzzle codice segreto matematica da stampare gratis',
+      'addizione codificata gratis senza registrazione',
+      'messaggio segreto matematica gratis PDF',
+      'puzzle rivela parola gratis online',
     ],
     lsiKeywords: [
-      'gratis',
+      'messaggio segreto',
+      'codice cifrato',
+      'addizione codificata',
+      'stampabile PDF',
+      'gratis online',
       'senza registrazione',
-      'stampabile',
-      'PDF',
-      'prova gratuita con filigrana',
     ],
-    titleTag: 'Enigmi matematici codificati gratis | LessonCraftStudio',
-    metaDescription: 'Crea enigmi matematici codificati gratis online, senza registrazione. Simboli immagine, modalità Rivela Parola, 11 lingue. Licenza commerciale per vendere.',
+    titleTag: 'Messaggio segreto matematica gratis | LessonCraftStudio',
+    metaDescription: 'Crea enigmi con messaggio segreto e operazioni gratis online, senza registrazione. Simboli immagine, modalità Rivela Parola, 11 lingue. Prova subito.',
     },
 
   hero: {
-    title: 'Crea Enigmi Matematici Codificati Gratis',
+    title: 'Messaggio Segreto con Operazioni Gratis Online',
     tagline: 'Crea puzzle crittaritmetici in cui gli utenti decifrano codici segreti attraverso l\'addizione',
     description: 'Crea enigmi matematici codificati gratis direttamente nel browser — nessuna registrazione, nessun download. Ogni puzzle nasconde numeri dietro simboli-immagine e gli utenti devono risolvere equazioni di addizione per scoprire quale cifra corrisponde a ciascuna figura. Nella Modalità Normale ogni simbolo rappresenta un numero unico. Attiva la Modalità Rivela Parola e ogni equazione risolta svela una lettera di una parola segreta. Scegli tra oltre 100 temi con più di 3.100 illustrazioni, regola il numero di simboli e la complessità degli addendi e scarica PDF pronti per la stampa o JPEG ad alta risoluzione. Supporta 11 lingue con alfabeti specifici — la modalità Rivela Parola in italiano funziona nativamente con accenti come à, è, é, ì, ò e ù. Vuoi vendere i tuoi puzzle su Etsy, Amazon KDP o Gumroad? Passa alla licenza commerciale per rimuovere la filigrana e ottenere i diritti di rivendita completi.',
   },

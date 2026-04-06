@@ -2,28 +2,28 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'generatore di cerca e trova gratis',
+    primaryKeyword: 'cerca e trova da stampare gratis',
     secondaryKeywords: [
-      'creare schede cerca e trova gratis online',
-      'schede oggetti nascosti stampabili gratis',
-      'generatore cerca e trova senza registrazione',
-      'schede Vedo Vedo gratis PDF',
-      'generatore oggetti nascosti gratuito online',
+      'schede cerca e trova gratis online',
+      'oggetti nascosti da stampare gratis PDF',
+      'cerca e trova gratis senza registrazione',
+      'Vedo Vedo da stampare gratis',
+      'trova il diverso da stampare gratis',
     ],
     lsiKeywords: [
-      'gratis',
-      'senza registrazione',
-      'stampabile',
-      'PDF',
-      'filigrana',
-      'prova gratuita',
+      'cerca e trova',
+      'oggetti nascosti',
+      'Vedo Vedo',
+      'trova il diverso',
+      'stampabile PDF',
+      'gratis online',
     ],
-    titleTag: 'Cerca e trova gratis online | LessonCraftStudio',
-    metaDescription: 'Crea schede cerca e trova gratis online, senza registrazione. Modalità Vedo Vedo e Trova il Diverso, chiavi di risposta automatiche. Licenza commerciale.',
+    titleTag: 'Cerca e trova da stampare gratis | LessonCraftStudio',
+    metaDescription: 'Crea schede cerca e trova da stampare gratis online, senza registrazione. Modalità Vedo Vedo e Trova il Diverso, risposte automatiche. Prova subito.',
   },
 
   hero: {
-    title: 'Crea Schede Cerca e Trova Gratis Online',
+    title: 'Cerca e Trova da Stampare Gratis Online',
     tagline: 'Generatore di schede oggetti nascosti a doppia modalità con modalità Vedo Vedo (scene a dispersione zero-sovrapposizione con 1–5 oggetti nascosti tra 8–12 distrattori e legenda in basso) e modalità Trova il Diverso (8–12 immagini abbinate con 1–5 elementi spaiati resi al 50% più grandi), algoritmo di dimensionamento adattivo che prova 50 posizioni per immagine, chiavi di risposta auto-generate con annotazioni cerchi rossi e puzzle puramente visivi vendibili in tutto il mondo senza traduzione',
     description: 'Crea schede cerca e trova gratis, direttamente nel browser, senza registrazione e senza installare nulla. Il generatore offre due modalità: Vedo Vedo con algoritmo zero-sovrapposizione che disperde 1–5 oggetti nascosti tra 8–12 distrattori, e Trova il Diverso con 8–12 immagini abbinate e 1–5 elementi spaiati. Il sistema a doppio canvas genera simultaneamente la scheda di lavoro e la chiave di risposta con cerchi rossi automatici. I puzzle sono interamente visivi — nessun testo sulla scheda, vendibili universalmente senza traduzione. Sfoglia 104 temi con oltre 3.100 illustrazioni. Esporta PDF e JPEG a 300 DPI — la prova gratuita include tutte le funzionalità con una filigrana sui download. Vuoi vendere le tue schede su Etsy o Amazon KDP? Passa alla licenza commerciale per rimuovere la filigrana e ottenere i diritti di rivendita completi.',
   },

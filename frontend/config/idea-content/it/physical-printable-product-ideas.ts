@@ -2,25 +2,25 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Prodotti stampati fisici — Business | LessonCraftStudio',
-    metaDescription: 'Crea prodotti stampati fisici da vendere su Etsy e alle fiere. Schede plastificate, quaderni rilegati e kit premium — idee e strategie per venditori.',
-    primaryKeyword: 'prodotti stampati fisici business stampabili livello premium',
+    titleTag: 'Schede didattiche plastificate e rilegabili | LCS',
+    metaDescription: 'Crea schede didattiche da stampare e plastificare: quaderni rilegati, kit educativi e materiali pronti all\'uso per scuole, asili e famiglie.',
+    primaryKeyword: 'schede didattiche plastificate da stampare',
     secondaryKeywords: [
-      'business schede didattiche stampate plastificate',
-      'vendere prodotti educativi fisici Etsy',
-      'stampabili tangibili prezzi premium vendita',
-      'nicchia prodotti stampabili fisici scuole',
-      'idee prodotto quaderni rilegati didattici',
+      'quaderni didattici rilegati da stampare',
+      'kit educativi stampabili per scuole',
+      'schede plastificate pronte all\'uso',
+      'materiale didattico stampato e rilegato',
     ],
     lsiKeywords: [
-      'schede plastificate rilegature vendita Etsy',
-      'prodotti educativi fiere mercatini vendita',
-      'generatore schede prodotti fisici business',
-      'materiali scolastici tangibili vendita diretta',
+      'plastificazione',
+      'rilegatura',
+      'scuola primaria',
+      'asilo nido',
+      'materiale didattico',
     ],
   },
   hero: {
-    title: 'Prodotti stampabili fisici: il livello premium',
+    title: 'Schede Didattiche Plastificate: Prodotti Premium',
     description: 'I prodotti stampabili fisici rappresentano il livello premium del business di schede didattiche: stampare, plastificare, rilegare e confezionare i tuoi stampabili in prodotti tangibili permette prezzi significativamente più alti rispetto ai download digitali. Gli acquirenti pagano per la comodità di ricevere materiali pronti all\'uso con qualità professionale — il peso del cartoncino, la finitura lucida della plastificazione e il confezionamento curato segnalano valore premium. Scuole, asili nido e centri di tutoraggio hanno budget per forniture fisiche e preferiscono materiali tangibili. I canali di vendita sono multipli: Etsy, fiere dell\'artigianato con conversione altissima, Amazon Handmade e vendite dirette alle scuole con ordini istituzionali. In questa guida trovi idee concrete, strategie per piattaforma e approcci per costruire una linea di prodotti fisici redditizia con margini solidi e clienti fedeli.',
   },
   marketOverview: `Il mercato dei prodotti stampabili fisici occupa una fascia di prezzo premium all\'interno del settore dei materiali educativi perché i prodotti tangibili creano un valore percepito più forte rispetto ai file digitali e gli acquirenti pagano volentieri di più per la comodità, la finitura professionale e il tempo risparmiato che i materiali fisici pronti all\'uso offrono. Un set di schede plastificate con un prezzo da quindici a venticinque euro offre lo stesso contenuto educativo di un download digitale da tre a cinque euro, ma la versione fisica arriva pronta per l\'uso immediato online o a casa senza che l\'acquirente debba possedere una stampante, acquistare inchiostro e carta, spendere tempo a stampare le pagine o investire in attrezzature e materiali per la plastificazione. Questo sovrapprezzo riflette un valore reale perché gli acquirenti stanno acquistando non solo il contenuto educativo ma anche la qualità produttiva professionale, il risparmio di tempo nel non dover stampare e assemblare i materiali da soli, e la durabilità dei prodotti rifiniti professionalmente che resistono alla manipolazione ripetuta degli utenti durante un intero anno scolastico e oltre.

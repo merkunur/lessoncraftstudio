@@ -2,25 +2,25 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Stampabili cantiere da vendere | LessonCraftStudio',
-    metaDescription: 'Crea stampabili cantiere e edilizia da vendere su Etsy e KDP. Idee prodotto escavatori, gru e attrezzi per un business STEM di schede redditizio.',
-    primaryKeyword: 'stampabili cantiere da vendere',
+    titleTag: 'Schede cantiere da stampare per bambini | LCS',
+    metaDescription: 'Crea schede a tema cantiere da stampare: attività con escavatori, gru e veicoli da costruzione. Conteggio, colorare e abbinamento per bambini 3-7 anni.',
+    primaryKeyword: 'schede cantiere da stampare',
     secondaryKeywords: [
-      'schede edilizia per venditori Etsy',
-      'stampabili veicoli da cantiere business',
-      'attività STEM costruzione da vendere online',
-      'nicchia stampabili macchinari educativi',
-      'idee prodotto stampabili cantiere bambini',
+      'attività edilizia da stampare per bambini',
+      'stampabili veicoli da cantiere bambini',
+      'schede didattiche costruzione e macchinari',
+      'colorare escavatori e gru da stampare',
     ],
     lsiKeywords: [
-      'schede escavatori gru bulldozer vendita',
-      'stampabili educativi edilizia KDP',
-      'generatore schede cantiere STEM business',
-      'prodotti digitali tema costruzione bambini',
+      'scuola dell\'infanzia',
+      'scuola primaria',
+      'veicoli',
+      'colorare',
+      'conteggio',
     ],
   },
   hero: {
-    title: 'Stampabili cantiere e edilizia: idee di business',
+    title: 'Schede Cantiere da Stampare: Idee Creative con Veicoli',
     description: 'L\'edilizia è una nicchia sempreverde potentissima per i venditori di stampabili, alimentata dalla fascinazione magnetica che escavatori, gru, bulldozer e cantieri esercitano sui bambini di ogni età. I sotto-temi sono ricchissimi — veicoli da cantiere, attrezzi, elmetti, betoniere, planimetrie — e ciascuno apre opportunità di prodotto distinte su Etsy, Amazon KDP e Gumroad. Le connessioni STEM conferiscono un valore premium: le schede edilizie integrano matematica (misurazione, forme geometriche), alfabetizzazione (vocabolario dei mestieri), ingegneria (progettazione strutturale) e motricità fine (ricalco e costruzione). I cantieri nel quartiere e i giochi con veicoli mantengono l\'interesse vivo tutto l\'anno, garantendo domanda costante senza dipendenza stagionale. In questa guida trovi idee di prodotto concrete, strategie per piattaforma e approcci di posizionamento per costruire una linea redditizia di stampabili sull\'edilizia con i nostri generatori di schede didattiche.',
   },
   marketOverview: `La nicchia dei stampabili sull\'edilizia occupa una posizione particolarmente vantaggiosa per i venditori perché praticamente ogni bambino piccolo ha una fascinazione diretta e viscerale per i veicoli da cantiere, i cantieri e la trasformazione visibile di strutture che prendono forma nei loro quartieri e comunità. A differenza dei temi stagionali che concentrano la domanda in finestre temporali ristrette, la nicchia dell\'edilizia beneficia di una genuina rilevanza tutto l\'anno: i progetti di costruzione procedono continuamente indipendentemente dalla stagione, i bambini incontrano attrezzature da cantiere durante le routine quotidiane, e il gioco con veicoli giocattolo e mattoncini da costruzione rimane un\'attività perenne preferita che trascende il tempo meteorologico e gli eventi del calendario. Questo schema di domanda costante rende i stampabili sull\'edilizia una fonte di entrate affidabile senza i cicli di abbondanza e carestia che sfidano i venditori in nicchie più stagionali.

@@ -2,25 +2,25 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Stampabili dinosauri — Idee business | LessonCraftStudio',
-    metaDescription: 'Avvia un business di stampabili sui dinosauri: idee di prodotto, strategie di nicchia e strumenti per creare schede preistoriche da vendere su Etsy e KDP.',
-
-    primaryKeyword: 'stampabili dinosauri idee business',
+    titleTag: 'Schede dinosauri da stampare per bambini | LCS',
+    metaDescription: 'Crea schede sui dinosauri da stampare: colorare, conteggio, crucipuzzle e abbinamento a tema preistorico. Attività educative per bambini 3-8 anni.',
+    primaryKeyword: 'schede dinosauri da stampare',
     secondaryKeywords: [
-      'vendere stampabili dinosauri su Etsy',
-      'creare schede dinosauri per KDP',
-      'business stampabili tema preistorico',
-      'nicchia stampabili dinosauri redditizia',
-      'idee prodotto stampabili paleontologia bambini',
+      'attività dinosauri da stampare per bambini',
+      'stampabili tema dinosauri scuola primaria',
+      'colorare dinosauri da stampare gratis',
+      'giochi dinosauri da stampare per bambini',
     ],
     lsiKeywords: [
-      'mercato stampabili educativi dinosauri',
-      'generatore schede tema giurassico',
-      'vendere stampabili digitali dinosauri online',
+      'scuola primaria',
+      'scuola dell\'infanzia',
+      'colorare',
+      'conteggio',
+      'preistoria',
     ],
   },
   hero: {
-    title: 'Stampabili Dinosauri: Idee di Business per Venditori Online',
+    title: 'Schede Dinosauri da Stampare: Idee Creative per Bambini',
     description: 'I dinosauri sono una delle nicchie più potenti nel mercato dei stampabili educativi, con una domanda costante tutto l\'anno che non dipende da stagioni o festività. In Italia, l\'interesse per i dinosauri è alimentato dai musei di scienze naturali — dal Museo di Storia Naturale di Milano al MUSE di Trento — e dal fascino universale che le creature preistoriche esercitano sui bambini di ogni età. Per gli imprenditori digitali, questa nicchia offre un vantaggio raro: domanda sempreverde, differenziazione facile grazie alla varietà di specie e forte impatto emotivo che genera acquisti d\'impulso. Con i nostri generatori di schede puoi creare stampabili a tema dinosauri da vendere su Etsy, Amazon KDP e Gumroad, costruendo un catalogo profondo che copre dal conteggio per i più piccoli alle attività scientifiche per la scuola primaria.',
   },
   marketOverview: `La nicchia dei stampabili sui dinosauri prospera su una semplice verità: i bambini sono ossessionati dai dinosauri. Questa ossessione attraversa le differenze di genere, i confini culturali e le fasce d\'età in modi che pochi altri temi riescono a raggiungere. I genitori riconoscono questa passione e cercano attivamente materiali educativi che incanalino l\'entusiasmo per i dinosauri in un apprendimento produttivo. i venditori sfruttano il fascino dei dinosauri per insegnare vocabolario, conteggio, concetti scientifici e abilità di lettura, sapendo che i livelli di coinvolgimento aumentano notevolmente quando sono coinvolte creature preistoriche.

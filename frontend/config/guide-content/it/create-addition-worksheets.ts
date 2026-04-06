@@ -2,26 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'creare schede di addizione da vendere',
+    primaryKeyword: 'come creare schede di addizione da stampare',
     secondaryKeywords: [
-      'schede addizione stampabili per Etsy e KDP',
-      'generatore schede addizione uso commerciale',
-      'vendere schede matematica addizione online',
-      'creare PDF addizione con licenza commerciale',
-      'schede addizione tematiche da vendere su Gumroad',
+      'creare schede addizione con immagini per bambini',
+      'generatore schede addizione da stampare gratis',
+      'schede addizione scuola primaria PDF',
+      'esercizi di addizione da stampare con soluzioni',
     ],
     lsiKeywords: [
-      'addizione visiva con immagini tematiche',
-      'prodotti stampabili matematica per venditori',
-      'esportazione PDF schede addizione pronte per la stampa',
-      'catalogo schede matematica marketplace',
+      'addizione visiva con immagini',
+      'schede matematica da stampare',
+      'esercizi addizione prescolare',
+      'fogli risposte automatici',
+      'schede tematiche addizione',
     ],
-    titleTag: 'Creare schede di addizione da vendere | LessonCraftStudio',
-    metaDescription: 'Crea schede di addizione tematiche con fogli risposte automatici e PDF pronti per la stampa. Guida completa per vendere su Etsy, Amazon KDP e Gumroad.',
+    titleTag: 'Creare schede di addizione da stampare | Guida',
+    metaDescription: 'Come creare schede di addizione da stampare con immagini tematiche e fogli risposte automatici. Tutorial passo passo con generatore configurabile.',
   },
 
   hero: {
-    title: 'Schede di addizione da vendere: guida completa',
+    title: 'Come creare schede di addizione da stampare',
     tagline: 'Tutorial passo passo per creare schede di addizione tematiche pronte per la stampa da vendere su Etsy, Amazon KDP e Gumroad',
     description: 'Le schede di addizione sono tra i prodotti stampabili più venduti su Etsy, Amazon KDP e Gumroad. Genitori, tutor e venditori cercano costantemente nuovi set con temi visivi accattivanti e livelli di difficoltà progressivi. Il mercato italiano offre un\'opportunità concreta: la concorrenza è ancora bassa rispetto al mercato anglofono, e la domanda di materiali educativi in italiano cresce ogni anno. Questa guida ti mostra come usare il Generatore di Schede di Addizione per creare prodotti professionali con immagini tematiche, fogli risposte automatici e PDF pronti per la stampa. Dalla scelta del gruppo d\'età alla configurazione del tema visivo, ogni passaggio è pensato per aiutarti a costruire un catalogo di schede matematiche redditizio. Che tu stia lanciando il tuo primo prodotto o espandendo una linea esistente, avrai schede finite pronte da pubblicare entro la fine di questo tutorial.',
   },

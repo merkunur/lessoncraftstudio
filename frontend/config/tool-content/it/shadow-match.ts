@@ -2,28 +2,28 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'generatore schede ombre gratis',
+    primaryKeyword: 'gioco delle ombre da stampare gratis',
     secondaryKeywords: [
-      'creare schede abbinamento ombre gratis online',
-      'schede ombre stampabili gratis',
-      'generatore abbinamento silhouette senza registrazione',
-      'schede abbinamento ombre gratis PDF',
-      'generatore puzzle ombre gratuito online',
+      'abbinamento ombre gratis online',
+      'schede ombre da stampare gratis PDF',
+      'gioco delle ombre gratis senza registrazione',
+      'schede silhouette da stampare gratis',
+      'trova l\'ombra giusta gratis online',
     ],
     lsiKeywords: [
-      'gratis',
-      'senza registrazione',
-      'stampabile',
-      'PDF',
-      'filigrana',
-      'prova gratuita',
+      'gioco delle ombre',
+      'abbinamento silhouette',
+      'trova l\'ombra',
+      'osservazione',
+      'stampabile PDF',
+      'gratis online',
     ],
-    titleTag: 'Schede ombre gratis online | LessonCraftStudio',
-    metaDescription: 'Crea schede di abbinamento ombre gratis online, senza registrazione. Silhouette pixel-level, modalità Completa, 104 temi. Licenza commerciale disponibile.',
+    titleTag: 'Gioco delle ombre da stampare gratis | LessonCraftStudio',
+    metaDescription: 'Crea schede gioco delle ombre da stampare gratis online, senza registrazione. Silhouette, modalità Completa l\'immagine, 104 temi. Prova subito nel browser.',
   },
 
   hero: {
-    title: 'Crea Schede Abbinamento Ombre Gratis Online',
+    title: 'Gioco delle Ombre da Stampare Gratis Online',
     tagline: 'Generatore di schede abbinamento ombre a doppia modalità con creazione silhouette pixel-level, modalità Completa l\'Immagine con tagli orizzontali e verticali, algoritmo di derangement Fisher-Yates che garantisce nessun abbinamento banale, chiavi di risposta automatiche con etichette lettera-numero, identificatori A/B/C/D e 1/2/3/4 attivabili e disattivabili, e 104 collezioni tematiche di immagini per schede abbinamento ombre vendibili in tutto il mondo',
     description: 'Crea schede di abbinamento ombre gratis, direttamente nel browser, senza registrazione e senza installare nulla. Il generatore offre due modalità: Abbinamento Ombre con silhouette nere generate pixel-level da 4 immagini colorate, e Completa l\'Immagine con tagli orizzontali o verticali. L\'algoritmo di derangement Fisher-Yates garantisce che nessun elemento appaia nella posizione originale, creando sfide genuine a ogni generazione. Attiva o disattiva le etichette A/B/C/D per adattare la difficoltà. Il doppio canvas genera simultaneamente la scheda e la chiave di risposta. Sfoglia 104 temi con oltre 3.100 illustrazioni. Esporta PDF e JPEG a 300 DPI — la prova gratuita include tutte le funzionalità con una filigrana sui download. Vuoi vendere le tue schede su Etsy o Amazon KDP? Passa alla licenza commerciale per rimuovere la filigrana e ottenere i diritti di rivendita completi.',
   },

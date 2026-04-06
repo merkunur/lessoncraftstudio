@@ -2,19 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'puzzle codice addizione vendere Etsy',
+    primaryKeyword: 'puzzle matematici con codice da stampare',
     secondaryKeywords: [
-      'schede codice segreto addizione Etsy',
-      'puzzle matematici stampabili vendere',
-      'attività codice addizione business',
+      'esercizi addizione con codice segreto',
+      'schede matematica gioco codice bambini',
+      'puzzle addizione decodifica da stampare',
+      'giochi matematici enigma bambini',
     ],
     lsiKeywords: [
-      'puzzle crittografati matematica bambini',
-      'schede ludiche addizione',
-      'giochi matematici stampabili',
+      'codice',
+      'enigma',
+      'decodifica',
+      'addizione',
+      'puzzle',
+      'matematica',
     ],
-    titleTag: 'Puzzle Codice Addizione: Vendere su Etsy | LCS',
-    metaDescription: 'Scopra come vendere puzzle codice addizione su Etsy. Una nicchia unica che combina matematica e gioco per stampabili ad alto profitto.',
+    titleTag: 'Puzzle Addizione con Codice da Stampare | LCS',
+    metaDescription: 'Puzzle matematici con codice segreto da stampare per bambini. Esercizi di addizione e decodifica con LessonCraftStudio — 33 generatori, 11 lingue.',
   },
   hero: {
     title: 'Puzzle Codice Addizione: Come Venderli su Etsy',

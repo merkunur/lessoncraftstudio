@@ -2,29 +2,25 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'puzzle pezzi mancanti per quaderni KDP',
+    primaryKeyword: 'puzzle pezzi mancanti da stampare',
     secondaryKeywords: [
-      'creare puzzle pezzi mancanti stampabili per Etsy',
-      'generatore puzzle visivi per libri Amazon KDP',
-      'puzzle jigsaw stampabili licenza commerciale',
-      'vendere schede pezzi mancanti su Eduki',
-      'business stampabili puzzle visivi immagini',
+      'rompicapo pezzi mancanti scheda',
+      'completa il puzzle esercizio',
+      'osservazione visiva scheda',
+      'logica visiva da stampare',
     ],
     lsiKeywords: [
-      'licenza commerciale',
-      '300 DPI',
-      'pronto per la stampa',
-      'pezzi mancanti',
-      'puzzle visivi',
-      'business di stampabili',
-      'foglio risposte automatico',
+      'puzzle',
+      'completare',
+      'osservare',
+      'ragionamento visivo',
     ],
-    titleTag: 'Puzzle pezzi mancanti per KDP e Etsy | LCS',
-    metaDescription: 'Crea puzzle di pezzi mancanti da vendere su Amazon KDP e Etsy. 6 forme, difficoltà configurabile, licenza commerciale. 49 $ pagamento unico.',
+    titleTag: 'Puzzle pezzi mancanti da stampare | Generatore logica visiva',
+    metaDescription: 'Create schede "pezzi mancanti" con immagini tematiche e soluzioni automatiche. PDF 300 DPI stampabili. Prova gratis.',
   },
 
   hero: {
-    title: 'Crea puzzle pezzi mancanti da vendere su KDP e Etsy',
+    title: 'Puzzle pezzi mancanti da stampare — Generatore di logica visiva',
     tagline: 'Genera puzzle stile jigsaw dove i pezzi vengono ritagliati dalle immagini e gli utenti identificano l\'opzione numerata corretta — con 6 forme di pezzo, 1–5 pezzi mancanti, 2–6 opzioni di soluzione con pezzi distrattori, fogli risposte autogenerati e design puramente visivo che funziona in qualsiasi lingua.',
     description:
       'I puzzle di pezzi mancanti sono un formato perfetto per i quaderni di attività su Amazon KDP e per le inserzioni su Etsy: coinvolgenti, facili da capire e adatti a tutte le età. Il mercato italiano è ancora un oceano blu con pochissimi concorrenti. Questo generatore crea puzzle professionali in cui un\'immagine viene ritagliata e gli utenti devono identificare il pezzo corretto tra diverse opzioni. Sei forme di pezzo, da 1 a 5 lacune e da 2 a 6 opzioni di soluzione ti permettono di costruire set progressivi di difficoltà crescente per un catalogo ampio e differenziato. Il foglio risposte viene generato automaticamente, risparmiandoti ore di lavoro. Ogni puzzle è puramente visivo e funziona in qualsiasi lingua, ideale per i mercati internazionali. Esporta PDF a 300 DPI nei formati Letter, A4 o personalizzati, pronti per KDP, Etsy ed Eduki. L\'Accesso Completo include la licenza commerciale, 104 temi con oltre 3100 illustrazioni e 11 lingue. Prova gratis con tutte le funzionalità — senza registrazione, senza carta di credito. I download includono una filigrana; acquista una licenza per rimuoverla.',

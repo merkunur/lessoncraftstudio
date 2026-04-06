@@ -1,27 +1,28 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'schede di conteggio e grafici gratis',
+    primaryKeyword: 'schede conteggio da stampare gratis',
     secondaryKeywords: [
-      'creare schede conteggio gratis online',
-      'generatore pittogrammi stampabili gratis',
-      'schede grafico con immagini senza registrazione',
-      'esercizi conteggio e grafici gratis PDF',
-      'schede rappresentazione dati da stampare gratis',
+      'schede conteggio e grafici gratis online',
+      'esercizi conteggio da stampare gratis PDF',
+      'generatore schede conteggio gratis senza registrazione',
+      'schede pittogrammi da stampare gratis',
+      'conta e colora gratis online',
     ],
     lsiKeywords: [
-      'gratis',
+      'conteggio',
+      'grafici',
+      'pittogrammi',
+      'stampabile PDF',
+      'gratis online',
       'senza registrazione',
-      'stampabile',
-      'PDF',
-      'prova gratuita con filigrana',
     ],
-    titleTag: 'Schede di conteggio gratis online | LessonCraftStudio',
-    metaDescription: 'Crea schede conteggio e grafici gratis online, senza registrazione. Griglia 4×5, risposte automatiche, 11 lingue, PDF istantaneo. Licenza per vendere.',
+    titleTag: 'Schede conteggio da stampare gratis | LessonCraftStudio',
+    metaDescription: 'Crea schede conteggio e grafici da stampare gratis online, senza registrazione. Griglia 4×5, risposte automatiche, 11 lingue, PDF istantaneo. Prova subito.',
     },
 
   hero: {
-    title: 'Crea Schede di Conteggio e Grafici Gratis',
+    title: 'Schede Conteggio e Grafici da Stampare Gratis',
     tagline: 'Generatore di schede grafico con immagini con griglie di icone sparse, chiave di risposta automatica con grafico a barre, intestazioni localizzate in 11 lingue e 104 collezioni tematiche per schede di rappresentazione dati vendibili in tutto il mondo',
     description: 'Crea schede di conteggio e grafici gratis direttamente nel browser — nessuna registrazione, nessun download. Ogni scheda presenta una griglia 4×5 con 20 icone di 6 tipi diversi sparse casualmente. Sotto la griglia, un grafico a barre con 6 colonne e 5 righe offre spazio strutturato per registrare i conteggi. La chiave di risposta automatica evidenzia le celle corrette in giallo. Scegli le immagini automaticamente da 104 collezioni tematiche o manualmente dalla libreria con oltre 3.100 illustrazioni. Intestazione localizzata in 11 lingue, campi nome e data, sfondi e cornici personalizzabili. Scarica PDF e JPEG a 300 DPI in formato Letter, A4 o quadrato. Vuoi vendere le tue schede su Etsy, Amazon KDP o Gumroad? Passa alla licenza commerciale per rimuovere la filigrana e ottenere i diritti di rivendita completi.',
   },

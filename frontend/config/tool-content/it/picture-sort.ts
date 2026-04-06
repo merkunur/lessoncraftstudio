@@ -2,28 +2,28 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'generatore schede di classificazione gratis',
+    primaryKeyword: 'schede classificazione da stampare gratis',
     secondaryKeywords: [
-      'creare schede di classificazione gratis online',
-      'schede classificazione immagini stampabili gratis',
-      'generatore classificazione senza registrazione',
-      'schede classificazione due categorie gratis PDF',
-      'generatore attività classificazione gratuito online',
+      'classificazione immagini gratis online',
+      'schede ordinamento categorie da stampare gratis PDF',
+      'classificazione gratis senza registrazione',
+      'schede ritaglia e incolla categorie gratis',
+      'esercizi classificazione da stampare gratis',
     ],
     lsiKeywords: [
-      'gratis',
-      'senza registrazione',
-      'stampabile',
-      'PDF',
-      'filigrana',
-      'prova gratuita',
+      'classificazione',
+      'ordinamento',
+      'categorie',
+      'ritaglia e incolla',
+      'stampabile PDF',
+      'gratis online',
     ],
-    titleTag: 'Schede di classificazione gratis | LessonCraftStudio',
-    metaDescription: 'Crea schede di classificazione gratis online, senza registrazione. Due categorie, griglie mescolate, chiavi di risposta automatiche. Licenza commerciale.',
+    titleTag: 'Classificazione da stampare gratis | LessonCraftStudio',
+    metaDescription: 'Crea schede di classificazione da stampare gratis online, senza registrazione. Due categorie, griglie mescolate, chiavi di risposta automatiche. Prova subito.',
   },
 
   hero: {
-    title: 'Crea Schede di Classificazione Gratis Online',
+    title: 'Schede di Classificazione da Stampare Gratis',
     tagline: 'Generatore di schede di negozificazione a due categorie con modalità di selezione basata su tema e manuale, griglie di ritaglio mescolate da 4 a 12 immagini in 3–4 colonne auto-regolanti, cornici categoria con bordi tratteggiati per destinazioni di negozificazione sinistra e destra, chiavi di risposta generate automaticamente con immagini 6× più grandi nelle caselle categoria, intestazione negozificazione Immagini localizzata in 11 lingue e 104 collezioni tematiche di immagini per schede di negozificazione che vendono in tutto il mondo',
     description: 'Crea schede di classificazione gratis, direttamente nel browser, senza registrazione e senza installare nulla. Gli utenti ritagliano immagini da una griglia mescolata e le classificano in due categorie. Scegli la modalità tema per popolare automaticamente le categorie da 104 temi con oltre 3.100 illustrazioni, oppure la modalità manuale per selezionare immagini singole. Configura da 4 a 12 immagini totali per regolare la difficoltà. Il sistema a doppio canvas genera simultaneamente la scheda di lavoro e la chiave di risposta con immagini ingrandite nelle caselle categoria. Il generatore è sensibile alla lingua — le etichette cambiano automaticamente in 11 lingue. Esporta PDF e JPEG a 300 DPI — la prova gratuita include tutte le funzionalità con una filigrana sui download. Vuoi vendere le tue schede su Etsy o Amazon KDP? Passa alla licenza commerciale per rimuovere la filigrana e ottenere i diritti di rivendita completi.',
   },

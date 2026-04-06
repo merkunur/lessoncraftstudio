@@ -2,26 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'licenza commerciale per venditori di stampabili',
+    primaryKeyword: 'licenze commerciali per stampabili',
     secondaryKeywords: [
       'uso commerciale vs personale stampabili spiegato',
       'vendere schede legalmente con licenza corretta',
       'errori licenza comuni venditori digitali',
-      'conformità licenze multi-piattaforma Etsy KDP',
-      'diritti output commerciale clip art e font',
+      'conformità licenze multi-piattaforma',
     ],
     lsiKeywords: [
-      'proprietà intellettuale diritti rivendita',
-      'royalty-free opere derivate sublicenza',
-      'verifica licenza sistema conformità',
-      'restrizioni piattaforma attribuzione',
+      'proprietà intellettuale',
+      'royalty-free opere derivate',
+      'verifica licenza conformità',
+      'restrizioni piattaforma',
+      'diritti rivendita output',
     ],
-    titleTag: 'Licenza commerciale per venditori | LessonCraftStudio',
+    titleTag: 'Licenze commerciali per stampabili | Guida',
     metaDescription: 'Licenze commerciali per venditori di stampabili: tipi di licenza, errori da evitare e come proteggere il tuo business. Guida pratica con checklist.',
   },
 
   hero: {
-    title: 'Licenze Commerciali per Venditori di Stampabili',
+    title: 'Licenze commerciali per venditori di stampabili',
     tagline: 'Una guida completa alle licenze commerciali per venditori di stampabili — la differenza tra uso personale e commerciale, cosa richiede una licenza commerciale, come valutare i termini di licenza, i modelli di licenza più comuni nel settore dei stampabili, gli errori da evitare, come costruire un sistema di conformità, gestire le licenze multi-piattaforma e usare la conoscenza delle licenze come vantaggio competitivo',
     description: 'Ogni risorsa che usi per creare stampabili — generatori, clip art, font, modelli e immagini — ha termini di licenza che determinano se puoi vendere legalmente il risultato. Nel mercato italiano, dove sempre più venditori lanciano business di stampabili su Etsy e Amazon KDP, la comprensione delle licenze è il fondamento legale che protegge la tua attività. Saltare questo passaggio porta a rimozioni di prodotti, sospensioni di account e mesi di lavoro persi. Questa guida spiega come funzionano le licenze commerciali, cosa verificare prima di acquistare strumenti, e come costruire un sistema di conformità che scala con il tuo catalogo su più piattaforme.',
   },

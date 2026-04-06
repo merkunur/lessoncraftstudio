@@ -2,25 +2,26 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Stampabili classe prima per Etsy | LessonCraftStudio',
-    metaDescription: 'Crea stampabili classe prima da vendere su Etsy e KDP. Idee prodotto lettura, matematica e scrittura per un business di schede 6-7 anni molto redditizio.',
-    primaryKeyword: 'stampabili classe prima da vendere su Etsy',
+    titleTag: 'Schede classe prima da stampare | LCS',
+    metaDescription: 'Crea schede per la classe prima da stampare: addizione, sottrazione, lettura, scrittura e attività didattiche per bambini di 6-7 anni scuola primaria.',
+    primaryKeyword: 'schede classe prima da stampare',
     secondaryKeywords: [
-      'schede prima elementare per venditori Etsy',
-      'stampabili classe prima matematica business',
-      'attività lettura scrittura 6-7 anni vendita',
-      'nicchia stampabili scuola primaria primo anno',
-      'idee prodotto stampabili prima classe KDP',
+      'attività prima elementare da stampare',
+      'stampabili classe prima scuola primaria',
+      'schede matematica prima elementare stampabili',
+      'esercizi lettura e scrittura classe prima',
     ],
     lsiKeywords: [
-      'schede addizione sottrazione prima vendita',
-      'stampabili parole a vista classe prima KDP',
-      'generatore schede prima elementare business',
-      'prodotti digitali 6-7 anni educativi',
+      'scuola primaria',
+      'addizione',
+      'sottrazione',
+      'lettura',
+      'scrittura',
+      '6-7 anni',
     ],
   },
   hero: {
-    title: 'Stampabili per la classe prima: idee per venditori',
+    title: 'Schede Classe Prima da Stampare: Idee Didattiche',
     description: 'La classe prima è una delle nicchie a più alta domanda nel mercato stampabili educativi: è l\'anno in cui i bambini passano dalla prontezza alla vera padronanza accademica, generando domanda straordinaria da genitori e professionisti. Addizione e sottrazione entro il venti, parole a vista, decodifica CVC, comprensione del testo e scrittura di frasi complete — ciascuna competenza apre opportunità di prodotto distinte su Etsy, Amazon KDP e Gumroad. Il salto dalle aspettative dell\'ultimo anno infanzia ai traguardi della prima classe richiede materiali differenziati per livelli di competenza diversi, alimentando acquisti costanti tutto l\'anno. La doppia base di acquirenti — professionisti e genitori motivati da pagelle e valutazioni — crea molteplici flussi di entrate. In questa guida trovi idee concrete, strategie per piattaforma e approcci per costruire una linea redditizia di stampabili per la classe prima con i nostri generatori di schede.',
   },
   marketOverview: `La nicchia dei stampabili per la prima classe occupa una posizione premium nel mercato educativo perché serve il livello scolastico in cui le aspettative accademiche aumentano più drasticamente, generando la più alta spesa per venditore in materiali supplementari tra tutti i livelli della scuola primaria. A differenza della scuola materna dove gli obiettivi di apprendimento si concentrano sull\'esposizione e la prontezza, il catalogo prodotti della prima classe richiede una padronanza misurabile di competenze specifiche tra cui la fluidità nella lettura con obiettivi definiti di parole al minuto, l\'automaticità nei fatti di addizione e sottrazione entro il venti, e la costruzione di frasi scritte con maiuscole e punteggiatura corrette. Questo orientamento alla padronanza significa che venditori e genitori acquistano materiali stampabili di pratica con uno scopo accademico chiaro e un\'urgenza che si traduce direttamente in un comportamento d\'acquisto motivato su ogni marketplace.

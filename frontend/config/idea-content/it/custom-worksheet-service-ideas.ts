@@ -2,25 +2,25 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Servizio creazione schede — Business | LessonCraftStudio',
-    metaDescription: 'Crea un servizio di schede personalizzate su Etsy e Fiverr. Prezzi premium, clienti ricorrenti e produzione rapida con generatori — guida pratica.',
-    primaryKeyword: 'servizio creazione schede idee business',
+    titleTag: 'Creare schede personalizzate da stampare | LCS',
+    metaDescription: 'Come creare schede didattiche personalizzate da stampare con generatori automatici. Temi, nomi e contenuti su misura per ogni esigenza educativa.',
+    primaryKeyword: 'creare schede personalizzate da stampare',
     secondaryKeywords: [
-      'business schede personalizzate su ordinazione',
-      'servizio creazione stampabili su misura Etsy',
-      'vendere schede didattiche personalizzate online',
-      'nicchia servizio stampabili educativi freelance',
-      'idee business schede custom per scuole',
+      'schede didattiche su misura da stampare',
+      'generatore schede personalizzate per bambini',
+      'stampabili educativi personalizzati',
+      'creare attività didattiche su ordinazione',
     ],
     lsiKeywords: [
-      'schede su misura marchio scuola vendita',
-      'stampabili personalizzati curricolo Fiverr',
-      'generatore schede servizio custom business',
-      'produzione rapida schede didattiche ordini',
+      'schede didattiche',
+      'personalizzazione',
+      'generatore',
+      'scuola primaria',
+      'educativo',
     ],
   },
   hero: {
-    title: 'Servizio schede personalizzate: business a prezzo premium',
+    title: 'Schede Personalizzate da Stampare: Come Crearle',
     description: 'Il servizio di schede didattiche personalizzate è un modello di business premium in cui i clienti richiedono temi specifici, nomi, marchio della scuola o contenuti allineati al curricolo, e tu produci materiali su misura con i generatori. I clienti pagano per la personalizzazione e la specificità, non per prodotti generici — differenziandoti completamente dal marketplace affollato. Scuole, centri di ripetizioni e professionisti tornano ripetutamente per esigenze continue, creando flussi di entrate ricorrenti e prevedibili. Gli strumenti generatori riducono drasticamente i tempi di produzione, rendendo il servizio redditizio su scala. I canali principali sono Etsy (ordini personalizzati), Fiverr, e vendita diretta alle scuole. In questa guida trovi offerte di servizio concrete, strategie per piattaforma e approcci per costruire un servizio sostenibile di creazione schede con forte fidelizzazione e prezzi premium.',
   },
   marketOverview: `Il modello di servizio di schede didattiche personalizzate risponde a una lacuna fondamentale nel marketplace dei stampabili educativi, dove venditori, centri di ripetizioni e scuole necessitano di materiali specificamente adattati alle loro esigenze uniche ma non riescono a trovare esattamente ciò di cui hanno bisogno tra i prodotti generici prefabbricati, creando una domanda costante per fornitori di servizi che colmano il divario tra stampabili prodotti in massa e i materiali personalizzati che gli imprenditori desiderano realmente per le loro negozi specifiche, i loro curricoli e le loro popolazioni utentesche. i venditori hanno frequentemente bisogno di schede didattiche allineate con i loro specifici documenti di programmazione curriculare, con vocabolario tratto dalle loro unità didattiche correnti, calibrate sui livelli di competenza specifici dei loro utenti e formattate per corrispondere alle loro routine educative e strutture di valutazione in modi che nessun prodotto prefabbricato può anticipare o soddisfare.

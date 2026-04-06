@@ -2,22 +2,22 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'creare libri di crucipuzzle per KDP',
+    primaryKeyword: 'creare libri di crucipuzzle per Amazon KDP',
     secondaryKeywords: [
-      'libri crucipuzzle caratteri grandi Amazon KDP anziani',
-      'pubblicare libri cerca parole a tema KDP guida',
+      'libri crucipuzzle caratteri grandi Amazon KDP',
+      'pubblicare libri cerca parole a tema KDP',
       'strategia serie multi-volume crucipuzzle Amazon',
-      'liste parole tematiche curate libri puzzle KDP',
       'formattazione griglie crucipuzzle stampa KDP',
     ],
     lsiKeywords: [
-      'dimensione griglia spaziatura lettere difficoltà puzzle',
-      'vocabolario curato parole adatte all\'età',
-      'mercato adulti bambini crucipuzzle Amazon',
-      'acquisto ripetuto catalogo serie volumi KDP',
+      'crucipuzzle caratteri grandi',
+      'liste parole tematiche',
+      'dimensione griglia spaziatura',
+      'serie multi-volume KDP',
+      'mercato adulti bambini',
     ],
-    titleTag: 'Libri di crucipuzzle per Amazon KDP | LessonCraftStudio',
-    metaDescription: 'Crea libri di crucipuzzle per Amazon KDP: liste tematiche, formati caratteri grandi e strategia serie. Guida completa per editori italiani.',
+    titleTag: 'Libri crucipuzzle per Amazon KDP | Guida',
+    metaDescription: 'Come creare libri di crucipuzzle per Amazon KDP: liste tematiche, formati caratteri grandi e strategia serie. Guida completa per editori italiani.',
   },
 
   hero: {

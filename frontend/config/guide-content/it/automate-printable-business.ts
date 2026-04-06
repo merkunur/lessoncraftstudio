@@ -2,26 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'automatizzare il business stampabili',
+    primaryKeyword: 'automatizzare business di stampabili',
     secondaryKeywords: [
       'produzione batch schede stampabili efficiente',
-      'sistemi template per venditori di stampabili',
-      'flussi di lavoro automatizzati creazione schede',
-      'standardizzare inserzioni multi-piattaforma',
-      'scalare produzione stampabili senza più ore',
+      'sistemi template per creazione stampabili',
+      'flussi di lavoro automatizzati produzione schede',
+      'scalare produzione stampabili con automazione',
     ],
     lsiKeywords: [
-      'pipeline produzione processi ripetibili',
-      'batching attività organizzazione file',
-      'template descrizioni calendario produzione',
-      'efficienza operativa venditori digitali',
+      'produzione batch efficiente',
+      'template e sistemi',
+      'calendario produzione',
+      'organizzazione file',
+      'flussi lavoro automatizzati',
     ],
-    titleTag: 'Automatizzare business stampabili | LessonCraftStudio',
-    metaDescription: 'Come automatizzare il tuo business di stampabili: produzione batch, template e flussi sistematici per triplicare la produzione. Guida pratica passo passo.',
+    titleTag: 'Automatizzare business di stampabili | Guida',
+    metaDescription: 'Come automatizzare il tuo business di stampabili: produzione batch, template e flussi sistematici per triplicare la produzione. Guida passo passo.',
   },
 
   hero: {
-    title: 'Automatizzare il Business di Stampabili: Guida Pratica',
+    title: 'Automatizzare il business di stampabili: guida pratica',
     tagline: 'Una guida completa per ottimizzare il tuo business di stampabili — come identificare opportunità di automazione, costruire sistemi di template, raggruppare le attività di produzione, standardizzare le inserzioni, organizzare i file in modo sistematico, automatizzare l\'elaborazione dei file, creare calendari di produzione e scalare attraverso la variazione sistematica',
     description: 'I venditori italiani di stampabili che guadagnano di più non sono i più creativi — sono i più sistematici. Hanno costruito flussi di lavoro che eliminano lo sforzo ridondante e triplicano la produzione senza aumentare le ore di lavoro. Nel mercato italiano del 2026, dove la concorrenza cresce ma resta gestibile, chi automatizza oggi costruisce un vantaggio competitivo difficile da recuperare. Questa guida ti mostra come implementare la produzione batch, i sistemi di template, le inserzioni standardizzate e l\'espansione sistematica del catalogo per trasformare il tuo business da hobby a impresa scalabile su Etsy, Amazon KDP e Gumroad.',
   },

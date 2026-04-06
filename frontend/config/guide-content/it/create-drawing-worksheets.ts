@@ -2,26 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'creare schede di disegno da vendere',
+    primaryKeyword: 'come creare schede di disegno da stampare',
     secondaryKeywords: [
-      'schede disegno su griglia stampabili per Etsy e KDP',
-      'generatore schede simmetria uso commerciale',
-      'vendere schede riproduzione cella per cella online',
-      'creare schede disegno e simmetria con licenza commerciale',
-      'schede disegno su griglia da vendere su Gumroad',
+      'schede disegno su griglia per bambini PDF',
+      'creare schede simmetria da stampare',
+      'generatore schede riproduzione cella per cella',
+      'esercizi disegno e simmetria da stampare',
     ],
     lsiKeywords: [
-      'sistema doppia griglia con percentuale indizi regolabile',
-      'tre modalità simmetria per prodotti diversificati',
-      'output senza testo per vendite internazionali',
-      'contorni bianco e nero per libri KDP',
+      'disegno su griglia',
+      'schede simmetria bambini',
+      'doppia griglia con indizi',
+      'contorni bianco e nero',
+      'attività motricità fine',
     ],
-    titleTag: 'Schede di disegno da vendere | LessonCraftStudio',
-    metaDescription: 'Crea schede di disegno su griglia con doppia griglia, indizi regolabili e 3 modalità simmetria. Output senza testo per vendere su Etsy, KDP e Gumroad.',
+    titleTag: 'Creare schede di disegno da stampare | Guida',
+    metaDescription: 'Come creare schede di disegno su griglia da stampare con doppia griglia, indizi regolabili e 3 modalità simmetria. Output pronto per la stampa.',
   },
 
   hero: {
-    title: 'Schede di disegno e simmetria da vendere online',
+    title: 'Come creare schede di disegno e simmetria da stampare',
     tagline: 'Tutorial passo passo per creare schede di disegno su griglia con difficoltà regolabile, modalità simmetria e temi di contorno in bianco e nero da vendere su Etsy, Amazon KDP e Gumroad',
     description: 'Le schede di disegno su griglia sono un formato innovativo che combina riproduzione spaziale e riconoscimento della simmetria in un\'unica pagina, distinguendosi immediatamente dalla concorrenza sui marketplace. Il sistema a doppia griglia con percentuale di indizi regolabile crea decine di combinazioni di difficoltà da una singola immagine, moltiplicando il tuo catalogo senza sforzo aggiuntivo. L\'output completamente senza testo e lo stile con contorno in bianco e nero rendono ogni scheda vendibile universalmente in qualsiasi paese senza traduzione — un vantaggio competitivo enorme per i venditori italiani che vogliono raggiungere mercati internazionali. Tre modalità simmetria (Casuale, Specchio Orizzontale, Specchio Verticale) e dimensioni della griglia da 3x3 a 10x10 creano una gamma completa di prodotti per ogni fascia d\'età. Questa guida ti mostra come usare il Generatore Schede Disegno e Colorazione per creare prodotti professionali con oltre 3.000 contorni tematici. Che tu stia lanciando il tuo primo prodotto o espandendo un catalogo esistente, avrai schede finite pronte per la pubblicazione.',
   },

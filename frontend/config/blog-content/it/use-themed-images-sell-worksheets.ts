@@ -2,11 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'immagini tematiche vendere schede di più',
-    secondaryKeywords: ['come creare stampabili vendere', 'guida pratica stampabili business', 'tutorial stampabili educativi'],
-    lsiKeywords: ['creazione stampabili professionali', 'workflow produzione schede', 'ottimizzazione vendita stampabili'],
-    titleTag: 'Immagini Tematiche per Vendere Schede | LCS',
-    metaDescription: 'Usi immagini tematiche per differenziare e vendere più schede. Strategie visive che aumentano clic e conversioni.',
+    primaryKeyword: 'schede didattiche con immagini tematiche bambini',
+    secondaryKeywords: [
+      'esercizi con illustrazioni colorate da stampare',
+      'schede tematiche con disegni educativi PDF',
+      'materiale didattico illustrato per bambini',
+      'immagini nelle schede educative efficacia',
+    ],
+    lsiKeywords: [
+      'immagini',
+      'illustrazioni',
+      'tematiche',
+      'colorate',
+      'disegni',
+      'visivo',
+    ],
+    titleTag: 'Schede con Immagini Tematiche Bambini | LCS',
+    metaDescription: 'Schede didattiche con immagini tematiche per bambini da stampare. Esercizi illustrati che coinvolgono e motivano con LessonCraftStudio — 33 generatori.',
   },
   hero: {
     title: 'Come Usare le Immagini Tematiche per Vendere Più Schede',

@@ -2,21 +2,21 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'formattazione KDP per libri di esercizi guida',
+    primaryKeyword: 'formattazione KDP per libri di esercizi',
     secondaryKeywords: [
-      'specifiche manoscritto Amazon KDP dimensioni ritaglio margini',
-      'esportazione PDF 300 DPI pronto stampa KDP libri attività',
+      'specifiche manoscritto Amazon KDP dimensioni margini',
+      'esportazione PDF 300 DPI per stampa KDP',
       'dimensioni copertina KDP larghezza dorso calcolatore',
-      'errori caricamento KDP rifiuto risoluzione problemi',
-      'layout pagine interne libri schede KDP abbondanza',
+      'errori caricamento KDP rifiuto risoluzione',
     ],
     lsiKeywords: [
-      'margini rilegatura zona sicura area abbondanza KDP',
-      'incorporamento font scala di grigi CMYK stampa',
-      'numerazione pagine preliminari materiale finale indice',
-      'anteprima bozza processo revisione KDP',
+      'margini rilegatura KDP',
+      'formato ritaglio manoscritto',
+      'copertina KDP dorso',
+      'PDF 300 DPI stampa',
+      'errori formattazione rifiuto',
     ],
-    titleTag: 'Formattazione KDP libri di esercizi | LessonCraftStudio',
+    titleTag: 'Formattazione KDP libri di esercizi | Guida',
     metaDescription: 'Formattazione KDP per libri di esercizi: dimensioni, margini, esportazione PDF 300 DPI e copertina. Evita errori di rifiuto con le specifiche esatte.',
   },
 

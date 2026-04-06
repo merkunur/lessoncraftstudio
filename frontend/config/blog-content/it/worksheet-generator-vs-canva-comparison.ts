@@ -2,11 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'generatore schede vs Canva confronto',
-    secondaryKeywords: ['come creare stampabili vendere', 'guida pratica stampabili business', 'tutorial stampabili educativi'],
-    lsiKeywords: ['creazione stampabili professionali', 'workflow produzione schede', 'ottimizzazione vendita stampabili'],
+    primaryKeyword: 'generatore schede didattiche vs Canva confronto',
+    secondaryKeywords: [
+      'strumento creare schede stampabili meglio di Canva',
+      'alternativa Canva per materiale educativo',
+      'generatore automatico vs design manuale schede',
+      'creare schede veloce senza Canva',
+    ],
+    lsiKeywords: [
+      'generatore',
+      'Canva',
+      'confronto',
+      'automatico',
+      'velocità',
+      'qualità',
+    ],
     titleTag: 'Generatore Schede vs Canva: Confronto | LCS',
-    metaDescription: 'Confronto tra generatore di schede dedicato e Canva per creare stampabili. Velocità, qualità e costi a confronto. Vendi su Etsy & KDP con licenza commerciale.',
+    metaDescription: 'Confronto tra generatore di schede didattiche dedicato e Canva. Velocità, qualità e facilità d\'uso a confronto con LessonCraftStudio — 33 generatori.',
   },
   hero: {
     title: 'Generatore di Schede vs Canva: Confronto Completo',

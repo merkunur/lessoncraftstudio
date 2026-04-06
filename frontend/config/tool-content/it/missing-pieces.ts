@@ -2,28 +2,28 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'generatore pezzi mancanti gratis',
+    primaryKeyword: 'pezzi mancanti da stampare gratis',
     secondaryKeywords: [
-      'creare puzzle pezzi mancanti gratis online',
-      'schede pezzi mancanti stampabili gratis',
-      'generatore puzzle pezzi mancanti senza registrazione',
-      'schede puzzle visivi gratis PDF',
-      'generatore pezzi mancanti gratuito online',
+      'puzzle pezzi mancanti gratis online',
+      'schede pezzi mancanti da stampare gratis PDF',
+      'pezzi mancanti gratis senza registrazione',
+      'puzzle visivo pezzi mancanti gratis',
+      'giochi pezzi mancanti da stampare gratis',
     ],
     lsiKeywords: [
-      'gratis',
-      'senza registrazione',
-      'stampabile',
-      'PDF',
-      'filigrana',
-      'prova gratuita',
+      'pezzi mancanti',
+      'puzzle visivo',
+      'osservazione',
+      'logica',
+      'stampabile PDF',
+      'gratis online',
     ],
-    titleTag: 'Pezzi mancanti gratis online | LessonCraftStudio',
-    metaDescription: 'Crea schede puzzle pezzi mancanti gratis online, senza registrazione. 6 forme, difficoltà configurabile, 104 temi. Licenza commerciale disponibile.',
+    titleTag: 'Pezzi mancanti da stampare gratis | LessonCraftStudio',
+    metaDescription: 'Crea puzzle pezzi mancanti da stampare gratis online, senza registrazione. 6 forme, difficoltà configurabile, 104 temi, risposte automatiche. Prova subito.',
   },
 
   hero: {
-    title: 'Crea Schede Pezzi Mancanti Gratis Online',
+    title: 'Pezzi Mancanti da Stampare Gratis Online',
     tagline: 'Generatore di schede puzzle con 6 forme di pezzo (quadrato, cerchio, rettangolo verticale/orizzontale, ellisse verticale/orizzontale), 1–5 pezzi mancanti con 2–6 opzioni di risposta inclusi distrattori, estrazione intelligente dei pezzi tramite rilevamento della varianza cromatica e spaziatura minima di 250px, chiavi di risposta auto-generate con etichette numerate evidenziate in giallo, doppia cornice decorativa in verde acqua e rosa acceso, e 104 collezioni di immagini tematiche per schede puzzle pezzi mancanti vendibili in tutto il mondo',
     description: 'Crea schede puzzle pezzi mancanti gratis, direttamente nel browser, senza registrazione e senza installare nulla. Un\'immagine presenta buchi ritagliati e gli utenti identificano quale opzione numerata riempie ogni spazio vuoto. Scegli tra 6 forme di pezzo (quadrato, cerchio, rettangolo, ellisse) e configura la difficoltà con 1–5 pezzi mancanti e 2–6 opzioni di risposta inclusi pezzi distrattori. L\'algoritmo di estrazione intelligente trova pezzi con sufficiente varianza cromatica. Il doppio canvas genera simultaneamente la scheda e la chiave di risposta. I puzzle sono puramente visivi — vendibili universalmente senza traduzione. Sfoglia 104 temi con oltre 3.100 illustrazioni. Esporta PDF e JPEG a 300 DPI — la prova gratuita include tutte le funzionalità con una filigrana sui download. Vuoi vendere i tuoi puzzle su Etsy o Amazon KDP? Passa alla licenza commerciale per rimuovere la filigrana e ottenere i diritti di rivendita completi.',
   },

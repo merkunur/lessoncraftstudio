@@ -2,26 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'marketing Pinterest per business schede',
+    primaryKeyword: 'marketing Pinterest per venditori di stampabili',
     secondaryKeywords: [
-      'strategia Pinterest per venditori stampabili',
+      'strategia Pinterest per negozio di stampabili',
       'ottimizzazione pin schede educative traffico',
       'SEO Pinterest per prodotti stampabili',
-      'bacheche Pinterest per negozio di schede',
-      'traffico evergreen Pinterest venditori digitali',
+      'bacheche Pinterest per venditori schede',
     ],
     lsiKeywords: [
-      'motore ricerca visuale design pin verticali',
-      'rich pin programmazione contenuti stagionali',
-      'tasso clic salvataggio scoperta organica',
-      'algoritmo Pinterest parole chiave descrizioni',
+      'motore ricerca visuale',
+      'design pin verticali',
+      'programmazione contenuti',
+      'tasso clic salvataggio',
+      'traffico evergreen Pinterest',
     ],
-    titleTag: 'Pinterest per business di schede | LessonCraftStudio',
-    metaDescription: 'Marketing Pinterest per venditori di schede: ottimizzazione pin, strategia bacheche e SEO per traffico evergreen al tuo negozio. Framework completo.',
+    titleTag: 'Pinterest per venditori di stampabili | Guida',
+    metaDescription: 'Marketing Pinterest per venditori di stampabili: ottimizzazione pin, strategia bacheche e SEO per traffico evergreen al tuo negozio. Guida completa.',
   },
 
   hero: {
-    title: 'Pinterest per il Tuo Business di Schede Stampabili',
+    title: 'Pinterest per il tuo business di stampabili',
     tagline: 'Una guida completa al marketing su Pinterest per venditori di schede — come configurare un account business, strutturare le bacheche per la scopribilità, progettare pin ad alta conversione, scrivere descrizioni ricche di parole chiave, sviluppare un programma di pubblicazione, ottimizzare per la SEO su Pinterest, sfruttare i cicli di contenuti stagionali e analizzare i dati sulle performance',
     description: 'Pinterest non è un social media: è un motore di ricerca visuale dove gli utenti cercano attivamente prodotti da acquistare. Per i venditori italiani di schede stampabili, questa distinzione è fondamentale. Un pin pubblicato oggi può generare traffico e vendite per anni, costruendo un motore di scoperta che cresce con ogni contenuto aggiunto. Nel mercato italiano, dove pochissimi venditori di stampabili sfruttano Pinterest in modo strategico, l\'opportunità è enorme. Questa guida ti offre un framework completo: dall\'ottimizzazione del profilo alla strategia delle bacheche, dal design dei pin ad alta conversione alla SEO Pinterest, fino alla pianificazione stagionale e all\'analisi dei dati per perfezionare continuamente i risultati.',
   },

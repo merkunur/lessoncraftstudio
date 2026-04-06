@@ -2,24 +2,25 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'schede disegno e colore per negozio Etsy',
+    primaryKeyword: 'schede disegno da stampare',
     secondaryKeywords: [
-      'creare schede disegno su griglia da vendere online',
-      'generatore schede riproduzione visiva per Amazon KDP',
-      'vendere schede disegna e colora su Etsy Italia',
-      'schede disegno su griglia licenza commerciale stampabili',
+      'attivita di arte da stampare',
+      'disegno guidato scheda',
+      'attivita disegno e colorare',
+      'schede artistiche',
     ],
     lsiKeywords: [
-      'prodotti digitali disegno su griglia mercato italiano',
-      'nicchia schede riproduzione visiva venditori Etsy',
-      'stampabili disegno e colorazione uso commerciale',
+      'disegno guidato',
+      'arte',
+      'creativita',
+      'colorare',
     ],
-    titleTag: 'Schede Disegno e Colore per Etsy | Crea e Vendi',
-    metaDescription: 'Crea schede disegno su griglia da vendere su Etsy e KDP. Griglia doppia, modalità simmetria, 104 temi. Licenza commerciale inclusa. 49 $ pagamento unico.',
+    titleTag: 'Schede disegno e colorare da stampare | Generatore di arte',
+    metaDescription: 'Create schede di disegno guidato e colorare con immagini tematiche. PDF 300 DPI stampabili. Prova gratis — licenza commerciale inclusa.',
   },
 
   hero: {
-    title: 'Schede Disegno e Colore per il Tuo Negozio Etsy',
+    title: 'Schede disegno e colorare da stampare — Generatore di arte',
     tagline: 'Sistema a griglia doppia — griglia di pratica e griglia indizi affiancate — con percentuale indizi regolabile dal 10 % al 75 %, modalità simmetria orizzontale e verticale e oltre 100 collezioni di contorni in bianco e nero per attività di disegno e colorazione.',
     description:
       'Le schede di disegno su griglia sono tra i prodotti stampabili più richiesti su Etsy e Amazon KDP, e il mercato italiano è ancora quasi vuoto — un\'opportunità concreta per i venditori che entrano adesso. Con questo generatore crei schede professionali dove gli utenti riproducono immagini cella per cella, con griglia indizi e griglia di pratica affiancate. Regola la percentuale di indizi dal 10 % al 75 % per controllare la difficoltà e configura griglie da 3×3 a 10×10. Tre modalità di simmetria aggiungono esercizi di ragionamento spaziale. La libreria integrata include oltre 3000 contorni in bianco e nero in più di 100 collezioni tematiche — ideali per la riproduzione e la colorazione. L\'output è puramente visivo, senza testo: ogni scheda funziona in tutte le 11 lingue senza traduzione, moltiplicando il tuo catalogo. Esporta PDF e JPEG a 300 DPI in formato A4, Lettera o personalizzato. Vendi su Etsy, Amazon KDP, Eduki o Edudoro con la licenza commerciale inclusa. Prova gratis con tutte le funzionalità, senza registrazione. I download includono una filigrana; acquista una licenza per rimuoverla.',

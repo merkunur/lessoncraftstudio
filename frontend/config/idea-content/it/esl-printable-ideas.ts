@@ -2,25 +2,25 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Stampabili italiano L2 — Business | LessonCraftStudio',
-    metaDescription: 'Crea stampabili italiano per stranieri (L2/LS) da vendere su Etsy e Gumroad. Mega-nicchia globale con 2,5 milioni di studenti, CILS, CELI e PLIDA.',
-    primaryKeyword: 'stampabili italiano per stranieri L2 business',
+    titleTag: 'Schede italiano per stranieri da stampare | LCS',
+    metaDescription: 'Crea schede di italiano per stranieri (L2) da stampare: vocabolario illustrato, crucipuzzle, abbinamento e attività visive per studenti di italiano.',
+    primaryKeyword: 'schede italiano per stranieri da stampare',
     secondaryKeywords: [
-      'schede italiano L2 LS da vendere Etsy',
-      'stampabili italiano per stranieri business',
-      'materiali CILS CELI PLIDA vendita online',
-      'nicchia stampabili italiano lingua seconda',
-      'idee prodotto stampabili italiano L2 globale',
+      'attività italiano L2 da stampare',
+      'stampabili italiano lingua seconda',
+      'schede vocabolario italiano per stranieri',
+      'materiale didattico italiano L2 stampabile',
     ],
     lsiKeywords: [
-      'schede vocabolario italiano stranieri vendita',
-      'stampabili certificazione italiano KDP',
-      'generatore schede italiano L2 business',
-      'prodotti digitali italiano lingua straniera',
+      'italiano L2',
+      'vocabolario',
+      'crucipuzzle',
+      'abbinamento',
+      'illustrato',
     ],
   },
   hero: {
-    title: 'Stampabili italiano L2: mega-nicchia globale',
+    title: 'Schede Italiano per Stranieri da Stampare: Idee L2',
     description: 'L\'italiano per stranieri (L2/LS) è una MEGA-NICCHIA con un potenziale enorme: l\'italiano è la quarta lingua più studiata al mondo con oltre 2,5 milioni di studenti. Scuole di lingua, università, tutor privati, organizzazioni culturali e famiglie di immigrati acquistano materiali per la preparazione alle certificazioni CILS, CELI e PLIDA durante tutto l\'anno. La base di acquirenti è straordinariamente internazionale — studenti da ogni continente — isolando questa nicchia dai cali stagionali che limitano altre categorie. I materiali con forte componente visiva, supporti graduati e istruzioni semplificate ottengono prezzi premium perché i stampabili generici non soddisfano le esigenze specifiche degli apprendenti L2. Il mercato resta profondamente sottovalutato: pochissimi venditori su Etsy e Gumroad offrono risorse specializzate per l\'italiano come lingua seconda. In questa guida trovi idee concrete, strategie e approcci per costruire una linea redditizia di stampabili italiano L2.',
   },
   marketOverview: `Il mercato dei stampabili ESL rappresenta un\'opportunità di entrate sostanziale e in espansione perché le popolazioni di utenti di inglese come lingua straniera stanno crescendo rapidamente nei paesi anglofoni mentre la domanda internazionale da scuole di lingue e tutor nei paesi non anglofoni aggiunge una dimensione globale di acquirenti che la maggior parte delle nicchie di stampabili educativi non possiede affatto. I distretti scolastici negli Stati Uniti, in Canada, nel Regno Unito e in Australia registrano un aumento delle iscrizioni di utenti di inglese come lingua straniera poiché i modelli di immigrazione e reinsediamento dei rifugiati portano famiglie i cui figli entrano nei sistemi scolastici con la necessità di un intensivo supporto linguistico in inglese parallelamente alla loro istruzione accademica. I programmi ESL per adulti si stanno espandendo contemporaneamente poiché college comunitari, organizzazioni per lo sviluppo della forza lavoro, agenzie per il reinsediamento dei rifugiati e programmi di alfabetizzazione comunitaria servono popolazioni crescenti di adulti che apprendono l\'inglese e necessitano di vocabolario pratico, inglese per il lavoro e competenze linguistiche per la vita quotidiana. Questa combinazione di domanda istituzionale K-12, acquisti per la formazione degli adulti e portata internazionale degli acquirenti crea molteplici segmenti di mercato sovrapposti che i venditori di stampabili possono mirare con linee di prodotti differenziate.

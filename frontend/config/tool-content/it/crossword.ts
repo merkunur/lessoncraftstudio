@@ -1,27 +1,28 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'generatore di cruciverba gratis con immagini',
+    primaryKeyword: 'cruciverba da stampare gratis',
     secondaryKeywords: [
-      'creare cruciverba gratis online',
-      'generatore cruciverba stampabile gratis',
-      'cruciverba con immagini senza registrazione',
+      'cruciverba gratis online',
+      'generatore cruciverba gratis senza registrazione',
+      'cruciverba con immagini da stampare gratis',
       'cruciverba da stampare gratis PDF',
-      'generatore cruciverba multilingue gratis',
+      'creare cruciverba gratis online',
     ],
     lsiKeywords: [
-      'gratis',
+      'cruciverba',
+      'parole crociate',
+      'stampabile PDF',
+      'gratis online',
       'senza registrazione',
-      'stampabile',
-      'PDF',
-      'prova gratuita con filigrana',
+      'chiave di risposta',
     ],
-    titleTag: 'Generatore di cruciverba gratis | LessonCraftStudio',
-    metaDescription: 'Crea cruciverba con immagini gratis online, senza registrazione. Griglia 15×15, 4 metodi di input, chiave di risposta, 11 lingue. Licenza per vendere.',
+    titleTag: 'Cruciverba da stampare gratis online | LessonCraftStudio',
+    metaDescription: 'Crea cruciverba da stampare gratis online, senza registrazione. Griglia 15×15, 4 metodi di input, chiave di risposta automatica, 11 lingue. Prova subito.',
     },
 
   hero: {
-    title: 'Generatore di Cruciverba Gratis Online',
+    title: 'Cruciverba da Stampare Gratis Online',
     tagline: 'Generatore di cruciverba con immagini su griglia fissa 15×15, quattro metodi di input (generazione rapida per tema, modifica manuale dei nomi, lista parole personalizzata con indizi e caricamento immagini personalizzate), chiave di risposta automatica con griglia compilata tramite sistema doppio canvas, parole multilingue in 11 lingue tramite Vocabolario Immagini e intestazione localizzata blu (#5B9BD5) con titolo Fredoka e descrizione Quicksand su 104 collezioni tematiche',
     description: 'Crea cruciverba con immagini gratis direttamente nel browser — nessuna registrazione, nessun download. Otto immagini generano otto parole su una griglia fissa 15×15 con incroci ottimali alle lettere condivise. Scegli tra quattro metodi di input: Generazione Rapida per Tema, Modifica Manuale dei Nomi, Lista Parole Personalizzata con Indizi o Caricamento Immagini Personalizzate. Il generatore è sensibile alla lingua — la stessa immagine genera parole diverse in ciascuna delle 11 lingue supportate. La chiave di risposta automatica mostra la griglia compilata con tutte le soluzioni. Sfoglia 104 collezioni tematiche con oltre 3.100 illustrazioni, applica sfondi e cornici personalizzabili ed esporta PDF e JPEG a 300 DPI. Vuoi vendere i tuoi cruciverba su Etsy, Amazon KDP o Gumroad? Passa alla licenza commerciale per rimuovere la filigrana e ottenere i diritti di rivendita completi.',
   },

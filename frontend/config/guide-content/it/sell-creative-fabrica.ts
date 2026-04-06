@@ -6,18 +6,18 @@ const content: GuideContent = {
     secondaryKeywords: [
       'come vendere stampabili su Creative Fabrica Classroom',
       'Creative Fabrica account designer risorse educative',
-      'guadagnare abbonamento e vendite individuali Creative Fabrica',
+      'guadagnare abbonamento e vendite Creative Fabrica',
       'ottimizzazione ricerca Creative Fabrica stampabili',
-      'catalogo risorse educative Creative Fabrica scalabilità',
     ],
     lsiKeywords: [
-      'marketplace design craft pubblico educazione stampabili',
-      'pool abbonamento doppio ricavo vendite individuali',
-      'tag prodotto categorie immagini copertina CF',
-      'incrocio craft educazione attività tematiche colorare',
+      'Creative Fabrica Classroom',
+      'doppio ricavo abbonamenti',
+      'account designer venditori',
+      'marketplace design e craft',
+      'incrocio craft educazione',
     ],
-    titleTag: 'Vendere su Creative Fabrica | LessonCraftStudio',
-    metaDescription: 'Vendi risorse educative su Creative Fabrica: doppio ricavo da abbonamenti e vendite dirette. Configurazione, ottimizzazione e strategie per venditori.',
+    titleTag: 'Vendere su Creative Fabrica | Guida',
+    metaDescription: 'Come vendere risorse educative su Creative Fabrica: doppio ricavo da abbonamenti e vendite dirette. Configurazione, ottimizzazione e strategie.',
   },
 
   hero: {

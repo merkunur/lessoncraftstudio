@@ -2,11 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'puzzle griglia abbinamento vendere',
-    secondaryKeywords: ['schede griglia abbinamento Etsy', 'puzzle logica griglia bambini vendere', 'stampabili griglia associazione'],
-    lsiKeywords: ['attività logica visiva bambini', 'schede ragionamento spaziale', 'puzzle coordinamento griglia'],
-    titleTag: 'Puzzle Griglia Abbinamento: Vendere Online | LCS',
-    metaDescription: 'Venda puzzle a griglia di abbinamento su Etsy. Una nicchia unica che sviluppa logica e ragionamento spaziale nei bambini.',
+    primaryKeyword: 'puzzle griglia abbinamento da stampare bambini',
+    secondaryKeywords: [
+      'schede abbinamento a griglia prescuola PDF',
+      'giochi logica griglia bambini da stampare',
+      'esercizi ragionamento spaziale bambini',
+      'puzzle griglia educativo da stampare',
+    ],
+    lsiKeywords: [
+      'griglia',
+      'abbinamento',
+      'logica',
+      'spaziale',
+      'ragionamento',
+      'puzzle',
+    ],
+    titleTag: 'Puzzle Griglia Abbinamento da Stampare | LCS',
+    metaDescription: 'Puzzle a griglia di abbinamento da stampare per bambini. Esercizi di logica visiva e ragionamento spaziale con LessonCraftStudio — 33 generatori.',
   },
   hero: {
     title: 'Puzzle Griglia Abbinamento: Come Vendere Online',

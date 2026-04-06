@@ -2,11 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'social media venditori stampabili strategia',
-    secondaryKeywords: ['business stampabili digitali Italia', 'vendere stampabili online strategia', 'Etsy KDP stampabili mercato italiano'],
-    lsiKeywords: ['stampabili educativi business', 'vendita online prodotti digitali', 'mercato italiano stampabili 2026'],
-    titleTag: 'Social Media per Venditori Stampabili | LCS',
-    metaDescription: 'Strategia social media per venditori di stampabili. Instagram, Pinterest, Facebook e TikTok per il mercato italiano.',
+    primaryKeyword: 'promuovere schede didattiche sui social media',
+    secondaryKeywords: [
+      'social media marketing materiale educativo',
+      'Instagram Facebook schede stampabili',
+      'come promuovere esercizi da stampare online',
+      'strategia social materiale didattico',
+    ],
+    lsiKeywords: [
+      'social media',
+      'Instagram',
+      'Facebook',
+      'TikTok',
+      'promozione',
+      'visibilità',
+    ],
+    titleTag: 'Social Media per Schede Didattiche | LCS',
+    metaDescription: 'Come promuovere schede didattiche sui social media. Strategie efficaci per Instagram, Facebook e TikTok con LessonCraftStudio — 33 generatori.',
   },
   hero: {
     title: 'Social Media per Venditori di Stampabili: Strategia',

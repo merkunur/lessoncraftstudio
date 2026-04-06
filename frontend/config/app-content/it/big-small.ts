@@ -2,24 +2,26 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'schede grande e piccolo per negozio Etsy',
+    primaryKeyword: 'schede grande e piccolo da stampare',
     secondaryKeywords: [
-      'creare schede confronto dimensioni da vendere su Amazon KDP',
-      'vendere schede grande piccolo su Etsy Italia',
-      'generatore schede discriminazione visiva licenza commerciale',
-      'schede confronto dimensioni per business di stampabili',
+      'confrontare dimensioni scheda',
+      'ordinare per grandezza esercizio',
+      'piu grande piu piccolo scheda',
+      'grandezze scuola infanzia',
     ],
     lsiKeywords: [
-      'prodotti digitali schede dimensioni mercato italiano',
-      'nicchia schede grande piccolo venditori Etsy e KDP',
-      'stampabili confronto dimensioni uso commerciale Italia',
+      'grande',
+      'piccolo',
+      'medio',
+      'ordinare',
+      'classificare',
     ],
-    titleTag: 'Schede Grande e Piccolo per Etsy | Crea e Vendi',
-    metaDescription: 'Crea schede grande e piccolo da vendere su Etsy e KDP. 5 tipi di domande, immagini identiche e diverse, 104 temi. Licenza commerciale. 49 $ pagamento unico.',
+    titleTag: 'Schede grande e piccolo da stampare | Generatore dimensioni',
+    metaDescription: 'Create schede di confronto dimensioni con immagini tematiche. Grande vs. piccolo, ordinare, soluzioni automatiche. Prova gratis.',
   },
 
   hero: {
-    title: 'Schede Grande e Piccolo per il Tuo Negozio Etsy',
+    title: 'Schede grande e piccolo da stampare — Generatore di confronto dimensioni',
     tagline: 'Cinque tipi di domande — cerchiare il più grande, cerchiare il più piccolo, cerchiare il medio, numerare dal più piccolo al più grande, numerare dal più grande al più piccolo — con modalità immagini identiche e diverse per la discriminazione visiva delle dimensioni.',
     description:
       'Le schede di confronto dimensioni sono tra le attività più ricercate dai genitori italiani per i bambini in età prescolare, ma su Etsy e Amazon KDP la nicchia in italiano è ancora vuota — un\'occasione perfetta per chi vuole avviare un business di stampabili. Con questo generatore crei schede professionali con cinque tipi di domande: cerchiare il più grande, il più piccolo, il medio, e numerare in ordine crescente o decrescente. Due modalità di immagini — identiche per la percezione pura della dimensione, diverse per il ragionamento relativo — creano esercizi diversificati. Configura da 1 a 10 esercizi per pagina con 2 o 3 immagini ciascuno. La libreria integrata offre oltre 3100 illustrazioni in 104 temi. L\'output è completamente visivo, senza testo — ogni scheda funziona in tutte le 11 lingue senza traduzione. Un foglio risposte automatico evidenzia le risposte corrette. Esporta PDF e JPEG a 300 DPI nei formati A4, Lettera o personalizzato. Vendi su Etsy, Amazon KDP, Eduki o Edudoro con la licenza commerciale inclusa. Prova gratis con tutte le funzionalità, senza registrazione. I download includono una filigrana; acquista una licenza per rimuoverla.',

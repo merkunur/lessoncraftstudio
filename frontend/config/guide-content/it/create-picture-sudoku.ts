@@ -2,26 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'creare sudoku con immagini da vendere',
+    primaryKeyword: 'come creare sudoku con immagini da stampare',
     secondaryKeywords: [
-      'sudoku con immagini stampabili per Etsy e KDP',
-      'generatore sudoku visivo uso commerciale',
-      'vendere puzzle sudoku per bambini online',
-      'creare libri sudoku con immagini per Amazon KDP',
-      'sudoku tematici da vendere su Gumroad',
+      'sudoku per bambini con figure da stampare PDF',
+      'creare sudoku visivo da stampare',
+      'generatore sudoku illustrato per prescolare',
+      'puzzle logici con immagini da stampare',
     ],
     lsiKeywords: [
-      'puzzle logici visivi per prima infanzia',
-      'prodotti stampabili sudoku per venditori',
-      'griglie 4x4 con immagini indipendenti dalla lingua',
-      'tre livelli difficoltà per catalogo diversificato',
+      'sudoku con immagini',
+      'puzzle logici prescolare',
+      'griglie 4x4 per bambini',
+      'tre livelli difficoltà',
+      'sudoku visivo da stampare',
     ],
-    titleTag: 'Sudoku con immagini da vendere | LessonCraftStudio',
-    metaDescription: 'Crea sudoku con immagini su griglie 4x4, 3 livelli di difficoltà e chiavi di risposta automatiche. Vendi puzzle stampabili su Etsy, KDP e Gumroad.',
+    titleTag: 'Creare sudoku con immagini da stampare | Guida',
+    metaDescription: 'Come creare sudoku con immagini da stampare su griglie 4x4, con 3 livelli di difficoltà e chiavi di risposta automatiche. Ideale per bambini.',
   },
 
   hero: {
-    title: 'Sudoku con immagini da vendere: guida pratica',
+    title: 'Come creare sudoku con immagini da stampare',
     tagline: 'Tutorial passo passo per creare puzzle sudoku 4x4 basati su immagini da vendere su Etsy, Amazon KDP e Gumroad',
     description: 'Il sudoku con immagini è un formato puzzle unico che si posiziona nella nicchia logica e pensiero critico, evitando la concorrenza diretta con il saturato mercato delle schede matematiche tradizionali. Sostituendo i numeri con immagini tematiche su griglie 4x4, i puzzle diventano accessibili a bambini dai tre anni in su. Il contenuto del puzzle è interamente visivo e indipendente dalla lingua, il che significa che ogni prodotto si vende a livello globale senza traduzione — un vantaggio competitivo enorme per i venditori italiani che vogliono raggiungere mercati internazionali. Tre livelli di difficoltà integrati ti permettono di creare set graduati dallo stesso tema, moltiplicando il tuo catalogo senza sforzo aggiuntivo. Questa guida ti mostra come usare il Generatore di Sudoku con Immagini per creare prodotti professionali con chiavi di risposta automatiche e PDF pronti per la stampa. Che tu stia costruendo il tuo primo prodotto puzzle o espandendo un catalogo esistente, avrai puzzle finiti pronti per la pubblicazione.',
   },

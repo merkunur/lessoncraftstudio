@@ -2,27 +2,28 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'generatore di crucipuzzle gratis con immagini',
+    primaryKeyword: 'crucipuzzle da stampare gratis',
     secondaryKeywords: [
-      'creare crucipuzzle gratis online',
-      'generatore cerca parole stampabile gratis',
-      'crucipuzzle con immagini senza registrazione',
-      'puzzle parole nascoste gratis PDF',
-      'generatore cerca parole da stampare gratis',
+      'crucipuzzle gratis online',
+      'cerca parole da stampare gratis PDF',
+      'generatore crucipuzzle gratis senza registrazione',
+      'crucipuzzle con immagini da stampare',
+      'parole nascoste gratis online',
     ],
     lsiKeywords: [
-      'gratis',
+      'crucipuzzle',
+      'cerca parole',
+      'parole nascoste',
+      'stampabile PDF',
+      'gratis online',
       'senza registrazione',
-      'stampabile',
-      'PDF',
-      'prova gratuita con filigrana',
     ],
-    titleTag: 'Generatore di crucipuzzle gratis | LessonCraftStudio',
-    metaDescription: 'Crea crucipuzzle gratis online, senza registrazione. Griglie da 5×5 a 30×30, lettere localizzate, 11 lingue. Licenza commerciale per vendere.',
+    titleTag: 'Crucipuzzle da stampare gratis online | LessonCraftStudio',
+    metaDescription: 'Crea crucipuzzle da stampare gratis online, senza registrazione. Griglie da 5×5 a 30×30, lettere localizzate, 11 lingue. La filigrana si rimuove con licenza.',
   },
 
   hero: {
-    title: 'Generatore di Crucipuzzle Gratis Online',
+    title: 'Crucipuzzle da Stampare Gratis Online',
     tagline: 'Crea puzzle con parole nascoste in griglie regolabili, controlli direzionali e lettere riempitive sensibili alla lingua in 11 lingue',
     description: 'Crea crucipuzzle gratis direttamente nel browser — nessuna registrazione, nessun download. Lo strumento offre controllo preciso sulla difficoltà: dimensione della griglia regolabile da 5×5 a 30×30 e direzioni delle parole configurabili (diagonali e inverse attivabili). Scegli tra tre fonti di contenuto: Libreria Immagini con oltre 3.100 illustrazioni in 104 temi, Modifica Manuale per personalizzare i nomi, o Lista Parole Personalizzata per puzzle solo testo. Le lettere riempitive sono sensibili alla lingua — le griglie italiane, tedesche, francesi e svedesi usano caratteri autentici con frequenze naturali. Un foglio risposte codificato a colori evidenzia ogni parola trovata. Esporta PDF e JPEG a oltre 400 DPI in formato Letter, A4 o dimensioni personalizzate. Vuoi vendere i tuoi crucipuzzle su Etsy, Amazon KDP o Gumroad? Passa alla licenza commerciale per rimuovere la filigrana e ottenere i diritti di rivendita completi.',
   },

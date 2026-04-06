@@ -1,26 +1,28 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'generatore schede alfabeto gratis',
+    primaryKeyword: 'schede alfabeto da stampare gratis',
     secondaryKeywords: [
-      'schede alfabeto gratis online senza registrazione',
-      'generatore treno alfabeto gratis PDF stampabile',
-      'schede riconoscimento lettere gratis bambini',
-      'creare schede alfabeto gratis con immagini',
-      'treno dell\'alfabeto gratis prova gratuita',
+      'alfabeto gratis online da stampare',
+      'schede lettere da stampare gratis PDF',
+      'generatore alfabeto gratis senza registrazione',
+      'schede abbinamento lettera-immagine gratis',
+      'treno dell\'alfabeto da stampare gratis',
     ],
     lsiKeywords: [
-      'schede alfabeto gratis senza registrazione',
-      'stampabile PDF gratis filigrana',
-      'prova gratuita licenza commerciale',
-      'abbinamento lettera-immagine gratis online',
+      'alfabeto',
+      'lettere',
+      'abbinamento lettera-immagine',
+      'stampabile PDF',
+      'gratis online',
+      'senza registrazione',
     ],
-    titleTag: 'Schede alfabeto gratis online | LessonCraftStudio',
-    metaDescription: 'Crea schede alfabeto gratis online, senza registrazione. 11 vagoni colorati, abbinamento lettera-immagine, 11 lingue. Licenza commerciale disponibile.',
+    titleTag: 'Schede alfabeto da stampare gratis | LessonCraftStudio',
+    metaDescription: 'Crea schede alfabeto da stampare gratis online, senza registrazione. 11 vagoni colorati, abbinamento lettera-immagine, 11 lingue. Prova subito nel browser.',
     },
 
   hero: {
-    title: 'Crea Schede Alfabeto Gratis con il Treno',
+    title: 'Schede Alfabeto da Stampare Gratis',
     tagline: 'Crea schede colorate con treno e lettere con abbinamento immagine-lettera in 11 lingue',
     description: 'Crea schede alfabeto gratis direttamente nel browser, senza registrazione e senza installare nulla. Lo strumento dispone 11 vagoni colorati lungo la pagina, ciascuno con una lettera e un\'illustrazione corrispondente. Modalità Creazione Automatica o Selezione Manuale, cursore difficoltà da 3 a 11 indizi, 11 alfabeti nativi con abbinamento lettera-immagine sensibile alla lingua. Sfoglia oltre 3.100 immagini in 104 temi, scegli tra 7 famiglie di font ed esporta PDF e JPEG a 300 DPI — tutto gratis con filigrana, istantaneamente. Ogni funzionalità è disponibile nella prova gratuita senza limiti. Vuoi vendere le tue schede su Etsy, Amazon KDP o Gumroad? Passa alla licenza commerciale per rimuovere la filigrana e usare i file per scopi commerciali.',
   },

@@ -2,11 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'puzzle pezzi mancanti KDP vendere',
-    secondaryKeywords: ['schede pezzi mancanti bambini vendere', 'puzzle completamento immagini Etsy', 'libri puzzle pezzi mancanti KDP'],
-    lsiKeywords: ['attività logica visiva bambini', 'schede ragionamento completamento', 'puzzle percezione visiva'],
-    titleTag: 'Puzzle Pezzi Mancanti: Vendere su KDP | LCS',
-    metaDescription: 'Pubblichi libri di puzzle pezzi mancanti su Amazon KDP. Una nicchia unica che sviluppa logica visiva e ragionamento nei bambini.',
+    primaryKeyword: 'puzzle pezzi mancanti da stampare bambini',
+    secondaryKeywords: [
+      'schede completa il disegno bambini PDF',
+      'esercizi pezzi mancanti logica visiva',
+      'gioco trova il pezzo mancante stampare',
+      'puzzle osservazione bambini da stampare',
+    ],
+    lsiKeywords: [
+      'pezzi mancanti',
+      'completa',
+      'logica visiva',
+      'osservazione',
+      'puzzle',
+      'ragionamento',
+    ],
+    titleTag: 'Puzzle Pezzi Mancanti da Stampare | LCS',
+    metaDescription: 'Puzzle con pezzi mancanti da stampare per bambini. Esercizi di logica visiva e osservazione con LessonCraftStudio — 33 generatori, 11 lingue.',
   },
   hero: {
     title: 'Puzzle Pezzi Mancanti: Vendere su KDP e Etsy',

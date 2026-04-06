@@ -2,11 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'stampabili San Valentino vendere',
-    secondaryKeywords: ['stampabili tematici vendere Etsy Italia', 'nicchia stampabili educativi mercato', 'schede tematiche stagionali vendere'],
-    lsiKeywords: ['stampabili educativi nicchia', 'mercato stagionale stampabili', 'Etsy Italia schede tematiche'],
-    titleTag: 'Stampabili San Valentino: Vendere | LCS',
-    metaDescription: 'Venda stampabili di San Valentino in Italia. Schede tematiche, attività creative e giochi per il 14 febbraio.',
+    primaryKeyword: 'schede didattiche San Valentino da stampare',
+    secondaryKeywords: [
+      'attività San Valentino scuola da stampare',
+      'schede amore amicizia bambini PDF',
+      'lavoretti San Valentino da stampare colorare',
+      'giochi San Valentino educativi stampabili',
+    ],
+    lsiKeywords: [
+      'San Valentino',
+      'amore',
+      'amicizia',
+      'cuori',
+      'febbraio',
+      '14 febbraio',
+    ],
+    titleTag: 'Schede San Valentino da Stampare Bambini | LCS',
+    metaDescription: 'Schede didattiche di San Valentino da stampare per bambini. Attività su amore e amicizia per la scuola con LessonCraftStudio — 33 generatori, 11 lingue.',
   },
   hero: {
     title: 'Stampabili di San Valentino: Come Vendere',

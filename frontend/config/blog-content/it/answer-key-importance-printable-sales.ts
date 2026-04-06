@@ -2,11 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'importanza chiave correzione vendite stampabili',
-    secondaryKeywords: ['come creare stampabili vendere', 'guida pratica stampabili business', 'tutorial stampabili educativi'],
-    lsiKeywords: ['creazione stampabili professionali', 'workflow produzione schede', 'ottimizzazione vendita stampabili'],
-    titleTag: 'Chiave di Correzione: Importanza Vendite | LCS',
-    metaDescription: 'Scopra perché la chiave di correzione è fondamentale per le vendite di stampabili. Aumenta valore percepito e recensioni.',
+    primaryKeyword: 'schede didattiche con soluzioni da stampare',
+    secondaryKeywords: [
+      'schede con chiave di correzione PDF',
+      'esercizi con risposte per genitori',
+      'schede autocorrettive da stampare',
+      'attività con soluzioni scuola primaria',
+    ],
+    lsiKeywords: [
+      'soluzioni',
+      'chiave correzione',
+      'autocorrezione',
+      'verifica',
+      'risposte',
+      'autonomia',
+    ],
+    titleTag: 'Schede con Soluzioni da Stampare | LCS',
+    metaDescription: 'Schede didattiche con chiave di correzione inclusa per studio autonomo. Create esercizi con soluzioni usando LessonCraftStudio — 33 generatori.',
   },
   hero: {
     title: 'L\'Importanza della Chiave di Correzione per le Vendite',

@@ -2,26 +2,26 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'da guadagno extra a business stampabili a tempo pieno',
+    primaryKeyword: 'come far crescere un business di stampabili',
     secondaryKeywords: [
-      'scalare negozio stampabili Etsy oltre 300 prodotti',
-      'framework crescita business download digitali',
-      'distribuzione multi-piattaforma schede didattiche',
-      'strategia bundling per massimizzare ricavi',
-      'espansione mercati multilingue per venditori',
+      'scalare vendite stampabili educativi',
+      'espandere catalogo stampabili online',
+      'crescita business prodotti digitali educativi',
+      'strategie per aumentare vendite stampabili',
     ],
     lsiKeywords: [
-      'ottimizzazione flusso di lavoro produzione batch',
-      'reinvestimento ricavi business stampabili',
-      'traguardi crescita da validazione a tempo pieno',
-      'catalogo 300 inserzioni strategie operative',
+      'crescita',
+      'catalogo',
+      'multi-piattaforma',
+      'bundling',
+      'stampabili educativi',
     ],
-    titleTag: 'Da guadagno extra a business pieno | LessonCraftStudio',
-    metaDescription: 'Come scalare il tuo business di stampabili da guadagno extra a tempo pieno. Espansione catalogo, multi-piattaforma, bundling e mercati multilingue.',
+    titleTag: 'Come far crescere il business stampabili | LCS',
+    metaDescription: 'Come far crescere il tuo business di stampabili educativi: espansione catalogo, distribuzione multi-piattaforma, bundling e mercati multilingue.',
   },
 
   hero: {
-    title: 'Da Guadagno Extra a Business di Stampabili a Tempo Pieno',
+    title: 'Come Far Crescere il Tuo Business di Stampabili',
     tagline: 'Framework di crescita strategica per venditori di stampabili — dall\'espansione del catalogo e distribuzione multi-piattaforma alla strategia di bundling e ottimizzazione del flusso di lavoro, il manuale operativo per scalare oltre un progetto secondario',
     description: 'Avviare un\'attività di stampabili e scalarla richiedono competenze diverse. Il pensiero sistemico e la disciplina produttiva sostituiscono la creatività iniziale man mano che cresci. Questa guida fornisce un framework concreto per venditori italiani in ogni fase: dalle prime 25 inserzioni su Etsy.it fino alla maturità del catalogo con 300 o più prodotti distribuiti su più piattaforme. Imparerai come produrre in batch, creare bundle per ordini medi più alti, espanderti nei mercati multilingue europei e ottimizzare il flusso di lavoro. Prova gratuita con filigrana per implementare le tattiche di scalata immediatamente.',
   },

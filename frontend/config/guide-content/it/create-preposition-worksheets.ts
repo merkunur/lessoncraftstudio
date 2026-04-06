@@ -2,26 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'creare schede preposizioni italiano L2 da vendere',
+    primaryKeyword: 'come creare schede preposizioni da stampare',
     secondaryKeywords: [
-      'schede preposizioni italiano per stranieri Etsy e KDP',
-      'generatore schede linguaggio spaziale uso commerciale',
-      'vendere materiali italiano L2 CILS CELI PLIDA',
-      'creare schede preposizioni con licenza commerciale',
-      'schede italiano per stranieri da vendere su Eduki',
+      'schede preposizioni italiano per stranieri PDF',
+      'creare esercizi linguaggio spaziale da stampare',
+      'generatore schede preposizioni con scene visive',
+      'attività preposizioni italiano L2 da stampare',
     ],
     lsiKeywords: [
-      'preposizioni italiane su sotto sopra accanto tra dentro fuori',
-      'materiali italiano L2 per certificazioni CILS CELI PLIDA',
-      'sostituzione forme per varietà visiva scene',
-      'Eduki come piattaforma primaria per italiano L2',
+      'preposizioni italiane',
+      'linguaggio spaziale bambini',
+      'schede italiano L2',
+      'scene visive preposizioni',
+      'esercizi CILS CELI PLIDA',
     ],
-    titleTag: 'Schede preposizioni italiano L2 | LessonCraftStudio',
-    metaDescription: 'Crea schede preposizioni per italiano L2 con scene visive, 2 modalità esercizio e 7 preposizioni. Vendi su Eduki, Etsy e come materiale CILS/CELI/PLIDA.',
+    titleTag: 'Creare schede preposizioni da stampare | Guida',
+    metaDescription: 'Come creare schede di preposizioni da stampare con scene visive, 2 modalità di esercizio e 7 preposizioni. Ideale per italiano L2 e scuola primaria.',
   },
 
   hero: {
-    title: 'Schede preposizioni italiano L2 da vendere',
+    title: 'Come creare schede di preposizioni da stampare',
     tagline: 'Un tutorial passo-passo per creare schede di linguaggio spaziale con due modalità di esercizio (Completa lo Spazio per il richiamo attivo e Scelta Multipla per la pratica guidata), Sostituzione Forme che moltiplica le combinazioni di scene attraverso un livello immagine separato, una griglia di selezione preposizioni per scegliere esattamente quali parole di posizione includere, da 1 a 8 esercizi per pagina configurabili, parole preposizionali sensibili alla lingua che si traducono negli equivalenti nativi in 11 lingue, e chiavi di risposta generate automaticamente da vendere in tutto il mondo su Etsy, Amazon KDP e Gumroad',
     description: 'Le schede sulle preposizioni italiane rappresentano un\'opportunità unica nel mercato dell\'italiano L2 (italiano per stranieri). Con milioni di studenti nel mondo che preparano certificazioni CILS, CELI e PLIDA, la domanda di materiali visivi per le preposizioni spaziali è costante e in crescita. Eduki è la piattaforma primaria per questo mercato, con insegnanti di italiano L2 che cercano attivamente esercizi basati su scene visive. Il Generatore Schede Preposizioni crea attività dove gli utenti identificano la preposizione corretta (su, sotto, sopra, accanto, tra, dentro, fuori) studiando scene con immagini concrete. Due modalità di esercizio servono diversi livelli: Completa lo Spazio per il richiamo attivo degli studenti intermedi, e Scelta Multipla per la pratica guidata dei principianti. La Sostituzione Forme moltiplica la varietà: 10 immagini con 10 forme diverse producono 100 scene uniche. La sensibilità linguistica genera parole preposizionali native in 11 lingue, creando 11 prodotti genuinamente diversi da un singolo design. Questa guida ti mostra ogni passaggio dalla configurazione all\'esportazione di file pronti per la produzione. Che tu stia creando il tuo primo prodotto di italiano L2 o espandendo un catalogo esistente, avrai schede finite pronte per la pubblicazione.',
   },

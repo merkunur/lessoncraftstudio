@@ -2,11 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'stampabili istruzione parentale mercato crescita',
-    secondaryKeywords: ['stampabili tematici vendere Etsy Italia', 'nicchia stampabili educativi mercato', 'schede tematiche stagionali vendere'],
-    lsiKeywords: ['stampabili educativi nicchia', 'mercato stagionale stampabili', 'Etsy Italia schede tematiche'],
-    titleTag: 'Stampabili Istruzione Parentale: Mercato | LCS',
-    metaDescription: 'Scopra il mercato in crescita degli stampabili per l\'istruzione parentale in Italia. Nicchie, prodotti e strategie.',
+    primaryKeyword: 'materiale didattico istruzione parentale stampare',
+    secondaryKeywords: [
+      'schede homeschooling italiano da stampare',
+      'risorse educazione parentale PDF',
+      'schede didattiche casa scuola familiare',
+      'materiale istruzione domiciliare stampabile',
+    ],
+    lsiKeywords: [
+      'istruzione parentale',
+      'homeschooling',
+      'casa',
+      'famiglia',
+      'autonomia',
+      'programma',
+    ],
+    titleTag: 'Materiale Istruzione Parentale da Stampare | LCS',
+    metaDescription: 'Materiale didattico per istruzione parentale da stampare. Schede complete per homeschooling con LessonCraftStudio — 33 generatori, 11 lingue.',
   },
   hero: {
     title: 'Stampabili per l\'Istruzione Parentale: Un Mercato in Crescita',

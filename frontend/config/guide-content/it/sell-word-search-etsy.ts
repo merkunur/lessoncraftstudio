@@ -2,26 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'vendere crucipuzzle su Etsy consigli',
+    primaryKeyword: 'vendere crucipuzzle su Etsy',
     secondaryKeywords: [
       'come vendere crucipuzzle stampabili su Etsy',
       'negozio Etsy puzzle cerca parole strategia',
-      'bundle crucipuzzle cruciverba anagrammi Etsy venditori',
+      'bundle crucipuzzle e cruciverba Etsy',
       'ottimizzazione inserzioni Etsy puzzle linguistici',
-      'prezzi crucipuzzle download digitale Etsy',
     ],
     lsiKeywords: [
-      'puzzle stampabili multilingue Etsy mercato italiano',
-      'tag SEO Etsy schede puzzle cerca parole',
-      'tempistica stagionale festività crucipuzzle venditori',
-      'cross-selling cruciverba anagrammi crittogrammi negozio Etsy',
+      'negozio Etsy puzzle',
+      'crucipuzzle stampabili',
+      'inserzioni ottimizzate',
+      'tempistica stagionale festività',
+      'cross-selling puzzle',
     ],
-    titleTag: 'Vendere crucipuzzle su Etsy | LessonCraftStudio',
-    metaDescription: 'Consigli per vendere crucipuzzle su Etsy: SEO, inserzioni ottimizzate, bundle con cruciverba e anagrammi. Scopri come lanciare il tuo negozio di puzzle.',
+    titleTag: 'Vendere crucipuzzle su Etsy | Guida',
+    metaDescription: 'Come vendere crucipuzzle su Etsy: SEO, inserzioni ottimizzate, bundle con cruciverba e anagrammi. Lancia il tuo negozio di puzzle linguistici.',
   },
 
   hero: {
-    title: 'Vendere crucipuzzle su Etsy: consigli per venditori',
+    title: 'Vendere crucipuzzle su Etsy: guida pratica',
     tagline: 'Una guida completa alla piattaforma per costruire un negozio Etsy redditizio vendendo cerca parole e formati complementari di puzzle linguistici — configurazione del negozio Etsy, ottimizzazione SEO con tutti i 13 tag, titoli e descrizioni delle inserzioni che si posizionano per i termini di ricerca degli acquirenti di puzzle, fotografia dei prodotti che mostra griglie di puzzle e chiavi di risposta, strategie di prezzo per puzzle individuali e pacchetti tematici, tempistica stagionale per i picchi delle festività e della scuola, pianificazione del catalogo tra cerca parole, cruciverba, anagrammi e crittogrammi, opportunità di prodotti specifici per lingua nei mercati multilingue, e ottimizzazione continua del negozio utilizzando le statistiche Etsy e l\'analisi delle ricerche',
     description: 'I crucipuzzle sono tra i formati di puzzle stampabili più venduti su Etsy, con una domanda costante da parte di genitori, coordinatori di attività e appassionati di puzzle in Italia e nel mondo. Questa guida ti mostra come costruire un negozio Etsy redditizio vendendo crucipuzzle insieme a cruciverba, anagrammi e crittogrammi. Imparerai a ricercare la domanda degli acquirenti, generare inventario con 4 generatori di puzzle, scrivere inserzioni ottimizzate per il motore di ricerca di Etsy e creare bundle tematici che aumentano il valore medio dell\'ordine. Scoprirai anche come sfruttare il vantaggio multilingue per raggiungere mercati con meno concorrenza e il potenziale di crossover con Amazon KDP.',
   },

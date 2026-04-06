@@ -2,26 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'creare schede di scrittura da vendere',
+    primaryKeyword: 'come creare schede di pregrafismo da stampare',
     secondaryKeywords: [
-      'schede scrittura stampabili per Etsy e KDP',
-      'generatore schede calligrafia uso commerciale',
-      'vendere quaderni di scrittura su Amazon KDP',
-      'creare schede tracciamento lettere con licenza commerciale',
-      'schede prescrittura da vendere su Gumroad',
+      'schede prescrittura per bambini da stampare PDF',
+      'creare schede tracciamento lettere da stampare',
+      'generatore schede calligrafia prescolare',
+      'esercizi di scrittura da stampare con frecce',
     ],
     lsiKeywords: [
-      'tracciamento lettere con frecce ordine tratti',
-      'prodotti stampabili scrittura per venditori',
-      'quaderni scrittura prescolare marketplace',
-      'schede corsivo e stampatello pronte per la stampa',
+      'pregrafismo prescolare',
+      'tracciamento lettere',
+      'schede prescrittura bambini',
+      'ordine tratti frecce',
+      'corsivo e stampatello',
     ],
-    titleTag: 'Schede di scrittura da vendere | LessonCraftStudio',
-    metaDescription: 'Crea schede di scrittura con tracciamento progressivo, frecce ordine tratti e 5 stili font. Esporta PDF professionali per vendere su Etsy, KDP e Gumroad.',
+    titleTag: 'Creare schede di pregrafismo da stampare | Guida',
+    metaDescription: 'Come creare schede di pregrafismo e prescrittura da stampare con tracciamento progressivo, frecce ordine tratti e 5 stili di font configurabili.',
   },
 
   hero: {
-    title: 'Schede di scrittura da vendere: guida completa',
+    title: 'Come creare schede di pregrafismo da stampare',
     tagline: 'Tutorial passo passo per creare schede di scrittura professionali con modalità di esercizio progressivo, frecce dell\'ordine dei tratti ed esportazione pronta per la stampa per Etsy, Amazon KDP e Gumroad',
     description: 'Le schede di scrittura sono tra i prodotti stampabili più richiesti e con la domanda più costante su ogni marketplace. In Italia, genitori e scuole cercano attivamente materiali per l\'esercizio della scrittura — dal prescolare al corsivo in prima elementare — creando un\'opportunità redditizia per i venditori di stampabili. Il volume di acquisto è altissimo: un singolo acquirente può comprare centinaia di pagine in un anno scolastico, una scheda per ogni lettera. Questa guida ti mostra come usare il Generatore di Schede di Scrittura per creare prodotti professionali con tre modalità progressive (Tracciamento, Tracciamento Sfumato e Copia Guidata), cinque stili di font con frecce dell\'ordine dei tratti e configurazione multi-riga. Ogni riga è configurabile indipendentemente, permettendoti di creare schede che progrediscono dal tracciamento alla scrittura indipendente su una singola pagina. Che tu stia lanciando il tuo primo prodotto o espandendo un catalogo di alfabetizzazione, avrai schede finite pronte per la pubblicazione.',
   },

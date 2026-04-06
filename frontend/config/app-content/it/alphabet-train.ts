@@ -2,24 +2,27 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'schede dell\'alfabeto da vendere su Etsy e KDP',
+    primaryKeyword: 'schede alfabeto da stampare',
     secondaryKeywords: [
-      'creare schede treno dell\'alfabeto per Amazon KDP',
-      'generatore schede lettere stampabili licenza commerciale',
-      'vendere attività alfabeto su Etsy Italia',
-      'schede riconoscimento lettere per business di stampabili',
+      'esercizi alfabeto scuola infanzia',
+      'riconoscimento lettere schede',
+      'schede lettere da stampare',
+      'imparare l\'alfabeto schede',
     ],
     lsiKeywords: [
-      'prodotti digitali alfabeto mercato italiano Etsy',
-      'nicchia schede lettere per venditori KDP',
-      'stampabili alfabetizzazione uso commerciale Italia',
+      'ABC',
+      'maiuscole',
+      'minuscole',
+      'ordine alfabetico',
+      'scuola dell\'infanzia',
+      'classe prima',
     ],
-    titleTag: 'Schede Alfabeto da Vendere su Etsy e KDP | Generatore',
-    metaDescription: 'Crea schede dell\'alfabeto da vendere su Etsy e Amazon KDP. Vagoni con lettere, 11 lingue, 104 temi. Licenza commerciale inclusa. 49 $ pagamento unico.',
+    titleTag: 'Schede alfabeto da stampare | Generatore esercizi ABC',
+    metaDescription: 'Create schede dell\'alfabeto con immagini tematiche per il riconoscimento delle lettere. Soluzioni automatiche, 11 lingue. Prova gratis.',
   },
 
   hero: {
-    title: 'Schede dell\'Alfabeto da Vendere su Etsy e Amazon KDP',
+    title: 'Schede alfabeto da stampare — Generatore esercizi ABC con immagini',
     tagline: 'Ogni vagone trasporta una lettera e un\'immagine corrispondente — costruendo il riconoscimento delle lettere vagone dopo vagone.',
     description:
       'Le schede dell\'alfabeto sono tra i prodotti stampabili più venduti su Etsy e Amazon KDP, e il mercato italiano rappresenta un\'opportunità ancora poco sfruttata. Con questo generatore crei schede treno dove 11 vagoni colorati trasportano lettere abbinate a illustrazioni tematiche. L\'alfabeto italiano ha 21 lettere — perfette per schede compatte e mirate che si distinguono dalla concorrenza. Scegli tra creazione automatica o manuale, aggiungi da 3 a 11 indizi configurabili e trasforma il riconoscimento delle lettere in un esercizio attivo. La libreria integrata offre oltre 3100 illustrazioni in 104 temi. L\'Accesso Completo sblocca 11 lingue con alfabeti nativi — tedesco con Ä/Ö/Ü, spagnolo con Ñ — moltiplicando il catalogo per undici da un unico flusso di lavoro. Ogni scheda genera un foglio risposte automatico. Esporta PDF e JPEG a oltre 400 DPI nei formati A4, Lettera o Quadrato. Vendi su Etsy, Amazon KDP, Eduki o Edudoro con la licenza commerciale inclusa. Prova gratis con tutte le funzionalità, senza registrazione. I download includono una filigrana; acquista una licenza per rimuoverla.',

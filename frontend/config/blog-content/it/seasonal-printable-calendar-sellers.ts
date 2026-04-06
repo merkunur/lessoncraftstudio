@@ -2,11 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'calendario stampabili stagionali venditori',
-    secondaryKeywords: ['business stampabili digitali Italia', 'vendere stampabili online strategia', 'Etsy KDP stampabili mercato italiano'],
-    lsiKeywords: ['stampabili educativi business', 'vendita online prodotti digitali', 'mercato italiano stampabili 2026'],
-    titleTag: 'Calendario Stagionale per Stampabili | LCS',
-    metaDescription: 'Il calendario completo per venditori di stampabili in Italia. Quando creare, pubblicare e promuovere per ogni stagione.',
+    primaryKeyword: 'calendario schede didattiche stagionali italiano',
+    secondaryKeywords: [
+      'quando creare schede per ogni stagione',
+      'schede stagionali scuola primaria Italia',
+      'calendario attività educative italiane',
+      'pianificare materiale didattico per stagione',
+    ],
+    lsiKeywords: [
+      'stagioni',
+      'calendario',
+      'pianificazione',
+      'festività',
+      'scuola',
+      'Italia',
+    ],
+    titleTag: 'Calendario Schede Stagionali Italiano | LCS',
+    metaDescription: 'Calendario completo di schede didattiche stagionali per la scuola italiana. Pianifica per ogni festività con LessonCraftStudio — 33 generatori.',
   },
   hero: {
     title: 'Il Calendario Stagionale dei Venditori di Stampabili',

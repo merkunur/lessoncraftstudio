@@ -1,26 +1,28 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'generatore di cartelle tombola gratis immagini',
+    primaryKeyword: 'cartelle tombola da stampare gratis',
     secondaryKeywords: [
-      'cartelle tombola gratis online senza registrazione',
-      'generatore tombola illustrata gratis PDF stampabile',
-      'creare cartelle tombola gratis con immagini bambini',
-      'tombola natale gratis generatore cartelle',
-      'cartelle bingo gratis stampabili prova gratuita',
+      'tombola gratis online da stampare',
+      'cartelle bingo gratis PDF da stampare',
+      'generatore tombola gratis senza registrazione',
+      'cartelle tombola con immagini gratis',
+      'creare cartelle bingo gratis online',
     ],
     lsiKeywords: [
-      'tombola gratis senza registrazione',
-      'stampabile PDF gratis filigrana',
-      'prova gratuita licenza commerciale',
-      'generatore cartelle tombola immagini gratis online',
+      'tombola',
+      'bingo',
+      'cartelle da stampare',
+      'stampabile PDF',
+      'gratis online',
+      'senza registrazione',
     ],
-    titleTag: 'Cartelle tombola gratis con immagini | LessonCraftStudio',
-    metaDescription: 'Crea cartelle tombola gratis online, senza registrazione. Griglie da 3x3 a 5x5, generazione batch, foglio di richiamo. Licenza commerciale disponibile.',
+    titleTag: 'Cartelle tombola da stampare gratis | LessonCraftStudio',
+    metaDescription: 'Crea cartelle tombola da stampare gratis online, senza registrazione. Griglie da 3×3 a 5×5, generazione batch, foglio di richiamo incluso. Prova subito.',
     },
 
   hero: {
-    title: 'Crea Cartelle Tombola Gratis con Immagini',
+    title: 'Cartelle Tombola da Stampare Gratis',
     tagline: 'Generatore di cartelle bingo illustrate con griglie configurabili da 3×3 a 5×5, generazione batch di 1–10 cartelle uniche per set, esportazione ZIP di tutte le cartelle in un unico download, doppia modalità di riempimento per celle e gettoni circolari in modo indipendente, foglio di richiamo dedicato con griglia di parole dinamica, selezione personalizzata del richiamo con contatore in tempo reale e 104 collezioni tematiche di immagini per cartelle bingo illustrate vendibili in tutto il mondo',
     description: 'Crea cartelle tombola gratis direttamente nel browser, senza registrazione e senza installare nulla. Configura griglie da 3×3 a 5×5, genera da 1 a 10 cartelle uniche per batch ed esporta in ZIP con un clic. Scegli riempimento Immagine o Parola per celle e gettoni indipendentemente, creando quattro stili diversi. Foglio di richiamo dedicato con griglia di parole dinamica per chi conduce il gioco. Sfoglia 104 collezioni tematiche con oltre 3.100 illustrazioni. Esporta PDF e JPEG a 300 DPI in formato Letter, A4, Quadrato o personalizzato — tutto gratis con filigrana, istantaneamente. Ogni funzionalità è accessibile nella prova gratuita senza limiti. Vuoi vendere le tue cartelle tombola su Etsy, Amazon KDP o Gumroad? Passa alla licenza commerciale per rimuovere la filigrana e sbloccare l\'uso commerciale illimitato.',
   },

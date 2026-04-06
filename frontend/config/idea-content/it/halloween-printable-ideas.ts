@@ -2,26 +2,25 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Stampabili Halloween — Idee business | LessonCraftStudio',
-    metaDescription: 'Avvia un business di stampabili Halloween: zucche, fantasmi e streghe. Idee di prodotto e strumenti per creare schede da vendere su Etsy e KDP a ottobre.',
-
-    primaryKeyword: 'stampabili di Halloween idee business',
+    titleTag: 'Schede di Halloween da stampare per bambini | LCS',
+    metaDescription: 'Crea schede di Halloween da stampare: colorare zucche e fantasmi, crucipuzzle spaventosi, conteggio e labirinti a tema Halloween per bambini 3-8 anni.',
+    primaryKeyword: 'schede di Halloween da stampare',
     secondaryKeywords: [
-      'vendere stampabili Halloween su Etsy',
-      'creare schede Halloween per KDP',
-      'business stampabili ottobre spaventoso',
-      'nicchia stampabili Halloween redditizia',
-      'idee prodotto stampabili zucche fantasmi',
+      'attività Halloween da stampare per bambini',
+      'stampabili Halloween scuola primaria',
+      'colorare zucche e fantasmi da stampare',
+      'giochi Halloween da stampare gratis',
     ],
     lsiKeywords: [
-      'mercato stampabili Halloween Italia',
-      'generatore schede tema Halloween',
-      'vendere stampabili digitali ottobre',
-      'stampabili festa Halloween bambini',
+      'scuola primaria',
+      'colorare',
+      'zucche',
+      'fantasmi',
+      'labirinti',
     ],
   },
   hero: {
-    title: 'Stampabili Halloween: Idee di Business Stagionale',
+    title: 'Schede di Halloween da Stampare: Idee Creative',
     description: 'Halloween genera una delle impennate di domanda più intense nel mercato dei stampabili, con una finestra di vendita concentrata ma estremamente redditizia da fine agosto a fine ottobre. In Italia, Halloween è cresciuto enormemente negli ultimi anni, diventando una delle feste più attese dai bambini italiani — con feste in maschera, eventi a tema nelle scuole e il tradizionale "dolcetto o scherzetto" che si è diffuso in tutto il paese. La nicchia offre una straordinaria diversità visiva: zucche, fantasmi, streghe, pipistrelli, ragni e scheletri forniscono una tavolozza creativa ricchissima. Per gli imprenditori digitali, la chiave è la preparazione anticipata: pubblica il catalogo entro fine agosto per massimizzare il tempo di indicizzazione. Con i nostri generatori di schede puoi creare stampabili Halloween da vendere su Etsy, Amazon KDP e Gumroad, costruendo una linea di prodotti che genera entrate prevedibili ogni anno.',
   },
   marketOverview: `La nicchia dei stampabili di Halloween si posiziona come la seconda opportunità stagionale più preziosa per i venditori di prodotti educativi, seconda solo al Natale in termini di volume di domanda totale ma con una finestra di vendita più breve e concentrata che rende la tempistica particolarmente importante. i venditori iniziano a pianificare le attività stampabili di ottobre e le feste di Halloween a fine agosto e inizio settembre, cercando schede a tema che bilancino il divertimento spaventoso con un genuino valore educativo. I genitori cercano attività di Halloween adatte all\'età che trasformino il tempo davanti allo schermo in esperienze di apprendimento creativo durante le settimane di entusiasmo per i costumi e l\'attesa del dolcetto o scherzetto. Gli organizzatori di feste e gli animatori di eventi acquistano schede di attività a tema per eventi a tema, eventi della comunità, raduni dolcetto o scherzetto e celebrazioni familiari di Halloween.

@@ -2,11 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'creare schede in batch efficientemente',
-    secondaryKeywords: ['come creare stampabili vendere', 'guida pratica stampabili business', 'tutorial stampabili educativi'],
-    lsiKeywords: ['creazione stampabili professionali', 'workflow produzione schede', 'ottimizzazione vendita stampabili'],
-    titleTag: 'Creare Schede in Batch: Efficienza | LCS',
-    metaDescription: 'Impari a creare schede in batch per massimizzare la produttività. Workflow, template e automazione per venditori.',
+    primaryKeyword: 'creare schede didattiche velocemente online',
+    secondaryKeywords: [
+      'generatore schede didattiche automatico',
+      'creare esercizi in serie da stampare',
+      'come fare schede didattiche PDF',
+      'strumento creazione schede scuola',
+    ],
+    lsiKeywords: [
+      'generatore',
+      'automatico',
+      'veloce',
+      'PDF',
+      'personalizzare',
+      'template',
+    ],
+    titleTag: 'Creare Schede Didattiche Veloci Online | LCS',
+    metaDescription: 'Come creare schede didattiche in serie con un generatore automatico. Produce esercizi professionali in minuti con LessonCraftStudio — 33 strumenti.',
   },
   hero: {
     title: 'Come Creare Schede in Batch in Modo Efficiente',

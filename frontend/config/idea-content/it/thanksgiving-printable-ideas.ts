@@ -2,25 +2,26 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Stampabili ringraziamento da vendere | LessonCraftStudio',
-    metaDescription: 'Crea stampabili sulla gratitudine e il raccolto da vendere su Etsy e KDP. Idee prodotto per il mercato USA e italiano con temi autunnali e festa dei nonni.',
-    primaryKeyword: 'stampabili ringraziamento da vendere',
+    titleTag: 'Schede autunno e raccolto da stampare | LCS',
+    metaDescription: 'Crea schede autunnali da stampare: colorare zucche e foglie, conteggio raccolto, crucipuzzle autunno e attività sulla gratitudine per bambini 3-8 anni.',
+    primaryKeyword: 'schede autunno da stampare',
     secondaryKeywords: [
-      'vendere stampabili gratitudine su Etsy',
-      'business stampabili raccolto autunno KDP',
-      'creare stampabili festa dei nonni',
-      'nicchia stampabili gratitudine bambini',
-      'idee prodotto stampabili autunno zucche',
+      'attività autunnali da stampare per bambini',
+      'stampabili zucche e foglie da colorare',
+      'schede didattiche raccolto scuola primaria',
+      'giochi autunno da stampare gratis',
     ],
     lsiKeywords: [
-      'mercato stampabili gratitudine Italia USA',
-      'generatore schede tema raccolto autunno',
-      'vendere stampabili digitali novembre',
-      'stampabili festa nonni ottobre bambini',
+      'scuola primaria',
+      'autunno',
+      'zucche',
+      'foglie',
+      'raccolto',
+      'gratitudine',
     ],
   },
   hero: {
-    title: 'Stampabili Gratitudine e Raccolto: Vendere in Autunno',
+    title: 'Schede Autunno e Raccolto da Stampare: Idee Creative',
     description: 'Il Thanksgiving americano non esiste in Italia, ma il tema della gratitudine e del raccolto autunnale offre opportunità straordinarie per i venditori di stampabili che servono sia il mercato USA sia quello italiano. Per il pubblico americano su Etsy — che rappresenta la maggioranza degli acquirenti — i stampabili del Ringraziamento generano domanda intensa da ottobre a novembre. Per il mercato italiano, puoi adattare questi temi alla Festa dei Nonni (2 ottobre), una ricorrenza molto sentita in Italia dove i bambini creano biglietti e lavoretti per i nonni. I sotto-temi autunnali — zucche, foglie, raccolto e ghiande — funzionano in entrambi i mercati. Per gli imprenditori digitali, questa doppia strategia massimizza le entrate. Con i nostri generatori di schede puoi creare stampabili a tema gratitudine da vendere su Etsy, Amazon KDP e Gumroad, servendo contemporaneamente il Thanksgiving USA e la Festa dei Nonni italiana.',
   },
   marketOverview: `La nicchia dei stampabili per il Giorno del Ringraziamento occupa una posizione privilegiata nel calendario delle vendite autunnali, generando una domanda concentrata durante ottobre e novembre quando venditori, genitori e famiglie che praticano l\'istruzione domestica cercano attivamente materiali educativi a tema raccolto. i venditori iniziano a pianificare le attività online di novembre e le celebrazioni del Ringraziamento a inizio ottobre, cercando schede tematiche che uniscano il calore della festività a risultati educativi genuini in matematica, alfabetizzazione e capacità di pensiero critico. I genitori cercano attività per il Ringraziamento adatte all\'età che servano a molteplici scopi: tenere occupati i bambini durante la preparazione delle festività, fornire intrattenimento educativo durante i viaggi in famiglia e creare momenti di apprendimento strutturato durante il lungo fine settimana del Ringraziamento quando le attività senza schermo sono particolarmente apprezzate.

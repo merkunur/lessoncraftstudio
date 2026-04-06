@@ -2,11 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'stampabili Halloween vendere ottobre',
-    secondaryKeywords: ['stampabili tematici vendere Etsy Italia', 'nicchia stampabili educativi mercato', 'schede tematiche stagionali vendere'],
-    lsiKeywords: ['stampabili educativi nicchia', 'mercato stagionale stampabili', 'Etsy Italia schede tematiche'],
-    titleTag: 'Stampabili Halloween: Vendere a Ottobre | LCS',
-    metaDescription: 'Venda stampabili di Halloween nel mercato italiano. Schede, giochi e attività per la festa più divertente dell\'autunno.',
+    primaryKeyword: 'schede didattiche Halloween da stampare bambini',
+    secondaryKeywords: [
+      'attività Halloween scuola primaria da stampare',
+      'schede Halloween scuola infanzia PDF',
+      'giochi Halloween educativi da stampare',
+      'lavoretti Halloween da stampare colorare',
+    ],
+    lsiKeywords: [
+      'Halloween',
+      'ottobre',
+      'zucca',
+      'fantasma',
+      'pipistrello',
+      'strega',
+    ],
+    titleTag: 'Schede Didattiche Halloween da Stampare | LCS',
+    metaDescription: 'Schede didattiche di Halloween da stampare per bambini. Attività educative per scuola primaria e infanzia con LessonCraftStudio — 33 generatori.',
   },
   hero: {
     title: 'Stampabili Halloween: Come Vendere a Ottobre',

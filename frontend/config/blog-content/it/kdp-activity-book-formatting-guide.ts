@@ -2,11 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'formattazione libri attività KDP guida',
-    secondaryKeywords: ['business stampabili digitali Italia', 'vendere stampabili online strategia', 'Etsy KDP stampabili mercato italiano'],
-    lsiKeywords: ['stampabili educativi business', 'vendita online prodotti digitali', 'mercato italiano stampabili 2026'],
-    titleTag: 'Formattazione Libri Attività KDP: Guida | LCS',
-    metaDescription: 'Guida alla formattazione di libri di attività per bambini su Amazon KDP. Margini, risoluzione, layout e specifiche.',
+    primaryKeyword: 'formattazione libro attività KDP bambini',
+    secondaryKeywords: [
+      'margini libro attività Amazon KDP guida',
+      'specifiche stampa libro esercizi bambini',
+      'layout interno libro attività KDP Italia',
+      'risoluzione immagini libro stampabile KDP',
+    ],
+    lsiKeywords: [
+      'KDP',
+      'formattazione',
+      'margini',
+      'risoluzione',
+      'layout',
+      'stampa',
+    ],
+    titleTag: 'Formattazione Libro Attività KDP Bambini | LCS',
+    metaDescription: 'Guida alla formattazione di libri di attività per bambini su Amazon KDP. Margini, layout e risoluzione con LessonCraftStudio — 33 generatori.',
   },
   hero: {
     title: 'Formattazione Libri di Attività per Amazon KDP',

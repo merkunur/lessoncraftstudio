@@ -2,11 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'creare pacchetti curricolari stampabili',
-    secondaryKeywords: ['come creare stampabili vendere', 'guida pratica stampabili business', 'tutorial stampabili educativi'],
-    lsiKeywords: ['creazione stampabili professionali', 'workflow produzione schede', 'ottimizzazione vendita stampabili'],
-    titleTag: 'Creare Pacchetti Curricolari Stampabili | LCS',
-    metaDescription: 'Crei pacchetti curricolari completi per la scuola italiana. Prodotti premium con il valore più alto del mercato.',
+    primaryKeyword: 'pacchetti didattici completi da stampare',
+    secondaryKeywords: [
+      'kit schede per anno scolastico da stampare',
+      'raccolta esercizi scuola primaria PDF',
+      'programma didattico stampabile completo',
+      'pacchetto schede tutte le materie',
+    ],
+    lsiKeywords: [
+      'pacchetto',
+      'programma',
+      'curricolo',
+      'anno scolastico',
+      'completo',
+      'materie',
+    ],
+    titleTag: 'Pacchetti Didattici Completi da Stampare | LCS',
+    metaDescription: 'Pacchetti didattici completi da stampare per l\'intero anno scolastico. Crea kit di schede con LessonCraftStudio — 33 generatori, 11 lingue.',
   },
   hero: {
     title: 'Come Creare Pacchetti Curricolari Stampabili',

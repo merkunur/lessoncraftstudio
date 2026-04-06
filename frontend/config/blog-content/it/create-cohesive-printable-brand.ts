@@ -2,11 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'creare brand stampabili coerente',
-    secondaryKeywords: ['come creare stampabili vendere', 'guida pratica stampabili business', 'tutorial stampabili educativi'],
-    lsiKeywords: ['creazione stampabili professionali', 'workflow produzione schede', 'ottimizzazione vendita stampabili'],
-    titleTag: 'Creare un Brand Stampabili Coerente | LCS',
-    metaDescription: 'Crei un brand visivo coerente per i Suoi stampabili. Stile, colori, font e presentazione che costruiscono fiducia. Vendi su Etsy & KDP con licenza commerciale.',
+    primaryKeyword: 'creare stile coerente schede didattiche',
+    secondaryKeywords: [
+      'design uniforme materiale didattico',
+      'stile grafico schede scolastiche',
+      'template schede didattiche personalizzate',
+      'grafica coerente materiale educativo',
+    ],
+    lsiKeywords: [
+      'stile',
+      'design',
+      'coerenza',
+      'template',
+      'grafica',
+      'professionale',
+    ],
+    titleTag: 'Creare Stile Coerente per Schede | LCS',
+    metaDescription: 'Come creare uno stile grafico coerente per le tue schede didattiche. Template professionali con LessonCraftStudio — 33 generatori, 11 lingue.',
   },
   hero: {
     title: 'Come Creare un Brand Coerente per i Suoi Stampabili',

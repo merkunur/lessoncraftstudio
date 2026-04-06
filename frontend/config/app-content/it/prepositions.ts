@@ -2,31 +2,28 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'schede di preposizioni per italiano L2 da vendere su Eduki',
+    primaryKeyword: 'schede concetti topologici da stampare',
     secondaryKeywords: [
-      'creare schede preposizioni italiano per stranieri',
-      'generatore esercizi preposizioni per certificazione CILS',
-      'schede vocabolario spaziale italiano L2 licenza commerciale',
-      'vendere materiali italiano per stranieri su Etsy',
-      'business stampabili preposizioni CELI PLIDA',
+      'preposizioni di luogo esercizi',
+      'orientamento spaziale schede',
+      'sopra sotto davanti dietro scheda',
+      'concetti spaziali infanzia',
     ],
     lsiKeywords: [
-      'licenza commerciale',
-      '300 DPI',
-      'pronto per la stampa',
-      'italiano L2',
-      'CILS',
-      'CELI',
-      'PLIDA',
-      'preposizioni articolate',
-      'business di stampabili',
+      'sopra',
+      'sotto',
+      'davanti',
+      'dietro',
+      'accanto',
+      'tra',
+      'spazio',
     ],
-    titleTag: 'Schede preposizioni italiano L2 per Eduki | LCS',
-    metaDescription: 'Crea schede di preposizioni per italiano L2 da vendere su Eduki e Etsy. 8 preposizioni, CILS/CELI/PLIDA, licenza commerciale. 49 $ pagamento unico.',
+    titleTag: 'Schede concetti topologici da stampare | Generatore preposizioni',
+    metaDescription: 'Create schede di concetti topologici e preposizioni con immagini tematiche. Soluzioni automatiche, 11 lingue. Prova gratis.',
   },
 
   hero: {
-    title: 'Schede preposizioni italiano L2 da vendere su Eduki',
+    title: 'Schede concetti topologici da stampare — Generatore preposizioni',
     tagline: 'Otto preposizioni spaziali combinate con esercizi di immagini e forme — costruendo il vocabolario spaziale frase dopo frase.',
     description:
       'L\'italiano è studiato da oltre 2,5 milioni di persone nel mondo, e la domanda di materiali per le certificazioni CILS, CELI e PLIDA cresce ogni anno. Su Eduki e Etsy i materiali di italiano L2 sono ancora pochissimi, creando un\'opportunità unica per venditori di stampabili. Questo generatore crea schede di preposizioni professionali con otto relazioni spaziali — in, su, sotto, accanto a, dietro, tra, sopra, davanti a — attraverso due modalità: Completa la Frase e Scelta Multipla. Le preposizioni articolate italiane (nel, nella, sul, sulla, nello, nell\') vengono generate correttamente, un vantaggio rispetto ai materiali generici. Configura da 1 a 8 esercizi per scheda e scegli tra 104 temi con oltre 3100 illustrazioni. La chiave di risposta è automatica. L\'Accesso Completo include la licenza commerciale e 11 lingue per vendere su mercati internazionali. Esporta PDF a oltre 400 DPI per Eduki, Etsy e Amazon KDP. Prova gratis con tutte le funzionalità — senza registrazione, senza carta di credito. I download includono una filigrana; acquista una licenza per rimuoverla.',

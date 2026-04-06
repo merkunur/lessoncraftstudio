@@ -2,25 +2,25 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Stampabili classe seconda — Business | LessonCraftStudio',
-    metaDescription: 'Crea stampabili classe seconda da vendere su Etsy e KDP. Idee prodotto matematica a più cifre, comprensione del testo e scrittura per business redditizio.',
-    primaryKeyword: 'stampabili classe seconda idee business',
+    titleTag: 'Schede classe seconda da stampare | LCS',
+    metaDescription: 'Crea schede per la classe seconda da stampare: addizione con riporto, sottrazione, comprensione del testo e grammatica. Esercizi per bambini 7-8 anni.',
+    primaryKeyword: 'schede classe seconda da stampare',
     secondaryKeywords: [
-      'schede seconda elementare per venditori Etsy',
-      'stampabili classe seconda matematica business',
-      'attività comprensione lettura 7-8 anni vendita',
-      'nicchia stampabili scuola primaria secondo anno',
-      'idee prodotto stampabili seconda classe KDP',
+      'esercizi seconda elementare da stampare',
+      'stampabili classe seconda scuola primaria',
+      'schede matematica seconda elementare stampabili',
+      'attività comprensione del testo classe seconda',
     ],
     lsiKeywords: [
-      'schede riporto addizione sottrazione vendita',
-      'stampabili valore posizionale seconda KDP',
-      'generatore schede seconda elementare business',
-      'prodotti digitali 7-8 anni educativi',
+      'scuola primaria',
+      'addizione con riporto',
+      'sottrazione',
+      'grammatica',
+      '7-8 anni',
     ],
   },
   hero: {
-    title: 'Stampabili classe seconda: idee business redditizie',
+    title: 'Schede Classe Seconda da Stampare: Idee Didattiche',
     description: 'La classe seconda è una nicchia particolarmente redditizia per i venditori di stampabili: la complessità accademica accelera drasticamente con matematica a più cifre, comprensione del testo e scrittura di paragrafi. Il divario di competenza tra gli alunni si allarga, creando domanda intensa di materiali differenziati. Addizione e sottrazione con riporto, valore posizionale fino alle centinaia, orologio, denaro, grammatica e vocabolario con prefissi — ciascuna area apre opportunità di prodotto distinte su Etsy, Amazon KDP e Gumroad. I genitori diventano acquirenti motivati perché le valutazioni si intensificano e le competenze della seconda classe influenzano direttamente la prontezza per la terza. La doppia base di acquirenti — professionisti e famiglie — garantisce entrate diversificate tutto l\'anno. In questa guida trovi idee concrete, strategie e approcci per costruire una linea redditizia di stampabili per la classe seconda.',
   },
   marketOverview: `Il mercato dei stampabili per la seconda classe rappresenta una delle opportunità di entrate più solide nella nicchia educativa perché la seconda classe si trova all\'intersezione critica dove le aspettative accademiche si intensificano mentre i divari di competenza degli utenti si allargano, creando una doppia pressione d\'acquisto da parte dei venditori che devono differenziare l\'istruzione in negozi sempre più eterogenee e dei genitori che affrontano una maggiore responsabilità per i progressi accademici del proprio figlio attraverso rapporti di valutazione più formali e standard di competenza per livello scolastico. Il solo catalogo prodotti di matematica genera un\'enorme domanda di stampabili perché la matematica della seconda classe passa dalle operazioni con numeri a una cifra padroneggiate in prima classe al calcolo con numeri a più cifre che richiede strategie di riporto, comprensione del valore posizionale che si estende fino alle centinaia, e applicazioni di problem solving che coinvolgono tempo, denaro, misurazione e analisi dei dati che rappresentano collettivamente l\'aumento di complessità matematica più significativo nei livelli della scuola primaria.

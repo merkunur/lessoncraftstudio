@@ -2,11 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'schede labirinti immagini business',
-    secondaryKeywords: ['labirinti bambini stampabili Etsy', 'maze puzzle immagini vendere', 'business labirinti educativi'],
-    lsiKeywords: ['attività orientamento spaziale', 'puzzle percorso bambini', 'labirinti motricità fine'],
-    titleTag: 'Schede Labirinti con Immagini: Business | LCS',
-    metaDescription: 'Avvii un business con labirinti illustrati. Scopra prezzi, nicchie e strategie per vendere su Etsy e KDP nel 2026.',
+    primaryKeyword: 'labirinti con immagini da stampare bambini',
+    secondaryKeywords: [
+      'labirinti illustrati scuola infanzia da stampare',
+      'giochi labirinto bambini facili PDF',
+      'schede labirinto tematici da stampare',
+      'labirinti educativi bambini stampabili',
+    ],
+    lsiKeywords: [
+      'labirinto',
+      'percorso',
+      'immagini',
+      'facile',
+      'divertente',
+      'motricità',
+    ],
+    titleTag: 'Labirinti con Immagini da Stampare | LCS',
+    metaDescription: 'Labirinti con immagini da stampare per bambini. Percorsi illustrati e divertenti per scuola dell\'infanzia con LessonCraftStudio — 33 generatori.',
   },
   hero: {
     title: 'Schede Labirinti con Immagini: Avviare un Business',

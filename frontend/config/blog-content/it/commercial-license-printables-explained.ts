@@ -2,11 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'licenza commerciale stampabili spiegazione',
-    secondaryKeywords: ['business stampabili digitali Italia', 'vendere stampabili online strategia', 'Etsy KDP stampabili mercato italiano'],
-    lsiKeywords: ['stampabili educativi business', 'vendita online prodotti digitali', 'mercato italiano stampabili 2026'],
-    titleTag: 'Licenza Commerciale Stampabili: Guida | LCS',
-    metaDescription: 'Guida completa alla licenza commerciale per stampabili. Cosa può e cosa non può fare, diritti e obblighi.',
+    primaryKeyword: 'licenza uso schede didattiche stampabili',
+    secondaryKeywords: [
+      'diritti utilizzo materiale didattico stampato',
+      'schede didattiche uso commerciale',
+      'licenza stampa materiale educativo',
+      'permessi utilizzo schede scaricate',
+    ],
+    lsiKeywords: [
+      'licenza',
+      'diritti',
+      'utilizzo',
+      'stampa',
+      'distribuzione',
+      'permessi',
+    ],
+    titleTag: 'Licenza Uso Schede Didattiche da Stampare | LCS',
+    metaDescription: 'Guida alla licenza d\'uso per schede didattiche da stampare. Scopri cosa puoi fare con il materiale scaricato da LessonCraftStudio — 33 generatori.',
   },
   hero: {
     title: 'Licenza Commerciale per Stampabili: Tutto Quello che Serve',

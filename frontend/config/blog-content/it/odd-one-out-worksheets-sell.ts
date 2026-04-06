@@ -2,11 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'schede intruso vendere online',
-    secondaryKeywords: ['schede trova intruso bambini Etsy', 'stampabili odd one out educativi', 'business schede quale non appartiene'],
-    lsiKeywords: ['attività logica categorizzazione', 'puzzle esclusione bambini', 'ragionamento per esclusione stampabili'],
-    titleTag: 'Schede Trova l\'Intruso: Vendere Online | LCS',
-    metaDescription: 'Venda schede "trova l\'intruso" su Etsy. Puzzle logici che sviluppano ragionamento per esclusione nei bambini.',
+    primaryKeyword: 'schede trova l\'intruso da stampare bambini',
+    secondaryKeywords: [
+      'esercizi intruso logica prescuola da stampare',
+      'gioco trova il diverso scuola infanzia PDF',
+      'schede ragionamento esclusione bambini',
+      'attività trova l\'intruso stampabili',
+    ],
+    lsiKeywords: [
+      'intruso',
+      'diverso',
+      'esclusione',
+      'logica',
+      'ragionamento',
+      'categorizzazione',
+    ],
+    titleTag: 'Schede Trova l\'Intruso da Stampare | LCS',
+    metaDescription: 'Schede trova l\'intruso da stampare per bambini. Esercizi di logica e ragionamento per esclusione con soluzioni — LessonCraftStudio — 33 generatori.'intruso da stampare per bambini. Esercizi di logica e ragionamento per esclusione con LessonCraftStudio — 33 generatori.',
   },
   hero: {
     title: 'Schede Trova l\'Intruso: Come Vendere Online',

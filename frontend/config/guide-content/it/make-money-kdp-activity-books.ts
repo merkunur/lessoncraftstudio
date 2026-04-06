@@ -2,26 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'guadagnare con quaderni di attività KDP',
+    primaryKeyword: 'guadagnare con quaderni di attività su KDP',
     secondaryKeywords: [
       'come guadagnare con libri attività Amazon KDP',
       'calcolo royalty KDP libri attività strategia prezzi',
-      'costruzione catalogo libri attività entrate mensili KDP',
+      'costruzione catalogo libri attività entrate KDP',
       'pubblicazione stagionale KDP Natale rientro a scuola',
-      'espansione multi-piattaforma Etsy Gumroad KDP',
     ],
     lsiKeywords: [
-      'costo stampa KDP royalty per vendita margini',
-      'compounding entrate catalogo libri attività',
-      'badge best seller Amazon categorie parole chiave',
-      'monitoraggio performance analisi entrate per titolo',
+      'royalty KDP calcolo',
+      'catalogo libri attività',
+      'pubblicazione stagionale',
+      'entrate passive KDP',
+      'analisi performance titoli',
     ],
-    titleTag: 'Guadagnare con quaderni KDP | LessonCraftStudio',
-    metaDescription: 'Come guadagnare con quaderni di attività su Amazon KDP: calcolo royalty, strategia prezzi, catalogo e pubblicazione stagionale. Guida per editori italiani.',
+    titleTag: 'Guadagnare con quaderni KDP | Guida',
+    metaDescription: 'Come guadagnare con quaderni di attività su Amazon KDP: calcolo royalty, strategia prezzi, catalogo e pubblicazione stagionale. Guida per editori.',
   },
 
   hero: {
-    title: 'Guadagnare con quaderni di attività KDP: guida pratica',
+    title: 'Guadagnare con quaderni di attività su KDP: guida pratica',
     tagline: 'Una guida completa alle entrate per editori di libri di attività su Amazon KDP — matematica delle royalty e fasce di prezzo ottimali, economia del catalogo che moltiplica il reddito mensile, strategie di pubblicazione stagionale per picchi di vendita durante le festività, ottimizzazione delle parole chiave Amazon per massimizzare le vendite, scalabilità della produzione su più tipi di libri di attività, monitoraggio delle performance per investire sui titoli vincenti, e espansione multi-piattaforma su Etsy e Gumroad per flussi di reddito aggiuntivi',
     description: 'Pubblicare quaderni di attività su Amazon KDP è accessibile a chiunque. Generare un reddito costante e crescente richiede invece una strategia aziendale deliberata. Questa guida si concentra esclusivamente sul lato economico: come funzionano le royalty KDP per i libri di attività, come prezzare per il massimo profitto anziché il massimo volume, perché un catalogo di 10 titoli guadagna molto più di 10 volte un singolo libro e come sfruttare la pubblicazione stagionale per catturare i picchi di domanda in Italia e nel mondo. Imparerai anche come espandere su più piattaforme come Etsy e Gumroad per diversificare i flussi di reddito.',
   },

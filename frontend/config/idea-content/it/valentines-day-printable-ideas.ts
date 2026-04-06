@@ -2,25 +2,25 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Stampabili San Valentino da vendere | LessonCraftStudio',
-    metaDescription: 'Crea e vendi stampabili San Valentino su Etsy e KDP. Idee prodotto a tema cuori e amicizia, strategie di nicchia per venditori di stampabili educativi.',
-    primaryKeyword: 'stampabili San Valentino da vendere',
+    titleTag: 'Schede San Valentino da stampare | LCS',
+    metaDescription: 'Crea schede di San Valentino da stampare: colorare cuori, crucipuzzle amicizia, conteggio e attività creative a tema amore per bambini 3-8 anni.',
+    primaryKeyword: 'schede San Valentino da stampare',
     secondaryKeywords: [
-      'vendere schede San Valentino su Etsy',
-      'business stampabili festa degli innamorati',
-      'creare stampabili cuori amicizia KDP',
-      'nicchia stampabili febbraio redditizia',
-      'idee prodotto stampabili amore bambini',
+      'attività San Valentino da stampare bambini',
+      'stampabili cuori e amicizia da colorare',
+      'schede didattiche San Valentino scuola',
+      'giochi San Valentino da stampare gratis',
     ],
     lsiKeywords: [
-      'mercato stampabili San Valentino Italia',
-      'generatore schede tema cuori',
-      'vendere stampabili digitali febbraio',
-      'stampabili festa innamorati educativi',
+      'scuola primaria',
+      'cuori',
+      'amicizia',
+      'colorare',
+      'febbraio',
     ],
   },
   hero: {
-    title: 'Stampabili San Valentino: Vendere Schede a Tema Cuori',
+    title: 'Schede San Valentino da Stampare: Idee per Bambini',
     description: 'San Valentino crea una finestra di vendita invernale concentrata e redditizia per i venditori di stampabili, con domanda che cresce per tutto gennaio e raggiunge il picco nelle prime due settimane di febbraio. In Italia, San Valentino è celebrato con grande entusiasmo — non solo come festa degli innamorati ma anche come occasione per attività a tema amicizia nelle scuole materne e primarie. I bambini italiani scambiano bigliettini, creano lavoretti a tema cuori e partecipano ad attività educative sulla gentilezza e l\'affetto. Per gli imprenditori digitali, questa nicchia offre un\'estetica universalmente attraente con cuori, rose e Cupido che genera acquisti emotivi e alti tassi di conversione. Con i nostri generatori di schede puoi creare stampabili San Valentino da vendere su Etsy, Amazon KDP e Gumroad, sfruttando il fascino del tema per costruire una linea di prodotti che genera entrate prevedibili ogni anno.',
   },
   marketOverview: `La nicchia dei stampabili di San Valentino occupa una posizione privilegiata nel calendario di vendita invernale, generando una domanda stagionale concentrata durante un periodo in cui l\'energia degli acquisti post-natalizi si reindirizza verso nuovi progetti creativi e celebrazioni online. i venditori iniziano a pianificare le attività per la evento a tema di San Valentino e i miglioramenti al catalogo prodotti di febbraio a inizio gennaio, cercando schede a tema che trasformino l\'entusiasmo dello scambio di bigliettini in opportunità di apprendimento strutturate. I genitori cercano attività di San Valentino adatte all\'età che servano come alternative creative ai biglietti acquistati in negozio e come intrattenimento educativo durante la settimana della festività dell\'amore. Gli asili nido, le famiglie che praticano l\'istruzione domestica e i coordinatori dei programmi doposcuola acquistano schede di attività a tema per le feste di San Valentino, le sessioni di apprendimento sull\'amicizia e gli eventi celebrativi di febbraio che necessitano di materiali coinvolgenti per i giovani partecipanti.

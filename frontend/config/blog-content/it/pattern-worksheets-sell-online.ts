@@ -2,11 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'schede sequenze vendere online',
-    secondaryKeywords: ['schede pattern bambini Etsy', 'stampabili sequenze logiche vendere', 'business schede motivi pattern'],
-    lsiKeywords: ['attività logica sequenziale bambini', 'schede continua la serie', 'pattern riconoscimento stampabili'],
-    titleTag: 'Schede Sequenze e Pattern: Vendere Online | LCS',
-    metaDescription: 'Venda schede di sequenze e pattern online. Una nicchia educativa che sviluppa logica e ragionamento nei bambini.',
+    primaryKeyword: 'schede sequenze e pattern da stampare bambini',
+    secondaryKeywords: [
+      'esercizi completare sequenze scuola primaria',
+      'schede pattern logici bambini PDF',
+      'attività riconoscimento sequenze da stampare',
+      'schede logica pattern prescuola',
+    ],
+    lsiKeywords: [
+      'sequenze',
+      'pattern',
+      'logica',
+      'completare',
+      'riconoscimento',
+      'serie',
+    ],
+    titleTag: 'Schede Sequenze e Pattern da Stampare | LCS',
+    metaDescription: 'Schede di sequenze e pattern da stampare per bambini. Esercizi di logica e riconoscimento per scuola primaria con LessonCraftStudio — 33 generatori.',
   },
   hero: {
     title: 'Schede Sequenze e Pattern: Come Vendere Online',

@@ -2,22 +2,22 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'vendere schede di matematica su Etsy guida',
+    primaryKeyword: 'vendere schede di matematica su Etsy',
     secondaryKeywords: [
-      'come aprire un negozio Etsy di schede matematica',
-      'ottimizzazione inserzioni Etsy schede matematica stampabili',
-      'strategie di bundle schede matematica Etsy venditori',
-      'prezzi schede matematica download digitale Etsy',
+      'come aprire negozio Etsy schede matematica',
+      'ottimizzazione inserzioni Etsy schede matematica',
+      'bundle schede matematica Etsy strategia prezzi',
       'SEO Etsy tag titoli schede matematica',
     ],
     lsiKeywords: [
-      'download digitale attività matematiche Etsy inserzioni',
-      'tempistica stagionale ritorno a scuola schede matematica',
-      'mockup foto inserzioni Etsy prodotti educativi',
-      'negozio Etsy schede addizione sottrazione puzzle',
+      'negozio Etsy matematica',
+      'inserzioni ottimizzate',
+      'tempistica stagionale',
+      'addizione sottrazione puzzle',
+      'mockup foto inserzioni',
     ],
-    titleTag: 'Vendere schede di matematica su Etsy | LessonCraftStudio',
-    metaDescription: 'Guida completa per vendere schede di matematica su Etsy: SEO, inserzioni ottimizzate, prezzi e bundle. Inizia oggi con 6 generatori specializzati.',
+    titleTag: 'Vendere schede matematica su Etsy | Guida',
+    metaDescription: 'Come vendere schede di matematica su Etsy: SEO, inserzioni ottimizzate, prezzi e bundle. Inizia con 6 generatori specializzati per il tuo negozio.',
   },
 
   hero: {

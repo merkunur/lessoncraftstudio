@@ -2,11 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'negozio Etsy stampabili primo mese',
-    secondaryKeywords: ['business stampabili digitali Italia', 'vendere stampabili online strategia', 'Etsy KDP stampabili mercato italiano'],
-    lsiKeywords: ['stampabili educativi business', 'vendita online prodotti digitali', 'mercato italiano stampabili 2026'],
-    titleTag: 'Negozio Etsy Stampabili: Primo Mese | LCS',
-    metaDescription: 'Guida completa per il primo mese del Suo negozio Etsy di stampabili. Obiettivi, strategie e azioni quotidiane.',
+    primaryKeyword: 'aprire negozio schede didattiche Etsy',
+    secondaryKeywords: [
+      'come iniziare vendere schede Etsy',
+      'primo mese negozio materiale educativo',
+      'avviare shop stampabili didattici online',
+      'guida principianti Etsy schede',
+    ],
+    lsiKeywords: [
+      'negozio',
+      'inizio',
+      'primo mese',
+      'principiante',
+      'apertura',
+      'avviare',
+    ],
+    titleTag: 'Aprire Negozio Schede Didattiche Etsy | LCS',
+    metaDescription: 'Guida completa per aprire un negozio di schede didattiche su Etsy. Dal primo mese alle prime vendite di stampabili con LessonCraftStudio — 33 generatori.',
   },
   hero: {
     title: 'Il Suo Primo Mese su Etsy: Guida per Stampabili',

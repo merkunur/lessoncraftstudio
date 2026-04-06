@@ -2,25 +2,25 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Stampabili istruzione parentale | LessonCraftStudio',
-    metaDescription: 'Crea stampabili per istruzione parentale da vendere su Etsy e Gumroad. Idee prodotto homeschool, curricula flessibili e materiali multi-livello.',
-    primaryKeyword: 'stampabili istruzione parentale da vendere',
+    titleTag: 'Schede istruzione parentale da stampare | LCS',
+    metaDescription: 'Crea schede per istruzione parentale da stampare: matematica, lettere, scienze e attività tematiche per bambini homeschool. Materiale didattico completo.',
+    primaryKeyword: 'schede istruzione parentale da stampare',
     secondaryKeywords: [
-      'schede homeschool per venditori Etsy',
-      'stampabili educazione parentale business',
-      'attività istruzione domiciliare da vendere',
-      'nicchia stampabili homeschool Italia',
-      'idee prodotto stampabili educazione a casa',
+      'stampabili homeschool per bambini',
+      'materiale didattico educazione parentale',
+      'schede didattiche istruzione domiciliare',
+      'attività educative homeschool da stampare',
     ],
     lsiKeywords: [
-      'schede curricolo parentale vendita Etsy',
-      'stampabili studi tematici homeschool KDP',
-      'generatore schede istruzione parentale business',
-      'prodotti digitali famiglie homeschooler',
+      'homeschool',
+      'istruzione parentale',
+      'schede didattiche',
+      'educazione a casa',
+      'multi-livello',
     ],
   },
   hero: {
-    title: 'Stampabili per l\'istruzione parentale: idee business',
+    title: 'Schede Istruzione Parentale da Stampare: Idee',
     description: 'L\'istruzione parentale è una delle nicchie più redditizie per i venditori di stampabili: le famiglie homeschool costruiscono interi programmi educativi da risorse acquistate, spendendo in ogni area disciplinare e livello scolastico simultaneamente. In Italia l\'istruzione parentale è in crescita post-COVID, con una comunità sempre più attiva che cerca materiali strutturati per percorsi flessibili. La diversità delle metodologie — Montessori, Charlotte Mason, approccio eclettico, studio tematico — crea domanda di stili di prodotto variegati su Etsy, Gumroad e KDP. Le famiglie acquistano tutto l\'anno senza cali estivi, e il passaparola nelle comunità homeschool genera acquisti multipli da una singola raccomandazione. Il valore per famiglia è eccezionalmente alto. In questa guida trovi idee di prodotto concrete, strategie per piattaforma e approcci per costruire una linea redditizia di stampabili per l\'istruzione parentale con i nostri generatori di schede.',
   },
   marketOverview: `Il mercato dei stampabili per l\'istruzione domestica rappresenta un\'opportunità di entrate premium perché le famiglie homeschool funzionano come acquirenti istituzionali completi che devono reperire ogni risorsa educativa in modo indipendente anziché integrare materiali già forniti dal distretto scolastico. Mentre un genitore con figli nella scuola tradizionale potrebbe acquistare occasionalmente schede di esercitazione per rinforzare l\'istruzione online, un genitore homeschooler acquista l\'intera base curricolare includendo esercitazione sulle competenze fondamentali, attività di arricchimento, materiali di valutazione e risorse di apprendimento creativo in ogni area disciplinare per ogni figlio nella famiglia. Questa differenza fondamentale negli acquisti significa che le famiglie homeschool spendono sostanzialmente di più per nucleo familiare in stampabili educativi rispetto a qualsiasi altro segmento di acquirenti nel mercato, con le famiglie multi-livello che moltiplicano quella spesa per due, tre o più figli a diversi livelli di sviluppo che hanno tutti bisogno di materiali adeguati all\'età simultaneamente.

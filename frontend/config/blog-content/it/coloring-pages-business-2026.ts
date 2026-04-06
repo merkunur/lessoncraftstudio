@@ -2,11 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'business pagine da colorare 2026',
-    secondaryKeywords: ['vendere pagine colorare Etsy 2026', 'business disegni da colorare stampabili', 'creare vendere pagine colorare online'],
-    lsiKeywords: ['mercato colorare stampabili', 'pagine colorare bambini business', 'colorare adulti tendenza'],
-    titleTag: 'Pagine da Colorare: Business nel 2026 | LCS',
-    metaDescription: 'Avvii un business con pagine da colorare nel 2026. Scopra nicchie, prezzi e strategie per Etsy, KDP e piattaforme italiane.',
+    primaryKeyword: 'disegni da colorare per bambini da stampare',
+    secondaryKeywords: [
+      'pagine da colorare educative scuola infanzia',
+      'disegni colorare animali bambini PDF',
+      'pagine colorare tematiche da stampare',
+      'album da colorare bambini stampabile',
+    ],
+    lsiKeywords: [
+      'colorare',
+      'disegni',
+      'bambini',
+      'animali',
+      'mandala',
+      'tematici',
+    ],
+    titleTag: 'Disegni da Colorare per Bambini da Stampare | LCS',
+    metaDescription: 'Disegni da colorare per bambini da stampare. Prova gratuita con filigrana, pagine tematiche educative con LessonCraftStudio — 33 generatori.',
   },
   hero: {
     title: 'Pagine da Colorare: Avviare un Business nel 2026',

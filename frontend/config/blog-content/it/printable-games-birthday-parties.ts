@@ -2,11 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'giochi stampabili feste compleanno',
-    secondaryKeywords: ['stampabili tematici vendere Etsy Italia', 'nicchia stampabili educativi mercato', 'schede tematiche stagionali vendere'],
-    lsiKeywords: ['stampabili educativi nicchia', 'mercato stagionale stampabili', 'Etsy Italia schede tematiche'],
-    titleTag: 'Giochi Stampabili per Feste di Compleanno | LCS',
-    metaDescription: 'Venda giochi stampabili per feste di compleanno. Tombola, caccia al tesoro, quiz e attività di gruppo.',
+    primaryKeyword: 'giochi da stampare per feste compleanno bambini',
+    secondaryKeywords: [
+      'attività festa compleanno da stampare PDF',
+      'giochi gruppo bambini stampabili compleanno',
+      'tombola caccia tesoro compleanno stampare',
+      'intrattenimento festa bambini da stampare',
+    ],
+    lsiKeywords: [
+      'compleanno',
+      'festa',
+      'giochi',
+      'gruppo',
+      'tombola',
+      'caccia al tesoro',
+    ],
+    titleTag: 'Giochi da Stampare Feste di Compleanno | LCS',
+    metaDescription: 'Giochi da stampare per feste di compleanno bambini. Tombola, caccia al tesoro, quiz e attività di gruppo con LessonCraftStudio — 33 generatori, 11 lingue.',
   },
   hero: {
     title: 'Giochi Stampabili per Feste di Compleanno',

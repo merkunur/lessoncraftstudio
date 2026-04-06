@@ -2,11 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'formati carta migliori prodotti stampabili A4',
-    secondaryKeywords: ['come creare stampabili vendere', 'guida pratica stampabili business', 'tutorial stampabili educativi'],
-    lsiKeywords: ['creazione stampabili professionali', 'workflow produzione schede', 'ottimizzazione vendita stampabili'],
-    titleTag: 'Formati Carta per Stampabili: Guida A4 | LCS',
-    metaDescription: 'Guida ai formati carta per il mercato italiano. A4 vs Letter, orientamento e margini per stampabili professionali.',
+    primaryKeyword: 'formato carta schede didattiche A4 stampa',
+    secondaryKeywords: [
+      'margini stampa schede didattiche PDF',
+      'formato A4 schede da stampare',
+      'impostazioni stampa fogli esercizi',
+      'risoluzione PDF schede didattiche',
+    ],
+    lsiKeywords: [
+      'A4',
+      'stampa',
+      'margini',
+      'PDF',
+      'risoluzione',
+      'orientamento',
+    ],
+    titleTag: 'Formato Carta e Stampa Schede Didattiche | LCS',
+    metaDescription: 'Guida ai formati carta A4 per stampare schede didattiche perfette. Margini, risoluzione e impostazioni PDF con LessonCraftStudio — 33 generatori.',
   },
   hero: {
     title: 'I Migliori Formati Carta per Prodotti Stampabili',

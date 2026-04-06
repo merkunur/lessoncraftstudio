@@ -2,11 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'schede Italiano L2 mercato globale',
-    secondaryKeywords: ['stampabili tematici vendere Etsy Italia', 'nicchia stampabili educativi mercato', 'schede tematiche stagionali vendere'],
-    lsiKeywords: ['stampabili educativi nicchia', 'mercato stagionale stampabili', 'Etsy Italia schede tematiche'],
-    titleTag: 'Schede Italiano L2: Mercato Globale | LCS',
-    metaDescription: 'Scopra il mercato globale delle schede di Italiano L2. Come raggiungere studenti di italiano nel mondo.',
+    primaryKeyword: 'schede italiano L2 stranieri da stampare',
+    secondaryKeywords: [
+      'esercizi italiano per stranieri PDF stampabili',
+      'schede italiano lingua seconda bambini',
+      'materiale didattico italiano L2 da stampare',
+      'attività italiano per non madrelingua',
+    ],
+    lsiKeywords: [
+      'italiano L2',
+      'stranieri',
+      'lingua seconda',
+      'immigrati',
+      'integrazione',
+      'vocabolario base',
+    ],
+    titleTag: 'Schede Italiano L2 per Stranieri da Stampare | LCS',
+    metaDescription: 'Schede di italiano L2 per stranieri da stampare. Esercizi per bambini e adulti non madrelingua con LessonCraftStudio — 33 generatori, 11 lingue.',
   },
   hero: {
     title: 'Schede di Italiano L2: Il Mercato Globale',

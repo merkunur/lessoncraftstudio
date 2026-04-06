@@ -2,11 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'libri sudoku immagini KDP vendere',
-    secondaryKeywords: ['sudoku bambini immagini Amazon KDP', 'libri sudoku visivi bambini vendere', 'puzzle sudoku immagini stampabili'],
-    lsiKeywords: ['logica griglia bambini', 'sudoku prescuola immagini', 'attività ragionamento griglia'],
-    titleTag: 'Libri Sudoku con Immagini: KDP | LCS',
-    metaDescription: 'Pubblichi libri di sudoku con immagini su Amazon KDP. Una nicchia unica per bambini che sviluppa logica senza numeri.',
+    primaryKeyword: 'sudoku con immagini bambini da stampare',
+    secondaryKeywords: [
+      'sudoku facile per bambini senza numeri PDF',
+      'sudoku immagini scuola infanzia da stampare',
+      'gioco logica immagini bambini stampabile',
+      'sudoku visivo prescuola da stampare',
+    ],
+    lsiKeywords: [
+      'sudoku',
+      'immagini',
+      'logica',
+      'bambini',
+      'senza numeri',
+      'visivo',
+    ],
+    titleTag: 'Sudoku con Immagini Bambini da Stampare | LCS',
+    metaDescription: 'Sudoku con immagini da stampare per bambini senza numeri. Giochi di logica visiva per prescuola e scuola infanzia con LessonCraftStudio — 33 generatori.',
   },
   hero: {
     title: 'Libri Sudoku con Immagini su KDP: Guida Completa',

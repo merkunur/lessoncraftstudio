@@ -2,11 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'schede oggetti nascosti business vendere',
-    secondaryKeywords: ['schede trova oggetti stampabili Etsy', 'puzzle oggetti nascosti bambini vendere', 'business stampabili oggetti nascosti'],
-    lsiKeywords: ['attività attenzione visiva bambini', 'schede concentrazione stampabili', 'giochi osservazione educativi'],
-    titleTag: 'Schede Oggetti Nascosti: Business Guide | LCS',
-    metaDescription: 'Avvii un business con schede di oggetti nascosti. Una nicchia divertente e educativa con alta domanda e poca concorrenza.',
+    primaryKeyword: 'schede trova gli oggetti nascosti da stampare',
+    secondaryKeywords: [
+      'gioco cerca oggetti nascosti bambini PDF',
+      'attività osservazione visiva bambini stampare',
+      'schede attenzione visiva da stampare',
+      'trova l\'oggetto nascosto da stampare',
+    ],
+    lsiKeywords: [
+      'oggetti nascosti',
+      'osservazione',
+      'attenzione',
+      'cerca',
+      'trova',
+      'visivo',
+    ],
+    titleTag: 'Schede Trova Oggetti Nascosti da Stampare | LCS',
+    metaDescription: 'Schede trova gli oggetti nascosti da stampare per bambini. Giochi di osservazione e attenzione visiva con LessonCraftStudio — 33 generatori.',
   },
   hero: {
     title: 'Schede Oggetti Nascosti: Avviare un Business',

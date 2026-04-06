@@ -2,11 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'formattare schede per inserzione Etsy',
-    secondaryKeywords: ['come creare stampabili vendere', 'guida pratica stampabili business', 'tutorial stampabili educativi'],
-    lsiKeywords: ['creazione stampabili professionali', 'workflow produzione schede', 'ottimizzazione vendita stampabili'],
-    titleTag: 'Formattare Schede per Etsy: Guida | LCS',
-    metaDescription: 'Formatti le Sue schede per inserzioni Etsy che convertono. PDF, dimensioni, anteprima e descrizione ottimale.',
+    primaryKeyword: 'come formattare schede didattiche PDF stampa',
+    secondaryKeywords: [
+      'formato corretto schede da stampare',
+      'impostazioni PDF schede educative',
+      'preparare schede per la stampa corretta',
+      'layout schede didattiche professionale',
+    ],
+    lsiKeywords: [
+      'formato',
+      'PDF',
+      'layout',
+      'stampa',
+      'professionale',
+      'qualità',
+    ],
+    titleTag: 'Come Formattare Schede Didattiche PDF | LCS',
+    metaDescription: 'Come formattare correttamente schede didattiche in PDF per la stampa. Layout professionale con LessonCraftStudio — 33 generatori, 11 lingue.',
   },
   hero: {
     title: 'Come Formattare le Schede per un\'Inserzione Etsy',

@@ -2,26 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'stampabili marketing stagionale venditori',
+    primaryKeyword: 'marketing stagionale per stampabili',
     secondaryKeywords: [
       'calendario produzione stampabili per festività',
       'tempistica pubblicazione schede stagionali',
-      'ritorno a scuola e picchi domanda stampabili',
-      'parole chiave stagionali per inserzioni Etsy',
-      'pianificazione trimestrale venditori prodotti digitali',
+      'ritorno a scuola picchi domanda stampabili',
+      'parole chiave stagionali per inserzioni',
     ],
     lsiKeywords: [
-      'ciclo domanda annuale stampabili educativi',
-      'schede Halloween Natale San Valentino Pasqua',
-      'previsione domanda analisi tendenze stagionali',
-      'calendario contenuti anticipazione picchi vendita',
+      'ciclo domanda annuale',
+      'schede festività tematiche',
+      'previsione domanda stagionale',
+      'calendario contenuti anticipazione',
+      'pianificazione trimestrale',
     ],
-    titleTag: 'Marketing stagionale per stampabili | LessonCraftStudio',
-    metaDescription: 'Pianifica campagne stagionali per stampabili: calendario annuale, tempistiche di pubblicazione e parole chiave per catturare ogni picco di domanda.',
+    titleTag: 'Marketing stagionale per stampabili | Guida',
+    metaDescription: 'Marketing stagionale per stampabili: calendario annuale, tempistiche di pubblicazione e strategie per catturare ogni picco di domanda. Guida pratica.',
   },
 
   hero: {
-    title: 'Marketing Stagionale per Venditori di Stampabili',
+    title: 'Marketing stagionale per venditori di stampabili',
     tagline: 'Una guida completa al marketing stagionale per stampabili — come mappare i cicli annuali della domanda, costruire calendari di produzione allineati ai periodi di picco, ottimizzare le inserzioni per la ricerca stagionale, creare variazioni tematiche dei prodotti in modo efficiente, pianificare bundle stagionali, programmare campagne di marketing, analizzare le prestazioni anno su anno e bilanciare le uscite stagionali con la profondità del catalogo evergreen',
     description: 'La tempistica è tutto nel business dei stampabili: un prodotto lanciato al momento giusto cattura il picco della domanda, mentre lo stesso prodotto pubblicato in ritardo compete contro inserzioni già consolidate. Nel mercato italiano, i cicli stagionali seguono il calendario scolastico e le festività locali con pattern prevedibili che i venditori preparati sfruttano ogni anno. Questa guida ti fornisce un calendario completo di marketing stagionale per stampabili: dalla mappatura dei cicli di domanda alla pianificazione della produzione con mesi di anticipo, dall\'ottimizzazione delle parole chiave stagionali alla creazione efficiente di variazioni tematiche e all\'analisi delle prestazioni anno su anno.',
   },

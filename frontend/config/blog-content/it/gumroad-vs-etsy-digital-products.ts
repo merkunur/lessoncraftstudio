@@ -2,11 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'Gumroad vs Etsy prodotti digitali confronto',
-    secondaryKeywords: ['business stampabili digitali Italia', 'vendere stampabili online strategia', 'Etsy KDP stampabili mercato italiano'],
-    lsiKeywords: ['stampabili educativi business', 'vendita online prodotti digitali', 'mercato italiano stampabili 2026'],
-    titleTag: 'Gumroad vs Etsy: Prodotti Digitali | LCS',
-    metaDescription: 'Confronto Gumroad vs Etsy per vendere prodotti digitali. Commissioni, traffico, controllo e strategia per il 2026.',
+    primaryKeyword: 'dove vendere schede didattiche online Italia',
+    secondaryKeywords: [
+      'Gumroad Etsy confronto materiale educativo',
+      'migliore piattaforma schede stampabili',
+      'vendere PDF didattici online dove',
+      'marketplace schede educative confronto',
+    ],
+    lsiKeywords: [
+      'piattaforma',
+      'marketplace',
+      'confronto',
+      'Gumroad',
+      'Etsy',
+      'online',
+    ],
+    titleTag: 'Dove Vendere Schede Didattiche Online | LCS',
+    metaDescription: 'Confronto tra piattaforme per vendere schede didattiche online. Gumroad vs Etsy per materiale educativo con LessonCraftStudio — 33 generatori.',
   },
   hero: {
     title: 'Gumroad vs Etsy: Confronto per Prodotti Digitali',

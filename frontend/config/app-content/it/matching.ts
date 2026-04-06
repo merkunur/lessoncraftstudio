@@ -2,29 +2,25 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'schede di abbinamento da creare e vendere su Etsy',
+    primaryKeyword: 'schede di associazione da stampare',
     secondaryKeywords: [
-      'generatore schede collega con linee per negozio Etsy',
-      'creare schede di abbinamento per quaderni Amazon KDP',
-      'schede di abbinamento stampabili licenza commerciale',
-      'vendere attività di collegamento su Eduki',
-      'business schede matching stampabili online',
+      'collegare con frecce esercizio',
+      'abbinare immagini scheda',
+      'schede di collegamento infanzia',
+      'unire con una freccia scheda',
     ],
     lsiKeywords: [
-      'licenza commerciale',
-      '300 DPI',
-      'pronto per la stampa',
-      'foglio risposte automatico',
-      'abbinamento immagini',
-      'business di stampabili',
-      'collega con linee',
+      'collegare',
+      'abbinare',
+      'coppie',
+      'scuola dell\'infanzia',
     ],
-    titleTag: 'Schede di abbinamento da vendere su Etsy | LCS',
-    metaDescription: 'Crea schede di abbinamento professionali da vendere su Etsy e KDP. 4 modalità, risposte automatiche, licenza commerciale. 49 $ pagamento unico.',
+    titleTag: 'Schede di associazione da stampare | Generatore collegare',
+    metaDescription: 'Create schede di associazione con immagini tematiche per infanzia e primaria. Soluzioni automatiche, PDF 300 DPI. Prova gratis.',
   },
 
   hero: {
-    title: 'Crea schede di abbinamento da vendere su Etsy e KDP',
+    title: 'Schede di associazione da stampare — Generatore collegare con immagini',
     tagline: 'Quattro modalità di abbinamento in un unico generatore — Lettera Iniziale, Immagine+Parola, Immagine/Parola Misto e Parola Personalizzata — con fogli risposte generati automaticamente, numero di coppie configurabile e intestazione localizzata \"Collega!\" in 104 collezioni di immagini tematiche.',
     description:
       'Le schede di abbinamento sono tra i prodotti stampabili più venduti su Etsy, eppure il mercato italiano è ancora quasi vuoto: un\'opportunità concreta per chi vuole avviare un business di stampabili educativi. Questo generatore ti permette di creare schede di abbinamento professionali in pochi minuti, pronte per la vendita. Quattro modalità — Lettera Iniziale, Immagine+Parola, Misto e Parola Personalizzata — ti consentono di costruire varianti infinite per ogni tema e fascia d\'età. Il foglio risposte viene generato automaticamente, risparmiandoti ore di lavoro manuale. Configura 4, 5 o 6 coppie, personalizza sfondo e bordi, ed esporta in PDF a 300 DPI nei formati Letter, A4 o personalizzati. L\'Accesso Completo include la licenza commerciale, 104 temi con oltre 3100 illustrazioni e 11 lingue per moltiplicare il tuo catalogo. Ideale per Etsy, Amazon KDP ed Eduki. Prova gratis con tutte le funzionalità — senza registrazione, senza carta di credito. I download includono una filigrana; acquista una licenza per rimuoverla.',

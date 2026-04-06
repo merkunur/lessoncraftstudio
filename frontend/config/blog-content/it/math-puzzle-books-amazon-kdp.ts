@@ -2,19 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'libri puzzle matematici Amazon KDP',
+    primaryKeyword: 'libri puzzle matematici bambini da stampare',
     secondaryKeywords: [
-      'pubblicare libri attività matematica KDP',
-      'puzzle matematici bambini Amazon',
-      'business libri didattici KDP Italia',
+      'libro giochi matematica scuola primaria PDF',
+      'puzzle matematici bambini 6-10 anni stampare',
+      'quaderno enigmi matematici da stampare',
+      'raccolta puzzle numeri bambini',
     ],
     lsiKeywords: [
-      'autopubblicazione libri attività',
-      'nicchia KDP matematica bambini',
-      'Amazon.it libri stampabili',
+      'puzzle',
+      'matematica',
+      'enigmi',
+      'numeri',
+      'logica',
+      'giochi',
     ],
-    titleTag: 'Libri Puzzle Matematici Amazon KDP: Guida | LCS',
-    metaDescription: 'Pubblichi libri di puzzle matematici su Amazon KDP Italia. Formattazione, nicchie redditizie e strategie per vendere nel 2026.',
+    titleTag: 'Libri Puzzle Matematici Bambini | LCS',
+    metaDescription: 'Libri di puzzle matematici per bambini da stampare con soluzioni. Enigmi e giochi di numeri per scuola primaria con LessonCraftStudio — 33 generatori.',
   },
   hero: {
     title: 'Libri di Puzzle Matematici su Amazon KDP: Guida Completa',

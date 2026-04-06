@@ -2,25 +2,25 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Stampabili uccelli da vendere | LessonCraftStudio',
-    metaDescription: 'Crea e vendi stampabili a tema uccelli su Etsy e KDP. Idee di prodotto, nicchie redditizie e strumenti per un business di stampabili sulla fauna selvatica.',
-
-    primaryKeyword: 'stampabili uccelli da vendere',
+    titleTag: 'Schede sugli uccelli da stampare | LCS',
+    metaDescription: 'Crea schede sugli uccelli da stampare: attività di conteggio, colorare, abbinamento e crucipuzzle a tema fauna alata per bambini della scuola primaria.',
+    primaryKeyword: 'schede sugli uccelli da stampare',
     secondaryKeywords: [
-      'vendere schede uccelli su Etsy',
-      'business stampabili fauna selvatica',
-      'creare stampabili ornitologia per KDP',
-      'nicchia stampabili uccelli educativi',
-      'idee prodotto stampabili birdwatching bambini',
+      'attività uccelli da stampare per bambini',
+      'stampabili tema uccelli scuola primaria',
+      'schede didattiche fauna alata da colorare',
+      'giochi uccelli da stampare gratis',
     ],
     lsiKeywords: [
-      'mercato stampabili educativi uccelli',
-      'generatore schede tema uccelli natura',
-      'vendere stampabili digitali fauna alata',
+      'scuola primaria',
+      'colorare',
+      'crucipuzzle',
+      'abbinamento',
+      'natura',
     ],
   },
   hero: {
-    title: 'Stampabili sugli Uccelli: Come Creare e Vendere Online',
+    title: 'Schede sugli Uccelli da Stampare: Idee Creative',
     description: 'Gli uccelli offrono una nicchia visivamente ricchissima nel mercato dei stampabili educativi, con oltre diecimila specie che garantiscono una differenziazione di prodotto praticamente illimitata. In Italia, la tradizione del birdwatching è forte e l\'interesse per la fauna alata è radicato nella cultura naturalistica del paese — dalle rondini primaverili ai fenicotteri della Sardegna. Per gli imprenditori di stampabili, questa nicchia offre forti legami con i programmi scolastici di scienze su habitat, migrazione e cicli vitali, con picchi di domanda in primavera e autunno. Utilizzando i nostri generatori di schede puoi creare prodotti diversificati — da gufi e aquile a pappagalli e pinguini — e venderli su Etsy, Amazon KDP e Gumroad, servendo sia genitori che cercano attività naturalistiche sia il mercato internazionale degli stampabili educativi.',
   },
   marketOverview: `La nicchia dei stampabili sugli uccelli occupa una posizione unica dove i contenuti educativi incontrano l\'apprezzamento della natura, creando domanda da parte di molteplici segmenti di acquirenti. I genitori cercano schede a tema uccelli per integrare le attività di birdwatching nel giardino, le passeggiate nella natura e la curiosità scientifica che i loro figli esprimono naturalmente. i venditori necessitano di risorse per il negozio per le unità di ornitologia, gli studi sugli habitat e le lezioni sulla migrazione stagionale che compaiono nei programmi della prima infanzia e della scuola primaria. Le famiglie che praticano l\'istruzione domestica costruiscono frequentemente unità di studio sugli uccelli della durata di più settimane che richiedono materiali stampabili diversificati in diverse aree di competenza.

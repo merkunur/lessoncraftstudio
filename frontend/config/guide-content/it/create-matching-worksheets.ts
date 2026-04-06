@@ -2,26 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'creare schede di abbinamento da vendere',
+    primaryKeyword: 'come creare schede di associazione da stampare',
     secondaryKeywords: [
-      'schede abbinamento stampabili per Etsy e KDP',
-      'generatore schede abbinamento uso commerciale',
-      'vendere attività di abbinamento prescolare online',
-      'creare schede traccia una linea con licenza commerciale',
-      'schede abbinamento tematiche da vendere su Gumroad',
+      'schede abbinamento per bambini da stampare PDF',
+      'creare schede traccia una linea da stampare',
+      'generatore schede associazione con immagini',
+      'esercizi di abbinamento prescolare da stampare',
     ],
     lsiKeywords: [
-      'abbinamento immagini con chiavi di risposta automatiche',
-      'prodotti stampabili abbinamento per venditori',
-      'schede discriminazione visiva prescolare marketplace',
-      'quattro modalità abbinamento per catalogo diversificato',
+      'associazione immagini',
+      'traccia una linea',
+      'schede prescolare abbinamento',
+      'discriminazione visiva',
+      'quattro modalità abbinamento',
     ],
-    titleTag: 'Schede di abbinamento da vendere | LessonCraftStudio',
-    metaDescription: 'Crea schede di abbinamento con 4 modalità, immagini tematiche e chiavi di risposta automatiche. Esporta PDF pronti per vendere su Etsy, KDP e Gumroad.',
+    titleTag: 'Creare schede di associazione da stampare | Guida',
+    metaDescription: 'Come creare schede di associazione da stampare con 4 modalità, immagini tematiche e chiavi di risposta automatiche. Ideale per scuola dell\'infanzia.',
   },
 
   hero: {
-    title: 'Schede di abbinamento da vendere: guida completa',
+    title: 'Come creare schede di associazione da stampare',
     tagline: 'Tutorial passo passo per creare schede di abbinamento tematiche con traccia-una-linea, chiavi di risposta automatiche da vendere su Etsy, Amazon KDP e Gumroad',
     description: 'Le schede di abbinamento sono tra i prodotti stampabili più versatili e richiesti per l\'età prescolare. Il formato traccia-una-linea è intuitivo e universale, e le quattro modalità del generatore (Lettera, Immagine+Nome, Immagine-o-Nome e Personalizzata) ti permettono di creare un catalogo diversificato da un singolo strumento. Il mercato italiano dei stampabili educativi per la prima infanzia cresce costantemente, con genitori e strutture educative che cercano attivamente materiali di qualità. La sensibilità alla lingua del generatore produce etichette e lettere iniziali corrette per l\'italiano, permettendoti di creare prodotti autenticamente localizzati che la concorrenza anglofona non può replicare. Questa guida ti mostra come usare il Generatore di Schede di Abbinamento per creare prodotti professionali con immagini tematiche, chiavi di risposta automatiche con linee di collegamento e PDF pronti per la stampa. Che tu stia lanciando il tuo primo stampabile prescolare o espandendo un catalogo esistente, avrai prodotti finiti pronti per la pubblicazione.',
   },

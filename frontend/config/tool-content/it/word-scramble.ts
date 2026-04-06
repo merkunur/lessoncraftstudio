@@ -2,27 +2,28 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'generatore di anagrammi gratis online',
+    primaryKeyword: 'anagrammi da stampare gratis',
     secondaryKeywords: [
-      'creare anagrammi gratis online',
-      'generatore parole mescolate stampabile gratis',
-      'anagrammi con immagini senza registrazione',
-      'puzzle lettere mescolate gratis PDF',
-      'generatore anagrammi da stampare gratis',
+      'lettere mescolate gratis online',
+      'anagrammi da stampare gratis PDF',
+      'anagrammi gratis senza registrazione',
+      'giochi anagrammi da stampare gratis',
+      'puzzle lettere mescolate gratis online',
     ],
     lsiKeywords: [
-      'gratis',
-      'senza registrazione',
-      'stampabile',
-      'PDF',
-      'prova gratuita con filigrana',
+      'anagrammi',
+      'lettere mescolate',
+      'riordina le lettere',
+      'spelling',
+      'stampabile PDF',
+      'gratis online',
     ],
-    titleTag: 'Generatore di anagrammi gratis | LessonCraftStudio',
-    metaDescription: 'Crea anagrammi con tessere lettere gratis online, senza registrazione. Codifica vocali-consonanti, 4 livelli, 11 lingue. Licenza commerciale per vendere.',
+    titleTag: 'Anagrammi da stampare gratis online | LessonCraftStudio',
+    metaDescription: 'Crea anagrammi e lettere mescolate da stampare gratis online, senza registrazione. Codifica vocali-consonanti, 4 livelli, 11 lingue. Prova subito.',
   },
 
   hero: {
-    title: 'Generatore di Anagrammi Gratis Online',
+    title: 'Anagrammi da Stampare Gratis Online',
     tagline: 'Crea puzzle di spelling con tessere lettere mescolate, indizi immagine, codifica colore e 4 livelli di difficoltà in 11 lingue',
     description: 'Crea anagrammi gratis direttamente nel browser — nessuna registrazione, nessun download. Lo strumento genera schede con tessere lettere mescolate abbinate a indizi immagine — gli utenti osservano l\'immagine e riordinano le lettere nell\'ordine corretto. La codifica colore vocali-consonanti aggiunge una dimensione fonetica visiva unica. Quattro livelli di difficoltà controllano quante lettere sono pre-posizionate: da Nessun Indizio (sfida massima) a Facile (metà pre-posizionate). Scegli tra tre fonti di contenuto: Libreria Immagini con oltre 3.100 illustrazioni in 104 temi, Modifica Manuale o Lista Parole Personalizzata. La stessa immagine genera parole diverse in ciascuna delle 11 lingue supportate. Esporta PDF e JPEG con foglio risposte automatico. Vuoi vendere i tuoi anagrammi su Etsy, Amazon KDP o Gumroad? Passa alla licenza commerciale per rimuovere la filigrana e ottenere i diritti di rivendita completi.',
   },

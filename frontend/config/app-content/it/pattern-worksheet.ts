@@ -2,24 +2,26 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'schede riconoscimento pattern per venditori Etsy',
+    primaryKeyword: 'esercizi sequenze logiche da stampare',
     secondaryKeywords: [
-      'creare schede completamento sequenze da vendere su KDP',
-      'generatore schede pattern stampabili licenza commerciale',
-      'vendere schede di logica visiva su Etsy Italia',
-      'schede sequenze a griglia per business online stampabili',
+      'completare la sequenza esercizio',
+      'logica visiva scheda',
+      'ragionamento logico schede',
+      'sequenza numerica da stampare',
     ],
     lsiKeywords: [
-      'prodotti digitali schede pattern mercato italiano',
-      'nicchia schede logica visiva venditori Etsy e KDP',
-      'stampabili completamento sequenze uso commerciale',
+      'ragionamento',
+      'completare',
+      'sequenza',
+      'visivo',
+      'logica',
     ],
-    titleTag: 'Schede Pattern per Venditori Etsy | Crea e Vendi',
-    metaDescription: 'Crea schede di riconoscimento pattern da vendere su Etsy e KDP. 9 tipi di sequenze, scelta multipla, 104 temi. Licenza commerciale. 49 $ pagamento unico.',
+    titleTag: 'Esercizi sequenze logiche da stampare | Generatore',
+    metaDescription: 'Create esercizi di sequenze logiche con immagini tematiche. Soluzioni automatiche, PDF 300 DPI. Prova gratis.',
   },
 
   hero: {
-    title: 'Schede di Riconoscimento Pattern per Venditori Etsy e KDP',
+    title: 'Esercizi sequenze logiche da stampare — Generatore con immagini',
     tagline: 'Nove tipi di pattern da AB ad ABCD — due modalità di domanda (casella vuota e scelta multipla) — con configurazione indipendente per esercizio per il tipo di pattern, la modalità di domanda e il tema in ogni pagina.',
     description:
       'Il riconoscimento di pattern è una competenza fondamentale molto richiesta da genitori e scuole, ma su Etsy e Amazon KDP il mercato italiano è quasi inesplorato. Con questo generatore crei schede professionali con nove tipi di sequenze — da AB semplice ad ABCD avanzato — e due modalità di domanda: casella vuota per il completamento e scelta multipla con distrattori. Ogni esercizio è configurabile indipendentemente per tipo di pattern, modalità e tema, permettendo di creare prodotti differenziati con infinite varianti. Configura da 1 a 8 esercizi per pagina e attiva l\'inizio casuale o la posizione casuale dello spazio vuoto per aumentare la difficoltà. La libreria integrata offre oltre 3100 illustrazioni in 104 temi. Ogni scheda include un foglio risposte e l\'output è puramente visivo — vendibile in tutto il mondo senza traduzione. Esporta PDF e JPEG in alta risoluzione nei formati A4, Lettera o personalizzato. Vendi pacchetti di pattern su Etsy, compila quaderni di logica per Amazon KDP, o distribuisci su Eduki e Edudoro con la licenza commerciale inclusa. Prova gratis con tutte le funzionalità, senza registrazione. I download includono una filigrana; acquista una licenza per rimuoverla.',

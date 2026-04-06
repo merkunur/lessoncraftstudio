@@ -2,31 +2,27 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'generatore di schede di matematica per venditori Etsy e KDP',
+    primaryKeyword: 'generatore schede matematica',
     secondaryKeywords: [
-      'schede di matematica stampabili da vendere su Etsy',
-      'generatore puzzle algebrici per Amazon KDP',
-      'schede di algebra visiva licenza commerciale',
-      'creare quaderni di matematica per vendere online',
-      'puzzle algebrici illustrati per negozio Etsy',
+      'creare schede di matematica',
+      'esercizi di matematica da stampare',
+      'generatore esercizi matematica',
+      'schede matematica personalizzate',
     ],
     lsiKeywords: [
-      'licenza commerciale',
-      '300 DPI',
-      'pronto per la stampa',
-      'algebra visiva',
-      'equazioni con immagini',
-      'reddito passivo',
-      'download digitale',
-      'business di stampabili',
+      'operazioni',
+      'calcolo',
+      'aritmetica',
       'scuola primaria',
+      'soluzioni',
+      'PDF',
     ],
-    titleTag: 'Schede di matematica per venditori Etsy | LCS',
-    metaDescription: 'Crea schede di matematica con puzzle algebrici illustrati da vendere su Etsy e KDP. 4 livelli, 104 temi, licenza commerciale. 49 $ pagamento unico.',
+    titleTag: 'Generatore schede di matematica | Creare esercizi da stampare',
+    metaDescription: 'Create schede di matematica personalizzate con soluzioni automatiche. PDF 300 DPI, 11 lingue. Prova gratis — licenza commerciale per Etsy e KDP.',
   },
 
   hero: {
-    title: 'Genera schede di matematica da vendere su Etsy, KDP e oltre',
+    title: 'Generatore schede di matematica — Creare esercizi da stampare',
     tagline: 'Trasforma l\'algebra iniziale in un\'avventura visiva — le immagini diventano variabili e ogni puzzle ha esattamente una soluzione.',
     description:
       'Genera schede di matematica con puzzle algebrici illustrati da vendere su Etsy, Amazon KDP o Eduki — e trasforma l\'algebra in un prodotto digitale redditizio. Le immagini sostituiscono le variabili nelle equazioni: gli utenti risolvono sistemi interconnessi per scoprire il valore nascosto di ogni immagine. Quattro livelli di difficoltà (da 2 a 4 incognite) coprono dalla scuola dell\'infanzia alla terza primaria, permettendoti di creare un catalogo differenziato per fascia d\'età. Oltre 3.100 illustrazioni in 104 temi, esportazione PDF a oltre 400 DPI con soluzioni automatiche e licenza commerciale inclusa. Il mercato italiano dei puzzle matematici stampabili su Etsy è praticamente vuoto — nessun venditore offre puzzle algebrici illustrati in italiano. Posizionati come primo venditore in una nicchia con domanda crescente e concorrenza zero. Prova gratis con filigrana — senza registrazione.',

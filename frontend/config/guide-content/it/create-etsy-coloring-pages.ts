@@ -2,26 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'creare disegni da colorare che vendono su Etsy',
+    primaryKeyword: 'vendere disegni da colorare su Etsy',
     secondaryKeywords: [
-      'come vendere pagine da colorare stampabili su Etsy',
-      'negozio Etsy disegni da colorare bambini e adulti',
-      'bundle pagine da colorare tematiche Etsy venditori',
-      'strategia prezzi pagine da colorare download digitale',
-      'pagine da colorare 104 temi Etsy catalogo',
+      'come vendere pagine da colorare stampabili Etsy',
+      'negozio Etsy disegni da colorare strategia',
+      'bundle pagine da colorare tematiche Etsy',
+      'inserzioni Etsy pagine da colorare ottimizzate',
     ],
     lsiKeywords: [
-      'line art bianco e nero esportazione stampa Etsy',
-      'domanda stagionale pagine da colorare festività',
-      'crossover Amazon KDP libri da colorare',
-      'mockup foto inserzioni Etsy prodotti colorare',
+      'negozio Etsy pagine da colorare',
+      'line art bianco e nero',
+      'domanda stagionale festività',
+      'inserzioni ottimizzate',
+      'catalogo tematico',
     ],
-    titleTag: 'Disegni da colorare che vendono su Etsy | LessonCraftStudio',
-    metaDescription: 'Crea disegni da colorare che vendono su Etsy con 104 temi. Ottimizzazione inserzioni, prezzi, bundle tematici e strategie stagionali per venditori.',
+    titleTag: 'Vendere disegni da colorare su Etsy | Guida',
+    metaDescription: 'Come vendere disegni da colorare su Etsy con 104 temi disponibili. Ottimizzazione inserzioni, prezzi e strategie stagionali per il tuo negozio.',
   },
 
   hero: {
-    title: 'Disegni da colorare per Etsy: come crearli e venderli',
+    title: 'Vendere disegni da colorare su Etsy: guida pratica',
     tagline: 'Una guida completa per costruire un negozio Etsy redditizio vendendo pagine da colorare create da 104 librerie di immagini tematiche — configurazione negozio Etsy, ottimizzazione SEO con tutti i 13 tag, titoli e descrizioni inserzioni che si posizionano per i termini di ricerca degli acquirenti di pagine da colorare, fotografia prodotti che mostra line art in bianco e nero e varietà tematica, strategie di prezzo per pagine singole e collezioni tematiche, tempistiche stagionali per picchi di domanda festivi e rientro a scuola, pianificazione catalogo per bambini e adulti, opportunità crossover libri da colorare KDP, e ottimizzazione continua del negozio usando Etsy Stats e analytics di ricerca',
     description: 'Le pagine da colorare rappresentano una delle categorie di stampabili più richieste e sempreverdi su Etsy, con un pubblico che spazia dai bambini agli adulti in tutto il mercato italiano e internazionale. Con 104 librerie di immagini tematiche a disposizione, puoi costruire un catalogo diversificato che copre animali, natura, festività e decine di altri temi. Questa guida ti mostra come generare pagine da colorare professionali in bianco e nero, scrivere inserzioni ottimizzate per il motore di ricerca di Etsy, creare bundle tematici che aumentano il valore per transazione e sfruttare i picchi stagionali di domanda. Imparerai anche come espandere il business con il crossover verso libri da colorare su Amazon KDP.',
   },

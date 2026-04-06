@@ -2,11 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'schede scrittura Etsy nicchia vendere',
-    secondaryKeywords: ['schede calligrafia bambini vendere', 'stampabili prescrittura Etsy', 'business schede pregrafismo'],
-    lsiKeywords: ['attività motricità fine stampabili', 'prescrittura scuola infanzia', 'calligrafia corsivo schede'],
-    titleTag: 'Schede Scrittura su Etsy: Nicchia Redditizia | LCS',
-    metaDescription: 'Venda schede di scrittura e pregrafismo su Etsy. Scopra perché questa nicchia è perfetta per il mercato italiano nel 2026.',
+    primaryKeyword: 'schede pregrafismo scrittura da stampare',
+    secondaryKeywords: [
+      'esercizi scrittura prima elementare PDF',
+      'schede calligrafia bambini da stampare',
+      'pregrafismo lettere numeri scuola infanzia',
+      'fogli esercizio scrittura corsivo stampare',
+    ],
+    lsiKeywords: [
+      'pregrafismo',
+      'scrittura',
+      'calligrafia',
+      'corsivo',
+      'lettere',
+      'tracciare',
+    ],
+    titleTag: 'Schede Pregrafismo e Scrittura da Stampare | LCS',
+    metaDescription: 'Schede di pregrafismo e scrittura da stampare per bambini. Esercizi di calligrafia per la scuola primaria con LessonCraftStudio — 33 generatori.',
   },
   hero: {
     title: 'Schede di Scrittura su Etsy: Una Nicchia Redditizia',

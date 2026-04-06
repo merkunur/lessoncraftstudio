@@ -2,26 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'creare schede di ombre da vendere',
+    primaryKeyword: 'come creare schede gioco delle ombre da stampare',
     secondaryKeywords: [
-      'schede abbinamento ombre stampabili per Etsy e KDP',
-      'generatore schede sagome e silhouette uso commerciale',
-      'vendere schede discriminazione visiva online',
-      'creare schede completa l\'immagine con licenza commerciale',
-      'schede percezione visiva da vendere su Gumroad',
+      'schede abbinamento ombre per bambini da stampare PDF',
+      'creare giochi di silhouette da stampare',
+      'generatore schede percezione visiva prescolare',
+      'attività discriminazione visiva da stampare',
     ],
     lsiKeywords: [
-      'generazione sagome a livello di pixel automatica',
-      'due modalità ombre e immagini divise',
-      'output puramente visivo per vendite globali',
-      'prodotti stampabili percezione visiva per venditori',
+      'gioco delle ombre',
+      'abbinamento sagome',
+      'percezione visiva prescolare',
+      'completa l\'immagine',
+      'discriminazione visiva bambini',
     ],
-    titleTag: 'Schede di ombre da vendere | LessonCraftStudio',
-    metaDescription: 'Crea schede di discriminazione visiva con modalità Abbinamento Ombre e Completa l\'Immagine. Output visivo per vendere su Etsy, KDP e Gumroad.',
+    titleTag: 'Creare schede gioco delle ombre da stampare | Guida',
+    metaDescription: 'Come creare schede gioco delle ombre da stampare con modalità Abbinamento Ombre e Completa l\'Immagine. Output visivo con chiavi di risposta.',
   },
 
   hero: {
-    title: 'Schede di ombre e discriminazione visiva da vendere',
+    title: 'Come creare schede gioco delle ombre da stampare',
     tagline: 'Tutorial passo passo per creare schede di discriminazione visiva a doppia modalità con generazione di sagome a livello di pixel, metà di immagini divise Completa l\'Immagine, algoritmo di disordinamento Fisher-Yates, etichette attivabili/disattivabili, chiavi di risposta auto-generate e output puramente visivo da vendere in tutto il mondo su Etsy, Amazon KDP e Gumroad',
     description: 'Le schede di abbinamento ombre e discriminazione visiva sono tra i prodotti stampabili più richiesti per la prima infanzia, con applicazioni che vanno dalla pratica prescolare alle valutazioni di terapia occupazionale. Il formato puramente visivo rappresenta il vantaggio competitivo più forte di questa categoria: nessun testo da tradurre, nessuna barriera linguistica. Una singola scheda si vende identicamente in qualsiasi paese del mondo. Il Generatore Schede Discriminazione Visiva offre due modalità distinte — Abbinamento Ombre con generazione automatica di sagome a livello di pixel, e Completa l\'Immagine con metà divise per il ragionamento spaziale. L\'algoritmo Fisher-Yates garantisce che nessun elemento appaia nella posizione originale, creando sfide autentiche in ogni scheda. Etichette attivabili e disattivabili creano due livelli di difficoltà dallo stesso contenuto. Questa guida ti mostra come creare prodotti professionali con chiavi di risposta auto-generate e file pronti per la produzione. Che tu stia creando il tuo primo prodotto di discriminazione visiva o espandendo un catalogo esistente, avrai schede finite pronte per la pubblicazione.',
   },

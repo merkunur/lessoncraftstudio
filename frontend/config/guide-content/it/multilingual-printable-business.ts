@@ -2,26 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'business stampabili multilingue',
+    primaryKeyword: 'business di stampabili multilingue',
     secondaryKeywords: [
       'espansione internazionale venditori stampabili',
-      'quali lingue puntare per vendere schede',
+      'quali lingue puntare per vendere schede online',
       'moltiplicare ricavi con stampabili multilingue',
       'strategia localizzazione stampabili Europa',
-      'marketplace internazionali per schede educative',
     ],
     lsiKeywords: [
-      'mercati europei stampabili sottovalutati',
-      'catalogo multilingue diversificazione ricavi',
-      'flusso traduzione controllo qualità',
-      'SEO internazionale marketplace specifici',
+      'mercati europei stampabili',
+      'catalogo multilingue diversificazione',
+      'flusso traduzione qualità',
+      'SEO internazionale marketplace',
+      'espansione linguistica',
     ],
-    titleTag: 'Business stampabili multilingue | LessonCraftStudio',
-    metaDescription: 'Come costruire un business di stampabili multilingue: lingue da puntare, flussi di traduzione e strategie per moltiplicare i ricavi. Guida completa.',
+    titleTag: 'Business stampabili multilingue | Guida',
+    metaDescription: 'Come costruire un business di stampabili multilingue: lingue da puntare, flussi di traduzione e strategie per moltiplicare i ricavi in Europa.',
   },
 
   hero: {
-    title: 'Business di Stampabili Multilingue: Guida Strategica',
+    title: 'Business di stampabili multilingue: guida strategica',
     tagline: 'Una guida completa per espandere il tuo business di stampabili a livello internazionale — perché l\'espansione multilingue è la strategia di crescita più sottovalutata, quali mercati linguistici offrono i rendimenti più alti, come strutturare il business per operazioni multilingue, analizzare le opportunità dei marketplace internazionali, costruire un vantaggio competitivo attraverso la copertura linguistica, sviluppare un framework di moltiplicazione dei ricavi, pianificare un\'espansione linguistica graduale e ottimizzare le performance del portfolio multilingue',
     description: 'Come venditore italiano, hai un vantaggio naturale nell\'espansione multilingue: comprendi già il mercato europeo e le sfumature culturali che i venditori anglofoni ignorano. La maggior parte dei concorrenti vende solo in inglese, lasciando enormi opportunità nei mercati tedesco, francese, spagnolo e di altre lingue dove la domanda supera l\'offerta. Questa guida ti mostra come costruire un business multilingue che moltiplica i ricavi raggiungendo acquirenti internazionali su più piattaforme. Scopri quali lingue offrono il miglior ritorno sull\'investimento, come strutturare la produzione multilingue e come sfruttare strumenti di traduzione per creare cataloghi in più lingue in modo efficiente.',
   },

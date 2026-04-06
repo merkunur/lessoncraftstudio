@@ -2,25 +2,26 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Stampabili trasporti — Business | LessonCraftStudio',
-    metaDescription: 'Crea stampabili mezzi di trasporto da vendere su Etsy e KDP. Idee prodotto veicoli, strategie di nicchia e strumenti per schede auto, treni e aerei.',
-    primaryKeyword: 'stampabili mezzi di trasporto business',
+    titleTag: 'Schede mezzi di trasporto da stampare | LCS',
+    metaDescription: 'Crea schede sui mezzi di trasporto da stampare: colorare auto e treni, conteggio veicoli, crucipuzzle e abbinamento per bambini della scuola primaria.',
+    primaryKeyword: 'schede mezzi di trasporto da stampare',
     secondaryKeywords: [
-      'schede veicoli da vendere su Etsy',
-      'stampabili trasporti per venditori online',
-      'attività a tema auto camion treni business',
-      'nicchia stampabili veicoli educativi',
-      'idee prodotto stampabili mezzi di trasporto',
+      'attività veicoli da stampare per bambini',
+      'stampabili auto e treni da colorare',
+      'schede didattiche trasporti scuola primaria',
+      'giochi veicoli da stampare gratis',
     ],
     lsiKeywords: [
-      'schede conteggio veicoli negozio Etsy',
-      'stampabili camion pompieri ambulanze KDP',
-      'generatore schede trasporti vendita online',
-      'business digitale tema veicoli bambini',
+      'scuola primaria',
+      'auto',
+      'treni',
+      'aerei',
+      'colorare',
+      'veicoli',
     ],
   },
   hero: {
-    title: 'Stampabili mezzi di trasporto: idee business redditizie',
+    title: 'Schede Mezzi di Trasporto da Stampare: Idee Creative',
     description: 'I mezzi di trasporto sono una delle nicchie sempreverdi più solide per i venditori di stampabili: auto, camion, treni, aerei, barche ed elicotteri affascinano i bambini fin dalla prima infanzia, garantendo domanda costante tutto l\'anno. La profondità dei sotto-temi è straordinaria — veicoli di emergenza, veicoli da cantiere, trasporti acquatici, trasporti aerei — e ciascuno apre opportunità di prodotto distinte con parole chiave specifiche. La versatilità educativa è un punto di forza: i veicoli si collegano alla matematica (conteggio), all\'alfabetizzazione (vocabolario), agli studi sociali (mestieri della comunità) e alle scienze (movimento ed energia). Su Etsy, Amazon KDP e Gumroad, questa nicchia attrae genitori di bambini appassionati di veicoli, famiglie che praticano l\'istruzione parentale e acquirenti di materiale educativo tematico. In questa guida trovi idee di prodotto concrete, strategie per piattaforma e approcci di posizionamento per costruire la tua linea di stampabili sui trasporti con i nostri generatori di schede.',
   },
   marketOverview: `La nicchia dei stampabili sui trasporti occupa una posizione particolarmente vantaggiosa per i venditori perché il fascino dei bambini per i veicoli è tra gli interessi più intensi e duraturi nello sviluppo della prima infanzia. Dal momento in cui i bambini piccoli indicano con entusiasmo camion di passaggio, autopompe e aerei in volo, l\'ossessione per i trasporti si radica e persiste durante gli anni della scuola dell\'infanzia e della scuola primaria. Questa profonda motivazione intrinseca significa che i bambini si impegnano con entusiasmo nelle schede a tema trasporti senza l\'incoraggiamento che i materiali educativi generici talvolta richiedono, il che rende i stampabili a tema veicoli eccezionalmente attraenti sia per i venditori che cercano coinvolgimento degli utenti sia per i genitori che desiderano attività produttive senza schermi.

@@ -2,11 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'diritto d\'autore venditori stampabili basi',
-    secondaryKeywords: ['business stampabili digitali Italia', 'vendere stampabili online strategia', 'Etsy KDP stampabili mercato italiano'],
-    lsiKeywords: ['stampabili educativi business', 'vendita online prodotti digitali', 'mercato italiano stampabili 2026'],
-    titleTag: 'Diritto d\'Autore per Stampabili: Basi | LCS',
-    metaDescription: 'Le basi del diritto d\'autore per venditori di stampabili. Come proteggere le Sue creazioni e evitare violazioni.',
+    primaryKeyword: 'diritto d\'autore materiale didattico stampabile',
+    secondaryKeywords: [
+      'copyright schede didattiche da stampare',
+      'protezione contenuti educativi online',
+      'diritti autore esercizi didattici',
+      'plagio materiale scolastico stampabile',
+    ],
+    lsiKeywords: [
+      'copyright',
+      'diritto autore',
+      'protezione',
+      'originalità',
+      'plagio',
+      'legale',
+    ],
+    titleTag: 'Copyright Materiale Didattico Stampabile | LCS',
+    metaDescription: 'Guida al diritto d\'autore per materiale didattico stampabile. Proteggi le tue creazioni educative con LessonCraftStudio — 33 generatori, 11 lingue.',
   },
   hero: {
     title: 'Diritto d\'Autore per Venditori di Stampabili: Le Basi',

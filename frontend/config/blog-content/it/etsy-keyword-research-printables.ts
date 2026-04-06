@@ -2,11 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'ricerca keyword Etsy stampabili guida',
-    secondaryKeywords: ['come creare stampabili vendere', 'guida pratica stampabili business', 'tutorial stampabili educativi'],
-    lsiKeywords: ['creazione stampabili professionali', 'workflow produzione schede', 'ottimizzazione vendita stampabili'],
-    titleTag: 'Ricerca Keyword Etsy per Stampabili | LCS',
-    metaDescription: 'Guida alla ricerca keyword su Etsy per stampabili. Strumenti, strategie e tecniche per trovare keyword che convertono.',
+    primaryKeyword: 'parole chiave schede didattiche Etsy',
+    secondaryKeywords: [
+      'keyword ricerca schede stampabili online',
+      'come trovare parole chiave Etsy educazione',
+      'SEO schede didattiche marketplace',
+      'tag migliori schede stampabili Etsy',
+    ],
+    lsiKeywords: [
+      'keyword',
+      'parole chiave',
+      'tag',
+      'ricerca',
+      'SEO',
+      'visibilità',
+    ],
+    titleTag: 'Parole Chiave per Schede Didattiche Etsy | LCS',
+    metaDescription: 'Guida alle parole chiave per schede didattiche su Etsy. Come trovare keyword efficaci che portano visibilità con LessonCraftStudio — 33 generatori.',
   },
   hero: {
     title: 'Ricerca Keyword su Etsy per Stampabili: Guida Completa',

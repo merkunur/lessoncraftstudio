@@ -2,27 +2,28 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'generatore di schede di matematica gratis',
+    primaryKeyword: 'schede matematica da stampare gratis',
     secondaryKeywords: [
-      'creare schede matematica gratis online',
-      'schede algebra visuale stampabili gratis',
-      'generatore esercizi matematica senza registrazione',
-      'puzzle matematici con immagini gratis PDF',
-      'schede equazioni con variabili gratis',
+      'esercizi matematica da stampare gratis online',
+      'schede algebra visuale gratis PDF',
+      'schede matematica gratis senza registrazione',
+      'esercizi equazioni con immagini gratis',
+      'schede matematica bambini da stampare gratis',
     ],
     lsiKeywords: [
-      'gratis',
-      'senza registrazione',
-      'stampabile',
-      'PDF',
-      'prova gratuita con filigrana',
+      'matematica',
+      'algebra visuale',
+      'equazioni',
+      'esercizi',
+      'stampabile PDF',
+      'gratis online',
     ],
-    titleTag: 'Schede di matematica gratis online | LessonCraftStudio',
-    metaDescription: 'Crea schede di matematica gratis online, senza registrazione. Algebra visuale, 4 livelli di difficoltà, PDF istantaneo. Licenza commerciale per vendere.',
+    titleTag: 'Schede matematica da stampare gratis | LessonCraftStudio',
+    metaDescription: 'Crea schede di matematica da stampare gratis online, senza registrazione. Algebra visuale con immagini, 4 livelli di difficoltà, PDF istantaneo. Prova subito.',
   },
 
   hero: {
-    title: 'Crea Schede di Matematica Gratis Online',
+    title: 'Schede di Matematica da Stampare Gratis Online',
     tagline: 'Crea puzzle di algebra visuale con immagini come variabili in meno di 60 secondi',
     description: 'Crea schede di matematica gratis direttamente nel browser — nessuna registrazione, nessun download. Lo strumento genera puzzle di algebra visuale dove le immagini sostituiscono le incognite in sistemi di equazioni collegate. Quattro livelli di difficoltà scalano da due simboli con addizione semplice fino a quattro incognite simultanee con operazioni miste. Un risolutore algebrico integrato garantisce che ogni puzzle abbia esattamente una soluzione corretta. Scegli Solo Addizione o Addizione e Sottrazione, imposta l\'intervallo numerico e controlla i puzzle per pagina da 1 a 6 con layout automatico. Seleziona tra oltre 3.100 immagini in 104 temi o carica le tue PNG e JPEG. Scarica PDF pronti per la stampa o JPEG ad alta risoluzione con chiave di risposta automatica. Vuoi vendere le tue schede su Etsy, Amazon KDP o Gumroad? Passa alla licenza commerciale per rimuovere la filigrana e ottenere i diritti di rivendita completi.',
   },

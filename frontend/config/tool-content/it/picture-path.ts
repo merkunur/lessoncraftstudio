@@ -2,28 +2,28 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'generatore labirinti illustrati gratis',
+    primaryKeyword: 'labirinti da stampare gratis',
     secondaryKeywords: [
-      'creare labirinti con immagini gratis online',
-      'schede labirinto stampabili gratis',
-      'generatore percorso immagini senza registrazione',
-      'labirinti illustrati gratis PDF',
-      'generatore schede labirinto gratuito online',
+      'labirinti gratis online da stampare',
+      'labirinti con immagini da stampare gratis PDF',
+      'labirinti gratis senza registrazione',
+      'labirinti per bambini da stampare gratis',
+      'generatore labirinti gratis online',
     ],
     lsiKeywords: [
-      'gratis',
-      'senza registrazione',
-      'stampabile',
-      'PDF',
-      'filigrana',
-      'prova gratuita',
+      'labirinti',
+      'percorso',
+      'puzzle visivo',
+      'bambini',
+      'stampabile PDF',
+      'gratis online',
     ],
-    titleTag: 'Labirinti illustrati gratis online | LessonCraftStudio',
-    metaDescription: 'Crea labirinti illustrati gratis online, senza registrazione. Tre modalità di gioco, cinque ruoli immagine, 104 temi. Licenza commerciale disponibile.',
+    titleTag: 'Labirinti da stampare gratis online | LessonCraftStudio',
+    metaDescription: 'Crea labirinti da stampare gratis online, senza registrazione. Tre modalità di gioco, cinque ruoli immagine, 104 temi, soluzioni automatiche. Prova subito.',
   },
 
   hero: {
-    title: 'Crea Labirinti Illustrati Gratis Online',
+    title: 'Labirinti da Stampare Gratis Online',
     tagline: 'Generatore di schede labirinto con tre modalità: Percorso con Immagini (griglia di immagini da seguire), Labirinto negozico (algoritmo LPF con muri, collezionabili e blocco dei vicoli ciechi) e Scegli il Percorso Giusto (labirinti direzionali a tre percorsi), cinque ruoli immagine (Inizio, Fine, Percorso, Distrattore, Decorazione), design dei muri personalizzabile con controlli colore/spessore/opacità, chiavi di risposta generate automaticamente con cerchi rosa lungo il percorso soluzione e legende dei collezionabili, e labirinti interamente visivi vendibili in tutto il mondo senza traduzione',
     description: 'Crea labirinti illustrati gratis, direttamente nel browser, senza registrazione e senza installare nulla. Il generatore offre tre modalità: Percorso con Immagini per griglie visive, Labirinto classico con algoritmo LPF e muri personalizzabili, e Scegli il Percorso Giusto con tre alternative direzionali. Assegna immagini a cinque ruoli (inizio, fine, percorso, distrattore, decorazione) e configura collezionabili nei corridoi del labirinto. Ogni modalità genera automaticamente la chiave di risposta con cerchi rosa lungo la soluzione. I labirinti sono interamente visivi — vendibili universalmente senza traduzione. Sfoglia 104 temi con oltre 3.100 illustrazioni. Esporta PDF e JPEG a 300 DPI — la prova gratuita include tutte le funzionalità con una filigrana sui download. Vuoi vendere le tue schede su Etsy o Amazon KDP? Passa alla licenza commerciale per rimuovere la filigrana e ottenere i diritti di rivendita completi.',
   },

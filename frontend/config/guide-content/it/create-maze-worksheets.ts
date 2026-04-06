@@ -2,26 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'creare labirinti da vendere su Etsy',
+    primaryKeyword: 'come creare labirinti da stampare',
     secondaryKeywords: [
-      'labirinti stampabili per Etsy e Amazon KDP',
-      'generatore labirinti uso commerciale',
-      'vendere libri di labirinti per bambini online',
-      'creare schede labirinti con licenza commerciale',
-      'labirinti tematici da vendere su Gumroad',
+      'generatore labirinti per bambini PDF',
+      'creare labirinti tematici da stampare',
+      'labirinti con soluzioni da stampare gratis',
+      'schede labirinti scuola dell\'infanzia da stampare',
     ],
     lsiKeywords: [
-      'tre modalità gioco percorso illustrato classico direzionale',
-      'prodotti stampabili labirinti per venditori',
-      'libri labirinti Amazon KDP nicchia puzzle',
-      'schede ragionamento spaziale con chiavi di risposta',
+      'labirinti per bambini',
+      'percorso illustrato',
+      'ragionamento spaziale',
+      'tre modalità di gioco',
+      'chiavi di risposta',
     ],
-    titleTag: 'Labirinti da vendere su Etsy | LessonCraftStudio',
-    metaDescription: 'Crea labirinti con 3 modalità di gioco, immagini tematiche e chiavi di risposta automatiche. Genera schede stampabili per vendere su Etsy, KDP e Gumroad.',
+    titleTag: 'Creare labirinti da stampare | Guida',
+    metaDescription: 'Come creare labirinti da stampare con 3 modalità di gioco, immagini tematiche e chiavi di risposta automatiche. Generatore configurabile per ogni età.',
   },
 
   hero: {
-    title: 'Labirinti da vendere su Etsy: guida alla creazione',
+    title: 'Come creare labirinti da stampare',
     tagline: 'Tutorial passo passo per creare schede labirinti tematiche in tre modalità di gioco distinte — pronte per la vendita su Etsy, Amazon KDP e Gumroad',
     description: 'I labirinti sono tra i formati puzzle più amati e venduti su ogni marketplace di stampabili, con una domanda costante tutto l\'anno. Il mercato italiano offre un\'opportunità concreta per i venditori che vogliono differenziarsi: mentre la concorrenza si concentra su labirinti generici, il Generatore di Labirinti con Percorso Illustrato offre tre modalità di gioco fondamentalmente diverse — Percorso Illustrato, Labirinto Classico con collezionabili e Scegli il Percorso Giusto. Ogni modalità produce un tipo di prodotto distinto, triplicando la varietà del tuo catalogo da un singolo strumento. Con sei dimensioni di griglia, cinque ruoli per le immagini tematiche e oltre 100 set di immagini, puoi creare migliaia di variazioni uniche. Questa guida ti mostra come configurare ogni impostazione, assegnare ruoli alle immagini ed esportare PDF pronti per la stampa con chiavi di risposta automatiche. Che tu stia creando il tuo primo prodotto labirinto o espandendo un catalogo esistente, avrai schede finite pronte per la pubblicazione.',
   },

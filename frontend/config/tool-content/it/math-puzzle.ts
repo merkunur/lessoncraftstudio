@@ -1,27 +1,28 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'creare puzzle di matematica gratis',
+    primaryKeyword: 'puzzle matematici da stampare gratis',
     secondaryKeywords: [
-      'puzzle matematici gratis online',
-      'generatore puzzle matematici stampabili gratis',
-      'creare puzzle jigsaw matematica senza registrazione',
-      'puzzle matematici con immagini gratis PDF',
-      'schede puzzle matematici da stampare gratis',
+      'giochi di matematica da stampare gratis',
+      'puzzle matematici gratis online PDF',
+      'puzzle matematici gratis senza registrazione',
+      'schede puzzle matematica da stampare gratis',
+      'giochi matematica gratis online',
     ],
     lsiKeywords: [
-      'gratis',
-      'senza registrazione',
-      'stampabile',
-      'PDF',
-      'prova gratuita con filigrana',
+      'puzzle matematici',
+      'giochi di matematica',
+      'jigsaw',
+      'addizione sottrazione',
+      'stampabile PDF',
+      'gratis online',
     ],
-    titleTag: 'Puzzle di matematica gratis online | LessonCraftStudio',
-    metaDescription: 'Crea puzzle matematici gratis online, senza registrazione. Griglia jigsaw, 3 modalità, chiave di risposta, PDF istantaneo. Licenza commerciale per vendere.',
+    titleTag: 'Puzzle matematici da stampare gratis | LessonCraftStudio',
+    metaDescription: 'Crea puzzle matematici da stampare gratis online, senza registrazione. Griglia jigsaw, 3 modalità, chiave di risposta, PDF istantaneo. Prova subito.',
     },
 
   hero: {
-    title: 'Crea Puzzle di Matematica Gratis Online',
+    title: 'Puzzle Matematici da Stampare Gratis Online',
     tagline: 'Crea puzzle jigsaw con immagini ed equazioni matematiche in meno di 60 secondi',
     description: 'Crea puzzle di matematica gratis direttamente nel browser — nessuna registrazione, nessun download. Lo strumento divide un\'immagine in una griglia di celle con equazioni matematiche. Sotto appaiono i pezzi del puzzle mescolati con le risposte — gli utenti risolvono ogni equazione e abbinano il pezzo corretto per ricostruire l\'immagine. Scegli tra tre modalità operative: Addizione, Sottrazione o Mista. Regola la dimensione della griglia da 2×2 fino a 4×4 per adattarla a qualsiasi livello. Carica le tue immagini PNG o JPEG oppure sfoglia la libreria integrata con oltre 3.100 immagini in 104 temi. Scarica PDF pronti per la stampa o JPEG ad alta risoluzione con foglio soluzioni automatico. Vuoi vendere i tuoi puzzle su Etsy, Amazon KDP o Gumroad? Passa alla licenza commerciale per rimuovere la filigrana e ottenere i diritti di rivendita completi.',
   },

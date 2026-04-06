@@ -2,26 +2,26 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'creare schede multilingue da vendere',
+    primaryKeyword: 'come creare schede didattiche multilingue',
     secondaryKeywords: [
       'generatore schede multilingue 11 lingue',
-      'vendere stampabili in tedesco francese spagnolo',
-      'schede didattiche multilingue Etsy Amazon KDP',
-      'espandere catalogo stampabili mercati internazionali',
+      'creare stampabili in più lingue',
+      'schede didattiche multilingue per bambini',
+      'generatore attività educative multilingue',
     ],
     lsiKeywords: [
-      'generatore sensibile alla lingua vs solo visivo',
-      'mercato stampabili non anglofono opportunità',
-      'vocabolario tradotto professionalmente per schede',
-      'vendere schede su etsy.de etsy.fr amazon.it',
-      'catalogo multilingue moltiplicare ricavi',
+      'multilingue',
+      'schede didattiche',
+      '11 lingue',
+      'generatore',
+      'traduzione',
     ],
-    titleTag: 'Schede multilingue da vendere | LessonCraftStudio',
-    metaDescription: 'Crea e vendi schede in 11 lingue con generatori multilingue. Raggiungi mercati poco serviti su Etsy, Amazon KDP e marketplace globali. Prova gratuita.',
+    titleTag: 'Creare schede didattiche multilingue | LCS',
+    metaDescription: 'Come creare schede didattiche multilingue con generatori in 11 lingue: italiano, inglese, tedesco, francese, spagnolo e altre. Guida passo dopo passo.',
   },
 
   hero: {
-    title: 'Creare e Vendere Schede Multilingue in 11 Lingue',
+    title: 'Come Creare Schede Didattiche Multilingue in 11 Lingue',
     tagline: 'Raggiungi acquirenti internazionali su Etsy e Amazon KDP con contenuti professionalmente localizzati — nessuna competenza linguistica richiesta',
     description: 'I mercati tedesco, francese, spagnolo e italiano hanno milioni di acquirenti attivi ma una frazione della concorrenza del mercato anglofono. Come venditore italiano hai un vantaggio naturale: conosci già il mercato locale e puoi espanderti in altre lingue europee con generatori che includono traduzioni professionali integrate in 11 lingue. Questa guida ti mostra la distinzione tra generatori sensibili alla lingua e solo visuali, le opportunità specifiche per ogni mercato e la strategia sistematica per moltiplicare il tuo catalogo a livello internazionale. Prova gratuita con filigrana per testare l\'output multilingue.',
   },

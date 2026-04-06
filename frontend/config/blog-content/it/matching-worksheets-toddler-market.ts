@@ -2,11 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'schede abbinamento mercato bambini piccoli',
-    secondaryKeywords: ['schede associazione bambini Etsy', 'stampabili abbinamento prescuola vendere', 'business schede matching bambini'],
-    lsiKeywords: ['attività cognitive primi anni', 'schede logica bambini piccoli', 'stampabili educativi 2-4 anni'],
-    titleTag: 'Schede Abbinamento: Mercato Bambini Piccoli | LCS',
-    metaDescription: 'Venda schede di abbinamento per bambini piccoli su Etsy. Un mercato in crescita costante con margini eccellenti nel 2026.',
+    primaryKeyword: 'schede abbinamento per bambini piccoli stampare',
+    secondaryKeywords: [
+      'esercizi associazione immagini 2-3 anni PDF',
+      'schede abbina oggetti prescuola da stampare',
+      'attività abbinamento scuola infanzia',
+      'giochi associazione visiva toddler',
+    ],
+    lsiKeywords: [
+      'abbinamento',
+      'associazione',
+      'immagini',
+      'toddler',
+      'prescuola',
+      'visivo',
+    ],
+    titleTag: 'Schede Abbinamento Bambini Piccoli | LCS',
+    metaDescription: 'Schede di abbinamento per bambini piccoli da stampare con immagini. Esercizi di associazione visiva per prescuola con LessonCraftStudio — 33 generatori.',
   },
   hero: {
     title: 'Schede di Abbinamento: Il Mercato dei Bambini Piccoli',

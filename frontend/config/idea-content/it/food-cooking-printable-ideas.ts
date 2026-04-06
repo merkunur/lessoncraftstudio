@@ -2,25 +2,26 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Stampabili alimentazione per Etsy | LessonCraftStudio',
-    metaDescription: 'Crea stampabili cibo e alimentazione da vendere su Etsy e KDP. Idee prodotto cucina, nutrizione e ricette per costruire un business di schede redditizio.',
-    primaryKeyword: 'stampabili cibo e alimentazione per Etsy',
+    titleTag: 'Schede cibo e alimentazione da stampare | LCS',
+    metaDescription: 'Crea schede a tema cibo da stampare: conteggio frutta e verdura, colorare alimenti, crucipuzzle cucina e attività di educazione alimentare per bambini.',
+    primaryKeyword: 'schede cibo e alimentazione da stampare',
     secondaryKeywords: [
-      'schede cucina da vendere online',
-      'stampabili nutrizione per venditori Etsy',
-      'attività cibo e ricette business stampabili',
-      'nicchia stampabili alimentazione educativa',
-      'idee prodotto stampabili tema cibo',
+      'attività alimentazione da stampare per bambini',
+      'stampabili tema cibo scuola primaria',
+      'schede frutta e verdura da stampare',
+      'giochi educazione alimentare da stampare',
     ],
     lsiKeywords: [
-      'schede conteggio frutta verdura vendita',
-      'stampabili educativi cucina KDP',
-      'generatore schede alimentazione negozio',
-      'business digitale tema cibo bambini',
+      'scuola primaria',
+      'frutta',
+      'verdura',
+      'colorare',
+      'conteggio',
+      'nutrizione',
     ],
   },
   hero: {
-    title: 'Stampabili cibo e alimentazione: nicchia sempreverde',
+    title: 'Schede Cibo e Alimentazione da Stampare: Idee Creative',
     description: 'Il cibo e la cucina rappresentano una nicchia sempreverde straordinaria per i venditori di stampabili: ogni bambino ha un collegamento diretto con pasti, merende e avventure in cucina, garantendo domanda costante in tutti i dodici mesi. I sotto-temi sono vastissimi — frutta, verdura, cottura al forno, alimentazione sana, cucine internazionali — e ciascuno apre opportunità di prodotto distinte con parole chiave specifiche su Etsy e KDP. La versatilità educativa è un enorme punto di forza: il cibo si collega alla matematica (misurazione, conteggio ingredienti), all\'alfabetizzazione (vocabolario alimentare, lettura di ricette), alle scienze (nutrizione, crescita delle piante) e alle competenze di vita (sicurezza in cucina). Genitori, famiglie che praticano l\'istruzione parentale e acquirenti di materiale educativo tematico cercano attivamente queste risorse. In questa guida trovi idee di prodotto concrete, strategie per piattaforma e approcci di posizionamento per costruire una linea redditizia di stampabili su cibo e cucina con i nostri generatori di schede didattiche.',
   },
   marketOverview: `La nicchia dei stampabili su cibo e cucina occupa una posizione particolarmente vantaggiosa per i venditori perché ogni bambino ha una connessione diretta e personale con il cibo attraverso i pasti quotidiani, le merende, le spese al supermercato e le esperienze in cucina con la famiglia. A differenza dei temi di nicchia che dipendono dallo sviluppo di un interesse specifico da parte del bambino, il cibo è universalmente rilevante fin dalla prima infanzia, garantendo che i materiali educativi a tema alimentare attraggano il pubblico più ampio possibile di genitori, venditori e famiglie che praticano l\'istruzione domestica. Questa rilevanza universale si traduce in una domanda costante degli acquirenti in tutti e dodici i mesi perché l\'educazione alla nutrizione, la consapevolezza dell\'alimentazione sana e le attività di apprendimento a tema culinario non vanno mai fuori stagione.

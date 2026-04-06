@@ -2,26 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'creare schede in più lingue da vendere',
+    primaryKeyword: 'creare schede in più lingue da stampare',
     secondaryKeywords: [
-      'produzione schede multilingue per venditori',
+      'produzione schede multilingue con generatore',
       'gestione caratteri speciali e diacritici stampabili',
-      'flusso di lavoro traduzione schede batch',
+      'flusso di lavoro traduzione schede efficiente',
       'adattamento culturale schede per mercati esteri',
-      'controllo qualità traduzioni stampabili educativi',
     ],
     lsiKeywords: [
-      'umlaut tedeschi accenti francesi font multilingue',
-      'variazione lunghezza testo layout adattivo',
-      'strumenti contenuti multilingue database vocaboli',
-      'inserzioni localizzate marketplace internazionali',
+      'caratteri speciali diacritici',
+      'font multilingue layout',
+      'database vocaboli lingue',
+      'inserzioni localizzate',
+      'controllo qualità traduzioni',
     ],
-    titleTag: 'Schede in più lingue da vendere | LessonCraftStudio',
-    metaDescription: 'Come creare schede in più lingue da vendere: gestione caratteri, font, controllo qualità e adattamento inserzioni per i marketplace internazionali.',
+    titleTag: 'Creare schede in più lingue | Guida',
+    metaDescription: 'Come creare schede in più lingue: gestione caratteri, font multilingue, controllo qualità e adattamento per i marketplace internazionali. Guida pratica.',
   },
 
   hero: {
-    title: 'Creare Schede Multilingue da Vendere Online',
+    title: 'Creare schede multilingue: guida pratica',
     tagline: 'Una guida pratica alla produzione multilingue di schede — come scegliere tipologie adatte a ciascuna lingua, configurare uno spazio di lavoro multilingue, gestire caratteri speciali e font, adattare i contenuti naturalmente per ogni mercato, implementare il controllo qualità delle traduzioni, utilizzare strumenti automatizzati multilingue, costruire flussi di lavoro efficienti per la produzione batch e ottimizzare le inserzioni sui marketplace per acquirenti internazionali',
     description: 'Creare schede in più lingue da vendere richiede molto di più di un traduttore automatico. Come venditore italiano che si espande nei mercati internazionali, devi gestire set di caratteri diversi, compatibilità dei font, variazioni nella lunghezza del testo e contesto culturale specifico per ogni mercato. La buona notizia: con la metodologia giusta, puoi moltiplicare il tuo catalogo in tedesco, francese, spagnolo e altre lingue mantenendo la qualità professionale che gli acquirenti si aspettano. Questa guida ti accompagna attraverso l\'intero processo produttivo, dalla scelta dei tipi di scheda più adatti alla configurazione dello spazio di lavoro, fino al controllo qualità e all\'ottimizzazione delle inserzioni per i marketplace internazionali.',
   },

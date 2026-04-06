@@ -2,26 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'creare pacchetti di schede che vendono',
+    primaryKeyword: 'come creare pacchetti di schede da vendere',
     secondaryKeywords: [
-      'strategia bundle schede stampabili per Etsy',
-      'come creare pacchetti schede redditizi',
+      'strategia bundle schede stampabili efficace',
+      'creare pacchetti schede che convertono',
       'prezzi pacchetti schede per massimizzare ricavi',
-      'tipi di bundle stampabili che convertono',
-      'packaging professionale bundle schede',
+      'packaging professionale bundle stampabili',
     ],
     lsiKeywords: [
+      'bundle schede stampabili',
       'valore percepito bundle',
       'psicologia prezzo ancoraggio',
-      'cross-selling catalogo stampabili',
-      'accumulo valore prodotti complementari',
+      'cross-selling catalogo',
+      'accumulo valore prodotti',
     ],
-    titleTag: 'Creare pacchetti di schede che vendono | LessonCraftStudio',
-    metaDescription: 'Scopri come creare pacchetti di schede che vendono su Etsy, KDP e Gumroad. Tipi di bundle, prezzi e packaging per massimizzare i ricavi. Inizia ora.',
+    titleTag: 'Creare pacchetti di schede da vendere | Guida',
+    metaDescription: 'Come creare pacchetti di schede che vendono: tipi di bundle, psicologia dei prezzi e packaging professionale per massimizzare i ricavi su ogni piattaforma.',
   },
 
   hero: {
-    title: 'Pacchetti di Schede Che Vendono: Guida per Venditori',
+    title: 'Come creare pacchetti di schede che vendono',
     tagline: 'Una guida completa per creare pacchetti di schede ad alto valore che aumentano il ricavo per transazione su ogni piattaforma di vendita — coprendo tipi e strutture di bundle, selezione prodotti per combinazioni convincenti, accumulo di valore e psicologia del valore percepito, packaging e presentazione professionale del bundle, strategie di ancoraggio prezzi e sconti, ottimizzazione inserzioni indipendente dalla piattaforma e monitoraggio delle prestazioni per il miglioramento continuo',
     description: 'I pacchetti di schede rappresentano la strategia più redditizia per i venditori di stampabili nel mercato italiano e internazionale nel 2026. Un bundle ben strutturato trasforma prodotti individuali da $8–$12 in pacchetti da $35–$65 con un valore percepito nettamente superiore. In Italia, dove la domanda di risorse educative stampabili cresce costantemente, il bundling ti permette di distinguerti dalla concorrenza e triplicare il ricavo per transazione. Questa guida ti mostra come selezionare i prodotti giusti, strutturare pacchetti convincenti, applicare la psicologia dei prezzi e creare un packaging professionale che funziona su Etsy, Amazon KDP, Gumroad e Creative Fabrica. Inizia oggi a costruire bundle che convertono.',
   },

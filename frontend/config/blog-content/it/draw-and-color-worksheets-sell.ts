@@ -2,11 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'schede disegna colora vendere online come',
-    secondaryKeywords: ['schede disegno guidato bambini Etsy', 'stampabili disegna e colora vendere', 'business schede creative bambini'],
-    lsiKeywords: ['attività disegno guidato educativo', 'schede artistiche stampabili', 'disegno passo passo bambini'],
-    titleTag: 'Schede Disegna e Colora: Vendere Online | LCS',
-    metaDescription: 'Venda schede disegna e colora su Etsy. Un formato creativo che combina arte e apprendimento per bambini di tutte le età.',
+    primaryKeyword: 'schede disegna e colora da stampare bambini',
+    secondaryKeywords: [
+      'attività disegno guidato bambini PDF',
+      'schede impara a disegnare da stampare',
+      'esercizi disegno e colore prescuola',
+      'fogli disegna colora scuola infanzia',
+    ],
+    lsiKeywords: [
+      'disegno',
+      'colorare',
+      'creatività',
+      'arte',
+      'guidato',
+      'prescuola',
+    ],
+    titleTag: 'Schede Disegna e Colora da Stampare | LCS',
+    metaDescription: 'Schede disegna e colora da stampare per bambini. Attività di disegno guidato per scuola dell\'infanzia con LessonCraftStudio — 33 generatori.',
   },
   hero: {
     title: 'Schede Disegna e Colora: Come Vendere Online',

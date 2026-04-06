@@ -2,25 +2,25 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Stampabili ultimo anno infanzia | LessonCraftStudio',
-    metaDescription: 'Crea stampabili ultimo anno dell\'infanzia da vendere su Etsy e KDP. Idee prodotto 5-6 anni, prescrittura e prenumerazione per un business redditizio.',
-    primaryKeyword: 'stampabili ultimo anno infanzia business',
+    titleTag: 'Schede ultimo anno infanzia da stampare | LCS',
+    metaDescription: 'Crea schede per l\'ultimo anno dell\'infanzia da stampare: pregrafismo, prenumerazione, lettere e numeri. Attività per bambini 5-6 anni verso la primaria.',
+    primaryKeyword: 'schede ultimo anno infanzia da stampare',
     secondaryKeywords: [
-      'schede ultimo anno infanzia per venditori Etsy',
-      'stampabili prescrittura prenumerazione business',
-      'attività 5-6 anni da vendere su KDP',
-      'nicchia stampabili passaggio alla primaria',
-      'idee prodotto stampabili materna vendita',
+      'attività prescuola da stampare 5-6 anni',
+      'stampabili scuola dell\'infanzia pregrafismo',
+      'schede pregrafismo e prenumerazione stampabili',
+      'esercizi preparazione scuola primaria',
     ],
     lsiKeywords: [
-      'schede calligrafia parole a vista vendita',
-      'stampabili senso numerico materna KDP',
-      'generatore schede prescuola avanzata business',
-      'prodotti digitali transizione primaria bambini',
+      'scuola dell\'infanzia',
+      'pregrafismo',
+      'prenumerazione',
+      '5-6 anni',
+      'motricità fine',
     ],
   },
   hero: {
-    title: 'Stampabili ultimo anno infanzia: idee business',
+    title: 'Schede Ultimo Anno Infanzia da Stampare: Idee',
     description: 'L\'ultimo anno della scuola dell\'infanzia è una delle nicchie più potenti per i venditori di stampabili: rappresenta l\'anno di transizione in cui ogni bambino si prepara alla scuola primaria, creando una doppia base di acquirenti — genitori e professionisti — che cercano attivamente materiali per prescrittura, prenumerazione, parole a vista e consapevolezza fonetica. Le competenze sono vastissime — calligrafia, senso numerico, addizione e sottrazione entro il dieci, forme, classificazione — e ciascuna apre opportunità di prodotto distinte su Etsy, Amazon KDP e Gumroad. La domanda è massiccia e annuale, alimentata dalla frequenza quasi universale dell\'ultimo anno e dal bisogno costante di materiali differenziati per livelli di prontezza diversi. In questa guida trovi idee di prodotto concrete, strategie per piattaforma e approcci per costruire una linea redditizia di stampabili per l\'ultimo anno dell\'infanzia con i nostri generatori di schede.',
   },
   marketOverview: `La nicchia dei stampabili per la scuola materna occupa una posizione unicamente dominante nel mercato educativo perché serve il secondo più grande segmento di acquirenti per fascia d\'età con il set di competenze più intensamente accademico e guidato dagli standard di qualsiasi livello della prima infanzia. A differenza della prescuola dove gli obiettivi di apprendimento sono evolutivi e flessibili, il catalogo prodotti della scuola materna è definito da standard statali e obiettivi Common Core che creano traguardi specifici e misurabili che ogni venditore deve affrontare e ogni genitore può comprendere, rendendo i stampabili per la scuola materna intrinsecamente più mirati e più facili da posizionare per vendite guidate dalla ricerca su ogni marketplace.

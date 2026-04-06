@@ -2,11 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'schede tema cibo alimenti vendere',
-    secondaryKeywords: ['stampabili tematici vendere Etsy Italia', 'nicchia stampabili educativi mercato', 'schede tematiche stagionali vendere'],
-    lsiKeywords: ['stampabili educativi nicchia', 'mercato stagionale stampabili', 'Etsy Italia schede tematiche'],
-    titleTag: 'Schede Tema Cibo: Vendere | LCS',
-    metaDescription: 'Venda schede a tema cibo nel mercato italiano. Frutta, verdura, cucina italiana per attività educative.',
+    primaryKeyword: 'schede didattiche tema cibo da stampare',
+    secondaryKeywords: [
+      'attività alimenti scuola primaria da stampare',
+      'schede frutta verdura bambini PDF',
+      'esercizi educazione alimentare da stampare',
+      'schede cibo sano bambini stampabili',
+    ],
+    lsiKeywords: [
+      'cibo',
+      'frutta',
+      'verdura',
+      'alimentazione',
+      'cucina',
+      'alimenti',
+    ],
+    titleTag: 'Schede Didattiche Tema Cibo da Stampare | LCS',
+    metaDescription: 'Schede didattiche a tema cibo e alimenti da stampare per bambini. Frutta, verdura e educazione alimentare con LessonCraftStudio — 33 generatori.',
   },
   hero: {
     title: 'Schede a Tema Cibo e Alimenti: Come Vendere',

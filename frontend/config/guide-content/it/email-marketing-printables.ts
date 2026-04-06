@@ -2,26 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'email marketing per venditori stampabili',
+    primaryKeyword: 'email marketing per venditori di stampabili',
     secondaryKeywords: [
       'costruire lista email per business di schede',
-      'lead magnet efficaci per venditori educativi',
+      'lead magnet efficaci per venditori stampabili',
       'sequenze email automatizzate prodotti digitali',
-      'segmentazione iscritti venditori stampabili',
       'generare vendite ricorrenti con newsletter',
     ],
     lsiKeywords: [
-      'tasso apertura clic conversione email',
-      'landing page opt-in lead magnet',
-      'automazione sequenze benvenuto lancio',
-      'deliverability reputazione mittente A/B test',
+      'tasso apertura clic conversione',
+      'landing page lead magnet',
+      'automazione sequenze email',
+      'segmentazione iscritti',
+      'deliverability reputazione',
     ],
-    titleTag: 'Email marketing per venditori | LessonCraftStudio',
-    metaDescription: 'Email marketing per venditori di stampabili: costruisci la lista, crea lead magnet e automatizza le sequenze per vendite ricorrenti. Guida passo passo.',
+    titleTag: 'Email marketing per venditori stampabili | Guida',
+    metaDescription: 'Email marketing per venditori di stampabili: costruisci la lista, crea lead magnet e automatizza le sequenze per vendite ricorrenti. Guida completa.',
   },
 
   hero: {
-    title: 'Email Marketing per Chi Vende Stampabili Online',
+    title: 'Email marketing per chi vende stampabili online',
     tagline: 'Una guida completa all\'email marketing per venditori di stampabili — come scegliere un provider di servizi email, creare lead magnet efficaci, costruire landing page ad alta conversione, progettare sequenze di benvenuto, sviluppare strategie di contenuto per le email broadcast, segmentare la lista iscritti, automatizzare campagne stagionali e monitorare le metriche per un\'ottimizzazione continua',
     description: 'La tua lista email è l\'unico asset di marketing che possiedi completamente. Gli algoritmi cambiano, i posizionamenti nei marketplace fluttuano, ma i tuoi iscritti restano. Per i venditori italiani di stampabili, l\'email marketing è la strategia più sottovalutata per costruire un business resiliente nel 2026. Ogni iscritto è una linea diretta verso un acquirente interessato che ha già dimostrato fiducia nei tuoi prodotti. Questa guida ti mostra come costruire la lista da zero, creare lead magnet irresistibili, automatizzare le sequenze di benvenuto e lancio, e trasformare clienti occasionali dei marketplace in acquirenti abituali che tornano ad ogni nuovo prodotto.',
   },

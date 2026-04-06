@@ -2,11 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'aggiornare vecchie inserzioni stampabili vendite',
-    secondaryKeywords: ['come creare stampabili vendere', 'guida pratica stampabili business', 'tutorial stampabili educativi'],
-    lsiKeywords: ['creazione stampabili professionali', 'workflow produzione schede', 'ottimizzazione vendita stampabili'],
-    titleTag: 'Aggiornare Inserzioni Stampabili: Vendite | LCS',
-    metaDescription: 'Aggiorni le Sue vecchie inserzioni di stampabili per aumentare le vendite. Strategie di ottimizzazione e refresh.',
+    primaryKeyword: 'aggiornare schede didattiche vecchie online',
+    secondaryKeywords: [
+      'rinnovare inserzioni materiale educativo Etsy',
+      'ottimizzare schede stampabili esistenti',
+      'migliorare vecchi prodotti didattici digitali',
+      'refresh inserzioni schede per più vendite',
+    ],
+    lsiKeywords: [
+      'aggiornare',
+      'rinnovare',
+      'ottimizzare',
+      'migliorare',
+      'refresh',
+      'revisione',
+    ],
+    titleTag: 'Aggiornare Schede Didattiche per Vendere | LCS',
+    metaDescription: 'Come aggiornare schede didattiche esistenti per aumentare le vendite. Strategie di refresh con LessonCraftStudio — 33 generatori, 11 lingue.',
   },
   hero: {
     title: 'Come Aggiornare le Vecchie Inserzioni per Aumentare le Vendite',

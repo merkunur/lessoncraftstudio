@@ -2,11 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'stampabili dicembre gennaio inverno invernali venda',
-    secondaryKeywords: ['stampabili tematici vendere Etsy Italia', 'nicchia stampabili educativi mercato', 'schede tematiche stagionali vendere'],
-    lsiKeywords: ['stampabili educativi nicchia', 'mercato stagionale stampabili', 'Etsy Italia schede tematiche'],
-    titleTag: 'Stampabili Inverno: Dicembre-Gennaio | LCS',
-    metaDescription: 'Venda stampabili invernali. Natale, Capodanno, Befana e attività indoor per le giornate fredde.',
+    primaryKeyword: 'schede didattiche inverno da stampare bambini',
+    secondaryKeywords: [
+      'attività invernali scuola primaria da stampare',
+      'schede Natale Befana inverno bambini PDF',
+      'esercizi tema inverno scuola infanzia',
+      'colorare inverno neve bambini stampare',
+    ],
+    lsiKeywords: [
+      'inverno',
+      'neve',
+      'Natale',
+      'Befana',
+      'freddo',
+      'dicembre',
+    ],
+    titleTag: 'Schede Didattiche Inverno da Stampare | LCS',
+    metaDescription: 'Schede didattiche d\'inverno da stampare per bambini. Natale, neve e attività invernali per la scuola con LessonCraftStudio — 33 generatori, 11 lingue.'inverno da stampare per bambini. Natale, neve e attività invernali con LessonCraftStudio — 33 generatori, 11 lingue.',
   },
   hero: {
     title: 'Stampabili Invernali: Vendere a Dicembre e Gennaio',

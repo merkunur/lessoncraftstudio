@@ -2,11 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'stampabili autunno San Martino novembre',
-    secondaryKeywords: ['stampabili tematici vendere Etsy Italia', 'nicchia stampabili educativi mercato', 'schede tematiche stagionali vendere'],
-    lsiKeywords: ['stampabili educativi nicchia', 'mercato stagionale stampabili', 'Etsy Italia schede tematiche'],
-    titleTag: 'Stampabili Autunno/San Martino: Novembre | LCS',
-    metaDescription: 'Venda stampabili autunnali per il mercato italiano. San Martino (11 novembre), castagne, vendemmia e foglie.',
+    primaryKeyword: 'schede didattiche autunno da stampare bambini',
+    secondaryKeywords: [
+      'attività autunnali scuola primaria da stampare',
+      'schede castagne vendemmia foglie PDF',
+      'esercizi tema autunno scuola infanzia',
+      'colorare foglie autunno bambini stampare',
+    ],
+    lsiKeywords: [
+      'autunno',
+      'castagne',
+      'foglie',
+      'vendemmia',
+      'San Martino',
+      'novembre',
+    ],
+    titleTag: 'Schede Didattiche Autunno da Stampare | LCS',
+    metaDescription: 'Schede didattiche d\'autunno da stampare per bambini. Castagne, foglie, vendemmia e San Martino con LessonCraftStudio — 33 generatori, 11 lingue.'autunno da stampare per bambini. Castagne, foglie e vendemmia con LessonCraftStudio — 33 generatori, 11 lingue.',
   },
   hero: {
     title: 'Stampabili d\'Autunno e San Martino per Novembre',

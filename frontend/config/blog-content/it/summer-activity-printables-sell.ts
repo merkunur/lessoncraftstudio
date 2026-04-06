@@ -2,11 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'stampabili attività estive vendere',
-    secondaryKeywords: ['stampabili tematici vendere Etsy Italia', 'nicchia stampabili educativi mercato', 'schede tematiche stagionali vendere'],
-    lsiKeywords: ['stampabili educativi nicchia', 'mercato stagionale stampabili', 'Etsy Italia schede tematiche'],
-    titleTag: 'Stampabili Attività Estive: Vendere | LCS',
-    metaDescription: 'Venda stampabili per le vacanze estive in Italia. Schede, giochi e attività per tenere i bambini impegnati.',
+    primaryKeyword: 'schede attività estive bambini da stampare',
+    secondaryKeywords: [
+      'esercizi vacanze estive scuola primaria PDF',
+      'compiti vacanze estate da stampare',
+      'attività estate bambini stampabili',
+      'schede ripasso estivo da stampare',
+    ],
+    lsiKeywords: [
+      'estate',
+      'vacanze',
+      'ripasso',
+      'attività',
+      'compiti',
+      'luglio',
+    ],
+    titleTag: 'Schede Attività Estive Bambini da Stampare | LCS',
+    metaDescription: 'Schede di attività estive da stampare per bambini. Esercizi di ripasso e giochi divertenti per le vacanze con LessonCraftStudio — 33 generatori.',
   },
   hero: {
     title: 'Stampabili per l\'Estate: Come Vendere Attività Estive',

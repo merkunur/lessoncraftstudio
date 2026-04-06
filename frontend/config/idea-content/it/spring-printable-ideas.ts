@@ -2,25 +2,26 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Stampabili primaverili — Idee business | LessonCraftStudio',
-    metaDescription: 'Avvia un business di stampabili primaverili: farfalle, fiori e giardini. Idee prodotto e strumenti per creare schede da vendere su Etsy e KDP in primavera.',
-    primaryKeyword: 'stampabili primaverili idee business',
+    titleTag: 'Schede primavera da stampare per bambini | LCS',
+    metaDescription: 'Crea schede primaverili da stampare: colorare fiori e farfalle, conteggio, crucipuzzle natura e attività sul ciclo vitale per bambini della scuola primaria.',
+    primaryKeyword: 'schede primavera da stampare',
     secondaryKeywords: [
-      'vendere stampabili primavera su Etsy',
-      'business schede primaverili farfalle fiori',
-      'creare stampabili natura primavera KDP',
-      'nicchia stampabili primaverili redditizia',
-      'idee prodotto stampabili giardino arcobaleni',
+      'attività primaverili da stampare per bambini',
+      'stampabili fiori e farfalle da colorare',
+      'schede didattiche primavera scuola primaria',
+      'giochi primavera da stampare gratis',
     ],
     lsiKeywords: [
-      'mercato stampabili primaverili Italia',
-      'generatore schede tema primavera natura',
-      'vendere stampabili digitali stagione fiori',
-      'stampabili ciclo vita farfalla bambini',
+      'scuola primaria',
+      'farfalle',
+      'fiori',
+      'natura',
+      'colorare',
+      'primavera',
     ],
   },
   hero: {
-    title: 'Stampabili Primaverili: Idee di Business per Venditori',
+    title: 'Schede Primavera da Stampare: Idee Creative per Bambini',
     description: 'La primavera apre una generosa finestra di vendita da marzo a maggio, con una ricchezza di sotto-temi naturali che si collegano direttamente ai programmi scolastici italiani. In Italia, la primavera coincide con il risveglio dei giardini mediterranei — farfalle, coccinelle, fiori e uccelli diventano protagonisti delle attività educative nelle scuole e a casa. Le gite scolastiche primaverili nei parchi naturali e negli orti botanici alimentano la domanda di materiali preparatori e complementari. Per gli imprenditori digitali, la nicchia primaverile offre tre mesi di vendite costanti senza dipendere da una singola festività, con un\'ampia diversità di sotto-temi per la differenziazione del catalogo. Utilizzando i nostri generatori di schede puoi creare stampabili primaverili da vendere su Etsy, Amazon KDP e Gumroad, sfruttando il legame naturale tra i temi della natura e il curriculum scientifico per costruire prodotti con forte domanda.',
   },
   marketOverview: `La nicchia dei stampabili primaverili occupa una posizione unicamente vantaggiosa nel calendario del mercato educativo perché funziona come un\'ampia categoria stagionale piuttosto che come una festività di un singolo giorno, offrendo ai venditori una finestra di domanda prolungata di tre mesi che si estende da inizio marzo a fine maggio. i venditori che emergono dal torpore invernale cercano attivamente materiali freschi a tema naturale che riconquistino l\'attenzione degli utenti stanchi dei temi esclusivamente al chiuso, e l\'immaginario primaverile fornisce la transizione perfetta mentre i negozi si orientano verso contenuti integrati con le scienze che coprono cicli vitali, modelli meteorologici, crescita delle piante e habitat degli animali. Questo allineamento naturale tra i temi primaverili e le aree curricolari fondamentali significa che gli acquirenti possono giustificare gli acquisti primaverili come investimenti educativi piuttosto che come semplici aggiunte decorative stagionali.

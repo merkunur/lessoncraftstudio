@@ -2,26 +2,27 @@ import type { BundleContent } from '../types';
 
 const content: BundleContent = {
   seo: {
-    primaryKeyword: 'pacchetto giochi di parole Etsy KDP',
+    primaryKeyword: 'generatori giochi di parole da stampare',
     secondaryKeywords: [
-      'bundle generatori schede linguistiche multilingue',
-      'toolkit stampabili alfabeto cerca parole cruciverba',
-      'creare schede di lettura in 11 lingue da vendere',
-      'pacchetto 7 generatori parole licenza commerciale',
+      'pacchetto generatori crucipuzzle e cruciverba',
+      'creare schede alfabeto e lettere stampabili',
+      'generatore crucipuzzle crittogramma da stampare',
+      'kit completo schede linguistiche per bambini',
     ],
     lsiKeywords: [
-      'generatori sensibili alla lingua vocabolario tradotto',
-      'schede alfabeto preposizioni anagrammi crittogrammi',
-      'prodotti linguistici per mercati europei',
-      'catalogo multilingue moltiplicatore di inserzioni',
-      'diacritici corretti alfabeti nativi',
+      'crucipuzzle',
+      'cruciverba',
+      'alfabeto',
+      'crittogramma',
+      'schede da stampare',
+      'multilingue',
     ],
-    titleTag: 'Pacchetto giochi di parole — Vendere | LessonCraftStudio',
-    metaDescription: 'Pacchetto con 7 generatori schede linguistiche in 11 lingue. Alfabeto, cerca parole, crittogramma, preposizioni e scrittura. 149 $ pagamento unico.',
+    titleTag: 'Generatori giochi di parole da stampare | LCS',
+    metaDescription: 'Pacchetto con 7 generatori di schede linguistiche da stampare in 11 lingue: alfabeto, crucipuzzle, crittogramma, preposizioni e scrittura per bambini.',
   },
 
   hero: {
-    title: 'Pacchetto Giochi di Parole: 7 Generatori Multilingue',
+    title: 'Pacchetto Giochi di Parole: 7 Generatori da Stampare',
     tagline: 'Sette generatori di schede linguistiche — moltiplica la tua linea di prodotti in 11 lingue',
     description: 'Ogni generatore di questo pacchetto è sensibile alla lingua. Questo singolo fatto trasforma il tuo catalogo prodotti: un design di scheda diventa 11 prodotti distinti quando passi tra inglese, tedesco, francese, spagnolo, portoghese, italiano, olandese, svedese, danese, norvegese e finlandese. Il Pacchetto Giochi di Parole combina sette generatori specializzati che coprono riconoscimento dell\'alfabeto, preposizioni spaziali, indovinelli di parole con indizi visivi, riordino di lettere, griglie di cerca parole, crittogrammi a immagini con decodifica di frasi e pratica di scrittura guidata. Sei dei sette generatori producono contenuto specifico per lingua — le parole, le lettere e il vocabolario su ogni scheda cambiano in base alla lingua selezionata, con segni diacritici corretti, alfabeti nativi e frasi grammaticalmente accurate. Il settimo, Scrittura, si concentra sulla pratica dei tratti di scrittura a mano con minima dipendenza linguistica. Ogni generatore produce file PDF pronti per la stampa e JPEG ad alta risoluzione. Sei su sette includono chiavi di risposta automatiche. Scegli tra oltre 100 set di immagini tematiche o carica le tue illustrazioni per prodotti personalizzati e specifici per la tua nicchia. Che tu venda stampabili di lettura su Etsy, pubblichi quaderni linguistici su Amazon KDP o distribuisca risorse su Gumroad, questo pacchetto ti offre la varietà e la copertura linguistica che i concorrenti monolingue non possono eguagliare. Ogni generatore include una prova gratuita con filigrana così puoi testare ogni funzionalità prima di acquistare una licenza.',
   },

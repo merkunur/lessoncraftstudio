@@ -2,11 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'consigli design schede vendere di più',
-    secondaryKeywords: ['come creare stampabili vendere', 'guida pratica stampabili business', 'tutorial stampabili educativi'],
-    lsiKeywords: ['creazione stampabili professionali', 'workflow produzione schede', 'ottimizzazione vendita stampabili'],
-    titleTag: 'Design Schede che Vendono di Più | LCS',
-    metaDescription: 'Consigli pratici di design per creare schede didattiche che vendono. Layout, colori, font e gerarchia visiva.',
+    primaryKeyword: 'design schede didattiche professionali consigli',
+    secondaryKeywords: [
+      'come fare schede belle da stampare',
+      'layout schede educative che funzionano',
+      'grafica schede didattiche accattivante',
+      'consigli design esercizi da stampare',
+    ],
+    lsiKeywords: [
+      'design',
+      'layout',
+      'grafica',
+      'colori',
+      'font',
+      'professionale',
+    ],
+    titleTag: 'Design Schede Didattiche: Consigli Pratici | LCS',
+    metaDescription: 'Consigli di design per creare schede didattiche professionali e accattivanti. Layout e grafica con LessonCraftStudio — 33 generatori, 11 lingue.',
   },
   hero: {
     title: 'Consigli di Design per Schede che Vendono di Più',

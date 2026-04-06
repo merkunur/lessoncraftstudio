@@ -2,11 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'stampabili attività viaggio vendere',
-    secondaryKeywords: ['stampabili tematici vendere Etsy Italia', 'nicchia stampabili educativi mercato', 'schede tematiche stagionali vendere'],
-    lsiKeywords: ['stampabili educativi nicchia', 'mercato stagionale stampabili', 'Etsy Italia schede tematiche'],
-    titleTag: 'Stampabili Attività Viaggio: Vendere | LCS',
-    metaDescription: 'Venda stampabili per viaggi con bambini. Schede, giochi e attività per auto, treno e aereo.',
+    primaryKeyword: 'attività viaggio bambini da stampare auto treno',
+    secondaryKeywords: [
+      'giochi viaggio macchina bambini da stampare',
+      'schede intrattenimento viaggio aereo PDF',
+      'attività stampa per bambini in auto',
+      'passatempi viaggio bambini stampabili',
+    ],
+    lsiKeywords: [
+      'viaggio',
+      'auto',
+      'treno',
+      'aereo',
+      'passatempo',
+      'intrattenimento',
+    ],
+    titleTag: 'Attività Viaggio Bambini da Stampare | LCS',
+    metaDescription: 'Attività da stampare per bambini in viaggio. Giochi e passatempi per auto, treno e aereo con soluzioni — LessonCraftStudio — 33 generatori, 11 lingue.',
   },
   hero: {
     title: 'Stampabili per Viaggi con Bambini: Come Vendere',

@@ -2,26 +2,28 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'generatore trova l\'intruso gratis',
+    primaryKeyword: 'trova l\'intruso da stampare gratis',
     secondaryKeywords: [
-      'trova l\'intruso gratis online senza registrazione',
-      'generatore schede trova il diverso gratis PDF',
-      'schede trova l\'intruso gratis bambini stampabile',
-      'creare puzzle trova l\'intruso gratis',
-      'schede intruso gratis prova gratuita',
+      'trova l\'intruso gratis online',
+      'schede trova il diverso da stampare gratis PDF',
+      'trova l\'intruso gratis senza registrazione',
+      'giochi trova l\'intruso da stampare gratis',
+      'puzzle trova l\'intruso gratis online',
     ],
     lsiKeywords: [
-      'trova l\'intruso gratis senza registrazione',
-      'stampabile PDF gratis filigrana',
-      'prova gratuita licenza commerciale',
-      'generatore puzzle intruso gratis online',
+      'trova l\'intruso',
+      'trova il diverso',
+      'osservazione',
+      'logica',
+      'stampabile PDF',
+      'gratis online',
     ],
-    titleTag: 'Trova l\'intruso gratis online | LessonCraftStudio',
-    metaDescription: 'Crea schede trova l\'intruso gratis online, senza registrazione. Modalità Identico e Simile, risposte automatiche. Licenza commerciale disponibile.',
+    titleTag: 'Trova l\'intruso da stampare gratis | LessonCraftStudio',
+    metaDescription: 'Crea schede trova l\'intruso da stampare gratis online, senza registrazione. Modalità Identico e Simile, risposte automatiche, 104 temi. Prova subito.',
   },
 
   hero: {
-    title: 'Crea Schede Trova l\'Intruso Gratis Online',
+    title: 'Trova l\'Intruso da Stampare Gratis Online',
     tagline: 'Generatore di schede trova l\'intruso a doppia modalità con modalità Identico (3 cloni + 1 diverso dallo stesso tema) e modalità Simile (3 dal Tema A + 1 dal Tema B), override per esercizio con pulsante Cancella Selezioni, 5–10 esercizi configurabili con layout adattivo a 2 colonne, chiavi di risposta auto-generate con marcatori cerchio rosso scalati alla dimensione dell\'immagine, sistema a due temi con 104 collezioni tematiche e puzzle puramente visivi vendibili in tutto il mondo senza traduzione',
     description: 'Crea schede trova l\'intruso gratis direttamente nel browser, senza registrazione e senza installare nulla. Due modalità distinte: Identico (3 cloni + 1 diverso dallo stesso tema) e Simile (3 dal Tema A + 1 dal Tema B). Override per esercizio con difficoltà mista sulla stessa pagina. Da 5 a 10 esercizi per scheda, 4 immagini per riga con posizione dell\'intruso casuale. Sistema a due temi con 104 collezioni e oltre 3.100 illustrazioni. Chiave di risposta automatica con cerchi rossi. Esporta PDF e JPEG a 300 DPI — tutto gratis con filigrana, istantaneamente. Ogni funzionalità è accessibile nella prova gratuita. Vuoi vendere i tuoi puzzle su Etsy, Amazon KDP o Gumroad? Passa alla licenza commerciale per rimuovere la filigrana e sbloccare l\'uso commerciale illimitato.',
   },

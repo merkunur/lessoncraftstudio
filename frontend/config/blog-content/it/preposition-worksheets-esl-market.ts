@@ -2,11 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'schede preposizioni mercato italiano L2',
-    secondaryKeywords: ['schede preposizioni italiano stranieri', 'stampabili preposizioni Italiano L2', 'business schede grammatica italiano L2'],
-    lsiKeywords: ['materiale italiano per stranieri', 'preposizioni spaziali bambini', 'grammatica base italiano L2'],
-    titleTag: 'Schede Preposizioni: Mercato Italiano L2 | LCS',
-    metaDescription: 'Venda schede di preposizioni per il mercato Italiano L2. Una nicchia in forte crescita con domanda internazionale.',
+    primaryKeyword: 'schede preposizioni italiano da stampare',
+    secondaryKeywords: [
+      'esercizi preposizioni scuola primaria PDF',
+      'schede preposizioni luogo italiano L2',
+      'attività preposizioni bambini da stampare',
+      'esercizi sopra sotto dentro fuori stampare',
+    ],
+    lsiKeywords: [
+      'preposizioni',
+      'luogo',
+      'sopra',
+      'sotto',
+      'dentro',
+      'fuori',
+    ],
+    titleTag: 'Schede Preposizioni Italiano da Stampare | LCS',
+    metaDescription: 'Schede sulle preposizioni italiane da stampare per bambini e italiano L2. Esercizi su sopra, sotto, dentro e fuori con LessonCraftStudio — 33 generatori.',
   },
   hero: {
     title: 'Schede Preposizioni: Il Mercato dell\'Italiano L2',

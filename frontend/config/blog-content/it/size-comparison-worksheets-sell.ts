@@ -2,11 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'schede confronto dimensioni vendere',
-    secondaryKeywords: ['schede grande piccolo bambini Etsy', 'stampabili confronto misure prescuola', 'business schede dimensioni educative'],
-    lsiKeywords: ['concetti spaziali bambini stampabili', 'matematica prescuola confronto', 'schede grande medio piccolo'],
-    titleTag: 'Schede Confronto Dimensioni: Vendere | LCS',
-    metaDescription: 'Venda schede di confronto dimensioni su Etsy. Nicchia prescuola che sviluppa concetti matematici fondamentali.',
+    primaryKeyword: 'schede grande piccolo confronto da stampare',
+    secondaryKeywords: [
+      'esercizi confronto dimensioni prescuola PDF',
+      'schede più grande più piccolo bambini',
+      'attività concetto grandezza scuola infanzia',
+      'schede confronto misure da stampare',
+    ],
+    lsiKeywords: [
+      'grande',
+      'piccolo',
+      'confronto',
+      'dimensioni',
+      'misure',
+      'prescuola',
+    ],
+    titleTag: 'Schede Grande e Piccolo da Stampare | LCS',
+    metaDescription: 'Schede di confronto grande e piccolo da stampare per bambini. Esercizi su dimensioni per scuola dell\'infanzia con LessonCraftStudio — 33 generatori.',
   },
   hero: {
     title: 'Schede Confronto Dimensioni: Come Vendere',

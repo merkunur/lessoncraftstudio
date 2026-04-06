@@ -2,11 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'stampabili attività bambini piccoli vendere',
-    secondaryKeywords: ['stampabili tematici vendere Etsy Italia', 'nicchia stampabili educativi mercato', 'schede tematiche stagionali vendere'],
-    lsiKeywords: ['stampabili educativi nicchia', 'mercato stagionale stampabili', 'Etsy Italia schede tematiche'],
-    titleTag: 'Stampabili Attività Toddler: Vendere | LCS',
-    metaDescription: 'Venda stampabili per bambini 1-3 anni. Attività sensoriali, motricità fine e primi concetti educativi.',
+    primaryKeyword: 'attività per bambini 1-3 anni da stampare',
+    secondaryKeywords: [
+      'schede toddler motricità fine da stampare',
+      'esercizi bambini piccoli 2 anni PDF',
+      'attività sensoriali stampabili per toddler',
+      'primi esercizi bambini 18 mesi stampare',
+    ],
+    lsiKeywords: [
+      'toddler',
+      '1-3 anni',
+      'motricità',
+      'sensoriale',
+      'primo apprendimento',
+      'bambini piccoli',
+    ],
+    titleTag: 'Attività Bambini 1-3 Anni da Stampare | LCS',
+    metaDescription: 'Attività educative per bambini 1-3 anni da stampare. Esercizi di motricità fine e primo apprendimento con LessonCraftStudio — 33 generatori.',
   },
   hero: {
     title: 'Stampabili per Bambini Piccoli (1-3 Anni): Come Vendere',

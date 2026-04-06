@@ -2,11 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'campioni stampabili gratuiti lead magnet',
-    secondaryKeywords: ['come creare stampabili vendere', 'guida pratica stampabili business', 'tutorial stampabili educativi'],
-    lsiKeywords: ['creazione stampabili professionali', 'workflow produzione schede', 'ottimizzazione vendita stampabili'],
-    titleTag: 'Campioni Stampabili come Lead Magnet | LCS',
-    metaDescription: 'Usi campioni stampabili come lead magnet per costruire la lista email e convertire visitatori in clienti paganti. Vendi su Etsy & KDP con licenza commerciale.',
+    primaryKeyword: 'schede didattiche prova gratuita da stampare',
+    secondaryKeywords: [
+      'campioni gratis materiale educativo stampabile',
+      'provare schede didattiche prima di acquistare',
+      'esempio schede da stampare gratis',
+      'anteprima schede educative PDF',
+    ],
+    lsiKeywords: [
+      'prova gratuita',
+      'campione',
+      'esempio',
+      'anteprima',
+      'provare',
+      'filigrana',
+    ],
+    titleTag: 'Schede Didattiche Prova Gratuita | LCS',
+    metaDescription: 'Prova gratuitamente le schede didattiche con filigrana prima dell\'acquisto. Campioni da stampare con LessonCraftStudio — 33 generatori, 11 lingue.',
   },
   hero: {
     title: 'Campioni Stampabili Gratuiti come Lead Magnet',

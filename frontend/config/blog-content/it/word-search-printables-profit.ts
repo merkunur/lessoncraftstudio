@@ -2,19 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'cerca parole stampabili profitto Etsy',
+    primaryKeyword: 'crucipuzzle da stampare per bambini PDF',
     secondaryKeywords: [
-      'schede cerca parole vendere online',
-      'business cerca parole stampabili',
-      'creare cerca parole profitto',
+      'cerca parole scuola primaria da stampare',
+      'crucipuzzle tematici bambini stampabili',
+      'word search italiano bambini PDF',
+      'gioco cerca parole educativo da stampare',
     ],
     lsiKeywords: [
-      'puzzle parole stampabili mercato',
-      'giochi lessicali educativi vendere',
-      'word search italiano business',
+      'crucipuzzle',
+      'cerca parole',
+      'vocabolario',
+      'tematico',
+      'parole nascoste',
+      'griglia',
     ],
-    titleTag: 'Cerca Parole Stampabili: Guida al Profitto | LCS',
-    metaDescription: 'Impari a vendere cerca parole stampabili con profitto su Etsy e KDP. Nicchie, prezzi e strategie per il mercato italiano nel 2026.',
+    titleTag: 'Crucipuzzle da Stampare per Bambini | LCS',
+    metaDescription: 'Crucipuzzle e cerca parole da stampare per bambini. Giochi di vocabolario tematici per scuola primaria con LessonCraftStudio — 33 generatori.',
   },
   hero: {
     title: 'Cerca Parole Stampabili: Come Generare Profitto',

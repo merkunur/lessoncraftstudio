@@ -2,11 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'schede parole ad alta frequenza business',
-    secondaryKeywords: ['stampabili tematici vendere Etsy Italia', 'nicchia stampabili educativi mercato', 'schede tematiche stagionali vendere'],
-    lsiKeywords: ['stampabili educativi nicchia', 'mercato stagionale stampabili', 'Etsy Italia schede tematiche'],
-    titleTag: 'Schede Parole Alta Frequenza: Business | LCS',
-    metaDescription: 'Avvii un business con schede di parole ad alta frequenza. Nicchia fondamentale per la lettura nella scuola primaria.',
+    primaryKeyword: 'schede parole frequenti italiano da stampare',
+    secondaryKeywords: [
+      'esercizi parole alta frequenza scuola primaria',
+      'schede riconoscimento parole bambini PDF',
+      'attività parole più usate italiano stampare',
+      'parole funzionali italiano prima elementare',
+    ],
+    lsiKeywords: [
+      'parole frequenti',
+      'lettura',
+      'riconoscimento',
+      'vocabolario',
+      'prima elementare',
+      'fluenza',
+    ],
+    titleTag: 'Schede Parole Frequenti Italiano | LCS',
+    metaDescription: 'Schede sulle parole più frequenti in italiano da stampare per bambini. Esercizi di lettura per scuola primaria con LessonCraftStudio — 33 generatori.',
   },
   hero: {
     title: 'Schede Parole ad Alta Frequenza: Avviare un Business',

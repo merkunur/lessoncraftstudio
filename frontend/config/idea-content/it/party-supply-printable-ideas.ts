@@ -2,25 +2,26 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Stampabili feste — Idee business | LessonCraftStudio',
-    metaDescription: 'Crea stampabili feste e compleanni da vendere su Etsy. Pacchetti attività, giochi, bingo e pagine da colorare — nicchia ad alto valore e domanda costante.',
-    primaryKeyword: 'stampabili feste compleanni idee business',
+    titleTag: 'Giochi per feste da stampare per bambini | LCS',
+    metaDescription: 'Crea giochi per feste e compleanni da stampare: tombola, crucipuzzle, colorare e attività a tema. Pacchetti di giochi stampabili per bambini 3-10 anni.',
+    primaryKeyword: 'giochi per feste da stampare',
     secondaryKeywords: [
-      'pacchetti attività feste da vendere Etsy',
-      'stampabili compleanni giochi festa business',
-      'materiali stampabili celebrazioni vendita online',
-      'nicchia stampabili feste bambini premium',
-      'idee prodotto stampabili party compleanno',
+      'attività compleanno da stampare per bambini',
+      'stampabili feste e compleanni bambini',
+      'tombola e giochi festa da stampare gratis',
+      'pacchetti giochi festa da stampare',
     ],
     lsiKeywords: [
-      'bingo ricerche parole feste vendita',
-      'stampabili Halloween Natale Pasqua Etsy',
-      'generatore attività feste business online',
-      'prodotti digitali celebrazioni eventi bambini',
+      'compleanni',
+      'tombola',
+      'colorare',
+      'crucipuzzle',
+      'giochi',
+      'feste',
     ],
   },
   hero: {
-    title: 'Stampabili per feste e compleanni: nicchia premium',
+    title: 'Giochi per Feste da Stampare: Idee per Compleanni',
     description: 'Gli stampabili per feste sono una nicchia particolarmente redditizia che raggiunge acquirenti completamente diversi dal mercato tradizionale delle schede didattiche. Pacchetti di attività a tema, giochi, bingo, pagine da colorare e materiali coordinati per feste di compleanno, celebrazioni stagionali e ritrovi familiari — ciascuno giustifica prezzi premium grazie alla comodità e alla coerenza tematica. La domanda è costante tutto l\'anno perché i compleanni accadono ogni giorno, e picchi prevedibili attorno a Halloween, Natale, Carnevale, Pasqua e fine anno scolastico permettono pianificazione anticipata. I genitori con più figli riacquistano per ogni compleanno, i professionisti per ogni celebrazione stagionale. La nicchia si colloca a cavallo tra educazione e intrattenimento, ampliando il pubblico. In questa guida trovi idee concrete, strategie per piattaforma e approcci per costruire un\'attività redditizia di stampabili per feste.',
   },
   marketOverview: `Il mercato dei stampabili per articoli per feste opera secondo dinamiche di domanda fondamentalmente diverse rispetto ai mercati tradizionali di schede didattiche educative perché gli acquisti per le feste sono guidati dai calendari delle celebrazioni piuttosto che dai calendari scolastici, creando un ciclo di domanda annuale in cui le feste di compleanno generano vendite di base costanti ogni giorno dell\'anno mentre le celebrazioni stagionali producono picchi di acquisto drammatici che i venditori possono prevedere e a cui possono prepararsi con mesi di anticipo. Le sole feste di compleanno creano un enorme mercato potenziale perché ogni bambino festeggia il compleanno ogni anno, i genitori pianificano sempre più spesso feste a tema che richiedono materiali di attività coordinati, e la tendenza verso l\'organizzazione fai-da-te delle feste ha spostato gli acquisti dai costosi organizzatori di eventi professionali verso materiali stampabili accessibili che i genitori personalizzano e producono autonomamente a casa.

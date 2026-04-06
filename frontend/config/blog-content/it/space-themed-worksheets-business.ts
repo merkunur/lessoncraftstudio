@@ -2,11 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'schede tema spazio business',
-    secondaryKeywords: ['stampabili tematici vendere Etsy Italia', 'nicchia stampabili educativi mercato', 'schede tematiche stagionali vendere'],
-    lsiKeywords: ['stampabili educativi nicchia', 'mercato stagionale stampabili', 'Etsy Italia schede tematiche'],
-    titleTag: 'Schede Tema Spazio: Business | LCS',
-    metaDescription: 'Avvii un business con schede a tema spazio. Pianeti, astronauti e stelle per attività educative coinvolgenti.',
+    primaryKeyword: 'schede didattiche tema spazio da stampare',
+    secondaryKeywords: [
+      'attività pianeti sistema solare bambini PDF',
+      'schede spazio astronauti scuola primaria',
+      'esercizi tema universo da stampare',
+      'colorare pianeti stelle bambini stampare',
+    ],
+    lsiKeywords: [
+      'spazio',
+      'pianeti',
+      'astronauta',
+      'stelle',
+      'universo',
+      'sistema solare',
+    ],
+    titleTag: 'Schede Didattiche Tema Spazio da Stampare | LCS',
+    metaDescription: 'Schede didattiche a tema spazio da stampare per bambini. Pianeti, astronauti, stelle e sistema solare con LessonCraftStudio — 33 generatori, 11 lingue.',
   },
   hero: {
     title: 'Schede a Tema Spazio: Avviare un Business',

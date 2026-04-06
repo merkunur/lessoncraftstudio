@@ -2,11 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'kdp etsy quale guadagna più',
-    secondaryKeywords: ['business stampabili digitali Italia', 'vendere stampabili online strategia', 'Etsy KDP stampabili mercato italiano'],
-    lsiKeywords: ['stampabili educativi business', 'vendita online prodotti digitali', 'mercato italiano stampabili 2026'],
-    titleTag: 'KDP vs Etsy: Quale Guadagna di Più? | LCS',
-    metaDescription: 'Confronto KDP vs Etsy per venditori di stampabili. Margini, traffico, impegno e guadagni realistici nel 2026.',
+    primaryKeyword: 'vendere schede didattiche KDP o Etsy',
+    secondaryKeywords: [
+      'Amazon KDP vs Etsy materiale educativo',
+      'meglio KDP o Etsy per schede stampabili',
+      'confronto guadagni schede KDP Etsy',
+      'dove vendere esercizi bambini online',
+    ],
+    lsiKeywords: [
+      'KDP',
+      'Etsy',
+      'confronto',
+      'guadagni',
+      'margini',
+      'piattaforma',
+    ],
+    titleTag: 'Vendere Schede: KDP o Etsy? Confronto | LCS',
+    metaDescription: 'Confronto Amazon KDP vs Etsy per vendere schede didattiche online. Margini, traffico e guadagni reali con LessonCraftStudio — 33 generatori, 11 lingue.',
   },
   hero: {
     title: 'KDP vs Etsy: Quale Piattaforma Guadagna di Più?',

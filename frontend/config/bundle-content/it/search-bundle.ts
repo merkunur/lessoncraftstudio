@@ -2,26 +2,26 @@ import type { BundleContent } from '../types';
 
 const content: BundleContent = {
   seo: {
-    primaryKeyword: 'pacchetto cerca e trova per venditori',
+    primaryKeyword: 'generatori cerca e trova da stampare',
     secondaryKeywords: [
-      'bundle generatori Vedo Vedo oggetti nascosti Etsy',
-      'toolkit cruciverba caccia tesoro licenza commerciale',
-      'creare schede cerca e trova multilingue da vendere',
-      'pacchetto 4 generatori ricerca per KDP e Gumroad',
+      'pacchetto generatori oggetti nascosti bambini',
+      'creare schede cerca e trova stampabili',
+      'generatore caccia al tesoro da stampare',
+      'kit cruciverba con immagini per bambini',
     ],
     lsiKeywords: [
-      'schede Vedo Vedo con supporto 11 lingue',
-      'cruciverba immagini vocabolario tradotto',
-      'caccia tesoro coordinate direzionali localizzate',
-      'oggetti nascosti senza sovrapposizione',
-      'attività di ricerca ad alta domanda marketplace',
+      'cerca e trova',
+      'oggetti nascosti',
+      'caccia al tesoro',
+      'cruciverba',
+      'schede da stampare',
     ],
-    titleTag: 'Pacchetto cerca e trova per venditori | LessonCraftStudio',
-    metaDescription: 'Pacchetto con 4 generatori cerca e trova: Vedo Vedo, oggetti nascosti, cruciverba immagini e caccia al tesoro. 3 app multilingue. 149 $ pagamento unico.',
+    titleTag: 'Generatori cerca e trova da stampare | LCS',
+    metaDescription: 'Pacchetto con 4 generatori cerca e trova da stampare: Vedo Vedo, oggetti nascosti, cruciverba con immagini e caccia al tesoro per bambini 3-8 anni.',
   },
 
   hero: {
-    title: 'Pacchetto Cerca e Trova: 4 Generatori per Venditori',
+    title: 'Pacchetto Cerca e Trova: 4 Generatori da Stampare',
     tagline: 'Quattro generatori di scoperta — scene Vedo Vedo, oggetti nascosti, cruciverba con immagini e caccia al tesoro in ogni scheda',
     description: 'Il Pacchetto Cerca e Trova è il pacchetto più ricco dal punto di vista linguistico dell\'intera collezione. Tre delle quattro app producono schede sensibili alla lingua — etichette delle immagini e alfabeti specifici per lingua in Trova e Conta, parole puzzle tradotte nel Cruciverba e indizi direzionali completamente localizzati nella Caccia al Tesoro. Questa profondità multilingue è un genuino vantaggio competitivo per i venditori che mirano a mercati non anglofoni, perché ogni scheda tradotta diventa un\'inserzione prodotto unica con virtualmente zero concorrenza. Il pacchetto unisce quattro formati di attività genuinamente diversi sotto un unico tema "cerca e scopri": scene Vedo Vedo dove gli utenti localizzano e contano elementi specifici, schede di oggetti nascosti con generazione di scene senza sovrapposizioni, griglie di cruciverba 15x15 con indizi basati su immagini invece di definizioni testuali, e cacce al tesoro su griglia di coordinate con mosse direzionali sequenziali. Tutti e quattro i generatori producono chiavi di risposta automatiche — copertura del 100% delle chiavi di risposta su tutto il pacchetto. Trova e Conta offre due modalità di ricerca: scene Vedo Vedo con griglie configurabili da 5x5 a 10x10, e una modalità Cerca Lettere che usa alfabeti specifici per lingua inclusi umlaut tedeschi, caratteri accentati spagnoli e lettere speciali scandinave. Trova Oggetti fornisce schede di oggetti nascosti puramente visive con posizionamento intelligente senza sovrapposizioni e dimensionamento adattivo delle immagini. Il Cruciverba supporta quattro metodi di inserimento — auto-selezione tema, modifica manuale, elenco parole personalizzato e caricamento immagini — il tutto renderizzato su una griglia 15x15 con 8 indizi immagine che sostituiscono le definizioni testuali tradizionali. La Caccia al Tesoro posiziona punti di riferimento su una griglia di coordinate 5x5 etichettata da A a E e da 1 a 5, con esattamente 4 mosse direzionali sequenziali in modalità Base usando su, giù, sinistra e destra o in modalità Cardinale usando nord, sud, est e ovest — tutte completamente tradotte in 11 lingue. Scegli tra oltre 100 set di immagini tematiche o carica i tuoi file PNG e JPEG per prodotti personalizzati e specifici per la tua nicchia. Che tu venda libri Vedo Vedo su Amazon KDP, pubblichi pacchetti di cruciverba su Etsy o crei attività di caccia al tesoro per Gumroad, questo pacchetto ti offre quattro tipi di attività di ricerca ad alta domanda che gli acquirenti cercano per nome. Ogni generatore include una prova gratuita con filigrana così puoi testare ogni funzionalità prima di acquistare una licenza.',
   },

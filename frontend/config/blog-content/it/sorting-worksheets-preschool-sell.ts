@@ -2,11 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'schede classificazione prescuola vendere',
-    secondaryKeywords: ['schede ordinamento bambini Etsy', 'stampabili classificazione educativi', 'attività raggruppamento prescuola vendere'],
-    lsiKeywords: ['logica categorizzazione bambini', 'schede raggruppamento per colore forma', 'prescuola attività logica stampabili'],
-    titleTag: 'Schede Classificazione Prescuola: Vendere | LCS',
-    metaDescription: 'Venda schede di classificazione per la prescuola su Etsy. Nicchia educativa in crescita con alta domanda da insegnanti e genitori.',
+    primaryKeyword: 'schede classificazione categorie da stampare',
+    secondaryKeywords: [
+      'esercizi raggruppamento prescuola da stampare',
+      'schede classifica per categoria bambini PDF',
+      'attività ordinamento oggetti scuola infanzia',
+      'schede smistamento immagini bambini',
+    ],
+    lsiKeywords: [
+      'classificazione',
+      'raggruppamento',
+      'categorie',
+      'ordinamento',
+      'smistamento',
+      'logica',
+    ],
+    titleTag: 'Schede Classificazione da Stampare Bambini | LCS',
+    metaDescription: 'Schede di classificazione e raggruppamento da stampare per bambini. Esercizi di logica per scuola dell\'infanzia con LessonCraftStudio — 33 generatori.',
   },
   hero: {
     title: 'Schede Classificazione Prescuola: Come Vendere',

@@ -2,11 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'Eduki vs Etsy schede confronto Italia',
-    secondaryKeywords: ['business stampabili digitali Italia', 'vendere stampabili online strategia', 'Etsy KDP stampabili mercato italiano'],
-    lsiKeywords: ['stampabili educativi business', 'vendita online prodotti digitali', 'mercato italiano stampabili 2026'],
-    titleTag: 'Eduki.it vs Etsy: Confronto Venditori | LCS',
-    metaDescription: 'Confronto Eduki.it (e Edudoro, Freeed) vs Etsy per vendere schede didattiche in Italia. Pubblico, commissioni e vantaggi.',
+    primaryKeyword: 'Eduki vs Etsy vendere schede didattiche Italia',
+    secondaryKeywords: [
+      'confronto piattaforme schede stampabili italiane',
+      'migliore sito vendere materiale educativo',
+      'Eduki Edudoro Etsy quale scegliere',
+      'dove vendere esercizi didattici Italia',
+    ],
+    lsiKeywords: [
+      'Eduki',
+      'Etsy',
+      'confronto',
+      'piattaforma',
+      'Italia',
+      'educativo',
+    ],
+    titleTag: 'Eduki vs Etsy: Vendere Schede in Italia | LCS',
+    metaDescription: 'Confronto Eduki vs Etsy per vendere schede didattiche in Italia. Pubblico, commissioni e vantaggi per venditori con LessonCraftStudio — 33 generatori.',
   },
   hero: {
     title: 'Eduki.it vs Etsy: Dove Vendere le Schede Didattiche',

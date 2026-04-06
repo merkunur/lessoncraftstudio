@@ -2,26 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'creare cartelle tombola con immagini da vendere',
+    primaryKeyword: 'come creare cartelle tombola da stampare',
     secondaryKeywords: [
-      'cartelle tombola stampabili per Etsy e KDP',
-      'generatore tombola con immagini uso commerciale',
-      'vendere set tombola tematici online',
-      'creare cartelle bingo con licenza commerciale',
-      'tombola per bambini da vendere su Gumroad',
+      'generatore cartelle tombola con immagini PDF',
+      'creare tombola personalizzata da stampare',
+      'cartelle bingo tematiche per bambini',
+      'tombola da stampare per feste e compleanni',
     ],
     lsiKeywords: [
-      'cartelle tombola uniche con schede del conduttore',
-      'prodotti stampabili tombola per venditori',
-      'tombola tematica feste compleanno Natale',
-      'generatore cartelle multiple con posizionamento casuale',
+      'cartelle tombola uniche',
+      'schede del conduttore',
+      'tombola per bambini',
+      'bingo tematico feste',
+      'griglie configurabili',
     ],
-    titleTag: 'Cartelle tombola da vendere | LessonCraftStudio',
-    metaDescription: 'Crea cartelle tombola con immagini tematiche, griglie configurabili e schede del conduttore. Genera set unici pronti per vendere su Etsy, KDP e Gumroad.',
+    titleTag: 'Creare cartelle tombola da stampare | Guida',
+    metaDescription: 'Come creare cartelle tombola da stampare con immagini tematiche e griglie configurabili. Genera set unici con schede del conduttore incluse.',
   },
 
   hero: {
-    title: 'Cartelle tombola da vendere: guida alla creazione',
+    title: 'Come creare cartelle tombola da stampare',
     tagline: 'Tutorial passo passo per creare cartelle bingo tematiche e pronte per la stampa con schede del conduttore da vendere su Etsy, Amazon KDP e Gumroad',
     description: 'La tombola è una tradizione profondamente radicata nella cultura italiana, specialmente durante il periodo natalizio, e le cartelle tombola con immagini tematiche sono tra i prodotti stampabili più versatili e richiesti. Genitori, insegnanti e organizzatori di eventi cercano costantemente set personalizzati per feste di compleanno, serate in famiglia e attività scolastiche. A differenza di una scheda singola, ogni set di tombola richiede cartelle uniche multiple — il che giustifica prezzi premium e crea un prodotto intrinsecamente più ricco. Questa guida ti mostra come usare il Generatore di Cartelle Bingo per creare set professionali con griglie configurabili (da 3x3 a 5x5), schede del conduttore dedicate e cartelle con posizionamento casuale delle immagini. Puoi esportare tutto come PDF multipagina o JPEG individuali in archivio ZIP. Il mercato italiano offre un vantaggio competitivo unico: il termine "tombola" ha un forte valore culturale che i venditori internazionali non possono replicare. Che tu stia creando il tuo primo prodotto di gioco o espandendo un catalogo esistente, avrai set completi pronti per la pubblicazione.',
   },

@@ -433,8 +433,8 @@ const pricingContent: Record<string, {
     catalogSubtitle: 'Compre aplicativos individuais por $49 ou economize com um pacote de categoria por $149.',
   },
   it: {
-    metaTitle: 'Prezzi - Generatori di stampabili professionali | LessonCraftStudio',
-    metaDescription: 'Prova tutti i 33 generatori gratis con filigrana. App singole 49 $, pacchetti 149 $. Acquisto unico, licenza commerciale inclusa.',
+    metaTitle: 'Prezzi | Generatori di schede da 49 EUR — Pagamento unico',
+    metaDescription: 'Prova i 33 generatori gratis con filigrana. App singole a 49 EUR, pacchetti categoria da 99 EUR. Pagamento unico, licenza commerciale, senza abbonamento.',
     keywords: ['prezzi generatore stampabili', 'licenza commerciale stampabili', 'strumenti Etsy stampabili prezzo', 'generatore schede acquista'],
     heroBadge: '33 generatori | 6 pacchetti | Acquisto unico',
     heroTitle: 'Prezzi semplici. Nessun abbonamento.',

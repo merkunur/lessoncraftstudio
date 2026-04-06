@@ -2,26 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'standard di qualità per schede vendibili',
+    primaryKeyword: 'standard di qualità per schede stampabili',
     secondaryKeywords: [
       'checklist qualità pre-pubblicazione stampabili',
-      'risoluzione margini e formattazione schede professionali',
+      'risoluzione margini e formattazione schede',
       'test di stampa per venditori di schede',
       'accuratezza chiavi di risposta prodotti educativi',
-      'coerenza visiva catalogo stampabili marketplace',
     ],
     lsiKeywords: [
-      'DPI risoluzione formato file PDF stampa',
-      'tipografia leggibilità layout di pagina',
-      'controllo qualità flusso revisione produzione',
-      'fiducia acquirenti recensioni positive standard brand',
+      'DPI risoluzione formato PDF',
+      'tipografia leggibilità layout',
+      'controllo qualità produzione',
+      'coerenza visiva catalogo',
+      'fiducia acquirenti standard',
     ],
-    titleTag: 'Standard di qualità per schede | LessonCraftStudio',
-    metaDescription: 'Standard di qualità per schede vendibili: risoluzione, margini, tipografia e test di stampa. Checklist completa per venditori di stampabili professionali.',
+    titleTag: 'Standard qualità per schede stampabili | Guida',
+    metaDescription: 'Standard di qualità per schede stampabili: risoluzione, margini, tipografia e test di stampa. Checklist completa per venditori professionali.',
   },
 
   hero: {
-    title: 'Standard di Qualità per Schede Vendibili Online',
+    title: 'Standard di qualità per schede stampabili',
     tagline: 'Una guida completa agli standard di qualità delle schede che ogni venditore deve conoscere — risoluzione e formato file, layout di pagina e margini, tipografia e leggibilità, colore e coerenza visiva, verifica delle chiavi di risposta, checklist di controllo qualità pre-pubblicazione, test di stampa su diverse stampanti e manutenzione della qualità nell\'intero catalogo',
     description: 'La qualità è ciò che separa i venditori di schede che costruiscono business sostenibili da chi lotta con recensioni negative e rimborsi. Nel mercato italiano, dove gli acquirenti hanno aspettative sempre più alte, una scheda che appare professionale ma si stampa con margini tagliati o testo sfocato distrugge la tua reputazione in un istante. La buona notizia: gli standard di qualità sono misurabili e sistematizzabili. Questa guida ti offre una checklist completa per venditori di stampabili: risoluzione e formato file, margini e layout, tipografia e leggibilità, accuratezza delle chiavi di risposta, test di stampa su diverse stampanti e mantenimento della coerenza qualitativa in tutto il catalogo.',
   },

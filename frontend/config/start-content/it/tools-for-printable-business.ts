@@ -2,26 +2,26 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'strumenti essenziali business stampabili',
+    primaryKeyword: 'strumenti per creare stampabili educativi',
     secondaryKeywords: [
-      'toolkit produzione schede stampabili per venditori',
-      'generatori di schede PDF 300 DPI commerciale',
-      'strumenti creazione contenuti stampabili Etsy KDP',
-      'software per vendere download digitali educativi',
+      'generatori di schede didattiche online',
+      'software per creare stampabili per bambini',
+      'strumenti creazione schede professionali',
+      'toolkit per produrre materiale didattico',
     ],
     lsiKeywords: [
-      'automazione flusso di lavoro stampabili',
-      'strumenti design copertina e mockup',
-      'utilità gestione piattaforma venditori',
-      'generatore schede multilingue licenza commerciale',
-      'produzione batch schede professionali',
+      'generatori',
+      'schede didattiche',
+      'PDF',
+      'stampabili',
+      'strumenti online',
     ],
-    titleTag: 'Strumenti per business stampabili | LessonCraftStudio',
-    metaDescription: 'Gli strumenti essenziali per venditori di stampabili: generatori di schede, design, formattazione e gestione piattaforma. Prova gratuita con filigrana.',
+    titleTag: 'Strumenti per creare stampabili educativi | LCS',
+    metaDescription: 'Strumenti essenziali per creare stampabili educativi professionali: generatori di schede, formattazione PDF e gestione catalogo. Guida pratica completa.',
   },
 
   hero: {
-    title: 'Strumenti Essenziali per il Tuo Business di Stampabili',
+    title: 'Strumenti per Creare Stampabili Educativi Professionali',
     tagline: 'La guida completa al toolkit per imprenditori di stampabili — dalla creazione dei contenuti alla gestione delle piattaforme, ogni strumento necessario per produrre, confezionare e vendere schede professionali',
     description: 'La qualità dell\'output, la velocità di produzione e la varietà del catalogo dipendono dagli strumenti che scegli. Questa guida copre il toolkit essenziale per venditori di stampabili in Italia e nel mondo: generatori di schede che producono PDF a 300 DPI pronti per la stampa, strumenti di design per copertine e mockup, e utilità specifiche per Etsy.it e Amazon.it KDP. Imparerai l\'ordine giusto di investimento per evitare di spendere in strumenti superflui. Ogni generatore offre una prova gratuita con filigrana per valutare velocità e qualità prima di acquistare una licenza commerciale.',
   },

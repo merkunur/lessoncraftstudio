@@ -2,26 +2,26 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Stampabili di Natale per Etsy | LessonCraftStudio',
-    metaDescription: 'Crea e vendi stampabili di Natale su Etsy e KDP. Idee prodotto con tombola, presepe e Befana per il mercato italiano. Strumenti e strategie per venditori.',
-
-    primaryKeyword: 'stampabili di Natale da vendere su Etsy',
+    titleTag: 'Schede di Natale da stampare per bambini | LCS',
+    metaDescription: 'Crea schede di Natale da stampare: tombola natalizia, colorare Babbo Natale, crucipuzzle festivi e attività di conteggio a tema natalizio per bambini.',
+    primaryKeyword: 'schede di Natale da stampare',
     secondaryKeywords: [
-      'vendere schede natalizie su Etsy',
-      'business stampabili Natale KDP',
-      'creare stampabili tombola natalizia',
-      'nicchia stampabili festività dicembre',
-      'idee prodotto stampabili Befana Epifania',
+      'attività natalizie da stampare per bambini',
+      'stampabili Natale scuola primaria',
+      'tombola natalizia da stampare',
+      'giochi di Natale da stampare gratis',
     ],
     lsiKeywords: [
-      'mercato stampabili natalizi Italia',
-      'generatore schede tema Natale',
-      'vendere stampabili digitali festività invernali',
-      'stampabili presepe tombola bambini',
+      'scuola primaria',
+      'tombola',
+      'colorare',
+      'Babbo Natale',
+      'Befana',
+      'pregrafismo',
     ],
   },
   hero: {
-    title: 'Stampabili di Natale: La Nicchia Più Redditizia dell\'Anno',
+    title: 'Schede di Natale da Stampare: Idee Creative per Bambini',
     description: 'Il Natale è l\'opportunità stagionale più potente nel mercato dei stampabili, con domanda che esplode da ottobre a gennaio. In Italia, le festività natalizie hanno tradizioni uniche che creano opportunità di prodotto esclusive: la tombola natalizia è un gioco familiare fondamentale, il presepe ispira attività creative, e la Befana il 6 gennaio estende la finestra di vendita oltre il 25 dicembre — più di quanto accada in qualsiasi altro mercato europeo. Per gli imprenditori digitali, la nicchia natalizia offre una varietà straordinaria di sotto-temi: da Babbo Natale ai pupazzi di neve, dal pan di zenzero alle calze. Utilizzando i nostri generatori di schede puoi creare stampabili natalizi localizzati per il mercato italiano e internazionale, vendendo su Etsy, Amazon KDP e Gumroad. La preparazione anticipata è la chiave: pubblica entro ottobre per massimizzare le vendite.',
   },
   marketOverview: `La nicchia dei stampabili di Natale è il peso massimo indiscusso delle vendite stagionali di prodotti educativi, alimentata dalla convergenza della domanda da parte di venditori, genitori, famiglie che praticano l\'istruzione domestica e acquirenti di regali durante l\'ultimo trimestre di ogni anno. i venditori iniziano a pianificare le attività stampabili di dicembre già a settembre, cercando schede a tema natalizio che mantengano coinvolti gli utenti durante le settimane piene di entusiasmo prima delle vacanze invernali. I genitori cercano attività educative a tema natalizio per occupare i bambini durante i viaggi delle feste, i ritrovi familiari e il lungo periodo delle vacanze invernali quando l\'intrattenimento strutturato diventa essenziale. Chi fa regali scopre che i libri di attività stampabili e i pacchetti di schede sono pensierini premurosi e convenienti per le calze e i regalini per le feste.

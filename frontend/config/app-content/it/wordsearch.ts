@@ -2,31 +2,29 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'generatore di crucipuzzle da vendere su Etsy e KDP',
+    primaryKeyword: 'generatore crucipuzzle',
     secondaryKeywords: [
-      'crucipuzzle stampabili per negozio Etsy',
-      'creare libri di crucipuzzle per Amazon KDP',
-      'generatore cerca parole licenza commerciale',
-      'parole nascoste stampabili da vendere online',
-      'crucipuzzle con immagini per venditori Etsy',
+      'creare crucipuzzle',
+      'crucipuzzle da stampare',
+      'cerca parole generatore',
+      'crucipuzzle personalizzato',
+      'parole nascoste generatore',
     ],
     lsiKeywords: [
-      'licenza commerciale',
-      '300 DPI',
-      'pronto per la stampa',
-      'crucipuzzle',
-      'parole nascoste',
-      'griglia 15×15',
-      'reddito passivo',
-      'download digitale',
-      'business di stampabili',
+      'griglia',
+      'lettere',
+      'vocabolario',
+      'ortografia',
+      'tema',
+      'soluzioni',
+      'PDF',
     ],
-    titleTag: 'Crucipuzzle da vendere su Etsy e KDP | LCS',
-    metaDescription: 'Crea crucipuzzle con immagini da vendere su Etsy e KDP. Griglie da 5×5 a 30×30, 104 temi, 11 lingue, licenza commerciale. 49 $ pagamento unico.',
+    titleTag: 'Generatore di crucipuzzle | Creare cerca parole con immagini',
+    metaDescription: 'Create crucipuzzle con 3.000+ immagini tematiche in 11 lingue. Griglie personalizzate, soluzioni automatiche, PDF 300 DPI. Prova gratis — licenza commerciale.',
   },
 
   hero: {
-    title: 'Genera crucipuzzle da vendere su Etsy, Amazon KDP e oltre',
+    title: 'Generatore di crucipuzzle — Creare cerca parole con immagini',
     tagline: 'Griglie regolabili da 5×5 a 30×30 con controlli per direzioni diagonali e invertite — costruisci il livello di difficoltà perfetto per ogni pubblico.',
     description:
       'Genera crucipuzzle da vendere su Etsy e Amazon KDP — il formato di puzzle che non passa mai di moda e che in italiano si chiama anche "parole nascoste" o "cerca parole". Griglie regolabili da 5×5 a 30×30 con controllo su direzioni diagonali e invertite per calibrare la difficoltà. Tre fonti di contenuto: libreria di oltre 3.100 immagini in 104 temi, modifica manuale o lista personalizzata di parole. Le griglie in italiano includono à, è, é, ì, ò, ù con frequenze naturali — un prodotto genuinamente localizzato che nessun altro generatore offre. Foglio risposte con codice colori, esportazione PDF a oltre 400 DPI e licenza commerciale inclusa. I crucipuzzle sono tra i prodotti stampabili più venduti su Etsy a livello globale, ma in italiano la concorrenza è quasi inesistente. Compila libri di crucipuzzle tematici per KDP o vendi pacchetti singoli su Etsy — il potenziale è enorme in un mercato di 59 milioni di italofoni. Prova gratis con filigrana.',

@@ -2,31 +2,26 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'generatore di puzzle matematici da vendere su Etsy',
+    primaryKeyword: 'giochi di matematica da stampare',
     secondaryKeywords: [
-      'puzzle matematici stampabili per negozio Etsy',
-      'schede puzzle con immagini per Amazon KDP',
-      'creare libri di puzzle matematici per KDP',
-      'puzzle di matematica licenza commerciale',
-      'generatore puzzle matematici per venditori',
+      'enigmi matematici da stampare',
+      'rompicapo di matematica schede',
+      'puzzle matematici scuola primaria',
+      'giochi logici matematica',
     ],
     lsiKeywords: [
-      'licenza commerciale',
-      '300 DPI',
-      'pronto per la stampa',
-      'puzzle con immagini',
-      'griglie regolabili',
-      'reddito passivo',
-      'download digitale',
-      'business di stampabili',
-      'scuola primaria',
+      'enigma',
+      'immagini',
+      'associare',
+      'logica',
+      'ragionamento',
     ],
-    titleTag: 'Puzzle matematici da vendere su Etsy e KDP | LCS',
-    metaDescription: 'Crea puzzle matematici con immagini da vendere su Etsy e KDP. Griglie da 2×2 a 4×4, 104 temi, licenza commerciale. 49 $ pagamento unico.',
+    titleTag: 'Giochi di matematica da stampare | Generatore di puzzle',
+    metaDescription: 'Create puzzle matematici con immagini dove i bambini risolvono operazioni per associare figure. Soluzioni incluse. Prova gratis.',
   },
 
   hero: {
-    title: 'Crea e vendi puzzle matematici professionali su Etsy e KDP',
+    title: 'Giochi di matematica da stampare — Generatore di puzzle con immagini',
     tagline: 'Combina la pratica matematica con il divertimento di risolvere puzzle — ogni pezzo contiene un problema, ogni soluzione rivela l\'immagine.',
     description:
       'Crea puzzle matematici da vendere su Etsy e Amazon KDP — un formato unico dove un\'immagine tematica viene divisa in pezzi, ciascuno con un problema di addizione o sottrazione da risolvere. I bambini calcolano e ricompongono l\'immagine, trasformando la matematica in un gioco coinvolgente. Griglie da 2×2 a 4×4 (da 4 a 16 pezzi) coprono ogni livello dalla scuola dell\'infanzia alla terza primaria. Oltre 3.100 illustrazioni in 104 temi — animali, spazio, dinosauri, festività — per creare centinaia di puzzle unici da vendere come inserzioni singole o compilare in libri di attività KDP. Soluzioni automatiche, esportazione PDF a oltre 400 DPI e licenza commerciale inclusa. Il mercato italiano dei puzzle matematici stampabili è un oceano blu: la concorrenza su Etsy.it è praticamente inesistente. Prova gratis con filigrana e valuta la qualità prima di investire.',

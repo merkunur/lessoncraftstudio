@@ -2,27 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'scegliere la nicchia per business stampabili 2026',
+    primaryKeyword: 'scegliere la nicchia per stampabili',
     secondaryKeywords: [
       'nicchie redditizie stampabili educativi',
       'come validare una nicchia per stampabili',
       'analisi concorrenza mercato stampabili',
-      'strategia nicchia schede Etsy e KDP',
-      'trovare nicchie sottovalutate stampabili',
+      'trovare nicchie sottovalutate per stampabili',
     ],
     lsiKeywords: [
-      'domanda di mercato validazione nicchia',
-      'buyer personas segmenti acquirenti',
-      'nicchie evergreen vs stagionali',
-      'product-market fit stampabili',
-      'volume di ricerca parole chiave',
+      'validazione nicchia',
+      'domanda di mercato',
+      'buyer personas segmenti',
+      'nicchie evergreen stagionali',
+      'volume ricerca parole chiave',
     ],
-    titleTag: 'Scegliere la nicchia di stampabili | LessonCraftStudio',
-    metaDescription: 'Come scegliere la nicchia giusta per il tuo business di stampabili nel 2026. Framework di validazione, analisi concorrenza e strategie di espansione.',
+    titleTag: 'Scegliere la nicchia per stampabili | Guida',
+    metaDescription: 'Come scegliere la nicchia giusta per il tuo business di stampabili: framework di validazione, analisi concorrenza e strategie di espansione.',
   },
 
   hero: {
-    title: 'Come Scegliere la Nicchia Giusta per Stampabili',
+    title: 'Come scegliere la nicchia giusta per stampabili',
     tagline: 'Un framework completo per scegliere, validare e pianificare la nicchia giusta per la tua attività di stampabili — coprendo perché la selezione della nicchia determina il successo, identificare i tuoi vantaggi iniziali, ricercare la domanda di mercato, analizzare la concorrenza, valutare la redditività, validare prima di impegnarsi, scegliere tra nicchie sempreverdi e stagionali e pianificare la strategia di espansione',
     description: 'Nel mercato italiano dei stampabili educativi, la scelta della nicchia è la decisione che separa i venditori di successo da chi fatica per anni senza risultati. Con la domanda in crescita su Etsy, Amazon KDP e Gumroad nel 2026, le opportunità per chi si posiziona nella nicchia giusta sono enormi — ma solo se sai valutare la domanda reale, analizzare la concorrenza e validare la redditività prima di investire tempo nella creazione. Questa guida ti offre un framework sistematico per scegliere, testare e far crescere la tua nicchia di stampabili, evitando gli errori più comuni che bloccano i nuovi venditori. Scopri come trovare il punto d\'incontro tra le tue competenze e le esigenze del mercato.',
   },

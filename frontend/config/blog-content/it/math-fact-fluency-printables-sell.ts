@@ -2,11 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'stampabili fluenza fatti matematici vendere',
-    secondaryKeywords: ['stampabili tematici vendere Etsy Italia', 'nicchia stampabili educativi mercato', 'schede tematiche stagionali vendere'],
-    lsiKeywords: ['stampabili educativi nicchia', 'mercato stagionale stampabili', 'Etsy Italia schede tematiche'],
-    titleTag: 'Fluenza Fatti Matematici: Stampabili | LCS',
-    metaDescription: 'Venda stampabili per la fluenza dei fatti matematici. Tabelline, addizioni rapide e giochi di calcolo mentale.',
+    primaryKeyword: 'schede tabelline calcolo mentale da stampare',
+    secondaryKeywords: [
+      'esercizi fluenza matematica scuola primaria',
+      'schede calcolo rapido addizioni sottrazioni',
+      'tabelline da stampare con esercizi PDF',
+      'allenamento calcolo mentale bambini',
+    ],
+    lsiKeywords: [
+      'tabelline',
+      'calcolo mentale',
+      'fluenza',
+      'rapidità',
+      'addizioni',
+      'sottrazioni',
+    ],
+    titleTag: 'Schede Tabelline e Calcolo Mentale | LCS',
+    metaDescription: 'Schede tabelline e calcolo mentale da stampare per la scuola primaria. Esercizi di fluenza matematica con LessonCraftStudio — 33 generatori.',
   },
   hero: {
     title: 'Stampabili per la Fluenza dei Fatti Matematici',

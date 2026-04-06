@@ -2,26 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'creare disegni da colorare per Etsy e KDP',
+    primaryKeyword: 'come creare disegni da colorare da stampare',
     secondaryKeywords: [
-      'pagine da colorare stampabili da vendere online',
-      'generatore disegni da colorare uso commerciale',
-      'vendere libri da colorare su Amazon KDP',
-      'creare pagine da colorare con licenza commerciale',
-      'disegni da colorare tematici per Etsy e Gumroad',
+      'generatore pagine da colorare personalizzate',
+      'creare disegni da colorare per bambini PDF',
+      'pagine da colorare tematiche da stampare',
+      'disegni da colorare con immagini personalizzate',
     ],
     lsiKeywords: [
-      'canvas composizione libera per pagine da colorare',
-      'esportazione scala di grigi per libri KDP',
-      'prodotti stampabili da colorare per venditori',
-      'oltre 3100 immagini tematiche per disegni',
+      'disegni da colorare bambini',
+      'canvas composizione libera',
+      'scala di grigi per stampa',
+      'pagine da colorare tematiche',
+      'attività creative da stampare',
     ],
-    titleTag: 'Disegni da colorare per Etsy e KDP | LessonCraftStudio',
-    metaDescription: 'Crea pagine da colorare con oltre 3.100 immagini tematiche, canvas a composizione libera e scala di grigi. Vendi su Etsy, Amazon KDP e Gumroad.',
+    titleTag: 'Creare disegni da colorare da stampare | Guida',
+    metaDescription: 'Come creare disegni da colorare da stampare con oltre 3.100 immagini tematiche, canvas a composizione libera e esportazione in scala di grigi.',
   },
 
   hero: {
-    title: 'Disegni da colorare per Etsy e KDP: guida pratica',
+    title: 'Come creare disegni da colorare da stampare',
     tagline: 'Tutorial passo passo per progettare pagine da colorare personalizzate usando un canvas a composizione libera, oltre 3.100 immagini tematiche, disegno a mano libera ed esportazione in scala di grigi con un clic',
     description: 'Le pagine da colorare sono tra i prodotti stampabili più venduti in assoluto su Etsy e Amazon KDP, con venditori che costruiscono interi negozi attorno a bundle tematici. Il mercato italiano offre un\'opportunità particolarmente interessante: la domanda di attività offline e senza schermi cresce costantemente, mentre la concorrenza per disegni da colorare di qualità in italiano resta bassa. Il Generatore di Pagine da Colorare ti permette di creare composizioni originali su un canvas a composizione libera con oltre 3.100 immagini tematiche in 104 categorie, strumenti di disegno a mano libera e conversione in scala di grigi con un clic. A differenza di strumenti generici, questo approccio ti dà il controllo creativo completo per prodotti visivamente distintivi. Questa guida ti mostra ogni passaggio dalla composizione all\'esportazione di PDF pronti per la stampa. Che tu stia lanciando il tuo primo prodotto da colorare o espandendo un catalogo esistente, avrai pagine finite pronte per la pubblicazione.',
   },

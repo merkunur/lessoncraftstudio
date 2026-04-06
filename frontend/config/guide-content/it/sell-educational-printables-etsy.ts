@@ -2,26 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'vendere schede educative su Etsy principiante',
+    primaryKeyword: 'vendere schede didattiche su Etsy',
     secondaryKeywords: [
-      'come vendere stampabili didattici su Etsy multi-categoria',
-      'negozio Etsy stampabili educativi 33 generatori strategia',
-      'bundling cross-categoria schede matematica puzzle Etsy',
-      'ottimizzazione inserzioni Etsy stampabili educativi venditori',
-      'prezzi schede didattiche download digitale Etsy',
+      'come aprire negozio Etsy stampabili educativi',
+      'inserzioni Etsy schede didattiche ottimizzate',
+      'bundle cross-categoria schede Etsy strategia',
+      'prezzi schede educative download digitale Etsy',
     ],
     lsiKeywords: [
-      'negozio Etsy diversificato stampabili 6 categorie',
-      'tag SEO Etsy schede puzzle pagine da colorare',
-      'rotazione prodotti stagionale stampabili educativi',
-      'strategia espansione catalogo stampabili Etsy',
+      'negozio Etsy stampabili',
+      'inserzioni ottimizzate',
+      'SEO Etsy tag titoli',
+      'rotazione prodotti stagionale',
+      'catalogo multi-categoria',
     ],
-    titleTag: 'Vendere schede educative su Etsy | LessonCraftStudio',
-    metaDescription: 'Guida per principianti: vendi schede educative su Etsy con 33 generatori in 6 categorie. SEO, bundling cross-categoria e strategia multi-prodotto.',
+    titleTag: 'Vendere schede didattiche su Etsy | Guida',
+    metaDescription: 'Come vendere schede didattiche su Etsy: configurazione negozio, SEO, bundling cross-categoria e strategia multi-prodotto. Guida per principianti.',
   },
 
   hero: {
-    title: 'Vendere schede educative su Etsy: guida per principianti',
+    title: 'Vendere schede didattiche su Etsy: guida pratica',
     tagline: 'Una guida completa per costruire un negozio Etsy diversificato vendendo stampabili educativi creati con 33 generatori specializzati in 6 categorie — strategia negozio multi-categoria, ottimizzazione SEO Etsy specifica per categoria con tutti i 13 tag, bundling e prezzi cross-categoria, fotografia inserzioni per diversi tipi di prodotto, rotazione prodotti stagionale tra schede di matematica, attività di alfabetizzazione, pagine di apprendimento visivo, esercizi di abbinamento, puzzle e giochi cerca e trova, e scalare da una singola categoria a un negozio completo di stampabili educativi',
     description: 'Le schede educative stampabili sono tra i prodotti digitali più ricercati su Etsy, con una domanda costante da parte di genitori, famiglie homeschooler e centri di tutoraggio in Italia e nel mondo. Con 33 generatori specializzati in 6 categorie — matematica, lettere, disegno, puzzle, cerca e trova, logica — puoi costruire un negozio diversificato che cattura traffico da decine di ricerche diverse. Questa guida ti mostra la strategia completa per un negozio multi-categoria: dalla scelta della nicchia iniziale all\'espansione progressiva, dall\'ottimizzazione SEO Etsy al bundling cross-categoria che aumenta il valore medio dell\'ordine. Ideale sia per chi parte da zero sia per chi vuole espandere un negozio esistente.',
   },

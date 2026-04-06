@@ -2,26 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'come fissare il prezzo degli stampabili su Etsy',
+    primaryKeyword: 'come stabilire prezzi stampabili su Etsy',
     secondaryKeywords: [
-      'strategia prezzi stampabili digitali Etsy venditori',
+      'strategia prezzi stampabili digitali Etsy',
       'calcolo commissioni Etsy ricavo netto stampabili',
       'prezzi bundle schede educative Etsy',
       'struttura prezzi tre livelli Etsy stampabili',
-      'aggiustamenti prezzi stagionali Etsy venditori',
     ],
     lsiKeywords: [
-      'commissioni Etsy transazione elaborazione pagamento',
-      'psicologia prezzi valore percepito bundle',
-      'test conversione Etsy Stats ottimizzazione',
-      'prezzi internazionali valuta download digitali',
+      'commissioni Etsy calcolo',
+      'psicologia prezzi bundle',
+      'test conversione Etsy Stats',
+      'prezzi internazionali download',
+      'valore percepito sconto',
     ],
-    titleTag: 'Prezzi degli stampabili su Etsy | LessonCraftStudio',
-    metaDescription: 'Come fissare il prezzo degli stampabili su Etsy: calcolo commissioni, struttura a tre livelli, bundle strategici e test di conversione. Guida pratica.',
+    titleTag: 'Prezzi stampabili su Etsy | Guida',
+    metaDescription: 'Come stabilire i prezzi dei stampabili su Etsy: calcolo commissioni, struttura a tre livelli, bundle strategici e test di conversione. Guida pratica.',
   },
 
   hero: {
-    title: 'Prezzi degli stampabili su Etsy: strategia completa',
+    title: 'Prezzi dei stampabili su Etsy: strategia completa',
     tagline: 'Una guida completa alla strategia dei prezzi per venditori di schede stampabili su Etsy — ricerca concorrenza, calcolo commissioni Etsy e ricavo netto, benchmark prezzi base per tipo di prodotto e numero di pagine, struttura prezzi a tre livelli che aumenta il valore medio dell\'ordine, prezzi bundle cross-categoria e per livello scolastico, uso strategico di saldi e coupon Etsy, aggiustamenti prezzi internazionali per acquirenti globali, e metodologia test prezzi usando dati conversione Etsy Stats',
     description: 'Il prezzo è la decisione più importante per chi vende stampabili su Etsy in Italia e nel mondo. Prezzi troppo bassi e le commissioni Etsy divorano i margini. Prezzi troppo alti senza comunicare valore e gli acquirenti passano oltre. Questa guida ti fornisce il framework completo: calcolo del ricavo netto reale dopo tutte le commissioni, struttura a tre livelli che aumenta il valore medio dell\'ordine e strategie di bundle cross-categoria che giustificano prezzi premium. Imparerai anche come usare coupon e saldi Etsy senza erodere i margini, e come testare i prezzi con i dati di conversione di Etsy Stats per ottimizzare nel tempo.',
   },

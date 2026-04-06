@@ -2,11 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'stampabili Capodanno Befana gennaio',
-    secondaryKeywords: ['stampabili tematici vendere Etsy Italia', 'nicchia stampabili educativi mercato', 'schede tematiche stagionali vendere'],
-    lsiKeywords: ['stampabili educativi nicchia', 'mercato stagionale stampabili', 'Etsy Italia schede tematiche'],
-    titleTag: 'Stampabili Capodanno e Befana: Gennaio | LCS',
-    metaDescription: 'Venda stampabili per Capodanno e Befana. Attività e giochi per le festività di inizio anno in Italia.',
+    primaryKeyword: 'schede didattiche Capodanno Befana da stampare',
+    secondaryKeywords: [
+      'attività Befana 6 gennaio scuola da stampare',
+      'schede inverno gennaio bambini PDF',
+      'esercizi tema Epifania da stampare',
+      'giochi Befana Capodanno stampabili',
+    ],
+    lsiKeywords: [
+      'Capodanno',
+      'Befana',
+      'Epifania',
+      'gennaio',
+      'inverno',
+      'calza',
+    ],
+    titleTag: 'Schede Capodanno e Befana da Stampare | LCS',
+    metaDescription: 'Schede didattiche per Capodanno e Befana da stampare per bambini. Attività di gennaio per la scuola primaria e infanzia con LessonCraftStudio — 33 generatori.',
   },
   hero: {
     title: 'Stampabili per Capodanno e Befana: Gennaio',

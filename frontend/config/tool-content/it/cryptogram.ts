@@ -2,27 +2,28 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'generatore di crittogrammi gratis',
+    primaryKeyword: 'crittogrammi da stampare gratis',
     secondaryKeywords: [
-      'creare crittogrammi gratis online',
-      'generatore cifrario illustrato stampabile gratis',
-      'crittogrammi con immagini senza registrazione',
-      'puzzle decodifica codice gratis PDF',
-      'generatore crittogrammi da stampare gratis',
+      'messaggio segreto da stampare gratis',
+      'crittogramma gratis online senza registrazione',
+      'puzzle decodifica codice da stampare gratis PDF',
+      'cifrario illustrato gratis online',
+      'giochi crittogrammi da stampare gratis',
     ],
     lsiKeywords: [
-      'gratis',
-      'senza registrazione',
-      'stampabile',
-      'PDF',
-      'prova gratuita con filigrana',
+      'crittogramma',
+      'messaggio segreto',
+      'cifrario',
+      'decodifica',
+      'stampabile PDF',
+      'gratis online',
     ],
-    titleTag: 'Generatore di crittogrammi gratis | LessonCraftStudio',
-    metaDescription: 'Crea crittogrammi con cifrario illustrato gratis online, senza registrazione. Lettere da Rivelare, 104 temi, 11 lingue. Licenza per vendere.',
+    titleTag: 'Crittogrammi da stampare gratis online | LessonCraftStudio',
+    metaDescription: 'Crea crittogrammi e messaggi segreti da stampare gratis online, senza registrazione. Cifrario illustrato, 104 temi, 11 lingue. Prova subito nel browser.',
   },
 
   hero: {
-    title: 'Generatore di Crittogrammi Gratis Online',
+    title: 'Crittogrammi da Stampare Gratis Online',
     tagline: 'Crea puzzle con cifrario illustrato dove ogni lettera è associata a un\'immagine e gli utenti decodificano intere frasi segrete attraverso il riconoscimento di pattern',
     description: 'Crea crittogrammi gratis direttamente nel browser — nessuna registrazione, nessun download. Ogni lettera dell\'alfabeto è associata a un\'immagine unica e la tua frase segreta viene resa come una sequenza di immagini da decodificare. Il cursore Lettere da Rivelare (0–10) controlla la difficoltà: zero per decodifica pura, dieci per supporto intenso con associazioni pre-rivelate. L\'Assegnazione Automatica preleva immagini casuali da 104 collezioni tematiche con oltre 3.100 illustrazioni, mentre l\'Assegnazione Manuale ti permette di scegliere immagini specifiche per lettere specifiche. La sensibilità linguistica è integrata: i crittogrammi italiani, tedeschi e francesi usano alfabeti autentici con caratteri accentati. Esporta PDF e JPEG a oltre 400 DPI in formato Letter, A4 o dimensioni personalizzate. Vuoi vendere i tuoi crittogrammi su Etsy, Amazon KDP o Gumroad? Passa alla licenza commerciale per rimuovere la filigrana e ottenere i diritti di rivendita completi.',
   },

@@ -2,11 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'stampabili primavera marzo aprile',
-    secondaryKeywords: ['stampabili tematici vendere Etsy Italia', 'nicchia stampabili educativi mercato', 'schede tematiche stagionali vendere'],
-    lsiKeywords: ['stampabili educativi nicchia', 'mercato stagionale stampabili', 'Etsy Italia schede tematiche'],
-    titleTag: 'Stampabili Primavera: Marzo-Aprile | LCS',
-    metaDescription: 'Venda stampabili primaverili. Fiori, farfalle, Pasqua e attività all\'aperto per il mercato italiano.',
+    primaryKeyword: 'schede didattiche primavera da stampare bambini',
+    secondaryKeywords: [
+      'attività primaverili scuola primaria da stampare',
+      'schede fiori farfalle bambini PDF',
+      'esercizi tema primavera scuola infanzia',
+      'colorare primavera bambini da stampare',
+    ],
+    lsiKeywords: [
+      'primavera',
+      'fiori',
+      'farfalle',
+      'Pasqua',
+      'aprile',
+      'natura',
+    ],
+    titleTag: 'Schede Didattiche Primavera da Stampare | LCS',
+    metaDescription: 'Schede didattiche di primavera da stampare per bambini. Fiori, farfalle e attività primaverili con LessonCraftStudio — 33 generatori, 11 lingue.',
   },
   hero: {
     title: 'Stampabili di Primavera: Vendere a Marzo e Aprile',

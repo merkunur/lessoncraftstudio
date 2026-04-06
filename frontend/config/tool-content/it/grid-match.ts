@@ -2,28 +2,28 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'creare griglie di abbinamento gratis',
+    primaryKeyword: 'disegno su griglia da stampare gratis',
     secondaryKeywords: [
-      'generatore puzzle a griglia gratis online',
-      'griglie di abbinamento stampabili gratis',
-      'generatore puzzle griglia senza registrazione',
-      'schede puzzle tessere gratis PDF',
-      'creare puzzle griglia gratuito online',
+      'puzzle griglia da stampare gratis',
+      'disegno su griglia gratis online PDF',
+      'puzzle tessere da stampare gratis senza registrazione',
+      'schede griglia abbinamento gratis',
+      'giochi su griglia da stampare gratis',
     ],
     lsiKeywords: [
-      'gratis',
+      'disegno su griglia',
+      'puzzle tessere',
+      'abbinamento griglia',
+      'stampabile PDF',
+      'gratis online',
       'senza registrazione',
-      'stampabile',
-      'PDF',
-      'filigrana',
-      'prova gratuita',
     ],
-    titleTag: 'Griglie di abbinamento gratis | LessonCraftStudio',
-    metaDescription: 'Crea griglie di abbinamento gratis online, senza registrazione. Dimensioni configurabili, celle indizio, 104 temi. Licenza commerciale disponibile.',
+    titleTag: 'Puzzle su griglia da stampare gratis | LessonCraftStudio',
+    metaDescription: 'Crea puzzle su griglia da stampare gratis online, senza registrazione. Dimensioni configurabili, celle indizio, 104 temi, risposte automatiche. Prova subito.',
   },
 
   hero: {
-    title: 'Crea Griglie di Abbinamento Gratis Online',
+    title: 'Puzzle su Griglia da Stampare Gratis Online',
     tagline: 'Generatore di puzzle a griglia con immagine singola, dimensioni configurabili da 2×2 a 4×4, celle indizio regolabili per difficoltà scalabile, randomizzazione Fisher-Yates delle tessere, chiavi di risposta automatiche con cerchi numerati sovrapposti, e 104 collezioni tematiche di immagini per schede puzzle a griglia vendibili in tutto il mondo',
     description: 'Crea griglie di abbinamento gratis, direttamente nel browser, senza registrazione e senza installare nulla. Un\'immagine viene divisa in una griglia di tessere configurabile da 2×2 a 4×4 — gli utenti abbinano le tessere numerate alle posizioni corrette. Imposta da 1 a 5 celle indizio per regolare la difficoltà. La randomizzazione Fisher-Yates mescola le tessere a ogni generazione. Il sistema a doppio canvas genera simultaneamente la scheda di lavoro e la chiave di risposta con cerchi numerati. Sfoglia 104 temi con oltre 3.100 illustrazioni o carica le tue immagini. Esporta PDF e JPEG a 300 DPI nei formati Letter, A4 o personalizzato — la prova gratuita include tutte le funzionalità con una filigrana sui download. Vuoi vendere i tuoi puzzle su Etsy o Amazon KDP? Passa alla licenza commerciale per rimuovere la filigrana e ottenere i diritti di rivendita completi.',
   },

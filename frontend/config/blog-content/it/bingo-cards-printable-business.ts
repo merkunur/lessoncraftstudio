@@ -2,11 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'cartelle tombola stampabili business',
-    secondaryKeywords: ['tombola stampabile vendere Etsy', 'cartelle tombola bambini educative', 'business tombola italiana stampabili'],
-    lsiKeywords: ['gioco tombola educativa bambini', 'tombola immagini prescuola', 'cartelle tombola tematiche'],
-    titleTag: 'Cartelle Tombola Stampabili: Business | LCS',
-    metaDescription: 'Avvii un business con cartelle di tombola stampabili. Scopra nicchie e strategie per il gioco più amato dalle famiglie italiane.',
+    primaryKeyword: 'cartelle tombola da stampare per bambini',
+    secondaryKeywords: [
+      'tombola educativa da stampare PDF',
+      'cartelle tombola personalizzate bambini',
+      'gioco tombola didattica scuola',
+      'tombola immagini bambini da stampare',
+    ],
+    lsiKeywords: [
+      'tombola',
+      'cartelle',
+      'numeri',
+      'immagini',
+      'gioco',
+      'festa',
+    ],
+    titleTag: 'Cartelle Tombola da Stampare per Bambini | LCS',
+    metaDescription: 'Cartelle tombola personalizzate da stampare per bambini e feste. Crea tombola educativa con immagini usando LessonCraftStudio — 33 generatori.',
   },
   hero: {
     title: 'Cartelle Tombola Stampabili: Avviare un Business',

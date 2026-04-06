@@ -2,26 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'creare schede di confronto da vendere',
+    primaryKeyword: 'come creare schede grande e piccolo da stampare',
     secondaryKeywords: [
-      'schede confronto dimensioni stampabili per Etsy e KDP',
-      'generatore schede grande e piccolo uso commerciale',
-      'vendere schede discriminazione dimensionale online',
-      'creare attività ordinamento dimensioni con licenza commerciale',
-      'schede confronto senza testo da vendere su Gumroad',
+      'schede confronto dimensioni per bambini da stampare PDF',
+      'creare esercizi grande e piccolo prescolare',
+      'generatore schede discriminazione dimensionale',
+      'attività confronto dimensioni scuola dell\'infanzia',
     ],
     lsiKeywords: [
-      'cinque tipi domanda confronto dimensioni',
-      'output senza testo per vendite internazionali',
-      'prodotti stampabili prima infanzia per venditori',
-      'due modalità immagine per catalogo diversificato',
+      'grande e piccolo bambini',
+      'confronto dimensioni',
+      'discriminazione dimensionale',
+      'schede prescolare',
+      'cinque tipi domanda',
     ],
-    titleTag: 'Schede di confronto da vendere | LessonCraftStudio',
-    metaDescription: 'Crea schede di confronto dimensioni con 5 tipi di domanda e output senza testo per vendite globali. Esporta PDF per vendere su Etsy, KDP e Gumroad.',
+    titleTag: 'Creare schede grande e piccolo da stampare | Guida',
+    metaDescription: 'Come creare schede di confronto dimensioni da stampare con 5 tipi di domanda e output senza testo. Ideale per scuola dell\'infanzia e prescolare.',
   },
 
   hero: {
-    title: 'Schede di confronto dimensioni da vendere online',
+    title: 'Come creare schede grande e piccolo da stampare',
     tagline: 'Tutorial passo passo per creare schede di discriminazione dimensionale con cinque tipi di domanda e output senza testo — pronte per la vendita su Etsy, Amazon KDP e Gumroad',
     description: 'Le schede di confronto dimensioni sono tra i prodotti stampabili più richiesti per l\'apprendimento precoce, con una domanda costante da genitori, scuole dell\'infanzia e centri educativi. Il vantaggio competitivo decisivo di questa categoria è l\'output completamente senza testo: ogni scheda contiene solo immagini e indicatori visivi, il che significa che un singolo prodotto si vende identicamente in qualsiasi paese del mondo senza traduzione. Per i venditori italiani che vogliono espandersi su mercati internazionali, questa è un\'opportunità concreta. Il Generatore Schede Grande e Piccolo offre cinque tipi di domanda (Cerchia il Più Grande, il Più Piccolo, il Medio, Numera dal Piccolo al Grande e viceversa) e due modalità immagine che raddoppiano la varietà del catalogo. Questa guida ti mostra come configurare ogni impostazione, generare chiavi di risposta automatiche ed esportare file pronti per la stampa. Che tu stia creando il tuo primo prodotto o espandendo un catalogo esistente, avrai schede finite pronte per la pubblicazione.',
   },

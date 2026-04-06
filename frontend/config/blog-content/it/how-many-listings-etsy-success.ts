@@ -2,11 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'quante inserzioni Etsy servono successo',
-    secondaryKeywords: ['business stampabili digitali Italia', 'vendere stampabili online strategia', 'Etsy KDP stampabili mercato italiano'],
-    lsiKeywords: ['stampabili educativi business', 'vendita online prodotti digitali', 'mercato italiano stampabili 2026'],
-    titleTag: 'Quante Inserzioni Servono su Etsy? | LCS',
-    metaDescription: 'Scopra quante inserzioni servono su Etsy per generare vendite costanti di stampabili. Numeri reali e strategie.',
+    primaryKeyword: 'quante schede didattiche servono per vendere',
+    secondaryKeywords: [
+      'catalogo minimo materiale educativo Etsy',
+      'quanti prodotti stampabili per iniziare',
+      'numero inserzioni schede Etsy successo',
+      'quantità prodotti didattici online',
+    ],
+    lsiKeywords: [
+      'catalogo',
+      'quantità',
+      'inserzioni',
+      'prodotti',
+      'varietà',
+      'obiettivo',
+    ],
+    titleTag: 'Quante Schede Servono per Vendere Etsy | LCS',
+    metaDescription: 'Quante schede didattiche servono per un catalogo Etsy di successo. Numeri reali e obiettivi con LessonCraftStudio — 33 generatori, 11 lingue.',
   },
   hero: {
     title: 'Quante Inserzioni Etsy Servono per Avere Successo?',

@@ -2,11 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'vantaggio stampabili multilingue vendere',
-    secondaryKeywords: ['business stampabili digitali Italia', 'vendere stampabili online strategia', 'Etsy KDP stampabili mercato italiano'],
-    lsiKeywords: ['stampabili educativi business', 'vendita online prodotti digitali', 'mercato italiano stampabili 2026'],
-    titleTag: 'Stampabili Multilingue: Il Vantaggio | LCS',
-    metaDescription: 'Scopra il vantaggio di vendere stampabili in più lingue. Come raggiungere mercati globali con sforzo minimo.',
+    primaryKeyword: 'schede didattiche in più lingue da stampare',
+    secondaryKeywords: [
+      'materiale educativo multilingue bambini',
+      'schede bilingue italiano inglese da stampare',
+      'esercizi in lingua straniera bambini PDF',
+      'attività didattiche multilingue stampabili',
+    ],
+    lsiKeywords: [
+      'multilingue',
+      'bilingue',
+      'lingue',
+      'italiano',
+      'inglese',
+      'traduzione',
+    ],
+    titleTag: 'Schede Didattiche Multilingue da Stampare | LCS',
+    metaDescription: 'Schede didattiche disponibili in più lingue da stampare per bambini. Materiale bilingue e multilingue con LessonCraftStudio — 33 generatori, 11 lingue.',
   },
   hero: {
     title: 'Il Vantaggio Competitivo degli Stampabili Multilingue',

@@ -1,26 +1,28 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'schede confronto dimensioni gratis',
+    primaryKeyword: 'schede grande e piccolo da stampare gratis',
     secondaryKeywords: [
-      'schede grande piccolo gratis online senza registrazione',
-      'generatore confronto dimensioni gratis PDF stampabile',
-      'schede ordinamento dimensioni gratis bambini',
-      'creare schede grande piccolo medio gratis',
-      'schede confronto dimensioni gratis prova gratuita',
+      'grande piccolo gratis online da stampare',
+      'schede confronto dimensioni gratis PDF',
+      'generatore grande piccolo gratis senza registrazione',
+      'schede ordinamento dimensioni da stampare gratis',
+      'esercizi grande piccolo medio gratis online',
     ],
     lsiKeywords: [
-      'schede grande piccolo gratis senza registrazione',
-      'stampabile PDF gratis filigrana',
-      'prova gratuita licenza commerciale',
-      'generatore confronto dimensioni gratis online',
+      'grande e piccolo',
+      'confronto dimensioni',
+      'ordinamento',
+      'stampabile PDF',
+      'gratis online',
+      'senza registrazione',
     ],
-    titleTag: 'Confronto dimensioni gratis online | LessonCraftStudio',
-    metaDescription: 'Crea schede confronto dimensioni gratis online, senza registrazione. Cinque tipi di domanda, due modalità immagine. Licenza commerciale disponibile.',
+    titleTag: 'Grande e piccolo da stampare gratis | LessonCraftStudio',
+    metaDescription: 'Crea schede grande e piccolo da stampare gratis online, senza registrazione. Cinque tipi di domanda, due modalità immagine, PDF istantaneo. Prova subito.',
     },
 
   hero: {
-    title: 'Crea Schede Confronto Dimensioni Gratis',
+    title: 'Schede Grande e Piccolo da Stampare Gratis',
     tagline: 'Genera schede di confronto dimensioni con cinque tipi di domanda, due modalità immagine e output completamente visivo senza testo che si vende in tutto il mondo senza traduzione',
     description: 'Crea schede confronto dimensioni gratis direttamente nel browser, senza registrazione e senza installare nulla. Cinque tipi di domanda: Cerchia il Grande, Cerchia il Piccolo, Cerchia il Medio, Numera dal Piccolo al Grande e dal Grande al Piccolo. Due modalità immagine: Identiche (stessa immagine a dimensioni diverse) e Diverse (oggetti distinti a dimensioni diverse). Da 1 a 10 esercizi per pagina con 2 o 3 immagini ciascuno. Oltre 3.100 illustrazioni in 104 collezioni tematiche, chiave di risposta automatica inclusa. Esporta PDF e JPEG a 300 DPI in formato Letter, A4, Quadrato o personalizzato — tutto gratis con filigrana, istantaneamente. Ogni funzionalità è accessibile nella prova gratuita. Vuoi vendere le tue schede su Etsy, Amazon KDP o Gumroad? Passa alla licenza commerciale per rimuovere la filigrana e sbloccare l\'uso commerciale illimitato.',
   },

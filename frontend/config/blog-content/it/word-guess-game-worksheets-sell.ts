@@ -2,11 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'schede gioco indovina parola vendere',
-    secondaryKeywords: ['gioco indovina parola stampabili', 'schede hangman educative Etsy', 'puzzle indovina parola bambini'],
-    lsiKeywords: ['giochi lessicali stampabili', 'attività vocabolario bambini', 'schede gioco lettere vendere'],
-    titleTag: 'Gioco Indovina la Parola: Vendere Online | LCS',
-    metaDescription: 'Venda schede del gioco Indovina la Parola su Etsy. Una nicchia divertente e educativa per stampabili ad alto valore nel 2026.',
+    primaryKeyword: 'gioco indovina la parola da stampare bambini',
+    secondaryKeywords: [
+      'schede indovina parola scuola primaria PDF',
+      'gioco lessicale vocabolario bambini stampare',
+      'esercizi indovinare parole da stampare',
+      'attività linguistica indovina parola',
+    ],
+    lsiKeywords: [
+      'indovina',
+      'parola',
+      'lessico',
+      'vocabolario',
+      'gioco',
+      'linguistica',
+    ],
+    titleTag: 'Gioco Indovina la Parola da Stampare | LCS',
+    metaDescription: 'Gioco indovina la parola da stampare per bambini. Esercizi di lessico e vocabolario per scuola primaria con LessonCraftStudio — 33 generatori.',
   },
   hero: {
     title: 'Gioco Indovina la Parola: Come Vendere Online',

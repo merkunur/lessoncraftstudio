@@ -2,25 +2,26 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Compiti vacanze da vendere su Etsy | LessonCraftStudio',
-    metaDescription: 'Crea compiti delle vacanze stampabili da vendere su Etsy e KDP. Picco maggio-luglio, tradizione italiana fortissima — idee prodotto e strategie pratiche.',
-    primaryKeyword: 'compiti delle vacanze stampabili da vendere',
+    titleTag: 'Compiti delle vacanze da stampare | LCS',
+    metaDescription: 'Crea compiti delle vacanze da stampare: esercizi estivi di matematica, lettura e scrittura per mantenere le competenze durante le vacanze. Scuola primaria.',
+    primaryKeyword: 'compiti delle vacanze da stampare',
     secondaryKeywords: [
-      'schede esercizi estivi per venditori Etsy',
-      'stampabili compiti vacanze business',
-      'attività mantenimento competenze estate vendita',
-      'nicchia stampabili apprendimento estivo Italia',
-      'idee prodotto compiti vacanze stampabili KDP',
+      'esercizi estivi da stampare scuola primaria',
+      'schede compiti vacanze da stampare gratis',
+      'attività estate da stampare per bambini',
+      'quaderno vacanze stampabile per bambini',
     ],
     lsiKeywords: [
-      'quaderni vacanze stampabili vendita Etsy',
-      'stampabili prevenzione regressione estiva KDP',
-      'generatore schede compiti estivi business',
-      'prodotti digitali esercizi estate bambini',
+      'scuola primaria',
+      'matematica',
+      'lettura',
+      'scrittura',
+      'estate',
+      'vacanze',
     ],
   },
   hero: {
-    title: 'Compiti delle vacanze stampabili: picco maggio-luglio',
+    title: 'Compiti delle Vacanze da Stampare: Esercizi Estivi',
     description: 'I compiti delle vacanze sono una tradizione italiana fortissima: ogni anno i genitori acquistano quaderni di esercizi per l\'estate, con un picco concentrato tra maggio e luglio che genera entrate intense e prevedibili. La paura della regressione estiva trasforma l\'ansia dei genitori in un potente motivatore d\'acquisto — le famiglie cercano attivamente materiali strutturati per mantenere le competenze di matematica, lettura e scrittura durante la pausa scolastica. Il mercato copre ogni livello dalla scuola dell\'infanzia alla terza media, moltiplicando le opportunità di prodotto su Etsy, Amazon KDP e Gumroad. Le schede a tema estivo (spiaggia, gelati, campeggio) rendono la pratica accademica divertente, aumentando la probabilità che i bambini le completino. Centri estivi e programmi comunitari aggiungono un segmento istituzionale. In questa guida trovi idee concrete, strategie per piattaforma e approcci per costruire una linea stagionale redditizia di compiti delle vacanze.',
   },
   marketOverview: `Il mercato dei stampabili per l\'apprendimento estivo rappresenta una nicchia stagionale redditizia guidata dalla diffusa preoccupazione dei genitori riguardo alla regressione estiva, il fenomeno ben documentato in cui gli utenti perdono competenze accademiche durante la pausa prolungata dall\'istruzione formale online. La ricerca mostra costantemente che gli utenti possono perdere da uno a tre mesi di apprendimento durante la pausa estiva, con le competenze matematiche particolarmente vulnerabili alla regressione, e questa consapevolezza è penetrata nella coscienza genitoriale mainstream al punto che la prevenzione della perdita di apprendimento estiva è diventata un significativo motivatore d\'acquisto per le famiglie di tutti i livelli socioeconomici. I genitori iniziano a cercare materiali per l\'apprendimento estivo già ad aprile, con l\'attività di acquisto che si intensifica tra maggio e giugno quando l\'anno scolastico si conclude e le famiglie si confrontano con la realtà di due o tre mesi senza impegno accademico strutturato. Questo modello di acquisto prevedibile permette ai venditori di preparare le linee di prodotti con largo anticipo, ottimizzare le inserzioni per i termini di ricerca stagionali e catturare l\'ondata di domanda che arriva in modo affidabile ogni anno nello stesso intervallo di calendario.

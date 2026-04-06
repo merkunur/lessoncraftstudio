@@ -2,26 +2,28 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'schede riconoscimento pattern gratis',
+    primaryKeyword: 'schede sequenze logiche da stampare gratis',
     secondaryKeywords: [
-      'schede sequenze pattern gratis online senza registrazione',
-      'generatore schede completamento sequenze gratis PDF',
-      'schede riconoscimento schemi gratis stampabile',
-      'creare schede pattern gratis bambini',
-      'schede sequenze AB ABC ABCD gratis prova gratuita',
+      'schede completa la sequenza gratis online',
+      'sequenze logiche da stampare gratis PDF',
+      'riconoscimento schemi gratis senza registrazione',
+      'esercizi sequenze AB ABC ABCD gratis',
+      'schede pattern gratis online da stampare',
     ],
     lsiKeywords: [
-      'schede pattern gratis senza registrazione',
-      'stampabile PDF gratis filigrana',
-      'prova gratuita licenza commerciale',
-      'generatore sequenze griglia gratis online',
+      'sequenze logiche',
+      'riconoscimento schemi',
+      'completa la sequenza',
+      'pattern',
+      'stampabile PDF',
+      'gratis online',
     ],
-    titleTag: 'Riconoscimento pattern gratis | LessonCraftStudio',
-    metaDescription: 'Crea schede pattern gratis online, senza registrazione. Nove tipi di schema, due modalità domanda, risposte automatiche. Licenza commerciale disponibile.',
+    titleTag: 'Sequenze logiche da stampare gratis | LessonCraftStudio',
+    metaDescription: 'Crea schede di sequenze logiche da stampare gratis online, senza registrazione. Nove tipi di schema, due modalità domanda, risposte automatiche. Prova subito.',
   },
 
   hero: {
-    title: 'Crea Schede Pattern e Sequenze Gratis',
+    title: 'Schede Sequenze Logiche da Stampare Gratis',
     tagline: 'Genera schede di riconoscimento degli schemi con layout a griglia, nove tipi di schema, due modalità di domanda, configurazione indipendente per esercizio e output completamente visivo senza testo che si vende in tutto il mondo senza traduzione',
     description: 'Crea schede riconoscimento pattern gratis direttamente nel browser, senza registrazione e senza installare nulla. Nove tipi di schema (AB, AAB, ABB, ABC, AABB, ABBC, AABC, ABCC, ABCD) con due modalità di domanda: Casella Vuota e Scelta tra Opzioni. Configura da 1 a 8 esercizi per pagina, ciascuno impostabile indipendentemente per tipo, modalità e tema. Oltre 3.100 illustrazioni in 104 collezioni tematiche, chiave di risposta automatica inclusa. Esporta PDF e JPEG a 300 DPI in formato Letter, A4, Quadrato o personalizzato — tutto gratis con filigrana, istantaneamente. Ogni funzionalità è accessibile nella prova gratuita senza limiti. Vuoi vendere le tue schede su Etsy, Amazon KDP o Gumroad? Passa alla licenza commerciale per rimuovere la filigrana e sbloccare l\'uso commerciale illimitato.',
   },

@@ -2,24 +2,27 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'schede di sequenze per business di stampabili',
+    primaryKeyword: 'schede sequenze da stampare',
     secondaryKeywords: [
-      'creare schede treno dei pattern da vendere su Etsy',
-      'generatore schede sequenze ripetitive per Amazon KDP',
-      'vendere schede riconoscimento pattern su Etsy Italia',
-      'schede treno sequenze licenza commerciale stampabili',
+      'sequenze logiche schede',
+      'completare la sequenza esercizio',
+      'ritmi e sequenze infanzia',
+      'schede sequenze scuola infanzia',
     ],
     lsiKeywords: [
-      'prodotti digitali schede sequenze mercato italiano',
-      'nicchia schede pattern per venditori Etsy e KDP',
-      'stampabili treno dei modelli uso commerciale',
+      'AB',
+      'ABC',
+      'ripetere',
+      'continuare',
+      'sequenza',
+      'schema',
     ],
-    titleTag: 'Schede Sequenze per Business Stampabili | Crea e Vendi',
-    metaDescription: 'Crea schede treno delle sequenze da vendere su Etsy e KDP. 5 tipi di pattern, vagoni tematici, indizi regolabili. Licenza commerciale. 49 $ pagamento unico.',
+    titleTag: 'Schede sequenze da stampare | Generatore di sequenze logiche',
+    metaDescription: 'Create schede di sequenze logiche con schemi AB, ABC, ABCD e immagini tematiche. Soluzioni automatiche. Prova gratis — vendete su Etsy e KDP.',
   },
 
   hero: {
-    title: 'Schede di Sequenze per il Tuo Business di Stampabili',
+    title: 'Schede sequenze da stampare — Generatore di sequenze logiche',
     tagline: 'Cinque tipi di pattern — AB, AAB, ABB, ABC, AABB — presentati in 11 vagoni tematici con numero di indizi regolabile da 4 a 10 per un controllo preciso della difficoltà.',
     description:
       'Le schede di sequenze in formato treno sono un prodotto di nicchia con altissimo potenziale su Etsy e Amazon KDP, e il mercato italiano è ancora completamente libero. Con questo generatore crei schede professionali dove 11 vagoni tematici presentano sequenze ripetitive — cinque tipi di pattern (AB, AAB, ABB, ABC, AABB) coprono tutti i livelli di difficoltà. Un vagone resta vuoto e gli utenti devono identificare l\'elemento mancante. Regola gli indizi da 4 a 10 per controllare la complessità: pochi indizi richiedono vero ragionamento logico. La libreria integrata offre oltre 3100 illustrazioni in 104 temi. Ogni scheda include un foglio risposte automatico e l\'output è puramente visivo — nessun testo, vendibile in tutto il mondo senza traduzione. Esporta PDF e JPEG in alta risoluzione nei formati A4, Lettera, Quadrato o personalizzato. Crea pacchetti tematici di sequenze per Etsy, compila quaderni di logica per KDP, o vendi su Eduki e Edudoro con la licenza commerciale inclusa. Prova gratis con tutte le funzionalità, senza registrazione. I download includono una filigrana; acquista una licenza per rimuoverla.',

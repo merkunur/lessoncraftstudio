@@ -2,11 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'creare libro attività KDP dall\'inizio',
-    secondaryKeywords: ['come creare stampabili vendere', 'guida pratica stampabili business', 'tutorial stampabili educativi'],
-    lsiKeywords: ['creazione stampabili professionali', 'workflow produzione schede', 'ottimizzazione vendita stampabili'],
-    titleTag: 'Creare Libro Attività KDP: Da Zero | LCS',
-    metaDescription: 'Guida completa per creare un libro di attività per bambini su Amazon KDP. Dall\'ideazione alla pubblicazione.',
+    primaryKeyword: 'creare libro attività bambini da stampare',
+    secondaryKeywords: [
+      'come fare libro esercizi bambini PDF',
+      'creare quaderno attività prescuola',
+      'libro attività didattiche fai da te',
+      'realizzare libro giochi bambini stampabile',
+    ],
+    lsiKeywords: [
+      'libro attività',
+      'quaderno',
+      'raccolta',
+      'bambini',
+      'esercizi',
+      'giochi',
+    ],
+    titleTag: 'Creare Libro Attività Bambini da Stampare | LCS',
+    metaDescription: 'Come creare un libro di attività per bambini da stampare. Guida completa alla realizzazione con LessonCraftStudio — 33 generatori, 11 lingue.',
   },
   hero: {
     title: 'Come Creare un Libro di Attività KDP dall\'Inizio alla Fine',

@@ -2,26 +2,26 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'aspetti legali business stampabili Italia',
+    primaryKeyword: 'aspetti legali vendita stampabili Italia',
     secondaryKeywords: [
-      'partita IVA vendita stampabili online Italia',
-      'regime forfettario venditori prodotti digitali',
-      'IVA 22% download digitali obblighi fiscali',
-      'fatturazione elettronica vendita stampabili Etsy',
-      'proprietà intellettuale schede stampabili tutela',
+      'partita IVA per vendere stampabili online',
+      'regime forfettario vendita prodotti digitali',
+      'obblighi fiscali vendita download digitali',
+      'fatturazione elettronica venditori stampabili',
     ],
     lsiKeywords: [
-      'prestazione occasionale sotto 5000 euro',
-      'commercialista per venditori digitali',
-      'spese deducibili attività stampabili Italia',
-      'conformità termini servizio piattaforma',
+      'partita IVA',
+      'regime forfettario',
+      'IVA',
+      'fatturazione',
+      'proprietà intellettuale',
     ],
-    titleTag: 'Business stampabili: aspetti legali IT | LessonCraftStudio',
-    metaDescription: 'Aspetti legali per venditori di stampabili in Italia: partita IVA, regime forfettario, IVA al 22%, fatturazione elettronica e tutela IP.',
+    titleTag: 'Aspetti legali vendita stampabili in Italia | LCS',
+    metaDescription: 'Aspetti legali per vendere stampabili in Italia: partita IVA, regime forfettario, IVA al 22%, fatturazione elettronica e tutela della proprietà intellettuale.',
   },
 
   hero: {
-    title: 'Aspetti Legali e Fiscali del Business Stampabili in Italia',
+    title: 'Aspetti Legali per Vendere Stampabili in Italia',
     tagline: 'Informazioni fiscali e legali essenziali per venditori di stampabili — struttura aziendale, obblighi fiscali per beni digitali, spese deducibili, proprietà intellettuale, conformità piattaforma e quando rivolgersi a un professionista',
     description: 'Vendere stampabili in Italia comporta obblighi specifici: partita IVA obbligatoria sopra i 5.000 euro annui di prestazione occasionale, regime forfettario con soglia a 85.000 euro e aliquote del 5% o 15%, IVA al 22% sui prodotti digitali e fatturazione elettronica obbligatoria. Questa guida copre il quadro normativo italiano per venditori di prodotti digitali su Etsy, Amazon KDP e Gumroad: struttura aziendale, spese deducibili, proprietà intellettuale e conformità alle piattaforme. Attenzione: queste sono informazioni educative generali, non consulenza fiscale o legale. Si raccomanda di consultare un commercialista qualificato per la propria situazione specifica.',
   },

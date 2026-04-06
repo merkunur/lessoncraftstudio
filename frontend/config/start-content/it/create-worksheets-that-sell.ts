@@ -2,26 +2,26 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'creare schede che si vendono',
+    primaryKeyword: 'come creare schede didattiche professionali',
     secondaryKeywords: [
-      'creare schede professionali per Etsy',
-      'design schede stampabili che convertono',
-      'qualità professionale schede didattiche vendita',
-      'generatore schede con chiavi di risposta automatiche',
+      'creare schede stampabili di qualità',
+      'guida creazione schede didattiche PDF',
+      'generatore schede con chiavi di risposta',
+      'come fare schede educative da stampare',
     ],
     lsiKeywords: [
-      'layout professionale schede PDF',
-      'bundle schede didattiche per marketplace',
-      'immagini tematiche 300 DPI',
-      'flusso di lavoro produzione stampabili veloce',
-      'schede pronte per la stampa vendere online',
+      'schede didattiche',
+      'PDF',
+      'generatore',
+      'chiavi di risposta',
+      'layout professionale',
     ],
-    titleTag: 'Creare schede che si vendono | LessonCraftStudio',
-    metaDescription: 'Come creare schede didattiche professionali che si vendono su Etsy e KDP. Layout, chiavi di risposta, bundle e test qualità. Prova gratuita con filigrana.',
+    titleTag: 'Come creare schede didattiche professionali | LCS',
+    metaDescription: 'Come creare schede didattiche professionali da stampare: layout, chiavi di risposta automatiche, immagini tematiche e bundle. Guida pratica completa.',
   },
 
   hero: {
-    title: 'Creare Schede Professionali Che Si Vendono Davvero',
+    title: 'Come Creare Schede Didattiche Professionali',
     tagline: 'Il manuale di creazione prodotti che separa le schede scelte dagli acquirenti da quelle che vengono ignorate',
     description: 'La differenza tra una scheda che vende e una che viene ignorata sta nella qualità percepita: layout coerente, chiavi di risposta accurate, immagini tematiche ad alta risoluzione e formattazione professionale per la stampa. Questa guida ti mostra come creare schede che superano gli standard degli acquirenti su Etsy.it e Amazon.it, usando generatori automatici che eliminano le barriere di design. Imparerai a costruire bundle che massimizzano il fatturato, testare i prodotti prima della pubblicazione e stabilire un flusso di lavoro efficiente. Ogni generatore offre una prova gratuita con filigrana per valutare l\'output.',
   },

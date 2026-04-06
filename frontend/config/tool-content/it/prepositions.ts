@@ -2,28 +2,28 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'generatore schede preposizioni gratis',
+    primaryKeyword: 'concetti topologici da stampare gratis',
     secondaryKeywords: [
-      'creare schede preposizioni gratis online',
-      'schede preposizioni stampabili gratis',
-      'generatore preposizioni senza registrazione',
-      'schede preposizioni spaziali gratis PDF',
-      'generatore attività preposizioni gratuito online',
+      'schede preposizioni da stampare gratis',
+      'concetti topologici gratis online PDF',
+      'schede sopra sotto davanti dietro gratis senza registrazione',
+      'esercizi concetti spaziali da stampare gratis',
+      'schede preposizioni spaziali gratis online',
     ],
     lsiKeywords: [
-      'gratis',
-      'senza registrazione',
-      'stampabile',
-      'PDF',
-      'filigrana',
-      'prova gratuita',
+      'concetti topologici',
+      'preposizioni spaziali',
+      'sopra sotto dentro fuori',
+      'orientamento',
+      'stampabile PDF',
+      'gratis online',
     ],
-    titleTag: 'Schede preposizioni gratis online | LessonCraftStudio',
-    metaDescription: 'Crea schede preposizioni gratis online, senza registrazione. Riempimento spazi e scelta multipla, 104 temi, 11 lingue. Licenza commerciale disponibile.',
+    titleTag: 'Concetti topologici da stampare gratis | LessonCraftStudio',
+    metaDescription: 'Crea schede sui concetti topologici da stampare gratis online, senza registrazione. Sopra, sotto, dentro, fuori in 11 lingue, 104 temi. Prova subito.',
   },
 
   hero: {
-    title: 'Crea Schede Preposizioni Gratis Online',
+    title: 'Concetti Topologici da Stampare Gratis Online',
     tagline: 'Crea schede sulle preposizioni spaziali con due modalità di esercizio in 11 lingue',
     description: 'Crea schede preposizioni gratis, direttamente nel browser, senza registrazione e senza installare nulla. Gli utenti identificano relazioni spaziali — su, sotto, sopra, accanto, tra, dentro, fuori — osservando scene illustrate. Scegli tra Riempimento Spazi Vuoti e Scelta Multipla, imposta da 1 a 8 esercizi per scheda e seleziona quali preposizioni includere. La Sostituzione Forme ti permette di cambiare le immagini della scena indipendentemente, moltiplicando le combinazioni visive. La sensibilità linguistica è integrata: passa tra 11 lingue e ogni preposizione si aggiorna al suo equivalente nativo — un design diventa 11 prodotti linguistici. Sfoglia 104 temi con oltre 3.100 illustrazioni. Esporta PDF e JPEG a 300 DPI — la prova gratuita include tutte le funzionalità con una filigrana sui download. Vuoi vendere le tue schede su Etsy o Amazon KDP? Passa alla licenza commerciale per rimuovere la filigrana e ottenere i diritti di rivendita completi.',
   },

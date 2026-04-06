@@ -2,11 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'stampabili pause attive insegnanti',
-    secondaryKeywords: ['stampabili tematici vendere Etsy Italia', 'nicchia stampabili educativi mercato', 'schede tematiche stagionali vendere'],
-    lsiKeywords: ['stampabili educativi nicchia', 'mercato stagionale stampabili', 'Etsy Italia schede tematiche'],
-    titleTag: 'Stampabili Pause Attive: Insegnanti | LCS',
-    metaDescription: 'Venda stampabili per le pause attive scolastiche. Attività brevi e divertenti che gli insegnanti adorano.',
+    primaryKeyword: 'attività brevi da stampare per la classe',
+    secondaryKeywords: [
+      'giochi veloci scuola primaria da stampare',
+      'pause attive classe da stampare',
+      'attività ricreative scuola PDF',
+      'esercizi brevi intervallo scuola',
+    ],
+    lsiKeywords: [
+      'pausa',
+      'intervallo',
+      'gioco veloce',
+      'classe',
+      'ricreazione',
+      'concentrazione',
+    ],
+    titleTag: 'Attività Brevi da Stampare per la Classe | LCS',
+    metaDescription: 'Attività brevi e giochi veloci da stampare per pause in classe. Esercizi ricreativi per la scuola primaria con LessonCraftStudio — 33 generatori.',
   },
   hero: {
     title: 'Stampabili per le Pause Attive in Classe',

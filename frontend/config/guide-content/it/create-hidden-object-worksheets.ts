@@ -2,26 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'creare cerca e trova da vendere',
+    primaryKeyword: 'come creare schede cerca e trova da stampare',
     secondaryKeywords: [
-      'schede cerca e trova stampabili per Etsy e KDP',
-      'generatore oggetti nascosti uso commerciale',
-      'vendere libri cerca e trova per bambini',
-      'creare scene oggetti nascosti con licenza commerciale',
-      'schede trova l\'intruso da vendere su Gumroad',
+      'generatore cerca e trova per bambini PDF',
+      'creare schede oggetti nascosti da stampare',
+      'giochi cerca e trova da stampare con soluzioni',
+      'attività discriminazione visiva da stampare',
     ],
     lsiKeywords: [
-      'scene oggetti nascosti con canvas a mano libera',
-      'prodotti stampabili cerca e trova per venditori',
-      'schede discriminazione visiva indipendenti dalla lingua',
-      'due modalità gioco per catalogo diversificato',
+      'cerca e trova bambini',
+      'oggetti nascosti da stampare',
+      'discriminazione visiva',
+      'scene tematiche',
+      'chiavi di risposta automatiche',
     ],
-    titleTag: 'Cerca e trova da vendere online | LessonCraftStudio',
-    metaDescription: 'Crea schede cerca e trova con 2 modalità di gioco, scene tematiche e chiavi di risposta automatiche. Vendi prodotti stampabili su Etsy, KDP e Gumroad.',
+    titleTag: 'Creare schede cerca e trova da stampare | Guida',
+    metaDescription: 'Come creare schede cerca e trova da stampare con 2 modalità di gioco, scene tematiche e chiavi di risposta automatiche. Tutorial passo passo.',
   },
 
   hero: {
-    title: 'Cerca e trova da vendere: guida alla creazione',
+    title: 'Come creare schede cerca e trova da stampare',
     tagline: 'Tutorial passo passo per creare schede Cerca e Trova e Trova l\'Intruso con scene tematiche — pronte per la vendita su Etsy, Amazon KDP e Gumroad',
     description: 'Le schede cerca e trova sono tra i prodotti stampabili più coinvolgenti e ad alto tasso di conversione su ogni marketplace. Il loro grande vantaggio competitivo è la natura completamente visiva: nessun testo da tradurre, nessuna barriera linguistica. Un prodotto creato in una sessione si vende identicamente in ogni paese del mondo. Il mercato italiano dei libri di attività per bambini è in crescita, e le schede cerca e trova rispondono perfettamente alla domanda di attività che sviluppano attenzione e discriminazione visiva. Il Generatore Trova Oggetti offre due modalità distinte — Cerca e Trova per localizzare oggetti specifici in scene ricche, e Trova l\'Intruso per identificare l\'immagine senza coppia. Ogni modalità crea una linea di prodotti separata. Il canvas a mano libera ti dà il controllo creativo completo per costruire scene con genuina complessità visiva. Questa guida ti mostra ogni passaggio dalla costruzione delle scene all\'esportazione di file pronti per la stampa con chiavi di risposta automatiche. Che tu stia lanciando il tuo primo prodotto o espandendo un catalogo esistente, avrai schede finite pronte per la pubblicazione.',
   },

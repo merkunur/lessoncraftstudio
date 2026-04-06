@@ -2,11 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'stampabili tema oceano mare vendere',
-    secondaryKeywords: ['stampabili tematici vendere Etsy Italia', 'nicchia stampabili educativi mercato', 'schede tematiche stagionali vendere'],
-    lsiKeywords: ['stampabili educativi nicchia', 'mercato stagionale stampabili', 'Etsy Italia schede tematiche'],
-    titleTag: 'Stampabili Tema Oceano: Vendere | LCS',
-    metaDescription: 'Venda stampabili a tema mare e oceano. Pesci, stelle marine e creature sottomarine per attività educative.',
+    primaryKeyword: 'schede didattiche mare oceano da stampare',
+    secondaryKeywords: [
+      'attività tema marino bambini da stampare',
+      'schede pesci oceano scuola infanzia PDF',
+      'esercizi creature marine da stampare',
+      'colorare animali marini bambini stampare',
+    ],
+    lsiKeywords: [
+      'mare',
+      'oceano',
+      'pesci',
+      'balena',
+      'delfino',
+      'stella marina',
+    ],
+    titleTag: 'Schede Didattiche Mare e Oceano da Stampare | LCS',
+    metaDescription: 'Schede didattiche a tema mare e oceano da stampare per bambini. Pesci, balene, delfini e creature marine con LessonCraftStudio — 33 generatori, 11 lingue.',
   },
   hero: {
     title: 'Stampabili a Tema Oceano e Mare: Come Vendere',

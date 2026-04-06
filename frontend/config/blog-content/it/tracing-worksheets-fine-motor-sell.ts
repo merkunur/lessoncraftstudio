@@ -2,11 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'schede ricalco motricità fine vendere',
-    secondaryKeywords: ['schede tracing bambini Etsy', 'stampabili ricalco motricità vendere', 'attività motricità fine stampabili'],
-    lsiKeywords: ['pregrafismo motricità fine', 'schede seguire linee bambini', 'coordinazione occhio-mano stampabili'],
-    titleTag: 'Schede Ricalco e Motricità Fine: Vendere | LCS',
-    metaDescription: 'Venda schede di ricalco per la motricità fine su Etsy. Scopra strategie e prezzi per questa nicchia educativa in crescita.',
+    primaryKeyword: 'schede ricalco pregrafismo da stampare bambini',
+    secondaryKeywords: [
+      'esercizi tracciare linee prescuola da stampare',
+      'schede pregrafismo 4-5 anni PDF',
+      'attività ricalco lettere numeri stampare',
+      'fogli pregrafismo scuola infanzia stampabili',
+    ],
+    lsiKeywords: [
+      'ricalco',
+      'pregrafismo',
+      'tracciare',
+      'linee',
+      'motricità fine',
+      'prescuola',
+    ],
+    titleTag: 'Schede Ricalco e Pregrafismo da Stampare | LCS',
+    metaDescription: 'Schede di ricalco e pregrafismo da stampare per bambini 4-5 anni. Esercizi di motricità fine e tracciamento con LessonCraftStudio — 33 generatori.',
   },
   hero: {
     title: 'Schede di Ricalco per la Motricità Fine: Come Vendere',

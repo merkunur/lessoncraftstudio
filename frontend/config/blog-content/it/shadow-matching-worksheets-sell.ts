@@ -2,11 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'schede abbinamento ombre vendere',
-    secondaryKeywords: ['schede ombre stampabili Etsy', 'puzzle abbinamento silhouette bambini', 'business schede ombre educative'],
-    lsiKeywords: ['attività riconoscimento forme', 'schede silhouette prescuola', 'giochi ombre educativi'],
-    titleTag: 'Schede Abbinamento Ombre: Vendere Online | LCS',
-    metaDescription: 'Venda schede di abbinamento ombre su Etsy. Scopra perché questa nicchia educativa è perfetta per bambini piccoli.',
+    primaryKeyword: 'schede abbina l\'ombra da stampare bambini',
+    secondaryKeywords: [
+      'esercizi abbinamento ombre scuola infanzia PDF',
+      'schede silhouette ombra prescuola stampare',
+      'attività riconoscimento ombre bambini',
+      'gioco abbina ombra da stampare',
+    ],
+    lsiKeywords: [
+      'ombra',
+      'silhouette',
+      'abbinamento',
+      'riconoscimento',
+      'prescuola',
+      'visivo',
+    ],
+    titleTag: 'Schede Abbina l\'Ombra da Stampare | LCS',
+    metaDescription: 'Schede di abbinamento ombre da stampare per bambini piccoli. Esercizi di riconoscimento visivo per la prescuola con LessonCraftStudio — 33 generatori.',
   },
   hero: {
     title: 'Schede Abbinamento Ombre: Come Vendere Online',

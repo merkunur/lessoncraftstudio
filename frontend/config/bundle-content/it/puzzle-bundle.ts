@@ -2,26 +2,26 @@ import type { BundleContent } from '../types';
 
 const content: BundleContent = {
   seo: {
-    primaryKeyword: 'pacchetto puzzle logici per libri KDP',
+    primaryKeyword: 'generatori puzzle logici da stampare',
     secondaryKeywords: [
-      'bundle generatori puzzle visivi licenza commerciale',
-      'toolkit schede logica per venditori Etsy e KDP',
-      'creare libri puzzle per bambini Amazon KDP',
-      'pacchetto 4 generatori puzzle senza testo universali',
-      'schede ragionamento spaziale e deduzione da vendere',
+      'pacchetto generatori puzzle per bambini',
+      'creare schede logica e ragionamento stampabili',
+      'generatore sudoku e labirinti da stampare',
+      'kit puzzle visivi scuola primaria',
     ],
     lsiKeywords: [
-      'pezzi mancanti trova intruso sudoku labirinti',
-      'puzzle visivi vendibili in qualsiasi lingua',
-      'chiavi di risposta automatiche 100% copertura',
-      'categoria puzzle in crescita su Etsy e Amazon',
+      'puzzle logici',
+      'labirinti',
+      'sudoku',
+      'trova l\'intruso',
+      'schede da stampare',
     ],
-    titleTag: 'Pacchetto puzzle logici per KDP | LessonCraftStudio',
-    metaDescription: 'Pacchetto con 4 generatori puzzle visivi: pezzi mancanti, trova l\'intruso, sudoku immagini e labirinti. Per libri KDP e Etsy. 149 $ pagamento unico.',
+    titleTag: 'Generatori puzzle logici da stampare | LCS',
+    metaDescription: 'Pacchetto con 4 generatori puzzle logici da stampare: pezzi mancanti, trova l\'intruso, sudoku con immagini e labirinti. Schede visive per bambini.',
   },
 
   hero: {
-    title: 'Pacchetto Puzzle Logici: 4 Generatori per KDP e Etsy',
+    title: 'Pacchetto Puzzle Logici: 4 Generatori da Stampare',
     tagline: 'Quattro generatori di puzzle esclusivamente visivi — ragionamento spaziale, deduzione logica e problem solving in ogni scheda',
     description: 'Il Pacchetto Puzzle e Logica è l\'unico pacchetto in cui ogni singola app produce schede esclusivamente visive. Nessun testo, nessuna dipendenza linguistica, nessuna traduzione necessaria — ogni scheda funziona in qualsiasi paese, qualsiasi lingua, qualsiasi mercato. Questo pacchetto combina quattro generatori di puzzle specializzati che mirano a competenze cognitive di ordine superiore: ragionamento spaziale con i puzzle a griglia Pezzi Mancanti, discriminazione visiva con le sfide Trova l\'Intruso, deduzione logica con il Sudoku con Immagini 4x4 e problem solving con i labirinti Percorso di Immagini. Tutti e quattro i generatori producono chiavi di risposta automatiche — l\'unico pacchetto con copertura del 100% delle chiavi di risposta su ogni app. Ogni generatore produce file PDF pronti per la stampa e JPEG ad alta risoluzione con impostazioni di difficoltà configurabili e librerie di immagini tematiche. La categoria schede puzzle e logica è uno dei segmenti in più rapida crescita su Etsy e Amazon KDP perché queste attività attraggono una fascia d\'età più ampia rispetto alle schede di competenze base — dalla scuola dell\'infanzia alla terza elementare e oltre. Pezzi Mancanti divide le immagini in segmenti di griglia e rimuove alcuni pezzi che gli utenti devono identificare. Trova l\'Intruso presenta righe di immagini in cui un elemento differisce dagli altri. Sudoku con Immagini usa una griglia 4x4 con immagini tematiche al posto dei numeri, rendendo il negozico Sudoku accessibile ai bambini piccoli che non sanno ancora lavorare con le cifre. Percorso di Immagini offre tre modalità distinte di labirinto: navigazione del percorso, labirinto negozico e scegli-il-percorso-giusto. Scegli tra oltre 100 set di immagini tematiche o carica i tuoi file PNG e JPEG per prodotti personalizzati e specifici per la tua nicchia. Che tu venda libri di puzzle su Amazon KDP, pubblichi pacchetti di attività su Etsy o crei pacchetti di logica per Gumroad, questo pacchetto ti offre quattro tipi di puzzle distinti che gli acquirenti cercano individualmente. Ogni generatore include una prova gratuita con filigrana così puoi testare ogni funzionalità prima di acquistare una licenza.',
   },

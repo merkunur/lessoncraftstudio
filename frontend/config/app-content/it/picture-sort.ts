@@ -2,29 +2,25 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'schede di classificazione per business su Etsy',
+    primaryKeyword: 'schede classificazione da stampare',
     secondaryKeywords: [
-      'creare schede classificazione immagini per negozio Etsy',
-      'generatore attività di ordinamento per quaderni Amazon KDP',
-      'schede classificazione stampabili licenza commerciale',
-      'vendere attività di classificazione su Eduki',
-      'business stampabili schede ordinamento immagini',
+      'classificare e raggruppare scheda',
+      'categorizzare immagini esercizio',
+      'ordinare e classificare schede',
+      'attivita di classificazione infanzia',
     ],
     lsiKeywords: [
-      'licenza commerciale',
-      '300 DPI',
-      'pronto per la stampa',
-      'classificazione immagini',
-      'ordinamento categorie',
-      'business di stampabili',
-      'foglio risposte automatico',
+      'classificare',
+      'raggruppare',
+      'ordinare',
+      'categorizzare',
     ],
-    titleTag: 'Schede di classificazione da vendere su Etsy | LCS',
-    metaDescription: 'Crea schede di classificazione immagini da vendere su Etsy e KDP. Due categorie, risposte automatiche, licenza commerciale. 49 $ pagamento unico.',
+    titleTag: 'Schede classificazione da stampare | Generatore di categorie',
+    metaDescription: 'Create schede di classificazione e categorizzazione con immagini tematiche. Soluzioni automatiche, PDF stampabili. Prova gratis.',
   },
 
   hero: {
-    title: 'Genera schede di classificazione da vendere su Etsy e KDP',
+    title: 'Schede classificazione da stampare — Generatore di categorie',
     tagline: 'negozificazione a due categorie in un unico generatore potente — modalità tema o selezione manuale delle immagini — con fogli risposte autogenerati, da 4 a 12 immagini configurabili, intestazione localizzata \"negozificazione Immagini\" in 11 lingue e 104 collezioni di immagini tematiche.',
     description:
       'Le schede di classificazione a due categorie sono un formato di prodotto stampabile molto richiesto su Etsy, perfetto per quaderni di attività su Amazon KDP. Il mercato italiano è ancora un oceano blu con pochissima concorrenza, offrendoti un vantaggio significativo. Questo generatore crea schede professionali dove gli utenti ritagliano immagini e le collocano nella categoria corretta. La modalità tema popola automaticamente le categorie dalla libreria immagini, mentre la modalità manuale ti dà il controllo completo. Il foglio risposte viene generato automaticamente con immagini organizzate nei riquadri corretti. Le etichette di categoria sono localizzate in 11 lingue, permettendoti di moltiplicare il catalogo per i mercati internazionali con un clic. Scegli tra 104 temi con oltre 3100 illustrazioni ed esporta PDF a 300 DPI nei formati Letter, A4 o personalizzati per Etsy, KDP ed Eduki. L\'Accesso Completo include la licenza commerciale. Prova gratis con tutte le funzionalità — senza registrazione, senza carta di credito. I download includono una filigrana; acquista una licenza per rimuoverla.',

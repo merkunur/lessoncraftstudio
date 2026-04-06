@@ -2,25 +2,26 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Stampabili animali marini — Business | LessonCraftStudio',
-    metaDescription: 'Avvia un business di stampabili animali marini: idee di prodotto, nicchie redditizie e strumenti per creare e vendere schede a tema oceano su Etsy e KDP.',
-
-    primaryKeyword: 'stampabili animali marini idee business',
+    titleTag: 'Schede animali marini da stampare | LCS',
+    metaDescription: 'Crea schede sugli animali marini da stampare: colorare pesci e delfini, conteggio creature marine, crucipuzzle oceano e abbinamento per bambini 3-8 anni.',
+    primaryKeyword: 'schede animali marini da stampare',
     secondaryKeywords: [
-      'vendere stampabili oceano su Etsy',
-      'schede animali marini per business digitale',
-      'creare stampabili vita marina KDP',
-      'nicchia stampabili creature del mare',
-      'idee prodotto stampabili mondo sottomarino',
+      'attività oceano da stampare per bambini',
+      'stampabili animali del mare da colorare',
+      'schede didattiche vita marina scuola primaria',
+      'giochi tema oceano da stampare gratis',
     ],
     lsiKeywords: [
-      'business stampabili educativi tema oceano',
-      'generatore schede animali marini',
-      'mercato stampabili vita marina Italia',
+      'scuola primaria',
+      'colorare',
+      'pesci',
+      'delfini',
+      'oceano',
+      'estate',
     ],
   },
   hero: {
-    title: 'Stampabili Animali Marini: Opportunità di Business Online',
+    title: 'Schede Animali Marini da Stampare: Idee Creative',
     description: 'Gli animali marini rappresentano una nicchia versatile e visivamente ricca nel mercato dei stampabili educativi, con un forte picco estivo che in Italia coincide con le lunghe vacanze scolastiche da giugno a settembre. Le famiglie italiane, con i loro stretti legami con il mare Mediterraneo, cercano attivamente schede a tema oceanico per intrattenere e istruire i bambini durante i mesi estivi. Per chi vuole avviare un business di stampabili digitali, la nicchia marina offre domanda costante tutto l\'anno grazie al suo legame con i programmi di scienze, più un potente picco stagionale durante l\'estate. Utilizzando i nostri generatori di schede, puoi creare prodotti a tema oceano da vendere su Etsy, Amazon KDP e Gumroad, differenziandoti con creature marine diverse e obiettivi educativi mirati per costruire una linea di prodotti redditizia.',
   },
   marketOverview: `La nicchia dei stampabili sugli animali dell\'oceano beneficia di una combinazione unica di rilevanza educativa, attrattiva visiva e fascino emotivo che pochi altri temi possono eguagliare. I bambini sono naturalmente attratti dalle creature marine per le loro forme esotiche, i colori vivaci e il mistero degli ambienti sottomarini. Questo interesse intrinseco significa che genitori e venditori non hanno bisogno di convincere utenti riluttanti a impegnarsi con materiali a tema oceanico, il che si traduce direttamente in recensioni positive e acquisti ripetuti per i venditori che offrono prodotti di qualità.

@@ -2,11 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'fotografia prodotto stampabili mockup guida',
-    secondaryKeywords: ['come creare stampabili vendere', 'guida pratica stampabili business', 'tutorial stampabili educativi'],
-    lsiKeywords: ['creazione stampabili professionali', 'workflow produzione schede', 'ottimizzazione vendita stampabili'],
-    titleTag: 'Fotografia Prodotto Stampabili: Mockup | LCS',
-    metaDescription: 'Crei foto prodotto professionali per i Suoi stampabili. Mockup, ambientazioni e stili che aumentano le vendite.',
+    primaryKeyword: 'fotografia prodotto materiale educativo stampabile',
+    secondaryKeywords: [
+      'come fotografare schede didattiche per Etsy',
+      'foto inserzione materiale scolastico',
+      'immagini prodotto schede stampabili',
+      'presentare schede didattiche visivamente',
+    ],
+    lsiKeywords: [
+      'fotografia',
+      'prodotto',
+      'inserzione',
+      'immagini',
+      'ambientazione',
+      'professionale',
+    ],
+    titleTag: 'Fotografia Prodotto Materiale Educativo | LCS',
+    metaDescription: 'Come fotografare materiale educativo stampabile per le inserzioni. Tecniche e ambientazioni con LessonCraftStudio — 33 generatori, 11 lingue.',
   },
   hero: {
     title: 'Fotografia Prodotto per Stampabili: Guida ai Mockup',

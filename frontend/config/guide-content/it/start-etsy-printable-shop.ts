@@ -2,22 +2,22 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'aprire negozio Etsy di stampabili guida',
+    primaryKeyword: 'aprire negozio Etsy di stampabili',
     secondaryKeywords: [
-      'come iniziare a vendere stampabili su Etsy da zero',
+      'come iniziare a vendere stampabili su Etsy',
       'configurazione account venditore Etsy download digitali',
-      'branding negozio Etsy stampabili educativi principianti',
+      'branding negozio Etsy stampabili principianti',
       'piano lancio negozio Etsy stampabili 30 giorni',
-      'commissioni Etsy strategia prezzi stampabili',
     ],
     lsiKeywords: [
-      'account venditore Etsy configurazione download digitali',
-      'ottimizzazione inserzioni SEO tag titoli Etsy',
-      'politiche negozio digitale rimborso venditori',
-      'strategia lancio primi 30 giorni crescita catalogo',
+      'account venditore Etsy',
+      'branding negozio digitale',
+      'inserzioni ottimizzate SEO',
+      'piano lancio 30 giorni',
+      'commissioni Etsy strategia',
     ],
-    titleTag: 'Aprire negozio Etsy di stampabili | LessonCraftStudio',
-    metaDescription: 'Guida completa per aprire un negozio Etsy di stampabili da zero: branding, inserzioni ottimizzate, prezzi e piano lancio 30 giorni. Inizia subito.',
+    titleTag: 'Aprire negozio Etsy di stampabili | Guida',
+    metaDescription: 'Come aprire un negozio Etsy di stampabili da zero: branding, inserzioni ottimizzate, prezzi e piano lancio 30 giorni. Guida completa passo passo.',
   },
 
   hero: {

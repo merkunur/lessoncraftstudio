@@ -2,11 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'livelli difficoltà schede tier prodotto',
-    secondaryKeywords: ['come creare stampabili vendere', 'guida pratica stampabili business', 'tutorial stampabili educativi'],
-    lsiKeywords: ['creazione stampabili professionali', 'workflow produzione schede', 'ottimizzazione vendita stampabili'],
-    titleTag: 'Livelli Difficoltà Schede: Tier Prodotto | LCS',
-    metaDescription: 'Crei tier di prodotto con livelli di difficoltà graduati. Strategia per moltiplicare il catalogo intelligentemente. Vendi su Etsy & KDP con licenza commerciale.',
+    primaryKeyword: 'schede didattiche livelli difficoltà da stampare',
+    secondaryKeywords: [
+      'esercizi graduati per età scuola primaria',
+      'schede facile medio difficile bambini PDF',
+      'materiale didattico con progressione livelli',
+      'attività differenziate per competenza',
+    ],
+    lsiKeywords: [
+      'livelli',
+      'difficoltà',
+      'progressione',
+      'graduato',
+      'facile',
+      'difficile',
+    ],
+    titleTag: 'Schede con Livelli di Difficoltà | LCS',
+    metaDescription: 'Schede didattiche con livelli di difficoltà graduati da stampare. Esercizi progressivi da facile a difficile con LessonCraftStudio — 33 generatori.',
   },
   hero: {
     title: 'Livelli di Difficoltà nelle Schede: Creare Tier di Prodotto',

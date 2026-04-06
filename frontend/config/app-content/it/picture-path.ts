@@ -2,29 +2,25 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'labirinti illustrati da vendere su Etsy',
+    primaryKeyword: 'labirinto da stampare',
     secondaryKeywords: [
-      'creare schede labirinto stampabili per negozio Etsy',
-      'generatore percorsi illustrati per libri Amazon KDP',
-      'labirinti stampabili licenza commerciale',
-      'vendere puzzle labirinto su Eduki',
-      'business stampabili schede labirinti per bambini',
+      'generatore labirinto',
+      'labirinto bambini da stampare',
+      'creare labirinto',
+      'labirinto scuola infanzia',
     ],
     lsiKeywords: [
-      'licenza commerciale',
-      '300 DPI',
-      'pronto per la stampa',
-      'labirinti',
-      'percorso illustrato',
-      'business di stampabili',
-      'chiave di risposta automatica',
+      'percorso',
+      'uscita',
+      'motricita fine',
+      'concentrazione',
     ],
-    titleTag: 'Labirinti illustrati da vendere su Etsy | LCS',
-    metaDescription: 'Crea labirinti illustrati da vendere su Etsy e KDP. 3 modalità di gioco, risposte automatiche, licenza commerciale inclusa. 49 $ pagamento unico.',
+    titleTag: 'Labirinti da stampare | Generatore di labirinti',
+    metaDescription: 'Create labirinti con immagini tematiche. Soluzioni automatiche, PDF 300 DPI. Prova gratis — vendete su Etsy e Amazon KDP.',
   },
 
   hero: {
-    title: 'Genera labirinti illustrati da vendere su Etsy e KDP',
+    title: 'Labirinti da stampare — Generatore di labirinti con immagini',
     tagline: 'Tre modalità di gioco in un unico generatore — Percorso Illustrato, Labirinto negozico e Scegli il Percorso Giusto — alimentato da un algoritmo LPF (Longest Path First) con chiavi di risposta generate automaticamente, personalizzazione dei muri e design puramente visivo che funziona ovunque senza traduzione.',
     description:
       'I labirinti illustrati sono tra i prodotti stampabili più venduti su Etsy e Amazon KDP a livello globale, ma il mercato italiano è ancora quasi vuoto: un\'opportunità straordinaria per chi vuole avviare un business di stampabili. Questo generatore offre tre modalità di gioco — Percorso Illustrato con griglia di immagini, Labirinto classico con muri generati dall\'algoritmo LPF e Scegli il Percorso Giusto con tre alternative — per costruire un catalogo ampio e differenziato. Ogni labirinto è puramente visivo e funziona in qualsiasi lingua senza modifiche, perfetto per vendere su mercati internazionali. La chiave di risposta viene generata automaticamente, risparmiandoti ore di lavoro. Assegna immagini a cinque ruoli distinti e scegli tra 104 temi con oltre 3100 illustrazioni. Esporta PDF a 300 DPI nei formati Letter, A4 o personalizzati per Etsy, KDP ed Eduki. L\'Accesso Completo include la licenza commerciale e 11 lingue. Prova gratis con tutte le funzionalità — senza registrazione, senza carta di credito. I download includono una filigrana; acquista una licenza per rimuoverla.',

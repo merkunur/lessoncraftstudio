@@ -34,9 +34,9 @@ const appsMetadata: Record<string, { title: string; description: string; keyword
     keywords: 'generadores de fichas para imprimir, generador sopa de letras, generador crucigramas, fichas de matemáticas generador, generador fichas preescolar, generador sudoku, fichas para imprimir',
   },
   it: {
-    title: '33 generatori di stampabili — Vendi su Etsy | LessonCraftStudio',
-    description: 'Crea e vendi stampabili con 33 generatori professionali. Crucipuzzle, matematica, colorare, puzzle. Licenza commerciale inclusa. Prova gratis con filigrana.',
-    keywords: 'generatori di stampabili per creare e vendere, generatore stampabili Etsy, KDP schede vendere, business stampabili italiano, generatore crucipuzzle, creatore schede matematica vendere',
+    title: '33 generatori di schede | Matematica, giochi, vocabolario e altro',
+    description: 'Sfoglia 33 generatori di schede professionali: matematica, vocabolario, apprendimento visivo, creativita e logica. Tutti gratis da provare con filigrana.',
+    keywords: 'generatore schede didattiche, generatore crucipuzzle, generatore cruciverba, schede matematica da stampare, generatore esercizi, schede pregrafismo',
   },
   pt: {
     title: '33 geradores de atividades | Matemática, jogos, vocabulário e mais',

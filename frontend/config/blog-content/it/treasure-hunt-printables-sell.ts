@@ -2,11 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'caccia al tesoro stampabili vendere',
-    secondaryKeywords: ['caccia tesoro stampabile bambini Etsy', 'gioco caccia tesoro PDF vendere', 'business caccia tesoro stampabili'],
-    lsiKeywords: ['gioco avventura stampabile bambini', 'indizi caccia tesoro stampabili', 'attività gruppo bambini stampabili'],
-    titleTag: 'Caccia al Tesoro Stampabili: Vendere | LCS',
-    metaDescription: 'Venda cacce al tesoro stampabili su Etsy. Un prodotto ad alto valore per feste, scuola e famiglia nel 2026.',
+    primaryKeyword: 'caccia al tesoro da stampare bambini PDF',
+    secondaryKeywords: [
+      'caccia al tesoro pronta stampare casa giardino',
+      'gioco caccia tesoro festa bambini PDF',
+      'caccia al tesoro scuola primaria da stampare',
+      'indizi caccia tesoro bambini stampabili',
+    ],
+    lsiKeywords: [
+      'caccia al tesoro',
+      'indizi',
+      'gioco',
+      'festa',
+      'avventura',
+      'gruppo',
+    ],
+    titleTag: 'Caccia al Tesoro da Stampare per Bambini | LCS',
+    metaDescription: 'Caccia al tesoro pronta da stampare per bambini con indizi e percorsi. Per feste e scuola primaria con LessonCraftStudio — 33 generatori, 11 lingue.',
   },
   hero: {
     title: 'Caccia al Tesoro Stampabili: Come Vendere con Profitto',

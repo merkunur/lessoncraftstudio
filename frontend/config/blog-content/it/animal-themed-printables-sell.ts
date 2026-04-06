@@ -2,11 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'stampabili tema animali vendere',
-    secondaryKeywords: ['stampabili tematici vendere Etsy Italia', 'nicchia stampabili educativi mercato', 'schede tematiche stagionali vendere'],
-    lsiKeywords: ['stampabili educativi nicchia', 'mercato stagionale stampabili', 'Etsy Italia schede tematiche'],
-    titleTag: 'Stampabili Tema Animali: Vendere | LCS',
-    metaDescription: 'Venda stampabili a tema animali su Etsy. Il tema sempreverde più popolare per schede educative.',
+    primaryKeyword: 'schede didattiche animali da stampare',
+    secondaryKeywords: [
+      'attività animali per bambini da stampare',
+      'schede animali scuola infanzia',
+      'esercizi tema animali prescuola',
+      'schede animali fattoria da colorare',
+    ],
+    lsiKeywords: [
+      'animali',
+      'fattoria',
+      'savana',
+      'oceano',
+      'insetti',
+      'scuola infanzia',
+    ],
+    titleTag: 'Schede Didattiche Animali da Stampare | LCS',
+    metaDescription: 'Schede didattiche a tema animali da stampare per bambini. Fattoria, savana, oceano e insetti con LessonCraftStudio — 33 generatori, 11 lingue.',
   },
   hero: {
     title: 'Stampabili a Tema Animali: Come Vendere',

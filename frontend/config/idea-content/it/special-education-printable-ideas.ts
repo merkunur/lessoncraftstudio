@@ -2,25 +2,26 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Stampabili BES e DSA da vendere | LessonCraftStudio',
-    metaDescription: 'Crea stampabili BES e DSA da vendere su Etsy e Gumroad. Schede adattate, supporti visivi e materiali semplificati — nicchia a prezzo premium per venditori.',
-    primaryKeyword: 'stampabili BES DSA da vendere',
+    titleTag: 'Schede BES e DSA da stampare | LCS',
+    metaDescription: 'Crea schede per BES e DSA da stampare: attività semplificate, supporti visivi e materiali adattati per bambini con bisogni educativi speciali e dislessia.',
+    primaryKeyword: 'schede BES e DSA da stampare',
     secondaryKeywords: [
-      'schede educazione speciale per venditori Etsy',
-      'stampabili sostegno inclusione business',
-      'materiali adattati BES da vendere online',
-      'nicchia stampabili DSA Legge 170',
-      'idee prodotto stampabili bisogni educativi speciali',
+      'attività didattiche DSA da stampare',
+      'stampabili bisogni educativi speciali',
+      'schede semplificate dislessia da stampare',
+      'materiale BES stampabile scuola primaria',
     ],
     lsiKeywords: [
-      'schede PEI PDP supporti visivi vendita',
-      'stampabili semplificati autismo ADHD KDP',
-      'generatore schede BES DSA business',
-      'prodotti digitali educazione speciale Italia',
+      'BES',
+      'DSA',
+      'dislessia',
+      'supporti visivi',
+      'scuola primaria',
+      'inclusione',
     ],
   },
   hero: {
-    title: 'Stampabili BES e DSA: nicchia premium da vendere',
+    title: 'Schede BES e DSA da Stampare: Materiale Adattato',
     description: 'I stampabili per BES (Bisogni Educativi Speciali) e DSA (Disturbi Specifici dell\'Apprendimento) rappresentano una delle nicchie più sottovalutate e a prezzo premium nel mercato italiano. La Legge 170/2010 per i DSA e la Direttiva BES 2012 richiedono materiali specifici — schede adattate, supporti visivi, layout semplificati, progressioni graduali — che i stampabili standard non offrono quasi mai. Insegnanti di sostegno, logopedisti, terapisti occupazionali e genitori acquistano costantemente tutto l\'anno senza cali stagionali, guidati da obiettivi PEI e PDP. La domanda istituzionale è enorme: autismo, ADHD, dislessia, discalculia e ritardi dello sviluppo richiedono ciascuno adattamenti diversi, moltiplicando le opportunità di prodotto. La carenza di offerta specializzata crea un\'opportunità eccezionale su Etsy, Gumroad e KDP. In questa guida trovi idee concrete, strategie e approcci per costruire una linea redditizia di stampabili BES e DSA.',
   },
   marketOverview: `Il mercato dei stampabili per l\'educazione speciale rappresenta un\'opportunità di entrate premium perché i professionisti del sostegno funzionano come acquirenti istituzionali specializzati che devono reperire materiali adattati in modo indipendente quando i pacchetti curricolari standard non includono risorse appropriate per utenti con esigenze di apprendimento diverse e adattamenti legati alla disabilità. Mentre un venditore di istruzione generale potrebbe acquistare schede di esercitazione supplementari per rinforzare l\'istruzione all\'intero catalogo, un venditore di sostegno acquista materiali adattati individualmente per utenti che lavorano a livelli di abilità molto diversi all\'interno della stesso livello o negozio di sostegno, moltiplicando il volume di risorse distinte necessarie per ogni periodo didattico. Questa differenza fondamentale negli acquisti significa che i professionisti dell\'educazione speciale spendono sostanzialmente di più pro capite in stampabili educativi rispetto ai venditori di istruzione generale, con i venditori di sostegno che servono utenti su molteplici livelli scolastici e categorie di disabilità che necessitano di adattamenti diversi simultaneamente.

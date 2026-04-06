@@ -2,28 +2,28 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'generatore di schede di scrittura gratis',
+    primaryKeyword: 'schede di pregrafismo da stampare gratis',
     secondaryKeywords: [
-      'creare schede di scrittura gratis online',
-      'schede scrittura a mano stampabili gratis',
-      'generatore schede calligrafia senza registrazione',
-      'schede tracciatura lettere gratis PDF',
-      'generatore scrittura a mano gratuito online',
+      'schede prescrittura gratis online',
+      'schede scrittura lettere da stampare gratis PDF',
+      'pregrafismo gratis senza registrazione',
+      'schede tracciatura lettere gratis da stampare',
+      'esercizi prescrittura gratis online',
     ],
     lsiKeywords: [
-      'gratis',
+      'pregrafismo',
+      'prescrittura',
+      'tracciatura lettere',
+      'stampabile PDF',
+      'gratis online',
       'senza registrazione',
-      'stampabile',
-      'PDF',
-      'filigrana',
-      'prova gratuita',
     ],
-    titleTag: 'Schede di scrittura gratis online | LessonCraftStudio',
-    metaDescription: 'Crea schede di scrittura gratis online, senza registrazione. Tre modalità progressive, frecce ordine tratti, 104 temi. Licenza commerciale disponibile.',
+    titleTag: 'Pregrafismo da stampare gratis online | LessonCraftStudio',
+    metaDescription: 'Crea schede di pregrafismo e prescrittura gratis online, senza registrazione. Tre modalità progressive, frecce ordine tratti, PDF istantaneo. Prova subito.',
   },
 
   hero: {
-    title: 'Crea Schede di Scrittura a Mano Gratis Online',
+    title: 'Schede di Pregrafismo da Stampare Gratis',
     tagline: 'Crea schede di pratica lettere con tre modalità progressive, ordine tratti guidato da frecce e guide sfumate che sviluppano la fluidità dalla tracciatura completa alla scrittura autonoma',
     description: 'Crea schede di scrittura a mano gratis, direttamente nel browser, senza registrazione e senza installare nulla. Il generatore offre tre modalità progressive — Traccia con contorni solidi, Traccia Sfumata con opacità decrescente e Copia Guidata per la scrittura quasi autonoma. Cinque stili di font includono Stampatello con Frecce direzionali numerate per l\'ordine dei tratti e Corsivo per la pratica della scrittura fluida. Ogni riga è configurabile indipendentemente: modalità, font, contenuto e maiuscole/minuscole. Scegli tra oltre 3.100 illustrazioni in 104 temi o inserisci testo personalizzato. Esporta PDF e JPEG a 300 DPI nei formati Letter, A4 o personalizzato — la prova gratuita include tutte le funzionalità con una filigrana sui download. Vuoi vendere le tue schede su Etsy o Amazon KDP? Passa alla licenza commerciale per rimuovere la filigrana e ottenere i diritti di rivendita completi.',
   },

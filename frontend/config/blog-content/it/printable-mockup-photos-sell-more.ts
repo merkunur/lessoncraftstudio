@@ -2,11 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'foto mockup stampabili vendere di più',
-    secondaryKeywords: ['business stampabili digitali Italia', 'vendere stampabili online strategia', 'Etsy KDP stampabili mercato italiano'],
-    lsiKeywords: ['stampabili educativi business', 'vendita online prodotti digitali', 'mercato italiano stampabili 2026'],
-    titleTag: 'Foto Mockup per Stampabili: Vendere di Più | LCS',
-    metaDescription: 'Crei foto mockup professionali per i Suoi stampabili. Tecniche, strumenti e stili che aumentano le conversioni.',
+    primaryKeyword: 'foto mockup schede didattiche professionali',
+    secondaryKeywords: [
+      'creare foto prodotto materiale educativo',
+      'mockup schede stampabili come fare',
+      'presentazione visiva schede didattiche',
+      'immagini professionali materiale stampabile',
+    ],
+    lsiKeywords: [
+      'mockup',
+      'foto prodotto',
+      'presentazione',
+      'visuale',
+      'professionale',
+      'anteprima',
+    ],
+    titleTag: 'Foto Mockup Schede Didattiche | LCS',
+    metaDescription: 'Come creare foto mockup professionali per schede didattiche. Presentazione visiva che converte con LessonCraftStudio — 33 generatori, 11 lingue.',
   },
   hero: {
     title: 'Foto Mockup per Stampabili: Come Vendere di Più',

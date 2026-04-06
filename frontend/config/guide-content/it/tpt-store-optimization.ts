@@ -2,22 +2,22 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'ottimizzare negozio su Eduki guida',
+    primaryKeyword: 'ottimizzare negozio su Eduki',
     secondaryKeywords: [
-      'come aumentare vendite su Eduki ottimizzazione negozio',
-      'algoritmo ricerca Eduki fattori posizionamento risorse',
-      'strategia crescita negozio Eduki venditori italiani',
+      'come aumentare vendite su Eduki ottimizzazione',
+      'algoritmo ricerca Eduki fattori posizionamento',
+      'strategia crescita negozio Eduki venditori',
       'ottimizzazione inserzioni Eduki anteprime descrizioni',
-      'recensioni Eduki riprova sociale venditori educativi',
     ],
     lsiKeywords: [
-      'branding negozio Eduki identità visiva coerente',
-      'anteprima prodotto miniatura copywriting conversione',
-      'sezioni negozio categorie navigazione organizzazione',
-      'pianificazione stagionale scalabilità catalogo dati',
+      'branding negozio Eduki',
+      'anteprima prodotto miniatura',
+      'sezioni negozio categorie',
+      'pianificazione stagionale',
+      'scalabilità catalogo dati',
     ],
-    titleTag: 'Ottimizzare negozio su Eduki | LessonCraftStudio',
-    metaDescription: 'Guida per ottimizzare il tuo negozio su Eduki: posizionamento ricerca, anteprime efficaci, recensioni e scalabilità catalogo. Aumenta le vendite oggi.',
+    titleTag: 'Ottimizzare negozio su Eduki | Guida',
+    metaDescription: 'Come ottimizzare il tuo negozio su Eduki: posizionamento ricerca, anteprime efficaci, recensioni e scalabilità catalogo. Aumenta le vendite oggi.',
   },
 
   hero: {

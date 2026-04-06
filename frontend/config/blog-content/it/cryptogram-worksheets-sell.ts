@@ -2,11 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'schede crittogrammi vendere online',
-    secondaryKeywords: ['crittogrammi stampabili business', 'puzzle crittografici bambini Etsy', 'vendere crittogrammi educativi'],
-    lsiKeywords: ['giochi codice segreto educativi', 'puzzle decifrare messaggi', 'attività crittografia bambini'],
-    titleTag: 'Schede Crittogrammi: Vendere Online | LCS',
-    metaDescription: 'Scopra come vendere schede di crittogrammi online. Una nicchia unica che combina logica e linguistica per stampabili ad alto valore.',
+    primaryKeyword: 'crittogrammi per bambini da stampare',
+    secondaryKeywords: [
+      'giochi crittografia bambini scuola primaria',
+      'schede decodifica messaggi segreti PDF',
+      'esercizi crittogramma educativo da stampare',
+      'puzzle codice segreto bambini',
+    ],
+    lsiKeywords: [
+      'crittogramma',
+      'codice',
+      'decodifica',
+      'messaggio segreto',
+      'logica',
+      'enigma',
+    ],
+    titleTag: 'Crittogrammi per Bambini da Stampare | LCS',
+    metaDescription: 'Crittogrammi e giochi di decodifica per bambini da stampare con soluzioni. Puzzle con messaggi segreti educativi con LessonCraftStudio — 33 generatori.',
   },
   hero: {
     title: 'Schede Crittogrammi: Come Venderle Online con Profitto',

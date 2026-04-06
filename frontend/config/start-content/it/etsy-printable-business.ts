@@ -2,26 +2,26 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'masterclass business Etsy stampabili',
+    primaryKeyword: 'come vendere stampabili su Etsy',
     secondaryKeywords: [
-      'vendere schede stampabili su Etsy Italia',
-      'SEO Etsy per download digitali educativi',
-      'configurare negozio Etsy stampabili passo-passo',
-      'ottimizzare inserzioni Etsy schede didattiche',
-      'scalare vendite stampabili Etsy oltre 50 prodotti',
+      'guida vendere schede didattiche su Etsy',
+      'aprire negozio Etsy stampabili educativi',
+      'SEO Etsy per prodotti digitali educativi',
+      'come configurare negozio Etsy stampabili',
     ],
     lsiKeywords: [
-      'tag Etsy per schede stampabili',
-      'strategia pricing prodotti digitali Etsy',
-      'generatore schede per venditori Etsy',
-      'miniature inserzioni Etsy che convertono',
+      'Etsy',
+      'stampabili',
+      'negozio online',
+      'schede didattiche',
+      'download digitali',
     ],
-    titleTag: 'Masterclass Etsy stampabili | LessonCraftStudio',
-    metaDescription: 'Masterclass per vendere stampabili su Etsy: configurazione negozio, SEO, inserzioni ottimizzate, pricing e scalabilità. Prova gratuita con filigrana.',
+    titleTag: 'Come vendere stampabili su Etsy: guida | LCS',
+    metaDescription: 'Come vendere stampabili educativi su Etsy: configurazione negozio, SEO inserzioni, strategia di prezzo e scalabilità del catalogo. Guida passo dopo passo.',
   },
 
   hero: {
-    title: 'Masterclass: Vendere Stampabili su Etsy con Successo',
+    title: 'Come Vendere Stampabili su Etsy: Guida Completa',
     tagline: 'La guida specifica per costruire un negozio di schede didattiche stampabili redditizio su Etsy',
     description: 'Etsy è il marketplace più grande per download digitali stampabili, e il mercato italiano su Etsy.it è in crescita costante. Questa masterclass copre ogni aspetto tattico per costruire un negozio redditizio: dalla configurazione iniziale e SEO specifico per Etsy all\'ottimizzazione delle inserzioni che convertono, dalla strategia di pricing alla scalabilità oltre i primi 50 prodotti. Ogni strategia è pensata specificamente per il funzionamento dell\'algoritmo Etsy. Prova gratuita con filigrana per creare prodotti di esempio e validare la tua nicchia prima di acquistare.',
   },

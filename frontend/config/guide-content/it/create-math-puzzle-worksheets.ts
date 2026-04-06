@@ -2,26 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'creare puzzle di matematica da vendere',
+    primaryKeyword: 'come creare puzzle di matematica da stampare',
     secondaryKeywords: [
-      'puzzle matematici stampabili per Etsy e KDP',
-      'generatore puzzle matematici uso commerciale',
-      'vendere schede puzzle matematici con immagini',
-      'creare puzzle ricostruzione immagine da vendere',
-      'schede puzzle matematici tematici per Gumroad',
+      'puzzle matematici con immagini per bambini PDF',
+      'creare puzzle ricostruzione immagine da stampare',
+      'generatore puzzle matematici con equazioni',
+      'schede puzzle matematici da stampare con soluzioni',
     ],
     lsiKeywords: [
-      'puzzle immagine ricostruzione con equazioni',
-      'prodotti stampabili puzzle matematica per venditori',
-      'griglie 2x2 3x3 4x4 puzzle matematici',
-      'schede matematica formato innovativo marketplace',
+      'puzzle matematici con immagini',
+      'ricostruzione immagine',
+      'griglie 2x2 3x3 4x4',
+      'equazioni per bambini',
+      'schede matematica creative',
     ],
-    titleTag: 'Puzzle di matematica da vendere | LessonCraftStudio',
-    metaDescription: 'Crea puzzle matematici dove si risolvono equazioni per ricomporre immagini. Griglie configurabili e PDF pronti per vendere su Etsy, KDP e Gumroad.',
+    titleTag: 'Creare puzzle di matematica da stampare | Guida',
+    metaDescription: 'Come creare puzzle matematici da stampare dove si risolvono equazioni per ricomporre immagini. Griglie configurabili, temi e PDF pronti per la stampa.',
   },
 
   hero: {
-    title: 'Puzzle di matematica da vendere: guida completa',
+    title: 'Come creare puzzle di matematica da stampare',
     tagline: 'Tutorial passo passo per creare puzzle matematici con ricostruzione dell\'immagine dove i bambini risolvono equazioni per ricomporre figure — pronti per la vendita su Etsy, Amazon KDP e Gumroad',
     description: 'I puzzle matematici con ricostruzione dell\'immagine offrono un formato innovativo che si distingue immediatamente dalle schede tradizionali nei risultati di ricerca dei marketplace. Il mercato italiano dei stampabili educativi cerca prodotti che combinino esercizio matematico e coinvolgimento visivo, e questo formato risponde perfettamente a quella domanda. Un\'immagine viene divisa in pezzi, ogni pezzo riceve un\'equazione, e risolvendo le equazioni si ricompone l\'immagine. Questa guida ti mostra come usare il Generatore di Puzzle Matematici per creare prodotti professionali — dalla scelta dei temi e delle dimensioni della griglia (2x2, 3x3, 4x4) alla configurazione delle operazioni e all\'esportazione di PDF con fogli risposte automatici. Poiché i puzzle usano numeri e immagini senza testo, ogni prodotto funziona per acquirenti di qualsiasi paese senza traduzione. Che tu stia lanciando il tuo primo prodotto o diversificando un catalogo esistente, avrai puzzle finiti pronti per la pubblicazione.',
   },

@@ -2,11 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'attività motricità fine stampabili vendere',
-    secondaryKeywords: ['stampabili tematici vendere Etsy Italia', 'nicchia stampabili educativi mercato', 'schede tematiche stagionali vendere'],
-    lsiKeywords: ['stampabili educativi nicchia', 'mercato stagionale stampabili', 'Etsy Italia schede tematiche'],
-    titleTag: 'Motricità Fine: Stampabili Vendere | LCS',
-    metaDescription: 'Venda attività di motricità fine stampabili. Ricalco, ritaglio, pregrafismo e coordinazione occhio-mano.',
+    primaryKeyword: 'attività motricità fine da stampare bambini',
+    secondaryKeywords: [
+      'schede pregrafismo motricità fine PDF',
+      'esercizi coordinazione mano bambini stampare',
+      'attività ritaglio prescuola da stampare',
+      'schede motricità fine scuola infanzia',
+    ],
+    lsiKeywords: [
+      'motricità fine',
+      'pregrafismo',
+      'ritaglio',
+      'coordinazione',
+      'tracciare',
+      'impugnatura',
+    ],
+    titleTag: 'Attività Motricità Fine da Stampare | LCS',
+    metaDescription: 'Attività di motricità fine da stampare per bambini. Pregrafismo, ritaglio e coordinazione occhio-mano con LessonCraftStudio — 33 generatori, 11 lingue.',
   },
   hero: {
     title: 'Attività Motricità Fine Stampabili: Come Vendere',

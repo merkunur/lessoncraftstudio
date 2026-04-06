@@ -2,26 +2,26 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'promuovere il business stampabili online',
+    primaryKeyword: 'come promuovere stampabili educativi online',
     secondaryKeywords: [
-      'marketing organico per venditori stampabili',
-      'SEO Etsy per schede didattiche download digitali',
-      'strategia Pinterest per prodotti stampabili',
-      'email marketing per venditori di schede educative',
-      'calendario marketing stagionale stampabili Italia',
+      'marketing per venditori di stampabili',
+      'strategia SEO per schede didattiche',
+      'promuovere prodotti digitali educativi',
+      'come far crescere le vendite di stampabili',
     ],
     lsiKeywords: [
-      'ottimizzazione inserzioni marketplace',
-      'content marketing imprenditori stampabili',
-      'brand building venditori download digitali',
-      'tempistiche stagionali domanda acquirenti',
+      'marketing',
+      'SEO',
+      'Pinterest',
+      'stampabili educativi',
+      'vendite online',
     ],
-    titleTag: 'Promuovere business stampabili online | LessonCraftStudio',
-    metaDescription: 'Come promuovere il tuo business di stampabili online: SEO piattaforma, Pinterest, email marketing e tempistiche stagionali. Strategie gratuite e attuabili.',
+    titleTag: 'Come promuovere stampabili educativi online | LCS',
+    metaDescription: 'Come promuovere i tuoi stampabili educativi online: SEO piattaforma, Pinterest, email marketing e calendario stagionale. Strategie pratiche e gratuite.',
   },
 
   hero: {
-    title: 'Promuovere il Tuo Business di Stampabili Online',
+    title: 'Come Promuovere i Tuoi Stampabili Educativi Online',
     tagline: 'Strategie di marketing collaudate per venditori di stampabili — dal SEO della piattaforma e Pinterest all\'email marketing e alle tempistiche stagionali, ogni canale necessario per generare traffico e vendite',
     description: 'Le schede eccellenti non si vendono da sole. Il divario tra prodotti professionali e vendite costanti è colmato dal marketing: il processo deliberato di mettere i tuoi stampabili davanti agli acquirenti italiani e internazionali che ne hanno bisogno. Questa guida copre ogni canale rilevante: SEO della piattaforma che cattura l\'intento d\'acquisto su Etsy.it, strategie Pinterest per traffico organico a lungo termine, email marketing per costruire clienti abituali e tempistiche stagionali allineate ai cicli di domanda del mercato italiano. Ogni strategia è attuabile senza strumenti costosi. La prova gratuita con filigrana ti dà prodotti da promuovere immediatamente.',
   },

@@ -2,11 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'stampabili rientro scuola settembre',
-    secondaryKeywords: ['stampabili tematici vendere Etsy Italia', 'nicchia stampabili educativi mercato', 'schede tematiche stagionali vendere'],
-    lsiKeywords: ['stampabili educativi nicchia', 'mercato stagionale stampabili', 'Etsy Italia schede tematiche'],
-    titleTag: 'Stampabili Rientro a Scuola: Settembre | LCS',
-    metaDescription: 'Prepari il Suo catalogo per il rientro a scuola di settembre in Italia. Prodotti, timing e strategie vincenti. Vendi su Etsy & KDP con licenza commerciale.',
+    primaryKeyword: 'schede rientro a scuola da stampare settembre',
+    secondaryKeywords: [
+      'attività inizio anno scolastico da stampare',
+      'schede accoglienza prima elementare',
+      'esercizi ripasso settembre scuola primaria',
+      'attività rientro scuola infanzia',
+    ],
+    lsiKeywords: [
+      'settembre',
+      'rientro scuola',
+      'accoglienza',
+      'ripasso',
+      'inizio anno',
+      'primo giorno',
+    ],
+    titleTag: 'Schede Rientro a Scuola Settembre | LCS',
+    metaDescription: 'Schede per il rientro a scuola di settembre da stampare per bambini. Attività di accoglienza e ripasso per la scuola primaria con LessonCraftStudio.',
   },
   hero: {
     title: 'Stampabili per il Rientro a Scuola: La Corsa di Settembre',

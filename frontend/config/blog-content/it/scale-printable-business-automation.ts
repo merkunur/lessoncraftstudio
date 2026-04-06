@@ -2,11 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'scalare business stampabili automazione',
-    secondaryKeywords: ['business stampabili digitali Italia', 'vendere stampabili online strategia', 'Etsy KDP stampabili mercato italiano'],
-    lsiKeywords: ['stampabili educativi business', 'vendita online prodotti digitali', 'mercato italiano stampabili 2026'],
-    titleTag: 'Scalare Business Stampabili: Automazione | LCS',
-    metaDescription: 'Scali il Suo business di stampabili con l\'automazione. Generatori, template e processi per produrre più con meno sforzo.',
+    primaryKeyword: 'automatizzare creazione schede didattiche',
+    secondaryKeywords: [
+      'generatore automatico esercizi didattici',
+      'produrre più schede stampabili velocemente',
+      'workflow efficiente materiale educativo',
+      'scalare produzione schede con generatore',
+    ],
+    lsiKeywords: [
+      'automatizzare',
+      'generatore',
+      'produttività',
+      'workflow',
+      'efficiente',
+      'scalare',
+    ],
+    titleTag: 'Automatizzare Creazione Schede Didattiche | LCS',
+    metaDescription: 'Come automatizzare la creazione di schede didattiche con un generatore. Produttività massima con LessonCraftStudio — 33 strumenti, 11 lingue.',
   },
   hero: {
     title: 'Scalare il Business Stampabili con l\'Automazione',

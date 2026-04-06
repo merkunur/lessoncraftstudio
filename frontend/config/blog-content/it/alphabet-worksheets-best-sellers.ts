@@ -2,11 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'schede alfabeto più vendute Etsy',
-    secondaryKeywords: ['schede lettere bambini best seller', 'stampabili alfabeto vendere Etsy', 'business schede alfabeto educative'],
-    lsiKeywords: ['pregrafismo lettere stampabili', 'schede ABC bambini vendere', 'alfabeto italiano schede didattiche'],
-    titleTag: 'Schede Alfabeto Più Vendute su Etsy | LCS',
-    metaDescription: 'Scopra le schede di alfabeto più vendute su Etsy e come crearle. Strategie per il mercato italiano nel 2026.',
+    primaryKeyword: 'schede alfabeto da stampare scuola primaria',
+    secondaryKeywords: [
+      'schede lettere alfabeto prima elementare',
+      'esercizi alfabeto prescuola da stampare',
+      'attività lettere per bambini 5 anni',
+      'schede pregrafismo alfabeto PDF',
+    ],
+    lsiKeywords: [
+      'pregrafismo',
+      'lettere',
+      'alfabeto',
+      'prima elementare',
+      'prescuola',
+      'scrittura',
+    ],
+    titleTag: 'Schede Alfabeto da Stampare per Bambini | LCS',
+    metaDescription: 'Schede dell\'alfabeto da stampare per prescuola e prima elementare. Esercizi di pregrafismo e lettere con LessonCraftStudio — 33 generatori, 11 lingue.',
   },
   hero: {
     title: 'Schede Alfabeto: I Best Seller su Etsy nel 2026',

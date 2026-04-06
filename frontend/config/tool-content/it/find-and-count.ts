@@ -2,28 +2,28 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'generatore cerca e conta gratis',
+    primaryKeyword: 'trova e conta da stampare gratis',
     secondaryKeywords: [
-      'creare schede cerca e conta gratis online',
-      'schede Vedo Vedo stampabili gratis',
-      'generatore cerca e conta senza registrazione',
-      'schede oggetti nascosti e conta gratis PDF',
-      'generatore Vedo Vedo gratuito online',
+      'schede cerca e conta gratis online',
+      'trova e conta da stampare gratis PDF',
+      'cerca e conta gratis senza registrazione',
+      'schede Vedo Vedo da stampare gratis',
+      'esercizi trova e conta gratis online',
     ],
     lsiKeywords: [
-      'gratis',
-      'senza registrazione',
-      'stampabile',
-      'PDF',
-      'filigrana',
-      'prova gratuita',
+      'trova e conta',
+      'cerca e conta',
+      'oggetti nascosti',
+      'conteggio',
+      'stampabile PDF',
+      'gratis online',
     ],
-    titleTag: 'Cerca e conta gratis online | LessonCraftStudio',
-    metaDescription: 'Crea schede cerca e conta gratis online, senza registrazione. Modalità Oggetti Nascosti e Trova le Lettere, 104 temi. Licenza commerciale disponibile.',
+    titleTag: 'Trova e conta da stampare gratis | LessonCraftStudio',
+    metaDescription: 'Crea schede trova e conta da stampare gratis online, senza registrazione. Oggetti nascosti, trova le lettere, chiave di risposta automatica. Prova subito.',
   },
 
   hero: {
-    title: 'Crea Schede Cerca e Conta Gratis Online',
+    title: 'Trova e Conta da Stampare Gratis Online',
     tagline: 'Generatore di schede Vedo Vedo a doppia modalità con Oggetti Nascosti (griglia di immagini sparse con fino a 4 oggetti bersaglio) e Trova le Lettere (griglia alfabetica specifica per lingua con lettere accentate), quattro tipi di attività combinabili (cerchia, quadrato, barra, conta) assegnabili per oggetto bersaglio, etichette immagini localizzate in 11 lingue tramite il sistema Vocabolario Immagini, densità griglia configurabile da 5×5 a 10×10, chiavi di risposta auto-generate con annotazioni rosse cerchio/quadrato/croce e conteggi quantità, e schede sensibili alla lingua dove le etichette cambiano per ogni lingua',
     description: 'Crea schede cerca e conta gratis, direttamente nel browser, senza registrazione e senza installare nulla. Il generatore offre due modalità: Oggetti Nascosti con griglia configurabile da 5×5 a 10×10 e fino a 4 bersagli con tipi di attività individuali (cerchia, quadrato, barra, conta), e Trova le Lettere con griglia alfabetica specifica per lingua con lettere accentate. Il sistema è sensibile alla lingua — le etichette cambiano automaticamente in 11 lingue. Il doppio canvas genera simultaneamente la scheda di lavoro e la chiave di risposta con annotazioni rosse. Sfoglia 104 temi con oltre 3.100 illustrazioni. Esporta PDF e JPEG a 300 DPI — la prova gratuita include tutte le funzionalità con una filigrana sui download. Vuoi vendere le tue schede su Etsy o Amazon KDP? Passa alla licenza commerciale per rimuovere la filigrana e ottenere i diritti di rivendita completi.',
   },

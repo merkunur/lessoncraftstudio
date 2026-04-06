@@ -2,25 +2,25 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Stampabili rientro a scuola per Etsy | LessonCraftStudio',
-    metaDescription: 'Crea stampabili rientro a scuola da vendere su Etsy e KDP. Idee prodotto per settembre, strategie di nicchia e strumenti per venditori di stampabili.',
-    primaryKeyword: 'stampabili rientro a scuola per Etsy',
+    titleTag: 'Schede rientro a scuola da stampare | LCS',
+    metaDescription: 'Crea schede rientro a scuola da stampare: attività di preparazione per settembre, conteggio materiale scolastico, pregrafismo e giochi educativi per bambini.',
+    primaryKeyword: 'schede rientro a scuola da stampare',
     secondaryKeywords: [
-      'vendere schede ritorno a scuola online',
-      'business stampabili settembre scolastico',
-      'creare stampabili preparazione scuola KDP',
-      'nicchia stampabili rientro scolastico',
-      'idee prodotto stampabili materiale scuola',
+      'attività ritorno a scuola da stampare',
+      'stampabili preparazione scuola settembre',
+      'schede didattiche primo giorno di scuola',
+      'giochi rientro scolastico da stampare',
     ],
     lsiKeywords: [
-      'mercato stampabili rientro scuola Italia',
-      'generatore schede tema scuola settembre',
-      'vendere stampabili digitali preparazione scolastica',
-      'stampabili primo giorno scuola bambini',
+      'scuola primaria',
+      'scuola dell\'infanzia',
+      'materiale scolastico',
+      'pregrafismo',
+      'conteggio',
     ],
   },
   hero: {
-    title: 'Stampabili Rientro a Scuola: Idee per Vendere a Settembre',
+    title: 'Schede Rientro a Scuola da Stampare: Idee Creative',
     description: 'Il rientro a scuola genera una delle finestre di domanda stagionale più ampie nel mercato dei stampabili, con acquisti che crescono da luglio a settembre. In Italia, dove le scuole riaprono tipicamente a metà settembre — più tardi rispetto alla maggior parte dei paesi — la finestra di vendita si estende ulteriormente, offrendo ai venditori più tempo per catturare acquirenti. I genitori italiani cercano attivamente schede di preparazione per aiutare i bambini nella transizione dalle lunghe vacanze estive alla routine scolastica. La nicchia offre sotto-temi familiari e universali: matite, quaderni, zaini, lavagne e scene scolastiche. Per gli imprenditori digitali, il ritorno a scuola combina domanda massiccia con acquisti ripetuti annuali. Con i nostri generatori di schede puoi creare stampabili per il rientro da vendere su Etsy, Amazon KDP e Gumroad, pubblicando entro luglio per massimizzare la visibilità prima del picco di settembre.',
   },
   marketOverview: `La nicchia dei stampabili per il ritorno a scuola comanda uno dei volumi di traffico stagionale più alti nel mercato educativo, generando una domanda sostenuta attraverso un\'ampia finestra di vendita da luglio a settembre che dà ai venditori tempo significativo per catturare entrate. i venditori iniziano a preparare le loro nuove negozi a metà luglio, acquistando materiali per l\'allestimento del negozio, attività rompighiaccio per la prima settimana e integrazioni al catalogo prodotti che li aiutano a partire con slancio quando arrivano gli utenti. I genitori cercano schede di preparazione scolastica, attività educative per colmare il divario di apprendimento estivo e stampabili coinvolgenti che facilitino la transizione dalla modalità vacanza al ritorno alla routine quotidiana strutturata. Le famiglie che praticano l\'istruzione domestica, che pianificano l\'intero anno accademico durante i mesi estivi, rappresentano un segmento di acquirenti particolarmente prezioso perché acquistano collezioni di risorse complete piuttosto che singole schede.

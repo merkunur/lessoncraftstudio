@@ -2,26 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'migliori nicchie quaderni attività KDP 2026',
+    primaryKeyword: 'migliori nicchie quaderni attività KDP',
     secondaryKeywords: [
-      'categorie libri attività redditizie Amazon KDP 2026',
-      'ricerca nicchie KDP libri attività domanda concorrenza',
-      'sotto-nicchie poco servite quaderni KDP editori',
-      'validazione nicchia KDP test vendite strategia catalogo',
-      'nicchie stagionali vs evergreen libri attività Amazon',
+      'categorie libri attività redditizie Amazon KDP',
+      'ricerca nicchie KDP libri attività domanda',
+      'sotto-nicchie poco servite quaderni KDP',
+      'validazione nicchia KDP test vendite strategia',
     ],
     lsiKeywords: [
-      'Amazon BSR best seller analisi concorrenza domanda',
-      'segmentazione pubblico prescuola bambini adulti anziani',
-      'sottocategoria matematica puzzle colorare crucipuzzle',
-      'nicchia ibrida cross-categoria tematica sotto-nicchia',
+      'analisi domanda concorrenza',
+      'segmentazione pubblico',
+      'sottocategoria matematica puzzle',
+      'nicchie stagionali evergreen',
+      'Amazon BSR best seller',
     ],
-    titleTag: 'Migliori nicchie quaderni KDP (2026) | LessonCraftStudio',
-    metaDescription: 'Le migliori nicchie per quaderni di attività KDP nel 2026: analisi domanda, concorrenza, categorie poco servite e strategie di validazione per editori.',
+    titleTag: 'Migliori nicchie quaderni KDP | Guida',
+    metaDescription: 'Le migliori nicchie per quaderni di attività KDP: analisi domanda, concorrenza, categorie poco servite e strategie di validazione per editori.',
   },
 
   hero: {
-    title: 'Migliori nicchie quaderni attività KDP nel 2026',
+    title: 'Migliori nicchie per quaderni attività su KDP',
     tagline: 'Una guida alla ricerca di nicchie per editori di libri di attività su Amazon KDP — analisi domanda-concorrenza per ogni principale categoria di libri di attività, strategie di segmentazione del pubblico che moltiplicano le opportunità, interpretazione dei dati BSR e recensioni di Amazon per la validazione delle nicchie, sotto-nicchie poco servite con forte domanda e scarsa concorrenza, tempistica nicchie stagionali versus evergreen per la pianificazione del catalogo, nicchie ibride cross-categoria che raggiungono più gruppi di acquirenti, e strategie di portafoglio multi-nicchia che bilanciano profondità e diversificazione',
     description: 'La scelta della nicchia determina il successo o il fallimento dei tuoi quaderni di attività su Amazon KDP. Per gli editori italiani che si affacciano su questo mercato nel 2026, identificare le categorie con domanda forte e concorrenza gestibile è il primo passo strategico. Questa guida ti mostra come analizzare il BSR di Amazon, interpretare i dati di recensioni e vendite, valutare la densità competitiva e individuare le sotto-nicchie poco servite dove un nuovo editore può posizionarsi con successo. Imparerai anche a distinguere tra nicchie evergreen e stagionali e a costruire un portafoglio multi-nicchia bilanciato.',
   },

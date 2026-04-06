@@ -2,26 +2,26 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Stampabili insetti — Idee business | LessonCraftStudio',
-    metaDescription: 'Avvia un business di stampabili a tema insetti: farfalle, coccinelle e api. Idee prodotto e strumenti per creare schede da vendere su Etsy e KDP.',
-
-    primaryKeyword: 'stampabili insetti idee business',
+    titleTag: 'Schede insetti da stampare per bambini | LCS',
+    metaDescription: 'Crea schede sugli insetti da stampare: colorare farfalle e coccinelle, conteggio api, crucipuzzle e ciclo vita della farfalla per bambini 3-8 anni.',
+    primaryKeyword: 'schede insetti da stampare',
     secondaryKeywords: [
-      'vendere stampabili farfalle su Etsy',
-      'business schede insetti educative',
-      'creare stampabili entomologia per KDP',
-      'nicchia stampabili insetti e natura',
-      'idee prodotto stampabili ciclo vita farfalla',
+      'attività insetti da stampare per bambini',
+      'stampabili farfalle e coccinelle da colorare',
+      'schede didattiche insetti scuola primaria',
+      'giochi insetti da stampare gratis',
     ],
     lsiKeywords: [
-      'mercato stampabili educativi insetti',
-      'generatore schede tema insetti giardino',
-      'vendere stampabili digitali coccinelle api',
-      'stampabili scienze naturali bambini',
+      'scuola primaria',
+      'farfalle',
+      'coccinelle',
+      'api',
+      'ciclo vitale',
+      'primavera',
     ],
   },
   hero: {
-    title: 'Stampabili Insetti: Opportunità di Business Digitale',
+    title: 'Schede Insetti da Stampare: Idee Creative per Bambini',
     description: 'Gli insetti rappresentano una nicchia con profondi legami educativi e un forte modello di domanda stagionale nel mercato dei stampabili. In Italia, dove i giardini mediterranei brulicano di farfalle, coccinelle, api e libellule, i bambini sviluppano una curiosità naturale per gli insetti che i genitori cercano di alimentare con attività educative strutturate. Il ciclo vitale della farfalla è uno degli argomenti scientifici più insegnati nelle scuole primarie italiane, generando una domanda massiccia di materiali stampabili ogni primavera. Per gli imprenditori digitali, questa nicchia offre un allineamento perfetto con i programmi scolastici e picchi di vendita prevedibili da marzo a settembre. Con i nostri generatori di schede puoi creare stampabili a tema insetti da vendere su Etsy, Amazon KDP e Gumroad, differenziandoti con varietà di specie e profondità scientifica.',
   },
   marketOverview: `La nicchia dei stampabili sugli insetti si colloca all\'intersezione tra educazione scientifica e fascino infantile, creando domanda da parte di genitori, venditori e famiglie che praticano l\'istruzione domestica, tutti riconoscendo il valore educativo dei prodotti stampabili a tema insetti. I bambini incontrano gli insetti quotidianamente nei loro giardini, parchi e cortili, rendendo queste creature immediatamente familiari e infinitamente interessanti per i giovani utenti. I genitori cercano schede sugli insetti per incanalare questa curiosità naturale in attività di apprendimento strutturate, mentre i venditori necessitano di risorse per il negozio per le unità di entomologia, gli studi sui cicli vitali e le esplorazioni degli habitat che compaiono nei programmi della prima infanzia e della scuola primaria.

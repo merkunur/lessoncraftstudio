@@ -1,26 +1,28 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'generatore di disegni da colorare gratis',
+    primaryKeyword: 'disegni da colorare gratis da stampare',
     secondaryKeywords: [
-      'disegni da colorare gratis online senza registrazione',
-      'creare pagine da colorare gratis PDF stampabile',
-      'generatore pagine da colorare bambini gratis',
-      'disegni da colorare personalizzati gratis con filigrana',
-      'pagine da colorare stampabili gratis prova gratuita',
+      'disegni da colorare gratis online',
+      'pagine da colorare da stampare gratis PDF',
+      'creare disegni da colorare gratis senza registrazione',
+      'disegni da colorare bambini gratis',
+      'generatore pagine da colorare gratis online',
     ],
     lsiKeywords: [
-      'disegni da colorare gratis senza registrazione',
-      'pagine da colorare stampabili PDF gratis',
-      'prova gratuita filigrana licenza commerciale',
-      'generatore coloring page gratis online',
+      'disegni da colorare',
+      'pagine da colorare',
+      'stampabile PDF',
+      'gratis online',
+      'senza registrazione',
+      'bambini',
     ],
-    titleTag: 'Disegni da colorare gratis online | LessonCraftStudio',
-    metaDescription: 'Crea disegni da colorare gratis online, senza registrazione. Canvas libero, 3.100+ illustrazioni, 104 temi. Licenza commerciale disponibile.',
+    titleTag: 'Disegni da colorare gratis da stampare | LessonCraftStudio',
+    metaDescription: 'Crea disegni da colorare gratis online, senza registrazione. Canvas libero, oltre 3.100 illustrazioni, 104 temi, PDF ad alta risoluzione. Prova subito.',
     },
 
   hero: {
-    title: 'Crea Disegni da Colorare Gratis Online',
+    title: 'Disegni da Colorare Gratis da Stampare',
     tagline: 'Generatore di pagine da colorare su canvas libero con disegno a mano libera, esportazione in scala di grigi, assistenti per il negozio e 104 collezioni tematiche per pagine da colorare professionali vendibili in tutto il mondo senza traduzione',
     description: 'Crea disegni da colorare gratis direttamente nel browser, senza registrazione e senza installare nulla. Apri lo strumento e inizia subito: canvas libero dove posizioni le immagini ovunque vuoi, 104 collezioni tematiche con oltre 3.100 illustrazioni, strumento di disegno a mano libera con pennello regolabile (1–50 pixel), esportazione in scala di grigi e bordi decorativi. Aggiungi campo nome, linee di scrittura e testo personalizzato con 7 famiglie di font. Esporta PDF e JPEG a 300 DPI nei formati Letter, A4, Quadrato o dimensioni personalizzate — tutto istantaneamente e gratis con filigrana. Ogni funzionalità è accessibile nella prova gratuita. Vuoi vendere le tue creazioni su Etsy, Amazon KDP o Gumroad? Passa alla licenza commerciale per rimuovere la filigrana e sbloccare l\'uso commerciale illimitato.',
   },

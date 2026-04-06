@@ -2,27 +2,28 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'creare gioco indovina parola gratis',
+    primaryKeyword: 'gioco dell\'impiccato da stampare gratis',
     secondaryKeywords: [
-      'generatore indovina parola gratis online',
-      'schede indovina parole stampabili gratis',
-      'gioco indovina parola con immagini senza registrazione',
-      'schede spelling visivo gratis PDF',
-      'generatore indovina parole da stampare gratis',
+      'indovina la parola gratis online',
+      'gioco dell\'impiccato gratis da stampare PDF',
+      'indovina parola gratis senza registrazione',
+      'schede indovina la parola da stampare gratis',
+      'giochi di parole da stampare gratis',
     ],
     lsiKeywords: [
-      'gratis',
-      'senza registrazione',
-      'stampabile',
-      'PDF',
-      'prova gratuita con filigrana',
+      'gioco dell\'impiccato',
+      'indovina la parola',
+      'spelling',
+      'lettere mancanti',
+      'stampabile PDF',
+      'gratis online',
     ],
     titleTag: 'Indovina la parola gratis online | LessonCraftStudio',
-    metaDescription: 'Crea schede indovina la parola gratis online, senza registrazione. 4 livelli di indizi, esclusione lettere, 11 lingue, PDF istantaneo. Licenza per vendere.',
+    metaDescription: 'Crea schede indovina la parola da stampare gratis online, senza registrazione. 4 livelli di indizi, esclusione lettere, 11 lingue. Prova subito nel browser.',
   },
 
   hero: {
-    title: 'Crea il Gioco Indovina la Parola Gratis',
+    title: 'Gioco dell\'Impiccato da Stampare Gratis Online',
     tagline: 'Crea schede di spelling basate su immagini con 4 livelli di indizi in 11 lingue',
     description: 'Crea schede indovina la parola gratis direttamente nel browser — nessuna registrazione, nessun download. Lo strumento genera puzzle dove un indizio immagine è abbinato a una griglia di lettere con spazi vuoti — gli utenti osservano l\'immagine e inseriscono le lettere mancanti. Un sistema progressivo a 4 livelli di indizi controlla la difficoltà: da Nessun Indizio (nessuna lettera rivelata) a Facile (metà delle lettere visibili). Scegli tra modalità Indizio Immagine con oltre 3.100 illustrazioni in 104 temi o Lista Parole Personalizzata per vocabolario specifico. La funzione Escludi Lettere rimuove lettere specifiche dalle griglie per esercizi mirati. La stessa immagine genera parole diverse in ciascuna delle 11 lingue supportate. Esporta PDF e JPEG con foglio risposte opzionale. Vuoi vendere le tue schede su Etsy, Amazon KDP o Gumroad? Passa alla licenza commerciale per rimuovere la filigrana e ottenere i diritti di rivendita completi.',
   },

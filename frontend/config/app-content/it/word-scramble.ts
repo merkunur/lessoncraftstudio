@@ -2,31 +2,26 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'creare anagrammi stampabili per business su Etsy',
+    primaryKeyword: 'anagrammi da stampare',
     secondaryKeywords: [
-      'schede di anagrammi stampabili per negozio Etsy',
-      'generatore lettere mescolate per Amazon KDP',
-      'puzzle di riordino lettere licenza commerciale',
-      'creare libri di anagrammi per KDP',
-      'schede lettere mescolate da vendere online',
+      'lettere mescolate scheda',
+      'riordinare lettere esercizio',
+      'anagrammi per bambini da stampare',
+      'formare parole con lettere',
     ],
     lsiKeywords: [
-      'licenza commerciale',
-      '300 DPI',
-      'pronto per la stampa',
-      'anagrammi',
-      'riordino lettere',
-      'reddito passivo',
-      'download digitale',
-      'business di stampabili',
+      'anagramma',
+      'mescolare',
+      'riordinare',
       'ortografia',
+      'vocabolario',
     ],
-    titleTag: 'Anagrammi stampabili da vendere su Etsy | LCS',
-    metaDescription: 'Crea schede di anagrammi con immagini da vendere su Etsy e KDP. 4 livelli, codice colori vocali, 11 lingue, licenza commerciale. 49 $ pagamento unico.',
+    titleTag: 'Anagrammi da stampare | Generatore di lettere mescolate',
+    metaDescription: 'Create schede di anagrammi con immagini tematiche. Soluzioni automatiche, PDF stampabili. Prova gratis — licenza commerciale inclusa.',
   },
 
   hero: {
-    title: 'Crea e vendi anagrammi stampabili su Etsy, KDP e oltre',
+    title: 'Anagrammi da stampare — Generatore di lettere mescolate con immagini',
     tagline: 'Tessere di lettere mescolate incontrano indizi immagine — quattro livelli di difficoltà e un codice colori vocali-consonanti trasformano ogni parola in un puzzle di ortografia pratico.',
     description:
       'Crea anagrammi stampabili da vendere su Etsy e Amazon KDP — puzzle dove gli utenti vedono un indizio immagine e riordinano tessere di lettere mescolate per comporre la parola corretta. Quattro livelli di difficoltà controllano quante lettere sono pre-posizionate, creando una progressione dal principiante all\'avanzato. Funzione esclusiva: codice colori vocali-consonanti che aggiunge una dimensione fonetica visiva. Tre fonti di contenuto: libreria di oltre 3.100 immagini in 104 temi, modifica manuale o lista personalizzata. In italiano le parole obiettivo sono genuinamente localizzate — "cane", "gatto", "farfalla" — rendendo ogni lingua un prodotto distinto. Foglio risposte automatico, esportazione PDF a oltre 300 DPI e licenza commerciale inclusa. Gli anagrammi e i puzzle di parole sono tra i formati più richiesti su Etsy, ma in italiano la concorrenza è quasi nulla. Crea pacchetti tematici di ortografia o compila libri di puzzle per KDP. Prova gratis con filigrana.',

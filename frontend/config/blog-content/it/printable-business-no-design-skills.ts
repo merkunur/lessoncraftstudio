@@ -2,11 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'business stampabili senza competenze design',
-    secondaryKeywords: ['business stampabili digitali Italia', 'vendere stampabili online strategia', 'Etsy KDP stampabili mercato italiano'],
-    lsiKeywords: ['stampabili educativi business', 'vendita online prodotti digitali', 'mercato italiano stampabili 2026'],
-    titleTag: 'Business Stampabili Senza Saper Disegnare | LCS',
-    metaDescription: 'Avvii un business di stampabili senza saper disegnare. Come i generatori automatici rendono il design accessibile a tutti.',
+    primaryKeyword: 'creare schede didattiche senza saper disegnare',
+    secondaryKeywords: [
+      'generatore schede senza competenze grafiche',
+      'fare materiale educativo senza design',
+      'creare esercizi stampabili facile automatico',
+      'schede professionali senza Photoshop',
+    ],
+    lsiKeywords: [
+      'senza design',
+      'automatico',
+      'facile',
+      'generatore',
+      'accessibile',
+      'intuitivo',
+    ],
+    titleTag: 'Creare Schede Senza Saper Disegnare | LCS',
+    metaDescription: 'Come creare schede didattiche professionali senza competenze di design. Generatore automatico intuitivo LessonCraftStudio — 33 strumenti, 11 lingue.',
   },
   hero: {
     title: 'Business Stampabili Senza Competenze di Design',

@@ -4,20 +4,20 @@ const content: GuideContent = {
   seo: {
     primaryKeyword: 'creare libri di sudoku per Amazon KDP',
     secondaryKeywords: [
-      'libri sudoku illustrato bambini KDP logica prescuola',
-      'sudoku numerico adulti Amazon KDP allenamento cerebrale',
+      'libri sudoku illustrato bambini KDP',
+      'sudoku numerico adulti Amazon KDP',
       'strategia serie multi-volume libri sudoku Amazon',
-      'formattazione griglie sudoku stampa KDP guida',
-      'progressione difficoltà sudoku facile esperto libri',
+      'formattazione griglie sudoku stampa KDP',
     ],
     lsiKeywords: [
-      'sudoku illustrato bambini logica puzzle prescuola',
-      'riacquisto risolutori fedeli catalogo serie volumi',
-      'conteggio puzzle layout pagina chiave risposte',
-      'doppio mercato bambini adulti sudoku Amazon',
+      'sudoku illustrato bambini',
+      'progressione difficoltà',
+      'serie multi-volume KDP',
+      'doppio mercato bambini adulti',
+      'griglie sudoku per stampa',
     ],
-    titleTag: 'Libri di sudoku per Amazon KDP | LessonCraftStudio',
-    metaDescription: 'Crea libri di sudoku per Amazon KDP: sudoku illustrato per bambini e numerico per adulti. Progressione difficoltà, griglie e strategia serie.',
+    titleTag: 'Libri di sudoku per Amazon KDP | Guida',
+    metaDescription: 'Come creare libri di sudoku per Amazon KDP: sudoku illustrato per bambini e numerico per adulti. Progressione difficoltà, griglie e strategia serie.',
   },
 
   hero: {

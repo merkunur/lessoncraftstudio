@@ -2,11 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'schede maggiore minore vendere',
-    secondaryKeywords: ['schede più meno bambini Etsy', 'stampabili confronto quantità vendere', 'business schede maggiore minore uguale'],
-    lsiKeywords: ['concetti quantità prescuola', 'schede confronto numerico bambini', 'matematica prescuola stampabili'],
-    titleTag: 'Schede Maggiore/Minore: Vendere Online | LCS',
-    metaDescription: 'Venda schede maggiore, minore e uguale su Etsy. Competenza matematica fondamentale con domanda costante.',
+    primaryKeyword: 'schede maggiore minore uguale da stampare',
+    secondaryKeywords: [
+      'esercizi confronto numeri scuola primaria PDF',
+      'schede più grande più piccolo prescuola',
+      'attività maggiore minore bambini stampare',
+      'confronto quantità numeri da stampare',
+    ],
+    lsiKeywords: [
+      'maggiore',
+      'minore',
+      'uguale',
+      'confronto',
+      'numeri',
+      'quantità',
+    ],
+    titleTag: 'Schede Maggiore Minore Uguale da Stampare | LCS',
+    metaDescription: 'Schede maggiore, minore e uguale da stampare per la scuola primaria. Esercizi di confronto numeri e quantità con LessonCraftStudio — 33 generatori.',
   },
   hero: {
     title: 'Schede Maggiore, Minore e Uguale: Come Vendere',

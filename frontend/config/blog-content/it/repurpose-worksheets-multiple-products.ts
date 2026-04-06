@@ -2,11 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'schede riutilizzare prodotti multipli',
-    secondaryKeywords: ['come creare stampabili vendere', 'guida pratica stampabili business', 'tutorial stampabili educativi'],
-    lsiKeywords: ['creazione stampabili professionali', 'workflow produzione schede', 'ottimizzazione vendita stampabili'],
-    titleTag: 'Riutilizzare Schede: Prodotti Multipli | LCS',
-    metaDescription: 'Moltiplichi il Suo catalogo riutilizzando le stesse schede in formati e pacchetti diversi. Strategia efficiente. Vendi su Etsy & KDP con licenza commerciale.',
+    primaryKeyword: 'riutilizzare schede didattiche più formati',
+    secondaryKeywords: [
+      'stesse schede in pacchetti diversi',
+      'moltiplicare materiale educativo formati',
+      'adattare esercizi per diverse età',
+      'trasformare schede in libri attività',
+    ],
+    lsiKeywords: [
+      'riutilizzare',
+      'adattare',
+      'formati',
+      'pacchetti',
+      'diversificare',
+      'trasformare',
+    ],
+    titleTag: 'Riutilizzare Schede in Più Formati | LCS',
+    metaDescription: 'Come riutilizzare le stesse schede didattiche in più formati e pacchetti. Strategia efficiente con LessonCraftStudio — 33 generatori, 11 lingue.',
   },
   hero: {
     title: 'Come Riutilizzare le Schede in Prodotti Multipli',

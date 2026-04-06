@@ -2,11 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'trova e conta stampabili profitto',
-    secondaryKeywords: ['schede trova e conta Etsy vendere', 'stampabili conteggio visivo bambini', 'business trova conta educativi'],
-    lsiKeywords: ['attività conteggio visivo prescuola', 'schede cerca conta stampabili', 'giochi numerazione visiva bambini'],
-    titleTag: 'Trova e Conta Stampabili: Profitto | LCS',
-    metaDescription: 'Generi profitto con stampabili Trova e Conta. Strategie per vendere su Etsy questa nicchia educativa per bambini piccoli.',
+    primaryKeyword: 'schede trova e conta da stampare bambini',
+    secondaryKeywords: [
+      'esercizi cerca e conta prescuola PDF',
+      'attività conta oggetti scuola infanzia',
+      'schede conteggio con immagini da stampare',
+      'gioco trova e conta bambini stampabile',
+    ],
+    lsiKeywords: [
+      'trova e conta',
+      'conteggio',
+      'immagini',
+      'cerca',
+      'numeri',
+      'prescuola',
+    ],
+    titleTag: 'Schede Trova e Conta da Stampare | LCS',
+    metaDescription: 'Schede trova e conta da stampare per bambini della scuola dell\'infanzia. Esercizi di conteggio visivo con LessonCraftStudio — 33 generatori.',
   },
   hero: {
     title: 'Stampabili Trova e Conta: Come Generare Profitto',

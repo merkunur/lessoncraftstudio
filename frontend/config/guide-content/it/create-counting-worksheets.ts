@@ -2,26 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'creare schede di conteggio da vendere su Etsy',
+    primaryKeyword: 'come creare schede di conteggio da stampare',
     secondaryKeywords: [
-      'schede conteggio e grafici stampabili per Etsy e KDP',
-      'generatore schede grafici per immagini uso commerciale',
-      'vendere schede conteggio con grafici a barre online',
-      'creare schede rappresentazione dati con licenza commerciale',
-      'schede grafici per immagini da vendere su Gumroad',
+      'schede conteggio con grafici per bambini PDF',
+      'creare esercizi di conteggio da stampare',
+      'generatore schede grafici a barre prescolare',
+      'attività di conteggio con immagini da stampare',
     ],
     lsiKeywords: [
-      'griglia 4x5 immagini sparse con grafici a barre',
-      'chiavi di risposta automatiche doppio canvas',
-      'prodotti stampabili competenze dati per venditori',
-      'schede conteggio indipendenti dalla lingua marketplace',
+      'conteggio per immagini',
+      'grafici a barre prescolare',
+      'schede matematica infanzia',
+      'attività STEM bambini',
+      'esercizi rappresentazione dati',
     ],
-    titleTag: 'Schede di conteggio da vendere | LessonCraftStudio',
-    metaDescription: 'Crea schede di conteggio con grafici per immagini, chiavi di risposta automatiche e 104 temi. Esporta PDF per vendere su Etsy, Amazon KDP e Gumroad.',
+    titleTag: 'Creare schede di conteggio da stampare | Guida',
+    metaDescription: 'Come creare schede di conteggio da stampare con grafici per immagini, chiavi di risposta automatiche e 104 temi. Ideale per scuola dell\'infanzia.',
   },
 
   hero: {
-    title: 'Schede di conteggio e grafici da vendere online',
+    title: 'Come creare schede di conteggio da stampare',
     tagline: 'Tutorial passo passo per creare schede di grafici per immagini con griglie di immagini sparse, chiavi di risposta auto-generate e grafici a barre — pronte per la vendita su Etsy, Amazon KDP e Gumroad',
     description: 'Le schede di conteggio con grafici per immagini insegnano due competenze matematiche fondamentali in un\'unica attività: raccolta dati (contare immagini sparse) e rappresentazione dati (compilare un grafico a barre). Questo formato a doppia competenza è uno standard curricolare nelle scuole elementari di tutto il mondo, con una domanda costante e sostenuta. Il grande vantaggio per i venditori è che il conteggio visivo usa numeri e immagini universali — gli stessi file si vendono in qualsiasi paese senza traduzione. Il sistema a doppio canvas genera automaticamente scheda e chiave di risposta simultaneamente, eliminando il passaggio più dispendioso nella produzione di bundle. Con 104 temi disponibili e una distribuzione casuale che rende ogni generazione unica, puoi produrre centinaia di schede diverse rapidamente. Questa guida ti mostra come usare il Generatore Schede Grafici e Conteggio per creare prodotti professionali pronti per Etsy, Amazon KDP e Gumroad. Che tu stia lanciando il tuo primo prodotto o espandendo un catalogo esistente, avrai schede finite con chiavi di risposta pronte per la pubblicazione.',
   },

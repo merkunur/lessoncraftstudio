@@ -4,20 +4,20 @@ const content: GuideContent = {
   seo: {
     primaryKeyword: 'pubblicare libri di giochi su Amazon KDP',
     secondaryKeywords: [
-      'come creare libri puzzle per Amazon KDP guida',
+      'come creare libri puzzle per Amazon KDP',
       'libri crucipuzzle cruciverba sudoku KDP formattazione',
       'strategia serie multi-volume libri puzzle Amazon',
-      'libri puzzle varietà adulti bambini KDP mercato',
       'conteggio pagine progressione difficoltà libri giochi',
     ],
     lsiKeywords: [
-      'griglia puzzle spaziatura formato ritaglio KDP',
-      'sezione soluzioni chiavi risposta libro puzzle',
-      'print-on-demand catalogo puzzle serie volumi',
-      'parole chiave Amazon categorie libri giochi',
+      'libri puzzle KDP',
+      'formattazione griglie stampa',
+      'sezione soluzioni chiavi',
+      'serie volumi catalogo',
+      'parole chiave Amazon puzzle',
     ],
-    titleTag: 'Pubblicare libri di giochi su KDP | LessonCraftStudio',
-    metaDescription: 'Pubblica libri di giochi su Amazon KDP con crucipuzzle, cruciverba e sudoku. Formattazione, strategia serie e ottimizzazione per il mercato italiano.',
+    titleTag: 'Pubblicare libri di giochi su Amazon KDP | Guida',
+    metaDescription: 'Come pubblicare libri di giochi su Amazon KDP con crucipuzzle, cruciverba e sudoku. Formattazione, strategia serie e ottimizzazione per editori.',
   },
 
   hero: {

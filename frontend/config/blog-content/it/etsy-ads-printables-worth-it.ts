@@ -2,11 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'Etsy Ads stampabili conviene',
-    secondaryKeywords: ['business stampabili digitali Italia', 'vendere stampabili online strategia', 'Etsy KDP stampabili mercato italiano'],
-    lsiKeywords: ['stampabili educativi business', 'vendita online prodotti digitali', 'mercato italiano stampabili 2026'],
-    titleTag: 'Etsy Ads per Stampabili: Conviene? | LCS',
-    metaDescription: 'Scopra se Etsy Ads conviene per i Suoi stampabili. Analisi costi, ROAS e strategie per campagne redditizie.',
+    primaryKeyword: 'promuovere schede didattiche Etsy pubblicità',
+    secondaryKeywords: [
+      'Etsy Ads materiale educativo conviene',
+      'pubblicità schede stampabili online',
+      'promozione inserzioni didattiche Etsy',
+      'aumentare visibilità schede Etsy',
+    ],
+    lsiKeywords: [
+      'pubblicità',
+      'promozione',
+      'visibilità',
+      'Etsy Ads',
+      'inserzioni',
+      'clic',
+    ],
+    titleTag: 'Promuovere Schede Didattiche su Etsy | LCS',
+    metaDescription: 'Come promuovere schede didattiche su Etsy con la pubblicità. Strategie per aumentare visibilità e vendite con LessonCraftStudio — 33 generatori.',
   },
   hero: {
     title: 'Etsy Ads per Stampabili: Vale la Pena?',

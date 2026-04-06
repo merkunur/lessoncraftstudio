@@ -2,26 +2,26 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'come avviare un business di stampabili 2026',
+    primaryKeyword: 'come creare e vendere stampabili online',
     secondaryKeywords: [
-      'aprire negozio stampabili Etsy Italia',
-      'vendere schede didattiche online guida completa',
-      'business download digitali per principianti',
-      'creare e vendere stampabili su Amazon KDP',
-      'guida passo-passo attività stampabili da casa',
+      'guida completa business stampabili 2026',
+      'come vendere schede didattiche online',
+      'creare stampabili da vendere per principianti',
+      'avviare attività di stampabili educativi',
     ],
     lsiKeywords: [
-      'generatore di schede con licenza commerciale',
-      'prodotti digitali reddito passivo',
-      'catalogo stampabili Etsy KDP Gumroad',
-      'nicchia redditizia schede didattiche',
+      'stampabili educativi',
+      'schede didattiche',
+      'vendere online',
+      'generatore',
+      'business da casa',
     ],
-    titleTag: 'Avviare business stampabili (2026) | LessonCraftStudio',
-    metaDescription: 'Avviare un business di stampabili nel 2026: scelta della nicchia, creazione prodotti, piattaforme e prezzi. Prova gratuita con filigrana inclusa.',
+    titleTag: 'Come creare e vendere stampabili online | LCS',
+    metaDescription: 'Guida completa per creare e vendere stampabili educativi online nel 2026: scelta nicchia, creazione prodotti, piattaforme e strategie di prezzo.',
   },
 
   hero: {
-    title: 'Avviare un Business di Stampabili nel 2026: Guida Completa',
+    title: 'Come Creare e Vendere Stampabili Online: Guida 2026',
     tagline: 'Da zero alla prima vendita — tutto ciò che devi sapere per costruire un\'attività di schede didattiche stampabili',
     description: 'Il mercato italiano dei prodotti educativi stampabili è in forte crescita su Etsy.it, Amazon.it e Gumroad. Questa guida ti accompagna in ogni fase del lancio: dalla scelta di una nicchia redditizia alla creazione di schede professionali con generatori automatici, dalla pubblicazione sulle piattaforme giuste alla strategia di prezzo che massimizza il profitto. Scoprirai come costruire un catalogo che genera vendite ricorrenti senza competenze di design grafico. Ogni generatore offre una prova gratuita con filigrana per testare la qualità dell\'output prima di investire in una licenza commerciale.',
   },

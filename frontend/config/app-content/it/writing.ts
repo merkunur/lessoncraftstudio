@@ -2,30 +2,28 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'generatore di schede di scrittura da vendere su Etsy e KDP',
+    primaryKeyword: 'schede pregrafismo da stampare',
     secondaryKeywords: [
-      'creare schede di calligrafia stampabili per Etsy',
-      'schede di scrittura a mano per quaderni Amazon KDP',
-      'generatore pregrafismo licenza commerciale',
-      'vendere schede di pratica scrittura su Eduki',
-      'business stampabili schede tracciamento lettere',
+      'generatore di calligrafia',
+      'schede prescrittura da stampare',
+      'pregrafismo scuola infanzia',
+      'tratteggio lettere schede',
     ],
     lsiKeywords: [
-      'licenza commerciale',
-      '300 DPI',
-      'pronto per la stampa',
-      'pregrafismo',
-      'scrittura a mano',
-      'business di stampabili',
-      'tracciamento progressivo',
-      'frecce ordine tratti',
+      'tracciato',
+      'lettere',
+      'corsivo',
+      'stampatello',
+      'motricita fine',
+      'scuola dell\'infanzia',
+      'classe prima',
     ],
-    titleTag: 'Schede di scrittura da vendere su Etsy | LCS',
-    metaDescription: 'Crea schede di scrittura professionali da vendere su Etsy e KDP. 3 modalità, 5 font, licenza commerciale inclusa. 49 $ pagamento unico.',
+    titleTag: 'Schede pregrafismo da stampare | Generatore di prescrittura',
+    metaDescription: 'Create schede di pregrafismo e prescrittura con parole personalizzate. 11 lingue, PDF 300 DPI. Prova gratis — licenza commerciale per venditori.',
   },
 
   hero: {
-    title: 'Genera schede di scrittura da vendere su Etsy, KDP e oltre',
+    title: 'Schede pregrafismo da stampare — Generatore di prescrittura',
     tagline: 'Tre modalità di pratica progressive con ordine dei tratti guidato da frecce e guide delle lettere a opacità decrescente — sviluppa la fluidità di scrittura dal tracciamento completo alla scrittura autonoma in un\'unica scheda.',
     description:
       'Il mercato italiano dei stampabili educativi su Etsy e Amazon KDP è ancora un oceano blu: pochissimi venditori offrono schede di scrittura professionali in italiano, mentre la domanda di materiali di pregrafismo e calligrafia cresce ogni anno. Con questo generatore crei schede di scrittura pronte per la vendita in pochi minuti, senza competenze grafiche. Tre modalità di pratica — Tracciamento, Tracciamento Progressivo e Copia Guidata — ti permettono di costruire set differenziati per ogni livello. Cinque stili di font, frecce per l\'ordine dei tratti ed esercizi di pregrafismo moltiplicano le varianti di prodotto. Esporta in PDF a 300 DPI nei formati Letter, A4 o personalizzati, pronti per inserzioni Etsy, interni KDP o listini Eduki. La licenza commerciale è inclusa nell\'Accesso Completo, che sblocca anche 104 temi con oltre 3100 illustrazioni e 11 lingue. Prova gratis con tutte le funzionalità — senza registrazione, senza carta di credito. I download includono una filigrana; acquista una licenza per rimuoverla.',

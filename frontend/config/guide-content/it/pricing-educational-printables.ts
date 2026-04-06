@@ -2,26 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'strategia di prezzo per schede educative',
+    primaryKeyword: 'strategia prezzi per stampabili educativi',
     secondaryKeywords: [
-      'come stabilire il prezzo di stampabili su Etsy',
-      'psicologia dei prezzi per venditori di schede',
-      'margini di profitto stampabili educativi',
-      'test dei prezzi prodotti digitali marketplace',
-      'commissioni piattaforma e ricavo netto venditori',
+      'come stabilire il prezzo di stampabili online',
+      'psicologia prezzi per venditori di schede',
+      'margini profitto stampabili educativi calcolo',
+      'test prezzi prodotti digitali marketplace',
     ],
     lsiKeywords: [
-      'ancoraggio prezzo valore percepito',
-      'prezzi a livelli bundle stampabili',
-      'analisi competitiva prezzi marketplace',
-      'ottimizzazione ricavi prodotti digitali',
+      'ancoraggio prezzo valore',
+      'prezzi a livelli bundle',
+      'analisi competitiva prezzi',
+      'ottimizzazione ricavi',
+      'commissioni piattaforma',
     ],
-    titleTag: 'Prezzi per schede educative | LessonCraftStudio',
-    metaDescription: 'Strategie di prezzo per schede educative: psicologia dei prezzi, analisi competitiva e test sistematici per. Vendi su Etsy & KDP con licenza commerciale.',
+    titleTag: 'Prezzi per stampabili educativi | Guida',
+    metaDescription: 'Strategie di prezzo per stampabili educativi: psicologia dei prezzi, analisi competitiva e test sistematici per massimizzare i ricavi su ogni piattaforma.',
   },
 
   hero: {
-    title: 'Come Stabilire i Prezzi delle Schede Educative',
+    title: 'Come stabilire i prezzi degli stampabili educativi',
     tagline: 'Una guida completa per stabilire i prezzi dei stampabili educativi per massimizzare i ricavi e garantire una crescita sostenibile — dalla ricerca di mercato e analisi competitiva, al calcolo dei costi e pianificazione dei margini di profitto, ai modelli di prezzo per diversi tipi di prodotto, alla psicologia dei prezzi e ottimizzazione delle conversioni, alle considerazioni specifiche per piattaforma, fino al test sistematico dei prezzi per un miglioramento continuo',
     description: 'Il prezzo è la leva più potente nel tuo business di stampabili educativi. Un aumento di soli $3 su tutto il catalogo può raddoppiare i margini di profitto, mentre la sottovalutazione ti costa migliaia di euro ogni anno senza che te ne accorga. Nel mercato italiano, dove molti venditori copiano i prezzi dei concorrenti senza una strategia, c\'è un\'enorme opportunità per chi applica un approccio sistematico. Questa guida ti offre un framework completo per definire i prezzi dei tuoi stampabili: dalla ricerca di mercato alla psicologia dei prezzi, dall\'analisi delle commissioni piattaforma ai test A/B. Funziona su Etsy, Amazon KDP, Gumroad e Creative Fabrica.',
   },

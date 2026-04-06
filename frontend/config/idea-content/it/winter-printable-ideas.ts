@@ -2,25 +2,26 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Stampabili invernali per Etsy | LessonCraftStudio',
-    metaDescription: 'Crea e vendi stampabili invernali su Etsy e KDP. Idee prodotto con neve, pinguini e Carnevale per il mercato italiano. Strumenti e strategie per venditori.',
-    primaryKeyword: 'stampabili invernali da vendere su Etsy',
+    titleTag: 'Schede invernali da stampare per bambini | LCS',
+    metaDescription: 'Crea schede invernali da stampare: colorare pupazzi di neve e pinguini, crucipuzzle inverno, conteggio e attività Carnevale per bambini 3-8 anni.',
+    primaryKeyword: 'schede invernali da stampare',
     secondaryKeywords: [
-      'vendere schede invernali su Etsy',
-      'business stampabili inverno neve KDP',
-      'creare stampabili stagione fredda',
-      'nicchia stampabili invernali Carnevale',
-      'idee prodotto stampabili pupazzi neve pinguini',
+      'attività inverno da stampare per bambini',
+      'stampabili neve e pinguini da colorare',
+      'schede didattiche invernali scuola primaria',
+      'giochi inverno da stampare gratis',
     ],
     lsiKeywords: [
-      'mercato stampabili invernali Italia',
-      'generatore schede tema inverno neve',
-      'vendere stampabili digitali stagione fredda',
-      'stampabili Carnevale maschere bambini',
+      'scuola primaria',
+      'neve',
+      'pinguini',
+      'Carnevale',
+      'colorare',
+      'inverno',
     ],
   },
   hero: {
-    title: 'Stampabili Invernali: Vendere da Novembre a Carnevale',
+    title: 'Schede Invernali da Stampare: Idee Creative per Bambini',
     description: 'L\'inverno offre una finestra di vendita prolungata da novembre a febbraio, con un vantaggio unico per il mercato italiano: il Carnevale. Questa tradizione italianissima — da Venezia a Viareggio, da Ivrea a Putignano — crea una domanda massiccia di stampabili a tema maschere, costumi e coriandoli che si sovrappone alla stagione invernale, estendendo la finestra di vendita fino a marzo. Oltre al Carnevale, i mesi freddi italiani generano domanda costante per attività al chiuso: fiocchi di neve, pupazzi di neve, pinguini, orsi polari e cioccolata calda sono sotto-temi che funzionano in ogni contesto familiare e scolastico. Per gli imprenditori digitali, la nicchia invernale offre domanda prevedibile e indipendente dalle festività religiose. Con i nostri generatori di schede puoi creare stampabili invernali da vendere su Etsy, Amazon KDP e Gumroad, sfruttando la tradizione del Carnevale come differenziatore unico nel mercato internazionale.',
   },
   marketOverview: `La nicchia dei stampabili invernali occupa una posizione unicamente vantaggiosa nel calendario delle vendite stagionali perché offre una domanda sostenuta su una finestra di quattro mesi senza la competizione intensa che si concentra attorno a festività specifiche come Natale o San Valentino. i venditori tornano dalle vacanze invernali a gennaio con la necessità di temi freschi per il negozio che mantengano il coinvolgimento degli utenti durante il lungo periodo prima della primavera, e l\'immaginario invernale fornisce un\'opzione naturale e adatta al catalogo prodotti che funziona in ogni contesto scolastico indipendentemente da considerazioni culturali o religiose. I genitori che affrontano settimane di freddo e gioco all\'aperto limitato cercano attivamente attività educative al chiuso che mantengano i bambini in apprendimento e intrattenuti, rendendo le schede invernali un acquisto pratico piuttosto che un lusso stagionale.

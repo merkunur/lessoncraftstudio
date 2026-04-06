@@ -2,11 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'servizio clienti prodotti digitali stampabili',
-    secondaryKeywords: ['business stampabili digitali Italia', 'vendere stampabili online strategia', 'Etsy KDP stampabili mercato italiano'],
-    lsiKeywords: ['stampabili educativi business', 'vendita online prodotti digitali', 'mercato italiano stampabili 2026'],
-    titleTag: 'Servizio Clienti per Prodotti Digitali | LCS',
-    metaDescription: 'Gestisca il servizio clienti per i Suoi prodotti digitali. FAQ, risposte tipo, rimborsi e costruzione della. Vendi su Etsy & KDP con licenza commerciale.',
+    primaryKeyword: 'assistenza clienti prodotti didattici digitali',
+    secondaryKeywords: [
+      'supporto acquirenti materiale educativo online',
+      'gestire domande schede didattiche PDF',
+      'FAQ materiale didattico scaricabile',
+      'aiuto download schede stampabili',
+    ],
+    lsiKeywords: [
+      'assistenza',
+      'supporto',
+      'FAQ',
+      'download',
+      'problemi',
+      'aiuto',
+    ],
+    titleTag: 'Assistenza Prodotti Didattici Digitali | LCS',
+    metaDescription: 'Come gestire l\'assistenza clienti per prodotti didattici digitali. FAQ, supporto e soluzioni con LessonCraftStudio — 33 generatori, 11 lingue.',
   },
   hero: {
     title: 'Servizio Clienti per Prodotti Digitali: Best Practice',

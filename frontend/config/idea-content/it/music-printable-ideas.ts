@@ -2,25 +2,25 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Stampabili musica da vendere | LessonCraftStudio',
-    metaDescription: 'Crea stampabili musica da vendere su Etsy e KDP. Idee prodotto strumenti musicali, ritmo e note per un business di schede musicali sempreverde.',
-    primaryKeyword: 'stampabili musica da vendere',
+    titleTag: 'Schede musica da stampare per bambini | LCS',
+    metaDescription: 'Crea schede a tema musica da stampare: colorare strumenti musicali, crucipuzzle, abbinamento note e attività ritmiche per bambini della scuola primaria.',
+    primaryKeyword: 'schede musica da stampare',
     secondaryKeywords: [
-      'schede strumenti musicali per venditori Etsy',
-      'stampabili teoria musicale business',
-      'attività note e ritmo da vendere online',
-      'nicchia stampabili educazione musicale',
-      'idee prodotto stampabili musica bambini',
+      'attività musicali da stampare per bambini',
+      'stampabili strumenti musicali da colorare',
+      'schede didattiche musica scuola primaria',
+      'giochi musicali da stampare gratis',
     ],
     lsiKeywords: [
-      'schede pianoforte chitarra vendita Etsy',
-      'stampabili educativi musica KDP',
-      'generatore schede musicali business online',
-      'prodotti digitali tema strumenti musicali',
+      'scuola primaria',
+      'strumenti musicali',
+      'colorare',
+      'note',
+      'ritmo',
     ],
   },
   hero: {
-    title: 'Stampabili sulla musica: idee di prodotto da vendere',
+    title: 'Schede Musica da Stampare: Idee Creative per Bambini',
     description: 'La musica è una nicchia sempreverde eccezionale per i venditori di stampabili, alimentata dall\'amore universale dei bambini per suoni, ritmo e strumenti. I sotto-temi sono ricchissimi — pianoforte, chitarra, batteria, violino, note musicali, schemi ritmici, strumenti d\'orchestra — e ciascuno apre opportunità di prodotto distinte su Etsy, Amazon KDP e Gumroad. La versatilità interdisciplinare è un vantaggio enorme: la musica si collega alla matematica (conteggio del ritmo, misure di tempo), all\'alfabetizzazione (vocabolario musicale), alla motricità fine (notazione e pratica strumentale) e all\'apprendimento socio-emotivo (espressione creativa). Il pubblico di acquirenti è ampio — genitori di piccoli musicisti, famiglie con istruzione parentale e acquirenti di materiale creativo educativo — e la domanda resta costante in ogni periodo dell\'anno. In questa guida trovi idee concrete, strategie per piattaforma e approcci di posizionamento per lanciare la tua linea di stampabili musicali con i nostri generatori di schede.',
   },
   marketOverview: `La nicchia dei stampabili musicali occupa una posizione particolarmente vantaggiosa per i venditori perché praticamente ogni bambino ha una connessione diretta e personale con la musica attraverso il canto, il battere le mani, la danza, il suonare strumenti online, la visione di spettacoli musicali o l\'ascolto delle canzoni preferite durante i viaggi in auto e le routine della buonanotte. A differenza dei temi stagionali che concentrano la domanda in finestre temporali ristrette, la nicchia musicale beneficia di una genuina rilevanza tutto l\'anno: l\'educazione musicale si svolge continuamente durante l\'intero anno scolastico, i bambini interagiscono con la musica quotidianamente indipendentemente dalla stagione, e le celebrazioni culturali con la musica si verificano in ogni mese attraverso comunità diverse in tutto il mondo. Questo schema di domanda costante rende i stampabili musicali una fonte di entrate affidabile senza i cicli di abbondanza e carestia che sfidano i venditori in nicchie più stagionali.

@@ -2,11 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'reddito passivo stampabili verità',
-    secondaryKeywords: ['business stampabili digitali Italia', 'vendere stampabili online strategia', 'Etsy KDP stampabili mercato italiano'],
-    lsiKeywords: ['stampabili educativi business', 'vendita online prodotti digitali', 'mercato italiano stampabili 2026'],
-    titleTag: 'Reddito Passivo con Stampabili: La Verità | LCS',
-    metaDescription: 'La verità sul reddito passivo con stampabili. Quanto è realmente "passivo" e cosa serve per arrivarci nel 2026. Vendi su Etsy & KDP con licenza commerciale.',
+    primaryKeyword: 'guadagnare con schede didattiche online realtà',
+    secondaryKeywords: [
+      'quanto si guadagna vendendo schede stampabili',
+      'reddito materiale educativo digitale verità',
+      'guadagni reali schede didattiche online',
+      'vendere esercizi da stampare quanto rende',
+    ],
+    lsiKeywords: [
+      'guadagno',
+      'reddito',
+      'realtà',
+      'aspettative',
+      'tempo',
+      'impegno',
+    ],
+    titleTag: 'Guadagnare con Schede Didattiche: Realtà | LCS',
+    metaDescription: 'Quanto si guadagna realmente con schede didattiche online. Aspettative realistiche e timeline con LessonCraftStudio — 33 generatori, 11 lingue.',
   },
   hero: {
     title: 'Reddito Passivo con Stampabili: La Verità che Nessuno Dice',

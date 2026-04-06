@@ -2,26 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'creare crucipuzzle con immagini da vendere',
+    primaryKeyword: 'come creare crucipuzzle da stampare',
     secondaryKeywords: [
-      'crucipuzzle stampabili per Etsy e Amazon KDP',
-      'generatore crucipuzzle uso commerciale',
-      'vendere libri di crucipuzzle online',
-      'creare cerca parole tematici con licenza commerciale',
-      'crucipuzzle multilingue da vendere su Gumroad',
+      'generatore crucipuzzle con immagini per bambini',
+      'creare crucipuzzle personalizzati da stampare PDF',
+      'crucipuzzle tematici da stampare con soluzioni',
+      'cerca parole da stampare per scuola primaria',
     ],
     lsiKeywords: [
-      'puzzle cerca parole con indizi immagini tematiche',
-      'prodotti stampabili crucipuzzle per venditori',
-      'libri crucipuzzle Amazon KDP nicchia redditizia',
-      'crucipuzzle vocabolario multilingue 11 lingue',
+      'crucipuzzle per bambini',
+      'cerca parole da stampare',
+      'puzzle linguistici',
+      'griglie configurabili',
+      'indizi con immagini',
     ],
-    titleTag: 'Crucipuzzle con immagini da vendere | LessonCraftStudio',
-    metaDescription: 'Crea crucipuzzle con indizi visivi, griglie configurabili e fogli risposte a colori. Guida per vendere libri di puzzle su Etsy, Amazon KDP e Gumroad.',
+    titleTag: 'Creare crucipuzzle da stampare | Guida',
+    metaDescription: 'Come creare crucipuzzle da stampare con indizi visivi, griglie configurabili e fogli risposte a colori. Generatore con 104 temi disponibili.',
   },
 
   hero: {
-    title: 'Crucipuzzle con immagini da vendere: guida pratica',
+    title: 'Come creare crucipuzzle da stampare',
     tagline: 'Tutorial passo passo per creare puzzle cerca parole tematici con indizi con immagini da vendere su Etsy, Amazon KDP e Gumroad',
     description: 'I crucipuzzle con immagini sono tra le categorie di stampabili più vendute su Etsy e Amazon KDP. In Italia, il termine "crucipuzzle" è immediatamente riconosciuto e ha un volume di ricerca superiore a "cerca parole", offrendo un\'opportunità concreta per i venditori che vogliono posizionarsi in una nicchia ad alta domanda. Bambini, genitori e appassionati di puzzle cercano costantemente nuovi libri di crucipuzzle tematici. Il Generatore di Puzzle Cerca Parole supporta 11 lingue, permettendoti di creare prodotti multilingue che la maggior parte dei concorrenti ignora completamente. Questa guida ti accompagna dalla scelta tra Modalità Vocabolario e liste personalizzate alla configurazione della griglia, delle direzioni e dei livelli di difficoltà. Con il supporto per indizi con immagini tematiche e fogli risposte con codice colore, ogni puzzle che crei si distingue dalla concorrenza generica. Che tu stia lanciando il tuo primo prodotto o costruendo un catalogo di libri crucipuzzle per KDP, avrai puzzle finiti pronti per la pubblicazione.',
   },

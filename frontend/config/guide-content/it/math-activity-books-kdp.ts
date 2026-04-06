@@ -4,20 +4,20 @@ const content: GuideContent = {
   seo: {
     primaryKeyword: 'creare quaderni di matematica per Amazon KDP',
     secondaryKeywords: [
-      'pubblicare libri attività matematica KDP guida',
-      'quaderno matematica Amazon KDP formattazione manoscritto',
-      'royalty KDP libri attività matematica strategia prezzi',
+      'pubblicare libri attività matematica KDP',
+      'quaderno matematica Amazon KDP formattazione',
       'design copertina libro matematica Amazon KDP',
-      'ottimizzazione parole chiave KDP libri matematica bambini',
+      'ottimizzazione parole chiave KDP libri matematica',
     ],
     lsiKeywords: [
-      'formato ritaglio pagine interne libro attività KDP',
-      'print-on-demand Amazon quaderni educativi',
-      'progressione difficoltà chiavi risposta quaderni',
-      'processo revisione KDP copia prova copie autore',
+      'quaderni matematica KDP',
+      'formattazione manoscritto',
+      'progressione difficoltà',
+      'chiavi risposta quaderni',
+      'print-on-demand Amazon',
     ],
-    titleTag: 'Quaderni di matematica per Amazon KDP | LessonCraftStudio',
-    metaDescription: 'Crea quaderni di matematica per Amazon KDP: formattazione manoscritto, copertina, parole chiave e royalty. Guida passo dopo passo per editori italiani.',
+    titleTag: 'Quaderni matematica per Amazon KDP | Guida',
+    metaDescription: 'Come creare quaderni di matematica per Amazon KDP: formattazione manoscritto, copertina, parole chiave e royalty. Guida passo passo per editori.',
   },
 
   hero: {

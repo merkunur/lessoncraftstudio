@@ -2,26 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'creare crittogrammi da vendere',
+    primaryKeyword: 'come creare crittogrammi da stampare',
     secondaryKeywords: [
-      'crittogrammi stampabili per Etsy e Amazon KDP',
-      'generatore puzzle cifrario illustrato uso commerciale',
-      'vendere libri di crittogrammi per bambini online',
-      'creare puzzle cifrario con licenza commerciale',
-      'crittogrammi con immagini da vendere su Gumroad',
+      'generatore crittogrammi con cifrario illustrato',
+      'creare puzzle cifrario per bambini PDF',
+      'crittogrammi da stampare con soluzioni',
+      'puzzle decodifica lettere da stampare',
     ],
     lsiKeywords: [
-      'cifrario illustrato con mappatura immagine-lettera',
-      'cursore lettere da rivelare per difficoltà graduata',
-      'alfabeti sensibili alla lingua per prodotti multilingue',
-      'prodotti stampabili crittogrammi per venditori',
+      'cifrario illustrato',
+      'puzzle decodifica per bambini',
+      'crittogrammi con immagini',
+      'difficoltà regolabile',
+      'alfabeti multilingue',
     ],
-    titleTag: 'Crittogrammi da vendere online | LessonCraftStudio',
-    metaDescription: 'Crea crittogrammi con cifrario illustrato, difficoltà regolabile e alfabeti multilingue. Esporta PDF professionali per vendere su Etsy, KDP e Gumroad.',
+    titleTag: 'Creare crittogrammi da stampare | Guida',
+    metaDescription: 'Come creare crittogrammi da stampare con cifrario illustrato, difficoltà regolabile e alfabeti multilingue. Esporta PDF professionali in pochi minuti.',
   },
 
   hero: {
-    title: 'Crittogrammi da vendere: guida alla creazione',
+    title: 'Come creare crittogrammi da stampare',
     tagline: 'Un tutorial passo passo per creare puzzle con cifrario illustrato dove ogni lettera dell\'alfabeto corrisponde a un\'immagine unica e gli utenti decodificano intere frasi segrete attraverso il riconoscimento di pattern, con un cursore Lettere da Rivelare (0–10) come controllo principale della difficoltà, Assegnazione Automatica per la produzione in serie con un clic e Assegnazione Manuale per una precisione personalizzata, alfabeti sensibili alla lingua che aggiungono caratteri specifici come il tedesco ä/ö/ü/ß e il francese é/è/ç/à, filtro Colore vs B/N per la creazione di prodotti doppi, chiavi di risposta con legenda lettere ed esportazioni a 400+ DPI che puoi vendere in tutto il mondo su Etsy, Amazon KDP e Gumroad',
     description: 'I crittogrammi con cifrario illustrato offrono un formato puzzle unico dove ogni lettera dell\'alfabeto è mappata su un\'immagine e intere frasi vengono codificate come sequenze di immagini da decodificare. Questo formato crea un coinvolgimento deduttivo che i cerca parole e gli anagrammi non possono eguagliare, rendendolo uno dei prodotti di alfabetizzazione più differenziati sui marketplace. Il mercato italiano offre un\'opportunità concreta: i crittogrammi in italiano usano un alfabeto specifico e frasi nella lingua, creando prodotti genuinamente diversi dalla versione inglese. Il cursore Lettere da Rivelare (0-10) è il controllo principale della difficoltà, permettendoti di creare intere linee di prodotti graduati da un singolo design. L\'Assegnazione Automatica consente la produzione in serie rapida, mentre l\'Assegnazione Manuale offre controllo preciso per prodotti premium. La sensibilità linguistica trasforma ogni sessione di design in 11 prodotti distinti con alfabeti e frasi diverse per ogni lingua — inclusi caratteri speciali come ä, ö, ü per il tedesco e é, è, ç per il francese. Questa guida ti mostra ogni passaggio dalla creazione del cifrario all\'esportazione di PDF a 400+ DPI pronti per la stampa. Che tu stia creando il tuo primo prodotto puzzle o espandendo un catalogo esistente, avrai crittogrammi finiti pronti per la pubblicazione.',
   },

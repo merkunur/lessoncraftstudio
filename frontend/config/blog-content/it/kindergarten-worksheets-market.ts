@@ -2,11 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'schede prima classe primaria mercato',
-    secondaryKeywords: ['stampabili tematici vendere Etsy Italia', 'nicchia stampabili educativi mercato', 'schede tematiche stagionali vendere'],
-    lsiKeywords: ['stampabili educativi nicchia', 'mercato stagionale stampabili', 'Etsy Italia schede tematiche'],
-    titleTag: 'Schede Prima Classe: Il Mercato | LCS',
-    metaDescription: 'Analizzi il mercato delle schede per la prima classe della scuola primaria. Domanda, offerta e strategie vincenti.',
+    primaryKeyword: 'schede didattiche prima elementare da stampare',
+    secondaryKeywords: [
+      'esercizi classe prima scuola primaria PDF',
+      'schede prerequisiti prima elementare',
+      'attività didattiche 6 anni da stampare',
+      'materiale prima classe primaria stampabile',
+    ],
+    lsiKeywords: [
+      'prima elementare',
+      'classe prima',
+      '6 anni',
+      'scuola primaria',
+      'prerequisiti',
+      'letto-scrittura',
+    ],
+    titleTag: 'Schede Prima Elementare da Stampare | LCS',
+    metaDescription: 'Schede didattiche per la prima elementare da stampare. Esercizi di letto-scrittura e matematica con LessonCraftStudio — 33 generatori, 11 lingue.',
   },
   hero: {
     title: 'Schede per la Prima Classe: Analisi del Mercato',

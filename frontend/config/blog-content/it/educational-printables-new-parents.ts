@@ -2,11 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'stampabili educativi nuovi genitori',
-    secondaryKeywords: ['stampabili tematici vendere Etsy Italia', 'nicchia stampabili educativi mercato', 'schede tematiche stagionali vendere'],
-    lsiKeywords: ['stampabili educativi nicchia', 'mercato stagionale stampabili', 'Etsy Italia schede tematiche'],
-    titleTag: 'Stampabili per Nuovi Genitori | LCS',
-    metaDescription: 'Stampabili per genitori di bambini 0-3 anni. Schede, milestone e attività per lo sviluppo precoce. Vendi su Etsy & KDP con licenza commerciale.',
+    primaryKeyword: 'attività educative bambini 0-3 anni da stampare',
+    secondaryKeywords: [
+      'schede primo apprendimento neonati toddler',
+      'attività sviluppo precoce da stampare',
+      'materiale didattico bambini piccoli PDF',
+      'esercizi sensoriali bambini 1-2 anni',
+    ],
+    lsiKeywords: [
+      'primo apprendimento',
+      'sviluppo',
+      'sensoriale',
+      'toddler',
+      'neonato',
+      'motricità',
+    ],
+    titleTag: 'Attività Educative 0-3 Anni da Stampare | LCS',
+    metaDescription: 'Attività educative per bambini 0-3 anni da stampare. Schede di sviluppo precoce, motricità fine e primi concetti con LessonCraftStudio — 33 generatori.',
   },
   hero: {
     title: 'Stampabili Educativi per Nuovi Genitori',

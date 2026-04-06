@@ -2,11 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'branding negozio stampabili consigli',
-    secondaryKeywords: ['business stampabili digitali Italia', 'vendere stampabili online strategia', 'Etsy KDP stampabili mercato italiano'],
-    lsiKeywords: ['stampabili educativi business', 'vendita online prodotti digitali', 'mercato italiano stampabili 2026'],
-    titleTag: 'Branding Negozio Stampabili: Consigli | LCS',
-    metaDescription: 'Consigli di branding per il Suo negozio di stampabili. Logo, colori, stile e coerenza che creano fiducia. Vendi su Etsy & KDP con licenza commerciale.',
+    primaryKeyword: 'branding negozio schede didattiche online',
+    secondaryKeywords: [
+      'identità visiva shop materiale educativo',
+      'logo e stile negozio stampabili',
+      'creare marchio schede didattiche',
+      'coerenza grafica negozio educativo',
+    ],
+    lsiKeywords: [
+      'branding',
+      'logo',
+      'identità',
+      'stile',
+      'coerenza',
+      'fiducia',
+    ],
+    titleTag: 'Branding Negozio Schede Didattiche | LCS',
+    metaDescription: 'Come creare un branding coerente per il tuo negozio di schede didattiche online. Identità visiva e stile con LessonCraftStudio — 33 generatori.',
   },
   hero: {
     title: 'Branding per il Suo Negozio di Stampabili: Consigli',

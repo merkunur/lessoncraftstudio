@@ -2,25 +2,25 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Licenza in volume stampabili | LessonCraftStudio',
-    metaDescription: 'Crea un business di licenza in volume di stampabili per scuole e organizzazioni. Transazioni ad alto valore e rinnovi annuali — idee per venditori.',
-    primaryKeyword: 'licenza in volume stampabili idee business',
+    titleTag: 'Licenze stampabili per scuole e istituti | LCS',
+    metaDescription: 'Crea pacchetti di stampabili con licenza per scuole e organizzazioni educative. Schede didattiche in volume per istituti, centri doposcuola e asili nido.',
+    primaryKeyword: 'licenze stampabili per scuole',
     secondaryKeywords: [
-      'business licenza collettiva schede didattiche',
-      'vendita stampabili scuole istituti volume',
-      'accordi licenza stampabili organizzazioni educative',
-      'nicchia licenza in volume prodotti digitali',
-      'idee business stampabili ingrosso istituzionale',
+      'schede didattiche in volume per istituti',
+      'stampabili educativi per organizzazioni',
+      'pacchetti schede per scuole e asili',
+      'materiale didattico stampabile in volume',
     ],
     lsiKeywords: [
-      'contratti licenza scuole distretti vendita',
-      'stampabili copertura organizzativa istituzionale',
-      'generatore schede catalogo licenza volume',
-      'prodotti digitali acquisti istituzionali premium',
+      'scuola primaria',
+      'scuola dell\'infanzia',
+      'centri doposcuola',
+      'schede didattiche',
+      'materiale educativo',
     ],
   },
   hero: {
-    title: 'Licenza in volume stampabili: transazioni ad alto valore',
+    title: 'Licenze Stampabili per Scuole: Pacchetti in Volume',
     description: 'La licenza in volume è un modello premium in cui offri contratti di licenza collettiva a scuole, catene di centri di ripetizioni e organizzazioni educative. Gli acquirenti istituzionali acquistano licenze che coprono intere organizzazioni, generando transazioni ad alto valore che superano di gran lunga le vendite singole su marketplace. Le istituzioni rinnovano annualmente, creando relazioni di entrate a lungo termine prevedibili. I dipartimenti di approvvigionamento preferiscono strutture di licenza rispetto alla gestione di centinaia di transazioni individuali. Il valore per licenza riflette la copertura organizzativa e la semplicità amministrativa. Gli strumenti generatori permettono di costruire rapidamente librerie complete di schede che coprono materie, livelli e temi diversi. In questa guida trovi collezioni di prodotti concedibili in licenza, strategie per raggiungere acquirenti istituzionali e approcci per costruire un\'operazione sostenibile di licenza in volume.',
   },
   marketOverview: `Il modello di licenza in volume risponde a un\'esigenza fondamentale di acquisto tra le istituzioni educative dove scuole, distretti scolastici, catene di centri di ripetizioni e reti di programmi necessitano di materiali coerenti tra più negozi, sedi e membri del personale ma trovano l\'acquisto individuale per prodotto dal marketplace impraticabile, costoso e amministrativamente gravoso quando scalato ai requisiti organizzativi. Una singola scuola con trenta venditori che acquista prodotti individuali di schede didattiche crea centinaia di transazioni separate, qualità incoerente dei materiali tra i negozi e nessun controllo centralizzato sui contenuti educativi che fluiscono attraverso l\'istituzione, problemi che la licenza in volume risolve fornendo un unico contratto che copre l\'intera organizzazione.

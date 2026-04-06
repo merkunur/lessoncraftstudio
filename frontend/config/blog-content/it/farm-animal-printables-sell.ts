@@ -2,11 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'stampabili animali fattoria vendere',
-    secondaryKeywords: ['stampabili tematici vendere Etsy Italia', 'nicchia stampabili educativi mercato', 'schede tematiche stagionali vendere'],
-    lsiKeywords: ['stampabili educativi nicchia', 'mercato stagionale stampabili', 'Etsy Italia schede tematiche'],
-    titleTag: 'Stampabili Animali Fattoria: Vendere | LCS',
-    metaDescription: 'Venda stampabili a tema fattoria. Mucche, galline, maiali per schede educative amate da bambini e genitori.',
+    primaryKeyword: 'schede animali fattoria da stampare bambini',
+    secondaryKeywords: [
+      'attività fattoria scuola infanzia da stampare',
+      'schede mucca gallina maiale bambini PDF',
+      'esercizi animali fattoria prescuola',
+      'colorare animali fattoria da stampare',
+    ],
+    lsiKeywords: [
+      'fattoria',
+      'mucca',
+      'gallina',
+      'maiale',
+      'cavallo',
+      'pecora',
+    ],
+    titleTag: 'Schede Animali Fattoria da Stampare | LCS',
+    metaDescription: 'Schede didattiche sugli animali della fattoria da stampare per bambini. Mucca, gallina, maiale e cavallo con LessonCraftStudio — 33 generatori.',
   },
   hero: {
     title: 'Stampabili Animali della Fattoria: Come Vendere',

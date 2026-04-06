@@ -2,26 +2,28 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'generatore schede sequenze gratis',
+    primaryKeyword: 'sequenze logiche da stampare gratis',
     secondaryKeywords: [
-      'schede sequenze gratis online senza registrazione',
-      'generatore treno sequenze gratis PDF stampabile',
-      'schede riconoscimento schemi gratis bambini',
-      'creare schede sequenze ripetitive gratis',
-      'schede pattern treno gratis prova gratuita',
+      'schede sequenze gratis online',
+      'sequenze logiche per bambini da stampare gratis PDF',
+      'sequenze gratis senza registrazione',
+      'schede completa la sequenza gratis',
+      'esercizi sequenze logiche gratis online',
     ],
     lsiKeywords: [
-      'schede sequenze gratis senza registrazione',
-      'stampabile PDF gratis filigrana',
-      'prova gratuita licenza commerciale',
-      'generatore sequenze AB ABC gratis online',
+      'sequenze logiche',
+      'completa la sequenza',
+      'riconoscimento schemi',
+      'pattern',
+      'stampabile PDF',
+      'gratis online',
     ],
-    titleTag: 'Schede sequenze gratis online | LessonCraftStudio',
-    metaDescription: 'Crea schede sequenze gratis online, senza registrazione. Cinque tipi di schema, 11 vagoni tematici, risposte automatiche. Licenza commerciale disponibile.',
+    titleTag: 'Sequenze logiche da stampare gratis | LessonCraftStudio',
+    metaDescription: 'Crea schede di sequenze logiche da stampare gratis online, senza registrazione. Cinque tipi di schema, vagoni tematici, risposte automatiche. Prova subito.',
   },
 
   hero: {
-    title: 'Crea Schede Sequenze Gratis con il Treno',
+    title: 'Sequenze Logiche da Stampare Gratis Online',
     tagline: 'Genera schede con sequenze ripetitive disposte su 11 vagoni tematici del treno con cinque tipi di schema, conteggio indizi regolabile e output completamente visivo senza testo che si vende in tutto il mondo senza traduzione',
     description: 'Crea schede sequenze gratis direttamente nel browser, senza registrazione e senza installare nulla. Cinque tipi di schema (AB, AAB, ABB, ABC, AABB) su un treno tematico con 11 vagoni disposti su tre righe. Regola il conteggio indizi da 4 a 10 per controllare la difficoltà. Il formato a vagoni del treno è un differenziatore visivo unico rispetto alle comuni schede a griglia. Sfoglia oltre 3.100 illustrazioni in 104 collezioni tematiche, chiave di risposta automatica inclusa. Esporta PDF e JPEG a 300 DPI in formato Letter, A4, Quadrato o personalizzato — tutto gratis con filigrana, istantaneamente. Ogni funzionalità è accessibile nella prova gratuita senza limiti. Vuoi vendere le tue schede su Etsy, Amazon KDP o Gumroad? Passa alla licenza commerciale per rimuovere la filigrana e sbloccare l\'uso commerciale illimitato.',
   },

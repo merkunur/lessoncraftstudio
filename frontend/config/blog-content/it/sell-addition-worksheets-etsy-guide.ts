@@ -2,19 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'vendere schede addizione Etsy 2026',
+    primaryKeyword: 'schede addizioni scuola primaria da stampare',
     secondaryKeywords: [
-      'schede matematica stampabili vendere',
-      'business schede addizione online',
-      'creare schede addizione profitto',
+      'esercizi addizione prima elementare PDF',
+      'schede somme bambini da stampare',
+      'addizioni con immagini scuola infanzia',
+      'esercizi calcolo addizione da stampare',
     ],
     lsiKeywords: [
-      'stampabili matematica business',
-      'strategia prezzi schede didattiche',
-      'Etsy download digitale matematica',
+      'addizione',
+      'somma',
+      'calcolo',
+      'prima elementare',
+      'numeri',
+      'immagini',
     ],
-    titleTag: 'Vendere Schede Addizione su Etsy: Guida | LCS',
-    metaDescription: 'Scopra come vendere schede di addizione su Etsy con profitto. Strategie di prezzo, bundle e ottimizzazione inserzioni che funzionano nel 2026.',
+    titleTag: 'Schede Addizioni Scuola Primaria da Stampare | LCS',
+    metaDescription: 'Schede di addizioni da stampare per la scuola primaria. Esercizi con immagini e livelli di difficoltà con LessonCraftStudio — 33 generatori.',
   },
   hero: {
     title: 'Come Vendere Schede di Addizione su Etsy: Guida Completa',

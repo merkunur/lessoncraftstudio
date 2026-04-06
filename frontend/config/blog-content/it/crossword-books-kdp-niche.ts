@@ -2,11 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'libri cruciverba KDP nicchia',
-    secondaryKeywords: ['pubblicare cruciverba Amazon KDP', 'libri cruciverba bambini vendere', 'nicchia cruciverba stampabili'],
-    lsiKeywords: ['autopubblicazione puzzle parole', 'cruciverba educativi KDP', 'Amazon.it libri puzzle'],
-    titleTag: 'Libri Cruciverba KDP: Nicchia Redditizia | LCS',
-    metaDescription: 'Pubblichi libri di cruciverba su Amazon KDP. Scopra perché questa nicchia è perfetta per il mercato italiano nel 2026.',
+    primaryKeyword: 'cruciverba per bambini da stampare PDF',
+    secondaryKeywords: [
+      'cruciverba facili scuola primaria da stampare',
+      'parole crociate bambini 7-10 anni',
+      'cruciverba educativi con soluzioni PDF',
+      'cruciverba tematici bambini stampabili',
+    ],
+    lsiKeywords: [
+      'cruciverba',
+      'parole crociate',
+      'enigmistica',
+      'vocabolario',
+      'soluzioni',
+      'tematico',
+    ],
+    titleTag: 'Cruciverba Bambini da Stampare con Soluzioni | LCS',
+    metaDescription: 'Cruciverba per bambini da stampare con soluzioni incluse. Parole crociate educative per la scuola primaria con LessonCraftStudio — 33 generatori.',
   },
   hero: {
     title: 'Libri di Cruciverba su KDP: Una Nicchia Redditizia',

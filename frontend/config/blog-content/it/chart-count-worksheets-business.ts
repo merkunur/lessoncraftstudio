@@ -2,19 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'schede grafici conteggio business stampabili',
+    primaryKeyword: 'schede grafici e conteggio da stampare',
     secondaryKeywords: [
-      'schede contare e graficare vendere',
-      'attività grafici matematica Etsy',
-      'stampabili conteggio educativi business',
+      'esercizi conteggio scuola primaria PDF',
+      'schede grafici matematica bambini',
+      'attività conta e colora da stampare',
+      'schede numeri e conteggio prescuola',
     ],
     lsiKeywords: [
-      'raccolta dati scuola primaria',
-      'istogrammi bambini stampabili',
-      'attività statistica prescuola',
+      'conteggio',
+      'grafici',
+      'numeri',
+      'istogramma',
+      'conta',
+      'matematica',
     ],
-    titleTag: 'Schede Grafici e Conteggio: Business Guide | LCS',
-    metaDescription: 'Avvii un business vendendo schede di grafici e conteggio. Scopra nicchie, prezzi e strategie per questa categoria stampabile in crescita.',
+    titleTag: 'Schede Grafici e Conteggio da Stampare | LCS',
+    metaDescription: 'Schede di grafici e conteggio da stampare per la scuola primaria. Esercizi di matematica visiva con LessonCraftStudio — 33 generatori, 11 lingue.',
   },
   hero: {
     title: 'Schede Grafici e Conteggio: Avviare un Business',

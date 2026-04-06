@@ -1,27 +1,28 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'generatore di schede di addizione gratis online',
+    primaryKeyword: 'schede addizione da stampare gratis',
     secondaryKeywords: [
-      'creare schede addizione gratis online',
-      'schede addizione stampabili gratis',
-      'generatore addizione senza registrazione',
-      'esercizi addizione con immagini gratis PDF',
-      'schede addizione da stampare gratis',
+      'addizione gratis online da stampare',
+      'esercizi addizione da stampare gratis PDF',
+      'schede addizione con immagini gratis senza registrazione',
+      'schede addizione bambini da stampare gratis',
+      'generatore addizione gratis online',
     ],
     lsiKeywords: [
-      'gratis',
+      'addizione',
+      'esercizi matematica',
+      'conteggio immagini',
+      'stampabile PDF',
+      'gratis online',
       'senza registrazione',
-      'stampabile',
-      'PDF',
-      'prova gratuita con filigrana',
     ],
-    titleTag: 'Schede di addizione gratis online | LessonCraftStudio',
-    metaDescription: 'Crea schede di addizione gratis online, senza registrazione. 104 temi illustrati, 4 modalità, PDF istantaneo. Licenza commerciale per vendere.',
+    titleTag: 'Schede addizione da stampare gratis | LessonCraftStudio',
+    metaDescription: 'Crea schede di addizione da stampare gratis online, senza registrazione. 104 temi illustrati, 4 modalità, chiave di risposta, PDF istantaneo. Prova subito.',
     },
 
   hero: {
-    title: 'Crea Schede di Addizione Gratis Online',
+    title: 'Schede di Addizione da Stampare Gratis Online',
     tagline: 'Crea schede di addizione illustrate e professionali in meno di 60 secondi',
     description: 'Crea schede di addizione gratis con immagini tematiche direttamente nel browser — nessuna registrazione, nessun download. Scegli tra oltre 100 temi con più di 3.100 illustrazioni, imposta il livello di difficoltà attraverso quattro modalità di esercizio e scarica PDF pronti per la stampa o JPEG ad alta risoluzione in pochi secondi. Il generatore supporta formati Letter, A4 e quadrato con sfondi decorativi, cornici, font personalizzabili e chiave di risposta automatica. Ideale per creare materiali di matematica visuale con conteggio per immagini, addendi misti e layout professionali. Ogni scheda è unica grazie alla generazione casuale degli esercizi. La prova gratuita include tutte le funzionalità con filigrana sui download. Vuoi vendere le tue schede su Etsy, Amazon KDP o Gumroad? Passa alla licenza commerciale per rimuovere la filigrana e ottenere i diritti di rivendita completi.',
   },

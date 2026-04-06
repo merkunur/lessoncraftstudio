@@ -29,7 +29,7 @@ const toolsKeywords: Record<string, string[]> = {
   fr: ['générateur fiches gratuit en ligne', 'mots mêlés gratuit', 'mots croisés gratuit', 'fiches maths gratuit', 'générateur coloriage gratuit', 'sudoku à imprimer gratuit'],
   es: ['generador de fichas gratis online', 'crear sopa de letras gratis', 'crear crucigrama gratis', 'generador de ejercicios gratis', 'fichas de matemáticas gratis para imprimir', 'generador sudoku gratis'],
   pt: ['gerador de atividades grátis online', 'criar caça-palavras grátis', 'criar cruzadinha grátis', 'gerador de exercícios grátis', 'atividades de matemática grátis para imprimir', 'gerador sudoku grátis'],
-  it: ['generatori stampabili gratis', 'creatore schede online', 'strumenti stampabili prova gratis', 'generatore cerca parole gratis', 'generatore schede matematica', 'creatore disegni colorare online'],
+  it: ['generatore schede gratis', 'crucipuzzle gratis online', 'cruciverba gratis', 'generatore matematica gratis', 'schede da stampare gratis', 'strumenti didattici online'],
   nl: ['gratis printables-generators online', 'gratis werkblad maker', 'gratis woordzoeker generator', 'gratis rekenbladen maker', 'gratis kleurplaten generator', 'werkbladen online maken'],
   sv: ['gratis utskriftsgeneratorer', 'online arbetsbladsskapare', 'utskriftsverktyg prova gratis', 'ordsökningsgenerator gratis', 'mattearbetsbladsgenerator', 'målarbildsskapare online'],
   da: ['gratis printbare generatorer', 'online opgaveskaber', 'printable-værktøjer prøv gratis', 'ordsøgningsgenerator gratis', 'matematikopgave-generator', 'malebilledskaber online'],
@@ -59,8 +59,8 @@ const toolsMetadata: Record<string, { title: string; description: string }> = {
     description: 'Use os 33 geradores grátis online — caça-palavras, cruzadinhas, matemática, sudoku e mais. Sem cadastro. Marca d\'água removida com licença.',
   },
   it: {
-    title: '33 generatori gratis — Prova online | LessonCraftStudio',
-    description: 'Prova 33 generatori di stampabili gratis online. Senza registrazione. Crucipuzzle, matematica, colorare, puzzle e altro. Download con filigrana.',
+    title: 'Generatori di schede gratis | 33 strumenti online',
+    description: 'Usa i 33 generatori gratis online — crucipuzzle, cruciverba, matematica, sudoku e altro. Senza registrazione. La filigrana si rimuove con la licenza.',
   },
   nl: {
     title: '33 gratis generators — Probeer online | LessonCraftStudio',

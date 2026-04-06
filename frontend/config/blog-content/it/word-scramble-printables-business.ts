@@ -2,11 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'anagrammi stampabili business vendere',
-    secondaryKeywords: ['schede anagrammi Etsy vendere', 'puzzle parole mescolate stampabili', 'business anagrammi educativi'],
-    lsiKeywords: ['giochi parole stampabili vendere', 'attività lessicali educative', 'Etsy puzzle linguistici'],
-    titleTag: 'Anagrammi Stampabili: Avviare un Business | LCS',
-    metaDescription: 'Avvii un business con anagrammi stampabili. Nicchie, strategie di prezzo e marketing per vendere su Etsy e KDP nel 2026.',
+    primaryKeyword: 'anagrammi per bambini da stampare scuola',
+    secondaryKeywords: [
+      'gioco anagrammi scuola primaria da stampare',
+      'esercizi rimescola lettere bambini PDF',
+      'schede anagrammi educativi vocabolario',
+      'puzzle lettere mescolate bambini stampare',
+    ],
+    lsiKeywords: [
+      'anagrammi',
+      'lettere',
+      'vocabolario',
+      'spelling',
+      'gioco parole',
+      'rimescola',
+    ],
+    titleTag: 'Anagrammi per Bambini da Stampare | LCS',
+    metaDescription: 'Anagrammi educativi per bambini da stampare con soluzioni. Giochi di parole e vocabolario per scuola primaria con LessonCraftStudio — 33 generatori.',
   },
   hero: {
     title: 'Anagrammi Stampabili: Avviare un Business Redditizio',

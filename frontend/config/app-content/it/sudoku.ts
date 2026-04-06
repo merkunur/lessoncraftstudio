@@ -2,24 +2,29 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'generatore sudoku con immagini per libri KDP',
+    primaryKeyword: 'sudoku da stampare',
     secondaryKeywords: [
-      'creare puzzle sudoku illustrati da vendere su Amazon KDP',
-      'vendere schede sudoku con immagini su Etsy Italia',
-      'generatore sudoku visivo licenza commerciale stampabili',
-      'libri sudoku per bambini KDP mercato italiano',
+      'generatore sudoku',
+      'sudoku bambini da stampare',
+      'sudoku con immagini',
+      'creare sudoku personalizzato',
     ],
     lsiKeywords: [
-      'prodotti digitali sudoku illustrato venditori italiani',
-      'nicchia puzzle logici visivi per Etsy e KDP',
-      'stampabili sudoku con immagini uso commerciale',
+      'griglia',
+      'logica',
+      'numeri',
+      'immagini',
+      'facile',
+      'difficile',
+      '4x4',
+      '6x6',
     ],
-    titleTag: 'Sudoku con Immagini per Libri KDP | Crea e Vendi',
-    metaDescription: 'Crea sudoku con immagini da vendere su Amazon KDP e Etsy. Griglia 4×4, tre difficoltà, risposte automatiche. Licenza commerciale. 49 $ pagamento unico.',
+    titleTag: 'Sudoku da stampare | Generatore di sudoku con immagini',
+    metaDescription: 'Create sudoku con immagini o numeri, difficolta regolabile. Soluzioni automatiche, PDF stampabili. Prova gratis — vendete su Etsy e Amazon KDP.',
   },
 
   hero: {
-    title: 'Sudoku con Immagini per Libri Amazon KDP e Negozio Etsy',
+    title: 'Sudoku da stampare — Generatore di sudoku con immagini',
     tagline: 'Puzzle sudoku 4×4 puramente visivi con immagini al posto dei numeri — tre livelli di difficoltà da 4 a 8 celle vuote, fogli risposte autogenerati con griglie complete, e selezione di immagini tematiche tra 104 collezioni per puzzle vendibili in tutto il mondo senza traduzione.',
     description:
       'I libri di sudoku per bambini sono una nicchia molto redditizia su Amazon KDP, e la versione con immagini al posto dei numeri è ancora rarissima sul mercato italiano. Con questo generatore crei puzzle sudoku 4×4 professionali dove gli utenti riempiono le celle vuote usando la logica righe-colonne con illustrazioni colorate. Tre livelli di difficoltà — Facile (4 celle vuote), Medio (6) e Difficile (8) — permettono di creare libri progressivi per KDP. Seleziona 4 immagini dalla libreria integrata con oltre 3100 illustrazioni in 104 temi, oppure usa la selezione automatica per tema. Il design premium include blocchi 2×2 in colori alternati, ombre e bordi arrotondati. Ogni puzzle genera un foglio risposte automatico ed è interamente visivo — vendibile in tutto il mondo senza traduzione alcuna. Esporta PDF e JPEG a 300 DPI nei formati A4, Lettera o personalizzato. Crea pacchetti tematici per Etsy, compila quaderni di logica per Amazon KDP, o vendi su Eduki e Edudoro con la licenza commerciale inclusa. Prova gratis con tutte le funzionalità, senza registrazione. I download includono una filigrana; acquista una licenza per rimuoverla.',

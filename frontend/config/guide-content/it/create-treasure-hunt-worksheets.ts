@@ -2,26 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'creare caccia al tesoro da vendere',
+    primaryKeyword: 'come creare caccia al tesoro da stampare',
     secondaryKeywords: [
-      'schede caccia al tesoro stampabili per Etsy e KDP',
-      'generatore caccia al tesoro su griglia uso commerciale',
-      'vendere schede percorso direzionale online',
-      'creare attività griglia coordinate con licenza commerciale',
-      'caccia al tesoro per bambini da vendere su Gumroad',
+      'generatore caccia al tesoro su griglia per bambini',
+      'creare gioco caccia al tesoro da stampare PDF',
+      'schede percorso direzionale da stampare',
+      'attività caccia al tesoro scuola dell\'infanzia',
     ],
     lsiKeywords: [
-      'griglia 5x5 con mosse direzionali e immagini tematiche',
-      'due tipi direzione base e cardinale per fasce d\'età',
-      'indizi direzionali localizzati in 11 lingue',
-      'prodotti stampabili caccia al tesoro per venditori',
+      'caccia al tesoro bambini',
+      'griglia con coordinate',
+      'mosse direzionali',
+      'orientamento spaziale',
+      'percorso su griglia',
     ],
-    titleTag: 'Caccia al tesoro da vendere | LessonCraftStudio',
-    metaDescription: 'Crea schede caccia al tesoro su griglia 5x5 con mosse direzionali, immagini tematiche e chiavi di risposta. Vendi stampabili su Etsy, KDP e Gumroad.',
+    titleTag: 'Creare caccia al tesoro da stampare | Guida',
+    metaDescription: 'Come creare schede caccia al tesoro da stampare su griglia 5x5 con mosse direzionali, immagini tematiche e chiavi di risposta. Guida completa.',
   },
 
   hero: {
-    title: 'Caccia al tesoro da vendere: guida alla creazione',
+    title: 'Come creare caccia al tesoro da stampare',
     tagline: 'Tutorial passo passo per creare schede di caccia al tesoro su una griglia di coordinate 5×5 con due tipi di direzione (base su/giù/sinistra/destra e cardinale nord/sud/est/ovest), esattamente 4 mosse direzionali per puzzle, 6 immagini tematiche di riferimento, chiavi di risposta auto-generate con cella del tesoro evidenziata in giallo pallido e indizi direzionali completamente localizzati in 11 lingue da vendere in tutto il mondo su Etsy, Amazon KDP e Gumroad',
     description: 'Le schede caccia al tesoro combinano alfabetizzazione alle coordinate e vocabolario direzionale in un\'attività coinvolgente su griglia 5x5. Il formato è unico sui marketplace e si differenzia immediatamente dalla concorrenza di schede tradizionali. Due tipi di direzione — base (su/giù/sinistra/destra) per i più piccoli e cardinale (nord/sud/est/ovest) per utenti più grandi — creano prodotti differenziati per fascia d\'età dallo stesso design. Il vantaggio competitivo più forte è la localizzazione completa: tutti gli indizi direzionali si traducono nelle 11 lingue supportate, trasformando una singola sessione di design in 11 prodotti vendibili con contenuti autenticamente diversi in ogni lingua. Per i venditori italiani, questo significa raggiungere mercati internazionali con prodotti genuinamente localizzati, non semplici traduzioni. Con 104 temi disponibili e chiavi di risposta auto-generate, puoi costruire rapidamente un catalogo diversificato. Questa guida ti mostra ogni passaggio dalla scelta del tipo di direzione all\'esportazione di file pronti per la stampa. Che tu stia creando il tuo primo prodotto o espandendo un catalogo esistente, avrai schede finite pronte per la pubblicazione.',
   },

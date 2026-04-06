@@ -2,25 +2,25 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Stampabili sport — Idee business | LessonCraftStudio',
-    metaDescription: 'Crea stampabili sport da vendere su Etsy e KDP. Idee prodotto calcio, pallacanestro e atletica per un business di schede sportive sempreverde e redditizio.',
-    primaryKeyword: 'stampabili sport idee business',
+    titleTag: 'Schede sport da stampare per bambini | LCS',
+    metaDescription: 'Crea schede a tema sport da stampare: colorare calcio e pallacanestro, conteggio, crucipuzzle sportivi e attività motorie per bambini 4-9 anni.',
+    primaryKeyword: 'schede sport da stampare',
     secondaryKeywords: [
-      'schede sport da vendere su Etsy',
-      'stampabili calcio pallacanestro business',
-      'attività sportive stampabili per venditori',
-      'nicchia stampabili educazione fisica',
-      'idee prodotto schede sport online',
+      'attività sportive da stampare per bambini',
+      'stampabili calcio e sport da colorare',
+      'schede didattiche sport scuola primaria',
+      'giochi tema sport da stampare gratis',
     ],
     lsiKeywords: [
-      'schede conteggio punteggi sport vendita',
-      'stampabili olimpiadi educativi KDP',
-      'generatore schede sportive business',
-      'prodotti digitali tema atletica bambini',
+      'scuola primaria',
+      'calcio',
+      'pallacanestro',
+      'colorare',
+      'educazione fisica',
     ],
   },
   hero: {
-    title: 'Stampabili sullo sport: idee per un business redditizio',
+    title: 'Schede Sport da Stampare: Idee Creative per Bambini',
     description: 'Lo sport è una nicchia sempreverde potentissima per i venditori di stampabili, alimentata dalla rotazione stagionale delle discipline e dall\'entusiasmo universale dei bambini per calcio, pallacanestro, nuoto, ginnastica e atletica. I sotto-temi sono vastissimi e ciascuno apre opportunità di prodotto distinte su Etsy, Amazon KDP e Gumroad. La versatilità educativa è un enorme vantaggio: lo sport si collega alla matematica (punteggi, statistiche), all\'alfabetizzazione (vocabolario sportivo), all\'educazione fisica (movimento e salute) e alle competenze sociali (lavoro di squadra, sportività). Il pubblico di acquirenti è ampio — genitori di piccoli atleti, famiglie che praticano l\'istruzione parentale e acquirenti di materiale tematico — e la domanda resta alta in ogni periodo dell\'anno. In questa guida trovi idee di prodotto concrete, strategie per piattaforma e approcci di posizionamento per costruire una linea redditizia di stampabili sportivi con i nostri generatori di schede didattiche.',
   },
   marketOverview: `La nicchia dei stampabili sportivi occupa una posizione particolarmente vantaggiosa per i venditori perché quasi ogni bambino ha una connessione diretta e personale con lo sport attraverso il gioco in squadra, le partite guardate in famiglia, la collezione di figurine, l\'uso di maglie delle squadre del cuore, o la partecipazione alle lezioni di educazione fisica e alle attività ricreative. A differenza dei temi stagionali che concentrano la domanda in finestre temporali ristrette, la nicchia sportiva beneficia della naturale rotazione stagionale: il calcio e il football americano dominano le ricerche autunnali, pallacanestro e hockey trainano la domanda invernale, baseball e calcio crescono in primavera e estate, e nuoto e atletica leggera raggiungono il picco nei mesi caldi. Questo ciclo rotativo garantisce che i materiali educativi a tema sportivo mantengano una rilevanza costante tutto l\'anno piuttosto che dipendere da un singolo picco stagionale.

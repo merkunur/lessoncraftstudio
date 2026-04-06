@@ -2,26 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'creare schede di sequenze da vendere',
+    primaryKeyword: 'come creare schede di sequenze logiche da stampare',
     secondaryKeywords: [
-      'schede sequenze logiche stampabili per Etsy e KDP',
-      'generatore schede sequenze uso commerciale',
-      'vendere attività sequenze visive online',
-      'creare schede riconoscimento pattern con licenza commerciale',
-      'schede sequenze tematiche da vendere su Gumroad',
+      'schede sequenze per bambini da stampare PDF',
+      'creare esercizi di sequenze visive da stampare',
+      'generatore schede riconoscimento pattern',
+      'attività sequenze logiche scuola dell\'infanzia',
     ],
     lsiKeywords: [
-      'sequenze AB ABC ABCD con immagini tematiche',
-      'prodotti stampabili sequenze per venditori',
-      'schede pre-matematica indipendenti dalla lingua',
-      'nove tipi sequenza per catalogo diversificato',
+      'sequenze logiche bambini',
+      'sequenze AB ABC ABCD',
+      'schede pre-matematica',
+      'riconoscimento pattern',
+      'nove tipi sequenza',
     ],
-    titleTag: 'Schede di sequenze da vendere | LessonCraftStudio',
-    metaDescription: 'Crea schede di sequenze logiche con 9 tipi, 2 formati domanda e chiavi di risposta automatiche. Esporta PDF per vendere su Etsy, Amazon KDP e Gumroad.',
+    titleTag: 'Creare schede sequenze logiche da stampare | Guida',
+    metaDescription: 'Come creare schede di sequenze logiche da stampare con 9 tipi di sequenza, 2 formati domanda e chiavi di risposta automatiche. Tutorial completo.',
   },
 
   hero: {
-    title: 'Schede di sequenze da vendere: guida completa',
+    title: 'Come creare schede di sequenze logiche da stampare',
     tagline: 'Tutorial passo passo per creare schede di riconoscimento di sequenze logiche tematiche, pronte per la stampa, da vendere su Etsy, Amazon KDP e Gumroad',
     description: 'Le schede di sequenze logiche sono tra i prodotti stampabili più richiesti per la prima infanzia, con una domanda costante da genitori, scuole e centri di tutoraggio. Il grande vantaggio competitivo di questa categoria è che le schede di sequenze usano esclusivamente immagini — nessun testo da tradurre. Un singolo prodotto si vende identicamente in qualsiasi paese senza localizzazione, massimizzando il tuo potenziale di mercato internazionale. Con 9 tipi di sequenza distinti (dalle semplici AB alle complesse ABCD) e due formati domanda (casella vuota e scelta multipla), puoi creare un catalogo diversificato per ogni fascia d\'età dall\'età prescolare alla scuola elementare. Questa guida ti mostra come usare il Generatore di Schede di Sequenze Logiche per creare prodotti professionali con immagini tematiche, chiavi di risposta automatiche e PDF pronti per la stampa. Che tu stia lanciando il tuo primo prodotto o espandendo un catalogo esistente, avrai schede finite pronte per la pubblicazione.',
   },

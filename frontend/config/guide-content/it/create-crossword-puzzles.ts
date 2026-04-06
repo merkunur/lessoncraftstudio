@@ -2,26 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'creare cruciverba da vendere online',
+    primaryKeyword: 'come creare cruciverba da stampare',
     secondaryKeywords: [
-      'cruciverba stampabili per Etsy e Amazon KDP',
-      'generatore cruciverba con immagini uso commerciale',
-      'vendere libri di cruciverba per bambini',
-      'creare cruciverba multilingue con licenza commerciale',
-      'cruciverba tematici da vendere su Gumroad',
+      'generatore cruciverba con immagini per bambini',
+      'creare cruciverba personalizzati PDF',
+      'cruciverba tematici da stampare con soluzioni',
+      'cruciverba per scuola primaria da stampare',
     ],
     lsiKeywords: [
-      'cruciverba con indizi immagini per bambini',
-      'prodotti stampabili cruciverba per venditori',
-      'libri cruciverba Amazon KDP nicchia educativa',
-      'cruciverba vocabolario multilingue 11 lingue',
+      'cruciverba con indizi visivi',
+      'griglie a incroci',
+      'fogli risposte automatici',
+      'cruciverba per bambini',
+      'puzzle linguistici da stampare',
     ],
-    titleTag: 'Cruciverba da vendere online | LessonCraftStudio',
-    metaDescription: 'Crea cruciverba con indizi visivi, griglie a incroci e fogli risposte automatici. Guida per vendere prodotti puzzle su Etsy, Amazon KDP e Gumroad.',
+    titleTag: 'Creare cruciverba da stampare | Guida',
+    metaDescription: 'Come creare cruciverba da stampare con indizi visivi, griglie a incroci e fogli risposte automatici. Generatore configurabile per ogni livello.',
   },
 
   hero: {
-    title: 'Cruciverba da vendere online: guida alla creazione',
+    title: 'Come creare cruciverba da stampare',
     tagline: 'Tutorial passo passo per creare cruciverba tematici con indizi con immagini da vendere su Etsy, Amazon KDP e Gumroad',
     description: 'I cruciverba sono tra i formati di puzzle più amati in Italia, con una tradizione che va dalla Settimana Enigmistica ai libri di attività per bambini. Il mercato dei cruciverba educativi per bambini è in rapida crescita su Etsy e Amazon KDP, con una domanda particolarmente forte per prodotti con indizi basati su immagini che rendono i puzzle accessibili anche ai più piccoli. Il Generatore di Cruciverba supporta 11 lingue, permettendoti di creare linee di prodotti multilingue che la concorrenza ignora. Questa guida ti accompagna dalla scelta tra indizi con immagini e liste personalizzate alla configurazione della griglia, alla revisione degli indizi numerati e all\'esportazione di PDF professionali con fogli risposte. Ogni combinazione tema-lingua produce un cruciverba strutturalmente diverso, moltiplicando il tuo catalogo senza lavoro creativo aggiuntivo. Che tu stia lanciando il tuo primo prodotto puzzle o espandendoti nei libri KDP, avrai cruciverba finiti pronti per la pubblicazione.',
   },

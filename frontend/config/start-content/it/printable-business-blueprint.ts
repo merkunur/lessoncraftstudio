@@ -2,26 +2,26 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'piano d\'azione business stampabili',
+    primaryKeyword: 'come pianificare un business di stampabili',
     secondaryKeywords: [
-      'blueprint attività stampabili passo-passo',
-      'pianificare linea prodotti stampabili Etsy',
-      'strategia lancio negozio stampabili 90 giorni',
-      'mappatura catalogo schede didattiche da vendere',
-      'piano d\'affari download digitali educativi',
+      'piano d\'azione stampabili educativi',
+      'strategia lancio prodotti stampabili',
+      'come organizzare catalogo stampabili',
+      'guida pianificazione business stampabili',
     ],
     lsiKeywords: [
-      'validazione nicchia stampabili',
-      'obiettivi fatturato realistici venditori',
-      'espansione catalogo prodotti digitali',
-      'timeline lancio stampabili Etsy KDP',
+      'business stampabili',
+      'piano d\'azione',
+      'catalogo',
+      'nicchia',
+      'lancio prodotti',
     ],
-    titleTag: 'Piano d\'azione: business stampabili | LessonCraftStudio',
-    metaDescription: 'Trasforma le tue idee in un piano d\'azione concreto per stampabili. Vendi su Etsy & KDP con licenza commerciale.',
+    titleTag: 'Come pianificare un business di stampabili | LCS',
+    metaDescription: 'Come pianificare il tuo business di stampabili educativi: scelta nicchia, mappatura catalogo, timeline di lancio e obiettivi realistici. Piano pratico.',
   },
 
   hero: {
-    title: 'Piano d\'Azione per il Tuo Business di Stampabili',
+    title: 'Come Pianificare il Tuo Business di Stampabili',
     tagline: 'Un piano strutturato che trasforma idee sparse per stampabili in una linea di prodotti focalizzata e redditizia',
     description: 'La maggior parte delle attività di stampabili fallisce non per mancanza di idee, ma per mancanza di un piano. Questo blueprint ti guida dalla validazione dell\'idea alla mappatura della linea prodotti, dalla scelta delle piattaforme italiane e internazionali alla definizione di obiettivi di fatturato realistici. In 90 giorni avrai un catalogo strutturato di 50 prodotti, una strategia di prezzo testata e un programma di produzione settimanale. Ogni generatore offre una prova gratuita con filigrana per testare la creazione dei prodotti come parte del tuo processo di pianificazione.',
   },

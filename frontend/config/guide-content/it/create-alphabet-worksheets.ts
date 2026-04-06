@@ -2,26 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'creare schede dell\'alfabeto da vendere su Etsy',
+    primaryKeyword: 'come creare schede dell\'alfabeto da stampare',
     secondaryKeywords: [
-      'schede treno dell\'alfabeto stampabili per Etsy e KDP',
-      'generatore schede riconoscimento lettere uso commerciale',
-      'vendere schede alfabeto per bambini online',
-      'creare schede abbinamento lettere con licenza commerciale',
-      'schede alfabeto multilingue da vendere su Gumroad',
+      'schede riconoscimento lettere da stampare per bambini',
+      'creare schede treno dell\'alfabeto PDF',
+      'generatore schede alfabeto multilingue',
+      'esercizi abbinamento lettere da stampare',
     ],
     lsiKeywords: [
-      'undici vagoni colorati abbinamento lettera-immagine',
-      'abbinamento lettere sensibile alla lingua 11 alfabeti',
-      'due modalità creazione automatica e selezione manuale',
-      'prodotti stampabili alfabeto per venditori marketplace',
+      'riconoscimento lettere prescolare',
+      'vagoni colorati abbinamento',
+      'schede alfabeto per bambini',
+      'attività prescrittura',
+      'abbinamento lettera-immagine',
     ],
-    titleTag: 'Schede dell\'alfabeto da vendere | LessonCraftStudio',
-    metaDescription: 'Crea schede treno dell\'alfabeto con vagoni colorati, abbinamento lettere multilingue e difficoltà configurabile. Vendi su Etsy, Amazon KDP e Gumroad.',
+    titleTag: 'Creare schede dell\'alfabeto da stampare | Guida',
+    metaDescription: 'Come creare schede dell\'alfabeto da stampare con vagoni colorati e abbinamento lettere-immagini. Generatore configurabile con 11 lingue e chiavi di risposta.',
   },
 
   hero: {
-    title: 'Schede dell\'alfabeto da vendere: guida completa',
+    title: 'Come creare schede dell\'alfabeto da stampare',
     tagline: 'Tutorial passo passo per creare schede di riconoscimento lettere con 11 vagoni del treno colorati che trasportano lettere e illustrazioni abbinate, due modalità di creazione (Creazione Automatica per generazione casuale e Selezione Manuale per gruppi di lettere allineati al mercato), numero di indizi configurabile da 3 a 11 per scala di difficoltà integrata, abbinamento lettere sensibile alla lingua attraverso 11 alfabeti nativi dove la stessa immagine si abbina a lettere diverse per ogni lingua, e chiavi di risposta auto-generate da vendere in tutto il mondo su Etsy, Amazon KDP e Gumroad',
     description: 'Le schede treno dell\'alfabeto offrono un formato visivamente distintivo che si distingue immediatamente dalle piatte schede di ricalco lettere nei risultati di ricerca dei marketplace. In Italia, la domanda di materiali per il riconoscimento delle lettere è costante dall\'età prescolare alla prima elementare, e il formato con 11 vagoni colorati cattura l\'attenzione durante lo scorrimento. Il vero vantaggio competitivo è l\'abbinamento lettere sensibile alla lingua: la stessa immagine di cane si abbina a C in italiano (Cane), D in inglese (Dog), H in tedesco (Hund), una sessione di design produce 11 prodotti genuinamente diversi in ogni lingua. Due modalità di creazione — Automatica per produzione rapida e Manuale per gruppi di lettere selezionati — più un cursore di difficoltà da 3 a 11 indizi creano una gamma completa di prodotti. L\'alfabeto italiano con le sue 21 lettere base è supportato nativamente. Questa guida ti mostra ogni passaggio dalla configurazione all\'esportazione di file pronti per la produzione con chiavi di risposta automatiche. Che tu stia creando il tuo primo prodotto di alfabetizzazione o espandendo un catalogo esistente, avrai schede finite pronte per la pubblicazione.',
   },

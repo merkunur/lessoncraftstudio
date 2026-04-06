@@ -2,21 +2,21 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'vendere materiale didattico su Eduki e Edudoro',
+    primaryKeyword: 'vendere materiale didattico su Eduki',
     secondaryKeywords: [
       'come vendere risorse educative su Eduki Italia',
-      'Edudoro marketplace materiale didattico venditori',
+      'Edudoro marketplace materiale didattico',
       'configurazione negozio Eduki risorse stampabili',
-      'Freeed marketplace emergente risorse educative Italia',
-      'vendere schede didattiche piattaforme educative italiane',
+      'vendere schede didattiche piattaforme educative',
     ],
     lsiKeywords: [
-      'marketplace insegnanti risorse didattiche download digitale',
-      'account venditore Eduki commissione pagamento struttura',
-      'livello scolastico area disciplinare categorizzazione risorse',
-      'anteprima prodotto miniatura scopribilità posizionamento',
+      'marketplace insegnanti',
+      'risorse didattiche download',
+      'account venditore Eduki',
+      'categorizzazione risorse',
+      'anteprima prodotto miniatura',
     ],
-    titleTag: 'Vendere su Eduki e Edudoro | LessonCraftStudio',
+    titleTag: 'Vendere materiale didattico su Eduki | Guida',
     metaDescription: 'Come vendere materiale didattico su Eduki, Edudoro e Freeed in Italia. Configurazione negozio, ottimizzazione inserzioni e strategie per venditori.',
   },
 

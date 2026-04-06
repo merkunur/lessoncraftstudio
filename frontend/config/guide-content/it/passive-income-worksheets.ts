@@ -2,26 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'reddito passivo con schede didattiche 2026',
+    primaryKeyword: 'guadagnare con schede didattiche online',
     secondaryKeywords: [
-      'guadagnare vendendo schede stampabili online',
-      'ricavi ricorrenti prodotti digitali educativi',
+      'creare entrate passive con stampabili educativi',
       'catalogo evergreen stampabili multi-piattaforma',
-      'business schede didattiche reddito passivo',
-      'monetizzare schede su Etsy KDP e Gumroad',
+      'monetizzare schede didattiche su più piattaforme',
+      'ricavi ricorrenti prodotti digitali educativi',
     ],
     lsiKeywords: [
-      'rendimenti compositi catalogo digitale',
-      'moltiplicazione ricavi espansione linguistica',
-      'vendite automatiche prodotti evergreen',
-      'flussi reddito multi-piattaforma',
+      'entrate passive stampabili',
+      'catalogo prodotti evergreen',
+      'ricavi multi-piattaforma',
+      'vendite automatiche digitali',
+      'effetto composito catalogo',
     ],
-    titleTag: 'Reddito passivo con schede (2026) | LessonCraftStudio',
-    metaDescription: 'Come costruire un reddito passivo con schede didattiche nel 2026. Vendi su Etsy & KDP con licenza commerciale.',
+    titleTag: 'Guadagnare con schede didattiche | Guida',
+    metaDescription: 'Come guadagnare con le schede didattiche: costruisci un catalogo evergreen, diversifica tra piattaforme e crea entrate ricorrenti con stampabili.',
   },
 
   hero: {
-    title: 'Reddito Passivo con le Schede Didattiche nel 2026',
+    title: 'Guadagnare con le schede didattiche: guida completa',
     tagline: 'Una guida completa per costruire un reddito sostenibile con le schede — perché le schede generano ricavi continuativi, costruire cataloghi di prodotti evergreen, diversificare tra canali di ricavo, creare prodotti con domanda tutto l\'anno, sfruttare i bundle per un valore di transazione più alto, espandersi in più lingue, ottimizzare per la scoperta organica e costruire l\'effetto composito del catalogo',
     description: 'Ogni scheda che crei oggi può generare ricavi per anni senza ulteriore lavoro: questa è la promessa del reddito passivo con i prodotti digitali educativi. Nel 2026, il mercato italiano e internazionale dei stampabili offre un\'opportunità straordinaria per chi costruisce cataloghi strategici anziché vendere prodotti isolati. Un singolo pacchetto di schede può vendere migliaia di copie su Etsy, Amazon KDP e Gumroad in più lingue, senza costi di produzione aggiuntivi per ogni vendita. Questa guida ti mostra come progettare un business di schede per ricavi compositi, dove ogni nuovo prodotto moltiplica il potenziale dell\'intero catalogo e il tuo reddito cresce anche quando non stai lavorando.',
   },

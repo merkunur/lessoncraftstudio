@@ -2,19 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'pacchetti schede matematica vendono matematiche davvero',
+    primaryKeyword: 'pacchetti schede matematica da stampare',
     secondaryKeywords: [
-      'bundle schede matematiche stampabili',
-      'pacchetti esercizi matematica profitto',
-      'creare bundle matematica Etsy',
+      'raccolta esercizi matematica scuola primaria PDF',
+      'kit schede matematica completo da stampare',
+      'set esercizi addizioni sottrazioni PDF',
+      'bundle schede matematica bambini',
     ],
     lsiKeywords: [
-      'strategia bundle stampabili',
-      'prezzi pacchetti didattici',
-      'Etsy bundle digitali matematica',
+      'pacchetto',
+      'raccolta',
+      'matematica',
+      'addizioni',
+      'sottrazioni',
+      'completo',
     ],
-    titleTag: 'Pacchetti Schede Matematica che Vendono | LCS',
-    metaDescription: 'Scopra come creare pacchetti di schede matematiche che vendono su Etsy. Strategie di bundle, prezzi e composizione per massimizzare i profitti.',
+    titleTag: 'Pacchetti Schede Matematica da Stampare | LCS',
+    metaDescription: 'Pacchetti completi di schede matematica da stampare per la scuola primaria. Addizioni, sottrazioni e tabelline con LessonCraftStudio — 33 generatori.',
   },
   hero: {
     title: 'Pacchetti di Schede Matematiche che Vendono Davvero',

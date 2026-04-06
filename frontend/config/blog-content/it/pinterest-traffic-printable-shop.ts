@@ -2,11 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'Pinterest traffico negozio stampabili',
-    secondaryKeywords: ['business stampabili digitali Italia', 'vendere stampabili online strategia', 'Etsy KDP stampabili mercato italiano'],
-    lsiKeywords: ['stampabili educativi business', 'vendita online prodotti digitali', 'mercato italiano stampabili 2026'],
-    titleTag: 'Pinterest per Negozio Stampabili: Traffico | LCS',
-    metaDescription: 'Usi Pinterest per portare traffico gratuito al Suo negozio Etsy di stampabili. Strategie, pin e board efficaci.',
+    primaryKeyword: 'promuovere schede didattiche su Pinterest',
+    secondaryKeywords: [
+      'Pinterest traffico materiale educativo stampare',
+      'pin schede didattiche che funzionano',
+      'Pinterest marketing materiale scolastico',
+      'aumentare visite schede stampabili Pinterest',
+    ],
+    lsiKeywords: [
+      'Pinterest',
+      'pin',
+      'traffico',
+      'visibilità',
+      'board',
+      'condivisione',
+    ],
+    titleTag: 'Promuovere Schede Didattiche su Pinterest | LCS',
+    metaDescription: 'Come usare Pinterest per promuovere schede didattiche stampabili. Strategie di pin e traffico con LessonCraftStudio — 33 generatori, 11 lingue.',
   },
   hero: {
     title: 'Pinterest: Traffico Gratuito per il Suo Negozio Stampabili',

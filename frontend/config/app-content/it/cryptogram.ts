@@ -2,30 +2,26 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'generatore di crittogrammi da vendere su Etsy',
+    primaryKeyword: 'messaggio segreto da stampare',
     secondaryKeywords: [
-      'crittogrammi con immagini stampabili per negozio Etsy',
-      'creare libri di crittogrammi per Amazon KDP',
-      'puzzle cifrati stampabili licenza commerciale',
-      'generatore crittogramma per venditori di stampabili',
-      'schede crittogramma da vendere online',
+      'crittogramma generatore',
+      'codice segreto da stampare',
+      'decifrare messaggio scheda',
+      'gioco di decodifica da stampare',
     ],
     lsiKeywords: [
-      'licenza commerciale',
-      '300 DPI',
-      'pronto per la stampa',
-      'crittogramma',
-      'cifra per immagini',
-      'reddito passivo',
-      'download digitale',
-      'business di stampabili',
+      'codice',
+      'decifrare',
+      'lettere',
+      'sostituzione',
+      'segreto',
     ],
-    titleTag: 'Crittogrammi da vendere su Etsy e KDP | LCS',
-    metaDescription: 'Crea crittogrammi con immagini da vendere su Etsy e KDP. Cifra per immagini, difficoltà regolabile, 104 temi, licenza commerciale. 49 $ pagamento unico.',
+    titleTag: 'Messaggi segreti da stampare | Generatore di crittogrammi',
+    metaDescription: 'Create crittogrammi e messaggi segreti con immagini tematiche e soluzioni automatiche. PDF 300 DPI, 11 lingue. Prova gratis — licenza commerciale.',
   },
 
   hero: {
-    title: 'Genera crittogrammi con immagini da vendere su Etsy e KDP',
+    title: 'Messaggi segreti da stampare — Generatore di crittogrammi con immagini',
     tagline: 'Associa ogni lettera dell\'alfabeto a un\'immagine e codifica frasi intere in puzzle visivi cifrati — difficoltà regolabile da zero indizi a guida intensiva con Lettere da Rivelare.',
     description:
       'Genera crittogrammi con immagini da vendere su Etsy e Amazon KDP — un formato esclusivo dove ogni lettera dell\'alfabeto è sostituita da un\'immagine e gli utenti decifrano frasi intere. Il controllo Lettere da Rivelare (0–10) crea difficoltà progressive — da sfide esperte senza indizi a puzzle guidati per principianti. Oltre 3.100 illustrazioni in 104 temi, assegnazione automatica o manuale delle immagini alle lettere. I crittogrammi in italiano codificano frasi con à, è, é, ì, ò, ù nell\'alfabeto — ogni lingua produce un prodotto genuinamente diverso. Foglio risposte con legenda completa, esportazione PDF a oltre 400 DPI e licenza commerciale inclusa. I crittogrammi sono una nicchia redditizia e sotto-servita: su Etsy.it non esistono crittogrammi con immagini in italiano. Su Amazon KDP, i libri di crittogrammi si vendono bene tutto l\'anno. Entra in un mercato senza concorrenza con un prodotto unico. Prova gratis con filigrana.',

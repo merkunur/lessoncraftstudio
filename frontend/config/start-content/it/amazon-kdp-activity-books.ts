@@ -2,26 +2,26 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'business quaderni attività Amazon KDP',
+    primaryKeyword: 'come pubblicare quaderni attività su Amazon KDP',
     secondaryKeywords: [
-      'pubblicare libri di attività su Amazon.it KDP',
-      'vendere quaderni puzzle KDP stampa su richiesta',
+      'creare libri di attività per bambini KDP',
+      'pubblicare quaderni educativi Amazon Italia',
+      'guida Amazon KDP libri di esercizi',
       'formattazione interni KDP schede didattiche',
-      'guida completa Amazon KDP libri educativi',
-      'scalare catalogo libri attività KDP',
     ],
     lsiKeywords: [
-      'royalty KDP libri di attività calcolo',
-      'design copertina Amazon libri puzzle',
-      'parole chiave backend Amazon KDP',
-      'stampa su richiesta senza inventario',
+      'Amazon KDP',
+      'quaderni attività',
+      'stampa su richiesta',
+      'libri educativi',
+      'bambini',
     ],
-    titleTag: 'Business quaderni attività KDP | LessonCraftStudio',
-    metaDescription: 'Costruisci un business di quaderni attività su Amazon KDP: formattazione interni, copertina, parole chiave, pricing e scalabilità. Prova gratuita.',
+    titleTag: 'Pubblicare quaderni attività su Amazon KDP | LCS',
+    metaDescription: 'Come pubblicare quaderni di attività per bambini su Amazon KDP: formattazione interni, copertina, parole chiave e pricing. Guida passo dopo passo.',
   },
 
   hero: {
-    title: 'Business di Quaderni Attività su Amazon KDP',
+    title: 'Come Pubblicare Quaderni Attività su Amazon KDP',
     tagline: 'Pubblica e vendi libri di attività professionali su Amazon con la stampa su richiesta — nessun inventario, nessun costo iniziale',
     description: 'Amazon KDP ti dà accesso al più grande marketplace di libri al mondo — incluso Amazon.it — senza rischio di inventario. Questa guida copre ogni fase per costruire un\'attività redditizia di quaderni di attività su KDP: dalla formattazione degli interni conformi alle specifiche Amazon al design della copertina che converte, dalla ricerca delle parole chiave backend alla strategia di pricing che massimizza le royalty. Che tu stia pubblicando il tuo primo libro di puzzle o espandendo un catalogo esistente, questo è il manuale specifico per KDP. Prova gratuita con filigrana per creare pagine di esempio.',
   },

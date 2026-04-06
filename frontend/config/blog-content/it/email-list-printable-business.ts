@@ -2,11 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'lista email business stampabili',
-    secondaryKeywords: ['business stampabili digitali Italia', 'vendere stampabili online strategia', 'Etsy KDP stampabili mercato italiano'],
-    lsiKeywords: ['stampabili educativi business', 'vendita online prodotti digitali', 'mercato italiano stampabili 2026'],
-    titleTag: 'Lista Email per Business Stampabili | LCS',
-    metaDescription: 'Costruisca una lista email per il Suo business di stampabili. Strategie di lead generation e automazione efficaci.',
+    primaryKeyword: 'newsletter materiale didattico stampabile',
+    secondaryKeywords: [
+      'lista email risorse educative gratuite',
+      'promuovere schede didattiche via email',
+      'marketing email materiale scolastico',
+      'iscrizione newsletter schede gratis',
+    ],
+    lsiKeywords: [
+      'newsletter',
+      'email',
+      'iscrizione',
+      'aggiornamenti',
+      'promozione',
+      'risorse',
+    ],
+    titleTag: 'Newsletter Materiale Didattico Stampabile | LCS',
+    metaDescription: 'Come creare una newsletter per promuovere materiale didattico stampabile. Strategie email per educatori con LessonCraftStudio — 33 generatori.',
   },
   hero: {
     title: 'Costruire una Lista Email per il Business Stampabili',

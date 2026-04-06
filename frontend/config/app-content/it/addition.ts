@@ -2,35 +2,28 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'creare schede di addizione da vendere su Etsy',
+    primaryKeyword: 'schede addizioni da stampare',
     secondaryKeywords: [
-      'generatore di schede di matematica per venditori Etsy',
-      'schede di somma per Amazon KDP',
-      'esercizi di addizione stampabili con licenza commerciale',
-      'creare quaderni di matematica per KDP',
-      'schede didattiche di calcolo da vendere online',
+      'generatore addizioni',
+      'esercizi addizioni prima elementare',
+      'conti di addizione da stampare',
+      'schede addizioni con disegni',
     ],
     lsiKeywords: [
-      'licenza commerciale',
-      '300 DPI',
-      'pronto per la stampa',
-      'immagini tematiche',
-      'reddito passivo',
-      'download digitale',
-      'chiave di risposta',
-      'schede di calcolo',
-      'scuola dell\'infanzia',
       'scuola primaria',
-      'business di stampabili',
-      'guadagno extra',
       'classe prima',
+      'classe seconda',
+      'riporto',
+      'senza riporto',
+      'risultato',
+      'soluzioni',
     ],
-    titleTag: 'Schede di addizione da vendere su Etsy | LCS',
-    metaDescription: 'Crea schede di addizione professionali da vendere su Etsy e KDP. Licenza commerciale inclusa. 49 $ pagamento unico.',
+    titleTag: 'Schede addizioni da stampare | Generatore con soluzioni',
+    metaDescription: 'Create schede di addizioni con immagini tematiche in pochi secondi. Soluzioni automatiche, PDF 300 DPI, 11 lingue. Prova gratis — licenza commerciale per Etsy e KDP.',
   },
 
   hero: {
-    title: 'Crea e vendi schede di addizione professionali su Etsy e KDP',
+    title: 'Schede addizioni da stampare — Generatore con immagini e soluzioni',
     tagline: 'Trasforma l\'addizione in un\'avventura pratica con schede di matematica basate su immagini.',
     description:
       'Crea schede di addizione da vendere su Etsy, Amazon KDP o Eduki — e generale in meno di 3 minuti. Questo generatore crea esercizi di somma con immagini tematiche da oltre 3.000 illustrazioni colorate che attirano i bambini e convincono i genitori ad acquistare. Esporta PDF pronti per la stampa a 300 DPI con soluzioni automatiche e vendi con la licenza commerciale inclusa — senza attribuzione, senza limiti. Il mercato italiano dei materiali educativi stampabili su Etsy è praticamente vuoto: pochissimi venditori offrono schede di matematica in italiano. Questa è un\'opportunità unica per posizionarsi in un mercato con 59 milioni di potenziali clienti e concorrenza quasi inesistente. L\'Italia non ha ancora un marketplace consolidato per schede didattiche — chi arriva per primo domina.',

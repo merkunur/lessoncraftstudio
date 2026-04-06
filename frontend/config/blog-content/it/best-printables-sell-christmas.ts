@@ -2,11 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'stampabili Natale vendere best seller',
-    secondaryKeywords: ['stampabili tematici vendere Etsy Italia', 'nicchia stampabili educativi mercato', 'schede tematiche stagionali vendere'],
-    lsiKeywords: ['stampabili educativi nicchia', 'mercato stagionale stampabili', 'Etsy Italia schede tematiche'],
-    titleTag: 'Stampabili Natale: Best Seller | LCS',
-    metaDescription: 'Scopra i migliori stampabili natalizi da vendere. Schede, giochi e attività per il periodo più redditizio dell\'anno.',
+    primaryKeyword: 'schede didattiche Natale da stampare bambini',
+    secondaryKeywords: [
+      'attività natalizie scuola primaria da stampare',
+      'esercizi tema Natale prescuola',
+      'schede Natale scuola infanzia PDF',
+      'giochi natalizi da stampare bambini',
+    ],
+    lsiKeywords: [
+      'Natale',
+      'avvento',
+      'Babbo Natale',
+      'inverno',
+      'feste',
+      'dicembre',
+    ],
+    titleTag: 'Schede Didattiche Natale da Stampare | LCS',
+    metaDescription: 'Schede didattiche di Natale da stampare per bambini. Attività natalizie per scuola primaria e infanzia con LessonCraftStudio — 33 generatori.',
   },
   hero: {
     title: 'I Migliori Stampabili di Natale da Vendere',

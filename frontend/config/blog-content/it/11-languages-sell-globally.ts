@@ -2,11 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: '11 lingue vendere globalmente stampabili',
-    secondaryKeywords: ['come creare stampabili vendere', 'guida pratica stampabili business', 'tutorial stampabili educativi'],
-    lsiKeywords: ['creazione stampabili professionali', 'workflow produzione schede', 'ottimizzazione vendita stampabili'],
-    titleTag: '11 Lingue per Vendere Globalmente | LCS',
-    metaDescription: 'Usi le 11 lingue disponibili per espandere il Suo business di stampabili a livello globale. Strategia multilingue.',
+    primaryKeyword: 'schede didattiche multilingue da stampare',
+    secondaryKeywords: [
+      'schede in più lingue per bambini',
+      'attività bilingue da stampare',
+      'schede didattiche lingue straniere',
+      'esercizi multilingue scuola primaria',
+    ],
+    lsiKeywords: [
+      'bilingue',
+      'multilingue',
+      'lingue straniere',
+      'vocabolario',
+      'traduzione',
+      'scuola internazionale',
+    ],
+    titleTag: 'Schede Multilingue da Stampare in 11 Lingue | LCS',
+    metaDescription: 'Schede didattiche in 11 lingue per bambini bilingue e scuole internazionali. Create attività multilingue con LessonCraftStudio — 33 generatori pronti.',
   },
   hero: {
     title: 'Come Usare 11 Lingue per Vendere Globalmente',

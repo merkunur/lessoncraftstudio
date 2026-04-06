@@ -2,26 +2,25 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Stampabili di Pasqua per Etsy | LessonCraftStudio',
-    metaDescription: 'Crea e vendi stampabili di Pasqua su Etsy e KDP. Idee prodotto con uova, coniglietti e colomba per il mercato italiano. Strategie e strumenti pratici.',
-
-    primaryKeyword: 'stampabili di Pasqua da vendere su Etsy',
+    titleTag: 'Schede di Pasqua da stampare per bambini | LCS',
+    metaDescription: 'Crea schede di Pasqua da stampare: colorare uova e coniglietti, crucipuzzle pasquali, conteggio primaverile e attività creative per bambini 3-8 anni.',
+    primaryKeyword: 'schede di Pasqua da stampare',
     secondaryKeywords: [
-      'vendere schede pasquali su Etsy',
-      'business stampabili Pasqua KDP',
-      'creare stampabili primaverili pasquali',
-      'nicchia stampabili Pasqua redditizia',
-      'idee prodotto stampabili uova coniglietti',
+      'attività pasquali da stampare per bambini',
+      'stampabili Pasqua scuola primaria',
+      'colorare uova di Pasqua da stampare',
+      'giochi pasquali da stampare gratis',
     ],
     lsiKeywords: [
-      'mercato stampabili pasquali Italia',
-      'generatore schede tema Pasqua',
-      'vendere stampabili digitali primavera',
-      'stampabili caccia uova bambini',
+      'scuola primaria',
+      'colorare',
+      'coniglietti',
+      'primavera',
+      'caccia alle uova',
     ],
   },
   hero: {
-    title: 'Stampabili di Pasqua: Opportunità di Vendita Primaverile',
+    title: 'Schede di Pasqua da Stampare: Idee Creative per Bambini',
     description: 'La Pasqua è una delle festività più sentite in Italia, con tradizioni profonde che creano opportunità uniche per i venditori di stampabili. Dalle uova di Pasqua decorate alla colomba, dai coniglietti alle processioni del Venerdì Santo, la cultura pasquale italiana offre sotto-temi ricchissimi per la creazione di prodotti. In Italia, le vacanze pasquali scolastiche durano tipicamente una settimana, durante la quale i genitori cercano attivamente attività educative per i bambini. I gruppi parrocchiali, gli oratori e le associazioni comunitarie aggiungono un segmento di acquirenti significativo, cercando stampabili per eventi e celebrazioni. Per gli imprenditori digitali, la nicchia pasquale combina domanda prevedibile con un\'estetica primaverile allegra. Con i nostri generatori di schede puoi creare stampabili pasquali da vendere su Etsy, Amazon KDP e Gumroad, pubblicando entro febbraio per massimizzare la finestra di vendita.',
   },
   marketOverview: `La nicchia dei stampabili di Pasqua occupa una posizione privilegiata nel calendario di vendita primaverile, generando una domanda stagionale concentrata durante un periodo in cui poche altre festività competono per l\'attenzione degli acquirenti. i venditori iniziano a pianificare le attività primaverili online e le celebrazioni pre-pasquali a febbraio e inizio marzo, cercando schede a tema che bilancino il fascino della festività con genuini risultati educativi. I genitori cercano attività pasquali adatte all\'età che servano sia come inserti per i cestini pasquali sia come intrattenimento educativo durante i giorni pieni di entusiasmo che precedono la festività. I gruppi parrocchiali, i coordinatori della scuola domenicale e gli organizzatori di eventi comunitari acquistano schede di attività a tema per la caccia alle uova di Pasqua, le feste primaverili e le celebrazioni familiari che necessitano di attività strutturate per i giovani partecipanti.

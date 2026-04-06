@@ -2,26 +2,28 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'generatore caccia al tesoro gratis',
+    primaryKeyword: 'caccia al tesoro da stampare gratis',
     secondaryKeywords: [
-      'caccia al tesoro gratis online senza registrazione',
-      'generatore caccia al tesoro gratis PDF stampabile',
-      'creare caccia al tesoro gratis bambini',
-      'schede caccia al tesoro gratis con griglia',
-      'puzzle caccia al tesoro gratis prova gratuita',
+      'caccia al tesoro gratis online',
+      'schede caccia al tesoro da stampare gratis PDF',
+      'caccia al tesoro gratis senza registrazione',
+      'gioco caccia al tesoro da stampare gratis',
+      'puzzle coordinate gratis online',
     ],
     lsiKeywords: [
-      'caccia al tesoro gratis senza registrazione',
-      'stampabile PDF gratis filigrana',
-      'prova gratuita licenza commerciale',
-      'generatore puzzle griglia coordinate gratis',
+      'caccia al tesoro',
+      'coordinate',
+      'orientamento',
+      'direzioni',
+      'stampabile PDF',
+      'gratis online',
     ],
-    titleTag: 'Caccia al tesoro gratis online | LessonCraftStudio',
-    metaDescription: 'Crea schede caccia al tesoro gratis online, senza registrazione. Griglia 5×5, due tipi di direzione, risposte automatiche. Licenza commerciale disponibile.',
+    titleTag: 'Caccia al tesoro da stampare gratis | LessonCraftStudio',
+    metaDescription: 'Crea schede caccia al tesoro da stampare gratis online, senza registrazione. Griglia 5×5, due tipi di direzione, risposte automatiche. Prova subito.',
   },
 
   hero: {
-    title: 'Crea Caccia al Tesoro Gratis Online',
+    title: 'Caccia al Tesoro da Stampare Gratis Online',
     tagline: 'Generatore di schede caccia al tesoro con griglia fissa 5×5 di coordinate (righe A–E, colonne 1–5), due tipi di direzione (Base: su/giù/sinistra/destra per prescuola fino alla 1ª classe, e Cardinale: nord/sud/est/ovest per la 2ª classe in su), 6 immagini tematiche come punti di riferimento, esattamente 4 mosse direzionali per puzzle, chiave di risposta generata automaticamente con cella tesoro evidenziata in giallo pallido tramite sistema doppio canvas, indizi direzionali completamente localizzati in 11 lingue e intestazione a tema tesoro teal (#2C8C7C) con titolo dorato Fredoka su 104 collezioni tematiche',
     description: 'Crea schede caccia al tesoro gratis direttamente nel browser, senza registrazione e senza installare nulla. Ogni puzzle disperde 6 immagini tematiche su una griglia 5×5 di coordinate (A–E, 1–5), genera una posizione di partenza e 4 mosse direzionali verso il tesoro. Due tipi di direzione: Base (su/giù/sinistra/destra) e Cardinale (nord/sud/est/ovest). Indizi completamente tradotti in 11 lingue. Chiave di risposta automatica con cella tesoro evidenziata. Sfoglia 104 collezioni tematiche con oltre 3.100 illustrazioni. Esporta PDF e JPEG a 300 DPI — tutto gratis con filigrana, istantaneamente. Ogni funzionalità è accessibile nella prova gratuita. Vuoi vendere le tue schede su Etsy, Amazon KDP o Gumroad? Passa alla licenza commerciale per rimuovere la filigrana e sbloccare l\'uso commerciale illimitato.',
   },

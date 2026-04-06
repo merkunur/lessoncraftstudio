@@ -2,25 +2,25 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Stampa su richiesta schede — Business | LessonCraftStudio',
-    metaDescription: 'Crea un business di schede stampa su richiesta (POD) su Amazon KDP e Etsy. Zero inventario, evasione automatica e prezzi premium — guida pratica.',
-    primaryKeyword: 'stampa su richiesta schede idee business',
+    titleTag: 'Quaderni di attività stampabili per bambini | LCS',
+    metaDescription: 'Crea quaderni di attività stampabili per bambini: libri di esercizi, puzzle e schede rilegabili. Formati pronti per la stampa su richiesta e Amazon KDP.',
+    primaryKeyword: 'quaderni di attività stampabili per bambini',
     secondaryKeywords: [
-      'business print-on-demand schede didattiche',
-      'quaderni educativi POD Amazon KDP',
-      'vendere schede stampa su richiesta Etsy',
-      'nicchia print-on-demand stampabili educativi',
-      'idee prodotto POD senza inventario',
+      'libri di attività da stampare per bambini',
+      'quaderni educativi stampabili scuola primaria',
+      'schede didattiche formato libro stampabile',
+      'creare quaderni di esercizi da stampare',
     ],
     lsiKeywords: [
-      'quaderni rilegati schede vendita KDP',
-      'stampabili evasione automatica Printful Gelato',
-      'generatore schede print-on-demand business',
-      'prodotti fisici educativi zero inventario',
+      'Amazon KDP',
+      'quaderni',
+      'scuola primaria',
+      'esercizi',
+      'stampa su richiesta',
     ],
   },
   hero: {
-    title: 'Stampa su richiesta: schede didattiche senza inventario',
+    title: 'Quaderni di Attività Stampabili: Idee per Bambini',
     description: 'La stampa su richiesta (print-on-demand) trasforma i design digitali di schede didattiche in prodotti fisici stampati professionalmente senza inventario, costi anticipati o gestione logistica. I servizi POD gestiscono stampa, rilegatura e spedizione mentre tu ti concentri sulla creazione di contenuti. I quaderni e i pacchetti di schede POD hanno prezzi significativamente più alti rispetto ai download digitali perché gli acquirenti pagano per la qualità professionale e la comodità di materiali pronti all\'uso. Amazon KDP domina il mercato con enorme traffico organico, Etsy integra Printful e Gelato, Shopify permette linee con marchio proprio. Il rischio finanziario è zero — nessun inventario da acquistare, immagazzinare o spedire. In questa guida trovi idee di prodotto POD concrete, strategie per piattaforma e approcci per costruire un business redditizio di prodotti educativi fisici.',
   },
   marketOverview: `Il mercato print-on-demand per materiali educativi sta vivendo una crescita sostanziale poiché sempre più acquirenti scoprono la comodità di acquistare schede didattiche, quaderni di esercizi e pacchetti di attività stampati professionalmente che arrivano pronti all\'uso senza alcuna stampa, taglio o assemblaggio richiesto da parte loro. Scuole e acquirenti istituzionali hanno spesso budget specificamente allocati per prodotti stampabili fisici ma mancano di processi di approvazione o infrastrutture per l\'acquisto e la stampa di download digitali, rendendo i quaderni POD stampati professionalmente l\'unico formato che si adatta ai loro flussi di lavoro di approvvigionamento e ai requisiti di materiali per il negozio. I genitori preferiscono sempre più acquistare quaderni educativi stampati rispetto ai download digitali perché la stampa domestica richiede tempo, è costosa considerando i costi di inchiostro e carta, e produce risultati che sembrano meno professionali e coinvolgenti per i bambini rispetto ai materiali stampati e rilegati correttamente dai servizi POD.

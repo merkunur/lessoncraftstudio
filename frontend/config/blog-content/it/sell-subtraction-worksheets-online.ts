@@ -2,19 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'vendere schede sottrazione online 2026',
+    primaryKeyword: 'schede sottrazioni scuola primaria da stampare',
     secondaryKeywords: [
-      'schede sottrazione stampabili Etsy',
-      'business schede sottrazione digitali',
-      'creare schede sottrazione vendere',
+      'esercizi sottrazione prima elementare PDF',
+      'schede differenze bambini da stampare',
+      'sottrazioni con immagini da stampare',
+      'esercizi calcolo sottrazione scuola primaria',
     ],
     lsiKeywords: [
-      'stampabili matematica online',
-      'schede operazioni inverse',
-      'download digitale sottrazione',
+      'sottrazione',
+      'differenza',
+      'calcolo',
+      'prestito',
+      'numeri',
+      'esercizio',
     ],
-    titleTag: 'Vendere Schede Sottrazione Online: Guida | LCS',
-    metaDescription: 'Impari a vendere schede di sottrazione online con profitto. Strategie per Etsy, Amazon KDP e piattaforme italiane nel 2026.',
+    titleTag: 'Schede Sottrazioni Scuola Primaria | LCS',
+    metaDescription: 'Schede di sottrazioni da stampare per la scuola primaria. Esercizi con e senza prestito usando LessonCraftStudio — 33 generatori, 11 lingue.',
   },
   hero: {
     title: 'Vendere Schede di Sottrazione Online: Guida Completa',

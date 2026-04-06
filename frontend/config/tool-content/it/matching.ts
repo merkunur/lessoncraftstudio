@@ -2,28 +2,28 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'generatore schede di abbinamento gratis',
+    primaryKeyword: 'schede di associazione da stampare gratis',
     secondaryKeywords: [
-      'creare schede di abbinamento gratis online',
-      'schede abbinamento stampabili gratis',
-      'generatore abbinamento traccia-una-linea senza registrazione',
-      'schede abbinamento immagini gratis PDF',
-      'generatore attività abbinamento gratuito',
+      'schede collegamento gratis online',
+      'schede abbinamento da stampare gratis PDF',
+      'generatore schede associazione gratis senza registrazione',
+      'schede collega le immagini gratis',
+      'attività di abbinamento da stampare gratis',
     ],
     lsiKeywords: [
-      'gratis',
+      'associazione',
+      'collegare',
+      'abbinamento',
+      'stampabile PDF',
+      'gratis online',
       'senza registrazione',
-      'stampabile',
-      'PDF',
-      'filigrana',
-      'prova gratuita',
     ],
-    titleTag: 'Schede di abbinamento gratis online | LessonCraftStudio',
-    metaDescription: 'Crea schede di abbinamento gratis online, senza registrazione. 4 modalità, chiave di risposta automatica, 104 temi. Licenza commerciale disponibile.',
+    titleTag: 'Schede di associazione gratis online | LessonCraftStudio',
+    metaDescription: 'Crea schede di associazione e collegamento gratis online, senza registrazione. 4 modalità, chiave di risposta automatica, 104 temi. Prova subito.',
   },
 
   hero: {
-    title: 'Crea Schede di Abbinamento Gratis Online',
+    title: 'Schede di Associazione da Stampare Gratis',
     tagline: 'Generatore di schede di abbinamento traccia-una-linea con quattro modalità — Lettera Iniziale, Immagine+Parola, Misto e Parola Personalizzata — chiave di risposta automatica con linee di collegamento, coppie configurabili, intestazione localizzata "Trova le Coppie!" in 11 lingue e 104 collezioni tematiche per attività di abbinamento vendibili in tutto il mondo',
     description: 'Crea schede di abbinamento gratis, direttamente nel browser, senza registrazione e senza installare nulla. Il generatore traccia-una-linea offre quattro modalità distinte: Lettera Iniziale, Immagine+Parola, Misto e Parola Personalizzata. Configura 4, 5 o 6 coppie per scheda e personalizza ogni dettaglio — numeri, punti decorativi, intestazione localizzata in 11 lingue. Il sistema a doppio canvas genera simultaneamente la scheda di lavoro e la chiave di risposta con linee di collegamento automatiche. Sfoglia 104 temi con oltre 3.100 illustrazioni. Esporta PDF e JPEG a 300 DPI nei formati Letter, A4 o personalizzato — la prova gratuita include tutte le funzionalità con una filigrana sui download. Vuoi vendere le tue schede su Etsy o Amazon KDP? Passa alla licenza commerciale per rimuovere la filigrana e ottenere i diritti di rivendita completi.',
   },

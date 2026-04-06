@@ -2,11 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'qualità vs quantità schede Etsy',
-    secondaryKeywords: ['business stampabili digitali Italia', 'vendere stampabili online strategia', 'Etsy KDP stampabili mercato italiano'],
-    lsiKeywords: ['stampabili educativi business', 'vendita online prodotti digitali', 'mercato italiano stampabili 2026'],
-    titleTag: 'Qualità vs Quantità su Etsy: Schede | LCS',
-    metaDescription: 'Qualità o quantità per le schede su Etsy? Scopra l\'equilibrio che massimizza vendite e recensioni nel 2026.',
+    primaryKeyword: 'qualità o quantità schede didattiche Etsy',
+    secondaryKeywords: [
+      'meglio poche schede belle o tante semplici',
+      'equilibrio qualità quantità materiale educativo',
+      'schede didattiche di qualità vendono di più',
+      'quante schede servono per vendere bene',
+    ],
+    lsiKeywords: [
+      'qualità',
+      'quantità',
+      'equilibrio',
+      'professionale',
+      'valore',
+      'catalogo',
+    ],
+    titleTag: 'Qualità vs Quantità Schede Didattiche | LCS',
+    metaDescription: 'Qualità o quantità per schede didattiche su Etsy? L\'equilibrio che massimizza vendite e soddisfazione con LessonCraftStudio — 33 generatori.',
   },
   hero: {
     title: 'Qualità vs Quantità: Cosa Conta di Più su Etsy?',

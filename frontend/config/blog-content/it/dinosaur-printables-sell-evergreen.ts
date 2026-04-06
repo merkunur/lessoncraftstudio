@@ -2,11 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'stampabili dinosauri vendere sempreverde',
-    secondaryKeywords: ['stampabili tematici vendere Etsy Italia', 'nicchia stampabili educativi mercato', 'schede tematiche stagionali vendere'],
-    lsiKeywords: ['stampabili educativi nicchia', 'mercato stagionale stampabili', 'Etsy Italia schede tematiche'],
-    titleTag: 'Stampabili Dinosauri: Sempreverde | LCS',
-    metaDescription: 'Venda stampabili a tema dinosauri su Etsy. Un tema sempreverde che vende tutto l\'anno senza stagionalità.',
+    primaryKeyword: 'schede didattiche dinosauri da stampare',
+    secondaryKeywords: [
+      'attività tema dinosauri bambini da stampare',
+      'esercizi dinosauri scuola infanzia PDF',
+      'schede colorare dinosauri prescuola',
+      'giochi dinosauri educativi da stampare',
+    ],
+    lsiKeywords: [
+      'dinosauri',
+      'preistoria',
+      'T-Rex',
+      'fossili',
+      'paleontologia',
+      'bambini',
+    ],
+    titleTag: 'Schede Didattiche Dinosauri da Stampare | LCS',
+    metaDescription: 'Schede didattiche a tema dinosauri da stampare per bambini. Attività educative preistoriche con LessonCraftStudio — 33 generatori, 11 lingue.',
   },
   hero: {
     title: 'Stampabili a Tema Dinosauri: Un Sempreverde',

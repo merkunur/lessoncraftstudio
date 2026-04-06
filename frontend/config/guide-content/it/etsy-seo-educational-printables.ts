@@ -2,26 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'SEO Etsy per schede didattiche 2026',
+    primaryKeyword: 'SEO Etsy per schede didattiche',
     secondaryKeywords: [
       'ricerca parole chiave Etsy stampabili educativi',
-      'ottimizzazione titoli inserzioni Etsy schede didattiche',
+      'ottimizzazione titoli inserzioni Etsy schede',
       'strategia 13 tag Etsy venditori stampabili',
-      'algoritmo ricerca Etsy fattori posizionamento 2026',
-      'Etsy Stats termini ricerca ottimizzazione venditori',
+      'algoritmo ricerca Etsy fattori posizionamento',
     ],
     lsiKeywords: [
-      'posizionamento inserzioni Etsy download digitali',
-      'struttura descrizione inserzione SEO stampabili',
-      'categorie attributi Etsy prodotti educativi',
-      'autocompletamento Etsy analisi concorrenti parole chiave',
+      'posizionamento Etsy',
+      'titoli inserzioni ottimizzati',
+      'tag Etsy strategia',
+      'algoritmo ricerca Etsy',
+      'autocompletamento analisi',
     ],
-    titleTag: 'SEO Etsy per schede didattiche (2026) | LessonCraftStudio',
-    metaDescription: 'Guida SEO Etsy 2026 per schede didattiche: ricerca parole chiave, ottimizzazione titoli, tutti i 13 tag e fattori di posizionamento. Aumenta le vendite.',
+    titleTag: 'SEO Etsy per schede didattiche | Guida',
+    metaDescription: 'Guida SEO Etsy per schede didattiche: ricerca parole chiave, ottimizzazione titoli, tutti i 13 tag e fattori di posizionamento. Aumenta le vendite.',
   },
 
   hero: {
-    title: 'SEO Etsy per schede didattiche: guida aggiornata 2026',
+    title: 'SEO Etsy per schede didattiche: guida aggiornata',
     tagline: 'Una guida completa all\'ottimizzazione della ricerca Etsy per venditori di stampabili educativi — metodologia di ricerca parole chiave con autocompletamento Etsy e analisi concorrenti, formule di ottimizzazione titoli che bilanciano posizionamento e tasso di clic, uso strategico di tutti i 13 tag per massima copertura di ricerca, struttura descrizione con i primi 160 caratteri ottimizzati per SEO, fattori di posizionamento dell\'algoritmo Etsy specifici per prodotti digitali, selezione categorie e attributi, banche parole chiave per categoria per matematica, alfabetizzazione, puzzle, disegno, abbinamento e schede trova-e-conta, tempistica parole chiave stagionali per rientro a scuola e festività, e ottimizzazione continua con report termini di ricerca Etsy Stats',
     description: 'La ricerca organica su Etsy è la principale fonte di traffico per i venditori di stampabili educativi in Italia e nel mondo. Questa guida aggiornata al 2026 ti insegna il flusso di lavoro SEO completo per Etsy: dalla ricerca delle parole chiave usate dagli acquirenti all\'ottimizzazione di titoli, tag e descrizioni. Imparerai come funziona l\'algoritmo di ricerca di Etsy, come usare tutti i 13 slot dei tag in modo strategico e come strutturare le inserzioni per massimizzare sia il posizionamento sia il tasso di conversione. Include banche di parole chiave specifiche per matematica, puzzle, disegno e altre categorie educative.',
   },

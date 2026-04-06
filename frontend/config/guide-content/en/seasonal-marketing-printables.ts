@@ -2,21 +2,20 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'seasonal marketing for printable sellers',
+    primaryKeyword: 'seasonal marketing for printables',
     secondaryKeywords: [
-      'seasonal marketing calendar for printable sellers',
-      'seasonal printable marketing strategy',
-      'holiday marketing for Etsy printable sellers',
-      'printable release calendar by season',
+      'printable marketing calendar by month',
+      'holiday printable release strategy Etsy',
       'seasonal demand planning for worksheets',
+      'back to school printable marketing timing',
     ],
     lsiKeywords: [
-      'seasonal printable strategy',
-      'holiday marketing printables',
-      'printable release timing',
+      'holiday product launch timing',
+      'seasonal Etsy listing strategy',
+      'printable demand cycle planning',
     ],
     titleTag: 'Seasonal Marketing for Printable Sellers | LCS',
-    metaDescription: 'Seasonal marketing calendar for printable sellers. Month-by-month release timing, holiday strategies, and demand planning for Etsy and KDP sellers.',
+    metaDescription: 'Seasonal marketing calendar for printable sellers. Month-by-month release timing, holiday strategies, and demand planning for Etsy and KDP.',
   },
 
   hero: {

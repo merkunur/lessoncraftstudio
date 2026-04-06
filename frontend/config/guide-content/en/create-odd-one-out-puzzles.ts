@@ -2,20 +2,20 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'create odd one out puzzles to sell',
+    primaryKeyword: 'create odd one out worksheets to sell',
     secondaryKeywords: [
-      'make odd one out worksheets for Etsy',
-      'create find the different puzzles for KDP',
-      'odd one out creation guide for sellers',
-      'sell visual discrimination puzzles online',
+      'make odd one out puzzles for Etsy',
+      'odd one out worksheets for KDP books',
+      'sell find the different printables on TPT',
+      'visual discrimination worksheets for Etsy sellers',
     ],
     lsiKeywords: [
-      'odd one out product creation',
-      'visual puzzle business',
-      'sellable discrimination products',
+      'visual discrimination puzzle generator',
+      'preschool printable product niche',
+      'find the odd one out activity business',
     ],
-    titleTag: 'Create Odd One Out Puzzles to Sell Online | LCS',
-    metaDescription: 'Guide to creating odd one out puzzles to sell. Two puzzle modes, themes, and strategies for Etsy and KDP visual puzzle activity book sellers.',
+    titleTag: 'Create Odd One Out Worksheets to Sell | LCS',
+    metaDescription: 'Create odd one out worksheets that sell. Two puzzle modes, themed images, auto answer keys. Build products for Etsy, KDP, and TPT.',
   },
 
   hero: {

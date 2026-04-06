@@ -2,20 +2,20 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'create sudoku books for Amazon KDP',
+    primaryKeyword: 'sudoku puzzle books for KDP',
     secondaryKeywords: [
-      'publish picture sudoku books KDP',
-      'Amazon KDP sudoku book guide',
-      'sudoku puzzle book creation for KDP',
-      'self-publish sudoku activity books',
+      'publish sudoku books on Amazon KDP guide',
+      'picture sudoku for kids KDP publishing',
+      'sudoku puzzle book creation step by step',
+      'self-publish sudoku activity books Amazon',
     ],
     lsiKeywords: [
-      'KDP sudoku niche',
-      'Amazon puzzle book publishing',
-      'picture sudoku for kids books',
+      'KDP sudoku niche profitability',
+      'puzzle book difficulty progression',
+      'picture sudoku interior formatting',
     ],
-    titleTag: 'Create Sudoku Books for Amazon KDP | LCS',
-    metaDescription: 'Guide to creating sudoku books for Amazon KDP. Picture sudoku for kids, difficulty progression, formatting, and publishing strategies for puzzle authors.',
+    titleTag: 'Sudoku Puzzle Books for KDP: Guide | LCS',
+    metaDescription: 'Create sudoku puzzle books for Amazon KDP. Picture sudoku for kids, difficulty levels, formatting specs, and publishing strategies.',
   },
 
   hero: {

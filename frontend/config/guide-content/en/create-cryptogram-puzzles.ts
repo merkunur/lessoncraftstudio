@@ -4,18 +4,18 @@ const content: GuideContent = {
   seo: {
     primaryKeyword: 'create cryptogram puzzles to sell',
     secondaryKeywords: [
-      'make cipher puzzles for Etsy',
-      'create cryptogram books for KDP',
-      'cryptogram creation guide for sellers',
-      'sell code-breaking printables online',
+      'sell cryptogram puzzles on Etsy',
+      'cipher puzzle books for Amazon KDP',
+      'make code-breaking printables to sell online',
+      'printable cryptogram business TPT',
     ],
     lsiKeywords: [
-      'cryptogram product creation',
-      'cipher puzzle business',
-      'sellable code-breaking products',
+      'picture cipher puzzle generator',
+      'code-breaking worksheet templates',
+      'difficulty-tiered puzzle printables',
     ],
     titleTag: 'Create Cryptogram Puzzles to Sell Online | LCS',
-    metaDescription: 'Guide to creating cryptogram puzzles to sell. Picture cipher format, difficulty control, and strategies for Etsy and KDP cipher puzzle sellers.',
+    metaDescription: 'Create cryptogram puzzles that sell. Picture ciphers, difficulty tiers, 11 languages. Guide for Etsy, KDP, and TPT sellers. Try our tool free.',
   },
 
   hero: {

@@ -2,21 +2,20 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'customer support for digital products',
+    primaryKeyword: 'customer support digital products',
     secondaryKeywords: [
-      'customer support for digital product businesses',
-      'customer support for printable sellers',
-      'handle digital product customer issues',
-      'Etsy customer service for printable shops',
-      'digital product refund and support policy',
+      'handle Etsy customer issues printables',
+      'digital product refund policy template',
+      'customer service for printable sellers',
+      'reduce support requests digital downloads',
     ],
     lsiKeywords: [
-      'digital product customer service',
-      'printable business support',
-      'customer satisfaction digital products',
+      'Etsy seller rating management',
+      'FAQ template digital products',
+      'printable download troubleshooting',
     ],
     titleTag: 'Customer Support for Digital Products | LCS',
-    metaDescription: 'Customer support guide for digital product sellers. Handle common issues, build policies, and maintain high ratings for your printable business.',
+    metaDescription: 'Build a customer support system for digital products. Reduce requests, handle refunds, and maintain high seller ratings on Etsy and Gumroad.',
   },
 
   hero: {

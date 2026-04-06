@@ -2,25 +2,27 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'line tracing worksheet generator sell Etsy',
+    primaryKeyword: 'tracing worksheet maker',
     secondaryKeywords: [
-      'tracing line worksheet generator for Etsy sellers',
-      'create line tracing worksheets for Etsy shop',
-      'fine motor worksheets for Amazon KDP books',
-      'tracing printables with commercial license',
-      'sell drawing lines worksheets online',
+      'line tracing worksheet generator',
+      'pre-writing worksheet maker',
+      'tracing lines printable maker',
+      'fine motor worksheet generator',
     ],
     lsiKeywords: [
-      'fine motor skills printable niche',
-      'sell tracing worksheets commercially',
-      'pre-writing worksheet products',
+      'pre-writing',
+      'fine motor skills',
+      'pencil control',
+      'dotted lines',
+      'straight lines',
+      'curved lines',
     ],
-    titleTag: 'Line Tracing Worksheet Generator | Sell on Etsy & KDP',
-    metaDescription: 'Create line tracing worksheets with 8 SVG templates & themed image pairs. Try free with watermark. Commercial license for Etsy & KDP. $49 one-time.',
+    titleTag: 'Tracing Worksheet Maker | Line & Pre-Writing Activity Generator',
+    metaDescription: 'Create tracing and pre-writing worksheets with dotted lines and themed images. Print-ready 300 DPI PDFs. Try free — commercial license included.',
   },
 
   hero: {
-    title: 'Create Tracing Line Worksheets to Sell on Etsy & Amazon KDP',
+    title: 'Tracing Worksheet Maker — Line & Pre-Writing Activity Generator',
     tagline: 'Eight SVG line templates — curves, diagonals, horizontal, and vertical — with 4–5 image pairs per page for fine motor skill development through guided line tracing.',
     description:
       'Tracing line worksheets tap into the huge pre-writing and fine motor skills niche on Etsy — parents and therapists buy them for toddlers and preschoolers year-round. This generator creates professional line tracing activities where users draw along guided paths to connect matching image pairs. Eight SVG-based templates cover curves, diagonals, horizontal, and vertical lines with 4-5 themed image pairs per page. Choose from 3,000+ illustrations across 104 themed collections to create products that match any seasonal trend or interest niche. Every worksheet is purely visual with zero text, making them universally sellable worldwide. Export 300 DPI print-ready PDFs with full commercial license for Etsy, Amazon KDP, or any marketplace. Free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',

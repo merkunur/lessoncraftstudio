@@ -2,21 +2,20 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'create word search puzzles with images',
+    primaryKeyword: 'create word search puzzles to sell',
     secondaryKeywords: [
-      'create word search puzzles with images to sell',
       'make word search puzzles for Etsy',
-      'create themed word search books for KDP',
-      'word search puzzle creation guide',
-      'sell word search printables online',
+      'word search puzzle books for KDP',
+      'sell word search printables on TPT',
+      'themed word search worksheets for Etsy sellers',
     ],
     lsiKeywords: [
-      'word search product creation',
-      'puzzle business guide',
-      'sellable word puzzle products',
+      'word search puzzle generator tool',
+      'multilingual word puzzle products',
+      'themed puzzle printable business',
     ],
-    titleTag: 'Create Word Search Puzzles with Images | LCS',
-    metaDescription: 'Guide to creating word search puzzles with themed images to sell. Grid sizes, difficulty, themes, and strategies for Etsy and KDP word search sellers.',
+    titleTag: 'Create Word Search Puzzles to Sell | LCS',
+    metaDescription: 'Create word search puzzles that sell. Themed images, 11 languages, color-coded answer keys. Build products for Etsy, KDP, and TPT.',
   },
 
   hero: {

@@ -2,25 +2,26 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'find and count generator sell Etsy KDP',
+    primaryKeyword: 'count and find worksheet maker',
     secondaryKeywords: [
-      'search and count worksheet creator for Etsy shop',
-      'create find and count worksheets for Etsy',
-      'I Spy counting books for Amazon KDP',
-      'find and count printables with commercial license',
-      'sell search and count activities online',
+      'I spy counting worksheet generator',
+      'find and count printable maker',
+      'seek count worksheet maker',
+      'visual counting worksheet generator',
     ],
     lsiKeywords: [
-      'I Spy counting printable niche',
-      'sell find and count commercially',
-      'visual counting worksheet products',
+      'I spy counting',
+      'how many',
+      'tally',
+      'visual discrimination',
+      'number recognition',
     ],
-    titleTag: 'Find and Count Generator | Sell on Etsy & KDP',
-    metaDescription: 'Create find-and-count worksheets with I Spy & letter spotting modes. Try free with watermark. Commercial license for Etsy, KDP & TPT. $49 one-time.',
+    titleTag: 'Find & Count Worksheet Maker | I Spy Counting Generator',
+    metaDescription: 'Create find-and-count worksheets where kids search for and tally themed images. Auto answer keys. Try free — sell on Etsy & KDP.',
   },
 
   hero: {
-    title: 'Create Search and Count Worksheets to Sell on Etsy & KDP',
+    title: 'Find & Count Worksheet Maker — I Spy Counting Generator',
     tagline: 'Two activity modes in one generator — Hidden Object I Spy and Letter Spotting — with four mixable task types (circle, square, cross out, count), locale-specific alphabets with accented letters, localized image name labels in 11 languages, and auto-generated answer keys with visual annotations.',
     description:
       'Find-and-count worksheets combine the appeal of I Spy with counting practice — a format that sells consistently on Etsy and makes excellent Amazon KDP activity books. This creator generates professional search-and-count worksheets where solvers find specific objects in a scattered scene and complete tasks like circling, counting, or crossing out items. The Letter Spotting mode adds alphabet learning with locale-specific characters including German umlauts and French accents. Choose from 3,000+ themed illustrations across 104 collections, and export 300 DPI print-ready PDFs with automatic annotated answer keys. Every worksheet includes full commercial license for Etsy, Amazon KDP, TPT, or any marketplace. The 11-language support with localized image labels creates distinct products per locale. Free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',

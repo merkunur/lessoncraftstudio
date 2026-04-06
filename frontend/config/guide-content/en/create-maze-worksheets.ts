@@ -2,20 +2,20 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'create maze worksheets to sell on Etsy',
+    primaryKeyword: 'create maze worksheets to sell',
     secondaryKeywords: [
-      'make picture path mazes for Etsy',
-      'create maze activity books for KDP',
-      'maze worksheet creation guide',
-      'sell maze printables online',
+      'sell maze worksheets on Etsy',
+      'maze activity books for Amazon KDP',
+      'make picture path mazes to sell online',
+      'printable maze worksheet business TPT',
     ],
     lsiKeywords: [
-      'maze product creation',
-      'path puzzle business',
-      'sellable maze products',
+      'picture path maze generator',
+      'themed maze activity templates',
+      'difficulty-tiered maze printables',
     ],
-    titleTag: 'Create Maze Worksheets to Sell on Etsy | LCS',
-    metaDescription: 'Guide to creating maze worksheets to sell on Etsy. Picture path format, themes, and strategies for Etsy and KDP maze activity book sellers.',
+    titleTag: 'Create Maze Worksheets to Sell on Etsy & KDP | LCS',
+    metaDescription: 'Create maze worksheets that sell. Three game modes, themed paths, difficulty tiers. Guide for Etsy, KDP, and TPT sellers. Try our tool free.',
   },
 
   hero: {

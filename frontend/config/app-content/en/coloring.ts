@@ -2,25 +2,26 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'coloring page generator sell Etsy KDP',
+    primaryKeyword: 'coloring page maker',
     secondaryKeywords: [
-      'coloring page generator to sell on Etsy and KDP',
-      'create coloring pages for Etsy shop',
-      'coloring books for Amazon KDP sellers',
-      'printable coloring pages with commercial license',
-      'sell coloring printables online',
+      'coloring page generator',
+      'custom coloring pages maker',
+      'printable coloring page creator',
+      'coloring sheet generator',
     ],
     lsiKeywords: [
-      'coloring book niche Etsy KDP',
-      'sell coloring pages commercially',
-      'printable coloring products',
+      'outline',
+      'black and white',
+      'themed coloring',
+      'kids coloring',
+      'adults coloring',
     ],
-    titleTag: 'Coloring Page Generator | Create & Sell on Etsy & KDP',
-    metaDescription: 'Create coloring pages from 3,000+ themed images with outline conversion. Try free with watermark. Commercial license for Etsy, KDP & TPT. $49 one-time.',
+    titleTag: 'Coloring Page Maker | Create Custom Printable Coloring Sheets',
+    metaDescription: 'Create themed coloring pages from 3,000+ images. High-resolution outlines, printable PDFs. Try free — sell on Etsy & Amazon KDP with commercial license.',
   },
 
   hero: {
-    title: 'Create Coloring Pages to Sell on Etsy & Amazon KDP',
+    title: 'Coloring Page Maker — Create Custom Printable Coloring Sheets',
     tagline: 'Free-form canvas coloring page designer — browse 104 themed image collections, add freehand drawings, include layout helpers like name fields and handwriting lines, and toggle grayscale export for ink-friendly coloring pages.',
     description:
       'Coloring pages are the single highest-demand printable category on Etsy and one of the top KDP niches — and this generator lets you create professional coloring pages to sell without any drawing skills. Convert themed images into clean outlines ready for coloring, choose from 3,000+ illustrations across 104 collections, and export 300 DPI print-ready PDFs with full commercial license. Build themed coloring books for Amazon KDP or seasonal coloring bundles for Etsy in minutes instead of hours. The 104 theme collections cover animals, holidays, vehicles, food, nature, and dozens more — giving you endless product variety for year-round sales. Every coloring page works worldwide without translation. Free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',

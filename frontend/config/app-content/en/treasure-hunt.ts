@@ -2,25 +2,26 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'treasure hunt generator sell Etsy KDP',
+    primaryKeyword: 'treasure hunt worksheet maker',
     secondaryKeywords: [
-      'treasure hunt printable generator for Etsy and KDP',
-      'create treasure hunt worksheets for Etsy shop',
-      'directional puzzle printables for Amazon KDP',
-      'treasure hunt worksheets with commercial license',
-      'sell path-finding activities online',
+      'scavenger hunt printable maker',
+      'treasure hunt activity generator',
+      'printable treasure hunt maker',
+      'treasure hunt game maker',
     ],
     lsiKeywords: [
-      'adventure puzzle printable niche',
-      'sell treasure hunt worksheets commercially',
-      'coordinate grid worksheet products',
+      'clues',
+      'adventure',
+      'scavenger hunt',
+      'follow the path',
+      'classroom activity',
     ],
-    titleTag: 'Treasure Hunt Generator | Sell on Etsy & KDP',
-    metaDescription: 'Create treasure hunt worksheets with coordinate grids in 11 languages. Try free with watermark. Commercial license for Etsy, KDP & TPT. $49 one-time.',
+    titleTag: 'Treasure Hunt Maker | Create Printable Scavenger Hunt Games',
+    metaDescription: 'Create themed treasure hunt and scavenger hunt worksheets with clues and images. Print-ready PDFs. Try free — sell on Etsy & KDP.',
   },
 
   hero: {
-    title: 'Create Treasure Hunt Worksheets to Sell on Etsy & KDP',
+    title: 'Treasure Hunt Maker — Create Printable Scavenger Hunt Games',
     tagline: 'Generate directional path-finding puzzles on a 5×5 coordinate grid — two direction vocabularies (Basic: up/down/left/right and Cardinal: north/south/east/west), fully localized directional clues in 11 languages, auto-generated answer key with highlighted treasure location, and treasure-themed headers across 104 image collections.',
     description:
       'Treasure hunt worksheets combine adventure excitement with directional skills -- a unique printable format that stands out on Etsy and makes engaging Amazon KDP activity books. This generator creates professional path-finding puzzles on a coordinate grid where solvers follow directional clues to locate hidden treasure among themed image landmarks. Choose Basic (up/down/left/right) or Cardinal (north/south/east/west) direction modes, pick from 3,000+ themed illustrations across 104 collections, and export 300 DPI print-ready PDFs with automatic answer keys. The 11-language support translates all directional clues, creating distinct products per locale. Every worksheet includes full commercial license for Etsy, Amazon KDP, or any marketplace. Free to try with all features -- no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',

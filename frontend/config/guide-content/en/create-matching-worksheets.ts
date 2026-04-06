@@ -4,19 +4,18 @@ const content: GuideContent = {
   seo: {
     primaryKeyword: 'create matching worksheets to sell',
     secondaryKeywords: [
-      'create matching worksheets for preschool to sell',
-      'make matching activities for Etsy shop',
-      'create matching worksheets for KDP books',
-      'matching worksheet creation guide',
-      'sell matching printables online',
+      'sell matching worksheets on Etsy',
+      'matching activity books for Amazon KDP',
+      'make preschool matching printables to sell online',
+      'printable matching worksheet business TPT',
     ],
     lsiKeywords: [
-      'matching product creation',
-      'preschool worksheet business',
-      'sellable matching products',
+      'draw-a-line matching generator',
+      'preschool activity templates',
+      'visual discrimination printables',
     ],
-    titleTag: 'Create Matching Worksheets to Sell | LCS',
-    metaDescription: 'Guide to creating matching worksheets for preschool to sell. Four matching modes, themes, and strategies for Etsy and KDP matching worksheet sellers.',
+    titleTag: 'Create Matching Worksheets to Sell Online | LCS',
+    metaDescription: 'Create matching worksheets that sell. Four modes, auto answer keys, 11 languages. Guide for Etsy, KDP, and TPT sellers. Try our tool free.',
   },
 
   hero: {

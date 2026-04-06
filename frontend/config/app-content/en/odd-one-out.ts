@@ -2,25 +2,26 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'odd one out puzzle generator sell Etsy KDP',
+    primaryKeyword: 'odd one out worksheet maker',
     secondaryKeywords: [
-      'odd one out puzzle maker for selling on Etsy and KDP',
-      'create odd one out worksheets for Etsy shop',
-      'find the different puzzles for Amazon KDP books',
-      'odd one out printables with commercial license',
-      'sell visual discrimination puzzles online',
+      'odd one out puzzle generator',
+      'which one is different worksheet maker',
+      'classification worksheet maker',
+      'odd one out printable maker',
     ],
     lsiKeywords: [
-      'odd one out printable niche',
-      'sell find the different puzzles commercially',
-      'critical thinking worksheet products',
+      'which doesn\'t belong',
+      'categorization',
+      'logical reasoning',
+      'classification',
+      'critical thinking',
     ],
-    titleTag: 'Odd One Out Puzzle Generator | Sell on Etsy & KDP',
-    metaDescription: 'Create odd-one-out puzzles with two modes & auto answer keys. Try free with watermark. Commercial license for Etsy, KDP & TPT. $49 one-time.',
+    titleTag: 'Odd One Out Worksheet Maker | Classification Puzzle Generator',
+    metaDescription: 'Create odd-one-out worksheets with themed images for logical reasoning. Auto answer keys, printable PDFs. Try free — commercial license included.',
   },
 
   hero: {
-    title: 'Create Odd One Out Puzzles to Sell on Etsy & Amazon KDP',
+    title: 'Odd One Out Worksheet Maker — Classification Puzzle Generator',
     tagline: 'Two generation modes — Identical and Similar — with per-exercise difficulty override, 5–10 configurable exercises, auto-generated answer keys with red circle markers, and visual-only puzzles that work across all 11 languages without translation.',
     description:
       'Odd one out puzzles are a universally appealing format that sells well on Etsy and in Amazon KDP activity books — solvers spot the different item in each row, building critical thinking and visual discrimination skills. This maker creates professional find-the-different worksheets with two generation modes: Identical mode for spot-the-difference challenges and Similar mode for cross-theme discrimination puzzles. Configure 5-10 exercises per page and mix difficulty levels within a single worksheet. Choose from 3,000+ themed illustrations across 104 collections and export 300 DPI print-ready PDFs with automatic answer keys that circle the odd item in red. Every worksheet includes full commercial license for Etsy, Amazon KDP, or any marketplace. The purely visual format works worldwide without translation. Free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',

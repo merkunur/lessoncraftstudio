@@ -2,20 +2,20 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'how to get reviews for printable products',
+    primaryKeyword: 'get reviews digital products Etsy',
     secondaryKeywords: [
-      'get Etsy reviews for printable products',
-      'increase reviews on printable listings',
+      'increase Etsy reviews for printables',
       'review strategy for digital product sellers',
-      'build social proof for printable business',
+      'build social proof printable business',
+      'how to ask for reviews on Etsy ethically',
     ],
     lsiKeywords: [
-      'printable product reviews',
-      'Etsy review strategy',
-      'social proof digital products',
+      'Etsy review conversion rate',
+      'post-purchase follow up strategy',
+      'social proof digital downloads',
     ],
-    titleTag: 'Get Reviews for Printable Products on Etsy | LCS',
-    metaDescription: 'How to get reviews for printable products. Ethical strategies for building social proof on Etsy and other platforms for printable sellers.',
+    titleTag: 'Get More Reviews on Etsy Printables | LCS',
+    metaDescription: 'Get more reviews for digital products on Etsy. Ethical strategies to build social proof, improve conversion, and boost your listing visibility.',
   },
 
   hero: {

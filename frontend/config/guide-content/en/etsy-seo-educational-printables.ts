@@ -2,21 +2,20 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Etsy SEO for printable worksheets',
+    primaryKeyword: 'Etsy SEO for printables',
     secondaryKeywords: [
-      'Etsy SEO for printable worksheets 2026',
-      'Etsy SEO tips for educational printables',
-      'optimize Etsy listings for worksheet sales',
-      'Etsy search ranking for printable sellers',
       'Etsy tags and titles for worksheets 2026',
+      'optimize Etsy listings for printable sales',
+      'Etsy search ranking for digital products',
+      'Etsy SEO tips educational printables',
     ],
     lsiKeywords: [
-      'Etsy algorithm educational products',
-      'Etsy listing optimization printables',
-      'Etsy search ranking factors',
+      'Etsy algorithm ranking factors',
+      'Etsy listing keyword research',
+      'Etsy search optimization strategy',
     ],
-    titleTag: 'Etsy SEO for Printable Worksheets (2026) | LCS',
-    metaDescription: 'Master Etsy SEO for printable worksheets in 2026. Tags, titles, descriptions, and ranking strategies that drive organic traffic to your worksheet listings.',
+    titleTag: 'Etsy SEO for Printables: Rank Higher | LCS',
+    metaDescription: 'Master Etsy SEO for printables. Keyword research, title formulas, tag strategies, and ranking tactics that drive organic traffic to your listings.',
   },
 
   hero: {

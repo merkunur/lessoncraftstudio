@@ -5,17 +5,17 @@ const content: GuideContent = {
     primaryKeyword: 'create size comparison worksheets to sell',
     secondaryKeywords: [
       'make big and small worksheets for Etsy',
-      'create size discrimination printables for KDP',
-      'size comparison creation guide',
-      'sell visual discrimination worksheets online',
+      'size comparison printables for KDP books',
+      'sell size sorting worksheets on TPT',
+      'printable size discrimination activities for sellers',
     ],
     lsiKeywords: [
-      'size comparison product creation',
-      'early learning worksheet business',
-      'sellable visual discrimination products',
+      'big and small worksheet generator',
+      'early learning printable product niche',
+      'visual size discrimination activities',
     ],
     titleTag: 'Create Size Comparison Worksheets to Sell | LCS',
-    metaDescription: 'Guide to creating size comparison worksheets to sell. Five question types, themes, and strategies for Etsy and KDP early learning sellers.',
+    metaDescription: 'Create size comparison worksheets that sell. Five question types, zero-text output, themed images. Build products for Etsy, KDP, and TPT.',
   },
 
   hero: {

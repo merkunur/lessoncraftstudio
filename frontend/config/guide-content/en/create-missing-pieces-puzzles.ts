@@ -2,20 +2,20 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'create missing pieces puzzles to sell',
+    primaryKeyword: 'create missing piece puzzles to sell',
     secondaryKeywords: [
-      'make missing pieces worksheets for Etsy',
-      'create visual puzzles for KDP books',
-      'missing pieces creation guide',
-      'sell observation puzzles online',
+      'make missing piece worksheets for Etsy',
+      'missing piece puzzles for KDP activity books',
+      'sell jigsaw puzzle worksheets on TPT',
+      'printable observation puzzles for Etsy sellers',
     ],
     lsiKeywords: [
-      'missing pieces product creation',
-      'visual puzzle business',
-      'sellable observation products',
+      'spatial reasoning printable products',
+      'visual discrimination worksheet business',
+      'jigsaw puzzle worksheet generator',
     ],
-    titleTag: 'Create Missing Pieces Puzzles to Sell | LCS',
-    metaDescription: 'Guide to creating missing pieces puzzles to sell. Visual observation format, themes, and strategies for Etsy and KDP activity book sellers.',
+    titleTag: 'Create Missing Piece Puzzles to Sell | LCS',
+    metaDescription: 'Learn to create missing piece puzzles buyers love. Six piece shapes, smart extraction, answer keys. Build Etsy and KDP products fast.',
   },
 
   hero: {

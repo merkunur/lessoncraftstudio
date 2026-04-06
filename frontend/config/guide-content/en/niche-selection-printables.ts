@@ -2,21 +2,20 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'niche selection for printable business',
+    primaryKeyword: 'niche selection for printables',
     secondaryKeywords: [
-      'niche selection for printable business 2026',
-      'choose profitable printable niche guide',
-      'printable business niche research 2026',
-      'best niches for selling printables',
-      'niche selection strategy for Etsy sellers',
+      'choose profitable printable niche 2026',
+      'best niches for selling printables Etsy',
+      'printable niche research methods',
+      'niche validation for printable sellers',
     ],
     lsiKeywords: [
-      'printable niche analysis',
-      'market research printable business',
-      'profitable niche identification',
+      'Etsy niche competition analysis',
+      'printable market demand research',
+      'profitable niche identification strategy',
     ],
-    titleTag: 'Niche Selection for Printable Business | LCS',
-    metaDescription: 'How to choose a profitable niche for your printable business in 2026. Market research, competition analysis, and demand validation for new sellers.',
+    titleTag: 'Niche Selection for Printable Sellers | LCS',
+    metaDescription: 'Choose a profitable niche for your printable business. Market research, competition analysis, and demand validation methods for Etsy and KDP sellers.',
   },
 
   hero: {

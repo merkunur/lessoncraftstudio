@@ -172,7 +172,7 @@ export default async function GuidePage({
       publisher: { '@type': 'Organization', name: 'LessonCraftStudio', url: baseUrl },
       author: { '@type': 'Organization', name: 'LessonCraftStudio', url: baseUrl },
       datePublished: '2026-02-27',
-      dateModified: '2026-03-20',
+      dateModified: '2026-04-06',
       speakable: { '@type': 'SpeakableSpecification', cssSelector: ['.speakable-headline', '.speakable-summary'] },
     };
 

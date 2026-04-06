@@ -2,21 +2,20 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Amazon KDP vs Etsy',
+    primaryKeyword: 'KDP vs Etsy for printables',
     secondaryKeywords: [
-      'Amazon KDP vs Etsy for selling printables',
-      'KDP vs Etsy comparison printable sellers',
-      'where to sell printables KDP or Etsy',
-      'Etsy vs Amazon KDP for worksheets',
-      'best platform for selling printables 2026',
+      'Amazon KDP vs Etsy comparison printable sellers',
+      'where to sell printables KDP or Etsy 2026',
+      'best platform for selling worksheets online',
+      'KDP vs Etsy fees and revenue compared',
     ],
     lsiKeywords: [
-      'platform comparison printable business',
-      'KDP Etsy revenue comparison',
       'multi-platform printable selling',
+      'print on demand vs digital download',
+      'marketplace fee comparison sellers',
     ],
-    titleTag: 'Amazon KDP vs Etsy: Where to Sell Printables | LCS',
-    metaDescription: 'KDP vs Etsy for selling printables — honest comparison. Revenue models, traffic, fees, and which platform is best for your printable business in 2026.',
+    titleTag: 'KDP vs Etsy for Printables: Compared | LCS',
+    metaDescription: 'KDP vs Etsy for printables compared. Fees, traffic, revenue models, and which platform fits your printable business in 2026.',
   },
 
   hero: {

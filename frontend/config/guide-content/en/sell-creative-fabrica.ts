@@ -2,20 +2,20 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'sell educational resources on Creative Fabrica',
+    primaryKeyword: 'sell printables on Creative Fabrica',
     secondaryKeywords: [
-      'Creative Fabrica seller guide printables',
-      'sell worksheets on Creative Fabrica',
-      'Creative Fabrica for educational printable sellers',
-      'Creative Fabrica vs Etsy for printables',
+      'Creative Fabrica seller guide for printables',
+      'Creative Fabrica vs Etsy for worksheets',
+      'sell worksheets on Creative Fabrica 2026',
+      'Creative Fabrica printable product setup',
     ],
     lsiKeywords: [
-      'Creative Fabrica marketplace',
-      'digital product platform comparison',
-      'alternative printable marketplaces',
+      'Creative Fabrica marketplace revenue',
+      'alternative printable selling platforms',
+      'CF subscription model for sellers',
     ],
-    titleTag: 'Sell Educational Resources on Creative Fabrica | LCS',
-    metaDescription: 'Guide to selling educational resources on Creative Fabrica. Platform setup, product listing, pricing, and strategies for printable sellers on CF.',
+    titleTag: 'Sell Printables on Creative Fabrica | LCS',
+    metaDescription: 'Sell printables on Creative Fabrica. Platform setup, pricing, product listing strategy, and how CF compares to Etsy for printable sellers.',
   },
 
   hero: {

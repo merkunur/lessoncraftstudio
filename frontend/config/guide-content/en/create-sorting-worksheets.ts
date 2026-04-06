@@ -2,21 +2,20 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'category sorting worksheets to sell',
+    primaryKeyword: 'create sorting worksheets to sell',
     secondaryKeywords: [
-      'create sorting worksheets to sell',
       'make category sorting worksheets for Etsy',
-      'create sorting activity printables for KDP',
-      'sorting worksheet creation guide',
-      'sell sorting printables online',
+      'sorting activity printables for KDP books',
+      'sell cut and sort worksheets on TPT',
+      'printable classification activities for Etsy sellers',
     ],
     lsiKeywords: [
-      'sorting product creation',
-      'classification worksheet business',
-      'sellable sorting products',
+      'category sorting worksheet generator',
+      'cut and sort printable business',
+      'early learning classification products',
     ],
-    titleTag: 'Create Category Sorting Worksheets to Sell | LCS',
-    metaDescription: 'Guide to creating sorting worksheets to sell. Category sorting with themed images and strategies for Etsy and KDP early learning sellers.',
+    titleTag: 'Create Sorting Worksheets to Sell | LCS',
+    metaDescription: 'Create sorting worksheets that sell. Cut-and-sort format, themed categories, auto answer keys. Build products for Etsy, KDP, and TPT.',
   },
 
   hero: {

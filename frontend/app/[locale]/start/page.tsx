@@ -9,7 +9,7 @@ import type { SupportedLocale } from '@/config/product-page-slugs';
 const baseUrl = 'https://www.lessoncraftstudio.com';
 
 const startKeywords: Record<string, string[]> = {
-  en: ['start and grow printable business', 'printable business guides for beginners', 'how to sell printables on Etsy KDP', 'Etsy printable seller guide', 'KDP activity book beginner guide', 'passive income with printables'],
+  en: ['start printable business', 'how to start selling printables', 'printable business for beginners', 'launch etsy printable shop', 'KDP activity book beginner guide', 'passive income with printables'],
   de: ['Druckvorlagen-Geschäft starten', 'Druckvorlagen-Business für Anfänger', 'Druckvorlagen verkaufen', 'Etsy Verkäufer Leitfaden', 'KDP Anfänger Anleitung', 'passives Einkommen Druckvorlagen'],
   fr: ['lancer business imprimables', 'business imprimables débutants', 'comment vendre imprimables', 'guide vendeur Etsy', 'guide débutant KDP', 'revenus passifs imprimables'],
   es: ['iniciar negocio imprimibles', 'negocio imprimibles principiantes', 'cómo vender imprimibles Hotmart', 'guía vendedor Etsy', 'guía principiante KDP', 'ingresos pasivos imprimibles hispano'],
@@ -34,8 +34,8 @@ const startPageContent: Record<string, {
   en: {
     heroTitle: 'Start & Grow a Printable Business',
     heroDescription: 'Everything you need to start and grow a profitable printable business. From first product to full-time income.',
-    metaTitle: 'Start & Grow a Printable Business — Guides | LCS',
-    metaDescription: 'Everything to start and grow a printable business. Guides for Etsy, KDP, marketing, pricing, scaling & legal. From first product to full-time income.',
+    metaTitle: 'Start Your Printable Business | Step-by-Step Launch Guide',
+    metaDescription: 'Complete blueprints for launching a printable business on Etsy, Amazon KDP, or TPT. From first worksheet to first sale — no design skills needed.',
     ctaTitle: 'Ready to Create?',
     ctaDescription: 'Try all 33 printable generators free with watermark. No signup required.',
     ctaButton: 'Try Free Generators',

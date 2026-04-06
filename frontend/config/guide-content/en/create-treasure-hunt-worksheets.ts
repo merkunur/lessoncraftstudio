@@ -5,17 +5,17 @@ const content: GuideContent = {
     primaryKeyword: 'create treasure hunt worksheets to sell',
     secondaryKeywords: [
       'make treasure hunt printables for Etsy',
-      'create directional puzzles for KDP',
-      'treasure hunt creation guide',
-      'sell coordinate grid worksheets online',
+      'directional puzzle worksheets for KDP books',
+      'sell coordinate grid activities on TPT',
+      'printable treasure hunt puzzles for Etsy sellers',
     ],
     lsiKeywords: [
-      'treasure hunt product creation',
-      'adventure puzzle business',
-      'sellable directional products',
+      'treasure hunt worksheet generator',
+      'directional reasoning printable products',
+      'coordinate grid activity business',
     ],
     titleTag: 'Create Treasure Hunt Worksheets to Sell | LCS',
-    metaDescription: 'Guide to creating treasure hunt worksheets to sell. Directional puzzles, coordinate grids, and strategies for Etsy and KDP adventure activity sellers.',
+    metaDescription: 'Create treasure hunt worksheets that sell. Directional puzzles, coordinate grids, 11 languages. Build products for Etsy, KDP, and TPT.',
   },
 
   hero: {

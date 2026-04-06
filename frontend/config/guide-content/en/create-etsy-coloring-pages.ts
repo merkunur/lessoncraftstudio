@@ -2,21 +2,20 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'create Etsy coloring pages that sell',
+    primaryKeyword: 'sell coloring pages on Etsy',
     secondaryKeywords: [
-      'create coloring pages that sell on Etsy',
-      'make coloring pages for Etsy shop',
-      'Etsy coloring page business guide',
-      'sell coloring pages on Etsy tips',
-      'coloring page listing optimization Etsy',
+      'Etsy coloring page shop tips',
+      'coloring pages for Amazon KDP sellers',
+      'make coloring printables for Etsy business',
+      'printable coloring page shop TPT',
     ],
     lsiKeywords: [
-      'Etsy coloring niche strategy',
-      'digital coloring products',
-      'coloring book business Etsy',
+      'Etsy SEO for coloring pages',
+      'seasonal coloring page listings',
+      'digital download coloring business',
     ],
-    titleTag: 'Create Etsy Coloring Pages That Sell | LCS',
-    metaDescription: 'Learn to create coloring pages that sell on Etsy. Theme selection, listing optimization, seasonal timing, and pricing strategies for coloring page sellers.',
+    titleTag: 'Sell Coloring Pages on Etsy: Complete Guide | LCS',
+    metaDescription: 'Sell coloring pages on Etsy with confidence. SEO, pricing, seasonal timing, and listing tips. Use our generator to create pages fast — try free.',
   },
 
   hero: {

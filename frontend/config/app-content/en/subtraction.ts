@@ -2,26 +2,26 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'subtraction worksheet generator sell Etsy',
+    primaryKeyword: 'subtraction worksheet maker',
     secondaryKeywords: [
-      'subtraction worksheet generator for selling printables',
-      'create subtraction worksheets for Etsy shop',
-      'subtraction printables for Amazon KDP books',
-      'visual subtraction worksheets with commercial license',
-      'make subtraction activities to sell on TPT',
-      'printable subtraction problems to sell online',
+      'subtraction worksheet generator',
+      'create subtraction worksheets',
+      'printable subtraction worksheets maker',
+      'custom subtraction practice sheets',
     ],
     lsiKeywords: [
-      'printable math products Etsy business',
-      'sell subtraction worksheets commercially',
-      'math printable entrepreneurship',
+      'borrowing',
+      'regrouping',
+      'single digit subtraction',
+      'kindergarten subtraction',
+      'visual subtraction',
     ],
-    titleTag: 'Subtraction Worksheet Generator | Sell on Etsy & KDP',
-    metaDescription: 'Generate visual subtraction worksheets with themed images & answer keys. Try free with watermark. Commercial license for Etsy, KDP & TPT. $49 one-time.',
+    titleTag: 'Subtraction Worksheet Maker | Custom Math Practice Sheets',
+    metaDescription: 'Generate custom subtraction worksheets with themed images and auto answer keys. 300 DPI PDFs in 11 languages. Try free — commercial license included.',
   },
 
   hero: {
-    title: 'Generate Subtraction Worksheets to Sell on Etsy, KDP & TPT',
+    title: 'Subtraction Worksheet Maker — Custom Math Practice Sheets',
     tagline: 'Make subtraction click with picture-based worksheets where solvers cross out images to find the answer.',
     description:
       'Turn subtraction into a sellable product with a generator built for printable entrepreneurs. Create image-based subtraction worksheets featuring themed illustrations — animals, vehicles, food, nature, and dozens more — that make math engaging and your listings irresistible. Each worksheet exports as a 300 DPI print-ready PDF with an automatic answer key, ready to upload as a digital download on Etsy, compile into an Amazon KDP activity book, or list on Teachers Pay Teachers. Commercial license is included with every worksheet, so you keep 100% of your revenue with zero attribution required. Sellers who bundle addition and subtraction worksheets together consistently report higher average order values — and you can create both formats in under 3 minutes each. Free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',

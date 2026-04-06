@@ -4,19 +4,18 @@ const content: GuideContent = {
   seo: {
     primaryKeyword: 'create subtraction worksheets to sell',
     secondaryKeywords: [
-      'how to create subtraction worksheets to sell',
-      'create subtraction worksheets for Etsy',
-      'make subtraction printables for KDP',
-      'subtraction worksheet creation guide',
-      'sell subtraction worksheets online',
+      'make subtraction worksheets for Etsy',
+      'subtraction printables for KDP math books',
+      'sell subtraction worksheets on TPT',
+      'printable subtraction activities for Etsy sellers',
     ],
     lsiKeywords: [
-      'subtraction printable business',
-      'math worksheet product creation',
-      'sellable subtraction products',
+      'subtraction worksheet generator tool',
+      'math printable product creation',
+      'cross-out subtraction visual worksheets',
     ],
     titleTag: 'Create Subtraction Worksheets to Sell | LCS',
-    metaDescription: 'Guide to creating subtraction worksheets to sell on Etsy & KDP. Cross-out mode, difficulty tiers, bundle strategies, and listing optimization tips.',
+    metaDescription: 'Create subtraction worksheets that sell. Cross-out mode, four exercise types, difficulty tiers. Build products for Etsy, KDP, and TPT.',
   },
 
   hero: {

@@ -2,25 +2,27 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'crossword puzzle generator sell Etsy KDP',
+    primaryKeyword: 'crossword puzzle maker',
     secondaryKeywords: [
-      'crossword puzzle maker for selling on Etsy and KDP',
-      'create picture crossword puzzles for Etsy',
-      'crossword puzzle books for Amazon KDP',
-      'printable crossword generator with commercial license',
-      'image crossword maker for printable sellers',
+      'crossword generator',
+      'picture crossword maker',
+      'custom crossword creator',
+      'printable crossword maker',
     ],
     lsiKeywords: [
-      'vocabulary puzzle niche Etsy',
-      'sell crossword printables online',
-      'educational puzzle products',
+      'across',
+      'down',
+      'clues',
+      'grid',
+      'picture clues',
+      'educational crossword',
     ],
-    titleTag: 'Crossword Puzzle Generator | Sell on Etsy & KDP',
-    metaDescription: 'Create picture crossword puzzles with image clues & auto answer keys. Try free with watermark. Commercial license for Etsy, KDP & TPT. $49 one-time.',
+    titleTag: 'Crossword Puzzle Maker | Create Custom Picture Crosswords',
+    metaDescription: 'Create picture crossword puzzles with image clues on a 15x15 grid. 4 input methods, auto answer keys, 104 themes. Try free — commercial license included.',
   },
 
   hero: {
-    title: 'Create Crossword Puzzles to Sell on Etsy, KDP & TPT',
+    title: 'Crossword Puzzle Maker — Create Custom Picture Crosswords',
     tagline: 'Replace traditional text clues with image clues on a 15×15 crossword grid — four input methods (theme auto-select, manual image editing, custom word list, and image upload), auto-generated answer key with filled grid, and a localized \"Picture Crossword\" header across 104 themed image collections.',
     description:
       'Picture crossword puzzles stand out from every other printable format on Etsy — colorful image clues replace boring text definitions, making your listings visually distinctive and irresistible to buyers. This crossword puzzle maker generates professional crossword grids with themed images as clues, automatic answer keys, and 300 DPI print-ready exports — all in under 3 minutes. Choose from 3,000+ illustrations across 104 themes, or upload your own images for branded puzzles. The built-in 11-language support generates genuinely different crossword words per locale, so a single tool creates products for English, German, French, Spanish, and seven more markets. Every crossword you create comes with a full commercial license for Etsy, Amazon KDP, TPT, or any marketplace. Crossword puzzle books are a proven niche on KDP with consistent demand — and this generator lets you fill pages fast. Free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',

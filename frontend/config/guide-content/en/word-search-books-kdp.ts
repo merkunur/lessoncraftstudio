@@ -2,20 +2,20 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'create word search books for Amazon KDP',
+    primaryKeyword: 'word search books for KDP',
     secondaryKeywords: [
-      'word search book publishing KDP guide',
-      'publish word search puzzle books Amazon',
+      'publish word search books on Amazon KDP',
       'KDP word search book creation step by step',
-      'Amazon word search book business',
+      'word search puzzle book niches Amazon',
+      'self-publish word search activity books',
     ],
     lsiKeywords: [
-      'KDP word search niche',
-      'Amazon word puzzle publishing',
-      'self-publish word search books',
+      'KDP word search niche profitability',
+      'word puzzle book formatting',
+      'themed word search content strategy',
     ],
-    titleTag: 'Create Word Search Books for Amazon KDP | LCS',
-    metaDescription: 'Guide to creating word search books for Amazon KDP. Theme selection, difficulty progression, formatting, and publishing strategies for word search authors.',
+    titleTag: 'Word Search Books for KDP: Full Guide | LCS',
+    metaDescription: 'Create word search books for Amazon KDP. Theme selection, difficulty progression, formatting specs, and publishing strategies for word search authors.',
   },
 
   hero: {

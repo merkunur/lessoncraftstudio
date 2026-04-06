@@ -5,18 +5,17 @@ const content: GuideContent = {
     primaryKeyword: 'sell math worksheets on Etsy',
     secondaryKeywords: [
       'how to sell math worksheets on Etsy 2026',
-      'sell math printables on Etsy step by step',
-      'Etsy math worksheet shop setup guide',
-      'math worksheet pricing strategy for Etsy',
-      'list math worksheets on Etsy for beginners',
+      'Etsy math worksheet listing optimization',
+      'math printable pricing strategy for Etsy',
+      'sell math worksheets on KDP and TPT',
     ],
     lsiKeywords: [
-      'Etsy printable business math niche',
-      'digital download math products Etsy',
-      'Etsy SEO for math worksheets',
+      'Etsy SEO for math worksheet sellers',
+      'math printable business niche',
+      'digital download math products',
     ],
-    titleTag: 'Sell Math Worksheets on Etsy: 2026 Guide | LCS',
-    metaDescription: 'Step-by-step guide to selling math worksheets on Etsy in 2026. SEO, pricing, bundling strategies, and seasonal timing for printable math sellers.',
+    titleTag: 'Sell Math Worksheets on Etsy: Guide | LCS',
+    metaDescription: 'Sell math worksheets on Etsy step by step. SEO tags, pricing, bundling, and seasonal timing strategies for printable math sellers.',
   },
 
   hero: {

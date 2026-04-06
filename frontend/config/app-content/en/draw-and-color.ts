@@ -2,25 +2,25 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'draw and color activity generator sell Etsy',
+    primaryKeyword: 'draw and color worksheet maker',
     secondaryKeywords: [
-      'draw and color activity maker for Etsy printable shop',
-      'create draw and color worksheets for Etsy',
-      'grid drawing printables for Amazon KDP',
-      'draw and color worksheets with commercial license',
-      'sell art activity worksheets online',
+      'drawing activity worksheet generator',
+      'guided drawing worksheet maker',
+      'draw and color printable maker',
+      'art worksheet generator',
     ],
     lsiKeywords: [
-      'art activity printable niche',
-      'sell drawing worksheets commercially',
-      'creative worksheet products Etsy',
+      'guided drawing',
+      'step by step drawing',
+      'art activity',
+      'creative worksheet',
     ],
-    titleTag: 'Draw and Color Activity Generator | Sell on Etsy & KDP',
-    metaDescription: 'Create draw-and-color grid activities with 3,000+ themed images. Try free with watermark. Commercial license for Etsy, KDP & TPT. $49 one-time.',
+    titleTag: 'Draw & Color Worksheet Maker | Art Activity Generator',
+    metaDescription: 'Create guided drawing and coloring worksheets with themed images. Print-ready 300 DPI PDFs. Try free — commercial license for Etsy & KDP.',
   },
 
   hero: {
-    title: 'Create Draw and Color Worksheets to Sell on Etsy & KDP',
+    title: 'Draw & Color Worksheet Maker — Art Activity Generator',
     tagline: 'Dual grid system — practice grid and clue grid side by side — with adjustable clue percentage from 10% to 75%, horizontal and vertical symmetry modes, and 100+ black & white outline themes for drawing and coloring activities.',
     description:
       'Draw and color worksheets combine two activities kids love — drawing and coloring — into a single product format that stands out on Etsy. This maker creates professional grid-based drawing activities where learners copy images cell by cell, then color their creation. Choose from 3,000+ themed illustrations across 104 collections as drawing reference images. Every worksheet exports as a 300 DPI print-ready PDF with full commercial license for Etsy, Amazon KDP, or any marketplace. Art activity printables are a growing niche with strong demand from parents seeking screen-free creative activities. Build themed drawing bundles for Etsy or compile art workbooks for Amazon KDP. Free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',

@@ -2,25 +2,26 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'cryptogram puzzle generator sell Etsy KDP',
+    primaryKeyword: 'cryptogram maker',
     secondaryKeywords: [
-      'cryptogram puzzle generator to sell on Etsy',
-      'create cipher puzzles for Etsy shop',
-      'cryptogram puzzle books for Amazon KDP',
-      'picture cipher worksheets with commercial license',
-      'sell code-breaking puzzles online',
+      'cryptogram puzzle generator',
+      'cryptogram worksheet maker',
+      'create cryptogram puzzles',
+      'printable cryptogram generator',
     ],
     lsiKeywords: [
-      'unique puzzle format printable niche',
-      'cipher puzzle business',
-      'sell decoder worksheets online',
+      'cipher',
+      'decode',
+      'secret message',
+      'letter substitution',
+      'code breaking',
     ],
-    titleTag: 'Cryptogram Puzzle Generator | Sell on Etsy & KDP',
-    metaDescription: 'Create cryptogram puzzles with cipher encoding in 11 languages. Try free with watermark. Commercial license for Etsy, KDP & TPT. $49 one-time.',
+    titleTag: 'Cryptogram Maker | Create Custom Code-Breaking Puzzles',
+    metaDescription: 'Generate cryptogram puzzles with themed images and auto answer keys. 300 DPI PDFs in 11 languages. Try free — sell on Etsy & KDP with commercial license.',
   },
 
   hero: {
-    title: 'Create Cryptogram Cipher Puzzles to Sell on Etsy & KDP',
+    title: 'Cryptogram Maker — Create Custom Code-Breaking Puzzles',
     tagline: 'Map alphabet letters to images and encode entire phrases into visual cipher puzzles — adjustable difficulty from zero hints to heavily scaffolded with Letters to Reveal.',
     description:
       'Cryptogram cipher puzzles are one of the most unique and low-competition formats you can sell on Etsy and Amazon KDP. This generator turns any phrase into a picture cipher where every letter maps to an image — solvers crack the code through pattern recognition and deduction. Adjust difficulty with the Letters to Reveal slider, choose from 3,000+ themed illustrations, and generate complete puzzles with answer keys in under 3 minutes. The 11-language support creates genuinely different cipher products per locale — German with umlauts, French with accented characters — opening markets most sellers ignore entirely. Every puzzle exports as a 300 DPI print-ready PDF with full commercial license. Free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',

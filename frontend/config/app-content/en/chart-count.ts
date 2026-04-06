@@ -2,25 +2,26 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'counting chart generator sell Etsy KDP',
+    primaryKeyword: 'counting worksheet maker',
     secondaryKeywords: [
-      'counting chart worksheet generator for Etsy shop',
-      'picture graph worksheets to sell online',
-      'counting and graphing printables for KDP',
-      'data graphing worksheets for printable business',
-      'create picture chart worksheets for TPT',
+      'chart counting worksheets',
+      'graphing worksheets generator',
+      'counting and graphing printable maker',
+      'tally chart worksheet maker',
     ],
     lsiKeywords: [
-      'STEM printable niche low competition',
-      'early learning data skills worksheets',
-      'sell graphing activities online',
+      'tally marks',
+      'bar graph',
+      'pictograph',
+      'data collection',
+      'count and graph',
     ],
-    titleTag: 'Counting Chart Generator | Sell on Etsy & KDP',
-    metaDescription: 'Create picture graph & counting chart worksheets with themed images. Try free with watermark. Commercial license for Etsy, KDP & TPT. $49 one-time.',
+    titleTag: 'Counting & Chart Worksheet Maker | Graph Activities Generator',
+    metaDescription: 'Create counting and graphing worksheets with themed images and charts. Auto answer keys, print-ready PDFs. Try free — sell on Etsy & KDP.',
   },
 
   hero: {
-    title: 'Create Counting & Chart Worksheets to Sell on Etsy & KDP',
+    title: 'Counting & Chart Worksheet Maker — Graph Activities Generator',
     tagline: 'Dual-canvas pictograph maker — generate scattered image grids with 6 image types, auto-filled bar chart answer keys, localized headers in 11 languages, and 104 themed image collections for data representation worksheets.',
     description:
       'Graphing and data worksheets are an underserved niche on Etsy — most sellers focus on basic math, leaving counting chart printables as a low-competition opportunity. This generator creates picture graph and chart count worksheets using themed images where students count, tally, and compare data visually. Export as 300 DPI print-ready PDFs with automatic answer keys and sell them on Etsy, compile them into Amazon KDP data and graphing workbooks, or list on TPT for classroom use. The commercial license covers all platforms with zero restrictions. Tap into the growing demand for STEM-focused early learning printables with a product format that few competing sellers offer. Free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',

@@ -2,25 +2,26 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'word guess puzzle generator sell Etsy KDP',
+    primaryKeyword: 'word guess worksheet maker',
     secondaryKeywords: [
-      'word guess puzzle creator for Etsy printable shop',
-      'create hangman-style worksheets for Etsy',
-      'word guess printables for Amazon KDP books',
-      'vocabulary puzzle generator with commercial license',
-      'sell word deduction puzzles online',
+      'word guess game generator',
+      'hangman worksheet maker',
+      'vocabulary guessing game printable',
+      'word guess puzzle maker',
     ],
     lsiKeywords: [
-      'hangman worksheet printable niche',
-      'sell vocabulary puzzles commercially',
-      'educational word game products',
+      'hangman',
+      'letter guess',
+      'vocabulary game',
+      'spelling game',
+      'word puzzle',
     ],
-    titleTag: 'Word Guess Puzzle Generator | Sell on Etsy & KDP',
-    metaDescription: 'Create word guess puzzles with hangman-style format & image clues. Try free with watermark. Commercial license for Etsy, KDP & TPT. $49 one-time.',
+    titleTag: 'Word Guess Worksheet Maker | Vocabulary Game Generator',
+    metaDescription: 'Create word guessing game worksheets with themed vocabulary and images. Auto answer keys, print-ready PDFs. Try free — sell on Etsy & KDP.',
   },
 
   hero: {
-    title: 'Create Word Guess Puzzles to Sell on Etsy & Amazon KDP',
+    title: 'Word Guess Worksheet Maker — Vocabulary Game Generator',
     tagline: 'Hangman-style deduction meets image clues — four difficulty levels turn every word into a satisfying puzzle.',
     description:
       'Hangman-style word guess puzzles are a unique format that stands out in crowded Etsy search results — and this creator generates professional vocabulary worksheets for your printable shop in under 3 minutes. Each puzzle shows an image clue and a row of blank letter cells, challenging solvers to deduce the hidden word one letter at a time. Four difficulty levels control how many letters are pre-revealed, creating natural product tiers from beginner to advanced. Choose from 3,000+ themed illustrations across 104 collections, and export 300 DPI print-ready PDFs with automatic answer keys. The commercial license covers Etsy, Amazon KDP, TPT, and any marketplace. Built-in 11-language support generates different target words per locale, so a single tool creates sellable products across multiple markets. Free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',

@@ -2,21 +2,20 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'make money with KDP activity books',
+    primaryKeyword: 'make money KDP activity books',
     secondaryKeywords: [
-      'make money with KDP activity books 2026',
-      'KDP activity book income guide 2026',
+      'KDP activity book income realistic 2026',
       'earn money publishing activity books Amazon',
-      'profitable KDP activity book business',
-      'Amazon KDP activity book revenue strategies',
+      'profitable KDP activity book business model',
+      'how much can you make KDP activity books',
     ],
     lsiKeywords: [
-      'KDP recurring revenue activity books',
-      'Amazon self-publishing revenue',
-      'activity book business model',
+      'Amazon self-publishing royalty calculator',
+      'KDP activity book pricing strategy',
+      'passive income self-publishing',
     ],
-    titleTag: 'Make Money with KDP Activity Books (2026) | LCS',
-    metaDescription: 'How to make money with KDP activity books in 2026. Revenue strategies, niche selection, pricing, and scaling tactics for activity book publishers.',
+    titleTag: 'Make Money with KDP Activity Books | LCS',
+    metaDescription: 'How to make money with KDP activity books. Realistic revenue expectations, pricing strategies, and scaling tactics for Amazon publishers.',
   },
 
   hero: {

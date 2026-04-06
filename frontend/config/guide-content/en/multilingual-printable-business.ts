@@ -2,20 +2,20 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'build a multilingual printable business',
+    primaryKeyword: 'multilingual printable business',
     secondaryKeywords: [
-      'multilingual printable business guide',
       'sell printables in multiple languages',
-      'international printable market expansion',
-      'multilingual worksheet business strategy',
+      'international printable market expansion guide',
+      'multilingual Etsy shop strategy',
+      'translate printables for global sales',
     ],
     lsiKeywords: [
-      'multilingual digital products',
-      'international printable markets',
-      'multi-language product strategy',
+      'international digital product markets',
+      'localization strategy printables',
+      'multi-language Etsy listings',
     ],
-    titleTag: 'Build a Multilingual Printable Business | LCS',
-    metaDescription: 'How to build a multilingual printable business. International market expansion, language strategy, and tools for selling printables in 11 languages.',
+    titleTag: 'Multilingual Printable Business Guide | LCS',
+    metaDescription: 'Build a multilingual printable business. Expand to international markets, translate products efficiently, and sell printables in 11 languages.',
   },
 
   hero: {

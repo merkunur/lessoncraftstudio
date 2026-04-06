@@ -2,25 +2,26 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'secret code math generator sell Etsy KDP',
+    primaryKeyword: 'crack the code math worksheet maker',
     secondaryKeywords: [
-      'secret code math puzzle generator for Etsy',
-      'code addition worksheets to sell online',
-      'crack the code math printables for KDP',
-      'math puzzle with secret message commercial license',
-      'unique math worksheet generator for Etsy sellers',
+      'code breaker math worksheet generator',
+      'secret code math worksheets',
+      'decode math puzzle maker',
+      'math code worksheets printable',
     ],
     lsiKeywords: [
-      'low-competition math printable niche',
-      'code-breaking worksheet business',
-      'sell unique puzzle formats online',
+      'crack the code',
+      'number code',
+      'cipher',
+      'puzzle math',
+      'fun math activity',
     ],
-    titleTag: 'Secret Code Math Generator | Sell on Etsy & KDP',
-    metaDescription: 'Create secret code addition puzzles that combine math with letter decoding. Try free with watermark. Commercial license for Etsy & KDP. $49 one-time.',
+    titleTag: 'Code Math Worksheet Maker | Crack-the-Code Puzzle Generator',
+    metaDescription: 'Create crack-the-code math worksheets where kids solve addition to decode secret messages. Themed images, auto answer keys. Try free.',
   },
 
   hero: {
-    title: 'Create Secret Code Math Puzzles That Stand Out on Etsy & KDP',
+    title: 'Code Math Worksheet Maker — Crack-the-Code Puzzle Generator',
     tagline: 'Turn addition practice into a detective mission where every image hides a secret number.',
     description:
       'Most Etsy math printable shops sell the same addition drills everyone else offers. Code addition worksheets give you a competitive edge — they combine arithmetic with secret message decoding, creating a puzzle format that few sellers offer and buyers love. Students solve math problems to decode hidden words, making these worksheets both educational and genuinely fun. Generate unique crack-the-code math puzzles in under 3 minutes, export as 300 DPI print-ready PDFs with answer keys, and list them on Etsy, Amazon KDP, or TPT with the included commercial license. This is one of the lowest-competition niches in the educational printable market, and the combination format lets you price higher than standard math worksheets. Free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',

@@ -2,20 +2,20 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'create math activity books for Amazon KDP',
+    primaryKeyword: 'math activity books for KDP',
     secondaryKeywords: [
-      'math activity book publishing KDP guide',
       'publish math worksheet books on Amazon KDP',
       'KDP math workbook creation step by step',
-      'Amazon KDP math printable business',
+      'math activity book niches Amazon 2026',
+      'create math printables for self-publishing',
     ],
     lsiKeywords: [
-      'KDP activity book publishing',
-      'Amazon math workbook niche',
-      'self-publish math worksheets',
+      'KDP math workbook formatting',
+      'Amazon math activity niche demand',
+      'self-publish educational workbooks',
     ],
-    titleTag: 'Create Math Activity Books for Amazon KDP | LCS',
-    metaDescription: 'Step-by-step guide to creating math activity books for Amazon KDP. Formatting, content planning, and publishing strategies for math workbook sellers.',
+    titleTag: 'Math Activity Books for KDP: Full Guide | LCS',
+    metaDescription: 'Create math activity books for Amazon KDP. Content planning, formatting specs, niche selection, and publishing strategies for math workbook sellers.',
   },
 
   hero: {

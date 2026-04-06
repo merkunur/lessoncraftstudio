@@ -9,7 +9,7 @@ import { getSectionLabel } from '@/config/section-labels';
 const baseUrl = 'https://www.lessoncraftstudio.com';
 
 const ideasKeywords: Record<string, string[]> = {
-  en: ['profitable printable niche ideas for Etsy', 'best printable niches to sell', 'Etsy niche research printables', 'KDP niche ideas for activity books', 'what printables sell best on Etsy', 'printable business niche ideas'],
+  en: ['profitable printable niches', 'printable business ideas', 'etsy printable niches', 'what printables sell best', 'KDP niche ideas for activity books', 'printable business niche ideas'],
   de: ['Druckvorlagen-Nischen-Ideen', 'profitable Druckvorlagen-Nischen', 'Etsy Nischenrecherche', 'KDP Nischen-Ideen', 'welche Druckvorlagen verkaufen sich am besten', 'Druckvorlagen-Geschäftsideen'],
   fr: ['idées de niches imprimables', 'niches imprimables rentables', 'recherche de niche Etsy', 'idées niche KDP', 'quels imprimables se vendent le mieux', 'idées business imprimables'],
   es: ['ideas nichos imprimibles rentables', 'nichos imprimibles Etsy KDP', 'investigación nicho imprimibles', 'ideas nicho Hotmart', 'qué imprimibles se venden mejor', 'ideas negocio imprimibles hispano'],
@@ -36,8 +36,8 @@ const ideasContent: Record<string, {
   en: {
     heroTitle: '45 Profitable Printable Niche Ideas',
     heroDescription: 'Find your perfect printable niche. 45 profitable ideas with product suggestions, platform tips, and pricing strategies for Etsy and KDP sellers.',
-    metaTitle: '45 Profitable Printable Niche Ideas | LCS',
-    metaDescription: 'Discover 45 profitable printable niches for Etsy, KDP & TPT. Theme, seasonal, age-group & format ideas with product suggestions and pricing strategies.',
+    metaTitle: '45 Profitable Printable Niche Ideas for Etsy & KDP Sellers',
+    metaDescription: 'Discover 45 tested printable business niches with competition analysis. Find low-competition opportunities for your Etsy, KDP, or TPT shop.',
     ctaTitle: 'Ready to Start Your Niche?',
     ctaDescription: 'Try all 33 printable generators free with watermark. No signup required.',
     ctaButton: 'Try Free Generators',

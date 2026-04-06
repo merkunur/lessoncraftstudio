@@ -2,25 +2,26 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'bingo card generator sell Etsy KDP',
+    primaryKeyword: 'bingo card maker',
     secondaryKeywords: [
-      'bingo card maker for selling printables on Etsy',
-      'create bingo cards for Etsy shop',
-      'picture bingo printables for Amazon KDP',
-      'bingo card generator with commercial license',
-      'sell bingo cards online',
+      'bingo card generator',
+      'picture bingo maker',
+      'custom bingo cards',
+      'printable bingo card generator',
     ],
     lsiKeywords: [
-      'bingo printable niche Etsy',
-      'sell bingo cards commercially',
-      'party game printable products',
+      'bingo game',
+      'bingo board',
+      'classroom bingo',
+      'party bingo',
+      'calling cards',
     ],
-    titleTag: 'Bingo Card Generator | Create & Sell on Etsy & KDP',
-    metaDescription: 'Create picture bingo cards with randomized layouts & themed images. Try free with watermark. Commercial license for Etsy, KDP & TPT. $49 one-time.',
+    titleTag: 'Bingo Card Maker | Create Custom Picture Bingo Cards',
+    metaDescription: 'Create themed picture bingo cards with 3,000+ images. Unique cards per set, printable PDFs. Try free — sell on Etsy & KDP with commercial license.',
   },
 
   hero: {
-    title: 'Create Bingo Cards to Sell as Printables on Etsy & KDP',
+    title: 'Bingo Card Maker — Create Custom Picture Bingo Cards',
     tagline: 'Generate 1–10 unique bingo cards per batch with configurable grids from 3×3 to 5×5 — image or word fill for both card cells and circular chips, a dedicated call-out sheet for the caller, ZIP batch export of all cards, and 104 themed image collections.',
     description:
       'Bingo cards are one of the most versatile printable products on Etsy -- they sell for parties, classrooms, holidays, and family game nights year-round. This maker creates professional picture bingo cards with themed images, unique randomized layouts for every card, and automatic caller sheets in under 3 minutes. Choose from 3,000+ illustrations across 104 collections to match any seasonal trend, holiday, or interest niche. Every bingo set exports as 300 DPI print-ready PDFs with full commercial license for Etsy, Amazon KDP, or any marketplace. Themed bingo bundles -- Halloween, Christmas, farm animals, ocean life -- consistently rank among top-selling party printables on Etsy. The visual format works worldwide without translation. Free to try with all features -- no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',

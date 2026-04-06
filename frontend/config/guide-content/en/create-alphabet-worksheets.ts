@@ -4,19 +4,18 @@ const content: GuideContent = {
   seo: {
     primaryKeyword: 'create alphabet worksheets to sell',
     secondaryKeywords: [
-      'create alphabet worksheets to sell on Etsy',
-      'make alphabet worksheets for Etsy shop',
-      'create letter learning printables for KDP',
-      'alphabet worksheet creation guide',
-      'sell alphabet printables online',
+      'sell alphabet worksheets on Etsy',
+      'alphabet printables for Amazon KDP',
+      'make letter worksheets to sell online',
+      'printable alphabet activities business',
     ],
     lsiKeywords: [
-      'alphabet product creation',
-      'literacy worksheet business',
-      'sellable letter learning products',
+      'letter recognition printables',
+      'literacy worksheet templates',
+      'early reading printable business',
     ],
-    titleTag: 'Create Alphabet Worksheets to Sell | LCS',
-    metaDescription: 'Guide to creating alphabet worksheets to sell on Etsy. Train-car format, themes, languages, and strategies for literacy printable sellers.',
+    titleTag: 'Create Alphabet Worksheets to Sell Online | LCS',
+    metaDescription: 'Create alphabet worksheets buyers love. Train-car format, 11 languages, themed bundles. Tips for Etsy, KDP, and TPT sellers. Try our generator free.',
   },
 
   hero: {

@@ -14,7 +14,7 @@ const content: BlogContent = {
       'preschool homeschool printables',
     ],
     titleTag: 'Preschool Printables: Best Sellers on Etsy | LCS',
-    metaDescription: 'Preschool printables are Etsy\'s most in-demand educational category. Discover what sells, pricing strategies, and how to build a profitable pre-K product line.',
+    metaDescription: 'Preschool printables are Etsy\'s most in-demand educational category. What sells, pricing strategies, and how to build a profitable pre-K product line.',
   },
   hero: {
     title: 'Preschool Printables: What\'s Selling Best on Etsy',

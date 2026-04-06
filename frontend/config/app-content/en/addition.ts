@@ -2,25 +2,28 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'addition worksheet generator sell Etsy KDP',
+    primaryKeyword: 'addition worksheet maker',
     secondaryKeywords: [
-      'addition worksheet generator for Etsy sellers',
-      'make addition worksheets for Amazon KDP',
-      'printable addition activities commercial license',
-      'image-based math worksheets to sell online',
-      'kindergarten addition printables for your Etsy shop',
+      'addition worksheet generator',
+      'create addition worksheets',
+      'printable addition worksheets maker',
+      'make your own addition worksheets',
     ],
     lsiKeywords: [
-      'printable math business Etsy KDP',
-      'commercial license worksheet generator',
-      'sell educational printables online',
+      'single digit addition',
+      'kindergarten math',
+      'sums to 10',
+      'sums to 20',
+      'visual counting',
+      'number bonds',
+      'answer key',
     ],
-    titleTag: 'Addition Worksheet Generator | Sell on Etsy & KDP',
-    metaDescription: 'Generate professional addition worksheets with themed images & answer keys. Try free with watermark. Commercial license for Etsy, KDP & TPT. $49 one-time.',
+    titleTag: 'Addition Worksheet Maker | Create & Print Custom Math Sheets',
+    metaDescription: 'Create custom addition worksheets with visual counting images in seconds. Auto answer keys, 300 DPI PDF export, 11 languages. Try free — sell on Etsy & KDP.',
   },
 
   hero: {
-    title: 'Create and Sell Professional Addition Worksheets on Etsy & KDP',
+    title: 'Addition Worksheet Maker — Create & Print Custom Math Sheets',
     tagline: 'Turn addition into a hands-on adventure with picture-based math worksheets.',
     description:
       'Create addition worksheets to sell on Etsy, Amazon KDP, or Teachers Pay Teachers — and generate them in under 3 minutes. This generator builds visual addition problems using themed images that kids love and parents buy. Choose from 3,000+ illustrations organized by theme, set your difficulty level, and export print-ready 300 DPI PDFs with answer keys automatically included. Every worksheet you create comes with a full commercial license — no attribution required, no royalty fees, no restrictions on where you sell. Whether you\'re launching your first Etsy printable shop or expanding an existing KDP activity book catalog, this tool replaces hours of manual design work with professional output that stands out in crowded marketplaces. Free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',

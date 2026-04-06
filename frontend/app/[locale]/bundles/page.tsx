@@ -10,7 +10,7 @@ import { getBundleContent } from '@/config/bundle-content';
 const baseUrl = 'https://www.lessoncraftstudio.com';
 
 const bundlesKeywords: Record<string, string[]> = {
-  en: ['printable generator bundles with commercial license', 'worksheet bundle deal for Etsy sellers', 'Etsy printable generator packs', 'KDP activity book generator bundle', 'commercial license printable bundles', 'category bundle for printable sellers'],
+  en: ['worksheet generator bundles', 'printable maker bundle deals', 'educational worksheet tools bundle', 'Etsy printable generator packs', 'commercial license printable bundles', 'category bundle for printable sellers'],
   de: ['Druckvorlagen-Pakete', 'Arbeitsblatt-Bundle', 'Etsy Druckvorlagen-Pack', 'KDP Aktivitätsbuch-Paket', 'kommerzielle Lizenz Paket', 'Kategorie-Paket'],
   fr: ['packs imprimables', 'lot de fiches', 'packs Etsy imprimables', 'lot livres activités KDP', 'licence commerciale pack', 'pack par catégorie'],
   es: ['paquetes imprimibles licencia comercial', 'lote de fichas Etsy', 'paquetes generadores KDP', 'licencia comercial paquete', 'paquete por categoría imprimibles', 'ahorro paquetes generadores'],
@@ -46,8 +46,8 @@ const bundlesContent: Record<string, {
   en: {
     heroTitle: 'Generator Bundles with Commercial License',
     heroDescription: 'Save with category bundles. Get all generators in a category with commercial license to sell on Etsy, KDP & more.',
-    metaTitle: 'Generator Bundles with Commercial License | LCS',
-    metaDescription: '6 printable generator bundles with commercial license. Math, literacy, visual, matching, puzzles & search. One-time purchase — sell on Etsy, KDP & more.',
+    metaTitle: 'Category Bundles | Save Up to 57% on Worksheet Generators',
+    metaDescription: 'Get all worksheet generators in a category for one price. Math, Language, Visual, Matching, Puzzles, and Search bundles. Save up to 57% vs. individual pricing.',
     ctaTitle: 'Try Before You Buy',
     ctaDescription: 'All generators are free to try with watermark. See the quality before purchasing a bundle.',
     ctaButton: 'Try Free Generators',

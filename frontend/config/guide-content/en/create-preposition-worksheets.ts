@@ -2,21 +2,20 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'create preposition worksheets for ESL',
+    primaryKeyword: 'create preposition worksheets to sell',
     secondaryKeywords: [
-      'create preposition worksheets for ESL to sell',
       'make preposition worksheets for Etsy',
-      'create ESL grammar printables for KDP',
-      'preposition worksheet creation guide',
-      'sell ESL worksheets online',
+      'ESL preposition printables for KDP books',
+      'sell grammar worksheets on TPT',
+      'printable preposition activities for Etsy sellers',
     ],
     lsiKeywords: [
-      'preposition product creation',
-      'ESL worksheet business',
-      'sellable grammar products',
+      'ESL preposition worksheet generator',
+      'spatial language printable business',
+      'multilingual grammar activity products',
     ],
-    titleTag: 'Create Preposition Worksheets for ESL | LCS',
-    metaDescription: 'Guide to creating preposition worksheets for ESL to sell. Visual grammar activities, 11 languages, and strategies for ESL printable sellers.',
+    titleTag: 'Create Preposition Worksheets to Sell | LCS',
+    metaDescription: 'Create preposition worksheets for ESL and early learning. Two exercise modes, 11 languages, shape replacement. Sell on Etsy, KDP, and TPT.',
   },
 
   hero: {

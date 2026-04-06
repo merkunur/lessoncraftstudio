@@ -2,20 +2,20 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'how to sell printables on Gumroad',
+    primaryKeyword: 'sell printables on Gumroad',
     secondaryKeywords: [
-      'Gumroad printable shop setup guide',
-      'sell digital downloads on Gumroad',
+      'Gumroad printable shop setup step by step',
+      'sell digital downloads on Gumroad 2026',
       'Gumroad vs Etsy for printable sellers',
-      'launch printable business on Gumroad',
+      'launch printable business on Gumroad guide',
     ],
     lsiKeywords: [
-      'Gumroad digital product selling',
-      'Gumroad printable business',
       'direct-to-consumer printable sales',
+      'Gumroad payment processing digital products',
+      'Gumroad storefront optimization',
     ],
-    titleTag: 'Sell Printables on Gumroad: Setup & Growth | LCS',
-    metaDescription: 'Guide to selling printables on Gumroad. Store setup, pricing, payment processing, and marketing strategies for printable sellers going direct-to-consumer.',
+    titleTag: 'Sell Printables on Gumroad: Full Guide | LCS',
+    metaDescription: 'Sell printables on Gumroad. Store setup, pricing, payment processing, and marketing strategies for going direct-to-consumer with digital products.',
   },
 
   hero: {

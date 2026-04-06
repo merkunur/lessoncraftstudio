@@ -4,19 +4,18 @@ const content: GuideContent = {
   seo: {
     primaryKeyword: 'create pattern worksheets to sell',
     secondaryKeywords: [
-      'create pattern recognition worksheets to sell',
-      'make pattern worksheets for Etsy',
-      'create sequence worksheets for KDP',
-      'pattern worksheet creation guide',
-      'sell pattern printables online',
+      'make pattern recognition worksheets for Etsy',
+      'pattern sequence worksheets for KDP books',
+      'sell pattern printables on TPT',
+      'printable pattern activities for Etsy sellers',
     ],
     lsiKeywords: [
-      'pattern product creation',
-      'early math worksheet business',
-      'sellable pattern products',
+      'pattern recognition worksheet generator',
+      'early math printable product niche',
+      'AB pattern sequence activities',
     ],
-    titleTag: 'Create Pattern Worksheets to Sell Online | LCS',
-    metaDescription: 'Guide to creating pattern recognition worksheets to sell. Sequence activities, themes, and strategies for Etsy and KDP pattern worksheet sellers.',
+    titleTag: 'Create Pattern Worksheets to Sell | LCS',
+    metaDescription: 'Create pattern worksheets buyers want. Nine pattern types, auto answer keys, themed images. Build products for Etsy, KDP, and TPT fast.',
   },
 
   hero: {

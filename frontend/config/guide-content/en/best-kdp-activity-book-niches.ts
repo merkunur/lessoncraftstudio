@@ -4,19 +4,18 @@ const content: GuideContent = {
   seo: {
     primaryKeyword: 'best KDP activity book niches',
     secondaryKeywords: [
-      'best KDP activity book niches 2026',
-      'profitable KDP activity book niches',
-      'low competition KDP niches 2026',
+      'profitable KDP activity book niches 2026',
+      'low competition KDP niches for beginners',
       'best selling activity book categories Amazon',
       'KDP niche research activity books',
     ],
     lsiKeywords: [
-      'KDP niche analysis',
-      'Amazon activity book market',
-      'profitable self-publishing niches',
+      'Amazon activity book demand analysis',
+      'KDP BSR niche validation',
+      'self-publishing niche profitability',
     ],
     titleTag: 'Best KDP Activity Book Niches (2026) | LCS',
-    metaDescription: 'Discover the best KDP activity book niches in 2026. Low-competition, high-demand categories with revenue potential and content creation strategies.',
+    metaDescription: 'Find the best KDP activity book niches in 2026. Low-competition categories with strong demand, validated with BSR data and revenue estimates.',
   },
 
   hero: {

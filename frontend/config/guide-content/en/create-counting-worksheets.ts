@@ -2,21 +2,20 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'create counting worksheets to sell',
+    primaryKeyword: 'create counting worksheets for Etsy',
     secondaryKeywords: [
-      'create counting worksheets to sell on Etsy',
-      'make counting worksheets for Etsy shop',
-      'create graphing worksheets for KDP',
-      'counting worksheet creation guide',
-      'sell picture graph printables online',
+      'sell counting worksheets on Etsy',
+      'counting printables for Amazon KDP',
+      'make graphing worksheets to sell online',
+      'printable counting activities business TPT',
     ],
     lsiKeywords: [
-      'counting product creation',
-      'data skills worksheet business',
-      'sellable graphing products',
+      'picture graph answer keys',
+      'early math data worksheets',
+      'STEM counting printable templates',
     ],
-    titleTag: 'Create Counting Worksheets to Sell | LCS',
-    metaDescription: 'Guide to creating counting and graphing worksheets to sell. Picture graphs, data skills, and strategies for Etsy and KDP early math sellers.',
+    titleTag: 'Create Counting Worksheets for Etsy Sellers | LCS',
+    metaDescription: 'Create counting and graphing worksheets for Etsy. Auto answer keys, themed images, dual-skill format. For KDP and TPT too. Try free.',
   },
 
   hero: {

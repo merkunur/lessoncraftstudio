@@ -2,20 +2,20 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'how to create a printable product line',
+    primaryKeyword: 'build a printable product line',
     secondaryKeywords: [
-      'build printable product line guide',
-      'printable product line strategy Etsy',
-      'create cohesive worksheet product line',
+      'printable product line strategy for Etsy',
+      'create cohesive worksheet catalog for KDP',
+      'build printable brand on TPT',
       'product line planning for printable sellers',
     ],
     lsiKeywords: [
-      'printable product line strategy',
-      'product catalog planning',
-      'cohesive product branding',
+      'printable catalog cross-selling strategy',
+      'cohesive product branding for sellers',
+      'worksheet product line expansion',
     ],
-    titleTag: 'Build a Printable Product Line That Sells | LCS',
-    metaDescription: 'Guide to creating a cohesive printable product line. Product planning, catalog structure, and cross-selling strategies for Etsy and KDP sellers.',
+    titleTag: 'Build a Printable Product Line | LCS',
+    metaDescription: 'Build a cohesive printable product line that drives repeat purchases. Catalog planning, branding, and cross-selling for Etsy and KDP.',
   },
 
   hero: {

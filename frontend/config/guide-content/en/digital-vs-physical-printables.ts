@@ -2,21 +2,20 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'digital vs physical printable products',
+    primaryKeyword: 'digital vs physical printables',
     secondaryKeywords: [
-      'digital vs physical printable products comparison',
-      'digital vs physical printables for sellers',
       'sell digital or physical printable products',
-      'print on demand vs digital download printables',
-      'digital vs physical product business model',
+      'print on demand vs digital download comparison',
+      'digital printable profit margins vs physical',
+      'best format for selling printables 2026',
     ],
     lsiKeywords: [
       'printable business model comparison',
-      'digital download vs physical print',
-      'product format decision',
+      'fulfillment cost digital products',
+      'hybrid printable product strategy',
     ],
-    titleTag: 'Digital vs Physical Printable Products | LCS',
-    metaDescription: 'Digital vs physical printable products comparison. Revenue models, margins, logistics, and which format is best for your printable business.',
+    titleTag: 'Digital vs Physical Printables Compared | LCS',
+    metaDescription: 'Digital vs physical printables compared. Profit margins, scalability, fulfillment costs, and which format fits your printable business best.',
   },
 
   hero: {

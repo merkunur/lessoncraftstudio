@@ -2,20 +2,20 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'how to price printable worksheets on Etsy',
+    primaryKeyword: 'how to price Etsy printables',
     secondaryKeywords: [
-      'Etsy printable pricing strategy guide',
-      'price digital downloads on Etsy',
-      'worksheet pricing for maximum profit Etsy',
+      'Etsy printable pricing strategy 2026',
       'how much to charge for printables on Etsy',
+      'worksheet bundle pricing for maximum profit',
+      'price digital downloads competitively Etsy',
     ],
     lsiKeywords: [
-      'Etsy pricing psychology printables',
-      'digital product pricing strategy',
-      'printable bundle pricing',
+      'Etsy pricing psychology digital products',
+      'printable bundle vs individual pricing',
+      'competitive pricing analysis Etsy',
     ],
-    titleTag: 'Etsy Printable Pricing: Maximize Revenue | LCS',
-    metaDescription: 'Pricing guide for printable worksheets on Etsy. Individual vs bundle pricing, competitive analysis, and profit-maximizing strategies for printable sellers.',
+    titleTag: 'How to Price Etsy Printables Right | LCS',
+    metaDescription: 'How to price Etsy printables for maximum profit. Individual vs bundle pricing, competitive analysis, and strategies that boost your revenue.',
   },
 
   hero: {

@@ -2,25 +2,26 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'alphabet train generator sell Etsy KDP',
+    primaryKeyword: 'alphabet worksheet maker',
     secondaryKeywords: [
-      'alphabet worksheet generator for Etsy KDP sellers',
-      'create alphabet train worksheets for Etsy shop',
-      'letter learning printables for Amazon KDP',
-      'alphabet worksheets with commercial license',
-      'sell alphabet activities online',
+      'ABC worksheet generator',
+      'letter recognition worksheet maker',
+      'alphabet activity maker',
+      'printable alphabet worksheets maker',
     ],
     lsiKeywords: [
-      'alphabet printable niche Etsy KDP',
-      'sell letter learning worksheets commercially',
-      'literacy worksheet products',
+      'letter order',
+      'ABC sequence',
+      'upper lowercase',
+      'letter matching',
+      'phonics',
     ],
-    titleTag: 'Alphabet Train Generator | Sell on Etsy & KDP',
-    metaDescription: 'Create alphabet train worksheets with themed images in 11 languages. Try free with watermark. Commercial license for Etsy, KDP & TPT. $49 one-time.',
+    titleTag: 'Alphabet Worksheet Maker | ABC & Letter Activities Generator',
+    metaDescription: 'Create alphabet train worksheets with themed images for letter recognition. Auto answer keys, 11 languages. Try free — sell on Etsy & KDP.',
   },
 
   hero: {
-    title: 'Create Alphabet Worksheets to Sell on Etsy & Amazon KDP',
+    title: 'Alphabet Worksheet Maker — ABC & Letter Activities Generator',
     tagline: 'Every wagon carries a letter and a matching image — building letter recognition one train car at a time.',
     description:
       'Alphabet worksheets are one of the highest-demand printable products on Etsy — parents, homeschool families, and teachers buy letter learning materials year-round. This generator creates unique train-themed alphabet activities where each letter rides in its own train car with a themed image, making letter learning visual and engaging. Choose from 3,000+ illustrations across 104 collections and export 300 DPI print-ready PDFs with automatic answer keys. The 11-language support generates different alphabet content per locale, including accented characters for German, French, Spanish, and more — each language is a separate sellable product. Every worksheet includes full commercial license for Etsy, Amazon KDP, TPT, or any marketplace. Free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',

@@ -2,20 +2,20 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'social media marketing for printable sellers',
+    primaryKeyword: 'social media marketing printables',
     secondaryKeywords: [
-      'social media for printable business',
-      'promote printables on social media',
       'Instagram marketing for Etsy printable sellers',
-      'social media strategy for worksheet sellers',
+      'promote printables on social media 2026',
+      'social media content ideas for worksheets',
+      'TikTok marketing for digital product sellers',
     ],
     lsiKeywords: [
-      'printable social media promotion',
-      'digital product marketing',
-      'social media for Etsy sellers',
+      'visual content marketing printables',
+      'social media sales funnel digital products',
+      'organic reach for Etsy shops',
     ],
-    titleTag: 'Social Media Marketing for Printable Sellers | LCS',
-    metaDescription: 'Social media marketing guide for printable sellers. Platform strategies, content ideas, and promotion tactics for growing your printable business.',
+    titleTag: 'Social Media Marketing for Printables | LCS',
+    metaDescription: 'Social media marketing for printable sellers. Platform strategies, content ideas, and tactics to drive traffic and sales to your printable shop.',
   },
 
   hero: {

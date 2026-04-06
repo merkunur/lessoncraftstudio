@@ -2,21 +2,20 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'email marketing for printable sellers',
+    primaryKeyword: 'email marketing for printables',
     secondaryKeywords: [
-      'email marketing for printable product sellers',
-      'email marketing for printable business',
-      'build email list for Etsy printable shop',
-      'email strategy for worksheet sellers',
-      'newsletter marketing for digital products',
+      'build email list Etsy printable shop',
+      'email automation for digital product sellers',
+      'newsletter strategy for worksheet sellers',
+      'email sequences that drive repeat purchases',
     ],
     lsiKeywords: [
-      'email marketing digital products',
-      'printable seller email list',
+      'lead magnet printable business',
+      'welcome sequence digital products',
       'customer retention email strategy',
     ],
     titleTag: 'Email Marketing for Printable Sellers | LCS',
-    metaDescription: 'Email marketing guide for printable sellers. List building, automation, and email strategies that drive repeat purchases for your printable business.',
+    metaDescription: 'Email marketing guide for printable sellers. Build your list, automate sequences, and drive repeat purchases independent of marketplace algorithms.',
   },
 
   hero: {

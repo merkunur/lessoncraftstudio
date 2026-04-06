@@ -4,18 +4,18 @@ const content: GuideContent = {
   seo: {
     primaryKeyword: 'create shadow matching worksheets to sell',
     secondaryKeywords: [
-      'make shadow matching worksheets for Etsy',
-      'create silhouette matching printables for KDP',
-      'shadow matching creation guide',
-      'sell shadow matching printables online',
+      'make shadow matching printables for Etsy',
+      'silhouette matching worksheets for KDP books',
+      'sell shadow match activities on TPT',
+      'printable shadow puzzles for Etsy sellers',
     ],
     lsiKeywords: [
-      'shadow matching product creation',
-      'visual discrimination business',
-      'sellable silhouette products',
+      'silhouette matching worksheet generator',
+      'preschool visual perception products',
+      'shadow puzzle printable business',
     ],
     titleTag: 'Create Shadow Matching Worksheets to Sell | LCS',
-    metaDescription: 'Guide to creating shadow matching worksheets to sell. Silhouette puzzles, themes, and strategies for Etsy and KDP preschool printable sellers.',
+    metaDescription: 'Create shadow matching worksheets that sell. Dual modes, pixel-level silhouettes, auto answer keys. Build products for Etsy, KDP, and TPT.',
   },
 
   hero: {

@@ -2,20 +2,20 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'create bingo cards with images to sell',
+    primaryKeyword: 'how to create bingo cards to sell',
     secondaryKeywords: [
-      'make picture bingo cards for Etsy',
-      'create bingo card sets for KDP',
-      'bingo card creation guide for sellers',
-      'sell bingo printables online',
+      'sell bingo cards on Etsy',
+      'bingo card printables for Amazon KDP',
+      'make picture bingo sets to sell online',
+      'printable bingo card business',
     ],
     lsiKeywords: [
-      'bingo product creation',
-      'party game printable business',
-      'sellable bingo products',
+      'themed bingo card generator',
+      'party game printable templates',
+      'randomized bingo card sets',
     ],
-    titleTag: 'Create Bingo Cards with Images to Sell | LCS',
-    metaDescription: 'Guide to creating bingo cards with themed images to sell. Randomized cards, caller sheets, and strategies for Etsy and KDP bingo card sellers.',
+    titleTag: 'Create Bingo Cards to Sell on Etsy & KDP | LCS',
+    metaDescription: 'Create themed bingo cards that sell. Randomized sets with caller sheets, image clues, and grid sizes. For Etsy, KDP, and TPT. Try our tool free.',
   },
 
   hero: {

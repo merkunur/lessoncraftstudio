@@ -254,13 +254,13 @@ export function generateHomepageSchemas(locale: string, baseUrl: string = getBas
     "offers": {
       "@type": "AggregateOffer",
       "lowPrice": "0",
-      "highPrice": "25",
+      "highPrice": "149",
       "priceCurrency": "USD",
       "offerCount": 3,
       "offers": [
-        { "@type": "Offer", "name": "Free", "price": "0", "priceCurrency": "USD" },
-        { "@type": "Offer", "name": "Core", "price": "15", "priceCurrency": "USD" },
-        { "@type": "Offer", "name": "Full Access", "price": "25", "priceCurrency": "USD" }
+        { "@type": "Offer", "name": "Free Trial", "price": "0", "priceCurrency": "USD", "description": "All features, watermarked downloads" },
+        { "@type": "Offer", "name": "Individual App", "price": "49", "priceCurrency": "USD", "description": "One-time payment, commercial license" },
+        { "@type": "Offer", "name": "Category Bundle", "price": "149", "priceCurrency": "USD", "description": "All apps in a category, commercial license" }
       ]
     },
     "description": homepageSoftwareDescriptions[locale] || homepageSoftwareDescriptions.en,

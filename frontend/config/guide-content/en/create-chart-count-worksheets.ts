@@ -2,20 +2,20 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'create picture graph worksheets to sell',
+    primaryKeyword: 'create counting worksheets to sell',
     secondaryKeywords: [
-      'make chart count worksheets for Etsy',
-      'create data graphing printables for KDP',
-      'picture graph creation guide',
-      'sell counting chart worksheets online',
+      'sell counting worksheets on Etsy',
+      'picture graph printables for Amazon KDP',
+      'make chart count worksheets to sell online',
+      'printable graphing worksheets business',
     ],
     lsiKeywords: [
-      'picture graph product creation',
-      'data skills worksheet business',
-      'sellable graphing products',
+      'STEM data skills printables',
+      'picture graph worksheet templates',
+      'early math counting activities',
     ],
-    titleTag: 'Create Picture Graph Worksheets to Sell | LCS',
-    metaDescription: 'Guide to creating picture graph worksheets to sell. Data skills activities, themes, and strategies for Etsy and KDP STEM printable sellers.',
+    titleTag: 'Create Counting & Graph Worksheets to Sell | LCS',
+    metaDescription: 'Create picture graph worksheets that sell. Auto answer keys, themed images, STEM data skills. For Etsy, KDP, and TPT sellers. Try free.',
   },
 
   hero: {

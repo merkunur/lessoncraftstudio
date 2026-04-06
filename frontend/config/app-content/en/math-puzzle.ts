@@ -2,25 +2,25 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'math puzzle generator sell Etsy KDP',
+    primaryKeyword: 'math puzzle worksheet maker',
     secondaryKeywords: [
-      'math puzzle printable generator for Etsy sellers',
-      'create math puzzles to sell on Amazon KDP',
-      'picture math puzzle worksheets commercial license',
-      'grid-based math challenge generator for selling',
-      'unique math printables for Etsy shop',
+      'math puzzle generator',
+      'picture math puzzle worksheets',
+      'math puzzle printable maker',
+      'fun math puzzle generator',
     ],
     lsiKeywords: [
-      'premium math puzzle products',
-      'KDP puzzle book niche',
-      'sell unique math formats online',
+      'picture puzzle',
+      'image clue',
+      'solve and match',
+      'logic puzzle math',
     ],
-    titleTag: 'Math Puzzle Generator | Sell on Etsy & KDP',
-    metaDescription: 'Create grid-based math puzzles with themed images & auto answer keys. Try free with watermark. Commercial license for Etsy, KDP & TPT. $49 one-time.',
+    titleTag: 'Math Puzzle Maker | Create Picture Math Puzzle Worksheets',
+    metaDescription: 'Create picture math puzzles where kids solve problems to match images. Themed puzzles with auto answer keys. Try free — commercial license for Etsy & KDP.',
   },
 
   hero: {
-    title: 'Generate Unique Math Puzzles to Sell on Etsy & Amazon KDP',
+    title: 'Math Puzzle Maker — Create Picture Math Puzzle Worksheets',
     tagline: 'Merge math practice with puzzle-solving excitement — every piece holds a problem, every solution reveals the picture.',
     description:
       'Stand out in the math printable market with grid-based picture puzzles that combine calculation with logic — a format most Etsy sellers don\'t offer. This generator creates math puzzle worksheets where students solve arithmetic within visual grids using themed images, producing a distinctive product that catches buyers\' attention and commands higher prices than standard math drills. Generate complete puzzles in under 3 minutes with 300 DPI export, automatic answer keys, and full commercial licensing for Etsy, Amazon KDP, TPT, or any marketplace. Math puzzle books are a growing niche on KDP because they offer something beyond basic practice — and this generator lets you fill that niche without graphic design skills. Free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',

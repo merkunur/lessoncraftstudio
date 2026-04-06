@@ -4,19 +4,18 @@ const content: GuideContent = {
   seo: {
     primaryKeyword: 'sell word search puzzles on Etsy',
     secondaryKeywords: [
-      'sell word search puzzles on Etsy guide',
       'how to sell word search puzzles on Etsy',
-      'Etsy word search puzzle shop tips',
-      'word search bundle pricing for Etsy',
-      'list word puzzles on Etsy for profit',
+      'Etsy word search listing optimization',
+      'word search bundle pricing for Etsy sellers',
+      'sell printable word puzzles on KDP and TPT',
     ],
     lsiKeywords: [
-      'Etsy word puzzle niche strategy',
-      'digital word search products',
       'Etsy SEO for puzzle sellers',
+      'word search niche strategy',
+      'digital puzzle product listings',
     ],
-    titleTag: 'Sell Word Search Puzzles on Etsy: Full Guide | LCS',
-    metaDescription: 'Complete guide to selling word search puzzles on Etsy. Listing optimization, themed bundles, pricing, and SEO strategies for puzzle sellers.',
+    titleTag: 'Sell Word Search Puzzles on Etsy | LCS',
+    metaDescription: 'Sell word search puzzles on Etsy step by step. Listing SEO, bundle pricing, seasonal timing, and shop optimization for puzzle sellers.',
   },
 
   hero: {

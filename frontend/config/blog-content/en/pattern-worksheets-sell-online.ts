@@ -14,7 +14,7 @@ const content: BlogContent = {
       'AB pattern worksheets Etsy',
     ],
     titleTag: 'Pattern Recognition Worksheets to Sell Online | LCS',
-    metaDescription: 'Pattern recognition worksheets are the STEM printable niche nobody\'s talking about. Learn why this underserved category has strong demand and premium pricing.',
+    metaDescription: 'Pattern recognition worksheets are the STEM printable niche nobody\'s talking about. Why this underserved category has strong demand and premium pricing.',
   },
   hero: {
     title: 'Pattern Recognition Worksheets to Sell Online: The STEM Niche',

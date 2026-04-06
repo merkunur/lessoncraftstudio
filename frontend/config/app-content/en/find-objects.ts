@@ -2,25 +2,26 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'hidden object worksheet generator sell Etsy',
+    primaryKeyword: 'hidden objects worksheet maker',
     secondaryKeywords: [
-      'I Spy printable maker for selling on Etsy and KDP',
-      'create I Spy worksheets for Etsy shop',
-      'hidden object activity books for Amazon KDP',
-      'I Spy printables with commercial license',
-      'sell find objects worksheets online',
+      'find the objects worksheet generator',
+      'I spy worksheet maker',
+      'hidden picture worksheet maker',
+      'seek and find printable maker',
     ],
     lsiKeywords: [
-      'I Spy activity book niche KDP',
-      'sell hidden object printables commercially',
-      'visual search worksheet products',
+      'I spy',
+      'seek and find',
+      'visual scanning',
+      'attention to detail',
+      'observation skills',
     ],
-    titleTag: 'Hidden Object Worksheet Generator | Sell on Etsy & KDP',
-    metaDescription: 'Create I Spy & hidden object worksheets with 104 themes & answer keys. Try free with watermark. Commercial license for Etsy, KDP & TPT. $49 one-time.',
+    titleTag: 'Hidden Objects Worksheet Maker | I Spy Activity Generator',
+    metaDescription: 'Create I Spy and hidden object worksheets with themed images. Auto answer keys, 300 DPI PDFs. Try free — sell on Etsy & Amazon KDP.',
   },
 
   hero: {
-    title: 'Create Hidden Object & I Spy Worksheets to Sell on Etsy & KDP',
+    title: 'Hidden Objects Worksheet Maker — I Spy Activity Generator',
     tagline: 'Two activity modes in one generator — I Spy hidden object scenes with zero-overlap placement and Odd One Out paired-image rows — with auto-generated answer keys, adaptive image sizing, name and date fields, and a legend showing objects to find.',
     description:
       'I Spy and hidden object worksheets are a booming niche on Etsy and Amazon KDP — parents love them for screen-free entertainment, and sellers love the repeat purchase rates. This printable maker creates professional I Spy scenes with a zero-overlap placement algorithm that scatters objects naturally, plus an Odd One Out mode for variety. Choose from 3,000+ themed illustrations across 104 collections to match any seasonal trend or interest niche. Every worksheet generates an automatic answer key with red circle annotations, exports as a 300 DPI print-ready PDF, and includes full commercial license. I Spy activity books are a proven KDP category with consistent demand year-round. Create themed bundles for Etsy or compile 50+ page books for KDP in a fraction of the time manual creation takes. Free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',

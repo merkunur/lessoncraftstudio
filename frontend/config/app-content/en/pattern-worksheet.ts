@@ -2,25 +2,25 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'pattern worksheet generator sell Etsy KDP',
+    primaryKeyword: 'pattern recognition worksheet generator',
     secondaryKeywords: [
-      'pattern recognition worksheet generator for Etsy sellers',
-      'create pattern recognition worksheets for Etsy',
-      'visual pattern printables for Amazon KDP',
-      'pattern worksheets with commercial license',
-      'sell pattern activities online',
+      'complete the pattern worksheet maker',
+      'visual pattern worksheets',
+      'pattern sequence printable',
+      'pattern activities maker',
     ],
     lsiKeywords: [
-      'visual pattern printable niche',
-      'sell pattern worksheets commercially',
-      'cognitive skills worksheet products',
+      'sequence completion',
+      'logical thinking',
+      'visual patterns',
+      'number patterns',
     ],
-    titleTag: 'Pattern Worksheet Generator | Sell on Etsy & KDP',
-    metaDescription: 'Create pattern recognition worksheets with visual sequence activities. Try free with watermark. Commercial license for Etsy, KDP & TPT. $49 one-time.',
+    titleTag: 'Pattern Recognition Worksheet Generator | Sequence Activities',
+    metaDescription: 'Generate pattern recognition worksheets with visual sequences and themed images. Auto answer keys, 300 DPI. Try free — commercial license included.',
   },
 
   hero: {
-    title: 'Create Pattern Recognition Worksheets to Sell on Etsy & KDP',
+    title: 'Pattern Recognition Worksheet Generator — Sequence Activities',
     tagline: 'Nine pattern types from AB to ABCD — two question modes (fill-in-the-blank and multiple choice) — with per-exercise independent configuration for pattern type, question mode, and theme on every page.',
     description:
       'Pattern recognition worksheets build critical thinking skills that parents and educators actively seek -- making them a reliable seller on Etsy and Amazon KDP year-round. This maker creates professional visual pattern activities where learners identify, extend, and complete image sequences using themed illustrations. Choose from 3,000+ images across 104 collections, configure pattern complexity and length, and export 300 DPI print-ready PDFs with automatic answer keys. Every worksheet includes full commercial license for Etsy, Amazon KDP, TPT, or any marketplace. Pattern worksheets pair naturally with other early learning formats for comprehensive bundles that command premium prices. Free to try with all features -- no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',

@@ -2,21 +2,20 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'commercial license for printable sellers',
+    primaryKeyword: 'commercial license for printables',
     secondaryKeywords: [
-      'commercial license for printable sellers explained',
-      'commercial use license printables guide',
+      'commercial use license printables explained',
       'what does commercial license mean for sellers',
-      'printable commercial license explained',
-      'commercial rights for digital products',
+      'printable commercial rights guide',
+      'commercial license vs personal use printables',
     ],
     lsiKeywords: [
-      'commercial license printable business',
-      'selling rights digital products',
-      'license types for printable sellers',
+      'license types digital products',
+      'selling rights for printable creators',
+      'commercial use terms Etsy KDP',
     ],
-    titleTag: 'Commercial License for Printable Sellers | LCS',
-    metaDescription: 'Commercial license for printable sellers explained. What it covers, what you can sell, and how licensing works for Etsy, KDP, and direct-sale sellers.',
+    titleTag: 'Commercial License for Printables Explained | LCS',
+    metaDescription: 'Commercial license for printables explained. What it covers, what you can sell, and how licensing works on Etsy, KDP, and direct-sale platforms.',
   },
 
   hero: {

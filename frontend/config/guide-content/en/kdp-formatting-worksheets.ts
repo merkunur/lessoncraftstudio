@@ -2,20 +2,20 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'KDP formatting guide for worksheet books',
+    primaryKeyword: 'KDP formatting guide worksheets',
     secondaryKeywords: [
+      'KDP trim size and margins activity books',
       'format worksheets for Amazon KDP printing',
-      'KDP interior formatting activity books',
-      'Amazon KDP worksheet book specifications',
-      'KDP trim size and margin guide worksheets',
+      'KDP interior PDF specifications worksheets',
+      'Amazon KDP bleed settings activity books',
     ],
     lsiKeywords: [
-      'KDP formatting requirements',
-      'activity book interior setup',
-      'self-publishing format guide',
+      'KDP manuscript upload requirements',
+      'activity book page layout setup',
+      'self-publishing print specifications',
     ],
-    titleTag: 'KDP Formatting Guide for Worksheet Books | LCS',
-    metaDescription: 'KDP formatting guide for worksheet books. Trim sizes, margins, bleed settings, and page setup for publishing professional activity books on Amazon KDP.',
+    titleTag: 'KDP Formatting Guide for Worksheets | LCS',
+    metaDescription: 'KDP formatting guide for worksheets. Trim sizes, margins, bleed, and PDF specs to publish professional activity books on Amazon KDP.',
   },
 
   hero: {

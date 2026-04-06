@@ -2,20 +2,20 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'how to create worksheet bundles for Etsy',
+    primaryKeyword: 'create worksheet bundles for Etsy',
     secondaryKeywords: [
-      'Etsy worksheet bundle creation guide',
-      'bundle printable worksheets for Etsy sales',
-      'worksheet bundle pricing strategy Etsy',
-      'create themed worksheet packs for Etsy',
+      'sell worksheet bundles on Etsy',
+      'printable bundles for Amazon KDP sellers',
+      'make worksheet packs to sell online',
+      'Etsy bundle pricing strategy TPT',
     ],
     lsiKeywords: [
-      'Etsy bundle strategy printables',
-      'digital product bundling',
-      'worksheet pack creation',
+      'themed worksheet bundle templates',
+      'digital product bundle strategy',
+      'printable pack pricing tiers',
     ],
-    titleTag: 'Etsy Worksheet Bundles: Create & Price Them | LCS',
-    metaDescription: 'Guide to creating worksheet bundles that sell on Etsy. Theme selection, bundle sizing, pricing tiers, and listing optimization for printable bundle sellers',
+    titleTag: 'Create Worksheet Bundles for Etsy Sellers | LCS',
+    metaDescription: 'Create worksheet bundles that sell on Etsy. Bundle sizing, pricing tiers, theme selection, and listing tips. Works for KDP and TPT too. Try free.',
   },
 
   hero: {

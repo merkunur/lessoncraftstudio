@@ -2,25 +2,26 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'greater than less than generator sell Etsy',
+    primaryKeyword: 'more or less worksheet maker',
     secondaryKeywords: [
-      'greater than less than worksheet creator for Etsy',
-      'create more or less worksheets for Etsy shop',
-      'number comparison printables for Amazon KDP',
-      'greater than less than worksheets commercial license',
-      'sell comparison worksheets online',
+      'greater than less than worksheet generator',
+      'comparison worksheet maker',
+      'more and fewer worksheet printable',
+      'quantity comparison maker',
     ],
     lsiKeywords: [
-      'number comparison printable niche',
-      'sell math comparison worksheets commercially',
-      'early math concepts worksheet products',
+      'greater than',
+      'less than',
+      'equal to',
+      'comparing numbers',
+      'quantity',
     ],
-    titleTag: 'Greater Than Less Than Generator | Sell on Etsy & KDP',
-    metaDescription: 'Create greater-than-less-than worksheets with 3 comparison modes. Try free with watermark. Commercial license for Etsy, KDP & TPT. $49 one-time.',
+    titleTag: 'More or Less Worksheet Maker | Quantity Comparison Generator',
+    metaDescription: 'Create more-or-less comparison worksheets with themed images. Auto answer keys, 300 DPI PDFs. Try free — sell on Etsy & KDP.',
   },
 
   hero: {
-    title: 'Create Greater Than Less Than Worksheets to Sell on Etsy',
+    title: 'More or Less Worksheet Maker — Quantity Comparison Generator',
     tagline: 'Transform number comparison into a visual discovery with picture-based greater-than and less-than worksheets.',
     description:
       'Greater than and less than worksheets are a foundational math product that sells year-round on Etsy — parents, homeschool families, and teachers need them at every early grade level. This creator generates professional visual number comparison worksheets with three distinct modes: Image to Image, Image to Number, and the unique Check & Cross Groups format. Toggle between same-image and different-image comparisons, choose illustration-style or standard math symbols, and pick from 3,000+ themed images across 104 collections. Every worksheet exports as a 300 DPI print-ready PDF with automatic answer keys and full commercial license for Etsy, Amazon KDP, or any marketplace. Build comparison activity books for KDP or themed math bundles for Etsy. Free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',

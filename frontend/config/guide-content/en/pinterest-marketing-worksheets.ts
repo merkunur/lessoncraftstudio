@@ -2,21 +2,20 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Pinterest marketing for worksheet business',
+    primaryKeyword: 'Pinterest marketing for printables',
     secondaryKeywords: [
-      'Pinterest marketing for worksheet businesses',
-      'Pinterest strategy for printable sellers',
-      'promote worksheets on Pinterest',
-      'Pinterest SEO for printable products',
-      'drive Etsy traffic with Pinterest',
+      'Pinterest strategy for printable sellers 2026',
+      'drive Etsy traffic with Pinterest pins',
+      'Pinterest SEO for digital product sellers',
+      'promote printable worksheets on Pinterest',
     ],
     lsiKeywords: [
-      'Pinterest printable marketing',
-      'visual marketing printable business',
-      'Pinterest traffic for Etsy shops',
+      'Pinterest visual search optimization',
+      'pin design for product traffic',
+      'Pinterest to Etsy sales funnel',
     ],
-    titleTag: 'Pinterest Marketing for Worksheet Business | LCS',
-    metaDescription: 'Pinterest marketing guide for worksheet sellers. Pin strategies, SEO, boards, and traffic tactics that drive sales to your Etsy and Gumroad shops.',
+    titleTag: 'Pinterest Marketing for Printables | LCS',
+    metaDescription: 'Pinterest marketing for printable sellers. Pin strategies, board SEO, and traffic tactics that drive sales to your Etsy and Gumroad shops.',
   },
 
   hero: {

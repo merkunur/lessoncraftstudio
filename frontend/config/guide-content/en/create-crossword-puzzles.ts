@@ -2,20 +2,20 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'how to create crossword puzzles for selling',
+    primaryKeyword: 'how to create crossword puzzles to sell',
     secondaryKeywords: [
-      'create picture crossword puzzles for Etsy',
-      'make crossword puzzle books for KDP',
-      'crossword creation guide for sellers',
-      'sell crossword printables online',
+      'sell crossword puzzles on Etsy',
+      'crossword puzzle books for Amazon KDP',
+      'make picture crosswords to sell online',
+      'printable crossword puzzle business TPT',
     ],
     lsiKeywords: [
-      'crossword product creation',
-      'puzzle selling business',
-      'sellable crossword products',
+      'image clue crossword generator',
+      'vocabulary puzzle templates',
+      'multilingual crossword printables',
     ],
-    titleTag: 'Create Crossword Puzzles to Sell: Full Guide | LCS',
-    metaDescription: 'Guide to creating crossword puzzles for selling on Etsy & KDP. Picture clues, theme selection, and strategies for crossword puzzle sellers.',
+    titleTag: 'Create Crossword Puzzles to Sell Online | LCS',
+    metaDescription: 'Create crossword puzzles that sell. Picture clues, 11 languages, auto answer keys. Guide for Etsy, KDP, and TPT sellers. Try our tool free.',
   },
 
   hero: {

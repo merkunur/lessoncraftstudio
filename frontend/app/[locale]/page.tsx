@@ -18,10 +18,10 @@ import { generateFAQSchema } from '@/lib/schema-generator';
 // Localized SEO metadata for entrepreneur audience (Etsy, KDP, printables business)
 const homepageMetadata: Record<string, { title: string; description: string; keywords: string; ogAlt: string }> = {
   en: {
-    title: 'Start a Profitable Printable Business | LessonCraftStudio',
-    description: 'Build a printable business on Etsy, Amazon KDP, or TPT. 33 professional generators, 3,000+ images, 11 languages. Try free with watermark. No design skills needed.',
-    keywords: 'printable business, sell printables on Etsy, Amazon KDP printables, printable side hustle, make money selling printables, word search maker, worksheet generator, commercial license printables, printable business ideas',
-    ogAlt: 'LessonCraftStudio - Start a Profitable Printable Business'
+    title: 'Printable Worksheet Generator | Create & Sell on Etsy & KDP',
+    description: '33 professional worksheet generators with 3,000+ images and 11 languages. Create print-ready PDFs in minutes. Try free — commercial license for Etsy, KDP & TPT.',
+    keywords: 'printable worksheet generator, worksheet maker, create printables to sell, printable generator for Etsy sellers, educational worksheet maker, word search maker, bingo card maker, crossword puzzle maker',
+    ogAlt: 'LessonCraftStudio - Printable Worksheet Generator for Etsy & KDP'
   },
   de: {
     title: 'Starten Sie ein profitables Printable-Business | LessonCraftStudio',

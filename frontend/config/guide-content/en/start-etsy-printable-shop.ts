@@ -2,21 +2,20 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'start an Etsy printable shop',
+    primaryKeyword: 'start Etsy printable shop',
     secondaryKeywords: [
-      'how to start an Etsy printable shop from scratch',
-      'start Etsy printable shop step by step',
-      'open Etsy digital download shop guide',
+      'how to start Etsy printable shop from scratch',
+      'Etsy digital download shop setup guide',
       'Etsy printable business for beginners 2026',
-      'launch Etsy worksheet shop from zero',
+      'launch first Etsy worksheet listings',
     ],
     lsiKeywords: [
-      'Etsy shop setup printable sellers',
-      'digital product business Etsy',
-      'first Etsy printable listing guide',
+      'Etsy shop setup digital products',
+      'first printable listing guide',
+      'Etsy seller account configuration',
     ],
-    titleTag: 'Start an Etsy Printable Shop from Scratch | LCS',
-    metaDescription: 'Complete beginner guide to starting an Etsy printable shop from scratch. Shop setup, first listings, SEO basics, and pricing for new printable sellers.',
+    titleTag: 'Start an Etsy Printable Shop: Beginner Guide | LCS',
+    metaDescription: 'Start an Etsy printable shop from scratch. Step-by-step setup, first listings, SEO basics, and pricing strategies for new printable sellers.',
   },
 
   hero: {

@@ -2,21 +2,20 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'TPT store setup & optimization',
+    primaryKeyword: 'TPT store optimization',
     secondaryKeywords: [
-      'TPT store setup and optimization guide',
-      'optimize TPT store for more sales',
-      'Teachers Pay Teachers store setup tips',
-      'TPT listing optimization for sellers',
-      'improve TPT shop rankings 2026',
+      'TPT store setup and optimization guide 2026',
+      'optimize TPT listings for more sales',
+      'TPT search algorithm ranking tips',
+      'improve TPT shop visibility and revenue',
     ],
     lsiKeywords: [
-      'TPT store optimization',
-      'TPT search algorithm',
       'TPT seller success strategies',
+      'Teachers Pay Teachers SEO',
+      'TPT listing conversion optimization',
     ],
-    titleTag: 'TPT Store Setup & Optimization Guide | LCS',
-    metaDescription: 'Optimize your Gumroad store for more sales. Store setup, listing optimization, SEO strategies, and conversion tips for digital printable sellers.',
+    titleTag: 'TPT Store Optimization: Boost Sales | LCS',
+    metaDescription: 'Optimize your TPT store for more sales. Listing SEO, store setup, search ranking strategies, and conversion tips for printable sellers.',
   },
 
   hero: {

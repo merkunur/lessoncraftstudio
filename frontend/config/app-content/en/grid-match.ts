@@ -2,25 +2,26 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'grid matching puzzle generator sell Etsy KDP',
+    primaryKeyword: 'grid matching worksheet maker',
     secondaryKeywords: [
-      'grid matching puzzle generator for printable business',
-      'create grid match puzzles for Etsy shop',
-      'picture tile puzzles for Amazon KDP books',
-      'grid matching worksheets with commercial license',
-      'sell visual puzzles online',
+      'grid drawing worksheet generator',
+      'copy the picture worksheet maker',
+      'grid art worksheet maker',
+      'pixel drawing worksheet',
     ],
     lsiKeywords: [
-      'picture puzzle printable niche',
-      'sell grid puzzles commercially',
-      'visual perception worksheet products',
+      'copy drawing',
+      'grid coordinates',
+      'spatial awareness',
+      'symmetry',
+      'pixel art',
     ],
-    titleTag: 'Grid Matching Puzzle Generator | Sell on Etsy & KDP',
-    metaDescription: 'Create grid matching puzzles with configurable grids & auto answer keys. Try free with watermark. Commercial license for Etsy, KDP & TPT. $49 one-time.',
+    titleTag: 'Grid Drawing Worksheet Maker | Copy-the-Picture Generator',
+    metaDescription: 'Create grid matching and copy-the-picture worksheets with themed images. Auto answer keys, print-ready PDFs. Try free — commercial license for sellers.',
   },
 
   hero: {
-    title: 'Create Grid Matching Puzzles to Sell on Etsy & Amazon KDP',
+    title: 'Grid Drawing Worksheet Maker — Copy-the-Picture Generator',
     tagline: 'Turn any image into a grid-based picture puzzle — divide it into tiles, reveal configurable clue cells, shuffle remaining tiles into a numbered palette, and auto-generate an answer key with numbered circle overlays across 104 themed image collections.',
     description:
       'Grid matching puzzles offer a unique visual format that stands out from standard worksheets on Etsy — solvers match numbered tiles back to their correct positions in a divided image grid, combining spatial reasoning with observation skills. This generator creates professional grid match puzzles for your printable business with configurable grids from 2x2 to 4x4, adjustable clue cells for difficulty control, and automatic answer keys with numbered overlays. Choose from 3,000+ themed illustrations across 104 collections, and export 300 DPI print-ready PDFs with full commercial license. The purely visual format means every puzzle works worldwide without translation. Build themed bundles for Etsy or compile visual perception workbooks for Amazon KDP. Free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',

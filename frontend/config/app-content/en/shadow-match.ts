@@ -2,25 +2,25 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'shadow matching generator sell Etsy KDP',
+    primaryKeyword: 'shadow matching worksheet maker',
     secondaryKeywords: [
-      'shadow matching worksheet generator for Etsy printables',
-      'create shadow matching worksheets for Etsy shop',
-      'silhouette matching printables for Amazon KDP',
-      'shadow match worksheets with commercial license',
-      'sell shadow matching activities online',
+      'shadow match worksheet generator',
+      'silhouette matching printable maker',
+      'match the shadow worksheet maker',
+      'shadow puzzle maker',
     ],
     lsiKeywords: [
-      'silhouette puzzle printable niche',
-      'sell matching worksheets commercially',
-      'visual discrimination worksheet products',
+      'silhouette',
+      'shadow recognition',
+      'visual discrimination',
+      'outline matching',
     ],
-    titleTag: 'Shadow Matching Generator | Sell on Etsy & KDP',
-    metaDescription: 'Create shadow matching worksheets with silhouette puzzles & answer keys. Try free with watermark. Commercial license for Etsy, KDP & TPT. $49 one-time.',
+    titleTag: 'Shadow Matching Worksheet Maker | Silhouette Puzzle Generator',
+    metaDescription: 'Create shadow matching worksheets with themed silhouette puzzles. Auto answer keys, 300 DPI PDFs. Try free — sell on Etsy, KDP & TPT.',
   },
 
   hero: {
-    title: 'Create Shadow Matching Worksheets to Sell on Etsy & KDP',
+    title: 'Shadow Matching Worksheet Maker — Silhouette Puzzle Generator',
     tagline: 'Two matching modes in one generator — Shadow Match creates auto-generated black silhouettes from any image, Make It Whole splits images into halves — both with Fisher-Yates derangement ensuring no trivial matches, auto-generated answer keys, and 104 themed image collections.',
     description:
       'Shadow matching worksheets are a visually striking format that catches buyer attention on Etsy — solvers match colorful images to their silhouettes, building visual discrimination skills preschool parents actively search for. This maker creates professional shadow matching activities with themed illustrations and automatic answer keys in under 3 minutes. Choose from 3,000+ images across 104 collections, configure the number of matching pairs, and export 300 DPI print-ready PDFs with full commercial license. The silhouette format is purely visual and works worldwide without translation. Shadow matching is an underserved niche in the preschool printable market, giving you low competition and strong demand. Free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',

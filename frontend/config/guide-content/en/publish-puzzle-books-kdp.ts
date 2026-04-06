@@ -2,20 +2,20 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'how to publish puzzle books on Amazon KDP',
+    primaryKeyword: 'publish puzzle books on KDP',
     secondaryKeywords: [
-      'publish puzzle books KDP step by step',
-      'Amazon KDP puzzle book guide',
+      'Amazon KDP puzzle book step by step guide',
       'self-publish puzzle activity books KDP',
-      'KDP puzzle book formatting and publishing',
+      'KDP puzzle book formatting and pricing',
+      'create puzzle books for Amazon publishing',
     ],
     lsiKeywords: [
-      'KDP puzzle book niche',
-      'Amazon puzzle publishing',
-      'self-publish activity books',
+      'KDP puzzle book niche research',
+      'Amazon puzzle content variety',
+      'self-publish activity books profitably',
     ],
-    titleTag: 'Publish Puzzle Books on Amazon KDP: Full Guide | LCS',
-    metaDescription: 'Complete guide to publishing puzzle books on Amazon KDP. Formatting, content variety, pricing, and marketing strategies for puzzle book publishers.',
+    titleTag: 'Publish Puzzle Books on KDP: Guide | LCS',
+    metaDescription: 'Publish puzzle books on Amazon KDP. Formatting specs, content variety, pricing strategy, and marketing tactics for puzzle book publishers.',
   },
 
   hero: {

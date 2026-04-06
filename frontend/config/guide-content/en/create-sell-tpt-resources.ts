@@ -2,21 +2,20 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'create & sell TPT resources',
+    primaryKeyword: 'create and sell TPT resources',
     secondaryKeywords: [
-      'how to create and sell TPT resources',
-      'sell resources on Teachers Pay Teachers guide',
-      'TPT resource creation for sellers',
+      'sell resources on Teachers Pay Teachers',
+      'TPT shop setup guide for beginners',
       'make money selling on TPT 2026',
-      'Teachers Pay Teachers shop setup',
+      'Teachers Pay Teachers listing optimization',
     ],
     lsiKeywords: [
-      'TPT seller business guide',
-      'educational resource marketplace',
-      'sell teaching materials online',
+      'TPT seller business strategy',
+      'educational resource marketplace tips',
+      'Teachers Pay Teachers pricing guide',
     ],
-    titleTag: 'Create & Sell TPT Resources: 2026 Guide | LCS',
-    metaDescription: 'Guide to creating and selling printable resources on Gumroad. Product creation, store setup, pricing, and marketing strategies for digital product sellers.',
+    titleTag: 'Create and Sell TPT Resources: Guide | LCS',
+    metaDescription: 'Create and sell TPT resources step by step. Store setup, listing optimization, pricing, and marketing strategies for new TPT sellers.',
   },
 
   hero: {

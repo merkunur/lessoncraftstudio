@@ -2,20 +2,20 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'how to automate your printable business',
+    primaryKeyword: 'automate printable business',
     secondaryKeywords: [
-      'automate printable business guide',
-      'printable business automation tools',
-      'save time selling printables',
-      'streamline printable product creation',
+      'automate Etsy printable workflow',
+      'printable business automation tools 2026',
+      'batch production printable products',
+      'save time selling printables online',
     ],
     lsiKeywords: [
-      'printable business automation',
       'digital product workflow optimization',
-      'efficient printable production',
+      'listing template automation',
+      'batch processing worksheets',
     ],
-    titleTag: 'Automate Your Printable Business | LCS',
-    metaDescription: 'How to automate your printable business. Production workflows, listing tools, and time-saving strategies for efficient printable sellers.',
+    titleTag: 'Automate Your Printable Business Fast | LCS',
+    metaDescription: 'Automate your printable business with batch production, listing templates, and workflow tools. Save hours per week and scale output without extra effort.',
   },
 
   hero: {

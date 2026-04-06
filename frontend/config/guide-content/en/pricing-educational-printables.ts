@@ -2,21 +2,20 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'pricing strategies for printables',
+    primaryKeyword: 'pricing educational printables',
     secondaryKeywords: [
-      'pricing strategies for educational printables',
-      'price educational printables guide',
-      'worksheet pricing strategy for sellers',
-      'printable pricing tiers and bundles',
+      'printable pricing tiers and bundle strategy',
       'how to price digital educational products',
+      'worksheet pricing framework for sellers',
+      'educational printable price points 2026',
     ],
     lsiKeywords: [
-      'printable pricing psychology',
-      'digital product pricing strategy',
-      'educational product pricing',
+      'value-based pricing digital products',
+      'bundle pricing psychology',
+      'cross-platform pricing strategy',
     ],
-    titleTag: 'Pricing Strategies for Printables | LCS',
-    metaDescription: 'Pricing strategies for educational printables. Individual, bundle, and tiered pricing frameworks for Etsy, KDP, and direct-sale printable sellers.',
+    titleTag: 'Pricing Educational Printables Guide | LCS',
+    metaDescription: 'Pricing guide for educational printables. Individual, bundle, and tiered pricing frameworks for Etsy, KDP, and direct-sale printable sellers.',
   },
 
   hero: {

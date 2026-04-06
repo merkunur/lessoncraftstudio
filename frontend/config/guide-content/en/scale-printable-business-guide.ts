@@ -2,20 +2,20 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'how to scale your printable business',
+    primaryKeyword: 'scale printable business',
     secondaryKeywords: [
-      'scale printable business guide',
-      'grow worksheet business from side hustle',
-      'printable business scaling strategies',
-      'expand printable business to full-time',
+      'grow printable business to full-time income',
+      'scale worksheet business multi-platform',
+      'printable business growth strategies 2026',
+      'expand printable shop from side hustle',
     ],
     lsiKeywords: [
-      'printable business growth',
-      'scale digital product business',
-      'full-time printable income',
+      'multi-platform expansion digital products',
+      'printable business automation scaling',
+      'full-time income selling printables',
     ],
-    titleTag: 'Scale Your Printable Business: Growth Guide | LCS',
-    metaDescription: 'How to scale your printable business from side hustle to full-time income. Multi-platform expansion, automation, and growth strategies for sellers.',
+    titleTag: 'Scale Your Printable Business: Guide | LCS',
+    metaDescription: 'Scale your printable business from side hustle to full-time income. Multi-platform expansion, automation, and proven growth strategies.',
   },
 
   hero: {

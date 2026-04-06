@@ -2,25 +2,26 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'word scramble generator sell Etsy KDP',
+    primaryKeyword: 'word scramble maker',
     secondaryKeywords: [
-      'word scramble worksheet generator for Etsy sellers',
-      'create word scramble puzzles for Etsy shop',
-      'letter unscramble printables for Amazon KDP',
-      'word scramble generator with commercial license',
-      'sell spelling puzzle worksheets online',
+      'word scramble generator',
+      'jumble word maker',
+      'word scramble worksheet generator',
+      'printable word scramble maker',
     ],
     lsiKeywords: [
-      'literacy puzzle printable business',
-      'sell spelling activities online',
-      'vocabulary worksheet products Etsy',
+      'anagram',
+      'jumbled words',
+      'unscramble',
+      'spelling practice',
+      'vocabulary',
     ],
-    titleTag: 'Word Scramble Generator | Sell on Etsy & KDP',
-    metaDescription: 'Create word scramble worksheets with image clues in 11 languages. Try free with watermark. Commercial license for Etsy, KDP & TPT. $49 one-time.',
+    titleTag: 'Word Scramble Maker | Create Jumble Puzzle Worksheets',
+    metaDescription: 'Create custom word scramble worksheets with themed images. Auto answer keys, printable PDFs. Try free — commercial license for Etsy, KDP, and TPT.',
   },
 
   hero: {
-    title: 'Create Word Scramble Worksheets to Sell on Etsy & KDP',
+    title: 'Word Scramble Maker — Create Jumble Puzzle Worksheets',
     tagline: 'Shuffled letter tiles meet image clues — four difficulty levels and vowel-consonant color coding turn every word into a hands-on spelling puzzle.',
     description:
       'Word scramble worksheets are a proven seller in the literacy printable niche — and this maker lets Etsy sellers create professional letter-rearrangement puzzles in minutes. Each worksheet pairs an image clue with shuffled letter tiles that solvers rearrange to spell the correct word. Four difficulty levels control how many letters are pre-placed, creating natural product tiers from beginner to advanced. The unique vowel-consonant color coding adds a phonics dimension no other generator offers. Choose from 3,000+ themed images and export 300 DPI print-ready PDFs with automatic answer keys and full commercial license. Built-in 11-language support means each locale generates different words — one tool produces sellable products for English, German, French, and more. Free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',

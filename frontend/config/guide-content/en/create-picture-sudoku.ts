@@ -2,20 +2,20 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'create picture sudoku for kids to sell',
+    primaryKeyword: 'create picture sudoku puzzles to sell',
     secondaryKeywords: [
-      'make picture sudoku puzzles for Etsy',
-      'create visual sudoku books for KDP',
-      'picture sudoku creation guide',
-      'sell picture sudoku printables online',
+      'make picture sudoku for Etsy',
+      'picture sudoku puzzle books for KDP',
+      'sell visual sudoku worksheets on TPT',
+      'printable kids sudoku for Etsy sellers',
     ],
     lsiKeywords: [
-      'picture sudoku product creation',
-      'kids puzzle business',
-      'sellable visual sudoku products',
+      'picture sudoku puzzle generator',
+      'kids logic puzzle product niche',
+      'visual sudoku 4x4 grid activities',
     ],
-    titleTag: 'Create Picture Sudoku for Kids to Sell | LCS',
-    metaDescription: 'Guide to creating picture sudoku puzzles for kids to sell. Difficulty levels, themes, and strategies for Etsy and KDP picture sudoku book sellers.',
+    titleTag: 'Create Picture Sudoku Puzzles to Sell | LCS',
+    metaDescription: 'Create picture sudoku puzzles kids love. Three difficulty levels, themed images, auto answer keys. Sell on Etsy, KDP, and TPT.',
   },
 
   hero: {

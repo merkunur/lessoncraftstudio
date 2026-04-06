@@ -2,25 +2,26 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'pattern train generator sell Etsy KDP',
+    primaryKeyword: 'pattern worksheet maker',
     secondaryKeywords: [
-      'pattern activity generator for printable business',
-      'create pattern worksheets for Etsy shop',
-      'sequence completion printables for Amazon KDP',
-      'pattern train worksheets with commercial license',
-      'sell pattern activities online',
+      'pattern recognition worksheet generator',
+      'AB pattern worksheet maker',
+      'repeating pattern printable maker',
+      'pattern activity generator',
     ],
     lsiKeywords: [
-      'pattern recognition printable niche',
-      'sell sequence worksheets commercially',
-      'early math worksheet products',
+      'AB pattern',
+      'ABC pattern',
+      'repeating pattern',
+      'sequence',
+      'what comes next',
     ],
-    titleTag: 'Pattern Train Generator | Sell on Etsy & KDP',
-    metaDescription: 'Create pattern train worksheets with sequence completion activities. Try free with watermark. Commercial license for Etsy, KDP & TPT. $49 one-time.',
+    titleTag: 'Pattern Worksheet Maker | Create Repeating Pattern Activities',
+    metaDescription: 'Create pattern recognition worksheets with AB, ABC, ABCD patterns and themed images. Auto answer keys. Try free — sell on Etsy & KDP.',
   },
 
   hero: {
-    title: 'Create Pattern Train Activities to Sell on Etsy & KDP',
+    title: 'Pattern Worksheet Maker — Create Repeating Pattern Activities',
     tagline: 'Five pattern types — AB, AAB, ABB, ABC, AABB — displayed across 11 themed train wagons with adjustable clue count from 4 to 10 for precise difficulty control.',
     description:
       'Pattern recognition worksheets are essential early math products that sell consistently on Etsy -- parents and teachers use them to teach sequencing skills from preschool through first grade. This generator creates unique train-themed pattern activities where each train car displays an image in a repeating sequence, and solvers identify and continue the pattern. Choose from 3,000+ themed illustrations across 104 collections, configure pattern complexity, and export 300 DPI print-ready PDFs with automatic answer keys. Every worksheet includes full commercial license for Etsy, Amazon KDP, TPT, or any marketplace. The visual train format makes pattern practice engaging and visually distinctive in Etsy search results. Free to try with all features -- no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',

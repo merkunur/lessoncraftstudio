@@ -2,20 +2,20 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'create hidden object worksheets to sell',
+    primaryKeyword: 'create I spy worksheets to sell',
     secondaryKeywords: [
-      'make I Spy worksheets for Etsy',
-      'create hidden object books for KDP',
-      'I Spy worksheet creation guide',
-      'sell hidden object printables online',
+      'sell I Spy worksheets on Etsy',
+      'hidden object books for Amazon KDP',
+      'make find-and-count printables to sell online',
+      'printable I Spy activity business TPT',
     ],
     lsiKeywords: [
-      'I Spy product creation',
-      'hidden object business',
-      'sellable visual search products',
+      'zero-overlap scatter scene generator',
+      'hidden object puzzle templates',
+      'visual search activity printables',
     ],
-    titleTag: 'Create Hidden Object Worksheets to Sell | LCS',
-    metaDescription: 'Guide to creating hidden object and I Spy worksheets to sell. Two activity modes, themes, and strategies for Etsy and KDP I Spy book sellers.',
+    titleTag: 'Create I Spy Worksheets to Sell on Etsy | LCS',
+    metaDescription: 'Create I Spy and hidden object worksheets that sell. Themed scenes, zero-overlap layout, answer keys. For Etsy, KDP, and TPT. Try free.',
   },
 
   hero: {

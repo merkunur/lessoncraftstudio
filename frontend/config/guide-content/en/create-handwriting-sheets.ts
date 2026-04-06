@@ -2,21 +2,20 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'create handwriting sheets to sell',
+    primaryKeyword: 'create handwriting worksheets to sell',
     secondaryKeywords: [
-      'create handwriting practice sheets to sell',
-      'make handwriting worksheets for Etsy',
-      'create tracing worksheets for KDP books',
-      'handwriting sheet creation guide',
-      'sell handwriting printables online',
+      'sell handwriting worksheets on Etsy',
+      'handwriting workbooks for Amazon KDP',
+      'make tracing sheets to sell online',
+      'printable handwriting practice business TPT',
     ],
     lsiKeywords: [
-      'handwriting product creation',
-      'tracing worksheet business',
-      'sellable handwriting products',
+      'letter tracing worksheet generator',
+      'progressive handwriting templates',
+      'print-ready penmanship PDFs',
     ],
-    titleTag: 'Create Handwriting Sheets to Sell Online | LCS',
-    metaDescription: 'Guide to creating handwriting practice sheets to sell. Three practice modes, font styles, and strategies for Etsy and KDP handwriting workbook sellers.',
+    titleTag: 'Create Handwriting Worksheets to Sell Online | LCS',
+    metaDescription: 'Create handwriting worksheets that sell. Three practice modes, font styles, progressive difficulty. For Etsy, KDP, and TPT. Try our tool free.',
   },
 
   hero: {

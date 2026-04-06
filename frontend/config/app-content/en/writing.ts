@@ -2,25 +2,27 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'handwriting worksheet generator sell Etsy KDP',
+    primaryKeyword: 'handwriting worksheet maker',
     secondaryKeywords: [
-      'handwriting worksheet generator for Etsy sellers',
-      'create handwriting practice sheets for Etsy',
-      'tracing worksheets for Amazon KDP books',
-      'handwriting printables with commercial license',
-      'sell letter practice worksheets online',
+      'handwriting practice generator',
+      'tracing worksheet maker',
+      'handwriting worksheet generator',
+      'letter tracing maker',
     ],
     lsiKeywords: [
-      'handwriting practice printable niche',
-      'sell tracing worksheets commercially',
-      'letter formation worksheet products',
+      'letter formation',
+      'tracing letters',
+      'penmanship',
+      'print handwriting',
+      'cursive',
+      'fine motor skills',
     ],
-    titleTag: 'Handwriting Worksheet Generator | Sell on Etsy & KDP',
-    metaDescription: 'Create handwriting worksheets with 3 practice modes & stroke guides. Try free with watermark. Commercial license for Etsy, KDP & TPT. $49 one-time.',
+    titleTag: 'Handwriting Worksheet Maker | Create Tracing & Writing Sheets',
+    metaDescription: 'Generate handwriting practice worksheets with custom words and tracing activities. 11 languages, 300 DPI PDFs. Try free — commercial license included.',
   },
 
   hero: {
-    title: 'Create Handwriting Worksheets to Sell on Etsy & Amazon KDP',
+    title: 'Handwriting Worksheet Maker — Create Tracing & Writing Sheets',
     tagline: 'Three progressive practice modes with arrow-guided stroke order and fading letter guides — build handwriting fluency from full tracing to independent writing on a single worksheet.',
     description:
       'Handwriting worksheets are evergreen sellers on Etsy and Amazon KDP — parents and homeschool families buy them year-round. This generator creates professional letter practice sheets with three progressive modes: Trace for beginners, Fading Trace that builds confidence, and Guided Copy for near-independent writing. Choose from five font styles including arrow-guided stroke order, and draw content from 3,000+ themed images or type any custom text. Every worksheet exports as a 300 DPI print-ready PDF with full commercial license — no attribution, no royalties, no restrictions. Build complete handwriting workbooks for Amazon KDP or themed practice bundles for Etsy in a fraction of the time manual creation takes. Free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',

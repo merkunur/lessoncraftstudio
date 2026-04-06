@@ -4,19 +4,18 @@ const content: GuideContent = {
   seo: {
     primaryKeyword: 'create math puzzle worksheets to sell',
     secondaryKeywords: [
-      'create math puzzle worksheets to sell online',
-      'make math puzzles for Etsy shop',
-      'create grid math puzzles for KDP',
-      'math puzzle creation guide for sellers',
-      'sell math puzzle printables online',
+      'sell math puzzles on Etsy',
+      'math puzzle books for Amazon KDP',
+      'make grid math printables to sell online',
+      'printable math puzzle business TPT',
     ],
     lsiKeywords: [
-      'math puzzle product creation',
-      'puzzle worksheet business',
-      'sellable math puzzle products',
+      'image reconstruction math puzzles',
+      'grid-based math worksheet generator',
+      'puzzle-reveal math templates',
     ],
     titleTag: 'Create Math Puzzle Worksheets to Sell | LCS',
-    metaDescription: 'Guide to creating math puzzle worksheets to sell online. Grid sizes, operations, themes, and strategies for Etsy and KDP math puzzle sellers.',
+    metaDescription: 'Create math puzzle worksheets that sell. Grid sizes, operations, themed reveals. Guide for Etsy, KDP, and TPT sellers. Try our generator free.',
   },
 
   hero: {

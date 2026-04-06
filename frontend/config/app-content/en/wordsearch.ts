@@ -2,25 +2,28 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'word search generator sell Etsy KDP',
+    primaryKeyword: 'word search maker',
     secondaryKeywords: [
-      'word search puzzle generator to sell on Etsy and KDP',
-      'create word search puzzles for Etsy shop',
-      'word search books for Amazon KDP sellers',
-      'printable word search with commercial license',
-      'custom word search maker for printable business',
+      'word search generator',
+      'word search puzzle maker',
+      'custom word search creator',
+      'printable word search maker',
     ],
     lsiKeywords: [
-      'puzzle book niche Etsy KDP',
-      'word puzzle printable products',
-      'sell vocabulary activities online',
+      'word find',
+      'hidden words',
+      'vocabulary',
+      'spelling',
+      'puzzle grid',
+      'themed word search',
+      'answer key',
     ],
-    titleTag: 'Word Search Generator | Create & Sell on Etsy & KDP',
-    metaDescription: 'Create word search puzzles with 3,000+ themed images in 11 languages. Try free with watermark. Commercial license for Etsy, KDP & TPT. $49 one-time.',
+    titleTag: 'Word Search Maker | Create Custom Printable Word Searches',
+    metaDescription: 'Create themed word searches with 3,000+ images in 11 languages. Custom grids, auto answer keys, 300 DPI PDF. Try free — sell on Etsy & Amazon KDP.',
   },
 
   hero: {
-    title: 'Create Word Search Puzzles to Sell on Etsy & Amazon KDP',
+    title: 'Word Search Maker — Create Custom Printable Word Searches',
     tagline: 'Adjustable grids from 5×5 to 30×30 with diagonal and reverse direction controls — build the perfect difficulty for every audience.',
     description:
       'Word search puzzles are one of the top-performing printable formats on Etsy and Amazon KDP — and this generator lets you create professional word search worksheets to sell in under 3 minutes. Adjust grid sizes from 5x5 to 30x30, toggle diagonal and reverse word directions, and choose from 3,000+ themed images across 104 collections to build puzzles buyers actually want. Each worksheet generates a color-coded answer key automatically. The built-in 11-language support means you can create word search books in German, French, Spanish, and more — each with locale-correct filler letters — multiplying your addressable market without extra effort. Every puzzle exports as a 300 DPI print-ready PDF with full commercial license included. Whether you sell themed bundles on Etsy, compile puzzle books for KDP, or list on your own store, this tool replaces hours of manual puzzle creation. Free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',

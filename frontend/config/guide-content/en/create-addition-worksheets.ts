@@ -4,18 +4,18 @@ const content: GuideContent = {
   seo: {
     primaryKeyword: 'how to create addition worksheets to sell',
     secondaryKeywords: [
-      'create addition worksheets for Etsy',
-      'make addition printables for KDP',
-      'addition worksheet creation guide',
-      'sell addition worksheets online step by step',
+      'sell addition worksheets on Etsy',
+      'addition worksheet business KDP',
+      'make addition printables to sell online',
+      'printable addition worksheets for sellers',
     ],
     lsiKeywords: [
-      'addition printable product creation',
-      'math worksheet business guide',
-      'create sellable math products',
+      'commercial license math printables',
+      'print-ready worksheet PDFs',
+      'math printable business',
     ],
-    titleTag: 'Create Addition Worksheets to Sell: Full Guide | LCS',
-    metaDescription: 'Step-by-step guide to creating addition worksheets to sell on Etsy & KDP. Theme selection, difficulty tiers, bundling strategies, and listing tips.',
+    titleTag: 'Create Addition Worksheets to Sell on Etsy & KDP | LCS',
+    metaDescription: 'Learn to create professional addition worksheets that sell. Step-by-step guide with tips for Etsy, KDP, and TPT. Use our generator — try free.',
   },
 
   hero: {

@@ -2,20 +2,20 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'quality standards for worksheets that sell',
+    primaryKeyword: 'quality standards printable worksheets',
     secondaryKeywords: [
-      'worksheet quality checklist for sellers',
-      'professional worksheet design standards',
-      'printable quality guide for Etsy sellers',
+      'worksheet quality checklist for Etsy sellers',
+      'professional printable design standards',
       'what makes a worksheet sell on Etsy',
+      'printable product quality benchmarks',
     ],
     lsiKeywords: [
-      'worksheet quality benchmarks',
-      'professional printable design',
-      'product quality for digital sellers',
+      'professional worksheet layout design',
+      'print-ready PDF quality checks',
+      'digital product quality assurance',
     ],
-    titleTag: 'Quality Standards for Worksheets That Sell | LCS',
-    metaDescription: 'Quality standards for worksheets that sell. Design checklist, professional standards, and quality benchmarks for Etsy and KDP printable sellers.',
+    titleTag: 'Quality Standards for Printable Worksheets | LCS',
+    metaDescription: 'Quality standards for printable worksheets that sell. Design checklist, professional benchmarks, and quality criteria for Etsy and KDP sellers.',
   },
 
   hero: {

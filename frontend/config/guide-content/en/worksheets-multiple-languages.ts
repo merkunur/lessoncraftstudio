@@ -2,21 +2,20 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'create worksheets in multiple languages',
+    primaryKeyword: 'multilingual worksheets sell globally',
     secondaryKeywords: [
       'create worksheets in multiple languages to sell',
-      'multilingual worksheet creation guide',
-      'make worksheets in different languages',
-      'sell worksheets in multiple languages',
-      'multi-language worksheet generator',
+      'multilingual worksheet generator for sellers',
+      'sell worksheets internationally on Etsy',
+      'multi-language printable products strategy',
     ],
     lsiKeywords: [
-      'multilingual worksheet production',
-      'language-specific printable products',
-      'international worksheet sales',
+      'international printable market expansion',
+      'language-specific worksheet production',
+      'global Etsy shop multilingual listings',
     ],
-    titleTag: 'Create Worksheets in Multiple Languages | LCS',
-    metaDescription: 'How to create worksheets in multiple languages to sell. 11-language support, locale-specific content, and strategies for international printable sellers.',
+    titleTag: 'Multilingual Worksheets: Sell Globally | LCS',
+    metaDescription: 'Create multilingual worksheets and sell globally. 11-language support, locale-specific content, and strategies to reach international buyers.',
   },
 
   hero: {

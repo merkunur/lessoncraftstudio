@@ -2,21 +2,20 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'passive income with worksheets',
+    primaryKeyword: 'passive income selling worksheets',
     secondaryKeywords: [
-      'build evergreen product catalog',
-      'diversify across revenue channels',
-      'create products sell year',
-      'leverage bundles higher revenue',
-      'expand multiple languages revenue',
+      'build passive income with printables 2026',
+      'evergreen worksheet product catalog strategy',
+      'worksheet bundle revenue strategy',
+      'realistic income selling worksheets online',
     ],
     lsiKeywords: [
-      'passive income digital products',
-      'recurring revenue worksheets',
-      'worksheet business income potential',
+      'digital product passive revenue',
+      'recurring income printable business',
+      'multi-platform worksheet sales',
     ],
-    titleTag: 'Passive Income with Worksheets (2026) | LCS',
-    metaDescription: 'How to build passive income with worksheets in 2026. Revenue models, content strategies, and realistic income expectations for printable sellers.',
+    titleTag: 'Passive Income Selling Worksheets | LCS',
+    metaDescription: 'Build passive income selling worksheets. Evergreen catalog strategies, bundle pricing, and realistic revenue expectations for printable sellers.',
   },
 
   hero: {

@@ -2,20 +2,20 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'copyright basics for printable sellers',
+    primaryKeyword: 'copyright for printable sellers',
     secondaryKeywords: [
-      'copyright for printable business owners',
-      'printable seller copyright guide',
-      'protect your printable designs legally',
       'copyright law for digital product sellers',
+      'protect printable designs legally',
+      'printable seller intellectual property guide',
+      'avoid copyright infringement Etsy',
     ],
     lsiKeywords: [
-      'printable copyright protection',
-      'intellectual property printables',
-      'legal basics for sellers',
+      'intellectual property digital products',
+      'fair use printable worksheets',
+      'DMCA takedown printable sellers',
     ],
-    titleTag: 'Copyright Basics for Printable Sellers | LCS',
-    metaDescription: 'Copyright basics for printable sellers. Protect your designs, understand your rights, and avoid infringement in your printable business.',
+    titleTag: 'Copyright for Printable Sellers Guide | LCS',
+    metaDescription: 'Copyright guide for printable sellers. Protect your designs, understand fair use, handle infringement, and avoid legal mistakes on Etsy and KDP.',
   },
 
   hero: {

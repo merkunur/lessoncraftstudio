@@ -2,21 +2,20 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'create worksheet bundles that sell',
+    primaryKeyword: 'create worksheet bundles to sell',
     secondaryKeywords: [
-      'how to create worksheet bundles that sell',
-      'create printable worksheet bundles guide',
-      'bundle strategy for Etsy worksheet sellers',
-      'worksheet bundle pricing and packaging',
-      'sell worksheet bundles on Etsy and KDP',
+      'worksheet bundle strategy for Etsy sellers',
+      'create printable bundles for KDP books',
+      'sell worksheet bundles on TPT',
+      'bundle pricing for printable sellers',
     ],
     lsiKeywords: [
-      'printable bundling strategy',
-      'digital product packaging',
-      'increase average order value printables',
+      'printable bundling and pricing strategy',
+      'digital product packaging for sellers',
+      'increase average order value with bundles',
     ],
-    titleTag: 'Create Worksheet Bundles That Sell | LCS',
-    metaDescription: 'How to create worksheet bundles that sell. Bundle sizing, theme selection, pricing tiers, and packaging strategies for Etsy and KDP printable sellers.',
+    titleTag: 'Create Worksheet Bundles to Sell | LCS',
+    metaDescription: 'Create worksheet bundles that boost revenue. Bundle sizing, pricing tiers, theme selection, and packaging for Etsy, KDP, and TPT sellers.',
   },
 
   hero: {

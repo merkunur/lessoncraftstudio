@@ -2,20 +2,20 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'create drawing worksheets to sell online',
+    primaryKeyword: 'create tracing worksheets to sell',
     secondaryKeywords: [
-      'make drawing worksheets for Etsy',
-      'create art activity printables for KDP',
-      'drawing worksheet creation guide',
-      'sell drawing printables online',
+      'sell drawing worksheets on Etsy',
+      'tracing printables for Amazon KDP',
+      'make art activity worksheets to sell online',
+      'printable drawing worksheet business TPT',
     ],
     lsiKeywords: [
-      'drawing product creation',
-      'art activity business',
-      'sellable drawing products',
+      'grid drawing worksheet generator',
+      'fine motor skills printables',
+      'art tracing activity templates',
     ],
-    titleTag: 'Create Drawing Worksheets to Sell Online | LCS',
-    metaDescription: 'Guide to creating drawing worksheets to sell online. Grid drawing, tracing activities, and strategies for Etsy and KDP art activity sellers.',
+    titleTag: 'Create Drawing & Tracing Worksheets to Sell | LCS',
+    metaDescription: 'Create drawing and tracing worksheets that sell. Grid art, symmetry modes, B&W outlines. Guide for Etsy, KDP, and TPT sellers. Try free.',
   },
 
   hero: {

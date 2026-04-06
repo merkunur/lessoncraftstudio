@@ -15,7 +15,7 @@ const content: ToolContent = {
       'kuvaparimatchaus viivanjaljitys tulostettavat',
     ],
     titleTag: 'Viivanpiirtamistehtävägeneraattori — Viivaharjoitus...',
-    metaDescription: 'Tee viivanjäljitystehtäviä kahdeksalla SVG-mallilla, yli 3 100 kuvituksella 104 teemassa ja kuvaparien automaattitäytöllä. Ilmainen kokeilu vesileimalla.',
+    metaDescription: 'Viivanpiirtamistehtävägeneraattori: tee viivaharjoitustehtäviä kahdeksalla SVG-mallilla, yli 3 100 kuvituksella 104 teemassa. Ilmainen kokeilu vesileimalla.',
   },
 
   hero: {

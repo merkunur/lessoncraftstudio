@@ -9,7 +9,7 @@ const content: BlogContent = {
     ],
     lsiKeywords: ['utskrivbare produkter forretning', 'printable selger strategi', 'digital nedlasting inntekt'],
     titleTag: 'Start printable-bedrift uten designkunnskaper | LCS',
-    metaDescription: 'Med arbeidsark-generatorer trenger du ikke designferdigheter for å lage profesjonelle utskrivbare produkter. Selg pa Etsy & KDP med kommersiell lisens.',
+    metaDescription: 'Start din printable-bedrift uten designferdigheter. Med arbeidsark-generatorer lager du profesjonelle utskrivbare produkter. Selg på Etsy & KDP.',
   },
   hero: {
     title: 'Start printable-bedrift uten designkunnskaper',

@@ -4,10 +4,10 @@ const content: BundleContent = {
   seo: {
     primaryKeyword: 'logiikka paketti logiikkapulmapaketti kdp',
     secondaryKeywords: [
-      'logiikkapulmageneraattoripaketti KDP-pulmakirjoihin',
-      'pulmatulostepaketti myyjille',
-      'logiikkapulmageneraattoripaketti kaupalliseen kayttoon',
-      'kaikki pulmageneraattorit yhdessa paketissa',
+      'pulmat logiikka paketti',
+      'puuttuvien palojen pulmageneraattori',
+      'etsi erilainen tyoarkkigeneraattori',
+      'kuvasudoku tyoarkkigeneraattori',
     ],
     lsiKeywords: [
       'puuttuvat palat sudoku labyrintti tyoarkkipaketti',

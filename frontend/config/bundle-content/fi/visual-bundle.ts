@@ -4,10 +4,10 @@ const content: BundleContent = {
   seo: {
     primaryKeyword: 'visuaalinen oppiminen paketti tyoarkkipaketti aktiviteettia',
     secondaryKeywords: [
-      'varitystyoarkkigeneraattoripaketti myyjille',
-      'visuaalinen aktiviteettipaketti kaupalliseen kayttoon',
-      'kuvionhahmoittaminen tyoarkkipaketti Etsy-myyjille',
-      'piirtaminen varitys tyoarkkigeneraattorit KDP-myyjille',
+      'visuaalinen oppiminen paketti',
+      'suuri pieni tyoarkkigeneraattori',
+      'kuviojuna tyoarkkigeneraattori',
+      'kuviotyoarkkigeneraattori',
     ],
     lsiKeywords: [
       'varitys piirtaminen tyoarkkipaketti',

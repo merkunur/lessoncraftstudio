@@ -3,7 +3,12 @@ import type { GuideContent } from '../types';
 const content: GuideContent = {
   seo: {
     primaryKeyword: 'työarkkien laatustandardit',
-    secondaryKeywords: ['tulostettavien työarkkien laatu', 'ammattimaiset työarkkistandardit', 'työarkkien laadunvalvonta', 'tulostettavien tuotteiden laatukriteerit'],
+    secondaryKeywords: [
+      'ymmärrä miksi laatu vaikuttaa suoraan',
+      'hallitse tulostettavan muotoilun perusteet',
+      'varmista typografian luettavuuden standardit',
+      'varmista vastausten sisällön tarkkuus',
+    ],
     lsiKeywords: ['tulostuslaatu muotoilustandardit typografia tasaus luettavuus', 'vastausten tarkkuus oikoluku laadunvarmistus ammattimainen ulkoasu', 'tuotteen laatu asiakastyytyväisyys arvostelujen hallinta brändin luotettavuus', 'tulostettava muotoilu sivun asettelu marginaalit resoluutio väritila', 'sisällön tarkkuus opetuksellinen sopivuus ikätasoinen materiaali', 'visuaalinen johdonmukaisuus brändi-identiteetti tuotelinja ammattimainen esittely'],
     titleTag: 'Työarkkien laatustandardit — Opas',
     metaDescription: 'Ammattimaiset laatustandardit tulostettaville työarkeille. Muotoilu, typografia, tulostuslaatu, vastausten. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',

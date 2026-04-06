@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'hitta udda vilken hör hur',
+    primaryKeyword: 'hitta udda bilden pussel skapar sälja',
     secondaryKeywords: [
       'skapa hitta udda bilden-pussel att sälja',
       'visuell diskriminering arbetsblad generator',
@@ -17,7 +17,7 @@ const content: GuideContent = {
       'Amazon KDP visuell diskriminering arbetsböcker',
       'kommersiell licens hitta udda bilden verktyg',
     ],
-    titleTag: 'Vilken hör inte hemma att sälja | LessonCraftStudio',
+    titleTag: 'Skapa hitta udda bilden-pussel att sälja | LCS',
     metaDescription: 'Skapa hitta udda bilden-arbetsblad med Identiskt och Liknande läge, per-övning överstyrning och automatiskt facit. Steg-för-steg-guide för Etsy och KDP.',
   },
 

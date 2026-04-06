@@ -14,7 +14,7 @@ const content: BlogContent = {
       'Online Geschaeft Einnahmen realistisch',
     ],
     titleTag: 'Druckvorlagen-Geschaeft: Realistische Einnahmen | LCS',
-    metaDescription: 'Wie viel verdient man wirklich mit Druckvorlagen? Ehrliche Zahlen nach Monaten, Plattformen und Nischen —. Verkaufen Sie auf Etsy & KDP mit gewerblicher Lizenz.',
+    metaDescription: 'Realistische Einnahmen im Druckvorlagen-Geschaeft: Ehrliche Zahlen nach Monaten, Plattformen und Nischen. Verkaufen Sie auf Etsy & KDP mit Lizenz.',
   },
   hero: {
     title: 'Druckvorlagen-Geschaeft: Realistische Einkommenserwartungen',

@@ -7,10 +7,10 @@ const content: IdeaContent = {
 
     primaryKeyword: 'fyysisten tulostettavien fyysiset tulostettavat tuotteiden',
     secondaryKeywords: [
-      'painettu työarkkituoteliiketoiminta',
-      'fyysiset tulostettavat tuotteet myyntiin',
-      'käsin kosketeltavat tulostettava liiketoimintaideat',
-      'myy painettuja työarkkeja offline',
+      'fyysisten tulostettavien tuotteiden liiketoimintaideat myyjille',
+      'laminoidut yhteenlaskuharjoituskortit fyysisille tuotemyyjille',
+      'kierresidotut sanaristikkoaktiviteettikirjat',
+      'valmiiksi leikatut yhdistämisaktiviteettikorttisarjat',
     ],
     lsiKeywords: [
       'tulosta-ja-lähetä opetukselliset tuotteet',

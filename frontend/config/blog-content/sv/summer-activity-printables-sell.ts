@@ -14,7 +14,7 @@ const content: BlogContent = {
       'Etsy butik svenska',
     ],
     titleTag: 'Sommaraktivitets-Utskrifter: Sälj | LCS',
-    metaDescription: 'Sommarlovsaktiviteter som arbetsblad, pussel och utomhuslekar. Salj pa Etsy & KDP med kommersiell licens.',
+    metaDescription: 'Sommaraktivitets-utskrifter som arbetsblad, pussel och utomhuslekar att sälja på Etsy & KDP med kommersiell licens. Skapa och sälj sommaraktiviteter.',
   },
   hero: {
     title: 'Sommaraktivitets-Utskrifter: Sälj',

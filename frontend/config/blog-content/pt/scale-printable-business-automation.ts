@@ -14,7 +14,7 @@ const content: BlogContent = {
       'empreendedor digital educativo',
     ],
     titleTag: 'Escalar Negócio Imprimíveis | LCS',
-    metaDescription: 'A diferença entre vendedores que faturam US$ 200/mês e US$ 2.000/mês não é talento — é automação. Geradores de fichas, templates de listagem, programaçã.',
+    metaDescription: 'Escalar seu negócio de imprimíveis com automação: a diferença entre US$ 200/mês e US$ 2.000/mês. Geradores, templates e programação de publicações.',
   },
   hero: {
     title: 'Escalar Negócio Imprimíveis',

@@ -18,7 +18,7 @@ const content: GuideContent = {
       'Amazon KDP schrijfwerkboeken',
     ],
     titleTag: 'Schrijfwerkbladen maken en verkopen | LessonCraftStudio',
-    metaDescription: 'Maak schrijfwerkbladen met overtrek-, vervagend overtrek- en kopieerstand. Streekrichting-pijlen, vijf lettertypen en PDF-export voor Etsy en KDP.',
+    metaDescription: 'Maak schrijfwerkbladen om te verkopen met overtrek-, vervagend overtrek- en kopieerstand. Streekrichting-pijlen, vijf lettertypen, PDF-export voor Etsy en KDP.',
   },
 
   hero: {

@@ -3,7 +3,11 @@ import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
     primaryKeyword: 'ordgjettespill arbeidsark selge 2026',
-    secondaryKeywords: ['ordgjetting arbeidsark Etsy', 'gjettelek ord utskrifter', 'ordspill puslespill selge'],
+    secondaryKeywords: [
+      'hva gjør ordgjettespill unike',
+      'produksjon lessoncraftstudios generator',
+      'prissetting salg',
+    ],
     lsiKeywords: ['hangman-stil puslespill', 'ordlek arbeidsark', 'språkspill utskrift'],
     titleTag: 'Selg ordgjettespill-arbeidsark på nett | LCS',
     metaDescription: 'Slik selger du ordgjettespill-arbeidsark på Etsy og KDP. Produksjonsstrategi, prissetting og markedsføringstips.',

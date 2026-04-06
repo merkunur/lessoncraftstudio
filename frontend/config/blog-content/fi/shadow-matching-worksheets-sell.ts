@@ -4,9 +4,9 @@ const content: BlogContent = {
   seo: {
     primaryKeyword: 'varjoyhdistamistyoarkit visuaalisen hahmottamisen myyntiopas',
     secondaryKeywords: [
-      'varjoyhdistely tulosteet Etsy',
-      'varjotehtavat lapsille myynti',
-      'shadow matching tyoarkit',
+      'varjoyhdistamisen pedagoginen arvo',
+      'tuotetyypit teemat',
+      'hinnoittelu paketointi',
     ],
     lsiKeywords: [
       'visuaalinen hahmotus varjot',

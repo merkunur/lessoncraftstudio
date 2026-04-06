@@ -3,7 +3,11 @@ import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
     primaryKeyword: 'Tier-Druckvorlagen Bestseller immer verkaufen',
-    secondaryKeywords: ['Tier-Arbeitsblaetter Etsy verkaufen', 'Tierbilder Druckvorlagen Kinder', 'Tiere Wortsuche Raetsel PDF'],
+    secondaryKeywords: [
+      'warum tiere als thema unschlagbar',
+      'profitabelsten tier nischen',
+      'produkt formate fuer tier druckvorlagen',
+    ],
     lsiKeywords: ['Tierarten Arbeitsblaetter Grundschule', 'Zoo-Thema Druckvorlagen', 'Bauernhoftiere Raetsel Kinder'],
     titleTag: 'Tier-Druckvorlagen: Warum sie immer Bestseller sind | LCS',
     metaDescription: 'Tier-Druckvorlagen sind zeitlose Bestseller auf Etsy.de. Warum Tiere immer funktionieren und welche Tier-Nischen am profitabelsten sind.',

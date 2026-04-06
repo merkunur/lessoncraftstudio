@@ -5,7 +5,7 @@ const content: BlogContent = {
     secondaryKeywords: ['fasit viktighet printable salg tips', 'fasit viktighet printable salg guide', 'fasit viktighet printable salg steg for steg'],
     lsiKeywords: ['arbeidsark produksjon', 'printable forretning guide', 'Etsy selger tutorial'],
     titleTag: 'Fasit: Hemmeligheten bak høyere salg | LCS',
-    metaDescription: 'Arbeidsark med fasit selger betydelig bedre enn uten. Foreldre verdsetter muligheten til å sjekke svar, og lærere krever det. Denne guiden forklarer h',
+    metaDescription: 'Fasit er hemmeligheten bak høyere salg: arbeidsark med fasit selger betydelig bedre. Foreldre verdsetter svarsjekk, og lærere krever det.',
   },
   hero: {
     title: 'Fasit: Hemmeligheten bak høyere salg',

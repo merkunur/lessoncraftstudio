@@ -15,7 +15,7 @@ const content: ToolContent = {
       'distraktor-brikker puslespillarbeidsark generator verktøy',
     ],
     titleTag: 'Manglende Biter Generator — Puslespillarbeidsark Generator',
-    metaDescription: 'Lag puslespillarbeidsark med 6 brikkeformer, konfigurerbar vanskelighetsgrad, smart ekstraksjon med. Selg pa Etsy & KDP med kommersiell lisens.',
+    metaDescription: 'Manglende biter generator: lag puslespillarbeidsark med 6 brikkeformer, konfigurerbar vanskelighetsgrad og smart ekstraksjon. Selg på Etsy & KDP.',
   },
 
   hero: {

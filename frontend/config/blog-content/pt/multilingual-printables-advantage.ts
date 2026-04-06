@@ -14,7 +14,7 @@ const content: BlogContent = {
       'empreendedor digital educativo',
     ],
     titleTag: 'Imprimíveis Multilíngues: Vantagem | LCS',
-    metaDescription: 'Enquanto 95% dos vendedores no Etsy oferecem apenas em inglês, você pode alcançar mercados alemão, francês, espanhol, português e mais com o mesmo produ.',
+    metaDescription: 'A vantagem de imprimíveis multilíngues: enquanto 95% vendem só em inglês, alcance mercados alemão, francês, espanhol e português com o mesmo produto.',
   },
   hero: {
     title: 'Imprimíveis Multilíngues: Vantagem',

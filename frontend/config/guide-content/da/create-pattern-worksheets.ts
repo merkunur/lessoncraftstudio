@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'sådan generator mønstergenkendelsesarbejdsark skab mønsterarbejdsark',
+    primaryKeyword: 'mønsterarbejdsark skab guide',
     secondaryKeywords: [
       'mønstergenkendelse arbejdsark til børn',
       'mønster arbejdsark generator',
@@ -22,7 +22,7 @@ const content: GuideContent = {
   },
 
   hero: {
-    title: 'Sådan generator du mønstergenkendelsesarbejdsark',
+    title: 'Skab mønsterarbejdsark: trin-for-trin guide',
     tagline: 'En trin-for-trin vejledning til at skabe tematiske, trykklare mønstergenkendelsesarbejdsark du kan sælge på Etsy, Amazon KDP og Gumroad',
     description: 'Mønstergenkendelse er en af de mest grundlæggende før-matematik-færdigheder børn udvikler, og arbejdsark der underviser den er i konstant efterspørgsel fra forældre, sælgere og tutorprogrammer. Denne guide fører dig igennem hele skabelsesprocessen med mønsterarbejdsark-makeren — fra at vælge mønstertyper og spørgsmålsformater til at eksportere polerede, trykklare PDF-filer med automatisk facit. Med 9 distinkte mønstertyper fra simple AB-sekvenser til komplekse ABCD-mønstre kan du skabe produkter til enhver aldersgruppe fra førskole til tidlig indskoling. Uanset om du lancerer dit første printable-produkt eller udvider et eksisterende pædagogisk arbejdsarkkatalog, vil du have færdige produkter klar til at liste ved slutningen af denne vejledning.',
   },

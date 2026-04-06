@@ -4,9 +4,9 @@ const content: BlogContent = {
   seo: {
     primaryKeyword: 'koulunaloituksen tulostesesonki elokuun myyntipiikki sesonki',
     secondaryKeywords: [
-      'koulunaloitus tulosteet sesonki opas',
-      'koulunaloitus tulosteet sesonki 2026',
-      'koulunaloitus tulosteet sesonki Suomi',
+      'markkinakatsaus kysynta',
+      'tuotevalikoima teemat',
+      'suomalaisen myyjann kilpailuedut',
     ],
     lsiKeywords: [
       'tulosteet myynti',

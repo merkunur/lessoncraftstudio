@@ -9,7 +9,7 @@ const content: BlogContent = {
     ],
     lsiKeywords: ['sesongbaserte utskrifter', 'utskrivbare arbeidsark nisje', 'printable selger Norge'],
     titleTag: 'Dinosaur-utskrifter: En evergreen-favoritt | LCS',
-    metaDescription: 'Dinosaur-temaer er blant de mest stabile og ettertraktede for utskrivbare arbeidsark. Selg pa Etsy & KDP med kommersiell lisens.',
+    metaDescription: 'Dinosaur-utskrifter er en evergreen-favoritt blant de mest stabile og ettertraktede temaene. Selg på Etsy & KDP med kommersiell lisens.',
   },
   hero: {
     title: 'Dinosaur-utskrifter: En evergreen-favoritt',

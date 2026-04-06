@@ -14,7 +14,7 @@ const content: BlogContent = {
       'empreendedor digital educativo',
     ],
     titleTag: 'Negócio Imprimíveis Sem Design | LCS',
-    metaDescription: 'Você não precisa saber usar Photoshop ou Illustrator para vender imprimíveis. Geradores automatizados como LessonCraftStudio produzem fichas profissiona.',
+    metaDescription: 'Comece um negócio de imprimíveis sem habilidades de design. Geradores automatizados produzem fichas profissionais sem Photoshop ou Illustrator.',
   },
   hero: {
     title: 'Negócio Imprimíveis Sem Design',

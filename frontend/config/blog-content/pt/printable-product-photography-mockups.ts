@@ -14,7 +14,7 @@ const content: BlogContent = {
       'guia prático imprimíveis',
     ],
     titleTag: 'Fotografia e Mockups para Imprimíveis | LCS',
-    metaDescription: 'A foto de listagem é o primeiro contato do comprador com seu produto. Venda no Etsy & KDP com licenca comercial.',
+    metaDescription: 'Fotografia e mockups profissionais para imprimíveis: a foto de listagem é o primeiro contato do comprador. Venda no Etsy & KDP com licença comercial.',
   },
   hero: {
     title: 'Fotografia e Mockups para Imprimíveis',

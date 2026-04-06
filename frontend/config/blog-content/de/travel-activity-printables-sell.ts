@@ -3,7 +3,11 @@ import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
     primaryKeyword: 'Reise-Aktivitaets-Druckvorlagen verkaufen Urlaub',
-    secondaryKeywords: ['Reisespiele Kinder PDF Etsy', 'Autofahrt Beschaeftigung Kinder drucken', 'Flugzeug Aktivitaeten Kinder PDF'],
+    secondaryKeywords: [
+      'warum reise markt waechst',
+      'profitabelsten reise druckvorlagen',
+      'saisonale planung',
+    ],
     lsiKeywords: ['Urlaubs-Raetsel Kinder', 'Reise-Wortsuche druckbar', 'Beschaeftigung unterwegs Kinder'],
     titleTag: 'Reise-Aktivitaets-Druckvorlagen: Urlaubs-Eltern-Markt | LCS',
     metaDescription: 'Reise-Aktivitaets-Druckvorlagen verkaufen: Was Eltern fuer Autofahrt, Flug und Wartezeiten kaufen. Produkte, Preise und Saisonstrategien.',

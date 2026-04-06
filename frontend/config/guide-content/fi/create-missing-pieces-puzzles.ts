@@ -3,7 +3,12 @@ import type { GuideContent } from '../types';
 const content: GuideContent = {
   seo: {
     primaryKeyword: 'puuttuvat palat -pulmat',
-    secondaryKeywords: ['palapeli-työarkkigeneraattori', 'tulostettavat puuttuvat palat -työarkit myyntiin', 'kuvapalapulmat lapsille', 'jigsawpulma-työkalu'],
+    secondaryKeywords: [
+      'avaa puuttuvat palat generaattori',
+      'valitse teema kuva',
+      'luo tarkista',
+      'mukauta vie',
+    ],
     lsiKeywords: ['älykkäästi irrotetut palat temaattisilla kuvilla', 'numeroidut ratkaisuvaihtoehdot häiritsevillä vaihtoehdoilla', 'automaattinen vastausavain keltakorosteisin merkinnöin', 'myy palapelityöarkkeja Etsyssä', 'Amazon KDP palapulakirjat', 'kaupallinen lisenssi palapelityökalu'],
     titleTag: 'Puuttuvat palat -pulmat — Opas',
     metaDescription: 'Luo puuttuvat palat -pulmatyöarkkeja temaattisilla kuvilla, numeroiduilla vaihtoehdoilla, häiritsevillä. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',

@@ -14,7 +14,7 @@ const content: BlogContent = {
       'rentabilité activité fiches exercices',
     ],
     titleTag: 'Revenus réalistes d\'une activité d\'imprimables | LCS',
-    metaDescription: 'Combien peut-on réellement gagner en vendant des imprimables ? Chiffres honnêtes par mois, par plateforme et par niveau d\'expérience.',
+    metaDescription: 'Revenus réalistes d\'une activité d\'imprimables : chiffres honnêtes par mois, plateforme et niveau d\'expérience. Vendez sur Etsy & KDP.',
   },
   hero: {
     title: 'Revenus réalistes d\'une activité d\'imprimables',

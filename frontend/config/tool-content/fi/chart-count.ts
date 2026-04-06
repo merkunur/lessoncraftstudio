@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'kuvakaavio tehtäviä ssa',
+    primaryKeyword: 'kuvakaavio tyoarkkigeneraattori verkossa',
     secondaryKeywords: [
       'piktogrammi tyoarkkigeneraattori verkossa',
       'kaaviolaskenta tyoarkit lapsille',
@@ -15,11 +15,11 @@ const content: ToolContent = {
       'tietojen esittaminen tyoarkit verkossa',
     ],
     titleTag: 'Kuvakaavio Tyoarkkigeneraattori — verkossa | Online Tyokalu',
-    metaDescription: 'Tee kuvakaavio-tehtäviä matematiikkaan. Levitetyt 4×5 ruudukot, 6 kuvatyyppiä, automaattiset vastausavaimet,. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
+    metaDescription: 'Kuvakaavio tyoarkkigeneraattori verkossa: tee kuvakaavio-tehtäviä matematiikkaan. 4×5 ruudukot, 6 kuvatyyppiä, vastausavaimet. Myy Etsyssa & KDP:ssa.',
   },
 
   hero: {
-    title: 'Kaaviolaskenta Tehtävägeneraattori',
+    title: 'Kuvakaavio Tyoarkkigeneraattori verkossa',
     tagline: 'Kuvakaavio-tehtävägeneraattori levitetyillä kuvaruudukoilla, automaattisesti luoduilla pylväskaavio-vastausavaimilla, lokalisoiduilla otsikoilla 11 kielellä ja 104 temaattisella kuvakokoelmalla tietojen esittämisen tehtäville, jotka myyvät maailmanlaajuisesti',
     description: 'Luo ammattimaisia kuvakaavio-tehtäviä, joissa käyttäjät laskevat levitettyjä kuvia ja täyttävät pylväskaavion alapuolelle — opettaen tiedonkeruun ja tietojen esittämisen yhdessä ainoassa aktiviteetissa. Jokaisessa tehtäväarkissa on 4×5-ruudukko, jossa 20 kuvaketta 6 eri kuvatyypistä, kukin tyyppi esiintyy 1–5 kertaa satunnaisella jakaumalla, tehden jokaisesta luonnista ainutlaatuisen. Ruudukon alla pylväskaavio 6 sarakkeella × 5 rivillä, johon käyttäjät kirjaavat laskentatuloksensa. Sovellus luo samanaikaisesti vastausavaimen erillisellä kangasvälilehdellä keltaisella (#FFC857) korostettuina soluina, jotka osoittavat oikeat lukumäärät. Valitse kuvat automaattisesti valitsemalla teema pudotusvalikosta — sovellus valitsee satunnaisesti 6 kuvaa — tai selaa kuvakirjastoa manuaalisesti yli 3 100 kuvituksen joukosta 104 temaattisesta kokoelmasta ja napsauta tarkalleen 6 kuvaa. Jokainen tehtäväarkki sisältää automaattisesti luodun otsikon lokalisoidulla \"Kuvakaavio\"-otsikolla, joka mukautuu kaikkiin 11 tuettuun kieleen. Lisää nimi- ja päivämääräkentät yhdellä valintaruudulla. Käytä sekä taustateemoja että kehysteemoja riippumattomilla läpinäkyvyysliukusäätimillä (0–1, askelin 0,05). Kaaviolaskentageneraattori ei ole kielitietoinen — visuaalinen laskenta yleismaailmallisilla numeroilla ja kuvilla tekee tehtäväarkeista identtisesti käyttökelpoisia kaikilla kielillä. Lataa neljä tiedostoa per istunto: tehtäväarkki-JPEG, tehtäväarkki-PDF, vastausavain-JPEG ja vastausavain-PDF — kaikki 300 DPI:llä. Vie Letter-, A4-, Neliö (1200×1200)- tai mukautetuissa koissa harmaasävykytkimellä musteystävällistä tulostetta varten. Ilmainen kokeilu sisältää kaikki ominaisuudet vesileimalla. Osta lisenssi poistaaksesi vesileiman ja myydäksesi kaupallisesti.',
   },

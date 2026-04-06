@@ -15,7 +15,7 @@ const content: ToolContent = {
       'tilpasset ordliste krydsord med ledetråde generator',
     ],
     titleTag: 'Billedkrydsord Generator — Krydsordspuslespil med...',
-    metaDescription: 'Lav billedkrydsord med billedledetråde på 15×15 gitter. 4 indtastningsmetoder, automatisk facit med udfyldt gitter,. Saelg pa Etsy & KDP med kommerciel licens.',
+    metaDescription: 'Billedkrydsord generator til krydsordspuslespil med billedledetråde på 15×15 gitter. 4 indtastningsmetoder, automatisk facit. Sælg på Etsy & KDP.',
   },
 
   hero: {

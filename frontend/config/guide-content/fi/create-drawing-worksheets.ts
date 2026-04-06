@@ -4,10 +4,10 @@ const content: GuideContent = {
   seo: {
     primaryKeyword: 'piirustus opas luo piirustustyöarkit kuinka',
     secondaryKeywords: [
-      'ruudukkopiirustustyöarkit myyntiin',
-      'piirto ja väritys -generaattori kaupallinen käyttö',
-      'tulostettavat piirustustyöarkit Etsyyn ja KDP:hen',
-      'kaksoisruudukko piirtoharjoitus vihjekuvineen',
+      'avaa piirustustyöarkkigeneraattori',
+      'valitse teema kuva',
+      'aseta vihjeprosentti luo',
+      'mukauta vie',
     ],
     lsiKeywords: [
       'kaksoisruudukko piirustusharjoitus vihjekuva piirrosjärjestelmä',

@@ -9,7 +9,7 @@ const content: BlogContent = {
     ],
     lsiKeywords: ['sesongbaserte utskrifter', 'utskrivbare arbeidsark nisje', 'printable selger Norge'],
     titleTag: 'Utskrivbare spill for bursdagsfester | LCS',
-    metaDescription: 'Bursdagsfester er en stor mulighet for printable-selgere. Foreldre søker etter ferdigpakkede aktiviteter: bingo, skattejakt, tegneoppgaver og puslespi',
+    metaDescription: 'Utskrivbare spill for bursdagsfester: en stor mulighet for printable-selgere. Bingo, skattejakt, tegneoppgaver og puslespill med tema. Selg på Etsy.',
   },
   hero: {
     title: 'Utskrivbare spill for bursdagsfester',

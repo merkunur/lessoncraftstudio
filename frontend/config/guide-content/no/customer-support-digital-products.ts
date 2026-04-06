@@ -18,7 +18,7 @@ const content: GuideContent = {
       'skalerer kundestotte arbeidsark-virksomhet',
     ],
     titleTag: 'Kundestotte for digitale produkter — Guide',
-    metaDescription: 'Bygg effektiv kundestotte for din printable-virksomhet. Forebyggende strategier, selvbetjening, FAQ-maler og refusjonshandtering for Etsy, KDP og Gumroad.',
+    metaDescription: 'Bygg effektiv kundestotte for digitale produkter i din printable-virksomhet. Forebyggende strategier, selvbetjening, FAQ-maler og refusjonshandtering.',
   },
 
   hero: {

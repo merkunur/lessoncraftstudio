@@ -4,10 +4,10 @@ const content: ToolContent = {
   seo: {
     primaryKeyword: 'tehtävägeneraattori luo kuviotehtäviä',
     secondaryKeywords: [
-      'kuviotehtavageneraattori myyjille',
-      'tee kuvionhavaitsemistehtavia myyntiin',
-      'tulostettavat kuviosekvenssi-tehtavat kaupallinen kaytto',
-      'ruudukkomuotoinen kuviotehtavageneraattori KDP:lle',
+      'kuviotehtävägeneraattori',
+      'näin luot kuvionhavaitsemistehtäviä vaiheessa',
+      'avaa kuviotehtävägeneraattori',
+      'aseta sivuasettelu tausta',
     ],
     lsiKeywords: [
       'visuaalinen kuvionhavaitseminen tulostettavat Etsyyn',

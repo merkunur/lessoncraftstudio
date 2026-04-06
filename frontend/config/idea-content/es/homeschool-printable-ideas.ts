@@ -2,23 +2,24 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Imprimibles educación en casa | LCS',
-    metaDescription: 'Ideas de para educación en casa para vender en Etsy y Hotmart. Fichas de currículo, actividades multidisciplinarias y recursos de homeschooling.',
-    primaryKeyword: 'imprimibles para educación en casa para vender',
+    titleTag: 'Imprimibles educación en casa Etsy | Nicho',
+    metaDescription: 'Ideas de imprimibles de educación en casa para Etsy y KDP. Currículo y homeschooling en crecimiento.',
+    primaryKeyword: 'imprimibles de educación en casa para vender en Etsy',
     secondaryKeywords: [
-      'fichas de homeschooling negocio imprimibles',
-      'vender imprimibles para educación en el hogar',
-      'actividades de escuela en casa tiendas Etsy',
-      'nicho de educación en casa imprimibles',
+      'fichas homeschooling Etsy KDP',
+      'actividades educación en casa imprimibles',
+      'negocio imprimibles homeschool',
+      'fichas de currículo para vender',
     ],
     lsiKeywords: [
-      'currículo imprimible educación en casa vendedores',
-      'cuadernillos de homeschool Amazon KDP',
-      'recursos educación en casa Hotmart negocio',
+      'educación en casa',
+      'homeschooling',
+      'currículo',
+      'hogar',
     ],
   },
   hero: {
-    title: 'Imprimibles para Educación en Casa: Ideas de Negocio',
+    title: 'Ideas de imprimibles de educación en casa para vender en Etsy y KDP',
     description: 'La educación en casa ha crecido exponencialmente en Latinoamérica y España después de la pandemia, creando un mercado en expansión de padres que buscan materiales educativos estructurados y de calidad profesional. A diferencia de las fichas escolares tradicionales, los imprimibles de homeschooling necesitan cubrir múltiples materias con progresión clara, seguimiento de avance y flexibilidad de ritmo individual. Esta guía presenta ideas de productos concretos, estrategias por plataforma y enfoques de diferenciación para construir un catálogo rentable de imprimibles para educación en casa en Etsy, Amazon KDP y Hotmart. Cada generador ofrece una prueba gratis con marca de agua.',
   },
   marketOverview: `El mercado de imprimibles de trabajo desde casa representa una oportunidad de ingresos premium porque las emprendedores funcionan como compradores institucionales completos que deben obtener cada recurso educativo de forma independiente en lugar de complementar materiales ya proporcionados por un distrito escolar. Mientras que un padre de escuela tradicional podría comprar fichas de práctica ocasionales para reforzar la instrucción del mercado, un padre que trabaja desde casa compre toda la base de productos incluyendo práctica de habilidades fundamentales, actividades de enriquecimiento, materiales de evaluación y recursos de aprendizaje creativo en cada área temática para cada niño en el hogar. Esta diferencia fundamental de compre significa que los hogares de trabajo desde casa gastan sustancialmente más por familia en imprimibles educativos que cualquier otro segmento de compradores en el mercado, con hogares multigrado multiplicando ese gasto a través de dos, tres o más niños en diferentes niveles de desarrollo que necesitan materiales apropiados para su edad simultáneamente.

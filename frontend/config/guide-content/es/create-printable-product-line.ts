@@ -2,25 +2,28 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'crear una línea de productos imprimibles',
+    primaryKeyword: 'crear línea de productos imprimibles',
     secondaryKeywords: [
-      'línea de productos educativos para vender',
-      'construir catálogo de imprimibles paso a paso',
-      'estrategia de producto para negocio de fichas',
-      'planificar línea de imprimibles rentable',
+      'línea de productos Etsy imprimibles',
+      'catálogo de fichas educativas',
+      'expandir catálogo imprimibles',
+      'producto línea fichas KDP',
     ],
     lsiKeywords: [
-      'cohesión de catálogo branding de producto línea visual',
-      'expansión de producto escalabilidad serie temática',
-      'posicionamiento de marca diferenciación productos digitales',
+      'catálogo',
+      'línea',
+      'productos',
+      'variedad',
+      'coherencia',
+      'marca',
     ],
-    titleTag: 'Crear línea de productos imprimibles | LCS',
-    metaDescription: 'Cree una línea de productos imprimibles cohesiva y rentable. Estrategia de catálogo paso a paso para Etsy, KDP y Hotmart con branding profesional.',
+    titleTag: 'Crear línea de productos imprimibles | Guía',
+    metaDescription: 'Guía para crear una línea coherente de productos imprimibles. Catálogo, marca y estrategia de expansión para Etsy y KDP.',
   },
 
   hero: {
-    title: 'Construya una línea de productos imprimibles que genere ingresos',
-    tagline: 'Una guía completa para construir una línea cohesiva de productos imprimibles que impulsa el reconocimiento de marca y las compre recurrentes — cubriendo identidad y estructura de la línea, consistencia visual en su catálogo, convenciones de nomenclatura que construyen reconocimiento, secuenciación estratégica de productos, organización del catálogo para navegación fácil y métodos de expansión sistemática para crecimiento a largo plazo',
+    title: 'Crear una línea de productos imprimibles — Guía completa',
+    tagline: 'Catálogo coherente, marca y estrategia de expansión para su negocio de imprimibles.',
     description: 'Una línea de productos imprimibles cohesiva vende más que productos sueltos sin conexión. Cuando sus fichas comparten identidad visual, cubren necesidades complementarias y se refuerzan mutuamente, cada nuevo producto fortalece todo su catálogo. Esta guía le muestra cómo planificar, construir y escalar una línea de productos imprimibles profesional desde cero. Descubra la estrategia de catálogo que funciona en Etsy, Amazon KDP y Hotmart. El mercado hispanohablante está creciendo rápidamente y los vendedores con líneas cohesivas capturan la mayor parte de las ventas recurrentes.',
   },
 

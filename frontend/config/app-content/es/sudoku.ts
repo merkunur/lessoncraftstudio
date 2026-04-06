@@ -2,25 +2,30 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'generador de sudoku con imágenes para libros KDP',
+    primaryKeyword: 'sudoku para imprimir',
     secondaryKeywords: [
-      'crear sudoku con imágenes para Amazon KDP',
-      'generador de sudoku visual para vendedores Etsy',
-      'sudoku imprimible con imágenes licencia comercial',
-      'crear libros de sudoku para vender online',
+      'generador de sudoku',
+      'sudoku para niños para imprimir',
+      'sudoku con imágenes',
+      'crear sudoku personalizado',
     ],
     lsiKeywords: [
-      'sudoku imágenes niños vendedores KDP Etsy',
-      'libros sudoku visual imprimibles Amazon',
-      'negocio sudoku imprimible mercado hispano',
+      'grilla',
+      'lógica',
+      'números',
+      'imágenes',
+      'fácil',
+      'difícil',
+      '4x4',
+      '6x6',
     ],
-    titleTag: 'Sudoku con imágenes para libros KDP | LCS',
-    metaDescription: 'Cree sudoku con imágenes para vender en Amazon KDP y Etsy. Formato visual para niños, solucionario. Licencia comercial incluida. Pruebe gratis. 49 $ pago unico.',
+    titleTag: 'Sudoku para imprimir | Generador de sudoku con imágenes',
+    metaDescription: 'Cree sudoku con imágenes o números, dificultad ajustable. Soluciones automáticas, PDF imprimibles. Prueba gratis — venda en Etsy y Amazon KDP.',
   },
 
   hero: {
-    title: 'Genere sudoku con imágenes para vender en Amazon KDP y Etsy',
-    tagline: 'Cree sudoku visual con imágenes temáticas — perfecto para libros de actividades KDP.',
+    title: 'Sudoku para imprimir — Generador de sudoku con imágenes y números',
+    tagline: 'Cree sudoku con imágenes o números, dificultad ajustable — soluciones automáticas, PDF imprimibles.',
     description:
       'Genere sudoku con imágenes para vender en Amazon KDP, Etsy o Hotmart. En lugar de números, los niños completan cuadrículas con imágenes temáticas — un formato innovador que hace el sudoku accesible para preescolares y niños pequeños. Con más de 3.000 imágenes en 104 temas, cree sudokus visuales para cualquier interés. Los libros de sudoku son un género perenne en Amazon KDP con ventas consistentes, y el formato con imágenes abra un mercado infantil que el sudoku numérico no alcanza. Exporte PDFs a 300 DPI con solucionario automático y véndalos con la licencia comercial incluida. Pruebe gratis con marca de agua — sin registro.',
   },

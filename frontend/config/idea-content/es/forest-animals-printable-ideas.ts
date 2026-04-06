@@ -2,24 +2,25 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Imprimibles bosque para vender | LCS',
-    metaDescription: 'Ideas de imprimibles de animales del bosque para vender en Etsy y KDP. Zorros, osos y búhos — nicho con estética premium y demanda creciente en español.',
+    titleTag: 'Imprimibles animales del bosque Etsy | Nicho',
+    metaDescription: 'Ideas de imprimibles de animales del bosque para Etsy y KDP. Zorros, osos y búhos con estética premium.',
 
-    primaryKeyword: 'imprimibles animales del bosque para Etsy',
+    primaryKeyword: 'imprimibles de animales del bosque para vender en Etsy',
     secondaryKeywords: [
-      'fichas animales del bosque para vender',
-      'negocio imprimibles tema bosque naturaleza',
-      'actividades animales silvestres comerciales',
-      'vender fichas bosque KDP Hotmart',
+      'fichas animales del bosque Etsy KDP',
+      'actividades del bosque imprimibles',
+      'negocio imprimibles bosque',
+      'fichas de zorros y búhos para vender',
     ],
     lsiKeywords: [
-      'nicho imprimibles bosque otoño invierno demanda',
-      'fichas educativas animales silvestres vendedores',
-      'productos digitales zorros osos búhos Hotmart',
+      'bosque',
+      'zorros',
+      'búhos',
+      'naturaleza',
     ],
   },
   hero: {
-    title: 'Ideas de imprimibles de animales del bosque para vender en Etsy',
+    title: 'Ideas de imprimibles de animales del bosque para vender en Etsy y KDP',
     description: 'Los animales del bosque combinan un atractivo educativo sólido con una estética visual que los compradores valoran especialmente. Zorros, osos, búhos, ciervos y mapaches dominan las tendencias de decoración infantil y productos educativos — lo que se traduce en alta demanda para los vendedores de imprimibles. El nicho del bosque tiene picos naturales en otoño e invierno, cuando las familias y las tiendas exploran temas de hibernación, migración y preparación para el frío. La estética woodland ha mantenido su popularidad durante años en Etsy, con productos que alcanzan precios premium gracias a su atractivo visual sofisticado. En el mercado hispano, este nicho está prácticamente vacío — una oportunidad clara para emprendedores que creen productos de calidad. Esta guía le presenta ideas concretas para construir su línea de imprimibles de bosque en Etsy, KDP y Hotmart.',
   },
   marketOverview: `El nicho de imprimibles de animales del bosque se sitúa en la intersección de la educación sobre la naturaleza, la planificación de productos estacional y la enormemente popular tendencia de decoración infantil de bosque, creando demanda de múltiples segmentos de compradores durante todo el año. Los padres que han decorado habitaciones infantiles y salas de juegos con temática del bosque buscan activamente productos imprimibles a juego que presenten los mismos osos, zorros, ciervos y búhos que adornan las paredes de sus hijos. Los vendedores que construyen unidades de ciencias sobre hábitats forestales, hibernación, cadenas alimenticias y adaptaciones estacionales de los animales necesitan recursos imprimibles que se alineen con los estándares de productoses mientras mantienen a los jóvenes aprendices comprometidos.

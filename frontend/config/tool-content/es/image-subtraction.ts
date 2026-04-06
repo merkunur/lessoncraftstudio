@@ -2,25 +2,26 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'generador de fichas de restas gratis',
+    primaryKeyword: 'generador de restas gratis online',
     secondaryKeywords: [
-      'fichas de restas gratis sin registro',
-      'generador de restas con imágenes gratis',
-      'ejercicios de resta gratis para imprimir',
-      'fichas de sustracción gratis en línea',
+      'fichas de restas gratis para imprimir',
+      'ejercicios de restas online gratis',
+      'restas con imágenes gratis',
+      'crear fichas de restas gratis',
     ],
     lsiKeywords: [
-      'fichas de matemáticas de resta para primaria',
-      'ejercicios de sustracción con ilustraciones',
-      'hojas de resta con respuestas automaticas',
+      'primaria',
+      'sin llevar',
+      'con llevada',
+      'diferencia',
     ],
-    titleTag: 'Fichas de restas gratis en línea | LCS',
-    metaDescription: 'Genere fichas de restas gratis con imágenes temáticas. Sin registro, sin tarjeta. Descargue con marca de agua. Licencia comercial disponible para vender.',
+    titleTag: 'Generador de restas gratis online | Crear fichas para imprimir',
+    metaDescription: 'Cree fichas de restas gratis con imágenes temáticas. Sin registro. Soluciones automáticas, PDF con marca de agua. Licencia comercial disponible.',
   },
 
   hero: {
-    title: 'Genere fichas de restas gratis con ilustraciones temáticas',
-    tagline: 'Fichas de resta ilustradas listas en segundos — sin registro ni costes.',
+    title: 'Generador de restas gratis online — Cree fichas para imprimir',
+    tagline: 'Fichas de restas con imágenes temáticas gratis — sin registro, sin tarjeta de crédito.',
     description: 'Cree fichas de restas gratis con imágenes temáticas que hacen las matemáticas atractivas para los niños. Seleccione el rango de números, la cantidad de problemas y elija entre mas de 100 categorias de imágenes. Cada ficha genera un solucionario automático y se exporta en PDF de alta calidad. No necesita cuenta ni tarjeta de crédito — empiece a crear de inmediato. Las descargas incluyen marca de agua transparente para uso de prueba. Perfecto para padres que buscan material de práctica y educadores que necesitan recursos rapidos. ¿Quiere vender fichas de restas en su tienda? Pase a la licencia comercial para obtener PDFs sin marca de agua a 300 DPI.',
   },
 

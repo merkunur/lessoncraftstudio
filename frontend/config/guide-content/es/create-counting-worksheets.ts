@@ -2,25 +2,27 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'crear fichas de conteo para vender en Etsy',
+    primaryKeyword: 'cómo crear fichas de busca y cuenta',
     secondaryKeywords: [
-      'cómo crear fichas de conteo imprimibles',
-      'guía paso a paso fichas para contar',
-      'vender fichas de conteo en Etsy y Amazon KDP',
-      'fichas de conteo licencia comercial Hotmart',
+      'tutorial busca y cuenta paso a paso',
+      'crear fichas de contar objetos',
+      'guía fichas ¿cuántos hay?',
+      'fichas de conteo para Etsy y KDP',
     ],
     lsiKeywords: [
-      'generador de fichas de conteo con imágenes',
-      'fichas para contar para negocio imprimible',
-      'exportar PDF fichas de conteo profesionales',
+      'contar',
+      'buscar',
+      'cuántos',
+      'números',
+      'preescolar',
     ],
-    titleTag: 'Fichas de conteo para vender | LCS',
-    metaDescription: 'Aprenda a crear fichas de conteo para vender en Etsy, KDP y Hotmart. Guía paso a paso con generador profesional y formatos listos para imprimir.',
+    titleTag: 'Cómo crear fichas de busca y cuenta | Guía',
+    metaDescription: 'Guía paso a paso para crear fichas de busca y cuenta con imágenes temáticas. Soluciones automáticas, PDF para vender.',
   },
 
   hero: {
-    title: 'Cómo crear fichas de conteo profesionales para vender',
-    tagline: 'Un tutorial paso a paso para crear fichas de gráficos pictóricos con cuadrículas de imágenes dispersas, claves de respuestas autogeneradas y gráficos de barras que puede vender en Etsy, Amazon KDP y Hotmart',
+    title: 'Cómo crear fichas de busca y cuenta — Guía paso a paso',
+    tagline: 'Tutorial para crear fichas de "busca y cuenta" con imágenes temáticas.',
     description: 'Descubra cómo crear fichas de conteo con imágenes listas para vender en los principales marketplaces. Esta guía paso a paso le enseña a configurar rangos numéricos, seleccionar temas visuales atractivos y generar fichas profesionales con claves de respuestas automáticas. Aprenda a crear variaciones por dificultad y tema para multiplicar su catálogo de productos imprimibles. Optimice sus anuncios en Etsy, Amazon KDP y Hotmart para atraer compradores. Todas las funciones están disponibles en la prueba gratis con marca de agua para evaluar la calidad.',
   },
 

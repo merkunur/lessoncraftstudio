@@ -2,19 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Imprimibles San Valentín para vender | LCS',
-    metaDescription: 'Ideas de imprimibles de San Valentín para vender en Etsy y KDP. Temporada corta pero intensísima — publique en enero para maximizar ventas en febrero.',
-    primaryKeyword: 'imprimibles de San Valentín para vender',
+    titleTag: 'Imprimibles San Valentín para Etsy | Nicho',
+    metaDescription: 'Ideas de imprimibles de San Valentín para Etsy y KDP. Nicho estacional con demanda en febrero.',
+    primaryKeyword: 'imprimibles de San Valentín para vender en Etsy',
     secondaryKeywords: [
-      'fichas de San Valentín Etsy KDP',
-      'negocio imprimibles Día del Amor febrero',
-      'actividades San Valentín comerciales',
-      'vender fichas corazones en línea Hotmart',
+      'fichas San Valentín Etsy KDP',
+      'actividades día del amor imprimibles',
+      'negocio imprimibles San Valentín',
+      'fichas de corazones para vender',
     ],
     lsiKeywords: [
-      'pico ventas enero febrero imprimibles Valentín',
-      'Día del Amor y Amistad Latinoamérica',
-      'productos digitales corazones cupidos primavera',
+      'San Valentín',
+      'febrero',
+      'amor',
+      'corazones',
     ],
   },
   hero: {

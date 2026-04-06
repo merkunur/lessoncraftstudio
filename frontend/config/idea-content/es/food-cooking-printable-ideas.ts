@@ -2,23 +2,24 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Imprimibles alimentos para Etsy | LCS',
-    metaDescription: 'Ideas de imprimibles de alimentos para vender en Etsy y KDP. Frutas, verduras y cocina — nicho educativo perenne con múltiples ángulos de producto.',
-    primaryKeyword: 'imprimibles de alimentos para vender en Etsy',
+    titleTag: 'Imprimibles de comida y cocina Etsy | Nicho',
+    metaDescription: 'Ideas de imprimibles de comida y cocina para Etsy y KDP. Frutas, verduras y nutrición perenne.',
+    primaryKeyword: 'imprimibles de comida y cocina para vender en Etsy',
     secondaryKeywords: [
-      'fichas de comida para negocio Etsy KDP',
-      'negocio imprimibles frutas verduras educativos',
-      'actividades alimentos comerciales Hotmart',
-      'vender fichas cocina nutrición en línea',
+      'fichas de alimentos Etsy KDP',
+      'actividades de cocina imprimibles',
+      'negocio imprimibles comida',
+      'fichas de frutas para vender',
     ],
     lsiKeywords: [
-      'nicho imprimibles alimentos demanda perenne',
-      'fichas educativas nutrición vendedores',
-      'productos digitales frutas verduras comida Hotmart',
+      'comida',
+      'cocina',
+      'frutas',
+      'verduras',
     ],
   },
   hero: {
-    title: 'Ideas de imprimibles de alimentos para vender en Etsy y KDP',
+    title: 'Ideas de imprimibles de comida y cocina para vender en Etsy y KDP',
     description: 'Los alimentos son un tema educativo universal que genere ventas constantes para los vendedores de imprimibles. Frutas, verduras, platos típicos y actividades de cocina atraen a padres que buscan enseñar nutrición, vocabulario y habilidades matemáticas a través de contextos cotidianos. Para los emprendedores de imprimibles, el nicho de alimentos ofrece versatilidad excepcional: fichas de conteo con frutas, actividades de clasificación por grupos alimenticios, sopas de letras de vocabulario culinario y páginas para colorear de platos del mundo. El tema no tiene dependencia estacional — los alimentos son relevantes todo el año. En el mercado hispano, la riqueza gastronómica de cada país cree oportunidades para productos culturalmente específicos que los vendedores anglosajones no pueden replicar. Esta guía le muestra ideas de productos, precios y estrategias para Etsy, KDP y Hotmart.',
   },
   marketOverview: `El nicho de imprimibles de comida y cocina ocupa una posición excepcionalmente poderosa para los vendedores de imprimibles porque cada niño tiene una conexión directa y personal con la comida a través de las comidas diarias, los momentos de aperitivos, las visitas al supermercado y las experiencias en la cocina con la familia. A diferencia de los temas de nicho que dependen de que un niño desarrolle un interés específico, la comida es universalmente relevante desde la infancia, asegurando que los productos imprimibles con temática alimentaria atraigan a la audiencia más amplia posible de padres, vendedores y emprendedores. Esta relevancia universal se traduce en una demanda consistente de compradores durante los doce meses porque la educación nutricional, la conciencia sobre alimentación saludable y las actividades de aprendizaje con temática de cocina nunca están fuera de temporada.

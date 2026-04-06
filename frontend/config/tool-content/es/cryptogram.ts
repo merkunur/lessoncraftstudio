@@ -4,23 +4,25 @@ const content: ToolContent = {
   seo: {
     primaryKeyword: 'generador de criptogramas gratis',
     secondaryKeywords: [
-      'criptogramas gratis sin registro',
-      'generador de criptogramas gratis en línea',
-      'crear criptogramas gratis para imprimir',
-      'fichas de criptogramas gratis sin tarjeta',
+      'mensaje secreto para imprimir gratis',
+      'código secreto gratis online',
+      'descifrar mensaje gratis',
+      'juego de códigos gratis',
     ],
     lsiKeywords: [
-      'juegos de decodificación de letras imprimibles',
-      'actividades de criptografia para niños',
-      'fichas de descifrar mensajes secretos',
+      'código',
+      'descifrar',
+      'letras',
+      'sustitución',
+      'secreto',
     ],
-    titleTag: 'Generador de criptogramas gratis | LCS',
-    metaDescription: 'Cree criptogramas gratis donde los niños descifran mensajes secretos. Sin registro ni tarjeta de crédito. Descargue con marca de agua. Licencia comercial.',
+    titleTag: 'Generador de criptogramas gratis | Mensajes secretos',
+    metaDescription: 'Cree criptogramas y mensajes secretos gratis con imágenes temáticas. Sin registro. Soluciones automáticas. PDF con marca de agua.',
   },
 
   hero: {
-    title: 'Cree criptogramas gratis para descifrar mensajes',
-    tagline: 'Fichas de decodificación listas en segundos — gratis y sin registro.',
+    title: 'Generador de criptogramas gratis — Mensajes secretos para imprimir',
+    tagline: 'Criptogramas y mensajes secretos con imágenes gratis — sin registro.',
     description: 'Cree criptogramas gratis donde los niños descifran mensajes secretos sustituyendo símbolos por letras. Este generador produce fichas de criptografía educativa con diferentes niveles de dificultad y temas. Cada ficha incluye la clave de decodificación y el solucionario automático, y se exporta en PDF listo para imprimir. No necesita registro ni tarjeta de crédito — todas las funciones están disponibles desde el primer momento. Las descargas incluyen marca de agua transparente. Perfecto para padres que buscan actividades de lógica y educadores que quieren material diferente. ¿Quiere vender criptogramas? Pase a la licencia comercial para PDFs sin marca de agua a 300 DPI.',
   },
 

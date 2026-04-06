@@ -2,25 +2,27 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'ingresos pasivos con fichas educativas 2026',
+    primaryKeyword: 'ingresos pasivos con fichas educativas',
     secondaryKeywords: [
-      'ganar dinero vendiendo fichas imprimibles',
-      'ingresos recurrentes con imprimibles educativos',
-      'negocio de fichas ingresos pasivos',
-      'monetizar fichas de ejercicios 2026',
+      'ganar dinero con fichas para imprimir',
+      'ingresos pasivos imprimibles',
+      'fichas educativas negocio pasivo',
+      'monetizar fichas Etsy KDP',
     ],
     lsiKeywords: [
-      'producto digital perenne catálogo compuesto regalías',
-      'distribución multiplataforma automatización de ventas',
-      'ingresos escalables coste marginal cero productos digitales',
+      'ingresos pasivos',
+      'fichas',
+      'automatización',
+      'ventas',
+      'escalado',
     ],
-    titleTag: 'Ingresos pasivos con fichas (2026) | LCS',
-    metaDescription: 'Construya ingresos pasivos con fichas educativas en 2026. Catálogo perenne, distribución en Etsy, KDP y Hotmart, y efectos compuestos para ganar más.',
+    titleTag: 'Ingresos pasivos con fichas educativas | Guía',
+    metaDescription: 'Guía para generar ingresos pasivos con fichas educativas. Automatización, escalado y estrategia para Etsy y KDP.',
   },
 
   hero: {
-    title: 'Genere ingresos pasivos con fichas educativas en 2026',
-    tagline: 'Una guía completa para construir ingresos sostenibles con fichas de ejercicios — por qué las fichas generan ingresos continuos, construcción de catálogos de productos perennes, diversificación de canales de ingresos, creación de productos con demanda durante todo el año, uso de paquetes para mayor valor por transacción, expansión a múltiples idiomas, optimización para el descubrimiento orgánico y construcción de efectos de catálogo compuesto',
+    title: 'Ingresos pasivos con fichas educativas — Guía',
+    tagline: 'Automatización, escalado y estrategia para generar ingresos pasivos con fichas.',
     description: 'Cada ficha que cree sigue generando ingresos mucho después de que el esfuerzo inicial se haya completado. A diferencia de los servicios donde intercambia horas por dinero, un paquete de fichas puede venderse miles de veces en múltiples plataformas sin trabajo adicional. Esta guía le muestra cómo construir un negocio de fichas diseñado para ingresos recurrentes y compuestos. Aprenda la estrategia de catálogo perenne que funciona en Etsy, Amazon KDP y Hotmart. El mercado hispanohablante representa una oportunidad masiva con menos competencia y demanda creciente.',
   },
 

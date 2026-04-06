@@ -1,25 +1,26 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'crear rompecabezas de matemáticas gratis',
+    primaryKeyword: 'puzzles matemáticos gratis para imprimir',
     secondaryKeywords: [
-      'rompecabezas de mates gratis sin registro',
-      'puzzles matemáticos gratis en línea',
-      'generador de rompecabezas de matemáticas gratis',
-      'fichas de puzzles matemáticos gratis para imprimir',
+      'acertijos de matemáticas gratis',
+      'juegos de matemáticas gratis online',
+      'rompecabezas de sumas gratis',
+      'enigmas matemáticos gratis',
     ],
     lsiKeywords: [
-      'actividades de lógica y cálculo para niños',
-      'fichas de matemáticas divertidas imprimibles',
-      'rompecabezas de números con solucionario',
+      'acertijo',
+      'imágenes',
+      'asociar',
+      'lógica',
     ],
-    titleTag: 'Rompecabezas de mates gratis | LCS',
-    metaDescription: 'Cree rompecabezas de matemáticas gratis con imágenes temáticas. Sin registro, sin tarjeta. Descargue con marca de agua. Licencia comercial.',
+    titleTag: 'Puzzles matemáticos gratis para imprimir | Generador',
+    metaDescription: 'Cree puzzles matemáticos gratis con imágenes temáticas. Sin registro. Soluciones incluidas, PDF con marca de agua.',
     },
 
   hero: {
-    title: 'Cree rompecabezas de matemáticas gratis con imágenes',
-    tagline: 'Puzzles matemáticos ilustrados listos en segundos — sin registro ni costes.',
+    title: 'Puzzles matemáticos gratis para imprimir — Generador online',
+    tagline: 'Puzzles matemáticos con imágenes gratis — los niños resuelven operaciones para asociar imágenes.',
     description: 'Cree rompecabezas de matemáticas gratis que combinan cálculo con resolución de puzzles visuales. Este generador produce fichas donde los niños resuelven operaciones para completar imágenes temáticas de mas de 100 categorias. Seleccione el nivel de dificultad, el tipo de operación y el tema visual. Cada ficha incluye solucionario automático y se exporta en PDF listo para imprimir. No necesita registro ni tarjeta de crédito — todas las funciones disponibles desde el inicio. Las descargas incluyen marca de agua transparente. Ideal para padres y creadores de contenido educativo. ¿Quiere vender rompecabezas? Pase a la licencia comercial para PDFs sin marca de agua a 300 DPI.',
   },
 

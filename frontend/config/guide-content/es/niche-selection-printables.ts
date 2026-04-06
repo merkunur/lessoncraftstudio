@@ -2,25 +2,27 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'elegir nicho para negocio de imprimibles 2026',
+    primaryKeyword: 'selección de nicho para imprimibles',
     secondaryKeywords: [
-      'selección de nicho imprimibles rentables',
-      'cómo elegir nicho para vender fichas',
-      'nichos de imprimibles con demanda 2026',
-      'validar nicho de productos educativos',
+      'cómo elegir nicho imprimibles',
+      'nicho ideal fichas educativas',
+      'seleccionar nicho Etsy imprimibles',
+      'encontrar nicho KDP fichas',
     ],
     lsiKeywords: [
-      'análisis de competencia demanda de mercado volumen de búsqueda',
-      'nicho perenne nicho estacional público objetivo',
-      'ajuste producto-mercado expansión de nicho segmentación',
+      'nicho',
+      'selección',
+      'demanda',
+      'competencia',
+      'especialización',
     ],
-    titleTag: 'Elegir nicho de imprimibles (2026) | LCS',
-    metaDescription: 'Descubra cómo elegir un nicho rentable para su negocio de imprimibles en 2026. Marco de validación para Etsy, KDP y Hotmart con análisis de demanda real.',
+    titleTag: 'Selección de nicho para imprimibles | Guía',
+    metaDescription: 'Guía para seleccionar el nicho ideal para su negocio de imprimibles. Criterios, análisis y estrategia para Etsy y KDP.',
   },
 
   hero: {
-    title: 'Cómo elegir el nicho perfecto para su negocio de imprimibles',
-    tagline: 'Un marco completo para elegir, validar y planificar en torno al nicho adecuado para su negocio de imprimibles — cubriendo por qué la selección de nicho determine el éxito, identificar sus ventajas iniciales, investigar la demanda del mercado, analizar la competencia, evaluar la rentabilidad, validar antes de comprometerte, elegir entre nichos perennes y estacionales, y planificar su estrategia de expansión',
+    title: 'Selección de nicho para imprimibles — Guía completa',
+    tagline: 'Criterios, análisis y estrategia para encontrar su nicho ideal de imprimibles.',
     description: 'La selección de nicho es la decisión más importante que tomará como vendedor de imprimibles. Un nicho bien elegido determine su audiencia, su poder de fijación de precios y su potencial de crecimiento a largo plazo. Esta guía le ofrece un marco sistemático para evaluar, validar y elegir su nicho de imprimibles en 2026. Aprenda a investigar la demanda real, analizar la competencia y evaluar la rentabilidad antes de comprometerse. Funciona para Etsy, Amazon KDP, Hotmart y cualquier plataforma. El mercado hispano tiene nichos desatendidos que representan oportunidades reales para nuevos vendedores.',
   },
 

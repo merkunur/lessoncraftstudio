@@ -2,25 +2,27 @@ import type { BundleContent } from '../types';
 
 const content: BundleContent = {
   seo: {
-    primaryKeyword: 'paquete busca encuentra fichas etsy',
+    primaryKeyword: 'paquete generadores de busca y encuentra',
     secondaryKeywords: [
-      'paquete generadores fichas de búsqueda para Etsy',
-      'kit sopas de letras y busque objetos KDP',
-      'fichas de búsqueda visual licencia comercial',
-      'herramientas busca y encuentra negocio imprimibles',
+      'pack fichas de búsqueda licencia comercial',
+      'generadores de crucigrama y tesoro para Etsy',
+      'kit fichas de búsqueda para KDP',
+      'herramientas de búsqueda para imprimibles',
     ],
     lsiKeywords: [
-      'ahorro paquete búsqueda versus compre individual',
-      'variedad fichas buscar encontrar contar Etsy KDP',
-      'licencia comercial fichas búsqueda múltiples plataformas',
+      'busca y cuenta',
+      'busca y encuentra',
+      'crucigrama',
+      'búsqueda del tesoro',
+      'licencia comercial',
     ],
-    titleTag: 'Paquete busca y encuentra | LCS',
-    metaDescription: 'Paquete de generadores de fichas de búsqueda para vender en Etsy y KDP. Sopas de letras, busque objetos y crucigramas. 149 $ pago unico.',
+    titleTag: 'Paquete generadores de busca y encuentra | 4 herramientas',
+    metaDescription: 'Paquete de 4 generadores de fichas de búsqueda. Busca y cuenta, busca y encuentra, crucigramas y tesoro. Licencia comercial, $149 pago único.',
   },
 
   hero: {
-    title: 'Paquete de fichas busca y encuentra para vendedores Etsy y KDP',
-    tagline: 'Generadores de fichas de búsqueda en un solo paquete con descuento — sopas de letras, crucigramas y más.',
+    title: 'Paquete de generadores de busca y encuentra — 4 herramientas con licencia',
+    tagline: 'Cuatro generadores de fichas de búsqueda — busca y cuenta, busca y encuentra, crucigramas y tesoro.',
     description: 'Lance una línea completa de productos de búsqueda y descubrimiento con este paquete de generadores a precio reducido frente a la compre individual. Incluya sopas de letras, crucigramas, búsqueda de objetos ocultos y variantes de busca y encuentra — las categorías de fichas de búsqueda más demandadas en Etsy y Amazon KDP. Cada generador produce PDFs listos para imprimir a 300 DPI con solucionarios automáticos y la licencia comercial incluida para vender sin restricciones. Los generadores de palabras soportan 11 idiomas con vocabulario nativo y signos diacríticos correctos, lo que le permite crear productos en español, inglés, francés, alemán y más desde el mismo paquete. Combine más de 100 conjuntos de imágenes temáticas para crear cientos de listados únicos por temporada, tema o nivel de dificultad. Las fichas de búsqueda tienen demanda constante todo el año y atraen tanto a padres como a educadores, generando ventas recurrentes en su tienda. Pruebe gratis con marca de agua — sin registro.',
   },
 

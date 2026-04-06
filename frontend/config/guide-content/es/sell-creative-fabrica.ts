@@ -2,25 +2,27 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'vender recursos educativos en Creative Fabrica',
+    primaryKeyword: 'vender imprimibles en Creative Fabrica',
     secondaryKeywords: [
-      'cómo vender en Creative Fabrica guía vendedor',
-      'publicar fichas educativas en Creative Fabrica',
-      'Creative Fabrica para vendedores de imprimibles educativos',
-      'ganar dinero vendiendo diseños en Creative Fabrica',
+      'Creative Fabrica vendedores guía',
+      'publicar imprimibles Creative Fabrica',
+      'ganar dinero Creative Fabrica',
+      'Creative Fabrica vs Etsy imprimibles',
     ],
     lsiKeywords: [
-      'marketplace diseño gráfico recursos digitales suscripción Creative Fabrica',
-      'subir productos diseñador vendedor regalías comisiones CF',
-      'fuentes gráficos plantillas imprimibles educativos marketplace creativo',
+      'Creative Fabrica',
+      'marketplace',
+      'publicar',
+      'regalías',
+      'diseño',
     ],
-    titleTag: 'Vender en Creative Fabrica | LCS',
-    metaDescription: 'Aprenda a vender recursos educativos en Creative Fabrica. Configuración de cuenta de diseñador, optimización de productos y estrategia de regalías.',
+    titleTag: 'Vender imprimibles en Creative Fabrica | Guía',
+    metaDescription: 'Guía para vender imprimibles en Creative Fabrica. Publicación, regalías y estrategia para esta plataforma.',
   },
 
   hero: {
-    title: 'Cómo vender recursos educativos en Creative Fabrica',
-    tagline: 'Una guía completa para vender fichas imprimibles y recursos educativos en Creative Fabrica — cubriendo configuración de cuenta de diseñador, creación de productos para la sección CF Classroom, doble ingreso de ventas individuales y descargue por suscripción, optimización de búsqueda para un marketplace centrado en diseño, alcanzar la audiencia única de cruce entre manualidades y educación, estrategias de marketing para destacar entre diseñadores, y escalado de su catálogo en categorías educativas y creativas',
+    title: 'Vender imprimibles en Creative Fabrica — Guía',
+    tagline: 'Publicación, regalías y estrategia para vender imprimibles en Creative Fabrica.',
     description: 'Creative Fabrica es un marketplace de diseño digital en crecimiento donde diseñadores y creadores venden fuentes, gráficos, plantillas e imprimibles educativos a una audiencia global. A diferencia de Etsy o Amazon, Creative Fabrica opera con un modelo de suscripción que proporciona a los diseñadores regalías por descargue, además de ventas directas individuales. Esta guía le muestra cómo configurar su cuenta de diseñador, preparar sus fichas e imprimibles educativos para el marketplace, optimizar sus productos para la búsqueda interna de Creative Fabrica, comprender la estructura de regalías y construir un catálogo que genere ingresos consistentes tanto por suscripciones como por ventas directas.',
   },
 

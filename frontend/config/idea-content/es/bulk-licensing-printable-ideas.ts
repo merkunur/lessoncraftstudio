@@ -2,23 +2,24 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Licencia por volumen imprimibles | LCS',
-    metaDescription: 'Ideas de negocio con licencias por volumen de educativos. Venda licencias institucionales a escuelas, distritos y centros educativos. Guía completa.',
-    primaryKeyword: 'licencia por volumen imprimibles ideas',
+    titleTag: 'Licencia en volumen imprimibles | Nicho',
+    metaDescription: 'Ideas de licencia en volumen de imprimibles para escuelas y centros. Ventas B2B de alto valor.',
+    primaryKeyword: 'licencia en volumen de imprimibles para vender',
     secondaryKeywords: [
-      'negocio de licencias de imprimibles educativos',
-      'vender licencias de fichas a escuelas',
-      'modelo de licencia por sitio imprimibles',
-      'licencia institucional productos educativos',
+      'licencias imprimibles escuelas',
+      'negocio licencias educativas B2B',
+      'venta institucional imprimibles',
+      'licencia por sitio fichas',
     ],
     lsiKeywords: [
-      'licencia escolar fichas imprimibles vendedores',
-      'acuerdos de licencia educativa negocio',
-      'venta B2B imprimibles instituciones',
+      'licencia',
+      'volumen',
+      'institucional',
+      'B2B',
     ],
   },
   hero: {
-    title: 'Licencia por Volumen de Imprimibles: Ideas de Negocio',
+    title: 'Ideas de licencia en volumen de imprimibles para escuelas',
     description: 'Las licencias por volumen transforman un negocio de imprimibles de ventas individuales a acuerdos institucionales de alto valor con escuelas, distritos educativos, centros de tutoría y organizaciones que necesitan acceso para múltiples usuarios. Un solo contrato de licencia institucional puede generar más ingresos que cientos de ventas individuales, con la ventaja adicional de renovaciones anuales predecibles. Esta guía cubre modelos de licencia específicos, estrategias de venta B2B y marcos legales para construir un negocio de licencias por volumen de imprimibles. Cada generador ofrece una prueba gratis con marca de agua para demostrar la calidad a sus clientes.',
   },
   marketOverview: `El modelo de licencias en volumen aborda una necesidad fundamental de compre entre instituciones educativas donde escuelas, distritos escolares, cadenas de tutoría y redes de programas necesitan materiales consistentes en múltiples tiendas, ubicaciones y miembros del personal, pero encuentran la compre individual por producto del marketplace impráctica, costosa y administrativamente onerosa cuando se escala a requisitos organizacionales. Una sola escuela con treinta vendedores comprando productos individuales de fichas cree cientos de transacciones separadas, calidad inconsistente de materiales entre tiendas y ningún control centralizado sobre el contenido imprimible que fluye a través de la institución, problemas que las licencias en volumen resuelven proporcionando un solo acuerdo que cubre toda la organización.

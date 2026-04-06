@@ -2,25 +2,26 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'generador de laberintos ilustrados gratis',
+    primaryKeyword: 'laberintos gratis para imprimir',
     secondaryKeywords: [
-      'fichas de laberintos con imágenes gratis sin registro',
-      'generador de caminos ilustrados en línea gratis',
-      'crear laberintos ilustrados gratis para imprimir',
-      'laberintos con imágenes gratis PDF con respuestas',
+      'generador de laberintos gratis',
+      'laberinto para niños gratis',
+      'crear laberinto gratis',
+      'laberintos preescolar gratis',
     ],
     lsiKeywords: [
-      'actividad de seguir el camino con ilustraciones',
-      'ficha de recorrido visual laberinto imprimible',
-      'laberinto de imágenes motricidad fina preescolar',
+      'camino',
+      'salida',
+      'motricidad fina',
+      'concentración',
     ],
-    titleTag: 'Laberintos ilustrados gratis | LCS',
-    metaDescription: 'Cree laberintos ilustrados gratis sin registro. Caminos con imágenes, 104 colecciones, clave de respuestas incluida. Pase a licencia comercial para vender.',
+    titleTag: 'Laberintos gratis para imprimir | Generador online',
+    metaDescription: 'Cree laberintos gratis con imágenes temáticas. Sin registro. Soluciones automáticas. PDF con marca de agua.',
   },
 
   hero: {
-    title: 'Cree laberintos ilustrados gratis en línea',
-    tagline: 'Generador de fichas de laberintos con tres modos de juego — Camino de Imágenes (cuadrícula visual de seguimiento de caminos), Laberinto Clásico (algoritmo LPF con paredes, coleccionables y bloqueo de callejones sin salida) y Elija el Camino Correcto (laberintos de tres caminos direccionales) — cinco roles de imagen (Inicio, Fin, Camino, Distractor, Decoración), diseño de paredes personalizable con controles de color/grosor/opacidad, claves de respuesta autogeneradas con círculos rosas resaltando la solución y leyendas de coleccionables, y laberintos completamente visuales que se venden en todo el mundo sin traducción',
+    title: 'Laberintos gratis para imprimir — Generador online',
+    tagline: 'Laberintos con imágenes temáticas gratis — soluciones automáticas, sin registro.',
     description: 'Cree fichas de laberintos ilustrados gratis con este generador en línea. Diseñe caminos visuales donde los usuarios siguen secuencias de imágenes a través de cuadrículas temáticas. Navegue 104 colecciones con más de 3.100 ilustraciones o suba sus propias imágenes. Configure la dificultad, el tamaño de cuadrícula y exporte con clave de respuestas autogenerada. Exporte en JPEG y PDF a 300 DPI en tamaño Carta, A4 o personalizado. La prueba gratis incluya todas las funciones con marca de agua en las descargas. Sin registro, sin instalación — empiece ahora. ¿Quiere vender? Pase a la licencia comercial para eliminar la marca de agua y obtener uso comercial completo.',
   },
 

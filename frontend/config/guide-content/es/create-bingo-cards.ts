@@ -2,25 +2,28 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'crear cartones de bingo con imágenes para vender',
+    primaryKeyword: 'cómo crear tarjetas de bingo para imprimir',
     secondaryKeywords: [
-      'cómo crear cartones de bingo imprimibles',
-      'guía paso a paso bingo educativo con imágenes',
-      'vender cartones de bingo en Etsy y KDP',
-      'bingo con imágenes licencia comercial Hotmart',
+      'tutorial bingo con imágenes paso a paso',
+      'crear bingo personalizado para vender',
+      'guía bingo/lotería con imágenes',
+      'tarjetas de bingo para Etsy y KDP',
     ],
     lsiKeywords: [
-      'generador de cartones de bingo temáticos',
-      'bingo con imágenes para negocio imprimible',
-      'exportar PDF cartones de bingo profesionales',
+      'bingo',
+      'lotería',
+      'tarjetas',
+      'juego',
+      'imágenes',
+      'fiesta',
     ],
-    titleTag: 'Cartones de bingo para vender | LCS',
-    metaDescription: 'Aprenda a crear cartones de bingo con imágenes para vender en Etsy, KDP y Hotmart. Guía paso a paso con generador profesional y exportación PDF.',
+    titleTag: 'Cómo crear tarjetas de bingo para imprimir | Guía',
+    metaDescription: 'Guía paso a paso para crear tarjetas de bingo/lotería con imágenes temáticas. Tarjetas únicas, PDF listos para vender.',
   },
 
   hero: {
-    title: 'Cómo crear cartones de bingo con imágenes para vender',
-    tagline: 'Un tutorial paso a paso para crear tarjetas de bingo temáticas y listas para imprimir con tarjetas del cantante que puede vender en Etsy, Amazon KDP y Hotmart',
+    title: 'Cómo crear tarjetas de bingo para imprimir — Guía paso a paso',
+    tagline: 'Tutorial para crear tarjetas de bingo/lotería con imágenes temáticas — tarjetas únicas por juego.',
     description: 'Descubra cómo crear cartones de bingo con imágenes temáticas listos para vender en marketplaces de imprimibles. Esta guía paso a paso le muestra cómo configurar cuadrículas, seleccionar temas visuales atractivos y generar conjuntos únicos de cartones. Aprenda a crear variaciones temáticas y estacionales para construir un catálogo completo de productos de bingo educativo. Optimice sus anuncios en Etsy, Amazon KDP y Hotmart con títulos y descripciones efectivas. Pruebe todas las funciones gratis con marca de agua antes de comprar su licencia comercial.',
   },
 

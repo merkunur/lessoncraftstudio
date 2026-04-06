@@ -2,26 +2,29 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'crear fichas de sumas para vender en Etsy',
+    primaryKeyword: 'fichas de sumas para imprimir',
     secondaryKeywords: [
-      'generador de fichas de sumas para vendedores de Etsy',
-      'fichas de matemáticas para Amazon KDP',
-      'ejercicios de suma imprimibles con licencia comercial',
-      'crear cuadernillos de sumas para vender online',
-      'fichas de cálculo para negocio de imprimibles',
+      'generador de sumas',
+      'ejercicios de sumas para imprimir',
+      'sumas para primaria PDF',
+      'fichas de sumas con dibujos',
     ],
     lsiKeywords: [
-      'licencia comercial 300 DPI listo para imprimir',
-      'ingreso pasivo fichas educativas Etsy KDP Hotmart',
-      'mercado hispano 500 millones hispanohablantes imprimibles',
+      'primaria',
+      '1° grado',
+      'sin llevar',
+      'con llevada',
+      'resultado',
+      'solución',
+      'operaciones',
     ],
-    titleTag: 'Crear fichas de sumas para vender en Etsy | LCS',
-    metaDescription: 'Cree fichas de sumas profesionales para vender en Etsy, KDP y Hotmart. Licencia comercial incluida. 49 $ pago unico.',
+    titleTag: 'Fichas de sumas para imprimir | Generador con soluciones',
+    metaDescription: 'Cree fichas de sumas con imágenes temáticas en segundos. Soluciones automáticas, PDF 300 DPI, 11 idiomas. Prueba gratis — licencia comercial para Etsy y KDP.',
   },
 
   hero: {
-    title: 'Cree y venda fichas de sumas profesionales en Etsy, KDP y Hotmart',
-    tagline: 'Genere fichas de sumas con imágenes temáticas en menos de 3 minutos — listas para vender.',
+    title: 'Fichas de sumas para imprimir — Generador con soluciones automáticas',
+    tagline: 'Cree fichas de sumas con imágenes temáticas en menos de 3 minutos — soluciones incluidas, PDF 300 DPI.',
     description:
       'Cree fichas de sumas para vender en Etsy, Amazon KDP o Hotmart — y genérelas en menos de 3 minutos. Este generador crea ejercicios de suma con imágenes temáticas de más de 3.000 ilustraciones que atraen a los niños y convencen a los padres compradores. Exporte PDFs listos para imprimir a 300 DPI con hojas de respuestas automáticas y véndalos con la licencia comercial incluida — sin atribución requerida, sin restricciones. El mercado hispano de materiales educativos en Etsy es un océaño azul: más de 500 millones de hispanohablantes buscan fichas en español, pero hay muy pocos vendedores que las ofrezcan. Esta es su oportunidad de capturar un mercado enorme con demanda creciente y competencia mínima — desde España hasta México, Estados Unidos y toda Latinoamérica. Pruebe gratis con todas las funciones — sin registro, sin tarjeta de crédito. Las descargas incluyen una marca de agua; compre una licencia para eliminarla.',
   },

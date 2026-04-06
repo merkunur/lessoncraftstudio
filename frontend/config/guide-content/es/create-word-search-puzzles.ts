@@ -2,25 +2,27 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'crear sopas de letras con imágenes para vender',
+    primaryKeyword: 'cómo crear sopas de letras para imprimir',
     secondaryKeywords: [
-      'cómo crear sopas de letras imprimibles',
-      'guía paso a paso sopas de letras temáticas',
-      'vender sopas de letras en Etsy y KDP',
-      'sopas de letras con licencia comercial Hotmart',
+      'tutorial sopa de letras paso a paso',
+      'crear sopa de letras para vender',
+      'guía sopa de letras con imágenes',
+      'sopa de letras para Etsy y KDP',
     ],
     lsiKeywords: [
-      'generador de sopas de letras con imágenes',
-      'sopas de letras para negocio de imprimibles',
-      'exportar PDF sopas de letras profesionales',
+      'sopa de letras',
+      'grilla',
+      'vocabulario',
+      'temas',
+      'solución',
     ],
-    titleTag: 'Sopas de letras con imágenes | LCS',
-    metaDescription: 'Aprenda a crear sopas de letras con imágenes para vender en Etsy, KDP y Hotmart. Guía paso a paso para generar puzzles profesionales con su marca.',
+    titleTag: 'Cómo crear sopas de letras para imprimir | Guía',
+    metaDescription: 'Guía paso a paso para crear sopas de letras con imágenes temáticas. 104 temas, soluciones automáticas, PDF listos para vender.',
   },
 
   hero: {
-    title: 'Cómo crear sopas de letras con imágenes para vender',
-    tagline: 'Un tutorial paso a paso para crear sopas de letras temáticas con pistas de imágenes que puede vender en Etsy, Amazon KDP y Hotmart',
+    title: 'Cómo crear sopas de letras para imprimir — Guía paso a paso',
+    tagline: 'Tutorial completo para crear sopas de letras con imágenes temáticas y soluciones automáticas.',
     description: 'Descubra cómo crear sopas de letras temáticas con imágenes que se venden en los principales marketplaces. Esta guía paso a paso le enseña a configurar la dificultad, elegir temas visuales atractivos y generar puzzles profesionales con claves de respuestas incluidas. Aprenda a crear variaciones temáticas y estacionales para multiplicar su catálogo de productos imprimibles. Optimice sus anuncios en Etsy, Amazon KDP y Hotmart para máxima visibilidad. Todas las funciones están disponibles en la prueba gratis con marca de agua para evaluar la calidad.',
   },
 

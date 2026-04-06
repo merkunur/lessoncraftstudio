@@ -2,25 +2,25 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'generador de busca y encuentra gratis',
+    primaryKeyword: 'busca y encuentra gratis para imprimir',
     secondaryKeywords: [
-      'busca y encuentra gratis sin registro',
-      'generador de busque objetos gratis en línea',
-      'fichas de busca y encuentra gratis para imprimir',
-      'hojas de encontrar objetos gratis sin tarjeta',
+      'objetos escondidos gratis',
+      'juego de observación gratis',
+      'encuentra los objetos gratis',
+      'busca y encuentra niños gratis',
     ],
     lsiKeywords: [
-      'actividades de atención visual para niños',
-      'fichas de buscar objetos ocultos imprimibles',
-      'juegos de observación y concentración',
+      'observación',
+      'concentración',
+      'atención visual',
     ],
-    titleTag: 'Busca y encuentra gratis en línea | LCS',
-    metaDescription: 'Cree fichas de busca y encuentra gratis con imágenes temáticas. Sin registro, sin tarjeta de crédito. Descargue con marca de agua. Licencia comercial.',
+    titleTag: 'Busca y encuentra gratis para imprimir | Generador',
+    metaDescription: 'Cree fichas de "busca y encuentra" gratis con imágenes temáticas. Sin registro. Soluciones automáticas. PDF con marca de agua.',
   },
 
   hero: {
-    title: 'Cree fichas de busca y encuentra gratis en línea',
-    tagline: 'Fichas de buscar objetos listas en segundos — gratis y sin registro.',
+    title: 'Busca y encuentra gratis para imprimir — Generador online',
+    tagline: 'Fichas de "busca y encuentra" con imágenes gratis — soluciones automáticas.',
     description: 'Cree fichas de busca y encuentra gratis donde los niños localizan objetos escondidos entre imágenes temáticas. Este generador produce fichas de atención visual con ilustraciones de mas de 100 categorias — animales, alimentos, vehículos y mas. Seleccione el nivel de dificultad, la cantidad de objetos y el tema visual. Cada ficha incluye solucionario automático y se exporta en PDF listo para imprimir. No necesita registro ni tarjeta de crédito — todas las funciones disponibles al instante. Las descargas incluyen marca de agua transparente. Perfecto para padres y educadores que buscan actividades de concentración. ¿Quiere vender fichas de busca y encuentra? Pase a la licencia comercial para PDFs sin marca de agua.',
   },
 

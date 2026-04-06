@@ -2,25 +2,27 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'fichas de reconocimiento de patrones para vendedores Etsy',
+    primaryKeyword: 'ejercicios de secuencias lógicas para imprimir',
     secondaryKeywords: [
-      'generador de fichas de patrones para vendedores',
-      'fichas de completar patrones para Amazon KDP',
-      'ejercicios de reconocimiento de secuencias licencia comercial',
-      'crear fichas de lógica de patrones para vender',
+      'completar la secuencia ficha',
+      'lógica visual ejercicio',
+      'series numéricas fichas',
+      'razonamiento lógico fichas',
     ],
     lsiKeywords: [
-      'fichas reconocimiento patrones vendedores Etsy',
-      'ejercicios secuencias lógicas imprimibles KDP',
-      'negocio fichas lógica patrones mercado hispano',
+      'razonamiento',
+      'completar',
+      'secuencia',
+      'visual',
+      'lógica',
     ],
-    titleTag: 'Reconocimiento de patrones para Etsy y KDP | LCS',
-    metaDescription: 'Cree fichas de reconocimiento de patrones para vender en Etsy y KDP. Imágenes temáticas, dificultad ajustable. Licencia comercial. 49 $ pago unico.',
+    titleTag: 'Ejercicios de secuencias lógicas para imprimir | Generador',
+    metaDescription: 'Cree ejercicios de secuencias lógicas con imágenes temáticas. Soluciones automáticas, PDF 300 DPI. Prueba gratis.',
   },
 
   hero: {
-    title: 'Genere fichas de reconocimiento de patrones para Etsy, KDP y Hotmart',
-    tagline: 'Cree fichas de completar patrones con imágenes — formato avanzado de lógica visual.',
+    title: 'Ejercicios de secuencias lógicas para imprimir — Generador con imágenes',
+    tagline: 'Cree ejercicios de secuencias lógicas con imágenes temáticas — soluciones automáticas, PDF 300 DPI.',
     description:
       'Genere fichas de reconocimiento de patrones para vender en Etsy, Amazon KDP o Hotmart. Los niños analizan secuencias de imágenes y seleccionan la opción correcta para completar el patrón — un formato que desarrolla habilidades de razonamiento lógico esenciales. Con más de 3.000 imágenes en 104 temas y dificultad ajustable, cree fichas para diferentes niveles. Las fichas de reconocimiento de patrones tienen alta demanda en Etsy para preescolar, infantil y educación especial. Exporte PDFs a 300 DPI con solucionario automático y véndalos con la licencia comercial incluida. Formato puramente visual — funciona en cualquier idioma. Pruebe gratis con marca de agua — sin registro.',
   },

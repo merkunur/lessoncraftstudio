@@ -2,23 +2,24 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Imprimibles Acción de Gracias | LCS',
-    metaDescription: 'Ideas de imprimibles de Día de Acción de Gracias para Etsy y KDP. Mercado hispano en EE.UU. busque materiales en español — nicho con poca competencia.',
-    primaryKeyword: 'imprimibles de Día de Acción de Gracias vender',
+    titleTag: 'Imprimibles Acción de Gracias Etsy | Nicho',
+    metaDescription: 'Ideas de imprimibles de Acción de Gracias para Etsy y KDP. Nicho estacional popular en noviembre.',
+    primaryKeyword: 'imprimibles de Acción de Gracias para Etsy',
     secondaryKeywords: [
-      'fichas Thanksgiving para Etsy hispano',
-      'negocio imprimibles Acción de Gracias KDP',
-      'actividades Thanksgiving comerciales noviembre',
-      'vender fichas pavo otoño en línea',
+      'fichas Acción de Gracias Etsy KDP',
+      'actividades noviembre imprimibles',
+      'negocio imprimibles otoño',
+      'fichas de otoño para vender',
     ],
     lsiKeywords: [
-      'pico ventas noviembre imprimibles Thanksgiving',
-      'mercado hispano Estados Unidos Acción Gracias',
-      'productos digitales otoño cosecha gratitud Hotmart',
+      'Acción de Gracias',
+      'noviembre',
+      'otoño',
+      'cosecha',
     ],
   },
   hero: {
-    title: 'Ideas de imprimibles de Acción de Gracias para vender en Etsy',
+    title: 'Ideas de imprimibles de Acción de Gracias para Etsy y KDP',
     description: 'El Día de Acción de Gracias representa una oportunidad única en el mercado de imprimibles en español: millones de familias hispanas en Estados Unidos celebran Thanksgiving pero encuentran muy pocos materiales educativos en su idioma. Los padres hispanos buscan activamente fichas, actividades y decoraciones de Acción de Gracias en español para sus hijos, pero la oferta es escasa. Pavos, hojas de otoño, cosechas y temas de gratitud dominan las búsquedas en noviembre. La ventana de ventas es corta — de octubre a noviembre — pero la demanda es intensa y la conversión alta porque los compradores tienen pocas opciones en español. Para los vendedores de imprimibles, esto cree un nicho de alta rentabilidad con competencia mínima. Esta guía le muestra ideas de productos, precios y estrategias para capturar este mercado en Etsy, KDP y Hotmart.',
   },
   marketOverview: `El nicho de imprimibles del Día de Acción de Gracias ocupa una posición privilegiada en el calendario de ventas de otoño, generando una demanda concentrada durante octubre y noviembre cuando los vendedores, padres y emprendedores buscan activamente productos imprimibles con temática de cosecha. Los vendedores comienzan a planificar las actividades de noviembre y las celebraciones del Día de Acción de Gracias a principios de octubre, buscando fichas temáticas que combinen la calidez festiva con resultados educativos genuinos en matemáticas, lectoescritura y pensamiento crítico. Los padres buscan actividades apropiadas para la edad del Día de Acción de Gracias que sirvan para múltiples propósitos: mantener a los niños entretenidos durante la preparación de la festividad, proporcionar entretenimiento educativo durante los viajes familiares, y crear momentos de aprendizaje estructurado durante el largo fin de semana de Acción de Gracias cuando las actividades sin pantallas son especialmente valoradas.

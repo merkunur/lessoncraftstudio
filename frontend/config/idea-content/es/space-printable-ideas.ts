@@ -2,19 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Imprimibles espacio para Etsy | LCS',
-    metaDescription: 'Ideas de imprimibles del espacio para vender en Etsy y KDP. Planetas, cohetes y astronautas — nicho con demanda constante y fascinación infantil universal.',
+    titleTag: 'Imprimibles del espacio para Etsy | Nicho',
+    metaDescription: 'Ideas de imprimibles del espacio para Etsy y KDP. Planetas, cohetes y astronautas con demanda constante.',
     primaryKeyword: 'imprimibles del espacio para vender en Etsy',
     secondaryKeywords: [
-      'fichas del espacio para negocio Etsy KDP',
-      'negocio imprimibles astronomía planetas',
-      'actividades espaciales comerciales en línea',
-      'vender fichas cohetes astronautas Hotmart',
+      'fichas del espacio Etsy KDP',
+      'actividades espaciales imprimibles',
+      'negocio imprimibles espacio',
+      'fichas de planetas para vender',
     ],
     lsiKeywords: [
-      'nicho imprimibles espacio demanda todo el año',
-      'fichas educativas planetas sistema solar',
-      'productos digitales NASA cohetes vendedores',
+      'espacio',
+      'planetas',
+      'cohetes',
+      'astronautas',
     ],
   },
   hero: {

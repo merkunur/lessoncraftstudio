@@ -2,25 +2,28 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'generador de fichas de matemáticas para vendedores de Etsy y KDP',
+    primaryKeyword: 'generador de fichas de matemáticas',
     secondaryKeywords: [
-      'crear fichas de cálculo para vender en Etsy',
-      'generador de operaciones matemáticas para Amazon KDP',
-      'fichas numéricas imprimibles licencia comercial',
-      'ejercicios de matemáticas para negocio de imprimibles',
+      'crear fichas de matemáticas',
+      'ejercicios de matemáticas para imprimir',
+      'fichas de cálculo generador',
+      'fichas de matemáticas personalizadas',
     ],
     lsiKeywords: [
-      'fichas matemáticas puras sin imágenes vendedores',
-      'operaciones básicas suma resta multiplicación',
-      'negocio imprimibles matemáticas mercado hispano',
+      'operaciones',
+      'cálculo',
+      'aritmética',
+      'primaria',
+      'soluciones',
+      'PDF',
     ],
-    titleTag: 'Fichas de matemáticas para vender en Etsy | LCS',
-    metaDescription: 'Genere fichas de cálculo puro para vender en Etsy, KDP y Hotmart. Suma, resta, multiplicación, división. Licencia comercial. Pruebe gratis. 49 $ pago unico.',
+    titleTag: 'Generador de fichas de matemáticas | Crear ejercicios para imprimir',
+    metaDescription: 'Cree fichas de matemáticas personalizadas con soluciones automáticas. PDF 300 DPI, 11 idiomas. Prueba gratis — licencia comercial para Etsy y KDP.',
   },
 
   hero: {
-    title: 'Genere fichas de matemáticas para vender en Etsy, KDP y Hotmart',
-    tagline: 'Cree fichas de operaciones numéricas puras — rápidas de generar, fáciles de vender.',
+    title: 'Generador de fichas de matemáticas — Crear ejercicios para imprimir',
+    tagline: 'Cree fichas de matemáticas personalizadas con soluciones automáticas — PDF 300 DPI, 11 idiomas.',
     description:
       'Genere fichas de cálculo numérico para vender en Etsy, Amazon KDP o Hotmart. Este generador crea ejercicios de suma, resta, multiplicación y división puros — sin imágenes, solo números y operaciones. Ideal para vendedores que necesitan producir volúmenes altos de fichas de práctica matemática rápidamente. Configure el rango de dificultad, elija las operaciones, defina el número de problemas por página y exporte PDFs listos para imprimir a 300 DPI con solucionario automático. Las fichas numéricas puras funcionan en cualquier idioma y se venden todo el año — las matemáticas no tienen temporada. La licencia comercial está incluida. El mercado hispano de fichas de matemáticas en Etsy tiene competencia mínima y demanda creciente. Pruebe gratis con marca de agua — sin registro.',
   },

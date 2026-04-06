@@ -2,25 +2,28 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'crear fichas de preposiciones ELE para vender',
+    primaryKeyword: 'cómo crear fichas de ubicación espacial',
     secondaryKeywords: [
-      'cómo crear fichas de preposiciones imprimibles',
-      'guía paso a paso fichas de preposiciones espaciales',
-      'vender fichas de preposiciones en Etsy y KDP',
-      'fichas de preposiciones ELE licencia comercial Hotmart',
+      'tutorial preposiciones de lugar paso a paso',
+      'crear fichas de nociones espaciales',
+      'guía fichas de preposiciones',
+      'fichas ubicación espacial para Etsy',
     ],
     lsiKeywords: [
-      'generador de fichas de preposiciones con imágenes',
-      'fichas de preposiciones espaciales para negocio imprimible',
-      'exportar PDF fichas de preposiciones profesionales',
+      'preposiciones',
+      'ubicación',
+      'arriba',
+      'abajo',
+      'delante',
+      'detrás',
     ],
-    titleTag: 'Fichas de preposiciones ELE | LCS',
-    metaDescription: 'Aprenda a crear fichas de preposiciones ELE para vender en Etsy, KDP y Hotmart. Guía paso a paso con generador profesional y exportación PDF.',
+    titleTag: 'Cómo crear fichas de ubicación espacial | Guía',
+    metaDescription: 'Guía paso a paso para crear fichas de ubicación espacial y preposiciones. Imágenes temáticas, soluciones automáticas.',
   },
 
   hero: {
-    title: 'Cómo crear fichas de preposiciones ELE para vender',
-    tagline: 'Un tutorial paso a paso para crear fichas de lenguaje espacial con dos modos de ejercicio (Completar Espacios en Blanco para recuerdo activo y Opción Múltiple para práctica guiada), Reemplazo de Formas que multiplica las combinaciones de escenas mediante una capa de imagen separada, una cuadrícula de casillas de preposiciones para seleccionar exactamente qué palabras de posición incluir, de 1 a 8 ejercicios configurables por página, palabras de preposición sensibles al idioma que se traducen a equivalentes nativos en 11 idiomas, y claves de respuestas generadas automáticamente que puede vender en todo el mundo en Etsy, Amazon KDP y Hotmart',
+    title: 'Cómo crear fichas de ubicación espacial — Guía paso a paso',
+    tagline: 'Tutorial para crear fichas de preposiciones y nociones espaciales con imágenes.',
     description: 'Las fichas de preposiciones son una actividad de lenguaje espacial visualmente atractiva donde los usuarios identifican la palabra de posición correcta estudiando escenas de imágenes que muestran objetos en relaciones espaciales. A diferencia de los ejercicios abstractos de gramática que dependen de oraciones solo de texto para completar, el formato basado en escenas ofrece a los usuarios un contexto visual concreto — un gato sentado sobre una caja, una pelota debajo de una mesa, un pájaro encima de una cerca — haciendo que el concepto espacial sea inmediatamente comprensible. El Generador de Fichas de Preposiciones ofrece dos modos de ejercicio que sirven a diferentes niveles de aprendizaje: el modo Completar Espacios en Blanco presenta una escena con una línea vacía donde los usuarios escriben la preposición correcta de memoria, probando el recuerdo activo ideal para usuarios mayores y aprendices intermedios de ESL. El modo Opción Múltiple muestra la misma escena con opciones seleccionables, proporcionando práctica guiada para principiantes y usuarios más jóvenes, con una línea de instrucciones personalizable que los vendedores pueden editar para adaptarse a su estilo de enseñanza. La característica destacada es el Reemplazo de Formas — una capa de imagen separada para las formas de escena (caja, mesa, estante, cesta) que puede intercambiar independientemente de las imágenes principales. Combinar 10 imágenes principales con 10 formas diferentes produce 100 escenas de ejercicio únicas, multiplicando la variedad de su producto sin necesitar imágenes fuente adicionales. La cuadrícula de casillas de preposiciones le permite seleccionar exactamente cuáles de las 7 palabras de posición incluir: sobre, debajo, encima, al lado, entre, dentro y fuera. Seleccione todas para práctica completa o enfócate en un subconjunto para lecciones dirigidas que aborden conceptos espaciales específicos. Configure de 1 a 8 ejercicios por página para controlar la densidad de la ficha, con menos ejercicios dando a cada escena más espacio visual para usuarios más jóvenes y más ejercicios creando fichas más densas para práctica cronometrada. La verdadera ventaja competitiva son las palabras de preposición sensibles al idioma: cambiar de idioma no solo traduce la interfaz — cada palabra de posición en la ficha se actualiza a su equivalente nativo. El inglés "on" se convierte en el alemán "auf", el francés "sur", el español "sobre" y el sueco "på". Esto significa que un diseño de ficha produce 11 productos de idiomas genuinamente diferentes con palabras de posición auténticamente localizadas. Los padres usan fichas de preposiciones para la práctica de vocabulario espacial en casa. Los vendedores las usan para la instrucción gramatical y la evaluación del lenguaje espacial. Los programas de ESL las usan como materiales de productoses fundamentales donde las preposiciones son un tema notoriamente difícil para los aprendices de idiomas. Esta guía te acompaña en todo el proceso de creación — desde elegir un modo de ejercicio y configurar la cuadrícula de preposiciones hasta aprovechar el Reemplazo de Formas para variedad visual y exportar archivos listos para producción. Ya sea que estés construyendo su primer producto de alfabetización o expandiendo un catálogo existente de fichas de gramática, tendrás un producto terminado listo para publicar al final de este tutorial.',
   },
 

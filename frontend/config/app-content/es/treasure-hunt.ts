@@ -2,25 +2,27 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'generador de búsqueda del tesoro para Etsy y KDP',
+    primaryKeyword: 'búsqueda del tesoro para imprimir',
     secondaryKeywords: [
-      'crear fichas de búsqueda del tesoro para Etsy',
-      'juego de búsqueda del tesoro imprimible para KDP',
-      'fichas de treasure hunt licencia comercial',
-      'crear actividades de búsqueda del tesoro para vender',
+      'juego de pistas para imprimir',
+      'gymkhana para imprimir',
+      'pistas búsqueda del tesoro',
+      'juego de pistas niños',
     ],
     lsiKeywords: [
-      'búsqueda tesoro imprimible vendedores Etsy',
-      'juegos búsqueda imprimibles fiestas KDP',
-      'negocio juegos imprimibles mercado hispano',
+      'pistas',
+      'aventura',
+      'cumpleaños',
+      'juego de pistas',
+      'enigmas',
     ],
-    titleTag: 'Búsqueda del tesoro para Etsy y KDP | LCS',
-    metaDescription: 'Cree juegos de búsqueda del tesoro imprimibles para vender en Etsy y KDP. Imágenes temáticas, solucionario. Licencia comercial. Pruebe gratis. 49 $ pago unico.',
+    titleTag: 'Búsqueda del tesoro para imprimir | Generador de juego de pistas',
+    metaDescription: 'Cree fichas de búsqueda del tesoro y juegos de pistas con imágenes temáticas. PDF imprimibles. Prueba gratis — venda en Etsy y KDP.',
   },
 
   hero: {
-    title: 'Genere juegos de búsqueda del tesoro para Etsy, KDP y Hotmart',
-    tagline: 'Cree fichas de búsqueda del tesoro con imágenes — ideales para fiestas y educación.',
+    title: 'Búsqueda del tesoro para imprimir — Generador de juego de pistas',
+    tagline: 'Cree fichas de búsqueda del tesoro y juegos de pistas con imágenes temáticas — PDF imprimibles.',
     description:
       'Genere juegos de búsqueda del tesoro imprimibles para vender en Etsy, Amazon KDP o Hotmart. Los niños siguen pistas visuales para encontrar tesoros ocultos — un formato emocionante que combine resolución de problemas con aventura. Con más de 3.000 imágenes en 104 temas, cree búsquedas del tesoro para fiestas de cumpleaños, actividades estacionales y educación. Los juegos de búsqueda del tesoro son un producto de alta demanda en Etsy para fiestas infantiles y eventos. Exporte PDFs a 300 DPI con solucionario y véndalos con la licencia comercial incluida. El formato visual funciona en cualquier idioma. Pruebe gratis con marca de agua — sin registro.',
   },

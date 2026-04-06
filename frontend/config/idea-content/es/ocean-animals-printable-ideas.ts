@@ -2,24 +2,25 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Imprimibles animales marinos — Negocio | LCS',
-    metaDescription: 'Ideas rentables de imprimibles de animales marinos para su negocio en Etsy, KDP y Hotmart. Nicho con pico en verano y demanda constante todo el año.',
+    titleTag: 'Imprimibles animales marinos Etsy | Nicho',
+    metaDescription: 'Ideas de imprimibles de animales marinos para Etsy y KDP. Nicho con pico en verano y demanda constante.',
 
-    primaryKeyword: 'imprimibles de animales marinos ideas negocio',
+    primaryKeyword: 'imprimibles de animales marinos para vender en Etsy',
     secondaryKeywords: [
-      'fichas del océaño para vender en Etsy',
-      'imprimibles vida marina negocio digital',
-      'actividades marinas comerciales KDP',
-      'vender fichas animales del mar en línea',
+      'fichas animales marinos Etsy KDP',
+      'actividades del océano imprimibles',
+      'negocio imprimibles vida marina',
+      'fichas del mar para vender',
     ],
     lsiKeywords: [
-      'nicho imprimibles océaño pico verano',
-      'fichas educativas temáticas marinas vendedores',
-      'productos digitales animales acuáticos Hotmart',
+      'océano',
+      'marino',
+      'ballenas',
+      'delfines',
     ],
   },
   hero: {
-    title: 'Ideas de negocio con imprimibles de animales marinos para vender',
+    title: 'Ideas de imprimibles de animales marinos para vender en Etsy y KDP',
     description: 'Los animales marinos capturan la imaginación de los niños y generan ventas constantes para los emprendedores de imprimibles. Ballenas, delfines, tiburones y pulpos son temas que los padres buscan activamente en Etsy y Amazon. El nicho del océaño tiene un pico natural en verano, pero mantiene demanda todo el año gracias a proyectos escolares y la fascinación infantil por la vida marina. En el mercado hispano, la competencia es especialmente baja — hay miles de búsquedas mensuales en español para fichas de animales del mar, pero muy pocos vendedores que las ofrezcan. Esta guía le muestra ideas de productos específicos, estrategias de precios y cómo posicionar su tienda de imprimibles marinos en Etsy, KDP y Hotmart para capturar este nicho en crecimiento.',
   },
   marketOverview: `El nicho de imprimibles de animales marinos se beneficia de una combinación única de relevancia educativa, atractivo visual y fascinación emocional que pocos otros temas pueden igualar. Los niños se sienten naturalmente atraídos por las criaturas marinas debido a sus formas exóticas, colores vibrantes y el misterio de los entornos submarinos. Este interés intrínseco significa que padres y vendedores no necesitan convencer a usuarios reacios para que interactúen con materiales con temática oceánica, lo que se traduce directamente en reseñas positivas y compre repetidas para los vendedores que ofrecen productos de calidad.

@@ -2,25 +2,27 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'crear rompecabezas de mates para vender',
+    primaryKeyword: 'cómo crear puzzles matemáticos para imprimir',
     secondaryKeywords: [
-      'cómo crear rompecabezas matemáticos imprimibles',
-      'guía paso a paso puzzles de mates',
-      'vender rompecabezas de mates en Etsy y KDP',
-      'puzzles matemáticos con licencia comercial Hotmart',
+      'tutorial puzzles de matemáticas paso a paso',
+      'crear acertijos matemáticos para vender',
+      'guía puzzles de sumas con imágenes',
+      'puzzles matemáticos para Etsy y KDP',
     ],
     lsiKeywords: [
-      'generador de rompecabezas matemáticos con imágenes',
-      'puzzles de mates para negocio imprimible',
-      'exportar PDF rompecabezas de mates profesionales',
+      'puzzle',
+      'acertijo',
+      'sumas',
+      'imágenes',
+      'lógica',
     ],
-    titleTag: 'Rompecabezas de mates para vender | LCS',
-    metaDescription: 'Aprenda a crear rompecabezas de mates para vender en Etsy, KDP y Hotmart. Guía paso a paso con generador profesional y exportación PDF.',
+    titleTag: 'Cómo crear puzzles matemáticos | Guía',
+    metaDescription: 'Guía paso a paso para crear puzzles matemáticos con imágenes. Acertijos de sumas y operaciones, soluciones automáticas.',
   },
 
   hero: {
-    title: 'Cómo crear rompecabezas de mates para vender',
-    tagline: 'Un tutorial paso a paso para crear puzzles matemáticos de reconstrucción de imágenes donde los niños resuelven ecuaciones para armar dibujos — listos para vender en Etsy, Amazon KDP y Hotmart',
+    title: 'Cómo crear puzzles matemáticos para imprimir — Guía',
+    tagline: 'Tutorial para crear puzzles matemáticos con imágenes — acertijos de sumas y operaciones.',
     description: 'Descubra cómo crear rompecabezas matemáticos atractivos y listos para vender en los principales marketplaces. Esta guía paso a paso le enseña a configurar operaciones, elegir temas visuales y generar puzzles con soluciones automáticas. Aprenda a crear variaciones por dificultad y tema para construir un catálogo completo de productos de matemáticas recreativas. Optimice sus anuncios en Etsy, Amazon KDP y Hotmart para atraer compradores. Todas las funciones están disponibles en la prueba gratis con marca de agua para evaluar la calidad.',
   },
 

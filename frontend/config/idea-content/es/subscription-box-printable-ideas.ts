@@ -2,23 +2,24 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Caja de suscripción imprimibles | LCS',
-    metaDescription: 'Ideas para crear cajas de suscripción de imprimibles educativos. Modelo de ingresos recurrentes con fichas mensuales para Etsy, Hotmart y venta directa.',
-    primaryKeyword: 'caja de suscripción de imprimibles ideas',
+    titleTag: 'Cajas de suscripción imprimibles | Nicho',
+    metaDescription: 'Ideas de cajas de suscripción de imprimibles para Etsy y KDP. Ingresos recurrentes mensuales.',
+    primaryKeyword: 'cajas de suscripción de imprimibles para vender',
     secondaryKeywords: [
-      'negocio de cajas mensuales de fichas',
-      'suscripción de imprimibles educativos Etsy',
-      'modelo de ingresos recurrentes imprimibles',
-      'cajas de actividades por suscripción',
+      'suscripción imprimibles Etsy',
+      'negocio cajas mensuales fichas',
+      'ingresos recurrentes imprimibles',
+      'membresía de fichas para vender',
     ],
     lsiKeywords: [
-      'membresía de fichas mensuales vendedores',
-      'paquetes recurrentes de imprimibles Hotmart',
-      'sistema de suscripción productos digitales',
+      'suscripción',
+      'recurrente',
+      'mensual',
+      'membresía',
     ],
   },
   hero: {
-    title: 'Caja de Suscripción de Imprimibles: Ideas de Negocio',
+    title: 'Ideas de cajas de suscripción de imprimibles para Etsy y KDP',
     description: 'El modelo de suscripción transforma un negocio de imprimibles de ventas puntuales a ingresos recurrentes predecibles, creando estabilidad financiera y mayor valor de vida del cliente. Cajas mensuales temáticas con fichas de matemáticas, lectoescritura, actividades estacionales y proyectos creativos atraen a padres y educadores que valoran la comodidad de recibir material fresco sin tener que buscarlo. Esta guía cubre modelos de negocio específicos, plataformas de gestión de suscripciones y estrategias de retención para construir un negocio de cajas de imprimibles en Etsy, Hotmart y su propia web. Cada generador ofrece una prueba gratis con marca de agua.',
   },
   marketOverview: `La economía de suscripción está experimentando un crecimiento notable en todas las categorías de productos digitales a medida que los consumidores prefieren cada vez más la conveniencia, curación y valor de las membresías recurrentes sobre las decisiones de compre individuales que requieren navegación repetida, evaluación y procesos de pago. Los padres y vendedores valoran particularmente la conveniencia del contenido imprimible mensual curado que llega automáticamente porque su tiempo es limitado y la carga cognitiva de buscar continuamente en los marketplaces materiales de fichas apropiados para la edad y alineados con el catálogo de productos representa una carga genuina que voluntariamente pagan por eliminar a través de relaciones de suscripción con creadores de contenido de confianza. El cambio hacia modelos de suscripción en productos digitales refleja la tendencia más amplia del consumidor hacia el consumo basado en membresías evidente en servicios de streaming, suscripciones de software y entregas de productos curados en cada categoría de consumo.

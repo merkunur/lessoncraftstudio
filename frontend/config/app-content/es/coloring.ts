@@ -2,25 +2,28 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'generador de dibujos para colorear para vender en Etsy y KDP',
+    primaryKeyword: 'crear dibujos para colorear',
     secondaryKeywords: [
-      'crear páginas para colorear para tienda Etsy',
-      'generador de láminas para colorear para Amazon KDP',
-      'dibujos para colorear imprimibles licencia comercial',
-      'crear libros para colorear para vender online',
+      'generador de dibujos para colorear',
+      'colorear personalizado para imprimir',
+      'páginas para colorear crear',
+      'láminas para colorear generador',
     ],
     lsiKeywords: [
-      'dibujos colorear vendedores Etsy KDP Hotmart',
-      'libros colorear imprimibles Amazon mercado hispano',
-      'negocio páginas colorear ingreso pasivo',
+      'dibujo',
+      'colorear',
+      'contornos',
+      'blanco y negro',
+      'temas',
+      'niños',
     ],
-    titleTag: 'Dibujos para colorear — Vender en Etsy y KDP | LCS',
-    metaDescription: 'Cree dibujos para colorear para vender en Etsy y KDP. 104 temas, alta resolución, solucionario. Licencia comercial incluida. Pruebe gratis. 49 $ pago unico.',
+    titleTag: 'Crear dibujos para colorear | Generador de colorear para imprimir',
+    metaDescription: 'Cree dibujos para colorear a partir de 3.000+ imágenes temáticas. Contornos alta resolución, PDF imprimibles. Prueba gratis — venda en Etsy y Amazon KDP.',
   },
 
   hero: {
-    title: 'Genere dibujos para colorear para vender en Etsy, KDP y Hotmart',
-    tagline: 'Cree páginas para colorear con imágenes temáticas — el producto más vendido en Etsy.',
+    title: 'Crear dibujos para colorear — Generador de páginas para colorear e imprimir',
+    tagline: 'Cree dibujos para colorear a partir de 3.000+ imágenes temáticas — contornos alta resolución, PDF imprimibles.',
     description:
       'Genere dibujos para colorear para vender en Etsy, Amazon KDP o Hotmart. Las páginas para colorear son el producto imprimible más vendido en Etsy y uno de los géneros más populares en Amazon KDP. Este generador crea dibujos para colorear con imágenes de más de 104 categorías temáticas — animales, festividades, vehículos, naturaleza y más. Cada dibujo se exporta en alta resolución lista para imprimir. Los libros para colorear en KDP son una fuente probada de ingreso pasivo, y en Etsy las descargas digitales de dibujos para colorear tienen demanda constante. Licencia comercial incluida. El mercado hispano de dibujos para colorear está masivamente desatendido. Pruebe gratis con marca de agua — sin registro.',
   },

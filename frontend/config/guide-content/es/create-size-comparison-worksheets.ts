@@ -2,25 +2,28 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'crear fichas de comparación para vender',
+    primaryKeyword: 'cómo crear fichas grande y pequeño',
     secondaryKeywords: [
-      'cómo crear fichas de comparación de tamaños',
-      'guía paso a paso fichas grande y pequeño',
-      'vender fichas de comparación en Etsy y KDP',
-      'fichas de tamaños licencia comercial Hotmart',
+      'tutorial comparar tamaños paso a paso',
+      'crear fichas de tamaños para vender',
+      'guía fichas grande y pequeño',
+      'fichas de tamaños para Etsy y KDP',
     ],
     lsiKeywords: [
-      'generador de fichas de comparación con imágenes',
-      'fichas de tamaños para negocio de imprimibles',
-      'exportar PDF fichas de comparación profesionales',
+      'grande',
+      'pequeño',
+      'mediano',
+      'comparar',
+      'ordenar',
+      'preescolar',
     ],
-    titleTag: 'Fichas de comparación para vender | LCS',
-    metaDescription: 'Aprenda a crear fichas de comparación de tamaños para vender en Etsy, KDP y Hotmart. Guía paso a paso con generador profesional y exportación PDF.',
+    titleTag: 'Cómo crear fichas grande y pequeño | Guía',
+    metaDescription: 'Guía paso a paso para crear fichas de comparación de tamaños. Grande vs. pequeño, ordenar, soluciones automáticas.',
   },
 
   hero: {
-    title: 'Cómo crear fichas de comparación de tamaños para vender',
-    tagline: 'Un tutorial paso a paso para crear fichas de discriminación de tamaños con cinco tipos de preguntas y resultado sin texto que puede vender en todo el mundo en Etsy, Amazon KDP y Hotmart',
+    title: 'Cómo crear fichas grande y pequeño — Guía paso a paso',
+    tagline: 'Tutorial para crear fichas de comparación de tamaños con imágenes temáticas.',
     description: 'Descubra cómo crear fichas de comparación de tamaños listas para vender en marketplaces de imprimibles educativos. Esta guía paso a paso le muestra cómo configurar los pares de imágenes, seleccionar temas visuales y generar fichas profesionales con claves de respuestas. Aprenda a crear variaciones por tema y dificultad para construir un catálogo completo de productos. Optimice sus anuncios en Etsy, Amazon KDP y Hotmart con palabras clave efectivas. Pruebe todas las funciones gratis con marca de agua antes de adquirir su licencia comercial.',
   },
 

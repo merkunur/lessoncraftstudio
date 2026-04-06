@@ -4,23 +4,26 @@ const content: GuideContent = {
   seo: {
     primaryKeyword: 'crear paquetes de fichas para Etsy',
     secondaryKeywords: [
-      'cómo crear paquetes de fichas educativas Etsy',
-      'estrategia paquetes imprimibles Etsy mayor valor',
-      'empaquetar fichas para vender más en Etsy',
-      'paquetes temáticos fichas Etsy precios y formato',
+      'cómo crear bundles Etsy fichas',
+      'paquetes de fichas Etsy guía',
+      'vender paquetes imprimibles Etsy',
+      'bundles fichas educativas Etsy',
     ],
     lsiKeywords: [
-      'paquetes temáticos fichas matemáticas lectoescritura puzles colección',
-      'valor percibido mega pack múltiples formatos claves respuestas',
-      'venta cruzada productos relacionados catálogo agrupación Etsy',
+      'paquetes',
+      'bundles',
+      'Etsy',
+      'fichas',
+      'descuento',
+      'valor',
     ],
-    titleTag: 'Crear paquetes de fichas para Etsy | LCS',
-    metaDescription: 'Aprenda a crear paquetes de fichas para Etsy que aumenten sus ventas. Estrategias de agrupación, precios y formato para máximo valor percibido.',
+    titleTag: 'Crear paquetes de fichas para Etsy | Guía',
+    metaDescription: 'Guía para crear y vender paquetes de fichas en Etsy. Estrategia de bundling, precios y optimización de listados.',
   },
 
   hero: {
-    title: 'Cómo crear paquetes de fichas rentables para Etsy',
-    tagline: 'Una guía completa para crear, estructurar, publicar y optimizar paquetes de fichas para Etsy — incluyendo selección de tipo de paquete por asignatura, grado, tema, temporada y formato, selección de productos para máximo valor percibido, organización de archivos dentro de los límites de entrega de Etsy, imágenes de vista previa específicas para paquetes y diseño de miniaturas, títulos y etiquetas de anuncios optimizados para términos de búsqueda de paquetes, estrategias de precios con valor apilado y descuentos de anclaje, y seguimiento del rendimiento para identificar sus combinaciones de paquetes con mejor resultado',
+    title: 'Crear paquetes de fichas para Etsy — Guía completa',
+    tagline: 'Estrategia de bundling, precios y optimización de listados para paquetes en Etsy.',
     description: 'Los paquetes de fichas generan los mayores ingresos por transacción en Etsy porque ofrecen un valor percibido excepcional a los compradores. Un paquete de 20-50 fichas temáticas con claves de respuestas a un precio competitivo convierte significativamente mejor que fichas individuales. Esta guía le muestra cómo planificar, crear y empaquetar sus fichas en colecciones temáticas que maximicen las ventas. Aprenda a combinar fichas de diferentes generadores en paquetes coherentes, fijar precios que equilibren competitividad con rentabilidad, crear fotos de anuncio que comuniquen el valor del paquete y estructurar su catálogo para fomentar la venta cruzada entre productos relacionados.',
   },
 

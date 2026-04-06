@@ -2,25 +2,27 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'cómo poner precio a imprimibles en Etsy',
+    primaryKeyword: 'precios de imprimibles en Etsy',
     secondaryKeywords: [
-      'estrategia de precios para imprimibles digitales en Etsy',
-      'cuánto cobrar por fichas imprimibles en Etsy',
-      'precios paquetes y fichas individuales Etsy',
-      'márgenes beneficio vendedor imprimibles Etsy comisiones',
+      'cuánto cobrar imprimibles Etsy',
+      'fijar precios fichas Etsy',
+      'estrategia precios Etsy imprimibles',
+      'precios competitivos Etsy fichas',
     ],
     lsiKeywords: [
-      'tarifa anuncio transacción procesamiento pago Etsy coste real',
-      'precios competitivos fichas individuales paquetes mega packs',
-      'psicología precios valor percibido posicionamiento premium Etsy',
+      'Etsy',
+      'precios',
+      'competencia',
+      'margen',
+      'conversión',
     ],
-    titleTag: 'Poner precio a imprimibles en Etsy | LCS',
-    metaDescription: 'Aprenda a fijar precios para imprimibles en Etsy. Estrategias para fichas individuales, paquetes y mega packs que maximicen sus márgenes de beneficio.',
+    titleTag: 'Precios de imprimibles en Etsy | Guía',
+    metaDescription: 'Guía para fijar precios de imprimibles en Etsy. Análisis de competencia, márgenes y estrategias para maximizar ventas.',
   },
 
   hero: {
-    title: 'Cómo fijar precios para imprimibles en Etsy correctamente',
-    tagline: 'Una guía completa de estrategia de precios para vendedores de fichas imprimibles en Etsy — incluyendo investigación de competidores, cálculo de comisiones de Etsy e ingresos netos, precios base de referencia por tipo de producto y número de páginas, estructuras de precios en tres niveles que aumentan el valor medio de pedido, precios de paquetes multicategoría y por nivel de grado, uso estratégico de ofertas y cupones de Etsy, ajustes de precios internacionales para compradores globales, y metodología de pruebas de precios usando datos de conversión de Etsy Stats',
+    title: 'Precios de imprimibles en Etsy — Guía completa',
+    tagline: 'Análisis de competencia, márgenes y estrategias para fijar precios en Etsy.',
     description: 'Fijar el precio correcto para sus imprimibles en Etsy es la diferencia entre una tienda rentable y una que apenas cubre las comisiones de la plataforma. Etsy cobra tarifas de publicación, transacción y procesamiento de pago que pueden consumir hasta el 20-30% de sus ingresos si no planifica sus precios estratégicamente. Esta guía le muestra cómo calcular sus márgenes reales después de todas las comisiones de Etsy, establecer precios para fichas individuales, paquetes temáticos y mega packs, y utilizar la psicología de precios para maximizar el valor percibido. Aprenda a posicionar sus productos como premium sin ahuyentar compradores, y descubra los rangos de precios que mejor funcionan en cada categoría de imprimibles educativos.',
   },
 

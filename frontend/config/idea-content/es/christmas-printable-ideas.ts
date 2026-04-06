@@ -2,20 +2,21 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Imprimibles de Navidad para Etsy | LCS',
-    metaDescription: 'Ideas de imprimibles de Navidad para vender en Etsy, KDP y Hotmart. Mayor pico de ventas del año — planifique desde octubre para maximizar.',
+    titleTag: 'Imprimibles de Navidad para Etsy | Nicho',
+    metaDescription: 'Ideas de imprimibles de Navidad para Etsy y KDP. El nicho estacional más rentable del año.',
 
     primaryKeyword: 'imprimibles de Navidad para vender en Etsy',
     secondaryKeywords: [
-      'fichas navideñas negocio Etsy KDP',
-      'vender imprimibles de Navidad en línea',
-      'actividades navideñas comerciales Hotmart',
-      'negocio imprimibles temporada navideña',
+      'fichas de Navidad Etsy KDP',
+      'actividades navideñas imprimibles',
+      'negocio imprimibles Navidad',
+      'fichas navideñas para vender',
     ],
     lsiKeywords: [
-      'pico ventas diciembre imprimibles navideños',
-      'fichas educativas Navidad vendedores hispanos',
-      'productos digitales Papá Noel Reyes Magos',
+      'Navidad',
+      'diciembre',
+      'festividad',
+      'estacional',
     ],
   },
   hero: {

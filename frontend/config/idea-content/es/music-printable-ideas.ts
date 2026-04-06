@@ -2,23 +2,24 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Imprimibles música para vender | LCS',
-    metaDescription: 'Ideas de imprimibles de música para vender en Etsy y KDP. Instrumentos, notas y ritmos — nicho educativo con demanda constante y poca competencia.',
-    primaryKeyword: 'imprimibles de música para vender',
+    titleTag: 'Imprimibles de música para Etsy | Nicho',
+    metaDescription: 'Ideas de imprimibles de música para Etsy y KDP. Instrumentos, notas y ritmos con poca competencia.',
+    primaryKeyword: 'imprimibles de música para vender en Etsy',
     secondaryKeywords: [
-      'fichas de música para negocio Etsy',
-      'negocio imprimibles instrumentos musicales',
-      'actividades musicales comerciales KDP',
-      'vender fichas notas musicales Hotmart',
+      'fichas de música Etsy KDP',
+      'actividades musicales imprimibles',
+      'negocio imprimibles música',
+      'fichas de instrumentos para vender',
     ],
     lsiKeywords: [
-      'nicho imprimibles música demanda educativa',
-      'fichas educativas instrumentos vendedores',
-      'productos digitales ritmo notas musicales Hotmart',
+      'música',
+      'instrumentos',
+      'notas',
+      'ritmos',
     ],
   },
   hero: {
-    title: 'Ideas de imprimibles de música para vender en Etsy y Hotmart',
+    title: 'Ideas de imprimibles de música para vender en Etsy y KDP',
     description: 'La música es un nicho subestimado en el mercado de imprimibles educativos que ofrece oportunidades excepcionales para los emprendedores. Instrumentos musicales, notas, ritmos y compositores generan búsquedas constantes de padres y educadores que integran la música en el aprendizaje de otras materias. Las fichas de conteo con instrumentos, actividades de emparejamiento de sonidos, sopas de letras con vocabulario musical y páginas para colorear de instrumentos del mundo son productos con demanda real y competencia mínima. En el mercado hispano, la riqueza musical de cada país — desde la marimba guatemalteca hasta el charango andino — cree oportunidades para productos culturalmente auténticos que ningún otro vendedor ofrece. El nicho de música no depende de temporadas, aunque hay picos durante el Día de la Música y el inicio del curso escolar. Esta guía le muestra ideas de productos, precios y estrategias para Etsy, KDP y Hotmart.',
   },
   marketOverview: `El nicho de imprimibles de música ocupa una posición excepcionalmente poderosa para los vendedores de imprimibles porque prácticamente todos los niños tienen una conexión directa y personal con la música a través de cantar, aplaudir, bailar, tocar instrumentos en línea, ver actuaciones musicales o escuchar canciones favoritas durante los viajes en coche y las rutinas antes de dormir. A diferencia de los temas estacionales que concentran la demanda en ventanas estrechas del calendario, el nicho de música se beneficia de una relevancia genuina durante todo el año: la educación musical se desarrolla continuamente a lo largo del año académico, los niños interactúan con la música diariamente independientemente de la estación, y las celebraciones culturales que incluyen música ocurren en todos los meses en comunidades diversas de todo el mundo. Este patrón de demanda consistente hace que los imprimibles de música sean una fuente de ingresos confiable sin los ciclos de abundancia y escasez que desafían a los vendedores en nichos más estacionales.

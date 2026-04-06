@@ -2,25 +2,26 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'generador de busque y cuenta gratis',
+    primaryKeyword: 'busca y cuenta gratis para imprimir',
     secondaryKeywords: [
-      'busque y cuenta gratis sin registro',
-      'generador de busque y cuenta gratis en línea',
-      'fichas de busque y cuenta gratis para imprimir',
-      'hojas de buscar y contar gratis sin tarjeta',
+      'contar objetos gratis',
+      '¿cuántos hay? ficha gratis',
+      'ejercicios de conteo gratis',
+      'busca y cuenta preescolar gratis',
     ],
     lsiKeywords: [
-      'actividades de conteo visual para preescolar',
-      'fichas de buscar y contar objetos imprimibles',
-      'juegos de observación y conteo para niños',
+      'contar',
+      'cuántos',
+      'discriminación visual',
+      'números',
     ],
-    titleTag: 'Busque y cuenta gratis en línea | LCS',
-    metaDescription: 'Cree fichas de busque y cuenta gratis con imágenes temáticas. Sin registro, sin tarjeta. Descargue con marca de agua. Licencia comercial.',
+    titleTag: 'Busca y cuenta gratis para imprimir | Generador',
+    metaDescription: 'Cree fichas de "busca y cuenta" gratis donde los niños encuentran y cuentan imágenes. Sin registro. PDF con marca de agua.',
   },
 
   hero: {
-    title: 'Cree fichas de busque y cuenta gratis en línea',
-    tagline: 'Fichas de buscar y contar listas en segundos — gratis y sin registro.',
+    title: 'Busca y cuenta gratis para imprimir — Generador online',
+    tagline: 'Fichas de "busca y cuenta" con imágenes gratis — sin registro.',
     description: 'Cree fichas de busque y cuenta gratis donde los niños buscan objetos entre imágenes temáticas y cuentan cuantos hay de cada tipo. Este generador combine atención visual con habilidades de conteo usando ilustraciones de mas de 100 categorias. Seleccione el nivel de dificultad, la cantidad de objetos y el tema visual. Cada ficha incluye solucionario automático y se exporta en PDF listo para imprimir. No necesita registro ni tarjeta de crédito — todas las funciones disponibles al instante. Las descargas incluyen marca de agua. Ideal para padres y educadores de preescolar y primaria. ¿Quiere vender fichas de busque y cuenta? Pase a la licencia comercial para archivos sin marca de agua a 300 DPI.',
   },
 

@@ -2,25 +2,28 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'creador de cartones de bingo para vender en Etsy',
+    primaryKeyword: 'crear tarjetas de bingo',
     secondaryKeywords: [
-      'generador de cartones de bingo con imágenes para Etsy',
-      'bingo imprimible para fiestas para Amazon KDP',
-      'cartones de bingo temáticos licencia comercial',
-      'crear juegos de bingo para vender online',
+      'generador de bingo',
+      'bingo con imágenes para imprimir',
+      'lotería para imprimir',
+      'crear bingo personalizado',
     ],
     lsiKeywords: [
-      'bingo temático vendedores Etsy fiestas educación',
-      'cartones bingo imprimibles KDP Hotmart',
-      'negocio juegos imprimibles mercado hispano',
+      'bingo',
+      'lotería',
+      'juego de mesa',
+      'tarjetas',
+      'clase',
+      'fiesta',
     ],
-    titleTag: 'Cartones de bingo para vender en Etsy y KDP | LCS',
-    metaDescription: 'Cree cartones de bingo con imágenes para vender en Etsy y KDP. 104 temas, múltiples cartones únicos. Licencia comercial. Pruebe gratis. 49 $ pago unico.',
+    titleTag: 'Crear tarjetas de bingo | Generador bingo con imágenes',
+    metaDescription: 'Cree tarjetas de bingo/lotería con 3.000+ imágenes temáticas. Tarjetas únicas por juego, PDF imprimibles. Prueba gratis — licencia comercial.',
   },
 
   hero: {
-    title: 'Genere cartones de bingo para vender en Etsy, KDP y Hotmart',
-    tagline: 'Cree sets de bingo temático con imágenes — perfecto para fiestas y educación.',
+    title: 'Crear tarjetas de bingo — Generador de bingo/lotería con imágenes',
+    tagline: 'Cree tarjetas de bingo/lotería con 3.000+ imágenes temáticas — tarjetas únicas por juego, PDF imprimibles.',
     description:
       'Genere cartones de bingo con imágenes para vender en Etsy, Amazon KDP o Hotmart. El bingo es un juego universal que se vende para fiestas infantiles, actividades escolares, eventos comunitarios y entretenimiento familiar. Este generador crea múltiples cartones únicos con imágenes temáticas de más de 104 categorías — cada cartón es diferente, como debe ser. Los sets de bingo temáticos son un producto estrella en Etsy para fiestas de cumpleaños y eventos estacionales. Exporte PDFs a 300 DPI y véndalos con la licencia comercial incluida. El formato visual funciona en cualquier idioma. El mercado hispano de juegos imprimibles para fiestas tiene competencia mínima. Pruebe gratis con marca de agua — sin registro.',
   },

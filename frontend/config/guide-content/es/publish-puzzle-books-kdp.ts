@@ -4,23 +4,26 @@ const content: GuideContent = {
   seo: {
     primaryKeyword: 'publicar libros de pasatiempos en Amazon KDP',
     secondaryKeywords: [
-      'cómo publicar libros de puzles en Amazon KDP',
-      'crear libros de pasatiempos para KDP formato y portada',
-      'libros de puzles educativos Amazon KDP guía completa',
-      'ganar dinero con libros de pasatiempos en KDP',
+      'cómo publicar libro de puzzles KDP',
+      'libros de pasatiempos KDP guía',
+      'cuadernos de juegos Amazon KDP',
+      'libros de rompecabezas KDP',
     ],
     lsiKeywords: [
-      'sopas letras crucigramas sudoku criptogramas pasatiempos KDP',
-      'formato interior libro puzles KDP márgenes recorte sangrado',
-      'portada profesional libro pasatiempos categorías Amazon ranking',
+      'KDP',
+      'pasatiempos',
+      'puzzles',
+      'publicar',
+      'formato',
+      'regalías',
     ],
-    titleTag: 'Publicar pasatiempos en Amazon KDP | LCS',
-    metaDescription: 'Publique libros de pasatiempos en Amazon KDP con formato profesional. Sopas de letras, sudoku, crucigramas y más. Guía paso a paso completa.',
+    titleTag: 'Publicar libros de pasatiempos en KDP | Guía',
+    metaDescription: 'Guía para publicar libros de pasatiempos en Amazon KDP. Formato, contenido, portada y estrategia de lanzamiento.',
   },
 
   hero: {
-    title: 'Cómo publicar libros de pasatiempos en Amazon KDP',
-    tagline: 'Una guía completa para crear y publicar libros de puzles en Amazon KDP — cubriendo sopas de letras, crucigramas, sudoku, puzles matemáticos y tipos de puzles visuales, cómo estructurar libros de puzles de un solo tipo y de variedad, formateo específico de puzles para impresión con espaciado adecuado de cuadrícula y secciones de soluciones, el doble mercado de libros de puzles para adultos y niños, optimización de palabras clave de Amazon para búsquedas de puzles, progresión de dificultad en secciones fácil media y difícil, construcción de series de libros de puzles multivolumen, y estrategias de catálogo que aprovechan la promoción cruzada de Amazon para hacer crecer las ventas en toda su línea de libros de puzles',
+    title: 'Publicar libros de pasatiempos en Amazon KDP — Guía',
+    tagline: 'Formato, contenido, portada y estrategia de lanzamiento para libros de puzzles en KDP.',
     description: 'Los libros de pasatiempos son una de las categorías más rentables en Amazon KDP porque la demanda es constante y los compradores buscan variedad. Sopas de letras, crucigramas, sudoku, criptogramas y puzles matemáticos tienen audiencias fieles que compran múltiples libros al año. Esta guía le muestra cómo formatear el interior de sus libros de pasatiempos según las especificaciones de KDP, diseñar portadas profesionales que destaquen en los resultados de búsqueda de Amazon, seleccionar palabras clave backend efectivas y elegir categorías con alta demanda y competencia manejable. Aprenda a convertir los puzles generados con LessonCraftStudio en libros publicados que generen regalías pasivas.',
   },
 

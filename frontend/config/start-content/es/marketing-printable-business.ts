@@ -2,25 +2,27 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'promocionar negocio de imprimibles en línea',
+    primaryKeyword: 'marketing para negocio de imprimibles',
     secondaryKeywords: [
-      'marketing para vendedores de fichas educativas',
-      'cómo promocionar imprimibles en redes sociales',
-      'estrategia de marketing negocio imprimibles',
-      'atraer compradores a tienda de imprimibles',
+      'promocionar imprimibles Etsy',
+      'marketing digital imprimibles',
+      'atraer compradores fichas educativas',
+      'publicidad imprimibles',
     ],
     lsiKeywords: [
-      'Pinterest marketing imprimibles educativos',
-      'email marketing vendedores de fichas',
-      'SEO para tiendas de imprimibles Etsy',
+      'marketing',
+      'redes sociales',
+      'Pinterest',
+      'email',
+      'tráfico',
     ],
-    titleTag: 'Promocionar negocio de imprimibles | LCS',
-    metaDescription: 'Cómo promocionar un negocio de. Estrategias de Pinterest, email marketing y SEO para atraer compradores a su tienda. Venda en Etsy & KDP con licencia comercial.',
+    titleTag: 'Marketing para negocio de imprimibles | Guía',
+    metaDescription: 'Guía de marketing para su negocio de imprimibles. Pinterest, redes sociales, email y tácticas de tráfico para Etsy y KDP.',
   },
 
   hero: {
-    title: 'Cómo Promocionar un Negocio de Imprimibles en Línea',
-    tagline: 'Estrategias de marketing que funcionan para vendedores de fichas educativas — sin presupuesto de publicidad',
+    title: 'Marketing para su negocio de imprimibles — Guía completa',
+    tagline: 'Pinterest, redes sociales, email y tácticas de tráfico para vendedores de imprimibles.',
     description: 'Crear productos excelentes es solo la mitad del negocio. Sin una estrategia de marketing efectiva, incluso las mejores fichas permanecen invisibles. Esta guía cubre las tácticas de promoción que funcionan específicamente para vendedores de imprimibles educativos: Pinterest como motor de tráfico visual, email marketing para construir audiencia, SEO en marketplaces para visibilidad orgánica, redes sociales para construcción de marca y colaboraciones estratégicas para amplificar el alcance. Aprenderá a implementar cada canal sin necesidad de presupuesto publicitario. Cada generador de fichas ofrece una prueba gratis con marca de agua.',
   },
 

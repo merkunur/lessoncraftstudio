@@ -2,25 +2,28 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'fichas de abecedario para vender en Etsy y KDP',
+    primaryKeyword: 'fichas del abecedario para imprimir',
     secondaryKeywords: [
-      'generador de fichas de abecedario para Etsy',
-      'fichas de tren del abecedario para Amazon KDP',
-      'fichas de letras imprimibles licencia comercial',
-      'crear cuadernillos de abecedario para vender',
+      'ejercicios de abecedario',
+      'fichas de letras para imprimir',
+      'aprender el abecedario fichas',
+      'reconocimiento de letras fichas',
     ],
     lsiKeywords: [
-      'fichas abecedario tren letras vendedores Etsy',
-      'cuadernillos letras preescolar imprimibles KDP',
-      'negocio fichas alfabeto mercado hispano',
+      'ABC',
+      'mayúsculas',
+      'minúsculas',
+      'orden alfabético',
+      'preescolar',
+      'infantil',
     ],
-    titleTag: 'Fichas de abecedario para vender en Etsy | LCS',
-    metaDescription: 'Cree fichas de abecedario con tren de letras para vender en Etsy y KDP. Imágenes temáticas, 11 idiomas. Licencia comercial. Pruebe gratis. 49 $ pago unico.',
+    titleTag: 'Fichas del abecedario para imprimir | Generador de ejercicios ABC',
+    metaDescription: 'Cree fichas del abecedario con imágenes temáticas para reconocimiento de letras. Soluciones automáticas, 11 idiomas. Prueba gratis.',
   },
 
   hero: {
-    title: 'Genere fichas de abecedario para vender en Etsy, KDP y Hotmart',
-    tagline: 'Cree fichas de tren del abecedario con imágenes temáticas — un básico para preescolar.',
+    title: 'Fichas del abecedario para imprimir — Generador de ejercicios ABC',
+    tagline: 'Cree fichas del abecedario con imágenes temáticas para reconocimiento de letras — 11 idiomas.',
     description:
       'Genere fichas de abecedario para vender en Etsy, Amazon KDP o Hotmart. El formato de tren del abecedario presenta cada letra en un vagón con imágenes temáticas correspondientes — una forma divertida y visual de aprender las letras. Con soporte para 11 idiomas y más de 3.000 imágenes en 104 temas, cree fichas de abecedario para el mercado hispano y otros mercados globales. Las fichas de abecedario son un producto perenne con demanda constante para preescolar e infantil. Cuadernillos de abecedario son un nicho probado en Amazon KDP. Exporte PDFs a 300 DPI con alta calidad y véndalos con la licencia comercial incluida. Pruebe gratis con marca de agua — sin registro.',
   },

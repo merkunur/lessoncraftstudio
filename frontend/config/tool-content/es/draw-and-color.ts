@@ -2,25 +2,26 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'crear fichas de dibujo y colorear gratis',
+    primaryKeyword: 'fichas de dibujo gratis para imprimir',
     secondaryKeywords: [
-      'fichas de dibujo y colorear gratis sin registro',
-      'generador de fichas de dibujo guiado en línea gratis',
-      'crear fichas de dibujo en cuadrícula gratis para imprimir',
-      'fichas de dibujo y colorear gratis PDF con modelo',
+      'actividades de arte gratis',
+      'dibujo guiado gratis',
+      'dibujo y colorear gratis',
+      'fichas artísticas gratis',
     ],
     lsiKeywords: [
-      'actividad de dibujo paso a paso con cuadrícula',
-      'ficha de copiar y colorear modelo imprimible',
-      'dibujo guiado con cuadrícula motricidad fina gratis',
+      'dibujo guiado',
+      'arte',
+      'creatividad',
+      'colorear',
     ],
-    titleTag: 'Fichas de dibujo y colorear gratis | LCS',
-    metaDescription: 'Cree fichas de dibujo y colorear gratis sin registro. Cuadrícula guiada, modelo para copiar, 104 temas. Pase a licencia comercial para vender.',
+    titleTag: 'Fichas de dibujo y colorear gratis | Generador online',
+    metaDescription: 'Cree fichas de dibujo guiado y colorear gratis con imágenes temáticas. Sin registro. PDF con marca de agua.',
   },
 
   hero: {
-    title: 'Cree fichas de dibujo y colorear gratis en línea',
-    tagline: 'Genere fichas de dibujo en cuadrícula doble con porcentaje de pistas ajustable, tres modos de simetría y un resultado completamente visual sin texto que se vende en todo el mundo sin necesidad de traducción',
+    title: 'Fichas de dibujo y colorear gratis para imprimir',
+    tagline: 'Fichas de dibujo guiado y colorear gratis — con imágenes temáticas.',
     description: 'Cree fichas de dibujo en cuadrícula gratis con este generador en línea. Los usuarios copian un modelo ilustrado en una cuadrícula vacía y luego colorean el resultado. Navegue 104 colecciones temáticas con más de 3.100 ilustraciones o suba sus propias imágenes. Configure el tamaño de cuadrícula, nivel de dificultad y exporte fichas listas para imprimir. Exporte en JPEG y PDF a 300 DPI en tamaño Carta, A4 o personalizado. La prueba gratis incluya todas las funciones con marca de agua en las descargas. Sin registro, sin instalación. ¿Quiere vender? Pase a la licencia comercial para eliminar la marca de agua y obtener uso comercial completo.',
   },
 

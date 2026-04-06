@@ -2,25 +2,28 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'negocio de cuadernillos Amazon KDP guía',
+    primaryKeyword: 'publicar libro de actividades en Amazon KDP',
     secondaryKeywords: [
-      'publicar libros de actividades Amazon KDP',
-      'cómo vender cuadernillos en Amazon KDP',
-      'negocio de libros educativos KDP paso a paso',
-      'crear libros de fichas para Amazon',
+      'cómo publicar en KDP guía',
+      'libro de actividades KDP paso a paso',
+      'crear cuaderno de actividades KDP',
+      'formato KDP libros actividades',
     ],
     lsiKeywords: [
-      'formato interior KDP libros de actividades',
-      'portada de cuadernillos Amazon vendedores',
-      'categorías y palabras clave KDP educativos',
+      'KDP',
+      'formato',
+      'ISBN',
+      'portada',
+      'interior',
+      'publicar',
     ],
-    titleTag: 'Negocio cuadernillos Amazon KDP | LCS',
-    metaDescription: 'Guía para publicar cuadernillos de actividades en Amazon KDP. Formato, portada, categorías y estrategia de palabras clave para libros educativos impresos.',
+    titleTag: 'Publicar libro de actividades en Amazon KDP | Guía',
+    metaDescription: 'Guía paso a paso para publicar libros de actividades en Amazon KDP. Formato, portada, interior y estrategia de lanzamiento.',
   },
 
   hero: {
-    title: 'Negocio de Cuadernillos de Actividades en Amazon KDP',
-    tagline: 'Publique libros de actividades impresos bajo demanda sin inventario, almacén ni envíos',
+    title: 'Publicar libro de actividades en Amazon KDP — Guía paso a paso',
+    tagline: 'Formato, portada, interior y estrategia de lanzamiento para libros de actividades en KDP.',
     description: 'Amazon KDP permite publicar libros de actividades y cuadernillos educativos en formato impreso bajo demanda, accediendo a la base de compradores más grande del mundo sin inversión en inventario. Esta guía cubre el proceso completo: desde el formato interior con fichas generadas profesionalmente, el diseño de portada, la selección de categorías y palabras clave, hasta las estrategias de precios y promoción que funcionan para libros educativos en Amazon. Aprenderá a transformar las fichas creadas con los generadores de LessonCraftStudio en cuadernillos de actividades vendibles. Cada generador ofrece una prueba gratis con marca de agua.',
   },
 

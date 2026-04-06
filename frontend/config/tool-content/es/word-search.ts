@@ -2,25 +2,27 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'generador de sopas de letras gratis con imágenes',
+    primaryKeyword: 'generador de sopa de letras gratis',
     secondaryKeywords: [
-      'sopas de letras gratis sin registro',
-      'generador de sopas de letras gratis en línea',
-      'crear sopas de letras gratis para imprimir',
-      'sopas de letras con imágenes gratis sin tarjeta',
+      'crear sopa de letras gratis online',
+      'sopa de letras para imprimir gratis',
+      'sopa de letras personalizada gratis',
+      'sopa de letras con imágenes gratis',
     ],
     lsiKeywords: [
-      'juegos de palabras imprimibles para niños',
-      'sopas de letras temáticas en español',
-      'actividades de vocabulario con búsqueda de palabras',
+      'palabras escondidas',
+      'grilla',
+      'vocabulario',
+      'solución',
+      'PDF',
     ],
-    titleTag: 'Generador de sopas de letras gratis | LCS',
-    metaDescription: 'Genere sopas de letras gratis con imágenes temáticas. Sin registro, sin tarjeta de crédito. Descargue con marca de agua. Licencia comercial disponible.',
+    titleTag: 'Generador de sopa de letras gratis | Online',
+    metaDescription: 'Cree sopas de letras gratis con 3.000+ imágenes temáticas. Sin registro. Grillas personalizadas, soluciones automáticas. PDF con marca de agua.',
   },
 
   hero: {
-    title: 'Genere sopas de letras gratis con imágenes temáticas',
-    tagline: 'Sopas de letras ilustradas listas en segundos — gratis y sin registro.',
+    title: 'Generador de sopa de letras gratis online',
+    tagline: 'Sopas de letras con imágenes temáticas gratis — sin registro, sin tarjeta de crédito.',
     description: 'Cree sopas de letras gratis con imágenes temáticas de mas de 3.000 ilustraciones. Este generador produce sopas de letras donde los niños buscan palabras asociadas a imágenes — animales, alimentos, vehículos y mucho mas. Seleccione el tamaño de la cuadricula, el nivel de dificultad y el idioma. Cada ficha incluye solucionario automático y se exporta en PDF listo para imprimir. No necesita registro ni tarjeta de crédito — todas las funciones disponibles al instante. Las descargas incluyen marca de agua transparente. Perfecto para padres, educadores y creadores de contenido. ¿Quiere vender sopas de letras? Pase a la licencia comercial para PDFs sin marca de agua a 300 DPI.',
   },
 

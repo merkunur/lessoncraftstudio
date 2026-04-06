@@ -2,23 +2,24 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Negocio descargue digitales | LCS',
-    metaDescription: 'Ideas para un negocio de descargue digitales de educativos. Venda fichas PDF en Etsy, Hotmart y venta directa con entrega automática e ingresos pasivos.',
-    primaryKeyword: 'descargue digitales imprimibles ideas negocio',
+    titleTag: 'Descargas digitales imprimibles Etsy | Nicho',
+    metaDescription: 'Ideas de descargas digitales de imprimibles para Etsy y KDP. Fichas PDF con entrega automática.',
+    primaryKeyword: 'descargas digitales imprimibles para vender en Etsy',
     secondaryKeywords: [
-      'negocio de descargue digitales educativas',
-      'vender fichas digitales en Etsy',
-      'productos digitales imprimibles Hotmart',
-      'tienda de descargue de fichas educativas',
+      'fichas digitales Etsy KDP',
+      'negocio descargas digitales imprimibles',
+      'productos digitales para vender',
+      'PDF imprimibles Etsy',
     ],
     lsiKeywords: [
-      'PDF imprimibles venta automática vendedores',
-      'descargue instantáneas fichas educativas',
-      'negocio digital pasivo imprimibles',
+      'descargas digitales',
+      'PDF',
+      'ingresos pasivos',
+      'automático',
     ],
   },
   hero: {
-    title: 'Negocio de Descargas Digitales de Imprimibles: Ideas',
+    title: 'Ideas de descargas digitales de imprimibles para Etsy y KDP',
     description: 'Las descargas digitales son el formato más rentable para vender imprimibles educativos porque eliminan completamente los costes de producción, almacenamiento y envío mientras permiten la entrega automática e instantánea al comprador. Fichas PDF de alta calidad, paquetes temáticos con múltiples actividades y colecciones por nivel educativo forman la base de un negocio escalable con márgenes superiores al 90%. Esta guía cubre estrategias de producto, plataformas de venta y tácticas de optimización para construir un negocio de descargue digitales en Etsy, Hotmart y su propia web. Cada generador ofrece una prueba gratis con marca de agua.',
   },
   marketOverview: `El mercado de descargue digitales de fichas educativas continúa expandiéndose a medida que más vendedores, padres y emprendedores descubren la conveniencia de comprar paquetes de fichas en PDF de acceso instantáneo que pueden imprimir exactamente cuando lo necesitan, en las cantidades exactas requeridas, en su tipo y tamaño de papel preferido. El modelo de entrega instantánea satisface las expectativas modernas de los compradores de acceso inmediato a los productos adquiridos, eliminando la frustración de esperar envíos físicos cuando los usuarios necesitan materiales de práctica para la clase de mañana por la mañana o la sesión de tareas de esta noche. Las descargas digitales se han convertido en el formato predeterminado para compre de imprimibles educativos en las principales plataformas de marketplace porque los compradores han aprendido que la combinación de acceso instantáneo, capacidad ilimitada de reimpresión y precios más bajos comparados con productos físicos hace que las descargas sean la forma más práctica y rentable de adquirir materiales de fichas para uso comercial y en el hogar.

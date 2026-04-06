@@ -29,9 +29,9 @@ const appsMetadata: Record<string, { title: string; description: string; keyword
     keywords: 'générateurs fiches à imprimer, générateur mots mêlés, générateur mots croisés, fiches maths générateur, générateur coloriages, générateur sudoku, fiches graphisme',
   },
   es: {
-    title: '33 generadores de imprimibles — Venda en Etsy | LCS',
-    description: 'Explore 33 generadores de imprimibles para crear y vender fichas en Etsy, KDP y Hotmart. Sopas de letras, matemáticas, colorear, puzzles. Pruebe gratis con marca de agua.',
-    keywords: 'generadores imprimibles vender Etsy, fichas KDP Hotmart, sopas letras generador, fichas matemáticas crear, negocio imprimibles hispano, generador colorear vender',
+    title: '33 generadores de fichas | Matemáticas, juegos, vocabulario y más',
+    description: 'Explore 33 generadores de fichas profesionales: matemáticas, vocabulario, aprendizaje visual, creatividad y lógica. Todos gratis para probar con marca de agua.',
+    keywords: 'generadores de fichas para imprimir, generador sopa de letras, generador crucigramas, fichas de matemáticas generador, generador fichas preescolar, generador sudoku, fichas para imprimir',
   },
   it: {
     title: '33 generatori di stampabili — Vendi su Etsy | LessonCraftStudio',
@@ -147,8 +147,8 @@ const localeContent: Record<string, {
     },
   },
   es: {
-    heroTitle: '33 generadores de imprimibles profesionales',
-    heroSubtitle: 'Cree imprimibles profesionales para su negocio. Sopas de letras, fichas de matemáticas, colorear, puzzles y más. Pruebe los 33 generadores gratis con marca de agua.',
+    heroTitle: '33 generadores de fichas para imprimir',
+    heroSubtitle: 'Cree fichas profesionales para imprimir: sopas de letras, matemáticas, colorear, puzzles y más. Pruebe los 33 generadores gratis con marca de agua.',
     tryFree: 'Probar gratis',
     details: 'Detalles',
     trustNoAccount: 'Sin cuenta requerida',

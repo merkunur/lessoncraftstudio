@@ -2,25 +2,26 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'generador de piezas faltantes gratis',
+    primaryKeyword: 'puzzle piezas faltantes gratis para imprimir',
     secondaryKeywords: [
-      'fichas de piezas faltantes gratis sin registro',
-      'generador de rompecabezas de piezas faltantes en línea',
-      'crear fichas de piezas faltantes gratis para imprimir',
-      'piezas faltantes gratis con clave de respuestas',
+      'rompecabezas gratis para imprimir',
+      'completa el puzzle gratis',
+      'observación visual gratis',
+      'lógica visual gratis',
     ],
     lsiKeywords: [
-      'rompecabezas visual piezas recortadas ficha imprimible',
-      'puzzle de discriminación visual con opciones distractoras',
-      'actividad de razonamiento espacial piezas faltantes PDF',
+      'rompecabezas',
+      'completar',
+      'observar',
+      'razonamiento visual',
     ],
-    titleTag: 'Piezas faltantes gratis en línea | LCS',
-    metaDescription: 'Cree fichas de piezas faltantes gratis sin registro. 6 formas de pieza, dificultad configurable, clave de. Venda en Etsy & KDP con licencia comercial.',
+    titleTag: 'Puzzle piezas faltantes gratis | Generador online',
+    metaDescription: 'Cree fichas de "piezas faltantes" gratis con imágenes temáticas. Sin registro. Soluciones automáticas. PDF con marca de agua.',
   },
 
   hero: {
-    title: 'Cree fichas de piezas faltantes gratis en línea',
-    tagline: 'Generador de fichas de rompecabezas estilo puzzle con 6 formas de pieza (cuadrado, círculo, rectángulo vertical/horizontal, elipse vertical/horizontal), 1–5 piezas faltantes con 2–6 opciones de solución incluyendo distractoras, extracción inteligente de piezas con detección de varianza de color y separación mínima de 250px, claves de respuestas autogeneradas con etiquetas numéricas resaltadas en amarillo, doble borde decorativo en turquesa y rosa intenso, y 104 colecciones temáticas de imágenes para fichas de rompecabezas que se venden en todo el mundo',
+    title: 'Puzzle de piezas faltantes gratis para imprimir',
+    tagline: 'Fichas de "piezas faltantes" con imágenes gratis — soluciones automáticas.',
     description: 'Cree fichas profesionales de rompecabezas donde una imagen tiene huecos recortados y los usuarios identifican qué opción numerada rellena cada espacio. El algoritmo inteligente de extracción de piezas intenta hasta 150 colocaciones para encontrar piezas con suficiente varianza de color (varianza de brillo mínima de 15), manteniendo al menos 250 píxeles de distancia entre piezas para evitar superposición. El tamaño de pieza se calcula como el 12% del ancho de la imagen con un mínimo de 50 píxeles. Elija entre 6 formas de pieza que cambian el carácter visual de cada puzzle: cuadrado (predeterminado) y círculo ofrecen cortes geométricos limpios, rectángulo vertical (80% ancho, 100% alto) y rectángulo horizontal (100% ancho, 80% alto) crean huecos alargados, y elipse vertical y elipse horizontal ofrecen cortes curvos más suaves con las mismas proporciones dimensionales. Configure la dificultad con dos controles independientes: establezca 1–5 piezas faltantes para controlar cuántos huecos aparecen en la imagen, y establezca 2–6 opciones de solución para controlar cuántas opciones numeradas evalúan los usuarios. Cuando las opciones de solución exceden las piezas faltantes, las opciones extra son piezas distractoras — extraídas de áreas no superpuestas de la misma imagen usando hasta 200 intentos de colocación cada una. Las distractoras evitan que los usuarios resuelvan por eliminación, obligando a una comparación visual cuidadosa de colores, patrones y detalles. El sistema de doble lienzo genere simultáneamente una pestaña de ficha y una pestaña de clave de respuestas. La clave de respuestas muestra la misma imagen del puzzle con huecos y coloque etiquetas numéricas resaltadas en amarillo (rgba(255,255,0,0.7)) dentro de cada hueco mostrando el índice de opción correcto basado en 1. El tamaño de fuente se escala al 60% del tamaño de la pieza para legibilidad clara. Un encabezado autogenerado muestra "Piezas Faltantes" en turquesa (#06B6D4) con una descripción en rosa (#DB2777) enmarcado en un sistema de doble borde — borde exterior verde azulado (#14B8A6, trazo 8px, márgenes 34px, radio 12px) y borde interior rosa intenso (#EC4899, trazo 3px, márgenes 46,5px, radio 8px, desplazamiento 2px derecha y 3px abajo). Piezas Faltantes NO es sensible al idioma — los puzzles son puramente visuales sin contenido dependiente del idioma en la ficha, haciendo cada puzzle universalmente vendible sin traducción. El único elemento localizado es el texto del encabezado, traducido a los 11 idiomas soportados. Las fichas verticales colocan la imagen del puzzle arriba con las opciones debajo en fila horizontal (75% del tamaño máximo); las fichas horizontales dividen la vista 50/50 con las opciones a la derecha. Navegue 104 colecciones temáticas con más de 3.100 ilustraciones coloridas o suba sus propias imágenes PNG, JPG o GIF. Aplique fondos y bordes temáticos con controles de opacidad independientes (0–1, paso 0,05). Añada texto personalizado con 7 opciones de fuente (Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial, Verdana) y contorno de texto 0–10. Exporte cuatro archivos por sesión: ficha JPEG, ficha PDF, clave de respuestas JPEG y clave de respuestas PDF — todo a 300 DPI (multiplicador 6×, calidad JPEG 1,0). Elija Carta, A4, Cuadrado (1200×1200) o tamaños personalizados con opción de escala de grises para salida con ahorro de tinta. Edita todo en el lienzo Fabric.js con 6 opciones de alineación más centrado en página, capas, bloqueo/desbloqueo, zoom 25%–300% en incrementos del 25%, y deshacer/rehacer 50 estados. La prueba gratuita incluya todas las funciones con una marca de agua en las descargas. Compre una licencia para eliminar la marca de agua y vender con uso comercial.',
   },
 

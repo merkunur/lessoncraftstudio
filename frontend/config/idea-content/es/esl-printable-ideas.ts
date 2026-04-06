@@ -2,23 +2,24 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Imprimibles ELE — Ideas negocio | LCS',
-    metaDescription: 'Ideas de negocio con ELE (español como lengua extranjera) para Etsy y Hotmart. Fichas de vocabulario, gramática y conversación. 22M estudiantes.',
-    primaryKeyword: 'imprimibles ELE español lengua extranjera negocio',
+    titleTag: 'Imprimibles ELE para Etsy | Nicho',
+    metaDescription: 'Ideas de imprimibles ELE para Etsy y KDP. Español como lengua extranjera con 22M de estudiantes.',
+    primaryKeyword: 'imprimibles ELE para vender en Etsy',
     secondaryKeywords: [
-      'fichas de ELE para vender en Etsy',
-      'negocio imprimibles español como segunda lengua',
-      'actividades de español para extranjeros tiendas',
-      'nicho ELE imprimibles educativos',
+      'fichas ELE Etsy KDP',
+      'actividades español lengua extranjera imprimibles',
+      'negocio imprimibles ELE',
+      'fichas de español para vender',
     ],
     lsiKeywords: [
-      'fichas de vocabulario español vendedores ELE',
-      'cuadernillos de gramática española KDP',
-      'imprimibles de conversación español Hotmart',
+      'ELE',
+      'español',
+      'vocabulario',
+      'gramática',
     ],
   },
   hero: {
-    title: 'Imprimibles ELE: Ideas de Negocio para Vendedores',
+    title: 'Ideas de imprimibles ELE para vender en Etsy y KDP',
     description: 'El español como lengua extranjera (ELE) cuenta con más de 22 millones de estudiantes en todo el mundo, lo que lo convierte en uno de los nichos de mayor potencial para vendedores de imprimibles educativos. Fichas de vocabulario temático, ejercicios de gramática, actividades de conversación, juegos de conjugación y materiales de cultura hispana forman un catálogo con demanda global y competencia relativamente baja en las plataformas de venta. Esta guía presenta ideas de productos concretos, estrategias por plataforma y tácticas de posicionamiento para construir un negocio de imprimibles ELE en Etsy, Amazon KDP y Hotmart. Cada generador ofrece una prueba gratis con marca de agua.',
   },
   marketOverview: `El mercado de imprimibles ESL representa una oportunidad de ingresos sustancial y en expansión porque las poblaciones de aprendices de inglés como segundo idioma están creciendo rápidamente en los países de habla inglesa mientras que la demanda internacional de escuelas de idiomas y tutores en países donde no se habla inglés añada una dimensión global de compradores que la mayoría de los nichos de imprimibles educativos carecen por completo. Los distritos escolares en Estados Unidos, Canadá, Reino Unido y Australia reportan una inscripción creciente de usuarios ELL a medida que los patrones de inmigración y reasentamiento de refugiados traen familias cuyos hijos ingresan a los sistemas escolares necesitando apoyo intensivo en el idioma inglés junto con su instrucción académica. Los programas ESL para adultos se están expandiendo simultáneamente a medida que las universidades comunitarias, organizaciones de desarrollo laboral, agencias de reasentamiento de refugiados y programas comunitarios de alfabetización atienden a poblaciones crecientes de aprendices adultos de inglés que necesitan vocabulario práctico, inglés laboral y habilidades lingüísticas para la vida diaria. Esta combinación de demanda institucional K-12, compre de educación de adultos y alcance internacional de compradores cree múltiples segmentos de mercado superpuestos que los vendedores de imprimibles pueden apuntar con líneas de productos diferenciadas.

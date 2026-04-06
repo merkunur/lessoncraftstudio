@@ -2,23 +2,24 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Impresión bajo demanda fichas | LCS',
-    metaDescription: 'Ideas de negocio con impresión bajo demanda de fichas educativas. Venda libros de actividades en Amazon KDP sin inventario ni envíos.',
-    primaryKeyword: 'impresión bajo demanda fichas ideas negocio',
+    titleTag: 'Impresión bajo demanda Etsy KDP | Nicho',
+    metaDescription: 'Ideas de impresión bajo demanda de imprimibles para Etsy y KDP. Sin inventario ni envíos.',
+    primaryKeyword: 'impresión bajo demanda imprimibles para vender',
     secondaryKeywords: [
-      'negocio de impresión bajo demanda educativo',
-      'vender fichas impresas sin inventario',
-      'Amazon KDP impresión bajo demanda fichas',
-      'modelo POD imprimibles educativos',
+      'fichas impresión bajo demanda KDP',
+      'negocio POD imprimibles Etsy',
+      'libros de actividades bajo demanda',
+      'cuadernillos POD para vender',
     ],
     lsiKeywords: [
-      'libros de actividades impresión bajo demanda',
-      'cuadernillos POD Amazon vendedores',
-      'fichas físicas sin inventario Hotmart',
+      'impresión bajo demanda',
+      'POD',
+      'sin inventario',
+      'KDP',
     ],
   },
   hero: {
-    title: 'Impresión Bajo Demanda de Fichas: Ideas de Negocio',
+    title: 'Ideas de impresión bajo demanda de imprimibles para Etsy y KDP',
     description: 'La impresión bajo demanda elimina las barreras de inventario, almacenamiento y envíos, permitiendo vender fichas educativas en formato físico a través de Amazon KDP y otras plataformas POD sin ninguna inversión inicial en impresión. Libros de actividades, cuadernillos de práctica, colecciones de puzzles y paquetes temáticos se imprimen automáticamente cuando un cliente realice un pedido. Esta guía presenta modelos de negocio específicos, requisitos de formato y estrategias de precios para construir un catálogo rentable de fichas en impresión bajo demanda. Pruebe cada generador gratis con marca de agua antes de invertir en una licencia comercial.',
   },
   marketOverview: `El mercado de impresión bajo demanda para productos imprimibles está experimentando un crecimiento sustancial a medida que más compradores descubren la conveniencia de adquirir fichas, cuadernos de ejercicios y paquetes de actividades impresos profesionalmente que llegan listos para usar sin necesidad de impresión, corte o ensamblaje por su parte. Las escuelas y compradores institucionales frecuentemente tienen presupuestos específicamente asignados para materiales instruccionales físicos pero carecen de procesos de aprobación o infraestructura para comprar e imprimir descargue digitales, haciendo que los cuadernos de ejercicios POD impresos profesionalmente sean el único formato que encaja en sus flujos de trabajo de adquisición y requisitos de materiales para venta en línea. Los padres prefieren cada vez más comprar cuadernos educativos impresos sobre descargue digitales porque la impresión doméstica consume tiempo, es costosa al considerar los costos de tinta y papel, y produce resultados que se sienten menos profesionales y atractivos para los niños comparados con materiales correctamente impresos y encuadernados de servicios de POD.

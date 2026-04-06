@@ -2,25 +2,27 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'obtener reseñas para productos imprimibles',
+    primaryKeyword: 'obtener reseñas para imprimibles',
     secondaryKeywords: [
-      'estrategia para conseguir reseñas imprimibles',
-      'más reseñas para fichas educativas',
-      'generar valoraciones positivas productos digitales',
-      'reseñas de compradores imprimibles marketplace',
+      'reseñas Etsy imprimibles',
+      'cómo conseguir opiniones fichas',
+      'estrategia reseñas Etsy',
+      'valoraciones productos digitales',
     ],
     lsiKeywords: [
-      'pruebe social confianza del comprador credibilidad',
-      'seguimiento postventa solicitud de reseña timing',
-      'reseñas verificadas valoraciones estrellas reputación',
+      'reseñas',
+      'opiniones',
+      'valoraciones',
+      'confianza',
+      'conversión',
     ],
-    titleTag: 'Obtener reseñas para imprimibles | LCS',
-    metaDescription: 'Consiga más reseñas para sus imprimibles con estrategias éticas. Sistemas de seguimiento para vendedores en Etsy, KDP y Hotmart que generan pruebe social.',
+    titleTag: 'Obtener reseñas para imprimibles | Guía',
+    metaDescription: 'Guía para obtener reseñas en sus productos imprimibles. Estrategias para Etsy que aumentan confianza y ventas.',
   },
 
   hero: {
-    title: 'Cómo obtener reseñas que impulsen sus ventas de imprimibles',
-    tagline: 'Una guía completa para obtener reseñas auténticas de productos imprimibles — que cubre cómo ofrecer experiencias de producto dignas de reseña, optimizar la calidad de descargue y uso, incluir solicitudes de reseña profesionales, hacer seguimiento con los compradores en el momento adecuado, responder a todas las reseñas de forma constructiva, establecer expectativas precisas en los listados, generar volumen de reseñas mediante el crecimiento del catálogo y crear ciclos de retroalimentación que mejoren sus productos con el tiempo',
+    title: 'Obtener reseñas para sus imprimibles — Guía',
+    tagline: 'Estrategias para conseguir reseñas en Etsy que aumentan confianza y ventas.',
     description: 'Las reseñas son el factor de conversión más poderoso en cualquier marketplace de productos digitales. Un producto con reseñas positivas vende significativamente más que uno idéntico sin valoraciones. Esta guía le enseña estrategias éticas y efectivas para obtener más reseñas de sus compradores: desde el seguimiento postventa hasta la experiencia del producto que motiva reseñas espontáneas. Aplique estos sistemas en Etsy, Amazon KDP y Hotmart para construir pruebe social rápidamente. El mercado hispanohablante valora las reseñas en su idioma y los primeros vendedores con buenas valoraciones dominan.',
   },
 

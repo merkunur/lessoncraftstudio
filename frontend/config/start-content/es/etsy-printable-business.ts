@@ -2,25 +2,28 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'masterclass negocio Etsy imprimibles',
+    primaryKeyword: 'cómo vender imprimibles en Etsy',
     secondaryKeywords: [
-      'cómo vender imprimibles en Etsy guía completa',
-      'tienda Etsy de fichas educativas paso a paso',
-      'optimizar listados Etsy imprimibles educativos',
-      'SEO Etsy para vendedores de fichas',
+      'tienda Etsy imprimibles educativos',
+      'vender fichas en Etsy guía',
+      'SEO Etsy para imprimibles',
+      'optimizar listados Etsy fichas',
     ],
     lsiKeywords: [
-      'algoritmo de búsqueda Etsy imprimibles',
-      'fotografía de producto fichas Etsy',
-      'estrategia de tags Etsy vendedores educativos',
+      'Etsy',
+      'SEO',
+      'listados',
+      'tags',
+      'visibilidad',
+      'ventas',
     ],
-    titleTag: 'Masterclass Etsy imprimibles | LCS',
-    metaDescription: 'Masterclass para vender imprimibles en Etsy. SEO, optimización de listados, estrategia de precios y tácticas de visibilidad para fichas educativas.',
+    titleTag: 'Cómo vender imprimibles en Etsy | Guía completa',
+    metaDescription: 'Guía completa para vender imprimibles en Etsy. SEO, optimización de listados, precios y tácticas de visibilidad para fichas educativas.',
   },
 
   hero: {
-    title: 'Masterclass: Negocio de Imprimibles en Etsy',
-    tagline: 'SEO, listados optimizados y estrategias de visibilidad que funcionan para vendedores de fichas educativas',
+    title: 'Cómo vender imprimibles en Etsy — Guía completa paso a paso',
+    tagline: 'SEO, listados optimizados y estrategias de visibilidad para su tienda de imprimibles en Etsy.',
     description: 'Etsy es el marketplace más grande del mundo para descargue digitales y el punto de entrada natural para vendedores de imprimibles educativos. Pero publicar un producto no garantiza ventas. Esta masterclass cubre las técnicas específicas de SEO, optimización de listados, estrategia de precios, fotografía de producto y tácticas de visibilidad que separan las tiendas de fichas que generan ingresos constantes de las que permanecen invisibles. Aprenderá a dominar el algoritmo de búsqueda de Etsy, crear listados que conviertan y construir una tienda de imprimibles rentable. Cada generador ofrece una prueba gratis con marca de agua.',
   },
 

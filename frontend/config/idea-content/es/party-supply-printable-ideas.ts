@@ -2,23 +2,24 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Imprimibles para fiestas — Negocio | LCS',
-    metaDescription: 'Ideas de negocio con imprimibles para fiestas infantiles. Fichas de actividades, juegos de cumpleaños y kits de entretenimiento para Etsy y Hotmart.',
-    primaryKeyword: 'imprimibles para fiestas ideas negocio',
+    titleTag: 'Imprimibles para fiestas Etsy | Nicho',
+    metaDescription: 'Ideas de imprimibles para fiestas para Etsy y KDP. Cumpleaños, juegos y kits de actividades.',
+    primaryKeyword: 'imprimibles para fiestas para vender en Etsy',
     secondaryKeywords: [
-      'fichas de actividades para fiestas infantiles',
-      'negocio imprimibles de celebraciones Etsy',
-      'actividades de cumpleaños para tiendas digitales',
-      'nicho de fiestas imprimibles educativos',
+      'fichas para fiestas Etsy KDP',
+      'actividades de cumpleaños imprimibles',
+      'negocio imprimibles fiestas',
+      'kits de fiesta para vender',
     ],
     lsiKeywords: [
-      'kits de juegos para fiestas vendedores',
-      'paquetes de actividades de cumpleaños Hotmart',
-      'imprimibles de entretenimiento infantil negocio',
+      'fiestas',
+      'cumpleaños',
+      'juegos',
+      'celebración',
     ],
   },
   hero: {
-    title: 'Imprimibles para Fiestas: Ideas de Negocio para Vendedores',
+    title: 'Ideas de imprimibles para fiestas para vender en Etsy y KDP',
     description: 'Las fiestas infantiles representan un mercado en expansión constante donde los padres buscan actividades entretenidas y educativas que mantengan a los niños ocupados durante celebraciones de cumpleaños, reuniones familiares y eventos escolares. Sopas de letras temáticas, páginas para colorear personalizadas, juegos de bingo, búsquedas del tesoro y fichas de actividades grupales combinan entretenimiento con aprendizaje. Esta guía cubre ideas de productos específicos, estrategias de temporalidad y tácticas de personalización para construir un catálogo rentable de imprimibles para fiestas en Etsy, Hotmart y venta directa. Cada generador ofrece una prueba gratis con marca de agua.',
   },
   marketOverview: `El mercado de artículos de fiesta imprimibles opera con patrones de demanda fundamentalmente diferentes a los mercados tradicionales de fichas educativas porque las compre para fiestas están impulsadas por calendarios de celebración en lugar de calendarios académicos, creando un ciclo de demanda durante todo el año donde las fiestas de cumpleaños generan ventas base consistentes todos los días del año mientras que las celebraciones estacionales producen picos de compre dramáticos que los vendedores pueden prever y preparar con meses de anticipación. Las fiestas de cumpleaños por sí solas crean un enorme mercado direccionable porque cada niño celebra un cumpleaños anualmente, los padres planifican cada vez más celebraciones temáticas que requieren materiales de actividades coordinados, y la tendencia hacia la planificación de fiestas hazlo tú mismo ha desplazado las compre de costosos organizadores profesionales de fiestas hacia materiales imprimibles asequibles que los padres personalizan y producen ellos mismos en casa.

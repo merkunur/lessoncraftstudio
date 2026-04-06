@@ -2,20 +2,21 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Imprimibles animales de granja Etsy | LCS',
-    metaDescription: 'Descubra ideas de imprimibles de animales de granja para vender en Etsy, KDP y Hotmart. Nicho perenne con picos en primavera y otoño — guía completa.',
+    titleTag: 'Imprimibles animales de granja Etsy | Nicho',
+    metaDescription: 'Ideas de imprimibles de animales de granja para Etsy y KDP. Nicho perenne con picos en primavera y otoño.',
 
-    primaryKeyword: 'imprimibles de animales de granja para vender',
+    primaryKeyword: 'imprimibles de animales de granja para vender en Etsy',
     secondaryKeywords: [
-      'fichas de granja para Etsy y KDP',
-      'negocio imprimibles animales corral',
-      'vender fichas tema granja en línea',
-      'actividades de granja imprimibles comerciales',
+      'fichas animales de granja Etsy KDP',
+      'actividades de granja imprimibles',
+      'negocio imprimibles granja',
+      'fichas de corral para vender',
     ],
     lsiKeywords: [
-      'nicho de imprimibles de granja demanda perenne',
-      'fichas educativas temáticas para vendedores',
-      'productos digitales animales de corral Hotmart',
+      'granja',
+      'animales',
+      'corral',
+      'cosecha',
     ],
   },
   hero: {

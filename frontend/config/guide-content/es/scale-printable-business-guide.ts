@@ -2,25 +2,27 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'escalar su negocio de imprimibles guía',
+    primaryKeyword: 'escalar negocio de imprimibles guía',
     secondaryKeywords: [
-      'cómo escalar negocio de fichas educativas',
-      'crecer negocio de imprimibles paso a paso',
-      'estrategia de escalabilidad productos digitales',
-      'escalar ventas de imprimibles multiplataforma',
+      'crecer negocio fichas educativas',
+      'escalar ventas imprimibles Etsy',
+      'expandir negocio imprimibles KDP',
+      'multiplicar ingresos imprimibles',
     ],
     lsiKeywords: [
-      'automatización de procesos delegación subcontratación',
-      'expansión multicanal crecimiento sostenible sistemas',
-      'eficiencia operativa flujos de trabajo escalabilidad',
+      'escalar',
+      'crecer',
+      'expandir',
+      'diversificar',
+      'ingresos',
     ],
-    titleTag: 'Escalar su negocio de imprimibles | LCS',
-    metaDescription: 'Aprenda a escalar su negocio de imprimibles con sistemas y automatización. Guía paso a paso para crecer en Etsy, KDP y Hotmart sin trabajar más horas.',
+    titleTag: 'Escalar negocio de imprimibles | Guía completa',
+    metaDescription: 'Guía para escalar su negocio de imprimibles. Estrategias de crecimiento, diversificación y expansión para Etsy y KDP.',
   },
 
   hero: {
-    title: 'Escale su negocio de imprimibles sin trabajar más horas',
-    tagline: 'Una guía completa para escalar su negocio de imprimibles más allá de los ingresos de un proyecto secundario — cubriendo evaluación de preparación para escalar e identificación de cuellos de botella, sistemas de producción por lotes para una producción consistente, estrategia de expansión multiplataforma, crecimiento del catálogo mediante extensiones de línea de productos, expansión a mercados multilingües, automatización de tareas repetitivas y métricas de crecimiento que impulsan decisiones estratégicas',
+    title: 'Escalar su negocio de imprimibles — Guía completa',
+    tagline: 'Estrategias de crecimiento, diversificación y expansión para vendedores de imprimibles.',
     description: 'Escalar un negocio de imprimibles no significa crear más productos más rápido. Significa construir sistemas que multipliquen el impacto de cada hora que invierte. Esta guía le muestra cómo pasar de vendedor individual a empresario con procesos escalables: automatización, expansión multiplataforma, delegación estratégica y optimización de catálogo. Descubra cómo los vendedores exitosos en Etsy, Amazon KDP y Hotmart escalan sus operaciones. El mercado hispanohablante ofrece una ventaja competitiva enorme para quienes construyen sistemas de crecimiento desde el principio.',
   },
 

@@ -2,25 +2,27 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'crear fichas de gráficos para vender',
+    primaryKeyword: 'cómo crear fichas de conteo y gráficos',
     secondaryKeywords: [
-      'cómo crear fichas de gráficos y conteo imprimibles',
-      'guía paso a paso fichas de gráficos educativos',
-      'vender fichas de gráficos en Etsy y KDP',
-      'fichas de gráficos licencia comercial Hotmart',
+      'tutorial fichas de conteo paso a paso',
+      'crear fichas de gráficos para vender',
+      'guía fichas de conteo con imágenes',
+      'fichas de conteo para Etsy y KDP',
     ],
     lsiKeywords: [
-      'generador de fichas de gráficos con imágenes',
-      'fichas de gráficos para negocio de imprimibles',
-      'exportar PDF fichas de gráficos profesionales',
+      'conteo',
+      'gráficos',
+      'barras',
+      'pictograma',
+      'datos',
     ],
-    titleTag: 'Fichas de gráficos para vender | LCS',
-    metaDescription: 'Aprenda a crear fichas de gráficos para vender en Etsy, KDP y Hotmart. Guía paso a paso con generador profesional y formatos listos para imprimir.',
+    titleTag: 'Cómo crear fichas de conteo y gráficos | Guía',
+    metaDescription: 'Guía paso a paso para crear fichas de conteo y gráficos con imágenes temáticas. Soluciones automáticas, PDF para vender.',
   },
 
   hero: {
-    title: 'Cómo crear fichas de gráficos profesionales para vender',
-    tagline: 'Un tutorial paso a paso para crear fichas de gráficos de imágenes donde los usuarios cuentan 20 imágenes dispersas en una cuadrícula 4×5 y registran los conteos en un gráfico de barras de 6 columnas × 5 filas, con un sistema de lienzo dual que autogenera claves de respuestas con celdas resaltadas en amarillo (#FFC857) simultáneamente, distribución aleatoria que asigna a cada uno de los 6 tipos de imagen de 1 a 5 apariciones para fichas únicas en cada generación, tres modos de selección de imágenes (tema automático, selección manual de 6, sin tema aleatorio), encabezados localizados de \"Gráfico de Imágenes\" en 11 idiomas, conteo visual independiente del idioma que se vende globalmente sin traducción, 7 familias tipográficas incluyendo Arial y Verdana, y exportaciones a 300 DPI que puede vender en todo el mundo en Etsy, Amazon KDP y Hotmart',
+    title: 'Cómo crear fichas de conteo y gráficos — Guía paso a paso',
+    tagline: 'Tutorial para crear fichas de conteo y gráficos con imágenes temáticas.',
     description: 'Descubra cómo crear fichas de gráficos y conteo listas para vender en los principales marketplaces de imprimibles educativos. Esta guía paso a paso le enseña a configurar tipos de gráficos, seleccionar temas visuales atractivos y generar fichas profesionales con claves de respuestas automáticas. Aprenda a crear variaciones por tema y dificultad para multiplicar su catálogo de productos. Optimice sus anuncios en Etsy, Amazon KDP y Hotmart para máxima visibilidad. Todas las funciones están disponibles en la prueba gratis con marca de agua para evaluar la calidad.',
   },
 

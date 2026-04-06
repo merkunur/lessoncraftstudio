@@ -2,25 +2,28 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'fichas de trazo y grafomotricidad para vender en Etsy',
+    primaryKeyword: 'fichas de trazos para imprimir',
     secondaryKeywords: [
-      'generador de fichas de trazo para vendedores Etsy',
-      'fichas de grafomotricidad para Amazon KDP',
-      'ejercicios de motricidad fina imprimibles licencia comercial',
-      'crear fichas de preescritura para vender',
+      'grafomotricidad trazos fichas',
+      'repasar líneas preescolar',
+      'fichas de motricidad fina',
+      'líneas punteadas para repasar',
     ],
     lsiKeywords: [
-      'fichas trazo grafomotricidad vendedores preescolar',
-      'ejercicios motricidad fina imprimibles KDP',
-      'negocio fichas preescritura mercado hispano',
+      'líneas',
+      'curvas',
+      'punteado',
+      'motricidad fina',
+      'preescolar',
+      'infantil',
     ],
-    titleTag: 'Fichas de trazo para vender en Etsy y KDP | LCS',
-    metaDescription: 'Cree fichas de trazo y grafomotricidad para vender en Etsy y KDP. Imágenes temáticas, dificultad ajustable. Licencia comercial. Pruebe gratis. 49 $ pago unico.',
+    titleTag: 'Fichas de trazos para imprimir | Generador de grafomotricidad',
+    metaDescription: 'Cree fichas de trazos y grafomotricidad con imágenes temáticas. PDF 300 DPI imprimibles. Prueba gratis — licencia comercial incluida.',
   },
 
   hero: {
-    title: 'Genere fichas de trazo y grafomotricidad para vender en Etsy y KDP',
-    tagline: 'Cree fichas de motricidad fina con imágenes temáticas — el producto preescolar más buscado.',
+    title: 'Fichas de trazos para imprimir — Generador de grafomotricidad con imágenes',
+    tagline: 'Cree fichas de trazos y grafomotricidad con imágenes temáticas — PDF 300 DPI imprimibles.',
     description:
       'Genere fichas de trazo y grafomotricidad para vender en Etsy, Amazon KDP o Hotmart. Las fichas de trazo son el producto preescolar más buscado — los padres y centros educativos las necesitan constantemente para desarrollar la motricidad fina. Este generador crea fichas donde los niños trazan líneas entre imágenes temáticas, con dificultad ajustable desde trazos rectos hasta curvas y zigzags. Seleccione entre más de 3.000 ilustraciones en 104 temas. Exporte PDFs a 300 DPI con solucionario y véndalos con la licencia comercial incluida. Las fichas de grafomotricidad son puramente visuales y funcionan en cualquier idioma. El mercado hispano de material preescolar en Etsy está masivamente desatendido. Pruebe gratis con marca de agua — sin registro.',
   },

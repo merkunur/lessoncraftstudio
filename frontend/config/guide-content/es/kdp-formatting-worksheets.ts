@@ -2,25 +2,28 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'formato KDP para libros de fichas guía',
+    primaryKeyword: 'formato KDP para libros de actividades',
     secondaryKeywords: [
-      'cómo formatear libro de fichas para Amazon KDP',
-      'especificaciones formato interior KDP libros actividades',
-      'márgenes sangrado recorte KDP libros educativos fichas',
-      'guía formato PDF interior KDP cuadernillos fichas',
+      'cómo formatear libro KDP fichas',
+      'especificaciones KDP cuaderno de actividades',
+      'márgenes KDP libro de fichas',
+      'formato interior KDP actividades',
     ],
     lsiKeywords: [
-      'márgenes interiores exteriores sangrado zona segura KDP fichas',
-      'tamaño recorte 8.5x11 6x9 formatos populares KDP actividades',
-      'resolución 300 DPI fuentes incrustadas PDF listo impresión KDP',
+      'KDP',
+      'formato',
+      'márgenes',
+      'interior',
+      'portada',
+      'ISBN',
     ],
-    titleTag: 'Formato KDP para libros de fichas | LCS',
-    metaDescription: 'Guía completa de formato KDP para libros de fichas. Márgenes, sangrado, tamaño de recorte y especificaciones técnicas para publicar sin rechazos.',
+    titleTag: 'Formato KDP para libros de actividades | Guía',
+    metaDescription: 'Guía de formato KDP para libros de actividades. Márgenes, interior, portada y especificaciones técnicas paso a paso.',
   },
 
   hero: {
-    title: 'Cómo formatear libros de fichas para Amazon KDP sin errores',
-    tagline: 'La referencia técnica definitiva para formatear libros de fichas y actividades para Amazon KDP — incluyendo selección de tamaño de recorte para diferentes tipos de actividad, cálculos de márgenes y cosido para espacio de escritura cómodo, configuración de sangrado versus sin sangrado, exportación de PDF listo para imprimir a 300 DPI con fuentes incrustadas, cálculos de dimensiones de portada incluyendo ancho de lomo y zonas de código de barras, ensamblaje completo del manuscrito desde las páginas iniciales hasta las secciones de soluciones, y solución de los rechazos y errores de formateo más comunes de KDP',
+    title: 'Formato KDP para libros de actividades — Guía técnica',
+    tagline: 'Márgenes, interior, portada y especificaciones técnicas para publicar en Amazon KDP.',
     description: 'El formato correcto del interior es la barrera técnica más común para publicar libros de fichas en Amazon KDP. Márgenes incorrectos, sangrado insuficiente o resolución baja provocan rechazos que retrasan su publicación. Esta guía le proporciona las especificaciones técnicas exactas que necesita: márgenes interiores y exteriores según el número de páginas, zonas seguras de contenido, requisitos de sangrado, tamaños de recorte populares para libros de actividades y configuración correcta del PDF para impresión. Aprenda a exportar fichas generadas con LessonCraftStudio en el formato exacto que KDP acepta, evitando los errores más frecuentes que rechazan manuscritos.',
   },
 

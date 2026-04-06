@@ -2,23 +2,25 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Imprimibles Día de Madre/Padre | LCS',
-    metaDescription: 'Ideas de imprimibles para Día de la Madre y Día del Padre para Etsy y KDP. Fechas varían por país hispano — más ventanas de venta para emprendedores.',
-    primaryKeyword: 'imprimibles Día de la Madre Padre para vender',
+    titleTag: 'Imprimibles día de los padres Etsy | Nicho',
+    metaDescription: 'Ideas de imprimibles para el Día de la Madre y el Padre para Etsy y KDP.',
+    primaryKeyword: 'imprimibles del día de los padres',
     secondaryKeywords: [
-      'fichas Día de la Madre para Etsy',
-      'negocio imprimibles Día del Padre KDP',
-      'actividades regalo padres comerciales',
-      'vender fichas manualidades padres Hotmart',
+      'fichas día de la madre Etsy',
+      'fichas día del padre KDP',
+      'imprimibles familiares para vender',
+      'negocio imprimibles familias',
     ],
     lsiKeywords: [
-      'pico ventas mayo junio imprimibles padres',
-      'Día de la Madre fechas varían por país hispano',
-      'productos digitales regalos manualidades Hotmart',
+      'madre',
+      'padre',
+      'familia',
+      'mayo',
+      'junio',
     ],
   },
   hero: {
-    title: 'Ideas de imprimibles para Día de la Madre y Padre para vender',
+    title: 'Ideas de imprimibles del Día de la Madre y el Padre para Etsy',
     description: 'El Día de la Madre y el Día del Padre crean dos picos de ventas anuales con alta demanda emocional — y en el mercado hispano, una ventaja que muchos vendedores ignoran: las fechas varían por país. El Día de la Madre se celebra en mayo en la mayoría de los países, pero en Argentina cae en octubre, en Panamá en diciembre y en Bolivia en mayo 27. El Día del Padre varía igualmente. Para los vendedores de imprimibles, esto multiplica las ventanas de venta: puede lanzar y relanzar sus productos en diferentes momentos para diferentes mercados. Las tarjetas imprimibles, los cupones de regalo personalizables, las fichas de escritura creativa sobre la familia y las manualidades para regalar son los productos más buscados. Esta guía le presenta ideas concretas, precios y estrategias para Etsy, KDP y Hotmart.',
   },
   marketOverview: `El nicho de imprimibles de agradecimiento a los padres ocupa una posición excepcionalmente poderosa en el calendario de ventas de primavera porque ofrece dos picos de demanda concentrados desde una sola línea de productos. El Día de la Madre en mayo y el Día del Padre en junio crean ventanas de venta consecutivas que recompensan a los vendedores que preparan un catálogo cohesivo de agradecimiento familiar. Los vendedores comienzan a planificar proyectos de elaboración de regalos para mayo en línea a principios de abril, buscando actividades imprimibles que permitan a los usuarios crear regalos personalizados de agradecimiento, tarjetas y cuadernillos de recuerdos durante el tiempo de clase. Los padres y las emprendedores buscan actividades de manualidades apropiadas para la edad que ayuden a los niños a expresar gratitud de manera significativa, y los proveedores de guardería necesitan proyectos estructurados de agradecimiento para sus aprendices más pequeños.

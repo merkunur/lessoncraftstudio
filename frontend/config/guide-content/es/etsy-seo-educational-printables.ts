@@ -2,25 +2,28 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'SEO de Etsy para fichas educativas 2026',
+    primaryKeyword: 'SEO de Etsy para imprimibles educativos',
     secondaryKeywords: [
-      'optimización SEO Etsy fichas educativas imprimibles',
-      'cómo posicionar anuncios Etsy fichas educativas',
-      'algoritmo búsqueda Etsy imprimibles educativos 2026',
-      'etiquetas títulos descripción Etsy fichas imprimibles',
+      'optimizar listados Etsy fichas',
+      'tags Etsy para imprimibles',
+      'palabras clave Etsy fichas educativas',
+      'SEO Etsy vendedores imprimibles',
     ],
     lsiKeywords: [
-      'algoritmo Etsy puntuación calidad anuncio tasa clics conversión',
-      '13 etiquetas Etsy búsqueda por frases emparejamiento palabras clave',
-      'atributos categoría descargue digitales educativo posicionamiento',
+      'SEO',
+      'tags',
+      'palabras clave',
+      'algoritmo',
+      'ranking',
+      'visibilidad',
     ],
-    titleTag: 'SEO Etsy para fichas educativas (2026) | LCS',
-    metaDescription: 'Domine el SEO de Etsy para fichas educativas en 2026. Aprenda a usar las 13 etiquetas, optimizar títulos y posicionar sus anuncios en la búsqueda.',
+    titleTag: 'SEO de Etsy para imprimibles educativos | Guía',
+    metaDescription: 'Guía de SEO de Etsy para vendedores de imprimibles. Tags, palabras clave, algoritmo y tácticas de visibilidad.',
   },
 
   hero: {
-    title: 'SEO de Etsy para fichas educativas: guía actualizada 2026',
-    tagline: 'Una guía completa de optimización de búsqueda en Etsy para vendedores de imprimibles educativos — incluyendo metodología de investigación de palabras clave usando autocompletado de Etsy y análisis de competidores, fórmulas de optimización de títulos que equilibran posicionamiento en búsquedas con tasa de clics, uso estratégico de las 13 etiquetas de anuncios para máxima cobertura de búsqueda, estructura de descripción con los primeros 160 caracteres optimizados para SEO, factores de posicionamiento del algoritmo de búsqueda de Etsy específicos para productos digitales, selección de categorías y atributos, bancos de palabras clave específicos por categoría para fichas de matemáticas, lectoescritura, puzles, coloreo, emparejamiento y buscar-y-encontrar, temporalidad de palabras clave estacionales para picos de vuelta al cole y festivos, y optimización continua usando informes de términos de búsqueda de Etsy Stats',
+    title: 'SEO de Etsy para imprimibles educativos — Guía completa',
+    tagline: 'Tags, palabras clave, algoritmo y tácticas de visibilidad para su tienda de imprimibles.',
     description: 'El algoritmo de búsqueda de Etsy determine qué fichas educativas ven los compradores y cuáles permanecen invisibles. Comprender cómo funciona este algoritmo en 2026 es esencial para cualquier vendedor de imprimibles educativos que quiera generar tráfico orgánico consistente. Esta guía cubre las mecánicas actualizadas del algoritmo de Etsy, incluyendo cómo pondera títulos, las 13 etiquetas, descripciones y atributos de categoría. Aprenda a escribir títulos que posicionen para términos de búsqueda de compradores reales, maximizar sus etiquetas con frases diversificadas, completar los atributos de descargue digitales y mejorar la puntuación de calidad de sus anuncios a través de mejores tasas de clics y conversión.',
   },
 

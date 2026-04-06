@@ -2,25 +2,28 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'crear sudoku con imágenes para vender',
+    primaryKeyword: 'cómo crear sudoku con imágenes para imprimir',
     secondaryKeywords: [
-      'cómo crear sudoku con imágenes imprimibles',
-      'guía paso a paso sudoku visual educativo',
-      'vender sudoku con imágenes en Etsy y KDP',
-      'sudoku visual licencia comercial Hotmart',
+      'tutorial sudoku con imágenes paso a paso',
+      'crear sudoku para vender',
+      'guía sudoku para niños',
+      'sudoku con imágenes para Etsy y KDP',
     ],
     lsiKeywords: [
-      'generador de sudoku con imágenes temáticas',
-      'sudoku visual para negocio de imprimibles',
-      'exportar PDF sudoku con imágenes profesional',
+      'sudoku',
+      'imágenes',
+      'grilla',
+      '4x4',
+      '6x6',
+      'lógica',
     ],
-    titleTag: 'Sudoku con imágenes para vender | LCS',
-    metaDescription: 'Aprenda a crear sudoku con imágenes para vender en Etsy, KDP y Hotmart. Guía paso a paso con generador profesional y soluciones automáticas.',
+    titleTag: 'Cómo crear sudoku con imágenes | Guía',
+    metaDescription: 'Guía paso a paso para crear sudoku con imágenes. Dificultad ajustable, soluciones automáticas, PDF para vender.',
   },
 
   hero: {
-    title: 'Cómo crear sudoku con imágenes para vender',
-    tagline: 'Un tutorial paso a paso para crear puzzles de sudoku 4×4 basados en imágenes que puede vender en Etsy, Amazon KDP y Hotmart',
+    title: 'Cómo crear sudoku con imágenes para imprimir — Guía',
+    tagline: 'Tutorial para crear sudoku con imágenes temáticas — dificultad ajustable.',
     description: 'Descubra cómo crear sudoku con imágenes temáticas listos para vender en los principales marketplaces. Esta guía paso a paso le enseña a configurar cuadrículas, seleccionar temas visuales atractivos y generar puzzles con soluciones automáticas incluidas. Aprenda a crear variaciones por tamaño de cuadrícula y tema para multiplicar su catálogo de productos imprimibles. Optimice sus anuncios en Etsy, Amazon KDP y Hotmart para máxima visibilidad. Todas las funciones están disponibles en la prueba gratis con marca de agua para evaluar la calidad.',
   },
 

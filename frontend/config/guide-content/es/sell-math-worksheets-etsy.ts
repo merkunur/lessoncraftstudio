@@ -2,25 +2,28 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'vender fichas de matemáticas en Etsy guía',
+    primaryKeyword: 'vender fichas de matemáticas en Etsy',
     secondaryKeywords: [
-      'cómo vender fichas de mates en Etsy paso a paso',
-      'crear tienda Etsy de fichas matemáticas imprimibles',
-      'anuncios optimizados Etsy para fichas de sumas y restas',
-      'estrategia SEO Etsy vendedores fichas de matemáticas',
+      'cómo vender fichas de mates en Etsy',
+      'fichas de matemáticas Etsy guía',
+      'negocio fichas matemáticas online',
+      'vender ejercicios de matemáticas Etsy',
     ],
     lsiKeywords: [
-      'etiquetas Etsy títulos anuncios descargue digitales fichas educativas',
-      'precios paquetes sumas restas puzles matemáticos tienda rentable',
-      'mockups fotografía producto fichas imprimibles tasa conversión Etsy',
+      'matemáticas',
+      'Etsy',
+      'fichas',
+      'listados',
+      'SEO',
+      'paquetes',
     ],
-    titleTag: 'Vender fichas de mates en Etsy | LCS',
-    metaDescription: 'Aprenda a vender fichas de matemáticas en Etsy con SEO optimizado, fotos de anuncios profesionales y estrategias de precios. Configure su tienda hoy.',
+    titleTag: 'Vender fichas de matemáticas en Etsy | Guía',
+    metaDescription: 'Guía para vender fichas de matemáticas en Etsy. SEO, listados, precios y estrategia de paquetes para su tienda.',
   },
 
   hero: {
-    title: 'Cómo vender fichas de matemáticas en Etsy: guía paso a paso',
-    tagline: 'Una guía completa de plataforma para construir una tienda Etsy rentable vendiendo fichas de matemáticas creadas con 6 generadores especializados — que cubre configuración de tienda Etsy, optimización SEO con las 13 etiquetas, títulos y descripciones de anuncios que se posicionan para términos de búsqueda de compradores, fotografía de productos y mockups, estrategias de precios para fichas individuales y paquetes, timing estacional para picos de vuelta al cole y festividades, planificación de catálogo de sumas, restas, puzles de códigos, comparación, puzles de cuadrícula y ejercicios numéricos, y optimización continua de tienda usando Estadísticas de Etsy y analítica de búsqueda',
+    title: 'Vender fichas de matemáticas en Etsy — Guía completa',
+    tagline: 'SEO, listados y estrategia de precios para vender fichas de matemáticas en Etsy.',
     description: 'Etsy es el marketplace líder para fichas de matemáticas imprimibles. Los compradores buscan activamente sumas, restas y puzles matemáticos para sus hijos o tiendas educativas. Esta guía le acompaña desde la investigación de demanda en Etsy hasta la optimización de anuncios con las 13 etiquetas, fotografía de producto que convierte y estrategias de precios para fichas individuales y paquetes. Aprenda a posicionar sus fichas de matemáticas en la búsqueda de Etsy, construir un catálogo de 6 formatos diferentes y generar ventas consistentes con timing estacional. Descubra cómo los generadores de LessonCraftStudio le permiten crear fichas profesionales a 300 DPI con claves de respuestas y temas variados para maximizar su cobertura de búsqueda.',
   },
 

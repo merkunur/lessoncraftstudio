@@ -2,25 +2,28 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'crear fichas de patrones para vender',
+    primaryKeyword: 'cómo crear fichas de secuencias para imprimir',
     secondaryKeywords: [
-      'cómo crear fichas de patrones imprimibles',
-      'guía paso a paso fichas de secuencias',
-      'vender fichas de patrones en Etsy y KDP',
-      'fichas de patrones licencia comercial Hotmart',
+      'tutorial secuencias lógicas paso a paso',
+      'crear fichas de patrones para vender',
+      'guía series lógicas con imágenes',
+      'fichas de secuencias para Etsy y KDP',
     ],
     lsiKeywords: [
-      'generador de fichas de patrones con imágenes',
-      'fichas de secuencias para negocio imprimible',
-      'exportar PDF fichas de patrones profesionales',
+      'secuencia',
+      'patrón',
+      'serie',
+      'AB',
+      'ABC',
+      'lógica',
     ],
-    titleTag: 'Fichas de patrones para vender | LCS',
-    metaDescription: 'Aprenda a crear fichas de patrones para vender en Etsy, KDP y Hotmart. Guía paso a paso con generador profesional y exportación PDF lista para imprimir.',
+    titleTag: 'Cómo crear fichas de secuencias | Guía',
+    metaDescription: 'Guía paso a paso para crear fichas de secuencias lógicas con imágenes. Patrones AB, ABC, ABCD, soluciones automáticas.',
   },
 
   hero: {
-    title: 'Cómo crear fichas de patrones profesionales para vender',
-    tagline: 'Un tutorial paso a paso para crear fichas de reconocimiento de patrones temáticas y listas para imprimir que puede vender en Etsy, Amazon KDP y Hotmart',
+    title: 'Cómo crear fichas de secuencias para imprimir — Guía',
+    tagline: 'Tutorial para crear fichas de secuencias lógicas con patrones AB, ABC, ABCD.',
     description: 'Descubra cómo crear fichas de patrones y secuencias listas para vender en marketplaces de imprimibles educativos. Esta guía paso a paso le muestra cómo configurar la complejidad de las secuencias, elegir temas visuales atractivos y generar fichas profesionales con claves de respuestas. Aprenda a crear variaciones por dificultad y tema para construir un catálogo completo. Optimice sus anuncios en Etsy, Amazon KDP y Hotmart con palabras clave que atraigan compradores. Pruebe todas las funciones gratis con marca de agua antes de adquirir su licencia comercial.',
   },
 

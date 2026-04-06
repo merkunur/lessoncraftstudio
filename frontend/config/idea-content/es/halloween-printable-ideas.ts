@@ -2,24 +2,25 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Imprimibles Halloween — Negocio | LCS',
-    metaDescription: 'Ideas de imprimibles de Halloween y Día de los Muertos para Etsy y KDP. Doble nicho octubre-noviembre con demanda explosiva en el mercado hispano.',
+    titleTag: 'Imprimibles de Halloween para Etsy | Nicho',
+    metaDescription: 'Ideas de imprimibles de Halloween para Etsy y KDP. Nicho estacional con alta demanda en octubre.',
 
-    primaryKeyword: 'imprimibles de Halloween ideas negocio',
+    primaryKeyword: 'imprimibles de Halloween para vender en Etsy',
     secondaryKeywords: [
-      'fichas de Halloween para vender Etsy',
-      'negocio imprimibles octubre Día de Muertos',
-      'actividades Halloween comerciales KDP',
-      'vender fichas terror niños en línea',
+      'fichas de Halloween Etsy KDP',
+      'actividades Halloween imprimibles',
+      'negocio imprimibles Halloween',
+      'fichas de miedo para vender',
     ],
     lsiKeywords: [
-      'pico ventas octubre imprimibles Halloween',
-      'Día de los Muertos México noviembre imprimibles',
-      'productos digitales calabazas fantasmas Hotmart',
+      'Halloween',
+      'octubre',
+      'estacional',
+      'calabazas',
     ],
   },
   hero: {
-    title: 'Ideas de negocio con imprimibles de Halloween y Día de los Muertos',
+    title: 'Ideas de imprimibles de Halloween para vender en Etsy y KDP',
     description: 'Halloween y el Día de los Muertos crean una ventana de ventas excepcional para los emprendedores de imprimibles en el mercado hispano. Mientras que Halloween genere demanda explosiva en octubre con calabazas, fantasmas y brujas, el Día de los Muertos (1-2 de noviembre) extiende la temporada en México y comunidades latinas con calaveras de azúcar, ofrendas y cempasúchil. Para los vendedores inteligentes, esta combinación significa casi dos meses de ventas intensas con dos públicos distintos. Los padres hispanos en Estados Unidos buscan ambos temas activamente en Etsy y Amazon. En México, el Día de los Muertos genere aún más demanda que Halloween. Esta guía le presenta ideas de productos para ambas celebraciones, estrategias de precios estacionales y cómo posicionar su tienda en Etsy, KDP y Hotmart para capturar este doble pico de demanda.',
   },
   marketOverview: `El nicho de imprimibles de Halloween se posiciona como la segunda oportunidad estacional más valiosa para los vendedores de productos educativos, solo por detrás de la Navidad en volumen total de demanda pero ofreciendo una ventana de ventas más corta y concentrada que hace que la temporalización sea especialmente importante. Los vendedores comienzan a planificar las actividades del mercado de octubre y las fiestas de Halloween a finales de agosto y principios de septiembre, buscando fichas temáticas que equilibren la diversión espeluznante con un valor educativo genuino. Los padres buscan actividades de Halloween apropiadas para la edad que transformen el tiempo frente a la pantalla en experiencias de aprendizaje creativo durante las semanas de emoción por los disfraces y la anticipación del truco o trato. Los organizadores de fiestas y eventos compran fichas de actividades temáticas para fiestas del mercado, eventos comunitarios, celebraciones de truco o trato en estacionamientos y celebraciones familiares de Halloween.

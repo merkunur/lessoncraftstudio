@@ -1,25 +1,26 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'rompecabezas gratis código cree matemáticos',
+    primaryKeyword: 'mensaje secreto con sumas gratis',
     secondaryKeywords: [
-      'rompecabezas de código matematico gratis sin registro',
-      'generador de sumas codificadas gratis en línea',
-      'fichas de código de sumas gratis para imprimir',
-      'puzzles matemáticos con código gratis',
+      'código secreto matemáticas gratis',
+      'descifrar código sumas online',
+      'acertijo de sumas gratis',
+      'fichas código secreto gratis',
     ],
     lsiKeywords: [
-      'actividades de lógica matemática para niños',
-      'ejercicios de decodificación con sumas',
-      'fichas de matemáticas divertidas imprimibles',
+      'descifrar',
+      'código',
+      'mensaje oculto',
+      'enigma',
     ],
-    titleTag: 'Rompecabezas de código gratis | LCS',
-    metaDescription: 'Cree rompecabezas matemáticos codificados gratis. Resuelva sumas para descifrar mensajes. Sin registro. Licencia comercial disponible.',
+    titleTag: 'Mensaje secreto con sumas gratis | Generador online',
+    metaDescription: 'Cree fichas de mensaje secreto con sumas gratis. Sin registro. Los niños resuelven sumas para descifrar mensajes. PDF con marca de agua.',
     },
 
   hero: {
-    title: 'Cree rompecabezas matemáticos codificados gratis en línea',
-    tagline: 'Combine sumas con decodificación — fichas divertidas listas en segundos.',
+    title: 'Mensaje secreto con sumas gratis — Generador online',
+    tagline: 'Fichas donde los niños descifran mensajes resolviendo sumas — gratis, sin registro.',
     description: 'Cree rompecabezas matemáticos codificados gratis donde los niños resuelven sumas para descifrar palabras y mensajes ocultos. Este generador combine cálculo con lógica de decodificación, haciendo las matemáticas mucho mas atractivas. Seleccione el nivel de dificultad, el tema visual y el tipo de mensaje. Cada ficha incluye solucionario y se exporta en PDF listo para imprimir. No necesita registro ni tarjeta de crédito — todas las funciones disponibles al instante. Las descargas incluyen marca de agua. Ideal para padres y educadores que buscan actividades diferentes. ¿Quiere vender estas fichas? Pase a la licencia comercial para eliminar la marca de agua y vender en Etsy, KDP o Hotmart.',
   },
 

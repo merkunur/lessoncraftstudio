@@ -1,25 +1,26 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'generador de fichas de sumas gratis en línea',
+    primaryKeyword: 'generador de sumas gratis online',
     secondaryKeywords: [
-      'fichas de sumas gratis sin registro',
-      'generador de sumas con imágenes gratis en línea',
-      'ejercicios de suma gratis para imprimir',
-      'fichas de sumas gratis sin tarjeta de crédito',
+      'fichas de sumas gratis para imprimir',
+      'ejercicios de sumas online gratis',
+      'sumas con imágenes gratis',
+      'crear fichas de sumas gratis',
     ],
     lsiKeywords: [
-      'fichas de matemáticas para primaria imprimibles',
-      'ejercicios de cálculo con imágenes temáticas',
-      'hojas de sumas con solucionario automático',
+      'primaria',
+      'sin llevar',
+      'con llevada',
+      'imprimir',
     ],
-    titleTag: 'Generador de fichas de sumas gratis | LCS',
-    metaDescription: 'Cree fichas de sumas gratis con imágenes temáticas. Sin registro, sin tarjeta. Descargue con marca de agua. Pase a licencia comercial para vender.',
+    titleTag: 'Generador de sumas gratis online | Crear fichas para imprimir',
+    metaDescription: 'Cree fichas de sumas gratis con imágenes temáticas. Sin registro. Soluciones automáticas, PDF con marca de agua. Licencia comercial disponible.',
     },
 
   hero: {
-    title: 'Cree fichas de sumas gratis con imágenes temáticas',
-    tagline: 'Genere fichas de sumas ilustradas en segundos — sin registro, sin tarjeta de crédito.',
+    title: 'Generador de sumas gratis online — Cree fichas para imprimir',
+    tagline: 'Fichas de sumas con imágenes temáticas gratis — sin registro, sin tarjeta de crédito.',
     description: 'Cree fichas de sumas gratis con imágenes temáticas de mas de 3.000 ilustraciones — animales, vehículos, alimentos y mas. Este generador en línea le permite elegir el rango de números, la cantidad de ejercicios y el tema visual. Cada ficha incluye solucionario automático y se exporta en PDF listo para imprimir. No necesita registro ni tarjeta de crédito: todas las funciones están disponibles desde el primer momento. Las descargas incluyen una marca de agua transparente. Ideal para padres, educadores y creadores de contenido que quieren probar antes de comprar. ¿Quiere vender fichas de sumas? Pase a la licencia comercial para eliminar la marca de agua y obtener archivos a 300 DPI listos para Etsy, KDP y Hotmart.',
   },
 

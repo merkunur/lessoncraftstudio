@@ -2,25 +2,28 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'generador de sudoku con imágenes gratis para niños',
+    primaryKeyword: 'sudoku gratis para imprimir',
     secondaryKeywords: [
-      'sudoku con imágenes gratis sin registro',
-      'generador de sudoku visual en línea gratis para niños',
-      'crear sudoku con ilustraciones gratis para imprimir',
-      'sudoku con imágenes gratis PDF con solución',
+      'generador de sudoku gratis',
+      'sudoku para niños gratis',
+      'sudoku con imágenes gratis',
+      'crear sudoku gratis',
     ],
     lsiKeywords: [
-      'sudoku 4x4 con ilustraciones para preescolar',
-      'puzzle de lógica visual con imágenes para niños',
-      'sudoku con dibujos imprimible gratis PDF',
+      'grilla',
+      'lógica',
+      'números',
+      'imágenes',
+      '4x4',
+      '6x6',
     ],
-    titleTag: 'Sudoku con imágenes gratis niños | LCS',
-    metaDescription: 'Cree sudoku con imágenes gratis para niños sin registro. Cuadrículas 4x4 con ilustraciones, 104 temas, solución. Venda en Etsy & KDP con licencia comercial.',
+    titleTag: 'Sudoku gratis para imprimir | Generador online',
+    metaDescription: 'Cree sudoku gratis con imágenes o números, dificultad ajustable. Sin registro. Soluciones automáticas. PDF con marca de agua.',
   },
 
   hero: {
-    title: 'Cree sudoku con imágenes gratis para niños',
-    tagline: 'Generador de puzzles de sudoku con imágenes 4×4 con tres niveles de dificultad (Fácil 4 celdas vacías, Medio 6 celdas vacías, Difícil 8 celdas vacías), claves de respuestas autogeneradas mostrando cuadrículas completas, selección de imágenes por tema y manual en 104 colecciones con más de 3100 ilustraciones, diseño premium de cuadrícula con colores de bloque alternos y sombras multicapa, y puzzles puramente visuales que se venden en todo el mundo sin traducción',
+    title: 'Sudoku gratis para imprimir — Generador online',
+    tagline: 'Sudoku con imágenes o números gratis — dificultad ajustable, sin registro.',
     description: 'Cree sudoku con imágenes gratis para niños con este generador en línea. Genere cuadrículas 4x4 donde los usuarios colocan ilustraciones temáticas en lugar de números, ideal para introducir la lógica del sudoku a los más pequeños. Navegue 104 colecciones con más de 3.100 imágenes o suba las suyas. Configure la dificultad ajustando las casillas vacías y exporte con solución autogenerada. Exporte en JPEG y PDF a 300 DPI en tamaño Carta, A4 o personalizado. La prueba gratis incluya todas las funciones con marca de agua. Sin registro, sin instalación. ¿Quiere vender? Pase a la licencia comercial para eliminar la marca de agua y obtener uso comercial completo.',
   },
 

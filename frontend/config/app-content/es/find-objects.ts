@@ -2,25 +2,27 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'crear busca y encuentra para vender en Etsy y KDP',
+    primaryKeyword: 'busca y encuentra para imprimir',
     secondaryKeywords: [
-      'generador de fichas busca y encuentra para Etsy',
-      'fichas de objetos escondidos para Amazon KDP',
-      'crear busca y encuentra imprimibles licencia comercial',
-      'fichas hidden object para vender online',
+      'objetos escondidos para imprimir',
+      'juego de observación ficha',
+      'encuentra los objetos ficha',
+      'busca y encuentra niños',
     ],
     lsiKeywords: [
-      'fichas busque encuentra vendedores Etsy KDP',
-      'libros objetos escondidos imprimibles Amazon',
-      'negocio fichas búsqueda visual mercado hispano',
+      'observación',
+      'concentración',
+      'atención visual',
+      'buscar',
+      'encontrar',
     ],
-    titleTag: 'Busca y encuentra para vender en Etsy | LCS',
-    metaDescription: 'Cree fichas de busca y encuentra para vender en Etsy y KDP. Imágenes temáticas, dificultad ajustable. Licencia comercial incluida. 49 $ pago unico.',
+    titleTag: 'Busca y encuentra para imprimir | Generador juegos de observación',
+    metaDescription: 'Cree fichas de "busca y encuentra" con imágenes temáticas. Soluciones automáticas, PDF 300 DPI. Prueba gratis — venda en Etsy y KDP.',
   },
 
   hero: {
-    title: 'Genere fichas de busca y encuentra para vender en Etsy y KDP',
-    tagline: 'Cree fichas de objetos escondidos con imágenes temáticas — un formato que engancha.',
+    title: 'Busca y encuentra para imprimir — Generador de juegos de observación',
+    tagline: 'Cree fichas de "busca y encuentra" con imágenes temáticas — soluciones automáticas, PDF 300 DPI.',
     description:
       'Genere fichas de busca y encuentra para vender en Etsy, Amazon KDP o Hotmart. Las fichas de objetos escondidos son un formato favorito de niños y adultos — los usuarios buscan imágenes específicas dentro de una escena temática compleja. Este generador crea fichas con imágenes de más de 104 categorías, con dificultad ajustable según la cantidad de objetos y la complejidad visual. Los libros de busca y encuentra son un género probado en Amazon KDP con ventas consistentes. Exporte PDFs a 300 DPI con solucionario automático y véndalos con la licencia comercial incluida. El formato es puramente visual y funciona en cualquier idioma. Pruebe gratis con marca de agua — sin registro.',
   },

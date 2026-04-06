@@ -2,25 +2,27 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'rompecabezas de cuadrícula para negocio de imprimibles',
+    primaryKeyword: 'dibujo en cuadrícula para imprimir',
     secondaryKeywords: [
-      'generador de fichas de cuadrícula para Etsy',
-      'rompecabezas de asociación en cuadrícula para KDP',
-      'fichas de grid match licencia comercial',
-      'crear fichas de cuadrícula visual para vender',
+      'reproducir en cuadrícula ficha',
+      'pixel art para imprimir',
+      'copiar dibujo en cuadrícula',
+      'simetría en cuadrícula',
     ],
     lsiKeywords: [
-      'fichas cuadrícula asociación vendedores Etsy',
-      'rompecabezas cuadrícula imprimibles KDP',
-      'negocio fichas lógica visual mercado hispano',
+      'cuadrícula',
+      'reproducir',
+      'copiar',
+      'simetría',
+      'orientación espacial',
     ],
-    titleTag: 'Rompecabezas de cuadrícula para Etsy y KDP | LCS',
-    metaDescription: 'Cree rompecabezas de cuadrícula con imágenes para vender en Etsy y KDP. Formato único de lógica visual. Licencia comercial incluida. 49 $ pago unico.',
+    titleTag: 'Dibujo en cuadrícula para imprimir | Generador de reproducción',
+    metaDescription: 'Cree fichas de reproducción en cuadrícula con imágenes temáticas. Soluciones automáticas, PDF imprimibles. Prueba gratis.',
   },
 
   hero: {
-    title: 'Genere rompecabezas de cuadrícula para vender en Etsy, KDP y Hotmart',
-    tagline: 'Cree fichas de lógica visual en cuadrícula — un formato innovador que se destaca.',
+    title: 'Dibujo en cuadrícula para imprimir — Generador de reproducción con imágenes',
+    tagline: 'Cree fichas de reproducción en cuadrícula con imágenes temáticas — soluciones automáticas.',
     description:
       'Genere rompecabezas de cuadrícula para vender en Etsy, Amazon KDP o Hotmart. Este formato presenta una cuadrícula con imágenes temáticas donde los niños deben completar patrones, encontrar asociaciones o resolver desafíos de lógica visual. Es un formato diferenciador que se destaca en los listados de Etsy frente a las fichas estándar. Seleccione entre más de 3.000 ilustraciones en 104 temas y configure la dificultad. Exporte PDFs a 300 DPI con solucionario automático y véndalos con la licencia comercial incluida. Los rompecabezas de cuadrícula son ideales para cuadernillos de lógica en Amazon KDP — un nicho en crecimiento con poca competencia en español. Pruebe gratis con marca de agua — sin registro.',
   },

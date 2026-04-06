@@ -4,23 +4,25 @@ const content: GuideContent = {
   seo: {
     primaryKeyword: 'derechos de autor para vendedores de imprimibles',
     secondaryKeywords: [
-      'proteger imprimibles con derechos de autor',
-      'copyright para productos digitales educativos',
-      'protección legal fichas imprimibles',
-      'derechos de propiedad intelectual imprimibles',
+      'copyright imprimibles educativos',
+      'proteger imprimibles derechos de autor',
+      'derechos de autor fichas Etsy',
+      'legalidad vender imprimibles copyright',
     ],
     lsiKeywords: [
-      'registro de copyright infracción piratería digital',
-      'marca registrada protección de diseño DMCA',
-      'términos de uso licencia propiedad intelectual vendedores',
+      'copyright',
+      'derechos',
+      'propiedad intelectual',
+      'protección',
+      'legal',
     ],
-    titleTag: 'Derechos de autor para vendedores | LCS',
-    metaDescription: 'Proteja sus imprimibles con derechos de autor. Guía legal para vendedores en Etsy, KDP y Hotmart: registro, piratería y protección de diseños.',
+    titleTag: 'Derechos de autor para vendedores de imprimibles',
+    metaDescription: 'Guía sobre derechos de autor para vendedores de imprimibles. Protección, legalidad y mejores prácticas para su negocio.',
   },
 
   hero: {
-    title: 'Proteja sus imprimibles: derechos de autor para vendedores',
-    tagline: 'Una guía completa para comprender los derechos de autor como propietario de un negocio de imprimibles — cubriendo qué protegen los derechos de autor en las fichas, qué es y qué no es protegible en productos educativos, proteger sus diseños originales, comprender el uso legítimo (fair use), usar recursos del dominio público, manejar la infracción, evitar errores de derechos de autor e integrar la conciencia sobre derechos de autor en sus operaciones',
+    title: 'Derechos de autor para vendedores de imprimibles',
+    tagline: 'Protección, legalidad y mejores prácticas para su negocio de imprimibles.',
     description: 'Sus imprimibles son propiedad intelectual con valor real y merecen protección legal adecuada. Entender los derechos de autor le permite proteger su trabajo, actuar contra la piratería y establecer términos claros para sus compradores. Esta guía cubre todo lo que un vendedor de imprimibles necesita saber sobre copyright: desde la protección automática hasta el registro formal y las acciones contra infracciones. Aprenda las mejores prácticas para Etsy, Amazon KDP y Hotmart. El mercado hispanohablante abarca múltiples jurisdicciones legales que debe considerar para una protección completa.',
   },
 

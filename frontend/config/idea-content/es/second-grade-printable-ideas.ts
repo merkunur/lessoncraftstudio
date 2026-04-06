@@ -2,23 +2,24 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Imprimibles 2do grado — Negocio | LCS',
-    metaDescription: 'Ideas de negocio con de segundo grado para Etsy y Amazon KDP. Fichas de multiplicación, comprensión lectora y problemas matemáticos para 2do grado.',
-    primaryKeyword: 'imprimibles de segundo grado ideas negocio',
+    titleTag: 'Imprimibles segundo grado para Etsy | Nicho',
+    metaDescription: 'Ideas de imprimibles de segundo grado para Etsy y KDP. Multiplicación, comprensión lectora y más.',
+    primaryKeyword: 'imprimibles de segundo grado para vender en Etsy',
     secondaryKeywords: [
-      'fichas de segundo de primaria para vender',
-      'negocio imprimibles segundo grado Etsy',
-      'actividades de segundo grado tiendas digitales',
-      'nicho de segundo grado imprimibles educativos',
+      'fichas segundo grado Etsy KDP',
+      'actividades segundo de primaria imprimibles',
+      'negocio imprimibles segundo grado',
+      'fichas de multiplicación para vender',
     ],
     lsiKeywords: [
-      'fichas de multiplicación segundo grado vendedores',
-      'cuadernillos de comprensión lectora KDP',
-      'imprimibles de problemas matemáticos Hotmart',
+      'segundo grado',
+      'multiplicación',
+      'comprensión lectora',
+      'matemáticas',
     ],
   },
   hero: {
-    title: 'Imprimibles de Segundo Grado: Ideas de Negocio',
+    title: 'Ideas de imprimibles de segundo grado para vender en Etsy y KDP',
     description: 'Segundo grado introduzca conceptos matemáticos más complejos como la multiplicación temprana, el valor posicional con centenas y la resolución de problemas de varios pasos, creando una necesidad constante de material de práctica entre padres y educadores. Comprensión lectora, escritura creativa, geometría básica y medición amplían las oportunidades de productos. Esta guía presenta ideas de productos concretos, estrategias por plataforma y enfoques de posicionamiento para construir un catálogo rentable de imprimibles de segundo grado en Etsy, Amazon KDP y Hotmart. Cada generador ofrece una prueba gratis con marca de agua para evaluar la calidad.',
   },
   marketOverview: `El mercado de imprimibles de segundo grado representa una de las oportunidades de ingresos más sólidas en el nicho educativo porque segundo grado se sitúa en la intersección crítica donde las expectativas académicas se intensifican mientras las brechas de habilidades de los usuarios se amplían, creando una presión de compre dual de vendedores que deben diferenciar la instrucción en tiendas cada vez más diversas y padres que enfrentan una responsabilidad mayor por el progreso académico de su hijo a través de informes de evaluación más formales y estándares de competencia a nivel de grado. Solo el catálogo de productos de matemáticas impulsa una enorme demanda de imprimibles porque las matemáticas de segundo grado hacen la transición de las operaciones con un solo dígito dominadas en primer grado a la computación de múltiples dígitos que requiere estrategias de reagrupación, comprensión del valor posicional extendiéndose hasta centenas, y aplicaciones de resolución de problemas que involucran tiempo, dinero, medición y análisis de datos que colectivamente representan el aumento más significativo de complejidad matemática en los grados primarios.

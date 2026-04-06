@@ -2,23 +2,24 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Imprimibles piratas — Negocio | LCS',
-    metaDescription: 'Ideas de negocio con de piratas para Etsy, Amazon KDP y Hotmart. Fichas de mapas del tesoro, vocabulario náutico y actividades de aventura pirata.',
-    primaryKeyword: 'imprimibles de piratas ideas negocio',
+    titleTag: 'Imprimibles de piratas para Etsy | Nicho',
+    metaDescription: 'Ideas de imprimibles de piratas para Etsy y KDP. Mapas del tesoro, barcos y aventuras perennes.',
+    primaryKeyword: 'imprimibles de piratas para vender en Etsy',
     secondaryKeywords: [
-      'fichas de piratas para vender en Etsy',
-      'negocio de imprimibles temática pirata',
-      'actividades de piratas para tiendas digitales',
-      'nicho de piratas imprimibles educativos',
+      'fichas de piratas Etsy KDP',
+      'actividades piratas imprimibles',
+      'negocio imprimibles piratas',
+      'fichas de tesoros para vender',
     ],
     lsiKeywords: [
-      'fichas de tesoros y mapas para vendedores',
-      'cuadernillos de aventuras piratas KDP',
-      'imprimibles náuticos Hotmart negocio',
+      'piratas',
+      'tesoro',
+      'barcos',
+      'aventura',
     ],
   },
   hero: {
-    title: 'Imprimibles de Piratas: Ideas de Negocio para Vendedores',
+    title: 'Ideas de imprimibles de piratas para vender en Etsy y KDP',
     description: 'Los piratas ofrecen uno de los temas más emocionantes y versátiles para imprimibles educativos, con un atractivo que trasciende géneros y culturas. Mapas del tesoro, barcos, cofres de oro, brújulas y banderas piratas proporcionan un vocabulario visual rico que conecta con matemáticas, lectoescritura, geografía y resolución de problemas. Esta guía presenta ideas de productos concretos, estrategias de posicionamiento y tácticas por plataforma para construir un catálogo rentable de imprimibles piratas en Etsy, Amazon KDP y Hotmart. Pruebe cada generador gratis con marca de agua antes de invertir en una licencia comercial.',
   },
   marketOverview: `El nicho de imprimibles de piratas ocupa una posición excepcionalmente poderosa para los vendedores de imprimibles porque prácticamente todos los niños pequeños experimentan una profunda fascinación imaginativa con las búsquedas del tesoro, los barcos pirata y las aventureras posibilidades de explorar islas misteriosas y descubrir oro escondido. A diferencia de los temas estacionales que concentran la demanda en ventanas estrechas del calendario, el nicho pirata se beneficia de una relevancia genuina durante todo el año: los niños se involucran con el juego de piratas durante todas las estaciones, los medios y juguetes con temática pirata mantienen una popularidad constante, y la narrativa de aventura que impulsa la fascinación pirata opera independientemente del clima o los eventos del calendario. Este patrón de demanda consistente hace que los imprimibles de piratas sean una fuente de ingresos confiable sin los ciclos de abundancia y escasez que desafían a los vendedores en nichos más estacionales.

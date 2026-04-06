@@ -2,25 +2,27 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'marketing estacional para vendedores de imprimibles',
+    primaryKeyword: 'marketing estacional para imprimibles',
     secondaryKeywords: [
-      'calendario de marketing imprimibles por temporada',
-      'ventas estacionales fichas educativas',
-      'aprovechar temporadas para vender imprimibles',
-      'marketing por temporada productos digitales',
+      'vender imprimibles por temporada',
+      'calendario estacional imprimibles',
+      'fichas estacionales Etsy',
+      'temporadas más rentables imprimibles',
     ],
     lsiKeywords: [
-      'vuelta al cole Navidad verano temporadas de venta',
-      'planificación anticipada calendario editorial tendencias',
-      'picos de demanda ciclos de compre estacionalidad',
+      'estacional',
+      'temporada',
+      'Navidad',
+      'Halloween',
+      'regreso a clases',
     ],
-    titleTag: 'Marketing estacional para imprimibles | LCS',
-    metaDescription: 'Domine el marketing estacional para vender más imprimibles. Calendario completo de temporadas para Etsy, KDP y Hotmart con planificación anticipada.',
+    titleTag: 'Marketing estacional para imprimibles | Guía',
+    metaDescription: 'Guía de marketing estacional para vendedores de imprimibles. Calendario, temporadas clave y estrategia de publicación.',
   },
 
   hero: {
-    title: 'Marketing estacional: venda más imprimibles todo el año',
-    tagline: 'Una guía completa sobre marketing estacional de imprimibles — que cubre cómo mapear los ciclos de demanda anuales, construir calendarios de producción alineados con periodos pico, optimizar listados para búsquedas estacionales, crear variaciones temáticas de productos de manera eficiente, planificar paquetes estacionales, programar campañas de marketing, analizar el rendimiento año tras año y equilibrar lanzamientos estacionales con la profundidad del catálogo perenne',
+    title: 'Marketing estacional para imprimibles — Guía completa',
+    tagline: 'Calendario, temporadas clave y estrategia de publicación para maximizar ventas.',
     description: 'Las temporadas marcan los picos de ventas más importantes para vendedores de imprimibles. Vuelta al cole, Navidad, fin de curso y vacaciones de verano son momentos donde la demanda se multiplica para quien está preparado. Esta guía le muestra el calendario completo de marketing estacional: cuándo crear, cuándo publicar y cómo capitalizar cada temporada para maximizar sus ingresos. Planifique sus ventas en Etsy, Amazon KDP y Hotmart con anticipación. El mercado hispanohablante tiene temporadas propias como el Día de Muertos y la vuelta al cole en febrero.',
   },
 

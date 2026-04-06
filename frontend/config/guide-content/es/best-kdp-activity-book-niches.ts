@@ -2,25 +2,28 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'mejores nichos de cuadernillos KDP 2026',
+    primaryKeyword: 'mejores nichos KDP libros de actividades',
     secondaryKeywords: [
-      'nichos rentables libros actividades Amazon KDP 2026',
-      'mejores categorías cuadernillos educativos KDP este año',
-      'nichos de baja competencia libros actividades KDP',
-      'investigación de nichos libros actividades Amazon KDP',
+      'nichos rentables KDP actividades',
+      'qué libros de actividades se venden KDP',
+      'investigación nichos KDP',
+      'nichos baja competencia KDP',
     ],
     lsiKeywords: [
-      'demanda Amazon BSR ranking categorías libros actividades infantiles',
-      'competencia análisis portadas reseñas palabras clave nicho KDP',
-      'tendencias estacionales nichos perennes libros educativos puzles',
+      'nichos',
+      'KDP',
+      'competencia',
+      'demanda',
+      'rentabilidad',
+      'tendencias',
     ],
-    titleTag: 'Mejores nichos cuadernillos KDP (2026) | LCS',
-    metaDescription: 'Descubra los mejores nichos de cuadernillos para Amazon KDP en 2026. Análisis de demanda, competencia y rentabilidad para elegir su nicho ideal.',
+    titleTag: 'Mejores nichos KDP libros de actividades | Guía',
+    metaDescription: 'Descubra los nichos más rentables para libros de actividades en Amazon KDP. Análisis de competencia y demanda.',
   },
 
   hero: {
-    title: 'Mejores nichos de cuadernillos para Amazon KDP en 2026',
-    tagline: 'Una guía de investigación de nichos para editores de libros de actividades en Amazon KDP — incluyendo análisis de demanda-competencia para cada categoría importante de libros de actividades, estrategias de segmentación de audiencia que multiplican oportunidades de nicho, interpretación de datos BSR y reseñas de Amazon para validación de nichos, sub-nichos desatendidos con fuerte demanda de compradores y poca competencia, temporalidad de nichos estacionales versus perennes para planificación de catálogo, nichos híbridos multicategoría que alcanzan múltiples grupos de compradores, y estrategias de portafolio multi-nicho que equilibran profundidad con diversificación',
+    title: 'Mejores nichos para libros de actividades en Amazon KDP',
+    tagline: 'Análisis de competencia y demanda para encontrar nichos rentables en KDP.',
     description: 'Elegir el nicho correcto es la decisión más importante al publicar libros de actividades en Amazon KDP. Un nicho con alta demanda y competencia manejable puede generar ventas consistentes, mientras que un nicho saturado o sin demanda desperdicia su tiempo y esfuerzo. Esta guía analice los nichos más rentables de cuadernillos para KDP en 2026, incluyendo categorías perennes con demanda constante y nichos emergentes con oportunidades de crecimiento. Aprenda a investigar la demanda usando BSR y análisis de palabras clave, evaluar la competencia real en cada nicho, identificar subnichos desatendidos y seleccionar categorías que se alineen con los generadores de LessonCraftStudio para producción eficiente.',
   },
 

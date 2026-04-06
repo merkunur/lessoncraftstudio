@@ -2,25 +2,27 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'fichas de mayor y menor para vender en Etsy',
+    primaryKeyword: 'fichas mayor menor igual para imprimir',
     secondaryKeywords: [
-      'generador de fichas de comparación numérica para Etsy',
-      'fichas de mayor que menor que para Amazon KDP',
-      'ejercicios de comparación imprimibles licencia comercial',
-      'crear fichas de mayor menor para vender',
+      'comparar números ficha',
+      'mayor que menor que ejercicios',
+      'más que menos que ficha',
+      'comparación de cantidades',
     ],
     lsiKeywords: [
-      'fichas mayor menor vendedores Etsy preescolar',
-      'ejercicios comparación numérica imprimibles KDP',
-      'negocio fichas matemáticas básicas mercado hispano',
+      'mayor que',
+      'menor que',
+      'igual',
+      'comparar',
+      'cantidades',
     ],
-    titleTag: 'Fichas de mayor y menor para Etsy y KDP | LCS',
-    metaDescription: 'Cree fichas de mayor y menor para vender en Etsy y KDP. Comparación visual con imágenes temáticas. Licencia comercial incluida. Pruebe gratis. 49 $ pago unico.',
+    titleTag: 'Fichas mayor menor igual para imprimir | Generador de comparación',
+    metaDescription: 'Cree fichas de comparación de números y cantidades con imágenes temáticas. Soluciones automáticas, PDF 300 DPI. Prueba gratis.',
   },
 
   hero: {
-    title: 'Genere fichas de mayor y menor para vender en Etsy, KDP y Hotmart',
-    tagline: 'Cree fichas de comparación numérica con imágenes — un concepto que se enseña siempre.',
+    title: 'Fichas mayor menor igual para imprimir — Generador de comparación de números',
+    tagline: 'Cree fichas de comparación de números y cantidades con imágenes temáticas — soluciones automáticas.',
     description:
       'Genere fichas de mayor y menor para vender en Etsy, Amazon KDP o Hotmart. Los niños cuentan imágenes temáticas y comparan cantidades usando los signos mayor que (>), menor que (<) e igual (=). Este formato visual hace que la comparación numérica sea concreta y accesible para preescolar e infantil. Con más de 3.000 imágenes en 104 temas, cree fichas para cualquier interés. Las fichas de comparación matemática son un producto con demanda constante en Etsy y Amazon KDP. Exporte PDFs a 300 DPI con solucionario automático y véndalos con la licencia comercial incluida. Pruebe gratis con marca de agua — sin registro.',
   },

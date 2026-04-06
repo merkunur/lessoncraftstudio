@@ -2,25 +2,27 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'cuánto se puede ganar vendiendo imprimibles',
+    primaryKeyword: 'ingresos pasivos con imprimibles',
     secondaryKeywords: [
-      'ingresos realistas negocio de imprimibles',
-      'cuánto gana un vendedor de fichas en Etsy',
-      'potencial de ingresos imprimibles educativos',
-      'rentabilidad negocio de fichas imprimibles',
+      'ganar dinero con fichas educativas',
+      'cuánto se gana vendiendo imprimibles',
+      'ingresos imprimibles Etsy KDP',
+      'monetizar imprimibles educativos',
     ],
     lsiKeywords: [
-      'margen de beneficio fichas digitales vendedores',
-      'ingresos pasivos imprimibles educativos',
-      'escalabilidad negocio descargue digitales',
+      'ingresos',
+      'pasivos',
+      'ganancias',
+      'rentabilidad',
+      'escalado',
     ],
-    titleTag: 'Cuánto ganar vendiendo imprimibles | LCS',
-    metaDescription: 'Cuánto se puede ganar vendiendo. Análisis realista de ingresos, márgenes y factores de crecimiento para negocios de fichas en Etsy y Amazon KDP.',
+    titleTag: 'Ingresos pasivos con imprimibles | Cuánto se gana',
+    metaDescription: 'Descubra cuánto puede ganar vendiendo imprimibles en Etsy y KDP. Estrategias de precios y escalado para ingresos pasivos.',
   },
 
   hero: {
-    title: 'Cuánto Se Puede Ganar Vendiendo Imprimibles',
-    tagline: 'Análisis realista de ingresos, márgenes y factores de crecimiento — sin promesas infladas',
+    title: 'Ingresos pasivos con imprimibles — Cuánto se puede ganar',
+    tagline: 'Estrategias de precios y escalado para generar ingresos pasivos vendiendo imprimibles.',
     description: 'La pregunta más común de los nuevos vendedores de imprimibles es cuánto pueden ganar. La respuesta honesta depende de múltiples factores: nicho elegido, tamaño del catálogo, calidad de los productos, optimización de listados y consistencia de producción. Esta guía presenta un análisis realista de los rangos de ingresos en cada etapa del negocio, los márgenes de beneficio reales descontando comisiones de plataforma, y los factores que determinan la velocidad de crecimiento. Sin promesas infladas ni cifras inventadas — solo datos prácticos para planificar su negocio de imprimibles. Cada generador ofrece una prueba gratis con marca de agua.',
   },
 

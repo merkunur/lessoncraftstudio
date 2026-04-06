@@ -2,25 +2,27 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'crear fichas multilingües para vender',
+    primaryKeyword: 'crear fichas en varios idiomas para vender',
     secondaryKeywords: [
-      'negocio de imprimibles en varios idiomas',
-      'fichas bilingües para vender en Etsy',
-      'imprimibles multilingües mercado global',
-      'vender fichas educativas en múltiples idiomas',
+      'imprimibles multilingües Etsy',
+      'fichas en 11 idiomas',
+      'vender fichas internacionales',
+      'imprimibles varios idiomas KDP',
     ],
     lsiKeywords: [
-      'generador de fichas multiidioma vendedores',
-      'imprimibles en 11 idiomas negocio',
-      'mercado global de fichas educativas',
+      'multilingüe',
+      'idiomas',
+      'internacional',
+      'traducción',
+      'mercado global',
     ],
-    titleTag: 'Fichas multilingües para vender | LCS',
-    metaDescription: 'Cómo crear fichas multilingües para vender globalmente. Imprimibles en 11 idiomas para Etsy, Amazon KDP y Hotmart.',
+    titleTag: 'Crear fichas en varios idiomas para vender | Guía',
+    metaDescription: 'Guía para crear y vender fichas en varios idiomas. Multiplique su alcance con imprimibles en 11 idiomas para Etsy y KDP.',
   },
 
   hero: {
-    title: 'Crear Fichas Multilingües para Vender Globalmente',
-    tagline: 'Multiplique su mercado potencial por 11 con fichas en varios idiomas generadas automáticamente',
+    title: 'Crear fichas en varios idiomas para vender',
+    tagline: 'Multiplique su alcance vendiendo fichas en 11 idiomas — Etsy, KDP y más.',
     description: 'La mayoría de vendedores de imprimibles se limitan a un solo idioma, ignorando el 85% del mercado global. Los generadores de LessonCraftStudio soportan 11 idiomas — inglés, alemán, francés, español, portugués, italiano, neerlandés, sueco, danés, noruego y finés — permitiendo crear fichas multilingües con el mismo esfuerzo que una versión monolingüe. Esta guía cubre la estrategia de mercados por idioma, la optimización de listados en cada plataforma y las tácticas de posicionamiento para construir un catálogo multilingüe rentable en Etsy, Amazon KDP y Hotmart. Cada generador ofrece una prueba gratis con marca de agua.',
   },
 

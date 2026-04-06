@@ -2,25 +2,28 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'cómo empezar un negocio de imprimibles 2026',
+    primaryKeyword: 'guía completa negocio de imprimibles',
     secondaryKeywords: [
-      'guía completa negocio imprimibles desde cero',
-      'iniciar tienda de fichas imprimibles paso a paso',
-      'negocio de imprimibles para principiantes 2026',
-      'vender fichas educativas en línea guía',
+      'iniciar negocio de imprimibles desde cero',
+      'cómo empezar negocio imprimibles',
+      'negocio de fichas educativas guía',
+      'ganar dinero con imprimibles',
     ],
     lsiKeywords: [
-      'modelo de negocio descargue digitales educativas',
-      'generador de fichas para emprendedores',
-      'tienda Etsy de imprimibles rentable',
+      'nicho',
+      'plataforma',
+      'precios',
+      'marketing',
+      'licencia',
+      'escalado',
     ],
-    titleTag: 'Empezar negocio de imprimibles (2026) | LCS',
-    metaDescription: 'Cómo empezar un negocio de imprimibles en 2026. Guía paso a paso para vender fichas educativas en Etsy, Amazon KDP y Hotmart con generadores profesionales.',
+    titleTag: 'Guía completa: negocio de imprimibles desde cero',
+    metaDescription: 'Guía completa para iniciar un negocio de imprimibles. Desde elegir nicho hasta escalar ventas en Etsy, KDP y más.',
   },
 
   hero: {
-    title: 'Cómo Empezar un Negocio de Imprimibles en 2026',
-    tagline: 'De cero a su primera venta — todo lo que necesita saber para crear un negocio rentable de fichas imprimibles',
+    title: 'Guía completa: negocio de imprimibles desde cero',
+    tagline: 'Todo lo que necesita para iniciar y hacer crecer un negocio de imprimibles rentable.',
     description: 'Esta guía le acompaña en cada paso del lanzamiento de un negocio de fichas imprimibles en 2026. Aprenderá a elegir un nicho rentable, crear productos profesionales sin habilidades de diseño, publicar en las plataformas adecuadas, fijar precios para obtener beneficios y construir un catálogo que genere ventas constantes. Ya sea que planee vender en Etsy, Amazon KDP, Hotmart o su propia web, este es su punto de partida. Cada generador de fichas mencionado ofrece una prueba gratis con marca de agua para que evalúe la calidad antes de comprar una licencia comercial.',
   },
 

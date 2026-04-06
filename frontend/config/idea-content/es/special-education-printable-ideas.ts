@@ -2,23 +2,24 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Imprimibles educación especial | LCS',
-    metaDescription: 'Ideas de imprimibles de educación especial para vender en Etsy y Hotmart. Fichas adaptadas, apoyos visuales y actividades de inclusión para vendedores.',
-    primaryKeyword: 'imprimibles de educación especial para vender',
+    titleTag: 'Imprimibles educación especial Etsy | Nicho',
+    metaDescription: 'Ideas de imprimibles de educación especial para Etsy y KDP. Fichas adaptadas y apoyos visuales.',
+    primaryKeyword: 'imprimibles de educación especial para vender en Etsy',
     secondaryKeywords: [
-      'fichas de necesidades especiales negocio',
-      'vender imprimibles de inclusión educativa',
-      'actividades adaptadas tiendas digitales',
-      'nicho de educación especial imprimibles',
+      'fichas educación especial Etsy KDP',
+      'actividades adaptadas imprimibles',
+      'negocio imprimibles inclusión',
+      'fichas de apoyo visual para vender',
     ],
     lsiKeywords: [
-      'fichas de apoyo visual vendedores inclusión',
-      'cuadernillos de habilidades sociales KDP',
-      'imprimibles de motricidad para terapia Hotmart',
+      'educación especial',
+      'inclusión',
+      'apoyo visual',
+      'adaptado',
     ],
   },
   hero: {
-    title: 'Imprimibles de Educación Especial: Ideas de Negocio',
+    title: 'Ideas de imprimibles de educación especial para Etsy y KDP',
     description: 'La educación especial representa un nicho de alto valor con compradores que buscan activamente materiales adaptados, apoyos visuales y actividades de inclusión que raramente encuentran en los catálogos genéricos de imprimibles. Fichas de habilidades sociales, actividades de motricidad fina adaptadas, ejercicios de comunicación visual, secuencias simplificadas y materiales de seguimiento conductual forman la base de un catálogo especializado con márgenes superiores. Esta guía cubre ideas de productos específicos, estrategias por plataforma y enfoques de diferenciación para Etsy, Amazon KDP y Hotmart. Pruebe cada generador gratis con marca de agua.',
   },
   marketOverview: `El mercado de imprimibles de educación especial representa una oportunidad de ingresos premium porque los profesionales SPED funcionan como compradores institucionales especializados que deben obtener materiales adaptados de forma independiente cuando los paquetes de productoses estándar no incluyen recursos apropiados para usuarios con necesidades de aprendizaje diversas y adaptaciones relacionadas con discapacidades. Mientras que un vendedor de educación general podría comprar fichas de práctica suplementarias para reforzar la instrucción de toda la clase, un vendedor de educación especial compre materiales adaptados individualmente para usuarios que trabajan en niveles de habilidad vastamente diferentes dentro del mismo tienda o tienda de recursos, multiplicando el volumen de recursos distintos necesarios por período instruccional. Esta diferencia fundamental de compre significa que los profesionales de educación especial gastan sustancialmente más per cápita en imprimibles educativos que los vendedores de educación general, con vendedores del mercado de recursos que atienden a usuarios en múltiples niveles de grado y categorías de discapacidad que necesitan diferentes adaptaciones simultáneamente.

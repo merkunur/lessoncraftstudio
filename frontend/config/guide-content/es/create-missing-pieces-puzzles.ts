@@ -2,25 +2,27 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'crear rompecabezas de piezas faltantes para vender',
+    primaryKeyword: 'cómo crear puzzles de piezas faltantes',
     secondaryKeywords: [
-      'cómo crear fichas de piezas faltantes imprimibles',
-      'guía paso a paso puzzles de piezas que faltan',
-      'vender rompecabezas piezas faltantes en Etsy y KDP',
-      'fichas piezas faltantes licencia comercial Hotmart',
+      'tutorial piezas faltantes paso a paso',
+      'crear rompecabezas para vender',
+      'guía puzzles de observación',
+      'puzzles piezas faltantes para Etsy',
     ],
     lsiKeywords: [
-      'generador de puzzles de piezas faltantes temáticos',
-      'fichas de piezas que faltan para negocio imprimible',
-      'exportar PDF puzzles de piezas faltantes profesionales',
+      'puzzle',
+      'rompecabezas',
+      'observación',
+      'completar',
+      'lógica visual',
     ],
-    titleTag: 'Piezas faltantes para vender | LCS',
-    metaDescription: 'Aprenda a crear rompecabezas de piezas faltantes para vender en Etsy, KDP y Hotmart. Guía paso a paso con generador profesional y licencia comercial.',
+    titleTag: 'Cómo crear puzzles de piezas faltantes | Guía',
+    metaDescription: 'Guía paso a paso para crear puzzles de piezas faltantes con imágenes. Lógica visual, soluciones automáticas, PDF para vender.',
   },
 
   hero: {
-    title: 'Cómo crear rompecabezas de piezas faltantes para vender',
-    tagline: 'Un tutorial paso a paso para crear fichas de puzles de rompecabezas con seis formas de pieza, extracción inteligente de piezas mediante detección de varianza de brillo, piezas distractoras para un desafío genuino, dos controles de dificultad independientes, claves de respuestas autogeneradas con resaltado amarillo y puzles puramente visuales que puede vender en todo el mundo en Etsy, Amazon KDP y Hotmart',
+    title: 'Cómo crear puzzles de piezas faltantes — Guía paso a paso',
+    tagline: 'Tutorial para crear puzzles de piezas faltantes y lógica visual con imágenes.',
     description: 'Descubra cómo crear rompecabezas de piezas faltantes listos para vender en marketplaces de imprimibles. Esta guía paso a paso le muestra cómo configurar la dificultad del puzzle, seleccionar temas con imágenes atractivas y generar fichas profesionales con soluciones incluidas. Aprenda a crear variaciones por tema y complejidad para construir un catálogo completo de productos. Optimice sus anuncios en Etsy, Amazon KDP y Hotmart con títulos y descripciones efectivas. Pruebe todas las funciones gratis con marca de agua antes de comprar su licencia comercial.',
   },
 

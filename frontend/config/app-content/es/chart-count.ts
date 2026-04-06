@@ -2,25 +2,27 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'fichas de conteo y gráficos para tienda Etsy',
+    primaryKeyword: 'fichas de conteo para imprimir',
     secondaryKeywords: [
-      'generador de fichas de gráficos de conteo para Etsy',
-      'fichas de conteo con imágenes para Amazon KDP',
-      'ejercicios de gráficos imprimibles licencia comercial',
-      'crear fichas de contar y graficar para vender',
+      'ejercicios de contar y graficar',
+      'fichas de gráficos primaria',
+      'conteo y diagramas fichas',
+      'actividades de conteo preescolar',
     ],
     lsiKeywords: [
-      'fichas conteo visual preescolar vendedores',
-      'gráficos de barras educativos imprimibles',
-      'negocio fichas conteo mercado hispano Etsy',
+      'contar',
+      'gráfico de barras',
+      'pictograma',
+      'datos',
+      'clasificar',
     ],
-    titleTag: 'Fichas de conteo y gráficos para Etsy | LCS',
-    metaDescription: 'Cree fichas de conteo y gráficos con imágenes para vender en Etsy y KDP. 104 temas visuales, solucionario. Licencia comercial. Pruebe gratis. 49 $ pago unico.',
+    titleTag: 'Fichas de conteo y gráficos para imprimir | Generador',
+    metaDescription: 'Cree fichas de conteo y gráficos con imágenes temáticas. Soluciones automáticas, PDF imprimibles. Prueba gratis.',
   },
 
   hero: {
-    title: 'Cree fichas de conteo y gráficos para vender en Etsy y KDP',
-    tagline: 'Genere fichas donde los niños cuentan imágenes y crean gráficos de barras.',
+    title: 'Fichas de conteo y gráficos para imprimir — Generador con soluciones',
+    tagline: 'Cree fichas de conteo y gráficos con imágenes temáticas — soluciones automáticas, PDF imprimibles.',
     description:
       'Cree fichas de conteo y gráficos para vender en Etsy, Amazon KDP o Hotmart. Los niños cuentan imágenes temáticas y registran los resultados en gráficos de barras — una habilidad matemática esencial para preescolar y primaria. Seleccione entre más de 3.000 ilustraciones en 104 temas para crear fichas visualmente atractivas. Este formato combine conteo, comparación y visualización de datos en una sola ficha, ofreciendo más valor que las fichas de conteo simples. Exporte PDFs a 300 DPI con solucionario y véndalos con la licencia comercial incluida. Las fichas de conteo son un producto perenne — los padres y vendedores las buscan todo el año para preescolar e infantil. Pruebe gratis con marca de agua — sin registro.',
   },

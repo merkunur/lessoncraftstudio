@@ -2,25 +2,27 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'fichas de asociación para crear y vender en Etsy',
+    primaryKeyword: 'fichas de asociación para imprimir',
     secondaryKeywords: [
-      'generador de fichas de emparejar para Etsy',
-      'fichas de asociación con imágenes para Amazon KDP',
-      'crear fichas de match para vender online',
-      'fichas de emparejamiento licencia comercial',
+      'unir con flechas ejercicio',
+      'fichas de emparejar',
+      'relacionar imágenes ficha',
+      'ejercicios de asociar preescolar',
     ],
     lsiKeywords: [
-      'fichas asociación visual vendedores Etsy KDP',
-      'ejercicios emparejar imprimibles preescolar',
-      'negocio fichas emparejamiento mercado hispano',
+      'unir',
+      'emparejar',
+      'pares',
+      'preescolar',
+      'infantil',
     ],
-    titleTag: 'Fichas de asociación para vender en Etsy | LCS',
-    metaDescription: 'Cree fichas de asociación con imágenes para vender en Etsy y KDP. 104 temas, varios formatos, solucionario. Licencia comercial. Pruebe gratis. 49 $ pago unico.',
+    titleTag: 'Fichas de asociación para imprimir | Generador unir con flechas',
+    metaDescription: 'Cree fichas de asociación con imágenes temáticas para preescolar y primaria. Soluciones automáticas, PDF 300 DPI. Prueba gratis.',
   },
 
   hero: {
-    title: 'Genere fichas de asociación para vender en Etsy, KDP y Hotmart',
-    tagline: 'Cree fichas de emparejar con imágenes temáticas — perfectas para preescolar e infantil.',
+    title: 'Fichas de asociación para imprimir — Generador de unir con flechas',
+    tagline: 'Cree fichas de asociación con imágenes temáticas para preescolar y primaria — soluciones automáticas.',
     description:
       'Genere fichas de asociación para vender en Etsy, Amazon KDP o Hotmart. Las fichas de emparejar son un básico absoluto para preescolar e infantil — los padres y vendedores las buscan constantemente. Este generador crea fichas donde los niños conectan imágenes relacionadas, con más de 3.000 ilustraciones en 104 temas. Ofrezca fichas de asociación por tema (animales, alimentos, vehículos), por estación o por nivel de dificultad. Exporte PDFs a 300 DPI con solucionario automático y véndalos con la licencia comercial incluida. Las fichas de asociación funcionan en cualquier idioma porque son puramente visuales, multiplicando su mercado potencial. Pruebe gratis con marca de agua — sin registro.',
   },

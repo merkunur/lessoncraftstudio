@@ -2,25 +2,28 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'crear libros de sudoku para Amazon KDP',
+    primaryKeyword: 'publicar libros de sudoku en Amazon KDP',
     secondaryKeywords: [
-      'publicar libros de sudoku en Amazon KDP guía',
-      'cómo crear libro de sudoku para KDP paso a paso',
-      'formato interior sudoku KDP cuadrículas niveles dificultad',
-      'ganar dinero libros sudoku Amazon KDP nichos',
+      'libros de sudoku KDP guía',
+      'crear libro de sudoku para KDP',
+      'cuadernos de sudoku Amazon',
+      'sudoku para niños KDP',
     ],
     lsiKeywords: [
-      'cuadrículas sudoku fácil medio difícil formato impresión KDP',
-      'portada libro sudoku profesional atractiva Amazon resultados',
-      'nichos sudoku adultos niños temáticos viaje gran formato KDP',
+      'KDP',
+      'sudoku',
+      'puzzles',
+      'publicar',
+      'niños',
+      'dificultad',
     ],
-    titleTag: 'Libros de sudoku para Amazon KDP | LCS',
-    metaDescription: 'Cree y publique libros de sudoku en Amazon KDP. Formato de cuadrículas, niveles de dificultad, diseño de portada y nichos rentables para empezar.',
+    titleTag: 'Publicar libros de sudoku en KDP | Guía',
+    metaDescription: 'Guía para publicar libros de sudoku en Amazon KDP. Dificultad, formato, portada y estrategia de lanzamiento.',
   },
 
   hero: {
-    title: 'Cómo crear y publicar libros de sudoku para Amazon KDP',
-    tagline: 'Una guía enfocada para crear y publicar libros de puzles de sudoku en Amazon KDP — cubriendo el doble mercado de sudoku con imágenes para niños pequeños y sudoku numérico para adultos, estrategias de progresión de dificultad que mantienen a los solucionadores comprometidos desde secciones fáciles hasta experto, formateo de cuadrículas específico de sudoku para impresión limpia, diseño de página y convenciones de claves de respuestas únicas de libros de sudoku, el enfoque de construcción de series que aprovecha el comportamiento de compre recurrente excepcionalmente fuerte de los solucionadores de sudoku, y el camino de expansión desde un catálogo de sudoku hacia la publicación más amplia de libros de puzles',
+    title: 'Publicar libros de sudoku en Amazon KDP — Guía',
+    tagline: 'Dificultad, formato, portada y estrategia de lanzamiento para libros de sudoku en KDP.',
     description: 'Los libros de sudoku tienen una audiencia fiel en Amazon que compre múltiples libros al año, creando una oportunidad de ingresos recurrentes para publicadores de KDP. Desde sudoku fácil para principiantes hasta desafíos expertos, cada nivel de dificultad atiende a un segmento diferente de compradores. Esta guía le muestra cómo formatear cuadrículas de sudoku legibles para impresión, organizar los puzles por nivel de dificultad progresivo, diseñar portadas que destaquen en los resultados de Amazon, seleccionar nichos específicos como sudoku para viajes o gran formato, y optimizar las palabras clave para máxima visibilidad. Aprenda a usar el generador de sudoku de LessonCraftStudio para producir contenido profesional eficientemente.',
   },
 

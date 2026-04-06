@@ -1,25 +1,26 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'fichas de conteo y gráficos gratis',
+    primaryKeyword: 'fichas de conteo gratis para imprimir',
     secondaryKeywords: [
-      'generador de fichas de conteo gratis sin registro',
-      'fichas de gráficos y conteo gratis en línea',
-      'hojas de conteo gratis para imprimir',
-      'fichas de gráficos de barras gratis para niños',
+      'ejercicios de contar y graficar gratis',
+      'fichas de gráficos gratis',
+      'conteo y diagramas gratis',
+      'actividades de conteo gratis',
     ],
     lsiKeywords: [
-      'actividades de conteo para preescolar imprimibles',
-      'fichas de gráficos para primaria',
-      'hojas de trabajo de datos y conteo',
+      'contar',
+      'gráfico de barras',
+      'pictograma',
+      'datos',
     ],
-    titleTag: 'Fichas de conteo gratis en línea | LCS',
-    metaDescription: 'Cree fichas de conteo y gráficos gratis con imágenes temáticas. Sin registro, sin tarjeta. Descargue con marca de agua. Licencia comercial para vender.',
+    titleTag: 'Fichas de conteo y gráficos gratis | Generador online',
+    metaDescription: 'Cree fichas de conteo y gráficos gratis con imágenes temáticas. Sin registro. Soluciones automáticas, PDF con marca de agua.',
     },
 
   hero: {
-    title: 'Cree fichas de conteo y gráficos gratis en línea',
-    tagline: 'Fichas de conteo con gráficos visuales — gratis y sin registro.',
+    title: 'Fichas de conteo y gráficos gratis para imprimir',
+    tagline: 'Fichas de conteo con imágenes temáticas gratis — soluciones automáticas, sin registro.',
     description: 'Cree fichas de conteo y gráficos gratis con imágenes temáticas que ensenan a los niños a contar, clasificar y representar datos visualmente. Este generador produce hojas de trabajo con gráficos de barras, pictogramas y tablas de conteo. Seleccione el tema visual de mas de 100 categorias de imágenes y configure el nivel de dificultad. Cada ficha incluye solucionario automático y se exporta en PDF listo para imprimir. No necesita registro ni tarjeta de crédito — acceda a todas las funciones al instante. Las descargas incluyen marca de agua. Ideal para padres y educadores de preescolar y primaria. ¿Quiere vender fichas de conteo? Pase a la licencia comercial para archivos sin marca de agua.',
   },
 

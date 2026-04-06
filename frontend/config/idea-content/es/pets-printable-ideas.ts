@@ -2,24 +2,25 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Imprimibles de mascotas para Etsy | LCS',
-    metaDescription: 'Ideas de imprimibles de mascotas para vender en Etsy, KDP y Hotmart. Perros, gatos y conejos — nicho con alta demanda emocional y ventas todo el año.',
+    titleTag: 'Imprimibles de mascotas para Etsy | Nicho',
+    metaDescription: 'Ideas de imprimibles de mascotas para Etsy y KDP. Perros, gatos y conejos con demanda todo el año.',
 
     primaryKeyword: 'imprimibles de mascotas para vender en Etsy',
     secondaryKeywords: [
-      'fichas de mascotas negocio imprimibles',
-      'actividades de perros y gatos comerciales',
-      'vender imprimibles mascotas KDP Hotmart',
-      'fichas temáticas animales domésticos Etsy',
+      'fichas mascotas Etsy KDP',
+      'actividades de perros y gatos imprimibles',
+      'negocio imprimibles mascotas',
+      'fichas de animales domésticos para vender',
     ],
     lsiKeywords: [
-      'nicho imprimibles mascotas perros gatos demanda',
-      'fichas educativas animales domésticos vendedores',
-      'productos digitales tema mascotas ingreso pasivo',
+      'mascotas',
+      'perros',
+      'gatos',
+      'conejos',
     ],
   },
   hero: {
-    title: 'Ideas de imprimibles de mascotas para vender en Etsy y Hotmart',
+    title: 'Ideas de imprimibles de mascotas para vender en Etsy y KDP',
     description: 'Las mascotas son uno de los temas más populares en el mercado de imprimibles educativos. Perros, gatos, conejos y hámsteres generan una conexión emocional inmediata que impulsa las compre impulsivas — los padres quieren que las actividades de sus hijos reflejen lo que aman. Para los vendedores de imprimibles, el nicho de mascotas ofrece demanda constante todo el año sin depender de temporadas específicas. Los picos de ventas coinciden con el regreso a clases, las fiestas de cumpleaños con temática de mascotas y las campañas de adopción animal. En el mercado hispano, la competencia es mínima mientras la demanda crece. Esta guía le presenta ideas concretas de productos, precios por plataforma y estrategias para construir una línea rentable de imprimibles de mascotas en Etsy, KDP y Hotmart.',
   },
   marketOverview: `El nicho de imprimibles de mascotas se beneficia de una dinámica de mercado simple pero poderosa: las mascotas son el tema animal más personalmente relevante para los niños. Mientras que los animales de granja y las criaturas marinas son interesantes, las mascotas son los animales con los que los niños realmente conviven, cuidan y aman. Esta conexión personal transforma el tiempo de fichas de un ejercicio abstracto en una actividad que presenta a sus compañeros favoritos, y es exactamente por eso que padres y vendedores buscan productos imprimibles con temática de mascotas.

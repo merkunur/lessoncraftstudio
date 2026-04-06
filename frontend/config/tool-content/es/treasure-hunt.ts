@@ -2,25 +2,26 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'generador de búsqueda del tesoro gratis',
+    primaryKeyword: 'búsqueda del tesoro gratis para imprimir',
     secondaryKeywords: [
-      'fichas de búsqueda del tesoro gratis sin registro',
-      'generador de búsqueda del tesoro en línea gratis',
-      'crear fichas de búsqueda del tesoro gratis para imprimir',
-      'búsqueda del tesoro con imágenes gratis PDF',
+      'juego de pistas gratis',
+      'gymkhana gratis para imprimir',
+      'pistas búsqueda del tesoro gratis',
+      'juego de pistas niños gratis',
     ],
     lsiKeywords: [
-      'actividad de buscar y encontrar objetos imprimible',
-      'ficha de búsqueda visual de imágenes escondidas',
-      'búsqueda del tesoro con ilustraciones temáticas PDF gratis',
+      'pistas',
+      'aventura',
+      'cumpleaños',
+      'enigmas',
     ],
-    titleTag: 'Búsqueda del tesoro gratis | LCS',
-    metaDescription: 'Cree fichas de búsqueda del tesoro gratis sin registro. Busque imágenes escondidas en escenas, 104 colecciones,. Venda en Etsy & KDP con licencia comercial.',
+    titleTag: 'Búsqueda del tesoro gratis para imprimir | Generador',
+    metaDescription: 'Cree fichas de búsqueda del tesoro gratis con imágenes temáticas. Sin registro. PDF con marca de agua.',
   },
 
   hero: {
-    title: 'Cree fichas de búsqueda del tesoro gratis en línea',
-    tagline: 'Generador de fichas de búsqueda del tesoro con búsqueda de caminos en una cuadrícula fija de coordenadas 5×5 (filas A–E, columnas 1–5), dos tipos de dirección (Básico: arriba/abajo/izquierda/derecha para preescolar hasta 1.º de primaria, y Cardinal: norte/sur/este/oeste para 2.º de primaria en adelante), 6 imágenes temáticas como puntos de referencia, exactamente 4 movimientos direccionales por puzzle, clave de respuestas autogenerada con celda del tesoro resaltada en amarillo pálido mediante sistema de doble lienzo, pistas direccionales completamente localizadas en 11 idiomas, y encabezado temático de tesoro verde azulado (#2C8C7C) con título dorado en Fredoka en 104 colecciones temáticas de imágenes',
+    title: 'Búsqueda del tesoro gratis para imprimir — Generador online',
+    tagline: 'Fichas de búsqueda del tesoro y juegos de pistas gratis — sin registro.',
     description: 'Cree fichas de búsqueda del tesoro gratis con este generador en línea. Los usuarios buscan imágenes específicas escondidas en escenas llenas de ilustraciones temáticas. Navegue 104 colecciones con más de 3.100 imágenes o suba las suyas. Configure el número de objetos a encontrar, la densidad de la escena y exporte con clave de respuestas autogenerada. Exporte en JPEG y PDF a 300 DPI en tamaño Carta, A4 o personalizado. La prueba gratis incluya todas las funciones con marca de agua. Sin registro, sin instalación — empiece ahora. ¿Quiere vender? Pase a la licencia comercial para eliminar la marca de agua y obtener uso comercial completo.',
   },
 

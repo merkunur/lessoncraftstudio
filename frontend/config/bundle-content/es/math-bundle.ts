@@ -2,25 +2,28 @@ import type { BundleContent } from '../types';
 
 const content: BundleContent = {
   seo: {
-    primaryKeyword: 'paquete de generadores de mates para vendedores Etsy',
+    primaryKeyword: 'paquete generadores de matemáticas',
     secondaryKeywords: [
-      'paquete fichas de matemáticas licencia comercial Etsy',
-      'generadores de mates para Amazon KDP vendedores',
-      'kit completo fichas de sumas y restas para vender',
-      'herramientas de mates para negocio de imprimibles',
+      'pack fichas de matemáticas licencia comercial',
+      'generadores de matemáticas para Etsy y KDP',
+      'kit fichas de sumas y restas',
+      'herramientas de matemáticas para imprimibles',
     ],
     lsiKeywords: [
-      'ahorro paquete versus compre individual generadores',
-      'variedad catálogo productos matemáticos Etsy KDP',
-      'licencia comercial incluida múltiples plataformas venta',
+      'suma',
+      'resta',
+      'puzzles',
+      'conteo',
+      'comparación',
+      'licencia comercial',
     ],
-    titleTag: 'Paquete de mates para vendedores Etsy | LCS',
-    metaDescription: 'Paquete de 6 generadores de mates para vender en Etsy y KDP. Suma, resta, puzzles y álgebra con licencia comercial. 149 $ pago unico.',
+    titleTag: 'Paquete generadores de matemáticas | 6 herramientas + licencia',
+    metaDescription: 'Paquete de 6 generadores de fichas de matemáticas con licencia comercial. Suma, resta, puzzles, conteo y comparación. $149 pago único.',
   },
 
   hero: {
-    title: 'Paquete de generadores de mates para vendedores Etsy y KDP',
-    tagline: 'Seis generadores de fichas de matemáticas en un solo paquete con descuento — licencia comercial incluida.',
+    title: 'Paquete de generadores de fichas de matemáticas — 6 herramientas con licencia',
+    tagline: 'Seis generadores de fichas de matemáticas en un solo paquete — licencia comercial incluida, $149 pago único.',
     description: 'Ahorre significativamente frente a la compre individual con este paquete de seis generadores de fichas de matemáticas diseñado para vendedores de Etsy, Amazon KDP y Hotmart. Incluya suma, resta, puzzles criptaritméticos, comparación mayor-menor, puzzles de cuadrícula con imágenes y ecuaciones algebraicas visuales — cada habilidad matemática básica que los compradores buscan activamente. Exporte PDFs listos para imprimir a 300 DPI con solucionarios automáticos y véndolos en cualquier plataforma con la licencia comercial incluida. Cinco de los seis generadores producen fichas puramente visuales que funcionan en cualquier idioma — un solo diseño se vende a compradores de todo el mundo sin traducción. Combine más de 100 conjuntos de imágenes temáticas con los seis generadores para crear docenas de productos únicos desde una sola inversión. El mercado hispano de materiales educativos es un océaño azul con demanda creciente y competencia mínima. Pruebe gratis con marca de agua — sin registro, sin tarjeta de crédito.',
   },
 

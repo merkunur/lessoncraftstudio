@@ -2,25 +2,28 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'crear paquetes de fichas que se vendan',
+    primaryKeyword: 'cómo crear paquetes de fichas para vender',
     secondaryKeywords: [
-      'estrategia de bundling fichas imprimibles',
-      'cómo agrupar fichas para vender más',
-      'paquetes de fichas para Etsy y KDP',
-      'bundling de productos educativos imprimibles',
+      'tutorial bundles de fichas paso a paso',
+      'crear paquetes imprimibles KDP',
+      'guía paquetes de fichas educativas',
+      'bundles imprimibles Etsy y KDP',
     ],
     lsiKeywords: [
-      'apilamiento de valor precio de anclaje descuento por volumen',
-      'packaging profesional tabla de contenidos portada paquete',
-      'venta cruzada upsell catálogo complementario imprimibles',
+      'paquetes',
+      'bundles',
+      'fichas',
+      'precio',
+      'valor',
+      'descuento',
     ],
-    titleTag: 'Crear paquetes de fichas que se vendan | LCS',
-    metaDescription: 'Aprenda a crear paquetes de fichas que se vendan en Etsy, KDP y Hotmart. Bundling, precios de anclaje y packaging profesional para más ingresos.',
+    titleTag: 'Cómo crear paquetes de fichas para vender | Guía',
+    metaDescription: 'Guía paso a paso para crear paquetes de fichas educativas. Estrategia de bundling para Etsy, KDP y más.',
   },
 
   hero: {
-    title: 'Cómo crear paquetes de fichas que multipliquen sus ventas',
-    tagline: 'Una guía completa para crear paquetes de fichas de alto valor que aumenten los ingresos por transacción en cualquier plataforma de venta — cubriendo tipos y estructuras de paquetes, selección de productos para combinaciones atractivas, apilamiento de valor y psicología del valor percibido, packaging y presentación profesional de paquetes, estrategias de precio de anclaje y descuentos, optimización de anuncios independiente de plataforma y seguimiento del rendimiento para la mejora continua',
+    title: 'Cómo crear paquetes de fichas para vender — Guía',
+    tagline: 'Estrategia de bundling para crear paquetes de fichas que se vendan en Etsy y KDP.',
     description: 'Los paquetes de fichas son la forma más efectiva de aumentar el valor medio por pedido sin crear contenido nuevo. Un paquete bien estructurado transforma productos individuales en una oferta irresistible que los compradores perciben como mejor inversión. Esta guía le muestra la estrategia completa de bundling: qué agrupar, cómo fijar precios con anclaje psicológico y cómo presentar sus paquetes de forma profesional. Aplique estos principios en Etsy, Amazon KDP, Hotmart o cualquier marketplace donde venda. El mercado hispanohablante ofrece oportunidades únicas para vendedores que dominan el arte del bundling estratégico.',
   },
 

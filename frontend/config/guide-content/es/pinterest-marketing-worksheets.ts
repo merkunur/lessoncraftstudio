@@ -2,25 +2,28 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'marketing en Pinterest para negocio de fichas',
+    primaryKeyword: 'marketing en Pinterest para imprimibles',
     secondaryKeywords: [
-      'Pinterest para vender imprimibles educativos',
-      'estrategia de Pinterest vendedores de fichas',
-      'pines para promocionar fichas imprimibles',
-      'tráfico de Pinterest a tienda de imprimibles',
+      'Pinterest para vender fichas',
+      'pins imprimibles educativos',
+      'tráfico Pinterest imprimibles',
+      'estrategia Pinterest fichas Etsy',
     ],
     lsiKeywords: [
-      'SEO de Pinterest tableros palabras clave pines',
-      'tráfico orgánico motor de búsqueda visual descubrimiento',
-      'pines ricos descripciones clics conversión ventas',
+      'Pinterest',
+      'pins',
+      'tráfico',
+      'SEO',
+      'tableros',
+      'visibilidad',
     ],
-    titleTag: 'Pinterest para negocio de fichas | LCS',
-    metaDescription: 'Use Pinterest para generar tráfico y ventas de fichas. Estrategia SEO de Pinterest para vendedores en Etsy, KDP y Hotmart con pines que convierten.',
+    titleTag: 'Marketing en Pinterest para imprimibles | Guía',
+    metaDescription: 'Guía de marketing en Pinterest para vendedores de imprimibles. Pins, tableros, SEO y tácticas de tráfico.',
   },
 
   hero: {
-    title: 'Pinterest: el motor de ventas para su negocio de fichas',
-    tagline: 'Una guía completa de marketing en Pinterest para vendedores de fichas — que cubre cómo configurar una cuenta de empresa, estructurar tableros para el descubrimiento, diseñar pines de alta conversión, escribir descripciones ricas en palabras clave, desarrollar un calendario de publicación de pines, optimizar para el SEO en Pinterest, aprovechar los ciclos de contenido estacional y analizar datos de rendimiento',
+    title: 'Marketing en Pinterest para imprimibles — Guía',
+    tagline: 'Pins, tableros, SEO y tácticas de tráfico para vender imprimibles con Pinterest.',
     description: 'Pinterest es el canal de marketing más poderoso para vendedores de imprimibles porque funciona como motor de búsqueda visual con tráfico permanente. A diferencia de Instagram o TikTok, un pin bien optimizado sigue generando clics y ventas durante meses o años. Esta guía le enseña la estrategia completa de Pinterest para su negocio de fichas: desde la optimización SEO de pines hasta la creación de tableros que atraen compradores. Aplique estas técnicas para vender en Etsy, Amazon KDP y Hotmart. El mercado hispanohablante en Pinterest está creciendo rápidamente con menos competencia.',
   },
 

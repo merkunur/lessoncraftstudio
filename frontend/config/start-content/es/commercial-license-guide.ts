@@ -2,25 +2,27 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'guía licencia comercial vendedores imprimibles educativos',
+    primaryKeyword: 'licencia comercial para imprimibles',
     secondaryKeywords: [
-      'qué cubre una licencia comercial de fichas',
-      'licencia de uso comercial imprimibles educativos',
-      'permisos de reventa imprimibles generados',
-      'licencia comercial vs personal imprimibles',
+      'qué es licencia comercial imprimibles',
+      'licencia comercial Etsy fichas',
+      'derechos comerciales imprimibles',
+      'licencia para vender fichas',
     ],
     lsiKeywords: [
-      'derechos de reventa fichas generadas',
-      'términos de licencia imprimibles Etsy',
-      'uso comercial generadores de fichas',
+      'licencia',
+      'comercial',
+      'derechos',
+      'venta',
+      'uso',
     ],
-    titleTag: 'Licencia comercial para vendedores | LCS',
-    metaDescription: 'Guía de licencia comercial para vendedores de imprimibles. Qué cubre, qué permite y cómo usarla para vender fichas en Etsy, KDP y Hotmart.',
+    titleTag: 'Licencia comercial para imprimibles | Qué incluye',
+    metaDescription: 'Guía sobre la licencia comercial para imprimibles. Qué incluye, qué derechos otorga y cómo usarla para vender en Etsy y KDP.',
   },
 
   hero: {
-    title: 'Licencia Comercial para Vendedores de Imprimibles',
-    tagline: 'Todo lo que necesita saber sobre los permisos de uso comercial para vender fichas generadas',
+    title: 'Licencia comercial para imprimibles — Qué incluye y cómo funciona',
+    tagline: 'Todo sobre la licencia comercial: derechos, uso permitido y cómo vender legalmente.',
     description: 'La licencia comercial es el fundamento legal de su negocio de imprimibles. Sin ella, no puede vender legalmente las fichas que genere. Esta guía explica con claridad qué cubre la licencia comercial de LessonCraftStudio, qué plataformas permite, cuántas copias puede vender, qué modificaciones puede hacer y qué restricciones aplican. Cubriremos la diferencia entre licencia personal y comercial, los derechos específicos de reventa en Etsy, Amazon KDP y Hotmart, y las preguntas más frecuentes de los vendedores. Cada generador ofrece una prueba gratis con marca de agua para evaluar la calidad antes de invertir en la licencia.',
   },
 

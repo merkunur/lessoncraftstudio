@@ -2,25 +2,28 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'vender fichas educativas en Etsy principiante',
+    primaryKeyword: 'vender fichas educativas en Etsy',
     secondaryKeywords: [
-      'cómo empezar a vender fichas educativas en Etsy',
-      'guía principiante venta imprimibles educativos Etsy',
-      'fichas educativas más vendidas en Etsy categorías',
-      'estrategia lanzamiento vendedor educativo en Etsy',
+      'cómo vender imprimibles educativos en Etsy',
+      'tienda Etsy fichas educativas',
+      'Etsy imprimibles educativos guía',
+      'vender fichas para imprimir en Etsy',
     ],
     lsiKeywords: [
-      'descargue digitales educativas fichas actividades imprimibles Etsy',
-      'categorías populares matemáticas lectoescritura ciencias infantil primaria',
-      'reseñas clientes atención comprador tienda educativa Etsy',
+      'Etsy',
+      'fichas',
+      'educativos',
+      'listados',
+      'SEO',
+      'ventas',
     ],
-    titleTag: 'Vender fichas educativas en Etsy | LCS',
-    metaDescription: 'Guía para principiantes sobre cómo vender fichas educativas en Etsy. Categorías populares, optimización de anuncios y estrategia de crecimiento.',
+    titleTag: 'Vender fichas educativas en Etsy | Guía completa',
+    metaDescription: 'Guía completa para vender fichas educativas en Etsy. SEO, listados, fotografía de producto y estrategia de precios.',
   },
 
   hero: {
-    title: 'Cómo vender fichas educativas en Etsy: guía para principiantes',
-    tagline: 'Una guía completa para construir una tienda Etsy diversificada vendiendo imprimibles educativos creados con 33 generadores especializados en 6 categorías — incluyendo estrategia de tienda multicategoría, optimización SEO específica por categoría con las 13 etiquetas, agrupación y precios multicategoría, fotografía de anuncios para diferentes tipos de productos, rotación estacional de productos en fichas de matemáticas, actividades de alfabetización, páginas de aprendizaje visual, ejercicios de emparejamiento, puzles y juegos de buscar y encontrar, y cómo escalar desde una sola categoría hasta una tienda completa de imprimibles educativos',
+    title: 'Vender fichas educativas en Etsy — Guía completa',
+    tagline: 'SEO, listados optimizados y estrategia de precios para su tienda de fichas en Etsy.',
     description: 'Los imprimibles educativos son una de las categorías de descargue digitales con mayor crecimiento en Etsy. Fichas de matemáticas, actividades de lectoescritura, puzles y páginas para colorear generan ventas consistentes durante todo el año. Esta guía está diseñada para principiantes que quieren lanzar su primera tienda de fichas educativas en Etsy. Aprenda a identificar las categorías más rentables, crear anuncios optimizados con las 13 etiquetas de Etsy, construir un catálogo inicial de 15-20 productos y establecer una estrategia de crecimiento sostenible. Descubra cómo utilizar los generadores de LessonCraftStudio para crear fichas profesionales en múltiples formatos y acelerar su lanzamiento.',
   },
 

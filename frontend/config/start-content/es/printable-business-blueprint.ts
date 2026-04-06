@@ -2,25 +2,27 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'plan de negocio de imprimibles de idea a ingreso',
+    primaryKeyword: 'plan de negocio imprimibles paso a paso',
     secondaryKeywords: [
-      'plan estratégico negocio imprimibles educativos',
-      'hoja de ruta negocio de fichas imprimibles',
-      'blueprint negocio de imprimibles paso a paso',
-      'estrategia de negocio imprimibles rentable',
+      'blueprint negocio de imprimibles',
+      'estrategia negocio fichas educativas',
+      'plan lanzamiento tienda imprimibles',
+      'hoja de ruta negocio imprimibles',
     ],
     lsiKeywords: [
-      'planificación financiera negocio imprimibles',
-      'modelo de negocio escalable fichas digitales',
-      'cronograma de lanzamiento tienda imprimibles',
+      'plan',
+      'estrategia',
+      'lanzamiento',
+      'objetivos',
+      'cronograma',
     ],
-    titleTag: 'Plan de negocio: imprimibles | LCS',
-    metaDescription: 'Plan de negocio de de la idea al ingreso. Hoja de ruta paso a paso con cronograma, presupuesto y estrategia para vender fichas en Etsy y Hotmart.',
+    titleTag: 'Plan de negocio de imprimibles paso a paso | Guía',
+    metaDescription: 'Plan detallado para lanzar su negocio de imprimibles. Cronograma, objetivos y estrategia desde la primera ficha hasta ventas recurrentes.',
   },
 
   hero: {
-    title: 'Plan de Negocio de Imprimibles: De la Idea al Ingreso',
-    tagline: 'Su hoja de ruta completa con cronograma, presupuesto y metas medibles para los primeros 90 días',
+    title: 'Plan de negocio de imprimibles — Paso a paso',
+    tagline: 'Cronograma, objetivos y estrategia desde la primera ficha hasta ventas recurrentes.',
     description: 'Un negocio de imprimibles sin plan es un pasatiempo. Esta guía le proporciona un plan de negocio estructurado con cronograma semana a semana, presupuesto realista, metas medibles y estrategia de crecimiento para transformar la idea de vender fichas educativas en un negocio que genere ingresos reales en 90 días. Cubriremos la selección de nicho con datos, la inversión mínima necesaria, la planificación de catálogo y la estrategia de plataformas para Etsy, Amazon KDP y Hotmart. Cada generador de fichas mencionado ofrece una prueba gratis con marca de agua para que comience sin riesgo.',
   },
 

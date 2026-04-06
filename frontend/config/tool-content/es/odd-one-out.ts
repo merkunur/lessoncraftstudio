@@ -2,25 +2,26 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'generador de encuentra el intruso gratis',
+    primaryKeyword: 'encuentra el intruso gratis para imprimir',
     secondaryKeywords: [
-      'fichas de encuentra el intruso gratis sin registro',
-      'generador de el intruso en línea gratis',
-      'crear fichas de encuentra el intruso gratis para imprimir',
-      'fichas del intruso gratis PDF con respuestas',
+      'juego del intruso gratis',
+      '¿cuál no pertenece? gratis',
+      'clasificación lógica gratis',
+      'razonamiento lógico gratis',
     ],
     lsiKeywords: [
-      'actividad de clasificación y exclusión con imágenes',
-      'ficha de cuál no pertenece con ilustraciones',
-      'encuentra el intruso discriminación visual PDF gratis',
+      'categoría',
+      'clasificar',
+      'lógica',
+      'razonamiento',
     ],
-    titleTag: 'Encuentra el intruso gratis | LCS',
-    metaDescription: 'Cree fichas de encuentra el intruso gratis sin registro. Identifique la imagen diferente, 104 temas, respuestas. Venda en Etsy & KDP con licencia comercial.',
+    titleTag: 'Encuentra el intruso gratis | Generador online',
+    metaDescription: 'Cree fichas de "encuentra el intruso" gratis con imágenes temáticas. Sin registro. Soluciones automáticas. PDF con marca de agua.',
   },
 
   hero: {
-    title: 'Cree fichas de encuentra el intruso gratis en línea',
-    tagline: 'Generador de fichas del intruso con dos modos — Idéntico (3 clones + 1 diferente del mismo tema) y Similar (3 del Tema A + 1 del Tema B), anulación de modo por ejercicio con botón Borrar Selecciones, de 5 a 10 ejercicios configurables con diseño adaptativo de 2 columnas, claves de respuestas autogeneradas con marcadores de círculo rojo escalados al tamaño de imagen, sistema de dos temas con 104 colecciones temáticas, y puzzles puramente visuales que se venden en todo el mundo sin traducción',
+    title: 'Encuentra el intruso gratis para imprimir — Generador online',
+    tagline: 'Fichas de "encuentra el intruso" con imágenes gratis — soluciones automáticas.',
     description: 'Cree fichas de encuentra el intruso gratis con este generador en línea. Los usuarios identifican cuál imagen no pertenece al grupo entre ilustraciones temáticas. Navegue 104 colecciones con más de 3.100 imágenes o suba las suyas. Configure el número de opciones por ejercicio, la dificultad y exporte con clave de respuestas autogenerada. Exporte en JPEG y PDF a 300 DPI en tamaño Carta, A4 o personalizado. La prueba gratis incluya todas las funciones con marca de agua en las descargas. Sin registro, sin instalación. ¿Quiere vender? Pase a la licencia comercial para eliminar la marca de agua y obtener uso comercial completo.',
   },
 

@@ -2,25 +2,29 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'generador de sopas de letras para vender en Etsy y KDP',
+    primaryKeyword: 'generador de sopa de letras',
     secondaryKeywords: [
-      'crear sopas de letras con imágenes para Etsy',
-      'generador de busque palabras para Amazon KDP',
-      'sopas de letras imprimibles licencia comercial',
-      'crear libros de sopas de letras para vender',
+      'crear sopa de letras',
+      'sopa de letras para imprimir',
+      'sopa de letras personalizada',
+      'generador sopa de letras con imágenes',
     ],
     lsiKeywords: [
-      'sopas de letras temáticas vendedores Etsy KDP',
-      'libros pasatiempos búsqueda de palabras Amazon',
-      'negocio imprimibles sopas letras mercado hispano',
+      'palabras escondidas',
+      'grilla',
+      'vocabulario',
+      'ortografía',
+      'tema',
+      'solución',
+      'PDF',
     ],
-    titleTag: 'Sopas de letras para vender en Etsy y KDP | LCS',
-    metaDescription: 'Cree sopas de letras con imágenes para vender en Etsy y KDP. 104 temas, 11 idiomas, solucionario. Licencia comercial. 49 $ pago unico.',
+    titleTag: 'Generador de sopa de letras | Crear con imágenes temáticas',
+    metaDescription: 'Cree sopas de letras con 3.000+ imágenes temáticas en 11 idiomas. Grillas personalizadas, soluciones automáticas, PDF 300 DPI. Prueba gratis — licencia comercial.',
   },
 
   hero: {
-    title: 'Genere sopas de letras para vender en Etsy, KDP y Hotmart',
-    tagline: 'Cree sopas de letras con imágenes temáticas en 11 idiomas — listas para vender.',
+    title: 'Generador de sopa de letras — Crear con imágenes temáticas',
+    tagline: 'Cree sopas de letras con 3.000+ imágenes en 11 idiomas — grillas personalizadas, soluciones automáticas.',
     description:
       'Genere sopas de letras para vender en Etsy, Amazon KDP o Hotmart — el pasatiempo más popular del mundo, ahora con imágenes temáticas que las hacen únicas. Las pistas son imágenes, no texto: los usuarios identifican la imagen, deducen la palabra y la buscan en la cuadrícula. Este formato visual funciona en 11 idiomas, multiplicando su mercado potencial. Seleccione entre más de 3.000 ilustraciones en 104 temas para crear sopas de letras irresistibles. Las sopas de letras son el producto estrella en Amazon KDP — los libros de búsqueda de palabras se venden consistentemente todo el año. Exporte PDFs a 300 DPI con solucionario automático. Licencia comercial incluida. Pruebe gratis con marca de agua — sin registro.',
   },

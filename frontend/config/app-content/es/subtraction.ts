@@ -2,25 +2,27 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'generador de fichas de restas para vender en Etsy',
+    primaryKeyword: 'fichas de restas para imprimir',
     secondaryKeywords: [
-      'crear fichas de sustracción para tienda Etsy',
-      'fichas de restas para Amazon KDP',
-      'ejercicios de resta ilustrados licencia comercial',
-      'fichas de cálculo para vender en Hotmart',
+      'generador de restas',
+      'ejercicios de restas para imprimir',
+      'restas para primaria PDF',
+      'fichas de restas con dibujos',
     ],
     lsiKeywords: [
-      'licencia comercial paquetes matemáticos PDF 300 DPI',
-      'negocio imprimibles resta mercado hispano',
-      'combinar sumas restas paquetes mayores ventas',
+      'primaria',
+      'sin llevar',
+      'con llevada',
+      'diferencia',
+      'operaciones',
     ],
-    titleTag: 'Fichas de restas — Vender en Etsy y KDP | LessonCraftStudio',
-    metaDescription: 'Cree fichas de restas para vender en Etsy, KDP y Hotmart. Imágenes temáticas, solucionario, licencia comercial. 49 $ pago unico.',
+    titleTag: 'Fichas de restas para imprimir | Generador con soluciones',
+    metaDescription: 'Cree fichas de restas con imágenes temáticas y soluciones automáticas. PDF 300 DPI, 11 idiomas. Prueba gratis — licencia comercial incluida.',
   },
 
   hero: {
-    title: 'Genere fichas de restas para vender en Etsy, KDP y Hotmart',
-    tagline: 'Convierta la resta en un producto vendible con fichas ilustradas y solucionario automático.',
+    title: 'Fichas de restas para imprimir — Generador con soluciones automáticas',
+    tagline: 'Cree fichas de restas con imágenes temáticas y soluciones automáticas — PDF 300 DPI, 11 idiomas.',
     description:
       'Convierta la resta en un producto vendible con un generador diseñado para emprendedores de imprimibles. Cree fichas de resta ilustradas con imágenes temáticas de más de 100 categorías — animales, vehículos, alimentos, naturaleza — que hacen las matemáticas atractivas y sus anuncios irresistibles. Cada ficha se exporta en PDF 300 DPI listo para imprimir con solucionario automático, lista para subir a Etsy, compilar en un cuadernillo de Amazon KDP, o vender en Hotmart. La licencia comercial está incluida con cada ficha. Estrategia rentable: combine sumas y restas en paquetes — los vendedores reportan ventas promedio significativamente más altas con paquetes matemáticos combinados. El mercado hispano ofrece un potencial enorme con competencia mínima. Pruebe gratis con todas las funciones — sin registro. Las descargas incluyen marca de agua; compre una licencia para eliminarla.',
   },

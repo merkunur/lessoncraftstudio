@@ -2,25 +2,27 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'crear fichas de clasificación para vender',
+    primaryKeyword: 'cómo crear fichas de clasificación para imprimir',
     secondaryKeywords: [
-      'cómo crear fichas de clasificación imprimibles',
-      'guía paso a paso fichas de ordenar y clasificar',
-      'vender fichas de clasificación en Etsy y KDP',
-      'fichas de clasificación licencia comercial Hotmart',
+      'tutorial clasificar y agrupar paso a paso',
+      'crear fichas de categorizar para vender',
+      'guía fichas de clasificación',
+      'fichas de clasificación para Etsy y KDP',
     ],
     lsiKeywords: [
-      'generador de fichas de clasificación con imágenes',
-      'fichas de ordenar para negocio imprimible',
-      'exportar PDF fichas de clasificación profesionales',
+      'clasificar',
+      'agrupar',
+      'categorizar',
+      'ordenar',
+      'preescolar',
     ],
-    titleTag: 'Fichas de clasificación para vender | LCS',
-    metaDescription: 'Aprenda a crear fichas de clasificación para vender en Etsy, KDP y Hotmart. Guía paso a paso con generador profesional y exportación PDF.',
+    titleTag: 'Cómo crear fichas de clasificación | Guía',
+    metaDescription: 'Guía paso a paso para crear fichas de clasificación y categorización. Imágenes temáticas, soluciones automáticas, PDF para vender.',
   },
 
   hero: {
-    title: 'Cómo crear fichas de clasificación profesionales para vender',
-    tagline: 'Un tutorial paso a paso para crear fichas de recortar y clasificar en dos categorías con modos de selección por tema y manual, claves de respuestas autogeneradas y soporte multilingüe que puede vender en Etsy, Amazon KDP y Hotmart',
+    title: 'Cómo crear fichas de clasificación para imprimir — Guía',
+    tagline: 'Tutorial para crear fichas de clasificar y categorizar con imágenes temáticas.',
     description: 'Descubra cómo crear fichas de clasificación listas para vender en los principales marketplaces de imprimibles educativos. Esta guía paso a paso le enseña a configurar categorías, seleccionar temas visuales atractivos y generar fichas con claves de respuestas automáticas. Aprenda a crear variaciones por tema y nivel de dificultad para multiplicar su catálogo de productos. Optimice sus anuncios en Etsy, Amazon KDP y Hotmart para máxima visibilidad entre compradores. Todas las funciones están disponibles en la prueba gratis con marca de agua para evaluar la calidad.',
   },
 

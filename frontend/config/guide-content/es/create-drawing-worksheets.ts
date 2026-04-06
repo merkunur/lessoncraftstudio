@@ -2,25 +2,27 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'crear fichas de dibujo para vender',
+    primaryKeyword: 'cómo crear fichas de dibujo para imprimir',
     secondaryKeywords: [
-      'cómo crear fichas de dibujo imprimibles',
-      'guía paso a paso fichas de dibujo dirigido',
-      'vender fichas de dibujo en Etsy y KDP',
-      'fichas de dibujo licencia comercial Hotmart',
+      'tutorial fichas de dibujo paso a paso',
+      'crear fichas de dibujo y colorear',
+      'guía fichas artísticas',
+      'fichas de dibujo para Etsy y KDP',
     ],
     lsiKeywords: [
-      'generador de fichas de dibujo temáticas',
-      'fichas de dibujo para negocio de imprimibles',
-      'exportar PDF fichas de dibujo profesionales',
+      'dibujo',
+      'colorear',
+      'arte',
+      'creatividad',
+      'guiado',
     ],
-    titleTag: 'Fichas de dibujo para vender | LCS',
-    metaDescription: 'Aprenda a crear fichas de dibujo para vender en Etsy, KDP y Hotmart. Guía paso a paso con generador profesional y licencia comercial incluida.',
+    titleTag: 'Cómo crear fichas de dibujo para imprimir | Guía',
+    metaDescription: 'Guía paso a paso para crear fichas de dibujo guiado y colorear. Imágenes temáticas, PDF listos para vender.',
   },
 
   hero: {
-    title: 'Cómo crear fichas de dibujo profesionales para vender',
-    tagline: 'Un tutorial paso a paso para crear fichas de dibujo en cuadrícula con dificultad ajustable, modos de simetría y temas de contorno en blanco y negro que puede vender en Etsy, Amazon KDP y Hotmart',
+    title: 'Cómo crear fichas de dibujo para imprimir — Guía paso a paso',
+    tagline: 'Tutorial para crear fichas de dibujo guiado y colorear con imágenes temáticas.',
     description: 'Descubra cómo crear fichas de dibujo atractivas y listas para vender en marketplaces de imprimibles. Esta guía paso a paso le muestra cómo configurar instrucciones de dibujo, seleccionar temas con imágenes atractivas y generar fichas profesionales para distintos niveles. Aprenda a crear variaciones por tema y estilo para construir un catálogo completo de productos de dibujo. Optimice sus anuncios en Etsy, Amazon KDP y Hotmart con descripciones que atraigan compradores. Pruebe todas las funciones gratis con marca de agua antes de comprar su licencia comercial.',
   },
 

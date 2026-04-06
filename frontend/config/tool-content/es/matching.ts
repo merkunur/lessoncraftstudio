@@ -2,25 +2,26 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'generador de fichas de asociación gratis',
+    primaryKeyword: 'fichas de asociación gratis para imprimir',
     secondaryKeywords: [
-      'fichas de asociación gratis sin registro',
-      'generador de fichas de emparejar gratis en línea',
-      'fichas de asociación gratis para imprimir',
-      'hojas de emparejar imágenes gratis sin tarjeta',
+      'unir con flechas gratis',
+      'fichas de emparejar gratis',
+      'relacionar imágenes gratis',
+      'asociar preescolar gratis',
     ],
     lsiKeywords: [
-      'actividades de asociación visual para preescolar',
-      'fichas de emparejar imágenes y palabras',
-      'hojas de trabajo de conexión imprimibles',
+      'unir',
+      'emparejar',
+      'pares',
+      'preescolar',
     ],
-    titleTag: 'Fichas de asociación gratis | LCS',
-    metaDescription: 'Cree fichas de asociación gratis con imágenes temáticas. Empareje imágenes con palabras. Sin registro, sin tarjeta. Licencia comercial para vender.',
+    titleTag: 'Fichas de asociación gratis | Generador online',
+    metaDescription: 'Cree fichas de asociación gratis con imágenes temáticas. Sin registro. Soluciones automáticas. PDF con marca de agua.',
   },
 
   hero: {
-    title: 'Cree fichas de asociación gratis con imágenes',
-    tagline: 'Fichas de emparejar ilustradas listas en segundos — gratis y sin registro.',
+    title: 'Fichas de asociación gratis para imprimir',
+    tagline: 'Fichas de emparejar con imágenes gratis — para preescolar y primaria.',
     description: 'Cree fichas de asociación gratis donde los niños emparejan imágenes con palabras, números u otras imágenes. Este generador produce fichas de asociación visual con imágenes temáticas de mas de 100 categorias. Seleccione el tipo de asociación, el nivel de dificultad y el tema visual. Cada ficha incluye solucionario automático y se exporta en PDF listo para imprimir. No necesita registro ni tarjeta de crédito — acceda a todas las funciones al instante. Las descargas incluyen marca de agua transparente. Perfecto para padres y educadores de preescolar y primaria. ¿Quiere vender fichas de asociación? Pase a la licencia comercial para PDFs sin marca de agua a 300 DPI.',
   },
 

@@ -2,25 +2,28 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'optimizar tienda en Hotmart y Editorial MD',
+    primaryKeyword: 'optimizar tienda de imprimibles educativos',
     secondaryKeywords: [
-      'cómo optimizar tienda Hotmart para vender más recursos',
-      'estrategia crecimiento tienda Editorial MD optimización',
-      'mejorar posicionamiento productos Hotmart Editorial MD',
-      'aumentar ventas tienda educativa Hotmart tips avanzados',
+      'optimización tienda Etsy fichas',
+      'mejorar listados imprimibles',
+      'SEO tienda educativa online',
+      'optimizar productos digitales educativos',
     ],
     lsiKeywords: [
-      'algoritmo búsqueda Hotmart posicionamiento productos visibilidad',
-      'marca tienda perfil profesional identidad visual educativa',
-      'vistas previas descripciones conversión anuncios productos digitales',
+      'optimización',
+      'tienda',
+      'SEO',
+      'listados',
+      'conversión',
+      'visibilidad',
     ],
-    titleTag: 'Optimizar tienda Hotmart y Editorial MD | LCS',
-    metaDescription: 'Optimice su tienda en Hotmart y Editorial MD para más ventas. Venda en Etsy & KDP con licencia comercial.',
+    titleTag: 'Optimizar tienda de imprimibles educativos | Guía',
+    metaDescription: 'Guía para optimizar su tienda de imprimibles educativos. SEO, listados, conversión y visibilidad.',
   },
 
   hero: {
-    title: 'Cómo optimizar su tienda en Hotmart y Editorial MD',
-    tagline: 'Estrategias avanzadas para optimizar una tienda existente de Hotmart — cubriendo factores de posicionamiento del algoritmo de búsqueda, descripciones y vistas previas de productos de alta conversión, tácticas de generación de reseñas, organización de tienda para navegación amigable, estrategia de eventos promocionales de Hotmart, y escalado de catálogo basado en datos para convertir una tienda Hotmart active en un canal de ingresos consistente y creciente',
+    title: 'Optimizar su tienda de imprimibles educativos — Guía',
+    tagline: 'SEO, listados, conversión y visibilidad para maximizar ventas de imprimibles.',
     description: 'Tener productos publicados en Hotmart o Editorial MD es solo el primer paso. La diferencia entre una tienda con ventas ocasionales y una que genere ingresos mensuales consistentes está en la optimización. Cómo posicionan sus productos en la búsqueda, qué tan efectivamente sus vistas previas convierten visitantes en compradores y cómo su organización de tienda fomenta compre múltiples determinan su éxito. Esta guía cubre estrategias avanzadas de optimización para tiendas en Hotmart y Editorial MD: factores del algoritmo de búsqueda, descripciones de alta conversión, vistas previas profesionales, generación de reseñas, organización de catálogo y escalado basado en datos de rendimiento.',
   },
 

@@ -2,25 +2,27 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'encontrar nichos rentables de imprimibles',
+    primaryKeyword: 'investigar nichos rentables de imprimibles',
     secondaryKeywords: [
-      'investigación de nichos productos digitales',
-      'nichos rentables fichas educativas 2026',
-      'cómo encontrar nicho de imprimibles con demanda',
-      'análisis de mercado para vendedores de fichas',
+      'cómo encontrar nichos imprimibles',
+      'análisis de nicho Etsy imprimibles',
+      'nichos rentables fichas educativas',
+      'investigación de mercado imprimibles',
     ],
     lsiKeywords: [
-      'volumen de búsqueda tendencias de mercado demanda estacional',
-      'análisis competitivo brechas de mercado oportunidad',
-      'validación de nicho señales de demanda palabras clave',
+      'nicho',
+      'investigación',
+      'competencia',
+      'demanda',
+      'rentabilidad',
     ],
-    titleTag: 'Nichos rentables de imprimibles | LCS',
-    metaDescription: 'Encuentre nichos rentables de imprimibles con métodos probados de investigación. Análisis de demanda y competencia para Etsy, KDP y Hotmart en 2026.',
+    titleTag: 'Investigar nichos rentables de imprimibles | Guía',
+    metaDescription: 'Guía para investigar nichos rentables de imprimibles. Análisis de competencia, demanda y oportunidades para Etsy y KDP.',
   },
 
   hero: {
-    title: 'Cómo encontrar nichos rentables para su negocio de imprimibles',
-    tagline: 'Una guía completa de metodología de investigación — que cubre el análisis de búsquedas en marketplaces, la cuantificación de la demanda por palabras clave, el estudio de productos de la competencia, la identificación de brechas de mercado desatendidas, la evaluación de la rentabilidad de los nichos, la prueba de la demanda con productos mínimos viables, el seguimiento de patrones estacionales y tendencias, y la construcción de un sistema continuo de descubrimiento de nichos',
+    title: 'Investigar nichos rentables de imprimibles — Guía',
+    tagline: 'Análisis de competencia, demanda y oportunidades para su negocio de imprimibles.',
     description: 'Los vendedores más exitosos de imprimibles no adivinan qué crear: investigan la demanda real antes de producir. Esta guía le enseña métodos probados para encontrar nichos rentables de imprimibles con demanda sostenida y competencia manejable. Descubra cómo analizar tendencias, evaluar el volumen de búsqueda y identificar brechas de mercado que representan oportunidades reales. Aplique estas técnicas en Etsy, Amazon KDP y Hotmart. El mercado hispanohablante tiene nichos desatendidos con alta demanda que pocos vendedores están cubriendo actualmente.',
   },
 

@@ -2,25 +2,29 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'fichas de preposiciones para ELE en Etsy y Eduki',
+    primaryKeyword: 'fichas de ubicación espacial para imprimir',
     secondaryKeywords: [
-      'generador de fichas de preposiciones para vendedores',
-      'fichas de preposiciones español lengua extranjera',
-      'ejercicios de preposiciones imprimibles licencia comercial',
-      'crear fichas ELE para vender en Etsy y Hotmart',
+      'preposiciones de lugar ejercicios',
+      'nociones espaciales fichas',
+      'arriba abajo delante detrás ficha',
+      'orientación espacial preescolar',
     ],
     lsiKeywords: [
-      'fichas preposiciones ELE vendedores Etsy Eduki',
-      'ejercicios español lengua extranjera imprimibles',
-      'negocio fichas idiomas mercado global ELE',
+      'arriba',
+      'abajo',
+      'delante',
+      'detrás',
+      'al lado',
+      'entre',
+      'espacio',
     ],
-    titleTag: 'Fichas de preposiciones ELE para Etsy | LCS',
-    metaDescription: 'Cree fichas de preposiciones para ELE y véndalas en Etsy, Eduki y Hotmart. 11 idiomas, imágenes temáticas. Licencia comercial. Pruebe gratis. 49 $ pago unico.',
+    titleTag: 'Fichas de ubicación espacial para imprimir | Generador de preposiciones',
+    metaDescription: 'Cree fichas de ubicación espacial y preposiciones con imágenes temáticas. Soluciones automáticas, 11 idiomas. Prueba gratis.',
   },
 
   hero: {
-    title: 'Genere fichas de preposiciones para vender en Etsy, Eduki y Hotmart',
-    tagline: 'Cree fichas de preposiciones con imágenes — ideales para ELE y educación bilingüe.',
+    title: 'Fichas de ubicación espacial para imprimir — Generador de preposiciones',
+    tagline: 'Cree fichas de ubicación espacial y preposiciones con imágenes temáticas — soluciones automáticas.',
     description:
       'Diseña fichas de preposiciones profesionales que enseñan relaciones espaciales a través de ejercicios prácticos con imágenes y formas. Los usuarios practican ocho preposiciones fundamentales — en/dentro de, encima de, debajo de, al lado de, detrás de, entre, arriba de y delante de — mediante dos modos de ejercicio distintos: Completar el Hueco, donde los usuarios escriben la preposición que falta, y Opción Múltiple, donde identifican la imagen que corresponde a una descripción espacial. Seleccione qué preposiciones incluir desde la lista integrada y configure de 1 a 8 ejercicios por ficha. Explore más de 3100 ilustraciones seleccionadas en 104 temas para los objetos posicionados, y elija entre 8 formas geométricas (círculo, cubo, cilindro, corazón, hexágono, cuadrado, estrella, triángulo) como puntos de referencia espacial. El Acceso Completo desbloquea los 11 idiomas soportados con preposiciones gramaticalmente correctas — alemán con contracciones dativas como \"im" y \"am", francés con reglas de elisión para \" l\' \" ante vocales, español con artículos con género (el/la) — multiplicando su catálogo de productos por once desde un solo flujo de trabajo. Cada ficha genera una clave de respuesta automática, y puede exportar PDF listos para imprimir y JPEG a más de 400 DPI en formato Carta, A4, Cuadrado o dimensiones personalizadas. Ya sea que vendas paquetes temáticos de preposiciones en Etsy, compiles libros de vocabulario espacial para Amazon KDP o crees centros de lenguaje diferenciados para Hotmart, el Generador de Fichas de Preposiciones produce resultados profesionales en minutos — pruebe gratis con todas las funciones, sin registro, sin tarjeta de crédito. Las descargas incluyen una marca de agua; compre una licencia para eliminarla.',
   },

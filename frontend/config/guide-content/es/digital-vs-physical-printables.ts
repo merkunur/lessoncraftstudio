@@ -2,25 +2,28 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'imprimibles digitales vs físicos comparación',
+    primaryKeyword: 'imprimibles digitales vs físicos',
     secondaryKeywords: [
-      'vender imprimibles digitales o físicos',
-      'diferencias entre digital y físico imprimibles',
-      'modelo de negocio digital versus impresión',
-      'comparar formatos de venta imprimibles',
+      'vender digital o impreso imprimibles',
+      'descargas digitales vs libros impresos',
+      'Etsy digital vs KDP impreso',
+      'comparar formatos imprimibles',
     ],
     lsiKeywords: [
-      'coste de producción márgenes logística envío',
-      'escalabilidad inventario impresión bajo demanda',
-      'experiencia del comprador formato entrega preferencias',
+      'digital',
+      'físico',
+      'descarga',
+      'impreso',
+      'KDP',
+      'Etsy',
     ],
-    titleTag: 'Digitales vs físicos: imprimibles | LCS',
-    metaDescription: 'Compare imprimibles digitales vs físicos para su negocio. Márgenes, escalabilidad y modelos de venta para Etsy, KDP y Hotmart con análisis completo.',
+    titleTag: 'Imprimibles digitales vs físicos | Comparación',
+    metaDescription: 'Comparación entre vender imprimibles digitales y físicos. Ventajas, desventajas y cuándo usar cada formato.',
   },
 
   hero: {
-    title: 'Imprimibles digitales vs físicos: cuál conviene más',
-    tagline: 'Una guía completa sobre imprimibles digitales vs físicos — que cubre cómo comparar márgenes de beneficio, evaluar la escalabilidad, comprender las expectativas del cliente, elegir las plataformas adecuadas para cada formato, implementar un modelo híbrido, planificar flujos de trabajo de producción y hacer la transición entre formatos a medida que crece su negocio',
+    title: 'Imprimibles digitales vs físicos — Comparación',
+    tagline: 'Ventajas, desventajas y cuándo usar cada formato para su negocio de imprimibles.',
     description: 'Elegir entre vender imprimibles en formato digital o físico determine su modelo de negocio, sus márgenes y su capacidad de escalar. Cada formato tiene ventajas claras según su situación, mercado objetivo y recursos disponibles. Esta guía compara ambos modelos en detalle: costes de producción, márgenes de beneficio, logística, escalabilidad y preferencias del comprador. Descubra qué formato funciona mejor para Etsy, Amazon KDP y Hotmart según su estrategia. El mercado hispanohablante muestra preferencias distintas por formato según el país y el tipo de producto.',
   },
 

@@ -1,25 +1,27 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'generador de dibujos para colorear gratis',
+    primaryKeyword: 'crear dibujos para colorear gratis',
     secondaryKeywords: [
-      'dibujos para colorear gratis sin registro',
-      'generador de páginas para colorear en línea gratis',
-      'crear dibujos para colorear gratis para imprimir',
-      'páginas para colorear gratis PDF escala de grises',
+      'generador de colorear gratis online',
+      'páginas para colorear gratis',
+      'láminas para colorear gratis',
+      'colorear personalizado gratis',
     ],
     lsiKeywords: [
-      'lienzo libre para crear páginas de colorear imprimibles',
-      'dibujos para colorear con imágenes temáticas gratis',
-      'exportar dibujos para colorear en escala de grises PDF',
+      'dibujo',
+      'colorear',
+      'contornos',
+      'blanco y negro',
+      'niños',
     ],
-    titleTag: 'Dibujos para colorear gratis | LCS',
-    metaDescription: 'Cree dibujos para colorear gratis sin registro. Lienzo libre, 3.100+ ilustraciones, 104 temas, exportación en. Venda en Etsy & KDP con licencia comercial.',
+    titleTag: 'Crear dibujos para colorear gratis | Generador online',
+    metaDescription: 'Cree dibujos para colorear gratis a partir de 3.000+ imágenes temáticas. Sin registro. Contornos alta resolución. PDF con marca de agua.',
     },
 
   hero: {
-    title: 'Cree dibujos para colorear gratis en línea',
-    tagline: 'Lienzo libre para crear páginas para colorear con dibujo a mano alzada, exportación en escala de grises, asistentes del mercado y 104 colecciones temáticas de imágenes para páginas profesionales que se venden en todo el mundo sin traducción',
+    title: 'Crear dibujos para colorear gratis online',
+    tagline: 'Dibujos para colorear gratis a partir de 3.000+ imágenes temáticas — sin registro.',
     description: 'Diseña páginas profesionales para colorear en un lienzo completamente abierto donde colocas imágenes exactamente donde quieras — sin cuadrículas, sin plantillas, sin casillas, pura libertad creativa. Este enfoque de lienzo libre es el diferenciador principal: cada página para colorear que cree es única e imposible de replicar con herramientas basadas en plantillas. Explore 104 colecciones temáticas de imágenes con más de 3.100 ilustraciones a color, haga clic para añadir imágenes, y luego organiza, redimensiona, rota y superpone elementos en cualquier parte del lienzo. La herramienta de dibujo a mano alzada le permite dibujar ilustraciones originales directamente junto a las imágenes de la biblioteca con color y tamaño de pincel ajustable (1–50 píxeles), creando páginas híbridas para colorear que combinan arte curado con sus propios dibujos. Los asistentes del mercado con un solo clic añaden un campo de nombre ("Nombre: ____") y líneas de práctica de escritura (sólida, punteada, sólida) — transformando páginas para colorear en hojas de actividades listas para venta en línea que se venden en Hotmart. Al terminar, active la exportación en escala de grises para convertir su composición a color en páginas para colorear con ahorro de tinta, perfectas para interiores de KDP e impresión en volumen. Añada bordes decorativos temáticos de la biblioteca de bordes, texto personalizado con efectos de contorno usando fuentes como Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial y Verdana, y suba sus propias imágenes PNG, JPG o GIF. Esta es una aplicación puramente visual — el resultado no contiene texto, haciendo las páginas para colorear universalmente vendibles sin traducción. No existe clave de respuestas porque colorear es una actividad creativa sin respuesta correcta. Exporte PDF y JPEG listos para imprimir a 300 DPI en tamaño Carta, A4, Cuadrado (1200×1200) o dimensiones personalizadas. La prueba gratuita incluya todas las funciones con una marca de agua en las descargas. Compre una licencia para eliminar la marca de agua y vender con uso comercial.',
   },
 

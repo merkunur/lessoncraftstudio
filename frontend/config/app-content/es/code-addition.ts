@@ -2,25 +2,26 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'crear rompecabezas matemáticos con código para vender en Etsy',
+    primaryKeyword: 'mensaje secreto matemáticas para imprimir',
     secondaryKeywords: [
-      'generador de fichas de suma codificada para Etsy',
-      'rompecabezas criptaritméticos para Amazon KDP',
-      'fichas de descifrar código matemático licencia comercial',
-      'crear cuadernillos de código matemático para vender',
+      'código secreto con sumas',
+      'descifrar código matemáticas ficha',
+      'acertijo de sumas ficha',
+      'sumas y código secreto',
     ],
     lsiKeywords: [
-      'licencia comercial fichas criptaritméticas 300 DPI',
-      'ingreso pasivo rompecabezas educativos Etsy KDP',
-      'descifrar código suma negocio imprimibles',
+      'descifrar',
+      'código',
+      'mensaje oculto',
+      'enigma',
     ],
-    titleTag: 'Rompecabezas de código matemático — Etsy | LCS',
-    metaDescription: 'Cree rompecabezas de suma codificada para vender en Etsy y KDP. Los niños resuelven sumas para descifrar palabras. Licencia comercial. 49 $ pago unico.',
+    titleTag: 'Mensaje secreto con sumas | Generador de fichas con código',
+    metaDescription: 'Cree fichas donde los niños resuelven sumas para descifrar mensajes secretos. Imágenes temáticas, soluciones incluidas. Prueba gratis.',
   },
 
   hero: {
-    title: 'Cree rompecabezas de código matemático para vender en Etsy y KDP',
-    tagline: 'Genere fichas donde los niños resuelven sumas para descifrar palabras ocultas.',
+    title: 'Mensaje secreto con sumas — Generador de fichas con código para imprimir',
+    tagline: 'Cree fichas donde los niños resuelven sumas para descifrar mensajes secretos — con imágenes temáticas.',
     description:
       'Cree rompecabezas matemáticos de descifrar código para vender en Etsy, Amazon KDP o Hotmart — un formato único que combine práctica de sumas con descubrimiento de palabras. Los niños resuelven ecuaciones de suma para desbloquear letras y revelar palabras ocultas, lo que convierte cada ficha en un desafío emocionante. El modo Palabra Revelada soporta los 11 idiomas de la interfaz, permitiéndole crear productos para el mercado hispano y otros mercados simultáneamente. Exporte PDFs listos para imprimir a 300 DPI con solucionario automático y véndalos con la licencia comercial incluida. Los rompecabezas tipo código se destacan en los listados de Etsy porque ofrecen algo diferente a las fichas de matemáticas estándar — los compradores pagan precios premium por formatos creativos. Pruebe gratis con marca de agua — sin registro.',
   },

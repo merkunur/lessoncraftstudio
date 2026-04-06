@@ -1,25 +1,27 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'generador de fichas de abecedario gratis',
+    primaryKeyword: 'fichas del abecedario gratis para imprimir',
     secondaryKeywords: [
-      'fichas de abecedario gratis sin registro',
-      'generador de tren del abecedario en línea gratis',
-      'crear fichas de letras gratis para imprimir',
-      'fichas de abecedario con imágenes gratis PDF',
+      'ejercicios de abecedario gratis',
+      'fichas de letras gratis',
+      'aprender el abecedario gratis',
+      'reconocimiento de letras gratis',
     ],
     lsiKeywords: [
-      'tren de letras actividad de alfabetización preescolar',
-      'ficha de reconocimiento de letras con ilustraciones',
-      'abecedario ilustrado imprimible para niños gratis',
+      'ABC',
+      'mayúsculas',
+      'minúsculas',
+      'orden alfabético',
+      'preescolar',
     ],
-    titleTag: 'Fichas de abecedario gratis | LCS',
-    metaDescription: 'Cree fichas de abecedario gratis sin registro. Tren de letras con ilustraciones, 104 colecciones, 11 idiomas. Pase a licencia comercial para vender.',
+    titleTag: 'Fichas del abecedario gratis para imprimir | Generador',
+    metaDescription: 'Cree fichas del abecedario gratis con imágenes temáticas. Sin registro. Soluciones automáticas, 11 idiomas. PDF con marca de agua.',
     },
 
   hero: {
-    title: 'Cree fichas de abecedario gratis en línea',
-    tagline: 'Cree fichas de tren de letras con asociación imagen-letra en 11 idiomas',
+    title: 'Fichas del abecedario gratis para imprimir — Generador online',
+    tagline: 'Fichas del abecedario con imágenes temáticas gratis — 11 idiomas, sin registro.',
     description: 'Cree fichas de tren del abecedario gratis con este generador en línea. Cada vagón del tren muestra una letra con una ilustración temática correspondiente. Navegue 104 colecciones con más de 3.100 imágenes en 11 idiomas. Configure letras mayúsculas o minúsculas, seleccione el rango de letras y personalice colores y fuentes. Exporte en JPEG y PDF a 300 DPI en tamaño Carta, A4 o personalizado. La prueba gratis incluya todas las funciones con marca de agua en las descargas. Sin registro, sin instalación — empiece ahora. ¿Quiere vender? Pase a la licencia comercial para eliminar la marca de agua y obtener uso comercial completo.',
   },
 

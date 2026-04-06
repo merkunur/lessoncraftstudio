@@ -2,25 +2,27 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'generador de criptogramas para vender en Etsy',
+    primaryKeyword: 'mensaje secreto para imprimir',
     secondaryKeywords: [
-      'crear criptogramas imprimibles para tienda Etsy',
-      'fichas de criptogramas para Amazon KDP',
-      'generador de mensajes cifrados licencia comercial',
-      'criptogramas educativos para vender online',
+      'criptograma generador',
+      'código secreto para imprimir',
+      'descifrar mensaje ficha',
+      'juego de códigos para imprimir',
     ],
     lsiKeywords: [
-      'criptogramas descifrar código vendedores Etsy',
-      'libros de pasatiempos criptogramas KDP',
-      'fichas cifrados educativos negocio imprimibles',
+      'código',
+      'descifrar',
+      'letras',
+      'sustitución',
+      'secreto',
     ],
-    titleTag: 'Criptogramas para vender en Etsy y KDP | LCS',
-    metaDescription: 'Cree criptogramas imprimibles para vender en Etsy y KDP. Mensajes cifrados educativos con imágenes. Licencia comercial incluida. Pruebe gratis. 49 $ pago unico.',
+    titleTag: 'Mensajes secretos para imprimir | Generador de criptogramas',
+    metaDescription: 'Cree criptogramas y mensajes secretos con imágenes temáticas y soluciones automáticas. PDF 300 DPI, 11 idiomas. Prueba gratis — licencia comercial.',
   },
 
   hero: {
-    title: 'Genere criptogramas para vender en Etsy, KDP y Hotmart',
-    tagline: 'Cree fichas de mensajes cifrados con imágenes — un pasatiempo adictivo que se vende.',
+    title: 'Mensajes secretos para imprimir — Generador de criptogramas con imágenes',
+    tagline: 'Cree criptogramas y mensajes secretos con imágenes temáticas — soluciones automáticas, PDF 300 DPI.',
     description:
       'Genere criptogramas para vender en Etsy, Amazon KDP o Hotmart. Los criptogramas son pasatiempos donde los usuarios descifran mensajes sustituyendo símbolos por letras — un formato adictivo que engancha tanto a niños como a adultos. Este generador crea criptogramas con imágenes temáticas de más de 104 categorías, añadiendo atractivo visual a cada ficha. Los criptogramas son un nicho de baja competencia en Etsy y KDP con compradores leales que buscan variedad constantemente. Exporte PDFs a 300 DPI con solucionario automático y véndalos con la licencia comercial incluida. El mercado hispano de pasatiempos imprimibles está prácticamente vacío — esta es su oportunidad. Pruebe gratis con marca de agua — sin registro.',
   },

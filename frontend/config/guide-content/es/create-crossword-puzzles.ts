@@ -2,25 +2,27 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'crear crucigramas para vender en línea',
+    primaryKeyword: 'cómo crear crucigramas para imprimir',
     secondaryKeywords: [
-      'cómo crear crucigramas imprimibles',
-      'guía paso a paso crucigramas educativos',
-      'vender crucigramas en Etsy y Amazon KDP',
-      'crucigramas con licencia comercial Hotmart',
+      'tutorial crucigramas paso a paso',
+      'crear crucigramas para vender',
+      'guía crucigramas con imágenes',
+      'crucigramas para Etsy y KDP',
     ],
     lsiKeywords: [
-      'generador de crucigramas con imágenes temáticas',
-      'crucigramas para negocio de imprimibles',
-      'exportar PDF crucigramas profesionales',
+      'crucigrama',
+      'pistas',
+      'grilla',
+      'horizontal',
+      'vertical',
     ],
-    titleTag: 'Crucigramas para vender en línea | LCS',
-    metaDescription: 'Aprenda a crear crucigramas para vender en línea en Etsy, KDP y Hotmart. Guía paso a paso con generador profesional y licencia comercial.',
+    titleTag: 'Cómo crear crucigramas para imprimir | Guía',
+    metaDescription: 'Guía paso a paso para crear crucigramas con pistas de imágenes. 104 temas, soluciones automáticas, PDF listos para vender.',
   },
 
   hero: {
-    title: 'Cómo crear crucigramas profesionales para vender en línea',
-    tagline: 'Un tutorial paso a paso para crear crucigramas temáticos con pistas de imágenes que puede vender en Etsy, Amazon KDP y Hotmart',
+    title: 'Cómo crear crucigramas para imprimir — Guía paso a paso',
+    tagline: 'Tutorial completo para crear crucigramas con pistas de imágenes y soluciones automáticas.',
     description: 'Descubra cómo crear crucigramas educativos listos para vender en marketplaces de imprimibles. Esta guía paso a paso le muestra cómo configurar la dificultad, seleccionar temas con imágenes atractivas y generar puzzles con claves de respuestas automáticas. Aprenda a construir un catálogo completo de crucigramas temáticos y estacionales que atraigan compradores en Etsy, Amazon KDP y Hotmart. Cree variaciones por nivel de dificultad para maximizar su alcance. Pruebe todas las funciones gratis con marca de agua antes de comprar su licencia comercial.',
   },
 

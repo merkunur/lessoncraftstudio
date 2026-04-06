@@ -2,25 +2,27 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'generador de fichas de patrones gratis',
+    primaryKeyword: 'fichas de secuencias gratis para imprimir',
     secondaryKeywords: [
-      'fichas de patrones gratis sin registro',
-      'generador de tren de patrones en línea gratis',
-      'crear fichas de secuencias gratis para imprimir',
-      'fichas de patrones con imágenes gratis PDF',
+      'series lógicas gratis',
+      'patrones para completar gratis',
+      'secuencias lógicas gratis',
+      'algoritmos preescolar gratis',
     ],
     lsiKeywords: [
-      'tren de patrones actividad de secuencias visuales',
-      'ficha de completar el patrón con ilustraciones',
-      'reconocimiento de patrones preescolar imprimible gratis',
+      'AB',
+      'ABC',
+      'repetir',
+      'continuar',
+      'secuencia',
     ],
-    titleTag: 'Fichas de patrones gratis en línea | LCS',
-    metaDescription: 'Cree fichas de patrones en tren gratis sin registro. Secuencias visuales con imágenes, 104 colecciones, respuestas. Venda en Etsy & KDP con licencia comercial.',
+    titleTag: 'Fichas de secuencias gratis para imprimir | Generador',
+    metaDescription: 'Cree fichas de secuencias lógicas gratis con patrones AB, ABC, ABCD. Sin registro. Soluciones automáticas. PDF con marca de agua.',
   },
 
   hero: {
-    title: 'Cree fichas de patrones en tren gratis en línea',
-    tagline: 'Cree fichas de patrones repetitivos con 11 vagones temáticos, cinco tipos de patrón, número de pistas ajustable y un resultado completamente visual sin texto que se vende en todo el mundo sin necesidad de traducción',
+    title: 'Fichas de secuencias gratis para imprimir — Generador online',
+    tagline: 'Fichas de secuencias lógicas con imágenes gratis — patrones AB, ABC, ABCD.',
     description: 'Cree fichas de tren de patrones gratis con este generador en línea. Los vagones del tren muestran secuencias de imágenes que los usuarios deben completar identificando el patrón. Navegue 104 colecciones temáticas con más de 3.100 ilustraciones o suba sus propias imágenes. Configure la longitud de la secuencia, dificultad del patrón y exporte con clave de respuestas autogenerada. Exporte en JPEG y PDF a 300 DPI en tamaño Carta, A4 o personalizado. La prueba gratis incluya todas las funciones con marca de agua. Sin registro, sin instalación. ¿Quiere vender? Pase a la licencia comercial para eliminar la marca de agua y obtener uso comercial completo.',
   },
 

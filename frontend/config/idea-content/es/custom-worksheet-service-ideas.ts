@@ -2,23 +2,24 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Servicio de fichas — Negocio | LCS',
-    metaDescription: 'Ideas para un servicio de creación de fichas personalizadas. Venda en Etsy & KDP con licencia comercial.',
-    primaryKeyword: 'servicio de creación de fichas ideas negocio',
+    titleTag: 'Servicio fichas personalizadas Etsy | Nicho',
+    metaDescription: 'Ideas de servicio de fichas personalizadas para Etsy y freelance. Fichas a medida con licencia comercial.',
+    primaryKeyword: 'servicio de fichas personalizadas para vender',
     secondaryKeywords: [
-      'negocio de fichas personalizadas por encargo',
-      'servicio de diseño de imprimibles educativos',
-      'crear fichas a medida para clientes',
-      'freelance de diseño de fichas imprimibles',
+      'fichas personalizadas Etsy',
+      'negocio creación fichas a medida',
+      'servicio imprimibles educativos freelance',
+      'diseño de fichas por encargo',
     ],
     lsiKeywords: [
-      'fichas personalizadas por pedido vendedores',
-      'servicio de generación de imprimibles Fiverr',
-      'diseño a medida de actividades educativas',
+      'personalizado',
+      'servicio',
+      'a medida',
+      'freelance',
     ],
   },
   hero: {
-    title: 'Servicio de Creación de Fichas: Ideas de Negocio',
+    title: 'Ideas de servicio de fichas personalizadas para Etsy y freelance',
     description: 'Un servicio de creación de fichas personalizadas combine los generadores de imprimibles con su experiencia para ofrecer productos a medida que los clientes no pueden crear por sí mismos. Escuelas que necesitan material con su logo, editoriales que requieren contenido exclusivo, centros de tutoría que buscan fichas alineadas con su currículo y empresas que quieren material de formación forman una base de clientes dispuesta a pagar precios premium por fichas personalizadas. Esta guía presenta modelos de servicio, plataformas de freelance y estrategias de precios para construir un negocio de creación de fichas. Pruebe cada generador gratis con marca de agua.',
   },
   marketOverview: `El modelo de servicio de fichas personalizadas aborda una brecha fundamental en el marketplace de imprimibles educativos donde vendedores, centros de tutoría y escuelas necesitan materiales específicamente adaptados a sus requisitos únicos pero no pueden encontrar exactamente lo que necesitan entre productos genéricos prefabricados, creando una demanda consistente de proveedores de servicios que cierran la brecha entre imprimibles producidos en masa y los materiales personalizados que los emprendedores realmente desean para sus tiendas, catálogos de productos y poblaciones estudiantiles específicas. Los vendedores frecuentemente necesitan fichas alineadas con sus documentos particulares de alcance y secuencia de productos, con vocabulario de sus unidades instruccionales actuales, calibradas a los niveles de habilidad específicos de sus usuarios, y formateadas para coincidir con sus rutinas del mercado y estructuras de evaluación de maneras que ningún producto prefabricado puede anticipar o acomodar.

@@ -2,25 +2,26 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'generador de fichas de clasificación gratis',
+    primaryKeyword: 'fichas de clasificación gratis para imprimir',
     secondaryKeywords: [
-      'fichas de clasificación de imágenes gratis sin registro',
-      'generador de fichas de ordenar y clasificar en línea',
-      'crear fichas de clasificación gratis para imprimir',
-      'fichas de clasificación visual gratis PDF con respuestas',
+      'clasificar y agrupar gratis',
+      'categorizar imágenes gratis',
+      'ordenar y clasificar gratis',
+      'clasificación preescolar gratis',
     ],
     lsiKeywords: [
-      'actividad de categorización de imágenes ficha imprimible',
-      'ficha de agrupar objetos por categoría preescolar',
-      'clasificación visual por tamaño y tipo PDF gratis',
+      'clasificar',
+      'agrupar',
+      'ordenar',
+      'categorizar',
     ],
-    titleTag: 'Fichas de clasificación gratis | LCS',
-    metaDescription: 'Cree fichas de clasificación de imágenes gratis sin registro. Ordene por categoría, tamaño o tipo. Venda en Etsy & KDP con licencia comercial.',
+    titleTag: 'Fichas de clasificación gratis | Generador online',
+    metaDescription: 'Cree fichas de clasificación gratis con imágenes temáticas. Sin registro. Soluciones automáticas. PDF con marca de agua.',
   },
 
   hero: {
-    title: 'Cree fichas de clasificación de imágenes gratis',
-    tagline: 'Generador de fichas de clasificación en dos categorías con modos de selección temático y manual, cuadrículas de recortes barajadas de 4–12 imágenes en 3–4 columnas autoajustables, marcos de categoría con borde discontinuo para destinos de clasificación izquierdo y derecho, claves de respuestas autogeneradas con imágenes 6× más grandes en cajas de categoría, encabezado localizado de Clasificación de Imágenes en 11 idiomas y 104 colecciones temáticas de imágenes para fichas de clasificación que se venden en todo el mundo',
+    title: 'Fichas de clasificación gratis para imprimir — Generador online',
+    tagline: 'Fichas de clasificar y categorizar gratis — con imágenes temáticas.',
     description: 'Cree fichas de clasificación visual gratis con este generador en línea. Los usuarios ordenan imágenes en categorías según criterios configurables. Navegue 104 colecciones temáticas con más de 3.100 ilustraciones o suba sus propias imágenes. Configure el número de categorías, imágenes por grupo y exporte con clave de respuestas autogenerada. Exporte en JPEG y PDF a 300 DPI en tamaño Carta, A4 o personalizado. La prueba gratis incluya todas las funciones con marca de agua en las descargas. Sin registro, sin instalación. ¿Quiere vender? Pase a la licencia comercial para eliminar la marca de agua y obtener uso comercial completo.',
   },
 

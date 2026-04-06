@@ -4,23 +4,25 @@ const content: StartContent = {
   seo: {
     primaryKeyword: 'crear fichas que se vendan',
     secondaryKeywords: [
-      'diseñar fichas imprimibles que generen ventas',
-      'cómo crear imprimibles que los compradores quieran',
-      'fichas educativas que se venden rápido',
-      'secretos de fichas imprimibles rentables',
+      'fichas que se venden en Etsy',
+      'diseñar fichas rentables',
+      'fichas educativas que venden',
+      'qué fichas crear para vender',
     ],
     lsiKeywords: [
-      'diseño de fichas para vendedores exitosos',
-      'optimizar imprimibles para conversión Etsy',
-      'fichas profesionales que atraen compradores',
+      'diseño',
+      'calidad',
+      'demanda',
+      'tendencias',
+      'precio',
     ],
-    titleTag: 'Crear fichas que se vendan | LCS',
-    metaDescription: 'Aprenda a crear fichas que se vendan. Técnicas de diseño, estrategias de producto y optimización para Etsy, Amazon KDP y Hotmart. Guía práctica.',
+    titleTag: 'Crear fichas que se vendan | Guía para vendedores',
+    metaDescription: 'Aprenda a crear fichas educativas que realmente se vendan. Diseño, calidad, demanda y estrategia de precios para Etsy y KDP.',
   },
 
   hero: {
-    title: 'Cómo Crear Fichas Imprimibles Que Se Vendan',
-    tagline: 'Las técnicas que separan los imprimibles que acumulan polvo de los que generan ventas constantes',
+    title: 'Crear fichas que se vendan — Guía para vendedores',
+    tagline: 'Diseño, calidad, demanda y estrategia de precios para fichas que generan ventas.',
     description: 'Crear fichas imprimibles es fácil. Crear fichas que los compradores realmente quieran comprar requiere entender qué buscan, cómo toman decisiones de compre y qué elementos visuales y pedagógicos generan confianza a primera vista. Esta guía cubre las técnicas de diseño, estructura de producto y optimización visual que transforman fichas genéricas en productos que se venden de forma constante en Etsy, Amazon KDP y Hotmart. Aprenderá a identificar lo que funciona en su nicho, crear diferenciación real y producir imprimibles profesionales con los generadores de fichas. Cada generador ofrece una prueba gratis con marca de agua.',
   },
 

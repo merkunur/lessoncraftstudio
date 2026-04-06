@@ -2,25 +2,27 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'crear fichas de caligrafía para vender',
+    primaryKeyword: 'cómo crear fichas de grafomotricidad para imprimir',
     secondaryKeywords: [
-      'cómo crear fichas de caligrafía imprimibles',
-      'guía paso a paso fichas de escritura',
-      'vender fichas de caligrafía en Etsy y KDP',
-      'fichas de caligrafía con licencia comercial Hotmart',
+      'tutorial grafomotricidad paso a paso',
+      'crear fichas de escritura para vender',
+      'guía fichas de caligrafía',
+      'fichas de trazos para Etsy y KDP',
     ],
     lsiKeywords: [
-      'generador de fichas de caligrafía con guías',
-      'fichas de escritura para negocio imprimible',
-      'exportar PDF fichas de caligrafía profesionales',
+      'grafomotricidad',
+      'caligrafía',
+      'trazos',
+      'escritura',
+      'motricidad fina',
     ],
-    titleTag: 'Fichas de caligrafía para vender | LCS',
-    metaDescription: 'Aprenda a crear fichas de caligrafía para vender en Etsy, KDP y Hotmart. Guía paso a paso con generador profesional y formatos listos para imprimir.',
+    titleTag: 'Cómo crear fichas de grafomotricidad | Guía',
+    metaDescription: 'Guía paso a paso para crear fichas de grafomotricidad y escritura. Trazos, caligrafía y motricidad fina. PDF para vender.',
   },
 
   hero: {
-    title: 'Cómo crear fichas de caligrafía profesionales para vender',
-    tagline: 'Un tutorial paso a paso para crear fichas de escritura profesionales con modos de práctica progresivos, flechas de orden de trazos y exportación lista para imprimir para Etsy, Amazon KDP y Hotmart',
+    title: 'Cómo crear fichas de grafomotricidad para imprimir — Guía',
+    tagline: 'Tutorial para crear fichas de grafomotricidad, caligrafía y trazos con palabras personalizadas.',
     description: 'Descubra cómo crear fichas de caligrafía listas para vender en marketplaces de imprimibles educativos. Esta guía paso a paso le muestra cómo configurar estilos de letra, seleccionar líneas de guía apropiadas y generar fichas profesionales para distintos niveles. Aprenda a crear variaciones por tipo de letra y dificultad para multiplicar su catálogo de productos. Optimice sus anuncios en Etsy, Amazon KDP y Hotmart con palabras clave efectivas. Pruebe todas las funciones gratis con marca de agua antes de adquirir su licencia comercial.',
   },
 

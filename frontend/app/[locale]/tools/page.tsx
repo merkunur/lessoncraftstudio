@@ -27,7 +27,7 @@ const toolsKeywords: Record<string, string[]> = {
   en: ['free worksheet maker online', 'free printable generator', 'free worksheet generator', 'make worksheets online free', 'free word search maker', 'free math worksheet generator'],
   de: ['Arbeitsblatt Generator kostenlos', 'kostenlos Arbeitsblätter erstellen', 'Suchsel erstellen kostenlos', 'Kreuzworträtsel erstellen kostenlos', 'Rätsel Generator kostenlos'],
   fr: ['générateur fiches gratuit en ligne', 'mots mêlés gratuit', 'mots croisés gratuit', 'fiches maths gratuit', 'générateur coloriage gratuit', 'sudoku à imprimer gratuit'],
-  es: ['generadores imprimibles gratis', 'creador de fichas online gratis', 'herramientas imprimibles prueba gratis', 'generador sopa de letras gratis', 'generador fichas matemáticas gratis', 'creador colorear online gratis'],
+  es: ['generador de fichas gratis online', 'crear sopa de letras gratis', 'crear crucigrama gratis', 'generador de ejercicios gratis', 'fichas de matemáticas gratis para imprimir', 'generador sudoku gratis'],
   pt: ['geradores imprimíveis grátis', 'criador de fichas online', 'ferramentas imprimíveis teste grátis', 'gerador caça-palavras grátis', 'gerador fichas matemática', 'criador colorir online'],
   it: ['generatori stampabili gratis', 'creatore schede online', 'strumenti stampabili prova gratis', 'generatore cerca parole gratis', 'generatore schede matematica', 'creatore disegni colorare online'],
   nl: ['gratis printables-generators online', 'gratis werkblad maker', 'gratis woordzoeker generator', 'gratis rekenbladen maker', 'gratis kleurplaten generator', 'werkbladen online maken'],
@@ -51,8 +51,8 @@ const toolsMetadata: Record<string, { title: string; description: string }> = {
     description: 'Utilisez les 33 générateurs gratuitement en ligne — mots mêlés, mots croisés, maths, sudoku et plus. Sans inscription. Filigrane supprimé avec licence.',
   },
   es: {
-    title: '33 generadores gratis — Pruebe en línea | LCS',
-    description: 'Pruebe los 33 generadores de fichas gratis en línea. Sin registro. Sopas de letras, matemáticas, colorear, puzzles y más con marca de agua.',
+    title: 'Generadores de fichas gratis | 33 herramientas en línea',
+    description: 'Use los 33 generadores gratis en línea — sopa de letras, crucigramas, matemáticas, sudoku y más. Sin registro. La marca de agua se elimina con licencia.',
   },
   pt: {
     title: '33 geradores grátis — Teste online | LCS',
@@ -133,8 +133,8 @@ const toolsContent: Record<string, {
     categories: { math: 'Mathématiques', literacy: 'Lecture & Langage', visual: 'Apprentissage visuel', matching: 'Association & Tri', puzzle: 'Puzzles & Logique', search: 'Chercher & Trouver' },
   },
   es: {
-    heroTitle: 'Generadores de imprimibles gratis',
-    heroSubtitle: 'Pruebe los 33 generadores gratis en l\ínea. Sin registro. Cree fichas profesionales con marca de agua.',
+    heroTitle: 'Generadores de fichas gratis en línea',
+    heroSubtitle: 'Pruebe los 33 generadores gratis en línea — sopa de letras, crucigramas, matemáticas y más. Sin registro.',
     exploreMore: 'Explorar m\ás',
     howToGuides: 'Gu\ías',
     bundles: 'Paquetes',

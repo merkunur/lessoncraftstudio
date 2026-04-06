@@ -2,25 +2,27 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'crear fichas de restas para vender',
+    primaryKeyword: 'cómo crear fichas de restas para imprimir',
     secondaryKeywords: [
-      'cómo crear fichas de restas imprimibles',
-      'guía paso a paso fichas de sustracción',
-      'vender fichas de restas en Etsy y KDP',
-      'fichas de restas con licencia comercial Hotmart',
+      'tutorial fichas de restas paso a paso',
+      'crear fichas de restas para vender',
+      'guía fichas de restas con imágenes',
+      'fichas de restas para Etsy y KDP',
     ],
     lsiKeywords: [
-      'generador de fichas de sustracción con imágenes',
-      'fichas de restas para negocio imprimible',
-      'exportar PDF fichas de restas profesionales',
+      'restas',
+      'imágenes',
+      'soluciones',
+      'primaria',
+      'PDF',
     ],
-    titleTag: 'Fichas de restas para vender | LCS',
-    metaDescription: 'Aprenda a crear fichas de restas para vender en Etsy, KDP y Hotmart. Guía paso a paso con generador profesional y exportación PDF lista para imprimir.',
+    titleTag: 'Cómo crear fichas de restas para imprimir | Guía',
+    metaDescription: 'Guía paso a paso para crear fichas de restas con imágenes temáticas. Tutorial completo con soluciones automáticas y exportación PDF.',
   },
 
   hero: {
-    title: 'Cómo crear fichas de restas profesionales para vender',
-    tagline: 'Un tutorial paso a paso para crear fichas de restas temáticas con imágenes tachadas, dificultad configurable y exportaciones listas para imprimir que puede vender en Etsy, Amazon KDP y Hotmart',
+    title: 'Cómo crear fichas de restas para imprimir — Guía paso a paso',
+    tagline: 'Tutorial completo para crear fichas de restas con imágenes temáticas y soluciones automáticas.',
     description: 'Descubra cómo crear fichas de restas atractivas y listas para vender en marketplaces de imprimibles educativos. Esta guía le muestra paso a paso cómo configurar rangos de números, seleccionar temas visuales y generar claves de respuestas automáticas. Aprenda a crear variaciones por dificultad y tema para construir un catálogo completo de productos de sustracción. Optimice sus anuncios para Etsy, Amazon KDP y Hotmart con títulos y descripciones que atraigan compradores. Pruebe todas las funciones gratis con marca de agua antes de adquirir su licencia comercial.',
   },
 

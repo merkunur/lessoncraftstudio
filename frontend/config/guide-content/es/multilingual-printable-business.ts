@@ -2,25 +2,28 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'negocio de imprimibles multilingüe',
+    primaryKeyword: 'negocio de imprimibles en varios idiomas',
     secondaryKeywords: [
-      'vender imprimibles en varios idiomas',
-      'expandir negocio fichas a otros mercados',
-      'imprimibles multilingüe estrategia de mercado',
-      'negocio de fichas internacional multiplataforma',
+      'imprimibles multilingües negocio',
+      'vender fichas en varios idiomas',
+      'negocio imprimibles internacional',
+      'mercado global imprimibles',
     ],
     lsiKeywords: [
-      'localización traducción adaptación cultural mercados',
-      'expansión internacional demanda por idioma mercados emergentes',
-      'catálogo multilingüe optimización SEO por idioma',
+      'multilingüe',
+      'idiomas',
+      'internacional',
+      'mercado',
+      'traducción',
+      'alcance',
     ],
-    titleTag: 'Negocio de imprimibles multilingüe | LCS',
-    metaDescription: 'Expanda su negocio de imprimibles a múltiples idiomas y mercados. Estrategia de localización para Etsy, KDP y Hotmart con máximo alcance internacional.',
+    titleTag: 'Negocio de imprimibles en varios idiomas | Guía',
+    metaDescription: 'Guía para crear un negocio de imprimibles multilingüe. Cómo multiplicar su alcance vendiendo en 11 idiomas.',
   },
 
   hero: {
-    title: 'Expanda su negocio de imprimibles a múltiples idiomas',
-    tagline: 'Una guía completa para expandir su negocio de imprimibles a nivel internacional — por qué la expansión multilingüe es la estrategia de crecimiento más infrautilizada, qué mercados lingüísticos ofrecen los mayores rendimientos, cómo estructurar su negocio para operaciones en varios idiomas, analizar oportunidades en marketplaces internacionales, construir ventaja competitiva mediante cobertura lingüística, desarrollar un marco de multiplicación de ingresos, planificar una expansión lingüística por fases y optimizar el rendimiento de una cartera multilingüe',
+    title: 'Negocio de imprimibles en varios idiomas — Guía',
+    tagline: 'Multiplique su alcance creando y vendiendo imprimibles en 11 idiomas.',
     description: 'Cada idioma que añada a su catálogo de imprimibles multiplica su mercado potencial sin crear contenido desde cero. La expansión multilingüe es la estrategia de crecimiento más eficiente para vendedores de productos digitales educativos. Esta guía le muestra cómo localizar sus fichas para nuevos mercados, adaptar el contenido culturalmente y optimizar sus listados por idioma. Descubra la estrategia que funciona en Etsy, Amazon KDP y Hotmart. El mercado hispanohablante abarca más de 20 países con demanda creciente de imprimibles educativos de calidad.',
   },
 

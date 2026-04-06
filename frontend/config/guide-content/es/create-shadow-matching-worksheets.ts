@@ -2,25 +2,27 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'crear fichas de sombras para vender',
+    primaryKeyword: 'cómo crear fichas de asociar sombras',
     secondaryKeywords: [
-      'cómo crear fichas de sombras imprimibles',
-      'guía paso a paso fichas de emparejar sombras',
-      'vender fichas de sombras en Etsy y KDP',
-      'fichas de sombras licencia comercial Hotmart',
+      'tutorial sombras y siluetas paso a paso',
+      'crear fichas de sombras para vender',
+      'guía fichas de siluetas',
+      'fichas de sombras para Etsy y KDP',
     ],
     lsiKeywords: [
-      'generador de fichas de sombras temáticas',
-      'fichas de emparejar sombras para negocio imprimible',
-      'exportar PDF fichas de sombras profesionales',
+      'sombras',
+      'siluetas',
+      'asociar',
+      'discriminación visual',
+      'preescolar',
     ],
-    titleTag: 'Fichas de sombras para vender | LCS',
-    metaDescription: 'Aprenda a crear fichas de sombras para vender en Etsy, KDP y Hotmart. Guía paso a paso con generador profesional y claves de respuestas incluidas.',
+    titleTag: 'Cómo crear fichas de asociar sombras | Guía',
+    metaDescription: 'Guía paso a paso para crear fichas de asociación de sombras con imágenes. Siluetas temáticas, soluciones automáticas.',
   },
 
   hero: {
-    title: 'Cómo crear fichas de emparejar sombras para vender',
-    tagline: 'Un tutorial paso a paso para crear fichas de discriminación visual de doble modo con generación de siluetas a nivel de píxel, mitades de imagen dividida en modo Completa la imagen, algoritmo de desordenamiento Fisher-Yates, etiquetas activables/desactivables, claves de respuestas autogeneradas y resultado puramente visual que puede vender en todo el mundo en Etsy, Amazon KDP y Hotmart',
+    title: 'Cómo crear fichas de asociar sombras — Guía paso a paso',
+    tagline: 'Tutorial para crear fichas de sombras y siluetas con imágenes temáticas.',
     description: 'Descubra cómo crear fichas de emparejar sombras listas para vender en marketplaces de imprimibles. Esta guía paso a paso le muestra cómo configurar los pares de siluetas, seleccionar temas visuales atractivos y generar fichas profesionales con claves de respuestas automáticas. Aprenda a crear variaciones por tema y dificultad para construir un catálogo completo de productos educativos. Optimice sus anuncios en Etsy, Amazon KDP y Hotmart con palabras clave efectivas. Pruebe todas las funciones gratis con marca de agua antes de adquirir su licencia comercial.',
   },
 

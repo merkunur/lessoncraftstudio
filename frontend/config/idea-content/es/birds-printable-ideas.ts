@@ -2,24 +2,25 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Imprimibles de aves para vender | LCS',
-    metaDescription: 'Ideas de imprimibles de aves para vender en Etsy, KDP y Hotmart. Loros, búhos y flamencos — nicho con pico en primavera y demanda educativa constante.',
+    titleTag: 'Imprimibles de aves para Etsy | Nicho',
+    metaDescription: 'Ideas de imprimibles de aves para Etsy y KDP. Loros, búhos y flamencos con pico en primavera.',
 
-    primaryKeyword: 'imprimibles de aves para vender',
+    primaryKeyword: 'imprimibles de aves para vender en Etsy',
     secondaryKeywords: [
-      'fichas de pájaros para Etsy y KDP',
-      'negocio imprimibles aves educativas',
-      'actividades de aves comerciales en línea',
-      'vender fichas pájaros Hotmart',
+      'fichas de pájaros Etsy KDP',
+      'actividades de aves imprimibles',
+      'negocio imprimibles aves',
+      'fichas de pájaros para vender',
     ],
     lsiKeywords: [
-      'nicho imprimibles aves naturaleza demanda',
-      'fichas educativas ornitología vendedores',
-      'productos digitales tema pájaros primavera',
+      'aves',
+      'pájaros',
+      'búhos',
+      'flamencos',
     ],
   },
   hero: {
-    title: 'Ideas de imprimibles de aves para vender en Etsy, KDP y Hotmart',
+    title: 'Ideas de imprimibles de aves para vender en Etsy y KDP',
     description: 'Las aves ofrecen un nicho versátil para los vendedores de imprimibles educativos. Loros, búhos, flamencos y águilas atraen tanto a niños fascinados por los colores como a familias que estudian la naturaleza. El tema de aves tiene un pico natural en primavera — cuando los proyectos sobre migración y nidos coinciden con la planificación escolar — pero mantiene demanda constante gracias a los programas de ciencias y la curiosidad infantil por el mundo animal. Para los emprendedores de imprimibles, las aves permiten crear productos que cruzan múltiples categorías: desde fichas de conteo y colorear hasta actividades de vocabulario y ciencias naturales. En el mercado hispano, este nicho tiene competencia mínima. Esta guía le presenta ideas de productos y estrategias para posicionar su tienda en Etsy, KDP y Hotmart.',
   },
   marketOverview: `El nicho de imprimibles de aves ocupa una posición única donde el contenido imprimible se encuentra con la apreciación de la naturaleza, creando demanda de múltiples segmentos de compradores. Los padres buscan fichas con temática de aves para complementar las actividades de observación de aves en el jardín, las caminatas por la naturaleza y la curiosidad científica que sus hijos expresan de forma natural. Los vendedores necesitan recursos para venta en línea sobre unidades de ornitología, estudios de hábitats y lecciones sobre migración estacional que aparecen en los catálogos de productos de educación infantil y primaria. Las emprendedores frecuentemente diseñan unidades de estudio de aves de varias semanas que requieren materiales imprimibles diversos en múltiples áreas de habilidad.

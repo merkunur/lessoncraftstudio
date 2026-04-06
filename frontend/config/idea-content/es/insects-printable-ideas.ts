@@ -2,24 +2,25 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Imprimibles insectos — Ideas negocio | LCS',
-    metaDescription: 'Ideas de negocio con imprimibles de insectos para Etsy, KDP y Hotmart. Mariposas, abejas y catarinas — nicho de primavera con alta demanda educativa.',
+    titleTag: 'Imprimibles de insectos para Etsy | Nicho',
+    metaDescription: 'Ideas de imprimibles de insectos para Etsy y KDP. Mariposas, abejas y catarinas con pico en primavera.',
 
-    primaryKeyword: 'imprimibles de insectos ideas negocio',
+    primaryKeyword: 'imprimibles de insectos para vender en Etsy',
     secondaryKeywords: [
-      'fichas de bichos para vender en Etsy',
-      'negocio imprimibles insectos educativos',
-      'actividades de insectos comerciales KDP',
-      'vender fichas mariposas abejas en línea',
+      'fichas de insectos Etsy KDP',
+      'actividades de bichos imprimibles',
+      'negocio imprimibles insectos',
+      'fichas de mariposas para vender',
     ],
     lsiKeywords: [
-      'nicho imprimibles insectos primavera pico',
-      'fichas educativas entomología vendedores',
-      'productos digitales mariposas catarinas Hotmart',
+      'insectos',
+      'mariposas',
+      'abejas',
+      'catarinas',
     ],
   },
   hero: {
-    title: 'Ideas de negocio con imprimibles de insectos para vender en línea',
+    title: 'Ideas de imprimibles de insectos para vender en Etsy y KDP',
     description: 'Los insectos representan un nicho subestimado en el mercado de imprimibles educativos. Mariposas, abejas, catarinas y hormigas son protagonistas de proyectos de ciencias naturales en escuelas y hogares durante todo el año, con un pico explosivo en primavera cuando los programas escolares se centran en ciclos de vida, polinización y hábitats naturales. Para los vendedores de imprimibles, el tema de insectos permite crear productos diferenciados que cruzan múltiples habilidades: conteo, vocabulario, ciencias y motricidad fina. La fascinación natural de los niños por los bichos genere búsquedas constantes en Etsy y Amazon. En el mercado hispano, la competencia es prácticamente inexistente para fichas de insectos en español. Esta guía le muestra ideas de productos, precios y cómo construir una línea rentable en Etsy, KDP y Hotmart.',
   },
   marketOverview: `El nicho de imprimibles de insectos se sitúa en la intersección de la educación científica y la fascinación infantil, creando demanda de padres, vendedores y emprendedores que reconocen el valor educativo de los materiales de aprendizaje con temática de bichos. Los niños encuentran insectos a diario en sus jardines, parques y patios, lo que hace que estas criaturas sean inmediatamente identificables y eternamente interesantes para los jóvenes aprendices. Los padres buscan fichas de insectos para canalizar esta curiosidad natural en actividades de aprendizaje estructuradas, mientras que los vendedores necesitan recursos para venta en línea sobre unidades de entomología, estudios de ciclos de vida y exploraciones de hábitats que aparecen a lo largo de los catálogos de productos de educación infantil y primaria.

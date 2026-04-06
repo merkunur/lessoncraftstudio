@@ -2,25 +2,28 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'licencia comercial para vendedores de imprimibles',
+    primaryKeyword: 'licencias comerciales para imprimibles',
     secondaryKeywords: [
-      'tipos de licencia para productos digitales',
-      'licencia comercial imprimibles educativos',
-      'derechos de uso comercial fichas',
-      'licenciamiento de contenido imprimible',
+      'qué es licencia comercial imprimibles',
+      'cómo funciona licencia comercial',
+      'derechos licencia comercial fichas',
+      'licencia comercial Etsy KDP',
     ],
     lsiKeywords: [
-      'uso personal uso comercial derechos de reventa',
-      'términos de licencia protección legal propiedad intelectual',
-      'licencia extendida restricciones de uso distribución',
+      'licencia',
+      'comercial',
+      'derechos',
+      'uso',
+      'venta',
+      'legal',
     ],
-    titleTag: 'Licencia comercial para vendedores | LCS',
-    metaDescription: 'Entienda las licencias comerciales para vendedores de imprimibles. Tipos de licencia, derechos de uso y protección legal para Etsy, KDP y Hotmart en 2026.',
+    titleTag: 'Licencias comerciales para imprimibles | Guía',
+    metaDescription: 'Guía sobre licencias comerciales para imprimibles. Qué derechos otorga, cómo funciona y por qué la necesita para vender.',
   },
 
   hero: {
-    title: 'Licencias comerciales: lo que todo vendedor debe saber',
-    tagline: 'Una guía completa sobre licencias comerciales para vendedores de imprimibles — que cubre la diferencia entre uso personal y comercial, qué requiere una licencia comercial, cómo evaluar las condiciones de licencia, modelos de licencia comunes en la industria de imprimibles, errores de licenciamiento que debes evitar, cómo construir un sistema de cumplimiento, gestionar licencias en múltiples plataformas y usar el conocimiento sobre licencias como ventaja competitiva',
+    title: 'Licencias comerciales para imprimibles — Guía completa',
+    tagline: 'Qué derechos otorga, cómo funciona y por qué necesita una licencia comercial.',
     description: 'Las licencias comerciales determinan qué puede hacer legalmente con los imprimibles que cree y vende. Entender los diferentes tipos de licencia protege su negocio y aumenta la confianza de sus compradores. Esta guía explica los tipos de licencia más comunes, cómo estructurar sus propios términos y qué derechos otorgar a sus clientes. Aprenda las mejores prácticas para Etsy, Amazon KDP y Hotmart. El mercado hispanohablante tiene particularidades legales que debe considerar para proteger su negocio de imprimibles en varios países.',
   },
 

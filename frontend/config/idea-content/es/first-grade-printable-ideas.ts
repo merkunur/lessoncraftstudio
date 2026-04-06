@@ -2,23 +2,24 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Imprimibles primer grado para vender | LCS',
-    metaDescription: 'Ideas de imprimibles de primer grado para vender en Etsy y Amazon KDP. Fichas de suma, resta, lectura comprensiva y escritura para primero de primaria.',
-    primaryKeyword: 'imprimibles de primer grado para vender',
+    titleTag: 'Imprimibles de primer grado Etsy | Nicho',
+    metaDescription: 'Ideas de imprimibles de primer grado para Etsy y KDP. Suma, resta, lectura y escritura.',
+    primaryKeyword: 'imprimibles de primer grado para vender en Etsy',
     secondaryKeywords: [
-      'fichas de primero de primaria negocio',
-      'vender imprimibles de primer grado Etsy',
-      'actividades de primer grado tiendas digitales',
-      'nicho de primer grado imprimibles educativos',
+      'fichas primer grado Etsy KDP',
+      'actividades primero de primaria imprimibles',
+      'negocio imprimibles primer grado',
+      'fichas de suma y resta para vender',
     ],
     lsiKeywords: [
-      'fichas de suma y resta primer grado vendedores',
-      'cuadernillos de lectura comprensiva KDP',
-      'imprimibles de escritura primer grado Hotmart',
+      'primer grado',
+      'suma',
+      'resta',
+      'lectura',
     ],
   },
   hero: {
-    title: 'Imprimibles de Primer Grado para Vender: Ideas de Negocio',
+    title: 'Ideas de imprimibles de primer grado para vender en Etsy y KDP',
     description: 'Primer grado es donde las habilidades académicas fundamentales se consolidan, generando una demanda intensa de fichas de práctica entre padres, tutores y vendedores del mercado. Suma y resta, lectura comprensiva, escritura de oraciones, valor posicional y problemas de palabras forman la base de un catálogo rentable con volumen de búsqueda alto durante todo el año escolar. Esta guía cubre ideas de productos específicos, estrategias por plataforma y tácticas de diferenciación para construir un negocio de imprimibles de primer grado en Etsy, Amazon KDP y Hotmart. Pruebe cada generador gratis con marca de agua antes de comprar una licencia comercial.',
   },
   marketOverview: `El nicho de imprimibles de primer grado ocupa una posición premium en el mercado educativo porque sirve al nivel de grado donde las expectativas académicas aumentan más dramáticamente, impulsando el mayor gasto por vendedor en materiales complementarios de cualquier grado de primaria. A diferencia del jardín de infantes donde los objetivos de aprendizaje se centran en la exposición y la preparación, el catálogo de productos de primer grado exige dominio medible de habilidades específicas incluyendo fluidez lectora a puntos de referencia definidos de palabras por minuto, automaticidad con datos de suma y resta hasta veinte, y construcción de oraciones escritas con mayúsculas y puntuación correctas. Esta orientación al dominio significa que vendedores y padres compran materiales de práctica imprimibles con un propósito académico claro y urgencia que se traduce directamente en un comportamiento de compre motivado en cada mercado.

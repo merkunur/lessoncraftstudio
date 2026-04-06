@@ -2,25 +2,27 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'crear laberintos para vender en Etsy',
+    primaryKeyword: 'cómo crear laberintos para imprimir',
     secondaryKeywords: [
-      'cómo crear laberintos imprimibles para niños',
-      'guía paso a paso fichas de laberintos',
-      'vender laberintos en Etsy y Amazon KDP',
-      'laberintos con licencia comercial Hotmart',
+      'tutorial laberintos paso a paso',
+      'crear laberintos para vender',
+      'guía laberintos con imágenes',
+      'laberintos para Etsy y KDP',
     ],
     lsiKeywords: [
-      'generador de laberintos temáticos con imágenes',
-      'laberintos para negocio de imprimibles',
-      'exportar PDF laberintos profesionales',
+      'laberinto',
+      'camino',
+      'salida',
+      'motricidad fina',
+      'niños',
     ],
-    titleTag: 'Laberintos para vender en Etsy | LCS',
-    metaDescription: 'Aprenda a crear laberintos para vender en Etsy, KDP y Hotmart. Guía paso a paso con generador profesional y niveles de dificultad configurables.',
+    titleTag: 'Cómo crear laberintos para imprimir | Guía',
+    metaDescription: 'Guía paso a paso para crear laberintos con imágenes temáticas. Soluciones automáticas, PDF listos para vender.',
   },
 
   hero: {
-    title: 'Cómo crear laberintos profesionales para vender en Etsy',
-    tagline: 'Un tutorial paso a paso para crear fichas de laberintos temáticas en tres modos de juego distintos — listas para vender en Etsy, Amazon KDP y Hotmart',
+    title: 'Cómo crear laberintos para imprimir — Guía paso a paso',
+    tagline: 'Tutorial para crear laberintos con imágenes temáticas y soluciones automáticas.',
     description: 'Descubra cómo crear laberintos atractivos y listos para vender en marketplaces de imprimibles. Esta guía paso a paso le muestra cómo configurar la dificultad, elegir temas con imágenes atractivas y generar laberintos únicos con soluciones automáticas. Aprenda a crear variaciones por nivel de complejidad y tema para construir un catálogo completo de productos. Optimice sus anuncios en Etsy, Amazon KDP y Hotmart con títulos y descripciones que atraigan compradores. Pruebe todas las funciones gratis con marca de agua antes de comprar su licencia comercial.',
   },
 

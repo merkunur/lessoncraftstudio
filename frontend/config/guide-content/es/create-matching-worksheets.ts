@@ -2,25 +2,27 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'crear fichas de asociación para vender',
+    primaryKeyword: 'cómo crear fichas de asociación para imprimir',
     secondaryKeywords: [
-      'cómo crear fichas de asociación imprimibles',
-      'guía paso a paso fichas de emparejar',
-      'vender fichas de asociación en Etsy y KDP',
-      'fichas de emparejar licencia comercial Hotmart',
+      'tutorial fichas de emparejar paso a paso',
+      'crear fichas de unir con flechas',
+      'guía fichas de asociación con imágenes',
+      'fichas de emparejar para Etsy y KDP',
     ],
     lsiKeywords: [
-      'generador de fichas de asociación con imágenes',
-      'fichas de emparejar para negocio imprimible',
-      'exportar PDF fichas de asociación profesionales',
+      'asociación',
+      'emparejar',
+      'unir',
+      'flechas',
+      'preescolar',
     ],
-    titleTag: 'Fichas de asociación para vender | LCS',
-    metaDescription: 'Aprenda a crear fichas de asociación para vender en Etsy, KDP y Hotmart. Guía paso a paso con generador profesional y claves de respuestas.',
+    titleTag: 'Cómo crear fichas de asociación | Guía',
+    metaDescription: 'Guía paso a paso para crear fichas de asociación y unir con flechas. Imágenes temáticas, soluciones automáticas, PDF para vender.',
   },
 
   hero: {
-    title: 'Cómo crear fichas de asociación profesionales para vender',
-    tagline: 'Un tutorial paso a paso para crear fichas de asociación temáticas con líneas para trazar y claves de respuestas automáticas que puede vender en Etsy, Amazon KDP y Hotmart',
+    title: 'Cómo crear fichas de asociación para imprimir — Guía',
+    tagline: 'Tutorial para crear fichas de emparejar y unir con flechas con imágenes temáticas.',
     description: 'Descubra cómo crear fichas de asociación atractivas y listas para vender en los principales marketplaces. Esta guía paso a paso le enseña a configurar pares de imágenes, seleccionar temas visuales y generar fichas con claves de respuestas automáticas. Aprenda a crear variaciones por tema y dificultad para multiplicar su catálogo de productos imprimibles educativos. Optimice sus anuncios en Etsy, Amazon KDP y Hotmart para atraer compradores. Todas las funciones están disponibles en la prueba gratis con marca de agua para evaluar la calidad.',
   },
 

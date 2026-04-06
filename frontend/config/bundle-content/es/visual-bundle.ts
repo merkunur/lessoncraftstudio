@@ -2,25 +2,28 @@ import type { BundleContent } from '../types';
 
 const content: BundleContent = {
   seo: {
-    primaryKeyword: 'paquete de fichas visuales para vendedores',
+    primaryKeyword: 'paquete generadores de aprendizaje visual',
     secondaryKeywords: [
-      'paquete generadores fichas de colorear para Etsy',
-      'kit fichas de dibujo y actividades visuales KDP',
-      'fichas de búsqueda de objetos licencia comercial',
-      'herramientas visuales para negocio de imprimibles',
+      'pack fichas visuales licencia comercial',
+      'generadores de trazos y colorear para Etsy',
+      'kit fichas visuales para KDP',
+      'herramientas de aprendizaje visual imprimibles',
     ],
     lsiKeywords: [
-      'ahorro paquete fichas visuales compre individual',
-      'productos creativos colorear dibujar buscar objetos',
-      'licencia comercial fichas visuales múltiples plataformas',
+      'colorear',
+      'trazos',
+      'grafomotricidad',
+      'patrones',
+      'conteo',
+      'licencia comercial',
     ],
-    titleTag: 'Paquete fichas visuales para vendedores | LCS',
-    metaDescription: 'Paquete de 5 generadores de fichas visuales para vender en Etsy y KDP. Colorear, dibujar, buscar objetos y contar. 149 $ pago unico.',
+    titleTag: 'Paquete generadores de aprendizaje visual | 7 herramientas',
+    metaDescription: 'Paquete de 7 generadores de fichas visuales. Colorear, trazos, grafomotricidad, patrones y más. Licencia comercial, $149 pago único.',
   },
 
   hero: {
-    title: 'Paquete de fichas visuales para vendedores de Etsy y KDP',
-    tagline: 'Cinco generadores de actividades visuales en un paquete con descuento — colorear, dibujar y buscar.',
+    title: 'Paquete de generadores de aprendizaje visual — 7 herramientas con licencia',
+    tagline: 'Siete generadores de fichas visuales — colorear, trazos, grafomotricidad, patrones y más.',
     description: 'Ahorre frente a la compre individual y lance una línea completa de productos visuales con cinco generadores en un solo paquete. Incluya fichas de colorear, dibujo guiado, búsqueda de objetos ocultos, busque y cuenta, y trazado de caminos — las categorías visuales más demandadas en Etsy y Amazon KDP. Cada generador produce archivos PDF listos para imprimir a 300 DPI con la licencia comercial incluida para vender sin restricciones en cualquier plataforma. Las fichas visuales son universales: no contienen texto, así que un solo producto se vende a compradores de cualquier país sin traducción. Combine más de 100 conjuntos de imágenes temáticas con los cinco generadores para crear cientos de listados únicos que capturen diferentes búsquedas y nichos de mercado. Los productos visuales tienen la ventaja de atraer a un público amplio — desde padres hasta educadores — y se venden todo el año con picos en temporadas escolares. Pruebe gratis con marca de agua — sin registro, sin tarjeta de crédito.',
   },
 

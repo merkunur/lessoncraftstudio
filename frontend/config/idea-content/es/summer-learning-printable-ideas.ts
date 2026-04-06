@@ -2,23 +2,24 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Cuadernillos de vacaciones para vender | LCS',
-    metaDescription: 'Ideas de cuadernillos de vacaciones para vender en Etsy y Amazon KDP. Fichas de repaso estival, actividades de verano y estrategias de pico mayo-julio.',
-    primaryKeyword: 'cuadernillos de vacaciones para vender',
+    titleTag: 'Imprimibles aprendizaje verano Etsy | Nicho',
+    metaDescription: 'Ideas de imprimibles para prevenir la pérdida de aprendizaje en verano. Fichas de repaso para Etsy y KDP.',
+    primaryKeyword: 'imprimibles de aprendizaje de verano',
     secondaryKeywords: [
-      'fichas de verano negocio imprimibles',
-      'vender cuadernillos de repaso vacaciones Etsy',
-      'actividades de verano para tiendas digitales',
-      'nicho de vacaciones imprimibles educativos',
+      'fichas repaso verano Etsy',
+      'prevenir pérdida aprendizaje verano',
+      'negocio imprimibles repaso',
+      'cuadernos verano para vender',
     ],
     lsiKeywords: [
-      'cuadernos de repaso estival vendedores',
-      'libros de actividades verano Amazon KDP',
-      'imprimibles anti pérdida de aprendizaje Hotmart',
+      'repaso',
+      'verano',
+      'aprendizaje',
+      'refuerzo',
     ],
   },
   hero: {
-    title: 'Cuadernillos de Vacaciones para Vender: Ideas de Negocio',
+    title: 'Ideas de imprimibles de aprendizaje de verano para Etsy y KDP',
     description: 'Los cuadernillos de vacaciones son una tradición arraigada en España y Latinoamérica, con un pico de demanda masivo entre mayo y julio que genere ingresos concentrados y predecibles para vendedores de imprimibles. Fichas de repaso de matemáticas, lectoescritura, ciencias y actividades lúdicas combinan la prevención de la pérdida de aprendizaje estival con el entretenimiento educativo. Esta guía cubre ideas de productos específicos, estrategias por plataforma y tácticas de temporalidad para construir un catálogo rentable de cuadernillos de vacaciones en Etsy, Amazon KDP y Hotmart. Pruebe cada generador gratis con marca de agua antes de invertir en una licencia comercial.',
   },
   marketOverview: `El mercado de imprimibles de aprendizaje de verano representa un nicho estacional lucrativo impulsado por la preocupación generalizada de los padres sobre la pérdida de aprendizaje en verano, el fenómeno bien documentado donde los usuarios pierden habilidades académicas durante la pausa extendida de la instrucción formal en línea. La investigación muestra consistentemente que los usuarios pueden perder de uno a tres meses de aprendizaje durante las vacaciones de verano, con las habilidades matemáticas particularmente vulnerables a la regresión, y este conocimiento ha permeado la conciencia parental generalizada hasta el punto en que la prevención de la pérdida de aprendizaje en verano se ha convertido en un motivador de compre significativo para las familias en todos los niveles socioeconómicos. Los padres comienzan a buscar materiales de aprendizaje de verano tan temprano como en abril, con la actividad de compre intensificándose a través de mayo y junio a medida que concluye el año escolar y las familias enfrentan la realidad de dos a tres meses sin compromiso académico estructurado. Este patrón de compre predecible permite a los vendedores preparar líneas de productos con suficiente anticipación, optimizar listados para términos de búsqueda estacionales y capturar la ola de demanda que llega confiablemente cada año en el mismo intervalo del calendario.

@@ -2,25 +2,26 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'crear juegos de adivinar palabras gratis',
+    primaryKeyword: 'juego del ahorcado gratis para imprimir',
     secondaryKeywords: [
-      'juegos de adivinar palabras gratis sin registro',
-      'generador de adivinar palabras gratis en línea',
-      'fichas de adivinar palabras gratis para imprimir',
-      'juegos de adivinanzas de vocabulario gratis',
+      'adivinar la palabra gratis online',
+      'ahorcado para imprimir gratis',
+      'juego de palabras gratis',
+      'acertijos de palabras gratis',
     ],
     lsiKeywords: [
-      'actividades de vocabulario con pistas visuales',
-      'fichas de adivinanzas imprimibles para niños',
-      'juegos de palabras educativos con imágenes',
+      'ahorcado',
+      'adivinar',
+      'letras',
+      'vocabulario',
     ],
-    titleTag: 'Adivinar palabras gratis en línea | LCS',
-    metaDescription: 'Cree juegos de adivinar palabras gratis con imágenes como pistas. Sin registro, sin tarjeta. Descargue con marca de agua. Licencia comercial disponible.',
+    titleTag: 'Juego del ahorcado gratis para imprimir | Generador',
+    metaDescription: 'Cree fichas de adivinanzas de palabras gratis con vocabulario temático. Sin registro. Soluciones automáticas. PDF con marca de agua.',
   },
 
   hero: {
-    title: 'Cree juegos de adivinar palabras gratis en línea',
-    tagline: 'Juegos de vocabulario con pistas visuales — gratis y sin registro.',
+    title: 'Juego del ahorcado gratis para imprimir — Generador online',
+    tagline: 'Fichas de adivinanzas de palabras gratis — vocabulario temático, sin registro.',
     description: 'Cree juegos de adivinar palabras gratis donde los niños descubren palabras ocultas usando imágenes temáticas como pistas. Este generador produce fichas interactivas con diferentes niveles de dificultad y temas visuales de mas de 100 categorias. Cada ficha incluye solucionario automático y se exporta en PDF listo para imprimir. No necesita registro ni tarjeta de crédito — empiece a crear juegos al instante. Las descargas incluyen marca de agua transparente. Perfecto para padres que buscan actividades de vocabulario y educadores que necesitan material ludico. ¿Quiere vender juegos de adivinar palabras? Pase a la licencia comercial para PDFs sin marca de agua a 300 DPI.',
   },
 

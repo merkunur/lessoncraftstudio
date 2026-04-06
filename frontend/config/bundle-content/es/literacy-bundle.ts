@@ -2,25 +2,28 @@ import type { BundleContent } from '../types';
 
 const content: BundleContent = {
   seo: {
-    primaryKeyword: 'paquete de juegos de palabras Etsy KDP',
+    primaryKeyword: 'paquete generadores de lectura y lenguaje',
     secondaryKeywords: [
-      'paquete generadores fichas de lectoescritura comercial',
-      'kit sopas de letras y criptogramas para vender',
-      'fichas de abecedario multilingües licencia comercial',
-      'herramientas de lenguaje para tienda de imprimibles',
+      'pack fichas de vocabulario licencia comercial',
+      'generadores de palabras para Etsy y KDP',
+      'kit sopa de letras y crucigramas',
+      'herramientas de lenguaje para imprimibles',
     ],
     lsiKeywords: [
-      'multiplicar catálogo 11 idiomas un solo paquete',
-      'ahorro paquete versus individual fichas lectura',
-      'variedad productos lectoescritura múltiples plataformas',
+      'sopa de letras',
+      'crucigrama',
+      'criptograma',
+      'escritura',
+      'abecedario',
+      'licencia comercial',
     ],
-    titleTag: 'Paquete juegos de palabras — Vender | LCS',
-    metaDescription: 'Paquete de 7 generadores de fichas de lectoescritura para Etsy y KDP. Sopas de letras, criptogramas, abecedario en 11 idiomas. 149 $ pago unico.',
+    titleTag: 'Paquete generadores de lectura y lenguaje | 7 herramientas',
+    metaDescription: 'Paquete de 7 generadores de fichas de lectura y lenguaje. Sopa de letras, crucigramas, escritura y más. Licencia comercial, $149 pago único.',
   },
 
   hero: {
-    title: 'Paquete de juegos de palabras para vender en Etsy, KDP y Hotmart',
-    tagline: 'Siete generadores de fichas de lectoescritura con soporte multilingüe — multiplique su catálogo en 11 idiomas.',
+    title: 'Paquete de generadores de lectura y lenguaje — 7 herramientas con licencia',
+    tagline: 'Siete generadores de fichas de lectura y lenguaje — sopa de letras, crucigramas, escritura y más.',
     description: 'Consiga siete generadores de fichas de lectoescritura por una fracción del precio individual y multiplique su línea de productos en 11 idiomas desde el primer día. Este paquete incluya abecedario, preposiciones, adivinanza de palabras, letras revueltas, sopas de letras, criptogramas y práctica de escritura — cada tipo de ficha de lectura que los compradores buscan en Etsy. Seis de los siete generadores producen contenido específico del idioma con signos diacríticos correctos y vocabulario nativo, lo que significa que un solo diseño se convierte en 11 productos distintos cuando cambie de idioma. Exporte PDFs a 300 DPI con solucionarios automáticos y venda con la licencia comercial incluida en Etsy, Amazon KDP o Hotmart. Combine más de 100 conjuntos de imágenes temáticas para crear cientos de variaciones únicas sin repetir productos. Este paquete le da la variedad y el alcance lingüístico que los vendedores monolingües no pueden igualar. Pruebe gratis con marca de agua — sin registro.',
   },
 

@@ -2,25 +2,27 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'generador de fichas de escritura gratis',
+    primaryKeyword: 'fichas de grafomotricidad gratis para imprimir',
     secondaryKeywords: [
-      'fichas de escritura gratis sin registro',
-      'generador de fichas de caligrafia gratis en línea',
-      'fichas de escritura gratis para imprimir',
-      'hojas de escritura gratis sin tarjeta de crédito',
+      'generador de caligrafía gratis',
+      'fichas de escritura gratis',
+      'grafomotricidad preescolar gratis',
+      'trazos y letras gratis',
     ],
     lsiKeywords: [
-      'fichas de caligrafia para preescolar imprimibles',
-      'hojas de práctica de escritura para niños',
-      'fichas de trazado de letras y palabras',
+      'trazos',
+      'letras',
+      'cursiva',
+      'imprenta',
+      'motricidad fina',
     ],
-    titleTag: 'Fichas de escritura gratis en línea | LCS',
-    metaDescription: 'Genere fichas de escritura y caligrafia gratis. Practique trazado de letras y palabras. Sin registro, sin tarjeta. Licencia comercial para vender.',
+    titleTag: 'Fichas de grafomotricidad gratis | Generador online',
+    metaDescription: 'Cree fichas de grafomotricidad y escritura gratis con palabras personalizadas. Sin registro. PDF con marca de agua. 11 idiomas.',
   },
 
   hero: {
-    title: 'Genere fichas de escritura y caligrafia gratis',
-    tagline: 'Fichas de trazado de letras y palabras — gratis y sin registro.',
+    title: 'Fichas de grafomotricidad gratis para imprimir',
+    tagline: 'Fichas de escritura y trazos gratis — palabras personalizadas, sin registro.',
     description: 'Cree fichas de escritura gratis para practicar el trazado de letras, palabras y frases. Este generador produce hojas de caligrafia con líneas guia, letras punteadas para trazar y espacios de práctica libre. Seleccione el tipo de letra, el tamaño y el contenido que desea practicar. Cada ficha se exporta en PDF de alta calidad listo para imprimir. No necesita registro ni tarjeta de crédito — todas las funciones están disponibles desde el primer momento. Las descargas incluyen marca de agua. Ideal para padres de niños en preescolar y primaria que inician la escritura. ¿Quiere vender fichas de escritura? Pase a la licencia comercial para archivos sin marca de agua a 300 DPI.',
   },
 

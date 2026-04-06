@@ -2,24 +2,25 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Imprimibles dinosaurios — Negocio | LCS',
-    metaDescription: 'Ideas de negocio con imprimibles de dinosaurios para Etsy, KDP y Hotmart. Nicho con demanda altísima en niños de 3 a 8 años — guía de productos y precios.',
+    titleTag: 'Imprimibles de dinosaurios para Etsy | Nicho',
+    metaDescription: 'Ideas de imprimibles de dinosaurios para Etsy y KDP. Nicho perenne con demanda altísima entre niños de 3 a 8 años.',
 
-    primaryKeyword: 'imprimibles de dinosaurios ideas negocio Etsy',
+    primaryKeyword: 'imprimibles de dinosaurios para vender en Etsy',
     secondaryKeywords: [
-      'fichas de dinosaurios para vender en línea',
-      'negocio imprimibles tema prehistórico',
-      'actividades dinosaurios comerciales KDP',
-      'vender fichas dinos Etsy Hotmart',
+      'fichas dinosaurios Etsy KDP',
+      'actividades dinosaurios imprimibles',
+      'negocio imprimibles dinosaurios',
+      'fichas prehistóricas para vender',
     ],
     lsiKeywords: [
-      'nicho imprimibles dinosaurios demanda alta niños',
-      'fichas educativas prehistóricas vendedores',
-      'productos digitales T-Rex triceratops Hotmart',
+      'dinosaurios',
+      'prehistórico',
+      'T-Rex',
+      'fósiles',
     ],
   },
   hero: {
-    title: 'Ideas de negocio con imprimibles de dinosaurios para Etsy y KDP',
+    title: 'Ideas de imprimibles de dinosaurios para vender en Etsy y KDP',
     description: 'Los dinosaurios son una obsesión infantil que genere oportunidades excepcionales para los vendedores de imprimibles. El T-Rex, el triceratops y el estegosaurio capturan la imaginación de niños de 3 a 8 años con una intensidad que pocos otros temas igualan — y esa fascinación se traduce directamente en ventas. Los padres buscan activamente fichas de dinosaurios en Etsy y Amazon, y los productos con temática prehistórica tienen tasas de conversión superiores a la media. En el mercado hispano, el nicho está especialmente desatendido: miles de búsquedas mensuales en español con muy pocos vendedores que ofrezcan productos de calidad. Esta guía le presenta ideas de productos específicos, estrategias de precios y tácticas para construir un negocio rentable de imprimibles de dinosaurios en Etsy, KDP y Hotmart.',
   },
   marketOverview: `El nicho de imprimibles de dinosaurios prospera gracias a una verdad simple: los niños están obsesionados con los dinosaurios. Esta obsesión cruza las líneas de género, las fronteras culturales y los grupos de edad de maneras que pocos otros temas logran. Los padres reconocen esta pasión y buscan activamente productos imprimibles que canalicen el entusiasmo por los dinosaurios hacia un aprendizaje productivo. Los vendedores aprovechan la fascinación por los dinosaurios para enseñar vocabulario, conteo, conceptos de ciencias y habilidades de lectura, sabiendo que los niveles de participación se disparan cuando las criaturas prehistóricas están involucradas.

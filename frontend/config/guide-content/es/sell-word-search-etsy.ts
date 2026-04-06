@@ -2,25 +2,27 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'vender sopas de letras en Etsy consejos',
+    primaryKeyword: 'vender sopas de letras en Etsy',
     secondaryKeywords: [
-      'cómo vender sopas de letras imprimibles en Etsy',
-      'crear anuncios Etsy para sopas de letras educativas',
-      'estrategia de paquetes sopas de letras en Etsy',
-      'optimizar SEO Etsy para sopas de letras descargables',
+      'cómo vender sopa de letras en Etsy',
+      'sopas de letras Etsy guía',
+      'sopa de letras imprimibles Etsy',
+      'negocio sopa de letras online',
     ],
     lsiKeywords: [
-      'etiquetas Etsy sopas de letras vocabulario descargue digital PDF',
-      'precios paquetes temáticos sopas de letras animales estaciones festividades',
-      'fotografía producto mockups sopas de letras tasa conversión tienda',
+      'sopa de letras',
+      'Etsy',
+      'listados',
+      'SEO',
+      'paquetes',
     ],
-    titleTag: 'Vender sopas de letras en Etsy | LCS',
-    metaDescription: 'Descubra cómo vender sopas de letras en Etsy con anuncios optimizados, paquetes temáticos y SEO efectivo. Empiece a generar ventas consistentes hoy.',
+    titleTag: 'Vender sopas de letras en Etsy | Guía',
+    metaDescription: 'Guía para vender sopas de letras en Etsy. Cómo crear listados, optimizar SEO y fijar precios para su tienda.',
   },
 
   hero: {
-    title: 'Cómo vender sopas de letras en Etsy y generar ingresos',
-    tagline: 'Una guía completa de plataforma para construir una tienda Etsy rentable vendiendo sopas de letras y formatos complementarios de puzles de palabras — que cubre configuración de tienda Etsy, optimización SEO con las 13 etiquetas, títulos y descripciones que se posicionan para términos de búsqueda de compradores de puzles, fotografía de productos mostrando cuadrículas y claves de respuestas, estrategias de precios para puzles individuales y paquetes temáticos, timing estacional para picos de festividades y tienda, planificación de catálogo de sopas de letras, crucigramas, anagramas y criptogramas, oportunidades de productos en idiomas específicos para mercados multilingües, y optimización continua usando Estadísticas de Etsy',
+    title: 'Vender sopas de letras en Etsy — Guía completa',
+    tagline: 'Listados, SEO y precios para su negocio de sopas de letras en Etsy.',
     description: 'Las sopas de letras son uno de los imprimibles más populares en Etsy porque combinan entretenimiento con aprendizaje de vocabulario. Los compradores buscan sopas de letras temáticas para fiestas, aulas y actividades familiares durante todo el año. Esta guía le muestra cómo crear anuncios de sopas de letras que se posicionen en la búsqueda de Etsy, fijar precios competitivos para fichas individuales y paquetes temáticos, crear fotos de anuncio que conviertan visitantes en compradores y aprovechar el timing estacional para maximizar las ventas. Aprenda a construir un catálogo diverso de sopas de letras en múltiples temas e idiomas usando los generadores de LessonCraftStudio.',
   },
 

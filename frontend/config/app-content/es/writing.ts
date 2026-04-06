@@ -2,25 +2,29 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'generador de fichas de escritura para vender en Etsy y KDP',
+    primaryKeyword: 'fichas de grafomotricidad para imprimir',
     secondaryKeywords: [
-      'crear fichas de caligrafía para tienda Etsy',
-      'fichas de escritura imprimibles para Amazon KDP',
-      'generador de fichas de grafomotricidad licencia comercial',
-      'fichas de preescritura para vender online',
+      'generador de caligrafía',
+      'fichas de escritura para imprimir',
+      'grafomotricidad preescolar',
+      'trazos y letras fichas',
     ],
     lsiKeywords: [
-      'fichas caligrafía grafomotricidad vendedores',
-      'cuadernillos escritura imprimibles KDP Etsy',
-      'negocio fichas preescritura mercado hispano',
+      'trazos',
+      'letras',
+      'cursiva',
+      'imprenta',
+      'motricidad fina',
+      'preescolar',
+      'infantil',
     ],
-    titleTag: 'Fichas de escritura para vender en Etsy | LCS',
-    metaDescription: 'Cree fichas de escritura y caligrafía para vender en Etsy y KDP. Letras, palabras, oraciones personalizables. Licencia comercial. 49 $ pago unico.',
+    titleTag: 'Fichas de grafomotricidad para imprimir | Generador de escritura',
+    metaDescription: 'Cree fichas de grafomotricidad y escritura con palabras personalizadas. 11 idiomas, PDF 300 DPI. Prueba gratis — licencia comercial para vendedores.',
   },
 
   hero: {
-    title: 'Genere fichas de escritura para vender en Etsy, KDP y Hotmart',
-    tagline: 'Cree fichas de caligrafía y grafomotricidad personalizables — un producto perenne.',
+    title: 'Fichas de grafomotricidad para imprimir — Generador de escritura y trazos',
+    tagline: 'Cree fichas de grafomotricidad y escritura con palabras personalizadas — 11 idiomas, PDF 300 DPI.',
     description:
       'Genere fichas de escritura para vender en Etsy, Amazon KDP o Hotmart. Este generador crea fichas de caligrafía y grafomotricidad donde los niños practican letras, palabras y oraciones con líneas guía. Personalice el contenido, la fuente, el tamaño de las líneas y la dificultad para crear fichas adaptadas a preescolar, infantil y primaria. Las fichas de escritura son un producto perenne con demanda constante — los padres las buscan todo el año para la práctica en casa. Exporte PDFs a 300 DPI con ejemplos de trazado y véndalos con la licencia comercial incluida. Los cuadernillos de caligrafía son un nicho probado en Amazon KDP con ventas consistentes. El mercado hispano ofrece una oportunidad masiva. Pruebe gratis con marca de agua — sin registro.',
   },

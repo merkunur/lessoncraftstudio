@@ -2,25 +2,27 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'crear búsquedas del tesoro para vender',
+    primaryKeyword: 'cómo crear búsqueda del tesoro para imprimir',
     secondaryKeywords: [
-      'cómo crear fichas de búsqueda del tesoro imprimibles',
-      'guía paso a paso búsquedas del tesoro educativas',
-      'vender búsquedas del tesoro en Etsy y KDP',
-      'fichas de búsqueda del tesoro licencia comercial Hotmart',
+      'tutorial juego de pistas paso a paso',
+      'crear búsqueda del tesoro para vender',
+      'guía gymkhana para imprimir',
+      'juego de pistas para Etsy y KDP',
     ],
     lsiKeywords: [
-      'generador de búsquedas del tesoro temáticas',
-      'fichas de búsqueda del tesoro para negocio imprimible',
-      'exportar PDF búsquedas del tesoro profesionales',
+      'tesoro',
+      'pistas',
+      'gymkhana',
+      'aventura',
+      'cumpleaños',
     ],
-    titleTag: 'Búsquedas del tesoro para vender | LCS',
-    metaDescription: 'Aprenda a crear búsquedas del tesoro para vender en Etsy, KDP y Hotmart. Guía paso a paso con generador profesional y formatos listos para imprimir.',
+    titleTag: 'Cómo crear búsqueda del tesoro para imprimir | Guía',
+    metaDescription: 'Guía paso a paso para crear fichas de búsqueda del tesoro y juegos de pistas. PDF listos para vender.',
   },
 
   hero: {
-    title: 'Cómo crear búsquedas del tesoro profesionales para vender',
-    tagline: 'Un tutorial paso a paso para crear fichas de búsqueda del tesoro con seguimiento de rutas en una cuadrícula de coordenadas de 5×5 con dos tipos de dirección (básico arriba/abajo/izquierda/derecha y cardinal norte/sur/este/oeste), exactamente 4 movimientos direccionales por puzle, 6 imágenes de referencia temáticas, claves de respuestas autogeneradas con celda del tesoro resaltada en amarillo pálido y pistas direccionales completamente localizadas en 11 idiomas que puede vender en todo el mundo en Etsy, Amazon KDP y Hotmart',
+    title: 'Cómo crear búsqueda del tesoro para imprimir — Guía',
+    tagline: 'Tutorial para crear búsquedas del tesoro y juegos de pistas con imágenes.',
     description: 'Descubra cómo crear búsquedas del tesoro educativas listas para vender en los principales marketplaces. Esta guía paso a paso le enseña a configurar pistas y objetos, seleccionar temas visuales atractivos y generar fichas profesionales con claves de respuestas. Aprenda a crear variaciones temáticas y estacionales para multiplicar su catálogo de productos imprimibles. Optimice sus anuncios en Etsy, Amazon KDP y Hotmart para máxima visibilidad. Todas las funciones están disponibles en la prueba gratis con marca de agua para evaluar la calidad.',
   },
 

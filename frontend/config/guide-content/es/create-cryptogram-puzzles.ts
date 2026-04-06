@@ -2,25 +2,27 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'crear criptogramas para vender',
+    primaryKeyword: 'cómo crear criptogramas para imprimir',
     secondaryKeywords: [
-      'cómo crear criptogramas imprimibles',
-      'guía paso a paso puzzles de criptogramas',
-      'vender criptogramas en Etsy y Amazon KDP',
-      'criptogramas con licencia comercial Hotmart',
+      'tutorial criptogramas paso a paso',
+      'crear mensajes secretos para vender',
+      'guía criptogramas con imágenes',
+      'criptogramas para Etsy y KDP',
     ],
     lsiKeywords: [
-      'generador de criptogramas temáticos',
-      'puzzles de criptogramas para negocio imprimible',
-      'exportar PDF criptogramas profesionales',
+      'criptograma',
+      'código',
+      'descifrar',
+      'secreto',
+      'letras',
     ],
-    titleTag: 'Criptogramas para vender en línea | LCS',
-    metaDescription: 'Aprenda a crear criptogramas para vender en Etsy, KDP y Hotmart. Guía paso a paso con generador profesional y soluciones automáticas incluidas.',
+    titleTag: 'Cómo crear criptogramas para imprimir | Guía',
+    metaDescription: 'Guía paso a paso para crear criptogramas y mensajes secretos con imágenes. Soluciones automáticas, PDF listos para vender.',
   },
 
   hero: {
-    title: 'Cómo crear criptogramas profesionales para vender',
-    tagline: 'Un tutorial paso a paso para crear puzzles de cifrado con imágenes donde cada letra del alfabeto se asocia a una imagen única y los usuarios descifran frases secretas completas mediante reconocimiento de patrones, con un control deslizante de Letras a Revelar (0–10) como control principal de dificultad, Asignación Automática para producción por lotes con un clic y Asignación Manual para precisión artesanal, alfabetos adaptados al idioma que añaden caracteres específicos como las alemanas ä/ö/ü/ß y las francesas é/è/ç/à, filtro Color vs B/N para creación de productos duales, leyendas de letras como claves de respuestas, y exportaciones a más de 400 DPI que puede vender en todo el mundo en Etsy, Amazon KDP y Hotmart',
+    title: 'Cómo crear criptogramas para imprimir — Guía paso a paso',
+    tagline: 'Tutorial para crear criptogramas y mensajes secretos con imágenes temáticas.',
     description: 'Descubra cómo crear criptogramas atractivos y listos para vender en los principales marketplaces de imprimibles. Esta guía paso a paso le muestra cómo configurar la dificultad del cifrado, seleccionar temas y generar puzzles profesionales con soluciones automáticas incluidas. Aprenda a crear variaciones por nivel de complejidad y tema para construir un catálogo completo de productos de criptogramas. Optimice sus anuncios en Etsy, Amazon KDP y Hotmart para atraer compradores. Pruebe todas las funciones gratis con marca de agua antes de adquirir su licencia comercial.',
   },
 

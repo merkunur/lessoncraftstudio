@@ -2,24 +2,25 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Imprimibles safari para vender | LCS',
-    metaDescription: 'Descubra ideas de imprimibles de animales de safari para vender en Etsy y KDP. Leones, elefantes y jirafas — nicho con demanda constante y alta conversión.',
+    titleTag: 'Imprimibles animales de safari Etsy | Nicho',
+    metaDescription: 'Ideas de imprimibles de animales de safari para Etsy y KDP. Leones, elefantes y jirafas con demanda constante.',
 
-    primaryKeyword: 'imprimibles de animales de safari para vender',
+    primaryKeyword: 'imprimibles de animales de safari para vender en Etsy',
     secondaryKeywords: [
-      'fichas safari para tienda Etsy',
-      'negocio imprimibles animales salvajes',
-      'actividades de safari comerciales KDP',
-      'vender fichas tema selva en línea',
+      'fichas animales de safari Etsy KDP',
+      'actividades de safari imprimibles',
+      'negocio imprimibles safari',
+      'fichas de selva para vender',
     ],
     lsiKeywords: [
-      'nicho imprimibles safari demanda todo el año',
-      'fichas educativas animales exóticos vendedores',
-      'productos digitales jungla sabana Hotmart',
+      'safari',
+      'leones',
+      'elefantes',
+      'sabana',
     ],
   },
   hero: {
-    title: 'Ideas de imprimibles de animales de safari para vender en línea',
+    title: 'Ideas de imprimibles de animales de safari para vender en Etsy y KDP',
     description: 'Los animales de safari generan un atractivo universal que trasciende estaciones y tendencias. Leones, elefantes, jirafas y cebras son protagonistas frecuentes en la decoración infantil, fiestas de cumpleaños y proyectos escolares — lo que cree múltiples puntos de entrada para los vendedores de imprimibles. A diferencia de los nichos estacionales, el tema de safari mantiene demanda constante durante todo el año con picos durante el verano y las fiestas temáticas. En el mercado hispano, los imprimibles de safari representan un nicho con alta demanda y poca competencia. Los padres buscan activamente fichas de animales salvajes en español, pero encuentran pocas opciones de calidad. Esta guía le ofrece ideas de productos, estrategias de precios y tácticas para posicionar su negocio de imprimibles de safari en Etsy, KDP y Hotmart.',
   },
   marketOverview: `El nicho de imprimibles de animales de safari ocupa una posición única en el mercado educativo porque combine dos fuerzas poderosas: la fascinación de los niños por la fauna exótica y la riqueza educativa de la geografía africana y las ciencias animales. A diferencia de los temas de animales domésticos que resultan familiares, los animales de safari llevan consigo un elemento de aventura y asombro que eleva naturalmente la participación. Cuando un niño trabaja en una ficha con leones, elefantes, jirafas o cebras, la actividad se siente más como una exploración que como una tarea escolar, y es precisamente por eso que padres y vendedores buscan estos materiales.

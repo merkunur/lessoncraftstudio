@@ -2,23 +2,24 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Imprimibles de invierno para Etsy | LCS',
-    metaDescription: 'Ideas de imprimibles de invierno para vender en Etsy y KDP. Copos de nieve, pingüinos y osos polares — temporada larga de noviembre a febrero.',
-    primaryKeyword: 'imprimibles de invierno para vender en Etsy',
+    titleTag: 'Imprimibles de invierno para Etsy | Nicho',
+    metaDescription: 'Ideas de imprimibles de invierno para Etsy y KDP. Nieve, frío y actividades de interior.',
+    primaryKeyword: 'imprimibles de invierno para vender',
     secondaryKeywords: [
-      'fichas de invierno negocio KDP',
-      'negocio imprimibles temporada invernal',
-      'actividades de nieve muñecos invierno',
-      'vender fichas invierno Hotmart en línea',
+      'fichas de invierno Etsy',
+      'actividades invierno imprimibles',
+      'negocio imprimibles invierno',
+      'fichas de nieve para vender',
     ],
     lsiKeywords: [
-      'pico ventas diciembre enero imprimibles invierno',
-      'fichas educativas copos nieve vendedores',
-      'productos digitales pingüinos osos polares Hotmart',
+      'invierno',
+      'nieve',
+      'frío',
+      'interior',
     ],
   },
   hero: {
-    title: 'Ideas de imprimibles de invierno para vender en Etsy, KDP y Hotmart',
+    title: 'Ideas de imprimibles de invierno para vender en Etsy y KDP',
     description: 'El invierno ofrece una temporada de ventas extendida para los imprimibles educativos — desde noviembre hasta febrero — con múltiples ganchos temáticos que mantienen la demanda alta. Copos de nieve, pingüinos, osos polares, muñecos de nieve y actividades de días fríos en casa atraen a padres que buscan mantener a sus hijos entretenidos y aprendiendo durante los meses más cortos. A diferencia de los nichos navideños que caen después del 25 de diciembre, los imprimibles de invierno se venden bien hasta febrero. En el mercado hispano, tenga en cuenta que mientras España y México experimentan invierno de diciembre a febrero, los países del hemisferio sur tienen su invierno de junio a agosto. Esta guía le muestra ideas de productos, estrategias de precios y cómo extender sus ventas de invierno durante todo el año en Etsy, KDP y Hotmart.',
   },
   marketOverview: `El nicho de imprimibles de invierno ocupa una posición singularmente ventajosa en el calendario estacional de ventas porque ofrece demanda sostenida a lo largo de una ventana de cuatro meses sin la intensa competencia que se concentra alrededor de festividades específicas como Navidad o el Día de San Valentín. Los vendedores regresan de las vacaciones de invierno en enero necesitando temas frescos para venta en línea que mantengan el compromiso de los usuarios durante el largo tramo antes de la primavera, y las imágenes de invierno proporcionan una opción natural y compatible con el catálogo de productos que funciona en cualquier entorno escolar independientemente de las consideraciones culturales o religiosas. Los padres que enfrentan semanas de clima frío y juego al aire libre limitado buscan activamente actividades educativas de interior que mantengan a los niños aprendiendo y entretenidos, haciendo de las fichas de invierno una compre práctica en lugar de un lujo estacional.

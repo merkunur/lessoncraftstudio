@@ -2,25 +2,26 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'fichas de busque y cuenta para vender en Etsy',
+    primaryKeyword: 'busca y cuenta para imprimir',
     secondaryKeywords: [
-      'generador de fichas de busque y cuenta para Etsy',
-      'fichas de contar objetos para Amazon KDP',
-      'ejercicios de búsqueda y conteo licencia comercial',
-      'crear fichas de I Spy para vender online',
+      'contar objetos ficha',
+      '¿cuántos hay? ficha',
+      'ejercicios de conteo',
+      'busca y cuenta preescolar',
     ],
     lsiKeywords: [
-      'fichas busque cuenta vendedores Etsy preescolar',
-      'ejercicios búsqueda conteo imprimibles KDP',
-      'negocio fichas conteo visual mercado hispano',
+      'contar',
+      'cuántos',
+      'discriminación visual',
+      'números',
     ],
-    titleTag: 'Fichas busque y cuenta para vender en Etsy | LCS',
-    metaDescription: 'Cree fichas de busque y cuenta para vender en Etsy y KDP. Los niños buscan y cuentan imágenes temáticas. Licencia comercial. Pruebe gratis. 49 $ pago unico.',
+    titleTag: 'Busca y cuenta para imprimir | Generador de conteo',
+    metaDescription: 'Cree fichas de "busca y cuenta" donde los niños encuentran y cuentan imágenes temáticas. Soluciones automáticas. Prueba gratis.',
   },
 
   hero: {
-    title: 'Genere fichas de busque y cuenta para vender en Etsy, KDP y Hotmart',
-    tagline: 'Cree fichas donde los niños buscan y cuentan imágenes — un formato irresistible.',
+    title: 'Busca y cuenta para imprimir — Generador de fichas de conteo',
+    tagline: 'Cree fichas de "busca y cuenta" donde los niños encuentran y cuentan imágenes temáticas.',
     description:
       'Genere fichas de busque y cuenta para vender en Etsy, Amazon KDP o Hotmart. Los niños buscan imágenes específicas dentro de una colección temática y cuentan cuántas encuentran — un formato que combine atención visual con conteo y es irresistible para preescolares. Seleccione entre más de 3.000 ilustraciones en 104 temas para crear fichas visualmente ricas. Las fichas de busque y cuenta (I Spy) son uno de los formatos más populares en Etsy para preescolar e infantil, con búsquedas constantes todo el año. Exporte PDFs a 300 DPI con solucionario y véndalos con la licencia comercial incluida. Formato puramente visual — funciona en cualquier idioma. Pruebe gratis con marca de agua — sin registro.',
   },

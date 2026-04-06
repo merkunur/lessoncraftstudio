@@ -2,25 +2,26 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'laberintos ilustrados para vender en Etsy',
+    primaryKeyword: 'laberinto para imprimir',
     secondaryKeywords: [
-      'generador de laberintos con imágenes para Etsy',
-      'fichas de caminos ilustrados para Amazon KDP',
-      'laberintos imprimibles licencia comercial',
-      'crear fichas de laberintos temáticos para vender',
+      'generador de laberintos',
+      'laberinto para niños para imprimir',
+      'crear laberinto',
+      'laberintos preescolar',
     ],
     lsiKeywords: [
-      'laberintos ilustrados vendedores Etsy preescolar',
-      'fichas caminos temáticos imprimibles KDP',
-      'negocio fichas laberintos mercado hispano',
+      'camino',
+      'salida',
+      'motricidad fina',
+      'concentración',
     ],
-    titleTag: 'Laberintos ilustrados para vender en Etsy | LCS',
-    metaDescription: 'Cree laberintos ilustrados con imágenes para vender en Etsy y KDP. 104 temas, dificultad ajustable. Licencia comercial incluida. Pruebe gratis. 49 $ pago unico.',
+    titleTag: 'Laberintos para imprimir | Generador de laberintos',
+    metaDescription: 'Cree laberintos con imágenes temáticas. Soluciones automáticas, PDF 300 DPI. Prueba gratis — venda en Etsy y Amazon KDP.',
   },
 
   hero: {
-    title: 'Genere laberintos ilustrados para vender en Etsy, KDP y Hotmart',
-    tagline: 'Cree fichas de caminos temáticos donde los niños navegan entre imágenes.',
+    title: 'Laberintos para imprimir — Generador de laberintos con imágenes',
+    tagline: 'Cree laberintos con imágenes temáticas — soluciones automáticas, PDF 300 DPI.',
     description:
       'Genere laberintos ilustrados para vender en Etsy, Amazon KDP o Hotmart. Las fichas de caminos temáticos combinan laberintos con imágenes — los niños navegan caminos entre ilustraciones coloridas, desarrollando coordinación visomotora y planificación espacial. Seleccione entre más de 3.000 imágenes en 104 temas y ajuste la dificultad del laberinto. Los laberintos son un género probado en Amazon KDP con ventas consistentes todo el año, y en Etsy como descargue digital individual. Exporte PDFs a 300 DPI con solucionario automático y véndalos con la licencia comercial incluida. El formato visual funciona en cualquier idioma. Pruebe gratis con marca de agua — sin registro.',
   },

@@ -2,23 +2,24 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Imprimibles deportes — Negocio | LCS',
-    metaDescription: 'Ideas de imprimibles de deportes para Etsy y KDP. Fútbol, béisbol y más — nicho con picos en eventos deportivos y demanda constante entre niños.',
-    primaryKeyword: 'imprimibles de deportes ideas negocio',
+    titleTag: 'Imprimibles de deportes para Etsy | Nicho',
+    metaDescription: 'Ideas de imprimibles de deportes para Etsy y KDP. Fútbol, béisbol y baloncesto con demanda constante.',
+    primaryKeyword: 'imprimibles de deportes para vender en Etsy',
     secondaryKeywords: [
-      'fichas de deportes para vender Etsy',
-      'negocio imprimibles fútbol béisbol',
-      'actividades deportivas comerciales KDP',
-      'vender fichas deportes Hotmart en línea',
+      'fichas de deportes Etsy KDP',
+      'actividades deportivas imprimibles',
+      'negocio imprimibles deportes',
+      'fichas de fútbol para vender',
     ],
     lsiKeywords: [
-      'nicho imprimibles deportes demanda niños',
-      'fichas educativas fútbol vendedores hispanos',
-      'productos digitales deportes olimpiadas Mundial',
+      'deportes',
+      'fútbol',
+      'béisbol',
+      'baloncesto',
     ],
   },
   hero: {
-    title: 'Ideas de negocio con imprimibles de deportes para vender en línea',
+    title: 'Ideas de imprimibles de deportes para vender en Etsy y KDP',
     description: 'Los deportes generan una pasión que se traduce directamente en ventas de imprimibles educativos. El fútbol — el deporte más popular del mundo hispano — lidera las búsquedas, seguido por el béisbol en el Caribe y Centroamérica, y el baloncesto en mercados urbanos. Para los vendedores de imprimibles, el nicho deportivo ofrece demanda constante con picos predecibles durante el Mundial de Fútbol, las Olimpiadas, el inicio de temporadas y las ligas locales. Las fichas de conteo con balones, sopas de letras con vocabulario deportivo, actividades de lógica con equipamiento y páginas para colorear de atletas son productos que se venden bien todo el año. En el mercado hispano, el fútbol cree una oportunidad única — la pasión es tan intensa que los padres buscan activamente material educativo temático. Esta guía le presenta ideas, precios y estrategias para Etsy, KDP y Hotmart.',
   },
   marketOverview: `El nicho de imprimibles de deportes ocupa una posición excepcionalmente poderosa para los vendedores de imprimibles porque casi todos los niños tienen una conexión directa y personal con los deportes a través de jugar en equipos, ver partidos con la familia, coleccionar cromos, llevar camisetas de equipos o participar en líneas de educación física y actividades de recreo. A diferencia de los temas estacionales que concentran la demanda en ventanas estrechas del calendario, el nicho de deportes se beneficia de la rotación estacional natural: el fútbol americano domina las búsquedas de otoño, el baloncesto y el hockey impulsan la demanda de invierno, el béisbol y el fútbol repuntan en primavera y verano, y la natación y el atletismo alcanzan su máximo durante los meses cálidos. Este ciclo rotativo asegura que los productos imprimibles con temática deportiva mantengan una relevancia consistente durante todo el año en lugar de depender de una sola temporada pico.

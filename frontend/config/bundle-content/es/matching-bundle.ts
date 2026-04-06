@@ -2,25 +2,29 @@ import type { BundleContent } from '../types';
 
 const content: BundleContent = {
   seo: {
-    primaryKeyword: 'paquete de asociación y clasificación Etsy',
+    primaryKeyword: 'paquete generadores de emparejamiento',
     secondaryKeywords: [
-      'paquete generadores fichas de emparejar para vender',
-      'kit fichas de clasificación y sombras KDP',
-      'fichas de asociar tamaños licencia comercial',
-      'herramientas de lógica visual para tienda imprimibles',
+      'pack fichas de asociación licencia comercial',
+      'generadores de bingo y sombras para Etsy',
+      'kit fichas de emparejar para KDP',
+      'herramientas de asociación para imprimibles',
     ],
     lsiKeywords: [
-      'ahorro paquete asociación versus compre individual',
-      'variedad fichas emparejar clasificar ordenar Etsy',
-      'licencia comercial fichas lógica múltiples plataformas',
+      'asociación',
+      'bingo',
+      'lotería',
+      'sombras',
+      'cuadrícula',
+      'clasificar',
+      'licencia comercial',
     ],
-    titleTag: 'Paquete asociación y clasificación | LCS',
-    metaDescription: 'Paquete de 5 generadores de fichas de asociación y clasificación para Etsy y KDP. Emparejar, sombras, tamaños y ordenar. 149 $ pago unico.',
+    titleTag: 'Paquete generadores de emparejamiento | 5 herramientas',
+    metaDescription: 'Paquete de 5 generadores de fichas de emparejamiento. Asociar, bingo/lotería, sombras, cuadrícula y clasificar. Licencia comercial, $149 pago único.',
   },
 
   hero: {
-    title: 'Paquete de fichas de asociación y clasificación para Etsy y KDP',
-    tagline: 'Cinco generadores de fichas de emparejar y ordenar en un solo paquete con descuento — licencia comercial incluida.',
+    title: 'Paquete de generadores de emparejamiento — 5 herramientas con licencia',
+    tagline: 'Cinco generadores de fichas de emparejamiento — asociar, bingo/lotería, sombras, cuadrícula y clasificar.',
     description: 'Construya una línea completa de productos de lógica visual con cinco generadores de fichas de asociación y clasificación por una fracción del precio individual. Este paquete incluya emparejamiento clásico, sombras, comparación de tamaños, clasificación por categorías y fichas de cuadrícula — los tipos de actividades de lógica temprana más buscados en Etsy y Amazon KDP. Cada generador produce PDFs listos para imprimir a 300 DPI con solucionarios automáticos y la licencia comercial incluida para vender en cualquier plataforma sin restricciones. Todas las fichas son puramente visuales — sin texto en la página — lo que significa que cada producto se vende a compradores de cualquier país sin necesidad de traducción. Combine más de 100 conjuntos de imágenes temáticas con los cinco generadores para crear cientos de productos únicos que cubran diferentes nichos y temporadas. Las fichas de asociación son un básico de preescolar y primaria que se vende de forma consistente todo el año. Pruebe gratis con marca de agua — sin registro.',
   },
 

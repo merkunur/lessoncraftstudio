@@ -2,25 +2,26 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'fichas de encuentra el intruso para vender en Etsy y KDP',
+    primaryKeyword: 'encuentra el intruso para imprimir',
     secondaryKeywords: [
-      'generador de fichas de odd one out para Etsy',
-      'fichas de encuentra el diferente para Amazon KDP',
-      'ejercicios de intruso imprimibles licencia comercial',
-      'crear fichas de lógica visual para vender',
+      'juego del intruso ficha',
+      '¿cuál no pertenece? ejercicio',
+      'clasificación lógica ficha',
+      'razonamiento lógico fichas',
     ],
     lsiKeywords: [
-      'fichas encuentra intruso vendedores Etsy KDP',
-      'ejercicios lógica clasificación imprimibles',
-      'negocio fichas razonamiento mercado hispano',
+      'categoría',
+      'clasificar',
+      'lógica',
+      'razonamiento',
     ],
-    titleTag: 'Encuentra el intruso para Etsy y KDP | LCS',
-    metaDescription: 'Cree fichas de encuentra el intruso para vender en Etsy y KDP. Los niños identifican el elemento diferente. Licencia comercial. Pruebe gratis. 49 $ pago unico.',
+    titleTag: 'Encuentra el intruso para imprimir | Generador de lógica',
+    metaDescription: 'Cree fichas de "encuentra el intruso" con imágenes temáticas para razonamiento lógico. Soluciones automáticas, PDF imprimibles. Prueba gratis.',
   },
 
   hero: {
-    title: 'Genere fichas de encuentra el intruso para Etsy, KDP y Hotmart',
-    tagline: 'Cree fichas donde los niños identifican el elemento que no pertenece al grupo.',
+    title: 'Encuentra el intruso para imprimir — Generador de fichas de lógica',
+    tagline: 'Cree fichas de "encuentra el intruso" con imágenes temáticas para razonamiento lógico — soluciones automáticas.',
     description:
       'Genere fichas de encuentra el intruso para vender en Etsy, Amazon KDP o Hotmart. Los niños observan un grupo de imágenes y determinan cuál no pertenece — un formato que desarrolla razonamiento lógico, clasificación y pensamiento crítico. Con más de 3.000 imágenes en 104 temas y dificultad ajustable, cree fichas para diferentes niveles. Las fichas de encuentra el intruso son muy populares en Etsy para preescolar, infantil y educación especial. Ideales para cuadernillos de lógica en Amazon KDP. Exporte PDFs a 300 DPI con solucionario automático y véndalos con la licencia comercial incluida. Formato puramente visual — funciona en cualquier idioma. Pruebe gratis con marca de agua — sin registro.',
   },

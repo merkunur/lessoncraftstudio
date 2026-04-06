@@ -2,25 +2,27 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'redes sociales para vendedores de imprimibles',
+    primaryKeyword: 'redes sociales para negocio de imprimibles',
     secondaryKeywords: [
-      'marketing en redes sociales imprimibles',
-      'promocionar fichas en Instagram y TikTok',
-      'estrategia social media productos digitales',
-      'redes sociales para negocio de fichas',
+      'marketing redes sociales imprimibles',
+      'promover fichas Instagram Facebook',
+      'redes sociales vendedores Etsy',
+      'contenido redes sociales imprimibles',
     ],
     lsiKeywords: [
-      'contenido visual engagement seguidores conversión',
-      'calendario editorial hashtags tendencias virales',
-      'tráfico orgánico comunidad construcción de audiencia',
+      'redes sociales',
+      'Instagram',
+      'Facebook',
+      'contenido',
+      'engagement',
     ],
-    titleTag: 'Redes sociales para vendedores | LCS',
-    metaDescription: 'Domine las redes sociales para vender más imprimibles. Estrategia de Instagram, TikTok y Pinterest para vendedores en Etsy, KDP y Hotmart con resultados.',
+    titleTag: 'Redes sociales para negocio de imprimibles | Guía',
+    metaDescription: 'Guía de redes sociales para vendedores de imprimibles. Instagram, Facebook, contenido y estrategia de engagement.',
   },
 
   hero: {
-    title: 'Redes sociales que impulsan ventas de imprimibles',
-    tagline: 'Una guía completa de marketing en redes sociales para imprimibles — que cubre cómo elegir las plataformas adecuadas, crear contenido visual atractivo, equilibrar promoción y valor, alinear publicaciones con las temporadas de venta, optimizar perfiles para el descubrimiento, usar hashtags estratégicamente, construir engagement comunitario auténtico y hacer seguimiento de resultados para perfeccionar su estrategia',
+    title: 'Redes sociales para su negocio de imprimibles — Guía',
+    tagline: 'Instagram, Facebook, contenido y estrategia de engagement para vendedores.',
     description: 'Las redes sociales son el canal de marketing más accesible para vendedores de imprimibles que quieren tráfico sin pagar publicidad. Pero publicar al azar no genere ventas: necesita una estrategia diseñada para convertir seguidores en compradores. Esta guía le enseña cómo usar Instagram, TikTok y Pinterest para promocionar sus fichas educativas de forma efectiva. Descubra qué tipo de contenido genere más engagement y ventas en cada plataforma. Venda en Etsy, Amazon KDP y Hotmart con tráfico social. El mercado hispanohablante es altamente activo en redes sociales, lo que representa una ventaja enorme.',
   },
 

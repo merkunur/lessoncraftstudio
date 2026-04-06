@@ -2,25 +2,28 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'fichas de grande y pequeño para tienda Etsy',
+    primaryKeyword: 'fichas grande y pequeño para imprimir',
     secondaryKeywords: [
-      'generador de fichas de comparación de tamaños para Etsy',
-      'fichas de grande y pequeño para Amazon KDP',
-      'ejercicios de tamaño imprimibles licencia comercial',
-      'crear fichas de comparación para vender',
+      'comparar tamaños ficha',
+      'ordenar por tamaño ejercicio',
+      'más grande más pequeño ficha',
+      'tamaños preescolar',
     ],
     lsiKeywords: [
-      'fichas grande pequeño vendedores preescolar',
-      'ejercicios comparación tamaños imprimibles KDP',
-      'negocio fichas comparación mercado hispano',
+      'grande',
+      'pequeño',
+      'mediano',
+      'ordenar',
+      'clasificar',
+      'comparar',
     ],
-    titleTag: 'Fichas de grande y pequeño para Etsy | LCS',
-    metaDescription: 'Cree fichas de comparación de tamaños para vender en Etsy y KDP. Los niños comparan grande y pequeño. Licencia comercial. Pruebe gratis. 49 $ pago unico.',
+    titleTag: 'Fichas grande y pequeño para imprimir | Generador de tamaños',
+    metaDescription: 'Cree fichas de comparación de tamaños con imágenes temáticas. Grande vs. pequeño, ordenar, soluciones automáticas. Prueba gratis.',
   },
 
   hero: {
-    title: 'Genere fichas de grande y pequeño para vender en Etsy, KDP y Hotmart',
-    tagline: 'Cree fichas de comparación de tamaños con imágenes — conceptos básicos de preescolar.',
+    title: 'Fichas grande y pequeño para imprimir — Generador de comparación de tamaños',
+    tagline: 'Cree fichas de comparación de tamaños con imágenes temáticas — grande vs. pequeño, soluciones automáticas.',
     description:
       'Genere fichas de grande y pequeño para vender en Etsy, Amazon KDP o Hotmart. Los niños comparan tamaños de imágenes temáticas — un concepto matemático fundamental para preescolar e infantil. Con más de 3.000 imágenes en 104 temas, cree fichas de comparación visualmente atractivas. Las fichas de conceptos básicos (grande/pequeño, más/menos) son un producto perenne para vendedores de preescolar — los padres y educadores las buscan todo el año. Exporte PDFs a 300 DPI con solucionario y véndalos con la licencia comercial incluida. El formato puramente visual funciona en cualquier idioma. Pruebe gratis con marca de agua — sin registro.',
   },

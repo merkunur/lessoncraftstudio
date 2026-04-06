@@ -2,25 +2,28 @@ import type { BundleContent } from '../types';
 
 const content: BundleContent = {
   seo: {
-    primaryKeyword: 'paquete de rompecabezas lógicos para KDP',
+    primaryKeyword: 'paquete generadores de puzzles y lógica',
     secondaryKeywords: [
-      'paquete generadores puzzles imprimibles para vender',
-      'kit fichas de sudoku y laberintos Etsy',
-      'fichas de lógica y puzzles licencia comercial',
-      'herramientas de rompecabezas para libros KDP',
+      'pack fichas de puzzles licencia comercial',
+      'generadores de sudoku y lógica para Etsy',
+      'kit fichas de puzzles para KDP',
+      'herramientas de lógica para imprimibles',
     ],
     lsiKeywords: [
-      'ahorro paquete puzzles versus compre individual',
-      'variedad libros puzzles sudoku laberintos KDP',
-      'licencia comercial rompecabezas múltiples plataformas',
+      'sudoku',
+      'piezas faltantes',
+      'intruso',
+      'laberinto',
+      'lógica',
+      'licencia comercial',
     ],
-    titleTag: 'Paquete rompecabezas para libros KDP | LCS',
-    metaDescription: 'Paquete de 5 generadores de rompecabezas para publicar en KDP y vender en Etsy. Sudoku, laberintos, intrusos y patrones. 149 $ pago unico.',
+    titleTag: 'Paquete generadores de puzzles y lógica | 4 herramientas',
+    metaDescription: 'Paquete de 4 generadores de fichas de puzzles y lógica. Sudoku, piezas faltantes, intruso y laberintos. Licencia comercial, $149 pago único.',
   },
 
   hero: {
-    title: 'Paquete de rompecabezas lógicos para libros KDP y tiendas Etsy',
-    tagline: 'Cinco generadores de puzzles en un paquete con descuento — ideal para publicar libros de actividades en KDP.',
+    title: 'Paquete de generadores de puzzles y lógica — 4 herramientas con licencia',
+    tagline: 'Cuatro generadores de fichas de puzzles — sudoku, piezas faltantes, intruso y laberintos.',
     description: 'Publique libros de rompecabezas en Amazon KDP y cree listados de puzzles en Etsy con cinco generadores en un solo paquete a precio reducido. Incluya sudoku con imágenes, laberintos temáticos, búsqueda del intruso, piezas faltantes y patrones lógicos — los tipos de puzzles más populares en el mercado de libros de actividades. Cada generador produce PDFs listos para imprimir a 300 DPI con solucionarios automáticos, perfectos para compilar cuadernos de 50 a 100 páginas y subirlos directamente a KDP. La licencia comercial está incluida para vender sin restricciones en cualquier plataforma. Todas las fichas son puramente visuales — funcionan en cualquier idioma sin traducción — lo que le permite vender el mismo libro de puzzles en mercados KDP de todo el mundo. Combine más de 100 conjuntos de imágenes temáticas para crear libros de rompecabezas por temporada, por tema o por nivel de dificultad, multiplicando su catálogo desde una sola inversión. Pruebe gratis con marca de agua — sin registro, sin tarjeta de crédito.',
   },
 

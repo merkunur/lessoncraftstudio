@@ -2,25 +2,27 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'herramientas esenciales negocio de imprimibles',
+    primaryKeyword: 'herramientas para negocio de imprimibles',
     secondaryKeywords: [
-      'software para crear imprimibles educativos',
-      'herramientas para vendedores de fichas',
-      'generadores de fichas para negocio',
-      'kit de herramientas vendedor de imprimibles',
+      'mejores herramientas vender imprimibles',
+      'software para crear imprimibles',
+      'generadores de fichas profesionales',
+      'herramientas imprimibles Etsy KDP',
     ],
     lsiKeywords: [
-      'comparativa generadores de fichas vendedores',
-      'herramientas de diseño imprimibles profesionales',
-      'software de productividad negocio digital',
+      'herramientas',
+      'software',
+      'generador',
+      'diseño',
+      'productividad',
     ],
-    titleTag: 'Herramientas para negocio imprimibles | LCS',
-    metaDescription: 'Herramientas esenciales para un negocio de. Generadores de fichas, software de diseño y plataformas de venta comparadas para vendedores educativos.',
+    titleTag: 'Herramientas para negocio de imprimibles | Las mejores',
+    metaDescription: 'Las mejores herramientas para crear y vender imprimibles. Generadores, software de diseño y herramientas de productividad para su negocio.',
   },
 
   hero: {
-    title: 'Herramientas Esenciales para un Negocio de Imprimibles',
-    tagline: 'El kit completo de software, generadores y plataformas que necesita para producir y vender fichas',
+    title: 'Herramientas para su negocio de imprimibles — Las mejores opciones',
+    tagline: 'Generadores, software de diseño y herramientas de productividad para vendedores de imprimibles.',
     description: 'Las herramientas correctas marcan la diferencia entre producir una ficha por hora y producir veinte. Esta guía cubre el ecosistema completo de herramientas para vendedores de imprimibles: generadores de fichas para producción rápida, software de diseño para personalización, plataformas de venta para distribución, y herramientas de productividad para gestionar el negocio eficientemente. Compararemos opciones en cada categoría con sus ventajas, limitaciones y precios para que tome decisiones informadas. LessonCraftStudio ofrece 33 generadores especializados — cada uno con pruebe gratis con marca de agua para evaluar la calidad.',
   },
 

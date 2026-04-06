@@ -2,25 +2,26 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'fichas de mayor y menor gratis',
+    primaryKeyword: 'fichas mayor menor igual gratis',
     secondaryKeywords: [
-      'fichas de mayor y menor gratis sin registro',
-      'generador de fichas de mayor que menor que en línea',
-      'crear fichas de mayor y menor gratis para imprimir',
-      'fichas de comparar cantidades gratis PDF con respuestas',
+      'comparar números gratis para imprimir',
+      'mayor que menor que ejercicios gratis',
+      'fichas comparación cantidades gratis',
+      'más que menos que gratis',
     ],
     lsiKeywords: [
-      'actividad de mayor que menor que con imágenes',
-      'ficha de comparar cantidades preescolar imprimible',
-      'conceptos de más y menos con ilustraciones PDF gratis',
+      'mayor que',
+      'menor que',
+      'igual',
+      'comparar',
     ],
-    titleTag: 'Mayor y menor gratis en línea | LCS',
-    metaDescription: 'Cree fichas de mayor y menor gratis sin registro. Compare cantidades con ilustraciones, 104 colecciones, respuestas incluidas. Pase a licencia comercial.',
+    titleTag: 'Fichas mayor menor igual gratis | Generador online',
+    metaDescription: 'Cree fichas de comparación de números gratis con imágenes temáticas. Sin registro. Soluciones automáticas, PDF con marca de agua.',
   },
 
   hero: {
-    title: 'Cree fichas de mayor y menor gratis en línea',
-    tagline: 'Cree fichas de comparación visual con tres modos de ejercicio en menos de 60 segundos',
+    title: 'Fichas mayor menor igual gratis para imprimir',
+    tagline: 'Fichas de comparación de números y cantidades gratis — con imágenes temáticas.',
     description: 'Cree fichas de mayor y menor gratis con este generador en línea. Los usuarios comparan cantidades de imágenes temáticas e identifican cuál grupo tiene más o menos elementos. Navegue 104 colecciones con más de 3.100 ilustraciones o suba las suyas. Configure el rango de cantidades, número de ejercicios por ficha y exporte con clave de respuestas autogenerada. Exporte en JPEG y PDF a 300 DPI en tamaño Carta, A4 o personalizado. La prueba gratis incluya todas las funciones con marca de agua. Sin registro, sin instalación. ¿Quiere vender? Pase a la licencia comercial para eliminar la marca de agua y obtener uso comercial completo.',
   },
 

@@ -2,25 +2,27 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'fichas de reconocimiento de patrones gratis',
+    primaryKeyword: 'ejercicios de secuencias lógicas gratis',
     secondaryKeywords: [
-      'fichas de patrones gratis sin registro',
-      'generador de fichas de patrones en línea gratis',
-      'crear fichas de reconocimiento de patrones para imprimir',
-      'fichas de completar patrones gratis PDF con respuestas',
+      'completar la secuencia gratis',
+      'lógica visual gratis',
+      'series numéricas gratis',
+      'razonamiento lógico gratis',
     ],
     lsiKeywords: [
-      'actividad de secuencias lógicas con imágenes imprimible',
-      'ficha de continuar el patrón visual preescolar',
-      'reconocimiento de patrones con ilustraciones PDF gratis',
+      'razonamiento',
+      'completar',
+      'secuencia',
+      'visual',
+      'lógica',
     ],
-    titleTag: 'Reconocimiento de patrones gratis | LCS',
-    metaDescription: 'Cree fichas de reconocimiento de patrones gratis sin registro. Venda en Etsy & KDP con licencia comercial.',
+    titleTag: 'Ejercicios de secuencias lógicas gratis | Generador',
+    metaDescription: 'Cree ejercicios de secuencias lógicas gratis con imágenes temáticas. Sin registro. Soluciones automáticas. PDF con marca de agua.',
   },
 
   hero: {
-    title: 'Cree fichas de reconocimiento de patrones gratis',
-    tagline: 'Genere fichas de reconocimiento de patrones en cuadrícula con nueve tipos de patrón, dos modos de pregunta, configuración independiente por ejercicio y un resultado completamente visual sin texto que se vende en todo el mundo sin necesidad de traducción',
+    title: 'Ejercicios de secuencias lógicas gratis para imprimir',
+    tagline: 'Fichas de secuencias lógicas con imágenes gratis — soluciones automáticas.',
     description: 'Cree fichas de reconocimiento de patrones gratis con este generador en línea. Los usuarios identifican y completan secuencias visuales con imágenes temáticas. Navegue 104 colecciones con más de 3.100 ilustraciones o suba sus propias imágenes. Configure la complejidad del patrón, número de ejercicios por ficha y exporte con clave de respuestas autogenerada. Exporte en JPEG y PDF a 300 DPI en tamaño Carta, A4 o personalizado. La prueba gratis incluya todas las funciones con marca de agua en las descargas. Sin registro, sin instalación. ¿Quiere vender? Pase a la licencia comercial para eliminar la marca de agua y obtener uso comercial completo.',
   },
 

@@ -2,25 +2,26 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'generador de anagramas gratis en línea',
+    primaryKeyword: 'letras desordenadas gratis para imprimir',
     secondaryKeywords: [
-      'anagramas gratis sin registro',
-      'generador de palabras desordenadas gratis',
-      'crear anagramas gratis para imprimir',
-      'fichas de anagramas gratis sin tarjeta de crédito',
+      'ordenar letras ejercicio gratis',
+      'anagramas para imprimir gratis',
+      'palabras revueltas gratis',
+      'formar palabras gratis',
     ],
     lsiKeywords: [
-      'juegos de ordenar letras imprimibles',
-      'actividades de vocabulario con anagramas',
-      'fichas de palabras mezcladas para niños',
+      'anagrama',
+      'ordenar',
+      'ortografía',
+      'vocabulario',
     ],
-    titleTag: 'Generador de anagramas gratis | LCS',
-    metaDescription: 'Genere anagramas gratis con imágenes temáticas como pistas. Sin registro, sin tarjeta. Descargue con marca de agua. Licencia comercial.',
+    titleTag: 'Letras desordenadas gratis para imprimir | Generador',
+    metaDescription: 'Cree fichas de letras desordenadas gratis con imágenes temáticas. Sin registro. Soluciones automáticas. PDF con marca de agua.',
   },
 
   hero: {
-    title: 'Genere anagramas gratis con imágenes como pistas',
-    tagline: 'Fichas de palabras desordenadas listas en segundos — gratis y sin registro.',
+    title: 'Letras desordenadas gratis para imprimir — Generador online',
+    tagline: 'Fichas de letras desordenadas con imágenes gratis — soluciones automáticas.',
     description: 'Cree anagramas gratis donde los niños reordenan letras para formar palabras, guiados por imágenes temáticas como pistas visuales. Este generador produce fichas con palabras mezcladas de mas de 100 categorias — animales, alimentos, vehículos y mas. Seleccione el nivel de dificultad y el tema visual. Cada ficha incluye solucionario automático y se exporta en PDF listo para imprimir. No necesita registro ni tarjeta de crédito — acceda a todas las funciones al instante. Las descargas incluyen marca de agua. Ideal para padres y educadores que buscan actividades de vocabulario divertidas. ¿Quiere vender fichas de anagramas? Pase a la licencia comercial para archivos sin marca de agua.',
   },
 

@@ -2,25 +2,26 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'fichas de dibujo y colorear para tienda Etsy',
+    primaryKeyword: 'fichas de dibujo para imprimir',
     secondaryKeywords: [
-      'generador de fichas de dibujar para vendedores Etsy',
-      'fichas de dibujo guiado para Amazon KDP',
-      'fichas de dibujar y colorear licencia comercial',
-      'crear fichas de arte para vender online',
+      'actividades de arte para imprimir',
+      'dibujo guiado ficha',
+      'actividades de dibujo y colorear',
+      'fichas artísticas',
     ],
     lsiKeywords: [
-      'fichas dibujo colorear vendedores Etsy KDP',
-      'cuadernillos dibujo guiado imprimibles',
-      'negocio fichas arte creativo mercado hispano',
+      'dibujo guiado',
+      'arte',
+      'creatividad',
+      'colorear',
     ],
-    titleTag: 'Fichas de dibujo y colorear para Etsy | LCS',
-    metaDescription: 'Cree fichas de dibujo y colorear para vender en Etsy y KDP. Dibujo guiado con imágenes temáticas. Licencia comercial incluida. Pruebe gratis. 49 $ pago unico.',
+    titleTag: 'Fichas de dibujo y colorear para imprimir | Generador de arte',
+    metaDescription: 'Cree fichas de dibujo guiado y colorear con imágenes temáticas. PDF 300 DPI imprimibles. Prueba gratis — licencia comercial incluida.',
   },
 
   hero: {
-    title: 'Genere fichas de dibujo y colorear para vender en Etsy, KDP y Hotmart',
-    tagline: 'Cree fichas de dibujo guiado combinado con colorear — un formato creativo que se vende.',
+    title: 'Fichas de dibujo y colorear para imprimir — Generador de arte con imágenes',
+    tagline: 'Cree fichas de dibujo guiado y colorear con imágenes temáticas — PDF 300 DPI imprimibles.',
     description:
       'Genere fichas de dibujo y colorear para vender en Etsy, Amazon KDP o Hotmart. Este formato combine dos actividades favoritas: los niños primero dibujan siguiendo guías visuales y luego colorean su creación. Con más de 3.000 imágenes en 104 temas, cree fichas de dibujo para cualquier interés o estación. Las fichas de dibujo y colorear son un producto premium en Etsy porque ofrecen doble valor en una sola página. Ideales para cuadernillos de arte en Amazon KDP. Exporte PDFs a 300 DPI y véndalos con la licencia comercial incluida. El formato funciona en cualquier idioma — las instrucciones son visuales. Pruebe gratis con marca de agua — sin registro.',
   },

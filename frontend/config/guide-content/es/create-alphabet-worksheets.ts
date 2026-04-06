@@ -2,25 +2,27 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'crear fichas de abecedario para vender en Etsy',
+    primaryKeyword: 'cómo crear fichas del abecedario para imprimir',
     secondaryKeywords: [
-      'cómo crear fichas de abecedario imprimibles',
-      'guía paso a paso fichas del alfabeto',
-      'vender fichas de abecedario en Etsy y Amazon KDP',
-      'fichas del alfabeto licencia comercial Hotmart',
+      'tutorial fichas de letras paso a paso',
+      'crear fichas del abecedario para vender',
+      'guía fichas ABC con imágenes',
+      'fichas abecedario para Etsy y KDP',
     ],
     lsiKeywords: [
-      'generador de fichas de abecedario con imágenes',
-      'fichas del alfabeto para negocio imprimible',
-      'exportar PDF fichas de abecedario profesionales',
+      'abecedario',
+      'letras',
+      'ABC',
+      'preescolar',
+      'reconocimiento',
     ],
-    titleTag: 'Fichas de abecedario para Etsy | LCS',
-    metaDescription: 'Aprenda a crear fichas de abecedario para vender en Etsy, KDP y Hotmart. Guía paso a paso con generador profesional y licencia comercial incluida.',
+    titleTag: 'Cómo crear fichas del abecedario | Guía',
+    metaDescription: 'Guía paso a paso para crear fichas del abecedario con imágenes temáticas. Reconocimiento de letras, 11 idiomas, PDF para vender.',
   },
 
   hero: {
-    title: 'Cómo crear fichas de abecedario para vender en Etsy',
-    tagline: 'Un tutorial paso a paso para crear fichas de reconocimiento de letras con 11 vagones de tren coloridos que transportan letras e ilustraciones correspondientes, dos modos de creación (Creación automática para generación aleatoria y Selección manual para grupos de letras alineados con el catálogo de productos), cantidad de pistas configurable de 3 a 11 para escalado de dificultad integrado, correspondencia de letras sensible al idioma en 11 abecedarios nativos donde la misma imagen se empareja con diferentes letras según el idioma, y claves de respuestas autogeneradas que puede vender en todo el mundo en Etsy, Amazon KDP y Hotmart',
+    title: 'Cómo crear fichas del abecedario para imprimir — Guía',
+    tagline: 'Tutorial para crear fichas del abecedario con imágenes temáticas y reconocimiento de letras.',
     description: 'Descubra cómo crear fichas de abecedario atractivas y listas para vender en marketplaces de imprimibles educativos. Esta guía paso a paso le muestra cómo configurar letras, seleccionar temas con imágenes atractivas y generar fichas profesionales para distintos niveles. Aprenda a crear variaciones por estilo de letra y tema para construir un catálogo completo de productos del alfabeto. Optimice sus anuncios en Etsy, Amazon KDP y Hotmart con descripciones que atraigan compradores. Pruebe todas las funciones gratis con marca de agua antes de comprar su licencia comercial.',
   },
 

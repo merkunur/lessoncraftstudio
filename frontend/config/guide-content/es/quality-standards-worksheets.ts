@@ -2,25 +2,27 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'estándares de calidad para fichas vendibles',
+    primaryKeyword: 'estándares de calidad para fichas educativas',
     secondaryKeywords: [
-      'calidad profesional fichas imprimibles',
-      'estándares de fichas que generan ventas',
-      'mejorar calidad de imprimibles educativos',
-      'fichas profesionales que se vendan bien',
+      'calidad imprimibles educativos',
+      'fichas profesionales estándar',
+      'control de calidad imprimibles',
+      'fichas alta calidad vender',
     ],
     lsiKeywords: [
-      'diseño profesional formato legibilidad tipografía',
-      'revisión de calidad checklist estándares mínimos',
-      'diferenciación por calidad valor percibido premium',
+      'calidad',
+      'resolución',
+      'diseño',
+      'profesional',
+      'estándar',
     ],
-    titleTag: 'Calidad para fichas que se vendan | LCS',
-    metaDescription: 'Establezca estándares de calidad para fichas que se vendan. Checklist profesional para imprimibles en Etsy, KDP y Hotmart que generan reseñas positivas.',
+    titleTag: 'Estándares de calidad para fichas educativas | Guía',
+    metaDescription: 'Guía de estándares de calidad para fichas educativas. Resolución, diseño y mejores prácticas para imprimibles profesionales.',
   },
 
   hero: {
-    title: 'Estándares de calidad para fichas que generan ventas',
-    tagline: 'Una guía completa sobre estándares de calidad que los vendedores de fichas necesitan para resultados profesionales — que cubre estándares de resolución y formato de archivo, requisitos de diseño de página y márgenes, reglas de tipografía y legibilidad, consistencia de color y visual, verificación de claves de respuestas, listas de verificación de control de calidad previas a la publicación, pruebas de impresión en diferentes dispositivos y mantenimiento de calidad en todo el catálogo',
+    title: 'Estándares de calidad para fichas educativas — Guía',
+    tagline: 'Resolución, diseño y mejores prácticas para crear imprimibles profesionales.',
     description: 'La calidad profesional es lo que separa las fichas que se venden de las que acumulan polvo digital. Los compradores reconocen la calidad en segundos: diseño limpio, tipografía legible, contenido preciso y formato consistente. Esta guía establezca los estándares de calidad que sus fichas deben cumplir para competir en marketplaces saturados y generar reseñas positivas. Aplique este checklist profesional para sus productos en Etsy, Amazon KDP y Hotmart. El mercado hispanohablante tiene menos competencia de alta calidad, lo que significa que fichas profesionales destacan rápidamente.',
   },
 

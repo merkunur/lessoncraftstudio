@@ -2,24 +2,25 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Imprimibles Pascua para vender | LCS',
-    metaDescription: 'Ideas de imprimibles de Semana Santa y Pascua para vender en Etsy y KDP. Nicho de primavera con demanda cultural profunda en el mercado hispanohablante.',
+    titleTag: 'Imprimibles de Pascua para Etsy | Nicho',
+    metaDescription: 'Ideas de imprimibles de Pascua para Etsy y KDP. Nicho estacional con demanda en primavera.',
 
-    primaryKeyword: 'imprimibles de Semana Santa Pascua para vender',
+    primaryKeyword: 'imprimibles de Pascua para vender en Etsy',
     secondaryKeywords: [
-      'fichas de Pascua para Etsy y KDP',
-      'negocio imprimibles Semana Santa primavera',
-      'actividades pascuales comerciales Hotmart',
-      'vender fichas conejo de Pascua en línea',
+      'fichas de Pascua Etsy KDP',
+      'actividades Semana Santa imprimibles',
+      'negocio imprimibles Pascua',
+      'fichas primaverales para vender',
     ],
     lsiKeywords: [
-      'pico ventas marzo abril imprimibles Pascua',
-      'Semana Santa tradición hispana imprimibles',
-      'productos digitales huevos conejitos primavera',
+      'Pascua',
+      'Semana Santa',
+      'primavera',
+      'conejos',
     ],
   },
   hero: {
-    title: 'Ideas de imprimibles de Semana Santa y Pascua para vender',
+    title: 'Ideas de imprimibles de Pascua para vender en Etsy y KDP',
     description: 'La Semana Santa y la Pascua representan una de las temporadas de ventas más importantes para los imprimibles educativos en el mercado hispano. A diferencia del mercado anglosajón donde la Pascua es principalmente secular, en España y Latinoamérica la Semana Santa tiene un significado cultural profundo que extiende la demanda más allá de los conejos y huevos pintados. Para los vendedores de imprimibles, esto abra dos líneas de productos paralelas: actividades seculares de primavera con conejitos y pollitos para el mercado general, y materiales culturales de Semana Santa para familias hispanas. El pico de ventas ocurre entre febrero y abril, con la planificación de compre comenzando en enero. Esta guía le muestra ideas de productos específicos, estrategias de precios y cómo aprovechar ambos enfoques en Etsy, KDP y Hotmart.',
   },
   marketOverview: `El nicho de imprimibles de Pascua ocupa una posición privilegiada en el calendario de ventas de primavera, generando demanda estacional concentrada durante un período en el que pocas festividades compiten por la atención de los compradores. Los vendedores comienzan a planificar las actividades primaverales del mercado y las celebraciones previas a Pascua en febrero y principios de marzo, buscando fichas temáticas que combinen el encanto festivo con resultados educativos genuinos. Los padres buscan actividades de Pascua apropiadas para la edad que sirvan doble propósito como inserciones para cestas de Pascua y entretenimiento educativo durante los emocionantes días previos a la festividad. Los grupos parroquiales, coordinadores de escuela dominical y organizadores de eventos comunitarios compran fichas de actividades temáticas para búsquedas de huevos de Pascua, festivales de primavera y celebraciones familiares que necesitan actividades estructuradas para los pequeños participantes.

@@ -2,23 +2,24 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Imprimibles preescolar para Etsy | LCS',
-    metaDescription: 'Ideas de de preescolar para vender en Etsy y Amazon KDP. Fichas de motricidad fina, preescritura y reconocimiento de formas para niños de 3 a 5 años.',
+    titleTag: 'Imprimibles de preescolar para Etsy | Nicho',
+    metaDescription: 'Ideas de imprimibles de preescolar para Etsy y KDP. Motricidad fina, formas y colores para 3-5 años.',
     primaryKeyword: 'imprimibles de preescolar para vender en Etsy',
     secondaryKeywords: [
-      'fichas preescolares negocio imprimibles',
-      'vender actividades para niños de 3 a 5 años',
-      'imprimibles educativos preescolar Hotmart',
-      'nicho preescolar tiendas de fichas',
+      'fichas preescolares Etsy KDP',
+      'actividades de preescolar imprimibles',
+      'negocio imprimibles preescolar',
+      'fichas de motricidad fina para vender',
     ],
     lsiKeywords: [
-      'fichas motricidad fina preescolares vendedores',
-      'cuadernillos de preescritura Amazon KDP',
-      'actividades de reconocimiento de formas Etsy',
+      'preescolar',
+      'motricidad fina',
+      'formas',
+      'colores',
     ],
   },
   hero: {
-    title: 'Imprimibles de Preescolar para Vender en Etsy: Ideas',
+    title: 'Ideas de imprimibles de preescolar para vender en Etsy y KDP',
     description: 'El preescolar es el segmento de mayor crecimiento en el mercado de imprimibles educativos, impulsado por padres que buscan actividades estructuradas para niños de 3 a 5 años. Fichas de motricidad fina, preescritura, reconocimiento de colores, formas y números, actividades de recortar y pegar, y ejercicios de emparejamiento visual forman la base de un catálogo rentable con demanda constante todo el año. Esta guía cubre ideas de productos específicos, estrategias por plataforma y enfoques de diferenciación para Etsy, Amazon KDP y Hotmart. Pruebe cada generador gratis con marca de agua antes de invertir en una licencia comercial.',
   },
   marketOverview: `El nicho de imprimibles preescolares ocupa una posición singularmente dominante en el mercado educativo porque sirve al segmento de compradores por grupo de edad más grande con el conjunto de habilidades más universalmente necesario. A diferencia de los nichos temáticos que dependen de que los niños tengan intereses específicos, cada niño en edad preescolar necesita aprender formas, colores, números, letras y habilidades motrices fundamentales independientemente de sus preferencias individuales o personalidad. Esta necesidad universal cree una demanda que trasciende orígenes culturales, regiones geográficas y circunstancias familiares, haciendo de los imprimibles preescolares uno de los generadores de ingresos más estables y predecibles disponibles para los emprendedores de imprimibles que construyen negocios sostenibles en cualquier mercado.

@@ -2,23 +2,24 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Imprimibles camping — Negocio | LCS',
-    metaDescription: 'Ideas de negocio con de camping para Etsy, Amazon KDP y Hotmart. Fichas de naturaleza, actividades al aire libre y estrategias de nicho estacional.',
-    primaryKeyword: 'imprimibles de camping ideas negocio',
+    titleTag: 'Imprimibles de camping para Etsy | Nicho',
+    metaDescription: 'Ideas de imprimibles de camping para Etsy y KDP. Naturaleza, fogatas y aventuras al aire libre.',
+    primaryKeyword: 'imprimibles de camping para vender en Etsy',
     secondaryKeywords: [
-      'fichas de camping para vender en Etsy',
-      'negocio de imprimibles temática naturaleza',
-      'actividades de acampada para tiendas digitales',
-      'nicho de camping imprimibles educativos',
+      'fichas de camping Etsy KDP',
+      'actividades de acampada imprimibles',
+      'negocio imprimibles camping',
+      'fichas de naturaleza para vender',
     ],
     lsiKeywords: [
-      'fichas de fogata y tienda de campaña vendedores',
-      'cuadernillos de aventuras al aire libre KDP',
-      'imprimibles de naturaleza Hotmart negocio',
+      'camping',
+      'fogata',
+      'naturaleza',
+      'aventura',
     ],
   },
   hero: {
-    title: 'Imprimibles de Camping: Ideas de Negocio para Vendedores',
+    title: 'Ideas de imprimibles de camping para vender en Etsy y KDP',
     description: 'El camping combine la naturaleza, la aventura y el aprendizaje al aire libre en un nicho de imprimibles con picos estacionales fuertes en primavera y verano, pero con demanda sostenida todo el año gracias a los programas escolares y las actividades de scouting. Fogatas, tiendas de campaña, mochilas, brújulas, animales del bosque y estrellas ofrecen un vocabulario visual rico para fichas educativas. Esta guía cubre ideas de productos específicos, tácticas por plataforma y estrategias de posicionamiento para construir un catálogo rentable de imprimibles de camping en Etsy, Amazon KDP y Hotmart. Pruebe cada generador gratis con marca de agua.',
   },
   marketOverview: `El nicho de imprimibles de camping ocupa una posición excepcionalmente ventajosa para los vendedores de imprimibles porque ofrece lo mejor de ambos mundos: potentes picos de demanda estacional durante los meses de primavera y verano cuando las familias preparan activamente viajes de camping y aventuras al aire libre, combinados con una relevancia genuina durante todo el año a través del catálogo de productos de educación al aire libre, unidades de ciencias naturales y la fascinación perdurable de los niños por las fogatas, las tiendas de campaña y la exploración de la naturaleza salvaje que opera independientemente de la temporada real de camping. Este patrón de demanda dual cree un modelo de ingresos donde los fuertes picos estacionales se superponen a una base confiable, dando a los vendedores de imprimibles de camping ingresos más predecibles que los nichos puramente estacionales mientras siguen beneficiándose de períodos concentrados de compre de alto volumen.

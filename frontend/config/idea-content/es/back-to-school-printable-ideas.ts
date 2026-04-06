@@ -2,23 +2,24 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Imprimibles regreso a clases Etsy | LCS',
-    metaDescription: 'Ideas de imprimibles de regreso a clases para Etsy y KDP. Temporada con demanda masiva — las fechas varían por país hispano, lo que extiende sus ventas.',
-    primaryKeyword: 'imprimibles de regreso a clases para vender Etsy',
+    titleTag: 'Imprimibles regreso a clases para Etsy | Nicho',
+    metaDescription: 'Ideas de imprimibles de regreso a clases para Etsy y KDP. Temporada extendida por las diferentes fechas en países hispanos.',
+    primaryKeyword: 'imprimibles de regreso a clases para Etsy',
     secondaryKeywords: [
-      'fichas vuelta al colegio para Etsy KDP',
+      'fichas vuelta al colegio Etsy',
       'negocio imprimibles regreso escolar',
-      'actividades inicio clases comerciales',
-      'vender fichas escolares septiembre en línea',
+      'actividades inicio de clases KDP',
+      'fichas escolares para vender',
     ],
     lsiKeywords: [
-      'pico ventas agosto septiembre imprimibles escolares',
-      'regreso a clases España septiembre México agosto',
-      'productos digitales material escolar Hotmart',
+      'regreso a clases',
+      'vuelta al colegio',
+      'septiembre',
+      'agosto',
     ],
   },
   hero: {
-    title: 'Ideas de imprimibles de regreso a clases para vender en Etsy',
+    title: 'Ideas de imprimibles de regreso a clases para Etsy y KDP',
     description: 'El regreso a clases es una de las temporadas de mayor demanda para los imprimibles educativos — y en el mercado hispano, una ventaja única extiende su ventana de ventas. Mientras que en España las clases comienzan en septiembre, en México el ciclo arranca en agosto, y en Argentina y Chile el año escolar inicie en febrero-marzo. Para los vendedores de imprimibles, esto significa que puede vender productos de regreso a clases durante varios meses del año atacando diferentes mercados hispanos en diferentes momentos. Las fichas de repaso, actividades de evaluación inicial, kits de organización escolar y paquetes de bienvenida son los productos más buscados. Esta guía le muestra ideas de productos específicos, cronograma de publicación por país y estrategias para maximizar ventas en Etsy, KDP y Hotmart.',
   },
   marketOverview: `El nicho de imprimibles de vuelta al cole domina uno de los volúmenes de tráfico estacional más altos en el mercado educativo, generando demanda sostenida a lo largo de una amplia ventana de ventas de julio a septiembre que da a los vendedores tiempo significativo para capturar ingresos. Los vendedores comienzan a preparar sus nuevas tiendas a mediados de julio, comprando materiales de configuración del mercado, actividades para romper el hielo de la primera semana y complementos de productoses que les ayuden a arrancar con fuerza cuando lleguen los usuarios. Los padres buscan fichas de preparación escolar, actividades educativas para cubrir la brecha de aprendizaje de verano e imprimibles atractivos que faciliten la transición del modo vacacional de regreso a las rutinas diarias estructuradas. Las emprendedores, que planifican todo su año académico durante los meses de verano, representan un segmento de compradores particularmente valioso porque adquieren colecciones completas de recursos en lugar de fichas individuales.

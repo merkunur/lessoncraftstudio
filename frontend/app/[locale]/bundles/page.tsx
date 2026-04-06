@@ -13,7 +13,7 @@ const bundlesKeywords: Record<string, string[]> = {
   en: ['worksheet generator bundles', 'printable maker bundle deals', 'educational worksheet tools bundle', 'Etsy printable generator packs', 'commercial license printable bundles', 'category bundle for printable sellers'],
   de: ['Arbeitsblatt Generator Bundles', 'Druckvorlagen-Tool Bundle Angebote', 'Arbeitsblatt-Ersteller Paket'],
   fr: ['packs générateurs fiches', 'lot générateurs imprimables', 'packs Etsy imprimables', 'lot cahiers activités KDP', 'licence commerciale pack', 'pack par catégorie'],
-  es: ['paquetes imprimibles licencia comercial', 'lote de fichas Etsy', 'paquetes generadores KDP', 'licencia comercial paquete', 'paquete por categoría imprimibles', 'ahorro paquetes generadores'],
+  es: ['paquete generadores de fichas', 'pack generadores licencia comercial', 'paquete fichas matemáticas Etsy', 'bundle generadores imprimibles', 'paquete por categoría generadores', 'ahorro paquete generadores fichas'],
   pt: ['pacotes de imprimíveis', 'lote de fichas', 'pacotes Etsy imprimíveis', 'lote livros atividades KDP', 'licença comercial pacote', 'pacote por categoria'],
   it: ['pacchetti stampabili', 'bundle di schede', 'pacchetti Etsy stampabili', 'bundle libri attività KDP', 'licenza commerciale pacchetto', 'pacchetto per categoria'],
   nl: ['bundels generators commerciële licentie', 'printable bundel korting', 'werkbladen pakket Etsy', 'rekenbladen bundel KDP', 'Bol.com printables bundel'],

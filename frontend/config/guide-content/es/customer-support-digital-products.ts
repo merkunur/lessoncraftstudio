@@ -2,25 +2,27 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'atención al cliente para productos digitales',
+    primaryKeyword: 'soporte al cliente productos digitales',
     secondaryKeywords: [
-      'soporte al cliente imprimibles educativos',
-      'gestionar consultas de compradores fichas',
-      'servicio postventa productos digitales',
-      'atención al cliente vendedores de imprimibles',
+      'atención al cliente imprimibles',
+      'soporte vendedores Etsy',
+      'gestionar consultas clientes fichas',
+      'servicio al cliente productos digitales',
     ],
     lsiKeywords: [
-      'FAQ preguntas frecuentes resolución de problemas',
-      'reseñas positivas satisfacción del cliente retención',
-      'automatización de soporte plantillas de respuesta eficiencia',
+      'soporte',
+      'clientes',
+      'consultas',
+      'satisfacción',
+      'devoluciones',
     ],
-    titleTag: 'Atención al cliente productos digitales | LCS',
-    metaDescription: 'Optimice la atención al cliente para productos digitales. Sistemas de soporte para vendedores en Etsy, KDP y Hotmart que generan reseñas positivas.',
+    titleTag: 'Soporte al cliente para productos digitales | Guía',
+    metaDescription: 'Guía de soporte al cliente para vendedores de productos digitales. Gestión de consultas, satisfacción y devoluciones.',
   },
 
   hero: {
-    title: 'Atención al cliente que genere reseñas y ventas repetidas',
-    tagline: 'Una guía completa para construir sistemas efectivos de soporte para su negocio de imprimibles — cubriendo los problemas más comunes de soporte en productos digitales, prevención de solicitudes de soporte mediante mejor documentación, construcción de sistemas FAQ de autoservicio, creación de plantillas de respuesta, gestión profesional de reembolsos, conversión del soporte en mejoras del negocio, gestión constructiva de reseñas y escalamiento del soporte a medida que su catálogo crece',
+    title: 'Soporte al cliente para productos digitales — Guía',
+    tagline: 'Gestión de consultas, satisfacción y estrategia de devoluciones para vendedores.',
     description: 'Un buen servicio de atención al cliente transforma compradores únicos en clientes recurrentes y genere las reseñas positivas que impulsan nuevas ventas. Para vendedores de productos digitales, el soporte eficiente es una ventaja competitiva real. Esta guía le muestra cómo construir un sistema de atención al cliente que resuelva problemas rápidamente, reduzca reembolsos y genere valoraciones positivas. Descubra las plantillas y automatizaciones que funcionan en Etsy, Amazon KDP y Hotmart. El mercado hispanohablante valora especialmente la atención personalizada en su idioma.',
   },
 

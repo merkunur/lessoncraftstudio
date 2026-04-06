@@ -2,25 +2,27 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'estrategia de precios para fichas educativas',
+    primaryKeyword: 'precios de imprimibles educativos',
     secondaryKeywords: [
-      'cómo fijar precios de fichas imprimibles',
-      'precios de imprimibles educativos 2026',
-      'psicología de precios productos digitales',
-      'pricing para fichas en Etsy y KDP',
+      'cuánto cobrar por fichas educativas',
+      'estrategia de precios imprimibles',
+      'precios imprimibles Etsy KDP',
+      'fijar precios fichas para vender',
     ],
     lsiKeywords: [
-      'precio de anclaje descuento por volumen valor percibido',
-      'márgenes de beneficio coste por página punto de precio',
-      'precios escalonados pruebas de precio conversión ventas',
+      'precios',
+      'estrategia',
+      'competencia',
+      'margen',
+      'descuentos',
     ],
-    titleTag: 'Precios para fichas educativas | LCS',
-    metaDescription: 'Descubra la estrategia de precios para fichas educativas que maximiza ingresos. Pricing escalonado para Etsy, KDP y Hotmart en 2026.',
+    titleTag: 'Precios de imprimibles educativos | Estrategia',
+    metaDescription: 'Guía de precios para imprimibles educativos. Cuánto cobrar, estrategia de precios y análisis de competencia para Etsy y KDP.',
   },
 
   hero: {
-    title: 'Estrategia de precios que maximiza sus ingresos por fichas',
-    tagline: 'Una guía completa para fijar precios de imprimibles educativos que maximicen los ingresos y el crecimiento sostenible — cubriendo investigación de mercado y análisis competitivo, cálculo de costos y planificación de márgenes de beneficio, modelos de precios para diferentes tipos de productos, psicología de precios y optimización de conversiones, consideraciones de precios específicas por plataforma y pruebas de precio sistemáticas para la mejora continua',
+    title: 'Precios de imprimibles educativos — Estrategia completa',
+    tagline: 'Cuánto cobrar, análisis de competencia y estrategia de precios para Etsy y KDP.',
     description: 'Fijar el precio correcto para sus fichas educativas es la diferencia entre un negocio rentable y uno que apenas sobrevive. Un precio demasiado bajo devalúa su trabajo; demasiado alto reduce las conversiones. Esta guía le enseña la psicología de precios aplicada a productos imprimibles educativos: anclaje, precios escalonados, pruebas A/B y estrategias específicas por plataforma. Aprenda a fijar precios que funcionen en Etsy, Amazon KDP y Hotmart. El mercado hispanohablante tiene dinámicas de precio propias que debe entender para maximizar cada venta.',
   },
 

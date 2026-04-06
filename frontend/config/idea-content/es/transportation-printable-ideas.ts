@@ -2,23 +2,24 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Imprimibles transportes — Negocio | LCS',
-    metaDescription: 'Ideas de imprimibles de transportes para Etsy y KDP. Coches, aviones y trenes — nicho con demanda constante entre niños de 2 a 7 años.',
-    primaryKeyword: 'imprimibles de transportes ideas negocio',
+    titleTag: 'Imprimibles de transporte para Etsy | Nicho',
+    metaDescription: 'Ideas de imprimibles de transporte para Etsy y KDP. Coches, aviones y trenes con demanda constante.',
+    primaryKeyword: 'imprimibles de transporte para vender en Etsy',
     secondaryKeywords: [
-      'fichas de vehículos para vender Etsy',
-      'negocio imprimibles coches aviones trenes',
-      'actividades transporte comerciales KDP',
-      'vender fichas medios transporte Hotmart',
+      'fichas de transporte Etsy KDP',
+      'actividades de vehículos imprimibles',
+      'negocio imprimibles transporte',
+      'fichas de coches para vender',
     ],
     lsiKeywords: [
-      'nicho imprimibles transportes demanda niños',
-      'fichas educativas vehículos vendedores',
-      'productos digitales coches camiones aviones',
+      'transporte',
+      'coches',
+      'aviones',
+      'trenes',
     ],
   },
   hero: {
-    title: 'Ideas de negocio con imprimibles de transportes para vender',
+    title: 'Ideas de imprimibles de transporte para vender en Etsy y KDP',
     description: 'Los medios de transporte son un tema que captura la atención de los niños desde los dos años — coches, camiones, aviones, trenes y barcos generan una fascinación que los padres aprovechan para actividades educativas. Para los vendedores de imprimibles, el nicho de transportes ofrece demanda constante sin dependencia estacional, con públicos que van desde preescolares que aprenden a contar vehículos hasta niños de primaria que estudian vocabulario y clasificación. Las fichas de transporte se venden especialmente bien en paquetes temáticos: vehículos de construcción, vehículos de emergencia, transportes acuáticos y transportes aéreos. En el mercado hispano, la competencia es mínima para productos de calidad en español. Esta guía le presenta ideas de productos, estrategias de precios y cómo construir su línea en Etsy, KDP y Hotmart.',
   },
   marketOverview: `El nicho de imprimibles de transporte ocupa una posición excepcionalmente ventajosa para los vendedores de imprimibles porque la fascinación de los niños por los vehículos es uno de los intereses más intensos y sostenidos en el desarrollo de la primera infancia. Desde el momento en que los niños pequeños señalan emocionados a los camiones que pasan, los camiones de bomberos y los aviones en el cielo, la obsesión por el transporte se apodera de ellos y persiste durante los años de preescolar y primaria temprana. Esta motivación profunda e intrínseca significa que los niños se involucran con entusiasmo en las fichas con temática de transporte sin la persuasión que los productos imprimibles genéricos a veces requieren, lo que hace que los imprimibles de vehículos sean excepcionalmente atractivos tanto para los vendedores que buscan el compromiso de los usuarios como para los padres que desean actividades productivas sin pantallas.

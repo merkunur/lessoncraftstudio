@@ -4,23 +4,25 @@ const content: ToolContent = {
   seo: {
     primaryKeyword: 'generador de fichas de matemáticas gratis',
     secondaryKeywords: [
-      'fichas de matemáticas gratis sin registro',
-      'generador de ejercicios de mates gratis en línea',
-      'fichas de cálculo gratis para imprimir',
-      'hojas de matemáticas gratis sin tarjeta de crédito',
+      'fichas de matemáticas gratis para imprimir',
+      'ejercicios de matemáticas online gratis',
+      'crear fichas de cálculo gratis',
+      'fichas matemáticas personalizadas gratis',
     ],
     lsiKeywords: [
-      'ejercicios de suma resta multiplicación división',
-      'fichas de matemáticas para primaria imprimibles',
-      'generador de operaciones matemáticas con respuestas',
+      'operaciones',
+      'cálculo',
+      'aritmética',
+      'primaria',
+      'PDF',
     ],
-    titleTag: 'Generador de fichas de mates gratis | LCS',
-    metaDescription: 'Genere fichas de matemáticas gratis: sumas, restas, multiplicaciones y divisiones. Sin registro, sin tarjeta. Pase a licencia comercial para vender.',
+    titleTag: 'Generador de fichas de matemáticas gratis | Online',
+    metaDescription: 'Cree fichas de matemáticas personalizadas gratis. Sin registro. Soluciones automáticas, PDF con marca de agua. Licencia comercial disponible.',
   },
 
   hero: {
-    title: 'Genere fichas de matemáticas gratis en segundos',
-    tagline: 'Todas las operaciones básicas en un solo generador — gratis y sin registro.',
+    title: 'Generador de fichas de matemáticas gratis online',
+    tagline: 'Fichas de matemáticas personalizadas gratis — soluciones automáticas, sin registro.',
     description: 'Cree fichas de matemáticas gratis que cubren sumas, restas, multiplicaciones y divisiones. Este generador le permite configurar el rango de números, la cantidad de problemas por página y el tipo de operación. Cada ficha incluye solucionario automático y se exporta en PDF de alta calidad. No necesita crear una cuenta ni introducir tarjeta de crédito — empiece a generar fichas de inmediato. Las descargas incluyen marca de agua para uso de prueba. Perfecto para padres que quieren material de práctica y educadores que necesitan fichas rapidas. ¿Quiere vender fichas de matemáticas? Pase a la licencia comercial para archivos sin marca de agua a 300 DPI.',
   },
 

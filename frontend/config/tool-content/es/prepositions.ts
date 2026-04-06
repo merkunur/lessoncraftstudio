@@ -2,25 +2,28 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'generador de fichas de preposiciones gratis',
+    primaryKeyword: 'fichas de ubicación espacial gratis',
     secondaryKeywords: [
-      'fichas de preposiciones gratis sin registro',
-      'generador de fichas de preposiciones en línea',
-      'crear fichas de preposiciones gratis para imprimir',
-      'fichas de preposiciones visuales gratis PDF con respuestas',
+      'preposiciones de lugar gratis',
+      'nociones espaciales gratis',
+      'arriba abajo delante detrás gratis',
+      'orientación espacial gratis',
     ],
     lsiKeywords: [
-      'actividad de preposiciones de lugar con imágenes',
-      'ficha de arriba abajo dentro fuera imprimible',
-      'preposiciones espaciales con ilustraciones PDF gratis',
+      'arriba',
+      'abajo',
+      'delante',
+      'detrás',
+      'al lado',
+      'entre',
     ],
-    titleTag: 'Fichas de preposiciones gratis | LCS',
-    metaDescription: 'Cree fichas de preposiciones gratis sin registro. Ilustraciones de arriba, abajo, dentro, fuera. Venda en Etsy & KDP con licencia comercial.',
+    titleTag: 'Fichas de ubicación espacial gratis | Generador online',
+    metaDescription: 'Cree fichas de ubicación espacial gratis con imágenes temáticas. Sin registro. Soluciones automáticas. PDF con marca de agua.',
   },
 
   hero: {
-    title: 'Cree fichas de preposiciones gratis en línea',
-    tagline: 'Cree fichas de preposiciones espaciales con dos modos de ejercicio en 11 idiomas',
+    title: 'Fichas de ubicación espacial gratis para imprimir',
+    tagline: 'Fichas de preposiciones y ubicación espacial gratis — con imágenes temáticas.',
     description: 'Cree fichas de preposiciones visuales gratis con este generador en línea. Genere actividades donde los usuarios identifican posiciones espaciales — arriba, abajo, dentro, fuera, al lado, detrás — usando ilustraciones temáticas. Navegue 104 colecciones con más de 3.100 imágenes o suba las suyas. Configure preposiciones, número de ejercicios y exporte con clave de respuestas autogenerada. Exporte en JPEG y PDF a 300 DPI en tamaño Carta, A4 o personalizado. La prueba gratis incluya todas las funciones con marca de agua. Sin registro, sin instalación. ¿Quiere vender? Pase a la licencia comercial para eliminar la marca de agua y obtener uso comercial completo.',
   },
 

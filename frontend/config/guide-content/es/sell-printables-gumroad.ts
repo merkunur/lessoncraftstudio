@@ -2,25 +2,27 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'vender imprimibles en Hotmart guía',
+    primaryKeyword: 'vender imprimibles en Gumroad',
     secondaryKeywords: [
-      'cómo vender imprimibles en Hotmart paso a paso',
-      'configurar negocio imprimibles Hotmart sin cuotas',
-      'vender descargue digitales en Hotmart guía vendedor',
-      'Hotmart para vendedores de imprimibles educativos',
+      'Gumroad vendedores imprimibles guía',
+      'publicar fichas Gumroad',
+      'ganar dinero Gumroad imprimibles',
+      'Gumroad vs Etsy imprimibles',
     ],
     lsiKeywords: [
-      'plataforma ventas directas creador descargue digitales Hotmart',
-      'tienda Hotmart marca página producto imagen optimización',
-      'email marketing audiencia lista seguidores Hotmart promoción',
+      'Gumroad',
+      'marketplace',
+      'publicar',
+      'pagos',
+      'enlaces',
     ],
-    titleTag: 'Vender imprimibles en Hotmart | LCS',
-    metaDescription: 'Aprenda a vender imprimibles en Hotmart con comisiones competitivas. Configuración de tienda, estrategia de precios y email marketing integrado.',
+    titleTag: 'Vender imprimibles en Gumroad | Guía',
+    metaDescription: 'Guía para vender imprimibles en Gumroad. Configuración, publicación y estrategia para esta plataforma.',
   },
 
   hero: {
-    title: 'Cómo vender imprimibles en Hotmart: guía completa',
-    tagline: 'Una guía completa para vender fichas imprimibles y recursos educativos directamente a compradores a través de Hotmart — cubriendo configuración de tienda, creación de productos, opciones de precios flexibles incluyendo paga lo que quieras, email marketing integrado para construcción de audiencia, estrategias de generación de tráfico para una plataforma directa del generador, optimización de páginas de producto para mayor conversión, y escalado con paquetes y membresías para ingresos recurrentes',
+    title: 'Vender imprimibles en Gumroad — Guía completa',
+    tagline: 'Configuración, publicación y estrategia para vender imprimibles en Gumroad.',
     description: 'Hotmart es la plataforma líder en Latinoamérica para vender productos digitales directamente a compradores. A diferencia de marketplaces como Etsy donde compite con millones de vendedores por la atención del algoritmo, Hotmart le permite construir su propia audiencia, poseer las relaciones con sus clientes y conservar las direcciones de correo para marketing directo. Esta guía cubre todo lo que necesita para vender imprimibles en Hotmart con éxito: configuración de tienda, creación de páginas de producto optimizadas, opciones de precios flexibles, email marketing integrado para construcción de audiencia y estrategias de generación de tráfico. Descubra cómo Hotmart complementa su presencia en otros marketplaces con comisiones competitivas y control total de su negocio.',
   },
 

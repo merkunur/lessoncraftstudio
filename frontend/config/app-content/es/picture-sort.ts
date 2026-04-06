@@ -2,25 +2,26 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'fichas de clasificación para negocio en Etsy',
+    primaryKeyword: 'fichas de clasificación para imprimir',
     secondaryKeywords: [
-      'generador de fichas de clasificación para vendedores',
-      'fichas de ordenar imágenes para Amazon KDP',
-      'ejercicios de categorización licencia comercial',
-      'crear fichas de sorting para vender online',
+      'clasificar y agrupar ficha',
+      'categorizar imágenes ejercicio',
+      'ordenar y clasificar fichas',
+      'actividades de clasificación preescolar',
     ],
     lsiKeywords: [
-      'fichas clasificación categorización vendedores',
-      'ejercicios ordenar imágenes preescolar KDP',
-      'negocio fichas clasificación mercado hispano',
+      'clasificar',
+      'agrupar',
+      'ordenar',
+      'categorizar',
     ],
-    titleTag: 'Fichas de clasificación para Etsy y KDP | LCS',
-    metaDescription: 'Cree fichas de clasificación con imágenes para vender en Etsy y KDP. Los niños ordenan por categorías. Licencia comercial. Pruebe gratis. 49 $ pago unico.',
+    titleTag: 'Fichas de clasificación para imprimir | Generador de categorías',
+    metaDescription: 'Cree fichas de clasificación y categorización con imágenes temáticas. Soluciones automáticas, PDF imprimibles. Prueba gratis.',
   },
 
   hero: {
-    title: 'Genere fichas de clasificación para vender en Etsy, KDP y Hotmart',
-    tagline: 'Cree fichas donde los niños clasifican imágenes por categorías temáticas.',
+    title: 'Fichas de clasificación para imprimir — Generador de categorías con imágenes',
+    tagline: 'Cree fichas de clasificación y categorización con imágenes temáticas — soluciones automáticas.',
     description:
       'Genere fichas de clasificación para vender en Etsy, Amazon KDP o Hotmart. Los niños observan imágenes y las clasifican en categorías — alimentos vs. animales, grandes vs. pequeños, estaciones del año, y más. Este formato desarrolla habilidades de pensamiento lógico y categorización que son fundamentales en preescolar e infantil. Con más de 3.000 imágenes en 104 temas, cree fichas de clasificación para cualquier contexto. Exporte PDFs a 300 DPI con solucionario automático y véndalos con la licencia comercial incluida. Las fichas de clasificación son puramente visuales y funcionan en cualquier idioma. El mercado hispano ofrece competencia mínima para este formato. Pruebe gratis con marca de agua — sin registro.',
   },

@@ -2,25 +2,28 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'creador de crucigramas para vender en Etsy y KDP',
+    primaryKeyword: 'generador de crucigramas',
     secondaryKeywords: [
-      'generador de crucigramas con imágenes para Etsy',
-      'crear crucigramas imprimibles para Amazon KDP',
-      'crucigramas visuales licencia comercial',
-      'fichas de palabras cruzadas para vender online',
+      'crear crucigrama',
+      'crucigrama para imprimir',
+      'crucigrama con imágenes',
+      'crear crucigrama personalizado',
     ],
     lsiKeywords: [
-      'crucigramas temáticos vendedores Etsy Amazon',
-      'libros de crucigramas imprimibles KDP',
-      'negocio pasatiempos imprimibles mercado hispano',
+      'pistas',
+      'grilla',
+      'horizontal',
+      'vertical',
+      'definiciones',
+      'solución',
     ],
-    titleTag: 'Crucigramas para vender en Etsy y KDP | LCS',
-    metaDescription: 'Cree crucigramas con imágenes para vender en Etsy y KDP. 104 temas, 11 idiomas, solucionario automático. Licencia comercial. Pruebe gratis. 49 $ pago unico.',
+    titleTag: 'Generador de crucigramas | Crear con imágenes y soluciones',
+    metaDescription: 'Cree crucigramas con pistas de imágenes en una grilla 15×15. 4 modos de entrada, 104 temas, soluciones automáticas. Prueba gratis — licencia comercial.',
   },
 
   hero: {
-    title: 'Genere crucigramas para vender en Etsy, KDP y Hotmart',
-    tagline: 'Cree crucigramas con pistas visuales en 11 idiomas — formato único que se vende.',
+    title: 'Generador de crucigramas — Crear con imágenes y soluciones automáticas',
+    tagline: 'Cree crucigramas con pistas de imágenes en grilla 15×15 — 104 temas, soluciones automáticas.',
     description:
       'Genere crucigramas con imágenes como pistas para vender en Etsy, Amazon KDP o Hotmart. En lugar de definiciones escritas, los usuarios ven imágenes temáticas y escriben las palabras correspondientes — un formato innovador que funciona para todas las edades y se vende mejor que los crucigramas tradicionales. Soporte para 11 idiomas permite crear productos para el mercado hispano, europeo y global simultáneamente. Seleccione entre más de 3.000 ilustraciones en 104 temas. Los crucigramas son un clásico perenne con demanda constante en Amazon KDP y Etsy. Exporte PDFs a 300 DPI con solucionario automático y véndalos con licencia comercial. Pruebe gratis con marca de agua — sin registro.',
   },

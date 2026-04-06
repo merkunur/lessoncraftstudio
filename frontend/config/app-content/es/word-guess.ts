@@ -2,25 +2,27 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'juego de adivinar palabras para vender en Etsy',
+    primaryKeyword: 'juego del ahorcado para imprimir',
     secondaryKeywords: [
-      'generador de fichas de adivinar palabras para Etsy',
-      'fichas de adivinanzas de vocabulario para KDP',
-      'juegos de palabras imprimibles licencia comercial',
-      'crear fichas de vocabulario visual para vender',
+      'adivinar la palabra ficha',
+      'ahorcado para imprimir fichas',
+      'juego de palabras vocabulario',
+      'acertijos de palabras ficha',
     ],
     lsiKeywords: [
-      'fichas adivinar palabras vendedores Etsy',
-      'juegos vocabulario imprimibles KDP Hotmart',
-      'negocio fichas lenguaje mercado hispano',
+      'ahorcado',
+      'adivinar',
+      'letras',
+      'vocabulario',
+      'pistas',
     ],
-    titleTag: 'Adivinar palabras para vender en Etsy | LCS',
-    metaDescription: 'Cree fichas de adivinar palabras para vender en Etsy y KDP. Pistas de imágenes, 11 idiomas, solucionario. Licencia comercial incluida. 49 $ pago unico.',
+    titleTag: 'Juego del ahorcado para imprimir | Generador de adivinanzas',
+    metaDescription: 'Cree fichas de adivinanzas de palabras con vocabulario temático e imágenes. Soluciones automáticas, PDF imprimibles. Prueba gratis.',
   },
 
   hero: {
-    title: 'Genere fichas de adivinar palabras para vender en Etsy y KDP',
-    tagline: 'Cree juegos de vocabulario visual donde los niños adivinan palabras letra por letra.',
+    title: 'Juego del ahorcado para imprimir — Generador de adivinanzas de palabras',
+    tagline: 'Cree fichas de adivinanzas de palabras con vocabulario temático e imágenes — soluciones automáticas.',
     description:
       'Genere fichas de adivinar palabras para vender en Etsy, Amazon KDP o Hotmart. Los usuarios ven una imagen temática y adivinan la palabra correspondiente completando las letras — un formato interactivo que combine vocabulario con ortografía. Con soporte para 11 idiomas y más de 3.000 imágenes en 104 temas, puede crear fichas de adivinar palabras para el mercado hispano y otros mercados globales. Ideal para cuadernillos de vocabulario en KDP y paquetes educativos en Etsy. Exporte PDFs a 300 DPI con solucionario automático y véndalos con la licencia comercial incluida. Los juegos de vocabulario visual son especialmente populares para ELE — un mega-nicho con compradores de alto poder adquisitivo. Pruebe gratis con marca de agua — sin registro.',
   },

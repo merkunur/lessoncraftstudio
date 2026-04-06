@@ -4,23 +4,25 @@ const content: StartContent = {
   seo: {
     primaryKeyword: 'aspectos legales negocio de imprimibles',
     secondaryKeywords: [
-      'requisitos legales vender imprimibles en línea',
-      'impuestos negocio de fichas digitales',
-      'regulaciones para vendedores de imprimibles',
-      'aspectos fiscales negocio de descargue digitales',
+      'licencias para vender imprimibles',
+      'derechos de autor imprimibles',
+      'licencia comercial imprimibles',
+      'legalidad vender fichas online',
     ],
     lsiKeywords: [
-      'IVA productos digitales vendedores España',
-      'obligaciones fiscales Etsy vendedores LATAM',
-      'protección de propiedad intelectual imprimibles',
+      'licencia',
+      'derechos',
+      'copyright',
+      'legal',
+      'comercial',
     ],
-    titleTag: 'Negocio de imprimibles: legales | LCS',
-    metaDescription: 'Aspectos legales de un negocio de. Impuestos, regulaciones y propiedad intelectual para vendedores en España y Latinoamérica. Consulte un profesional.',
+    titleTag: 'Aspectos legales del negocio de imprimibles | Guía',
+    metaDescription: 'Guía sobre aspectos legales para vender imprimibles. Licencias, derechos de autor y requisitos legales para su negocio.',
   },
 
   hero: {
-    title: 'Aspectos Legales de un Negocio de Imprimibles',
-    tagline: 'Impuestos, regulaciones y propiedad intelectual — lo que todo vendedor de imprimibles debe conocer',
+    title: 'Aspectos legales del negocio de imprimibles',
+    tagline: 'Licencias, derechos de autor y requisitos legales que debe conocer antes de vender.',
     description: 'Los aspectos legales de un negocio de imprimibles varían significativamente según el país. En España necesitará darse de alta como autónomo y aplicar el IVA del 21%. En México deberá registrarse en el SAT con RFC bajo el régimen RESICO. En Argentina corresponde el monotributo. En Colombia necesitará el RUT. Esta guía cubre los temas legales más importantes para vendedores de imprimibles — impuestos sobre productos digitales, propiedad intelectual, términos de uso y protección de contenido — sin dar asesoramiento legal específico. Consulte siempre un profesional local para su situación particular. Cada generador ofrece una prueba gratis con marca de agua.',
   },
 

@@ -2,23 +2,24 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Imprimibles de verano — Negocio | LCS',
-    metaDescription: 'Ideas de imprimibles de verano para vender en Etsy y KDP. Paquetes anti-aburrimiento y actividades de viaje — temporada de alta demanda para vendedores.',
-    primaryKeyword: 'imprimibles de verano ideas negocio',
+    titleTag: 'Imprimibles de verano para Etsy | Nicho',
+    metaDescription: 'Ideas de imprimibles de verano para Etsy y KDP. Playa, vacaciones y actividades al aire libre.',
+    primaryKeyword: 'imprimibles de verano para vender',
     secondaryKeywords: [
-      'fichas de verano para vender Etsy',
-      'negocio imprimibles actividades verano',
-      'paquetes imprimibles vacaciones KDP',
-      'vender fichas playa campamento Hotmart',
+      'fichas de verano Etsy',
+      'actividades verano imprimibles',
+      'negocio imprimibles verano',
+      'fichas vacaciones para vender',
     ],
     lsiKeywords: [
-      'pico ventas junio julio imprimibles verano',
-      'actividades vacaciones para niños vendedores',
-      'productos digitales playa sol helados temáticos',
+      'verano',
+      'playa',
+      'vacaciones',
+      'sol',
     ],
   },
   hero: {
-    title: 'Ideas de negocio con imprimibles de verano para Etsy y KDP',
+    title: 'Ideas de imprimibles de verano para vender en Etsy y KDP',
     description: 'El verano genere una demanda única para los imprimibles educativos: los padres buscan actividades que mantengan a sus hijos ocupados y aprendiendo durante las vacaciones. Paquetes anti-aburrimiento, fichas de viaje, cuadernillos de repaso y actividades temáticas de playa, camping y helados dominan las búsquedas desde mayo hasta agosto. Para los vendedores de imprimibles en el mercado hispano, el verano ofrece una oportunidad doble: las vacaciones de junio a agosto en el hemisferio norte coinciden con las vacaciones de invierno en el hemisferio sur, donde los padres también buscan actividades. Las fichas de verano se venden bien como paquetes grandes porque los padres quieren resolver varias semanas de actividades con una sola compre. Esta guía le presenta ideas de productos, precios por formato y estrategias para posicionar su tienda en Etsy, KDP y Hotmart.',
   },
   marketOverview: `El nicho de imprimibles de verano se distingue de otras categorías estacionales por su duración e intensidad de la demanda de los padres por actividades infantiles estructuradas. Mientras la mayoría de los nichos de festividades ofrecen ventanas de ventas concentradas de dos a cuatro semanas, el verano se extiende a lo largo de cuatro meses completos de compre activas de mayo a agosto, con vendedores anticipados y coordinadores de campamento comenzando sus búsquedas en abril. Este cronograma extendido significa que los listados de imprimibles de verano tienen más tiempo para acumular reseñas, escalar posiciones en los rankings de búsqueda y generar tráfico orgánico acumulativo durante toda la temporada. Los padres se convierten en el segmento de compradores dominante durante los meses de verano cuando las rutinas escolares se disuelven y la realidad de mantener a los niños comprometidos, entretenidos y aprendiendo durante semanas enteras impulsa búsquedas urgentes de actividades imprimibles que proporcionen estructura sin la rigidez del catálogo de productos formal.

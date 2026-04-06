@@ -1,25 +1,27 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'fichas de comparación de tamaños gratis',
+    primaryKeyword: 'fichas grande y pequeño gratis para imprimir',
     secondaryKeywords: [
-      'fichas de grande y pequeño gratis sin registro',
-      'generador de fichas de comparación de tamaños en línea',
-      'crear fichas de grande y pequeño gratis para imprimir',
-      'fichas de comparación de tamaños gratis PDF con respuestas',
+      'comparar tamaños gratis',
+      'ordenar por tamaño gratis',
+      'más grande más pequeño gratis',
+      'tamaños preescolar gratis',
     ],
     lsiKeywords: [
-      'actividad de grande y pequeño con imágenes preescolar',
-      'ficha de comparar tamaños con ilustraciones imprimible',
-      'conceptos de tamaño grande mediano pequeño PDF gratis',
+      'grande',
+      'pequeño',
+      'mediano',
+      'ordenar',
+      'comparar',
     ],
-    titleTag: 'Comparación de tamaños gratis | LCS',
-    metaDescription: 'Cree fichas de comparación de tamaños gratis sin registro. Grande, mediano, pequeño con ilustraciones, 104 temas,. Venda en Etsy & KDP con licencia comercial.',
+    titleTag: 'Fichas grande y pequeño gratis | Generador online',
+    metaDescription: 'Cree fichas de comparación de tamaños gratis con imágenes temáticas. Sin registro. Soluciones automáticas. PDF con marca de agua.',
     },
 
   hero: {
-    title: 'Cree fichas de comparación de tamaños gratis',
-    tagline: 'Cree fichas de comparación de tamaños con cinco tipos de ejercicio, dos modos de imagen y un resultado completamente visual sin texto que se vende en todo el mundo sin necesidad de traducción',
+    title: 'Fichas grande y pequeño gratis para imprimir',
+    tagline: 'Fichas de comparación de tamaños gratis — con imágenes temáticas.',
     description: 'Cree fichas de comparación de tamaños gratis con este generador en línea. Los usuarios identifican cuál es más grande, más pequeño o del mismo tamaño entre ilustraciones temáticas. Navegue 104 colecciones con más de 3.100 imágenes o suba las suyas. Configure los niveles de comparación, número de ejercicios por ficha y exporte con clave de respuestas autogenerada. Exporte en JPEG y PDF a 300 DPI en tamaño Carta, A4 o personalizado. La prueba gratis incluya todas las funciones con marca de agua en las descargas. Sin registro, sin instalación. ¿Quiere vender? Pase a la licencia comercial para eliminar la marca de agua y obtener uso comercial completo.',
   },
 

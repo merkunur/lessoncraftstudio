@@ -4,23 +4,26 @@ const content: GuideContent = {
   seo: {
     primaryKeyword: 'ganar dinero con libros de actividades KDP',
     secondaryKeywords: [
-      'cómo ganar dinero publicando cuadernillos en KDP',
-      'ingresos pasivos libros de actividades Amazon KDP',
-      'rentabilidad libros actividades KDP márgenes regalías',
-      'negocio rentable cuadernillos educativos Amazon KDP',
+      'ingresos KDP libros de actividades',
+      'cuánto se gana KDP cuadernos',
+      'monetizar fichas en Amazon KDP',
+      'negocio KDP libros actividades',
     ],
     lsiKeywords: [
-      'regalías KDP márgenes beneficio costes impresión precio venta',
-      'volumen publicaciones catálogo diversificado ingresos recurrentes',
-      'nichos rentables libros actividades infantiles educativos puzles',
+      'KDP',
+      'ingresos',
+      'regalías',
+      'ventas',
+      'nicho',
+      'precio',
     ],
-    titleTag: 'Ganar dinero con cuadernillos KDP | LCS',
-    metaDescription: 'Descubra cómo ganar dinero con libros de actividades en Amazon KDP. Márgenes reales, estrategia de catálogo y nichos más rentables para empezar.',
+    titleTag: 'Ganar dinero con libros de actividades KDP | Guía',
+    metaDescription: 'Guía para ganar dinero con libros de actividades en Amazon KDP. Regalías, nichos rentables y estrategia de precios.',
   },
 
   hero: {
-    title: 'Cómo ganar dinero con libros de actividades en Amazon KDP',
-    tagline: 'Una guía completa de ingresos para editores de libros de actividades en Amazon KDP — incluyendo cálculo de regalías y puntos óptimos de precio, economía de catálogo que acumula ingresos mensuales, estrategias de publicación estacional para picos de ingresos en festividades, optimización de palabras clave de Amazon para máximas ventas, escalado de producción en múltiples tipos de libros de actividades, seguimiento del rendimiento para reforzar los ganadores, y expansión multiplataforma a Etsy y Hotmart para fuentes de ingresos adicionales',
+    title: 'Ganar dinero con libros de actividades en Amazon KDP',
+    tagline: 'Regalías, nichos rentables y estrategia de precios para libros de actividades en KDP.',
     description: 'Amazon KDP ofrece una oportunidad real de generar ingresos pasivos publicando libros de actividades educativos. Sin inventario, sin envíos y sin inversión inicial significativa, puede construir un catálogo de cuadernillos que genere regalías mes tras mes. Esta guía le muestra los números reales: márgenes de regalías después de costes de impresión, cuántos libros necesita publicar para alcanzar diferentes niveles de ingresos, qué nichos de actividades son más rentables y cómo escalar su catálogo estratégicamente. Aprenda a calcular la rentabilidad antes de publicar, elegir nichos con demanda probada y utilizar los generadores de LessonCraftStudio para producir contenido profesional eficientemente.',
   },
 

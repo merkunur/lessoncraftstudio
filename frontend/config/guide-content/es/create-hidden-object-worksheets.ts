@@ -2,25 +2,27 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'crear busca y encuentra para vender',
+    primaryKeyword: 'cómo crear fichas de busca y encuentra',
     secondaryKeywords: [
-      'cómo crear fichas de busca y encuentra imprimibles',
-      'guía paso a paso objetos ocultos educativos',
-      'vender busca y encuentra en Etsy y KDP',
-      'fichas de objetos ocultos licencia comercial Hotmart',
+      'tutorial busca y encuentra paso a paso',
+      'crear fichas de objetos escondidos',
+      'guía fichas de observación',
+      'fichas busca y encuentra para Etsy',
     ],
     lsiKeywords: [
-      'generador de busca y encuentra temáticos',
-      'fichas de objetos ocultos para negocio imprimible',
-      'exportar PDF busca y encuentra profesionales',
+      'observación',
+      'objetos',
+      'buscar',
+      'encontrar',
+      'concentración',
     ],
-    titleTag: 'Busca y encuentra para vender | LCS',
-    metaDescription: 'Aprenda a crear fichas de busca y encuentra para vender en Etsy, KDP y Hotmart. Guía paso a paso con generador profesional y licencia comercial.',
+    titleTag: 'Cómo crear fichas de busca y encuentra | Guía',
+    metaDescription: 'Guía paso a paso para crear fichas de busca y encuentra con imágenes temáticas. Soluciones automáticas, PDF para vender.',
   },
 
   hero: {
-    title: 'Cómo crear fichas de busca y encuentra para vender',
-    tagline: 'Un tutorial paso a paso para crear fichas de busca y encuentra y encuentra el intruso que puede vender en Etsy, Amazon KDP y Hotmart',
+    title: 'Cómo crear fichas de busca y encuentra — Guía paso a paso',
+    tagline: 'Tutorial para crear fichas de objetos escondidos y juegos de observación.',
     description: 'Descubra cómo crear fichas de busca y encuentra listas para vender en los principales marketplaces de imprimibles. Esta guía paso a paso le enseña a configurar la cantidad de objetos ocultos, seleccionar temas visuales atractivos y generar fichas con claves de respuestas automáticas. Aprenda a crear variaciones temáticas y estacionales para multiplicar su catálogo de productos. Optimice sus anuncios en Etsy, Amazon KDP y Hotmart para máxima visibilidad. Todas las funciones están disponibles en la prueba gratis con marca de agua para evaluar la calidad.',
   },
 

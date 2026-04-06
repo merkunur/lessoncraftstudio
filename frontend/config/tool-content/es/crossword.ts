@@ -1,25 +1,27 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'generador de crucigramas gratis con imágenes',
+    primaryKeyword: 'generador de crucigramas gratis',
     secondaryKeywords: [
-      'crucigramas gratis sin registro',
-      'generador de crucigramas gratis en línea',
-      'crear crucigramas gratis para imprimir',
-      'crucigramas con imágenes gratis sin tarjeta',
+      'crear crucigrama gratis online',
+      'crucigrama para imprimir gratis',
+      'crucigrama con imágenes gratis',
+      'crucigrama personalizado gratis',
     ],
     lsiKeywords: [
-      'juegos de palabras cruzadas imprimibles',
-      'crucigramas temáticos en español para niños',
-      'actividades de vocabulario con crucigramas',
+      'pistas',
+      'grilla',
+      'horizontal',
+      'vertical',
+      'solución',
     ],
-    titleTag: 'Generador de crucigramas gratis | LCS',
-    metaDescription: 'Cree crucigramas gratis con imágenes temáticas como pistas visuales. Sin registro, sin tarjeta. Descargue con marca de agua. Licencia comercial disponible.',
+    titleTag: 'Generador de crucigramas gratis | Online',
+    metaDescription: 'Cree crucigramas gratis con pistas de imágenes. Sin registro. 104 temas, soluciones automáticas. PDF con marca de agua.',
     },
 
   hero: {
-    title: 'Cree crucigramas gratis con imágenes como pistas',
-    tagline: 'Crucigramas ilustrados listos en segundos — gratis y sin registro.',
+    title: 'Generador de crucigramas gratis online',
+    tagline: 'Crucigramas con pistas de imágenes gratis — 104 temas, soluciones automáticas.',
     description: 'Cree crucigramas gratis con imágenes temáticas que sirven como pistas visuales. Este generador produce crucigramas donde los niños identifican la imagen y escriben la palabra correspondiente. Seleccione el tema visual de mas de 100 categorias, el nivel de dificultad y el idioma. Cada ficha incluye solucionario automático y se exporta en PDF listo para imprimir. No necesita registro ni tarjeta de crédito — empiece a crear de inmediato. Las descargas incluyen marca de agua transparente. Ideal para padres, educadores y creadores de material didactico. ¿Quiere vender crucigramas? Pase a la licencia comercial para eliminar la marca de agua y obtener archivos a 300 DPI.',
   },
 

@@ -2,25 +2,27 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'automatizar su negocio de imprimibles',
+    primaryKeyword: 'automatizar negocio de imprimibles',
     secondaryKeywords: [
-      'automatización para vendedores de fichas',
-      'sistemas automáticos negocio de imprimibles',
-      'herramientas de automatización productos digitales',
-      'flujos de trabajo automatizados imprimibles',
+      'automatización imprimibles Etsy',
+      'herramientas automatizar fichas',
+      'flujo de trabajo imprimibles',
+      'productividad negocio fichas',
     ],
     lsiKeywords: [
-      'eficiencia operativa herramientas digitales productividad',
-      'publicación automática programación de contenido',
-      'integración de plataformas APIs flujos automatizados',
+      'automatización',
+      'flujo',
+      'productividad',
+      'herramientas',
+      'eficiencia',
     ],
-    titleTag: 'Automatizar negocio de imprimibles | LCS',
-    metaDescription: 'Automatice su negocio de imprimibles con sistemas probados. Herramientas y flujos de trabajo para Etsy, KDP y Hotmart que le ahorran horas cada semana.',
+    titleTag: 'Automatizar negocio de imprimibles | Guía',
+    metaDescription: 'Guía para automatizar su negocio de imprimibles. Herramientas, flujos de trabajo y productividad para escalar.',
   },
 
   hero: {
-    title: 'Automatice su negocio de imprimibles y trabaje menos',
-    tagline: 'Una guía completa para racionalizar su negocio de imprimibles — cubriendo cómo identificar oportunidades de automatización, construir sistemas de plantillas, agrupar tareas de producción por lotes, estandarizar listings, organizar archivos sistemáticamente, automatizar el procesamiento de archivos, crear calendarios de producción y escalar mediante variación sistemática',
+    title: 'Automatizar su negocio de imprimibles — Guía completa',
+    tagline: 'Herramientas, flujos de trabajo y productividad para escalar su negocio.',
     description: 'La automatización es lo que separa a los vendedores que trabajan 60 horas semanales de los que ganan más trabajando menos. Cada tarea repetitiva en su negocio de imprimibles puede sistematizarse o automatizarse: desde la creación de productos hasta la publicación, el marketing y la atención al cliente. Esta guía le muestra las herramientas y flujos de trabajo específicos que los vendedores exitosos usan para automatizar sus operaciones. Aplique estos sistemas en Etsy, Amazon KDP y Hotmart. El mercado hispanohablante crece rápido y la automatización le permite capturar esa demanda sin multiplicar sus horas de trabajo.',
   },
 

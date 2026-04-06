@@ -2,25 +2,27 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'crear dibujos para colorear para Etsy y KDP',
+    primaryKeyword: 'cómo crear dibujos para colorear para imprimir',
     secondaryKeywords: [
-      'cómo crear páginas para colorear imprimibles',
-      'guía paso a paso dibujos para colorear',
-      'vender dibujos para colorear en Etsy y Amazon KDP',
-      'páginas para colorear con licencia comercial Hotmart',
+      'tutorial páginas para colorear paso a paso',
+      'crear colorear para vender',
+      'guía dibujos para colorear',
+      'páginas para colorear para Etsy y KDP',
     ],
     lsiKeywords: [
-      'generador de dibujos para colorear temáticos',
-      'páginas para colorear para negocio imprimible',
-      'exportar PDF dibujos para colorear profesionales',
+      'colorear',
+      'contornos',
+      'dibujo',
+      'blanco y negro',
+      'niños',
     ],
-    titleTag: 'Colorear para Etsy y KDP | LCS',
-    metaDescription: 'Aprenda a crear dibujos para colorear para vender en Etsy, KDP y Hotmart. Guía paso a paso con generador profesional y licencia comercial incluida.',
+    titleTag: 'Cómo crear dibujos para colorear | Guía',
+    metaDescription: 'Guía paso a paso para crear dibujos para colorear a partir de imágenes temáticas. Contornos alta resolución, PDF para vender.',
   },
 
   hero: {
-    title: 'Cómo crear dibujos para colorear para Etsy y KDP',
-    tagline: 'Un tutorial paso a paso para diseñar páginas para colorear personalizadas usando un lienzo de forma libre, más de 3100 imágenes temáticas, dibujo a mano alzada y exportación en escala de grises con un solo clic',
+    title: 'Cómo crear dibujos para colorear para imprimir — Guía',
+    tagline: 'Tutorial para crear dibujos para colorear a partir de 3.000+ imágenes temáticas.',
     description: 'Descubra cómo crear dibujos para colorear atractivos y listos para vender en los principales marketplaces. Esta guía paso a paso le enseña a seleccionar temas populares, configurar el nivel de detalle apropiado y exportar archivos de calidad profesional. Aprenda a crear colecciones temáticas y estacionales que multipliquen su catálogo de productos imprimibles. Optimice sus anuncios en Etsy, Amazon KDP y Hotmart para máxima visibilidad entre compradores. Todas las funciones están disponibles en la prueba gratis con marca de agua para evaluar la calidad.',
   },
 

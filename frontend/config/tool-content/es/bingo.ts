@@ -1,25 +1,27 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'generador de cartones de bingo gratis con imágenes',
+    primaryKeyword: 'crear tarjetas de bingo gratis',
     secondaryKeywords: [
-      'cartones de bingo gratis sin registro',
-      'generador de bingo con imágenes en línea gratis',
-      'crear cartones de bingo gratis para imprimir',
-      'bingo con ilustraciones gratis PDF para niños',
+      'generador de bingo gratis online',
+      'bingo con imágenes gratis',
+      'lotería para imprimir gratis',
+      'bingo personalizado gratis',
     ],
     lsiKeywords: [
-      'cartones de bingo visual con imágenes temáticas',
-      'generador de tarjetas de bingo aleatorias imprimibles',
-      'bingo educativo con ilustraciones gratis PDF',
+      'bingo',
+      'lotería',
+      'juego de mesa',
+      'tarjetas',
+      'fiesta',
     ],
-    titleTag: 'Cartones de bingo gratis con imágenes | LCS',
-    metaDescription: 'Cree cartones de bingo con imágenes gratis sin registro. Cartones únicos aleatorios, 104 temas, tarjeta de llamada. Venda en Etsy & KDP con licencia comercial.',
+    titleTag: 'Crear tarjetas de bingo gratis | Generador online',
+    metaDescription: 'Cree tarjetas de bingo/lotería gratis con 3.000+ imágenes temáticas. Sin registro. Tarjetas únicas por juego. PDF con marca de agua.',
     },
 
   hero: {
-    title: 'Cree cartones de bingo con imágenes gratis en línea',
-    tagline: 'Generador de tarjetas de bingo con imágenes con cuadrículas configurables de 3×3 a 5×5, generación por lotes de 1–10 tarjetas únicas por set, exportación ZIP de todas las tarjetas en una sola descargue, doble modo de relleno para celdas y fichas circulares de forma independiente, hoja de referencia dedicada con cuadrícula dinámica de palabras, selección personalizada de referencia con contador en vivo y 104 colecciones temáticas de imágenes para tarjetas de bingo que se venden en todo el mundo',
+    title: 'Crear tarjetas de bingo gratis online',
+    tagline: 'Tarjetas de bingo/lotería con imágenes gratis — tarjetas únicas por juego, sin registro.',
     description: 'Cree cartones de bingo con imágenes gratis con este generador en línea. Genere múltiples cartones únicos con distribución aleatoria de imágenes, más una tarjeta de llamada para el organizador. Navegue 104 colecciones temáticas con más de 3.100 ilustraciones o suba sus propias imágenes. Configure el tamaño de cuadrícula, casilla libre central y personalice colores y fuentes. Exporte en JPEG y PDF a 300 DPI en tamaño Carta, A4 o personalizado. La prueba gratis incluya todas las funciones con marca de agua. Sin registro, sin instalación. ¿Quiere vender? Pase a la licencia comercial para eliminar la marca de agua y obtener uso comercial completo.',
   },
 

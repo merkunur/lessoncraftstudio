@@ -2,23 +2,24 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Tablas de multiplicar — Negocio | LCS',
-    metaDescription: 'Ideas de negocio con imprimibles de tablas de multiplicar para Etsy y Amazon KDP. Fichas de fluidez aritmética, cálculo mental y operaciones básicas.',
-    primaryKeyword: 'tablas de multiplicar imprimibles negocio',
+    titleTag: 'Imprimibles operaciones matemáticas Etsy | Nicho',
+    metaDescription: 'Ideas de imprimibles de operaciones matemáticas para Etsy y KDP. Tablas, cálculo mental y fluidez.',
+    primaryKeyword: 'imprimibles de operaciones matemáticas para vender en Etsy',
     secondaryKeywords: [
-      'fichas de tablas de multiplicar para vender',
-      'negocio imprimibles de operaciones básicas Etsy',
-      'actividades de cálculo mental tiendas digitales',
-      'nicho de matemáticas básicas imprimibles',
+      'fichas operaciones matemáticas Etsy KDP',
+      'actividades de cálculo mental imprimibles',
+      'negocio imprimibles matemáticas',
+      'fichas de multiplicación para vender',
     ],
     lsiKeywords: [
-      'fichas de fluidez aritmética vendedores',
-      'cuadernillos de multiplicación Amazon KDP',
-      'imprimibles de operaciones combinadas Hotmart',
+      'operaciones',
+      'multiplicación',
+      'cálculo mental',
+      'aritmética',
     ],
   },
   hero: {
-    title: 'Tablas de Multiplicar Imprimibles: Ideas de Negocio',
+    title: 'Ideas de imprimibles de operaciones matemáticas para Etsy y KDP',
     description: 'Las tablas de multiplicar son el término de búsqueda de matemáticas más buscado en español, lo que convierte este nicho en una mina de oro para vendedores de imprimibles educativos. Fichas de práctica de multiplicación, ejercicios de cálculo mental, juegos de fluidez aritmética, actividades de operaciones combinadas y desafíos cronometrados forman un catálogo con demanda constante durante todo el año escolar y picos en septiembre y enero. Esta guía presenta ideas de productos concretos, estrategias por plataforma y tácticas de posicionamiento para construir un negocio de imprimibles de tablas de multiplicar en Etsy, Amazon KDP y Hotmart. Cada generador ofrece una prueba gratis con marca de agua.',
   },
   marketOverview: `El mercado de imprimibles de bases matemáticas es uno de los nichos de imprimibles educativos de mayor volumen porque la fluidez en operaciones matemáticas es una habilidad fundamental que todo usuario debe dominar independientemente del catálogo de productos, la filosofía de enseñanza, la ubicación geográfica o el sistema educativo. A diferencia de temas educativos de moda que suben y bajan con enfoques pedagógicos cambiantes, el requisito de que los usuarios logren automaticidad computacional con operaciones básicas de suma, resta, multiplicación y división ha permanecido constante durante décadas y no muestra indicios de disminuir incluso a medida que la tecnología transforma otros aspectos de la educación. Los vendedores asignan práctica diaria de operaciones matemáticas creando demanda consumible de repetición donde las fichas se completan una vez y se descartan, lo que significa que las mismas tiendas y familias necesitan materiales frescos continuamente durante todo el año académico en lugar de hacer una sola compre que satisfaga sus necesidades continuas. Esta naturaleza consumible de los materiales de práctica de operaciones matemáticas cree un ciclo de compre fundamentalmente diferente de la mayoría del contenido imprimible y particularmente favorable para los vendedores porque cada ficha completada genere demanda implícita para la siguiente.

@@ -2,25 +2,27 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'email marketing para vendedores de imprimibles',
+    primaryKeyword: 'email marketing para negocio de imprimibles',
     secondaryKeywords: [
-      'lista de correo para negocio de fichas',
-      'email marketing productos digitales educativos',
-      'construir lista de emails vendedores imprimibles',
-      'secuencias de email para vender fichas',
+      'lista de correo imprimibles',
+      'newsletter vendedores fichas',
+      'email marketing Etsy imprimibles',
+      'campañas email fichas educativas',
     ],
     lsiKeywords: [
-      'lead magnet embudo de ventas automatización email',
-      'segmentación tasa de apertura conversión suscriptores',
-      'newsletter frecuencia de envío contenido de valor',
+      'email',
+      'newsletter',
+      'lista',
+      'suscriptores',
+      'conversión',
     ],
-    titleTag: 'Email marketing para vendedores | LCS',
-    metaDescription: 'Construya una lista de email que genere ventas de imprimibles. Email marketing para vendedores en Etsy, KDP y Hotmart con secuencias que convierten.',
+    titleTag: 'Email marketing para negocio de imprimibles | Guía',
+    metaDescription: 'Guía de email marketing para vendedores de imprimibles. Lista de correo, newsletter y campañas que convierten.',
   },
 
   hero: {
-    title: 'Email marketing que convierte suscriptores en compradores',
-    tagline: 'Una guía completa de email marketing para vendedores de imprimibles — que cubre cómo elegir un proveedor de servicios de email, crear lead magnets atractivos, construir páginas de aterrizaje de alta conversión, diseñar secuencias de bienvenida, desarrollar estrategias de contenido para newsletters, segmentar su lista de suscriptores, automatizar campañas estacionales y hacer seguimiento de métricas para la optimización continua',
+    title: 'Email marketing para su negocio de imprimibles — Guía',
+    tagline: 'Lista de correo, newsletter y campañas de email que convierten para vendedores.',
     description: 'El email marketing es el canal con mayor retorno de inversión para vendedores de imprimibles porque le da acceso directo a compradores interesados sin depender de algoritmos. Una lista de email bien construida genere ventas predecibles cada vez que lanza un producto nuevo. Esta guía le muestra cómo construir su lista desde cero, crear lead magnets irresistibles y diseñar secuencias de email que convierten. Aplique esta estrategia con productos en Etsy, Amazon KDP y Hotmart. El mercado hispanohablante responde especialmente bien al email marketing con contenido de valor.',
   },
 

@@ -2,25 +2,27 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'crear fichas en varios idiomas para vender',
+    primaryKeyword: 'crear fichas en múltiples idiomas',
     secondaryKeywords: [
-      'fichas multilingüe para vendedores',
-      'crear imprimibles en múltiples idiomas',
-      'expandir fichas educativas a otros idiomas',
-      'producción de fichas multilingüe eficiente',
+      'fichas multilingües generador',
+      'traducir fichas educativas',
+      'fichas 11 idiomas',
+      'imprimibles varios idiomas',
     ],
     lsiKeywords: [
-      'traducción de fichas adaptación lingüística localización',
-      'flujo de trabajo multilingüe eficiencia producción',
-      'demanda por idioma mercados educativos internacionales',
+      'idiomas',
+      'traducción',
+      'multilingüe',
+      'vocabulario',
+      'temas',
     ],
-    titleTag: 'Fichas en varios idiomas para vender | LCS',
-    metaDescription: 'Aprenda a crear fichas en varios idiomas para multiplicar sus ventas. Flujo de trabajo eficiente para Etsy, KDP y Hotmart con adaptación cultural correcta.',
+    titleTag: 'Crear fichas en múltiples idiomas | Guía',
+    metaDescription: 'Guía para crear fichas en múltiples idiomas con un solo generador. 11 idiomas disponibles, mismo diseño.',
   },
 
   hero: {
-    title: 'Cómo crear fichas en varios idiomas y multiplicar ventas',
-    tagline: 'Una guía práctica para la producción de fichas multilingües — cubriendo cómo elegir tipos de fichas adecuados para cada idioma, configurar un espacio de trabajo multilingüe, manejar caracteres especiales y fuentes, adaptar contenido de forma natural para cada mercado, implementar control de calidad de traducciones, usar herramientas automatizadas multilingües, crear flujos de producción por lotes eficientes y optimizar listados en plataformas para compradores internacionales',
+    title: 'Crear fichas en múltiples idiomas — Guía práctica',
+    tagline: 'Un solo generador, 11 idiomas — cree fichas multilingües con el mismo diseño.',
     description: 'Crear fichas en varios idiomas es la forma más rápida de multiplicar su catálogo y sus ingresos. Cada versión lingüística de un producto que ya funciona le abra un mercado completamente nuevo con trabajo mínimo. Esta guía le enseña el flujo de trabajo eficiente para producir fichas multilingüe: desde la traducción correcta hasta la adaptación cultural y la optimización de listados por idioma. Descubra cómo vender en Etsy, Amazon KDP y Hotmart en múltiples mercados. El mercado hispanohablante es especialmente atractivo por su tamaño y la escasez de imprimibles educativos de calidad.',
   },
 

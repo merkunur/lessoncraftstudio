@@ -2,23 +2,24 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Imprimibles submarinos para vender | LCS',
-    metaDescription: 'Ideas de imprimibles submarinos y marinos para vender en Etsy y Amazon KDP. Fichas de vida marina, actividades del océaño y estrategias de nicho perenne.',
-    primaryKeyword: 'imprimibles submarinos para vender',
+    titleTag: 'Imprimibles bajo el agua para Etsy | Nicho',
+    metaDescription: 'Ideas de imprimibles del mundo submarino para Etsy y KDP. Peces, corales y vida marina perenne.',
+    primaryKeyword: 'imprimibles bajo el agua para vender en Etsy',
     secondaryKeywords: [
-      'fichas del océaño para vender en Etsy',
-      'negocio imprimibles de vida marina',
-      'actividades submarinas para tiendas digitales',
-      'nicho marino imprimibles educativos',
+      'fichas submarinas Etsy KDP',
+      'actividades del océano imprimibles',
+      'negocio imprimibles vida marina',
+      'fichas de peces para vender',
     ],
     lsiKeywords: [
-      'fichas de peces y corales vendedores',
-      'cuadernillos de vida marina KDP',
-      'imprimibles del océaño Hotmart negocio',
+      'submarino',
+      'peces',
+      'corales',
+      'océano',
     ],
   },
   hero: {
-    title: 'Imprimibles Submarinos para Vender: Ideas de Negocio',
+    title: 'Ideas de imprimibles del mundo submarino para vender en Etsy y KDP',
     description: 'El mundo submarino fascina a niños de todas las edades con su diversidad de criaturas, colores vibrantes y misterios del océaño profundo. Peces, pulpos, medusas, tiburones, corales, tortugas marinas y submarinos proporcionan un vocabulario visual extraordinariamente rico para fichas educativas que integran ciencias naturales, matemáticas y lectoescritura. Esta guía presenta ideas de productos concretos, estrategias por plataforma y tácticas de diferenciación para construir una línea rentable de imprimibles submarinos en Etsy, Amazon KDP y Hotmart. Cada generador ofrece una prueba gratis con marca de agua para evaluar la calidad.',
   },
   marketOverview: `El nicho de imprimibles submarinos ocupa una posición excepcionalmente poderosa para los vendedores de imprimibles porque la fascinación de los niños por la vida oceánica y las criaturas marinas opera como un interés genuinamente perenne durante todo el año que nunca depende del clima, las festividades ni el calendario. A diferencia de los temas estacionales que concentran la demanda en ventanas estrechas, el nicho submarino se beneficia de la simple realidad de que los niños están cautivados por tiburones, delfines, ballenas, pulpos y el colorido mundo de los arrecifes de coral durante todos los meses del año. Las visitas al acuario, los documentales oceánicos, los juguetes de animales marinos y los medios con temática submarina mantienen un flujo constante de participación que se traduce directamente en la demanda de padres y vendedores por productos imprimibles con temática oceánica. Este patrón de demanda consistente convierte a los imprimibles submarinos en una base de ingresos confiable sin los ciclos de abundancia y escasez que desafían a los vendedores en nichos más estacionales.

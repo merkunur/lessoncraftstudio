@@ -2,25 +2,26 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'generador de fichas de sombras gratis',
+    primaryKeyword: 'asociar sombras gratis para imprimir',
     secondaryKeywords: [
-      'fichas de sombras gratis sin registro',
-      'generador de discriminación visual de sombras en línea',
-      'crear fichas de emparejar sombras gratis para imprimir',
-      'fichas de sombras gratis con respuestas PDF',
+      'juego de sombras gratis',
+      'siluetas para emparejar gratis',
+      'sombras y figuras gratis',
+      'sombras preescolar gratis',
     ],
     lsiKeywords: [
-      'actividad de siluetas y contornos ficha imprimible',
-      'discriminación visual emparejar sombras preescolar',
-      'fichas de reconocimiento de formas sombras PDF gratis',
+      'silueta',
+      'sombra',
+      'asociar',
+      'discriminación visual',
     ],
-    titleTag: 'Fichas de sombras gratis en línea | LCS',
-    metaDescription: 'Cree fichas de emparejar sombras gratis sin registro. Siluetas automáticas, 104 temas, clave de respuestas incluida. Pase a licencia comercial para vender.',
+    titleTag: 'Asociar sombras gratis para imprimir | Generador',
+    metaDescription: 'Cree fichas de asociación de sombras gratis con imágenes temáticas. Sin registro. Soluciones automáticas. PDF con marca de agua.',
   },
 
   hero: {
-    title: 'Cree fichas de emparejar sombras gratis en línea',
-    tagline: 'Generador de fichas de asociación de sombras con doble modo: creación de siluetas a nivel de píxel y Completa la Imagen con división horizontal y vertical, algoritmo de derangement Fisher-Yates que garantiza cero coincidencias triviales, claves de respuestas autogeneradas con etiquetas letra-número, identificadores A/B/C/D y 1/2/3/4 activables/desactivables y 104 colecciones temáticas de imágenes para fichas de discriminación visual que se venden en todo el mundo',
+    title: 'Asociar sombras gratis para imprimir — Generador online',
+    tagline: 'Fichas de sombras y siluetas gratis — con imágenes temáticas.',
     description: 'Cree fichas profesionales de asociación de sombras con dos modos de ejercicio distintos en un solo generador. El modo Asociación de Sombras coloque 4 imágenes a color etiquetadas A, B, C, D en la fila superior y 4 siluetas negras autogeneradas etiquetadas 1, 2, 3, 4 en la fila inferior — las siluetas se crean mediante procesamiento de imagen a nivel de píxel que convierte cada píxel con alfa > 10 a negro puro (R=0, G=0, B=0, A=255), produciendo contornos precisos que preservan el perfil de transparencia exacto de cada imagen. Esto es procesamiento real de píxeles, no filtros CSS ni recursos de sombra prefabricados. El modo Completa la Imagen divide 4 imágenes en mitades — elija la dirección de corte horizontal (mitades superior/inferior) o la dirección de corte vertical (mitades izquierda/derecha) — etiqueta las primeras mitades A–D y las segundas mitades 1–4, y los usuarios reconectan las piezas para completar cada imagen. Ambos modos usan un algoritmo de derangement Fisher-Yates que garantiza que ningún elemento aparezca en su posición original, eliminando coincidencias triviales y asegurando que cada ficha presente un desafío genuino de asociación. El derangement se recalcula en cada generación, produciendo disposiciones diferentes del mismo conjunto de imágenes. Active o desactive las etiquetas de los identificadores A/B/C/D y 1/2/3/4 — etiquetas activadas proporcionan andamiaje letra-número para usuarios más pequeños, etiquetas desactivadas crean un desafío de asociación puramente visual ideal para libros de puzzles y actividades avanzadas. Añada campos opcionales de nombre y fecha para responsabilidad en línea. El sistema de lienzo dual genere simultáneamente una pestaña de ficha y una pestaña de clave de respuestas — la clave de respuestas muestra cada emparejamiento correcto letra-número (A → 2, B → 4, etc.) junto a las imágenes originales y sus siluetas o imágenes completas, eliminando la creación manual de claves de respuestas. El diseño se adapta automáticamente: páginas en horizontal disponen los elementos en 2 filas × 4 elementos, páginas en vertical usan 2 columnas × 4 elementos. Un encabezado estilizado aparece con fondo ámbar (#FFC107), contenedor blanco en forma de píldora y borde ámbar de 3px mostrando "Asociación de Sombras" e instrucciones en el idioma seleccionado. La Asociación de Sombras NO es sensible al idioma — la salida del puzzle es puramente visual sin contenido de texto localizado en la ficha, haciendo cada ficha universalmente vendible en todos los mercados sin traducción. Navegue 104 colecciones temáticas con más de 3.100 ilustraciones o suba sus propias imágenes PNG, JPG o GIF. Aplique fondos temáticos y bordes temáticos con controles de opacidad independientes (0–1, paso 0,05). Añada texto personalizado con 7 opciones de fuente (Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial, Verdana) y contorno de texto 0–10. Exporte cuatro archivos por sesión: ficha JPEG, ficha PDF, clave de respuestas JPEG y clave de respuestas PDF — todo a 300 DPI (multiplicador 6×, calidad JPEG 1,0). Elija Carta, A4, Cuadrado (1200×1200) o tamaños personalizados con opción de escala de grises para salida con ahorro de tinta. Edita todo en el lienzo de Fabric.js con herramientas de alineación, capas, bloqueo/desbloqueo, zoom 25%–300% y deshacer/rehacer 20 estados. La prueba gratuita incluya todas las funciones con una marca de agua en las descargas. Compre una licencia para eliminar la marca de agua y vender con uso comercial.',
   },
 

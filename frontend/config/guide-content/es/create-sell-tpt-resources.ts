@@ -2,25 +2,28 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'vender recursos educativos en Hotmart y TPT',
+    primaryKeyword: 'vender recursos educativos online',
     secondaryKeywords: [
-      'cómo vender fichas educativas en Hotmart paso a paso',
-      'crear recursos para Hotmart y TPT guía vendedor',
-      'vender imprimibles educativos en Hotmart y Editorial MD',
-      'configurar tienda Hotmart recursos educativos digitales',
+      'crear recursos educativos para vender',
+      'vender fichas educativas online',
+      'plataformas vender material educativo',
+      'negocio recursos educativos',
     ],
     lsiKeywords: [
-      'marketplace educativo digital emprendedores Hotmart Editorial MD TPT',
-      'comisiones vendedor plataforma educativa recursos descargables',
-      'anuncio producto educativo vista previa optimización posicionamiento',
+      'recursos',
+      'educativos',
+      'vender',
+      'plataformas',
+      'fichas',
+      'online',
     ],
-    titleTag: 'Vender recursos en Hotmart y TPT | LCS',
-    metaDescription: 'Aprenda a vender recursos educativos en Hotmart, Editorial MD y TPT. Configuración de cuenta, optimización de anuncios y estrategia de crecimiento.',
+    titleTag: 'Vender recursos educativos online | Guía',
+    metaDescription: 'Guía para crear y vender recursos educativos online. Plataformas, estrategia y mejores prácticas.',
   },
 
   hero: {
-    title: 'Cómo vender recursos educativos en Hotmart y TPT',
-    tagline: 'Una guía completa para vender recursos educativos en Hotmart — incluyendo configuración de cuenta y tienda, creación de recursos listos para Hotmart con formateo adecuado, empaquetado de archivos para subida, escritura de anuncios que posicionen en búsquedas de vendedores, creación de vistas previas y miniaturas efectivas, estrategia de precios para el marketplace educativo, y lanzamiento de sus primeros recursos para construir impulso de tienda e ingresos consistentes',
+    title: 'Vender recursos educativos online — Guía completa',
+    tagline: 'Plataformas, estrategia y mejores prácticas para vender recursos educativos.',
     description: 'Hotmart, Editorial MD y Teachers Pay Teachers son plataformas especializadas donde profesores y emprendedores educativos compran y venden recursos digitales. A diferencia de Etsy o Amazon, cada comprador en estas plataformas busque activamente materiales educativos listos para usar. Hotmart domina el mercado latinoamericano con millones de usuarios, Editorial MD atiende específicamente al mercado mexicano y TPT es líder en Estados Unidos. Esta guía le acompaña desde la configuración de su cuenta de vendedor hasta la publicación de recursos optimizados, cubriendo las particularidades de cada plataforma, el formateo adecuado de recursos, estrategia de precios y tácticas de lanzamiento para construir impulso de ventas.',
   },
 

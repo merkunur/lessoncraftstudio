@@ -2,23 +2,24 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Imprimibles infantil — Negocio | LCS',
-    metaDescription: 'Ideas de negocio con imprimibles de infantil para Etsy y Amazon KDP. Fichas de lectoescritura, matemáticas básicas y fonética para jardín de infantes.',
-    primaryKeyword: 'imprimibles de infantil ideas negocio',
+    titleTag: 'Imprimibles de infantil para Etsy | Nicho',
+    metaDescription: 'Ideas de imprimibles de infantil para Etsy y KDP. Lectoescritura, fonética y matemáticas básicas.',
+    primaryKeyword: 'imprimibles de infantil para vender en Etsy',
     secondaryKeywords: [
-      'fichas de jardín de infantes para vender',
-      'negocio imprimibles infantil Etsy',
-      'actividades de kindergarten tiendas digitales',
-      'nicho de infantil imprimibles educativos',
+      'fichas de infantil Etsy KDP',
+      'actividades de kindergarten imprimibles',
+      'negocio imprimibles infantil',
+      'fichas de lectoescritura para vender',
     ],
     lsiKeywords: [
-      'fichas de lectoescritura inicial vendedores',
-      'cuadernillos de matemáticas infantil KDP',
-      'imprimibles de fonética para kindergarten Hotmart',
+      'infantil',
+      'lectoescritura',
+      'fonética',
+      'kindergarten',
     ],
   },
   hero: {
-    title: 'Imprimibles de Infantil: Ideas de Negocio para Vendedores',
+    title: 'Ideas de imprimibles de infantil para vender en Etsy y KDP',
     description: 'El jardín de infantes representa un punto de transición crítico donde los niños pasan del juego libre al aprendizaje estructurado, creando una demanda masiva de fichas educativas entre padres, centros educativos y vendedores del mercado. Lectoescritura inicial, fonética, matemáticas básicas, escritura de números y letras, clasificación y seriación forman los pilares de un catálogo rentable. Esta guía presenta ideas de productos concretos, estrategias por plataforma y tácticas de posicionamiento para construir un negocio de imprimibles de infantil en Etsy, Amazon KDP y Hotmart. Cada generador ofrece una prueba gratis con marca de agua.',
   },
   marketOverview: `El nicho de imprimibles de jardín de infantes ocupa una posición singularmente dominante en el mercado educativo porque sirve al segundo segmento de compradores por grupo de edad más grande con el conjunto de habilidades más académicamente intensivo y orientado a estándares de cualquier nivel de primera infancia. A diferencia del preescolar donde los objetivos de aprendizaje son de desarrollo y flexibles, el catálogo de productos de jardín de infantes está definido por estándares estatales y puntos de referencia de Common Core que crean metas de habilidades específicas y medibles que cada vendedor debe abordar y cada padre puede comprender, haciendo que los imprimibles de jardín de infantes sean inherentemente más dirigidos y más fáciles de posicionar para ventas impulsadas por búsquedas en todos los mercados.

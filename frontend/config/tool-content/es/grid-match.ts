@@ -2,25 +2,26 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'crear cuadriculas de asociación gratis',
+    primaryKeyword: 'dibujo en cuadrícula gratis para imprimir',
     secondaryKeywords: [
-      'cuadriculas de asociación gratis sin registro',
-      'generador de cuadriculas de emparejar gratis',
-      'fichas de cuadricula de asociación gratis en línea',
-      'hojas de cuadricula de asociación gratis para imprimir',
+      'reproducir en cuadrícula gratis',
+      'pixel art gratis para imprimir',
+      'copiar dibujo cuadrícula gratis',
+      'simetría cuadrícula gratis',
     ],
     lsiKeywords: [
-      'actividades de lógica visual para niños',
-      'fichas de cuadricula de emparejamiento imprimibles',
-      'juegos de asociación en cuadricula',
+      'cuadrícula',
+      'reproducir',
+      'copiar',
+      'simetría',
     ],
-    titleTag: 'Cuadriculas de asociación gratis | LCS',
-    metaDescription: 'Cree cuadriculas de asociación gratis con imágenes temáticas. Sin registro, sin tarjeta de crédito. Descargue con marca de agua. Licencia comercial.',
+    titleTag: 'Dibujo en cuadrícula gratis para imprimir | Generador',
+    metaDescription: 'Cree fichas de reproducción en cuadrícula gratis con imágenes temáticas. Sin registro. PDF con marca de agua.',
   },
 
   hero: {
-    title: 'Cree cuadriculas de asociación gratis con imágenes',
-    tagline: 'Fichas de cuadricula para emparejar — gratis y sin registro.',
+    title: 'Dibujo en cuadrícula gratis para imprimir — Generador online',
+    tagline: 'Fichas de reproducción en cuadrícula gratis — con imágenes temáticas.',
     description: 'Cree cuadriculas de asociación gratis donde los niños emparejan imágenes en un formato de cuadricula visual. Este generador produce fichas de asociación en cuadricula con imágenes temáticas de mas de 100 categorias. Seleccione el tamaño de la cuadricula, el nivel de dificultad y el tema visual. Cada ficha incluye solucionario automático y se exporta en PDF listo para imprimir. No necesita registro ni tarjeta de crédito — acceda a todas las funciones al instante. Las descargas incluyen marca de agua transparente. Ideal para padres y educadores que buscan actividades de lógica visual. ¿Quiere vender cuadriculas de asociación? Pase a la licencia comercial para PDFs sin marca de agua a 300 DPI.',
   },
 

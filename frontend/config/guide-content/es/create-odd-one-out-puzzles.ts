@@ -2,25 +2,27 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'crear encuentra el intruso para vender',
+    primaryKeyword: 'cómo crear fichas de encuentra el intruso',
     secondaryKeywords: [
-      'cómo crear fichas de encuentra el intruso',
-      'guía paso a paso puzzles encuentra el diferente',
-      'vender encuentra el intruso en Etsy y KDP',
-      'fichas encuentra el intruso licencia comercial Hotmart',
+      'tutorial encuentra el intruso paso a paso',
+      'crear fichas del intruso para vender',
+      'guía clasificación lógica',
+      'fichas del intruso para Etsy y KDP',
     ],
     lsiKeywords: [
-      'generador de fichas encuentra el intruso temáticas',
-      'puzzles de encuentra el diferente para negocio imprimible',
-      'exportar PDF encuentra el intruso profesionales',
+      'intruso',
+      'clasificación',
+      'lógica',
+      'categoría',
+      'razonamiento',
     ],
-    titleTag: 'Encuentra el intruso para vender | LCS',
-    metaDescription: 'Aprenda a crear fichas de encuentra el intruso para vender en Etsy, KDP y Hotmart. Guía paso a paso con generador profesional y exportación PDF.',
+    titleTag: 'Cómo crear fichas de encuentra el intruso | Guía',
+    metaDescription: 'Guía paso a paso para crear fichas de "encuentra el intruso" con imágenes. Razonamiento lógico, soluciones automáticas.',
   },
 
   hero: {
-    title: 'Cómo crear fichas de encuentra el intruso para vender',
-    tagline: 'Un tutorial paso a paso para crear fichas de discriminación visual con dos modos de generación, anulaciones de modo por ejercicio, claves de respuestas autogeneradas con marcadores de círculo rojo y puzles puramente visuales que puede vender en todo el mundo en Etsy, Amazon KDP y Hotmart',
+    title: 'Cómo crear fichas de encuentra el intruso — Guía',
+    tagline: 'Tutorial para crear fichas de "encuentra el intruso" para razonamiento lógico.',
     description: 'Descubra cómo crear fichas de encuentra el intruso listas para vender en los principales marketplaces de imprimibles. Esta guía paso a paso le enseña a configurar grupos de imágenes, seleccionar temas visuales y generar puzzles con claves de respuestas automáticas. Aprenda a crear variaciones por tema y nivel de dificultad para multiplicar su catálogo de productos educativos. Optimice sus anuncios en Etsy, Amazon KDP y Hotmart para atraer compradores. Todas las funciones están disponibles en la prueba gratis con marca de agua para evaluar la calidad.',
   },
 

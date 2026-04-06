@@ -2,25 +2,26 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'fichas de sombras para vender en Etsy',
+    primaryKeyword: 'asociar sombras para imprimir',
     secondaryKeywords: [
-      'generador de fichas de sombras para vendedores Etsy',
-      'fichas de emparejar sombras para Amazon KDP',
-      'ejercicios de siluetas imprimibles licencia comercial',
-      'crear fichas de shadow match para vender',
+      'juego de sombras ficha',
+      'siluetas para emparejar',
+      'sombras y figuras ficha',
+      'sombras preescolar',
     ],
     lsiKeywords: [
-      'fichas sombras siluetas vendedores preescolar',
-      'ejercicios percepción visual imprimibles KDP',
-      'negocio fichas sombras mercado hispano Etsy',
+      'silueta',
+      'sombra',
+      'asociar',
+      'discriminación visual',
     ],
-    titleTag: 'Fichas de sombras para vender en Etsy | LCS',
-    metaDescription: 'Cree fichas de emparejar sombras para vender en Etsy y KDP. Los niños asocian imágenes con siluetas. Licencia comercial. Pruebe gratis. 49 $ pago unico.',
+    titleTag: 'Asociar sombras para imprimir | Generador de siluetas',
+    metaDescription: 'Cree fichas de asociación de sombras con imágenes y siluetas temáticas. Soluciones automáticas, PDF 300 DPI. Prueba gratis.',
   },
 
   hero: {
-    title: 'Genere fichas de sombras para vender en Etsy, KDP y Hotmart',
-    tagline: 'Cree fichas donde los niños asocian imágenes con sus siluetas — un formato encantador.',
+    title: 'Asociar sombras para imprimir — Generador de siluetas con imágenes',
+    tagline: 'Cree fichas de asociación de sombras con imágenes y siluetas temáticas — soluciones automáticas.',
     description:
       'Genere fichas de emparejar sombras para vender en Etsy, Amazon KDP o Hotmart. Los niños observan imágenes coloridas y las asocian con sus siluetas correspondientes — un ejercicio de percepción visual fundamental para preescolar e infantil. Con más de 3.000 ilustraciones en 104 temas, cree fichas de sombras para cualquier estación o interés. Las fichas de sombras son uno de los formatos más populares en Etsy para educación temprana por su atractivo visual inmediato. Exporte PDFs a 300 DPI con solucionario automático y véndalos con la licencia comercial incluida. El formato es puramente visual — cero barreras de idioma. Pruebe gratis con marca de agua — sin registro.',
   },

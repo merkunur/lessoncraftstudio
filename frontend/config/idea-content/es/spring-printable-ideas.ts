@@ -2,23 +2,24 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Imprimibles primavera — Negocio | LCS',
-    metaDescription: 'Ideas de imprimibles de primavera para Etsy y KDP. Flores, mariposas y jardines — temporada de renovación con alta demanda educativa y decorativa.',
-    primaryKeyword: 'imprimibles de primavera ideas negocio',
+    titleTag: 'Imprimibles de primavera para Etsy | Nicho',
+    metaDescription: 'Ideas de imprimibles de primavera para Etsy y KDP. Flores, insectos y naturaleza.',
+    primaryKeyword: 'imprimibles de primavera para vender',
     secondaryKeywords: [
-      'fichas de primavera para vender Etsy',
-      'negocio imprimibles flores mariposas',
-      'actividades primaverales comerciales KDP',
-      'vender fichas jardín en línea Hotmart',
+      'fichas de primavera Etsy',
+      'actividades primaverales imprimibles',
+      'negocio imprimibles primavera',
+      'fichas de flores para vender',
     ],
     lsiKeywords: [
-      'pico ventas marzo abril imprimibles primavera',
-      'fichas educativas flores insectos vendedores',
-      'productos digitales jardín naturaleza Hotmart',
+      'primavera',
+      'flores',
+      'insectos',
+      'naturaleza',
     ],
   },
   hero: {
-    title: 'Ideas de negocio con imprimibles de primavera para Etsy y KDP',
+    title: 'Ideas de imprimibles de primavera para vender en Etsy y KDP',
     description: 'La primavera es una de las temporadas más rentables para los vendedores de imprimibles educativos. Flores, mariposas, jardines, lluvia y animales bebé generan una demanda que cruza múltiples categorías de productos. Los padres buscan actividades de ciencias naturales sobre crecimiento de plantas y ciclos de vida, mientras que las fichas temáticas de primavera se convierten en las más populares en Etsy desde marzo hasta mayo. Para los vendedores en el mercado hispano, la primavera coincide con la Semana Santa y la planificación del final del curso escolar, creando múltiples oportunidades de venta. Las fichas de primavera también se benefician de una estética visual atractiva que genere más clics y mayores tasas de conversión. Esta guía le presenta ideas de productos, estrategias de lanzamiento estacional y cómo posicionar su tienda en Etsy, KDP y Hotmart.',
   },
   marketOverview: `El nicho de imprimibles de primavera ocupa una posición singularmente ventajosa en el calendario del mercado educativo porque funciona como una amplia categoría estacional en lugar de una festividad de un solo día, dando a los vendedores una ventana de demanda extendida de tres meses que se extiende desde principios de marzo hasta finales de mayo. Los vendedores que emergen del letargo invernal buscan activamente materiales frescos con temática de naturaleza que vuelvan a captar la atención de los usuarios cansados de los temas exclusivamente de interior, y las imágenes primaverales proporcionan la transición perfecta mientras las tiendas cambian hacia contenido integrado con ciencias que cubre ciclos de vida, patrones climáticos, crecimiento de las plantas y hábitats animales. Esta alineación natural entre los temas de primavera y las áreas de productoses fundamentales significa que los compradores pueden justificar las compre de primavera como inversiones educativas en lugar de adiciones puramente decorativas.

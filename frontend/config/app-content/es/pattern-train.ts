@@ -2,25 +2,28 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'fichas de patrones para negocio de imprimibles',
+    primaryKeyword: 'fichas de secuencias para imprimir',
     secondaryKeywords: [
-      'generador de fichas de secuencias para Etsy',
-      'fichas de patrones con imágenes para Amazon KDP',
-      'ejercicios de secuencias lógicas licencia comercial',
-      'crear fichas de patrones para vender online',
+      'series lógicas fichas',
+      'patrones para completar',
+      'algoritmos preescolar fichas',
+      'secuencias lógicas primaria',
     ],
     lsiKeywords: [
-      'fichas patrones secuencias vendedores Etsy',
-      'ejercicios lógica secuencial preescolar KDP',
-      'negocio fichas patrones mercado hispano',
+      'AB',
+      'ABC',
+      'repetir',
+      'continuar',
+      'secuencia',
+      'patrón',
     ],
-    titleTag: 'Fichas de patrones para negocio imprimibles | LCS',
-    metaDescription: 'Cree fichas de patrones y secuencias para vender en Etsy y KDP. Formato tren con imágenes temáticas. Licencia comercial incluida. 49 $ pago unico.',
+    titleTag: 'Fichas de secuencias para imprimir | Generador de series lógicas',
+    metaDescription: 'Cree fichas de secuencias lógicas con patrones AB, ABC, ABCD e imágenes temáticas. Soluciones automáticas. Prueba gratis — venda en Etsy y KDP.',
   },
 
   hero: {
-    title: 'Genere fichas de patrones para vender en Etsy, KDP y Hotmart',
-    tagline: 'Cree fichas de secuencias lógicas en formato tren con imágenes temáticas.',
+    title: 'Fichas de secuencias para imprimir — Generador de series lógicas con imágenes',
+    tagline: 'Cree fichas de secuencias lógicas con patrones AB, ABC, ABCD e imágenes temáticas — soluciones automáticas.',
     description:
       'Genere fichas de patrones para vender en Etsy, Amazon KDP o Hotmart. El formato de tren de patrones presenta secuencias de imágenes que los niños deben continuar — una habilidad matemática fundamental que desarrolla el pensamiento lógico. Con más de 3.000 imágenes en 104 temas, cree fichas de patrones visualmente atractivas para cualquier contexto. Las fichas de patrones y secuencias son un producto de alta demanda para preescolar e infantil. Exporte PDFs a 300 DPI con solucionario automático y véndalos con la licencia comercial incluida. El formato puramente visual funciona en cualquier idioma. Pruebe gratis con marca de agua — sin registro.',
   },

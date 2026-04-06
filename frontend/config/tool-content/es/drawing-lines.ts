@@ -2,25 +2,27 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'generador de fichas de trazo gratis',
+    primaryKeyword: 'fichas de trazos gratis para imprimir',
     secondaryKeywords: [
-      'fichas de trazo gratis sin registro',
-      'generador de fichas de trazado gratis en línea',
-      'fichas de grafomotricidad gratis para imprimir',
-      'hojas de trazo gratis sin tarjeta de crédito',
+      'grafomotricidad trazos gratis',
+      'repasar líneas gratis',
+      'fichas motricidad fina gratis',
+      'líneas punteadas gratis',
     ],
     lsiKeywords: [
-      'fichas de grafomotricidad para preescolar',
-      'actividades de trazado de líneas imprimibles',
-      'hojas de práctica de motricidad fina',
+      'líneas',
+      'curvas',
+      'punteado',
+      'motricidad fina',
+      'preescolar',
     ],
-    titleTag: 'Fichas de trazo gratis en línea | LCS',
-    metaDescription: 'Genere fichas de trazo y grafomotricidad gratis con imágenes. Sin registro, sin tarjeta. Descargue con marca de agua. Licencia comercial.',
+    titleTag: 'Fichas de trazos gratis para imprimir | Generador',
+    metaDescription: 'Cree fichas de trazos y grafomotricidad gratis con imágenes temáticas. Sin registro. PDF con marca de agua.',
   },
 
   hero: {
-    title: 'Genere fichas de trazo y grafomotricidad gratis',
-    tagline: 'Fichas de trazado con imágenes temáticas — gratis y sin registro.',
+    title: 'Fichas de trazos gratis para imprimir — Generador online',
+    tagline: 'Fichas de grafomotricidad y trazos gratis — con imágenes temáticas.',
     description: 'Cree fichas de trazo gratis para practicar grafomotricidad con imágenes temáticas que motivan a los niños. Este generador produce hojas de trazado de líneas rectas, curvas, zigzag y formas básicas con guias visuales. Seleccione el tipo de trazo, el nivel de dificultad y el tema de mas de 100 categorias de imágenes. Cada ficha se exporta en PDF de alta calidad listo para imprimir. No necesita registro ni tarjeta de crédito — todas las funciones disponibles al instante. Las descargas incluyen marca de agua. Ideal para padres de niños en preescolar y educadores de motricidad fina. ¿Quiere vender fichas de trazo? Pase a la licencia comercial para archivos sin marca de agua a 300 DPI.',
   },
 

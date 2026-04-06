@@ -2,25 +2,27 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'abrir tienda de imprimibles en Etsy guía',
+    primaryKeyword: 'cómo abrir tienda Etsy de imprimibles',
     secondaryKeywords: [
-      'cómo abrir tienda Etsy de imprimibles educativos',
-      'configurar tienda Etsy para vender descargue digitales',
-      'guía principiante tienda Etsy imprimibles paso a paso',
-      'primeros pasos vendedor imprimibles en Etsy',
+      'crear tienda Etsy imprimibles paso a paso',
+      'guía Etsy para vendedores de fichas',
+      'abrir tienda Etsy desde cero',
+      'primera tienda Etsy imprimibles',
     ],
     lsiKeywords: [
-      'registro cuenta vendedor Etsy políticas tienda perfil marca',
-      'anuncios descargue digitales configuración entrega automática PDF',
-      'comisiones Etsy tarifa publicación transacción procesamiento pago',
+      'Etsy',
+      'tienda',
+      'configurar',
+      'listados',
+      'primeros pasos',
     ],
-    titleTag: 'Abrir tienda de imprimibles en Etsy | LCS',
-    metaDescription: 'Aprenda a abrir su tienda de imprimibles en Etsy desde cero. Configuración de cuenta, primeros anuncios y estrategia de lanzamiento paso a paso.',
+    titleTag: 'Cómo abrir tienda Etsy de imprimibles | Guía',
+    metaDescription: 'Guía paso a paso para abrir su tienda Etsy de imprimibles desde cero. Configuración, primeros listados y primeras ventas.',
   },
 
   hero: {
-    title: 'Cómo abrir una tienda de imprimibles en Etsy desde cero',
-    tagline: 'Una guía completa a nivel de tienda para lanzar un negocio rentable de imprimibles en Etsy usando 33 generadores de fichas y actividades en 6 categorías de productos — que cubre la creación de cuenta de vendedor Etsy, branding de tienda y políticas de descargue digitales, construcción de su primer inventario de productos desde múltiples categorías de generadores, redacción de anuncios optimizados con las 13 etiquetas, comprensión de las comisiones de Etsy y fijación de precios sostenibles, creación de fotos de anuncios para productos digitales, lanzamiento con suficientes anuncios para ganar tracción en búsquedas, y ejecución de un plan de crecimiento de 30 días que genere reseñas, amplíe su catálogo y establezca su tienda como autoridad en la categoría de fichas imprimibles',
+    title: 'Cómo abrir una tienda Etsy de imprimibles — Guía paso a paso',
+    tagline: 'Desde la configuración hasta los primeros listados y ventas en su tienda Etsy.',
     description: 'Etsy es la plataforma ideal para lanzar un negocio de imprimibles educativos sin inversión inicial significativa. Millones de compradores buscan descargue digitales cada día, y los imprimibles educativos están entre las categorías de mayor crecimiento. Esta guía le acompaña paso a paso desde la creación de su cuenta de vendedor hasta la publicación de sus primeros anuncios optimizados. Aprenda a configurar las políticas de tienda, crear anuncios de descargue digitales con entrega automática, establecer precios competitivos y lanzar con suficientes productos para ganar tracción en el algoritmo de búsqueda de Etsy. Descubra las mejores prácticas para construir una marca reconocible desde el primer día.',
   },
 

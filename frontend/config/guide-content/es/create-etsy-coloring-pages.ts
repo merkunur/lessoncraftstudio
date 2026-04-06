@@ -2,25 +2,28 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'colorear etsy venden crear dibujos',
+    primaryKeyword: 'vender páginas para colorear en Etsy',
     secondaryKeywords: [
-      'cómo crear páginas para colorear vendibles en Etsy',
-      'diseñar dibujos para colorear imprimibles negocio Etsy',
-      'vender dibujos para colorear descargue digital Etsy',
-      'anuncios Etsy páginas para colorear alta conversión',
+      'cómo vender colorear en Etsy',
+      'páginas para colorear Etsy guía',
+      'láminas para colorear Etsy SEO',
+      'negocio colorear Etsy',
     ],
     lsiKeywords: [
-      'dibujos colorear temáticos animales naturaleza mandala infantil PDF',
-      'paquetes colorear festividades Navidad Halloween Pascua estacional',
-      'fotos anuncio mockups páginas colorear tasa clics Etsy',
+      'Etsy',
+      'colorear',
+      'listados',
+      'SEO',
+      'nicho',
+      'precio',
     ],
-    titleTag: 'Colorear que se venden en Etsy | LCS',
-    metaDescription: 'Aprenda a crear dibujos para colorear que se vendan en Etsy. Temas populares, paquetes rentables y optimización de anuncios para máximas ventas.',
+    titleTag: 'Vender páginas para colorear en Etsy | Guía',
+    metaDescription: 'Guía para vender páginas para colorear en Etsy. SEO, listados, precios y estrategia de nicho para su tienda de colorear.',
   },
 
   hero: {
-    title: 'Cómo crear dibujos para colorear rentables para Etsy',
-    tagline: 'Una guía completa de plataforma para construir una tienda Etsy rentable vendiendo páginas para colorear creadas a partir de 104 bibliotecas de imágenes temáticas — incluyendo configuración de tienda Etsy, optimización SEO con las 13 etiquetas, títulos y descripciones de anuncios que posicionan para términos de búsqueda de compradores de páginas para colorear, fotografía de productos mostrando arte lineal B/N y variedad temática, estrategias de precios para páginas individuales y colecciones temáticas, temporalidad estacional para picos de demanda festivos y de vuelta al cole, planificación del catálogo para demografías infantiles y adultas, oportunidades cruzadas con libros para colorear KDP, y optimización continua de la tienda usando Etsy Stats y analíticas de búsqueda',
+    title: 'Vender páginas para colorear en Etsy — Guía completa',
+    tagline: 'SEO, listados, precios y estrategia de nicho para su tienda de colorear en Etsy.',
     description: 'Las páginas para colorear son una de las categorías de imprimibles con mayor demanda en Etsy. Padres, profesores y adultos buscan dibujos para colorear temáticos durante todo el año, con picos estacionales en festividades como Navidad, Halloween y Pascua. Esta guía le muestra cómo crear dibujos para colorear que destaquen en un mercado competitivo, empaquetar sus diseños en paquetes temáticos atractivos, escribir anuncios que se posicionen en la búsqueda de Etsy y fijar precios que equilibren competitividad con rentabilidad. Descubra cómo los generadores de dibujos y colorear de LessonCraftStudio le permiten producir contenido profesional eficientemente para construir un catálogo diverso.',
   },
 

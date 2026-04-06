@@ -2,23 +2,24 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Imprimibles construcción para vender | LCS',
-    metaDescription: 'Ideas de de construcción para vender en Etsy, Amazon KDP y Hotmart. Fichas de vehículos de obra, actividades STEM y estrategias de nicho perenne.',
-    primaryKeyword: 'imprimibles de construcción para vender',
+    titleTag: 'Imprimibles de construcción para Etsy | Nicho',
+    metaDescription: 'Ideas de imprimibles de construcción para Etsy y KDP. Excavadoras, grúas y vehículos de obra perennes.',
+    primaryKeyword: 'imprimibles de construcción para vender en Etsy',
     secondaryKeywords: [
-      'fichas de construcción negocio imprimibles',
-      'vender imprimibles de vehículos de obra',
-      'actividades de construcción para tiendas Etsy',
-      'nicho de construcción imprimibles educativos',
+      'fichas de construcción Etsy KDP',
+      'actividades de obras imprimibles',
+      'negocio imprimibles construcción',
+      'fichas de excavadoras para vender',
     ],
     lsiKeywords: [
-      'fichas STEM maquinaria pesada vendedores',
-      'cuadernillos de obras y vehículos KDP',
-      'imprimibles de excavadoras y grúas Hotmart',
+      'construcción',
+      'excavadoras',
+      'grúas',
+      'vehículos',
     ],
   },
   hero: {
-    title: 'Imprimibles de Construcción para Vender: Ideas de Negocio',
+    title: 'Ideas de imprimibles de construcción para vender en Etsy y KDP',
     description: 'La construcción es uno de los temas más universalmente atractivos para niños, lo que lo convierte en un nicho perenne excepcional para emprendedores de imprimibles. Excavadoras, grúas, bulldozers, camiones volquete y cascos de seguridad crean un vocabulario visual inagotable que conecta con las matemáticas, la lectoescritura y el aprendizaje STEM. Esta guía cubre ideas de productos específicos, estrategias por plataforma y enfoques de posicionamiento para construir una línea rentable de imprimibles de construcción en Etsy, Amazon KDP y Hotmart. Cada generador de fichas mencionado ofrece una prueba gratis con marca de agua para que evalúe la calidad antes de comprar una licencia comercial.',
   },
   marketOverview: `El nicho de imprimibles de construcción ocupa una posición excepcionalmente poderosa para los vendedores de imprimibles porque prácticamente todos los niños pequeños tienen una fascinación directa y visceral con los vehículos de construcción, las obras y la transformación visible de las estructuras que toman forma en sus vecindarios y comunidades. A diferencia de los temas estacionales que concentran la demanda en ventanas estrechas del calendario, el nicho de construcción se beneficia de una relevancia genuina durante todo el año: los proyectos de construcción operan continuamente independientemente de la estación, los niños encuentran equipamiento de construcción durante sus rutinas diarias, y el juego de construcción con vehículos de juguete y bloques sigue siendo una actividad perenne favorita que trasciende el clima y los eventos del calendario. Este patrón de demanda consistente hace que los imprimibles de construcción sean una fuente de ingresos confiable sin los ciclos de abundancia y escasez que desafían a los vendedores en nichos más estacionales.

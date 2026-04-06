@@ -2,25 +2,27 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'generador de rompecabezas matemáticos para vender en Etsy',
+    primaryKeyword: 'puzzles matemáticos para imprimir',
     secondaryKeywords: [
-      'crear puzzles de matemáticas para tienda Etsy',
-      'rompecabezas de cuadrícula matemática para Amazon KDP',
-      'fichas de puzzles numéricos licencia comercial',
-      'generar rompecabezas de lógica matemática para vender',
+      'acertijos de matemáticas fichas',
+      'juegos de matemáticas para imprimir',
+      'rompecabezas de sumas',
+      'enigmas matemáticos primaria',
     ],
     lsiKeywords: [
-      'puzzles matemáticos cuadrícula vendedores Etsy',
-      'rompecabezas educativos imprimibles KDP Hotmart',
-      'fichas lógica matemática negocio imprimibles',
+      'acertijo',
+      'imágenes',
+      'asociar',
+      'lógica',
+      'razonar',
     ],
-    titleTag: 'Rompecabezas de mates para vender en Etsy | LCS',
-    metaDescription: 'Cree rompecabezas matemáticos de cuadrícula para vender en Etsy y KDP. Formato puzzle único con imágenes temáticas. Licencia comercial. 49 $ pago unico.',
+    titleTag: 'Puzzles matemáticos para imprimir | Generador de acertijos',
+    metaDescription: 'Cree puzzles matemáticos con imágenes donde los niños resuelven operaciones para asociar imágenes. Soluciones incluidas. Prueba gratis.',
   },
 
   hero: {
-    title: 'Genere rompecabezas matemáticos para vender en Etsy, KDP y Hotmart',
-    tagline: 'Cree puzzles de cuadrícula con imágenes temáticas que se destacan en los listados.',
+    title: 'Puzzles matemáticos para imprimir — Generador de acertijos con imágenes',
+    tagline: 'Cree puzzles matemáticos con imágenes temáticas — los niños resuelven operaciones para asociar imágenes.',
     description:
       'Genere rompecabezas matemáticos de cuadrícula para vender en Etsy, Amazon KDP o Hotmart. Este generador crea puzzles donde los niños resuelven operaciones para completar cuadrículas — un formato más atractivo que las fichas de ejercicios tradicionales. Seleccione imágenes de más de 3.000 ilustraciones en 104 temas para crear rompecabezas visualmente irresistibles que se destacan en los resultados de búsqueda. Exporte PDFs a 300 DPI con solucionario automático y véndalos con licencia comercial. Los rompecabezas matemáticos tienen una ventaja competitiva en Etsy: los compradores los perciben como más divertidos que las fichas estándar y pagan precios más altos. Ideal para cuadernillos de actividades en Amazon KDP. Pruebe gratis con marca de agua — sin registro.',
   },

@@ -2,25 +2,27 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'crear fichas de sumas para vender',
+    primaryKeyword: 'cómo crear fichas de sumas para imprimir',
     secondaryKeywords: [
-      'cómo crear fichas de sumas imprimibles',
-      'guía paso a paso fichas de sumas',
-      'vender fichas de sumas en Etsy y KDP',
-      'fichas de sumas con licencia comercial Hotmart',
+      'tutorial fichas de sumas paso a paso',
+      'crear fichas de sumas para vender',
+      'guía fichas de sumas con imágenes',
+      'fichas de sumas para Etsy y KDP',
     ],
     lsiKeywords: [
-      'generador de fichas de adición con imágenes',
-      'fichas de matemáticas para negocio de imprimibles',
-      'exportar PDF fichas de sumas profesionales',
+      'sumas',
+      'imágenes',
+      'soluciones',
+      'primaria',
+      'PDF',
     ],
-    titleTag: 'Crear fichas de sumas para vender | LCS',
-    metaDescription: 'Aprenda a crear fichas de sumas para vender en Etsy, KDP y Hotmart. Guía paso a paso con generador profesional y licencia comercial incluida.',
+    titleTag: 'Cómo crear fichas de sumas para imprimir | Guía',
+    metaDescription: 'Guía paso a paso para crear fichas de sumas con imágenes temáticas. Tutorial completo con soluciones automáticas y exportación PDF.',
   },
 
   hero: {
-    title: 'Cómo crear fichas de sumas profesionales para vender',
-    tagline: 'Un tutorial paso a paso para crear fichas de sumas temáticas, listas para imprimir, que puede vender en Etsy, Amazon KDP y Hotmart',
+    title: 'Cómo crear fichas de sumas para imprimir — Guía paso a paso',
+    tagline: 'Tutorial completo para crear fichas de sumas con imágenes temáticas y soluciones automáticas.',
     description: 'Descubra cómo crear fichas de sumas listas para vender en los principales marketplaces de imprimibles educativos. Esta guía paso a paso le enseña a configurar niveles de dificultad, elegir temas visuales atractivos y exportar archivos PDF de calidad profesional con claves de respuestas automáticas. Aprenda a generar variaciones de producto que multipliquen su catálogo, fijar precios competitivos y optimizar sus anuncios en Etsy, Amazon KDP y Hotmart. Todas las funciones están disponibles en la prueba gratis con marca de agua para que evalúe la calidad antes de comprar su licencia comercial.',
   },
 

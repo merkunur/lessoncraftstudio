@@ -2,25 +2,27 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'de ingreso extra a negocio de imprimibles a tiempo completo',
+    primaryKeyword: 'escalar negocio de imprimibles',
     secondaryKeywords: [
-      'escalar negocio de imprimibles educativos',
-      'cómo crecer un negocio de fichas imprimibles',
-      'de hobby a negocio completo imprimibles',
-      'automatizar negocio de fichas digitales',
+      'crecer negocio fichas educativas',
+      'escalar ventas Etsy imprimibles',
+      'automatizar negocio imprimibles',
+      'multiplicar ingresos imprimibles',
     ],
     lsiKeywords: [
-      'delegación y automatización negocio imprimibles',
-      'múltiples canales de venta fichas educativas',
-      'ingresos a tiempo completo con imprimibles',
+      'escalar',
+      'automatizar',
+      'crecer',
+      'eficiencia',
+      'delegación',
     ],
-    titleTag: 'De ingreso extra a negocio completo | LCS',
-    metaDescription: 'Cómo escalar de un ingreso extra a un negocio de a tiempo completo. Automatización, múltiples canales y estrategias de crecimiento para vendedores.',
+    titleTag: 'Escalar su negocio de imprimibles | Estrategias',
+    metaDescription: 'Estrategias probadas para escalar su negocio de imprimibles. Automatización, eficiencia y crecimiento para Etsy y KDP.',
   },
 
   hero: {
-    title: 'De Ingreso Extra a Negocio de Imprimibles a Tiempo Completo',
-    tagline: 'El camino probado para escalar de las primeras ventas a un negocio que reemplace su sueldo',
+    title: 'Escalar su negocio de imprimibles — Estrategias de crecimiento',
+    tagline: 'Automatización, eficiencia y crecimiento para multiplicar sus ventas de imprimibles.',
     description: 'Muchos vendedores de imprimibles comienzan como un proyecto secundario y se preguntan si es posible convertirlo en su fuente principal de ingresos. La respuesta es sí, pero requiere una estrategia deliberada de escalamiento que va más allá de crear más productos. Esta guía cubre la transición de ingreso extra a negocio a tiempo completo: automatización de procesos, expansión a múltiples canales de venta, diversificación de productos, delegación de tareas y gestión financiera para sostener el crecimiento. Aprenderá el cronograma realista y los hitos clave de cada etapa. Cada generador ofrece una prueba gratis con marca de agua.',
   },
 

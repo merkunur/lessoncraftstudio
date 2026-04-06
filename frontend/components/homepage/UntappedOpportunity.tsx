@@ -56,50 +56,50 @@ const localeContent: Record<string, {
     advantages: [
       {
         icon: '\uD83C\uDF0D',
-        title: 'Wenig Konkurrenz in nicht-englischen Maerkten',
-        description: 'Die meisten Verkaeufer zielen nur auf Englisch ab. Mit 11 integrierten Sprachen dominieren Sie deutsche, franzoesische, spanische und 8 weitere Maerkte.',
+        title: 'Wenig Konkurrenz in nicht-englischen Märkten',
+        description: 'Die meisten Verkäufer zielen nur auf Englisch ab. Mit 11 integrierten Sprachen dominieren Sie deutsche, französische, spanische und 8 weitere Märkte.',
       },
       {
         icon: '\u267E\uFE0F',
         title: 'Dauerhafte Nachfrage, kein Lager',
-        description: 'Paedagogische Druckvorlagen verkaufen sich das ganze Jahr. Erstellen Sie ein Arbeitsblatt einmal und verkaufen Sie unbegrenzt digitale Kopien.',
+        description: 'Pädagogische Druckvorlagen verkaufen sich das ganze Jahr. Erstellen Sie ein Arbeitsblatt einmal und verkaufen Sie unbegrenzt digitale Kopien.',
       },
       {
         icon: '\u2728',
-        title: 'Professionelle Qualitaet, keine Designkenntnisse',
-        description: '300 DPI druckfertige PDFs mit ueber 3.000 thematischen Bildern und automatischen Loesungsschluesseln. Ihre Produkte sehen professionell aus.',
+        title: 'Professionelle Qualität, keine Designkenntnisse',
+        description: '300 DPI druckfertige PDFs mit über 3.000 thematischen Bildern und automatischen Lösungsschlüsseln. Ihre Produkte sehen professionell aus.',
       },
       {
         icon: '\uD83D\uDCBC',
         title: 'Kommerzielle Lizenz inklusive',
-        description: 'Verkaufen Sie auf Etsy, Amazon KDP, Teachers Pay Teachers oder Ihrer eigenen Website. Volle kommerzielle Rechte -- keine Quellenangabe noetig.',
+        description: 'Verkaufen Sie auf Etsy, Amazon KDP, Teachers Pay Teachers oder Ihrer eigenen Website. Volle kommerzielle Rechte -- keine Quellenangabe nötig.',
       },
     ],
     trustItems: [
-      'Keine monatlichen Gebuehren',
+      'Keine monatlichen Gebühren',
       'Unbegrenzte Downloads mit Lizenz',
-      'Automatische Loesungsschluessel',
+      'Automatische Lösungsschlüssel',
     ],
   },
   fr: {
-    badge: 'L\'opportunite inexploitee',
+    badge: 'L\'opportunité inexploitée',
     title: 'Pourquoi les business d\'imprimables fonctionnent',
-    subtitle: 'Faibles couts de demarrage, zero stock, demande constante. Voici pourquoi des milliers d\'entrepreneurs creent des business d\'imprimables.',
+    subtitle: 'Faibles coûts de démarrage, zéro stock, demande constante. Voici pourquoi des milliers d\'entrepreneurs créent des business d\'imprimables.',
     advantages: [
       {
         icon: '\uD83C\uDF0D',
-        title: 'Peu de concurrence hors marche anglophone',
-        description: 'La plupart des vendeurs ne ciblent que l\'anglais. Avec 11 langues integrees, dominez les marches allemand, francais, espagnol et 8 autres.',
+        title: 'Peu de concurrence hors marché anglophone',
+        description: 'La plupart des vendeurs ne ciblent que l\'anglais. Avec 11 langues intégrées, dominez les marchés allemand, français, espagnol et 8 autres.',
       },
       {
         icon: '\u267E\uFE0F',
-        title: 'Demande perenne, zero stock',
-        description: 'Les imprimables educatifs se vendent toute l\'annee. Creez une fiche une fois et vendez des copies numeriques a l\'infini. Ni envoi, ni stockage.',
+        title: 'Demande pérenne, zéro stock',
+        description: 'Les imprimables éducatifs se vendent toute l\'année. Créez une fiche une fois et vendez des copies numériques à l\'infini. Ni envoi, ni stockage.',
       },
       {
         icon: '\u2728',
-        title: 'Qualite professionnelle, aucune competence design',
-        description: 'PDFs prets a imprimer en 300 DPI avec plus de 3 000 images thematiques et corriges automatiques. Vos produits ont l\'air professionnels.',
+        title: 'Qualité professionnelle, aucune compétence design',
+        description: 'PDFs prêts à imprimer en 300 DPI avec plus de 3 000 images thématiques et corrigés automatiques. Vos produits ont l\'air professionnels.',
       },
       {
         icon: '\uD83D\uDCBC',
@@ -109,46 +109,46 @@ const localeContent: Record<string, {
     ],
     trustItems: [
       'Pas de frais mensuels',
-      'Telechargements illimites avec licence',
-      'Corriges automatiques',
+      'Téléchargements illimités avec licence',
+      'Corrigés automatiques',
     ],
   },
   es: {
     badge: 'La oportunidad sin explotar',
-    title: 'Por que funcionan los negocios de imprimibles',
+    title: 'Por qué funcionan los negocios de imprimibles',
     subtitle: 'Bajos costes iniciales, cero inventario y demanda constante. Por eso miles de emprendedores crean negocios de imprimibles.',
     advantages: [
       {
         icon: '\uD83C\uDF0D',
         title: 'Poca competencia en mercados no ingleses',
-        description: 'La mayoria de vendedores solo se dirigen al publico anglofono. Con 11 idiomas integrados, domina los mercados aleman, frances, espanol y 8 mas.',
+        description: 'La mayoría de vendedores solo se dirigen al público anglófono. Con 11 idiomas integrados, domina los mercados alemán, francés, español y 8 más.',
       },
       {
         icon: '\u267E\uFE0F',
         title: 'Demanda constante, cero inventario',
-        description: 'Los imprimibles educativos se venden todo el ano. Crea una ficha una vez y vende copias digitales ilimitadas. Sin envios, sin almacen.',
+        description: 'Los imprimibles educativos se venden todo el año. Crea una ficha una vez y vende copias digitales ilimitadas. Sin envíos, sin almacén.',
       },
       {
         icon: '\u2728',
-        title: 'Calidad profesional, sin habilidades de diseno',
-        description: 'PDFs listos para imprimir a 300 DPI con mas de 3.000 imagenes tematicas y respuestas automaticas. Tus productos parecen profesionales.',
+        title: 'Calidad profesional, sin habilidades de diseño',
+        description: 'PDFs listos para imprimir a 300 DPI con más de 3.000 imágenes temáticas y respuestas automáticas. Tus productos parecen profesionales.',
       },
       {
         icon: '\uD83D\uDCBC',
         title: 'Licencia comercial incluida',
-        description: 'Vende en Etsy, Amazon KDP, Teachers Pay Teachers o tu propio sitio web. Derechos comerciales completos -- sin necesidad de atribucion.',
+        description: 'Vende en Etsy, Amazon KDP, Teachers Pay Teachers o tu propio sitio web. Derechos comerciales completos -- sin necesidad de atribución.',
       },
     ],
     trustItems: [
       'Sin cuotas mensuales',
       'Descargas ilimitadas con licencia',
-      'Respuestas automaticas',
+      'Respuestas automáticas',
     ],
   },
   it: {
-    badge: 'L\'opportunita inesplorata',
-    title: 'Perche i business di stampabili funzionano',
-    subtitle: 'Bassi costi iniziali, zero inventario e domanda costante. Ecco perche migliaia di imprenditori creano business di stampabili.',
+    badge: 'L\'opportunità inesplorata',
+    title: 'Perché i business di stampabili funzionano',
+    subtitle: 'Bassi costi iniziali, zero inventario e domanda costante. Ecco perché migliaia di imprenditori creano business di stampabili.',
     advantages: [
       {
         icon: '\uD83C\uDF0D',
@@ -162,7 +162,7 @@ const localeContent: Record<string, {
       },
       {
         icon: '\u2728',
-        title: 'Qualita professionale, nessuna competenza di design',
+        title: 'Qualità professionale, nessuna competenza di design',
         description: 'PDF pronti per la stampa a 300 DPI con oltre 3.000 immagini tematiche e soluzioni automatiche. I tuoi prodotti sembrano professionali.',
       },
       {
@@ -179,34 +179,34 @@ const localeContent: Record<string, {
   },
   pt: {
     badge: 'A oportunidade inexplorada',
-    title: 'Por que negocios de imprimiveis funcionam',
-    subtitle: 'Baixos custos iniciais, zero estoque e demanda constante. Por isso milhares de empreendedores criam negocios de imprimiveis.',
+    title: 'Por que negócios de imprimíveis funcionam',
+    subtitle: 'Baixos custos iniciais, zero estoque e demanda constante. Por isso milhares de empreendedores criam negócios de imprimíveis.',
     advantages: [
       {
         icon: '\uD83C\uDF0D',
-        title: 'Pouca concorrencia em mercados nao anglofanos',
-        description: 'A maioria dos vendedores so atende o publico anglofono. Com 11 idiomas integrados, domine os mercados alemao, frances, espanhol e mais 8.',
+        title: 'Pouca concorrência em mercados não anglófonos',
+        description: 'A maioria dos vendedores só atende o público anglófono. Com 11 idiomas integrados, domine os mercados alemão, francês, espanhol e mais 8.',
       },
       {
         icon: '\u267E\uFE0F',
         title: 'Demanda constante, zero estoque',
-        description: 'Imprimiveis educativos vendem o ano todo. Crie uma atividade uma vez e venda copias digitais ilimitadas. Sem envio, sem armazenamento.',
+        description: 'Imprimíveis educativos vendem o ano todo. Crie uma atividade uma vez e venda cópias digitais ilimitadas. Sem envio, sem armazenamento.',
       },
       {
         icon: '\u2728',
         title: 'Qualidade profissional, sem habilidades de design',
-        description: 'PDFs prontos para impressao a 300 DPI com mais de 3.000 imagens tematicas e gabaritos automaticos. Seus produtos parecem profissionais.',
+        description: 'PDFs prontos para impressão a 300 DPI com mais de 3.000 imagens temáticas e gabaritos automáticos. Seus produtos parecem profissionais.',
       },
       {
         icon: '\uD83D\uDCBC',
-        title: 'Licenca comercial inclusa',
-        description: 'Venda no Etsy, Amazon KDP, Teachers Pay Teachers ou seu proprio site. Direitos comerciais completos -- sem necessidade de atribuicao.',
+        title: 'Licença comercial inclusa',
+        description: 'Venda no Etsy, Amazon KDP, Teachers Pay Teachers ou seu próprio site. Direitos comerciais completos -- sem necessidade de atribuição.',
       },
     ],
     trustItems: [
       'Sem taxas mensais',
-      'Downloads ilimitados com licenca',
-      'Gabaritos automaticos',
+      'Downloads ilimitados com licença',
+      'Gabaritos automáticos',
     ],
   },
   nl: {
@@ -222,7 +222,7 @@ const localeContent: Record<string, {
       {
         icon: '\u267E\uFE0F',
         title: 'Constante vraag, geen voorraad',
-        description: 'Educatieve printables verkopen het hele jaar door. Maak een werkblad eenmalig en verkoop onbeperkt digitale kopieeen. Geen verzending, geen opslag.',
+        description: 'Educatieve printables verkopen het hele jaar door. Maak een werkblad eenmalig en verkoop onbeperkt digitale kopieën. Geen verzending, geen opslag.',
       },
       {
         icon: '\u2728',
@@ -231,8 +231,8 @@ const localeContent: Record<string, {
       },
       {
         icon: '\uD83D\uDCBC',
-        title: 'Commerciele licentie inbegrepen',
-        description: 'Verkoop op Etsy, Amazon KDP, Teachers Pay Teachers of je eigen website. Volledige commerciele rechten -- geen bronvermelding nodig.',
+        title: 'Commerciële licentie inbegrepen',
+        description: 'Verkoop op Etsy, Amazon KDP, Teachers Pay Teachers of je eigen website. Volledige commerciële rechten -- geen bronvermelding nodig.',
       },
     ],
     trustItems: [
@@ -244,81 +244,81 @@ const localeContent: Record<string, {
   da: {
     badge: 'Den uudnyttede mulighed',
     title: 'Hvorfor printable-virksomheder virker',
-    subtitle: 'Lave startomkostninger, intet lager og konstant eftersporgsel. Derfor bygger tusindvis af ivaerksaettere printable-virksomheder.',
+    subtitle: 'Lave startomkostninger, intet lager og konstant efterspørgsel. Derfor bygger tusindvis af iværksættere printable-virksomheder.',
     advantages: [
       {
         icon: '\uD83C\uDF0D',
-        title: 'Lav konkurrence paa ikke-engelske markeder',
-        description: 'De fleste saelgere henvender sig kun til engelsktalende. Med 11 indbyggede sprog kan du dominere tyske, franske, spanske og 8 andre markeder.',
+        title: 'Lav konkurrence på ikke-engelske markeder',
+        description: 'De fleste sælgere henvender sig kun til engelsktalende. Med 11 indbyggede sprog kan du dominere tyske, franske, spanske og 8 andre markeder.',
       },
       {
         icon: '\u267E\uFE0F',
-        title: 'Konstant eftersporgsel, intet lager',
-        description: 'Paedagogiske printables saelges hele aaret. Opret et opgaveark en gang og saelg ubegracnsede digitale kopier for evigt. Ingen forsendelse, ingen opbevaring.',
+        title: 'Konstant efterspørgsel, intet lager',
+        description: 'Pædagogiske printables sælges hele året. Opret et opgaveark en gang og sælg ubegrænsede digitale kopier for evigt. Ingen forsendelse, ingen opbevaring.',
       },
       {
         icon: '\u2728',
-        title: 'Professionel kvalitet, ingen designfaerdigheder',
+        title: 'Professionel kvalitet, ingen designfærdigheder',
         description: 'Printklare 300 DPI PDFs med over 3.000 tematiske billeder og automatiske facitlister. Dine produkter ser professionelle ud.',
       },
       {
         icon: '\uD83D\uDCBC',
         title: 'Kommerciel licens inkluderet',
-        description: 'Saelg paa Etsy, Amazon KDP, Teachers Pay Teachers eller din egen hjemmeside. Fulde kommercielle rettigheder -- ingen kildeangivelse paakraevet.',
+        description: 'Sælg på Etsy, Amazon KDP, Teachers Pay Teachers eller din egen hjemmeside. Fulde kommercielle rettigheder -- ingen kildeangivelse påkrævet.',
       },
     ],
     trustItems: [
-      'Ingen maanedlige gebyrer',
-      'Ubegracnsede downloads med licens',
+      'Ingen månedlige gebyrer',
+      'Ubegrænsede downloads med licens',
       'Automatiske facitlister',
     ],
   },
   sv: {
-    badge: 'Den outnyttjade moejligheten',
-    title: 'Varfoer utskriftsfoereag fungerar',
-    subtitle: 'Laaga startkostnader, inget lager och konstant efterfraagan. Daefoer bygger tusentals entreprenoerer utskriftsfoereag.',
+    badge: 'Den outnyttjade möjligheten',
+    title: 'Varför utskriftsföretag fungerar',
+    subtitle: 'Låga startkostnader, inget lager och konstant efterfrågan. Därför bygger tusentals entreprenörer utskriftsföretag.',
     advantages: [
       {
         icon: '\uD83C\uDF0D',
-        title: 'Laag konkurrens paa icke-engelska marknader',
-        description: 'De flesta saeljare riktar sig bara till engelsktalande. Med 11 inbyggda spraak kan du dominera tyska, franska, spanska och 8 andra marknader.',
+        title: 'Låg konkurrens på icke-engelska marknader',
+        description: 'De flesta säljare riktar sig bara till engelsktalande. Med 11 inbyggda språk kan du dominera tyska, franska, spanska och 8 andra marknader.',
       },
       {
         icon: '\u267E\uFE0F',
-        title: 'Konstant efterfraagan, inget lager',
-        description: 'Pedagogiska utskrifter saeljs aaaret runt. Skapa ett arbetsblad en gaang och saelj obegraensade digitala kopior foer alltid. Ingen frakt, ingen lagring.',
+        title: 'Konstant efterfrågan, inget lager',
+        description: 'Pedagogiska utskrifter säljs året runt. Skapa ett arbetsblad en gång och sälj obegränsade digitala kopior för alltid. Ingen frakt, ingen lagring.',
       },
       {
         icon: '\u2728',
         title: 'Professionell kvalitet, inga designkunskaper',
-        description: 'Utskriftsklara 300 DPI PDFs med oever 3 000 tematiska bilder och automatiska facit. Dina produkter ser professionella ut.',
+        description: 'Utskriftsklara 300 DPI PDFs med över 3 000 tematiska bilder och automatiska facit. Dina produkter ser professionella ut.',
       },
       {
         icon: '\uD83D\uDCBC',
-        title: 'Kommersiell licens ingaar',
-        description: 'Saelj paa Etsy, Amazon KDP, Teachers Pay Teachers eller din egen webbplats. Fullstaendiga kommersiella raettigheter -- ingen kaellhaenvisning kraevs.',
+        title: 'Kommersiell licens ingår',
+        description: 'Sälj på Etsy, Amazon KDP, Teachers Pay Teachers eller din egen webbplats. Fullständiga kommersiella rättigheter -- ingen källhänvisning krävs.',
       },
     ],
     trustItems: [
-      'Inga maanadsavgifter',
-      'Obegraensade nedladdningar med licens',
+      'Inga månadsavgifter',
+      'Obegränsade nedladdningar med licens',
       'Automatiska facit',
     ],
   },
   no: {
     badge: 'Den uutnyttede muligheten',
     title: 'Hvorfor utskriftsvirksomheter fungerer',
-    subtitle: 'Lave oppstartskostnader, null lager og konstant etterspoorsel. Derfor bygger tusenvis av grunndere utskriftsvirksomheter.',
+    subtitle: 'Lave oppstartskostnader, null lager og konstant etterspørsel. Derfor bygger tusenvis av gründere utskriftsvirksomheter.',
     advantages: [
       {
         icon: '\uD83C\uDF0D',
         title: 'Lav konkurranse i ikke-engelske markeder',
-        description: 'De fleste selgere retter seg bare mot engelsktalende. Med 11 innebygde spraak kan du dominere tyske, franske, spanske og 8 andre markeder.',
+        description: 'De fleste selgere retter seg bare mot engelsktalende. Med 11 innebygde språk kan du dominere tyske, franske, spanske og 8 andre markeder.',
       },
       {
         icon: '\u267E\uFE0F',
-        title: 'Konstant etterspoorsel, null lager',
-        description: 'Pedagogiske utskrifter selges hele aaret. Lag et arbeidsark en gang og selg ubegrensede digitale kopier for alltid. Ingen frakt, ingen lagring.',
+        title: 'Konstant etterspørsel, null lager',
+        description: 'Pedagogiske utskrifter selges hele året. Lag et arbeidsark en gang og selg ubegrensede digitale kopier for alltid. Ingen frakt, ingen lagring.',
       },
       {
         icon: '\u2728',
@@ -328,44 +328,44 @@ const localeContent: Record<string, {
       {
         icon: '\uD83D\uDCBC',
         title: 'Kommersiell lisens inkludert',
-        description: 'Selg paa Etsy, Amazon KDP, Teachers Pay Teachers eller din egen nettside. Fulle kommersielle rettigheter -- ingen kildeangivelse noedvendig.',
+        description: 'Selg på Etsy, Amazon KDP, Teachers Pay Teachers eller din egen nettside. Fulle kommersielle rettigheter -- ingen kildeangivelse nødvendig.',
       },
     ],
     trustItems: [
-      'Ingen maanedlige avgifter',
+      'Ingen månedlige avgifter',
       'Ubegrensede nedlastinger med lisens',
       'Automatisk fasit',
     ],
   },
   fi: {
-    badge: 'Hyoedyntaemaetoen mahdollisuus',
+    badge: 'Hyödyntämätön mahdollisuus',
     title: 'Miksi tulostettavien liiketoiminta toimii',
-    subtitle: 'Matalat aloituskustannukset, ei varastoa ja jatkuva kysynta. Siksi tuhannet yrittajaet rakentavat tulostettavien liiketoimintaa.',
+    subtitle: 'Matalat aloituskustannukset, ei varastoa ja jatkuva kysyntä. Siksi tuhannet yrittäjät rakentavat tulostettavien liiketoimintaa.',
     advantages: [
       {
         icon: '\uD83C\uDF0D',
-        title: 'Vaehaeinen kilpailu ei-englanninkielisillae markkinoilla',
-        description: 'Useimmat myyjat kohdentavat vain englanninkielisille. 11 sisaanrakennetulla kielellae voit hallita saksalaisia, ranskalaisia, espanjalaisia ja 8 muuta markkinaa.',
+        title: 'Vähäinen kilpailu ei-englanninkielisillä markkinoilla',
+        description: 'Useimmat myyjät kohdentavat vain englanninkielisille. 11 sisäänrakennetulla kielellä voit hallita saksalaisia, ranskalaisia, espanjalaisia ja 8 muuta markkinaa.',
       },
       {
         icon: '\u267E\uFE0F',
-        title: 'Jatkuva kysynta, ei varastoa',
-        description: 'Opetukselliset tulostettavat myyvat ympari vuoden. Luo tehtava kerran ja myy rajattomasti digitaalisia kopioita ikuisesti. Ei toimitusta, ei varastointia.',
+        title: 'Jatkuva kysyntä, ei varastoa',
+        description: 'Opetukselliset tulostettavat myyvät ympäri vuoden. Luo tehtävä kerran ja myy rajattomasti digitaalisia kopioita ikuisesti. Ei toimitusta, ei varastointia.',
       },
       {
         icon: '\u2728',
         title: 'Ammattimainen laatu, ei suunnittelutaitoja',
-        description: 'Tulostusvalmiit 300 DPI PDF-tiedostot yli 3 000 teemakuvalla ja automaattisilla vastauslomakkeilla. Tuotteesi naeyttaevat ammattimaisilta.',
+        description: 'Tulostusvalmiit 300 DPI PDF-tiedostot yli 3 000 teemakuvalla ja automaattisilla vastauslomakkeilla. Tuotteesi näyttävät ammattimaisilta.',
       },
       {
         icon: '\uD83D\uDCBC',
-        title: 'Kaupallinen lisenssi sisaeltyy',
-        description: 'Myy Etsyssa, Amazon KDP:ssa, Teachers Pay Teachersissa tai omalla verkkosivullasi. Taedet kaupalliset oikeudet -- laehdemainintaa ei vaadita.',
+        title: 'Kaupallinen lisenssi sisältyy',
+        description: 'Myy Etsyssä, Amazon KDP:ssä, Teachers Pay Teachersissä tai omalla verkkosivullasi. Täydet kaupalliset oikeudet -- lähdemainintaa ei vaadita.',
       },
     ],
     trustItems: [
       'Ei kuukausimaksuja',
-      'Rajoittamattomat lataukset lisenssillae',
+      'Rajoittamattomat lataukset lisenssillä',
       'Automaattiset vastauslomakkeet',
     ],
   },

@@ -46,7 +46,7 @@ const localeContent: Record<string, {
   de: {
     badge: 'Einfache Preise',
     title: 'Keine Abonnements. Einmalige Zahlung.',
-    subtitle: 'Testen Sie vor dem Kauf. Alle 33 Generatoren sind als kostenlose Testversion mit Wasserzeichen verfuegbar.',
+    subtitle: 'Testen Sie vor dem Kauf. Alle 33 Generatoren sind als kostenlose Testversion mit Wasserzeichen verfügbar.',
     ctaButton: 'Alle Preise ansehen',
     tiers: [
       {
@@ -70,31 +70,31 @@ const localeContent: Record<string, {
   fr: {
     badge: 'Tarifs simples',
     title: 'Pas d\'abonnement. Paiement unique.',
-    subtitle: 'Essayez avant d\'acheter. Les 33 generateurs sont disponibles en essai gratuit avec filigrane.',
+    subtitle: 'Essayez avant d\'acheter. Les 33 générateurs sont disponibles en essai gratuit avec filigrane.',
     ctaButton: 'Voir tous les tarifs',
     tiers: [
       {
         name: 'Essai gratuit avec filigrane',
         price: '$0',
-        description: '33 generateurs. Toutes les fonctionnalites. Exports avec filigrane. Sans inscription.',
+        description: '33 générateurs. Toutes les fonctionnalités. Exports avec filigrane. Sans inscription.',
       },
       {
         name: 'Application individuelle',
         price: '$49',
-        description: 'Un generateur. PDF sans filigrane. Licence commerciale. Acces a vie.',
+        description: 'Un générateur. PDF sans filigrane. Licence commerciale. Accès à vie.',
       },
       {
-        name: 'Pack categorie',
+        name: 'Pack catégorie',
         price: '$149',
-        description: 'Tous les generateurs d\'une categorie (4-7 apps). Economisez jusqu\'a 70%. Meilleur rapport.',
+        description: 'Tous les générateurs d\'une catégorie (4-7 apps). Économisez jusqu\'à 70%. Meilleur rapport.',
         highlighted: true,
       },
     ],
   },
   es: {
     badge: 'Precios simples',
-    title: 'Sin suscripciones. Pago unico.',
-    subtitle: 'Prueba antes de comprar. Los 33 generadores estan disponibles como prueba gratuita con marca de agua.',
+    title: 'Sin suscripciones. Pago único.',
+    subtitle: 'Prueba antes de comprar. Los 33 generadores están disponibles como prueba gratuita con marca de agua.',
     ctaButton: 'Ver todos los precios',
     tiers: [
       {
@@ -108,9 +108,9 @@ const localeContent: Record<string, {
         description: 'Un generador. PDFs sin marca de agua. Licencia comercial. Acceso de por vida.',
       },
       {
-        name: 'Pack de categoria',
+        name: 'Pack de categoría',
         price: '$149',
-        description: 'Todos los generadores de una categoria (4-7 apps). Ahorra hasta un 70%. Mejor valor.',
+        description: 'Todos los generadores de una categoría (4-7 apps). Ahorra hasta un 70%. Mejor valor.',
         highlighted: true,
       },
     ],
@@ -124,7 +124,7 @@ const localeContent: Record<string, {
       {
         name: 'Prova gratuita con filigrana',
         price: '$0',
-        description: '33 generatori. Tutte le funzionalita. Export con filigrana. Senza registrazione.',
+        description: '33 generatori. Tutte le funzionalità. Export con filigrana. Senza registrazione.',
       },
       {
         name: 'App singola',
@@ -140,25 +140,25 @@ const localeContent: Record<string, {
     ],
   },
   pt: {
-    badge: 'Precos simples',
-    title: 'Sem assinaturas. Pagamento unico.',
-    subtitle: 'Experimente antes de comprar. Todos os 33 geradores estao disponiveis como teste gratuito com marca d\'agua.',
-    ctaButton: 'Ver todos os precos',
+    badge: 'Preços simples',
+    title: 'Sem assinaturas. Pagamento único.',
+    subtitle: 'Experimente antes de comprar. Todos os 33 geradores estão disponíveis como teste gratuito com marca d\'água.',
+    ctaButton: 'Ver todos os preços',
     tiers: [
       {
-        name: 'Teste gratuito com marca d\'agua',
+        name: 'Teste gratuito com marca d\'água',
         price: '$0',
-        description: '33 geradores. Todos os recursos. Exports com marca d\'agua. Sem cadastro.',
+        description: '33 geradores. Todos os recursos. Exports com marca d\'água. Sem cadastro.',
       },
       {
         name: 'App individual',
         price: '$49',
-        description: 'Um gerador. PDFs sem marca d\'agua. Licenca comercial. Acesso vitalicio.',
+        description: 'Um gerador. PDFs sem marca d\'água. Licença comercial. Acesso vitalício.',
       },
       {
         name: 'Pacote de categoria',
         price: '$149',
-        description: 'Todos os geradores de uma categoria (4-7 apps). Economize ate 70%. Melhor valor.',
+        description: 'Todos os geradores de uma categoria (4-7 apps). Economize até 70%. Melhor valor.',
         highlighted: true,
       },
     ],
@@ -177,7 +177,7 @@ const localeContent: Record<string, {
       {
         name: 'Individuele app',
         price: '$49',
-        description: 'Eeen generator. Schone PDF-exports. Commerciele licentie. Levenslang toegang.',
+        description: 'Eén generator. Schone PDF-exports. Commerciële licentie. Levenslang toegang.',
       },
       {
         name: 'Categoriepakket',
@@ -190,13 +190,13 @@ const localeContent: Record<string, {
   da: {
     badge: 'Simple priser',
     title: 'Ingen abonnementer. Engangsbetaling.',
-    subtitle: 'Proev foer du koeber. Alle 33 generatorer er tilgaengelige som gratis proeveversion med vandmaerke.',
+    subtitle: 'Prøv før du køber. Alle 33 generatorer er tilgængelige som gratis prøveversion med vandmærke.',
     ctaButton: 'Se alle priser',
     tiers: [
       {
-        name: 'Gratis proeveversion med vandmaerke',
+        name: 'Gratis prøveversion med vandmærke',
         price: '$0',
-        description: '33 generatorer. Alle funktioner. Eksport med vandmaerke. Ingen tilmelding noedvendig.',
+        description: '33 generatorer. Alle funktioner. Eksport med vandmærke. Ingen tilmelding nødvendig.',
       },
       {
         name: 'Enkelt app',
@@ -206,31 +206,31 @@ const localeContent: Record<string, {
       {
         name: 'Kategoripakke',
         price: '$149',
-        description: 'Alle generatorer i en kategori (4-7 apps). Spar op til 70%. Bedste vaerdi.',
+        description: 'Alle generatorer i en kategori (4-7 apps). Spar op til 70%. Bedste værdi.',
         highlighted: true,
       },
     ],
   },
   sv: {
     badge: 'Enkla priser',
-    title: 'Inga prenumerationer. Engaangsbetalning.',
-    subtitle: 'Prova innan du koeper. Alla 33 generatorer aer tillgaengliga som gratis provversion med vattenstempel.',
+    title: 'Inga prenumerationer. Engångsbetalning.',
+    subtitle: 'Prova innan du köper. Alla 33 generatorer är tillgängliga som gratis provversion med vattenstämpel.',
     ctaButton: 'Se alla priser',
     tiers: [
       {
         name: 'Gratis provversion med vattenstempel',
         price: '$0',
-        description: '33 generatorer. Alla funktioner. Export med vattenstempel. Ingen registrering kraevs.',
+        description: '33 generatorer. Alla funktioner. Export med vattenstämpel. Ingen registrering krävs.',
       },
       {
         name: 'Enskild app',
         price: '$49',
-        description: 'En generator. Rena PDF-exporter. Kommersiell licens. Livstidsaatkomst.',
+        description: 'En generator. Rena PDF-exporter. Kommersiell licens. Livstidsåtkomst.',
       },
       {
         name: 'Kategoripaket',
         price: '$149',
-        description: 'Alla generatorer i en kategori (4-7 appar). Spara upp till 70%. Baesta vaerde.',
+        description: 'Alla generatorer i en kategori (4-7 appar). Spara upp till 70%. Bästa värde.',
         highlighted: true,
       },
     ],
@@ -238,13 +238,13 @@ const localeContent: Record<string, {
   no: {
     badge: 'Enkle priser',
     title: 'Ingen abonnementer. Engangsbetaling.',
-    subtitle: 'Proev foer du kjoeper. Alle 33 generatorer er tilgjengelige som gratis proeveversjon med vannmerke.',
+    subtitle: 'Prøv før du kjøper. Alle 33 generatorer er tilgjengelige som gratis prøveversjon med vannmerke.',
     ctaButton: 'Se alle priser',
     tiers: [
       {
-        name: 'Gratis proeveversjon med vannmerke',
+        name: 'Gratis prøveversjon med vannmerke',
         price: '$0',
-        description: '33 generatorer. Alle funksjoner. Eksport med vannmerke. Ingen registrering noedvendig.',
+        description: '33 generatorer. Alle funksjoner. Eksport med vannmerke. Ingen registrering nødvendig.',
       },
       {
         name: 'Enkelt app',
@@ -268,17 +268,17 @@ const localeContent: Record<string, {
       {
         name: 'Ilmainen kokeiluversio vesileimalla',
         price: '$0',
-        description: '33 generaattoria. Kaikki ominaisuudet. Vienti vesileimalla. Ei rekisteroeitymistae.',
+        description: '33 generaattoria. Kaikki ominaisuudet. Vienti vesileimalla. Ei rekisteröitymistä.',
       },
       {
-        name: 'Yksittaeinen sovellus',
+        name: 'Yksittäinen sovellus',
         price: '$49',
-        description: 'Yksi generaattori. Puhtaat PDF-viennit. Kaupallinen lisenssi. Elinikainen paeasey.',
+        description: 'Yksi generaattori. Puhtaat PDF-viennit. Kaupallinen lisenssi. Elinikäinen pääsy.',
       },
       {
         name: 'Kategoriapaketti',
         price: '$149',
-        description: 'Kaikki kategorian generaattorit (4-7 sovellusta). Saeaestae jopa 70%. Paras arvo.',
+        description: 'Kaikki kategorian generaattorit (4-7 sovellusta). Säästä jopa 70%. Paras arvo.',
         highlighted: true,
       },
     ],

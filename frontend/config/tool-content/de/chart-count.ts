@@ -1,24 +1,25 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'kostenloses Zähldiagramm-Arbeitsblatt erstellen',
+    primaryKeyword: 'kostenloser Zählen und Diagramm Generator',
     secondaryKeywords: [
-      'Zähldiagramm Generator kostenlos online',
-      'Bilddiagramm-Arbeitsblätter erstellen ohne Anmeldung',
-      'Bilddiagramm Generator sofort nutzen',
-      'kostenloses Zähldiagramm mit Bildern erstellen',
+      'Strichlisten Arbeitsblatt kostenlos erstellen',
+      'Diagramm Arbeitsblatt Generator gratis',
+      'Bilddiagramm online erstellen kostenlos',
+      'Zählen und Zuordnen kostenlos',
     ],
     lsiKeywords: [
-      'Bildraster-Zähl-Arbeitsblatt druckfertig',
-      'Balkendiagramm Lösungsschlüssel Generator',
-      'Datenvisualisierung Arbeitsblatt für Kinder',
+      'Strichliste kostenlos',
+      'Säulendiagramm',
+      'Bilddiagramm',
+      'Statistik Grundschule',
     ],
-    titleTag: 'Kostenloses Zähldiagramm erstellen | LCS',
-    metaDescription: 'Kostenloses Zähldiagramm online erstellen — Bilddiagramme mit 4x5-Raster und Lösungsschlüssel sofort. Verkaufen Sie auf Etsy & KDP mit gewerblicher Lizenz.',
+    titleTag: 'Kostenloser Zählen & Diagramm Generator Online | LCS',
+    metaDescription: 'Kostenloser Zählen & Diagramm Generator — Bilddiagramm-Arbeitsblätter sofort erstellen, ohne Anmeldung. Automatische Lösungen. Lizenz verfügbar.',
     },
 
   hero: {
-    title: 'Zähldiagramm-Arbeitsblatt Generator — kostenlos online erstellen',
+    title: 'Kostenloser Zählen & Diagramm Generator Online',
     tagline: 'Bilddiagramm-Arbeitsblatt-Generator mit verteiltem Bildraster, automatisch generiertem Balkendiagramm-Lösungsschlüssel, lokalisierten Überschriften in 11 Sprachen und 104 thematischen Bildsammlungen für Datendarstellungs-Arbeitsblätter, die weltweit ohne Übersetzung verkaufen',
         description: 'Mit unserem kostenlosen Zähldiagramm Generator erstellen Sie professionelle Bilddiagramm-Arbeitsblätter — direkt im Browser, ohne Anmeldung und ohne Installation. Nutzer zählen verteilte Bilder in einem 4x5-Raster und füllen ein darunter liegendes Balkendiagramm aus — Datenerfassung und Datendarstellung in einer einzigen Aktivität. Jedes Arbeitsblatt zeigt 20 Symbole aus 6 verschiedenen Bildtypen in zufälliger Verteilung, was jede Generierung einzigartig macht. Das Tool generiert gleichzeitig einen Lösungsschlüssel mit hervorgehobenen Zellen, die die korrekten Zählungen anzeigen. Wählen Sie Bilder automatisch aus 104 thematischen Sammlungen oder durchstöbern Sie die Bildbibliothek manuell mit über 3.100 Illustrationen. Exportieren Sie als PDF oder JPEG in Letter, A4, Quadrat oder benutzerdefinierten Größen. Die kostenlose Testversion bietet sämtliche Funktionen mit einem Wasserzeichen auf Downloads. Für den kommerziellen Einsatz können Sie eine Lizenz erwerben, die das Wasserzeichen entfernt und volle Verkaufsrechte freischaltet.',
   },

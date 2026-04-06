@@ -1,24 +1,25 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'kostenloser Ausmalbilder-Generator mit Bildern',
+    primaryKeyword: 'Ausmalbilder erstellen kostenlos',
     secondaryKeywords: [
-      'Ausmalbilder kostenlos erstellen online',
-      'Malvorlagen-Generator ohne Anmeldung',
-      'kostenloser Ausmalseiten-Generator für Kinder',
-      'Ausmalbilder online erstellen und drucken',
+      'Ausmalbild Generator kostenlos online',
+      'Malvorlagen erstellen gratis',
+      'eigene Ausmalbilder kostenlos erstellen',
+      'Ausmalseiten Generator ohne Anmeldung',
     ],
     lsiKeywords: [
-      'Graustufen-Malvorlage zum Ausdrucken',
-      'Freihand-Zeichentool für Ausmalbilder',
-      'druckbare Malvorlagen mit Bildthemen',
+      'Umrisse kostenlos',
+      'schwarz-weiß',
+      'Themen-Malvorlagen',
+      'ausmalen',
     ],
-    titleTag: 'Kostenloser Ausmalbilder-Generator | LCS',
-    metaDescription: 'Kostenloser Ausmalbilder-Generator mit Bildern aus 104 Themen. Freie Arbeitsfläche, Graustufen-Export, ohne Anmeldung nutzbar. Kommerzielle Lizenz verfügbar.',
+    titleTag: 'Ausmalbilder erstellen kostenlos | Online Generator | LCS',
+    metaDescription: 'Ausmalbilder kostenlos erstellen — Malvorlagen aus 3.000+ Themenbildern online generieren, ohne Anmeldung. Lizenz für Etsy & KDP.',
     },
 
   hero: {
-    title: 'Ausmalbilder kostenlos erstellen — Generator mit Bildern',
+    title: 'Ausmalbilder erstellen kostenlos — Online Malvorlagen Generator',
     tagline: 'Freie-Arbeitsfläche-Ausmalseiten-Generator mit Freihand-Zeichenwerkzeug, Graustufen-Export, Shop-Helfern und 104 thematischen Bildsammlungen für professionelle Malvorlagen, die weltweit ohne Übersetzung verkaufen',
     description: 'Erstellen Sie kostenlos individuelle Ausmalbilder mit diesem Ausmalbilder-Generator — direkt im Browser, ohne Anmeldung, ohne Software-Download. Sie erhalten eine komplett offene Arbeitsfläche, auf der Sie Bilder exakt dort platzieren, wo Sie sie haben möchten — keine Raster, keine Vorlagen, reine kreative Freiheit. Durchstöbern Sie 104 thematische Bildsammlungen mit über 3.100 Schwarzweiß-Umrisszeichnungen und arrangieren, skalieren und drehen Sie Elemente frei. Das Freihand-Zeichenwerkzeug ermöglicht eigene Illustrationen direkt neben Bibliotheksbildern. Ein-Klick-Helfer fügen Namensfelder und Handschrift-Übungslinien hinzu. Schalten Sie den Graustufen-Export ein für tintenschonende Ausmalseiten. Exportieren Sie druckfertige PDFs und JPEGs bei 300 DPI in Letter, A4 oder benutzerdefinierten Größen. Die kostenlose Testversion enthält alle Funktionen mit einem Wasserzeichen auf Downloads. Erwerben Sie eine Lizenz, um das Wasserzeichen zu entfernen und kommerziell zu verkaufen.',
   },

@@ -2,20 +2,21 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Ausmalbilder für Etsy erstellen die sich verkaufen',
+    primaryKeyword: 'Ausmalbilder auf Etsy verkaufen',
     secondaryKeywords: [
-      'Malvorlagen auf Etsy verkaufen Schritt für Schritt',
-      'Etsy Malvorlagen-Shop mit Bildthemen aufbauen',
-      'druckbare Ausmalbilder für Etsy optimieren',
-      'Kinder- und Erwachsenen-Malvorlagen Etsy Geschäft',
+      'Malvorlagen auf Etsy verkaufen Anleitung',
+      'Ausmalbilder Etsy SEO-Tipps',
+      'Malvorlagen Etsy Preisgestaltung',
+      'Ausmalbilder auf Amazon KDP verkaufen',
     ],
     lsiKeywords: [
-      'S/W-Export Graustufen Malvorlagen Etsy Listing',
-      'thematische Ausmalbilder saisonale Nachfrage Etsy',
-      'Malvorlagen-Bündel Preisstrategie Verkäufer',
+      'S/W-Export Graustufen Etsy Listing',
+      'saisonale Nachfrage Malvorlagen-Shop',
+      'Etsy Tags Angebotsoptimierung',
+      'Malvorlagen-Bündel Preisstrategie',
     ],
-    titleTag: 'Ausmalbilder für Etsy erstellen | LCS',
-    metaDescription: 'Ausmalbilder für Etsy erstellen, die sich verkaufen: 104 Bildthemen, S/W-Export, Angebotsoptimierung und saisonale Verkaufsstrategie für Ihren Malvorlagen-Shop.',
+    titleTag: 'Ausmalbilder auf Etsy verkaufen | Anleitung | LCS',
+    metaDescription: 'Ausmalbilder auf Etsy verkaufen: 104 Bildthemen, S/W-Export, Etsy-SEO mit allen 13 Tags und saisonale Verkaufsstrategie für Ihren Malvorlagen-Shop. Kostenlos testen.',
   },
 
   hero: {

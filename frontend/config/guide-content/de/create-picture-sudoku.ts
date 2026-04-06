@@ -2,20 +2,20 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Bilder-Sudoku zum Verkaufen erstellen',
+    primaryKeyword: 'Bilder-Sudoku erstellen Anleitung',
     secondaryKeywords: [
-      'Bilder-Sudoku-Arbeitsblätter für Etsy produzieren',
-      'Bild-Sudoku-Rätsel kommerziell verkaufen',
-      'Sudoku-Rätselbuch auf KDP veröffentlichen',
-      'Bilder-Sudoku-Generator für Printable-Verkäufer',
+      'Bilder-Sudoku für Etsy erstellen',
+      'Bilder-Sudoku Schritt für Schritt Anleitung',
+      'Bilder-Sudoku für Anfänger erstellen',
+      'Bilder-Sudoku-Arbeitsblätter für KDP erstellen',
     ],
     lsiKeywords: [
-      'bildbasierte Logikrätsel Etsy-Geschäft',
-      'KDP Sudoku-Aktivitätsbuch Kinder veröffentlichen',
-      'Vorschul-Logikrätsel Printable Nische',
+      'Vorschule Logikrätsel druckfertig',
+      '4x4-Bildraster Schwierigkeitsstufen',
+      'Lösungsschlüssel Themenbilder 300 DPI',
     ],
-    titleTag: 'Bilder-Sudoku zum Verkaufen erstellen | LCS',
-    metaDescription: 'Bilder-Sudoku zum Verkaufen erstellen. 4×4-Bildraster, drei Schwierigkeitsstufen und automatische Lösungsschlüssel. Druckfertige PDFs für Etsy und KDP.',
+    titleTag: 'Bilder-Sudoku erstellen | Anleitung | LCS',
+    metaDescription: 'Schritt-für-Schritt Anleitung zum Erstellen von Bilder-Sudoku. 4x4-Bildraster, drei Schwierigkeitsstufen und automatische Lösungsschlüssel. Kostenlos testen.',
   },
 
   hero: {

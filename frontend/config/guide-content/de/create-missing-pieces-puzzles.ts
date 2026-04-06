@@ -2,20 +2,20 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Fehlende-Teile-Rätsel zum Verkaufen erstellen',
+    primaryKeyword: 'Fehlende-Teile-Rätsel erstellen Anleitung',
     secondaryKeywords: [
-      'Puzzle-Arbeitsblätter für Etsy produzieren',
-      'Fehlende-Teile-Rätsel kommerziell auf KDP verkaufen',
-      'druckbare Puzzle-Arbeitsblätter für Printable-Business',
-      'Fehlende-Teile-Generator für Arbeitsblatt-Verkäufer',
+      'Fehlende-Teile-Rätsel für Etsy erstellen',
+      'Fehlende-Teile-Rätsel Schritt für Schritt Anleitung',
+      'Fehlende-Teile-Rätsel für Anfänger erstellen',
+      'Fehlende-Teile-Rätsel für KDP erstellen',
     ],
     lsiKeywords: [
-      'rein visuelles Puzzle weltweiter Verkauf Etsy',
-      'intelligenter Extraktionsalgorithmus Puzzle Nische',
-      'KDP Puzzle-Arbeitsbuch veröffentlichen',
+      'Vorschule visuelle Wahrnehmung druckfertig',
+      '6 Teilformen Lösungsschlüssel',
+      'rein visuell 300 DPI PDF',
     ],
-    titleTag: 'Fehlende-Teile-Rätsel zum Verkauf | LCS',
-    metaDescription: 'Fehlende-Teile-Rätsel zum Verkaufen erstellen. 6 Teilformen, Ablenkungsteile und automatische Lösungsschlüssel. Rein visuelles Format für Etsy und KDP.',
+    titleTag: 'Fehlende-Teile-Rätsel erstellen | Anleitung | LCS',
+    metaDescription: 'Schritt-für-Schritt Anleitung zum Erstellen von Fehlende-Teile-Rätseln. 6 Teilformen, Ablenkungsteile und automatische Lösungsschlüssel. Kostenlos testen.',
   },
 
   hero: {

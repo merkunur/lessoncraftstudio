@@ -1,24 +1,24 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'kostenloser Code-Mathe-Rätsel Generator',
+    primaryKeyword: 'kostenloser Zahlencode Rätsel Generator',
     secondaryKeywords: [
-      'Code-Mathe-Rätsel Generator kostenlos online',
-      'kryptarithmetische Rätsel erstellen ohne Anmeldung',
-      'Code-Knacker Additions-Rätsel sofort nutzen',
-      'kostenlose Bildsymbol-Mathe-Rätsel erstellen',
+      'Code-Knacker Mathe Rätsel kostenlos erstellen',
+      'Geheimcode Arbeitsblatt Generator gratis',
+      'Mathe Code Rätsel online erstellen',
+      'Rechnen und Entschlüsseln kostenlos',
     ],
     lsiKeywords: [
-      'Geheimcode-Additions-Rätsel mit Bildern',
-      'Wort-Entschlüsselungs-Modus Mathe-Rätsel',
-      'Zahlencode-Logik-Rätsel Generator',
+      'Code knacken',
+      'Geheimschrift',
+      'Rechenrätsel kostenlos',
     ],
-    titleTag: 'Kostenloser Code-Mathe-Rätsel Generator | LCS',
-    metaDescription: 'Kostenloser Code-Mathe-Rätsel Generator — kryptarithmetische Additions-Rätsel mit Bildsymbolen sofort. Verkaufen Sie auf Etsy & KDP mit gewerblicher Lizenz.',
+    titleTag: 'Kostenloser Zahlencode Rätsel Generator Online | LCS',
+    metaDescription: 'Kostenloser Zahlencode Rätsel Generator — Mathe-Code-Rätsel sofort erstellen, ohne Anmeldung. Automatische Lösungen. Lizenz für Etsy & KDP.',
     },
 
   hero: {
-    title: 'Code-Mathe-Rätsel Generator — Kryptarithmetik kostenlos erstellen',
+    title: 'Kostenloser Zahlencode Rätsel Generator Online',
     tagline: 'Erstellen Sie kryptarithmetische Rätsel, bei denen Nutzer durch Addition geheime Codes knacken',
     description: 'Unser kostenloser Code-Mathe-Rätsel Generator erstellt kryptarithmetische Additions-Rätsel, bei denen Bildsymbole Zahlen verbergen — direkt im Browser, ohne Anmeldung und ohne Installation. Jedes Rätsel fordert Nutzer heraus, Additionsgleichungen zu lösen, um herauszufinden, welche Zahl zu welchem Bild gehört. Im Regulären Modus steht jedes Symbol für eine einzigartige Ziffer. Wechseln Sie in den Wort-Entschlüsselungs-Modus und jede gelöste Gleichung enthüllt einen Buchstaben eines Geheimworts, während drei Ablenkungs-Gleichungen mit falschen Summen zum genauen Prüfen zwingen. Wählen Sie aus über 100 Bildthemen mit mehr als 3.100 Illustrationen, passen Sie Symbolanzahl und Summanden-Komplexität an. Das Tool unterstützt 11 Sprachen mit sprachspezifischen Alphabeten — deutsches Wort-Entschlüsseln funktioniert nativ mit Ä, Ö, Ü und ß. Die kostenlose Testversion bietet sämtliche Funktionen mit einem Wasserzeichen auf Downloads. Für den kommerziellen Einsatz können Sie eine Lizenz erwerben, die das Wasserzeichen entfernt und volle Verkaufsrechte freischaltet.',
   },

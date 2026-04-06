@@ -2,20 +2,21 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Mathe-Übungshefte für Amazon KDP erstellen',
+    primaryKeyword: 'Mathe-Aktivitätsbücher für Amazon KDP',
     secondaryKeywords: [
-      'KDP Mathe-Arbeitsbuch veröffentlichen Anleitung',
-      'Mathe-Aktivitätsbücher auf Amazon drucken lassen',
-      'Amazon KDP Mathe-Arbeitsblatt-Buch Tantiemen',
+      'Mathe-Arbeitsbuch KDP veröffentlichen Anleitung',
+      'Mathe-Rätselbuch Amazon drucken lassen',
+      'KDP Mathe-Arbeitsblatt-Buch Tantiemen optimieren',
       'Mathe-Übungsheft Print-on-Demand erstellen',
     ],
     lsiKeywords: [
-      'KDP Manuskript Formatierung Beschnittgröße Innenseiten',
-      'Buchcover Design Rückenbreite Rechner Amazon',
-      'Print-on-Demand Tantiemen Preisstrategie Aktivitätsbücher',
+      'KDP Manuskript Formatierung Beschnittgröße',
+      'Buchcover Design Rückenbreite Amazon',
+      'Print-on-Demand Tantiemen Preisstrategie',
+      'Schwierigkeitsstufen Addition Subtraktion',
     ],
-    titleTag: 'Mathe-Übungshefte für Amazon KDP | LCS',
-    metaDescription: 'Mathe-Übungshefte für Amazon KDP erstellen: Manuskript-Formatierung, Cover-Design, Keyword-Optimierung und Preisstrategien für maximale Tantiemen pro Verkauf.',
+    titleTag: 'Mathe-Aktivitätsbücher für Amazon KDP | LCS',
+    metaDescription: 'Mathe-Aktivitätsbücher für Amazon KDP erstellen: Manuskript-Formatierung, Cover-Design, Keyword-Optimierung und Preisstrategien für maximale Tantiemen pro Verkauf.',
   },
 
   hero: {

@@ -2,24 +2,25 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'kostenloser Kryptogramm-Generator',
+    primaryKeyword: 'Kryptogramm erstellen kostenlos',
     secondaryKeywords: [
-      'Kryptogramm-Generator kostenlos online',
-      'Bilder-Chiffre-Rätsel erstellen ohne Anmeldung',
-      'Kryptogramm Generator sofort nutzen',
-      'kostenlose Geheimschrift-Rätsel mit Bildern',
+      'Geheimschrift Rätsel Generator kostenlos',
+      'Buchstabencode Rätsel erstellen gratis',
+      'Verschlüsselungs-Rätsel kostenlos online',
+      'Geheimcode Arbeitsblatt ohne Anmeldung',
     ],
     lsiKeywords: [
-      'Bilder-Chiffre-Rätsel deutsches Alphabet',
-      'Codeknacker-Arbeitsblatt mit Bildzuordnung',
-      'Geheimtext-Entschlüsselungs-Generator',
+      'Geheimschrift kostenlos',
+      'Entschlüsseln',
+      'Code',
+      'Buchstaben-Substitution',
     ],
-    titleTag: 'Kostenloser Kryptogramm-Generator | LCS',
-    metaDescription: 'Kostenloser Kryptogramm-Generator — Bilder-Chiffre-Rätsel mit deutschem 30-Buchstaben-Alphabet online. Verkaufen Sie auf Etsy & KDP mit gewerblicher Lizenz.',
+    titleTag: 'Kryptogramm erstellen kostenlos | Online Generator | LCS',
+    metaDescription: 'Kryptogramm kostenlos erstellen — Geheimschrift-Rätsel mit Themenbildern online generieren, ohne Anmeldung. Lizenz für Etsy & KDP.',
   },
 
   hero: {
-    title: 'Kryptogramm-Generator — Bilder-Chiffre-Rätsel kostenlos erstellen',
+    title: 'Kryptogramm erstellen kostenlos — Online Geheimschrift Generator',
     tagline: 'Bilder-Chiffre-Rätsel erstellen, bei denen jeder Buchstabe einem Bild zugeordnet ist und Nutzer ganze Geheimtexte durch Mustererkennung und Deduktion entschlüsseln',
         description: 'Unser kostenloser Kryptogramm-Generator erstellt professionelle Bilder-Chiffre-Rätsel — direkt im Browser, ohne Anmeldung und ohne Installation. Jeder Buchstabe des Alphabets wird einem einzigartigen Bild zugeordnet, und Ihr Geheimtext wird als Bildfolge dargestellt, die Nutzer durch Deduktion zurück in lesbaren Text entschlüsseln müssen. Anders als Wortsuche oder Buchstabensalat verschlüsselt der Kryptogramm-Generator ganze Sätze und Redewendungen. Der Regler Buchstaben aufdecken (0–10) steuert die Schwierigkeit. Deutsche Kryptogramme nutzen ein erweitertes 30-Buchstaben-Alphabet einschließlich ä, ö, ü und ß — vier zusätzliche Bild-Buchstaben-Zuordnungen erzeugen visuell reichere Chiffren als die englische Version. Wählen Sie Bilder aus 104 thematischen Sammlungen mit über 3.100 Illustrationen oder laden Sie eigene hoch. Der Lösungsschlüssel enthält eine vollständige Buchstabenlegende. Die kostenlose Testversion bietet sämtliche Funktionen mit einem Wasserzeichen auf Downloads. Für den kommerziellen Einsatz können Sie eine Lizenz erwerben, die das Wasserzeichen entfernt und volle Verkaufsrechte freischaltet.',
   },

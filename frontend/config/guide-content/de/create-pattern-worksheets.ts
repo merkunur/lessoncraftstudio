@@ -2,20 +2,20 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Muster-Arbeitsblätter zum Verkaufen erstellen',
+    primaryKeyword: 'Muster-Arbeitsblätter erstellen Anleitung',
     secondaryKeywords: [
-      'Mustererkennung-Arbeitsblätter für Etsy produzieren',
-      'druckbare Muster-Übungen kommerziell verkaufen',
-      'Muster-Aktivitätsbuch auf KDP veröffentlichen',
-      'Muster-Arbeitsblatt-Generator für Verkäufer',
+      'Muster-Arbeitsblätter für Etsy erstellen',
+      'Muster-Arbeitsblätter Schritt für Schritt Anleitung',
+      'Muster-Arbeitsblätter für Anfänger erstellen',
+      'Muster-Arbeitsblätter für KDP erstellen',
     ],
     lsiKeywords: [
-      'Vorschul-Muster Druckvorlagen Etsy-Geschäft',
-      'KDP Muster-Aktivitätsbuch veröffentlichen',
-      'bildbasierte Mustererkennung Produktlinie aufbauen',
+      'Vorschule Mustererkennung druckfertig',
+      '9 Mustertypen Themenbilder Lösungsschlüssel',
+      'Grundschule 300 DPI PDF',
     ],
-    titleTag: 'Muster-Arbeitsblätter zum Verkauf | LCS',
-    metaDescription: 'Muster-Arbeitsblätter zum Verkaufen erstellen. 9 Mustertypen, thematische Bilder, automatische Lösungsschlüssel und druckfertige PDFs für Etsy und KDP.',
+    titleTag: 'Muster-Arbeitsblätter erstellen | Anleitung | LCS',
+    metaDescription: 'Schritt-für-Schritt Anleitung zum Erstellen von Muster-Arbeitsblättern. 9 Mustertypen, thematische Bilder und automatische Lösungsschlüssel. Kostenlos testen.',
   },
 
   hero: {

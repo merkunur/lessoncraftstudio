@@ -2,20 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'Weltraum-Druckvorlagen auf Etsy verkaufen',
+    primaryKeyword: 'Weltraum-Druckvorlagen Nische Etsy',
     secondaryKeywords: [
-      'Weltraum-Arbeitsblätter auf Etsy erstellen',
-      'Planeten-Raketen-Druckvorlagen auf KDP',
-      'STEM-Weltraum-Aktivitätsblätter auf Gumroad',
-      'Astronomie-Lernmaterialien für Druckvorlagen-Shops',
+      'Weltraum Arbeitsblätter auf Etsy verkaufen',
+      'Weltraum Druckvorlagen Geschäftsideen',
+      'Weltraum Nische Wettbewerbsanalyse',
+      'profitable Weltraum Druckvorlagen',
     ],
     lsiKeywords: [
-      'STEM-Bildungsthema Druckvorlagen-Nische',
-      'Weltraum-Planeten Arbeitsblätter Etsy-Markt',
-      'Raumfahrt-Thema Lernmaterialien Verkauf',
+      'Planeten Raketen Astronauten Arbeitsblätter',
+      'STEM-Bildungsthema Weltraum Druckvorlagen',
+      'ganzjährige Raumfahrt-Nische Etsy-Shop',
     ],
-    titleTag: 'Weltraum-Druckvorlagen für Etsy | LCS',
-    metaDescription: 'Weltraum-Druckvorlagen auf Etsy verkaufen — ganzjährige STEM-Nische mit Planeten, Raketen und Astronauten. Produktideen und Plattformstrategien für Ihren Shop.',
+    titleTag: 'Weltraum-Druckvorlagen Nische für Etsy | LCS',
+    metaDescription: 'Weltraum-Druckvorlagen als profitable Etsy-Nische entdecken. Planeten, Raketen und Astronauten als ganzjähriges STEM-Thema — Produktideen und Strategien für Shops.',
   },
   hero: {
     title: 'Weltraum-Druckvorlagen — STEM-Geschäftsideen für Etsy-Verkäufer',

@@ -1,24 +1,25 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'kostenloser Plusaufgaben Generator online',
+    primaryKeyword: 'kostenloser Additions-Arbeitsblatt Generator',
     secondaryKeywords: [
-      'Plusaufgaben Generator kostenlos ohne Anmeldung',
       'Additions-Arbeitsblätter online erstellen',
-      'Bild-Additionsaufgaben Generator sofort nutzen',
-      'kostenlose Plusaufgaben mit Bildern erstellen',
+      'Plusaufgaben Generator kostenlos ohne Anmeldung',
+      'Addition Arbeitsblatt erstellen kostenlos',
+      'Mathe Arbeitsblätter Addition gratis',
     ],
     lsiKeywords: [
-      'visuelle Mathe-Arbeitsblätter mit Themenbildern',
-      'bildbasierte Additionsübungen druckfertig',
-      'Vorschul-Additionsaufgaben Generator',
+      'Grundschule',
+      '1. Klasse',
+      'Zehnerübergang',
+      'Plusaufgaben kostenlos',
     ],
-    titleTag: 'Kostenloser Plusaufgaben Generator Online | LCS',
-    metaDescription: 'Kostenloser Plusaufgaben Generator online — Additions-Arbeitsblätter mit Bildern sofort erstellen, ohne. Verkaufen Sie auf Etsy & KDP mit gewerblicher Lizenz.',
+    titleTag: 'Kostenloser Additions-Arbeitsblatt Generator Online | LCS',
+    metaDescription: 'Kostenloser Additions-Arbeitsblatt Generator online — Plusaufgaben mit Bildern sofort erstellen, ohne Anmeldung. Verkaufen auf Etsy & KDP mit Lizenz.',
     },
 
   hero: {
-    title: 'Plusaufgaben Generator — Additions-Arbeitsblätter kostenlos erstellen',
+    title: 'Kostenloser Additions-Arbeitsblatt Generator Online',
     tagline: 'Erstellen Sie professionelle, bildbasierte Additions-Arbeitsblätter in unter 60 Sekunden',
     description: 'Mit unserem kostenloser Plusaufgaben Generator online erstellen Sie in Sekunden professionelle Additions-Arbeitsblätter mit thematischen Bildern — direkt im Browser, ohne Anmeldung und ohne Software-Download. Wählen Sie aus über 100 Bildthemen mit mehr als 3.100 handverlesenen Illustrationen, legen Sie den Schwierigkeitsgrad über vier verschiedene Übungsmodi fest, bestimmen Sie Ihr Seitenlayout bis ins kleinste Detail und laden Sie druckfertige PDFs oder hochauflösende JPEGs mit über 400 DPI herunter. Das Tool unterstützt Seitengrößen von Letter über A4 bis Quadrat und benutzerdefinierte Formate. Passen Sie Zahlenbereich, Aufgabenanzahl und Bildauswahl individuell an, fügen Sie Text, Titel und dekorative Rahmen hinzu und generieren Sie automatisch einen passenden Lösungsschlüssel. Die kostenlose Testversion bietet sämtliche Funktionen mit einem Wasserzeichen auf Downloads. Für den kommerziellen Einsatz auf Etsy, Amazon KDP oder Gumroad können Sie eine Lizenz erwerben, die das Wasserzeichen entfernt und volle Verkaufsrechte freischaltet.',
   },

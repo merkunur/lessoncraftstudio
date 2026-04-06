@@ -2,20 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'Druckvorlagen-Abo-Box Geschäftsideen',
+    primaryKeyword: 'Druckvorlagen-Abo-Box Geschäftsidee',
     secondaryKeywords: [
-      'monatliche Arbeitsblatt-Pakete auf Etsy',
-      'Druckvorlagen-Abonnement auf Gumroad erstellen',
-      'wiederkehrende Einnahmen mit Patreon-Bundles',
-      'Abo-Geschäftsmodell für Arbeitsblatt-Verkäufer',
+      'Druckvorlagen-Abo-Box Arbeitsblätter auf Etsy verkaufen',
+      'Druckvorlagen-Abo-Box Geschäftsideen',
+      'Druckvorlagen-Abo-Box Nische Wettbewerbsanalyse',
+      'profitable Druckvorlagen-Abo-Box',
     ],
     lsiKeywords: [
-      'wiederkehrende Einnahmen Druckvorlagen-Geschäft',
-      'monatliche Bundles Abonnement-Modell',
-      'Patreon-Gumroad Druckvorlagen-Abo aufbauen',
+      'wiederkehrende Einnahmen Abonnement-Modell',
+      'monatliche Bundles Patreon Gumroad',
+      'loyale Abonnenten-Basis Druckvorlagen',
     ],
-    titleTag: 'Druckvorlagen-Abo-Box Geschäftsideen | LCS',
-    metaDescription: 'Druckvorlagen-Abo-Box Geschäftsideen für wiederkehrende Einnahmen. Monatliche Arbeitsblatt-Pakete auf Gumroad und Patreon mit loyaler Abonnenten-Basis aufbauen.',
+    titleTag: 'Druckvorlagen-Abo-Box Geschäftsidee | LCS',
+    metaDescription: 'Druckvorlagen-Abo-Box als Geschäftsidee für wiederkehrende Einnahmen entdecken. Monatliche Arbeitsblatt-Pakete auf Gumroad und Patreon mit loyaler Abonnenten-Basis.',
   },
   hero: {
     title: 'Druckvorlagen-Abo-Box — Geschäftsideen für Verkäufer',

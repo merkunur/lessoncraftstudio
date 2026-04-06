@@ -11,7 +11,7 @@ const baseUrl = 'https://www.lessoncraftstudio.com';
 
 const bundlesKeywords: Record<string, string[]> = {
   en: ['worksheet generator bundles', 'printable maker bundle deals', 'educational worksheet tools bundle', 'Etsy printable generator packs', 'commercial license printable bundles', 'category bundle for printable sellers'],
-  de: ['Druckvorlagen-Pakete', 'Arbeitsblatt-Bundle', 'Etsy Druckvorlagen-Pack', 'KDP Aktivitätsbuch-Paket', 'kommerzielle Lizenz Paket', 'Kategorie-Paket'],
+  de: ['Arbeitsblatt Generator Bundles', 'Druckvorlagen-Tool Bundle Angebote', 'Arbeitsblatt-Ersteller Paket'],
   fr: ['packs imprimables', 'lot de fiches', 'packs Etsy imprimables', 'lot livres activités KDP', 'licence commerciale pack', 'pack par catégorie'],
   es: ['paquetes imprimibles licencia comercial', 'lote de fichas Etsy', 'paquetes generadores KDP', 'licencia comercial paquete', 'paquete por categoría imprimibles', 'ahorro paquetes generadores'],
   pt: ['pacotes de imprimíveis', 'lote de fichas', 'pacotes Etsy imprimíveis', 'lote livros atividades KDP', 'licença comercial pacote', 'pacote por categoria'],
@@ -57,8 +57,8 @@ const bundlesContent: Record<string, {
   de: {
     heroTitle: 'Generator-Pakete',
     heroDescription: 'Sparen Sie mit Kategorie-Paketen. Erhalten Sie alle Generatoren einer Kategorie mit Gewerbslizenz zum Paketpreis.',
-    metaTitle: 'Druckvorlagen-Generator-Pakete | Sparen mit Kategorie-Paketen | LessonCraftStudio',
-    metaDescription: 'Alle Generatoren einer Kategorie zum Paketpreis. 6 Pakete für Mathematik, Sprache, Zeichnen, Zuordnung, Rätsel und Suche. Einmalzahlung mit Gewerbslizenz.',
+    metaTitle: 'Kategorie-Bundles | Bis zu 57 % sparen auf Arbeitsblatt-Generatoren',
+    metaDescription: 'Alle Arbeitsblatt-Generatoren einer Kategorie zum Bundle-Preis. Mathe, Sprache, Visuell, Zuordnung, Rätsel und Suchspiel-Bundles. Bis zu 57 % sparen.',
     ctaTitle: 'Erst testen, dann kaufen',
     ctaDescription: 'Alle Generatoren gratis mit Wasserzeichen testen. Überzeugen Sie sich vor dem Kauf.',
     ctaButton: 'Generatoren gratis testen',

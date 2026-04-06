@@ -8,7 +8,7 @@ import { encodeImagePath } from '@/lib/encode-image-path';
 
 const authorSchemaDescriptions: Record<string, string> = {
   en: "Printable product creators building 33 professional worksheet generators for Etsy sellers, Amazon KDP publishers, and online entrepreneurs in 11 languages",
-  de: "Entwickler von Druckvorlagen-Produkten mit 33 professionellen Arbeitsblatt-Generatoren für Etsy-Verkäufer, Amazon-KDP-Verleger und Online-Unternehmer in 11 Sprachen",
+  de: "33 professionelle Arbeitsblatt-Generatoren zum Erstellen und Verkaufen von Druckvorlagen auf Etsy, Amazon KDP und weiteren Marktplätzen in 11 Sprachen",
   fr: "Créateurs de produits imprimables proposant 33 générateurs professionnels pour les vendeurs Etsy, les éditeurs Amazon KDP et les entrepreneurs en ligne en 11 langues",
   es: "Creadores de productos imprimibles con 33 generadores profesionales para vendedores de Etsy, editores de Amazon KDP y emprendedores en línea en 11 idiomas",
   pt: "Criadores de produtos imprimíveis com 33 geradores profissionais para vendedores Etsy, editores Amazon KDP e empreendedores online em 11 idiomas",
@@ -22,7 +22,7 @@ const authorSchemaDescriptions: Record<string, string> = {
 
 const authorKnowsAbout: Record<string, string[]> = {
   en: ["Printable Products", "Worksheet Generators", "Etsy Digital Downloads", "Amazon KDP Publishing", "Commercial Licensing", "Online Printable Business"],
-  de: ["Druckbare Produkte", "Arbeitsblatt-Generatoren", "Etsy Digitale Downloads", "Amazon KDP Veröffentlichung", "Kommerzielle Lizenzierung", "Online-Druckvorlagen-Geschäft"],
+  de: ["Arbeitsblatt Generator", "Suchsel erstellen", "Kreuzworträtsel erstellen", "Mathe Arbeitsblatt Generator", "Druckvorlagen für Etsy", "Amazon KDP Arbeitsblätter"],
   fr: ["Produits imprimables", "Générateurs de fiches", "Téléchargements numériques Etsy", "Publication Amazon KDP", "Licence commerciale", "Business d'imprimables en ligne"],
   es: ["Productos imprimibles", "Generadores de fichas", "Descargas digitales Etsy", "Publicación Amazon KDP", "Licencia comercial", "Negocio de imprimibles en línea"],
   pt: ["Produtos imprimíveis", "Geradores de planilhas", "Downloads digitais Etsy", "Publicação Amazon KDP", "Licença comercial", "Negócio de impressos online"],
@@ -142,7 +142,7 @@ export function generateHomepageSchemas(locale: string, baseUrl: string = getBas
   // Localized homepage descriptions
   const homepageOrgDescriptions: Record<string, string> = {
     en: "33 professional printable generators for Etsy sellers, KDP publishers, and printable business entrepreneurs. Create and sell worksheets, puzzles, and activity books.",
-    de: "33 professionelle Druckvorlagen-Generatoren für Etsy-Verkäufer, KDP-Verleger und Druckvorlagen-Unternehmer. Erstellen und verkaufen Sie Arbeitsblätter, Rätsel und Aktivitätsbücher.",
+    de: "33 Arbeitsblatt-Generatoren zum Erstellen von Suchsel, Kreuzworträtsel, Mathe-Arbeitsblätter, Ausmalbilder und mehr. Kommerzielle Lizenz für Etsy und KDP.",
     fr: "33 générateurs professionnels d'imprimables pour les vendeurs Etsy, les éditeurs KDP et les entrepreneurs. Créez et vendez des fiches, des puzzles et des cahiers d'activités.",
     es: "33 generadores profesionales de imprimibles para vendedores de Etsy, editores KDP y emprendedores. Cree y venda fichas, rompecabezas y libros de actividades.",
     pt: "33 geradores profissionais de impressos para vendedores Etsy, editores KDP e empreendedores. Crie e venda planilhas, quebra-cabeças e livros de atividades.",
@@ -156,7 +156,7 @@ export function generateHomepageSchemas(locale: string, baseUrl: string = getBas
 
   const homepageWebsiteDescriptions: Record<string, string> = {
     en: "Printable generators for creating and selling worksheets, puzzles, and activity books online",
-    de: "Druckvorlagen-Generatoren zum Erstellen und Verkaufen von Arbeitsblättern, Rätseln und Aktivitätsbüchern online",
+    de: "Arbeitsblatt-Generatoren zum Erstellen von Suchsel, Kreuzworträtsel, Mathe-Arbeitsblätter und mehr — kostenlos testen",
     fr: "Générateurs d'imprimables pour créer et vendre des fiches, des puzzles et des cahiers d'activités en ligne",
     es: "Generadores de imprimibles para crear y vender fichas, rompecabezas y libros de actividades en línea",
     pt: "Geradores de impressos para criar e vender planilhas, quebra-cabeças e livros de atividades online",
@@ -170,7 +170,7 @@ export function generateHomepageSchemas(locale: string, baseUrl: string = getBas
 
   const homepageSoftwareDescriptions: Record<string, string> = {
     en: "33 professional worksheet generators with 3,100+ themed images for creating printable products to sell on Etsy, Amazon KDP, and other marketplaces",
-    de: "33 professionelle Arbeitsblatt-Generatoren mit 3.100+ thematischen Bildern zum Erstellen von Druckprodukten für Etsy, Amazon KDP und andere Marktplätze",
+    de: "33 Arbeitsblatt-Generatoren mit 3.100+ Themenbildern in 11 Sprachen. Suchsel, Kreuzworträtsel, Mathe, Sudoku und mehr erstellen. 300 DPI PDF-Export.",
     fr: "33 générateurs professionnels avec plus de 3 100 images thématiques pour créer des produits imprimables à vendre sur Etsy, Amazon KDP et d'autres plateformes",
     es: "33 generadores profesionales con más de 3.100 imágenes temáticas para crear productos imprimibles para vender en Etsy, Amazon KDP y otros mercados",
     pt: "33 geradores profissionais com mais de 3.100 imagens temáticas para criar produtos imprimíveis para vender na Etsy, Amazon KDP e outros marketplaces",
@@ -184,7 +184,7 @@ export function generateHomepageSchemas(locale: string, baseUrl: string = getBas
 
   const homepageFeatureLists: Record<string, string[]> = {
     en: ["Word Search Generator", "Crossword Puzzle Generator", "Math Worksheet Generator", "Pattern Recognition Activities", "Matching Games", "And 28 more generators"],
-    de: ["Wortsuchrätsel-Generator", "Kreuzworträtsel-Generator", "Mathe-Arbeitsblatt-Generator", "Mustererkennungs-Aktivitäten", "Zuordnungsspiele", "Und 28 weitere Generatoren"],
+    de: ["Suchsel Generator", "Kreuzworträtsel Generator", "Mathe Arbeitsblatt Generator", "Ausmalbilder Generator", "Sudoku Generator", "Und 28 weitere Generatoren"],
     fr: ["Générateur de mots cachés", "Générateur de mots croisés", "Générateur de fiches maths", "Activités de reconnaissance de motifs", "Jeux d'association", "Et 28 autres générateurs"],
     es: ["Generador de sopa de letras", "Generador de crucigramas", "Generador de fichas de matemáticas", "Actividades de reconocimiento de patrones", "Juegos de emparejar", "Y 28 generadores más"],
     pt: ["Gerador de caça-palavras", "Gerador de palavras cruzadas", "Gerador de fichas de matemática", "Atividades de reconhecimento de padrões", "Jogos de combinar", "E mais 28 geradores"],
@@ -301,7 +301,7 @@ export function generateHomepageSchemas(locale: string, baseUrl: string = getBas
 export function generateAppsCollectionSchema(locale: string, baseUrl: string = getBaseUrl()) {
   const localizedNames: Record<string, string> = {
     en: "Worksheet Generator Apps",
-    de: "Arbeitsblatt-Generator Apps",
+    de: "33 Arbeitsblatt-Generatoren",
     fr: "Applications Générateur de Fiches",
     es: "Aplicaciones Generador de Fichas",
     pt: "Aplicativos Gerador de Planilhas",
@@ -315,7 +315,7 @@ export function generateAppsCollectionSchema(locale: string, baseUrl: string = g
 
   const localizedDescriptions: Record<string, string> = {
     en: "33 professional printable generators for your online business. Create word searches, crosswords, math puzzles and more to sell on Etsy and Amazon KDP.",
-    de: "33 professionelle Druckvorlagen-Generatoren für Ihr Online-Geschäft. Erstellen Sie Wortsuchrätsel, Kreuzworträtsel, Mathe-Puzzles und mehr zum Verkauf auf Etsy und Amazon KDP.",
+    de: "33 Arbeitsblatt-Generatoren für Mathe, Sprache, visuelles Lernen, Kreativität und Logik. Suchsel, Kreuzworträtsel, Sudoku und mehr erstellen. Kostenlos testen.",
     fr: "33 générateurs professionnels d'imprimables pour votre business en ligne. Créez des mots cachés, des mots croisés, des puzzles mathématiques et plus à vendre sur Etsy et Amazon KDP.",
     es: "33 generadores profesionales de imprimibles para su negocio en línea. Cree sopas de letras, crucigramas, rompecabezas matemáticos y más para vender en Etsy y Amazon KDP.",
     pt: "33 geradores profissionais de impressos para o seu negócio online. Crie caça-palavras, palavras cruzadas, quebra-cabeças de matemática e mais para vender na Etsy e Amazon KDP.",

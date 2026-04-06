@@ -2,20 +2,20 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Mit KDP Aktivitätenheften Geld verdienen',
+    primaryKeyword: 'Mit KDP-Aktivitätsbüchern Geld verdienen',
     secondaryKeywords: [
-      'KDP Tantiemen berechnen Aktivitätsbücher optimieren',
-      'Amazon KDP Aktivitätsbuch Preisstrategien Gewinn',
-      'KDP Katalogaufbau steigende monatliche Einnahmen',
-      'saisonales Veröffentlichen KDP Feiertage Schulanfang',
+      'KDP Tantiemen berechnen Aktivitätsbücher',
+      'Amazon KDP Aktivitätsbuch Preisstrategie Gewinn',
+      'KDP Katalogaufbau monatliche Einnahmen steigern',
+      'saisonales Veröffentlichen Feiertage Schulanfang KDP',
     ],
     lsiKeywords: [
-      'Tantiemen Berechnung Druckkosten Preisstrategie',
+      'Tantiemen Druckkosten Preisoptimierung',
       'Katalogökonomie Schwungradeffekt mehrere Titel',
-      'Multi-Plattform Etsy Gumroad Expansion Einnahmen',
+      'Multi-Plattform Etsy Gumroad Expansion',
     ],
-    titleTag: 'Mit KDP Aktivitätenheften Geld verdienen | LCS',
-    metaDescription: 'Mit KDP Aktivitätenheften Geld verdienen: Tantiemen-Berechnung, Preisoptimierung, Katalogaufbau und saisonales Timing für wachsende monatliche Amazon-Einnahmen.',
+    titleTag: 'Mit KDP-Aktivitätsbüchern Geld verdienen | LCS',
+    metaDescription: 'Mit KDP-Aktivitätsbüchern Geld verdienen: Tantiemen-Berechnung, Preisoptimierung, Katalogaufbau und saisonales Timing für wachsende monatliche Amazon-Einnahmen.',
   },
 
   hero: {

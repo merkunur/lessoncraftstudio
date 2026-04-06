@@ -2,20 +2,20 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Präpositionen-Arbeitsblätter für DaF/DaZ erstellen',
+    primaryKeyword: 'Präpositionen-Arbeitsblätter erstellen Anleitung',
     secondaryKeywords: [
-      'räumliche Sprache Arbeitsblätter für Etsy produzieren',
-      'Präpositionen-Übungen kommerziell auf KDP verkaufen',
-      'DaF-Arbeitsblätter für Printable-Business erstellen',
-      'Präpositionen-Generator für Arbeitsblatt-Verkäufer',
+      'Präpositionen-Arbeitsblätter für Etsy erstellen',
+      'Präpositionen-Arbeitsblätter Schritt für Schritt Anleitung',
+      'Präpositionen-Arbeitsblätter für Anfänger erstellen',
+      'Präpositionen-Arbeitsblätter für KDP erstellen',
     ],
     lsiKeywords: [
-      'DaF DaZ Printable Nische Etsy verkaufen',
-      'sprachsensitive Präpositionen mehrsprachige Produktlinie',
-      'KDP räumliche Sprache Aktivitätsbuch veröffentlichen',
+      'DaF DaZ Grundschule druckfertig',
+      'Lückentext Multiple Choice Themenbilder',
+      'räumliche Sprache 300 DPI PDF',
     ],
-    titleTag: 'Präpositionen-Arbeitsblätter für DaF | LCS',
-    metaDescription: 'Präpositionen-Arbeitsblätter für DaF/DaZ erstellen. Lückentext, Multiple Choice und Formaustausch für. Verkaufen Sie auf Etsy & KDP mit gewerblicher Lizenz.',
+    titleTag: 'Präpositionen-Arbeitsblätter erstellen | Anleitung | LCS',
+    metaDescription: 'Schritt-für-Schritt Anleitung zum Erstellen von Präpositionen-Arbeitsblättern. Lückentext, Multiple Choice und Formaustausch-Modi. Kostenlos testen.',
   },
 
   hero: {

@@ -2,20 +2,20 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Minusaufgaben-Arbeitsblätter zum Verkaufen erstellen',
+    primaryKeyword: 'Subtraktions-Arbeitsblätter erstellen Anleitung',
     secondaryKeywords: [
-      'Subtraktions-Arbeitsblätter für Etsy produzieren',
-      'Minusaufgaben-PDFs auf KDP verkaufen',
-      'druckbare Subtraktionsübungen kommerziell erstellen',
-      'Subtraktions-Arbeitsblatt-Generator für Verkäufer',
+      'Minusaufgaben-Arbeitsblätter Generator Schritt für Schritt',
+      'Subtraktions-PDFs mit Durchstreichen-Modus erstellen',
+      'Mathe-Arbeitsblätter Subtraktion druckfertig generieren',
+      'Subtraktionsübungen mit Lösungsschlüssel produzieren',
     ],
     lsiKeywords: [
-      'durchgestrichene Bilder Mathe-Druckvorlagen Geschäft',
-      'Etsy Printable Subtraktions-Übungen verkaufen',
-      'KDP Mathe-Arbeitsbuch Subtraktion veröffentlichen',
+      'durchgestrichene Bilder vier Übungsmodi Minuend',
+      'thematische Illustrationen Schwierigkeitsgrad konfigurieren',
+      'druckfertige Mathe-PDFs Etsy KDP Gumroad',
     ],
-    titleTag: 'Minusaufgaben zum Verkaufen erstellen | LCS',
-    metaDescription: 'Minusaufgaben-Arbeitsblätter zum Verkaufen erstellen. Durchgestrichene Bilder, Lösungsschlüssel, Themen wählen und druckfertige PDFs für Etsy und KDP.',
+    titleTag: 'Subtraktions-Arbeitsblätter erstellen | LCS',
+    metaDescription: 'Subtraktions-Arbeitsblätter erstellen: Anleitung mit Durchstreichen-Modus, vier Übungstypen und automatischen Lösungsschlüsseln. Druckfertige Mathe-PDFs für Etsy und KDP.',
   },
 
   hero: {

@@ -2,20 +2,21 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Preisstrategien für Lern-Druckvorlagen',
+    primaryKeyword: 'Druckvorlagen Preise richtig kalkulieren',
     secondaryKeywords: [
-      'Arbeitsblatt-Preise richtig kalkulieren',
-      'Druckvorlagen Gewinnmarge optimieren',
-      'wertbasierte Preisgestaltung Printables',
-      'Preispsychologie für Etsy-Verkäufer',
+      'wertbasierte Preisgestaltung Arbeitsblätter Printables',
+      'Druckvorlagen Gewinnmarge Plattformgebühren optimieren',
+      'Preispsychologie Konversionsrate Etsy KDP',
+      'systematische Preistests Druckvorlagen-Business',
     ],
     lsiKeywords: [
-      'Preisankerung Paketpreise Stufenpreise Plattformgebühren Nettoerlös Konversionsrate',
-      'Kostenaufschlag wertbasierte Preisgestaltung Premium-Positionierung Zahlungsbereitschaft',
-      'Preistests Marktforschung Unterbepreisung nachhaltige Preisgestaltung Umsatzoptimierung',
+      'Preisankerung Stufenpreise Nettoerlös berechnen',
+      'Kostenaufschlag Premium-Positionierung Zahlungsbereitschaft',
+      'Unterbepreisung vermeiden nachhaltige Preisgestaltung',
+      'Plattformgebühren Etsy KDP Gumroad Vergleich',
     ],
-    titleTag: 'Preisstrategien für Lern-Druckvorlagen | LCS',
-    metaDescription: 'Preisstrategien für Lern-Druckvorlagen: Preispsychologie, Wettbewerbsanalyse, Plattformgebühren und Gewinnmargen-Optimierung für Etsy, KDP und Gumroad.',
+    titleTag: 'Druckvorlagen Preise kalkulieren | LCS',
+    metaDescription: 'Druckvorlagen Preise richtig kalkulieren: Preispsychologie, Wettbewerbsanalyse, Plattformgebuehren und Gewinnmargen-Optimierung fuer Etsy, Amazon KDP und Gumroad.',
   },
 
   hero: {

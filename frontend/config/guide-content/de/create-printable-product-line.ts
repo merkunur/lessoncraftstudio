@@ -2,20 +2,20 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Druckvorlagen-Produktlinie aufbauen',
+    primaryKeyword: 'Druckvorlagen Produktlinie erstellen Anleitung',
     secondaryKeywords: [
-      'Arbeitsblatt-Produktlinie Strategie Etsy',
-      'Druckvorlagen-Katalog systematisch erweitern',
-      'Produktserie Printable-Business erstellen',
-      'Markenkohärenz Druckvorlagen-Shop',
+      'Arbeitsblatt-Produktlinie Branding aufbauen',
+      'Druckvorlagen-Katalog strategisch erweitern',
+      'Namenskonventionen Designsprache Printable-Shop',
+      'Produktsequenzierung Querverkauf Wiederholungskäufe',
     ],
     lsiKeywords: [
-      'Produktkatalog Namenskonventionen visuelles Branding Katalogtiefe Querverkauf',
-      'Produktraster Designsprache Shop-Identität Produktsequenzierung Markenerkennung',
-      'systematische Erweiterung Komplementärprodukte Produktökosystem Wiederholungskäufe',
+      'visuelle Konsistenz Markenerkennung Katalogtiefe',
+      'Komplementärprodukte systematische Erweiterung',
+      'Shop-Identität plattformübergreifend Etsy KDP Gumroad',
     ],
-    titleTag: 'Druckvorlagen-Produktlinie aufbauen | LCS',
-    metaDescription: 'Druckvorlagen-Produktlinie aufbauen mit konsistentem Branding, strategischer Produktsequenzierung und systematischer Katalogerweiterung für Etsy und KDP.',
+    titleTag: 'Druckvorlagen-Produktlinie erstellen | LCS',
+    metaDescription: 'Druckvorlagen-Produktlinie erstellen: Anleitung zu Branding, Namenskonventionen, Produktsequenzierung und systematischer Katalogerweiterung fuer Etsy, KDP und Gumroad.',
   },
 
   hero: {

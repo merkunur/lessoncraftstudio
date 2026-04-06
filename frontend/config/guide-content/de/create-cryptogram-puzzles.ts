@@ -2,20 +2,20 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Kryptogramm-Rätsel zum Verkaufen erstellen',
+    primaryKeyword: 'Kryptogramm erstellen Anleitung',
     secondaryKeywords: [
-      'Bildchiffre-Rätsel für Etsy produzieren',
-      'Kryptogramm-Rätselbuch auf KDP veröffentlichen',
-      'druckbare Kryptogramm-Arbeitsblätter kommerziell verkaufen',
-      'Kryptogramm-Generator für Printable-Verkäufer',
+      'Kryptogramm für Etsy erstellen',
+      'Kryptogramm Schritt für Schritt Anleitung',
+      'Kryptogramm für Anfänger erstellen',
+      'Kryptogramm für KDP erstellen',
     ],
     lsiKeywords: [
-      'sprachspezifische Alphabete Kryptogramm Printable Nische',
-      'Bildchiffre-Rätsel Etsy-Geschäft aufbauen',
-      'KDP Bildchiffre-Rätselbuch veröffentlichen',
+      'Bildchiffre Schwierigkeitsregler druckfertig',
+      'sprachspezifische Alphabete 11 Sprachen',
+      'Grundschule Lösungsschlüssel 300 DPI',
     ],
-    titleTag: 'Kryptogramm-Rätsel zum Verkauf erstellen | LCS',
-    metaDescription: 'Kryptogramm-Rätsel zum Verkaufen erstellen. Bildchiffre-Mechanik, Schwierigkeitsregler 0–10, sprachspezifische Alphabete in 11 Sprachen für Etsy und KDP.',
+    titleTag: 'Kryptogramm erstellen | Anleitung | LCS',
+    metaDescription: 'Schritt-für-Schritt Anleitung zum Erstellen von Kryptogrammen. Bildchiffre-Mechanik, Schwierigkeitsregler 0-10 und 11 Sprachen. Kostenlos testen.',
   },
 
   hero: {

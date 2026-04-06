@@ -2,20 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'Mengen-Lizenzierung Druckvorlagen Geschäftsideen',
+    primaryKeyword: 'Mengenlizenzen Druckvorlagen Geschäftsidee',
     secondaryKeywords: [
-      'Volumenlizenz Druckvorlagen an Schulen verkaufen',
-      'Gruppensatz-Arbeitsblätter für Bildungseinrichtungen',
-      'Schullizenzen für Druckvorlagen-Produkte erstellen',
-      'institutionelle Preisgestaltung Arbeitsblatt-Verkäufer',
+      'Mengenlizenzen Arbeitsblätter auf Etsy verkaufen',
+      'Mengenlizenzen Druckvorlagen Geschäftsideen',
+      'Mengenlizenzen Nische Wettbewerbsanalyse',
+      'profitable Mengenlizenzen Druckvorlagen',
     ],
     lsiKeywords: [
-      'B2B-Druckvorlagen-Vertrieb Bildungssektor',
-      'Volumenlizenz-Preismodelle Arbeitsblätter',
-      'Schullizenz-Geschäftsmodell Druckvorlagen',
+      'Volumenlizenz Schulen Bildungseinrichtungen',
+      'B2B-Vertrieb Druckvorlagen Premium-Preise',
+      'Schullizenz-Geschäftsmodell Jahresvereinbarungen',
     ],
-    titleTag: 'Mengen-Lizenzierung Druckvorlagen | LCS',
-    metaDescription: 'Mengen-Lizenzierung von Druckvorlagen an Schulen und Bildungseinrichtungen. Volumenlizenz-Geschäftsmodell mit Premium-Preisen und Jahresvereinbarungen aufbauen.',
+    titleTag: 'Mengenlizenzen Druckvorlagen Idee | LCS',
+    metaDescription: 'Mengenlizenzen für Druckvorlagen als Geschäftsidee entdecken. Volumenlizenz-Modell für Schulen und Bildungseinrichtungen mit Premium-Preisen und wiederkehrenden Einnahmen.',
   },
   hero: {
     title: 'Mengen-Lizenzierung von Druckvorlagen — Geschäftsideen',

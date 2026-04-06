@@ -2,20 +2,20 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Profitable Druckvorlagen-Nischen finden',
+    primaryKeyword: 'Profitable Nischen für Druckvorlagen finden',
     secondaryKeywords: [
-      'Nischenrecherche Printable-Business Methoden',
-      'Druckvorlagen Marktlücken identifizieren',
-      'Keyword-Analyse Arbeitsblatt-Nischen 2026',
-      'Nachfragevalidierung Druckvorlagen Etsy KDP',
+      'Nischenrecherche Printable-Business systematisch',
+      'Druckvorlagen Marktlücken Keyword-Analyse',
+      'Nachfragevalidierung Etsy KDP Marktplatzdaten',
+      'unterversorgte Nischen Druckvorlagen identifizieren',
     ],
     lsiKeywords: [
-      'Marktplatzdaten Suchvolumen Wettbewerbsniveau Kaufabsicht unterversorgte Märkte',
-      'Nischenvalidierung Marktsättigung datengestützte Entscheidungen Recherche-Workflow',
-      'saisonale Nachfrage Trendnischen Produkt-Markt-Fit Nischen-Rentabilitätsbewertung',
+      'Suchvolumen Wettbewerbsniveau Kaufabsicht analysieren',
+      'datengestützte Nischenvalidierung Recherche-Workflow',
+      'saisonale Nachfrage Trendnischen Rentabilitätsbewertung',
     ],
     titleTag: 'Profitable Druckvorlagen-Nischen finden | LCS',
-    metaDescription: 'Profitable Druckvorlagen-Nischen finden mit Marktplatzdaten, Keyword-Analyse und Wettbewerbsforschung. Systematische Validierungsmethoden für Etsy und KDP.',
+    metaDescription: 'Profitable Nischen fuer Druckvorlagen finden: Marktplatzdaten auswerten, Keyword-Nachfrage quantifizieren und mit systematischer Validierung die richtige Nische waehlen.',
   },
 
   hero: {

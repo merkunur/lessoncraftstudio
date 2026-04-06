@@ -2,20 +2,20 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Bewertungen für Druckvorlagen bekommen',
+    primaryKeyword: 'Bewertungen für Druckvorlagen-Produkte erhalten',
     secondaryKeywords: [
       'Etsy-Bewertungen digitale Produkte verdienen',
       'sozialer Beweis Printable-Shop aufbauen',
       'Kundenbewertungen Arbeitsblatt-Geschäft steigern',
-      'Bewertungsstrategie Druckvorlagen-Verkäufer',
+      'Bewertungsstrategie Druckvorlagen-Verkäufer Etsy',
     ],
     lsiKeywords: [
-      'Sternebewertung Käuferfeedback Bewertungsgenerierung sozialer Beweis Shop-Glaubwürdigkeit',
-      'Bewertungs-Nachverfolgung Feedbackschleife Kundenerfahrung Erwartungsmanagement',
-      'Bewertungsvolumen Marktplatz-Ranking authentisches Feedback Nachkauf-Erfahrung',
+      'Sternebewertung Käuferfeedback sozialer Beweis',
+      'Bewertungs-Nachverfolgung Feedbackschleife Kundenerfahrung',
+      'Bewertungsvolumen Marktplatz-Ranking authentisches Feedback',
     ],
-    titleTag: 'Bewertungen für Printable-Produkte | LCS',
-    metaDescription: 'Bewertungen für Druckvorlagen bekommen: authentisches Käuferfeedback verdienen, sozialen Beweis aufbauen. Verkaufen Sie auf Etsy & KDP mit gewerblicher Lizenz.',
+    titleTag: 'Bewertungen für Druckvorlagen erhalten | LCS',
+    metaDescription: 'Bewertungen für Druckvorlagen-Produkte erhalten: Authentisches Käuferfeedback verdienen, sozialen Beweis aufbauen und Marktplatz-Rankings auf Etsy verbessern.',
   },
 
   hero: {

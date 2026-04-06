@@ -2,20 +2,20 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Unterrichtsmaterial auf Eduki verkaufen Anleitung',
+    primaryKeyword: 'Unterrichtsmaterial auf Eduki verkaufen',
     secondaryKeywords: [
-      'Eduki Verkäuferkonto einrichten Lehrmittel',
-      'druckbare Arbeitsblätter auf Eduki einstellen',
-      'Eduki Listing-Optimierung Preisstrategie',
-      'Lernmaterialien auf Eduki verkaufen Anfänger',
+      'Eduki Verkäuferkonto einrichten Schritt für Schritt',
+      'Arbeitsblätter auf Eduki einstellen optimieren',
+      'Eduki Preisstrategie Basic vs Premium Plan',
+      'Lernmaterialien Eduki Listing-Optimierung',
     ],
     lsiKeywords: [
-      'Eduki Bildungsmarktplatz digitaler Download Lehrmittel',
-      'Lernstandards Altersgruppe Fachbereich Kategorisierung',
-      'Produktvorschau Miniaturansicht Deckblatt Lösungsschlüssel',
+      'Bildungsmarktplatz DACH-Raum Lehrmittel',
+      'Altersgruppe Fachbereich Kategorisierung Vorschau',
+      'Eduki Provisionsmodell digitaler Download',
     ],
-    titleTag: 'Unterrichtsmaterial auf Eduki verkaufen | LCS',
-    metaDescription: 'Unterrichtsmaterial auf Eduki verkaufen: Konto einrichten, Materialien formatieren, Listings optimieren und Preisstrategien für den Bildungsmarktplatz Eduki.',
+    titleTag: 'Material auf Eduki verkaufen | LCS',
+    metaDescription: 'Unterrichtsmaterial auf Eduki verkaufen: Verkäuferkonto einrichten, Materialien formatieren, Listings optimieren und Preisstrategien fuer den DACH-Bildungsmarktplatz.',
   },
 
   hero: {

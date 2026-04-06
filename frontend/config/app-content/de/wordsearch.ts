@@ -2,21 +2,25 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'Suchsel-Generator zum Verkaufen auf Etsy und KDP',
+    primaryKeyword: 'Suchsel erstellen',
     secondaryKeywords: [
-      'Wortsuchrätsel-Generator für Etsy-Verkäufer',
-      'Suchsel-Bücher für Amazon KDP erstellen',
-      'Buchstabengitter-Rätsel gewerbliche Lizenz',
-      'Wortgitter-Druckvorlagen für Eduki verkaufen',
-      'Wortsuchrätsel mit Bildern für Online-Verkauf',
+      'Suchsel Generator',
+      'Wortsuchrätsel erstellen',
+      'Buchstabensalat erstellen',
+      'Wortgitter Generator',
+      'Wortsuchrätsel Generator',
     ],
     lsiKeywords: [
-      'Suchsel Buchstabengitter druckfertig 300 DPI',
-      'Wortsuchrätsel-Generator DACH-Markt',
-      'Farbcode-Lösungsschlüssel kommerzielle Nutzung',
+      'Buchstabenrätsel',
+      'versteckte Wörter',
+      'Wörter suchen',
+      'Wortsuche',
+      'Rätsel Unterricht',
+      'PDF',
+      'ausdrucken',
     ],
-    titleTag: 'Suchsel-Generator zum Verkaufen auf Etsy | LCS',
-    metaDescription: 'Suchsel-Arbeitsblätter erstellen und auf Etsy & KDP verkaufen. Gittergröße 5–30, 11 Sprachen, gewerbliche Lizenz inklusive. 49 $ einmalig.',
+    titleTag: 'Suchsel erstellen | Wortsuchrätsel Generator mit Bildern',
+    metaDescription: 'Erstellen Sie Suchsel mit 3.000+ Themenbildern in 11 Sprachen. Eigene Wörter, automatische Lösungen, 300 DPI PDF. Kostenlos testen — verkaufen auf Etsy & KDP.',
   },
 
   hero: {
@@ -199,6 +203,11 @@ const content: AppContent = {
       question: 'Was ist Ihre Rückgabepolitik?',
       answer:
         'Da die kostenlose Testversion Ihnen Zugang zu jeder Funktion gewährt, bieten wir keine Rückerstattung für kommerzielle Lizenzen an. Sie können jede Inhaltsquelle, jede Gittergröße, jede Richtungseinstellung, jeden Anzeigemodus, jeden farbcodierten Lösungsschlüssel, jedes Exportformat und jede Seitengröße vor dem Kauf testen. Die kostenlose Testversion ist die Rückgabepolitik — stellen Sie sicher, dass das Tool Ihren Anforderungen entspricht, bevor Sie eine Lizenz erwerben.',
+    },
+    {
+      question: 'Sind die Arbeitsblätter für die Grundschule geeignet?',
+      answer:
+        'Ja. Die Arbeitsblätter eignen sich für die Grundschule (Deutschland), Volksschule (Österreich) und Primarschule (Schweiz). Sie können den Schwierigkeitsgrad an verschiedene Klassenstufen anpassen — von der 1. Klasse bis zur 4. Klasse. Auch Vorschulkinder und Kindergartenkinder profitieren von den einfacheren Übungsstufen.',
     },
   ],
 

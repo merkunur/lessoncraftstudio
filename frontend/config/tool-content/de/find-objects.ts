@@ -2,24 +2,24 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'kostenloser suchbilder generator online kostenlos erstellen zwei aktivitätsmodi',
+    primaryKeyword: 'Suchbild erstellen kostenlos',
     secondaryKeywords: [
-      'Suchbilder-Arbeitsblätter kostenlos erstellen',
-      'Suchbilder-Generator online ohne Anmeldung',
-      'kostenlose Versteckte-Objekte-Rätsel erstellen',
-      'Suchbilder-Generator mit Lösungsschlüssel kostenlos',
+      'Suchbild Generator kostenlos online',
+      'Versteckte Objekte Arbeitsblatt gratis',
+      'Wimmelspiel erstellen kostenlos',
+      'I-Spy Generator ohne Anmeldung',
     ],
     lsiKeywords: [
-      'Ich-sehe-was Rätsel Arbeitsblätter',
-      'Was-passt-nicht visuelle Rätsel',
-      'Versteckte-Objekte Suchszenen Generator',
+      'Wimmelbilder kostenlos',
+      'Suchen und Finden',
+      'visuelle Wahrnehmung',
     ],
-    titleTag: 'Kostenloser Suchbilder-Generator Online | LCS',
-    metaDescription: 'Kostenloser Suchbilder-Generator: Versteckte-Objekte-Rätsel mit Ich-sehe-was und Was-passt-nicht-Modus erstellen. Ohne Anmeldung. Kommerzielle Lizenz verfügbar.',
+    titleTag: 'Suchbild erstellen kostenlos | Online Generator | LCS',
+    metaDescription: 'Suchbild kostenlos erstellen — Wimmelspiele und versteckte Objekte online generieren, ohne Anmeldung. Lizenz für Etsy & KDP.',
   },
 
   hero: {
-    title: 'Suchbilder kostenlos erstellen — Zwei Aktivitätsmodi',
+    title: 'Suchbild erstellen kostenlos — Online Wimmelspiel Generator',
     tagline: 'Dual-Modus-Suchbilder-Generator mit Ich-sehe-was-Modus (überlappungsfreie Suchszenen mit 1–5 versteckten Objekten unter 8–12 Ablenkungsbildern und Legende am unteren Rand) und Welches-passt-nicht-Modus (8–12 gepaarte Bilder mit 1–5 unpaaren Elementen, 50 % größer gerendert), adaptivem Bildgrößenanpassungs-Algorithmus mit 50 Positionstests pro Bild, automatisch generierten Lösungsschlüsseln mit roten Kreis-Markierungen und rein visuellen Rätseln, die weltweit ohne Übersetzung verkauft werden können',
     description: 'Erstellen Sie Suchbilder-Arbeitsblätter kostenlos mit unserem Suchbilder-Generator — direkt im Browser, ohne Anmeldung und ohne Software-Download. Zwei verschiedene Aktivitätsmodi erzeugen grundlegend unterschiedliche Herausforderungen: Der Ich-sehe-was-Modus verteilt 1–5 versteckte Objekte unter 8–12 Ablenkungsbildern über die Seite mit einem überlappungsfreien Platzierungsalgorithmus. Eine Legende am unteren Rand zeigt, welche Objekte gefunden werden müssen. Der Welches-passt-nicht-Modus ordnet gepaarte Bilder mit unpaaren Elementen dazwischen an. Das Dual-Canvas-System generiert automatisch einen Lösungsschlüssel mit roten Kreis-Markierungen. Die Rätsel sind rein visuell und universell einsetzbar ohne Übersetzung. Über 3.100 Illustrationen aus 104 Themen stehen bereit. Exportieren Sie als PDF oder JPEG bei 300 DPI. Die kostenlose Testversion bietet alle Funktionen mit Wasserzeichen — erwerben Sie eine kommerzielle Lizenz, um das Wasserzeichen zu entfernen und Ihre Rätsel zu verkaufen.',
   },

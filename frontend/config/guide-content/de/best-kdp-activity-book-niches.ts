@@ -2,20 +2,20 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Beste KDP Aktivitätenheft-Nischen 2026',
+    primaryKeyword: 'Beste Nischen für KDP-Aktivitätsbücher',
     secondaryKeywords: [
       'profitable Aktivitätsbuch-Kategorien Amazon KDP',
       'KDP Nischenrecherche Aktivitätsbücher Anfänger',
-      'unterversorgte Aktivitätsbuch-Nischen mit Nachfrage',
-      'Amazon BSR Wettbewerbsanalyse Aktivitätsbücher',
+      'unterversorgte Aktivitätsbuch-Nischen Nachfrage',
+      'Amazon BSR Wettbewerbsanalyse Rätselbücher',
     ],
     lsiKeywords: [
-      'Zielgruppen-Segmentierung Vorschule Erwachsene Großdruck',
+      'Zielgruppen-Segmentierung Vorschule Erwachsene',
       'saisonale Nische Feiertag Schulanfang immergrün',
       'Nischenvalidierung Test-Titel Katalogstrategie',
     ],
-    titleTag: 'Beste KDP Aktivitätenheft Nischen (2026) | LCS',
-    metaDescription: 'Beste KDP Aktivitätenheft Nischen 2026: Nachfrage-Analyse, Wettbewerbsbewertung, unterversorgte Kategorien und Nischenvalidierung für profitable Bücher.',
+    titleTag: 'Beste Nischen für KDP-Aktivitätsbücher | LCS',
+    metaDescription: 'Beste Nischen für KDP-Aktivitätsbücher finden: Nachfrage-Analyse, Wettbewerbsbewertung, unterversorgte Kategorien und Nischenvalidierung für profitable Bücher.',
   },
 
   hero: {

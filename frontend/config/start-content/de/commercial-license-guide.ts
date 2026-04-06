@@ -2,23 +2,21 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'Gewerbliche Lizenz für Druckvorlagen erklärt',
+    primaryKeyword: 'Kommerzielle Lizenz für Druckvorlagen Anleitung',
     secondaryKeywords: [
-      'kommerzielle Lizenz Arbeitsblätter verkaufen',
-      'Arbeitsblätter kommerziell verkaufen Etsy Amazon',
-      'Druckvorlagen-Geschäft Lizenzierung Leitfaden',
-      'Arbeitsblatt-Generator kommerzielle Rechte',
+      'Verkaufslizenz Arbeitsblätter verstehen',
+      'kommerzielle Nutzungsrechte Druckvorlagen',
+      'Lizenzmodelle für Printable-Verkäufer',
+      'gewerbliche Lizenz Etsy KDP',
     ],
     lsiKeywords: [
-      'kommerzielle Nutzungslizenz für digitale Downloads',
-      'Lizenzanforderungen für Druckvorlagen-Verkäufer',
-      'Etsy digitale Downloads kommerzielle Lizenz',
-      'Amazon KDP Aktivitätsbuch Lizenzierung',
-      'Arbeitsblatt-Generator Lizenzstufen',
-      'kommerzielle vs persönliche Nutzung Druckvorlagen',
+      'Nutzungsrechte',
+      'Quellenangabe',
+      'Weiterverkauf',
+      'Lizenzvereinbarung',
     ],
-    titleTag: 'Gewerbliche Lizenz für Verkäufer erklärt | LCS',
-    metaDescription: 'Gewerbliche Lizenz für Druckvorlagen-Verkäufer verständlich erklärt. Zwei Lizenzstufen, abgedeckte Plattformen und klare Rechte für Etsy, KDP und Gumroad.',
+    titleTag: 'Kommerzielle Lizenz Druckvorlagen | Anleitung | LCS',
+    metaDescription: 'Alles über kommerzielle Lizenzen für Druckvorlagen. Nutzungsrechte, Verkaufserlaubnis und Lizenzmodelle für Etsy und KDP erklärt.',
   },
 
   hero: {

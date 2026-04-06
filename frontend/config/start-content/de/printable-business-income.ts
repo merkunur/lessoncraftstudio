@@ -2,23 +2,21 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'verdienst druckvorlagen verkauf realistische erwartungen',
+    primaryKeyword: 'Einkommen mit Druckvorlagen-Business aufbauen',
     secondaryKeywords: [
-      'Druckvorlagen-Geschäft Einkommenserwartungen',
-      'realistische Einnahmen Druckvorlagen verkaufen',
-      'Arbeitsblätter online verkaufen Einkommen',
-      'Druckvorlagen-Geschäft Umsatzfaktoren',
+      'mit Druckvorlagen Geld verdienen',
+      'Druckvorlagen Einnahmequellen',
+      'Nebeneinkommen mit Arbeitsblättern',
+      'Druckvorlagen-Business Einnahmen steigern',
     ],
     lsiKeywords: [
-      'Etsy Druckvorlagen-Verkäufer Einnahmen Faktoren',
-      'Amazon KDP Aktivitätsbuch Umsatz Variablen',
-      'Arbeitsblatt-Geschäft Kataloggröße Einkommen',
-      'Druckvorlagen Preisstrategie Marktplatz-Gebühren',
-      'digitaler Download Geschäft Zeitinvestition',
-      'mehrere Einnahmequellen druckbare Produkte',
+      'Einnahmequellen',
+      'Preisgestaltung',
+      'Produktmix',
+      'Umsatzsteigerung',
     ],
-    titleTag: 'Verdienst mit Druckvorlagen-Verkauf | LCS',
-    metaDescription: 'Wie viel verdient man mit Druckvorlagen-Verkauf? Realistische Einkommenserwartungen, Plattform-Gebühren und die Variablen, die Ihren Verdienst bestimmen.',
+    titleTag: 'Einkommen mit Druckvorlagen aufbauen | LCS',
+    metaDescription: 'Einkommen mit Druckvorlagen aufbauen: Einnahmequellen, Preisgestaltung und Produktmix für nachhaltiges Wachstum Ihres Printable-Business.',
   },
 
   hero: {

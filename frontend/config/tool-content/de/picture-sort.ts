@@ -2,24 +2,25 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'kostenloser sortier arbeitsblatt maker arbeitsblätter kostenlos erstellen online',
+    primaryKeyword: 'Sortier-Arbeitsblatt kostenlos erstellen',
     secondaryKeywords: [
-      'Sortier-Arbeitsblätter kostenlos erstellen',
-      'Bilder-Sortieren Generator online ohne Anmeldung',
-      'kostenlose Sortier-Aktivitäten mit Lösungsschlüssel',
-      'Sortier-Arbeitsblatt Maker mit Zwei-Kategorien kostenlos',
+      'Bilder sortieren Generator kostenlos online',
+      'Kategorien zuordnen Generator gratis',
+      'Sortieren und Klassifizieren kostenlos',
+      'Gruppieren Arbeitsblatt ohne Anmeldung',
     ],
     lsiKeywords: [
-      'Zwei-Kategorien Sortier-Arbeitsblätter Generator',
-      'Bilder-Klassifizierung Ausschneidegitter',
-      'Sortier-Aktivitäten Vorschule Grundschule',
+      'Kategorisieren kostenlos',
+      'Gruppieren',
+      'Einordnen',
+      'Sortierübung',
     ],
-    titleTag: 'Kostenloser Sortier-Arbeitsblatt Maker | LCS',
-    metaDescription: 'Kostenloser Sortier-Arbeitsblatt Generator: Zwei-Kategorien-Sortierübungen mit Lösungsschlüssel erstellen. Ohne Anmeldung. Kommerzielle Lizenz verfügbar.',
+    titleTag: 'Sortier-Arbeitsblatt kostenlos | Online Generator | LCS',
+    metaDescription: 'Sortier-Arbeitsblätter kostenlos erstellen — Bilder sortieren und klassifizieren mit Themenbildern online, ohne Anmeldung. Lizenz verfügbar.',
   },
 
   hero: {
-    title: 'Sortier-Arbeitsblätter kostenlos erstellen online',
+    title: 'Sortier-Arbeitsblatt kostenlos erstellen — Online Generator',
     tagline: 'Zwei-Kategorien-Sortier-Arbeitsblatt-Generator mit themenbasierter und manueller Bildauswahl, gemischtem Ausschneidegitter mit 4–12 Bildern in 3–4 automatisch angepassten Spalten, gestrichelt umrandeten Kategorierahmen für Links-/Rechts-Sortierbereiche, automatisch generierten Lösungsschlüsseln mit 6× größeren Bildern in Kategorieboxen, lokalisiertem Bilder-Sortieren-Header in 11 Sprachen und 104 thematischen Bildsammlungen für Sortier-Arbeitsblätter, die weltweit verkaufbar sind',
     description: 'Erstellen Sie Sortier-Arbeitsblätter kostenlos mit unserem Sortier-Arbeitsblatt Generator — direkt im Browser, ohne Anmeldung und ohne Software-Download. Nutzer schneiden Bilder aus einem gemischten Gitter aus und sortieren sie in zwei Kategorien — links und rechts. Im Themen-Modus werden Kategorien automatisch aus der Bildbibliothek befüllt; im manuellen Modus wählen Sie einzelne Bilder von Hand aus. Konfigurieren Sie 4–12 Bilder insgesamt mit 2–10 pro Kategorie für flexible Schwierigkeitsgrade. Das Dual-Canvas-System generiert automatisch einen Lösungsschlüssel mit vergrößerten Bildern in Kategorieboxen. Kategoriebeschriftungen aktualisieren sich beim Sprachwechsel automatisch. Über 3.100 Illustrationen aus 104 Themen stehen bereit. Exportieren Sie als PDF oder JPEG bei 300 DPI. Die kostenlose Testversion bietet alle Funktionen mit Wasserzeichen — erwerben Sie eine kommerzielle Lizenz, um das Wasserzeichen zu entfernen und Ihre Arbeitsblätter zu verkaufen.',
   },

@@ -2,25 +2,29 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'Plusaufgaben Arbeitsblätter erstellen und auf Etsy verkaufen',
+    primaryKeyword: 'Additions Arbeitsblätter erstellen',
     secondaryKeywords: [
-      'Additionsaufgaben Generator für Etsy-Verkäufer',
-      'Mathe-Arbeitsblätter für Amazon KDP erstellen',
-      'Rechenblätter mit gewerblicher Lizenz',
-      'Plusaufgaben Druckvorlagen für Online-Verkauf',
-      'Bildbasierte Mathe-Arbeitsblätter für Eduki verkaufen',
+      'Addition Arbeitsblatt Generator',
+      'Additionsaufgaben Generator',
+      'Plus-Rechnen Arbeitsblätter erstellen',
+      'Mathe Arbeitsblätter Addition erstellen',
     ],
     lsiKeywords: [
-      'Gewerbliche Lizenz druckfertig 300 DPI',
-      'Mathe-Druckvorlagen Arbeitsblattgenerator DACH-Markt',
-      'Themenbilder Lösungsschlüssel digitaler Download',
+      'Grundschule',
+      '1. Klasse',
+      '2. Klasse',
+      'Zehnerübergang',
+      'Plusaufgaben',
+      'Rechenaufgaben',
+      'Lösungsblatt',
+      'Kopiervorlage',
     ],
-    titleTag: 'Plusaufgaben erstellen & auf Etsy verkaufen | LCS',
-    metaDescription: 'Erstellen Sie professionelle Plusaufgaben-Arbeitsblätter zum Verkauf auf Etsy & KDP. Gewerbliche Lizenz inklusive. 49 $ einmalig.',
+    titleTag: 'Additions-Arbeitsblätter erstellen | Mathe Generator',
+    metaDescription: 'Erstellen Sie Additions-Arbeitsblätter mit Bildern in Sekunden. Automatische Lösungsblätter, 300 DPI PDF, 11 Sprachen. Kostenlos testen — kommerzielle Lizenz für Etsy & KDP.',
   },
 
   hero: {
-    title: 'Plusaufgaben-Arbeitsblätter erstellen und auf Etsy & KDP verkaufen',
+    title: 'Additions-Arbeitsblätter erstellen — Mathe Generator mit Lösungen',
     tagline: 'Verwandeln Sie Addition in ein spannendes Abenteuer mit bildbasierten Mathe-Arbeitsblättern.',
     description:
       'Erstellen Sie professionelle Plusaufgaben-Arbeitsblätter und verkaufen Sie diese auf Etsy, Amazon KDP oder Eduki — in weniger als 3 Minuten pro Arbeitsblatt. Dieser Generator erstellt bildbasierte Additionsaufgaben mit über 3.000 thematischen Illustrationen, die Kinder ansprechen und Eltern zum Kauf bewegen. Jedes Arbeitsblatt wird als druckfertiges 300-DPI-PDF mit automatischem Lösungsschlüssel exportiert. Die gewerbliche Lizenz ist inklusive: kein Quellennachweis nötig, keine Gebühren, keine Einschränkungen beim Verkauf. Der deutschsprachige Markt für Mathe-Druckvorlagen auf Etsy ist deutlich weniger umkämpft als der englische — eine echte Chance für Ihr Printable-Business im DACH-Raum mit über 100 Millionen potenziellen Kunden. Kostenlos testen mit allen Funktionen — Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',
@@ -199,6 +203,11 @@ const content: AppContent = {
       question: 'Muss ich Software installieren?',
       answer:
         'Nein. Der Additions-Arbeitsblatt-Generator läuft vollständig in Ihrem Webbrowser. Es gibt nichts herunterzuladen, zu installieren oder zu aktualisieren. Er funktioniert in jedem modernen Desktop-Browser, einschließlich Chrome, Firefox, Safari und Edge. Öffnen Sie einfach die Seite und legen Sie los. Dieser Ansatz stellt sicher, dass Sie jede Funktion, jedes Exportformat und jede Themenkombination vor einer Kaufentscheidung vollständig bewerten können, was Ihnen vollständiges Vertrauen in Ihre Investition gibt. Verkäufer, die mehrere Übungsmodi in thematischen Bündeln kombinieren, erzielen durchweg höhere durchschnittliche Bestellwerte, da Eltern und Verkäufer umfassende Aktivitätspakete gegenüber einzelnen Arbeitsblattseiten bevorzugen.',
+    },
+    {
+      question: 'Sind die Arbeitsblätter für die Grundschule geeignet?',
+      answer:
+        'Ja. Die Arbeitsblätter eignen sich für die Grundschule (Deutschland), Volksschule (Österreich) und Primarschule (Schweiz). Sie können den Schwierigkeitsgrad an verschiedene Klassenstufen anpassen — von der 1. Klasse bis zur 4. Klasse. Auch Vorschulkinder und Kindergartenkinder profitieren von den einfacheren Übungsstufen.',
     },
   ],
 

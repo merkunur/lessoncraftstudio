@@ -2,20 +2,20 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Labyrinth-Arbeitsblätter zum Verkaufen erstellen',
+    primaryKeyword: 'Labyrinth erstellen Anleitung',
     secondaryKeywords: [
-      'Labyrinth-Rätsel für Etsy produzieren',
-      'druckbare Labyrinth-Aktivitätsblätter kommerziell verkaufen',
-      'Labyrinth-Aktivitätsbuch auf KDP veröffentlichen',
-      'Labyrinth-Generator für Printable-Verkäufer',
+      'Labyrinth für Etsy erstellen',
+      'Labyrinth Schritt für Schritt Anleitung',
+      'Labyrinth für Anfänger erstellen',
+      'Labyrinth-Arbeitsblätter für KDP erstellen',
     ],
     lsiKeywords: [
-      'Bilderpfad-Arbeitsblätter Etsy-Geschäft',
-      'räumliches Denken Printable Nische verkaufen',
-      'KDP Labyrinth-Aktivitätsbuch veröffentlichen',
+      'Vorschule Grundschule räumliches Denken',
+      'Themenbilder Lösungsschlüssel druckfertig',
+      '3 Spielmodi 300 DPI PDF',
     ],
-    titleTag: 'Labyrinth-Arbeitsblätter für Etsy | LCS',
-    metaDescription: 'Labyrinth-Arbeitsblätter zum Verkaufen erstellen. 3 Spielmodi, thematische Bilder und Lösungsschlüssel. Druckfertige Aktivitätsblätter für Etsy und KDP.',
+    titleTag: 'Labyrinth erstellen | Anleitung | LCS',
+    metaDescription: 'Schritt-für-Schritt Anleitung zum Erstellen von Labyrinthen. 3 Spielmodi, thematische Bilder und automatische Lösungsschlüssel. Kostenlos testen.',
   },
 
   hero: {

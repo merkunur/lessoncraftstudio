@@ -2,23 +2,21 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'Druckvorlagen-Business starten Anleitung 2026',
+    primaryKeyword: 'Druckvorlagen-Business komplett-Anleitung',
     secondaryKeywords: [
-      'Druckvorlagen-Geschäft für Anfänger',
-      'Arbeitsblätter online verkaufen',
-      'Druckvorlagen-Shop aufbauen',
-      'Druckvorlagen-Geschäft Startleitfaden',
+      'Printable Business von Null starten',
+      'Druckvorlagen Business Schritt für Schritt',
+      'Druckvorlagen online verkaufen Anleitung',
+      'Printable Business für Anfänger',
     ],
     lsiKeywords: [
-      'digitaler Download Geschäftsmodell',
-      'Arbeitsblatt-Generator für Verkäufer',
-      'Etsy Druckvorlagen-Shop einrichten',
-      'Amazon KDP Aktivitätsbücher',
-      'Gumroad Arbeitsblätter',
-      'kommerzielle Lizenz Druckvorlagen-Werkzeuge',
+      'Geschäftsplan',
+      'Produkterstellung',
+      'Marktplatzwahl',
+      'erste Verkäufe',
     ],
-    titleTag: 'Druckvorlagen-Business starten (2026) | LCS',
-    metaDescription: 'Druckvorlagen-Business starten: Komplettanleitung für 2026. Von der Nischenwahl über Produkterstellung bis zum ersten Verkauf auf Etsy, KDP und Gumroad.',
+    titleTag: 'Druckvorlagen-Business starten | Komplett-Anleitung | LCS',
+    metaDescription: 'Komplette Anleitung zum Start eines Druckvorlagen-Business. Von der Produkterstellung bis zum ersten Verkauf auf Etsy, KDP oder eigenem Shop.',
   },
 
   hero: {

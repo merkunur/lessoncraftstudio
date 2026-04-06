@@ -2,20 +2,20 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Mathe-Rätsel zum Online-Verkauf erstellen',
+    primaryKeyword: 'Mathe-Rätsel erstellen Anleitung',
     secondaryKeywords: [
-      'Mathe-Rätsel-Arbeitsblätter für Etsy produzieren',
-      'Bilderrekonstruktions-Rätsel kommerziell verkaufen',
-      'druckbare Mathe-Rätsel auf KDP veröffentlichen',
-      'Mathe-Rätsel-Generator für Printable-Verkäufer',
+      'Mathe-Rätsel für Etsy erstellen',
+      'Mathe-Rätsel Schritt für Schritt Anleitung',
+      'Mathe-Rätsel für Anfänger erstellen',
+      'Mathe-Rätsel-Arbeitsblätter für KDP erstellen',
     ],
     lsiKeywords: [
-      'Bilderrätsel Mathe-Druckvorlagen Geschäft',
-      'Etsy Mathe-Rätsel-PDFs verkaufen Nische',
-      'KDP Mathe-Rätsel-Aktivitätsbuch veröffentlichen',
+      'Grundschule Bilderrätsel Gleichungen',
+      'Rastergrößen Lösungsschlüssel druckfertig',
+      '300 DPI PDF Themenbilder',
     ],
-    titleTag: 'Mathe-Rätsel zum Verkaufen erstellen | LCS',
-    metaDescription: 'Mathe-Rätsel zum Verkaufen erstellen. Kinder lösen Gleichungen und setzen Bilder zusammen. Rastergrößen, Lösungsschlüssel und PDFs für Etsy und KDP-Verkauf.',
+    titleTag: 'Mathe-Rätsel erstellen | Anleitung | LCS',
+    metaDescription: 'Schritt-für-Schritt Anleitung zum Erstellen von Mathe-Rätseln. Kinder lösen Gleichungen und setzen Bilder zusammen. Rastergrößen und Lösungsschlüssel. Kostenlos testen.',
   },
 
   hero: {

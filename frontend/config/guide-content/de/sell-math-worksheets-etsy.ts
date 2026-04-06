@@ -2,20 +2,20 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Mathe-Arbeitsblätter auf Etsy verkaufen Anleitung',
+    primaryKeyword: 'Mathe-Arbeitsblätter auf Etsy verkaufen',
     secondaryKeywords: [
-      'Etsy Mathe-Arbeitsblatt-Shop aufbauen',
-      'druckbare Rechenblätter Etsy Geschäft starten',
-      'Mathe-Druckvorlagen Etsy Listing optimieren',
-      'Additions-Arbeitsblätter auf Etsy einstellen',
+      'Etsy Mathe-Druckvorlagen-Shop aufbauen Anleitung',
+      'Rechenblätter Etsy Listing SEO optimieren',
+      'Mathe-Bündel Preisgestaltung Etsy Strategie',
+      'Addition Subtraktion Arbeitsblätter Etsy einstellen',
     ],
     lsiKeywords: [
-      'digitaler Download Mathe-Aktivitäten Angebotsoptimierung',
-      'Etsy SEO Tags druckbare Arbeitsblätter',
-      'Mathe-Bündel Preisstrategie Etsy Verkäufer',
+      'sechs Mathe-Generatoren 13 Tags Angebotsoptimierung',
+      'saisonale Nachfrage Schulanfang Mathe-Übung',
+      'digitaler Download Lösungsschlüssel druckfertig',
     ],
     titleTag: 'Mathe-Arbeitsblätter auf Etsy verkaufen | LCS',
-    metaDescription: 'Mathe-Arbeitsblätter auf Etsy verkaufen: Anleitung zu Etsy-SEO, Angebotsoptimierung, Preisgestaltung und Bündelstrategien für sechs Mathe-Generatoren.',
+    metaDescription: 'Mathe-Arbeitsblätter auf Etsy verkaufen: Etsy-SEO mit allen 13 Tags, Angebotsoptimierung, Preisgestaltung und Buendelstrategien fuer sechs Mathe-Generatoren.',
   },
 
   hero: {

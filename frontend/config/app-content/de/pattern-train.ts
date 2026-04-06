@@ -2,24 +2,26 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'Muster-Übungen erstellen für Printable-Business',
+    primaryKeyword: 'Muster Arbeitsblatt erstellen',
     secondaryKeywords: [
-      'Muster-Übungen erstellen für Etsy verkaufen',
-      'Muster-Zug-Generator für KDP-Übungshefte',
-      'Musterfolge-Arbeitsblätter Printable-Business',
-      'Sequenzmuster-Druckvorlagen Etsy-Shop erstellen',
+      'Musterreihen Generator',
+      'Muster erkennen Arbeitsblatt',
+      'Muster fortsetzen Übungen',
+      'Reihenfolge Arbeitsblatt erstellen',
     ],
     lsiKeywords: [
-      'Frühförderungshefte Amazon KDP Musterübungen',
-      'Druckvorlagen-Geschäft Musterfolge passive Einnahmen',
-      'Zug-Arbeitsblätter fünf Mustertypen Lösungsschlüssel',
+      'AB-Muster',
+      'ABC-Muster',
+      'Reihenfolge',
+      'Was kommt als nächstes?',
+      'Logik',
     ],
-    titleTag: 'Muster-Zug-Generator für Printable-Business | LCS',
-    metaDescription: 'Muster-Übungen erstellen für Ihr Printable-Business — fünf Mustertypen auf thematischen Zugwaggons mit Lösungsschlüssel. 49 $ einmalig.',
+    titleTag: 'Muster-Arbeitsblätter erstellen | Musterreihen Generator',
+    metaDescription: 'Erstellen Sie Muster-Arbeitsblätter mit AB, ABC, ABCD-Mustern und Themenbildern. Automatische Lösungen. Kostenlos testen — auf Etsy & KDP verkaufen.',
   },
 
   hero: {
-    title: 'Muster-Zug-Arbeitsblätter erstellen für Etsy und KDP',
+    title: 'Muster-Arbeitsblätter erstellen — Musterreihen Generator',
     tagline: 'Fünf Mustertypen — AB, AAB, ABB, ABC, AABB — dargestellt auf 11 thematischen Zugwaggons mit einstellbarer Hinweisanzahl von 4 bis 10 für präzise Schwierigkeitskontrolle.',
     description:
       'Erstellen Sie Muster-Übungen mit dem Muster-Zug-Generator und verkaufen Sie einzigartige Arbeitsblätter auf Etsy, Amazon KDP oder Gumroad. Fünf Mustertypen — AB, AAB, ABB, ABC, AABB — erscheinen auf 11 thematischen Zugwaggons, wobei ein Waggon leer bleibt und das fehlende Element bestimmt werden muss. Steuern Sie die Schwierigkeit über die Hinweisanzahl von 4 bis 10. Die Produktmatrix aus fünf Mustertypen und sieben Hinweisstufen erzeugt 35 Schwierigkeitskombinationen — verfügbar in 104 Themen mit über 3.100 Illustrationen. Das textfreie Zug-Format hebt sich sofort von gitterbasierten Konkurrenzprodukten ab und ermöglicht globalen Verkauf ohne Übersetzungsaufwand. Lösungsschlüssel wird automatisch generiert. Exportieren Sie druckfertige PDFs und JPEGs. Die kommerzielle Lizenz umfasst 10 Themen; Vollzugriff schaltet alle 104 Themen und 11 Sprachen frei. Kostenlos testen mit Wasserzeichen.',
@@ -198,6 +200,11 @@ const content: AppContent = {
       question: 'Was ist Ihre Rückgabepolitik?',
       answer:
         'Da die kostenlose Testversion Ihnen Zugang zu jeder Funktion gewährt, bieten wir keine Rückerstattung für kommerzielle Lizenzen an. Sie können jeden Mustertyp, jede Hinweisanzahl-Einstellung, jedes Thema, jedes Exportformat und jede Seitengröße vor dem Kauf testen. Die kostenlose Testversion ist die Rückgabepolitik — stellen Sie sicher, dass das Tool Ihren Anforderungen entspricht, bevor Sie eine Lizenz erwerben.',
+    },
+    {
+      question: 'Sind die Arbeitsblätter für die Grundschule geeignet?',
+      answer:
+        'Ja. Die Arbeitsblätter eignen sich für die Grundschule (Deutschland), Volksschule (Österreich) und Primarschule (Schweiz). Sie können den Schwierigkeitsgrad an verschiedene Klassenstufen anpassen — von der 1. Klasse bis zur 4. Klasse. Auch Vorschulkinder und Kindergartenkinder profitieren von den einfacheren Übungsstufen.',
     },
   ],
 

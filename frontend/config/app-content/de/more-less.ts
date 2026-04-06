@@ -2,24 +2,25 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'Größer-Kleiner-Arbeitsblätter Generator für Etsy',
+    primaryKeyword: 'Mehr oder Weniger Arbeitsblatt erstellen',
     secondaryKeywords: [
-      'Größer-Kleiner-Arbeitsblätter erstellen für Etsy',
-      'Mengenvergleich-Generator für KDP-Übungshefte',
-      'Mehr-oder-Weniger-Druckvorlagen Printable-Business',
-      'Vergleichs-Arbeitsblätter Etsy-Shop verkaufen',
+      'Größer Kleiner Gleich Generator',
+      'Vergleichen Arbeitsblatt Generator',
+      'Mengenvergleich Arbeitsblatt',
+      'Zahlen vergleichen Übungsblatt',
     ],
     lsiKeywords: [
-      'Mathe-Übungshefte Amazon KDP Mengenvergleich',
-      'Druckvorlagen-Geschäft Vergleichsübungen Einnahmen',
-      'drei Vergleichsmodi Check-und-Cross Lösungsschlüssel',
+      'größer als',
+      'kleiner als',
+      'gleich',
+      'Mengen vergleichen',
     ],
-    titleTag: 'Größer-Kleiner-Arbeitsblätter Generator | LCS',
-    metaDescription: 'Größer-Kleiner-Arbeitsblätter für Etsy erstellen — drei Vergleichsmodi mit Check-und-Cross, 104 Themen und Lösungsschlüssel. 49 $ einmalig.',
+    titleTag: 'Mehr oder Weniger Arbeitsblatt erstellen | Vergleich Generator',
+    metaDescription: 'Erstellen Sie Mehr-oder-Weniger-Vergleichs-Arbeitsblätter mit Themenbildern. Automatische Lösungen, 300 DPI PDFs. Kostenlos testen.',
   },
 
   hero: {
-    title: 'Größer-Kleiner-Arbeitsblätter erstellen für Ihr Etsy-Business',
+    title: 'Mehr oder Weniger Arbeitsblatt erstellen — Vergleich Generator',
     tagline: 'Verwandeln Sie Zahlenvergleiche in ein visuelles Entdeckungsabenteuer mit bildbasierten Größer-Kleiner-Arbeitsblättern.',
     description:
       'Erstellen Sie Größer-Kleiner-Arbeitsblätter mit dem Mehr-oder-Weniger-Generator und verkaufen Sie professionelle Vergleichs-Druckvorlagen auf Etsy, Amazon KDP oder Gumroad. Drei Übungsmodi bieten maximale Produktvielfalt: Bild-zu-Bild zeigt zwei Bildergruppen nebeneinander, Bild-zu-Zahl verbindet Zählen mit abstraktem Zahlenverständnis, und der Ankreuzen-und-Durchstreichen-Modus präsentiert gemischte Bilderboxen mit 8 bis 20 Elementen aus zwei Kategorien. Wechseln Sie zwischen gleichen und verschiedenen Bildern, wählen Sie Illustrations- oder Mathematiksymbole und legen Sie den Zahlenbereich von 1 bis 10 fest. Über 3.100 kuratierte Bilder in 104 Themen liefern abwechslungsreiche Inhalte für jede Nische. Jedes Arbeitsblatt enthält einen automatischen Lösungsschlüssel. Das rein bildbasierte Format funktioniert sprachunabhängig in jedem Land weltweit. Exportieren Sie druckfertige PDFs mit über 400 DPI in Letter, A4 oder benutzerdefinierten Größen. Die kommerzielle Lizenz umfasst 10 Themen; Vollzugriff schaltet alle 104 Themen und 11 Sprachen frei. Kostenlos testen mit allen Funktionen — Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',
@@ -198,6 +199,11 @@ const content: AppContent = {
       question: 'Was ist Ihre Rückgabepolitik?',
       answer:
         'Da die kostenlose Testversion Ihnen uneingeschränkten Zugang zu jeder Funktion gewährt, bieten wir keine Rückerstattung für kommerzielle Lizenzen an. Sie können jeden Vergleichsmodus, jedes der 104 Themen, jedes Exportformat, jede Seitengröße, die Bildvielfalt-Einstellung, beide Symbolanzeigemodi und den Graustufen-Export ausgiebig vor dem Kauf testen. Die kostenlose Testversion ist die Rückgabepolitik — stellen Sie sicher, dass das Tool Ihren Anforderungen entspricht, bevor Sie eine Lizenz erwerben.',
+    },
+    {
+      question: 'Sind die Arbeitsblätter für die Grundschule geeignet?',
+      answer:
+        'Ja. Die Arbeitsblätter eignen sich für die Grundschule (Deutschland), Volksschule (Österreich) und Primarschule (Schweiz). Sie können den Schwierigkeitsgrad an verschiedene Klassenstufen anpassen — von der 1. Klasse bis zur 4. Klasse. Auch Vorschulkinder und Kindergartenkinder profitieren von den einfacheren Übungsstufen.',
     },
   ],
 

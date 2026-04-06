@@ -2,24 +2,25 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'Suchbilder-Generator Etsy KDP verkaufen',
+    primaryKeyword: 'Suchbild erstellen',
     secondaryKeywords: [
-      'Versteckte-Objekte-Arbeitsblätter erstellen für Etsy',
-      'Ich-sehe-was-Generator für KDP-Arbeitsbücher',
-      'Was-passt-nicht-Druckvorlagen verkaufen',
-      'Suchbild-Generator kommerzielle Lizenz',
+      'Suchbild Generator',
+      'Versteckte Objekte Arbeitsblatt',
+      'Wimmelspiel erstellen',
+      'I-Spy Arbeitsblatt Generator',
     ],
     lsiKeywords: [
-      'Printable-Business visuelle Suchaktivitäten erstellen',
-      'Suchbilder Druckvorlagen Einkommensquelle',
-      'versteckte Objekte Arbeitsblatt Generator Etsy',
+      'Wimmelbilder',
+      'Suchen und Finden',
+      'visuelle Wahrnehmung',
+      'Konzentration',
     ],
-    titleTag: 'Suchbilder-Generator für Etsy und KDP | LCS',
-    metaDescription: 'Suchbilder-Generator für Etsy und KDP verkaufen. Ich-sehe-was und Was-passt-nicht Modi, automatischer Lösungsschlüssel. 49 $ einmalig.',
+    titleTag: 'Suchbild erstellen | Versteckte-Objekte Generator',
+    metaDescription: 'Erstellen Sie Suchbilder und Wimmelspiele mit Themenbildern. Automatische Lösungen, 300 DPI PDFs. Kostenlos testen — auf Etsy & KDP verkaufen.',
   },
 
   hero: {
-    title: 'Suchbilder-Generator — Druckvorlagen für Etsy und KDP',
+    title: 'Suchbild erstellen — Versteckte-Objekte Generator',
     tagline: 'Zwei Aktivitätsmodi in einem Generator — Ich-sehe-was-Suchszenen mit überlappungsfreier Platzierung und Welches-passt-nicht-Reihen mit gepaarten Bildern — mit automatisch generierten Lösungsschlüsseln, adaptiver Bildgrößenanpassung, Namens- und Datumsfeldern und einer Legende am Seitenende.',
     description:
       'Sie möchten Suchbilder erstellen und als Druckvorlagen auf Etsy oder in KDP-Arbeitsbüchern verkaufen? Dieser Generator bietet zwei Aktivitätsmodi: Der Ich-sehe-was-Modus verteilt 1–5 versteckte Objekte unter 8–12 Ablenkungsbildern über die Seite — überlappungsfrei platziert durch einen intelligenten Algorithmus, der 50 Positionen pro Bild testet. Der Was-passt-nicht-Modus ordnet gepaarte Bilder in Reihen an, wobei unpaare Elemente identifiziert werden müssen. Beide Modi generieren automatisch einen Lösungsschlüssel mit roten Markierungen. Die integrierte Bildbibliothek umfasst über 3.100 Illustrationen in 104 Themen. Das rein visuelle Format ohne Text ermöglicht globalen Verkauf ohne Übersetzungsaufwand — ein Produkt für jeden Markt weltweit. Exportieren Sie druckfertige PDFs und JPEGs mit 300 DPI in Letter, A4 oder benutzerdefinierten Größen. Kostenlos testen mit allen Funktionen — Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',
@@ -198,6 +199,11 @@ const content: AppContent = {
       question: 'Was ist Ihre Rückgabepolitik?',
       answer:
         'Da die kostenlose Testversion Ihnen vollständigen Zugang zu jeder Funktion gewährt, bieten wir keine Rückerstattung für kommerzielle Lizenzen an. Sie können beide Aktivitätsmodi, konfigurierbare Suchobjekt- und Ablenkungsbild-Anzahlen, den überlappungsfreien Platzierungsalgorithmus, den automatisch generierten Lösungsschlüssel, die vollständige Bildbibliothek mit 104 thematischen Sammlungen, Hintergrund- und Rahmenthemen mit unabhängigen Deckkraftreglern, Namens- und Datumsfelder und alle Download-Formate in 300 DPI vor dem Kauf ausgiebig testen. Die kostenlose Testversion ist die Rückgabepolitik — stellen Sie sicher, dass das Tool Ihren Anforderungen entspricht, bevor Sie eine Lizenz erwerben. Es ist keine zeitliche Begrenzung für die Testphase vorgesehen — erstellen Sie so viele Suchbilder wie Sie möchten und überzeugen Sie sich in Ruhe von der Qualität.',
+    },
+    {
+      question: 'Sind die Arbeitsblätter für die Grundschule geeignet?',
+      answer:
+        'Ja. Die Arbeitsblätter eignen sich für die Grundschule (Deutschland), Volksschule (Österreich) und Primarschule (Schweiz). Sie können den Schwierigkeitsgrad an verschiedene Klassenstufen anpassen — von der 1. Klasse bis zur 4. Klasse. Auch Vorschulkinder und Kindergartenkinder profitieren von den einfacheren Übungsstufen.',
     },
   ],
 

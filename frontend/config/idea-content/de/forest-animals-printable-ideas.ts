@@ -2,20 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'Waldtiere-Druckvorlagen auf Etsy verkaufen',
+    primaryKeyword: 'Waldtiere-Druckvorlagen Nische Etsy',
     secondaryKeywords: [
-      'Waldtier-Arbeitsblätter auf Etsy erstellen',
-      'Wald-Tierwelt-Druckvorlagen auf KDP verkaufen',
-      'Fuchs-Hirsch-Eule Aktivitätsblätter für Gumroad',
-      'Wald-Natur-Lernmaterialien für Druckvorlagen-Shops',
+      'Waldtiere Arbeitsblätter auf Etsy verkaufen',
+      'Waldtiere Druckvorlagen Geschäftsideen',
+      'Waldtiere Nische Wettbewerbsanalyse',
+      'profitable Waldtiere Druckvorlagen',
     ],
     lsiKeywords: [
-      'Naturthema Druckvorlagen Ganzjahres-Nische',
-      'Waldtiere-Bildungsthema Arbeitsblatt-Markt',
-      'Fuchs-Bär-Reh Lernmaterialien Etsy-Verkauf',
+      'Fuchs Bär Eule Reh Arbeitsblätter',
+      'Naturthema Wald Druckvorlagen ganzjährig',
+      'Waldtiere Lebensraum Nische Etsy-Shop',
     ],
-    titleTag: 'Waldtiere-Druckvorlagen für Etsy | LCS',
-    metaDescription: 'Waldtiere-Druckvorlagen auf Etsy verkaufen — Bären, Füchse und Eulen als profitable Nische. Produktideen, Plattformstrategien und Preistipps für Verkäufer.',
+    titleTag: 'Waldtiere-Druckvorlagen Nische für Etsy | LCS',
+    metaDescription: 'Waldtiere-Druckvorlagen als profitable Etsy-Nische entdecken. Bären, Füchse und Eulen als Evergreen-Thema — Produktideen und Wettbewerbsanalyse für Ihren Shop.',
   },
   hero: {
     title: 'Waldtiere-Druckvorlagen auf Etsy verkaufen',

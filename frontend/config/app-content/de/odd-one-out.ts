@@ -2,24 +2,25 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'Was-passt-nicht-Rätsel erstellen für Etsy und KDP',
+    primaryKeyword: 'Was passt nicht Arbeitsblatt erstellen',
     secondaryKeywords: [
-      'Was-passt-nicht-Rätsel erstellen für Etsy verkaufen',
-      'Ausreißer-Rätsel-Generator für KDP-Rätselbücher',
-      'visuelle Unterscheidungs-Druckvorlagen Printable-Business',
-      'Was-passt-nicht-Arbeitsblätter Etsy-Shop erstellen',
+      'Ausreißer finden Arbeitsblatt Generator',
+      'Was gehört nicht dazu Generator',
+      'Klassifikation Rätsel erstellen',
+      'Logik Arbeitsblatt Generator',
     ],
     lsiKeywords: [
-      'Rätselbücher Amazon KDP Ausreißer veröffentlichen',
-      'Druckvorlagen-Geschäft visuelle Rätsel Einnahmen',
-      'Identisch-Modus Ähnlich-Modus 104 Themen',
+      'Kategorie',
+      'Oberbegriff',
+      'logisches Denken',
+      'Klassifizieren',
     ],
-    titleTag: 'Was-passt-nicht-Rätsel Generator für Etsy | LCS',
-    metaDescription: 'Was-passt-nicht-Rätsel erstellen für Etsy und KDP — Identisch- und Ähnlich-Modus, rein visuelle Rätsel in 104 Themen. 49 $ einmalig.',
+    titleTag: 'Was-passt-nicht Arbeitsblatt erstellen | Logik Generator',
+    metaDescription: 'Erstellen Sie Was-passt-nicht-Arbeitsblätter mit Themenbildern für logisches Denken. Automatische Lösungen, druckfertige PDFs. Kostenlos testen.',
   },
 
   hero: {
-    title: 'Was-passt-nicht-Rätsel erstellen für Etsy-Druckvorlagen',
+    title: 'Was-passt-nicht Arbeitsblatt erstellen — Logik Generator',
     tagline: 'Zwei Erzeugungsmodi — Identisch und Ähnlich — mit Modus-Überschreibung pro Übung, 5–10 konfigurierbaren Übungen, automatisch generierten Lösungsschlüsseln mit roten Kreismarkierungen und rein visuellen Rätseln, die in allen 11 Sprachen ohne Übersetzung funktionieren.',
     description:
       'Erstellen Sie Was-passt-nicht-Rätsel mit dem Ausreißer-Generator und verkaufen Sie Druckvorlagen auf Etsy, Amazon KDP oder Gumroad. Zwei Erzeugungsmodi bieten unterschiedliche Herausforderungen: Identisch-Modus für Finde-den-Unterschied-Aufgaben und Ähnlich-Modus für thematische Ausreißer-Erkennung. Überschreiben Sie den Modus pro Übung, um Schwierigkeitsgrade auf einer Seite zu mischen. Konfigurieren Sie 5 bis 10 Übungen pro Arbeitsblatt mit automatischem Lösungsschlüssel mit roten Kreismarkierungen. Über 3.100 Illustrationen in 104 Themen liefern abwechslungsreiche Inhalte. Das vollständig visuelle Format ermöglicht globalen Verkauf ohne Übersetzungsaufwand. Exportieren Sie druckfertige PDFs und JPEGs mit 300 DPI. Die kommerzielle Lizenz umfasst 10 Themen; Vollzugriff schaltet alle 104 Themen und 11 Sprachen frei. Kostenlos testen mit Wasserzeichen.',
@@ -198,6 +199,11 @@ const content: AppContent = {
       question: 'Was ist Ihre Rückgabepolitik?',
       answer:
         'Da die kostenlose Testversion Ihnen vollständigen Zugang zu jeder Funktion gewährt, bieten wir keine Rückerstattung für kommerzielle Lizenzen an. Sie können beide Erzeugungsmodi, das Modus-Überschreibungssystem pro Übung, den automatisch generierten Lösungsschlüssel, die vollständige Bildbibliothek, Hintergrund- und Rahmenthemen, Name-und-Datum-Felder, Übungsnummern und alle Download-Formate vor dem Kauf ausgiebig testen. Die kostenlose Testversion ist die Rückgabepolitik — stellen Sie sicher, dass das Tool Ihren Anforderungen entspricht, bevor Sie eine Lizenz erwerben. Es ist keine zeitliche Begrenzung für die Testphase vorgesehen — erstellen Sie so viele Arbeitsblätter wie Sie möchten und überzeugen Sie sich in Ruhe von der Qualität, bevor Sie sich für einen Kauf entscheiden.',
+    },
+    {
+      question: 'Sind die Arbeitsblätter für die Grundschule geeignet?',
+      answer:
+        'Ja. Die Arbeitsblätter eignen sich für die Grundschule (Deutschland), Volksschule (Österreich) und Primarschule (Schweiz). Sie können den Schwierigkeitsgrad an verschiedene Klassenstufen anpassen — von der 1. Klasse bis zur 4. Klasse. Auch Vorschulkinder und Kindergartenkinder profitieren von den einfacheren Übungsstufen.',
     },
   ],
 

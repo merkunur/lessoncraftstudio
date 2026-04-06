@@ -2,20 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'Physische Druckprodukte Geschäftsideen',
+    primaryKeyword: 'Physische Druckvorlagen-Produkte Geschäftsidee',
     secondaryKeywords: [
-      'gedruckte Arbeitsblätter auf Etsy versenden',
-      'laminierte Lernmaterialien auf Kunstmessen',
-      'Premium-Druckprodukte als physische Ware',
-      'Versand-Druckvorlagen Etsy-Geschäftsmodell',
+      'Physische Druckvorlagen-Produkte auf Etsy verkaufen',
+      'Physische Druckvorlagen-Produkte Geschäftsideen',
+      'Physische Druckvorlagen-Produkte Nische Wettbewerbsanalyse',
+      'profitable Physische Druckvorlagen-Produkte',
     ],
     lsiKeywords: [
-      'physische Produkte höhere Margen Druckvorlagen',
       'laminierte Arbeitsblätter Premium-Preise',
-      'greifbare Lernmaterialien Direktvertrieb',
+      'gedruckte Hefte Direktvertrieb Etsy',
+      'physische Produkte höhere Margen Nische',
     ],
-    titleTag: 'Physische Druckprodukte Geschäftsideen | LCS',
-    metaDescription: 'Physische Druckprodukte als Premium-Geschäftsidee. Laminierte Arbeitsblätter und gebundene Hefte auf Etsy und Kunstmessen mit höheren Margen als Downloads.',
+    titleTag: 'Physische Druckvorlagen-Produkte Idee | LCS',
+    metaDescription: 'Physische Druckvorlagen-Produkte als Premium-Geschäftsidee entdecken. Laminierte Arbeitsblätter und gebundene Hefte mit höheren Margen als digitale Downloads.',
   },
   hero: {
     title: 'Physische Druckprodukte — Premium-Geschäftsideen für Verkäufer',

@@ -1,24 +1,25 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'kostenloser Mathe-Rätsel Generator',
+    primaryKeyword: 'kostenloser Mathe Rätsel Generator',
     secondaryKeywords: [
-      'Mathe-Rätsel Generator kostenlos online',
-      'Jigsaw-Puzzle-Arbeitsblätter erstellen ohne Anmeldung',
-      'Mathe-Puzzle Generator sofort nutzen',
-      'kostenlose Mathe-Rätsel mit Bildern erstellen',
+      'Mathe Puzzle online erstellen kostenlos',
+      'Bilder-Mathe-Rätsel Generator gratis',
+      'Knobelaufgaben Mathe kostenlos erstellen',
+      'Mathematik Rätsel ohne Anmeldung',
     ],
     lsiKeywords: [
-      'Bildraster-Puzzle-Arbeitsblätter druckfertig',
-      'Jigsaw-Mathe-Aktivität für Kinder',
-      'konfigurierbarer Mathe-Puzzle-Generator',
+      'Bilderrätsel kostenlos',
+      'Knobelaufgabe',
+      'Denksport',
+      'Logik',
     ],
-    titleTag: 'Kostenloser Mathe-Rätsel Generator | LCS',
-    metaDescription: 'Kostenloser Mathe-Rätsel Generator — Jigsaw-Puzzle-Arbeitsblätter mit Bildern online erstellen, ohne. Verkaufen Sie auf Etsy & KDP mit gewerblicher Lizenz.',
+    titleTag: 'Kostenloser Mathe Rätsel Generator Online | LCS',
+    metaDescription: 'Kostenloser Mathe Rätsel Generator — Bilder-Mathe-Puzzle online erstellen, ohne Anmeldung. Automatische Lösungen. Lizenz für Etsy & KDP.',
     },
 
   hero: {
-    title: 'Mathe-Rätsel Generator — Jigsaw-Puzzles kostenlos erstellen',
+    title: 'Kostenloser Mathe Rätsel Generator Online',
     tagline: 'Puzzle-Mathe-Arbeitsblätter im Jigsaw-Stil in unter 60 Sekunden erstellen',
     description: 'Unser kostenloser Mathe-Rätsel Generator verwandelt Mathe-Übungen in fesselnde visuelle Puzzles — direkt im Browser, ohne Anmeldung und ohne Installation. Das Tool zerlegt ein gewähltes Bild in ein Raster aus Zellen, die jeweils eine Mathe-Gleichung enthalten. Darunter erscheinen durcheinander geworfene Puzzleteile mit Lösungszahlen — Nutzer lösen jede Gleichung und ordnen das richtige Teil zu, um das Bild zu rekonstruieren. Wählen Sie aus drei Rechenarten: Addition, Subtraktion oder Gemischt. Passen Sie die Rastergröße von 2x2 (4 Teile) bis 4x4 (16 Teile) an jedes Fähigkeitsniveau an. Laden Sie eigene Bilder hoch oder durchstöbern Sie die integrierte Bibliothek mit über 3.100 Bildern in 104 Themen. Graustufen-Export für tintenschonende Ausgabe und automatische Lösungsschlüssel-Generierung sind integriert. Die kostenlose Testversion bietet sämtliche Funktionen mit einem Wasserzeichen auf Downloads. Für den kommerziellen Einsatz können Sie eine Lizenz erwerben, die das Wasserzeichen entfernt und volle Verkaufsrechte freischaltet.',
   },

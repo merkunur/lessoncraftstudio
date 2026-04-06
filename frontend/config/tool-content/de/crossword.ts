@@ -1,24 +1,25 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'kostenloser Kreuzworträtsel-Generator mit Bildern',
+    primaryKeyword: 'Kreuzworträtsel erstellen kostenlos',
     secondaryKeywords: [
-      'Kreuzworträtsel-Generator kostenlos online',
-      'Bilderkreuzworträtsel erstellen ohne Anmeldung',
-      'Kreuzworträtsel Generator sofort nutzen',
-      'kostenloses Kreuzworträtsel mit Bildern generieren',
+      'Kreuzworträtsel Generator kostenlos online',
+      'eigenes Kreuzworträtsel erstellen gratis',
+      'Bilder-Kreuzworträtsel Generator ohne Anmeldung',
+      'Kreuzworträtsel mit Bildern kostenlos',
     ],
     lsiKeywords: [
-      'Bilderkreuzworträtsel Vokabelübung druckfertig',
-      'sprachabhängiger Kreuzworträtsel-Generator',
-      'automatischer Lösungsschlüssel Kreuzworträtsel',
+      'Rätselgitter kostenlos',
+      'Hinweise',
+      'Schule',
+      'PDF ausdrucken',
     ],
-    titleTag: 'Kostenloser Kreuzworträtsel-Generator | LCS',
-    metaDescription: 'Kostenloser Kreuzworträtsel-Generator — Bilderkreuzworträtsel online erstellen, ohne Anmeldung oder. Verkaufen Sie auf Etsy & KDP mit gewerblicher Lizenz.',
+    titleTag: 'Kreuzworträtsel erstellen kostenlos | Online Generator | LCS',
+    metaDescription: 'Kreuzworträtsel kostenlos erstellen — Bilder-Kreuzworträtsel auf 15×15-Gitter, ohne Anmeldung. Automatische Lösungen. Lizenz für Etsy & KDP.',
     },
 
   hero: {
-    title: 'Kreuzworträtsel-Generator — Bilderrätsel kostenlos erstellen',
+    title: 'Kreuzworträtsel erstellen kostenlos — Online Bilder-Rätsel Generator',
     tagline: 'Bilderkreuzworträtsel-Generator mit Bildhinweisen auf festem 15×15-Raster, vier Eingabemethoden (Schnelle Themen-Generierung, Manuelle Bildnamen-Bearbeitung, Benutzerdefinierte Wortliste mit Hinweisen und Eigene Bilder hochladen), automatisch generiertem Lösungsschlüssel mit ausgefülltem Raster über Dual-Canvas-System, sprachabhängigen Kreuzwortwörtern in 11 Sprachen über das Bildvokabular-System und lokalisiertem blauen Header (#5B9BD5) mit Fredoka-Titel und Quicksand-Beschreibung über 104 thematische Bildsammlungen',
         description: 'Unser kostenloser Kreuzworträtsel-Generator erstellt professionelle Bilderkreuzworträtsel — direkt im Browser, ohne Anmeldung und ohne Installation. Farbenfrohe Bilder ersetzen die traditionellen Text-Hinweise: Acht Bilder erzeugen acht Wörter auf einem festen 15x15-Raster mit optimaler Kreuzung an gemeinsamen Buchstaben. Wählen Sie aus vier Eingabemethoden: Schnelle Themen-Generierung für sofortige Rätsel, manuelle Bildnamen-Bearbeitung für präzise Kontrolle, benutzerdefinierte Wortliste mit Hinweisen für Text-Kreuzworträtsel oder eigene Bilder hochladen. Das Tool ist sprachabhängig — ein Katzenbild erzeugt KATZE auf Deutsch, CAT auf Englisch, CHAT auf Französisch. Das Dual-Canvas-System generiert sowohl Rätsel als auch ausgefüllten Lösungsschlüssel. Durchstöbern Sie 104 thematische Sammlungen mit über 3.100 Illustrationen. Exportieren Sie als PDF oder JPEG in Letter, A4 oder benutzerdefinierten Größen. Die kostenlose Testversion bietet sämtliche Funktionen mit einem Wasserzeichen auf Downloads. Für den kommerziellen Einsatz können Sie eine Lizenz erwerben, die das Wasserzeichen entfernt und volle Verkaufsrechte freischaltet.',
   },

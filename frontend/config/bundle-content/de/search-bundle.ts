@@ -2,21 +2,21 @@ import type { BundleContent } from '../types';
 
 const content: BundleContent = {
   seo: {
-    primaryKeyword: 'Such-und-Find Arbeitsblatt-Bundle für Verkäufer',
+    primaryKeyword: 'Suchspiel Arbeitsblatt-Generatoren Bundle',
     secondaryKeywords: [
-      'Suchen-Finden-Arbeitsblatt-Generatoren-Paket für Verkäufer',
-      'druckbares Suchbild-Toolkit kommerzielle Nutzung',
-      'Kreuzworträtsel-Schatzsuche-Arbeitsblatt-Paket für Etsy.de',
-      'Suchen-und-Zählen-Aktivitäts-Generatoren für KDP-Verkäufer',
+      'Suchspiel-Bundle für Etsy-Verkäufer',
+      'Suchbild Labyrinth Bundle kaufen',
+      'Such-Generatoren Paket',
+      'Wimmelspiel Fehlende-Teile Bundle',
     ],
     lsiKeywords: [
-      'Suchbild Kreuzworträtsel Schatzsuche Arbeitsblatt-Paket',
-      'mehrsprachige Such-Aktivität druckbare Sammlung',
-      'kommerzielle Lizenz Entdecker-Arbeitsblätter',
-      'Suchen-und-Finden-Arbeitsblatt-Massenproduktion Werkzeug',
+      '4 Generatoren',
+      'Suchen und Finden',
+      'Kategorie-Bundle',
+      'Bis zu 57% sparen',
     ],
-    titleTag: 'Such & Find Bundle für Verkäufer | LCS',
-    metaDescription: 'Such-und-Find Arbeitsblatt-Bundle mit 4 Generatoren für Etsy-Verkäufer. 149 $ einmalig.',
+    titleTag: 'Suchspiel-Arbeitsblatt-Bundle | 4 Generatoren | LCS',
+    metaDescription: 'Suchspiel-Bundle mit 4 Generatoren: Suchbild, Suchen & Zählen, Labyrinth und Fehlende Teile. Bis zu 57% sparen. Kommerzielle Lizenz.',
   },
 
   hero: {

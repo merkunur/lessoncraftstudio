@@ -2,20 +2,20 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Nischenwahl für Druckvorlagen-Business 2026',
+    primaryKeyword: 'Nischenauswahl für Druckvorlagen-Business',
     secondaryKeywords: [
-      'profitable Druckvorlagen-Nische finden',
-      'Nischenvalidierung Printable-Geschäft',
-      'Druckvorlagen Marktlücke identifizieren',
-      'Arbeitsblatt-Nische Wettbewerbsanalyse',
+      'profitable Druckvorlagen-Nische finden validieren',
+      'Nischenvalidierung Printable-Geschäft Framework',
+      'Druckvorlagen Marktlücke Wettbewerbsanalyse',
+      'immergrüne vs saisonale Nischen Druckvorlagen',
     ],
     lsiKeywords: [
-      'Marktnachfrage Nischen-Rentabilität Zielgruppe immergrüne Nischen Validierung',
-      'Käuferpersonas Suchvolumen Produktmarktfit Nischentiefe Expansionsstrategie',
-      'unterversorgte Märkte Keyword-Nachfrage Preissetzungsmacht Nischenstapelung',
+      'Marktnachfrage Suchvolumen Rentabilität bewerten',
+      'Käuferpersonas Produktmarktfit Preissetzungsmacht',
+      'unterversorgte Märkte Nischenstapelung Expansion',
     ],
-    titleTag: 'Nischenwahl für Druckvorlagen-Business | LCS',
-    metaDescription: 'Nischenwahl für Ihr Druckvorlagen-Business 2026: Marktnachfrage recherchieren, Wettbewerb analysieren, Rentabilität bewerten und vor dem Start validieren.',
+    titleTag: 'Nischenauswahl Druckvorlagen-Business | LCS',
+    metaDescription: 'Nischenauswahl fuer Ihr Druckvorlagen-Business: Marktnachfrage recherchieren, Wettbewerb analysieren, Rentabilitaet bewerten und vor der Produkterstellung validieren.',
   },
 
   hero: {

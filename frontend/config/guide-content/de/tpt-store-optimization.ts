@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Eduki Shop einrichten und optimieren',
+    primaryKeyword: 'Eduki Shop Optimierung Anleitung',
     secondaryKeywords: [
       'Eduki Suchalgorithmus Rankingfaktoren verstehen',
       'Eduki Verkäufe steigern Shop-Optimierung',
@@ -10,12 +10,12 @@ const content: GuideContent = {
       'Eduki Listing-Konversion Vorschauen verbessern',
     ],
     lsiKeywords: [
-      'Shop-Branding Profilbanner visuelle Identität Fachbereich',
+      'Shop-Branding Profilbanner visuelle Identität',
       'Produktvorschau Miniaturansicht Listing-Optimierung',
       'Eduki Analytik saisonale Planung Katalogskalierung',
     ],
-    titleTag: 'Eduki Shop einrichten & optimieren | LCS',
-    metaDescription: 'Eduki Shop einrichten und optimieren: Suchalgorithmus verstehen, Vorschauen verbessern, Bewertungen. Verkaufen Sie auf Etsy & KDP mit gewerblicher Lizenz.',
+    titleTag: 'Eduki Shop Optimierung Anleitung | LCS',
+    metaDescription: 'Eduki Shop Optimierung Anleitung: Suchalgorithmus verstehen, Vorschauen verbessern, Bewertungen aufbauen und Ihren Eduki-Shop für mehr Verkäufe optimieren.',
   },
 
   hero: {

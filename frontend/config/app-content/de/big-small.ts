@@ -2,24 +2,25 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'Größenvergleich-Arbeitsblätter für Etsy erstellen',
+    primaryKeyword: 'Größenvergleich Arbeitsblatt erstellen',
     secondaryKeywords: [
-      'Größenvergleich-Arbeitsblätter erstellen für Etsy',
-      'Groß-Klein-Generator für KDP-Übungshefte',
-      'Größenunterscheidung Druckvorlagen verkaufen Etsy-Shop',
-      'Groß-Klein-Vergleichs-Arbeitsblätter Printable-Business',
+      'Groß und Klein Arbeitsblatt Generator',
+      'Größen sortieren Übungsblatt',
+      'Größer Kleiner Arbeitsblatt',
+      'Vergleichen Arbeitsblatt Generator',
     ],
     lsiKeywords: [
-      'Frühförderungshefte Amazon KDP Größenvergleich',
-      'Druckvorlagen-Geschäft Größenunterscheidung Einnahmen',
-      'fünf Fragetypen zwei Bildmodi Lösungsschlüssel',
+      'größte',
+      'kleinste',
+      'Größenordnung',
+      'Sortieren nach Größe',
     ],
-    titleTag: 'Größenvergleich-Arbeitsblätter für Etsy | LCS',
-    metaDescription: 'Größenvergleich-Arbeitsblätter für Etsy erstellen — fünf Fragetypen, zwei Bildmodi, 104 Themen mit Lösungsschlüssel. 49 $ einmalig.',
+    titleTag: 'Größenvergleich-Arbeitsblätter erstellen | Groß & Klein Generator',
+    metaDescription: 'Erstellen Sie Größenvergleich-Arbeitsblätter mit Themenbildern. Groß vs. Klein, Sortieren, automatische Lösungen. Kostenlos testen.',
   },
 
   hero: {
-    title: 'Größenvergleich-Arbeitsblätter erstellen für Etsy-Verkäufer',
+    title: 'Größenvergleich-Arbeitsblätter erstellen — Groß & Klein Generator',
     tagline: 'Fünf Fragetypen — Kreise das Große ein, Kreise das Kleine ein, Kreise das Mittlere ein, Nummerierung aufsteigend, Nummerierung absteigend — mit identischen und verschiedenen Bildmodi für visuelle Größenunterscheidung.',
     description:
       'Erstellen Sie Größenvergleich-Arbeitsblätter mit dem Groß-Klein-Generator und verkaufen Sie professionelle Druckvorlagen auf Etsy, Amazon KDP oder Gumroad. Fünf Fragetypen decken jede Größenunterscheidung ab: Kreise das Große ein, Kreise das Kleine ein, Kreise das Mittlere ein, Nummeriere Klein-nach-Groß und Nummeriere Groß-nach-Klein. Zwei Bildmodi verdoppeln Ihre Produktvielfalt — identische Bilder in verschiedenen Größen oder verschiedene Bilder für relatives Größen-Denken. Konfigurieren Sie 1 bis 10 Übungen pro Seite. Die Inhalte stammen aus über 3.100 Illustrationen in 104 Themen, und ein Lösungsschlüssel wird automatisch generiert. Das textfreie Format ermöglicht globalen Verkauf ohne Übersetzungsaufwand. Exportieren Sie druckfertige PDFs und JPEGs mit 300 DPI. Die kommerzielle Lizenz umfasst 10 Themen; Vollzugriff schaltet alle 104 Themen und 11 Sprachen frei. Kostenlos testen mit Wasserzeichen.',
@@ -198,6 +199,11 @@ const content: AppContent = {
       question: 'Was ist Ihre Rückgabepolitik?',
       answer:
         'Da die kostenlose Testversion Ihnen Zugang zu jeder Funktion gewährt, bieten wir keine Rückerstattung für kommerzielle Lizenzen an. Sie können jeden Fragetyp, jeden Bildmodus, jede Übungskonfiguration, jedes Exportformat und jede Seitengröße vor dem Kauf testen. Die kostenlose Testversion ist die Rückgabepolitik — stellen Sie sicher, dass das Tool Ihren Anforderungen entspricht, bevor Sie eine Lizenz erwerben.',
+    },
+    {
+      question: 'Sind die Arbeitsblätter für die Grundschule geeignet?',
+      answer:
+        'Ja. Die Arbeitsblätter eignen sich für die Grundschule (Deutschland), Volksschule (Österreich) und Primarschule (Schweiz). Sie können den Schwierigkeitsgrad an verschiedene Klassenstufen anpassen — von der 1. Klasse bis zur 4. Klasse. Auch Vorschulkinder und Kindergartenkinder profitieren von den einfacheren Übungsstufen.',
     },
   ],
 

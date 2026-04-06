@@ -5,17 +5,17 @@ const content: GuideContent = {
     primaryKeyword: 'Urheberrecht für Druckvorlagen-Verkäufer',
     secondaryKeywords: [
       'Arbeitsblätter vor Kopieren schützen Etsy',
-      'schutzfähige Elemente Printable-Produkte',
-      'DMCA-Verfahren Druckvorlagen-Business',
+      'schutzfähige Elemente Printable-Produkte erkennen',
+      'DMCA-Verfahren Druckvorlagen-Business einleiten',
       'Urheberrechtsverletzung digitale Produkte melden',
     ],
     lsiKeywords: [
-      'geistiges Eigentum Originalwerk Registrierung Urheberrechtsvermerk automatischer Schutz',
-      'Fair Use Gemeinfreiheit abgeleitete Werke schutzfähige Elemente kreative Ausdrucksform',
-      'Marktplatz IP-Schutz Content-Scraping Urheberrechtsbewusstsein Konformität',
+      'geistiges Eigentum Originalwerk Registrierung automatischer Schutz',
+      'Fair Use Gemeinfreiheit abgeleitete Werke kreative Ausdrucksform',
+      'Marktplatz IP-Schutz Content-Scraping Konformität',
     ],
-    titleTag: 'Urheberrecht für Printable-Verkäufer | LCS',
-    metaDescription: 'Urheberrecht für Druckvorlagen-Verkäufer: schutzfähige Elemente, Registrierung, DMCA-Durchsetzung und Vermeidung von Urheberrechtsverletzungen im Business.',
+    titleTag: 'Urheberrecht für Druckvorlagen-Verkäufer | LCS',
+    metaDescription: 'Urheberrecht für Druckvorlagen-Verkäufer verstehen: Schutzfähige Elemente, Registrierung, DMCA-Durchsetzung und Vermeidung von Verletzungen im Printable-Business.',
   },
 
   hero: {

@@ -2,21 +2,21 @@ import type { BundleContent } from '../types';
 
 const content: BundleContent = {
   seo: {
-    primaryKeyword: 'Logik-Rätsel-Generatoren für KDP Rätselbücher',
+    primaryKeyword: 'Rätsel Arbeitsblatt-Generatoren Bundle',
     secondaryKeywords: [
-      'Rätsel-Arbeitsblatt-Generatoren-Paket für Verkäufer',
-      'druckbare Logik-Rätsel-Toolkit kommerzielle Nutzung',
-      'Labyrinth-Sudoku-Arbeitsblatt-Paket für Etsy.de',
-      'Rätsel-Aktivitäts-Generatoren für KDP-Verkäufer',
+      'Rätsel-Bundle für Etsy-Verkäufer',
+      'Sudoku Muster Logik Bundle kaufen',
+      'Rätsel-Generatoren Paket',
+      'Schatzsuche Logik-Rätsel Bundle',
     ],
     lsiKeywords: [
-      'Fehlende-Puzzleteile Sudoku Labyrinth Arbeitsblatt-Paket',
-      'Was-passt-nicht Logik-Rätsel druckbare Sammlung',
-      'kommerzielle Lizenz Rätsel-Arbeitsblätter',
-      'Rätsel-Arbeitsblatt-Massenproduktion Werkzeug',
+      '4 Generatoren',
+      'Logik Denksport',
+      'Kategorie-Bundle',
+      'Bis zu 57% sparen',
     ],
-    titleTag: 'Logik-Rätsel-Bundle für KDP Bücher | LCS',
-    metaDescription: 'Logik-Rätsel-Generatoren-Bundle mit 4 Apps für KDP-Rätselbücher. 149 $ einmalig.',
+    titleTag: 'Rätsel-Arbeitsblatt-Bundle | 4 Generatoren | LCS',
+    metaDescription: 'Rätsel-Bundle mit 4 Generatoren: Muster, Sudoku, Schatzsuche und Was-passt-nicht. Bis zu 57% sparen. Kommerzielle Lizenz inklusive.',
   },
 
   hero: {

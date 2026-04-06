@@ -2,24 +2,26 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'Gitter-Zuordnungs-Rätsel Printable-Business',
+    primaryKeyword: 'Gitterzeichnung Arbeitsblatt erstellen',
     secondaryKeywords: [
-      'Raster-Puzzle-Generator für Etsy-Verkäufer',
-      'Kachel-Zuordnung Druckvorlagen erstellen KDP',
-      'Bilder-Rasterpuzzle verkaufen kommerzielle Lizenz',
-      'Grid-Match-Arbeitsblatt-Generator mit Lösungsschlüssel',
+      'Bild abzeichnen Arbeitsblatt Generator',
+      'Gitter-Zeichnen Arbeitsblatt',
+      'Pixel-Zeichnung Arbeitsblatt',
+      'Raster-Zeichnung Generator',
     ],
     lsiKeywords: [
-      'Printable-Business Kachelrätsel Druckvorlagen erstellen',
-      'Raster-Puzzle Arbeitsblätter Einkommensquelle',
-      'Bilder-Kachelpuzzle Generator verkaufen Etsy',
+      'abzeichnen',
+      'Raster',
+      'Koordinaten',
+      'räumliches Denken',
+      'Symmetrie',
     ],
-    titleTag: 'Gitter-Zuordnungs-Rätsel-Generator | LCS',
-    metaDescription: 'Gitter-Zuordnungs-Rätsel erstellen für Ihr Printable-Business. Konfigurierbares Kachelraster mit Hinweiszellen, 104 Themen. 49 $ einmalig.',
+    titleTag: 'Gitter-Zeichnung Arbeitsblatt erstellen | Raster Generator',
+    metaDescription: 'Erstellen Sie Gitterzeichnungs- und Abzeichnen-Arbeitsblätter mit Themenbildern. Automatische Lösungen, druckfertige PDFs. Kostenlos testen.',
   },
 
   hero: {
-    title: 'Gitter-Zuordnungs-Rätsel für Ihr Printable-Business erstellen',
+    title: 'Gitter-Zeichnung Arbeitsblatt erstellen — Raster Generator',
     tagline: 'Verwandeln Sie jedes Bild in ein rasterbasiertes Bildrätsel — teilen Sie es in Kacheln auf, zeigen Sie konfigurierbare Hinweiszellen, mischen Sie die übrigen Kacheln in eine nummerierte Palette und generieren Sie automatisch einen Lösungsschlüssel mit nummerierten Kreis-Overlays über 104 thematische Bildsammlungen.',
     description:
       'Sie möchten Gitter-Zuordnungs-Rätsel als Druckvorlagen für Ihr Printable-Business erstellen? Dieser Generator teilt jedes Bild in ein Kachelraster auf, wobei Nutzer nummerierte Kacheln den korrekten Positionen zuordnen. Konfigurieren Sie das Raster von 2×2 bis 4×4 und legen Sie 1–5 Hinweiszellen fest — weniger Hinweise bedeuten schwierigere Rätsel. Die App mischt die übrigen Kacheln mittels Fisher-Yates-Algorithmus und zeigt sie in einer nummerierten Palette an. Das Doppel-Canvas-System generiert automatisch einen Lösungsschlüssel mit nummerierten Kreisen über jeder Rasterzelle. Die rein visuelle Ausgabe — nur Bildkacheln und Zahlen — ermöglicht globalen Verkauf ohne Übersetzungsaufwand. Die integrierte Bildbibliothek umfasst über 3.100 Illustrationen in 104 Themen. Exportieren Sie druckfertige PDFs und JPEGs mit 300 DPI in Letter, A4 oder benutzerdefinierten Größen. Kostenlos testen mit allen Funktionen — Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',
@@ -198,6 +200,11 @@ const content: AppContent = {
       question: 'Was ist Ihre Rückgabepolitik?',
       answer:
         'Da die kostenlose Testversion Ihnen vollständigen Zugang zu jeder Funktion gewährt, bieten wir keine Rückerstattung für kommerzielle Lizenzen an. Sie können alle Rastergrößen, Hinweiszellen-Konfigurationen, den automatisch generierten Lösungsschlüssel mit nummerierten Overlays, die vollständige Bildbibliothek, Hintergrund- und Rahmenthemen, eigene Bild-Uploads, Textwerkzeuge und alle Download-Formate vor dem Kauf ausgiebig testen. Die kostenlose Testversion ist die Rückgabepolitik — stellen Sie sicher, dass das Tool Ihren Anforderungen entspricht, bevor Sie eine Lizenz erwerben.',
+    },
+    {
+      question: 'Sind die Arbeitsblätter für die Grundschule geeignet?',
+      answer:
+        'Ja. Die Arbeitsblätter eignen sich für die Grundschule (Deutschland), Volksschule (Österreich) und Primarschule (Schweiz). Sie können den Schwierigkeitsgrad an verschiedene Klassenstufen anpassen — von der 1. Klasse bis zur 4. Klasse. Auch Vorschulkinder und Kindergartenkinder profitieren von den einfacheren Übungsstufen.',
     },
   ],
 

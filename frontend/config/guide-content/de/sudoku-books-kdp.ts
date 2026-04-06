@@ -6,16 +6,16 @@ const content: GuideContent = {
     secondaryKeywords: [
       'Bilder-Sudoku Kinder KDP veröffentlichen',
       'Zahlen-Sudoku Erwachsene Rätselbuch Amazon',
-      'Sudoku-Buchserie KDP Wiederholungskauf aufbauen',
-      'Sudoku Schwierigkeitsprogression Rasterformatierung',
+      'Sudoku-Buchserie Wiederholungskauf KDP aufbauen',
+      'Sudoku Schwierigkeitsprogression Raster formatieren',
     ],
     lsiKeywords: [
       'Bilder-Sudoku Logikrätsel Vorschule Kindergarten',
-      'Sudoku-Serie Bände treue Löser Katalog',
-      'Rasterformatierung Seitenlayout Lösungsschlüssel Druck',
+      'Sudoku-Serie treue Löser Katalogaufbau',
+      'Rasterformatierung Seitenlayout Lösungsschlüssel',
     ],
     titleTag: 'Sudoku-Bücher für Amazon KDP erstellen | LCS',
-    metaDescription: 'Sudoku-Bücher für Amazon KDP erstellen: Bilder-Sudoku für Kinder, Zahlen-Sudoku für Erwachsene, Schwierigkeitsprogression und Serienaufbau für treue Käufer.',
+    metaDescription: 'Sudoku-Bücher für Amazon KDP erstellen: Bilder-Sudoku für Kinder, Zahlen-Sudoku für Erwachsene, Schwierigkeitsstufen und Serienaufbau für wiederkehrende Käufer.',
   },
 
   hero: {

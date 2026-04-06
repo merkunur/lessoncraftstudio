@@ -2,21 +2,21 @@ import type { BundleContent } from '../types';
 
 const content: BundleContent = {
   seo: {
-    primaryKeyword: 'Sprach-Rätsel-Generatoren-Bundle für Etsy KDP',
+    primaryKeyword: 'Sprache Arbeitsblatt-Generatoren Bundle',
     secondaryKeywords: [
-      'Sprach-Arbeitsblätter-Paket für Verkäufer',
-      'Lese-Arbeitsblatt-Generator-Paket kommerzielle Nutzung',
-      'Wort-Rätsel-Arbeitsblatt-Paket für Etsy',
-      'mehrsprachige Arbeitsblatt-Generatoren für KDP-Verkäufer',
+      'Sprach-Bundle für Etsy-Verkäufer',
+      'Suchsel Kreuzworträtsel Bundle kaufen',
+      'Wort-Rätsel Generatoren Paket',
+      'Alphabet Schreibübungen Bundle',
     ],
     lsiKeywords: [
-      'Alphabet Handschrift Wortsuche Paket',
-      'Buchstabensalat Kryptogramm druckbare Sammlung',
-      'kommerzielle Lizenz Lese-Arbeitsblätter',
-      'Sprach-Arbeitsblatt-Massenproduktion Werkzeug',
+      '7 Generatoren',
+      'Wortschatz Rechtschreibung',
+      'Kategorie-Bundle',
+      'Bis zu 57% sparen',
     ],
-    titleTag: 'Sprach-Rätsel-Bundle — Auf Etsy verkaufen | LCS',
-    metaDescription: 'Sprach-Rätsel-Generatoren-Bundle mit 7 Apps für Etsy und KDP. Wortsuche, Kryptogramm, Buchstabensalat und mehr in 11 Sprachen — verkaufen Sie... 149 $ einmalig.',
+    titleTag: 'Sprache-Arbeitsblatt-Bundle | 7 Generatoren | LCS',
+    metaDescription: 'Sprache-Arbeitsblatt-Generatoren-Bundle mit 7 Apps: Suchsel, Kreuzworträtsel, Kryptogramm, Schreibübungen und mehr. Bis zu 57% sparen.',
   },
 
   hero: {

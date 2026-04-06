@@ -11,7 +11,7 @@ const baseUrl = 'https://www.lessoncraftstudio.com';
 
 const guidesKeywords: Record<string, string[]> = {
   en: ['printable business guides', 'how to sell printables guides', 'etsy printable tutorials', 'kdp activity book guides', 'create and sell printables guide', 'printable seller strategies'],
-  de: ['Druckvorlagen-Business Anleitungen', 'Arbeitsblätter verkaufen', 'Etsy Druckvorlagen Tutorial', 'KDP Veröffentlichungsanleitung', 'Druckvorlagen erstellen und verkaufen', 'Tipps für Druckvorlagen-Verkäufer'],
+  de: ['Druckvorlagen verkaufen Anleitungen', 'Etsy Druckvorlagen Tutorials', 'KDP Rätselbuch Anleitungen', 'Arbeitsblätter verkaufen Tipps'],
   fr: ['guides business imprimables', 'comment vendre des fiches', 'tutoriel Etsy imprimables', 'guide publication KDP', 'créer et vendre imprimables', 'conseils vendeur imprimables'],
   es: ['guías negocio imprimibles', 'cómo vender fichas Etsy', 'tutorial Etsy KDP imprimibles', 'guía publicación KDP Hotmart', 'crear y vender imprimibles', 'consejos vendedor imprimibles'],
   pt: ['guias negócio imprimíveis', 'como vender fichas', 'tutorial Etsy imprimíveis', 'guia publicação KDP', 'criar e vender imprimíveis', 'dicas vendedor imprimíveis'],
@@ -99,8 +99,8 @@ const guidesContent: Record<string, {
   de: {
     heroTitle: 'Anleitungen',
     heroDescription: 'Schritt-für-Schritt-Anleitungen zum Erstellen und Verkaufen von Druckvorlagen. Von Plattform-Tutorials bis zu Geschäftsstrategien.',
-    metaTitle: 'Anleitungen | Druckvorlagen erstellen & verkaufen | LessonCraftStudio',
-    metaDescription: '65 Schritt-für-Schritt-Anleitungen zum Erstellen und Verkaufen von Druckvorlagen. Plattform-Guides, Tutorials und Geschäftsstrategien für Etsy, KDP, TPT.',
+    metaTitle: '65 Anleitungen: Druckvorlagen erstellen & verkaufen auf Etsy & KDP',
+    metaDescription: 'Schritt-für-Schritt Anleitungen für Etsy SEO, KDP Formatierung, Preisstrategien, Nischenwahl und mehr. Alles für Ihr Druckvorlagen-Business.',
     ctaTitle: 'Jetzt loslegen',
     ctaDescription: 'Alle 33 Druckvorlagen-Generatoren gratis mit Wasserzeichen testen. Keine Anmeldung.',
     ctaButton: 'Generatoren gratis testen',

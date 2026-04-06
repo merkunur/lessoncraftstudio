@@ -2,24 +2,25 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'kostenloser schwungübungen generator kostenlos erstellen acht vorlagen',
+    primaryKeyword: 'Schwungübungen erstellen kostenlos',
     secondaryKeywords: [
-      'Schwungübungen-Arbeitsblätter kostenlos erstellen',
-      'Linienverfolgung-Generator online ohne Anmeldung',
-      'kostenlose Linien-Ziehen-Arbeitsblätter mit Bildpaaren',
-      'Schwungübungen-Generator mit SVG-Vorlagen kostenlos',
+      'Nachspurübungen Generator kostenlos online',
+      'Linien nachfahren Arbeitsblatt gratis',
+      'Feinmotorik Arbeitsblatt erstellen kostenlos',
+      'Vorschule Schwungübungen kostenlos',
     ],
     lsiKeywords: [
-      'Feinmotorik-Arbeitsblätter Linienverfolgung',
-      'SVG-Linienvorlagen Bildpaar-Zuordnung',
-      'Schwungübungen Vorschule Grundschule',
+      'Stifthaltung',
+      'Feinmotorik kostenlos',
+      'gepunktete Linien',
+      'Kurven',
     ],
-    titleTag: 'Kostenloser Schwungübungen-Generator | LCS',
-    metaDescription: 'Kostenloser Schwungübungen-Generator: Linienverfolgung-Arbeitsblätter mit acht SVG-Vorlagen und Bildpaaren erstellen. Ohne Anmeldung. Lizenz verfügbar.',
+    titleTag: 'Schwungübungen erstellen kostenlos | Online Generator | LCS',
+    metaDescription: 'Schwungübungen kostenlos erstellen — Nachspurübungen mit Themenbildern online generieren, ohne Anmeldung. Lizenz für Etsy & KDP.',
   },
 
   hero: {
-    title: 'Schwungübungen kostenlos erstellen — Acht Vorlagen',
+    title: 'Schwungübungen erstellen kostenlos — Online Nachspurübungen Generator',
     tagline: 'Acht SVG-Linienvorlagen mit Bildpaar-Zuordnung, Auto-Füllen aus 104 farbenfrohen Themen und vorlagengesteuerter Seitenausrichtung für professionelle Linienverfolgung-Arbeitsblätter, die weltweit verkaufen',
     description: 'Erstellen Sie Schwungübungen-Arbeitsblätter kostenlos mit unserem Schwungübungen-Generator — direkt im Browser, ohne Anmeldung und ohne Software-Download. Acht SVG-basierte Vorlagen decken eine vollständige Feinmotorik-Progression ab: eine Horizontalvorlage für geradliniges Links-nach-Rechts-Nachzeichnen, eine Vertikalvorlage für Oben-nach-Unten-Striche, vier Kurvenvorlagen für fließende Handgelenkbewegungen und zwei Diagonalvorlagen für bilaterale Koordination. Jede Vorlage platziert 4 oder 5 passende Bildpaare auf gegenüberliegenden Seiten des Linienpfads. Die Vorlagenauswahl steuert automatisch die Seitenausrichtung. Auto-Füllen befüllt sofort alle Paarplätze mit zufälligen Bildern aus 104 Themensammlungen mit über 3.100 Illustrationen. Jedes Arbeitsblatt ist rein visuell ohne Text, universell einsetzbar ohne Übersetzung. Exportieren Sie als druckfertiges PDF oder JPEG bei 300 DPI. Die kostenlose Testversion bietet alle Funktionen mit Wasserzeichen — erwerben Sie eine kommerzielle Lizenz, um das Wasserzeichen zu entfernen und Ihre Arbeitsblätter zu verkaufen.',
   },

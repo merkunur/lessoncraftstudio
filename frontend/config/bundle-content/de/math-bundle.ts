@@ -2,21 +2,21 @@ import type { BundleContent } from '../types';
 
 const content: BundleContent = {
   seo: {
-    primaryKeyword: 'Mathe-Arbeitsblatt-Generatoren-Bundle für Etsy',
+    primaryKeyword: 'Mathe Arbeitsblatt-Generatoren Bundle',
     secondaryKeywords: [
-      'Mathe-Arbeitsblätter-Paket für Verkäufer',
-      'Mathe-Arbeitsblatt-Generator-Paket kommerzielle Nutzung',
-      'druckbare Mathe-Aktivitäten-Paket für Etsy',
-      'Mathe-Arbeitsblatt-Toolkit für KDP-Verkäufer',
+      'Mathe-Bundle für Etsy-Verkäufer',
+      'Rechenaufgaben Generatoren Paket',
+      'Mathe-Arbeitsblatt Bundle kaufen',
+      'Addition Subtraktion Generatoren Bundle',
     ],
     lsiKeywords: [
-      'Addition Subtraktion Arbeitsblatt-Paket',
-      'Mathe-Rätsel druckbare Sammlung',
-      'kommerzielle Lizenz Mathe-Arbeitsblätter',
-      'Mathe-Arbeitsblatt-Massenproduktion Werkzeug',
+      '6 Generatoren',
+      'Grundschule Mathe',
+      'Kategorie-Bundle',
+      'Bis zu 57% sparen',
     ],
-    titleTag: 'Mathe-Arbeitsblatt-Bundle für Etsy | LCS',
-    metaDescription: 'Mathe-Arbeitsblatt-Generatoren-Bundle mit 6 Apps für Etsy und KDP. 149 $ einmalig.',
+    titleTag: 'Mathe-Arbeitsblatt-Bundle | 6 Generatoren | LCS',
+    metaDescription: 'Mathe-Arbeitsblatt-Generatoren-Bundle mit 6 Apps: Addition, Subtraktion, Code-Rätsel, Mathe-Puzzle und mehr. Bis zu 57% sparen. Kommerzielle Lizenz.',
   },
 
   hero: {

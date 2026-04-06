@@ -2,24 +2,27 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'Ausmalbilder-Generator zum Verkaufen auf Etsy und KDP',
+    primaryKeyword: 'Ausmalbilder erstellen',
     secondaryKeywords: [
-      'Ausmalbilder erstellen und auf Etsy verkaufen',
-      'Malvorlagen-Generator für KDP-Ausmalbücher',
-      'druckbare Ausmalseiten für Printable-Business',
-      'Ausmalbilder-Generator kommerzielle Lizenz Etsy',
+      'Ausmalbild Generator',
+      'Malvorlagen erstellen',
+      'eigene Ausmalbilder erstellen',
+      'Ausmalseiten Generator',
     ],
     lsiKeywords: [
-      'Ausmalbücher Amazon KDP veröffentlichen Einnahmen',
-      'Druckvorlagen-Geschäft Malvorlagen passive Einnahmen',
-      'Ausmalseiten Freihand-Werkzeug Graustufen-Export',
+      'Umrisse',
+      'schwarz-weiß',
+      'Themen-Malvorlagen',
+      'Kinder',
+      'Erwachsene',
+      'ausmalen',
     ],
-    titleTag: 'Ausmalbilder-Generator für Etsy und KDP | LCS',
-    metaDescription: 'Ausmalbilder-Generator für Etsy und KDP — erstellen Sie professionelle Malvorlagen mit 104 S/W-Themen und Freihand-Werkzeug. 49 $ einmalig.',
+    titleTag: 'Ausmalbilder erstellen | Malvorlagen Generator',
+    metaDescription: 'Erstellen Sie Ausmalbilder aus 3.000+ Themenbildern. Hochauflösende Umrisse, druckfertige PDFs. Kostenlos testen — auf Etsy & KDP verkaufen.',
   },
 
   hero: {
-    title: 'Ausmalbilder erstellen und auf Etsy oder KDP verkaufen',
+    title: 'Ausmalbilder erstellen — Malvorlagen Generator',
     tagline: 'Freier Arbeitsflächen-Designer für Ausmalseiten — durchsuchen Sie 104 thematische Bildsammlungen mit Schwarzweiß-Umrisszeichnungen, fügen Sie Freihand-Zeichnungen hinzu, integrieren Sie Shop-Helfer wie Namensfelder und Schreiblinien, und aktivieren Sie den Graustufen-Export für tintenschonende Malvorlagen.',
     description:
       'Erstellen Sie verkaufsfertige Ausmalbilder mit dem Ausmalbilder-Generator und bauen Sie Ihr Printable-Business auf Etsy, Amazon KDP oder Gumroad auf. Platzieren Sie Bilder aus über 3.100 Schwarzweiß-Umrisszeichnungen in 104 Themen frei auf der Arbeitsfläche — arrangieren, skalieren, drehen und schichten Sie Elemente nach Belieben. Das integrierte Freihand-Zeichenwerkzeug ergänzt Ihre Malvorlagen um eigene Illustrationen mit einstellbarer Pinselfarbe und Pinselgröße. Shop-Helfer fügen Namensfelder und Handschrift-Übungslinien per Klick hinzu, und der Graustufen-Export wandelt farbige Kompositionen in tintenschonende Ausmalseiten um. Da die Ausgabe rein visuell ist, verkaufen Sie dasselbe Produkt weltweit ohne Übersetzung — ein Workflow für jeden Markt. Exportieren Sie druckfertige PDFs und JPEGs mit 300 DPI in Letter, A4, Quadrat oder benutzerdefinierten Größen. Die kommerzielle Lizenz umfasst 10 Themen; Vollzugriff schaltet alle 104 Themen und 11 Oberflächensprachen frei. Kostenlos testen mit allen Funktionen — Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',
@@ -198,6 +201,11 @@ const content: AppContent = {
       question: 'Was ist Ihre Rückgabepolitik?',
       answer:
         'Da die kostenlose Testversion Ihnen vollständigen Zugang zu jeder Funktion gewährt, bieten wir keine Rückerstattung für kommerzielle Lizenzen an. Sie können die freie Arbeitsfläche, jedes Zeichenwerkzeug, die vollständige Bildbibliothek mit allen 104 Schwarzweiß-Themen, Shop-Helfer, dekorative Rahmenthemen, Graustufen-Export und alle Download-Formate einschließlich PDF und JPEG vor dem Kauf ausgiebig testen. Die kostenlose Testversion ist die Rückgabepolitik — stellen Sie sicher, dass das Tool Ihren Anforderungen entspricht, bevor Sie eine Lizenz erwerben.',
+    },
+    {
+      question: 'Sind die Arbeitsblätter für die Grundschule geeignet?',
+      answer:
+        'Ja. Die Arbeitsblätter eignen sich für die Grundschule (Deutschland), Volksschule (Österreich) und Primarschule (Schweiz). Sie können den Schwierigkeitsgrad an verschiedene Klassenstufen anpassen — von der 1. Klasse bis zur 4. Klasse. Auch Vorschulkinder und Kindergartenkinder profitieren von den einfacheren Übungsstufen.',
     },
   ],
 

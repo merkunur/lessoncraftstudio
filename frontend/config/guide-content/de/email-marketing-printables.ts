@@ -2,20 +2,21 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'E-Mail-Marketing für Druckvorlagen-Verkäufer',
+    primaryKeyword: 'E-Mail-Marketing für Druckvorlagen-Business',
     secondaryKeywords: [
       'E-Mail-Liste Printable-Business aufbauen',
       'Lead-Magnet Arbeitsblatt-Shop erstellen',
       'automatisierte E-Mail-Sequenzen Etsy-Verkäufer',
-      'Newsletter-Strategie digitale Produkte',
+      'Newsletter-Strategie digitale Druckvorlagen',
     ],
     lsiKeywords: [
-      'Abonnentenliste Lead-Magnet Willkommenssequenz E-Mail-Automatisierung Segmentierung',
-      'Öffnungsrate Klickrate Drip-Kampagne Konversionsrate Betreffzeilen-Optimierung',
-      'E-Mail-Dienstleister Listenhygiene Absenderreputation A/B-Testing Personalisierung',
+      'Abonnentenliste Lead-Magnet Willkommenssequenz Segmentierung',
+      'Öffnungsrate Klickrate Drip-Kampagne Konversionsrate',
+      'E-Mail-Dienstleister Listenhygiene A/B-Testing',
+      'DSGVO-konform Absenderreputation Personalisierung',
     ],
-    titleTag: 'E-Mail-Marketing für Printable-Verkäufer | LCS',
-    metaDescription: 'E-Mail-Marketing für Druckvorlagen-Verkäufer: E-Mail-Liste aufbauen, Lead-Magnete erstellen, Sequenzen. Verkaufen Sie auf Etsy & KDP mit gewerblicher Lizenz.',
+    titleTag: 'E-Mail-Marketing für Druckvorlagen | LCS',
+    metaDescription: 'E-Mail-Marketing für Druckvorlagen-Business: E-Mail-Liste aufbauen, Lead-Magnete erstellen, automatisierte Sequenzen und DSGVO-konforme Strategien für Etsy und KDP.',
   },
 
   hero: {

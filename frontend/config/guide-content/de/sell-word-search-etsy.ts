@@ -2,20 +2,20 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Suchsel auf Etsy verkaufen Tipps',
+    primaryKeyword: 'Suchsel auf Etsy verkaufen',
     secondaryKeywords: [
-      'Wortsuchrätsel auf Etsy einstellen Anleitung',
-      'Etsy Rätsel-Shop mehrsprachig aufbauen',
-      'druckbare Wortsuche Etsy Listing optimieren',
-      'Kreuzworträtsel und Suchsel Etsy Geschäft',
+      'Wortsuchrätsel Etsy-Shop mehrsprachig aufbauen',
+      'Suchsel Etsy Listing SEO optimieren',
+      'Rätsel-Bündel Kreuzworträtsel Etsy Strategie',
+      'Wortsuche-Rätsel druckbar Etsy einstellen',
     ],
     lsiKeywords: [
-      'digitaler Download Worträtsel Angebotsoptimierung',
-      'Etsy SEO Tags druckbare Rätsel-Arbeitsblätter',
-      'Rätsel-Bündel Preisstrategie mehrsprachig',
+      'mehrsprachige Worträtsel 11 Sprachen Nische',
+      'Cross-Selling Kreuzworträtsel Buchstabensalat Kryptogramm',
+      'saisonales Timing Etsy SEO 13 Tags Rätsel',
     ],
-    titleTag: 'Suchsel auf Etsy verkaufen — Anleitung | LCS',
-    metaDescription: 'Suchsel auf Etsy verkaufen — Tipps zu Etsy-SEO, mehrsprachigen Worträtsel-Angeboten, Bündelstrategien und saisonalem Timing für Ihren Rätsel-Shop auf Etsy.',
+    titleTag: 'Suchsel auf Etsy verkaufen | LCS',
+    metaDescription: 'Suchsel auf Etsy verkaufen: Etsy-SEO fuer Wortraetsel, mehrsprachige Angebote in 11 Sprachen, Buendelstrategien und saisonales Timing fuer Ihren Raetsel-Shop.',
   },
 
   hero: {

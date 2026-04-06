@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Kundenservice für digitale Produkte',
+    primaryKeyword: 'Kundensupport für digitale Druckvorlagen',
     secondaryKeywords: [
       'Support-System Druckvorlagen-Geschäft aufbauen',
       'Rückerstattungen digitale Downloads handhaben',
@@ -10,12 +10,13 @@ const content: GuideContent = {
       'Bewertungsmanagement Etsy-Verkäufer Strategie',
     ],
     lsiKeywords: [
-      'Supportanfragen-Verwaltung Antwortvorlagen Selbstbedienungs-Support proaktive Dokumentation',
-      'Download-Fehlerbehebung Erwartungsmanagement Kundenbindung professionelle Kommunikation',
-      'skalierbare Support-Systeme Feedback-Schleifen Musterverfolgung Support-Prävention',
+      'Supportanfragen Antwortvorlagen Selbstbedienungs-Support',
+      'Download-Fehlerbehebung Erwartungsmanagement Kundenbindung',
+      'skalierbare Support-Systeme Feedback-Schleifen',
+      'Musterverfolgung proaktive Dokumentation',
     ],
-    titleTag: 'Kundenservice für digitale Produkte | LCS',
-    metaDescription: 'Kundenservice für digitale Produkte: Problemprävention, Antwortvorlagen, Rückerstattungen und skalierbare Support-Systeme für Ihren Printable-Shop auf Etsy.',
+    titleTag: 'Kundensupport für digitale Druckvorlagen | LCS',
+    metaDescription: 'Kundensupport für digitale Druckvorlagen: Problemprävention, Antwortvorlagen, Rückerstattungen und skalierbare Support-Systeme für Ihren Printable-Shop auf Etsy.',
   },
 
   hero: {

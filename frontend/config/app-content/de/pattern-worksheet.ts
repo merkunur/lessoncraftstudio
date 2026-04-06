@@ -2,24 +2,25 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'Muster-Erkennung-Arbeitsblätter für Etsy-Verkäufer',
+    primaryKeyword: 'Muster erkennen Arbeitsblatt Generator',
     secondaryKeywords: [
-      'Mustererkennung-Arbeitsblätter für Etsy erstellen',
-      'Muster-Raster-Generator für KDP-Übungshefte',
-      'Muster-Vervollständigung Druckvorlagen verkaufen',
-      'Sequenzmuster-Arbeitsblätter Printable-Business',
+      'Muster fortsetzen Übungsblatt',
+      'Logische Reihen Arbeitsblatt',
+      'Muster ergänzen Generator',
+      'Sequenz-Arbeitsblatt',
     ],
     lsiKeywords: [
-      'Muster-Übungshefte Amazon KDP veröffentlichen',
-      'Druckvorlagen-Geschäft Mustererkennung Einnahmen',
-      'neun Mustertypen zwei Fragemodi Raster-Übungen',
+      'logisches Denken',
+      'visuelle Muster',
+      'Zahlenmuster',
+      'Reihe ergänzen',
     ],
-    titleTag: 'Muster-Arbeitsblätter Generator für Etsy | LCS',
-    metaDescription: 'Muster-Erkennung-Arbeitsblätter für Etsy-Verkäufer erstellen — neun Mustertypen, zwei Fragemodi, Pro-Übung-Konfiguration. 49 $ einmalig.',
+    titleTag: 'Muster-Erkennung Arbeitsblätter erstellen | Logik Generator',
+    metaDescription: 'Erstellen Sie Muster-Erkennungs-Arbeitsblätter mit visuellen Sequenzen und Themenbildern. Automatische Lösungen, 300 DPI. Kostenlos testen.',
   },
 
   hero: {
-    title: 'Muster-Erkennung-Raster-Generator für Etsy-Verkäufer',
+    title: 'Muster-Erkennung Arbeitsblätter erstellen — Logik Generator',
     tagline: 'Neun Mustertypen von AB bis ABCD — zwei Fragemodi (Lückenfeld und Multiple-Choice) — mit unabhängiger Pro-Übung-Konfiguration für Mustertyp, Fragemodus und Thema auf jeder Seite.',
     description:
       'Erstellen Sie Muster-Erkennung-Arbeitsblätter mit dem Muster-Raster-Generator und verkaufen Sie Druckvorlagen auf Etsy, Amazon KDP oder Gumroad. Neun Mustertypen — von AB bis ABCD — und zwei Fragemodi (Lückenfeld und Multiple-Choice) ergeben 18 verschiedene Übungsstile in 104 Themen. Konfigurieren Sie 1 bis 8 Übungen pro Seite, wobei jede Übung unabhängig für Mustertyp, Fragemodus und Thema eingestellt wird. Zufälliger Start und zufällige Lückenposition sorgen für einzigartige Arbeitsblätter bei jeder Generierung. Das rein visuelle Format ermöglicht globalen Verkauf ohne Übersetzungsaufwand. Lösungsschlüssel wird automatisch generiert. Exportieren Sie druckfertige PDFs und JPEGs. Die kommerzielle Lizenz umfasst 10 Themen; Vollzugriff schaltet alle 104 Themen und 11 Sprachen frei. Kostenlos testen mit Wasserzeichen.',
@@ -198,6 +199,11 @@ const content: AppContent = {
       question: 'Was ist Ihre Rückgabepolitik?',
       answer:
         'Da die kostenlose Testversion Ihnen Zugang zu jeder Funktion gewährt, bieten wir keine Rückerstattung für kommerzielle Lizenzen an. Sie können jeden Mustertyp, jeden Fragemodus, jede Übungskonfiguration, jedes Thema, jedes Exportformat und jede Seitengröße vor dem Kauf testen. Die kostenlose Testversion ist die Rückgabepolitik — stellen Sie sicher, dass das Tool Ihren Anforderungen entspricht, bevor Sie eine Lizenz erwerben.',
+    },
+    {
+      question: 'Sind die Arbeitsblätter für die Grundschule geeignet?',
+      answer:
+        'Ja. Die Arbeitsblätter eignen sich für die Grundschule (Deutschland), Volksschule (Österreich) und Primarschule (Schweiz). Sie können den Schwierigkeitsgrad an verschiedene Klassenstufen anpassen — von der 1. Klasse bis zur 4. Klasse. Auch Vorschulkinder und Kindergartenkinder profitieren von den einfacheren Übungsstufen.',
     },
   ],
 

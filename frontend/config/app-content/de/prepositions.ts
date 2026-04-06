@@ -2,24 +2,28 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'Präpositionen-Arbeitsblätter DaF DaZ Eduki verkaufen',
+    primaryKeyword: 'Präpositionen Arbeitsblatt erstellen',
     secondaryKeywords: [
-      'Ortspräpositionen-Generator für Etsy-Druckvorlagen',
-      'räumliche Beziehungen Arbeitsblätter erstellen KDP',
-      'Präpositionen-Übungen DaF verkaufen kommerzielle Lizenz',
-      'Dativ-Präpositionen Arbeitsblatt-Generator',
+      'Ortsbestimmung Arbeitsblatt Generator',
+      'Verhältniswörter Übungsblatt',
+      'Räumliche Beziehungen Arbeitsblatt',
+      'Lagebeziehungen Arbeitsblatt',
     ],
     lsiKeywords: [
-      'Printable-Business Sprachförderung Druckvorlagen',
-      'Ortspräpositionen Arbeitsblatt verkaufen Eduki Etsy',
-      'DaF DaZ Unterrichtsmaterial Druckvorlagen erstellen',
+      'in',
+      'auf',
+      'unter',
+      'neben',
+      'zwischen',
+      'Ortsangaben',
+      'räumliche Begriffe',
     ],
-    titleTag: 'Präpositionen-Arbeitsblätter für DaF/DaZ | LCS',
-    metaDescription: 'Präpositionen-Arbeitsblätter für DaF/DaZ auf Eduki verkaufen. 8 Ortspräpositionen, Lückentext und Multiple Choice. 49 $ einmalig.',
+    titleTag: 'Präpositionen-Arbeitsblatt erstellen | Ortsangaben Generator',
+    metaDescription: 'Erstellen Sie Präpositionen-Arbeitsblätter für räumliche Begriffe mit Themenbildern. Automatische Lösungen, 11 Sprachen. Kostenlos testen.',
   },
 
   hero: {
-    title: 'Präpositionen-Arbeitsblätter für DaF/DaZ auf Eduki verkaufen',
+    title: 'Präpositionen-Arbeitsblatt erstellen — Ortsangaben Generator',
     tagline: 'Acht Ortspräpositionen treffen auf Bild-und-Form-Übungen — räumliches Vokabular Satz für Satz aufbauen.',
     description:
       'Sie möchten Präpositionen-Arbeitsblätter für DaF/DaZ auf Eduki oder Etsy verkaufen? Dieser Generator erstellt professionelle Übungen für acht zentrale Ortspräpositionen — in, auf, unter, neben, hinter, zwischen, über und vor — in zwei Übungsmodi: Lückentext-Sätze, in denen die fehlende Präposition eingesetzt wird, und Multiple-Choice-Aufgaben mit räumlichen Bildszenen. Wählen Sie über die Checkliste, welche Präpositionen enthalten sein sollen, und konfigurieren Sie 1 bis 8 Übungen pro Arbeitsblatt. Die integrierte Bildbibliothek umfasst über 3.100 Illustrationen in 104 Themen, und 8 geometrische Formen dienen als räumliche Bezugspunkte. Die Vollzugriff-Lizenz schaltet alle 11 Sprachen mit grammatisch korrekten Präpositionen frei — Deutsch mit Dativ-Kontraktionen wie \"im\" und \"am\" samt geschlechtsbewussten Artikeln. Exportieren Sie druckfertige PDFs und JPEGs mit über 400 DPI in Letter, A4 oder benutzerdefinierten Größen. Kostenlos testen mit allen Funktionen — Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',
@@ -198,6 +202,11 @@ const content: AppContent = {
       question: 'Was ist Ihre Rückgabepolitik?',
       answer:
         'Da die kostenlose Testversion Ihnen Zugang zu jeder Funktion gewährt, bieten wir keine Rückerstattung für kommerzielle Lizenzen an. Sie können beide Übungsmodi, jede Präposition, jedes Thema, jede Form und jedes Exportformat vor dem Kauf testen. Die kostenlose Testversion ist die Rückgabepolitik — stellen Sie sicher, dass das Tool Ihren Anforderungen entspricht, bevor Sie eine Lizenz erwerben.',
+    },
+    {
+      question: 'Sind die Arbeitsblätter für die Grundschule geeignet?',
+      answer:
+        'Ja. Die Arbeitsblätter eignen sich für die Grundschule (Deutschland), Volksschule (Österreich) und Primarschule (Schweiz). Sie können den Schwierigkeitsgrad an verschiedene Klassenstufen anpassen — von der 1. Klasse bis zur 4. Klasse. Auch Vorschulkinder und Kindergartenkinder profitieren von den einfacheren Übungsstufen.',
     },
   ],
 

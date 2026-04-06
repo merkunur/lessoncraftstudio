@@ -2,24 +2,25 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'Suchen-und-Zählen-Arbeitsblätter Etsy erstellen',
+    primaryKeyword: 'Suchen und Zählen Arbeitsblatt erstellen',
     secondaryKeywords: [
-      'Ich-sehe-was-Generator für Etsy-Druckvorlagen',
-      'Buchstabenerkennung-Arbeitsblätter verkaufen KDP',
-      'Suchbild-Generator mit Lösungsschlüssel',
-      'Zählaktivitäten Druckvorlagen kommerzielle Lizenz',
+      'Zählen und Finden Generator',
+      'I-Spy Zählrätsel Generator',
+      'Suchbild mit Zählen',
+      'Zählen Arbeitsblatt Generator',
     ],
     lsiKeywords: [
-      'Printable-Business Suchbilder Zählen Aktivitäten',
-      'Suchen-und-Zählen Druckvorlagen Einkommensquelle',
-      'Bildsuchspiel Generator verkaufen Etsy KDP',
+      'Wie viele?',
+      'Strichliste',
+      'visuelle Wahrnehmung',
+      'Zahlenerkennung',
     ],
-    titleTag: 'Suchen-und-Zählen-Generator für Etsy | LCS',
-    metaDescription: 'Suchen-und-Zählen-Arbeitsblätter für Etsy erstellen. Vier Aufgabentypen, Buchstabenerkennung mit ÄÖÜ, 104 Bildthemen. 49 $ einmalig.',
+    titleTag: 'Suchen & Zählen Arbeitsblätter erstellen | Zähl-Generator',
+    metaDescription: 'Erstellen Sie Suchen-und-Zählen-Arbeitsblätter, bei denen Kinder Themenbilder finden und zählen. Automatische Lösungen. Kostenlos testen.',
   },
 
   hero: {
-    title: 'Suchen-und-Zählen-Arbeitsblätter für Etsy erstellen',
+    title: 'Suchen & Zählen Arbeitsblätter erstellen — Zähl-Generator',
     tagline: 'Zwei Aktivitätsmodi in einem Generator — Suchbild (Ich sehe was) und Buchstabenerkennung — mit vier mischbaren Aufgabentypen (einkreisen, umrahmen, durchstreichen, zählen), sprachspezifischen Alphabeten mit Umlauten, lokalisierten Bildbezeichnungen in 11 Sprachen und automatisch generierten Lösungsschlüsseln mit visuellen Markierungen.',
     description:
       'Sie möchten Suchen-und-Zählen-Arbeitsblätter erstellen und als druckbare Produkte auf Etsy verkaufen? Dieser Generator bietet zwei Aktivitätsmodi: Der Suchbild-Modus verteilt Bilder über ein konfigurierbares Raster (5×5 bis 10×10) und ermöglicht bis zu 4 Zielobjekte mit individuellen Aufgabentypen — einkreisen, umrahmen, durchstreichen oder zählen. Der Buchstabenerkennung-Modus zeigt ein sprachspezifisches Alphabet-Raster mit deutschen Sonderbuchstaben ÄÖÜ und generiert Suchbilder mit Bildern, die mit dem ausgewählten Buchstaben beginnen. Das Dual-Canvas-System generiert automatisch einen Lösungsschlüssel mit roten Markierungen und Anzahl-Anzeigen. Der Generator ist sprachabhängig: ein Sprachwechsel ändert die Bildbezeichnungen — \"Cat\" wird zu \"Katze\", Anfangsbuchstaben passen sich an. Die integrierte Bildbibliothek umfasst über 3.100 Illustrationen in 104 Themen. Exportieren Sie druckfertige PDFs und JPEGs mit 300 DPI in Letter, A4 oder benutzerdefinierten Größen. Kostenlos testen mit allen Funktionen — Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',
@@ -198,6 +199,11 @@ const content: AppContent = {
       question: 'Was ist Ihre Rückgabepolitik?',
       answer:
         'Da die kostenlose Testversion Ihnen vollständigen Zugang zu jeder Funktion gewährt, bieten wir keine Rückerstattung für kommerzielle Lizenzen an. Sie können beide Aktivitätsmodi, alle vier Aufgabentypen, den Buchstabenerkennung-Modus mit deutschen Umlauten, konfigurierbare Rasterdimensionen von 5×5 bis 10×10, den automatisch generierten Lösungsschlüssel mit roten visuellen Markierungen, die vollständige Bildbibliothek mit 104 thematischen Sammlungen, Hintergrund- und Rahmenthemen mit unabhängigen Deckkraftreglern und alle Download-Formate in 300 DPI vor dem Kauf ausgiebig testen. Die kostenlose Testversion ist die Rückgabepolitik — stellen Sie sicher, dass das Tool Ihren Anforderungen entspricht, bevor Sie eine Lizenz erwerben. Es ist keine zeitliche Begrenzung für die Testphase vorgesehen — erstellen Sie so viele Suchbilder wie Sie möchten und überzeugen Sie sich in Ruhe von der Qualität.',
+    },
+    {
+      question: 'Sind die Arbeitsblätter für die Grundschule geeignet?',
+      answer:
+        'Ja. Die Arbeitsblätter eignen sich für die Grundschule (Deutschland), Volksschule (Österreich) und Primarschule (Schweiz). Sie können den Schwierigkeitsgrad an verschiedene Klassenstufen anpassen — von der 1. Klasse bis zur 4. Klasse. Auch Vorschulkinder und Kindergartenkinder profitieren von den einfacheren Übungsstufen.',
     },
   ],
 

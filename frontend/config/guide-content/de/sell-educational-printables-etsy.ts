@@ -2,20 +2,20 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Lern-Druckvorlagen auf Etsy verkaufen für Anfänger',
+    primaryKeyword: 'Lern-Druckvorlagen auf Etsy verkaufen',
     secondaryKeywords: [
       'Multi-Kategorie Druckvorlagen-Shop Etsy aufbauen',
-      'Arbeitsblätter und Aktivitäten auf Etsy einstellen',
-      'Etsy Lernmaterial-Shop 33 Generatoren Strategie',
-      'kategorieübergreifende Druckvorlagen Etsy Geschäft',
+      'Etsy Lernmaterial-Shop Anfänger Anleitung',
+      'kategorieübergreifende Arbeitsblätter Etsy einstellen',
+      'Etsy SEO 13 Tags Druckvorlagen optimieren',
     ],
     lsiKeywords: [
-      'digitaler Download Aktivitäten Angebotsoptimierung Etsy',
+      'digitaler Download 33 Generatoren 6 Kategorien',
       'kategorieübergreifende Bündelung Preisstrategie',
-      'Mathe Rätsel Malvorlagen Etsy Shop diversifiziert',
+      'Mathe Rätsel Malvorlagen diversifizierter Shop',
     ],
-    titleTag: 'Lernmaterial auf Etsy verkaufen (Anfänger) | LCS',
-    metaDescription: 'Lern-Druckvorlagen auf Etsy verkaufen für Anfänger: Multi-Kategorie-Shopstrategie, Etsy-SEO für 33 Generatoren und kategorieübergreifende Bündelung erklärt.',
+    titleTag: 'Lern-Druckvorlagen auf Etsy verkaufen | LCS',
+    metaDescription: 'Lern-Druckvorlagen auf Etsy verkaufen: Multi-Kategorie-Shopstrategie mit 33 Generatoren, Etsy-SEO-Optimierung und kategorieuebergreifende Buendelung fuer Anfaenger.',
   },
 
   hero: {

@@ -4,21 +4,19 @@ const content: StartContent = {
   seo: {
     primaryKeyword: 'Arbeitsblätter erstellen die sich verkaufen',
     secondaryKeywords: [
-      'professionelle Arbeitsblätter erstellen',
-      'Arbeitsblätter zum Verkaufen auf Etsy.de',
-      'Arbeitsblatt-Erstellung für Verkäufer',
-      'druckbare Arbeitsblätter Design-Tipps',
+      'verkaufsfähige Arbeitsblätter erstellen',
+      'Druckvorlagen Design das verkauft',
+      'professionelle Arbeitsblätter gestalten',
+      'Arbeitsblätter für Etsy optimieren',
     ],
     lsiKeywords: [
-      'Arbeitsblatt Qualitätsstandards',
-      'Lösungsschlüssel automatisch erstellen',
-      'Druckvorlagen-Produkt Erstellungsprozess',
-      'Arbeitsblatt-Paket Strategie',
-      'thematische Arbeitsblatt-Bilder',
-      'druckfertige PDF-Arbeitsblätter',
+      'Qualität',
+      'Design-Tipps',
+      'Marktforschung',
+      'Kundenbedürfnisse',
     ],
     titleTag: 'Arbeitsblätter erstellen die sich verkaufen | LCS',
-    metaDescription: 'Professionelle Arbeitsblätter erstellen, die Käufer auf Etsy und KDP überzeugen. Qualitätsstandards, Paketstrategien und der Erstellungsprozess für Verkäufer.',
+    metaDescription: 'Lernen Sie, Arbeitsblätter zu erstellen, die sich auf Etsy und KDP verkaufen. Design-Tipps, Marktforschung und Qualitätsstandards für Verkäufer.',
   },
 
   hero: {

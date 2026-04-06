@@ -2,20 +2,20 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Suchsel mit Bildern erstellen zum Verkaufen',
+    primaryKeyword: 'Suchsel erstellen Anleitung',
     secondaryKeywords: [
-      'Wortsuchrätsel für Etsy und KDP erstellen',
-      'Bildersuchsel kommerziell produzieren',
-      'druckbare Wortsuche-Bücher verkaufen Anleitung',
-      'Suchsel-Generator für Printable-Verkäufer',
+      'Wortsuchrätsel mit Bildhinweisen Generator',
+      'Suchsel Rastergröße Richtungen konfigurieren',
+      'farbcodierte Lösungsschlüssel Wortsuche generieren',
+      'mehrsprachige Suchsel druckfertig erstellen',
     ],
     lsiKeywords: [
-      'mehrsprachige Wortsuche-Produkte Geschäft',
-      'Etsy Wortsuche-Druckvorlagen Shop aufbauen',
-      'KDP Wortsuche-Rätselbuch veröffentlichen',
+      'Vokabelmodus eigene Wortliste Schwierigkeitsgrade',
+      'Rätselgitter Buchstaben horizontale diagonale Richtungen',
+      'Wortsuchrätsel elf Sprachen Etsy KDP Gumroad',
     ],
-    titleTag: 'Suchsel mit Bildern erstellen | LCS',
-    metaDescription: 'Suchsel mit Bildern zum Verkaufen erstellen. Themen wählen, Rastergröße einstellen, farbcodierten Lösungsschlüssel generieren und PDFs für Etsy und KDP.',
+    titleTag: 'Suchsel erstellen Anleitung | LCS',
+    metaDescription: 'Suchsel erstellen: Schritt-für-Schritt-Anleitung mit Bildhinweisen, konfigurierbarer Rastergröße und farbcodiertem Lösungsschlüssel. Druckfertige PDFs in 11 Sprachen.',
   },
 
   hero: {

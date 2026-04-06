@@ -2,20 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'Frühlings-Druckvorlagen Geschäftsideen',
+    primaryKeyword: 'Frühlings-Druckvorlagen Nische Etsy',
     secondaryKeywords: [
-      'Frühlings-Arbeitsblätter auf Etsy erstellen',
-      'März-Mai-Druckvorlagen auf KDP verkaufen',
-      'saisonale Frühlings-Aktivitätsblätter Gumroad',
-      'Blumen-Schmetterling-Lernmaterialien für Shops',
+      'Frühlings Arbeitsblätter auf Etsy verkaufen',
+      'Frühlings Druckvorlagen Geschäftsideen',
+      'Frühlings Nische Wettbewerbsanalyse',
+      'profitable Frühlings Druckvorlagen',
     ],
     lsiKeywords: [
-      'Frühjahrssaison Druckvorlagen-Nachfrage',
-      'saisonale Natur-Thema Arbeitsblätter Etsy',
-      'Frühling-Garten Lernmaterialien Verkauf',
+      'Blumen Schmetterlinge Garten Arbeitsblätter',
+      'März-Mai saisonale Nachfrage Frühling',
+      'Natur-Thema Frühjahrssaison Druckvorlagen',
     ],
-    titleTag: 'Frühlings-Druckvorlagen Geschäftsideen | LCS',
-    metaDescription: 'Frühlings-Druckvorlagen Geschäftsideen für Etsy, KDP und Gumroad. Saisonale Produktkonzepte von März bis Mai mit Plattformstrategien für Ihren Printable-Shop.',
+    titleTag: 'Frühlings-Druckvorlagen Nische für Etsy | LCS',
+    metaDescription: 'Frühlings-Druckvorlagen als profitable Etsy-Nische entdecken. Saisonale Produktkonzepte von März bis Mai — Blumen, Schmetterlinge und Gartenthemen für Ihren Shop.',
   },
   hero: {
     title: 'Frühlings-Druckvorlagen — Saisonale Geschäftsideen für Verkäufer',

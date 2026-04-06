@@ -2,20 +2,20 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Sortier-Arbeitsblätter zum Verkaufen erstellen',
+    primaryKeyword: 'Sortier-Arbeitsblätter erstellen Anleitung',
     secondaryKeywords: [
-      'Ausschneide-und-Sortier-Arbeitsblätter für Etsy produzieren',
-      'Kategoriesortierung-PDFs kommerziell verkaufen',
-      'Klassifizierung-Arbeitsbuch auf KDP veröffentlichen',
-      'Sortier-Arbeitsblatt-Generator für Verkäufer',
+      'Ausschneide-und-Sortier-Arbeitsblätter Generator',
+      'Kategoriesortierung-PDFs druckfertig erstellen',
+      'Zwei-Kategorien-Sortierung Arbeitsblatt Schritt für Schritt',
+      'Sortier-Arbeitsblätter mit Lösungsschlüssel generieren',
     ],
     lsiKeywords: [
-      'Vorschul-Sortier-Druckvorlagen Etsy-Geschäft',
-      'Ausschneide-Sortier Printable Nische verkaufen',
-      'KDP Klassifizierung-Arbeitsbuch veröffentlichen',
+      'Themenmodus manueller Modus Bildauswahl',
+      'Ausschneide-Sortier-Format motorische Fähigkeiten',
+      'mehrsprachige Kopfzeilen elf Sprachen druckfertig',
     ],
-    titleTag: 'Sortier-Arbeitsblätter zum Verkauf | LCS',
-    metaDescription: 'Sortier-Arbeitsblätter zum Verkaufen erstellen. Zwei-Kategorien-Modus, 4–12 Bilder und automatische Lösungsschlüssel. Druckfertige PDFs für Etsy und KDP.',
+    titleTag: 'Sortier-Arbeitsblätter erstellen | LCS',
+    metaDescription: 'Sortier-Arbeitsblätter erstellen: Anleitung mit Zwei-Kategorien-Modus, 4 bis 12 Bildern und automatischen Lösungsschlüsseln. Druckfertige PDFs für Etsy und Amazon KDP.',
   },
 
   hero: {

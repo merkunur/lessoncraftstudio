@@ -2,20 +2,20 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'KDP Formatierung für Arbeitsblatt-Bücher Anleitung',
+    primaryKeyword: 'KDP Formatierung für Arbeitsblätter',
     secondaryKeywords: [
       'Amazon KDP Manuskript Beschnittgröße Seitenränder',
-      'druckfertige PDF erstellen KDP Aktivitätsbücher',
+      'druckfertige PDF 300 DPI KDP Aktivitätsbücher',
       'KDP Cover-Maße Buchrückenbreite berechnen',
       'KDP Upload-Fehler beheben Ablehnung vermeiden',
     ],
     lsiKeywords: [
       'Beschnittgröße 8,5x11 6x9 Innenteil Layout',
-      'PDF-Export 300 DPI Schriften einbetten Graustufen',
-      'Seitennummerierung Titelei Lösungsteil Zusammenstellung',
+      'PDF-Export Schriften einbetten Graustufen Druck',
+      'Titelei Lösungsteil Seitennummerierung Zusammenstellung',
     ],
-    titleTag: 'KDP Formatierung für Arbeitsheft-Bücher | LCS',
-    metaDescription: 'KDP Formatierung für Arbeitsheft-Bücher: Beschnittgrößen, Seitenränder, PDF-Export bei 300 DPI, Cover-Maße und Fehlerbehebung bei Upload-Ablehnungen erklärt.',
+    titleTag: 'KDP Formatierung Arbeitsblätter | LCS',
+    metaDescription: 'KDP Formatierung fuer Arbeitsblaetter: Beschnittgroessen, Seitenraender, PDF-Export bei 300 DPI, Cover-Masse und Fehlerbehebung bei Upload-Ablehnungen Schritt fuer Schritt.',
   },
 
   hero: {

@@ -2,20 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'Camping-Druckvorlagen Geschäftsideen',
+    primaryKeyword: 'Camping-Druckvorlagen Nische Etsy',
     secondaryKeywords: [
-      'Camping-Arbeitsblätter auf Etsy erstellen',
-      'Outdoor-Aktivitätsblätter auf KDP verkaufen',
-      'Natur-Druckvorlagen Camping-Thema für Gumroad',
-      'Sommerlager-Arbeitsblätter für Druckvorlagen-Verkäufer',
+      'Camping Arbeitsblätter auf Etsy verkaufen',
+      'Camping Druckvorlagen Geschäftsideen',
+      'Camping Nische Wettbewerbsanalyse',
+      'profitable Camping Druckvorlagen',
     ],
     lsiKeywords: [
-      'saisonal-plus-evergreen Outdoor-Nische',
-      'Campingplatz-Lernmaterialien Etsy-Markt',
-      'Wandern-Natur-Thema Arbeitsblatt-Geschäft',
+      'Outdoor Wandern Natur Arbeitsblätter',
+      'Sommerlager Campingplatz Druckvorlagen',
+      'saisonale Outdoor-Nische Ganzjahresrelevanz',
     ],
-    titleTag: 'Camping-Druckvorlagen Geschäftsideen | LCS',
-    metaDescription: 'Camping-Druckvorlagen Geschäftsideen für Etsy, KDP und Gumroad. Outdoor-Nische mit saisonalen Spitzen und Ganzjahresrelevanz — Produktideen und Strategien.',
+    titleTag: 'Camping-Druckvorlagen Nische für Etsy | LCS',
+    metaDescription: 'Camping-Druckvorlagen als profitable Etsy-Nische entdecken. Outdoor-Themen mit saisonalen Spitzen und Ganzjahresrelevanz — Produktideen und Wettbewerbsanalyse für Verkäufer.',
   },
   hero: {
     title: 'Camping-Druckvorlagen — Outdoor-Geschäftsideen für Verkäufer',

@@ -2,20 +2,21 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Ausmalbilder zum Verkauf auf Etsy und KDP erstellen',
+    primaryKeyword: 'Ausmalbilder erstellen Anleitung',
     secondaryKeywords: [
-      'Malvorlagen für Etsy-Shop produzieren',
-      'Malbuch-Seiten für Amazon KDP erstellen',
-      'druckbare Ausmalbilder kommerziell verkaufen',
-      'Malvorlagen-Generator für Printable-Business',
+      'Ausmalbilder für Etsy erstellen',
+      'Ausmalbilder Schritt für Schritt Anleitung',
+      'Ausmalbilder für Anfänger erstellen',
+      'Ausmalbilder für KDP erstellen',
     ],
     lsiKeywords: [
-      'thematische Malvorlagen Etsy Printable-Geschäft',
-      'KDP Malbuch veröffentlichen Anleitung',
-      'Graustufen-Export Malvorlagen Produktlinie',
+      'Graustufen-Export Themenbilder',
+      'Vorschule Grundschule Malvorlagen',
+      'freie Leinwand 300 DPI druckfertig',
+      '3.100 Illustrationen Freihand-Werkzeug',
     ],
-    titleTag: 'Ausmalbilder für Etsy & KDP erstellen | LCS',
-    metaDescription: 'Ausmalbilder zum Verkauf auf Etsy und KDP erstellen. 3.100+ thematische Bilder, freie Leinwand, Graustufen-Export und Freihand-Werkzeug. Verkäufer-Guide.',
+    titleTag: 'Ausmalbilder erstellen Schritt für Schritt | LCS',
+    metaDescription: 'Schritt-für-Schritt Anleitung zum Erstellen von Ausmalbildern. 3.100+ thematische Bilder, Graustufen-Export und freie Leinwand. Kostenlos testen.',
   },
 
   hero: {

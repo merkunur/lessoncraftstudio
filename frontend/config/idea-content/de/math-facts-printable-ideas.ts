@@ -2,20 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'Einmaleins-Druckvorlagen Geschäftsideen',
+    primaryKeyword: 'Mathe-Übungen-Druckvorlagen Nische Etsy',
     secondaryKeywords: [
-      'Rechenflüssigkeit-Arbeitsblätter auf Etsy erstellen',
-      'Mathe-Übungsblätter auf KDP verkaufen',
-      'Einmaleins-Druckvorlagen auf Gumroad anbieten',
-      'Grundrechenarten-Lernmaterialien für Verkäufer',
+      'Mathe-Übungen Arbeitsblätter auf Etsy verkaufen',
+      'Mathe-Übungen Druckvorlagen Geschäftsideen',
+      'Mathe-Übungen Nische Wettbewerbsanalyse',
+      'profitable Mathe-Übungen Druckvorlagen',
     ],
     lsiKeywords: [
+      'Einmaleins Grundrechenarten Arbeitsblätter',
       'immergrüner Mathematik-Markt Druckvorlagen',
-      'Hochvolumen-Bildungsbereich Arbeitsblätter',
-      'Rechenübungen Grundschule Etsy-Nische',
+      'Rechenflüssigkeit Grundschule Nische',
     ],
-    titleTag: 'Einmaleins-Druckvorlagen Geschäftsideen | LCS',
-    metaDescription: 'Einmaleins-Druckvorlagen Geschäftsideen für den immergrünen Mathe-Markt. Rechenflüssigkeits-Arbeitsblätter auf Etsy und KDP mit ganzjähriger Nachfrage.',
+    titleTag: 'Mathe-Übungen-Druckvorlagen Nische Etsy | LCS',
+    metaDescription: 'Mathe-Übungen-Druckvorlagen als profitable Etsy-Nische entdecken. Einmaleins und Grundrechenarten als immergrüner Markt — ganzjährige Nachfrage für Ihren Shop.',
   },
   hero: {
     title: 'Einmaleins-Druckvorlagen — immergrüne Geschäftsideen',

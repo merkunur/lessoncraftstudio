@@ -2,20 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'Arbeitsblatt-Erstellungsservice Geschäftsideen',
+    primaryKeyword: 'Individuelle Arbeitsblätter Dienstleistung Geschäftsidee',
     secondaryKeywords: [
-      'individuelle Lernmaterialien auf Etsy anbieten',
-      'Freelance-Arbeitsblatt-Erstellung als Service',
-      'Premium-Druckvorlagen auf Bestellung erstellen',
-      'personalisierte Arbeitsblätter für Bildungskunden',
+      'individuelle Arbeitsblätter auf Etsy verkaufen',
+      'individuelle Arbeitsblätter Druckvorlagen Geschäftsideen',
+      'individuelle Arbeitsblätter Nische Wettbewerbsanalyse',
+      'profitable individuelle Arbeitsblätter Druckvorlagen',
     ],
     lsiKeywords: [
-      'Auftragsfertigung Druckvorlagen-Service',
-      'Premium-Preisgestaltung individuelle Arbeitsblätter',
-      'maßgeschneiderte Lernmaterialien Geschäftsmodell',
+      'Auftragsfertigung personalisierte Arbeitsblätter',
+      'Premium-Service maßgeschneiderte Druckvorlagen',
+      'Freelance Arbeitsblatt-Erstellung Geschäftsmodell',
     ],
-    titleTag: 'Arbeitsblatt-Service Geschäftsideen | LCS',
-    metaDescription: 'Arbeitsblatt-Erstellungsservice als Premium-Geschäftsmodell. Verkaufen Sie auf Etsy & KDP mit gewerblicher Lizenz.',
+    titleTag: 'Arbeitsblatt-Service Geschäftsidee | LCS',
+    metaDescription: 'Individuelle Arbeitsblätter als Premium-Dienstleistung anbieten. Personalisierte Druckvorlagen auf Bestellung erstellen — Geschäftsmodell mit hohen Margen und treuen Kunden.',
   },
   hero: {
     title: 'Arbeitsblatt-Service — Premium-Geschäftsideen für Verkäufer',

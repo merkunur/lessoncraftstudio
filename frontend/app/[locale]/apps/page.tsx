@@ -19,9 +19,9 @@ const appsMetadata: Record<string, { title: string; description: string; keyword
     keywords: 'printable worksheet makers, educational worksheet generators, worksheet creation tools, printable makers collection, word search maker, crossword puzzle maker, math worksheet generator',
   },
   de: {
-    title: '33 Druckvorlagen-Generatoren | Etsy & KDP Tools',
-    description: 'Alle 33 professionellen Druckvorlagen-Generatoren entdecken. Wortsuche, Mathe-Arbeitsbl\ätter, Ausmalbilder, R\ätsel & mehr. Gratis mit Wasserzeichen testen. Auf Etsy & Amazon KDP verkaufen.',
-    keywords: 'Druckvorlagen-Generator, Etsy Druckvorlagen, KDP Arbeitsbl\ätter, Druckvorlagen online verkaufen, Wortsuche-Generator, Arbeitsblatt-Ersteller, Ausmalbilder-Generator, Kreuzwortr\ätsel-Generator, Printable-Business',
+    title: '33 Arbeitsblatt-Generatoren | Mathe, Rätsel, Sprache & mehr',
+    description: 'Durchsuchen Sie 33 professionelle Arbeitsblatt-Generatoren für Mathe, Sprache, visuelles Lernen, Kreativität und Logik. Alle kostenlos mit Wasserzeichen testen.',
+    keywords: 'Arbeitsblatt Generatoren, Unterrichtsmaterial erstellen, Arbeitsblätter selbst erstellen, Rätsel Generator Sammlung, Suchsel Generator, Kreuzworträtsel erstellen, Mathe Arbeitsblatt Generator',
   },
   fr: {
     title: '33 G\én\érateurs d\'Imprimables | Outils Etsy & KDP',

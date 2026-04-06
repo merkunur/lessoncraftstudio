@@ -2,24 +2,25 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'kostenloser Mathe-Arbeitsblatt Generator',
+    primaryKeyword: 'kostenloser Mathe Arbeitsblatt Generator',
     secondaryKeywords: [
-      'Mathe-Arbeitsblatt Generator kostenlos online',
-      'Algebra-Bilderrätsel erstellen ohne Anmeldung',
-      'Mathe-Rätsel-Arbeitsblätter sofort nutzen',
-      'kostenlose Algebra-Bilderrätsel mit Variablen',
+      'Mathe Arbeitsblätter online erstellen kostenlos',
+      'Rechenaufgaben Generator gratis',
+      'Mathematik Übungsblätter erstellen kostenlos',
+      'Mathe Aufgaben Generator ohne Anmeldung',
     ],
     lsiKeywords: [
-      'visuelle Algebra-Gleichungs-Arbeitsblätter',
-      'Bildsymbol-Variablen Mathe-Rätsel',
-      'Bildvariablen-Gleichungssysteme Generator',
+      'Grundrechenarten',
+      'Übungsblatt kostenlos',
+      'Kopiervorlage',
+      'Grundschule',
     ],
-    titleTag: 'Kostenloser Mathe-Arbeitsblatt Generator | LCS',
-    metaDescription: 'Kostenloser Mathe-Arbeitsblatt Generator — Algebra-Bilderrätsel mit Bildsymbolen als Variablen online. Verkaufen Sie auf Etsy & KDP mit gewerblicher Lizenz.',
+    titleTag: 'Kostenloser Mathe Arbeitsblatt Generator Online | LCS',
+    metaDescription: 'Kostenloser Mathe Arbeitsblatt Generator — Rechenaufgaben online erstellen, ohne Anmeldung. 300 DPI PDF. Lizenz für kommerziellen Verkauf.',
   },
 
   hero: {
-    title: 'Mathe-Arbeitsblatt Generator — Algebra-Bilderrätsel erstellen',
+    title: 'Kostenloser Mathe Arbeitsblatt Generator Online',
     tagline: 'Visuelle Algebra-Bilderrätsel mit Bildsymbolen als Variablen in unter 60 Sekunden erstellen',
     description: 'Unser kostenloser Mathe-Arbeitsblatt Generator erstellt Algebra-Bilderrätsel mit Bildsymbolen als Variablen — direkt im Browser, ohne Anmeldung und ohne Installation. Jedes Arbeitsblatt präsentiert verknüpfte Gleichungen, in denen Bilder unbekannte Variablen ersetzen — Nutzer müssen den numerischen Wert bestimmen, den jedes Bild darstellt. Vier Schwierigkeitsstufen skalieren von zwei Symbolen mit einfacher Addition bis zu vier simultanen Unbekannten mit gemischten Rechenarten. Ein integrierter algebraischer Löser garantiert, dass jedes Rätsel genau eine korrekte Lösung hat. Wählen Sie Nur Addition für gezieltes Üben oder Addition und Subtraktion für fortgeschrittenes Problemlösen. Legen Sie den Zahlenbereich fest, aktivieren Sie negative Ergebnisse und steuern Sie die Rätsel pro Seite von 1 bis 6 mit automatischem Layout. Da Rätsel ausschließlich Bilder und Zahlen verwenden, funktionieren sie identisch in jeder Sprache. Die kostenlose Testversion bietet sämtliche Funktionen mit einem Wasserzeichen auf Downloads. Für den kommerziellen Einsatz können Sie eine Lizenz erwerben, die das Wasserzeichen entfernt und volle Verkaufsrechte freischaltet.',
   },

@@ -2,20 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'DaF DaZ Druckvorlagen Geschäftsideen Etsy Eduki',
+    primaryKeyword: 'DaF-Druckvorlagen Nische Etsy',
     secondaryKeywords: [
-      'Sprachlern-Arbeitsblätter auf Etsy erstellen',
-      'ESL-Vokabel-Druckvorlagen auf Gumroad verkaufen',
-      'visuell unterstützte Sprachübungen auf KDP',
-      'Fremdsprachen-Arbeitsblätter für Druckvorlagen-Verkäufer',
+      'DaF Arbeitsblätter auf Etsy verkaufen',
+      'DaF Druckvorlagen Geschäftsideen',
+      'DaF Nische Wettbewerbsanalyse',
+      'profitable DaF Druckvorlagen',
     ],
     lsiKeywords: [
-      'wachsender Sprachlernmarkt Druckvorlagen',
-      'Vokabel-Bildkarten Arbeitsblätter ESL-Nische',
-      'mehrsprachige Lernmaterialien Etsy-Geschäft',
+      'Deutsch als Fremdsprache Arbeitsblätter',
+      'Vokabel-Bildkarten Sprachlern-Druckvorlagen',
+      'wachsender Sprachlernmarkt DaZ-Nische',
     ],
-    titleTag: 'DaF/DaZ Druckvorlagen Geschäftsideen | LCS',
-    metaDescription: 'DaF- und DaZ-Druckvorlagen als Geschäftsidee für Etsy und Eduki. Vokabel-Arbeitsblätter und visuell unterstützte Übungen für den wachsenden Sprachlernmarkt.',
+    titleTag: 'DaF-Druckvorlagen Nische für Etsy | LCS',
+    metaDescription: 'DaF-Druckvorlagen als profitable Etsy-Nische entdecken. Vokabel-Arbeitsblätter und Sprachübungen für den wachsenden Sprachlernmarkt — Geschäftsideen und Strategien.',
   },
   hero: {
     title: 'DaF/DaZ Druckvorlagen — Geschäftsideen für Verkäufer',

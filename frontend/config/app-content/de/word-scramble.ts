@@ -2,24 +2,25 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'buchstabensalat etsy für business erstellen generator rätsel',
+    primaryKeyword: 'Buchstabensalat erstellen',
     secondaryKeywords: [
-      'Buchstabensalat-Arbeitsblätter für Etsy-Shop erstellen',
-      'Buchstaben-Rätsel-Bücher für Amazon KDP',
-      'Wörter-Entwirren-Druckvorlagen gewerbliche Lizenz',
-      'Buchstabensalat-Generator für Eduki verkaufen',
+      'Schüttelwörter Generator',
+      'Wörter entwirren Arbeitsblatt',
+      'Buchstabensalat Arbeitsblatt Generator',
+      'Buchstaben mischen Rätsel',
     ],
     lsiKeywords: [
-      'Buchstabenplättchen Vokal-Farbcodierung druckfertig',
-      'Buchstabensalat-Generator DACH-Markt',
-      'Lösungsschlüssel Rechtschreibrätsel kommerzielle Nutzung',
+      'Anagramm',
+      'durcheinander',
+      'Rechtschreibung',
+      'Wortschatz',
     ],
-    titleTag: 'Buchstabensalat-Generator für Etsy-Business | LCS',
-    metaDescription: 'Erstellen Sie Buchstabensalat-Arbeitsblätter zum Verkauf auf Etsy & KDP. Vokal-Farbcodierung, 11 Sprachen, gewerbliche Lizenz. 49 $ einmalig.',
+    titleTag: 'Buchstabensalat erstellen | Schüttelwörter Generator',
+    metaDescription: 'Erstellen Sie Buchstabensalat-Arbeitsblätter mit Themenbildern. Automatische Lösungen, druckfertige PDFs. Kostenlos testen — kommerzielle Lizenz inklusive.',
   },
 
   hero: {
-    title: 'Buchstabensalat-Rätsel erstellen für Etsy-Printable-Business',
+    title: 'Buchstabensalat erstellen — Schüttelwörter Generator',
     tagline: 'Gemischte Buchstabenplättchen treffen Bild-Hinweise — vier Schwierigkeitsstufen und Vokal-Konsonanten-Farbcodierung verwandeln jedes Wort in ein praktisches Rechtschreibrätsel.',
     description:
       'Der Buchstabensalat-Generator für Etsy-Printable-Business verwandelt jedes Wort in ein verkaufsfertiges Buchstaben-Umstell-Rätsel mit farbenfrohen Bildhinweisen und durcheinander gemischten Plättchen. Vier Schwierigkeitsstufen — von null Hinweisen bis zur Hälfte vorplatzierter Buchstaben — ermöglichen es Ihnen, aus einem einzigen Design gestufte Produktpakete zu erstellen, die höhere Preise rechtfertigen. Die einzigartige Vokal-Konsonanten-Farbcodierung hebt Ihre Produkte visuell von der Konkurrenz ab und spricht gezielt Käufer an, die phonikbasierte Materialien suchen. Für den DACH-Markt bieten deutsche zusammengesetzte Substantive wie „Schmetterling" oder „Feuerwehrauto" mit 13 durcheinander gemischten Plättchen ein deutlich beeindruckenderes Rätselformat als kurze englische Wörter — ein klarer Wettbewerbsvorteil auf Etsy.de und Amazon KDP. Mit der gewerblichen Lizenz und 11 unterstützten Sprachen skalieren Sie Ihr Printable-Business über Ländergrenzen hinweg. Kostenlos testen mit allen Funktionen — Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',
@@ -198,6 +199,11 @@ const content: AppContent = {
       question: 'Was ist Ihre Rückgabepolitik?',
       answer:
         'Da die kostenlose Testversion Ihnen Zugang zu jeder Funktion gewährt, bieten wir keine Rückerstattung für kommerzielle Lizenzen an. Sie können jede Inhaltsquelle, jede Schwierigkeitsstufe, jedes Thema, die Farbcodierung, jedes Exportformat und jede Seitengröße vor dem Kauf testen. Die kostenlose Testversion ist die Rückgabepolitik — stellen Sie sicher, dass das Tool Ihren Anforderungen entspricht, bevor Sie eine Lizenz erwerben.',
+    },
+    {
+      question: 'Sind die Arbeitsblätter für die Grundschule geeignet?',
+      answer:
+        'Ja. Die Arbeitsblätter eignen sich für die Grundschule (Deutschland), Volksschule (Österreich) und Primarschule (Schweiz). Sie können den Schwierigkeitsgrad an verschiedene Klassenstufen anpassen — von der 1. Klasse bis zur 4. Klasse. Auch Vorschulkinder und Kindergartenkinder profitieren von den einfacheren Übungsstufen.',
     },
   ],
 

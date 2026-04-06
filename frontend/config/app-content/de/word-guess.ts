@@ -2,24 +2,25 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'Wörter-Raten-Rätsel erstellen und auf Etsy verkaufen',
+    primaryKeyword: 'Wörter raten Arbeitsblatt erstellen',
     secondaryKeywords: [
-      'Wörter-Raten-Generator für Etsy-Verkäufer',
-      'Vokabel-Rätsel-Bücher für Amazon KDP erstellen',
-      'Worterkennungs-Druckvorlagen gewerbliche Lizenz',
-      'Bild-Hinweis-Rätsel für Eduki verkaufen',
+      'Wort-Ratespiel Generator',
+      'Galgenmännchen Arbeitsblatt',
+      'Wörter erraten Rätsel',
+      'Vokabel-Ratespiel erstellen',
     ],
     lsiKeywords: [
-      'Wörter-Raten Bild-Hinweis druckfertig 300 DPI',
-      'Vokabel-Rätsel-Generator DACH-Markt',
-      'Lösungsschlüssel Schwierigkeitsstufen kommerzielle Nutzung',
+      'Buchstaben raten',
+      'Vokabelspiel',
+      'Wortschatz-Spiel',
+      'Rechtschreibung',
     ],
-    titleTag: 'Wörter-Raten-Rätsel für Etsy erstellen | LCS',
-    metaDescription: 'Wörter-Raten-Rätsel erstellen und auf Etsy & KDP verkaufen. Bild-Hinweise, 4 Schwierigkeitsstufen, gewerbliche Lizenz. 49 $ einmalig.',
+    titleTag: 'Wörter-Raten Arbeitsblatt erstellen | Ratespiel Generator',
+    metaDescription: 'Erstellen Sie Wort-Ratespiele mit Themen-Vokabeln und Bildern. Automatische Lösungen, druckfertige PDFs. Kostenlos testen.',
   },
 
   hero: {
-    title: 'Wörter-Raten-Rätsel erstellen und auf Etsy verkaufen',
+    title: 'Wörter-Raten Arbeitsblatt erstellen — Ratespiel Generator',
     tagline: 'Galgenmännchen-Logik trifft Bild-Hinweise — vier Schwierigkeitsstufen verwandeln jedes Wort in ein fesselndes Buchstaben-Rätsel.',
     description:
       'Wörter-Raten-Rätsel erstellen und auf Etsy verkaufen — mit diesem Generator produzieren Sie professionelle Arbeitsblätter im Galgenmännchen-Stil, bei denen Käufer anhand von Bildhinweisen versteckte Wörter erraten. Das bewährte Rätselformat kombiniert Vokabeltraining mit spannendem Ratespaß und verkauft sich hervorragend als thematisches Paket auf Etsy.de und als Rätselbuch auf Amazon KDP. Vier einstellbare Schwierigkeitsstufen ermöglichen es Ihnen, aus einem einzigen Design mehrere Produktvarianten zu generieren — vom Anfänger-Arbeitsblatt mit der Hälfte vorausgefüllter Buchstaben bis zur Profi-Herausforderung ohne jeden Hinweis. Deutsche zusammengesetzte Substantive wie „Schmetterling" erzeugen beeindruckende 13-Buchstaben-Gitter, die auf Produktvorschaubildern sofort auffallen und sich vom englischsprachigen Angebot klar differenzieren. Die gewerbliche Lizenz und Unterstützung für 11 Sprachen machen jede Sprachversion zu einem eigenständigen, verkaufsfähigen Produkt für internationale Märkte. Kostenlos testen mit allen Funktionen — Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',
@@ -198,6 +199,11 @@ const content: AppContent = {
       question: 'Was ist Ihre Rückgabepolitik?',
       answer:
         'Da die kostenlose Testversion Ihnen Zugang zu jeder Funktion gewährt, bieten wir keine Rückerstattung für kommerzielle Lizenzen an. Sie können jede Inhaltsquelle, jede Schwierigkeitsstufe, jedes Thema, jedes Exportformat und jede Seitengröße vor dem Kauf testen. Die kostenlose Testversion ist die Rückgabepolitik — stellen Sie sicher, dass das Tool Ihren Anforderungen entspricht, bevor Sie eine Lizenz erwerben.',
+    },
+    {
+      question: 'Sind die Arbeitsblätter für die Grundschule geeignet?',
+      answer:
+        'Ja. Die Arbeitsblätter eignen sich für die Grundschule (Deutschland), Volksschule (Österreich) und Primarschule (Schweiz). Sie können den Schwierigkeitsgrad an verschiedene Klassenstufen anpassen — von der 1. Klasse bis zur 4. Klasse. Auch Vorschulkinder und Kindergartenkinder profitieren von den einfacheren Übungsstufen.',
     },
   ],
 

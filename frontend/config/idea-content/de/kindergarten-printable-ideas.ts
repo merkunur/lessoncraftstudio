@@ -2,20 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'Kindergarten-Druckvorlagen Geschäftsideen',
+    primaryKeyword: 'Kindergarten-Druckvorlagen Nische Etsy',
     secondaryKeywords: [
-      'Kindergarten-Arbeitsblätter auf Etsy erstellen',
-      'Vorschul-Kindergarten-Druckvorlagen auf KDP',
-      'frühkindliche Aktivitätsblätter auf Gumroad verkaufen',
-      'Kindergarten-Lernmaterialien für Etsy-Shops',
+      'Kindergarten Arbeitsblätter auf Etsy verkaufen',
+      'Kindergarten Druckvorlagen Geschäftsideen',
+      'Kindergarten Nische Wettbewerbsanalyse',
+      'profitable Kindergarten Druckvorlagen',
     ],
     lsiKeywords: [
-      'frühkindliche Bildung Druckvorlagen-Nische',
-      'Kindergarten-Altersstufe Arbeitsblatt-Markt',
-      'visuelles Lernen Vorschulalter Etsy-Verkauf',
+      'frühkindliche Bildung Vorschulalter Arbeitsblätter',
+      'Kindergarten-Altersstufe visuelles Lernen',
+      'Übergangsjahr Druckvorlagen starke Nische',
     ],
-    titleTag: 'Kindergarten-Druckvorlagen Ideen | LCS',
-    metaDescription: 'Kindergarten-Druckvorlagen Geschäftsideen für Etsy, KDP & Gumroad. Starke Nische für das Übergangsjahr — Produktideen und Plattformstrategien für Verkäufer.',
+    titleTag: 'Kindergarten-Druckvorlagen Nische Etsy | LCS',
+    metaDescription: 'Kindergarten-Druckvorlagen als profitable Etsy-Nische entdecken. Frühkindliche Bildung als starke Nische — Produktideen und Wettbewerbsanalyse für Ihren Druckvorlagen-Shop.',
   },
   hero: {
     title: 'Kindergarten-Druckvorlagen — Geschäftsideen für Ihren Shop',

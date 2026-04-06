@@ -2,20 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'Insekten-Druckvorlagen Geschäftsideen',
+    primaryKeyword: 'Insekten-Druckvorlagen Nische Etsy',
     secondaryKeywords: [
-      'Insekten-Arbeitsblätter auf Etsy erstellen',
-      'Käfer-Schmetterling-Druckvorlagen auf KDP',
-      'Insekten-Aktivitätsblätter auf Gumroad verkaufen',
-      'Krabbeltier-Lernmaterialien für Druckvorlagen-Shops',
+      'Insekten Arbeitsblätter auf Etsy verkaufen',
+      'Insekten Druckvorlagen Geschäftsideen',
+      'Insekten Nische Wettbewerbsanalyse',
+      'profitable Insekten Druckvorlagen',
     ],
     lsiKeywords: [
-      'Naturwissenschaft-Thema Insekten-Druckvorlagen',
-      'Entomologie-Bildungsthema Arbeitsblätter Etsy',
-      'Frühling-Sommer-Insekten Lernmaterialien',
+      'Schmetterlinge Marienkäfer Bienen Arbeitsblätter',
+      'Naturwissenschaft Entomologie Druckvorlagen',
+      'Frühling-Sommer saisonale Insekten-Nische',
     ],
-    titleTag: 'Insekten-Druckvorlagen Geschäftsideen | LCS',
-    metaDescription: 'Insekten-Druckvorlagen Geschäftsideen für Etsy und KDP. Schmetterlinge, Marienkäfer und Bienen — profitable Produktideen und Nischenstrategien für Verkäufer.',
+    titleTag: 'Insekten-Druckvorlagen Nische für Etsy | LCS',
+    metaDescription: 'Insekten-Druckvorlagen als profitable Etsy-Nische entdecken. Schmetterlinge, Marienkäfer und Bienen — Produktideen und Wettbewerbsanalyse für Ihren Druckvorlagen-Shop.',
   },
   hero: {
     title: 'Insekten-Druckvorlagen — Geschäftsideen für Verkäufer',

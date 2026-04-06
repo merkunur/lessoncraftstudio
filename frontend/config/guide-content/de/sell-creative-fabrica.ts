@@ -2,20 +2,20 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Unterrichtsmaterial auf Creative Fabrica verkaufen',
+    primaryKeyword: 'Druckvorlagen auf Creative Fabrica verkaufen',
     secondaryKeywords: [
-      'Creative Fabrica Designer-Konto Lernmaterialien',
-      'Druckvorlagen auf Creative Fabrica einstellen',
-      'Creative Fabrica Abonnement-Einnahmen Bildungsbereich',
-      'Craft-Bildung-Crossover Creative Fabrica Marktplatz',
+      'Creative Fabrica Designer-Konto einrichten Anleitung',
+      'Arbeitsblätter Creative Fabrica Bildungsbereich',
+      'Creative Fabrica Abo-Einnahmen Einzelverkauf',
+      'Craft-Bildung-Crossover Druckvorlagen Marktplatz',
     ],
     lsiKeywords: [
-      'Design-Marktplatz Abonnement-Pool duales Einkommensmodell',
-      'Bildungsmarkt-Bereich Arbeitsblatt-Upload Suchoptimierung',
-      'Katalog-Skalierung Bastler Designer Lernressourcen',
+      'Abonnement-Pool duales Einkommensmodell Designer',
+      'Bildungsmarkt-Bereich Suchoptimierung Kategorien',
+      'geringe Konkurrenz fruehe Teilnehmer Katalog-Skalierung',
     ],
-    titleTag: 'Unterrichtsmaterial auf Creative Fabrica | LCS',
-    metaDescription: 'Unterrichtsmaterial auf Creative Fabrica verkaufen: Abonnement- und Einzelverkauf-Einnahmen, Craft-Bildung-Crossover und Katalogaufbau im Bildungsmarkt-Bereich.',
+    titleTag: 'Druckvorlagen auf Creative Fabrica | LCS',
+    metaDescription: 'Druckvorlagen auf Creative Fabrica verkaufen: Designer-Konto einrichten, Abo- und Einzelverkauf-Einnahmen nutzen und den Bildungsbereich mit geringer Konkurrenz erschliessen.',
   },
 
   hero: {

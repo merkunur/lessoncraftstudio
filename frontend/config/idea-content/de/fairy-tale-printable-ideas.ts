@@ -2,20 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'Märchen-Druckvorlagen auf Etsy verkaufen',
+    primaryKeyword: 'Märchen-Druckvorlagen Nische Etsy',
     secondaryKeywords: [
-      'Märchen-Arbeitsblätter auf Etsy erstellen',
-      'Geschichtenbuch-Druckvorlagen auf KDP verkaufen',
-      'Märchenthema-Aktivitätsblätter für Gumroad',
-      'klassische Märchen-Lernmaterialien für Shops',
+      'Märchen Arbeitsblätter auf Etsy verkaufen',
+      'Märchen Druckvorlagen Geschäftsideen',
+      'Märchen Nische Wettbewerbsanalyse',
+      'profitable Märchen Druckvorlagen',
     ],
     lsiKeywords: [
-      'zeitlose Erzählthemen Druckvorlagen-Nische',
-      'Lesekompetenz Märchenthema Arbeitsblätter',
-      'Fantasie-Bildungsthema Lernmaterialien Etsy',
+      'Prinzessinnen Drachen Schlösser Arbeitsblätter',
+      'zeitlose Erzählthemen Druckvorlagen',
+      'Fantasie-Thema Lesekompetenz Nische',
     ],
-    titleTag: 'Märchen-Druckvorlagen für Etsy | LCS',
-    metaDescription: 'Märchen-Druckvorlagen auf Etsy verkaufen — zeitlose Erzählthemen als Nische. Produktideen mit Prinzessinnen, Drachen und Schlössern für Ihren Printable-Shop.',
+    titleTag: 'Märchen-Druckvorlagen Nische für Etsy | LCS',
+    metaDescription: 'Märchen-Druckvorlagen als profitable Etsy-Nische entdecken. Zeitlose Erzählthemen mit Prinzessinnen, Drachen und Schlössern — Produktideen und Strategien für Verkäufer.',
   },
   hero: {
     title: 'Märchen-Druckvorlagen — Geschäftsideen für Ihren Printable-Shop',

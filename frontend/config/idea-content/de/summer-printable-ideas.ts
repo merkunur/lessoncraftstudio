@@ -2,20 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'Sommer-Druckvorlagen Geschäftsideen',
+    primaryKeyword: 'Sommer-Druckvorlagen Nische Etsy',
     secondaryKeywords: [
-      'Sommer-Arbeitsblätter auf Etsy erstellen',
-      'Strand-Ferien-Druckvorlagen auf KDP verkaufen',
-      'saisonale Sommer-Aktivitätsblätter für Gumroad',
-      'Sonnenschein-Thema Lernmaterialien für Shops',
+      'Sommer Arbeitsblätter auf Etsy verkaufen',
+      'Sommer Druckvorlagen Geschäftsideen',
+      'Sommer Nische Wettbewerbsanalyse',
+      'profitable Sommer Druckvorlagen',
     ],
     lsiKeywords: [
-      'Sommer-Saison Druckvorlagen-Nachfrage',
-      'Strand-Ferien-Nische Arbeitsblätter Etsy',
-      'saisonaler Sommer-Markt Lernmaterialien',
+      'Strand Ferien Sonnenschein Arbeitsblätter',
+      'Mai-August saisonale Nachfrage Sommer',
+      'Sommer-Saison Druckvorlagen-Nische Etsy',
     ],
-    titleTag: 'Sommer-Druckvorlagen Geschäftsideen | LCS',
-    metaDescription: 'Sommer-Druckvorlagen Geschäftsideen für Etsy, KDP und Gumroad. Strand, Ferien und Sonnenschein — saisonale Produktkonzepte und Verkaufsstrategien Mai-August.',
+    titleTag: 'Sommer-Druckvorlagen Nische für Etsy | LCS',
+    metaDescription: 'Sommer-Druckvorlagen als profitable Etsy-Nische entdecken. Strand, Ferien und Sonnenschein — saisonale Produktkonzepte und Verkaufsstrategien von Mai bis August.',
   },
   hero: {
     title: 'Sommer-Druckvorlagen — Geschäftsideen für Verkäufer',

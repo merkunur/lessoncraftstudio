@@ -2,20 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'Halloween-Druckvorlagen Geschäftsideen',
+    primaryKeyword: 'Halloween-Druckvorlagen Nische Etsy',
     secondaryKeywords: [
-      'gruselige Arbeitsblätter auf Etsy erstellen',
-      'Halloween-Aktivitätsblätter auf KDP verkaufen',
-      'Oktober-Druckvorlagen auf Gumroad anbieten',
-      'Kürbis-Geister-Arbeitsblätter für Druckvorlagen-Shops',
+      'Halloween Arbeitsblätter auf Etsy verkaufen',
+      'Halloween Druckvorlagen Geschäftsideen',
+      'Halloween Nische Wettbewerbsanalyse',
+      'profitable Halloween Druckvorlagen',
     ],
     lsiKeywords: [
-      'Oktober-Nachfragespitze saisonale Druckvorlagen',
-      'gruseliges Thema Arbeitsblätter Etsy-Markt',
-      'Halloween-Saison Lernmaterialien Verkauf',
+      'Kürbis Gespenster Hexen Arbeitsblätter',
+      'Oktober saisonale Nachfragespitze',
+      'gruseliges Thema Halloween-Saison Nische',
     ],
-    titleTag: 'Halloween-Druckvorlagen Geschäftsideen | LCS',
-    metaDescription: 'Halloween-Druckvorlagen Geschäftsideen für Etsy, KDP und Gumroad. Kürbis, Gespenster und Hexen — saisonale Produktkonzepte und Oktober-Verkaufsstrategien.',
+    titleTag: 'Halloween-Druckvorlagen Nische für Etsy | LCS',
+    metaDescription: 'Halloween-Druckvorlagen als profitable Etsy-Nische entdecken. Kürbis, Gespenster und Hexen — saisonale Produktkonzepte und Oktober-Verkaufsstrategien für Ihren Shop.',
   },
   hero: {
     title: 'Halloween-Druckvorlagen — Geschäftsideen',

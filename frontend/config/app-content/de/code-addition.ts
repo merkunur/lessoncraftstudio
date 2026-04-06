@@ -2,24 +2,25 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'Geheimcode-Mathe-Rätsel erstellen und auf Etsy verkaufen',
+    primaryKeyword: 'Zahlencode Rätsel erstellen',
     secondaryKeywords: [
-      'Code-Additions-Generator für Etsy-Verkäufer',
-      'Kryptarithmetische Rätsel für Amazon KDP erstellen',
-      'Geheimcode-Arbeitsblätter gewerbliche Lizenz',
-      'Wort-Entschlüsselungs-Mathe-Rätsel für Eduki verkaufen',
+      'Code-Knacker Mathe Arbeitsblatt',
+      'Geheimcode Mathe Rätsel Generator',
+      'Mathe Code Rätsel erstellen',
+      'Rechnen und Entschlüsseln',
     ],
     lsiKeywords: [
-      'Geheimcode Addition Detektiv-Rätsel druckfertig',
-      'Code-Knacker-Arbeitsblätter DACH-Markt',
-      'Wort-Entschlüsselung Lösungsschlüssel kommerzielle Nutzung',
+      'Code knacken',
+      'Geheimschrift',
+      'Rechenrätsel',
+      'Knobelaufgabe',
     ],
-    titleTag: 'Geheimcode-Mathe-Rätsel für Etsy erstellen | LCS',
-    metaDescription: 'Erstellen Sie Geheimcode-Mathe-Rätsel zum Verkauf auf Etsy & KDP. Wort-Entschlüsselung, 11 Sprachen, gewerbliche Lizenz. 49 $ einmalig.',
+    titleTag: 'Zahlencode Mathe-Rätsel erstellen | Code-Knacker Generator',
+    metaDescription: 'Erstellen Sie Mathe-Rätsel, bei denen Kinder Additionsaufgaben lösen und Geheimcodes knacken. Themenbilder, automatische Lösungen. Kostenlos testen.',
   },
 
   hero: {
-    title: 'Geheimcode-Mathe-Rätsel erstellen und auf Etsy verkaufen',
+    title: 'Zahlencode Mathe-Rätsel erstellen — Code-Knacker Generator',
     tagline: 'Verwandeln Sie Addition in eine Detektiv-Mission, bei der jedes Bild eine geheime Zahl verbirgt.',
     description:
       'Geheimcode-Mathe-Rätsel erstellen und auf Etsy verkaufen — mit diesem Generator produzieren Sie ein Produktformat, das auf deutschsprachigen Marktplätzen praktisch konkurrenzlos ist. Jedes Arbeitsblatt verwandelt Addition in eine Detektiv-Mission: Bilder repräsentieren versteckte Zahlen, und Käufer lösen die Gleichungen, um den Code zu knacken. Im Wort-Entschlüsselungs-Modus verbergen Sie ein Geheimwort mit bis zu zehn Buchstaben — inklusive Ä, Ö, Ü und ß für native deutsche Rätsel. Mit 11 unterstützten Sprachen, 104 Themen und über 3.100 Bildern erstellen Sie in Minuten einzigartige Rätsel-Pakete für Etsy, Amazon KDP oder Eduki. Die gewerbliche Lizenz erlaubt unbegrenzten Verkauf Ihrer erstellten Arbeitsblätter im gesamten DACH-Markt und darüber hinaus. Kostenlos testen mit allen Funktionen — Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',
@@ -203,6 +204,11 @@ const content: AppContent = {
       question: 'Muss ich Software installieren?',
       answer:
         'Nein. Der Bilder-Additions-Arbeitsblatt-Generator läuft vollständig in Ihrem Webbrowser. Es gibt nichts herunterzuladen, zu installieren oder zu aktualisieren. Er funktioniert in jedem modernen Desktop-Browser, einschließlich Chrome, Firefox, Safari und Edge. Öffnen Sie einfach die Seite und beginnen Sie, Code-Knacker-Mathe-Rätsel zu erstellen.',
+    },
+    {
+      question: 'Sind die Arbeitsblätter für die Grundschule geeignet?',
+      answer:
+        'Ja. Die Arbeitsblätter eignen sich für die Grundschule (Deutschland), Volksschule (Österreich) und Primarschule (Schweiz). Sie können den Schwierigkeitsgrad an verschiedene Klassenstufen anpassen — von der 1. Klasse bis zur 4. Klasse. Auch Vorschulkinder und Kindergartenkinder profitieren von den einfacheren Übungsstufen.',
     },
   ],
 

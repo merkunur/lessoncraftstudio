@@ -10,7 +10,7 @@ const baseUrl = 'https://www.lessoncraftstudio.com';
 
 const startKeywords: Record<string, string[]> = {
   en: ['start printable business', 'how to start selling printables', 'printable business for beginners', 'launch etsy printable shop', 'KDP activity book beginner guide', 'passive income with printables'],
-  de: ['Druckvorlagen-Geschäft starten', 'Druckvorlagen-Business für Anfänger', 'Druckvorlagen verkaufen', 'Etsy Verkäufer Leitfaden', 'KDP Anfänger Anleitung', 'passives Einkommen Druckvorlagen'],
+  de: ['Druckvorlagen Business starten', 'Arbeitsblätter verkaufen lernen', 'Etsy Shop Druckvorlagen starten', 'mit Druckvorlagen Geld verdienen'],
   fr: ['lancer business imprimables', 'business imprimables débutants', 'comment vendre imprimables', 'guide vendeur Etsy', 'guide débutant KDP', 'revenus passifs imprimables'],
   es: ['iniciar negocio imprimibles', 'negocio imprimibles principiantes', 'cómo vender imprimibles Hotmart', 'guía vendedor Etsy', 'guía principiante KDP', 'ingresos pasivos imprimibles hispano'],
   pt: ['iniciar negócio imprimíveis', 'negócio imprimíveis iniciantes', 'como vender imprimíveis', 'guia vendedor Etsy', 'guia iniciante KDP', 'renda passiva imprimíveis'],
@@ -43,8 +43,8 @@ const startPageContent: Record<string, {
   de: {
     heroTitle: 'Druckvorlagen-Geschäftsleitfäden',
     heroDescription: 'Alles, was Sie brauchen, um ein profitables Druckvorlagen-Geschäft zu starten und auszubauen. Von der Nischenwahl bis zur Umsatzsteigerung.',
-    metaTitle: 'Druckvorlagen-Geschäftsleitfäden | Starten & Wachsen | LessonCraftStudio',
-    metaDescription: 'Umfassende Leitfäden zum Starten und Ausbauen eines Druckvorlagen-Geschäfts. Verkauf auf Etsy, Amazon KDP, TPT. Preisgestaltung, Marketing und Nischenstrategie.',
+    metaTitle: 'Druckvorlagen-Business starten | Schritt-für-Schritt Anleitung',
+    metaDescription: 'Komplette Anleitungen zum Start eines Druckvorlagen-Business auf Etsy, Amazon KDP oder als eigener Shop. Vom ersten Arbeitsblatt zum ersten Verkauf.',
     ctaTitle: 'Bereit zum Erstellen?',
     ctaDescription: 'Alle 33 Druckvorlagen-Generatoren gratis mit Wasserzeichen testen. Keine Anmeldung.',
     ctaButton: 'Generatoren gratis testen',

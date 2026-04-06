@@ -2,20 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'Piraten-Druckvorlagen Geschäftsideen',
+    primaryKeyword: 'Piraten-Druckvorlagen Nische Etsy',
     secondaryKeywords: [
-      'Piraten-Arbeitsblätter auf Etsy erstellen',
-      'Seeräuber-Druckvorlagen auf KDP verkaufen',
-      'Abenteuer-Piraten-Aktivitätsblätter für Gumroad',
-      'Schatzkarte-Lernmaterialien für Druckvorlagen-Shops',
+      'Piraten Arbeitsblätter auf Etsy verkaufen',
+      'Piraten Druckvorlagen Geschäftsideen',
+      'Piraten Nische Wettbewerbsanalyse',
+      'profitable Piraten Druckvorlagen',
     ],
     lsiKeywords: [
-      'Abenteuer-Thema Druckvorlagen-Nische',
-      'Piratenschiff-Bildungsthema Arbeitsblätter',
-      'Schatzkarte-Thema Lernmaterialien Etsy',
+      'Schatzkarte Piratenschiff Abenteuer Arbeitsblätter',
+      'Seeräuber-Thema Druckvorlagen ganzjährig',
+      'Abenteuer-Nische Kinder Etsy-Shop',
     ],
-    titleTag: 'Piraten-Druckvorlagen Geschäftsideen | LCS',
-    metaDescription: 'Piraten-Druckvorlagen Geschäftsideen für Etsy, KDP und Gumroad. Abenteuer-Nische mit Schatzkarten und Piratenschiffen — Produktkonzepte und Strategien.',
+    titleTag: 'Piraten-Druckvorlagen Nische für Etsy | LCS',
+    metaDescription: 'Piraten-Druckvorlagen als profitable Etsy-Nische entdecken. Schatzkarten und Piratenschiffe als Abenteuer-Thema — Produktideen und Wettbewerbsanalyse für Verkäufer.',
   },
   hero: {
     title: 'Piraten-Druckvorlagen — Abenteuer-Geschäftsideen für Verkäufer',

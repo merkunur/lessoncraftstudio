@@ -2,24 +2,25 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'kostenloser Buchstabensalat-Generator',
+    primaryKeyword: 'Buchstabensalat erstellen kostenlos',
     secondaryKeywords: [
-      'Buchstabensalat-Generator kostenlos online',
-      'Buchstaben-Umstell-Rätsel erstellen ohne Anmeldung',
-      'Buchstabensalat Generator sofort nutzen',
-      'kostenlose Buchstaben-Rätsel mit Farbcodierung',
+      'Schüttelwörter Generator kostenlos online',
+      'Buchstabensalat Generator gratis',
+      'Wörter entwirren Arbeitsblatt kostenlos',
+      'Buchstaben mischen kostenlos',
     ],
     lsiKeywords: [
-      'Buchstabenplättchen-Rätsel Vokal-Farbcodierung',
-      'bildbasiertes Wort-Entwirr-Arbeitsblatt',
-      'Rechtschreib-Rätsel mehrsprachig Generator',
+      'Anagramm kostenlos',
+      'Rechtschreibung',
+      'Wortschatz',
+      'durcheinander',
     ],
-    titleTag: 'Kostenloser Buchstabensalat-Generator | LCS',
-    metaDescription: 'Kostenloser Buchstabensalat-Generator — Buchstaben-Umstell-Rätsel mit Farbcodierung online erstellen. Testversion mit Wasserzeichen, Lizenz verfügbar.',
+    titleTag: 'Buchstabensalat erstellen kostenlos | Online Generator | LCS',
+    metaDescription: 'Buchstabensalat kostenlos erstellen — Schüttelwörter-Arbeitsblätter mit Themenbildern online, ohne Anmeldung. Lizenz für Etsy & KDP.',
   },
 
   hero: {
-    title: 'Buchstabensalat-Generator — Buchstaben-Rätsel kostenlos erstellen',
+    title: 'Buchstabensalat erstellen kostenlos — Online Schüttelwörter Generator',
     tagline: 'Buchstaben-Umstell-Rätsel mit gemischten Plättchen, Vokal-Konsonanten-Farbcodierung und 4 Schwierigkeitsstufen in 11 Sprachen erstellen',
         description: 'Unser kostenloser Buchstabensalat-Generator erstellt Buchstaben-Umstell-Rätsel mit gemischten Plättchen — direkt im Browser, ohne Anmeldung und ohne Installation. Ein Bild-Hinweis erscheint neben durcheinander gemischten Buchstabenplättchen, und Nutzer ordnen die Buchstaben zur korrekten Schreibweise. Die herausragende Funktion ist die Vokal-Konsonanten-Farbcodierung: Vokale und Konsonanten erscheinen in verschiedenen Farben auf den Plättchen — Umlaute ä, ö, ü werden als Vokale erkannt. Vier Schwierigkeitsstufen steuern, wie viele Buchstaben bereits korrekt platziert sind. Wählen Sie aus drei Inhaltsquellen: Bildbibliothek mit über 3.100 Illustrationen in 104 Themen, manueller Bearbeitungsmodus oder benutzerdefinierte Wortlisten. Die Sprachsensitivität ist integriert — dasselbe Bild erzeugt verschiedene Wörter in 11 Sprachen. Deutsche Zusammensetzungen wie Schmetterling erzeugen besonders lange Plättchenreihen. Die kostenlose Testversion bietet sämtliche Funktionen mit einem Wasserzeichen auf Downloads. Für den kommerziellen Einsatz können Sie eine Lizenz erwerben, die das Wasserzeichen entfernt und volle Verkaufsrechte freischaltet.',
   },

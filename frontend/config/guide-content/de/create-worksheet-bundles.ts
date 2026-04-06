@@ -2,20 +2,20 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Arbeitsblatt-Bundles erstellen die sich verkaufen',
+    primaryKeyword: 'Arbeitsblatt-Bundles erstellen Anleitung',
     secondaryKeywords: [
-      'Arbeitsblatt-Bundle Verkaufsstrategie',
-      'Druckvorlagen-Bundles für Etsy erstellen',
-      'profitable Arbeitsblatt-Pakete schnüren',
-      'Bundle-Preisgestaltung Druckvorlagen',
+      'Druckvorlagen-Pakete professionell schnüren',
+      'Bundle-Preisgestaltung Wert-Stapelung Strategie',
+      'Arbeitsblatt-Bundles Deckblatt Bonusmaterial',
+      'kategorieübergreifende Bündel Etsy KDP erstellen',
     ],
     lsiKeywords: [
-      'Pakettypen Wert-Stapelung Ankerpreis Rabattpsychologie wahrgenommener Wert',
-      'komplementäre Produkte Deckblatt Inhaltsverzeichnis Bonusmaterial Mockup',
-      'plattformübergreifender Verkauf Listing-Optimierung Konversionsrate Umsatz pro Transaktion',
+      'Pakettypen Ankerpreis Rabattpsychologie',
+      'komplementäre Produkte wahrgenommener Wert',
+      'Konversionsrate Umsatz pro Transaktion steigern',
     ],
-    titleTag: 'Arbeitsblatt-Bundles die sich verkaufen | LCS',
-    metaDescription: 'Arbeitsblatt-Bundles erstellen die sich verkaufen: Pakettypen, Preispsychologie, Wert-Stapelung und professionelle Verpackung für mehr Umsatz auf Etsy und KDP.',
+    titleTag: 'Arbeitsblatt-Bundles erstellen | LCS',
+    metaDescription: 'Arbeitsblatt-Bundles erstellen: Anleitung zu Pakettypen, Preispsychologie, Wert-Stapelung und professioneller Verpackung. Mehr Umsatz pro Transaktion auf Etsy und KDP.',
   },
 
   hero: {

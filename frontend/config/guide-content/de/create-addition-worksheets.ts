@@ -2,20 +2,21 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Plusaufgaben-Arbeitsblätter zum Verkaufen erstellen',
+    primaryKeyword: 'Additions-Arbeitsblätter erstellen Anleitung',
     secondaryKeywords: [
       'Additions-Arbeitsblätter für Etsy erstellen',
-      'Mathe-Arbeitsblätter verkaufen Anleitung',
-      'druckbare Plusaufgaben für KDP produzieren',
-      'Additions-Arbeitsblatt-Generator kommerziell',
+      'Additions-Arbeitsblätter Schritt für Schritt Anleitung',
+      'Additions-Arbeitsblätter für Anfänger erstellen',
+      'Additions-Arbeitsblätter für KDP erstellen',
     ],
     lsiKeywords: [
-      'bildbasierte Mathe-Druckvorlagen Geschäft',
-      'Etsy Printable Shop Additions-PDFs',
-      'KDP Mathe-Aktivitätsbuch veröffentlichen',
+      'Grundschule Mathe druckfertig',
+      'Lösungsschlüssel Themenbilder',
+      'Vorschule 1. Klasse Addition',
+      '300 DPI PDF Export',
     ],
-    titleTag: 'Plusaufgaben zum Verkaufen erstellen | LCS',
-    metaDescription: 'Plusaufgaben-Arbeitsblätter zum Verkaufen erstellen. Themen wählen, Schwierigkeitsgrad einstellen, Lösungsschlüssel generieren und PDFs für Etsy und KDP.',
+    titleTag: 'Additions-Arbeitsblätter erstellen | Anleitung | LCS',
+    metaDescription: 'Schritt-für-Schritt Anleitung zum Erstellen von Additions-Arbeitsblättern. Themen wählen, Schwierigkeitsgrad einstellen, Lösungsschlüssel generieren. Kostenlos testen.',
   },
 
   hero: {

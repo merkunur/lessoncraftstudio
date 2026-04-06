@@ -2,20 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'Winter-Druckvorlagen auf Etsy verkaufen',
+    primaryKeyword: 'Winter-Druckvorlagen Nische Etsy',
     secondaryKeywords: [
-      'Winter-Arbeitsblätter auf Etsy erstellen',
-      'Schnee-Eis-Druckvorlagen auf KDP verkaufen',
-      'Kaltwetter-Aktivitätsblätter auf Gumroad anbieten',
-      'Schneemann-Pinguin-Lernmaterialien für Shops',
+      'Winter Arbeitsblätter auf Etsy verkaufen',
+      'Winter Druckvorlagen Geschäftsideen',
+      'Winter Nische Wettbewerbsanalyse',
+      'profitable Winter Druckvorlagen',
     ],
     lsiKeywords: [
-      'November-Februar-Nachfrage Druckvorlagen',
-      'Kaltwetter-Nische Arbeitsblätter Etsy-Markt',
-      'Winter-Saison Lernmaterialien Verkauf',
+      'Schneeflocken Schneemänner Pinguine Arbeitsblätter',
+      'November-Februar saisonale Nachfrage',
+      'Kaltwetter-Nische Druckvorlagen Etsy-Shop',
     ],
-    titleTag: 'Winter-Druckvorlagen für Etsy verkaufen | LCS',
-    metaDescription: 'Winter-Druckvorlagen auf Etsy verkaufen — Schneeflocken, Schneemänner und Pinguine als profitable Nische. November-Februar-Strategien für Druckvorlagen-Shops.',
+    titleTag: 'Winter-Druckvorlagen Nische für Etsy | LCS',
+    metaDescription: 'Winter-Druckvorlagen als profitable Etsy-Nische entdecken. Schneeflocken, Schneemänner und Pinguine — November-Februar-Strategien für Ihren Druckvorlagen-Shop.',
   },
   hero: {
     title: 'Winter-Druckvorlagen auf Etsy verkaufen — Tipps',

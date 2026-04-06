@@ -2,23 +2,21 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'Druckvorlagen-Business von Idee zu Einkommen',
+    primaryKeyword: 'Druckvorlagen-Business Bauplan',
     secondaryKeywords: [
-      'Druckvorlagen-Geschäftsplan für Verkäufer',
-      'profitable Druckvorlagen-Produktideen',
-      'Druckvorlagen-Produktlinie starten',
-      'Druckvorlagen-Geschäft Bauplan erstellen',
+      'Printable Business Blueprint deutsch',
+      'Druckvorlagen Geschäftsmodell planen',
+      'Printable Business Roadmap',
+      'Druckvorlagen-Business aufbauen Plan',
     ],
     lsiKeywords: [
-      'Etsy.de Druckvorlagen-Shop Planung',
-      'Amazon KDP Produktstrategie',
-      'Arbeitsblatt-Geschäft Umsatzziele',
-      'Druckvorlagen-Katalog Erweiterung',
-      'Produktlinien-Planung für Verkäufer',
-      'Druckvorlagen-Geschäft Start-Checkliste',
+      'Geschäftsmodell',
+      'Einnahmequellen',
+      'Skalierung',
+      'Zeitplan',
     ],
-    titleTag: 'Printable-Business: Von Idee zu Einkommen | LCS',
-    metaDescription: 'Printable-Business von der Idee zum Einkommen aufbauen. Strukturierter Geschäftsplan mit Nischenwahl, Produktlinie, Preisstrategie und 90-Tage-Startplan.',
+    titleTag: 'Druckvorlagen-Business Bauplan | Schritt für Schritt | LCS',
+    metaDescription: 'Der komplette Bauplan für Ihr Druckvorlagen-Business. Geschäftsmodell, Einnahmequellen, Skalierung und Zeitplan für nachhaltigen Erfolg.',
   },
 
   hero: {

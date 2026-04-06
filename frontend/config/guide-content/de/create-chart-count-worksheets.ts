@@ -2,20 +2,20 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Zähl-Diagramm-Arbeitsblätter zum Verkauf erstellen',
+    primaryKeyword: 'Zähl-Diagramm-Arbeitsblätter erstellen Anleitung',
     secondaryKeywords: [
-      'Bilddiagramm-Arbeitsblätter für Etsy produzieren',
-      'Zähl-Diagramm-PDFs kommerziell auf KDP verkaufen',
-      'druckbare Bilddiagramm-Arbeitsblätter für Printable-Business',
-      'Bilddiagramm-Generator für Arbeitsblatt-Verkäufer',
+      'Zähl-Diagramm-Arbeitsblätter für Etsy erstellen',
+      'Zähl-Diagramm-Arbeitsblätter Schritt für Schritt Anleitung',
+      'Zähl-Diagramm-Arbeitsblätter für Anfänger erstellen',
+      'Zähl-Diagramm-Arbeitsblätter für KDP erstellen',
     ],
     lsiKeywords: [
-      'Dual-Canvas Lösungsschlüssel Bilddiagramm Etsy-Geschäft',
-      'sprachunabhängige Zähl-Arbeitsblätter weltweiter Verkauf',
-      'KDP Datenkompetenzen-Arbeitsbuch veröffentlichen',
+      'Grundschule Bilddiagramm druckfertig',
+      'Lösungsschlüssel 104 Themen',
+      'sprachunabhängig 300 DPI PDF',
     ],
-    titleTag: 'Zähl-Diagramme zum Verkaufen erstellen | LCS',
-    metaDescription: 'Zähl-Diagramm-Arbeitsblätter zum Verkauf erstellen. 4×5-Bildraster, automatische Lösungsschlüssel und 104 Themen. Sprachunabhängig für Etsy und KDP-Verkauf.',
+    titleTag: 'Zähl-Diagramm-Arbeitsblätter erstellen | Anleitung | LCS',
+    metaDescription: 'Schritt-für-Schritt Anleitung zum Erstellen von Zähl-Diagramm-Arbeitsblättern. 4x5-Bildraster, automatische Lösungsschlüssel und 104 Themen. Kostenlos testen.',
   },
 
   hero: {

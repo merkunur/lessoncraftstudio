@@ -2,23 +2,21 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'Vom Nebenverdienst zum Vollzeit-Printable-Business',
+    primaryKeyword: 'Druckvorlagen-Business skalieren',
     secondaryKeywords: [
-      'Druckvorlagen-Geschäft Vollzeit aufbauen',
-      'Etsy-Druckvorlagen-Shop skalieren',
-      'Expansionsstrategie für Druckvorlagen-Geschäft',
-      'Nebenerwerb zum Vollzeit-Druckvorlagen-Geschäft',
+      'Printable Business wachsen lassen',
+      'Druckvorlagen Geschäft erweitern',
+      'mehr Umsatz mit Druckvorlagen',
+      'Printable Business auf nächstes Level',
     ],
     lsiKeywords: [
-      'Katalogerweiterung für Druckvorlagen-Verkäufer',
-      'Multi-Plattform-Distribution für Arbeitsblätter',
-      'Bündelungsstrategie für digitale Downloads',
-      'Produktions-Workflow-Optimierung Druckvorlagen',
-      'mehrsprachige Marktexpansion Druckvorlagen',
-      'Reinvestitionsstrategie für Druckvorlagen-Geschäft',
+      'Automatisierung',
+      'neue Märkte',
+      'Produktlinien erweitern',
+      'Outsourcing',
     ],
-    titleTag: 'Vom Nebenverdienst zum Vollzeit-Business | LCS',
-    metaDescription: 'Vom Nebenverdienst zum Vollzeit-Printable-Business skalieren. Katalogerweiterung, Multi-Plattform-Distribution und Workflow-Optimierung für Druckvorlagen.',
+    titleTag: 'Druckvorlagen-Business skalieren | Wachstum | LCS',
+    metaDescription: 'So skalieren Sie Ihr Druckvorlagen-Business: Automatisierung, neue Märkte, Produktlinien erweitern und Outsourcing-Strategien.',
   },
 
   hero: {

@@ -2,24 +2,25 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'Bilder-Labyrinth-Generator Etsy Druckvorlagen',
+    primaryKeyword: 'Labyrinth erstellen',
     secondaryKeywords: [
-      'Bilderpfad-Arbeitsblätter erstellen und verkaufen',
-      'Labyrinth-Rätsel Generator für KDP-Bücher',
-      'Maze-Druckvorlagen verkaufen kommerzielle Lizenz',
-      'Labyrinth-Aktivitäten Generator mit Lösungspfad',
+      'Labyrinth Generator',
+      'Irrgarten erstellen',
+      'Labyrinth Arbeitsblatt Generator',
+      'Labyrinth für Kinder erstellen',
     ],
     lsiKeywords: [
-      'Printable-Business Labyrinth-Rätsel Druckvorlagen',
-      'Bilderpfad Arbeitsblatt verkaufen Etsy KDP',
-      'räumliches Denken Druckvorlagen Einkommensquelle',
+      'Weg finden',
+      'Irrgarten',
+      'Feinmotorik',
+      'Problemlösung',
     ],
-    titleTag: 'Bilder-Labyrinth-Generator für Druckvorlagen | LCS',
-    metaDescription: 'Bilder-Labyrinth-Generator für Etsy-Druckvorlagen. 3 Spielmodi mit LPF-Algorithmus, automatischer Lösungspfad, 104 Themen. 49 $ einmalig.',
+    titleTag: 'Labyrinth erstellen | Irrgarten Arbeitsblatt Generator',
+    metaDescription: 'Erstellen Sie Labyrinthe und Bild-Pfad-Rätsel mit Themenbildern. Automatische Lösungen, 300 DPI PDFs. Kostenlos testen — auf Etsy & KDP verkaufen.',
   },
 
   hero: {
-    title: 'Bilder-Labyrinth-Generator — Druckvorlagen für Etsy erstellen',
+    title: 'Labyrinth erstellen — Irrgarten Arbeitsblatt Generator',
     tagline: 'Drei Spielmodi in einem Generator — Bilderpfad, Klassisches Labyrinth und Wähle den richtigen Weg — angetrieben vom LPF-Algorithmus (Longest Path First) mit automatisch generierten Lösungsschlüsseln, Wandanpassung und rein visuellem Design, das weltweit ohne Übersetzung funktioniert.',
     description:
       'Sie möchten Labyrinth-Arbeitsblätter als Druckvorlagen auf Etsy oder in KDP-Arbeitsbüchern verkaufen? Dieser Generator bietet drei Spielmodi: Der Bilderpfad-Modus erstellt ein Raster, in dem die korrekte Route über Pfadbilder zwischen Ablenkungsbildern verfolgt wird. Das Klassische Labyrinth generiert wandbasierte Labyrinthe mit dem LPF-Algorithmus und konfigurierbaren Rastergrößen von 15×15 bis 20×20. Der Wähle-den-richtigen-Weg-Modus präsentiert Drei-Pfad-Labyrinthe mit vier Richtungsoptionen. Jeder Modus generiert automatisch einen Lösungsschlüssel mit rosa Kreisen entlang der korrekten Route. Weisen Sie Bildern fünf Rollen zu — Start, Ziel, Pfad, Ablenkung und Dekoration — und durchsuchen Sie über 3.100 Illustrationen in 104 Themen. Das rein visuelle Format ermöglicht globalen Verkauf ohne Übersetzungsaufwand. Exportieren Sie druckfertige PDFs und JPEGs mit 300 DPI in Letter, A4 oder benutzerdefinierten Größen. Kostenlos testen mit allen Funktionen — Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',
@@ -198,6 +199,11 @@ const content: AppContent = {
       question: 'Was ist Ihre Rückgabepolitik?',
       answer:
         'Da die kostenlose Testversion Ihnen vollständigen Zugang zu jeder Funktion gewährt, bieten wir keine Rückerstattung für kommerzielle Lizenzen an. Sie können alle drei Spielmodi, den LPF-Labyrinth-Algorithmus, fünf Bildrollen, Wandanpassung, den automatisch generierten Lösungsschlüssel, die vollständige Bildbibliothek, Hintergrund- und Rahmenthemen, Namens-/Datumsfelder und alle Download-Formate vor dem Kauf ausgiebig testen. Die kostenlose Testversion ist die Rückgabepolitik — stellen Sie sicher, dass das Tool Ihren Anforderungen entspricht, bevor Sie eine Lizenz erwerben. Es ist keine zeitliche Begrenzung für die Testphase vorgesehen — erstellen Sie so viele Labyrinthe wie Sie möchten und überzeugen Sie sich in Ruhe von der Qualität.',
+    },
+    {
+      question: 'Sind die Arbeitsblätter für die Grundschule geeignet?',
+      answer:
+        'Ja. Die Arbeitsblätter eignen sich für die Grundschule (Deutschland), Volksschule (Österreich) und Primarschule (Schweiz). Sie können den Schwierigkeitsgrad an verschiedene Klassenstufen anpassen — von der 1. Klasse bis zur 4. Klasse. Auch Vorschulkinder und Kindergartenkinder profitieren von den einfacheren Übungsstufen.',
     },
   ],
 

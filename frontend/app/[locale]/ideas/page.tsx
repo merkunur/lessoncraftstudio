@@ -10,7 +10,7 @@ const baseUrl = 'https://www.lessoncraftstudio.com';
 
 const ideasKeywords: Record<string, string[]> = {
   en: ['profitable printable niches', 'printable business ideas', 'etsy printable niches', 'what printables sell best', 'KDP niche ideas for activity books', 'printable business niche ideas'],
-  de: ['Druckvorlagen-Nischen-Ideen', 'profitable Druckvorlagen-Nischen', 'Etsy Nischenrecherche', 'KDP Nischen-Ideen', 'welche Druckvorlagen verkaufen sich am besten', 'Druckvorlagen-Geschäftsideen'],
+  de: ['profitable Druckvorlagen Nischen', 'Druckvorlagen Geschäftsideen', 'Etsy Druckvorlagen Nischen', 'was verkauft sich gut Etsy'],
   fr: ['idées de niches imprimables', 'niches imprimables rentables', 'recherche de niche Etsy', 'idées niche KDP', 'quels imprimables se vendent le mieux', 'idées business imprimables'],
   es: ['ideas nichos imprimibles rentables', 'nichos imprimibles Etsy KDP', 'investigación nicho imprimibles', 'ideas nicho Hotmart', 'qué imprimibles se venden mejor', 'ideas negocio imprimibles hispano'],
   pt: ['ideias de nichos imprimíveis', 'nichos imprimíveis rentáveis', 'pesquisa de nicho Etsy', 'ideias nicho KDP', 'quais imprimíveis vendem melhor', 'ideias negócio imprimíveis'],
@@ -52,8 +52,8 @@ const ideasContent: Record<string, {
   de: {
     heroTitle: 'Druckvorlagen-Geschäftsideen nach Nische',
     heroDescription: 'Finden Sie Ihre perfekte Druckvorlagen-Nische. 45 profitable Ideen mit Produktvorschlägen, Plattform-Tipps und Preisstrategien.',
-    metaTitle: 'Druckvorlagen-Nischenideen | 45 profitable Nischen | LessonCraftStudio',
-    metaDescription: '45 profitable Druckvorlagen-Nischen entdecken. Produktideen nach Alter, Thema, Saison und Format. Perfekte Nische für Etsy und KDP finden.',
+    metaTitle: '45 profitable Druckvorlagen-Nischen für Etsy & KDP',
+    metaDescription: 'Entdecken Sie 45 getestete Nischen für Ihr Druckvorlagen-Business mit Wettbewerbsanalyse. Finden Sie Nischen mit wenig Konkurrenz für Ihren Etsy- oder KDP-Shop.',
     ctaTitle: 'Bereit für Ihre Nische?',
     ctaDescription: 'Alle 33 Druckvorlagen-Generatoren gratis mit Wasserzeichen testen. Keine Anmeldung.',
     ctaButton: 'Generatoren gratis testen',

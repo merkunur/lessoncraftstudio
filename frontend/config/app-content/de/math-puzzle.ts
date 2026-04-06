@@ -2,25 +2,25 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'Mathe-Rätsel-Generator zum Verkaufen auf Etsy',
+    primaryKeyword: 'Mathe Rätsel erstellen',
     secondaryKeywords: [
-      'Mathe-Puzzle-Arbeitsblätter für Etsy-Shop erstellen',
-      'Bilderpuzzle-Rechenrätsel für Amazon KDP',
-      'Mathe-Rätsel-Druckvorlagen gewerbliche Lizenz',
-      'Rechenrätsel-Generator für Eduki verkaufen',
-      'Puzzle-Mathe-Arbeitsblätter für Online-Verkauf',
+      'Mathe Puzzle Generator',
+      'Bilder-Mathe-Rätsel erstellen',
+      'Mathematik Rätsel Arbeitsblatt',
+      'Knobelaufgaben Mathe Generator',
     ],
     lsiKeywords: [
-      'Bilderpuzzle Rechenaufgaben druckfertig 300 DPI',
-      'Mathe-Rätsel Arbeitsblattgenerator DACH-Markt',
-      'Lösungsschlüssel Themenbilder Puzzle kommerzielle Nutzung',
+      'Bilderrätsel',
+      'Knobelaufgabe',
+      'Denksport',
+      'Logik',
     ],
-    titleTag: 'Mathe-Rätsel-Generator zum Verkaufen | LCS',
-    metaDescription: 'Mathe-Rätsel mit Bilderpuzzle erstellen und auf Etsy & KDP verkaufen. Addition, Subtraktion, gewerbliche Lizenz inklusive. 49 $ einmalig.',
+    titleTag: 'Mathe-Rätsel erstellen | Bilder-Puzzle Arbeitsblatt Generator',
+    metaDescription: 'Erstellen Sie Bilder-Mathe-Rätsel, bei denen Kinder Aufgaben lösen und Bilder zuordnen. Themen-Bilder, Lösungen inklusive. Kostenlos testen.',
   },
 
   hero: {
-    title: 'Mathe-Rätsel erstellen und auf Etsy & KDP verkaufen',
+    title: 'Mathe-Rätsel erstellen — Bilder-Puzzle Arbeitsblatt Generator',
     tagline: 'Verbinden Sie Mathe-Übungen mit Puzzle-Spannung — jedes Teil enthält eine Aufgabe, jede Lösung enthüllt das Bild.',
     description:
       'Mit dem Mathe-Rätsel-Generator zum Verkaufen auf Etsy erstellen Sie Puzzle-Arbeitsblätter, die Rechnen und Bildermotivation in einem einzigartigen Format verbinden — ein vollständiges Bild wird in Puzzleteile zerlegt, und jedes Teil enthält eine Rechenaufgabe. Käufer lösen Addition, Subtraktion oder gemischte Aufgaben und setzen so Stück für Stück das Motiv zusammen. Rastergrößen von 2×2 bis 4×4 ergeben 4 bis 16 Teile pro Puzzle — perfekt für progressive Schwierigkeitspakete auf Etsy oder mehrseitige Aktivitätsbücher für Amazon KDP. Über 3.100 Illustrationen in 104 Themen sorgen für endlose Abwechslung, und der automatische Lösungsschlüssel spart Ihnen stundenlange Handarbeit. Exportieren Sie druckfertige PDFs mit über 400 DPI und verkaufen Sie Ihre Mathe-Puzzles mit der gewerblichen Lizenz auf allen gängigen Marktplätzen. Kostenlos testen mit allen Funktionen — Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',
@@ -199,6 +199,11 @@ const content: AppContent = {
       question: 'Was ist Ihre Rückgabepolitik?',
       answer:
         'Da die kostenlose Testversion Ihnen Zugang zu jeder Funktion gewährt, bieten wir keine Rückerstattung für kommerzielle Lizenzen an. Sie können jede Rechenoperation, jede Rastergröße, jedes Thema und jedes Exportformat vor dem Kauf testen. Die kostenlose Testversion ist die Rückgabepolitik — stellen Sie sicher, dass das Tool Ihren Anforderungen entspricht, bevor Sie eine Lizenz erwerben. Dieser Ansatz stellt sicher, dass Sie jede Funktion, jedes Exportformat und jede Themenkombination vor einer Kaufentscheidung vollständig bewerten können, was Ihnen vollständiges Vertrauen in Ihre Investition gibt. Verkäufer, die mehrere Übungsmodi in thematischen Bündeln kombinieren, erzielen durchweg höhere durchschnittliche Bestellwerte, da Eltern und Verkäufer umfassende Aktivitätspakete gegenüber einzelnen Arbeitsblattseiten bevorzugen.',
+    },
+    {
+      question: 'Sind die Arbeitsblätter für die Grundschule geeignet?',
+      answer:
+        'Ja. Die Arbeitsblätter eignen sich für die Grundschule (Deutschland), Volksschule (Österreich) und Primarschule (Schweiz). Sie können den Schwierigkeitsgrad an verschiedene Klassenstufen anpassen — von der 1. Klasse bis zur 4. Klasse. Auch Vorschulkinder und Kindergartenkinder profitieren von den einfacheren Übungsstufen.',
     },
   ],
 

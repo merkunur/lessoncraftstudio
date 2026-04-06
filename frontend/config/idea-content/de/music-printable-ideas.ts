@@ -2,20 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'Musik-Druckvorlagen verkaufen Ideen',
+    primaryKeyword: 'Musik-Druckvorlagen Nische Etsy',
     secondaryKeywords: [
-      'Musik-Arbeitsblätter auf Etsy erstellen',
-      'Instrumente-Druckvorlagen auf KDP verkaufen',
-      'Musiktheorie-Aktivitätsblätter für Gumroad',
-      'Noten-und-Rhythmus-Lernmaterialien für Shops',
+      'Musik Arbeitsblätter auf Etsy verkaufen',
+      'Musik Druckvorlagen Geschäftsideen',
+      'Musik Nische Wettbewerbsanalyse',
+      'profitable Musik Druckvorlagen',
     ],
     lsiKeywords: [
-      'Musikunterricht-Thema Druckvorlagen-Nische',
-      'Instrumente-Bildungsthema Arbeitsblätter',
-      'Musikalische Früherziehung Lernmaterialien',
+      'Instrumente Noten Rhythmus Arbeitsblätter',
+      'Musikunterricht-Thema Druckvorlagen ganzjährig',
+      'Musikalische Früherziehung Nische Etsy-Shop',
     ],
-    titleTag: 'Musik-Druckvorlagen zum Verkaufen | LCS',
-    metaDescription: 'Musik-Druckvorlagen verkaufen auf Etsy, KDP und Gumroad. Instrumente und Rhythmus als ganzjährige Nische — Produktideen und Strategien für Ihren Printable-Shop.',
+    titleTag: 'Musik-Druckvorlagen Nische für Etsy | LCS',
+    metaDescription: 'Musik-Druckvorlagen als profitable Etsy-Nische entdecken. Instrumente und Rhythmus als ganzjähriges Thema — Produktideen und Wettbewerbsanalyse für Ihren Shop.',
   },
   hero: {
     title: 'Musik-Druckvorlagen — Kreative Geschäftsideen für Verkäufer',

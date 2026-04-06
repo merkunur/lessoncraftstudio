@@ -2,24 +2,25 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'kostenloser zuordnungs arbeitsblatt maker arbeitsblätter kostenlos erstellen online',
+    primaryKeyword: 'kostenloser Zuordnungs-Arbeitsblatt Generator',
     secondaryKeywords: [
-      'Zuordnungs-Arbeitsblätter kostenlos erstellen',
-      'Paare-Verbinden-Generator online ohne Anmeldung',
-      'kostenlose Zuordnungs-Aktivitäten mit Lösungsschlüssel',
-      'Zuordnungs-Arbeitsblatt Maker mit vier Modi kostenlos',
+      'Zuordnungsaufgaben Generator kostenlos online',
+      'Verbinden Arbeitsblatt erstellen gratis',
+      'Bilder zuordnen Arbeitsblatt kostenlos',
+      'Memory Arbeitsblatt Generator ohne Anmeldung',
     ],
     lsiKeywords: [
-      'Anfangsbuchstaben Bild-Wort Zuordnung',
-      'Paare-Verbinden Arbeitsblatt Generator',
-      'Zuordnungs-Aktivitäten mit Lösungsschlüssel',
+      'verbinden kostenlos',
+      'Paare finden',
+      'Vorschule',
+      'Kindergarten',
     ],
-    titleTag: 'Kostenloser Zuordnungs-Arbeitsblatt Maker | LCS',
-    metaDescription: 'Kostenloser Zuordnungs-Arbeitsblatt-Generator: Paare-Verbinden mit vier Modi und Lösungsschlüssel erstellen. Ohne Anmeldung. Kommerzielle Lizenz verfügbar.',
+    titleTag: 'Kostenloser Zuordnungs-Arbeitsblatt Generator | LCS',
+    metaDescription: 'Kostenloser Zuordnungs-Arbeitsblatt Generator — Verbinden-Aufgaben mit Themenbildern online erstellen, ohne Anmeldung. Lizenz für Etsy & KDP.',
   },
 
   hero: {
-    title: 'Zuordnungs-Arbeitsblätter kostenlos erstellen online',
+    title: 'Kostenloser Zuordnungs-Arbeitsblatt Generator Online',
     tagline: 'Vier-Modi Zuordnungs-Arbeitsblatt-Generator mit Anfangsbuchstabe, Bild+Wort, Mischung und Eigenes Wort, automatisch generiertem Lösungsschlüssel mit Verbindungslinien, konfigurierbarer Paaranzahl, lokalisierter \"Finde die Paare!\"-Überschrift in 11 Sprachen und 104 thematischen Bildsammlungen für Zuordnungs-Aktivitäten, die weltweit verkaufen',
     description: 'Erstellen Sie Zuordnungs-Arbeitsblätter kostenlos mit unserem Zuordnungs-Arbeitsblatt-Generator — direkt im Browser, ohne Anmeldung und ohne Software-Download. Vier verschiedene Zuordnungsmodi decken jeden Anwendungsfall ab: Anfangsbuchstaben-Modus paart Bilder mit ihren Anfangsbuchstaben, Bild+Wort-Modus zeigt beschriftete Bildpaare für Wortschatzaufbau, der Mischungs-Modus kombiniert Bilder und Wörter flexibel, und Eigenes-Wort-Modus paart Bilder mit Ihren eigenen Begriffen. Konfigurieren Sie 4, 5 oder 6 Paare pro Arbeitsblatt für flexible Schwierigkeitsgrade. Das Doppel-Canvas-System generiert automatisch einen Lösungsschlüssel mit Verbindungslinien zwischen korrekten Paaren. Über 3.100 Illustrationen aus 104 Themensammlungen stehen zur Verfügung. Exportieren Sie als druckfertiges PDF oder JPEG bei 300 DPI in Letter, A4 oder benutzerdefinierten Größen. Die kostenlose Testversion bietet alle Funktionen mit Wasserzeichen — erwerben Sie eine kommerzielle Lizenz, um das Wasserzeichen zu entfernen und Ihre Arbeitsblätter zu verkaufen.',
   },

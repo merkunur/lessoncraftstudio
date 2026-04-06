@@ -2,20 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'Print-on-Demand Arbeitsblatt-Geschäftsideen',
+    primaryKeyword: 'Print-on-Demand Druckvorlagen Geschäftsidee',
     secondaryKeywords: [
-      'POD-Druckvorlagen auf Etsy erstellen',
-      'gedruckte Arbeitshefte auf KDP verkaufen',
-      'Print-on-Demand Aktivitätspakete auf Shopify',
-      'lagerloses Druckvorlagen-Geschäft aufbauen',
+      'Print-on-Demand Arbeitsblätter auf Etsy verkaufen',
+      'Print-on-Demand Druckvorlagen Geschäftsideen',
+      'Print-on-Demand Nische Wettbewerbsanalyse',
+      'profitable Print-on-Demand Druckvorlagen',
     ],
     lsiKeywords: [
-      'Print-on-Demand Geschäftsmodell Arbeitsblätter',
-      'lagerlose Produktion Druckvorlagen-Verkauf',
-      'Aktivitätshefte POD profitabel aufbauen',
+      'POD Arbeitshefte lagerlose Produktion',
+      'KDP Aktivitätspakete Druckqualität',
+      'lagerloses Geschäftsmodell Druckvorlagen',
     ],
-    titleTag: 'Print-on-Demand Arbeitsblatt-Business | LCS',
-    metaDescription: 'Print-on-Demand Arbeitsblatt-Geschäftsideen für KDP und Etsy. Gedruckte Arbeitshefte und Aktivitätspakete ohne Lagerhaltung mit professioneller Druckqualität.',
+    titleTag: 'Print-on-Demand Druckvorlagen Idee | LCS',
+    metaDescription: 'Print-on-Demand Druckvorlagen als Geschäftsidee entdecken. Gedruckte Arbeitshefte und Aktivitätspakete ohne Lagerhaltung — profitables Modell für KDP und Etsy.',
   },
   hero: {
     title: 'Print-on-Demand Arbeitsblatt-Business — Geschäftsideen',

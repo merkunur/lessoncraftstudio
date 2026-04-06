@@ -2,24 +2,26 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'Schwungübungen-Generator Etsy Druckvorlagen',
+    primaryKeyword: 'Schwungübungen erstellen',
     secondaryKeywords: [
-      'Linien-Ziehen-Arbeitsblätter erstellen und verkaufen',
-      'Feinmotorik-Übungen Generator für KDP-Bücher',
-      'Schwungübungen-Druckvorlagen kommerzielle Lizenz',
-      'Linienverfolgung-Arbeitsblatt-Generator Etsy-Shop',
+      'Nachspurübungen Generator',
+      'Linien nachfahren Arbeitsblatt',
+      'Feinmotorik Arbeitsblatt erstellen',
+      'Vorschule Schwungübungen Generator',
     ],
     lsiKeywords: [
-      'Printable-Business Vorschulübungen Feinmotorik',
-      'SVG-Linienvorlagen Schwungübungen verkaufen',
-      'Schreibvorbereitung Druckvorlagen Einkommensquelle',
+      'Stifthaltung',
+      'Feinmotorik',
+      'gepunktete Linien',
+      'gerade Linien',
+      'Kurven',
     ],
-    titleTag: 'Schwungübungen-Generator für Druckvorlagen | LCS',
-    metaDescription: 'Schwungübungen-Generator für Etsy-Druckvorlagen. 8 SVG-Linienvorlagen, 4 Linientypen für Feinmotorik, 104 Bildthemen. 49 $ einmalig.',
+    titleTag: 'Schwungübungen erstellen | Nachspurübungen Generator',
+    metaDescription: 'Erstellen Sie Schwung- und Nachspurübungen mit Themenbildern. Druckfertige 300 DPI PDFs. Kostenlos testen — kommerzielle Lizenz inklusive.',
   },
 
   hero: {
-    title: 'Schwungübungen-Generator — Druckvorlagen für Etsy erstellen',
+    title: 'Schwungübungen erstellen — Nachspurübungen Generator',
     tagline: 'Acht SVG-Linienvorlagen — Kurven, Diagonalen, Horizontal und Vertikal — mit 4–5 Bildpaaren pro Seite für Feinmotorik-Entwicklung durch geführtes Linienziehen.',
     description:
       'Sie möchten Schwungübungen als Druckvorlagen auf Etsy oder Amazon KDP verkaufen? Dieser Generator erstellt professionelle Linien-Ziehen-Arbeitsblätter mit acht SVG-basierten Vorlagen in vier Linientypen: Kurven für fließende Schwungbewegungen, Diagonalen für schräge Strichführung, Horizontallinien für Links-nach-Rechts-Übungen und Vertikallinien für Abwärtsstriche. Jede Vorlage platziert 4 oder 5 zusammengehörige Bildpaare auf gegenüberliegenden Seiten des Linienpfades. Die Auto-Füll-Funktion befüllt Paarplätze sofort aus über 3.100 Illustrationen in 104 Themen. Die Vorlagenauswahl steuert die Seitenausrichtung automatisch — Kurven im Querformat, Geraden im Hochformat. Das rein visuelle Format ohne Text ermöglicht globalen Verkauf ohne Übersetzungsaufwand. Exportieren Sie druckfertige PDFs und JPEGs mit 300 DPI in Letter, A4 oder benutzerdefinierten Größen. Kostenlos testen mit allen Funktionen — Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',
@@ -198,6 +200,11 @@ const content: AppContent = {
       question: 'Was ist Ihre Rückgabepolitik?',
       answer:
         'Da die kostenlose Testversion Ihnen Zugang zu jeder Funktion gewährt, bieten wir keine Rückerstattung für kommerzielle Lizenzen an. Sie können jede Linienvorlage, jedes Bildthema, die Auto-Füll-Funktion, jedes Exportformat und jede Seitengröße vor dem Kauf testen. Die kostenlose Testversion ist die Rückgabepolitik — stellen Sie sicher, dass das Tool Ihren Anforderungen entspricht, bevor Sie eine Lizenz erwerben.',
+    },
+    {
+      question: 'Sind die Arbeitsblätter für die Grundschule geeignet?',
+      answer:
+        'Ja. Die Arbeitsblätter eignen sich für die Grundschule (Deutschland), Volksschule (Österreich) und Primarschule (Schweiz). Sie können den Schwierigkeitsgrad an verschiedene Klassenstufen anpassen — von der 1. Klasse bis zur 4. Klasse. Auch Vorschulkinder und Kindergartenkinder profitieren von den einfacheren Übungsstufen.',
     },
   ],
 

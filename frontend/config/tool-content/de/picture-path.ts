@@ -2,24 +2,25 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'kostenloser bilderpfad generator labyrinthe kostenlos erstellen online',
+    primaryKeyword: 'Labyrinth erstellen kostenlos',
     secondaryKeywords: [
-      'Bilderpfad-Arbeitsblätter kostenlos erstellen',
-      'Labyrinth-Generator online ohne Anmeldung',
-      'kostenlose Labyrinth-Rätsel mit Lösungsschlüssel',
-      'Bilderpfad-Generator mit drei Spielmodi kostenlos',
+      'Labyrinth Generator kostenlos online',
+      'Irrgarten erstellen gratis',
+      'Labyrinth Arbeitsblatt kostenlos',
+      'Labyrinth für Kinder kostenlos erstellen',
     ],
     lsiKeywords: [
-      'Labyrinth Bilderpfad Pfadverfolgung Rätsel',
-      'LPF-Algorithmus wandbasiertes Labyrinth',
-      'Wähle den richtigen Weg Richtungslabyrinth',
+      'Weg finden kostenlos',
+      'Irrgarten',
+      'Feinmotorik',
+      'Problemlösung',
     ],
-    titleTag: 'Kostenloser Bilderpfad-Generator | LCS',
-    metaDescription: 'Kostenloser Bilderpfad-Generator: Labyrinth-Arbeitsblätter mit drei Spielmodi und LPF-Algorithmus erstellen. Ohne Anmeldung. Kommerzielle Lizenz verfügbar.',
+    titleTag: 'Labyrinth erstellen kostenlos | Online Generator | LCS',
+    metaDescription: 'Labyrinthe kostenlos erstellen — Irrgarten und Bild-Pfad-Rätsel mit Themenbildern online, ohne Anmeldung. Lizenz für Etsy & KDP.',
   },
 
   hero: {
-    title: 'Bilderpfad-Labyrinthe kostenlos erstellen online',
+    title: 'Labyrinth erstellen kostenlos — Online Irrgarten Generator',
     tagline: 'Drei-Modus-Labyrinth-Arbeitsblatt-Generator mit Bilderpfad (Bildraster-Pfadverfolgung), Klassischem Labyrinth (LPF-wandbasierter Algorithmus mit Sammelobjekten und Sackgassen-Blockierung) und Wähle den richtigen Weg (Drei-Pfad-Richtungslabyrinth), fünf Bildrollen (Startbild, Zielbild, Pfadbilder, Ablenkungsbilder, Dekoration), anpassbares Wanddesign mit Farb-/Dicke-/Deckkraft-Steuerung, automatisch generierte Lösungsschlüssel mit rosa Kreis-Lösungshervorhebung und Sammelobjekt-Legenden sowie rein visuelle Labyrinthe, die weltweit ohne Übersetzung verkauft werden können',
     description: 'Erstellen Sie Bilderpfad-Labyrinthe kostenlos mit unserem Bilderpfad-Generator — direkt im Browser, ohne Anmeldung und ohne Software-Download. Drei Spielmodi bieten vielseitige Labyrinth-Erlebnisse: Bilderpfad erstellt ein Bildraster, in dem Sie den korrekten Pfad vom Start zum Ziel verfolgen. Klassisches Labyrinth generiert wandbasierte Labyrinthe mit dem LPF-Algorithmus und konfigurierbaren Rastergrößen von 15×15 bis 20×20. Wähle den richtigen Weg präsentiert Drei-Pfad-Labyrinthe mit vier Richtungsoptionen. Weisen Sie Bilder fünf verschiedenen Rollen zu und passen Sie Wandfarbe, Dicke und Deckkraft individuell an. Jeder Modus generiert automatisch einen Lösungsschlüssel mit rosa Pfad-Hervorhebung. Über 3.100 Illustrationen aus 104 Themen stehen bereit. Die Labyrinthe sind rein visuell und universell einsetzbar. Exportieren Sie als PDF oder JPEG bei 300 DPI. Die kostenlose Testversion bietet alle Funktionen mit Wasserzeichen — erwerben Sie eine kommerzielle Lizenz, um das Wasserzeichen zu entfernen und Ihre Labyrinthe zu verkaufen.',
   },

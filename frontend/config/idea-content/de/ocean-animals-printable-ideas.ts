@@ -2,20 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'Meerestiere-Druckvorlagen Geschäftsideen',
+    primaryKeyword: 'Meerestiere-Druckvorlagen Nische Etsy',
     secondaryKeywords: [
-      'Unterwasserwelt-Arbeitsblätter auf Etsy erstellen',
-      'Meerestier-Druckvorlagen auf KDP verkaufen',
-      'Ozean-Aktivitätsblätter auf Gumroad anbieten',
-      'Wal-Delphin-Lernmaterialien für Etsy-Shops',
+      'Meerestiere Arbeitsblätter auf Etsy verkaufen',
+      'Meerestiere Druckvorlagen Geschäftsideen',
+      'Meerestiere Nische Wettbewerbsanalyse',
+      'profitable Meerestiere Druckvorlagen',
     ],
     lsiKeywords: [
-      'Meeresbiologie-Thema Druckvorlagen-Nische',
-      'Unterwasser-Bildungsthema Arbeitsblätter',
-      'Ozean-Ganzjahres-Nische Lernmaterialien',
+      'Wale Delfine Fische Arbeitsblätter',
+      'Ozean Meeresbiologie Druckvorlagen ganzjährig',
+      'Unterwasserwelt-Thema Nische Etsy-Shop',
     ],
-    titleTag: 'Meerestiere-Druckvorlagen Ideen | LCS',
-    metaDescription: 'Meerestiere-Druckvorlagen Geschäftsideen für Etsy, KDP und Gumroad. Unterwasser-Produktkonzepte mit Walen, Delfinen und Fischen für Ihren Druckvorlagen-Shop.',
+    titleTag: 'Meerestiere-Druckvorlagen Nische Etsy | LCS',
+    metaDescription: 'Meerestiere-Druckvorlagen als profitable Etsy-Nische entdecken. Wale, Delfine und Fische als ganzjähriges Thema — Produktideen und Wettbewerbsanalyse für Verkäufer.',
   },
   hero: {
     title: 'Meerestiere-Druckvorlagen — Geschäftsideen',

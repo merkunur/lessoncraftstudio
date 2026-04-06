@@ -2,20 +2,20 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Druckvorlagen auf Etsy bepreisen Strategie',
+    primaryKeyword: 'Druckvorlagen Preisgestaltung Etsy',
     secondaryKeywords: [
       'Etsy Gebühren berechnen Nettoumsatz Druckvorlagen',
       'dreistufige Preisstruktur Arbeitsblätter Etsy',
-      'Bündelpreise für Etsy Druckvorlagen festlegen',
+      'Bündelpreise Druckvorlagen Etsy festlegen',
       'Etsy Preistest Konversionsrate optimieren',
     ],
     lsiKeywords: [
       'Gebührenberechnung digitale Produkte Nettoumsatz',
-      'Bündelpreisgestaltung wahrgenommener Wert Arbeitsblätter',
-      'saisonale Preisanpassungen Etsy Gutscheine',
+      'Bündelpreisgestaltung wahrgenommener Wert Rabatte',
+      'saisonale Preisanpassungen Etsy Gutscheine Strategie',
     ],
-    titleTag: 'Druckvorlagen auf Etsy richtig bepreisen | LCS',
-    metaDescription: 'Druckvorlagen auf Etsy bepreisen — die richtige Strategie: Gebührenrechnung, dreistufige Preisstruktur, Bündelpreise und saisonale Anpassungen für mehr Gewinn.',
+    titleTag: 'Druckvorlagen Preisgestaltung Etsy | LCS',
+    metaDescription: 'Druckvorlagen Preisgestaltung auf Etsy: Gebuehrenberechnung, dreistufige Preisstruktur, Buendelpreise und saisonale Anpassungen fuer nachhaltige Profitabilitaet.',
   },
 
   hero: {

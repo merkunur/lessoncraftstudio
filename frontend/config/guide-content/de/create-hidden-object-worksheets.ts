@@ -2,20 +2,20 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Suchbilder-Arbeitsblätter zum Verkaufen erstellen',
+    primaryKeyword: 'Suchbilder erstellen Anleitung',
     secondaryKeywords: [
-      'Suchbilder-Szenen für Etsy produzieren',
-      'Ich-sehe-was-Arbeitsblätter kommerziell verkaufen',
-      'Such-und-Finde-Aktivitätsbuch auf KDP veröffentlichen',
-      'Suchbilder-Generator für Printable-Verkäufer',
+      'Suchbilder für Etsy erstellen',
+      'Suchbilder Schritt für Schritt Anleitung',
+      'Suchbilder für Anfänger erstellen',
+      'Suchbilder-Arbeitsblätter für KDP erstellen',
     ],
     lsiKeywords: [
-      'visuelle Sucharbeitsblätter Etsy-Geschäft',
-      'versteckte Objekte Printable Nische verkaufen',
-      'KDP Such-und-Finde-Aktivitätsbuch veröffentlichen',
+      'Vorschule visuelle Wahrnehmung druckfertig',
+      'Ich-sehe-was Lösungsschlüssel Themenbilder',
+      'Grundschule 300 DPI PDF',
     ],
-    titleTag: 'Suchbilder zum Verkaufen erstellen | LCS',
-    metaDescription: 'Suchbilder-Arbeitsblätter zum Verkaufen erstellen. Ich-sehe-was und Was-passt-nicht-Modus, Lösungsschlüssel und druckfertige Dateien für Etsy und KDP.',
+    titleTag: 'Suchbilder erstellen | Anleitung | LCS',
+    metaDescription: 'Schritt-für-Schritt Anleitung zum Erstellen von Suchbildern. Ich-sehe-was und Was-passt-nicht-Modus, Lösungsschlüssel und druckfertige Dateien. Kostenlos testen.',
   },
 
   hero: {

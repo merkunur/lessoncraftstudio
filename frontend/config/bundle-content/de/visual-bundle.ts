@@ -2,21 +2,21 @@ import type { BundleContent } from '../types';
 
 const content: BundleContent = {
   seo: {
-    primaryKeyword: 'Visuelle Arbeitsblatt-Generatoren für Verkäufer',
+    primaryKeyword: 'Visuelles Lernen Arbeitsblatt-Generatoren Bundle',
     secondaryKeywords: [
-      'Malvorlagen-Zeichnen-Arbeitsblatt-Generator-Paket für Verkäufer',
-      'visuelle Aktivitäten druckbares Toolkit kommerzielle Nutzung',
-      'Muster-Arbeitsblatt-Paket für Etsy',
-      'Zeichnen-Malvorlagen-Generatoren für KDP-Verkäufer',
+      'Visuell-Bundle für Etsy-Verkäufer',
+      'Suchbild Zuordnung Bundle kaufen',
+      'Visuelles Lernen Generatoren Paket',
+      'Schwungübungen Gitterzeichnung Bundle',
     ],
     lsiKeywords: [
-      'Malvorlagen-Zeichnen-Arbeitsblatt-Paket',
-      'Mustererkennung Bilddiagramm druckbare Sammlung',
-      'kommerzielle Lizenz visuelle Aktivitäts-Arbeitsblätter',
-      'visuelle Arbeitsblatt-Massenproduktion Werkzeug',
+      '7 Generatoren',
+      'visuelle Wahrnehmung',
+      'Kategorie-Bundle',
+      'Bis zu 57% sparen',
     ],
-    titleTag: 'Visuelles Arbeitsblatt-Bundle für Verkäufer | LCS',
-    metaDescription: 'Visuelles Arbeitsblatt-Bundle mit 7 Generatoren für Etsy-Verkäufer. 149 $ einmalig.',
+    titleTag: 'Visuelles-Lernen-Bundle | 7 Generatoren | LCS',
+    metaDescription: 'Visuelles-Lernen-Bundle mit 7 Generatoren: Zuordnung, Schwungübungen, Suchbild, Gitterzeichnung und mehr. Bis zu 57% sparen. Kommerzielle Lizenz.',
   },
 
   hero: {

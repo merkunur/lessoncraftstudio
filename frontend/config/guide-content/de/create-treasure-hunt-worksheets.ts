@@ -2,20 +2,20 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Schatzsuche-Arbeitsblätter zum Verkaufen erstellen',
+    primaryKeyword: 'Schatzsuche-Arbeitsblätter erstellen Anleitung',
     secondaryKeywords: [
-      'Pfadfindungs-Arbeitsblätter für Etsy produzieren',
-      'Schatzsuche-Rätsel kommerziell auf KDP verkaufen',
-      'druckbare Koordinatenraster-Arbeitsblätter für Printable-Business',
-      'Schatzsuche-Generator für Arbeitsblatt-Verkäufer',
+      'Pfadfindungs-Arbeitsblätter Generator Schritt für Schritt',
+      'Koordinatenraster-Rätsel druckfertig erstellen',
+      'Schatzsuche-Arbeitsblätter zwei Richtungstypen',
+      'lokalisierte Richtungshinweise elf Sprachen generieren',
     ],
     lsiKeywords: [
-      'mehrsprachige Schatzsuche Printable Nische',
-      'Koordinatenraster Pfadfindung Etsy-Geschäft',
-      'KDP Richtungs-Pfadfindungs-Arbeitsbuch veröffentlichen',
+      '5x5-Raster Grundrichtungen Himmelsrichtungen',
+      'thematische Bilder Lösungsschlüssel automatisch',
+      'mehrsprachige Arbeitsblätter Etsy KDP Gumroad',
     ],
     titleTag: 'Schatzsuche-Arbeitsblätter erstellen | LCS',
-    metaDescription: 'Schatzsuche-Arbeitsblätter zum Verkaufen erstellen. 5×5-Raster, zwei Richtungstypen, lokalisierte Hinweise in 11 Sprachen und Lösungsschlüssel für Etsy.',
+    metaDescription: 'Schatzsuche-Arbeitsblätter erstellen: Anleitung mit 5x5-Koordinatenraster, zwei Richtungstypen und lokalisierten Hinweisen in 11 Sprachen. Druckfertige PDFs mit Lösungsschlüssel.',
   },
 
   hero: {

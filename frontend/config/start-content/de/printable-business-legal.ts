@@ -2,23 +2,21 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'Druckvorlagen-Business Steuern und Recht Deutschland',
+    primaryKeyword: 'Rechtliches für Druckvorlagen-Business',
     secondaryKeywords: [
-      'Druckvorlagen-Geschäft rechtliche Grundlagen',
-      'Steuerpflichten digitale Produkte',
-      'Unternehmensform für Druckvorlagen-Verkäufer',
-      'geistiges Eigentum druckbare Arbeitsblätter',
+      'Druckvorlagen verkaufen rechtliche Grundlagen',
+      'Gewerbe anmelden Printable Business',
+      'Steuern Druckvorlagen-Verkauf',
+      'AGB für Druckvorlagen-Shop',
     ],
     lsiKeywords: [
-      'Gewerbeanmeldung Druckvorlagen-Geschäft',
-      'Impressumspflicht digitale Produkte',
-      'DSGVO für Etsy-Verkäufer',
-      'Kleinunternehmerregelung Druckvorlagen',
-      'grenzüberschreitende Steuer digitale Güter',
-      'absetzbare Betriebsausgaben Druckvorlagen-Geschäft',
+      'Gewerbeanmeldung',
+      'Impressum',
+      'Datenschutz',
+      'Steuerpflicht',
     ],
-    titleTag: 'Printable-Business: Steuern & Recht (DE) | LCS',
-    metaDescription: 'Printable-Business in Deutschland: Gewerbeanmeldung, Impressumspflicht, DSGVO und Kleinunternehmerregelung für Druckvorlagen-Verkäufer verständlich erklärt.',
+    titleTag: 'Rechtliches für Druckvorlagen-Business | LCS',
+    metaDescription: 'Rechtliche Grundlagen für Ihr Druckvorlagen-Business: Gewerbeanmeldung, Steuern, AGB und Datenschutz für Etsy und eigene Shops.',
   },
 
   hero: {

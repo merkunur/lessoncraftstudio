@@ -2,20 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'Weihnachts-Druckvorlagen auf Etsy verkaufen',
+    primaryKeyword: 'Weihnachts-Druckvorlagen Nische Etsy',
     secondaryKeywords: [
-      'Weihnachts-Arbeitsblätter auf Etsy erstellen',
-      'Advents-Aktivitätsblätter auf KDP verkaufen',
-      'saisonale Weihnachts-Druckvorlagen für Gumroad',
-      'Weihnachtszeit-Arbeitsblätter für Druckvorlagen-Shops',
+      'Weihnachts Arbeitsblätter auf Etsy verkaufen',
+      'Weihnachts Druckvorlagen Geschäftsideen',
+      'Weihnachts Nische Wettbewerbsanalyse',
+      'profitable Weihnachts Druckvorlagen',
     ],
     lsiKeywords: [
-      'Adventszeit-Nachfragespitze Druckvorlagen',
-      'Winter-Festtags-Nische Arbeitsblatt-Umsatz',
-      'Dezember-Saison Lernmaterialien Etsy-Verkauf',
+      'Advent Nikolaus Lebkuchen Druckvorlagen',
+      'Dezember saisonale Nachfragespitze',
+      'Winter-Festtags-Nische Arbeitsblätter',
     ],
-    titleTag: 'Weihnachts-Druckvorlagen für Etsy | LCS',
-    metaDescription: 'Weihnachts-Druckvorlagen auf Etsy verkaufen — profitable Adventsprodukte mit Nikolaus, Rentier und Lebkuchen. Saisonale Strategien und Timing-Tipps für Shops.',
+    titleTag: 'Weihnachts-Druckvorlagen Nische Etsy | LCS',
+    metaDescription: 'Weihnachts-Druckvorlagen als profitable Etsy-Nische entdecken. Adventsprodukte mit Nikolaus, Rentier und Lebkuchen — saisonale Strategien und Timing-Tipps für Ihren Shop.',
   },
   hero: {
     title: 'Weihnachts-Druckvorlagen auf Etsy verkaufen',

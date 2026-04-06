@@ -2,23 +2,21 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'mehrsprachige arbeitsblätter verkaufen erstellen',
+    primaryKeyword: 'Mehrsprachige Arbeitsblätter erstellen Anleitung',
     secondaryKeywords: [
-      'Arbeitsblätter in mehreren Sprachen erstellen',
-      'mehrsprachige druckbare Arbeitsblätter',
-      'Arbeitsblätter auf Deutsch Französisch Spanisch verkaufen',
-      'mehrsprachiger Aktivitätsbuch-Generator',
+      'Arbeitsblätter in 11 Sprachen erstellen',
+      'mehrsprachige Druckvorlagen für Etsy',
+      'internationale Arbeitsblätter verkaufen',
+      'Druckvorlagen lokalisieren Anleitung',
     ],
     lsiKeywords: [
-      'sprachsensitiver Arbeitsblatt-Generator',
-      'Arbeitsblätter in 11 Sprachen erstellen',
-      'nicht-englischer Druckvorlagen-Markt Etsy',
-      'mehrsprachiger Wortsuche-Generator',
-      'internationales Druckvorlagen-Geschäft',
-      'Arbeitsblätter auf Etsy.de Etsy.fr verkaufen',
+      '11 Sprachen',
+      'Lokalisierung',
+      'internationale Märkte',
+      'DACH-Raum',
     ],
-    titleTag: 'Mehrsprachige Arbeitsblätter verkaufen | LCS',
-    metaDescription: 'Arbeitsblätter in 11 Sprachen erstellen und international verkaufen. Mehrsprachige Druckvorlagen für Etsy.de, Amazon.fr und weitere Märkte profitabel nutzen.',
+    titleTag: 'Mehrsprachige Arbeitsblätter erstellen | Anleitung | LCS',
+    metaDescription: 'Anleitung zum Erstellen mehrsprachiger Arbeitsblätter in 11 Sprachen. Internationale Märkte erschließen und auf Etsy und KDP verkaufen.',
   },
 
   hero: {

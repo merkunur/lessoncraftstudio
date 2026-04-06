@@ -2,20 +2,20 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Was-passt-nicht-Rätsel zum Verkaufen erstellen',
+    primaryKeyword: 'Was-passt-nicht-Rätsel erstellen Anleitung',
     secondaryKeywords: [
-      'Was-passt-nicht-Arbeitsblätter für Etsy produzieren',
-      'visuelle Unterscheidung Rätsel kommerziell verkaufen',
-      'Was-passt-nicht-Arbeitsbuch auf KDP veröffentlichen',
-      'Was-passt-nicht-Generator für Printable-Verkäufer',
+      'Was-passt-nicht-Rätsel für Etsy erstellen',
+      'Was-passt-nicht-Rätsel Schritt für Schritt Anleitung',
+      'Was-passt-nicht-Rätsel für Anfänger erstellen',
+      'Was-passt-nicht-Rätsel für KDP erstellen',
     ],
     lsiKeywords: [
-      'rein visuelles Rätsel weltweiter Verkauf Etsy',
-      'Identisch-Ähnlich Dual-Modus Printable Nische',
-      'KDP visuelle Unterscheidung Arbeitsbuch veröffentlichen',
+      'Vorschule Grundschule visuelle Unterscheidung',
+      'Identisch-Modus Ähnlich-Modus druckfertig',
+      'Lösungsschlüssel 300 DPI PDF',
     ],
-    titleTag: 'Was-passt-nicht Rätsel für Etsy | LCS',
-    metaDescription: 'Was-passt-nicht-Rätsel zum Verkaufen erstellen. Identisch- und Ähnlich-Modus, Pro-Übung-Konfiguration und Lösungsschlüssel. Druckfertig für Etsy und KDP.',
+    titleTag: 'Was-passt-nicht-Rätsel erstellen | Anleitung | LCS',
+    metaDescription: 'Schritt-für-Schritt Anleitung zum Erstellen von Was-passt-nicht-Rätseln. Identisch- und Ähnlich-Modus, Pro-Übung-Konfiguration und Lösungsschlüssel. Kostenlos testen.',
   },
 
   hero: {

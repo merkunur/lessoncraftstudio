@@ -2,24 +2,26 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'Kryptogramm-Rätsel-Generator für Etsy verkaufen',
+    primaryKeyword: 'Kryptogramm erstellen',
     secondaryKeywords: [
-      'Bildkryptogramm-Generator für Etsy-Verkäufer',
-      'Geheimschrift-Rätselbücher für Amazon KDP erstellen',
-      'Kryptogramm-Druckvorlagen gewerbliche Lizenz',
-      'Bilder-Chiffre-Rätsel für Eduki verkaufen',
+      'Geheimschrift Rätsel Generator',
+      'Buchstabencode Rätsel erstellen',
+      'Verschlüsselungs-Rätsel Generator',
+      'Geheimcode Arbeitsblatt',
     ],
     lsiKeywords: [
-      'Geheimschrift Bilder-Chiffre druckfertig 300 DPI',
-      'Kryptogramm-Generator DACH-Markt Alphabet ä/ö/ü/ß',
-      'Buchstabenlegende Lösungsschlüssel kommerzielle Nutzung',
+      'Geheimschrift',
+      'Entschlüsseln',
+      'Code',
+      'Buchstaben-Substitution',
+      'Rätsel',
     ],
-    titleTag: 'Kryptogramm-Rätsel für Etsy verkaufen | LCS',
-    metaDescription: 'Kryptogramm-Rätsel erstellen und auf Etsy & KDP verkaufen. Bilder-Chiffre, Alphabet mit ä/ö/ü/ß, gewerbliche Lizenz. 49 $ einmalig.',
+    titleTag: 'Kryptogramm erstellen | Geheimschrift-Rätsel Generator',
+    metaDescription: 'Erstellen Sie Kryptogramm-Rätsel mit Themenbildern und automatischen Lösungen. 300 DPI PDF in 11 Sprachen. Kostenlos testen — auf Etsy & KDP verkaufen.',
   },
 
   hero: {
-    title: 'Kryptogramm-Rätsel erstellen und auf Etsy verkaufen',
+    title: 'Kryptogramm erstellen — Geheimschrift-Rätsel Generator',
     tagline: 'Ordnen Sie jedem Buchstaben ein Bild zu und verschlüsseln Sie ganze Sätze als visuelle Chiffre-Rätsel — einstellbare Schwierigkeit von null Hinweisen bis umfassender Hilfestellung mit Buchstaben aufdecken.',
     description:
       'Der Kryptogramm-Rätsel-Generator für Etsy verkaufen ermöglicht Ihnen die Erstellung professioneller Bilder-Chiffre-Rätsel, bei denen jeder Buchstabe durch ein einzigartiges Bild ersetzt wird. Käufer lieben das Entschlüsseln ganzer Sätze durch Mustererkennung — ein Rätselformat, das sich auf Etsy.de und Amazon KDP klar von Wortsuch- und Kreuzworträtsel-Produkten abhebt. Der einstellbare Hinweisregler (0–10 aufgedeckte Buchstaben) erzeugt gestufte Schwierigkeitsgrade, mit denen Sie aus einem einzigen Design mehrere Produktvarianten generieren können. Für den deutschsprachigen Markt bietet der Generator einen entscheidenden Vorteil: Das erweiterte Alphabet mit ä, ö, ü und ß umfasst 30 Buchstaben statt 26, was visuell reichere und komplexere Chiffren erzeugt — ein Alleinstellungsmerkmal, das kein englischsprachiger Anbieter nachbilden kann. Mit der gewerblichen Lizenz und Unterstützung für 11 Sprachen bauen Sie ein skalierbares Rätsel-Printable-Business auf. Kostenlos testen mit allen Funktionen — Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',
@@ -198,6 +200,11 @@ const content: AppContent = {
       question: 'Was ist Ihre Rückgabepolitik?',
       answer:
         'Da die kostenlose Testversion Ihnen Zugang zu jeder Funktion gewährt, bieten wir keine Rückerstattung für kommerzielle Lizenzen an. Sie können Auto-Zuordnung, manuelle Zuordnung, Buchstaben aufdecken, jedes Thema, jeden Farb- und Schwarzweiß-Filter, jedes Exportformat und jede Seitengröße vor dem Kauf testen. Die kostenlose Testversion ist die Rückgabepolitik — stellen Sie sicher, dass das Tool Ihren Anforderungen entspricht, bevor Sie eine Lizenz erwerben.',
+    },
+    {
+      question: 'Sind die Arbeitsblätter für die Grundschule geeignet?',
+      answer:
+        'Ja. Die Arbeitsblätter eignen sich für die Grundschule (Deutschland), Volksschule (Österreich) und Primarschule (Schweiz). Sie können den Schwierigkeitsgrad an verschiedene Klassenstufen anpassen — von der 1. Klasse bis zur 4. Klasse. Auch Vorschulkinder und Kindergartenkinder profitieren von den einfacheren Übungsstufen.',
     },
   ],
 

@@ -2,25 +2,27 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'mathe arbeitsblatt generator für verkäufer arbeitsblätter erstellen etsy',
+    primaryKeyword: 'Mathe Arbeitsblatt Generator',
     secondaryKeywords: [
-      'Algebra-Bilderrätsel für Etsy-Shop erstellen',
-      'Gleichungsrätsel-Arbeitsblätter für Amazon KDP',
-      'Mathe-Druckvorlagen gewerbliche Lizenz',
-      'Bilderrätsel-Mathe-Generator für Eduki verkaufen',
-      'Rechenaufgaben-Arbeitsblätter für Online-Verkauf',
+      'Mathe Arbeitsblätter erstellen',
+      'Rechenaufgaben Generator',
+      'Mathematik Übungsblätter erstellen',
+      'Mathe Aufgaben Generator',
     ],
     lsiKeywords: [
-      'Algebra-Bilderrätsel Gleichungssystem druckfertig',
-      'Mathe-Arbeitsblattgenerator DACH-Markt',
-      'Lösungsschlüssel Schwierigkeitsstufen kommerzielle Nutzung',
+      'Grundrechenarten',
+      'Übungsblatt',
+      'Klassenarbeit',
+      'Kopiervorlage',
+      'Grundschule',
+      'Sekundarstufe',
     ],
-    titleTag: 'Mathe-Arbeitsblatt-Generator für Verkäufer | LCS',
-    metaDescription: 'Erstellen Sie Mathe-Arbeitsblätter mit Bilderrätsel-Gleichungen zum Verkauf auf Etsy & KDP. 4 Schwierigkeitsstufen, gewerbliche Lizenz. 49 $ einmalig.',
+    titleTag: 'Mathe Arbeitsblatt Generator | Rechenaufgaben erstellen',
+    metaDescription: 'Erstellen Sie Mathe-Arbeitsblätter mit eigenen Aufgaben und automatischen Lösungen. 300 DPI PDF-Export. Kostenlos testen — kommerzielle Lizenz inklusive.',
   },
 
   hero: {
-    title: 'Mathe-Arbeitsblätter erstellen und auf Etsy & KDP verkaufen',
+    title: 'Mathe Arbeitsblatt Generator — Rechenaufgaben erstellen',
     tagline: 'Verwandeln Sie frühe Algebra in ein visuelles Abenteuer — Bilder werden zu Variablen in verknüpften Gleichungen, und jedes Rätsel hat garantiert genau eine korrekte Lösung.',
     description:
       'Als Mathe-Arbeitsblatt-Generator für Etsy und KDP Verkäufer liefert dieses Tool ein Produktformat, das sich deutlich von gewöhnlichen Rechenübungen abhebt: Bilder ersetzen Variablen in verknüpften Gleichungssystemen, und Käufer ermitteln durch logisches Denken den Wert jedes Symbols. Vier Schwierigkeitsstufen — von zwei bis vier gleichzeitigen Unbekannten — ermöglichen progressive Arbeitsblatt-Pakete und gestufte Aktivitätsbücher für Amazon KDP. Wählen Sie aus über 3.100 Illustrationen in 104 Themen, platzieren Sie 1 bis 6 Rätsel pro Seite und exportieren Sie druckfertige PDFs mit über 400 DPI inklusive automatischem Lösungsschlüssel. Die gewerbliche Lizenz erlaubt unbegrenzten Verkauf auf Etsy, KDP, Gumroad und Eduki — ideal für den wachsenden DACH-Markt für hochwertige Mathe-Druckvorlagen. Kostenlos testen mit allen Funktionen — Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',
@@ -199,6 +201,11 @@ const content: AppContent = {
       question: 'Was ist Ihre Rückgabepolitik?',
       answer:
         'Da die kostenlose Testversion Ihnen Zugang zu jeder Funktion gewährt, bieten wir keine Rückerstattung für kommerzielle Lizenzen an. Sie können jede Schwierigkeitsstufe, jeden Operationsmodus, jeden Zahlenbereich, jedes Thema aus der Bibliothek mit über 3.100 Bildern und jedes Exportformat einschließlich Graustufen vor dem Kauf vollständig testen. Erstellen Sie so viele Testblätter wie Sie möchten, um sicherzustellen, dass der Generator Ihren Anforderungen entspricht. Die kostenlose Testversion ist die Rückgabepolitik — der einzige Unterschied zur Vollversion ist das Wasserzeichen auf den Downloads.',
+    },
+    {
+      question: 'Sind die Arbeitsblätter für die Grundschule geeignet?',
+      answer:
+        'Ja. Die Arbeitsblätter eignen sich für die Grundschule (Deutschland), Volksschule (Österreich) und Primarschule (Schweiz). Sie können den Schwierigkeitsgrad an verschiedene Klassenstufen anpassen — von der 1. Klasse bis zur 4. Klasse. Auch Vorschulkinder und Kindergartenkinder profitieren von den einfacheren Übungsstufen.',
     },
   ],
 

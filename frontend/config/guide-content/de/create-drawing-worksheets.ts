@@ -2,20 +2,20 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Zeichenübungen zum Online-Verkauf erstellen',
+    primaryKeyword: 'Zeichenübungen-Arbeitsblätter erstellen Anleitung',
     secondaryKeywords: [
-      'Rasterzeichnung-Arbeitsblätter für Etsy produzieren',
-      'Symmetrie-Arbeitsblätter kommerziell verkaufen',
-      'Zeichen-Aktivitätsbuch auf KDP veröffentlichen',
-      'Zeichenübungen-Generator für Printable-Verkäufer',
+      'Zeichenübungen für Etsy erstellen',
+      'Zeichenübungen Schritt für Schritt Anleitung',
+      'Zeichenübungen für Anfänger erstellen',
+      'Zeichenübungen-Arbeitsblätter für KDP erstellen',
     ],
     lsiKeywords: [
-      'Doppelraster Zeichen-Druckvorlagen Etsy-Geschäft',
-      'textfreie Arbeitsblätter weltweiter Verkauf Nische',
-      'KDP Zeichen-Aktivitätsbuch veröffentlichen',
+      'Doppelraster Symmetrie druckfertig',
+      'Vorschule Grundschule Feinmotorik',
+      'textfreie Ausgabe 300 DPI PDF',
     ],
-    titleTag: 'Zeichenübungen zum Verkaufen erstellen | LCS',
-    metaDescription: 'Zeichenübungen zum Verkaufen erstellen. Doppelraster-System, einstellbarer Hinweisprozentsatz, drei Symmetriemodi und textfreie Ausgabe für Etsy und KDP.',
+    titleTag: 'Zeichenübungen erstellen | Anleitung | LCS',
+    metaDescription: 'Schritt-für-Schritt Anleitung zum Erstellen von Zeichenübungen. Doppelraster-System, drei Symmetriemodi und einstellbarer Hinweisprozentsatz. Kostenlos testen.',
   },
 
   hero: {

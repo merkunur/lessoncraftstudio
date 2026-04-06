@@ -2,20 +2,20 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Amazon KDP oder Etsy Druckvorlagen Vergleich',
+    primaryKeyword: 'KDP vs Etsy für Druckvorlagen Vergleich',
     secondaryKeywords: [
-      'wo Druckvorlagen online verkaufen beste Plattform',
-      'KDP Etsy Gebühren Gewinnmargen Vergleich',
-      'Druckvorlagen Multi-Plattform-Strategie aufbauen',
-      'digitaler Download vs Print-on-Demand Vergleich',
+      'Amazon KDP oder Etsy beste Plattform Druckvorlagen',
+      'KDP Etsy Gebühren Gewinnmargen direkt vergleichen',
+      'Multi-Plattform-Strategie Druckvorlagen aufbauen',
+      'digitaler Download vs Print-on-Demand Entscheidung',
     ],
     lsiKeywords: [
       'Etsy Transaktionsgebühr KDP Tantieme Druckkosten',
       'Etsy SEO Amazon A9 Backend-Keywords Kategorien',
-      'plattformübergreifendes Druckvorlagen-Geschäft Strategie',
+      'plattformübergreifend Umsatz maximieren Strategie',
     ],
-    titleTag: 'KDP vs Etsy: Wo Druckvorlagen verkaufen | LCS',
-    metaDescription: 'Amazon KDP oder Etsy für Druckvorlagen? Systematischer Vergleich von Gebühren, Traffic, Produktformaten und die Multi-Plattform-Strategie für maximalen Umsatz.',
+    titleTag: 'KDP vs Etsy Druckvorlagen Vergleich | LCS',
+    metaDescription: 'KDP vs Etsy fuer Druckvorlagen: Systematischer Vergleich von Gebuehren, Traffic, Produktformaten und Multi-Plattform-Strategie fuer maximalen Umsatz als Verkaeufer.',
   },
 
   hero: {

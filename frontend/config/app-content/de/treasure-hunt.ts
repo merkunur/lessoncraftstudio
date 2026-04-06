@@ -2,24 +2,25 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'Schatzsuche-Rätsel-Generator für Etsy und KDP',
+    primaryKeyword: 'Schatzsuche Arbeitsblatt erstellen',
     secondaryKeywords: [
-      'Schatzsuche-Rätsel erstellen für Etsy verkaufen',
-      'Richtungs-Rätsel-Generator für KDP-Rätselbücher',
-      'Koordinatenraster-Schatzsuche Druckvorlagen Etsy-Shop',
-      'Wegfindungs-Rätsel-Arbeitsblätter Printable-Business',
+      'Schnitzeljagd Generator',
+      'Schatzsuche Rätsel erstellen',
+      'Schnitzeljagd Arbeitsblatt',
+      'Schatzsuche Spiel erstellen',
     ],
     lsiKeywords: [
-      'Rätselbücher Amazon KDP Schatzsuche veröffentlichen',
-      'Druckvorlagen-Geschäft Richtungsrätsel Einnahmen',
-      'Koordinatenraster zwei Richtungstypen 11 Sprachen',
+      'Hinweise',
+      'Abenteuer',
+      'Kindergeburtstag',
+      'Klassenaktivität',
     ],
-    titleTag: 'Schatzsuche-Rätsel-Generator für Etsy und KDP | LCS',
-    metaDescription: 'Schatzsuche-Rätsel erstellen für Etsy und KDP — Koordinatenraster mit zwei Richtungstypen in 11 Sprachen. 49 $ einmalig.',
+    titleTag: 'Schatzsuche erstellen | Schnitzeljagd Arbeitsblatt Generator',
+    metaDescription: 'Erstellen Sie Schatzsuche- und Schnitzeljagd-Arbeitsblätter mit Themenbildern. Druckfertige PDFs. Kostenlos testen — auf Etsy & KDP verkaufen.',
   },
 
   hero: {
-    title: 'Schatzsuche-Rätsel erstellen und auf Etsy verkaufen',
+    title: 'Schatzsuche erstellen — Schnitzeljagd Arbeitsblatt Generator',
     tagline: 'Richtungsbasierte Wegfindungs-Rätsel auf einem 5×5-Koordinatenraster generieren — zwei Richtungsvokabulare (Grundrichtungen: oben/unten/links/rechts und Himmelsrichtungen: Norden/Süden/Osten/Westen), vollständig lokalisierte Richtungsanweisungen in 11 Sprachen, automatisch generierter Lösungsschlüssel mit hervorgehobener Schatzposition und schatzsuchenthematische Header über 104 Bildsammlungen.',
     description:
       'Erstellen Sie Schatzsuche-Rätsel mit dem Schatzsuche-Generator und verkaufen Sie diese auf Etsy, Amazon KDP oder Gumroad. Jedes Rätsel platziert 6 thematische Bilder als Orientierungspunkte auf einem 5×5-Koordinatenraster und generiert eine Startposition mit 4 Richtungsbewegungen zur Schatzzelle. Wählen Sie zwischen zwei Richtungsvokabularen: Grundrichtungen (oben/unten/links/rechts) für Einsteiger oder Himmelsrichtungen (Norden/Süden/Osten/Westen) für Fortgeschrittene. Der Generator ist sprachabhängig — ein Sprachwechsel erzeugt automatisch lokalisierte Richtungsanweisungen in allen 11 unterstützten Sprachen, sodass Sie authentische deutsche Schatzsuche-Arbeitsblätter ohne manuelles Übersetzen erstellen. Jedes Rätsel enthält einen automatisch generierten Lösungsschlüssel mit hervorgehobener Schatzzelle. Über 3.100 Illustrationen in 104 Themen liefern abwechslungsreiche Inhalte für jede Nische. Exportieren Sie druckfertige PDFs und JPEGs mit 300 DPI in Letter, A4 oder benutzerdefinierten Größen. Die kommerzielle Lizenz umfasst 10 Themen; Vollzugriff schaltet alle 104 Themen und 11 Sprachen frei. Kostenlos testen mit allen Funktionen — Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',
@@ -193,6 +194,11 @@ const content: AppContent = {
       question: 'Was ist Ihre Rückgabepolitik?',
       answer:
         'Da die kostenlose Testversion Ihnen vollständigen Zugang zu jeder Funktion gewährt, bieten wir keine Rückerstattung für kommerzielle Lizenzen an. Sie können beide Richtungstypen, das 5×5-Koordinatenraster, die 6-Bilder-Rätselgenerierung, den automatisch generierten Lösungsschlüssel mit hervorgehobener Schatzzelle, die vollständige Bildbibliothek mit 104 thematischen Sammlungen, Hintergrund- und Rahmenthemen mit unabhängigen Deckkraftreglern, die lokalisierten Richtungsanweisungen und alle Download-Formate in 300 DPI vor dem Kauf ausgiebig testen. Die kostenlose Testversion ist die Rückgabepolitik — stellen Sie sicher, dass das Tool Ihren Anforderungen entspricht, bevor Sie eine Lizenz erwerben. Es ist keine zeitliche Begrenzung für die Testphase vorgesehen.',
+    },
+    {
+      question: 'Sind die Arbeitsblätter für die Grundschule geeignet?',
+      answer:
+        'Ja. Die Arbeitsblätter eignen sich für die Grundschule (Deutschland), Volksschule (Österreich) und Primarschule (Schweiz). Sie können den Schwierigkeitsgrad an verschiedene Klassenstufen anpassen — von der 1. Klasse bis zur 4. Klasse. Auch Vorschulkinder und Kindergartenkinder profitieren von den einfacheren Übungsstufen.',
     },
   ],
 

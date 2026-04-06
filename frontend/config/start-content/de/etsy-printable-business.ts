@@ -2,23 +2,21 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'Etsy Druckvorlagen-Business Masterclass',
+    primaryKeyword: 'Etsy Druckvorlagen-Business starten',
     secondaryKeywords: [
-      'Etsy Druckvorlagen-Geschäft',
-      'Etsy-Shop für druckbare Arbeitsblätter',
-      'Arbeitsblätter auf Etsy verkaufen Anleitung',
-      'Etsy digitale Downloads Geschäft',
+      'Etsy Shop für Druckvorlagen eröffnen',
+      'Printables auf Etsy verkaufen Anfänger',
+      'Etsy Druckvorlagen-Shop Anleitung',
+      'erster Etsy-Verkauf Druckvorlagen',
     ],
     lsiKeywords: [
-      'Etsy-SEO für Druckvorlagen-Verkäufer',
-      'Etsy-Listing-Optimierung Arbeitsblätter',
-      'Etsy-Shop-Einrichtung digitale Produkte',
-      'Etsy-Tags für druckbare Arbeitsblätter',
-      'Arbeitsblatt-Generator für Etsy-Verkäufer',
-      'Etsy Druckvorlagen-Preisstrategie',
+      'Shop-Einrichtung',
+      'Etsy SEO',
+      'Listings optimieren',
+      'Kundenservice',
     ],
-    titleTag: 'Etsy Printable-Business Masterclass | LCS',
-    metaDescription: 'Etsy Printable-Business Masterclass: Shop-Einrichtung, Etsy-SEO, Listing-Optimierung und Preisstrategie für profitablen Druckvorlagen-Arbeitsblatt-Verkauf.',
+    titleTag: 'Etsy Druckvorlagen-Business starten | Anleitung | LCS',
+    metaDescription: 'Etsy Druckvorlagen-Business von Null starten. Shop einrichten, Listings optimieren, SEO nutzen und erste Verkäufe erzielen. Schritt-für-Schritt.',
   },
 
   hero: {

@@ -2,20 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'Homeschooling-Druckvorlagen verkaufen',
+    primaryKeyword: 'Homeschooling-Druckvorlagen Nische Etsy',
     secondaryKeywords: [
-      'Homeschool-Arbeitsblätter auf Etsy erstellen',
-      'Produktkatalog-Druckvorlagen auf KDP verkaufen',
-      'Heimunterricht-Aktivitätsblätter für Gumroad',
-      'häuslicher Produkterstellung Lernmaterialien für Shops',
+      'Homeschooling Arbeitsblätter auf Etsy verkaufen',
+      'Homeschooling Druckvorlagen Geschäftsideen',
+      'Homeschooling Nische Wettbewerbsanalyse',
+      'profitable Homeschooling Druckvorlagen',
     ],
     lsiKeywords: [
+      'Heimunterricht Familien Arbeitsblätter',
       'wachsender Homeschool-Markt Druckvorlagen',
-      'Eltern-Produktkatalog Arbeitsblätter Etsy-Nische',
-      'Heimunterricht-Ressourcen Druckvorlagen-Geschäft',
+      'ganzjährige Nachfrage Eltern-Nische',
     ],
-    titleTag: 'Homeschooling-Druckvorlagen verkaufen | LCS',
-    metaDescription: 'Homeschooling-Druckvorlagen verkaufen als profitables Geschäft. Produktideen für Heimunterricht-Familien auf Etsy, KDP und Gumroad mit ganzjähriger Nachfrage.',
+    titleTag: 'Homeschooling-Druckvorlagen Nische Etsy | LCS',
+    metaDescription: 'Homeschooling-Druckvorlagen als profitable Etsy-Nische entdecken. Produktideen für Heimunterricht-Familien mit ganzjähriger Nachfrage und wachsendem Marktpotenzial.',
   },
   hero: {
     title: 'Homeschooling-Druckvorlagen verkaufen — Geschäftsideen',

@@ -2,20 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'Dinosaurier-Druckvorlagen Geschäftsideen',
+    primaryKeyword: 'Dinosaurier-Druckvorlagen Nische Etsy',
     secondaryKeywords: [
-      'Dino-Arbeitsblätter auf Etsy erstellen',
-      'Dinosaurier-Aktivitätsblätter auf KDP verkaufen',
-      'Urzeit-Druckvorlagen für Kinder auf Gumroad',
-      'Dinosaurier-Lernmaterialien für Druckvorlagen-Shops',
+      'Dinosaurier Arbeitsblätter auf Etsy verkaufen',
+      'Dinosaurier Druckvorlagen Geschäftsideen',
+      'Dinosaurier Nische Wettbewerbsanalyse',
+      'profitable Dinosaurier Druckvorlagen',
     ],
     lsiKeywords: [
-      'Evergreen-Kinderthema Druckvorlagen-Nische',
-      'Paläontologie-Bildungsthema Arbeitsblätter',
-      'T-Rex-Stegosaurus-Thema Lernmaterialien Etsy',
+      'T-Rex Stegosaurus Triceratops Arbeitsblätter',
+      'Paläontologie Urzeit-Thema Druckvorlagen',
+      'Evergreen Kinderthema ganzjährige Nachfrage',
     ],
-    titleTag: 'Dinosaurier-Druckvorlagen Geschäftsideen | LCS',
-    metaDescription: 'Dinosaurier-Druckvorlagen Geschäftsideen für Etsy, KDP und Gumroad. T-Rex bis Stegosaurus — profitable Produktkonzepte und Nischenstrategien für Verkäufer.',
+    titleTag: 'Dinosaurier-Druckvorlagen Nische Etsy | LCS',
+    metaDescription: 'Dinosaurier-Druckvorlagen als profitable Etsy-Nische entdecken. T-Rex bis Stegosaurus — Evergreen-Kinderthema mit ganzjähriger Nachfrage und starkem Wettbewerbsvorteil.',
   },
   hero: {
     title: 'Dinosaurier-Druckvorlagen — Geschäftsideen für Verkäufer',

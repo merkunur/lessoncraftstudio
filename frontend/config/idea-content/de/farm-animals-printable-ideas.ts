@@ -2,20 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'Bauernhof-Druckvorlagen auf Etsy verkaufen',
+    primaryKeyword: 'Bauernhof-Druckvorlagen Nische Etsy',
     secondaryKeywords: [
-      'Bauernhof-Arbeitsblätter auf Etsy erstellen',
-      'Nutztier-Aktivitätsblätter auf KDP verkaufen',
-      'Bauernhof-Thema Druckvorlagen auf Gumroad anbieten',
-      'Kuh-Schwein-Huhn Arbeitsblätter für Verkäufer',
+      'Bauernhof Arbeitsblätter auf Etsy verkaufen',
+      'Bauernhof Druckvorlagen Geschäftsideen',
+      'Bauernhof Nische Wettbewerbsanalyse',
+      'profitable Bauernhof Druckvorlagen',
     ],
     lsiKeywords: [
-      'frühkindliche Bildung Tierthema Druckvorlagen',
-      'Bauernhof-Nische Ganzjahres-Lernmaterialien',
-      'Vorschul-Lieblingsthema Arbeitsblatt-Markt',
+      'Kühe Schweine Hühner Arbeitsblätter',
+      'frühkindliche Bildung Tierthema Nische',
+      'Vorschul-Lieblingsthema ganzjährige Nachfrage',
     ],
-    titleTag: 'Bauernhof-Druckvorlagen für Etsy | LCS',
-    metaDescription: 'Bauernhof-Druckvorlagen auf Etsy verkaufen — profitable Produktideen mit Kühen, Schweinen und Hühnern. Plattformstrategien, Preistipps und Generator-Werkzeuge.',
+    titleTag: 'Bauernhof-Druckvorlagen Nische Etsy | LCS',
+    metaDescription: 'Bauernhof-Druckvorlagen als profitable Etsy-Nische entdecken. Kühe, Schweine und Hühner als Evergreen-Thema — Produktideen und Wettbewerbsanalyse für Verkäufer.',
   },
   hero: {
     title: 'Bauernhof-Druckvorlagen auf Etsy verkaufen',

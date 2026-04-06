@@ -2,24 +2,25 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'kostenloser schreibübungen generator kostenlos erstellen drei übungsmodi',
+    primaryKeyword: 'Schreibübungen erstellen kostenlos',
     secondaryKeywords: [
-      'Schreibübungen-Arbeitsblätter kostenlos erstellen',
-      'Handschrift-Generator online ohne Anmeldung',
-      'kostenlose Buchstaben-Nachspur-Arbeitsblätter erstellen',
-      'Schreibübungen-Generator mit Strichrichtungspfeilen kostenlos',
+      'Schwungübungen Generator kostenlos online',
+      'Nachspurübungen erstellen gratis',
+      'Schreiblernblätter kostenlos erstellen',
+      'Buchstaben nachspuren kostenlos',
     ],
     lsiKeywords: [
-      'pfeilgeführte Buchstabenbildung Druckvorlagen',
-      'verblassendes Nachspuren Übungsblätter',
-      'Druckschrift und Schreibschrift Generator',
+      'Handschrift kostenlos',
+      'Feinmotorik',
+      'Vorschule',
+      '1. Klasse',
     ],
-    titleTag: 'Kostenloser Schreibübungen-Generator | LCS',
-    metaDescription: 'Kostenloser Schreibübungen-Generator: Handschrift-Arbeitsblätter mit Strichrichtungspfeilen online erstellen. Ohne Anmeldung. Kommerzielle Lizenz verfügbar.',
+    titleTag: 'Schreibübungen erstellen kostenlos | Online Generator | LCS',
+    metaDescription: 'Schreibübungen kostenlos erstellen — Nachspurblätter und Schwungübungen online generieren, ohne Anmeldung. Lizenz für Etsy & KDP.',
   },
 
   hero: {
-    title: 'Schreibübungen kostenlos erstellen — Drei Übungsmodi',
+    title: 'Schreibübungen erstellen kostenlos — Online Schwungübungen Generator',
     tagline: 'Buchstaben-Übungsblätter mit drei progressiven Modi erstellen — pfeilgeführte Strichrichtung, verblassende Buchstabenführung und Vorübungen zur Feinmotorik für den Aufbau von Handschrift-Kompetenz',
     description: 'Erstellen Sie Schreibübungen-Arbeitsblätter kostenlos mit unserem Schreibübungen-Generator — direkt im Browser, ohne Anmeldung und ohne Software-Download. Drei progressive Übungsmodi decken den gesamten Lernpfad ab: Nachspur-Modus mit durchgezogenen Buchstabenumrissen, Verblassende-Nachspur-Modus mit progressiv abnehmender Buchstabenführung und Geführte-Abschrift-Modus für nahezu eigenständiges Schreiben. Fünf Schriftstile bieten volle Kontrolle — von Druckschrift Normal über pfeilgeführte Strichrichtung bis hin zu Schreibschrift. Die pfeilgeführte Strichrichtung ist das herausragende Merkmal: Nummerierte Pfeile zeigen präzise, wie jeder Buchstabenstrich in der korrekten Reihenfolge zu formen ist. Jede Zeile ist unabhängig konfigurierbar mit eigenem Übungsmodus, Schriftstil und Inhaltsquelle. Über 3.100 Illustrationen aus 104 Themen stehen zur Verfügung. Exportieren Sie als druckfertiges PDF oder JPEG bei 300 DPI. Die kostenlose Testversion enthält alle Funktionen mit Wasserzeichen — erwerben Sie eine kommerzielle Lizenz, um das Wasserzeichen zu entfernen und Ihre Arbeitsblätter zu verkaufen.',
   },

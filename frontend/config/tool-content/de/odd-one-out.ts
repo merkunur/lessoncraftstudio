@@ -2,24 +2,24 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'kostenloser Was-passt-nicht Generator',
+    primaryKeyword: 'Was passt nicht Arbeitsblatt kostenlos',
     secondaryKeywords: [
-      'Was-passt-nicht-Rätsel kostenlos erstellen',
-      'Ausreißer-Rätsel Generator ohne Anmeldung',
-      'kostenloser Was-passt-nicht Generator online',
-      'Was-passt-nicht-Arbeitsblätter online drucken',
+      'Ausreißer finden Generator kostenlos online',
+      'Was gehört nicht dazu Generator gratis',
+      'Klassifikation Rätsel kostenlos erstellen',
+      'Logik Arbeitsblatt ohne Anmeldung',
     ],
     lsiKeywords: [
-      'Identisch- und Ähnlich-Modus Ausreißer-Erkennung',
-      'automatischer Lösungsschlüssel mit Kreismarkierungen',
-      'Pro-Übung-Konfiguration Was-passt-nicht',
+      'Kategorie',
+      'Oberbegriff',
+      'logisches Denken kostenlos',
     ],
-    titleTag: 'Kostenloser Was-passt-nicht Generator | LCS',
-    metaDescription: 'Kostenloser Was-passt-nicht Generator mit Identisch- und Ähnlich-Modus. Pro-Übung-Konfiguration, 104 Themen, ohne Anmeldung. Kommerzielle Lizenz verfügbar.',
+    titleTag: 'Was-passt-nicht Arbeitsblatt kostenlos | Generator | LCS',
+    metaDescription: 'Was-passt-nicht-Arbeitsblätter kostenlos erstellen — Logik-Rätsel mit Themenbildern online, ohne Anmeldung. Lizenz für Etsy & KDP.',
   },
 
   hero: {
-    title: 'Was-passt-nicht-Rätsel kostenlos erstellen — Online-Tool',
+    title: 'Was-passt-nicht Arbeitsblatt kostenlos erstellen — Online Generator',
     tagline: 'Was-passt-nicht-Arbeitsblatt-Generator mit zwei Erzeugungsmodi — Identisch-Modus (3 Klone + 1 anderes Bild aus demselben Thema) und Ähnlich-Modus (3 aus Thema A + 1 aus Thema B), Modus-Überschreibung pro Übung mit Auswahl-zurücksetzen-Funktion, 5–10 konfigurierbaren Übungen mit adaptivem 2-Spalten-Layout, automatisch generierten Lösungsschlüsseln mit roten Kreismarkierungen skaliert zur Bildgröße, Zwei-Themen-System über 104 thematische Sammlungen und rein visuellen Rätseln, die weltweit ohne Übersetzung verkauft werden können',
     description: 'Erstellen Sie kostenlos Was-passt-nicht-Rätsel mit diesem Generator — direkt im Browser, ohne Anmeldung, ohne Installation. In jeder Reihe von vier Bildern muss das abweichende Bild identifiziert werden. Zwei Erzeugungsmodi bieten verschiedene Herausforderungen: Der Identisch-Modus platziert drei Klone neben einem anderen Bild aus demselben Thema, der Ähnlich-Modus verwendet drei Bilder aus Thema A und eines aus Thema B. Jede Übung kann den Modus individuell überschreiben für gemischte Schwierigkeit. Konfigurieren Sie 5–10 Übungen pro Arbeitsblatt aus 104 thematischen Sammlungen mit über 3.100 Illustrationen. Ein automatisch generierter Lösungsschlüssel markiert jeden Ausreißer mit rotem Kreis. Exportieren Sie druckfertige PDFs und JPEGs bei 300 DPI. Die kostenlose Testversion enthält alle Funktionen mit einem Wasserzeichen auf Downloads. Erwerben Sie eine Lizenz, um das Wasserzeichen zu entfernen und kommerziell zu verkaufen.',
   },

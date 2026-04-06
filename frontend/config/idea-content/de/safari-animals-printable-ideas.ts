@@ -2,20 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'Safari-Tiere-Druckvorlagen verkaufen',
+    primaryKeyword: 'Safari-Tiere-Druckvorlagen Nische Etsy',
     secondaryKeywords: [
-      'Safari-Arbeitsblätter auf Etsy erstellen',
-      'afrikanische Wildtier-Druckvorlagen auf KDP',
-      'Löwe-Elefant-Giraffe Aktivitätsblätter Gumroad',
-      'Safari-Lernmaterialien für Druckvorlagen-Shops',
+      'Safari-Tiere Arbeitsblätter auf Etsy verkaufen',
+      'Safari-Tiere Druckvorlagen Geschäftsideen',
+      'Safari-Tiere Nische Wettbewerbsanalyse',
+      'profitable Safari-Tiere Druckvorlagen',
     ],
     lsiKeywords: [
-      'afrikanische Tierwelt Druckvorlagen-Nische',
-      'Wildtier-Bildungsthema Arbeitsblätter Etsy',
-      'Savannen-Thema Lernmaterialien Verkauf',
+      'Löwe Elefant Giraffe Arbeitsblätter',
+      'afrikanische Tierwelt Savanne Druckvorlagen',
+      'Wildtier-Thema Kinder-Nische Etsy-Shop',
     ],
-    titleTag: 'Safari-Druckvorlagen zum Verkaufen | LCS',
-    metaDescription: 'Safari-Tiere-Druckvorlagen verkaufen auf Etsy und KDP. Löwe, Elefant, Giraffe — profitable Produktideen, Plattformstrategien und Preisansätze für Verkäufer.',
+    titleTag: 'Safari-Tiere-Druckvorlagen Nische Etsy | LCS',
+    metaDescription: 'Safari-Tiere-Druckvorlagen als profitable Etsy-Nische entdecken. Löwe, Elefant und Giraffe als beliebtes Thema — Produktideen und Wettbewerbsanalyse für Verkäufer.',
   },
   hero: {
     title: 'Safari-Tiere-Druckvorlagen profitabel verkaufen',

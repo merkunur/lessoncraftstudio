@@ -2,20 +2,20 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Etsy Druckvorlagen Shop eröffnen Anleitung',
+    primaryKeyword: 'Etsy Druckvorlagen-Shop eröffnen Anleitung',
     secondaryKeywords: [
-      'Etsy-Shop für digitale Arbeitsblätter starten',
-      'Druckvorlagen auf Etsy verkaufen Anfänger-Guide',
-      'Etsy Verkäuferkonto einrichten Druckvorlagen',
-      'ersten Etsy-Shop für Arbeitsblätter aufbauen',
+      'Etsy Verkäuferkonto einrichten Schritt für Schritt',
+      'Druckvorlagen-Shop Branding SEO-Optimierung',
+      'Etsy Gebührenstruktur Preisstrategie digitale Produkte',
+      '30-Tage-Startplan Etsy Arbeitsblatt-Shop',
     ],
     lsiKeywords: [
-      'digitaler Download Shop Branding Angebotsoptimierung',
-      'Etsy Gebühren Preisstrategie druckbare Produkte',
-      'Shop-Startplan 30 Tage Wachstum Bewertungen',
+      'digitaler Download Shop Angebotsoptimierung 13 Tags',
+      'Etsy Gebühren Nettoumsatz druckbare Produkte',
+      'Bewertungen aufbauen Katalog erweitern Kategorie-Autorität',
     ],
     titleTag: 'Etsy Druckvorlagen-Shop eröffnen | LCS',
-    metaDescription: 'Etsy Druckvorlagen-Shop eröffnen: Schritt für Schritt von der Kontoerstellung über Branding und SEO bis zum 30-Tage-Startplan mit 33 Arbeitsblatt-Generatoren.',
+    metaDescription: 'Etsy Druckvorlagen-Shop eröffnen: Schritt-fuer-Schritt-Anleitung von der Kontoerstellung ueber Branding und SEO bis zum 30-Tage-Startplan mit 33 Generatoren.',
   },
 
   hero: {

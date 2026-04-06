@@ -2,23 +2,21 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'Druckvorlagen-Business online vermarkten',
+    primaryKeyword: 'Marketing für Druckvorlagen-Business',
     secondaryKeywords: [
-      'Marketing-Strategien für Druckvorlagen-Verkäufer',
-      'Druckvorlagen-Arbeitsblätter online bewerben',
-      'Druckvorlagen-Geschäft Marketing-Plan',
-      'mehr Arbeitsblätter auf Etsy verkaufen',
+      'Druckvorlagen vermarkten Strategien',
+      'Printable Business Marketing Plan',
+      'Traffic für Druckvorlagen-Shop',
+      'Druckvorlagen bewerben Anleitung',
     ],
     lsiKeywords: [
-      'Etsy-SEO für digitale Downloads',
-      'Pinterest-Marketing für Druckvorlagen-Produkte',
-      'E-Mail-Marketing für Arbeitsblatt-Verkäufer',
-      'saisonaler Marketing-Kalender für Druckvorlagen',
-      'Marktplatz-Optimierung für Aktivitätsbücher',
-      'Content-Marketing für Druckvorlagen-Unternehmer',
+      'Pinterest',
+      'Social Media',
+      'E-Mail-Marketing',
+      'SEO',
     ],
-    titleTag: 'Printable-Business online vermarkten | LCS',
-    metaDescription: 'Printable-Business online vermarkten: Plattform-SEO, Pinterest, E-Mail-Marketing und saisonales Timing für konstante Verkäufe als Druckvorlagen-Unternehmer.',
+    titleTag: 'Marketing für Druckvorlagen-Business | Strategien | LCS',
+    metaDescription: 'Effektive Marketing-Strategien für Ihr Druckvorlagen-Business. Pinterest, Social Media, E-Mail und SEO für mehr Traffic und Verkäufe.',
   },
 
   hero: {

@@ -2,24 +2,25 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'kostenloser Bilder-Sudoku Generator für Kinder',
+    primaryKeyword: 'Sudoku erstellen kostenlos',
     secondaryKeywords: [
-      'Bilder-Sudoku kostenlos erstellen online',
-      'Bilder-Sudoku-Generator ohne Anmeldung',
-      'kostenloser Kinder-Sudoku Generator mit Bildern',
-      'Sudoku-Rätsel für Kinder online erstellen',
+      'Sudoku Generator kostenlos online',
+      'Bilder-Sudoku erstellen gratis',
+      'Kinder Sudoku Generator ohne Anmeldung',
+      'Sudoku Rätsel erstellen kostenlos',
     ],
     lsiKeywords: [
-      '4x4-Raster Bildlogik-Rätsel für Kinder',
-      'automatischer Lösungsschlüssel Bilder-Sudoku',
-      'themenbasierte Bildauswahl aus 104 Sammlungen',
+      'Logikrätsel kostenlos',
+      'leichtes Sudoku',
+      '4x4 Sudoku',
+      '6x6 Sudoku',
     ],
-    titleTag: 'Kostenloser Bilder-Sudoku Generator | LCS',
-    metaDescription: 'Kostenloser Bilder-Sudoku Generator für Kinder mit 4x4-Raster und drei Schwierigkeitsgraden. 104 Themen, ohne Anmeldung. Lizenz für kommerziellen Verkauf.',
+    titleTag: 'Sudoku erstellen kostenlos | Online Generator | LCS',
+    metaDescription: 'Sudoku kostenlos erstellen — Bilder- und Zahlen-Sudoku mit einstellbarer Schwierigkeit online, ohne Anmeldung. Lizenz für Etsy & KDP.',
   },
 
   hero: {
-    title: 'Bilder-Sudoku kostenlos erstellen — Generator für Kinder',
+    title: 'Sudoku erstellen kostenlos — Online Bilder- & Zahlen-Sudoku Generator',
     tagline: '4×4-bildbasierter Sudoku-Rätsel-Generator mit drei Schwierigkeitsgraden (Leicht 4 leere Zellen, Mittel 6 leere Zellen, Schwer 8 leere Zellen), automatisch generiertem Lösungsschlüssel mit vollständig gefülltem Raster, themenbasierter und manueller Bildauswahl über 104 Sammlungen mit über 3.100 Illustrationen, Premium-Rasterdesign mit abwechselnden Blockfarben und mehrstufigen Schatten sowie rein visuellen Rätseln, die weltweit ohne Übersetzung verkauft werden können',
     description: 'Erstellen Sie kostenlos Bilder-Sudoku für Kinder mit diesem Generator — direkt im Browser, ohne Anmeldung, ohne Software-Download. Nutzer füllen leere Zellen mit den richtigen Bildern und wenden Zeilen-und-Spalten-Logik auf einem 4×4-Raster an. Jedes Rätsel verwendet genau 4 einzigartige Bilder, die jeweils einmal pro Zeile und einmal pro Spalte erscheinen müssen. Drei Schwierigkeitsgrade steuern die Herausforderung: Leicht entfernt 4 Zellen, Mittel entfernt 6 und Schwer entfernt 8. Wählen Sie Bilder aus 104 thematischen Sammlungen mit über 3.100 Illustrationen oder laden Sie eigene hoch. Ein Lösungsschlüssel-Tab zeigt das vollständig gefüllte Raster. Die Arbeitsblätter sind rein visuell und funktionieren in allen 11 Sprachen. Exportieren Sie druckfertige PDFs und JPEGs bei 300 DPI. Die kostenlose Testversion enthält alle Funktionen mit einem Wasserzeichen auf Downloads. Erwerben Sie eine Lizenz, um das Wasserzeichen zu entfernen und kommerziell zu verkaufen.',
   },

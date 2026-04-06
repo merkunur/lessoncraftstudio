@@ -2,20 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'Essen-Druckvorlagen auf Etsy verkaufen',
+    primaryKeyword: 'Essen-und-Kochen-Druckvorlagen Nische Etsy',
     secondaryKeywords: [
-      'Koch-Arbeitsblätter auf Etsy erstellen',
-      'Lebensmittel-Aktivitätsblätter auf KDP verkaufen',
-      'Küchen-Thema Druckvorlagen auf Gumroad anbieten',
-      'Rezept-Lernmaterialien für Druckvorlagen-Shops',
+      'Essen und Kochen Arbeitsblätter auf Etsy verkaufen',
+      'Essen und Kochen Druckvorlagen Geschäftsideen',
+      'Essen und Kochen Nische Wettbewerbsanalyse',
+      'profitable Essen und Kochen Druckvorlagen',
     ],
     lsiKeywords: [
-      'Ernährungs-Bildungsthema Druckvorlagen-Nische',
-      'Kochen-Lebensmittel Arbeitsblätter Etsy-Markt',
-      'Hauswirtschaft-Thema Lernmaterialien Verkauf',
+      'Lebensmittel Küche Rezepte Arbeitsblätter',
+      'Ernährungs-Thema Druckvorlagen ganzjährig',
+      'Kochen Hauswirtschaft Nische Etsy-Shop',
     ],
-    titleTag: 'Essen-Druckvorlagen für Etsy verkaufen | LCS',
-    metaDescription: 'Essen-Druckvorlagen auf Etsy verkaufen — Koch- und Lebensmittelthemen als ganzjährige Nische. Produktideen und Plattformstrategien für Ihren Printable-Shop.',
+    titleTag: 'Essen-und-Kochen-Druckvorlagen Nische | LCS',
+    metaDescription: 'Essen-und-Kochen-Druckvorlagen als profitable Etsy-Nische entdecken. Koch- und Lebensmittelthemen als ganzjährige Nische — Produktideen und Strategien für Verkäufer.',
   },
   hero: {
     title: 'Essen-Druckvorlagen — Geschäftsideen für Ihren Printable-Shop',

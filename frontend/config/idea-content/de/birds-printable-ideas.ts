@@ -2,20 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'Vogel-Druckvorlagen verkaufen Ideen',
+    primaryKeyword: 'Vogel-Druckvorlagen Nische Etsy',
     secondaryKeywords: [
-      'Vogel-Arbeitsblätter auf Etsy verkaufen',
-      'Vogelarten-Lernmaterialien auf KDP erstellen',
-      'Natur-Druckvorlagen mit Vogelthemen auf Gumroad',
-      'Vogelbeobachtungs-Arbeitsblätter für Druckvorlagen-Shops',
+      'Vogel Arbeitsblätter auf Etsy verkaufen',
+      'Vogel Druckvorlagen Geschäftsideen',
+      'Vogel Nische Wettbewerbsanalyse',
+      'profitable Vogel Druckvorlagen',
     ],
     lsiKeywords: [
-      'Natur-Bildungsthema Druckvorlagen-Nische',
-      'Ganzjahres-Tierthema Arbeitsblätter Umsatz',
-      'ornithologische Lernmaterialien Etsy-Markt',
+      'Eulen Papageien Pinguine Arbeitsblätter',
+      'Vogelbeobachtung Naturthema Druckvorlagen',
+      'Frühling Vogelzug saisonale Nachfrage',
     ],
-    titleTag: 'Vogel-Druckvorlagen zum Verkaufen | LCS',
-    metaDescription: 'Vogel-Druckvorlagen verkaufen auf Etsy und KDP. Eulen, Papageien, Pinguine — profitable Produktideen, saisonale Strategien und Nischentipps für Verkäufer.',
+    titleTag: 'Vogel-Druckvorlagen Nische für Etsy | LCS',
+    metaDescription: 'Vogel-Druckvorlagen als profitable Etsy-Nische entdecken. Eulen, Papageien und Pinguine — Produktideen, saisonale Strategien und Wettbewerbsanalyse für Ihren Druckvorlagen-Shop.',
   },
   hero: {
     title: 'Vogel-Druckvorlagen — Ideen zum Verkaufen',

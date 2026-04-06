@@ -5,17 +5,17 @@ const content: GuideContent = {
     primaryKeyword: 'Suchsel-Bücher für Amazon KDP erstellen',
     secondaryKeywords: [
       'Wortsuchbuch KDP veröffentlichen Anleitung',
-      'Großdruck-Wortsuche Amazon Senioren erstellen',
-      'thematische Wortsuchbücher KDP Serienstrategie',
-      'Wortsuche-Rätselbuch Gittergröße formatieren',
+      'Großdruck-Wortsuche Senioren Amazon erstellen',
+      'thematische Wortsuchbücher Serienstrategie KDP',
+      'Wortsuche-Rätselbuch Gittergrößen formatieren',
     ],
     lsiKeywords: [
-      'thematische Wortlisten Vokabular Kuration altersgerecht',
-      'Großdruck Wortsuche Senioren barrierefreies Format',
-      'Wortsuchbuch-Serie Bände Wiederholungskauf Katalog',
+      'thematische Wortlisten Vokabular altersgerecht',
+      'Großdruck Senioren barrierefreies Format',
+      'Wortsuchbuch-Serie Wiederholungskauf Katalog',
     ],
     titleTag: 'Suchsel-Bücher für Amazon KDP erstellen | LCS',
-    metaDescription: 'Suchsel-Bücher für Amazon KDP erstellen: Thematische Wortlisten kuratieren, Gittergrößen wählen, Großdruck-Formate und mehrbändige Serien für mehr Einnahmen.',
+    metaDescription: 'Suchsel-Bücher für Amazon KDP erstellen: Thematische Wortlisten kuratieren, Gittergrößen wählen, Großdruck-Formate und mehrbändige Serien für mehr KDP-Einnahmen.',
   },
 
   hero: {

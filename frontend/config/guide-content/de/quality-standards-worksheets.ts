@@ -2,20 +2,20 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Qualitätsstandards für verkaufbare Arbeitsblätter',
+    primaryKeyword: 'Qualitätsstandards für Arbeitsblätter',
     secondaryKeywords: [
       'Druckvorlagen Qualitätscheckliste Verkäufer',
       'professionelle Arbeitsblatt-Formatierung Etsy',
-      'Arbeitsblatt Druckqualität DPI Ränder',
-      'Qualitätskontrolle Printable-Produkte',
+      'Arbeitsblatt Druckqualität DPI Seitenränder',
+      'Qualitätskontrolle Printable-Produkte prüfen',
     ],
     lsiKeywords: [
-      'Druckqualität Auflösung Seitenränder Schriftart Lesbarkeit PDF Formatierung',
-      'Farbkonsistenz Lösungsschlüssel Genauigkeit Korrektur-Workflow Dateiformat',
-      'Produktionscheckliste Qualitätssicherung Käufervertrauen Markenstandards Drucktest',
+      'Druckqualität Auflösung Schriftart Lesbarkeit PDF',
+      'Farbkonsistenz Lösungsschlüssel Genauigkeit Dateiformat',
+      'Produktionscheckliste Käufervertrauen Drucktest',
     ],
     titleTag: 'Qualitätsstandards für Arbeitsblätter | LCS',
-    metaDescription: 'Qualitätsstandards für verkaufbare Arbeitsblätter: Auflösung, Seitenränder, Typografie, Lösungsschlüssel und Drucktests für professionelle Printable-Produkte.',
+    metaDescription: 'Qualitätsstandards für Arbeitsblätter: Auflösung, Seitenränder, Typografie, Lösungsschlüssel und Drucktests, die professionelle Printable-Produkte auszeichnen.',
   },
 
   hero: {

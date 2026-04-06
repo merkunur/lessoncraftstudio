@@ -2,20 +2,20 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Arbeitsblatt-Bundles für Etsy erstellen',
+    primaryKeyword: 'Arbeitsblatt-Bundles auf Etsy verkaufen',
     secondaryKeywords: [
-      'Etsy Druckvorlagen-Paket Umsatz steigern',
-      'Arbeitsblatt-Bündel auf Etsy verkaufen Strategie',
-      'Etsy Bundle-Angebot optimieren Bestellwert',
-      'thematische Arbeitsblatt-Pakete Etsy einstellen',
+      'Arbeitsblatt-Pakete auf Etsy verkaufen Anleitung',
+      'Etsy Bundle-Preisgestaltung Strategie',
+      'Arbeitsblatt-Bundles Etsy SEO-Tipps',
+      'Druckvorlagen-Bundles auf Amazon KDP verkaufen',
     ],
     lsiKeywords: [
-      'Paket Dateiorganisation digitale Lieferung Etsy',
-      'Wertstapelung Ankerrabatt Bündelpreisgestaltung',
-      'Vorschaubilder Thumbnail Paket-Suchbegriffe',
+      'Dateiorganisation digitale Lieferung Etsy',
+      'Wertstapelung Bündelpreisgestaltung',
+      'Vorschaubilder Etsy Angebotsoptimierung',
     ],
-    titleTag: 'Arbeitsblatt-Bundles für Etsy erstellen | LCS',
-    metaDescription: 'Arbeitsblatt-Bundles für Etsy erstellen und mehr Umsatz erzielen: Pakettypen, Dateiorganisation, Vorschaubilder und Angebotsoptimierung für höheren Bestellwert.',
+    titleTag: 'Arbeitsblatt-Bundles auf Etsy verkaufen | LCS',
+    metaDescription: 'Arbeitsblatt-Bundles auf Etsy verkaufen: Pakettypen, Dateiorganisation, Vorschaubilder und Angebotsoptimierung für höheren Bestellwert. Kostenlos testen.',
   },
 
   hero: {

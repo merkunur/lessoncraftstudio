@@ -2,20 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'Haustier-Druckvorlagen auf Etsy verkaufen',
+    primaryKeyword: 'Haustier-Druckvorlagen Nische Etsy',
     secondaryKeywords: [
-      'Hunde-Katzen-Arbeitsblätter auf Etsy erstellen',
-      'Haustier-Druckvorlagen auf KDP verkaufen',
-      'Kleintier-Aktivitätsblätter auf Gumroad anbieten',
-      'Tierpflege-Lernmaterialien für Druckvorlagen-Shops',
+      'Haustier Arbeitsblätter auf Etsy verkaufen',
+      'Haustier Druckvorlagen Geschäftsideen',
+      'Haustier Nische Wettbewerbsanalyse',
+      'profitable Haustier Druckvorlagen',
     ],
     lsiKeywords: [
+      'Hunde Katzen Kleintiere Arbeitsblätter',
       'Haustier-Lieblingsthema Kinder-Druckvorlagen',
-      'Hund-Katze-Bildungsthema Arbeitsblätter',
-      'Tierliebe Ganzjahres-Nische Etsy-Verkauf',
+      'ganzjährige Nachfrage Tierliebe Nische',
     ],
-    titleTag: 'Haustier-Druckvorlagen für Etsy | LCS',
-    metaDescription: 'Haustier-Druckvorlagen auf Etsy verkaufen — Hunde, Katzen und Kleintiere als profitable Nische. Produktideen, Plattformstrategien und Preistipps für Verkäufer.',
+    titleTag: 'Haustier-Druckvorlagen Nische für Etsy | LCS',
+    metaDescription: 'Haustier-Druckvorlagen als profitable Etsy-Nische entdecken. Hunde, Katzen und Kleintiere als Evergreen-Thema — Produktideen und Wettbewerbsanalyse für Ihren Shop.',
   },
   hero: {
     title: 'Haustier-Druckvorlagen auf Etsy verkaufen',

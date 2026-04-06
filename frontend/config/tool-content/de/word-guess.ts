@@ -2,24 +2,24 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'kostenloser Wörter-Raten Generator',
+    primaryKeyword: 'Wörter raten Arbeitsblatt kostenlos erstellen',
     secondaryKeywords: [
-      'Wörter-Raten Generator kostenlos online',
-      'Rechtschreib-Arbeitsblätter erstellen ohne Anmeldung',
-      'Wörter-Raten Generator sofort nutzen',
-      'kostenlose Bild-Hinweis Rechtschreibübungen',
+      'Wort-Ratespiel Generator kostenlos online',
+      'Galgenmännchen Arbeitsblatt gratis',
+      'Vokabel-Ratespiel erstellen kostenlos',
+      'Wörter erraten Rätsel ohne Anmeldung',
     ],
     lsiKeywords: [
-      'Bild-Hinweis Buchstabengitter Arbeitsblatt',
-      'progressive Schwierigkeitsstufen Rechtschreibung',
-      'sprachsensitiver Wortschatz-Generator',
+      'Buchstaben raten kostenlos',
+      'Vokabelspiel',
+      'Wortschatz-Spiel',
     ],
-    titleTag: 'Kostenloser Wörter-Raten Generator | LCS',
-    metaDescription: 'Kostenloser Wörter-Raten Generator — Rechtschreib-Arbeitsblätter mit Bild-Hinweisen und 4 Stufen online. Verkaufen Sie auf Etsy & KDP mit gewerblicher Lizenz.',
+    titleTag: 'Wörter-Raten Generator kostenlos | Online | LCS',
+    metaDescription: 'Wörter-Raten Arbeitsblätter kostenlos erstellen — Ratespiele mit Bildern online generieren, ohne Anmeldung. Lizenz für Etsy & KDP.',
   },
 
   hero: {
-    title: 'Wörter-Raten Generator — Rechtschreib-Rätsel kostenlos erstellen',
+    title: 'Wörter-Raten Arbeitsblatt kostenlos erstellen — Online Generator',
     tagline: 'Bildbasierte Rechtschreib-Arbeitsblätter mit 4 Hinweisstufen in 11 Sprachen erstellen',
         description: 'Unser kostenloser Wörter-Raten Generator erstellt bildbasierte Rechtschreib-Arbeitsblätter mit progressiven Hinweisstufen — direkt im Browser, ohne Anmeldung und ohne Installation. Ein Bild-Hinweis wird mit einem Buchstabengitter kombiniert, das Lücken enthält — Nutzer betrachten das Bild und füllen die fehlenden Buchstaben ein. Das 4-stufige Hinweissystem steuert die Schwierigkeit: Keine Hinweise für reines Erinnern, Leicht enthüllt die Hälfte, Normal ein Viertel und Schwer nur ein Sechstel der Buchstaben. Zwei Eingabemodi stehen zur Verfügung: Bild-Hinweis mit über 3.100 Bildern in 104 Themen oder benutzerdefinierte Wortlisten für gezieltes Training. Die Sprachsensitivität ist integriert — dasselbe Bild erzeugt verschiedene Schreibweisen in 11 Sprachen. Deutsche Zusammensetzungen wie Schmetterling erzeugen besonders anspruchsvolle Gitter. Die kostenlose Testversion bietet sämtliche Funktionen mit einem Wasserzeichen auf Downloads. Für den kommerziellen Einsatz können Sie eine Lizenz erwerben, die das Wasserzeichen entfernt und volle Verkaufsrechte freischaltet.',
   },

@@ -2,24 +2,25 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'Mal-und-Zeichenvorlagen für Etsy-Printable-Business',
+    primaryKeyword: 'Zeichnen und Ausmalen Arbeitsblatt erstellen',
     secondaryKeywords: [
-      'Zeichenvorlagen erstellen für Etsy-Printable-Shop',
-      'Rasterzeichnen-Generator für KDP-Zeichenbücher',
-      'Mal-und-Zeichenarbeitsblätter auf Etsy verkaufen',
-      'Gitterzeichnungs-Druckvorlagen kommerzielle Lizenz',
+      'Malübung Arbeitsblatt Generator',
+      'Zeichenübung erstellen',
+      'Kunst Arbeitsblatt Generator',
+      'Kreativ-Arbeitsblatt erstellen',
     ],
     lsiKeywords: [
-      'Zeichenbücher Amazon KDP veröffentlichen Einkommen',
-      'Druckvorlagen-Geschäft Rasterzeichnen passive Einnahmen',
-      'duales Rastersystem Hinweisprozent Zeichenübungen',
+      'Zeichenanleitung',
+      'Malübung',
+      'Kunstunterricht',
+      'kreativ',
     ],
-    titleTag: 'Mal-und-Zeichenvorlagen-Generator für Etsy | LCS',
-    metaDescription: 'Mal-und-Zeichenvorlagen erstellen und auf Etsy verkaufen — duales Rastersystem mit Hinweisprozent für KDP-Zeichenbücher. 49 $ einmalig.',
+    titleTag: 'Zeichnen & Ausmalen Arbeitsblatt erstellen | Kunst Generator',
+    metaDescription: 'Erstellen Sie Zeichen- und Malübungen mit Themenbildern. Druckfertige 300 DPI PDFs. Kostenlos testen — kommerzielle Lizenz für Etsy & KDP.',
   },
 
   hero: {
-    title: 'Zeichenvorlagen-Generator für Ihr Etsy-Printable-Business',
+    title: 'Zeichnen & Ausmalen Arbeitsblatt erstellen — Kunst Generator',
     tagline: 'Duales Rastersystem — Übungsraster und Hinweisraster nebeneinander — mit einstellbarem Hinweisprozent von 10% bis 75%, horizontalen und vertikalen Symmetriemodi und über 100 Schwarz-Weiß-Umriss-Themen für Zeichen- und Malaktivitäten.',
     description:
       'Bauen Sie Ihr Etsy-Printable-Business mit dem Zeichenvorlagen-Generator auf und erstellen Sie professionelle Rasterzeichnen-Arbeitsblätter, die Sie auf Etsy, Amazon KDP oder Gumroad verkaufen. Das duale Rastersystem zeigt ein Hinweisraster neben einem leeren Übungsraster — Nutzer reproduzieren das Referenzbild Zelle für Zelle. Steuern Sie die Schwierigkeit über den Hinweisprozent-Regler von 10% bis 75% und konfigurieren Sie Rasterabmessungen von 3×3 bis 10×10. Drei Symmetriemodi — Zufall, Horizontal und Vertikal — erweitern die Produktvielfalt. Über 3.100 Schwarzweiß-Umrisszeichnungen in 104 Themen liefern sofort einsetzbare Inhalte, und das rein visuelle Format ohne Text ermöglicht globalen Verkauf ohne Übersetzungsaufwand. Exportieren Sie druckfertige PDFs und JPEGs mit 300 DPI in Letter, A4, Quadrat oder benutzerdefinierten Größen. Die kommerzielle Lizenz umfasst 10 Themen; Vollzugriff schaltet alle 104 Themen und 11 Oberflächensprachen frei. Kostenlos testen mit allen Funktionen — Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',
@@ -198,6 +199,11 @@ const content: AppContent = {
       question: 'Was ist Ihre Rückgabepolitik?',
       answer:
         'Da die kostenlose Testversion Ihnen Zugang zu jeder Funktion gewährt, bieten wir keine Rückerstattung für kommerzielle Lizenzen an. Sie können jede Rastergröße, jeden Hinweisprozentsatz, jeden Symmetriemodus, jedes Exportformat und jede Seitengröße vor dem Kauf testen. Die kostenlose Testversion ist die Rückgabepolitik — stellen Sie sicher, dass das Tool Ihren Anforderungen entspricht, bevor Sie eine Lizenz erwerben.',
+    },
+    {
+      question: 'Sind die Arbeitsblätter für die Grundschule geeignet?',
+      answer:
+        'Ja. Die Arbeitsblätter eignen sich für die Grundschule (Deutschland), Volksschule (Österreich) und Primarschule (Schweiz). Sie können den Schwierigkeitsgrad an verschiedene Klassenstufen anpassen — von der 1. Klasse bis zur 4. Klasse. Auch Vorschulkinder und Kindergartenkinder profitieren von den einfacheren Übungsstufen.',
     },
   ],
 

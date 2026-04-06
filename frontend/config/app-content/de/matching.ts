@@ -2,24 +2,26 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'Zuordnungs-Arbeitsblätter erstellen Etsy verkaufen',
+    primaryKeyword: 'Zuordnungs-Arbeitsblatt erstellen',
     secondaryKeywords: [
-      'Paare-Verbinden-Arbeitsblatt-Generator für Etsy-Verkäufer',
-      'Zuordnungs-Druckvorlagen erstellen KDP',
-      'Matching-Arbeitsblätter verkaufen kommerzielle Lizenz',
-      'Zuordnungsspiel-Generator mit Lösungsschlüssel',
+      'Zuordnungsaufgaben Generator',
+      'Verbinden Arbeitsblatt erstellen',
+      'Bilder zuordnen Arbeitsblatt',
+      'Memory Arbeitsblatt Generator',
     ],
     lsiKeywords: [
-      'Printable-Business Zuordnungs-Übungen Einkommensquelle',
-      'Paare-Verbinden-Aktivitäten Druckvorlagen erstellen',
-      'Bildzuordnung Arbeitsblatt verkaufen Etsy KDP',
+      'verbinden',
+      'Paare finden',
+      'gleich und verschieden',
+      'Vorschule',
+      'Kindergarten',
     ],
-    titleTag: 'Zuordnungs-Arbeitsblätter für Etsy erstellen | LCS',
-    metaDescription: 'Zuordnungs-Arbeitsblätter erstellen und auf Etsy verkaufen. Vier Modi, konfigurierbare Paaranzahl, Lösungsschlüssel. 49 $ einmalig.',
+    titleTag: 'Zuordnungs-Arbeitsblätter erstellen | Verbinden Generator',
+    metaDescription: 'Erstellen Sie Zuordnungs-Arbeitsblätter mit Themenbildern für Vorschule & Grundschule. Automatische Lösungen, 300 DPI PDF. Kostenlos testen.',
   },
 
   hero: {
-    title: 'Zuordnungs-Arbeitsblätter erstellen und auf Etsy verkaufen',
+    title: 'Zuordnungs-Arbeitsblätter erstellen — Verbinden Generator',
     tagline: 'Vier Zuordnungsmodi in einem Generator — Anfangsbuchstabe, Bild+Wort, Bild/Wort-Mischung und Eigenes Wort — mit automatisch generiertem Lösungsschlüssel, konfigurierbarer Paaranzahl und lokalisierter \"Finde die Paare!\"-Überschrift über 104 thematische Bildsammlungen.',
     description:
       'Sie möchten Zuordnungs-Arbeitsblätter erstellen und als druckbare Produkte auf Etsy oder Amazon KDP verkaufen? Dieser Generator bietet vier verschiedene Zuordnungsmodi in einem Werkzeug: Anfangsbuchstaben-Zuordnung für phonemisches Bewusstsein, Bild+Wort-Paare für Wortschatzaufbau, Bild/Wort-Mischung mit individueller Schwierigkeitssteuerung pro Zeile und Eigenes-Wort-Modus für maßgeschneiderte Vokabelübungen. Konfigurieren Sie 4, 5 oder 6 Paare pro Arbeitsblatt, schalten Sie Elementnummern und Aufzählungspunkte um und generieren Sie automatisch einen Lösungsschlüssel mit Verbindungslinien zwischen den korrekten Paaren. Die integrierte Bildbibliothek umfasst über 3.100 Illustrationen in 104 Themen — Tiere, Fahrzeuge, Lebensmittel und mehr. Der Generator ist sprachabhängig: ein Sprachwechsel ändert die Wörter und Anfangsbuchstaben auf dem Arbeitsblatt, sodass Sie mehrsprachige Produktlinien aus einem einzigen Workflow erstellen. Exportieren Sie druckfertige PDFs und JPEGs mit 300 DPI in Letter, A4 oder benutzerdefinierten Größen. Kostenlos testen mit allen Funktionen — Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',
@@ -198,6 +200,11 @@ const content: AppContent = {
       question: 'Was ist Ihre Rückgabepolitik?',
       answer:
         'Da die kostenlose Testversion Ihnen vollständigen Zugang zu jeder Funktion gewährt, bieten wir keine Rückerstattung für kommerzielle Lizenzen an. Sie können alle vier Zuordnungsmodi, den automatisch generierten Lösungsschlüssel, die vollständige Bildbibliothek, Hintergrund- und Rahmenthemen, Namens-/Datumsfelder, Elementnummern, Aufzählungspunkte und alle Download-Formate vor dem Kauf ausgiebig testen. Die kostenlose Testversion ist die Rückgabepolitik — stellen Sie sicher, dass das Tool Ihren Anforderungen entspricht, bevor Sie eine Lizenz erwerben.',
+    },
+    {
+      question: 'Sind die Arbeitsblätter für die Grundschule geeignet?',
+      answer:
+        'Ja. Die Arbeitsblätter eignen sich für die Grundschule (Deutschland), Volksschule (Österreich) und Primarschule (Schweiz). Sie können den Schwierigkeitsgrad an verschiedene Klassenstufen anpassen — von der 1. Klasse bis zur 4. Klasse. Auch Vorschulkinder und Kindergartenkinder profitieren von den einfacheren Übungsstufen.',
     },
   ],
 

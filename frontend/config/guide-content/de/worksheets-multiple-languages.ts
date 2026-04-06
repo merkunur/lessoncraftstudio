@@ -2,20 +2,20 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Arbeitsblätter in mehreren Sprachen verkaufen',
+    primaryKeyword: 'Arbeitsblätter in mehreren Sprachen erstellen',
     secondaryKeywords: [
       'mehrsprachige Arbeitsblätter produzieren Workflow',
-      'Druckvorlagen übersetzen und verkaufen',
+      'Druckvorlagen übersetzen und verkaufen Anleitung',
       'Zeichensatz-Handhabung mehrsprachige Printables',
       'Qualitätssicherung internationale Arbeitsblätter',
     ],
     lsiKeywords: [
-      'diakritische Zeichen Schriftauswahl Sonderzeichen Textlängenvariation Lokalisierung',
-      'Stapelverarbeitung Produktions-Workflow Muttersprachler-Review kulturelle Anpassung',
-      'zusammengesetzte Wörter lokalisierte Angebotskopie internationaler Druckvorlagen-Markt',
+      'diakritische Zeichen Schriftauswahl Sonderzeichen Lokalisierung',
+      'Stapelverarbeitung Produktions-Workflow kulturelle Anpassung',
+      'zusammengesetzte Wörter internationaler Druckvorlagen-Markt',
     ],
-    titleTag: 'Arbeitsblätter mehrsprachig verkaufen | LCS',
-    metaDescription: 'Arbeitsblätter in mehreren Sprachen verkaufen: Produktions-Workflows, Zeichensatz-Handhabung, Qualitätssicherung und Listing-Optimierung für jeden Markt.',
+    titleTag: 'Arbeitsblätter mehrsprachig erstellen | LCS',
+    metaDescription: 'Arbeitsblätter in mehreren Sprachen erstellen: Produktions-Workflows, Zeichensatz-Handhabung, Qualitätssicherung und Listing-Optimierung für jeden Zielmarkt.',
   },
 
   hero: {

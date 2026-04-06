@@ -2,20 +2,20 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Schattenbilder-Arbeitsblätter zum Verkaufen erstellen',
+    primaryKeyword: 'Schattenbilder-Zuordnung erstellen Anleitung',
     secondaryKeywords: [
-      'Silhouetten-Zuordnungs-Arbeitsblätter für Etsy produzieren',
-      'Schattenrätsel kommerziell auf KDP verkaufen',
-      'druckbare Schattenbilder-Rätsel für Printable-Business',
-      'Schattenbilder-Generator für Arbeitsblatt-Verkäufer',
+      'Schattenbilder-Zuordnung für Etsy erstellen',
+      'Schattenbilder-Zuordnung Schritt für Schritt Anleitung',
+      'Schattenbilder-Zuordnung für Anfänger erstellen',
+      'Schattenbilder-Arbeitsblätter für KDP erstellen',
     ],
     lsiKeywords: [
-      'visuelle Wahrnehmung Druckvorlagen Etsy-Geschäft',
-      'Schattenbilder rein visuell weltweiter Verkauf',
-      'KDP visuelle Wahrnehmungs-Arbeitsbuch veröffentlichen',
+      'Vorschule visuelle Wahrnehmung druckfertig',
+      'Silhouetten Halb-Bilder-Modus Lösungsschlüssel',
+      'rein visuell 300 DPI PDF',
     ],
-    titleTag: 'Schattenbilder zum Verkaufen erstellen | LCS',
-    metaDescription: 'Schattenbilder-Arbeitsblätter zum Verkaufen erstellen. Pixelgenaue Silhouetten, Halb-Bilder-Modus und Lösungsschlüssel. Rein visuelles Format für Etsy.',
+    titleTag: 'Schattenbilder-Zuordnung erstellen | Anleitung | LCS',
+    metaDescription: 'Schritt-für-Schritt Anleitung zum Erstellen von Schattenbilder-Zuordnungen. Pixelgenaue Silhouetten, Halb-Bilder-Modus und Lösungsschlüssel. Kostenlos testen.',
   },
 
   hero: {

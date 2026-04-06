@@ -2,20 +2,20 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Schreibübungen zum Verkaufen erstellen',
+    primaryKeyword: 'Schreibübungen erstellen Anleitung',
     secondaryKeywords: [
-      'Buchstaben-Nachfahr-Arbeitsblätter für Etsy produzieren',
-      'Schreibübungen-PDFs auf KDP verkaufen',
-      'druckbare Schreibübungen kommerziell erstellen',
-      'Schreibübungen-Generator für Printable-Verkäufer',
+      'Schreibübungen für Etsy erstellen',
+      'Schreibübungen Schritt für Schritt Anleitung',
+      'Schreibübungen für Anfänger erstellen',
+      'Schreibübungen-Arbeitsblätter für KDP erstellen',
     ],
     lsiKeywords: [
-      'Schreibübungen-Druckvorlagen Etsy Geschäft',
-      'KDP Schreibübungs-Arbeitsheft veröffentlichen',
-      'Strichreihenfolge Buchstabenbildung Produktlinie',
+      'Vorschule Buchstaben nachfahren druckfertig',
+      'Strichreihenfolge fünf Schriftarten',
+      'Grundschule 1. Klasse 300 DPI',
     ],
-    titleTag: 'Schreibübungen zum Verkaufen erstellen | LCS',
-    metaDescription: 'Schreibübungen zum Verkaufen erstellen. Nachfahr- und Abschreib-Modus, Strichreihenfolge-Pfeile, fünf Schriftarten und druckfertige PDFs für Etsy und KDP.',
+    titleTag: 'Schreibübungen erstellen | Anleitung | LCS',
+    metaDescription: 'Schritt-für-Schritt Anleitung zum Erstellen von Schreibübungen. Nachfahr- und Abschreib-Modus, Strichreihenfolge-Pfeile und fünf Schriftarten. Kostenlos testen.',
   },
 
   hero: {

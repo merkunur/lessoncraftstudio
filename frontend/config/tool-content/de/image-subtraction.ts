@@ -2,24 +2,25 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'kostenloser Minusaufgaben Generator',
+    primaryKeyword: 'kostenloser Subtraktions-Arbeitsblatt Generator',
     secondaryKeywords: [
-      'Minusaufgaben Generator kostenlos ohne Anmeldung',
       'Subtraktions-Arbeitsblätter online erstellen',
-      'Durchstreich-Arbeitsblätter Generator sofort nutzen',
-      'kostenlose Minusaufgaben mit Bildern erstellen',
+      'Minusaufgaben Generator kostenlos ohne Anmeldung',
+      'Subtraktion Arbeitsblatt erstellen kostenlos',
+      'Mathe Arbeitsblätter Subtraktion gratis',
     ],
     lsiKeywords: [
-      'visuelle Subtraktionsübungen Durchstreichen',
-      'bildbasierte Abzieh-Arbeitsblätter druckfertig',
-      'Zahlenraum 2–20 Minusaufgaben Generator',
+      'Grundschule',
+      'Abziehen',
+      'Zehnerübergang',
+      'Minusaufgaben kostenlos',
     ],
-    titleTag: 'Kostenloser Minusaufgaben Generator | LCS',
-    metaDescription: 'Kostenloser Minusaufgaben Generator — Subtraktions-Arbeitsblätter mit Durchstreich-Bildern online erstellen. Testversion mit Wasserzeichen, Lizenz verfügbar.',
+    titleTag: 'Kostenloser Subtraktions-Arbeitsblatt Generator | LCS',
+    metaDescription: 'Kostenloser Subtraktions-Arbeitsblatt Generator — Minusaufgaben mit Themenbildern sofort erstellen. Ohne Anmeldung. Lizenz für Etsy & KDP.',
   },
 
   hero: {
-    title: 'Minusaufgaben Generator — Durchstreich-Arbeitsblätter erstellen',
+    title: 'Kostenloser Subtraktions-Arbeitsblatt Generator Online',
     tagline: 'Erstellen Sie visuelle Durchstreich-Subtraktions-Arbeitsblätter in unter 60 Sekunden',
     description: 'Unser kostenloser Minusaufgaben Generator erstellt bildbasierte Subtraktions-Arbeitsblätter mit der einzigartigen Durchstreich-Visualisierung — direkt im Browser, ohne Anmeldung und ohne Installation. Nutzer streichen Bilder durch, um die Antwort zu finden, was Subtraktion greifbar und intuitiv macht. Wählen Sie aus über 100 Bildthemen mit mehr als 3.100 handverlesenen Illustrationen, stellen Sie den maximalen Minuenden ein (2–20), wählen Sie aus vier Übungsmodi einschließlich des einzigartigen Durchstreich-Formats und laden Sie druckfertige PDFs oder hochauflösende JPEGs mit über 400 DPI herunter. Der integrierte Graustufen-Schalter erzeugt tintenfreundliche Schwarz-Weiß-Versionen mit einem Klick. Das Tool unterstützt 11 Sprachen und generiert automatisch einen passenden Lösungsschlüssel. Die kostenlose Testversion bietet sämtliche Funktionen mit einem Wasserzeichen auf Downloads. Für den kommerziellen Einsatz können Sie eine Lizenz erwerben, die das Wasserzeichen entfernt und volle Verkaufsrechte freischaltet.',
   },

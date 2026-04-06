@@ -2,20 +2,20 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Zähl-Arbeitsblätter zum Verkaufen auf Etsy erstellen',
+    primaryKeyword: 'Suchen-und-Zählen-Arbeitsblätter erstellen Anleitung',
     secondaryKeywords: [
-      'Bilddiagramm-Arbeitsblätter für Etsy produzieren',
-      'Zähl- und Diagramm-PDFs kommerziell verkaufen',
-      'Datenkompetenzen-Arbeitsbuch auf KDP veröffentlichen',
-      'Bilddiagramm-Generator für Printable-Verkäufer',
+      'Suchen-und-Zählen-Arbeitsblätter für Etsy erstellen',
+      'Suchen-und-Zählen-Arbeitsblätter Schritt für Schritt Anleitung',
+      'Suchen-und-Zählen-Arbeitsblätter für Anfänger erstellen',
+      'Suchen-und-Zählen-Arbeitsblätter für KDP erstellen',
     ],
     lsiKeywords: [
-      'Streubild-Raster Zählübung Etsy-Geschäft',
-      'Datenrepräsentation Printable Nische verkaufen',
-      'KDP Datenkompetenzen-Arbeitsbuch veröffentlichen',
+      'Vorschule Grundschule Zählübung',
+      'Themenbilder Lösungsschlüssel druckfertig',
+      '104 Themen 300 DPI PDF',
     ],
-    titleTag: 'Zähl-Arbeitsblätter für Etsy erstellen | LCS',
-    metaDescription: 'Zähl-Arbeitsblätter zum Verkaufen erstellen. Bilddiagramme, automatische Lösungsschlüssel und 104 Themen. Druckfertige PDFs für Ihr Etsy Printable-Business.',
+    titleTag: 'Suchen & Zählen Arbeitsblätter erstellen | Anleitung | LCS',
+    metaDescription: 'Schritt-für-Schritt Anleitung zum Erstellen von Suchen-und-Zählen-Arbeitsblättern. Bilddiagramme, Lösungsschlüssel und 104 Themen. Kostenlos testen.',
   },
 
   hero: {

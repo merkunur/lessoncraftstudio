@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'digital physisch druckvorlagen digitale physische vergleich',
+    primaryKeyword: 'Digitale vs physische Druckvorlagen Vergleich',
     secondaryKeywords: [
       'Print-on-Demand oder digitaler Download wählen',
       'Gewinnmarge digitale Printables vergleichen',
@@ -10,11 +10,11 @@ const content: GuideContent = {
       'Formatwahl Printable-Geschäft Skalierbarkeit',
     ],
     lsiKeywords: [
-      'digitaler Download physisches Produkt Print-on-Demand Fulfillment Skalierbarkeit',
-      'Versandkosten Gewinnmarge Bestandsverwaltung Produktionskosten Kundenerfahrung',
-      'Hybridmodell Formatauswahl Geschäftsmodell-Vergleich passive Einnahmen Wachstumspfad',
+      'digitaler Download Print-on-Demand Fulfillment Skalierbarkeit',
+      'Versandkosten Gewinnmarge Bestandsverwaltung Produktionskosten',
+      'Hybridmodell Geschäftsmodell-Vergleich passive Einnahmen',
     ],
-    titleTag: 'Digital vs Physisch: Druckvorlagen | LCS',
+    titleTag: 'Digitale vs physische Druckvorlagen | LCS',
     metaDescription: 'Digitale vs physische Druckvorlagen im Vergleich: Gewinnmargen, Skalierbarkeit, Auftragsabwicklung und die richtige Formatwahl für Ihr Printable-Business.',
   },
 

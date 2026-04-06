@@ -2,20 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'Baustellen-Druckvorlagen verkaufen',
+    primaryKeyword: 'Baustellen-Druckvorlagen Nische Etsy',
     secondaryKeywords: [
-      'Baufahrzeug-Arbeitsblätter auf Etsy erstellen',
-      'Werkzeug-Baustellen-Druckvorlagen auf KDP verkaufen',
-      'Bagger-und-Kran-Aktivitätsblätter für Gumroad',
-      'Baustellen-Thema Arbeitsblätter für Druckvorlagen-Shops',
+      'Baustellen Arbeitsblätter auf Etsy verkaufen',
+      'Baustellen Druckvorlagen Geschäftsideen',
+      'Baustellen Nische Wettbewerbsanalyse',
+      'profitable Baustellen Druckvorlagen',
     ],
     lsiKeywords: [
-      'Jungen-Lieblingsthema Druckvorlagen-Nische',
-      'Fahrzeuge-Werkzeuge Lernmaterialien Etsy',
-      'Baustellen-Bildungsthema Arbeitsblatt-Markt',
+      'Bagger Kran Baufahrzeuge Arbeitsblätter',
+      'Werkzeuge Baustellen-Thema Druckvorlagen',
+      'Evergreen Jungen-Lieblingsthema Nische',
     ],
-    titleTag: 'Baustellen-Druckvorlagen verkaufen | LCS',
-    metaDescription: 'Baustellen-Druckvorlagen verkaufen auf Etsy, KDP und Gumroad. Baufahrzeuge und Werkzeuge als Evergreen-Nische — Produktideen und Strategien für Ihren Shop.',
+    titleTag: 'Baustellen-Druckvorlagen Nische Etsy | LCS',
+    metaDescription: 'Baustellen-Druckvorlagen als profitable Etsy-Nische entdecken. Baufahrzeuge und Werkzeuge als Evergreen-Thema — Produktideen und Wettbewerbsanalyse für Ihren Shop.',
   },
   hero: {
     title: 'Baustellen-Druckvorlagen — Geschäftsideen für Ihren Printable-Shop',

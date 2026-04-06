@@ -2,20 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'Mutter-Vatertag-Druckvorlagen verkaufen',
+    primaryKeyword: 'Elterntag-Druckvorlagen Nische Etsy',
     secondaryKeywords: [
-      'Muttertag-Arbeitsblätter auf Etsy erstellen',
-      'Vatertag-Druckvorlagen auf KDP verkaufen',
-      'Elterntag-Aktivitätsblätter auf Gumroad anbieten',
-      'Familien-Feiertags-Lernmaterialien für Shops',
+      'Elterntag Arbeitsblätter auf Etsy verkaufen',
+      'Elterntag Druckvorlagen Geschäftsideen',
+      'Elterntag Nische Wettbewerbsanalyse',
+      'profitable Elterntag Druckvorlagen',
     ],
     lsiKeywords: [
-      'saisonale Mai-Juni-Nachfrage Druckvorlagen',
-      'Muttertag-Vatertag-Nische Arbeitsblätter',
-      'Familienfest-Thema Lernmaterialien Etsy',
+      'Muttertag Vatertag Arbeitsblätter',
+      'Mai-Juni saisonale Nachfrage doppelt',
+      'Familienfest-Thema Druckvorlagen Nische',
     ],
-    titleTag: 'Mutter-/Vatertag Druckvorlagen | LCS',
-    metaDescription: 'Mutter- und Vatertag Druckvorlagen auf Etsy, KDP und Gumroad verkaufen. Doppeltes Verkaufsfenster nutzen mit Produktideen und Strategien für Ihren Shop.',
+    titleTag: 'Elterntag-Druckvorlagen Nische für Etsy | LCS',
+    metaDescription: 'Elterntag-Druckvorlagen als profitable Etsy-Nische entdecken. Muttertag und Vatertag als doppeltes Verkaufsfenster — saisonale Produktideen und Strategien für Shops.',
   },
   hero: {
     title: 'Mutter-/Vatertag Druckvorlagen — Geschäftsideen für Verkäufer',

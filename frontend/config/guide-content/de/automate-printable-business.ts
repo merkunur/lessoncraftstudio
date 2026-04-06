@@ -6,15 +6,15 @@ const content: GuideContent = {
     secondaryKeywords: [
       'Stapelverarbeitung Printable-Produktion Workflow',
       'Vorlagensysteme Arbeitsblatt-Geschäft aufbauen',
-      'Listing-Automatisierung Etsy-Verkäufer',
+      'Listing-Automatisierung Etsy-Verkäufer Printables',
       'Produktionspipeline digitale Produkte optimieren',
     ],
     lsiKeywords: [
-      'Stapelverarbeitung Vorlagensysteme Workflow-Optimierung Produktionsbeschleunigung',
-      'Eintragsvorlagen Beschreibungsvorlagen Dateiorganisation Prozessstandardisierung',
-      'skalierbare Prozesse Katalogverwaltung wiederholbare Systeme betriebliche Effizienz',
+      'Stapelverarbeitung Workflow-Optimierung Produktionsbeschleunigung',
+      'Eintragsvorlagen Dateiorganisation Prozessstandardisierung',
+      'skalierbare Prozesse Katalogverwaltung betriebliche Effizienz',
     ],
-    titleTag: 'Printable-Business automatisieren | LCS',
+    titleTag: 'Druckvorlagen-Business automatisieren | LCS',
     metaDescription: 'Druckvorlagen-Business automatisieren: Stapelverarbeitung, Vorlagensysteme und standardisierte Workflows, die Stunden sparen und den Output vervielfachen.',
   },
 

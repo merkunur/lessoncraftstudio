@@ -2,24 +2,26 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'Bilder-Bingo-Generator für Etsy Druckvorlagen verkaufen',
+    primaryKeyword: 'Bingo Karten erstellen',
     secondaryKeywords: [
-      'Bingo-Karten erstellen und auf Etsy verkaufen',
-      'Bilder-Bingo-Generator für KDP-Aktivitätsbücher',
-      'druckbare Bingo-Karten Printable-Business',
-      'Bingo-Stapel-Generierung ZIP-Export Etsy-Shop',
+      'Bingo Karten Generator',
+      'Bilder-Bingo erstellen',
+      'eigene Bingo Karten erstellen',
+      'Bingo-Spiel Generator',
     ],
     lsiKeywords: [
-      'Bingo-Aktivitätsbücher Amazon KDP veröffentlichen',
-      'Druckvorlagen-Geschäft Bingo-Karten passive Einnahmen',
-      'Bingo-Karten Ansageblatt 104 Themen Export',
+      'Bingo-Spiel',
+      'Bingo-Brett',
+      'Klassen-Bingo',
+      'Party-Bingo',
+      'Aufrufkarten',
     ],
-    titleTag: 'Bilder-Bingo-Generator für Etsy-Druckvorlagen | LCS',
-    metaDescription: 'Bilder-Bingo-Karten für Etsy-Druckvorlagen erstellen — Stapel-Generierung, ZIP-Export, Ansageblatt und 104 Themen. 49 $ einmalig.',
+    titleTag: 'Bingo-Karten erstellen | Bilder-Bingo Generator',
+    metaDescription: 'Erstellen Sie Bilder-Bingo-Karten mit 3.000+ Themenbildern. Einzigartige Karten pro Set, druckfertige PDFs. Kostenlos testen — kommerzielle Lizenz.',
   },
 
   hero: {
-    title: 'Bilder-Bingo-Karten erstellen für Ihr Druckvorlagen-Business',
+    title: 'Bingo-Karten erstellen — Bilder-Bingo Generator',
     tagline: 'Generieren Sie 1–10 einzigartige Bingo-Karten pro Stapel mit konfigurierbaren Rastern von 3×3 bis 5×5 — Bild- oder Wort-Füllung für Kartenzellen und runde Chips unabhängig wählbar, ein eigenes Ansageblatt für den Spielleiter, ZIP-Stapelexport aller Karten und 104 thematische Bildsammlungen.',
     description:
       'Erstellen Sie Bilder-Bingo-Karten mit dem Bingo-Generator und verkaufen Sie druckbare Bingo-Sets auf Etsy, Amazon KDP oder Gumroad. Generieren Sie 1 bis 10 einzigartige Karten pro Stapel mit Rastern von 3×3 bis 5×5 — Bild- oder Wort-Füllung für Zellen und Chips unabhängig wählbar. Jeder Stapel enthält ein separates Ansageblatt für den Spielleiter. Der ZIP-Stapelexport liefert alle Karten in einer Datei. Die Wort-Füllung ist sprachabhängig mit lokalisierten Bildnamen in 11 Sprachen. Über 3.100 Illustrationen in 104 Themen liefern abwechslungsreiche Inhalte. Exportieren Sie druckfertige PDFs und JPEGs mit 300 DPI in Letter, A4 oder benutzerdefinierten Größen. Die kommerzielle Lizenz umfasst 10 Themen; Vollzugriff schaltet alle 104 Themen und 11 Sprachen frei. Kostenlos testen mit Wasserzeichen.',
@@ -193,6 +195,11 @@ const content: AppContent = {
       question: 'Was ist Ihre Rückgabepolitik?',
       answer:
         'Da die kostenlose Testversion Ihnen vollständigen Zugang zu jeder Funktion gewährt, bieten wir keine Rückerstattung für kommerzielle Lizenzen an. Sie können alle Rastergrößen, Stapel-Generierung, ZIP-Export, Bild- und Wort-Füllmodi, das Ansageblatt, die vollständige Bildbibliothek, benutzerdefinierte Ansage-Auswahl, Hintergrund- und Rahmenthemen, Textwerkzeuge und alle Download-Formate vor dem Kauf ausgiebig testen. Die kostenlose Testversion ist die Rückgabepolitik — stellen Sie sicher, dass das Tool Ihren Anforderungen entspricht, bevor Sie eine Lizenz erwerben.',
+    },
+    {
+      question: 'Sind die Arbeitsblätter für die Grundschule geeignet?',
+      answer:
+        'Ja. Die Arbeitsblätter eignen sich für die Grundschule (Deutschland), Volksschule (Österreich) und Primarschule (Schweiz). Sie können den Schwierigkeitsgrad an verschiedene Klassenstufen anpassen — von der 1. Klasse bis zur 4. Klasse. Auch Vorschulkinder und Kindergartenkinder profitieren von den einfacheren Übungsstufen.',
     },
   ],
 

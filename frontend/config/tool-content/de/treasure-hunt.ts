@@ -2,24 +2,24 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'kostenloser schatzsuche generator arbeitsblätter kostenlos erstellen online tool',
+    primaryKeyword: 'Schatzsuche Arbeitsblatt kostenlos erstellen',
     secondaryKeywords: [
-      'Schatzsuche-Arbeitsblätter kostenlos erstellen',
-      'Schatzsuche-Generator online ohne Anmeldung',
-      'kostenloser Richtungsrätsel-Generator für Kinder',
-      'Wegfindungs-Rätsel online erstellen und drucken',
+      'Schnitzeljagd Generator kostenlos online',
+      'Schatzsuche Rätsel erstellen gratis',
+      'Schnitzeljagd Arbeitsblatt ohne Anmeldung',
+      'Schatzsuche Spiel kostenlos erstellen',
     ],
     lsiKeywords: [
-      'Koordinatenraster mit Grundrichtungen und Himmelsrichtungen',
-      'lokalisierte Richtungsanweisungen in 11 Sprachen',
-      'automatischer Lösungsschlüssel mit Schatzzelle',
+      'Hinweise',
+      'Abenteuer',
+      'Kindergeburtstag kostenlos',
     ],
-    titleTag: 'Kostenloser Schatzsuche-Generator | LCS',
-    metaDescription: 'Kostenloser Schatzsuche-Generator mit 5x5-Koordinatenraster und zwei Richtungstypen. 11 Sprachen, 104 Themen, ohne Anmeldung. Lizenz für kommerziellen Verkauf.',
+    titleTag: 'Schatzsuche erstellen kostenlos | Online Generator | LCS',
+    metaDescription: 'Schatzsuche-Arbeitsblätter kostenlos erstellen — Schnitzeljagd-Rätsel mit Themenbildern online, ohne Anmeldung. Lizenz für Etsy & KDP.',
   },
 
   hero: {
-    title: 'Schatzsuche-Arbeitsblätter kostenlos erstellen — Online-Tool',
+    title: 'Schatzsuche erstellen kostenlos — Online Schnitzeljagd Generator',
     tagline: 'Schatzsuche-Arbeitsblatt-Generator mit festem 5×5-Koordinatenraster (A–E Zeilen, 1–5 Spalten), zwei Richtungstypen (Grundrichtungen: oben/unten/links/rechts für Vorschule bis 1. Klasse und Himmelsrichtungen: Norden/Süden/Osten/Westen ab 2. Klasse), 6 thematischen Orientierungspunkt-Bildern, genau 4 Richtungsbewegungen pro Rätsel, automatisch generiertem Lösungsschlüssel mit blassgelb hervorgehobener Schatzzelle über Dual-Canvas-System, vollständig lokalisierten Richtungsanweisungen in 11 Sprachen und schatzsuchenthematischem Header (#2C8C7C) mit goldenem Fredoka-Titel über 104 thematische Bildsammlungen',
     description: 'Erstellen Sie kostenlos Schatzsuche-Arbeitsblätter mit diesem Generator — direkt im Browser, ohne Anmeldung, ohne Installation. Nutzer befolgen sequenzielle Richtungsanweisungen auf einem 5×5-Koordinatenraster mit Buchstabenzeilen (A–E) und Zahlenspalten (1–5), um einen versteckten Schatz zu finden. Jedes Rätsel verteilt 6 thematische Bilder als Orientierungspunkte und generiert genau 4 Richtungsbewegungen. Wählen Sie zwischen Grundrichtungen (oben, unten, links, rechts) und Himmelsrichtungen (Norden, Süden, Osten, Westen) für verschiedene Schwierigkeitsstufen. Alle Richtungsanweisungen sind vollständig in 11 Sprachen übersetzt. Durchstöbern Sie 104 thematische Sammlungen mit über 3.100 Illustrationen. Ein Lösungsschlüssel-Tab hebt die Schatzzelle automatisch hervor. Exportieren Sie druckfertige PDFs und JPEGs bei 300 DPI. Die kostenlose Testversion enthält alle Funktionen mit einem Wasserzeichen auf Downloads. Erwerben Sie eine Lizenz, um das Wasserzeichen zu entfernen und kommerziell zu verkaufen.',
   },

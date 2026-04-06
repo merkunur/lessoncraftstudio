@@ -2,20 +2,21 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Pinterest Marketing für Arbeitsblatt-Business',
+    primaryKeyword: 'Pinterest Marketing für Druckvorlagen-Verkäufer',
     secondaryKeywords: [
       'Pinterest-Traffic Druckvorlagen-Shop generieren',
-      'Pin-Optimierung Arbeitsblätter Verkäufer',
-      'Pinterest-SEO Printable-Geschäft Strategie',
+      'Pin-Optimierung Printable-Verkäufer Strategie',
+      'Pinterest-SEO Druckvorlagen-Geschäft aufbauen',
       'Board-Strategie Arbeitsblatt-Verkauf Pinterest',
     ],
     lsiKeywords: [
-      'visuelle Suchmaschine Pin-Design Keyword-reiche Beschreibungen immergrüner Traffic',
-      'Pin-Zeitplan Klickrate organische Entdeckung saisonales Pinnen Hochformat',
-      'Pinterest Analytics Rich Pins Speicherungsrate ausgehende Klicks Pin-Vorlagen',
+      'visuelle Suchmaschine Pin-Design immergrüner Traffic',
+      'Pin-Zeitplan Klickrate organische Entdeckung',
+      'Pinterest Analytics Rich Pins Speicherungsrate',
+      'saisonales Pinnen Hochformat Pin-Vorlagen',
     ],
-    titleTag: 'Pinterest Marketing für Arbeitsblätter | LCS',
-    metaDescription: 'Pinterest Marketing für Ihr Arbeitsblatt-Business: Pin-Optimierung, Board-Strategie, keyword-reiche Inhalte und saisonale Planung für langfristigen Traffic.',
+    titleTag: 'Pinterest Marketing für Druckvorlagen | LCS',
+    metaDescription: 'Pinterest Marketing für Druckvorlagen-Verkäufer: Pin-Optimierung, Board-Strategie, keyword-reiche Inhalte und saisonale Planung für langfristigen Shop-Traffic.',
   },
 
   hero: {

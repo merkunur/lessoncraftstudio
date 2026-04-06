@@ -2,20 +2,20 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Druckvorlagen auf Gumroad verkaufen Anleitung',
+    primaryKeyword: 'Druckvorlagen auf Gumroad verkaufen',
     secondaryKeywords: [
-      'Gumroad Storefront einrichten Druckvorlagen',
-      'digitale Downloads auf Gumroad Preisstrategien',
-      'Gumroad E-Mail-Marketing Kundenbeziehung aufbauen',
-      'Gumroad Direktverkauf vs Marktplatz Vorteile',
+      'Gumroad Storefront einrichten Druckvorlagen Anleitung',
+      'Gumroad Preisstrategien digitale Downloads',
+      'E-Mail-Marketing Gumroad Kundenbeziehung aufbauen',
+      'Gumroad Direktverkauf Pakete Mitgliedschaften',
     ],
     lsiKeywords: [
-      'Schöpfer-Direktverkauf Plattform E-Mail-Liste aufbauen',
-      'Zahle-was-du-willst Preisgestaltung Rabattcodes',
-      'Produktpakete Mitgliedschaften wiederkehrende Einnahmen',
+      'Schöpfer-Plattform 10 Prozent Transaktionsgebühr',
+      'Zahle-was-du-willst Rabattcodes gestaffelte Preise',
+      'Traffic-Generierung Social Media wiederkehrende Einnahmen',
     ],
     titleTag: 'Druckvorlagen auf Gumroad verkaufen | LCS',
-    metaDescription: 'Druckvorlagen auf Gumroad verkaufen: Storefront einrichten, Preisstrategien nutzen, E-Mail-Marketing aufbauen und mit Paketen und Mitgliedschaften skalieren.',
+    metaDescription: 'Druckvorlagen auf Gumroad verkaufen: Storefront einrichten, flexible Preisoptionen nutzen, E-Mail-Marketing aufbauen und mit Paketen und Mitgliedschaften skalieren.',
   },
 
   hero: {

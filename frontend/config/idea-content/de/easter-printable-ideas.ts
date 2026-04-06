@@ -2,20 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'Oster-Druckvorlagen auf Etsy verkaufen',
+    primaryKeyword: 'Oster-Druckvorlagen Nische Etsy',
     secondaryKeywords: [
-      'Oster-Arbeitsblätter auf Etsy erstellen',
-      'Frühlings-Ostern-Aktivitätsblätter auf KDP',
-      'saisonale Oster-Druckvorlagen auf Gumroad verkaufen',
-      'Osterhase-Thema Arbeitsblätter für Druckvorlagen-Shops',
+      'Oster Arbeitsblätter auf Etsy verkaufen',
+      'Oster Druckvorlagen Geschäftsideen',
+      'Oster Nische Wettbewerbsanalyse',
+      'profitable Oster Druckvorlagen',
     ],
     lsiKeywords: [
-      'Frühlings-Saison Osternachfrage Druckvorlagen',
-      'März-April-Verkaufsspitze Lernmaterialien',
-      'Oster-Nische saisonaler Arbeitsblatt-Markt',
+      'Osterhase Eier Küken Arbeitsblätter',
+      'März-April saisonale Nachfragespitze',
+      'Frühlings-Feiertag Druckvorlagen-Nische',
     ],
-    titleTag: 'Oster-Druckvorlagen für Etsy verkaufen | LCS',
-    metaDescription: 'Oster-Druckvorlagen auf Etsy verkaufen — profitable Frühlings-Produkte mit Osterhasen, Eiern und Küken. Saisonale Strategien und Plattformtipps für Shops.',
+    titleTag: 'Oster-Druckvorlagen Nische für Etsy | LCS',
+    metaDescription: 'Oster-Druckvorlagen als profitable Etsy-Nische entdecken. Osterhasen, Eier und Küken — saisonale Strategien für März bis April und Plattformtipps für Ihren Shop.',
   },
   hero: {
     title: 'Oster-Druckvorlagen auf Etsy verkaufen',

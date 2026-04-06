@@ -25,7 +25,7 @@ const toolToWpApp: Record<string, string> = {
 
 const toolsKeywords: Record<string, string[]> = {
   en: ['free worksheet maker online', 'free printable generator', 'free worksheet generator', 'make worksheets online free', 'free word search maker', 'free math worksheet generator'],
-  de: ['kostenlose Druckvorlagen-Generatoren', 'Online-Arbeitsblatt-Ersteller', 'Druckvorlagen-Tools gratis testen', 'Wortsuche-Generator kostenlos', 'Mathe-Arbeitsblatt-Generator', 'Ausmalbilder-Ersteller online'],
+  de: ['Arbeitsblatt Generator kostenlos', 'kostenlos Arbeitsblätter erstellen', 'Suchsel erstellen kostenlos', 'Kreuzworträtsel erstellen kostenlos', 'Rätsel Generator kostenlos'],
   fr: ['générateurs imprimables gratuits', 'créateur de fiches en ligne', 'outils imprimables essai gratuit', 'générateur mots cachés gratuit', 'générateur fiches maths', 'créateur coloriages en ligne'],
   es: ['generadores imprimibles gratis', 'creador de fichas online gratis', 'herramientas imprimibles prueba gratis', 'generador sopa de letras gratis', 'generador fichas matemáticas gratis', 'creador colorear online gratis'],
   pt: ['geradores imprimíveis grátis', 'criador de fichas online', 'ferramentas imprimíveis teste grátis', 'gerador caça-palavras grátis', 'gerador fichas matemática', 'criador colorir online'],
@@ -43,8 +43,8 @@ const toolsMetadata: Record<string, { title: string; description: string }> = {
     description: 'Use all 33 worksheet generators free online — word search maker, math generator, crossword creator, and more. No signup. Watermark removed with license.',
   },
   de: {
-    title: 'Kostenlose Druckvorlagen-Generatoren | 33 Tools testen | LessonCraftStudio',
-    description: 'Testen Sie alle 33 Arbeitsblatt-Generatoren kostenlos online. Keine Anmeldung. Wortsuche, Mathe, Ausmalbilder, R\ätsel und mehr mit Wasserzeichen.',
+    title: 'Kostenlose Arbeitsblatt-Generatoren | Alle 33 Tools online testen',
+    description: 'Nutzen Sie alle 33 Arbeitsblatt-Generatoren kostenlos online — Suchsel, Kreuzworträtsel, Mathe, Sudoku und mehr. Ohne Anmeldung. Wasserzeichen wird mit Lizenz entfernt.',
   },
   fr: {
     title: 'G\én\érateurs d\'imprimables gratuits | 33 outils | LessonCraftStudio',

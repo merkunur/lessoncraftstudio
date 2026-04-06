@@ -2,20 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: '1. Klasse Druckvorlagen auf Etsy verkaufen',
+    primaryKeyword: '1.-Klasse-Druckvorlagen Nische Etsy',
     secondaryKeywords: [
-      'K-2-Produktmarkt-Arbeitsblätter auf Etsy erstellen',
-      'Grundschul-Lernmaterialien auf KDP verkaufen',
-      'erste Klasse Druckvorlagen auf Gumroad anbieten',
-      'Schulanfänger-Arbeitsblätter für Druckvorlagen-Shops',
+      '1. Klasse Arbeitsblätter auf Etsy verkaufen',
+      '1. Klasse Druckvorlagen Geschäftsideen',
+      '1. Klasse Nische Wettbewerbsanalyse',
+      'profitable 1. Klasse Druckvorlagen',
     ],
     lsiKeywords: [
-      'Grundschul-Altersstufe Arbeitsblatt-Nische',
-      'altersgerechte Lernmaterialien Erst-Klasse',
-      'Produktkatalog-Arbeitsblätter Grundschule Etsy-Markt',
+      'Grundschul-Erstklässler Arbeitsblätter',
+      'altersgerechte Lernmaterialien Schulanfänger',
+      'Lesen Schreiben Rechnen erste Klasse Nische',
     ],
-    titleTag: '1. Klasse Druckvorlagen für Etsy | LCS',
-    metaDescription: 'Lukrative Geschäftsideen für 1. Klasse Druckvorlagen auf Etsy, KDP und Gumroad. Produktkonzepte und Nischenstrategien für Grundschulmaterial-Verkäufer.',
+    titleTag: '1.-Klasse-Druckvorlagen Nische Etsy | LCS',
+    metaDescription: '1.-Klasse-Druckvorlagen als profitable Etsy-Nische entdecken. Grundschulmaterial für Erstklässler — Produktkonzepte und Wettbewerbsanalyse für Ihren Druckvorlagen-Shop.',
   },
   hero: {
     title: '1. Klasse Druckvorlagen — profitable Geschäftsideen für Verkäufer',

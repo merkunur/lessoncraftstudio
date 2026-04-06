@@ -2,24 +2,26 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'Zähl- und Diagramm-Arbeitsblätter für Etsy erstellen',
+    primaryKeyword: 'Zählen und Diagramm Arbeitsblatt erstellen',
     secondaryKeywords: [
-      'Bilddiagramm-Generator für Etsy-Verkäufer',
-      'Piktogramm-Arbeitsblätter für Amazon KDP erstellen',
-      'Zähl-Diagramm-Druckvorlagen gewerbliche Lizenz',
-      'Bilderzähl-Arbeitsblätter für Eduki verkaufen',
+      'Strichlisten Arbeitsblatt Generator',
+      'Zählen und Zuordnen Arbeitsblatt',
+      'Diagramm Arbeitsblatt Grundschule',
+      'Bilddiagramm erstellen',
     ],
     lsiKeywords: [
-      'Piktogramm Bilddiagramm druckfertig 300 DPI',
-      'Zähl-Arbeitsblattgenerator DACH-Markt',
-      'Lösungsschlüssel Datenerfassung kommerzielle Nutzung',
+      'Strichliste',
+      'Säulendiagramm',
+      'Bilddiagramm',
+      'Daten erheben',
+      'Statistik Grundschule',
     ],
-    titleTag: 'Zähl-Diagramm-Arbeitsblätter für Etsy | LCS',
-    metaDescription: 'Erstellen Sie Bilddiagramm-Arbeitsblätter zum Verkauf auf Etsy & KDP. Piktogramme, 6 Bildtypen, Lösungsschlüssel, gewerbliche Lizenz. 49 $ einmalig.',
+    titleTag: 'Zählen & Diagramm-Arbeitsblätter erstellen | Generator',
+    metaDescription: 'Erstellen Sie Zähl- und Diagramm-Arbeitsblätter mit Themenbildern. Strichlisten, Bilddiagramme, automatische Lösungen. Kostenlos testen.',
   },
 
   hero: {
-    title: 'Zähl- und Diagramm-Arbeitsblätter erstellen und auf Etsy verkaufen',
+    title: 'Zählen & Diagramm-Arbeitsblätter erstellen — Generator mit Lösungen',
     tagline: 'Doppel-Canvas-Piktogramm-Generator — erzeugen Sie verteilte Bildraster mit 6 Bildtypen, automatisch ausgefüllte Balkendiagramm-Lösungsschlüssel, lokalisierte Überschriften in 11 Sprachen und 104 thematische Bildsammlungen für Datenerfassungs-Arbeitsblätter.',
     description:
       'Zähl- und Diagramm-Arbeitsblätter für Etsy erstellen — dieser spezialisierte Generator produziert Piktogramm- und Balkendiagramm-Arbeitsblätter, die auf Marktplätzen kaum Konkurrenz haben. Jedes Arbeitsblatt kombiniert ein verteiltes Bildraster mit 6 verschiedenen Bildtypen und ein zugehöriges Balkendiagramm zum Ausfüllen, sodass Ihre Käufer Zählen und Datenerfassung in einer Aktivität üben. Der automatische Lösungsschlüssel mit farblich hervorgehobenen Zellen wird gleichzeitig generiert und spart Ihnen stundenlange manuelle Arbeit. Wählen Sie aus über 3.100 Illustrationen in 104 Themen und erstellen Sie in Minuten thematische Pakete für Etsy, Aktivitätsbücher für Amazon KDP oder Stationen-Material für Gumroad. Die Arbeitsblatt-Ausgabe ist sprachunabhängig und funktioniert weltweit — ein einziger Workflow bedient den gesamten DACH-Markt und internationale Käufer. Die gewerbliche Lizenz erlaubt unbegrenzten Verkauf. Kostenlos testen mit allen Funktionen — Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',
@@ -193,6 +195,11 @@ const content: AppContent = {
       question: 'Was ist Ihre Rückgabepolitik?',
       answer:
         'Da die kostenlose Testversion Ihnen vollständigen Zugang zu jeder Funktion gewährt, bieten wir keine Rückerstattung für kommerzielle Lizenzen an. Sie können den Doppel-Canvas, die Bildraster-Generierung, den automatischen Lösungsschlüssel, die vollständige Bildbibliothek, Hintergrund- und Rahmenthemen, Namens-/Datumsfelder, Graustufen-Export und alle Download-Formate einschließlich PDF und JPEG vor dem Kauf ausgiebig testen. Die kostenlose Testversion ist die Rückgabepolitik — stellen Sie sicher, dass das Tool Ihren Anforderungen entspricht, bevor Sie eine Lizenz erwerben.',
+    },
+    {
+      question: 'Sind die Arbeitsblätter für die Grundschule geeignet?',
+      answer:
+        'Ja. Die Arbeitsblätter eignen sich für die Grundschule (Deutschland), Volksschule (Österreich) und Primarschule (Schweiz). Sie können den Schwierigkeitsgrad an verschiedene Klassenstufen anpassen — von der 1. Klasse bis zur 4. Klasse. Auch Vorschulkinder und Kindergartenkinder profitieren von den einfacheren Übungsstufen.',
     },
   ],
 

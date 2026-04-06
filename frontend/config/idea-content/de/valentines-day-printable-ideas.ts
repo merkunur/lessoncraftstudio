@@ -2,20 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'Valentinstag-Druckvorlagen verkaufen',
+    primaryKeyword: 'Valentinstag-Druckvorlagen Nische Etsy',
     secondaryKeywords: [
-      'Valentinstag-Arbeitsblätter auf Etsy erstellen',
-      'Liebes-Herz-Druckvorlagen auf KDP verkaufen',
-      'Februar-Feiertags-Aktivitätsblätter für Gumroad',
-      'Valentinstag-Lernmaterialien für Druckvorlagen-Shops',
+      'Valentinstag Arbeitsblätter auf Etsy verkaufen',
+      'Valentinstag Druckvorlagen Geschäftsideen',
+      'Valentinstag Nische Wettbewerbsanalyse',
+      'profitable Valentinstag Druckvorlagen',
     ],
     lsiKeywords: [
-      'Februar-Nachfragespitze saisonale Druckvorlagen',
-      'Valentinstag-Nische Arbeitsblätter Etsy',
-      'Liebes-Thema Lernmaterialien saisonaler Markt',
+      'Herzen Freundschaft Liebesbriefe Arbeitsblätter',
+      'Februar saisonale Nachfragespitze',
+      'Valentinstag-Nische Druckvorlagen Etsy-Shop',
     ],
-    titleTag: 'Valentinstag-Druckvorlagen verkaufen | LCS',
-    metaDescription: 'Valentinstag-Druckvorlagen verkaufen auf Etsy und KDP. Herzen, Freundschaft und Liebesbriefe — saisonale Produktideen und Februar-Verkaufsstrategien für Shops.',
+    titleTag: 'Valentinstag-Druckvorlagen Nische Etsy | LCS',
+    metaDescription: 'Valentinstag-Druckvorlagen als profitable Etsy-Nische entdecken. Herzen, Freundschaft und Liebesbriefe — saisonale Produktideen und Februar-Strategien für Ihren Shop.',
   },
   hero: {
     title: 'Valentinstag-Druckvorlagen verkaufen — Ideen',

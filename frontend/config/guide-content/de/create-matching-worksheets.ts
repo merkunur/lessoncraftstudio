@@ -2,20 +2,20 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Zuordnungs-Arbeitsblätter zum Verkaufen erstellen',
+    primaryKeyword: 'Zuordnungs-Arbeitsblätter erstellen Anleitung',
     secondaryKeywords: [
-      'Zuordnungs-Arbeitsblätter für Etsy produzieren',
-      'Linie-ziehen-Arbeitsblätter kommerziell verkaufen',
-      'druckbare Zuordnungsaktivitäten KDP veröffentlichen',
-      'Zuordnungs-Arbeitsblatt-Generator für Verkäufer',
+      'Zuordnungs-Arbeitsblätter für Etsy erstellen',
+      'Zuordnungs-Arbeitsblätter Schritt für Schritt Anleitung',
+      'Zuordnungs-Arbeitsblätter für Anfänger erstellen',
+      'Zuordnungs-Arbeitsblätter für KDP erstellen',
     ],
     lsiKeywords: [
-      'Vorschul-Zuordnung Druckvorlagen Etsy-Geschäft',
-      'Buchstabenzuordnung Printable Nische verkaufen',
-      'KDP Zuordnungs-Aktivitätsbuch veröffentlichen',
+      'Vorschule Grundschule Zuordnung druckfertig',
+      'Themenbilder Lösungsschlüssel 4 Modi',
+      '300 DPI PDF Export',
     ],
-    titleTag: 'Zuordnungs-Arbeitsblätter zum Verkauf | LCS',
-    metaDescription: 'Zuordnungs-Arbeitsblätter zum Verkaufen erstellen. 4 Modi, thematische Bilder und automatische Lösungsschlüssel. Druckfertige PDFs für Etsy und KDP-Verkauf.',
+    titleTag: 'Zuordnungs-Arbeitsblätter erstellen | Anleitung | LCS',
+    metaDescription: 'Schritt-für-Schritt Anleitung zum Erstellen von Zuordnungs-Arbeitsblättern. 4 Modi, thematische Bilder und automatische Lösungsschlüssel. Kostenlos testen.',
   },
 
   hero: {

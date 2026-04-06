@@ -2,20 +2,21 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Gewerbliche Lizenz für Druckvorlagen-Verkäufer',
+    primaryKeyword: 'Kommerzielle Lizenzen für Druckvorlagen verstehen',
     secondaryKeywords: [
       'kommerzielle Nutzungsrechte Arbeitsblätter Etsy',
       'Druckvorlagen legal verkaufen Lizenzierung',
-      'Clipart-Lizenz kommerziell prüfen',
+      'Clipart-Lizenz kommerziell prüfen Konformität',
       'Konformitätssystem Printable-Business aufbauen',
     ],
     lsiKeywords: [
-      'persönliche vs kommerzielle Nutzung Lizenzstufen Lizenzvereinbarung Konformität',
-      'Weiterverkaufsrechte abgeleitete Werke Plattformbeschränkungen Lizenzverifizierung',
-      'plattformübergreifende Lizenzierung Lizenzdokumentation Wettbewerbsvorteil Urheberrecht',
+      'persönliche vs kommerzielle Nutzung Lizenzstufen',
+      'Weiterverkaufsrechte abgeleitete Werke Plattformbeschränkungen',
+      'plattformübergreifende Lizenzierung Lizenzdokumentation',
+      'Lizenzvereinbarung Urheberrecht Wettbewerbsvorteil',
     ],
-    titleTag: 'Gewerbliche Lizenz für Verkäufer erklärt | LCS',
-    metaDescription: 'Gewerbliche Lizenz für Druckvorlagen-Verkäufer erklärt: Lizenztypen, häufige Fehler vermeiden und ein Konformitätssystem aufbauen, das Ihr Business schützt.',
+    titleTag: 'Kommerzielle Lizenzen für Druckvorlagen | LCS',
+    metaDescription: 'Kommerzielle Lizenzen für Druckvorlagen verstehen: Lizenztypen unterscheiden, häufige Fehler vermeiden und ein Konformitätssystem für Ihr Printable-Business bauen.',
   },
 
   hero: {

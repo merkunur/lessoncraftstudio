@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Passives Einkommen mit Arbeitsblättern 2026',
+    primaryKeyword: 'Nebeneinkommen mit Arbeitsblättern aufbauen',
     secondaryKeywords: [
       'wiederkehrender Umsatz Druckvorlagen aufbauen',
       'immergrüne Arbeitsblätter Multiplattform verkaufen',
@@ -10,12 +10,12 @@ const content: GuideContent = {
       'Druckvorlagen Einkommensströme diversifizieren',
     ],
     lsiKeywords: [
-      'immergrüne Produkte Verkaufsautomatisierung Katalog-Zusammensetzung Multiplattform-Umsatz',
-      'Produktlebenszyklus organische Entdeckung Wiederholungsverkäufe Sprachexpansion',
-      'skalierbares Umsatzmodell Katalogeffekte fortlaufende Verkäufe Produktportfolio',
+      'immergrüne Produkte Verkaufsautomatisierung Multiplattform',
+      'Produktlebenszyklus organische Entdeckung Sprachexpansion',
+      'skalierbares Umsatzmodell Katalogeffekte Produktportfolio',
     ],
-    titleTag: 'Passives Einkommen mit Arbeitsblättern | LCS',
-    metaDescription: 'Passives Einkommen mit Arbeitsblättern 2026 aufbauen: immergrüne Kataloge, Multiplattform-Vertrieb und Sprachexpansion für wiederkehrenden Umsatz auf Etsy.',
+    titleTag: 'Nebeneinkommen mit Arbeitsblättern | LCS',
+    metaDescription: 'Nebeneinkommen mit Arbeitsblättern aufbauen: Immergrüne Kataloge, Multiplattform-Vertrieb und Sprachexpansion für wiederkehrenden Umsatz auf Etsy und KDP.',
   },
 
   hero: {

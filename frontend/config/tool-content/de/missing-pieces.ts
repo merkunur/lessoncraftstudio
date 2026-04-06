@@ -2,24 +2,25 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'kostenloser Fehlende-Teile-Rätsel Generator',
+    primaryKeyword: 'kostenloser Puzzle-Rätsel Generator',
     secondaryKeywords: [
-      'Fehlende-Teile-Rätsel kostenlos erstellen',
-      'Puzzleteil-Generator online ohne Anmeldung',
-      'kostenlose Jigsaw-Puzzle-Arbeitsblätter erstellen',
-      'Fehlende-Puzzleteile Generator mit Lösungsschlüssel kostenlos',
+      'Fehlende Teile Rätsel Generator kostenlos',
+      'Was fehlt Arbeitsblatt gratis',
+      'Puzzle-Arbeitsblatt erstellen kostenlos',
+      'Logik-Rätsel Generator ohne Anmeldung',
     ],
     lsiKeywords: [
-      'Jigsaw-Puzzle Arbeitsblätter Teilformen',
-      'Fehlende Puzzleteile visuelles Rätsel',
-      'Puzzle-Arbeitsblatt Generator Distraktoren',
+      'Puzzleteil kostenlos',
+      'ergänzen',
+      'visuelles Denken',
+      'räumliche Wahrnehmung',
     ],
-    titleTag: 'Kostenloser Fehlende-Teile Generator | LCS',
-    metaDescription: 'Kostenloser Fehlende-Teile-Rätsel Generator: Jigsaw-Puzzle-Arbeitsblätter mit sechs Teilformen erstellen. Ohne Anmeldung. Kommerzielle Lizenz verfügbar.',
+    titleTag: 'Kostenloser Fehlende-Teile Rätsel Generator | LCS',
+    metaDescription: 'Kostenloser Fehlende-Teile Rätsel Generator — Puzzle-Arbeitsblätter online erstellen, ohne Anmeldung. Automatische Lösungen. Lizenz verfügbar.',
   },
 
   hero: {
-    title: 'Fehlende-Teile-Rätsel kostenlos erstellen online',
+    title: 'Kostenloser Fehlende-Teile Rätsel Generator Online',
     tagline: 'Jigsaw-Puzzle-Arbeitsblatt-Generator mit 6 Teilformen (Quadrat, Kreis, Rechteck Hochformat/Querformat, Ellipse Hochformat/Querformat), 1–5 fehlenden Teilen mit 2–6 Lösungsoptionen inklusive Distraktoren, intelligenter Teileextraktion mit Farbvarianz-Erkennung und 250px Mindestabstand, automatisch generierten Lösungsschlüsseln mit gelb hervorgehobenen Nummernbeschriftungen, Doppelrahmen in Blaugrün und Pink sowie 104 thematischen Bildsammlungen für Jigsaw-Puzzle-Arbeitsblätter, die weltweit verkauft werden können',
     description: 'Erstellen Sie Fehlende-Teile-Rätsel kostenlos mit unserem Fehlende-Teile Generator — direkt im Browser, ohne Anmeldung und ohne Software-Download. Ein Bild weist Löcher auf, und Sie identifizieren die richtige nummerierte Option für jede Lücke. Wählen Sie aus 6 Teilformen: Quadrat, Kreis, Rechteck und Ellipse in Hoch- oder Querformat. Konfigurieren Sie 1–5 fehlende Teile und 2–6 Lösungsoptionen mit Ablenkungsteilen für erhöhte Schwierigkeit. Der intelligente Algorithmus findet Teile mit ausreichender Farbvarianz und hält Mindestabstände ein. Das Dual-Canvas-System generiert automatisch einen Lösungsschlüssel mit gelb hervorgehobenen Nummern. Über 3.100 Illustrationen aus 104 Themen stehen bereit. Exportieren Sie als PDF oder JPEG bei 300 DPI. Die kostenlose Testversion bietet alle Funktionen mit Wasserzeichen — erwerben Sie eine kommerzielle Lizenz, um das Wasserzeichen zu entfernen und Ihre Rätsel zu verkaufen.',
   },

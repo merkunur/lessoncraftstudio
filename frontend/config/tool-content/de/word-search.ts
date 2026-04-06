@@ -2,24 +2,25 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'kostenloser Suchsel-Generator mit Bildern',
+    primaryKeyword: 'Suchsel erstellen kostenlos',
     secondaryKeywords: [
-      'Suchsel-Generator kostenlos online',
+      'Suchsel Generator kostenlos online',
       'Wortsuchrätsel erstellen ohne Anmeldung',
-      'Wortsuche Generator sofort nutzen',
-      'kostenlose Buchstabengitter-Rätsel mit Bildern',
+      'Buchstabensalat Generator gratis',
+      'Wortgitter erstellen kostenlos',
     ],
     lsiKeywords: [
-      'versteckte-Wörter-Gitterrätsel druckfertig',
-      'sprachabhängige Füllbuchstaben Wortsuche',
-      'Buchstabengitter-Rätsel mehrsprachig',
+      'Buchstabenrätsel kostenlos',
+      'versteckte Wörter',
+      'Wortsuche',
+      'PDF ausdrucken',
     ],
-    titleTag: 'Kostenloser Suchsel-Generator mit Bildern | LCS',
-    metaDescription: 'Kostenloser Suchsel-Generator mit Bildern — Wortsuchrätsel online erstellen, 11 Sprachen,. Verkaufen Sie auf Etsy & KDP mit gewerblicher Lizenz.',
+    titleTag: 'Suchsel erstellen kostenlos | Online Generator | LCS',
+    metaDescription: 'Suchsel kostenlos erstellen — Wortsuchrätsel mit 3.000+ Bildern online generieren, ohne Anmeldung. 300 DPI PDF. Lizenz für Etsy & KDP.',
   },
 
   hero: {
-    title: 'Suchsel-Generator — Wortsuchrätsel mit Bildern kostenlos erstellen',
+    title: 'Suchsel erstellen kostenlos — Online Wortsuchrätsel Generator',
     tagline: 'Versteckte-Wörter-Gitterrätsel mit einstellbaren Größen, Richtungssteuerung und sprachabhängigen Füllbuchstaben in 11 Sprachen erstellen',
         description: 'Unser kostenloser Suchsel-Generator mit Bildern erstellt professionelle Wortsuche-Arbeitsblätter — direkt im Browser, ohne Anmeldung und ohne Installation. Versteckte Wörter werden in einem Gitter aus zufälligen Füllbuchstaben eingebettet, und Nutzer durchsuchen Zeilen, Spalten und Diagonalen, um jedes Wort zu finden. Sie haben präzise Kontrolle über die Schwierigkeit: Gittergröße von 5x5 bis 30x30, diagonale Wörter ein/aus und rückwärts laufende Wörter ein/aus. Wählen Sie aus drei Inhaltsquellen: Bildbibliothek-Modus mit über 3.100 Illustrationen, manueller Bearbeitungsmodus oder benutzerdefinierte Wortlisten. Die herausragende Funktion sind sprachabhängige Füllbuchstaben — deutsche Gitter enthalten ä, ö, ü und ß mit natürlichen Häufigkeiten. Ein farbcodierter Lösungsschlüssel hebt jedes Wort visuell hervor. Die kostenlose Testversion bietet sämtliche Funktionen mit einem Wasserzeichen auf Downloads. Für den kommerziellen Einsatz können Sie eine Lizenz erwerben, die das Wasserzeichen entfernt und volle Verkaufsrechte freischaltet.',
   },

@@ -2,24 +2,24 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'kostenloser mustererkennungs generator arbeitsblätter kostenlos erstellen online',
+    primaryKeyword: 'Muster erkennen Arbeitsblatt kostenlos',
     secondaryKeywords: [
-      'Mustererkennungs-Arbeitsblätter kostenlos erstellen',
-      'Muster-Generator online ohne Anmeldung',
-      'kostenloser Mustervervollständigungs-Generator',
-      'Muster-Arbeitsblätter online erstellen und drucken',
+      'Muster fortsetzen Übungsblatt gratis',
+      'Logische Reihen Arbeitsblatt kostenlos',
+      'Muster ergänzen Generator ohne Anmeldung',
+      'Sequenz-Arbeitsblatt kostenlos erstellen',
     ],
     lsiKeywords: [
-      'AB ABC ABCD Musterfolge-Übungen',
-      'textfreie Mustervervollständigungs-Arbeitsblätter',
-      'Lückenfeld und Multiple-Choice Musterübungen',
+      'logisches Denken kostenlos',
+      'visuelle Muster',
+      'Zahlenmuster',
     ],
-    titleTag: 'Kostenloser Mustererkennungs-Generator | LCS',
-    metaDescription: 'Kostenloser Mustererkennungs-Generator mit neun Mustertypen und zwei Fragemodi. Textfrei, 104 Bildthemen, ohne Anmeldung. Kommerzielle Lizenz verfügbar.',
+    titleTag: 'Muster-Erkennung Arbeitsblatt kostenlos | Generator | LCS',
+    metaDescription: 'Muster-Erkennungs-Arbeitsblätter kostenlos erstellen — visuelle Sequenzen mit Themenbildern online, ohne Anmeldung. Lizenz für Etsy & KDP.',
   },
 
   hero: {
-    title: 'Mustererkennungs-Arbeitsblätter kostenlos erstellen online',
+    title: 'Muster-Erkennung Arbeitsblatt kostenlos erstellen — Online Generator',
     tagline: 'Rasterbasierte Mustervervollständigungs-Arbeitsblätter mit neun Mustertypen, zwei Fragemodi, unabhängiger Pro-Übung-Konfiguration und vollständig visueller textfreier Ausgabe erstellen — weltweit verkaufbar ohne Übersetzung',
     description: 'Erstellen Sie kostenlos Mustererkennungs-Arbeitsblätter mit diesem Generator — direkt im Browser, ohne Anmeldung, ohne Installation. Neun verschiedene Mustertypen von AB bis ABCD decken das breiteste Spektrum an Sequenzkomplexität ab. Zwei Fragemodi erzeugen verschiedene Übungen: Lückenfeld für offenes Denken und Multiple-Choice mit drei Antwortoptionen. Konfigurieren Sie 1–8 Übungen pro Seite, wobei jede Übung unabhängig für Mustertyp, Fragemodus und Thema eingestellt wird. Wählen Sie aus über 3.100 Illustrationen in 104 thematischen Sammlungen oder laden Sie eigene Bilder hoch. Die Arbeitsblätter sind vollständig visuell mit null Text auf der Ausgabe. Ein separater Lösungsschlüssel-Tab zeigt alle Lücken ausgefüllt. Exportieren Sie druckfertige PDFs und JPEGs bei 300 DPI. Die kostenlose Testversion enthält alle Funktionen mit einem Wasserzeichen auf Downloads. Erwerben Sie eine Lizenz, um das Wasserzeichen zu entfernen und kommerziell zu verkaufen.',
   },

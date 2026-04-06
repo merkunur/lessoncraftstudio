@@ -2,20 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'Sommerferien-Lernmaterial verkaufen',
+    primaryKeyword: 'Sommer-Lern-Druckvorlagen Nische Etsy',
     secondaryKeywords: [
-      'Sommerbrücken-Arbeitsblätter auf Etsy erstellen',
-      'Ferienlern-Druckvorlagen auf KDP verkaufen',
-      'Sommerlernverlust-Aktivitätsblätter auf Gumroad',
-      'Sommer-Lernpakete für Druckvorlagen-Verkäufer',
+      'Sommer-Lern Arbeitsblätter auf Etsy verkaufen',
+      'Sommer-Lern Druckvorlagen Geschäftsideen',
+      'Sommer-Lern Nische Wettbewerbsanalyse',
+      'profitable Sommer-Lern Druckvorlagen',
     ],
     lsiKeywords: [
-      'Sommerlernverlust-Prävention Druckvorlagen',
+      'Sommerferien Lernverlust Prävention',
       'Ferienaktivitäten Bildungsthema Arbeitsblätter',
-      'Mai-August-Nachfrage Lernmaterialien Etsy',
+      'Mai-August saisonale Nachfrage Lernmaterial',
     ],
-    titleTag: 'Sommerferien-Lernmaterial verkaufen | LCS',
-    metaDescription: 'Sommerferien-Lernmaterial verkaufen auf Etsy und KDP. Saisonale Arbeitsblatt-Geschäftsideen mit intensivem Kauffenster Mai bis August für Printable-Verkäufer.',
+    titleTag: 'Sommer-Lern-Druckvorlagen Nische Etsy | LCS',
+    metaDescription: 'Sommer-Lern-Druckvorlagen als profitable Etsy-Nische entdecken. Intensives Kauffenster von Mai bis August — Ferienarbeitsblätter gegen Sommerlernverlust für Ihren Shop.',
   },
   hero: {
     title: 'Sommerferien-Lernmaterial verkaufen — saisonale Geschäftsideen',

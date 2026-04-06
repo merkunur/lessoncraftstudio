@@ -1,24 +1,25 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'kostenloser Bingo-Karten Generator mit Bildern',
+    primaryKeyword: 'Bingo Karten erstellen kostenlos',
     secondaryKeywords: [
-      'Bingo-Karten kostenlos erstellen online',
-      'Bilder-Bingo-Generator ohne Anmeldung',
-      'kostenloser Bingo-Karten Generator für Kinder',
-      'Bingo-Karten online erstellen und drucken',
+      'Bingo Karten Generator kostenlos online',
+      'Bilder-Bingo erstellen gratis',
+      'eigene Bingo Karten kostenlos erstellen',
+      'Bingo-Spiel Generator ohne Anmeldung',
     ],
     lsiKeywords: [
-      'Stapel-Bingo-Karten mit ZIP-Export',
-      'Bild-und-Wort-Bingo zum Ausdrucken',
-      'Ansageblatt-Bingo-Arbeitsblatt-Generator',
+      'Bingo-Spiel kostenlos',
+      'Klassen-Bingo',
+      'Party-Bingo',
+      'Aufrufkarten',
     ],
-    titleTag: 'Kostenloser Bingo-Karten Generator | LCS',
-    metaDescription: 'Kostenloser Bingo-Karten Generator mit Bildern und Stapel-Export. Raster 3x3 bis 5x5, 104 Themen, ohne Anmeldung. Lizenz für kommerziellen Verkauf verfügbar.',
+    titleTag: 'Bingo-Karten erstellen kostenlos | Online Generator | LCS',
+    metaDescription: 'Bingo-Karten kostenlos erstellen — Bilder-Bingo mit 3.000+ Themenbildern online generieren, ohne Anmeldung. Lizenz für Etsy & KDP.',
     },
 
   hero: {
-    title: 'Bingo-Karten kostenlos erstellen — Generator mit Bildern',
+    title: 'Bingo-Karten erstellen kostenlos — Online Bilder-Bingo Generator',
     tagline: 'Bilder-Bingo-Karten-Generator mit konfigurierbaren Rastern von 3×3 bis 5×5, Stapel-Generierung von 1–10 einzigartigen Karten pro Satz, ZIP-Export aller Karten in einem Download, Doppel-Füllmodi für Kartenzellen und runde Chips unabhängig wählbar, eigenem Ansageblatt mit dynamischem Wortraster, benutzerdefinierter Ansage-Auswahl mit Live-Zähler und 104 thematischen Bildsammlungen für Bilder-Bingo-Karten, die weltweit verkaufbar sind',
     description: 'Erstellen Sie kostenlos Bingo-Karten mit Bildern — direkt im Browser, ohne Anmeldung, ohne Installation. Konfigurieren Sie Raster von 3×3 bis 5×5 und generieren Sie bis zu 10 einzigartige Karten pro Stapel, wobei jede Karte eine andere zufällige Bildauswahl erhält. Exportieren Sie alle Karten als ZIP-Datei mit einem Klick. Wählen Sie Bild- oder Wort-Füllung unabhängig für Kartenzellen und runde Chips — vier verschiedene Bingo-Stile aus einem Generator. Ein eigenes Ansageblatt zeigt ein dynamisches Wortraster für den Spielleiter. Durchsuchen Sie 104 thematische Sammlungen mit über 3.100 Illustrationen oder laden Sie eigene Bilder hoch. Exportieren Sie druckfertige PDFs und JPEGs bei 300 DPI in Letter, A4 oder benutzerdefinierten Größen. Die kostenlose Testversion enthält alle Funktionen mit einem Wasserzeichen auf Downloads. Erwerben Sie eine Lizenz, um das Wasserzeichen zu entfernen und kommerziell zu verkaufen.',
   },

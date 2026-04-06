@@ -2,23 +2,21 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'Wichtige Tools für Druckvorlagen-Business',
+    primaryKeyword: 'Beste Tools für Druckvorlagen-Business',
     secondaryKeywords: [
-      'Druckvorlagen-Geschäft Werkzeuge Checkliste',
-      'Arbeitsblatt-Generator Werkzeuge für Verkäufer',
-      'Werkzeuge zum Online-Verkauf von Druckvorlagen',
-      'Druckvorlagen-Produktions-Toolkit',
+      'Printable Business Tools und Software',
+      'Arbeitsblatt-Generatoren für Verkäufer',
+      'Tools für Etsy Druckvorlagen-Shop',
+      'Software für Druckvorlagen erstellen',
     ],
     lsiKeywords: [
-      'Etsy-Verkäufer Werkzeuge für digitale Downloads',
-      'Amazon KDP Aktivitätsbuch Produktionswerkzeuge',
-      'Arbeitsblatt-Erstellungssoftware für Unternehmer',
-      'Druckvorlagen-Geschäft Workflow-Automatisierung',
-      'mehrsprachige Arbeitsblatt-Generator Werkzeuge',
-      'kommerzielle Lizenz Arbeitsblatt-Produktion',
+      'Generator',
+      'PDF-Export',
+      'Bildbearbeitung',
+      'Marktplatz-Tools',
     ],
-    titleTag: 'Wichtige Tools für Printable-Business | LCS',
-    metaDescription: 'Wichtige Tools für Ihr Printable-Business: Arbeitsblatt-Generatoren, Design-Software und Plattform-Hilfsmittel. Der komplette Toolkit-Leitfaden für Verkäufer.',
+    titleTag: 'Beste Tools für Druckvorlagen-Business | LCS',
+    metaDescription: 'Die besten Tools und Software für Ihr Druckvorlagen-Business. Generatoren, PDF-Export, Bildbearbeitung und Marktplatz-Tools im Überblick.',
   },
 
   hero: {

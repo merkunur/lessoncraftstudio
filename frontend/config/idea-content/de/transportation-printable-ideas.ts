@@ -2,20 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'Fahrzeuge-Druckvorlagen Geschäftsideen',
+    primaryKeyword: 'Fahrzeuge-Druckvorlagen Nische Etsy',
     secondaryKeywords: [
-      'Fahrzeug-Arbeitsblätter auf Etsy erstellen',
-      'Transport-Druckvorlagen auf KDP verkaufen',
-      'Auto-Zug-Flugzeug-Aktivitätsblätter Gumroad',
-      'Verkehrsmittel-Lernmaterialien für Shops',
+      'Fahrzeuge Arbeitsblätter auf Etsy verkaufen',
+      'Fahrzeuge Druckvorlagen Geschäftsideen',
+      'Fahrzeuge Nische Wettbewerbsanalyse',
+      'profitable Fahrzeuge Druckvorlagen',
     ],
     lsiKeywords: [
-      'Fahrzeuge-Lieblingsthema Kinder-Druckvorlagen',
-      'Transportmittel-Bildungsthema Arbeitsblätter',
-      'Auto-Bus-Bahn Lernmaterialien Etsy-Nische',
+      'Autos Züge Flugzeuge Arbeitsblätter',
+      'Transportmittel-Thema Kinder-Druckvorlagen',
+      'Evergreen Fahrzeuge-Nische Etsy-Shop',
     ],
-    titleTag: 'Fahrzeuge-Druckvorlagen Geschäftsideen | LCS',
-    metaDescription: 'Fahrzeuge-Druckvorlagen Geschäftsideen für Etsy, KDP und Gumroad. Evergreen-Nische mit Autos, Zügen und Flugzeugen — Produktkonzepte und Strategien für Sie.',
+    titleTag: 'Fahrzeuge-Druckvorlagen Nische für Etsy | LCS',
+    metaDescription: 'Fahrzeuge-Druckvorlagen als profitable Etsy-Nische entdecken. Autos, Züge und Flugzeuge als Evergreen-Thema — Produktkonzepte und Wettbewerbsanalyse für Verkäufer.',
   },
   hero: {
     title: 'Fahrzeuge-Druckvorlagen — Evergreen-Geschäftsideen für Verkäufer',

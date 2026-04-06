@@ -2,20 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'Digitale Downloads Druckvorlagen-Geschäftsideen',
+    primaryKeyword: 'Digitale Downloads Druckvorlagen Nische',
     secondaryKeywords: [
-      'sofort lieferbare Lern-PDFs auf Etsy erstellen',
-      'Digital-Download-Druckvorlagen auf Gumroad verkaufen',
-      'druckfertige Arbeitsblätter ohne Lagerhaltung anbieten',
-      'digitale Bildungsprodukte auf Gumroad und Etsy',
+      'Digitale Downloads Arbeitsblätter auf Etsy verkaufen',
+      'Digitale Downloads Druckvorlagen Geschäftsideen',
+      'Digitale Downloads Nische Wettbewerbsanalyse',
+      'profitable Digitale Downloads Druckvorlagen',
     ],
     lsiKeywords: [
+      'PDF-Arbeitsblätter Sofortlieferung Etsy',
       'lagerloses Druckvorlagen-Geschäftsmodell',
-      'sofortige Lieferung digitale Lernmaterialien',
-      'PDF-Arbeitsblätter skalierbares Einkommen online',
+      'skalierbares Einkommen digitale Produkte',
     ],
-    titleTag: 'Digitale Downloads Printable-Business | LCS',
-    metaDescription: 'Digitale Downloads als Druckvorlagen-Geschäft auf Etsy und Gumroad. Arbeitsblatt-PDFs mit höchsten Gewinnmargen erstellen und über Sofortlieferung verkaufen.',
+    titleTag: 'Digitale Downloads Druckvorlagen Nische | LCS',
+    metaDescription: 'Digitale Downloads als Druckvorlagen-Nische entdecken. Arbeitsblatt-PDFs mit höchsten Gewinnmargen erstellen — lagerloses Geschäftsmodell mit Sofortlieferung auf Etsy.',
   },
   hero: {
     title: 'Digitale Downloads — Printable-Business Geschäftsideen',

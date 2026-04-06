@@ -4,18 +4,18 @@ const content: GuideContent = {
   seo: {
     primaryKeyword: 'Druckvorlagen-Business skalieren Anleitung',
     secondaryKeywords: [
-      'Printable-Geschäft Wachstumsstrategie 2026',
+      'Printable-Geschäft Wachstumsstrategie planen',
       'Arbeitsblatt-Business Multiplattform skalieren',
-      'Druckvorlagen Stapelproduktion Workflow',
+      'Druckvorlagen Stapelproduktion Workflow aufbauen',
       'Katalogwachstum Druckvorlagen automatisieren',
     ],
     lsiKeywords: [
-      'Multiplattform-Verkauf Stapelproduktion Workflow-Optimierung Produktionspipeline',
-      'Plattformdiversifizierung Katalogwachstum Inhaltsmultiplikation Skalierungsengpass',
-      'Prozessdokumentation wiederholbare Prozesse Kundenlebenszeitwert mehrsprachige Expansion',
+      'Multiplattform-Verkauf Stapelproduktion Workflow-Optimierung',
+      'Plattformdiversifizierung Katalogwachstum Skalierungsengpass',
+      'Prozessdokumentation Kundenlebenszeitwert mehrsprachige Expansion',
     ],
     titleTag: 'Druckvorlagen-Business skalieren | LCS',
-    metaDescription: 'Druckvorlagen-Business skalieren: Stapelproduktion, Multiplattform-Expansion, Katalogwachstum und Automatisierung für nachhaltigen Umsatz auf Etsy und KDP.',
+    metaDescription: 'Druckvorlagen-Business skalieren Anleitung: Stapelproduktion, Multiplattform-Expansion, Katalogwachstum und Automatisierung für nachhaltigen Umsatz auf Etsy.',
   },
 
   hero: {

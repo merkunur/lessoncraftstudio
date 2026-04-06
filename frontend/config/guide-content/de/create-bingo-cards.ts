@@ -2,20 +2,20 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Bilder-Bingo-Karten zum Verkaufen erstellen',
+    primaryKeyword: 'Bingo-Karten erstellen Anleitung',
     secondaryKeywords: [
-      'Bingo-Karten-Sets für Etsy produzieren',
-      'druckbare Bingo-Karten kommerziell verkaufen',
-      'Bingo-Aktivitätsbuch auf KDP veröffentlichen',
-      'Bingo-Karten-Generator für Printable-Verkäufer',
+      'Bingo-Karten für Etsy erstellen',
+      'Bingo-Karten Schritt für Schritt Anleitung',
+      'Bingo-Karten für Anfänger erstellen',
+      'Bingo-Karten für KDP erstellen',
     ],
     lsiKeywords: [
-      'thematische Bingo-Druckvorlagen Etsy-Geschäft',
-      'Party-Bingo Printable Nische verkaufen',
-      'KDP Bingo-Aktivitätsbuch mehrere Karten',
+      'Grundschule Vorschule Themenbilder',
+      'Kontrollkarte Rastergrößen druckfertig',
+      'Party-Bingo 300 DPI PDF',
     ],
-    titleTag: 'Bingo-Karten zum Verkaufen erstellen | LCS',
-    metaDescription: 'Bilder-Bingo-Karten zum Verkaufen erstellen. Rastergrößen wählen, einzigartige Karten mit Kontrollkarten generieren und druckfertige PDFs für Etsy und KDP.',
+    titleTag: 'Bingo-Karten erstellen | Anleitung | LCS',
+    metaDescription: 'Schritt-für-Schritt Anleitung zum Erstellen von Bingo-Karten. Rastergrößen wählen, einzigartige Karten mit Kontrollkarten generieren. Kostenlos testen.',
   },
 
   hero: {

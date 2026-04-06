@@ -2,20 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: '3. Klasse Druckvorlagen verkaufen',
+    primaryKeyword: '3.-Klasse-Druckvorlagen Nische Etsy',
     secondaryKeywords: [
-      'Drittklässler-Arbeitsblätter auf Etsy erstellen',
-      'Grundschul-Druckvorlagen dritte Klasse KDP',
-      'Dritte-Klasse-Aktivitätsblätter auf Gumroad',
-      'Altersstufe-drei-Lernmaterialien für Shops',
+      '3. Klasse Arbeitsblätter auf Etsy verkaufen',
+      '3. Klasse Druckvorlagen Geschäftsideen',
+      '3. Klasse Nische Wettbewerbsanalyse',
+      'profitable 3. Klasse Druckvorlagen',
     ],
     lsiKeywords: [
-      'Grundschul-Oberstufe Druckvorlagen-Nische',
-      'anspruchsvollere Lernmaterialien dritte Klasse',
-      'Drittklässler-Arbeitsblätter Etsy-Markt',
+      'Multiplikation Leseverständnis Schreibübungen',
+      'Grundschul-Oberstufe anspruchsvolle Arbeitsblätter',
+      'Drittklässler-Nische Druckvorlagen Etsy-Shop',
     ],
-    titleTag: '3. Klasse Druckvorlagen verkaufen | LCS',
-    metaDescription: '3. Klasse Druckvorlagen verkaufen auf Etsy, KDP und Gumroad. Geschäftsideen für Multiplikation, Leseverständnis und Schreibübungen als Arbeitsblatt-Nische.',
+    titleTag: '3.-Klasse-Druckvorlagen Nische Etsy | LCS',
+    metaDescription: '3.-Klasse-Druckvorlagen als profitable Etsy-Nische entdecken. Multiplikation, Leseverständnis und Schreibübungen — Produktideen und Strategien für Verkäufer.',
   },
   hero: {
     title: '3. Klasse Druckvorlagen verkaufen — Geschäftsideen für Profis',

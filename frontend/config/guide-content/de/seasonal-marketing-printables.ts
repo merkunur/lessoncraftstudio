@@ -2,20 +2,20 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Saisonales Marketing für Druckvorlagen-Verkäufer',
+    primaryKeyword: 'Saisonales Marketing für Druckvorlagen',
     secondaryKeywords: [
       'Printable-Verkäuferkalender Hauptverkaufszeiten',
-      'Feiertagsarbeitsblätter Produktionsplanung',
-      'Schulanfang Druckvorlagen Marketing Timing',
+      'Feiertagsarbeitsblätter Produktionsplanung Timing',
+      'Schulanfang Druckvorlagen Marketing Strategie',
       'saisonale Keywords Etsy-Listings optimieren',
     ],
     lsiKeywords: [
-      'Feiertagsnachfrage saisonale Produktplanung Produktionskalender Vorlaufzeit',
-      'Halloween-Arbeitsblätter Weihnachtsarbeitsblätter Schulanfang Sommerlernen',
-      'Veröffentlichungszeitpunkt saisonale Schlüsselwörter Quartalsplanung Trendanalyse',
+      'Feiertagsnachfrage Produktionskalender Vorlaufzeit',
+      'Halloween Weihnachten Schulanfang Sommerlernen',
+      'Veröffentlichungszeitpunkt Quartalsplanung Trendanalyse',
     ],
-    titleTag: 'Saisonales Marketing für Printable-Shops | LCS',
-    metaDescription: 'Saisonales Marketing für Druckvorlagen-Verkäufer: Produktionskalender, optimales Timing, saisonale Keywords und Strategien für Hauptverkaufszeiten auf Etsy.',
+    titleTag: 'Saisonales Marketing für Druckvorlagen | LCS',
+    metaDescription: 'Saisonales Marketing für Druckvorlagen planen: Produktionskalender, optimales Timing, saisonale Keywords und Strategien für Hauptverkaufszeiten auf Etsy und KDP.',
   },
 
   hero: {

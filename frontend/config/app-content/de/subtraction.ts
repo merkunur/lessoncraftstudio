@@ -2,24 +2,27 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'Minusaufgaben Arbeitsblätter Generator zum Verkaufen',
+    primaryKeyword: 'Subtraktions Arbeitsblätter erstellen',
     secondaryKeywords: [
-      'Subtraktionsaufgaben für Etsy-Shop erstellen',
-      'Minusrechnen Druckvorlagen für Amazon KDP',
-      'Bildbasierte Subtraktionsaufgaben gewerbliche Lizenz',
-      'Rechenblätter zum Verkauf auf Eduki erstellen',
+      'Subtraktion Arbeitsblatt Generator',
+      'Subtraktionsaufgaben Generator',
+      'Minus-Rechnen Arbeitsblätter',
+      'Mathe Arbeitsblätter Subtraktion',
     ],
     lsiKeywords: [
-      'Durchstreich-Modus Minusaufgaben druckfertig',
-      'Mathe-Druckvorlagen Subtraktions-Generator DACH',
-      'Lösungsschlüssel Graustufen kommerzielle Nutzung',
+      'Grundschule',
+      'Abziehen',
+      'Zehnerübergang',
+      'Minusaufgaben',
+      'Rechenaufgaben',
+      'Lösungsschlüssel',
     ],
-    titleTag: 'Minusaufgaben-Generator — Auf Etsy verkaufen | LCS',
-    metaDescription: 'Erstellen Sie Minusaufgaben-Arbeitsblätter zum Verkauf auf Etsy & KDP. Themenbilder, Lösungsschlüssel, gewerbliche Lizenz. 49 $ einmalig.',
+    titleTag: 'Subtraktions-Arbeitsblätter erstellen | Mathe Generator',
+    metaDescription: 'Erstellen Sie Subtraktions-Arbeitsblätter mit Themenbildern und automatischen Lösungen. 300 DPI PDF in 11 Sprachen. Kostenlos testen — verkaufen auf Etsy & KDP.',
   },
 
   hero: {
-    title: 'Minusaufgaben-Arbeitsblätter erstellen und online verkaufen',
+    title: 'Subtraktions-Arbeitsblätter erstellen — Mathe Generator mit Lösungen',
     tagline: 'Machen Sie Subtraktion greifbar mit bildbasierten Arbeitsblättern, bei denen Kinder Bilder durchstreichen, um die Antwort zu finden.',
     description:
       'Verwandeln Sie Subtraktionsaufgaben in ein verkaufsfähiges Produkt — mit einem Generator, der speziell für Printable-Unternehmer entwickelt wurde. Erstellen Sie bildbasierte Minusaufgaben mit thematischen Illustrationen aus über 100 Kategorien, exportieren Sie als druckfertiges 300-DPI-PDF mit automatischem Lösungsschlüssel und verkaufen Sie auf Etsy, Amazon KDP oder Eduki. Die gewerbliche Lizenz ist bei jedem Arbeitsblatt inklusive. Besonders profitabel: Kombinieren Sie Plus- und Minusaufgaben zu Paketen — Verkäufer berichten von deutlich höheren Durchschnittsbestellwerten bei mathematischen Bundle-Angeboten auf Etsy. Der deutschsprachige Markt bietet enormes Potenzial bei minimaler Konkurrenz. Kostenlos testen mit allen Funktionen — Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',
@@ -198,6 +201,11 @@ const content: AppContent = {
       question: 'Muss ich Software installieren?',
       answer:
         'Nein. Der Subtraktions-Arbeitsblatt-Generator läuft vollständig in Ihrem Webbrowser. Es gibt nichts herunterzuladen, zu installieren oder zu aktualisieren. Er funktioniert in jedem modernen Desktop-Browser, einschließlich Chrome, Firefox, Safari und Edge. Öffnen Sie einfach die Seite und legen Sie los. Dieser Ansatz stellt sicher, dass Sie jede Funktion, jedes Exportformat und jede Themenkombination vor einer Kaufentscheidung vollständig bewerten können, was Ihnen vollständiges Vertrauen in Ihre Investition gibt.',
+    },
+    {
+      question: 'Sind die Arbeitsblätter für die Grundschule geeignet?',
+      answer:
+        'Ja. Die Arbeitsblätter eignen sich für die Grundschule (Deutschland), Volksschule (Österreich) und Primarschule (Schweiz). Sie können den Schwierigkeitsgrad an verschiedene Klassenstufen anpassen — von der 1. Klasse bis zur 4. Klasse. Auch Vorschulkinder und Kindergartenkinder profitieren von den einfacheren Übungsstufen.',
     },
   ],
 

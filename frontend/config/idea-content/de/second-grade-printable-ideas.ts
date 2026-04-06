@@ -2,20 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: '2. Klasse Druckvorlagen Geschäftsideen',
+    primaryKeyword: '2.-Klasse-Druckvorlagen Nische Etsy',
     secondaryKeywords: [
-      'K-2-Produktmarkt-Arbeitsblätter auf Etsy erstellen',
-      'Grundschul-Druckvorlagen zweite Klasse KDP',
-      'Zweite-Klasse-Aktivitätsblätter auf Gumroad',
-      'Altersstufe-zwei-Lernmaterialien für Shops',
+      '2. Klasse Arbeitsblätter auf Etsy verkaufen',
+      '2. Klasse Druckvorlagen Geschäftsideen',
+      '2. Klasse Nische Wettbewerbsanalyse',
+      'profitable 2. Klasse Druckvorlagen',
     ],
     lsiKeywords: [
-      'Grundschul-Altersstufe Druckvorlagen-Nische',
+      'Grundschul-Zweitklässler Arbeitsblätter',
       'altersgerechte Lernmaterialien zweite Klasse',
-      'K-2-Produktmarkt-Arbeitsblätter Etsy-Markt',
+      'wachsender Grundschulmarkt Druckvorlagen Nische',
     ],
-    titleTag: '2. Klasse Druckvorlagen Geschäftsideen | LCS',
-    metaDescription: 'Profitable 2. Klasse Druckvorlagen Geschäftsideen für Etsy und KDP. Arbeitsblatt-Konzepte für den wachsenden Grundschulmarkt mit konkreten Verkaufsstrategien.',
+    titleTag: '2.-Klasse-Druckvorlagen Nische Etsy | LCS',
+    metaDescription: '2.-Klasse-Druckvorlagen als profitable Etsy-Nische entdecken. Arbeitsblatt-Konzepte für den wachsenden Grundschulmarkt — Produktideen und Verkaufsstrategien.',
   },
   hero: {
     title: '2. Klasse Druckvorlagen — profitable Nische für Etsy-Verkäufer',

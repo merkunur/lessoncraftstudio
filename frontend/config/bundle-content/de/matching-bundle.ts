@@ -2,21 +2,21 @@ import type { BundleContent } from '../types';
 
 const content: BundleContent = {
   seo: {
-    primaryKeyword: 'Zuordnungs-Sortier-Bundle für Etsy',
+    primaryKeyword: 'Zuordnung Arbeitsblatt-Generatoren Bundle',
     secondaryKeywords: [
-      'Zuordnungs-Arbeitsblätter-Paket für Verkäufer',
-      'druckbare Zuordnungs-Aktivitäten-Toolkit kommerzielle Nutzung',
-      'Bingo-Karten-Generator-Paket für Etsy.de',
-      'Sortier-Arbeitsblatt-Generatoren für KDP-Verkäufer',
+      'Zuordnungs-Bundle für Etsy-Verkäufer',
+      'Größenvergleich Sortieren Bundle kaufen',
+      'Zuordnungs-Generatoren Paket',
+      'Schattenbilder Präpositionen Bundle',
     ],
     lsiKeywords: [
-      'Zuordnung Sortierung Bingo Arbeitsblatt-Paket',
-      'Schattenbilder Raster-Puzzle druckbare Sammlung',
-      'kommerzielle Lizenz Zuordnungs-Arbeitsblätter',
-      'Zuordnungs-Arbeitsblatt-Massenproduktion Werkzeug',
+      '5 Generatoren',
+      'Vorschule Kindergarten',
+      'Kategorie-Bundle',
+      'Bis zu 57% sparen',
     ],
-    titleTag: 'Zuordnung & Sortierung Bundle für Etsy | LCS',
-    metaDescription: 'Zuordnungs- und Sortier-Bundle mit 5 Generatoren für Etsy und KDP. 149 $ einmalig.',
+    titleTag: 'Zuordnungs-Arbeitsblatt-Bundle | 5 Generatoren | LCS',
+    metaDescription: 'Zuordnungs-Bundle mit 5 Generatoren: Größenvergleich, Mehr/Weniger, Sortieren, Schattenbilder, Präpositionen. Bis zu 57% sparen.',
   },
 
   hero: {

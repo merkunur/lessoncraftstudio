@@ -2,20 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'Party-Druckvorlagen Geschäftsideen',
+    primaryKeyword: 'Party-Druckvorlagen Nische Etsy',
     secondaryKeywords: [
-      'Party-Aktivitätsblätter auf Etsy erstellen',
-      'Geburtstag-Druckvorlagen auf KDP verkaufen',
-      'Feier-Spiele-Arbeitsblätter für Etsy-Shops',
-      'thematische Partypakete für Druckvorlagen-Verkäufer',
+      'Party Arbeitsblätter auf Etsy verkaufen',
+      'Party Druckvorlagen Geschäftsideen',
+      'Party Nische Wettbewerbsanalyse',
+      'profitable Party Druckvorlagen',
     ],
     lsiKeywords: [
-      'Geburtstags-Nische Druckvorlagen-Geschäft',
-      'Partyspiele Aktivitätsblätter Etsy-Markt',
-      'Feier-Thema Lernmaterialien Verkauf',
+      'Geburtstag Feier Partyspiele Arbeitsblätter',
+      'thematische Partypakete Druckvorlagen',
+      'ganzjährige Nachfrage Party-Nische Etsy',
     ],
-    titleTag: 'Party-Druckvorlagen Geschäftsideen | LCS',
-    metaDescription: 'Party-Druckvorlagen Geschäftsideen für Etsy-Verkäufer. Thematische Geburtstagspakete, Partyspiele und Aktivitätsblätter mit ganzjähriger Nachfrage erstellen.',
+    titleTag: 'Party-Druckvorlagen Nische für Etsy | LCS',
+    metaDescription: 'Party-Druckvorlagen als profitable Etsy-Nische entdecken. Thematische Geburtstagspakete und Partyspiele — ganzjährige Nachfrage und Produktideen für Verkäufer.',
   },
   hero: {
     title: 'Party-Druckvorlagen — profitable Geschäftsideen für Etsy',

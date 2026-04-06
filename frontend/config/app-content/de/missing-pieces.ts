@@ -2,24 +2,25 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'Fehlende-Teile-Rätsel KDP Beschäftigungsbücher',
+    primaryKeyword: 'Puzzle-Rätsel Arbeitsblatt erstellen',
     secondaryKeywords: [
-      'Puzzleteil-Rätsel-Generator für Etsy-Verkäufer',
-      'Fehlende-Puzzleteile Druckvorlagen erstellen KDP',
-      'Jigsaw-Puzzle-Arbeitsblätter verkaufen kommerzielle Lizenz',
-      'visueller Puzzle-Generator mit Lösungsschlüssel',
+      'Fehlende Teile Rätsel Generator',
+      'Was fehlt Arbeitsblatt',
+      'Puzzle-Arbeitsblatt erstellen',
+      'Logik-Rätsel Generator',
     ],
     lsiKeywords: [
-      'Printable-Business Puzzle-Rätsel Druckvorlagen erstellen',
-      'Fehlende-Teile Arbeitsblatt verkaufen Etsy KDP',
-      'Beschäftigungsbuch Puzzleteile Generator',
+      'Puzzleteil',
+      'ergänzen',
+      'visuelles Denken',
+      'räumliche Wahrnehmung',
     ],
-    titleTag: 'Fehlende-Teile-Rätsel für KDP erstellen | LCS',
-    metaDescription: 'Fehlende-Teile-Rätsel für KDP-Beschäftigungsbücher erstellen. 6 Teilformen, bis zu 5 fehlende Teile, Lösungsschlüssel. 49 $ einmalig.',
+    titleTag: 'Fehlende-Teile Rätsel erstellen | Puzzle Generator',
+    metaDescription: 'Erstellen Sie Fehlende-Teile-Rätsel mit Themenbildern und automatischen Lösungen. 300 DPI druckfertige PDFs. Kostenlos testen.',
   },
 
   hero: {
-    title: 'Fehlende-Teile-Rätsel-Generator für KDP-Beschäftigungsbücher',
+    title: 'Fehlende-Teile Rätsel erstellen — Puzzle Generator',
     tagline: 'Erstellen Sie Puzzle-Rätsel im Jigsaw-Stil, bei denen Teile aus Bildern ausgeschnitten werden und die korrekte nummerierte Option identifiziert werden muss — mit 6 Teilformen, 1–5 fehlenden Teilen, 2–6 Lösungsoptionen inklusive Distraktoren, automatisch generierten Lösungsschlüsseln und rein visuellem Design, das in jeder Sprache funktioniert.',
     description:
       'Sie möchten Fehlende-Teile-Rätsel für KDP-Beschäftigungsbücher oder als Etsy-Druckvorlagen erstellen? Dieser Generator erzeugt Puzzle-Rätsel, bei denen ein Bild Löcher aufweist und die richtige nummerierte Option für jede Lücke identifiziert werden muss. Der intelligente Algorithmus findet visuell unterscheidbare Bereiche mit ausreichender Farbvarianz. Wählen Sie aus 6 Teilformen — Quadrat, Kreis, Rechteck und Ellipse in Hoch- und Querformat — und konfigurieren Sie den Schwierigkeitsgrad mit 1–5 fehlenden Teilen und 2–6 Lösungsoptionen inklusive Ablenkungsteilen. Jedes Rätsel enthält einen automatisch generierten Lösungsschlüssel mit gelb hervorgehobenen Nummernbeschriftungen. Die rein visuelle Ausgabe ohne sprachabhängige Inhalte ermöglicht globalen Verkauf ohne Übersetzungsaufwand. Die integrierte Bildbibliothek umfasst über 3.100 Illustrationen in 104 Themen. Exportieren Sie druckfertige PDFs und JPEGs mit 300 DPI in Letter, A4 oder benutzerdefinierten Größen. Kostenlos testen mit allen Funktionen — Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',
@@ -198,6 +199,11 @@ const content: AppContent = {
       question: 'Was ist Ihre Rückgabepolitik?',
       answer:
         'Da die kostenlose Testversion Ihnen vollständigen Zugang zu jeder Funktion gewährt, bieten wir keine Rückerstattung für kommerzielle Lizenzen an. Sie können alle 6 Teilformen, konfigurierbare Schwierigkeitseinstellungen, den automatisch generierten Lösungsschlüssel, die vollständige Bildbibliothek, Hintergrund- und Rahmenthemen und alle Download-Formate vor dem Kauf ausgiebig testen. Die kostenlose Testversion ist die Rückgabepolitik — stellen Sie sicher, dass das Tool Ihren Anforderungen entspricht, bevor Sie eine Lizenz erwerben. Es ist keine zeitliche Begrenzung für die Testphase vorgesehen — erstellen Sie so viele Rätsel wie Sie möchten und überzeugen Sie sich in Ruhe von der Qualität, bevor Sie sich für einen Kauf entscheiden.',
+    },
+    {
+      question: 'Sind die Arbeitsblätter für die Grundschule geeignet?',
+      answer:
+        'Ja. Die Arbeitsblätter eignen sich für die Grundschule (Deutschland), Volksschule (Österreich) und Primarschule (Schweiz). Sie können den Schwierigkeitsgrad an verschiedene Klassenstufen anpassen — von der 1. Klasse bis zur 4. Klasse. Auch Vorschulkinder und Kindergartenkinder profitieren von den einfacheren Übungsstufen.',
     },
   ],
 

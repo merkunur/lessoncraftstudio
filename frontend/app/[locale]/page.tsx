@@ -24,10 +24,10 @@ const homepageMetadata: Record<string, { title: string; description: string; key
     ogAlt: 'LessonCraftStudio - Printable Worksheet Generator for Etsy & KDP'
   },
   de: {
-    title: 'Starten Sie ein profitables Printable-Business | LessonCraftStudio',
-    description: 'Bauen Sie ein Printable-Business auf Etsy, Amazon KDP oder TPT auf. 33 professionelle Generatoren, 3.000+ Bilder, 11 Sprachen. Kostenlose Testversion mit Wasserzeichen.',
-    keywords: 'Printable Business, Druckvorlagen verkaufen Etsy, KDP Arbeitsblaetter, Nebenverdienst Printables, Geld verdienen Druckvorlagen, Wortsuche Generator, professionelle Druckvorlagen',
-    ogAlt: 'LessonCraftStudio - Profitables Printable-Business starten'
+    title: 'Arbeitsblatt Generator | Erstellen & Verkaufen auf Etsy & KDP',
+    description: '33 professionelle Arbeitsblatt-Generatoren mit 3.000+ Bildern und 11 Sprachen. Druckfertige PDFs in Minuten. Kostenlos testen — kommerzielle Lizenz für Etsy, KDP & Co.',
+    keywords: 'Arbeitsblatt Generator, Arbeitsblätter erstellen, Druckvorlagen erstellen zum Verkaufen, Unterrichtsmaterial Generator, Arbeitsblatt Ersteller, Suchsel Generator, Kreuzworträtsel erstellen',
+    ogAlt: 'LessonCraftStudio - Arbeitsblatt Generator für Etsy & KDP'
   },
   fr: {
     title: 'Lancez un business d\'imprimables rentable | LessonCraftStudio',

@@ -2,20 +2,20 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Kreuzworträtsel zum Verkaufen erstellen',
+    primaryKeyword: 'Kreuzworträtsel erstellen Anleitung',
     secondaryKeywords: [
-      'Bilderkreuzworträtsel für Etsy produzieren',
-      'Kreuzworträtsel-Bücher auf KDP verkaufen',
-      'druckbare Kreuzworträtsel kommerziell erstellen',
-      'Kreuzworträtsel-Generator für Printable-Verkäufer',
+      'Kreuzworträtsel für Etsy erstellen',
+      'Kreuzworträtsel Schritt für Schritt Anleitung',
+      'Kreuzworträtsel für Anfänger erstellen',
+      'Kreuzworträtsel für KDP erstellen',
     ],
     lsiKeywords: [
-      'mehrsprachige Kreuzworträtsel-Produktlinie aufbauen',
-      'Etsy Rätsel-Druckvorlagen Shop Kreuzworträtsel',
-      'KDP Kreuzworträtsel-Rätselbuch veröffentlichen',
+      'Bildhinweise Lösungsschlüssel druckfertig',
+      'Grundschule 11 Sprachen Themenbilder',
+      '300 DPI PDF Export Raster',
     ],
-    titleTag: 'Kreuzworträtsel zum Verkaufen erstellen | LCS',
-    metaDescription: 'Kreuzworträtsel zum Verkaufen erstellen. Bildhinweise, Lösungsschlüssel, 11 Sprachen. Themen wählen, Raster generieren und PDFs für Etsy und KDP exportieren.',
+    titleTag: 'Kreuzworträtsel erstellen | Anleitung | LCS',
+    metaDescription: 'Schritt-für-Schritt Anleitung zum Erstellen von Kreuzworträtseln. Bildhinweise, Lösungsschlüssel und 11 Sprachen. Themen wählen und PDFs generieren. Kostenlos testen.',
   },
 
   hero: {

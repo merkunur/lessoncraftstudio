@@ -2,24 +2,24 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'kostenloser schattenbilder generator zuordnung kostenlos erstellen online',
+    primaryKeyword: 'Schattenbilder zuordnen Arbeitsblatt kostenlos',
     secondaryKeywords: [
-      'Schattenbilder-Arbeitsblätter kostenlos erstellen',
-      'Silhouetten-Zuordnung Generator online ohne Anmeldung',
-      'kostenlose Schattenbilder-Rätsel mit Lösungsschlüssel',
-      'Schattenbilder-Generator mit Bild-Vervollständigung kostenlos',
+      'Schatten-Zuordnung Generator kostenlos online',
+      'Silhouetten-Rätsel erstellen gratis',
+      'Schattenbilder Arbeitsblatt ohne Anmeldung',
+      'Schatten zuordnen kostenlos',
     ],
     lsiKeywords: [
-      'Silhouetten-Zuordnung pixelgenaue Verarbeitung',
-      'Bild-Vervollständigung Hälften-Zuordnung',
-      'Schattenbilder-Rätsel Arbeitsblätter Generator',
+      'Silhouette kostenlos',
+      'Umriss',
+      'visuelle Unterscheidung',
     ],
-    titleTag: 'Kostenloser Schattenbilder-Generator | LCS',
-    metaDescription: 'Kostenloser Schattenbilder-Generator: Silhouetten-Zuordnung und Bild-Vervollständigung online erstellen. Ohne Anmeldung. Kommerzielle Lizenz verfügbar.',
+    titleTag: 'Schattenbilder-Zuordnung kostenlos | Online Generator | LCS',
+    metaDescription: 'Schattenbilder-Zuordnung kostenlos erstellen — Silhouetten-Rätsel mit Themenbildern online, ohne Anmeldung. Lizenz für Etsy & KDP.',
   },
 
   hero: {
-    title: 'Schattenbilder-Zuordnung kostenlos erstellen online',
+    title: 'Schattenbilder-Zuordnung kostenlos erstellen — Online Generator',
     tagline: 'Doppelmodus-Schattenbilder-Zuordnungs-Generator mit pixelgenauer Silhouetten-Erstellung, Modus Bild Vervollständigen mit horizontaler und vertikaler Schnittrichtung, Fisher-Yates-Derangement für garantiert echte Zuordnungsherausforderungen, automatisch generierten Lösungsschlüsseln mit Buchstabe-zu-Nummer-Beschriftungen, umschaltbaren A/B/C/D- und 1/2/3/4-Kennzeichnungen und 104 thematischen Bildsammlungen für Schattenbilder-Arbeitsblätter, die weltweit verkaufbar sind',
     description: 'Erstellen Sie Schattenbilder-Zuordnungsblätter kostenlos mit unserem Schattenbilder-Generator — direkt im Browser, ohne Anmeldung und ohne Software-Download. Zwei Übungsmodi bieten unterschiedliche Herausforderungen: Der Schattenbild-Zuordnungsmodus platziert farbige Bilder und pixelgenau erzeugte schwarze Silhouetten — echte Bildverarbeitung, keine CSS-Filter. Der Modus Bild Vervollständigen teilt Bilder in Hälften mit wählbarer horizontaler oder vertikaler Schnittrichtung. Der Fisher-Yates-Derangement-Algorithmus garantiert, dass kein Element an seiner Originalposition erscheint. Das Dual-Canvas-System generiert automatisch einen Lösungsschlüssel mit Buchstabe-zu-Nummer-Zuordnungen. Über 3.100 Illustrationen aus 104 Themen stehen bereit. Exportieren Sie als PDF oder JPEG bei 300 DPI. Die kostenlose Testversion bietet alle Funktionen mit Wasserzeichen — erwerben Sie eine kommerzielle Lizenz, um das Wasserzeichen zu entfernen und Ihre Arbeitsblätter zu verkaufen.',
   },

@@ -2,20 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'Erntedank-Druckvorlagen verkaufen Ideen',
+    primaryKeyword: 'Erntedank-Druckvorlagen Nische Etsy',
     secondaryKeywords: [
-      'Thanksgiving-Arbeitsblätter auf Etsy erstellen',
-      'Herbst-Erntedank-Druckvorlagen auf KDP',
-      'November-Feiertags-Aktivitätsblätter für Gumroad',
-      'Truthahn-Ernte-Lernmaterialien für Shops',
+      'Erntedank Arbeitsblätter auf Etsy verkaufen',
+      'Erntedank Druckvorlagen Geschäftsideen',
+      'Erntedank Nische Wettbewerbsanalyse',
+      'profitable Erntedank Druckvorlagen',
     ],
     lsiKeywords: [
-      'November-Nachfragespitze saisonale Druckvorlagen',
-      'Erntedank-Nische Arbeitsblätter Etsy-Markt',
-      'Herbst-Feiertags-Thema Lernmaterialien',
+      'Thanksgiving Truthahn Ernte Arbeitsblätter',
+      'November saisonale Nachfragespitze',
+      'Herbst-Feiertag Druckvorlagen-Nische',
     ],
-    titleTag: 'Erntedank-Druckvorlagen verkaufen | LCS',
-    metaDescription: 'Erntedank-Druckvorlagen verkaufen auf Etsy, KDP und Gumroad. Thanksgiving-Produktideen und Timing-Strategien samt Nischentipps für deutschsprachige Verkäufer.',
+    titleTag: 'Erntedank-Druckvorlagen Nische für Etsy | LCS',
+    metaDescription: 'Erntedank-Druckvorlagen als profitable Etsy-Nische entdecken. Thanksgiving-Produktideen und November-Timing-Strategien — Nischentipps für deutschsprachige Verkäufer.',
   },
   hero: {
     title: 'Erntedank-Druckvorlagen — Saisonale Ideen für Ihren Printable-Shop',

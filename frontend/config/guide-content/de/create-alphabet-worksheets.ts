@@ -2,20 +2,21 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Alphabet-Arbeitsblätter zum Verkaufen auf Etsy',
+    primaryKeyword: 'Alphabet-Arbeitsblätter erstellen Anleitung',
     secondaryKeywords: [
-      'Alphabet-Zug-Arbeitsblätter für Etsy produzieren',
-      'Buchstabenerkennung-Arbeitsblätter kommerziell verkaufen',
-      'Alphabet-Arbeitsbuch auf KDP veröffentlichen',
-      'Alphabet-Zug-Generator für Printable-Verkäufer',
+      'Alphabet-Arbeitsblätter für Etsy erstellen',
+      'Alphabet-Arbeitsblätter Schritt für Schritt Anleitung',
+      'Alphabet-Arbeitsblätter für Anfänger erstellen',
+      'Alphabet-Arbeitsblätter für KDP erstellen',
     ],
     lsiKeywords: [
-      'sprachsensitive Buchstabenzuordnung Printable Nische',
-      'Alphabet-Zug mehrsprachige Produktlinie Etsy',
-      'KDP Buchstabenerkennung-Arbeitsbuch veröffentlichen',
+      'Vorschule Buchstabenerkennung',
+      'Zug-Waggon Zuordnung druckfertig',
+      'sprachsensitive Buchstaben 11 Sprachen',
+      'Lösungsschlüssel 300 DPI',
     ],
-    titleTag: 'Alphabet-Arbeitsblätter für Etsy | LCS',
-    metaDescription: 'Alphabet-Arbeitsblätter zum Verkaufen erstellen. 11 Zug-Waggons, sprachsensitive Buchstabenzuordnung, Hinweisanzahl 3–11 und Lösungsschlüssel für Etsy.',
+    titleTag: 'Alphabet-Arbeitsblätter erstellen | Anleitung | LCS',
+    metaDescription: 'Schritt-für-Schritt Anleitung zum Erstellen von Alphabet-Arbeitsblättern. 11 Zug-Waggons, sprachsensitive Buchstabenzuordnung und Lösungsschlüssel. Kostenlos testen.',
   },
 
   hero: {

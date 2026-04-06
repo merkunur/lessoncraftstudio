@@ -2,24 +2,25 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'kostenloser Gitter-Zuordnungsrätsel Generator',
+    primaryKeyword: 'kostenloser Gitterzeichnung Arbeitsblatt Generator',
     secondaryKeywords: [
-      'Gitter-Zuordnungsrätsel kostenlos erstellen',
-      'Raster-Puzzle-Generator online ohne Anmeldung',
-      'kostenlose Kachel-Zuordnungs-Arbeitsblätter erstellen',
-      'Gitter-Zuordnung Generator mit Lösungsschlüssel kostenlos',
+      'Bild abzeichnen Arbeitsblatt kostenlos',
+      'Gitter-Zeichnen Generator gratis',
+      'Pixel-Zeichnung Arbeitsblatt kostenlos',
+      'Raster-Zeichnung Generator ohne Anmeldung',
     ],
     lsiKeywords: [
-      'Raster-Puzzle Kachel-Zuordnung Arbeitsblätter',
-      'Hinweiszellen räumliches Denken Rätsel',
-      'Einzelbild-Raster-Puzzle Generator',
+      'abzeichnen kostenlos',
+      'Raster',
+      'räumliches Denken',
+      'Symmetrie',
     ],
-    titleTag: 'Kostenloser Gitter-Zuordnung Generator | LCS',
-    metaDescription: 'Kostenloser Gitter-Zuordnung Generator: Raster-Puzzle mit 2×2 bis 4×4 und Lösungsschlüssel online erstellen. Ohne Anmeldung. Kommerzielle Lizenz verfügbar.',
+    titleTag: 'Kostenloser Gitter-Zeichnung Generator Online | LCS',
+    metaDescription: 'Kostenloser Gitter-Zeichnung Generator — Abzeichnen-Arbeitsblätter mit Themenbildern online erstellen, ohne Anmeldung. Lizenz für Etsy & KDP.',
   },
 
   hero: {
-    title: 'Gitter-Zuordnungsrätsel kostenlos erstellen online',
+    title: 'Kostenloser Gitter-Zeichnung Arbeitsblatt Generator Online',
     tagline: 'Einzelbild-Raster-Puzzle-Generator mit konfigurierbaren Rastergrößen von 2×2 bis 4×4, einstellbaren Hinweiszellen für skalierbare Schwierigkeit, Fisher-Yates-Kachel-Zufallsverteilung, automatisch generierten Lösungsschlüsseln mit nummerierten Kreis-Overlays und 104 thematischen Bildsammlungen für Raster-Puzzle-Arbeitsblätter, die weltweit verkaufen',
     description: 'Erstellen Sie Gitter-Zuordnungsrätsel kostenlos mit unserem Gitter-Zuordnung Generator — direkt im Browser, ohne Anmeldung und ohne Software-Download. Ein einzelnes Bild wird in ein konfigurierbares Raster von 2×2 bis 4×4 Kacheln geteilt, und die Aufgabe besteht darin, nummerierte Kacheln ihren richtigen Positionen zuzuordnen. Stellen Sie 1–5 Hinweiszellen ein, die sichtbar bleiben — weniger Hinweise bedeuten schwierigere Puzzles. Die Fisher-Yates-Zufallsverteilung erzeugt bei jeder Generierung eine andere Kachelanordnung. Das Doppel-Canvas-System generiert automatisch einen Lösungsschlüssel mit nummerierten Kreis-Overlays. Die Puzzles sind rein visuell und universell einsetzbar ohne Übersetzung. Über 3.100 Illustrationen aus 104 Themen stehen zur Verfügung. Exportieren Sie als PDF oder JPEG bei 300 DPI. Die kostenlose Testversion bietet alle Funktionen mit Wasserzeichen — erwerben Sie eine kommerzielle Lizenz, um das Wasserzeichen zu entfernen und Ihre Rätsel zu verkaufen.',
   },

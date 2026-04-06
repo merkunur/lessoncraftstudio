@@ -2,23 +2,21 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'Amazon KDP Aktivitätenheft-Business Anleitung',
+    primaryKeyword: 'Amazon KDP Aktivitätsbücher Business starten',
     secondaryKeywords: [
-      'Amazon KDP Aktivitätsbücher',
-      'Rätselbücher auf KDP verkaufen',
-      'KDP Aktivitätsbuch-Geschäft',
-      'Aktivitätsbücher auf Amazon veröffentlichen',
+      'KDP Aktivitätsbuch veröffentlichen Anleitung',
+      'Rätselbücher auf Amazon KDP erstellen',
+      'KDP Print-on-Demand Aktivitätshefte',
+      'Aktivitätsbuch Business für Anfänger',
     ],
     lsiKeywords: [
-      'Kindle Direct Publishing Aktivitätsbücher',
-      'KDP Innenformat-Anforderungen Arbeitsblätter',
-      'KDP Cover-Design Aktivitätsbücher',
-      'Amazon Backend-Keywords Rätselbücher',
-      'KDP Tantiemen-Rechner Aktivitätsbücher',
-      'Print-on-Demand Aktivitätsbuch-Geschäft',
+      'Innenformatierung',
+      'Cover-Design',
+      'Keyword-Recherche',
+      'Preisstrategie',
     ],
-    titleTag: 'Amazon KDP Aktivitätenheft-Business | LCS',
-    metaDescription: 'Amazon KDP Aktivitätenheft-Business starten und skalieren. Innenformatierung, Cover-Design, Keyword-Recherche und Preisstrategie für Print-on-Demand-Verkäufer.',
+    titleTag: 'Amazon KDP Aktivitätsbuch-Business starten | LCS',
+    metaDescription: 'Amazon KDP Aktivitätsbuch-Business starten: Formatierung, Cover, Keywords und Preise. Schritt-für-Schritt Anleitung für Print-on-Demand-Verkäufer.',
   },
 
   hero: {

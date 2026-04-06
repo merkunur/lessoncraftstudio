@@ -2,20 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'Unterwasser-Druckvorlagen verkaufen',
+    primaryKeyword: 'Unterwasser-Druckvorlagen Nische Etsy',
     secondaryKeywords: [
-      'Unterwasserwelt-Arbeitsblätter auf Etsy erstellen',
-      'Ozean-Druckvorlagen auf KDP verkaufen',
-      'Meereslebewesen-Aktivitätsblätter für Gumroad',
-      'Korallen-Fisch-Lernmaterialien für Etsy-Shops',
+      'Unterwasser Arbeitsblätter auf Etsy verkaufen',
+      'Unterwasser Druckvorlagen Geschäftsideen',
+      'Unterwasser Nische Wettbewerbsanalyse',
+      'profitable Unterwasser Druckvorlagen',
     ],
     lsiKeywords: [
-      'Unterwasser-Ozean-Nische Druckvorlagen',
-      'Meeresbiologie-Thema Arbeitsblätter Etsy',
-      'Unterwasserwelt Ganzjahres-Lernmaterialien',
+      'Fische Delfine Korallenriffe Arbeitsblätter',
+      'Ozean Unterwasserwelt Druckvorlagen ganzjährig',
+      'Meeresbiologie-Thema Nische Etsy-Shop',
     ],
-    titleTag: 'Unterwasser-Druckvorlagen verkaufen | LCS',
-    metaDescription: 'Unterwasser-Druckvorlagen verkaufen auf Etsy, KDP und Gumroad. Ozean-Nische mit Fischen, Delfinen und Korallenriffen — Produktideen und Strategien für Sie.',
+    titleTag: 'Unterwasser-Druckvorlagen Nische Etsy | LCS',
+    metaDescription: 'Unterwasser-Druckvorlagen als profitable Etsy-Nische entdecken. Fische, Delfine und Korallenriffe als ganzjähriges Thema — Produktideen und Strategien für Ihren Shop.',
   },
   hero: {
     title: 'Unterwasser-Druckvorlagen — Ozean-Geschäftsideen für Verkäufer',

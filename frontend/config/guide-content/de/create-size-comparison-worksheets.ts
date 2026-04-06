@@ -2,20 +2,20 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Größenvergleich-Arbeitsblätter zum Verkauf erstellen',
+    primaryKeyword: 'Größenvergleich-Arbeitsblätter erstellen Anleitung',
     secondaryKeywords: [
-      'Groß-und-Klein-Arbeitsblätter für Etsy produzieren',
-      'Größenvergleich-Übungen kommerziell verkaufen',
-      'Größenanordnung-Aktivitätsbuch auf KDP veröffentlichen',
-      'Größenvergleich-Generator für Printable-Verkäufer',
+      'Groß-Klein-Arbeitsblätter Generator Schritt für Schritt',
+      'Größenvergleich-Übungen druckfertig erstellen',
+      'textfreie Größenvergleich-PDFs produzieren',
+      'Größenanordnung-Arbeitsblätter mit Lösungsschlüssel',
     ],
     lsiKeywords: [
-      'textfreie Arbeitsblätter weltweiter Verkauf Nische',
-      'Vorschul-Größenvergleich Druckvorlagen Etsy',
-      'KDP Größenanordnung Aktivitätsbuch veröffentlichen',
+      'fünf Aufgabentypen Bildmodi Schwierigkeitsstufen',
+      'Vorschul-Größenunterscheidung visuell-kognitiv',
+      'druckfertige Arbeitsblätter Etsy KDP Gumroad',
     ],
     titleTag: 'Größenvergleich-Arbeitsblätter erstellen | LCS',
-    metaDescription: 'Größenvergleich-Arbeitsblätter zum Verkauf erstellen. 5 Aufgabentypen, 2 Bildmodi und textfreie Ausgabe für weltweiten Verkauf auf Etsy und Amazon KDP.',
+    metaDescription: 'Größenvergleich-Arbeitsblätter erstellen: Schritt-für-Schritt-Anleitung mit 5 Aufgabentypen, 2 Bildmodi und textfreier Ausgabe. Druckfertige PDFs für den Verkauf auf Etsy und KDP.',
   },
 
   hero: {

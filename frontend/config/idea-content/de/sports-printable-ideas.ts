@@ -2,20 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'Sport-Druckvorlagen Geschäftsideen',
+    primaryKeyword: 'Sport-Druckvorlagen Nische Etsy',
     secondaryKeywords: [
-      'Sport-Arbeitsblätter auf Etsy erstellen',
-      'Ballsport-Druckvorlagen auf KDP verkaufen',
-      'Sportthema-Aktivitätsblätter auf Gumroad anbieten',
-      'Fußball-Basketball-Lernmaterialien für Shops',
+      'Sport Arbeitsblätter auf Etsy verkaufen',
+      'Sport Druckvorlagen Geschäftsideen',
+      'Sport Nische Wettbewerbsanalyse',
+      'profitable Sport Druckvorlagen',
     ],
     lsiKeywords: [
-      'Sportthema Ganzjahres-Druckvorlagen-Nische',
-      'Bewegungs-Bildungsthema Arbeitsblätter',
-      'Sport-Lernmaterialien Etsy-Markt',
+      'Fußball Basketball Tennis Arbeitsblätter',
+      'saisonale Sportrotation ganzjährige Nische',
+      'Bewegungs-Thema Kinder-Druckvorlagen Etsy',
     ],
-    titleTag: 'Sport-Druckvorlagen Geschäftsideen | LCS',
-    metaDescription: 'Sport-Druckvorlagen Geschäftsideen für Etsy, KDP und Gumroad. Ganzjährige Nische durch saisonale Sportrotation — Produktkonzepte und Strategien für Verkäufer.',
+    titleTag: 'Sport-Druckvorlagen Nische für Etsy | LCS',
+    metaDescription: 'Sport-Druckvorlagen als profitable Etsy-Nische entdecken. Ganzjährige Nachfrage durch saisonale Sportrotation — Produktkonzepte und Wettbewerbsanalyse für Verkäufer.',
   },
   hero: {
     title: 'Sport-Druckvorlagen — Ganzjährige Geschäftsideen für Verkäufer',

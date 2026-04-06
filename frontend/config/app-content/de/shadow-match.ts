@@ -2,24 +2,25 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'Schattenbilder-Zuordnung erstellen Etsy verkaufen',
+    primaryKeyword: 'Schattenbilder zuordnen Arbeitsblatt erstellen',
     secondaryKeywords: [
-      'Silhouetten-Zuordnungs-Generator für Etsy-Verkäufer',
-      'Schattenbild-Rätsel Druckvorlagen erstellen KDP',
-      'Bildhälften-Zuordnung verkaufen kommerzielle Lizenz',
-      'Shadow-Matching-Arbeitsblatt-Generator Lösungsschlüssel',
+      'Schatten-Zuordnung Generator',
+      'Silhouetten-Rätsel erstellen',
+      'Schattenbilder Arbeitsblatt',
+      'Schatten zuordnen Generator',
     ],
     lsiKeywords: [
-      'Printable-Business Silhouetten-Rätsel Druckvorlagen',
-      'Schattenbilder Arbeitsblatt verkaufen Etsy KDP',
-      'visuelle Wahrnehmung Druckvorlagen Einkommensquelle',
+      'Silhouette',
+      'Umriss',
+      'visuelle Unterscheidung',
+      'Wahrnehmung',
     ],
-    titleTag: 'Schattenbilder-Zuordnung für Etsy erstellen | LCS',
-    metaDescription: 'Schattenbilder-Zuordnung erstellen und auf Etsy verkaufen. Silhouetten-Matching und Bildhälften-Modus, Lösungsschlüssel. 49 $ einmalig.',
+    titleTag: 'Schattenbilder-Zuordnung erstellen | Silhouetten-Generator',
+    metaDescription: 'Erstellen Sie Schattenbilder-Zuordnungs-Arbeitsblätter mit Themen-Silhouetten. Automatische Lösungen, 300 DPI PDFs. Kostenlos testen.',
   },
 
   hero: {
-    title: 'Schattenbilder-Zuordnung erstellen und auf Etsy verkaufen',
+    title: 'Schattenbilder-Zuordnung erstellen — Silhouetten-Generator',
     tagline: 'Zwei Zuordnungsmodi in einem Generator — Schattenbild-Zuordnung erstellt automatisch schwarze Silhouetten aus jedem Bild, Bild Vervollständigen teilt Bilder in Hälften — beide mit Fisher-Yates-Derangement für garantiert echte Zuordnungsherausforderungen, automatisch generierten Lösungsschlüsseln und 104 thematischen Bildsammlungen.',
     description:
       'Sie möchten Schattenbilder-Zuordnungs-Arbeitsblätter erstellen und auf Etsy oder als KDP-Arbeitsbücher verkaufen? Dieser Generator bietet zwei Zuordnungsmodi: Der Schattenbild-Modus platziert 4 farbige Bilder neben 4 automatisch generierten schwarzen Silhouetten — erzeugt durch pixelgenaue Bildverarbeitung, die präzise Umrisse erstellt. Der Bildhälften-Modus teilt Bilder horizontal oder vertikal und fordert die Zuordnung der passenden Hälften. Beide Modi verwenden Fisher-Yates-Derangement für garantiert echte Zuordnungsherausforderungen bei jeder Generierung. Der automatische Lösungsschlüssel zeigt jede korrekte Buchstabe-zu-Nummer-Zuordnung an. Die rein visuelle Ausgabe ermöglicht globalen Verkauf ohne Übersetzungsaufwand. Die integrierte Bildbibliothek umfasst über 3.100 Illustrationen in 104 Themen. Exportieren Sie druckfertige PDFs und JPEGs mit 300 DPI in Letter, A4 oder benutzerdefinierten Größen. Kostenlos testen mit allen Funktionen — Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',
@@ -198,6 +199,11 @@ const content: AppContent = {
       question: 'Was ist Ihre Rückgabepolitik?',
       answer:
         'Da die kostenlose Testversion Ihnen vollständigen Zugang zu jeder Funktion gewährt, bieten wir keine Rückerstattung für kommerzielle Lizenzen an. Sie können beide Übungsmodi, automatisch generierte Silhouetten, Schnittrichtungs-Optionen, den Lösungsschlüssel, die vollständige Bildbibliothek, Hintergrund- und Rahmenthemen, Beschriftungs-Schalter, Name-/Datumsfelder, Textwerkzeuge und alle Download-Formate vor dem Kauf ausgiebig testen. Die kostenlose Testversion ist die Rückgabepolitik — stellen Sie sicher, dass das Tool Ihren Anforderungen entspricht, bevor Sie eine Lizenz erwerben.',
+    },
+    {
+      question: 'Sind die Arbeitsblätter für die Grundschule geeignet?',
+      answer:
+        'Ja. Die Arbeitsblätter eignen sich für die Grundschule (Deutschland), Volksschule (Österreich) und Primarschule (Schweiz). Sie können den Schwierigkeitsgrad an verschiedene Klassenstufen anpassen — von der 1. Klasse bis zur 4. Klasse. Auch Vorschulkinder und Kindergartenkinder profitieren von den einfacheren Übungsstufen.',
     },
   ],
 

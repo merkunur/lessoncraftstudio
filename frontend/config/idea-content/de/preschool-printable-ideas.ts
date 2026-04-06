@@ -2,20 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'Vorschul-Druckvorlagen auf Etsy verkaufen',
+    primaryKeyword: 'Vorschul-Druckvorlagen Nische Etsy',
     secondaryKeywords: [
-      'Vorschul-Arbeitsblätter auf Etsy erstellen',
-      'frühkindliche Druckvorlagen auf KDP verkaufen',
-      'Vorschulalter-Aktivitätsblätter auf Gumroad',
-      'Vorschul-Lernmaterialien für Druckvorlagen-Shops',
+      'Vorschul Arbeitsblätter auf Etsy verkaufen',
+      'Vorschul Druckvorlagen Geschäftsideen',
+      'Vorschul Nische Wettbewerbsanalyse',
+      'profitable Vorschul Druckvorlagen',
     ],
     lsiKeywords: [
-      'frühkindliche Bildung Druckvorlagen-Markt',
+      'frühkindliche Bildung Drei- bis Fünfjährige',
       'Vorschulalter visuelles Lernen Arbeitsblätter',
-      'Kleinkind-Lernmaterialien Etsy-Nische',
+      'größte Nische Bildungsmarkt Druckvorlagen',
     ],
-    titleTag: 'Vorschul-Druckvorlagen für Etsy | LCS',
-    metaDescription: 'Vorschul-Druckvorlagen auf Etsy verkaufen — größte Nische im Bildungsmarkt für Drei- bis Fünfjährige. Produktideen und Plattformstrategien für Verkäufer.',
+    titleTag: 'Vorschul-Druckvorlagen Nische für Etsy | LCS',
+    metaDescription: 'Vorschul-Druckvorlagen als profitable Etsy-Nische entdecken. Größte Nische im Bildungsmarkt für Drei- bis Fünfjährige — Produktideen und Strategien für Verkäufer.',
   },
   hero: {
     title: 'Vorschul-Druckvorlagen — Geschäftsideen für Etsy-Verkäufer',

@@ -2,24 +2,25 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'kostenloser Suchen-und-Zählen Generator',
+    primaryKeyword: 'Suchen und Zählen Generator kostenlos',
     secondaryKeywords: [
-      'Suchen-und-Zählen-Arbeitsblätter kostenlos erstellen',
-      'Suchbild-Generator online ohne Anmeldung',
-      'kostenlose Ich-sehe-was-Rätsel mit Lösungsschlüssel',
-      'Suchen-und-Zählen Generator mit Buchstabenerkennung kostenlos',
+      'Zählen und Finden Generator kostenlos online',
+      'I-Spy Zählrätsel Generator gratis',
+      'Suchbild mit Zählen kostenlos',
+      'Zählen Arbeitsblatt kostenlos erstellen',
     ],
     lsiKeywords: [
-      'Suchbild Einkreisen Zählen Aufgabentypen',
-      'Buchstabenerkennung sprachspezifisches Alphabet',
-      'Suchen-und-Zählen Arbeitsblätter Vorschule',
+      'Wie viele? kostenlos',
+      'Strichliste',
+      'visuelle Wahrnehmung',
+      'Zahlenerkennung',
     ],
-    titleTag: 'Kostenloser Suchen-und-Zählen Generator | LCS',
-    metaDescription: 'Kostenloser Suchen-und-Zählen Generator: Suchbild-Arbeitsblätter mit zwei Modi und vier Aufgabentypen erstellen. Ohne Anmeldung. Kommerzielle Lizenz verfügbar.',
+    titleTag: 'Suchen & Zählen Generator kostenlos Online | LCS',
+    metaDescription: 'Suchen-und-Zählen-Arbeitsblätter kostenlos erstellen — Themenbilder finden und zählen, ohne Anmeldung. Lizenz für Etsy & KDP.',
   },
 
   hero: {
-    title: 'Suchen-und-Zählen-Arbeitsblätter kostenlos erstellen',
+    title: 'Suchen & Zählen Generator kostenlos — Online Zähl-Arbeitsblätter erstellen',
     tagline: 'Dual-Modus-Suchbild-Arbeitsblatt-Generator mit Suchbild-Modus (verteiltes Bildraster mit bis zu 4 Zielobjekten) und Buchstabenerkennung-Modus (sprachspezifisches Alphabet-Raster mit Umlauten ÄÖÜ), vier mischbaren Aufgabentypen (Einkreisen, Umrahmen, Durchstreichen, Zählen) pro Zielobjekt zuweisbar, lokalisierten Bildbezeichnungen in 11 Sprachen über das Bildvokabular-System, konfigurierbarer Rasterdichte von 5×5 bis 10×10, automatisch generierten Lösungsschlüsseln mit roten Kreis-/Rahmen-/Kreuz-Markierungen und Anzahl-Anzeigen sowie sprachabhängigen Arbeitsblättern, bei denen Bildbezeichnungen sich je nach Sprache ändern',
     description: 'Erstellen Sie Suchen-und-Zählen-Arbeitsblätter kostenlos mit unserem Suchen-und-Zählen Generator — direkt im Browser, ohne Anmeldung und ohne Software-Download. Zwei Aktivitätsmodi bieten vielseitige Übungen: Der Suchbild-Modus verteilt Bilder über ein konfigurierbares Raster mit bis zu 4 Zielobjekten und vier mischbaren Aufgabentypen — Einkreisen, Umrahmen, Durchstreichen oder Zählen. Der Buchstabenerkennung-Modus zeigt ein sprachspezifisches Alphabet-Raster mit Sonderbuchstaben wie ÄÖÜ. Bildbezeichnungen werden automatisch in der gewählten Sprache gerendert. Das Dual-Canvas-System generiert automatisch einen Lösungsschlüssel mit farbigen Markierungen. Über 3.100 Illustrationen aus 104 Themen stehen bereit. Exportieren Sie als PDF oder JPEG bei 300 DPI. Die kostenlose Testversion bietet alle Funktionen mit Wasserzeichen — erwerben Sie eine kommerzielle Lizenz, um das Wasserzeichen zu entfernen und Ihre Arbeitsblätter zu verkaufen.',
   },

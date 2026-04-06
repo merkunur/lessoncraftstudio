@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Mehrsprachiges Druckvorlagen-Business aufbauen',
+    primaryKeyword: 'Mehrsprachige Druckvorlagen verkaufen',
     secondaryKeywords: [
       'Druckvorlagen international verkaufen Strategie',
       'Sprachexpansion Printable-Geschäft planen',
@@ -10,12 +10,12 @@ const content: GuideContent = {
       'Umsatzmultiplikation mehrsprachige Arbeitsblätter',
     ],
     lsiKeywords: [
-      'Lokalisierungsstrategie internationale Marktplätze Sprachpriorisierung Marktdiversifizierung',
-      'Übersetzungs-Workflow Mehrmarkt-Vertrieb unterversorgte Sprachmärkte Wettbewerbsvorteil',
-      'mehrsprachiges Produktportfolio grenzüberschreitender Verkauf Plattform-Internationalisierung',
+      'Lokalisierungsstrategie internationale Marktplätze Sprachpriorisierung',
+      'Übersetzungs-Workflow unterversorgte Sprachmärkte',
+      'mehrsprachiges Produktportfolio grenzüberschreitender Verkauf',
     ],
-    titleTag: 'Mehrsprachiges Printable-Business | LCS',
-    metaDescription: 'Mehrsprachiges Druckvorlagen-Business aufbauen: Sprachpriorisierung, internationale Marktanalyse und Expansionsstrategien für mehr Umsatz auf Etsy und KDP.',
+    titleTag: 'Mehrsprachige Druckvorlagen verkaufen | LCS',
+    metaDescription: 'Mehrsprachige Druckvorlagen verkaufen: Sprachpriorisierung, internationale Marktanalyse und Expansionsstrategien für deutlich mehr Umsatz auf Etsy und KDP.',
   },
 
   hero: {

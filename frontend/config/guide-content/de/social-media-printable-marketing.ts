@@ -2,20 +2,21 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Social Media Marketing für Printable-Verkäufer',
+    primaryKeyword: 'Social Media Marketing für Druckvorlagen',
     secondaryKeywords: [
-      'Instagram-Marketing Druckvorlagen-Geschäft',
-      'Social-Media-Strategie Arbeitsblatt-Shop',
+      'Instagram-Marketing Druckvorlagen-Geschäft aufbauen',
+      'Social-Media-Strategie Arbeitsblatt-Shop planen',
       'visuelle Inhalte Printable-Werbung erstellen',
       'Zielgruppenaufbau Druckvorlagen Facebook Pinterest',
     ],
     lsiKeywords: [
-      'Content-Marketing Produktpräsentation Inhaltskalender organische Reichweite Engagement',
-      'Hashtag-Strategie Flat-Lay-Fotografie Community-Aufbau Follower-Wachstum',
-      'Veröffentlichungsplan Profiloptimierung Shop-Traffic Konversion Social Proof',
+      'Content-Marketing Inhaltskalender organische Reichweite',
+      'Hashtag-Strategie Flat-Lay-Fotografie Community-Aufbau',
+      'Veröffentlichungsplan Profiloptimierung Shop-Traffic',
+      'Engagement Social Proof Konversionsrate',
     ],
-    titleTag: 'Social Media für Printable-Verkäufer | LCS',
-    metaDescription: 'Social Media Marketing für Printable-Verkäufer: Plattformauswahl, visuelle Inhalte erstellen, Zielgruppen. Verkaufen Sie auf Etsy & KDP mit gewerblicher Lizenz.',
+    titleTag: 'Social Media Marketing für Druckvorlagen | LCS',
+    metaDescription: 'Social Media Marketing für Druckvorlagen: Plattformauswahl, visuelle Inhalte erstellen, Zielgruppen aufbauen und organischen Traffic zu Ihrem Etsy-Shop leiten.',
   },
 
   hero: {

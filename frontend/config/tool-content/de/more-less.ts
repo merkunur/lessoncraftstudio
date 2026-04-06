@@ -2,24 +2,25 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'kostenloser Größer-Kleiner-Generator',
+    primaryKeyword: 'Mehr oder Weniger Arbeitsblatt kostenlos',
     secondaryKeywords: [
-      'Größer-Kleiner-Arbeitsblätter kostenlos erstellen',
-      'Mengenvergleich-Generator online ohne Anmeldung',
-      'kostenloser Vergleichs-Arbeitsblatt-Generator',
-      'Mehr-oder-Weniger-Übungen online erstellen',
+      'Größer Kleiner Gleich Generator kostenlos',
+      'Vergleichen Arbeitsblatt Generator gratis',
+      'Mengenvergleich Arbeitsblatt ohne Anmeldung',
+      'Zahlen vergleichen kostenlos',
     ],
     lsiKeywords: [
-      'Ankreuzen-und-Durchstreichen-Aktivitäten zum Ausdrucken',
-      'Mengenvergleich-Arbeitsblätter für Vorschule',
-      'visuelle Größer-als Kleiner-als Übungen',
+      'größer als',
+      'kleiner als',
+      'gleich',
+      'Mengen vergleichen kostenlos',
     ],
-    titleTag: 'Kostenloser Größer-Kleiner Generator | LCS',
-    metaDescription: 'Kostenloser Größer-Kleiner-Generator mit drei Vergleichsmodi inkl. Ankreuzen und Durchstreichen. 104 Themen, ohne Anmeldung. Kommerzielle Lizenz verfügbar.',
+    titleTag: 'Mehr oder Weniger Arbeitsblatt kostenlos | Generator | LCS',
+    metaDescription: 'Mehr-oder-Weniger-Arbeitsblätter kostenlos erstellen — Vergleichs-Aufgaben mit Themenbildern online, ohne Anmeldung. Lizenz verfügbar.',
   },
 
   hero: {
-    title: 'Größer-Kleiner-Arbeitsblätter kostenlos erstellen online',
+    title: 'Mehr oder Weniger Arbeitsblatt kostenlos erstellen — Online Generator',
     tagline: 'Visuelle Vergleichs-Arbeitsblätter mit drei Übungsmodi in unter 60 Sekunden erstellen',
     description: 'Erstellen Sie kostenlos Größer-Kleiner-Arbeitsblätter mit diesem Generator — direkt im Browser, ohne Anmeldung, ohne Installation. Drei verschiedene Übungstypen stehen bereit: Bild zu Bild (zwei Bildergruppen nebeneinander vergleichen), Bild zu Zahl (visuelles Zählen mit Ziffern verbinden) und der einzigartige Ankreuzen-und-Durchstreichen-Modus für Sortierübungen. Wählen Sie aus über 100 Bildthemen mit mehr als 3.100 Illustrationen, legen Sie Ihren Zahlenbereich fest und wählen Sie zwischen illustrierten oder Standard-Vergleichszeichen. Die Arbeitsblätter verwenden ausschließlich Bilder, Zahlen und Symbole und funktionieren sprachunabhängig. Exportieren Sie druckfertige PDFs und JPEGs bei 300 DPI in Letter, A4 oder benutzerdefinierten Größen. Die kostenlose Testversion enthält alle Funktionen mit einem Wasserzeichen auf Downloads. Erwerben Sie eine Lizenz, um das Wasserzeichen zu entfernen und kommerziell zu verkaufen.',
   },

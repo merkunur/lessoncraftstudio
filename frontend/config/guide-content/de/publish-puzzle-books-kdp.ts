@@ -2,20 +2,20 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Rätselbücher auf Amazon KDP veröffentlichen',
+    primaryKeyword: 'Rätselbuch auf Amazon KDP veröffentlichen',
     secondaryKeywords: [
-      'KDP Rätselbuch erstellen Wortsuche Kreuzworträtsel',
+      'KDP Rätselbuch Wortsuche Kreuzworträtsel erstellen',
       'Variety Rätselbuch gemischte Formate KDP',
-      'Rätselbuch-Serie Amazon Bände aufbauen',
-      'Sudoku und Wortsuche Bücher KDP Anleitung',
+      'Rätselbuch-Serie mehrbändig Amazon aufbauen',
+      'Sudoku Wortsuche Bücher KDP Anleitung',
     ],
     lsiKeywords: [
-      'Rätselgitter Abstände Buchformat Lösungsteil',
-      'Schwierigkeitssteigerung Leicht Mittel Schwer Progression',
-      'dualer Markt Erwachsene Kinder Rätselbücher',
+      'Rätselgitter Abstände Lösungsteil Buchformat',
+      'Schwierigkeitsstufen Leicht Mittel Schwer Progression',
+      'dualer Markt Erwachsene Kinder Katalogstrategie',
     ],
-    titleTag: 'Rätselbücher auf Amazon KDP veröffentlichen | LCS',
-    metaDescription: 'Rätselbücher auf Amazon KDP veröffentlichen: Wortsuche, Kreuzworträtsel und Sudoku formatieren, Variety-Bücher erstellen und Serien für langfristigen Umsatz.',
+    titleTag: 'Rätselbuch auf Amazon KDP | LCS',
+    metaDescription: 'Raetselbuch auf Amazon KDP veroeffentlichen: Wortsuche, Kreuzwortraetsel und Sudoku formatieren, Variety-Buecher erstellen und Serien fuer langfristigen Umsatz aufbauen.',
   },
 
   hero: {

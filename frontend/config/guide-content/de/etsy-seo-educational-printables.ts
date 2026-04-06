@@ -2,20 +2,20 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Etsy SEO für Arbeitsblätter und Druckvorlagen',
+    primaryKeyword: 'Etsy SEO für Druckvorlagen optimieren',
     secondaryKeywords: [
-      'Etsy Keyword-Recherche Druckvorlagen Verkäufer',
-      'Etsy 13 Tags Strategie Arbeitsblätter optimieren',
-      'Etsy Titeloptimierung druckbare Lernmaterialien',
-      'Etsy Suchalgorithmus Ranking digitale Downloads',
+      'Etsy Keyword-Recherche Arbeitsblätter Verkäufer',
+      'Etsy 13 Tags Strategie Druckvorlagen optimieren',
+      'Etsy Titeloptimierung digitale Downloads Ranking',
+      'Etsy Suchalgorithmus Beschreibung Sichtbarkeit',
     ],
     lsiKeywords: [
-      'Keyword-Platzierung Angebotstitel Druckvorlagen',
-      'Etsy Stats Suchbegriffe-Bericht Optimierung',
-      'Kategorie-Attribute digitale Arbeitsblatt-Produkte',
+      'Keyword-Platzierung Angebotstitel Klickrate',
+      'Etsy Stats Suchbegriffe-Bericht Konversion',
+      'Kategorie-Attribute saisonales Keyword-Timing',
     ],
-    titleTag: 'Etsy SEO für Arbeitsblätter (2026) | LCS',
-    metaDescription: 'Etsy SEO für Arbeitsblätter und Druckvorlagen: Keyword-Recherche, Titeloptimierung, alle 13 Tags strategisch nutzen und Beschreibungen für mehr Sichtbarkeit.',
+    titleTag: 'Etsy SEO für Druckvorlagen | LCS',
+    metaDescription: 'Etsy SEO fuer Druckvorlagen optimieren: Keyword-Recherche, Titeloptimierung, alle 13 Tags strategisch nutzen und Beschreibungen fuer maximale Suchsichtbarkeit.',
   },
 
   hero: {

@@ -2,24 +2,26 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'alphabet arbeitsblätter erstellen für etsy zug generator buchstabe',
+    primaryKeyword: 'Alphabet Arbeitsblatt erstellen',
     secondaryKeywords: [
-      'Alphabet-Arbeitsblätter erstellen für Etsy verkaufen',
-      'Buchstabenzug-Generator für KDP-Lernbücher',
-      'mehrsprachige ABC-Arbeitsblätter Printable-Business',
-      'Buchstabe-Bild-Zuordnung Druckvorlagen Etsy-Shop',
+      'ABC Arbeitsblatt Generator',
+      'Buchstaben lernen Arbeitsblatt',
+      'Alphabet Übungen erstellen',
+      'Buchstabenerkennung Arbeitsblatt',
     ],
     lsiKeywords: [
-      'ABC-Lernbücher Amazon KDP veröffentlichen Einkommen',
-      'Druckvorlagen-Geschäft Buchstabenerkennung Alphabet',
-      'mehrsprachige Alphabet-Druckvorlagen 11 Sprachen',
+      'ABC-Reihenfolge',
+      'Groß- und Kleinbuchstaben',
+      'Buchstabenreihe',
+      'Vorschule',
+      '1. Klasse',
     ],
-    titleTag: 'Alphabet-Arbeitsblätter erstellen für Etsy | LCS',
-    metaDescription: 'Alphabet-Arbeitsblätter erstellen für Etsy und KDP — Buchstabe-Bild-Zuordnung in 11 Sprachen mit nativen Alphabeten. 49 $ einmalig.',
+    titleTag: 'Alphabet-Arbeitsblätter erstellen | ABC-Übungen Generator',
+    metaDescription: 'Erstellen Sie Alphabet-Arbeitsblätter mit Themenbildern für Buchstabenerkennung. Automatische Lösungen, 11 Sprachen. Kostenlos testen.',
   },
 
   hero: {
-    title: 'Alphabet-Zug-Generator mit Buchstabe-Bild-Zuordnung in 11 Sprachen',
+    title: 'Alphabet-Arbeitsblätter erstellen — ABC-Übungen Generator',
     tagline: 'Jeder Waggon trägt einen Buchstaben und ein passendes Bild — Buchstabenerkennung lernen, ein Zugwaggon nach dem anderen. 11 Sprachen mit nativen Alphabeten für maximale Marktabdeckung.',
     description:
       'Erstellen Sie Alphabet-Arbeitsblätter mit dem Alphabet-Zug-Generator und verkaufen Sie diese auf Etsy, Amazon KDP oder Gumroad. Jeder der 11 Zugwaggons trägt einen Buchstaben und ein passendes Bild — die Buchstabe-Bild-Zuordnung ist in 11 Sprachen mit nativen Alphabeten linguistisch korrekt. Wählen Sie Auto-Erstellen für schnelle Serienproduktion oder den Manuellen Modus für gezielte Buchstabenauswahl. Konfigurierbare Hinweise von 3 bis 11 steuern die Schwierigkeit, und über 3.100 Illustrationen in 104 Themen liefern vielseitige Inhalte. Die Vollzugriff-Lizenz schaltet alle 11 Sprachen mit Sonderbuchstaben frei — Deutsch (Ä/Ö/Ü), Schwedisch (Å/Ä/Ö), Spanisch (Ñ) und mehr — und vervielfacht Ihren Produktkatalog um das Elffache. Exportieren Sie druckfertige PDFs und JPEGs mit über 400 DPI in Letter, A4 oder Quadrat. Graustufen-Export liefert tintenfreundliche Versionen für Schwarz-Weiß-Bücher. Kostenlos testen mit allen Funktionen — Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',
@@ -198,6 +200,11 @@ const content: AppContent = {
       question: 'Was ist Ihre Rückgabepolitik?',
       answer:
         'Da die kostenlose Testversion Ihnen vollständigen Zugang zu jeder Funktion gewährt, bieten wir keine Rückerstattung für kommerzielle Lizenzen an. Sie können beide Erstellungsmodi, jede Hinweiseinstellung von 3 bis 11, alle 104 Themen, jede Seitengröße und jedes Exportformat vor dem Kauf ausgiebig testen. Erstellen Sie beliebig viele Arbeitsblätter mit Wasserzeichen, um sich von der Qualität und der Passung für Ihr Geschäft zu überzeugen. Die kostenlose Testversion ist die Rückgabepolitik — stellen Sie sicher, dass das Tool Ihren Anforderungen entspricht, bevor Sie eine Lizenz erwerben.',
+    },
+    {
+      question: 'Sind die Arbeitsblätter für die Grundschule geeignet?',
+      answer:
+        'Ja. Die Arbeitsblätter eignen sich für die Grundschule (Deutschland), Volksschule (Österreich) und Primarschule (Schweiz). Sie können den Schwierigkeitsgrad an verschiedene Klassenstufen anpassen — von der 1. Klasse bis zur 4. Klasse. Auch Vorschulkinder und Kindergartenkinder profitieren von den einfacheren Übungsstufen.',
     },
   ],
 

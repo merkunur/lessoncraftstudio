@@ -2,20 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'Schulanfang-Druckvorlagen auf Etsy verkaufen',
+    primaryKeyword: 'Schulanfang-Druckvorlagen Nische Etsy',
     secondaryKeywords: [
-      'Einschulung-Arbeitsblätter für Etsy erstellen',
-      'Schulanfang-Aktivitäten auf KDP verkaufen',
-      'Back-to-School-Druckvorlagen auf Gumroad anbieten',
-      'saisonale Schulstart-Produkte für Druckvorlagen-Verkäufer',
+      'Schulanfang Arbeitsblätter auf Etsy verkaufen',
+      'Schulanfang Druckvorlagen Geschäftsideen',
+      'Schulanfang Nische Wettbewerbsanalyse',
+      'profitable Schulanfang Druckvorlagen',
     ],
     lsiKeywords: [
-      'Juli-September-Nachfragespitze Lernmaterialien',
-      'Grundschul-Arbeitsblätter saisonaler Verkauf',
-      'Schulbeginn-Nische Druckvorlagen-Geschäft',
+      'Einschulung Schultüte Druckvorlagen',
+      'Juli-September saisonale Nachfrage',
+      'Back-to-School Arbeitsblätter Etsy-Shop',
     ],
-    titleTag: 'Schulanfang-Druckvorlagen für Etsy | LCS',
-    metaDescription: 'Schulanfang-Druckvorlagen auf Etsy verkaufen — profitable Einschulungs-Produkte mit Schultüten und Schulranzen. Saisonale Strategien Juli bis September.',
+    titleTag: 'Schulanfang-Druckvorlagen Nische Etsy | LCS',
+    metaDescription: 'Schulanfang-Druckvorlagen als profitable Etsy-Nische entdecken. Einschulungs-Produkte mit Schultüten und Schulranzen — saisonale Strategien Juli bis September für Ihren Shop.',
   },
   hero: {
     title: 'Schulanfang-Druckvorlagen auf Etsy verkaufen',

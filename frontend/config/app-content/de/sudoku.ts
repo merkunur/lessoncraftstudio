@@ -2,24 +2,26 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'Bilder-Sudoku-Generator für KDP Rätselbücher',
+    primaryKeyword: 'Sudoku erstellen',
     secondaryKeywords: [
-      'Bilder-Sudoku erstellen für KDP-Rätselbücher',
-      'Bild-Sudoku-Generator für Etsy-Druckvorlagen',
-      'visuelle Sudoku-Rätsel Printable-Business verkaufen',
-      'Bilder-Sudoku-Arbeitsblätter kommerzielle Lizenz',
+      'Sudoku Generator',
+      'Bilder-Sudoku erstellen',
+      'Kinder Sudoku Generator',
+      'Sudoku Rätsel erstellen',
     ],
     lsiKeywords: [
-      'Rätselbücher Amazon KDP Sudoku veröffentlichen',
-      'Druckvorlagen-Geschäft Logikrätsel passive Einnahmen',
-      '4×4-Raster drei Schwierigkeitsgrade visuell',
+      'Logikrätsel',
+      'Zahlenrätsel',
+      'leichtes Sudoku',
+      '4x4 Sudoku',
+      '6x6 Sudoku',
     ],
-    titleTag: 'Bilder-Sudoku-Generator für KDP-Rätselbücher | LCS',
-    metaDescription: 'Bilder-Sudoku erstellen für KDP-Rätselbücher und Etsy — 4×4-Raster, drei Schwierigkeitsgrade, rein visuell. 49 $ einmalig.',
+    titleTag: 'Sudoku erstellen | Bilder- & Zahlen-Sudoku Generator',
+    metaDescription: 'Erstellen Sie Bilder- und Zahlen-Sudoku mit einstellbarer Schwierigkeit. Automatische Lösungen, druckfertige PDFs. Kostenlos testen — auf Etsy & KDP verkaufen.',
   },
 
   hero: {
-    title: 'Bilder-Sudoku für KDP-Rätselbücher und Etsy erstellen',
+    title: 'Sudoku erstellen — Bilder- & Zahlen-Sudoku Generator',
     tagline: 'Rein visuelle 4×4-Sudoku-Rätsel mit Bildern statt Zahlen — drei Schwierigkeitsgrade von 4 bis 8 leeren Zellen, automatisch generierte Lösungsschlüssel mit vollständig gefülltem Raster und themenbasierte Bildauswahl aus 104 Sammlungen für Rätsel, die weltweit ohne Übersetzung verkaufbar sind.',
     description:
       'Erstellen Sie Bilder-Sudoku mit dem Sudoku-Generator und verkaufen Sie Rätselbücher auf Amazon KDP, Etsy oder Gumroad. Jedes 4×4-Rätsel verwendet 4 einzigartige Bilder statt Zahlen — dieselbe Logik wie beim klassischen Sudoku, aber mit farbenfrohen Illustrationen. Drei Schwierigkeitsgrade steuern die Herausforderung: Leicht entfernt 4 Zellen, Mittel 6 und Schwer 8. Wählen Sie Bilder aus 104 Sammlungen mit über 3.100 Illustrationen oder laden Sie eigene hoch. Das Premium-Rasterdesign erzeugt sofort professionelle Ergebnisse. Lösungsschlüssel wird automatisch generiert. Das rein visuelle Format funktioniert weltweit ohne Übersetzung. Exportieren Sie druckfertige PDFs und JPEGs mit 300 DPI. Die kommerzielle Lizenz umfasst 10 Themen; Vollzugriff schaltet alle 104 Themen und 11 Sprachen frei. Kostenlos testen mit Wasserzeichen.',
@@ -198,6 +200,11 @@ const content: AppContent = {
       question: 'Was ist Ihre Rückgabepolitik?',
       answer:
         'Da die kostenlose Testversion Ihnen vollständigen Zugang zu jeder Funktion gewährt, bieten wir keine Rückerstattung für kommerzielle Lizenzen an. Sie können alle drei Schwierigkeitsgrade, themenbasierte und manuelle Bildauswahl, den automatisch generierten Lösungsschlüssel, die vollständige Bildbibliothek, Hintergrund- und Rahmenthemen, Textwerkzeuge und alle Download-Formate vor dem Kauf ausgiebig testen. Die kostenlose Testversion ist die Rückgabepolitik — stellen Sie sicher, dass das Tool Ihren Anforderungen entspricht, bevor Sie eine Lizenz erwerben. Es ist keine zeitliche Begrenzung für die Testphase vorgesehen — erstellen Sie so viele Rätsel wie Sie möchten und überzeugen Sie sich in Ruhe von der Qualität.',
+    },
+    {
+      question: 'Sind die Arbeitsblätter für die Grundschule geeignet?',
+      answer:
+        'Ja. Die Arbeitsblätter eignen sich für die Grundschule (Deutschland), Volksschule (Österreich) und Primarschule (Schweiz). Sie können den Schwierigkeitsgrad an verschiedene Klassenstufen anpassen — von der 1. Klasse bis zur 4. Klasse. Auch Vorschulkinder und Kindergartenkinder profitieren von den einfacheren Übungsstufen.',
     },
   ],
 

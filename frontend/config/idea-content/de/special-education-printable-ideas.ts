@@ -2,20 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'Förderschul-Druckvorlagen verkaufen',
+    primaryKeyword: 'Förderschul-Druckvorlagen Nische Etsy',
     secondaryKeywords: [
-      'SPED-Arbeitsblätter auf Etsy erstellen',
-      'angepasste Lernmaterialien auf KDP verkaufen',
-      'visuelle Hilfen Förderbedarf-Nische auf Gumroad',
-      'inklusive Arbeitsblätter für Druckvorlagen-Shops',
+      'Förderschul Arbeitsblätter auf Etsy verkaufen',
+      'Förderschul Druckvorlagen Geschäftsideen',
+      'Förderschul Nische Wettbewerbsanalyse',
+      'profitable Förderschul Druckvorlagen',
     ],
     lsiKeywords: [
-      'unterversorgter SPED-Markt Druckvorlagen',
-      'Förderschul-Thema Arbeitsblätter Etsy-Nische',
-      'gestufte Lernmaterialien Förderbedarf-Nische',
+      'Inklusion Förderbedarf visuelle Hilfen',
+      'angepasste Lernmaterialien Arbeitsblätter',
+      'unterversorgter SPED-Markt Premium-Nische',
     ],
-    titleTag: 'Förderschul-Druckvorlagen verkaufen | LCS',
-    metaDescription: 'Förderschul-Druckvorlagen verkaufen als Premium-Nische auf Etsy und KDP. Angepasste Arbeitsblätter und visuelle Hilfen für den unterversorgten Inklusionsmarkt.',
+    titleTag: 'Förderschul-Druckvorlagen Nische Etsy | LCS',
+    metaDescription: 'Förderschul-Druckvorlagen als profitable Etsy-Nische entdecken. Angepasste Arbeitsblätter und visuelle Hilfen für den unterversorgten Inklusionsmarkt mit Premium-Preisen.',
   },
   hero: {
     title: 'Förderschul-Druckvorlagen verkaufen — Premium-Nische',

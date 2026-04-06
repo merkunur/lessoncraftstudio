@@ -18,7 +18,7 @@ const content: BlogContent = {
       'categorizzazione',
     ],
     titleTag: 'Schede Trova l\'Intruso da Stampare | LCS',
-    metaDescription: 'Schede trova l\'intruso da stampare per bambini. Esercizi di logica e ragionamento per esclusione con soluzioni — LessonCraftStudio — 33 generatori.'intruso da stampare per bambini. Esercizi di logica e ragionamento per esclusione con LessonCraftStudio — 33 generatori.',
+    metaDescription: 'Schede trova l\'intruso da stampare per bambini. Esercizi di logica e ragionamento per esclusione con soluzioni — LessonCraftStudio, 33 generatori.',
   },
   hero: {
     title: 'Schede Trova l\'Intruso: Come Vendere Online',

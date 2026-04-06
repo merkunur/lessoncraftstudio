@@ -18,7 +18,7 @@ const content: BlogContent = {
       'dicembre',
     ],
     titleTag: 'Schede Didattiche Inverno da Stampare | LCS',
-    metaDescription: 'Schede didattiche d\'inverno da stampare per bambini. Natale, neve e attività invernali per la scuola con LessonCraftStudio — 33 generatori, 11 lingue.'inverno da stampare per bambini. Natale, neve e attività invernali con LessonCraftStudio — 33 generatori, 11 lingue.',
+    metaDescription: 'Schede didattiche d\'inverno da stampare per bambini. Natale, neve e attivita invernali per la scuola con LessonCraftStudio — 33 generatori, 11 lingue.',
   },
   hero: {
     title: 'Stampabili Invernali: Vendere a Dicembre e Gennaio',

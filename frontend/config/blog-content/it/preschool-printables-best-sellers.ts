@@ -18,7 +18,7 @@ const content: BlogContent = {
       'primi concetti',
     ],
     titleTag: 'Schede Scuola Infanzia da Stampare | LCS',
-    metaDescription: 'Le migliori schede per la scuola dell\'infanzia da stampare. Attività educative per bambini 3-5 anni con pregrafismo — LessonCraftStudio — 33 generatori.'infanzia da stampare. Attività educative per bambini 3-5 anni con LessonCraftStudio — 33 generatori.',
+    metaDescription: 'Le migliori schede per la scuola dell\'infanzia da stampare. Attivita educative per bambini 3-5 anni con pregrafismo — LessonCraftStudio, 33 generatori.',
   },
   hero: {
     title: 'Stampabili per la Prescuola: I Best Seller',

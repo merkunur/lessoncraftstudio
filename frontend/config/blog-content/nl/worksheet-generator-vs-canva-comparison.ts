@@ -2,11 +2,11 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'werkblad generator vs canva vergelijking',
-    secondaryKeywords: ['printable werkblad generator vs', 'werkbladen werkblad generator', 'printables how-to gids'],
-    lsiKeywords: ['printable productie tips', 'werkbladen maken strategie', 'printable business how-to'],
-    titleTag: 'Werkblad Generator vs Canva: Vergelijking | LCS',
-    metaDescription: 'Werkblad Generator vs Canva: Vergelijking. Stap-voor-stap instructies en praktische tips voor printable. Verkoop op Etsy & KDP met commerciele licentie.',
+    primaryKeyword: 'werkbladgenerator vs Canva vergelijking',
+    secondaryKeywords: ['generator of Canva werkbladen maken', 'LessonCraftStudio vs Canva printables', 'automatisch werkbladen genereren'],
+    lsiKeywords: ['generator', 'Canva', 'vergelijking', 'snelheid', 'kwaliteit', 'automatisch'],
+    titleTag: 'Werkbladgenerator vs Canva: Vergelijking | Blog LessonCraftStudio',
+    metaDescription: 'Werkbladgenerator of Canva: wat is sneller en beter voor printable-verkopers? Eerlijke vergelijking van beide tools.',
   },
   hero: {
     title: 'Werkblad Generator vs Canva: Vergelijking',

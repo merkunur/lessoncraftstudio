@@ -2,25 +2,29 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'schaduwwerkbladen gratis online schaduw koppelen werkbladen maken',
+    primaryKeyword: 'schaduwspel werkblad gratis',
     secondaryKeywords: [
-      'schaduw koppelen werkbladen online maken gratis',
-      'silhouet koppelwerkblad generator',
-      'printbare schaduwpuzzel generator met antwoordblad',
-      'schaduw matching werkblad tool online',
+      'silhouetten koppelen gratis',
+      'schaduwspel werkblad gratis online maken',
+      'schaduw koppelen werkblad gratis printen PDF',
+      'silhouetten generator gratis zonder account',
+      'schaduwpuzzel werkblad gratis',
     ],
     lsiKeywords: [
-      'pixelniveau silhouet werkblad generator gratis',
-      'gesplitste-afbeelding koppelpuzzel generator',
-      'automatisch antwoordblad schaduwpuzzel tool',
+      'kleuters',
+      'kinderen',
+      'printbaar',
+      'PDF',
+      'antwoorden',
+      'puzzel',
     ],
-    titleTag: 'Schaduwwerkbladen gratis online | LessonCraftStudio',
-    metaDescription: 'Maak gratis schaduwwerkbladen online met pixelniveau silhouetten, Maak het Compleet modus en automatische. Verkoop op Etsy & KDP met commerciele licentie.',
+    titleTag: 'Gratis schaduwspel werkblad generator | Probeer online met watermerk',
+    metaDescription: 'Probeer de schaduwspel werkblad generator gratis online met watermerk. Pixelniveau silhouetten, twee modi, antwoordblad. Geen account nodig.',
   },
 
   hero: {
-    title: 'Gratis schaduw koppelen werkbladen maken',
-    tagline: 'Dubbele-modus schaduwwerkblad generator met pixelniveau silhouetten, Maak het Compleet beeldsplitsing en automatische antwoordbladen',
+    title: 'Gratis schaduwspel werkblad — Probeer online met watermerk',
+    tagline: 'Maak schaduw koppelen werkbladen met pixelniveau silhouetten en twee modi — probeer gratis zonder registratie.',
     description: 'Met onze gratis schaduwwerkbladen generator maakt u direct professionele schaduw koppelen activiteiten. Kies uit twee modi: Schaduw Koppelen plaatst gekleurde afbeeldingen naast automatisch gegenereerde zwarte silhouetten die kinderen aan elkaar koppelen. Maak het Compleet splitst afbeeldingen in helften die kinderen weer samenvoegen. De silhouetten worden gemaakt via echte pixelverwerking — geen vooraf gemaakte schaduwafbeeldingen. Elke generatie produceert een unieke schikking dankzij het derangement-algoritme dat triviale koppelingen uitsluit. Schakel labels aan voor letter-nummer steun bij jongere kinderen of uit voor een puur visuele uitdaging. Blader door meer dan 3.100 illustraties verdeeld over 104 thema\'s of upload uw eigen afbeeldingen. Het automatisch gegenereerde antwoordblad toont elke correcte koppeling. Exporteer als printklare PDF of JPEG op 300 DPI. De gratis proefversie biedt alle functies — geen account nodig. Downloads bevatten een watermerk dat u verwijdert met een commerciële licentie.',
   },
 

@@ -2,25 +2,29 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'gratis ontbrekende stukjes generator',
+    primaryKeyword: 'puzzel ontbrekende stukjes gratis',
     secondaryKeywords: [
-      'ontbrekende stukjes puzzel online maken gratis',
-      'legpuzzel werkblad generator',
-      'printbare ontbrekende stukjes generator met antwoordblad',
-      'puzzelstukjes werkblad tool online',
+      'visuele logica gratis',
+      'ontbrekende stukjes puzzel gratis online maken',
+      'ontbrekende stukjes gratis printen PDF',
+      'puzzel stukjes generator gratis zonder account',
+      'legpuzzel werkblad gratis',
     ],
     lsiKeywords: [
-      'zes stukvormen legpuzzel generator gratis',
-      'slimme stuk-extractie puzzel generator',
-      'automatisch antwoordblad ontbrekende stukjes tool',
+      'kleuters',
+      'kinderen',
+      'printbaar',
+      'PDF',
+      'antwoorden',
+      'puzzel',
     ],
-    titleTag: 'Ontbrekende stukjes gratis online | LessonCraftStudio',
-    metaDescription: 'Maak gratis ontbrekende stukjes puzzels online met 6 stukvormen, instelbare moeilijkheid, afleiders en 104. Verkoop op Etsy & KDP met commerciele licentie.',
+    titleTag: 'Gratis ontbrekende stukjes puzzel | Probeer online met watermerk',
+    metaDescription: 'Probeer de ontbrekende stukjes generator gratis online met watermerk. 6 stukvormen, instelbare moeilijkheid, antwoordblad. Geen account nodig.',
   },
 
   hero: {
-    title: 'Gratis ontbrekende stukjes puzzels maken',
-    tagline: 'Legpuzzel generator met 6 stukvormen, instelbare moeilijkheid, afleidersstukjes en automatische antwoordbladen',
+    title: 'Gratis ontbrekende stukjes puzzel — Probeer online met watermerk',
+    tagline: 'Maak legpuzzels met 6 stukvormen en instelbare moeilijkheid — probeer gratis zonder registratie.',
     description: 'Met onze gratis ontbrekende stukjes generator maakt u direct leuke legpuzzels voor kinderen. Een kleurrijke afbeelding bevat gaten en kinderen identificeren welk genummerd stukje in elke opening past. Kies uit 6 stukvormen die het visuele karakter van de puzzel veranderen: vierkant, cirkel, rechthoek staand of liggend, en ellips staand of liggend. Stel de moeilijkheid in met twee regelaars: 1 tot 5 ontbrekende stukjes bepalen het aantal gaten, en 2 tot 6 oplossingsopties bepalen hoeveel keuzes kinderen evalueren. Extra opties zijn afleidersstukjes die oplossen door eliminatie voorkomen. Het automatisch gegenereerde antwoordblad markeert het juiste stukje per gat. Blader door meer dan 3.100 illustraties verdeeld over 104 thema\'s of upload uw eigen afbeeldingen. Elk werkblad is volledig visueel zonder tekst, waardoor het universeel bruikbaar is. Exporteer als printklare PDF of JPEG op 300 DPI. De gratis proefversie biedt alle functies — geen account nodig. Downloads bevatten een watermerk dat u verwijdert met een commerciële licentie.',
   },
 

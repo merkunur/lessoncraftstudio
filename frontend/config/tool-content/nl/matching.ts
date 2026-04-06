@@ -2,25 +2,29 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'gratis koppelwerkbladen generator',
+    primaryKeyword: 'verbind werkbladen gratis',
     secondaryKeywords: [
-      'koppelwerkbladen online maken gratis',
-      'trek-een-lijn verbindingswerkbladen gratis',
-      'koppelactiviteit generator gratis proberen',
-      'afbeelding koppelwerkblad generator met thema\'s',
+      'koppelen werkblad gratis',
+      'verbind werkbladen gratis online maken',
+      'koppelwerkblad gratis printen PDF',
+      'koppelen werkblad gratis zonder account',
+      'trek-een-lijn werkblad gratis',
     ],
     lsiKeywords: [
-      'vier-modus koppelwerkblad generator gratis online',
-      'automatisch antwoordblad koppelactiviteit gratis',
-      'beginletter afbeelding woord koppelen gratis proefversie',
+      'kleuters',
+      'groep 1',
+      'printbaar',
+      'PDF',
+      'antwoorden',
+      'letters',
     ],
-    titleTag: 'Koppelwerkbladen gratis online | LessonCraftStudio',
-    metaDescription: 'Maak gratis koppelwerkbladen met afbeeldingen online. 4 modi, automatisch antwoordblad, instelbare paren, 104. Verkoop op Etsy & KDP met commerciele licentie.',
+    titleTag: 'Gratis koppelwerkbladen generator | Probeer online met watermerk',
+    metaDescription: 'Probeer de koppelwerkbladen generator gratis online met watermerk. 4 modi, automatisch antwoordblad, instelbare paren, 104 thema\'s. Geen account nodig.',
   },
 
   hero: {
-    title: 'Gratis koppelwerkbladen online maken',
-    tagline: 'Maak trek-een-lijn koppelwerkbladen met vier modi en automatisch antwoordblad — gratis proefversie met watermerk',
+    title: 'Gratis koppelwerkbladen — Probeer online met watermerk',
+    tagline: 'Maak trek-een-lijn koppelwerkbladen met vier modi en antwoordblad — probeer gratis zonder registratie.',
     description: 'Maak koppelwerkbladen waarbij kinderen paren verbinden door lijnen te trekken tussen twee kolommen. Met deze gratis online tool genereert u professionele trek-een-lijn werkbladen met vier koppelmodi in één generator. Beginletter modus plaatst afbeeldingen links en hun eerste letters rechts — ideaal voor kleuters die het alfabet leren. Afbeelding+Woord modus toont gelabelde paren voor woordenschatversterking. Gemengde Modus combineert afbeeldingen en woorden in gevarieerde patronen. Aangepast Woord modus koppelt afbeeldingen aan uw eigen termen voor spellingoefening. Kies uit 104 thematische collecties met meer dan 3.100 illustraties, stel 4, 5 of 6 paren per werkblad in, en schakel itemnummers en opsommingstekens naar wens in of uit. Het antwoordblad met verbindingslijnen wordt automatisch meegegenereerd. De tool ondersteunt 11 talen met gelokaliseerde afbeeldingsnamen. U kunt de tool direct in uw browser gebruiken — geen account, geen software, geen creditcard nodig. De gratis proefversie biedt alle functies met een watermerk op downloads. Ideaal voor ouders van kleuters, leerkrachten in de onderbouw, en iedereen die koppelwerkbladen wil uitproberen.',
   },
 

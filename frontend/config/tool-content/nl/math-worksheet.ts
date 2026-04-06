@@ -2,25 +2,29 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'gratis rekenbladen generator online',
+    primaryKeyword: 'reken werkblad generator gratis',
     secondaryKeywords: [
-      'rekenbladen online maken gratis',
-      'gratis algebra beeldpuzzels generator',
-      'rekenwerkblad generator gratis downloaden',
-      'visuele algebra puzzels gratis printen',
+      'sommen werkbladen gratis',
+      'rekenwerkblad gratis online maken',
+      'sommen werkbladen gratis printen PDF',
+      'reken werkblad generator gratis zonder account',
+      'algebra puzzels werkblad gratis',
     ],
     lsiKeywords: [
-      'visuele algebra puzzel online maken',
-      'beeldvergelijking werkblad generator',
-      'afbeeldingsvariabele rekenactiviteit gratis',
+      'basisschool',
+      'groep 4',
+      'printbaar',
+      'PDF',
+      'antwoorden',
+      'rekenen',
     ],
-    titleTag: 'Rekenbladen gratis online maken | LessonCraftStudio',
-    metaDescription: 'Maak gratis rekenbladen online met visuele algebra puzzels. Vier moeilijkheidsniveaus, gegarandeerde unieke. Verkoop op Etsy & KDP met commerciele licentie.',
+    titleTag: 'Gratis reken werkblad generator | Probeer online met watermerk',
+    metaDescription: 'Probeer de reken werkblad generator gratis online met watermerk. Visuele algebra puzzels, vier niveaus, printklare PDF. Geen account nodig.',
   },
 
   hero: {
-    title: 'Gratis rekenbladen online maken met algebra puzzels',
-    tagline: 'Maak gratis visuele algebra puzzels met afbeeldingen als variabelen',
+    title: 'Gratis reken werkblad generator — Probeer online met watermerk',
+    tagline: 'Maak visuele algebra puzzels met afbeeldingen als variabelen — probeer gratis zonder registratie.',
     description: 'Probeer onze gratis proefversie met watermerk om rekenbladen te maken met visuele algebra puzzels — direct in uw browser, zonder account of registratie. Elk werkblad presenteert een set gekoppelde vergelijkingen waarbij afbeeldingen onbekende variabelen vervangen. Gebruikers bepalen welke numerieke waarde elk plaatje voorstelt. Vier moeilijkheidsniveaus schalen van twee symbolen met eenvoudige optelling tot vier gelijktijdige onbekenden met gemengde bewerkingen. Een ingebouwde algebraïsche oplosser garandeert dat elke puzzel precies één correcte oplossing heeft. Kies Alleen Optellen of Optellen & Aftrekken, stel het getallenbereik in en bepaal het aantal puzzels per pagina van 1 tot 6. Selecteer afbeeldingen uit meer dan 104 thematische collecties of upload uw eigen PNG of JPEG. Download als printklare PDF of hoge-resolutie JPEG. De gratis proefversie bevat alle functies met een watermerk op downloads.',
   },
 

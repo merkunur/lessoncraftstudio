@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'grafiekwerkbladen maken verkopen etsy',
+    primaryKeyword: 'grafiek werkbladen maken',
     secondaryKeywords: [
-      'telgrafiek werkbladen maken om te verkopen',
-      'grafiek tellen werkbladgenerator commercieel gebruik',
-      'printbare pictogram werkbladen voor Etsy en KDP',
-      'staafdiagram tel werkbladen met automatische antwoordsleutels',
+      'tellen en turven werkblad',
+      'plaatjesgrafiek werkblad generator',
+      'staafdiagram werkblad kinderen',
+      'printbare telwerkbladen maken',
     ],
     lsiKeywords: [
-      'verspreid 4x5 beeldraster gegevensverzameling tel werkblad generator',
-      'dual-canvas antwoordsleutel geel gemarkeerde cellen automatisch gegenereerde oplossing',
-      'willekeurige verdeling 6 beeldtypes 1-5 elk unieke generatie generator',
-      'plaatjesgrafiek werkbladen verkopen op Etsy',
-      'Amazon KDP gegevensvaardigheden werkboeken met staafdiagrammen',
-      'commerciële licentie grafiek tellen werkblad tool',
+      'grafiek',
+      'tellen',
+      'staafdiagram',
+      'pictogram',
+      'antwoordsleutel',
+      'werkblad',
     ],
-    titleTag: 'Grafiekwerkbladen maken en verkopen | LessonCraftStudio',
-    metaDescription: 'Maak grafiekwerkbladen met 4x5 rasters en automatische antwoordsleutels. Verkoop op Etsy, Bol.com en KDP. Taalonafhankelijk formaat voor de NL markt.',
+    titleTag: 'Grafiek werkbladen maken | LessonCraftStudio',
+    metaDescription: 'Maak grafiek- en telwerkbladen met plaatjesrasters en automatische antwoordsleutels. Taalonafhankelijk formaat, PDF-export. Gratis proberen.',
   },
 
   hero: {

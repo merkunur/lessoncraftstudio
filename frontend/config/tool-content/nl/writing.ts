@@ -2,25 +2,29 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'schrijfwerkbladen gratis online',
+    primaryKeyword: 'schrijfmotoriek werkbladen gratis',
     secondaryKeywords: [
-      'schrijfoefeningen werkblad online maken',
-      'letter-overtrek werkbladen gratis proberen',
-      'schrijfwerkbladen generator met streekvolgorde',
-      'schrijfoefeningen generator drie oefenmodi',
+      'schrijfoefeningen gratis printen',
+      'schrijfwerkbladen gratis online maken',
+      'schrijfoefeningen gratis printen PDF',
+      'schrijfmotoriek generator gratis zonder account',
+      'letter overtrekken werkblad gratis',
     ],
     lsiKeywords: [
-      'pijl-streekorde schrijfwerkbladen online',
-      'vervagende overtrek letteroefening werkblad tool',
-      'verbonden en blokschrift schrijfgenerator gratis',
+      'kleuters',
+      'groep 1',
+      'printbaar',
+      'PDF',
+      'fijne motoriek',
+      'letters',
     ],
-    titleTag: 'Schrijfwerkbladen gratis online | LessonCraftStudio',
-    metaDescription: 'Maak online gratis schrijfwerkbladen met drie oefenmodi, vijf letterstijlen en pijlgeleide streekvolgorde. Verkoop op Etsy & KDP met commerciële licentie.',
+    titleTag: 'Gratis schrijfmotoriek werkbladen | Probeer online met watermerk',
+    metaDescription: 'Probeer de schrijfwerkbladen generator gratis online met watermerk. Drie oefenmodi, vijf letterstijlen, pijlgeleide streekvolgorde. Geen account nodig.',
   },
 
   hero: {
-    title: 'Gratis schrijfwerkbladen online maken',
-    tagline: 'Maak letteroefenbladen met drie progressieve modi, pijlgeleide streekvolgorde en vervagende lettergidsen die schrijfvaardigheid opbouwen van volledig overtrekken naar zelfstandig schrijven',
+    title: 'Gratis schrijfoefeningen — Probeer online met watermerk',
+    tagline: 'Maak schrijfmotoriek werkbladen met drie progressieve modi en pijlgeleide streekvolgorde — probeer gratis zonder registratie.',
     description: 'Probeer onze schrijfwerkbladen generator gratis en maak direct professionele letteroefenbladen in uw browser. U krijgt toegang tot alle functies zonder registratie of download: drie oefenmodi (Overtrekken, Vervagend Overtrekken en Begeleid Kopiëren), vijf letterstijlen inclusief pijlgeleide streekvolgorde, voorbereidende streekoefeningen voor fijne motoriek, en meer dan 3.100 thematische illustraties. Elke rij op het werkblad is onafhankelijk configureerbaar met een eigen oefenmodus, letterstijl en inhoudsbron. Exporteer als printklare PDF of hoge-resolutie JPEG op ongeveer 300 DPI. De gratis proefversie bevat een watermerk op downloads zodat u de tool volledig kunt evalueren voordat u besluit een licentie aan te schaffen. Ideaal voor ouders die thuis oefenmateriaal willen maken, leerkrachten die gedifferentieerde werkbladen nodig hebben, en iedereen die professionele schrijfoefeningen wil genereren zonder ontwerpervaring.',
   },
 

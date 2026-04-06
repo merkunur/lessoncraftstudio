@@ -2,25 +2,29 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'gratis patronen herkennen werkbladen',
+    primaryKeyword: 'logische reeksen oefeningen gratis',
     secondaryKeywords: [
-      'patronen werkbladen online maken gratis',
-      'patroonvoltooiing werkbladen generator',
-      'patronenherkenning werkblad generator negen typen',
-      'rastergebaseerde patronen werkblad gratis proberen',
+      'patroonherkenning gratis',
+      'logische reeksen werkblad gratis online maken',
+      'patronen werkblad gratis printen PDF',
+      'patroonherkenning generator gratis zonder account',
+      'patronen herkennen werkblad gratis',
     ],
     lsiKeywords: [
-      'visuele patronenherkenning werkbladen online',
-      'nul-tekst patroonvoltooiing werkblad tool',
-      'AB ABC ABCD patroonreeks werkblad gratis',
+      'kleuters',
+      'groep 2',
+      'printbaar',
+      'PDF',
+      'antwoorden',
+      'patronen',
     ],
-    titleTag: 'Patronen herkennen gratis online | LessonCraftStudio',
-    metaDescription: 'Maak patronen werkbladen met negen patroontypen, twee vraagmodi en per-oefening configuratie. Probeer gratis met watermerk, geen registratie nodig.',
+    titleTag: 'Gratis patroonherkenning werkbladen | Probeer online met watermerk',
+    metaDescription: 'Probeer de patronen werkbladen generator gratis online met watermerk. Negen patroontypen, twee vraagmodi, antwoordblad. Geen account nodig.',
   },
 
   hero: {
-    title: 'Gratis patronen herkennen werkbladen online',
-    tagline: 'Genereer rastergebaseerde patronenherkenning werkbladen met negen patroontypen, twee vraagmodi en per-oefening onafhankelijke configuratie',
+    title: 'Gratis patroonherkenning werkbladen — Probeer online met watermerk',
+    tagline: 'Maak patronen werkbladen met negen patroontypen en twee vraagmodi — probeer gratis zonder registratie.',
     description: 'Probeer onze patronen werkbladen generator gratis en maak direct patroonvoltooiing werkbladen in uw browser. Zonder registratie of download krijgt u toegang tot alle functies: negen patroontypen van AB tot ABCD, twee vraagmodi (Leeg Vak en Kies uit Opties), en per-oefening onafhankelijke configuratie voor 1 tot 8 oefeningen per pagina. Schakel Willekeurig Startpunt en Willekeurige Lege Positie in voor extra variatie. Kies uit meer dan 3.100 illustraties over 104 thema\'s of upload eigen afbeeldingen. Elk werkblad is volledig visueel zonder tekst op de uitvoer, inclusief automatisch gegenereerd antwoordblad. Exporteer als printklare PDF of hoge-resolutie JPEG. De gratis proefversie bevat een watermerk op downloads zodat u de tool volledig kunt evalueren. Ideaal voor ouders die patronen willen oefenen, leerkrachten die gedifferentieerde werkbladen nodig hebben, en iedereen die professionele patroonactiviteiten wil genereren.',
   },
 

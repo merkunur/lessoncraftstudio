@@ -3,10 +3,10 @@ import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
     primaryKeyword: 'NT2 werkbladen wereldwijde markt',
-    secondaryKeywords: ['printable NT2 werkbladen strategie', 'werkbladen NT2 werkbladen verkopen', 'educatieve printables wereldwijde markt'],
-    lsiKeywords: ['printable niche NT2 werkbladen', 'seizoensgebonden printables', 'thematische werkbladen verkopen'],
-    titleTag: 'NT2 Werkbladen: De Wereldwijde Markt | LCS',
-    metaDescription: 'NT2 Werkbladen: De Wereldwijde Markt. Ontdek welke producten het beste verkopen, wanneer u moet beginnen en hoe u maximale omzet genereert.',
+    secondaryKeywords: ['ESL werkbladen verkopen internationaal', 'Engels leren werkbladen Etsy', 'taalverwerving printables maken'],
+    lsiKeywords: ['NT2', 'ESL', 'taalverwerving', 'anderstalig', 'inburgering', 'woordenschat'],
+    titleTag: 'NT2 en ESL Werkbladen: Wereldwijde Markt | Blog LessonCraftStudio',
+    metaDescription: 'De markt voor NT2 en ESL werkbladen groeit wereldwijd. Verkoop taalverwervingswerkbladen aan een internationaal publiek.',
   },
   hero: {
     title: 'NT2 Werkbladen: De Wereldwijde Markt',

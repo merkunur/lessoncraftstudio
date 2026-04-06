@@ -2,20 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Printables huisdieren voor Etsy | LessonCraftStudio',
-    metaDescription: 'Verkoop printables met huisdieren op Etsy en KDP. Productideeën voor werkbladen met honden, katten en konijnen die altijdgroene omzet opleveren.',
+    titleTag: 'Huisdieren printables ideeën | Werkbladen voor Etsy & KDP',
+    metaDescription: 'Ontdek winstgevende huisdieren printable ideeën. Maak werkbladen met honden, katten en konijnen om te verkopen op Etsy, Amazon KDP en Gumroad.',
 
-    primaryKeyword: 'printables huisdieren voor Etsy',
+    primaryKeyword: 'huisdieren werkbladen verkopen',
     secondaryKeywords: [
-      'huisdieren werkbladen Etsy verkopen',
-      'huisdierenthema printable business starten',
-      'honden katten activiteitenboeken KDP',
-      'dierenverzorging printables niche',
+      'huisdieren printables ideeën Etsy',
+      'huisdierenthema activiteitenboek KDP',
+      'huisdieren kleurplaten verkopen online',
+      'dierenverzorging werkbladen printen',
     ],
     lsiKeywords: [
-      'huisdierenthema werkbladen maken',
-      'katten honden kleurplaten verkopen',
-      'dierenverzorging printbare producten winkel',
+      'hond kat konijn hamster',
+      'dierenverzorging voeding',
+      'huisdier liefde kinderen',
     ],
   },
   hero: {

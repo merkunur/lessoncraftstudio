@@ -2,11 +2,11 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'alfabet werkbladen bestsellers 2026',
-    secondaryKeywords: ['alfabet werkbladen werkbladen verkopen Etsy', 'alfabet werkbladen printables business', 'alfabet werkbladen puzzels online'],
-    lsiKeywords: ['alfabet werkbladen generator business', 'alfabet werkbladen werkbladen markt', 'educatieve alfabet werkbladen printables'],
-    titleTag: 'Alfabet Werkbladen: Bestsellers Analyse | LCS',
-    metaDescription: 'Alfabet Werkbladen: Bestsellers Analyse op Etsy en KDP. Ontdek de markt, productstrategieën en prijzen voor deze winstgevende niche in 2026.',
+    primaryKeyword: 'alfabet werkbladen verkopen Etsy',
+    secondaryKeywords: ['letters leren werkbladen maken', 'ABC werkbladen printable', 'alfabet oefenbladen basisschool'],
+    lsiKeywords: ['letters', 'alfabet', 'groep 1', 'schrijven', 'letterherkenning', 'kleuteronderwijs'],
+    titleTag: 'Alfabet Werkbladen Bestsellers op Etsy | Blog LessonCraftStudio',
+    metaDescription: 'Alfabet werkbladen zijn een evergreen bestseller. Ontdek hoe u ABC-oefenbladen maakt en verkoopt op Etsy en KDP.',
   },
   hero: {
     title: 'Alfabet Werkbladen: Bestsellers Analyse',

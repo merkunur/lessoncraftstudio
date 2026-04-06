@@ -2,26 +2,30 @@ import type { BundleContent } from '../types';
 
 const content: BundleContent = {
   seo: {
-    primaryKeyword: 'zoek vind pakket verkopers vier ontdekkingsgenerators etsy kdp',
+    primaryKeyword: 'zoekwerkbladen bundel',
     secondaryKeywords: [
-      'zoek en vind werkblad generator bundel verkopers',
-      'ik zie ik zie kruiswoordpuzzel bundel Etsy KDP',
-      'schattenjacht werkbladen bundel commercieel',
-      'zoek en tel activiteiten generators voor ondernemers',
+      'zoek en tel werkbladen pakket',
+      'zoek en vind generatoren bundel',
+      'kruiswoordpuzzel schattenjacht bundel Etsy KDP',
+      'zoekactiviteiten generators commercieel',
     ],
     lsiKeywords: [
-      'verborgen voorwerp ik zie ik zie werkblad pakket',
-      'meertalige zoekactiviteit collectie verkopers',
-      'commercieel kruiswoordpuzzel schattenjacht bundel',
-      'zoek en vind werkbladen verkopen 11 talen',
+      'basisschool',
+      'kleuters',
+      'werkbladen',
+      'printen',
+      'themaplaatjes',
+      'commerciële licentie',
+      'Etsy',
+      'KDP',
     ],
-    titleTag: 'Zoek en vind pakket voor verkopers | LessonCraftStudio',
-    metaDescription: 'Vier zoek- en ontdekkingsgenerators in een pakket: ik zie ik zie, verborgen voorwerpen, kruiswoordpuzzels en schattenjachten. $149 eenmalig.',
+    titleTag: 'Zoeken & Vinden bundel | 4 generatoren in één pakket',
+    metaDescription: 'Zoekwerkbladen bundel met 4 generatoren: ik zie ik zie, verborgen voorwerpen, kruiswoordpuzzels en schattenjachten. Gratis proberen met watermerk, commerciële licentie inbegrepen.',
   },
 
   hero: {
-    title: 'Vier ontdekkingsgenerators voor Etsy en KDP',
-    tagline: 'De meest taalrijke bundel: drie van vier apps produceren werkbladen in 11 talen',
+    title: 'Zoeken & Vinden bundel — 4 generatoren in één pakket',
+    tagline: 'De meest taalrijke bundel: drie van vier generatoren produceren werkbladen in 11 talen',
     description: 'Als u zoek- en ontdekkingsactiviteiten verkoopt op Etsy, Amazon KDP of Bol.com, is dit de meest taalrijke bundel in de collectie. Drie van vier apps produceren taalgevoelige werkbladen: afbeeldingslabels en taalspecifieke alfabetten in Zoek & Tel, vertaalde puzzelwoorden in Kruiswoordpuzzel, en volledig gelokaliseerde richtingsaanwijzingen in Schattenjacht. Elk vertaald werkblad wordt een unieke productvermelding met vrijwel nul concurrentie op niet-Engelstalige markten. De bundel verenigt vier verschillende activiteitsformaten: Ik Zie Ik Zie scènes, visuele verborgen voorwerp werkbladen met nul-overlap scènegeneratie, 15x15 kruiswoordrasters met afbeeldingsaanwijzingen, en coördinatenraster schattenjachten met opeenvolgende richtingsbewegingen. Alle vier generators produceren automatische antwoordbladen. Kies uit meer dan 100 thematische beeldsets of upload uw eigen afbeeldingen. De Nederlandse markt biedt extra kansen via Bol.com, terwijl u met de Volledige Toegang tier ook de Duitse, Franse en Scandinavische markten bedient. Elke generator bevat een gratis proefversie met watermerk zodat u elke functie kunt testen voordat u een licentie aanschaft.',
   },
 

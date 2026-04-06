@@ -2,11 +2,11 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'kdp vs etsy welke verdient meer',
-    secondaryKeywords: ['printable business strategie 2026', 'werkbladen verkopen platform tips', 'digitale producten online verkopen'],
-    lsiKeywords: ['printable verkoop optimalisatie', 'digitale download business', 'online printable winkel'],
-    titleTag: 'KDP vs Etsy: Welke Verdient Meer? | LCS',
-    metaDescription: 'KDP vs Etsy: Welke Verdient Meer?. Praktische strategieën en bewezen technieken voor printable verkopers in 2026.',
+    primaryKeyword: 'KDP vs Etsy verdiensten vergelijken',
+    secondaryKeywords: ['Amazon KDP of Etsy werkbladen', 'meer verdienen KDP of Etsy', 'printable platform verdienmodel'],
+    lsiKeywords: ['verdiensten', 'royalties', 'commissie', 'passief', 'vergelijking', 'inkomen'],
+    titleTag: 'KDP vs Etsy: Waar Verdient U Meer? | Blog LessonCraftStudio',
+    metaDescription: 'KDP of Etsy: welk platform levert meer op voor werkbladen-verkopers? Vergelijking van verdiensten, voor- en nadelen.',
   },
   hero: {
     title: 'KDP vs Etsy: Welke Verdient Meer?',

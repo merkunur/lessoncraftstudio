@@ -2,20 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Printables zomer — Business | LessonCraftStudio',
-    metaDescription: 'Start een printable business met zomerthema. Productideeën voor strand- en vakantieworkbladen die van mei tot augustus verkopen op Etsy en KDP.',
+    titleTag: 'Zomer printables ideeën | Werkbladen voor Etsy & KDP',
+    metaDescription: 'Ontdek winstgevende zomer printable ideeën. Maak werkbladen met strand, vakantie en zomerthema om te verkopen op Etsy, Amazon KDP en Gumroad.',
 
-    primaryKeyword: 'printables zomer ideeën business',
+    primaryKeyword: 'zomer werkbladen verkopen',
     secondaryKeywords: [
-      'zomer werkbladen Etsy verkopen',
-      'zomerthema printable business starten',
-      'strand activiteitenboeken KDP niche',
-      'vakantie printables voor verkopers',
+      'zomer printables ideeën Etsy',
+      'zomerthema activiteitenboek KDP',
+      'zomer kleurplaten verkopen online',
+      'strand werkbladen printen vakantie',
     ],
     lsiKeywords: [
-      'strandthema werkbladen maken',
-      'zomer kleurplaten printable winkel',
-      'vakantie puzzels printbare producten',
+      'strand zon zee schelpen',
+      'zomervakantie ijsje zwembad',
+      'zonnebloem watermeloen zomer',
     ],
   },
   hero: {

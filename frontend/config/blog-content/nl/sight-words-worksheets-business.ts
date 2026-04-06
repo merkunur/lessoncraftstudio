@@ -3,10 +3,10 @@ import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
     primaryKeyword: 'woordherkenning werkbladen business',
-    secondaryKeywords: ['printable woordherkenning werkbladen strategie', 'werkbladen woordherkenning werkbladen verkopen', 'educatieve printables werkbladen business'],
-    lsiKeywords: ['printable niche woordherkenning werkbladen', 'seizoensgebonden printables', 'thematische werkbladen verkopen'],
-    titleTag: 'Woordherkenning Werkbladen Business | LCS',
-    metaDescription: 'Woordherkenning Werkbladen Business. Ontdek welke producten het beste verkopen, wanneer u moet beginnen en hoe u maximale omzet genereert.',
+    secondaryKeywords: ['sight words werkbladen verkopen', 'frequente woorden oefenbladen', 'leeswoordjes werkbladen Etsy'],
+    lsiKeywords: ['woordherkenning', 'lezen', 'frequentie', 'oefenen', 'herhaling', 'taal'],
+    titleTag: 'Woordherkenning Werkbladen als Business | Blog LessonCraftStudio',
+    metaDescription: 'Woordherkenning werkbladen helpen kinderen lezen. Start een business met sight words printables voor de Nederlandse markt.',
   },
   hero: {
     title: 'Woordherkenning Werkbladen Business',

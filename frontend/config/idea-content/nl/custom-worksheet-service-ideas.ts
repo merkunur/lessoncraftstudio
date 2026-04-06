@@ -2,20 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Werkbladen-op-maat — Business | LessonCraftStudio',
-    metaDescription: 'Werkbladen-op-maat service ideeën voor freelance verkopers. Bied gepersonaliseerde werkbladen aan met premium. Verkoop op Etsy & KDP met commerciele licentie.',
+    titleTag: 'Werkbladen op maat service ideeën | Printables voor Etsy & KDP',
+    metaDescription: 'Ontdek hoe u een werkbladen-op-maat service opzet. Bied gepersonaliseerde printables aan met premium prijzen voor leerkrachten en bijlescentra.',
 
-    primaryKeyword: 'werkbladen-op-maat service ideeën business',
+    primaryKeyword: 'werkbladen op maat verkopen',
     secondaryKeywords: [
-      'op maat werkbladen verkopen Etsy',
-      'gepersonaliseerde printable service business',
-      'werkbladen op bestelling leerkrachten',
-      'maatwerk werkbladen bijlescentra',
+      'werkbladen op maat service ideeën',
+      'gepersonaliseerde printables Etsy',
+      'maatwerk werkbladen leerkrachten',
+      'op bestelling werkbladen bijlescentra',
     ],
     lsiKeywords: [
-      'passend onderwijs differentiatie materiaal',
-      'terugkerende klantrelaties printable service',
-      'generator tools productietijd verkorten',
+      'differentiatie passend onderwijs',
+      'terugkerende klantrelaties freelance',
+      'productietijd generator tools',
     ],
   },
   hero: {

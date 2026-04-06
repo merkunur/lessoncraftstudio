@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'kleurplaten maken voor Etsy en KDP',
+    primaryKeyword: 'kleurplaten maken en verkopen',
     secondaryKeywords: [
-      'kleurplaten maken en verkopen',
-      'printbare kleurplaten Etsy winkel',
-      'kleurboek pagina\'s Amazon KDP',
-      'thematische kleurplaten verkopen op Bol.com',
+      'kleurplaat generator online',
+      'printbare kleurplaten maken',
+      'kleurboek pagina\'s ontwerpen',
+      'thematische kleurplaten kinderen',
     ],
     lsiKeywords: [
-      'kleurplaten bundels voor Etsy',
-      'kleurboek interieur voor Brave New Books',
-      'vrij canvas kleurplaat ontwerper',
-      'grijswaarden export kleurplaten maken',
-      'commerciële licentie kleurtool',
-      'kleurplaten productlijn opbouwen',
+      'kleurplaat',
+      'kleurboek',
+      'grijswaarden',
+      'thematisch',
+      'afbeeldingen',
+      'printbaar',
     ],
-    titleTag: 'Kleurplaten voor Etsy en KDP | LessonCraftStudio',
-    metaDescription: 'Leer hoe u kleurplaten maakt en verkoopt op Etsy, Amazon KDP en Bol.com. Vrij canvas, 3.100+ thema-afbeeldingen en grijswaarden-export.',
+    titleTag: 'Kleurplaten maken en verkopen | LessonCraftStudio',
+    metaDescription: 'Maak kleurplaten met 3.100+ thema-afbeeldingen en vrij canvas. Grijswaarden-export voor kleurboeken, PDF-download. Gratis proberen.',
   },
 
   hero: {

@@ -2,26 +2,30 @@ import type { BundleContent } from '../types';
 
 const content: BundleContent = {
   seo: {
-    primaryKeyword: 'rekenpakket etsy verkopers zes rekengenerators voordelig pakket generators',
+    primaryKeyword: 'rekenwerkbladen bundel',
     secondaryKeywords: [
-      'wiskunde werkblad generator bundel commercieel gebruik',
-      'rekenwerkbladen pakket verkopen Etsy KDP',
-      'printbare rekenactiviteiten bundel voor verkopers',
-      'wiskunde werkblad toolkit voor Bol.com verkopers',
+      'sommen werkbladen pakket',
+      'reken generatoren bundel',
+      'rekenwerkbladen pakket Etsy KDP',
+      'wiskunde werkblad generators bundel commercieel',
     ],
     lsiKeywords: [
-      'optelling aftrekken werkblad pakket Etsy',
-      'rekenpuzzel printbare collectie verkopers',
-      'commerciële licentie wiskunde werkbladen',
-      'bulk rekenwerkblad creatie tool online verkopen',
+      'basisschool',
+      'kleuters',
+      'werkbladen',
+      'printen',
+      'themaplaatjes',
+      'commerciële licentie',
+      'Etsy',
+      'KDP',
     ],
-    titleTag: 'Rekenpakket voor Etsy-verkopers | LessonCraftStudio',
-    metaDescription: 'Zes rekenwerkblad generators in een pakket. Maak optelling, aftrekken, codepuzzels, vergelijking en algebra werkbladen om te verkopen op Etsy en KDP. $49. $.',
+    titleTag: 'Rekenen bundel | 6 generatoren in één pakket',
+    metaDescription: 'Rekenwerkbladen bundel met 6 generatoren: optelling, aftrekken, codepuzzels, vergelijking en algebra. Gratis proberen met watermerk, commerciële licentie inbegrepen.',
   },
 
   hero: {
-    title: 'Zes rekengenerators in een voordelig pakket',
-    tagline: 'Bouw een complete wiskunde productlijn voor Etsy, Amazon KDP of Bol.com zonder afzonderlijke tools',
+    title: 'Rekenen bundel — 6 generatoren in één pakket',
+    tagline: 'Maak professionele rekenwerkbladen voor Etsy, KDP en Bol.com met zes gespecialiseerde generatoren',
     description: 'Als u rekenwerkbladen verkoopt op Etsy, Amazon KDP of Bol.com, weet u dat kopers variatie verwachten. Het Wiskunde Meester Pakket combineert zes gespecialiseerde generators die optelling, aftrekken, cryptaritmetische codepuzzels, groter-dan en kleiner-dan vergelijking, legpuzzel-raster rekenpuzzels en visuele algebra beeldvergelijkingen dekken. Elke generator produceert printklare PDF- en hoge-resolutie JPEG-bestanden met automatische antwoordbladen, instelbare moeilijkheid en meer dan 100 thematische beeldsets. Vijf van de zes apps zijn volledig visueel, wat betekent dat de werkbladen in elke taal werken omdat ze vertrouwen op afbeeldingen en cijfers in plaats van tekst. De zesde, Code-Optelling, voegt een taalgevoelige Woordonthulling-modus toe die alle 11 interfacetalen ondersteunt. Upload uw eigen PNG- en JPEG-bestanden voor merkgebonden producten die geen concurrent kan repliceren. Met een licentie genereert u onbeperkt werkbladen en verkoopt u ze op elk platform, inclusief de Nederlandse markt via Bol.com en Brave New Books. Elke generator bevat een gratis proefversie met watermerk zodat u elke functie kunt testen voordat u een licentie aanschaft.',
   },
 

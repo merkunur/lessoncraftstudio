@@ -2,26 +2,31 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'sudoku met afbeeldingen generator voor KDP-boeken',
+    primaryKeyword: 'sudoku printen',
     secondaryKeywords: [
-      'sudoku puzzels met plaatjes maken KDP',
-      'sudokuboeken voor kinderen Amazon KDP',
-      'afbeelding-sudoku generator commerciële licentie',
-      'sudoku werkbladen verkopen Etsy',
+      'sudoku generator',
+      'sudoku kinderen printen',
+      'sudoku met plaatjes',
+      'eigen sudoku maken',
     ],
     lsiKeywords: [
-      'digitale sudoku printables online bedrijf',
-      'commercieel gebruik plaatjes puzzel generator',
-      'printbare logica puzzel business tools',
+      'rooster',
+      'logica',
+      'cijfers',
+      'plaatjes',
+      'makkelijk',
+      'moeilijk',
+      '4x4',
+      '6x6',
     ],
-    titleTag: 'Sudoku met afbeeldingen voor KDP | LessonCraftStudio',
-    metaDescription: 'Maak sudoku-puzzels met afbeeldingen voor KDP-boeken en Etsy. Verschillende rastergroottes, thema\'s, antwoorden. Gratis proefversie met watermerk. $49 eenmalig.',
+    titleTag: 'Sudoku printen | Generator sudoku met plaatjes',
+    metaDescription: 'Maak sudoku\'s met plaatjes of cijfers, instelbare moeilijkheid. Automatische antwoorden, printbare PDF\'s. Gratis proberen — verkoop op Etsy & KDP.',
   },
 
   hero: {
-    title: 'Genereer sudoku met afbeeldingen voor KDP-boeken en Etsy-shop',
+    title: 'Sudoku printen — Generator sudoku met plaatjes en cijfers',
     tagline:
-      'Maak unieke sudoku-puzzels met plaatjes in plaats van cijfers — gratis proefversie met watermerk, commerciële licentie voor verkoop op alle platforms.',
+      'Maak sudoku\'s met plaatjes of cijfers in instelbare moeilijkheid — automatische antwoorden, printbare PDF\'s, probeer gratis met watermerk.',
     description:
       'Met de Sudoku met Afbeeldingen Generator maakt u professionele puzzelwerkbladen voor uw KDP-activiteitenboeken en Etsy-winkel. In plaats van traditionele cijfers gebruikt elke puzzel kleurrijke thematische illustraties, waardoor de sudoku\'s perfect geschikt zijn voor jonge kinderen die nog niet met getallen werken. Kies uit drie moeilijkheidsniveaus — Makkelijk, Gemiddeld en Moeilijk — en selecteer afbeeldingen uit 104 thematische collecties met meer dan 3100 illustraties. Omdat de puzzels puur visueel zijn, verkoopt u hetzelfde product wereldwijd zonder vertaalkosten. Elk werkblad genereert automatisch een antwoordblad, wat u uren bespaart bij het samenstellen van puzzelbundels. Het premium rasterontwerp met afwisselende blokkleuren en meerlaagse schaduwen onderscheidt uw producten van basale concurrenten op de markt. Exporteer printklare PDF\'s en JPEG\'s op 300 DPI in Letter-, A4- of aangepaste formaten — direct klaar voor Amazon KDP-binnenwerken of digitale downloads op Etsy.nl. Nederlandse uitgevers kunnen ook publiceren via Brave New Books voor de lokale markt. De commerciële licentie verleent volledige verkooprechten op alle platforms. Gratis proefversie met watermerk — test alle functies zonder registratie of creditcard.',
   },

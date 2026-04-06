@@ -2,20 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Printables voertuigen — Business | LessonCraftStudio',
-    metaDescription: 'Verkoop voertuigen printables op Etsy en Gumroad. Auto\'s, treinen en vliegtuigen productideeën voor uw printable business — altijdgroene niche het hele jaar.',
+    titleTag: 'Voertuigen printables ideeën | Werkbladen voor Etsy & KDP',
+    metaDescription: 'Ontdek winstgevende voertuigen printable ideeën. Maak werkbladen met auto\'s, treinen en vliegtuigen om te verkopen op Etsy, Amazon KDP en Gumroad.',
 
-    primaryKeyword: 'printables voertuigen ideeën business',
+    primaryKeyword: 'voertuigen werkbladen verkopen',
     secondaryKeywords: [
-      'transport werkbladen verkopen Etsy',
-      'voertuigenthema printable business ideeën',
-      'hulpdienstvoertuigen printables verkopen',
-      'bouwvoertuigen educatieve producten Gumroad',
+      'voertuigen printables ideeën Etsy',
+      'transport activiteitenboek KDP',
+      'voertuigen kleurplaten verkopen online',
+      'vervoer werkbladen printen',
     ],
     lsiKeywords: [
-      'brandweerauto trein vliegtuig werkbladen maken',
-      'verkeersdeelname basisschool materiaal',
-      'fiets boot helikopter printbare producten',
+      'auto trein vliegtuig bus',
+      'brandweerauto ambulance politie',
+      'fiets boot helikopter vervoer',
     ],
   },
   hero: {

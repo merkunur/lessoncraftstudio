@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'sorteerwerkbladen maken verkopen marktplaatsen',
+    primaryKeyword: 'sorteerwerkbladen maken',
     secondaryKeywords: [
-      'classificatiewerkbladen verkopen op Etsy',
-      'sorteerwerkbladen Amazon KDP maken',
-      'knip-en-sorteer werkbladen verkopen Bol.com',
-      'sorteeractiviteiten printbaar verkopen',
+      'classificatie werkblad generator',
+      'printbare sorteerwerkbladen',
+      'knip en sorteer werkblad',
+      'categorie werkbladen kinderen',
     ],
     lsiKeywords: [
-      'sorteerwerkbladen bundels voor Etsy winkel',
-      'classificatie werkboek Brave New Books',
-      'sorteerwerkblad generator commercieel',
-      'tweecategorie werkbladen productlijn',
-      'commerciële licentie sorteertool',
-      'sorteerwerkbladen catalogus opbouwen',
+      'sorteren',
+      'classificatie',
+      'categorie',
+      'knippen',
+      'werkblad',
+      'antwoordsleutel',
     ],
-    titleTag: 'Sorteerwerkbladen maken en verkopen | LessonCraftStudio',
-    metaDescription: 'Leer hoe u sorteerwerkbladen maakt en verkoopt op Etsy, Amazon KDP en Bol.com. Tweecategorie modus, knipgrids en automatische antwoordsleutels.',
+    titleTag: 'Sorteerwerkbladen maken | LessonCraftStudio',
+    metaDescription: 'Maak sorteerwerkbladen met tweecategorie modus en knipgrids. Thema-afbeeldingen, automatische antwoordsleutels, PDF-export. Gratis proberen.',
   },
 
   hero: {

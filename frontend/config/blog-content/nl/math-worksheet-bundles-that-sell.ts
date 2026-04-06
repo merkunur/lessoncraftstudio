@@ -2,19 +2,11 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'reken werkbladen bundels die verkopen 2026',
-    secondaryKeywords: [
-      'wiskundige werkbladen bundels Etsy',
-      'reken bundels printables strategie',
-      'wiskunde pakket verkopen online',
-    ],
-    lsiKeywords: [
-      'werkbladen bundelen strategie',
-      'reken printables bundels',
-      'Etsy bundel prijsstrategie',
-    ],
-    titleTag: 'Reken Werkbladen Bundels Die Verkopen | LCS',
-    metaDescription: 'Ontdek welke reken werkbladen bundels het beste verkopen op Etsy. Samenstelling, prijzen en marketingstrategieën voor maximale omzet in 2026.',
+    primaryKeyword: 'rekenwerkbladen bundels die verkopen',
+    secondaryKeywords: ['wiskunde bundels Etsy populair', 'rekenbundel samenstellen verkopen', 'rekenwerkbladen pakket maken'],
+    lsiKeywords: ['rekenen', 'bundel', 'pakket', 'waarde', 'combinatie', 'premium'],
+    titleTag: 'Rekenwerkbladen Bundels Die Goed Verkopen | Blog LessonCraftStudio',
+    metaDescription: 'Ontdek welke rekenwerkbladen bundels het beste verkopen op Etsy. Tips voor het samenstellen van winstgevende rekenpakketten.',
   },
   hero: {
     title: 'Reken Werkbladen Bundels Die Verkopen in 2026',

@@ -2,25 +2,29 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'teken werkbladen kleurwerkbladen gratis maak rasterteken',
+    primaryKeyword: 'tekenen en kleuren gratis',
     secondaryKeywords: [
-      'rastertekenen werkbladen online maken',
-      'teken en kleur werkbladen gratis proberen',
-      'rasterreproductie werkbladen generator gratis',
-      'cel-voor-cel tekenwerkblad generator online',
+      'tekenactiviteit gratis printen',
+      'tekenen en kleuren werkblad gratis online maken',
+      'rastertekenen werkblad gratis printen PDF',
+      'teken werkblad gratis zonder account',
+      'tekenen en kleuren generator gratis',
     ],
     lsiKeywords: [
-      'dubbel raster teken werkbladen gratis online',
-      'aanpasbaar aanwijzingspercentage werkblad tool',
-      'symmetrie spiegelmodus tekenwerkblad gratis',
+      'kleuters',
+      'kinderen',
+      'printbaar',
+      'PDF',
+      'creatief',
+      'tekenen',
     ],
-    titleTag: 'Teken- en kleurwerkbladen gratis | LessonCraftStudio',
-    metaDescription: 'Maak rasterteken werkbladen met dubbele rasters, aanpasbaar aanwijzingspercentage en drie symmetriemodi. Verkoop op Etsy & KDP met commerciele licentie.',
+    titleTag: 'Gratis tekenen en kleuren werkbladen | Probeer online met watermerk',
+    metaDescription: 'Probeer de teken- en kleurwerkbladen generator gratis online met watermerk. Dubbele rasters, drie symmetriemodi, printklare PDF. Geen account nodig.',
   },
 
   hero: {
-    title: 'Gratis teken- en kleurwerkbladen online maken',
-    tagline: 'Genereer dubbel-raster tekenwerkbladen met aanpasbaar aanwijzingspercentage, drie symmetriemodi en puur visuele nul-tekst uitvoer',
+    title: 'Gratis tekenen en kleuren — Probeer online met watermerk',
+    tagline: 'Maak rasterteken werkbladen met dubbele rasters en drie symmetriemodi — probeer gratis zonder registratie.',
     description: 'Probeer onze rastertekenen werkbladen generator gratis en maak direct professionele teken- en kleurwerkbladen in uw browser. Zonder registratie of download krijgt u toegang tot alle functies: dubbel rastersysteem met oefenraster en hulpraster, aanpasbaar aanwijzingspercentage van 10% tot 75%, rasterafmetingen van 3x3 tot 10x10, en drie symmetriemodi (Willekeurig, Horizontale spiegeling, Verticale spiegeling). Kies uit meer dan 3.000 zwart-wit contourillustraties over 100+ collecties of upload eigen afbeeldingen. Exporteer als printklare PDF of hoge-resolutie JPEG op 300 DPI. De gratis proefversie bevat een watermerk op downloads zodat u de tool volledig kunt evalueren. Ideaal voor ouders die creatieve tekenactiviteiten zoeken, leerkrachten die visueel-ruimtelijke werkbladen nodig hebben, en iedereen die professionele rastertekenoefeningen wil genereren zonder ontwerpervaring.',
   },
 

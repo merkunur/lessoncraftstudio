@@ -2,25 +2,29 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'gratis sudoku met afbeeldingen kinderen',
+    primaryKeyword: 'sudoku gratis printen',
     secondaryKeywords: [
-      'plaatjes sudoku online maken kinderen',
-      'sudoku met plaatjes gratis printen',
-      'afbeelding sudoku puzzel 4x4 voor kinderen',
-      'gratis sudoku werkblad met afbeeldingen downloaden',
+      'sudoku generator gratis',
+      'sudoku gratis online maken',
+      'sudoku gratis printen PDF',
+      'sudoku generator gratis zonder account',
+      'sudoku met afbeeldingen gratis',
     ],
     lsiKeywords: [
-      '4×4 raster afbeelding logica puzzel',
-      'drie moeilijkheidsniveaus sudoku kinderen',
-      'automatisch antwoordblad sudoku generator',
+      'kinderen',
+      'kleuters',
+      'printbaar',
+      'PDF',
+      'antwoorden',
+      'puzzel',
     ],
-    titleTag: 'Sudoku afbeeldingen gratis kinderen | LessonCraftStudio',
-    metaDescription: 'Maak gratis sudoku met afbeeldingen voor kinderen. 4×4 rasters, drie moeilijkheidsniveaus, automatische. Verkoop op Etsy & KDP met commerciele licentie.',
+    titleTag: 'Gratis sudoku generator | Probeer online met watermerk',
+    metaDescription: 'Probeer de sudoku generator gratis online met watermerk. 4x4 rasters met afbeeldingen, drie moeilijkheidsniveaus, antwoordblad. Geen account nodig.',
   },
 
   hero: {
-    title: 'Gratis sudoku met afbeeldingen voor kinderen',
-    tagline: 'Maak gratis plaatjes sudoku puzzels met 4×4 rasters en drie moeilijkheidsniveaus',
+    title: 'Gratis sudoku printen — Probeer online met watermerk',
+    tagline: 'Maak plaatjes sudoku puzzels met 4x4 rasters en drie moeilijkheidsniveaus — probeer gratis zonder registratie.',
     description: 'Probeer onze gratis proefversie met watermerk om plaatjes sudoku voor kinderen te maken — direct in uw browser, zonder account of registratie. Kinderen vullen lege cellen in met de juiste afbeeldingen op basis van rij-en-kolom logica op een overzichtelijk 4×4 raster. Elke puzzel gebruikt precies 4 unieke afbeeldingen die elk exact één keer in elke rij en kolom moeten voorkomen — dezelfde regels als klassieke sudoku, maar met kleurrijke illustraties in plaats van cijfers. Kies uit drie moeilijkheidsniveaus: Makkelijk verwijdert 4 cellen, Gemiddeld verwijdert 6 en Moeilijk verwijdert 8. Selecteer afbeeldingen uit meer dan 104 thematische collecties met meer dan 3.100 illustraties, of upload uw eigen afbeeldingen. Het automatisch gegenereerde antwoordblad toont het volledig ingevulde raster. Download als printklare PDF of hoge-resolutie JPEG. De gratis proefversie bevat alle functies met een watermerk op downloads.',
   },
 

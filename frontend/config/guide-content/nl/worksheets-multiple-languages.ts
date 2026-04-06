@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'werkbladen in meerdere talen maken verkopen',
+    primaryKeyword: 'meertalige werkbladen maken',
     secondaryKeywords: [
-      'meertalige werkbladen generator',
-      'werkbladen vertalen en verkopen',
-      'educatieve printables meerdere talen',
-      'tweetalige werkbladen produceren',
+      'werkbladen meerdere talen generator',
+      'meertalige printables produceren',
+      'werkbladen vertalen verkopen',
+      'tweetalige werkbladen maken',
     ],
     lsiKeywords: [
-      'taalspecifieke opmaak tekensets diakritische tekens lettertype selectie voor talen',
-      'Duitse umlauten Franse accenten Spaanse tekens speciale karakters unicode ondersteuning',
-      'productie workflow meertalige batch vertaling moedertaalspreker review kwaliteitsborging',
-      'gelokaliseerde vermeldingstekst internationale printable workflow meertalige content tools',
-      'tekstlengte variatie samengestelde woorden culturele aanpassing werkblad lokalisatie',
-      'batchproductie meertalige contentgeneratie geautomatiseerde vertaaltools woordenschat databases',
+      'meertalig',
+      'vertaling',
+      'diakritisch',
+      'lokalisatie',
+      'workflow',
+      'tekenset',
     ],
-    titleTag: 'Werkbladen meerdere talen verkopen | LessonCraftStudio',
-    metaDescription: 'Leer werkbladen in meerdere talen maken en verkopen. Productie-workflows, tekenverwerking, kwaliteitsborging en vermeldingsoptimalisatie voor Etsy en KDP.',
+    titleTag: 'Meertalige werkbladen maken | LessonCraftStudio',
+    metaDescription: 'Leer meertalige werkbladen maken en verkopen. Productie-workflows, tekenverwerking en kwaliteitsborging voor 11 talen. Gratis proberen.',
   },
 
   hero: {

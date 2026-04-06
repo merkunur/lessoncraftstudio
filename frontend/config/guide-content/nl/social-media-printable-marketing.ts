@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'social media voor printables-verkopers',
+    primaryKeyword: 'social media printables promoten',
     secondaryKeywords: [
-      'Instagram marketing printables Etsy',
-      'TikTok promotie digitale producten',
-      'Facebook groepen printable bedrijf',
-      'social media strategie werkbladen verkopen',
+      'Instagram marketing printable verkoper',
+      'TikTok promotie werkbladen',
+      'Facebook groep printable bedrijf',
+      'social media strategie Etsy shop',
     ],
     lsiKeywords: [
-      'social media contentkalender printable producten visuele marketing',
-      'Instagram Reels TikTok video werkblad promotie engagement',
-      'Facebook community opbouwen educatieve printable doelgroep',
-      'social media automatisering planning tools printable verkopers',
-      'Pinterest Instagram crossplatform strategie digitale producten',
-      'social media analytics conversie optimalisatie printable verkoop',
+      'Instagram',
+      'TikTok',
+      'Facebook',
+      'contentkalender',
+      'engagement',
+      'promotie',
     ],
-    titleTag: 'Social media voor verkopers | LessonCraftStudio',
-    metaDescription: 'Social media voor printables-verkopers: Instagram, Facebook en TikTok strategieën om werkbladen te promoten en consistent meer te verkopen op Etsy en KDP.',
+    titleTag: 'Social media voor printable verkopers | LessonCraftStudio',
+    metaDescription: 'Social media voor printable verkopers: Instagram, Facebook en TikTok strategieën om werkbladen te promoten en meer te verkopen.',
   },
 
   hero: {

@@ -2,11 +2,11 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'buitenbeentje werkbladen verkopen 2026',
-    secondaryKeywords: ['buitenbeentje werkbladen verkopen Etsy', 'buitenbeentje printables business', 'buitenbeentje puzzels online'],
-    lsiKeywords: ['buitenbeentje generator business', 'buitenbeentje werkbladen markt', 'educatieve buitenbeentje printables'],
-    titleTag: 'Buitenbeentje Werkbladen Verkopen | LCS',
-    metaDescription: 'Buitenbeentje Werkbladen Verkopen op Etsy en KDP. Ontdek de markt, productstrategieën en prijzen voor deze winstgevende niche in 2026.',
+    primaryKeyword: 'welke hoort er niet bij werkbladen verkopen',
+    secondaryKeywords: ['odd one out werkbladen Etsy', 'categoriseren werkbladen printbaar', 'logisch denken werkbladen kinderen'],
+    lsiKeywords: ['categoriseren', 'logica', 'uitsluiten', 'denken', 'observatie', 'verschil'],
+    titleTag: 'Welke Hoort Er Niet Bij: Werkbladen Verkopen | Blog LessonCraftStudio',
+    metaDescription: 'Welke hoort er niet bij werkbladen stimuleren logisch denken. Verkoop deze populaire puzzelwerkbladen op Etsy.',
   },
   hero: {
     title: 'Buitenbeentje Werkbladen Verkopen',

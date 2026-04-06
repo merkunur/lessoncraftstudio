@@ -2,20 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Business digitale downloads | LessonCraftStudio',
-    metaDescription: 'Digitale downloads printables ideeën voor Etsy en Gumroad. Bouw een passief-inkomen business op met werkblad-PDF\'s die onbeperkt verkopen zonder voorraad.',
+    titleTag: 'Digitale downloads printables ideeën | Werkbladen voor Etsy & Gumroad',
+    metaDescription: 'Ontdek hoe u digitale werkblad-downloads verkoopt op Etsy en Gumroad. Bouw passief inkomen op met PDF printables zonder voorraad of verzendkosten.',
 
-    primaryKeyword: 'digitale downloads printables ideeën business',
+    primaryKeyword: 'digitale downloads werkbladen verkopen',
     secondaryKeywords: [
-      'digitale werkbladen verkopen Etsy',
-      'PDF printables business starten',
-      'downloadbare werkbladen Gumroad verkopen',
-      'passief inkomen educatieve printables',
+      'digitale printables ideeën Etsy',
+      'PDF werkbladen Gumroad verkopen',
+      'downloadbare printables business starten',
+      'passief inkomen digitale werkbladen',
     ],
     lsiKeywords: [
-      'geautomatiseerde digitale productlevering',
-      'Etsy.nl digitale downloads werkbladen',
-      'onbeperkte schaalbaarheid printable verkoop',
+      'geautomatiseerde productlevering',
+      'schaalbaar digitaal inkomen',
+      'Etsy.nl digitale downloads',
     ],
   },
   hero: {

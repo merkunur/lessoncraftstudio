@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'meertalige printables-business',
+    primaryKeyword: 'meertalig printable bedrijf',
     secondaryKeywords: [
-      'meertalige werkbladen verkopen Etsy',
-      'internationaal printable bedrijf opbouwen',
-      'werkbladen vertalen en verkopen',
-      'printables meerdere talen omzet',
+      'werkbladen meerdere talen verkopen',
+      'internationaal printables verkopen',
+      'meertalige werkbladen Etsy',
+      'printables vertalen en verkopen',
     ],
     lsiKeywords: [
-      'taaluitbreiding internationale markten lokalisatiestrategie Europese printable markten',
-      'Duitse educatieve markt Franse werkbladvraag Spaanse printable kopers',
-      'meertalige productcatalogus omzetvermenigvuldiging marktdiversificatie grensoverschrijdend verkopen',
-      'vertaalworkflow mondiale onderwijsmarkt taalspecifieke marktplaatsen internationale SEO',
-      'meertalig productportfolio taaldekking concurrentievoordeel onderbedeelde markten',
-      'grensoverschrijdende inkomstenstromen platforminternationalisering multimartdistributie',
+      'meertalig',
+      'internationaal',
+      'vertaling',
+      'lokalisatie',
+      'markt',
+      'taaluitbreiding',
     ],
-    titleTag: 'Meertalige printables-business | LessonCraftStudio',
-    metaDescription: 'Bouw een meertalige printables-business op en vermenigvuldig uw omzet. Leer welke talen u moet targeten, vertaalworkflows en platformstrategie.',
+    titleTag: 'Meertalig printable bedrijf | LessonCraftStudio',
+    metaDescription: 'Bouw een meertalig printable bedrijf op. Leer welke talen u moet targeten, vertaalworkflows en internationale platformstrategie.',
   },
 
   hero: {

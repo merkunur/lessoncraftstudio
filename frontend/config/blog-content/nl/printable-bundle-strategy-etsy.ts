@@ -2,11 +2,11 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'printable bundel strategie etsy',
-    secondaryKeywords: ['printable business strategie 2026', 'werkbladen verkopen platform tips', 'digitale producten online verkopen'],
-    lsiKeywords: ['printable verkoop optimalisatie', 'digitale download business', 'online printable winkel'],
-    titleTag: 'De Bundel Strategie Die Etsy Omzet Verdrievoudigt | LCS',
-    metaDescription: 'De Bundel Strategie Die Etsy Omzet Verdrievoudigt. Praktische strategieën en bewezen technieken voor printable verkopers in 2026.',
+    primaryKeyword: 'printable bundelstrategie Etsy winstgevend',
+    secondaryKeywords: ['werkbladen bundel maken Etsy', 'bundels samenstellen meer verkopen', 'printable bundel prijzen bepalen'],
+    lsiKeywords: ['bundel', 'strategie', 'waarde', 'pakket', 'korting', 'upsell'],
+    titleTag: 'Printable Bundelstrategie voor Etsy | Blog LessonCraftStudio',
+    metaDescription: 'Een goede bundelstrategie verdrievoudigt uw Etsy-omzet. Leer hoe u printable bundels samenstelt die goed verkopen.',
   },
   hero: {
     title: 'De Bundel Strategie Die Etsy Omzet Verdrievoudigt',

@@ -2,23 +2,23 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'commerciële licentie voor printables-verkopers',
+    primaryKeyword: 'commerciële licentie werkbladen',
     secondaryKeywords: [
-      'commerciële licentie printbare werkbladen',
-      'werkbladen commercieel verkopen Etsy Amazon',
-      'printable bedrijf licentiegids Nederland',
-      'werkblad generator commerciële rechten verkopers',
+      'werkbladen verkopen rechten en licentie',
+      'commercieel gebruik printables Etsy',
+      'licentie digitale downloads KDP',
+      'printable licentie twee niveaus uitgelegd',
     ],
     lsiKeywords: [
-      'commercieel gebruik licentie digitale downloads',
-      'printable verkoper licentievereisten Etsy KDP',
-      'Etsy digitale download commerciële licentie',
-      'Amazon KDP activiteitenboek licentie',
-      'werkblad generator licentie twee niveaus',
-      'commercieel versus persoonlijk gebruik printables',
+      'licentie',
+      'commercieel',
+      'rechten',
+      'verkopen',
+      'werkbladen',
+      'digitale downloads',
     ],
-    titleTag: 'Commerciële licentie voor verkopers | LessonCraftStudio',
-    metaDescription: 'Begrijp commerciële licenties voor het verkopen van werkbladen op Etsy, Amazon KDP en Bol.com. Twee niveaus uitgelegd: wat u mag verkopen en waar.',
+    titleTag: 'Commerciële licentie voor werkbladen | Gids voor printable-verkopers',
+    metaDescription: 'Alles over commerciële licenties voor werkbladen: wat u mag verkopen, op welke platforms, en hoe twee licentieniveaus werken voor Etsy en KDP.',
   },
 
   hero: {

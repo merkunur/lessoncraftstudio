@@ -2,11 +2,11 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'koppel werkbladen peutermarkt verkopen 2026',
-    secondaryKeywords: ['matching werkbladen kleuters verkopen', 'koppel activiteiten printables', 'peuter werkbladen Etsy business'],
-    lsiKeywords: ['koppelwerkbladen markt', 'peuter printables verkopen', 'kleuter activiteiten online'],
-    titleTag: 'Koppel Werkbladen voor de Peutermarkt | LCS',
-    metaDescription: 'Ontdek de winstgevende markt voor koppel werkbladen voor peuters en kleuters. Productstrategieën, prijzen en marketing voor Etsy-verkopers.',
+    primaryKeyword: 'koppelwerkbladen peutermarkt verkopen',
+    secondaryKeywords: ['matching werkbladen voor peuters', 'verbind de afbeeldingen werkbladen', 'peuterwerkbladen Etsy niche'],
+    lsiKeywords: ['koppelen', 'verbinden', 'peuter', 'herkenning', 'visueel', 'eenvoudig'],
+    titleTag: 'Koppelwerkbladen voor de Peutermarkt | Blog LessonCraftStudio',
+    metaDescription: 'Koppelwerkbladen voor peuters zijn een populaire niche. Leer hoe u matching werkbladen maakt en verkoopt aan ouders.',
   },
   hero: {
     title: 'Koppel Werkbladen voor de Peutermarkt: Verkoopgids',

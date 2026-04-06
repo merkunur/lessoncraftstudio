@@ -2,25 +2,28 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'generator rekenbladen voor Etsy- en KDP-verkopers',
+    primaryKeyword: 'reken werkblad generator',
     secondaryKeywords: [
-      'numerieke rekenwerkbladen maken voor Etsy',
-      'rekendrills generator Amazon KDP',
-      'sommenbladen met commerciële licentie',
-      'rekenbladen verkopen online',
+      'rekenwerkbladen maken',
+      'sommen werkbladen printen',
+      'generator rekenbladen',
+      'reken werkbladen op maat',
     ],
     lsiKeywords: [
-      'digitale algebra werkblad producten online bedrijf',
-      'printbare vergelijkingspuzzel business',
-      'commercieel gebruik algebraïsche werkblad generator',
+      'bewerkingen',
+      'hoofdrekenen',
+      'rekenen',
+      'basisschool',
+      'antwoorden',
+      'PDF',
     ],
-    titleTag: 'Rekenbladen generator voor verkopers | LessonCraftStudio',
-    metaDescription: 'Maak numerieke rekenbladen om te verkopen op Etsy, KDP en Bol.com. Optellen, aftrekken, vermenigvuldigen. Commerciële licentie. $49 eenmalig.',
+    titleTag: 'Reken werkblad generator | Sommen werkbladen maken',
+    metaDescription: 'Maak reken werkbladen op maat met automatische antwoorden. PDF 300 DPI, 11 talen. Gratis proberen — commerciële licentie voor Etsy & KDP.',
   },
 
   hero: {
-    title: 'Genereer numerieke rekenbladen voor Etsy-, KDP- en Bol.com-verkopers',
-    tagline: 'Professionele sommenbladen met commerciële licentie — gratis proefversie met watermerk.',
+    title: 'Reken werkblad generator — Sommen werkbladen maken en printen',
+    tagline: 'Maak rekenwerkbladen op maat met optellen, aftrekken, vermenigvuldigen en delen — automatische antwoorden, PDF 300 DPI.',
     description:
       'Genereer numerieke rekenbladen met optellen, aftrekken, vermenigvuldigen en delen — puur cijferwerk zonder afbeeldingen, perfect voor groep 4 tot en met 8. Tafels oefenen is een van de meest gezochte rekenthema\'s op de Nederlandse markt, en met deze generator maakt u in minuten professionele oefenbladen die u kunt verkopen op Etsy.nl, Amazon KDP en Bol.com. Configureer het getallenbereik, het aantal opgaven per pagina en de bewerkingstypen om werkbladen te produceren voor elk vaardigheidsniveau — van eenvoudige opteldrills voor beginners tot gemengde bewerkingen met grotere getallen voor gevorderden. Elk werkblad bevat een automatisch gegenereerd antwoordblad en wordt geëxporteerd als printklare PDF of JPEG op meer dan 400 DPI. De commerciële licentie verleent u volledige verkooprechten zonder royalty\'s. Probeer alle functies met de gratis proefversie — downloads bevatten een watermerk dat verdwijnt zodra u een licentie activeert.',
   },

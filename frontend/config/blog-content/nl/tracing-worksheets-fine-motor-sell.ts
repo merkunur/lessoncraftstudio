@@ -2,11 +2,11 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'overtrek werkbladen fijne motoriek verkopen 2026',
-    secondaryKeywords: ['overtrekwerkbladen verkopen Etsy', 'fijne motoriek werkbladen business', 'tracing worksheets printables'],
-    lsiKeywords: ['overtrekken oefenbladen markt', 'fijne motoriek printables', 'pengreep werkbladen verkopen'],
-    titleTag: 'Overtrek Werkbladen Verkopen: Fijne Motoriek | LCS',
-    metaDescription: 'Verkoop overtrek werkbladen voor fijne motoriek op Etsy. Ontdek de groeiende markt, productstrategieën en prijzen voor deze populaire niche.',
+    primaryKeyword: 'schrijfmotoriek werkbladen verkopen Etsy',
+    secondaryKeywords: ['overtrekken werkbladen peuters', 'traceren oefenbladen basisschool', 'fijne motoriek schrijfwerkbladen'],
+    lsiKeywords: ['overtrekken', 'traceren', 'motoriek', 'pengreep', 'lijnen', 'schrijven'],
+    titleTag: 'Schrijfmotoriek Werkbladen Verkopen op Etsy | Blog LessonCraftStudio',
+    metaDescription: 'Schrijfmotoriek werkbladen zijn essentieel voor jonge kinderen. Verkoop overtrekwerkbladen op Etsy aan ouders en leerkrachten.',
   },
   hero: {
     title: 'Overtrek Werkbladen Verkopen: Fijne Motoriek Niche',

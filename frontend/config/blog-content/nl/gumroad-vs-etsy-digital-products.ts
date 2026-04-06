@@ -2,11 +2,11 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'gumroad vs etsy digitale producten vergelijking',
-    secondaryKeywords: ['printable business strategie 2026', 'werkbladen verkopen platform tips', 'digitale producten online verkopen'],
-    lsiKeywords: ['printable verkoop optimalisatie', 'digitale download business', 'online printable winkel'],
-    titleTag: 'Gumroad vs Etsy voor Digitale Producten | LCS',
-    metaDescription: 'Gumroad vs Etsy voor Digitale Producten. Praktische strategieën en bewezen technieken voor printable verkopers in 2026.',
+    primaryKeyword: 'Gumroad vs Etsy digitale producten vergelijken',
+    secondaryKeywords: ['beste platform werkbladen verkopen', 'Gumroad of Etsy voor printables', 'digitale producten platform kiezen'],
+    lsiKeywords: ['platform', 'vergelijking', 'commissie', 'bereik', 'controle', 'kosten'],
+    titleTag: 'Gumroad vs Etsy voor Digitale Producten | Blog LessonCraftStudio',
+    metaDescription: 'Gumroad of Etsy: welk platform is beter voor printable-verkopers? Vergelijking van kosten, bereik en functionaliteiten.',
   },
   hero: {
     title: 'Gumroad vs Etsy voor Digitale Producten',

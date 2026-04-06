@@ -2,25 +2,29 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'gratis zoek en vind generator',
+    primaryKeyword: 'zoek en vind gratis printen',
     secondaryKeywords: [
-      'verborgen voorwerp werkbladen gratis online maken',
-      'gratis zoek voorwerpen werkblad generator',
-      'zoek en vind puzzels gratis maken zonder account',
-      'verborgen voorwerp activiteit online genereren',
+      'verborgen voorwerpen gratis',
+      'zoek en vind werkblad gratis online maken',
+      'verborgen voorwerpen gratis printen PDF',
+      'zoek en vind generator gratis zonder account',
+      'verborgen voorwerp puzzel gratis',
     ],
     lsiKeywords: [
-      'vind de verborgen voorwerpen vreemde eend dubbele activiteitsmodus generator',
-      'nul-overlap scènegeneratie adaptieve grootte algoritme',
-      'automatisch antwoordblad rode cirkel annotaties verborgen voorwerp creator',
+      'kleuters',
+      'kinderen',
+      'printbaar',
+      'PDF',
+      'antwoorden',
+      'puzzel',
     ],
-    titleTag: 'Zoek en vind gratis online maken | LessonCraftStudio',
-    metaDescription: 'Maak gratis verborgen voorwerp werkbladen online met twee zoek-en-vind modi, nul-overlap scènes, automatische. Verkoop op Etsy & KDP met commerciele licentie.',
+    titleTag: 'Gratis zoek en vind generator | Probeer online met watermerk',
+    metaDescription: 'Probeer de zoek en vind generator gratis online met watermerk. Twee zoek-en-vind modi, nul-overlap scènes, antwoordblad. Geen account nodig.',
   },
 
   hero: {
-    title: 'Gratis zoek en vind werkbladen online maken',
-    tagline: 'Maak verborgen voorwerp puzzels met twee activiteitsmodi, nul-overlap scènes en automatische antwoordbladen — direct in uw browser',
+    title: 'Gratis zoek en vind — Probeer online met watermerk',
+    tagline: 'Maak verborgen voorwerp puzzels met twee activiteitsmodi en antwoordbladen — probeer gratis zonder registratie.',
     description: 'Maak verborgen voorwerp werkbladen direct in uw browser zonder account of installatie. De gratis proefversie biedt alle functies: Vind de Verborgen Voorwerpen modus verspreidt 1 tot 5 verborgen objecten tussen 8 tot 12 afleiders over de pagina met een nul-overlap plaatsingsalgoritme, en Vind de Vreemde Eend modus rangschikt gekoppelde afbeeldingen met ongekoppelde items ertussen. Een legenda onderaan toont welke objecten gevonden moeten worden, waardoor werkbladen ook zonder tekst bruikbaar zijn. Het dubbele canvassysteem genereert automatisch een antwoordblad met rode cirkelannotaties naast elk werkblad. Kies uit 104 thematische beeldcollecties met meer dan 3.100 illustraties of upload uw eigen afbeeldingen. Puzzels zijn puur visueel en daarom universeel verkoopbaar over alle markten zonder vertaling. Exporteer als printklare PDF of hoge-resolutie JPEG. Downloads bevatten een watermerk in de gratis proefversie. Met een licentie verwijdert u het watermerk en ontgrendelt u commerciële verkooprechten.',
   },
 

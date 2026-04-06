@@ -2,19 +2,11 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'kruiswoordpuzzel boeken KDP niche 2026',
-    secondaryKeywords: [
-      'kruiswoordpuzzel boeken Amazon KDP',
-      'puzzelboeken publiceren KDP',
-      'kruiswoordraadsel boeken verkopen',
-    ],
-    lsiKeywords: [
-      'KDP puzzelboeken markt',
-      'kruiswoordpuzzels publiceren',
-      'Amazon puzzelboek niche',
-    ],
-    titleTag: 'Kruiswoordpuzzel Boeken KDP Niche Gids | LCS',
-    metaDescription: 'Ontdek hoe u kruiswoordpuzzel boeken publiceert op Amazon KDP. Nicheanalyse, formatting en marketingstrategieën voor de Nederlandse puzzelmarkt.',
+    primaryKeyword: 'kruiswoordpuzzelboeken KDP niche',
+    secondaryKeywords: ['kruiswoordpuzzels publiceren Amazon', 'puzzelboek KDP formatteren', 'kruiswoordpuzzel werkbladen verkopen'],
+    lsiKeywords: ['kruiswoordpuzzel', 'puzzelboek', 'KDP', 'woordenschat', 'taal', 'publiceren'],
+    titleTag: 'Kruiswoordpuzzelboeken op Amazon KDP | Blog LessonCraftStudio',
+    metaDescription: 'Publiceer kruiswoordpuzzelboeken op Amazon KDP. Ontdek waarom deze niche winstgevend is en hoe u puzzelboeken maakt.',
   },
   hero: {
     title: 'Kruiswoordpuzzel Boeken op Amazon KDP: Niche Gids',

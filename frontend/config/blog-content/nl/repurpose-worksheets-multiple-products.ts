@@ -3,10 +3,10 @@ import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
     primaryKeyword: 'werkbladen hergebruiken meerdere producten',
-    secondaryKeywords: ['printable werkbladen hergebruiken meerdere', 'werkbladen werkbladen hergebruiken', 'printables how-to gids'],
-    lsiKeywords: ['printable productie tips', 'werkbladen maken strategie', 'printable business how-to'],
-    titleTag: 'Werkbladen Hergebruiken voor Meerdere Producten | LCS',
-    metaDescription: 'Werkbladen Hergebruiken voor Meerdere Producten. Stap-voor-stap instructies en praktische tips voor printable. Verkoop op Etsy & KDP met commerciele licentie.',
+    secondaryKeywords: ['printables herbestemmen Etsy', 'één werkblad meerdere listings', 'content recyclen printable business'],
+    lsiKeywords: ['hergebruik', 'herbestemmen', 'variatie', 'efficiënt', 'listings', 'meervoudig'],
+    titleTag: 'Werkbladen Hergebruiken voor Meerdere Producten | Blog LessonCraftStudio',
+    metaDescription: 'Maak meerdere producten van dezelfde werkbladen. Slimme hergebruikstrategieën voor efficiënte printable-verkopers.',
   },
   hero: {
     title: 'Werkbladen Hergebruiken voor Meerdere Producten',

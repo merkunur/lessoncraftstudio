@@ -3,10 +3,10 @@ import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
     primaryKeyword: 'halloween printables verkopen oktober',
-    secondaryKeywords: ['printable halloween printables strategie', 'werkbladen halloween printables verkopen', 'educatieve printables verkopen oktober'],
-    lsiKeywords: ['printable niche halloween printables', 'seizoensgebonden printables', 'thematische werkbladen verkopen'],
-    titleTag: 'Halloween Printables Verkopen in Oktober | LCS',
-    metaDescription: 'Halloween Printables Verkopen in Oktober. Ontdek welke producten het beste verkopen, wanneer u moet beginnen en hoe u maximale omzet genereert.',
+    secondaryKeywords: ['Halloween werkbladen Etsy seizoen', 'griezelactiviteiten printbaar kinderen', 'herfst printables verkopen'],
+    lsiKeywords: ['halloween', 'oktober', 'griezel', 'herfst', 'pompoen', 'seizoensgebonden'],
+    titleTag: 'Halloween Printables Verkopen in Oktober | Blog LessonCraftStudio',
+    metaDescription: 'Halloween printables zijn een verkoophit in oktober. Bereid uw Etsy-shop voor met griezel- en herfstwerkbladen.',
   },
   hero: {
     title: 'Halloween Printables Verkopen in Oktober',

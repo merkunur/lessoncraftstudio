@@ -2,11 +2,11 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'bingo kaarten printable business 2026',
-    secondaryKeywords: ['bingo kaarten werkbladen verkopen Etsy', 'bingo kaarten printables business', 'bingo kaarten puzzels online'],
-    lsiKeywords: ['bingo kaarten generator business', 'bingo kaarten werkbladen markt', 'educatieve bingo kaarten printables'],
-    titleTag: 'Bingo Kaarten Printable Business Starten | LCS',
-    metaDescription: 'Bingo Kaarten Printable Business Starten op Etsy en KDP. Ontdek de markt, productstrategieën en prijzen voor deze winstgevende niche in 2026.',
+    primaryKeyword: 'bingokaarten printable business starten',
+    secondaryKeywords: ['bingo werkbladen verkopen Etsy', 'educatieve bingokaarten maken', 'printbare bingo activiteiten'],
+    lsiKeywords: ['bingo', 'kaarten', 'spelletjes', 'groepsactiviteit', 'feestje', 'educatief'],
+    titleTag: 'Bingokaarten Verkopen als Printable Business | Blog LessonCraftStudio',
+    metaDescription: 'Start een printable business met bingokaarten. Ontdek hoe u educatieve en thematische bingokaarten maakt en verkoopt.',
   },
   hero: {
     title: 'Bingo Kaarten Printable Business Starten',

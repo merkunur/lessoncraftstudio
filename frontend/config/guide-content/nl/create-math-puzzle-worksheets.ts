@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'rekenpuzzels maken verkopen printable',
+    primaryKeyword: 'rekenpuzzels maken',
     secondaryKeywords: [
-      'rekenpuzzel werkblad generator plaatjes',
-      'beeldreconstructie rekenpuzzels verkopen',
-      'printbare rekenpuzzels maken voor Etsy KDP',
-      'rastergebaseerde rekenpuzzels voor kinderen maken',
+      'reken werkblad puzzel generator',
+      'sommen puzzel met plaatjes',
+      'printbare rekenpuzzels kinderen',
+      'wiskunde puzzel werkblad maken',
     ],
     lsiKeywords: [
-      'plaatjespuzzel rekenactiviteit',
-      'vergelijkingen oplossen afbeelding samenstellen',
-      'visuele rekenpuzzels kleuter basisschool',
-      'rekenpuzzels verkopen op Etsy',
-      'Amazon KDP rekenpuzzel boeken',
-      'commerciële licentie puzzelmaker',
+      'rekenpuzzel',
+      'sommen',
+      'raster',
+      'afbeelding',
+      'puzzel',
+      'antwoordsleutel',
     ],
-    titleTag: 'Rekenpuzzels maken om te verkopen | LessonCraftStudio',
-    metaDescription: 'Maak rekenpuzzels waarbij kinderen sommen oplossen om afbeeldingen samen te stellen. Kies rastergroottes, bewerkingen en verkoop op Etsy of KDP.',
+    titleTag: 'Rekenpuzzels maken | LessonCraftStudio',
+    metaDescription: 'Maak rekenpuzzels waarbij sommen een afbeelding onthullen. Instelbare rastergrootte, bewerkingen en moeilijkheid, PDF-export. Gratis proberen.',
   },
 
   hero: {

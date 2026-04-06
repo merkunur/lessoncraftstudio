@@ -2,11 +2,11 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'gratis proefversie printables lead magnet',
-    secondaryKeywords: ['printable business strategie 2026', 'werkbladen verkopen platform tips', 'digitale producten online verkopen'],
-    lsiKeywords: ['printable verkoop optimalisatie', 'digitale download business', 'online printable winkel'],
-    titleTag: 'Proefversies als Lead Magnet voor Printable Verkoop | LCS',
-    metaDescription: 'Proefversies als Lead Magnet voor Printable Verkoop. Praktische strategieën en bewezen technieken voor. Verkoop op Etsy & KDP met commerciele licentie.',
+    primaryKeyword: 'gratis proefversie werkbladen als leadmagneet',
+    secondaryKeywords: ['proefwerkbladen voor emaillijst', 'leadmagneet printable business', 'gratis downloads voor klantwerving'],
+    lsiKeywords: ['leadmagneet', 'proefversie', 'klantwerving', 'emaillijst', 'watermerk', 'conversie'],
+    titleTag: 'Proefversie Werkbladen als Leadmagneet | Blog LessonCraftStudio',
+    metaDescription: 'Gebruik proefversies met watermerk als leadmagneet voor uw emaillijst. Effectieve strategie voor printable-verkopers.',
   },
   hero: {
     title: 'Proefversies als Lead Magnet voor Printable Verkoop',

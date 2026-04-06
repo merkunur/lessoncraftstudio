@@ -2,20 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Printables muziek om te verkopen | LessonCraftStudio',
-    metaDescription: 'Verkoop muziek printables op Etsy en Gumroad. Instrumenten, noten en ritme productideeën voor uw printable business — altijdgroene creatieve niche.',
+    titleTag: 'Muziek printables ideeën | Werkbladen voor Etsy & KDP',
+    metaDescription: 'Ontdek winstgevende muziek printable ideeën. Maak werkbladen met instrumenten, noten en ritme om te verkopen op Etsy, Amazon KDP en Gumroad.',
 
-    primaryKeyword: 'printables muziek om te verkopen',
+    primaryKeyword: 'muziek werkbladen verkopen',
     secondaryKeywords: [
-      'muziekthema werkbladen verkopen Etsy',
-      'instrumenten printable business ideeën',
-      'ritme noten educatieve producten verkopen',
-      'muziekonderwijs printables Gumroad KDP',
+      'muziek printables ideeën Etsy',
+      'muziekthema activiteitenboek KDP',
+      'muziek kleurplaten verkopen online',
+      'instrumenten werkbladen printen',
     ],
     lsiKeywords: [
-      'piano gitaar drums werkbladen maken',
-      'muziekles basisschool materiaal',
-      'orkest instrumentherkenning printbare producten',
+      'piano gitaar drums trompet',
+      'noten ritme melodie',
+      'muziekles orkest basisschool',
     ],
   },
   hero: {

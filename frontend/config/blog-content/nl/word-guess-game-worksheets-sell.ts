@@ -2,11 +2,11 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'woord raad spel werkbladen verkopen 2026',
-    secondaryKeywords: ['woord raad werkbladen Etsy', 'raadspel printables business', 'woordspelletjes werkbladen verkopen'],
-    lsiKeywords: ['woord raad puzzel generator', 'taalspelletjes werkbladen', 'educatieve raadspellen'],
-    titleTag: 'Woord Raad Spel Werkbladen Verkopen | LCS',
-    metaDescription: 'Verkoop woord raad spel werkbladen op Etsy. Profiteer van de puzzeltrend met printbare woordraadspelletjes voor kinderen en volwassenen.',
+    primaryKeyword: 'woordraadspel werkbladen verkopen',
+    secondaryKeywords: ['word guess werkbladen Etsy', 'woordspelletjes printbaar kinderen', 'raadspel werkbladen taal'],
+    lsiKeywords: ['woordraadsel', 'raadspel', 'taal', 'woordenschat', 'spel', 'letters'],
+    titleTag: 'Woordraadspel Werkbladen Verkopen | Blog LessonCraftStudio',
+    metaDescription: 'Woordraadspel werkbladen combineren plezier met taalleren. Verkoop word guess printables op Etsy en KDP.',
   },
   hero: {
     title: 'Woord Raad Spel Werkbladen Verkopen: Puzzeltrend',

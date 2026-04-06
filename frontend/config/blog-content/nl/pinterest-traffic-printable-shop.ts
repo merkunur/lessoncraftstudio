@@ -2,11 +2,11 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'pinterest verkeer printable winkel',
-    secondaryKeywords: ['printable business strategie 2026', 'werkbladen verkopen platform tips', 'digitale producten online verkopen'],
-    lsiKeywords: ['printable verkoop optimalisatie', 'digitale download business', 'online printable winkel'],
-    titleTag: 'Pinterest Verkeer naar Uw Printable Winkel | LCS',
-    metaDescription: 'Pinterest Verkeer naar Uw Printable Winkel. Praktische strategieën en bewezen technieken voor printable. Verkoop op Etsy & KDP met commerciele licentie.',
+    primaryKeyword: 'Pinterest verkeer printable webshop',
+    secondaryKeywords: ['Pinterest marketing werkbladen shop', 'bezoekers via Pinterest Etsy', 'Pinterest strategie printable verkopers'],
+    lsiKeywords: ['Pinterest', 'verkeer', 'pins', 'borden', 'visueel', 'doorverwijzing'],
+    titleTag: 'Pinterest Verkeer naar Uw Printable Shop | Blog LessonCraftStudio',
+    metaDescription: 'Pinterest is de beste verkeersbron voor printable-verkopers. Leer hoe u pins maakt die bezoekers naar uw Etsy-shop leiden.',
   },
   hero: {
     title: 'Pinterest Verkeer naar Uw Printable Winkel',

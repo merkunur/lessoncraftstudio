@@ -30,7 +30,7 @@ const toolsKeywords: Record<string, string[]> = {
   es: ['generador de fichas gratis online', 'crear sopa de letras gratis', 'crear crucigrama gratis', 'generador de ejercicios gratis', 'fichas de matemáticas gratis para imprimir', 'generador sudoku gratis'],
   pt: ['gerador de atividades grátis online', 'criar caça-palavras grátis', 'criar cruzadinha grátis', 'gerador de exercícios grátis', 'atividades de matemática grátis para imprimir', 'gerador sudoku grátis'],
   it: ['generatore schede gratis', 'crucipuzzle gratis online', 'cruciverba gratis', 'generatore matematica gratis', 'schede da stampare gratis', 'strumenti didattici online'],
-  nl: ['gratis printables-generators online', 'gratis werkblad maker', 'gratis woordzoeker generator', 'gratis rekenbladen maker', 'gratis kleurplaten generator', 'werkbladen online maken'],
+  nl: ['werkbladen generator gratis online', 'woordzoeker maken gratis', 'kruiswoordpuzzel maken gratis', 'reken werkbladen generator gratis', 'kleurplaten generator gratis', 'sudoku printen gratis'],
   sv: ['gratis utskriftsgeneratorer', 'online arbetsbladsskapare', 'utskriftsverktyg prova gratis', 'ordsökningsgenerator gratis', 'mattearbetsbladsgenerator', 'målarbildsskapare online'],
   da: ['gratis printbare generatorer', 'online opgaveskaber', 'printable-værktøjer prøv gratis', 'ordsøgningsgenerator gratis', 'matematikopgave-generator', 'malebilledskaber online'],
   no: ['gratis utskriftsgeneratorer', 'online oppgaveskaper', 'utskriftsverktøy prøv gratis', 'ordsøkgenerator gratis', 'matteoppgave-generator', 'fargeleggingsskaper online'],
@@ -63,8 +63,8 @@ const toolsMetadata: Record<string, { title: string; description: string }> = {
     description: 'Usa i 33 generatori gratis online — crucipuzzle, cruciverba, matematica, sudoku e altro. Senza registrazione. La filigrana si rimuove con la licenza.',
   },
   nl: {
-    title: '33 gratis generators — Probeer online | LessonCraftStudio',
-    description: 'Probeer 33 gratis werkblad-generators online met watermerk. Woordzoekers, rekenbladen, kleurplaten, puzzels en meer. Geen account nodig — direct beginnen.',
+    title: 'Gratis werkblad-generatoren | 33 online tools',
+    description: 'Gebruik alle 33 generatoren gratis online — woordzoeker, kruiswoordpuzzel, rekenen, sudoku en meer. Zonder registratie. Watermerk verdwijnt met licentie.',
   },
   sv: {
     title: 'Gratis utskriftsgeneratorer | 33 verktyg | LessonCraftStudio',

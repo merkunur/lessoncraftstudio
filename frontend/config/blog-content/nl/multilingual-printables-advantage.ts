@@ -2,11 +2,11 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'meertalige printables voordeel',
-    secondaryKeywords: ['printable meertalige printables voordeel', 'werkbladen meertalige printables', 'printables how-to gids'],
-    lsiKeywords: ['printable productie tips', 'werkbladen maken strategie', 'printable business how-to'],
-    titleTag: 'Het Meertalige Printables Voordeel | LCS',
-    metaDescription: 'Het Meertalige Printables Voordeel. Stap-voor-stap instructies en praktische tips voor printable verkopers. Verkoop op Etsy & KDP met commerciele licentie.',
+    primaryKeyword: 'meertalige printables voordeel concurrentie',
+    secondaryKeywords: ['werkbladen in meerdere talen voordeel', 'meertalig verkopen Etsy strategie', 'taalversies printables aanmaken'],
+    lsiKeywords: ['meertalig', 'talen', 'voordeel', 'internationaal', 'vertaling', 'bereik'],
+    titleTag: 'Het Voordeel van Meertalige Printables | Blog LessonCraftStudio',
+    metaDescription: 'Meertalige printables geven u een concurrentievoordeel. Ontdek hoe taalversies uw bereik en omzet vergroten.',
   },
   hero: {
     title: 'Het Meertalige Printables Voordeel',

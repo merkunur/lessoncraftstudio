@@ -2,26 +2,28 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'kruiswoordpuzzel generator om te verkopen op Etsy en KDP',
+    primaryKeyword: 'kruiswoordpuzzel maken',
     secondaryKeywords: [
-      'kruiswoordpuzzels met afbeeldingen generator Etsy',
-      'kruiswoordraadsels voor Amazon KDP-boeken',
-      'kruiswoordpuzzel generator commerciële licentie',
-      'woordpuzzels verkopen online',
+      'kruiswoordpuzzel generator',
+      'kruiswoordpuzzel printen',
+      'kruiswoordpuzzel met plaatjes',
+      'eigen kruiswoordpuzzel maken',
     ],
     lsiKeywords: [
-      'digitale kruiswoordpuzzel printables online bedrijf',
-      'commercieel gebruik kruiswoordpuzzel generator',
-      'printbare plaatjes kruiswoordpuzzel business tools',
+      'omschrijvingen',
+      'rooster',
+      'horizontaal',
+      'verticaal',
+      'antwoorden',
     ],
-    titleTag: 'Kruiswoordpuzzel generator voor Etsy | LessonCraftStudio',
-    metaDescription: 'Maak kruiswoordpuzzels met afbeeldingen om te verkopen op Etsy en KDP. Thema-illustraties, automatische antwoorden. $49 eenmalig.',
+    titleTag: 'Kruiswoordpuzzel maken | Generator met plaatjes & antwoorden',
+    metaDescription: 'Maak kruiswoordpuzzels met aanwijzingen in plaatjes op een 15×15 rooster. 4 invoermodi, 104 thema\'s, automatische antwoorden. Gratis proberen.',
   },
 
   hero: {
-    title: 'Maak kruiswoordpuzzels met afbeeldingen om te verkopen op Etsy en KDP',
+    title: 'Kruiswoordpuzzel maken — Generator met plaatjes en antwoorden',
     tagline:
-      'Uniek puzzelformaat: afbeeldingen als aanwijzingen in plaats van tekst — 104 thema\'s, automatisch antwoordblad en commerciële licentie voor uw printables-business.',
+      'Maak eigen kruiswoordpuzzels met afbeeldingen als aanwijzingen op een 15×15 rooster — 104 thema\'s, automatisch antwoordblad, probeer gratis met watermerk.',
     description:
       'Onderscheid uw puzzelproducten van de concurrentie met kruiswoordpuzzels die afbeeldingen gebruiken als aanwijzingen in plaats van traditionele tekstdefinities. Dit visuele formaat valt direct op in zoekresultaten van Etsy, Bol.com en Amazon KDP. Het algoritme plaatst 8 woorden op een vast 15×15 raster met genummerde posities die elke afbeelding verbinden met de startcel. Kies uit vier invoermethoden: thema automatisch selecteren voor snelle productie, handmatige bewerking voor precieze woordenschatcontrole, aangepaste woordenlijst voor traditionele tekstaanwijzingen, of upload uw eigen afbeeldingen. Met 3.100+ illustraties verdeeld over 104 thema\'s maakt u honderden unieke puzzels voor thematische bundels. De generator is taalgebonden: het wisselen van taal verandert de daadwerkelijke kruiswoordwoorden, waardoor u meertalige productlijnen kunt opbouwen vanuit dezelfde afbeeldingen. Het automatisch gegenereerde antwoordblad bespaart u enorm veel productietijd. Voor de Nederlandse markt biedt Brave New Books naast KDP een extra verkoopkanaal voor gedrukte puzzelboeken. Exporteer printklare PDF\'s en JPEG\'s op 300 DPI met commerciële licentie. Gratis proefversie met watermerk — alle functies beschikbaar zonder registratie.',
   },

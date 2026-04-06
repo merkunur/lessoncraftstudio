@@ -2,11 +2,11 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'passief inkomen printables waarheid',
-    secondaryKeywords: ['printable business strategie 2026', 'werkbladen verkopen platform tips', 'digitale producten online verkopen'],
-    lsiKeywords: ['printable verkoop optimalisatie', 'digitale download business', 'online printable winkel'],
-    titleTag: 'Passief Inkomen met Printables: De Waarheid | LCS',
-    metaDescription: 'Passief Inkomen met Printables: De Waarheid. Praktische strategieën en bewezen technieken voor printable. Verkoop op Etsy & KDP met commerciele licentie.',
+    primaryKeyword: 'passief inkomen printables werkelijkheid',
+    secondaryKeywords: ['echt passief verdienen werkbladen', 'printable business inkomsten realiteit', 'passief inkomen digitale producten'],
+    lsiKeywords: ['passief', 'inkomen', 'realiteit', 'verwachtingen', 'tijdsinvestering', 'schaalbaar'],
+    titleTag: 'Passief Inkomen met Printables: De Werkelijkheid | Blog LessonCraftStudio',
+    metaDescription: 'Is passief inkomen met printables realistisch? Eerlijke analyse van verdiensten, tijdsinvestering en verwachtingen.',
   },
   hero: {
     title: 'Passief Inkomen met Printables: De Waarheid',

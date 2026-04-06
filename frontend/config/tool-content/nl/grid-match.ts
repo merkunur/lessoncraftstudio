@@ -2,25 +2,29 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'gratis raster-koppelpuzzel maken',
+    primaryKeyword: 'natekenen raster gratis',
     secondaryKeywords: [
-      'rasterpuzzel werkbladen online maken gratis',
-      'tegelpuzzel werkblad generator',
-      'printbare raster-koppelpuzzel generator met antwoordblad',
-      'rasterpuzzel tool online voor kinderen',
+      'raster tekening gratis printen',
+      'natekenen raster gratis online maken',
+      'rasterpuzzel gratis printen PDF',
+      'raster koppelpuzzel gratis zonder account',
+      'tegelpuzzel werkblad gratis',
     ],
     lsiKeywords: [
-      'instelbare rastergrootte puzzel generator gratis',
-      'aanwijzingscellen moeilijkheid tegelpuzzel generator',
-      'automatisch antwoordblad rasterpuzzel tool',
+      'kleuters',
+      'kinderen',
+      'printbaar',
+      'PDF',
+      'antwoorden',
+      'puzzel',
     ],
-    titleTag: 'Raster-koppelpuzzels gratis | LessonCraftStudio',
-    metaDescription: 'Maak gratis raster-koppelpuzzels online met instelbare rastergrootte, aanwijzingscellen en automatische. Verkoop op Etsy & KDP met commerciele licentie.',
+    titleTag: 'Gratis natekenen raster generator | Probeer online met watermerk',
+    metaDescription: 'Probeer de raster-koppelpuzzel generator gratis online met watermerk. Instelbare rastergrootte, aanwijzingscellen, antwoordblad. Geen account nodig.',
   },
 
   hero: {
-    title: 'Gratis raster-koppelpuzzels maken online',
-    tagline: 'Rasterpuzzel generator met instelbare rastergroottes, aanpasbare aanwijzingscellen en automatische antwoordbladen',
+    title: 'Gratis natekenen raster — Probeer online met watermerk',
+    tagline: 'Maak raster-koppelpuzzels met instelbare grootte en aanwijzingscellen — probeer gratis zonder registratie.',
     description: 'Met onze gratis raster-koppelpuzzel generator maakt u direct uitdagende tegelpuzzels voor kinderen. Een afbeelding wordt verdeeld in een raster van tegels die kinderen terugkoppelen naar de juiste positie — een leuke oefening in ruimtelijk redeneren. Configureer het raster van 2x2 tot 4x4 voor puzzels van 4 tot 16 tegels. Stel 1 tot 5 aanwijzingscellen in die zichtbaar blijven als hints — minder aanwijzingen maakt de puzzel moeilijker. Elke generatie produceert een unieke tegelvolgorde dankzij Fisher-Yates randomisatie. Het automatisch gegenereerde antwoordblad toont de volledige afbeelding met genummerde cirkels per rastercel. Blader door meer dan 3.100 illustraties verdeeld over 104 thema\'s of upload uw eigen afbeeldingen. Exporteer als printklare PDF of JPEG op 300 DPI in Letter-, A4- of aangepaste formaten. De gratis proefversie biedt alle functies — geen account nodig. Downloads bevatten een watermerk dat u verwijdert met een commerciële licentie.',
   },
 

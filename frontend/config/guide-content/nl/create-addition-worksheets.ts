@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'optelwerkbladen maken om te verkopen',
+    primaryKeyword: 'optelwerkbladen maken',
     secondaryKeywords: [
-      'optellen werkbladen maken voor kinderen verkopen',
-      'printbare optelwerkbladen generator',
-      'rekenwerkbladen verkopen op Etsy en KDP',
-      'thematische optellen oefenbladen maken',
+      'reken werkblad optellen generator',
+      'optellen oefenbladen kinderen',
+      'printbare rekenwerkbladen maken',
+      'werkbladen optellen met plaatjes',
     ],
     lsiKeywords: [
-      'beeldgebaseerde rekenwerkbladen',
-      'visueel optellen voor kleuters',
-      'groep 3 rekenoefenbladen',
-      'rekenwerkbladen verkopen op Etsy',
-      'Amazon KDP reken activiteitenboeken',
-      'commerciële licentie werkblad tool',
+      'optellen',
+      'rekenen',
+      'werkblad',
+      'antwoordsleutel',
+      'generator',
+      'printbaar',
     ],
-    titleTag: 'Optelwerkbladen maken om te verkopen | LessonCraftStudio',
-    metaDescription: 'Maak optelwerkbladen om te verkopen op Etsy en Amazon KDP. Kies thema\'s, stel moeilijkheid in en exporteer printklare PDF\'s met antwoordsleutels.',
+    titleTag: 'Optelwerkbladen maken | LessonCraftStudio',
+    metaDescription: 'Maak optelwerkbladen met thema-afbeeldingen en automatische antwoordsleutels. Instelbare moeilijkheid, PDF-export. Gratis proberen.',
   },
 
   hero: {

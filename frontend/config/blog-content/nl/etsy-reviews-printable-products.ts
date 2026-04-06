@@ -2,11 +2,11 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'etsy beoordelingen printable producten',
-    secondaryKeywords: ['printable business strategie 2026', 'werkbladen verkopen platform tips', 'digitale producten online verkopen'],
-    lsiKeywords: ['printable verkoop optimalisatie', 'digitale download business', 'online printable winkel'],
-    titleTag: 'Etsy Beoordelingen: De Motor van Printable Verkoop | LCS',
-    metaDescription: 'Etsy Beoordelingen: De Motor van Printable Verkoop. Praktische strategieën en bewezen technieken voor printable verkopers in 2026.',
+    primaryKeyword: 'Etsy beoordelingen printable producten',
+    secondaryKeywords: ['reviews krijgen werkbladen Etsy', 'klantbeoordelingen verbeteren shop', 'vijf sterren reviews printables'],
+    lsiKeywords: ['beoordelingen', 'reviews', 'sterren', 'feedback', 'klanttevredenheid', 'reputatie'],
+    titleTag: 'Etsy Beoordelingen voor Printable Producten | Blog LessonCraftStudio',
+    metaDescription: 'Positieve beoordelingen verhogen uw Etsy-verkoop. Leer hoe u meer vijf-sterren reviews krijgt voor uw printable producten.',
   },
   hero: {
     title: 'Etsy Beoordelingen: De Motor van Printable Verkoop',

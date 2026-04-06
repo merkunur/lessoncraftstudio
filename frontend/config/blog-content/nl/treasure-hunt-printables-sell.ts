@@ -2,11 +2,11 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'speurtocht printables verkopen 2026',
-    secondaryKeywords: ['speurtocht werkbladen werkbladen verkopen Etsy', 'speurtocht werkbladen printables business', 'speurtocht werkbladen puzzels online'],
-    lsiKeywords: ['speurtocht werkbladen generator business', 'speurtocht werkbladen werkbladen markt', 'educatieve speurtocht werkbladen printables'],
-    titleTag: 'Speurtocht Printables Verkopen | LCS',
-    metaDescription: 'Speurtocht Printables Verkopen op Etsy en KDP. Ontdek de markt, productstrategieën en prijzen voor deze winstgevende niche in 2026.',
+    primaryKeyword: 'speurtocht printables verkopen online',
+    secondaryKeywords: ['schattenjacht werkbladen Etsy', 'speurtocht activiteiten printbaar', 'treasure hunt werkbladen kinderen'],
+    lsiKeywords: ['speurtocht', 'schattenjacht', 'zoeken', 'avontuur', 'buiten', 'feestje'],
+    titleTag: 'Speurtocht Printables Verkopen Online | Blog LessonCraftStudio',
+    metaDescription: 'Speurtocht printables zijn een hit op kinderfeestjes. Verkoop schattenjacht werkbladen op Etsy voor binnen en buiten.',
   },
   hero: {
     title: 'Speurtocht Printables Verkopen',

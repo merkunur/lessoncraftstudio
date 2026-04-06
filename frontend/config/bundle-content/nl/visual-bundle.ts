@@ -2,25 +2,29 @@ import type { BundleContent } from '../types';
 
 const content: BundleContent = {
   seo: {
-    primaryKeyword: 'pakket zeven visuele visueel leerpakket wereldwijd',
+    primaryKeyword: 'visueel leren werkbladen bundel',
     secondaryKeywords: [
-      'kleurplaten tekenen werkblad generator bundel verkopers',
-      'visuele activiteiten printable toolkit commercieel',
-      'patronenherkenning werkbladen bundel Etsy KDP',
-      'teken en kleur generators voor printable bedrijf',
+      'observatie werkbladen pakket',
+      'kleurplaten tekenen generatoren bundel',
+      'visuele werkbladen bundel Etsy KDP',
+      'patronen telgrafieken generators commercieel',
     ],
     lsiKeywords: [
-      'kleurplaat tekenwerkblad pakket Etsy',
-      'patronenherkenning telgrafiek collectie verkopers',
-      'commercieel kleurplaten bundel verkopen',
-      'visuele werkbladen wereldwijd verkopen zonder vertaling',
+      'basisschool',
+      'kleuters',
+      'werkbladen',
+      'printen',
+      'themaplaatjes',
+      'commerciële licentie',
+      'Etsy',
+      'KDP',
     ],
-    titleTag: 'Visueel leerpakket voor verkopers | LessonCraftStudio',
-    metaDescription: 'Zeven visuele werkblad generators in een pakket. Maak kleurplaten, tekenen, patronen en telgrafieken die in elke taal werken. $149 eenmalig.',
+    titleTag: 'Visueel Leren bundel | 7 generatoren in één pakket',
+    metaDescription: 'Visueel leren werkbladen bundel met 7 generatoren: kleurplaten, tekenen, patronen en telgrafieken. Gratis proberen met watermerk, commerciële licentie inbegrepen.',
   },
 
   hero: {
-    title: 'Zeven visuele generators die wereldwijd verkopen',
+    title: 'Visueel Leren bundel — 7 generatoren in één pakket',
     tagline: 'Puur visuele werkbladen zonder tekst — verkoop dezelfde PDF aan kopers in elk land',
     description: 'Als u printables verkoopt op Etsy, Amazon KDP of Bol.com, zijn puur visuele werkbladen uw snelste pad naar internationale verkoop. Elke generator in dit pakket produceert werkbladen die volledig bestaan uit afbeeldingen, vormen, kleuren en cijfers, zonder tekst op de afgewerkte pagina. Dat betekent dat elk werkblad dat u maakt werkt voor kopers in elk land, elke taal en elk schoolsysteem, zonder vertaling of aanpassing. Het Visueel Leren Pakket combineert zeven gespecialiseerde generators die groottevergelijking, treinwagon-patroonreeksen, invul-patroonwerkbladen, referentieafbeelding tekenen met symmetriemodus, lijntracering, kleurplaatcreatie vanuit afbeeldingscontouren en staafdiagram telactiviteiten dekken. Twee generators bevatten speciale zwart-wit contourthema\'s ontworpen voor inkleuren. Drie generators bevatten automatische antwoordbladen. Kies uit meer dan 100 thematische beeldsets of upload uw eigen illustraties voor merkgebonden producten. Kleurplaten zijn de best verkopende printable categorie op Etsy, en dit pakket geeft u zeven producttypen in plaats van een. Elke generator bevat een gratis proefversie met watermerk zodat u elke functie kunt testen voordat u een licentie aanschaft.',
   },

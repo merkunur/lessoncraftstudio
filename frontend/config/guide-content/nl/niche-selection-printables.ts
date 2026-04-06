@@ -2,11 +2,11 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'niche kiezen voor printables-business 2026',
-    secondaryKeywords: ['printable niche onderzoek', 'winstgevende printable niches', 'niche kiezen printables', 'werkblad niche strategie'],
-    lsiKeywords: ['doelgroep analyse printables', 'marktonderzoek educatieve producten', 'concurrentie analyse Etsy printables', 'seizoensgebonden printable niches', 'evergreen werkblad categorieën', 'niche validatie digitale producten'],
-    titleTag: 'Niche kiezen voor printables (2026) | LessonCraftStudio',
-    metaDescription: 'Kies de juiste niche voor uw printables-business in 2026. Marktonderzoek, concurrentie-analyse en validatietechnieken voor de Nederlandse en Vlaamse markt.',
+    primaryKeyword: 'niche kiezen printables',
+    secondaryKeywords: ['printable niche onderzoek', 'winstgevende niche vinden', 'niche kiezen Etsy werkbladen', 'printable markt analyseren'],
+    lsiKeywords: ['niche', 'doelgroep', 'concurrentie', 'marktonderzoek', 'validatie', 'seizoensgebonden'],
+    titleTag: 'Niche kiezen voor printables | LessonCraftStudio',
+    metaDescription: 'Kies de juiste niche voor uw printable bedrijf. Marktonderzoek, concurrentie-analyse en validatietechnieken voor de Nederlandstalige markt.',
   },
   hero: {
     title: 'Niche kiezen voor uw printables-business (2026)',

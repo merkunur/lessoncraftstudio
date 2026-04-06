@@ -2,23 +2,23 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'stappenplan printables business idee inkomen printable',
+    primaryKeyword: 'printable bedrijf blauwdruk',
     secondaryKeywords: [
-      'printable bedrijf blauwdruk Nederland',
-      'printable bedrijfsplan voor Etsy verkopers',
-      'winstgevende printable productlijn plannen',
-      'printable business starten stappenplan',
+      'stappenplan printable business starten',
+      'business plan voor printable verkopers',
+      'printable productlijn plannen',
+      'lanceringsplan werkbladen Etsy en KDP',
     ],
     lsiKeywords: [
-      'Etsy printable winkel planning Nederland',
-      'Amazon KDP productstrategie stappenplan',
-      'werkblad bedrijf omzetdoelen plannen',
-      'printable catalogus uitbreiding strategie',
-      'productlijn mapping voor printable verkopers',
-      'printable bedrijf lancering checklist 2026',
+      'stappenplan',
+      'business plan',
+      'lancering',
+      'productlijn',
+      'Etsy',
+      'KDP',
     ],
-    titleTag: 'Stappenplan: printables-business | LessonCraftStudio',
-    metaDescription: 'Zet uw printable idee om in een gestructureerd stappenplan. Plan uw productlijn, kies platforms als Etsy, KDP of Bol.com, en lanceer met generators.',
+    titleTag: 'Blauwdruk voor uw printable bedrijf | Gids voor printable-verkopers',
+    metaDescription: 'Gebruik deze blauwdruk om uw printable bedrijf stap voor stap te plannen. Van productlijn en platformkeuze tot lancering en eerste verkopen.',
   },
 
   hero: {

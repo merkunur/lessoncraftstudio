@@ -2,23 +2,23 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'meertalige werkbladen verkopen maken talen',
+    primaryKeyword: 'meertalige werkbladen maken',
     secondaryKeywords: [
-      'werkbladen maken in meerdere talen verkopen',
-      'meertalige printbare werkbladen Etsy KDP',
-      'werkbladen verkopen in Duits Frans Spaans',
-      'internationaal printable bedrijf opzetten',
+      'werkbladen in 11 talen genereren',
+      'internationaal verkopen printables Etsy',
+      'meertalige activiteitenboeken KDP',
+      'werkbladen Duits Frans Spaans maken',
     ],
     lsiKeywords: [
-      'taalgevoelige werkblad generator 11 talen',
-      'niet-Engelstalige printable markt Etsy',
-      'meertalige woordzoeker generator verkopers',
-      'internationaal printable bedrijf Nederland',
-      'werkbladen verkopen op Etsy.de Etsy.fr',
-      'meertalig activiteitenboek generator KDP',
+      'meertalig',
+      '11 talen',
+      'internationaal',
+      'vertaling',
+      'Etsy',
+      'KDP',
     ],
-    titleTag: 'Meertalige werkbladen verkopen | LessonCraftStudio',
-    metaDescription: 'Maak en verkoop werkbladen in 11 talen. Bereik Duitse, Franse en Spaanse kopers op Etsy, Amazon KDP en Bol.com zonder vertaalvaardigheden.',
+    titleTag: 'Meertalige werkbladen maken in 11 talen | Gids voor printable-verkopers',
+    metaDescription: 'Maak werkbladen in 11 talen en verkoop internationaal op Etsy en KDP. Bereik Duitse, Franse en Spaanse kopers zonder vertaalkennis.',
   },
 
   hero: {

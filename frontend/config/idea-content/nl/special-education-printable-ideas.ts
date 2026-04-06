@@ -2,20 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Printables SBO en speciaal onderwijs | LessonCraftStudio',
-    metaDescription: 'Printables voor SBO en speciaal onderwijs verkopen op Etsy. Ideeën voor aangepaste werkbladen met grotere lettertypen en gestaffelde niveaus.',
+    titleTag: 'Speciaal onderwijs printables ideeën | Werkbladen voor Etsy & Gumroad',
+    metaDescription: 'Ontdek winstgevende SBO printable ideeën. Maak aangepaste werkbladen met grotere lettertypen en gestaffelde niveaus om te verkopen op Etsy en Gumroad.',
 
-    primaryKeyword: 'printables SBO speciaal onderwijs verkopen',
+    primaryKeyword: 'speciaal onderwijs werkbladen verkopen',
     secondaryKeywords: [
-      'speciaal onderwijs werkbladen Etsy',
-      'aangepaste printables passend onderwijs',
-      'SBO werkbladen verkopen Gumroad',
-      'printables handelingsplan doelen',
+      'SBO printables ideeën Etsy',
+      'passend onderwijs werkbladen verkopen',
+      'aangepaste printables Gumroad',
+      'handelingsplan werkbladen doelen',
     ],
     lsiKeywords: [
-      'visuele ondersteuning werkbladen leerlingen',
-      'gedifferentieerd materiaal cluster 3 en 4',
-      'logopedist ergotherapeut oefenmateriaal',
+      'visuele ondersteuning differentiatie',
+      'cluster 3 en 4 materiaal',
+      'logopedist ergotherapeut oefening',
     ],
   },
   hero: {

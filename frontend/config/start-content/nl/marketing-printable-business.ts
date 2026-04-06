@@ -2,23 +2,23 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'printables-business promoten online',
+    primaryKeyword: 'printable business marketing',
     secondaryKeywords: [
-      'marketingstrategieen voor printable verkopers',
-      'printable werkbladen online promoten Nederland',
-      'marketingplan voor printables-business',
-      'meer werkbladen verkopen op Etsy en KDP',
+      'Etsy SEO voor printables verbeteren',
+      'social media marketing werkbladen',
+      'Pinterest strategie digitale downloads',
+      'Etsy marketing tips voor verkopers',
     ],
     lsiKeywords: [
-      'Etsy SEO voor digitale downloads',
-      'Pinterest marketing voor printable producten',
-      'e-mailmarketing voor werkblad verkopers',
-      'seizoensgebonden marketing kalender printables',
-      'marktplaats optimalisatie activiteitenboeken',
-      'contentmarketing voor printable ondernemers NL',
+      'SEO',
+      'social media',
+      'Pinterest',
+      'Etsy',
+      'marketing',
+      'promotie',
     ],
-    titleTag: 'Printables-business promoten | LessonCraftStudio',
-    metaDescription: 'Hoe u uw printables-business promoot: platform-SEO, Pinterest-strategie, e-mailmarketing, seizoenstiming en merkopbouw voor Etsy, KDP en Bol.com verkopers.',
+    titleTag: 'Marketing voor uw printable business | Gids voor printable-verkopers',
+    metaDescription: 'Promoot uw printable business effectief met Etsy SEO, Pinterest en social media. Praktische marketingtips die direct meer verkopen opleveren.',
   },
 
   hero: {

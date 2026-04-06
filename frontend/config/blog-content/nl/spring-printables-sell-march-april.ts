@@ -3,10 +3,10 @@ import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
     primaryKeyword: 'lente printables verkopen maart april',
-    secondaryKeywords: ['printable lente printables strategie', 'werkbladen lente printables verkopen', 'educatieve printables maart april'],
-    lsiKeywords: ['printable niche lente printables', 'seizoensgebonden printables', 'thematische werkbladen verkopen'],
-    titleTag: 'Lente Printables Verkopen in Maart-April | LCS',
-    metaDescription: 'Lente Printables Verkopen in Maart-April. Ontdek welke producten het beste verkopen, wanneer u moet beginnen en hoe u maximale omzet genereert.',
+    secondaryKeywords: ['voorjaarswerkbladen Etsy seizoen', 'lente activiteiten printbaar', 'maart april werkbladen verkopen'],
+    lsiKeywords: ['lente', 'voorjaar', 'bloemen', 'vlinders', 'maart', 'april'],
+    titleTag: 'Lente Printables Verkopen in Maart en April | Blog LessonCraftStudio',
+    metaDescription: 'Lente printables zijn populair in maart en april. Bereid uw Etsy-shop voor met voorjaarswerkbladen en seizoensactiviteiten.',
   },
   hero: {
     title: 'Lente Printables Verkopen in Maart-April',

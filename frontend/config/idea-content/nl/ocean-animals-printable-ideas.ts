@@ -2,20 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Printables zeedieren — Business | LessonCraftStudio',
-    metaDescription: 'Start een printable business met zeedieren. Productideeën voor oceaanwerkbladen, kleurplaten en puzzels die verkopen op Etsy, KDP en Gumroad.',
+    titleTag: 'Zeedieren printables ideeën | Werkbladen voor Etsy & KDP',
+    metaDescription: 'Ontdek winstgevende zeedieren printable ideeën. Maak oceaan werkbladen met walvissen, dolfijnen en zeesterren om te verkopen op Etsy, KDP en Gumroad.',
 
-    primaryKeyword: 'printables zeedieren ideeën business',
+    primaryKeyword: 'zeedieren werkbladen verkopen',
     secondaryKeywords: [
-      'zeedieren werkbladen Etsy verkopen',
-      'oceaanthema printable business starten',
-      'zeeleven activiteitenboeken KDP',
-      'onderwaterthema printables niche',
+      'oceaan printables ideeën Etsy',
+      'zeedieren activiteitenboek KDP',
+      'zeedieren kleurplaten verkopen online',
+      'oceaan werkbladen printen',
     ],
     lsiKeywords: [
-      'mariene werkbladen maken en verkopen',
-      'oceaankleurplaten printable winkel',
-      'zeeleven puzzels voor Etsy verkopers',
+      'walvis dolfijn zeester haai',
+      'oceaan koraalrif zeeleven',
+      'mariene biologie diepzee',
     ],
   },
   hero: {

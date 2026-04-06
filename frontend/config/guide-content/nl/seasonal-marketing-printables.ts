@@ -2,22 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'seizoensmarketing voor printables-verkopers',
+    primaryKeyword: 'seizoensmarketing printables',
     secondaryKeywords: [
-      'seizoensgebonden printable strategie Nederland',
-      'Sinterklaas werkbladen marketing',
-      'terug naar school printable verkoop',
-      'seizoensgebonden productkalender Etsy',
+      'seizoensgebonden printable strategie',
+      'feestdagen werkbladen verkopen',
+      'terug naar school printables',
+      'seizoenskalender Etsy verkoper',
     ],
     lsiKeywords: [
-      'feestdagenvraag cyclus seizoensgebonden productplanning piekverkoopperioden',
-      'terug-naar-school seizoen feestdagen werkbladen zomerleren Nieuwjaar materialen',
-      'Valentijnsactiviteiten Pasen printables Halloween werkbladen Kerst werkbladen',
-      'seizoenstrends vraagvoorspelling productiekalender kwartaalplanning',
-      'releasetiming seizoenszoekwoorden trendanalyse contentkalender jaarplanning',
+      'seizoen',
+      'feestdagen',
+      'planning',
+      'timing',
+      'kalender',
+      'vraagpiek',
     ],
     titleTag: 'Seizoensmarketing voor printables | LessonCraftStudio',
-    metaDescription: 'Seizoensmarketing voor printables-verkopers: verkoopkalender met productietiming, seizoenszoekwoorden en. Verkoop op Etsy & KDP met commerciele licentie.',
+    metaDescription: 'Seizoensmarketing voor printable verkopers: verkoopkalender, productietiming en seizoenszoekwoorden voor Etsy en KDP. Plan vooruit voor piekperioden.',
   },
 
   hero: {

@@ -2,11 +2,11 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'printable productfotografie mockups',
-    secondaryKeywords: ['printable business strategie 2026', 'werkbladen verkopen platform tips', 'digitale producten online verkopen'],
-    lsiKeywords: ['printable verkoop optimalisatie', 'digitale download business', 'online printable winkel'],
-    titleTag: 'Productfotografie en Mockups voor Printables | LCS',
-    metaDescription: 'Productfotografie en Mockups voor Printables. Praktische strategieën en bewezen technieken voor printable. Verkoop op Etsy & KDP met commerciele licentie.',
+    primaryKeyword: 'printable productfotografie en mockups',
+    secondaryKeywords: ['werkbladen fotograferen voor Etsy', 'digitale producten mockup tips', 'printable foto presentatie verbeteren'],
+    lsiKeywords: ['fotografie', 'mockup', 'belichting', 'styling', 'achtergrond', 'kwaliteit'],
+    titleTag: 'Productfotografie en Mockups voor Printables | Blog LessonCraftStudio',
+    metaDescription: 'Leer productfotografie en mockup-technieken voor printables. Professionele foto\'s verhogen uw Etsy conversieratio.',
   },
   hero: {
     title: 'Productfotografie en Mockups voor Printables',

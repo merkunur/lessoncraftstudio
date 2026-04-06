@@ -2,11 +2,11 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'eten thema werkbladen verkopen',
-    secondaryKeywords: ['printable eten thema strategie', 'werkbladen eten thema verkopen', 'educatieve printables werkbladen verkopen'],
-    lsiKeywords: ['printable niche eten thema', 'seizoensgebonden printables', 'thematische werkbladen verkopen'],
-    titleTag: 'Eten Thema Werkbladen Verkopen | LCS',
-    metaDescription: 'Eten Thema Werkbladen Verkopen. Ontdek welke producten het beste verkopen, wanneer u moet beginnen en hoe u maximale omzet genereert.',
+    primaryKeyword: 'voedselthema werkbladen verkopen Etsy',
+    secondaryKeywords: ['eten en drinken werkbladen printbaar', 'voedingsthema activiteiten kinderen', 'fruit en groente werkbladen'],
+    lsiKeywords: ['voedsel', 'fruit', 'groente', 'gezondheid', 'thematisch', 'koken'],
+    titleTag: 'Voedselthema Werkbladen Verkopen op Etsy | Blog LessonCraftStudio',
+    metaDescription: 'Voedselthema werkbladen zijn populair voor gezondheidsonderwijs. Leer hoe u eet- en drinkwerkbladen maakt en verkoopt.',
   },
   hero: {
     title: 'Eten Thema Werkbladen Verkopen',

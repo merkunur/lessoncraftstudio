@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'rekenboeken maken voor Amazon KDP',
+    primaryKeyword: 'rekenboek maken Amazon KDP',
     secondaryKeywords: [
-      'hoe reken activiteitenboeken maken voor Amazon KDP',
-      'KDP rekenwerkboek uitgeven gids',
-      'reken activiteitenboeken publiceren op Amazon',
-      'Amazon KDP rekenwerkblad boek',
+      'reken activiteitenboek publiceren KDP',
+      'rekenwerkboek uitgeven Amazon',
+      'wiskunde werkboek KDP maken',
+      'rekenboek zelf publiceren',
     ],
     lsiKeywords: [
-      'KDP manuscript opmaak trimformaat activiteitenboek binnenpagina\'s',
-      'Amazon boekomslag ontwerp rugbreedte calculator sjabloon',
-      'KDP zoekwoordoptimalisatie browse categorieën rekenboeken',
-      'print-on-demand royalty prijsstrategie activiteitenboeken',
-      'rekenwerkboek pagina-aantal moeilijkheidsprogressie antwoordsleutels',
-      'KDP publicatiebeoordelingsproces proefexemplaar auteurskopieën',
+      'rekenboek',
+      'manuscript',
+      'opmaak',
+      'omslag',
+      'zoekwoorden',
+      'royalty',
     ],
-    titleTag: 'Rekenboeken voor Amazon KDP | LessonCraftStudio',
-    metaDescription: 'Maak rekenboeken voor Amazon KDP met 5 generatoren. Manuscript opmaak, omslagontwerp, zoekwoordoptimalisatie en royalty-prijsstrategie voor uitgevers.',
+    titleTag: 'Rekenboek maken voor Amazon KDP | LessonCraftStudio',
+    metaDescription: 'Maak rekenboeken voor Amazon KDP met 5 generatoren. Opmaak, omslagontwerp, zoekwoordoptimalisatie en prijsstrategie stap voor stap.',
   },
 
   hero: {

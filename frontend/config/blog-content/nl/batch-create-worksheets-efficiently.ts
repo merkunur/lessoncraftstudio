@@ -2,11 +2,11 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'werkbladen batch produceren efficiënt',
-    secondaryKeywords: ['printable werkbladen batch produceren', 'werkbladen werkbladen batch', 'printables how-to gids'],
-    lsiKeywords: ['printable productie tips', 'werkbladen maken strategie', 'printable business how-to'],
-    titleTag: 'Werkbladen Batch Produceren: Efficiënt Werken | LCS',
-    metaDescription: 'Werkbladen Batch Produceren: Efficiënt Werken. Stap-voor-stap instructies en praktische tips voor printable. Verkoop op Etsy & KDP met commerciele licentie.',
+    primaryKeyword: 'werkbladen in batch maken efficiënt',
+    secondaryKeywords: ['sneller werkbladen produceren', 'batchproductie printables', 'werkbladen automatiseren generator'],
+    lsiKeywords: ['productiviteit', 'tijdsbesparing', 'workflow', 'automatisering', 'schaalbaar', 'efficiëntie'],
+    titleTag: 'Werkbladen in Batch Maken: Sneller Produceren | Blog LessonCraftStudio',
+    metaDescription: 'Leer hoe u werkbladen in batch maakt en uw productietijd met 40% verkort. Efficiënte workflows voor printable-verkopers.',
   },
   hero: {
     title: 'Werkbladen Batch Produceren: Efficiënt Werken',

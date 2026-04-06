@@ -2,20 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Printables Moeder-/Vaderdag | LessonCraftStudio',
-    metaDescription: 'Verkoop Moederdag en Vaderdag printables op Etsy en Gumroad. Dubbele feestdag productideeën, waarderingsactiviteiten en tips voor uw printable business.',
+    titleTag: 'Moederdag en Vaderdag printables ideeën | Werkbladen voor Etsy',
+    metaDescription: 'Ontdek winstgevende Moederdag en Vaderdag printable ideeën. Maak waarderingsactiviteiten en cadeau-werkbladen om te verkopen op Etsy en Gumroad.',
 
-    primaryKeyword: 'printables Moederdag Vaderdag verkopen',
+    primaryKeyword: 'Moederdag Vaderdag werkbladen verkopen',
     secondaryKeywords: [
-      'Moederdag werkbladen verkopen Etsy',
-      'Vaderdag printable business ideeën',
-      'ouderwaardering printables Gumroad',
-      'mei juni feestdag producten verkopen',
+      'Moederdag printables ideeën Etsy',
+      'Vaderdag activiteitenboek KDP',
+      'ouderwaardering kleurplaten verkopen',
+      'mei juni feestdag werkbladen printen',
     ],
     lsiKeywords: [
-      'familieviering cadeau werkbladen maken',
-      'waarderingsactiviteiten basisschool',
-      'hartjes bloemen thema printbare producten',
+      'mama papa gezin familie',
+      'hartjes bloemen cadeau',
+      'waardering basisschool viering',
     ],
   },
   hero: {

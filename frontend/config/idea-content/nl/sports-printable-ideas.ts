@@ -2,20 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Printables sport — Business | LessonCraftStudio',
-    metaDescription: 'Verkoop sport printables op Etsy en Gumroad. Voetbal, zwemmen en atletiek productideeën voor uw printable business — jaarronde vraag door sportrotatie.',
+    titleTag: 'Sport printables ideeën | Werkbladen voor Etsy & KDP',
+    metaDescription: 'Ontdek winstgevende sport printable ideeën. Maak werkbladen met voetbal, zwemmen en atletiek om te verkopen op Etsy, Amazon KDP en Gumroad.',
 
-    primaryKeyword: 'printables sport ideeën business',
+    primaryKeyword: 'sport werkbladen verkopen',
     secondaryKeywords: [
-      'sportthema werkbladen verkopen Etsy',
-      'voetbal zwemmen printable business ideeën',
-      'schaatsen hockey printables verkopen',
-      'Olympische Spelen educatieve producten Gumroad',
+      'sport printables ideeën Etsy',
+      'sportthema activiteitenboek KDP',
+      'sport kleurplaten verkopen online',
+      'voetbal werkbladen printen',
     ],
     lsiKeywords: [
-      'teamsport gymnastiek werkbladen maken',
-      'lichamelijke opvoeding basisschool materiaal',
-      'sportdag atletiek printbare producten',
+      'voetbal zwemmen atletiek',
+      'schaatsen hockey gymnastiek',
+      'Olympische Spelen sportdag',
     ],
   },
   hero: {

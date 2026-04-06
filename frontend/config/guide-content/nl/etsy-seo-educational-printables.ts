@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Etsy SEO voor educatieve werkbladen 2026',
+    primaryKeyword: 'Etsy SEO werkbladen',
     secondaryKeywords: [
-      'Etsy SEO voor printbare werkbladen',
-      'Etsy zoekwoordenonderzoek educatieve producten',
-      'Etsy vermeldingsoptimalisatie printable verkopers',
-      'Etsy tags strategie voor werkbladen',
+      'Etsy zoekwoorden printables',
+      'Etsy tags strategie werkbladen',
+      'Etsy vermelding optimaliseren',
+      'Etsy SEO tips digitale downloads',
     ],
     lsiKeywords: [
-      'Etsy zoekalgoritme rangschikkingsfactoren voor digitale downloads',
-      'Etsy titeloptimalisatie zoekwoordplaatsing printable vermeldingen',
-      'Etsy 13 tags strategie educatieve werkblad verkopers',
-      'Etsy vermeldingsbeschrijving SEO structuur voor printables',
-      'Etsy Stats zoektermen rapport zoekwoordoptimalisatie',
-      'Etsy categorie attributen voor educatieve digitale producten',
+      'zoekwoorden',
+      'tags',
+      'rangschikking',
+      'algoritme',
+      'vermelding',
+      'conversie',
     ],
-    titleTag: 'Etsy SEO voor werkbladen (2026) | LessonCraftStudio',
-    metaDescription: 'Etsy SEO voor educatieve werkbladen in 2026. Zoekwoordenonderzoek, titeloptimalisatie, alle 13 tags en rangschikkingsfactoren voor printable verkopers.',
+    titleTag: 'Etsy SEO voor werkbladen | LessonCraftStudio',
+    metaDescription: 'Etsy SEO voor werkbladen: zoekwoordenonderzoek, titeloptimalisatie, 13 tags benutten en rangschikkingsfactoren. Verhoog uw vindbaarheid.',
   },
 
   hero: {

@@ -2,26 +2,28 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'raster-koppelpuzzels voor printables-business',
+    primaryKeyword: 'natekenen op raster werkblad printen',
     secondaryKeywords: [
-      'rastertekenen werkbladen generator Etsy',
-      'grid-match puzzels voor KDP',
-      'rasteractiviteiten commerciële licentie',
-      'rasterpuzzels verkopen online',
+      'raster tekening werkblad',
+      'pixel art printen',
+      'kopiëren op raster',
+      'symmetrie raster werkblad',
     ],
     lsiKeywords: [
-      'digitale tegelpuzzel printables online bedrijf',
-      'commercieel gebruik rasterpuzzel werkblad generator',
-      'printbare beeldpuzzel business tools',
+      'raster',
+      'natekenen',
+      'kopiëren',
+      'symmetrie',
+      'ruimtelijk inzicht',
     ],
-    titleTag: 'Raster-koppelpuzzels voor verkopers | LessonCraftStudio',
-    metaDescription: 'Maak raster-koppelpuzzels voor uw Etsy-shop of KDP-werkboek. Instelbaar raster, aanwijzingscellen, automatisch antwoordblad en 104 thema\'s. $49 eenmalig.',
+    titleTag: 'Natekenen op raster werkblad printen | Generator rastertekening',
+    metaDescription: 'Maak natekenen-op-raster werkbladen met themaplaatjes. Automatische antwoorden, printbare PDF\'s. Gratis proberen.',
   },
 
   hero: {
-    title: 'Raster-koppelpuzzels maken en verkopen als printables',
+    title: 'Natekenen op raster werkblad printen — Generator rastertekening',
     tagline:
-      'Gratis proefversie met watermerk — verdeel afbeeldingen in tegels, stel aanwijzingscellen in en genereer automatisch antwoordbladen met genummerde cirkeloverlays.',
+      'Maak raster-koppelpuzzels met instelbare tegels en themaplaatjes — automatische antwoordbladen, probeer gratis met watermerk.',
     description:
       'Bouw een winstgevende productlijn op met raster-koppelpuzzels die kinderen uitdagen om patronen op een raster na te tekenen of tegels op de juiste positie terug te plaatsen. De generator verdeelt elke afbeelding in een instelbaar raster van 2×2 tot 4×4 en schudt de tegels met Fisher-Yates randomisatie, zodat u bij elke generatie een unieke puzzel krijgt. Stel 1 tot 5 aanwijzingscellen in als hints — minder hints betekent een moeilijkere puzzel, waardoor u gedifferentieerde bundels kunt samenstellen in meerdere moeilijkheidsgraden. Het dubbele-canvassysteem maakt tegelijkertijd een werkblad en een antwoordblad aan met genummerde cirkeloverlays, zodat u nooit handmatig antwoorden hoeft te maken. Kies uit meer dan 3100 illustraties in 104 thema\'s of upload uw eigen afbeeldingen voor merkgebonden puzzels. Exporteer printklare PDF\'s en JPEG\'s op 300 DPI in Letter-, A4- of aangepaste formaten. Verkoop uw puzzels als digitale downloads op Etsy, als activiteitenboeken op Amazon KDP of via Bol.com — de commerciële licentie geeft u volledige verkooprechten zonder royalty\'s per verkoop.',
   },

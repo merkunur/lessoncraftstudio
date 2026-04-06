@@ -2,11 +2,11 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'plaatjes sudoku boeken KDP 2026',
-    secondaryKeywords: ['plaatjes sudoku werkbladen verkopen Etsy', 'plaatjes sudoku printables business', 'plaatjes sudoku puzzels online'],
-    lsiKeywords: ['plaatjes sudoku generator business', 'plaatjes sudoku werkbladen markt', 'educatieve plaatjes sudoku printables'],
-    titleTag: 'Plaatjes Sudoku Boeken voor Amazon KDP | LCS',
-    metaDescription: 'Plaatjes Sudoku Boeken voor Amazon KDP op Etsy en KDP. Ontdek de markt, productstrategieën en prijzen voor deze winstgevende niche in 2026.',
+    primaryKeyword: 'plaatjessudoku boeken KDP publiceren',
+    secondaryKeywords: ['beeldsudoku kinderen Amazon', 'sudoku met afbeeldingen werkbladen', 'visuele sudoku puzzelboek'],
+    lsiKeywords: ['sudoku', 'plaatje', 'visueel', 'puzzel', 'logica', 'kinderen'],
+    titleTag: 'Plaatjessudoku Boeken op Amazon KDP | Blog LessonCraftStudio',
+    metaDescription: 'Publiceer plaatjessudoku boeken op Amazon KDP. Visuele sudoku puzzels zijn een groeiende niche voor kinderboeken.',
   },
   hero: {
     title: 'Plaatjes Sudoku Boeken voor Amazon KDP',

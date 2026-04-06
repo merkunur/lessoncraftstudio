@@ -2,25 +2,29 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'gratis woordzoeker generator met afbeeldingen',
+    primaryKeyword: 'woordzoeker maken gratis',
     secondaryKeywords: [
-      'woordzoeker online maken gratis',
-      'woordzoeker puzzel generator met plaatjes',
-      'verborgen woorden raster generator gratis proberen',
-      'woordzoeker werkblad generator met thema\'s',
+      'woordzoeker generator gratis online',
+      'woordzoeker gratis online maken',
+      'woordzoeker gratis printen PDF',
+      'woordzoeker maker gratis zonder account',
+      'woordzoeker met afbeeldingen gratis',
     ],
     lsiKeywords: [
-      'verborgen-woorden rasterpuzzel gratis online',
-      'taalgebonden woordzoeker generator',
-      'meertalige woordzoeker puzzel gratis proefversie',
+      'basisschool',
+      'kinderen',
+      'printbaar',
+      'PDF',
+      'antwoorden',
+      'puzzel',
     ],
-    titleTag: 'Woordzoeker generator gratis online | LessonCraftStudio',
-    metaDescription: 'Maak gratis woordzoekers met afbeeldingen online. Rasters van 5x5 tot 30x30, taalgebonden vulletters, 104. Verkoop op Etsy & KDP met commerciele licentie.',
+    titleTag: 'Gratis woordzoeker generator | Probeer online met watermerk',
+    metaDescription: 'Probeer de woordzoeker generator gratis online met watermerk. Rasters van 5x5 tot 30x30, taalgebonden vulletters, 104 thema\'s. Geen account nodig.',
   },
 
   hero: {
-    title: 'Gratis woordzoeker generator met afbeeldingen',
-    tagline: 'Maak verborgen-woorden rasterpuzzels met instelbare formaten en taalgebonden vulletters — gratis online',
+    title: 'Gratis woordzoeker maken — Probeer online met watermerk',
+    tagline: 'Maak woordzoekers met instelbare rasters en taalgebonden vulletters — probeer gratis zonder registratie.',
     description: 'Maak woordzoeker werkbladen waarbij verborgen woorden zijn ingebed in een raster van willekeurige vulletters. Woordzoekers zijn een van de populairste puzzelformaten voor kinderen en volwassenen — en met deze gratis online tool maakt u ze in enkele klikken. Stel de rastergrootte in van 5x5 tot 30x30, schakel diagonale en achterwaartse woorden in of uit voor precieze moeilijkheidsregeling, en kies uit drie inhoudsbronnen: Afbeeldingenbibliotheek met meer dan 3.100 illustraties over 104 thema\'s, Handmatige Bewerkingsmodus voor aangepaste woorden bij afbeeldingen, of Aangepaste Woordenlijst voor puur tekstgebaseerde puzzels. De unieke functie is taalgebonden alfabetvulling: Nederlandse rasters gebruiken het volledige Nederlandse alfabet met correcte letterfrequenties, Duitse rasters bevatten ä, ö, ü en ß, Franse rasters bevatten é, è, ç. Het kleurgecodeerde antwoordblad markeert elk woord in zes wisselende kleuren voor directe verificatie. U kunt de tool direct in uw browser gebruiken — geen account, geen software, geen creditcard nodig. De gratis proefversie biedt alle functies met een watermerk op downloads. Ideaal voor ouders, leerkrachten en puzzelliefhebbers die woordzoekers willen uitproberen.',
   },
 

@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'beste niches activiteitenboeken KDP 2026',
+    primaryKeyword: 'beste niches activiteitenboeken KDP',
     secondaryKeywords: [
-      'winstgevende activiteitenboek niches Amazon KDP',
-      'onderbediende KDP niches voor werkboeken',
-      'niche-onderzoek activiteitenboeken zelfpublicatie',
-      'welke activiteitenboeken verkopen het best op KDP',
+      'winstgevende KDP niches vinden',
+      'activiteitenboek niche onderzoek',
+      'populaire doeboeken Amazon KDP',
+      'welke werkboeken verkopen goed',
     ],
     lsiKeywords: [
-      'Amazon BSR best seller rang concurrentieanalyse vraag',
-      'activiteitenboek subcategorie reken puzzel kleur woordzoeker',
-      'doelgroepsegmentatie kleuters kinderen volwassenen senioren grote letter',
-      'seizoensniche feestdagen terug-naar-school zomer groenblijvend',
-      'nichevalidatie testtitel 90-dagen verkoop catalogusstrategie',
-      'cross-categorie hybride thematisch activiteitenboek sub-niche',
+      'niche',
+      'concurrentie',
+      'doelgroep',
+      'seizoensgebonden',
+      'validatie',
+      'subcategorie',
     ],
-    titleTag: 'Beste KDP-niches werkboeken (2026) | LessonCraftStudio',
-    metaDescription: 'Ontdek de beste niches voor activiteitenboeken op Amazon KDP in 2026. Vraaganalyse, concurrentie-evaluatie en validatiemethoden voor nieuwe uitgevers.',
+    titleTag: 'Beste niches activiteitenboeken KDP | LessonCraftStudio',
+    metaDescription: 'Ontdek de beste niches voor activiteitenboeken op Amazon KDP. Leer vraag analyseren, concurrentie evalueren en niches valideren. Gratis proberen.',
   },
 
   hero: {

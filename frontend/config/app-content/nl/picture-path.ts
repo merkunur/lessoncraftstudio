@@ -2,26 +2,27 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'doolhoven met afbeeldingen om te verkopen op Etsy',
+    primaryKeyword: 'doolhof printen',
     secondaryKeywords: [
-      'doolhof generator met plaatjes Etsy',
-      'beeldende doolhoven voor KDP-boeken',
-      'doolhof werkbladen commerciële licentie',
-      'doolhofpuzzels verkopen',
+      'doolhof generator',
+      'doolhof kinderen printen',
+      'doolhof maken',
+      'doolhof kleuters',
     ],
     lsiKeywords: [
-      'digitale doolhof printables online bedrijf',
-      'commercieel gebruik pad werkblad generator',
-      'printbare puzzel activiteit business tools',
+      'weg',
+      'uitgang',
+      'fijne motoriek',
+      'concentratie',
     ],
-    titleTag: 'Doolhoven met afbeeldingen voor Etsy | LessonCraftStudio',
-    metaDescription: 'Maak doolhoven met afbeeldingen om te verkopen op Etsy en Amazon KDP. Drie spelmodi, LPF-algoritme, 104 thema\'s en commerciële licentie. $49 eenmalig.',
+    titleTag: 'Doolhof printen | Generator doolhoven',
+    metaDescription: 'Maak doolhoven met themaplaatjes. Automatische antwoorden, PDF 300 DPI. Gratis proberen — verkoop op Etsy & Amazon KDP.',
   },
 
   hero: {
-    title: 'Doolhoven met afbeeldingen maken en verkopen op Etsy',
+    title: 'Doolhof printen — Generator doolhoven met themaplaatjes',
     tagline:
-      'Gratis proefversie met watermerk — drie spelmodi in één generator — LPF-algoritme voor professionele doolhoven die uitstekend verkopen als printables en activiteitenboeken.',
+      'Maak doolhoven met plaatjes voor kinderen en kleuters — drie spelmodi, automatische antwoorden, probeer gratis met watermerk.',
     description:
       'Doolhofpuzzels zijn een van de populairste formaten voor activiteitenboeken en printables. Met deze generator maakt u professionele doolhoven met afbeeldingen in drie spelmodi: Afbeeldingspad waarbij kinderen het juiste pad volgen door plaatjes te herkennen, Klassiek Doolhof met wandgebaseerde gangen en verzamelobjecten, en Kies het Juiste Pad met driepad-puzzels. Het professionele LPF-algoritme (Langste Pad Eerst) genereert uitdagende maar oplosbare doolhoven die de kwaliteit van handontworpen puzzels evenaren. Kies uit 104 thematische collecties met meer dan 3.100 illustraties voor seizoensgebonden en thematische bundels. Elk werkblad is volledig visueel zonder tekst, waardoor uw doolhofproducten wereldwijd verkoopbaar zijn zonder vertaling. Ideaal voor Amazon KDP activiteitenboeken, Etsy.nl digitale downloads en Bol.com. Automatisch gegenereerde antwoordbladen besparen u uren productietijd. Exporteer printklare PDF\'s en JPEG\'s op 300 DPI. Gratis proefversie met watermerk — koop een licentie om het watermerk te verwijderen en commercieel te verkopen.',
   },

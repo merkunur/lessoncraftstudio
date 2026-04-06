@@ -2,11 +2,11 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'printable mockup fotos meer verkopen',
-    secondaryKeywords: ['printable business strategie 2026', 'werkbladen verkopen platform tips', 'digitale producten online verkopen'],
-    lsiKeywords: ['printable verkoop optimalisatie', 'digitale download business', 'online printable winkel'],
-    titleTag: 'Mockup Foto\'s Die Uw Printables Beter Verkopen | LCS',
-    metaDescription: 'Mockup Foto\'s Die Uw Printables Beter Verkopen. Praktische strategieën en bewezen technieken voor printable verkopers in 2026.',
+    primaryKeyword: 'printable mockup foto\'s meer verkopen',
+    secondaryKeywords: ['mockups maken werkbladen Etsy', 'productfoto\'s printable listings', 'mockup templates digitale downloads'],
+    lsiKeywords: ['mockup', 'foto', 'presentatie', 'visueel', 'professioneel', 'conversie'],
+    titleTag: 'Mockup Foto\'s die Uw Printables Beter Verkopen | Blog LessonCraftStudio',
+    metaDescription: 'Goede mockup foto\'s verdubbelen uw Etsy-verkoop. Leer hoe u professionele productfoto\'s maakt voor uw printable listings.',
   },
   hero: {
     title: 'Mockup Foto\'s Die Uw Printables Beter Verkopen',

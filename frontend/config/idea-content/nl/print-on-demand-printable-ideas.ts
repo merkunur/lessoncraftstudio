@@ -2,20 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Print-on-demand werkbladen | LessonCraftStudio',
-    metaDescription: 'Print-on-demand werkbladen ideeën voor KDP, Bol.com en Etsy. Bouw een voorraadrij business op met professioneel gebonden werkboeken zonder startkapitaal.',
+    titleTag: 'Print-on-demand werkbladen ideeën | Verkopen op KDP & Bol.com',
+    metaDescription: 'Ontdek hoe u print-on-demand werkboeken verkoopt op KDP, Bol.com en Etsy. Bouw een voorraadrije business op zonder startkapitaal met gebonden werkboeken.',
 
-    primaryKeyword: 'print-on-demand werkbladen ideeën business',
+    primaryKeyword: 'print-on-demand werkbladen verkopen',
     secondaryKeywords: [
-      'POD werkboeken verkopen Amazon KDP',
-      'print-on-demand educatieve producten Etsy',
-      'voorraadrij werkblad business starten',
-      'werkboeken Bol.com print-on-demand',
+      'POD werkboeken ideeën KDP',
+      'print-on-demand printables Etsy',
+      'voorraadrij werkblad business',
+      'werkboeken Bol.com verkopen',
     ],
     lsiKeywords: [
-      'Printful Gelato Europese druklocaties',
-      'professioneel gebonden activiteitenboeken',
-      'fysieke werkboeken zonder voorraad',
+      'Printful Gelato druklocaties',
+      'professioneel gebonden boeken',
+      'zonder voorraad zonder startkapitaal',
     ],
   },
   hero: {

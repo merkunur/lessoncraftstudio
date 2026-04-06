@@ -2,25 +2,26 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'geheimschrift rekenpuzzels maken om te verkopen op Etsy',
+    primaryKeyword: 'geheim bericht met sommen printen',
     secondaryKeywords: [
-      'code optellen werkbladen generator Etsy',
-      'geheime code rekenpuzzels voor KDP',
-      'geheimschrift rekenbladen commerciële licentie',
-      'decodeer rekenpuzzels verkopen',
+      'codekraker rekenen werkblad',
+      'geheime code sommen',
+      'rekenraadsel werkblad',
+      'sommen en codes',
     ],
     lsiKeywords: [
-      'educatieve puzzel printables business ideeën',
-      'rekenpuzzels online verkopen',
-      'wiskundepuzzel werkboek generator',
+      'ontcijferen',
+      'code',
+      'verborgen bericht',
+      'raadsel',
     ],
-    titleTag: 'Geheimschrift rekenpuzzels voor Etsy | LessonCraftStudio',
-    metaDescription: 'Maak geheimschrift rekenpuzzels om te verkopen op Etsy en KDP. Rekenen plus decoderen. Commerciële licentie inbegrepen. $49 eenmalig.',
+    titleTag: 'Geheim bericht met sommen | Generator rekenraadsels',
+    metaDescription: 'Maak werkbladen waar kinderen sommen oplossen om geheime berichten te ontcijferen. Themaplaatjes, antwoorden inbegrepen. Gratis proberen.',
   },
 
   hero: {
-    title: 'Genereer geheimschrift rekenpuzzels om te verkopen op Etsy en KDP',
-    tagline: 'Combineer rekenen met decoderen — een uniek puzzelformat met vrijwel geen concurrentie op Etsy.',
+    title: 'Geheim bericht met sommen printen — Generator rekenraadsels',
+    tagline: 'Maak werkbladen waar kinderen sommen oplossen om geheime berichten te ontcijferen — codekraker rekenen met themaplaatjes en antwoorden.',
     description:
       'Maak geheimschrift rekenpuzzels waarbij afbeeldingen geheime getallen verbergen die gebruikers moeten ontcijferen door optelsommen op te lossen. Dit unieke format combineert rekenvaardigheid met logisch decoderen en is vrijwel niet te vinden op Etsy — een enorme kans voor verkopers die zich willen onderscheiden. Schakel over naar de Onthuld Woord modus en gebruikers decoderen een geheim woord door elke som te koppelen aan een letter uit de decoderingstabel. De generator ondersteunt elf taalspecifieke alfabetten inclusief het Nederlandse met ë, ï, é en ü, waardoor geheime woorden met diakritische tekens correct werken. Kies uit meer dan 3100 afbeeldingen in 104 thema\'s als codesymbolen, configureer nummerbereiken van 1 tot 20 en exporteer printklare PDF\'s of JPEG\'s op meer dan 400 DPI met automatische antwoordsleutels. Verkoop uw puzzels op Etsy.nl, Amazon KDP, Bol.com of uw eigen webshop met de commerciële licentie. Gratis proefversie met watermerk — alle functies beschikbaar zonder registratie.',
   },

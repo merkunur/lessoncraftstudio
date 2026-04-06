@@ -4,21 +4,21 @@ const content: StartContent = {
   seo: {
     primaryKeyword: 'werkbladen maken die verkopen',
     secondaryKeywords: [
-      'professionele werkbladen maken Etsy',
-      'werkbladen maken om op Etsy te verkopen',
-      'werkblad creatie voor printable verkopers',
-      'printbare werkblad ontwerp tips verkopers',
+      'Etsy werkbladen verkooptips',
+      'bestseller printables ontwerpen',
+      'werkbladen bundelen en prijzen',
+      'professionele werkbladen voor Etsy en KDP',
     ],
     lsiKeywords: [
-      'werkblad kwaliteitsnormen Etsy KDP',
-      'antwoordblad generatie verkopers',
-      'printbare product creatie workflow',
-      'werkblad bundel strategie Bol.com',
-      'thematische werkblad afbeeldingen',
-      'printklare PDF werkbladen verkopen',
+      'Etsy',
+      'bestsellers',
+      'verkooptips',
+      'bundels',
+      'werkbladen',
+      'printables',
     ],
-    titleTag: 'Werkbladen maken die verkopen | LessonCraftStudio',
-    metaDescription: 'Leer werkbladen maken die verkopen op Etsy, Amazon KDP en Bol.com. Stapsgewijze gids over thematische afbeeldingen, antwoordbladen, bundels en prijzen.',
+    titleTag: 'Werkbladen maken die verkopen | Gids voor printable-verkopers',
+    metaDescription: 'Ontdek hoe u werkbladen maakt die daadwerkelijk verkopen op Etsy en KDP. Tips over thema\'s, bundels, prijzen en professionele opmaak.',
   },
 
   hero: {

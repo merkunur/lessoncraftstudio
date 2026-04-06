@@ -2,11 +2,11 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'hoeveel listings etsy succes printables',
-    secondaryKeywords: ['printable business strategie 2026', 'werkbladen verkopen platform tips', 'digitale producten online verkopen'],
-    lsiKeywords: ['printable verkoop optimalisatie', 'digitale download business', 'online printable winkel'],
-    titleTag: 'Hoeveel Listings Hebt U Nodig voor Etsy Succes? | LCS',
-    metaDescription: 'Hoeveel Listings Hebt U Nodig voor Etsy Succes?. Praktische strategieën en bewezen technieken voor printable verkopers in 2026.',
+    primaryKeyword: 'hoeveel listings nodig Etsy succes',
+    secondaryKeywords: ['aantal producten Etsy werkbladen shop', 'Etsy listings werkbladen minimaal', 'hoeveel printables verkopen nodig'],
+    lsiKeywords: ['listings', 'aantal', 'catalogus', 'schaal', 'groei', 'zichtbaarheid'],
+    titleTag: 'Hoeveel Listings Heeft U Nodig op Etsy? | Blog LessonCraftStudio',
+    metaDescription: 'Hoeveel listings heeft u nodig voor succes op Etsy? Realistische aantallen en groeistrategieën voor printable-verkopers.',
   },
   hero: {
     title: 'Hoeveel Listings Hebt U Nodig voor Etsy Succes?',

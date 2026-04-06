@@ -2,11 +2,11 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'samenhangend printable merk opbouwen',
-    secondaryKeywords: ['printable business strategie 2026', 'werkbladen verkopen platform tips', 'digitale producten online verkopen'],
-    lsiKeywords: ['printable verkoop optimalisatie', 'digitale download business', 'online printable winkel'],
-    titleTag: 'Een Samenhangend Printable Merk Opbouwen | LCS',
-    metaDescription: 'Een Samenhangend Printable Merk Opbouwen. Praktische strategieën en bewezen technieken voor printable verkopers. Verkoop op Etsy & KDP met commerciele licentie.',
+    primaryKeyword: 'printable merk opbouwen herkenbaar',
+    secondaryKeywords: ['branding voor werkbladen winkel', 'herkenbare printable stijl ontwikkelen', 'Etsy shop branding strategie'],
+    lsiKeywords: ['merk', 'huisstijl', 'herkenbaar', 'consistent', 'logo', 'vertrouwen'],
+    titleTag: 'Een Herkenbaar Printable Merk Opbouwen | Blog LessonCraftStudio',
+    metaDescription: 'Bouw een herkenbaar merk op voor uw printable business. Tips voor consistente branding die vertrouwen wekt bij klanten.',
   },
   hero: {
     title: 'Een Samenhangend Printable Merk Opbouwen',

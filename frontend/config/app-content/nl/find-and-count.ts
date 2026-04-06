@@ -2,26 +2,27 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'zoek en tel werkbladen om te verkopen op Etsy',
+    primaryKeyword: 'zoek en tel werkblad printen',
     secondaryKeywords: [
-      'zoek-en-tel generator voor Etsy-shop',
-      'telwerkbladen met afbeeldingen voor KDP',
-      'zoek en tel activiteiten commerciële licentie',
-      'telactiviteiten verkopen online',
+      'tellen werkblad kleuters',
+      'hoeveel zijn er? werkblad',
+      'telactiviteit werkblad',
+      'zoek en tel kinderen',
     ],
     lsiKeywords: [
-      'digitale ik zie ik zie printables online bedrijf',
-      'commercieel gebruik verborgen voorwerp werkblad generator',
-      'printbare telactiviteit business tools',
+      'tellen',
+      'hoeveel',
+      'visuele discriminatie',
+      'getallen',
     ],
-    titleTag: 'Zoek en tel werkbladen voor Etsy | LessonCraftStudio',
-    metaDescription: 'Maak zoek-en-tel werkbladen om te verkopen op Etsy en KDP. Kinderen zoeken en tellen thema-afbeeldingen. Commerciële licentie. Gratis proefversie. $49 eenmalig.',
+    titleTag: 'Zoek en tel werkblad printen | Generator teloefeningen',
+    metaDescription: 'Maak zoek-en-tel werkbladen waar kinderen themaplaatjes zoeken en tellen. Automatische antwoorden. Gratis proberen.',
   },
 
   hero: {
-    title: 'Genereer zoek-en-tel werkbladen om te verkopen op Etsy en KDP',
+    title: 'Zoek en tel werkblad printen — Generator teloefeningen met plaatjes',
     tagline:
-      'Twee activiteitsmodi in één generator — Verborgen Voorwerp en Letterherkenning — met vier taaktypen en gelokaliseerde labels in 11 talen. Gratis proefversie met watermerk.',
+      'Maak zoek-en-tel werkbladen voor kleuters en basisschool met themaplaatjes — automatische antwoorden, probeer gratis met watermerk.',
     description:
       'Met de Zoek en Tel Werkbladen Generator maakt u professionele ik-zie-ik-zie werkbladen die u direct kunt verkopen op Etsy, Amazon KDP en Bol.com. Kleuters en kinderen in groep 1 tot en met 4 doorzoeken een verstrooide afbeeldingenscene om specifieke objecten te vinden, omcirkelen, doorstrepen of tellen. U kiest uit twee activiteitsmodi: Verborgen Voorwerp verstrooit afbeeldingen over een instelbaar raster met tot vier doelobjecten en individuele taaktypen. Letterherkenning toont een taalspecifiek alfabetraster en genereert scenes met afbeeldingen die beginnen met de geselecteerde letter. Selecteer uit meer dan 3100 illustraties in 104 thema\'s. Elk werkblad genereert automatisch een antwoordblad met rode annotaties. Exporteer printklare PDF\'s en JPEG\'s op 300 DPI. De Nederlandse markt op Etsy.nl en Bol.com biedt uitstekende kansen voor zoek-en-tel activiteiten in het Nederlands. Een commerciële licentie verwijdert het watermerk en geeft u volledige verkooprechten.',
   },

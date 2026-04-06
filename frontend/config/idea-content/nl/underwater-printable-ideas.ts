@@ -2,20 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Printables onderwaterwereld verkopen | LessonCraftStudio',
-    metaDescription: 'Verkoop onderwaterwereld printables op Etsy en Gumroad. Vissen, dolfijnen en koraalrif productideeën voor uw printable business — visueel rijke niche.',
+    titleTag: 'Onderwaterwereld printables ideeën | Werkbladen voor Etsy & KDP',
+    metaDescription: 'Ontdek winstgevende onderwaterwereld printable ideeën. Maak werkbladen met vissen, dolfijnen en koraalrif om te verkopen op Etsy, KDP en Gumroad.',
 
-    primaryKeyword: 'printables onderwaterwereld om te verkopen',
+    primaryKeyword: 'onderwaterwereld werkbladen verkopen',
     secondaryKeywords: [
-      'oceaanthema werkbladen verkopen Etsy',
-      'zeeleven printable business ideeën',
-      'dolfijn haai educatieve producten verkopen',
-      'onderwaterwereld printables Gumroad KDP',
+      'onderwaterwereld printables ideeën Etsy',
+      'zeeleven activiteitenboek KDP',
+      'onderwaterwereld kleurplaten verkopen online',
+      'oceaan werkbladen printen',
     ],
     lsiKeywords: [
-      'koraalrif zeepaardje werkbladen maken',
-      'aquarium zeeleven educatief materiaal',
-      'oceaan diepzee printbare producten ondernemen',
+      'vis dolfijn zeepaardje haai',
+      'koraalrif aquarium diepzee',
+      'oceaan zeeleven onderwaterdieren',
     ],
   },
   hero: {

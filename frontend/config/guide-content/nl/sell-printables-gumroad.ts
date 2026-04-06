@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'printables verkopen op Gumroad gids',
+    primaryKeyword: 'printables verkopen op Gumroad',
     secondaryKeywords: [
-      'hoe printables verkopen op Gumroad stap voor stap',
-      'Gumroad printable bedrijf opzetten Nederland',
-      'digitale werkbladen verkopen via Gumroad',
-      'Gumroad winkel maken voor educatieve printables',
+      'Gumroad winkel opzetten printables',
+      'werkbladen verkopen via Gumroad',
+      'Gumroad prijsstrategie digitale producten',
+      'Gumroad versus Etsy printables',
     ],
     lsiKeywords: [
-      'creator-direct verkoopplatform digitale downloads directe levering e-maillijst',
-      'Gumroad winkel branding productpagina omslagafbeelding beschrijvingsoptimalisatie',
-      'pay-what-you-want prijsstelling kortingscodes aanbiedingslinks gedifferentieerde prijzen',
-      'e-mailmarketing publiekopbouw volgerslijst productupdates nieuwsbrieven',
-      'social media verkeer Pinterest Instagram blogcontent SEO promotie',
-      'productbundels lidmaatschappen abonnementen terugkerende inkomsten catalogusschaling',
+      'Gumroad',
+      'winkel',
+      'e-maillijst',
+      'prijsstelling',
+      'klantrelatie',
+      'directe verkoop',
     ],
     titleTag: 'Printables verkopen op Gumroad | LessonCraftStudio',
-    metaDescription: 'Verkoop printables op Gumroad zonder maandelijkse kosten. Winkel opzetten, prijsstrategie, e-mailmarketing en directe klantrelaties opbouwen.',
+    metaDescription: 'Verkoop printables op Gumroad zonder maandelijkse kosten. Winkel opzetten, prijsstrategie en directe klantrelaties opbouwen. Stap voor stap.',
   },
 
   hero: {

@@ -4,21 +4,21 @@ const content: GuideContent = {
   seo: {
     primaryKeyword: 'klantenservice digitale producten',
     secondaryKeywords: [
-      'klantenservice printables Etsy',
-      'support werkbladen verkopen tips',
+      'support printables Etsy winkel',
       'klantondersteuning digitale downloads',
       'retourbeleid digitale producten',
+      'FAQ maken voor Etsy shop',
     ],
     lsiKeywords: [
-      'supporttickets afhandeling retourbeleid FAQ-pagina koperscommunicatie antwoordsjablonen',
-      'klanttevredenheid downloadproblemen bestandsformaat ondersteuning printinstructies werkbladen',
-      'marktplaats berichtenverkeer supportautomatisering proactieve documentatie zelfservice',
-      'klantbehoud reviewbeheer productomschrijvingen duidelijkheid verwachtingsmanagement',
-      'support preventie veelvoorkomende problemen oplostijd professionele communicatie',
-      'schaalbare supportsystemen sjabloonbibliotheken patroonherkenning feedbackloops',
+      'klantenservice',
+      'retourbeleid',
+      'sjablonen',
+      'communicatie',
+      'feedback',
+      'tevredenheid',
     ],
     titleTag: 'Klantenservice digitale producten | LessonCraftStudio',
-    metaDescription: 'Klantenservice voor digitale producten: probleempreventie, antwoordsjablonen, retourafhandeling en reviewbeheer. Verkoop op Etsy & KDP met commerciele licentie.',
+    metaDescription: 'Klantenservice opzetten voor digitale producten. Probleempreventie, antwoordsjablonen, retourafhandeling en reviewbeheer voor Etsy en KDP.',
   },
 
   hero: {

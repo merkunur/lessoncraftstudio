@@ -2,20 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Printables Kerst & Sint voor Etsy | LessonCraftStudio',
-    metaDescription: 'Verkoop printables voor Kerstmis en Sinterklaas op Etsy. Productideeën voor werkbladen die van oktober tot december piekverkopen opleveren.',
+    titleTag: 'Kerst printables ideeën | Werkbladen voor Etsy & KDP',
+    metaDescription: 'Ontdek winstgevende kerst printable ideeën. Maak Sinterklaas en kerstmis werkbladen, kleurplaten en puzzels om te verkopen op Etsy, KDP en Gumroad.',
 
-    primaryKeyword: 'printables kerst sint etsy sinterklaas verkopen',
+    primaryKeyword: 'kerst werkbladen verkopen',
     secondaryKeywords: [
-      'Kerst werkbladen Etsy verkopen',
-      'Sinterklaas printables business starten',
-      'feestdagen activiteitenboeken KDP',
-      'december printables niche verkopers',
+      'kerstmis printables ideeën Etsy',
+      'Sinterklaas activiteitenboek KDP',
+      'kerst kleurplaten verkopen online',
+      'december werkbladen printen feestdagen',
     ],
     lsiKeywords: [
-      'Kerstman werkbladen maken verkopen',
-      'Sinterklaas kleurplaten Etsy winkel',
-      'feestelijke seizoensprintables december',
+      'Kerstman rendier kerstboom',
+      'Sinterklaas pepernoten stoomboot',
+      'feestdagen seizoensprintables',
     ],
   },
   hero: {

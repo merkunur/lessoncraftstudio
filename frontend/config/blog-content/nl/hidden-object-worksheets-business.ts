@@ -1,11 +1,11 @@
 import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'zoek voorwerp werkbladen business 2026',
-    secondaryKeywords: ['hidden object werkbladen verkopen', 'zoekplaatjes printables Etsy', 'zoek en vind werkbladen business'],
-    lsiKeywords: ['zoekplaatjes generator', 'visuele zoekwerkbladen', 'observatie werkbladen verkopen'],
-    titleTag: 'Zoek Voorwerp Werkbladen Business Starten | LCS',
-    metaDescription: 'Start een zoek voorwerp werkbladen business op Etsy. Ontdek de markt, productstrategieën en prijzen voor deze populaire visuele puzzelniche.',
+    primaryKeyword: 'verborgen voorwerpen werkbladen business',
+    secondaryKeywords: ['zoekplaatjes printbaar verkopen', 'hidden objects werkbladen Etsy', 'visuele zoekwerkbladen maken'],
+    lsiKeywords: ['zoekplaatje', 'verborgen', 'visueel', 'concentratie', 'observatie', 'spelletje'],
+    titleTag: 'Verborgen Voorwerpen Werkbladen Verkopen | Blog LessonCraftStudio',
+    metaDescription: 'Verborgen voorwerpen werkbladen zijn geliefd bij kinderen. Start een business met zoekplaatjes en visuele puzzels.',
   },
   hero: {
     title: 'Zoek Voorwerp Werkbladen Business: Complete Gids',

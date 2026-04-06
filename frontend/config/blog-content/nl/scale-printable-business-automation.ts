@@ -3,10 +3,10 @@ import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
     primaryKeyword: 'printable business opschalen automatisering',
-    secondaryKeywords: ['printable business strategie 2026', 'werkbladen verkopen platform tips', 'digitale producten online verkopen'],
-    lsiKeywords: ['printable verkoop optimalisatie', 'digitale download business', 'online printable winkel'],
-    titleTag: 'Printable Business Opschalen met Automatisering | LCS',
-    metaDescription: 'Printable Business Opschalen met Automatisering. Praktische strategieën en bewezen technieken voor printable verkopers in 2026.',
+    secondaryKeywords: ['werkbladen business automatiseren', 'schaalbare printable productie', 'Etsy shop groei automatisering'],
+    lsiKeywords: ['opschalen', 'automatisering', 'groei', 'systemen', 'workflow', 'efficiëntie'],
+    titleTag: 'Printable Business Opschalen met Automatisering | Blog LessonCraftStudio',
+    metaDescription: 'Schaal uw printable business op met automatisering. Strategieën voor efficiënte productie en groei op Etsy.',
   },
   hero: {
     title: 'Printable Business Opschalen met Automatisering',

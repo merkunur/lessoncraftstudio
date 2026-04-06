@@ -2,11 +2,11 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'activiteitenboek kdp maken compleet',
-    secondaryKeywords: ['printable activiteitenboek kdp maken', 'werkbladen activiteitenboek kdp', 'printables how-to gids'],
-    lsiKeywords: ['printable productie tips', 'werkbladen maken strategie', 'printable business how-to'],
-    titleTag: 'Activiteitenboek voor KDP: Start tot Finish | LCS',
-    metaDescription: 'Een Activiteitenboek voor KDP Maken: Van Start tot Finish. Stap-voor-stap instructies en praktische tips voor printable verkopers. Direct toepasbaar.',
+    primaryKeyword: 'activiteitenboek maken voor KDP',
+    secondaryKeywords: ['doeboek publiceren Amazon KDP', 'activiteitenboek stap voor stap', 'KDP werkbladen boek formatteren'],
+    lsiKeywords: ['activiteitenboek', 'KDP', 'publiceren', 'formatteren', 'omslag', 'ISBN'],
+    titleTag: 'Activiteitenboek Maken voor Amazon KDP | Blog LessonCraftStudio',
+    metaDescription: 'Maak een activiteitenboek voor Amazon KDP van start tot finish. Stap-voor-stap gids voor het formatteren en publiceren van doeboeken.',
   },
   hero: {
     title: 'Een Activiteitenboek voor KDP Maken: Van Start tot Finish',

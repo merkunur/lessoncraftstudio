@@ -2,11 +2,11 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'printable curriculum pakketten maken',
-    secondaryKeywords: ['printable printable curriculum pakketten', 'werkbladen printable curriculum', 'printables how-to gids'],
-    lsiKeywords: ['printable productie tips', 'werkbladen maken strategie', 'printable business how-to'],
-    titleTag: 'Printable Curriculum Pakketten Maken | LCS',
-    metaDescription: 'Printable Curriculum Pakketten Maken. Stap-voor-stap instructies en praktische tips voor printable verkopers. Verkoop op Etsy & KDP met commerciele licentie.',
+    primaryKeyword: 'printbare lespakketten maken verkopen',
+    secondaryKeywords: ['curriculum pakket werkbladen', 'lesmethode printables samenstellen', 'educatieve bundels voor thuisonderwijs'],
+    lsiKeywords: ['lespakket', 'curriculum', 'lesmethode', 'thuisonderwijs', 'leerlijn', 'compleet'],
+    titleTag: 'Printbare Lespakketten Maken en Verkopen | Blog LessonCraftStudio',
+    metaDescription: 'Maak en verkoop complete lespakketten als printables. Ontdek hoe u curricula samenstelt voor thuisonderwijs en bijles.',
   },
   hero: {
     title: 'Printable Curriculum Pakketten Maken',

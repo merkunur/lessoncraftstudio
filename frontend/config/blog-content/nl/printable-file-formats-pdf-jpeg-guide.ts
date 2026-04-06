@@ -3,10 +3,10 @@ import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
     primaryKeyword: 'printable bestandsformaten PDF JPEG gids',
-    secondaryKeywords: ['printable business strategie 2026', 'werkbladen verkopen platform tips', 'digitale producten online verkopen'],
-    lsiKeywords: ['printable verkoop optimalisatie', 'digitale download business', 'online printable winkel'],
-    titleTag: 'Bestandsformaten voor Printables: PDF vs JPEG Gids | LCS',
-    metaDescription: 'Bestandsformaten voor Printables: PDF vs JPEG Gids. Praktische strategieën en bewezen technieken voor printable. Verkoop op Etsy & KDP met commerciele licentie.',
+    secondaryKeywords: ['beste bestandsformaat werkbladen', 'PDF of JPEG voor printables', 'bestandstype digitale downloads'],
+    lsiKeywords: ['PDF', 'JPEG', 'PNG', 'formaat', 'kwaliteit', 'bestandsgrootte'],
+    titleTag: 'Bestandsformaten voor Printables: PDF vs JPEG | Blog LessonCraftStudio',
+    metaDescription: 'PDF of JPEG: welk bestandsformaat is het beste voor printables? Complete gids over bestandstypen voor werkbladen-verkopers.',
   },
   hero: {
     title: 'Bestandsformaten voor Printables: PDF vs JPEG Gids',

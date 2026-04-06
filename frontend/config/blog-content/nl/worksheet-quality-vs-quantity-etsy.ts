@@ -2,11 +2,11 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'werkbladen kwaliteit vs kwantiteit etsy',
-    secondaryKeywords: ['printable werkbladen kwaliteit vs', 'werkbladen werkbladen kwaliteit', 'printables how-to gids'],
-    lsiKeywords: ['printable productie tips', 'werkbladen maken strategie', 'printable business how-to'],
-    titleTag: 'Kwaliteit vs Kwantiteit op Etsy | LCS',
-    metaDescription: 'Kwaliteit vs Kwantiteit op Etsy. Stap-voor-stap instructies en praktische tips voor printable verkopers. Direct toepasbaar.',
+    primaryKeyword: 'werkbladen kwaliteit versus kwantiteit Etsy',
+    secondaryKeywords: ['meer listings of betere werkbladen Etsy', 'kwaliteit of kwantiteit printables', 'optimale productiecyclus werkbladen'],
+    lsiKeywords: ['kwaliteit', 'kwantiteit', 'balans', 'listings', 'conversie', 'productie'],
+    titleTag: 'Kwaliteit vs Kwantiteit bij Werkbladen op Etsy | Blog LessonCraftStudio',
+    metaDescription: 'Kwaliteit of kwantiteit: wat telt meer op Etsy? Ontdek de optimale balans voor uw werkbladen printable business.',
   },
   hero: {
     title: 'Kwaliteit vs Kwantiteit op Etsy',

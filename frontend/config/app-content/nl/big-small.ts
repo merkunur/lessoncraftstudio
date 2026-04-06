@@ -2,25 +2,27 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'groot en klein werkbladen voor Etsy-shop',
+    primaryKeyword: 'werkblad groot en klein printen',
     secondaryKeywords: [
-      'groot-klein vergelijken werkbladen Etsy',
-      'groottevergelijking werkbladen KDP',
-      'groot en klein commerciële licentie',
-      'vergelijkingswerkbladen verkopen',
+      'grootte vergelijken werkblad',
+      'ordenen op grootte oefening',
+      'groter kleiner werkblad',
+      'grootte kleuters',
     ],
     lsiKeywords: [
-      'digitale groottevergelijking printables online bedrijf',
-      'printbare visuele discriminatie werkbladen business',
-      'commercieel gebruik groot klein werkbladen generator',
+      'groot',
+      'klein',
+      'middelgroot',
+      'ordenen',
+      'sorteren',
     ],
-    titleTag: 'Groot en klein werkbladen voor Etsy | LessonCraftStudio',
-    metaDescription: 'Maak groot en klein werkbladen om te verkopen op Etsy en Amazon KDP. Vijf vraagtypen, identieke en verschillende modi. $49 eenmalig.',
+    titleTag: 'Werkblad groot en klein printen | Generator groottevergelijking',
+    metaDescription: 'Maak werkbladen groottevergelijking met themaplaatjes. Groot vs. klein, ordenen, automatische antwoorden. Gratis proberen.',
   },
 
   hero: {
-    title: 'Groot en klein werkbladen maken voor uw Etsy-shop',
-    tagline: 'Gratis proefversie met watermerk — vijf vraagtypen met identieke en verschillende afbeeldingsmodi voor groottevergelijking oefeningen die zich uitstekend verkopen.',
+    title: 'Werkblad groot en klein printen — Generator groottevergelijking',
+    tagline: 'Maak werkbladen grootte vergelijken en ordenen voor kleuters met themaplaatjes — vijf vraagtypen, automatische antwoorden, probeer gratis met watermerk.',
     description:
       'Start een winstgevende productlijn groottevergelijking werkbladen voor uw Etsy-shop of Amazon KDP-portfolio. Kinderen vergelijken formaten van afbeeldingen — omcirkel de grote, de kleine of de middelste, of nummeer van klein naar groot. Deze klassieke vroeg-leren activiteit is bijzonder populair bij ouders van kleuters en groep 1–2 in het Nederlandse onderwijs. De generator biedt vijf vraagtypen en twee afbeeldingsmodi die samen een breed scala aan moeilijkheidsniveaus afdekken, waardoor u gedifferentieerde bundels kunt samenstellen die hogere prijzen rechtvaardigen. Elk werkblad is volledig visueel zonder tekst, wat betekent dat hetzelfde product verkoopt op Etsy.nl, Bol.com en internationale markten zonder vertaling. De ingebouwde bibliotheek met meer dan 3.100 illustraties in 104 thema\'s levert eindeloze variatie. Automatisch gegenereerde antwoordbladen maken uw producten direct verkoopklaar. Exporteer printklare PDF\'s op 300 DPI. De gratis proefversie met watermerk geeft u toegang tot alle functies — koop een licentie om het watermerk te verwijderen.',
   },

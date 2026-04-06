@@ -2,25 +2,30 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'woordzoeker verkopen generator woordzoekerpuzzels etsy',
+    primaryKeyword: 'woordzoeker maken',
     secondaryKeywords: [
-      'woordzoekers met afbeeldingen maken voor Etsy-shop',
-      'woordpuzzelboeken voor Amazon KDP',
-      'woordzoekerpuzzels commerciële licentie',
-      'woordzoekermaker voor printables-business',
+      'woordzoeker generator',
+      'woordzoeker printen',
+      'eigen woordzoeker maken',
+      'woordzoeker met plaatjes',
     ],
     lsiKeywords: [
-      'digitale woordzoeker puzzelproducten online bedrijf',
-      'printbare verborgen woorden werkbladen bedrijf',
-      'commercieel gebruik woordzoeker generator',
+      'rooster',
+      'letters',
+      'woordenschat',
+      'spelling',
+      'thema',
+      'antwoorden',
+      'PDF',
+      'basisschool',
     ],
-    titleTag: 'Woordzoeker generator om te verkopen | LessonCraftStudio',
-    metaDescription: 'Maak woordzoekerpuzzels met afbeeldingen om te verkopen op Etsy, KDP en Bol.com. 104 thema\'s, commerciële licentie. $49 eenmalig.',
+    titleTag: 'Woordzoeker maken | Generator met themaplaatjes',
+    metaDescription: 'Maak woordzoekers met 3.000+ themaplaatjes in 11 talen. Eigen woorden, automatische antwoorden, PDF 300 DPI. Gratis proberen — commerciële licentie.',
   },
 
   hero: {
-    title: 'Genereer woordzoekerpuzzels om te verkopen op Etsy, KDP en Bol.com',
-    tagline: 'Maak woordzoekers met afbeeldingen in 104 thema\'s — instelbare rasters van 5×5 tot 30×30, taalspecifieke opvulletters en kleurgecodeerde antwoordbladen voor uw printables-business.',
+    title: 'Woordzoeker maken — Generator met themaplaatjes en antwoorden',
+    tagline: 'Maak eigen woordzoekers met 3.000+ plaatjes, instelbare rasters van 5×5 tot 30×30 en kleurgecodeerde antwoordbladen — probeer gratis met watermerk.',
     description:
       'Bouw een winstgevende productlijn van woordzoekerpuzzels voor uw Etsy-shop, Amazon KDP-boeken of Bol.com-winkel. Met meer dan 3.000 illustraties verdeeld over 104 thema\'s maakt u in enkele minuten professionele woordzoekers die klaar zijn voor verkoop. Kies uit drie inhoudsbronnen: de Afbeeldingenbibliotheek voor thematische puzzels, de Handmatige Bewerkingsmodus voor op maat gemaakte woordenschat, of de Aangepaste Woordenlijst voor tekst-only puzzels. Stel rasters in van 5×5 tot 30×30, schakel diagonale en omgekeerde woorden aan of uit, en creëer bundels met oplopende moeilijkheid die hogere prijzen rechtvaardigen. De dubbele taalafhankelijkheid maakt deze generator uniek: niet alleen veranderen de verborgen woorden per taal, maar ook de opvulletters in het raster passen zich aan — Duitse rasters bevatten ä, ö, ü en Franse rasters é, è, ç, à. Met Volledige Toegang ontgrendelt u alle 11 talen en maakt u meertalige productlijnen vanuit één workflow. Voor de Nederlandse markt biedt Brave New Books een extra verkoopkanaal naast KDP. Exporteer printklare PDF\'s en JPEG\'s op meer dan 400 DPI met commerciële licentie. Gratis proefversie met watermerk — alle functies beschikbaar zonder registratie.',
   },

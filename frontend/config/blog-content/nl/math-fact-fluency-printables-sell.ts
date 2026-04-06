@@ -2,11 +2,11 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'rekenvaardigheid printables verkopen 2026',
-    secondaryKeywords: ['rekenvaardigheid werkbladen verkopen Etsy', 'rekenvaardigheid printables business', 'rekenvaardigheid puzzels online'],
-    lsiKeywords: ['rekenvaardigheid generator business', 'rekenvaardigheid werkbladen markt', 'educatieve rekenvaardigheid printables'],
-    titleTag: 'Rekenvaardigheid Printables Verkopen | LCS',
-    metaDescription: 'Rekenvaardigheid Printables Verkopen op Etsy en KDP. Ontdek de markt, productstrategieën en prijzen voor deze winstgevende niche in 2026.',
+    primaryKeyword: 'rekenvaardigheid werkbladen verkopen',
+    secondaryKeywords: ['automatiseren rekenen werkbladen', 'rekenfluency printables Etsy', 'sommen oefenen werkbladen basisschool'],
+    lsiKeywords: ['rekenen', 'automatiseren', 'fluency', 'sommen', 'oefenen', 'herhaling'],
+    titleTag: 'Rekenvaardigheid Werkbladen Verkopen | Blog LessonCraftStudio',
+    metaDescription: 'Werkbladen voor het automatiseren van rekenen zijn een bestseller. Verkoop rekenvaardigheid printables aan leerkrachten en ouders.',
   },
   hero: {
     title: 'Rekenvaardigheid Printables Verkopen',

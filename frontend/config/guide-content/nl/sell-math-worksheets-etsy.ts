@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'rekenbladen verkopen op Etsy gids',
+    primaryKeyword: 'rekenwerkbladen verkopen Etsy',
     secondaryKeywords: [
-      'hoe rekenbladen verkopen op Etsy',
-      'Etsy rekenwerkblad winkel opzetten',
-      'printbare rekenwerkbladen Etsy bedrijf',
-      'educatieve printables verkopen op Etsy',
+      'rekenbladen Etsy winkel opzetten',
+      'printbare rekenwerkbladen verkopen',
+      'Etsy wiskunde werkbladen',
+      'reken printables Etsy tips',
     ],
     lsiKeywords: [
-      'Etsy digitale download rekenactiviteiten vermeldingsoptimalisatie',
-      'rekenwerkblad bundel prijsstrategie Etsy verkopers',
-      'Etsy SEO tags voor educatieve printable werkbladen',
-      'optellen aftrekken werkbladen verkopen Etsy winkel',
-      'terug naar school reken printable Etsy seizoensstrategie',
-      'Etsy vermeldingsfoto mockups voor rekenwerkblad producten',
+      'rekenen',
+      'Etsy',
+      'werkblad',
+      'bundel',
+      'vermelding',
+      'seizoen',
     ],
-    titleTag: 'Rekenbladen verkopen op Etsy | LessonCraftStudio',
-    metaDescription: 'Leer hoe u rekenbladen verkoopt op Etsy met 6 generatoren. Etsy-SEO, vermeldingsoptimalisatie, bundelprijzen en seizoenstiming voor Nederlandse verkopers.',
+    titleTag: 'Rekenwerkbladen verkopen op Etsy | LessonCraftStudio',
+    metaDescription: 'Leer rekenwerkbladen verkopen op Etsy met 6 generatoren. SEO-tips, bundelprijzen en seizoenstiming voor Nederlandse verkopers. Gratis proberen.',
   },
 
   hero: {

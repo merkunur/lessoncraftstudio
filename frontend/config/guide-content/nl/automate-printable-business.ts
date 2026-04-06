@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'printables-business automatiseren',
+    primaryKeyword: 'printable bedrijf automatiseren',
     secondaryKeywords: [
-      'werkbladen automatisch verkopen Etsy',
-      'batchproductie printables workflow',
-      'passief inkomen automatisering printables',
-      'printable bedrijf stroomlijnen',
+      'werkbladen sneller produceren',
+      'batchproductie printables',
+      'printables workflow opzetten',
+      'tijdbesparend werkbladen maken',
     ],
     lsiKeywords: [
-      'batchproductie workflow optimalisatie sjabloonsystemen productiesnelheid efficiëntie',
-      'vermeldingsautomatisering bulkverwerking tijdbeheer productiepijplijn planning',
-      'systematische creatie herhaalbare processen gereedschapsefficiëntie contentbatching',
-      'vermeldingssjablonen beschrijvingssjablonen bestandsorganisatie productieplanning',
-      'gestroomlijnde workflow processtandardisatie operationele efficiëntie taakbatching',
-      'productiesystemen schaalbare processen catalogusbeheer workflowontwerp automatisering',
+      'automatisering',
+      'sjablonen',
+      'workflow',
+      'batchverwerking',
+      'productiviteit',
+      'opschalen',
     ],
-    titleTag: 'Printables-business automatiseren | LessonCraftStudio',
-    metaDescription: 'Automatiseer uw printables-business met batchproductie, sjabloonsystemen en workflows. Bespaar uren per week en schaal uw output op Etsy, KDP en Bol.com.',
+    titleTag: 'Printable bedrijf automatiseren | LessonCraftStudio',
+    metaDescription: 'Automatiseer uw printable bedrijf met batchproductie en sjabloonsystemen. Produceer meer werkbladen in minder tijd voor Etsy en KDP. Gratis proberen.',
   },
 
   hero: {

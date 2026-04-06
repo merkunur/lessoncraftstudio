@@ -2,26 +2,27 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'sorteerwerkbladen voor Etsy-business',
+    primaryKeyword: 'sorteer werkblad printen',
     secondaryKeywords: [
-      'sorteer generator voor Etsy',
-      'categoriseer werkbladen KDP',
-      'sorteerwerkbladen commerciële licentie',
-      'sorteeractiviteiten verkopen',
+      'sorteren en groeperen werkblad',
+      'categoriseren werkblad',
+      'ordenen en sorteren werkblad',
+      'sorteeractiviteit kleuters',
     ],
     lsiKeywords: [
-      'digitale sorteer-printables online bedrijf',
-      'commercieel gebruik classificatie werkblad generator',
-      'printbare categoriseer sorteeractiviteit business tools',
+      'sorteren',
+      'groeperen',
+      'ordenen',
+      'categoriseren',
     ],
-    titleTag: 'Sorteerwerkbladen voor Etsy-business | LessonCraftStudio',
-    metaDescription: 'Maak sorteerwerkbladen om te verkopen op Etsy en Amazon KDP. Twee-categorieën sorteren, automatisch antwoordblad, 104 thema\'s. Gratis proefversie. $49 eenmalig.',
+    titleTag: 'Sorteer werkblad printen | Generator categoriseren',
+    metaDescription: 'Maak sorteer- en categoriseer werkbladen met themaplaatjes. Automatische antwoorden, printbare PDF\'s. Gratis proberen.',
   },
 
   hero: {
-    title: 'Sorteerwerkbladen maken en verkopen — generator voor Etsy',
+    title: 'Sorteer werkblad printen — Generator categoriseren met plaatjes',
     tagline:
-      'Gratis proefversie met watermerk — twee-categorieën sorteren met themaselectie of handmatige beeldselectie, automatische antwoordbladen, 4–12 configureerbare afbeeldingen en 104 thematische beeldcollecties.',
+      'Maak sorteer- en categoriseer werkbladen met themaplaatjes voor kleuters en basisschool — automatische antwoorden, probeer gratis met watermerk.',
     description:
       'Bouw een winstgevende lijn sorteerwerkbladen voor uw Etsy-shop of Amazon KDP-portfolio. Kinderen knippen plaatjes uit en sorteren ze in twee categorieën — een klassieke kleuteractiviteit die ouders en onderwijzers wereldwijd zoeken. De generator biedt themamodus met automatische beeldselectie uit 104 collecties en handmatige modus voor volledige controle over elke categorie. Automatisch gegenereerde antwoordbladen met 6× grotere afbeeldingen in categorievakken maken uw producten direct verkoopklaar. Sorteerwerkbladen zijn bijzonder populair voor kleuters en groep 1–2 in het Nederlandse onderwijs, en dankzij gelokaliseerde categorielabels in 11 talen kunt u dezelfde thema\'s verkopen op Etsy.nl, Bol.com en internationale markten. Exporteer printklare PDF\'s en JPEG\'s op 300 DPI in Letter-, A4- of aangepaste formaten. De gratis proefversie met watermerk geeft u toegang tot alle functies — geen registratie vereist. Koop een commerciële licentie om het watermerk te verwijderen en volledige verkooprechten te ontvangen.',
   },

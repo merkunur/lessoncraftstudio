@@ -2,11 +2,11 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'terug naar school printable piek',
-    secondaryKeywords: ['printable terug naar strategie', 'werkbladen terug naar verkopen', 'educatieve printables printable piek'],
-    lsiKeywords: ['printable niche terug naar', 'seizoensgebonden printables', 'thematische werkbladen verkopen'],
-    titleTag: 'Terug naar School: De Printable Verkooppiek | LCS',
-    metaDescription: 'Terug naar School: De Printable Verkooppiek. Ontdek welke producten het beste verkopen, wanneer u moet beginnen en hoe u maximale omzet genereert.',
+    primaryKeyword: 'terug naar school printables verkopen',
+    secondaryKeywords: ['schoolstart werkbladen seizoen', 'augustus september printable piek', 'back to school Etsy strategie'],
+    lsiKeywords: ['schooljaar', 'augustus', 'september', 'seizoenspiek', 'groepsindeling', 'nieuw schooljaar'],
+    titleTag: 'Terug naar School: Printable Verkooppiek | Blog LessonCraftStudio',
+    metaDescription: 'Het terug-naar-school-seizoen is de grootste verkooppiek voor werkbladen. Bereid uw Etsy-shop voor op augustus en september.',
   },
   hero: {
     title: 'Terug naar School: De Printable Verkooppiek',

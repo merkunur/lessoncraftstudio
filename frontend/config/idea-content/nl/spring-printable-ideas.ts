@@ -2,20 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Printables lente — Business | LessonCraftStudio',
-    metaDescription: 'Verkoop lente printables op Etsy en Gumroad. Ontdek seizoensgebonden productideeën met vlinders, bloemen en tuinthema\'s voor uw printable business van maart.',
+    titleTag: 'Lente printables ideeën | Werkbladen voor Etsy & KDP',
+    metaDescription: 'Ontdek winstgevende lente printable ideeën. Maak werkbladen met vlinders, bloemen en tuinthema om te verkopen op Etsy, Amazon KDP en Gumroad.',
 
-    primaryKeyword: 'printables lente ideeën business',
+    primaryKeyword: 'lente werkbladen verkopen',
     secondaryKeywords: [
-      'lente werkbladen verkopen Etsy',
-      'voorjaar printable business ideeën',
-      'seizoensgebonden printables maart mei',
-      'lentethema educatieve producten verkopen',
+      'lente printables ideeën Etsy',
+      'voorjaar activiteitenboek KDP',
+      'lente kleurplaten verkopen online',
+      'bloemen werkbladen printen seizoen',
     ],
     lsiKeywords: [
-      'vlinder bloem tuin werkbladen maken',
-      'Koningsdag printables verkopen',
-      'natuur seizoen printbare producten ondernemen',
+      'vlinder bloem tuin tulp',
+      'Koningsdag voorjaar natuur',
+      'maart april mei seizoen',
     ],
   },
   hero: {

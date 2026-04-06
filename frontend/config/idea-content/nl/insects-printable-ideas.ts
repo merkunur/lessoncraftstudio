@@ -2,20 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Printables insecten — Business | LessonCraftStudio',
-    metaDescription: 'Start een printable business met insecten. Productideeën voor werkbladen met vlinders, bijen en lieveheersbeestjes die verkopen op Etsy en KDP.',
+    titleTag: 'Insecten printables ideeën | Werkbladen voor Etsy & KDP',
+    metaDescription: 'Ontdek winstgevende insecten printable ideeën. Maak werkbladen met vlinders, bijen en lieveheersbeestjes om te verkopen op Etsy, KDP en Gumroad.',
 
-    primaryKeyword: 'printables insecten ideeën business',
+    primaryKeyword: 'insecten werkbladen verkopen',
     secondaryKeywords: [
-      'insecten werkbladen Etsy verkopen',
-      'beestjes printable business starten',
-      'vlinderthema activiteitenboeken KDP',
-      'insecten printables niche verkopers',
+      'insecten printables ideeën Etsy',
+      'insectenthema activiteitenboek KDP',
+      'insecten kleurplaten verkopen online',
+      'beestjes werkbladen printen',
     ],
     lsiKeywords: [
-      'levenscyclus werkbladen maken',
-      'beestjes kleurplaten printable winkel',
-      'entomologie printbare producten Etsy',
+      'vlinder bij lieveheersbeestje',
+      'levenscyclus metamorfose rups',
+      'entomologie natuur kruipdiertjes',
     ],
   },
   hero: {

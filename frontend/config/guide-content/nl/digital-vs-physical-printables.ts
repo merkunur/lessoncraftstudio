@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'digitaal fysiek printables welk printable formaat past',
+    primaryKeyword: 'digitaal of fysiek printables',
     secondaryKeywords: [
-      'digitaal of fysiek printables verkopen',
-      'print-on-demand versus digitale downloads',
-      'PDF vs gedrukt werkblad marges',
+      'print-on-demand vs digitale downloads',
+      'digitale printables verkopen voordelen',
+      'fysieke producten vs PDF verkoop',
       'hybride model printable bedrijf',
     ],
     lsiKeywords: [
-      'digitale download fysiek product print-on-demand afhandelingsmodel',
-      'verzendkosten winstmarge vergelijking voorraadbeheer schaalbaarheid',
-      'productiekosten leveringsmethode klantervaring productformaat',
-      'hybride model digitale marktplaats fysieke ambachtsmarkten overheadkosten',
-      'passief inkomen drukkosten verpakking productkwaliteitscontrole',
-      'formaatselectie bedrijfsmodelvergelijking verkoopstrategie groeipad',
+      'digitaal',
+      'fysiek',
+      'winstmarge',
+      'schaalbaarheid',
+      'print-on-demand',
+      'verzendkosten',
     ],
-    titleTag: 'Digitaal vs fysiek: printables | LessonCraftStudio',
-    metaDescription: 'Digitale vs fysieke printables vergelijken: winstmarges, schaalbaarheid, KDP print-on-demand en het hybride model. Kies het juiste formaat voor uw bedrijf.',
+    titleTag: 'Digitaal vs fysiek printables | LessonCraftStudio',
+    metaDescription: 'Digitale of fysieke printables verkopen? Vergelijk winstmarges, schaalbaarheid en het hybride model. Ontdek welk formaat bij uw bedrijf past.',
   },
 
   hero: {

@@ -2,11 +2,11 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'peuter printables bestsellers',
-    secondaryKeywords: ['printable peuter printables strategie', 'werkbladen peuter printables verkopen', 'educatieve printables printables bestsellers'],
-    lsiKeywords: ['printable niche peuter printables', 'seizoensgebonden printables', 'thematische werkbladen verkopen'],
-    titleTag: 'Peuter Printables: De Bestsellers van 2026 | LCS',
-    metaDescription: 'Peuter Printables: De Bestsellers van 2026. Ontdek welke producten het beste verkopen, wanneer u moet beginnen en hoe u maximale omzet genereert.',
+    primaryKeyword: 'peuterprintables bestsellers verkopen',
+    secondaryKeywords: ['werkbladen voor peuters Etsy', 'voorschoolse activiteiten printbaar', 'peuter leermateriaal verkopen'],
+    lsiKeywords: ['peuter', 'voorschools', 'kleuren', 'knippen', 'vormen', 'basisvaardigheden'],
+    titleTag: 'Peuter Printables: Bestsellers op Etsy | Blog LessonCraftStudio',
+    metaDescription: 'Peuter printables zijn een topseller op Etsy. Ontdek welke voorschoolse werkbladen het beste verkopen en hoe u ze maakt.',
   },
   hero: {
     title: 'Peuter Printables: De Bestsellers van 2026',

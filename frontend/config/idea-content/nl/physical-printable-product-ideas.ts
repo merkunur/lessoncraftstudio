@@ -2,20 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Fysieke gedrukte producten — Business | LessonCraftStudio',
-    metaDescription: 'Fysieke gedrukte printable producten verkopen op Etsy en markten. Ideeën voor gelamineerde werkbladsets en gebonden werkboeken met premium marges.',
+    titleTag: 'Fysieke printable producten ideeën | Werkbladen voor Etsy & markten',
+    metaDescription: 'Ontdek hoe u fysieke gedrukte printable producten verkoopt. Gelamineerde werkbladsets en gebonden werkboeken met premium marges op Etsy en markten.',
 
-    primaryKeyword: 'fysieke gedrukte producten business printable premium prijzen',
+    primaryKeyword: 'fysieke printable producten verkopen',
     secondaryKeywords: [
       'gelamineerde werkbladen verkopen Etsy',
-      'fysieke printable producten premium',
-      'gedrukte werkboeken verkopen markten',
+      'gedrukte werkboeken premium prijzen',
+      'fysieke printables markten verkopen',
       'tastbaar educatief materiaal business',
     ],
     lsiKeywords: [
-      'NOT onderwijsbeurs fysieke producten',
-      'herbruikbaar gelamineerd klasmateriaal',
-      'institutionele kopers schoolbudgetten',
+      'lamineren binden drukwerk',
+      'onderwijsbeurs schoolbudgetten',
+      'herbruikbaar klasmateriaal premium',
     ],
   },
   hero: {

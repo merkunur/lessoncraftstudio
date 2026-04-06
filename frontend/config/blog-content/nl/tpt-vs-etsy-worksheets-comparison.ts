@@ -2,11 +2,11 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'samen voor onderwijs vs etsy werkbladen vergelijking',
-    secondaryKeywords: ['printable business strategie 2026', 'werkbladen verkopen platform tips', 'digitale producten online verkopen'],
-    lsiKeywords: ['printable verkoop optimalisatie', 'digitale download business', 'online printable winkel'],
-    titleTag: 'Samen Voor Onderwijs vs Etsy: Werkbladen Vergelijken | LCS',
-    metaDescription: 'Samen Voor Onderwijs vs Etsy: Werkbladen Vergelijken. Praktische strategieën en bewezen technieken voor printable verkopers in 2026.',
+    primaryKeyword: 'Gumroad vs Etsy werkbladen vergelijking',
+    secondaryKeywords: ['beste platform werkbladen verkopen', 'Gumroad of Etsy voor werkbladen', 'werkbladen verkopen platform keuze'],
+    lsiKeywords: ['platform', 'vergelijking', 'commissie', 'doelgroep', 'bereik', 'functionaliteit'],
+    titleTag: 'Gumroad vs Etsy voor Werkbladen: Vergelijking | Blog LessonCraftStudio',
+    metaDescription: 'Gumroad of Etsy: welk platform is beter voor werkbladen verkopen? Complete vergelijking voor printable-verkopers.',
   },
   hero: {
     title: 'Samen Voor Onderwijs vs Etsy: Werkbladen Vergelijken',

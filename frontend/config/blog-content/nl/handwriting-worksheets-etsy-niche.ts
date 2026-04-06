@@ -2,11 +2,11 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'handschrift werkbladen verkopen Etsy niche 2026',
-    secondaryKeywords: ['schrijfwerkbladen verkopen online', 'handschrift oefenbladen Etsy', 'kalligrafie werkbladen printables'],
-    lsiKeywords: ['schrijven leren werkbladen', 'pengreep oefenbladen', 'handschrift printables markt'],
-    titleTag: 'Handschrift Werkbladen Verkopen op Etsy | LCS',
-    metaDescription: 'Start met handschrift werkbladen verkopen op Etsy. Ontdek de niche, prijsstrategie en productlijnen voor de Nederlandse en internationale markt.',
+    primaryKeyword: 'schrijfwerkbladen verkopen Etsy niche',
+    secondaryKeywords: ['handschrift oefenbladen printbaar', 'schrijflessen werkbladen basisschool', 'kalligrafie werkbladen verkopen'],
+    lsiKeywords: ['handschrift', 'schrijven', 'letters', 'oefenen', 'lijntjes', 'pengreep'],
+    titleTag: 'Schrijfwerkbladen: Een Populaire Etsy Niche | Blog LessonCraftStudio',
+    metaDescription: 'Schrijfwerkbladen zijn een evergreen niche op Etsy. Leer hoe u handschrift oefenbladen maakt en verkoopt aan ouders.',
   },
   hero: {
     title: 'Handschrift Werkbladen Verkopen op Etsy: Niche Gids',

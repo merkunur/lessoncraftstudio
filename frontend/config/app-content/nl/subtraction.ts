@@ -2,31 +2,29 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'generator aftrekwerkbladen om te verkopen op Etsy',
+    primaryKeyword: 'werkbladen aftrekken printen',
     secondaryKeywords: [
-      'minsommen werkbladen maken voor Etsy-shop',
-      'aftrekoefeningen voor Amazon KDP',
-      'aftrekwerkbladen met commerciële licentie',
-      'rekenbladen verkopen op Bol.com',
+      'sommen aftrekken generator',
+      'oefenbladen aftrekken groep 3 4',
+      'min sommen printen',
+      'werkbladen aftrekken met antwoorden',
     ],
     lsiKeywords: [
-      'doorstreep-visualisatie',
-      'minsommen',
-      'printklaar',
-      'antwoordenblad',
-      'passief inkomen',
-      'printables-business',
-      'activiteitenboek',
+      'basisschool',
       'groep 3',
-      'Brave New Books',
+      'groep 4',
+      'zonder brug',
+      'met brug',
+      'verschil',
+      'antwoorden',
     ],
-    titleTag: 'Aftrekwerkbladen — Verkopen op Etsy | LessonCraftStudio',
-    metaDescription: 'Maak aftrekwerkbladen om te verkopen op Etsy, KDP en Bol.com. Thema-afbeeldingen, antwoorden, commerciële licentie. Gratis proberen met watermerk. $49 eenmalig.',
+    titleTag: 'Werkbladen aftrekken printen | Generator met antwoorden',
+    metaDescription: 'Maak werkbladen aftrekken met themaplaatjes en automatische antwoorden. PDF 300 DPI, 11 talen. Gratis proberen — commerciële licentie inbegrepen.',
   },
 
   hero: {
-    title: 'Genereer aftrekwerkbladen om te verkopen op Etsy, KDP en Bol.com',
-    tagline: 'Maak van aftrekken een verkoopbaar product met doorstreep-visualisatie — gratis proefversie met watermerk.',
+    title: 'Werkbladen aftrekken printen — Generator met themaplaatjes en antwoorden',
+    tagline: 'Maak oefenbladen aftrekken voor groep 3/4 met min sommen, themaplaatjes en automatische antwoordbladen — probeer gratis met watermerk.',
     description:
       'Maak van aftrekken een verkoopbaar product met een generator die is ontworpen voor printables-ondernemers. Maak geïllustreerde aftrekwerkbladen met thema-afbeeldingen uit meer dan 100 categorieën — dieren, voertuigen, eten, natuur — die rekenen aantrekkelijk maken en uw Etsy-aanbiedingen onweerstaanbaar. Elk werkblad wordt geëxporteerd als printklare PDF op 300 DPI met automatisch antwoordenblad, klaar om te uploaden op Etsy, samen te voegen in een activiteitenboek voor Amazon KDP of Brave New Books, of aan te bieden op Samen Voor Onderwijs. De commerciële licentie is bij elk werkblad inbegrepen. Winstgevende tip: combineer optellen en aftrekken in bundels — verkopers melden aanzienlijk hogere gemiddelde bestellingen met gecombineerde rekenpakketten. Probeer alle functies met de gratis proefversie met watermerk — zonder account.',
   },

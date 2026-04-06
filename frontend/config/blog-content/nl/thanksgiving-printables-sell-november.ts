@@ -2,11 +2,11 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'sinterklaas printables verkopen november',
-    secondaryKeywords: ['printable sinterklaas printables strategie', 'werkbladen sinterklaas printables verkopen', 'educatieve printables verkopen november'],
-    lsiKeywords: ['printable niche sinterklaas printables', 'seizoensgebonden printables', 'thematische werkbladen verkopen'],
-    titleTag: 'Sinterklaas Printables Verkopen in November | LCS',
-    metaDescription: 'Sinterklaas Printables Verkopen in November. Ontdek welke producten het beste verkopen, wanneer u moet beginnen en hoe u maximale omzet genereert.',
+    primaryKeyword: 'Thanksgiving printables verkopen november',
+    secondaryKeywords: ['herfst werkbladen november Etsy', 'dankbaarheid activiteiten printbaar', 'Thanksgiving werkbladen maken'],
+    lsiKeywords: ['Thanksgiving', 'november', 'herfst', 'dankbaarheid', 'oogst', 'seizoen'],
+    titleTag: 'Thanksgiving Printables Verkopen in November | Blog LessonCraftStudio',
+    metaDescription: 'Thanksgiving printables zijn een Amerikaanse verkooppiek in november. Bereik de internationale markt met herfstwerkbladen.',
   },
   hero: {
     title: 'Sinterklaas Printables Verkopen in November',

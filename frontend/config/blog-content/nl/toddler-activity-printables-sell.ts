@@ -3,10 +3,10 @@ import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
     primaryKeyword: 'peuter activiteiten printables verkopen',
-    secondaryKeywords: ['printable peuter activiteiten strategie', 'werkbladen peuter activiteiten verkopen', 'educatieve printables printables verkopen'],
-    lsiKeywords: ['printable niche peuter activiteiten', 'seizoensgebonden printables', 'thematische werkbladen verkopen'],
-    titleTag: 'Peuter Activiteiten Printables Verkopen | LCS',
-    metaDescription: 'Peuter Activiteiten Printables Verkopen. Ontdek welke producten het beste verkopen, wanneer u moet beginnen en hoe u maximale omzet genereert.',
+    secondaryKeywords: ['werkbladen voor peuters Etsy', 'peuter leeractiviteiten printbaar', 'peutermateriaal digitaal verkopen'],
+    lsiKeywords: ['peuter', 'activiteit', 'spelen', 'leren', 'motoriek', 'eenvoudig'],
+    titleTag: 'Peuter Activiteiten Printables Verkopen | Blog LessonCraftStudio',
+    metaDescription: 'Peuter activiteiten printables zijn een groeiende markt op Etsy. Verkoop eenvoudige leeractiviteiten aan ouders van peuters.',
   },
   hero: {
     title: 'Peuter Activiteiten Printables Verkopen',

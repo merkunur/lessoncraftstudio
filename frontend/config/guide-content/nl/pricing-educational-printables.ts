@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'prijsstrategie educatieve werkbladen',
+    primaryKeyword: 'prijsstrategie werkbladen verkopen',
     secondaryKeywords: [
       'werkbladen prijzen bepalen',
-      'Etsy printable prijsstrategie',
-      'digitale producten prijzen',
-      'printable bundel prijzen',
+      'printable prijzen instellen',
+      'bundelprijzen werkbladen',
+      'digitale producten prijsstrategie',
     ],
     lsiKeywords: [
-      'kostenstructuur digitale downloads marktplaats verkopers',
-      'drielaags prijsmodel educatieve werkbladen bundels',
-      'psychologische prijstechnieken waargenomen waarde printables',
-      'seizoensprijsstrategie Etsy kortingsacties verkopers',
-      'concurrentieanalyse prijspunten digitale educatieve producten',
-      'internationale prijsstelling valuta A4 Letter formaat werkbladen',
+      'prijsstrategie',
+      'kosten',
+      'bundel',
+      'psychologie',
+      'seizoen',
+      'concurrentie',
     ],
-    titleTag: 'Prijsstrategie educatieve werkbladen | LessonCraftStudio',
-    metaDescription: 'Ontdek de juiste prijsstrategie voor educatieve werkbladen op Etsy en Bol.com. Kostenberekening, bundelstrategieën en psychologische prijstechnieken.',
+    titleTag: 'Prijsstrategie werkbladen verkopen | LessonCraftStudio',
+    metaDescription: 'Ontdek de juiste prijsstrategie voor werkbladen. Kostenberekening, bundelstrategie en psychologische prijstechnieken voor Etsy en KDP.',
   },
 
   hero: {

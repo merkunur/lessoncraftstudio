@@ -3,10 +3,10 @@ import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
     primaryKeyword: 'reis activiteiten printables verkopen',
-    secondaryKeywords: ['printable reis activiteiten strategie', 'werkbladen reis activiteiten verkopen', 'educatieve printables printables verkopen'],
-    lsiKeywords: ['printable niche reis activiteiten', 'seizoensgebonden printables', 'thematische werkbladen verkopen'],
-    titleTag: 'Reis Activiteiten Printables Verkopen | LCS',
-    metaDescription: 'Reis Activiteiten Printables Verkopen. Ontdek welke producten het beste verkopen, wanneer u moet beginnen en hoe u maximale omzet genereert.',
+    secondaryKeywords: ['autorit werkbladen kinderen', 'reisactiviteiten printbaar vakantie', 'onderweg activiteiten kinderen Etsy'],
+    lsiKeywords: ['reizen', 'vakantie', 'onderweg', 'auto', 'vliegtuig', 'verveling'],
+    titleTag: 'Reis Activiteiten Printables Verkopen | Blog LessonCraftStudio',
+    metaDescription: 'Reis activiteiten printables zijn populair in het vakantieseizoen. Verkoop werkbladen voor onderweg aan reizende gezinnen.',
   },
   hero: {
     title: 'Reis Activiteiten Printables Verkopen',

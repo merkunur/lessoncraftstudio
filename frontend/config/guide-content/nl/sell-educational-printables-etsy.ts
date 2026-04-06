@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'educatieve werkbladen verkopen op Etsy',
+    primaryKeyword: 'werkbladen verkopen op Etsy',
     secondaryKeywords: [
-      'hoe educatieve printables verkopen op Etsy',
-      'Etsy educatieve printable winkel strategie',
-      'printbare werkbladen Etsy bedrijf meerdere categorieën',
-      'werkbladen en activiteiten verkopen op Etsy',
+      'printables verkopen Etsy beginnen',
+      'Etsy winkel werkbladen opzetten',
+      'digitale werkbladen Etsy verkopen',
+      'Etsy printable winkel strategie',
     ],
     lsiKeywords: [
-      'Etsy digitale download educatieve activiteiten vermeldingsoptimalisatie',
-      'multi-categorie printable winkel prijsstrategie Etsy verkopers',
-      'Etsy SEO tags voor educatieve werkblad en puzzelproducten',
-      'reken lees puzzel printables verkopen Etsy winkel gediversifieerd',
-      'cross-categorie educatieve printable bundeling Etsy strategie',
-      'Etsy vermeldingsfoto mockups voor educatieve printable producten',
+      'Etsy',
+      'werkblad',
+      'vermelding',
+      'categorie',
+      'bundel',
+      'SEO',
     ],
     titleTag: 'Werkbladen verkopen op Etsy | LessonCraftStudio',
-    metaDescription: 'Educatieve werkbladen verkopen op Etsy met 33 generatoren in 6 categorieën. Multi-categorie winkelstrategie, Etsy-SEO en cross-categorie bundeling.',
+    metaDescription: 'Werkbladen verkopen op Etsy: winkelstrategie, SEO-optimalisatie, bundeling en multi-categorie aanpak. 33 generatoren beschikbaar. Gratis proberen.',
   },
 
   hero: {

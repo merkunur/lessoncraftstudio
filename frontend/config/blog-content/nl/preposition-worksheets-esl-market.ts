@@ -2,11 +2,11 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'voorzetsels werkbladen NT2 markt 2026',
-    secondaryKeywords: ['voorzetsels werkbladen werkbladen verkopen Etsy', 'voorzetsels werkbladen printables business', 'voorzetsels werkbladen puzzels online'],
-    lsiKeywords: ['voorzetsels werkbladen generator business', 'voorzetsels werkbladen werkbladen markt', 'educatieve voorzetsels werkbladen printables'],
-    titleTag: 'Voorzetsels Werkbladen voor de NT2 Markt | LCS',
-    metaDescription: 'Voorzetsels Werkbladen voor de NT2 Markt op Etsy en KDP. Ontdek de markt, productstrategieën en prijzen voor deze winstgevende niche in 2026.',
+    primaryKeyword: 'voorzetsels werkbladen NT2 markt',
+    secondaryKeywords: ['preposition werkbladen ESL verkopen', 'voorzetsels oefenen printbaar', 'taalwerkbladen NT2 Etsy'],
+    lsiKeywords: ['voorzetsels', 'NT2', 'taal', 'grammatica', 'oefenen', 'anderstalig'],
+    titleTag: 'Voorzetsels Werkbladen voor de NT2 Markt | Blog LessonCraftStudio',
+    metaDescription: 'Voorzetsels werkbladen zijn populair op de NT2 en ESL markt. Verkoop taalwerkbladen aan anderstalige leerders.',
   },
   hero: {
     title: 'Voorzetsels Werkbladen voor de NT2 Markt',

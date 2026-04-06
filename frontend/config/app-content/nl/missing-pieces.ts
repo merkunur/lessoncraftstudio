@@ -2,26 +2,27 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'ontbrekende stukjes puzzels voor KDP-werkboeken',
+    primaryKeyword: 'puzzel ontbrekende stukjes werkblad printen',
     secondaryKeywords: [
-      'ontbrekende-stukjes generator Etsy',
-      'visuele puzzels voor KDP-boeken',
-      'ontbrekende puzzelstukjes commerciële licentie',
-      'visuele puzzels verkopen',
+      'welk stukje past werkblad',
+      'puzzel werkblad printen',
+      'visuele logica werkblad',
+      'puzzelstukjes zoeken',
     ],
     lsiKeywords: [
-      'digitale puzzel-printables online bedrijf',
-      'commercieel gebruik visuele puzzel generator',
-      'printbare legpuzzel activiteit business tools',
+      'puzzel',
+      'aanvullen',
+      'observeren',
+      'visueel redeneren',
     ],
-    titleTag: 'Ontbrekende stukjes puzzels KDP | LessonCraftStudio',
-    metaDescription: 'Maak ontbrekende stukjes puzzels voor KDP-activiteitenboeken en Etsy. $49 eenmalig.',
+    titleTag: 'Puzzel ontbrekende stukjes printen | Generator visuele logica',
+    metaDescription: 'Maak werkbladen "ontbrekende stukjes" met themaplaatjes en automatische antwoorden. PDF 300 DPI printbaar. Gratis proberen.',
   },
 
   hero: {
-    title: 'Ontbrekende stukjes puzzels voor KDP-werkboeken',
+    title: 'Puzzel ontbrekende stukjes printen — Generator visuele logica',
     tagline:
-      'Gratis proefversie met watermerk — 6 stukvormen, instelbare moeilijkheid met afleiders en automatische antwoordbladen voor verkoopklare puzzelproducten.',
+      'Maak werkbladen waar kinderen ontbrekende puzzelstukjes zoeken met themaplaatjes — automatische antwoorden, probeer gratis met watermerk.',
     description:
       'Genereer professionele ontbrekende stukjes puzzels die perfect passen in KDP-activiteitenboeken en Etsy-downloads. Kinderen bekijken een afbeelding met gaten en identificeren welk genummerd stukje in elke opening past — een activiteit die visuele waarneming en ruimtelijk redeneren traint. Het slimme extractie-algoritme selecteert automatisch gebieden met voldoende kleurvariantie, zodat elke puzzel oplosbaar en visueel aantrekkelijk is. Kies uit 6 stukvormen (vierkant, cirkel, rechthoek, ellips) en stel de moeilijkheid in via twee assen: 1 tot 5 ontbrekende stukjes en 2 tot 6 oplossingsopties inclusief afleiders. Het dubbele-canvassysteem genereert automatisch een antwoordblad met geel gemarkeerde nummerlabels, wat u uren handwerk bespaart bij grote bundels. Kies uit meer dan 3100 illustraties in 104 thema\'s of upload uw eigen afbeeldingen. Exporteer op 300 DPI als PDF of JPEG in Letter-, A4- of Vierkant-formaat. Verkoop uw puzzels op Etsy, bundel ze tot gedrukte werkboeken op Amazon KDP of bied ze aan via Bol.com — de commerciële licentie geeft u volledige verkooprechten.',
   },

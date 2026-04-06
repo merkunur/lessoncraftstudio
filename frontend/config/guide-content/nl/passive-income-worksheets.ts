@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'passief inkomen met werkbladen 2026',
+    primaryKeyword: 'passief inkomen met werkbladen',
     secondaryKeywords: [
-      'passief inkomen printables',
-      'werkbladen verkopen passief',
-      'digitaal passief inkomen',
-      'printable passief inkomen strategie',
+      'passief inkomen printables verkopen',
+      'bijverdienste digitale werkbladen',
+      'geld verdienen met printables',
+      'werkbladen verkopen als bijbaan',
     ],
     lsiKeywords: [
-      'automatische digitale levering downloadbare werkbladen terugkerende verkoop passief verdienen',
-      'evergreen educatief materiaal seizoensonafhankelijk productportfolio stabiel inkomen',
-      'meerdere verkoopkanalen platformdiversificatie inkomstenstromen spreiding',
-      'schaalbaar printable bedrijf productcatalogus uitbreiding groeimodel',
-      'e-mailmarketing automatisering verkoopfunnel klantenlijst herhaalaankopen',
-      'bundelstrategie upselling cross-selling gemiddelde orderwaarde verhogen',
+      'passief',
+      'inkomen',
+      'bijverdienste',
+      'automatisering',
+      'evergreen',
+      'schaalbaar',
     ],
-    titleTag: 'Passief inkomen met werkbladen (2026) | LessonCraftStudio',
-    metaDescription: 'Bouw passief inkomen op met printbare werkbladen in 2026. Van nichekeuze tot automatisering op Etsy, Bol.com en KDP. Bewezen strategieën stap voor stap.',
+    titleTag: 'Passief inkomen met werkbladen | LessonCraftStudio',
+    metaDescription: 'Bouw passief inkomen op met printbare werkbladen. Van nichekeuze tot automatisering op Etsy en KDP. Bewezen strategieën stap voor stap.',
   },
 
   hero: {

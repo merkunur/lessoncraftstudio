@@ -2,11 +2,11 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'etsy seo printable verkopers 2026',
-    secondaryKeywords: ['printable business strategie 2026', 'werkbladen verkopen platform tips', 'digitale producten online verkopen'],
-    lsiKeywords: ['printable verkoop optimalisatie', 'digitale download business', 'online printable winkel'],
-    titleTag: 'Etsy SEO voor Printable Verkopers in 2026 | LCS',
-    metaDescription: 'Etsy SEO voor Printable Verkopers in 2026. Praktische strategieën en bewezen technieken voor printable verkopers in 2026.',
+    primaryKeyword: 'Etsy SEO printable verkopers 2026',
+    secondaryKeywords: ['zoekoptimalisatie Etsy werkbladen', 'Etsy algoritme printables 2026', 'Etsy zoekresultaten verbeteren'],
+    lsiKeywords: ['SEO', 'zoekresultaten', 'algoritme', 'zichtbaarheid', 'ranking', 'verkeer'],
+    titleTag: 'Etsy SEO voor Printable Verkopers in 2026 | Blog LessonCraftStudio',
+    metaDescription: 'Verbeter uw Etsy SEO als printable verkoper in 2026. Actuele strategieën voor betere zoekresultaten en meer verkoop.',
   },
   hero: {
     title: 'Etsy SEO voor Printable Verkopers in 2026',

@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'bundels werkbladen maken voor Etsy',
+    primaryKeyword: 'werkblad bundels maken Etsy',
     secondaryKeywords: [
-      'hoe Etsy werkblad bundels maken',
-      'Etsy printable bundel vermeldingsstrategie',
-      'werkblad bundels verkopen op Etsy',
-      'Etsy digitale download bundel creatie',
+      'Etsy printable bundel samenstellen',
+      'werkbladen bundelen en verkopen',
+      'bundelprijzen Etsy digitale downloads',
+      'themabundel werkbladen Etsy',
     ],
     lsiKeywords: [
-      'Etsy bundel vermeldingsoptimalisatie bestandsorganisatie strategie',
-      'werkblad bundel prijsverankering korting waardestapeling',
-      'Etsy bundel preview afbeeldingen miniatuur mockup lay-out',
-      'vak groep thema seizoen bundeltypes educatieve printables',
-      'Etsy digitale levering meerdere bestanden bundelstructuur',
-      'bundel versus individuele vermelding kannibalisatie Etsy winkelstrategie',
+      'bundel',
+      'Etsy',
+      'werkblad',
+      'prijsstrategie',
+      'vermelding',
+      'waardestapeling',
     ],
-    titleTag: 'Bundels werkbladen voor Etsy maken | LessonCraftStudio',
-    metaDescription: 'Maak werkbladbundels voor Etsy die uw bestelwaarde verhogen. Bundeltypes, bestandsorganisatie, preview-afbeeldingen en waardestapelingsprijzen.',
+    titleTag: 'Werkblad bundels voor Etsy maken | LessonCraftStudio',
+    metaDescription: 'Maak werkbladbundels voor Etsy die uw bestelwaarde verhogen. Bundeltypes, organisatie, preview-afbeeldingen en prijsstrategie. Gratis proberen.',
   },
 
   hero: {

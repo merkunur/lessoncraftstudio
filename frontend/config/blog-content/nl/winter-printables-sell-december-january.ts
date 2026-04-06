@@ -3,10 +3,10 @@ import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
     primaryKeyword: 'winter printables verkopen december januari',
-    secondaryKeywords: ['printable winter printables strategie', 'werkbladen winter printables verkopen', 'educatieve printables december januari'],
-    lsiKeywords: ['printable niche winter printables', 'seizoensgebonden printables', 'thematische werkbladen verkopen'],
-    titleTag: 'Winter Printables Verkopen in December-Januari | LCS',
-    metaDescription: 'Winter Printables Verkopen in December-Januari. Ontdek welke producten het beste verkopen, wanneer u moet beginnen en hoe u maximale omzet genereert.',
+    secondaryKeywords: ['winterthema werkbladen Etsy', 'december januari seizoensprintables', 'sneeuw en ijs werkbladen maken'],
+    lsiKeywords: ['winter', 'sneeuw', 'ijs', 'december', 'januari', 'koud'],
+    titleTag: 'Winter Printables Verkopen in December en Januari | Blog LessonCraftStudio',
+    metaDescription: 'Winter printables zijn een seizoenshit in december en januari. Verkoop sneeuw- en ijsthema werkbladen op Etsy.',
   },
   hero: {
     title: 'Winter Printables Verkopen in December-Januari',

@@ -2,20 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Printables piraten — Business | LessonCraftStudio',
-    metaDescription: 'Verkoop piraten printables op Etsy en Gumroad. Schattenjacht, piratenschepen en avontuur productideeën voor uw printable business — altijdgroene niche.',
+    titleTag: 'Piraten printables ideeën | Werkbladen voor Etsy & KDP',
+    metaDescription: 'Ontdek winstgevende piraten printable ideeën. Maak werkbladen met schattenjacht, piratenschepen en avontuur om te verkopen op Etsy, KDP en Gumroad.',
 
-    primaryKeyword: 'printables piraten ideeën business',
+    primaryKeyword: 'piraten werkbladen verkopen',
     secondaryKeywords: [
-      'piratenthema werkbladen verkopen Etsy',
-      'schattenjacht printable business ideeën',
-      'piratenschip avontuur producten verkopen',
-      'zeerovers educatieve printables Gumroad',
+      'piraten printables ideeën Etsy',
+      'piratenthema activiteitenboek KDP',
+      'piraten kleurplaten verkopen online',
+      'schattenjacht werkbladen printen',
     ],
     lsiKeywords: [
-      'schatkaart kompas werkbladen maken',
-      'piraat fantasiespel educatief materiaal',
-      'oceaan eiland avontuur printbare producten',
+      'schatkaart piratenschip kompas',
+      'zeerovers eiland avontuur',
+      'piraat fantasiespel oceaan',
     ],
   },
   hero: {

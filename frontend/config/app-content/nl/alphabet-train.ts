@@ -2,25 +2,29 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'alfabet werkbladen om te verkopen op Etsy en KDP',
+    primaryKeyword: 'alfabet werkbladen printen',
     secondaryKeywords: [
-      'alfabet-trein generator Etsy',
-      'letterwerkbladen voor Amazon KDP',
-      'alfabet activiteiten commerciële licentie',
-      'letterpuzzels verkopen online',
+      'ABC werkbladen generator',
+      'letterherkenning werkblad',
+      'alfabet oefeningen printen',
+      'letters leren werkbladen',
     ],
     lsiKeywords: [
-      'digitale letterherkenning producten online bedrijf',
-      'printbare alfabet werkbladen bedrijf',
-      'commercieel gebruik alfabettrein generator',
+      'ABC',
+      'hoofdletters',
+      'kleine letters',
+      'alfabetische volgorde',
+      'kleuters',
+      'groep 1/2',
+      'groep 3',
     ],
-    titleTag: 'Alfabet werkbladen voor Etsy en KDP | LessonCraftStudio',
-    metaDescription: 'Maak alfabet-trein werkbladen met commerciële licentie voor Etsy en Amazon KDP. Gratis proefversie met watermerk. $49 eenmalig.',
+    titleTag: 'Alfabet werkbladen printen | Generator ABC-oefeningen',
+    metaDescription: 'Maak alfabet werkbladen met themaplaatjes voor letterherkenning. Automatische antwoorden, 11 talen. Gratis proberen.',
   },
 
   hero: {
-    title: 'Alfabet-trein werkbladen maken en verkopen als printables',
-    tagline: 'Kleurrijke treinwagons met letter-afbeeldingskoppeling — gratis proefversie met watermerk, commerciële licentie voor onbeperkte verkoop.',
+    title: 'Alfabet werkbladen printen — Generator ABC-oefeningen met plaatjes',
+    tagline: 'Maak alfabet werkbladen met letterherkenning en themaplaatjes voor kleuters en groep 1/2/3 — automatische antwoorden, probeer gratis met watermerk.',
     description:
       'Maak professionele alfabet-trein werkbladen die u direct kunt verkopen op Etsy, Amazon KDP, Bol.com en Brave New Books. Elf kleurrijke treinwagons rollen over de pagina, elk met een letter gekoppeld aan een bijpassende illustratie — een formaat dat letterherkenning en lettervolgorde combineert in één visueel aantrekkelijk werkblad. De generator is bijzonder populair voor kleuters en groep 3 van de Nederlandse basisschool, waar kinderen hun eerste letters leren herkennen. Kies de modus Automatisch Aanmaken voor snelle batchproductie of de Handmatige modus om precies 11 letters te selecteren voor gerichte oefening met klinkers, lastige letterparen of specifieke alfabetdelen. Het instelbare aanwijzingensysteem van 3 tot 11 hints biedt u een ingebouwde moeilijkheidsschaal voor gedifferentieerde productbundels. Meer dan 3.100 illustraties in 104 thema\'s zorgen voor eindeloze thematische variatie — van boerderijdieren tot dinosaurussen. Volledige Toegang ontgrendelt alle 11 talen met hun eigen alfabetten en speciale letters, waardoor u elf verkoopbare producten creëert vanuit één workflow. Exporteer printklare PDF\'s en JPEG\'s op meer dan 400 DPI met automatisch antwoordblad. Gratis proefversie met watermerk — alle functies beschikbaar zonder registratie. Commerciële licentie verwijdert het watermerk en verleent volledige verkooprechten.',
   },

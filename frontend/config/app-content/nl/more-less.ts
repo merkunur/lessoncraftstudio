@@ -2,25 +2,27 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'meer en minder werkbladen om te verkopen op Etsy',
+    primaryKeyword: 'werkblad groter kleiner gelijk printen',
     secondaryKeywords: [
-      'groter-dan kleiner-dan werkbladen generator Etsy',
-      'vergelijkingswerkbladen voor Amazon KDP',
-      'meer of minder werkbladen commerciële licentie',
-      'vergelijkingsoefeningen verkopen',
+      'getallen vergelijken werkblad',
+      'groter dan kleiner dan oefeningen',
+      'meer dan minder dan werkblad',
+      'hoeveelheden vergelijken',
     ],
     lsiKeywords: [
-      'digitale reken-vergelijkingsproducten online bedrijf',
-      'printbare getalbegrip werkbladen business',
-      'commercieel gebruik vergelijkingsgenerator',
+      'groter dan',
+      'kleiner dan',
+      'gelijk aan',
+      'vergelijken',
+      'hoeveelheden',
     ],
-    titleTag: 'Meer en minder werkbladen verkopen | LessonCraftStudio',
-    metaDescription: 'Maak meer-en-minder vergelijkingswerkbladen om te verkopen op Etsy en KDP. Thema-afbeeldingen, antwoorden, commerciële licentie. $49 eenmalig.',
+    titleTag: 'Werkblad groter kleiner gelijk printen | Generator vergelijking',
+    metaDescription: 'Maak werkbladen getallen en hoeveelheden vergelijken met themaplaatjes. Automatische antwoorden, PDF 300 DPI. Gratis proberen.',
   },
 
   hero: {
-    title: 'Maak meer-en-minder werkbladen om te verkopen op Etsy en KDP',
-    tagline: 'Groter-dan en kleiner-dan vergelijkingswerkbladen met thema-afbeeldingen. Gratis proefversie met watermerk — commerciële licentie voor onbeperkt verkopen.',
+    title: 'Werkblad groter kleiner gelijk printen — Generator vergelijking',
+    tagline: 'Maak werkbladen getallen en hoeveelheden vergelijken voor groep 1-3 met themaplaatjes — automatische antwoorden, probeer gratis met watermerk.',
     description:
       'Met de Meer of Minder Werkbladen Generator maakt u professionele vergelijkingswerkbladen die u direct kunt verkopen op Etsy, Amazon KDP en Bol.com. Kinderen in groep 1 tot en met 3 leren welke groep meer heeft, welke minder en wanneer twee groepen gelijk zijn. U kiest uit drie oefenmodi — Afbeelding naar Afbeelding, Afbeelding naar Getal en de unieke modus Controleer en Kruis Groepen. Selecteer uit meer dan 3100 illustraties in 104 thema\'s, schakel tussen dezelfde of verschillende afbeeldingen per vergelijking en kies illustratie-symbolen of standaard wiskundige tekens. Elk werkblad bevat een automatisch antwoordblad. Exporteer printklare PDF\'s op meer dan 400 DPI in Letter- of A4-formaat. De Nederlandse markt biedt kansen op Etsy.nl en Bol.com voor verkopers van educatieve printables. Een commerciële licentie verwijdert het watermerk en geeft u volledige verkooprechten op elk platform.',
   },

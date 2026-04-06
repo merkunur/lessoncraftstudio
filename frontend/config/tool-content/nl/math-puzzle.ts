@@ -1,25 +1,29 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'gratis rekenpuzzels maken',
+    primaryKeyword: 'rekenspelletjes gratis printen',
     secondaryKeywords: [
-      'rekenpuzzels online gratis maken',
-      'gratis legpuzzel rekenwerkbladen',
-      'rekenpuzzel generator gratis downloaden',
-      'rekenpuzzels met afbeeldingen gratis printen',
+      'rekenpuzzels gratis',
+      'rekenpuzzels gratis online maken',
+      'rekenspelletjes gratis printen PDF',
+      'rekenpuzzel generator gratis zonder account',
+      'rekenpuzzels met afbeeldingen gratis',
     ],
     lsiKeywords: [
-      'afbeeldingraster rekenpuzzel online',
-      'legpuzzel rekenactiviteit gratis',
-      'configureerbare rekenpuzzel generator',
+      'basisschool',
+      'groep 3',
+      'printbaar',
+      'PDF',
+      'antwoorden',
+      'rekenen',
     ],
-    titleTag: 'Rekenpuzzels gratis online maken | LessonCraftStudio',
-    metaDescription: 'Maak gratis rekenpuzzels online met legpuzzel-stijl afbeeldingrasters. Verkoop op Etsy & KDP met commerciele licentie.',
+    titleTag: 'Gratis rekenpuzzels generator | Probeer online met watermerk',
+    metaDescription: 'Probeer de rekenpuzzel generator gratis online met watermerk. Legpuzzel-stijl afbeeldingrasters, drie rekenmodi, printklare PDF. Geen account nodig.',
     },
 
   hero: {
-    title: 'Gratis rekenpuzzels maken met afbeeldingen',
-    tagline: 'Maak gratis legpuzzel-stijl rekenpuzzels met afbeeldingrasters online',
+    title: 'Gratis rekenpuzzels — Probeer online met watermerk',
+    tagline: 'Maak legpuzzel-stijl rekenpuzzels met afbeeldingrasters — probeer gratis zonder registratie.',
     description: 'Probeer onze gratis proefversie met watermerk om rekenpuzzels te maken die rekenoefening veranderen in een boeiende visuele puzzel — direct in uw browser, zonder account of registratie. De tool splitst een gekozen afbeelding in een raster van cellen, elk met een rekensom. Gehusselde puzzelstukjes met antwoordnummers verschijnen eronder — gebruikers lossen elke vergelijking op en koppelen het juiste stukje om het plaatje te reconstrueren. Kies uit drie rekenmodi: Optellen, Aftrekken of Gemengd. Pas de rastergrootte aan van 2×2 (4 stukjes) tot 4×4 (16 stukjes) voor elk vaardigheidsniveau. Selecteer afbeeldingen uit meer dan 104 thematische collecties met meer dan 3.100 illustraties, of upload uw eigen PNG of JPEG. Download als printklare PDF of hoge-resolutie JPEG. De gratis proefversie bevat alle functies met een watermerk op downloads.',
   },
 

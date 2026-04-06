@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'speurtochten maken om te verkopen',
+    primaryKeyword: 'speurtocht werkbladen maken',
     secondaryKeywords: [
-      'schattenjacht werkbladen maken om te verkopen',
-      'schattenjacht werkblad generator commercieel gebruik',
-      'printbare schattenjacht generator voor Etsy en KDP',
-      'coördinaatrooster pad-vind werkbladen met antwoordsleutels',
+      'schattenjacht werkblad generator',
+      'printbare speurtocht werkbladen',
+      'coördinaten raster werkblad',
+      'pad-vind werkblad kinderen',
     ],
     lsiKeywords: [
-      'twee richtingstypen basis hoofdrichtingen coördinaatrooster werkblad generator',
-      'vijf bij vijf letter-nummer raster richtingsaanwijzingen pad-vind generator',
-      'automatische antwoordsleutel lichtgeel gemarkeerde schatcel dual-canvas generator',
-      'schattenjacht werkbladen verkopen op Etsy',
-      'Amazon KDP richtingsgebaseerde pad-vind werkboeken',
-      'commerciële licentie schattenjacht tool',
+      'speurtocht',
+      'schattenjacht',
+      'raster',
+      'richting',
+      'coördinaten',
+      'werkblad',
     ],
-    titleTag: 'Speurtochten maken om te verkopen | LessonCraftStudio',
-    metaDescription: 'Leer speurtocht werkbladen maken en verkopen op Etsy en KDP. 5×5 raster, twee richtingstypen, 11 talen en automatische antwoordsleutels inbegrepen.',
+    titleTag: 'Speurtocht werkbladen maken | LessonCraftStudio',
+    metaDescription: 'Maak speurtocht werkbladen met 5x5 raster en twee richtingstypen. 11 talen, automatische antwoordsleutels, PDF-export. Gratis proberen.',
   },
 
   hero: {

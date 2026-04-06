@@ -2,11 +2,11 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'oceaan thema printables verkopen',
-    secondaryKeywords: ['printable oceaan thema strategie', 'werkbladen oceaan thema verkopen', 'educatieve printables printables verkopen'],
-    lsiKeywords: ['printable niche oceaan thema', 'seizoensgebonden printables', 'thematische werkbladen verkopen'],
-    titleTag: 'Oceaan Thema Printables Verkopen | LCS',
-    metaDescription: 'Oceaan Thema Printables Verkopen. Ontdek welke producten het beste verkopen, wanneer u moet beginnen en hoe u maximale omzet genereert.',
+    primaryKeyword: 'oceaanthema printables verkopen',
+    secondaryKeywords: ['zee werkbladen Etsy populair', 'oceaan activiteiten printbaar kinderen', 'onderwaterthema werkbladen'],
+    lsiKeywords: ['oceaan', 'zee', 'vissen', 'onderwater', 'zomer', 'dieren'],
+    titleTag: 'Oceaanthema Printables Verkopen op Etsy | Blog LessonCraftStudio',
+    metaDescription: 'Oceaanthema werkbladen zijn populair in de zomermaanden. Leer hoe u zeethema printables maakt en verkoopt.',
   },
   hero: {
     title: 'Oceaan Thema Printables Verkopen',

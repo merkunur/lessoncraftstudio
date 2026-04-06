@@ -2,11 +2,11 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'etsy zoekwoorden onderzoek printables',
-    secondaryKeywords: ['printable business strategie 2026', 'werkbladen verkopen platform tips', 'digitale producten online verkopen'],
-    lsiKeywords: ['printable verkoop optimalisatie', 'digitale download business', 'online printable winkel'],
-    titleTag: 'Etsy Zoekwoorden Onderzoek voor Printables | LCS',
-    metaDescription: 'Etsy Zoekwoorden Onderzoek voor Printables. Praktische strategieën en bewezen technieken voor printable verkopers in 2026.',
+    primaryKeyword: 'Etsy zoekwoordenonderzoek printables',
+    secondaryKeywords: ['zoekwoorden vinden werkbladen Etsy', 'keyword research printable shop', 'Etsy tags optimaliseren werkbladen'],
+    lsiKeywords: ['zoekwoorden', 'tags', 'onderzoek', 'zoekvolume', 'concurrentie', 'relevantie'],
+    titleTag: 'Zoekwoordenonderzoek voor Printables op Etsy | Blog LessonCraftStudio',
+    metaDescription: 'Vind de beste zoekwoorden voor uw printable listings op Etsy. Stap-voor-stap gids voor effectief keyword research.',
   },
   hero: {
     title: 'Etsy Zoekwoorden Onderzoek voor Printables',

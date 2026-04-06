@@ -2,23 +2,23 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'hoeveel verdienen met printables verkopen',
+    primaryKeyword: 'geld verdienen met printables',
     secondaryKeywords: [
-      'printable bedrijf inkomensverwachtingen realistisch',
-      'verdiensten printables verkopen Etsy KDP',
-      'werkbladen online verkopen inkomen Nederland',
-      'printable bedrijf omzetfactoren verkopers',
+      'passief inkomen werkbladen verkopen',
+      'bijverdienste printables Etsy en KDP',
+      'hoeveel verdienen met digitale downloads',
+      'printable inkomen realistisch Nederland',
     ],
     lsiKeywords: [
-      'Etsy printable verkoper verdiensten factoren',
-      'Amazon KDP activiteitenboek omzet variabelen',
-      'werkblad bedrijf catalogusgrootte inkomen',
-      'printable prijsstrategie marktplaats kosten',
-      'digitale download bedrijf tijdsinvestering ZZP',
-      'meerdere inkomstenstromen printable producten',
+      'passief inkomen',
+      'bijverdienste',
+      'verdiensten',
+      'Etsy',
+      'KDP',
+      'werkbladen',
     ],
-    titleTag: 'Hoeveel verdienen met printables | LessonCraftStudio',
-    metaDescription: 'Hoeveel kunt u verdienen met printables verkopen? Realistische inkomensvariabelen, platformkosten, prijsstrategieen en de factoren die u controleert.',
+    titleTag: 'Geld verdienen met printables | Gids voor printable-verkopers',
+    metaDescription: 'Ontdek hoeveel u realistisch kunt verdienen met printables op Etsy en KDP. Leer welke factoren uw inkomen bepalen en hoe u ze optimaliseert.',
   },
 
   hero: {

@@ -2,11 +2,11 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'etsy advertenties printables rendabel',
-    secondaryKeywords: ['printable business strategie 2026', 'werkbladen verkopen platform tips', 'digitale producten online verkopen'],
-    lsiKeywords: ['printable verkoop optimalisatie', 'digitale download business', 'online printable winkel'],
-    titleTag: 'Zijn Etsy Advertenties Rendabel voor Printables? | LCS',
-    metaDescription: 'Zijn Etsy Advertenties Rendabel voor Printables?. Praktische strategieën en bewezen technieken voor printable verkopers in 2026.',
+    primaryKeyword: 'Etsy advertenties printables rendabel',
+    secondaryKeywords: ['Etsy Ads budget werkbladen', 'betaalde reclame Etsy shop', 'adverteren op Etsy rendement'],
+    lsiKeywords: ['advertenties', 'budget', 'rendement', 'klikken', 'conversie', 'kosten'],
+    titleTag: 'Zijn Etsy Ads Rendabel voor Printables? | Blog LessonCraftStudio',
+    metaDescription: 'Zijn Etsy advertenties de investering waard voor printable-verkopers? Analyse van kosten, rendement en beste strategieën.',
   },
   hero: {
     title: 'Zijn Etsy Advertenties Rendabel voor Printables?',

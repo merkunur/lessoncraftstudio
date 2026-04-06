@@ -2,11 +2,11 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'antwoordsleutel belang printable verkoop',
-    secondaryKeywords: ['printable antwoordsleutel belang printable', 'werkbladen antwoordsleutel belang', 'printables how-to gids'],
-    lsiKeywords: ['printable productie tips', 'werkbladen maken strategie', 'printable business how-to'],
-    titleTag: 'Het Belang van Antwoordsleutels voor Verkoop | LCS',
-    metaDescription: 'Het Belang van Antwoordsleutels voor Verkoop. Stap-voor-stap instructies en praktische tips voor printable. Verkoop op Etsy & KDP met commerciele licentie.',
+    primaryKeyword: 'antwoordbladen toevoegen werkbladen verkoop',
+    secondaryKeywords: ['antwoordsleutels bij printables', 'werkbladen met antwoorden verkopen', 'belang van antwoordbladen Etsy'],
+    lsiKeywords: ['antwoorden', 'kwaliteit', 'beoordeling', 'klantervaring', 'volledig', 'professioneel'],
+    titleTag: 'Waarom Antwoordbladen Cruciaal Zijn voor Verkoop | Blog LessonCraftStudio',
+    metaDescription: 'Antwoordbladen verhogen uw werkbladen-verkoop en klanttevredenheid. Ontdek waarom antwoordsleutels essentieel zijn voor printable-verkopers.',
   },
   hero: {
     title: 'Het Belang van Antwoordsleutels voor Verkoop',

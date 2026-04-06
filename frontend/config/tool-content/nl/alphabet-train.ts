@@ -1,25 +1,29 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'gratis alfabet werkbladen generator',
+    primaryKeyword: 'alfabet werkbladen gratis',
     secondaryKeywords: [
-      'alfabettrein werkbladen online maken',
-      'letterherkenning werkbladen gratis proberen',
-      'alfabet werkbladen generator meertalig',
-      'letter-afbeelding koppeling werkblad generator',
+      'ABC werkbladen gratis printen',
+      'alfabet werkbladen gratis online maken',
+      'ABC werkbladen gratis printen PDF',
+      'alfabet generator gratis zonder account',
+      'letterherkenning werkblad gratis',
     ],
     lsiKeywords: [
-      'letter-afbeelding trein werkblad gratis online',
-      'meertalige alfabet activiteit generator',
-      'kleurrijke alfabettrein werkbladen maken',
+      'kleuters',
+      'groep 1',
+      'printbaar',
+      'PDF',
+      'antwoorden',
+      'letters',
     ],
-    titleTag: 'Alfabet werkbladen gratis online | LessonCraftStudio',
-    metaDescription: 'Maak alfabettrein werkbladen met 11 kleurrijke wagons en letter-afbeelding koppeling in 11 talen. Verkoop op Etsy & KDP met commerciele licentie.',
+    titleTag: 'Gratis alfabet werkbladen generator | Probeer online met watermerk',
+    metaDescription: 'Probeer de alfabet werkbladen generator gratis online met watermerk. 11 kleurrijke wagons, letter-afbeelding koppeling, 11 talen. Geen account nodig.',
     },
 
   hero: {
-    title: 'Gratis alfabet werkbladen online maken',
-    tagline: 'Maak kleurrijke letter-trein werkbladen met afbeelding-naar-letter koppeling in 11 talen',
+    title: 'Gratis alfabet werkbladen — Probeer online met watermerk',
+    tagline: 'Maak kleurrijke ABC werkbladen met letter-afbeelding koppeling in 11 talen — probeer gratis zonder registratie.',
     description: 'Probeer onze alfabettrein werkbladen generator gratis en maak direct kleurrijke letterherkenning werkbladen in uw browser. Zonder registratie of download krijgt u toegang tot alle functies: 11 levendige treinwagons met letters en bijpassende illustraties, taalgevoelige afbeelding-naar-letter koppeling in 11 talen, en meer dan 3.100 afbeeldingen over 104 thema\'s. Kies tussen Auto Aanmaken voor snelle werkbladen of Handmatige Selectie voor volledige controle over lettergroepen. Pas de moeilijkheid aan met de aanwijzingenteller van 3 tot 11 voor elk niveau. Exporteer als printklare PDF of hoge-resolutie JPEG met automatisch gegenereerd antwoordblad. De gratis proefversie bevat een watermerk op downloads zodat u de tool volledig kunt evalueren. Ideaal voor ouders die letterherkenning thuis willen oefenen, leerkrachten die gedifferentieerde werkbladen nodig hebben, en iedereen die professionele alfabetactiviteiten wil maken.',
   },
 

@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'bundels werkbladen maken die verkopen',
+    primaryKeyword: 'werkbladen bundelen en verkopen',
     secondaryKeywords: [
+      'werkblad bundel samenstellen',
+      'printable pakket maken',
+      'bundelprijzen bepalen werkbladen',
       'werkblad bundel strategie',
-      'printable pakket samenstellen',
-      'werkbladen bundelen voor verkoop',
-      'werkblad bundel prijsstrategie',
     ],
     lsiKeywords: [
-      'bundeltypen vak niveaucategorie thema seizoen formaat mega waardeperceptie',
-      'waardestapeling gedetailleerde besparingen bonusmateriaal voorblad inhoudsopgave',
-      'ankerprijzen kortingspsychologie gestaffelde bundelprijzen prijstesten',
-      'complementaire producten variatie consistentie opvulvermijding kwaliteitsnormen',
-      'bundelverpakking mockup preview branding bestandsorganisatie naamconventies',
-      'multiplatform bundelvermeldingen universele strategie platformoverschrijdend verkopen',
+      'bundel',
+      'pakket',
+      'prijsstrategie',
+      'waardestapeling',
+      'thematisch',
+      'verpakking',
     ],
-    titleTag: 'Bundels werkbladen die verkopen | LessonCraftStudio',
-    metaDescription: 'Leer werkbladbundels maken die verkopen op Etsy, Bol.com en KDP. Bundeltypen, prijspsychologie, waardestapeling en verpakkingstips voor maximale omzet.',
+    titleTag: 'Werkbladen bundelen en verkopen | LessonCraftStudio',
+    metaDescription: 'Leer werkbladbundels samenstellen die verkopen. Bundeltypen, prijspsychologie, waardestapeling en verpakkingstips voor Etsy en KDP.',
   },
 
   hero: {

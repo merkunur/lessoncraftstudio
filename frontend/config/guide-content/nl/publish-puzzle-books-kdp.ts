@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'puzzelboeken publiceren op Amazon KDP',
+    primaryKeyword: 'puzzelboek publiceren Amazon KDP',
     secondaryKeywords: [
-      'hoe puzzelboeken publiceren op Amazon KDP',
-      'KDP puzzelboek uitgeversgids',
-      'woordzoekerboeken maken voor Amazon',
-      'Amazon KDP kruiswoord sudoku puzzelboeken',
+      'puzzelboek uitgeven op KDP',
+      'woordzoekerboek maken Amazon',
+      'kruiswoordpuzzel boek KDP',
+      'sudoku boek zelf publiceren',
     ],
     lsiKeywords: [
-      'woordzoeker kruiswoord sudoku puzzelboek binnenpagina\'s',
-      'puzzelboek pagina-aantal moeilijkheidsprogressie oplossingensectie',
-      'KDP variatie puzzelboek gemixte puzzeltypes opmaak',
-      'Amazon puzzelboek zoekwoorden categorieën volwassenen kinderen markt',
-      'print-on-demand puzzelcatalogus serie deelaanduiding',
-      'puzzelraster afstand trimformaat antwoordsleutels nawerk',
+      'puzzelboek',
+      'publiceren',
+      'opmaak',
+      'serie',
+      'zoekwoorden',
+      'antwoordsleutel',
     ],
-    titleTag: 'Puzzelboeken publiceren op KDP | LessonCraftStudio',
-    metaDescription: 'Publiceer puzzelboeken op Amazon KDP met woordzoekers, kruiswoorden en sudoku. Opmaak, variatieboeken, seriestrategie en zoekwoordoptimalisatie.',
+    titleTag: 'Puzzelboek publiceren op KDP | LessonCraftStudio',
+    metaDescription: 'Publiceer puzzelboeken op Amazon KDP met woordzoekers, kruiswoorden en sudoku. Opmaak, seriestrategie en zoekwoordoptimalisatie.',
   },
 
   hero: {

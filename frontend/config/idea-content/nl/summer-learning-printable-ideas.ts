@@ -2,20 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Zomervakantie werkbladen verkopen | LessonCraftStudio',
-    metaDescription: 'Zomervakantie werkbladen om te verkopen op Etsy en KDP. Ideeën voor zomerbrug-pakketten per groepsovergang die ouders kopen tegen de zomerdip.',
+    titleTag: 'Zomervakantie werkbladen ideeën | Printables voor Etsy & KDP',
+    metaDescription: 'Ontdek winstgevende zomervakantie werkblad ideeën. Maak zomerbrug-pakketten en vakantiewerkboekjes om te verkopen op Etsy, Amazon KDP en Gumroad.',
 
-    primaryKeyword: 'zomervakantie werkbladen om te verkopen',
+    primaryKeyword: 'zomervakantie werkbladen verkopen',
     secondaryKeywords: [
-      'zomerdip werkbladen verkopen Etsy',
-      'vakantiewerkboekjes printables business',
+      'zomerleren printables ideeën Etsy',
+      'vakantiewerkboekjes KDP verkopen',
       'zomerbrug groepsovergang werkbladen',
-      'zomerleren printables KDP verkopen',
+      'zomerdip werkbladen Gumroad',
     ],
     lsiKeywords: [
       'gespreide zomervakantie drie regio\'s',
-      'vaardigheidsbehoud reken en lees oefening',
-      'vakantie activiteitenpakketten kinderen',
+      'vaardigheidsbehoud reken lees oefening',
+      'vakantie activiteitenpakketten',
     ],
   },
   hero: {

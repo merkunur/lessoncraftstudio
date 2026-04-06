@@ -1,25 +1,29 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'gratis optelwerkbladen generator online',
+    primaryKeyword: 'werkbladen optellen gratis',
     secondaryKeywords: [
-      'optelwerkbladen online maken gratis',
-      'rekenwerkbladen optellen met afbeeldingen',
-      'printbare opteloefeningen gratis proberen',
-      'optellen werkbladen generator met thema\'s',
+      'sommen optellen generator gratis',
+      'optellen werkbladen gratis online maken',
+      'optelwerkbladen gratis printen PDF',
+      'sommen optellen gratis met afbeeldingen',
+      'werkblad optellen gratis zonder account',
     ],
     lsiKeywords: [
-      'visuele rekenwerkbladen online maken',
-      'opteloefeningen met afbeeldingen voor kinderen',
-      'kleuterwiskunde werkbladen gratis proefversie',
+      'basisschool',
+      'groep 3',
+      'printbaar',
+      'PDF',
+      'antwoorden',
+      'rekenen',
     ],
-    titleTag: 'Optelwerkbladen gratis online | LessonCraftStudio',
-    metaDescription: 'Maak gratis optelwerkbladen met afbeeldingen online. 104 thema\'s, 4 oefenmodi, antwoordblad en printklare PDF\'s. Verkoop op Etsy & KDP met commerciele licentie.',
+    titleTag: 'Gratis optelwerkbladen generator | Probeer online met watermerk',
+    metaDescription: 'Probeer de optelwerkbladen generator gratis online met watermerk. 104 thema\'s, 4 oefenmodi, antwoordblad en printklare PDF. Geen account nodig.',
     },
 
   hero: {
-    title: 'Gratis optelwerkbladen online maken',
-    tagline: 'Maak beeldgebaseerde optelwerkbladen in minder dan 60 seconden — gratis proefversie met watermerk',
+    title: 'Gratis optelwerkbladen — Probeer online met watermerk',
+    tagline: 'Maak optelwerkbladen met afbeeldingen in uw browser — probeer gratis zonder registratie.',
     description: 'Maak optelwerkbladen met thematische afbeeldingen die kinderen graag willen oplossen. Met deze gratis online tool maakt u in enkele klikken professionele optelwerkbladen met kleurrijke illustraties. Kies uit meer dan 100 beeldthema\'s met meer dan 3.100 handgeselecteerde illustraties, waaronder dieren, voertuigen, voedsel en seizoensthema\'s. Stel de moeilijkheidsgraad in via vier oefenmodi: Afbeelding + Afbeelding, Afbeelding + Getal, Zoek de Opteller en Gemengde Modus. Bepaal het getallenbereik, het aantal opgaven per werkblad en de pagina-indeling tot in het kleinste detail. Download printklare PDF\'s of hoge-resolutie JPEG\'s op 300 DPI. Het antwoordblad wordt automatisch meegegenereerd. U kunt de tool direct in uw browser gebruiken — geen account aanmaken, geen software installeren, geen creditcard nodig. De gratis proefversie biedt alle functies met een watermerk op downloads. Ideaal voor ouders die thuis extra oefenmateriaal willen maken, leerkrachten die snel gedifferentieerde werkbladen nodig hebben, en iedereen die optelwerkbladen wil uitproberen voordat u een licentie overweegt.',
   },
 

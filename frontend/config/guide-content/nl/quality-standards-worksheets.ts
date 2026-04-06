@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'kwaliteitsnormen voor verkoopbare werkbladen',
+    primaryKeyword: 'kwaliteit werkbladen verbeteren',
     secondaryKeywords: [
-      'werkblad kwaliteit verbeteren verkoop',
-      'professionele printables kwaliteitscontrole',
-      'kwaliteitsstandaarden digitale werkbladen',
-      'printable checklist voor publicatie',
+      'werkblad kwaliteitscontrole checklist',
+      'professionele printables maken',
+      'kwaliteitsnormen digitale werkbladen',
+      'printable publicatie checklist',
     ],
     lsiKeywords: [
-      'afdrukresolutie DPI instellingen marges uitlijning lettertype leesbaarheid',
-      'kleurconsistentie PDF-opmaak paginalay-out antwoordsleutel nauwkeurigheid',
-      'proefdruk workflow klantverwachtingen professionele uitvoer bestandsformaat',
-      'afloopinstellingen papierformaat compatibiliteit visuele consistentie merknormen',
-      'beoordelingen kopervertrouwen productiechecklist kwaliteitsborging',
-      'correctielezen dubbelcontrole eindafwerking voorpublicatie verificatie printtest',
+      'kwaliteit',
+      'resolutie',
+      'marges',
+      'typografie',
+      'proefdruk',
+      'checklist',
     ],
-    titleTag: 'Kwaliteitsnormen voor werkbladen | LessonCraftStudio',
-    metaDescription: 'Kwaliteitsnormen voor verkoopbare werkbladen: resolutie, marges, typografie, antwoordsleutels en printtests. Verkoop op Etsy & KDP met commerciele licentie.',
+    titleTag: 'Kwaliteitsnormen werkbladen | LessonCraftStudio',
+    metaDescription: 'Kwaliteitsnormen voor verkoopbare werkbladen: resolutie, marges, typografie, antwoordsleutels en printtests. Complete checklist voor publicatie.',
   },
 
   hero: {

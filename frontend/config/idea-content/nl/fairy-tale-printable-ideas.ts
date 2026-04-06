@@ -2,20 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Printables sprookjes voor Etsy | LessonCraftStudio',
-    metaDescription: 'Verkoop sprookjes printables op Etsy en Gumroad. Prinsessen, kastelen en draken productideeën voor uw printable business — tijdloze altijdgroene niche.',
+    titleTag: 'Sprookjes printables ideeën | Werkbladen voor Etsy & KDP',
+    metaDescription: 'Ontdek winstgevende sprookjes printable ideeën. Maak werkbladen met prinsessen, kastelen en draken om te verkopen op Etsy, KDP en Gumroad.',
 
-    primaryKeyword: 'printables sprookjes om te verkopen Etsy',
+    primaryKeyword: 'sprookjes werkbladen verkopen',
     secondaryKeywords: [
-      'sprookjesthema werkbladen verkopen Etsy',
-      'kasteel prinses printable business ideeën',
-      'fantasie verhaal educatieve producten',
-      'sprookjes draken printables Gumroad',
+      'sprookjes printables ideeën Etsy',
+      'sprookjesthema activiteitenboek KDP',
+      'sprookjes kleurplaten verkopen online',
+      'prinses kasteel werkbladen printen',
     ],
     lsiKeywords: [
-      'Roodkapje Hans Grietje werkbladen maken',
-      'verhalenboek taalactiviteiten basisschool',
-      'magisch koninkrijk printbare producten ondernemen',
+      'Roodkapje Hans en Grietje',
+      'kasteel prinses draak ridder',
+      'fantasie magisch koninkrijk',
     ],
   },
   hero: {

@@ -3,10 +3,10 @@ import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
     primaryKeyword: 'boerderijdieren printables verkopen',
-    secondaryKeywords: ['printable boerderijdieren printables strategie', 'werkbladen boerderijdieren printables verkopen', 'educatieve printables printables verkopen'],
-    lsiKeywords: ['printable niche boerderijdieren printables', 'seizoensgebonden printables', 'thematische werkbladen verkopen'],
-    titleTag: 'Boerderijdieren Printables Verkopen | LCS',
-    metaDescription: 'Boerderijdieren Printables Verkopen. Ontdek welke producten het beste verkopen, wanneer u moet beginnen en hoe u maximale omzet genereert.',
+    secondaryKeywords: ['boerderij werkbladen Etsy', 'boerderijthema activiteiten printbaar', 'dieren op de boerderij werkbladen'],
+    lsiKeywords: ['boerderij', 'koe', 'varken', 'kip', 'thematisch', 'peuters'],
+    titleTag: 'Boerderijdieren Printables Verkopen | Blog LessonCraftStudio',
+    metaDescription: 'Boerderijdieren werkbladen zijn een populaire niche voor peuters en kleuters. Ontdek hoe u boerderijprintables maakt en verkoopt.',
   },
   hero: {
     title: 'Boerderijdieren Printables Verkopen',

@@ -2,11 +2,11 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'printables-business laten groeien',
-    secondaryKeywords: ['printable business groeistrategie', 'Etsy winkel opschalen', 'werkbladen bedrijf uitbreiden', 'passief inkomen printables opschalen'],
-    lsiKeywords: ['omzetgroei productcatalogus marktuitbreiding schaalbare productie', 'multi-platform strategie herhaalaankopen klantenbestand uitbreiden', 'bundel strategie prijsoptimalisatie gemiddelde bestelwaarde verhogen', 'seizoensgebonden groei productlijn uitbreiding niche verbreding', 'automatisering workflow efficiëntie tijdsbesparing productiviteit', 'internationale verkoop meertalige producten wereldwijde markt'],
-    titleTag: 'Printables-business laten groeien | LessonCraftStudio',
-    metaDescription: 'Laat uw printables-business groeien. Vergroot uw catalogus, breid uit naar Etsy, Bol.com en KDP, en verhoog uw gemiddelde bestelwaarde systematisch.',
+    primaryKeyword: 'printable bedrijf laten groeien',
+    secondaryKeywords: ['Etsy winkel opschalen tips', 'werkbladen bedrijf uitbreiden', 'printable omzet verhogen', 'passief inkomen opschalen'],
+    lsiKeywords: ['groei', 'opschalen', 'catalogus', 'bundel', 'automatisering', 'internationaal'],
+    titleTag: 'Printable bedrijf laten groeien | LessonCraftStudio',
+    metaDescription: 'Laat uw printable bedrijf groeien. Vergroot uw catalogus, diversifieer naar meerdere platforms en verhoog uw bestelwaarde systematisch.',
   },
   hero: {
     title: 'Uw printables-business laten groeien in 2026',

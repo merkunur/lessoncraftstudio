@@ -2,11 +2,11 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'groottevergelijking werkbladen verkopen 2026',
-    secondaryKeywords: ['groottevergelijking werkbladen verkopen Etsy', 'groottevergelijking printables business', 'groottevergelijking puzzels online'],
-    lsiKeywords: ['groottevergelijking generator business', 'groottevergelijking werkbladen markt', 'educatieve groottevergelijking printables'],
-    titleTag: 'Groottevergelijking Werkbladen Verkopen | LCS',
-    metaDescription: 'Groottevergelijking Werkbladen Verkopen op Etsy en KDP. Ontdek de markt, productstrategieën en prijzen voor deze winstgevende niche in 2026.',
+    primaryKeyword: 'groottevergelijking werkbladen verkopen',
+    secondaryKeywords: ['groot klein werkbladen Etsy', 'maten vergelijken oefenbladen', 'grootte werkbladen kleuters'],
+    lsiKeywords: ['groot', 'klein', 'vergelijken', 'meten', 'begrip', 'visueel'],
+    titleTag: 'Groottevergelijking Werkbladen Verkopen | Blog LessonCraftStudio',
+    metaDescription: 'Groottevergelijking werkbladen leren kinderen maten vergelijken. Verkoop groot-klein werkbladen op Etsy en KDP.',
   },
   hero: {
     title: 'Groottevergelijking Werkbladen Verkopen',

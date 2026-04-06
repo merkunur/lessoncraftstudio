@@ -2,11 +2,11 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'patronen trein werkbladen niche 2026',
-    secondaryKeywords: ['patronen trein werkbladen verkopen Etsy', 'patronen trein printables business', 'patronen trein puzzels online'],
-    lsiKeywords: ['patronen trein generator business', 'patronen trein werkbladen markt', 'educatieve patronen trein printables'],
-    titleTag: 'Patronen Trein Werkbladen: Unieke Niche | LCS',
-    metaDescription: 'Patronen Trein Werkbladen: Unieke Niche op Etsy en KDP. Ontdek de markt, productstrategieën en prijzen voor deze winstgevende niche in 2026.',
+    primaryKeyword: 'patroontrein werkbladen niche verkopen',
+    secondaryKeywords: ['patroon herkennen werkbladen Etsy', 'reeks aanvullen werkbladen printbaar', 'trein patronen activiteiten'],
+    lsiKeywords: ['patroon', 'trein', 'reeks', 'logica', 'herhaling', 'herkenning'],
+    titleTag: 'Patroontrein Werkbladen: Niche op Etsy | Blog LessonCraftStudio',
+    metaDescription: 'Patroontrein werkbladen combineren patronen met een treinmotief. Ontdek deze unieke niche voor printable-verkopers.',
   },
   hero: {
     title: 'Patronen Trein Werkbladen: Unieke Niche',

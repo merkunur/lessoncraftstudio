@@ -2,11 +2,11 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'raster koppel puzzels verkopen 2026',
-    secondaryKeywords: ['grid matching werkbladen Etsy', 'raster puzzels printables business', 'coördinaten koppelwerkbladen'],
-    lsiKeywords: ['raster werkbladen markt', 'grid puzzels verkopen', 'coördinaten werkbladen'],
-    titleTag: 'Raster Koppel Puzzels Verkopen op Etsy | LCS',
-    metaDescription: 'Verkoop raster koppel puzzels op Etsy en KDP. Ontdek hoe dit unieke puzzelformat een winstgevende niche kan worden.',
+    primaryKeyword: 'rasterovereenkomst puzzels verkopen',
+    secondaryKeywords: ['grid matching werkbladen Etsy', 'visuele puzzels printbaar', 'raster puzzelwerkbladen maken'],
+    lsiKeywords: ['raster', 'grid', 'patroon', 'visueel', 'logica', 'puzzel'],
+    titleTag: 'Raster Matching Puzzels Verkopen | Blog LessonCraftStudio',
+    metaDescription: 'Raster matching puzzels zijn een unieke niche voor printable-verkopers. Ontdek hoe u visuele puzzelwerkbladen maakt en verkoopt.',
   },
   hero: {
     title: 'Raster Koppel Puzzels Verkopen: Unieke Niche',

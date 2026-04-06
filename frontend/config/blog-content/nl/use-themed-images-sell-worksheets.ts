@@ -2,11 +2,11 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'thematische afbeeldingen werkbladen verkopen',
-    secondaryKeywords: ['printable thematische afbeeldingen strategie', 'werkbladen thematische afbeeldingen verkopen', 'educatieve printables werkbladen verkopen'],
-    lsiKeywords: ['printable niche thematische afbeeldingen', 'seizoensgebonden printables', 'thematische werkbladen verkopen'],
-    titleTag: 'Thematische Afbeeldingen voor Werkbladen | LCS',
-    metaDescription: 'Thematische afbeeldingen voor werkbladen. Ontdek welke producten het beste verkopen, wanneer u moet beginnen en hoe u maximale omzet genereert.',
+    primaryKeyword: 'thema-afbeeldingen gebruiken werkbladen verkopen',
+    secondaryKeywords: ['afbeeldingen in werkbladen Etsy', 'thematische plaatjes printables', 'visuele werkbladen aantrekkelijker maken'],
+    lsiKeywords: ['afbeeldingen', 'thema', 'visueel', 'aantrekkelijk', 'illustraties', 'ontwerp'],
+    titleTag: 'Thema-Afbeeldingen Gebruiken bij Werkbladen | Blog LessonCraftStudio',
+    metaDescription: 'Thema-afbeeldingen maken uw werkbladen aantrekkelijker en verkopender. Tips voor het inzetten van visuele thema\'s.',
   },
   hero: {
     title: 'Thematische Afbeeldingen Gebruiken om Werkbladen te Verkopen',

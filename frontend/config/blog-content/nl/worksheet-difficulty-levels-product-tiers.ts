@@ -3,10 +3,10 @@ import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
     primaryKeyword: 'werkbladen moeilijkheidsniveaus productlagen',
-    secondaryKeywords: ['printable werkbladen moeilijkheidsniveaus productlagen', 'werkbladen werkbladen moeilijkheidsniveaus', 'printables how-to gids'],
-    lsiKeywords: ['printable productie tips', 'werkbladen maken strategie', 'printable business how-to'],
-    titleTag: 'Moeilijkheidsniveaus als Productlagen Gebruiken | LCS',
-    metaDescription: 'Moeilijkheidsniveaus als Productlagen Gebruiken. Stap-voor-stap instructies en praktische tips voor printable. Verkoop op Etsy & KDP met commerciele licentie.',
+    secondaryKeywords: ['niveaus in werkbladen Etsy', 'gedifferentieerde werkbladen verkopen', 'werkbladen per niveau bundelen'],
+    lsiKeywords: ['niveau', 'moeilijkheid', 'differentiatie', 'progressie', 'lagen', 'doelgroep'],
+    titleTag: 'Moeilijkheidsniveaus in Werkbladen: Productlagen | Blog LessonCraftStudio',
+    metaDescription: 'Maak werkbladen op meerdere moeilijkheidsniveaus en verkoop ze als productlagen. Differentiatie verhoogt uw Etsy-omzet.',
   },
   hero: {
     title: 'Moeilijkheidsniveaus als Productlagen Gebruiken',

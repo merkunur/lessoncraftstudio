@@ -2,26 +2,30 @@ import type { BundleContent } from '../types';
 
 const content: BundleContent = {
   seo: {
-    primaryKeyword: 'taal verkopen zeven generators pakket woordspelpakket taalgenerators',
+    primaryKeyword: 'taal werkbladen bundel',
     secondaryKeywords: [
-      'taal werkblad generator bundel commercieel gebruik',
-      'woordpuzzel werkblad bundel verkopen Etsy',
-      'meertalige werkblad generators voor KDP verkopers',
-      'geletterdheid printable toolkit voor ondernemers',
+      'woordpuzzels pakket',
+      'woordzoeker kruiswoordpuzzel bundel',
+      'taal generatoren bundel Etsy KDP',
+      'meertalige werkblad generators commercieel',
     ],
     lsiKeywords: [
-      'alfabet schrijfoefeningen woordzoeker pakket',
-      'woordscramble cryptogram printbare collectie verkopers',
-      'commercieel woordzoeker kruiswoord bundel',
-      'taalwerkbladen verkopen 11 talen',
+      'basisschool',
+      'kleuters',
+      'werkbladen',
+      'printen',
+      'themaplaatjes',
+      'commerciële licentie',
+      'Etsy',
+      'KDP',
     ],
-    titleTag: 'Taal- en woordspelpakket — Verkopen | LessonCraftStudio',
-    metaDescription: 'Zeven taalwerkblad generators in een pakket. Maak woordzoekers, kruiswoorden, cryptogrammen en meer in 11 talen om te verkopen op Etsy, KDP en Bol. $49.',
+    titleTag: 'Taal & Woordenschat bundel | 7 generatoren in één pakket',
+    metaDescription: 'Taal werkbladen bundel met 7 generatoren: woordzoekers, kruiswoorden, cryptogrammen en meer in 11 talen. Gratis proberen met watermerk, commerciële licentie inbegrepen.',
   },
 
   hero: {
-    title: 'Zeven taalgenerators die uw catalogus vermenigvuldigen',
-    tagline: 'Elk werkbladontwerp wordt 11 verkoopbare producten wanneer u van taal wisselt',
+    title: 'Taal & Woordenschat bundel — 7 generatoren in één pakket',
+    tagline: 'Maak meertalige taalwerkbladen voor Etsy, KDP en Bol.com met zeven gespecialiseerde generatoren',
     description: 'Als u taalwerkbladen verkoopt op Etsy, Amazon KDP of Bol.com, is meertaligheid uw grootste concurrentievoordeel. Het Lezen & Taal Pakket combineert zeven gespecialiseerde generators die alfabetherkenning, ruimtelijke voorzetsels, woordraden met afbeeldingsaanwijzingen, letterontscrambling, woordzoekrasters, zin-naar-afbeelding cryptogramcijfers en begeleide schrijfoefening dekken. Zes van de zeven generators produceren taalspecifieke inhoud: de woorden, letters en woordenschat op elk werkblad veranderen om bij de geselecteerde taal te passen, met correcte diakritische tekens, moedertaal-alfabetten en grammaticaal nauwkeurige formuleringen. Dat betekent dat een enkel ontwerp in het Nederlands ook een Duits, Frans, Spaans en Italiaans product oplevert. Elke generator levert printklare PDF- en hoge-resolutie JPEG-bestanden met automatische antwoordbladen. Kies uit meer dan 100 thematische beeldsets of upload uw eigen illustraties voor merkgebonden producten. De Nederlandse markt is bijzonder kansrijk via Bol.com en Brave New Books, terwijl u met dezelfde toolkit ook de Duitse, Franse en Scandinavische markten bedient. Elke generator bevat een gratis proefversie met watermerk zodat u elke functie kunt testen voordat u een licentie aanschaft.',
   },
 

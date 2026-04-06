@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'commerciële licentie voor printables-verkopers',
+    primaryKeyword: 'commerciële licentie printables',
     secondaryKeywords: [
       'printable licentie uitleg',
       'commercieel gebruik werkbladen',
-      'licentievoorwaarden printables',
-      'commerciële rechten digitale producten',
+      'licentievoorwaarden digitale producten',
+      'wat is een commerciële licentie',
     ],
     lsiKeywords: [
-      'intellectueel eigendom gebruiksrechten persoonlijk versus commercieel licentieniveaus',
-      'royaltyvrij doorverkooprechten afgeleide werken sublicentie auteursrecht naleving',
-      'licentievoorwaarden digitale productrechten clipart licenties sjabloonlicenties',
-      'commerciële outputrechten licentieovereenkomst licentieverificatie nalevingssysteem',
-      'licentiefouten platformbeperkingen toeschrijvingsvereisten exclusiviteitsclausules',
-      'licentieadministratie licentiedocumentatie multiplatform licenties concurrentievoordeel',
+      'licentie',
+      'commercieel',
+      'rechten',
+      'voorwaarden',
+      'doorverkoop',
+      'naleving',
     ],
-    titleTag: 'Commerciële licentie voor verkopers | LessonCraftStudio',
-    metaDescription: 'Begrijp commerciële licenties voor printable-verkopers voordat u gaat verkopen op Etsy of Bol.com. Licentietypen, veelgemaakte fouten en nalevingstips.',
+    titleTag: 'Commerciële licentie printables | LessonCraftStudio',
+    metaDescription: 'Begrijp commerciële licenties voor printables. Licentietypen, veelgemaakte fouten en nalevingstips voordat u gaat verkopen op Etsy of KDP.',
   },
 
   hero: {

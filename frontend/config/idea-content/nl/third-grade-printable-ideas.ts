@@ -2,20 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Printables groep 5-6 om te verkopen | LessonCraftStudio',
-    metaDescription: 'Ideeën voor printables groep 5-6 om te verkopen. Tafels, breuken, begrijpend lezen en deling — nichemateriaal dat leerkrachten en ouders kopen.',
+    titleTag: 'Groep 5-6 printables ideeën | Werkbladen voor Etsy & KDP',
+    metaDescription: 'Ontdek winstgevende groep 5-6 printable ideeën. Maak werkbladen voor tafels, breuken en begrijpend lezen om te verkopen op Etsy, KDP en Gumroad.',
 
-    primaryKeyword: 'printables groep 5-6 om te verkopen',
+    primaryKeyword: 'groep 5-6 werkbladen verkopen',
     secondaryKeywords: [
-      'groep 5 werkbladen verkopen Etsy',
-      'tafels automatiseren printables business',
-      'breuken werkbladen groep 6 verkopen',
-      'groep 5-6 printable niche Gumroad',
+      'groep 5 printables ideeën Etsy',
+      'breuken werkbladen groep 6 KDP',
+      'tafels automatiseren printables verkopen',
+      'middenbouw werkbladen Gumroad',
     ],
     lsiKeywords: [
-      'vermenigvuldigen en delen oefenmateriaal',
-      'Cito-entreetoets voorbereiding werkbladen',
-      'begrijpend lezen middenbouw printables',
+      'vermenigvuldigen delen breuken',
+      'Cito-entreetoets voorbereiding',
+      'begrijpend lezen middenbouw',
     ],
   },
   hero: {

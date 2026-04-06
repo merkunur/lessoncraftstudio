@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'verkopen vreemde eend welke hoort puzzels',
+    primaryKeyword: 'vreemde eend werkbladen maken',
     secondaryKeywords: [
-      'vreemde eend werkbladen verkopen Etsy',
-      'welke hoort er niet bij puzzelboek KDP',
-      'visuele discriminatie werkbladen verkopen Bol.com',
-      'vreemde eend puzzels productlijn opbouwen',
+      'welke hoort er niet bij werkblad',
+      'odd one out puzzel generator',
+      'printbare vreemde eend puzzels',
+      'visuele discriminatie werkbladen',
     ],
     lsiKeywords: [
-      'vreemde eend bundels voor Etsy winkel',
-      'visuele discriminatie werkboek Brave New Books',
-      'vreemde eend generator commercieel gebruik',
-      'welke hoort er niet bij catalogus opbouwen',
-      'commerciële licentie vreemde eend tool',
-      'Identiek en Vergelijkbaar modi verkopen',
+      'discriminatie',
+      'observatie',
+      'puzzel',
+      'afbeelding',
+      'categorie',
+      'werkblad',
     ],
-    titleTag: 'Welke hoort er niet bij verkopen | LessonCraftStudio',
-    metaDescription: 'Leer hoe u vreemde eend werkbladen maakt en verkoopt op Etsy, Amazon KDP en Bol.com. Twee modi, per-oefening overrides en automatische antwoordsleutels.',
+    titleTag: 'Vreemde eend werkbladen maken | LessonCraftStudio',
+    metaDescription: 'Maak vreemde eend werkbladen met twee modi en thema-afbeeldingen. Per-oefening overrides, automatische antwoordsleutels. Gratis proberen.',
   },
 
   hero: {

@@ -2,11 +2,11 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'werkbladen bundel maken 35 minuten',
-    secondaryKeywords: ['printable werkbladen bundel maken', 'werkbladen werkbladen bundel', 'printables how-to gids'],
-    lsiKeywords: ['printable productie tips', 'werkbladen maken strategie', 'printable business how-to'],
-    titleTag: 'Een 50-Werkbladen Bundel Maken in 35 Minuten | LCS',
-    metaDescription: 'Een 50-Werkbladen Bundel Maken in 35 Minuten. Stap-voor-stap instructies en praktische tips voor printable. Verkoop op Etsy & KDP met commerciele licentie.',
+    primaryKeyword: 'werkbladenbundel maken in 35 minuten',
+    secondaryKeywords: ['snel werkbladen bundel samenstellen', 'printable bundel productie snelheid', 'bundel maken met generator'],
+    lsiKeywords: ['bundel', 'snel', 'productie', 'samenstellen', 'generator', 'efficiënt'],
+    titleTag: 'Werkbladenbundel Maken in 35 Minuten | Blog LessonCraftStudio',
+    metaDescription: 'Maak een complete werkbladenbundel in slechts 35 minuten met een generator. Praktische stap-voor-stap handleiding voor snelle productie.',
   },
   hero: {
     title: 'Een 50-Werkbladen Bundel Maken in 35 Minuten',

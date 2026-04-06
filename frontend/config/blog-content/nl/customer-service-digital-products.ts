@@ -2,11 +2,11 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'klantenservice digitale producten',
-    secondaryKeywords: ['printable business strategie 2026', 'werkbladen verkopen platform tips', 'digitale producten online verkopen'],
-    lsiKeywords: ['printable verkoop optimalisatie', 'digitale download business', 'online printable winkel'],
-    titleTag: 'Klantenservice voor Digitale Producten | LCS',
-    metaDescription: 'Klantenservice voor Digitale Producten. Praktische strategieën en bewezen technieken voor printable verkopers. Verkoop op Etsy & KDP met commerciele licentie.',
+    primaryKeyword: 'klantenservice digitale producten Etsy',
+    secondaryKeywords: ['klanten helpen printable verkoop', 'veelgestelde vragen werkbladen shop', 'retourbeleid digitale downloads'],
+    lsiKeywords: ['klantenservice', 'communicatie', 'retour', 'beoordeling', 'tevredenheid', 'ondersteuning'],
+    titleTag: 'Klantenservice voor Digitale Producten | Blog LessonCraftStudio',
+    metaDescription: 'Goede klantenservice verhoogt uw beoordelingen en herhaalaankopen. Tips voor klantenservice bij digitale producten op Etsy.',
   },
   hero: {
     title: 'Klantenservice voor Digitale Producten',

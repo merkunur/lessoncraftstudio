@@ -2,20 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Printables feestjes — Business | LessonCraftStudio',
-    metaDescription: 'Printables voor feestjes verkopen op Etsy. Ideeën voor thematische feestpakketten, verjaardagsspelletjes en Sinterklaas- en Koningsdagactiviteiten.',
+    titleTag: 'Feestjes printables ideeën | Werkbladen voor Etsy & Gumroad',
+    metaDescription: 'Ontdek winstgevende feestjes printable ideeën. Maak thematische feestpakketten en verjaardagsactiviteiten om te verkopen op Etsy, Gumroad en KDP.',
 
-    primaryKeyword: 'printables feestjes ideeën business',
+    primaryKeyword: 'feestjes werkbladen verkopen',
     secondaryKeywords: [
-      'feest printables verkopen Etsy',
-      'verjaardagsfeest activiteiten printables',
-      'Sinterklaas Koningsdag werkbladen verkopen',
-      'thematische feestpakketten business',
+      'feestjes printables ideeën Etsy',
+      'verjaardagsfeest activiteiten verkopen',
+      'Koningsdag Sinterklaas printables',
+      'thematische feestpakketten Gumroad',
     ],
     lsiKeywords: [
-      'DIY kinderfeestjes Pinterest printables',
-      'klasfeestjes seizoensvieringen werkbladen',
-      'feestbudget hogere bestelwaarde',
+      'kinderfeestje verjaardag spelletjes',
+      'DIY feest decoratie Pinterest',
+      'klasfeest seizoensviering',
     ],
   },
   hero: {

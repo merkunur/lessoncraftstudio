@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'doolhoven maken om te verkopen op Etsy',
+    primaryKeyword: 'doolhof werkbladen maken',
     secondaryKeywords: [
-      'doolhof werkbladen verkopen op Etsy',
-      'doolhof activiteitenboek Amazon KDP maken',
-      'printbare doolhoven verkopen Bol.com',
-      'doolhof puzzels verkopen als printbaar product',
+      'doolhof generator online',
+      'printbare doolhoven kinderen',
+      'doolhof puzzel werkblad',
+      'doolhoven maken met plaatjes',
     ],
     lsiKeywords: [
-      'afbeeldingspad doolhoven productlijn',
-      'doolhof activiteitenboek Brave New Books',
-      'ruimtelijk inzicht werkbladen verkopen',
-      'doolhof bundels voor Etsy winkel',
-      'commerciële licentie doolhof generator',
-      'doolhof werkbladen catalogus opbouwen',
+      'doolhof',
+      'pad',
+      'puzzel',
+      'afbeelding',
+      'moeilijkheid',
+      'printbaar',
     ],
-    titleTag: 'Doolhoven maken voor Etsy | LessonCraftStudio',
-    metaDescription: 'Leer hoe u doolhoven maakt en verkoopt op Etsy, Amazon KDP en Bol.com. 3 spelmodi, thematische afbeeldingen en automatische antwoordsleutels.',
+    titleTag: 'Doolhof werkbladen maken | LessonCraftStudio',
+    metaDescription: 'Maak doolhof werkbladen met 3 spelmodi en thematische afbeeldingen. Instelbare moeilijkheid, automatische antwoordsleutels. Gratis proberen.',
   },
 
   hero: {

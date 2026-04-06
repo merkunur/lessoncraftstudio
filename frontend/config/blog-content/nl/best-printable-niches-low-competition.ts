@@ -2,11 +2,11 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'beste printable niches lage concurrentie',
-    secondaryKeywords: ['printable beste printable niches', 'werkbladen beste printable', 'printables how-to gids'],
-    lsiKeywords: ['printable productie tips', 'werkbladen maken strategie', 'printable business how-to'],
-    titleTag: 'Beste Printable Niches met Lage Concurrentie | LCS',
-    metaDescription: 'Beste Printable Niches met Lage Concurrentie. Stap-voor-stap instructies en praktische tips voor printable verkopers. Direct toepasbaar.',
+    primaryKeyword: 'winstgevende printable niches weinig concurrentie',
+    secondaryKeywords: ['beste niches voor werkbladen Etsy', 'onontdekte printable markten', 'niche onderzoek digitale producten'],
+    lsiKeywords: ['niche', 'concurrentie', 'marktonderzoek', 'winstgevend', 'onderbenut', 'kansen'],
+    titleTag: 'Winstgevende Printable Niches met Weinig Concurrentie | Blog LessonCraftStudio',
+    metaDescription: 'Ontdek printable niches met hoge vraag en weinig concurrentie. Praktische tips voor het vinden van winstgevende marktsegmenten.',
   },
   hero: {
     title: 'Beste Printable Niches met Lage Concurrentie',

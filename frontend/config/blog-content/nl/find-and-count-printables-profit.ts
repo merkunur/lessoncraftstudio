@@ -1,11 +1,11 @@
 import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'zoek en tel printables winst 2026',
-    secondaryKeywords: ['zoek en tel werkbladen verkopen', 'tel werkbladen Etsy business', 'counting printables verkopen'],
-    lsiKeywords: ['zoek en tel generator', 'tellen werkbladen markt', 'visuele rekenbladen'],
-    titleTag: 'Zoek en Tel Printables Verkopen voor Winst | LCS',
-    metaDescription: 'Verkoop zoek en tel printables voor winst op Etsy. Combineer visueel zoeken met tellen voor een uniek product dat ouders en leerkrachten waarderen.',
+    primaryKeyword: 'zoek en tel werkbladen winstgevend',
+    secondaryKeywords: ['zoek en tel printables Etsy', 'telwerkbladen voor kleuters verkopen', 'I spy werkbladen maken'],
+    lsiKeywords: ['zoeken', 'tellen', 'visueel', 'concentratie', 'kleuters', 'observatie'],
+    titleTag: 'Zoek en Tel Werkbladen: Winstgevende Niche | Blog LessonCraftStudio',
+    metaDescription: 'Zoek en tel werkbladen zijn populair bij ouders en leerkrachten. Maak winstgevende telwerkbladen met een generator.',
   },
   hero: {
     title: 'Zoek en Tel Printables Verkopen voor Winst',

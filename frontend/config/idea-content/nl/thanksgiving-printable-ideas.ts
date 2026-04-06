@@ -2,20 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Printables dankbaarheid verkopen | LessonCraftStudio',
-    metaDescription: 'Verkoop printables rond dankbaarheid en Oogstfeest. Oogstthema werkbladen, herfstactiviteiten en dankbaarheidsproducten voor uw printable business.',
+    titleTag: 'Dankbaarheid en oogst printables ideeën | Werkbladen voor Etsy & KDP',
+    metaDescription: 'Ontdek winstgevende dankbaarheid en oogstfeest printable ideeën. Maak herfst werkbladen en seizoensactiviteiten om te verkopen op Etsy, KDP en Gumroad.',
 
-    primaryKeyword: 'printables dankbaarheid thema verkopen',
+    primaryKeyword: 'dankbaarheid werkbladen verkopen',
     secondaryKeywords: [
-      'oogstfeest werkbladen verkopen Etsy',
-      'herfst dankbaarheid printable business',
-      'dankbaarheidsthema activiteiten verkopen',
-      'oogst printables Gumroad KDP',
+      'oogstfeest printables ideeën Etsy',
+      'herfst activiteitenboek KDP',
+      'dankbaarheid kleurplaten verkopen online',
+      'oogstthema werkbladen printen',
     ],
     lsiKeywords: [
-      'herfstbladeren pompoen educatieve werkbladen',
-      'Oogstfeest seizoensactiviteiten',
-      'dankbaarheid thema printbare producten maken',
+      'herfstbladeren pompoen oogst',
+      'Oogstfeest seizoen dankbaarheid',
+      'herfst natuur eikels kastanjes',
     ],
   },
   hero: {

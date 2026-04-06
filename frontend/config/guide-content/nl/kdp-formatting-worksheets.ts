@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'KDP-opmaak voor werkboeken gids',
+    primaryKeyword: 'KDP opmaak werkboeken',
     secondaryKeywords: [
-      'KDP opmaakgids voor werkbladboeken',
-      'Amazon KDP manuscript opmaakspecificaties',
-      'KDP trimformaat marges afloop werkbladboeken',
-      'drukklare PDF export KDP activiteitenboeken',
+      'Amazon KDP manuscript opmaak',
+      'KDP trimformaat marges instellen',
+      'drukklare PDF KDP exporteren',
+      'KDP omslagontwerp specificaties',
     ],
     lsiKeywords: [
-      'KDP trimformaat 8.5x11 6x9 8x10 werkblad binnenwerk lay-out',
-      'manuscript marges naad binding veilige zone afloopgebied',
-      'PDF export 300 DPI lettertype-insluiting grijstinten CMYK',
-      'KDP omslagdimensies rugbreedte streepjescode plaatsing calculator',
-      'paginanummering voorwerk nawerk inhoudsopgave',
-      'KDP upload fouten afwijzing probleemoplossing previewer proefdruk',
+      'opmaak',
+      'trimformaat',
+      'marges',
+      'afloop',
+      'manuscript',
+      'proefdruk',
     ],
-    titleTag: 'KDP-opmaak voor werkboeken | LessonCraftStudio',
-    metaDescription: 'KDP-opmaak voor werkboeken: trimformaten, marges, afloopinstellingen, 300 DPI PDF-export, omslagdimensies en upload-probleemoplossing stap voor stap.',
+    titleTag: 'KDP opmaak voor werkboeken | LessonCraftStudio',
+    metaDescription: 'KDP opmaak voor werkboeken: trimformaten, marges, afloop, 300 DPI PDF-export en omslagdimensies. Stap-voor-stap handleiding.',
   },
 
   hero: {

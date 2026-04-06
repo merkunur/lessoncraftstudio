@@ -2,11 +2,11 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'schaduw koppel werkbladen verkopen 2026',
-    secondaryKeywords: ['schaduw koppel werkbladen verkopen Etsy', 'schaduw koppel printables business', 'schaduw koppel puzzels online'],
-    lsiKeywords: ['schaduw koppel generator business', 'schaduw koppel werkbladen markt', 'educatieve schaduw koppel printables'],
-    titleTag: 'Schaduw Koppel Werkbladen Verkopen | LCS',
-    metaDescription: 'Schaduw Koppel Werkbladen Verkopen op Etsy en KDP. Ontdek de markt, productstrategieën en prijzen voor deze winstgevende niche in 2026.',
+    primaryKeyword: 'schaduw koppelen werkbladen verkopen',
+    secondaryKeywords: ['shadow matching printables Etsy', 'schaduwwerkbladen kleuters', 'silhouet koppelactiviteiten printbaar'],
+    lsiKeywords: ['schaduw', 'silhouet', 'koppelen', 'visueel', 'herkenning', 'kleuters'],
+    titleTag: 'Schaduw Koppelen Werkbladen Verkopen | Blog LessonCraftStudio',
+    metaDescription: 'Schaduw koppelen werkbladen zijn populair bij kleuterleerkrachten. Verkoop shadow matching printables op Etsy.',
   },
   hero: {
     title: 'Schaduw Koppel Werkbladen Verkopen',

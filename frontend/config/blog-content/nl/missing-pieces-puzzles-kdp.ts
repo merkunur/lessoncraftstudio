@@ -2,11 +2,11 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'ontbrekende stukjes puzzels KDP 2026',
-    secondaryKeywords: ['missing pieces puzzels verkopen', 'ontbrekende delen werkbladen business', 'visuele puzzels KDP'],
-    lsiKeywords: ['ontbrekende stukjes generator', 'visuele puzzels markt', 'pattern completion werkbladen'],
-    titleTag: 'Ontbrekende Stukjes Puzzels voor KDP | LCS',
-    metaDescription: 'Publiceer ontbrekende stukjes puzzelboeken op Amazon KDP. Ontdek deze visuele puzzelniche met groeiende vraag voor kinderen en senioren.',
+    primaryKeyword: 'ontbrekende stukjes puzzels KDP',
+    secondaryKeywords: ['missing pieces werkbladen publiceren', 'puzzelwerkbladen Amazon KDP', 'ontbrekende delen activiteiten'],
+    lsiKeywords: ['ontbrekend', 'puzzel', 'logica', 'patroon', 'aanvullen', 'observatie'],
+    titleTag: 'Ontbrekende Stukjes Puzzels op KDP | Blog LessonCraftStudio',
+    metaDescription: 'Publiceer ontbrekende stukjes puzzelboeken op Amazon KDP. Een unieke niche voor educatieve puzzelwerkbladen.',
   },
   hero: {
     title: 'Ontbrekende Stukjes Puzzels voor Amazon KDP',

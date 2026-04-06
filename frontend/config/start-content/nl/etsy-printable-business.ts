@@ -2,23 +2,23 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'masterclass Etsy printables-business',
+    primaryKeyword: 'printables verkopen op Etsy',
     secondaryKeywords: [
-      'printables verkopen op Etsy Nederland',
-      'Etsy winkel voor printbare werkbladen opzetten',
-      'werkbladen verkopen op Etsy stap voor stap',
-      'Etsy digitale downloads bedrijf starten',
+      'Etsy-shop starten voor digitale downloads',
+      'Etsy SEO werkbladen optimaliseren',
+      'digitale producten verkopen Etsy Nederland',
+      'Etsy printable winkel opzetten',
     ],
     lsiKeywords: [
-      'Etsy SEO voor printable verkopers',
-      'Etsy vermelding optimalisatie werkbladen',
-      'Etsy winkel opzetten digitale producten NL',
-      'Etsy tags voor printbare werkbladen',
-      'werkblad generator voor Etsy verkopers',
-      'Etsy printable prijsstrategie Nederland',
+      'Etsy',
+      'digitale downloads',
+      'SEO',
+      'winkelopzet',
+      'werkbladen',
+      'printables',
     ],
-    titleTag: 'Masterclass Etsy printables | LessonCraftStudio',
-    metaDescription: 'Hoe u printables verkoopt op Etsy: winkelopzet, Etsy SEO, vermeldingsoptimalisatie, prijsstrategie en opschalen. Platformspecifieke gids voor verkopers.',
+    titleTag: 'Printables verkopen op Etsy | Gids voor printable-verkopers',
+    metaDescription: 'Leer hoe u een Etsy-shop opzet voor printables: van winkelopzet en SEO tot prijsstrategie en opschalen. Praktische gids voor beginners.',
   },
 
   hero: {

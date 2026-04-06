@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'tekenwerkbladen maken verkopen leer hoe',
+    primaryKeyword: 'tekenwerkbladen maken',
     secondaryKeywords: [
-      'rastertekenwerkbladen verkopen op Etsy',
-      'symmetrie werkbladen Amazon KDP maken',
-      'tekenwerkbladen verkopen op Bol.com',
-      'teken en kleur werkbladen productlijn',
+      'natekenen werkblad generator',
+      'symmetrie werkbladen kinderen',
+      'raster tekenwerkblad maken',
+      'teken en kleur werkbladen',
     ],
     lsiKeywords: [
-      'dubbel raster tekenprintables bundels',
-      'symmetrieoefeningen activiteitenboek KDP',
-      'tekenwerkbladen generator commercieel',
-      'zwart-wit contour werkbladen Etsy winkel',
-      'tekenwerkbladen catalogus opbouwen',
-      'rastertekenwerkbladen Brave New Books',
+      'tekenen',
+      'symmetrie',
+      'raster',
+      'natekenen',
+      'contour',
+      'werkblad',
     ],
-    titleTag: 'Tekenwerkbladen maken en verkopen | LessonCraftStudio',
-    metaDescription: 'Leer hoe u tekenwerkbladen maakt en verkoopt op Etsy, Amazon KDP en Bol.com. Dubbel rastersysteem, symmetriemodi en zwart-wit contouren.',
+    titleTag: 'Tekenwerkbladen maken | LessonCraftStudio',
+    metaDescription: 'Maak tekenwerkbladen met dubbel rastersysteem en symmetriemodi. Zwart-wit contouren, meerdere thema\'s, PDF-export. Gratis proberen.',
   },
 
   hero: {

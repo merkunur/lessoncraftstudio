@@ -2,20 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Printables bosdieren voor Etsy | LessonCraftStudio',
-    metaDescription: 'Verkoop printables met bosdieren op Etsy en KDP. Productideeën voor werkbladen met vossen, herten en uilen die het hele jaar door verkopen.',
+    titleTag: 'Bosdieren printables ideeën | Werkbladen voor Etsy & KDP',
+    metaDescription: 'Ontdek winstgevende bosdieren printable ideeën. Maak werkbladen met vossen, herten en uilen om te verkopen op Etsy, Amazon KDP en Gumroad.',
 
-    primaryKeyword: 'printables bosdieren voor Etsy',
+    primaryKeyword: 'bosdieren werkbladen verkopen',
     secondaryKeywords: [
-      'bosdieren werkbladen Etsy verkopen',
-      'bosthema printable business starten',
-      'wildlife activiteitenboeken KDP niche',
-      'boswezens printables voor verkopers',
+      'bos printables ideeën Etsy',
+      'bosdieren activiteitenboek KDP',
+      'bosdieren kleurplaten verkopen online',
+      'bosthema werkbladen printen',
     ],
     lsiKeywords: [
-      'bosthema werkbladen maken verkopen',
-      'vossen herten kleurplaten Etsy',
-      'natuurhabitat printbare producten winkel',
+      'vos hert uil das',
+      'bos natuur wildlife habitat',
+      'Veluwe Nederlandse bossen',
     ],
   },
   hero: {

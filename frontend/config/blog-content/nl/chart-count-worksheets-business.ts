@@ -2,11 +2,11 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'tabel tellen werkbladen business 2026',
-    secondaryKeywords: ['tabel tellen werkbladen verkopen Etsy', 'tabel tellen printables business', 'tabel tellen puzzels online'],
-    lsiKeywords: ['tabel tellen generator business', 'tabel tellen werkbladen markt', 'educatieve tabel tellen printables'],
-    titleTag: 'Tabel en Tellen Werkbladen Business | LCS',
-    metaDescription: 'Tabel en Tellen Werkbladen Business op Etsy en KDP. Ontdek de markt, productstrategieën en prijzen voor deze winstgevende niche in 2026.',
+    primaryKeyword: 'tel- en grafiekwerkbladen verkopen',
+    secondaryKeywords: ['tellen en turven werkbladen Etsy', 'grafiek werkbladen basisschool', 'telactiviteiten printbaar maken'],
+    lsiKeywords: ['tellen', 'grafiek', 'turven', 'data', 'staafdiagram', 'wiskunde'],
+    titleTag: 'Tel- en Grafiekwerkbladen Verkopen | Blog LessonCraftStudio',
+    metaDescription: 'Tel- en grafiekwerkbladen zijn populair bij leerkrachten. Leer hoe u deze wiskundeprintables maakt en verkoopt op Etsy.',
   },
   hero: {
     title: 'Tabel en Tellen Werkbladen Business',

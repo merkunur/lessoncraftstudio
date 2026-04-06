@@ -2,11 +2,11 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'educatieve printables nieuwe ouders',
-    secondaryKeywords: ['printable educatieve printables strategie', 'werkbladen educatieve printables verkopen', 'educatieve printables nieuwe ouders'],
-    lsiKeywords: ['printable niche educatieve printables', 'seizoensgebonden printables', 'thematische werkbladen verkopen'],
-    titleTag: 'Educatieve Printables voor Nieuwe Ouders | LCS',
-    metaDescription: 'Educatieve Printables voor Nieuwe Ouders. Ontdek welke producten het beste verkopen, wanneer u moet beginnen en hoe u maximale omzet genereert.',
+    primaryKeyword: 'educatieve printables voor jonge ouders',
+    secondaryKeywords: ['werkbladen voor peuters thuis', 'eerste leeractiviteiten printbaar', 'ouders educatief materiaal kopen'],
+    lsiKeywords: ['ouders', 'peuters', 'ontwikkeling', 'leren', 'thuis', 'vroegschools'],
+    titleTag: 'Educatieve Printables voor Jonge Ouders | Blog LessonCraftStudio',
+    metaDescription: 'Jonge ouders zijn een groeiende doelgroep voor educatieve printables. Ontdek welke werkbladen het beste verkopen aan ouders.',
   },
   hero: {
     title: 'Educatieve Printables voor Nieuwe Ouders',

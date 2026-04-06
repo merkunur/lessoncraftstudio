@@ -2,11 +2,11 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'werkbladen formatteren etsy listing',
-    secondaryKeywords: ['printable werkbladen formatteren etsy', 'werkbladen werkbladen formatteren', 'printables how-to gids'],
-    lsiKeywords: ['printable productie tips', 'werkbladen maken strategie', 'printable business how-to'],
-    titleTag: 'Werkbladen Formatteren voor Etsy Listings | LCS',
-    metaDescription: 'Werkbladen Formatteren voor Etsy Listings. Stap-voor-stap instructies en praktische tips voor printable verkopers. Direct toepasbaar.',
+    primaryKeyword: 'werkbladen formatteren voor Etsy listing',
+    secondaryKeywords: ['PDF werkbladen Etsy-ready maken', 'bestandsformaat printable producten', 'werkblad layout optimaliseren'],
+    lsiKeywords: ['formaat', 'layout', 'PDF', 'afdrukbaar', 'marges', 'presentatie'],
+    titleTag: 'Werkbladen Formatteren voor Etsy Listings | Blog LessonCraftStudio',
+    metaDescription: 'Formatteer uw werkbladen professioneel voor Etsy. Praktische tips voor PDF-layout, marges en bestandsformaten.',
   },
   hero: {
     title: 'Werkbladen Formatteren voor Etsy Listings',

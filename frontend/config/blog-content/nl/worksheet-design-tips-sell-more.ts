@@ -2,11 +2,11 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'werkbladen design tips meer verkopen',
-    secondaryKeywords: ['printable werkbladen design tips', 'werkbladen werkbladen design', 'printables how-to gids'],
-    lsiKeywords: ['printable productie tips', 'werkbladen maken strategie', 'printable business how-to'],
-    titleTag: 'Werkbladen Design Tips om Meer te Verkopen | LCS',
-    metaDescription: 'Werkbladen Design Tips om Meer te Verkopen. Stap-voor-stap instructies en praktische tips voor printable verkopers. Direct toepasbaar.',
+    primaryKeyword: 'werkblad ontwerptips meer verkopen',
+    secondaryKeywords: ['werkbladen design verbeteren Etsy', 'professionele werkbladen layout', 'printable ontwerp tips verkopers'],
+    lsiKeywords: ['ontwerp', 'layout', 'lettertype', 'witruimte', 'leesbaarheid', 'professioneel'],
+    titleTag: 'Werkblad Ontwerptips voor Meer Verkoop | Blog LessonCraftStudio',
+    metaDescription: 'Verbeter het ontwerp van uw werkbladen en verhoog uw verkoop. Praktische designtips voor printable-verkopers op Etsy.',
   },
   hero: {
     title: 'Werkbladen Design Tips om Meer te Verkopen',

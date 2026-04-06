@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'telwerkbladen maken om te verkopen op Etsy',
+    primaryKeyword: 'telwerkbladen maken',
     secondaryKeywords: [
-      'plaatjesgrafiek werkbladen verkopen Etsy',
-      'tel- en grafiekwerkbladen Amazon KDP',
-      'telwerkbladen verkopen op Bol.com',
-      'staafdiagram werkbladen productlijn opbouwen',
+      'tellen werkblad generator',
+      'plaatjesgrafiek werkbladen',
+      'tel en turven oefenbladen',
+      'printbare telwerkbladen kinderen',
     ],
     lsiKeywords: [
-      'plaatjesgrafiek bundels voor Etsy winkel',
-      'datavaardigheden werkboek Brave New Books',
-      'telwerkblad generator commercieel gebruik',
-      'automatische antwoordsleutel grafiekwerkblad',
-      'commerciële licentie plaatjesgrafiek generator',
-      'tel- en grafiek catalogus opbouwen',
+      'tellen',
+      'grafiek',
+      'werkblad',
+      'plaatjes',
+      'antwoordsleutel',
+      'thema',
     ],
-    titleTag: 'Telwerkbladen maken voor Etsy | LessonCraftStudio',
-    metaDescription: 'Leer hoe u telwerkbladen maakt en verkoopt op Etsy, Amazon KDP en Bol.com. Plaatjesgrafieken, automatische antwoordsleutels en 104 thema\'s.',
+    titleTag: 'Telwerkbladen maken | LessonCraftStudio',
+    metaDescription: 'Maak telwerkbladen met plaatjesgrafieken en automatische antwoordsleutels. 104 thema\'s, instelbaar niveau, PDF-export. Gratis proberen.',
   },
 
   hero: {

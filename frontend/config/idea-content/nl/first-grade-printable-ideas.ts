@@ -2,20 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Printables groep 3 voor Etsy | LessonCraftStudio',
-    metaDescription: 'Winstgevende printables groep 3 voor Etsy en KDP. Ideeën voor aanvankelijk lezen, rekenen tot 20 en werkbladen die ouders en leerkrachten zoeken.',
+    titleTag: 'Groep 3 printables ideeën | Werkbladen voor Etsy & KDP',
+    metaDescription: 'Ontdek winstgevende groep 3 printable ideeën. Maak werkbladen voor aanvankelijk lezen en rekenen tot 20 om te verkopen op Etsy, KDP en Gumroad.',
 
-    primaryKeyword: 'printables groep 3 om te verkopen op Etsy',
+    primaryKeyword: 'groep 3 werkbladen verkopen',
     secondaryKeywords: [
-      'groep 3 werkbladen verkopen Etsy',
-      'aanvankelijk lezen printables business',
-      'groep 3 rekenwerkbladen verkopers',
-      'printables basisschool groep 3 Gumroad',
+      'groep 3 printables ideeën Etsy',
+      'aanvankelijk lezen activiteitenboek KDP',
+      'groep 3 rekenwerkbladen verkopen',
+      'basisschool groep 3 printables Gumroad',
     ],
     lsiKeywords: [
-      'Veilig Leren Lezen werkbladen',
-      'klank-letterkoppeling oefenmateriaal',
-      'optellen aftrekken tot twintig printables',
+      'Veilig Leren Lezen klank-letterkoppeling',
+      'optellen aftrekken tot twintig',
+      'schrijfoefening lettervorming',
     ],
   },
   hero: {

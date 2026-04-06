@@ -1,25 +1,29 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'gratis kleurplaten generator met afbeeldingen',
+    primaryKeyword: 'kleurplaat maken gratis',
     secondaryKeywords: [
-      'kleurplaten online maken gratis',
-      'kleurplaat generator gratis proberen',
-      'aangepaste kleurplaten generator met thema\'s',
-      'printbare kleurplaten gratis proefversie',
+      'kleurplaten generator gratis',
+      'kleurplaat maken gratis online',
+      'kleurplaten gratis printen PDF',
+      'kleurplaat maker gratis zonder account',
+      'kleurplaten met afbeeldingen gratis',
     ],
     lsiKeywords: [
-      'kleurplaat ontwerper gratis online',
-      'grijstinten kleurplaat generator',
-      'vrij tekenen tool voor kleurplaten gratis',
+      'kleuters',
+      'kinderen',
+      'printbaar',
+      'PDF',
+      'tekenen',
+      'creatief',
     ],
-    titleTag: 'Kleurplaten generator gratis online | LessonCraftStudio',
-    metaDescription: 'Maak gratis kleurplaten met afbeeldingen online. Vrij canvas, 3.100+ illustraties, 104 thema\'s, uit de vrije. Verkoop op Etsy & KDP met commerciele licentie.',
+    titleTag: 'Gratis kleurplaat generator | Probeer online met watermerk',
+    metaDescription: 'Probeer de kleurplaten generator gratis online met watermerk. Vrij canvas, 3.100+ illustraties, 104 thema\'s, grijstintenexport. Geen account nodig.',
     },
 
   hero: {
-    title: 'Gratis kleurplaten generator met afbeeldingen',
-    tagline: 'Maak aangepaste kleurplaten op een vrij canvas met 104 thema\'s — gratis online proefversie met watermerk',
+    title: 'Gratis kleurplaat maken — Probeer online met watermerk',
+    tagline: 'Maak aangepaste kleurplaten op een vrij canvas met 104 thema\'s — probeer gratis zonder registratie.',
     description: 'Maak kleurplaten op een volledig open canvas waar u afbeeldingen precies plaatst waar u ze wilt — geen rasters, geen sjablonen, geen vakjes. Met deze gratis online tool ontwerpt u in enkele minuten unieke kleurplaten met kleurrijke illustraties uit 104 thematische beeldcollecties met meer dan 3.100 afbeeldingen. Klik om afbeeldingen toe te voegen, schik ze overal op het canvas, vergroot, verklein en roteer naar wens. Het tekengereedschap voor uit de vrije hand laat u originele schetsen toevoegen naast bibliotheekafbeeldingen met instelbare penseelgrootte (1–50 pixels). Voeg een naamveld en schrijflijnen toe met één klik voor klasklare activiteiten. Schakel grijstintenexport in voor inkvriendelijke kleurplaten die perfect zijn om te printen. Voeg decoratieve randen toe, aangepaste tekst en upload uw eigen afbeeldingen. De uitvoer is puur visueel zonder tekst, waardoor kleurplaten in elke taal bruikbaar zijn. U kunt de tool direct in uw browser gebruiken — geen account, geen software, geen creditcard nodig. De gratis proefversie biedt alle functies met een watermerk op downloads. Ideaal voor ouders die kleurplaten willen maken voor hun kinderen, leerkrachten die thematische klasactiviteiten zoeken, en iedereen die de tool wil uitproberen.',
   },
 

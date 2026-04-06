@@ -3,10 +3,10 @@ import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
     primaryKeyword: 'dinosaurus printables verkopen evergreen',
-    secondaryKeywords: ['printable dinosaurus printables strategie', 'werkbladen dinosaurus printables verkopen', 'educatieve printables verkopen evergreen'],
-    lsiKeywords: ['printable niche dinosaurus printables', 'seizoensgebonden printables', 'thematische werkbladen verkopen'],
-    titleTag: 'Dinosaurus Printables: Evergreen Bestseller | LCS',
-    metaDescription: 'Dinosaurus Printables: Evergreen Bestseller. Ontdek welke producten het beste verkopen, wanneer u moet beginnen en hoe u maximale omzet genereert.',
+    secondaryKeywords: ['dino werkbladen Etsy populair', 'dinosaurusthema activiteiten printbaar', 'educatieve dino printables maken'],
+    lsiKeywords: ['dinosaurus', 'dino', 'prehistorisch', 'jongens', 'populair', 'evergreen'],
+    titleTag: 'Dinosaurus Printables: Een Evergreen Niche | Blog LessonCraftStudio',
+    metaDescription: 'Dinosaurus printables verkopen het hele jaar door. Ontdek waarom dino werkbladen een evergreen bestseller zijn op Etsy.',
   },
   hero: {
     title: 'Dinosaurus Printables: Evergreen Bestseller',

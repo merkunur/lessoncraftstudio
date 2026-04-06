@@ -2,19 +2,11 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'code optellen puzzels verkopen Etsy 2026',
-    secondaryKeywords: [
-      'code optellen werkbladen business',
-      'reken puzzels printables verkopen',
-      'wiskundige codepuzzels Etsy',
-    ],
-    lsiKeywords: [
-      'versleuteld optellen werkbladen',
-      'reken puzzel printables',
-      'educatieve puzzels verkopen',
-    ],
-    titleTag: 'Code Optellen Puzzels Verkopen op Etsy | LCS',
-    metaDescription: 'Leer hoe u code optellen puzzels verkoopt op Etsy. Een unieke niche met weinig concurrentie en hoge marges. Compleet stappenplan voor 2026.',
+    primaryKeyword: 'code optellen puzzels verkopen Etsy',
+    secondaryKeywords: ['gecodeerde rekenpuzzels maken', 'optellen met geheime codes werkbladen', 'wiskundepuzzels printbaar'],
+    lsiKeywords: ['puzzel', 'code', 'optellen', 'geheim', 'ontcijferen', 'uitdaging'],
+    titleTag: 'Code Optellen Puzzels Verkopen op Etsy | Blog LessonCraftStudio',
+    metaDescription: 'Gecodeerde optelpuzzels combineren rekenen met puzzelplezier. Ontdek hoe u deze unieke wiskundewerkbladen verkoopt op Etsy.',
   },
   hero: {
     title: 'Code Optellen Puzzels Verkopen op Etsy: Unieke Niche',

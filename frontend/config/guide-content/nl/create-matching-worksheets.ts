@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'koppelwerkbladen maken verkopen leer hoe',
+    primaryKeyword: 'verbinden werkbladen maken',
     secondaryKeywords: [
-      'zoek de paren werkbladen verkopen Etsy',
-      'koppelwerkbladen kleuters maken',
-      'trek een lijn werkbladen Amazon KDP',
-      'koppelactiviteiten printbaar verkopen Bol.com',
+      'koppelwerkblad generator online',
+      'trek een lijn werkbladen',
+      'printbare koppelwerkbladen',
+      'matching werkbladen kinderen',
     ],
     lsiKeywords: [
-      'letterkoppeling werkbladen productlijn',
-      'visuele discriminatie werkbladen verkopen',
-      'koppelwerkblad generator commercieel',
-      'zoek de paren bundels voor Etsy winkel',
-      'koppelactiviteiten boeken Brave New Books',
-      'commerciële licentie werkblad tool',
+      'verbinden',
+      'koppelen',
+      'paren',
+      'werkblad',
+      'afbeeldingen',
+      'antwoordsleutel',
     ],
-    titleTag: 'Koppelwerkbladen maken en verkopen | LessonCraftStudio',
-    metaDescription: 'Leer hoe u koppelwerkbladen maakt en verkoopt op Etsy, Amazon KDP en Bol.com. 4 koppelmodi, thema-afbeeldingen en automatische antwoordsleutels.',
+    titleTag: 'Verbinden werkbladen maken | LessonCraftStudio',
+    metaDescription: 'Maak verbind- en koppelwerkbladen met 4 modi en thema-afbeeldingen. Automatische antwoordsleutels, 11 talen, PDF-export. Gratis proberen.',
   },
 
   hero: {

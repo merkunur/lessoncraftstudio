@@ -1,25 +1,29 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'gratis groot en klein werkbladen',
+    primaryKeyword: 'groot en klein werkblad gratis',
     secondaryKeywords: [
-      'groot klein werkbladen online maken gratis',
-      'groottevergelijking werkblad generator',
-      'printbare groot en klein oefeningen voor kleuters',
-      'grootte-ordening werkblad tool online',
+      'grootte vergelijken gratis',
+      'groot en klein werkblad gratis online maken',
+      'grootte werkblad gratis printen PDF',
+      'groot klein generator gratis zonder account',
+      'groottevergelijking werkblad gratis',
     ],
     lsiKeywords: [
-      'visuele grootte-discriminatie werkblad gratis',
-      'tekstvrije groottevergelijking generator',
-      'groot klein ordenen activiteit generator',
+      'kleuters',
+      'groep 1',
+      'printbaar',
+      'PDF',
+      'antwoorden',
+      'visueel',
     ],
-    titleTag: 'Groot en klein gratis online | LessonCraftStudio',
-    metaDescription: 'Maak gratis groot en klein werkbladen online. Vijf vraagtypen, twee afbeeldingsmodi, 104 thema\'s en automatische antwoordbladen. Probeer nu zonder account.',
+    titleTag: 'Gratis groot en klein werkblad | Probeer online met watermerk',
+    metaDescription: 'Probeer de groot en klein werkbladen generator gratis online met watermerk. Vijf vraagtypen, twee afbeeldingsmodi, antwoordblad. Geen account nodig.',
     },
 
   hero: {
-    title: 'Gratis groot en klein werkbladen maken',
-    tagline: 'Groottevergelijking werkbladen met vijf vraagtypen, twee afbeeldingsmodi en volledig visuele nul-tekst uitvoer',
+    title: 'Gratis groot en klein werkblad — Probeer online met watermerk',
+    tagline: 'Maak groottevergelijking werkbladen met vijf vraagtypen en twee afbeeldingsmodi — probeer gratis zonder registratie.',
     description: 'Met onze gratis groot en klein werkbladen generator maakt u in enkele klikken professionele groottevergelijking oefeningen. Kies uit vijf vraagtypen: Omcirkel de Grote, Omcirkel de Kleine, Omcirkel de Middelste, of Nummeren van Klein naar Groot en Groot naar Klein. Twee afbeeldingsmodi bieden extra variatie — Identieke Afbeeldingen voor zuivere grootteperceptie of Verschillende Afbeeldingen voor relatief grootteredeneren. Stel 1 tot 10 oefeningen per pagina in met 2 of 3 afbeeldingen per oefening. Elk werkblad is volledig visueel zonder tekst op de uitvoer, waardoor het universeel bruikbaar is ongeacht taal of leesniveau. Blader door meer dan 3.100 illustraties verdeeld over 104 thema\'s of upload uw eigen afbeeldingen. Het automatisch gegenereerde antwoordblad bespaart u correctietijd. Exporteer als printklare PDF of JPEG op 300 DPI. De gratis proefversie biedt alle functies — geen account nodig. Downloads bevatten een watermerk dat u verwijdert met een commerciële licentie.',
   },
 

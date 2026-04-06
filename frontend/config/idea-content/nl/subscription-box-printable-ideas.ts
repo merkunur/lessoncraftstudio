@@ -2,20 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Abonnement printables — Business | LessonCraftStudio',
-    metaDescription: 'Abonnement printables ideeën voor terugkerende omzet. Bouw een maandelijks werkbladpakket business via Patreon, Gumroad of Shopify met vaste inkomsten.',
+    titleTag: 'Abonnement printables ideeën | Werkbladen via Patreon & Gumroad',
+    metaDescription: 'Ontdek hoe u een printable abonnement opzet met terugkerende omzet. Verkoop maandelijkse werkbladpakketten via Patreon, Gumroad of Shopify.',
 
-    primaryKeyword: 'abonnement printables ideeën business',
+    primaryKeyword: 'abonnement werkbladen verkopen',
     secondaryKeywords: [
-      'maandelijks werkblad abonnement verkopen',
-      'printable abonnement terugkerende omzet',
-      'Patreon educatieve printables business',
-      'seizoensgebonden werkbladpakketten abonnement',
+      'printable abonnement ideeën Patreon',
+      'maandelijks werkbladpakket Gumroad',
+      'terugkerende omzet printables',
+      'seizoensgebonden abonnement werkbladen',
     ],
     lsiKeywords: [
-      'iDEAL automatische incasso abonnement',
-      'levenslange klantwaarde printable business',
-      'gecureerde maandelijkse leercollecties',
+      'iDEAL automatische incasso',
+      'levenslange klantwaarde',
+      'gecureerde maandelijkse collecties',
     ],
   },
   hero: {

@@ -2,20 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Printables schoolstart voor Etsy | LessonCraftStudio',
-    metaDescription: 'Verkoop printables voor de schoolstart op Etsy en KDP. Productideeën voor werkbladen die van juli tot september piekverkopen opleveren.',
+    titleTag: 'Terug naar school printables ideeën | Werkbladen voor Etsy & KDP',
+    metaDescription: 'Ontdek winstgevende terug-naar-school printable ideeën. Maak schoolstart werkbladen, kleurplaten en activiteiten om te verkopen op Etsy, KDP en Gumroad.',
 
-    primaryKeyword: 'printables schoolstart om te verkopen Etsy',
+    primaryKeyword: 'terug naar school werkbladen verkopen',
     secondaryKeywords: [
-      'terug naar school werkbladen verkopen',
-      'schoolstart printable business starten',
-      'schoolthema activiteitenboeken KDP',
-      'september printables niche verkopers',
+      'schoolstart printables ideeën Etsy',
+      'schoolthema activiteitenboek KDP',
+      'terug naar school kleurplaten verkopen',
+      'september werkbladen printen ondernemen',
     ],
     lsiKeywords: [
-      'schoolspullen werkbladen maken',
-      'schoolstart kleurplaten Etsy winkel',
-      'nieuwe schooljaar printbare producten',
+      'rugzak potloden schoolspullen',
+      'nieuwe schooljaar basisschool',
+      'schoolgereedheid groep 1',
     ],
   },
   hero: {

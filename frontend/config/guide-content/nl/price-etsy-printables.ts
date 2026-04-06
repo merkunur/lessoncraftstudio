@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'prijzen bepalen voor printables op Etsy',
+    primaryKeyword: 'printables prijzen Etsy',
     secondaryKeywords: [
-      'hoe printbare werkbladen prijzen op Etsy',
-      'Etsy printable prijsstrategie',
-      'digitale downloads prijzen Etsy verkopers',
-      'Etsy werkblad bundel prijsstelling',
+      'Etsy prijsstrategie werkbladen',
+      'digitale downloads prijzen bepalen',
+      'Etsy bundel prijsstelling',
+      'hoeveel vragen voor printables',
     ],
     lsiKeywords: [
-      'Etsy kostenberekening digitale producten netto-omzet overzicht',
-      'drielaags prijsstructuur educatieve printable bundels',
-      'bundelprijspsychologie waargenomen waarde vermenigvuldiger werkbladen',
-      'Etsy kortingsstrategie seizoensprijsaanpassingen verkopers',
-      'prijstesten Etsy Stats conversiepercentage optimalisatie',
-      'internationale prijsstelling valuta Etsy digitale downloads A4 Letter',
+      'prijs',
+      'kosten',
+      'marge',
+      'bundel',
+      'korting',
+      'conversie',
     ],
-    titleTag: 'Prijzen printables op Etsy bepalen | LessonCraftStudio',
-    metaDescription: 'Bepaal de juiste prijzen voor uw Etsy printables. Kostenberekening, drielaags prijsstructuur, bundelstrategieën en seizoensaanpassingen voor verkopers.',
+    titleTag: 'Printables prijzen op Etsy | LessonCraftStudio',
+    metaDescription: 'Bepaal de juiste prijzen voor printables op Etsy. Kostenberekening, prijsstructuur, bundelstrategie en seizoensaanpassingen uitgelegd.',
   },
 
   hero: {

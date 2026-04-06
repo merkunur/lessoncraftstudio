@@ -2,11 +2,11 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'plaatjes doolhof werkbladen business 2026',
-    secondaryKeywords: ['plaatjes doolhof werkbladen verkopen Etsy', 'plaatjes doolhof printables business', 'plaatjes doolhof puzzels online'],
-    lsiKeywords: ['plaatjes doolhof generator business', 'plaatjes doolhof werkbladen markt', 'educatieve plaatjes doolhof printables'],
-    titleTag: 'Plaatjes Doolhof Werkbladen Business | LCS',
-    metaDescription: 'Plaatjes Doolhof Werkbladen Business op Etsy en KDP. Ontdek de markt, productstrategieën en prijzen voor deze winstgevende niche in 2026.',
+    primaryKeyword: 'plaatjesdoolhof werkbladen business',
+    secondaryKeywords: ['doolhof werkbladen met afbeeldingen', 'maze puzzels printbaar verkopen', 'doolhof activiteiten kinderen Etsy'],
+    lsiKeywords: ['doolhof', 'maze', 'pad', 'puzzel', 'motoriek', 'concentratie'],
+    titleTag: 'Plaatjesdoolhof Werkbladen Verkopen | Blog LessonCraftStudio',
+    metaDescription: 'Plaatjesdoolhof werkbladen combineren puzzels met afbeeldingen. Start een business met printbare doolhof activiteiten.',
   },
   hero: {
     title: 'Plaatjes Doolhof Werkbladen Business',

@@ -2,25 +2,27 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'woordpuzzel door-elkaar-woorden maken voor Etsy',
+    primaryKeyword: 'anagram werkblad printen',
     secondaryKeywords: [
-      'woordkruisel generator Etsy',
-      'door-elkaar-woorden werkbladen KDP',
-      'woordmix puzzels commerciële licentie',
-      'letterpuzzels verkopen online',
+      'letters door elkaar werkblad',
+      'woorden maken van letters',
+      'anagrammen voor kinderen printen',
+      'letters husselen puzzel',
     ],
     lsiKeywords: [
-      'digitale letterpuzzel producten online bedrijf',
-      'printbare woordkruisel werkbladen bedrijf',
-      'commercieel gebruik letterpuzzel generator',
+      'anagram',
+      'husselen',
+      'ordenen',
+      'spelling',
+      'woordenschat',
     ],
-    titleTag: 'Door-elkaar-woorden generator voor Etsy | LessonCraftStudio',
-    metaDescription: 'Maak door-elkaar-woorden werkbladen met commerciële licentie voor Etsy en Amazon KDP. Gratis proefversie met watermerk. $49 eenmalig.',
+    titleTag: 'Anagrammen printen | Generator letters door elkaar',
+    metaDescription: 'Maak werkbladen met door elkaar gehusselde letters en themaplaatjes. Automatische antwoorden, printbare PDF\'s. Gratis proberen.',
   },
 
   hero: {
-    title: 'Door-elkaar-woorden werkbladen maken en verkopen als printables',
-    tagline: 'Gehusselde lettertegels met afbeeldingsaanwijzingen — gratis proefversie met watermerk, commerciële licentie voor onbeperkte verkoop.',
+    title: 'Anagrammen printen — Generator letters door elkaar met plaatjes',
+    tagline: 'Maak werkbladen met gehusselde letters en themaplaatjes voor spelling en woordenschat — automatische antwoorden, probeer gratis met watermerk.',
     description:
       'Maak professionele door-elkaar-woorden werkbladen die u direct kunt verkopen op Etsy, Amazon KDP en Bol.com. De woordkruisel generator husselt lettertegels die gebruikers herschikken tot het juiste woord, begeleid door afbeeldingsaanwijzingen uit meer dan 3.100 illustraties in 104 thema\'s. Vier moeilijkheidsniveaus — van Makkelijk met de helft van de letters op de juiste plek tot Geen Aanwijzingen waar alles gehusseld is — geven u een ingebouwde getrapte productlijn voor bundels op verschillende niveaus. De unieke klinker-medeklinker kleurcodering voegt een fonetische dimensie toe die premium prijzen rechtvaardigt. Kies uit drie inhoudsbronnen: de Afbeeldingenbibliotheek, Handmatige Bewerking of Aangepaste Woordenlijst voor tekst-only puzzels. Volledige Toegang ontgrendelt alle 11 talen — elk met andere woorden, andere letters en compleet andere puzzels — waardoor u elf verkoopbare producten creëert vanuit één workflow. Exporteer printklare PDF\'s en JPEG\'s op meer dan 300 DPI met automatisch antwoordblad. Gratis proefversie met watermerk — alle functies beschikbaar zonder registratie. Commerciële licentie verwijdert het watermerk en verleent volledige verkooprechten voor de Nederlandse en internationale markt.',
   },

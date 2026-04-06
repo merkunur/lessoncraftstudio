@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Amazon KDP of Etsy voor printables verkopen',
+    primaryKeyword: 'KDP of Etsy printables verkopen',
     secondaryKeywords: [
-      'KDP vs Etsy vergelijking printable verkopers',
-      'waar printbare werkbladen online verkopen',
-      'multi-platform verkoopstrategie printables',
-      'Etsy of KDP beter voor werkbladen verkopen',
+      'Amazon KDP vs Etsy vergelijking',
+      'waar printables verkopen online',
+      'Etsy of KDP beter voor werkbladen',
+      'multi-platform printable strategie',
     ],
     lsiKeywords: [
-      'digitale download marktplaats print-on-demand publicatieplatform vergelijking',
-      'Etsy vermeldingskosten transactiekosten KDP royalty drukkosten',
-      'Etsy SEO tags algoritme Amazon A9 backend zoekwoorden categorieën',
-      'digitale PDF printable fysiek gedrukt boek formaatconversie',
-      'multi-platform verkoopstrategie cross-platform printable bedrijf',
-      'printbare werkbladen activiteitenboek kleurplaat puzzelboek marktplaats',
+      'vergelijking',
+      'kosten',
+      'marge',
+      'verkeer',
+      'vindbaarheid',
+      'platform',
     ],
-    titleTag: 'KDP vs Etsy: waar printables verkopen | LessonCraftStudio',
-    metaDescription: 'KDP vs Etsy voor printable verkopers: vergelijk kosten, marges, verkeer en vindbaarheid. Ontdek welk platform past bij uw producten en bedrijfsdoelen.',
+    titleTag: 'KDP vs Etsy: printables verkopen | LessonCraftStudio',
+    metaDescription: 'KDP vs Etsy voor printable verkopers: vergelijk kosten, marges, verkeer en vindbaarheid. Ontdek welk platform bij uw bedrijf past.',
   },
 
   hero: {

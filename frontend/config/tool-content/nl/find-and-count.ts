@@ -2,25 +2,29 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'gratis zoek en tel generator',
+    primaryKeyword: 'zoek en tel gratis printen',
     secondaryKeywords: [
-      'zoek en tel werkbladen gratis online maken',
-      'ik zie ik zie werkblad generator gratis',
-      'gratis zoek en tel werkblad generator zonder account',
-      'zoek en tel activiteit online genereren',
+      'tellen werkblad gratis',
+      'zoek en tel werkblad gratis online maken',
+      'zoek en tel werkblad gratis printen PDF',
+      'zoek en tel generator gratis zonder account',
+      'ik zie ik zie werkblad gratis',
     ],
     lsiKeywords: [
-      'verborgen voorwerp letterherkenning dubbele activiteitsmodus generator',
-      'vier taaktypen omcirkel vierkant doorstrepen tel mixbaar werkblad',
-      'taalspecifiek alfabet accentletters zoek en tel generator',
+      'kleuters',
+      'kinderen',
+      'printbaar',
+      'PDF',
+      'antwoorden',
+      'tellen',
     ],
-    titleTag: 'Zoek en tel gratis online maken | LessonCraftStudio',
-    metaDescription: 'Maak gratis zoek en tel werkbladen online met vier taaktypen, twee activiteitsmodi, 104 beeldthema\'s en. Verkoop op Etsy & KDP met commerciele licentie.',
+    titleTag: 'Gratis zoek en tel generator | Probeer online met watermerk',
+    metaDescription: 'Probeer de zoek en tel generator gratis online met watermerk. Vier taaktypen, twee activiteitsmodi, 104 thema\'s, antwoordblad. Geen account nodig.',
   },
 
   hero: {
-    title: 'Gratis zoek en tel werkbladen online maken',
-    tagline: 'Maak ik-zie-ik-zie werkbladen met twee activiteitsmodi, vier taaktypen en automatische antwoordbladen — direct in uw browser',
+    title: 'Gratis zoek en tel — Probeer online met watermerk',
+    tagline: 'Maak zoek en tel werkbladen met twee activiteitsmodi en vier taaktypen — probeer gratis zonder registratie.',
     description: 'Maak zoek en tel werkbladen direct in uw browser zonder account of installatie. De gratis proefversie biedt alle functies: Verborgen Voorwerp modus met een instelbaar raster van 5×5 tot 10×10 en tot 4 doelobjecten, en Letterherkenning modus met taalspecifieke alfabetten inclusief accentletters. Wijs vier verschillende taaktypen toe per doelobject — omcirkelen, vierkant, doorstrepen of tellen — en mix ze op één werkblad voor gevarieerde oefeningen. Kies uit 104 thematische beeldcollecties met meer dan 3.100 illustraties of upload uw eigen afbeeldingen. Het dubbele canvassysteem genereert automatisch een antwoordblad met rode annotaties naast elk werkblad. Afbeeldingslabels verschijnen in de geselecteerde taal via het Beeldwoordenschat-systeem — 11 talen beschikbaar. Exporteer als printklare PDF of hoge-resolutie JPEG. Downloads bevatten een watermerk in de gratis proefversie. Met een licentie verwijdert u het watermerk en ontgrendelt u commerciële verkooprechten.',
   },
 

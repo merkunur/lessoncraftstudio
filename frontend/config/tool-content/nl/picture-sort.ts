@@ -2,25 +2,29 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'gratis sorteerwerkbladen generator',
+    primaryKeyword: 'sorteer werkblad gratis',
     secondaryKeywords: [
-      'sorteerwerkbladen online maken gratis',
-      'afbeeldingen sorteren werkblad generator',
-      'printbare sorteeractiviteit generator met antwoordblad',
-      'twee-categorieën sorteer werkblad tool online',
+      'categoriseren gratis printen',
+      'sorteer werkblad gratis online maken',
+      'sorteerwerkblad gratis printen PDF',
+      'sorteer generator gratis zonder account',
+      'categoriseren werkblad gratis',
     ],
     lsiKeywords: [
-      'themagestuurde classificatie werkblad generator',
-      'uitknipraster sorteeractiviteit generator gratis',
-      'automatisch antwoordblad sorteer werkblad tool',
+      'kleuters',
+      'kinderen',
+      'printbaar',
+      'PDF',
+      'antwoorden',
+      'logica',
     ],
-    titleTag: 'Sorteerwerkbladen gratis online | LessonCraftStudio',
-    metaDescription: 'Maak gratis sorteerwerkbladen online met twee-categorieën modus, geschudde uitkniprasters en automatische. Verkoop op Etsy & KDP met commerciele licentie.',
+    titleTag: 'Gratis sorteer werkblad generator | Probeer online met watermerk',
+    metaDescription: 'Probeer de sorteerwerkbladen generator gratis online met watermerk. Twee categorieën, uitkniprasters, antwoordblad, 104 thema\'s. Geen account nodig.',
   },
 
   hero: {
-    title: 'Gratis sorteerwerkbladen maken online',
-    tagline: 'Twee-categorieën sorteer werkblad generator met themagestuurde en handmatige beeldselectie, uitkniprasters en automatische antwoordbladen',
+    title: 'Gratis sorteer werkblad — Probeer online met watermerk',
+    tagline: 'Maak sorteerwerkbladen met twee categorieën en uitkniprasters — probeer gratis zonder registratie.',
     description: 'Met onze gratis sorteerwerkbladen generator maakt u in enkele minuten professionele sorteeractiviteiten voor kinderen. Kies uit twee modi: selecteer automatisch afbeeldingen per thema of kies handmatig welke afbeeldingen in welke categorie horen. Elk werkblad bevat een geschud uitknipraster met 4 tot 12 afbeeldingen en twee categoriekaders waar kinderen de plaatjes naartoe sorteren. Het automatisch gegenereerde antwoordblad bespaart u correctietijd. Blader door meer dan 3.100 illustraties verdeeld over 104 thema\'s zoals dieren, voedsel en voertuigen, of upload uw eigen afbeeldingen. Pas het lettertype, de achtergrond en het paginaformaat aan naar wens. Exporteer als printklare PDF of JPEG op 300 DPI. De gratis proefversie biedt alle functies — geen account nodig. Downloads bevatten een watermerk dat u verwijdert met een commerciële licentie.',
   },
 

@@ -2,11 +2,11 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'woordkraker printables business 2026',
-    secondaryKeywords: ['woordkraker werkbladen verkopen', 'woord scramble printables Etsy', 'letterpuzzel werkbladen business'],
-    lsiKeywords: ['woordkraker generator', 'woord puzzels printbaar', 'educatieve letterpuzzels'],
-    titleTag: 'Woordkraker Printables Business Starten | LCS',
-    metaDescription: 'Start een woordkraker printables business. Ontdek hoe u letterpuzzels verkoopt op Etsy en KDP. Productstrategieën voor de Nederlandse markt.',
+    primaryKeyword: 'woordpuzzel printables business starten',
+    secondaryKeywords: ['letterpuzzel werkbladen Etsy', 'door elkaar gehusselde woorden werkbladen', 'woordscramble activiteiten verkopen'],
+    lsiKeywords: ['woordpuzzel', 'scramble', 'letters', 'taal', 'puzzel', 'woordenschat'],
+    titleTag: 'Woordpuzzel Printables Business Starten | Blog LessonCraftStudio',
+    metaDescription: 'Start een business met woordpuzzel printables. Letterpuzzels en woordscrambles zijn een populaire niche op Etsy.',
   },
   hero: {
     title: 'Woordkraker Printables Business: Complete Gids',

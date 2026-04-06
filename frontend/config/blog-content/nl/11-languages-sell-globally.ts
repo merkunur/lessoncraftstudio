@@ -2,11 +2,11 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: '11 talen wereldwijd verkopen printables',
-    secondaryKeywords: ['printable 11 talen wereldwijd', 'werkbladen 11 talen', 'printables how-to gids'],
-    lsiKeywords: ['printable productie tips', 'werkbladen maken strategie', 'printable business how-to'],
-    titleTag: '11 Talen: Wereldwijd Verkopen met Printables | LCS',
-    metaDescription: '11 Talen: Wereldwijd Verkopen met Printables. Stap-voor-stap instructies en praktische tips voor printable verkopers. Direct toepasbaar.',
+    primaryKeyword: 'meertalige werkbladen verkopen wereldwijd',
+    secondaryKeywords: ['printables in meerdere talen maken', 'werkbladen vertalen voor Etsy', 'internationaal verkopen met printables'],
+    lsiKeywords: ['vertaling', 'meertalig', 'wereldmarkt', 'exporteren', 'doelgroep', 'lokalisatie'],
+    titleTag: 'Meertalige Werkbladen Verkopen: 11 Talen | Blog LessonCraftStudio',
+    metaDescription: 'Verkoop werkbladen in 11 talen en bereik een wereldwijd publiek. Praktische tips voor meertalige printable-verkopers op Etsy en KDP.',
   },
   hero: {
     title: '11 Talen: Wereldwijd Verkopen met Printables',

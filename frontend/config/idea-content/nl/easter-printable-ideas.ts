@@ -2,20 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Printables Pasen voor Etsy | LessonCraftStudio',
-    metaDescription: 'Verkoop printables voor Pasen op Etsy en KDP. Productideeën voor werkbladen met konijntjes, eieren en lentethema die seizoenspieken benutten.',
+    titleTag: 'Pasen printables ideeën | Werkbladen voor Etsy & KDP',
+    metaDescription: 'Ontdek winstgevende paas printable ideeën. Maak werkbladen met paashaas, eieren en kuikens om te verkopen op Etsy, Amazon KDP en Gumroad.',
 
-    primaryKeyword: 'printables Pasen om te verkopen op Etsy',
+    primaryKeyword: 'pasen werkbladen verkopen',
     secondaryKeywords: [
-      'Pasen werkbladen Etsy verkopen',
-      'paasthema printable business starten',
-      'lente activiteitenboeken KDP niche',
-      'paaseieren printables voor verkopers',
+      'pasen printables ideeën Etsy',
+      'paasthema activiteitenboek KDP',
+      'pasen kleurplaten verkopen online',
+      'paaseieren werkbladen printen lente',
     ],
     lsiKeywords: [
-      'paaskonijn werkbladen maken verkopen',
-      'lentethema kleurplaten Etsy winkel',
-      'seizoensgebonden paas printbare producten',
+      'paashaas paaseieren kuiken',
+      'lente seizoensactiviteiten',
+      'eizoektocht paasvakantie',
     ],
   },
   hero: {

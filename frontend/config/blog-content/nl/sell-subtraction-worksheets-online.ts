@@ -2,19 +2,11 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'aftrekken werkbladen online verkopen 2026',
-    secondaryKeywords: [
-      'aftrekken printables verkopen Etsy',
-      'reken werkbladen aftrekken business',
-      'wiskunde werkbladen online verkopen',
-    ],
-    lsiKeywords: [
-      'aftrekken oefenbladen markt',
-      'printbare reken werkbladen',
-      'digitale download aftrekken',
-    ],
-    titleTag: 'Aftrekken Werkbladen Online Verkopen: Gids | LCS',
-    metaDescription: 'Ontdek hoe u aftrekken werkbladen verkoopt op Etsy en Bol.com. Productlijn, prijzen en marketing voor de Nederlandse markt in 2026.',
+    primaryKeyword: 'aftrekken werkbladen online verkopen',
+    secondaryKeywords: ['min sommen werkbladen Etsy', 'aftrekken oefenbladen basisschool', 'rekenwerkbladen aftrekken maken'],
+    lsiKeywords: ['aftrekken', 'min', 'sommen', 'rekenen', 'oefenen', 'basisschool'],
+    titleTag: 'Aftrekken Werkbladen Online Verkopen | Blog LessonCraftStudio',
+    metaDescription: 'Verkoop aftrekken werkbladen online via Etsy en KDP. Praktische gids voor het maken van min-sommen oefenbladen.',
   },
   hero: {
     title: 'Aftrekken Werkbladen Online Verkopen: Complete Gids',

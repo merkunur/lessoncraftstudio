@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'woordzoekers maken verkopen',
+    primaryKeyword: 'woordzoeker maken',
     secondaryKeywords: [
-      'woordzoeker generator met plaatjes',
-      'printbare woordzoekers maken en verkopen',
-      'meertalige woordzoekpuzzels generator',
-      'woordzoeker boeken verkopen op Amazon KDP en Etsy',
+      'woordzoeker generator online',
+      'woordzoekpuzzel met plaatjes',
+      'printbare woordzoekers maken',
+      'meertalige woordzoeker generator',
     ],
     lsiKeywords: [
-      'woordzoeker werkbladen met plaatjes',
-      'meertalige woordzoekpuzzels generator',
-      'woordenschat woordzoeker voor kinderen',
-      'woordzoeker boeken verkopen Amazon KDP',
-      'Etsy woordzoeker printables verkopen',
-      'commerciële licentie puzzeltools',
+      'woordzoeker',
+      'woordenschat',
+      'raster',
+      'puzzel',
+      'meertalig',
+      'afbeelding',
     ],
-    titleTag: 'Woordzoekers maken om te verkopen | LessonCraftStudio',
-    metaDescription: 'Maak woordzoekpuzzels met afbeeldingen als aanwijzingen in 11 talen. Stel rastergrootte en richtingen in, en verkoop op Etsy, KDP of Bol.com.',
+    titleTag: 'Woordzoeker maken | LessonCraftStudio',
+    metaDescription: 'Maak woordzoekers met afbeeldingen als aanwijzingen in 11 talen. Instelbare rastergrootte, richtingen en moeilijkheid. Gratis proberen.',
   },
 
   hero: {

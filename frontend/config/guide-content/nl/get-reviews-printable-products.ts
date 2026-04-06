@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'recensies krijgen voor printable producten',
+    primaryKeyword: 'Etsy reviews krijgen printables',
     secondaryKeywords: [
-      'Etsy reviews werkbladen strategie',
+      'recensies verzamelen Etsy winkel',
       'klantbeoordelingen digitale producten',
-      'reviews verzamelen printables',
-      'sociale bewijskracht opbouwen Etsy',
+      'sociale bewijskracht opbouwen',
+      'meer reviews Etsy strategie',
     ],
     lsiKeywords: [
-      'sterrenbeoordelingen kopersfeedback productreviews reviewverzoek sociale bewijskracht',
-      'klanttevredenheid review-opvolging feedbackcyclus winkelgeloofwaardigheid',
-      'reviewconversiepercentage positieve reviews productkwaliteitssignalen klantervaring',
-      'reviewreactie winkelreputatie vertrouwen opbouwen aankoopvertrouwen',
-      'organische reviews authentieke feedback reviewvolume marktplaatsrangschikking',
-      'vermeldingsoptimalisatie verwachtingen stellen kopercommunicatie na-aankoop ervaring',
+      'recensie',
+      'beoordeling',
+      'feedback',
+      'vertrouwen',
+      'reputatie',
+      'bewijskracht',
     ],
-    titleTag: 'Recensies voor printables krijgen | LessonCraftStudio',
-    metaDescription: 'Bewezen strategieën om recensies te krijgen voor printable producten. Bouw sociale bewijskracht op en versterk uw Etsy-winkel met authentieke feedback.',
+    titleTag: 'Reviews krijgen voor printables | LessonCraftStudio',
+    metaDescription: 'Bewezen strategieën om meer reviews te krijgen voor printable producten op Etsy. Bouw sociale bewijskracht op met authentieke feedback.',
   },
 
   hero: {

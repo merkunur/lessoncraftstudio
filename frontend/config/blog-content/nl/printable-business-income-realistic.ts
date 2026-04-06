@@ -3,10 +3,10 @@ import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
     primaryKeyword: 'printable business inkomen realistisch',
-    secondaryKeywords: ['printable business strategie 2026', 'werkbladen verkopen platform tips', 'digitale producten online verkopen'],
-    lsiKeywords: ['printable verkoop optimalisatie', 'digitale download business', 'online printable winkel'],
-    titleTag: 'Printable Business Inkomen: Realistische Verwachtingen | LCS',
-    metaDescription: 'Printable Business Inkomen: Realistische Verwachtingen. Praktische strategieën en bewezen technieken voor printable verkopers in 2026.',
+    secondaryKeywords: ['hoeveel verdienen met werkbladen Etsy', 'realistische inkomsten printables', 'printable verkoper salaris verwachtingen'],
+    lsiKeywords: ['inkomen', 'realistisch', 'verdiensten', 'omzet', 'verwachtingen', 'tijdslijn'],
+    titleTag: 'Printable Business Inkomen: Realistische Cijfers | Blog LessonCraftStudio',
+    metaDescription: 'Hoeveel kunt u realistisch verdienen met printables? Eerlijke cijfers en tijdslijnen voor werkbladen-verkopers op Etsy.',
   },
   hero: {
     title: 'Printable Business Inkomen: Realistische Verwachtingen',

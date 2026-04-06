@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'bingokaarten met afbeeldingen maken verkopen',
+    primaryKeyword: 'bingokaarten maken met plaatjes',
     secondaryKeywords: [
-      'plaatjesbingo kaarten maken en verkopen',
-      'bingokaarten met thema-afbeeldingen Etsy',
-      'bingo activiteitenboek Amazon KDP',
-      'printbare bingosets verkopen op Bol.com',
+      'plaatjesbingo kaarten generator',
+      'printbare bingokaarten maken',
+      'bingo kaarten zelf maken',
+      'thematische bingokaarten kinderen',
     ],
     lsiKeywords: [
-      'unieke bingokaarten generator meerdere sets',
-      'bingo belkaarten thematisch',
-      'bingokaarten bundels voor feestjes',
-      'commerciële licentie bingo tool',
-      'bingokaarten productlijn opbouwen',
-      'plaatjesbingo verkopen op marktplaatsen',
+      'bingokaart',
+      'plaatjesbingo',
+      'belkaart',
+      'thematisch',
+      'generator',
+      'printbaar',
     ],
-    titleTag: 'Bingokaarten maken om te verkopen | LessonCraftStudio',
-    metaDescription: 'Ontdek hoe u bingokaarten met afbeeldingen maakt en verkoopt op Etsy, Amazon KDP en Bol.com. Meerdere unieke kaarten, belkaarten en printklare PDF\'s.',
+    titleTag: 'Bingokaarten maken met plaatjes | LessonCraftStudio',
+    metaDescription: 'Maak bingokaarten met thema-afbeeldingen en unieke kaartsets. Belkaarten, meerdere talen en PDF-export inbegrepen. Gratis proberen.',
   },
 
   hero: {

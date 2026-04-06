@@ -3,10 +3,10 @@ import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
     primaryKeyword: 'auteursrecht printable verkopers basis',
-    secondaryKeywords: ['printable business strategie 2026', 'werkbladen verkopen platform tips', 'digitale producten online verkopen'],
-    lsiKeywords: ['printable verkoop optimalisatie', 'digitale download business', 'online printable winkel'],
-    titleTag: 'Auteursrecht Basics voor Printable Verkopers | LCS',
-    metaDescription: 'Auteursrecht Basics voor Printable Verkopers. Praktische strategieën en bewezen technieken voor printable. Verkoop op Etsy & KDP met commerciele licentie.',
+    secondaryKeywords: ['copyright werkbladen Etsy', 'intellectueel eigendom digitale producten', 'auteursrecht bescherming printables'],
+    lsiKeywords: ['auteursrecht', 'copyright', 'bescherming', 'eigendom', 'plagiaat', 'juridisch'],
+    titleTag: 'Auteursrecht voor Printable Verkopers | Blog LessonCraftStudio',
+    metaDescription: 'Begrijp de basis van auteursrecht als printable verkoper. Bescherm uw werkbladen en voorkom juridische problemen op Etsy.',
   },
   hero: {
     title: 'Auteursrecht Basics voor Printable Verkopers',

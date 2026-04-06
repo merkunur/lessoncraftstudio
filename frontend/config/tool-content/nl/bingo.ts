@@ -1,25 +1,29 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'gratis bingokaarten generator met afbeeldingen',
+    primaryKeyword: 'bingokaarten maken gratis',
     secondaryKeywords: [
-      'plaatjesbingo kaarten gratis online maken',
-      'bingokaarten met afbeeldingen gratis printen',
-      'gratis bingo generator voor kinderen',
-      'bingokaarten generator gratis downloaden',
+      'bingo generator gratis',
+      'bingokaarten maken gratis online',
+      'bingokaarten gratis printen PDF',
+      'bingo generator gratis zonder account',
+      'bingokaarten met afbeeldingen gratis',
     ],
     lsiKeywords: [
-      'batch bingokaarten generator online',
-      'beeld-en-woord bingo generator gratis',
-      'afroepblad bingo werkblad generator',
+      'kleuters',
+      'kinderen',
+      'printbaar',
+      'PDF',
+      'feestje',
+      'spelletje',
     ],
-    titleTag: 'Bingokaarten gratis met afbeeldingen | LessonCraftStudio',
-    metaDescription: 'Maak gratis bingokaarten met afbeeldingen. Rasters van 3×3 tot 5×5, batchgeneratie tot 10 unieke kaarten,. Verkoop op Etsy & KDP met commerciele licentie.',
+    titleTag: 'Gratis bingokaarten generator | Probeer online met watermerk',
+    metaDescription: 'Probeer de bingokaarten generator gratis online met watermerk. Rasters van 3x3 tot 5x5, tot 10 unieke kaarten, 104 thema\'s. Geen account nodig.',
     },
 
   hero: {
-    title: 'Gratis bingokaarten generator met afbeeldingen',
-    tagline: 'Maak gratis plaatjesbingokaarten met unieke kaarten, afroepbladen en 104 thema\'s',
+    title: 'Gratis bingokaarten maken — Probeer online met watermerk',
+    tagline: 'Maak plaatjesbingokaarten met unieke kaarten en afroepbladen — probeer gratis zonder registratie.',
     description: 'Probeer onze gratis proefversie met watermerk om plaatjesbingokaarten te maken — direct in uw browser, zonder account of registratie. Elke speler krijgt een unieke kaart met verschillende afbeeldingen op verschillende posities, zodat bingo als spel goed werkt. Configureer rasters van 3×3 tot 5×5 en genereer tot 10 unieke bingokaarten per batch. Kies uit meer dan 104 thematische collecties met meer dan 3.100 illustraties, of upload uw eigen afbeeldingen. Kies Afbeelding of Woord als vulling voor zowel kaartvakjes als ronde fiches — vier verschillende bingokaart-stijlen vanuit één generator. Het speciale afroepblad op een apart tabblad toont een dynamisch woordraster voor de afroeper. Download als printklare PDF, hoge-resolutie JPEG of exporteer alle kaarten als ZIP. De gratis proefversie bevat alle functies met een watermerk op downloads.',
   },
 

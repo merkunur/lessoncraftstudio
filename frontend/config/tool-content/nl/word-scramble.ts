@@ -2,25 +2,29 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'door elkaar woorden gratis online werkbladen maken',
+    primaryKeyword: 'anagram werkblad gratis',
     secondaryKeywords: [
-      'letterpuzzel werkbladen gratis online maken',
-      'gratis woordkruisel werkblad generator',
-      'door-elkaar-woorden puzzel gratis maken zonder account',
-      'letterpuzzel online genereren met antwoordblad',
+      'letters door elkaar gratis',
+      'anagram werkblad gratis online maken',
+      'letterpuzzel werkblad gratis printen PDF',
+      'door-elkaar-woorden gratis zonder account',
+      'woordkruisel werkblad gratis',
     ],
     lsiKeywords: [
-      'gehusselde lettertegel printables voor Etsy',
-      'beeldgebaseerde letterpuzzel werkblad tool',
-      'meertalige spellingpuzzel generator',
+      'basisschool',
+      'kinderen',
+      'printbaar',
+      'PDF',
+      'antwoorden',
+      'spelling',
     ],
-    titleTag: 'Door-elkaar-woorden gratis online | LessonCraftStudio',
-    metaDescription: 'Maak gratis letterpuzzel werkbladen online met gehusselde lettertegels, klinker-kleurcodering, 4. Verkoop op Etsy & KDP met commerciele licentie.',
+    titleTag: 'Gratis anagram werkblad generator | Probeer online met watermerk',
+    metaDescription: 'Probeer de anagram werkblad generator gratis online met watermerk. Gehusselde lettertegels, klinker-kleurcodering, 4 niveaus. Geen account nodig.',
   },
 
   hero: {
-    title: 'Gratis door-elkaar-woorden werkbladen online maken',
-    tagline: 'Maak letterpuzzel werkbladen met gehusselde tegels, klinker-kleurcodering en 4 moeilijkheidsniveaus — direct in uw browser',
+    title: 'Gratis anagram werkblad — Probeer online met watermerk',
+    tagline: 'Maak letterpuzzel werkbladen met gehusselde tegels en klinker-kleurcodering — probeer gratis zonder registratie.',
     description: 'Maak letterpuzzel werkbladen direct in uw browser zonder account of installatie. De gratis proefversie biedt alle functies: een afbeeldingsaanwijzing gekoppeld aan gehusselde lettertegels die gebruikers in de juiste volgorde herschikken. De unieke klinker-medeklinker kleurcodering toont klinkers en medeklinkers in verschillende kleuren voor visuele fonetische ondersteuning. Vier moeilijkheidsniveaus bepalen hoeveel letters vooraf correct zijn geplaatst — van Geen Aanwijzingen (elke letter gehusseld) tot Makkelijk (helft correct geplaatst). Kies uit drie inhoudsbronnen: de Afbeeldingenbibliotheek met meer dan 3.100 illustraties over 104 thema\'s, Handmatige Bewerkingsmodus voor aangepaste weergavenamen, of Aangepaste Woordenlijst voor tekst-only puzzels. De tool is taalgebonden — dezelfde afbeelding produceert per taal een ander doelwoord met andere letters in 11 ondersteunde talen. Antwoordbladen worden automatisch gegenereerd. Exporteer als printklare PDF of hoge-resolutie JPEG. Downloads bevatten een watermerk in de gratis proefversie. Met een licentie verwijdert u het watermerk en ontgrendelt u commerciële verkooprechten.',
   },
 

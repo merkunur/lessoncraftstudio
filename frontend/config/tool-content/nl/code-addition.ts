@@ -1,25 +1,29 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'gratis geheimschrift rekenpuzzels maken',
+    primaryKeyword: 'geheim bericht sommen gratis',
     secondaryKeywords: [
-      'geheime code rekenpuzzels gratis online',
-      'codekraker werkbladen gratis maken',
-      'gratis cijfercode puzzels voor kinderen',
-      'geheimschrift optellen werkblad gratis',
+      'codekraker rekenen gratis',
+      'geheimschrift rekenpuzzels gratis online maken',
+      'code sommen gratis printen PDF',
+      'codekraker werkblad gratis zonder account',
+      'geheime code optellen gratis',
     ],
     lsiKeywords: [
-      'afbeelding cijferpuzzel gratis online',
-      'woord onthullen codekraker werkblad',
-      'getalcode rekenactiviteit gratis maken',
+      'basisschool',
+      'groep 4',
+      'printbaar',
+      'PDF',
+      'antwoorden',
+      'rekenen',
     ],
-    titleTag: 'Geheimschrift rekenpuzzels gratis | LessonCraftStudio',
-    metaDescription: 'Maak gratis geheimschrift rekenpuzzels online. Afbeeldingssymbolen, Normale en Woord Onthullen Modus, 11 talen. Verkoop op Etsy & KDP met commerciele licentie.',
+    titleTag: 'Gratis geheimschrift sommen generator | Probeer online met watermerk',
+    metaDescription: 'Probeer de geheimschrift rekenpuzzel generator gratis online met watermerk. Afbeeldingssymbolen, twee modi, 11 talen. Geen account nodig.',
     },
 
   hero: {
-    title: 'Gratis geheimschrift rekenpuzzels online maken',
-    tagline: 'Maak gratis codekraak-rekenpuzzels met afbeeldingssymbolen en geheime codes',
+    title: 'Gratis geheimschrift sommen — Probeer online met watermerk',
+    tagline: 'Maak codekraak-rekenpuzzels met afbeeldingssymbolen en geheime codes — probeer gratis zonder registratie.',
     description: 'Probeer onze gratis proefversie met watermerk om geheimschrift rekenpuzzels te maken — direct in uw browser, zonder account of registratie. Elke puzzel verbergt getallen achter afbeeldingssymbolen, en gebruikers moeten optelsommen oplossen om uit te vinden welk getal bij welk plaatje hoort. In de Normale Modus staat elk symbool voor een uniek cijfer. Schakel over naar Woord Onthullen Modus en elke opgeloste vergelijking onthult een letter van een geheim woord, met afleidingsletters die gebruikers aan het raden houden. Kies uit meer dan 100 beeldthema\'s, pas het aantal symbolen en de complexiteit van de optellers aan. Ondersteunt 11 talen met taalgebonden alfabetten — Nederlandse puzzels gebruiken het volledige Nederlandse alfabet. Download als printklare PDF of hoge-resolutie JPEG. De gratis proefversie bevat alle functies met een watermerk op downloads.',
   },
 

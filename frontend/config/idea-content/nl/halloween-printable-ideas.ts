@@ -2,20 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Printables Halloween — Business | LessonCraftStudio',
-    metaDescription: 'Start een printable business met Halloween. Productideeën voor griezelige werkbladen en puzzels die van augustus tot oktober piekverkopen opleveren.',
+    titleTag: 'Halloween printables ideeën | Werkbladen voor Etsy & KDP',
+    metaDescription: 'Ontdek winstgevende Halloween printable ideeën. Maak griezelige werkbladen met pompoenen, spoken en heksen om te verkopen op Etsy, KDP en Gumroad.',
 
-    primaryKeyword: 'printables Halloween ideeën business',
+    primaryKeyword: 'halloween werkbladen verkopen',
     secondaryKeywords: [
-      'Halloween werkbladen Etsy verkopen',
-      'Halloween printable business starten',
-      'griezelige activiteitenboeken KDP',
-      'oktoberfeest printables niche verkopers',
+      'halloween printables ideeën Etsy',
+      'halloween activiteitenboek KDP',
+      'halloween kleurplaten verkopen online',
+      'griezelige werkbladen printen oktober',
     ],
     lsiKeywords: [
-      'pompoen werkbladen maken verkopen',
-      'spoken heksen kleurplaten Etsy',
-      'griezelige puzzels printbare producten',
+      'pompoen spook heks vleermuis',
+      'griezelig spookhuis skelet',
+      'oktoberfeest herfst seizoen',
     ],
   },
   hero: {

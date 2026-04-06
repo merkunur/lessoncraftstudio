@@ -2,11 +2,11 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'fijne motoriek activiteiten printables',
-    secondaryKeywords: ['printable fijne motoriek strategie', 'werkbladen fijne motoriek verkopen', 'educatieve printables activiteiten printables'],
-    lsiKeywords: ['printable niche fijne motoriek', 'seizoensgebonden printables', 'thematische werkbladen verkopen'],
-    titleTag: 'Fijne Motoriek Activiteiten Printables | LCS',
-    metaDescription: 'Fijne Motoriek Activiteiten Printables. Ontdek welke producten het beste verkopen, wanneer u moet beginnen en hoe u maximale omzet genereert.',
+    primaryKeyword: 'fijne motoriek werkbladen printbaar',
+    secondaryKeywords: ['schrijfmotoriek oefeningen printables', 'motoriek activiteiten kleuters', 'fijne motoriek oefenbladen verkopen'],
+    lsiKeywords: ['motoriek', 'schrijven', 'knippen', 'tekenen', 'pengreep', 'ontwikkeling'],
+    titleTag: 'Fijne Motoriek Werkbladen Verkopen | Blog LessonCraftStudio',
+    metaDescription: 'Fijne motoriek werkbladen zijn essentieel voor kleuters. Verkoop schrijfmotoriek oefenbladen op Etsy aan ouders en leerkrachten.',
   },
   hero: {
     title: 'Fijne Motoriek Activiteiten Printables',

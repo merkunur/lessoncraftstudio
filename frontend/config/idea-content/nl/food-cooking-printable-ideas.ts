@@ -2,20 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Printables voeding voor Etsy | LessonCraftStudio',
-    metaDescription: 'Verkoop eten en voeding printables op Etsy en Gumroad. Fruit, groenten en keukenthema productideeën voor uw printable business — altijdgroene niche.',
+    titleTag: 'Eten en voeding printables ideeën | Werkbladen voor Etsy & KDP',
+    metaDescription: 'Ontdek winstgevende voedsel printable ideeën. Maak werkbladen met fruit, groenten en keukenthema om te verkopen op Etsy, Amazon KDP en Gumroad.',
 
-    primaryKeyword: 'printables eten en voeding voor Etsy',
+    primaryKeyword: 'eten werkbladen verkopen',
     secondaryKeywords: [
-      'voedselthema werkbladen verkopen Etsy',
-      'koken keuken printable business ideeën',
-      'gezond eten educatieve producten verkopen',
-      'voeding fruit groenten printables Gumroad',
+      'voeding printables ideeën Etsy',
+      'voedselthema activiteitenboek KDP',
+      'eten kleurplaten verkopen online',
+      'keuken werkbladen printen',
     ],
     lsiKeywords: [
-      'boodschappen recept werkbladen maken',
-      'Schijf van Vijf educatief materiaal',
-      'culinair thema printbare producten ondernemen',
+      'fruit groenten Schijf van Vijf',
+      'koken bakken recept',
+      'gezonde voeding boodschappen',
     ],
   },
   hero: {

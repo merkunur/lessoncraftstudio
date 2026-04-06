@@ -3,10 +3,10 @@ import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
     primaryKeyword: 'dierenthema printables verkopen',
-    secondaryKeywords: ['printable dierenthema printables strategie', 'werkbladen dierenthema printables verkopen', 'educatieve printables printables verkopen'],
-    lsiKeywords: ['printable niche dierenthema printables', 'seizoensgebonden printables', 'thematische werkbladen verkopen'],
-    titleTag: 'Dierenthema Printables Verkopen | LCS',
-    metaDescription: 'Dierenthema Printables Verkopen. Ontdek welke producten het beste verkopen, wanneer u moet beginnen en hoe u maximale omzet genereert.',
+    secondaryKeywords: ['werkbladen met dieren maken', 'dierenthema werkbladen Etsy', 'educatieve dierenprintables'],
+    lsiKeywords: ['dieren', 'boerderij', 'jungle', 'oceaan', 'thematisch', 'kinderen'],
+    titleTag: 'Dierenthema Printables Verkopen op Etsy | Blog LessonCraftStudio',
+    metaDescription: 'Dierenthema werkbladen zijn populair het hele jaar door. Leer hoe u dierenprintables maakt en verkoopt als digitale downloads.',
   },
   hero: {
     title: 'Dierenthema Printables Verkopen',

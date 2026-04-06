@@ -2,25 +2,27 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'woordraadspel maken om te verkopen op Etsy',
+    primaryKeyword: 'galgje werkblad printen',
     secondaryKeywords: [
-      'woordraadsel generator voor Etsy-shop',
-      'woord raden werkbladen voor KDP',
-      'woordraadspel met afbeeldingen commerciële licentie',
-      'woordpuzzels verkopen online',
+      'woord raden werkblad',
+      'galgje printen',
+      'woordspel woordenschat',
+      'raad het woord werkblad',
     ],
     lsiKeywords: [
-      'digitale woordenschat puzzel producten online bedrijf',
-      'printbare woordherkenning werkbladen bedrijf',
-      'commercieel gebruik woordraadsel generator',
+      'galgje',
+      'raden',
+      'letters',
+      'woordenschat',
+      'aanwijzingen',
     ],
-    titleTag: 'Woordraadspel generator voor Etsy | LessonCraftStudio',
-    metaDescription: 'Maak woordraadspellen met afbeeldingen om te verkopen op Etsy en KDP. Woorden raden met hints. Commerciële licentie. $49 eenmalig.',
+    titleTag: 'Galgje werkblad printen | Generator woordraadsels',
+    metaDescription: 'Maak galgje-werkbladen met themawoorden en plaatjes. Automatische antwoorden, printbare PDF\'s. Gratis proberen.',
   },
 
   hero: {
-    title: 'Genereer woordraadspellen om te verkopen op Etsy, KDP en Bol.com',
-    tagline: 'Woord-raden werkbladen met afbeeldingshints — gratis proefversie met watermerk, commerciële licentie voor onbeperkte verkoop.',
+    title: 'Galgje werkblad printen — Generator woordraadsels met plaatjes',
+    tagline: 'Maak woord-raden werkbladen met themaplaatjes en aanwijzingen — automatische antwoorden, probeer gratis met watermerk.',
     description:
       'Met de Woordraadspel Generator maakt u professionele werkbladen waarbij kinderen een afbeelding bekijken en het verborgen woord ontdekken door ontbrekende letters in te vullen in een letterraster. Dit raad-het-woord format combineert visuele herkenning met spelling en woordenschat, waardoor het bijzonder geschikt is voor Nederlandse taalverwerving en NT2-materiaal. Kies uit drie inhoudsbronnen: de ingebouwde Afbeeldingenbibliotheek met meer dan 3100 illustraties over 104 thema\'s, de Handmatige Bewerkingsmodus voor aangepaste woordenschat, of de Aangepaste Woordenlijst voor puzzels met eigen woorden zonder afbeeldingen. Vier moeilijkheidsniveaus bepalen hoeveel letters vooraf worden onthuld — van geen aanwijzingen tot de helft van de letters zichtbaar — ideaal voor gedifferentieerde bundels met oplopend niveau. Alle 11 talen beschikbaar: het doelwoord verandert per taal, waardoor elke taalversie een apart verkoopbaar product wordt. De NT2-markt in Nederland en Belgie biedt sterke verkoopkansen voor meertalige woordraadspellen. Verkoop uw werkbladen op Etsy, Amazon KDP of Bol.com met een commerciële licentie. Exporteer printklare PDF\'s en JPEG\'s op meer dan 400 DPI. Gratis proefversie met watermerk — alle functies beschikbaar zonder registratie.',
   },

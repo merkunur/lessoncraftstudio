@@ -2,25 +2,29 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'gratis voorzetsels werkbladen generator',
+    primaryKeyword: 'voorzetsels werkblad gratis',
     secondaryKeywords: [
-      'voorzetsels werkbladen online maken gratis',
-      'positiewoorden werkblad generator',
-      'printbare voorzetsels oefeningen generator met antwoordblad',
-      'NT2 voorzetsels werkblad tool online',
+      'ruimtelijke oriëntatie gratis',
+      'voorzetsels werkblad gratis online maken',
+      'voorzetsels werkblad gratis printen PDF',
+      'voorzetsels generator gratis zonder account',
+      'positiewoorden werkblad gratis',
     ],
     lsiKeywords: [
-      'ruimtelijke voorzetsels werkblad generator gratis',
-      'invuloefening meerkeuze voorzetsels generator',
-      'meertalige positiewoorden werkblad tool',
+      'basisschool',
+      'NT2',
+      'printbaar',
+      'PDF',
+      'antwoorden',
+      'taal',
     ],
-    titleTag: 'Voorzetsels werkbladen gratis | LessonCraftStudio',
-    metaDescription: 'Maak gratis voorzetsels werkbladen online met invul- en meerkeuzemodi, vormvervanging, 11 talen en 104 thema\'s. Verkoop op Etsy & KDP met commerciele licentie.',
+    titleTag: 'Gratis voorzetsels werkblad generator | Probeer online met watermerk',
+    metaDescription: 'Probeer de voorzetsels werkbladen generator gratis online met watermerk. Invul- en meerkeuzemodi, 11 talen, antwoordblad. Geen account nodig.',
   },
 
   hero: {
-    title: 'Gratis voorzetsels werkbladen maken online',
-    tagline: 'Positiewoorden oefenen met twee modi in 11 talen — ideaal voor NT2 en inburgering',
+    title: 'Gratis voorzetsels werkblad — Probeer online met watermerk',
+    tagline: 'Maak voorzetsels werkbladen met invul- en meerkeuzemodi in 11 talen — probeer gratis zonder registratie.',
     description: 'Met onze gratis voorzetsels werkbladen generator maakt u direct oefeningen voor positiewoorden zoals op, onder, boven, naast en tussen. Kinderen en NT2-cursisten bestuderen afbeeldingsscenes en vullen het correcte voorzetsel in of selecteren het uit meerdere opties. Kies tussen Invuloefening voor actief oproepen of Meerkeuze voor beginnersvriendelijke ondersteuning. Stel 1 tot 8 oefeningen per werkblad in en selecteer precies welke voorzetsels u wilt opnemen. De unieke Vormvervanging functie wisselt scenevormen onafhankelijk, waardoor veel meer visuele combinaties ontstaan. Schakel tussen 11 talen en elk voorzetsel wordt automatisch bijgewerkt naar het moedertaal-equivalent — bijzonder waardevol voor NT2-onderwijs en inburgeringscursussen. Blader door meer dan 3.100 afbeeldingen verdeeld over 104 thema\'s of upload uw eigen illustraties. Het automatisch gegenereerde antwoordblad toont het juiste voorzetsel per oefening. Exporteer als printklare PDF of JPEG op 300 DPI. De gratis proefversie biedt alle functies — geen account nodig. Downloads bevatten een watermerk dat u verwijdert met een commerciële licentie.',
   },
 

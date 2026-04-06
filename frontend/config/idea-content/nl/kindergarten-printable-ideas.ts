@@ -2,20 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Printables groep 2 — Business | LessonCraftStudio',
-    metaDescription: 'Verkoop printables voor groep 2 op Etsy en Gumroad. Tellen, letters en schrijfoefening productideeën voor uw printable business — krachtig marktsegment.',
+    titleTag: 'Groep 2 printables ideeën | Werkbladen voor Etsy & Gumroad',
+    metaDescription: 'Ontdek winstgevende groep 2 printable ideeën. Maak werkbladen voor tellen, letters en schrijfoefening om te verkopen op Etsy, Gumroad en KDP.',
 
-    primaryKeyword: 'printables groep 2 ideeën business',
+    primaryKeyword: 'groep 2 werkbladen verkopen',
     secondaryKeywords: [
-      'groep 2 werkbladen verkopen Etsy',
-      'kleuterschool printable business ideeën',
-      'begin lezen tellen producten verkopen',
-      'groep 2 educatieve printables Gumroad',
+      'groep 2 printables ideeën Etsy',
+      'kleuterschool activiteitenboek KDP',
+      'groep 2 kleurplaten verkopen',
+      'basisschool groep 2 werkbladen Gumroad',
     ],
     lsiKeywords: [
-      'getalherkenning lettervorming werkbladen maken',
-      'basisschool groep 2 leermateriaal',
-      'optellen klanken printbare producten ondernemen',
+      'getalherkenning lettervorming',
+      'tellen letters schrijfoefening',
+      'kleuters basisschool leermateriaal',
     ],
   },
   hero: {

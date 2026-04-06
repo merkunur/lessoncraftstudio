@@ -2,23 +2,23 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'juridische aspecten printables-business Nederland',
+    primaryKeyword: 'printable bedrijf juridisch',
     secondaryKeywords: [
-      'belastingverplichtingen printables verkopen Nederland',
-      'ZZP\'er printable bedrijf KvK BTW',
-      'bedrijfsstructuur voor printable verkopers NL',
-      'Kleinondernemersregeling printables verkopen',
+      'KvK registratie printable verkoper',
+      'BTW digitale downloads Nederland',
+      'belastingen printables verkopen ZZP',
+      'Kleinondernemersregeling voor Etsy-verkopers',
     ],
     lsiKeywords: [
-      'BTW op digitale downloads Nederland 21%',
-      'eenmanszaak of BV voor printable bedrijf',
-      'KvK registratie Etsy verkopers Nederland',
-      'Kleinondernemersregeling KOR onder 20000 euro',
-      'grensoverschrijdende belasting digitale goederen EU',
-      'aftrekbare kosten printable bedrijf ZZP',
+      'KvK',
+      'BTW',
+      'belastingen',
+      'juridisch',
+      'ZZP',
+      'Kleinondernemersregeling',
     ],
-    titleTag: 'Printables-business: juridische zaken | LessonCraftStudio',
-    metaDescription: 'Juridische aspecten van uw printables-business in Nederland: KvK-registratie, BTW, Kleinondernemersregeling, aftrekbare kosten en platformnaleving.',
+    titleTag: 'Juridische zaken voor uw printable bedrijf | Gids voor printable-verkopers',
+    metaDescription: 'Regel de juridische kant van uw printable bedrijf: KvK-inschrijving, BTW-aangifte, Kleinondernemersregeling en aftrekbare kosten helder uitgelegd.',
   },
 
   hero: {

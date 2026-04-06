@@ -2,25 +2,29 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'gratis aftrekwerkbladen generator',
+    primaryKeyword: 'werkbladen aftrekken gratis',
     secondaryKeywords: [
-      'aftrekwerkbladen online maken gratis',
-      'doorstreep aftrekwerkbladen generator',
-      'min-sommen werkbladen met afbeeldingen',
-      'visuele aftrekwerkbladen gratis proberen',
+      'sommen aftrekken gratis',
+      'aftrekwerkbladen gratis online maken',
+      'min-sommen werkbladen gratis printen',
+      'aftrekken werkblad generator gratis',
+      'sommen aftrekken gratis met afbeeldingen',
     ],
     lsiKeywords: [
-      'doorstreep-visualisatie rekenwerkbladen',
-      'aftrekoefeningen met afbeeldingen online',
-      'min-sommen werkblad gratis proefversie',
+      'basisschool',
+      'groep 3',
+      'printbaar',
+      'PDF',
+      'antwoorden',
+      'rekenen',
     ],
-    titleTag: 'Aftrekwerkbladen gratis online | LessonCraftStudio',
-    metaDescription: 'Maak gratis aftrekwerkbladen met doorstreep-visualisatie online. Verkoop op Etsy & KDP met commerciele licentie.',
+    titleTag: 'Gratis aftrekwerkbladen generator | Probeer online met watermerk',
+    metaDescription: 'Probeer de aftrekwerkbladen generator gratis online met watermerk. Doorstreep-visualisatie, antwoordblad, printklare PDF. Geen account nodig.',
   },
 
   hero: {
-    title: 'Gratis aftrekwerkbladen online maken',
-    tagline: 'Maak visuele doorstreep-aftrekwerkbladen in minder dan 60 seconden — gratis proefversie met watermerk',
+    title: 'Gratis aftrekwerkbladen — Probeer online met watermerk',
+    tagline: 'Maak visuele doorstreep-aftrekwerkbladen in uw browser — probeer gratis zonder registratie.',
     description: 'Maak aftrekken tastbaar met doorstreep-visualisatie: kinderen strepen afbeeldingen door en tellen wat overblijft. Met deze gratis online tool maakt u in enkele klikken professionele aftrekwerkbladen met kleurrijke illustraties. De unieke Doorstrepen-modus is de meest intuïtieve manier om min-sommen te leren — gebruikers zien een groep afbeeldingen, strepen er een aantal door en ontdekken het antwoord. Kies uit meer dan 100 beeldthema\'s met meer dan 3.100 illustraties, stel het aftrekbereik in via de schuifregelaar Maximaal Aftrekgetal (2–20), en kies uit vier oefenmodi: Doorstrepen, Afbeelding − Getal, Zoek de Aftrekker en Gemengde Modus. Download printklare PDF\'s of hoge-resolutie JPEG\'s op 300 DPI met automatisch gegenereerd antwoordblad. U kunt de tool direct in uw browser gebruiken — geen account, geen software, geen creditcard nodig. De gratis proefversie biedt alle functies met een watermerk op downloads. Ideaal voor ouders die thuis extra oefenmateriaal willen, leerkrachten die gedifferentieerde werkbladen zoeken, en iedereen die de tool wil uitproberen.',
   },
 

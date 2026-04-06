@@ -511,9 +511,9 @@ const pricingContent: Record<string, {
     catalogSubtitle: 'Acquista singole app per $49 o risparmia con un pacchetto categoria per $149.',
   },
   nl: {
-    metaTitle: 'Prijzen - Professionele printbare generators | LessonCraftStudio',
-    metaDescription: 'Probeer alle 33 generators gratis met watermerk. Individuele apps 49 $, bundels 149 $. Eenmalige betaling, commerciële licentie inbegrepen.',
-    keywords: ['printbare generator prijzen', 'commerciële licentie printables', 'Etsy printable tools prijs', 'werkblad generator kopen'],
+    metaTitle: 'Prijzen | Werkblad-generatoren vanaf €49 — Eenmalige betaling',
+    metaDescription: 'Probeer alle 33 generatoren gratis met watermerk. Individuele apps €49, categoriebundels vanaf €99. Eenmalige betaling, commerciële licentie, geen abonnement.',
+    keywords: ['werkblad-generatoren prijzen', 'commerciële licentie werkbladen', 'werkblad generator kopen', 'printables tools prijzen'],
     heroBadge: '33 generators | 6 bundels | Eenmalige betaling',
     heroTitle: 'Duidelijke prijzen. Geen abonnement.',
     heroSubtitle: 'Probeer elke generator gratis met watermerk. Wanneer je klaar bent, ontgrendel je schone exports met een eenmalige betaling.',

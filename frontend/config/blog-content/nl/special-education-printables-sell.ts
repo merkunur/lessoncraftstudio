@@ -3,10 +3,10 @@ import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
     primaryKeyword: 'speciaal onderwijs printables verkopen',
-    secondaryKeywords: ['printable speciaal onderwijs strategie', 'werkbladen speciaal onderwijs verkopen', 'educatieve printables printables verkopen'],
-    lsiKeywords: ['printable niche speciaal onderwijs', 'seizoensgebonden printables', 'thematische werkbladen verkopen'],
-    titleTag: 'Speciaal Onderwijs Printables Verkopen | LCS',
-    metaDescription: 'Speciaal Onderwijs Printables Verkopen. Ontdek welke producten het beste verkopen, wanneer u moet beginnen en hoe u maximale omzet genereert.',
+    secondaryKeywords: ['werkbladen speciaal onderwijs Etsy', 'aangepaste werkbladen SEN', 'inclusief leermateriaal printbaar'],
+    lsiKeywords: ['speciaal', 'onderwijs', 'aangepast', 'inclusief', 'differentiatie', 'ondersteuning'],
+    titleTag: 'Speciaal Onderwijs Printables Verkopen | Blog LessonCraftStudio',
+    metaDescription: 'De markt voor speciaal onderwijs printables groeit. Verkoop aangepaste werkbladen voor leerlingen met extra ondersteuning.',
   },
   hero: {
     title: 'Speciaal Onderwijs Printables Verkopen',

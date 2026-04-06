@@ -2,26 +2,30 @@ import type { BundleContent } from '../types';
 
 const content: BundleContent = {
   seo: {
-    primaryKeyword: 'koppel sorteerpakket etsy vijf sorteergenerators pakket',
+    primaryKeyword: 'koppelwerkbladen bundel',
     secondaryKeywords: [
-      'koppelen sorteren werkblad generator bundel verkopers',
-      'bingokaart generator bundel Etsy KDP',
-      'printbare koppelactiviteit toolkit commercieel',
-      'sorteer werkblad generators voor printable bedrijf',
+      'verbind werkbladen pakket',
+      'koppel sorteer generatoren bundel',
+      'koppelwerkbladen bundel Etsy KDP',
+      'bingo schaduw koppelen generators commercieel',
     ],
     lsiKeywords: [
-      'koppelen sorteren bingo werkblad pakket Etsy',
-      'schaduw koppelen rasterpuzzel collectie verkopers',
-      'commercieel koppelwerkbladen bundel verkopen',
-      'batch bingokaart export voor kleuters',
+      'basisschool',
+      'kleuters',
+      'werkbladen',
+      'printen',
+      'themaplaatjes',
+      'commerciële licentie',
+      'Etsy',
+      'KDP',
     ],
-    titleTag: 'Koppel- en sorteerpakket voor Etsy | LessonCraftStudio',
-    metaDescription: 'Vijf koppel- en sorteergenerators in een pakket. Maak koppelwerkbladen, schaduw koppelen, rasterpuzzels, bingo en sorteer werkbladen voor Etsy en KDP. $49. .',
+    titleTag: 'Verbinden & Koppelen bundel | 5 generatoren in één pakket',
+    metaDescription: 'Koppelwerkbladen bundel met 5 generatoren: verbinden, schaduw koppelen, rasterpuzzels, bingo en sorteren. Gratis proberen met watermerk, commerciële licentie inbegrepen.',
   },
 
   hero: {
-    title: 'Vijf koppel- en sorteergenerators in een pakket',
-    tagline: 'Van visueel paar koppelen tot batch bingokaart exports voor Etsy, KDP en Bol.com',
+    title: 'Verbinden & Koppelen bundel — 5 generatoren in één pakket',
+    tagline: 'Maak professionele koppel- en sorteeractiviteiten voor Etsy, KDP en Bol.com met vijf generatoren',
     description: 'Als u koppel- en sorteeractiviteiten verkoopt op Etsy, Amazon KDP of Bol.com, geeft dit pakket u vijf gespecialiseerde generators die het volledige scala aan koppel-, paring- en categorisatieactiviteiten dekken. Drie van de vijf apps zijn taalgevoelig en produceren werkbladen met woordenschatlabels in elk van de 11 ondersteunde talen, terwijl twee puur visueel zijn en wereldwijd werken zonder vertaling. De Plaatjesbingo generator is uniek: het produceert batch-exports van meerdere unieke kaarten in een ZIP-download, specifiek ontworpen voor groepsgebruik. Kopers op Etsy betalen premiumprijzen voor kant-en-klare bingosets met 20 tot 50 unieke kaarten, en u genereert de hele set in seconden. Vier van de vijf generators produceren automatische antwoordbladen. Kies uit meer dan 100 thematische beeldsets of upload uw eigen afbeeldingen voor merkgebonden producten. De Nederlandse markt biedt extra kansen via Bol.com, terwijl de meertalige ondersteuning u ook toegang geeft tot de Duitse en Franse markten. Elke generator bevat een gratis proefversie met watermerk zodat u elke functie kunt testen voordat u een licentie aanschaft.',
   },
 

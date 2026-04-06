@@ -2,25 +2,29 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'speurtocht gratis online maken schattenjacht werkbladen',
+    primaryKeyword: 'speurtocht gratis printen',
     secondaryKeywords: [
-      'schattenjacht werkbladen gratis online maken',
-      'gratis speurtocht werkblad generator zonder account',
-      'schattenjacht puzzel gratis genereren',
-      'speurtocht activiteit online maken voor kinderen',
+      'schattenjacht gratis',
+      'speurtocht werkblad gratis online maken',
+      'schattenjacht gratis printen PDF',
+      'speurtocht generator gratis zonder account',
+      'schattenjacht werkblad gratis',
     ],
     lsiKeywords: [
-      'twee richtingstypen basis kompas coördinatenraster generator',
-      'taalgebonden gelokaliseerde richtingsaanwijzingen 11 talen',
-      'automatisch antwoordblad gemarkeerde schatcel dubbel-canvas creator',
+      'kinderen',
+      'feestje',
+      'printbaar',
+      'PDF',
+      'antwoorden',
+      'puzzel',
     ],
-    titleTag: 'Speurtocht gratis online maken | LessonCraftStudio',
-    metaDescription: 'Maak gratis schattenjacht werkbladen online met twee richtingstypen, 5×5 coördinatenraster, automatische. Verkoop op Etsy & KDP met commerciele licentie.',
+    titleTag: 'Gratis speurtocht generator | Probeer online met watermerk',
+    metaDescription: 'Probeer de speurtocht generator gratis online met watermerk. Twee richtingstypen, 5x5 raster, 104 thema\'s, antwoordblad. Geen account nodig.',
   },
 
   hero: {
-    title: 'Gratis schattenjacht werkbladen online maken',
-    tagline: 'Maak speurtocht puzzels met twee richtingstypen, thematische afbeeldingen en automatische antwoordbladen — direct in uw browser',
+    title: 'Gratis speurtocht — Probeer online met watermerk',
+    tagline: 'Maak schattenjacht werkbladen met twee richtingstypen en thematische afbeeldingen — probeer gratis zonder registratie.',
     description: 'Maak schattenjacht werkbladen direct in uw browser zonder account of installatie. De gratis proefversie biedt alle functies: een 5×5 coördinatenraster met letterrijen en nummerkolommen, 6 thematische oriëntatiepuntafbeeldingen en precies 4 richtingsbewegingen per puzzel. Kies tussen twee richtingstypen: Basismodus met omhoog, omlaag, links en rechts voor jongere kinderen, of Kompasmodus met noord, zuid, oost en west voor gevorderden. De tool is taalgebonden — alle richtingsaanwijzingen zijn volledig vertaald in 11 talen, waardoor u authentieke Nederlandstalige schattenjacht werkbladen genereert. Het dubbele canvassysteem maakt automatisch een antwoordblad met de schatcel gemarkeerd in lichtgeel. Kies uit 104 thematische beeldcollecties met meer dan 3.100 illustraties of upload uw eigen afbeeldingen. Exporteer als printklare PDF of hoge-resolutie JPEG. Downloads bevatten een watermerk in de gratis proefversie. Met een licentie verwijdert u het watermerk en ontgrendelt u commerciële verkooprechten.',
   },
 

@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'patronenwerkbladen maken verkopen marktplaatsen',
+    primaryKeyword: 'patroon werkbladen maken',
     secondaryKeywords: [
-      'patroonherkenning werkbladen verkopen Etsy',
-      'patroonwerkbladen maken voor webwinkels',
-      'AB patroonwerkbladen Amazon KDP',
-      'visuele patroonactiviteiten verkopen Bol.com',
+      'reeks herkenning werkblad',
+      'patroonherkenning oefenbladen',
+      'printbare patroonwerkbladen',
+      'AB patroon werkblad kinderen',
     ],
     lsiKeywords: [
-      'patroonwerkbladen bundels voor Etsy winkel',
-      'patroonherkenning activiteitenboek KDP',
-      'pre-wiskundige werkbladen productlijn',
-      'patroonwerkblad generator commercieel',
-      'commerciële licentie werkblad tool',
-      'patronen werkbladen catalogus opbouwen',
+      'patroon',
+      'reeks',
+      'herkenning',
+      'herhaling',
+      'logica',
+      'werkblad',
     ],
-    titleTag: 'Patronenwerkbladen maken en verkopen | LessonCraftStudio',
-    metaDescription: 'Leer hoe u patronenwerkbladen maakt en verkoopt op Etsy, Amazon KDP en Bol.com. 9 patroontypen, thema-afbeeldingen en automatische antwoordsleutels.',
+    titleTag: 'Patroon werkbladen maken | LessonCraftStudio',
+    metaDescription: 'Maak patroonwerkbladen met 9 reekstypen en thema-afbeeldingen. Automatische antwoordsleutels, instelbaar niveau, PDF-export. Gratis proberen.',
   },
 
   hero: {

@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'alfabet werkbladen maken voor Etsy',
+    primaryKeyword: 'alfabet werkbladen maken',
     secondaryKeywords: [
-      'alfabettrein werkbladen maken om te verkopen',
-      'alfabettrein werkbladgenerator commercieel gebruik',
-      'printbare letterherkenning treinmaker voor Etsy en KDP',
-      'taalgevoelige alfabet matching werkbladen met antwoordsleutels',
+      'letterherkenning werkblad generator',
+      'alfabet trein werkbladen',
+      'letters leren werkblad kinderen',
+      'printbare alfabet oefenbladen',
     ],
     lsiKeywords: [
-      'elf kleurrijke treinwagons letter-afbeelding matching werkbladmaker',
-      'automatisch handmatig twee creatiemodi alfabetgenerator',
-      'instelbaar drie tot elf aanwijzingen moeilijkheidsschaling generator',
-      'alfabettrein werkbladen verkopen op Etsy',
-      'Amazon KDP letterherkenning trein werkboeken',
-      'commerciële licentie alfabettrein tool',
+      'alfabet',
+      'letterherkenning',
+      'treinwagon',
+      'koppelen',
+      'taal',
+      'printbaar',
     ],
-    titleTag: 'Alfabet werkbladen voor Etsy | LessonCraftStudio',
-    metaDescription: 'Maak alfabet werkbladen voor Etsy en Bol.com. 11 treinwagons, twee creatiemodi, instelbare moeilijkheid en taalgevoelige letterkoppeling in 11 talen.',
+    titleTag: 'Alfabet werkbladen maken | LessonCraftStudio',
+    metaDescription: 'Maak alfabet werkbladen met kleurrijke treinwagons en letter-afbeelding koppeling. Twee creatiemodi, 11 talen. Gratis proberen.',
   },
 
   hero: {

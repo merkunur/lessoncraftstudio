@@ -1,25 +1,29 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'gratis kruiswoordpuzzel generator met afbeeldingen',
+    primaryKeyword: 'kruiswoordpuzzel maken gratis',
     secondaryKeywords: [
-      'kruiswoordpuzzel online maken gratis',
-      'plaatjes kruiswoordpuzzel generator gratis',
-      'kruiswoordpuzzel met afbeeldingsaanwijzingen maken',
-      'woordenschat kruiswoordpuzzel gratis proberen',
+      'kruiswoordpuzzel generator gratis',
+      'kruiswoordpuzzel gratis online maken',
+      'kruiswoordpuzzel gratis printen PDF',
+      'kruiswoordpuzzel maker gratis zonder account',
+      'kruiswoordpuzzel met plaatjes gratis',
     ],
     lsiKeywords: [
-      'kruiswoordpuzzel met visuele aanwijzingen online',
-      'taalgebonden kruiswoordpuzzel generator gratis',
-      'automatisch antwoordblad kruiswoordpuzzel generator',
+      'basisschool',
+      'kinderen',
+      'printbaar',
+      'PDF',
+      'antwoorden',
+      'puzzel',
     ],
-    titleTag: 'Kruiswoordpuzzel generator gratis | LessonCraftStudio',
-    metaDescription: 'Maak gratis kruiswoordpuzzels met afbeeldingsaanwijzingen online. Verkoop op Etsy & KDP met commerciele licentie.',
+    titleTag: 'Gratis kruiswoordpuzzel generator | Probeer online met watermerk',
+    metaDescription: 'Probeer de kruiswoordpuzzel generator gratis online met watermerk. Afbeeldingsaanwijzingen, vier invoermethoden, antwoordblad. Geen account nodig.',
     },
 
   hero: {
-    title: 'Gratis kruiswoordpuzzel generator met afbeeldingen',
-    tagline: 'Maak plaatjes kruiswoordpuzzels met vier invoermethoden en automatisch antwoordblad — gratis online',
+    title: 'Gratis kruiswoordpuzzel maken — Probeer online met watermerk',
+    tagline: 'Maak plaatjes kruiswoordpuzzels met vier invoermethoden en antwoordblad — probeer gratis zonder registratie.',
     description: 'Maak kruiswoordpuzzels waarbij kleurrijke afbeeldingen de traditionele tekstaanwijzingen vervangen. Met deze gratis online tool genereert u professionele plaatjes kruiswoordpuzzels op een vast 15x15 raster. Acht afbeeldingen worden automatisch omgezet naar acht kruiswoordwoorden met optimale kruising bij gedeelde letters. Kies uit vier invoermethoden: Snel Thema Genereren selecteert automatisch afbeeldingen uit 104 thematische collecties met meer dan 3.100 illustraties. Handmatige Bewerkingsmodus geeft u controle over de woordkeuze. Aangepaste Woordenlijst laat u eigen woorden met tekstaanwijzingen invoeren. Upload Aangepaste Afbeeldingen voegt uw eigen bestanden toe. De tool is taalgebonden: een katafbeelding genereert "KAT" in het Nederlands, "CAT" in het Engels, "KATZE" in het Duits en "CHAT" in het Frans. Het antwoordblad met ingevuld raster wordt automatisch meegegenereerd. U kunt de tool direct in uw browser gebruiken — geen account, geen software, geen creditcard nodig. De gratis proefversie biedt alle functies met een watermerk op downloads. Ideaal voor ouders, leerkrachten en puzzelliefhebbers die kruiswoordpuzzels met afbeeldingen willen uitproberen.',
   },
 

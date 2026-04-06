@@ -2,11 +2,11 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'cryptogram werkbladen verkopen online 2026',
-    secondaryKeywords: ['cryptogram puzzels verkopen Etsy', 'geheimschrift werkbladen business', 'codeer puzzels printables'],
-    lsiKeywords: ['cryptogram generator business', 'versleutelde puzzels markt', 'educatieve codeerpuzzels'],
-    titleTag: 'Cryptogram Werkbladen Verkopen Online | LCS',
-    metaDescription: 'Ontdek hoe u cryptogram werkbladen verkoopt op Etsy en KDP. Een unieke puzzelniche met weinig concurrentie en trouwe kopers.',
+    primaryKeyword: 'cryptogram werkbladen verkopen online',
+    secondaryKeywords: ['geheimschrift puzzels printbaar', 'cryptogram activiteiten Etsy', 'codeerpuzzels werkbladen maken'],
+    lsiKeywords: ['cryptogram', 'geheimschrift', 'decoderen', 'puzzel', 'letters', 'uitdaging'],
+    titleTag: 'Cryptogram Werkbladen Verkopen Online | Blog LessonCraftStudio',
+    metaDescription: 'Cryptogram werkbladen zijn een unieke niche voor printable-verkopers. Leer hoe u geheimschrift puzzels maakt en verkoopt.',
   },
   hero: {
     title: 'Cryptogram Werkbladen Verkopen: Unieke Puzzelniche',

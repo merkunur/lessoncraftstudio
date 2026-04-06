@@ -2,23 +2,23 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'essentiële tools voor printables-business',
+    primaryKeyword: 'tools voor printable bedrijf',
     secondaryKeywords: [
-      'printable bedrijf tools checklist verkopers',
-      'werkblad generator tools voor Etsy KDP',
-      'tools voor printables online verkopen Nederland',
-      'printable productie toolkit ondernemers',
+      'werkblad generatoren voor verkopers',
+      'software printables maken en verkopen',
+      'hulpmiddelen Etsy en KDP verkopers',
+      'printable productie tools overzicht',
     ],
     lsiKeywords: [
-      'Etsy verkoper tools voor digitale downloads',
-      'Amazon KDP activiteitenboek productie tools',
-      'werkblad creatie software voor ondernemers',
-      'printable bedrijf workflow automatisering',
-      'meertalige werkblad generator tools 11 talen',
-      'commerciële licentie werkblad productie',
+      'generatoren',
+      'software',
+      'hulpmiddelen',
+      'tools',
+      'werkbladen',
+      'printables',
     ],
-    titleTag: 'Tools voor printables-business | LessonCraftStudio',
-    metaDescription: 'Essentiële tools voor uw printables-business: werkblad generators, ontwerp tools, platform hulpmiddelen en workflows voor Etsy, KDP en Bol.com verkopers.',
+    titleTag: 'Tools voor uw printable bedrijf | Gids voor printable-verkopers',
+    metaDescription: 'Overzicht van de beste tools voor uw printable bedrijf: werkblad generatoren, ontwerpsoftware en hulpmiddelen die uw productie versnellen.',
   },
 
   hero: {

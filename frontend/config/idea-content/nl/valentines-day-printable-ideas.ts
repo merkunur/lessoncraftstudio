@@ -2,20 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Printables Valentijnsdag verkopen | LessonCraftStudio',
-    metaDescription: 'Verkoop printables voor Valentijnsdag op Etsy. Productideeën voor werkbladen met harten en vriendschapsthema die in januari en februari pieken.',
+    titleTag: 'Valentijnsdag printables ideeën | Werkbladen voor Etsy & KDP',
+    metaDescription: 'Ontdek winstgevende Valentijnsdag printable ideeën. Maak werkbladen met harten, cupido en vriendschapsthema om te verkopen op Etsy, KDP en Gumroad.',
 
-    primaryKeyword: 'printables Valentijnsdag om te verkopen',
+    primaryKeyword: 'valentijnsdag werkbladen verkopen',
     secondaryKeywords: [
-      'Valentijnsdag werkbladen Etsy verkopen',
-      'valentijn printable business starten',
-      'hartthema activiteitenboeken KDP',
-      'vriendschap printables niche verkopers',
+      'valentijnsdag printables ideeën Etsy',
+      'valentijn activiteitenboek KDP',
+      'valentijnsdag kleurplaten verkopen online',
+      'harten werkbladen printen februari',
     ],
     lsiKeywords: [
-      'harten werkbladen maken verkopen',
-      'valentijn kleurplaten Etsy winkel',
-      'liefde vriendschap printbare producten',
+      'hart cupido liefde rozen',
+      'vriendschap valentijnskaart',
+      'februari seizoensactiviteiten',
     ],
   },
   hero: {

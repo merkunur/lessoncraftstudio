@@ -2,20 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Bulklicentie printables — Business | LessonCraftStudio',
-    metaDescription: 'Bulklicentie printables ideeën voor het verkopen aan schoolbesturen en organisaties. Eén licentiegesprek levert meer op dan maanden marktplaatsverkoop.',
+    titleTag: 'Bulklicentie printables ideeën | Werkbladen voor scholen & organisaties',
+    metaDescription: 'Ontdek hoe u printables via bulklicenties verkoopt aan schoolbesturen en organisaties. Hogere transactiewaarde met terugkerende jaarlijkse licentieomzet.',
 
-    primaryKeyword: 'bulklicentie printables ideeën business',
+    primaryKeyword: 'bulklicentie werkbladen verkopen scholen',
     secondaryKeywords: [
-      'schoolbestuur werkblad licenties verkopen',
-      'institutionele printable licentiemodel',
-      'schoolbrede werkblad pakketten verkopen',
-      'bulklicentie bijlesketens educatief',
+      'bulklicentie printables ideeën',
+      'schoolbestuur werkbladen licentie',
+      'institutionele printable verkoop',
+      'schoolbrede werkbladpakketten aanbieden',
     ],
     lsiKeywords: [
-      'Nederlandse schoolbesturen INOS Flore',
-      'jaarlijkse licentieverneiuwing terugkerende omzet',
-      'passend onderwijs gecentraliseerde inkoop',
+      'licentiemodel terugkerende omzet',
+      'gecentraliseerde inkoop onderwijs',
+      'passend onderwijs schoolbesturen',
     ],
   },
   hero: {

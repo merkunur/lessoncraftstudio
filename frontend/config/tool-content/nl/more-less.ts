@@ -2,25 +2,29 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'gratis meer en minder werkbladen',
+    primaryKeyword: 'groter kleiner werkblad gratis',
     secondaryKeywords: [
-      'groter dan kleiner dan werkbladen gratis online',
-      'meer of minder werkbladen gratis maken',
-      'gratis vergelijkingswerkbladen met afbeeldingen',
-      'meer en minder rekenwerkblad gratis printen',
+      'getallen vergelijken gratis',
+      'groter kleiner werkblad gratis online maken',
+      'meer minder werkblad gratis printen PDF',
+      'groter kleiner generator gratis zonder account',
+      'vergelijkingswerkblad gratis',
     ],
     lsiKeywords: [
-      'visuele vergelijkingswerkbladen gratis online',
-      'hoeveelheid vergelijken werkblad generator',
-      'vinkje en kruisje rekenactiviteit gratis',
+      'basisschool',
+      'groep 2',
+      'printbaar',
+      'PDF',
+      'antwoorden',
+      'rekenen',
     ],
-    titleTag: 'Meer en minder werkbladen gratis | LessonCraftStudio',
-    metaDescription: 'Maak gratis meer en minder werkbladen online met afbeeldingen. Verkoop op Etsy & KDP met commerciele licentie.',
+    titleTag: 'Gratis groter kleiner werkblad | Probeer online met watermerk',
+    metaDescription: 'Probeer de groter kleiner werkbladen generator gratis online met watermerk. Drie oefenmodi, afbeeldingen, antwoordblad. Geen account nodig.',
   },
 
   hero: {
-    title: 'Gratis meer en minder werkbladen online maken',
-    tagline: 'Maak gratis vergelijkingswerkbladen met afbeeldingen en drie oefenmodi',
+    title: 'Gratis groter kleiner werkblad — Probeer online met watermerk',
+    tagline: 'Maak vergelijkingswerkbladen met afbeeldingen en drie oefenmodi — probeer gratis zonder registratie.',
     description: 'Probeer onze gratis proefversie met watermerk om meer en minder werkbladen te maken — direct in uw browser, zonder account of registratie. Leer groter dan, kleiner dan en gelijk aan met beeldgebaseerde vergelijkingswerkbladen die abstracte concepten concreet maken. De tool genereert drie verschillende oefentypen: Afbeelding naar Afbeelding (vergelijk twee plaatjesgroepen naast elkaar), Afbeelding naar Getal (overbrugt visueel tellen met geschreven cijfers), en de unieke Vinkje & Kruisje Groepen modus waarbij gebruikers een gemengde doos met door elkaar gehusselde afbeeldingen sorteren. Kies uit meer dan 100 beeldthema\'s, stel uw getallenbereik in en kies tussen geïllustreerde of standaard vergelijkingssymbolen. Omdat werkbladen alleen afbeeldingen, getallen en symbolen gebruiken, werken ze in alle 11 talen. Download als printklare PDF of hoge-resolutie JPEG. De gratis proefversie bevat alle functies met een watermerk op downloads.',
   },
 

@@ -2,20 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Printables boerderijdieren Etsy | LessonCraftStudio',
-    metaDescription: 'Verkoop printables met boerderijdieren op Etsy en KDP. Ontdek productideeën voor werkbladen met koeien, varkens en kippen die het hele jaar door verkopen.',
+    titleTag: 'Boerderij printables ideeën | Werkbladen voor Etsy & KDP',
+    metaDescription: 'Ontdek winstgevende boerderij printable ideeën. Maak werkbladen met koeien, varkens en kippen om te verkopen op Etsy, Amazon KDP en Gumroad.',
 
-    primaryKeyword: 'printables boerderijdieren om te verkopen',
+    primaryKeyword: 'boerderij werkbladen verkopen',
     secondaryKeywords: [
-      'boerderijdieren werkbladen Etsy verkopen',
-      'printable business boerderijthema starten',
-      'boerderij activiteitenboeken KDP',
-      'educatieve boerderij printables niche',
+      'boerderijdieren printables ideeën Etsy',
+      'boerderijthema activiteitenboek KDP',
+      'boerderijdieren kleurplaten verkopen',
+      'boerderij werkbladen printen',
     ],
     lsiKeywords: [
-      'landbouwthema werkbladen maken',
-      'boerderijdieren kleurplaten verkopen',
-      'veeteelt printbare producten Etsy winkel',
+      'koe varken kip paard',
+      'landbouw veeteelt platteland',
+      'kinderboerderij oogst tractor',
     ],
   },
   hero: {

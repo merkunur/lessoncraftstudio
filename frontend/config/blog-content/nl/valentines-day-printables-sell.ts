@@ -2,11 +2,11 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'valentijnsdag printables verkopen',
-    secondaryKeywords: ['printable valentijnsdag printables strategie', 'werkbladen valentijnsdag printables verkopen', 'educatieve printables printables verkopen'],
-    lsiKeywords: ['printable niche valentijnsdag printables', 'seizoensgebonden printables', 'thematische werkbladen verkopen'],
-    titleTag: 'Valentijnsdag Printables Verkopen | LCS',
-    metaDescription: 'Valentijnsdag Printables Verkopen. Ontdek welke producten het beste verkopen, wanneer u moet beginnen en hoe u maximale omzet genereert.',
+    primaryKeyword: 'Valentijnsdag printables verkopen februari',
+    secondaryKeywords: ['valentijn werkbladen Etsy', 'Valentijnsdag activiteiten printbaar', 'liefde thema werkbladen kinderen'],
+    lsiKeywords: ['valentijn', 'februari', 'hartjes', 'liefde', 'seizoen', 'romantisch'],
+    titleTag: 'Valentijnsdag Printables Verkopen in Februari | Blog LessonCraftStudio',
+    metaDescription: 'Valentijnsdag printables verkopen goed in februari. Maak en verkoop hartjes- en liefdesthema werkbladen op Etsy.',
   },
   hero: {
     title: 'Valentijnsdag Printables Verkopen',

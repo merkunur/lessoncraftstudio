@@ -2,11 +2,11 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'ruimte thema werkbladen business',
-    secondaryKeywords: ['printable ruimte thema strategie', 'werkbladen ruimte thema verkopen', 'educatieve printables werkbladen business'],
-    lsiKeywords: ['printable niche ruimte thema', 'seizoensgebonden printables', 'thematische werkbladen verkopen'],
-    titleTag: 'Ruimte Thema Werkbladen Business | LCS',
-    metaDescription: 'Ruimte Thema Werkbladen Business. Ontdek welke producten het beste verkopen, wanneer u moet beginnen en hoe u maximale omzet genereert.',
+    primaryKeyword: 'ruimtethema werkbladen business starten',
+    secondaryKeywords: ['ruimtevaart werkbladen Etsy', 'planeten activiteiten printbaar', 'ruimte thema printables kinderen'],
+    lsiKeywords: ['ruimte', 'planeten', 'sterren', 'raket', 'wetenschap', 'avontuur'],
+    titleTag: 'Ruimtethema Werkbladen Business Starten | Blog LessonCraftStudio',
+    metaDescription: 'Ruimtethema werkbladen fascineren kinderen. Start een business met planeten en ruimtevaartwerkbladen op Etsy.',
   },
   hero: {
     title: 'Ruimte Thema Werkbladen Business',

@@ -2,25 +2,29 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'woordraadspel gratis online maken raad woord werkbladen',
+    primaryKeyword: 'galgje werkblad gratis',
     secondaryKeywords: [
-      'raad het woord werkbladen gratis online maken',
-      'gratis woordraadsel werkblad generator',
-      'woordraadspel gratis genereren zonder account',
-      'raad het woord puzzel online maken',
+      'woord raden gratis printen',
+      'galgje werkblad gratis online maken',
+      'raad het woord werkblad gratis printen PDF',
+      'woord raden generator gratis zonder account',
+      'spellingpuzzel werkblad gratis',
     ],
     lsiKeywords: [
-      'visuele spelling printables voor Etsy',
-      'beeldgebaseerde woordopbouw werkblad tool',
-      'meertalige spellingactiviteit generator',
+      'basisschool',
+      'kinderen',
+      'printbaar',
+      'PDF',
+      'antwoorden',
+      'spelling',
     ],
-    titleTag: 'Woordraadspel gratis online maken | LessonCraftStudio',
-    metaDescription: 'Maak gratis raad-het-woord werkbladen online met 4 moeilijkheidsniveaus, twee invoermodi, 104 beeldthema\'s en. Verkoop op Etsy & KDP met commerciele licentie.',
+    titleTag: 'Gratis galgje werkblad generator | Probeer online met watermerk',
+    metaDescription: 'Probeer de woord raden werkblad generator gratis online met watermerk. 4 moeilijkheidsniveaus, twee invoermodi, antwoordblad. Geen account nodig.',
   },
 
   hero: {
-    title: 'Gratis raad het woord werkbladen online maken',
-    tagline: 'Maak beeldgebaseerde spellingpuzzels met 4 aanwijzingsniveaus, twee invoermodi en antwoordbladen — direct in uw browser',
+    title: 'Gratis galgje werkblad — Probeer online met watermerk',
+    tagline: 'Maak woord raden werkbladen met 4 aanwijzingsniveaus en twee invoermodi — probeer gratis zonder registratie.',
     description: 'Maak raad-het-woord werkbladen direct in uw browser zonder account of installatie. De gratis proefversie biedt alle functies: een afbeeldingsaanwijzing gekoppeld aan een letterraster met lege plekken, waarbij gebruikers de ontbrekende letters invullen om het woord te spellen. Het 4-niveaus aanwijzingensysteem regelt de moeilijkheid — van Geen Aanwijzingen (puur geheugenwerk) tot Makkelijk (helft van de letters onthuld). Kies tussen twee invoermodi: Afbeeldingsaanwijzing haalt woordenschat uit meer dan 3.100 afbeeldingen over 104 thematische collecties, of Aangepaste Woordenlijst laat u woorden direct typen. De functie Letters Uitsluiten verwijdert specifieke letters voor gerichte fonetische oefening. De tool is taalgebonden — dezelfde afbeelding produceert per taal een andere correcte spelling in 11 ondersteunde talen. Antwoordbladen worden automatisch gegenereerd. Exporteer als printklare PDF of hoge-resolutie JPEG. Downloads bevatten een watermerk in de gratis proefversie. Met een licentie verwijdert u het watermerk en ontgrendelt u commerciële verkooprechten.',
   },
 

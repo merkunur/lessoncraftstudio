@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'zoek en vind werkbladen maken verkopen',
+    primaryKeyword: 'zoek en vind werkbladen maken',
     secondaryKeywords: [
-      'I Spy werkbladen verkopen op Etsy',
-      'zoekplaatjes activiteitenboek Amazon KDP',
-      'zoek voorwerpen werkbladen verkopen Bol.com',
-      'zoek en vind printables verkopen als product',
+      'zoekplaatjes werkblad generator',
+      'I Spy werkbladen kinderen',
+      'verborgen voorwerpen werkblad',
+      'printbare zoekplaatjes maken',
     ],
     lsiKeywords: [
-      'zoek voorwerpen bundels voor Etsy winkel',
-      'I Spy activiteitenboek Brave New Books',
-      'visuele zoekwerkbladen productlijn',
-      'zoekplaatjes generator commercieel gebruik',
-      'commerciële licentie zoekplaatjes generator',
-      'zoek en vind catalogus opbouwen',
+      'zoekplaatje',
+      'verborgen',
+      'voorwerpen',
+      'observatie',
+      'tellen',
+      'werkblad',
     ],
-    titleTag: 'Zoek en vind maken en verkopen | LessonCraftStudio',
-    metaDescription: 'Leer hoe u zoek en vind werkbladen maakt en verkoopt op Etsy, Amazon KDP en Bol.com. I Spy en Vreemde Eend modi met automatische antwoordsleutels.',
+    titleTag: 'Zoek en vind werkbladen maken | LessonCraftStudio',
+    metaDescription: 'Maak zoek en vind werkbladen met I Spy en vreemde eend modi. Thema-afbeeldingen, automatische antwoordsleutels, PDF-export. Gratis proberen.',
   },
 
   hero: {

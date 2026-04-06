@@ -2,23 +2,23 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'van bijverdienste naar voltijds printables-business',
+    primaryKeyword: 'printable bedrijf opschalen',
     secondaryKeywords: [
-      'printable bedrijf opschalen strategie',
-      'Etsy printable winkel opschalen Nederland',
-      'uitbreidingsstrategie printables-business',
-      'voltijds printables verkopen als ZZP\'er',
+      'groei strategie printables Etsy',
+      'printable business automatiseren',
+      'catalogus uitbreiden werkbladen',
+      'van bijverdienste naar voltijds verkoper',
     ],
     lsiKeywords: [
-      'catalogusuitbreiding voor printable verkopers',
-      'multiplatform distributie werkbladen Etsy KDP',
-      'bundelstrategie voor digitale downloads',
-      'productie workflow optimalisatie printables',
-      'meertalige marktuitbreiding printables NL',
-      'herinvesteringsstrategie printable bedrijf ZZP',
+      'groei',
+      'automatiseren',
+      'uitbreiden',
+      'opschalen',
+      'Etsy',
+      'KDP',
     ],
-    titleTag: 'Van bijverdienste naar voltijds | LessonCraftStudio',
-    metaDescription: 'Hoe u uw printables-business opschaalt van bijverdienste naar voltijds. Catalogusuitbreiding, multiplatform distributie en meertalige marktuitbreiding.',
+    titleTag: 'Printable bedrijf opschalen | Gids voor printable-verkopers',
+    metaDescription: 'Schaal uw printable bedrijf op: vergroot uw catalogus, automatiseer workflows en breid uit naar meerdere platforms en talen.',
   },
 
   hero: {

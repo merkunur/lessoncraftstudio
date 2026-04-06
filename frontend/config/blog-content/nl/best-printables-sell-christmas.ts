@@ -2,11 +2,11 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'beste printables verkopen kerst 2026',
-    secondaryKeywords: ['printable beste printables strategie', 'werkbladen beste printables verkopen', 'educatieve printables kerst 2026'],
-    lsiKeywords: ['printable niche beste printables', 'seizoensgebonden printables', 'thematische werkbladen verkopen'],
-    titleTag: 'Beste Printables om te Verkopen met Kerst 2026 | LCS',
-    metaDescription: 'Beste Printables om te Verkopen met Kerst 2026. Ontdek welke producten het beste verkopen, wanneer u moet beginnen en hoe u maximale omzet genereert.',
+    primaryKeyword: 'kerstprintables verkopen december',
+    secondaryKeywords: ['kerst werkbladen Etsy', 'kerstactiviteiten printbaar', 'seizoensgebonden printables december'],
+    lsiKeywords: ['kerst', 'december', 'feestdagen', 'winterthema', 'cadeaus', 'seizoensgebonden'],
+    titleTag: 'Kerstprintables Verkopen: Tips voor December | Blog LessonCraftStudio',
+    metaDescription: 'Kerstprintables zijn een verkoophit in december. Leer welke kerstwerkbladen het beste verkopen op Etsy en hoe u ze maakt.',
   },
   hero: {
     title: 'Beste Printables om te Verkopen met Kerst 2026',

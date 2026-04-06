@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'woordzoekerboeken maken voor KDP',
+    primaryKeyword: 'woordzoekerboek maken Amazon KDP',
     secondaryKeywords: [
-      'hoe woordzoekerboeken maken voor Amazon KDP',
-      'woordzoeker puzzelboek uitgeversgids',
-      'grote letter woordzoekerboeken Amazon',
-      'thematische woordzoekerboeken KDP publiceren',
+      'woordzoeker puzzelboek uitgeven',
+      'grote letter woordzoekerboek',
+      'thematisch woordzoekerboek KDP',
+      'woordzoeker boek zelf publiceren',
     ],
     lsiKeywords: [
-      'woordzoekeraster grootte letterafstand puzzel moeilijkheid',
-      'thematische woordenlijsten woordenschat samenstelling leeftijdsgeschikte woorden',
-      'grote letter woordzoeker senioren volwassenen toegankelijk formaat',
-      'woordvind boek Amazon zoekwoorden categorieën optimalisatie',
-      'woordzoekerboek serie delen herhaalaankoop catalogus',
-      'volwassenen kinderen woordzoeker markt doelgroep rasteropmaak',
+      'woordzoeker',
+      'puzzelboek',
+      'raster',
+      'thematisch',
+      'serie',
+      'doelgroep',
     ],
-    titleTag: 'Woordzoekerboeken voor Amazon KDP | LessonCraftStudio',
-    metaDescription: 'Maak woordzoekerboeken voor Amazon KDP. Thematische woordenlijsten, grote-letter formaten, seriestrategie en rasterformaat voor elke doelgroep.',
+    titleTag: 'Woordzoekerboek maken voor KDP | LessonCraftStudio',
+    metaDescription: 'Maak woordzoekerboeken voor Amazon KDP. Thematische woordenlijsten, grote-letter formaten en seriestrategie voor elke doelgroep.',
   },
 
   hero: {

@@ -2,11 +2,11 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'teken en kleur werkbladen verkopen 2026',
-    secondaryKeywords: ['teken en kleur werkbladen verkopen Etsy', 'teken en kleur printables business', 'teken en kleur puzzels online'],
-    lsiKeywords: ['teken en kleur generator business', 'teken en kleur werkbladen markt', 'educatieve teken en kleur printables'],
-    titleTag: 'Teken en Kleur Werkbladen Verkopen | LCS',
-    metaDescription: 'Teken en Kleur Werkbladen Verkopen op Etsy en KDP. Ontdek de markt, productstrategieën en prijzen voor deze winstgevende niche in 2026.',
+    primaryKeyword: 'teken- en kleurwerkbladen verkopen',
+    secondaryKeywords: ['tekenactiviteiten werkbladen Etsy', 'creatieve werkbladen printbaar', 'tekenen en kleuren oefenbladen'],
+    lsiKeywords: ['tekenen', 'kleuren', 'creatief', 'motoriek', 'kunstzinnig', 'kinderen'],
+    titleTag: 'Teken- en Kleurwerkbladen Verkopen | Blog LessonCraftStudio',
+    metaDescription: 'Teken- en kleurwerkbladen zijn populair bij ouders en leerkrachten. Leer hoe u creatieve werkbladen maakt en verkoopt.',
   },
   hero: {
     title: 'Teken en Kleur Werkbladen Verkopen',

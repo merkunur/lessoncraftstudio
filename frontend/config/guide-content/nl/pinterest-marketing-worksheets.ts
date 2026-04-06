@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Pinterest-marketing voor werkbladen-business',
+    primaryKeyword: 'Pinterest marketing printables',
     secondaryKeywords: [
-      'Pinterest strategie printables verkopen',
-      'Pinterest SEO werkbladen Etsy',
-      'pins maken educatieve producten',
-      'Pinterest verkeer naar Etsy-shop',
+      'Pinterest strategie Etsy verkoper',
+      'Pinterest SEO voor werkbladen',
+      'pins maken printable promotie',
+      'Pinterest verkeer Etsy shop',
     ],
     lsiKeywords: [
-      'Pinterest bedrijfsaccount instellen',
-      'pin ontwerp tips printable business',
-      'zoekwoorden onderzoek Pinterest',
-      'idee-pins video-pins betrokkenheid',
-      'Pinterest borden strategie niche',
-      'Pinterest analytics optimalisatie',
+      'Pinterest',
+      'pin',
+      'bord',
+      'zoekwoorden',
+      'verkeer',
+      'analytics',
     ],
-    titleTag: 'Pinterest voor werkbladen-business | LessonCraftStudio',
-    metaDescription: 'Pinterest-marketing voor werkbladen-verkopers: pin-ontwerp, SEO-strategieën, bordplanning en analytics. Genereer consistent verkeer naar uw Etsy-shop.',
+    titleTag: 'Pinterest marketing voor printables | LessonCraftStudio',
+    metaDescription: 'Pinterest marketing voor printable verkopers: pin-ontwerp, SEO, bordplanning en analytics. Genereer consistent verkeer naar uw Etsy-shop.',
   },
 
   hero: {

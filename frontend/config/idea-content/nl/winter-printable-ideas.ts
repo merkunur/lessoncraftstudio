@@ -2,20 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Printables winter voor Etsy | LessonCraftStudio',
-    metaDescription: 'Verkoop printables met winterthema op Etsy en KDP. Productideeën voor werkbladen met sneeuw, pinguïns en ijsberen die van november tot februari verkopen.',
+    titleTag: 'Winter printables ideeën | Werkbladen voor Etsy & KDP',
+    metaDescription: 'Ontdek winstgevende winter printable ideeën. Maak werkbladen met sneeuw, pinguïns en ijsberen om te verkopen op Etsy, Amazon KDP en Gumroad.',
 
-    primaryKeyword: 'printables winter om te verkopen op Etsy',
+    primaryKeyword: 'winter werkbladen verkopen',
     secondaryKeywords: [
-      'winter werkbladen Etsy verkopen',
-      'winterthema printable business starten',
-      'sneeuw activiteitenboeken KDP niche',
-      'koud weer printables voor verkopers',
+      'winter printables ideeën Etsy',
+      'winterthema activiteitenboek KDP',
+      'winter kleurplaten verkopen online',
+      'sneeuw werkbladen printen seizoen',
     ],
     lsiKeywords: [
-      'sneeuwvlokken werkbladen maken',
-      'winterkleurplaten printable winkel',
-      'ijsberen pinguïns printbare producten',
+      'sneeuwvlok pinguïn ijsbeer',
+      'sneeuwpop wanten sjaal',
+      'winter koud weer seizoen',
     ],
   },
   hero: {

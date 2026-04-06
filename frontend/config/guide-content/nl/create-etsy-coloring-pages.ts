@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'kleurplaten maken die verkopen op Etsy',
+    primaryKeyword: 'kleurplaten verkopen op Etsy',
     secondaryKeywords: [
-      'kleurplaten verkopen op Etsy',
-      'Etsy kleurplaat winkel opzetten',
-      'printbare kleurplaten Etsy bedrijf',
-      'kleurbladen verkopen op Etsy',
+      'Etsy kleurplaat winkel starten',
+      'printbare kleurplaten Etsy',
+      'kleurboek verkopen Etsy tips',
+      'digitale kleurplaten Etsy shop',
     ],
     lsiKeywords: [
-      'Etsy digitale download kleurplaat vermeldingsoptimalisatie',
-      'kleurplaat bundel prijsstrategie Etsy verkopers',
-      'Etsy SEO tags voor printbare kleurplaatproducten',
-      'thematische kleurbladen verkopen Etsy winkel kinderen volwassenen',
-      'feestdagen seizoensgebonden kleurplaat printable Etsy vraag',
-      'Etsy vermeldingsfoto mockups voor kleurplaatproducten',
+      'kleurplaat',
+      'Etsy',
+      'vermelding',
+      'grijswaarden',
+      'thematisch',
+      'seizoensgebonden',
     ],
-    titleTag: 'Kleurplaten die verkopen op Etsy | LessonCraftStudio',
-    metaDescription: 'Maak kleurplaten die verkopen op Etsy met 104 beeldthema\'s. Grijswaarden exports, SEO-optimalisatie, prijzen voor themapakketten en KDP-crossover.',
+    titleTag: 'Kleurplaten verkopen op Etsy | LessonCraftStudio',
+    metaDescription: 'Leer kleurplaten maken en verkopen op Etsy. 104 thema\'s, grijswaarden-export, SEO-tips en prijsstrategie voor themapakketten. Gratis proberen.',
   },
 
   hero: {

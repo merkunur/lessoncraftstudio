@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'educatieve resources verkopen Creative Fabrica',
+    primaryKeyword: 'verkopen op Creative Fabrica',
     secondaryKeywords: [
-      'hoe verkopen op Creative Fabrica Classroom',
-      'printables verkopen Creative Fabrica abonnementsmodel',
-      'Creative Fabrica ontwerperaccount educatief materiaal',
-      'werkbladen verkopen op Creative Fabrica Nederland',
+      'Creative Fabrica Classroom werkbladen',
+      'printables verkopen Creative Fabrica',
+      'Creative Fabrica ontwerperaccount',
+      'werkbladen uploaden Creative Fabrica',
     ],
     lsiKeywords: [
-      'design marktplaats creatief publiek abonnementsmodel digitale downloads educatieve printables',
-      'Creative Fabrica Classroom sectie verkopermaterialen werkblad uploaden productvermeldingen',
-      'abonnementspool inkomsten individuele verkoop dubbel inkomstenmodel ontwerperaccount',
-      'creatief educatief crossover printbare activiteiten thematische werkbladen kleurplaten puzzels',
-      'producttags categorieën zoekoptimalisatie omslagafbeeldingen beschrijvingsopmaak',
-      'catalogusschaling bundels cross-categorie promotie lettertypen afbeeldingen educatief materiaal',
+      'marktplaats',
+      'abonnement',
+      'ontwerper',
+      'educatief',
+      'categorieën',
+      'inkomsten',
     ],
     titleTag: 'Verkopen op Creative Fabrica | LessonCraftStudio',
-    metaDescription: 'Verkoop educatief materiaal op Creative Fabrica. Verdien via abonnementen en individuele verkoop, en bereik het. Verkoop op Etsy & KDP met commerciele licentie.',
+    metaDescription: 'Verkoop werkbladen op Creative Fabrica. Verdien via abonnementen en individuele verkoop. Ontwerperaccount opzetten en producten optimaliseren.',
   },
 
   hero: {

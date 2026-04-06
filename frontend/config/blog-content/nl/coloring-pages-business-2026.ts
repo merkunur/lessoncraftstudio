@@ -3,10 +3,10 @@ import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
     primaryKeyword: 'kleurplaten business starten 2026',
-    secondaryKeywords: ['kleurplaten werkbladen verkopen Etsy', 'kleurplaten printables business', 'kleurplaten puzzels online'],
-    lsiKeywords: ['kleurplaten generator business', 'kleurplaten werkbladen markt', 'educatieve kleurplaten printables'],
-    titleTag: 'Kleurplaten Business Starten in 2026 | LCS',
-    metaDescription: 'Kleurplaten Business Starten in 2026 op Etsy en KDP. Ontdek de markt, productstrategieën en prijzen voor deze winstgevende niche in 2026.',
+    secondaryKeywords: ['kleurplaten verkopen op Etsy', 'printbare kleurplaten maken', 'kleurboek business KDP'],
+    lsiKeywords: ['kleurplaat', 'kleuren', 'creatief', 'kinderen', 'thematisch', 'schermvrij'],
+    titleTag: 'Kleurplaten Business Starten in 2026 | Blog LessonCraftStudio',
+    metaDescription: 'Kleurplaten zijn de bestverkopende categorie op Etsy. Start uw kleurplaten business in 2026 met deze stap-voor-stap gids.',
   },
   hero: {
     title: 'Kleurplaten Business Starten in 2026',

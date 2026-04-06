@@ -44,9 +44,9 @@ const appsMetadata: Record<string, { title: string; description: string; keyword
     keywords: 'geradores de atividades para imprimir, gerador caça-palavras, gerador cruzadinha, atividades de matemática gerador, gerador atividades educação infantil, gerador sudoku',
   },
   nl: {
-    title: '33 printables-generators — Verkoop op Etsy | LessonCraftStudio',
-    description: 'Ontdek 33 professionele generators om printables te maken en te verkopen op Etsy, KDP en Bol.com. Woordzoekers, rekenbladen, kleurplaten, puzzels en meer. Gratis proefversie met watermerk.',
-    keywords: 'printables-generators om te maken en verkopen, generator werkbladen Etsy, KDP activiteitenboeken, printables-business Nederland, woordzoeker generator, rekenbladen maker, kleurplaten generator, Bol.com printables',
+    title: '33 werkblad-generatoren | Rekenen, puzzels, taal & meer',
+    description: 'Ontdek 33 professionele werkblad-generatoren: rekenen, taal, visueel leren, creativiteit en logica. Allemaal gratis te proberen met watermerk.',
+    keywords: 'werkblad-generatoren, woordzoeker maker, kruiswoordpuzzel generator, reken werkblad generator, kleurplaten generator, sudoku generator, werkbladen printen',
   },
   sv: {
     title: '33 Utskriftsgeneratorer | Etsy & KDP-verktyg',
@@ -207,8 +207,8 @@ const localeContent: Record<string, {
     },
   },
   nl: {
-    heroTitle: '33 professionele printables-generators voor uw business',
-    heroSubtitle: 'Maak professionele printables om te verkopen op Etsy, Amazon KDP en Bol.com. Woordzoekers, rekenbladen, kleurplaten, puzzels en meer. Probeer alle 33 generators met de gratis proefversie met watermerk.',
+    heroTitle: '33 professionele werkblad-generatoren',
+    heroSubtitle: 'Maak werkbladen voor rekenen, taal, puzzels, creativiteit en logica. 3.000+ themaplaatjes, 11 talen, printklare PDF\'s. Probeer alle 33 generatoren gratis met watermerk.',
     tryFree: 'Gratis proberen',
     details: 'Details',
     trustNoAccount: 'Geen account nodig',

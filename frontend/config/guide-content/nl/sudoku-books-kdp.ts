@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'sudoku boeken maken voor Amazon KDP',
+    primaryKeyword: 'sudokuboek maken Amazon KDP',
     secondaryKeywords: [
-      'plaatjessudoku boeken voor kinderen KDP',
-      'sudoku puzzelboek uitgeven en verkopen',
-      'sudoku boekserie zelfpublicatie Amazon',
-      'sudokuboeken maken en verkopen online',
+      'sudoku puzzelboek uitgeven KDP',
+      'plaatjessudoku boek kinderen',
+      'sudoku boekserie zelf publiceren',
+      'sudokuboek maken en verkopen',
     ],
     lsiKeywords: [
-      'sudoku raster moeilijkheid makkelijk gemiddeld moeilijk expert progressie',
-      'plaatjessudoku kinderen logicapuzzels kleuterschool groep 1-2',
-      'nummersudoku volwassenen hersentraining cognitieve oefening',
-      'sudokuboek opmaak rasterformaat printkwaliteit KDP',
-      'sudoku serie delen herhaalaankoop loyale puzzelaars catalogus',
-      'sudoku puzzelaantal pagina-indeling antwoordsleutels druk trimformaat',
+      'sudoku',
+      'puzzelboek',
+      'raster',
+      'moeilijkheid',
+      'serie',
+      'publiceren',
     ],
-    titleTag: 'Sudokuboeken voor Amazon KDP | LessonCraftStudio',
-    metaDescription: 'Leer hoe u sudokuboeken maakt voor Amazon KDP. Plaatjessudoku voor kinderen, nummersudoku voor volwassenen, rasteropmaak en seriestrategie.',
+    titleTag: 'Sudokuboek maken voor Amazon KDP | LessonCraftStudio',
+    metaDescription: 'Maak sudokuboeken voor Amazon KDP. Plaatjessudoku voor kinderen, nummersudoku voor volwassenen, opmaak en seriestrategie uitgelegd.',
   },
 
   hero: {

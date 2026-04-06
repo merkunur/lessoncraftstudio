@@ -2,11 +2,11 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'pauze activiteiten printables leerkrachten',
-    secondaryKeywords: ['printable pauze activiteiten strategie', 'werkbladen pauze activiteiten verkopen', 'educatieve printables printables leerkrachten'],
-    lsiKeywords: ['printable niche pauze activiteiten', 'seizoensgebonden printables', 'thematische werkbladen verkopen'],
-    titleTag: 'Pauze Activiteiten Printables voor Leerkrachten | LCS',
-    metaDescription: 'Pauze Activiteiten Printables voor Leerkrachten. Ontdek welke producten het beste verkopen, wanneer u moet beginnen en hoe u maximale omzet genereert.',
+    primaryKeyword: 'brain break printables voor leerkrachten',
+    secondaryKeywords: ['rustmoment werkbladen school', 'korte activiteiten tussendoor klas', 'energizers printbaar basisschool'],
+    lsiKeywords: ['pauze', 'concentratie', 'tussendoor', 'energizer', 'leerkracht', 'klaslokaal'],
+    titleTag: 'Brain Break Printables voor Leerkrachten | Blog LessonCraftStudio',
+    metaDescription: 'Verkoop brain break printables aan leerkrachten. Korte activiteiten voor tussendoor zijn een groeiende niche op Etsy.',
   },
   hero: {
     title: 'Pauze Activiteiten Printables voor Leerkrachten',

@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'vergelijkingswerkbladen verkopen maken wereldwijd',
+    primaryKeyword: 'groot en klein werkbladen maken',
     secondaryKeywords: [
-      'groot en klein werkbladen verkopen Etsy',
-      'groottevergelijking werkbladen Amazon KDP',
-      'grootte ordenen werkbladen verkopen Bol.com',
-      'tekstvrije werkbladen internationaal verkopen',
+      'groottevergelijking werkblad generator',
+      'printbare vergelijkingswerkbladen',
+      'grootte ordenen werkblad kinderen',
+      'tekstvrije werkbladen maken',
     ],
     lsiKeywords: [
-      'groottediscriminatie werkbladen productlijn',
-      'grootte ordenen activiteitenboek Brave New Books',
-      'omcirkel de grote werkbladen bundels',
-      'vergelijkingswerkbladen generator commercieel',
-      'commerciële licentie groottewerkblad tool',
-      'groottevergelijking catalogus opbouwen',
+      'grootte',
+      'vergelijken',
+      'ordenen',
+      'discriminatie',
+      'tekstvrij',
+      'werkblad',
     ],
-    titleTag: 'Vergelijkingswerkbladen verkopen | LessonCraftStudio',
-    metaDescription: 'Leer hoe u vergelijkingswerkbladen maakt en verkoopt op Etsy, Amazon KDP en Bol.com. 5 vraagtypes, tekstvrije uitvoer en wereldwijde verkoop.',
+    titleTag: 'Groot en klein werkbladen maken | LessonCraftStudio',
+    metaDescription: 'Maak vergelijkingswerkbladen met 5 vraagtypes en tekstvrije uitvoer. Thema-afbeeldingen, antwoordsleutels, PDF-export. Gratis proberen.',
   },
 
   hero: {

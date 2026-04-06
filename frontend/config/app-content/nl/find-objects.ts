@@ -2,26 +2,28 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'zoek en vind werkbladen maken voor Etsy en KDP',
+    primaryKeyword: 'zoek en vind werkblad printen',
     secondaryKeywords: [
-      'zoek-en-vind generator voor printables-business',
-      'verborgen voorwerpen werkbladen voor KDP',
-      'zoek de afbeelding werkbladen commerciële licentie',
-      'zoekactiviteiten verkopen',
+      'verborgen voorwerpen werkblad',
+      'zoekplaatje printen',
+      'observatiespel werkblad',
+      'zoek en vind kinderen',
     ],
     lsiKeywords: [
-      'digitale verborgen voorwerp printables online bedrijf',
-      'commercieel gebruik zoek voorwerpen werkblad generator',
-      'printbare visuele zoekactiviteit business tools',
+      'observatie',
+      'concentratie',
+      'visuele aandacht',
+      'zoeken',
+      'vinden',
     ],
-    titleTag: 'Zoek en vind werkbladen voor Etsy | LessonCraftStudio',
-    metaDescription: 'Maak zoek-en-vind werkbladen om te verkopen op Etsy en KDP. Kinderen zoeken verborgen voorwerpen tussen thema-afbeeldingen. Gratis proefversie. $49 eenmalig.',
+    titleTag: 'Zoek en vind werkblad printen | Generator observatiespellen',
+    metaDescription: 'Maak zoek-en-vind werkbladen met themaplaatjes. Automatische antwoorden, PDF 300 DPI. Gratis proberen — verkoop op Etsy & KDP.',
   },
 
   hero: {
-    title: 'Maak zoek-en-vind werkbladen om te verkopen op Etsy, KDP en Bol.com',
+    title: 'Zoek en vind werkblad printen — Generator observatiespellen',
     tagline:
-      'Twee activiteitsmodi — Vind de Verborgen Voorwerpen en Vind de Vreemde Eend — met nul-overlap plaatsing en automatische antwoordbladen. Gratis proefversie met watermerk.',
+      'Maak zoek-en-vind werkbladen met verborgen voorwerpen en themaplaatjes — automatische antwoorden, probeer gratis met watermerk.',
     description:
       'Met de Zoek Voorwerpen Generator maakt u professionele verborgen voorwerp werkbladen die u direct kunt verkopen op Etsy, Amazon KDP en Bol.com. Jonge kinderen doorzoeken een vrij verspreide afbeeldingenscene om specifieke objecten te vinden en te omcirkelen. U kiest uit twee activiteitsmodi: Vind de Verborgen Voorwerpen verspreidt doelafbeeldingen tussen afleidingsafbeeldingen met een nul-overlap plaatsingsalgoritme voor natuurlijk ogende scenes. Vind de Vreemde Eend rangschikt gekoppelde afbeeldingen in rijen met ongekoppelde items ertussen. Het dubbele canvassysteem genereert automatisch een antwoordblad met rode cirkels. Selecteer uit meer dan 3100 illustraties in 104 thema\'s. Exporteer printklare PDF\'s en JPEG\'s op 300 DPI. Werkbladen zijn puur visueel en werken in elke taal zonder aanpassing. De Nederlandse markt op Etsy.nl en Bol.com biedt sterke vraag naar zoek-en-vind activiteiten voor kleuters en basisschoolkinderen. Een commerciële licentie verwijdert het watermerk en geeft u volledige verkooprechten.',
   },

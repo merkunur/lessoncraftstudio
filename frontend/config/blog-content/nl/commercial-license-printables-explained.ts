@@ -3,10 +3,10 @@ import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
     primaryKeyword: 'commerciële licentie printables uitgelegd',
-    secondaryKeywords: ['printable business strategie 2026', 'werkbladen verkopen platform tips', 'digitale producten online verkopen'],
-    lsiKeywords: ['printable verkoop optimalisatie', 'digitale download business', 'online printable winkel'],
-    titleTag: 'Commerciële Licentie voor Printables Uitgelegd | LCS',
-    metaDescription: 'Commerciële Licentie voor Printables Uitgelegd. Praktische strategieën en bewezen technieken voor printable. Verkoop op Etsy & KDP met commerciele licentie.',
+    secondaryKeywords: ['licentie voor werkbladen verkopen', 'commercieel gebruik printables rechten', 'wat is een printable licentie'],
+    lsiKeywords: ['licentie', 'rechten', 'commercieel', 'herverkoop', 'voorwaarden', 'juridisch'],
+    titleTag: 'Commerciële Licentie voor Printables Uitgelegd | Blog LessonCraftStudio',
+    metaDescription: 'Wat houdt een commerciële licentie voor printables in? Alles over rechten, herverkoop en voorwaarden voor printable-verkopers.',
   },
   hero: {
     title: 'Commerciële Licentie voor Printables Uitgelegd',

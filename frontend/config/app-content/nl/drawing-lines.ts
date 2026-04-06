@@ -2,25 +2,27 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'trekwerkbladen fijne motoriek om te verkopen op Etsy',
+    primaryKeyword: 'schrijfmotoriek lijnen werkbladen printen',
     secondaryKeywords: [
-      'lijnen-trekken werkbladen generator Etsy',
-      'fijne motoriek werkbladen voor KDP',
-      'trekactiviteiten commerciële licentie',
-      'motoriekwerkbladen verkopen',
+      'stippellijnen overtrekken werkblad',
+      'fijne motoriek werkblad',
+      'overtrekken oefeningen kleuters',
+      'lijnen trekken werkblad',
     ],
     lsiKeywords: [
-      'digitale lijntraceer printables online bedrijf',
-      'printbare fijne motoriek werkbladen business',
-      'commercieel gebruik lijnen trekken werkbladen generator',
+      'lijnen',
+      'bochten',
+      'stippels',
+      'fijne motoriek',
+      'kleuters',
     ],
-    titleTag: 'Trekwerkbladen fijne motoriek Etsy | LessonCraftStudio',
-    metaDescription: 'Maak fijne motoriek trekwerkbladen om te verkopen op Etsy en Amazon KDP. $49 eenmalig.',
+    titleTag: 'Overtrekken werkbladen printen | Generator schrijfmotoriek',
+    metaDescription: 'Maak overtrekken en schrijfmotoriek werkbladen met themaplaatjes. PDF 300 DPI printbaar. Gratis proberen — commerciële licentie inbegrepen.',
   },
 
   hero: {
-    title: 'Trekwerkbladen voor fijne motoriek verkopen op Etsy',
-    tagline: 'Gratis proefversie met watermerk — acht lijnsjablonen voor voorbereidend schrijven — 104 thema\'s met 3.100+ illustraties voor fijne motoriek werkbladen die het hele jaar door verkopen.',
+    title: 'Overtrekken werkbladen printen — Generator schrijfmotoriek met plaatjes',
+    tagline: 'Maak stippellijnen en overtrekken werkbladen voor kleuters met acht lijnsjablonen en 3.000+ themaplaatjes — probeer gratis met watermerk.',
     description:
       'Fijne motoriek werkbladen zijn een van de meest gevraagde printables voor kleuters en jonge kinderen. Met deze generator maakt u professionele trekwerkbladen waarbij kinderen langs begeleide paden tekenen om bijpassende afbeeldingsparen te verbinden. Acht SVG-lijnsjablonen dekken bochten, diagonalen, horizontale en verticale lijnen — elk gericht op een andere motorische vaardigheid die essentieel is voor voorbereidend schrijven. Elk sjabloon plaatst 4 of 5 afbeeldingsparen aan tegenovergestelde zijden van het lijnpad, wat kinderen motiveert om de lijn af te maken. Kies uit 104 thematische collecties met meer dan 3.100 kleurrijke illustraties. Werkbladen zijn volledig visueel zonder tekst, waardoor ze wereldwijd verkoopbaar zijn zonder vertaling. Bijzonder populair op de Nederlandse markt voor ouders die werkbladen kopen voor kleuters en groep 1-2. Ideaal voor Etsy.nl, Bol.com en Amazon KDP fijne motoriek werkboeken. Exporteer printklare PDF\'s en JPEG\'s op 300 DPI. Gratis proefversie met watermerk — koop een licentie om het watermerk te verwijderen en commercieel te verkopen.',
   },

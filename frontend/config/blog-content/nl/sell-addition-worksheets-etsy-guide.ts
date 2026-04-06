@@ -2,19 +2,11 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'optellen werkbladen verkopen op Etsy 2026',
-    secondaryKeywords: [
-      'reken werkbladen verkopen online',
-      'optellen printables Etsy winkel',
-      'wiskundige werkbladen business',
-    ],
-    lsiKeywords: [
-      'rekenbladen verkopen',
-      'printable werkbladen strategie',
-      'Etsy digitale download wiskunde',
-    ],
-    titleTag: 'Optellen Werkbladen Verkopen op Etsy: Gids | LCS',
-    metaDescription: 'Leer hoe u optellen werkbladen verkoopt op Etsy. Prijsstrategie, bundels en listing-optimalisatie die werkt in 2026. Probeer de proefversie met watermerk.',
+    primaryKeyword: 'optellen werkbladen verkopen Etsy gids',
+    secondaryKeywords: ['plus sommen werkbladen Etsy', 'rekenwerkbladen optellen verkopen', 'optellen oefenbladen basisschool'],
+    lsiKeywords: ['optellen', 'sommen', 'rekenen', 'basisschool', 'oefenen', 'antwoorden'],
+    titleTag: 'Optellen Werkbladen Verkopen op Etsy: Gids | Blog LessonCraftStudio',
+    metaDescription: 'Verkoop optellen werkbladen succesvol op Etsy. Complete gids voor het maken en listen van rekenwerkbladen met plus sommen.',
   },
   hero: {
     title: 'Optellen Werkbladen Verkopen op Etsy: Complete Gids',

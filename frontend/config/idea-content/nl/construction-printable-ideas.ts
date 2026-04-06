@@ -2,20 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Printables bouw om te verkopen | LessonCraftStudio',
-    metaDescription: 'Verkoop bouwplaats printables op Etsy en Gumroad. Graafmachines, kranen en gereedschap productideeën voor uw printable business — STEM-niche het hele jaar.',
+    titleTag: 'Bouw printables ideeën | Werkbladen voor Etsy & KDP',
+    metaDescription: 'Ontdek winstgevende bouwplaats printable ideeën. Maak werkbladen met graafmachines, kranen en gereedschap om te verkopen op Etsy, KDP en Gumroad.',
 
-    primaryKeyword: 'printables bouw om te verkopen',
+    primaryKeyword: 'bouw werkbladen verkopen',
     secondaryKeywords: [
-      'bouwplaats werkbladen verkopen Etsy',
-      'bouwvoertuigen printable business ideeën',
-      'STEM constructie educatieve producten',
-      'graafmachine kraan printables Gumroad',
+      'bouwplaats printables ideeën Etsy',
+      'bouwvoertuigen activiteitenboek KDP',
+      'bouw kleurplaten verkopen online',
+      'constructie werkbladen printen STEM',
     ],
     lsiKeywords: [
-      'bulldozer kiepwagen werkbladen maken',
-      'bouwplaats gereedschap educatief materiaal',
-      'techniek en bouwen printbare producten',
+      'graafmachine kraan bulldozer',
+      'bouwplaats gereedschap kiepwagen',
+      'techniek bouwen constructie',
     ],
   },
   hero: {

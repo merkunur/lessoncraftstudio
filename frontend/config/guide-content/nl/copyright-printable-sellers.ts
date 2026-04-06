@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'auteursrecht voor printables-verkopers',
+    primaryKeyword: 'auteursrecht printables verkopen',
     secondaryKeywords: [
-      'copyright werkbladen verkopen Nederland',
-      'auteursrecht digitale producten Etsy',
-      'printable intellectueel eigendom bescherming',
-      'licentie werkbladen DMCA',
+      'copyright werkbladen Nederland',
+      'auteursrecht digitale producten',
+      'intellectueel eigendom printables',
+      'DMCA melding Etsy verkoper',
     ],
     lsiKeywords: [
-      'intellectueel eigendom bescherming origineel werk auteursrechtregistratie DMCA-melding',
-      'fair use educatief publiek domein bronnen auteursrechtinbreuk afgeleide werken',
-      'auteursrechtvermelding creatieve expressie beschermbare elementen werkbladontwerp',
-      'oorspronkelijke rangschikking digitale productdiefstal marktplaats IE-bescherming',
-      'auteursrechteigendom automatische bescherming registratievoordelen wettelijke schadevergoeding',
-      'creatieve keuzes expressie versus ideeën feiten standaardmethoden educatieve inhoud',
+      'auteursrecht',
+      'licentie',
+      'bescherming',
+      'eigendom',
+      'inbreuk',
+      'registratie',
     ],
-    titleTag: 'Auteursrecht voor verkopers | LessonCraftStudio',
-    metaDescription: 'Auteursrecht voor printables-verkopers in Nederland: welke werkbladelementen beschermbaar zijn, registratie,. Verkoop op Etsy & KDP met commerciele licentie.',
+    titleTag: 'Auteursrecht voor printable verkopers | LessonCraftStudio',
+    metaDescription: 'Alles over auteursrecht voor printable verkopers: welke elementen beschermbaar zijn, hoe u uw werkbladen beschermt en wat te doen bij inbreuk.',
   },
 
   hero: {

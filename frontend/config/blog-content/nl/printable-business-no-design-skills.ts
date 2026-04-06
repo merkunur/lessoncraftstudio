@@ -3,10 +3,10 @@ import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
     primaryKeyword: 'printable business zonder designvaardigheden',
-    secondaryKeywords: ['printable printable business zonder', 'werkbladen printable business', 'printables how-to gids'],
-    lsiKeywords: ['printable productie tips', 'werkbladen maken strategie', 'printable business how-to'],
-    titleTag: 'Printable Business Zonder Designvaardigheden | LCS',
-    metaDescription: 'Printable Business Zonder Designvaardigheden. Stap-voor-stap instructies en praktische tips voor printable verkopers. Direct toepasbaar.',
+    secondaryKeywords: ['werkbladen verkopen zonder ontwerpen', 'printables maken zonder Canva', 'generator gebruiken zonder design'],
+    lsiKeywords: ['geen design', 'generator', 'beginners', 'eenvoudig', 'automatisch', 'toegankelijk'],
+    titleTag: 'Printable Business Zonder Designvaardigheden | Blog LessonCraftStudio',
+    metaDescription: 'Start een printable business zonder designvaardigheden. Generatoren maken professionele werkbladen voor u in minuten.',
   },
   hero: {
     title: 'Printable Business Zonder Designvaardigheden',

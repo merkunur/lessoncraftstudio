@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'cryptogrammen maken om te verkopen',
+    primaryKeyword: 'cryptogram puzzels maken',
     secondaryKeywords: [
-      'cryptogram puzzels maken om te verkopen',
-      'plaatjescijfer puzzelgenerator commercieel gebruik',
-      'printbare cryptogram werkbladen voor Etsy en KDP',
-      'afbeelding-naar-letter cijferpuzzels met antwoordsleutels',
+      'cryptogram generator online',
+      'printbare cryptogrammen maken',
+      'cijferpuzzel met plaatjes',
+      'geheimschrift werkblad kinderen',
     ],
     lsiKeywords: [
-      'plaatjescijfer mechanisme afbeelding-naar-letter koppeling zincodering puzzelmaker',
-      'Letters Onthullen schuifregelaar nul tot tien moeilijkheidsgradatie generator',
-      'Automatisch Toewijzen Handmatig Toewijzen afbeeldingscijfer letterlegenda antwoordsleutel generator',
-      'cryptogram puzzels verkopen op Etsy',
-      'Amazon KDP plaatjescijfer puzzelboeken',
-      'commerciële licentie cryptogram werkblad tool',
+      'cryptogram',
+      'codering',
+      'cijferpuzzel',
+      'ontcijferen',
+      'moeilijkheid',
+      'puzzelboek',
     ],
-    titleTag: 'Cryptogrammen maken en verkopen | LessonCraftStudio',
-    metaDescription: 'Leer cryptogrammen maken en verkopen op Etsy, Bol.com en KDP. Plaatjescijfer codering, instelbare moeilijkheid en taalgevoelige alfabetten in 11 talen.',
+    titleTag: 'Cryptogram puzzels maken | LessonCraftStudio',
+    metaDescription: 'Maak cryptogram puzzels met plaatjescijfer codering en instelbare moeilijkheid. 11 talen, automatische antwoordsleutels. Gratis proberen.',
   },
 
   hero: {

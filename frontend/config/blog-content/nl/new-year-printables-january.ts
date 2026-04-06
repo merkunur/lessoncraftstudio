@@ -2,11 +2,11 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'nieuwjaar printables januari verkopen',
-    secondaryKeywords: ['printable nieuwjaar printables strategie', 'werkbladen nieuwjaar printables verkopen', 'educatieve printables januari verkopen'],
-    lsiKeywords: ['printable niche nieuwjaar printables', 'seizoensgebonden printables', 'thematische werkbladen verkopen'],
-    titleTag: 'Nieuwjaar Printables Verkopen in Januari | LCS',
-    metaDescription: 'Nieuwjaar Printables Verkopen in Januari. Ontdek welke producten het beste verkopen, wanneer u moet beginnen en hoe u maximale omzet genereert.',
+    primaryKeyword: 'nieuwjaar printables verkopen januari',
+    secondaryKeywords: ['januari werkbladen seizoen Etsy', 'nieuwjaarsactiviteiten printbaar', 'goede voornemens werkbladen'],
+    lsiKeywords: ['nieuwjaar', 'januari', 'voornemens', 'doelen', 'start', 'seizoen'],
+    titleTag: 'Nieuwjaar Printables Verkopen in Januari | Blog LessonCraftStudio',
+    metaDescription: 'Januari is een verkooppiek voor nieuwjaarsprintables. Bereid uw Etsy-shop voor met werkbladen over doelen en voornemens.',
   },
   hero: {
     title: 'Nieuwjaar Printables Verkopen in Januari',

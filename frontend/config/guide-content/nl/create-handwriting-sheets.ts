@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'schrijfwerkbladen maken verkopen',
+    primaryKeyword: 'schrijfwerkbladen maken',
     secondaryKeywords: [
-      'schrijfoefeningen maken voor kinderen verkopen',
-      'schrijfwerkblad generator met streekrichting',
-      'printbare letter-overtrek werkbladen maken',
-      'schrijfwerkbladen verkopen Etsy KDP Bol.com',
+      'schrijfmotoriek werkblad generator',
+      'letters overtrekken werkbladen',
+      'schrijfoefeningen kleuters maken',
+      'printbare schrijfwerkbladen',
     ],
     lsiKeywords: [
-      'letters overtrekken werkblad generator',
-      'schrijfletters oefenbladen',
-      'streekrichting lettervorming',
-      'voorbereidend schrijven kleuters',
-      'schrijfwerkbladen verkopen op Etsy',
-      'Amazon KDP schrijfwerkboeken',
+      'schrijfmotoriek',
+      'overtrekken',
+      'lettervorming',
+      'streekrichting',
+      'lettertype',
+      'werkblad',
     ],
-    titleTag: 'Schrijfwerkbladen maken en verkopen | LessonCraftStudio',
-    metaDescription: 'Maak schrijfwerkbladen om te verkopen met overtrek-, vervagend overtrek- en kopieerstand. Streekrichting-pijlen, vijf lettertypen, PDF-export voor Etsy en KDP.',
+    titleTag: 'Schrijfwerkbladen maken | LessonCraftStudio',
+    metaDescription: 'Maak schrijfwerkbladen met overtrek-, vervagend- en kopieerstand. Streekrichting-pijlen, vijf lettertypen, PDF-export. Gratis proberen.',
   },
 
   hero: {

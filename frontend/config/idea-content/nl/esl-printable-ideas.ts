@@ -2,20 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Printables NT2 — Ideeën business | LessonCraftStudio',
-    metaDescription: 'Printables voor NT2 en Nederlands als tweede taal verkopen. Ideeën voor visueel ondersteunde werkbladen die inburgeringsprogramma\'s en taalscholen inkopen.',
+    titleTag: 'NT2 printables ideeën | Werkbladen voor taalonderwijs verkopen',
+    metaDescription: 'Ontdek winstgevende NT2 printable ideeën. Maak werkbladen voor Nederlands als tweede taal om te verkopen aan taalscholen en inburgeringsprogramma\'s.',
 
-    primaryKeyword: 'printables nt2 ideeën business verkopen gefinancierde niche',
+    primaryKeyword: 'NT2 werkbladen verkopen',
     secondaryKeywords: [
-      'NT2 werkbladen verkopen Etsy',
-      'inburgering printables business Nederland',
-      'taalonderwijs nieuwkomers werkbladen',
-      'ESL printables verkopen Gumroad',
+      'NT2 printables ideeën Etsy',
+      'taalonderwijs werkbladen verkopen',
+      'inburgering printables Nederland',
+      'ESL werkbladen Gumroad verkopen',
     ],
     lsiKeywords: [
-      'schakelklas taalondersteuning materiaal',
-      'visueel ondersteunde vocabulaire werkbladen',
-      'Wet inburgering 2021 lesmateriaal',
+      'schakelklas taalondersteuning',
+      'visueel vocabulaire nieuwkomers',
+      'Wet inburgering lesmateriaal',
     ],
   },
   hero: {

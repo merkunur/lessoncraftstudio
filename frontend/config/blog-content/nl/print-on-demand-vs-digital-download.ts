@@ -2,11 +2,11 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'print on demand vs digitale download vergelijking',
-    secondaryKeywords: ['printable business strategie 2026', 'werkbladen verkopen platform tips', 'digitale producten online verkopen'],
-    lsiKeywords: ['printable verkoop optimalisatie', 'digitale download business', 'online printable winkel'],
-    titleTag: 'Print-on-Demand vs Digitale Download | LCS',
-    metaDescription: 'Print-on-Demand vs Digitale Download. Praktische strategieën en bewezen technieken voor printable verkopers in 2026.',
+    primaryKeyword: 'print on demand vs digitale download vergelijken',
+    secondaryKeywords: ['POD of digitaal werkbladen verkopen', 'fysiek of digitaal printables', 'print on demand werkbladen Etsy'],
+    lsiKeywords: ['POD', 'digitaal', 'fysiek', 'drukwerk', 'verzending', 'marge'],
+    titleTag: 'Print on Demand vs Digitale Download | Blog LessonCraftStudio',
+    metaDescription: 'Print on demand of digitale download: welk model past bij uw printable business? Vergelijking van kosten en marges.',
   },
   hero: {
     title: 'Print-on-Demand vs Digitale Download',

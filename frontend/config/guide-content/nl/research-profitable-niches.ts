@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'winstgevende niches vinden voor printables',
+    primaryKeyword: 'winstgevende niche printables vinden',
     secondaryKeywords: [
-      'printable niche onderzoek Etsy',
+      'niche onderzoek Etsy printables',
       'marktonderzoek werkbladen verkopen',
-      'nichevalidatie digitale producten',
       'concurrentieanalyse printable markt',
+      'niche valideren digitale producten',
     ],
     lsiKeywords: [
-      'marktplaatsdata zoekwoordonderzoek zoekvolume concurrentieniveau vraagsignalen',
-      'koopintentie trending niches onderbelichte markten nichevalidatie marktgaten',
-      'seizoensgebonden vraag groenblijvende vraag doelgroeponderzoek prijsanalyse concurrentieanalyse',
-      'product-markt fit zoektrends marktplaatsanalyses niche winstgevendheid scoren',
-      'vraagkwantificering marktverzadiging analyse zoekwoordtools datagedreven beslissingen',
-      'minimum viable product testen onderzoeksworkflow nicheontdekking systematisch proces',
+      'niche',
+      'marktonderzoek',
+      'concurrentie',
+      'zoekvolume',
+      'validatie',
+      'winstgevend',
     ],
-    titleTag: 'Winstgevende niches voor printables | LessonCraftStudio',
-    metaDescription: 'Ontdek winstgevende niches voor printables met marktplaatsdata, zoekwoordanalyse en concurrentieonderzoek. Stap-voor-stap methode voor Etsy, Bol.com en KDP',
+    titleTag: 'Winstgevende niche voor printables | LessonCraftStudio',
+    metaDescription: 'Ontdek winstgevende niches voor printables met marktonderzoek, zoekwoordanalyse en concurrentieonderzoek. Stap-voor-stap methode.',
   },
 
   hero: {

@@ -2,20 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Printables thuisonderwijs verkopen | LessonCraftStudio',
-    metaDescription: 'Printables voor thuisonderwijs verkopen op Etsy en Gumroad. Ideeën voor complete leerpakketten die thuisonderwijzende gezinnen het hele jaar kopen.',
+    titleTag: 'Thuisonderwijs printables ideeën | Werkbladen voor Etsy & Gumroad',
+    metaDescription: 'Ontdek winstgevende thuisonderwijs printable ideeën. Maak complete leerpakketten en werkbladen voor thuisonderwijzende gezinnen op Etsy en Gumroad.',
 
-    primaryKeyword: 'printables thuisonderwijs om te verkopen',
+    primaryKeyword: 'thuisonderwijs werkbladen verkopen',
     secondaryKeywords: [
-      'thuisonderwijs werkbladen verkopen Etsy',
-      'homeschool printables business Nederland',
-      'leerpakketten thuisonderwijs Gumroad',
-      'complete lesprogramma printables verkopen',
+      'thuisonderwijs printables ideeën Etsy',
+      'homeschool leerpakketten Gumroad',
+      'thuisonderwijs werkbladen Nederland',
+      'complete lesprogramma printables',
     ],
     lsiKeywords: [
-      'NVvTO thuisonderwijsgemeenschap materiaal',
-      'unit study thematische werkbladen',
-      'meerkindgezinnen educatief materiaal',
+      'NVvTO thuisonderwijsgemeenschap',
+      'unit study thematisch leren',
+      'meerkindgezinnen leermiddelen',
     ],
   },
   hero: {

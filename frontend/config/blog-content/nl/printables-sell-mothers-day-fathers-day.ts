@@ -3,10 +3,10 @@ import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
     primaryKeyword: 'moederdag vaderdag printables verkopen',
-    secondaryKeywords: ['printable moederdag vaderdag strategie', 'werkbladen moederdag vaderdag verkopen', 'educatieve printables printables verkopen'],
-    lsiKeywords: ['printable niche moederdag vaderdag', 'seizoensgebonden printables', 'thematische werkbladen verkopen'],
-    titleTag: 'Moederdag en Vaderdag Printables Verkopen | LCS',
-    metaDescription: 'Moederdag en Vaderdag Printables Verkopen. Ontdek welke producten het beste verkopen, wanneer u moet beginnen en hoe u maximale omzet genereert.',
+    secondaryKeywords: ['werkbladen moederdag Etsy', 'vaderdag activiteiten printbaar', 'cadeauprintables ouderdag'],
+    lsiKeywords: ['moederdag', 'vaderdag', 'cadeau', 'mei', 'juni', 'familie'],
+    titleTag: 'Moederdag en Vaderdag Printables Verkopen | Blog LessonCraftStudio',
+    metaDescription: 'Moederdag en vaderdag printables zijn seizoenshits in mei en juni. Maak en verkoop cadeauwerkbladen voor deze feestdagen.',
   },
   hero: {
     title: 'Moederdag en Vaderdag Printables Verkopen',

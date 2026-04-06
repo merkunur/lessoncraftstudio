@@ -2,11 +2,11 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'printable winkel branding tips',
-    secondaryKeywords: ['printable business strategie 2026', 'werkbladen verkopen platform tips', 'digitale producten online verkopen'],
-    lsiKeywords: ['printable verkoop optimalisatie', 'digitale download business', 'online printable winkel'],
-    titleTag: 'Branding Tips voor Uw Printable Winkel | LCS',
-    metaDescription: 'Branding Tips voor Uw Printable Winkel. Praktische strategieën en bewezen technieken voor printable verkopers. Verkoop op Etsy & KDP met commerciele licentie.',
+    primaryKeyword: 'printable shop branding tips Etsy',
+    secondaryKeywords: ['Etsy winkel uitstraling verbeteren', 'branding voor werkbladen verkoper', 'printable shop huisstijl maken'],
+    lsiKeywords: ['branding', 'huisstijl', 'logo', 'kleuren', 'uitstraling', 'professioneel'],
+    titleTag: 'Branding Tips voor Uw Printable Shop | Blog LessonCraftStudio',
+    metaDescription: 'Sterke branding onderscheidt uw printable shop van de concurrentie. Praktische tips voor huisstijl en uitstraling op Etsy.',
   },
   hero: {
     title: 'Branding Tips voor Uw Printable Winkel',

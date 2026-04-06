@@ -2,20 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Printables dinosaurussen — Business | LessonCraftStudio',
-    metaDescription: 'Start een printable business met dinosaurussen. Productideeën voor werkbladen met T-Rex, triceratops en stegosaurus die jaarrond verkopen.',
+    titleTag: 'Dinosaurus printables ideeën | Werkbladen voor Etsy & KDP',
+    metaDescription: 'Ontdek winstgevende dinosaurus printable ideeën. Maak werkbladen met T-Rex, triceratops en stegosaurus om te verkopen op Etsy, KDP en Gumroad.',
 
-    primaryKeyword: 'printables dinosaurussen ideeën business',
+    primaryKeyword: 'dinosaurus werkbladen verkopen',
     secondaryKeywords: [
-      'dinosaurus werkbladen Etsy verkopen',
-      'dinosaurusthema printable business starten',
-      'prehistorische activiteitenboeken KDP',
-      'dino printables niche voor verkopers',
+      'dinosaurus printables ideeën Etsy',
+      'dino activiteitenboek KDP',
+      'dinosaurus kleurplaten verkopen online',
+      'prehistorische werkbladen printen',
     ],
     lsiKeywords: [
-      'paleontologie werkbladen maken',
-      'dinosaurus kleurplaten verkopen online',
-      'Jura-thema printbare producten Etsy',
+      'T-Rex triceratops stegosaurus',
+      'paleontologie Jura-thema',
+      'fossiel uitsterving prehistorisch',
     ],
   },
   hero: {

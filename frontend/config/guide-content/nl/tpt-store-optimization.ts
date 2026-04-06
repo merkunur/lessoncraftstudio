@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'lesmateriaal-winkel optimaliseren online',
+    primaryKeyword: 'online winkel optimaliseren printables',
     secondaryKeywords: [
-      'Gumroad winkel optimaliseren voor meer verkoop',
-      'zoekalgoritme rankingfactoren educatieve marktplaats',
-      'meer lesmateriaal verkopen met winkeloptimalisatie',
-      'Gumroad winkel groeistrategie printables',
+      'Gumroad winkel optimaliseren',
+      'printable winkel meer verkopen',
+      'winkeloptimalisatie digitale producten',
+      'vermeldingen verbeteren werkbladen',
     ],
     lsiKeywords: [
-      'Gumroad zoekranking conversieratio productzichtbaarheid verkopersmarktplaats',
-      'winkelbranding profielbanner visuele identiteit vakspecialisatie',
-      'productvoorbeeld thumbnail beschrijving copywriting vermeldingsoptimalisatie',
-      'reviewgeneratie sociaal bewijs kopersvertrouwen sterbeoordeling feedback',
-      'winkelsecties categorieën navigatie overzichtelijke organisatie',
-      'Gumroad analytics seizoensplanning datagestuurde catalogusschaling strategie',
+      'winkel',
+      'optimalisatie',
+      'branding',
+      'conversie',
+      'zoekranking',
+      'analytics',
     ],
-    titleTag: 'Lesmateriaal-winkel optimaliseren | LessonCraftStudio',
-    metaDescription: 'Optimaliseer uw lesmateriaal-winkel voor hogere zoekrankings en meer verkoop. Verkoop op Etsy & KDP met commerciele licentie.',
+    titleTag: 'Online winkel optimaliseren voor printables | LessonCraftStudio',
+    metaDescription: 'Optimaliseer uw online winkel voor printables. Hogere zoekrankings, betere branding, vermeldingsoptimalisatie en datagestuurde groei.',
   },
 
   hero: {

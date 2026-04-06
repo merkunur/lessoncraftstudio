@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'aftrekwerkbladen maken om te verkopen',
+    primaryKeyword: 'aftrekwerkbladen maken',
     secondaryKeywords: [
-      'aftrekwerkbladen maken voor kinderen verkopen',
-      'printbare aftrekwerkbladen generator',
-      'doorgestreepte afbeeldingen aftrekwerkbladen maken',
-      'aftrekwerkbladen verkopen Etsy KDP',
+      'reken werkblad aftrekken generator',
+      'aftrekken oefenbladen kinderen',
+      'printbare aftrekwerkbladen maken',
+      'werkbladen aftrekken met plaatjes',
     ],
     lsiKeywords: [
-      'doorgestreepte afbeeldingen aftrekwerkbladen',
-      'visueel aftrekken voor kleuterschool',
-      'groep 3 aftrekoefeningen',
-      'aftrekwerkbladen verkopen op Etsy',
-      'Amazon KDP aftrek activiteitenboeken',
-      'commerciële licentie werkblad tool',
+      'aftrekken',
+      'rekenen',
+      'werkblad',
+      'doorgestreept',
+      'antwoordsleutel',
+      'printbaar',
     ],
-    titleTag: 'Aftrekwerkbladen maken en verkopen | LessonCraftStudio',
-    metaDescription: 'Maak aftrekwerkbladen met doorgestreepte afbeeldingen, themavisuals en antwoordsleutels. Exporteer printklare PDF\'s om te verkopen op Etsy en KDP.',
+    titleTag: 'Aftrekwerkbladen maken | LessonCraftStudio',
+    metaDescription: 'Maak aftrekwerkbladen met doorgestreepte afbeeldingen en automatische antwoordsleutels. Instelbare moeilijkheid, PDF-export. Gratis proberen.',
   },
 
   hero: {

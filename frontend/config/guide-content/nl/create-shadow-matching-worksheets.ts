@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'schaduwwerkbladen schaduw maken verkopen',
+    primaryKeyword: 'schaduw werkbladen maken',
     secondaryKeywords: [
-      'schaduw koppelen werkbladen verkopen Etsy',
-      'silhouetpuzzels Amazon KDP maken',
-      'schaduwwerkbladen verkopen op Bol.com',
-      'visuele waarneming werkbladen productlijn',
+      'schaduw koppelen werkblad',
+      'silhouet puzzel generator',
+      'printbare schaduwwerkbladen',
+      'visuele waarneming werkblad',
     ],
     lsiKeywords: [
-      'schaduwpuzzels bundels voor Etsy winkel',
-      'visuele waarneming werkboek Brave New Books',
-      'schaduw koppelen generator commercieel',
-      'silhouet werkbladen catalogus opbouwen',
-      'commerciële licentie schaduw koppelen tool',
-      'Maak Het Compleet werkbladen verkopen',
+      'schaduw',
+      'silhouet',
+      'koppelen',
+      'waarneming',
+      'werkblad',
+      'antwoordsleutel',
     ],
-    titleTag: 'Schaduwwerkbladen maken en verkopen | LessonCraftStudio',
-    metaDescription: 'Leer hoe u schaduwwerkbladen maakt en verkoopt op Etsy, Amazon KDP en Bol.com. Twee modi: Schaduw Koppelen en Maak Het Compleet met antwoordsleutels.',
+    titleTag: 'Schaduw werkbladen maken | LessonCraftStudio',
+    metaDescription: 'Maak schaduwwerkbladen met twee modi: Schaduw Koppelen en Maak Het Compleet. Automatische antwoordsleutels, thema\'s. Gratis proberen.',
   },
 
   hero: {

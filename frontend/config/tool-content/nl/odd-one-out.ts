@@ -2,25 +2,29 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'gratis welke hoort er niet bij generator',
+    primaryKeyword: 'welke hoort er niet bij gratis',
     secondaryKeywords: [
-      'welke hoort er niet bij werkbladen online maken gratis',
-      'vreemde eend puzzel generator',
-      'printbare welke hoort er niet bij generator met antwoordblad',
-      'visuele discriminatie werkblad tool online',
+      'de indringer werkblad gratis',
+      'welke hoort er niet bij gratis online maken',
+      'vreemde eend werkblad gratis printen PDF',
+      'de indringer generator gratis zonder account',
+      'welke hoort er niet bij werkblad gratis',
     ],
     lsiKeywords: [
-      'identiek en vergelijkbaar modus vreemde eend generator',
-      'per-oefening overschrijving puzzel generator gratis',
-      'automatisch antwoordblad rode cirkel werkblad tool',
+      'kleuters',
+      'kinderen',
+      'printbaar',
+      'PDF',
+      'antwoorden',
+      'logica',
     ],
-    titleTag: 'Welke hoort er niet bij gratis | LessonCraftStudio',
-    metaDescription: 'Maak gratis welke hoort er niet bij werkbladen online met Identiek en Vergelijkbaar modi en automatische. Verkoop op Etsy & KDP met commerciele licentie.',
+    titleTag: 'Gratis welke hoort er niet bij | Probeer online met watermerk',
+    metaDescription: 'Probeer de vreemde eend generator gratis online met watermerk. Identiek en Vergelijkbaar modi, antwoordblad, 104 thema\'s. Geen account nodig.',
   },
 
   hero: {
-    title: 'Gratis welke hoort er niet bij werkbladen',
-    tagline: 'Dubbele-modus vreemde eend generator met Identiek en Vergelijkbaar modi, per-oefening overschrijving en automatische antwoordbladen',
+    title: 'Gratis welke hoort er niet bij — Probeer online met watermerk',
+    tagline: 'Maak vreemde eend werkbladen met twee modi en automatische antwoordbladen — probeer gratis zonder registratie.',
     description: 'Met onze gratis welke hoort er niet bij generator maakt u direct visuele discriminatie werkbladen. Kinderen identificeren het afwijkende item in elke rij van vier afbeeldingen en omcirkelen het. Kies uit twee modi: Identiek modus plaatst drie klonen naast een ander item uit hetzelfde thema voor visuele detailvergelijking. Vergelijkbaar modus combineert drie afbeeldingen uit het ene thema met een afbeelding uit een ander thema voor categorische herkenning. U kunt de modus per oefening overschrijven voor geleidelijke moeilijkheidsopbouw. Stel 5 tot 10 oefeningen per werkblad in en combineer 104 thema\'s naar wens. Elk werkblad is volledig visueel zonder tekst, waardoor het universeel bruikbaar is ongeacht taal. Het automatisch gegenereerde antwoordblad markeert het vreemde item met een rode cirkel. Blader door meer dan 3.100 illustraties of upload uw eigen afbeeldingen. Exporteer als printklare PDF of JPEG op 300 DPI. De gratis proefversie biedt alle functies — geen account nodig. Downloads bevatten een watermerk dat u verwijdert met een commerciële licentie.',
   },
 

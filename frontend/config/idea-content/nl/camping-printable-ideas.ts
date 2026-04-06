@@ -2,20 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Printables kamperen — Business | LessonCraftStudio',
-    metaDescription: 'Verkoop kampeer printables op Etsy en Gumroad. Tenten, kampvuren en natuur productideeën voor uw printable business — seizoenspieken plus jaarronde vraag.',
+    titleTag: 'Kamperen printables ideeën | Werkbladen voor Etsy & KDP',
+    metaDescription: 'Ontdek winstgevende kampeer printable ideeën. Maak werkbladen met tenten, kampvuren en natuur om te verkopen op Etsy, Amazon KDP en Gumroad.',
 
-    primaryKeyword: 'printables printable business kampeer seizoen plus kamperen',
+    primaryKeyword: 'kamperen werkbladen verkopen',
     secondaryKeywords: [
-      'kampeer werkbladen verkopen Etsy',
-      'buitenactiviteiten printable business ideeën',
-      'natuur wandelen printables verkopen',
-      'zomerkamp educatieve producten Gumroad',
+      'kamperen printables ideeën Etsy',
+      'kampeerthema activiteitenboek KDP',
+      'kamperen kleurplaten verkopen online',
+      'buitenleven werkbladen printen',
     ],
     lsiKeywords: [
-      'tent kampvuur zaklamp werkbladen maken',
-      'Scouting natuur educatief materiaal',
-      'buitenleven avontuur printbare producten',
+      'tent kampvuur zaklamp',
+      'Scouting natuur buitenactiviteiten',
+      'zomerkamp avontuur wandelen',
     ],
   },
   hero: {

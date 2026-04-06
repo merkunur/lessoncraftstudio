@@ -2,11 +2,11 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'sorteer werkbladen peuters verkopen 2026',
-    secondaryKeywords: ['sorteer werkbladen werkbladen verkopen Etsy', 'sorteer werkbladen printables business', 'sorteer werkbladen puzzels online'],
-    lsiKeywords: ['sorteer werkbladen generator business', 'sorteer werkbladen werkbladen markt', 'educatieve sorteer werkbladen printables'],
-    titleTag: 'Sorteer Werkbladen voor Peuters Verkopen | LCS',
-    metaDescription: 'Sorteer Werkbladen voor Peuters Verkopen op Etsy en KDP. Ontdek de markt, productstrategieën en prijzen voor deze winstgevende niche in 2026.',
+    primaryKeyword: 'sorteerwerkbladen kleuteronderwijs verkopen',
+    secondaryKeywords: ['sorteren werkbladen peuters Etsy', 'categoriseren activiteiten printbaar', 'sorteeractiviteiten kleuters'],
+    lsiKeywords: ['sorteren', 'categoriseren', 'groeperen', 'logica', 'peuters', 'kleuters'],
+    titleTag: 'Sorteerwerkbladen voor Kleuters Verkopen | Blog LessonCraftStudio',
+    metaDescription: 'Sorteerwerkbladen voor kleuters en peuters zijn een populaire niche. Maak en verkoop sorteeractiviteiten op Etsy.',
   },
   hero: {
     title: 'Sorteer Werkbladen voor Peuters Verkopen',

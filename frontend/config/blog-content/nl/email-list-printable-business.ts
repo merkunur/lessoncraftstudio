@@ -2,11 +2,11 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'emaillijst printable business opbouwen',
-    secondaryKeywords: ['printable business strategie 2026', 'werkbladen verkopen platform tips', 'digitale producten online verkopen'],
-    lsiKeywords: ['printable verkoop optimalisatie', 'digitale download business', 'online printable winkel'],
-    titleTag: 'Emaillijst Opbouwen voor Uw Printable Business | LCS',
-    metaDescription: 'Emaillijst Opbouwen voor Uw Printable Business. Praktische strategieën en bewezen technieken voor printable verkopers in 2026.',
+    primaryKeyword: 'emaillijst opbouwen printable business',
+    secondaryKeywords: ['nieuwsbrief voor werkbladen winkel', 'emailmarketing Etsy verkopers', 'leads verzamelen printable shop'],
+    lsiKeywords: ['emaillijst', 'nieuwsbrief', 'abonnees', 'marketing', 'klantenbinding', 'conversie'],
+    titleTag: 'Emaillijst Opbouwen voor Uw Printable Business | Blog LessonCraftStudio',
+    metaDescription: 'Een emaillijst is het waardevolste bezit van uw printable business. Leer hoe u abonnees werft en omzet in klanten.',
   },
   hero: {
     title: 'Emaillijst Opbouwen voor Uw Printable Business',

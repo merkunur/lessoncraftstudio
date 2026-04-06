@@ -2,25 +2,29 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'voorzetsels werkbladen voor NT2 op Etsy en Eduki',
+    primaryKeyword: 'ruimtelijke oriëntatie werkblad printen',
     secondaryKeywords: [
-      'voorzetsels generator NT2 Etsy',
-      'voorzetsel werkbladen Nederlands tweede taal',
-      'voorzetsels werkbladen commerciële licentie',
-      'NT2 materiaal verkopen',
+      'voorzetsels oefeningen',
+      'boven onder naast werkblad',
+      'ruimtelijk inzicht werkblad',
+      'positiebegrippen kleuters',
     ],
     lsiKeywords: [
-      'digitale ruimtelijke woordenschat producten online bedrijf',
-      'printbare voorzetsels werkbladen bedrijf',
-      'commercieel gebruik taalwerkblad generator',
+      'boven',
+      'onder',
+      'voor',
+      'achter',
+      'naast',
+      'tussen',
+      'ruimte',
     ],
-    titleTag: 'Voorzetsels werkbladen NT2 — Etsy | LessonCraftStudio',
-    metaDescription: 'Maak voorzetsels werkbladen voor NT2 en inburgering. 8 voorzetsels, invuloefeningen en meerkeuzevragen. $49 eenmalig.',
+    titleTag: 'Ruimtelijke oriëntatie werkblad printen | Generator voorzetsels',
+    metaDescription: 'Maak werkbladen ruimtelijke oriëntatie en voorzetsels met themaplaatjes. Automatische antwoorden, 11 talen. Gratis proberen.',
   },
 
   hero: {
-    title: 'Voorzetsels werkbladen voor NT2 en inburgering',
-    tagline: 'Gratis proefversie met watermerk — 8 ruimtelijke voorzetsels, invuloefeningen en meerkeuzevragen voor verkoopklare NT2-werkbladen.',
+    title: 'Ruimtelijke oriëntatie werkblad printen — Generator voorzetsels',
+    tagline: 'Maak werkbladen voorzetsels en positiebegrippen voor kleuters met boven, onder, naast en themaplaatjes — probeer gratis met watermerk.',
     description:
       'Betreed een van de minst concurrerende niches in de Nederlandse educatieve printables-markt: voorzetsels werkbladen voor NT2 (Nederlands als Tweede Taal). De structurele vraag vanuit inburgeringstrajecten zorgt voor een constant koperspubliek dat zoekt naar oefenmateriaal met ruimtelijke voorzetsels. Kinderen en volwassen taalleerders oefenen acht kernvoorzetsels — in, op, onder, naast, achter, tussen, boven en voor — via invuloefeningen en meerkeuzevragen met kleurrijke afbeeldingen en geometrische vormen. Selecteer welke voorzetsels u wilt opnemen via de checklist en stel 1 tot 8 oefeningen per werkblad in. Kies uit meer dan 3100 illustraties in 104 thema\'s en 8 geometrische vormen als referentiepunten. Elk werkblad genereert automatisch een antwoordblad. Exporteer op meer dan 400 DPI als PDF of JPEG. Verkoop uw werkbladen op Etsy, Eduki of Samen Voor Onderwijs, of bundel ze tot een KDP-werkboek. De meertalige licentie ontgrendelt alle 11 talen met grammaticaal correcte voorzetsels, waardoor u vanuit dezelfde workflow ook de Duitse, Franse en Spaanse markt bedient. Naast NT2 zijn de werkbladen ook geschikt voor regulier onderwijs in groep 3–4.',
   },

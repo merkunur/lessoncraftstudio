@@ -2,11 +2,11 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'pasen printables business lente',
-    secondaryKeywords: ['printable pasen printables strategie', 'werkbladen pasen printables verkopen', 'educatieve printables business lente'],
-    lsiKeywords: ['printable niche pasen printables', 'seizoensgebonden printables', 'thematische werkbladen verkopen'],
-    titleTag: 'Pasen Printables Business in de Lente | LCS',
-    metaDescription: 'Pasen Printables Business in de Lente. Ontdek welke producten het beste verkopen, wanneer u moet beginnen en hoe u maximale omzet genereert.',
+    primaryKeyword: 'paasprintables verkopen lente seizoen',
+    secondaryKeywords: ['pasen werkbladen Etsy', 'lente printables maart april', 'paasactiviteiten printbaar kinderen'],
+    lsiKeywords: ['pasen', 'lente', 'eieren', 'konijn', 'seizoen', 'maart'],
+    titleTag: 'Paasprintables Verkopen in het Lenteseizoen | Blog LessonCraftStudio',
+    metaDescription: 'Paasprintables zijn een seizoenshit in maart en april. Bereid uw Etsy-shop voor met paas- en lentewerkbladen.',
   },
   hero: {
     title: 'Pasen Printables Business in de Lente',

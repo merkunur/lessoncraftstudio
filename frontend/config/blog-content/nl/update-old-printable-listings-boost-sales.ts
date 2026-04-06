@@ -2,11 +2,11 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'oude printable listings updaten verkoop verhogen',
-    secondaryKeywords: ['printable oude printable listings', 'werkbladen oude printable', 'printables how-to gids'],
-    lsiKeywords: ['printable productie tips', 'werkbladen maken strategie', 'printable business how-to'],
-    titleTag: 'Oude Listings Updaten om Verkoop te Verhogen | LCS',
-    metaDescription: 'Oude Listings Updaten om Verkoop te Verhogen. Stap-voor-stap instructies en praktische tips voor printable. Verkoop op Etsy & KDP met commerciele licentie.',
+    primaryKeyword: 'oude printable listings bijwerken meer verkoop',
+    secondaryKeywords: ['Etsy listings vernieuwen werkbladen', 'oude producten optimaliseren Etsy', 'listing update strategie printables'],
+    lsiKeywords: ['bijwerken', 'vernieuwen', 'optimaliseren', 'verbeteren', 'actualiseren', 'prestatie'],
+    titleTag: 'Oude Listings Bijwerken voor Meer Verkoop | Blog LessonCraftStudio',
+    metaDescription: 'Werk oude printable listings bij en verhoog uw verkoop. Praktische tips voor het vernieuwen van bestaande Etsy-producten.',
   },
   hero: {
     title: 'Oude Listings Updaten om Verkoop te Verhogen',

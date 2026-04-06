@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'kruiswoordpuzzels maken verkopen online',
+    primaryKeyword: 'kruiswoordpuzzel maken',
     secondaryKeywords: [
-      'kruiswoordpuzzel generator met beeldaanwijzingen',
-      'printbare kruiswoordpuzzels verkopen Etsy KDP',
-      'meertalige kruiswoordpuzzels maken',
-      'kruiswoordpuzzel boeken maken voor Amazon KDP',
+      'kruiswoordpuzzel generator online',
+      'printbare kruiswoordpuzzels maken',
+      'kruiswoordraadsel met plaatjes',
+      'meertalige kruiswoordpuzzels',
     ],
     lsiKeywords: [
-      'kruiswoordpuzzel werkbladen met plaatjes',
-      'meertalige kruiswoordpuzzels generator',
-      'woordenschat kruiswoordpuzzel kinderen',
-      'kruiswoordpuzzel boeken verkopen KDP',
-      'Etsy kruiswoordpuzzel printables',
-      'commerciële licentie puzzeltools',
+      'kruiswoordpuzzel',
+      'aanwijzingen',
+      'raster',
+      'woordenschat',
+      'puzzelboek',
+      'meertalig',
     ],
-    titleTag: 'Kruiswoordpuzzels maken en verkopen | LessonCraftStudio',
-    metaDescription: 'Maak kruiswoordpuzzels met beeldaanwijzingen in 11 talen. Genereer kruisende rasters, genummerde aanwijzingen en verkoop op Etsy, KDP of Bol.com.',
+    titleTag: 'Kruiswoordpuzzel maken | LessonCraftStudio',
+    metaDescription: 'Maak kruiswoordpuzzels met beeldaanwijzingen in 11 talen. Automatisch kruisend raster, genummerde hints en PDF-export. Gratis proberen.',
   },
 
   hero: {

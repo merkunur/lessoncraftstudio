@@ -2,20 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Printables groep 4 — Business | LessonCraftStudio',
-    metaDescription: 'Ideeën voor printables groep 4 om te verkopen. Tafels oefenen, begrijpend lezen en spelling werkbladen die leerkrachten en ouders actief zoeken op Etsy.',
+    titleTag: 'Groep 4 printables ideeën | Werkbladen voor Etsy & KDP',
+    metaDescription: 'Ontdek winstgevende groep 4 printable ideeën. Maak werkbladen voor tafels oefenen, begrijpend lezen en spelling om te verkopen op Etsy, KDP en Gumroad.',
 
-    primaryKeyword: 'printables groep 4 ideeën business',
+    primaryKeyword: 'groep 4 werkbladen verkopen',
     secondaryKeywords: [
-      'groep 4 werkbladen verkopen Etsy',
-      'tafels oefenen printables groep 4',
+      'groep 4 printables ideeën Etsy',
+      'tafels oefenen groep 4 KDP',
       'begrijpend lezen werkbladen verkopen',
-      'groep 4 printable business Gumroad',
+      'groep 4 printables Gumroad',
     ],
     lsiKeywords: [
-      'meercijferig optellen aftrekken werkbladen',
-      'Cito-toets groep 4 oefenmateriaal',
-      'lezen om te leren printables',
+      'meercijferig optellen aftrekken',
+      'Cito-toets groep 4 oefening',
+      'spelling begrijpend lezen',
     ],
   },
   hero: {

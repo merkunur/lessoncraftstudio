@@ -2,11 +2,11 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'etsy printable winkel eerste maand verwachtingen',
-    secondaryKeywords: ['printable business strategie 2026', 'werkbladen verkopen platform tips', 'digitale producten online verkopen'],
-    lsiKeywords: ['printable verkoop optimalisatie', 'digitale download business', 'online printable winkel'],
-    titleTag: 'Uw Eerste Maand als Printable Verkoper op Etsy | LCS',
-    metaDescription: 'Uw Eerste Maand als Printable Verkoper op Etsy. Praktische strategieën en bewezen technieken voor printable verkopers in 2026.',
+    primaryKeyword: 'Etsy printable shop eerste maand',
+    secondaryKeywords: ['eerste maand werkbladen verkopen Etsy', 'Etsy shop starten printables', 'beginnen met printables verkopen'],
+    lsiKeywords: ['starten', 'beginnen', 'eerste', 'lancering', 'verwachtingen', 'strategie'],
+    titleTag: 'Uw Eerste Maand als Printable Verkoper op Etsy | Blog LessonCraftStudio',
+    metaDescription: 'Wat kunt u verwachten in uw eerste maand als printable verkoper op Etsy? Realistische doelen en actiestappen voor beginners.',
   },
   hero: {
     title: 'Uw Eerste Maand als Printable Verkoper op Etsy',

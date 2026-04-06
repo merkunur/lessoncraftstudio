@@ -2,25 +2,27 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'tel- en grafiekwerkbladen voor Etsy-shop',
+    primaryKeyword: 'werkbladen tellen printen',
     secondaryKeywords: [
-      'telgrafieken generator Etsy',
-      'grafiek werkbladen voor KDP',
-      'tel-en-turfwerkbladen commerciële licentie',
-      'grafiekactiviteiten verkopen',
+      'oefeningen tellen en grafieken',
+      'werkbladen grafieken basisschool',
+      'tellen en turven werkblad',
+      'telactiviteiten kleuters',
     ],
     lsiKeywords: [
-      'digitale telgrafiek printables online bedrijf',
-      'printbare gegevensrepresentatie werkbladen business',
-      'commercieel gebruik plaatjesgrafiek generator',
+      'tellen',
+      'staafdiagram',
+      'turven',
+      'gegevens',
+      'sorteren',
     ],
-    titleTag: 'Tel- en grafiekwerkbladen Etsy | LessonCraftStudio',
-    metaDescription: 'Maak tel- en grafiekwerkbladen voor uw Etsy-shop of KDP-werkboek. Automatisch antwoordblad, 104 thema\'s en 6 afbeeldingstypen per blad. $49 eenmalig.',
+    titleTag: 'Werkbladen tellen en grafieken printen | Generator',
+    metaDescription: 'Maak werkbladen tellen en grafieken met themaplaatjes. Automatische antwoorden, printbare PDF\'s. Gratis proberen.',
   },
 
   hero: {
-    title: 'Tel- en grafiekwerkbladen voor uw Etsy-printables',
-    tagline: 'Gratis proefversie met watermerk — genereer plaatjesgrafieken met 6 afbeeldingstypen, automatische staafdiagram-antwoordbladen en 104 thema\'s.',
+    title: 'Werkbladen tellen en grafieken printen — Generator telactiviteiten',
+    tagline: 'Maak oefeningen tellen en grafieken met themaplaatjes voor kleuters en basisschool — automatische antwoorden, tellen en turven.',
     description:
       'Combineer tellen en gegevensvisualisatie in werkbladen die populair zijn bij ouders van kinderen in groep 3 tot 5. Elk werkblad toont een verstrooide afbeeldingsraster met 20 pictogrammen van 6 verschillende typen in een 4×5 indeling — kinderen tellen hoeveel van elk type er verschijnen en kleuren de overeenkomstige cellen in het staafdiagram eronder. Het dubbele-canvassysteem genereert tegelijkertijd een antwoordblad met geel gemarkeerde cellen, zodat u bij grote bundels nooit handmatig hoeft na te tellen. Kies afbeeldingen automatisch door een thema te selecteren uit de bibliotheek met meer dan 3100 illustraties in 104 collecties, of kies handmatig precies 6 afbeeldingen. Voeg naam- en datumvelden toe, pas achtergrond- en kaderthema\'s aan met onafhankelijke dekkingsregelaars en exporteer printklare PDF\'s en JPEG\'s op 300 DPI in Letter-, A4-, Vierkant- of aangepaste formaten. Visueel tellen werkt taalonafhankelijk — cijfers en afbeeldingen zijn universeel, dus dezelfde werkbladen functioneren in elke taal. Verkoop uw grafiekwerkbladen als downloads op Etsy, bundel ze tot werkboeken voor Amazon KDP of bied ze aan via Bol.com. De commerciële licentie geeft u volledige verkooprechten zonder royalty\'s.',
   },

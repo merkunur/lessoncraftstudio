@@ -2,11 +2,11 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'reken puzzelboeken Amazon KDP 2026',
-    secondaryKeywords: ['reken puzzels werkbladen verkopen Etsy', 'reken puzzels printables business', 'reken puzzels puzzels online'],
-    lsiKeywords: ['reken puzzels generator business', 'reken puzzels werkbladen markt', 'educatieve reken puzzels printables'],
-    titleTag: 'Reken Puzzelboeken op Amazon KDP | LCS',
-    metaDescription: 'Reken Puzzelboeken op Amazon KDP op Etsy en KDP. Ontdek de markt, productstrategieën en prijzen voor deze winstgevende niche in 2026.',
+    primaryKeyword: 'rekenpuzzelboeken Amazon KDP publiceren',
+    secondaryKeywords: ['wiskundepuzzels boek KDP', 'rekenpuzzels publiceren Amazon', 'puzzelboek wiskunde formatteren'],
+    lsiKeywords: ['rekenpuzzel', 'puzzelboek', 'KDP', 'wiskunde', 'publiceren', 'Amazon'],
+    titleTag: 'Rekenpuzzelboeken Publiceren op Amazon KDP | Blog LessonCraftStudio',
+    metaDescription: 'Publiceer rekenpuzzelboeken op Amazon KDP. Ontdek hoe u wiskundepuzzels formatteert en publiceert voor passief inkomen.',
   },
   hero: {
     title: 'Reken Puzzelboeken op Amazon KDP',

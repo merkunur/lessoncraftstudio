@@ -2,19 +2,11 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'woordzoeker printables verkopen winst 2026',
-    secondaryKeywords: [
-      'woordzoeker werkbladen verkopen Etsy',
-      'woordpuzzel printables business',
-      'woordzoeker boeken KDP verkopen',
-    ],
-    lsiKeywords: [
-      'woordzoeker generator business',
-      'printbare woordpuzzels markt',
-      'educatieve woordzoekers verkopen',
-    ],
-    titleTag: 'Woordzoeker Printables Verkopen voor Winst | LCS',
-    metaDescription: 'Ontdek hoe u woordzoeker printables verkoopt voor winst op Etsy en Amazon KDP. Productstrategieën, prijzen en nichekeuze voor de Nederlandse markt.',
+    primaryKeyword: 'woordzoeker printables winstgevend verkopen',
+    secondaryKeywords: ['woordzoekers maken en verkopen Etsy', 'word search werkbladen business', 'woordzoeker boek KDP publiceren'],
+    lsiKeywords: ['woordzoeker', 'zoeken', 'letters', 'woordenschat', 'puzzel', 'thematisch'],
+    titleTag: 'Woordzoeker Printables Winstgevend Verkopen | Blog LessonCraftStudio',
+    metaDescription: 'Woordzoekers zijn een van de meest winstgevende printable niches. Leer hoe u woordzoeker werkbladen maakt en verkoopt.',
   },
   hero: {
     title: 'Woordzoeker Printables Verkopen voor Winst',

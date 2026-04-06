@@ -1,25 +1,29 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'gratis tel- en grafiekwerkbladen',
+    primaryKeyword: 'werkbladen tellen gratis',
     secondaryKeywords: [
-      'tel- en grafiekwerkbladen online maken gratis',
-      'plaatjesgrafiek werkblad generator',
-      'printbare telgrafiek generator met antwoordblad',
-      'datavisualisatie werkblad tool online',
+      'tellen en grafieken gratis',
+      'tel werkbladen gratis online maken',
+      'tellen werkblad gratis printen PDF',
+      'tel en grafiek generator gratis zonder account',
+      'plaatjesgrafiek werkblad gratis',
     ],
     lsiKeywords: [
-      'verspreide afbeeldingraster tel werkblad gratis',
-      'automatisch antwoordblad staafdiagram generator',
-      'plaatjesgrafiek activiteit generator online',
+      'basisschool',
+      'kleuters',
+      'printbaar',
+      'PDF',
+      'antwoorden',
+      'rekenen',
     ],
-    titleTag: 'Tel- en grafiekwerkbladen gratis | LessonCraftStudio',
-    metaDescription: 'Maak gratis tel- en grafiekwerkbladen online met 4x5 rasters, automatische staafdiagram antwoordbladen en 104. Verkoop op Etsy & KDP met commerciele licentie.',
+    titleTag: 'Gratis tellen werkbladen generator | Probeer online met watermerk',
+    metaDescription: 'Probeer de tel- en grafiekwerkbladen generator gratis online met watermerk. 4x5 rasters, staafdiagram antwoordbladen, 104 thema\'s. Geen account nodig.',
     },
 
   hero: {
-    title: 'Gratis tel- en grafiekwerkbladen maken',
-    tagline: 'Plaatjesgrafiek generator met verstrooide afbeeldingsrasters, automatische staafdiagram antwoordbladen en 104 thema\'s',
+    title: 'Gratis tellen werkbladen — Probeer online met watermerk',
+    tagline: 'Maak tel- en grafiekwerkbladen met plaatjesrasters en staafdiagrammen — probeer gratis zonder registratie.',
     description: 'Met onze gratis tel- en grafiekwerkbladen generator maakt u direct professionele plaatjesgrafiek activiteiten. Kinderen tellen verstrooide afbeeldingen in een 4x5 raster en vullen een staafdiagram eronder in — gegevensverzameling en gegevensrepresentatie in een enkele oefening. Elk werkblad bevat 20 pictogrammen van 6 verschillende typen in een willekeurige verdeling die elke generatie uniek maakt. Het staafdiagram biedt 6 kolommen gelabeld per afbeeldingstype en 5 rijen genummerd 1 tot 5. Het automatisch gegenereerde antwoordblad markeert de juiste aantallen met gele cellen, zodat u het werk direct kunt controleren zonder handmatig tellen. Kies afbeeldingen automatisch per thema of selecteer handmatig precies 6 afbeeldingen uit de bibliotheek met meer dan 3.100 illustraties over 104 thema\'s. Elk werkblad bevat een gelokaliseerde koptekst in 11 talen. Exporteer als printklare PDF of JPEG op 300 DPI in Letter-, A4- of aangepaste formaten. De gratis proefversie biedt alle functies — geen account nodig. Downloads bevatten een watermerk dat u verwijdert met een commerciële licentie.',
   },
 

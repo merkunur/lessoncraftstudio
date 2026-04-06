@@ -2,20 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Printables vogels om te verkopen | LessonCraftStudio',
-    metaDescription: 'Verkoop printables met vogels op Etsy en KDP. Productideeën voor werkbladen met uilen, papegaaien en pinguïns die seizoensgebonden pieken benutten.',
+    titleTag: 'Vogels printables ideeën | Werkbladen voor Etsy & KDP',
+    metaDescription: 'Ontdek winstgevende vogel printable ideeën. Maak werkbladen met uilen, papegaaien en pinguïns om te verkopen op Etsy, Amazon KDP en Gumroad.',
 
-    primaryKeyword: 'printables vogels om te verkopen',
+    primaryKeyword: 'vogels werkbladen verkopen',
     secondaryKeywords: [
-      'vogelthema werkbladen Etsy verkopen',
-      'vogel printable business starten',
-      'ornithologie activiteitenboeken KDP',
-      'vogelsoorten printables niche',
+      'vogels printables ideeën Etsy',
+      'vogelthema activiteitenboek KDP',
+      'vogels kleurplaten verkopen online',
+      'vogelsoorten werkbladen printen',
     ],
     lsiKeywords: [
-      'natuurobservatie werkbladen maken',
-      'vogelkleurplaten printable winkel',
-      'migratie en habitat printbare producten',
+      'uilen papegaaien pinguïns',
+      'natuurobservatie vogelkijken',
+      'migratie habitat ornithologie',
     ],
   },
   hero: {

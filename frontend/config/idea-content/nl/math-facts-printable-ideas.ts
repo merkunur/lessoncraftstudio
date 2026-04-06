@@ -2,20 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Tafels oefenen — Ideeën business | LessonCraftStudio',
-    metaDescription: 'Tafels oefenen printables en rekenfeiten werkbladen verkopen. Ideeën voor de meest gezochte educatieve niche — verbruiksmateriaal dat herhaald verkoopt.',
+    titleTag: 'Tafels oefenen printables ideeën | Werkbladen voor Etsy & KDP',
+    metaDescription: 'Ontdek winstgevende tafels oefenen printable ideeën. Maak rekenwerkbladen en sommen voor dagelijks oefenen om te verkopen op Etsy, KDP en Gumroad.',
 
-    primaryKeyword: 'tafels oefenen printables ideeën business',
+    primaryKeyword: 'tafels oefenen werkbladen verkopen',
     secondaryKeywords: [
-      'tafels oefenen werkbladen verkopen Etsy',
-      'rekenfeiten printables business',
-      'sommen oefenen werkbladen KDP',
+      'rekenfeiten printables ideeën Etsy',
+      'sommen oefenen activiteitenboek KDP',
+      'tafels werkbladen verkopen online',
       'rekenautomatisering printables Gumroad',
     ],
     lsiKeywords: [
-      'optellen aftrekken automatiseren werkbladen',
-      'Cito rekenvloeiendheid oefenmateriaal',
-      'dagelijkse rekenoefening verbruiksmateriaal',
+      'optellen aftrekken vermenigvuldigen',
+      'Cito rekenvloeiendheid oefening',
+      'dagelijkse sommen verbruiksmateriaal',
     ],
   },
   hero: {

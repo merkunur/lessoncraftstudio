@@ -2,26 +2,28 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'speurtocht generator om te verkopen op Etsy en KDP',
+    primaryKeyword: 'speurtocht printen',
     secondaryKeywords: [
-      'speurtocht werkbladen maken Etsy',
-      'schattenjacht generator voor KDP-boeken',
-      'speurtocht activiteiten commerciële licentie',
-      'speurtocht puzzels verkopen online',
+      'schattenjacht printen',
+      'speurtocht werkblad',
+      'aanwijzingen speurtocht',
+      'speurtocht kinderen',
     ],
     lsiKeywords: [
-      'digitale schattenjacht printables online bedrijf',
-      'commercieel gebruik richtingswerkblad generator',
-      'printbare padzoekpuzzel business tools',
+      'aanwijzingen',
+      'avontuur',
+      'verjaardag',
+      'speurspel',
+      'raadsels',
     ],
-    titleTag: 'Speurtocht generator voor Etsy | LessonCraftStudio',
-    metaDescription: 'Maak speurtocht-werkbladen om te verkopen op Etsy en KDP. Thema-afbeeldingen, aanpasbare routes, commerciële licentie. $49 eenmalig.',
+    titleTag: 'Speurtocht printen | Generator schattenjacht werkbladen',
+    metaDescription: 'Maak speurtocht- en schattenjacht-werkbladen met themaplaatjes. Printbare PDF\'s. Gratis proberen — verkoop op Etsy & KDP.',
   },
 
   hero: {
-    title: 'Genereer speurtocht-werkbladen om te verkopen op Etsy en KDP',
+    title: 'Speurtocht printen — Generator schattenjacht werkbladen met plaatjes',
     tagline:
-      'Speurtocht-werkbladen met thema-afbeeldingen en aanwijzingen — gratis proefversie met watermerk, commerciële licentie voor onbeperkte verkoop.',
+      'Maak speurtocht- en schattenjacht-werkbladen met aanwijzingen en themaplaatjes — printbare PDF\'s, probeer gratis met watermerk.',
     description:
       'Met de Speurtocht Generator maakt u professionele schattenjacht-werkbladen waarbij kinderen aanwijzingen volgen langs afbeeldingen om een verborgen schat te vinden op een 5×5 coördinatenraster. Elke puzzel bevat 6 thematische illustraties als oriëntatiepunten en 4 richtingsbewegingen die naar de schatlocatie leiden. Kies uit Basismodus (omhoog, omlaag, links, rechts) of Kompasmodus (noord, zuid, oost, west) en selecteer afbeeldingen uit 104 thematische collecties met meer dan 3100 illustraties. Speurtocht-werkbladen zijn ideaal voor kinderfeestjes, verjaardagsactiviteiten en seizoensgebonden evenementen. Sinterklaas-speurtochten zijn een uitstekende seizoensmogelijkheid voor de Nederlandse en Belgische markt — een niche met nauwelijks Engelstalige concurrentie. Verkoop uw werkbladen op Etsy, Amazon KDP of Bol.com met een commerciële licentie. Exporteer printklare PDF\'s en JPEG\'s op 300 DPI met automatisch gegenereerde antwoordbladen. Gratis proefversie met watermerk — alle functies beschikbaar zonder registratie.',
   },

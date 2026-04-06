@@ -2,11 +2,11 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'etsy listing optimalisatie werkbladen',
-    secondaryKeywords: ['printable business strategie 2026', 'werkbladen verkopen platform tips', 'digitale producten online verkopen'],
-    lsiKeywords: ['printable verkoop optimalisatie', 'digitale download business', 'online printable winkel'],
-    titleTag: 'Etsy Listing Optimalisatie voor Werkbladen | LCS',
-    metaDescription: 'Etsy Listing Optimalisatie voor Werkbladen. Praktische strategieën en bewezen technieken voor printable verkopers in 2026.',
+    primaryKeyword: 'Etsy listing optimaliseren werkbladen',
+    secondaryKeywords: ['werkbladen listing verbeteren Etsy', 'printable productpagina optimalisatie', 'Etsy SEO voor werkbladen listings'],
+    lsiKeywords: ['listing', 'optimalisatie', 'titel', 'beschrijving', 'foto', 'conversie'],
+    titleTag: 'Etsy Listings Optimaliseren voor Werkbladen | Blog LessonCraftStudio',
+    metaDescription: 'Optimaliseer uw Etsy werkbladen-listings voor meer zichtbaarheid en verkoop. Praktische tips voor titels, tags en foto\'s.',
   },
   hero: {
     title: 'Etsy Listing Optimalisatie voor Werkbladen',

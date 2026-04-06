@@ -2,23 +2,23 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'activiteitenboeken Amazon KDP business',
+    primaryKeyword: 'activiteitenboek Amazon KDP maken',
     secondaryKeywords: [
-      'Amazon KDP activiteitenboeken publiceren',
-      'puzzelboeken verkopen op KDP Nederland',
-      'KDP activiteitenboek bedrijf starten',
-      'activiteitenboeken publiceren Amazon en Brave New Books',
+      'doeboek uitgeven op KDP',
+      'puzzelboek publiceren Amazon',
+      'KDP activiteitenboek Nederland',
+      'activiteitenboeken verkopen via Kindle Direct Publishing',
     ],
     lsiKeywords: [
-      'Kindle Direct Publishing activiteitenboeken',
-      'KDP binnenwerk opmaak werkbladen',
-      'KDP omslagontwerp activiteitenboeken',
-      'Amazon backend zoekwoorden puzzelboeken',
-      'KDP royalty calculator activiteitenboeken',
-      'print on demand activiteitenboek bedrijf Nederland',
+      'KDP',
+      'doeboek',
+      'puzzelboek',
+      'binnenwerk',
+      'print on demand',
+      'royalty',
     ],
-    titleTag: 'Activiteitenboeken Amazon KDP | LessonCraftStudio',
-    metaDescription: 'Hoe u activiteitenboeken publiceert op Amazon KDP. Binnenwerk opmaak, omslagontwerp, zoekwoordonderzoek, prijsstrategie en uw KDP boekbedrijf opschalen.',
+    titleTag: 'Activiteitenboek maken voor Amazon KDP | Gids voor printable-verkopers',
+    metaDescription: 'Leer stap voor stap een activiteitenboek maken en publiceren op Amazon KDP. Van binnenwerk tot omslagontwerp, zoekwoorden en prijsstrategie voor maximale royalty\'s.',
   },
 
   hero: {

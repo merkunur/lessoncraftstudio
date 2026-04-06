@@ -2,26 +2,28 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'koppelwerkbladen maken en verkopen op Etsy',
+    primaryKeyword: 'verbind werkbladen printen',
     secondaryKeywords: [
-      'koppelwerkbladen generator voor Etsy-verkopers',
-      'verbindingswerkbladen voor Amazon KDP',
-      'koppelactiviteiten commerciële licentie',
-      'koppelpuzzels voor printables-business',
+      'koppelen werkblad',
+      'bij elkaar zoeken werkblad',
+      'paren maken werkblad',
+      'verbinden met pijlen kleuters',
     ],
     lsiKeywords: [
-      'digitale koppelactiviteiten printables online bedrijf',
-      'commercieel gebruik verbindingswerkbladen generator',
-      'printbare koppelactiviteiten business tools',
+      'verbinden',
+      'koppelen',
+      'paren',
+      'kleuters',
+      'groep 1/2',
     ],
-    titleTag: 'Koppelwerkbladen maken en verkopen | LessonCraftStudio',
-    metaDescription: 'Maak koppelwerkbladen met thema-afbeeldingen voor Etsy en KDP. Automatische antwoorden, commerciële licentie. Gratis proefversie met watermerk. $49 eenmalig.',
+    titleTag: 'Verbind werkbladen printen | Generator koppelspel',
+    metaDescription: 'Maak verbind-werkbladen met themaplaatjes voor kleuters en basisschool. Automatische antwoorden, PDF 300 DPI. Gratis proberen.',
   },
 
   hero: {
-    title: 'Maak koppelwerkbladen om te verkopen op Etsy, KDP en Bol.com',
+    title: 'Verbind werkbladen printen — Generator koppelspel met plaatjes',
     tagline:
-      'Genereer professionele koppelwerkbladen met vier modi en automatische antwoordbladen — gratis proefversie met watermerk, commerciële licentie voor onbeperkte verkoop.',
+      'Maak koppelwerkbladen met vier modi en themaplaatjes voor kleuters en groep 1/2 — automatische antwoordbladen, probeer gratis met watermerk.',
     description:
       'Met de Koppelwerkbladen Generator maakt u in enkele minuten verkoopklare verbindingswerkbladen voor uw printables-business op Etsy, Amazon KDP en Bol.com. Kies uit vier koppelmodi — Beginletter, Afbeelding+Woord, Gemengd en Aangepast Woord — en stel 4, 5 of 6 paren per werkblad in voor verschillende moeilijkheidsgraden. De generator produceert automatisch een antwoordblad bij elk werkblad, wat u uren handmatig werk bespaart bij het samenstellen van bundels. Selecteer afbeeldingen uit 104 thematische collecties met meer dan 3100 illustraties, van dieren en voedsel tot seizoenen en feestdagen. Elk werkblad bevat een gelokaliseerde koptekst in 11 talen, waardoor u hetzelfde product op de Nederlandse, Duitse en internationale markt kunt verkopen. Exporteer printklare PDF\'s en JPEG\'s op 300 DPI in Letter-, A4- of aangepaste formaten. De commerciële licentie verleent volledige verkooprechten op alle platforms, inclusief Etsy.nl, Amazon KDP en Brave New Books. Gratis proefversie met watermerk — test alle functies zonder registratie of creditcard voordat u een licentie aanschaft.',
   },

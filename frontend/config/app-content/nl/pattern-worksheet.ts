@@ -2,25 +2,27 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'patronen herkennen werkbladen voor Etsy-verkopers',
+    primaryKeyword: 'oefeningen logische reeksen printen',
     secondaryKeywords: [
-      'patroonherkenning werkbladen generator Etsy',
-      'patronen werkbladen voor KDP',
-      'visuele patronen commerciële licentie',
-      'patroonactiviteiten verkopen',
+      'reeks aanvullen werkblad',
+      'visuele logica werkblad',
+      'logisch redeneren werkbladen',
+      'getallenreeks werkblad',
     ],
     lsiKeywords: [
-      'digitale patroonvoltooiing printables online bedrijf',
-      'printbare visuele patronen werkbladen business',
-      'commercieel gebruik patronenherkenning werkbladen generator',
+      'redeneren',
+      'aanvullen',
+      'reeks',
+      'visueel',
+      'logica',
     ],
-    titleTag: 'Patronen werkbladen voor Etsy | LessonCraftStudio',
-    metaDescription: 'Maak patroonherkenning werkbladen om te verkopen op Etsy en Amazon KDP. Negen patroontypen, twee vraagmodi, 104 thema\'s en commerciële licentie. $49 eenmalig.',
+    titleTag: 'Oefeningen logische reeksen printen | Generator',
+    metaDescription: 'Maak oefeningen logische reeksen met themaplaatjes. Automatische antwoorden, PDF 300 DPI. Gratis proberen.',
   },
 
   hero: {
-    title: 'Patronen werkbladen maken en verkopen op Etsy en KDP',
-    tagline: 'Gratis proefversie met watermerk — negen patroontypen van AB tot ABCD — twee vraagmodi — per-oefening onafhankelijke configuratie voor patroontype, vraagmodus en thema op elke pagina.',
+    title: 'Oefeningen logische reeksen printen — Generator patroonherkenning',
+    tagline: 'Maak werkbladen logisch redeneren met negen patroontypen en twee vraagmodi — themaplaatjes, automatische antwoorden, probeer gratis met watermerk.',
     description:
       'Bouw een winstgevend assortiment patroonherkenning werkbladen voor uw Etsy-shop of Amazon KDP-uitgeverij. Kinderen identificeren herhalende reeksen en vullen het ontbrekende item in of kiezen het juiste antwoord uit meerkeuze-opties — een activiteit die wiskundig denken en logisch redeneren ontwikkelt. Negen patroontypen van eenvoudig AB tot complex ABCD bieden u een natuurlijke moeilijkheidsladder van kleuters tot en met groep 4. Twee vraagmodi verdubbelen uw productvariatie: invuloefeningen en meerkeuzevragen. Configureer 1 tot 8 oefeningen per pagina, elk met een eigen patroontype, vraagmodus en thema uit 104 collecties met meer dan 3.100 illustraties. Werkbladen zijn volledig visueel zonder tekst, waardoor ze wereldwijd verkoopbaar zijn zonder vertaling. Ideaal voor de Nederlandse markt via Etsy.nl en Bol.com, maar ook voor internationale Amazon KDP-marktplaatsen. Exporteer printklare PDF\'s en JPEG\'s op hoge DPI. Gratis proefversie met watermerk — koop een licentie om het watermerk te verwijderen en commercieel te verkopen.',
   },

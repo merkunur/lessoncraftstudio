@@ -2,11 +2,11 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'kleuterschool werkbladen markt',
-    secondaryKeywords: ['printable kleuterschool werkbladen strategie', 'werkbladen kleuterschool werkbladen verkopen', 'educatieve printables werkbladen markt'],
-    lsiKeywords: ['printable niche kleuterschool werkbladen', 'seizoensgebonden printables', 'thematische werkbladen verkopen'],
-    titleTag: 'De Kleuterschool Werkbladen Markt | LCS',
-    metaDescription: 'De Kleuterschool Werkbladen Markt. Ontdek welke producten het beste verkopen, wanneer u moet beginnen en hoe u maximale omzet genereert.',
+    primaryKeyword: 'kleuterwerkbladen markt verkopen',
+    secondaryKeywords: ['werkbladen groep 1-2 Etsy', 'kleuter activiteiten printbaar', 'kleuteronderwijs werkbladen niche'],
+    lsiKeywords: ['kleuter', 'groep 1', 'groep 2', 'speels', 'voorbereidend', 'basisvaardigheden'],
+    titleTag: 'Kleuterwerkbladen: Een Lucratieve Markt | Blog LessonCraftStudio',
+    metaDescription: 'De markt voor kleuterwerkbladen is enorm. Ontdek welke werkbladen voor groep 1-2 het beste verkopen op Etsy.',
   },
   hero: {
     title: 'De Kleuterschool Werkbladen Markt',

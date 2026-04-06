@@ -3,10 +3,10 @@ import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
     primaryKeyword: 'seizoenskalender printable verkopers',
-    secondaryKeywords: ['printable business strategie 2026', 'werkbladen verkopen platform tips', 'digitale producten online verkopen'],
-    lsiKeywords: ['printable verkoop optimalisatie', 'digitale download business', 'online printable winkel'],
-    titleTag: 'Seizoenskalender voor Printable Verkopers | LCS',
-    metaDescription: 'Seizoenskalender voor Printable Verkopers. Praktische strategieën en bewezen technieken voor printable. Verkoop op Etsy & KDP met commerciele licentie.',
+    secondaryKeywords: ['seizoensplanning werkbladen Etsy', 'jaarkalender printable business', 'seizoensgebonden verkoop plannen'],
+    lsiKeywords: ['seizoen', 'kalender', 'planning', 'pieken', 'voorbereiden', 'jaaroverzicht'],
+    titleTag: 'Seizoenskalender voor Printable Verkopers | Blog LessonCraftStudio',
+    metaDescription: 'Plan uw printable productie met een seizoenskalender. Weet precies wanneer u welke werkbladen moet lanceren op Etsy.',
   },
   hero: {
     title: 'Seizoenskalender voor Printable Verkopers',

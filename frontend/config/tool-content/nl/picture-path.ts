@@ -2,25 +2,29 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'doolhoven gratis online afbeeldingen',
+    primaryKeyword: 'doolhof gratis printen',
     secondaryKeywords: [
-      'doolhof werkbladen online maken gratis',
-      'afbeeldingspad doolhof generator gratis proberen',
-      'doolhof puzzel generator drie spelmodi',
-      'doolhoven met afbeeldingen werkblad gratis',
+      'doolhof generator gratis',
+      'doolhof gratis online maken',
+      'doolhof gratis printen PDF',
+      'doolhof generator gratis zonder account',
+      'doolhof met afbeeldingen gratis',
     ],
     lsiKeywords: [
-      'drie spelmodi afbeeldingspad klassiek doolhof online',
-      'LPF langste pad eerst algoritme doolhof gratis',
-      'automatisch antwoordblad doolhof generator online',
+      'kinderen',
+      'kleuters',
+      'printbaar',
+      'PDF',
+      'antwoorden',
+      'puzzel',
     ],
-    titleTag: 'Doolhoven gratis online maken | LessonCraftStudio',
-    metaDescription: 'Maak doolhof werkbladen met Afbeeldingspad, Klassiek Doolhof en Kies het Pad modi met automatische. Verkoop op Etsy & KDP met commerciele licentie.',
+    titleTag: 'Gratis doolhof generator | Probeer online met watermerk',
+    metaDescription: 'Probeer de doolhof generator gratis online met watermerk. Drie spelmodi, afbeeldingen, aanpasbaar wandontwerp, antwoordblad. Geen account nodig.',
   },
 
   hero: {
-    title: 'Gratis doolhoven met afbeeldingen online maken',
-    tagline: 'Drie-modi doolhof werkblad generator met Afbeeldingspad, Klassiek Doolhof en Kies het Juiste Pad, vijf afbeeldingsrollen, aanpasbaar wandontwerp en automatische antwoordbladen',
+    title: 'Gratis doolhof printen — Probeer online met watermerk',
+    tagline: 'Maak doolhoven met drie spelmodi en thematische afbeeldingen — probeer gratis zonder registratie.',
     description: 'Probeer onze doolhof werkbladen generator gratis en maak direct professionele doolhoven met afbeeldingen in uw browser. Zonder registratie of download krijgt u toegang tot alle functies: drie spelmodi (Afbeeldingspad, Klassiek Doolhof met LPF-algoritme en Kies het Juiste Pad), vijf afbeeldingsrollen, aanpasbaar wandontwerp met kleur-, dikte- en dekkingsregelaars, en verzamelobjecten voor extra uitdaging. Kies uit meer dan 3.100 illustraties over 104 thema\'s of upload eigen afbeeldingen. Elk werkblad bevat een automatisch gegenereerd antwoordblad met roze cirkel oplossingsmarkering. Exporteer als printklare PDF of hoge-resolutie JPEG op 300 DPI. De gratis proefversie bevat een watermerk op downloads zodat u de tool volledig kunt evalueren. Ideaal voor ouders die puzzelactiviteiten zoeken, leerkrachten die visuele probleemoplossing werkbladen nodig hebben, en iedereen die professionele doolhoven wil genereren.',
   },
 

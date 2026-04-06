@@ -3,10 +3,10 @@ import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
     primaryKeyword: 'sociale media printable verkopers strategie',
-    secondaryKeywords: ['printable business strategie 2026', 'werkbladen verkopen platform tips', 'digitale producten online verkopen'],
-    lsiKeywords: ['printable verkoop optimalisatie', 'digitale download business', 'online printable winkel'],
-    titleTag: 'Sociale Media Strategie voor Printable Verkopers | LCS',
-    metaDescription: 'Sociale Media Strategie voor Printable Verkopers. Praktische strategieën en bewezen technieken voor printable. Verkoop op Etsy & KDP met commerciele licentie.',
+    secondaryKeywords: ['Instagram marketing werkbladen shop', 'social media voor Etsy verkopers', 'printable business promoten online'],
+    lsiKeywords: ['Instagram', 'Facebook', 'TikTok', 'marketing', 'volgers', 'bereik'],
+    titleTag: 'Sociale Media Strategie voor Printable Verkopers | Blog LessonCraftStudio',
+    metaDescription: 'Gebruik sociale media effectief voor uw printable business. Strategieën voor Instagram, Pinterest en TikTok als Etsy-verkoper.',
   },
   hero: {
     title: 'Sociale Media Strategie voor Printable Verkopers',

@@ -2,11 +2,11 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'patronen werkbladen online verkopen 2026',
-    secondaryKeywords: ['patronen werkbladen werkbladen verkopen Etsy', 'patronen werkbladen printables business', 'patronen werkbladen puzzels online'],
-    lsiKeywords: ['patronen werkbladen generator business', 'patronen werkbladen werkbladen markt', 'educatieve patronen werkbladen printables'],
-    titleTag: 'Patronen Werkbladen Online Verkopen | LCS',
-    metaDescription: 'Patronen Werkbladen Online Verkopen op Etsy en KDP. Ontdek de markt, productstrategieën en prijzen voor deze winstgevende niche in 2026.',
+    primaryKeyword: 'patroonwerkbladen online verkopen',
+    secondaryKeywords: ['reeksen werkbladen Etsy', 'patronen herkennen printables', 'logische reeksen werkbladen basisschool'],
+    lsiKeywords: ['patroon', 'reeks', 'logica', 'herhaling', 'volgorde', 'herkenning'],
+    titleTag: 'Patroonwerkbladen Online Verkopen | Blog LessonCraftStudio',
+    metaDescription: 'Patroonwerkbladen zijn populair bij leerkrachten en ouders. Leer hoe u reeksen en patronen werkbladen verkoopt online.',
   },
   hero: {
     title: 'Patronen Werkbladen Online Verkopen',

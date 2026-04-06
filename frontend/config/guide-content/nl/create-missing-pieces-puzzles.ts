@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'ontbrekende stukjes puzzels maken verkopen',
+    primaryKeyword: 'ontbrekende stukjes puzzel maken',
     secondaryKeywords: [
-      'ontbrekende stukjes werkbladen maken om te verkopen',
-      'legpuzzel werkblad generator commercieel gebruik',
-      'printbare ontbrekende stukjes generator voor Etsy en KDP',
-      'visuele puzzelwerkbladen met antwoordsleutels',
+      'legpuzzel werkblad generator',
+      'printbare puzzel werkbladen',
+      'visuele puzzels kinderen maken',
+      'ontbrekend stuk werkblad',
     ],
     lsiKeywords: [
-      'slimme stukextractie kleurvariantie puzzelgenerator',
-      'zes vormen legpuzzel werkblad generator met afleiderstukken',
-      'automatische antwoordsleutel geel gemarkeerd ontbrekende stukjes generator',
-      'ontbrekende stukjes puzzels verkopen op Etsy',
-      'Amazon KDP legpuzzel werkboeken',
-      'commerciële licentie ontbrekende stukjes tool',
+      'puzzel',
+      'legpuzzel',
+      'stukje',
+      'afleider',
+      'visueel',
+      'antwoordsleutel',
     ],
-    titleTag: 'Ontbrekende stukjes maken verkopen | LessonCraftStudio',
-    metaDescription: 'Leer ontbrekende stukjes puzzels maken en verkopen op Etsy, Bol.com en KDP. 6 stukvormen, slimme extractie en automatische antwoordsleutels inbegrepen.',
+    titleTag: 'Ontbrekende stukjes puzzels maken | LessonCraftStudio',
+    metaDescription: 'Maak ontbrekende stukjes puzzels met 6 stukvormen en slimme extractie. Automatische antwoordsleutels, thema-afbeeldingen. Gratis proberen.',
   },
 
   hero: {

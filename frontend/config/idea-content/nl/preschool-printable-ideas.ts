@@ -2,20 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Printables kleuters voor Etsy | LessonCraftStudio',
-    metaDescription: 'Verkoop printables voor kleuters groep 1-2 op Etsy en Gumroad. Vormen, kleuren en tellen productideeën voor uw printable business — grootste marktsegment.',
+    titleTag: 'Kleuter printables ideeën | Werkbladen voor Etsy & Gumroad',
+    metaDescription: 'Ontdek winstgevende kleuter printable ideeën voor groep 1-2. Maak werkbladen met vormen, kleuren en tellen om te verkopen op Etsy, Gumroad en KDP.',
 
-    primaryKeyword: 'printables kleuters groep 1-2 verkopen',
+    primaryKeyword: 'kleuter werkbladen verkopen',
     secondaryKeywords: [
-      'kleuter werkbladen verkopen Etsy',
-      'groep 1-2 printable business ideeën',
-      'peuter leeractiviteiten producten verkopen',
-      'vroeg leren printables Gumroad KDP',
+      'kleuter printables ideeën Etsy',
+      'groep 1-2 activiteitenboek KDP',
+      'peuter kleurplaten verkopen online',
+      'vroeg leren werkbladen printen',
     ],
     lsiKeywords: [
-      'vormen kleuren tellen werkbladen maken',
-      'kinderdagverblijf peuterspeelzaal materiaal',
-      'fijne motoriek letters printbare producten',
+      'vormen kleuren tellen letters',
+      'kinderdagverblijf peuterspeelzaal',
+      'fijne motoriek schoolgereedheid',
     ],
   },
   hero: {

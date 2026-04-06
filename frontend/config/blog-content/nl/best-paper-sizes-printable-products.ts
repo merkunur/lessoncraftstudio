@@ -2,11 +2,11 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'beste papierformaten printable producten',
-    secondaryKeywords: ['printable beste papierformaten printable', 'werkbladen beste papierformaten', 'printables how-to gids'],
-    lsiKeywords: ['printable productie tips', 'werkbladen maken strategie', 'printable business how-to'],
-    titleTag: 'Beste Papierformaten voor Printable Producten | LCS',
-    metaDescription: 'Beste Papierformaten voor Printable Producten. Stap-voor-stap instructies en praktische tips voor printable. Verkoop op Etsy & KDP met commerciele licentie.',
+    primaryKeyword: 'beste papierformaat printable producten',
+    secondaryKeywords: ['A4 vs US Letter werkbladen', 'papierformaten voor Etsy printables', 'printbaar formaat kiezen'],
+    lsiKeywords: ['A4', 'Letter', 'afmetingen', 'afdrukken', 'marges', 'compatibiliteit'],
+    titleTag: 'Beste Papierformaten voor Printables | Blog LessonCraftStudio',
+    metaDescription: 'A4 of US Letter? Kies het juiste papierformaat voor uw printable producten. Praktische gids voor werkbladen-verkopers.',
   },
   hero: {
     title: 'Beste Papierformaten voor Printable Producten',

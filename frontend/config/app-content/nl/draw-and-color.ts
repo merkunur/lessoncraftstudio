@@ -2,25 +2,26 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'teken- en kleurwerkbladen voor Etsy-shop',
+    primaryKeyword: 'tekenactiviteit werkblad printen',
     secondaryKeywords: [
-      'teken-en-kleur generator Etsy',
-      'tekenwerkbladen voor Amazon KDP',
-      'teken- en kleuractiviteiten commerciële licentie',
-      'creatieve werkbladen verkopen',
+      'tekenen en kleuren werkblad',
+      'stap-voor-stap tekenen werkblad',
+      'kunst werkblad printen',
+      'creatief werkblad',
     ],
     lsiKeywords: [
-      'digitale rastertekenen printables online bedrijf',
-      'printbare cel-voor-cel reproductie werkbladen business',
-      'commercieel gebruik teken en kleur werkbladen generator',
+      'stap-voor-stap tekenen',
+      'kunst',
+      'creativiteit',
+      'kleuren',
     ],
-    titleTag: 'Teken- en kleurwerkbladen voor Etsy | LessonCraftStudio',
-    metaDescription: 'Maak teken- en kleurwerkbladen om te verkopen op Etsy, Amazon KDP en Bol.com. Dubbel rastersysteem, 100+ zwart-wit thema\'s, commerciële licentie. $49 eenmalig.',
+    titleTag: 'Teken en kleur werkblad printen | Generator creatieve activiteiten',
+    metaDescription: 'Maak teken- en kleurwerkbladen met themaplaatjes. PDF 300 DPI printbaar. Gratis proberen — commerciële licentie inbegrepen.',
   },
 
   hero: {
-    title: 'Teken- en kleurwerkbladen maken voor uw Etsy-shop',
-    tagline: 'Gratis proefversie met watermerk — dubbel rastersysteem met aanpasbaar aanwijzingspercentage — 100+ zwart-wit contourtekening collecties voor creatieve werkbladen die uitstekend verkopen.',
+    title: 'Teken en kleur werkblad printen — Generator creatieve activiteiten',
+    tagline: 'Maak tekenen en kleuren werkbladen met dubbel rastersysteem en 100+ zwart-wit contourtekeningen — probeer gratis met watermerk.',
     description:
       'Creatieve teken- en kleurwerkbladen behoren tot de bestverkopende printables voor jonge kinderen. Met deze generator maakt u professionele rasterteken werkbladen waarbij kinderen een referentieafbeelding cel-voor-cel natekenen en vervolgens inkleuren. Het dubbele rastersysteem — oefenraster en hulpraster naast elkaar — onderscheidt uw producten van gewone kleurplaten en rechtvaardigt hogere prijzen op Etsy, Bol.com en Amazon KDP. Pas het aanwijzingspercentage aan van 10% tot 75% om werkbladen te maken voor elk niveau, van kleuters tot volwassenen. Drie symmetriemodi voegen ruimtelijk redeneren toe als extra leerdimensie. Kies uit meer dan 3.000 zwart-wit contourillustraties in 100+ thematische collecties. Werkbladen zijn volledig visueel zonder tekst, waardoor ze wereldwijd verkoopbaar zijn zonder vertaling. Ideaal voor de Nederlandse markt maar ook internationaal inzetbaar. Exporteer printklare PDF\'s en JPEG\'s op 300 DPI. Gratis proefversie met watermerk — koop een licentie om het watermerk te verwijderen en commercieel te verkopen.',
   },

@@ -2,20 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Printables safari om te verkopen | LessonCraftStudio',
-    metaDescription: 'Verkoop printables met safaridieren op Etsy en KDP. Productideeën voor werkbladen met leeuwen, olifanten en giraffen die kopers overtuigen.',
+    titleTag: 'Safari printables ideeën | Werkbladen voor Etsy & KDP',
+    metaDescription: 'Ontdek winstgevende safari printable ideeën. Maak werkbladen met leeuwen, olifanten en giraffen om te verkopen op Etsy, Amazon KDP en Gumroad.',
 
-    primaryKeyword: 'printables safaridieren om te verkopen',
+    primaryKeyword: 'safari werkbladen verkopen',
     secondaryKeywords: [
-      'safaridieren werkbladen Etsy verkopen',
-      'Afrikaanse wildlife printable business',
-      'jungle activiteitenboeken KDP niche',
-      'safarithema printables voor verkopers',
+      'safaridieren printables ideeën Etsy',
+      'safari activiteitenboek KDP',
+      'safaridieren kleurplaten verkopen online',
+      'jungle werkbladen printen',
     ],
     lsiKeywords: [
-      'savanne dieren werkbladen maken',
-      'wildlifethema kleurplaten verkopen',
-      'exotische dieren printbare producten Etsy',
+      'leeuw olifant giraf zebra',
+      'savanne Afrika wildlife',
+      'dierentuin exotische dieren',
     ],
   },
   hero: {

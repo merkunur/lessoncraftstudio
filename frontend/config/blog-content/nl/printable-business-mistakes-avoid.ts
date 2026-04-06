@@ -3,10 +3,10 @@ import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
     primaryKeyword: 'printable business fouten vermijden',
-    secondaryKeywords: ['printable business strategie 2026', 'werkbladen verkopen platform tips', 'digitale producten online verkopen'],
-    lsiKeywords: ['printable verkoop optimalisatie', 'digitale download business', 'online printable winkel'],
-    titleTag: '10 Printable Business Fouten Die U Moet Vermijden | LCS',
-    metaDescription: '10 Printable Business Fouten Die U Moet Vermijden. Praktische strategieën en bewezen technieken voor printable verkopers in 2026.',
+    secondaryKeywords: ['veelgemaakte fouten werkbladen verkopen', 'Etsy printable valkuilen beginners', 'fouten voorkomen printable shop'],
+    lsiKeywords: ['fouten', 'valkuilen', 'vermijden', 'beginners', 'lessen', 'ervaring'],
+    titleTag: 'Printable Business Fouten die U Moet Vermijden | Blog LessonCraftStudio',
+    metaDescription: 'Vermijd de meest voorkomende fouten bij het starten van een printable business. Praktische lessen van ervaren Etsy-verkopers.',
   },
   hero: {
     title: '10 Printable Business Fouten Die U Moet Vermijden',

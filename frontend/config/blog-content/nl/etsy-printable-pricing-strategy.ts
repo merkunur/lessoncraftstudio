@@ -2,11 +2,11 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'etsy printable prijsstrategie maximale winst',
-    secondaryKeywords: ['printable business strategie 2026', 'werkbladen verkopen platform tips', 'digitale producten online verkopen'],
-    lsiKeywords: ['printable verkoop optimalisatie', 'digitale download business', 'online printable winkel'],
-    titleTag: 'De Printable Prijsstrategie Die Winst Maximaliseert | LCS',
-    metaDescription: 'De Printable Prijsstrategie Die Winst Maximaliseert. Praktische strategieën en bewezen technieken voor. Verkoop op Etsy & KDP met commerciele licentie.',
+    primaryKeyword: 'Etsy printable prijsstrategie bepalen',
+    secondaryKeywords: ['werkbladen prijs bepalen Etsy', 'prijzen voor digitale downloads', 'printable pricing winstgevend'],
+    lsiKeywords: ['prijs', 'strategie', 'marge', 'concurrerend', 'bundel', 'waarde'],
+    titleTag: 'Prijsstrategie voor Printables op Etsy | Blog LessonCraftStudio',
+    metaDescription: 'Bepaal de juiste prijs voor uw printable producten op Etsy. Strategieën voor winstgevende prijzen bij werkbladen en bundels.',
   },
   hero: {
     title: 'De Printable Prijsstrategie Die Winst Maximaliseert',

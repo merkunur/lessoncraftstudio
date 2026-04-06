@@ -2,23 +2,23 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'printables-business starten complete gids 2026',
+    primaryKeyword: 'printable bedrijf starten',
     secondaryKeywords: [
-      'printable bedrijf voor beginners Nederland',
-      'printbare werkbladen online verkopen Etsy KDP',
-      'printable winkel starten als ZZP\'er',
-      'digitale downloads verkopen stappenplan',
+      'geld verdienen met werkbladen verkopen',
+      'bijverdienste printables Etsy en KDP',
+      'passief inkomen digitale downloads',
+      'printable business beginnen als ZZP\'er',
     ],
     lsiKeywords: [
-      'digitale download bedrijfsmodel ZZP',
-      'werkblad generator voor verkopers',
-      'Etsy printable winkel opzetten Nederland',
-      'Amazon KDP activiteitenboeken publiceren',
-      'Bol.com digitale producten verkopen',
-      'commerciële licentie printable tools',
+      'bijverdienste',
+      'passief inkomen',
+      'Etsy',
+      'KDP',
+      'werkbladen',
+      'digitale downloads',
     ],
-    titleTag: 'Printables-business starten (2026) | LessonCraftStudio',
-    metaDescription: 'Start uw printables-business in 2026. Stapsgewijze gids voor Etsy, Amazon KDP en Bol.com verkopers die werkblad generators gebruiken om producten te maken.',
+    titleTag: 'Printable bedrijf starten | Gids voor printable-verkopers',
+    metaDescription: 'Start uw eigen printable bedrijf en verdien bij met werkbladen op Etsy en KDP. Complete gids van niche kiezen tot eerste verkoop realiseren.',
   },
 
   hero: {

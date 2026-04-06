@@ -2,11 +2,11 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'meer minder werkbladen verkopen 2026',
-    secondaryKeywords: ['meer of minder werkbladen verkopen Etsy', 'meer of minder printables business', 'meer of minder puzzels online'],
-    lsiKeywords: ['meer of minder generator business', 'meer of minder werkbladen markt', 'educatieve meer of minder printables'],
-    titleTag: 'Meer of Minder Werkbladen Verkopen | LCS',
-    metaDescription: 'Meer of Minder Werkbladen Verkopen op Etsy en KDP. Ontdek de markt, productstrategieën en prijzen voor deze winstgevende niche in 2026.',
+    primaryKeyword: 'meer en minder werkbladen verkopen',
+    secondaryKeywords: ['groter kleiner werkbladen Etsy', 'vergelijken hoeveelheden werkbladen', 'meer minder printables basisschool'],
+    lsiKeywords: ['vergelijken', 'groter', 'kleiner', 'hoeveelheid', 'rekenen', 'begrip'],
+    titleTag: 'Meer en Minder Werkbladen Verkopen | Blog LessonCraftStudio',
+    metaDescription: 'Meer en minder werkbladen helpen kinderen hoeveelheden vergelijken. Verkoop deze populaire rekenprintables op Etsy.',
   },
   hero: {
     title: 'Meer of Minder Werkbladen Verkopen',

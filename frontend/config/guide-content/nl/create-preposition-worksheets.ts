@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'voorzetsels werkbladen NT2 maken verkopen',
+    primaryKeyword: 'voorzetsels werkbladen maken',
     secondaryKeywords: [
-      'voorzetsels werkbladen maken om te verkopen',
-      'voorzetsels werkblad generator commercieel gebruik',
-      'printbare ruimtelijke taal werkbladen voor Etsy en KDP',
-      'taalspecifieke voorzetsels werkbladen met antwoordsleutels',
+      'werkblad voorzetsels generator',
+      'ruimtelijke taal oefenbladen',
+      'printbare voorzetsels werkbladen',
+      'NT2 voorzetsels oefeningen',
     ],
     lsiKeywords: [
-      'twee oefenmodi invuloefening meerkeuze voorzetsels generator',
-      'vormvervanging aparte afbeeldingslaag scènecombinatiegenerator',
-      'voorzetsels selectievakjes zeven positiewoorden gerichte oefening generator',
-      'voorzetsels werkbladen verkopen op Etsy',
-      'Amazon KDP ruimtelijke taal activiteitenboeken',
-      'commerciële licentie voorzetsels werkblad tool',
+      'voorzetsels',
+      'positie',
+      'ruimtelijk',
+      'invullen',
+      'meerkeuze',
+      'taal',
     ],
-    titleTag: 'Voorzetsels werkbladen NT2 verkopen | LessonCraftStudio',
-    metaDescription: 'Maak voorzetsels werkbladen voor NT2 en verkoop ze op Etsy en Bol.com. Twee oefenmodi, vormvervanging, 7 positiewoorden en 11 talen met antwoordsleutels.',
+    titleTag: 'Voorzetsels werkbladen maken | LessonCraftStudio',
+    metaDescription: 'Maak voorzetsels werkbladen met twee oefenmodi en 7 positiewoorden. 11 talen, automatische antwoordsleutels, PDF-export. Gratis proberen.',
   },
 
   hero: {

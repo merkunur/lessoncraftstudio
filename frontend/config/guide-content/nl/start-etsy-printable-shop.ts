@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Etsy-shop voor printables openen gids',
+    primaryKeyword: 'Etsy shop starten printables',
     secondaryKeywords: [
-      'hoe Etsy printable shop starten',
-      'Etsy printable winkel opzetten vanaf nul',
-      'beginnen met printables verkopen op Etsy',
-      'Etsy digitale download winkel voor beginners',
+      'Etsy winkel opzetten beginners',
+      'printables verkopen Etsy starten',
+      'Etsy digitale downloads beginnen',
+      'Etsy shop openen stap voor stap',
     ],
     lsiKeywords: [
-      'Etsy verkopersaccount instellen digitale downloads printbare werkbladen',
-      'printable winkel branding Etsy vermeldingsoptimalisatie nieuwe verkopers',
-      'Etsy kosten prijsstrategie educatieve printable producten',
-      'Etsy SEO tags titels beschrijvingen printable werkbladvermeldingen',
-      'digitale download winkelbeleid retourvoorwaarden Etsy verkopers',
-      'Etsy printable winkel lanceringstrategie eerste 30 dagen groeiplan',
+      'Etsy',
+      'winkel',
+      'opzetten',
+      'branding',
+      'vermelding',
+      'lancering',
     ],
-    titleTag: 'Etsy-shop voor printables openen | LessonCraftStudio',
-    metaDescription: 'Start uw Etsy-shop voor printables vanaf nul. Winkelinrichting, branding, 33 generatoren, vermeldingsoptimalisatie, prijsstelling en 30-dagengroeiplan.',
+    titleTag: 'Etsy shop starten voor printables | LessonCraftStudio',
+    metaDescription: 'Start uw Etsy shop voor printables vanaf nul. Winkelinrichting, branding, vermeldingsoptimalisatie en 30-dagen groeiplan stap voor stap.',
   },
 
   hero: {

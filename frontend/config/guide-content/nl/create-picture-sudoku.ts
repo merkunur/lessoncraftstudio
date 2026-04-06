@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'sudoku met afbeeldingen maken verkopen',
+    primaryKeyword: 'plaatjessudoku maken',
     secondaryKeywords: [
-      'plaatjessudoku verkopen op Etsy',
-      'sudoku puzzelboek Amazon KDP maken',
-      'visuele sudoku werkbladen verkopen',
-      'logicapuzzels voor kinderen Bol.com',
+      'sudoku met plaatjes kinderen',
+      'visuele sudoku generator',
+      'printbare sudoku werkbladen',
+      'sudoku puzzel met afbeeldingen',
     ],
     lsiKeywords: [
-      'plaatjessudoku bundels voor Etsy winkel',
-      'sudoku activiteitenboek Brave New Books',
-      'beeldgebaseerde logicapuzzels productlijn',
-      'sudoku werkblad generator commercieel',
-      'commerciële licentie puzzeltool',
-      'sudoku puzzels catalogus opbouwen',
+      'sudoku',
+      'logica',
+      'raster',
+      'afbeelding',
+      'niveau',
+      'puzzel',
     ],
-    titleTag: 'Sudoku met afbeeldingen verkopen | LessonCraftStudio',
-    metaDescription: 'Leer hoe u plaatjessudoku maakt en verkoopt op Etsy, Amazon KDP en Bol.com. 4x4 beeldrasters, 3 niveaus, thema-afbeeldingen en antwoordsleutels.',
+    titleTag: 'Plaatjessudoku maken | LessonCraftStudio',
+    metaDescription: 'Maak plaatjessudoku met 4x4 beeldrasters en 3 moeilijkheidsniveaus. Thema-afbeeldingen, automatische antwoordsleutels. Gratis proberen.',
   },
 
   hero: {

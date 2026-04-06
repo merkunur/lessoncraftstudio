@@ -54,10 +54,10 @@ const homepageMetadata: Record<string, { title: string; description: string; key
     ogAlt: 'LessonCraftStudio - Avvia un business di stampabili redditizio'
   },
   nl: {
-    title: 'Start een winstgevend printable bedrijf | LessonCraftStudio',
-    description: 'Bouw een printable bedrijf op Etsy, Amazon KDP of TPT. 33 professionele generatoren, 3.000+ afbeeldingen, 11 talen. Gratis proefversie met watermerk.',
-    keywords: 'printable bedrijf, printables verkopen Etsy, KDP werkbladen, bijverdienste printables, woordzoeker generator, professionele printables',
-    ogAlt: 'LessonCraftStudio - Start een winstgevend printable bedrijf'
+    title: 'Werkbladen generator | Maken & verkopen op Etsy & KDP',
+    description: '33 professionele werkblad-generatoren met 3.000+ plaatjes en 11 talen. Printklare PDF\'s in minuten. Gratis proberen — commerciële licentie voor Etsy, KDP & meer.',
+    keywords: 'werkbladen generator, werkbladen maken printen, lesmateriaal generator, tools voor werkbladen maken',
+    ogAlt: 'LessonCraftStudio - Werkbladen generator voor Etsy & KDP'
   },
   sv: {
     title: 'Starta ett loensamnt utskriftsfoereag | LessonCraftStudio',

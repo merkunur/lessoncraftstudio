@@ -2,26 +2,30 @@ import type { BundleContent } from '../types';
 
 const content: BundleContent = {
   seo: {
-    primaryKeyword: 'puzzels logica pakket kdp vier puzzelgenerators etsy verkopers',
+    primaryKeyword: 'puzzel werkbladen bundel',
     secondaryKeywords: [
-      'puzzel werkblad generator bundel voor verkopers',
-      'doolhof sudoku werkbladen bundel Etsy KDP',
-      'printbare logica puzzel toolkit commercieel',
-      'puzzelboek generators voor Amazon KDP',
+      'logica werkbladen pakket',
+      'sudoku doolhof bundel',
+      'puzzel generatoren bundel Etsy KDP',
+      'visuele logica werkbladen generators commercieel',
     ],
     lsiKeywords: [
-      'ontbrekende stukjes sudoku doolhof werkblad pakket',
-      'vreemde eend logica printbare collectie Etsy',
-      'commercieel puzzelboek generators KDP',
-      'puur visuele puzzelwerkbladen wereldwijd verkopen',
+      'basisschool',
+      'kleuters',
+      'werkbladen',
+      'printen',
+      'themaplaatjes',
+      'commerciële licentie',
+      'Etsy',
+      'KDP',
     ],
-    titleTag: 'Puzzels en logica pakket voor KDP | LessonCraftStudio',
-    metaDescription: 'Vier puur visuele puzzelgenerators in een pakket: ontbrekende stukjes, vreemde eend, plaatjes sudoku en doolhoven. Verkoop op Etsy, KDP en Bol. $149 eenmalig.',
+    titleTag: 'Puzzels & Logica bundel | 4 generatoren in één pakket',
+    metaDescription: 'Puzzel werkbladen bundel met 4 generatoren: ontbrekende stukjes, vreemde eend, plaatjes sudoku en doolhoven. Gratis proberen met watermerk, commerciële licentie inbegrepen.',
   },
 
   hero: {
-    title: 'Vier puzzelgenerators voor KDP en Etsy-verkopers',
-    tagline: 'Puur visuele puzzelwerkbladen die in elk land verkopen zonder vertaling',
+    title: 'Puzzels & Logica bundel — 4 generatoren in één pakket',
+    tagline: 'Puur visuele puzzelwerkbladen die wereldwijd verkopen zonder vertaling',
     description: 'Puzzelboeken zijn een van de best verkopende categorieen op Amazon KDP, en dit pakket geeft u vier gespecialiseerde generators om multi-formaat puzzelboeken te maken die opvallen ten opzichte van concurrenten met slechts een puzzeltype. Alle vier generators produceren puur visuele werkbladen: geen tekst, geen taalafhankelijkheid, geen vertaling nodig. Elk werkblad werkt in elk land en elke markt. De bundel richt zich op hogere-orde cognitieve vaardigheden: ruimtelijk redeneren met Ontbrekende Stukjes, visuele discriminatie met Welke Hoort Er Niet Bij, logische deductie met 4x4 Plaatjes Sudoku, en probleemoplossing met Afbeeldingspad doolhoven. Alle vier generators produceren automatische antwoordbladen, de enige bundel met 100% antwoordbladdekking. Kies uit meer dan 100 thematische beeldsets of upload uw eigen afbeeldingen voor merkgebonden producten. Of u nu puzzelboeken publiceert op Amazon KDP, activiteitenpakketten vermeldt op Etsy, of verkoopt via Bol.com en Brave New Books, dit pakket geeft u de variatie die kopers verwachten. Elke generator bevat een gratis proefversie met watermerk zodat u elke functie kunt testen voordat u een licentie aanschaft.',
   },
 

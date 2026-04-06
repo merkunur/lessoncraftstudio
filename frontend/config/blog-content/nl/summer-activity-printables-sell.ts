@@ -3,10 +3,10 @@ import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
     primaryKeyword: 'zomeractiviteiten printables verkopen',
-    secondaryKeywords: ['printable zomeractiviteiten printables strategie', 'werkbladen zomeractiviteiten printables verkopen', 'educatieve printables printables verkopen'],
-    lsiKeywords: ['printable niche zomeractiviteiten printables', 'seizoensgebonden printables', 'thematische werkbladen verkopen'],
-    titleTag: 'Zomeractiviteiten Printables Verkopen | LCS',
-    metaDescription: 'Zomeractiviteiten Printables Verkopen. Ontdek welke producten het beste verkopen, wanneer u moet beginnen en hoe u maximale omzet genereert.',
+    secondaryKeywords: ['vakantie werkbladen Etsy zomer', 'zomerse activiteiten printbaar kinderen', 'zomervakantie werkbladen maken'],
+    lsiKeywords: ['zomer', 'vakantie', 'zon', 'strand', 'buiten', 'activiteiten'],
+    titleTag: 'Zomeractiviteiten Printables Verkopen | Blog LessonCraftStudio',
+    metaDescription: 'Zomeractiviteiten printables verkopen goed tijdens de vakantieperiode. Maak werkbladen voor de zomervakantie op Etsy.',
   },
   hero: {
     title: 'Zomeractiviteiten Printables Verkopen',

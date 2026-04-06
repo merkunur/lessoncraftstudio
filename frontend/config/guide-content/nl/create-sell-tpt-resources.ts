@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'lesmateriaal verkopen online Nederland',
+    primaryKeyword: 'lesmateriaal online verkopen',
     secondaryKeywords: [
-      'printbare werkbladen online verkopen Nederland',
-      'educatief materiaal verkopen als bijverdienste',
-      'hoe lesmateriaal maken en verkopen via Gumroad',
-      'digitale werkbladen verkopen Bol.com Gumroad',
+      'werkbladen verkopen Nederland',
+      'educatief materiaal bijverdienste',
+      'digitale werkbladen verkopen',
+      'printables verkopen als bijbaan',
     ],
     lsiKeywords: [
-      'educatieve marktplaats printbare producten digitale download printbare producten',
-      'Gumroad verkopersaccount premium plan commissie royalty uitbetalingsstructuur',
-      'productspecificaties niveaucategorie vakgebied materiaaltype categorisering',
-      'productvoorbeeld miniatuur voorblad gebruiksvoorwaarden antwoordsleutel',
-      'Gumroad zoekalgoritme tags titel beschrijving vindbaarheid rangschikking',
-      'werkblad bundel productcatalogus lespakket activiteitenpakket prijsstrategie',
+      'lesmateriaal',
+      'marktplaats',
+      'werkblad',
+      'digitaal',
+      'bijverdienste',
+      'platform',
     ],
     titleTag: 'Lesmateriaal online verkopen | LessonCraftStudio',
-    metaDescription: 'Ontdek hoe u lesmateriaal online verkoopt in Nederland. Van werkbladen maken tot vermeldingen optimaliseren op Gumroad, Etsy en andere platforms.',
+    metaDescription: 'Ontdek hoe u lesmateriaal online verkoopt. Van werkbladen maken tot vermeldingen optimaliseren op Gumroad en Etsy. Gratis proberen.',
   },
 
   hero: {

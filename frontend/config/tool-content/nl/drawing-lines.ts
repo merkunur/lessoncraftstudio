@@ -2,25 +2,29 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'werkbladen trekwerkbladen gratis online maak lijntraceer',
+    primaryKeyword: 'overtrekken werkbladen gratis',
     secondaryKeywords: [
-      'lijnen trekken werkbladen online maken',
-      'trekwerkbladen fijne motoriek gratis proberen',
-      'lijntraceer werkbladen generator gratis online',
-      'fijne motoriek werkblad generator acht sjablonen',
+      'schrijfmotoriek lijnen gratis',
+      'overtrekken werkbladen gratis online maken',
+      'lijntraceer werkbladen gratis printen PDF',
+      'overtrekken generator gratis zonder account',
+      'fijne motoriek werkblad gratis',
     ],
     lsiKeywords: [
-      'fijne motoriek werkblad tool gratis online',
-      'SVG lijnsjabloon werkblad generator gratis',
-      'afbeeldingspaar matching lijntraceer werkbladen',
+      'kleuters',
+      'groep 1',
+      'printbaar',
+      'PDF',
+      'fijne motoriek',
+      'schrijfvoorbereiding',
     ],
-    titleTag: 'Trekwerkbladen gratis online | LessonCraftStudio',
-    metaDescription: 'Maak lijntraceer werkbladen met acht SVG-sjablonen en 3.100+ illustraties over 104 thema\'s. Verkoop op Etsy & KDP met commerciele licentie.',
+    titleTag: 'Gratis overtrekken werkbladen generator | Probeer online met watermerk',
+    metaDescription: 'Probeer de overtrekken werkbladen generator gratis online met watermerk. Acht lijnsjablonen, 3.100+ illustraties, 104 thema\'s. Geen account nodig.',
   },
 
   hero: {
-    title: 'Gratis trekwerkbladen fijne motoriek online',
-    tagline: 'Acht SVG-lijnsjablonen met afbeeldingspaar matching, automatisch vullen uit 104 kleurrijke thema\'s en sjabloongestuurde pagina-oriëntatie',
+    title: 'Gratis overtrekken werkbladen — Probeer online met watermerk',
+    tagline: 'Maak schrijfmotoriek werkbladen met acht lijnsjablonen en afbeeldingsparen — probeer gratis zonder registratie.',
     description: 'Probeer onze lijnen trekken werkbladen generator gratis en maak direct professionele fijne motoriek werkbladen in uw browser. Zonder registratie of download krijgt u toegang tot alle functies: acht SVG-lijnsjablonen die een complete motorische progressie dekken van horizontale lijnen (gemakkelijkst) tot diagonalen (moeilijkst), automatisch vullen van afbeeldingsparen uit meer dan 3.100 kleurrijke illustraties over 104 thema\'s, en sjabloongestuurde pagina-oriëntatie die automatisch het beste formaat kiest. Elk sjabloon plaatst 4 of 5 bijpassende afbeeldingsparen aan tegenovergestelde zijden van het lijnpad. Exporteer als printklare PDF of hoge-resolutie JPEG op 300 DPI. De gratis proefversie bevat een watermerk op downloads zodat u de tool volledig kunt evalueren. Ideaal voor ouders die fijne motoriek thuis willen oefenen, leerkrachten die schrijfvoorbereiding werkbladen zoeken, en iedereen die professionele lijntraceer activiteiten wil genereren.',
   },
 

@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'geld verdienen met activiteitenboeken KDP',
+    primaryKeyword: 'geld verdienen met KDP boeken',
     secondaryKeywords: [
-      'hoe geld verdienen met KDP activiteitenboeken',
-      'KDP activiteitenboek inkomensstrategieën',
-      'Amazon KDP activiteitenboek omzetoptimalisatie',
-      'winstgevend activiteitenboek publiceren KDP',
+      'verdienen met activiteitenboeken Amazon',
+      'KDP activiteitenboek inkomsten',
+      'winstgevend publiceren op KDP',
+      'passief inkomen Amazon boeken',
     ],
     lsiKeywords: [
-      'KDP royaltyberekening drukkosten prijsstrategie',
-      'activiteitenboek catalogus samengestelde omzet maandelijkse verdiensten',
-      'seizoenspublicatie feestdagen Kerst zomer terug-naar-school',
-      'Amazon Best Seller badge zoekwoord categorie rangschikking',
-      'multi-platform Etsy Gumroad digitale printable uitbreiding',
-      'KDP rapporten prestatietracking omzet per titel analyse',
+      'royalty',
+      'omzet',
+      'catalogus',
+      'seizoenspublicatie',
+      'prijsstrategie',
+      'inkomen',
     ],
-    titleTag: 'Geld verdienen met KDP-boeken | LessonCraftStudio',
-    metaDescription: 'Verdien geld met KDP activiteitenboeken. Royaltyberekeningen, prijssweet spots, catalogusopbouw, seizoenspublicatie en multi-platform strategie.',
+    titleTag: 'Geld verdienen met KDP boeken | LessonCraftStudio',
+    metaDescription: 'Verdien geld met activiteitenboeken op Amazon KDP. Royaltyberekeningen, prijsstrategie, catalogusopbouw en seizoenspublicatie uitgelegd.',
   },
 
   hero: {

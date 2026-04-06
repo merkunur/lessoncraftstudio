@@ -2,20 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Printables ruimte voor Etsy | LessonCraftStudio',
-    metaDescription: 'Verkoop ruimte printables op Etsy, Gumroad en KDP. Planeten, raketten en astronauten ideeën met STEM-aansluiting voor uw printable business.',
+    titleTag: 'Ruimte printables ideeën | Werkbladen voor Etsy & KDP',
+    metaDescription: 'Ontdek winstgevende ruimte printable ideeën. Maak werkbladen met planeten, raketten en astronauten om te verkopen op Etsy, Amazon KDP en Gumroad.',
 
-    primaryKeyword: 'printables ruimte om te verkopen op Etsy',
+    primaryKeyword: 'ruimte werkbladen verkopen',
     secondaryKeywords: [
-      'ruimtethema werkbladen verkopen Etsy',
-      'STEM printable business planeten',
-      'astronaut raket printables Gumroad',
-      'zonnestelsel educatieve producten verkopen',
+      'ruimte printables ideeën Etsy',
+      'ruimtethema activiteitenboek KDP',
+      'ruimte kleurplaten verkopen online',
+      'planeten werkbladen printen STEM',
     ],
     lsiKeywords: [
-      'sterrenkunde werkbladen kinderen maken',
-      'André Kuipers ruimtevaart educatie',
-      'planeten sterren printbare producten ondernemen',
+      'planeten raket astronaut',
+      'zonnestelsel sterrenkunde',
+      'ruimtevaart maan sterren',
     ],
   },
   hero: {

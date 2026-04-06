@@ -3,10 +3,10 @@ import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
     primaryKeyword: 'thuisonderwijs printables groeiende markt',
-    secondaryKeywords: ['printable thuisonderwijs printables strategie', 'werkbladen thuisonderwijs printables verkopen', 'educatieve printables groeiende markt'],
-    lsiKeywords: ['printable niche thuisonderwijs printables', 'seizoensgebonden printables', 'thematische werkbladen verkopen'],
-    titleTag: 'Thuisonderwijs Printables: Een Groeiende Markt | LCS',
-    metaDescription: 'Thuisonderwijs Printables: Een Groeiende Markt. Ontdek welke producten het beste verkopen, wanneer u moet beginnen en hoe u maximale omzet genereert.',
+    secondaryKeywords: ['werkbladen voor thuisonderwijs verkopen', 'homeschool materiaal printbaar', 'thuisschool werkbladen Nederland'],
+    lsiKeywords: ['thuisonderwijs', 'homeschool', 'leerplicht', 'ouders', 'zelfstandig', 'leerstof'],
+    titleTag: 'Thuisonderwijs Printables: Groeiende Markt | Blog LessonCraftStudio',
+    metaDescription: 'De thuisonderwijsmarkt groeit snel. Verkoop werkbladen en lespakketten aan thuisonderwijzende ouders via Etsy.',
   },
   hero: {
     title: 'Thuisonderwijs Printables: Een Groeiende Markt',

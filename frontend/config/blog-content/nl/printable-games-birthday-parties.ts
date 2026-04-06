@@ -2,11 +2,11 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'printbare spelletjes kinderfeestjes',
-    secondaryKeywords: ['printable printbare spelletjes strategie', 'werkbladen printbare spelletjes verkopen', 'educatieve printables spelletjes kinderfeestjes'],
-    lsiKeywords: ['printable niche printbare spelletjes', 'seizoensgebonden printables', 'thematische werkbladen verkopen'],
-    titleTag: 'Printbare Spelletjes voor Kinderfeestjes | LCS',
-    metaDescription: 'Printbare Spelletjes voor Kinderfeestjes. Ontdek welke producten het beste verkopen, wanneer u moet beginnen en hoe u maximale omzet genereert.',
+    primaryKeyword: 'printbare spelletjes verjaardagsfeestjes',
+    secondaryKeywords: ['feestspelletjes werkbladen verkopen', 'kinderfeest activiteiten printbaar', 'verjaardag printables Etsy'],
+    lsiKeywords: ['verjaardag', 'feestje', 'spelletjes', 'kinderen', 'entertainment', 'themafeest'],
+    titleTag: 'Printbare Spelletjes voor Verjaardagsfeestjes | Blog LessonCraftStudio',
+    metaDescription: 'Printbare spelletjes voor kinderfeestjes zijn een lucratieve niche. Verkoop verjaardagsactiviteiten op Etsy het hele jaar door.',
   },
   hero: {
     title: 'Printbare Spelletjes voor Kinderfeestjes',

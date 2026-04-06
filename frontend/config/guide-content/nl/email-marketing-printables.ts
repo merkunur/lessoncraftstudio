@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'mailmarketing verkopers printable printables',
+    primaryKeyword: 'e-mailmarketing printable bedrijf',
     secondaryKeywords: [
-      'e-maillijst opbouwen printable bedrijf',
-      'nieuwsbrief strategie werkbladen verkopen',
-      'e-mail automatisering printables',
-      'leadmagneten voor werkblad-verkopers',
+      'e-maillijst opbouwen printables',
+      'nieuwsbrief strategie Etsy verkoper',
+      'leadmagneet maken werkbladen',
+      'e-mail automatisering webshop',
     ],
     lsiKeywords: [
-      'e-maillijst abonnees opt-in formulier leadmagneet conversie autoresponder',
-      'nieuwsbrief campagne open rate click-through segmentatie personalisatie',
-      'marketing automatisering drip campagne welkomstreeks verkoopfunnel nurturing',
-      'Etsy printable verkoper educatief materiaal werkbladen digitale downloads',
-      'A/B testen onderwerpregel e-mail template responsief ontwerp deliverability',
-      'klantretentie herhaalaankopen upselling cross-selling productlancering aankondiging',
+      'nieuwsbrief',
+      'e-maillijst',
+      'leadmagneet',
+      'automatisering',
+      'conversie',
+      'abonnees',
     ],
-    titleTag: 'E-mailmarketing voor verkopers | LessonCraftStudio',
-    metaDescription: 'E-mailmarketing voor printables-verkopers: e-maillijst opbouwen, leadmagneten maken, nieuwsbrieven die verkopen en geautomatiseerde funnels instellen.',
+    titleTag: 'E-mailmarketing voor printable verkopers | LessonCraftStudio',
+    metaDescription: 'E-mailmarketing voor printable verkopers: e-maillijst opbouwen, leadmagneten maken, nieuwsbrieven en geautomatiseerde funnels instellen.',
   },
 
   hero: {

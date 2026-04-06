@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'productlijn printables opbouwen',
+    primaryKeyword: 'printable productlijn opbouwen',
     secondaryKeywords: [
-      'werkblad productlijn opbouwen',
-      'printable collectie strategie',
-      'educatieve productlijn ontwikkelen',
-      'printable catalogus planning',
+      'werkbladen productlijn strategie',
+      'printable catalogus opbouwen',
+      'productlijn planning printables',
+      'printable collectie samenstellen',
     ],
     lsiKeywords: [
-      'productlijn architectuur categoriestructuur themagroepering doelgroepsegmentatie vakoverschrijdend',
-      'merkconsistentie visuele identiteit herkenbare stijl professionele uitstraling klantvertrouwen',
-      'catalogusplanning seizoensgebonden uitbreiding niveaucategorie progressie vakgebiedsdekking',
-      'kruisverkoopstrategie aanvullende producten upselling bundelintegratie klantwaarde',
-      'productlanceringsschema publicatiekalender contentplanning capaciteitsbalans markttiming',
-      'klantreis herhaalaankoop levenslange klantwaarde merkbekendheid loyaliteitsopbouw',
+      'productlijn',
+      'catalogus',
+      'categorie',
+      'merk',
+      'kruisverkoop',
+      'planning',
     ],
-    titleTag: 'Productlijn printables opbouwen | LessonCraftStudio',
-    metaDescription: 'Leer een winstgevende productlijn van printables opbouwen. Categoriestructuur, merkconsistentie, kruisverkoop en seizoensplanning voor Etsy en Bol.com.',
+    titleTag: 'Printable productlijn opbouwen | LessonCraftStudio',
+    metaDescription: 'Bouw een winstgevende printable productlijn op. Categoriestructuur, merkconsistentie, kruisverkoop en seizoensplanning voor Etsy en KDP.',
   },
 
   hero: {

@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'woordzoekers verkopen op Etsy tips',
+    primaryKeyword: 'woordzoekers verkopen op Etsy',
     secondaryKeywords: [
-      'hoe woordzoeker puzzels verkopen op Etsy',
-      'Etsy woordzoeker puzzel winkel opzetten',
-      'printbare woordzoeker puzzels Etsy bedrijf',
-      'puzzel printables verkopen op Etsy',
+      'woordzoeker puzzels Etsy winkel',
+      'printbare woordzoekers Etsy verkopen',
+      'puzzel printables Etsy tips',
+      'woordzoeker bundels Etsy',
     ],
     lsiKeywords: [
-      'Etsy digitale download woordzoeker puzzel vermeldingsoptimalisatie',
-      'woordzoeker puzzel bundel prijsstrategie Etsy verkopers',
-      'Etsy SEO tags voor printbare puzzel werkbladen',
-      'kruiswoord woordpuzzel verkopen Etsy winkel',
-      'feestdag thema woordzoeker printable Etsy seizoensstrategie',
-      'Etsy vermeldingsfoto mockups voor woordzoeker puzzelproducten',
+      'woordzoeker',
+      'Etsy',
+      'puzzel',
+      'bundel',
+      'vermelding',
+      'meertalig',
     ],
     titleTag: 'Woordzoekers verkopen op Etsy | LessonCraftStudio',
-    metaDescription: 'Woordzoekers verkopen op Etsy met 4 puzzelgeneratoren. Etsy-SEO, bundeling met kruiswoorden, prijsstelling en meertalige productmogelijkheden.',
+    metaDescription: 'Woordzoekers verkopen op Etsy: SEO-tips, bundeling met kruiswoorden, prijsstelling en meertalige producten. 4 puzzelgeneratoren. Gratis proberen.',
   },
 
   hero: {

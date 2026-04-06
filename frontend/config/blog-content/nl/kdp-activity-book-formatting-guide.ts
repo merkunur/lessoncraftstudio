@@ -2,11 +2,11 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'kdp activiteitenboek formatteren gids',
-    secondaryKeywords: ['printable kdp activiteitenboek formatteren', 'werkbladen kdp activiteitenboek', 'printables how-to gids'],
-    lsiKeywords: ['printable productie tips', 'werkbladen maken strategie', 'printable business how-to'],
-    titleTag: 'KDP Activiteitenboek Formatteren: Complete Gids | LCS',
-    metaDescription: 'KDP Activiteitenboek Formatteren: Complete Gids. Stap-voor-stap instructies en praktische tips voor printable verkopers. Direct toepasbaar.',
+    primaryKeyword: 'KDP activiteitenboek formatteren handleiding',
+    secondaryKeywords: ['Amazon KDP boek opmaken', 'doeboek formaat KDP vereisten', 'activiteitenboek pagina-indeling'],
+    lsiKeywords: ['formatteren', 'pagina', 'marges', 'bleed', 'omslag', 'specificaties'],
+    titleTag: 'KDP Activiteitenboek Formatteren: Handleiding | Blog LessonCraftStudio',
+    metaDescription: 'Formatteer uw activiteitenboek correct voor Amazon KDP. Complete handleiding voor pagina-indeling, marges en omslagontwerp.',
   },
   hero: {
     title: 'KDP Activiteitenboek Formatteren: Complete Gids',

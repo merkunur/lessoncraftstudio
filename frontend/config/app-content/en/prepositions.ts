@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'preposition worksheet generator for ESL sellers',
+    primaryKeyword: 'preposition worksheet generator sell Etsy',
     secondaryKeywords: [
       'preposition worksheet generator for ESL Etsy sellers',
       'create preposition worksheets for ESL Etsy shop',
@@ -15,8 +15,8 @@ const content: AppContent = {
       'sell grammar activities commercially',
       'language learning worksheet products',
     ],
-    titleTag: 'Preposition Worksheet Generator for ESL Sellers | LCS',
-    metaDescription: 'Create preposition worksheets to sell on Etsy & KDP. Visual grammar activities for ESL learners, 11 languages, commercial license. Try free — no signup.',
+    titleTag: 'Preposition Worksheet Generator | Sell on Etsy & KDP',
+    metaDescription: 'Create visual preposition worksheets for ESL learners in 11 languages. Try free with watermark. Commercial license for Etsy & KDP. $49 one-time.',
   },
 
   hero: {

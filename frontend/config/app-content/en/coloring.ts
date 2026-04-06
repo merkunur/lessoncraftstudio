@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'coloring page generator',
+    primaryKeyword: 'coloring page generator sell Etsy KDP',
     secondaryKeywords: [
       'coloring page generator to sell on Etsy and KDP',
       'create coloring pages for Etsy shop',
@@ -15,8 +15,8 @@ const content: AppContent = {
       'sell coloring pages commercially',
       'printable coloring products',
     ],
-    titleTag: 'Coloring Page Generator — Sell on Etsy & KDP | LCS',
-    metaDescription: 'Create coloring pages to sell on Etsy & KDP. Themed images, outline conversion, 104 collections, commercial license. Try free — no design skills needed.',
+    titleTag: 'Coloring Page Generator | Create & Sell on Etsy & KDP',
+    metaDescription: 'Create coloring pages from 3,000+ themed images with outline conversion. Try free with watermark. Commercial license for Etsy, KDP & TPT. $49 one-time.',
   },
 
   hero: {

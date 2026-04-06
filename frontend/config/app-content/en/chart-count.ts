@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'counting chart worksheets',
+    primaryKeyword: 'counting chart generator sell Etsy KDP',
     secondaryKeywords: [
       'counting chart worksheet generator for Etsy shop',
       'picture graph worksheets to sell online',
@@ -15,8 +15,8 @@ const content: AppContent = {
       'early learning data skills worksheets',
       'sell graphing activities online',
     ],
-    titleTag: 'Counting Chart Worksheets — Sell on Etsy | LCS',
-    metaDescription: 'Create picture graph & counting chart worksheets to sell on Etsy, KDP & TPT. Themed images, auto answer keys, commercial license. Try free in 3 minutes.',
+    titleTag: 'Counting Chart Generator | Sell on Etsy & KDP',
+    metaDescription: 'Create picture graph & counting chart worksheets with themed images. Try free with watermark. Commercial license for Etsy, KDP & TPT. $49 one-time.',
   },
 
   hero: {

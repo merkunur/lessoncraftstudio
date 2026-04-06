@@ -14,7 +14,7 @@ const content: GuideContent = {
       'product catalog planning',
       'cohesive product branding',
     ],
-    titleTag: 'How to Create a Printable Product Line | LCS',
+    titleTag: 'Build a Printable Product Line That Sells | LCS',
     metaDescription: 'Guide to creating a cohesive printable product line. Product planning, catalog structure, and cross-selling strategies for Etsy and KDP sellers.',
   },
 

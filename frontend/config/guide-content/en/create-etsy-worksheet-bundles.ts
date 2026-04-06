@@ -14,7 +14,7 @@ const content: GuideContent = {
       'digital product bundling',
       'worksheet pack creation',
     ],
-    titleTag: 'How to Create Worksheet Bundles for Etsy | LCS',
+    titleTag: 'Etsy Worksheet Bundles: Create & Price Them | LCS',
     metaDescription: 'Guide to creating worksheet bundles that sell on Etsy. Theme selection, bundle sizing, pricing tiers, and listing optimization for printable bundle sellers',
   },
 

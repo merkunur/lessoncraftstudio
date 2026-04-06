@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'subtraction worksheet generator',
+    primaryKeyword: 'subtraction worksheet generator sell Etsy',
     secondaryKeywords: [
       'subtraction worksheet generator for selling printables',
       'create subtraction worksheets for Etsy shop',
@@ -16,8 +16,8 @@ const content: AppContent = {
       'sell subtraction worksheets commercially',
       'math printable entrepreneurship',
     ],
-    titleTag: 'Subtraction Worksheet Generator — Sell on Etsy | LCS',
-    metaDescription: 'Generate visual subtraction worksheets to sell on Etsy, KDP & TPT. Themed images, answer keys, commercial license. Try free — no design skills needed.',
+    titleTag: 'Subtraction Worksheet Generator | Sell on Etsy & KDP',
+    metaDescription: 'Generate visual subtraction worksheets with themed images & answer keys. Try free with watermark. Commercial license for Etsy, KDP & TPT. $49 one-time.',
   },
 
   hero: {

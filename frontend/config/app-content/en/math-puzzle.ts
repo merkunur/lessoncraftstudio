@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'math puzzle generator',
+    primaryKeyword: 'math puzzle generator sell Etsy KDP',
     secondaryKeywords: [
       'math puzzle printable generator for Etsy sellers',
       'create math puzzles to sell on Amazon KDP',
@@ -15,8 +15,8 @@ const content: AppContent = {
       'KDP puzzle book niche',
       'sell unique math formats online',
     ],
-    titleTag: 'Math Puzzle Generator — Sell on Etsy & KDP | LCS',
-    metaDescription: 'Create grid-based math puzzles to sell on Etsy & KDP. Unique format with themed images, answer keys & commercial license. Try free — generate in 3 min.',
+    titleTag: 'Math Puzzle Generator | Sell on Etsy & KDP',
+    metaDescription: 'Create grid-based math puzzles with themed images & auto answer keys. Try free with watermark. Commercial license for Etsy, KDP & TPT. $49 one-time.',
   },
 
   hero: {

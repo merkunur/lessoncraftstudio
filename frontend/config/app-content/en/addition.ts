@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'create addition worksheets to sell on Etsy',
+    primaryKeyword: 'addition worksheet generator sell Etsy KDP',
     secondaryKeywords: [
       'addition worksheet generator for Etsy sellers',
       'make addition worksheets for Amazon KDP',
@@ -15,8 +15,8 @@ const content: AppContent = {
       'commercial license worksheet generator',
       'sell educational printables online',
     ],
-    titleTag: 'Create Addition Worksheets to Sell on Etsy | LCS',
-    metaDescription: 'Generate professional addition worksheets with themed images to sell on Etsy & KDP. Commercial license included. Try free with watermark — no signup.',
+    titleTag: 'Addition Worksheet Generator | Sell on Etsy & KDP',
+    metaDescription: 'Generate professional addition worksheets with themed images & answer keys. Try free with watermark. Commercial license for Etsy, KDP & TPT. $49 one-time.',
   },
 
   hero: {

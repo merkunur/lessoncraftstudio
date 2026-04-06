@@ -14,7 +14,7 @@ const content: GuideContent = {
       'Etsy review strategy',
       'social proof digital products',
     ],
-    titleTag: 'How to Get Reviews for Printable Products | LCS',
+    titleTag: 'Get Reviews for Printable Products on Etsy | LCS',
     metaDescription: 'How to get reviews for printable products. Ethical strategies for building social proof on Etsy and other platforms for printable sellers.',
   },
 

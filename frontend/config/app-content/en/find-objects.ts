@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'I Spy printable maker',
+    primaryKeyword: 'hidden object worksheet generator sell Etsy',
     secondaryKeywords: [
       'I Spy printable maker for selling on Etsy and KDP',
       'create I Spy worksheets for Etsy shop',
@@ -15,8 +15,8 @@ const content: AppContent = {
       'sell hidden object printables commercially',
       'visual search worksheet products',
     ],
-    titleTag: 'I Spy Printable Maker — Sell on Etsy & KDP | LCS',
-    metaDescription: 'Create I Spy & hidden object worksheets to sell on Etsy & KDP. Two activity modes, auto answer keys, 104 themes, commercial license. Try free — no signup.',
+    titleTag: 'Hidden Object Worksheet Generator | Sell on Etsy & KDP',
+    metaDescription: 'Create I Spy & hidden object worksheets with 104 themes & answer keys. Try free with watermark. Commercial license for Etsy, KDP & TPT. $49 one-time.',
   },
 
   hero: {

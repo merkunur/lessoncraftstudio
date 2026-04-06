@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'find and count worksheet creator for Etsy',
+    primaryKeyword: 'find and count generator sell Etsy KDP',
     secondaryKeywords: [
       'search and count worksheet creator for Etsy shop',
       'create find and count worksheets for Etsy',
@@ -15,8 +15,8 @@ const content: AppContent = {
       'sell find and count commercially',
       'visual counting worksheet products',
     ],
-    titleTag: 'Find and Count Worksheet Creator for Etsy | LCS',
-    metaDescription: 'Create find-and-count worksheets to sell on Etsy & KDP. I Spy + Letter Spotting modes, auto answer keys, 104 themes, commercial license. Try free.',
+    titleTag: 'Find and Count Generator | Sell on Etsy & KDP',
+    metaDescription: 'Create find-and-count worksheets with I Spy & letter spotting modes. Try free with watermark. Commercial license for Etsy, KDP & TPT. $49 one-time.',
   },
 
   hero: {

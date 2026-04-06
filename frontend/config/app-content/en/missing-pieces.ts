@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'missing piece puzzle generator for KDP books',
+    primaryKeyword: 'missing pieces puzzle generator sell Etsy',
     secondaryKeywords: [
       'missing piece puzzle generator for KDP activity books',
       'create missing pieces puzzles for Etsy',
@@ -15,8 +15,8 @@ const content: AppContent = {
       'KDP activity book business',
       'sell observation worksheets online',
     ],
-    titleTag: 'Missing Piece Puzzle Generator for KDP Books | LCS',
-    metaDescription: 'Create missing piece puzzles to sell on Etsy & KDP. Visual observation format, auto answer keys, 104 themes, commercial license. Try free with watermark.',
+    titleTag: 'Missing Pieces Puzzle Generator | Sell on Etsy & KDP',
+    metaDescription: 'Create missing piece puzzles with visual observation format & answer keys. Try free with watermark. Commercial license for Etsy & KDP. $49 one-time.',
   },
 
   hero: {

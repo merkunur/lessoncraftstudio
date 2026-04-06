@@ -14,7 +14,7 @@ const content: GuideContent = {
       'digital product pricing strategy',
       'printable bundle pricing',
     ],
-    titleTag: 'How to Price Printable Worksheets on Etsy | LCS',
+    titleTag: 'Etsy Printable Pricing: Maximize Revenue | LCS',
     metaDescription: 'Pricing guide for printable worksheets on Etsy. Individual vs bundle pricing, competitive analysis, and profit-maximizing strategies for printable sellers.',
   },
 

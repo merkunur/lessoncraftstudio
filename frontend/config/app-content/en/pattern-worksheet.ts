@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'pattern recognition worksheet generator for Etsy',
+    primaryKeyword: 'pattern worksheet generator sell Etsy KDP',
     secondaryKeywords: [
       'pattern recognition worksheet generator for Etsy sellers',
       'create pattern recognition worksheets for Etsy',
@@ -15,8 +15,8 @@ const content: AppContent = {
       'sell pattern worksheets commercially',
       'cognitive skills worksheet products',
     ],
-    titleTag: 'Pattern Recognition Worksheet Generator for Etsy | LCS',
-    metaDescription: 'Create pattern recognition worksheets to sell on Etsy & KDP. Visual sequence activities, themed images, auto answer keys, commercial license. Try free.',
+    titleTag: 'Pattern Worksheet Generator | Sell on Etsy & KDP',
+    metaDescription: 'Create pattern recognition worksheets with visual sequence activities. Try free with watermark. Commercial license for Etsy, KDP & TPT. $49 one-time.',
   },
 
   hero: {

@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'shadow matching worksheet generator for Etsy',
+    primaryKeyword: 'shadow matching generator sell Etsy KDP',
     secondaryKeywords: [
       'shadow matching worksheet generator for Etsy printables',
       'create shadow matching worksheets for Etsy shop',
@@ -15,8 +15,8 @@ const content: AppContent = {
       'sell matching worksheets commercially',
       'visual discrimination worksheet products',
     ],
-    titleTag: 'Shadow Matching Worksheet Generator for Etsy | LCS',
-    metaDescription: 'Create shadow matching worksheets to sell on Etsy & KDP. Silhouette puzzles, auto answer keys, 104 themes, commercial license. Try free — no signup needed.',
+    titleTag: 'Shadow Matching Generator | Sell on Etsy & KDP',
+    metaDescription: 'Create shadow matching worksheets with silhouette puzzles & answer keys. Try free with watermark. Commercial license for Etsy, KDP & TPT. $49 one-time.',
   },
 
   hero: {

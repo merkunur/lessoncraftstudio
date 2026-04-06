@@ -15,7 +15,7 @@ const content: GuideContent = {
       'digital download math products Etsy',
       'Etsy SEO for math worksheets',
     ],
-    titleTag: 'How to Sell Math Worksheets on Etsy (2026) | LCS',
+    titleTag: 'Sell Math Worksheets on Etsy: 2026 Guide | LCS',
     metaDescription: 'Step-by-step guide to selling math worksheets on Etsy in 2026. SEO, pricing, bundling strategies, and seasonal timing for printable math sellers.',
   },
 

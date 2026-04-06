@@ -15,7 +15,7 @@ const content: GuideContent = {
       'educational resource marketplace',
       'sell teaching materials online',
     ],
-    titleTag: 'How to Create & Sell TPT Resources | LCS',
+    titleTag: 'Create & Sell TPT Resources: 2026 Guide | LCS',
     metaDescription: 'Guide to creating and selling printable resources on Gumroad. Product creation, store setup, pricing, and marketing strategies for digital product sellers.',
   },
 

@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'word scramble maker for Etsy sellers',
+    primaryKeyword: 'word scramble generator sell Etsy KDP',
     secondaryKeywords: [
       'word scramble worksheet generator for Etsy sellers',
       'create word scramble puzzles for Etsy shop',
@@ -15,8 +15,8 @@ const content: AppContent = {
       'sell spelling activities online',
       'vocabulary worksheet products Etsy',
     ],
-    titleTag: 'Word Scramble Maker for Etsy Sellers | LCS',
-    metaDescription: 'Create word scramble worksheets to sell on Etsy & KDP. Image clues, 4 difficulty levels, 11 languages, commercial license. Try free — no signup needed.',
+    titleTag: 'Word Scramble Generator | Sell on Etsy & KDP',
+    metaDescription: 'Create word scramble worksheets with image clues in 11 languages. Try free with watermark. Commercial license for Etsy, KDP & TPT. $49 one-time.',
   },
 
   hero: {

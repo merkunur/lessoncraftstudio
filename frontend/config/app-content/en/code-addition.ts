@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'secret code math puzzles',
+    primaryKeyword: 'secret code math generator sell Etsy KDP',
     secondaryKeywords: [
       'secret code math puzzle generator for Etsy',
       'code addition worksheets to sell online',
@@ -15,9 +15,8 @@ const content: AppContent = {
       'code-breaking worksheet business',
       'sell unique puzzle formats online',
     ],
-    titleTag: 'Secret Code Math Puzzles — Sell on Etsy & KDP | LCS',
-    metaDescription:
-      'Generate unique crack-the-code math puzzles to sell on Etsy & KDP. Arithmetic + decoding = a niche product few competitors offer. Try free with watermark.',
+    titleTag: 'Secret Code Math Generator | Sell on Etsy & KDP',
+    metaDescription: 'Create secret code addition puzzles that combine math with letter decoding. Try free with watermark. Commercial license for Etsy & KDP. $49 one-time.',
   },
 
   hero: {

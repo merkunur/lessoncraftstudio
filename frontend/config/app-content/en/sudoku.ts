@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'picture sudoku generator for KDP puzzle books',
+    primaryKeyword: 'picture sudoku generator sell puzzle books KDP',
     secondaryKeywords: [
       'create picture sudoku puzzles for Etsy',
       'sudoku puzzle books for Amazon KDP sellers',
@@ -14,8 +14,8 @@ const content: AppContent = {
       'sell logic puzzles commercially',
       'visual sudoku worksheet products',
     ],
-    titleTag: 'Picture Sudoku Generator for KDP Puzzle Books | LCS',
-    metaDescription: 'Create picture sudoku puzzles to sell on Etsy & KDP. 4x4 image grids, 3 difficulty levels, auto answer keys, commercial license. Try free with watermark.',
+    titleTag: 'Picture Sudoku Generator | Sell Puzzle Books on KDP',
+    metaDescription: 'Create picture sudoku puzzles with 4x4 image grids & 3 difficulty levels. Try free with watermark. Commercial license for Etsy & KDP. $49 one-time.',
   },
 
   hero: {

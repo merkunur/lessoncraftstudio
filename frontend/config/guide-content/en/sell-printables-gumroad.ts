@@ -14,7 +14,7 @@ const content: GuideContent = {
       'Gumroad printable business',
       'direct-to-consumer printable sales',
     ],
-    titleTag: 'How to Sell Printables on Gumroad | LCS',
+    titleTag: 'Sell Printables on Gumroad: Setup & Growth | LCS',
     metaDescription: 'Guide to selling printables on Gumroad. Store setup, pricing, payment processing, and marketing strategies for printable sellers going direct-to-consumer.',
   },
 

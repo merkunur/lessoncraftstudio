@@ -14,7 +14,7 @@ const content: GuideContent = {
       'digital product workflow optimization',
       'efficient printable production',
     ],
-    titleTag: 'How to Automate Your Printable Business | LCS',
+    titleTag: 'Automate Your Printable Business | LCS',
     metaDescription: 'How to automate your printable business. Production workflows, listing tools, and time-saving strategies for efficient printable sellers.',
   },
 

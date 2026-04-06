@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'odd one out puzzle maker',
+    primaryKeyword: 'odd one out puzzle generator sell Etsy KDP',
     secondaryKeywords: [
       'odd one out puzzle maker for selling on Etsy and KDP',
       'create odd one out worksheets for Etsy shop',
@@ -15,8 +15,8 @@ const content: AppContent = {
       'sell find the different puzzles commercially',
       'critical thinking worksheet products',
     ],
-    titleTag: 'Odd One Out Puzzle Maker — Sell on Etsy & KDP | LCS',
-    metaDescription: 'Create odd one out puzzles to sell on Etsy & KDP. Two puzzle modes, auto answer keys with red circles, 104 themes, commercial license. Try free.',
+    titleTag: 'Odd One Out Puzzle Generator | Sell on Etsy & KDP',
+    metaDescription: 'Create odd-one-out puzzles with two modes & auto answer keys. Try free with watermark. Commercial license for Etsy, KDP & TPT. $49 one-time.',
   },
 
   hero: {

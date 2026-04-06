@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'tracing line worksheet generator for Etsy',
+    primaryKeyword: 'line tracing worksheet generator sell Etsy',
     secondaryKeywords: [
       'tracing line worksheet generator for Etsy sellers',
       'create line tracing worksheets for Etsy shop',
@@ -15,8 +15,8 @@ const content: AppContent = {
       'sell tracing worksheets commercially',
       'pre-writing worksheet products',
     ],
-    titleTag: 'Tracing Line Worksheet Generator for Etsy | LCS',
-    metaDescription: 'Create line tracing worksheets to sell on Etsy & KDP. 8 SVG templates, themed image pairs, fine motor activities, license. Try free.',
+    titleTag: 'Line Tracing Worksheet Generator | Sell on Etsy & KDP',
+    metaDescription: 'Create line tracing worksheets with 8 SVG templates & themed image pairs. Try free with watermark. Commercial license for Etsy & KDP. $49 one-time.',
   },
 
   hero: {

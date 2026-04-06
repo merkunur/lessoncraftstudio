@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'greater than less than worksheet creator',
+    primaryKeyword: 'greater than less than generator sell Etsy',
     secondaryKeywords: [
       'greater than less than worksheet creator for Etsy',
       'create more or less worksheets for Etsy shop',
@@ -15,8 +15,8 @@ const content: AppContent = {
       'sell math comparison worksheets commercially',
       'early math concepts worksheet products',
     ],
-    titleTag: 'Greater Than Less Than Worksheet Creator | LCS',
-    metaDescription: 'Create greater than less than worksheets to sell on Etsy & KDP. Visual number comparison, 3 modes, answer keys, commercial license. Try free — no signup.',
+    titleTag: 'Greater Than Less Than Generator | Sell on Etsy & KDP',
+    metaDescription: 'Create greater-than-less-than worksheets with 3 comparison modes. Try free with watermark. Commercial license for Etsy, KDP & TPT. $49 one-time.',
   },
 
   hero: {

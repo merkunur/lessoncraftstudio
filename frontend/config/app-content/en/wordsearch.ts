@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'word search generator',
+    primaryKeyword: 'word search generator sell Etsy KDP',
     secondaryKeywords: [
       'word search puzzle generator to sell on Etsy and KDP',
       'create word search puzzles for Etsy shop',
@@ -15,8 +15,8 @@ const content: AppContent = {
       'word puzzle printable products',
       'sell vocabulary activities online',
     ],
-    titleTag: 'Word Search Generator — Sell on Etsy & KDP | LCS',
-    metaDescription: 'Create custom word search puzzles to sell on Etsy & KDP. Adjustable grids, 104 themes, 11 languages, answer keys, commercial license. Try free — no signup.',
+    titleTag: 'Word Search Generator | Create & Sell on Etsy & KDP',
+    metaDescription: 'Create word search puzzles with 3,000+ themed images in 11 languages. Try free with watermark. Commercial license for Etsy, KDP & TPT. $49 one-time.',
   },
 
   hero: {

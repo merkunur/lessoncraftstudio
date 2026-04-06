@@ -14,7 +14,7 @@ const content: GuideContent = {
       'scale digital product business',
       'full-time printable income',
     ],
-    titleTag: 'How to Scale Your Printable Business | LCS',
+    titleTag: 'Scale Your Printable Business: Growth Guide | LCS',
     metaDescription: 'How to scale your printable business from side hustle to full-time income. Multi-platform expansion, automation, and growth strategies for sellers.',
   },
 

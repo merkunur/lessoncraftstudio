@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'handwriting worksheet generator for Etsy',
+    primaryKeyword: 'handwriting worksheet generator sell Etsy KDP',
     secondaryKeywords: [
       'handwriting worksheet generator for Etsy sellers',
       'create handwriting practice sheets for Etsy',
@@ -15,8 +15,8 @@ const content: AppContent = {
       'sell tracing worksheets commercially',
       'letter formation worksheet products',
     ],
-    titleTag: 'Handwriting Worksheet Generator for Etsy | LCS',
-    metaDescription: 'Create handwriting worksheets to sell on Etsy & KDP. 3 practice modes, stroke guides, fading traces, commercial license. Try free — no signup needed.',
+    titleTag: 'Handwriting Worksheet Generator | Sell on Etsy & KDP',
+    metaDescription: 'Create handwriting worksheets with 3 practice modes & stroke guides. Try free with watermark. Commercial license for Etsy, KDP & TPT. $49 one-time.',
   },
 
   hero: {

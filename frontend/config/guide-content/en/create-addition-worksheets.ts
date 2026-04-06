@@ -14,7 +14,7 @@ const content: GuideContent = {
       'math worksheet business guide',
       'create sellable math products',
     ],
-    titleTag: 'How to Create Addition Worksheets to Sell | LCS',
+    titleTag: 'Create Addition Worksheets to Sell: Full Guide | LCS',
     metaDescription: 'Step-by-step guide to creating addition worksheets to sell on Etsy & KDP. Theme selection, difficulty tiers, bundling strategies, and listing tips.',
   },
 

@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'cryptogram puzzle generator',
+    primaryKeyword: 'cryptogram puzzle generator sell Etsy KDP',
     secondaryKeywords: [
       'cryptogram puzzle generator to sell on Etsy',
       'create cipher puzzles for Etsy shop',
@@ -15,8 +15,8 @@ const content: AppContent = {
       'cipher puzzle business',
       'sell decoder worksheets online',
     ],
-    titleTag: 'Cryptogram Puzzle Generator — Sell on Etsy | LCS',
-    metaDescription: 'Generate picture cryptogram puzzles to sell on Etsy & KDP. Cipher encoding, adjustable difficulty, 11 languages, license. Try free.',
+    titleTag: 'Cryptogram Puzzle Generator | Sell on Etsy & KDP',
+    metaDescription: 'Create cryptogram puzzles with cipher encoding in 11 languages. Try free with watermark. Commercial license for Etsy, KDP & TPT. $49 one-time.',
   },
 
   hero: {

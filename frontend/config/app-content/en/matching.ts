@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'matching worksheet generator for Etsy sellers',
+    primaryKeyword: 'matching worksheet generator sell Etsy KDP',
     secondaryKeywords: [
       'matching worksheet generator for Etsy printable business',
       'create matching activities for Etsy shop',
@@ -15,8 +15,8 @@ const content: AppContent = {
       'sell matching activities commercially',
       'preschool worksheet products Etsy',
     ],
-    titleTag: 'Matching Worksheet Generator for Etsy Sellers | LCS',
-    metaDescription: 'Create matching worksheets to sell on Etsy & KDP. 4 matching modes, auto answer keys, 104 themes, commercial license. Try free — no signup required.',
+    titleTag: 'Matching Worksheet Generator | Sell on Etsy & KDP',
+    metaDescription: 'Create matching worksheets with 4 modes, 104 themes & auto answer keys. Try free with watermark. Commercial license for Etsy, KDP & TPT. $49 one-time.',
   },
 
   hero: {

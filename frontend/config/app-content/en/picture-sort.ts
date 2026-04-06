@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'sorting worksheet generator for Etsy sellers',
+    primaryKeyword: 'sorting worksheet generator sell Etsy KDP',
     secondaryKeywords: [
       'sorting worksheet generator for printable business Etsy',
       'create sorting worksheets for Etsy shop',
@@ -15,8 +15,8 @@ const content: AppContent = {
       'sell sorting worksheets commercially',
       'early learning classification products',
     ],
-    titleTag: 'Sorting Worksheet Generator for Etsy Sellers | LCS',
-    metaDescription: 'Create sorting worksheets to sell on Etsy & KDP. Category sorting with themed images, auto answer keys, 104 themes, commercial license. Try free.',
+    titleTag: 'Sorting Worksheet Generator | Sell on Etsy & KDP',
+    metaDescription: 'Create category sorting worksheets with themed images & answer keys. Try free with watermark. Commercial license for Etsy, KDP & TPT. $49 one-time.',
   },
 
   hero: {

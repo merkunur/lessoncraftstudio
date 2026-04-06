@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'alphabet worksheet generator for Etsy',
+    primaryKeyword: 'alphabet train generator sell Etsy KDP',
     secondaryKeywords: [
       'alphabet worksheet generator for Etsy KDP sellers',
       'create alphabet train worksheets for Etsy shop',
@@ -15,8 +15,8 @@ const content: AppContent = {
       'sell letter learning worksheets commercially',
       'literacy worksheet products',
     ],
-    titleTag: 'Alphabet Worksheet Generator for Etsy & KDP | LCS',
-    metaDescription: 'Create alphabet worksheets to sell on Etsy & KDP. Train-car letter learning, themed images, 11 languages, commercial license. Try free — no signup needed.',
+    titleTag: 'Alphabet Train Generator | Sell on Etsy & KDP',
+    metaDescription: 'Create alphabet train worksheets with themed images in 11 languages. Try free with watermark. Commercial license for Etsy, KDP & TPT. $49 one-time.',
   },
 
   hero: {

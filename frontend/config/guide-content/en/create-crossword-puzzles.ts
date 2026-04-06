@@ -14,7 +14,7 @@ const content: GuideContent = {
       'puzzle selling business',
       'sellable crossword products',
     ],
-    titleTag: 'How to Create Crossword Puzzles for Selling | LCS',
+    titleTag: 'Create Crossword Puzzles to Sell: Full Guide | LCS',
     metaDescription: 'Guide to creating crossword puzzles for selling on Etsy & KDP. Picture clues, theme selection, and strategies for crossword puzzle sellers.',
   },
 

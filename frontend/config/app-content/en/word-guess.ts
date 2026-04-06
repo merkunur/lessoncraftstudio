@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'word guess puzzle creator for Etsy sellers',
+    primaryKeyword: 'word guess puzzle generator sell Etsy KDP',
     secondaryKeywords: [
       'word guess puzzle creator for Etsy printable shop',
       'create hangman-style worksheets for Etsy',
@@ -15,8 +15,8 @@ const content: AppContent = {
       'sell vocabulary puzzles commercially',
       'educational word game products',
     ],
-    titleTag: 'Word Guess Puzzle Creator for Etsy Sellers | LCS',
-    metaDescription: 'Create word guess puzzles to sell on Etsy & KDP. Hangman-style format, image clues, 4 difficulty levels, commercial license. Try free — no signup required.',
+    titleTag: 'Word Guess Puzzle Generator | Sell on Etsy & KDP',
+    metaDescription: 'Create word guess puzzles with hangman-style format & image clues. Try free with watermark. Commercial license for Etsy, KDP & TPT. $49 one-time.',
   },
 
   hero: {

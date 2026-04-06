@@ -1051,12 +1051,22 @@ export default async function AppDetailPage({
     inLanguage: getHreflangCode(locale),
     image: schemaImage,
     ...(schemaScreenshots?.length && { screenshot: schemaScreenshots }),
-    offers: {
-      '@type': 'Offer',
-      price: '0',
-      priceCurrency: 'USD',
-      description: ui.watermarkNote,
-    },
+    offers: [
+      {
+        '@type': 'Offer',
+        price: '49',
+        priceCurrency: 'USD',
+        availability: 'https://schema.org/InStock',
+        description: 'Commercial license — remove watermark, sell on Etsy, KDP, TPT',
+        priceValidUntil: '2026-12-31',
+      },
+      {
+        '@type': 'Offer',
+        price: '0',
+        priceCurrency: 'USD',
+        description: ui.watermarkNote,
+      },
+    ],
     author: {
       '@type': 'Organization',
       name: 'LessonCraftStudio',

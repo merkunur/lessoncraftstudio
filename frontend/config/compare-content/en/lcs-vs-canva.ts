@@ -21,9 +21,8 @@ const content: CompareContent = {
       'answer key generator',
       'multilingual worksheet creator',
     ],
-    titleTag: 'LessonCraftStudio vs Canva — Which Is Better for Printable Sellers?',
-    metaDescription:
-      'Honest comparison of LessonCraftStudio and Canva for printable businesses. 33 puzzle generators vs design templates, automatic answer keys vs manual creation, and when to use each tool.',
+    titleTag: 'LessonCraftStudio vs Canva for Sellers | LCS',
+    metaDescription: 'LessonCraftStudio vs Canva for printable sellers. 33 puzzle generators vs design templates, auto answer keys vs manual. See which fits your workflow.',
   },
 
   hero: {

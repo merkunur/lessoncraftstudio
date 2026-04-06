@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'picture path maze generator',
+    primaryKeyword: 'picture path maze generator sell Etsy KDP',
     secondaryKeywords: [
       'picture path maze generator for selling on Etsy',
       'create picture path worksheets for Etsy shop',
@@ -15,8 +15,8 @@ const content: AppContent = {
       'sell path worksheets commercially',
       'visual navigation puzzle products',
     ],
-    titleTag: 'Picture Path Maze Generator — Sell on Etsy | LCS',
-    metaDescription: 'Create picture path maze worksheets to sell on Etsy & KDP. Themed image destinations, auto answer keys, 104 themes, commercial license. Try free.',
+    titleTag: 'Picture Path Maze Generator | Sell on Etsy & KDP',
+    metaDescription: 'Create picture path maze worksheets with themed destinations & answer keys. Try free with watermark. Commercial license for Etsy & KDP. $49 one-time.',
   },
 
   hero: {

@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'pattern activity generator for sellers',
+    primaryKeyword: 'pattern train generator sell Etsy KDP',
     secondaryKeywords: [
       'pattern activity generator for printable business',
       'create pattern worksheets for Etsy shop',
@@ -15,8 +15,8 @@ const content: AppContent = {
       'sell sequence worksheets commercially',
       'early math worksheet products',
     ],
-    titleTag: 'Pattern Activity Generator for Sellers | LCS',
-    metaDescription: 'Create pattern train worksheets to sell on Etsy & KDP. Sequence completion activities, themed images, 104 collections, commercial license. Try free.',
+    titleTag: 'Pattern Train Generator | Sell on Etsy & KDP',
+    metaDescription: 'Create pattern train worksheets with sequence completion activities. Try free with watermark. Commercial license for Etsy, KDP & TPT. $49 one-time.',
   },
 
   hero: {

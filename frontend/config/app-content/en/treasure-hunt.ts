@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'treasure hunt generator',
+    primaryKeyword: 'treasure hunt generator sell Etsy KDP',
     secondaryKeywords: [
       'treasure hunt printable generator for Etsy and KDP',
       'create treasure hunt worksheets for Etsy shop',
@@ -15,8 +15,8 @@ const content: AppContent = {
       'sell treasure hunt worksheets commercially',
       'coordinate grid worksheet products',
     ],
-    titleTag: 'Treasure Hunt Generator — Sell on Etsy & KDP | LCS',
-    metaDescription: 'Create treasure hunt worksheets to sell on Etsy & KDP. Directional puzzles on coordinate grids, 11 languages, answer keys, commercial license. Try free.',
+    titleTag: 'Treasure Hunt Generator | Sell on Etsy & KDP',
+    metaDescription: 'Create treasure hunt worksheets with coordinate grids in 11 languages. Try free with watermark. Commercial license for Etsy, KDP & TPT. $49 one-time.',
   },
 
   hero: {

@@ -13,7 +13,7 @@ const content: BlogContent = {
       'print-ready PDF settings',
       'Etsy listing image dimensions',
     ],
-    titleTag: 'How to Format Worksheets for Etsy Listings | LCS',
+    titleTag: 'Format Worksheets for Etsy Listings: Full Guide | LCS',
     metaDescription: 'Format worksheets perfectly for Etsy: PDF settings, image dimensions, listing photos, and file organization. Step-by-step for printable sellers.',
   },
   hero: {

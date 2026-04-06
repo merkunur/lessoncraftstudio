@@ -14,7 +14,7 @@ const content: GuideContent = {
       'Amazon puzzle publishing',
       'self-publish activity books',
     ],
-    titleTag: 'How to Publish Puzzle Books on Amazon KDP | LCS',
+    titleTag: 'Publish Puzzle Books on Amazon KDP: Full Guide | LCS',
     metaDescription: 'Complete guide to publishing puzzle books on Amazon KDP. Formatting, content variety, pricing, and marketing strategies for puzzle book publishers.',
   },
 

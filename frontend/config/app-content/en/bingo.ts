@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'bingo card maker',
+    primaryKeyword: 'bingo card generator sell Etsy KDP',
     secondaryKeywords: [
       'bingo card maker for selling printables on Etsy',
       'create bingo cards for Etsy shop',
@@ -15,8 +15,8 @@ const content: AppContent = {
       'sell bingo cards commercially',
       'party game printable products',
     ],
-    titleTag: 'Bingo Card Maker — Sell Printables on Etsy | LCS',
-    metaDescription: 'Create picture bingo cards to sell on Etsy & KDP. Themed images, unique randomized cards, auto caller sheets, commercial license. Try free -- no signup.',
+    titleTag: 'Bingo Card Generator | Create & Sell on Etsy & KDP',
+    metaDescription: 'Create picture bingo cards with randomized layouts & themed images. Try free with watermark. Commercial license for Etsy, KDP & TPT. $49 one-time.',
   },
 
   hero: {

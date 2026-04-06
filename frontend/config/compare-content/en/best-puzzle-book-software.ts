@@ -21,9 +21,8 @@ const content: CompareContent = {
       'print-ready PDF generator',
       'multilingual puzzle software',
     ],
-    titleTag: 'Best Puzzle Book Software for KDP & Etsy Sellers (2026 Roundup)',
-    metaDescription:
-      'Honest comparison of the 5 best puzzle book tools for printable sellers in 2026. LessonCraftStudio, Book Bolt, Canva, Puzzle Maker Pro, and Adobe InDesign — strengths, weaknesses, and pricing.',
+    titleTag: 'Best Puzzle Book Software for KDP & Etsy (2026) | LCS',
+    metaDescription: 'Compare the 5 best puzzle book tools for sellers in 2026: LessonCraftStudio, Book Bolt, Canva, Puzzle Maker Pro & InDesign. Pricing & features.',
   },
 
   hero: {

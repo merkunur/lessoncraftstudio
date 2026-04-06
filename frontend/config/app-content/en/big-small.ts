@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'size comparison worksheet generator for Etsy',
+    primaryKeyword: 'size comparison worksheet generator sell Etsy',
     secondaryKeywords: [
       'size comparison worksheet generator for Etsy printables',
       'create big and small worksheets for Etsy shop',
@@ -15,8 +15,8 @@ const content: AppContent = {
       'sell visual discrimination worksheets commercially',
       'early learning classification products',
     ],
-    titleTag: 'Size Comparison Worksheet Generator for Etsy | LCS',
-    metaDescription: 'Create size comparison worksheets to sell on Etsy & KDP. Five question types, themed images, auto answer keys, commercial license. Try free -- no signup.',
+    titleTag: 'Size Comparison Worksheet Generator | Sell on Etsy & KDP',
+    metaDescription: 'Create size comparison worksheets with five question types & themed images. Try free with watermark. Commercial license for Etsy & KDP. $49 one-time.',
   },
 
   hero: {

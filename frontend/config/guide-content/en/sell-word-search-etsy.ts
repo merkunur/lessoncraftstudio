@@ -15,7 +15,7 @@ const content: GuideContent = {
       'digital word search products',
       'Etsy SEO for puzzle sellers',
     ],
-    titleTag: 'How to Sell Word Search Puzzles on Etsy | LCS',
+    titleTag: 'Sell Word Search Puzzles on Etsy: Full Guide | LCS',
     metaDescription: 'Complete guide to selling word search puzzles on Etsy. Listing optimization, themed bundles, pricing, and SEO strategies for puzzle sellers.',
   },
 

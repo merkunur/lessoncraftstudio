@@ -15,7 +15,7 @@ const content: AppContent = {
       'stampabili caccia al tesoro uso commerciale Italia',
     ],
     titleTag: 'Caccia al Tesoro da Vendere su Etsy e KDP | Generatore',
-    metaDescription: 'Crea schede caccia al tesoro da vendere su Etsy e Amazon KDP. Griglia 5×5, due tipi di direzioni, risposte automatiche. Licenza commerciale inclusa.',
+    metaDescription: 'Crea schede caccia al tesoro da vendere su Etsy e Amazon KDP. Griglia 5×5, due tipi di direzioni, risposte automatiche. 49 $ pagamento unico.',
   },
 
   hero: {

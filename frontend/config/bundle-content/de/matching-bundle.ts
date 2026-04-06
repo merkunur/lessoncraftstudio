@@ -16,7 +16,7 @@ const content: BundleContent = {
       'Zuordnungs-Arbeitsblatt-Massenproduktion Werkzeug',
     ],
     titleTag: 'Zuordnung & Sortierung Bundle für Etsy | LCS',
-    metaDescription: 'Zuordnungs- und Sortier-Bundle mit 5 Generatoren für Etsy und KDP. Zuordnung, Raster-Puzzle, Schattenbilder, Bingo und Sortieren mit kommerzieller Lizenz.',
+    metaDescription: 'Zuordnungs- und Sortier-Bundle mit 5 Generatoren für Etsy und KDP. 149 $ einmalig.',
   },
 
   hero: {

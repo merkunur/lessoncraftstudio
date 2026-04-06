@@ -17,8 +17,7 @@ const content: AppContent = {
       'svenska marknaden sökblad Etsy',
     ],
     titleTag: 'Hitta och räkna att sälja på Etsy | LessonCraftStudio',
-    metaDescription:
-      'Skapa hitta och räkna-blad att sälja på Etsy och KDP. 4 uppgiftstyper, Bokstavsletning med ÅÄÖ, facit, kommersiell licens. Testa gratis med vattenmärke.',
+    metaDescription: 'Skapa hitta och räkna-blad att sälja på Etsy och KDP. 4 uppgiftstyper, Bokstavsletning med ÅÄÖ, facit, kommersiell licens. $49 engångsbetalning.',
   },
 
   hero: {

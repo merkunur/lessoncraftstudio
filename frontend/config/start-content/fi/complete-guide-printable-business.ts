@@ -17,7 +17,7 @@ const content: StartContent = {
       'Gumroad tehtavat',
       'kaupallinen lisenssi tulostettavat tyokalut',
     ],
-    titleTag: 'Aloita tulostettavien liiketoiminta — Taydellinen opas myyjille',
+    titleTag: 'Aloita tulostettavien liiketoiminta — Taydellinen opas...',
     metaDescription: 'Nain aloitat tulostettavien tuotteiden liiketoiminnan alusta alkaen. Askel askeleelta -opas Etsy-, Amazon KDP- ja Gumroad-myyjille tehtavageneraattoreilla.',
   },
 

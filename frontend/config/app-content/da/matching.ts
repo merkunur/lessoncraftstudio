@@ -15,8 +15,7 @@ const content: AppContent = {
       'printbar matchningsaktivitet forretningsværktøj',
     ],
     titleTag: 'Matchnings Arbejdsark Generator | Opret og Sælg',
-    metaDescription:
-      'Opret matchnings arbejdsark til salg på Etsy, KDP og Gumroad. 4 matchningstilstande, automatisk facit, 104 temaer, konfigurerbare par. Gratis prøveversion.',
+    metaDescription: 'Opret matchnings arbejdsark til salg på Etsy, KDP og Gumroad. 4 matchningstilstande, automatisk facit, 104 temaer, konfigurerbare par. $49 engangsbetaling.',
   },
 
   hero: {

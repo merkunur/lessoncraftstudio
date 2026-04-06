@@ -15,7 +15,7 @@ const content: ToolContent = {
       'taalspecifiek alfabet accentletters zoek en tel generator',
     ],
     titleTag: 'Zoek en tel gratis online maken | LessonCraftStudio',
-    metaDescription: 'Maak gratis zoek en tel werkbladen online met vier taaktypen, twee activiteitsmodi, 104 beeldthema\'s en automatische antwoordbladen. Geen account nodig.',
+    metaDescription: 'Maak gratis zoek en tel werkbladen online met vier taaktypen, twee activiteitsmodi, 104 beeldthema\'s en. Verkoop op Etsy & KDP met commerciele licentie.',
   },
 
   hero: {

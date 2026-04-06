@@ -5,7 +5,7 @@ const content: BlogContent = {
     secondaryKeywords: ['norskkurs arbeidsark globalt marked Etsy', 'norskkurs arbeidsark globalt marked strategi', 'norskkurs arbeidsark globalt marked tips'],
     lsiKeywords: ['sesongbaserte utskrifter', 'utskrivbare arbeidsark nisje', 'printable selger Norge'],
     titleTag: 'Norsk som andrespråk: Et globalt marked | LCS',
-    metaDescription: 'Arbeidsark for norsk som andrespråk er en nisje med enorm vekst. Kommunale norskopplæringsprogrammer, private språkskoler og selvlærende bruker utskri',
+    metaDescription: 'Arbeidsark for norsk som andrespråk er en nisje med enorm vekst. Selg pa Etsy & KDP med kommersiell lisens.',
   },
   hero: {
     title: 'Norsk som andrespråk: Et globalt marked',

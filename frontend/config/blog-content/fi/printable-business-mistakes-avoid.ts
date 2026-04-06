@@ -14,7 +14,7 @@ const content: BlogContent = {
       'verkkokauppa tulosteet',
     ],
     titleTag: 'Tulosteliiketoiminnan virheet: valta namat | LCS',
-    metaDescription: 'Valta 10 yleisinta virhetta tulosteliiketoiminnassa. Hinnoittelu, SEO, tuotevalikoima ja asiakaspalvelu.',
+    metaDescription: 'Valta 10 yleisinta virhetta tulosteliiketoiminnassa. Hinnoittelu, SEO, tuotevalikoima ja asiakaspalvelu. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
   },
   hero: {
     title: 'Tulosteliiketoiminnan 10 yleisinta virhetta',

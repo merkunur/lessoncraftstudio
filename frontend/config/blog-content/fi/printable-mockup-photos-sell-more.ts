@@ -14,7 +14,7 @@ const content: BlogContent = {
       'verkkokauppa tulosteet',
     ],
     titleTag: 'Mockup-kuvat tulosteille: myy enemman | LCS',
-    metaDescription: 'Kayta mockup-kuvia myydaksesi enemman tulosteita. Ilmaiset ja maksulliset mockup-lahteet ja vinkit ammattimaiseen esittelyyn.',
+    metaDescription: 'Kayta mockup-kuvia myydaksesi enemman tulosteita. Ilmaiset ja maksulliset mockup-lahteet ja vinkit. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
   },
   hero: {
     title: 'Mockup-kuvat tulosteille: myy enemman visuaalisuudella',

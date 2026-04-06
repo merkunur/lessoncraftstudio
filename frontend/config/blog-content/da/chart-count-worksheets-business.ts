@@ -6,7 +6,7 @@ const content: BlogContent = {
     secondaryKeywords: ['diagram tælleark forretning sælg Etsy', 'diagram tælleark forretning sælg online', 'diagram tælleark forretning sælg sælg'],
     lsiKeywords: ['printbar forretning', 'digital download salg', 'Etsy printables'],
     titleTag: 'Diagram- og Tælleark: Opbyg en Forretning | LCS',
-    metaDescription: 'Diagram- og tælleark kombinerer visuel læring med matematik. Børn tæller objekter og udfylder diagrammer — en metode der gør abstrakt matematik konkret og ',
+    metaDescription: 'Diagram- og tælleark kombinerer visuel læring med matematik. Saelg pa Etsy & KDP med kommerciel licens.',
   },
   hero: {
     title: 'Diagram- og Tælleark: Opbyg en Forretning',

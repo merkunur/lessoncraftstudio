@@ -18,7 +18,7 @@ const content: StartContent = {
       'print-on-demand aktivitetsbog forretning',
     ],
     titleTag: 'Saelg aktivitetsboeger paa Amazon KDP — Guide — Saelgerguide',
-    metaDescription: 'Laer at saelge aktivitetsboeger paa Amazon KDP. Interiorformatering, omslagsdesign, noegleordsstrategi, prissaetning og skalering af dit KDP-bogforretning trin for trin.',
+    metaDescription: 'Laer at saelge aktivitetsboeger paa Amazon KDP. Interiorformatering, omslagsdesign, noegleordsstrategi, prissaetning og skalering af dit KDP-bogforretning.',
   },
 
   hero: {

@@ -6,7 +6,7 @@ const content: BlogContent = {
     secondaryKeywords: ['hav tema printables sælg Etsy', 'hav tema printables sælg online', 'hav tema printables sælg forretning'],
     lsiKeywords: ['printbar forretning Danmark', 'digital download salg', 'Etsy printables sælg'],
     titleTag: 'Havtema Printables: En Dyb Niche | LCS',
-    metaDescription: 'Havtemaer er det næstmest populære dyretema efter bondegårdsdyr. Fisk, hvaler, blæksprutter og hajer fascinerer børn, og temaet fungerer perfekt med alle a',
+    metaDescription: 'Havtemaer er det næstmest populære dyretema efter bondegårdsdyr. Saelg pa Etsy & KDP med kommerciel licens.',
   },
   hero: {
     title: 'Havtema Printables: En Dyb Niche',

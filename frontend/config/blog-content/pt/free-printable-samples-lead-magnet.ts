@@ -14,7 +14,7 @@ const content: BlogContent = {
       'guia prático imprimíveis',
     ],
     titleTag: 'Amostras Imprimíveis como Lead Magnet | LCS',
-    metaDescription: 'Oferecer amostras grátis com marca d\'água é a forma mais eficaz de captar emails e converter leads em clientes pagantes. Este tutorial mostra como cri.',
+    metaDescription: 'Oferecer amostras grátis com marca d\'água é a forma mais eficaz de captar emails e converter leads em clientes. Venda no Etsy & KDP com licenca comercial.',
   },
   hero: {
     title: 'Amostras Imprimíveis como Lead Magnet',

@@ -15,7 +15,7 @@ const content: ToolContent = {
       'automatisk fasit komplett utfylt rutenett sudoku generator',
     ],
     titleTag: 'Bildesudoku Generator — Bildesudoku for Barn Generator',
-    metaDescription: 'Lag bildesudoku for barn med 4×4 bilderutenett, tre vanskelighetsnivåer, automatiske fasit og 104 tematiske samlinger. Gratis prøveversjon med vannmerke.',
+    metaDescription: 'Lag bildesudoku for barn med 4×4 bilderutenett, tre vanskelighetsnivåer, automatiske fasit og 104 tematiske. Selg pa Etsy & KDP med kommersiell lisens.',
   },
 
   hero: {

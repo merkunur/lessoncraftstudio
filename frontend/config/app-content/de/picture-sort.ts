@@ -15,7 +15,7 @@ const content: AppContent = {
       'Kategorisierung Druckvorlagen Einkommensquelle',
     ],
     titleTag: 'Sortier-Arbeitsblätter für Etsy-Shop | LCS',
-    metaDescription: 'Sortier-Arbeitsblätter erstellen für Ihren Etsy-Shop. Zwei-Kategorien-Sortierung mit Ausschneidegitter und Lösungsschlüssel. Kostenlos testen mit Wasserzeichen.',
+    metaDescription: 'Sortier-Arbeitsblätter erstellen für Ihren Etsy-Shop. Zwei-Kategorien-Sortierung mit Ausschneidegitter und Lösungsschlüssel. 49 $ einmalig.',
   },
 
   hero: {

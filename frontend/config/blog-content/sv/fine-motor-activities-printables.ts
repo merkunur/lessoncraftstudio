@@ -14,7 +14,7 @@ const content: BlogContent = {
       'Etsy butik svenska',
     ],
     titleTag: 'Finmotorik-Aktiviteter: Utskrifter | LCS',
-    metaDescription: 'Finmotorik-utskrifter som klippövningar, spårning och prickning säljer starkt till föräldrar med förskolebarn.',
+    metaDescription: 'Finmotorik-utskrifter som klippövningar, spårning och prickning säljer starkt till föräldrar med förskolebarn. Salj pa Etsy & KDP med kommersiell licens.',
   },
   hero: {
     title: 'Finmotorik-Aktiviteter: Utskrifter',

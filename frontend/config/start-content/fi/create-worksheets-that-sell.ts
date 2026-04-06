@@ -18,7 +18,7 @@ const content: StartContent = {
       'tulostusvalmiit PDF-tehtavat',
     ],
     titleTag: 'Luo tehtäviä jotka myyvät — ammattimainen opas myyjille',
-    metaDescription: 'Näin luot tehtäviä jotka myyvät Etsyssä, Amazon KDP:ssä ja Gumroadissa. Askel askeleelta -opas teemakuvista, vastausavaimista, hinnoittelusta ja listausten optimoinnista.',
+    metaDescription: 'Näin luot tehtäviä jotka myyvät Etsyssä, Amazon KDP:ssä ja Gumroadissa. Askel askeleelta -opas teemakuvista, vastausavaimista, hinnoittelusta ja listausten.',
   },
 
   hero: {

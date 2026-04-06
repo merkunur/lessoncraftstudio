@@ -15,7 +15,7 @@ const content: ToolContent = {
       'kaunokirjoitus ja painokirjoitus harjoitusgeneraattori',
     ],
     titleTag: 'Kirjoitusharjoitus-työkirja-generaattori | Luo ja myy',
-    metaDescription: 'Luo kirjoitusharjoitus-työkirjoja kolmella harjoitustilalla, viidellä fonttityylillä, nuoliohjatulla piirtojärjestyksellä, häivytysoppailla, 104 teemalla. Ilmainen kokeilu.',
+    metaDescription: 'Luo kirjoitusharjoitus-työkirjoja kolmella harjoitustilalla, viidellä fonttityylillä, nuoliohjatulla piirtojärjestyksellä, häivytysoppailla, 104 teemalla.',
   },
 
   hero: {

@@ -27,8 +27,7 @@ const content: AppContent = {
       'Kiwify',
     ],
     titleTag: 'Atividades de ligar e associar para vender | LCS',
-    metaDescription:
-      'Crie atividades de ligar e associar para vender na Hotmart, Etsy e KDP. 104 temas, gabarito automático, licença comercial. Teste grátis com marca d\'água.',
+    metaDescription: 'Crie atividades de ligar e associar para vender na Hotmart, Etsy e KDP. 104 temas, gabarito automático, licença comercial. 49 $ pagamento unico.',
   },
 
   hero: {

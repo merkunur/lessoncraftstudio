@@ -6,7 +6,7 @@ const content: BlogContent = {
     secondaryKeywords: ['come creare stampabili vendere', 'guida pratica stampabili business', 'tutorial stampabili educativi'],
     lsiKeywords: ['creazione stampabili professionali', 'workflow produzione schede', 'ottimizzazione vendita stampabili'],
     titleTag: 'Formati File Stampabili: PDF vs JPEG | LCS',
-    metaDescription: 'Guida ai formati file per stampabili. PDF, JPEG, risoluzione, dimensioni e impostazioni di stampa ottimali.',
+    metaDescription: 'Guida ai formati file per stampabili. PDF, JPEG, risoluzione, dimensioni e impostazioni di stampa ottimali. Vendi su Etsy & KDP con licenza commerciale.',
   },
   hero: {
     title: 'Formati File per Stampabili: PDF vs JPEG Guida',

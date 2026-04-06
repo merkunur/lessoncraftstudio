@@ -15,8 +15,7 @@ const content: AppContent = {
       'koordinaattiruudukko-työlehituotteet',
     ],
     titleTag: 'Aarteenetsintä-generaattori — Myy Etsyssä ja KDP:ssä | LCS',
-    metaDescription:
-      'Luo aarteenetsintä-työlehtia myytäväksi Etsyssä ja KDP:ssä. Suuntapalapelit koordinaattiruudukoissa, 11 kieltä, vastausavaimet, kaupallinen lisenssi. Ilmainen kokeilu.',
+    metaDescription: 'Luo aarteenetsintä-työlehtia myytäväksi Etsyssä ja KDP:ssä. Suuntapalapelit koordinaattiruudukoissa, 11 kieltä, vastausavaimet, kaupallinen lisenssi. $49...',
   },
 
   hero: {

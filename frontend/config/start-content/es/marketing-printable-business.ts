@@ -15,7 +15,7 @@ const content: StartContent = {
       'SEO para tiendas de imprimibles Etsy',
     ],
     titleTag: 'Promocionar negocio de imprimibles | LCS',
-    metaDescription: 'Cómo promocionar un negocio de. Estrategias de Pinterest, email marketing y SEO para atraer compradores a su tienda de fichas educativas.',
+    metaDescription: 'Cómo promocionar un negocio de. Estrategias de Pinterest, email marketing y SEO para atraer compradores a su tienda. Venda en Etsy & KDP con licencia comercial.',
   },
 
   hero: {

@@ -16,7 +16,7 @@ const content: BundleContent = {
       'Rätsel-Arbeitsblatt-Massenproduktion Werkzeug',
     ],
     titleTag: 'Logik-Rätsel-Bundle für KDP Bücher | LCS',
-    metaDescription: 'Logik-Rätsel-Generatoren-Bundle mit 4 Apps für KDP-Rätselbücher. Fehlende Puzzleteile, Odd-One-Out, Bilder-Sudoku und Labyrinthe — rein visuell, weltweit.',
+    metaDescription: 'Logik-Rätsel-Generatoren-Bundle mit 4 Apps für KDP-Rätselbücher. 149 $ einmalig.',
   },
 
   hero: {

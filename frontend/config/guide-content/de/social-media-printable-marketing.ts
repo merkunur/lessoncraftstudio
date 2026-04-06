@@ -15,7 +15,7 @@ const content: GuideContent = {
       'Veröffentlichungsplan Profiloptimierung Shop-Traffic Konversion Social Proof',
     ],
     titleTag: 'Social Media für Printable-Verkäufer | LCS',
-    metaDescription: 'Social Media Marketing für Printable-Verkäufer: Plattformauswahl, visuelle Inhalte erstellen, Zielgruppen aufbauen und Engagement in Shop-Traffic umwandeln.',
+    metaDescription: 'Social Media Marketing für Printable-Verkäufer: Plattformauswahl, visuelle Inhalte erstellen, Zielgruppen. Verkaufen Sie auf Etsy & KDP mit gewerblicher Lizenz.',
   },
 
   hero: {

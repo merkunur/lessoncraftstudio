@@ -15,7 +15,7 @@ const content: ToolContent = {
       'automatisch antwoordblad sorteer werkblad tool',
     ],
     titleTag: 'Sorteerwerkbladen gratis online | LessonCraftStudio',
-    metaDescription: 'Maak gratis sorteerwerkbladen online met twee-categorieën modus, geschudde uitkniprasters en automatische antwoordbladen. Probeer nu zonder account.',
+    metaDescription: 'Maak gratis sorteerwerkbladen online met twee-categorieën modus, geschudde uitkniprasters en automatische. Verkoop op Etsy & KDP met commerciele licentie.',
   },
 
   hero: {

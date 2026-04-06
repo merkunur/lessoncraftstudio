@@ -15,8 +15,7 @@ const content: AppContent = {
       'printbare plaatjes kruiswoordpuzzel business tools',
     ],
     titleTag: 'Kruiswoordpuzzel generator voor Etsy | LessonCraftStudio',
-    metaDescription:
-      'Maak kruiswoordpuzzels met afbeeldingen om te verkopen op Etsy en KDP. Thema-illustraties, automatische antwoorden. Gratis proefversie met watermerk.',
+    metaDescription: 'Maak kruiswoordpuzzels met afbeeldingen om te verkopen op Etsy en KDP. Thema-illustraties, automatische antwoorden. $49 eenmalig.',
   },
 
   hero: {

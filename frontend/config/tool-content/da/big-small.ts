@@ -14,8 +14,8 @@ const content: ToolContent = {
       'tekstfri størrelsessammenligning printbar',
       'stor lille rækkefølge aktivitet for førskolen',
     ],
-    titleTag: 'Størrelsessammenligning Arbejdsark Generator — For Børn — Sælgerguide',
-    metaDescription: 'Lav størrelsessammenligning arbejdsark for førskolen og børnehaven. Fem spørgsmålstyper, identiske og forskellige billedtilstande, 104 temaer. Gratis prøveversion med vandmærke.',
+    titleTag: 'Størrelsessammenligning Arbejdsark Generator — For Børn...',
+    metaDescription: 'Lav størrelsessammenligning arbejdsark for førskolen og børnehaven. Saelg pa Etsy & KDP med kommerciel licens.',
   },
 
   hero: {

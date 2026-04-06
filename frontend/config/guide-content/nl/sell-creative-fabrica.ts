@@ -18,7 +18,7 @@ const content: GuideContent = {
       'catalogusschaling bundels cross-categorie promotie lettertypen afbeeldingen educatief materiaal',
     ],
     titleTag: 'Verkopen op Creative Fabrica | LessonCraftStudio',
-    metaDescription: 'Verkoop educatief materiaal op Creative Fabrica. Verdien via abonnementen en individuele verkoop, en bereik het creatief-educatieve crossoverpubliek.',
+    metaDescription: 'Verkoop educatief materiaal op Creative Fabrica. Verdien via abonnementen en individuele verkoop, en bereik het. Verkoop op Etsy & KDP met commerciele licentie.',
   },
 
   hero: {

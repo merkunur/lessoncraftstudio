@@ -15,8 +15,7 @@ const content: AppContent = {
       'visuaalisen navigoinnin palapeelituotteet',
     ],
     titleTag: 'Kuvapolku-sokkelo-generaattori — Myy Etsyssä | LCS',
-    metaDescription:
-      'Luo kuvapolku-sokkelo-työlehtia myytäväksi Etsyssä ja KDP:ssä. Temaattiset kuvamääränpäät, automaattiset vastausavaimet, 104 teemaa, kaupallinen lisenssi. Ilmainen kokeilu.',
+    metaDescription: 'Luo kuvapolku-sokkelo-työlehtia myytäväksi Etsyssä ja KDP:ssä. Teemakuvat, vastausavaimet, 104 teemaa, kaupallinen lisenssi. $49 kertamaksu.',
   },
 
   hero: {

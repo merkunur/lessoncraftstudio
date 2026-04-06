@@ -24,8 +24,7 @@ const content: ToolContent = {
       'licença comercial',
     ],
     titleTag: 'Labirintos ilustrados grátis online | LCS',
-    metaDescription:
-      'Crie labirintos ilustrados grátis com imagens temáticas. 104 temas, gabarito automático, PDF imprimível. Teste online sem cadastro — marca d\'água removível.',
+    metaDescription: 'Crie labirintos ilustrados grátis com imagens temáticas. 104 temas, gabarito automático, PDF imprimível. Venda no Etsy & KDP com licenca comercial.',
   },
 
   hero: {

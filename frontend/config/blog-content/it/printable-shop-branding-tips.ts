@@ -6,7 +6,7 @@ const content: BlogContent = {
     secondaryKeywords: ['business stampabili digitali Italia', 'vendere stampabili online strategia', 'Etsy KDP stampabili mercato italiano'],
     lsiKeywords: ['stampabili educativi business', 'vendita online prodotti digitali', 'mercato italiano stampabili 2026'],
     titleTag: 'Branding Negozio Stampabili: Consigli | LCS',
-    metaDescription: 'Consigli di branding per il Suo negozio di stampabili. Logo, colori, stile e coerenza che creano fiducia.',
+    metaDescription: 'Consigli di branding per il Suo negozio di stampabili. Logo, colori, stile e coerenza che creano fiducia. Vendi su Etsy & KDP con licenza commerciale.',
   },
   hero: {
     title: 'Branding per il Suo Negozio di Stampabili: Consigli',

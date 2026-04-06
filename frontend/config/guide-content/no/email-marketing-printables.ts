@@ -6,7 +6,7 @@ const content: GuideContent = {
     secondaryKeywords: ['e-postliste printable-selgere', 'nyhetsbrev for arbeidsark-virksomhet', 'lead magnets printables', 'e-postkampanjer digitale produkter'],
     lsiKeywords: ['e-postautomatisering printable-salg', 'lead magnet arbeidsark', 'e-postsekvenser kjopere', 'sesongbaserte e-postkampanjer', 'konverteringsrate e-postmarkedsforing'],
     titleTag: 'E-postmarkedsforing for printables — Guide',
-    metaDescription: 'Bygg e-postliste og automatiserte kampanjer for printable-virksomheten din. Lead magnets, sesongbaserte sekvenser og konverteringsstrategier.',
+    metaDescription: 'Bygg e-postliste og automatiserte kampanjer for printable-virksomheten din. Selg pa Etsy & KDP med kommersiell lisens.',
   },
   hero: {
     title: 'E-postmarkedsforing for printable-virksomheten din',

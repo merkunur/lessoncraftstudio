@@ -14,8 +14,8 @@ const content: ToolContent = {
       'bildebasert addisjons oving for barn',
       'barnehage matematikk utskriftsbare for selgere',
     ],
-    titleTag: 'Addisjons Arbeidsark Generator — Matematikkark til Produktlinjen',
-    metaDescription: 'Lag addisjons arbeidsark med tematiske bilder for produktlinjen din. 104 temaer, 4 ovelsesmoduser, fasit, trykkeklare PDF-er. Gratis proveversjon med vannmerke.',
+    titleTag: 'Addisjons Arbeidsark Generator — Matematikkark til...',
+    metaDescription: 'Lag addisjons arbeidsark med tematiske bilder for produktlinjen din. Selg pa Etsy & KDP med kommersiell lisens.',
   },
 
   hero: {

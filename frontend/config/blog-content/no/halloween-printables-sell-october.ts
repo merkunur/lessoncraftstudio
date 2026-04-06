@@ -5,7 +5,7 @@ const content: BlogContent = {
     secondaryKeywords: ['halloween printables selge oktober Etsy', 'halloween printables selge oktober strategi', 'halloween printables selge oktober tips'],
     lsiKeywords: ['sesongbaserte utskrifter', 'utskrivbare arbeidsark nisje', 'printable selger Norge'],
     titleTag: 'Halloween-utskrifter: Selg i oktober | LCS',
-    metaDescription: 'Halloween har blitt stadig mer populær i Norge. Både barnehager og skoler arrangerer Halloween-aktiviteter. Utskrivbare Halloween-oppgaver med spøkels',
+    metaDescription: 'Halloween har blitt stadig mer populær i Norge. Både barnehager og skoler arrangerer Halloween-aktiviteter. Selg pa Etsy & KDP med kommersiell lisens.',
   },
   hero: {
     title: 'Halloween-utskrifter: Selg i oktober',

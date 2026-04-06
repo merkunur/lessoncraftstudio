@@ -15,8 +15,7 @@ const content: AppContent = {
       'tulostettava visuaalinen yhdistelytoiminta liiketoimintatyökalu',
     ],
     titleTag: 'Varjoyhdistely-generaattori | Luo siluettipalapeleja',
-    metaDescription:
-      'Luo varjoyhdistely-työlehtia myytäväksi Etsyssä, KDP:ssä ja Gumroadissa. Varjoyhdistely- ja Tee Kokonaiseksi -tilat, automaattiset siluetit, 104 teemaa. Ilmainen kokeilu vesileimalla.',
+    metaDescription: 'Luo varjoyhdistely-työlehtia myytäväksi Etsyssä, KDP:ssä ja Gumroadissa. $49 kertamaksu.',
   },
 
   hero: {

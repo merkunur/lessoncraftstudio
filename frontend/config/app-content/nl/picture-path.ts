@@ -15,8 +15,7 @@ const content: AppContent = {
       'printbare puzzel activiteit business tools',
     ],
     titleTag: 'Doolhoven met afbeeldingen voor Etsy | LessonCraftStudio',
-    metaDescription:
-      'Maak doolhoven met afbeeldingen om te verkopen op Etsy en Amazon KDP. Drie spelmodi, LPF-algoritme, 104 thema\'s en commerciële licentie.',
+    metaDescription: 'Maak doolhoven met afbeeldingen om te verkopen op Etsy en Amazon KDP. Drie spelmodi, LPF-algoritme, 104 thema\'s en commerciële licentie. $49 eenmalig.',
   },
 
   hero: {

@@ -15,8 +15,7 @@ const content: AppContent = {
       'wiskundepuzzel werkboek generator',
     ],
     titleTag: 'Geheimschrift rekenpuzzels voor Etsy | LessonCraftStudio',
-    metaDescription:
-      'Maak geheimschrift rekenpuzzels om te verkopen op Etsy en KDP. Rekenen plus decoderen. Commerciële licentie inbegrepen. Gratis proefversie met watermerk.',
+    metaDescription: 'Maak geheimschrift rekenpuzzels om te verkopen op Etsy en KDP. Rekenen plus decoderen. Commerciële licentie inbegrepen. $49 eenmalig.',
   },
 
   hero: {

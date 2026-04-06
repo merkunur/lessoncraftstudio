@@ -24,8 +24,7 @@ const content: ToolContent = {
       'licença comercial',
     ],
     titleTag: 'Maior e menor grátis online | LCS',
-    metaDescription:
-      'Crie atividades de maior e menor grátis com imagens. Comparação visual, 104 temas, gabarito automático. Teste online sem cadastro — marca d\'água removível.',
+    metaDescription: 'Crie atividades de maior e menor grátis com imagens. Comparação visual, 104 temas, gabarito automático. Venda no Etsy & KDP com licenca comercial.',
   },
 
   hero: {

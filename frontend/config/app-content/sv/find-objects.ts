@@ -17,8 +17,7 @@ const content: AppContent = {
       'svenska marknaden sökblad Etsy',
     ],
     titleTag: 'Hitta och finn-blad för Etsy | LessonCraftStudio',
-    metaDescription:
-      'Skapa hitta och finn-blad att sälja på Etsy och KDP. Sökning och Hitta Udda Bilden, automatiskt facit, 104 teman, kommersiell licens. Testa gratis med vattenmärke.',
+    metaDescription: 'Skapa hitta och finn-blad att sälja på Etsy och KDP. Sökning och Hitta Udda Bilden, automatiskt facit, 104 teman, kommersiell licens. $49 engångsbetalning.',
   },
 
   hero: {

@@ -15,8 +15,7 @@ const content: AppContent = {
       'utskriftsbar veifinding puslespill forretningsverktoy',
     ],
     titleTag: 'Skattejakt Generator | Lag Veiarbeidsark — Lag og Selg',
-    metaDescription:
-      'Lag skattejakt arbeidsark til salg på Etsy, KDP og Gumroad. 5×5 koordinatrutenett, to retningstyper, automatisk fasit, 104 temaer. Gratis proveversjon.',
+    metaDescription: 'Lag skattejakt arbeidsark til salg på Etsy, KDP og Gumroad. 5×5 koordinatrutenett, to retningstyper, automatisk fasit, 104 temaer. $49 engangsbetaling.',
   },
 
   hero: {

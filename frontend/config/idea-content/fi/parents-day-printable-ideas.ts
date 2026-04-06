@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Äitien- ja isänpäivä tulostettavat ideat myyntiin — Nicheopas',
+    titleTag: 'Äitien- ja isänpäivä tulostettavat ideat myyntiin —...',
     metaDescription: 'Tutustu äitien- ja isänpäivän tulostettaviin ideoihin myyntiin Etsyssä, Amazon KDP:ssä ja Gumroadilla. Tuotekonseptit, kausistrategiat ja vinkit myyjille.',
 
     primaryKeyword: 'äitienpäivä isänpäivä tulostettavat ideat',

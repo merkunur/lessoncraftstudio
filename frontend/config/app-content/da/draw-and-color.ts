@@ -15,8 +15,7 @@ const content: AppContent = {
       'gitterritning generator kommercielt brug',
     ],
     titleTag: 'Gitterritning Generator | Opret Gitterkunst Arbejdsark',
-    metaDescription:
-      'Opret gitterritningsarbejdsark til salg på Etsy, KDP og Gumroad. Dobbelt gittersystem, justerbar ledetrådsprocent, symmetritilstande. Gratis prøveversion.',
+    metaDescription: 'Opret gitterritningsarbejdsark til salg på Etsy, KDP og Gumroad. Dobbelt gittersystem, justerbar ledetrådsprocent, symmetritilstande. $49 engangsbetaling.',
   },
 
   hero: {

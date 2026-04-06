@@ -22,8 +22,7 @@ const content: AppContent = {
       'scuola primaria',
     ],
     titleTag: 'Schede di matematica per venditori Etsy | LCS',
-    metaDescription:
-      'Crea schede di matematica con puzzle algebrici illustrati da vendere su Etsy e KDP. 4 livelli, 104 temi, licenza commerciale. Prova gratis con filigrana.',
+    metaDescription: 'Crea schede di matematica con puzzle algebrici illustrati da vendere su Etsy e KDP. 4 livelli, 104 temi, licenza commerciale. 49 $ pagamento unico.',
   },
 
   hero: {

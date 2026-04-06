@@ -20,8 +20,7 @@ const content: AppContent = {
       'foglio risposte automatico',
     ],
     titleTag: 'Puzzle pezzi mancanti per KDP e Etsy | LCS',
-    metaDescription:
-      'Crea puzzle di pezzi mancanti da vendere su Amazon KDP e Etsy. 6 forme, difficoltà configurabile, licenza commerciale. Prova gratis con filigrana.',
+    metaDescription: 'Crea puzzle di pezzi mancanti da vendere su Amazon KDP e Etsy. 6 forme, difficoltà configurabile, licenza commerciale. 49 $ pagamento unico.',
   },
 
   hero: {

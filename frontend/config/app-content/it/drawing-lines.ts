@@ -21,8 +21,7 @@ const content: AppContent = {
       'tracciamento linee',
     ],
     titleTag: 'Schede di pregrafismo da vendere su Etsy | LCS',
-    metaDescription:
-      'Crea schede di pregrafismo professionali da vendere su Etsy e KDP. 8 modelli SVG, 104 temi, licenza commerciale inclusa. Prova gratis con filigrana.',
+    metaDescription: 'Crea schede di pregrafismo professionali da vendere su Etsy e KDP. 8 modelli SVG, 104 temi, licenza commerciale inclusa. 49 $ pagamento unico.',
   },
 
   hero: {

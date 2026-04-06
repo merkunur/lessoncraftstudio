@@ -15,7 +15,7 @@ const content: ToolContent = {
       'AB ABC -kuviosekvenssi-työkirja-generaattori',
     ],
     titleTag: 'Kuviosarjajuna-generaattori | Luo ja myy',
-    metaDescription: 'Luo kuviosarjajuna-työkirjoja viidellä kuviotyypillä, 11 temaattisella junavaunulla, säädettävällä vihjeluvulla ja automaattisilla ratkaisuavaimilla. Ilmainen kokeilu vesileimalla.',
+    metaDescription: 'Luo kuviosarjajuna-työkirjoja viidellä kuviotyypillä, 11 temaattisella junavaunulla, säädettävällä vihjeluvulla ja automaattisilla ratkaisuavaimilla.',
   },
 
   hero: {

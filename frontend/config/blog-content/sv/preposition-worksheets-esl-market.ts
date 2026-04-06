@@ -14,7 +14,7 @@ const content: BlogContent = {
       'Etsy butik svenska',
     ],
     titleTag: 'Prepositionsarbetsblad: ESL-Marknaden | LCS',
-    metaDescription: 'Prepositionsarbetsblad säljer starkt i ESL/SFI-segmentet. Visuella övningar som gör prepositioner begripliga.',
+    metaDescription: 'Prepositionsarbetsblad säljer starkt i ESL/SFI-segmentet. Visuella övningar som gör prepositioner begripliga. Salj pa Etsy & KDP med kommersiell licens.',
   },
   hero: {
     title: 'Prepositionsarbetsblad: ESL-Marknaden',

@@ -15,7 +15,7 @@ const content: AppContent = {
       'versteckte Objekte Arbeitsblatt Generator Etsy',
     ],
     titleTag: 'Suchbilder-Generator für Etsy und KDP | LCS',
-    metaDescription: 'Suchbilder-Generator für Etsy und KDP verkaufen. Ich-sehe-was und Was-passt-nicht Modi, automatischer Lösungsschlüssel. Kostenlos testen mit Wasserzeichen.',
+    metaDescription: 'Suchbilder-Generator für Etsy und KDP verkaufen. Ich-sehe-was und Was-passt-nicht Modi, automatischer Lösungsschlüssel. 49 $ einmalig.',
   },
 
   hero: {

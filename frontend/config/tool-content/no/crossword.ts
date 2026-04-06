@@ -14,8 +14,8 @@ const content: ToolContent = {
       'flerspråklig kryssordgenerator med automatisk fasit',
       'tilpasset ordliste kryssord med ledetråder generator',
     ],
-    titleTag: 'Bildekryssord Generator — Kryssordpuslespill med Bildeledetråder',
-    metaDescription: 'Lag bildekryssord med bildeledetråder på 15×15 rutenett. 4 inntastingsmetoder, automatisk fasit med utfylt rutenett, 104 temaer. Gratis prøveversjon med vannmerke.',
+    titleTag: 'Bildekryssord Generator — Kryssordpuslespill med...',
+    metaDescription: 'Lag bildekryssord med bildeledetråder på 15×15 rutenett. 4 inntastingsmetoder, automatisk fasit med utfylt rutenett,. Selg pa Etsy & KDP med kommersiell lisens.',
   },
 
   hero: {

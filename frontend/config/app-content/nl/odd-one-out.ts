@@ -15,8 +15,7 @@ const content: AppContent = {
       'printbare vind het verschil puzzel business tools',
     ],
     titleTag: 'Welke hoort er niet bij — Etsy | LessonCraftStudio',
-    metaDescription:
-      'Maak welke hoort er niet bij werkbladen om te verkopen op Etsy en Amazon KDP. Twee puzzelmodi, automatisch antwoordblad. Gratis proefversie met watermerk.',
+    metaDescription: 'Maak welke hoort er niet bij werkbladen om te verkopen op Etsy en Amazon KDP. Twee puzzelmodi, automatisch antwoordblad. $49 eenmalig.',
   },
 
   hero: {

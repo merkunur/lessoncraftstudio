@@ -15,8 +15,8 @@ const content: BundleContent = {
       'kommersiell lisens koblingsarbeidsark',
       'masseproduksjon koblingsarbeidsark verktøy',
     ],
-    titleTag: 'Koblingsarbeidsark Pakke — 5 Sorterings- og Koblingsgeneratorer',
-    metaDescription: 'Få 5 koblingsarbeidsark-generatorer i én pakke. Lag kobling, rutenettkobling, skyggematching, bingo og sorteringsarbeidsark til salg på Etsy.',
+    titleTag: 'Koblingsarbeidsark Pakke — 5 Sorterings- og...',
+    metaDescription: 'Få 5 koblingsarbeidsark-generatorer i én pakke. Lag kobling, rutenettkobling, skyggematching, bingo og sorteringsarbeidsark til salg på Etsy. $49. $149 enga.',
   },
 
   hero: {

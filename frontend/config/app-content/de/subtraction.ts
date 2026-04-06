@@ -15,8 +15,7 @@ const content: AppContent = {
       'Lösungsschlüssel Graustufen kommerzielle Nutzung',
     ],
     titleTag: 'Minusaufgaben-Generator — Auf Etsy verkaufen | LCS',
-    metaDescription:
-      'Erstellen Sie Minusaufgaben-Arbeitsblätter zum Verkauf auf Etsy & KDP. Themenbilder, Lösungsschlüssel, gewerbliche Lizenz. Kostenlos testen mit Wasserzeichen.',
+    metaDescription: 'Erstellen Sie Minusaufgaben-Arbeitsblätter zum Verkauf auf Etsy & KDP. Themenbilder, Lösungsschlüssel, gewerbliche Lizenz. 49 $ einmalig.',
   },
 
   hero: {

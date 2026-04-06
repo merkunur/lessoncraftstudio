@@ -14,7 +14,7 @@ const content: ToolContent = {  seo: {
       'automatischer Lösungsschlüssel Kreuzworträtsel',
     ],
     titleTag: 'Kostenloser Kreuzworträtsel-Generator | LCS',
-    metaDescription: 'Kostenloser Kreuzworträtsel-Generator — Bilderkreuzworträtsel online erstellen, ohne Anmeldung oder Download. Testversion mit Wasserzeichen verfügbar.',
+    metaDescription: 'Kostenloser Kreuzworträtsel-Generator — Bilderkreuzworträtsel online erstellen, ohne Anmeldung oder. Verkaufen Sie auf Etsy & KDP mit gewerblicher Lizenz.',
     },
 
   hero: {

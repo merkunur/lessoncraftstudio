@@ -14,7 +14,7 @@ const content: BlogContent = {
       'tyoarkit tuotanto',
     ],
     titleTag: 'Luo tyoarkkipaketti 35 minuutissa | LCS',
-    metaDescription: 'Vaiheittainen opas tyoarkkipaketin luomiseen 35 minuutissa. Generaattori tekee raskaaan tyon puolestasi.',
+    metaDescription: 'Vaiheittainen opas tyoarkkipaketin luomiseen 35 minuutissa. Generaattori tekee raskaaan tyon puolestasi. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
   },
   hero: {
     title: 'Luo tyoarkkipaketti 35 minuutissa: vaiheittainen opas',

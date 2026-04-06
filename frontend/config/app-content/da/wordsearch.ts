@@ -15,8 +15,7 @@ const content: AppContent = {
       'ordsoegning generator kommercielt brug',
     ],
     titleTag: 'Ordsøgning Generator | Opret og Sælg Ordpuslespil',
-    metaDescription:
-      'Opret ordsøgningsarbejdsark til salg på Etsy, KDP og Gumroad. Justerbart gitter 5–30, retningskontroller, sprogbevidste fyldningsbogstaver. Gratis prøveversion.',
+    metaDescription: 'Opret ordsøgningsarbejdsark til salg på Etsy, KDP og Gumroad. Justerbart gitter 5–30, retningskontroller, sprogbevidste fyldningsbogstaver. $49 engangsbetaling.',
   },
 
   hero: {

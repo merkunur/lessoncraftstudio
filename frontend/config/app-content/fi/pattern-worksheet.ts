@@ -16,8 +16,7 @@ const content: AppContent = {
       'kognitiiviset taidot työarkkituotteet',
     ],
     titleTag: 'Hahmontunnistus Työarkin Generaattori Etsyyn | LCS',
-    metaDescription:
-      'Luo hahmontunnistustyöarkkeja myyntiin Etsyssä ja KDP:ssä. Visuaaliset sarjaharjoitukset, temaattiset kuvat, automaattiset vastauslehdet, lisenssi. Kokeile ilmaiseksi.',
+    metaDescription: 'Luo hahmontunnistustyöarkkeja myyntiin Etsyssä ja KDP:ssä. Visuaaliset sarjaharjoitukset, temaattiset kuvat, automaattiset vastauslehdet, lisenssi. $49...',
   },
 
   hero: {

@@ -6,7 +6,7 @@ const content: BlogContent = {
     secondaryKeywords: ['fichas tematica comida alimentos vender negocio', 'fichas tematica comida alimentos vender Etsy vender', 'fichas tematica comida alimentos vender imprimibles rentable'],
     lsiKeywords: ['fichas tematica fichas', 'vender imprimibles fichas', 'alimentos vender educativos'],
     titleTag: 'Fichas de Alimentos y Comida para Vender | LCS',
-    metaDescription: 'Las fichas con tematica de alimentos combinan educacion nutritiva con actividades educativas. Clasificar frutas y verduras, aprender grupos alimenticios, c',
+    metaDescription: 'Las fichas con tematica de alimentos combinan educacion nutritiva con actividades educativas. Venda en Etsy & KDP con licencia comercial.',
   },
   hero: {
     title: 'Fichas con Tematica de Alimentos: Educacion Nutritiva',

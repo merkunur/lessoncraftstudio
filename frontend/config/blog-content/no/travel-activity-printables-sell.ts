@@ -5,7 +5,7 @@ const content: BlogContent = {
     secondaryKeywords: ['reise aktiviteter printables selge Etsy', 'reise aktiviteter printables selge strategi', 'reise aktiviteter printables selge tips'],
     lsiKeywords: ['sesongbaserte utskrifter', 'utskrivbare arbeidsark nisje', 'printable selger Norge'],
     titleTag: 'Reiseaktiviteter-utskrifter: Selg | LCS',
-    metaDescription: 'Foreldre med små barn trenger aktiviteter til bilreiser, flyreiser og ferieopphold. Utskrivbare reiseaktiviteter er lette, billige og trenger ingen la',
+    metaDescription: 'Foreldre med små barn trenger aktiviteter til bilreiser, flyreiser og ferieopphold. Selg pa Etsy & KDP med kommersiell lisens.',
   },
   hero: {
     title: 'Reiseaktiviteter-utskrifter: Selg',

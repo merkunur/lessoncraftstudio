@@ -15,8 +15,7 @@ const content: AppContent = {
       'negocio fichas lenguaje mercado hispano',
     ],
     titleTag: 'Adivinar palabras para vender en Etsy | LCS',
-    metaDescription:
-      'Cree fichas de adivinar palabras para vender en Etsy y KDP. Pistas de imágenes, 11 idiomas, solucionario. Licencia comercial incluida. Pruebe gratis.',
+    metaDescription: 'Cree fichas de adivinar palabras para vender en Etsy y KDP. Pistas de imágenes, 11 idiomas, solucionario. Licencia comercial incluida. 49 $ pago unico.',
   },
 
   hero: {

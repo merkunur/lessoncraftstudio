@@ -14,8 +14,8 @@ const content: ToolContent = {
       'harjoituskohtainen tilan ohitus etsi erilainen -generaattori',
       'automaattinen vastausavain punainen ympyra poikkeava kohde -tehtavageneraattori',
     ],
-    titleTag: 'Etsi erilainen -generaattori — Tehtavageneraattori — Myyjaopas',
-    metaDescription: 'Tee etsi erilainen -tehtavia Identtinen- ja Samanlainen-tilalla, harjoituskohtaisilla ohituksilla, automaattisilla vastausavaimilla punaisilla ympaeroilla. Ilmainen kokeilu vesileimalla.',
+    titleTag: 'Etsi erilainen -generaattori — Tehtavageneraattori —...',
+    metaDescription: 'Tee etsi erilainen -tehtavia Identtinen- ja Samanlainen-tilalla, harjoituskohtaisilla ohituksilla,. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
   },
 
   hero: {

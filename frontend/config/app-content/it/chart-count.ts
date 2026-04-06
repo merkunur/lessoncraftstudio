@@ -22,8 +22,7 @@ const content: AppContent = {
       'scuola primaria',
     ],
     titleTag: 'Schede di conteggio e grafici per Etsy | LCS',
-    metaDescription:
-      'Crea schede di conteggio con grafici a immagini da vendere su Etsy e KDP. 104 temi, 6 tipi per scheda, licenza commerciale. Prova gratis con filigrana.',
+    metaDescription: 'Crea schede di conteggio con grafici a immagini da vendere su Etsy e KDP. 104 temi, 6 tipi per scheda, licenza commerciale. 49 $ pagamento unico.',
   },
 
   hero: {

@@ -14,7 +14,7 @@ const content: BlogContent = {
       'Urheberrecht Bilder Arbeitsblaetter',
     ],
     titleTag: 'Urheberrecht fuer Druckvorlagen-Verkaeufer | LCS',
-    metaDescription: 'Urheberrecht-Grundlagen fuer Druckvorlagen-Verkaeufer in Deutschland. Was geschuetzt ist, was nicht, und wie Sie Abmahnungen vermeiden.',
+    metaDescription: 'Urheberrecht-Grundlagen fuer Druckvorlagen-Verkaeufer in Deutschland. Verkaufen Sie auf Etsy & KDP mit gewerblicher Lizenz.',
   },
   hero: {
     title: 'Urheberrecht fuer Druckvorlagen-Verkaeufer: Grundlagen',

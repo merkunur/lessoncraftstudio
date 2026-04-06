@@ -15,8 +15,7 @@ const content: AppContent = {
       'tegn linjer generator kommercielt brug',
     ],
     titleTag: 'Tegn Linjer Generator | Opret Sporingsarbejdsark',
-    metaDescription:
-      'Opret linjesporingsarbejdsark til salg på Etsy, KDP og Gumroad. Otte SVG-skabeloner, billedparmatchning, 104 tematiske samlinger. Gratis prøveversion.',
+    metaDescription: 'Opret linjesporingsarbejdsark til salg på Etsy, KDP og Gumroad. Otte SVG-skabeloner, billedparmatchning, 104 tematiske samlinger. $49 engangsbetaling.',
   },
 
   hero: {

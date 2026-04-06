@@ -14,8 +14,8 @@ const content: ToolContent = {
       'LPF longest path first algoritme vægbaseret labyrint generator',
       'automatisk facit rosa cirkel løsningsvej labyrint generator',
     ],
-    titleTag: 'Billedsti Generator — Labyrint Arbejdsark Generator — Sælgerguide',
-    metaDescription: 'Lav labyrintarbejdsark med Billedsti, Klassisk Labyrint og Vælg den Rigtige Vej-tilstande, samlingsbilleder og automatiske facit. Gratis prøveversion med vandmærke.',
+    titleTag: 'Billedsti Generator — Labyrint Arbejdsark Generator —...',
+    metaDescription: 'Lav labyrintarbejdsark med Billedsti, Klassisk Labyrint og Vælg den Rigtige Vej-tilstande, samlingsbilleder og. Saelg pa Etsy & KDP med kommerciel licens.',
   },
 
   hero: {

@@ -15,8 +15,7 @@ const content: AppContent = {
       'descifrar código suma negocio imprimibles',
     ],
     titleTag: 'Rompecabezas de código matemático — Etsy | LCS',
-    metaDescription:
-      'Cree rompecabezas de suma codificada para vender en Etsy y KDP. Los niños resuelven sumas para descifrar palabras. Licencia comercial. Pruebe gratis.',
+    metaDescription: 'Cree rompecabezas de suma codificada para vender en Etsy y KDP. Los niños resuelven sumas para descifrar palabras. Licencia comercial. 49 $ pago unico.',
   },
 
   hero: {

@@ -18,7 +18,7 @@ const content: GuideContent = {
       'tuotantotyönkulku digitaalinen ja fyysinen',
     ],
     titleTag: 'Digitaaliset vs. fyysiset tulostettavat — Opas',
-    metaDescription: 'Vertaile digitaalisia ja fyysisiä tulostettavia tuotteita. Katteet, skaalautuvuus, asiakasodotukset, alustavalinnat ja hybridimallin edut.',
+    metaDescription: 'Vertaile digitaalisia ja fyysisiä tulostettavia tuotteita. Katteet, skaalautuvuus, asiakasodotukset,. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
   },
 
   hero: {

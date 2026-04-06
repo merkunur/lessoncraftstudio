@@ -15,8 +15,7 @@ const content: AppContent = {
       'printbare koppelactiviteiten business tools',
     ],
     titleTag: 'Koppelwerkbladen maken en verkopen | LessonCraftStudio',
-    metaDescription:
-      'Maak koppelwerkbladen met thema-afbeeldingen voor Etsy en KDP. Automatische antwoorden, commerciële licentie. Gratis proefversie met watermerk.',
+    metaDescription: 'Maak koppelwerkbladen met thema-afbeeldingen voor Etsy en KDP. Automatische antwoorden, commerciële licentie. Gratis proefversie met watermerk. $49 eenmalig.',
   },
 
   hero: {

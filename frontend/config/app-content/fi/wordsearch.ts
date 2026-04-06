@@ -15,8 +15,7 @@ const content: AppContent = {
       'sanahaku generaattori kaupallinen kaytto',
     ],
     titleTag: 'Sanahaku Generaattori | Luo ja Myy Sanapulmia',
-    metaDescription:
-      'Luo sanahakutyoarkkeja myyntiin Etsyssa, KDP:ssa ja Gumroadissa. Saadettava ruudukko 5–30, suuntakontrollit, kielitietoiset tayttökirjaimet. Ilmainen kokeilu.',
+    metaDescription: 'Luo sanahakutyoarkkeja myyntiin Etsyssa, KDP:ssa ja Gumroadissa. Saadettava ruudukko 5–30, suuntakontrollit, kielitietoiset tayttökirjaimet. $49 kertamaksu.',
   },
 
   hero: {

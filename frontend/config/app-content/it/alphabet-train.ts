@@ -15,8 +15,7 @@ const content: AppContent = {
       'stampabili alfabetizzazione uso commerciale Italia',
     ],
     titleTag: 'Schede Alfabeto da Vendere su Etsy e KDP | Generatore',
-    metaDescription:
-      'Crea schede dell\'alfabeto da vendere su Etsy e Amazon KDP. Vagoni con lettere, 11 lingue, 104 temi. Licenza commerciale inclusa. Prova gratis.',
+    metaDescription: 'Crea schede dell\'alfabeto da vendere su Etsy e Amazon KDP. Vagoni con lettere, 11 lingue, 104 temi. Licenza commerciale inclusa. 49 $ pagamento unico.',
   },
 
   hero: {

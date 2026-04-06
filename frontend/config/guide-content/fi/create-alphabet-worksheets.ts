@@ -18,7 +18,7 @@ const content: GuideContent = {
       'kaupallinen lisenssi aakkosjuna-työkalu',
     ],
     titleTag: 'Aakkosjuna-työarkit — Opas — Kattava myyjän opas',
-    metaDescription: 'Näin luot aakkosjuna-työarkkeja junavaunuilla, kahdella luontitilalla, konfiguroitavalla vaikeustasolla ja 104 teemakuvakokoelmalla. Myy Etsyssä, KDP:ssä ja Gumroadissa.',
+    metaDescription: 'Näin luot aakkosjuna-työarkkeja junavaunuilla, kahdella luontitilalla, konfiguroitavalla vaikeustasolla ja 104. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
   },
 
   hero: {

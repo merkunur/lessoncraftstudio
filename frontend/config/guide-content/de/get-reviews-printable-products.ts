@@ -15,7 +15,7 @@ const content: GuideContent = {
       'Bewertungsvolumen Marktplatz-Ranking authentisches Feedback Nachkauf-Erfahrung',
     ],
     titleTag: 'Bewertungen für Printable-Produkte | LCS',
-    metaDescription: 'Bewertungen für Druckvorlagen bekommen: authentisches Käuferfeedback verdienen, sozialen Beweis aufbauen und die Shop-Glaubwürdigkeit nachhaltig steigern.',
+    metaDescription: 'Bewertungen für Druckvorlagen bekommen: authentisches Käuferfeedback verdienen, sozialen Beweis aufbauen. Verkaufen Sie auf Etsy & KDP mit gewerblicher Lizenz.',
   },
 
   hero: {

@@ -15,8 +15,7 @@ const content: AppContent = {
       'negocio fichas idiomas mercado global ELE',
     ],
     titleTag: 'Fichas de preposiciones ELE para Etsy | LCS',
-    metaDescription:
-      'Cree fichas de preposiciones para ELE y véndalas en Etsy, Eduki y Hotmart. 11 idiomas, imágenes temáticas. Licencia comercial. Pruebe gratis.',
+    metaDescription: 'Cree fichas de preposiciones para ELE y véndalas en Etsy, Eduki y Hotmart. 11 idiomas, imágenes temáticas. Licencia comercial. Pruebe gratis. 49 $ pago unico.',
   },
 
   hero: {

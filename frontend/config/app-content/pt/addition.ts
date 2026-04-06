@@ -28,8 +28,7 @@ const content: AppContent = {
       'PIX',
     ],
     titleTag: 'Atividades de adição para vender online | LCS',
-    metaDescription:
-      'Crie atividades de adição profissionais para vender na Hotmart, Etsy e KDP. Licença comercial inclusa. Teste grátis com marca d\'água — sem cadastro.',
+    metaDescription: 'Crie atividades de adição profissionais para vender na Hotmart, Etsy e KDP. Licença comercial inclusa. 49 $ pagamento unico.',
   },
 
   hero: {

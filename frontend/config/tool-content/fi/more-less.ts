@@ -15,7 +15,7 @@ const content: ToolContent = {
       'kokeile ennen ostoa matematiikkatyökalut',
     ],
     titleTag: 'Ilmainen Suurempi Kuin Pienempi Kuin -Tekijä | LCS',
-    metaDescription: 'Tee suurempi kuin pienempi kuin -tehtäviä ilmaiseksi verkossa vesileimalla — ei rekisteröitymistä. 3 vertailutilaa, teemakuvat, vastausavaimet. Päivitä myyntiä varten.',
+    metaDescription: 'Tee suurempi kuin pienempi kuin -tehtäviä ilmaiseksi verkossa vesileimalla — ei rekisteröitymistä. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
   },
 
   hero: {

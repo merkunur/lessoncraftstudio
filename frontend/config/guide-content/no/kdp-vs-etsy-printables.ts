@@ -15,8 +15,8 @@ const content: GuideContent = {
       'KDP Etsy inntektssammenligning',
       'multiplattform utskriftssalg',
     ],
-    titleTag: 'Amazon KDP vs Etsy: Hvor selge utskriftsklare produkter | LCS',
-    metaDescription: 'KDP vs Etsy for salg av utskriftsklare produkter — ærlig sammenligning. Inntektsmodeller, trafikk, gebyrer og hvilken plattform som er best for din utskriftsvirksomhet i 2026.',
+    titleTag: 'Amazon KDP vs Etsy: Hvor selge utskriftsklare produkter',
+    metaDescription: 'KDP vs Etsy for salg av utskriftsklare produkter — ærlig sammenligning. Inntektsmodeller, trafikk, gebyrer og hvilken plattform som er best for din.',
   },
 
   hero: {

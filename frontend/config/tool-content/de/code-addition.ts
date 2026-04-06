@@ -14,7 +14,7 @@ const content: ToolContent = {  seo: {
       'Zahlencode-Logik-Rätsel Generator',
     ],
     titleTag: 'Kostenloser Code-Mathe-Rätsel Generator | LCS',
-    metaDescription: 'Kostenloser Code-Mathe-Rätsel Generator — kryptarithmetische Additions-Rätsel mit Bildsymbolen sofort erstellen. Testversion mit Wasserzeichen verfügbar.',
+    metaDescription: 'Kostenloser Code-Mathe-Rätsel Generator — kryptarithmetische Additions-Rätsel mit Bildsymbolen sofort. Verkaufen Sie auf Etsy & KDP mit gewerblicher Lizenz.',
     },
 
   hero: {

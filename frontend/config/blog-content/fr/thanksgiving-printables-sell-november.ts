@@ -14,7 +14,7 @@ const content: BlogContent = {
       'demande fiches imprimables Toussaint',
     ],
     titleTag: 'Imprimables Toussaint et automne en novembre | LCS',
-    metaDescription: 'La France n\'a pas Thanksgiving mais la Toussaint et l\'automne offrent des opportunités. Fiches thématiques de saison.',
+    metaDescription: 'La France n\'a pas Thanksgiving mais la Toussaint et l\'automne offrent des opportunités. Vendez sur Etsy & KDP avec licence commerciale.',
   },
   hero: {
     title: 'Imprimables d\'automne et Toussaint : le créneau de novembre',

@@ -15,8 +15,7 @@ const content: AppContent = {
       'fichas cifrados educativos negocio imprimibles',
     ],
     titleTag: 'Criptogramas para vender en Etsy y KDP | LCS',
-    metaDescription:
-      'Cree criptogramas imprimibles para vender en Etsy y KDP. Mensajes cifrados educativos con imágenes. Licencia comercial incluida. Pruebe gratis.',
+    metaDescription: 'Cree criptogramas imprimibles para vender en Etsy y KDP. Mensajes cifrados educativos con imágenes. Licencia comercial incluida. Pruebe gratis. 49 $ pago unico.',
   },
 
   hero: {

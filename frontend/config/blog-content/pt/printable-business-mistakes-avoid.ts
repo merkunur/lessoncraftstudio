@@ -14,7 +14,7 @@ const content: BlogContent = {
       'empreendedor digital educativo',
     ],
     titleTag: 'Erros Negócio Imprimíveis: Evitar | LCS',
-    metaDescription: 'A maioria dos vendedores de imprimíveis comete os mesmos erros que os impedem de crescer. Preço muito baixo, nicho muito amplo, SEO negligenciado e falt...',
+    metaDescription: 'A maioria dos vendedores de imprimíveis comete os mesmos erros que os impedem de crescer. Preço muito baixo, nicho muito amplo, SEO negligenciado e falt.',
   },
   hero: {
     title: 'Erros Negócio Imprimíveis: Evitar',

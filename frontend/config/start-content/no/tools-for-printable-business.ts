@@ -16,7 +16,7 @@ const content: StartContent = {
       'selgerverktøy ressurser',
     ],
     titleTag: 'Essensielle Verktøy for Utskriftsbar Forretning | LCS',
-    metaDescription: 'Essensielle verktøy for selgere av utskriftsbare produkter. Generatorer, designprogramvare, plattformer og ressurser enhver utskriftsbar selger trenger for å lykkes.',
+    metaDescription: 'Essensielle verktøy for selgere av utskriftsbare produkter. Generatorer, designprogramvare, plattformer og ressurser enhver utskriftsbar selger trenger for.',
   },
 
   hero: {

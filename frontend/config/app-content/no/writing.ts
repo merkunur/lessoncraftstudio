@@ -15,8 +15,7 @@ const content: AppContent = {
       'skriveovelse generator kommersielt bruk',
     ],
     titleTag: 'Skriveovelse Generator | Lag og Selg Handskriftsark',
-    metaDescription:
-      'Lag skriveovelsesarbeidsark til salg på Etsy, KDP og Gumroad. Tre ovelsesmoduser, fem skrifttypestiler, pilguided strekrekkefolge. Gratis proveversjon.',
+    metaDescription: 'Lag skriveovelsesarbeidsark til salg på Etsy, KDP og Gumroad. Tre ovelsesmoduser, fem skrifttypestiler, pilguided strekrekkefolge. $49 engangsbetaling.',
   },
 
   hero: {

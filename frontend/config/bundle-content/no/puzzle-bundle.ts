@@ -15,8 +15,8 @@ const content: BundleContent = {
       'kommersiell lisens puslespillarbeidsark',
       'masseproduksjon puslespillarbeidsark verktøy',
     ],
-    titleTag: 'Puslespillarbeidsark Pakke — 4 Logikk- og Puslespillgeneratorer',
-    metaDescription: 'Puslespillarbeidsark pakke med 4 generatorer: manglende biter, finn den ulike, bildesudoku og labyrinter. Selg på Etsy, KDP og Gumroad. Kommersiell lisens.',
+    titleTag: 'Puslespillarbeidsark Pakke — 4 Logikk- og...',
+    metaDescription: 'Puslespillarbeidsark pakke med 4 generatorer: manglende biter, finn den ulike, bildesudoku og labyrinter. Selg på Etsy, KDP og Gumroad. $149 engangsbetaling.',
   },
 
   hero: {

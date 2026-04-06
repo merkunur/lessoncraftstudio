@@ -6,7 +6,7 @@ const content: BlogContent = {
     secondaryKeywords: ['billed sudoku bøger KDP Etsy', 'billed sudoku bøger KDP online', 'billed sudoku bøger KDP forretning'],
     lsiKeywords: ['printbar forretning Danmark', 'digital download salg', 'Etsy printables sælg'],
     titleTag: 'Billed-Sudoku Bøger til KDP: Niche-Guide | LCS',
-    metaDescription: 'Billed-sudoku erstatter tal med billeder i det klassiske sudoku-format. Det er perfekt for børn der endnu ikke kender tal, og formatet vokser hurtigt på KD',
+    metaDescription: 'Billed-sudoku erstatter tal med billeder i det klassiske sudoku-format. Saelg pa Etsy & KDP med kommerciel licens.',
   },
   hero: {
     title: 'Billed-Sudoku Bøger til KDP: Niche-Guide',

@@ -14,7 +14,7 @@ const content: BlogContent = {
       'emprender imprimibles principiantes',
     ],
     titleTag: 'Negocio de Imprimibles sin Saber Disenar | LCS',
-    metaDescription: 'Inicie un negocio de imprimibles educativos sin experiencia en diseno grafico. Herramientas, generadores y estrategias para crear productos profesionales.',
+    metaDescription: 'Inicie un negocio de imprimibles educativos sin experiencia en diseno grafico. Venda en Etsy & KDP con licencia comercial.',
   },
   hero: {
     title: 'Como Iniciar un Negocio de Imprimibles sin Habilidades de Diseno',

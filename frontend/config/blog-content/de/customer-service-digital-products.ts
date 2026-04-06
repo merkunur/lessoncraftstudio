@@ -14,7 +14,7 @@ const content: BlogContent = {
       'Kundenzufriedenheit Druckvorlagen Shop',
     ],
     titleTag: 'Kundenservice digitale Produkte: 5 Sterne | LCS',
-    metaDescription: 'Exzellenter Kundenservice fuer digitale Druckvorlagen. So behalten Sie Ihre 5-Sterne-Bewertung und verwandeln Probleme in Stammkunden.',
+    metaDescription: 'Exzellenter Kundenservice fuer digitale Druckvorlagen. So behalten Sie Ihre 5-Sterne-Bewertung und. Verkaufen Sie auf Etsy & KDP mit gewerblicher Lizenz.',
   },
   hero: {
     title: 'Kundenservice fuer digitale Produkte: 5 Sterne behalten',

@@ -18,7 +18,7 @@ const content: GuideContent = {
       'kommerciel licens præpositionsarbejdsark-værktøj',
     ],
     titleTag: 'Præpositionsarbejdsark — Guide',
-    metaDescription: 'Skab præpositionsarbejdsark med to øvelsestilstande, formudskiftning til scenevariation, 7-præposition afkrydsning, native positionsord på 11 sprog.',
+    metaDescription: 'Skab præpositionsarbejdsark med to øvelsestilstande, formudskiftning til scenevariation, 7-præposition afkrydsning,. Saelg pa Etsy & KDP med kommerciel licens.',
   },
 
   hero: {

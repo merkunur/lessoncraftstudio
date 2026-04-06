@@ -15,8 +15,7 @@ const content: AppContent = {
       '4 types de tâches repérage lettres corrigé automatique',
     ],
     titleTag: 'Fiches cherche et compte à vendre sur Etsy | LCS',
-    metaDescription:
-      'Créez des fiches cherche et compte à vendre sur Etsy & KDP. Modes Objets Cachés et Lettres, licence commerciale. Testez gratuitement avec filigrane.',
+    metaDescription: 'Créez des fiches cherche et compte à vendre sur Etsy & KDP. Modes Objets Cachés et Lettres, licence commerciale. 49 $ paiement unique.',
   },
 
   hero: {

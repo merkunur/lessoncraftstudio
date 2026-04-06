@@ -15,8 +15,7 @@ const content: AppContent = {
       'skriveovelse generator kommercielt brug',
     ],
     titleTag: 'Skriveøvelse Generator | Opret og Sælg Håndskriftsark',
-    metaDescription:
-      'Opret skriveøvelsesarbejdsark til salg på Etsy, KDP og Gumroad. Tre øvelsestilstande, fem skrifttypestile, pilguided stregrækkefølge. Gratis prøveversion.',
+    metaDescription: 'Opret skriveøvelsesarbejdsark til salg på Etsy, KDP og Gumroad. Tre øvelsestilstande, fem skrifttypestile, pilguided stregrækkefølge. $49 engangsbetaling.',
   },
 
   hero: {

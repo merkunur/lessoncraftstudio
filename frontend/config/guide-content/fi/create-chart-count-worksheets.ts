@@ -18,7 +18,7 @@ const content: GuideContent = {
       'kaupallinen lisenssi kuvadiagrammi-työarkkityökalu',
     ],
     titleTag: 'Kuvakaavio-työarkit — Opas',
-    metaDescription: 'Luo kuvakaavio-työarkkeja 4x5 hajautetuilla ruudukoilla, automaattisella vastausavaimella, satunnaisella kuvajakaumalla ja 104 teemalla. Vaiheittainen opas Etsyyn ja KDP:hen.',
+    metaDescription: 'Luo kuvakaavio-työarkkeja 4x5 hajautetuilla ruudukoilla, automaattisella vastausavaimella, satunnaisella kuvajakaumalla ja 104 teemalla.',
   },
 
   hero: {

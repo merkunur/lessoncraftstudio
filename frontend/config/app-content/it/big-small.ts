@@ -15,8 +15,7 @@ const content: AppContent = {
       'stampabili confronto dimensioni uso commerciale Italia',
     ],
     titleTag: 'Schede Grande e Piccolo per Etsy | Crea e Vendi',
-    metaDescription:
-      'Crea schede grande e piccolo da vendere su Etsy e KDP. 5 tipi di domande, immagini identiche e diverse, 104 temi. Licenza commerciale. Prova gratis.',
+    metaDescription: 'Crea schede grande e piccolo da vendere su Etsy e KDP. 5 tipi di domande, immagini identiche e diverse, 104 temi. Licenza commerciale. 49 $ pagamento unico.',
   },
 
   hero: {

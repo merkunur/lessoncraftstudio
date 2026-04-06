@@ -14,7 +14,7 @@ const content: BlogContent = {
       'Etsy butik svenska',
     ],
     titleTag: 'Mönster-Arbetsblad: Sälj Online | LCS',
-    metaDescription: 'Mönster-arbetsblad utvecklar matematiskt tänkande. Populärt för förskolebarn och grundskolans tidiga år.',
+    metaDescription: 'Mönster-arbetsblad utvecklar matematiskt tänkande. Populärt för förskolebarn och grundskolans tidiga år. Salj pa Etsy & KDP med kommersiell licens.',
   },
   hero: {
     title: 'Mönster-Arbetsblad: Sälj Online',

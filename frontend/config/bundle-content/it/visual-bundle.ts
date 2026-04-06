@@ -16,7 +16,7 @@ const content: BundleContent = {
       'temi bianco e nero per libri da colorare',
     ],
     titleTag: 'Pacchetto schede visive per venditori | LessonCraftStudio',
-    metaDescription: 'Pacchetto con 7 generatori schede visive: colorare, disegno, sequenze, pregrafismo e grafici. Schede senza testo vendibili ovunque. Prova gratuita.',
+    metaDescription: 'Pacchetto con 7 generatori schede visive: colorare, disegno, sequenze, pregrafismo e grafici. Schede senza testo vendibili ovunque. 149 $ pagamento unico.',
   },
 
   hero: {

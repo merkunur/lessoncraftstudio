@@ -14,7 +14,7 @@ const content: ToolContent = {  seo: {
       'plaatjesgrafiek activiteit generator online',
     ],
     titleTag: 'Tel- en grafiekwerkbladen gratis | LessonCraftStudio',
-    metaDescription: 'Maak gratis tel- en grafiekwerkbladen online met 4x5 rasters, automatische staafdiagram antwoordbladen en 104 thema\'s. Probeer nu zonder account.',
+    metaDescription: 'Maak gratis tel- en grafiekwerkbladen online met 4x5 rasters, automatische staafdiagram antwoordbladen en 104. Verkoop op Etsy & KDP met commerciele licentie.',
     },
 
   hero: {

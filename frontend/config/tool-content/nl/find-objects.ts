@@ -15,7 +15,7 @@ const content: ToolContent = {
       'automatisch antwoordblad rode cirkel annotaties verborgen voorwerp creator',
     ],
     titleTag: 'Zoek en vind gratis online maken | LessonCraftStudio',
-    metaDescription: 'Maak gratis verborgen voorwerp werkbladen online met twee zoek-en-vind modi, nul-overlap scènes, automatische antwoordbladen en 104 thema\'s. Geen account.',
+    metaDescription: 'Maak gratis verborgen voorwerp werkbladen online met twee zoek-en-vind modi, nul-overlap scènes, automatische. Verkoop op Etsy & KDP met commerciele licentie.',
   },
 
   hero: {

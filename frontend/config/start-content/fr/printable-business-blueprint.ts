@@ -18,7 +18,7 @@ const content: StartContent = {
       'checklist lancement activité imprimables',
     ],
     titleTag: 'Plan d\'action : business d\'imprimables | LCS',
-    metaDescription: 'Transformez vos idées d\'imprimables en plan d\'action. Planifiez votre gamme, choisissez vos plateformes, fixez vos prix et lancez avec les générateurs.',
+    metaDescription: 'Transformez vos idées d\'imprimables en plan d\'action. Planifiez votre gamme, choisissez vos plateformes, fixez. Vendez sur Etsy & KDP avec licence commerciale.',
   },
 
   hero: {

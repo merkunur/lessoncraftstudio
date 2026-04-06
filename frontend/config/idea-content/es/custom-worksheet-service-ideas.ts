@@ -3,7 +3,7 @@ import type { IdeaContent } from '../types';
 const content: IdeaContent = {
   seo: {
     titleTag: 'Servicio de fichas — Negocio | LCS',
-    metaDescription: 'Ideas para un servicio de creación de fichas personalizadas. Ofrezca diseño de educativos por encargo en Fiverr, Hotmart y venta directa a escuelas.',
+    metaDescription: 'Ideas para un servicio de creación de fichas personalizadas. Venda en Etsy & KDP con licencia comercial.',
     primaryKeyword: 'servicio de creación de fichas ideas negocio',
     secondaryKeywords: [
       'negocio de fichas personalizadas por encargo',

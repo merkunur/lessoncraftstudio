@@ -14,7 +14,7 @@ const content: BlogContent = {
       'tulostettava myy',
     ],
     titleTag: 'Kokonaisten sanojen tyoarkit | LCS',
-    metaDescription: 'Myy kokonaisten sanojen tyoarkkeja. Suomessa kokonaisten sanojen tunnistaminen on osa lukemaan oppimista.',
+    metaDescription: 'Myy kokonaisten sanojen tyoarkkeja. Suomessa kokonaisten sanojen tunnistaminen on osa lukemaan oppimista. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
   },
   hero: {
     title: 'Kokonaisten sanojen tyoarkit liiketoimintana',

@@ -14,7 +14,7 @@ const content: BlogContent = {
       'tyoarkit tuotanto',
     ],
     titleTag: 'Tulosteiden tuotekuvaus ja mockupit | LCS',
-    metaDescription: 'Luo ammattimaisia tuotekuvia tulosteille mockup-kuvien avulla. Ilmaiset ja maksulliset tyokalut ja vinkit.',
+    metaDescription: 'Luo ammattimaisia tuotekuvia tulosteille mockup-kuvien avulla. Ilmaiset ja maksulliset tyokalut ja vinkit. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
   },
   hero: {
     title: 'Tulosteiden tuotekuvaus ja mockupit: taydellinen opas',

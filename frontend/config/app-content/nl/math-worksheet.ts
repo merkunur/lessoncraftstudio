@@ -15,8 +15,7 @@ const content: AppContent = {
       'commercieel gebruik algebraïsche werkblad generator',
     ],
     titleTag: 'Rekenbladen generator voor verkopers | LessonCraftStudio',
-    metaDescription:
-      'Maak numerieke rekenbladen om te verkopen op Etsy, KDP en Bol.com. Optellen, aftrekken, vermenigvuldigen. Commerciële licentie. Gratis proefversie.',
+    metaDescription: 'Maak numerieke rekenbladen om te verkopen op Etsy, KDP en Bol.com. Optellen, aftrekken, vermenigvuldigen. Commerciële licentie. $49 eenmalig.',
   },
 
   hero: {

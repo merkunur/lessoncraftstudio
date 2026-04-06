@@ -17,8 +17,7 @@ const content: AppContent = {
       'svenska marknaden ordpussel Etsy',
     ],
     titleTag: 'Bokstavspussel att sälja på Etsy | LessonCraftStudio',
-    metaDescription:
-      'Skapa blandade bokstäver-pussel att sälja på Etsy och KDP. Bildledtrådar, 4 svårighetsnivåer, 11 språk, kommersiell licens. Testa gratis med vattenmärke.',
+    metaDescription: 'Skapa blandade bokstäver-pussel att sälja på Etsy och KDP. Bildledtrådar, 4 svårighetsnivåer, 11 språk, kommersiell licens. $49 engångsbetalning.',
   },
 
   hero: {

@@ -5,7 +5,7 @@ const content: BlogContent = {
     secondaryKeywords: ['pedagogiske printables nye foreldre Etsy', 'pedagogiske printables nye foreldre strategi', 'pedagogiske printables nye foreldre tips'],
     lsiKeywords: ['sesongbaserte utskrifter', 'utskrivbare arbeidsark nisje', 'printable selger Norge'],
     titleTag: 'Pedagogiske utskrifter for nye foreldre | LCS',
-    metaDescription: 'Nye foreldre er en svært verdifull kundegruppe. Når de først oppdager pedagogiske utskrifter, blir de ofte trofaste kunder i årevis. Denne guiden vise',
+    metaDescription: 'Nye foreldre er en svært verdifull kundegruppe. Når de først oppdager pedagogiske utskrifter, blir de ofte trofaste. Selg pa Etsy & KDP med kommersiell lisens.',
   },
   hero: {
     title: 'Pedagogiske utskrifter for nye foreldre',

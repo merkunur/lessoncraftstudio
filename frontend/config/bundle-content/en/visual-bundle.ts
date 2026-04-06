@@ -16,7 +16,7 @@ const content: BundleContent = {
       'visual worksheet seller toolkit',
     ],
     titleTag: 'Visual Worksheet Bundle for Sellers | LCS',
-    metaDescription: 'Get all 7 visual and art generators in one bundle. Coloring, drawing, patterns, charts & more to sell on Etsy & KDP. Commercial license included.',
+    metaDescription: 'Get all 7 visual and art generators in one bundle. Coloring, drawing, patterns, charts & more to sell on Etsy & KDP. Commercial license included. $149 one-time.',
   },
 
   hero: {

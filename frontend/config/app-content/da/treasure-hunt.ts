@@ -15,8 +15,7 @@ const content: AppContent = {
       'printbar vejfinding puslespil forretningsværktøj',
     ],
     titleTag: 'Skattejagt Generator | Opret Vejarbejdsark — Opret og Sælg',
-    metaDescription:
-      'Opret skattejagt arbejdsark til salg på Etsy, KDP og Gumroad. 5×5 koordinatgitter, to retningstyper, automatisk facit, 104 temaer. Gratis prøveversion.',
+    metaDescription: 'Opret skattejagt arbejdsark til salg på Etsy, KDP og Gumroad. 5×5 koordinatgitter, to retningstyper, automatisk facit, 104 temaer. $49 engangsbetaling.',
   },
 
   hero: {

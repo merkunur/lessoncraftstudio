@@ -14,7 +14,7 @@ const content: BlogContent = {
       'tulostettava myy',
     ],
     titleTag: 'Aitienpaiva- ja isanpaiva-tulosteet | LCS',
-    metaDescription: 'Myy tulosteita aitien- ja isanpaivaksi. Suomessa aitienpaiva on toukokuussa ja isanpaiva marraskuussa. Lapset tekevat lahjoja.',
+    metaDescription: 'Myy tulosteita aitien- ja isanpaivaksi. Suomessa aitienpaiva on toukokuussa ja isanpaiva marraskuussa. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
   },
   hero: {
     title: 'Aitienpaiva- ja isanpaiva-tulosteet: tunnepitoiset myynnit',

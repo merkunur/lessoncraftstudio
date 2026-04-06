@@ -14,7 +14,7 @@ const content: BlogContent = {
       'Etsy butik svenska',
     ],
     titleTag: 'Etsy-Recensioner för Utskrifter | LCS',
-    metaDescription: 'Så får du fler femstjärniga recensioner på dina utskrifter. Strategier för att uppmuntra feedback och hantera negativa omdömen.',
+    metaDescription: 'Så får du fler femstjärniga recensioner på dina utskrifter. Strategier för att uppmuntra feedback och hantera. Salj pa Etsy & KDP med kommersiell licens.',
   },
   hero: {
     title: 'Etsy-Recensioner för Utskrifter',

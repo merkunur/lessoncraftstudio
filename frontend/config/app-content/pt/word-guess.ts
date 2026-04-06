@@ -26,8 +26,7 @@ const content: AppContent = {
       'Kiwify',
     ],
     titleTag: 'Jogo de adivinhar palavras para vender | LCS',
-    metaDescription:
-      'Crie jogos de adivinhar palavras para vender na Hotmart, Etsy e KDP. Pistas visuais, 11 idiomas, gabarito automático. Teste grátis com marca d\'água.',
+    metaDescription: 'Crie jogos de adivinhar palavras para vender na Hotmart, Etsy e KDP. Pistas visuais, 11 idiomas, gabarito automático. 49 $ pagamento unico.',
   },
 
   hero: {

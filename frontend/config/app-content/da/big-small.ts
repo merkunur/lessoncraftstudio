@@ -15,8 +15,7 @@ const content: AppContent = {
       'stort lille arbejdsark generator kommercielt brug',
     ],
     titleTag: 'Stort og Lille Generator | Opret og Sælg Arbejdsark',
-    metaDescription:
-      'Opret størrelsessammenligningsarbejdsark til salg på Etsy, KDP og Gumroad. Fem spørgsmålstyper, identiske og forskellige tilstande, 104 temaer. Gratis prøveversion.',
+    metaDescription: 'Opret størrelsessammenligningsarbejdsark til salg på Etsy, KDP og Gumroad. $49 engangsbetaling.',
   },
 
   hero: {

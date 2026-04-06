@@ -15,7 +15,7 @@ const content: AppContent = {
       'Bildzuordnung Arbeitsblatt verkaufen Etsy KDP',
     ],
     titleTag: 'Zuordnungs-Arbeitsblätter für Etsy erstellen | LCS',
-    metaDescription: 'Zuordnungs-Arbeitsblätter erstellen und auf Etsy verkaufen. Vier Modi, konfigurierbare Paaranzahl, Lösungsschlüssel. Kostenlos testen mit Wasserzeichen.',
+    metaDescription: 'Zuordnungs-Arbeitsblätter erstellen und auf Etsy verkaufen. Vier Modi, konfigurierbare Paaranzahl, Lösungsschlüssel. 49 $ einmalig.',
   },
 
   hero: {

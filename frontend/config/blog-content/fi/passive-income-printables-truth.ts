@@ -14,7 +14,7 @@ const content: BlogContent = {
       'verkkokauppa tulosteet',
     ],
     titleTag: 'Passiivinen tulo tulosteilla: totuus | LCS',
-    metaDescription: 'Onko tulosteiden myynti oikeasti passiivista tuloa? Realistinen analyysi tyomaarasta, tuloista ja yllapidosta.',
+    metaDescription: 'Onko tulosteiden myynti oikeasti passiivista tuloa? Realistinen analyysi tyomaarasta, tuloista ja yllapidosta. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
   },
   hero: {
     title: 'Passiivinen tulo tulosteilla: totuus hypeen takana',

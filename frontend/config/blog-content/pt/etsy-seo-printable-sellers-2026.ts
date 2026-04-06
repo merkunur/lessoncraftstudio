@@ -14,7 +14,7 @@ const content: BlogContent = {
       'empreendedor digital educativo',
     ],
     titleTag: 'SEO Etsy Imprimíveis 2026 | LCS',
-    metaDescription: 'O algoritmo do Etsy mudou significativamente nos últimos anos. Em 2026, a busca prioriza relevância contextual, qualidade de listagem e taxa de conversã...',
+    metaDescription: 'O algoritmo do Etsy mudou significativamente nos últimos anos. Em 2026, a busca prioriza relevância contextual, qualidade de listagem e taxa de conversã.',
   },
   hero: {
     title: 'SEO Etsy Imprimíveis 2026',

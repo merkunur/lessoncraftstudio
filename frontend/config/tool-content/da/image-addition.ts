@@ -15,7 +15,7 @@ const content: ToolContent = {
       'børnehave matematik printbare for sælgere',
     ],
     titleTag: 'Additions Arbejdsark Generator — Matematikark til Klassen',
-    metaDescription: 'Opret additions arbejdsark med tematiske billeder til din produktlinje. 104 temaer, 4 øvelsestilstande, facit, trykklare PDF\'er. Gratis prøveversion med vandmærke.',
+    metaDescription: 'Opret additions arbejdsark med tematiske billeder til din produktlinje. Saelg pa Etsy & KDP med kommerciel licens.',
   },
 
   hero: {

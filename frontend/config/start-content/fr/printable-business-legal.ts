@@ -18,7 +18,7 @@ const content: StartContent = {
       'charges déductibles activité imprimables',
     ],
     titleTag: 'Business d\'imprimables : statut juridique | LCS',
-    metaDescription: 'Obligations fiscales pour la vente d\'imprimables. Structure juridique, charges déductibles, propriété intellectuelle et conformité des plateformes.',
+    metaDescription: 'Obligations fiscales pour la vente d\'imprimables. Structure juridique, charges déductibles, propriété. Vendez sur Etsy & KDP avec licence commerciale.',
   },
 
   hero: {

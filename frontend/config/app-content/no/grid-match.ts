@@ -15,8 +15,7 @@ const content: AppContent = {
       'utskriftsbar bildepuslespill forretningsverktoy',
     ],
     titleTag: 'Rutenettkobling Puslespill Generator | Lag og Selg',
-    metaDescription:
-      'Lag rutenettskoblingspuslespill til salg på Etsy, KDP og Gumroad. Konfigurerbar rutenettstorrelse, justerbare ledetrådsceller, automatisk fasit, 104 temaer. Gratis.',
+    metaDescription: 'Lag rutenettskoblingspuslespill til salg på Etsy, KDP og Gumroad. $49 engangsbetaling.',
   },
 
   hero: {

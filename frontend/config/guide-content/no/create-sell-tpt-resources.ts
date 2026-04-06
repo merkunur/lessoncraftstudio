@@ -15,7 +15,7 @@ const content: GuideContent = {
       'pedagogisk ressursmarkedsplass',
       'selg undervisningsmateriell på nett',
     ],
-    titleTag: 'Slik lager og selger du TPT-ressurser | LCS',
+    titleTag: 'Lager og selger du TPT-ressurser | LCS',
     metaDescription: 'Guide til å lage og selge ressurser på Teachers Pay Teachers. Produktoppretting, butikkoppsett, prissetting og markedsføringsstrategier for TPT-selgere.',
   },
 

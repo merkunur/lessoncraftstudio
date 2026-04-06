@@ -18,7 +18,7 @@ const content: GuideContent = {
       'kommersiell lisens arbeidsarkverktoy',
     ],
     titleTag: 'Lag subtraksjonsarbeidsark — Trinn-for-trinn-guide',
-    metaDescription: 'Lag subtraksjonsarbeidsark for barn med overkryssede bilder, tematiske visuelle elementer og automatisk fasit. Trinn-for-trinn guide for salg pa Etsy, KDP og Gumroad.',
+    metaDescription: 'Lag subtraksjonsarbeidsark for barn med overkryssede bilder, tematiske visuelle elementer og automatisk fasit. Selg pa Etsy & KDP med kommersiell lisens.',
   },
 
   hero: {

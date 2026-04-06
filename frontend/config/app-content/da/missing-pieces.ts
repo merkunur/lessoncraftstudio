@@ -15,8 +15,7 @@ const content: AppContent = {
       'printbar puslespilsaktivitet forretningsværktøj',
     ],
     titleTag: 'Manglende Brikker Generator | Opret Visuelle Puslespil',
-    metaDescription:
-      'Opret manglende brikker-puslespil til salg på Etsy, KDP og Gumroad. 6 brikformer, konfigurerbar sværhed, automatisk facit, 104 temaer. Gratis prøveversion.',
+    metaDescription: 'Opret manglende brikker-puslespil til salg på Etsy, KDP og Gumroad. 6 brikformer, konfigurerbar sværhed, automatisk facit, 104 temaer. $49 engangsbetaling.',
   },
 
   hero: {

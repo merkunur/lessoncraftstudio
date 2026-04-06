@@ -23,8 +23,7 @@ const content: ToolContent = {  seo: {
       'licença comercial',
     ],
     titleTag: 'Gerador de palavras cruzadas grátis | LCS',
-    metaDescription:
-      'Crie palavras cruzadas grátis com imagens como pistas. 11 idiomas, gabarito automático, PDF imprimível. Teste online sem cadastro — marca d\'água removível.',
+    metaDescription: 'Crie palavras cruzadas grátis com imagens como pistas. 11 idiomas, gabarito automático, PDF imprimível. Venda no Etsy & KDP com licenca comercial.',
   },
 
   hero: {

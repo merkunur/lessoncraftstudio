@@ -17,8 +17,8 @@ const content: StartContent = {
       'digitaalinen lataus liiketoiminta aikainvestointi',
       'useat tulovirrat tulostettavat tuotteet',
     ],
-    titleTag: 'Kuinka paljon tulostettavien myynnillä voi tienata',
-    metaDescription: 'Kuinka paljon tulostettavien tuotteiden myynnillä voi tienata? Realistiset tuotto-odotukset, alustamaksut, hinnoittelustrategiat ja tuloon vaikuttavat muuttujat.',
+    titleTag: 'Paljon tulostettavien myynnillä voi tienata',
+    metaDescription: 'Kuinka paljon tulostettavien tuotteiden myynnillä voi tienata? Realistiset tuotto-odotukset, alustamaksut,. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
   },
 
   hero: {

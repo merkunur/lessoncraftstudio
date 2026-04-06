@@ -16,7 +16,7 @@ const content: StartContent = {
       'vokse utskriftsbar forretning',
     ],
     titleTag: 'Skalere til Fulltids Utskriftsbar Forretning | LCS',
-    metaDescription: 'Slik skalerer du fra sideprosjekt til fulltids utskriftsbar forretning. Vekstmilepæler, automatisering, flerplattformekspansjon og inntektsstrategier.',
+    metaDescription: 'Slik skalerer du fra sideprosjekt til fulltids utskriftsbar forretning. Selg pa Etsy & KDP med kommersiell lisens.',
   },
 
   hero: {

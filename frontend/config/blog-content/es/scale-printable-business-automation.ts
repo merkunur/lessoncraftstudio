@@ -6,7 +6,7 @@ const content: BlogContent = {
     secondaryKeywords: ['escalar negocio imprimibles guia', 'escalar negocio imprimibles automatizacion comparar', 'escalar negocio imprimibles automatizacion mejor opcion'],
     lsiKeywords: ['escalar negocio analisis', 'comparacion plataformas imprimibles', 'vender fichas online'],
     titleTag: 'Escalar su Negocio de Imprimibles con Automatizacion | LCS',
-    metaDescription: 'Como automatizar y escalar su negocio de imprimibles para generar mas ingresos con menos trabajo manual.',
+    metaDescription: 'Como automatizar y escalar su negocio de imprimibles para generar mas ingresos con menos trabajo manual. Venda en Etsy & KDP con licencia comercial.',
   },
   hero: {
     title: 'Escalar su Negocio de Imprimibles con Automatizacion',

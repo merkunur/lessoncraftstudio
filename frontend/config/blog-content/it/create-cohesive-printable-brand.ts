@@ -6,7 +6,7 @@ const content: BlogContent = {
     secondaryKeywords: ['come creare stampabili vendere', 'guida pratica stampabili business', 'tutorial stampabili educativi'],
     lsiKeywords: ['creazione stampabili professionali', 'workflow produzione schede', 'ottimizzazione vendita stampabili'],
     titleTag: 'Creare un Brand Stampabili Coerente | LCS',
-    metaDescription: 'Crei un brand visivo coerente per i Suoi stampabili. Stile, colori, font e presentazione che costruiscono fiducia.',
+    metaDescription: 'Crei un brand visivo coerente per i Suoi stampabili. Stile, colori, font e presentazione che costruiscono fiducia. Vendi su Etsy & KDP con licenza commerciale.',
   },
   hero: {
     title: 'Come Creare un Brand Coerente per i Suoi Stampabili',

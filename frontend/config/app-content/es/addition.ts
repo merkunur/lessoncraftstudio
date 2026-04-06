@@ -16,8 +16,7 @@ const content: AppContent = {
       'mercado hispano 500 millones hispanohablantes imprimibles',
     ],
     titleTag: 'Crear fichas de sumas para vender en Etsy | LCS',
-    metaDescription:
-      'Cree fichas de sumas profesionales para vender en Etsy, KDP y Hotmart. Licencia comercial incluida. Pruebe gratis con marca de agua — sin registro.',
+    metaDescription: 'Cree fichas de sumas profesionales para vender en Etsy, KDP y Hotmart. Licencia comercial incluida. 49 $ pago unico.',
   },
 
   hero: {

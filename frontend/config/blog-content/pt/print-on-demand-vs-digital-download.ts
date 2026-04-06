@@ -14,7 +14,7 @@ const content: BlogContent = {
       'empreendedor digital educativo',
     ],
     titleTag: 'Impressão Sob Demanda vs Digital | LCS',
-    metaDescription: 'Imprimíveis podem ser vendidos como download digital (Etsy) ou como produto físico impresso sob demanda (KDP, Printful). Cada modelo tem margens, logíst...',
+    metaDescription: 'Imprimíveis podem ser vendidos como download digital (Etsy) ou como produto físico impresso sob demanda (KDP, Printful). Cada modelo tem margens, logíst.',
   },
   hero: {
     title: 'Impressão Sob Demanda vs Digital',

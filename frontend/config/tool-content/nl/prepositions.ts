@@ -15,7 +15,7 @@ const content: ToolContent = {
       'meertalige positiewoorden werkblad tool',
     ],
     titleTag: 'Voorzetsels werkbladen gratis | LessonCraftStudio',
-    metaDescription: 'Maak gratis voorzetsels werkbladen online met invul- en meerkeuzemodi, vormvervanging, 11 talen en 104 thema\'s. Ideaal voor NT2 en inburgering.',
+    metaDescription: 'Maak gratis voorzetsels werkbladen online met invul- en meerkeuzemodi, vormvervanging, 11 talen en 104 thema\'s. Verkoop op Etsy & KDP met commerciele licentie.',
   },
 
   hero: {

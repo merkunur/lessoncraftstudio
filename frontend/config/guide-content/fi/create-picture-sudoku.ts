@@ -18,7 +18,7 @@ const content: GuideContent = {
       'kaupallinen lisenssi palapeliväline',
     ],
     titleTag: 'Luo kuvasudoku-työarkkeja — Opas',
-    metaDescription: 'Luo kuvasudokuja nuoremmille käyttäjille. 4x4 kuvaruudukot, 3 vaikeustasoa, temaattiset kuvat, vastausavaimet ja tulostusvalmiit PDF:t myyntiin Etsyssä ja KDP:ssä.',
+    metaDescription: 'Luo kuvasudokuja nuoremmille käyttäjille. 4x4 kuvaruudukot, 3 vaikeustasoa, temaattiset kuvat, vastausavaimet ja tulostusvalmiit PDF:t myyntiin Etsyssä ja.',
   },
 
   hero: {

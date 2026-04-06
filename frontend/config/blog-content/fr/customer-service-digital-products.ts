@@ -14,7 +14,7 @@ const content: BlogContent = {
       'satisfaction client fiches',
     ],
     titleTag: 'Service client pour produits numériques | LCS',
-    metaDescription: 'Gérez le service client de vos imprimables efficacement. Réponses types, remboursements et fidélisation client.',
+    metaDescription: 'Gérez le service client de vos imprimables efficacement. Réponses types, remboursements et fidélisation client. Vendez sur Etsy & KDP avec licence commerciale.',
   },
   hero: {
     title: 'Service client pour vos imprimables : guide complet',

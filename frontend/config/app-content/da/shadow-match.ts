@@ -15,8 +15,7 @@ const content: AppContent = {
       'printbar visuel matchningsaktivitet forretningsværktøj',
     ],
     titleTag: 'Skyggematchning Generator | Opret Silhuetpuslespil',
-    metaDescription:
-      'Opret skyggematchnings arbejdsark til salg på Etsy, KDP og Gumroad. Skyggematchning og gør-den-hel-tilstande, autosilhuetter, 104 temaer. Gratis prøveversion.',
+    metaDescription: 'Opret skyggematchnings arbejdsark til salg på Etsy, KDP og Gumroad. Skyggematchning og gør-den-hel-tilstande, autosilhuetter, 104 temaer. $49 engangsbetaling.',
   },
 
   hero: {

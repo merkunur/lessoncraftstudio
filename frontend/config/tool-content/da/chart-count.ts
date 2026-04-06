@@ -15,7 +15,7 @@ const content: ToolContent = {
       'datarepræsentation arbejdsark online',
     ],
     titleTag: 'Billeddiagram Arbejdsark Generator — online | Online Værktøj',
-    metaDescription: 'Lav billeddiagram arbejdsark til matematik. Spredte 4×5 gitre, 6 billedtyper, automatiske facit, 11 sprog, 104 temaer. Gratis prøveversion med vandmærke.',
+    metaDescription: 'Lav billeddiagram arbejdsark til matematik. Spredte 4×5 gitre, 6 billedtyper, automatiske facit, 11 sprog, 104. Saelg pa Etsy & KDP med kommerciel licens.',
   },
 
   hero: {

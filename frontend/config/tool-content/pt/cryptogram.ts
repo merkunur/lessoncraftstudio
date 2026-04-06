@@ -24,8 +24,7 @@ const content: ToolContent = {
       'licença comercial',
     ],
     titleTag: 'Gerador de criptogramas grátis online | LCS',
-    metaDescription:
-      'Crie criptogramas grátis com imagens. Substituição de letras, 11 idiomas, gabarito automático. Teste online sem cadastro — marca d\'água removível.',
+    metaDescription: 'Crie criptogramas grátis com imagens. Substituição de letras, 11 idiomas, gabarito automático. Venda no Etsy & KDP com licenca comercial.',
   },
 
   hero: {

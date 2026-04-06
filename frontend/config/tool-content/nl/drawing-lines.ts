@@ -15,7 +15,7 @@ const content: ToolContent = {
       'afbeeldingspaar matching lijntraceer werkbladen',
     ],
     titleTag: 'Trekwerkbladen gratis online | LessonCraftStudio',
-    metaDescription: 'Maak lijntraceer werkbladen met acht SVG-sjablonen en 3.100+ illustraties over 104 thema\'s. Probeer gratis met watermerk, geen registratie nodig.',
+    metaDescription: 'Maak lijntraceer werkbladen met acht SVG-sjablonen en 3.100+ illustraties over 104 thema\'s. Verkoop op Etsy & KDP met commerciele licentie.',
   },
 
   hero: {

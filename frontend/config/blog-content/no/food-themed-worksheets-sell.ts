@@ -5,7 +5,7 @@ const content: BlogContent = {
     secondaryKeywords: ['mat tema arbeidsark selge Etsy', 'mat tema arbeidsark selge strategi', 'mat tema arbeidsark selge tips'],
     lsiKeywords: ['sesongbaserte utskrifter', 'utskrivbare arbeidsark nisje', 'printable selger Norge'],
     titleTag: 'Mattema-arbeidsark: Selg på nett | LCS',
-    metaDescription: 'Mattemaer (frukt, grønnsaker, måltider) er populære for pedagogiske arbeidsark. Barn lærer vokabular, kategorisering og sunnhet gjennom mattemaer. Kom',
+    metaDescription: 'Mattemaer (frukt, grønnsaker, måltider) er populære for pedagogiske arbeidsark. Selg pa Etsy & KDP med kommersiell lisens.',
   },
   hero: {
     title: 'Mattema-arbeidsark: Selg på nett',

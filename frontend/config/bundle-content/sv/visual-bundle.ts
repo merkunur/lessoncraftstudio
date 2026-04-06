@@ -16,7 +16,7 @@ const content: BundleContent = {
       'bulkproduktion visuella arbetsblad verktyg',
     ],
     titleTag: 'Visuellt lärpaket för säljare | LessonCraftStudio',
-    metaDescription: 'Få 7 visuella lärande-generatorer i ett paket. Skapa målarbilder, ritning, mönster, storleksjämförelse, diagram och linjespårning att sälja online. Prova.',
+    metaDescription: 'Få 7 visuella lärande-generatorer i ett paket. Skapa målarbilder, ritning, mönster, storleksjämförelse, diagram och linjespårning att sälja online. $49.',
   },
 
   hero: {

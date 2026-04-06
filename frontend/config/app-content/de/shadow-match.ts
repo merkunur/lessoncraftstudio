@@ -15,7 +15,7 @@ const content: AppContent = {
       'visuelle Wahrnehmung Druckvorlagen Einkommensquelle',
     ],
     titleTag: 'Schattenbilder-Zuordnung für Etsy erstellen | LCS',
-    metaDescription: 'Schattenbilder-Zuordnung erstellen und auf Etsy verkaufen. Silhouetten-Matching und Bildhälften-Modus, Lösungsschlüssel. Kostenlos testen mit Wasserzeichen.',
+    metaDescription: 'Schattenbilder-Zuordnung erstellen und auf Etsy verkaufen. Silhouetten-Matching und Bildhälften-Modus, Lösungsschlüssel. 49 $ einmalig.',
   },
 
   hero: {

@@ -14,7 +14,7 @@ const content: BlogContent = {
       'Etsy butik svenska',
     ],
     titleTag: 'Diagram- och Räknearbetsblad som Säljer | LCS',
-    metaDescription: 'Diagram- och räknearbetsblad kombinerar visuellt lärande med matematik. Populärt för förskoleklass och årskurs 1.',
+    metaDescription: 'Diagram- och räknearbetsblad kombinerar visuellt lärande med matematik. Populärt för förskoleklass och årskurs 1. Salj pa Etsy & KDP med kommersiell licens.',
   },
   hero: {
     title: 'Diagram- och Räknearbetsblad som Säljer',

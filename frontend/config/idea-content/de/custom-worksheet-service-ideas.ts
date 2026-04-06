@@ -15,7 +15,7 @@ const content: IdeaContent = {
       'maßgeschneiderte Lernmaterialien Geschäftsmodell',
     ],
     titleTag: 'Arbeitsblatt-Service Geschäftsideen | LCS',
-    metaDescription: 'Arbeitsblatt-Erstellungsservice als Premium-Geschäftsmodell. Individuelle Lernmaterialien auf Bestellung für Schulen und Käufer mit wiederkehrenden Aufträgen.',
+    metaDescription: 'Arbeitsblatt-Erstellungsservice als Premium-Geschäftsmodell. Verkaufen Sie auf Etsy & KDP mit gewerblicher Lizenz.',
   },
   hero: {
     title: 'Arbeitsblatt-Service — Premium-Geschäftsideen für Verkäufer',

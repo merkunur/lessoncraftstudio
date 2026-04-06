@@ -6,7 +6,7 @@ const content: BlogContent = {
     secondaryKeywords: ['yhdista parit tyoarkit lapsille', 'matching tulosteet pienille lapsille', 'taaperoaktiviteetit tulostettava'],
     lsiKeywords: ['visuaalinen hahmotus tulosteet', 'kognitiivinen kehitys tehtavat', 'parinmuodostus harjoitukset'],
     titleTag: 'Yhdistamistyoarkit taaperomarkkinoilla | LCS',
-    metaDescription: 'Myy yhdistamistyoarkkeja taaperoiden vanhemmille. Kasvava markkina jossa vanhemmat etsivat kehitysta tukevia aktiviteetteja.',
+    metaDescription: 'Myy yhdistamistyoarkkeja taaperoiden vanhemmille. Kasvava markkina jossa vanhemmat etsivat kehitysta tukevia. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
   },
   hero: {
     title: 'Yhdistamistyoarkit: taaperomarkkinan kultakaivos',

@@ -17,7 +17,7 @@ const content: StartContent = {
       'internationalt printbart foretagende',
       'saelg arbejdsark paa Etsy.de Etsy.fr',
     ],
-    titleTag: 'Flersproget arbejdsarksgenerator — 11 sprog — Kom I Gang Guide',
+    titleTag: 'Flersproget arbejdsarksgenerator — 11 sprog — Kom I Gang...',
     metaDescription: 'Lav og saelg arbejdsark paa 11 sprog med en flersproget generator. Naa tyske, franske og spanske koebere paa Etsy, Amazon KDP og globale markeder. Proev gratis.',
   },
 

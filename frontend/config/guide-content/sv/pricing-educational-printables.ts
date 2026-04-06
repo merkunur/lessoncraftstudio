@@ -18,7 +18,7 @@ const content: GuideContent = {
       'prissättningsramverk prispositionering underprissättning överprissättning hållbar prissättning',
     ],
     titleTag: 'Prisstrategi pedagogiska arbetsblad | LessonCraftStudio',
-    metaDescription: 'Beprövade prissättningsstrategier för pedagogiska utskriftsbara produkter. Täcker prispsykologi, konkurrensanalys, plattformsavgifter, vinstmarginaler och.',
+    metaDescription: 'Beprövade prissättningsstrategier för pedagogiska utskriftsbara produkter. Salj pa Etsy & KDP med kommersiell licens.',
   },
 
   hero: {

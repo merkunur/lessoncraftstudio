@@ -14,7 +14,7 @@ const content: ToolContent = {  seo: {
       'afroepblad bingo werkblad generator',
     ],
     titleTag: 'Bingokaarten gratis met afbeeldingen | LessonCraftStudio',
-    metaDescription: 'Maak gratis bingokaarten met afbeeldingen. Rasters van 3×3 tot 5×5, batchgeneratie tot 10 unieke kaarten, afroepbladen en 104 thema\'s. Geen account nodig.',
+    metaDescription: 'Maak gratis bingokaarten met afbeeldingen. Rasters van 3×3 tot 5×5, batchgeneratie tot 10 unieke kaarten,. Verkoop op Etsy & KDP met commerciele licentie.',
     },
 
   hero: {

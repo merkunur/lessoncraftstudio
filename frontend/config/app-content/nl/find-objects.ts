@@ -15,8 +15,7 @@ const content: AppContent = {
       'printbare visuele zoekactiviteit business tools',
     ],
     titleTag: 'Zoek en vind werkbladen voor Etsy | LessonCraftStudio',
-    metaDescription:
-      'Maak zoek-en-vind werkbladen om te verkopen op Etsy en KDP. Kinderen zoeken verborgen voorwerpen tussen thema-afbeeldingen. Gratis proefversie.',
+    metaDescription: 'Maak zoek-en-vind werkbladen om te verkopen op Etsy en KDP. Kinderen zoeken verborgen voorwerpen tussen thema-afbeeldingen. Gratis proefversie. $49 eenmalig.',
   },
 
   hero: {

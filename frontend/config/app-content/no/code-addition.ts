@@ -15,8 +15,7 @@ const content: AppContent = {
       'mattepuslespill arbeidsbok generator',
     ],
     titleTag: 'Kodeaddisjon Generator | Mattepuslespill å Knekke',
-    metaDescription:
-      'Lag kodeaddisjons arbeidsark til Etsy, KDP og Gumroad. Avslør Ord modus, 104 temaer, 11 språk, fasit, 400+ DPI. Gratis prøveversjon med vannmerke.',
+    metaDescription: 'Lag kodeaddisjons arbeidsark til Etsy, KDP og Gumroad. Avslør Ord modus, 104 temaer, 11 språk, fasit, 400+ DPI. $49 engangsbetaling.',
   },
 
   hero: {

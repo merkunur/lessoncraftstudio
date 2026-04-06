@@ -15,8 +15,7 @@ const content: AppContent = {
       'negocio fichas razonamiento mercado hispano',
     ],
     titleTag: 'Encuentra el intruso para Etsy y KDP | LCS',
-    metaDescription:
-      'Cree fichas de encuentra el intruso para vender en Etsy y KDP. Los niños identifican el elemento diferente. Licencia comercial. Pruebe gratis.',
+    metaDescription: 'Cree fichas de encuentra el intruso para vender en Etsy y KDP. Los niños identifican el elemento diferente. Licencia comercial. Pruebe gratis. 49 $ pago unico.',
   },
 
   hero: {

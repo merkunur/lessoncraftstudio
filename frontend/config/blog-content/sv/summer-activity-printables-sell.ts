@@ -14,7 +14,7 @@ const content: BlogContent = {
       'Etsy butik svenska',
     ],
     titleTag: 'Sommaraktivitets-Utskrifter: Sälj | LCS',
-    metaDescription: 'Sommarlovsaktiviteter som arbetsblad, pussel och utomhuslekar. Föräldrar söker material som håller barnen sysselsatta.',
+    metaDescription: 'Sommarlovsaktiviteter som arbetsblad, pussel och utomhuslekar. Salj pa Etsy & KDP med kommersiell licens.',
   },
   hero: {
     title: 'Sommaraktivitets-Utskrifter: Sälj',

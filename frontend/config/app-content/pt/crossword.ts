@@ -27,8 +27,7 @@ const content: AppContent = {
       '11 idiomas',
     ],
     titleTag: 'Palavras cruzadas para vender online | LCS',
-    metaDescription:
-      'Crie palavras cruzadas com imagens para vender na Hotmart, Etsy e KDP. Pistas visuais, 11 idiomas, gabarito automático. Teste grátis com marca d\'água.',
+    metaDescription: 'Crie palavras cruzadas com imagens para vender na Hotmart, Etsy e KDP. Pistas visuais, 11 idiomas, gabarito automático. 49 $ pagamento unico.',
   },
 
   hero: {

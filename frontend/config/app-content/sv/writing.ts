@@ -17,8 +17,7 @@ const content: AppContent = {
       'svenska marknaden skrivövningar Etsy',
     ],
     titleTag: 'Skrivövningar att sälja på Etsy | LessonCraftStudio',
-    metaDescription:
-      'Skapa skrivövningar att sälja på Etsy och KDP. Tre övningslägen, fem typsnitt, pilguidad streckordning, kommersiell licens. Testa gratis med vattenmärke.',
+    metaDescription: 'Skapa skrivövningar att sälja på Etsy och KDP. Tre övningslägen, fem typsnitt, pilguidad streckordning, kommersiell licens. $49 engångsbetalning.',
   },
 
   hero: {

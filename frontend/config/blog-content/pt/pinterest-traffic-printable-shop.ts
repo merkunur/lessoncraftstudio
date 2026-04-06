@@ -14,7 +14,7 @@ const content: BlogContent = {
       'empreendedor digital educativo',
     ],
     titleTag: 'Tráfego Pinterest para Loja Imprimíveis | LCS',
-    metaDescription: 'Pinterest é o canal de tráfego gratuito mais eficaz para lojas de imprimíveis educativos. Diferente de Instagram e TikTok, pins continuam gerando tráfeg...',
+    metaDescription: 'Pinterest é o canal de tráfego gratuito mais eficaz para lojas de imprimíveis educativos. Venda no Etsy & KDP com licenca comercial.',
   },
   hero: {
     title: 'Tráfego Pinterest para Loja Imprimíveis',

@@ -14,7 +14,7 @@ const content: BlogContent = {
       'matemaattinen hahmotus',
     ],
     titleTag: 'Kuviotyoarkit: myy verkossa | LCS',
-    metaDescription: 'Myy kuviotyoarkkeja verkossa. Hahmontunnistus on avaintaito jota jokainen lapsi harjoittelee. Matala kilpailu, vakaa kysynta.',
+    metaDescription: 'Myy kuviotyoarkkeja verkossa. Hahmontunnistus on avaintaito jota jokainen lapsi harjoittelee. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
   },
   hero: {
     title: 'Kuviotyoarkit: hahmontunnistuksen myyntituote',

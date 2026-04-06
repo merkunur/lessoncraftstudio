@@ -15,8 +15,7 @@ const content: AppContent = {
       '5 types de motifs 11 wagons indices ajustables',
     ],
     titleTag: 'Suites logiques pour business d\'imprimables | LCS',
-    metaDescription:
-      'Créez des fiches de suites logiques à vendre sur Etsy & KDP. 5 types de motifs, wagons thématiques, licence commerciale. Essai gratuit avec filigrane.',
+    metaDescription: 'Créez des fiches de suites logiques à vendre sur Etsy & KDP. 5 types de motifs, wagons thématiques, licence commerciale. 49 $ paiement unique.',
   },
 
   hero: {

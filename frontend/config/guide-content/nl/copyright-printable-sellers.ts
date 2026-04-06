@@ -18,7 +18,7 @@ const content: GuideContent = {
       'creatieve keuzes expressie versus ideeën feiten standaardmethoden educatieve inhoud',
     ],
     titleTag: 'Auteursrecht voor verkopers | LessonCraftStudio',
-    metaDescription: 'Auteursrecht voor printables-verkopers in Nederland: welke werkbladelementen beschermbaar zijn, registratie, DMCA-handhaving en veelgemaakte fouten.',
+    metaDescription: 'Auteursrecht voor printables-verkopers in Nederland: welke werkbladelementen beschermbaar zijn, registratie,. Verkoop op Etsy & KDP met commerciele licentie.',
   },
 
   hero: {

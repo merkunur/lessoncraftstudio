@@ -2,8 +2,8 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Bulklisensiering utskriftbare forretningsideer til salg — Guide',
-    metaDescription: 'Bulklisensiering utskriftbare forretningsideer til salg av arbeidsarksamlinger til institusjoner, distrikter og organisasjoner. Volumlisensstrategier for selgere.',
+    titleTag: 'Bulklisensiering utskriftbare forretningsideer til salg...',
+    metaDescription: 'Bulklisensiering utskriftbare forretningsideer til salg av arbeidsarksamlinger til institusjoner, distrikter og. Selg pa Etsy & KDP med kommersiell lisens.',
 
     primaryKeyword: 'bulklisensiering utskriftbar',
     secondaryKeywords: [

@@ -14,7 +14,7 @@ const content: BlogContent = {
       'empreendedor digital educativo',
     ],
     titleTag: 'Calendário Sazonal para Vendedores | LCS',
-    metaDescription: 'Vendedores de imprimíveis que planejam lançamentos sazonais vendem 2-3x mais que os que publicam aleatoriamente. No Brasil, o calendário sazonal é único...',
+    metaDescription: 'Vendedores de imprimíveis que planejam lançamentos sazonais vendem 2-3x mais que os que publicam aleatoriamente. No Brasil, o calendário sazonal é único.',
   },
   hero: {
     title: 'Calendário Sazonal para Vendedores',

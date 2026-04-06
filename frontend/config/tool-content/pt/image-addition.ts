@@ -23,8 +23,7 @@ const content: ToolContent = {  seo: {
       'licença comercial',
     ],
     titleTag: 'Atividades de adição grátis online | LCS',
-    metaDescription:
-      'Crie atividades de adição grátis com imagens temáticas. 104 temas, gabarito automático, exportação PDF. Teste online sem cadastro — marca d\'água removível.',
+    metaDescription: 'Crie atividades de adição grátis com imagens temáticas. 104 temas, gabarito automático, exportação PDF. Venda no Etsy & KDP com licenca comercial.',
   },
 
   hero: {

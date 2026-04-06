@@ -16,7 +16,7 @@ const content: AppContent = {
       'Lösungsschlüssel Schwierigkeitsstufen kommerzielle Nutzung',
     ],
     titleTag: 'Mathe-Arbeitsblatt-Generator für Verkäufer | LCS',
-    metaDescription: 'Erstellen Sie Mathe-Arbeitsblätter mit Bilderrätsel-Gleichungen zum Verkauf auf Etsy & KDP. 4 Schwierigkeitsstufen, gewerbliche Lizenz. Kostenlos testen.',
+    metaDescription: 'Erstellen Sie Mathe-Arbeitsblätter mit Bilderrätsel-Gleichungen zum Verkauf auf Etsy & KDP. 4 Schwierigkeitsstufen, gewerbliche Lizenz. 49 $ einmalig.',
   },
 
   hero: {

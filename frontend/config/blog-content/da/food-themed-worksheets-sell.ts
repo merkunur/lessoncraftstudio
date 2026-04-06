@@ -6,7 +6,7 @@ const content: BlogContent = {
     secondaryKeywords: ['mad tema arbejdsark sælg Etsy', 'mad tema arbejdsark sælg online', 'mad tema arbejdsark sælg forretning'],
     lsiKeywords: ['printbar forretning Danmark', 'digital download salg', 'Etsy printables sælg'],
     titleTag: 'Madtema Arbejdsark: En Appetitlig Niche | LCS',
-    metaDescription: 'Madtemaer er universelt populære for børne-printables. Frugt, grøntsager, bagning og madlavning giver farverige, genkendelige billeder der engagerer børn i',
+    metaDescription: 'Madtemaer er universelt populære for børne-printables. Frugt, grøntsager, bagning og madlavning giver farverige,. Saelg pa Etsy & KDP med kommerciel licens.',
   },
   hero: {
     title: 'Madtema Arbejdsark: En Appetitlig Niche',

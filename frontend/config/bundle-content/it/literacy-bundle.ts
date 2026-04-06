@@ -17,7 +17,7 @@ const content: BundleContent = {
       'diacritici corretti alfabeti nativi',
     ],
     titleTag: 'Pacchetto giochi di parole — Vendere | LessonCraftStudio',
-    metaDescription: 'Pacchetto con 7 generatori schede linguistiche in 11 lingue. Alfabeto, cerca parole, crittogramma, preposizioni e scrittura. Licenza commerciale.',
+    metaDescription: 'Pacchetto con 7 generatori schede linguistiche in 11 lingue. Alfabeto, cerca parole, crittogramma, preposizioni e scrittura. 149 $ pagamento unico.',
   },
 
   hero: {

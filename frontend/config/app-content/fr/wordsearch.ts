@@ -16,8 +16,7 @@ const content: AppContent = {
       'corrigé code couleur grilles configurables 11 langues',
     ],
     titleTag: 'Mots mêlés à vendre sur Etsy & KDP | LCS',
-    metaDescription:
-      'Créez des mots mêlés à vendre sur Etsy & KDP. Grilles 5×5 à 30×30, 11 langues, licence commerciale. Testez gratuitement avec filigrane.',
+    metaDescription: 'Créez des mots mêlés à vendre sur Etsy & KDP. Grilles 5×5 à 30×30, 11 langues, licence commerciale. Testez gratuitement avec filigrane. 49 $ paiement unique.',
   },
 
   hero: {

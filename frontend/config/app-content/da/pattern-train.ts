@@ -15,8 +15,7 @@ const content: AppContent = {
       'mønstertog generator kommercielt brug',
     ],
     titleTag: 'Mønstertog Generator | Opret Sekvensarbejdsark — Sælgguide',
-    metaDescription:
-      'Opret mønstertog-arbejdsark til salg på Etsy, KDP og Gumroad. Fem mønstertyper, 11 tematiske togvogne, justerbart antal ledetråde. Gratis prøveversion.',
+    metaDescription: 'Opret mønstertog-arbejdsark til salg på Etsy, KDP og Gumroad. Fem mønstertyper, 11 tematiske togvogne, justerbart antal ledetråde. $49 engangsbetaling.',
   },
 
   hero: {

@@ -18,7 +18,7 @@ const content: GuideContent = {
       'modèle revenus évolutif flux revenus fiches multi-plateforme revenus',
     ],
     titleTag: 'Revenu passif avec des fiches (2026) | LCS',
-    metaDescription: 'Construire des revenus récurrents avec les fiches. Catalogues durables, distribution multi-plateforme, expansion linguistique et effets catalogue pour.',
+    metaDescription: 'Construire des revenus récurrents avec les fiches. Catalogues durables, distribution multi-plateforme,. Vendez sur Etsy & KDP avec licence commerciale.',
   },
 
   hero: {

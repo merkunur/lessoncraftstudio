@@ -15,7 +15,7 @@ const content: ToolContent = {
       'opropsliste bingo arbeidsark generator',
     ],
     titleTag: 'Bingokort Generator — Bildebingo online — Lag Online Gratis',
-    metaDescription: 'Lag bildebingokort for produktlinjens spill. Rutenett fra 3×3 til 5×5, batch unike kort, opropslister, 104 temaer. Gratis prøveversjon med vannmerke.',
+    metaDescription: 'Lag bildebingokort for produktlinjens spill. Rutenett fra 3×3 til 5×5, batch unike kort, opropslister, 104 temaer. Selg pa Etsy & KDP med kommersiell lisens.',
   },
 
   hero: {

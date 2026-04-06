@@ -6,7 +6,7 @@ const content: BlogContent = {
     secondaryKeywords: ['sporingsark finmotorik sælg Etsy', 'sporingsark finmotorik sælg online', 'sporingsark finmotorik sælg forretning'],
     lsiKeywords: ['printbar forretning Danmark', 'digital download salg', 'Etsy printables sælg'],
     titleTag: 'Sporingsark: Sælg Finmotorik-Træning | LCS',
-    metaDescription: 'Sporingsark er det mest søgte finmotorikprodukt for børn 3-6 år. Barnet følger stiplede linjer, former og bogstaver med blyant — en grundlæggende øvelse de',
+    metaDescription: 'Sporingsark er det mest søgte finmotorikprodukt for børn 3-6 år. Saelg pa Etsy & KDP med kommerciel licens.',
   },
   hero: {
     title: 'Sporingsark: Sælg Finmotorik-Træning',

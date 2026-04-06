@@ -15,7 +15,7 @@ const content: AppContent = {
       'Bilder-Kachelpuzzle Generator verkaufen Etsy',
     ],
     titleTag: 'Gitter-Zuordnungs-Rätsel-Generator | LCS',
-    metaDescription: 'Gitter-Zuordnungs-Rätsel erstellen für Ihr Printable-Business. Konfigurierbares Kachelraster mit Hinweiszellen, 104 Themen. Kostenlos testen mit Wasserzeichen.',
+    metaDescription: 'Gitter-Zuordnungs-Rätsel erstellen für Ihr Printable-Business. Konfigurierbares Kachelraster mit Hinweiszellen, 104 Themen. 49 $ einmalig.',
   },
 
   hero: {

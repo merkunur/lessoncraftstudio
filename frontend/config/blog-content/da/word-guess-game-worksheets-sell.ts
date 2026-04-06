@@ -6,7 +6,7 @@ const content: BlogContent = {
     secondaryKeywords: ['ordgætte spil arbejdsark sælg Etsy', 'ordgætte spil arbejdsark sælg online', 'ordgætte spil arbejdsark sælg forretning'],
     lsiKeywords: ['printbar forretning Danmark', 'digital download salg', 'Etsy printables sælg'],
     titleTag: 'Ordgætte-Spil Arbejdsark: Sælg Ordpuslespil | LCS',
-    metaDescription: 'Ordgætte-spil arbejdsark er et interaktivt puslespilformat, der kombinerer ordforrådsøvelse med strategisk tænkning. Formatet appellerer til børn 6-12 år o',
+    metaDescription: 'Ordgætte-spil arbejdsark er et interaktivt puslespilformat, der kombinerer ordforrådsøvelse med strategisk tænkning. Saelg pa Etsy & KDP med kommerciel licens.',
   },
   hero: {
     title: 'Ordgætte-Spil Arbejdsark: Sælg Ordpuslespil',

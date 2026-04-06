@@ -14,9 +14,8 @@ const content: AppContent = {
       'tulostettavat kirjainjäljennys työarkit liiketoiminta',
       'kirjoitusharjoitus generaattori kaupallinen käyttö',
     ],
-    titleTag: 'Kirjoitusharjoitus Generaattori | Luo ja Myy Käsinkirjoitusarkkeja',
-    metaDescription:
-      'Luo kirjoitusharjoitustyöarkkeja myyntiin Etsyssä, KDP:ssä ja Gumroadissa. Kolme harjoitustilaa, viisi fonttityyliä, nuoliohjattu vetojärjestys. Ilmainen kokeilu.',
+    titleTag: 'Kirjoitusharjoitus Generaattori | LCS',
+    metaDescription: 'Luo kirjoitusharjoitustyöarkkeja myyntiin Etsyssä, KDP:ssä ja Gumroadissa. Kolme harjoitustilaa, viisi fonttityyliä, nuoliohjattu vetojärjestys. $49 kertamaksu.',
   },
 
   hero: {

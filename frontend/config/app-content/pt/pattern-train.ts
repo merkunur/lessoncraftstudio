@@ -27,8 +27,7 @@ const content: AppContent = {
       'Kiwify',
     ],
     titleTag: 'Atividades de sequências para vender online | LCS',
-    metaDescription:
-      'Crie atividades de sequências e padrões para vender na Hotmart, Etsy e KDP. Trem de padrões visual, gabarito automático. Teste grátis com marca d\'água.',
+    metaDescription: 'Crie atividades de sequências e padrões para vender na Hotmart, Etsy e KDP. Trem de padrões visual, gabarito automático. 49 $ pagamento unico.',
   },
 
   hero: {

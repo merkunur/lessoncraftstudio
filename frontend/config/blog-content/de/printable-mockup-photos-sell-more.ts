@@ -14,7 +14,7 @@ const content: BlogContent = {
       'Listing Fotos Konversion steigern',
     ],
     titleTag: 'Mockup-Fotos: 3x mehr Druckvorlagen verkaufen | LCS',
-    metaDescription: 'Wie professionelle Mockup-Fotos Ihre Druckvorlagen-Verkaeufe verdreifachen. Schritt-fuer-Schritt Canva-Anleitung und die besten Templates.',
+    metaDescription: 'Wie professionelle Mockup-Fotos Ihre Druckvorlagen-Verkaeufe verdreifachen. Verkaufen Sie auf Etsy & KDP mit gewerblicher Lizenz.',
   },
   hero: {
     title: 'Mockup-Fotos: 3x mehr Druckvorlagen verkaufen',

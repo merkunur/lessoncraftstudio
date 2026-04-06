@@ -15,8 +15,7 @@ const content: AppContent = {
       'stort lite arbeidsark generator kommersielt bruk',
     ],
     titleTag: 'Stort og Lite Generator | Lag og Selg Arbeidsark',
-    metaDescription:
-      'Lag storrelsessammenligningsarbeidsark til salg på Etsy, KDP og Gumroad. Fem sporsmålstyper, identiske og forskjellige moduser, 104 temaer. Gratis proveversjon.',
+    metaDescription: 'Lag storrelsessammenligningsarbeidsark til salg på Etsy, KDP og Gumroad. Fem sporsmålstyper, identiske og forskjellige moduser, 104 temaer. $49 engangsbetaling.',
   },
 
   hero: {

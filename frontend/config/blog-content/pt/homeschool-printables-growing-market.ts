@@ -14,7 +14,7 @@ const content: BlogContent = {
       'mercado imprimíveis temáticos',
     ],
     titleTag: 'Imprimíveis Homeschool: Mercado Crescente | LCS',
-    metaDescription: 'O homeschool (ensino domiciliar) está crescendo rapidamente no Brasil, regulamentado desde 2024. Famílias que optam pelo ensino domiciliar precisam de.',
+    metaDescription: 'O homeschool (ensino domiciliar) está crescendo rapidamente no Brasil, regulamentado desde 2024. Venda no Etsy & KDP com licenca comercial.',
   },
   hero: {
     title: 'Imprimíveis Homeschool: Mercado Crescente',

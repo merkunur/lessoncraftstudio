@@ -18,7 +18,7 @@ const content: StartContent = {
       'myy tehtavia Etsy.de Etsy.fr',
     ],
     titleTag: 'Monikielinen tehtävägeneraattori — 11 kieltä — aloitusopas',
-    metaDescription: 'Luo ja myy tehtäviä 11 kielellä monikielisellä generaattorilla. Tavoita saksalaiset, ranskalaiset ja espanjalaiset ostajat Etsyssä, Amazon KDP:ssä ja globaaleilla markkinoilla.',
+    metaDescription: 'Luo ja myy tehtäviä 11 kielellä monikielisellä generaattorilla. Tavoita saksalaiset, ranskalaiset ja espanjalaiset ostajat Etsyssä, Amazon KDP:ssä ja.',
   },
 
   hero: {

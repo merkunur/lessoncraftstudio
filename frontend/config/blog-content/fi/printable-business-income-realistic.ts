@@ -14,7 +14,7 @@ const content: BlogContent = {
       'verkkokauppa tulosteet',
     ],
     titleTag: 'Tulosteiden tulot realistisesti | LCS',
-    metaDescription: 'Realistiset tuloodotukset tulosteliiketoiminnalle. Kuukausitulot kuukaudelta ensimmaisena vuonna. Ei hypeae vaan totuus.',
+    metaDescription: 'Realistiset tuloodotukset tulosteliiketoiminnalle. Kuukausitulot kuukaudelta ensimmaisena vuonna. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
   },
   hero: {
     title: 'Tulosteiden liiketoimintatulot: realistinen kuva',

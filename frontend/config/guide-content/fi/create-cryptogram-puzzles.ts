@@ -18,7 +18,7 @@ const content: GuideContent = {
       'kaupallinen lisenssi kryptogrammi-työarkkityökalu',
     ],
     titleTag: 'Kryptogrammipulmat — Opas',
-    metaDescription: 'Luo kryptogrammipulmiä kuvasalauskoodauksella, säädettävällä vaikeustasolla, automaattisella osoitustilalla ja paikkakuntakohtaisilla aakkosilla. Opas Etsyn ja KDP:n myyjille.',
+    metaDescription: 'Luo kryptogrammipulmiä kuvasalauskoodauksella, säädettävällä vaikeustasolla, automaattisella osoitustilalla ja paikkakuntakohtaisilla aakkosilla.',
   },
 
   hero: {

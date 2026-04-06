@@ -14,7 +14,7 @@ const content: BlogContent = {
       'verkkokauppa tulosteet',
     ],
     titleTag: 'Kausikalenteri tulostekauppiaalle | LCS',
-    metaDescription: 'Suunnittele tulosteidesi tuotanto- ja markkinointikalenteri kausien mukaan. Joulu, paasiainen, vappu ja kaikki sesongit.',
+    metaDescription: 'Suunnittele tulosteidesi tuotanto- ja markkinointikalenteri kausien mukaan. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
   },
   hero: {
     title: 'Kausikalenteri tulostekauppiaalle: vuosisuunnitelma',

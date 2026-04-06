@@ -14,7 +14,7 @@ const content: BlogContent = {
       'hahmontunnistus juna',
     ],
     titleTag: 'Kuviojunatyoarkit nichena | LCS',
-    metaDescription: 'Myy kuviojunatyoarkkeja. Ainutlaatuinen yhdistelma jossa junavaunut muodostavat kuviosarjan. Lapset rakastavat junia ja oppivat samalla.',
+    metaDescription: 'Myy kuviojunatyoarkkeja. Ainutlaatuinen yhdistelma jossa junavaunut muodostavat kuviosarjan. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
   },
   hero: {
     title: 'Kuviojunatyoarkit: ainutlaatuinen piilonicheissa',

@@ -15,8 +15,7 @@ const content: AppContent = {
       'lots de cartes uniques export ZIP feuilles d\'appel',
     ],
     titleTag: 'Cartes de loto à vendre sur Etsy & KDP | LCS',
-    metaDescription:
-      'Créez des cartes de loto à vendre sur Etsy & KDP. Lots de cartes uniques, feuilles d\'appel, licence commerciale. Testez gratuitement avec filigrane.',
+    metaDescription: 'Créez des cartes de loto à vendre sur Etsy & KDP. Lots de cartes uniques, feuilles d\'appel, licence commerciale. 49 $ paiement unique.',
   },
 
   hero: {

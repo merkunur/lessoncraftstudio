@@ -6,7 +6,7 @@ const content: BlogContent = {
     secondaryKeywords: ['printable business strategie 2026', 'werkbladen verkopen platform tips', 'digitale producten online verkopen'],
     lsiKeywords: ['printable verkoop optimalisatie', 'digitale download business', 'online printable winkel'],
     titleTag: 'Passief Inkomen met Printables: De Waarheid | LCS',
-    metaDescription: 'Passief Inkomen met Printables: De Waarheid. Praktische strategieën en bewezen technieken voor printable verkopers in 2026.',
+    metaDescription: 'Passief Inkomen met Printables: De Waarheid. Praktische strategieën en bewezen technieken voor printable. Verkoop op Etsy & KDP met commerciele licentie.',
   },
   hero: {
     title: 'Passief Inkomen met Printables: De Waarheid',

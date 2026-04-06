@@ -15,7 +15,7 @@ const content: AppContent = {
       'commercieel gebruik kleurplaten generator',
     ],
     titleTag: 'Kleurplaten generator voor Etsy | LessonCraftStudio',
-    metaDescription: 'Maak kleurplaten met thema-afbeeldingen om te verkopen op Etsy en KDP. 104 thema\'s, 3.000+ illustraties. Gratis proefversie met watermerk.',
+    metaDescription: 'Maak kleurplaten met thema-afbeeldingen om te verkopen op Etsy en KDP. 104 thema\'s, 3.000+ illustraties. Gratis proefversie met watermerk. $49 eenmalig.',
   },
 
   hero: {

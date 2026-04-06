@@ -18,7 +18,7 @@ const content: GuideContent = {
       'KDP upload fejl afvisning fejlfinding previewer korrektur',
     ],
     titleTag: 'KDP formatering arbejdsark — Komplet guide',
-    metaDescription: 'KDP formateringsguide med trimstørrelser, margener, beskæringsindstillinger, PDF eksport ved 300 DPI, omslagsdimensioner og upload-fejlfinding for aktivitetsbøger.',
+    metaDescription: 'KDP formateringsguide med trimstørrelser, margener, beskæringsindstillinger, PDF eksport ved 300 DPI, omslagsdimensioner og upload-fejlfinding for.',
   },
 
   hero: {

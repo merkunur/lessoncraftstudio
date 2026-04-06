@@ -15,8 +15,7 @@ const content: AppContent = {
       'mot mystère corrigé automatique images thématiques',
     ],
     titleTag: 'Énigmes maths codées à vendre sur Etsy | LCS',
-    metaDescription:
-      'Créez des énigmes mathématiques codées à vendre sur Etsy & KDP. Mode Mot Mystère, 11 langues, licence commerciale. Testez gratuitement avec filigrane.',
+    metaDescription: 'Créez des énigmes mathématiques codées à vendre sur Etsy & KDP. Mode Mot Mystère, 11 langues, licence commerciale. 49 $ paiement unique.',
   },
 
   hero: {

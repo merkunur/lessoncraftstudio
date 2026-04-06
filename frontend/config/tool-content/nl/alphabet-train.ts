@@ -14,7 +14,7 @@ const content: ToolContent = {  seo: {
       'kleurrijke alfabettrein werkbladen maken',
     ],
     titleTag: 'Alfabet werkbladen gratis online | LessonCraftStudio',
-    metaDescription: 'Maak alfabettrein werkbladen met 11 kleurrijke wagons en letter-afbeelding koppeling in 11 talen. Probeer gratis met watermerk, geen registratie nodig.',
+    metaDescription: 'Maak alfabettrein werkbladen met 11 kleurrijke wagons en letter-afbeelding koppeling in 11 talen. Verkoop op Etsy & KDP met commerciele licentie.',
     },
 
   hero: {

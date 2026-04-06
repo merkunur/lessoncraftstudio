@@ -5,7 +5,7 @@ const content: BlogContent = {
     secondaryKeywords: ['barnehage arbeidsark marked Etsy', 'barnehage arbeidsark marked strategi', 'barnehage arbeidsark marked tips'],
     lsiKeywords: ['sesongbaserte utskrifter', 'utskrivbare arbeidsark nisje', 'printable selger Norge'],
     titleTag: 'Markedet for barnehage-arbeidsark | LCS',
-    metaDescription: 'Barnehage-arbeidsark er det største segmentet innen utskrivbare pedagogiske produkter. Fra enkel sporing til bildetelling og bokstavgjenkjenning — det',
+    metaDescription: 'Barnehage-arbeidsark er det største segmentet innen utskrivbare pedagogiske produkter. Selg pa Etsy & KDP med kommersiell lisens.',
   },
   hero: {
     title: 'Markedet for barnehage-arbeidsark',

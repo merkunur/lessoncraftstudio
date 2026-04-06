@@ -5,7 +5,7 @@ const content: BlogContent = {
     secondaryKeywords: ['ordbilder arbeidsark bedrift Etsy', 'ordbilder arbeidsark bedrift strategi', 'ordbilder arbeidsark bedrift tips'],
     lsiKeywords: ['sesongbaserte utskrifter', 'utskrivbare arbeidsark nisje', 'printable selger Norge'],
     titleTag: 'Ordbilder-arbeidsark som forretning | LCS',
-    metaDescription: 'Ordbilder (sight words) er høyfrekvente ord som barn lærer å gjenkjenne umiddelbart. Arbeidsark for ordbildetrening er en stabil nisje med jevn etters',
+    metaDescription: 'Ordbilder (sight words) er høyfrekvente ord som barn lærer å gjenkjenne umiddelbart. Selg pa Etsy & KDP med kommersiell lisens.',
   },
   hero: {
     title: 'Ordbilder-arbeidsark som forretning',

@@ -15,7 +15,7 @@ const content: ToolContent = {
       'begynnelsesbokstav bilde ord kobling generator',
     ],
     titleTag: 'Koblings Arbeidsark Generator — Tegn-en-Strek Generator',
-    metaDescription: 'Lag koblings arbeidsark med 4 moduser, automatisk fasit med forbindelseslinjer, konfigurerbare par, 11 språk, 104 temaer. Gratis prøveversjon med vannmerke.',
+    metaDescription: 'Lag koblings arbeidsark med 4 moduser, automatisk fasit med forbindelseslinjer, konfigurerbare par, 11 språk, 104. Selg pa Etsy & KDP med kommersiell lisens.',
   },
 
   hero: {

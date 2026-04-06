@@ -17,8 +17,7 @@ const content: AppContent = {
       'svenska marknaden sorteringsblad Etsy',
     ],
     titleTag: 'Sorteringsblad att sälja på Etsy | LessonCraftStudio',
-    metaDescription:
-      'Skapa sorteringsblad att sälja på Etsy och KDP. Tvåkategorisortering, automatiskt facit, 104 teman, 11 språk, kommersiell licens. Testa gratis med vattenmärke.',
+    metaDescription: 'Skapa sorteringsblad att sälja på Etsy och KDP. Tvåkategorisortering, automatiskt facit, 104 teman, 11 språk, kommersiell licens. $49 engångsbetalning.',
   },
 
   hero: {

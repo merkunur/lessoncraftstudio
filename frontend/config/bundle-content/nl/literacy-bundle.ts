@@ -16,7 +16,7 @@ const content: BundleContent = {
       'taalwerkbladen verkopen 11 talen',
     ],
     titleTag: 'Taal- en woordspelpakket — Verkopen | LessonCraftStudio',
-    metaDescription: 'Zeven taalwerkblad generators in een pakket. Maak woordzoekers, kruiswoorden, cryptogrammen en meer in 11 talen om te verkopen op Etsy, KDP en Bol.com.',
+    metaDescription: 'Zeven taalwerkblad generators in een pakket. Maak woordzoekers, kruiswoorden, cryptogrammen en meer in 11 talen om te verkopen op Etsy, KDP en Bol. $49.',
   },
 
   hero: {

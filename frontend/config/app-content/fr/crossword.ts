@@ -15,8 +15,7 @@ const content: AppContent = {
       'corrigé automatique grille 15×15 images thématiques',
     ],
     titleTag: 'Mots croisés à vendre sur Etsy & KDP | LCS',
-    metaDescription:
-      'Créez des mots croisés en images à vendre sur Etsy & KDP. Indices visuels, 104 thèmes, licence commerciale. Testez gratuitement avec filigrane.',
+    metaDescription: 'Créez des mots croisés en images à vendre sur Etsy & KDP. Indices visuels, 104 thèmes, licence commerciale. 49 $ paiement unique.',
   },
 
   hero: {

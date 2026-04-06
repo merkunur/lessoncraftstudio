@@ -15,7 +15,7 @@ const content: AppContent = {
       'stampabili trova il diverso uso commerciale',
     ],
     titleTag: 'Trova l\'Intruso da Vendere su Etsy e KDP | Generatore',
-    metaDescription: 'Crea schede trova l\'intruso da vendere su Etsy e KDP. Due modalità, risposte con cerchi rossi, 104 temi. Licenza commerciale inclusa. Prova gratis.',
+    metaDescription: 'Crea schede trova l\'intruso da vendere su Etsy e KDP. Due modalità, risposte con cerchi rossi, 104 temi. Licenza commerciale inclusa. 49 $ pagamento unico.',
   },
 
   hero: {

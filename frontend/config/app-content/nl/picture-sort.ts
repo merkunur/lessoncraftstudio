@@ -15,8 +15,7 @@ const content: AppContent = {
       'printbare categoriseer sorteeractiviteit business tools',
     ],
     titleTag: 'Sorteerwerkbladen voor Etsy-business | LessonCraftStudio',
-    metaDescription:
-      'Maak sorteerwerkbladen om te verkopen op Etsy en Amazon KDP. Twee-categorieën sorteren, automatisch antwoordblad, 104 thema\'s. Gratis proefversie.',
+    metaDescription: 'Maak sorteerwerkbladen om te verkopen op Etsy en Amazon KDP. Twee-categorieën sorteren, automatisch antwoordblad, 104 thema\'s. Gratis proefversie. $49 eenmalig.',
   },
 
   hero: {

@@ -15,7 +15,7 @@ const content: ToolContent = {
       'talkode matematik aktivitet for brugere',
     ],
     titleTag: 'Kodeknækker Matematik Generator — Arbejdsark til Klassen',
-    metaDescription: 'Opret kodeknækkende matematik arbejdsark til produktlinjesjov. Billedchiffer puslespil med addition, Ord Afsløring-tilstand, 11 sprog. Gratis prøveversion med vandmærke.',
+    metaDescription: 'Opret kodeknækkende matematik arbejdsark til produktlinjesjov. Saelg pa Etsy & KDP med kommerciel licens.',
   },
 
   hero: {

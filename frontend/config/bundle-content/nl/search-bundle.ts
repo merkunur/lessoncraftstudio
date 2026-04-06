@@ -16,7 +16,7 @@ const content: BundleContent = {
       'zoek en vind werkbladen verkopen 11 talen',
     ],
     titleTag: 'Zoek en vind pakket voor verkopers | LessonCraftStudio',
-    metaDescription: 'Vier zoek- en ontdekkingsgenerators in een pakket: ik zie ik zie, verborgen voorwerpen, kruiswoordpuzzels en schattenjachten. Verkoop op Etsy en KDP.',
+    metaDescription: 'Vier zoek- en ontdekkingsgenerators in een pakket: ik zie ik zie, verborgen voorwerpen, kruiswoordpuzzels en schattenjachten. $149 eenmalig.',
   },
 
   hero: {

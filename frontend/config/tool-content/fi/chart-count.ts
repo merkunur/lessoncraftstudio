@@ -15,7 +15,7 @@ const content: ToolContent = {
       'tietojen esittaminen tyoarkit verkossa',
     ],
     titleTag: 'Kuvakaavio Tyoarkkigeneraattori — verkossa | Online Tyokalu',
-    metaDescription: 'Tee kuvakaavio-tehtäviä matematiikkaan. Levitetyt 4×5 ruudukot, 6 kuvatyyppiä, automaattiset vastausavaimet, 11 kieltä, 104 teemaa. Ilmainen kokeilu vesileimalla.',
+    metaDescription: 'Tee kuvakaavio-tehtäviä matematiikkaan. Levitetyt 4×5 ruudukot, 6 kuvatyyppiä, automaattiset vastausavaimet,. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
   },
 
   hero: {

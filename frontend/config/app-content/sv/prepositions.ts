@@ -17,8 +17,7 @@ const content: AppContent = {
       'svenska marknaden prepositionsblad Etsy',
     ],
     titleTag: 'Prepositionsblad SFI att sälja | LessonCraftStudio',
-    metaDescription:
-      'Skapa prepositionsblad för SFI att sälja på Etsy och Eduki. 8 prepositioner, ifyllning och flerval, 11 språk, kommersiell licens. Testa gratis med vattenmärke.',
+    metaDescription: 'Skapa prepositionsblad för SFI att sälja på Etsy och Eduki. 8 prepositioner, ifyllning och flerval, 11 språk, kommersiell licens. $49 engångsbetalning.',
   },
 
   hero: {

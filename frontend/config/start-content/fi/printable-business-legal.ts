@@ -17,8 +17,8 @@ const content: StartContent = {
       'rajat ylittava verotus digitaaliset tuotteet',
       'vahennyskelpoiset menot tulostettavien liiketoiminta',
     ],
-    titleTag: 'Tulostettavien tuotteiden myynti verovaatimukset — Juridinen opas',
-    metaDescription: 'Verovaatimukset tulostettavien tuotteiden myyntiin. Yritysrakenne, vähennyskelpoiset menot, immateriaalioikeudet ja alusta-asioiden noudattaminen myyjille.',
+    titleTag: 'Tulostettavien tuotteiden myynti verovaatimukset —...',
+    metaDescription: 'Verovaatimukset tulostettavien tuotteiden myyntiin. Yritysrakenne, vähennyskelpoiset menot,. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
   },
 
   hero: {

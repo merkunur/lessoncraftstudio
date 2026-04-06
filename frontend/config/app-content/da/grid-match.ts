@@ -15,8 +15,7 @@ const content: AppContent = {
       'printbar billedpuslespil forretningsværktøj',
     ],
     titleTag: 'Gittermatchning Puslespil Generator | Opret og Sælg',
-    metaDescription:
-      'Opret gittermatchningspuslespil til salg på Etsy, KDP og Gumroad. Konfigurerbar gitterstørrelse, justerbare ledetrådsceller, automatisk facit, 104 temaer. Gratis.',
+    metaDescription: 'Opret gittermatchningspuslespil til salg på Etsy, KDP og Gumroad. $49 engangsbetaling.',
   },
 
   hero: {

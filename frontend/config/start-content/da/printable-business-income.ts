@@ -18,7 +18,7 @@ const content: StartContent = {
       'flere indtaegtsstroemme printbare produkter',
     ],
     titleTag: 'Hvor meget kan man tjaene paa at saelge printbare produkter',
-    metaDescription: 'Hvor meget kan du tjaene paa at saelge printbare produkter? Realistiske indkomstforventninger, platformsafgifter, prissaetningsstrategier og variablerne der afgoor.',
+    metaDescription: 'Hvor meget kan du tjaene paa at saelge printbare produkter? Realistiske indkomstforventninger, platformsafgifter,. Saelg pa Etsy & KDP med kommerciel licens.',
   },
 
   hero: {

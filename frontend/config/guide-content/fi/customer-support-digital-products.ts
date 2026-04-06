@@ -18,7 +18,7 @@ const content: GuideContent = {
       'skaalautuvat tukijärjestelmät mallikirjastot kaavantunnistus palautesilmukat',
     ],
     titleTag: 'Asiakastuki digitaalisille tuotteille — Opas',
-    metaDescription: 'Asiakastukistrategiat digitaalisten tuotteiden myyjille. Ongelmien ehkäisy, vastausmallit, palautusten käsittely, arvostelujen hallinta ja skaalautuvuus.',
+    metaDescription: 'Asiakastukistrategiat digitaalisten tuotteiden myyjille. Ongelmien ehkäisy, vastausmallit, palautusten. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
   },
 
   hero: {

@@ -14,7 +14,7 @@ const content: BlogContent = {
       'guia prático imprimíveis',
     ],
     titleTag: 'Crie um Pacote de Fichas em 35 Minutos | LCS',
-    metaDescription: 'Criar um pacote de fichas profissional em 35 minutos parece impossível, mas com geradores automatizados é realidade. Este tutorial mostra o processo e.',
+    metaDescription: 'Criar um pacote de fichas profissional em 35 minutos parece impossível, mas com geradores automatizados é realidade. Venda no Etsy & KDP com licenca comercial.',
   },
   hero: {
     title: 'Crie um Pacote de Fichas em 35 Minutos',

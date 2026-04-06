@@ -16,7 +16,7 @@ const content: AppContent = {
       'Farbcode-Lösungsschlüssel kommerzielle Nutzung',
     ],
     titleTag: 'Suchsel-Generator zum Verkaufen auf Etsy | LCS',
-    metaDescription: 'Suchsel-Arbeitsblätter erstellen und auf Etsy & KDP verkaufen. Gittergröße 5–30, 11 Sprachen, gewerbliche Lizenz inklusive. Kostenlos testen mit Wasserzeichen.',
+    metaDescription: 'Suchsel-Arbeitsblätter erstellen und auf Etsy & KDP verkaufen. Gittergröße 5–30, 11 Sprachen, gewerbliche Lizenz inklusive. 49 $ einmalig.',
   },
 
   hero: {

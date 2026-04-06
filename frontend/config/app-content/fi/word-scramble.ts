@@ -14,9 +14,8 @@ const content: AppContent = {
       'tulostettavat kirjainjärjestely verkkoliiketoiminta',
       'kirjainsekoitus generaattori kaupallinen kaytto',
     ],
-    titleTag: 'Kirjainsekoitus Generaattori | Luo ja Myy Oikeinkirjoituspulmia',
-    metaDescription:
-      'Luo kirjainsekoitus tyoarkkeja myyntiin Etsyssa, KDP:ssa ja Gumroadissa. Kuvavihjeet, sekoitetut kirjainlaatat, vokaali-konsonantti-värikoodaus, 11 kieltä. Ilmainen kokeilu.',
+    titleTag: 'Kirjainsekoitus Generaattori | LCS',
+    metaDescription: 'Luo kirjainsekoitus tyoarkkeja myyntiin Etsyssa, KDP:ssa ja Gumroadissa. $49 kertamaksu.',
   },
 
   hero: {

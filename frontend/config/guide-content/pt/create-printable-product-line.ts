@@ -24,8 +24,7 @@ const content: GuideContent = {
       'temas',
     ],
     titleTag: 'Criar linha de produtos imprimíveis | LCS',
-    metaDescription:
-      'Como criar uma linha completa de produtos imprimíveis. Estratégia de catálogo, variações e escalamento.',
+    metaDescription: 'Como criar uma linha completa de produtos imprimíveis. Estratégia de catálogo, variações e escalamento. Venda no Etsy & KDP com licenca comercial.',
   },
 
   hero: {

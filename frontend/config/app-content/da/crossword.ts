@@ -15,8 +15,7 @@ const content: AppContent = {
       'printbar billedkrydsord forretningsværktøj',
     ],
     titleTag: 'Billedkrydsord Generator | Opret og Sælg Puslespil',
-    metaDescription:
-      'Opret billedkrydsordspuslespil til salg på Etsy, KDP og Gumroad. Billedledetråde på 15×15 gitter, 4 indtastningsmetoder, automatisk facit. Gratis prøveversion.',
+    metaDescription: 'Opret billedkrydsordspuslespil til salg på Etsy, KDP og Gumroad. Billedledetråde på 15×15 gitter, 4 indtastningsmetoder, automatisk facit. $49 engangsbetaling.',
   },
 
   hero: {

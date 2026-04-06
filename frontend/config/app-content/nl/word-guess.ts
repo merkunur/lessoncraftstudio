@@ -15,8 +15,7 @@ const content: AppContent = {
       'commercieel gebruik woordraadsel generator',
     ],
     titleTag: 'Woordraadspel generator voor Etsy | LessonCraftStudio',
-    metaDescription:
-      'Maak woordraadspellen met afbeeldingen om te verkopen op Etsy en KDP. Woorden raden met hints. Commerciële licentie. Gratis proefversie met watermerk.',
+    metaDescription: 'Maak woordraadspellen met afbeeldingen om te verkopen op Etsy en KDP. Woorden raden met hints. Commerciële licentie. $49 eenmalig.',
   },
 
   hero: {

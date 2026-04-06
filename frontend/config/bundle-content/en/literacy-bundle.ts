@@ -16,7 +16,7 @@ const content: BundleContent = {
       'language worksheet seller toolkit',
     ],
     titleTag: 'Word Puzzle Generator Bundle — Sell on Etsy | LCS',
-    metaDescription: 'Get all 7 word and literacy generators in one bundle. Word search, crossword, cryptogram & more to sell on Etsy & KDP. Commercial license included.',
+    metaDescription: 'Get all 7 word and literacy generators in one bundle. Word search, crossword, cryptogram & more to sell on Etsy & KDP. $149 one-time.',
   },
 
   hero: {

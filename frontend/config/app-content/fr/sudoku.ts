@@ -15,8 +15,7 @@ const content: AppContent = {
       'grille 4×4 trois niveaux corrigé automatique',
     ],
     titleTag: 'Sudoku images pour livres de jeux KDP | LCS',
-    metaDescription:
-      'Créez des sudoku images à vendre sur Etsy & KDP. Grille 4×4, 3 niveaux de difficulté, licence commerciale. Testez gratuitement avec filigrane.',
+    metaDescription: 'Créez des sudoku images à vendre sur Etsy & KDP. Grille 4×4, 3 niveaux de difficulté, licence commerciale. 49 $ paiement unique.',
   },
 
   hero: {

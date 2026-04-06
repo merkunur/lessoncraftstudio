@@ -14,7 +14,7 @@ const content: BlogContent = {
       'tyoarkit tuotanto',
     ],
     titleTag: 'Kayta teemakuvia tyoarkkien myynnissa | LCS',
-    metaDescription: 'Teemakuvat erottavat tyoarkkisi kilpailijoista. Miten valitset oikean teeman ja kaytat kuvia tehokkaasti.',
+    metaDescription: 'Teemakuvat erottavat tyoarkkisi kilpailijoista. Miten valitset oikean teeman ja kaytat kuvia tehokkaasti. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
   },
   hero: {
     title: 'Kayta teemakuvia tyoarkkien myynnissa: erottuva etu',

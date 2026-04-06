@@ -24,7 +24,7 @@ const content: BundleContent = {
       'pré-escolar atividades visuais ache encontre',
     ],
     titleTag: 'Pacote ache e encontre vendedores | LCS',
-    metaDescription: 'Pacote com geradores de atividades ache e encontre: busca visual, contagem e objetos escondidos. Venda imprimíveis no Etsy, Amazon KDP, Hotmart e Kiwify.',
+    metaDescription: 'Pacote com geradores de atividades ache e encontre: busca visual, contagem e objetos escondidos. 149 $ pagamento unico.',
   },
 
   hero: {

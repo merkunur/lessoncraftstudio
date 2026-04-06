@@ -6,7 +6,7 @@ const content: BlogContent = {
     secondaryKeywords: ['Arbeitsblaetter effizient in Serie erstellen Anleitung', 'Druckvorlagen Arbeitsblaetter Guide', 'Arbeitsblatt Verkauf Tipps'],
     lsiKeywords: ['Druckvorlagen Geschaeft optimieren', 'Etsy Verkaeufer Tipps', 'Arbeitsblaetter professionell erstellen'],
     titleTag: 'Arbeitsblaetter effizient in Serie erstellen | LCS',
-    metaDescription: 'Batch-Erstellung: Wie Sie 50-100 Arbeitsblaetter in einem Workflow erstellen. Effizienz-Tipps fuer Druckvorlagen-Verkaeufer.',
+    metaDescription: 'Batch-Erstellung: Wie Sie 50-100 Arbeitsblaetter in einem Workflow erstellen. Verkaufen Sie auf Etsy & KDP mit gewerblicher Lizenz.',
   },
   hero: {
     title: 'Arbeitsblaetter effizient in Serie erstellen',

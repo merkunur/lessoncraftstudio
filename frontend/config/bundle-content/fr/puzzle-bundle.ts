@@ -16,7 +16,7 @@ const content: BundleContent = {
       'outil création fiches puzzles en masse',
     ],
     titleTag: 'Pack puzzles logiques pour KDP | LCS',
-    metaDescription: 'Pack de fiches puzzles avec 4 générateurs : pièces manquantes, intrus, sudoku enfants et labyrinthes. Vendez sur Etsy, KDP et Gumroad.',
+    metaDescription: 'Pack de fiches puzzles avec 4 générateurs : pièces manquantes, intrus, sudoku enfants et labyrinthes. Vendez sur Etsy, KDP et Gumroad. 149 $ paiement unique.',
   },
 
   hero: {

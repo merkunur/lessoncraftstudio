@@ -15,7 +15,7 @@ const content: ToolContent = {
       'Bildvariablen-Gleichungssysteme Generator',
     ],
     titleTag: 'Kostenloser Mathe-Arbeitsblatt Generator | LCS',
-    metaDescription: 'Kostenloser Mathe-Arbeitsblatt Generator — Algebra-Bilderrätsel mit Bildsymbolen als Variablen online erstellen. Testversion mit Wasserzeichen verfügbar.',
+    metaDescription: 'Kostenloser Mathe-Arbeitsblatt Generator — Algebra-Bilderrätsel mit Bildsymbolen als Variablen online. Verkaufen Sie auf Etsy & KDP mit gewerblicher Lizenz.',
   },
 
   hero: {

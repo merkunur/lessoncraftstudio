@@ -15,8 +15,7 @@ const content: AppContent = {
       'visuaaliset sudoku-työlehituotteet',
     ],
     titleTag: 'Kuvasudoku-generaattori KDP-palapelikirjoihin | LCS',
-    metaDescription:
-      'Luo kuvasudoku-palapeleja myytäväksi Etsyssä ja KDP:ssä. 4×4-kuvaruudukot, 3 vaikeustasoa, automaattiset vastausavaimet, kaupallinen lisenssi. Ilmainen kokeilu vesileimalla.',
+    metaDescription: 'Luo kuvasudoku-palapeleja myytäväksi Etsyssä ja KDP:ssä. 4×4-kuvaruudukot, 3 vaikeustasoa, automaattiset vastausavaimet, kaupallinen lisenssi. $49 kertamaksu.',
   },
 
   hero: {

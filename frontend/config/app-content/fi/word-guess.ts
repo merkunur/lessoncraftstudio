@@ -15,8 +15,7 @@ const content: AppContent = {
       'sanapulma generaattori kaupallinen kaytto',
     ],
     titleTag: 'Arvaa Sana Generaattori | Luo ja Myy Sanapulmia Verkossa',
-    metaDescription:
-      'Luo arvaa sana -tyoarkkeja myyntiin Etsyssa, KDP:ssa ja Gumroadissa. Kuvavihjeet, 4 vaikeustasoa, 3 sisältölähdettä, 11 kieltä. Ilmainen kokeilu.',
+    metaDescription: 'Luo arvaa sana -tyoarkkeja myyntiin Etsyssa, KDP:ssa ja Gumroadissa. Kuvavihjeet, 4 vaikeustasoa, 3 sisältölähdettä, 11 kieltä. $49 kertamaksu.',
   },
 
   hero: {

@@ -15,8 +15,7 @@ const content: AppContent = {
       'utskriftsbar puslespillaktivitet forretningsverktoy',
     ],
     titleTag: 'Labyrint Arbeidsark Generator | Lag Veipuslespill',
-    metaDescription:
-      'Lag labyrintarbeidsark til salg på Etsy, KDP og Gumroad. 3 spillmoduser, LPF-algoritme, automatisk fasit, 104 temaer, trykkeklare PDF-er. Gratis proveversjon.',
+    metaDescription: 'Lag labyrintarbeidsark til salg på Etsy, KDP og Gumroad. 3 spillmoduser, LPF-algoritme, automatisk fasit, 104 temaer, trykkeklare PDF-er. $49 engangsbetaling.',
   },
 
   hero: {

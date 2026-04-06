@@ -18,7 +18,7 @@ const content: GuideContent = {
       'kaupallinen lisenssi kuvakaavio-tekijä',
     ],
     titleTag: 'Lasku- ja kaaviotyöarkit — Opas',
-    metaDescription: 'Luo laskutyöarkkeja kuvakaavioilla, automaattisella vastausavaimella ja 104 teemalla. Vaiheittainen opas tulostettavien tuotteiden myyntiin Etsyssä, KDP:ssä ja Gumroadissa.',
+    metaDescription: 'Luo laskutyöarkkeja kuvakaavioilla, automaattisella vastausavaimella ja 104 teemalla.',
   },
 
   hero: {

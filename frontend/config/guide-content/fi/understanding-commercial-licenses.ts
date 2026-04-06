@@ -6,7 +6,7 @@ const content: GuideContent = {
     secondaryKeywords: ['ymmärrä kaupalliset lisenssit tulostettavien tuotteille', 'kaupallinen lisenssi tyoarkkigeneraattoreille', 'tulostettavien myyntioikeudet kaupallinen lisenssi', 'kaupallisen lisenssin opas tulostettavien myyjille'],
     lsiKeywords: ['kaupallinen käyttöoikeus digitaaliset tuotteet', 'tekijanoikeudet tulostettavien myynnissä', 'lisenssityypit digitaalisille opetusresursseille'],
     titleTag: 'Kaupalliset lisenssit tulostettaville — Opas',
-    metaDescription: 'Ymmärrä kaupalliset lisenssit tulostettavien tuotteiden myyntiin. Lisenssityypit, käyttöoikeudet, rajoitukset ja miten kaupallinen lisenssi suojaa liiketoimintaasi.',
+    metaDescription: 'Ymmärrä kaupalliset lisenssit tulostettavien tuotteiden myyntiin. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
   },
   hero: {
     title: 'Kaupallisten lisenssien ymmärtäminen tulostettavien myyjille',

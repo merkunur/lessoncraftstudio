@@ -15,8 +15,7 @@ const content: AppContent = {
       'printbar tælleaktivitet forretningsværktøj',
     ],
     titleTag: 'Find og Tæl Generator | Opret Søgearbejdsark',
-    metaDescription:
-      'Opret find og tæl arbejdsark til salg på Etsy, KDP og Gumroad. 4 opgavetyper, Bogstavsøgning, automatisk facit, 104 temaer. Gratis prøveversion.',
+    metaDescription: 'Opret find og tæl arbejdsark til salg på Etsy, KDP og Gumroad. 4 opgavetyper, Bogstavsøgning, automatisk facit, 104 temaer. $49 engangsbetaling.',
   },
 
   hero: {

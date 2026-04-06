@@ -15,7 +15,7 @@ const content: AppContent = {
       'drei Vergleichsmodi Check-und-Cross Lösungsschlüssel',
     ],
     titleTag: 'Größer-Kleiner-Arbeitsblätter Generator | LCS',
-    metaDescription: 'Größer-Kleiner-Arbeitsblätter für Etsy erstellen — drei Vergleichsmodi mit Check-und-Cross, 104 Themen und Lösungsschlüssel. Kostenlos testen mit Wasserzeichen.',
+    metaDescription: 'Größer-Kleiner-Arbeitsblätter für Etsy erstellen — drei Vergleichsmodi mit Check-und-Cross, 104 Themen und Lösungsschlüssel. 49 $ einmalig.',
   },
 
   hero: {

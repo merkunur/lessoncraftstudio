@@ -15,7 +15,7 @@ const content: ToolContent = {
       'handstilsövning förskoleklass gratis',
     ],
     titleTag: 'Skrivövningar gratis online | LessonCraftStudio',
-    metaDescription: 'Skapa skrivövningar gratis online. Tre övningslägen, fem typsnitt, pilguidad streckordning, 104 teman. Gratis provversion med vattenmärke.',
+    metaDescription: 'Skapa skrivövningar gratis online. Tre övningslägen, fem typsnitt, pilguidad streckordning, 104 teman. Salj pa Etsy & KDP med kommersiell licens.',
   },
 
   hero: {

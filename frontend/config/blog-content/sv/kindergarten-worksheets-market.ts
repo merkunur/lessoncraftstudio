@@ -14,7 +14,7 @@ const content: BlogContent = {
       'Etsy butik svenska',
     ],
     titleTag: 'Förskoleklass-Arbetsblad: Marknad | LCS',
-    metaDescription: 'Förskoleklass-material är bland de mest sökta utskrifterna. Svenska förskoleklass börjar vid 6 år — anpassa produkterna.',
+    metaDescription: 'Förskoleklass-material är bland de mest sökta utskrifterna. Svenska förskoleklass börjar vid 6 år — anpassa. Salj pa Etsy & KDP med kommersiell licens.',
   },
   hero: {
     title: 'Förskoleklass-Arbetsblad: Marknad',

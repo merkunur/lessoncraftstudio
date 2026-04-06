@@ -15,7 +15,7 @@ const content: AppContent = {
       'Zug-Arbeitsblätter fünf Mustertypen Lösungsschlüssel',
     ],
     titleTag: 'Muster-Zug-Generator für Printable-Business | LCS',
-    metaDescription: 'Muster-Übungen erstellen für Ihr Printable-Business — fünf Mustertypen auf thematischen Zugwaggons mit Lösungsschlüssel. Kostenlos testen mit Wasserzeichen.',
+    metaDescription: 'Muster-Übungen erstellen für Ihr Printable-Business — fünf Mustertypen auf thematischen Zugwaggons mit Lösungsschlüssel. 49 $ einmalig.',
   },
 
   hero: {

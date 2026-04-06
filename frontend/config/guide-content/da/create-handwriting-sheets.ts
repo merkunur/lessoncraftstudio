@@ -18,7 +18,7 @@ const content: GuideContent = {
       'Amazon KDP håndskrifts-arbejdsbøger',
     ],
     titleTag: 'Skab håndskriftsøvelsesark — Trin-for-trin-guide',
-    metaDescription: 'Skab håndskriftsøvelsesark med sporings-, falmende sporings- og guidet kopieringstilstande. Stregrækkefølge-pile, fem skriftstile og PDF-eksport til Etsy og KDP.',
+    metaDescription: 'Skab håndskriftsøvelsesark med sporings-, falmende sporings- og guidet kopieringstilstande. Saelg pa Etsy & KDP med kommerciel licens.',
   },
 
   hero: {

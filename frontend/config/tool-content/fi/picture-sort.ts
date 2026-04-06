@@ -15,7 +15,7 @@ const content: ToolContent = {
       'sekoitettu leikkausruudukko lajitteluaktiviteetti-generaattori',
     ],
     titleTag: 'Kuvalajittelu-generaattori — Lajittelutehtava-generaattori',
-    metaDescription: 'Tee lajittelutehtavia kahden kategorian teematilalla, sekoitetuilla leikkausruudukoilla, automaattisilla vastausavaimilla ja 104 teemallisella kuvakokoelmalla. Ilmainen kokeilu vesileimalla.',
+    metaDescription: 'Tee lajittelutehtavia kahden kategorian teematilalla, sekoitetuilla leikkausruudukoilla, automaattisilla vastausavaimilla ja 104 teemallisella.',
   },
 
   hero: {

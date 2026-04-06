@@ -24,8 +24,7 @@ const content: ToolContent = {
       'licença comercial',
     ],
     titleTag: 'Gerador de caça-palavras grátis online | LCS',
-    metaDescription:
-      'Crie caça-palavras grátis com imagens. Grades 5x5 a 30x30, 11 idiomas, gabarito colorido, PDF imprimível. Teste online sem cadastro — marca d\'água removível.',
+    metaDescription: 'Crie caça-palavras grátis com imagens. Grades 5x5 a 30x30, 11 idiomas, gabarito colorido, PDF imprimível. Venda no Etsy & KDP com licenca comercial.',
   },
 
   hero: {

@@ -20,8 +20,7 @@ const content: AppContent = {
       'collega con linee',
     ],
     titleTag: 'Schede di abbinamento da vendere su Etsy | LCS',
-    metaDescription:
-      'Crea schede di abbinamento professionali da vendere su Etsy e KDP. 4 modalità, risposte automatiche, licenza commerciale. Prova gratis con filigrana.',
+    metaDescription: 'Crea schede di abbinamento professionali da vendere su Etsy e KDP. 4 modalità, risposte automatiche, licenza commerciale. 49 $ pagamento unico.',
   },
 
   hero: {

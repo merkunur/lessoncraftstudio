@@ -2,20 +2,20 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    "primaryKeyword": "varjoyhdistamistyoarkit myy verkossa",
-    "secondaryKeywords": [
-        "varjoyhdistely tulosteet Etsy",
-        "varjotehtavat lapsille myynti",
-        "shadow matching tyoarkit"
+    primaryKeyword: 'varjoyhdistamistyoarkit myy verkossa',
+    secondaryKeywords: [
+      'varjoyhdistely tulosteet Etsy',
+      'varjotehtavat lapsille myynti',
+      'shadow matching tyoarkit',
     ],
-    "lsiKeywords": [
-        "visuaalinen hahmotus varjot",
-        "siluettiyhdistely tehtavat",
-        "kognitiivinen kehitys tulosteet"
+    lsiKeywords: [
+      'visuaalinen hahmotus varjot',
+      'siluettiyhdistely tehtavat',
+      'kognitiivinen kehitys tulosteet',
     ],
-    "titleTag": "Varjoyhdistamistyoarkit: myyntiopas | LCS",
-    "metaDescription": "Myy varjoyhdistamistyoarkkeja Etsyssa. Lapset yhdistava esineet varjoihinsa. Visuaalisen hahmottamisen kehittaminen on myyntivaltti."
-},
+    titleTag: 'Varjoyhdistamistyoarkit: myyntiopas | LCS',
+    metaDescription: 'Myy varjoyhdistamistyoarkkeja Etsyssa ja KDP:ssa. Lapset yhdistava esineet varjoihinsa. Visuaalisen hahmottamisen kehittaminen on myyntivaltti.',
+  },
   hero: {
     "title": "Varjoyhdistamistyoarkit: visuaalisen hahmottamisen liiketoiminta",
     "tagline": "Siluettiyhdistely on kiehtova tehtavatyyppi joka vetoaa lapsiin ja vanhempiin",

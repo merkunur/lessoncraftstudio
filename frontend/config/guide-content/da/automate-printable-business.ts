@@ -18,7 +18,7 @@ const content: GuideContent = {
       'produktionssystem skalerbare processer katalogstyring arbejdsgangsdesign',
     ],
     titleTag: 'Automatiser printbar forretning — Guide — Online Værktøjer',
-    metaDescription: 'Sådan automatiserer du din printbare forretning med batchproduktion, skabelonsystemer og systematiske arbejdsgange. Spar timer hver uge og skaler op. Prøv.',
+    metaDescription: 'Sådan automatiserer du din printbare forretning med batchproduktion, skabelonsystemer og systematiske arbejdsgange. Saelg pa Etsy & KDP med kommerciel licens.',
   },
 
   hero: {

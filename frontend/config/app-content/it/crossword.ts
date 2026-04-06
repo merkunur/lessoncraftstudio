@@ -22,7 +22,7 @@ const content: AppContent = {
       'business di stampabili',
     ],
     titleTag: 'Cruciverba da vendere su Etsy e KDP | LCS',
-    metaDescription: 'Crea cruciverba con immagini da vendere su Etsy e KDP. Griglia 15×15, 4 metodi input, 104 temi, licenza commerciale. Prova gratis con filigrana.',
+    metaDescription: 'Crea cruciverba con immagini da vendere su Etsy e KDP. Griglia 15×15, 4 metodi input, 104 temi, licenza commerciale. 49 $ pagamento unico.',
   },
 
   hero: {

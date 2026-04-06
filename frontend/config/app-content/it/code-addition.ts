@@ -22,8 +22,7 @@ const content: AppContent = {
       'scuola primaria',
     ],
     titleTag: 'Enigmi matematici codificati da vendere | LCS',
-    metaDescription:
-      'Crea enigmi di addizione codificata da vendere su Etsy e KDP. Modalità Parola Rivelata, 104 temi, licenza commerciale. Prova gratis con filigrana.',
+    metaDescription: 'Crea enigmi di addizione codificata da vendere su Etsy e KDP. Modalità Parola Rivelata, 104 temi, licenza commerciale. 49 $ pagamento unico.',
   },
 
   hero: {

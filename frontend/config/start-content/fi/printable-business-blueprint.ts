@@ -18,7 +18,7 @@ const content: StartContent = {
       'julkaisun tarkistuslista tulostettava liiketoiminta',
     ],
     titleTag: 'Tulostettavien liiketoimintasuunnitelma — Ideasta tuloon',
-    metaDescription: 'Muuta tulostettavien liiketoimintaideasi jäsennetyksi suunnitelmaksi. Kartoita tuotelinjasi, valitse alustat, aseta hinnat ja julkaise Etsyssä ja Amazon KDP:ssä.',
+    metaDescription: 'Muuta tulostettavien liiketoimintaideasi jäsennetyksi suunnitelmaksi. Kartoita tuotelinjasi, valitse alustat, aseta hinnat ja julkaise Etsyssä ja Amazon.',
   },
 
   hero: {

@@ -17,8 +17,7 @@ const content: AppContent = {
       'svenska marknaden pusselblad Etsy',
     ],
     titleTag: 'Saknade bitar-pussel för Etsy | LessonCraftStudio',
-    metaDescription:
-      'Skapa saknade bitar-pussel att sälja på Etsy och KDP. 6 bitformer, 1–5 saknade bitar, facit, 104 teman, kommersiell licens. Testa gratis med vattenmärke.',
+    metaDescription: 'Skapa saknade bitar-pussel att sälja på Etsy och KDP. 6 bitformer, 1–5 saknade bitar, facit, 104 teman, kommersiell licens. $49 engångsbetalning.',
   },
 
   hero: {

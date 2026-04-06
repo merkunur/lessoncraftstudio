@@ -3,7 +3,7 @@ import type { IdeaContent } from '../types';
 const content: IdeaContent = {
   seo: {
     titleTag: 'Erityisopetuksen tulostettavat ideat myyntiin — Nicheopas',
-    metaDescription: 'Tutustu erityisopetuksen tulostettaviin ideoihin myyntiin Etsyssä, Amazon KDP:ssä ja Gumroadilla. Erityistarpeisiin sopivat tuotekonseptit ja nichestrategiat myyjille.',
+    metaDescription: 'Tutustu erityisopetuksen tulostettaviin ideoihin myyntiin Etsyssä, Amazon KDP:ssä ja Gumroadilla.',
 
     primaryKeyword: 'erityisopetus tulostettavat ideat',
     secondaryKeywords: [

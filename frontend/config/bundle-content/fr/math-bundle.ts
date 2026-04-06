@@ -16,7 +16,7 @@ const content: BundleContent = {
       'outil création fiches maths en masse',
     ],
     titleTag: 'Pack Maths pour vendeurs Etsy | LCS',
-    metaDescription: '6 générateurs de fiches de maths en un seul pack. Créez des fiches d\'addition, soustraction, code, comparaison, puzzle et algèbre à vendre sur Etsy, KDP.',
+    metaDescription: '6 générateurs de fiches de maths en un pack. Addition, soustraction, code, comparaison et algèbre pour Etsy & KDP. Licence commerciale. 149 $ paiement unique.',
   },
 
   hero: {

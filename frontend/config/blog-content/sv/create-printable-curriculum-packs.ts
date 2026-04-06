@@ -14,7 +14,7 @@ const content: BlogContent = {
       'Etsy butik svenska',
     ],
     titleTag: 'Skapa Utskrivbara Läroplanspaket | LCS',
-    metaDescription: 'Läroplansanpassade utskriftspaket har högst ordervärde. Lär dig skapa paket efter svenska Lgr22 och internationella standarder.',
+    metaDescription: 'Läroplansanpassade utskriftspaket har högst ordervärde. Lär dig skapa paket efter svenska Lgr22 och internationella. Salj pa Etsy & KDP med kommersiell licens.',
   },
   hero: {
     title: 'Skapa Utskrivbara Läroplanspaket',

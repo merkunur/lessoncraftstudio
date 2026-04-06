@@ -14,7 +14,7 @@ const content: BlogContent = {
       'guia prático imprimíveis',
     ],
     titleTag: 'Níveis de Dificuldade: Camadas de Produto | LCS',
-    metaDescription: 'Uma ficha de adição não é um produto — é cinco produtos: pré-escolar, 1° ano, 2° ano, 3° ano e avançado. Criar variações de dificuldade para cada tipo.',
+    metaDescription: 'Uma ficha de adição não é um produto — é cinco produtos: pré-escolar, 1° ano, 2° ano, 3° ano e avançado. Venda no Etsy & KDP com licenca comercial.',
   },
   hero: {
     title: 'Níveis de Dificuldade: Camadas de Produto',

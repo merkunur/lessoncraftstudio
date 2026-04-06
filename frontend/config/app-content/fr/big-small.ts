@@ -15,8 +15,7 @@ const content: AppContent = {
       '5 types de questions modes identiques et différents',
     ],
     titleTag: 'Fiches grand et petit pour boutique Etsy | LCS',
-    metaDescription:
-      'Créez des fiches grand et petit à vendre sur Etsy & KDP. 5 types de questions, 104 thèmes, licence commerciale. Testez gratuitement avec filigrane.',
+    metaDescription: 'Créez des fiches grand et petit à vendre sur Etsy & KDP. 5 types de questions, 104 thèmes, licence commerciale. 49 $ paiement unique.',
   },
 
   hero: {

@@ -15,7 +15,7 @@ const content: AppContent = {
       'commercieel gebruik patroontrein werkbladen generator',
     ],
     titleTag: 'Reeksen werkbladen voor verkopers | LessonCraftStudio',
-    metaDescription: 'Maak patroontrein werkbladen met commerciële licentie voor Etsy en KDP. Vijf patroontypen, instelbare moeilijkheid. Gratis proefversie met watermerk.',
+    metaDescription: 'Maak patroontrein werkbladen met commerciële licentie voor Etsy en KDP. Vijf patroontypen, instelbare moeilijkheid. $49 eenmalig.',
   },
 
   hero: {

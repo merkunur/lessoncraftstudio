@@ -18,7 +18,7 @@ const content: GuideContent = {
       'kommerciel licens kryptogram-arbejdsark værktøj',
     ],
     titleTag: 'Kryptogram-puslespil — Guide',
-    metaDescription: 'Skab kryptogram-puslespil med billedchiffer-kodning, justerbar sværhedsgrad, auto-tildel tilstand og lokalitetsbevidste alfabeter. Guide til Etsy og KDP-sælgere.',
+    metaDescription: 'Skab kryptogram-puslespil med billedchiffer-kodning, justerbar sværhedsgrad, auto-tildel tilstand og. Saelg pa Etsy & KDP med kommerciel licens.',
   },
 
   hero: {

@@ -17,8 +17,7 @@ const content: AppContent = {
       'svenska marknaden skattjaktblad Etsy',
     ],
     titleTag: 'Skattjakt att sälja på Etsy och KDP | LessonCraftStudio',
-    metaDescription:
-      'Skapa skattjakt att sälja på Etsy och KDP. 5×5 koordinatrutnät, grundläggande och kompass, 11 språk, facit, kommersiell licens. Testa gratis med vattenmärke.',
+    metaDescription: 'Skapa skattjakt att sälja på Etsy och KDP. 5×5 koordinatrutnät, grundläggande och kompass, 11 språk, facit, kommersiell licens. $49 engångsbetalning.',
   },
 
   hero: {

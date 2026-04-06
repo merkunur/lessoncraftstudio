@@ -14,7 +14,7 @@ const content: BlogContent = {
       'Etsy butik svenska',
     ],
     titleTag: 'Hitta-och-Räkna-Utskrifter: Vinst | LCS',
-    metaDescription: 'Hitta-och-räkna-arbetsblad säljer starkt för barn 3-6 år. Tematiska versioner med djur och föremål som barn känner igen.',
+    metaDescription: 'Hitta-och-räkna-arbetsblad säljer starkt för barn 3-6 år. Tematiska versioner med djur och föremål som barn känner. Salj pa Etsy & KDP med kommersiell licens.',
   },
   hero: {
     title: 'Hitta-och-Räkna-Utskrifter: Vinst',

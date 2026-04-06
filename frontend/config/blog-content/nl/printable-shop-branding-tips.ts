@@ -6,7 +6,7 @@ const content: BlogContent = {
     secondaryKeywords: ['printable business strategie 2026', 'werkbladen verkopen platform tips', 'digitale producten online verkopen'],
     lsiKeywords: ['printable verkoop optimalisatie', 'digitale download business', 'online printable winkel'],
     titleTag: 'Branding Tips voor Uw Printable Winkel | LCS',
-    metaDescription: 'Branding Tips voor Uw Printable Winkel. Praktische strategieën en bewezen technieken voor printable verkopers in 2026.',
+    metaDescription: 'Branding Tips voor Uw Printable Winkel. Praktische strategieën en bewezen technieken voor printable verkopers. Verkoop op Etsy & KDP met commerciele licentie.',
   },
   hero: {
     title: 'Branding Tips voor Uw Printable Winkel',

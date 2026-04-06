@@ -15,8 +15,7 @@ const content: AppContent = {
       'commercieel gebruik letterpuzzel generator',
     ],
     titleTag: 'Door-elkaar-woorden generator voor Etsy | LessonCraftStudio',
-    metaDescription:
-      'Maak door-elkaar-woorden werkbladen met commerciële licentie voor Etsy en Amazon KDP. Gratis proefversie met watermerk. 4 niveaus, 104 thema\'s, 11 talen.',
+    metaDescription: 'Maak door-elkaar-woorden werkbladen met commerciële licentie voor Etsy en Amazon KDP. Gratis proefversie met watermerk. $49 eenmalig.',
   },
 
   hero: {

@@ -15,8 +15,7 @@ const content: AppContent = {
       'diagramme à barres images thématiques prêt à imprimer',
     ],
     titleTag: 'Fiches de comptage pour boutique Etsy | LCS',
-    metaDescription:
-      'Créez des fiches de comptage et graphiques à vendre sur Etsy & KDP. 104 thèmes, corrigés, licence commerciale. Testez gratuitement avec filigrane.',
+    metaDescription: 'Créez des fiches de comptage et graphiques à vendre sur Etsy & KDP. 104 thèmes, corrigés, licence commerciale. 49 $ paiement unique.',
   },
 
   hero: {

@@ -6,7 +6,7 @@ const content: BlogContent = {
     secondaryKeywords: ['printable produktfotografering mockups Etsy', 'printable produktfotografering mockups online', 'printable produktfotografering mockups forretning'],
     lsiKeywords: ['printbar forretning Danmark', 'digital download salg', 'Etsy printables sælg'],
     titleTag: 'Produktfotografering for Printables: Guide | LCS',
-    metaDescription: 'Produktfotografering for digitale produkter handler om mockups og præsentation. Du kan ikke holde en PDF op foran kameraet — du skal vise dine produkter i ',
+    metaDescription: 'Produktfotografering for digitale produkter handler om mockups og præsentation. Saelg pa Etsy & KDP med kommerciel licens.',
   },
   hero: {
     title: 'Produktfotografering for Printables: Guide',

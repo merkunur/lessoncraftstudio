@@ -14,7 +14,7 @@ const content: ToolContent = {  seo: {
       'exportar dibujos para colorear en escala de grises PDF',
     ],
     titleTag: 'Dibujos para colorear gratis | LCS',
-    metaDescription: 'Cree dibujos para colorear gratis sin registro. Lienzo libre, 3.100+ ilustraciones, 104 temas, exportación en escala de grises.',
+    metaDescription: 'Cree dibujos para colorear gratis sin registro. Lienzo libre, 3.100+ ilustraciones, 104 temas, exportación en. Venda en Etsy & KDP con licencia comercial.',
     },
 
   hero: {

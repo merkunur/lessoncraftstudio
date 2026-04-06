@@ -17,7 +17,7 @@ const content: GuideContent = {
       'flussi reddito multi-piattaforma',
     ],
     titleTag: 'Reddito passivo con schede (2026) | LessonCraftStudio',
-    metaDescription: 'Come costruire un reddito passivo con schede didattiche nel 2026. Cataloghi evergreen, multi-piattaforma e crescita composta. Scopri il framework completo.',
+    metaDescription: 'Come costruire un reddito passivo con schede didattiche nel 2026. Vendi su Etsy & KDP con licenza commerciale.',
   },
 
   hero: {

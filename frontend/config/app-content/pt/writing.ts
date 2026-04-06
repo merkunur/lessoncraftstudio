@@ -27,8 +27,7 @@ const content: AppContent = {
       'Kiwify',
     ],
     titleTag: 'Atividades de caligrafia para vender | LCS',
-    metaDescription:
-      'Crie atividades de caligrafia e traçado de letras para vender na Hotmart, Etsy e KDP. 5 modos de escrita, 11 idiomas. Teste grátis com marca d\'água.',
+    metaDescription: 'Crie atividades de caligrafia e traçado de letras para vender na Hotmart, Etsy e KDP. 5 modos de escrita, 11 idiomas. 49 $ pagamento unico.',
   },
 
   hero: {

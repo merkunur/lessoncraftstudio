@@ -14,7 +14,7 @@ const content: BlogContent = {
       'tulostettava myy',
     ],
     titleTag: 'Uudenvuodentulosteet tammikuussa | LCS',
-    metaDescription: 'Myy uudenvuoden ja loppiaisen tulosteita tammikuussa. Suomessa loppiainen 6.1. on yleinen vapapaiva.',
+    metaDescription: 'Myy uudenvuoden ja loppiaisen tulosteita tammikuussa. Suomessa loppiainen 6.1. on yleinen vapapaiva. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
   },
   hero: {
     title: 'Uudenvuoden ja loppiaisen tulosteet tammikuussa',

@@ -17,7 +17,7 @@ const content: GuideContent = {
       'udgivelsestiming sæsonnøgleord trendanalyse indholdskalender kvartalsplanlægning',
     ],
     titleTag: 'Sæsonbestemt markedsføring printables — Sælgerkalender',
-    metaDescription: 'Planlæg sæsonbestemte markedsføringskampagner for printables tilpasset efterspørgselscyklusser. En sælgerkalender med produktionstiming, nøgleord og topstrategier.',
+    metaDescription: 'Planlæg sæsonbestemte markedsføringskampagner for printables tilpasset efterspørgselscyklusser.',
   },
 
   hero: {

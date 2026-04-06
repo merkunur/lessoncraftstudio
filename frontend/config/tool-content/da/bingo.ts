@@ -15,7 +15,7 @@ const content: ToolContent = {
       'opråbsliste bingo arbejdsark generator',
     ],
     titleTag: 'Bingokort Generator — Billedbingo online — Lav Online Gratis',
-    metaDescription: 'Lav billedbingokort til produktlinjens spil. Gitre fra 3×3 til 5×5, batch unikke kort, opråbslister, 104 temaer. Gratis prøveversion med vandmærke.',
+    metaDescription: 'Lav billedbingokort til produktlinjens spil. Gitre fra 3×3 til 5×5, batch unikke kort, opråbslister, 104 temaer. Saelg pa Etsy & KDP med kommerciel licens.',
   },
 
   hero: {

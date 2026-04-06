@@ -6,7 +6,7 @@ const content: BlogContent = {
     secondaryKeywords: ['matchning arbejdsark småbørn marked Etsy', 'matchning arbejdsark småbørn marked online', 'matchning arbejdsark småbørn marked forretning'],
     lsiKeywords: ['printbar forretning Danmark', 'digital download salg', 'Etsy printables sælg'],
     titleTag: 'Matchning-Arbejdsark: Småbørnsmarkedet | LCS',
-    metaDescription: 'Matchning-arbejdsark er den perfekte startaktivitet for småbørn 2-4 år. Formatet er intuitivt, visuelt engagerende og træner grundlæggende kognitive færdig',
+    metaDescription: 'Matchning-arbejdsark er den perfekte startaktivitet for småbørn 2-4 år. Saelg pa Etsy & KDP med kommerciel licens.',
   },
   hero: {
     title: 'Matchning-Arbejdsark: Småbørnsmarkedet',

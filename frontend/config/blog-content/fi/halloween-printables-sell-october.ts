@@ -14,7 +14,7 @@ const content: BlogContent = {
       'tulostettava myy',
     ],
     titleTag: 'Halloween-tulosteet lokakuussa | LCS',
-    metaDescription: 'Myy halloween-tulosteita lokakuussa. Suomessa halloween on kasvanut suosituksi ja tulosteet myyvat hyvin.',
+    metaDescription: 'Myy halloween-tulosteita lokakuussa. Suomessa halloween on kasvanut suosituksi ja tulosteet myyvat hyvin. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
   },
   hero: {
     title: 'Halloween-tulosteet: lokakuun myyntisesonki',

@@ -15,8 +15,7 @@ const content: AppContent = {
       'mønstergenkendelse generator kommercielt brug',
     ],
     titleTag: 'Mønsterarbejdsark Generator | Opret og Sælg Online',
-    metaDescription:
-      'Opret mønsterarbejdsark til salg på Etsy, KDP og Gumroad. Ni mønstertyper, to spørgsmålstilstande, øvelsesvis konfiguration, 104 temaer. Gratis prøveversion.',
+    metaDescription: 'Opret mønsterarbejdsark til salg på Etsy, KDP og Gumroad. Ni mønstertyper, to spørgsmålstilstande, øvelsesvis konfiguration, 104 temaer. $49 engangsbetaling.',
   },
 
   hero: {

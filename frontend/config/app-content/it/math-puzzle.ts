@@ -22,8 +22,7 @@ const content: AppContent = {
       'scuola primaria',
     ],
     titleTag: 'Puzzle matematici da vendere su Etsy e KDP | LCS',
-    metaDescription:
-      'Crea puzzle matematici con immagini da vendere su Etsy e KDP. Griglie da 2×2 a 4×4, 104 temi, licenza commerciale. Prova gratis con filigrana.',
+    metaDescription: 'Crea puzzle matematici con immagini da vendere su Etsy e KDP. Griglie da 2×2 a 4×4, 104 temi, licenza commerciale. 49 $ pagamento unico.',
   },
 
   hero: {

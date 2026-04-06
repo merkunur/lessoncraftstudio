@@ -21,8 +21,7 @@ const content: AppContent = {
       'frecce ordine tratti',
     ],
     titleTag: 'Schede di scrittura da vendere su Etsy | LCS',
-    metaDescription:
-      'Crea schede di scrittura professionali da vendere su Etsy e KDP. 3 modalità, 5 font, licenza commerciale inclusa. Prova gratis con filigrana.',
+    metaDescription: 'Crea schede di scrittura professionali da vendere su Etsy e KDP. 3 modalità, 5 font, licenza commerciale inclusa. 49 $ pagamento unico.',
   },
 
   hero: {

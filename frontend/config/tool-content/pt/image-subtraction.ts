@@ -24,8 +24,7 @@ const content: ToolContent = {
       'licença comercial',
     ],
     titleTag: 'Atividades de subtração grátis online | LCS',
-    metaDescription:
-      'Crie atividades de subtração grátis com imagens temáticas. Riscar visual, gabarito automático, exportação PDF. Teste online sem cadastro — marca d\'água removível.',
+    metaDescription: 'Crie atividades de subtração grátis com imagens temáticas. Riscar visual, gabarito automático, exportação PDF. Venda no Etsy & KDP com licenca comercial.',
   },
 
   hero: {

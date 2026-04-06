@@ -14,7 +14,7 @@ const content: BlogContent = {
       'Etsy butik svenska',
     ],
     titleTag: 'Använd Tematiska Bilder: Sälj Arbetsblad | LCS',
-    metaDescription: 'Tematiska bilder gör dina arbetsblad unika och attraktiva. Hur du använder 100+ bildteman för maximal försäljning.',
+    metaDescription: 'Tematiska bilder gör dina arbetsblad unika och attraktiva. Hur du använder 100+ bildteman för maximal försäljning. Salj pa Etsy & KDP med kommersiell licens.',
   },
   hero: {
     title: 'Använd Tematiska Bilder: Sälj Arbetsblad',

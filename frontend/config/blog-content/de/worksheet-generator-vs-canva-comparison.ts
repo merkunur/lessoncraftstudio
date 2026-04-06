@@ -6,7 +6,7 @@ const content: BlogContent = {
     secondaryKeywords: ['Arbeitsblatt-Generator vs Canva Anleitung', 'Druckvorlagen Arbeitsblatt-Generator Guide', 'Arbeitsblatt Verkauf Tipps'],
     lsiKeywords: ['Druckvorlagen Geschaeft optimieren', 'Etsy Verkaeufer Tipps', 'Arbeitsblaetter professionell erstellen'],
     titleTag: 'Arbeitsblatt-Generator vs Canva: Was ist besser? | LCS',
-    metaDescription: 'Ehrlicher Vergleich: Arbeitsblatt-Generator vs Canva fuer Druckvorlagen-Erstellung. Geschwindigkeit, Qualitaet, Kosten.',
+    metaDescription: 'Ehrlicher Vergleich: Arbeitsblatt-Generator vs Canva fuer Druckvorlagen-Erstellung. Verkaufen Sie auf Etsy & KDP mit gewerblicher Lizenz.',
   },
   hero: {
     title: 'Arbeitsblatt-Generator vs Canva: Was ist besser?',

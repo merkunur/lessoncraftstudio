@@ -15,8 +15,7 @@ const content: AppContent = {
       'kommercielt brug alfabettog generator',
     ],
     titleTag: 'Alfabettog Generator | Opret Sprog-Printables — Sælgguide',
-    metaDescription:
-      'Opret alfabettog arbejdsark til salg på Etsy, KDP og Gumroad. Togvogn bogstav-billede kobling i 11 sprog, 104 temaer. Gratis prøveversion med vandmærke.',
+    metaDescription: 'Opret alfabettog arbejdsark til salg på Etsy, KDP og Gumroad. Togvogn bogstav-billede kobling i 11 sprog, 104 temaer. $49 engangsbetaling.',
   },
 
   hero: {

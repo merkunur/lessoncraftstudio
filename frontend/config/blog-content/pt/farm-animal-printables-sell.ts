@@ -14,7 +14,7 @@ const content: BlogContent = {
       'mercado imprimíveis temáticos',
     ],
     titleTag: 'Imprimíveis Animais da Fazenda: Vender | LCS',
-    metaDescription: 'Animais da fazenda são o subtema #1 para fichas infantis para crianças de 2-5 anos. Vacas, porcos, galinhas e cavalos são os primeiros animais que cri.',
+    metaDescription: 'Animais da fazenda são o subtema #1 para fichas infantis para crianças de 2-5 anos. Venda no Etsy & KDP com licenca comercial.',
   },
   hero: {
     title: 'Imprimíveis Animais da Fazenda: Vender',

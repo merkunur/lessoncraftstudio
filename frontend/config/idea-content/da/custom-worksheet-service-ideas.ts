@@ -3,7 +3,7 @@ import type { IdeaContent } from '../types';
 const content: IdeaContent = {
   seo: {
     titleTag: 'Skræddersyet arbejdsark-service forretningsidéer — Guide',
-    metaDescription: 'Skræddersyet arbejdsark-service forretningsidéer til Etsy og freelancesælgere. Tilbyd bestillingsproducerede pædagogiske printables med premium per-ordre prissætning.',
+    metaDescription: 'Skræddersyet arbejdsark-service forretningsidéer til Etsy og freelancesælgere. Tilbyd bestillingsproducerede pædagogiske printables med premium per-ordre.',
 
     primaryKeyword: 'skræddersyet arbejdsark service',
     secondaryKeywords: [

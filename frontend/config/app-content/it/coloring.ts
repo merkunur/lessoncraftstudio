@@ -15,8 +15,7 @@ const content: AppContent = {
       'stampabili da colorare canvas libero uso commerciale',
     ],
     titleTag: 'Generatore Disegni da Colorare | Vendere su Etsy e KDP',
-    metaDescription:
-      'Crea disegni da colorare professionali da vendere su Etsy e Amazon KDP. Canvas libero, 104 temi, scala di grigi. Prova gratis con filigrana.',
+    metaDescription: 'Crea disegni da colorare professionali da vendere su Etsy e Amazon KDP. Canvas libero, 104 temi, scala di grigi. 49 $ pagamento unico.',
   },
 
   hero: {

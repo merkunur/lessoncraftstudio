@@ -15,7 +15,7 @@ const content: ToolContent = {
       'rutnätspussel gratis',
     ],
     titleTag: 'Rutnätskopplingspussel gratis | LessonCraftStudio',
-    metaDescription: 'Skapa rutnätskopplingspussel gratis online. 2×2 till 4×4 rutnät, ledtrådsceller, facit, 104 teman. Gratis provversion med vattenmärke.',
+    metaDescription: 'Skapa rutnätskopplingspussel gratis online. 2×2 till 4×4 rutnät, ledtrådsceller, facit, 104 teman. Salj pa Etsy & KDP med kommersiell licens.',
   },
 
   hero: {

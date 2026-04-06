@@ -15,7 +15,7 @@ const content: ToolContent = {
       'övningsblad plusräkning förskoleklass',
     ],
     titleTag: 'Additionsblad gratis online | LessonCraftStudio',
-    metaDescription: 'Skapa additionsblad gratis online med tematiska bilder. 104 teman, 4 övningslägen, facit, tryckfärdiga PDF:er. Gratis provversion med vattenmärke.',
+    metaDescription: 'Skapa additionsblad gratis online med tematiska bilder. 104 teman, 4 övningslägen, facit, tryckfärdiga PDF:er. Salj pa Etsy & KDP med kommersiell licens.',
   },
 
   hero: {

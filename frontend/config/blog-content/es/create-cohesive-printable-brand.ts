@@ -6,7 +6,7 @@ const content: BlogContent = {
     secondaryKeywords: ['crear marca coherente imprimibles paso a paso', 'crear marca coherente imprimibles tutorial', 'crear marca coherente imprimibles guia practica'],
     lsiKeywords: ['crear marca coherente tips', 'como crear marca', 'coherente imprimibles facil'],
     titleTag: 'Crear una Marca Coherente de Imprimibles | LCS',
-    metaDescription: 'Una marca coherente no es solo un logo bonito. Es la experiencia completa que el comprador tiene con sus productos: colores consistentes, tipografia unifor',
+    metaDescription: 'Una marca coherente no es solo un logo bonito. Es la experiencia completa que el comprador tiene con sus productos:. Venda en Etsy & KDP con licencia comercial.',
   },
   hero: {
     title: 'Como Crear una Marca Coherente de Imprimibles',

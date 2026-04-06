@@ -3,7 +3,7 @@ import type { IdeaContent } from '../types';
 const content: IdeaContent = {
   seo: {
     titleTag: 'Takkefest utskriftsbare ideer til salg — nisjeguide',
-    metaDescription: 'Oppdag lønnsomme takkefest utskriftsbare ideer til salg på Etsy, Amazon KDP og Gumroad. Høsttema produktkonsepter med sterk oktober-november etterspørsel for selgere.',
+    metaDescription: 'Oppdag lønnsomme takkefest utskriftsbare ideer til salg på Etsy, Amazon KDP og Gumroad.',
 
     primaryKeyword: 'takkefest utskriftsbare ideer',
     secondaryKeywords: [

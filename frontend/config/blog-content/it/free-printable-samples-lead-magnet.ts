@@ -6,7 +6,7 @@ const content: BlogContent = {
     secondaryKeywords: ['come creare stampabili vendere', 'guida pratica stampabili business', 'tutorial stampabili educativi'],
     lsiKeywords: ['creazione stampabili professionali', 'workflow produzione schede', 'ottimizzazione vendita stampabili'],
     titleTag: 'Campioni Stampabili come Lead Magnet | LCS',
-    metaDescription: 'Usi campioni stampabili come lead magnet per costruire la lista email e convertire visitatori in clienti paganti.',
+    metaDescription: 'Usi campioni stampabili come lead magnet per costruire la lista email e convertire visitatori in clienti paganti. Vendi su Etsy & KDP con licenza commerciale.',
   },
   hero: {
     title: 'Campioni Stampabili Gratuiti come Lead Magnet',

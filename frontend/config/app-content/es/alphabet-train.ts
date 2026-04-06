@@ -15,8 +15,7 @@ const content: AppContent = {
       'negocio fichas alfabeto mercado hispano',
     ],
     titleTag: 'Fichas de abecedario para vender en Etsy | LCS',
-    metaDescription:
-      'Cree fichas de abecedario con tren de letras para vender en Etsy y KDP. Imágenes temáticas, 11 idiomas. Licencia comercial. Pruebe gratis.',
+    metaDescription: 'Cree fichas de abecedario con tren de letras para vender en Etsy y KDP. Imágenes temáticas, 11 idiomas. Licencia comercial. Pruebe gratis. 49 $ pago unico.',
   },
 
   hero: {

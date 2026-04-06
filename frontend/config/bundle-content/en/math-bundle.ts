@@ -16,7 +16,7 @@ const content: BundleContent = {
       'math worksheet seller toolkit',
     ],
     titleTag: 'Math Worksheet Bundle for Etsy Sellers | LCS',
-    metaDescription: 'Get all 6 math worksheet generators in one bundle. Create addition, subtraction, puzzles & more to sell on Etsy & KDP. Commercial license included.',
+    metaDescription: 'Get all 6 math worksheet generators in one bundle. Create addition, subtraction, puzzles & more to sell on Etsy & KDP. $149 one-time.',
   },
 
   hero: {

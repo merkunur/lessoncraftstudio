@@ -15,8 +15,7 @@ const content: AppContent = {
       'grille 5×5 deux modes de direction corrigé automatique',
     ],
     titleTag: 'Chasses au trésor pour Etsy & KDP | LCS',
-    metaDescription:
-      'Créez des chasses au trésor à vendre sur Etsy & KDP. Grille 5×5, deux modes de direction, licence commerciale. Testez gratuitement avec filigrane.',
+    metaDescription: 'Créez des chasses au trésor à vendre sur Etsy & KDP. Grille 5×5, deux modes de direction, licence commerciale. 49 $ paiement unique.',
   },
 
   hero: {

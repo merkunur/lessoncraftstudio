@@ -16,7 +16,7 @@ const content: BundleContent = {
       'Mathe-Arbeitsblatt-Massenproduktion Werkzeug',
     ],
     titleTag: 'Mathe-Arbeitsblatt-Bundle für Etsy | LCS',
-    metaDescription: 'Mathe-Arbeitsblatt-Generatoren-Bundle mit 6 Apps für Etsy und KDP. Addition, Subtraktion, Code-Rätsel, Vergleich, Puzzle und Algebra — druckfertige PDFs.',
+    metaDescription: 'Mathe-Arbeitsblatt-Generatoren-Bundle mit 6 Apps für Etsy und KDP. 149 $ einmalig.',
   },
 
   hero: {

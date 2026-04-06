@@ -15,7 +15,7 @@ const content: ToolContent = {
       'billedpar matchning linjesporing printbare',
     ],
     titleTag: 'Linjesporing Arbejdsark Generator — Tegne Linjer Generator',
-    metaDescription: 'Lav linjesporing arbejdsark med otte SVG-skabeloner, mere end 3.100 illustrationer i 104 temaer og autoudfyldning af billedpar. Gratis prøveversion med vandmærke.',
+    metaDescription: 'Lav linjesporing arbejdsark med otte SVG-skabeloner, mere end 3.100 illustrationer i 104 temaer og autoudfyldning af. Saelg pa Etsy & KDP med kommerciel licens.',
   },
 
   hero: {

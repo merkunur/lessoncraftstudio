@@ -6,7 +6,7 @@ const content: BlogContent = {
     secondaryKeywords: ['imprimibles educacion especial NEE vender negocio', 'imprimibles educacion especial NEE vender Etsy vender', 'imprimibles educacion especial NEE vender imprimibles rentable'],
     lsiKeywords: ['imprimibles educacion fichas', 'vender imprimibles imprimibles', 'NEE vender educativos'],
     titleTag: 'Imprimibles de Educacion Especial | LCS',
-    metaDescription: 'Los materiales para educacion especial y necesidades educativas especiales (NEE) representan un nicho de alto valor con competencia practicamente nula en e',
+    metaDescription: 'Los materiales para educacion especial y necesidades educativas especiales (NEE) representan un nicho de alto valor. Venda en Etsy & KDP con licencia comercial.',
   },
   hero: {
     title: 'Imprimibles para Educacion Especial: Un Nicho de Alto Valor',

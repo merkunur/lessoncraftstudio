@@ -15,7 +15,7 @@ const content: AppContent = {
       'Nachspuren Schreibschrift kommerzielle Nutzung',
     ],
     titleTag: 'Schreibübungen-Generator für Etsy-Verkäufer | LCS',
-    metaDescription: 'Schreibübungen erstellen und auf Etsy & KDP verkaufen. Drei Übungsmodi, Strichrichtungspfeile, gewerbliche Lizenz inklusive. Kostenlos testen mit Wasserzeichen.',
+    metaDescription: 'Schreibübungen erstellen und auf Etsy & KDP verkaufen. Drei Übungsmodi, Strichrichtungspfeile, gewerbliche Lizenz inklusive. 49 $ einmalig.',
   },
 
   hero: {

@@ -15,7 +15,7 @@ const content: ToolContent = {
       'rita och färglägg gratis',
     ],
     titleTag: 'Rita och måla-blad gratis online | LessonCraftStudio',
-    metaDescription: 'Skapa rita och måla-blad gratis online. Dubbelrutnät, justerbar ledtrådsprocent, tre symmetrilägen. Gratis provversion med vattenmärke.',
+    metaDescription: 'Skapa rita och måla-blad gratis online. Dubbelrutnät, justerbar ledtrådsprocent, tre symmetrilägen. Salj pa Etsy & KDP med kommersiell licens.',
   },
 
   hero: {

@@ -27,8 +27,7 @@ const content: AppContent = {
       'BNCC',
     ],
     titleTag: 'Atividades de contagem e gráficos para vender | LCS',
-    metaDescription:
-      'Crie atividades de contagem e gráficos de barras para vender na Hotmart, Etsy e KDP. 104 temas, gabarito automático. Teste grátis com marca d\'água.',
+    metaDescription: 'Crie atividades de contagem e gráficos de barras para vender na Hotmart, Etsy e KDP. 104 temas, gabarito automático. 49 $ pagamento unico.',
   },
 
   hero: {

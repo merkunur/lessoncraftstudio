@@ -16,7 +16,7 @@ const content: GuideContent = {
       'første Etsy printable oppføring guide',
     ],
     titleTag: 'Start en Etsy printable-butikk fra bunnen | LCS',
-    metaDescription: 'Komplett nybegynnerguide til å starte en Etsy printable-butikk fra bunnen. Butikkoppsett, første oppføringer, SEO-grunnlag og prissetting for nye printable-selgere.',
+    metaDescription: 'Komplett nybegynnerguide til å starte en Etsy printable-butikk fra bunnen. Butikkoppsett, første oppføringer, SEO-grunnlag og prissetting for nye.',
   },
 
   hero: {

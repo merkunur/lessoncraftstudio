@@ -15,7 +15,7 @@ const content: ToolContent = {
       'automatisch antwoordblad doolhof generator online',
     ],
     titleTag: 'Doolhoven gratis online maken | LessonCraftStudio',
-    metaDescription: 'Maak doolhof werkbladen met Afbeeldingspad, Klassiek Doolhof en Kies het Pad modi met automatische antwoordbladen. Gratis proberen, geen registratie.',
+    metaDescription: 'Maak doolhof werkbladen met Afbeeldingspad, Klassiek Doolhof en Kies het Pad modi met automatische. Verkoop op Etsy & KDP met commerciele licentie.',
   },
 
   hero: {

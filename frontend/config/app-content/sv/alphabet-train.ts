@@ -17,8 +17,7 @@ const content: AppContent = {
       'svenska marknaden alfabetsblad Etsy',
     ],
     titleTag: 'Alfabetsblad att sälja på Etsy | LessonCraftStudio',
-    metaDescription:
-      'Skapa alfabetsblad att sälja på Etsy och KDP. Tågvagnar med bokstav-bild koppling, 11 språk med ÅÄÖ, facit, kommersiell licens. Testa gratis med vattenmärke.',
+    metaDescription: 'Skapa alfabetsblad att sälja på Etsy och KDP. Tågvagnar med bokstav-bild koppling, 11 språk med ÅÄÖ, facit, kommersiell licens. $49 engångsbetalning.',
   },
 
   hero: {

@@ -15,8 +15,7 @@ const content: AppContent = {
       'kommersielt bruk sammenligningsgenerator',
     ],
     titleTag: 'Mer eller Mindre Generator | Sammenligningsarbeidsark',
-    metaDescription:
-      'Lag sammenligningsarbeidsark til salg på Etsy, KDP og Gumroad. 3 sammenligningsmoduser, 104 temaer, fasit, 400+ DPI eksport. Gratis prøveversjon.',
+    metaDescription: 'Lag sammenligningsarbeidsark til salg på Etsy, KDP og Gumroad. 3 sammenligningsmoduser, 104 temaer, fasit, 400+ DPI eksport. $49 engangsbetaling.',
   },
 
   hero: {

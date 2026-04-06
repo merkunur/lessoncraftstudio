@@ -15,7 +15,7 @@ const content: AppContent = {
       'Lösungsschlüssel 11 Sprachen kommerzielle Nutzung',
     ],
     titleTag: 'Kreuzworträtsel für Etsy & KDP erstellen | LCS',
-    metaDescription: 'Erstellen Sie Bilderkreuzworträtsel zum Verkauf auf Etsy & KDP. 15×15-Raster, 4 Eingabemethoden, gewerbliche Lizenz. Kostenlos testen mit Wasserzeichen.',
+    metaDescription: 'Erstellen Sie Bilderkreuzworträtsel zum Verkauf auf Etsy & KDP. 15×15-Raster, 4 Eingabemethoden, gewerbliche Lizenz. 49 $ einmalig.',
   },
 
   hero: {

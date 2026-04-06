@@ -15,8 +15,7 @@ const content: AppContent = {
       'utskriftsbar telleaktivitet forretningsverktoy',
     ],
     titleTag: 'Finn og Tell Generator | Lag Sokearbeidsark',
-    metaDescription:
-      'Lag finn og tell arbeidsark til salg på Etsy, KDP og Gumroad. 4 oppgavetyper, Bokstavsok, automatisk fasit, 104 temaer. Gratis proveversjon.',
+    metaDescription: 'Lag finn og tell arbeidsark til salg på Etsy, KDP og Gumroad. 4 oppgavetyper, Bokstavsok, automatisk fasit, 104 temaer. $49 engangsbetaling.',
   },
 
   hero: {

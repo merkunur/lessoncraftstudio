@@ -24,7 +24,7 @@ const content: BundleContent = {
       'Kiwify produtos matemática educativa',
     ],
     titleTag: 'Pacote Matemática para vendedores | LCS',
-    metaDescription: 'Pacote com 6 geradores de matemática: adição, subtração, código, comparação, puzzles e álgebra. Venda no Hotmart, Kiwify, Etsy e KDP com licença comercial.',
+    metaDescription: 'Pacote com 6 geradores de matemática: adição, subtração, código, comparação, puzzles e álgebra. 149 $ pagamento unico.',
   },
 
   hero: {

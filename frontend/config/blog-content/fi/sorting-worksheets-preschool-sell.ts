@@ -14,7 +14,7 @@ const content: BlogContent = {
       'looginen luokittelu lapsille',
     ],
     titleTag: 'Lajittelutyoarkit esikouluikaisille | LCS',
-    metaDescription: 'Myy lajittelutyoarkkeja esikouluikaisten vanhemmille. Luokittelutaidon harjoittelu on jokaisen lapsen tarve. Matala kilpailu.',
+    metaDescription: 'Myy lajittelutyoarkkeja esikouluikaisten vanhemmille. Luokittelutaidon harjoittelu on jokaisen lapsen tarve. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
   },
   hero: {
     title: 'Lajittelutyoarkit: esikouluikaisten suosikkitehtava',

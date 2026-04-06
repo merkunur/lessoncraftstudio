@@ -5,7 +5,7 @@ const content: BlogContent = {
     secondaryKeywords: ['hoderegning printables selge Etsy', 'hoderegning printables selge strategi', 'hoderegning printables selge tips'],
     lsiKeywords: ['sesongbaserte utskrifter', 'utskrivbare arbeidsark nisje', 'printable selger Norge'],
     titleTag: 'Hoderegning-utskrifter: Selg på nett | LCS',
-    metaDescription: 'Hoderegning (math fact fluency) er når barn automatiserer grunnleggende regneoperasjoner. Foreldre og lærere søker aktivt etter øvingsmateriell for de',
+    metaDescription: 'Hoderegning (math fact fluency) er når barn automatiserer grunnleggende regneoperasjoner. Selg pa Etsy & KDP med kommersiell lisens.',
   },
   hero: {
     title: 'Hoderegning-utskrifter: Selg på nett',

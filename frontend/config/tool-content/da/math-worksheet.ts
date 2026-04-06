@@ -15,7 +15,7 @@ const content: ToolContent = {
       'billedvariabel matematikaktivitet generator',
     ],
     titleTag: 'Matematik Arbejdsark Generator | Visuelle Algebrapuslespil',
-    metaDescription: 'Generer algebra billedpuslespil, hvor billeder repræsenterer variabler i koblede ligninger. Fire sværhedsgrader, unikke løsninger. Gratis prøveversion.',
+    metaDescription: 'Generer algebra billedpuslespil, hvor billeder repræsenterer variabler i koblede ligninger. Saelg pa Etsy & KDP med kommerciel licens.',
   },
 
   hero: {

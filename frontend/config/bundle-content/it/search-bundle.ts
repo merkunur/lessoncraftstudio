@@ -17,7 +17,7 @@ const content: BundleContent = {
       'attività di ricerca ad alta domanda marketplace',
     ],
     titleTag: 'Pacchetto cerca e trova per venditori | LessonCraftStudio',
-    metaDescription: 'Pacchetto con 4 generatori cerca e trova: Vedo Vedo, oggetti nascosti, cruciverba immagini e caccia al tesoro. 3 app multilingue. Licenza commerciale.',
+    metaDescription: 'Pacchetto con 4 generatori cerca e trova: Vedo Vedo, oggetti nascosti, cruciverba immagini e caccia al tesoro. 3 app multilingue. 149 $ pagamento unico.',
   },
 
   hero: {

@@ -6,7 +6,7 @@ const content: BlogContent = {
     secondaryKeywords: ['imprimibles primavera marzo abril negocio', 'imprimibles primavera marzo abril Etsy vender', 'imprimibles primavera marzo abril imprimibles rentable'],
     lsiKeywords: ['imprimibles primavera fichas', 'vender imprimibles imprimibles', 'marzo abril educativos'],
     titleTag: 'Imprimibles de Primavera para Vender | LCS',
-    metaDescription: 'La primavera trae consigo temas de renovacion, naturaleza y crecimiento que se traducen perfectamente en imprimibles educativos. Fichas de flores, mariposa',
+    metaDescription: 'La primavera trae consigo temas de renovacion, naturaleza y crecimiento que se traducen perfectamente en. Venda en Etsy & KDP con licencia comercial.',
   },
   hero: {
     title: 'Imprimibles de Primavera: Marzo y Abril',

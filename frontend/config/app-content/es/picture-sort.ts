@@ -15,8 +15,7 @@ const content: AppContent = {
       'negocio fichas clasificación mercado hispano',
     ],
     titleTag: 'Fichas de clasificación para Etsy y KDP | LCS',
-    metaDescription:
-      'Cree fichas de clasificación con imágenes para vender en Etsy y KDP. Los niños ordenan por categorías. Licencia comercial. Pruebe gratis.',
+    metaDescription: 'Cree fichas de clasificación con imágenes para vender en Etsy y KDP. Los niños ordenan por categorías. Licencia comercial. Pruebe gratis. 49 $ pago unico.',
   },
 
   hero: {

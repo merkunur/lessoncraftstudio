@@ -20,8 +20,7 @@ const content: AppContent = {
       'chiave di risposta automatica',
     ],
     titleTag: 'Schede cerca e conta da vendere su Etsy | LCS',
-    metaDescription:
-      'Crea schede cerca e conta da vendere su Etsy e KDP. 4 tipi di attività, risposte automatiche, licenza commerciale inclusa. Prova gratis con filigrana.',
+    metaDescription: 'Crea schede cerca e conta da vendere su Etsy e KDP. 4 tipi di attività, risposte automatiche, licenza commerciale inclusa. 49 $ pagamento unico.',
   },
 
   hero: {

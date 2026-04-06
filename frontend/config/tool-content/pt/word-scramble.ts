@@ -24,8 +24,7 @@ const content: ToolContent = {
       'licença comercial',
     ],
     titleTag: 'Embaralha palavras grátis online | LCS',
-    metaDescription:
-      'Crie atividades de embaralha palavras grátis com imagens. 11 idiomas, gabarito automático, PDF imprimível. Teste online sem cadastro — marca d\'água removível.',
+    metaDescription: 'Crie atividades de embaralha palavras grátis com imagens. 11 idiomas, gabarito automático, PDF imprimível. Venda no Etsy & KDP com licenca comercial.',
   },
 
   hero: {

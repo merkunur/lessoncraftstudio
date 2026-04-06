@@ -3,7 +3,7 @@ import type { IdeaContent } from '../types';
 const content: IdeaContent = {
   seo: {
     titleTag: 'Lemmikki tulostettavat ideat myyntiin — Nicheopas',
-    metaDescription: 'Tutustu lemmikkiaiheisiin tulostettaviin ideoihin myyntiin Etsyssä, Amazon KDP:ssä ja Gumroadilla. Kissa-, koira- ja pieneläintuotekonseptit ja alustastrategiat myyjille.',
+    metaDescription: 'Tutustu lemmikkiaiheisiin tulostettaviin ideoihin myyntiin Etsyssä, Amazon KDP:ssä ja Gumroadilla.',
 
     primaryKeyword: 'lemmikki tulostettavat ideat',
     secondaryKeywords: [

@@ -14,7 +14,7 @@ const content: BlogContent = {
       'verkkokauppa tulosteet',
     ],
     titleTag: 'Tekijanoikeus tulostemyyjille | LCS',
-    metaDescription: 'Ymmarra tekijanoikeuden perusteet tulostemyyjana. Mita saat kayttaa, mita et ja miten suojaat oman tyosi.',
+    metaDescription: 'Ymmarra tekijanoikeuden perusteet tulostemyyjana. Mita saat kayttaa, mita et ja miten suojaat oman tyosi. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
   },
   hero: {
     title: 'Tekijanoikeus tulostemyyjille: perusteet selkeasti',

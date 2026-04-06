@@ -15,8 +15,7 @@ const content: AppContent = {
       'kaupallinen kaytto matikkapulmapeli generaattori',
     ],
     titleTag: 'Matikkapulmapeli Generaattori | Luo ja Myy Tulostettavia',
-    metaDescription:
-      'Luo matikkapulmapeli tyoarkkeja myyntiin Etsyssa, KDP:ssa ja Gumroadissa. Kuvapulmat yhteen- ja vahennyslaskulla, saadettavat ruudukot. Ilmainen kokeilu.',
+    metaDescription: 'Luo matikkapulmapeli tyoarkkeja myyntiin Etsyssa, KDP:ssa ja Gumroadissa. Kuvapulmat yhteen- ja vahennyslaskulla, saadettavat ruudukot. $49 kertamaksu.',
   },
 
   hero: {

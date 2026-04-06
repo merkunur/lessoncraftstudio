@@ -6,7 +6,7 @@ const content: BlogContent = {
     secondaryKeywords: ['printable werkbladen hergebruiken meerdere', 'werkbladen werkbladen hergebruiken', 'printables how-to gids'],
     lsiKeywords: ['printable productie tips', 'werkbladen maken strategie', 'printable business how-to'],
     titleTag: 'Werkbladen Hergebruiken voor Meerdere Producten | LCS',
-    metaDescription: 'Werkbladen Hergebruiken voor Meerdere Producten. Stap-voor-stap instructies en praktische tips voor printable verkopers. Direct toepasbaar.',
+    metaDescription: 'Werkbladen Hergebruiken voor Meerdere Producten. Stap-voor-stap instructies en praktische tips voor printable. Verkoop op Etsy & KDP met commerciele licentie.',
   },
   hero: {
     title: 'Werkbladen Hergebruiken voor Meerdere Producten',

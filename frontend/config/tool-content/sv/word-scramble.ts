@@ -15,7 +15,7 @@ const content: ToolContent = {
       'stavningsövning gratis',
     ],
     titleTag: 'Blandade bokstäver gratis online | LessonCraftStudio',
-    metaDescription: 'Skapa blandade bokstäver-pussel gratis online. Bildledtrådar, vokal-färgkodning, 4 svårighetsnivåer, 11 språk. Gratis provversion med vattenmärke.',
+    metaDescription: 'Skapa blandade bokstäver-pussel gratis online. Bildledtrådar, vokal-färgkodning, 4 svårighetsnivåer, 11 språk. Salj pa Etsy & KDP med kommersiell licens.',
   },
 
   hero: {

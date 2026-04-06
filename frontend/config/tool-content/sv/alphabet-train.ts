@@ -15,7 +15,7 @@ const content: ToolContent = {
       'bokstavsigenkänning gratis',
     ],
     titleTag: 'Alfabetsblad gratis online | LessonCraftStudio',
-    metaDescription: 'Skapa alfabetsblad gratis online. 11 tågvagnar, bokstav-bild matchning, svenska ÅÄÖ, 11 språk, 104 teman. Gratis provversion med vattenmärke.',
+    metaDescription: 'Skapa alfabetsblad gratis online. 11 tågvagnar, bokstav-bild matchning, svenska ÅÄÖ, 11 språk, 104 teman. Salj pa Etsy & KDP med kommersiell licens.',
   },
 
   hero: {

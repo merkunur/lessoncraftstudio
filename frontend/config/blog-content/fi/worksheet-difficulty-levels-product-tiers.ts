@@ -14,7 +14,7 @@ const content: BlogContent = {
       'tyoarkit tuotanto',
     ],
     titleTag: 'Tyoarkkien vaikeustasot ja tuoteportaat | LCS',
-    metaDescription: 'Rakenna tuoteportaat vaikeustasoilla. Helppo, keskitaso ja vaikea. Jokainen taso on erillinen tuote tai osa pakettia.',
+    metaDescription: 'Rakenna tuoteportaat vaikeustasoilla. Helppo, keskitaso ja vaikea. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
   },
   hero: {
     title: 'Tyoarkkien vaikeustasot ja tuoteportaat',

@@ -15,8 +15,7 @@ const content: AppContent = {
       'kryptogram generator kommersielt bruk',
     ],
     titleTag: 'Kryptogram Generator | Lag og Selg Chifferpuslespill',
-    metaDescription:
-      'Lag kryptogramarbeidsark til salg på Etsy, KDP og Gumroad. Bildechifferkoding, Bokstaver å Avsløre vanskelighetskontroll, 104 temaer. Gratis prøveversjon.',
+    metaDescription: 'Lag kryptogramarbeidsark til salg på Etsy, KDP og Gumroad. Bildechifferkoding, Bokstaver å Avsløre vanskelighetskontroll, 104 temaer. $49 engangsbetaling.',
   },
 
   hero: {

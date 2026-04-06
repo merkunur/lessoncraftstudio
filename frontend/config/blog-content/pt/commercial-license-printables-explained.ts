@@ -14,7 +14,7 @@ const content: BlogContent = {
       'empreendedor digital educativo',
     ],
     titleTag: 'Licença Comercial Imprimíveis | LCS',
-    metaDescription: 'Vender imprimíveis criados com geradores ou templates exige licença comercial. Este guia explica o que é licença comercial, por que você precisa dela, o...',
+    metaDescription: 'Vender imprimíveis criados com geradores ou templates exige licença comercial. Este guia explica o que é licença comercial, por que você precisa dela, o.',
   },
   hero: {
     title: 'Licença Comercial Imprimíveis',

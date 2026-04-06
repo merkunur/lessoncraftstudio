@@ -14,8 +14,8 @@ const content: ToolContent = {
       'harmaasavy varitystehtavat tulostukseen',
       'vapaapiirto varitysaktiviteetti generaattori',
     ],
-    titleTag: 'Mukautettu Värityssivugeneraattori — Tee Sivuja Verkossa — Myyjäopas',
-    metaDescription: 'Tee mukautettuja värityssivuja tuotevalikoimaasi tai kotiin. Vapaa kangas, yli 3 100 kuvitusta, 104 teemaa, vapaapiirto, harmaasävyvienti. Ilmainen kokeilu vesileimalla.',
+    titleTag: 'Mukautettu Värityssivugeneraattori — Tee Sivuja Verkossa...',
+    metaDescription: 'Tee mukautettuja värityssivuja tuotevalikoimaasi tai kotiin. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
   },
 
   hero: {

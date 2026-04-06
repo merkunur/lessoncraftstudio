@@ -14,7 +14,7 @@ const content: BlogContent = {
       'tulostettava myy',
     ],
     titleTag: 'Maatilaelaintulosteet: myyntiopas | LCS',
-    metaDescription: 'Myy maatilaelaintulosteita. Maatilaelaimet ovat suosikkiteema pienille lapsille. Suomessa maatilamatkailu on suosittua.',
+    metaDescription: 'Myy maatilaelaintulosteita. Maatilaelaimet ovat suosikkiteema pienille lapsille. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
   },
   hero: {
     title: 'Maatilaelaintulosteet: pienten lasten suosikkiteema',

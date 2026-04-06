@@ -24,8 +24,7 @@ const content: GuideContent = {
       'Brasil',
     ],
     titleTag: 'Escalar negócio de imprimíveis — guia | LCS',
-    metaDescription:
-      'Como escalar seu negócio de imprimíveis. De renda extra a negócio em tempo integral. Automação, catálogo e marketing.',
+    metaDescription: 'Como escalar seu negócio de imprimíveis. De renda extra a negócio em tempo integral. Automação, catálogo e marketing. Venda no Etsy & KDP com licenca comercial.',
   },
 
   hero: {

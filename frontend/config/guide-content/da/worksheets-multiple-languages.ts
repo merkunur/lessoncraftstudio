@@ -18,7 +18,7 @@ const content: GuideContent = {
       'batchproduktion flersproget indholdsgenerering automatiserede oversættelsesværktøjer vokabulardatabaser',
     ],
     titleTag: 'Skab arbejdsark på flere sprog — Guide',
-    metaDescription: 'Sådan generator du arbejdsark på flere sprog med produktionsworkflows, tegnhåndtering, skrifttypevalg, kvalitetssikring og listningstilpasning.',
+    metaDescription: 'Sådan generator du arbejdsark på flere sprog med produktionsworkflows, tegnhåndtering, skrifttypevalg,. Saelg pa Etsy & KDP med kommerciel licens.',
   },
 
   hero: {

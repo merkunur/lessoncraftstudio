@@ -16,7 +16,7 @@ const content: BundleContent = {
       'bulkproduktion språkarbetsblad verktyg',
     ],
     titleTag: 'Ord- och språkpaket — Sälja | LessonCraftStudio',
-    metaDescription: 'Få 7 läs- och skrivarbetsblad-generatorer i ett paket. Skapa alfabet, ordsökning, kryptogram, prepositioner och handstilsarbetsblad på 11 språk. Prova.',
+    metaDescription: 'Få 7 läs- och skrivarbetsblad-generatorer i ett paket. Skapa alfabet, ordsökning, kryptogram, prepositioner och handstilsarbetsblad på 11 språk. $49. $149 e.',
   },
 
   hero: {

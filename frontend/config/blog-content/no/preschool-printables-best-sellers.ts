@@ -5,7 +5,7 @@ const content: BlogContent = {
     secondaryKeywords: ['barnehage printables bestselgere Etsy', 'barnehage printables bestselgere strategi', 'barnehage printables bestselgere tips'],
     lsiKeywords: ['sesongbaserte utskrifter', 'utskrivbare arbeidsark nisje', 'printable selger Norge'],
     titleTag: 'Barnehage-utskrifter: Bestselgerne | LCS',
-    metaDescription: 'I Norge går 97 % av alle barn i barnehage. Barnehager bruker utskrevne aktiviteter daglig. Foreldre søker også etter materialer for å forberede barna ',
+    metaDescription: 'I Norge går 97 % av alle barn i barnehage. Barnehager bruker utskrevne aktiviteter daglig. Selg pa Etsy & KDP med kommersiell lisens.',
   },
   hero: {
     title: 'Barnehage-utskrifter: Bestselgerne',

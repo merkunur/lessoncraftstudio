@@ -27,8 +27,7 @@ const content: AppContent = {
       'Kiwify',
     ],
     titleTag: 'Atividades de classificação para vender | LCS',
-    metaDescription:
-      'Crie atividades de classificação e categorização para vender na Hotmart, Etsy e KDP. 104 temas, gabarito automático. Teste grátis com marca d\'água.',
+    metaDescription: 'Crie atividades de classificação e categorização para vender na Hotmart, Etsy e KDP. 104 temas, gabarito automático. 49 $ pagamento unico.',
   },
 
   hero: {

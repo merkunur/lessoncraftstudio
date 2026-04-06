@@ -15,8 +15,7 @@ const content: AppContent = {
       'monstertog generator kommersielt bruk',
     ],
     titleTag: 'Monstertog Generator | Lag Sekvensarbeidsark — Selgerguide',
-    metaDescription:
-      'Lag monstertog-arbeidsark til salg på Etsy, KDP og Gumroad. Fem monstertyper, 11 tematiske togvogner, justerbart antall ledetråder. Gratis proveversjon.',
+    metaDescription: 'Lag monstertog-arbeidsark til salg på Etsy, KDP og Gumroad. Fem monstertyper, 11 tematiske togvogner, justerbart antall ledetråder. $49 engangsbetaling.',
   },
 
   hero: {

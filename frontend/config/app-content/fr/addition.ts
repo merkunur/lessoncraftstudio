@@ -16,8 +16,7 @@ const content: AppContent = {
       'corrigé inclus images thématiques revenu passif',
     ],
     titleTag: 'Fiches d\'addition à vendre sur Etsy | LCS',
-    metaDescription:
-      'Créez des fiches d\'addition professionnelles à vendre sur Etsy & KDP. Licence commerciale incluse. Testez gratuitement avec filigrane — sans inscription.',
+    metaDescription: 'Créez des fiches d\'addition professionnelles à vendre sur Etsy & KDP. Licence commerciale incluse. 49 $ paiement unique.',
   },
 
   hero: {

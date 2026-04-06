@@ -6,7 +6,7 @@ const content: BlogContent = {
     secondaryKeywords: ['servicio al cliente productos digitales guia', 'servicio al cliente productos digitales mejores practicas', 'servicio al cliente productos digitales estrategia'],
     lsiKeywords: ['servicio al tips', 'negocio imprimibles servicio', 'productos digitales imprimibles'],
     titleTag: 'Servicio al Cliente para Productos Digitales | LCS',
-    metaDescription: 'El servicio al cliente en productos digitales es diferente al de productos fisicos. Los problemas mas comunes son dificultades de descarga, archivos que no',
+    metaDescription: 'El servicio al cliente en productos digitales es diferente al de productos fisicos. Venda en Etsy & KDP con licencia comercial.',
   },
   hero: {
     title: 'Servicio al Cliente para Productos Digitales',

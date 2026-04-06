@@ -18,7 +18,7 @@ const content: StartContent = {
       'återinvesteringsstrategi utskriftsbart företag',
     ],
     titleTag: 'Från extra till heltidsverksamhet | LessonCraftStudio',
-    metaDescription: 'Hur du skalar ditt utskriftsbara företag från sidoprojekt till heltid. Täcker katalogexpansion, multiplattformsdistribution, paketering och arbetsflödesautomati',
+    metaDescription: 'Hur du skalar ditt utskriftsbara företag från sidoprojekt till heltid. Salj pa Etsy & KDP med kommersiell licens.',
   },
 
   hero: {

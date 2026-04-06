@@ -6,7 +6,7 @@ const content: BlogContent = {
     secondaryKeywords: ['stampabili tematici vendere Etsy Italia', 'nicchia stampabili educativi mercato', 'schede tematiche stagionali vendere'],
     lsiKeywords: ['stampabili educativi nicchia', 'mercato stagionale stampabili', 'Etsy Italia schede tematiche'],
     titleTag: 'Stampabili per Nuovi Genitori | LCS',
-    metaDescription: 'Stampabili per genitori di bambini 0-3 anni. Schede, milestone e attività per lo sviluppo precoce.',
+    metaDescription: 'Stampabili per genitori di bambini 0-3 anni. Schede, milestone e attività per lo sviluppo precoce. Vendi su Etsy & KDP con licenza commerciale.',
   },
   hero: {
     title: 'Stampabili Educativi per Nuovi Genitori',

@@ -14,7 +14,7 @@ const content: BlogContent = {
       'astuces niveaux difficulté',
     ],
     titleTag: 'Niveaux de difficulté et gammes de produits | LCS',
-    metaDescription: 'Créez des gammes de produits avec plusieurs niveaux de difficulté. Multipliez vos produits sans nouveau contenu.',
+    metaDescription: 'Créez des gammes de produits avec plusieurs niveaux de difficulté. Multipliez vos produits sans nouveau contenu. Vendez sur Etsy & KDP avec licence commerciale.',
   },
   hero: {
     title: 'Niveaux de difficulté : créez des gammes de produits',

@@ -15,7 +15,7 @@ const content: ToolContent = {
       'skuggkoppling gratis',
     ],
     titleTag: 'Skuggkopplingsblad gratis online | LessonCraftStudio',
-    metaDescription: 'Skapa skuggkopplingsblad gratis online. Siluettmatchning och Gör Den Hel, autosiluetter, facit, 104 teman. Gratis provversion med vattenmärke.',
+    metaDescription: 'Skapa skuggkopplingsblad gratis online. Siluettmatchning och Gör Den Hel, autosiluetter, facit, 104 teman. Salj pa Etsy & KDP med kommersiell licens.',
   },
 
   hero: {

@@ -3,7 +3,7 @@ import type { IdeaContent } from '../types';
 const content: IdeaContent = {
   seo: {
     titleTag: 'Digitaalisten latausten työarkkideat myyntiin — Opas',
-    metaDescription: 'Digitaalisten latausten työarkkideat Etsy-, Gumroad- ja Shopify-myyjille. Rakenna nollavarasto tulostettava liiketoiminta opetuksellisten PDF-tiedostojen välittömällä toimituksella.',
+    metaDescription: 'Digitaalisten latausten työarkkideat Etsy-, Gumroad- ja Shopify-myyjille. Rakenna nollavarasto tulostettava liiketoiminta opetuksellisten PDF-tiedostojen.',
 
     primaryKeyword: 'digitaalisten latausten työarkkideat',
     secondaryKeywords: [

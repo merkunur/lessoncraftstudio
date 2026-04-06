@@ -16,7 +16,7 @@ const content: StartContent = {
       'nettmarkedsføring selgere av utskriftsbare produkter',
     ],
     titleTag: 'Markedsføre Utskriftsbar Forretning på Nett | LCS',
-    metaDescription: 'Hvordan markedsføre din utskriftsbare forretning på nett. SEO, sosiale medier, e-post, Pinterest og annonseringsstrategier for selgere av utskriftsbare produkter.',
+    metaDescription: 'Hvordan markedsføre din utskriftsbare forretning på nett. SEO, sosiale medier, e-post, Pinterest og annonseringsstrategier for selgere av utskriftsbare.',
   },
 
   hero: {

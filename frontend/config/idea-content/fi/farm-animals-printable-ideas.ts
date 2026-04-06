@@ -3,7 +3,7 @@ import type { IdeaContent } from '../types';
 const content: IdeaContent = {
   seo: {
     titleTag: 'Maatilaeläin tulostettavat ideat myyntiin — Nicheopas',
-    metaDescription: 'Tutustu kannattaviin maatilaeläinaiheisiin tulostettaviin ideoihin myyntiin Etsyssä, Amazon KDP:ssä ja Gumroadilla. Tuotekonseptit, hinnoittelustrategiat ja alustavinkit myyjille.',
+    metaDescription: 'Tutustu kannattaviin maatilaeläinaiheisiin tulostettaviin ideoihin myyntiin Etsyssä, Amazon KDP:ssä ja Gumroadilla.',
 
     primaryKeyword: 'maatilaeläin tulostettavat ideat',
     secondaryKeywords: [

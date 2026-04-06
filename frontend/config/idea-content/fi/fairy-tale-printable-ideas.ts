@@ -3,7 +3,7 @@ import type { IdeaContent } from '../types';
 const content: IdeaContent = {
   seo: {
     titleTag: 'Satuaiheiset tulostettavat ideat myyntiin — Nicheopas',
-    metaDescription: 'Tutustu satuaiheisiin tulostettaviin ideoihin myyntiin Etsyssä, Amazon KDP:ssä ja Gumroadilla. Tarinakirjateemaiset tuotekonseptit, alustavinkit ja strategiat myyjille.',
+    metaDescription: 'Tutustu satuaiheisiin tulostettaviin ideoihin myyntiin Etsyssä, Amazon KDP:ssä ja Gumroadilla.',
 
     primaryKeyword: 'satu tulostettavat ideat',
     secondaryKeywords: [

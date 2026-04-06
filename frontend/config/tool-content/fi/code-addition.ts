@@ -15,7 +15,7 @@ const content: ToolContent = {
       'kokeile ennen ostoa palapelivälineet',
     ],
     titleTag: 'Ilmainen Koodimatematiikkapalapelin Tekijä Verkossa | LCS',
-    metaDescription: 'Tee murra koodi -matematiikkapalapelejä ilmaiseksi verkossa vesileimalla — ei rekisteröitymistä. Sanan paljastus -tila, 11 kieltä, vastausavaimet. Päivitä kaupalliseen lisenssiin.',
+    metaDescription: 'Tee murra koodi -matematiikkapalapelejä ilmaiseksi verkossa vesileimalla — ei rekisteröitymistä. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
   },
 
   hero: {

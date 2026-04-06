@@ -16,8 +16,7 @@ const content: AppContent = {
       'svenska marknaden pusselblad',
     ],
     titleTag: 'Kodpussel matte att sälja på Etsy | LessonCraftStudio',
-    metaDescription:
-      'Skapa hemliga kodpussel med matte att sälja på Etsy och KDP. Avslöja Ord i 11 språk, facit, kommersiell licens. Testa gratis med vattenmärke.',
+    metaDescription: 'Skapa hemliga kodpussel med matte att sälja på Etsy och KDP. Avslöja Ord i 11 språk, facit, kommersiell licens. $49 engångsbetalning.',
   },
 
   hero: {

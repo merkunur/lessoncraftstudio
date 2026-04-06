@@ -15,7 +15,7 @@ const content: GuideContent = {
       'myyjien oikeudelliset perusteet',
     ],
     titleTag: 'Tekijänoikeuden perusteet tulostettavien myyjille | LCS',
-    metaDescription: 'Tekijänoikeuden perusteet tulostettavien myyjille. Suojaa suunnittelusi, ymmärrä oikeutesi ja vältä loukkauksia tulostettavien liiketoiminnassasi.',
+    metaDescription: 'Tekijänoikeuden perusteet tulostettavien myyjille. Suojaa suunnittelusi, ymmärrä oikeutesi ja vältä. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
   },
 
   hero: {

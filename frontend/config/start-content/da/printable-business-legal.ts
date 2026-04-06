@@ -18,7 +18,7 @@ const content: StartContent = {
       'fradragsberettigede udgifter printbar forretning',
     ],
     titleTag: 'Saelge printbare produkter skattekrav — juridisk guide',
-    metaDescription: 'Skattekrav for at saelge printbare produkter forklaret. Virksomhedsstruktur, fradragsberettigede udgifter, immaterialret og platformsefterlevelse for saelgere.',
+    metaDescription: 'Skattekrav for at saelge printbare produkter forklaret. Virksomhedsstruktur, fradragsberettigede udgifter,. Saelg pa Etsy & KDP med kommerciel licens.',
   },
 
   hero: {

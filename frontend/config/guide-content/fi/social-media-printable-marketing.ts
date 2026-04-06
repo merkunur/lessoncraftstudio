@@ -6,7 +6,7 @@ const content: GuideContent = {
     secondaryKeywords: ['sosiaalisen median markkinointi tulostettaville tuotteille', 'tulostettavien tuotteiden markkinointi Instagram TikTok', 'sosiaalisen median strategia Etsy-myyjille', 'visuaalinen markkinointi tulostettaville'],
     lsiKeywords: ['sosiaalisen median sisaltostrategia tulostettavien myyjille', 'visuaalinen tuotemarkkinointi digitaaliset lataukset', 'orgaaninen sosiaalinen media pienyrittajille'],
     titleTag: 'Sosiaalisen median markkinointi tulostettaville — Opas',
-    metaDescription: 'Sosiaalisen median markkinointistrategia tulostettavien myyjille. Instagram, TikTok, Facebook ja Pinterest-taktiikat liikenteen ohjaamiseen Etsy-, KDP- ja Gumroad-kauppoihin.',
+    metaDescription: 'Sosiaalisen median markkinointistrategia tulostettavien myyjille. Instagram, TikTok, Facebook ja Pinterest-taktiikat liikenteen ohjaamiseen Etsy-, KDP- ja.',
   },
   hero: {
     title: 'Sosiaalisen median markkinointi tulostettavien myyjille',

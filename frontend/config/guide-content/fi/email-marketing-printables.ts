@@ -18,7 +18,7 @@ const content: GuideContent = {
       'sähköpostimittarit ja optimointi',
     ],
     titleTag: 'Sähköpostimarkkinointi tulostettaville tuotteille — Opas',
-    metaDescription: 'Rakenna sähköpostilista tulostettavien tuotteiden liiketoiminnalle. Liidimagneetit, tervetulosarjat, segmentointi, automaatio ja mittarit.',
+    metaDescription: 'Rakenna sähköpostilista tulostettavien tuotteiden liiketoiminnalle. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
   },
 
   hero: {

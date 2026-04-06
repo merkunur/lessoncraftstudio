@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Mors dag og fars dag utskriftsbare ideer til salg — Nisjeguide',
+    titleTag: 'Mors dag og fars dag utskriftsbare ideer til salg —...',
     metaDescription: 'Utforsk mors dag og fars dag utskriftsbare ideer for Etsy, Amazon KDP og Gumroad. Familietema produktkonsepter, sesongstrategier og tips for selgere.',
 
     primaryKeyword: 'mors dag fars dag utskriftsbare ideer',

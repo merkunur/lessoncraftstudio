@@ -17,8 +17,7 @@ const content: AppContent = {
       'svenska marknaden korsord Etsy',
     ],
     titleTag: 'Korsord att sälja på Etsy och KDP | LessonCraftStudio',
-    metaDescription:
-      'Skapa bildkorsord att sälja på Etsy och KDP. 15×15 rutnät, bildledtrådar, 11 språk, automatiskt facit, kommersiell licens. Testa gratis med vattenmärke.',
+    metaDescription: 'Skapa bildkorsord att sälja på Etsy och KDP. 15×15 rutnät, bildledtrådar, 11 språk, automatiskt facit, kommersiell licens. $49 engångsbetalning.',
   },
 
   hero: {

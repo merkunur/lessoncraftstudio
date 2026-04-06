@@ -26,8 +26,7 @@ const content: AppContent = {
       'Kiwify',
     ],
     titleTag: 'Procure e conte para vender online | LCS',
-    metaDescription:
-      'Crie atividades de procurar e contar para vender na Hotmart, Etsy e KDP. 104 temas, gabarito automático, licença comercial. Teste grátis com marca d\'água.',
+    metaDescription: 'Crie atividades de procurar e contar para vender na Hotmart, Etsy e KDP. 104 temas, gabarito automático, licença comercial. 49 $ pagamento unico.',
   },
 
   hero: {

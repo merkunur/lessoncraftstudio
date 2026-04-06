@@ -6,7 +6,7 @@ const content: BlogContent = {
     secondaryKeywords: ['juegos imprimibles fiestas cumpleanos negocio', 'juegos imprimibles fiestas cumpleanos Etsy vender', 'juegos imprimibles fiestas cumpleanos imprimibles rentable'],
     lsiKeywords: ['juegos imprimibles fichas', 'vender imprimibles juegos', 'fiestas cumpleanos educativos'],
     titleTag: 'Juegos Imprimibles para Fiestas | LCS',
-    metaDescription: 'Los cumpleanos infantiles son una constante durante todo el ano. Los padres buscan actividades organizadas para mantener entretenidos a los invitados: bing',
+    metaDescription: 'Los cumpleanos infantiles son una constante durante todo el ano. Venda en Etsy & KDP con licencia comercial.',
   },
   hero: {
     title: 'Juegos Imprimibles para Fiestas de Cumpleanos',

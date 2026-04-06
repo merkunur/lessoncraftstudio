@@ -6,7 +6,7 @@ const content: BlogContent = {
     secondaryKeywords: ['derechos autor vendedores imprimibles basicos guia', 'derechos autor vendedores imprimibles basicos mejores practicas', 'derechos autor vendedores imprimibles basicos estrategia'],
     lsiKeywords: ['derechos autor tips', 'negocio imprimibles derechos', 'imprimibles basicos imprimibles'],
     titleTag: 'Derechos de Autor para Vendedores de Imprimibles | LCS',
-    metaDescription: 'Los derechos de autor protegen su trabajo creativo automaticamente desde el momento en que lo crea. Pero entender como funcionan es esencial tanto para pro',
+    metaDescription: 'Los derechos de autor protegen su trabajo creativo automaticamente desde el momento en que lo crea. Venda en Etsy & KDP con licencia comercial.',
   },
   hero: {
     title: 'Derechos de Autor para Vendedores de Imprimibles',

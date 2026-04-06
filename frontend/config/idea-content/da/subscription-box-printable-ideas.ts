@@ -3,7 +3,7 @@ import type { IdeaContent } from '../types';
 const content: IdeaContent = {
   seo: {
     titleTag: 'Abonnementsboks printbare idéer til salg — Guide',
-    metaDescription: 'Arbejdsark abonnementsboks-idéer til salg på Etsy, Gumroad og Patreon. Opbyg tilbagevendende omsætning med månedlige kuraterede arbejdsarkpakker og tematiske bundler.',
+    metaDescription: 'Arbejdsark abonnementsboks-idéer til salg på Etsy, Gumroad og Patreon. Opbyg tilbagevendende omsætning med månedlige kuraterede arbejdsarkpakker og.',
 
     primaryKeyword: 'abonnementsboks printbare idéer',
     secondaryKeywords: [

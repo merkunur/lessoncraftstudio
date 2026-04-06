@@ -18,7 +18,7 @@ const content: GuideContent = {
       'kaupallinen lisenssi työarkkityökalu',
     ],
     titleTag: 'Luo vähennyslaskutyöarkkeja — Opas',
-    metaDescription: 'Luo vähennyslaskutyöarkkeja lapsille. Kuvapohjaiset tehtävät yliviivatuilla kuvilla, vaikeustasot, vastausavaimet ja tulostusvalmiit PDF:t myyntiin.',
+    metaDescription: 'Luo vähennyslaskutyöarkkeja lapsille. Kuvapohjaiset tehtävät yliviivatuilla kuvilla, vaikeustasot,. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
   },
 
   hero: {

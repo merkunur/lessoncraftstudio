@@ -15,7 +15,7 @@ const content: ToolContent = {
       'meertalige woordzoeker puzzel gratis proefversie',
     ],
     titleTag: 'Woordzoeker generator gratis online | LessonCraftStudio',
-    metaDescription: 'Maak gratis woordzoekers met afbeeldingen online. Rasters van 5x5 tot 30x30, taalgebonden vulletters, 104 thema\'s, kleurgecodeerd antwoordblad. Probeer nu.',
+    metaDescription: 'Maak gratis woordzoekers met afbeeldingen online. Rasters van 5x5 tot 30x30, taalgebonden vulletters, 104. Verkoop op Etsy & KDP met commerciele licentie.',
   },
 
   hero: {

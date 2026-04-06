@@ -15,7 +15,7 @@ const content: ToolContent = {
       'konfiguroitava vihjesolu vaikeus ruudukkogeneraattori',
     ],
     titleTag: 'Ruudukkopulmageneraattori — Ruudukko Tehtävägeneraattori',
-    metaDescription: 'Luo ruudukkoyhdistämistehtäviä konfiguroitavalla ruudukon koolla, säädettävillä vihjesoluilla, Fisher-Yates-sekoituksella ja 104 temaattisilla kuvilla. Ilmainen kokeilu vesileimalla.',
+    metaDescription: 'Luo ruudukkoyhdistämistehtäviä konfiguroitavalla ruudukon koolla, säädettävillä vihjesoluilla, Fisher-Yates-sekoituksella ja 104 temaattisilla kuvilla.',
   },
 
   hero: {

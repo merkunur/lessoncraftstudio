@@ -15,7 +15,7 @@ const content: ToolContent = {
       'symmetri spejltilstand tegne arbejdsark generator',
     ],
     titleTag: 'Tegne Arbejdsark Generator — Gittertegning Generator | Sælg',
-    metaDescription: 'Generér gittertegning arbejdsark med dobbeltgitter, justerbar ledetrådsprocent, tre symmetritilstande og tematiske billedsæt. Gratis prøveversion med vandmærke.',
+    metaDescription: 'Generér gittertegning arbejdsark med dobbeltgitter, justerbar ledetrådsprocent, tre symmetritilstande og tematiske. Saelg pa Etsy & KDP med kommerciel licens.',
   },
 
   hero: {

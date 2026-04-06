@@ -14,7 +14,7 @@ const content: BlogContent = {
       'tyoarkit tuotanto',
     ],
     titleTag: 'Luo opetussuunnitelmapaketit tulosteina | LCS',
-    metaDescription: 'Rakenna opetussuunnitelmaan perustuvia tulostepaketteja. Suomen opetussuunnitelman tuntemus on kilpailuetu.',
+    metaDescription: 'Rakenna opetussuunnitelmaan perustuvia tulostepaketteja. Suomen opetussuunnitelman tuntemus on kilpailuetu. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
   },
   hero: {
     title: 'Opetussuunnitelmapaketit tulosteina: premium-tuote',

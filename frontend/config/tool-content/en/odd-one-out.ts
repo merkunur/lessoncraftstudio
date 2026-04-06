@@ -15,7 +15,7 @@ const content: ToolContent = {
       'try before you buy puzzle tools',
     ],
     titleTag: 'Free Odd One Out Worksheet Generator | LCS',
-    metaDescription: 'Make odd one out sheets free online with watermark — no signup. Two puzzle modes, auto answer keys with red circles, 104 themes. Upgrade for commercial ...',
+    metaDescription: 'Make odd one out sheets free online with watermark — no signup. Two puzzle modes, auto answer keys with red circles, 104 themes. Upgrade for commercial .',
   },
 
   hero: {

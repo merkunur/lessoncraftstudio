@@ -15,7 +15,7 @@ const content: AppContent = {
       'Identisch-Modus Ähnlich-Modus 104 Themen',
     ],
     titleTag: 'Was-passt-nicht-Rätsel Generator für Etsy | LCS',
-    metaDescription: 'Was-passt-nicht-Rätsel erstellen für Etsy und KDP — Identisch- und Ähnlich-Modus, rein visuelle Rätsel in 104 Themen. Kostenlos testen mit Wasserzeichen.',
+    metaDescription: 'Was-passt-nicht-Rätsel erstellen für Etsy und KDP — Identisch- und Ähnlich-Modus, rein visuelle Rätsel in 104 Themen. 49 $ einmalig.',
   },
 
   hero: {

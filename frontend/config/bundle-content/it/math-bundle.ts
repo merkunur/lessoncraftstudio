@@ -17,7 +17,7 @@ const content: BundleContent = {
       'prodotti matematica per mercato italiano e globale',
     ],
     titleTag: 'Pacchetto matematica per venditori | LessonCraftStudio',
-    metaDescription: 'Pacchetto con 6 generatori di schede matematiche per venditori Etsy e KDP. Addizione, sottrazione, puzzle e algebra. Licenza commerciale e prova gratuita.',
+    metaDescription: 'Pacchetto con 6 generatori di schede matematiche per venditori Etsy e KDP. Addizione, sottrazione, puzzle e algebra. 149 $ pagamento unico.',
   },
 
   hero: {

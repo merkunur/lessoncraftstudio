@@ -15,7 +15,7 @@ const content: AppContent = {
       'commercieel gebruik lijnen trekken werkbladen generator',
     ],
     titleTag: 'Trekwerkbladen fijne motoriek Etsy | LessonCraftStudio',
-    metaDescription: 'Maak fijne motoriek trekwerkbladen om te verkopen op Etsy en Amazon KDP. Acht lijnsjablonen, 104 thema\'s, voorbereidend schrijven, commerciële licentie.',
+    metaDescription: 'Maak fijne motoriek trekwerkbladen om te verkopen op Etsy en Amazon KDP. $49 eenmalig.',
   },
 
   hero: {

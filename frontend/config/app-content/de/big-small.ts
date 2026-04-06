@@ -15,7 +15,7 @@ const content: AppContent = {
       'fünf Fragetypen zwei Bildmodi Lösungsschlüssel',
     ],
     titleTag: 'Größenvergleich-Arbeitsblätter für Etsy | LCS',
-    metaDescription: 'Größenvergleich-Arbeitsblätter für Etsy erstellen — fünf Fragetypen, zwei Bildmodi, 104 Themen mit Lösungsschlüssel. Kostenlos testen mit Wasserzeichen.',
+    metaDescription: 'Größenvergleich-Arbeitsblätter für Etsy erstellen — fünf Fragetypen, zwei Bildmodi, 104 Themen mit Lösungsschlüssel. 49 $ einmalig.',
   },
 
   hero: {

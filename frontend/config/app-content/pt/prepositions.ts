@@ -27,8 +27,7 @@ const content: AppContent = {
       'Kiwify',
     ],
     titleTag: 'Atividades de preposições PLE para vender | LCS',
-    metaDescription:
-      'Crie atividades de preposições em 11 idiomas para vender na Hotmart, Etsy e KDP. Mega-nicho PLE, gabarito automático. Teste grátis com marca d\'água.',
+    metaDescription: 'Crie atividades de preposições em 11 idiomas para vender na Hotmart, Etsy e KDP. Mega-nicho PLE, gabarito automático. 49 $ pagamento unico.',
   },
 
   hero: {

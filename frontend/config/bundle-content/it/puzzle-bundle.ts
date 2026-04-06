@@ -17,7 +17,7 @@ const content: BundleContent = {
       'categoria puzzle in crescita su Etsy e Amazon',
     ],
     titleTag: 'Pacchetto puzzle logici per KDP | LessonCraftStudio',
-    metaDescription: 'Pacchetto con 4 generatori puzzle visivi: pezzi mancanti, trova l\'intruso, sudoku immagini e labirinti. Per libri KDP e Etsy. Licenza commerciale inclusa.',
+    metaDescription: 'Pacchetto con 4 generatori puzzle visivi: pezzi mancanti, trova l\'intruso, sudoku immagini e labirinti. Per libri KDP e Etsy. 149 $ pagamento unico.',
   },
 
   hero: {

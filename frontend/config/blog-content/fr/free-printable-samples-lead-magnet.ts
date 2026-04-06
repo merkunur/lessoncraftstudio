@@ -14,7 +14,7 @@ const content: BlogContent = {
       'astuces échantillons imprimables',
     ],
     titleTag: 'Échantillons comme lead magnet | LCS',
-    metaDescription: 'Utilisez des échantillons d\'imprimables comme lead magnet pour construire votre liste email.',
+    metaDescription: 'Utilisez des échantillons d\'imprimables comme lead magnet pour construire votre liste email. Vendez sur Etsy & KDP avec licence commerciale.',
   },
   hero: {
     title: 'Échantillons d\'imprimables comme lead magnet',

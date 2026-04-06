@@ -6,7 +6,7 @@ const content: BlogContent = {
     secondaryKeywords: ['pædagogiske printables nye forældre Etsy', 'pædagogiske printables nye forældre online', 'pædagogiske printables nye forældre forretning'],
     lsiKeywords: ['printbar forretning Danmark', 'digital download salg', 'Etsy printables sælg'],
     titleTag: 'Pædagogiske Printables for Nye Forældre | LCS',
-    metaDescription: 'Nye forældre er en af de mest købeklare kundegrupper for pædagogiske printables. De søger aktivt efter materialer til deres barns udvikling og er villige t',
+    metaDescription: 'Nye forældre er en af de mest købeklare kundegrupper for pædagogiske printables. Saelg pa Etsy & KDP med kommerciel licens.',
   },
   hero: {
     title: 'Pædagogiske Printables for Nye Forældre',

@@ -15,7 +15,7 @@ const content: ToolContent = {
       'kokeile ennen ostoa palapelivälineet',
     ],
     titleTag: 'Ilmainen Sananhakugeneraattori Kuvilla | LCS',
-    metaDescription: 'Tee sananhakupalapelejä ilmaiseksi verkossa vesileimalla — ei rekisteröitymistä. Teemakuvat, säädettävät ruudukot 5–30, 11 kieltä. Päivitä myyntiä varten.',
+    metaDescription: 'Tee sananhakupalapelejä ilmaiseksi verkossa vesileimalla — ei rekisteröitymistä. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
   },
 
   hero: {

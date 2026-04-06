@@ -6,7 +6,7 @@ const content: BlogContent = {
     secondaryKeywords: ['fotografia producto imprimibles mockups paso a paso', 'fotografia producto imprimibles mockups tutorial', 'fotografia producto imprimibles mockups guia practica'],
     lsiKeywords: ['fotografia producto imprimibles tips', 'como fotografia producto', 'imprimibles mockups facil'],
     titleTag: 'Fotografia de Producto para Imprimibles | LCS',
-    metaDescription: 'Las fotos de producto son el factor de conversion mas importante despues del precio. Para imprimibles digitales donde el comprador no puede tocar el produc',
+    metaDescription: 'Las fotos de producto son el factor de conversion mas importante despues del precio. Venda en Etsy & KDP con licencia comercial.',
   },
   hero: {
     title: 'Fotografia de Producto y Mockups para Imprimibles',

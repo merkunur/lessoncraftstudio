@@ -3,7 +3,7 @@ import type { IdeaContent } from '../types';
 const content: IdeaContent = {
   seo: {
     titleTag: 'Kulkuneuvoaiheiset tulostettavat ideat myyntiin — Nicheopas',
-    metaDescription: 'Tutustu kulkuneuvoaiheisiin tulostettaviin ideoihin myyntiin Etsyssä, Amazon KDP:ssä ja Gumroadilla. Ajoneuvotuotekonseptit, nichestrategiat ja alustavinkit myyjille.',
+    metaDescription: 'Tutustu kulkuneuvoaiheisiin tulostettaviin ideoihin myyntiin Etsyssä, Amazon KDP:ssä ja Gumroadilla.',
 
     primaryKeyword: 'kulkuneuvot tulostettavat ideat',
     secondaryKeywords: [

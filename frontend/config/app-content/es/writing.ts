@@ -15,8 +15,7 @@ const content: AppContent = {
       'negocio fichas preescritura mercado hispano',
     ],
     titleTag: 'Fichas de escritura para vender en Etsy | LCS',
-    metaDescription:
-      'Cree fichas de escritura y caligrafía para vender en Etsy y KDP. Letras, palabras, oraciones personalizables. Licencia comercial. Pruebe gratis.',
+    metaDescription: 'Cree fichas de escritura y caligrafía para vender en Etsy y KDP. Letras, palabras, oraciones personalizables. Licencia comercial. 49 $ pago unico.',
   },
 
   hero: {

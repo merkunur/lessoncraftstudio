@@ -15,8 +15,7 @@ const content: AppContent = {
       '9 types de motifs choix multiple corrigé automatique',
     ],
     titleTag: 'Fiches de motifs pour vendeurs Etsy & KDP | LCS',
-    metaDescription:
-      'Créez des fiches de reconnaissance de motifs à vendre sur Etsy & KDP. 9 types, choix multiple, licence commerciale. Testez gratuitement avec filigrane.',
+    metaDescription: 'Créez des fiches de reconnaissance de motifs à vendre sur Etsy & KDP. 9 types, choix multiple, licence commerciale. 49 $ paiement unique.',
   },
 
   hero: {

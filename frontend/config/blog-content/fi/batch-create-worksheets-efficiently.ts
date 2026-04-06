@@ -14,7 +14,7 @@ const content: BlogContent = {
       'tyoarkit tuotanto',
     ],
     titleTag: 'Luo tyoarkkeja erana tehokkaasti | LCS',
-    metaDescription: 'Massatuotantotekniikat tyoarkeille. Luo kymmenia tyoarkkeja tunnissa generaattorilla. Tehokkuus on avain kannattavuuteen.',
+    metaDescription: 'Massatuotantotekniikat tyoarkeille. Luo kymmenia tyoarkkeja tunnissa generaattorilla. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
   },
   hero: {
     title: 'Luo tyoarkkeja erana tehokkaasti: massatuotanto-opas',

@@ -14,7 +14,7 @@ const content: BlogContent = {
       'anticiper saisons ventes Etsy',
     ],
     titleTag: 'Calendrier saisonnier pour vendeurs d\'imprimables | LCS',
-    metaDescription: 'Planifiez vos créations d\'imprimables selon les saisons. Calendrier complet des pics de ventes en France pour maximiser vos revenus.',
+    metaDescription: 'Planifiez vos créations d\'imprimables selon les saisons. Calendrier complet des pics de ventes en France pour. Vendez sur Etsy & KDP avec licence commerciale.',
   },
   hero: {
     title: 'Le calendrier saisonnier du vendeur d\'imprimables',

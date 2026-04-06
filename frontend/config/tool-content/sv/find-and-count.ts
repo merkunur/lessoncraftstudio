@@ -15,7 +15,7 @@ const content: ToolContent = {
       'bokstavsletning svenska gratis',
     ],
     titleTag: 'Hitta och räkna gratis online | LessonCraftStudio',
-    metaDescription: 'Skapa hitta och räkna-blad gratis online. Dolda Objekt och Bokstavsletning med svenska ÅÄÖ, 4 uppgiftstyper, facit. Gratis provversion med vattenmärke.',
+    metaDescription: 'Skapa hitta och räkna-blad gratis online. Dolda Objekt och Bokstavsletning med svenska ÅÄÖ, 4 uppgiftstyper, facit. Salj pa Etsy & KDP med kommersiell licens.',
   },
 
   hero: {

@@ -14,9 +14,8 @@ const content: AppContent = {
       'myy piiloesineiden tulosteita kaupallisesti',
       'visuaalisen etsinnän työlehituotteet',
     ],
-    titleTag: 'Etsi ja Löydä -tulosteiden tekijä — Myy Etsyssä ja KDP:ssä | LCS',
-    metaDescription:
-      'Luo Etsi ja Löydä- ja piiloesineiden työlehtia myytäväksi Etsyssä ja KDP:ssä. Kaksi aktiviteettitilaa, automaattiset vastausavaimet, 104 teemaa, kaupallinen lisenssi. Ilmainen kokeilu.',
+    titleTag: 'Etsi ja Löydä -tulosteiden tekijä — Myy Etsyssä ja KDP:ssä',
+    metaDescription: 'Luo Etsi ja Löydä- ja piiloesineiden työlehtia myytäväksi Etsyssä ja KDP:ssä. $49 kertamaksu.',
   },
 
   hero: {

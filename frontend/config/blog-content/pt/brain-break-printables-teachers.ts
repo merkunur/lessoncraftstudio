@@ -14,7 +14,7 @@ const content: BlogContent = {
       'mercado imprimíveis temáticos',
     ],
     titleTag: 'Imprimíveis Pausas Ativas | LCS',
-    metaDescription: 'Pausas ativas (brain breaks) são atividades curtas de 2-5 minutos que professores usam para reativar a atenção dos alunos. Fichas imprimíveis de pausa.',
+    metaDescription: 'Pausas ativas (brain breaks) são atividades curtas de 2-5 minutos que professores usam para reativar a atenção dos. Venda no Etsy & KDP com licenca comercial.',
   },
   hero: {
     title: 'Imprimíveis Pausas Ativas',

@@ -6,7 +6,7 @@ const content: BlogContent = {
     secondaryKeywords: ['crear paquete fichas 35 minutos paso a paso', 'crear paquete fichas 35 minutos tutorial', 'crear paquete fichas 35 minutos guia practica'],
     lsiKeywords: ['crear paquete fichas tips', 'como crear paquete', '35 minutos facil'],
     titleTag: 'Crear un Paquete de Fichas en 35 Minutos | LCS',
-    metaDescription: 'Un paquete de fichas educativas completo no necesita tomar dias de trabajo. Con las herramientas correctas y un proceso eficiente, puede crear un paquete p',
+    metaDescription: 'Un paquete de fichas educativas completo no necesita tomar dias de trabajo. Venda en Etsy & KDP con licencia comercial.',
   },
   hero: {
     title: 'Como Crear un Paquete de Fichas en 35 Minutos',

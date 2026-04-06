@@ -15,8 +15,7 @@ const content: AppContent = {
       'monstergjenkjenning generator kommersielt bruk',
     ],
     titleTag: 'Monsterarbeidsark Generator | Lag og Selg på Nett',
-    metaDescription:
-      'Lag monsterarbeidsark til salg på Etsy, KDP og Gumroad. Ni monstertyper, to sporsmålsmoduser, ovelsevis konfigurasjon, 104 temaer. Gratis proveversjon.',
+    metaDescription: 'Lag monsterarbeidsark til salg på Etsy, KDP og Gumroad. Ni monstertyper, to sporsmålsmoduser, ovelsevis konfigurasjon, 104 temaer. $49 engangsbetaling.',
   },
 
   hero: {

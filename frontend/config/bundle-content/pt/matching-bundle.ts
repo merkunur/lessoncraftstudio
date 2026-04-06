@@ -24,7 +24,7 @@ const content: BundleContent = {
       'atividades cognitivas imprimíveis comercial',
     ],
     titleTag: 'Pacote associação e classificação | LCS',
-    metaDescription: 'Pacote com geradores de atividades de associação, classificação e correspondência visual. Venda imprimíveis no Etsy, Amazon KDP, Hotmart e Kiwify.',
+    metaDescription: 'Pacote com geradores de atividades de associação, classificação e correspondência visual. 149 $ pagamento unico.',
   },
 
   hero: {

@@ -6,7 +6,7 @@ const content: BlogContent = {
     secondaryKeywords: ['imprimibles actividades motricidad fina negocio', 'imprimibles actividades motricidad fina Etsy vender', 'imprimibles actividades motricidad fina imprimibles rentable'],
     lsiKeywords: ['imprimibles actividades fichas', 'vender imprimibles imprimibles', 'motricidad fina educativos'],
     titleTag: 'Imprimibles de Motricidad Fina | LCS',
-    metaDescription: 'La motricidad fina es una habilidad fundamental que todos los ninos deben desarrollar antes y durante los primeros anos escolares. Las fichas de trazo, rec',
+    metaDescription: 'La motricidad fina es una habilidad fundamental que todos los ninos deben desarrollar antes y durante los primeros. Venda en Etsy & KDP con licencia comercial.',
   },
   hero: {
     title: 'Imprimibles de Motricidad Fina: Actividades para Desarrollar Habilidades',

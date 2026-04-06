@@ -15,8 +15,7 @@ const content: AppContent = {
       'commercieel gebruik rekenpuzzel generator',
     ],
     titleTag: 'Rekenpuzzels generator voor Etsy | LessonCraftStudio',
-    metaDescription:
-      'Maak rekenpuzzels om te verkopen op Etsy en KDP. Rasterpuzzels met logisch denken en rekenen. Commerciële licentie. Gratis proefversie met watermerk.',
+    metaDescription: 'Maak rekenpuzzels om te verkopen op Etsy en KDP. Rasterpuzzels met logisch denken en rekenen. Commerciële licentie. $49 eenmalig.',
   },
 
   hero: {

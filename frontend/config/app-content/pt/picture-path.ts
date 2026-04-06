@@ -27,8 +27,7 @@ const content: AppContent = {
       'Kiwify',
     ],
     titleTag: 'Labirintos ilustrados para vender online | LCS',
-    metaDescription:
-      'Crie labirintos ilustrados para vender na Hotmart, Etsy e KDP. Caminhos temáticos, 104 temas, gabarito automático. Teste grátis com marca d\'água.',
+    metaDescription: 'Crie labirintos ilustrados para vender na Hotmart, Etsy e KDP. Caminhos temáticos, 104 temas, gabarito automático. 49 $ pagamento unico.',
   },
 
   hero: {

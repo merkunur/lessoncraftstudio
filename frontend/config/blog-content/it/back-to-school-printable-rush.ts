@@ -6,7 +6,7 @@ const content: BlogContent = {
     secondaryKeywords: ['stampabili tematici vendere Etsy Italia', 'nicchia stampabili educativi mercato', 'schede tematiche stagionali vendere'],
     lsiKeywords: ['stampabili educativi nicchia', 'mercato stagionale stampabili', 'Etsy Italia schede tematiche'],
     titleTag: 'Stampabili Rientro a Scuola: Settembre | LCS',
-    metaDescription: 'Prepari il Suo catalogo per il rientro a scuola di settembre in Italia. Prodotti, timing e strategie vincenti.',
+    metaDescription: 'Prepari il Suo catalogo per il rientro a scuola di settembre in Italia. Prodotti, timing e strategie vincenti. Vendi su Etsy & KDP con licenza commerciale.',
   },
   hero: {
     title: 'Stampabili per il Rientro a Scuola: La Corsa di Settembre',

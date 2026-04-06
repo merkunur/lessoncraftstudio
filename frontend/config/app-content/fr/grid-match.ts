@@ -15,8 +15,7 @@ const content: AppContent = {
       'cases-indices configurables corrigé automatique 104 thèmes',
     ],
     titleTag: 'Puzzles grille pour business d\'imprimables | LCS',
-    metaDescription:
-      'Créez des puzzles de grille à vendre sur Etsy & KDP. Taille configurable, cases-indices, licence commerciale. Testez gratuitement avec filigrane.',
+    metaDescription: 'Créez des puzzles de grille à vendre sur Etsy & KDP. Taille configurable, cases-indices, licence commerciale. 49 $ paiement unique.',
   },
 
   hero: {

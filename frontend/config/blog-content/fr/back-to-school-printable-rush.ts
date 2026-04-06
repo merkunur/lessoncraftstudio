@@ -14,7 +14,7 @@ const content: BlogContent = {
       'demande fiches ruée rentrée',
     ],
     titleTag: 'La ruée de la rentrée : imprimables | LCS',
-    metaDescription: 'Maximisez vos ventes d\'imprimables pendant la rentrée scolaire de septembre. Le plus gros pic de l\'année en France.',
+    metaDescription: 'Maximisez vos ventes d\'imprimables pendant la rentrée scolaire de septembre. Vendez sur Etsy & KDP avec licence commerciale.',
   },
   hero: {
     title: 'La ruée de la rentrée : votre plus gros mois de ventes',

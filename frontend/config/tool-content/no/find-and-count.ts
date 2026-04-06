@@ -15,7 +15,7 @@ const content: ToolContent = {
       'lokaltilpasset alfabet aksentuerte bokstaver søkegenerator',
     ],
     titleTag: 'Finn og Tell Generator — Søkearbeidsark Generator | Online',
-    metaDescription: 'Lag søkearbeidsark med Skjulte Objekter og Bokstavsøk-moduser, fire oppgavetyper, lokaltilpassede alfabeter, 104 temaer. Gratis prøveversjon med vannmerke.',
+    metaDescription: 'Lag søkearbeidsark med Skjulte Objekter og Bokstavsøk-moduser, fire oppgavetyper, lokaltilpassede alfabeter, 104. Selg pa Etsy & KDP med kommersiell lisens.',
   },
 
   hero: {

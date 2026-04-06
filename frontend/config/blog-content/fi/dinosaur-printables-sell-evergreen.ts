@@ -14,7 +14,7 @@ const content: BlogContent = {
       'tulostettava myy',
     ],
     titleTag: 'Dinosaurustulosteet: ikivihrea myynti | LCS',
-    metaDescription: 'Myy dinosaurustulosteita ymparivuotisesti. Dinosaurukset ovat lasten ikivihrea suosikki joka ei mene pois muodista.',
+    metaDescription: 'Myy dinosaurustulosteita ymparivuotisesti. Dinosaurukset ovat lasten ikivihrea suosikki joka ei mene pois. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
   },
   hero: {
     title: 'Dinosaurustulosteet: ikivihrea suosikkiteema',

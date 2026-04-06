@@ -6,7 +6,7 @@ const content: BlogContent = {
     secondaryKeywords: ['fichas palabras uso frecuente vocabulario visual negocio', 'fichas palabras uso frecuente vocabulario visual Etsy vender', 'fichas palabras uso frecuente vocabulario visual imprimibles rentable'],
     lsiKeywords: ['fichas palabras fichas', 'vender imprimibles fichas', 'vocabulario visual educativos'],
     titleTag: 'Fichas de Palabras de Uso Frecuente | LCS',
-    metaDescription: 'Las palabras de uso frecuente (o "palabras de alta frecuencia") son fundamentales en el aprendizaje de la lectura. En espanol, dominar las 100-200 palabras',
+    metaDescription: 'Las palabras de uso frecuente (o "palabras de alta frecuencia") son fundamentales en el aprendizaje de la lectura. Venda en Etsy & KDP con licencia comercial.',
   },
   hero: {
     title: 'Fichas de Palabras de Uso Frecuente: Vocabulario Visual',

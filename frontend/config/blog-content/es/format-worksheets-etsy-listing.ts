@@ -6,7 +6,7 @@ const content: BlogContent = {
     secondaryKeywords: ['formatear fichas listing Etsy paso a paso', 'formatear fichas listing Etsy tutorial', 'formatear fichas listing Etsy guia practica'],
     lsiKeywords: ['formatear fichas listing tips', 'como formatear fichas', 'listing Etsy facil'],
     titleTag: 'Formatear Fichas para Listings de Etsy | LCS',
-    metaDescription: 'El formato de sus fichas determina la experiencia del comprador al descargar e imprimir su producto. Un PDF mal configurado con margenes incorrectos, baja ',
+    metaDescription: 'El formato de sus fichas determina la experiencia del comprador al descargar e imprimir su producto. Venda en Etsy & KDP con licencia comercial.',
   },
   hero: {
     title: 'Como Formatear Fichas para un Listing de Etsy Perfecto',

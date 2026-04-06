@@ -15,7 +15,7 @@ const content: ToolContent = {
       'automatisch antwoordblad rode cirkel werkblad tool',
     ],
     titleTag: 'Welke hoort er niet bij gratis | LessonCraftStudio',
-    metaDescription: 'Maak gratis welke hoort er niet bij werkbladen online met Identiek en Vergelijkbaar modi en automatische antwoordbladen. Probeer nu zonder account.',
+    metaDescription: 'Maak gratis welke hoort er niet bij werkbladen online met Identiek en Vergelijkbaar modi en automatische. Verkoop op Etsy & KDP met commerciele licentie.',
   },
 
   hero: {

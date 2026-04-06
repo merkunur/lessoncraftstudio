@@ -15,7 +15,7 @@ const content: ToolContent = {
       'automatisk facit komplet udfyldt gitter sudoku generator',
     ],
     titleTag: 'Billedsudoku Generator — Billedsudoku for Børn Generator',
-    metaDescription: 'Lav billedsudoku for børn med 4×4 billedgitre, tre sværhedsgrader, automatiske facit og 104 tematiske samlinger. Gratis prøveversion med vandmærke.',
+    metaDescription: 'Lav billedsudoku for børn med 4×4 billedgitre, tre sværhedsgrader, automatiske facit og 104 tematiske samlinger. Saelg pa Etsy & KDP med kommerciel licens.',
   },
 
   hero: {

@@ -15,8 +15,7 @@ const content: AppContent = {
       'tracé fléché 5 polices 3 modes progressifs',
     ],
     titleTag: 'Fiches d\'écriture à vendre sur Etsy & KDP | LCS',
-    metaDescription:
-      'Créez des fiches d\'écriture à vendre sur Etsy & KDP. 3 modes progressifs, 5 polices, licence commerciale. Testez gratuitement avec filigrane.',
+    metaDescription: 'Créez des fiches d\'écriture à vendre sur Etsy & KDP. 3 modes progressifs, 5 polices, licence commerciale. 49 $ paiement unique.',
   },
 
   hero: {

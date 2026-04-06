@@ -6,7 +6,7 @@ const content: BlogContent = {
     secondaryKeywords: ['printable filformater PDF JPEG guide Etsy', 'printable filformater PDF JPEG guide online', 'printable filformater PDF JPEG guide forretning'],
     lsiKeywords: ['printbar forretning Danmark', 'digital download salg', 'Etsy printables sælg'],
     titleTag: 'Filformater for Printables: PDF vs. JPEG Guide | LCS',
-    metaDescription: 'PDF og JPEG er de to mest brugte filformater for printable-produkter, men de tjener forskellige formål. Denne guide forklarer, hvornår du skal bruge hvilke',
+    metaDescription: 'PDF og JPEG er de to mest brugte filformater for printable-produkter, men de tjener forskellige formål. Saelg pa Etsy & KDP med kommerciel licens.',
   },
   hero: {
     title: 'Filformater for Printables: PDF vs. JPEG Guide',

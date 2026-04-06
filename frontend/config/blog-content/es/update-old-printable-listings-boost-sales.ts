@@ -6,7 +6,7 @@ const content: BlogContent = {
     secondaryKeywords: ['actualizar listings antiguos imprimibles ventas paso a paso', 'actualizar listings antiguos imprimibles ventas tutorial', 'actualizar listings antiguos imprimibles ventas guia practica'],
     lsiKeywords: ['actualizar listings antiguos tips', 'como actualizar listings', 'imprimibles ventas facil'],
     titleTag: 'Actualizar Listings Antiguos para Mas Ventas | LCS',
-    metaDescription: 'Antes de crear nuevos productos, optimice los existentes. Actualizar titulos, fotos, descripciones y etiquetas de listings con bajo rendimiento puede dupli',
+    metaDescription: 'Antes de crear nuevos productos, optimice los existentes. Actualizar titulos, fotos, descripciones y etiquetas de. Venda en Etsy & KDP con licencia comercial.',
   },
   hero: {
     title: 'Actualizar Listings Antiguos para Impulsar Ventas',

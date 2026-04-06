@@ -6,7 +6,7 @@ const content: BlogContent = {
     secondaryKeywords: ['Gratisproben als Lead-Magnete fuer Ihren Druckvorlagen-Shop Anleitung', 'Druckvorlagen Gratisproben Guide', 'Arbeitsblatt Verkauf Tipps'],
     lsiKeywords: ['Druckvorlagen Geschaeft optimieren', 'Etsy Verkaeufer Tipps', 'Arbeitsblaetter professionell erstellen'],
     titleTag: 'Gratisproben als Lead-Magnete: So geht\'s | LCS',
-    metaDescription: 'Wie Sie kostenlose Probeseiten als Lead-Magnete nutzen, um E-Mail-Adressen zu sammeln und Stammkunden aufzubauen.',
+    metaDescription: 'Wie Sie kostenlose Probeseiten als Lead-Magnete nutzen, um E-Mail-Adressen zu sammeln und Stammkunden. Verkaufen Sie auf Etsy & KDP mit gewerblicher Lizenz.',
   },
   hero: {
     title: 'Gratisproben als Lead-Magnete fuer Ihren Druckvorlagen-Shop',

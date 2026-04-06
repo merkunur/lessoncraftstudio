@@ -15,7 +15,7 @@ const content: GuideContent = {
       'selvpublisering formateringsguide',
     ],
     titleTag: 'KDP formateringsguide for arbeidsarkbøker | LCS',
-    metaDescription: 'KDP formateringsguide for arbeidsarkbøker. Trimstørrelser, marginer, bleed-innstillinger og sideoppsett for publisering av profesjonelle aktivitetsbøker på Amazon KDP.',
+    metaDescription: 'KDP formateringsguide for arbeidsarkbøker. Trimstørrelser, marginer, bleed-innstillinger og sideoppsett for publisering av profesjonelle aktivitetsbøker på.',
   },
 
   hero: {

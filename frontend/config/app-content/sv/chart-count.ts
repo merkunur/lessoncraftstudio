@@ -17,8 +17,7 @@ const content: AppContent = {
       'svenska marknaden diagramblad Etsy',
     ],
     titleTag: 'Diagramblad att sälja på Etsy | LessonCraftStudio',
-    metaDescription:
-      'Skapa räkne- och diagramblad att sälja på Etsy och KDP. Bilddiagram med automatiskt facit, 104 teman, kommersiell licens. Testa gratis med vattenmärke.',
+    metaDescription: 'Skapa räkne- och diagramblad att sälja på Etsy och KDP. Bilddiagram med automatiskt facit, 104 teman, kommersiell licens. $49 engångsbetalning.',
   },
 
   hero: {

@@ -14,7 +14,7 @@ const content: BlogContent = {
       'tulostettava myy',
     ],
     titleTag: 'Taaperoaktiviteetti-tulosteet | LCS',
-    metaDescription: 'Myy taaperoaktiviteetti-tulosteita. Suomessa kotihoidon tuki mahdollistaa pitkaan kotona olon ja aktiviteettien tarve on suuri.',
+    metaDescription: 'Myy taaperoaktiviteetti-tulosteita. Suomessa kotihoidon tuki mahdollistaa pitkaan kotona olon ja. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
   },
   hero: {
     title: 'Taaperoaktiviteetti-tulosteet: kotipaivien pelastaja',

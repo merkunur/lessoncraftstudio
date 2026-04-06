@@ -15,8 +15,7 @@ const content: AppContent = {
       '3 modes de jeu algorithme LPF corrigé automatique',
     ],
     titleTag: 'Labyrinthes illustrés à vendre sur Etsy | LCS',
-    metaDescription:
-      'Créez des labyrinthes illustrés à vendre sur Etsy & KDP. 3 modes de jeu, 104 thèmes, licence commerciale. Testez gratuitement avec filigrane.',
+    metaDescription: 'Créez des labyrinthes illustrés à vendre sur Etsy & KDP. 3 modes de jeu, 104 thèmes, licence commerciale. 49 $ paiement unique.',
   },
 
   hero: {

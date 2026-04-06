@@ -14,7 +14,7 @@ const content: BlogContent = {
       'mercado imprimíveis temáticos',
     ],
     titleTag: 'Imprimíveis Dinossauros: Vender | LCS',
-    metaDescription: 'Dinossauros são um tema evergreen que fascina crianças de 3 a 10 anos. Fichas de colorir dinossauros, caça-palavras pré-histórico, labirintos jurássic.',
+    metaDescription: 'Dinossauros são um tema evergreen que fascina crianças de 3 a 10 anos. Venda no Etsy & KDP com licenca comercial.',
   },
   hero: {
     title: 'Imprimíveis Dinossauros: Vender',

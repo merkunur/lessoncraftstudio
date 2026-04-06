@@ -16,8 +16,7 @@ const content: AppContent = {
       'visuaalisen havainnon työarkkituotteet',
     ],
     titleTag: 'Ruudukkoyhdistämispulma Generaattori Myyjille | LCS',
-    metaDescription:
-      'Luo ruudukkoyhdistämispulmia myyntiin Etsyssä ja KDP:ssä. Konfiguroitavat ruudukot, vihjesolut, automaattiset vastauslehdet, kaupallinen lisenssi. Kokeile ilmaiseksi vesileimalla.',
+    metaDescription: 'Luo ruudukkoyhdistämispulmia myyntiin Etsyssä ja KDP:ssä. Konfiguroitavat ruudukot, vihjesolut, automaattiset vastauslehdet, kaupallinen lisenssi. $49...',
   },
 
   hero: {

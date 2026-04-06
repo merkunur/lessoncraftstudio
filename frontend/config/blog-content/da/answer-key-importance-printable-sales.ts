@@ -14,7 +14,7 @@ const content: BlogContent = {
       "facitliste conversion"
     ],
     titleTag: "Facitlister Øger Dit Salg: Hvorfor | LCS",
-    metaDescription: "Facitlister er den mest undervurderede faktor i printable-salg. Lær hvorfor de øger konvertering, reducerer refunderinger og forbedrer anmeldelser."
+    metaDescription: 'Facitlister er den mest undervurderede faktor i printable-salg. Saelg pa Etsy & KDP med kommerciel licens.'
   },
   hero: {
     title: "Facitlister Øger Dit Salg: Her Er Hvorfor",

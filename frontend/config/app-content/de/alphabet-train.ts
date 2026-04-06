@@ -15,7 +15,7 @@ const content: AppContent = {
       'mehrsprachige Alphabet-Druckvorlagen 11 Sprachen',
     ],
     titleTag: 'Alphabet-Arbeitsblätter erstellen für Etsy | LCS',
-    metaDescription: 'Alphabet-Arbeitsblätter erstellen für Etsy und KDP — Buchstabe-Bild-Zuordnung in 11 Sprachen mit nativen Alphabeten. Kostenlos testen mit Wasserzeichen.',
+    metaDescription: 'Alphabet-Arbeitsblätter erstellen für Etsy und KDP — Buchstabe-Bild-Zuordnung in 11 Sprachen mit nativen Alphabeten. 49 $ einmalig.',
   },
 
   hero: {

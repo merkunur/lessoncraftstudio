@@ -18,7 +18,7 @@ const content: GuideContent = {
       'pitkäaikainen kauppamaine arvostelujen kautta',
     ],
     titleTag: 'Saa arvosteluja tulostettaville tuotteille — Opas',
-    metaDescription: 'Strategiat arvostelujen keräämiseen tulostettaville tuotteille. Tuotelaatu, seuranta, palautteen käsittely ja maineen rakentaminen Etsyssä, KDP:ssä ja Gumroadissa.',
+    metaDescription: 'Strategiat arvostelujen keräämiseen tulostettaville tuotteille. Tuotelaatu, seuranta, palautteen käsittely ja maineen rakentaminen Etsyssä, KDP:ssä ja.',
   },
 
   hero: {

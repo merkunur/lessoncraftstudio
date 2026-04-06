@@ -15,7 +15,7 @@ const content: ToolContent = {
       'mönsterigenkänning gratis',
     ],
     titleTag: 'Mönsterigenkänning gratis online | LessonCraftStudio',
-    metaDescription: 'Skapa mönsterarbetsblad gratis online. Nio mönstertyper, fyll-i-rutan och flerval, facit, 104 teman. Gratis provversion med vattenmärke.',
+    metaDescription: 'Skapa mönsterarbetsblad gratis online. Nio mönstertyper, fyll-i-rutan och flerval, facit, 104 teman. Salj pa Etsy & KDP med kommersiell licens.',
   },
 
   hero: {

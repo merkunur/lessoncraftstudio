@@ -16,7 +16,7 @@ const content: BundleContent = {
       'visuele werkbladen wereldwijd verkopen zonder vertaling',
     ],
     titleTag: 'Visueel leerpakket voor verkopers | LessonCraftStudio',
-    metaDescription: 'Zeven visuele werkblad generators in een pakket. Maak kleurplaten, tekenen, patronen en telgrafieken die in elke taal werken. Verkoop op Etsy en KDP.',
+    metaDescription: 'Zeven visuele werkblad generators in een pakket. Maak kleurplaten, tekenen, patronen en telgrafieken die in elke taal werken. $149 eenmalig.',
   },
 
   hero: {

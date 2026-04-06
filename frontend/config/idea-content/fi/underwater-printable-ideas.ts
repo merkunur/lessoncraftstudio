@@ -3,7 +3,7 @@ import type { IdeaContent } from '../types';
 const content: IdeaContent = {
   seo: {
     titleTag: 'Vedenalaiset tulostettavat ideat myyntiin — Nicheopas',
-    metaDescription: 'Tutustu vedenalaisiin tulostettaviin ideoihin myyntiin Etsyssä, Amazon KDP:ssä ja Gumroadilla. Merielämätuotekonseptit, nichestrategiat ja alustavinkit myyjille.',
+    metaDescription: 'Tutustu vedenalaisiin tulostettaviin ideoihin myyntiin Etsyssä, Amazon KDP:ssä ja Gumroadilla.',
 
     primaryKeyword: 'vedenalainen maailma tulostettavat ideat',
     secondaryKeywords: [

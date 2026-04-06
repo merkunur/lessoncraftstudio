@@ -6,7 +6,7 @@ const content: BlogContent = {
     secondaryKeywords: ['pisteviivatehtavat lapsille myy', 'hienomotoriikka tulosteet Etsy', 'jaljentaminen esikouluikaisille'],
     lsiKeywords: ['kynankaytonharjoittelu', 'motorinen kehitys tyoarkit', 'visuomotorinen koordinaatio'],
     titleTag: 'Jaljennostehtavat hienomotoriikka: myy | LCS',
-    metaDescription: 'Myy jaljennostehtavia jotka kehittavat hienomotoriikkaa. Ikivihrea tuote esikouluikaisille. Kilpailuton suomenkielinen markkina.',
+    metaDescription: 'Myy jaljennostehtavia jotka kehittavat hienomotoriikkaa. Ikivihrea tuote esikouluikaisille. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
   },
   hero: {
     title: 'Jaljennostehtavat: hienomotoriikan kehittaminen myyntituotteena',

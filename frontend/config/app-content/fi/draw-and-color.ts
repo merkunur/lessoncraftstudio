@@ -16,8 +16,7 @@ const content: AppContent = {
       'luovat työarkkituotteet Etsy',
     ],
     titleTag: 'Piirustus ja Väritys Generaattori Etsyyn | LCS',
-    metaDescription:
-      'Luo piirustus- ja väritystyöarkkeja myyntiin Etsyssä ja KDP:ssä. Ruudukkopiirrustus, temaattiset kuvat, 104 kokoelmaa, lisenssi. Kokeile ilmaiseksi.',
+    metaDescription: 'Luo piirustus- ja väritystyöarkkeja myyntiin Etsyssä ja KDP:ssä. Ruudukkopiirrustus, temaattiset kuvat, 104 kokoelmaa, lisenssi. $49 kertamaksu.',
   },
 
   hero: {

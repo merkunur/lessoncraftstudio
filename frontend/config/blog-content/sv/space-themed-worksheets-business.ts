@@ -14,7 +14,7 @@ const content: BlogContent = {
       'Etsy butik svenska',
     ],
     titleTag: 'Rymden-Tema Arbetsblad: Företagande | LCS',
-    metaDescription: 'Rymden-tema arbetsblad kombinerar fascination med utbildning. Planeter, raketer och astronauter som barn älskar.',
+    metaDescription: 'Rymden-tema arbetsblad kombinerar fascination med utbildning. Planeter, raketer och astronauter som barn älskar. Salj pa Etsy & KDP med kommersiell licens.',
   },
   hero: {
     title: 'Rymden-Tema Arbetsblad: Företagande',

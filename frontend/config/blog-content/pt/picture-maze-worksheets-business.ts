@@ -14,7 +14,7 @@ const content: BlogContent = {
       'puzzle caminho crianças',
     ],
     titleTag: 'Fichas Labirintos Imagens: Negócio | LCS',
-    metaDescription: 'Monte um negócio com fichas de labirintos com imagens. Nicho perene e versátil. Teste grátis com marca d\'água.',
+    metaDescription: 'Monte um negócio com fichas de labirintos com imagens. Nicho perene e versátil. Teste grátis com marca d\'água. Venda no Etsy & KDP com licenca comercial.',
   },
   hero: {
     title: 'Fichas de Labirintos com Imagens: Negócio Lucrativo',

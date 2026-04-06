@@ -17,8 +17,7 @@ const content: AppContent = {
       'svenska marknaden kryptogram Etsy',
     ],
     titleTag: 'Kryptogram att sälja på Etsy | LessonCraftStudio',
-    metaDescription:
-      'Skapa kryptogram med bildchiffer att sälja på Etsy och KDP. Justerbar svårighet, 11 språk, facit, kommersiell licens. Testa gratis med vattenmärke.',
+    metaDescription: 'Skapa kryptogram med bildchiffer att sälja på Etsy och KDP. Justerbar svårighet, 11 språk, facit, kommersiell licens. $49 engångsbetalning.',
   },
 
   hero: {

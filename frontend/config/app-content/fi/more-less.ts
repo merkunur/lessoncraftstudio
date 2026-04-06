@@ -15,8 +15,7 @@ const content: AppContent = {
       'kaupallinen kaytto vertailugeneraattori',
     ],
     titleTag: 'Enemman vai Vahemman Generaattori | Vertailutyoarkit',
-    metaDescription:
-      'Luo vertailutyoarkkeja myyntiin Etsyssa, KDP:ssa ja Gumroadissa. 3 vertailutilaa, 104 teemaa, vastausavain, 400+ DPI vienti. Ilmainen kokeilu.',
+    metaDescription: 'Luo vertailutyoarkkeja myyntiin Etsyssa, KDP:ssa ja Gumroadissa. 3 vertailutilaa, 104 teemaa, vastausavain, 400+ DPI vienti. Ilmainen kokeilu. $49 kertamaksu.',
   },
 
   hero: {

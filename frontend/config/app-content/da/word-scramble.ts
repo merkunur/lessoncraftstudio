@@ -15,8 +15,7 @@ const content: AppContent = {
       'bogstavrod generator kommercielt brug',
     ],
     titleTag: 'Bogstavrod Generator | Opret og Sælg Stavningspuslespil',
-    metaDescription:
-      'Opret bogstavrod-arbejdsark til salg på Etsy, KDP og Gumroad. Billedledetråde, blandede bogstavsfliser, vokal-konsonant-farvekodning, 11 sprog. Gratis prøveversion.',
+    metaDescription: 'Opret bogstavrod-arbejdsark til salg på Etsy, KDP og Gumroad. Billedledetråde, blandede bogstavsfliser, vokal-konsonant-farvekodning, 11 sprog. $49...',
   },
 
   hero: {

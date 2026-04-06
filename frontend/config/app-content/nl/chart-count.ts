@@ -15,7 +15,7 @@ const content: AppContent = {
       'commercieel gebruik plaatjesgrafiek generator',
     ],
     titleTag: 'Tel- en grafiekwerkbladen Etsy | LessonCraftStudio',
-    metaDescription: 'Maak tel- en grafiekwerkbladen voor uw Etsy-shop of KDP-werkboek. Automatisch antwoordblad, 104 thema\'s en 6 afbeeldingstypen per blad.',
+    metaDescription: 'Maak tel- en grafiekwerkbladen voor uw Etsy-shop of KDP-werkboek. Automatisch antwoordblad, 104 thema\'s en 6 afbeeldingstypen per blad. $49 eenmalig.',
   },
 
   hero: {

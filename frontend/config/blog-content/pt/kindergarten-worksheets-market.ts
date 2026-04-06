@@ -14,7 +14,7 @@ const content: BlogContent = {
       'mercado imprimíveis temáticos',
     ],
     titleTag: 'Mercado Fichas Pré-escola e 1° Ano | LCS',
-    metaDescription: 'A transição entre a pré-escola e o 1° ano do Ensino Fundamental é o momento em que pais mais compram imprimíveis educativos. A ansiedade sobre a prepa.',
+    metaDescription: 'A transição entre a pré-escola e o 1° ano do Ensino Fundamental é o momento em que pais mais compram imprimíveis. Venda no Etsy & KDP com licenca comercial.',
   },
   hero: {
     title: 'Mercado Fichas Pré-escola e 1° Ano',

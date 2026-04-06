@@ -15,7 +15,7 @@ const content: BundleContent = {
       'Jeg ser jeg ser selgerverktøy',
     ],
     titleTag: 'Søk & Finn-pakke — 4 Oppdagelsesgeneratorer for Selgere',
-    metaDescription: 'Få alle 4 søk og finn-generatorer i én pakke. Jeg ser jeg ser, finn og tell, bildekryssord og skattejakt. Kommersiell lisens for Etsy- og KDP-selgere.',
+    metaDescription: 'Få alle 4 søk og finn-generatorer i én pakke. Jeg ser jeg ser, finn og tell, bildekryssord og skattejakt. $149 engangsbetaling.',
   },
 
   hero: {

@@ -14,7 +14,7 @@ const content: BlogContent = {
       'Etsy butik svenska',
     ],
     titleTag: 'Småbarnsaktivitets-Utskrifter: Sälj | LCS',
-    metaDescription: 'Utskrifter för småbarn 1-3 år. Enkla aktiviteter som färgläggning, klistermärken och motorikövningar.',
+    metaDescription: 'Utskrifter för småbarn 1-3 år. Enkla aktiviteter som färgläggning, klistermärken och motorikövningar. Salj pa Etsy & KDP med kommersiell licens.',
   },
   hero: {
     title: 'Småbarnsaktivitets-Utskrifter: Sälj',

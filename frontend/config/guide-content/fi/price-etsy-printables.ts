@@ -6,7 +6,7 @@ const content: GuideContent = {
     secondaryKeywords: ['Etsy-tulostettavien hinnoittelustrategia', 'miten hinnoitella tulostettavat Etsyssä', 'Etsy-digitaalisten latausten hinnoittelu', 'Etsy-työarkkien hinnoitteluopas'],
     lsiKeywords: ['Etsy-maksut transaktiokulut listausmaksut nettotuotto', 'Etsy-hinnoittelupsykologia arvoankurointi pakettihinta', 'Etsy-kilpailuanalyysi hintapiste konversioaste', 'digitaalisten latausten hinnoittelumalli arvopohjainen hinnoittelu', 'Etsy-myyntistrategia hintatestaas tuottooptimointi', 'Etsy-kaupan hinnoittelukehys premium-hinnoittelu alennnusstrategia'],
     titleTag: 'Hinnoittele Etsy-tulostettavat — Strategiaopas',
-    metaDescription: 'Etsy-tulostettavien hinnoittelustrategiat. Etsy-maksurakenne, kilpailuanalyysi, hinnoittelupsykologia, pakettihinta ja systemaattinen hintatestaus voiton maksimoimiseksi.',
+    metaDescription: 'Etsy-tulostettavien hinnoittelustrategiat. Etsy-maksurakenne, kilpailuanalyysi, hinnoittelupsykologia, pakettihinta ja systemaattinen hintatestaus voiton.',
   },
 
   hero: {

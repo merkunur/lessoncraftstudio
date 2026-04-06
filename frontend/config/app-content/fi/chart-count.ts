@@ -16,8 +16,7 @@ const content: AppContent = {
       'myy kaavioharjoituksia verkossa',
     ],
     titleTag: 'Kuvakaaviolaskenta Työarkit — Myy Etsyssä | LCS',
-    metaDescription:
-      'Luo kuvagraafi- ja laskentatyöarkkeja myyntiin Etsyssä, KDP:ssä. Temaattiset kuvat, automaattiset vastauslehdet, kaupallinen lisenssi. Kokeile ilmaiseksi 3 minuutissa.',
+    metaDescription: 'Luo kuvagraafi- ja laskentatyöarkkeja myyntiin Etsyssä, KDP:ssä. Temaattiset kuvat, automaattiset vastauslehdet, kaupallinen lisenssi. $49 kertamaksu.',
   },
 
   hero: {

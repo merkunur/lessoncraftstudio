@@ -15,8 +15,7 @@ const content: AppContent = {
       'modes Ombre et Reconstitue l\'Image corrigé automatique',
     ],
     titleTag: 'Fiches d\'ombres à vendre sur Etsy & KDP | LCS',
-    metaDescription:
-      'Créez des fiches d\'ombres à associer pour Etsy & KDP. Modes Ombre et Reconstitue l\'Image, licence commerciale. Testez gratuitement avec filigrane.',
+    metaDescription: 'Créez des fiches d\'ombres à associer pour Etsy & KDP. Modes Ombre et Reconstitue l\'Image, licence commerciale. 49 $ paiement unique.',
   },
 
   hero: {

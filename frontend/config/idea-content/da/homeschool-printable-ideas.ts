@@ -3,7 +3,7 @@ import type { IdeaContent } from '../types';
 const content: IdeaContent = {
   seo: {
     titleTag: 'Hjemmeundervisning printbare idéer til salg — Nicheguide',
-    metaDescription: 'Opdag hjemmeundervisnings printbare idéer til salg på Etsy, Amazon KDP og Gumroad. Nichestrategier for sælgere rettet mod forældre der opbygger hjemmeundervisningspensa.',
+    metaDescription: 'Opdag hjemmeundervisnings printbare idéer til salg på Etsy, Amazon KDP og Gumroad.',
 
     primaryKeyword: 'hjemmeundervisning printbare idéer',
     secondaryKeywords: [

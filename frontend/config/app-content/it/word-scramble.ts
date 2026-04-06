@@ -22,8 +22,7 @@ const content: AppContent = {
       'ortografia',
     ],
     titleTag: 'Anagrammi stampabili da vendere su Etsy | LCS',
-    metaDescription:
-      'Crea schede di anagrammi con immagini da vendere su Etsy e KDP. 4 livelli, codice colori vocali, 11 lingue, licenza commerciale. Prova gratis con filigrana.',
+    metaDescription: 'Crea schede di anagrammi con immagini da vendere su Etsy e KDP. 4 livelli, codice colori vocali, 11 lingue, licenza commerciale. 49 $ pagamento unico.',
   },
 
   hero: {

@@ -14,7 +14,7 @@ const content: BlogContent = {
       'guia prático imprimíveis',
     ],
     titleTag: 'Gerador de Fichas vs Canva: Comparação | LCS',
-    metaDescription: 'O Canva é excelente para design gráfico geral, mas geradores especializados como o LessonCraftStudio superam o Canva em velocidade e precisão para fic.',
+    metaDescription: 'O Canva é excelente para design gráfico geral, mas geradores especializados como o LessonCraftStudio superam o Canva. Venda no Etsy & KDP com licenca comercial.',
   },
   hero: {
     title: 'Gerador de Fichas vs Canva: Comparação',

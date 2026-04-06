@@ -15,8 +15,7 @@ const content: AppContent = {
       'negocio fichas arte creativo mercado hispano',
     ],
     titleTag: 'Fichas de dibujo y colorear para Etsy | LCS',
-    metaDescription:
-      'Cree fichas de dibujo y colorear para vender en Etsy y KDP. Dibujo guiado con imágenes temáticas. Licencia comercial incluida. Pruebe gratis.',
+    metaDescription: 'Cree fichas de dibujo y colorear para vender en Etsy y KDP. Dibujo guiado con imágenes temáticas. Licencia comercial incluida. Pruebe gratis. 49 $ pago unico.',
   },
 
   hero: {

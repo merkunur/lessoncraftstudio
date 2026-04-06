@@ -14,8 +14,8 @@ const content: ToolContent = {
       'per-øvelse modusoverstyringsverktøy finn den ulike generator',
       'automatisk fasit rød sirkel underlig objekt arbeidsark generator',
     ],
-    titleTag: 'Finn den Ulike Generator — Arbeidsark Generator — Selgerguide',
-    metaDescription: 'Lag finn den ulike arbeidsark med Identisk og Lignende modus, per-øvelse overstyringer, automatiske fasit med røde sirkler. Gratis prøveversjon med vannmerke.',
+    titleTag: 'Finn den Ulike Generator — Arbeidsark Generator —...',
+    metaDescription: 'Lag finn den ulike arbeidsark med Identisk og Lignende modus, per-øvelse overstyringer, automatiske fasit med røde. Selg pa Etsy & KDP med kommersiell lisens.',
   },
 
   hero: {

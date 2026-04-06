@@ -2,8 +2,8 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Matemaattiset peruslaskut tulostettavat ideat myyntiin — Nicheopas',
-    metaDescription: 'Tutustu matemaattisten peruslaskujen tulostettaviin ideoihin myyntiin Etsyssä, Amazon KDP:ssä ja Gumroadilla. Tuotekonseptit, alustastrategiat ja vinkit myyjille.',
+    titleTag: 'Matemaattiset peruslaskut tulostettavat ideat myyntiin —...',
+    metaDescription: 'Tutustu matemaattisten peruslaskujen tulostettaviin ideoihin myyntiin Etsyssä, Amazon KDP:ssä ja Gumroadilla.',
 
     primaryKeyword: 'matemaattiset peruslaskut tulostettavat ideat',
     secondaryKeywords: [

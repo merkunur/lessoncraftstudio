@@ -6,7 +6,7 @@ const content: BlogContent = {
     secondaryKeywords: ['sorterings arbejdsark førskole sælg Etsy', 'sorterings arbejdsark førskole sælg online', 'sorterings arbejdsark førskole sælg forretning'],
     lsiKeywords: ['printbar forretning Danmark', 'digital download salg', 'Etsy printables sælg'],
     titleTag: 'Sorterings-Arbejdsark: Sælg Førskole-Materiale | LCS',
-    metaDescription: 'Sorterings-arbejdsark træner kategorisering og logisk tænkning — to kernekompetencer for førskolebørn. Formatet er visuelt tiltalende og har lav konkurrenc',
+    metaDescription: 'Sorterings-arbejdsark træner kategorisering og logisk tænkning — to kernekompetencer for førskolebørn. Saelg pa Etsy & KDP med kommerciel licens.',
   },
   hero: {
     title: 'Sorterings-Arbejdsark: Sælg Førskole-Materiale',

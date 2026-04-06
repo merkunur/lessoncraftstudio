@@ -14,7 +14,7 @@ const content: BlogContent = {
       'kriittinen ajattelu tehtavat',
     ],
     titleTag: 'Etsi erilainen -tyoarkit: myyntiopas | LCS',
-    metaDescription: 'Myy etsi erilainen -tyoarkkeja. Poissulkemalla erottelu kehittaa loogista ajattelua. Universaali tehtavatyyppi kaikille ikaryhmille.',
+    metaDescription: 'Myy etsi erilainen -tyoarkkeja. Poissulkemalla erottelu kehittaa loogista ajattelua. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
   },
   hero: {
     title: 'Etsi erilainen -tyoarkit: loogisen ajattelun myyntituote',

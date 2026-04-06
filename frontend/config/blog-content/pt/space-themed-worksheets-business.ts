@@ -14,7 +14,7 @@ const content: BlogContent = {
       'mercado imprimíveis temáticos',
     ],
     titleTag: 'Fichas Tema Espaço: Negócio | LCS',
-    metaDescription: 'O tema espaço (planetas, foguetes, astronautas, estrelas) fascina crianças de todas as idades e é um dos temas mais populares para imprimíveis educati.',
+    metaDescription: 'O tema espaço (planetas, foguetes, astronautas, estrelas) fascina crianças de todas as idades e é um dos temas mais. Venda no Etsy & KDP com licenca comercial.',
   },
   hero: {
     title: 'Fichas Tema Espaço: Negócio',

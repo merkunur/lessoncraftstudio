@@ -15,7 +15,7 @@ const content: ToolContent = {
       'flerspråklig stavningsaktivitet generator',
     ],
     titleTag: 'Gjett Ordet Arbeidsark Generator | Selg Utskriftsbare',
-    metaDescription: 'Generer gjett ordet arbeidsark med 4 vanskelighetsgrader, doble inntastingsmoduser, ekskluder bokstaver, 11 språk og 104 temaer. Gratis prøveversjon med vannmerke.',
+    metaDescription: 'Generer gjett ordet arbeidsark med 4 vanskelighetsgrader, doble inntastingsmoduser, ekskluder bokstaver, 11 språk og. Selg pa Etsy & KDP med kommersiell lisens.',
   },
 
   hero: {

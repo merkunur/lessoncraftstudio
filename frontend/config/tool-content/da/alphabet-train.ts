@@ -15,7 +15,7 @@ const content: ToolContent = {
       'farverigt alfabettog printbart til børnehaven',
     ],
     titleTag: 'Alfabettog Generator — Bogstavsøvelse for Børn',
-    metaDescription: 'Opret alfabettog arbejdsark til bogstavgenkendelse. 11 farverige vogne, bogstav-billede matchning, 11 sprog, 104 temaer. Gratis prøveversion med vandmærke.',
+    metaDescription: 'Opret alfabettog arbejdsark til bogstavgenkendelse. 11 farverige vogne, bogstav-billede matchning, 11 sprog, 104. Saelg pa Etsy & KDP med kommerciel licens.',
   },
 
   hero: {

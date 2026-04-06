@@ -16,8 +16,7 @@ const content: AppContent = {
       'tulostettavat väritystuotteet',
     ],
     titleTag: 'Värityssivujen Generaattori — Myy Etsyssä ja KDP:ssä | LCS',
-    metaDescription:
-      'Luo värityssivuja myyntiin Etsyssä ja KDP:ssä. Temaattiset kuvat, ääriviivamuunnos, 104 kokoelmaa, kaupallinen lisenssi. Kokeile ilmaiseksi — ei suunnittelutaitoja tarvita.',
+    metaDescription: 'Luo värityssivuja myyntiin Etsyssä ja KDP:ssä. Temaattiset kuvat, ääriviivamuunnos, 104 kokoelmaa, kaupallinen lisenssi. $49 kertamaksu.',
   },
 
   hero: {

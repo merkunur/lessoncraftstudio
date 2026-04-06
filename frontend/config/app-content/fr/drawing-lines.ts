@@ -15,8 +15,7 @@ const content: AppContent = {
       'huit modèles SVG motricité fine pré-écriture',
     ],
     titleTag: 'Fiches de graphisme à vendre sur Etsy & KDP | LCS',
-    metaDescription:
-      'Créez des fiches de graphisme à vendre sur Etsy & KDP. 8 modèles de tracé, 104 thèmes, licence commerciale. Testez gratuitement avec filigrane.',
+    metaDescription: 'Créez des fiches de graphisme à vendre sur Etsy & KDP. 8 modèles de tracé, 104 thèmes, licence commerciale. 49 $ paiement unique.',
   },
 
   hero: {

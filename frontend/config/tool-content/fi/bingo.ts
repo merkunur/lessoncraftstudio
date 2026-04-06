@@ -14,8 +14,8 @@ const content: ToolContent = {
       'kuva- ja sanabingokortti-generaattori',
       'kutsujalista bingo-tehtavageneraattori',
     ],
-    titleTag: 'Bingokortti-generaattori — Kuvabingo verkossa — Tee ilmaiseksi',
-    metaDescription: 'Tee kuvabingokortteja tuotelinjan peleihin. Ruudukot 3x3-5x5, erittain ainutlaatuiset kortit, kutsujalistat, 104 teemaa. Ilmainen kokeilu vesileimalla.',
+    titleTag: 'Bingokortti-generaattori — Kuvabingo verkossa — Tee...',
+    metaDescription: 'Tee kuvabingokortteja tuotelinjan peleihin. Ruudukot 3x3-5x5, erittain ainutlaatuiset kortit, kutsujalistat,. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
   },
 
   hero: {

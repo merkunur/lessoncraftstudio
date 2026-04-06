@@ -3,7 +3,7 @@ import type { IdeaContent } from '../types';
 const content: IdeaContent = {
   seo: {
     titleTag: 'Safarieläinten tulostettavat ideat myyntiin — Nicheopas',
-    metaDescription: 'Tutustu safarieläinten tulostettaviin ideoihin myyntiin Etsyssä, Amazon KDP:ssä ja Gumroadilla. Villieläintuotekonseptit, nichestrategiat ja alustavinkit myyjille.',
+    metaDescription: 'Tutustu safarieläinten tulostettaviin ideoihin myyntiin Etsyssä, Amazon KDP:ssä ja Gumroadilla.',
 
     primaryKeyword: 'safarieläimet tulostettavat ideat',
     secondaryKeywords: [

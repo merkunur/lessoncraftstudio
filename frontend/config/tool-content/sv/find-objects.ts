@@ -15,7 +15,7 @@ const content: ToolContent = {
       'hitta och finn övning gratis',
     ],
     titleTag: 'Hitta och finn gratis online | LessonCraftStudio',
-    metaDescription: 'Skapa hitta och finn-blad gratis online. Sökning och Hitta Udda Bilden, noll-överlappning, facit, 104 teman. Gratis provversion med vattenmärke.',
+    metaDescription: 'Skapa hitta och finn-blad gratis online. Sökning och Hitta Udda Bilden, noll-överlappning, facit, 104 teman. Salj pa Etsy & KDP med kommersiell licens.',
   },
 
   hero: {

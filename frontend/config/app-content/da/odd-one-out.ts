@@ -15,8 +15,7 @@ const content: AppContent = {
       'printbar find den anderledes puslespil forretningsværktøj',
     ],
     titleTag: 'Find den Ulige Generator | Opret og Sælg Arbejdsark',
-    metaDescription:
-      'Opret find den ulige arbejdsark til salg på Etsy, KDP og Gumroad. To puslespilstilstande, automatisk facit med røde cirkler, 104 temaer. Gratis prøveversion.',
+    metaDescription: 'Opret find den ulige arbejdsark til salg på Etsy, KDP og Gumroad. To puslespilstilstande, automatisk facit med røde cirkler, 104 temaer. $49 engangsbetaling.',
   },
 
   hero: {

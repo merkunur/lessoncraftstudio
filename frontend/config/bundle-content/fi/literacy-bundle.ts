@@ -16,7 +16,7 @@ const content: BundleContent = {
       'massatuotanto kielityoarkkityokalu',
     ],
     titleTag: 'Lukemisen tyoarkkipaketti — 7 kieli- ja sanageneraattoria',
-    metaDescription: 'Hanki 7 lukemisen tyoarkkigeneraattoria yhdessa paketissa. Luo aakkos-, sanahaku-, kryptogrammi-, prepositio- ja kirjoitustyoarkkeja 11 kielella.',
+    metaDescription: 'Hanki 7 lukemisen tyoarkkigeneraattoria yhdessa paketissa. Luo aakkos-, sanahaku-, kryptogrammi-, prepositio- ja kirjoitustyoarkkeja 11 kielella. $49.',
   },
 
   hero: {

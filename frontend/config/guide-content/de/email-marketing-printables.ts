@@ -15,7 +15,7 @@ const content: GuideContent = {
       'E-Mail-Dienstleister Listenhygiene Absenderreputation A/B-Testing Personalisierung',
     ],
     titleTag: 'E-Mail-Marketing für Printable-Verkäufer | LCS',
-    metaDescription: 'E-Mail-Marketing für Druckvorlagen-Verkäufer: E-Mail-Liste aufbauen, Lead-Magnete erstellen, Sequenzen automatisieren und Wiederholungskäufe steigern.',
+    metaDescription: 'E-Mail-Marketing für Druckvorlagen-Verkäufer: E-Mail-Liste aufbauen, Lead-Magnete erstellen, Sequenzen. Verkaufen Sie auf Etsy & KDP mit gewerblicher Lizenz.',
   },
 
   hero: {

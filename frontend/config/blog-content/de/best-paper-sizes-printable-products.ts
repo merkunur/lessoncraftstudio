@@ -6,7 +6,7 @@ const content: BlogContent = {
     secondaryKeywords: ['A4 vs Letter Anleitung', 'Druckvorlagen A4 Guide', 'Arbeitsblatt Verkauf Tipps'],
     lsiKeywords: ['Druckvorlagen Geschaeft optimieren', 'Etsy Verkaeufer Tipps', 'Arbeitsblaetter professionell erstellen'],
     titleTag: 'A4 vs Letter: Beste Papiergroessen fuer Druckvorlagen | LCS',
-    metaDescription: 'Im DACH-Raum ist A4 Standard. Wann Sie A4, Letter oder beides anbieten sollten. Technischer Guide fuer Druckvorlagen-Verkaeufer.',
+    metaDescription: 'Im DACH-Raum ist A4 Standard. Wann Sie A4, Letter oder beides anbieten sollten. Verkaufen Sie auf Etsy & KDP mit gewerblicher Lizenz.',
   },
   hero: {
     title: 'A4 vs Letter: Beste Papiergroessen fuer Druckvorlagen',

@@ -18,7 +18,7 @@ const content: GuideContent = {
       'visuell identitet produkthierarki kompletterande produkter produktekosystem linjesammanhållning',
     ],
     titleTag: 'Bygga produktlinje printables | LessonCraftStudio',
-    metaDescription: 'Lär dig skapa en utskriftsbar produktlinje med konsekvent varumärke, strategisk produktsekvensering och systematisk expansion för att bygga en sammanhängande.',
+    metaDescription: 'Lär dig skapa en utskriftsbar produktlinje med konsekvent varumärke, strategisk produktsekvensering och systematisk. Salj pa Etsy & KDP med kommersiell licens.',
   },
 
   hero: {

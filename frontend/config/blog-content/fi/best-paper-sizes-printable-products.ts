@@ -14,7 +14,7 @@ const content: BlogContent = {
       'tyoarkit tuotanto',
     ],
     titleTag: 'Parhaat paperikoot tulosteille | LCS',
-    metaDescription: 'Mika paperikoko tulosteille? A4, Letter, Half Letter? Suomessa A4 on standardi mutta kansainvalisesti vaihtelee.',
+    metaDescription: 'Mika paperikoko tulosteille? A4, Letter, Half Letter? Suomessa A4 on standardi mutta kansainvalisesti. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
   },
   hero: {
     title: 'Parhaat paperikoot tulostettaville tuotteille',

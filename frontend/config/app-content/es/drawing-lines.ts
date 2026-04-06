@@ -15,8 +15,7 @@ const content: AppContent = {
       'negocio fichas preescritura mercado hispano',
     ],
     titleTag: 'Fichas de trazo para vender en Etsy y KDP | LCS',
-    metaDescription:
-      'Cree fichas de trazo y grafomotricidad para vender en Etsy y KDP. Imágenes temáticas, dificultad ajustable. Licencia comercial. Pruebe gratis.',
+    metaDescription: 'Cree fichas de trazo y grafomotricidad para vender en Etsy y KDP. Imágenes temáticas, dificultad ajustable. Licencia comercial. Pruebe gratis. 49 $ pago unico.',
   },
 
   hero: {

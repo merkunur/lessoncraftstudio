@@ -14,7 +14,7 @@ const content: BlogContent = {
       'printables seek count preschool business',
     ],
     titleTag: 'Buscar y Contar Imprimibles: Nicho Rentable | LCS',
-    metaDescription: 'Las fichas de buscar y contar combinan diversión con matemáticas tempranas. Nicho rentable con poca competencia. Prueba gratuita con marca de agua.',
+    metaDescription: 'Las fichas de buscar y contar combinan diversión con matemáticas tempranas. Nicho rentable con poca competencia. Venda en Etsy & KDP con licencia comercial.',
   },
   hero: {
     title: 'Buscar y Contar Imprimibles: Nicho Rentable',

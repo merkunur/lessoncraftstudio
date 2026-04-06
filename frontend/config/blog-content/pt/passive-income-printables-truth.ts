@@ -14,7 +14,7 @@ const content: BlogContent = {
       'empreendedor digital educativo',
     ],
     titleTag: 'Renda Passiva com Imprimíveis: Verdade | LCS',
-    metaDescription: 'Renda passiva com imprimíveis existe, mas não funciona como os gurus prometem. Não é "criar uma vez e ganhar para sempre" — exige manutenção, otimização...',
+    metaDescription: 'Renda passiva com imprimíveis existe, mas não funciona como os gurus prometem. Não é "criar uma vez e ganhar para sempre" — exige manutenção, otimização.',
   },
   hero: {
     title: 'Renda Passiva com Imprimíveis: Verdade',

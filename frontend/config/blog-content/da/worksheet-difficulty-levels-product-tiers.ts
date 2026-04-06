@@ -6,7 +6,7 @@ const content: BlogContent = {
     secondaryKeywords: ['arbejdsark sværhedsgrader produktniveauer Etsy', 'arbejdsark sværhedsgrader produktniveauer online', 'arbejdsark sværhedsgrader produktniveauer forretning'],
     lsiKeywords: ['printbar forretning Danmark', 'digital download salg', 'Etsy printables sælg'],
     titleTag: 'Sværhedsgrader som Produktniveauer | LCS',
-    metaDescription: 'Sværhedsgrader er en af de mest effektive produktdifferentieringsstrategier. Ved at tilbyde let, middel og svært for samme arbejdsarktype tredobler du dine',
+    metaDescription: 'Sværhedsgrader er en af de mest effektive produktdifferentieringsstrategier. Saelg pa Etsy & KDP med kommerciel licens.',
   },
   hero: {
     title: 'Sværhedsgrader som Produktniveauer',

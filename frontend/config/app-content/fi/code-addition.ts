@@ -15,8 +15,7 @@ const content: AppContent = {
       'matikkapulma tyokirja generaattori',
     ],
     titleTag: 'Koodiyhteenlasku Generaattori | Matikkapulmia Ratkottavaksi',
-    metaDescription:
-      'Luo koodiyhteenlasku tyoarkkeja Etsyyn, KDP:hen ja Gumroadiin. Paljasta Sana -tila, 104 teemaa, 11 kieltä, vastausavain, 400+ DPI. Ilmainen kokeilu vesileimalla.',
+    metaDescription: 'Luo koodiyhteenlasku tyoarkkeja Etsyyn, KDP:hen ja Gumroadiin. Paljasta Sana -tila, 104 teemaa, 11 kieltä, vastausavain, 400+ DPI. $49 kertamaksu.',
   },
 
   hero: {

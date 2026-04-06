@@ -15,7 +15,7 @@ const content: AppContent = {
       'Ausmalseiten Freihand-Werkzeug Graustufen-Export',
     ],
     titleTag: 'Ausmalbilder-Generator für Etsy und KDP | LCS',
-    metaDescription: 'Ausmalbilder-Generator für Etsy und KDP — erstellen Sie professionelle Malvorlagen mit 104 S/W-Themen und Freihand-Werkzeug. Kostenlos testen mit Wasserzeichen.',
+    metaDescription: 'Ausmalbilder-Generator für Etsy und KDP — erstellen Sie professionelle Malvorlagen mit 104 S/W-Themen und Freihand-Werkzeug. 49 $ einmalig.',
   },
 
   hero: {

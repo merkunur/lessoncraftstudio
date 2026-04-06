@@ -14,7 +14,7 @@ const content: BlogContent = {
       'empreendedor digital educativo',
     ],
     titleTag: 'Branding Loja Imprimíveis | LCS',
-    metaDescription: 'Uma marca forte transforma compradores únicos em clientes fiéis. No mercado de imprimíveis, branding inclui visual consistente, tom de voz, experiência ...',
+    metaDescription: 'Uma marca forte transforma compradores únicos em clientes fiéis. No mercado de imprimíveis, branding inclui visual consistente, tom de voz, experiência .',
   },
   hero: {
     title: 'Branding Loja Imprimíveis',

@@ -14,8 +14,8 @@ const content: ToolContent = {
       'automatisk fasit nummerert sirkeloverlegg generator',
       'konfigurerbar ledetrådscelle vanskelighetsgrad rutenettgenerator',
     ],
-    titleTag: 'Rutenettspuslespill Generator — Rutenett Arbeidsark Generator',
-    metaDescription: 'Lag rutenettkobling arbeidsark med konfigurerbar rutenettstørrelse, justerbare ledetrådsceller, Fisher-Yates-blanding og 104 tematiske bilder. Gratis prøveversjon.',
+    titleTag: 'Rutenettspuslespill Generator — Rutenett Arbeidsark...',
+    metaDescription: 'Lag rutenettkobling arbeidsark med konfigurerbar rutenettstørrelse, justerbare ledetrådsceller,. Selg pa Etsy & KDP med kommersiell lisens.',
   },
 
   hero: {

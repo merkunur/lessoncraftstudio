@@ -15,7 +15,7 @@ const content: ToolContent = {
       'flersproget billedkryptogram generator',
     ],
     titleTag: 'Kryptogram Arbejdsark Generator | Lav og Sælg Puslespil',
-    metaDescription: 'Generér kryptogram arbejdsark med billedchiffer kodning, sværhedsregler, autotildelingstilstand, facit på 11 sprog. Gratis prøveversion med vandmærke.',
+    metaDescription: 'Generér kryptogram arbejdsark med billedchiffer kodning, sværhedsregler, autotildelingstilstand, facit på 11 sprog. Saelg pa Etsy & KDP med kommerciel licens.',
   },
 
   hero: {

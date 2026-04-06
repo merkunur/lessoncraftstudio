@@ -15,8 +15,7 @@ const content: AppContent = {
       'commercieel gebruik handschrift oefengenerator',
     ],
     titleTag: 'Schrijfwerkbladen generator voor Etsy | LessonCraftStudio',
-    metaDescription:
-      'Maak schrijfwerkbladen met commerciële licentie voor Etsy en Amazon KDP. Drie oefenmodi, pijlgeleide pennenstreek. Gratis proefversie met watermerk.',
+    metaDescription: 'Maak schrijfwerkbladen met commerciële licentie voor Etsy en Amazon KDP. Drie oefenmodi, pijlgeleide pennenstreek. $49 eenmalig.',
   },
 
   hero: {

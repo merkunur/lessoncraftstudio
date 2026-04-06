@@ -14,7 +14,7 @@ const content: BlogContent = {
       'Etsy butik svenska',
     ],
     titleTag: 'Dinosaurie-Utskrifter: Evergreen Försäljning | LCS',
-    metaDescription: 'Dinosaurie-utskrifter säljer året runt. Lär dig skapa dinosaurie-arbetsblad och aktiviteter som barn älskar.',
+    metaDescription: 'Dinosaurie-utskrifter säljer året runt. Lär dig skapa dinosaurie-arbetsblad och aktiviteter som barn älskar. Salj pa Etsy & KDP med kommersiell licens.',
   },
   hero: {
     title: 'Dinosaurie-Utskrifter: Evergreen Försäljning',

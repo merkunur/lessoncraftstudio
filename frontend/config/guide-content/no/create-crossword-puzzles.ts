@@ -14,7 +14,7 @@ const content: GuideContent = {
       'puslespillsalg virksomhet',
       'salgbare kryssordprodukter',
     ],
-    titleTag: 'Hvordan lage kryssordpuslespill for salg | LCS',
+    titleTag: 'Lage kryssordpuslespill for salg | LCS',
     metaDescription: 'Guide til a lage kryssordpuslespill for salg pa Etsy og KDP. Bildeledetrader, temavalg og strategier for kryssordpuslespillselgere.',
   },
 

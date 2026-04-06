@@ -6,7 +6,7 @@ const content: BlogContent = {
     secondaryKeywords: ['printable werkbladen bundel maken', 'werkbladen werkbladen bundel', 'printables how-to gids'],
     lsiKeywords: ['printable productie tips', 'werkbladen maken strategie', 'printable business how-to'],
     titleTag: 'Een 50-Werkbladen Bundel Maken in 35 Minuten | LCS',
-    metaDescription: 'Een 50-Werkbladen Bundel Maken in 35 Minuten. Stap-voor-stap instructies en praktische tips voor printable verkopers. Direct toepasbaar.',
+    metaDescription: 'Een 50-Werkbladen Bundel Maken in 35 Minuten. Stap-voor-stap instructies en praktische tips voor printable. Verkoop op Etsy & KDP met commerciele licentie.',
   },
   hero: {
     title: 'Een 50-Werkbladen Bundel Maken in 35 Minuten',

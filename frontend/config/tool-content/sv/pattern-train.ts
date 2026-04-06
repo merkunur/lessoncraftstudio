@@ -15,7 +15,7 @@ const content: ToolContent = {
       'mönsterigenkänning gratis',
     ],
     titleTag: 'Mönsterblad gratis online | LessonCraftStudio',
-    metaDescription: 'Skapa mönsterblad gratis online. Fem mönstertyper, 11 tågvagnar, justerbar svårighet, facit, 104 teman. Gratis provversion med vattenmärke.',
+    metaDescription: 'Skapa mönsterblad gratis online. Fem mönstertyper, 11 tågvagnar, justerbar svårighet, facit, 104 teman. Salj pa Etsy & KDP med kommersiell licens.',
   },
 
   hero: {

@@ -14,7 +14,7 @@ const content: BlogContent = {
       'tulostettava myy',
     ],
     titleTag: 'Esikoulutulosteet: myydyimmat | LCS',
-    metaDescription: 'Esikouluikaisten tulosteet ovat myydyimpia tuotteita. Suomessa esikoulu on pakollinen 6-vuotiaille ja materiaali kysyntaa on suurta.',
+    metaDescription: 'Esikouluikaisten tulosteet ovat myydyimpia tuotteita. Suomessa esikoulu on pakollinen 6-vuotiaille ja. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
   },
   hero: {
     title: 'Esikoulutulosteet: myydyimmat tuotteet markkinoilla',

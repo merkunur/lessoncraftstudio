@@ -15,8 +15,7 @@ const content: AppContent = {
       'kommersielt bruk bildediagram generator med fasit',
     ],
     titleTag: 'Bildediagram Generator | Lag Diagramtelling Arbeidsark',
-    metaDescription:
-      'Lag bildediagram arbeidsark til salg på Etsy, KDP og Gumroad. Automatisk fasit med markeringer, 104 temaer, 6 bildetyper per ark. Gratis proveversjon.',
+    metaDescription: 'Lag bildediagram arbeidsark til salg på Etsy, KDP og Gumroad. Automatisk fasit med markeringer, 104 temaer, 6 bildetyper per ark. $49 engangsbetaling.',
   },
 
   hero: {

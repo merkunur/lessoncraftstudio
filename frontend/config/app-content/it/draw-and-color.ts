@@ -15,8 +15,7 @@ const content: AppContent = {
       'stampabili disegno e colorazione uso commerciale',
     ],
     titleTag: 'Schede Disegno e Colore per Etsy | Crea e Vendi',
-    metaDescription:
-      'Crea schede disegno su griglia da vendere su Etsy e KDP. Griglia doppia, modalità simmetria, 104 temi. Licenza commerciale inclusa. Prova gratis.',
+    metaDescription: 'Crea schede disegno su griglia da vendere su Etsy e KDP. Griglia doppia, modalità simmetria, 104 temi. Licenza commerciale inclusa. 49 $ pagamento unico.',
   },
 
   hero: {

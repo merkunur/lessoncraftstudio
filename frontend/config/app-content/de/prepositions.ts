@@ -15,7 +15,7 @@ const content: AppContent = {
       'DaF DaZ Unterrichtsmaterial Druckvorlagen erstellen',
     ],
     titleTag: 'Präpositionen-Arbeitsblätter für DaF/DaZ | LCS',
-    metaDescription: 'Präpositionen-Arbeitsblätter für DaF/DaZ auf Eduki verkaufen. 8 Ortspräpositionen, Lückentext und Multiple Choice. Kostenlos testen mit Wasserzeichen.',
+    metaDescription: 'Präpositionen-Arbeitsblätter für DaF/DaZ auf Eduki verkaufen. 8 Ortspräpositionen, Lückentext und Multiple Choice. 49 $ einmalig.',
   },
 
   hero: {

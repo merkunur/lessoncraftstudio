@@ -15,7 +15,7 @@ const content: AppContent = {
       'Koordinatenraster zwei Richtungstypen 11 Sprachen',
     ],
     titleTag: 'Schatzsuche-Rätsel-Generator für Etsy und KDP | LCS',
-    metaDescription: 'Schatzsuche-Rätsel erstellen für Etsy und KDP — Koordinatenraster mit zwei Richtungstypen in 11 Sprachen. Kostenlos testen mit Wasserzeichen verfügbar.',
+    metaDescription: 'Schatzsuche-Rätsel erstellen für Etsy und KDP — Koordinatenraster mit zwei Richtungstypen in 11 Sprachen. 49 $ einmalig.',
   },
 
   hero: {

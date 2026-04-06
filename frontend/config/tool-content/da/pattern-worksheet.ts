@@ -15,7 +15,7 @@ const content: ToolContent = {
       'AB ABC ABCD mønstersekvens arbejdsark generator',
     ],
     titleTag: 'Mønstergenkendelse Arbejdsark Generator | Lav og Sælg',
-    metaDescription: 'Generér mønsterarbejdsark med ni typer, to spørgsmålstilstande, per-øvelse konfiguration, automatiske facit og 104 temabilleder. Gratis prøveversion med vandmærke.',
+    metaDescription: 'Generér mønsterarbejdsark med ni typer, to spørgsmålstilstande, per-øvelse konfiguration, automatiske facit og 104. Saelg pa Etsy & KDP med kommerciel licens.',
   },
 
   hero: {

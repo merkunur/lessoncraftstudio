@@ -6,7 +6,7 @@ const content: BlogContent = {
     secondaryKeywords: ['billed labyrint arbejdsark Etsy', 'billed labyrint arbejdsark online', 'billed labyrint arbejdsark forretning'],
     lsiKeywords: ['printbar forretning Danmark', 'digital download salg', 'Etsy printables sælg'],
     titleTag: 'Billed-Labyrint Arbejdsark: Forretningsguide | LCS',
-    metaDescription: 'Billed-labyrint arbejdsark er en moderne variant af klassiske labyrinter, hvor barnet følger stier mellem tematiske billeder. Formatet er visuelt tiltalend',
+    metaDescription: 'Billed-labyrint arbejdsark er en moderne variant af klassiske labyrinter, hvor barnet følger stier mellem tematiske. Saelg pa Etsy & KDP med kommerciel licens.',
   },
   hero: {
     title: 'Billed-Labyrint Arbejdsark: Forretningsguide',

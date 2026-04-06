@@ -15,8 +15,7 @@ const content: AppContent = {
       'subtraktions arbejdsark generator kommercielt brug',
     ],
     titleTag: 'Subtraktions Arbejdsark Generator | Opret og Sælg',
-    metaDescription:
-      'Opret subtraktionsarbejdsark til salg på Etsy, KDP og Gumroad. 4 tilstande med overstregning, 104 temaer, facit, gråtone, 400+ DPI. Gratis prøveversion.',
+    metaDescription: 'Opret subtraktionsarbejdsark til salg på Etsy, KDP og Gumroad. 4 tilstande med overstregning, 104 temaer, facit, gråtone, 400+ DPI. $49 engangsbetaling.',
   },
 
   hero: {

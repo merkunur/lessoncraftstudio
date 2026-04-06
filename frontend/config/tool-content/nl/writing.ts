@@ -15,7 +15,7 @@ const content: ToolContent = {
       'verbonden en blokschrift schrijfgenerator gratis',
     ],
     titleTag: 'Schrijfwerkbladen gratis online | LessonCraftStudio',
-    metaDescription: 'Maak schrijfwerkbladen met drie oefenmodi, vijf letterstijlen en pijlgeleide streekvolgorde. Probeer gratis met watermerk, geen registratie nodig.',
+    metaDescription: 'Maak schrijfwerkbladen met drie oefenmodi, vijf letterstijlen en pijlgeleide streekvolgorde. Verkoop op Etsy & KDP met commerciele licentie.',
   },
 
   hero: {

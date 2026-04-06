@@ -14,9 +14,8 @@ const content: AppContent = {
       'tulostettavat yhtalöpulmapelit business',
       'kaupallinen kaytto algebrallinen tyoarkki generaattori',
     ],
-    titleTag: 'Algebrapulmapeli Generaattori | Matematiikkatyoarkki Generaattori',
-    metaDescription:
-      'Luo algebrapulmapeli tyoarkkeja myyntiin Etsyssa, KDP:ssa ja Gumroadissa. Kuvat muuttujina, 4 vaikeustasoa, uniikit ratkaisut. Ilmainen kokeilu.',
+    titleTag: 'Algebrapulmapeli Generaattori | LCS',
+    metaDescription: 'Luo algebrapulmapeli tyoarkkeja myyntiin Etsyssa, KDP:ssa ja Gumroadissa. Kuvat muuttujina, 4 vaikeustasoa, uniikit ratkaisut. Ilmainen kokeilu. $49 kertamaksu.',
   },
 
   hero: {

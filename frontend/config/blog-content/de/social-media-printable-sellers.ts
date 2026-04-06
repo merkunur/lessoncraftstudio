@@ -14,7 +14,7 @@ const content: BlogContent = {
       'Online Marketing Arbeitsblaetter',
     ],
     titleTag: 'Social Media fuer Druckvorlagen-Verkaeufer 2026 | LCS',
-    metaDescription: 'Welche Social-Media-Plattformen sich fuer Druckvorlagen-Verkaeufer lohnen. Pinterest, Instagram, TikTok — Strategie und Zeitaufwand.',
+    metaDescription: 'Welche Social-Media-Plattformen sich fuer Druckvorlagen-Verkaeufer lohnen. Verkaufen Sie auf Etsy & KDP mit gewerblicher Lizenz.',
   },
   hero: {
     title: 'Social Media fuer Druckvorlagen-Verkaeufer 2026',

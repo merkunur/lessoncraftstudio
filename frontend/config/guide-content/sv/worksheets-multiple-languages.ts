@@ -18,7 +18,7 @@ const content: GuideContent = {
       'batchproduktion flerspråkig innehållsgenerering automatiserade översättningsverktyg ordförrådsdatabaser',
     ],
     titleTag: 'Arbetsblad flera språk att sälja | LessonCraftStudio',
-    metaDescription: 'Hur du skapar arbetsblad på flera språk med produktionsarbetsflöden, teckenhantering, typsnittsval, kvalitetssäkring och listningsanpassning. Testa nu.',
+    metaDescription: 'Hur du skapar arbetsblad på flera språk med produktionsarbetsflöden, teckenhantering, typsnittsval, kvalitetssäkring. Salj pa Etsy & KDP med kommersiell licens.',
   },
 
   hero: {

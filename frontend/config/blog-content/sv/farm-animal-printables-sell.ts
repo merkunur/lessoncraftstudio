@@ -14,7 +14,7 @@ const content: BlogContent = {
       'Etsy butik svenska',
     ],
     titleTag: 'Bondgårdsdjur-Utskrifter: Sälj Online | LCS',
-    metaDescription: 'Bondgårdsdjur-utskrifter säljer stabilt året runt. Ko, gris, höna och häst — teman som barn och föräldrar älskar.',
+    metaDescription: 'Bondgårdsdjur-utskrifter säljer stabilt året runt. Ko, gris, höna och häst — teman som barn och föräldrar älskar. Salj pa Etsy & KDP med kommersiell licens.',
   },
   hero: {
     title: 'Bondgårdsdjur-Utskrifter: Sälj Online',

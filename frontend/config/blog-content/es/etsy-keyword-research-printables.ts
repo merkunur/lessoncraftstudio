@@ -6,7 +6,7 @@ const content: BlogContent = {
     secondaryKeywords: ['investigacion palabras clave Etsy imprimibles paso a paso', 'investigacion palabras clave Etsy imprimibles tutorial', 'investigacion palabras clave Etsy imprimibles guia practica'],
     lsiKeywords: ['investigacion palabras clave tips', 'como investigacion palabras', 'Etsy imprimibles facil'],
     titleTag: 'Investigacion de Palabras Clave Etsy | LCS',
-    metaDescription: 'La investigacion de palabras clave es el primer paso antes de crear cualquier producto. Sin saber que buscan los compradores, esta adivinando. Y adivinar e',
+    metaDescription: 'La investigacion de palabras clave es el primer paso antes de crear cualquier producto. Venda en Etsy & KDP con licencia comercial.',
   },
   hero: {
     title: 'Investigacion de Palabras Clave en Etsy para Imprimibles',

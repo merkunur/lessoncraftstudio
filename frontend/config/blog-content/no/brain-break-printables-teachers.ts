@@ -5,7 +5,7 @@ const content: BlogContent = {
     secondaryKeywords: ['hjernepause printables lærere Etsy', 'hjernepause printables lærere strategi', 'hjernepause printables lærere tips'],
     lsiKeywords: ['sesongbaserte utskrifter', 'utskrivbare arbeidsark nisje', 'printable selger Norge'],
     titleTag: 'Hjernepause-utskrifter for lærere | LCS',
-    metaDescription: 'Hjernepause (brain breaks) er korte aktiviteter lærere bruker mellom undervisningsøkter. Utskrivbare puslespill, hurtig-ordsøk og matteknekker-oppgave',
+    metaDescription: 'Hjernepause (brain breaks) er korte aktiviteter lærere bruker mellom undervisningsøkter. Selg pa Etsy & KDP med kommersiell lisens.',
   },
   hero: {
     title: 'Hjernepause-utskrifter for lærere',

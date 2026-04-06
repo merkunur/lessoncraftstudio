@@ -15,7 +15,7 @@ const content: ToolContent = {
       'kokeile ennen ostoa kielityökalut',
     ],
     titleTag: 'Ilmainen Prepositiotehtävägeneraattori | LCS',
-    metaDescription: 'Tee prepositiotehtäviä ilmaiseksi verkossa vesileimalla — ei rekisteröitymistä. Visuaalisia kielioppiaktiviteetteja, 11 kieltä, autom. vastausavaimet. Päivitä myyntiä varten.',
+    metaDescription: 'Tee prepositiotehtäviä ilmaiseksi verkossa vesileimalla — ei rekisteröitymistä. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
   },
 
   hero: {

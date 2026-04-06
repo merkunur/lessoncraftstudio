@@ -18,7 +18,7 @@ const content: GuideContent = {
       'Gumroad analytics seizoensplanning datagestuurde catalogusschaling strategie',
     ],
     titleTag: 'Lesmateriaal-winkel optimaliseren | LessonCraftStudio',
-    metaDescription: 'Optimaliseer uw lesmateriaal-winkel voor hogere zoekrankings en meer verkoop. Voorbeeldconversie, productbundeling, reviewopbouw en catalogusschaling.',
+    metaDescription: 'Optimaliseer uw lesmateriaal-winkel voor hogere zoekrankings en meer verkoop. Verkoop op Etsy & KDP met commerciele licentie.',
   },
 
   hero: {

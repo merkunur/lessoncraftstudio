@@ -14,7 +14,7 @@ const content: BlogContent = {
       'verkkokauppa tulosteet',
     ],
     titleTag: 'Skaalaa tulosteliiketoiminta automaatiolla | LCS',
-    metaDescription: 'Skaalaa tulosteliiketoimintasi automaatiolla. Generaattorit, mallitehtavat ja jarjestelmat jotka saastava aikaa.',
+    metaDescription: 'Skaalaa tulosteliiketoimintasi automaatiolla. Generaattorit, mallitehtavat ja jarjestelmat jotka saastava. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
   },
   hero: {
     title: 'Tulosteliiketoiminnan skaalaus automaatiolla',

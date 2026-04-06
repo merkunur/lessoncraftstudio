@@ -14,8 +14,8 @@ const content: ToolContent = {
       'per-øvelse tilstandstilsidesættelse find den ulige generator',
       'automatisk facit rød cirkel underligt objekt arbejdsark generator',
     ],
-    titleTag: 'Find den Ulige Generator — Arbejdsark Generator — Sælgerguide',
-    metaDescription: 'Lav find den ulige arbejdsark med Identisk og Lignende tilstand, per-øvelse tilsidesættelser, automatiske facit med røde cirkler. Gratis prøveversion med vandmærke.',
+    titleTag: 'Find den Ulige Generator — Arbejdsark Generator —...',
+    metaDescription: 'Lav find den ulige arbejdsark med Identisk og Lignende tilstand, per-øvelse tilsidesættelser, automatiske facit med. Saelg pa Etsy & KDP med kommerciel licens.',
   },
 
   hero: {

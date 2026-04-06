@@ -15,8 +15,7 @@ const content: AppContent = {
       'double quadrillage modes symétrie indices réglables',
     ],
     titleTag: 'Fiches dessin et coloriage pour Etsy & KDP | LCS',
-    metaDescription:
-      'Créez des fiches dessin et coloriage à vendre sur Etsy & KDP. Double quadrillage, modes symétrie, licence commerciale. Testez gratuitement avec filigrane.',
+    metaDescription: 'Créez des fiches dessin et coloriage à vendre sur Etsy & KDP. Double quadrillage, modes symétrie, licence commerciale. 49 $ paiement unique.',
   },
 
   hero: {

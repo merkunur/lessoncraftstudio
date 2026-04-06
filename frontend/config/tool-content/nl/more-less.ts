@@ -15,7 +15,7 @@ const content: ToolContent = {
       'vinkje en kruisje rekenactiviteit gratis',
     ],
     titleTag: 'Meer en minder werkbladen gratis | LessonCraftStudio',
-    metaDescription: 'Maak gratis meer en minder werkbladen online met afbeeldingen. Drie oefenmodi inclusief unieke Vinkje & Kruisje modus. Geen account nodig.',
+    metaDescription: 'Maak gratis meer en minder werkbladen online met afbeeldingen. Verkoop op Etsy & KDP met commerciele licentie.',
   },
 
   hero: {

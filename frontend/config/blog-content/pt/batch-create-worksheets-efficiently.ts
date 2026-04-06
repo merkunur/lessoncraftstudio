@@ -14,7 +14,7 @@ const content: BlogContent = {
       'guia prático imprimíveis',
     ],
     titleTag: 'Crie Fichas em Lote Eficientemente | LCS',
-    metaDescription: 'Criar fichas uma a uma é ineficiente. Batch processing — criar séries de fichas relacionadas em uma sessão — multiplica sua produtividade em 3-5x. Est.',
+    metaDescription: 'Criar fichas uma a uma é ineficiente. Batch processing — criar séries de fichas relacionadas em uma sessão —. Venda no Etsy & KDP com licenca comercial.',
   },
   hero: {
     title: 'Crie Fichas em Lote Eficientemente',

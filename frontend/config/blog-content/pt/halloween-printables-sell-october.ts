@@ -14,7 +14,7 @@ const content: BlogContent = {
       'mercado imprimíveis temáticos',
     ],
     titleTag: 'Imprimíveis de Halloween: Venda em Outubro | LCS',
-    metaDescription: 'Halloween está crescendo rapidamente no Brasil, especialmente entre famílias com crianças em escolas bilíngues e comunidades expostas à cultura americ.',
+    metaDescription: 'Halloween está crescendo rapidamente no Brasil, especialmente entre famílias com crianças em escolas bilíngues e. Venda no Etsy & KDP com licenca comercial.',
   },
   hero: {
     title: 'Imprimíveis de Halloween: Venda em Outubro',

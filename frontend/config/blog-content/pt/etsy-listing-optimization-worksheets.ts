@@ -14,7 +14,7 @@ const content: BlogContent = {
       'empreendedor digital educativo',
     ],
     titleTag: 'Otimização Anúncios Etsy Fichas | LCS',
-    metaDescription: 'Uma listagem otimizada no Etsy é a diferença entre 1% e 5% de taxa de conversão — isso significa 5x mais vendas com o mesmo tráfego. Para fichas educati...',
+    metaDescription: 'Uma listagem otimizada no Etsy é a diferença entre 1% e 5% de taxa de conversão — isso significa 5x mais vendas com o mesmo tráfego. Para fichas educati.',
   },
   hero: {
     title: 'Otimização Anúncios Etsy Fichas',

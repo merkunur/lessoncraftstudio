@@ -6,7 +6,7 @@ const content: BlogContent = {
     secondaryKeywords: ['printable werkblad generator vs', 'werkbladen werkblad generator', 'printables how-to gids'],
     lsiKeywords: ['printable productie tips', 'werkbladen maken strategie', 'printable business how-to'],
     titleTag: 'Werkblad Generator vs Canva: Vergelijking | LCS',
-    metaDescription: 'Werkblad Generator vs Canva: Vergelijking. Stap-voor-stap instructies en praktische tips voor printable verkopers. Direct toepasbaar.',
+    metaDescription: 'Werkblad Generator vs Canva: Vergelijking. Stap-voor-stap instructies en praktische tips voor printable. Verkoop op Etsy & KDP met commerciele licentie.',
   },
   hero: {
     title: 'Werkblad Generator vs Canva: Vergelijking',

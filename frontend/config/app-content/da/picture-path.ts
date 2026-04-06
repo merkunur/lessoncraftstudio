@@ -15,8 +15,7 @@ const content: AppContent = {
       'printbar puslespilsaktivitet forretningsværktøj',
     ],
     titleTag: 'Labyrint Arbejdsark Generator | Opret Vejpuslespil',
-    metaDescription:
-      'Opret labyrintarbejdsark til salg på Etsy, KDP og Gumroad. 3 spiltilstande, LPF-algoritme, automatisk facit, 104 temaer, trykklare PDF\'er. Gratis prøveversion.',
+    metaDescription: 'Opret labyrintarbejdsark til salg på Etsy, KDP og Gumroad. 3 spiltilstande, LPF-algoritme, automatisk facit, 104 temaer, trykklare PDF\'er. $49 engangsbetaling.',
   },
 
   hero: {

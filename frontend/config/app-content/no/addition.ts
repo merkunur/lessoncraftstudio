@@ -15,8 +15,7 @@ const content: AppContent = {
       'arbeidsark generator kommersielt bruk',
     ],
     titleTag: 'Addisjons Arbeidsark Generator | Lag og Selg på Nett',
-    metaDescription:
-      'Lag addisjons arbeidsark til salg på Etsy, KDP og Gumroad. 104 temaer, 4 øvelsesmoduser, fasit, eksport 400+ DPI. Gratis prøveversjon med vannmerke.',
+    metaDescription: 'Lag addisjons arbeidsark til salg på Etsy, KDP og Gumroad. 104 temaer, 4 øvelsesmoduser, fasit, eksport 400+ DPI. $49 engangsbetaling.',
   },
 
   hero: {

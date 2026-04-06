@@ -18,7 +18,7 @@ const content: GuideContent = {
       'liiketoimintajärjestelmät toistettavat prosessit tuotantoputki sisällön moninkertaistaminen',
     ],
     titleTag: 'Skaalaa tulostettavien liiketoiminta — Kasvustrategiaopas',
-    metaDescription: 'Näin skaalaat tulostettavien liiketoimintaasi erätuotannolla, monialustaisen laajentamisen, katalogikasvun, monikielisten markkinoiden ja automatisointistrategioiden avulla.',
+    metaDescription: 'Näin skaalaat tulostettavien liiketoimintaasi erätuotannolla, monialustaisen laajentamisen, katalogikasvun,. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
   },
 
   hero: {

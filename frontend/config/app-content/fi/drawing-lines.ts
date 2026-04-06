@@ -16,8 +16,7 @@ const content: AppContent = {
       'esikirjoitustaitojen tuotteet',
     ],
     titleTag: 'Viivanjäljennys Työarkin Generaattori Etsyyn | LCS',
-    metaDescription:
-      'Luo viivanjäljennystyöarkkeja myyntiin Etsyssä ja KDP:ssä. 8 SVG-mallia, temaattiset kuvaparit, hienomotoriset harjoitukset, lisenssi. Kokeile ilmaiseksi.',
+    metaDescription: 'Luo viivanjäljennystyöarkkeja myyntiin Etsyssä ja KDP:ssä. 8 SVG-mallia, temaattiset kuvaparit, hienomotoriset harjoitukset, lisenssi. $49 kertamaksu.',
   },
 
   hero: {

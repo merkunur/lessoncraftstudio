@@ -16,7 +16,7 @@ const content: AppContent = {
       'Lösungsschlüssel Themenbilder Puzzle kommerzielle Nutzung',
     ],
     titleTag: 'Mathe-Rätsel-Generator zum Verkaufen | LCS',
-    metaDescription: 'Mathe-Rätsel mit Bilderpuzzle erstellen und auf Etsy & KDP verkaufen. Addition, Subtraktion, gewerbliche Lizenz inklusive. Kostenlos testen mit Wasserzeichen.',
+    metaDescription: 'Mathe-Rätsel mit Bilderpuzzle erstellen und auf Etsy & KDP verkaufen. Addition, Subtraktion, gewerbliche Lizenz inklusive. 49 $ einmalig.',
   },
 
   hero: {

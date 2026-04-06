@@ -14,7 +14,7 @@ const content: BlogContent = {
       'empreendedor digital educativo',
     ],
     titleTag: 'Redes Sociais para Vendedores | LCS',
-    metaDescription: 'Pinterest, Instagram, TikTok e Facebook — cada rede social tem estratégia diferente para vendedores de imprimíveis. Pinterest gera tráfego passivo; Inst...',
+    metaDescription: 'Pinterest, Instagram, TikTok e Facebook — cada rede social tem estratégia diferente para vendedores de imprimíveis. Pinterest gera tráfego passivo; Inst.',
   },
   hero: {
     title: 'Redes Sociais para Vendedores',

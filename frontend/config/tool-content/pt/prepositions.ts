@@ -24,8 +24,7 @@ const content: ToolContent = {
       'licença comercial',
     ],
     titleTag: 'Atividades de preposições grátis online | LCS',
-    metaDescription:
-      'Crie atividades de preposições grátis com imagens. 11 idiomas, PLE, gabarito automático, PDF imprimível. Teste online sem cadastro — marca d\'água removível.',
+    metaDescription: 'Crie atividades de preposições grátis com imagens. 11 idiomas, PLE, gabarito automático, PDF imprimível. Venda no Etsy & KDP com licenca comercial.',
   },
 
   hero: {

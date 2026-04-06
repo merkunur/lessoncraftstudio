@@ -28,8 +28,7 @@ const content: AppContent = {
       'Amazon KDP',
     ],
     titleTag: 'Sudoku com imagens para vender no KDP | LCS',
-    metaDescription:
-      'Crie sudoku com imagens para vender na Hotmart, Etsy e KDP. Grades visuais para crianças, gabarito automático. Teste grátis com marca d\'água.',
+    metaDescription: 'Crie sudoku com imagens para vender na Hotmart, Etsy e KDP. Grades visuais para crianças, gabarito automático. 49 $ pagamento unico.',
   },
 
   hero: {

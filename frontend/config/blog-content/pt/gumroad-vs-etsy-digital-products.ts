@@ -14,7 +14,7 @@ const content: BlogContent = {
       'empreendedor digital educativo',
     ],
     titleTag: 'Gumroad vs Etsy: Produtos Digitais | LCS',
-    metaDescription: 'Gumroad oferece taxas menores e controle total da marca, mas sem tráfego orgânico. Etsy oferece milhões de compradores ativos, mas cobra comissões maior...',
+    metaDescription: 'Gumroad oferece taxas menores e controle total da marca, mas sem tráfego orgânico. Etsy oferece milhões de compradores ativos, mas cobra comissões maior.',
   },
   hero: {
     title: 'Gumroad vs Etsy: Produtos Digitais',

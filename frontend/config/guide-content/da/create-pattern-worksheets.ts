@@ -18,7 +18,7 @@ const content: GuideContent = {
       'kommerciel licens arbejdsarkværktøj',
     ],
     titleTag: 'Skab mønsterarbejdsark — Trin-for-trin-guide',
-    metaDescription: 'Skab mønsterarbejdsark med 9 typer, tematiske billeder, automatisk facit og 2 spørgsmålsformater. Eksportér trykklare PDF til salg på Etsy, Amazon KDP og Gumroad.',
+    metaDescription: 'Skab mønsterarbejdsark med 9 typer, tematiske billeder, automatisk facit og 2 spørgsmålsformater. Saelg pa Etsy & KDP med kommerciel licens.',
   },
 
   hero: {

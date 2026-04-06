@@ -15,7 +15,7 @@ const content: GuideContent = {
       'tuotevalidointi tulostettaville työarkeille',
     ],
     titleTag: 'Tutki kannattavia tulostettavien nichejä — Opas',
-    metaDescription: 'Tutki kannattavia tulostettavien nichejä. Markkinarakotutkimusmenetelmät, kilpailija-analyysi, kysynnän validointi ja tuottavimmat kategoriat Etsyn ja KDP:n myyjille.',
+    metaDescription: 'Tutki kannattavia tulostettavien nichejä. Markkinarakotutkimusmenetelmät, kilpailija-analyysi, kysynnän validointi ja tuottavimmat kategoriat Etsyn ja KDP:n.',
   },
 
   hero: {

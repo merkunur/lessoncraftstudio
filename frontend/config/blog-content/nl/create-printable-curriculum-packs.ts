@@ -6,7 +6,7 @@ const content: BlogContent = {
     secondaryKeywords: ['printable printable curriculum pakketten', 'werkbladen printable curriculum', 'printables how-to gids'],
     lsiKeywords: ['printable productie tips', 'werkbladen maken strategie', 'printable business how-to'],
     titleTag: 'Printable Curriculum Pakketten Maken | LCS',
-    metaDescription: 'Printable Curriculum Pakketten Maken. Stap-voor-stap instructies en praktische tips voor printable verkopers. Direct toepasbaar.',
+    metaDescription: 'Printable Curriculum Pakketten Maken. Stap-voor-stap instructies en praktische tips voor printable verkopers. Verkoop op Etsy & KDP met commerciele licentie.',
   },
   hero: {
     title: 'Printable Curriculum Pakketten Maken',

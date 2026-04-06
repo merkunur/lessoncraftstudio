@@ -15,8 +15,7 @@ const content: AppContent = {
       'ordsoek generator kommersielt bruk',
     ],
     titleTag: 'Ordsoek Generator | Lag og Selg Ordpuslespill',
-    metaDescription:
-      'Lag ordsoek-arbeidsark til salg på Etsy, KDP og Gumroad. Justerbart rutenett 5–30, retningskontroller, språkbevisste fyllbokstaver. Gratis prøveversjon.',
+    metaDescription: 'Lag ordsoek-arbeidsark til salg på Etsy, KDP og Gumroad. Justerbart rutenett 5–30, retningskontroller, språkbevisste fyllbokstaver. $49 engangsbetaling.',
   },
 
   hero: {

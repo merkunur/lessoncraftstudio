@@ -15,8 +15,7 @@ const content: AppContent = {
       'utskriftsbar bildebingo forretningsverktoy',
     ],
     titleTag: 'Bingokort Generator | Lag og Selg Bingo Utskriftsbare',
-    metaDescription:
-      'Lag bildebingokort til salg på Etsy, KDP og Gumroad. Batch-generer unike kort, ZIP-eksport, oppropsliste, 104 temaer. Gratis proveversjon med vannmerke.',
+    metaDescription: 'Lag bildebingokort til salg på Etsy, KDP og Gumroad. Batch-generer unike kort, ZIP-eksport, oppropsliste, 104 temaer. $49 engangsbetaling.',
   },
 
   hero: {

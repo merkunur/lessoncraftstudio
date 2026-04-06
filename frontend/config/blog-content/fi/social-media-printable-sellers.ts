@@ -14,7 +14,7 @@ const content: BlogContent = {
       'verkkokauppa tulosteet',
     ],
     titleTag: 'Sosiaalinen media tulostemyyjille | LCS',
-    metaDescription: 'Kayta sosiaalista mediaa tulostemyynnin kasvattamiseen. Pinterest, Instagram ja Facebook strategiat myyjille.',
+    metaDescription: 'Kayta sosiaalista mediaa tulostemyynnin kasvattamiseen. Pinterest, Instagram ja Facebook strategiat myyjille. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
   },
   hero: {
     title: 'Sosiaalinen media tulostemyyjille: taydellinen strategia',

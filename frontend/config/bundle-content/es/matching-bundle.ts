@@ -15,7 +15,7 @@ const content: BundleContent = {
       'licencia comercial fichas lógica múltiples plataformas',
     ],
     titleTag: 'Paquete asociación y clasificación | LCS',
-    metaDescription: 'Paquete de 5 generadores de fichas de asociación y clasificación para Etsy y KDP. Emparejar, sombras, tamaños y ordenar. Licencia comercial incluida.',
+    metaDescription: 'Paquete de 5 generadores de fichas de asociación y clasificación para Etsy y KDP. Emparejar, sombras, tamaños y ordenar. 149 $ pago unico.',
   },
 
   hero: {

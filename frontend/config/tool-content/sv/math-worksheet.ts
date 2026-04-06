@@ -15,7 +15,7 @@ const content: ToolContent = {
       'visuella ekvationer arbetsblad gratis',
     ],
     titleTag: 'Matteblad gratis online | LessonCraftStudio',
-    metaDescription: 'Skapa matteblad gratis online med algebrapussel. Bilder som variabler, 4 svårighetsnivåer, unika lösningar, facit. Gratis provversion med vattenmärke.',
+    metaDescription: 'Skapa matteblad gratis online med algebrapussel. Bilder som variabler, 4 svårighetsnivåer, unika lösningar, facit. Salj pa Etsy & KDP med kommersiell licens.',
   },
 
   hero: {

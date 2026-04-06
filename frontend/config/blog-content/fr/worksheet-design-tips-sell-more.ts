@@ -14,7 +14,7 @@ const content: BlogContent = {
       'astuces conseils design',
     ],
     titleTag: 'Conseils design pour vendre plus de fiches | LCS',
-    metaDescription: 'Améliorez le design de vos fiches pour augmenter vos ventes. Astuces de mise en page et d\'attrait visuel.',
+    metaDescription: 'Améliorez le design de vos fiches pour augmenter vos ventes. Astuces de mise en page et d\'attrait visuel. Vendez sur Etsy & KDP avec licence commerciale.',
   },
   hero: {
     title: 'Conseils design pour vendre plus de fiches',

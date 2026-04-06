@@ -14,7 +14,7 @@ const content: BlogContent = {
       'Etsy butik svenska',
     ],
     titleTag: 'Utskrifter för Nya Föräldrar: Marknad | LCS',
-    metaDescription: 'Nya föräldrar är den mest köpvilliga målgruppen för pedagogiska utskrifter. Så når du dem effektivt.',
+    metaDescription: 'Nya föräldrar är den mest köpvilliga målgruppen för pedagogiska utskrifter. Så når du dem effektivt. Salj pa Etsy & KDP med kommersiell licens.',
   },
   hero: {
     title: 'Utskrifter för Nya Föräldrar: Marknad',

@@ -6,7 +6,7 @@ const content: BlogContent = {
     secondaryKeywords: ['come creare stampabili vendere', 'guida pratica stampabili business', 'tutorial stampabili educativi'],
     lsiKeywords: ['creazione stampabili professionali', 'workflow produzione schede', 'ottimizzazione vendita stampabili'],
     titleTag: 'Livelli Difficoltà Schede: Tier Prodotto | LCS',
-    metaDescription: 'Crei tier di prodotto con livelli di difficoltà graduati. Strategia per moltiplicare il catalogo intelligentemente.',
+    metaDescription: 'Crei tier di prodotto con livelli di difficoltà graduati. Strategia per moltiplicare il catalogo intelligentemente. Vendi su Etsy & KDP con licenza commerciale.',
   },
   hero: {
     title: 'Livelli di Difficoltà nelle Schede: Creare Tier di Prodotto',

@@ -15,8 +15,7 @@ const content: AppContent = {
       'commercieel gebruik cryptogram generator',
     ],
     titleTag: 'Cryptogram generator voor Etsy | LessonCraftStudio',
-    metaDescription:
-      'Maak cryptogram-puzzels om te verkopen op Etsy en KDP. Geheimcode letterpuzzels met afbeeldingen. Commerciële licentie. Gratis proefversie met watermerk.',
+    metaDescription: 'Maak cryptogram-puzzels om te verkopen op Etsy en KDP. Geheimcode letterpuzzels met afbeeldingen. Commerciële licentie. $49 eenmalig.',
   },
 
   hero: {

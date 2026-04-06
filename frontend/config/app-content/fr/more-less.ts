@@ -15,8 +15,7 @@ const content: AppContent = {
       '3 modes de comparaison corrigé automatique 104 thèmes',
     ],
     titleTag: 'Fiches plus grand plus petit pour Etsy | LCS',
-    metaDescription:
-      'Créez des fiches plus grand plus petit à vendre sur Etsy & KDP. 3 modes de comparaison, licence commerciale. Testez gratuitement avec filigrane.',
+    metaDescription: 'Créez des fiches plus grand plus petit à vendre sur Etsy & KDP. 3 modes de comparaison, licence commerciale. 49 $ paiement unique.',
   },
 
   hero: {

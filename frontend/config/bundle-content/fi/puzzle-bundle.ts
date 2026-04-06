@@ -16,7 +16,7 @@ const content: BundleContent = {
       'massatuotanto pulmatyoarkkityokalu',
     ],
     titleTag: 'Logiikkapulmapaketti — 4 generaattoria KDP-pulmakirjoihin',
-    metaDescription: 'Logiikkapulmapaketti 4 generaattorilla: puuttuvat palat, etsi erilainen, kuvasudoku ja kuvapolku. Myy Etsyssa, KDP:ssa ja Gumroadissa. Kaupallinen lisenssi.',
+    metaDescription: 'Logiikkapulmapaketti 4 generaattorilla: puuttuvat palat, etsi erilainen, kuvasudoku ja kuvapolku. Myy Etsyssa, KDP:ssa ja Gumroadissa. $149 kertamaksu.',
   },
 
   hero: {

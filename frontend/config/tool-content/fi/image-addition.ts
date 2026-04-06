@@ -15,7 +15,7 @@ const content: ToolContent = {
       'kokeile ennen ostoa tulostustyökalut',
     ],
     titleTag: 'Ilmainen Yhteenlaskutehtävien Tekijä Verkossa | LCS',
-    metaDescription: 'Tee yhteenlaskutehtäviä ilmaiseksi verkossa vesileimalla — ei rekisteröitymistä. 104 teemaa, 4 harjoitustilaa, vastausavaimet. Päivitä kaupalliseen lisenssiin myyntiä varten.',
+    metaDescription: 'Tee yhteenlaskutehtäviä ilmaiseksi verkossa vesileimalla — ei rekisteröitymistä. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
   },
 
   hero: {

@@ -20,8 +20,7 @@ const content: AppContent = {
       'chiave di risposta automatica',
     ],
     titleTag: 'Labirinti illustrati da vendere su Etsy | LCS',
-    metaDescription:
-      'Crea labirinti illustrati da vendere su Etsy e KDP. 3 modalità di gioco, risposte automatiche, licenza commerciale inclusa. Prova gratis con filigrana.',
+    metaDescription: 'Crea labirinti illustrati da vendere su Etsy e KDP. 3 modalità di gioco, risposte automatiche, licenza commerciale inclusa. 49 $ pagamento unico.',
   },
 
   hero: {

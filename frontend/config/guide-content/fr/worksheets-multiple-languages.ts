@@ -18,7 +18,7 @@ const content: GuideContent = {
       'production par lots génération contenu multi-langues outils traduction automatisée bases vocabulaire',
     ],
     titleTag: 'Fiches en plusieurs langues à vendre | LCS',
-    metaDescription: 'Créez des fiches en plusieurs langues : flux de production, gestion des caractères, sélection polices, assurance qualité et adaptation des annonces.',
+    metaDescription: 'Créez des fiches en plusieurs langues : flux de production, gestion des caractères, sélection polices,. Vendez sur Etsy & KDP avec licence commerciale.',
   },
 
   hero: {

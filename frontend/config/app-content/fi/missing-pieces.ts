@@ -15,8 +15,7 @@ const content: AppContent = {
       'myy havaintotyölehtia verkossa',
     ],
     titleTag: 'Puuttuvat Palat -palapetigeneraattori KDP-kirjoihin | LCS',
-    metaDescription:
-      'Luo puuttuvat palat -palapeleja myytäväksi Etsyssä ja KDP:ssä. Visuaalinen havaintomuoto, automaattiset vastausavaimet, 104 teemaa, kaupallinen lisenssi. Ilmainen kokeilu vesileimalla.',
+    metaDescription: 'Luo puuttuvat palat -palapeleja myytäväksi Etsyssä ja KDP:ssä. Visuaalinen havaintomuoto, vastausavaimet, 104 teemaa, kaupallinen lisenssi. $49 kertamaksu.',
   },
 
   hero: {

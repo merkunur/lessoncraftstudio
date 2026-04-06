@@ -15,8 +15,7 @@ const content: AppContent = {
       'grilles configurables corrigé automatique revenu passif',
     ],
     titleTag: 'Puzzles maths à vendre sur Etsy & KDP | LCS',
-    metaDescription:
-      'Créez des puzzles de maths à vendre sur Etsy & KDP. Grilles configurables, images thématiques, licence commerciale. Testez gratuitement avec filigrane.',
+    metaDescription: 'Créez des puzzles de maths à vendre sur Etsy & KDP. Grilles configurables, images thématiques, licence commerciale. 49 $ paiement unique.',
   },
 
   hero: {

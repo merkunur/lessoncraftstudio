@@ -15,8 +15,7 @@ const content: AppContent = {
       '6 formes de pièces corrigé automatique 104 thèmes',
     ],
     titleTag: 'Pièces manquantes pour cahiers KDP & Etsy | LCS',
-    metaDescription:
-      'Créez des puzzles pièces manquantes à vendre sur Etsy & KDP. 6 formes, difficulté configurable, licence commerciale. Testez gratuitement avec filigrane.',
+    metaDescription: 'Créez des puzzles pièces manquantes à vendre sur Etsy & KDP. 6 formes, difficulté configurable, licence commerciale. 49 $ paiement unique.',
   },
 
   hero: {

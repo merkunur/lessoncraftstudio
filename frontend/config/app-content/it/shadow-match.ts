@@ -20,8 +20,7 @@ const content: AppContent = {
       'discriminazione visiva',
     ],
     titleTag: 'Schede abbina le ombre da vendere su Etsy | LCS',
-    metaDescription:
-      'Crea schede abbina le ombre professionali da vendere su Etsy e KDP. Silhouette automatiche, 104 temi, licenza commerciale. Prova gratis con filigrana.',
+    metaDescription: 'Crea schede abbina le ombre professionali da vendere su Etsy e KDP. Silhouette automatiche, 104 temi, licenza commerciale. 49 $ pagamento unico.',
   },
 
   hero: {

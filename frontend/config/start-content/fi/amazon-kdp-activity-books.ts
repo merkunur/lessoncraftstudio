@@ -18,7 +18,7 @@ const content: StartContent = {
       'print-on-demand aktiviteettikirjaliiketoiminta',
     ],
     titleTag: 'Myy aktiviteettikirjoja Amazon KDP:ssa — opas myyjille',
-    metaDescription: 'Opi myymaan aktiviteettikirjoja Amazon KDP:ssa. Sisasivujen muotoilu, kansien suunnittelu, avainsanastrategia, hinnoittelu ja KDP-kirjaliiketoiminnan skaalaus askel askeleelta.',
+    metaDescription: 'Opi myymaan aktiviteettikirjoja Amazon KDP:ssa. Sisasivujen muotoilu, kansien suunnittelu, avainsanastrategia, hinnoittelu ja KDP-kirjaliiketoiminnan.',
   },
 
   hero: {

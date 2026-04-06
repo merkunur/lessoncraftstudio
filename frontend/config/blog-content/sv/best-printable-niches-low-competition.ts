@@ -14,7 +14,7 @@ const content: BlogContent = {
       'Etsy butik svenska',
     ],
     titleTag: 'Bästa Utskriftsnischer med Låg Konkurrens | LCS',
-    metaDescription: 'Upptäck lönsamma utskriftsnischer med låg konkurrens 2026. SFI-material, svenska traditioner och mer.',
+    metaDescription: 'Upptäck lönsamma utskriftsnischer med låg konkurrens 2026. SFI-material, svenska traditioner och mer. Salj pa Etsy & KDP med kommersiell licens.',
   },
   hero: {
     title: 'Bästa Utskriftsnischer med Låg Konkurrens',

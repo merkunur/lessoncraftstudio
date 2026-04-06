@@ -3,7 +3,7 @@ import type { IdeaContent } from '../types';
 const content: IdeaContent = {
   seo: {
     titleTag: 'Tilauslaatikon tulostettavat ideat myyntiin — Opas',
-    metaDescription: 'Tutustu tilauslaatikon tulostettaviin ideoihin Etsy-, KDP- ja Gumroad-myyjille. Rakenna toistuvan tuoton tulostettava liiketoiminta kuukausittaisilla työarkkipaketeilla.',
+    metaDescription: 'Tutustu tilauslaatikon tulostettaviin ideoihin Etsy-, KDP- ja Gumroad-myyjille. Rakenna toistuvan tuoton tulostettava liiketoiminta kuukausittaisilla.',
 
     primaryKeyword: 'tilauslaatikko tulostettavat ideat',
     secondaryKeywords: [

@@ -18,7 +18,7 @@ const content: GuideContent = {
       'schaalbare supportsystemen sjabloonbibliotheken patroonherkenning feedbackloops',
     ],
     titleTag: 'Klantenservice digitale producten | LessonCraftStudio',
-    metaDescription: 'Klantenservice voor digitale producten: probleempreventie, antwoordsjablonen, retourafhandeling en reviewbeheer. Schaalbare strategieën voor verkopers.',
+    metaDescription: 'Klantenservice voor digitale producten: probleempreventie, antwoordsjablonen, retourafhandeling en reviewbeheer. Verkoop op Etsy & KDP met commerciele licentie.',
   },
 
   hero: {

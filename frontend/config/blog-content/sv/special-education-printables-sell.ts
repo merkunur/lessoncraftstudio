@@ -14,7 +14,7 @@ const content: BlogContent = {
       'Etsy butik svenska',
     ],
     titleTag: 'Specialpedagogik-Utskrifter: Sälj | LCS',
-    metaDescription: 'Utskrifter anpassade för specialpedagogik säljer för premiumpriser. Tydlig layout, stor text och förenklad design.',
+    metaDescription: 'Utskrifter anpassade för specialpedagogik säljer för premiumpriser. Tydlig layout, stor text och förenklad design. Salj pa Etsy & KDP med kommersiell licens.',
   },
   hero: {
     title: 'Specialpedagogik-Utskrifter: Sälj',

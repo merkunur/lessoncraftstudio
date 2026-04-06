@@ -15,7 +15,7 @@ const content: ToolContent = {
       'kokeile ennen ostoa lukutaitotyökalut',
     ],
     titleTag: 'Ilmainen Aakkostyöarkkigeneraattori Verkossa | LCS',
-    metaDescription: 'Tee aakkostehtäviä ilmaiseksi verkossa vesileimalla — ei rekisteröitymistä. Junavaunumuotoinen kirjainoppiminen, teemakuvat, 11 kieltä. Päivitä kaupalliseen lisenssiin.',
+    metaDescription: 'Tee aakkostehtäviä ilmaiseksi verkossa vesileimalla — ei rekisteröitymistä. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
   },
 
   hero: {

@@ -15,7 +15,7 @@ const content: ToolContent = {
       'sorteringsövning gratis',
     ],
     titleTag: 'Sorteringsblad gratis online | LessonCraftStudio',
-    metaDescription: 'Skapa sorteringsblad gratis online. Tvåkategorisortering, blandade utklippsrutnät, facit, 11 språk, 104 teman. Gratis provversion med vattenmärke.',
+    metaDescription: 'Skapa sorteringsblad gratis online. Tvåkategorisortering, blandade utklippsrutnät, facit, 11 språk, 104 teman. Salj pa Etsy & KDP med kommersiell licens.',
   },
 
   hero: {

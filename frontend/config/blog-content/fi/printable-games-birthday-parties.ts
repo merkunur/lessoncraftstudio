@@ -14,7 +14,7 @@ const content: BlogContent = {
       'tulostettava myy',
     ],
     titleTag: 'Tulostettavat pelit syntymapaivajahliin | LCS',
-    metaDescription: 'Myy tulostettavia peleja syntymapaivajahliin. Vanhemmat etsivat helppoja ja edullisia aktiviteetteja juhliin.',
+    metaDescription: 'Myy tulostettavia peleja syntymapaivajahliin. Vanhemmat etsivat helppoja ja edullisia aktiviteetteja juhliin. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
   },
   hero: {
     title: 'Tulostettavat pelit syntymapaivajahliin: helppo bisnes',

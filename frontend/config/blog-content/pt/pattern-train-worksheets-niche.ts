@@ -14,7 +14,7 @@ const content: BlogContent = {
       'transporte atividade padrões',
     ],
     titleTag: 'Fichas Trem Padrões: Nicho | LCS',
-    metaDescription: 'Descubra o nicho de fichas de trem de padrões. Formato único com alta conversão. Teste grátis com marca d\'água.',
+    metaDescription: 'Descubra o nicho de fichas de trem de padrões. Formato único com alta conversão. Teste grátis com marca d\'água. Venda no Etsy & KDP com licenca comercial.',
   },
   hero: {
     title: 'Fichas de Trem de Padrões: Nicho Único',

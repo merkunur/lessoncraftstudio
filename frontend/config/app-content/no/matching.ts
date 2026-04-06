@@ -15,8 +15,7 @@ const content: AppContent = {
       'utskriftsbar koblingsaktivitet forretningsverktoy',
     ],
     titleTag: 'Koblings Arbeidsark Generator | Lag og Selg',
-    metaDescription:
-      'Lag koblings arbeidsark til salg på Etsy, KDP og Gumroad. 4 koblingsmoduser, automatisk fasit, 104 temaer, konfigurerbare par. Gratis proveversjon.',
+    metaDescription: 'Lag koblings arbeidsark til salg på Etsy, KDP og Gumroad. 4 koblingsmoduser, automatisk fasit, 104 temaer, konfigurerbare par. $49 engangsbetaling.',
   },
 
   hero: {

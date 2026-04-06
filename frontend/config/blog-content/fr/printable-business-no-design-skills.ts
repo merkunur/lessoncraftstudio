@@ -14,7 +14,7 @@ const content: BlogContent = {
       'vendre fiches exercices sans talent artistique',
     ],
     titleTag: 'Vendre des imprimables sans compétences design | LCS',
-    metaDescription: 'Lancez une activité d\'imprimables même sans compétences en design. Outils, générateurs et stratégies pour créer des fiches professionnelles.',
+    metaDescription: 'Lancez une activité d\'imprimables même sans compétences en design. Vendez sur Etsy & KDP avec licence commerciale.',
   },
   hero: {
     title: 'Vendre des imprimables sans compétences en design',

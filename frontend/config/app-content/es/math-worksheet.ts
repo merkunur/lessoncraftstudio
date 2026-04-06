@@ -15,8 +15,7 @@ const content: AppContent = {
       'negocio imprimibles matemáticas mercado hispano',
     ],
     titleTag: 'Fichas de matemáticas para vender en Etsy | LCS',
-    metaDescription:
-      'Genere fichas de cálculo puro para vender en Etsy, KDP y Hotmart. Suma, resta, multiplicación, división. Licencia comercial. Pruebe gratis.',
+    metaDescription: 'Genere fichas de cálculo puro para vender en Etsy, KDP y Hotmart. Suma, resta, multiplicación, división. Licencia comercial. Pruebe gratis. 49 $ pago unico.',
   },
 
   hero: {

@@ -2,8 +2,8 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Massalisensoinnin tulostettavat liiketoimintaideat myyntiin — Opas',
-    metaDescription: 'Massalisensoinnin tulostettavat liiketoimintaideat työarkkikokoelmien myyntiin laitoksille, piireille ja organisaatioille. Volyymilisensointistrategiat myyjille.',
+    titleTag: 'Massalisensoinnin tulostettavat liiketoimintaideat...',
+    metaDescription: 'Massalisensoinnin tulostettavat liiketoimintaideat työarkkikokoelmien myyntiin laitoksille, piireille ja. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
 
     primaryKeyword: 'massalisensointi tulostettava',
     secondaryKeywords: [

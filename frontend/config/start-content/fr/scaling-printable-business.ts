@@ -18,7 +18,7 @@ const content: StartContent = {
       'stratégie de réinvestissement pour activité imprimables',
     ],
     titleTag: 'Du complément au business à temps plein | LCS',
-    metaDescription: 'Développez votre activité d\'imprimables d\'activité secondaire à temps plein. Expansion du catalogue, multi-plateforme, regroupement et automatisation.',
+    metaDescription: 'Développez votre activité d\'imprimables d\'activité secondaire à temps plein. Vendez sur Etsy & KDP avec licence commerciale.',
   },
 
   hero: {

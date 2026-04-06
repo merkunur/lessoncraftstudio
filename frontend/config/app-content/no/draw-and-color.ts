@@ -15,8 +15,7 @@ const content: AppContent = {
       'rutenetttegning generator kommersielt bruk',
     ],
     titleTag: 'Rutenetttegning Generator | Lag Rutenettkunst Arbeidsark',
-    metaDescription:
-      'Lag rutenetttegningsarbeidsark til salg på Etsy, KDP og Gumroad. Dobbelt rutenettsystem, justerbar ledetrådsprosent, symmetrimoduser. Gratis proveversjon.',
+    metaDescription: 'Lag rutenetttegningsarbeidsark til salg på Etsy, KDP og Gumroad. Dobbelt rutenettsystem, justerbar ledetrådsprosent, symmetrimoduser. $49 engangsbetaling.',
   },
 
   hero: {

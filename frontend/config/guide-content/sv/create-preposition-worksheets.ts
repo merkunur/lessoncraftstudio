@@ -18,7 +18,7 @@ const content: GuideContent = {
       'kommersiell licens prepositionsarbetsblad verktyg',
     ],
     titleTag: 'Prepositionsblad SFI att sälja | LessonCraftStudio',
-    metaDescription: 'Skapa prepositionsarbetsblad med två övningslägen, formersättning för scenvariation, 7-prepositions kryssruta och inhemska lägesord på 11 språk. Prova.',
+    metaDescription: 'Skapa prepositionsarbetsblad med två övningslägen, formersättning för scenvariation, 7-prepositions kryssruta och. Salj pa Etsy & KDP med kommersiell licens.',
   },
 
   hero: {

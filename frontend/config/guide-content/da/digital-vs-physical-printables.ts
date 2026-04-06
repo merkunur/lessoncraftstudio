@@ -18,7 +18,7 @@ const content: GuideContent = {
       'formatvalg forretningsmodelsammenligning sælgerstrategi vækststi',
     ],
     titleTag: 'Digitale versus fysiske printables — Sælgerguide',
-    metaDescription: 'Sammenligning af digitale versus fysiske printables for sælgere — dækker profitmarginer, skalerbarhed, opfyldelse og valg af det rigtige format til din forretning.',
+    metaDescription: 'Sammenligning af digitale versus fysiske printables for sælgere — dækker profitmarginer, skalerbarhed, opfyldelse og valg af det rigtige format til din.',
   },
 
   hero: {

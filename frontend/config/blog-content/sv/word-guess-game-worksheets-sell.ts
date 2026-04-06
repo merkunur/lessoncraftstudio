@@ -14,7 +14,7 @@ const content: BlogContent = {
       'Etsy butik svenska',
     ],
     titleTag: 'Ordgissning-Arbetsblad: Sälj Online | LCS',
-    metaDescription: 'Ordgissning-arbetsblad (hangman-stil) säljer bra. Klassiskt ordspel i utskriftsformat för barn och familjer.',
+    metaDescription: 'Ordgissning-arbetsblad (hangman-stil) säljer bra. Klassiskt ordspel i utskriftsformat för barn och familjer. Salj pa Etsy & KDP med kommersiell licens.',
   },
   hero: {
     title: 'Ordgissning-Arbetsblad: Sälj Online',

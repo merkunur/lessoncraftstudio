@@ -17,7 +17,7 @@ const content: StartContent = {
       'produktlinjekortlaegning for saelgere',
       'lanceringscheckliste printbar forretning',
     ],
-    titleTag: 'Printbar forretningsplan — Fra ide til indkomst — Saelgerguide',
+    titleTag: 'Printbar forretningsplan — Fra ide til indkomst —...',
     metaDescription: 'Forvandl printbare forretningsideer til en struktureret plan. Kortlaeg din produktlinje, vaelg platforme, saet priser og lancer paa Etsy og Amazon KDP.',
   },
 

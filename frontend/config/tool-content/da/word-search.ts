@@ -14,8 +14,8 @@ const content: ToolContent = {
       'lokalbevidst ordsøgning arbejdsark værktøj',
       'flersproget ordsøgning puslespil generator',
     ],
-    titleTag: 'Ordsøgning Arbejdsark Generator | Lav og Sælg Gitterpuslespil',
-    metaDescription: 'Generér ordsøgning arbejdsark med justerbare gitre fra 5×5 til 30×30, retningskontroller, lokalbevidste fyldningsbogstaver, 11 sprog. Gratis prøveversion.',
+    titleTag: 'Ordsøgning Arbejdsark Generator | LCS',
+    metaDescription: 'Generér ordsøgning arbejdsark med justerbare gitre fra 5×5 til 30×30, retningskontroller, lokalbevidste. Saelg pa Etsy & KDP med kommerciel licens.',
   },
 
   hero: {

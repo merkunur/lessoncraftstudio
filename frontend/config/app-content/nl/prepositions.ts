@@ -15,8 +15,7 @@ const content: AppContent = {
       'commercieel gebruik taalwerkblad generator',
     ],
     titleTag: 'Voorzetsels werkbladen NT2 — Etsy | LessonCraftStudio',
-    metaDescription:
-      'Maak voorzetsels werkbladen voor NT2 en inburgering. 8 voorzetsels, invuloefeningen en meerkeuzevragen. Verkoop op Etsy, Eduki of Samen Voor Onderwijs.',
+    metaDescription: 'Maak voorzetsels werkbladen voor NT2 en inburgering. 8 voorzetsels, invuloefeningen en meerkeuzevragen. $49 eenmalig.',
   },
 
   hero: {

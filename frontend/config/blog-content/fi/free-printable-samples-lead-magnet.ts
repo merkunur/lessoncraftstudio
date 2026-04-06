@@ -14,7 +14,7 @@ const content: BlogContent = {
       'tyoarkit tuotanto',
     ],
     titleTag: 'Ilmaiset tulostemallimeet lead magnettina | LCS',
-    metaDescription: 'Kayta ilmaisia tulostemallimeia lead magnettina. Rakenna sahkopostilista ja konvertoi liideja maksaviksi asiakkaiksi.',
+    metaDescription: 'Kayta ilmaisia tulostemallimeia lead magnettina. Rakenna sahkopostilista ja konvertoi liideja maksaviksi. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
   },
   hero: {
     title: 'Ilmaiset tulostemallimeet lead magnettina',

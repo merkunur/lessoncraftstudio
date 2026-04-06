@@ -14,8 +14,8 @@ const content: ToolContent = {
       'puslespillstil matematikkaktivitet for barn',
       'konfigurerbar mattepuslespill arbeidsark generator',
     ],
-    titleTag: 'Mattepuslespill Generator — Puslespillarbeidsark til Produktlinjen',
-    metaDescription: 'Lag puslespillstil mattepuslespill for produktlinjen din. Bilderutenett puslespill med addisjon og subtraksjon, konfigurerbare rutenett, fasit. Gratis proveversjon.',
+    titleTag: 'Mattepuslespill Generator — Puslespillarbeidsark til...',
+    metaDescription: 'Lag puslespillstil mattepuslespill for produktlinjen din. Bilderutenett puslespill med addisjon og subtraksjon,. Selg pa Etsy & KDP med kommersiell lisens.',
   },
 
   hero: {

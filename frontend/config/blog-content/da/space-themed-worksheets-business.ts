@@ -6,7 +6,7 @@ const content: BlogContent = {
     secondaryKeywords: ['rum tema arbejdsark forretning Etsy', 'rum tema arbejdsark forretning online', 'rum tema arbejdsark forretning forretning'],
     lsiKeywords: ['printbar forretning Danmark', 'digital download salg', 'Etsy printables sælg'],
     titleTag: 'Rumtema-Arbejdsark: Forretningsguide | LCS',
-    metaDescription: 'Rumtemaer er et af de mest populære temaer for drenge 4-9 år. Planeter, raketter, astronauter og stjerner fascinerer børn og fungerer med alle arbejdsarkfo',
+    metaDescription: 'Rumtemaer er et af de mest populære temaer for drenge 4-9 år. Saelg pa Etsy & KDP med kommerciel licens.',
   },
   hero: {
     title: 'Rumtema-Arbejdsark: Forretningsguide',

@@ -6,7 +6,7 @@ const content: BlogContent = {
     secondaryKeywords: ['printable business strategie 2026', 'werkbladen verkopen platform tips', 'digitale producten online verkopen'],
     lsiKeywords: ['printable verkoop optimalisatie', 'digitale download business', 'online printable winkel'],
     titleTag: 'Auteursrecht Basics voor Printable Verkopers | LCS',
-    metaDescription: 'Auteursrecht Basics voor Printable Verkopers. Praktische strategieën en bewezen technieken voor printable verkopers in 2026.',
+    metaDescription: 'Auteursrecht Basics voor Printable Verkopers. Praktische strategieën en bewezen technieken voor printable. Verkoop op Etsy & KDP met commerciele licentie.',
   },
   hero: {
     title: 'Auteursrecht Basics voor Printable Verkopers',

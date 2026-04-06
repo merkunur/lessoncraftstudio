@@ -22,8 +22,7 @@ const content: AppContent = {
       'business di stampabili',
     ],
     titleTag: 'Crucipuzzle da vendere su Etsy e KDP | LCS',
-    metaDescription:
-      'Crea crucipuzzle con immagini da vendere su Etsy e KDP. Griglie da 5×5 a 30×30, 104 temi, 11 lingue, licenza commerciale. Prova gratis con filigrana.',
+    metaDescription: 'Crea crucipuzzle con immagini da vendere su Etsy e KDP. Griglie da 5×5 a 30×30, 104 temi, 11 lingue, licenza commerciale. 49 $ pagamento unico.',
   },
 
   hero: {

@@ -28,8 +28,7 @@ const content: AppContent = {
       '11 idiomas',
     ],
     titleTag: 'Atividades de alfabeto para vender online | LCS',
-    metaDescription:
-      'Crie atividades de trem do alfabeto para vender na Hotmart, Etsy e KDP. 11 idiomas, associação letra-imagem. Teste grátis com marca d\'água.',
+    metaDescription: 'Crie atividades de trem do alfabeto para vender na Hotmart, Etsy e KDP. 11 idiomas, associação letra-imagem. 49 $ pagamento unico.',
   },
 
   hero: {

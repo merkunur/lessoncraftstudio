@@ -15,8 +15,7 @@ const content: AppContent = {
       'tulostettava kuvabingo liiketoimintatyökalu',
     ],
     titleTag: 'Bingokorttien generaattori | Luo ja myy bingo-tulosteita',
-    metaDescription:
-      'Luo kuvabingokortteja myytäväksi Etsyssä, KDP:ssä ja Gumroadissa. Eräluonti, ZIP-vienti, huutolista, 104 teemaa. Ilmainen kokeilu vesileimalla.',
+    metaDescription: 'Luo kuvabingokortteja myytäväksi Etsyssä, KDP:ssä ja Gumroadissa. Eräluonti, ZIP-vienti, huutolista, 104 teemaa. Ilmainen kokeilu vesileimalla. $49 kertamaksu.',
   },
 
   hero: {

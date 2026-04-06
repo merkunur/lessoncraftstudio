@@ -15,7 +15,7 @@ const content: AppContent = {
       'Wort-Entschlüsselung Lösungsschlüssel kommerzielle Nutzung',
     ],
     titleTag: 'Geheimcode-Mathe-Rätsel für Etsy erstellen | LCS',
-    metaDescription: 'Erstellen Sie Geheimcode-Mathe-Rätsel zum Verkauf auf Etsy & KDP. Wort-Entschlüsselung, 11 Sprachen, gewerbliche Lizenz. Kostenlos testen mit Wasserzeichen.',
+    metaDescription: 'Erstellen Sie Geheimcode-Mathe-Rätsel zum Verkauf auf Etsy & KDP. Wort-Entschlüsselung, 11 Sprachen, gewerbliche Lizenz. 49 $ einmalig.',
   },
 
   hero: {

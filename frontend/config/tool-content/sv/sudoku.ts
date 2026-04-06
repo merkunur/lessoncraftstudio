@@ -15,7 +15,7 @@ const content: ToolContent = {
       'bildsudoku barn gratis',
     ],
     titleTag: 'Sudoku med bilder gratis barn | LessonCraftStudio',
-    metaDescription: 'Skapa sudoku med bilder gratis online. 4×4 rutnät, tre svårighetsnivåer, facit, 104 teman. Gratis provversion med vattenmärke.',
+    metaDescription: 'Skapa sudoku med bilder gratis online. 4×4 rutnät, tre svårighetsnivåer, facit, 104 teman. Salj pa Etsy & KDP med kommersiell licens.',
   },
 
   hero: {

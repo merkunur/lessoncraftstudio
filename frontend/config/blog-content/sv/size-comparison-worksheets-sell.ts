@@ -14,7 +14,7 @@ const content: BlogContent = {
       'Etsy butik svenska',
     ],
     titleTag: 'Storleksjämförelse-Arbetsblad: Sälj | LCS',
-    metaDescription: 'Storleksjämförelse-arbetsblad för förskolebarn. Grundläggande matematiska begrepp som stor, liten, lika med bilder.',
+    metaDescription: 'Storleksjämförelse-arbetsblad för förskolebarn. Grundläggande matematiska begrepp som stor, liten, lika med bilder. Salj pa Etsy & KDP med kommersiell licens.',
   },
   hero: {
     title: 'Storleksjämförelse-Arbetsblad: Sälj',

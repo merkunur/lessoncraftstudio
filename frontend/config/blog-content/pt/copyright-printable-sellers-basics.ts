@@ -14,7 +14,7 @@ const content: BlogContent = {
       'empreendedor digital educativo',
     ],
     titleTag: 'Direitos Autorais para Vendedores | LCS',
-    metaDescription: 'Questões de direitos autorais podem destruir seu negócio de imprimíveis. Usar imagens sem licença, copiar designs de concorrentes ou vender sem licença ...',
+    metaDescription: 'Questões de direitos autorais podem destruir seu negócio de imprimíveis. Usar imagens sem licença, copiar designs de concorrentes ou vender sem licença .',
   },
   hero: {
     title: 'Direitos Autorais para Vendedores',

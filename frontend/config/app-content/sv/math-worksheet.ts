@@ -17,8 +17,7 @@ const content: AppContent = {
       'svenska marknaden matteblad Etsy',
     ],
     titleTag: 'Matteblad att sälja på Etsy och KDP | LessonCraftStudio',
-    metaDescription:
-      'Skapa algebrapussel matteblad att sälja på Etsy och KDP. 4 svårighetsnivåer, unika lösningar, facit, kommersiell licens. Testa gratis med vattenmärke.',
+    metaDescription: 'Skapa algebrapussel matteblad att sälja på Etsy och KDP. 4 svårighetsnivåer, unika lösningar, facit, kommersiell licens. $49 engångsbetalning.',
   },
 
   hero: {

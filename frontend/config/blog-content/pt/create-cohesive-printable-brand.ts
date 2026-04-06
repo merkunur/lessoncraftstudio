@@ -14,7 +14,7 @@ const content: BlogContent = {
       'guia prático imprimíveis',
     ],
     titleTag: 'Crie uma Marca Coesa de Imprimíveis | LCS',
-    metaDescription: 'Uma marca coesa — cores consistentes, estilo visual reconhecível, tom de comunicação uniforme — diferencia sua loja e gera lealdade do cliente. Este t.',
+    metaDescription: 'Uma marca coesa — cores consistentes, estilo visual reconhecível, tom de comunicação uniforme — diferencia sua loja. Venda no Etsy & KDP com licenca comercial.',
   },
   hero: {
     title: 'Crie uma Marca Coesa de Imprimíveis',

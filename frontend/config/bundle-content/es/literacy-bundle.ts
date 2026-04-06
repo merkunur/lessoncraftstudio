@@ -15,7 +15,7 @@ const content: BundleContent = {
       'variedad productos lectoescritura múltiples plataformas',
     ],
     titleTag: 'Paquete juegos de palabras — Vender | LCS',
-    metaDescription: 'Paquete de 7 generadores de fichas de lectoescritura para Etsy y KDP. Sopas de letras, criptogramas, abecedario en 11 idiomas. Licencia comercial.',
+    metaDescription: 'Paquete de 7 generadores de fichas de lectoescritura para Etsy y KDP. Sopas de letras, criptogramas, abecedario en 11 idiomas. 149 $ pago unico.',
   },
 
   hero: {

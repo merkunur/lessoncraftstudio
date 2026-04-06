@@ -16,7 +16,7 @@ const content: BundleContent = {
       'masseproduksjon språkarbeidsark verktøy',
     ],
     titleTag: 'Lesearbeidsark Pakke — 7 Språk- og Ordgeneratorer | Online',
-    metaDescription: 'Få 7 lese- og skrivearbeidsark-generatorer i én pakke. Lag alfabet, ordsøk, kryptogram, preposisjoner og håndskriftsarbeidsark på 11 språk. Prøv gratis.',
+    metaDescription: 'Få 7 lese- og skrivearbeidsark-generatorer i én pakke. Alfabet, ordsøk, kryptogram og skriving på 11 språk. Kommersiell lisens. $149 engangsbetaling.',
   },
 
   hero: {

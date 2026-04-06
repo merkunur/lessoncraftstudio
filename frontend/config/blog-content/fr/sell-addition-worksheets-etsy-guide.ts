@@ -14,7 +14,7 @@ const content: BlogContent = {
       'téléchargement numérique maths Etsy',
     ],
     titleTag: 'Vendre des fiches d\'addition sur Etsy | LCS',
-    metaDescription: 'Guide complet pour vendre des fiches d\'addition sur Etsy. Stratégies de prix, bundles et optimisation SEO qui fonctionnent en 2026. Essai gratuit avec filigrane.',
+    metaDescription: 'Guide complet pour vendre des fiches d\'addition sur Etsy. Stratégies de prix, bundles et optimisation SEO qui fonctionnent en 2026.',
   },
   hero: {
     title: 'Vendre des fiches d\'addition sur Etsy : guide complet',

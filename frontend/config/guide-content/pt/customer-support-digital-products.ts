@@ -24,8 +24,7 @@ const content: GuideContent = {
       'templates',
     ],
     titleTag: 'Atendimento ao cliente digital — guia | LCS',
-    metaDescription:
-      'Como fazer atendimento ao cliente para produtos digitais. Templates, FAQ, avaliações e fidelização.',
+    metaDescription: 'Como fazer atendimento ao cliente para produtos digitais. Templates, FAQ, avaliações e fidelização. Venda no Etsy & KDP com licenca comercial.',
   },
 
   hero: {

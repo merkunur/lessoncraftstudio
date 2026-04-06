@@ -14,7 +14,7 @@ const content: BlogContent = {
       'Etsy butik svenska',
     ],
     titleTag: 'Spårningsarbetsblad: Finmotorik och Sälj | LCS',
-    metaDescription: 'Spårningsarbetsblad utvecklar finmotorik och förbereder barn för handskrivning. Starkt efterfrågade för ålder 3-6.',
+    metaDescription: 'Spårningsarbetsblad utvecklar finmotorik och förbereder barn för handskrivning. Starkt efterfrågade för ålder 3-6. Salj pa Etsy & KDP med kommersiell licens.',
   },
   hero: {
     title: 'Spårningsarbetsblad: Finmotorik och Sälj',

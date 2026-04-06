@@ -3,7 +3,7 @@ import type { IdeaContent } from '../types';
 const content: IdeaContent = {
   seo: {
     titleTag: 'Print-on-demand-työarkkiideat myyntiin — Opas',
-    metaDescription: 'Print-on-demand-työarkkiideat Etsy-, KDP- ja Shopify-myyjille. Rakenna nollavarastoinen tulostettava liiketoiminta työkirjoilla, aktiviteettipaketeilla ja pulmilla.',
+    metaDescription: 'Print-on-demand-työarkkiideat Etsy-, KDP- ja Shopify-myyjille. Rakenna nollavarastoinen tulostettava liiketoiminta työkirjoilla, aktiviteettipaketeilla ja.',
 
     primaryKeyword: 'print-on-demand-työarkki-ideat',
     secondaryKeywords: [

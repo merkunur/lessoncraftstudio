@@ -24,8 +24,7 @@ const content: ToolContent = {
       'licença comercial',
     ],
     titleTag: 'Adivinhar palavras grátis online | LCS',
-    metaDescription:
-      'Crie jogos de adivinhar palavras grátis com imagens. Estilo forca, 11 idiomas, gabarito automático. Teste online sem cadastro — marca d\'água removível.',
+    metaDescription: 'Crie jogos de adivinhar palavras grátis com imagens. Estilo forca, 11 idiomas, gabarito automático. Venda no Etsy & KDP com licenca comercial.',
   },
 
   hero: {

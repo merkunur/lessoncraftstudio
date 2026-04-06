@@ -15,7 +15,7 @@ const content: AppContent = {
       'commercieel gebruik patronenherkenning werkbladen generator',
     ],
     titleTag: 'Patronen werkbladen voor Etsy | LessonCraftStudio',
-    metaDescription: 'Maak patroonherkenning werkbladen om te verkopen op Etsy en Amazon KDP. Negen patroontypen, twee vraagmodi, 104 thema\'s en commerciële licentie.',
+    metaDescription: 'Maak patroonherkenning werkbladen om te verkopen op Etsy en Amazon KDP. Negen patroontypen, twee vraagmodi, 104 thema\'s en commerciële licentie. $49 eenmalig.',
   },
 
   hero: {

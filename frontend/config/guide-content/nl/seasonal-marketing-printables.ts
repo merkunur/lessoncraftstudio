@@ -17,7 +17,7 @@ const content: GuideContent = {
       'releasetiming seizoenszoekwoorden trendanalyse contentkalender jaarplanning',
     ],
     titleTag: 'Seizoensmarketing voor printables | LessonCraftStudio',
-    metaDescription: 'Seizoensmarketing voor printables-verkopers: verkoopkalender met productietiming, seizoenszoekwoorden en piekstrategieën voor Sinterklaas, Kerst en meer.',
+    metaDescription: 'Seizoensmarketing voor printables-verkopers: verkoopkalender met productietiming, seizoenszoekwoorden en. Verkoop op Etsy & KDP met commerciele licentie.',
   },
 
   hero: {

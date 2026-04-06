@@ -14,7 +14,7 @@ const content: BlogContent = {
       'Etsy butik svenska',
     ],
     titleTag: 'Vinterutskrifter: December-Januari | LCS',
-    metaDescription: 'Vinterutskrifter säljer från november till februari. Snö, vinter-djur och inomhusaktiviteter för kalla dagar.',
+    metaDescription: 'Vinterutskrifter säljer från november till februari. Snö, vinter-djur och inomhusaktiviteter för kalla dagar. Salj pa Etsy & KDP med kommersiell licens.',
   },
   hero: {
     title: 'Vinterutskrifter: December-Januari',

@@ -14,7 +14,7 @@ const content: BlogContent = {
       'tulostettava myy',
     ],
     titleTag: 'Avaruusaihe-tyoarkit liiketoimintana | LCS',
-    metaDescription: 'Myy avaruusaiheisia tyoarkkeja. Avaruus kiehtoo lapsia ja STEM-koulutuksen trendi lisaa kysynta.',
+    metaDescription: 'Myy avaruusaiheisia tyoarkkeja. Avaruus kiehtoo lapsia ja STEM-koulutuksen trendi lisaa kysynta. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
   },
   hero: {
     title: 'Avaruusaihe-tyoarkit: STEM-teeman liiketoiminta',

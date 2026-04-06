@@ -14,7 +14,7 @@ const content: BlogContent = {
       'empreendedor digital educativo',
     ],
     titleTag: 'Nichos Imprimíveis Baixa Concorrência | LCS',
-    metaDescription: 'Enquanto fichas de adição e páginas de colorir têm milhares de concorrentes, existem nichos praticamente vazios com demanda real. Puzzles de grade, crip...',
+    metaDescription: 'Enquanto fichas de adição e páginas de colorir têm milhares de concorrentes, existem nichos praticamente vazios com demanda real. Puzzles de grade, crip.',
   },
   hero: {
     title: 'Nichos Imprimíveis Baixa Concorrência',

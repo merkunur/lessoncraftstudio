@@ -15,8 +15,7 @@ const content: AppContent = {
       'negocio fichas conteo visual mercado hispano',
     ],
     titleTag: 'Fichas busque y cuenta para vender en Etsy | LCS',
-    metaDescription:
-      'Cree fichas de busque y cuenta para vender en Etsy y KDP. Los niños buscan y cuentan imágenes temáticas. Licencia comercial. Pruebe gratis.',
+    metaDescription: 'Cree fichas de busque y cuenta para vender en Etsy y KDP. Los niños buscan y cuentan imágenes temáticas. Licencia comercial. Pruebe gratis. 49 $ pago unico.',
   },
 
   hero: {

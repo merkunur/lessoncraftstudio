@@ -14,7 +14,7 @@ const content: BlogContent = {
       'tyoarkit tuotanto',
     ],
     titleTag: 'Tulosteiden tiedostomuodot: PDF vs JPEG | LCS',
-    metaDescription: 'Oikea tiedostomuoto tulosteille. Milloin PDF, milloin JPEG? Resoluutio, variat ja tulostuslaatu.',
+    metaDescription: 'Oikea tiedostomuoto tulosteille. Milloin PDF, milloin JPEG? Resoluutio, variat ja tulostuslaatu. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
   },
   hero: {
     title: 'Tulosteiden tiedostomuodot: PDF vs JPEG opas',

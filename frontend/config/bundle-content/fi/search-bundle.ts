@@ -16,7 +16,7 @@ const content: BundleContent = {
       'massatuotanto etsi ja loyda -tyoarkkityokalu',
     ],
     titleTag: 'Etsi ja loyda -tyoarkkipaketti — 4 generaattoria myyjille',
-    metaDescription: 'Etsi ja loyda -paketti 4 generaattorilla: I Spy, piilotetut esineet, ristisanatehtavat ja aarteenetsinta. Myy Etsyssa, KDP:ssa, Gumroadissa. Kaupallinen lisenssi.',
+    metaDescription: 'Etsi ja loyda -paketti 4 generaattorilla: I Spy, piilotetut esineet, ristisanatehtavat ja aarteenetsinta. Myy Etsyssa, KDP:ssa, Gumroadissa. $149 kertamaksu.',
   },
 
   hero: {

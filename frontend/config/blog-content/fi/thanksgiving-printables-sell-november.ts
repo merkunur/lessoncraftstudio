@@ -14,7 +14,7 @@ const content: BlogContent = {
       'tulostettava myy',
     ],
     titleTag: 'Pikkujoulu- ja itsenaisyyspaivatulosteet | LCS',
-    metaDescription: 'Myy pikkujoulu- ja itsenaisyyspaiva-tulosteita. Suomessa ei ole Thanksgivingia mutta marraskuu on juhlakautta.',
+    metaDescription: 'Myy pikkujoulu- ja itsenaisyyspaiva-tulosteita. Suomessa ei ole Thanksgivingia mutta marraskuu on juhlakautta. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
   },
   hero: {
     title: 'Pikkujoulu- ja itsenaisyyspaivatulosteet marraskuussa',

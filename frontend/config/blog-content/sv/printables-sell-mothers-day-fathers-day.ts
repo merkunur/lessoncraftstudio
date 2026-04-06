@@ -14,7 +14,7 @@ const content: BlogContent = {
       'Etsy butik svenska',
     ],
     titleTag: 'Utskrifter för Mors Dag och Fars Dag | LCS',
-    metaDescription: 'Utskrifter för mors dag och fars dag säljer starkt. Barnaktiviteter, kort och gåvor som barn kan göra själva.',
+    metaDescription: 'Utskrifter för mors dag och fars dag säljer starkt. Barnaktiviteter, kort och gåvor som barn kan göra själva. Salj pa Etsy & KDP med kommersiell licens.',
   },
   hero: {
     title: 'Utskrifter för Mors Dag och Fars Dag',

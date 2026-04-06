@@ -17,7 +17,7 @@ const content: GuideContent = {
       'Amazon KDP matematiikka-aktiviteettikirjat',
       'kaupallinen lisenssi työarkkityökalu',
     ],
-    titleTag: 'Luo yhteenlaskutyöarkkeja — Vaihe vaiheelta -opas — Myyjän opas',
+    titleTag: 'Luo yhteenlaskutyöarkkeja — Vaihe vaiheelta -opas —...',
     metaDescription: 'Näin luot yhteenlaskutyöarkkeja lapsille. Vaihe vaiheelta -opas: valitse teemat, aseta vaikeustaso, luo vastausavaimet ja vie PDF myyntiin Etsyssä ja KDP:ssä.',
   },
 

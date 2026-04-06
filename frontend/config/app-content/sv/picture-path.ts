@@ -17,8 +17,7 @@ const content: AppContent = {
       'svenska marknaden labyrintblad Etsy',
     ],
     titleTag: 'Bildlabyrint att sälja på Etsy | LessonCraftStudio',
-    metaDescription:
-      'Skapa bildlabyrint att sälja på Etsy och KDP. 3 spellägen, LPF-algoritm, facit, 104 teman, kommersiell licens. Testa gratis med vattenmärke.',
+    metaDescription: 'Skapa bildlabyrint att sälja på Etsy och KDP. 3 spellägen, LPF-algoritm, facit, 104 teman, kommersiell licens. $49 engångsbetalning.',
   },
 
   hero: {

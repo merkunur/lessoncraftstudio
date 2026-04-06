@@ -14,7 +14,7 @@ const content: BlogContent = {
       'ongelmanratkaisu labyrintit',
     ],
     titleTag: 'Kuvasokkelo-tyoarkit liiketoimintana | LCS',
-    metaDescription: 'Myy kuvasokkelo-tyoarkkeja kannattavasti. Labyrintit kiehtovat lapsia ja aikuisia. Ikivihrea tuote ilman kausivaihtelua.',
+    metaDescription: 'Myy kuvasokkelo-tyoarkkeja kannattavasti. Labyrintit kiehtovat lapsia ja aikuisia. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
   },
   hero: {
     title: 'Kuvasokkelo-tyoarkit: labyrinttien liiketoiminta',

@@ -14,7 +14,7 @@ const content: BlogContent = {
       'astuces importance corrigés',
     ],
     titleTag: 'Pourquoi les corrigés boostent vos ventes | LCS',
-    metaDescription: 'Les corrigés sont essentiels pour les ventes d\'imprimables. Pourquoi et comment les créer efficacement.',
+    metaDescription: 'Les corrigés sont essentiels pour les ventes d\'imprimables. Pourquoi et comment les créer efficacement. Vendez sur Etsy & KDP avec licence commerciale.',
   },
   hero: {
     title: 'Pourquoi les corrigés boostent vos ventes d\'imprimables',

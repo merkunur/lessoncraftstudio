@@ -14,7 +14,7 @@ const content: ToolContent = {  seo: {
       'kleuterwiskunde werkbladen gratis proefversie',
     ],
     titleTag: 'Optelwerkbladen gratis online | LessonCraftStudio',
-    metaDescription: 'Maak gratis optelwerkbladen met afbeeldingen online. 104 thema\'s, 4 oefenmodi, antwoordblad en printklare PDF\'s. Probeer nu gratis met watermerk.',
+    metaDescription: 'Maak gratis optelwerkbladen met afbeeldingen online. 104 thema\'s, 4 oefenmodi, antwoordblad en printklare PDF\'s. Verkoop op Etsy & KDP met commerciele licentie.',
     },
 
   hero: {

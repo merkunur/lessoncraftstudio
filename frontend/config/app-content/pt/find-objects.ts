@@ -26,8 +26,7 @@ const content: AppContent = {
       'Kiwify',
     ],
     titleTag: 'Ache e encontre para vender online | LCS',
-    metaDescription:
-      'Crie atividades de ache e encontre para vender na Hotmart, Etsy e KDP. 104 temas, gabarito automático, licença comercial. Teste grátis com marca d\'água.',
+    metaDescription: 'Crie atividades de ache e encontre para vender na Hotmart, Etsy e KDP. 104 temas, gabarito automático, licença comercial. 49 $ pagamento unico.',
   },
 
   hero: {

@@ -15,7 +15,7 @@ const content: ToolContent = {
       'automatisk fasit markert skattecelle dobbelt lerretssystem',
     ],
     titleTag: 'Skattejakt Generator — Skattejakt Arbeidsark Generator',
-    metaDescription: 'Lag skattejakt arbeidsark på 5×5 rutenett med to retningstyper, tematiske landemerker, automatisk fasit og 104 bildesamlinger. Gratis prøveversjon med vannmerke.',
+    metaDescription: 'Lag skattejakt arbeidsark på 5×5 rutenett med to retningstyper, tematiske landemerker, automatisk fasit og 104. Selg pa Etsy & KDP med kommersiell lisens.',
   },
 
   hero: {

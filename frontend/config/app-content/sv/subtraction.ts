@@ -16,8 +16,7 @@ const content: AppContent = {
       'svenska marknaden mattearbetsblad',
     ],
     titleTag: 'Subtraktionsblad — Sälja på Etsy | LessonCraftStudio',
-    metaDescription:
-      'Skapa subtraktionsblad att sälja på Etsy och KDP. Tematiska bilder, facit, kommersiell licens. Testa gratis med vattenmärke.',
+    metaDescription: 'Skapa subtraktionsblad att sälja på Etsy och KDP. Tematiska bilder, facit, kommersiell licens. Testa gratis med vattenmärke. $49 engångsbetalning.',
   },
 
   hero: {

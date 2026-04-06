@@ -14,8 +14,8 @@ const content: ToolContent = {
       'gråtone farvelægningsarbejdsark til tryk',
       'frihåndstegning farvelægningsaktivitet generator',
     ],
-    titleTag: 'Tilpasset Farvelægningsside Generator — Lav Sider Online — Sælgerguide',
-    metaDescription: 'Lav tilpassede farvelægningssider for din produktlinje eller hjemme. Frit arbejdsområde, mere end 3.100 illustrationer, 104 temaer, frihåndstegning, gråtoneeksport. Gratis.',
+    titleTag: 'Tilpasset Farvelægningsside Generator — Lav Sider Online...',
+    metaDescription: 'Lav tilpassede farvelægningssider for din produktlinje eller hjemme. Saelg pa Etsy & KDP med kommerciel licens.',
   },
 
   hero: {

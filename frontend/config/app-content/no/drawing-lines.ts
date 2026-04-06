@@ -15,8 +15,7 @@ const content: AppContent = {
       'tegn linjer generator kommersielt bruk',
     ],
     titleTag: 'Tegn Linjer Generator | Lag Sporingsarbeidsark',
-    metaDescription:
-      'Lag linjesporingsarbeidsark til salg på Etsy, KDP og Gumroad. Åtte SVG-maler, bildeparmatchning, 104 tematiske samlinger. Gratis proveversjon.',
+    metaDescription: 'Lag linjesporingsarbeidsark til salg på Etsy, KDP og Gumroad. Åtte SVG-maler, bildeparmatchning, 104 tematiske samlinger. $49 engangsbetaling.',
   },
 
   hero: {

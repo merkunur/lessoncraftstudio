@@ -15,7 +15,7 @@ const content: ToolContent = {
       'vokabulärövning gratis',
     ],
     titleTag: 'Ordgissningsspel gratis online | LessonCraftStudio',
-    metaDescription: 'Skapa ordgissningsspel gratis online. 4 svårighetsnivåer, bildledtrådar, 11 språk med svenska, facit. Gratis provversion med vattenmärke.',
+    metaDescription: 'Skapa ordgissningsspel gratis online. 4 svårighetsnivåer, bildledtrådar, 11 språk med svenska, facit. Salj pa Etsy & KDP med kommersiell licens.',
   },
 
   hero: {

@@ -17,8 +17,7 @@ const content: AppContent = {
       'svenska marknaden rutnätspussel Etsy',
     ],
     titleTag: 'Rutnätspussel att sälja på Etsy | LessonCraftStudio',
-    metaDescription:
-      'Skapa rutnätskopplingspussel att sälja på Etsy och KDP. Konfigurerbar storlek, ledtrådsceller, facit, 104 teman, kommersiell licens. Testa gratis med vattenmärke.',
+    metaDescription: 'Skapa rutnätskopplingspussel att sälja på Etsy och KDP. Konfigurerbar storlek, ledtrådsceller, facit, 104 teman, kommersiell licens. $49 engångsbetalning.',
   },
 
   hero: {

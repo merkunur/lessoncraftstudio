@@ -20,8 +20,7 @@ const content: AppContent = {
       'foglio risposte automatico',
     ],
     titleTag: 'Puzzle a griglia da vendere su Etsy e KDP | LCS',
-    metaDescription:
-      'Crea puzzle a griglia professionali da vendere su Etsy e KDP. Griglia configurabile, risposte automatiche, licenza commerciale. Prova gratis con filigrana.',
+    metaDescription: 'Crea puzzle a griglia professionali da vendere su Etsy e KDP. Griglia configurabile, risposte automatiche, licenza commerciale. 49 $ pagamento unico.',
   },
 
   hero: {

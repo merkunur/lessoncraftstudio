@@ -15,8 +15,7 @@ const content: AppContent = {
       'corrigé automatique images thématiques revenu passif',
     ],
     titleTag: 'Fiches de soustraction — Vendre sur Etsy | LCS',
-    metaDescription:
-      'Créez des fiches de soustraction à vendre sur Etsy & KDP. Images thématiques, corrigés, licence commerciale. Testez gratuitement avec filigrane.',
+    metaDescription: 'Créez des fiches de soustraction à vendre sur Etsy & KDP. Images thématiques, corrigés, licence commerciale. 49 $ paiement unique.',
   },
 
   hero: {

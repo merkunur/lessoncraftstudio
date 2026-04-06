@@ -15,8 +15,7 @@ const content: AppContent = {
       'modes Cherche et Trouve l\'Intrus corrigé automatique',
     ],
     titleTag: 'Cherche et trouve à vendre sur Etsy & KDP | LCS',
-    metaDescription:
-      'Créez des cherche et trouve à vendre sur Etsy & KDP. Modes Je Vois et Trouve l\'Intrus, licence commerciale. Testez gratuitement avec filigrane.',
+    metaDescription: 'Créez des cherche et trouve à vendre sur Etsy & KDP. Modes Je Vois et Trouve l\'Intrus, licence commerciale. 49 $ paiement unique.',
   },
 
   hero: {

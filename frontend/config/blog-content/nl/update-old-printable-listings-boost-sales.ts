@@ -6,7 +6,7 @@ const content: BlogContent = {
     secondaryKeywords: ['printable oude printable listings', 'werkbladen oude printable', 'printables how-to gids'],
     lsiKeywords: ['printable productie tips', 'werkbladen maken strategie', 'printable business how-to'],
     titleTag: 'Oude Listings Updaten om Verkoop te Verhogen | LCS',
-    metaDescription: 'Oude Listings Updaten om Verkoop te Verhogen. Stap-voor-stap instructies en praktische tips voor printable verkopers. Direct toepasbaar.',
+    metaDescription: 'Oude Listings Updaten om Verkoop te Verhogen. Stap-voor-stap instructies en praktische tips voor printable. Verkoop op Etsy & KDP met commerciele licentie.',
   },
   hero: {
     title: 'Oude Listings Updaten om Verkoop te Verhogen',

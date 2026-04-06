@@ -14,7 +14,7 @@ const content: BlogContent = {
       'tulostettava myy',
     ],
     titleTag: 'Koulunaloituksen tulostesesonki | LCS',
-    metaDescription: 'Hyodynna koulunaloituksen tulostesesonki. Suomessa koulu alkaa elokuussa. Opettajat ja vanhemmat etsivat materiaalia.',
+    metaDescription: 'Hyodynna koulunaloituksen tulostesesonki. Suomessa koulu alkaa elokuussa. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
   },
   hero: {
     title: 'Koulunaloituksen tulostesesonki: elokuun myyntipiikki',

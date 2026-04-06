@@ -5,7 +5,7 @@ const content: BlogContent = {
     secondaryKeywords: ['gjenbruk arbeidsark flere produkter tips', 'gjenbruk arbeidsark flere produkter guide', 'gjenbruk arbeidsark flere produkter steg for steg'],
     lsiKeywords: ['arbeidsark produksjon', 'printable forretning guide', 'Etsy selger tutorial'],
     titleTag: 'Gjenbruk arbeidsark til flere produkter | LCS',
-    metaDescription: 'Smart gjenbruk multipliserer inntekten din uten ekstra arbeid. Denne guiden viser deg hvordan du tar ett sett arbeidsark og gjør dem til enkeltark, te',
+    metaDescription: 'Smart gjenbruk multipliserer inntekten din uten ekstra arbeid. Selg pa Etsy & KDP med kommersiell lisens.',
   },
   hero: {
     title: 'Gjenbruk arbeidsark til flere produkter',

@@ -6,7 +6,7 @@ const content: BlogContent = {
     secondaryKeywords: ['printable antwoordsleutel belang printable', 'werkbladen antwoordsleutel belang', 'printables how-to gids'],
     lsiKeywords: ['printable productie tips', 'werkbladen maken strategie', 'printable business how-to'],
     titleTag: 'Het Belang van Antwoordsleutels voor Verkoop | LCS',
-    metaDescription: 'Het Belang van Antwoordsleutels voor Verkoop. Stap-voor-stap instructies en praktische tips voor printable verkopers. Direct toepasbaar.',
+    metaDescription: 'Het Belang van Antwoordsleutels voor Verkoop. Stap-voor-stap instructies en praktische tips voor printable. Verkoop op Etsy & KDP met commerciele licentie.',
   },
   hero: {
     title: 'Het Belang van Antwoordsleutels voor Verkoop',

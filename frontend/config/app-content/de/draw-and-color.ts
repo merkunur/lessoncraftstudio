@@ -15,7 +15,7 @@ const content: AppContent = {
       'duales Rastersystem Hinweisprozent Zeichenübungen',
     ],
     titleTag: 'Mal-und-Zeichenvorlagen-Generator für Etsy | LCS',
-    metaDescription: 'Mal-und-Zeichenvorlagen erstellen und auf Etsy verkaufen — duales Rastersystem mit Hinweisprozent für KDP-Zeichenbücher. Kostenlos testen mit Wasserzeichen.',
+    metaDescription: 'Mal-und-Zeichenvorlagen erstellen und auf Etsy verkaufen — duales Rastersystem mit Hinweisprozent für KDP-Zeichenbücher. 49 $ einmalig.',
   },
 
   hero: {

@@ -22,8 +22,7 @@ const content: AppContent = {
       'guadagno extra',
     ],
     titleTag: 'Schede di sottrazione — Vendere su Etsy | LCS',
-    metaDescription:
-      'Crea schede di sottrazione da vendere su Etsy e KDP. Immagini tematiche, soluzioni, licenza commerciale. Prova gratis con filigrana.',
+    metaDescription: 'Crea schede di sottrazione da vendere su Etsy e KDP. Immagini tematiche, soluzioni, licenza commerciale. Prova gratis con filigrana. 49 $ pagamento unico.',
   },
 
   hero: {

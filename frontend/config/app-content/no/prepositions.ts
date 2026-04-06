@@ -15,8 +15,7 @@ const content: AppContent = {
       'kommersielt bruk språkarbeidsark generator',
     ],
     titleTag: 'Preposisjoner Arbeidsark Generator | Lag Utskriftsbare',
-    metaDescription:
-      'Lag preposisjoner arbeidsark til salg på Etsy, KDP og Gumroad. 8 romlige preposisjoner, utfyllingsøvelser og flervalg. Gratis prøveversjon med vannmerke.',
+    metaDescription: 'Lag preposisjoner arbeidsark til salg på Etsy, KDP og Gumroad. 8 romlige preposisjoner, utfyllingsøvelser og flervalg. $49 engangsbetaling.',
   },
 
   hero: {

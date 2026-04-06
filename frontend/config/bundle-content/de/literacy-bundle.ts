@@ -16,7 +16,7 @@ const content: BundleContent = {
       'Sprach-Arbeitsblatt-Massenproduktion Werkzeug',
     ],
     titleTag: 'Sprach-Rätsel-Bundle — Auf Etsy verkaufen | LCS',
-    metaDescription: 'Sprach-Rätsel-Generatoren-Bundle mit 7 Apps für Etsy und KDP. Wortsuche, Kryptogramm, Buchstabensalat und mehr in 11 Sprachen — verkaufen Sie international.',
+    metaDescription: 'Sprach-Rätsel-Generatoren-Bundle mit 7 Apps für Etsy und KDP. Wortsuche, Kryptogramm, Buchstabensalat und mehr in 11 Sprachen — verkaufen Sie... 149 $ einmalig.',
   },
 
   hero: {

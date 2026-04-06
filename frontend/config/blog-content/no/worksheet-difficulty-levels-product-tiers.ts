@@ -5,7 +5,7 @@ const content: BlogContent = {
     secondaryKeywords: ['arbeidsark vanskelighetsgrader produktnivåer tips', 'arbeidsark vanskelighetsgrader produktnivåer guide', 'arbeidsark vanskelighetsgrader produktnivåer steg for steg'],
     lsiKeywords: ['arbeidsark produksjon', 'printable forretning guide', 'Etsy selger tutorial'],
     titleTag: 'Vanskelighetsgrader som produktnivåer | LCS',
-    metaDescription: 'Ved å dele arbeidsark i vanskelighetsgrader får du automatisk flere produkter fra samme base. Lett, middels og vanskelig er tre separate produkter ell',
+    metaDescription: 'Ved å dele arbeidsark i vanskelighetsgrader får du automatisk flere produkter fra samme base. Selg pa Etsy & KDP med kommersiell lisens.',
   },
   hero: {
     title: 'Vanskelighetsgrader som produktnivåer',

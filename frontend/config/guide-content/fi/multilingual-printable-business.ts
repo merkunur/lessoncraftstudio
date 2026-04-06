@@ -18,7 +18,7 @@ const content: GuideContent = {
       'kielten välinen liikevaihto alustan kansainvälistäminen monimarkkinajakelu',
     ],
     titleTag: 'Monikielinen tulostettava liiketoiminta — Strategiaopas',
-    metaDescription: 'Rakenna monikielinen tulostettava liiketoiminta laajentumalla kansainvälisille markkinoille. Opi mitkä kielet kohdistaa, käännöstyönkulut ja liikevaihdon moninkertaistaminen.',
+    metaDescription: 'Rakenna monikielinen tulostettava liiketoiminta laajentumalla kansainvälisille markkinoille. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
   },
 
   hero: {

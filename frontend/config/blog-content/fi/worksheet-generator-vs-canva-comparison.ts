@@ -14,7 +14,7 @@ const content: BlogContent = {
       'tyoarkit tuotanto',
     ],
     titleTag: 'Generaattori vai Canva tyoarkeille? | LCS',
-    metaDescription: 'Vertaile tyoarkkigeneraattoria ja Canvaa. Kumpi sopii paremmin tulosteliiketoimintaan? Nopeus, laatu ja kustannukset.',
+    metaDescription: 'Vertaile tyoarkkigeneraattoria ja Canvaa. Kumpi sopii paremmin tulosteliiketoimintaan? Nopeus, laatu ja. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
   },
   hero: {
     title: 'Tyoarkkigeneraattori vai Canva: kumpi sopii sinulle?',

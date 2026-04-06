@@ -18,7 +18,7 @@ const content: GuideContent = {
       'minimum levedygtigt produkt testning undersøgelsesworkflow nicheopdagelse systematisk proces',
     ],
     titleTag: 'Undersøg profitable printable-nicher — Metodeguide',
-    metaDescription: 'Sådan undersøger du profitable printable-nicher med markedspladsdata, nøgleordsanalyse, konkurrentundersøgelse, efterspørgselssignaler og systematiske valideringsmetoder.',
+    metaDescription: 'Sådan undersøger du profitable printable-nicher med markedspladsdata, nøgleordsanalyse, konkurrentundersøgelse, efterspørgselssignaler og systematiske.',
   },
 
   hero: {

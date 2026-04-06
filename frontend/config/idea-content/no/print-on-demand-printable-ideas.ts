@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Utskrift-på-forespørsel arbeidsark ideer til salg — Nisjeguide',
+    titleTag: 'Utskrift-på-forespørsel arbeidsark ideer til salg —...',
     metaDescription: 'Utforsk utskrift-på-forespørsel arbeidsark ideer for Etsy, Amazon KDP og Gumroad. POD forretningsmodeller, plattformtips og strategier for selgere.',
 
     primaryKeyword: 'utskrift-på-forespørsel arbeidsark ideer',

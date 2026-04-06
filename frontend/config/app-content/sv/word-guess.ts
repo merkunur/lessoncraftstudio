@@ -17,8 +17,7 @@ const content: AppContent = {
       'svenska marknaden ordpussel Etsy',
     ],
     titleTag: 'Ordgissningsspel att sälja på Etsy | LessonCraftStudio',
-    metaDescription:
-      'Skapa ordgissningsspel att sälja på Etsy och KDP. Bildledtrådar, 4 svårighetsnivåer, 11 språk, facit, kommersiell licens. Testa gratis med vattenmärke.',
+    metaDescription: 'Skapa ordgissningsspel att sälja på Etsy och KDP. Bildledtrådar, 4 svårighetsnivåer, 11 språk, facit, kommersiell licens. $49 engångsbetalning.',
   },
 
   hero: {

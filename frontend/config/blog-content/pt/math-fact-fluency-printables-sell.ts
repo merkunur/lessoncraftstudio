@@ -14,7 +14,7 @@ const content: BlogContent = {
       'mercado imprimíveis temáticos',
     ],
     titleTag: 'Fichas Fluência Matemática: Vender | LCS',
-    metaDescription: 'Fluência em fatos matemáticos — saber automaticamente que 7+5=12 — é uma habilidade que exige prática repetitiva. Fichas de fluência matemática oferec.',
+    metaDescription: 'Fluência em fatos matemáticos — saber automaticamente que 7+5=12 — é uma habilidade que exige prática repetitiva. Venda no Etsy & KDP com licenca comercial.',
   },
   hero: {
     title: 'Fichas Fluência Matemática: Vender',

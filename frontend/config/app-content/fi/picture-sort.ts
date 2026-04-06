@@ -15,8 +15,7 @@ const content: AppContent = {
       'tulostettava kategorian lajittelutoiminta liiketoimintatyökalu',
     ],
     titleTag: 'Kuvalajittelu-generaattori | Luo lajittelutyölehtia',
-    metaDescription:
-      'Luo kuvalajittelutyölehtia myytäväksi Etsyssä, KDP:ssä ja Gumroadissa. Kahden kategorian lajittelu, automaattinen vastausavain, 104 teemaa, 4–12 kuvaa. Ilmainen kokeilu.',
+    metaDescription: 'Luo kuvalajittelutyölehtia myytäväksi Etsyssä, KDP:ssä ja Gumroadissa. $49 kertamaksu.',
   },
 
   hero: {

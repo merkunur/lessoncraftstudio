@@ -6,7 +6,7 @@ const content: GuideContent = {
     secondaryKeywords: ['palapeli-työarkkigeneraattori', 'tulostettavat puuttuvat palat -työarkit myyntiin', 'kuvapalapulmat lapsille', 'jigsawpulma-työkalu'],
     lsiKeywords: ['älykkäästi irrotetut palat temaattisilla kuvilla', 'numeroidut ratkaisuvaihtoehdot häiritsevillä vaihtoehdoilla', 'automaattinen vastausavain keltakorosteisin merkinnöin', 'myy palapelityöarkkeja Etsyssä', 'Amazon KDP palapulakirjat', 'kaupallinen lisenssi palapelityökalu'],
     titleTag: 'Puuttuvat palat -pulmat — Opas',
-    metaDescription: 'Luo puuttuvat palat -pulmatyöarkkeja temaattisilla kuvilla, numeroiduilla vaihtoehdoilla, häiritsevillä valinnoilla ja automaattisilla vastausavaimilla. Opas myyjille.',
+    metaDescription: 'Luo puuttuvat palat -pulmatyöarkkeja temaattisilla kuvilla, numeroiduilla vaihtoehdoilla, häiritsevillä. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
   },
   hero: {
     title: 'Kuinka luot puuttuvat palat -pulmiä',

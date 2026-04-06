@@ -14,8 +14,8 @@ const content: ToolContent = {
       'ord avsloring kodeknekking arbeidsark',
       'tallkode matematikk aktivitet for brukere',
     ],
-    titleTag: 'Kodeknekker Matematikk Generator — Arbeidsark til Produktlinjen',
-    metaDescription: 'Lag kodeknekker matematikk arbeidsark for produktlinjeglede. Bildechiffer puslespill med addisjon, Ord Avsloring-modus, 11 språk. Gratis proveversjon med vannmerke.',
+    titleTag: 'Kodeknekker Matematikk Generator — Arbeidsark til...',
+    metaDescription: 'Lag kodeknekker matematikk arbeidsark for produktlinjeglede. Selg pa Etsy & KDP med kommersiell lisens.',
   },
 
   hero: {

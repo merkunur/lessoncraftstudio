@@ -15,7 +15,7 @@ const content: AppContent = {
       'Lösungsschlüssel Schwierigkeitsstufen kommerzielle Nutzung',
     ],
     titleTag: 'Wörter-Raten-Rätsel für Etsy erstellen | LCS',
-    metaDescription: 'Wörter-Raten-Rätsel erstellen und auf Etsy & KDP verkaufen. Bild-Hinweise, 4 Schwierigkeitsstufen, gewerbliche Lizenz. Kostenlos testen mit Wasserzeichen.',
+    metaDescription: 'Wörter-Raten-Rätsel erstellen und auf Etsy & KDP verkaufen. Bild-Hinweise, 4 Schwierigkeitsstufen, gewerbliche Lizenz. 49 $ einmalig.',
   },
 
   hero: {

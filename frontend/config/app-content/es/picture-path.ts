@@ -15,8 +15,7 @@ const content: AppContent = {
       'negocio fichas laberintos mercado hispano',
     ],
     titleTag: 'Laberintos ilustrados para vender en Etsy | LCS',
-    metaDescription:
-      'Cree laberintos ilustrados con imágenes para vender en Etsy y KDP. 104 temas, dificultad ajustable. Licencia comercial incluida. Pruebe gratis.',
+    metaDescription: 'Cree laberintos ilustrados con imágenes para vender en Etsy y KDP. 104 temas, dificultad ajustable. Licencia comercial incluida. Pruebe gratis. 49 $ pago unico.',
   },
 
   hero: {

@@ -27,8 +27,7 @@ const content: AppContent = {
       '11 idiomas',
     ],
     titleTag: 'Gerador de caça-palavras para vender | LCS',
-    metaDescription:
-      'Crie caça-palavras com imagens para vender na Hotmart, Etsy e KDP. Grades 5x5 a 30x30, 11 idiomas, gabarito colorido. Teste grátis com marca d\'água.',
+    metaDescription: 'Crie caça-palavras com imagens para vender na Hotmart, Etsy e KDP. Grades 5x5 a 30x30, 11 idiomas, gabarito colorido. 49 $ pagamento unico.',
   },
 
   hero: {

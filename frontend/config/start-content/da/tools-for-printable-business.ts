@@ -18,7 +18,7 @@ const content: StartContent = {
       'kommerciel licens arbejdsarksproduktion',
     ],
     titleTag: 'Bedste vaerktojer for saelgere af printbare produkter',
-    metaDescription: 'Bedste vaerktojer for saelgere af printbare produkter: arbejdsarksgeneratorer, designvaerktojer, platformsvaerktojer og workflows for en professionel vaerktojskasse.',
+    metaDescription: 'Bedste vaerktojer for saelgere af printbare produkter: arbejdsarksgeneratorer, designvaerktojer, platformsvaerktojer. Saelg pa Etsy & KDP med kommerciel licens.',
   },
 
   hero: {

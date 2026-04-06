@@ -14,7 +14,7 @@ const content: BlogContent = {
       'mercado imprimíveis temáticos',
     ],
     titleTag: 'Imprimíveis Ano Novo e Janeiro | LCS',
-    metaDescription: 'Janeiro é um mês de novos começos: resoluções de Ano Novo, planejamento e, no Brasil, preparação para o Carnaval em fevereiro. Imprimíveis de organiza.',
+    metaDescription: 'Janeiro é um mês de novos começos: resoluções de Ano Novo, planejamento e, no Brasil, preparação para o Carnaval em. Venda no Etsy & KDP com licenca comercial.',
   },
   hero: {
     title: 'Imprimíveis Ano Novo e Janeiro',

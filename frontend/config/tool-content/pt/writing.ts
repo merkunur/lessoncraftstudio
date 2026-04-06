@@ -24,8 +24,7 @@ const content: ToolContent = {
       'licença comercial',
     ],
     titleTag: 'Atividades de caligrafia grátis online | LCS',
-    metaDescription:
-      'Crie atividades de caligrafia e traçado de letras grátis. 5 modos de escrita, 11 idiomas, PDF imprimível. Teste online sem cadastro — marca d\'água removível.',
+    metaDescription: 'Crie atividades de caligrafia e traçado de letras grátis. 5 modos de escrita, 11 idiomas, PDF imprimível. Venda no Etsy & KDP com licenca comercial.',
   },
 
   hero: {

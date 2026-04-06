@@ -15,7 +15,7 @@ const content: ToolContent = {
       'hitta den annorlunda gratis',
     ],
     titleTag: 'Vilken hör inte hemma gratis | LessonCraftStudio',
-    metaDescription: 'Skapa vilken hör inte hemma-blad gratis online. Identiskt och Liknande läge, facit med röda cirklar, 104 teman. Gratis provversion med vattenmärke.',
+    metaDescription: 'Skapa vilken hör inte hemma-blad gratis online. Identiskt och Liknande läge, facit med röda cirklar, 104 teman. Salj pa Etsy & KDP med kommersiell licens.',
   },
 
   hero: {

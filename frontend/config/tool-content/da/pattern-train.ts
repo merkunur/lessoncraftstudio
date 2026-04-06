@@ -14,8 +14,8 @@ const content: ToolContent = {
       'tekstfri togvogn mønster arbejdsark værktøj',
       'AB ABC mønstersekvens arbejdsark generator',
     ],
-    titleTag: 'Mønster Arbejdsark Generator — Toggenerator | Sælg — Sælgerguide',
-    metaDescription: 'Generér mønstertog arbejdsark med fem mønstertyper, 11 tematiske togvogne, justerbart ledetrådantal og automatiske facit. Gratis prøveversion med vandmærke.',
+    titleTag: 'Mønster Arbejdsark Generator — Toggenerator | LCS',
+    metaDescription: 'Generér mønstertog arbejdsark med fem mønstertyper, 11 tematiske togvogne, justerbart ledetrådantal og automatiske. Saelg pa Etsy & KDP med kommerciel licens.',
   },
 
   hero: {

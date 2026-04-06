@@ -26,8 +26,7 @@ const content: AppContent = {
       'Kiwify',
     ],
     titleTag: 'Atividades de matemática para vender | LCS',
-    metaDescription:
-      'Crie atividades de matemática para vender na Hotmart, Etsy e KDP. Licença comercial, gabarito automático. Teste grátis com marca d\'água — sem cadastro.',
+    metaDescription: 'Crie atividades de matemática para vender na Hotmart, Etsy e KDP. Licença comercial, gabarito automático. 49 $ pagamento unico.',
   },
 
   hero: {

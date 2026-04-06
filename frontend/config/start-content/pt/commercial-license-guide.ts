@@ -24,7 +24,7 @@ const content: StartContent = {
       'uso permitido licença comercial LCS',
     ],
     titleTag: 'Licença comercial para vendedores | LCS',
-    metaDescription: 'Guia de licença comercial para vendedores de imprimíveis. O que cobre, o que permite e como usar para vender atividades no Etsy, Amazon KDP e Hotmart legalmente.',
+    metaDescription: 'Guia de licença comercial para vendedores de imprimíveis. O que cobre, o que permite e como usar para vender atividades no Etsy, Amazon KDP e Hotmart.',
   },
 
   hero: {

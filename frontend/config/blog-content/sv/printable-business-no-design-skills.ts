@@ -14,7 +14,7 @@ const content: BlogContent = {
       'Etsy butik svenska',
     ],
     titleTag: 'Utskriftsverksamhet utan Designkunskaper | LCS',
-    metaDescription: 'Starta utskriftsverksamhet utan designerfarenhet. Verktyg och generatorer som gör professionella resultat tillgängliga för alla.',
+    metaDescription: 'Starta utskriftsverksamhet utan designerfarenhet. Verktyg och generatorer som gör professionella resultat. Salj pa Etsy & KDP med kommersiell licens.',
   },
   hero: {
     title: 'Utskriftsverksamhet utan Designkunskaper',

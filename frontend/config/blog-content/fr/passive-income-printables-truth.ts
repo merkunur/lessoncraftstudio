@@ -14,7 +14,7 @@ const content: BlogContent = {
       'effort maintenance imprimables',
     ],
     titleTag: 'Revenus passifs d\'imprimables : la vérité | LCS',
-    metaDescription: 'Les revenus d\'imprimables sont-ils vraiment passifs ? La vérité sur l\'effort requis, la maintenance et ce que "passif" signifie réellement.',
+    metaDescription: 'Les revenus d\'imprimables sont-ils vraiment passifs ? La vérité sur l\'effort requis, la maintenance et ce que. Vendez sur Etsy & KDP avec licence commerciale.',
   },
   hero: {
     title: 'Revenus passifs d\'imprimables : la vérité sans filtre',

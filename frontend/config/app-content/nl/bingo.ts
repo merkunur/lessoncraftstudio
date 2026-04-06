@@ -15,8 +15,7 @@ const content: AppContent = {
       'printbare plaatjesbingo business tools',
     ],
     titleTag: 'Bingokaarten generator voor Etsy | LessonCraftStudio',
-    metaDescription:
-      'Maak bingokaarten met afbeeldingen om te verkopen op Etsy en KDP. Unieke kaarten, thema\'s, commerciële licentie. Gratis proefversie met watermerk.',
+    metaDescription: 'Maak bingokaarten met afbeeldingen om te verkopen op Etsy en KDP. Unieke kaarten, thema\'s, commerciële licentie. Gratis proefversie met watermerk. $49 eenmalig.',
   },
 
   hero: {

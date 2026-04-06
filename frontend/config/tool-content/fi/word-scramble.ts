@@ -15,7 +15,7 @@ const content: ToolContent = {
       'kokeile ennen ostoa lukutaitotyökalut',
     ],
     titleTag: 'Ilmainen Kirjainsekoitusgeneraattori Verkossa | LCS',
-    metaDescription: 'Tee kirjainsekoitustehtäviä ilmaiseksi verkossa vesileimalla — ei rekisteröitymistä. Kuvavihjeet, sekoitetut kirjaimet, 4 vaikeustasoa. Päivitä kaupalliseen lisenssiin.',
+    metaDescription: 'Tee kirjainsekoitustehtäviä ilmaiseksi verkossa vesileimalla — ei rekisteröitymistä. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
   },
 
   hero: {

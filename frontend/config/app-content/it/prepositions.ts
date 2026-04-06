@@ -22,8 +22,7 @@ const content: AppContent = {
       'business di stampabili',
     ],
     titleTag: 'Schede preposizioni italiano L2 per Eduki | LCS',
-    metaDescription:
-      'Crea schede di preposizioni per italiano L2 da vendere su Eduki e Etsy. 8 preposizioni, CILS/CELI/PLIDA, licenza commerciale. Prova gratis con filigrana.',
+    metaDescription: 'Crea schede di preposizioni per italiano L2 da vendere su Eduki e Etsy. 8 preposizioni, CILS/CELI/PLIDA, licenza commerciale. 49 $ pagamento unico.',
   },
 
   hero: {

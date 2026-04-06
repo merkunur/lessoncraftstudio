@@ -14,7 +14,7 @@ const content: BlogContent = {
       'verkkokauppa tulosteet',
     ],
     titleTag: 'Tilauspaino vai digitaalinen lataus? | LCS',
-    metaDescription: 'Vertaile tilauspaino- ja digitaalisen latauksen malleja tulosteille. Kumpi sopii paremmin sinun liiketoimintamalliisi?',
+    metaDescription: 'Vertaile tilauspaino- ja digitaalisen latauksen malleja tulosteille. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
   },
   hero: {
     title: 'Tilauspaino vai digitaalinen lataus: kumpi malli?',

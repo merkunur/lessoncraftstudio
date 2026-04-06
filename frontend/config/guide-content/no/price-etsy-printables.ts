@@ -14,7 +14,7 @@ const content: GuideContent = {
       'digital produkt prisstrategi',
       'printable pakkeprissetting',
     ],
-    titleTag: 'Slik prissetter du printbare arbeidsark på Etsy | LCS',
+    titleTag: 'Prissetter du printbare arbeidsark på Etsy | LCS',
     metaDescription: 'Prisguide for printbare arbeidsark på Etsy. Individuell vs pakkeprissetting, konkurranseanalyse og fortjenestemaksimerende strategier for printable-selgere.',
   },
 

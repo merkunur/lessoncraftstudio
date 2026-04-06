@@ -3,7 +3,7 @@ import type { IdeaContent } from '../types';
 const content: IdeaContent = {
   seo: {
     titleTag: 'Specialpædagogik printbare idéer til salg — Nicheguide',
-    metaDescription: 'Opdag specialpædagogiske printbare idéer til salg på Etsy, KDP og Gumroad. Produktkoncepter for sælgere rettet mod terapeuter og forældre til børn med særlige behov.',
+    metaDescription: 'Opdag specialpædagogiske printbare idéer til salg på Etsy, KDP og Gumroad. Produktkoncepter for sælgere rettet mod terapeuter og forældre til børn med.',
 
     primaryKeyword: 'specialpædagogik printbare idéer',
     secondaryKeywords: [

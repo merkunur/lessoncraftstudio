@@ -24,8 +24,7 @@ const content: ToolContent = {
       'licença comercial',
     ],
     titleTag: 'Grades de associação grátis online | LCS',
-    metaDescription:
-      'Crie quebra-cabeças de associação em grade grátis. 104 temas, gabarito automático, PDF imprimível. Teste online sem cadastro — marca d\'água removível.',
+    metaDescription: 'Crie quebra-cabeças de associação em grade grátis. 104 temas, gabarito automático, PDF imprimível. Venda no Etsy & KDP com licenca comercial.',
   },
 
   hero: {

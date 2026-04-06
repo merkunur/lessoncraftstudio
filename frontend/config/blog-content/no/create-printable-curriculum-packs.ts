@@ -5,7 +5,7 @@ const content: BlogContent = {
     secondaryKeywords: ['lag pensum pakker printables tips', 'lag pensum pakker printables guide', 'lag pensum pakker printables steg for steg'],
     lsiKeywords: ['arbeidsark produksjon', 'printable forretning guide', 'Etsy selger tutorial'],
     titleTag: 'Lag pensum-pakker som printables | LCS',
-    metaDescription: 'Pensum-pakker er premium-produkter som kan prises 2–3 ganger høyere enn vanlige pakker. Denne guiden viser deg hvordan du lager komplette læringspakke',
+    metaDescription: 'Pensum-pakker er premium-produkter som kan prises 2–3 ganger høyere enn vanlige pakker. Selg pa Etsy & KDP med kommersiell lisens.',
   },
   hero: {
     title: 'Lag pensum-pakker som printables',

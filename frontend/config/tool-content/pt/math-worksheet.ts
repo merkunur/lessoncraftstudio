@@ -24,8 +24,7 @@ const content: ToolContent = {
       'licença comercial',
     ],
     titleTag: 'Atividades de matemática grátis online | LCS',
-    metaDescription:
-      'Crie atividades de matemática grátis com cálculos numéricos. Soma, subtração, multiplicação, divisão. Teste online sem cadastro — marca d\'água removível.',
+    metaDescription: 'Crie atividades de matemática grátis com cálculos numéricos. Soma, subtração, multiplicação, divisão. Venda no Etsy & KDP com licenca comercial.',
   },
 
   hero: {

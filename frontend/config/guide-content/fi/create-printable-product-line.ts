@@ -18,7 +18,7 @@ const content: GuideContent = {
       'kaupallinen lisenssi tuotelinja',
     ],
     titleTag: 'Luo tulostettava tuotelinja — Opas',
-    metaDescription: 'Rakenna johdonmukainen tulostettava tuotelinja. Visuaalinen yhtenäisyys, nimeämiskäytännöt, strateginen järjestys ja laajentaminen Etsyssä, KDP:ssä ja Gumroadissa.',
+    metaDescription: 'Rakenna johdonmukainen tulostettava tuotelinja. Visuaalinen yhtenäisyys, nimeämiskäytännöt, strateginen järjestys ja laajentaminen Etsyssä, KDP:ssä ja.',
   },
 
   hero: {

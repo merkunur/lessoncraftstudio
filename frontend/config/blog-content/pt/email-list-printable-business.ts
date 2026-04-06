@@ -14,7 +14,7 @@ const content: BlogContent = {
       'empreendedor digital educativo',
     ],
     titleTag: 'Lista Email Negócio Imprimíveis | LCS',
-    metaDescription: 'O Etsy não compartilha emails dos seus clientes. Para construir um negócio sustentável, você precisa de sua própria lista de email. Este guia mostra com...',
+    metaDescription: 'O Etsy não compartilha emails dos seus clientes. Para construir um negócio sustentável, você precisa de sua própria lista de email. Este guia mostra com.',
   },
   hero: {
     title: 'Lista Email Negócio Imprimíveis',

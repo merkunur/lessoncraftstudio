@@ -15,8 +15,7 @@ const content: AppContent = {
       'printbar visuel søgeaktivitet forretningsværktøj',
     ],
     titleTag: 'Skjulte Objekter Generator | Opret Søgearbejdsark',
-    metaDescription:
-      'Opret skjulte objekter arbejdsark til salg på Etsy, KDP og Gumroad. Søgning og Find den Ulige Billede-tilstande, nul-overlap scener, automatisk facit. Gratis.',
+    metaDescription: 'Opret skjulte objekter arbejdsark til salg på Etsy, KDP og Gumroad. $49 engangsbetaling.',
   },
 
   hero: {

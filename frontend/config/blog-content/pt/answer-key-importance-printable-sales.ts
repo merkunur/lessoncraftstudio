@@ -14,7 +14,7 @@ const content: BlogContent = {
       'guia prático imprimíveis',
     ],
     titleTag: 'A Importância do Gabarito nas Vendas | LCS',
-    metaDescription: 'Incluir gabarito (answer key) é a forma mais simples de aumentar o valor percebido dos seus imprimíveis. Compradores listam "answer key included" como.',
+    metaDescription: 'Incluir gabarito (answer key) é a forma mais simples de aumentar o valor percebido dos seus imprimíveis. Venda no Etsy & KDP com licenca comercial.',
   },
   hero: {
     title: 'A Importância do Gabarito nas Vendas',

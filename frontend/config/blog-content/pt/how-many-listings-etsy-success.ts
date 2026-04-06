@@ -14,7 +14,7 @@ const content: BlogContent = {
       'empreendedor digital educativo',
     ],
     titleTag: 'Quantos Anúncios no Etsy para Sucesso | LCS',
-    metaDescription: 'Existe um mito no Etsy: "publique 100 listagens e o dinheiro vem". A realidade é mais nuançada. O número ideal de listagens depende do seu nicho, qualid...',
+    metaDescription: 'Existe um mito no Etsy: "publique 100 listagens e o dinheiro vem". A realidade é mais nuançada. O número ideal de listagens depende do seu nicho, qualid.',
   },
   hero: {
     title: 'Quantos Anúncios no Etsy para Sucesso',

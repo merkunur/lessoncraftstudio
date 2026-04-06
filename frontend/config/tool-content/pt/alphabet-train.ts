@@ -23,8 +23,7 @@ const content: ToolContent = {  seo: {
       'licença comercial',
     ],
     titleTag: 'Atividades de alfabeto grátis online | LCS',
-    metaDescription:
-      'Crie atividades de trem do alfabeto grátis. 11 idiomas, associação letra-imagem, PDF imprimível. Teste online sem cadastro — marca d\'água removível.',
+    metaDescription: 'Crie atividades de trem do alfabeto grátis. 11 idiomas, associação letra-imagem, PDF imprimível. Venda no Etsy & KDP com licenca comercial.',
   },
 
   hero: {

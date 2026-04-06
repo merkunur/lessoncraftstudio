@@ -3,7 +3,7 @@ import type { IdeaContent } from '../types';
 const content: IdeaContent = {
   seo: {
     titleTag: 'Ystävänpäivän tulostettavat ideat myyntiin — Nicheopas',
-    metaDescription: 'Tutustu ystävänpäivän tulostettaviin ideoihin myyntiin Etsyssä, Amazon KDP:ssä ja Gumroadilla. Ystävänpäivätuotekonseptit, kausistrategiat ja alustavinkit myyjille.',
+    metaDescription: 'Tutustu ystävänpäivän tulostettaviin ideoihin myyntiin Etsyssä, Amazon KDP:ssä ja Gumroadilla.',
 
     primaryKeyword: 'ystävänpäivä tulostettavat ideat',
     secondaryKeywords: [

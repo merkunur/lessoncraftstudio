@@ -14,7 +14,7 @@ const content: BlogContent = {
       'Etsy butik svenska',
     ],
     titleTag: 'Mattema-Arbetsblad: Sälj Online | LCS',
-    metaDescription: 'Mattema arbetsblad säljer starkt. Frukt, grönsaker och mat från världen — engagerande teman för barn.',
+    metaDescription: 'Mattema arbetsblad säljer starkt. Frukt, grönsaker och mat från världen — engagerande teman för barn. Salj pa Etsy & KDP med kommersiell licens.',
   },
   hero: {
     title: 'Mattema-Arbetsblad: Sälj Online',

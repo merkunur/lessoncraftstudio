@@ -18,7 +18,7 @@ const content: GuideContent = {
       'kaupallinen lisenssi varjotyöarkkityökalu',
     ],
     titleTag: 'Luo varjojen yhdistämistyöarkkeja — Opas',
-    metaDescription: 'Luo varjojen yhdistämistyöarkkeja automaattisilla silueteilla. Värilliset kuvat ja pikselitason mustat siluetit, vastausavaimet ja tulostusvalmiit PDF:t myyntiin.',
+    metaDescription: 'Luo varjojen yhdistämistyöarkkeja automaattisilla silueteilla. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
   },
 
   hero: {

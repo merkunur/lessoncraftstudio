@@ -14,7 +14,7 @@ const content: BlogContent = {
       'desenho temático colorir',
     ],
     titleTag: 'Negócio Páginas Colorir 2026 | LCS',
-    metaDescription: 'Monte um negócio lucrativo com páginas de colorir em 2026. Tendências e estratégias atualizadas. Teste grátis com marca d\'água.',
+    metaDescription: 'Monte um negócio lucrativo com páginas de colorir em 2026. Tendências e estratégias atualizadas. Venda no Etsy & KDP com licenca comercial.',
   },
   hero: {
     title: 'Negócio de Páginas de Colorir em 2026',

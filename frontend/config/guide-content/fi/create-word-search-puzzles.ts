@@ -18,7 +18,7 @@ const content: GuideContent = {
       'kaupallinen lisenssi palapeliväline',
     ],
     titleTag: 'Luo sanakäärmepalapelejä — Opas',
-    metaDescription: 'Luo sanakäärmepalapelejä temaattisilla kuvavihjelmillä. Monikielinen sanastotila, mukautettava ruudukkokoko, vastausavaimet ja tulostusvalmiit PDF:t myyntiin.',
+    metaDescription: 'Luo sanakäärmepalapelejä temaattisilla kuvavihjelmillä. Monikielinen sanastotila, mukautettava ruudukkokoko,. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
   },
 
   hero: {

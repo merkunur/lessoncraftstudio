@@ -15,7 +15,7 @@ const content: ToolContent = {
       'reconocimiento de patrones con ilustraciones PDF gratis',
     ],
     titleTag: 'Reconocimiento de patrones gratis | LCS',
-    metaDescription: 'Cree fichas de reconocimiento de patrones gratis sin registro. Secuencias visuales configurables, 104 temas, respuestas incluidas.',
+    metaDescription: 'Cree fichas de reconocimiento de patrones gratis sin registro. Venda en Etsy & KDP con licencia comercial.',
   },
 
   hero: {

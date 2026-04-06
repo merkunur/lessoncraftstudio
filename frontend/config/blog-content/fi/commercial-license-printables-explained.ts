@@ -14,7 +14,7 @@ const content: BlogContent = {
       'verkkokauppa tulosteet',
     ],
     titleTag: 'Kaupallinen lisenssi tulosteille | LCS',
-    metaDescription: 'Mita kaupallinen lisenssi tarkoittaa tulosteille? Mita saat myoda ja milla ehdoilla. Selkea opas yrittajalle.',
+    metaDescription: 'Mita kaupallinen lisenssi tarkoittaa tulosteille? Mita saat myoda ja milla ehdoilla. Selkea opas yrittajalle. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
   },
   hero: {
     title: 'Kaupallinen lisenssi tulosteille selitettyna',

@@ -15,7 +15,7 @@ const content: ToolContent = {
       'automatisch antwoordblad schaduwpuzzel tool',
     ],
     titleTag: 'Schaduwwerkbladen gratis online | LessonCraftStudio',
-    metaDescription: 'Maak gratis schaduwwerkbladen online met pixelniveau silhouetten, Maak het Compleet modus en automatische antwoordbladen. Probeer nu zonder account.',
+    metaDescription: 'Maak gratis schaduwwerkbladen online met pixelniveau silhouetten, Maak het Compleet modus en automatische. Verkoop op Etsy & KDP met commerciele licentie.',
   },
 
   hero: {

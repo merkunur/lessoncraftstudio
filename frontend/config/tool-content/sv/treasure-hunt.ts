@@ -15,7 +15,7 @@ const content: ToolContent = {
       'riktningspussel gratis',
     ],
     titleTag: 'Skattjakt gratis online | LessonCraftStudio',
-    metaDescription: 'Skapa skattjakt gratis online. 5×5 koordinatrutnät, grundläggande och kompass, 11 språk, facit, 104 teman. Gratis provversion med vattenmärke.',
+    metaDescription: 'Skapa skattjakt gratis online. 5×5 koordinatrutnät, grundläggande och kompass, 11 språk, facit, 104 teman. Salj pa Etsy & KDP med kommersiell licens.',
   },
 
   hero: {

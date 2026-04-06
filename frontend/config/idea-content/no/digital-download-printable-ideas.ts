@@ -3,7 +3,7 @@ import type { IdeaContent } from '../types';
 const content: IdeaContent = {
   seo: {
     titleTag: 'Digital nedlasting arbeidsark ideer til salg — Guide',
-    metaDescription: 'Digital nedlasting arbeidsarkideer for Etsy, Gumroad og Shopify selgere. Bygg en nulllager utskriftbar virksomhet med øyeblikkelig levering av pedagogiske PDFer.',
+    metaDescription: 'Digital nedlasting arbeidsarkideer for Etsy, Gumroad og Shopify selgere. Bygg en nulllager utskriftbar virksomhet med øyeblikkelig levering av pedagogiske.',
 
     primaryKeyword: 'digital nedlasting arbeidsark ideer',
     secondaryKeywords: [

@@ -17,8 +17,7 @@ const content: AppContent = {
       'svenska marknaden udda bilden Etsy',
     ],
     titleTag: 'Vilken hör inte hemma för Etsy | LessonCraftStudio',
-    metaDescription:
-      'Skapa vilken hör inte hemma-blad att sälja på Etsy och KDP. Identisk och Liknande lägen, facit med röda cirklar, 104 teman. Testa gratis med vattenmärke.',
+    metaDescription: 'Skapa vilken hör inte hemma-blad att sälja på Etsy och KDP. Identisk och Liknande lägen, facit med röda cirklar, 104 teman. $49 engångsbetalning.',
   },
 
   hero: {

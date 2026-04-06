@@ -16,7 +16,7 @@ const content: BundleContent = {
       'masseproduksjon visuelle arbeidsark verktøy',
     ],
     titleTag: 'Visuell Læring Arbeidsark Pakke — 7 Aktivitetsgeneratorer',
-    metaDescription: 'Få 7 visuelle læringsgeneratorer i én pakke. Lag fargeleggingssider, tegning, mønster, størrelsessammenligning, diagram og linjesporing til salg online. Prøv gratis.',
+    metaDescription: 'Få 7 visuelle læringsgeneratorer i én pakke. Lag fargeleggingssider, tegning, mønster, størrelsessammenligning, diagram og linjesporing til salg online. $49...',
   },
 
   hero: {

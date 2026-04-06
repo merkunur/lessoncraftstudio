@@ -15,7 +15,7 @@ const content: ToolContent = {
       'kryptaritmetik arbetsblad gratis',
     ],
     titleTag: 'Kodpussel matte gratis online | LessonCraftStudio',
-    metaDescription: 'Skapa kodknäckande mattepussel gratis online. Bildchiffer med addition, Avslöja Ord-läge, 11 språk. Gratis provversion med vattenmärke.',
+    metaDescription: 'Skapa kodknäckande mattepussel gratis online. Bildchiffer med addition, Avslöja Ord-läge, 11 språk. Salj pa Etsy & KDP med kommersiell licens.',
   },
 
   hero: {

@@ -17,8 +17,8 @@ const content: StartContent = {
       'monikielinen markkinalaajentaminen tulostettavat',
       'uudelleensijoitusstrategia tulostettavien liiketoiminta',
     ],
-    titleTag: 'Skaalaa tulostettavien liiketoiminta — sivuprojektista kokopäiväiseksi',
-    metaDescription: 'Näin skaalaat tulostettavien liiketoimintasi sivuprojektista kokopäiväiseksi. Katalogin laajennus, monialustadistribuutio, niputus ja työnkulun optimointi.',
+    titleTag: 'Skaalaa tulostettavien liiketoiminta — sivuprojektista...',
+    metaDescription: 'Näin skaalaat tulostettavien liiketoimintasi sivuprojektista kokopäiväiseksi. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
   },
 
   hero: {

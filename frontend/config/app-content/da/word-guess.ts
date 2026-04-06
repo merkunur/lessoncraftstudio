@@ -15,8 +15,7 @@ const content: AppContent = {
       'ordpuslespil generator kommercielt brug',
     ],
     titleTag: 'Gæt Ordet Generator | Opret og Sælg Ordpuslespil Online',
-    metaDescription:
-      'Opret gæt ordet-arbejdsark til salg på Etsy, KDP og Gumroad. Billedledetråde, 4 sværhedsgrader, 3 indholdskilder, 11 sprog. Gratis prøveversion.',
+    metaDescription: 'Opret gæt ordet-arbejdsark til salg på Etsy, KDP og Gumroad. Billedledetråde, 4 sværhedsgrader, 3 indholdskilder, 11 sprog. $49 engangsbetaling.',
   },
 
   hero: {

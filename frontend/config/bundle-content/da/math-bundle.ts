@@ -16,7 +16,7 @@ const content: BundleContent = {
       'masseproduktion matematik arbejdsark værktøj',
     ],
     titleTag: 'Matematik Arbejdsark Pakke — 6 Generatorer | Matematik',
-    metaDescription: 'Få 6 matematik arbejdsark-generatorer i én pakke. Lav additions-, subtraktions-, kodpuslespil-, sammenlignings- og algebraarbejdsark til salg på Etsy, KDP og Gumroad.',
+    metaDescription: 'Få 6 matematik arbejdsark-generatorer i én pakke. Addition, subtraktion, kodpuslespil og algebra til salg på Etsy & KDP. $149 engangsbetaling.',
   },
 
   hero: {

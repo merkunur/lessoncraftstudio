@@ -15,8 +15,7 @@ const content: AppContent = {
       'commercieel gebruik vergelijkingsgenerator',
     ],
     titleTag: 'Meer en minder werkbladen verkopen | LessonCraftStudio',
-    metaDescription:
-      'Maak meer-en-minder vergelijkingswerkbladen om te verkopen op Etsy en KDP. Thema-afbeeldingen, antwoorden, commerciële licentie. Gratis proefversie.',
+    metaDescription: 'Maak meer-en-minder vergelijkingswerkbladen om te verkopen op Etsy en KDP. Thema-afbeeldingen, antwoorden, commerciële licentie. $49 eenmalig.',
   },
 
   hero: {

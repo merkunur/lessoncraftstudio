@@ -14,7 +14,7 @@ const content: BlogContent = {
       'tulostettava myy',
     ],
     titleTag: 'Elainaihe-tulosteet: myyntiopas | LCS',
-    metaDescription: 'Myy elainaiheisia tulosteita. Elaimet ovat lasten suosikkiteema numero yksi. Ikivihrea kategoria vakaalla kysynnalla.',
+    metaDescription: 'Myy elainaiheisia tulosteita. Elaimet ovat lasten suosikkiteema numero yksi. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
   },
   hero: {
     title: 'Elainaihe-tulosteet: lasten suosikkiteeman myynti',

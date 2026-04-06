@@ -15,7 +15,7 @@ const content: ToolContent = {
       'kodknäckning arbetsblad gratis',
     ],
     titleTag: 'Kryptogram generator gratis | LessonCraftStudio',
-    metaDescription: 'Skapa kryptogram gratis online. Bildchiffer kodning, svårighetsreglage, 11 språk med svenska ÅÄÖ, facit. Gratis provversion med vattenmärke.',
+    metaDescription: 'Skapa kryptogram gratis online. Bildchiffer kodning, svårighetsreglage, 11 språk med svenska ÅÄÖ, facit. Salj pa Etsy & KDP med kommersiell licens.',
   },
 
   hero: {

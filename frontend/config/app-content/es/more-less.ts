@@ -15,8 +15,7 @@ const content: AppContent = {
       'negocio fichas matemáticas básicas mercado hispano',
     ],
     titleTag: 'Fichas de mayor y menor para Etsy y KDP | LCS',
-    metaDescription:
-      'Cree fichas de mayor y menor para vender en Etsy y KDP. Comparación visual con imágenes temáticas. Licencia comercial incluida. Pruebe gratis.',
+    metaDescription: 'Cree fichas de mayor y menor para vender en Etsy y KDP. Comparación visual con imágenes temáticas. Licencia comercial incluida. Pruebe gratis. 49 $ pago unico.',
   },
 
   hero: {

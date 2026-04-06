@@ -15,7 +15,7 @@ const content: ToolContent = {
       'Buchstabengitter-Rätsel mehrsprachig',
     ],
     titleTag: 'Kostenloser Suchsel-Generator mit Bildern | LCS',
-    metaDescription: 'Kostenloser Suchsel-Generator mit Bildern — Wortsuchrätsel online erstellen, 11 Sprachen, Richtungssteuerung. Testversion mit Wasserzeichen verfügbar.',
+    metaDescription: 'Kostenloser Suchsel-Generator mit Bildern — Wortsuchrätsel online erstellen, 11 Sprachen,. Verkaufen Sie auf Etsy & KDP mit gewerblicher Lizenz.',
   },
 
   hero: {

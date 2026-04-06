@@ -15,7 +15,7 @@ const content: GuideContent = {
       'monikategoriinen Etsy-kauppa',
     ],
     titleTag: 'Myy opetuksellisia tulostettavia Etsyssä — Opas',
-    metaDescription: 'Myy opetuksellisia tulostettavia Etsyssä. Monikategorinen kauppastrategia, tuotelistauksen optimointi, SEO ja skaalautuminen opetuksellisten tulostettavien myyntiin.',
+    metaDescription: 'Myy opetuksellisia tulostettavia Etsyssä. Monikategorinen kauppastrategia, tuotelistauksen optimointi, SEO ja skaalautuminen opetuksellisten tulostettavien.',
   },
 
   hero: {

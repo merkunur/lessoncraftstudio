@@ -15,7 +15,7 @@ const content: AppContent = {
       'Buchstabenlegende Lösungsschlüssel kommerzielle Nutzung',
     ],
     titleTag: 'Kryptogramm-Rätsel für Etsy verkaufen | LCS',
-    metaDescription: 'Kryptogramm-Rätsel erstellen und auf Etsy & KDP verkaufen. Bilder-Chiffre, Alphabet mit ä/ö/ü/ß, gewerbliche Lizenz. Kostenlos testen mit Wasserzeichen.',
+    metaDescription: 'Kryptogramm-Rätsel erstellen und auf Etsy & KDP verkaufen. Bilder-Chiffre, Alphabet mit ä/ö/ü/ß, gewerbliche Lizenz. 49 $ einmalig.',
   },
 
   hero: {

@@ -15,7 +15,7 @@ const content: ToolContent = {
       'visuellt pussel gratis',
     ],
     titleTag: 'Saknade bitar gratis online | LessonCraftStudio',
-    metaDescription: 'Skapa saknade bitar-pussel gratis online. 6 bitformer, 1–5 saknade bitar, distraktorer, facit, 104 teman. Gratis provversion med vattenmärke.',
+    metaDescription: 'Skapa saknade bitar-pussel gratis online. 6 bitformer, 1–5 saknade bitar, distraktorer, facit, 104 teman. Salj pa Etsy & KDP med kommersiell licens.',
   },
 
   hero: {

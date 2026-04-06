@@ -15,8 +15,7 @@ const content: AppContent = {
       'utskriftsbar visuell matchingsaktivitet forretningsverktoy',
     ],
     titleTag: 'Skyggematching Generator | Lag Silhuettpuslespill',
-    metaDescription:
-      'Lag skyggematching arbeidsark til salg på Etsy, KDP og Gumroad. Skyggematching og gjor-det-helt-moduser, autosilhuetter, 104 temaer. Gratis proveversjon.',
+    metaDescription: 'Lag skyggematching arbeidsark til salg på Etsy, KDP og Gumroad. Skyggematching og gjor-det-helt-moduser, autosilhuetter, 104 temaer. $49 engangsbetaling.',
   },
 
   hero: {

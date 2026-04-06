@@ -17,8 +17,7 @@ const content: AppContent = {
       'svenska marknaden skuggblad Etsy',
     ],
     titleTag: 'Skuggkopplingsblad för Etsy | LessonCraftStudio',
-    metaDescription:
-      'Skapa skuggkopplingsblad att sälja på Etsy och KDP. Siluettmatchning och Gör Den Hel, autosiluetter, facit, 104 teman. Testa gratis med vattenmärke.',
+    metaDescription: 'Skapa skuggkopplingsblad att sälja på Etsy och KDP. Siluettmatchning och Gör Den Hel, autosiluetter, facit, 104 teman. $49 engångsbetalning.',
   },
 
   hero: {

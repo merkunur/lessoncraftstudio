@@ -14,7 +14,7 @@ const content: GuideContent = {
       'mattearbeidsark virksomhetsguide',
       'lag salgbare matteprodukter',
     ],
-    titleTag: 'Hvordan lage addisjonsarbeidsark for salg | LCS',
+    titleTag: 'Lage addisjonsarbeidsark for salg | LCS',
     metaDescription: 'Trinn-for-trinn guide til a lage addisjonsarbeidsark for salg pa Etsy og KDP. Temavalg, vanskelighetsnivåer, pakkestrategier og oppforingstips.',
   },
 

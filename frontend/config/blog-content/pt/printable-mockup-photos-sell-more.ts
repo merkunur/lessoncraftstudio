@@ -14,7 +14,7 @@ const content: BlogContent = {
       'empreendedor digital educativo',
     ],
     titleTag: 'Fotos Mockup Imprimíveis | LCS',
-    metaDescription: 'A foto é o primeiro contato do comprador com seu produto. Mockups profissionais mostrando fichas impressas em contexto (mesa, sala de aula, criança usan...',
+    metaDescription: 'A foto é o primeiro contato do comprador com seu produto. Mockups profissionais mostrando fichas impressas em. Venda no Etsy & KDP com licenca comercial.',
   },
   hero: {
     title: 'Fotos Mockup Imprimíveis',

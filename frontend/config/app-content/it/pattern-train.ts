@@ -15,8 +15,7 @@ const content: AppContent = {
       'stampabili treno dei modelli uso commerciale',
     ],
     titleTag: 'Schede Sequenze per Business Stampabili | Crea e Vendi',
-    metaDescription:
-      'Crea schede treno delle sequenze da vendere su Etsy e KDP. 5 tipi di pattern, vagoni tematici, indizi regolabili. Licenza commerciale. Prova gratis.',
+    metaDescription: 'Crea schede treno delle sequenze da vendere su Etsy e KDP. 5 tipi di pattern, vagoni tematici, indizi regolabili. Licenza commerciale. 49 $ pagamento unico.',
   },
 
   hero: {

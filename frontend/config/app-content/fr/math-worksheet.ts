@@ -15,8 +15,7 @@ const content: AppContent = {
       'corrigé automatique puzzles algébriques revenu passif',
     ],
     titleTag: 'Fiches de calcul pour vendeurs Etsy & KDP | LCS',
-    metaDescription:
-      'Créez des fiches de calcul algébriques à vendre sur Etsy & KDP. 4 niveaux, solution unique, licence commerciale. Testez gratuitement avec filigrane.',
+    metaDescription: 'Créez des fiches de calcul algébriques à vendre sur Etsy & KDP. 4 niveaux, solution unique, licence commerciale. 49 $ paiement unique.',
   },
 
   hero: {

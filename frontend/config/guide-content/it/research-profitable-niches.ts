@@ -17,7 +17,7 @@ const content: GuideContent = {
       'tendenze marketplace decisioni basate sui dati',
     ],
     titleTag: 'Nicchie redditizie per stampabili | LessonCraftStudio',
-    metaDescription: 'Come trovare nicchie redditizie per stampabili con dati reali: analisi marketplace, parole chiave, concorrenza e validazione. Processo passo dopo passo.',
+    metaDescription: 'Come trovare nicchie redditizie per stampabili con dati reali: analisi marketplace, parole chiave, concorrenza e. Vendi su Etsy & KDP con licenza commerciale.',
   },
 
   hero: {

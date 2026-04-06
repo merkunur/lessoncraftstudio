@@ -14,7 +14,7 @@ const content: BlogContent = {
       'Etsy butik svenska',
     ],
     titleTag: 'Påsk-Utskrifter: Vårens Affärsmöjlighet | LCS',
-    metaDescription: 'Påsk-utskrifter säljer från mars till april. Äggjaktsaktiviteter, vårfärgläggning och påskpyssel. Strategier för Sverige.',
+    metaDescription: 'Påsk-utskrifter säljer från mars till april. Äggjaktsaktiviteter, vårfärgläggning och påskpyssel. Salj pa Etsy & KDP med kommersiell licens.',
   },
   hero: {
     title: 'Påsk-Utskrifter: Vårens Affärsmöjlighet',

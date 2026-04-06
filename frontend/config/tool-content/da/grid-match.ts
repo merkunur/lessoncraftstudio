@@ -15,7 +15,7 @@ const content: ToolContent = {
       'konfigurerbar ledetrådscelle sværhed gittergenerator',
     ],
     titleTag: 'Gitterpuslespil Generator — Gitter Arbejdsark Generator',
-    metaDescription: 'Lav gittermatchnings arbejdsark med konfigurerbar gitterstørrelse, justerbare ledetrådsceller, Fisher-Yates-blanding og 104 tematiske billeder. Gratis prøveversion.',
+    metaDescription: 'Lav gittermatchnings arbejdsark med konfigurerbar gitterstørrelse, justerbare ledetrådsceller, Fisher-Yates-blanding. Saelg pa Etsy & KDP med kommerciel licens.',
   },
 
   hero: {

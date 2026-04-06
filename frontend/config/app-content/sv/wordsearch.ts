@@ -17,8 +17,7 @@ const content: AppContent = {
       'svenska marknaden ordpussel Etsy',
     ],
     titleTag: 'Ordpussel att sälja på Etsy och KDP | LessonCraftStudio',
-    metaDescription:
-      'Skapa ordpussel med bilder att sälja på Etsy och KDP. Justerbart rutnät 5–30, 11 språk, facit, kommersiell licens. Testa gratis med vattenmärke.',
+    metaDescription: 'Skapa ordpussel med bilder att sälja på Etsy och KDP. Justerbart rutnät 5–30, 11 språk, facit, kommersiell licens. $49 engångsbetalning.',
   },
 
   hero: {

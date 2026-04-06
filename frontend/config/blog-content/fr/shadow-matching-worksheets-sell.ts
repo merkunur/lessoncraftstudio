@@ -13,7 +13,7 @@ const content: BlogContent = {
       'fiches silhouettes maternelle',
       'activités discrimination visuelle',
     ],
-    titleTag: 'Fiches association d\'ombres : pourquoi elles se vendent | LCS',
+    titleTag: 'Fiches association d\'ombres : pourquoi elles se vendent',
     metaDescription: 'Les fiches d\'association d\'ombres se vendent mieux que les fiches classiques. Découvrez pourquoi et comment exploiter cette niche en 2026.',
   },
   hero: {

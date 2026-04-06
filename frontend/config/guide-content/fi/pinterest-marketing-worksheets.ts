@@ -18,7 +18,7 @@ const content: GuideContent = {
       'Pinterest-sisältöstrategia pin-mallit visuaalinen suunnittelu brändäys',
     ],
     titleTag: 'Pinterest-markkinointi työarkeille — Strategiaopas',
-    metaDescription: 'Pinterest-markkinointistrategia tulostettavien työarkkien myyjille. Pin-optimointi, taulustrategia, hakusanatutkimus ja liikenne markkinapaikkakauppoihin.',
+    metaDescription: 'Pinterest-markkinointistrategia tulostettavien työarkkien myyjille. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
   },
 
   hero: {

@@ -23,8 +23,7 @@ const content: ToolContent = {  seo: {
       'licença comercial',
     ],
     titleTag: 'Comparação de tamanhos grátis online | LCS',
-    metaDescription:
-      'Crie atividades de grande e pequeno grátis com imagens. 104 temas, gabarito automático, PDF imprimível. Teste online sem cadastro — marca d\'água removível.',
+    metaDescription: 'Crie atividades de grande e pequeno grátis com imagens. 104 temas, gabarito automático, PDF imprimível. Venda no Etsy & KDP com licenca comercial.',
   },
 
   hero: {

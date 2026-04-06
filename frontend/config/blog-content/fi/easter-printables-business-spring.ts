@@ -14,7 +14,7 @@ const content: BlogContent = {
       'tulostettava myy',
     ],
     titleTag: 'Paasiaistulosteet kevaalla | LCS',
-    metaDescription: 'Myy paasiais-tulosteita kevaalla. Paasiainen on Suomessa merkittava juhla ja tulostettavat aktiviteetit myyvat hyvin.',
+    metaDescription: 'Myy paasiais-tulosteita kevaalla. Paasiainen on Suomessa merkittava juhla ja tulostettavat aktiviteetit myyvat. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
   },
   hero: {
     title: 'Paasiaistulosteet kevaalla: kasvava myyntimahdollisuus',

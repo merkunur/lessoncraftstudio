@@ -14,7 +14,7 @@ const content: BlogContent = {
       'mercado imprimíveis temáticos',
     ],
     titleTag: 'Imprimíveis Tema Oceano: Vender | LCS',
-    metaDescription: 'O tema oceano (peixes, baleias, tubarões, golfinhos, tartarugas) é um dos mais populares para imprimíveis infantis. No Brasil, com extensa costa litor.',
+    metaDescription: 'O tema oceano (peixes, baleias, tubarões, golfinhos, tartarugas) é um dos mais populares para imprimíveis infantis. Venda no Etsy & KDP com licenca comercial.',
   },
   hero: {
     title: 'Imprimíveis Tema Oceano: Vender',

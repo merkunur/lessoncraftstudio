@@ -14,8 +14,8 @@ const content: ToolContent = {
       'saadettava vihjemaara tehtavatyokalu',
       'symmetria peilitila piirros tehtavageneraattori',
     ],
-    titleTag: 'Piirustustehtävägeneraattori — Ruudukkopiirros Generaattori | Myy',
-    metaDescription: 'Luo ruudukkopiirrostehtäviä kaksoisruudukolla, säädettävällä vihjemäärällä, kolmella symmetriatilalla ja temaattisilla kuvajoukoilla. Ilmainen kokeilu vesileimalla.',
+    titleTag: 'Piirustustehtävägeneraattori — Ruudukkopiirros Generaattori',
+    metaDescription: 'Luo ruudukkopiirrostehtäviä kaksoisruudukolla, säädettävällä vihjemäärällä, kolmella symmetriatilalla ja. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
   },
 
   hero: {

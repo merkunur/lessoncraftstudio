@@ -14,7 +14,7 @@ const content: ToolContent = {  seo: {
       'vrij tekenen tool voor kleurplaten gratis',
     ],
     titleTag: 'Kleurplaten generator gratis online | LessonCraftStudio',
-    metaDescription: 'Maak gratis kleurplaten met afbeeldingen online. Vrij canvas, 3.100+ illustraties, 104 thema\'s, uit de vrije hand tekenen. Probeer nu gratis met watermerk.',
+    metaDescription: 'Maak gratis kleurplaten met afbeeldingen online. Vrij canvas, 3.100+ illustraties, 104 thema\'s, uit de vrije. Verkoop op Etsy & KDP met commerciele licentie.',
     },
 
   hero: {

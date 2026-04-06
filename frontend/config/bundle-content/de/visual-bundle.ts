@@ -16,7 +16,7 @@ const content: BundleContent = {
       'visuelle Arbeitsblatt-Massenproduktion Werkzeug',
     ],
     titleTag: 'Visuelles Arbeitsblatt-Bundle für Verkäufer | LCS',
-    metaDescription: 'Visuelles Arbeitsblatt-Bundle mit 7 Generatoren für Etsy-Verkäufer. Malvorlagen, Zeichenübungen, Muster und Diagramme — sprachfrei, weltweit verkaufbar.',
+    metaDescription: 'Visuelles Arbeitsblatt-Bundle mit 7 Generatoren für Etsy-Verkäufer. 149 $ einmalig.',
   },
 
   hero: {

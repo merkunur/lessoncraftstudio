@@ -14,7 +14,7 @@ const content: BlogContent = {
       'Etsy butik svenska',
     ],
     titleTag: 'Återanvänd Arbetsblad i Flera Produkter | LCS',
-    metaDescription: 'Maximera värdet av varje arbetsblad genom att återanvända dem i flera produktformat. Paket, böcker och enskilda listningar.',
+    metaDescription: 'Maximera värdet av varje arbetsblad genom att återanvända dem i flera produktformat. Salj pa Etsy & KDP med kommersiell licens.',
   },
   hero: {
     title: 'Återanvänd Arbetsblad i Flera Produkter',

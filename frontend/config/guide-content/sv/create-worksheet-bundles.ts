@@ -18,7 +18,7 @@ const content: GuideContent = {
       'multiplattformspaketlistningar universell strategi plattformsoberoende försäljning',
     ],
     titleTag: 'Skapa paket arbetsblad som säljer | LessonCraftStudio',
-    metaDescription: 'Hur du skapar arbetsbladpaket som säljer på alla plattformar. Pakettyper, prissättningspsykologi, värdestackning och professionell förpackning för högre.',
+    metaDescription: 'Hur du skapar arbetsbladpaket som säljer på alla plattformar. Salj pa Etsy & KDP med kommersiell licens.',
   },
 
   hero: {

@@ -5,7 +5,7 @@ const content: BlogContent = {
     secondaryKeywords: ['lag sammenhengende printable merkevare tips', 'lag sammenhengende printable merkevare guide', 'lag sammenhengende printable merkevare steg for steg'],
     lsiKeywords: ['arbeidsark produksjon', 'printable forretning guide', 'Etsy selger tutorial'],
     titleTag: 'Lag en sammenhengende printable-merkevare | LCS',
-    metaDescription: 'En sammenhengende merkevare gjør at kundene gjenkjenner produktene dine, stoler på kvaliteten og kommer tilbake. Denne guiden viser deg hvordan du byg',
+    metaDescription: 'En sammenhengende merkevare gjør at kundene gjenkjenner produktene dine, stoler på kvaliteten og kommer tilbake. Selg pa Etsy & KDP med kommersiell lisens.',
   },
   hero: {
     title: 'Lag en sammenhengende printable-merkevare',

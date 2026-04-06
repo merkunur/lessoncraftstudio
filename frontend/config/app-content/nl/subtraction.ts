@@ -21,8 +21,7 @@ const content: AppContent = {
       'Brave New Books',
     ],
     titleTag: 'Aftrekwerkbladen — Verkopen op Etsy | LessonCraftStudio',
-    metaDescription:
-      'Maak aftrekwerkbladen om te verkopen op Etsy, KDP en Bol.com. Thema-afbeeldingen, antwoorden, commerciële licentie. Gratis proberen met watermerk.',
+    metaDescription: 'Maak aftrekwerkbladen om te verkopen op Etsy, KDP en Bol.com. Thema-afbeeldingen, antwoorden, commerciële licentie. Gratis proberen met watermerk. $49 eenmalig.',
   },
 
   hero: {

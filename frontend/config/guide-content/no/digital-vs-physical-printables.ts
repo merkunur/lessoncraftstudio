@@ -17,7 +17,7 @@ const content: GuideContent = {
       'hybrid printable-forretningsmodell',
     ],
     titleTag: 'Digitale vs fysiske printables — Guide',
-    metaDescription: 'Sammenlign digitale nedlastinger og fysiske trykte produkter for printable-virksomheten din. Marginer, skalering, plattformer og hybridstrategier.',
+    metaDescription: 'Sammenlign digitale nedlastinger og fysiske trykte produkter for printable-virksomheten din. Selg pa Etsy & KDP med kommersiell lisens.',
   },
 
   hero: {

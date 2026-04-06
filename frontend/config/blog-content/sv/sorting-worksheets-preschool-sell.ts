@@ -14,7 +14,7 @@ const content: BlogContent = {
       'Etsy butik svenska',
     ],
     titleTag: 'Sorteringsarbetsblad för Förskola: Sälj | LCS',
-    metaDescription: 'Sorteringsarbetsblad för förskolebarn säljer stabilt. Sortera efter färg, form, storlek och kategori.',
+    metaDescription: 'Sorteringsarbetsblad för förskolebarn säljer stabilt. Sortera efter färg, form, storlek och kategori. Salj pa Etsy & KDP med kommersiell licens.',
   },
   hero: {
     title: 'Sorteringsarbetsblad för Förskola: Sälj',

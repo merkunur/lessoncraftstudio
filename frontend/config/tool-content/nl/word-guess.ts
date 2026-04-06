@@ -15,7 +15,7 @@ const content: ToolContent = {
       'meertalige spellingactiviteit generator',
     ],
     titleTag: 'Woordraadspel gratis online maken | LessonCraftStudio',
-    metaDescription: 'Maak gratis raad-het-woord werkbladen online met 4 moeilijkheidsniveaus, twee invoermodi, 104 beeldthema\'s en antwoordbladen. Geen account nodig.',
+    metaDescription: 'Maak gratis raad-het-woord werkbladen online met 4 moeilijkheidsniveaus, twee invoermodi, 104 beeldthema\'s en. Verkoop op Etsy & KDP met commerciele licentie.',
   },
 
   hero: {

@@ -15,7 +15,7 @@ const content: ToolContent = {
       'storleksjämförelse gratis',
     ],
     titleTag: 'Stor och liten gratis online | LessonCraftStudio',
-    metaDescription: 'Skapa stor och liten arbetsblad gratis online. Fem frågetyper, identiska och olika bilder, facit, 104 teman. Gratis provversion med vattenmärke.',
+    metaDescription: 'Skapa stor och liten arbetsblad gratis online. Fem frågetyper, identiska och olika bilder, facit, 104 teman. Salj pa Etsy & KDP med kommersiell licens.',
   },
 
   hero: {

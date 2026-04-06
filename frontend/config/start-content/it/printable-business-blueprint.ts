@@ -17,7 +17,7 @@ const content: StartContent = {
       'timeline lancio stampabili Etsy KDP',
     ],
     titleTag: 'Piano d\'azione: business stampabili | LessonCraftStudio',
-    metaDescription: 'Trasforma le tue idee in un piano d\'azione concreto per stampabili. Nicchia, linea prodotti, piattaforme, prezzi e timeline a 90 giorni. Prova gratuita.',
+    metaDescription: 'Trasforma le tue idee in un piano d\'azione concreto per stampabili. Vendi su Etsy & KDP con licenza commerciale.',
   },
 
   hero: {

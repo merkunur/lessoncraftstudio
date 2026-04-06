@@ -15,8 +15,7 @@ const content: AppContent = {
       '8 prépositions spatiales 11 langues corrigé automatique',
     ],
     titleTag: 'Fiches prépositions FLE à vendre sur Etsy | LCS',
-    metaDescription:
-      'Créez des fiches de prépositions FLE à vendre sur Etsy & Eduki. 8 prépositions, 11 langues, licence commerciale. Testez gratuitement avec filigrane.',
+    metaDescription: 'Créez des fiches de prépositions FLE à vendre sur Etsy & Eduki. 8 prépositions, 11 langues, licence commerciale. 49 $ paiement unique.',
   },
 
   hero: {

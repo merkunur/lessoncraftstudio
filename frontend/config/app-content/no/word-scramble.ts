@@ -15,8 +15,7 @@ const content: AppContent = {
       'bokstavblanding generator kommersielt bruk',
     ],
     titleTag: 'Bokstavblanding Generator | Lag og Selg Stavingspuslespill',
-    metaDescription:
-      'Lag bokstavblanding-arbeidsark til salg på Etsy, KDP og Gumroad. Bildeledetråder, blandede bokstavfliser, vokal-konsonant-fargekoding, 11 språk. Gratis prøveversjon.',
+    metaDescription: 'Lag bokstavblanding-arbeidsark til salg på Etsy, KDP og Gumroad. $49 engangsbetaling.',
   },
 
   hero: {

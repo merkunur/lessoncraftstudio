@@ -15,7 +15,7 @@ const content: ToolContent = {
       'fargerikt alfabettog utskriftsbart til barnehagen',
     ],
     titleTag: 'Alfabettog Generator — Bokstavøvelse for Barn',
-    metaDescription: 'Lag alfabettog arbeidsark for bokstavgjenkjenning. 11 fargerike vogner, bokstav-bilde matching, 11 språk, 104 temaer. Gratis prøveversjon med vannmerke.',
+    metaDescription: 'Lag alfabettog arbeidsark for bokstavgjenkjenning. 11 fargerike vogner, bokstav-bilde matching, 11 språk, 104 temaer. Selg pa Etsy & KDP med kommersiell lisens.',
   },
 
   hero: {

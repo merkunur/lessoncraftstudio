@@ -15,7 +15,7 @@ const content: ToolContent = {
       'finmotorikövning gratis',
     ],
     titleTag: 'Spårningsblad gratis online | LessonCraftStudio',
-    metaDescription: 'Skapa spårningsblad gratis online. 8 SVG-mallar, bildpar, 104 teman, autofyllning. Gratis provversion med vattenmärke.',
+    metaDescription: 'Skapa spårningsblad gratis online. 8 SVG-mallar, bildpar, 104 teman, autofyllning. Salj pa Etsy & KDP med kommersiell licens.',
   },
 
   hero: {

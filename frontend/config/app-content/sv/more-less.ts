@@ -17,8 +17,7 @@ const content: AppContent = {
       'svenska marknaden matteblad Etsy',
     ],
     titleTag: 'Mer och mindre-blad för Etsy | LessonCraftStudio',
-    metaDescription:
-      'Skapa mer och mindre-blad att sälja på Etsy och KDP. 3 jämförelselägen, 104 teman, facit, 400+ DPI, kommersiell licens. Testa gratis med vattenmärke.',
+    metaDescription: 'Skapa mer och mindre-blad att sälja på Etsy och KDP. 3 jämförelselägen, 104 teman, facit, 400+ DPI, kommersiell licens. $49 engångsbetalning.',
   },
 
   hero: {

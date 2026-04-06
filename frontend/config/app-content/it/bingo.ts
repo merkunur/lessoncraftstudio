@@ -15,8 +15,7 @@ const content: AppContent = {
       'stampabili tombola natalizia uso commerciale Italia',
     ],
     titleTag: 'Generatore Cartelle Tombola | Crea e Vendi su Etsy',
-    metaDescription:
-      'Crea cartelle tombola con immagini da vendere su Etsy e KDP. Lotti unici, export ZIP, foglio richiamo. Licenza commerciale inclusa. Prova gratis.',
+    metaDescription: 'Crea cartelle tombola con immagini da vendere su Etsy e KDP. Lotti unici, export ZIP, foglio richiamo. Licenza commerciale inclusa. 49 $ pagamento unico.',
   },
 
   hero: {

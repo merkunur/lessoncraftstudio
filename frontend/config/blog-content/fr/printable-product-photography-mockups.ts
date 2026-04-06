@@ -14,7 +14,7 @@ const content: BlogContent = {
       'astuces photographie produits',
     ],
     titleTag: 'Photographie de produits imprimables | LCS',
-    metaDescription: 'Guide complet de la photographie de produits numériques. Mockups, éclairage et mise en scène.',
+    metaDescription: 'Guide complet de la photographie de produits numériques. Mockups, éclairage et mise en scène. Vendez sur Etsy & KDP avec licence commerciale.',
   },
   hero: {
     title: 'Photographie de produits imprimables : guide complet',

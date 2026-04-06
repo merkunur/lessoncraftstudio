@@ -14,7 +14,7 @@ const content: BlogContent = {
       'Silhouetten Raetsel Kinder',
     ],
     titleTag: 'Schatten-Zuordnung: Warum sie sich besser verkaufen | LCS',
-    metaDescription: 'Schatten-Zuordnungs-Arbeitsblaetter erzielen hoehere Preise als Standard-Zuordnungen. Erfahren Sie warum und wie Sie diese Nische bedienen.',
+    metaDescription: 'Schatten-Zuordnungs-Arbeitsblaetter erzielen hoehere Preise als Standard-Zuordnungen. Verkaufen Sie auf Etsy & KDP mit gewerblicher Lizenz.',
   },
   hero: {
     title: 'Schatten-Zuordnung: Warum sie sich besser verkaufen',

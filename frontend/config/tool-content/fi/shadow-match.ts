@@ -14,8 +14,8 @@ const content: ToolContent = {
       'pikselitason varjogenerointi sekoitusalgoritmi generaattori',
       'automaattinen vastausavain varjopalapeli-tehtavien generaattori',
     ],
-    titleTag: 'Varjoyhdistely-generaattori — Tehtavageneraattori — Myyjaopas',
-    metaDescription: 'Tee varjoyhdistely-tehtavia pikselitason silueteilla ja Taydenna Kuva -kuvanjaolla, automaattisilla vastausavaimilla, 104 teemaa. Ilmainen kokeilu vesileimalla.',
+    titleTag: 'Varjoyhdistely-generaattori — Tehtavageneraattori —...',
+    metaDescription: 'Tee varjoyhdistely-tehtavia pikselitason silueteilla ja Taydenna Kuva -kuvanjaolla, automaattisilla. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
   },
 
   hero: {

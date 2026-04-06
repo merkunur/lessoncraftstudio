@@ -15,7 +15,7 @@ const content: BundleContent = {
       'licencia comercial fichas búsqueda múltiples plataformas',
     ],
     titleTag: 'Paquete busca y encuentra | LCS',
-    metaDescription: 'Paquete de generadores de fichas de búsqueda para vender en Etsy y KDP. Sopas de letras, busque objetos y crucigramas. Licencia comercial incluida.',
+    metaDescription: 'Paquete de generadores de fichas de búsqueda para vender en Etsy y KDP. Sopas de letras, busque objetos y crucigramas. 149 $ pago unico.',
   },
 
   hero: {

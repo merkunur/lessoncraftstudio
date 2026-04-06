@@ -15,7 +15,7 @@ const content: ToolContent = {
       'reconocimiento de patrones preescolar imprimible gratis',
     ],
     titleTag: 'Fichas de patrones gratis en línea | LCS',
-    metaDescription: 'Cree fichas de patrones en tren gratis sin registro. Secuencias visuales con imágenes, 104 colecciones, respuestas incluidas.',
+    metaDescription: 'Cree fichas de patrones en tren gratis sin registro. Secuencias visuales con imágenes, 104 colecciones, respuestas. Venda en Etsy & KDP con licencia comercial.',
   },
 
   hero: {

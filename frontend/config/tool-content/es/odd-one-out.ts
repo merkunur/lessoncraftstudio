@@ -15,7 +15,7 @@ const content: ToolContent = {
       'encuentra el intruso discriminación visual PDF gratis',
     ],
     titleTag: 'Encuentra el intruso gratis | LCS',
-    metaDescription: 'Cree fichas de encuentra el intruso gratis sin registro. Identifique la imagen diferente, 104 temas, respuestas incluidas.',
+    metaDescription: 'Cree fichas de encuentra el intruso gratis sin registro. Identifique la imagen diferente, 104 temas, respuestas. Venda en Etsy & KDP con licencia comercial.',
   },
 
   hero: {

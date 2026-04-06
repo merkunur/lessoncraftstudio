@@ -14,7 +14,7 @@ const content: BlogContent = {
       'mercado imprimíveis temáticos',
     ],
     titleTag: 'Imprimíveis Dia das Mães e Dia dos Pais | LCS',
-    metaDescription: 'O Dia das Mães (maio) e Dia dos Pais (segundo domingo de agosto no Brasil — diferente de junho nos EUA!) são datas fortes para imprimíveis infantis. C.',
+    metaDescription: 'O Dia das Mães (maio) e Dia dos Pais (segundo domingo de agosto no Brasil — diferente de junho nos EUA!) são datas. Venda no Etsy & KDP com licenca comercial.',
   },
   hero: {
     title: 'Imprimíveis Dia das Mães e Dia dos Pais',

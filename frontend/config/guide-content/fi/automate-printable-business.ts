@@ -17,8 +17,8 @@ const content: GuideContent = {
       'virtaviivaistettu työnkulku prosessien standardointi operatiivinen tehokkuus tehtävien eräkäsittely',
       'tuotantojärjestelmä skaalautuvat prosessit katalogin hallinta työnkulun suunnittelu',
     ],
-    titleTag: 'Automatisoi tulostettava liiketoiminta — Opas — Verkkotyökalut',
-    metaDescription: 'Näin automatisoit tulostettavan liiketoimintasi erätuotannolla, mallijärjestelmillä ja järjestelmällisillä työnkuluilla. Säästä tunteja viikossa ja skaalaa. Kokeile.',
+    titleTag: 'Automatisoi tulostettava liiketoiminta — Opas —...',
+    metaDescription: 'Näin automatisoit tulostettavan liiketoimintasi erätuotannolla, mallijärjestelmillä ja järjestelmällisillä. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
   },
 
   hero: {

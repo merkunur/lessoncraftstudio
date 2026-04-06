@@ -6,7 +6,7 @@ const content: ToolContent = {
     secondaryKeywords: ['ristikko kuvilla verkossa', 'tee kuvaristikko-tehtavia', 'ristikkopalapeli-generaattori kuvavihjeilla', 'sanasto-ristikko-generaattori kayttajille'],
     lsiKeywords: ['kuvaristikkopalapeli kuvavihjeilla sanastonharjoitteluun', 'monikielinen ristikko-generaattori automaattisella vastausavaimella', 'mukautettu sanalista ristikko vihjeilla -generaattori'],
     titleTag: 'Kuvaristikko-generaattori — Ristikkopalapelit kuvavihjeilla',
-    metaDescription: 'Tee kuvaristikkoja kuvavihjeilla 15x15-ruudukossa. 4 syotetapaa, automaattinen vastausavain taeytettynae ruudukkona, 104 teemaa. Ilmainen kokeilu vesileimalla.',
+    metaDescription: 'Tee kuvaristikkoja kuvavihjeilla 15x15-ruudukossa. 4 syotetapaa, automaattinen vastausavain taeytettynae. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
   },
 
   hero: {

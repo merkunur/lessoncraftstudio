@@ -14,7 +14,7 @@ const content: BlogContent = {
       'astuces utiliser images',
     ],
     titleTag: 'Images thématiques pour vendre vos fiches | LCS',
-    metaDescription: 'Comment utiliser des images thématiques (animaux, espace, nature) pour augmenter l\'attrait de vos fiches.',
+    metaDescription: 'Comment utiliser des images thématiques (animaux, espace, nature) pour augmenter l\'attrait de vos fiches. Vendez sur Etsy & KDP avec licence commerciale.',
   },
   hero: {
     title: 'Utiliser des images thématiques pour vendre plus',

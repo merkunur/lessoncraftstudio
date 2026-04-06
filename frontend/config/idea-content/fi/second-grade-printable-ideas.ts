@@ -3,7 +3,7 @@ import type { IdeaContent } from '../types';
 const content: IdeaContent = {
   seo: {
     titleTag: 'Toisen luokan tulostettavat ideat myyntiin — Nicheopas',
-    metaDescription: 'Tutustu toisen luokan tulostettaviin ideoihin myyntiin Etsyssä, Amazon KDP:ssä ja Gumroadilla. Tuotekonseptit 7–8-vuotiaille, nichestrategiat ja alustavinkit myyjille.',
+    metaDescription: 'Tutustu toisen luokan tulostettaviin ideoihin myyntiin Etsyssä, Amazon KDP:ssä ja Gumroadilla.',
 
     primaryKeyword: 'toinen luokka tulostettavat ideat',
     secondaryKeywords: [

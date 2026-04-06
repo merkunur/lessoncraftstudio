@@ -17,7 +17,7 @@ const content: GuideContent = {
       'Amazon KDP matemaattiset pulmatehtäväkirjat',
       'kaupallinen lisenssi pulmatehtävätyökalu',
     ],
-    titleTag: 'Luo matemaattisia pulmatehtävätyöarkkeja — Vaihe vaiheelta -opas',
+    titleTag: 'Luo matemaattisia pulmatehtävätyöarkkeja — Vaihe...',
     metaDescription: 'Luo matemaattisia pulmatehtävätyöarkkeja, joissa lapset ratkaisevat yhtälöitä kootakseen kuvia. Ruudukkokoot, operaatiot, vastausavaimet ja myyntivinkit Etsyyn.',
   },
 

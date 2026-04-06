@@ -15,8 +15,7 @@ const content: AppContent = {
       'utskriftsbar logikkpuslespill forretningsverktoy',
     ],
     titleTag: 'Bildesudoku Generator | Lag og Selg Arbeidsark',
-    metaDescription:
-      'Lag bildesudoku arbeidsark til salg på Etsy, KDP og Gumroad. 4×4 rutenett, tre vanskelighetsgrader, automatisk fasit, 104 temaer. Gratis proveversjon.',
+    metaDescription: 'Lag bildesudoku arbeidsark til salg på Etsy, KDP og Gumroad. 4×4 rutenett, tre vanskelighetsgrader, automatisk fasit, 104 temaer. $49 engangsbetaling.',
   },
 
   hero: {

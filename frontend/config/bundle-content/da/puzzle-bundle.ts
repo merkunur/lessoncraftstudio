@@ -16,7 +16,7 @@ const content: BundleContent = {
       'masseproduktion puslespilarbejdsark værktøj',
     ],
     titleTag: 'Puslespilarbejdsark Pakke — 4 Logik- og Puslespilgeneratorer',
-    metaDescription: 'Puslespilarbejdsark pakke med 4 generatorer: manglende brikker, find den ulige, billedsudoku og labyrinter. Sælg på Etsy, KDP og Gumroad. Kommerciel licens.',
+    metaDescription: 'Puslespilarbejdsark pakke med 4 generatorer: manglende brikker, find den ulige, billedsudoku og labyrinter. Sælg på Etsy, KDP og Gumroad. $149 engangsbetaling.',
   },
 
   hero: {

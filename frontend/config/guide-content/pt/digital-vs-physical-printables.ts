@@ -24,8 +24,7 @@ const content: GuideContent = {
       'impressão sob demanda',
     ],
     titleTag: 'Digitais vs físicos: imprimíveis | LCS',
-    metaDescription:
-      'Imprimíveis digitais vs físicos: qual modelo escolher? Comparação de margens, logística, escalamento e público.',
+    metaDescription: 'Imprimíveis digitais vs físicos: qual modelo escolher? Comparação de margens, logística, escalamento e público. Venda no Etsy & KDP com licenca comercial.',
   },
 
   hero: {

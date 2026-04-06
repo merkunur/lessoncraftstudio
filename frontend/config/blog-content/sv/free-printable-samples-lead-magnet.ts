@@ -14,7 +14,7 @@ const content: BlogContent = {
       'Etsy butik svenska',
     ],
     titleTag: 'Gratisprov som Kundmagnet | LCS',
-    metaDescription: 'Använd gratisprov som leadmagnet för din utskriftsverksamhet. Strategier för att konvertera provnedladdare till betalande kunder.',
+    metaDescription: 'Använd gratisprov som leadmagnet för din utskriftsverksamhet. Salj pa Etsy & KDP med kommersiell licens.',
   },
   hero: {
     title: 'Gratisprov som Kundmagnet',

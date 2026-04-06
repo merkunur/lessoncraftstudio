@@ -15,7 +15,7 @@ const content: ToolContent = {
       'automatisch antwoordblad sudoku generator',
     ],
     titleTag: 'Sudoku afbeeldingen gratis kinderen | LessonCraftStudio',
-    metaDescription: 'Maak gratis sudoku met afbeeldingen voor kinderen. 4×4 rasters, drie moeilijkheidsniveaus, automatische antwoordbladen en 104 thema\'s. Geen account nodig.',
+    metaDescription: 'Maak gratis sudoku met afbeeldingen voor kinderen. 4×4 rasters, drie moeilijkheidsniveaus, automatische. Verkoop op Etsy & KDP met commerciele licentie.',
   },
 
   hero: {

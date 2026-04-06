@@ -14,7 +14,7 @@ const content: BlogContent = {
       'tulostettava myy',
     ],
     titleTag: 'Parhaat tulosteet joulusesonkiin | LCS',
-    metaDescription: 'Joulusesongin myydyimmat tulosteet ja strategia. Joulupukki asuu Suomessa joten joulutuotteesi ovat ainutlaatuisia.',
+    metaDescription: 'Joulusesongin myydyimmat tulosteet ja strategia. Joulupukki asuu Suomessa joten joulutuotteesi ovat. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
   },
   hero: {
     title: 'Parhaat tulosteet joulusesonkiin: Joulupukin kotimaasta',

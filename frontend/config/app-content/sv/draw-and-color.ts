@@ -17,8 +17,7 @@ const content: AppContent = {
       'svenska marknaden ritblad Etsy',
     ],
     titleTag: 'Rita och måla-blad för Etsy | LessonCraftStudio',
-    metaDescription:
-      'Skapa rita och måla-blad att sälja på Etsy och KDP. Dubbelt rutnätssystem, justerbar ledtrådsprocent, symmetrilägen, kommersiell licens. Testa gratis med vattenmärke.',
+    metaDescription: 'Skapa rita och måla-blad att sälja på Etsy och KDP. Dubbelt rutnätssystem, justerbar ledtrådsprocent, symmetrilägen, kommersiell licens. $49 engångsbetalning.',
   },
 
   hero: {

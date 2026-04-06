@@ -15,8 +15,7 @@ const content: AppContent = {
       'visuaalisen laskemisen työlehituotteet',
     ],
     titleTag: 'Etsi ja Laske -työlehtigeneraattori Etsyyn | LCS',
-    metaDescription:
-      'Luo etsi-ja-laske-työlehtia myytäväksi Etsyssä ja KDP:ssä. Piilotettu esine ja Kirjainetsintä -tilat, automaattiset vastausavaimet, 104 teemaa, kaupallinen lisenssi. Ilmainen kokeilu.',
+    metaDescription: 'Luo etsi-ja-laske-työlehtia myytäväksi Etsyssä ja KDP:ssä. Piilotettu esine ja Kirjainetsintä -tilat, automaattiset vastausavaimet, 104 teemaa,. $49 kertamaksu.',
   },
 
   hero: {

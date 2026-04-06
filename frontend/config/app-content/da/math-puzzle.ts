@@ -15,8 +15,7 @@ const content: AppContent = {
       'kommercielt brug mattepuslespil generator',
     ],
     titleTag: 'Mattepuslespil Generator | Opret og Sælg Printables',
-    metaDescription:
-      'Opret mattepuslespil arbejdsark til salg på Etsy, KDP og Gumroad. Billedpuslespil med addition og subtraktion, justerbare gitter. Gratis prøveversion.',
+    metaDescription: 'Opret mattepuslespil arbejdsark til salg på Etsy, KDP og Gumroad. Billedpuslespil med addition og subtraktion, justerbare gitter. $49 engangsbetaling.',
   },
 
   hero: {

@@ -26,8 +26,7 @@ const content: AppContent = {
       'Kiwify',
     ],
     titleTag: 'Embaralha palavras para vender online | LCS',
-    metaDescription:
-      'Crie atividades de embaralha palavras para vender na Hotmart, Etsy e KDP. Imagens como pistas, 11 idiomas, gabarito incluso. Teste grátis com marca d\'água.',
+    metaDescription: 'Crie atividades de embaralha palavras para vender na Hotmart, Etsy e KDP. Imagens como pistas, 11 idiomas, gabarito incluso. 49 $ pagamento unico.',
   },
 
   hero: {

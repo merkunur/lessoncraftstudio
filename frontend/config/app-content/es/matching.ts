@@ -15,8 +15,7 @@ const content: AppContent = {
       'negocio fichas emparejamiento mercado hispano',
     ],
     titleTag: 'Fichas de asociación para vender en Etsy | LCS',
-    metaDescription:
-      'Cree fichas de asociación con imágenes para vender en Etsy y KDP. 104 temas, varios formatos, solucionario. Licencia comercial. Pruebe gratis.',
+    metaDescription: 'Cree fichas de asociación con imágenes para vender en Etsy y KDP. 104 temas, varios formatos, solucionario. Licencia comercial. Pruebe gratis. 49 $ pago unico.',
   },
 
   hero: {

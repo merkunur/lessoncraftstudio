@@ -15,8 +15,7 @@ const content: AppContent = {
       'tri à deux catégories corrigé automatique 104 thèmes',
     ],
     titleTag: 'Fiches de tri pour business Etsy & KDP | LCS',
-    metaDescription:
-      'Créez des fiches de tri et classement à vendre sur Etsy & KDP. Deux catégories, corrigé auto, licence commerciale. Testez gratuitement avec filigrane.',
+    metaDescription: 'Créez des fiches de tri et classement à vendre sur Etsy & KDP. Deux catégories, corrigé auto, licence commerciale. 49 $ paiement unique.',
   },
 
   hero: {

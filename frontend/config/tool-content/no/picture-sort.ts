@@ -15,7 +15,7 @@ const content: ToolContent = {
       'blandet utklippsrutenett sorteringsaktivitet generator',
     ],
     titleTag: 'Bildesortering Generator — Sorterings Arbeidsark Generator',
-    metaDescription: 'Lag sorteringsarbeidsark med tokategori temamodus, blandede utklippsrutenett, automatiske fasit og 104 tematiske bildesamlinger. Gratis prøveversjon med vannmerke.',
+    metaDescription: 'Lag sorteringsarbeidsark med tokategori temamodus, blandede utklippsrutenett, automatiske fasit og 104 tematiske. Selg pa Etsy & KDP med kommersiell lisens.',
   },
 
   hero: {

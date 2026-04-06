@@ -15,8 +15,7 @@ const content: AppContent = {
       'negocio fichas comparación mercado hispano',
     ],
     titleTag: 'Fichas de grande y pequeño para Etsy | LCS',
-    metaDescription:
-      'Cree fichas de comparación de tamaños para vender en Etsy y KDP. Los niños comparan grande y pequeño. Licencia comercial. Pruebe gratis.',
+    metaDescription: 'Cree fichas de comparación de tamaños para vender en Etsy y KDP. Los niños comparan grande y pequeño. Licencia comercial. Pruebe gratis. 49 $ pago unico.',
   },
 
   hero: {

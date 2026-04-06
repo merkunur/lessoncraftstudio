@@ -15,7 +15,7 @@ const content: ToolContent = {
       'kokeile ennen ostoa matematiikkatehtävät',
     ],
     titleTag: 'Ilmainen Matematiikkatehtävägeneraattori Verkossa | LCS',
-    metaDescription: 'Luo matematiikkatehtäviä ilmaiseksi verkossa vesileimalla — ei rekisteröitymistä. Kaikki laskutoimitukset, autom. vastausavaimet, 300 DPI vienti. Päivitä kaupalliseen lisenssiin.',
+    metaDescription: 'Luo matematiikkatehtäviä ilmaiseksi verkossa vesileimalla — ei rekisteröitymistä. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
   },
 
   hero: {

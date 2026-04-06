@@ -27,8 +27,7 @@ const content: AppContent = {
       'Kiwify',
     ],
     titleTag: 'Cartelas de bingo para vender online | LCS',
-    metaDescription:
-      'Crie cartelas de bingo com imagens para vender na Hotmart, Etsy e KDP. Lote até 10 cartelas, exportação ZIP. Teste grátis com marca d\'água.',
+    metaDescription: 'Crie cartelas de bingo com imagens para vender na Hotmart, Etsy e KDP. Lote até 10 cartelas, exportação ZIP. 49 $ pagamento unico.',
   },
 
   hero: {

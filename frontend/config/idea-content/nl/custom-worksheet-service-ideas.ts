@@ -3,7 +3,7 @@ import type { IdeaContent } from '../types';
 const content: IdeaContent = {
   seo: {
     titleTag: 'Werkbladen-op-maat — Business | LessonCraftStudio',
-    metaDescription: 'Werkbladen-op-maat service ideeën voor freelance verkopers. Bied gepersonaliseerde werkbladen aan met premium prijzen van 25 tot 75 euro per set.',
+    metaDescription: 'Werkbladen-op-maat service ideeën voor freelance verkopers. Bied gepersonaliseerde werkbladen aan met premium. Verkoop op Etsy & KDP met commerciele licentie.',
 
     primaryKeyword: 'werkbladen-op-maat service ideeën business',
     secondaryKeywords: [

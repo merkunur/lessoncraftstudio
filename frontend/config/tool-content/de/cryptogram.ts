@@ -15,7 +15,7 @@ const content: ToolContent = {
       'Geheimtext-Entschlüsselungs-Generator',
     ],
     titleTag: 'Kostenloser Kryptogramm-Generator | LCS',
-    metaDescription: 'Kostenloser Kryptogramm-Generator — Bilder-Chiffre-Rätsel mit deutschem 30-Buchstaben-Alphabet online erstellen. Testversion mit Wasserzeichen verfügbar.',
+    metaDescription: 'Kostenloser Kryptogramm-Generator — Bilder-Chiffre-Rätsel mit deutschem 30-Buchstaben-Alphabet online. Verkaufen Sie auf Etsy & KDP mit gewerblicher Lizenz.',
   },
 
   hero: {

@@ -15,7 +15,7 @@ const content: AppContent = {
       'Bildsuchspiel Generator verkaufen Etsy KDP',
     ],
     titleTag: 'Suchen-und-Zählen-Generator für Etsy | LCS',
-    metaDescription: 'Suchen-und-Zählen-Arbeitsblätter für Etsy erstellen. Vier Aufgabentypen, Buchstabenerkennung mit ÄÖÜ, 104 Bildthemen. Kostenlos testen mit Wasserzeichen.',
+    metaDescription: 'Suchen-und-Zählen-Arbeitsblätter für Etsy erstellen. Vier Aufgabentypen, Buchstabenerkennung mit ÄÖÜ, 104 Bildthemen. 49 $ einmalig.',
   },
 
   hero: {

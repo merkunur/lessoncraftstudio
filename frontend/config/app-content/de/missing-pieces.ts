@@ -15,7 +15,7 @@ const content: AppContent = {
       'Beschäftigungsbuch Puzzleteile Generator',
     ],
     titleTag: 'Fehlende-Teile-Rätsel für KDP erstellen | LCS',
-    metaDescription: 'Fehlende-Teile-Rätsel für KDP-Beschäftigungsbücher erstellen. 6 Teilformen, bis zu 5 fehlende Teile, Lösungsschlüssel. Kostenlos testen mit Wasserzeichen.',
+    metaDescription: 'Fehlende-Teile-Rätsel für KDP-Beschäftigungsbücher erstellen. 6 Teilformen, bis zu 5 fehlende Teile, Lösungsschlüssel. 49 $ einmalig.',
   },
 
   hero: {

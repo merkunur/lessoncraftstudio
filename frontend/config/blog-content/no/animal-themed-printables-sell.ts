@@ -5,7 +5,7 @@ const content: BlogContent = {
     secondaryKeywords: ['dyre-tema printables selge Etsy', 'dyre-tema printables selge strategi', 'dyre-tema printables selge tips'],
     lsiKeywords: ['sesongbaserte utskrifter', 'utskrivbare arbeidsark nisje', 'printable selger Norge'],
     titleTag: 'Dyretema-utskrifter: En evergreen-nisje | LCS',
-    metaDescription: 'Dyr er det mest populære temaet for utskrivbare arbeidsark på tvers av alle kategorier. Fra fargelegging av dyr til dyre-ordsøk og dyre-matteoppgaver ',
+    metaDescription: 'Dyr er det mest populære temaet for utskrivbare arbeidsark på tvers av alle kategorier. Selg pa Etsy & KDP med kommersiell lisens.',
   },
   hero: {
     title: 'Dyretema-utskrifter: En evergreen-nisje',

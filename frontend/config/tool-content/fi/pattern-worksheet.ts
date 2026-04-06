@@ -15,7 +15,7 @@ const content: ToolContent = {
       'AB ABC ABCD kuviosekvenssi tehtavageneraattori',
     ],
     titleTag: 'Kuvionhavaitsemis-tehtävägeneraattori | Luo ja Myy',
-    metaDescription: 'Luo kuviotehtäviä yhdeksällä tyypillä, kahdella kysymystilalla, harjoituskohtaisella asetuksella, automaattisilla vastausavaimilla ja 104 teemakuvalla. Ilmainen kokeilu vesileimalla.',
+    metaDescription: 'Luo kuviotehtäviä yhdeksällä tyypillä, kahdella kysymystilalla, harjoituskohtaisella asetuksella, automaattisilla vastausavaimilla ja 104 teemakuvalla.',
   },
 
   hero: {

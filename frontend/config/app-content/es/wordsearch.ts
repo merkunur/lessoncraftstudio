@@ -15,8 +15,7 @@ const content: AppContent = {
       'negocio imprimibles sopas letras mercado hispano',
     ],
     titleTag: 'Sopas de letras para vender en Etsy y KDP | LCS',
-    metaDescription:
-      'Cree sopas de letras con imágenes para vender en Etsy y KDP. 104 temas, 11 idiomas, solucionario. Licencia comercial. Pruebe gratis con marca de agua.',
+    metaDescription: 'Cree sopas de letras con imágenes para vender en Etsy y KDP. 104 temas, 11 idiomas, solucionario. Licencia comercial. 49 $ pago unico.',
   },
 
   hero: {

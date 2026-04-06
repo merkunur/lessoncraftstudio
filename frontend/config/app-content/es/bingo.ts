@@ -15,8 +15,7 @@ const content: AppContent = {
       'negocio juegos imprimibles mercado hispano',
     ],
     titleTag: 'Cartones de bingo para vender en Etsy y KDP | LCS',
-    metaDescription:
-      'Cree cartones de bingo con imágenes para vender en Etsy y KDP. 104 temas, múltiples cartones únicos. Licencia comercial. Pruebe gratis.',
+    metaDescription: 'Cree cartones de bingo con imágenes para vender en Etsy y KDP. 104 temas, múltiples cartones únicos. Licencia comercial. Pruebe gratis. 49 $ pago unico.',
   },
 
   hero: {

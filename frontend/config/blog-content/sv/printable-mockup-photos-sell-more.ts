@@ -14,7 +14,7 @@ const content: BlogContent = {
       'Etsy butik svenska',
     ],
     titleTag: 'Mockup-Foton: Sälj Mer Utskrifter | LCS',
-    metaDescription: 'Mockup-foton visar dina utskrifter i användning och dubblar konverteringsfrekvensen. Hur du skapar effektiva mockups.',
+    metaDescription: 'Mockup-foton visar dina utskrifter i användning och dubblar konverteringsfrekvensen. Hur du skapar effektiva mockups. Salj pa Etsy & KDP med kommersiell licens.',
   },
   hero: {
     title: 'Mockup-Foton: Sälj Mer Utskrifter',

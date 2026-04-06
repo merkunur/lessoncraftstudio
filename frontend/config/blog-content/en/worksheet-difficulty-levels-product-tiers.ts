@@ -14,7 +14,7 @@ const content: BlogContent = {
       'printable SKU multiplication',
     ],
     titleTag: 'Use Difficulty Levels to Create 3x More Products | LCS',
-    metaDescription: 'Turn one worksheet concept into 3 products using difficulty levels. Easy, medium, and hard tiers triple your listings with minimal extra work.',
+    metaDescription: 'Turn one worksheet concept into 3 products using difficulty levels. Sell on Etsy, KDP & TPT with commercial license.',
   },
   hero: {
     title: 'Use Difficulty Levels to Create 3x More Products',

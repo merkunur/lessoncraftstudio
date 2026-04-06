@@ -15,7 +15,7 @@ const content: GuideContent = {
       'kysynnän ennustaminen kausittainen myyntipiikki',
     ],
     titleTag: 'Kausiluonteinen markkinointi tulostettaville — Opas',
-    metaDescription: 'Kausiluonteinen markkinointistrategia tulostettavien myyjille. Juhlapyhien aikataulu, tuotantokalenteri, listausoptimointi ja kausittaisten myyntipiikkien maksimointi Etsyssä ja KDP:ssä.',
+    metaDescription: 'Kausiluonteinen markkinointistrategia tulostettavien myyjille. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
   },
 
   hero: {

@@ -14,7 +14,7 @@ const content: ToolContent = {  seo: {
       'korsord med bilder gratis',
     ],
     titleTag: 'Korsordsmaker gratis online | LessonCraftStudio',
-    metaDescription: 'Skapa korsord med bilder gratis online. 15×15 rutnät, bildledtrådar, 4 inmatningsmetoder, facit, 11 språk. Gratis provversion med vattenmärke.',
+    metaDescription: 'Skapa korsord med bilder gratis online. 15×15 rutnät, bildledtrådar, 4 inmatningsmetoder, facit, 11 språk. Salj pa Etsy & KDP med kommersiell licens.',
     },
 
   hero: {

@@ -15,8 +15,7 @@ const content: AppContent = {
       'printbare legpuzzel activiteit business tools',
     ],
     titleTag: 'Ontbrekende stukjes puzzels KDP | LessonCraftStudio',
-    metaDescription:
-      'Maak ontbrekende stukjes puzzels voor KDP-activiteitenboeken en Etsy. 6 stukvormen, instelbare moeilijkheid, automatisch antwoordblad en 104 thema\'s.',
+    metaDescription: 'Maak ontbrekende stukjes puzzels voor KDP-activiteitenboeken en Etsy. $49 eenmalig.',
   },
 
   hero: {

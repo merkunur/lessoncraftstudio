@@ -14,7 +14,7 @@ const content: ToolContent = {  seo: {
       'conceptos de tamaño grande mediano pequeño PDF gratis',
     ],
     titleTag: 'Comparación de tamaños gratis | LCS',
-    metaDescription: 'Cree fichas de comparación de tamaños gratis sin registro. Grande, mediano, pequeño con ilustraciones, 104 temas, respuestas incluidas.',
+    metaDescription: 'Cree fichas de comparación de tamaños gratis sin registro. Grande, mediano, pequeño con ilustraciones, 104 temas,. Venda en Etsy & KDP con licencia comercial.',
     },
 
   hero: {

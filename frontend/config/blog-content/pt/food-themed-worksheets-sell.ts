@@ -14,7 +14,7 @@ const content: BlogContent = {
       'mercado imprimíveis temáticos',
     ],
     titleTag: 'Fichas Tema Alimentos: Vender | LCS',
-    metaDescription: 'Fichas com tema de alimentos (frutas, legumes, pratos típicos) são populares porque conectam educação com vida cotidiana. Crianças aprendem sobre alim.',
+    metaDescription: 'Fichas com tema de alimentos (frutas, legumes, pratos típicos) são populares porque conectam educação com vida. Venda no Etsy & KDP com licenca comercial.',
   },
   hero: {
     title: 'Fichas Tema Alimentos: Vender',

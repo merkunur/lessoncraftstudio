@@ -16,7 +16,7 @@ const content: GuideContent = {
       'worksheet business Etsy startup',
     ],
     titleTag: 'Sell Educational Printables on Etsy (Beginner) | LCS',
-    metaDescription: 'Beginner guide to selling educational printables on Etsy. Niche selection, product creation, listing optimization, and first-sale strategies for new sel...',
+    metaDescription: 'Beginner guide to selling educational printables on Etsy. Niche selection, product creation, listing optimization, and first-sale strategies for new sel.',
   },
 
   hero: {

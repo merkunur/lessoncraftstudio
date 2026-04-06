@@ -6,7 +6,7 @@ const content: GuideContent = {
     secondaryKeywords: ['luo työarkkeja useilla kielillä', 'monikielinen tulostettavien liiketoiminta', 'kieliversiot tulostettaville tuotteille', 'monikielinen Etsy KDP strategia'],
     lsiKeywords: ['monikielinen sisällöntuotanto tulostettaville', 'kielimultiplikaattori tulostettavien myyjille', 'kansainväliset markkinat tulostettaville tuotteille'],
     titleTag: 'Monikieliset tulostettavat työarkit — Opas',
-    metaDescription: 'Luo monikielisiä tulostettavia työarkkeja 11 kielellä. Kielimultiplikaattoristrategia, kansainväliset markkinat ja monikielisen tulostettavien liiketoiminnan rakentaminen.',
+    metaDescription: 'Luo monikielisiä tulostettavia työarkkeja 11 kielellä. Kielimultiplikaattoristrategia, kansainväliset markkinat ja monikielisen tulostettavien.',
   },
   hero: {
     title: 'Luo monikielisiä tulostettavia työarkkeja',

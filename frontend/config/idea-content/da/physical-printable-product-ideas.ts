@@ -3,7 +3,7 @@ import type { IdeaContent } from '../types';
 const content: IdeaContent = {
   seo: {
     titleTag: 'Fysiske printbare produktidéer til salg — Guide',
-    metaDescription: 'Fysiske printbare produktidéer til Etsy og markedssælgere. Opbyg en premium forretning med trykning, laminering og forsendelse af håndgribelige arbejdsarkprodukter.',
+    metaDescription: 'Fysiske printbare produktidéer til Etsy og markedssælgere. Opbyg en premium forretning med trykning, laminering og forsendelse af håndgribelige.',
 
     primaryKeyword: 'fysiske printbare produkt idéer',
     secondaryKeywords: [

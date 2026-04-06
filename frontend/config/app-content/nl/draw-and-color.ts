@@ -15,7 +15,7 @@ const content: AppContent = {
       'commercieel gebruik teken en kleur werkbladen generator',
     ],
     titleTag: 'Teken- en kleurwerkbladen voor Etsy | LessonCraftStudio',
-    metaDescription: 'Maak teken- en kleurwerkbladen om te verkopen op Etsy, Amazon KDP en Bol.com. Dubbel rastersysteem, 100+ zwart-wit thema\'s, commerciële licentie.',
+    metaDescription: 'Maak teken- en kleurwerkbladen om te verkopen op Etsy, Amazon KDP en Bol.com. Dubbel rastersysteem, 100+ zwart-wit thema\'s, commerciële licentie. $49 eenmalig.',
   },
 
   hero: {

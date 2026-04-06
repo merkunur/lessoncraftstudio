@@ -21,8 +21,7 @@ const content: AppContent = {
       'business di stampabili',
     ],
     titleTag: 'Crittogrammi da vendere su Etsy e KDP | LCS',
-    metaDescription:
-      'Crea crittogrammi con immagini da vendere su Etsy e KDP. Cifra per immagini, difficoltà regolabile, 104 temi, licenza commerciale. Prova gratis con filigrana.',
+    metaDescription: 'Crea crittogrammi con immagini da vendere su Etsy e KDP. Cifra per immagini, difficoltà regolabile, 104 temi, licenza commerciale. 49 $ pagamento unico.',
   },
 
   hero: {

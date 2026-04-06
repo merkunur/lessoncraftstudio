@@ -14,7 +14,7 @@ const content: BlogContent = {
       'demande fiches imprimables hiver',
     ],
     titleTag: 'Imprimables d\'hiver : décembre-janvier | LCS',
-    metaDescription: 'Les imprimables d\'hiver (neige, froid, animaux polaires) complètent les thématiques de Noël et Nouvel An.',
+    metaDescription: 'Les imprimables d\'hiver (neige, froid, animaux polaires) complètent les thématiques de Noël et Nouvel An. Vendez sur Etsy & KDP avec licence commerciale.',
   },
   hero: {
     title: 'Imprimables d\'hiver : au-delà de Noël',

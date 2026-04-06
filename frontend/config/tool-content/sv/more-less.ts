@@ -15,7 +15,7 @@ const content: ToolContent = {
       'taljämförelse gratis',
     ],
     titleTag: 'Mer och mindre gratis online | LessonCraftStudio',
-    metaDescription: 'Skapa mer och mindre arbetsblad gratis online. 3 jämförelselägen med bilder, facit, 104 teman. Gratis provversion med vattenmärke.',
+    metaDescription: 'Skapa mer och mindre arbetsblad gratis online. 3 jämförelselägen med bilder, facit, 104 teman. Salj pa Etsy & KDP med kommersiell licens.',
   },
 
   hero: {

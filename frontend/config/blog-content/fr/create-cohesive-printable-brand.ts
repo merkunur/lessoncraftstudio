@@ -14,7 +14,7 @@ const content: BlogContent = {
       'astuces créer marque',
     ],
     titleTag: 'Créer une marque d\'imprimables cohérente | LCS',
-    metaDescription: 'Construisez une identité visuelle cohérente pour vos imprimables. Couleurs, polices et style unifié.',
+    metaDescription: 'Construisez une identité visuelle cohérente pour vos imprimables. Couleurs, polices et style unifié. Vendez sur Etsy & KDP avec licence commerciale.',
   },
   hero: {
     title: 'Créer une marque d\'imprimables cohérente',

@@ -14,7 +14,7 @@ const content: BlogContent = {
       'guia prático imprimíveis',
     ],
     titleTag: 'Formatos de Arquivo para Imprimíveis: Guia | LCS',
-    metaDescription: 'A escolha do formato de arquivo afeta a experiência do comprador e a qualidade de impressão. PDF é o padrão para fichas multipáginas, JPEG para fichas.',
+    metaDescription: 'A escolha do formato de arquivo afeta a experiência do comprador e a qualidade de impressão. Venda no Etsy & KDP com licenca comercial.',
   },
   hero: {
     title: 'Formatos de Arquivo para Imprimíveis: Guia',

@@ -14,7 +14,7 @@ const content: BlogContent = {
       'empreendedor digital educativo',
     ],
     titleTag: 'Estratégia Pacotes Imprimíveis Etsy | LCS',
-    metaDescription: 'Pacotes (bundles) são a estratégia de precificação mais eficaz para imprimíveis no Etsy. Um pacote de 50 fichas a US$ 14,99 gera mais lucro que 50 ficha...',
+    metaDescription: 'Pacotes (bundles) são a estratégia de precificação mais eficaz para imprimíveis no Etsy. Um pacote de 50 fichas a US$ 14,99 gera mais lucro que 50 ficha.',
   },
   hero: {
     title: 'Estratégia Pacotes Imprimíveis Etsy',

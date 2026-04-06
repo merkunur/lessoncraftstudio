@@ -27,8 +27,7 @@ const content: AppContent = {
       'Kiwify',
     ],
     titleTag: 'Atividades de coordenação motora para vender | LCS',
-    metaDescription:
-      'Crie atividades de traçado e coordenação motora para vender na Hotmart, Etsy e KDP. 104 temas, caminhos configuráveis. Teste grátis com marca d\'água.',
+    metaDescription: 'Crie atividades de traçado e coordenação motora para vender na Hotmart, Etsy e KDP. 104 temas, caminhos configuráveis. 49 $ pagamento unico.',
   },
 
   hero: {

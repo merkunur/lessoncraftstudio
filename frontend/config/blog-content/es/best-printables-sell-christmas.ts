@@ -6,7 +6,7 @@ const content: BlogContent = {
     secondaryKeywords: ['mejores imprimibles vender Navidad negocio', 'mejores imprimibles vender Navidad Etsy vender', 'mejores imprimibles vender Navidad imprimibles rentable'],
     lsiKeywords: ['mejores imprimibles fichas', 'vender imprimibles mejores', 'vender Navidad educativos'],
     titleTag: 'Imprimibles que Mas Venden en Navidad | LCS',
-    metaDescription: 'La Navidad es la temporada mas fuerte para imprimibles educativos. Los padres buscan actividades para mantener a los ninos ocupados durante las vacaciones,',
+    metaDescription: 'La Navidad es la temporada mas fuerte para imprimibles educativos. Venda en Etsy & KDP con licencia comercial.',
   },
   hero: {
     title: 'Los Imprimibles que Mas Venden en Navidad',

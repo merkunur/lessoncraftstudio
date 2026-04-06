@@ -18,7 +18,7 @@ const content: GuideContent = {
       'kaupallinen lisenssi aarteenetsintätyökalu',
     ],
     titleTag: 'Aarteenetsintä-työarkit — Opas',
-    metaDescription: 'Luo aarteenetsintä-työarkkeja 5x5-ruudukolla suuntaliikkeillä, temaattisilla maamerkeillä ja automaattisella vastausavaimella. Vaiheittainen opas myyntiin Etsyssä ja KDP:ssä.',
+    metaDescription: 'Luo aarteenetsintä-työarkkeja 5x5-ruudukolla suuntaliikkeillä, temaattisilla maamerkeillä ja automaattisella vastausavaimella.',
   },
 
   hero: {

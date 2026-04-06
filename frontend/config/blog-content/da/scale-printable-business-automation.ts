@@ -6,7 +6,7 @@ const content: BlogContent = {
     secondaryKeywords: ['skalér printable forretning automatisering Etsy', 'skalér printable forretning automatisering online', 'skalér printable forretning automatisering forretning'],
     lsiKeywords: ['printbar forretning Danmark', 'digital download salg', 'Etsy printables sælg'],
     titleTag: 'Skalér Din Printable-Forretning med Automatisering | LCS',
-    metaDescription: 'Automatisering er nøglen til at skalere en printable-forretning fra hobbyindkomst til fuldtidsindkomst. Denne guide dækker de vigtigste automatiseringsmuli',
+    metaDescription: 'Automatisering er nøglen til at skalere en printable-forretning fra hobbyindkomst til fuldtidsindkomst. Saelg pa Etsy & KDP med kommerciel licens.',
   },
   hero: {
     title: 'Skalér Din Printable-Forretning med Automatisering',

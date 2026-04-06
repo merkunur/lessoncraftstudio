@@ -14,7 +14,7 @@ const content: BlogContent = {
       'déléguer création fiches',
     ],
     titleTag: 'Scaler votre activité d\'imprimables | LCS',
-    metaDescription: 'Automatisez et développez votre activité d\'imprimables. Outils, processus et stratégies pour passer de 500 à 5 000 €/mois.',
+    metaDescription: 'Automatisez et développez votre activité d\'imprimables. Outils, processus et stratégies pour passer de 500 à 5. Vendez sur Etsy & KDP avec licence commerciale.',
   },
   hero: {
     title: 'Scaler votre activité d\'imprimables avec l\'automatisation',

@@ -15,8 +15,7 @@ const content: AppContent = {
       'arbejdsark generator kommercielt brug',
     ],
     titleTag: 'Additions Arbejdsark Generator | Opret og Sælg Online',
-    metaDescription:
-      'Opret additions arbejdsark til salg på Etsy, KDP og Gumroad. 104 temaer, 4 øvelsestilstande, facit, eksport 400+ DPI. Gratis prøveversion med vandmærke.',
+    metaDescription: 'Opret additions arbejdsark til salg på Etsy, KDP og Gumroad. 104 temaer, 4 øvelsestilstande, facit, eksport 400+ DPI. $49 engangsbetaling.',
   },
 
   hero: {

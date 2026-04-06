@@ -15,7 +15,7 @@ const content: ToolContent = {
       'automatisk facit markeret skattecelle dobbelt lærredssystem',
     ],
     titleTag: 'Skattejagt Generator — Skattejagt Arbejdsark Generator',
-    metaDescription: 'Lav skattejagt arbejdsark på 5×5 gitter med to retningstyper, tematiske landemærker, automatisk facit og 104 billedsamlinger. Gratis prøveversion med vandmærke.',
+    metaDescription: 'Lav skattejagt arbejdsark på 5×5 gitter med to retningstyper, tematiske landemærker, automatisk facit og 104. Saelg pa Etsy & KDP med kommerciel licens.',
   },
 
   hero: {

@@ -15,8 +15,7 @@ const content: AppContent = {
       'negocio fichas sombras mercado hispano Etsy',
     ],
     titleTag: 'Fichas de sombras para vender en Etsy | LCS',
-    metaDescription:
-      'Cree fichas de emparejar sombras para vender en Etsy y KDP. Los niños asocian imágenes con siluetas. Licencia comercial. Pruebe gratis.',
+    metaDescription: 'Cree fichas de emparejar sombras para vender en Etsy y KDP. Los niños asocian imágenes con siluetas. Licencia comercial. Pruebe gratis. 49 $ pago unico.',
   },
 
   hero: {

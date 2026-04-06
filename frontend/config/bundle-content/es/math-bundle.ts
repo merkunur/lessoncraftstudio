@@ -15,7 +15,7 @@ const content: BundleContent = {
       'licencia comercial incluida múltiples plataformas venta',
     ],
     titleTag: 'Paquete de mates para vendedores Etsy | LCS',
-    metaDescription: 'Paquete de 6 generadores de mates para vender en Etsy y KDP. Suma, resta, puzzles y álgebra con licencia comercial. Ahorre frente a la compre individual.',
+    metaDescription: 'Paquete de 6 generadores de mates para vender en Etsy y KDP. Suma, resta, puzzles y álgebra con licencia comercial. 149 $ pago unico.',
   },
 
   hero: {

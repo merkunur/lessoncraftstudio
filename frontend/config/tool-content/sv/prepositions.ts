@@ -15,7 +15,7 @@ const content: ToolContent = {
       'prepositionsövning SFI gratis',
     ],
     titleTag: 'Prepositionsblad gratis online | LessonCraftStudio',
-    metaDescription: 'Skapa prepositionsblad gratis online. Fyll-i-luckan och flerval, 8 prepositioner, 11 språk, facit. Gratis provversion med vattenmärke.',
+    metaDescription: 'Skapa prepositionsblad gratis online. Fyll-i-luckan och flerval, 8 prepositioner, 11 språk, facit. Salj pa Etsy & KDP med kommersiell licens.',
   },
 
   hero: {

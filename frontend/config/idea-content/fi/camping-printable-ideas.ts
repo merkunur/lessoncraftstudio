@@ -3,7 +3,7 @@ import type { IdeaContent } from '../types';
 const content: IdeaContent = {
   seo: {
     titleTag: 'Retkeilyaiheiset tulostettavat ideat myyntiin — Nicheopas',
-    metaDescription: 'Tutustu retkeilyaiheisiin tulostettaviin ideoihin myyntiin Etsyssä, Amazon KDP:ssä ja Gumroadilla. Ulkoilmateemaiset tuotekonseptit, alustastrategiat ja nichevinkit.',
+    metaDescription: 'Tutustu retkeilyaiheisiin tulostettaviin ideoihin myyntiin Etsyssä, Amazon KDP:ssä ja Gumroadilla.',
 
     primaryKeyword: 'retkeily tulostettavat ideat',
     secondaryKeywords: [

@@ -14,9 +14,8 @@ const content: AppContent = {
       'myy etsi erilainen -palapeleja kaupallisesti',
       'kriittisen ajattelun työlehituotteet',
     ],
-    titleTag: 'Kumpi Ei Kuulu -palapeelin tekijä — Myy Etsyssä ja KDP:ssä | LCS',
-    metaDescription:
-      'Luo kumpi ei kuulu -palapeleja myytäväksi Etsyssä ja KDP:ssä. Kaksi palapeelitilaa, automaattiset vastausavaimet punaisilla ympyröillä, 104 teemaa, kaupallinen lisenssi. Ilmainen kokeilu.',
+    titleTag: 'Kumpi Ei Kuulu -palapeelin tekijä — Myy Etsyssä ja KDP:ssä',
+    metaDescription: 'Luo kumpi ei kuulu -palapeleja myytäväksi Etsyssä ja KDP:ssä. Kaksi palapeelitilaa, automaattiset vastausavaimet punaisilla ympyröillä, 104 teemaa,. $49...',
   },
 
   hero: {

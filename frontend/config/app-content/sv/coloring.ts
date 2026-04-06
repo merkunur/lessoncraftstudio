@@ -17,8 +17,7 @@ const content: AppContent = {
       'svenska marknaden målarbilder Etsy',
     ],
     titleTag: 'Målarbilder att sälja på Etsy och KDP | LessonCraftStudio',
-    metaDescription:
-      'Skapa målarbilder att sälja på Etsy och KDP. Fri arbetsyta, 104 teman, gråskaleexport, kommersiell licens. Testa gratis med vattenmärke.',
+    metaDescription: 'Skapa målarbilder att sälja på Etsy och KDP. Fri arbetsyta, 104 teman, gråskaleexport, kommersiell licens. Testa gratis med vattenmärke. $49 engångsbetalning.',
   },
 
   hero: {

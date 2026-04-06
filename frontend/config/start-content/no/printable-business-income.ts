@@ -15,7 +15,7 @@ const content: StartContent = {
       'inntekt selgere av utskriftsbare produkter',
     ],
     titleTag: 'Hvor Mye Kan du Tjene på Utskriftsbare Produkter | LCS',
-    metaDescription: 'Hvor mye kan du tjene på å selge utskriftsbare produkter? Realistiske inntektsforventninger, inntektsmodeller og vekstmilepæler for eiere av utskriftsbar forretning.',
+    metaDescription: 'Hvor mye kan du tjene på å selge utskriftsbare produkter? Realistiske inntektsforventninger, inntektsmodeller og vekstmilepæler for eiere av utskriftsbar.',
   },
 
   hero: {

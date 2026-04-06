@@ -17,8 +17,7 @@ const content: AppContent = {
       'svenska marknaden mönsterblad Etsy',
     ],
     titleTag: 'Mönsterblad att sälja på Etsy | LessonCraftStudio',
-    metaDescription:
-      'Skapa mönsterblad att sälja på Etsy och KDP. Fem mönstertyper, 11 tågvagnar, justerbar svårighet, facit, kommersiell licens. Testa gratis med vattenmärke.',
+    metaDescription: 'Skapa mönsterblad att sälja på Etsy och KDP. Fem mönstertyper, 11 tågvagnar, justerbar svårighet, facit, kommersiell licens. $49 engångsbetalning.',
   },
 
   hero: {

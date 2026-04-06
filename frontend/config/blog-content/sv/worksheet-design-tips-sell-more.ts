@@ -14,7 +14,7 @@ const content: BlogContent = {
       'Etsy butik svenska',
     ],
     titleTag: 'Arbetsblad-Designtips: Sälj Mer | LCS',
-    metaDescription: 'Designtips som gör dina arbetsblad professionella och attraktiva. Layout, typografi och visuell hierarki som säljer.',
+    metaDescription: 'Designtips som gör dina arbetsblad professionella och attraktiva. Layout, typografi och visuell hierarki som säljer. Salj pa Etsy & KDP med kommersiell licens.',
   },
   hero: {
     title: 'Arbetsblad-Designtips: Sälj Mer',

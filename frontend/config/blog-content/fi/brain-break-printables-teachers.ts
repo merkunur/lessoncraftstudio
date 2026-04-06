@@ -14,7 +14,7 @@ const content: BlogContent = {
       'tulostettava myy',
     ],
     titleTag: 'Aivotauko-tulosteet opettajille | LCS',
-    metaDescription: 'Myy aivotauko-tulosteita opettajille. Lyhyet aktiviteetit jotka virkistavat oppitunnin keskella. Kasvava markkina.',
+    metaDescription: 'Myy aivotauko-tulosteita opettajille. Lyhyet aktiviteetit jotka virkistavat oppitunnin keskella. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
   },
   hero: {
     title: 'Aivotauko-tulosteet opettajille: lyhyet virkistavat tehtavat',

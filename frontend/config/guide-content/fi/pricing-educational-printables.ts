@@ -5,7 +5,7 @@ const content: GuideContent = {
     primaryKeyword: 'hinnoittelustrategiat opetuksellisille tulostettaville',
     secondaryKeywords: ['miten hinnoitella tulostettavia työarkkeja', 'opetuksellisten tulostettavien hinnoitteluopas', 'työarkkien hinnoittelustrategia', 'tulostettavien tuotteiden hinnoittelu'],
     lsiKeywords: ['hintapiste koettu arvo kilpailuhinta arvopohjainen hinnoittelu kustannusperusteinen hinnoittelu', 'hinta-ankkurointi pakettihinta porrastettu hinnoittelu hintatestaus alustamaksut voittomarginaali', 'hinnoittelupsykologia alennusstrategia premium-hinnoittelu hintajousto konversioaste', 'alustamaksut nettotuotto hintatasot hintavertailu kustannusanalyysi tuottooptimointi', 'kausihinnoittelu hintasäätö markkinatutkimus ostajan maksuvalmius hintamalli', 'hinnoittelukehys hinta-asemointi alihinnoittelu ylihinnoittelu kestävä hinnoittelu'],
-    titleTag: 'Hinnoittelustrategiat opetuksellisille tulostettaville — Opas',
+    titleTag: 'Hinnoittelustrategiat opetuksellisille tulostettaville —...',
     metaDescription: 'Todistetut hinnoittelustrategiat opetuksellisille tulostettaville. Hinnoittelupsykologia, kilpailuanalyysi, alustamaksut, voittomarginaalit ja hintatestaus.',
   },
 

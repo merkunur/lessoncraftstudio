@@ -23,8 +23,7 @@ const content: ToolContent = {  seo: {
       'licença comercial',
     ],
     titleTag: 'Cartelas de bingo grátis com imagens | LCS',
-    metaDescription:
-      'Crie cartelas de bingo grátis com imagens. Lote até 10 cartelas, exportação ZIP, folha de chamada. Teste online sem cadastro — marca d\'água removível.',
+    metaDescription: 'Crie cartelas de bingo grátis com imagens. Lote até 10 cartelas, exportação ZIP, folha de chamada. Venda no Etsy & KDP com licenca comercial.',
   },
 
   hero: {

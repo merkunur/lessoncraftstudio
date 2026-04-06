@@ -14,7 +14,7 @@ const content: BlogContent = {
       'tulostettava myy',
     ],
     titleTag: 'Paivakotityoarkkien markkina | LCS',
-    metaDescription: 'Paivakoti-ikaisten tyoarkit ovat kasvava markkina. Suomessa paivakotijärjestelma on laaja ja materiaalien kysynta jatkuvaa.',
+    metaDescription: 'Paivakoti-ikaisten tyoarkit ovat kasvava markkina. Suomessa paivakotijärjestelma on laaja ja materiaalien. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
   },
   hero: {
     title: 'Paivakotityoarkkien markkina: kasvava kysyntae',

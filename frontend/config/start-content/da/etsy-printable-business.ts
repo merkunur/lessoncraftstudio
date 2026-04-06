@@ -18,7 +18,7 @@ const content: StartContent = {
       'Etsy prissaetningsstrategi printbare',
     ],
     titleTag: 'Saelg printbare produkter paa Etsy — Masterclass',
-    metaDescription: 'Saadan saelger du printbare produkter paa Etsy trin for trin. Butiksopsaetning, Etsy SEO, annonceringsoptimering, prissaetning og skalering med arbejdsarksgenerator.',
+    metaDescription: 'Saadan saelger du printbare produkter paa Etsy trin for trin. Butiksopsaetning, Etsy SEO, annonceringsoptimering, prissaetning og skalering med.',
   },
 
   hero: {

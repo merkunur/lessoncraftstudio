@@ -24,7 +24,7 @@ const content: BundleContent = {
       'licença comercial jogos de palavras',
     ],
     titleTag: 'Pacote jogos de palavras — Vender | LCS',
-    metaDescription: 'Pacote com geradores de jogos de palavras: caça-palavras, palavras cruzadas, criptogramas e mais. Venda no Etsy, Amazon KDP, Hotmart e Kiwify.',
+    metaDescription: 'Pacote com geradores de jogos de palavras: caça-palavras, palavras cruzadas, criptogramas e mais. 149 $ pagamento unico.',
   },
 
   hero: {

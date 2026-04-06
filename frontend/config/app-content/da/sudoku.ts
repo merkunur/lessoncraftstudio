@@ -15,8 +15,7 @@ const content: AppContent = {
       'printbar logikpuslespil forretningsværktøj',
     ],
     titleTag: 'Billedsudoku Generator | Opret og Sælg Arbejdsark',
-    metaDescription:
-      'Opret billedsudoku arbejdsark til salg på Etsy, KDP og Gumroad. 4×4 gitter, tre sværhedsgrader, automatisk facit, 104 temaer. Gratis prøveversion.',
+    metaDescription: 'Opret billedsudoku arbejdsark til salg på Etsy, KDP og Gumroad. 4×4 gitter, tre sværhedsgrader, automatisk facit, 104 temaer. $49 engangsbetaling.',
   },
 
   hero: {

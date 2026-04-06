@@ -14,7 +14,7 @@ const content: BlogContent = {
       'empreendedor digital educativo',
     ],
     titleTag: 'Etsy Ads para Imprimíveis | LCS',
-    metaDescription: 'Etsy Ads pode acelerar vendas, mas também pode drenar seu orçamento sem retorno. Para imprimíveis educativos, o ROI depende do preço do produto, da conc...',
+    metaDescription: 'Etsy Ads pode acelerar vendas, mas também pode drenar seu orçamento sem retorno. Para imprimíveis educativos, o ROI depende do preço do produto, da conc.',
   },
   hero: {
     title: 'Etsy Ads para Imprimíveis',

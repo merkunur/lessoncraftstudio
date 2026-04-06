@@ -26,8 +26,7 @@ const content: AppContent = {
       'Kiwify',
     ],
     titleTag: 'Quebra-cabeças de matemática para vender | LCS',
-    metaDescription:
-      'Crie quebra-cabeças de matemática com imagens para vender na Hotmart, Etsy e KDP. Grade de imagens, gabarito automático. Teste grátis com marca d\'água.',
+    metaDescription: 'Crie quebra-cabeças de matemática com imagens para vender na Hotmart, Etsy e KDP. Grade de imagens, gabarito automático. 49 $ pagamento unico.',
   },
 
   hero: {

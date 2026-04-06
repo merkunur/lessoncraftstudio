@@ -15,8 +15,8 @@ const content: BundleContent = {
       'kaupallinen lisenssi visuaalisten aktiviteettien tyoarkit',
       'massatuotanto visuaalisten tyoarkkien tyokalu',
     ],
-    titleTag: 'Visuaalinen oppiminen -tyoarkkipaketti — 7 aktiviteettia myyjille',
-    metaDescription: 'Hanki 7 visuaalista oppimisen generaattoria yhdessa paketissa. Luo varitys-, piirtamis-, kuvio-, kokovertailu- ja diagrammityoarkkeja myyntiin verkossa.',
+    titleTag: 'Visuaalinen oppiminen -tyoarkkipaketti — 7 aktiviteettia...',
+    metaDescription: 'Hanki 7 visuaalista oppimisen generaattoria yhdessa paketissa. Varitys, piirustus, kuviot ja kaaviot myyntiin Etsyssa ja KDP:ssa. $149 kertamaksu.',
   },
 
   hero: {

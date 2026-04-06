@@ -14,7 +14,7 @@ const content: BlogContent = {
       'astuces créer bundle',
     ],
     titleTag: 'Créer un bundle de fiches en 35 minutes | LCS',
-    metaDescription: 'Tutoriel pas à pas pour créer un bundle d\'imprimables complet en 35 minutes avec des générateurs.',
+    metaDescription: 'Tutoriel pas à pas pour créer un bundle d\'imprimables complet en 35 minutes avec des générateurs. Vendez sur Etsy & KDP avec licence commerciale.',
   },
   hero: {
     title: 'Créer un bundle de fiches en 35 minutes',

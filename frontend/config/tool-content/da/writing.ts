@@ -15,7 +15,7 @@ const content: ToolContent = {
       'kursiv og trykskrift skriveøvelses generator',
     ],
     titleTag: 'Skriveøvelser Arbejdsark Generator | Lav og Sælg',
-    metaDescription: 'Generér skriveøvelser arbejdsark med tre øvelsestilstande, fem skrifttypestile, pilguided stregrækkefølge, toningsguider, 104 temaer. Gratis prøveversion.',
+    metaDescription: 'Generér skriveøvelser arbejdsark med tre øvelsestilstande, fem skrifttypestile, pilguided stregrækkefølge,. Saelg pa Etsy & KDP med kommerciel licens.',
   },
 
   hero: {

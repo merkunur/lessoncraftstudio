@@ -18,7 +18,7 @@ const content: GuideContent = {
       'multi-platform pakkelistninger universel strategi tværplatform salg',
     ],
     titleTag: 'Skab arbejdsarkpakker der sælger — Guide',
-    metaDescription: 'Sådan generator du arbejdsarkpakker der sælger på alle platforme. Pakketyper, prissætningspsykologi, værdi-stabling og professionel præsentation til mere omsætning.',
+    metaDescription: 'Sådan generator du arbejdsarkpakker der sælger på alle platforme. Pakketyper, prissætningspsykologi, værdi-stabling og professionel præsentation til mere.',
   },
 
   hero: {

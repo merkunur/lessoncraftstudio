@@ -14,7 +14,7 @@ const content: BlogContent = {
       'empreendedor digital educativo',
     ],
     titleTag: 'Atendimento Cliente Produtos Digitais | LCS',
-    metaDescription: 'Produtos digitais geram menos suporte que físicos, mas problemas de download, compatibilidade e expectativas ainda surgem. Um bom atendimento transforma...',
+    metaDescription: 'Produtos digitais geram menos suporte que físicos, mas problemas de download, compatibilidade e expectativas ainda. Venda no Etsy & KDP com licenca comercial.',
   },
   hero: {
     title: 'Atendimento Cliente Produtos Digitais',

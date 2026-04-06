@@ -15,8 +15,7 @@ const content: AppContent = {
       'kaupallinen kaytto kielityoarkki generaattori',
     ],
     titleTag: 'Prepositiot Tyoarkki Generaattori | Luo Tulostettavia',
-    metaDescription:
-      'Luo prepositiot tyoarkkeja myyntiin Etsyssa, KDP:ssa ja Gumroadissa. 8 paikkasanaa, tayttoharjoitukset ja monivalinta. Ilmainen kokeilu vesileimalla.',
+    metaDescription: 'Luo prepositiot tyoarkkeja myyntiin Etsyssa, KDP:ssa ja Gumroadissa. 8 paikkasanaa, tayttoharjoitukset ja monivalinta. $49 kertamaksu.',
   },
 
   hero: {

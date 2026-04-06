@@ -16,7 +16,7 @@ const content: BundleContent = {
       'bulkproduktion sök och hitta arbetsblad verktyg',
     ],
     titleTag: 'Hitta och finn-paket för säljare | LessonCraftStudio',
-    metaDescription: 'Sök och hitta arbetsblad paket med 4 generatorer: I Spy, gömda objekt, korsord och skattjakter. Sälj på Etsy, KDP, Gumroad. Kommersiell licens inkluderad.',
+    metaDescription: 'Sök och hitta arbetsblad paket med 4 generatorer: I Spy, gömda objekt, korsord och skattjakter. Sälj på Etsy, KDP, Gumroad. $149 engångsbetalning.',
   },
 
   hero: {

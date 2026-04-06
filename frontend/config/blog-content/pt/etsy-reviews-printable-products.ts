@@ -14,7 +14,7 @@ const content: BlogContent = {
       'empreendedor digital educativo',
     ],
     titleTag: 'Avaliações Etsy Imprimíveis | LCS',
-    metaDescription: 'Avaliações são o fator #1 de conversão no Etsy. Uma listagem com 20+ avaliações 5 estrelas vende 4-5x mais que uma sem avaliações. Para imprimíveis digi...',
+    metaDescription: 'Avaliações são o fator #1 de conversão no Etsy. Uma listagem com 20+ avaliações 5 estrelas vende 4-5x mais que uma sem avaliações. Para imprimíveis digi.',
   },
   hero: {
     title: 'Avaliações Etsy Imprimíveis',

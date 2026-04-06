@@ -18,7 +18,7 @@ const content: GuideContent = {
       'hashtagstrategi opslagsplan engagementrate profiloptimering',
     ],
     titleTag: 'Sociale medier printable markedsføring — Sælgerguide',
-    metaDescription: 'Strategier for sociale medier markedsføring af printables for sælgere — platformsvalg, visuelt indhold, publikumsopbygning og engagement der driver butikstrafik.',
+    metaDescription: 'Strategier for sociale medier markedsføring af printables for sælgere — platformsvalg, visuelt indhold, publikumsopbygning og engagement der driver.',
   },
 
   hero: {

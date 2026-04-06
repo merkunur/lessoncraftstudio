@@ -5,7 +5,7 @@ const content: BlogContent = {
     secondaryKeywords: ['sesongkalender printable selgere tips', 'sesongkalender printable selgere strategi', 'sesongkalender printable selgere 2026'],
     lsiKeywords: ['utskrivbare produkter forretning', 'printable selger strategi', 'digital nedlasting inntekt'],
     titleTag: 'Sesongkalender for printable-selgere | LCS',
-    metaDescription: 'Å vite når kundene søker etter sesongprodukter er avgjørende for timing. Denne kalenderguiden viser deg måned for måned når du bør lansere sesongbaser',
+    metaDescription: 'Å vite når kundene søker etter sesongprodukter er avgjørende for timing. Selg pa Etsy & KDP med kommersiell lisens.',
   },
   hero: {
     title: 'Sesongkalender for printable-selgere',

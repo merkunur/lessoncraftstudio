@@ -15,7 +15,7 @@ const content: ToolContent = {
       'automatisch antwoordblad gemarkeerde schatcel dubbel-canvas creator',
     ],
     titleTag: 'Speurtocht gratis online maken | LessonCraftStudio',
-    metaDescription: 'Maak gratis schattenjacht werkbladen online met twee richtingstypen, 5×5 coördinatenraster, automatische antwoordbladen en 104 thema\'s. Geen account nodig.',
+    metaDescription: 'Maak gratis schattenjacht werkbladen online met twee richtingstypen, 5×5 coördinatenraster, automatische. Verkoop op Etsy & KDP met commerciele licentie.',
   },
 
   hero: {

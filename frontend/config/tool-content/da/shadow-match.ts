@@ -14,8 +14,8 @@ const content: ToolContent = {
       'pixelniveau skygge-generering derangeringsalgoritme generator',
       'automatisk facit skyggepuslespil arbejdsark generator',
     ],
-    titleTag: 'Skyggematchning Generator — Arbejdsark Generator — Sælgerguide',
-    metaDescription: 'Lav skyggematchning arbejdsark med pixelniveau silhuetter og Gør Billedet Helt billeddeling, automatiske facit, 104 temaer. Gratis prøveversion med vandmærke.',
+    titleTag: 'Skyggematchning Generator — Arbejdsark Generator —...',
+    metaDescription: 'Lav skyggematchning arbejdsark med pixelniveau silhuetter og Gør Billedet Helt billeddeling, automatiske facit, 104. Saelg pa Etsy & KDP med kommerciel licens.',
   },
 
   hero: {

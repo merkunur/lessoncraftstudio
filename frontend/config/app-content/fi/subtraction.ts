@@ -15,8 +15,7 @@ const content: AppContent = {
       'vahennyslasku tyoarkki generaattori kaupallinen kaytto',
     ],
     titleTag: 'Vahennyslasku Tyoarkki Generaattori | Luo ja Myy',
-    metaDescription:
-      'Luo vahennyslasku tyoarkkeja myyntiin Etsyssa, KDP:ssa ja Gumroadissa. 4 tilaa yliviivauksineen, 104 teemaa, vastausavain, harmaa-asteet, 400+ DPI. Ilmainen kokeilu.',
+    metaDescription: 'Luo vahennyslasku tyoarkkeja myyntiin Etsyssa, KDP:ssa ja Gumroadissa. $49 kertamaksu.',
   },
 
   hero: {

@@ -16,7 +16,7 @@ const content: StartContent = {
       'juridiske grunnlag for selgere',
     ],
     titleTag: 'Skatt og Juridisk for Utskriftsbar Forretning | LCS',
-    metaDescription: 'Skatt og juridiske grunnlag for utskriftsbar forretning. Selskapsform, merverdiavgift, inntektsrapportering og overholdelse for selgere av utskriftsbare produkter.',
+    metaDescription: 'Skatt og juridiske grunnlag for utskriftsbar forretning. Selskapsform, merverdiavgift, inntektsrapportering og overholdelse for selgere av utskriftsbare.',
   },
 
   hero: {

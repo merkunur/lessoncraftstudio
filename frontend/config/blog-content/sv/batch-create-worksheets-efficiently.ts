@@ -14,7 +14,7 @@ const content: BlogContent = {
       'automatisera arbetsbladskapande',
     ],
     titleTag: 'Skapa Arbetsblad i Batch: Effektivt | LCS',
-    metaDescription: 'Lär dig skapa 50+ professionella arbetsblad per timme med batch-tekniker. Maximera produktiviteten och minimera skapandetiden.',
+    metaDescription: 'Lär dig skapa 50+ professionella arbetsblad per timme med batch-tekniker. Salj pa Etsy & KDP med kommersiell licens.',
   },
   hero: {
     title: 'Skapa Arbetsblad i Batch: 50+ Per Timme',

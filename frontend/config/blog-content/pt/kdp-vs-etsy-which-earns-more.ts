@@ -14,7 +14,7 @@ const content: BlogContent = {
       'empreendedor digital educativo',
     ],
     titleTag: 'KDP ou Etsy: Qual Rende Mais? | LCS',
-    metaDescription: 'KDP e Etsy são as duas maiores plataformas para vender imprimíveis educativos, mas funcionam de formas muito diferentes. Etsy vende PDFs digitais com ma...',
+    metaDescription: 'KDP e Etsy são as duas maiores plataformas para vender imprimíveis educativos, mas funcionam de formas muito diferentes. Etsy vende PDFs digitais com ma.',
   },
   hero: {
     title: 'KDP ou Etsy: Qual Rende Mais?',

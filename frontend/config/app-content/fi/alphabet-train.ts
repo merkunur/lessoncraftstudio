@@ -14,9 +14,8 @@ const content: AppContent = {
       'tulostettavat aakkos tyoarkit business',
       'kaupallinen kaytto aakkosjuna generaattori',
     ],
-    titleTag: 'Aakkosjuna Generaattori | Luo Kielitulostettavia — Myyntiopas',
-    metaDescription:
-      'Luo aakkosjuna tyoarkkeja myyntiin Etsyssa, KDP:ssa ja Gumroadissa. Junavaunujen kirjain-kuva-yhdistäminen 11 kielellä, 104 teemaa. Ilmainen kokeilu vesileimalla.',
+    titleTag: 'Aakkosjuna Generaattori | LCS',
+    metaDescription: 'Luo aakkosjuna tyoarkkeja myyntiin Etsyssa, KDP:ssa ja Gumroadissa. Junavaunujen kirjain-kuva-yhdistäminen 11 kielellä, 104 teemaa. $49 kertamaksu.',
   },
 
   hero: {

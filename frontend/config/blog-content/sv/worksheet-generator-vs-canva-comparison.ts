@@ -14,7 +14,7 @@ const content: BlogContent = {
       'Etsy butik svenska',
     ],
     titleTag: 'Arbetsblads-Generator vs Canva | LCS',
-    metaDescription: 'Arbetsblads-generatorer vs Canva för utskriftsskapande. Hastighet, kvalitet och funktioner jämförda.',
+    metaDescription: 'Arbetsblads-generatorer vs Canva för utskriftsskapande. Hastighet, kvalitet och funktioner jämförda. Salj pa Etsy & KDP med kommersiell licens.',
   },
   hero: {
     title: 'Arbetsblads-Generator vs Canva',

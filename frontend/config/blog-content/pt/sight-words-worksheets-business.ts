@@ -14,7 +14,7 @@ const content: BlogContent = {
       'mercado imprimíveis temáticos',
     ],
     titleTag: 'Fichas Palavras de Alta Frequência | LCS',
-    metaDescription: 'Palavras de alta frequência (sight words) são as palavras mais comuns em textos infantis que crianças precisam reconhecer instantaneamente. No Brasil,.',
+    metaDescription: 'Palavras de alta frequência (sight words) são as palavras mais comuns em textos infantis que crianças precisam. Venda no Etsy & KDP com licenca comercial.',
   },
   hero: {
     title: 'Fichas Palavras de Alta Frequência',

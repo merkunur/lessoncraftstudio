@@ -2,20 +2,20 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    "primaryKeyword": "etsi ja laske tulosteet tuotto",
-    "secondaryKeywords": [
-        "etsi ja laske tyoarkit myynti",
-        "laskutehtavat kuvilla Etsy",
-        "visuaalinen matematiikka tulosteet"
+    primaryKeyword: 'etsi ja laske tulosteet tuotto',
+    secondaryKeywords: [
+      'etsi ja laske tyoarkit myynti',
+      'laskutehtavat kuvilla Etsy',
+      'visuaalinen matematiikka tulosteet',
     ],
-    "lsiKeywords": [
-        "laskeminen kuvista",
-        "visuaalinen hahmotus matematiikka",
-        "lukumaara harjoitukset"
+    lsiKeywords: [
+      'laskeminen kuvista',
+      'visuaalinen hahmotus matematiikka',
+      'lukumaara harjoitukset',
     ],
-    "titleTag": "Etsi ja laske -tulosteet: tuottavuusopas | LCS",
-    "metaDescription": "Myy etsi ja laske -tulosteita kannattavasti. Yhdistaa visuaalisen etsimisen ja matematiikan. Matala kilpailu, vakaa kysynta."
-},
+    titleTag: 'Etsi ja laske -tulosteet: tuottavuusopas | LCS',
+    metaDescription: 'Myy etsi ja laske -tulosteita kannattavasti Etsyssa ja KDP:ssa. Visuaalinen etsiminen ja matematiikka. Matala kilpailu, vakaa kysynta.',
+  },
   hero: {
     "title": "Etsi ja laske -tulosteet: tuottava piilonicheissa",
     "tagline": "Visuaalinen laskeminen yhdistaa kaksi suosittua tehtavatyyppia",

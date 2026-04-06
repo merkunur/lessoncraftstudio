@@ -15,7 +15,7 @@ const content: ToolContent = {
       'clasificación visual por tamaño y tipo PDF gratis',
     ],
     titleTag: 'Fichas de clasificación gratis | LCS',
-    metaDescription: 'Cree fichas de clasificación de imágenes gratis sin registro. Ordene por categoría, tamaño o tipo. 104 temas, respuestas incluidas.',
+    metaDescription: 'Cree fichas de clasificación de imágenes gratis sin registro. Ordene por categoría, tamaño o tipo. Venda en Etsy & KDP con licencia comercial.',
   },
 
   hero: {

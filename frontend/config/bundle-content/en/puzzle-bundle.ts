@@ -16,7 +16,7 @@ const content: BundleContent = {
       'puzzle book seller toolkit',
     ],
     titleTag: 'Logic Puzzle Bundle for KDP Books | LCS',
-    metaDescription: 'Get all 4 logic puzzle generators in one bundle. Missing pieces, odd one out, sudoku & picture path. Commercial license for Etsy & KDP puzzle sellers.',
+    metaDescription: 'Get all 4 logic puzzle generators in one bundle. Missing pieces, odd one out, sudoku & picture path. $149 one-time.',
   },
 
   hero: {

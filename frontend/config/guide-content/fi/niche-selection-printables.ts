@@ -18,7 +18,7 @@ const content: GuideContent = {
       'hakusanakysyntä hakuvolyymi markkinapaikkatrendit ostointentiosignaalit',
     ],
     titleTag: 'Markkinaraon valinta tulostettaville yrityksille — Opas',
-    metaDescription: 'Markkinaraon valinta tulostettaville yrityksille: tutki kysyntää, analysoi kilpailua, arvioi kannattavuutta, validoi ennen sitoutumista ja suunnittele laajennusta.',
+    metaDescription: 'Markkinaraon valinta tulostettaville yrityksille: tutki kysyntää, analysoi kilpailua, arvioi kannattavuutta, validoi ennen sitoutumista ja suunnittele.',
   },
 
   hero: {

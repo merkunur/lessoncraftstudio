@@ -15,8 +15,7 @@ const content: AppContent = {
       'printbare visuele koppelactiviteit business tools',
     ],
     titleTag: 'Schaduwwerkbladen voor Etsy verkopen | LessonCraftStudio',
-    metaDescription:
-      'Maak schaduwwerkbladen om te verkopen op Etsy en Amazon KDP. Schaduw-modus en maak-het-compleet-modus, automatische silhouetten. Gratis proefversie.',
+    metaDescription: 'Maak schaduwwerkbladen om te verkopen op Etsy en Amazon KDP. Schaduw-modus en maak-het-compleet-modus, automatische silhouetten. $49 eenmalig.',
   },
 
   hero: {

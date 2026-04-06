@@ -6,7 +6,7 @@ const content: BlogContent = {
     secondaryKeywords: ['business stampabili digitali Italia', 'vendere stampabili online strategia', 'Etsy KDP stampabili mercato italiano'],
     lsiKeywords: ['stampabili educativi business', 'vendita online prodotti digitali', 'mercato italiano stampabili 2026'],
     titleTag: 'Reddito Passivo con Stampabili: La Verità | LCS',
-    metaDescription: 'La verità sul reddito passivo con stampabili. Quanto è realmente "passivo" e cosa serve per arrivarci nel 2026.',
+    metaDescription: 'La verità sul reddito passivo con stampabili. Quanto è realmente "passivo" e cosa serve per arrivarci nel 2026. Vendi su Etsy & KDP con licenza commerciale.',
   },
   hero: {
     title: 'Reddito Passivo con Stampabili: La Verità che Nessuno Dice',

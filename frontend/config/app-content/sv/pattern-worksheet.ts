@@ -17,8 +17,7 @@ const content: AppContent = {
       'svenska marknaden mönsterarbetsblad Etsy',
     ],
     titleTag: 'Mönsterigenkänning att sälja på Etsy | LessonCraftStudio',
-    metaDescription:
-      'Skapa mönsterarbetsblad att sälja på Etsy och KDP. Nio mönstertyper, fyll-i-rutan och flerval, facit, kommersiell licens. Testa gratis med vattenmärke.',
+    metaDescription: 'Skapa mönsterarbetsblad att sälja på Etsy och KDP. Nio mönstertyper, fyll-i-rutan och flerval, facit, kommersiell licens. $49 engångsbetalning.',
   },
 
   hero: {

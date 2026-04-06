@@ -6,7 +6,7 @@ const content: BlogContent = {
     secondaryKeywords: ['printable werkbladen moeilijkheidsniveaus productlagen', 'werkbladen werkbladen moeilijkheidsniveaus', 'printables how-to gids'],
     lsiKeywords: ['printable productie tips', 'werkbladen maken strategie', 'printable business how-to'],
     titleTag: 'Moeilijkheidsniveaus als Productlagen Gebruiken | LCS',
-    metaDescription: 'Moeilijkheidsniveaus als Productlagen Gebruiken. Stap-voor-stap instructies en praktische tips voor printable verkopers. Direct toepasbaar.',
+    metaDescription: 'Moeilijkheidsniveaus als Productlagen Gebruiken. Stap-voor-stap instructies en praktische tips voor printable. Verkoop op Etsy & KDP met commerciele licentie.',
   },
   hero: {
     title: 'Moeilijkheidsniveaus als Productlagen Gebruiken',

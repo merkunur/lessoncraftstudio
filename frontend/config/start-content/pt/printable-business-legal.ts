@@ -24,7 +24,7 @@ const content: StartContent = {
       'contabilidade negócio digital imprimíveis',
     ],
     titleTag: 'Imprimíveis: aspectos legais Brasil | LCS',
-    metaDescription: 'Aspectos legais de um negócio de imprimíveis no Brasil. MEI, Simples Nacional, NFS-e, ISS e PIX. Portugal: trabalhador independente e IVA. Consulte um profissional.',
+    metaDescription: 'Aspectos legais de um negócio de imprimíveis no Brasil. MEI, Simples Nacional, NFS-e, ISS e PIX. Venda no Etsy & KDP com licenca comercial.',
   },
 
   hero: {

@@ -18,7 +18,7 @@ const content: GuideContent = {
       'produktionssystem skalbara processer kataloghantering arbetsflödesdesign',
     ],
     titleTag: 'Automatisera printables-verksamhet | LessonCraftStudio',
-    metaDescription: 'Så automatiserar du ditt utskriftsbara företag med batchproduktion, mallsystem och systematiska arbetsflöden. Spara timmar varje vecka och skala upp. Prova.',
+    metaDescription: 'Så automatiserar du ditt utskriftsbara företag med batchproduktion, mallsystem och systematiska arbetsflöden. Salj pa Etsy & KDP med kommersiell licens.',
   },
 
   hero: {

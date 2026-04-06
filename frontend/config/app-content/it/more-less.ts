@@ -15,8 +15,7 @@ const content: AppContent = {
       'stampabili maggiore minore uso commerciale Italia',
     ],
     titleTag: 'Schede Maggiore e Minore per Etsy | Crea e Vendi',
-    metaDescription:
-      'Crea schede maggiore e minore da vendere su Etsy e KDP. 3 modalità di esercizio, 104 temi, soluzioni incluse, 400+ DPI. Licenza commerciale. Prova gratis.',
+    metaDescription: 'Crea schede maggiore e minore da vendere su Etsy e KDP. 3 modalità di esercizio, 104 temi, soluzioni incluse, 400+ DPI. Licenza commerciale. 49 $ pagamento.',
   },
 
   hero: {

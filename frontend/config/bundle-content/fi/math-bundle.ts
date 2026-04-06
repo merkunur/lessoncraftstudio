@@ -16,7 +16,7 @@ const content: BundleContent = {
       'massatuotanto matematiikan tyoarkkityokalu',
     ],
     titleTag: 'Matematiikan tyoarkkipaketti — 6 generaattoria myyjille',
-    metaDescription: 'Hanki 6 matematiikan tyoarkkigeneraattoria yhdessa paketissa. Luo yhteenlasku-, vahennyslasku-, koodipulmia ja muita tyoarkkeja myyntiin Etsyssa, KDP:ssa ja Gumroadissa.',
+    metaDescription: 'Hanki 6 matematiikan tyoarkkigeneraattoria yhdessa paketissa. Yhteenlasku, vahennyslasku ja koodipulmat myyntiin Etsyssa ja KDP:ssa. $149 kertamaksu.',
   },
 
   hero: {

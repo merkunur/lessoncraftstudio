@@ -16,7 +16,7 @@ const content: BundleContent = {
       'outil création fiches visuelles en masse',
     ],
     titleTag: 'Pack visuels pour vendeurs d\'imprimables | LCS',
-    metaDescription: '7 générateurs d\'apprentissage visuel en un pack. Coloriage, dessin, motifs, tailles, graphiques et tracé de lignes à vendre sur Etsy, KDP et Gumroad.',
+    metaDescription: '7 générateurs d\'apprentissage visuel en un pack. Coloriage, dessin, motifs, tailles, graphiques et tracé de lignes à vendre sur Etsy, KDP et Gumroad. 49 $. .',
   },
 
   hero: {

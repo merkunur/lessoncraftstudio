@@ -14,7 +14,7 @@ const content: BlogContent = {
       'upplevt vaerde digitala produkter',
     ],
     titleTag: 'Facit Ökar Försäljningen med 40% | LCS',
-    metaDescription: 'Arbetsblad med facit säljer upp till 40% bättre. Lär dig varför facit ökar upplevt värde och hur du skapar dem effektivt med generatorn.',
+    metaDescription: 'Arbetsblad med facit säljer upp till 40% bättre. Lär dig varför facit ökar upplevt värde och hur du skapar dem. Salj pa Etsy & KDP med kommersiell licens.',
   },
   hero: {
     title: 'Varför Facit Ökar Din Utskriftsförsäljning med 40%',

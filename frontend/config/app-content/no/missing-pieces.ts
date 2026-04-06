@@ -15,8 +15,7 @@ const content: AppContent = {
       'utskriftsbar puslespillaktivitet forretningsverktoy',
     ],
     titleTag: 'Manglende Biter Generator | Lag Visuelle Puslespill',
-    metaDescription:
-      'Lag manglende biter-puslespill til salg på Etsy, KDP og Gumroad. 6 brikkformer, konfigurerbar vanskelighetsgrad, automatisk fasit, 104 temaer. Gratis proveversjon.',
+    metaDescription: 'Lag manglende biter-puslespill til salg på Etsy, KDP og Gumroad. $49 engangsbetaling.',
   },
 
   hero: {

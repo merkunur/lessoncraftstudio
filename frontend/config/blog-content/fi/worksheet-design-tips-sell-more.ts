@@ -14,7 +14,7 @@ const content: BlogContent = {
       'tyoarkit tuotanto',
     ],
     titleTag: 'Tyoarkkien suunnitteluvinkit: myy enemman | LCS',
-    metaDescription: 'Suunnitteluvinkit jotka tekevat tyoarkeistasi myyvempia. Visuaalinen ilme, asettelu ja typografia.',
+    metaDescription: 'Suunnitteluvinkit jotka tekevat tyoarkeistasi myyvempia. Visuaalinen ilme, asettelu ja typografia. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
   },
   hero: {
     title: 'Tyoarkkien suunnitteluvinkit: myy enemman laadulla',

@@ -14,7 +14,7 @@ const content: BlogContent = {
       'empreendedor digital educativo',
     ],
     titleTag: 'Estratégia Preços Imprimíveis Etsy | LCS',
-    metaDescription: 'Precificar imprimíveis é uma arte. Preço muito baixo desvaloriza seu trabalho; muito alto afasta compradores. A maioria dos vendedores erra cobrando US$...',
+    metaDescription: 'Precificar imprimíveis é uma arte. Preço muito baixo desvaloriza seu trabalho; muito alto afasta compradores. A maioria dos vendedores erra cobrando US$.',
   },
   hero: {
     title: 'Estratégia Preços Imprimíveis Etsy',

@@ -15,8 +15,7 @@ const content: AppContent = {
       'utskriftsbar bildekryssord forretningsverktoy',
     ],
     titleTag: 'Bildekryssord Generator | Lag og Selg Puslespill',
-    metaDescription:
-      'Lag bildekryssordpuslespill til salg på Etsy, KDP og Gumroad. Bildeledetråder på 15×15 rutenett, 4 inndatametoder, automatisk fasit. Gratis proveversjon.',
+    metaDescription: 'Lag bildekryssordpuslespill til salg på Etsy, KDP og Gumroad. Bildeledetråder på 15×15 rutenett, 4 inndatametoder, automatisk fasit. $49 engangsbetaling.',
   },
 
   hero: {

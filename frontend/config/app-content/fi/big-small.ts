@@ -15,8 +15,7 @@ const content: AppContent = {
       'iso pieni generaattori kaupallinen käyttö',
     ],
     titleTag: 'Iso ja Pieni Generaattori | Luo ja Myy Kokovertailuarkkeja',
-    metaDescription:
-      'Luo kokovertailutyöarkkeja myyntiin Etsyssä, KDP:ssä ja Gumroadissa. Viisi kysymystyyppiä, identtiset ja eri tilat, 104 teemaa. Ilmainen kokeilu.',
+    metaDescription: 'Luo kokovertailutyöarkkeja myyntiin Etsyssä, KDP:ssä ja Gumroadissa. Viisi kysymystyyppiä, identtiset ja eri tilat, 104 teemaa. $49 kertamaksu.',
   },
 
   hero: {

@@ -15,7 +15,7 @@ const content: ToolContent = {
       'labyrint gratis',
     ],
     titleTag: 'Bildlabyrint gratis online | LessonCraftStudio',
-    metaDescription: 'Skapa bildlabyrint gratis online. Bildväg, Klassisk Labyrint och Välj Rätt Väg, facit, 104 teman. Gratis provversion med vattenmärke.',
+    metaDescription: 'Skapa bildlabyrint gratis online. Bildväg, Klassisk Labyrint och Välj Rätt Väg, facit, 104 teman. Salj pa Etsy & KDP med kommersiell licens.',
   },
 
   hero: {

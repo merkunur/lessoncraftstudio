@@ -15,8 +15,7 @@ const content: AppContent = {
       'negocio pasatiempos imprimibles mercado hispano',
     ],
     titleTag: 'Crucigramas para vender en Etsy y KDP | LCS',
-    metaDescription:
-      'Cree crucigramas con imágenes para vender en Etsy y KDP. 104 temas, 11 idiomas, solucionario automático. Licencia comercial. Pruebe gratis.',
+    metaDescription: 'Cree crucigramas con imágenes para vender en Etsy y KDP. 104 temas, 11 idiomas, solucionario automático. Licencia comercial. Pruebe gratis. 49 $ pago unico.',
   },
 
   hero: {

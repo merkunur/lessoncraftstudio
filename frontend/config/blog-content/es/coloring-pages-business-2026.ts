@@ -14,7 +14,7 @@ const content: BlogContent = {
       'coloring business saturation strategy',
     ],
     titleTag: 'Negocio de Colorear 2026: Sigue Rentable? | LCS',
-    metaDescription: 'Descubra si el negocio de páginas para colorear sigue siendo rentable en 2026. Nichos que funcionan y estrategias actualizadas.',
+    metaDescription: 'Descubra si el negocio de páginas para colorear sigue siendo rentable en 2026. Venda en Etsy & KDP con licencia comercial.',
   },
   hero: {
     title: 'Negocio de Colorear 2026: ¿Sigue Siendo Rentable?',

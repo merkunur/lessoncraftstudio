@@ -14,7 +14,7 @@ const content: BlogContent = {
       'Etsy butik svenska',
     ],
     titleTag: 'Hjärnpaus-Utskrifter: Populärt för Pedagoger | LCS',
-    metaDescription: 'Hjärnpaus-aktiviteter som pussel, labyrint och färgläggning säljer bra till föräldrar och pedagoger.',
+    metaDescription: 'Hjärnpaus-aktiviteter som pussel, labyrint och färgläggning säljer bra till föräldrar och pedagoger. Salj pa Etsy & KDP med kommersiell licens.',
   },
   hero: {
     title: 'Hjärnpaus-Utskrifter: Populärt för Pedagoger',

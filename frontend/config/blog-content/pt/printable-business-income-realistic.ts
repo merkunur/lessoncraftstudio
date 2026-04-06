@@ -14,7 +14,7 @@ const content: BlogContent = {
       'empreendedor digital educativo',
     ],
     titleTag: 'Renda Negócio Imprimíveis: Realista | LCS',
-    metaDescription: 'Muitos gurus prometem renda passiva de R$ 10.000/mês vendendo imprimíveis. A realidade é mais modesta, mas ainda assim atrativa. Este guia apresenta dad...',
+    metaDescription: 'Muitos gurus prometem renda passiva de R$ 10.000/mês vendendo imprimíveis. A realidade é mais modesta, mas ainda assim atrativa. Este guia apresenta dad.',
   },
   hero: {
     title: 'Renda Negócio Imprimíveis: Realista',

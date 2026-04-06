@@ -3,7 +3,7 @@ import type { IdeaContent } from '../types';
 const content: IdeaContent = {
   seo: {
     titleTag: 'Hjemmeundervisning utskriftsbare ideer til salg — Nisjeguide',
-    metaDescription: 'Oppdag hjemmeundervisning utskriftsbare ideer for Etsy, Amazon KDP og Gumroad. Nisjestrategier for selgere rettet mot foreldre som bygger hjemmeundervisningspensa.',
+    metaDescription: 'Oppdag hjemmeundervisning utskriftsbare ideer for Etsy, Amazon KDP og Gumroad. Nisjestrategier for selgere rettet mot foreldre som bygger.',
 
     primaryKeyword: 'hjemmeundervisning utskriftsbare ideer',
     secondaryKeywords: [

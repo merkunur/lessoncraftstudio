@@ -15,8 +15,7 @@ const content: AppContent = {
       'negocio páginas colorear ingreso pasivo',
     ],
     titleTag: 'Dibujos para colorear — Vender en Etsy y KDP | LCS',
-    metaDescription:
-      'Cree dibujos para colorear para vender en Etsy y KDP. 104 temas, alta resolución, solucionario. Licencia comercial incluida. Pruebe gratis.',
+    metaDescription: 'Cree dibujos para colorear para vender en Etsy y KDP. 104 temas, alta resolución, solucionario. Licencia comercial incluida. Pruebe gratis. 49 $ pago unico.',
   },
 
   hero: {

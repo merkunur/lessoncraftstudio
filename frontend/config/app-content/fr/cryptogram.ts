@@ -15,8 +15,7 @@ const content: AppContent = {
       'chiffre par images lettres à révéler 11 langues',
     ],
     titleTag: 'Cryptogrammes à vendre sur Etsy & KDP | LCS',
-    metaDescription:
-      'Créez des cryptogrammes à vendre sur Etsy & KDP. Chiffre par images, lettres à révéler, licence commerciale. Testez gratuitement avec filigrane.',
+    metaDescription: 'Créez des cryptogrammes à vendre sur Etsy & KDP. Chiffre par images, lettres à révéler, licence commerciale. 49 $ paiement unique.',
   },
 
   hero: {

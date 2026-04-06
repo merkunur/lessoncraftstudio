@@ -16,7 +16,7 @@ const content: BundleContent = {
       'batch bingokaart export voor kleuters',
     ],
     titleTag: 'Koppel- en sorteerpakket voor Etsy | LessonCraftStudio',
-    metaDescription: 'Vijf koppel- en sorteergenerators in een pakket. Maak koppelwerkbladen, schaduw koppelen, rasterpuzzels, bingo en sorteer werkbladen voor Etsy en KDP.',
+    metaDescription: 'Vijf koppel- en sorteergenerators in een pakket. Maak koppelwerkbladen, schaduw koppelen, rasterpuzzels, bingo en sorteer werkbladen voor Etsy en KDP. $49. .',
   },
 
   hero: {

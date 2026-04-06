@@ -15,8 +15,7 @@ const content: AppContent = {
       'utskriftsbar visuell sokeaktivitet forretningsverktoy',
     ],
     titleTag: 'Skjulte Objekter Generator | Lag Sokearbeidsark',
-    metaDescription:
-      'Lag skjulte objekter arbeidsark til salg på Etsy, KDP og Gumroad. Soking og Finn den Merkelige Bildet-moduser, null-overlapp scener, automatisk fasit. Gratis.',
+    metaDescription: 'Lag skjulte objekter arbeidsark til salg på Etsy, KDP og Gumroad. $49 engangsbetaling.',
   },
 
   hero: {

@@ -16,7 +16,7 @@ const content: BundleContent = {
       'masseproduktion sprogarbejdsark værktøj',
     ],
     titleTag: 'Læsearbejdsark Pakke — 7 Sprog- og Ordgeneratorer | Online',
-    metaDescription: 'Få 7 læse- og skrivearbejdsark-generatorer i én pakke. Lav alfabet, ordsøgning, kryptogram, forholdsord og håndskriftsarbejdsark på 11 sprog. Prøv gratis.',
+    metaDescription: 'Få 7 læse- og skrivearbejdsark-generatorer i én pakke. Lav alfabet, ordsøgning, kryptogram, forholdsord og håndskriftsarbejdsark på 11 sprog. $49. $149 enga.',
   },
 
   hero: {

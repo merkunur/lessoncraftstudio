@@ -15,8 +15,7 @@ const content: AppContent = {
       'negocio fichas conteo mercado hispano Etsy',
     ],
     titleTag: 'Fichas de conteo y gráficos para Etsy | LCS',
-    metaDescription:
-      'Cree fichas de conteo y gráficos con imágenes para vender en Etsy y KDP. 104 temas visuales, solucionario. Licencia comercial. Pruebe gratis.',
+    metaDescription: 'Cree fichas de conteo y gráficos con imágenes para vender en Etsy y KDP. 104 temas visuales, solucionario. Licencia comercial. Pruebe gratis. 49 $ pago unico.',
   },
 
   hero: {

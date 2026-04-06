@@ -17,8 +17,8 @@ const content: GuideContent = {
       'krydssalg katalognavigation butiksorganisering produktsekventering markedsdækning',
       'visuel identitet produkthierarki komplementære produkter produktøkosystem linjesammenhæng',
     ],
-    titleTag: 'Sådan generator du en printbar produktlinje — Guide',
-    metaDescription: 'Lær at skabe en printbar produktlinje med konsistent branding, strategisk produktsekventering og systematisk udvidelse til at bygge et sammenhængende katalog.',
+    titleTag: 'Generator du en printbar produktlinje — Guide',
+    metaDescription: 'Lær at skabe en printbar produktlinje med konsistent branding, strategisk produktsekventering og systematisk. Saelg pa Etsy & KDP med kommerciel licens.',
   },
 
   hero: {

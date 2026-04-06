@@ -6,7 +6,7 @@ const content: BlogContent = {
     secondaryKeywords: ['printable business strategie 2026', 'werkbladen verkopen platform tips', 'digitale producten online verkopen'],
     lsiKeywords: ['printable verkoop optimalisatie', 'digitale download business', 'online printable winkel'],
     titleTag: 'De Printable Prijsstrategie Die Winst Maximaliseert | LCS',
-    metaDescription: 'De Printable Prijsstrategie Die Winst Maximaliseert. Praktische strategieën en bewezen technieken voor printable verkopers in 2026.',
+    metaDescription: 'De Printable Prijsstrategie Die Winst Maximaliseert. Praktische strategieën en bewezen technieken voor. Verkoop op Etsy & KDP met commerciele licentie.',
   },
   hero: {
     title: 'De Printable Prijsstrategie Die Winst Maximaliseert',

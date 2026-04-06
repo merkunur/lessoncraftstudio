@@ -14,7 +14,7 @@ const content: ToolContent = {  seo: {
       'bingo educativo con ilustraciones gratis PDF',
     ],
     titleTag: 'Cartones de bingo gratis con imágenes | LCS',
-    metaDescription: 'Cree cartones de bingo con imágenes gratis sin registro. Cartones únicos aleatorios, 104 temas, tarjeta de llamada incluida.',
+    metaDescription: 'Cree cartones de bingo con imágenes gratis sin registro. Cartones únicos aleatorios, 104 temas, tarjeta de llamada. Venda en Etsy & KDP con licencia comercial.',
     },
 
   hero: {

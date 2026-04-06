@@ -15,8 +15,7 @@ const content: AppContent = {
       'printbare logica puzzel business tools',
     ],
     titleTag: 'Sudoku met afbeeldingen voor KDP | LessonCraftStudio',
-    metaDescription:
-      'Maak sudoku-puzzels met afbeeldingen voor KDP-boeken en Etsy. Verschillende rastergroottes, thema\'s, antwoorden. Gratis proefversie met watermerk.',
+    metaDescription: 'Maak sudoku-puzzels met afbeeldingen voor KDP-boeken en Etsy. Verschillende rastergroottes, thema\'s, antwoorden. Gratis proefversie met watermerk. $49 eenmalig.',
   },
 
   hero: {

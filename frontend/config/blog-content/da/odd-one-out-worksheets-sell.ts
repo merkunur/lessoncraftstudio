@@ -6,7 +6,7 @@ const content: BlogContent = {
     secondaryKeywords: ['find fejlen arbejdsark sælg Etsy', 'find fejlen arbejdsark sælg online', 'find fejlen arbejdsark sælg forretning'],
     lsiKeywords: ['printbar forretning Danmark', 'digital download salg', 'Etsy printables sælg'],
     titleTag: 'Find-Fejlen Arbejdsark: Sælg Logiske Puslespil | LCS',
-    metaDescription: 'Find-fejlen (odd-one-out) arbejdsark er et klassisk puslespilformat, hvor barnet identificerer det element der ikke hører til. Formatet træner logisk tænkn',
+    metaDescription: 'Find-fejlen (odd-one-out) arbejdsark er et klassisk puslespilformat, hvor barnet identificerer det element der ikke. Saelg pa Etsy & KDP med kommerciel licens.',
   },
   hero: {
     title: 'Find-Fejlen Arbejdsark: Sælg Logiske Puslespil',

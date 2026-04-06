@@ -15,7 +15,7 @@ const content: ToolContent = {
       'dra-ett-streck övning gratis',
     ],
     titleTag: 'Kopplingsblad gratis online | LessonCraftStudio',
-    metaDescription: 'Skapa kopplingsblad gratis online. 4 matchningslägen, facit med kopplingslinjer, 11 språk, 104 teman. Gratis provversion med vattenmärke.',
+    metaDescription: 'Skapa kopplingsblad gratis online. 4 matchningslägen, facit med kopplingslinjer, 11 språk, 104 teman. Salj pa Etsy & KDP med kommersiell licens.',
   },
 
   hero: {

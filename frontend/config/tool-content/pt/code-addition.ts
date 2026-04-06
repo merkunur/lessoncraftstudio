@@ -23,8 +23,7 @@ const content: ToolContent = {  seo: {
       'licença comercial',
     ],
     titleTag: 'Enigmas matemáticos grátis online | LCS',
-    metaDescription:
-      'Crie enigmas de adição codificada grátis. Modo Palavra Revelada, 11 idiomas, gabarito automático. Teste online sem cadastro — marca d\'água removível.',
+    metaDescription: 'Crie enigmas de adição codificada grátis. Modo Palavra Revelada, 11 idiomas, gabarito automático. Venda no Etsy & KDP com licenca comercial.',
   },
 
   hero: {

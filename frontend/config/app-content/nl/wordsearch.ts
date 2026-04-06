@@ -15,8 +15,7 @@ const content: AppContent = {
       'commercieel gebruik woordzoeker generator',
     ],
     titleTag: 'Woordzoeker generator om te verkopen | LessonCraftStudio',
-    metaDescription:
-      'Maak woordzoekerpuzzels met afbeeldingen om te verkopen op Etsy, KDP en Bol.com. 104 thema\'s, commerciële licentie. Gratis proefversie met watermerk.',
+    metaDescription: 'Maak woordzoekerpuzzels met afbeeldingen om te verkopen op Etsy, KDP en Bol.com. 104 thema\'s, commerciële licentie. $49 eenmalig.',
   },
 
   hero: {

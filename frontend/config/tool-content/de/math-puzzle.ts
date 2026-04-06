@@ -14,7 +14,7 @@ const content: ToolContent = {  seo: {
       'konfigurierbarer Mathe-Puzzle-Generator',
     ],
     titleTag: 'Kostenloser Mathe-Rätsel Generator | LCS',
-    metaDescription: 'Kostenloser Mathe-Rätsel Generator — Jigsaw-Puzzle-Arbeitsblätter mit Bildern online erstellen, ohne Anmeldung. Testversion mit Wasserzeichen verfügbar.',
+    metaDescription: 'Kostenloser Mathe-Rätsel Generator — Jigsaw-Puzzle-Arbeitsblätter mit Bildern online erstellen, ohne. Verkaufen Sie auf Etsy & KDP mit gewerblicher Lizenz.',
     },
 
   hero: {

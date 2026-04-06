@@ -14,7 +14,7 @@ const content: BlogContent = {
       'mercado imprimíveis temáticos',
     ],
     titleTag: 'Imprimíveis para Novos Pais | LCS',
-    metaDescription: 'Novos pais são os compradores mais entusiastas de imprimíveis educativos. O desejo de oferecer a melhor educação possível impulsiona compras desde os .',
+    metaDescription: 'Novos pais são os compradores mais entusiastas de imprimíveis educativos. Venda no Etsy & KDP com licenca comercial.',
   },
   hero: {
     title: 'Imprimíveis para Novos Pais',

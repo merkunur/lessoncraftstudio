@@ -3,7 +3,7 @@ import type { IdeaContent } from '../types';
 const content: IdeaContent = {
   seo: {
     titleTag: 'Musiikkiaiheiset tulostettavat ideat myyntiin — Nicheopas',
-    metaDescription: 'Tutustu musiikkiaiheisiin tulostettaviin ideoihin myyntiin Etsyssä, Amazon KDP:ssä ja Gumroadissa. Soitinteemaiset tuotekonseptit, alustastrategiat ja nichevinkit myyjille.',
+    metaDescription: 'Tutustu musiikkiaiheisiin tulostettaviin ideoihin myyntiin Etsyssä, Amazon KDP:ssä ja Gumroadissa.',
 
     primaryKeyword: 'musiikki tulostettavat ideat',
     secondaryKeywords: [

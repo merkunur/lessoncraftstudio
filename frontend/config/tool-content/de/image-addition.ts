@@ -14,7 +14,7 @@ const content: ToolContent = {  seo: {
       'Vorschul-Additionsaufgaben Generator',
     ],
     titleTag: 'Kostenloser Plusaufgaben Generator Online | LCS',
-    metaDescription: 'Kostenloser Plusaufgaben Generator online — Additions-Arbeitsblätter mit Bildern sofort erstellen, ohne Anmeldung. Testversion mit Wasserzeichen verfügbar.',
+    metaDescription: 'Kostenloser Plusaufgaben Generator online — Additions-Arbeitsblätter mit Bildern sofort erstellen, ohne. Verkaufen Sie auf Etsy & KDP mit gewerblicher Lizenz.',
     },
 
   hero: {

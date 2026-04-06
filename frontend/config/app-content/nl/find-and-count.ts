@@ -15,8 +15,7 @@ const content: AppContent = {
       'printbare telactiviteit business tools',
     ],
     titleTag: 'Zoek en tel werkbladen voor Etsy | LessonCraftStudio',
-    metaDescription:
-      'Maak zoek-en-tel werkbladen om te verkopen op Etsy en KDP. Kinderen zoeken en tellen thema-afbeeldingen. Commerciële licentie. Gratis proefversie.',
+    metaDescription: 'Maak zoek-en-tel werkbladen om te verkopen op Etsy en KDP. Kinderen zoeken en tellen thema-afbeeldingen. Commerciële licentie. Gratis proefversie. $49 eenmalig.',
   },
 
   hero: {

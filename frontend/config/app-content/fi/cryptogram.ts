@@ -15,8 +15,7 @@ const content: AppContent = {
       'kryptogrammi generaattori kaupallinen käyttö',
     ],
     titleTag: 'Kryptogrammi Generaattori | Luo ja Myy Salakirjoituspulmia',
-    metaDescription:
-      'Luo kryptogrammi-työarkkeja myyntiin Etsyssä, KDP:ssä ja Gumroadissa. Kuvakoodaus, Kirjaimia Paljastettavaksi -vaikeussäätö, 104 teemaa. Ilmainen kokeilu.',
+    metaDescription: 'Luo kryptogrammi-työarkkeja myyntiin Etsyssä, KDP:ssä ja Gumroadissa. Kuvakoodaus, Kirjaimia Paljastettavaksi -vaikeussäätö, 104 teemaa. $49 kertamaksu.',
   },
 
   hero: {

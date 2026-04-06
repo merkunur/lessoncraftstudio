@@ -14,8 +14,8 @@ const content: GuideContent = {
       'Gumroad utskriftsvirksomhet',
       'direkte-til-forbruker utskriftssalg',
     ],
-    titleTag: 'Slik selger du utskriftsprodukter på Gumroad | LCS',
-    metaDescription: 'Guide til å selge utskriftsprodukter på Gumroad. Butikkoppsett, prissetting, betalingsbehandling og markedsføringsstrategier for utskriftsselgere som går direkte til forbruker.',
+    titleTag: 'Selger du utskriftsprodukter på Gumroad | LCS',
+    metaDescription: 'Guide til å selge utskriftsprodukter på Gumroad. Butikkoppsett, prissetting, betalingsbehandling og markedsføringsstrategier for utskriftsselgere som går.',
   },
 
   hero: {

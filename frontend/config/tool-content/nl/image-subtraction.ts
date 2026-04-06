@@ -15,7 +15,7 @@ const content: ToolContent = {
       'min-sommen werkblad gratis proefversie',
     ],
     titleTag: 'Aftrekwerkbladen gratis online | LessonCraftStudio',
-    metaDescription: 'Maak gratis aftrekwerkbladen met doorstreep-visualisatie online. 104 thema\'s, instelbare moeilijkheid, antwoordblad, printklare PDF. Probeer nu gratis.',
+    metaDescription: 'Maak gratis aftrekwerkbladen met doorstreep-visualisatie online. Verkoop op Etsy & KDP met commerciele licentie.',
   },
 
   hero: {

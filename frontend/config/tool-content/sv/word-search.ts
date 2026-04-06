@@ -15,7 +15,7 @@ const content: ToolContent = {
       'dolda ord pussel gratis',
     ],
     titleTag: 'Ordpussel maker gratis online | LessonCraftStudio',
-    metaDescription: 'Skapa ordpussel med bilder gratis online. Justerbart rutnät 5–30, riktningskontroller, svenska ÅÄÖ, 11 språk. Gratis provversion med vattenmärke.',
+    metaDescription: 'Skapa ordpussel med bilder gratis online. Justerbart rutnät 5–30, riktningskontroller, svenska ÅÄÖ, 11 språk. Salj pa Etsy & KDP med kommersiell licens.',
   },
 
   hero: {

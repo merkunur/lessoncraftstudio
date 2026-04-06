@@ -24,8 +24,7 @@ const content: GuideContent = {
       'produtividade',
     ],
     titleTag: 'Automatizar negócio de imprimíveis | LCS',
-    metaDescription:
-      'Como automatizar seu negócio de imprimíveis. Ferramentas, processos e estratégias para escalar com menos esforço.',
+    metaDescription: 'Como automatizar seu negócio de imprimíveis. Ferramentas, processos e estratégias para escalar com menos esforço. Venda no Etsy & KDP com licenca comercial.',
   },
 
   hero: {

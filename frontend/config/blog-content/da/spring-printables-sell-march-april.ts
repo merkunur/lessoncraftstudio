@@ -6,7 +6,7 @@ const content: BlogContent = {
     secondaryKeywords: ['forår printables sælg marts april Etsy', 'forår printables sælg marts april online', 'forår printables sælg marts april forretning'],
     lsiKeywords: ['printbar forretning Danmark', 'digital download salg', 'Etsy printables sælg'],
     titleTag: 'Forårs-Printables: Marts-April Salgsguide | LCS',
-    metaDescription: 'Foråret (marts-april) er en aktiv salgsperiode med påske, forårsblomstering og udeaktiviteter. Danske forældre søger forårstemaede aktiviteter til børnene,',
+    metaDescription: 'Foråret (marts-april) er en aktiv salgsperiode med påske, forårsblomstering og udeaktiviteter. Saelg pa Etsy & KDP med kommerciel licens.',
   },
   hero: {
     title: 'Forårs-Printables: Marts-April Salgsguide',

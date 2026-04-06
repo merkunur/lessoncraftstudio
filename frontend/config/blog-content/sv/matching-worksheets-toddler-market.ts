@@ -14,7 +14,7 @@ const content: BlogContent = {
       'Etsy butik svenska',
     ],
     titleTag: 'Matchningsarbetsblad: Småbarnsmarknaden | LCS',
-    metaDescription: 'Matchningsarbetsblad för småbarn och förskolebarn säljer starkt. Enkla visuella matchningar som utvecklar kognitiva färdigheter.',
+    metaDescription: 'Matchningsarbetsblad för småbarn och förskolebarn säljer starkt. Salj pa Etsy & KDP med kommersiell licens.',
   },
   hero: {
     title: 'Matchningsarbetsblad: Småbarnsmarknaden',

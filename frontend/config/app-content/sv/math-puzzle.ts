@@ -17,8 +17,7 @@ const content: AppContent = {
       'svenska marknaden mattepussel Etsy',
     ],
     titleTag: 'Mattepussel att sälja på Etsy och KDP | LessonCraftStudio',
-    metaDescription:
-      'Skapa mattepussel arbetsblad att sälja på Etsy och KDP. Bildpussel med addition och subtraktion, 2×2 till 4×4 rutnät, facit. Testa gratis med vattenmärke.',
+    metaDescription: 'Skapa mattepussel arbetsblad att sälja på Etsy och KDP. Bildpussel med addition och subtraktion, 2×2 till 4×4 rutnät, facit. $49 engångsbetalning.',
   },
 
   hero: {

@@ -15,8 +15,7 @@ const content: AppContent = {
       'kommercielt brug billeddiagram generator med facit',
     ],
     titleTag: 'Billeddiagram Generator | Opret Diagramtælling Arbejdsark',
-    metaDescription:
-      'Opret billeddiagram arbejdsark til salg på Etsy, KDP og Gumroad. Automatisk facit med markeringer, 104 temaer, 6 billedtyper per ark. Gratis prøveversion.',
+    metaDescription: 'Opret billeddiagram arbejdsark til salg på Etsy, KDP og Gumroad. Automatisk facit med markeringer, 104 temaer, 6 billedtyper per ark. $49 engangsbetaling.',
   },
 
   hero: {

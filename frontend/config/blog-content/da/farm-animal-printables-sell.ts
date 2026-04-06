@@ -6,7 +6,7 @@ const content: BlogContent = {
     secondaryKeywords: ['bondegårdsdyr printables sælg Etsy', 'bondegårdsdyr printables sælg online', 'bondegårdsdyr printables sælg forretning'],
     lsiKeywords: ['printbar forretning Danmark', 'digital download salg', 'Etsy printables sælg'],
     titleTag: 'Bondegårdsdyr-Printables: En Eviggrøn Niche | LCS',
-    metaDescription: 'Bondegårdsdyr er det mest populære dyretema for børn 2-5 år. Ko, gris, høne og hest fascinerer de yngste, og forældre søger aktivt efter bondegårdstema-akt',
+    metaDescription: 'Bondegårdsdyr er det mest populære dyretema for børn 2-5 år. Saelg pa Etsy & KDP med kommerciel licens.',
   },
   hero: {
     title: 'Bondegårdsdyr-Printables: En Eviggrøn Niche',

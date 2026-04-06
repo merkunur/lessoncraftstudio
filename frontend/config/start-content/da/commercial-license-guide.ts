@@ -17,8 +17,8 @@ const content: StartContent = {
       'arbejdsarksgenerator licensniveauer',
       'kommerciel kontra personlig brug printbare',
     ],
-    titleTag: 'Kommerciel licens for printbare arbejdsark — guide for saelgere',
-    metaDescription: 'Forstaa kommercielle licenser for at saelge arbejdsark paa Etsy, Amazon KDP og andre platforme. To licensniveauer forklaret med tydelige rettigheder og begaensninger.',
+    titleTag: 'Kommerciel licens for printbare arbejdsark — guide for...',
+    metaDescription: 'Forstaa kommercielle licenser for at saelge arbejdsark paa Etsy, Amazon KDP og andre platforme.',
   },
 
   hero: {

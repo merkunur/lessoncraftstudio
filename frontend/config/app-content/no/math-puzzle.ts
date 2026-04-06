@@ -15,8 +15,7 @@ const content: AppContent = {
       'kommersielt bruk mattepuslespill generator',
     ],
     titleTag: 'Mattepuslespill Generator | Lag og Selg Utskriftsbare',
-    metaDescription:
-      'Lag mattepuslespill arbeidsark til salg på Etsy, KDP og Gumroad. Bildepuslespill med addisjon og subtraksjon, justerbare rutenett. Gratis prøveversjon.',
+    metaDescription: 'Lag mattepuslespill arbeidsark til salg på Etsy, KDP og Gumroad. Bildepuslespill med addisjon og subtraksjon, justerbare rutenett. $49 engangsbetaling.',
   },
 
   hero: {

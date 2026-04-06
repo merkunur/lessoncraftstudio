@@ -18,7 +18,7 @@ const content: GuideContent = {
       'kommersiell lisens preposisjonsarbeidsark-verktoy',
     ],
     titleTag: 'Preposisjonsarbeidsark — Guide',
-    metaDescription: 'Lag preposisjonsarbeidsark med to ovelsesmoduser, formbytte for scenevariasjon, 7-preposisjon avkrysning, native posisjonsord pa 11 sprak.',
+    metaDescription: 'Lag preposisjonsarbeidsark med to ovelsesmoduser, formbytte for scenevariasjon, 7-preposisjon avkrysning, native. Selg pa Etsy & KDP med kommersiell lisens.',
   },
 
   hero: {

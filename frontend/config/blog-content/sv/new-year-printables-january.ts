@@ -14,7 +14,7 @@ const content: BlogContent = {
       'Etsy butik svenska',
     ],
     titleTag: 'Nyårs-Utskrifter: Januari-Försäljning | LCS',
-    metaDescription: 'Nyårsutskrifter säljer starkt i januari. Målsättningsblad, planerare och nya vanor-aktiviteter för barn och vuxna.',
+    metaDescription: 'Nyårsutskrifter säljer starkt i januari. Målsättningsblad, planerare och nya vanor-aktiviteter för barn och vuxna. Salj pa Etsy & KDP med kommersiell licens.',
   },
   hero: {
     title: 'Nyårs-Utskrifter: Januari-Försäljning',

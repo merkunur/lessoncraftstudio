@@ -15,7 +15,7 @@ const content: BundleContent = {
       'licencia comercial fichas visuales múltiples plataformas',
     ],
     titleTag: 'Paquete fichas visuales para vendedores | LCS',
-    metaDescription: 'Paquete de 5 generadores de fichas visuales para vender en Etsy y KDP. Colorear, dibujar, buscar objetos y contar. Licencia comercial incluida.',
+    metaDescription: 'Paquete de 5 generadores de fichas visuales para vender en Etsy y KDP. Colorear, dibujar, buscar objetos y contar. 149 $ pago unico.',
   },
 
   hero: {

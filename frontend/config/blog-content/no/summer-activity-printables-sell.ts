@@ -5,7 +5,7 @@ const content: BlogContent = {
     secondaryKeywords: ['sommer aktiviteter printables selge Etsy', 'sommer aktiviteter printables selge strategi', 'sommer aktiviteter printables selge tips'],
     lsiKeywords: ['sesongbaserte utskrifter', 'utskrivbare arbeidsark nisje', 'printable selger Norge'],
     titleTag: 'Sommeraktiviteter-utskrifter: Selg hele sommeren | LCS',
-    metaDescription: 'Norsk sommerferie varer fra midten av juni til midten av august — hele 8 uker. Foreldre søker aktivt etter aktiviteter som holder barna beschåftiget. ',
+    metaDescription: 'Norsk sommerferie varer fra midten av juni til midten av august — hele 8 uker. Selg pa Etsy & KDP med kommersiell lisens.',
   },
   hero: {
     title: 'Sommeraktiviteter-utskrifter: Selg hele sommeren',

@@ -14,7 +14,7 @@ const content: BlogContent = {
       'audience Pinterest enseignants parents',
     ],
     titleTag: 'Pinterest : trafic pour votre boutique imprimables | LCS',
-    metaDescription: 'Utilisez Pinterest pour générer du trafic vers votre boutique d\'imprimables. Stratégie complète : épingles, tableaux, SEO Pinterest et automatisation.',
+    metaDescription: 'Utilisez Pinterest pour générer du trafic vers votre boutique d\'imprimables. Vendez sur Etsy & KDP avec licence commerciale.',
   },
   hero: {
     title: 'Pinterest : la machine à trafic pour votre boutique d\'imprimables',

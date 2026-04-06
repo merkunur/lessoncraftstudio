@@ -6,7 +6,7 @@ const content: GuideContent = {
     secondaryKeywords: ['etsi esineet -pulmageneraattori', 'tulostettavat piiloesineet-työarkit myyntiin', 'I Spy -aktiviteettiarkit lapsille', 'mukautetut piiloesineet-kohtaukset'],
     lsiKeywords: ['temaattiset piiloesineet-kohtaukset Etsyyn', 'Amazon KDP piiloesineet-aktiviteettikirjat', 'visuaalisen haun harjoitustyöarkit', 'kaupallinen lisenssi piiloesineet-työkalu', 'ryhmäaktiiviteettikohtaukset lapsille', 'etsi ja laske -harjoitukset'],
     titleTag: 'Piilotettuja esineitä -työarkit — Opas',
-    metaDescription: 'Luo piilotettuja esineitä -työarkkeja temaattisilla kohtauksilla, visuaalisen haun harjoituksilla ja automaattisilla vastausavaimilla. Opas Etsyn ja KDP:n myyjille.',
+    metaDescription: 'Luo piilotettuja esineitä -työarkkeja temaattisilla kohtauksilla, visuaalisen haun harjoituksilla ja. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
   },
   hero: {
     title: 'Kuinka luot piilotettuja esineitä -kohtaustyöarkkeja',

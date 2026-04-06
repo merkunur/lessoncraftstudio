@@ -14,7 +14,7 @@ const content: BlogContent = {
       'protection juridique fiches',
     ],
     titleTag: 'Droit d\'auteur pour vendeurs d\'imprimables | LCS',
-    metaDescription: 'Protégez vos imprimables avec le droit d\'auteur. Bases juridiques en France, cliparts et que faire en cas de copie.',
+    metaDescription: 'Protégez vos imprimables avec le droit d\'auteur. Bases juridiques en France, cliparts et que faire en cas de. Vendez sur Etsy & KDP avec licence commerciale.',
   },
   hero: {
     title: 'Droit d\'auteur pour vendeurs d\'imprimables : les bases',

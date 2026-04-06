@@ -27,8 +27,7 @@ const content: AppContent = {
       'Kiwify',
     ],
     titleTag: 'Atividades de sombras para vender online | LCS',
-    metaDescription:
-      'Crie atividades de associar sombras para vender na Hotmart, Etsy e KDP. 104 temas, gabarito automático, licença comercial. Teste grátis com marca d\'água.',
+    metaDescription: 'Crie atividades de associar sombras para vender na Hotmart, Etsy e KDP. 104 temas, gabarito automático, licença comercial. 49 $ pagamento unico.',
   },
 
   hero: {

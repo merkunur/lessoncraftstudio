@@ -14,7 +14,7 @@ const content: BlogContent = {
       'Etsy butik svenska',
     ],
     titleTag: 'Skala Utskriftsverksamhet med Automatisering | LCS',
-    metaDescription: 'Automatisera din utskriftsverksamhet för att skala utan att arbeta fler timmar. Verktyg, processer och strategier.',
+    metaDescription: 'Automatisera din utskriftsverksamhet för att skala utan att arbeta fler timmar. Verktyg, processer och strategier. Salj pa Etsy & KDP med kommersiell licens.',
   },
   hero: {
     title: 'Skala Utskriftsverksamhet med Automatisering',

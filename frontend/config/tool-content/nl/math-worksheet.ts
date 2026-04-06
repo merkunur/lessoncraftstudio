@@ -15,7 +15,7 @@ const content: ToolContent = {
       'afbeeldingsvariabele rekenactiviteit gratis',
     ],
     titleTag: 'Rekenbladen gratis online maken | LessonCraftStudio',
-    metaDescription: 'Maak gratis rekenbladen online met visuele algebra puzzels. Vier moeilijkheidsniveaus, gegarandeerde unieke oplossingen en 104 thema\'s. Geen account nodig.',
+    metaDescription: 'Maak gratis rekenbladen online met visuele algebra puzzels. Vier moeilijkheidsniveaus, gegarandeerde unieke. Verkoop op Etsy & KDP met commerciele licentie.',
   },
 
   hero: {

@@ -15,7 +15,7 @@ const content: ToolContent = {
       'beginletter afbeelding woord koppelen gratis proefversie',
     ],
     titleTag: 'Koppelwerkbladen gratis online | LessonCraftStudio',
-    metaDescription: 'Maak gratis koppelwerkbladen met afbeeldingen online. 4 modi, automatisch antwoordblad, instelbare paren, 104 thema\'s. Probeer nu gratis met watermerk.',
+    metaDescription: 'Maak gratis koppelwerkbladen met afbeeldingen online. 4 modi, automatisch antwoordblad, instelbare paren, 104. Verkoop op Etsy & KDP met commerciele licentie.',
   },
 
   hero: {

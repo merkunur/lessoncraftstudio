@@ -14,7 +14,7 @@ const content: BlogContent = {
       'verkkokauppa tulosteet',
     ],
     titleTag: 'Asiakaspalvelu digitaalisille tuotteille | LCS',
-    metaDescription: 'Jarjesta asiakaspalvelu digitaalisille tuotteille tehokkaasti. Yleiset ongelmat, vastausmallit ja ennaltaehkaisy.',
+    metaDescription: 'Jarjesta asiakaspalvelu digitaalisille tuotteille tehokkaasti. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
   },
   hero: {
     title: 'Asiakaspalvelu digitaalisille tuotteille: tehokkaat kaytannot',

@@ -15,8 +15,7 @@ const content: AppContent = {
       'commercieel gebruik alfabettrein generator',
     ],
     titleTag: 'Alfabet werkbladen voor Etsy en KDP | LessonCraftStudio',
-    metaDescription:
-      'Maak alfabet-trein werkbladen met commerciële licentie voor Etsy en Amazon KDP. Gratis proefversie met watermerk. 11 talen, 104 thema\'s, antwoordblad.',
+    metaDescription: 'Maak alfabet-trein werkbladen met commerciële licentie voor Etsy en Amazon KDP. Gratis proefversie met watermerk. $49 eenmalig.',
   },
 
   hero: {

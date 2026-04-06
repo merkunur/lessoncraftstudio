@@ -24,7 +24,7 @@ const content: BundleContent = {
       'licença comercial atividades visuais',
     ],
     titleTag: 'Pacote atividades visuais vendedores | LCS',
-    metaDescription: 'Pacote com geradores de atividades visuais: colorir, desenho, arte e mais. Crie imprimíveis profissionais para vender no Etsy, Amazon KDP, Hotmart e Kiwify.',
+    metaDescription: 'Pacote com geradores de atividades visuais: colorir, desenho, arte e mais. 149 $ pagamento unico.',
   },
 
   hero: {

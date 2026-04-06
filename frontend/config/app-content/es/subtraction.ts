@@ -15,8 +15,7 @@ const content: AppContent = {
       'combinar sumas restas paquetes mayores ventas',
     ],
     titleTag: 'Fichas de restas — Vender en Etsy y KDP | LessonCraftStudio',
-    metaDescription:
-      'Cree fichas de restas para vender en Etsy, KDP y Hotmart. Imágenes temáticas, solucionario, licencia comercial. Pruebe gratis con marca de agua.',
+    metaDescription: 'Cree fichas de restas para vender en Etsy, KDP y Hotmart. Imágenes temáticas, solucionario, licencia comercial. 49 $ pago unico.',
   },
 
   hero: {

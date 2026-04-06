@@ -6,7 +6,7 @@ const content: BlogContent = {
     secondaryKeywords: ['importancia hoja respuestas ventas imprimibles paso a paso', 'importancia hoja respuestas ventas imprimibles tutorial', 'importancia hoja respuestas ventas imprimibles guia practica'],
     lsiKeywords: ['importancia hoja respuestas tips', 'como importancia hoja', 'ventas imprimibles facil'],
     titleTag: 'Hojas de Respuestas: Esenciales para Ventas | LCS',
-    metaDescription: 'Las hojas de respuestas son el elemento mas frecuentemente omitido en imprimibles educativos, y su ausencia es una de las quejas mas comunes en resenas neg',
+    metaDescription: 'Las hojas de respuestas son el elemento mas frecuentemente omitido en imprimibles educativos, y su ausencia es una. Venda en Etsy & KDP con licencia comercial.',
   },
   hero: {
     title: 'La Importancia de las Hojas de Respuestas en sus Imprimibles',

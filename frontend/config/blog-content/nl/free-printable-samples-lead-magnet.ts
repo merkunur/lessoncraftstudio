@@ -6,7 +6,7 @@ const content: BlogContent = {
     secondaryKeywords: ['printable business strategie 2026', 'werkbladen verkopen platform tips', 'digitale producten online verkopen'],
     lsiKeywords: ['printable verkoop optimalisatie', 'digitale download business', 'online printable winkel'],
     titleTag: 'Proefversies als Lead Magnet voor Printable Verkoop | LCS',
-    metaDescription: 'Proefversies als Lead Magnet voor Printable Verkoop. Praktische strategieën en bewezen technieken voor printable verkopers in 2026.',
+    metaDescription: 'Proefversies als Lead Magnet voor Printable Verkoop. Praktische strategieën en bewezen technieken voor. Verkoop op Etsy & KDP met commerciele licentie.',
   },
   hero: {
     title: 'Proefversies als Lead Magnet voor Printable Verkoop',

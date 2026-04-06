@@ -16,8 +16,7 @@ const content: AppContent = {
       'Themenbilder Lösungsschlüssel digitaler Download',
     ],
     titleTag: 'Plusaufgaben erstellen & auf Etsy verkaufen | LCS',
-    metaDescription:
-      'Erstellen Sie professionelle Plusaufgaben-Arbeitsblätter zum Verkauf auf Etsy & KDP. Gewerbliche Lizenz inklusive. Kostenlos testen mit Wasserzeichen.',
+    metaDescription: 'Erstellen Sie professionelle Plusaufgaben-Arbeitsblätter zum Verkauf auf Etsy & KDP. Gewerbliche Lizenz inklusive. 49 $ einmalig.',
   },
 
   hero: {

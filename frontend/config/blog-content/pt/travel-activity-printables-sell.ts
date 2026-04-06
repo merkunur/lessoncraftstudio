@@ -14,7 +14,7 @@ const content: BlogContent = {
       'mercado imprimíveis temáticos',
     ],
     titleTag: 'Atividades de Viagem: Vender | LCS',
-    metaDescription: 'Atividades imprimíveis para viagem são o produto perfeito para férias: pais buscam fichas que mantenham crianças ocupadas em aviões, carros e hotéis. .',
+    metaDescription: 'Atividades imprimíveis para viagem são o produto perfeito para férias: pais buscam fichas que mantenham crianças. Venda no Etsy & KDP com licenca comercial.',
   },
   hero: {
     title: 'Atividades de Viagem: Vender',

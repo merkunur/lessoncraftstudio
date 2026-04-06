@@ -6,7 +6,7 @@ const content: BlogContent = {
     secondaryKeywords: ['Mortens Aften printables november Etsy', 'Mortens Aften printables november online', 'Mortens Aften printables november forretning'],
     lsiKeywords: ['printbar forretning Danmark', 'digital download salg', 'Etsy printables sælg'],
     titleTag: 'Mortens Aften Printables: November-Guide | LCS',
-    metaDescription: 'Danmark fejrer ikke Thanksgiving, men Mortens Aften (10. november) og juleforberedelse giver unikke novembermuligheder. Denne guide viser dig, hvordan du u',
+    metaDescription: 'Danmark fejrer ikke Thanksgiving, men Mortens Aften (10. november) og juleforberedelse giver unikke. Saelg pa Etsy & KDP med kommerciel licens.',
   },
   hero: {
     title: 'Mortens Aften Printables: November-Guide',

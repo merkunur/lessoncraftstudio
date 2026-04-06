@@ -15,7 +15,7 @@ const content: ToolContent = {
       'datarepresentasjon arbeidsark online',
     ],
     titleTag: 'Bildediagram Arbeidsark Generator — online | Online Verktøy',
-    metaDescription: 'Lag bildediagram arbeidsark for matematikk. Spredte 4×5 rutenett, 6 bildetyper, automatiske fasit, 11 språk, 104 temaer. Gratis prøveversjon med vannmerke.',
+    metaDescription: 'Lag bildediagram arbeidsark for matematikk. Spredte 4×5 rutenett, 6 bildetyper, automatiske fasit, 11 språk, 104. Selg pa Etsy & KDP med kommersiell lisens.',
   },
 
   hero: {

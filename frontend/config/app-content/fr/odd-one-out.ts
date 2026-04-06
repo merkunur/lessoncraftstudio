@@ -15,8 +15,7 @@ const content: AppContent = {
       'modes Identique et Similaire corrigé automatique',
     ],
     titleTag: 'Fiches de l\'intrus à vendre sur Etsy & KDP | LCS',
-    metaDescription:
-      'Créez des fiches de l\'intrus à vendre sur Etsy & KDP. Modes Identique et Similaire, licence commerciale. Testez gratuitement avec filigrane.',
+    metaDescription: 'Créez des fiches de l\'intrus à vendre sur Etsy & KDP. Modes Identique et Similaire, licence commerciale. 49 $ paiement unique.',
   },
 
   hero: {

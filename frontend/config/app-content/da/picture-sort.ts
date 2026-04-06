@@ -15,8 +15,7 @@ const content: AppContent = {
       'printbar kategorisortering aktivitet forretningsværktøj',
     ],
     titleTag: 'Billedsortering Generator | Opret Sorteringsarbejdsark',
-    metaDescription:
-      'Opret billedsorteringsarbejdsark til salg på Etsy, KDP og Gumroad. Tokategorisortering, automatisk facit, 104 temaer, 4–12 billeder. Gratis prøveversion.',
+    metaDescription: 'Opret billedsorteringsarbejdsark til salg på Etsy, KDP og Gumroad. Tokategorisortering, automatisk facit, 104 temaer, 4–12 billeder. $49 engangsbetaling.',
   },
 
   hero: {

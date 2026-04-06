@@ -15,8 +15,7 @@ const content: AppContent = {
       'negocio sudoku imprimible mercado hispano',
     ],
     titleTag: 'Sudoku con imágenes para libros KDP | LCS',
-    metaDescription:
-      'Cree sudoku con imágenes para vender en Amazon KDP y Etsy. Formato visual para niños, solucionario. Licencia comercial incluida. Pruebe gratis.',
+    metaDescription: 'Cree sudoku con imágenes para vender en Amazon KDP y Etsy. Formato visual para niños, solucionario. Licencia comercial incluida. Pruebe gratis. 49 $ pago unico.',
   },
 
   hero: {

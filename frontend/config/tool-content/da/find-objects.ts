@@ -14,8 +14,8 @@ const content: ToolContent = {
       'nul-overlapning scenegenerering adaptiv størrelse algoritme',
       'automatisk facit rød cirkel annoterings skjulte objekter generator',
     ],
-    titleTag: 'Skjulte Objekter Generator — Skjulte Objekter Arbejdsark Generator',
-    metaDescription: 'Lav skjulte objekter arbejdsark med Søgning og Find den Underlige-tilstande, nul-overlapning scener, automatiske facit og 104 temabilleder. Gratis prøveversion.',
+    titleTag: 'Skjulte Objekter Generator — Skjulte Objekter Arbejdsark...',
+    metaDescription: 'Lav skjulte objekter arbejdsark med Søgning og Find den Underlige-tilstande, nul-overlapning scener, automatiske. Saelg pa Etsy & KDP med kommerciel licens.',
   },
 
   hero: {

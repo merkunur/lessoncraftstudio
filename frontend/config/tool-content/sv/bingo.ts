@@ -15,7 +15,7 @@ const content: ToolContent = {
       'bildbingo gratis',
     ],
     titleTag: 'Bingo-brickor gratis med bilder | LessonCraftStudio',
-    metaDescription: 'Skapa bingo-brickor med bilder gratis online. 3×3 till 5×5 rutnät, batch-generering, ZIP-export, uppropslista. Gratis provversion med vattenmärke.',
+    metaDescription: 'Skapa bingo-brickor med bilder gratis online. 3×3 till 5×5 rutnät, batch-generering, ZIP-export, uppropslista. Salj pa Etsy & KDP med kommersiell licens.',
   },
 
   hero: {

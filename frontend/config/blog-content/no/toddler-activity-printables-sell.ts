@@ -5,7 +5,7 @@ const content: BlogContent = {
     secondaryKeywords: ['småbarns aktiviteter printables selge Etsy', 'småbarns aktiviteter printables selge strategi', 'småbarns aktiviteter printables selge tips'],
     lsiKeywords: ['sesongbaserte utskrifter', 'utskrivbare arbeidsark nisje', 'printable selger Norge'],
     titleTag: 'Småbarns aktiviteter-utskrifter: Selg | LCS',
-    metaDescription: 'Utskrivbare aktiviteter for småbarn (2–4 år) er det første produktet foreldre kjøper. Enkle koblingsoppgaver, store fargeleggingsbilder og bildejakt —',
+    metaDescription: 'Utskrivbare aktiviteter for småbarn (2–4 år) er det første produktet foreldre kjøper. Selg pa Etsy & KDP med kommersiell lisens.',
   },
   hero: {
     title: 'Småbarns aktiviteter-utskrifter: Selg',

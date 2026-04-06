@@ -15,7 +15,7 @@ const content: ToolContent = {
       'automaattinen vastausavain taysi ruudukko sudoku-generaattori',
     ],
     titleTag: 'Kuvasudoku-generaattori — Kuvasudoku lapsille -generaattori',
-    metaDescription: 'Tee kuvasudokua lapsille 4x4 kuvaruudukoilla, kolme vaikeustasoa, automaattiset vastausavaimet ja 104 teemallista kokoelmaa. Ilmainen kokeilu vesileimalla.',
+    metaDescription: 'Tee kuvasudokua lapsille 4x4 kuvaruudukoilla, kolme vaikeustasoa, automaattiset vastausavaimet ja 104. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
   },
 
   hero: {

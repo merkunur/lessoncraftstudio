@@ -14,8 +14,8 @@ const content: ToolContent = {
       'flersproget krydsordsgenerator med automatisk facit',
       'tilpasset ordliste krydsord med ledetråde generator',
     ],
-    titleTag: 'Billedkrydsord Generator — Krydsordspuslespil med Billedledetråde',
-    metaDescription: 'Lav billedkrydsord med billedledetråde på 15×15 gitter. 4 indtastningsmetoder, automatisk facit med udfyldt gitter, 104 temaer. Gratis prøveversion med vandmærke.',
+    titleTag: 'Billedkrydsord Generator — Krydsordspuslespil med...',
+    metaDescription: 'Lav billedkrydsord med billedledetråde på 15×15 gitter. 4 indtastningsmetoder, automatisk facit med udfyldt gitter,. Saelg pa Etsy & KDP med kommerciel licens.',
   },
 
   hero: {

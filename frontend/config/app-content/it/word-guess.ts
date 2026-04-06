@@ -21,8 +21,7 @@ const content: AppContent = {
       'business di stampabili',
     ],
     titleTag: 'Indovina la parola da vendere su Etsy | LCS',
-    metaDescription:
-      'Crea schede indovina la parola da vendere su Etsy e KDP. Indizi immagine, 4 livelli, 11 lingue, licenza commerciale. Prova gratis con filigrana.',
+    metaDescription: 'Crea schede indovina la parola da vendere su Etsy e KDP. Indizi immagine, 4 livelli, 11 lingue, licenza commerciale. 49 $ pagamento unico.',
   },
 
   hero: {

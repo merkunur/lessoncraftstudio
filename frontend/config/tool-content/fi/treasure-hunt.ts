@@ -5,8 +5,8 @@ const content: ToolContent = {
     primaryKeyword: 'aarteenetsinta-tehtavageneraattori tulostukseen',
     secondaryKeywords: ['aarteenetsintae-tehtavageneraattori myyjille', 'tee suuntapalapaleja myyntiin', 'tulostettava aarteenetsintae-generaattori kaupallinen kaytto', 'aarteenetsintaepalapeli-generaattori KDP ja Etsy'],
     lsiKeywords: ['kaksi suuntatyyppia peruskardinaali koordinaattiruudukko-generaattori', 'kieliriippuvaiset lokalisoidut suuntavihjeet 11 kielta', 'automaattinen vastausavain merkitty aarresolu kaksoiskanvasjarjestelma'],
-    titleTag: 'Aarteenetsintae-generaattori — Aarteenetsintaetehtava-generaattori',
-    metaDescription: 'Tee aarteenetsintaetehtavia 5x5-ruudukossa kahdella suuntatyypilla, teemallisilla maamerkeilla, automaattisilla vastausavaimilla ja 104 kuvakokoelmalla. Ilmainen kokeilu vesileimalla.',
+    titleTag: 'Aarteenetsintae-generaattori —...',
+    metaDescription: 'Tee aarteenetsintaetehtavia 5x5-ruudukossa kahdella suuntatyypilla, teemallisilla maamerkeilla,. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
   },
 
   hero: {

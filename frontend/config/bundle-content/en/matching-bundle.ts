@@ -16,7 +16,7 @@ const content: BundleContent = {
       'matching worksheet seller toolkit',
     ],
     titleTag: 'Matching & Sorting Bundle for Etsy | LCS',
-    metaDescription: 'Get all 5 matching and sorting generators in one bundle. Matching, shadow match, grid match, bingo & more. Commercial license for Etsy & KDP sellers.',
+    metaDescription: 'Get all 5 matching and sorting generators in one bundle. Matching, shadow match, grid match, bingo & more. $149 one-time.',
   },
 
   hero: {

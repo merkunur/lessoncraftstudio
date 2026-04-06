@@ -14,7 +14,7 @@ const content: BlogContent = {
       'tulostettava myy',
     ],
     titleTag: 'Meriaihe-tulosteet: myyntiopas | LCS',
-    metaDescription: 'Myy meriaiheisia tulosteita. Suomessa rannikko ja jarvet tekevat vesiteemasta tutun ja halutun.',
+    metaDescription: 'Myy meriaiheisia tulosteita. Suomessa rannikko ja jarvet tekevat vesiteemasta tutun ja halutun. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
   },
   hero: {
     title: 'Meriaihe-tulosteet: vesiteeman liiketoiminta',

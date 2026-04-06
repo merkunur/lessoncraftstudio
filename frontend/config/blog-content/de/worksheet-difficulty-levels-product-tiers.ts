@@ -6,7 +6,7 @@ const content: BlogContent = {
     secondaryKeywords: ['Schwierigkeitsgrade nutzen fuer 3x mehr Produkte Anleitung', 'Druckvorlagen Schwierigkeitsgrade Guide', 'Arbeitsblatt Verkauf Tipps'],
     lsiKeywords: ['Druckvorlagen Geschaeft optimieren', 'Etsy Verkaeufer Tipps', 'Arbeitsblaetter professionell erstellen'],
     titleTag: 'Schwierigkeitsgrade nutzen fuer 3x mehr Produkte | LCS',
-    metaDescription: 'Ein Produkt, drei Schwierigkeitsgrade: Wie Differenzierung Ihr Sortiment verdreifacht und Premium-Preise ermoeglicht.',
+    metaDescription: 'Ein Produkt, drei Schwierigkeitsgrade: Wie Differenzierung Ihr Sortiment verdreifacht und Premium-Preise. Verkaufen Sie auf Etsy & KDP mit gewerblicher Lizenz.',
   },
   hero: {
     title: 'Schwierigkeitsgrade nutzen fuer 3x mehr Produkte',

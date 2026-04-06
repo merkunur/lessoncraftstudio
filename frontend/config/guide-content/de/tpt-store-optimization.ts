@@ -15,7 +15,7 @@ const content: GuideContent = {
       'Eduki Analytik saisonale Planung Katalogskalierung',
     ],
     titleTag: 'Eduki Shop einrichten & optimieren | LCS',
-    metaDescription: 'Eduki Shop einrichten und optimieren: Suchalgorithmus verstehen, Vorschauen verbessern, Bewertungen aufbauen und Katalog datengestützt skalieren für Wachstum.',
+    metaDescription: 'Eduki Shop einrichten und optimieren: Suchalgorithmus verstehen, Vorschauen verbessern, Bewertungen. Verkaufen Sie auf Etsy & KDP mit gewerblicher Lizenz.',
   },
 
   hero: {

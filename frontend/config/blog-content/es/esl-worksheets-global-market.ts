@@ -6,7 +6,7 @@ const content: BlogContent = {
     secondaryKeywords: ['fichas ELE espanol lengua extranjera mercado global negocio', 'fichas ELE espanol lengua extranjera mercado global Etsy vender', 'fichas ELE espanol lengua extranjera mercado global imprimibles rentable'],
     lsiKeywords: ['fichas ELE fichas', 'vender imprimibles fichas', 'mercado global educativos'],
     titleTag: 'Fichas ELE: Mercado Global de Espanol | LCS',
-    metaDescription: 'El espanol es el segundo idioma mas estudiado del mundo. Mas de 22 millones de estudiantes aprenden espanol como lengua extranjera en todo el planeta. Los ',
+    metaDescription: 'El espanol es el segundo idioma mas estudiado del mundo. Mas de 22 millones de estudiantes aprenden espanol como. Venda en Etsy & KDP con licencia comercial.',
   },
   hero: {
     title: 'Fichas ELE: El Mercado Global del Espanol como Lengua Extranjera',

@@ -16,8 +16,7 @@ const content: AppContent = {
       'varhainen matematiikka työarkkituotteet',
     ],
     titleTag: 'Kuviojuna Generaattori Myyjille | LCS',
-    metaDescription:
-      'Luo kuviojuna-työarkkeja myyntiin Etsyssä ja KDP:ssä. Sarjan täydennysharjoitukset, temaattiset kuvat, 104 kokoelmaa, lisenssi. Kokeile ilmaiseksi.',
+    metaDescription: 'Luo kuviojuna-työarkkeja myyntiin Etsyssä ja KDP:ssä. Sarjan täydennysharjoitukset, temaattiset kuvat, 104 kokoelmaa, lisenssi. $49 kertamaksu.',
   },
 
   hero: {

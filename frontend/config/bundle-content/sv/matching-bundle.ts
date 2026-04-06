@@ -16,7 +16,7 @@ const content: BundleContent = {
       'bulkproduktion matchningsarbetsblad verktyg',
     ],
     titleTag: 'Kopplings- och sorteringspaket | LessonCraftStudio',
-    metaDescription: 'Få 5 matchningsarbetsblad-generatorer i ett paket. Skapa matchning, rutnätsmatchning, skuggmatchning, bingo och sorteringsarbetsblad att sälja på Etsy.',
+    metaDescription: 'Få 5 matchningsarbetsblad-generatorer i ett paket. Skapa matchning, rutnätsmatchning, skuggmatchning, bingo och sorteringsarbetsblad att sälja på Etsy. $49...',
   },
 
   hero: {

@@ -14,7 +14,7 @@ const content: BlogContent = {
       'Etsy butik svenska',
     ],
     titleTag: 'Kundservice för Digitala Produkter | LCS',
-    metaDescription: 'Professionell kundservice för digitala utskriftsprodukter. Mallsvar, vanliga frågor och hur du undviker negativa recensioner.',
+    metaDescription: 'Professionell kundservice för digitala utskriftsprodukter. Mallsvar, vanliga frågor och hur du undviker negativa. Salj pa Etsy & KDP med kommersiell licens.',
   },
   hero: {
     title: 'Kundservice för Digitala Produkter',

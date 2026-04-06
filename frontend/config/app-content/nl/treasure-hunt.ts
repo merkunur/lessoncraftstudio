@@ -15,8 +15,7 @@ const content: AppContent = {
       'printbare padzoekpuzzel business tools',
     ],
     titleTag: 'Speurtocht generator voor Etsy | LessonCraftStudio',
-    metaDescription:
-      'Maak speurtocht-werkbladen om te verkopen op Etsy en KDP. Thema-afbeeldingen, aanpasbare routes, commerciële licentie. Gratis proefversie met watermerk.',
+    metaDescription: 'Maak speurtocht-werkbladen om te verkopen op Etsy en KDP. Thema-afbeeldingen, aanpasbare routes, commerciële licentie. $49 eenmalig.',
   },
 
   hero: {

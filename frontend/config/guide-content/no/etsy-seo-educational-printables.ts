@@ -16,7 +16,7 @@ const content: GuideContent = {
       'Etsy søkerangeringsfaktorer',
     ],
     titleTag: 'Etsy SEO for printbare arbeidsark (2026) | LCS',
-    metaDescription: 'Mestre Etsy SEO for printbare arbeidsark i 2026. Tagger, titler, beskrivelser og rangeringsstrategier som driver organisk trafikk til arbeidsark-oppføringene dine.',
+    metaDescription: 'Mestre Etsy SEO for printbare arbeidsark i 2026. Tagger, titler, beskrivelser og rangeringsstrategier som driver organisk trafikk til.',
   },
 
   hero: {

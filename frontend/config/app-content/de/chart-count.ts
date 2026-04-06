@@ -15,7 +15,7 @@ const content: AppContent = {
       'Lösungsschlüssel Datenerfassung kommerzielle Nutzung',
     ],
     titleTag: 'Zähl-Diagramm-Arbeitsblätter für Etsy | LCS',
-    metaDescription: 'Erstellen Sie Bilddiagramm-Arbeitsblätter zum Verkauf auf Etsy & KDP. Piktogramme, 6 Bildtypen, Lösungsschlüssel, gewerbliche Lizenz. Kostenlos testen.',
+    metaDescription: 'Erstellen Sie Bilddiagramm-Arbeitsblätter zum Verkauf auf Etsy & KDP. Piktogramme, 6 Bildtypen, Lösungsschlüssel, gewerbliche Lizenz. 49 $ einmalig.',
   },
 
   hero: {

@@ -5,8 +5,8 @@ const content: ToolContent = {
     primaryKeyword: 'piilotetut esineet -tehtavat',
     secondaryKeywords: ['piilotetut esineet -tehtavageneraattori myyjille', 'tee hakukuva piilotetut esineet -tehtavia myyntiin', 'tulostettava piilotetut esineet -generaattori kaupallinen kaytto', 'piilotetut esineet -palapeli-generaattori KDP ja Etsy'],
     lsiKeywords: ['haku etsi poikkeava kaksoistila-aktiviteetti-generaattori', 'nollapaeaellekkaeisyyskohtauksen generointi adaptiivinen koko -algoritmi', 'automaattinen vastausavain punainen ympyramerkintae piilotetut esineet -generaattori'],
-    titleTag: 'Piilotetut esineet -generaattori — Piilotetut esineet -tehtavageneraattori',
-    metaDescription: 'Tee piilotetut esineet -tehtavia Haku- ja Etsi poikkeava -tiloilla, nollapaeaellekkaeisyyskohtauksilla, automaattisilla vastausavaimilla ja 104 teemakuvalla. Ilmainen kokeilu.',
+    titleTag: 'Piilotetut esineet -generaattori — Piilotetut esineet...',
+    metaDescription: 'Tee piilotetut esineet -tehtavia Haku- ja Etsi poikkeava -tiloilla, nollapaeaellekkaeisyyskohtauksilla,. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
   },
 
   hero: {

@@ -15,7 +15,7 @@ const content: AppContent = {
       'stampabili sudoku con immagini uso commerciale',
     ],
     titleTag: 'Sudoku con Immagini per Libri KDP | Crea e Vendi',
-    metaDescription: 'Crea sudoku con immagini da vendere su Amazon KDP e Etsy. Griglia 4×4, tre difficoltà, risposte automatiche. Licenza commerciale. Prova gratis.',
+    metaDescription: 'Crea sudoku con immagini da vendere su Amazon KDP e Etsy. Griglia 4×4, tre difficoltà, risposte automatiche. Licenza commerciale. 49 $ pagamento unico.',
   },
 
   hero: {

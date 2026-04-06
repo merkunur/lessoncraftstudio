@@ -13,7 +13,7 @@ const content: BlogContent = {
       'como criar fichas educativas',
       'guia prático imprimíveis',
     ],
-    titleTag: 'Como Formatar Fichas para Listagens no Etsy | LCS',
+    titleTag: 'Formatar Fichas para Listagens no Etsy | LCS',
     metaDescription: 'A formatação das suas fichas impacta diretamente as vendas no Etsy. Tamanho do papel, resolução, formato do arquivo e apresentação visual determinam s.',
   },
   hero: {

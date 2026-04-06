@@ -17,7 +17,7 @@ const content: GuideContent = {
       'convenzioni denominazione branding stampabili',
     ],
     titleTag: 'Creare linea di prodotti stampabili | LessonCraftStudio',
-    metaDescription: 'Crea una linea di prodotti stampabili con branding coerente e crescita sistematica. Costruisci un catalogo riconoscibile che genera acquisti ripetuti.',
+    metaDescription: 'Crea una linea di prodotti stampabili con branding coerente e crescita sistematica. Vendi su Etsy & KDP con licenza commerciale.',
   },
 
   hero: {

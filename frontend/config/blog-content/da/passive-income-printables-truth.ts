@@ -6,7 +6,7 @@ const content: BlogContent = {
     secondaryKeywords: ['passiv indkomst printables sandhed Etsy', 'passiv indkomst printables sandhed online', 'passiv indkomst printables sandhed forretning'],
     lsiKeywords: ['printbar forretning Danmark', 'digital download salg', 'Etsy printables sælg'],
     titleTag: 'Passiv Indkomst fra Printables: Sandheden | LCS',
-    metaDescription: 'Passiv indkomst fra printables er mulig, men det kræver mere arbejde, end de fleste guruer fortæller. Denne guide giver dig en ærlig, realistisk vurdering ',
+    metaDescription: 'Passiv indkomst fra printables er mulig, men det kræver mere arbejde, end de fleste guruer fortæller. Saelg pa Etsy & KDP med kommerciel licens.',
   },
   hero: {
     title: 'Passiv Indkomst fra Printables: Sandheden',

@@ -15,7 +15,7 @@ const content: GuideContent = {
       'vistas previas descripciones conversión anuncios productos digitales',
     ],
     titleTag: 'Optimizar tienda Hotmart y Editorial MD | LCS',
-    metaDescription: 'Optimice su tienda en Hotmart y Editorial MD para más ventas. Posicionamiento de búsqueda, vistas previas efectivas y estrategia de catálogo.',
+    metaDescription: 'Optimice su tienda en Hotmart y Editorial MD para más ventas. Venda en Etsy & KDP con licencia comercial.',
   },
 
   hero: {

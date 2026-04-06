@@ -14,7 +14,7 @@ const content: BlogContent = {
       'Etsy butik svenska',
     ],
     titleTag: 'Förskola-Utskrifter: Bästsäljare | LCS',
-    metaDescription: 'Förskola-material är de mest sålda utskrifterna online. Vilka produkter säljer bäst och hur du skapar dem.',
+    metaDescription: 'Förskola-material är de mest sålda utskrifterna online. Vilka produkter säljer bäst och hur du skapar dem. Salj pa Etsy & KDP med kommersiell licens.',
   },
   hero: {
     title: 'Förskola-Utskrifter: Bästsäljare',

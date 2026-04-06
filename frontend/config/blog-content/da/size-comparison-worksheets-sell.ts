@@ -6,7 +6,7 @@ const content: BlogContent = {
     secondaryKeywords: ['størrelsessammenligning arbejdsark sælg Etsy', 'størrelsessammenligning arbejdsark sælg online', 'størrelsessammenligning arbejdsark sælg forretning'],
     lsiKeywords: ['printbar forretning Danmark', 'digital download salg', 'Etsy printables sælg'],
     titleTag: 'Størrelsessammenligning-Arbejdsark: Sælg Visuelt | LCS',
-    metaDescription: 'Størrelsessammenligning er en grundlæggende præmatematisk kompetence. Arbejdsark der træner stor/lille, lang/kort og tung/let er populære for børn 3-6 år o',
+    metaDescription: 'Størrelsessammenligning er en grundlæggende præmatematisk kompetence. Saelg pa Etsy & KDP med kommerciel licens.',
   },
   hero: {
     title: 'Størrelsessammenligning-Arbejdsark: Sælg Visuelt',

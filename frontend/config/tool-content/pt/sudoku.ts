@@ -24,8 +24,7 @@ const content: ToolContent = {
       'licença comercial',
     ],
     titleTag: 'Sudoku com imagens grátis crianças | LCS',
-    metaDescription:
-      'Crie sudoku com imagens grátis para crianças. Grades visuais, gabarito automático, PDF imprimível. Teste online sem cadastro — marca d\'água removível.',
+    metaDescription: 'Crie sudoku com imagens grátis para crianças. Grades visuais, gabarito automático, PDF imprimível. Venda no Etsy & KDP com licenca comercial.',
   },
 
   hero: {

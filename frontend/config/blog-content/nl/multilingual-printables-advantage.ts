@@ -6,7 +6,7 @@ const content: BlogContent = {
     secondaryKeywords: ['printable meertalige printables voordeel', 'werkbladen meertalige printables', 'printables how-to gids'],
     lsiKeywords: ['printable productie tips', 'werkbladen maken strategie', 'printable business how-to'],
     titleTag: 'Het Meertalige Printables Voordeel | LCS',
-    metaDescription: 'Het Meertalige Printables Voordeel. Stap-voor-stap instructies en praktische tips voor printable verkopers. Direct toepasbaar.',
+    metaDescription: 'Het Meertalige Printables Voordeel. Stap-voor-stap instructies en praktische tips voor printable verkopers. Verkoop op Etsy & KDP met commerciele licentie.',
   },
   hero: {
     title: 'Het Meertalige Printables Voordeel',

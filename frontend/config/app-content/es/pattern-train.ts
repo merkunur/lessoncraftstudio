@@ -15,8 +15,7 @@ const content: AppContent = {
       'negocio fichas patrones mercado hispano',
     ],
     titleTag: 'Fichas de patrones para negocio imprimibles | LCS',
-    metaDescription:
-      'Cree fichas de patrones y secuencias para vender en Etsy y KDP. Formato tren con imágenes temáticas. Licencia comercial incluida. Pruebe gratis.',
+    metaDescription: 'Cree fichas de patrones y secuencias para vender en Etsy y KDP. Formato tren con imágenes temáticas. Licencia comercial incluida. 49 $ pago unico.',
   },
 
   hero: {

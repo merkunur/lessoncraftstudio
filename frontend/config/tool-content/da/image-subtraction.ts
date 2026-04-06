@@ -15,7 +15,7 @@ const content: ToolContent = {
       'fjerne-arbejdsark generator',
     ],
     titleTag: 'Subtraktions Arbejdsark Generator | Matematik Printables',
-    metaDescription: 'Opret subtraktions arbejdsark med overstregnings-visuelle på sekunder. 104 temaer, justerbar sværhed, trykfærdig PDF-eksport. Gratis prøveversion med vandmærke.',
+    metaDescription: 'Opret subtraktions arbejdsark med overstregnings-visuelle på sekunder. Saelg pa Etsy & KDP med kommerciel licens.',
   },
 
   hero: {

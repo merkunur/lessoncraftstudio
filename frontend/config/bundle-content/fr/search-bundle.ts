@@ -16,7 +16,7 @@ const content: BundleContent = {
       'outil création fiches cherche et trouve en masse',
     ],
     titleTag: 'Pack cherche & trouve pour vendeurs | LCS',
-    metaDescription: 'Pack cherche et trouve avec 4 générateurs : cherche et compte, objets cachés, mots croisés en images et chasse au trésor. Vendez sur Etsy, KDP et Gumroad.',
+    metaDescription: 'Pack cherche et trouve avec 4 générateurs : cherche et compte, objets cachés, mots croisés en images et chasse au trésor. 149 $ paiement unique.',
   },
 
   hero: {

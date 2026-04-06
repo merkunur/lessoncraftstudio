@@ -14,7 +14,7 @@ const content: BlogContent = {
       'tulostettava myy',
     ],
     titleTag: 'Talvitulosteet joulu-tammikuussa | LCS',
-    metaDescription: 'Myy talvitulosteet joulu-tammikuussa. Suomen pitkae talvi luo paitkan sesongin talviteemaisille tulosteille.',
+    metaDescription: 'Myy talvitulosteet joulu-tammikuussa. Suomen pitkae talvi luo paitkan sesongin talviteemaisille tulosteille. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
   },
   hero: {
     title: 'Talvitulosteet joulu-tammikuussa: pitka sesonki',

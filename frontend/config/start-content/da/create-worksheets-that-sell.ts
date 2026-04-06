@@ -18,7 +18,7 @@ const content: StartContent = {
       'trykfaerdige PDF-arbejdsark',
     ],
     titleTag: 'Skab arbejdsark der saelger — Professionel guide | Online',
-    metaDescription: 'Saadan laver du arbejdsark der saelger paa Etsy, Amazon KDP og Gumroad. Trin-for-trin-guide om temabilleder, facit, prissaetning og annonceringsoptimering. Proev gratis.',
+    metaDescription: 'Saadan laver du arbejdsark der saelger paa Etsy, Amazon KDP og Gumroad. Trin-for-trin-guide om temabilleder, facit, prissaetning og annonceringsoptimering.',
   },
 
   hero: {

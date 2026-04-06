@@ -15,7 +15,7 @@ const content: ToolContent = {
       'búsqueda del tesoro con ilustraciones temáticas PDF gratis',
     ],
     titleTag: 'Búsqueda del tesoro gratis | LCS',
-    metaDescription: 'Cree fichas de búsqueda del tesoro gratis sin registro. Busque imágenes escondidas en escenas, 104 colecciones, respuestas incluidas.',
+    metaDescription: 'Cree fichas de búsqueda del tesoro gratis sin registro. Busque imágenes escondidas en escenas, 104 colecciones,. Venda en Etsy & KDP con licencia comercial.',
   },
 
   hero: {

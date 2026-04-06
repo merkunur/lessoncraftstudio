@@ -5,7 +5,7 @@ const content: BlogContent = {
     secondaryKeywords: ['arbeidsark design tips selg mer tips', 'arbeidsark design tips selg mer guide', 'arbeidsark design tips selg mer steg for steg'],
     lsiKeywords: ['arbeidsark produksjon', 'printable forretning guide', 'Etsy selger tutorial'],
     titleTag: 'Arbeidsark-designtips som øker salget | LCS',
-    metaDescription: 'Designet på arbeidsarkene dine påvirker salget direkte. Denne guiden dekker designprinsipper som gjør produktene dine mer attraktive: fargevalg, layou',
+    metaDescription: 'Designet på arbeidsarkene dine påvirker salget direkte. Denne guiden dekker designprinsipper som gjør produktene. Selg pa Etsy & KDP med kommersiell lisens.',
   },
   hero: {
     title: 'Arbeidsark-designtips som øker salget',

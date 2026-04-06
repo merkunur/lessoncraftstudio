@@ -14,7 +14,7 @@ const content: BlogContent = {
       'empreendedor digital educativo',
     ],
     titleTag: 'Fichas: Qualidade vs Quantidade Etsy | LCS',
-    metaDescription: 'No Etsy, você precisa de quantidade para ser encontrado e qualidade para converter. 200 listagens medianas perdem para 50 listagens excelentes, mas 50 l...',
+    metaDescription: 'No Etsy, você precisa de quantidade para ser encontrado e qualidade para converter. 200 listagens medianas perdem para 50 listagens excelentes, mas 50 l.',
   },
   hero: {
     title: 'Fichas: Qualidade vs Quantidade Etsy',

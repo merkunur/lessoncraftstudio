@@ -15,8 +15,7 @@ const content: AppContent = {
       'fargeleggingsbilder generator kommersielt bruk',
     ],
     titleTag: 'Fargeleggingsbilder Generator | Lag og Selg Utskriftsbare',
-    metaDescription:
-      'Lag tilpassede fargeleggingsbilder til salg på Etsy, KDP og Gumroad. Fritt lerret, 104 temaer, frihåndstegning, gråtoneeksport. Gratis proveversjon med vannmerke.',
+    metaDescription: 'Lag tilpassede fargeleggingsbilder til salg på Etsy, KDP og Gumroad. Fritt lerret, 104 temaer, frihåndstegning, gråtoneeksport. $49 engangsbetaling.',
   },
 
   hero: {

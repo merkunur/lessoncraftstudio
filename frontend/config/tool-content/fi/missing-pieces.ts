@@ -15,7 +15,7 @@ const content: ToolContent = {
       'harhauttajapalat palapelitehtava-generaattori tyokalu',
     ],
     titleTag: 'Puuttuvat palat -generaattori — Palapelitehtava-generaattori',
-    metaDescription: 'Tee palapelitehtavia 6 palamuodolla, saadettaevalla vaikeudella, alykkaaella poiminnalla ja harhauttajapaloilla, 104 teemaa. Ilmainen kokeilu vesileimalla.',
+    metaDescription: 'Tee palapelitehtavia 6 palamuodolla, saadettaevalla vaikeudella, alykkaaella poiminnalla ja. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
   },
 
   hero: {

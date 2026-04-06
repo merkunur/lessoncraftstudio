@@ -14,7 +14,7 @@ const content: BlogContent = {
       'empreendedor digital educativo',
     ],
     titleTag: 'Hotmart/Kiwify vs Etsy: Comparação | LCS',
-    metaDescription: 'No Brasil, vendedores de imprimíveis educativos têm três opções principais: Hotmart, Kiwify e Etsy. Cada plataforma tem público, comissões e dinâmicas d...',
+    metaDescription: 'No Brasil, vendedores de imprimíveis educativos têm três opções principais: Hotmart, Kiwify e Etsy. Cada plataforma tem público, comissões e dinâmicas d.',
   },
   hero: {
     title: 'Hotmart/Kiwify vs Etsy: Comparação',

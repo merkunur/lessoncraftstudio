@@ -15,7 +15,7 @@ const content: ToolContent = {
       'konfigurerbar mattepuslespil arbejdsark generator',
     ],
     titleTag: 'Mattepuslespil Generator — Puslespilsarbejdsark til Klassen',
-    metaDescription: 'Opret puslespilsstil mattepuslespil til din produktlinje. Billedgitter puslespil med addition og subtraktion, konfigurerbare gitre, facit. Gratis prøveversion.',
+    metaDescription: 'Opret puslespilsstil mattepuslespil til din produktlinje. Billedgitter puslespil med addition og subtraktion,. Saelg pa Etsy & KDP med kommerciel licens.',
   },
 
   hero: {

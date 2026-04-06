@@ -15,8 +15,7 @@ const content: AppContent = {
       'stampabili completamento sequenze uso commerciale',
     ],
     titleTag: 'Schede Pattern per Venditori Etsy | Crea e Vendi',
-    metaDescription:
-      'Crea schede di riconoscimento pattern da vendere su Etsy e KDP. 9 tipi di sequenze, scelta multipla, 104 temi. Licenza commerciale. Prova gratis.',
+    metaDescription: 'Crea schede di riconoscimento pattern da vendere su Etsy e KDP. 9 tipi di sequenze, scelta multipla, 104 temi. Licenza commerciale. 49 $ pagamento unico.',
   },
 
   hero: {

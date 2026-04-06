@@ -14,7 +14,7 @@ const content: BlogContent = {
       'Etsy butik svenska',
     ],
     titleTag: 'Reseaktivitets-Utskrifter: Sälj | LCS',
-    metaDescription: 'Reseaktivitets-utskrifter säljer starkt inför sommarsemestern. Pussel, ordsök och aktivitetsblad för bil, tåg och flyg.',
+    metaDescription: 'Reseaktivitets-utskrifter säljer starkt inför sommarsemestern. Salj pa Etsy & KDP med kommersiell licens.',
   },
   hero: {
     title: 'Reseaktivitets-Utskrifter: Sälj',

@@ -15,8 +15,7 @@ const content: AppContent = {
       'printbare beeldpuzzel business tools',
     ],
     titleTag: 'Raster-koppelpuzzels voor verkopers | LessonCraftStudio',
-    metaDescription:
-      'Maak raster-koppelpuzzels voor uw Etsy-shop of KDP-werkboek. Instelbaar raster, aanwijzingscellen, automatisch antwoordblad en 104 thema\'s.',
+    metaDescription: 'Maak raster-koppelpuzzels voor uw Etsy-shop of KDP-werkboek. Instelbaar raster, aanwijzingscellen, automatisch antwoordblad en 104 thema\'s. $49 eenmalig.',
   },
 
   hero: {

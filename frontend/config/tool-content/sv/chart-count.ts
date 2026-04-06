@@ -15,7 +15,7 @@ const content: ToolContent = {
       'räkne- och diagramövning gratis',
     ],
     titleTag: 'Räkne- och diagramblad gratis | LessonCraftStudio',
-    metaDescription: 'Skapa räkne- och diagramblad gratis online. Spridda 4×5 rutnät, 6 bildtyper, automatiskt facit, 104 teman. Gratis provversion med vattenmärke.',
+    metaDescription: 'Skapa räkne- och diagramblad gratis online. Spridda 4×5 rutnät, 6 bildtyper, automatiskt facit, 104 teman. Salj pa Etsy & KDP med kommersiell licens.',
   },
 
   hero: {

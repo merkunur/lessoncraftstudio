@@ -6,7 +6,7 @@ const content: BlogContent = {
     secondaryKeywords: ['imprimibles regreso a clases temporada negocio', 'imprimibles regreso a clases temporada Etsy vender', 'imprimibles regreso a clases temporada imprimibles rentable'],
     lsiKeywords: ['imprimibles regreso fichas', 'vender imprimibles imprimibles', 'clases temporada educativos'],
     titleTag: 'Imprimibles de Regreso a Clases: La Fiebre | LCS',
-    metaDescription: 'El regreso a clases no es una fecha unica en el mundo hispanohablante. Mexico inicia en agosto, Espana en septiembre y el Cono Sur en marzo. Esto significa',
+    metaDescription: 'El regreso a clases no es una fecha unica en el mundo hispanohablante. Venda en Etsy & KDP con licencia comercial.',
   },
   hero: {
     title: 'Regreso a Clases: La Mayor Temporada de Imprimibles',

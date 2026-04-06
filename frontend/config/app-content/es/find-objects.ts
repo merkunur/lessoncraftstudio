@@ -15,8 +15,7 @@ const content: AppContent = {
       'negocio fichas búsqueda visual mercado hispano',
     ],
     titleTag: 'Busca y encuentra para vender en Etsy | LCS',
-    metaDescription:
-      'Cree fichas de busca y encuentra para vender en Etsy y KDP. Imágenes temáticas, dificultad ajustable. Licencia comercial incluida. Pruebe gratis.',
+    metaDescription: 'Cree fichas de busca y encuentra para vender en Etsy y KDP. Imágenes temáticas, dificultad ajustable. Licencia comercial incluida. 49 $ pago unico.',
   },
 
   hero: {

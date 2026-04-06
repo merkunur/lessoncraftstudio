@@ -27,8 +27,7 @@ const content: AppContent = {
       'Amazon KDP',
     ],
     titleTag: 'Desenhos para colorir para vender online | LCS',
-    metaDescription:
-      'Crie desenhos para colorir para vender na Hotmart, Etsy e KDP. 104 temas, modo escala de cinza, licença comercial. Teste grátis com marca d\'água.',
+    metaDescription: 'Crie desenhos para colorir para vender na Hotmart, Etsy e KDP. 104 temas, modo escala de cinza, licença comercial. 49 $ pagamento unico.',
   },
 
   hero: {

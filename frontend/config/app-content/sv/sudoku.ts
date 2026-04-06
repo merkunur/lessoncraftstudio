@@ -17,8 +17,7 @@ const content: AppContent = {
       'svenska marknaden sudoku Etsy',
     ],
     titleTag: 'Sudoku med bilder för KDP och Etsy | LessonCraftStudio',
-    metaDescription:
-      'Skapa sudoku med bilder att sälja på Etsy och KDP. 4×4 rutnät, tre svårighetsnivåer, facit, 104 teman, kommersiell licens. Testa gratis med vattenmärke.',
+    metaDescription: 'Skapa sudoku med bilder att sälja på Etsy och KDP. 4×4 rutnät, tre svårighetsnivåer, facit, 104 teman, kommersiell licens. $49 engångsbetalning.',
   },
 
   hero: {

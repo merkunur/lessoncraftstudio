@@ -15,7 +15,7 @@ const content: ToolContent = {
       'kokeile ennen ostoa palapelivälineet',
     ],
     titleTag: 'Ilmainen Matikkapalapelin Tekijä Verkossa | LCS',
-    metaDescription: 'Tee matikkapalapelejä ilmaiseksi verkossa vesileimalla — ei rekisteröitymistä. Ruudukkopohjaiset kuvapalapelit, autom. vastausavaimet, 104 teemaa. Päivitä kaupalliseen lisenssiin.',
+    metaDescription: 'Tee matikkapalapelejä ilmaiseksi verkossa vesileimalla — ei rekisteröitymistä. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
   },
 
   hero: {

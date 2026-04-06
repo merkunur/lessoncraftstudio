@@ -17,7 +17,7 @@ const content: GuideContent = {
       'ottimizzazione ricavi prodotti digitali',
     ],
     titleTag: 'Prezzi per schede educative | LessonCraftStudio',
-    metaDescription: 'Strategie di prezzo per schede educative: psicologia dei prezzi, analisi competitiva e test sistematici per massimizzare i margini. Scopri il framework.',
+    metaDescription: 'Strategie di prezzo per schede educative: psicologia dei prezzi, analisi competitiva e test sistematici per. Vendi su Etsy & KDP con licenza commerciale.',
   },
 
   hero: {

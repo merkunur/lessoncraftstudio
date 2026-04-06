@@ -24,7 +24,7 @@ const content: BundleContent = {
       'atividades STEM imprimíveis comercial',
     ],
     titleTag: 'Pacote quebra-cabeças para KDP | LCS',
-    metaDescription: 'Pacote com geradores de quebra-cabeças lógicos: sudoku, labirintos, peças faltantes e mais. Crie apostilas para Amazon KDP, Etsy, Hotmart e Kiwify.',
+    metaDescription: 'Pacote com geradores de quebra-cabeças lógicos: sudoku, labirintos, peças faltantes e mais. 149 $ pagamento unico.',
   },
 
   hero: {

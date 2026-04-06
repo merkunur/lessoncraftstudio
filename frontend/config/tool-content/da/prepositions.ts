@@ -15,7 +15,7 @@ const content: ToolContent = {
       'flersproget præpositioner aktivitet generator',
     ],
     titleTag: 'Præpositioner Arbejdsark Generator | Sælg Printables',
-    metaDescription: 'Generer præpositioner arbejdsark med udfyldnings- og flervalgstilstande, formerstatning, 104 temaer, 11 sprog. Gratis prøveversion med vandmærke. Prøv nu.',
+    metaDescription: 'Generer præpositioner arbejdsark med udfyldnings- og flervalgstilstande, formerstatning, 104 temaer, 11 sprog. Saelg pa Etsy & KDP med kommerciel licens.',
   },
 
   hero: {

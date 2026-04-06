@@ -15,7 +15,7 @@ const content: AppContent = {
       'neun Mustertypen zwei Fragemodi Raster-Übungen',
     ],
     titleTag: 'Muster-Arbeitsblätter Generator für Etsy | LCS',
-    metaDescription: 'Muster-Erkennung-Arbeitsblätter für Etsy-Verkäufer erstellen — neun Mustertypen, zwei Fragemodi, Pro-Übung-Konfiguration. Kostenlos testen mit Wasserzeichen.',
+    metaDescription: 'Muster-Erkennung-Arbeitsblätter für Etsy-Verkäufer erstellen — neun Mustertypen, zwei Fragemodi, Pro-Übung-Konfiguration. 49 $ einmalig.',
   },
 
   hero: {

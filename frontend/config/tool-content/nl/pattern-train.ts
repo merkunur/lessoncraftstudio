@@ -15,7 +15,7 @@ const content: ToolContent = {
       'AB ABC patroonreeks werkblad gratis maken',
     ],
     titleTag: 'Reeksen werkbladen gratis online | LessonCraftStudio',
-    metaDescription: 'Maak patroontrein werkbladen met vijf patroontypen en 11 thematische treinwagons. Probeer gratis met watermerk, geen registratie of download nodig.',
+    metaDescription: 'Maak patroontrein werkbladen met vijf patroontypen en 11 thematische treinwagons. Verkoop op Etsy & KDP met commerciele licentie.',
   },
 
   hero: {

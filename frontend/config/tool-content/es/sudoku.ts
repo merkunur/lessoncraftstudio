@@ -15,7 +15,7 @@ const content: ToolContent = {
       'sudoku con dibujos imprimible gratis PDF',
     ],
     titleTag: 'Sudoku con imágenes gratis niños | LCS',
-    metaDescription: 'Cree sudoku con imágenes gratis para niños sin registro. Cuadrículas 4x4 con ilustraciones, 104 temas, solución incluida.',
+    metaDescription: 'Cree sudoku con imágenes gratis para niños sin registro. Cuadrículas 4x4 con ilustraciones, 104 temas, solución. Venda en Etsy & KDP con licencia comercial.',
   },
 
   hero: {

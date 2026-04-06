@@ -17,8 +17,7 @@ const content: AppContent = {
       'svenska marknaden storleksblad Etsy',
     ],
     titleTag: 'Stor och liten-blad för Etsy | LessonCraftStudio',
-    metaDescription:
-      'Skapa stor och liten-blad att sälja på Etsy och KDP. Fem frågetyper, identiska och olika bilder, facit, kommersiell licens. Testa gratis med vattenmärke.',
+    metaDescription: 'Skapa stor och liten-blad att sälja på Etsy och KDP. Fem frågetyper, identiska och olika bilder, facit, kommersiell licens. $49 engångsbetalning.',
   },
 
   hero: {

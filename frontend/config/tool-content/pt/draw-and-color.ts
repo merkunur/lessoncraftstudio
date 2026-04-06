@@ -24,8 +24,7 @@ const content: ToolContent = {
       'licença comercial',
     ],
     titleTag: 'Desenho e pintura grátis online | LCS',
-    metaDescription:
-      'Crie atividades de desenho e pintura grátis com imagens. 104 temas, canvas livre, PDF imprimível. Teste online sem cadastro — marca d\'água removível.',
+    metaDescription: 'Crie atividades de desenho e pintura grátis com imagens. 104 temas, canvas livre, PDF imprimível. Venda no Etsy & KDP com licenca comercial.',
   },
 
   hero: {

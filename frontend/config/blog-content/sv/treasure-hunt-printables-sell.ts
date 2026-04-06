@@ -14,7 +14,7 @@ const content: BlogContent = {
       'Etsy butik svenska',
     ],
     titleTag: 'Skattjakt-Utskrifter: Sälj Online | LCS',
-    metaDescription: 'Skattjakt-utskrifter säljer till föräldrar, eventplanerare och pedagoger. Inomhus, utomhus och tematiska versioner.',
+    metaDescription: 'Skattjakt-utskrifter säljer till föräldrar, eventplanerare och pedagoger. Inomhus, utomhus och tematiska versioner. Salj pa Etsy & KDP med kommersiell licens.',
   },
   hero: {
     title: 'Skattjakt-Utskrifter: Sälj Online',

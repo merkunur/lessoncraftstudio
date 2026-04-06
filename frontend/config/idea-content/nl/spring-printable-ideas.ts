@@ -3,7 +3,7 @@ import type { IdeaContent } from '../types';
 const content: IdeaContent = {
   seo: {
     titleTag: 'Printables lente — Business | LessonCraftStudio',
-    metaDescription: 'Verkoop lente printables op Etsy en Gumroad. Ontdek seizoensgebonden productideeën met vlinders, bloemen en tuinthema\'s voor uw printable business van maart tot mei.',
+    metaDescription: 'Verkoop lente printables op Etsy en Gumroad. Ontdek seizoensgebonden productideeën met vlinders, bloemen en tuinthema\'s voor uw printable business van maart.',
 
     primaryKeyword: 'printables lente ideeën business',
     secondaryKeywords: [

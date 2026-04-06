@@ -27,8 +27,7 @@ const content: AppContent = {
       'Kiwify',
     ],
     titleTag: 'Atividades de subtração para vender | LCS',
-    metaDescription:
-      'Crie atividades de subtração para vender na Hotmart, Etsy e KDP. Imagens temáticas, gabarito, licença comercial. Teste grátis com marca d\'água.',
+    metaDescription: 'Crie atividades de subtração para vender na Hotmart, Etsy e KDP. Imagens temáticas, gabarito, licença comercial. 49 $ pagamento unico.',
   },
 
   hero: {

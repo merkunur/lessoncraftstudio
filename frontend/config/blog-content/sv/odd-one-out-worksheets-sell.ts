@@ -14,7 +14,7 @@ const content: BlogContent = {
       'Etsy butik svenska',
     ],
     titleTag: 'Vilken-Hör-Inte-Hemma: Sälj Online | LCS',
-    metaDescription: 'Vilken-hör-inte-hemma-arbetsblad utvecklar logiskt tänkande och kategorisering. Populärt för barn 3-7 år.',
+    metaDescription: 'Vilken-hör-inte-hemma-arbetsblad utvecklar logiskt tänkande och kategorisering. Populärt för barn 3-7 år. Salj pa Etsy & KDP med kommersiell licens.',
   },
   hero: {
     title: 'Vilken-Hör-Inte-Hemma: Sälj Online',

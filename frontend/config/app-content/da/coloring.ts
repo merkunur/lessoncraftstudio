@@ -15,8 +15,7 @@ const content: AppContent = {
       'malebilleder generator kommercielt brug',
     ],
     titleTag: 'Malebilleder Generator | Opret og Sælg Printbare',
-    metaDescription:
-      'Opret tilpassede malebilleder til salg på Etsy, KDP og Gumroad. Frit lærred, 104 temaer, frihåndstegning, gråtoneeksport. Gratis prøveversion med vandmærke.',
+    metaDescription: 'Opret tilpassede malebilleder til salg på Etsy, KDP og Gumroad. Frit lærred, 104 temaer, frihåndstegning, gråtoneeksport. $49 engangsbetaling.',
   },
 
   hero: {

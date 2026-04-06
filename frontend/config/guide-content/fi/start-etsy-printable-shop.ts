@@ -6,7 +6,7 @@ const content: GuideContent = {
     secondaryKeywords: ['perusta Etsy-kauppa tulostettaville', 'Etsy tulostettavien liiketoiminnan aloittaminen', 'ensimmainen Etsy-kauppa opetuksellisille tulostettaville', 'aloittelijan opas Etsy tulostettavien myyntiin'],
     lsiKeywords: ['Etsy-kaupan perustaminen digitaalisille latauksille', 'tulostettavien liiketoiminnan aloittaminen nollasta', 'Etsy-myyjatilin luominen ja optimointi'],
     titleTag: 'Aloita Etsy-tulostettavien kauppa — Opas',
-    metaDescription: 'Aloita Etsy-tulostettavien kauppa alusta. Kaupan perustaminen, ensimmaiset listaukset, SEO-optimointi, hinnoittelu ja katalogin rakentaminen digitaalisten latausten myyntiin.',
+    metaDescription: 'Aloita Etsy-tulostettavien kauppa alusta. Kaupan perustaminen, ensimmaiset listaukset, SEO-optimointi, hinnoittelu ja katalogin rakentaminen digitaalisten.',
   },
   hero: {
     title: 'Aloita Etsy-tulostettavien kauppa alusta',

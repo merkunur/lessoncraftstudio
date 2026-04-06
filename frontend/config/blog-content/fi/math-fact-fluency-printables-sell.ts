@@ -14,7 +14,7 @@ const content: BlogContent = {
       'tulostettava myy',
     ],
     titleTag: 'Paalaskutulosteet: myyntiopas | LCS',
-    metaDescription: 'Myy paalaskutulosteita. Matematiikan peruslaskutoimituksen automatisoiminen on tarkea taito jota kaikki harjoittelevat.',
+    metaDescription: 'Myy paalaskutulosteita. Matematiikan peruslaskutoimituksen automatisoiminen on tarkea taito jota kaikki. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
   },
   hero: {
     title: 'Paalaskutulosteet: matemaattinen sujuvuus myyntituotteena',

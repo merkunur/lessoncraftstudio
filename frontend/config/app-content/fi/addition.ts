@@ -15,8 +15,7 @@ const content: AppContent = {
       'tyoarkki generaattori kaupallinen kaytto',
     ],
     titleTag: 'Yhteenlaskutyoarkki Generaattori | Luo ja Myy Verkossa',
-    metaDescription:
-      'Luo yhteenlaskutyoarkkeja myyntiin Etsyssa, KDP:ssa ja Gumroadissa. 104 teemaa, 4 harjoitustilaa, vastausavain, yli 400 DPI vienti. Ilmainen kokeilu vesileimalla.',
+    metaDescription: 'Luo yhteenlaskutyoarkkeja myyntiin Etsyssa, KDP:ssa ja Gumroadissa. 104 teemaa, 4 harjoitustilaa, vastausavain, yli 400 DPI vienti. $49 kertamaksu.',
   },
 
   hero: {

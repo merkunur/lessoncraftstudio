@@ -14,7 +14,7 @@ const content: BlogContent = {
       'Etsy butik svenska',
     ],
     titleTag: 'Svårighetsnivåer: Produktnivåer | LCS',
-    metaDescription: 'Använd svårighetsnivåer för att skapa produktnivåer. Nybörjare, mellanliggande och avancerad ger tre produkter av ett koncept.',
+    metaDescription: 'Använd svårighetsnivåer för att skapa produktnivåer. Nybörjare, mellanliggande och avancerad ger tre produkter av. Salj pa Etsy & KDP med kommersiell licens.',
   },
   hero: {
     title: 'Svårighetsnivåer: Produktnivåer',

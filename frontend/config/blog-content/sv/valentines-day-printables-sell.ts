@@ -14,7 +14,7 @@ const content: BlogContent = {
       'Etsy butik svenska',
     ],
     titleTag: 'Alla Hjärtans Dag-Utskrifter: Sälj | LCS',
-    metaDescription: 'Alla hjärtans dag-utskrifter säljer starkt i januari-februari. Hjärt-teman, kärleksordpussel och romantiska aktiviteter.',
+    metaDescription: 'Alla hjärtans dag-utskrifter säljer starkt i januari-februari. Salj pa Etsy & KDP med kommersiell licens.',
   },
   hero: {
     title: 'Alla Hjärtans Dag-Utskrifter: Sälj',

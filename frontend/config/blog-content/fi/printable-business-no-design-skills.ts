@@ -14,7 +14,7 @@ const content: BlogContent = {
       'verkkokauppa tulosteet',
     ],
     titleTag: 'Tulosteliiketoiminta ilman designtaitoja | LCS',
-    metaDescription: 'Aloita tulosteliiketoiminta ilman suunnittelutaitoja. Generaattorit tekevat suunnittelun puolestasi.',
+    metaDescription: 'Aloita tulosteliiketoiminta ilman suunnittelutaitoja. Generaattorit tekevat suunnittelun puolestasi. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
   },
   hero: {
     title: 'Tulosteliiketoiminta ilman suunnittelutaitoja',

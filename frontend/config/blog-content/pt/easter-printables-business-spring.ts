@@ -14,7 +14,7 @@ const content: BlogContent = {
       'mercado imprimíveis temáticos',
     ],
     titleTag: 'Imprimíveis de Páscoa: Negócio | LCS',
-    metaDescription: 'A Páscoa é uma das datas mais lucrativas para imprimíveis infantis. Fichas de colorir coelhos, caça ao tesouro de ovos, labirintos temáticos e ativida.',
+    metaDescription: 'A Páscoa é uma das datas mais lucrativas para imprimíveis infantis. Venda no Etsy & KDP com licenca comercial.',
   },
   hero: {
     title: 'Imprimíveis de Páscoa: Negócio',

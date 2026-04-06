@@ -5,7 +5,7 @@ const content: BlogContent = {
     secondaryKeywords: ['bondegårdsdyr printables selge Etsy', 'bondegårdsdyr printables selge strategi', 'bondegårdsdyr printables selge tips'],
     lsiKeywords: ['sesongbaserte utskrifter', 'utskrivbare arbeidsark nisje', 'printable selger Norge'],
     titleTag: 'Bondegårdsdyr-utskrifter: Selg på nett | LCS',
-    metaDescription: 'Bondegårdsdyr er et av de mest tidløse temaene for pedagogiske utskrifter. Barn lærer dyrenavn, dyrelyder og dyrekategorier gjennom bondegårdstemaer. ',
+    metaDescription: 'Bondegårdsdyr er et av de mest tidløse temaene for pedagogiske utskrifter. Selg pa Etsy & KDP med kommersiell lisens.',
   },
   hero: {
     title: 'Bondegårdsdyr-utskrifter: Selg på nett',

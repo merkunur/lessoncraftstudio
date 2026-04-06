@@ -26,8 +26,7 @@ const content: AppContent = {
       'Kiwify',
     ],
     titleTag: 'Encontre o intruso para vender online | LCS',
-    metaDescription:
-      'Crie atividades de encontre o intruso para vender na Hotmart, Etsy e KDP. 104 temas, gabarito automático. Teste grátis com marca d\'água — sem cadastro.',
+    metaDescription: 'Crie atividades de encontre o intruso para vender na Hotmart, Etsy e KDP. 104 temas, gabarito automático. 49 $ pagamento unico.',
   },
 
   hero: {

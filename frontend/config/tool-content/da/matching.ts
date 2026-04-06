@@ -15,7 +15,7 @@ const content: ToolContent = {
       'begyndelsesbogstav billede ord matchning generator',
     ],
     titleTag: 'Matchnings Arbejdsark Generator — Tegn-en-Streg Generator',
-    metaDescription: 'Lav matchnings arbejdsark med 4 tilstande, automatisk facit med forbindelseslinjer, konfigurerbare par, 11 sprog, 104 temaer. Gratis prøveversion med vandmærke.',
+    metaDescription: 'Lav matchnings arbejdsark med 4 tilstande, automatisk facit med forbindelseslinjer, konfigurerbare par, 11 sprog,. Saelg pa Etsy & KDP med kommerciel licens.',
   },
 
   hero: {

@@ -2,8 +2,8 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Ruoka ja ruoanlaitto tulostettavat ideat myyntiin — Nicheopas',
-    metaDescription: 'Tutustu ruoka- ja ruoanlaittoteemaisiin tulostettaviin ideoihin myyntiin Etsyssä, Amazon KDP:ssä ja Gumroadilla. Tuotekonseptit, alustastrategiat ja vinkit myyjille.',
+    titleTag: 'Ruoka ja ruoanlaitto tulostettavat ideat myyntiin —...',
+    metaDescription: 'Tutustu ruoka- ja ruoanlaittoteemaisiin tulostettaviin ideoihin myyntiin Etsyssä, Amazon KDP:ssä ja Gumroadilla.',
 
     primaryKeyword: 'ruoka ja ruoanlaitto tulostettavat ideat',
     secondaryKeywords: [

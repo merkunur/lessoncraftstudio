@@ -15,7 +15,7 @@ const content: AppContent = {
       'räumliches Denken Druckvorlagen Einkommensquelle',
     ],
     titleTag: 'Bilder-Labyrinth-Generator für Druckvorlagen | LCS',
-    metaDescription: 'Bilder-Labyrinth-Generator für Etsy-Druckvorlagen. 3 Spielmodi mit LPF-Algorithmus, automatischer Lösungspfad, 104 Themen. Kostenlos testen mit Wasserzeichen.',
+    metaDescription: 'Bilder-Labyrinth-Generator für Etsy-Druckvorlagen. 3 Spielmodi mit LPF-Algorithmus, automatischer Lösungspfad, 104 Themen. 49 $ einmalig.',
   },
 
   hero: {

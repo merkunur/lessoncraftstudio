@@ -18,7 +18,7 @@ const content: GuideContent = {
       'skalbar intäktsmodell arbetsblad inkomstströmmar multiplattformsintäkt',
     ],
     titleTag: 'Passiv inkomst med arbetsblad (2026) | LessonCraftStudio',
-    metaDescription: 'Bygg återkommande arbetsbladsinkomst genom vintergröna kataloger, multiplattformsdistribution, språkexpansion och katalogackumuleringsstrategier. Prova.',
+    metaDescription: 'Bygg återkommande arbetsbladsinkomst genom vintergröna kataloger, multiplattformsdistribution, språkexpansion och. Salj pa Etsy & KDP med kommersiell licens.',
   },
 
   hero: {

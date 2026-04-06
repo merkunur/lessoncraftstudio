@@ -16,7 +16,7 @@ const content: BundleContent = {
       'Suchen-und-Finden-Arbeitsblatt-Massenproduktion Werkzeug',
     ],
     titleTag: 'Such & Find Bundle für Verkäufer | LCS',
-    metaDescription: 'Such-und-Find Arbeitsblatt-Bundle mit 4 Generatoren für Etsy-Verkäufer. Suchbilder, Kreuzworträtsel, Schatzsuche und Zählen — 11 Sprachen, druckfertig.',
+    metaDescription: 'Such-und-Find Arbeitsblatt-Bundle mit 4 Generatoren für Etsy-Verkäufer. 149 $ einmalig.',
   },
 
   hero: {

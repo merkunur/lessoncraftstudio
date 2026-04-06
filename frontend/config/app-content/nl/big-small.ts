@@ -15,7 +15,7 @@ const content: AppContent = {
       'commercieel gebruik groot klein werkbladen generator',
     ],
     titleTag: 'Groot en klein werkbladen voor Etsy | LessonCraftStudio',
-    metaDescription: 'Maak groot en klein werkbladen om te verkopen op Etsy en Amazon KDP. Vijf vraagtypen, identieke en verschillende modi. Gratis proefversie met watermerk.',
+    metaDescription: 'Maak groot en klein werkbladen om te verkopen op Etsy en Amazon KDP. Vijf vraagtypen, identieke en verschillende modi. $49 eenmalig.',
   },
 
   hero: {

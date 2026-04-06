@@ -3,7 +3,7 @@ import type { IdeaContent } from '../types';
 const content: IdeaContent = {
   seo: {
     titleTag: 'Avaruusaiheiset tulostettavat ideat myyntiin — Nicheopas',
-    metaDescription: 'Tutustu avaruusaiheisiin tulostettaviin ideoihin myyntiin Etsyssä, Amazon KDP:ssä ja Gumroadilla. Avaruustuotekonseptit, STEM-strategiat ja alustavinkit myyjille.',
+    metaDescription: 'Tutustu avaruusaiheisiin tulostettaviin ideoihin myyntiin Etsyssä, Amazon KDP:ssä ja Gumroadilla.',
 
     primaryKeyword: 'avaruus tulostettavat ideat',
     secondaryKeywords: [

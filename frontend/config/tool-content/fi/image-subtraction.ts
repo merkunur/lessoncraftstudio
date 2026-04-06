@@ -15,7 +15,7 @@ const content: ToolContent = {
       'kokeile ennen ostoa matematiikkatyökalut',
     ],
     titleTag: 'Ilmainen Vähennyslaskutehtävien Tekijä Verkossa | LCS',
-    metaDescription: 'Tee vähennyslaskutehtäviä ilmaiseksi verkossa vesileimalla — ei rekisteröitymistä. Yliviivaus-tila, 104 teemaa, vastausavaimet. Päivitä kaupalliseen lisenssiin.',
+    metaDescription: 'Tee vähennyslaskutehtäviä ilmaiseksi verkossa vesileimalla — ei rekisteröitymistä. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
   },
 
   hero: {

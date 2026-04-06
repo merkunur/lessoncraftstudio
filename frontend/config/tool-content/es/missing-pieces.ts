@@ -15,7 +15,7 @@ const content: ToolContent = {
       'actividad de razonamiento espacial piezas faltantes PDF',
     ],
     titleTag: 'Piezas faltantes gratis en línea | LCS',
-    metaDescription: 'Cree fichas de piezas faltantes gratis sin registro. 6 formas de pieza, dificultad configurable, clave de respuestas automática.',
+    metaDescription: 'Cree fichas de piezas faltantes gratis sin registro. 6 formas de pieza, dificultad configurable, clave de. Venda en Etsy & KDP con licencia comercial.',
   },
 
   hero: {

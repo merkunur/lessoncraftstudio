@@ -14,7 +14,7 @@ const content: BlogContent = {
       'Etsy butik svenska',
     ],
     titleTag: 'Filformat för Utskrifter: PDF vs JPEG | LCS',
-    metaDescription: 'Komplett guide till filformat för utskriftsprodukter. PDF för arbetsblad, JPEG för mockups — och undantagen.',
+    metaDescription: 'Komplett guide till filformat för utskriftsprodukter. PDF för arbetsblad, JPEG för mockups — och undantagen. Salj pa Etsy & KDP med kommersiell licens.',
   },
   hero: {
     title: 'Filformat för Utskrifter: PDF vs JPEG',

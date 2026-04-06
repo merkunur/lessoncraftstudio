@@ -14,7 +14,7 @@ const content: BlogContent = {
       'tulostettava myy',
     ],
     titleTag: 'Kesaaktiviteetti-tulosteet | LCS',
-    metaDescription: 'Myy kesaaktiviteetti-tulosteita. Suomessa kesan pitkat paivat ja lomakausi luovat kysynnan tulostettaville aktiviteeteille.',
+    metaDescription: 'Myy kesaaktiviteetti-tulosteita. Suomessa kesan pitkat paivat ja lomakausi luovat kysynnan tulostettaville. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
   },
   hero: {
     title: 'Kesaaktiviteetti-tulosteet: lomakauden myyntimahdollisuus',

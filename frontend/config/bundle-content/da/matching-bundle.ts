@@ -15,8 +15,8 @@ const content: BundleContent = {
       'kommerciel licens matchningsarbejdsark',
       'masseproduktion matchningsarbejdsark værktøj',
     ],
-    titleTag: 'Matchningsarbejdsark Pakke — 5 Sorterings- og Matchningsgeneratorer',
-    metaDescription: 'Få 5 matchningsarbejdsark-generatorer i én pakke. Lav matchning, gittermatchning, skyggematchning, bingo og sorteringsarbejdsark til salg på Etsy.',
+    titleTag: 'Matchningsarbejdsark Pakke — 5 Sorterings- og...',
+    metaDescription: 'Få 5 matchningsarbejdsark-generatorer i én pakke. Lav matchning, gittermatchning, skyggematchning, bingo og sorteringsarbejdsark til salg på Etsy. $49.',
   },
 
   hero: {

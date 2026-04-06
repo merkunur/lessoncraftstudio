@@ -6,7 +6,7 @@ const content: BlogContent = {
     secondaryKeywords: ['matematik fluency printables sælg Etsy', 'matematik fluency printables sælg online', 'matematik fluency printables sælg forretning'],
     lsiKeywords: ['printbar forretning Danmark', 'digital download salg', 'Etsy printables sælg'],
     titleTag: 'Matematik-Fluency Printables: Sælg Øvelsesark | LCS',
-    metaDescription: 'Matematik-fluency — evnen til hurtigt og korrekt at løse basale matematikopgaver — er en kerneprioritet for forældre og lærere. Daglige øvelsesark til mate',
+    metaDescription: 'Matematik-fluency — evnen til hurtigt og korrekt at løse basale matematikopgaver — er en kerneprioritet for forældre. Saelg pa Etsy & KDP med kommerciel licens.',
   },
   hero: {
     title: 'Matematik-Fluency Printables: Sælg Øvelsesark',

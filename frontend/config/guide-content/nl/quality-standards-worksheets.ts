@@ -18,7 +18,7 @@ const content: GuideContent = {
       'correctielezen dubbelcontrole eindafwerking voorpublicatie verificatie printtest',
     ],
     titleTag: 'Kwaliteitsnormen voor werkbladen | LessonCraftStudio',
-    metaDescription: 'Kwaliteitsnormen voor verkoopbare werkbladen: resolutie, marges, typografie, antwoordsleutels en printtests. Complete checklist voor professionele uitvoer.',
+    metaDescription: 'Kwaliteitsnormen voor verkoopbare werkbladen: resolutie, marges, typografie, antwoordsleutels en printtests. Verkoop op Etsy & KDP met commerciele licentie.',
   },
 
   hero: {

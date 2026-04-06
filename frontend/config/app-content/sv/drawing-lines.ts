@@ -17,8 +17,7 @@ const content: AppContent = {
       'svenska marknaden finmotorikblad Etsy',
     ],
     titleTag: 'Spårningsblad att sälja på Etsy | LessonCraftStudio',
-    metaDescription:
-      'Skapa spårningsblad för finmotorik att sälja på Etsy och KDP. 8 SVG-mallar, bildpar, 104 teman, kommersiell licens. Testa gratis med vattenmärke.',
+    metaDescription: 'Skapa spårningsblad för finmotorik att sälja på Etsy och KDP. 8 SVG-mallar, bildpar, 104 teman, kommersiell licens. $49 engångsbetalning.',
   },
 
   hero: {

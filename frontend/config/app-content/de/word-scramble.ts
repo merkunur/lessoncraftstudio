@@ -15,7 +15,7 @@ const content: AppContent = {
       'Lösungsschlüssel Rechtschreibrätsel kommerzielle Nutzung',
     ],
     titleTag: 'Buchstabensalat-Generator für Etsy-Business | LCS',
-    metaDescription: 'Erstellen Sie Buchstabensalat-Arbeitsblätter zum Verkauf auf Etsy & KDP. Vokal-Farbcodierung, 11 Sprachen, gewerbliche Lizenz. Jetzt kostenlos testen.',
+    metaDescription: 'Erstellen Sie Buchstabensalat-Arbeitsblätter zum Verkauf auf Etsy & KDP. Vokal-Farbcodierung, 11 Sprachen, gewerbliche Lizenz. 49 $ einmalig.',
   },
 
   hero: {

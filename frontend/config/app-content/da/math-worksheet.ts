@@ -15,8 +15,7 @@ const content: AppContent = {
       'kommercielt brug algebraisk arbejdsark generator',
     ],
     titleTag: 'Algebrapuslespil Generator | Matematikarbejdsark Generator',
-    metaDescription:
-      'Opret algebrapuslespil arbejdsark til salg på Etsy, KDP og Gumroad. Billeder som variabler, 4 sværhedsgrader, unikke løsninger. Gratis prøveversion.',
+    metaDescription: 'Opret algebrapuslespil arbejdsark til salg på Etsy, KDP og Gumroad. Billeder som variabler, 4 sværhedsgrader, unikke løsninger. $49 engangsbetaling.',
   },
 
   hero: {

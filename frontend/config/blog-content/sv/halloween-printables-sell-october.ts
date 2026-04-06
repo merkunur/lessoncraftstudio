@@ -14,7 +14,7 @@ const content: BlogContent = {
       'Etsy butik svenska',
     ],
     titleTag: 'Halloween-Utskrifter: Sälj i Oktober | LCS',
-    metaDescription: 'Halloween-utskrifter har en kort men intensiv säljsäsong. Maximera försäljningen september-oktober.',
+    metaDescription: 'Halloween-utskrifter har en kort men intensiv säljsäsong. Maximera försäljningen september-oktober. Salj pa Etsy & KDP med kommersiell licens.',
   },
   hero: {
     title: 'Halloween-Utskrifter: Sälj i Oktober',

@@ -15,8 +15,7 @@ const content: AppContent = {
       'code couleur voyelles tuiles lettres 11 langues',
     ],
     titleTag: 'Anagrammes à vendre sur Etsy & KDP | LCS',
-    metaDescription:
-      'Créez des anagrammes à vendre sur Etsy & KDP. Tuiles lettres, code couleur, 11 langues, licence commerciale. Testez gratuitement avec filigrane.',
+    metaDescription: 'Créez des anagrammes à vendre sur Etsy & KDP. Tuiles lettres, code couleur, 11 langues, licence commerciale. 49 $ paiement unique.',
   },
 
   hero: {

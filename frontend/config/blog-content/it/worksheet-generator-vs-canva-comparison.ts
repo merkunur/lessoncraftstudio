@@ -6,7 +6,7 @@ const content: BlogContent = {
     secondaryKeywords: ['come creare stampabili vendere', 'guida pratica stampabili business', 'tutorial stampabili educativi'],
     lsiKeywords: ['creazione stampabili professionali', 'workflow produzione schede', 'ottimizzazione vendita stampabili'],
     titleTag: 'Generatore Schede vs Canva: Confronto | LCS',
-    metaDescription: 'Confronto tra generatore di schede dedicato e Canva per creare stampabili. Velocità, qualità e costi a confronto.',
+    metaDescription: 'Confronto tra generatore di schede dedicato e Canva per creare stampabili. Velocità, qualità e costi a confronto. Vendi su Etsy & KDP con licenza commerciale.',
   },
   hero: {
     title: 'Generatore di Schede vs Canva: Confronto Completo',

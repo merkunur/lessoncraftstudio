@@ -6,7 +6,7 @@ const content: GuideContent = {
     secondaryKeywords: ['prissetting arbeidsark Etsy', 'prisstrategier printables', 'prissett digitale produkter', 'arbeidsark pris KDP Gumroad'],
     lsiKeywords: ['prisoptimalisering printable-salg', 'verdibasert prissetting arbeidsark', 'konkurransedyktig prissetting markedsplasser', 'pakkeprissetting strategi', 'premium prissetting pedagogisk innhold'],
     titleTag: 'Prissetting av pedagogiske printables — Guide',
-    metaDescription: 'Prissettingstrategier for pedagogiske printables. Individuelle arbeidsark, pakker, premium posisjonering og plattformspesifikk prissetting for Etsy, KDP og Gumroad.',
+    metaDescription: 'Prissettingstrategier for pedagogiske printables. Individuelle arbeidsark, pakker, premium posisjonering og plattformspesifikk prissetting for Etsy, KDP og.',
   },
   hero: {
     title: 'Prissettingsstrategier for pedagogiske printables',

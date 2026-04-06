@@ -5,7 +5,7 @@ const content: BlogContent = {
     secondaryKeywords: ['lag arbeidsark i partier effektivt tips', 'lag arbeidsark i partier effektivt guide', 'lag arbeidsark i partier effektivt steg for steg'],
     lsiKeywords: ['arbeidsark produksjon', 'printable forretning guide', 'Etsy selger tutorial'],
     titleTag: 'Lag arbeidsark i partier effektivt | LCS',
-    metaDescription: 'Effektiv batchproduksjon er nøkkelen til skalering. Denne guiden viser deg en arbeidsflyt for å generere store mengder arbeidsark raskt med LessonCraf',
+    metaDescription: 'Effektiv batchproduksjon er nøkkelen til skalering. Denne guiden viser deg en arbeidsflyt for å generere store. Selg pa Etsy & KDP med kommersiell lisens.',
   },
   hero: {
     title: 'Lag arbeidsark i partier effektivt',

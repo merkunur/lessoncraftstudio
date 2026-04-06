@@ -14,7 +14,7 @@ const content: BlogContent = {
       'Etsy butik svenska',
     ],
     titleTag: 'Mönstertåg-Arbetsblad: Nisch | LCS',
-    metaDescription: 'Mönstertåg-arbetsblad kombinerar mönsterigenkänning med barnens fascination för tåg. En unik nischprodukt.',
+    metaDescription: 'Mönstertåg-arbetsblad kombinerar mönsterigenkänning med barnens fascination för tåg. En unik nischprodukt. Salj pa Etsy & KDP med kommersiell licens.',
   },
   hero: {
     title: 'Mönstertåg-Arbetsblad: Nisch',

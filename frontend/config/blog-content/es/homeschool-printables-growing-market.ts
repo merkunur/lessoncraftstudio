@@ -6,7 +6,7 @@ const content: BlogContent = {
     secondaryKeywords: ['imprimibles educacion en casa homeschool negocio', 'imprimibles educacion en casa homeschool Etsy vender', 'imprimibles educacion en casa homeschool imprimibles rentable'],
     lsiKeywords: ['imprimibles educacion fichas', 'vender imprimibles imprimibles', 'casa homeschool educativos'],
     titleTag: 'Imprimibles para Educacion en Casa | LCS',
-    metaDescription: 'La educacion en casa (homeschool) crece a tasas de dos digitos en Mexico, Colombia, Argentina y otros paises hispanohablantes. La pandemia acelero esta ten',
+    metaDescription: 'La educacion en casa (homeschool) crece a tasas de dos digitos en Mexico, Colombia, Argentina y otros paises. Venda en Etsy & KDP con licencia comercial.',
   },
   hero: {
     title: 'Imprimibles para Educacion en Casa: Un Mercado en Explosion',

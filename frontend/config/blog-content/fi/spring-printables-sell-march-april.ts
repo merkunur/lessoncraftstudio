@@ -14,7 +14,7 @@ const content: BlogContent = {
       'tulostettava myy',
     ],
     titleTag: 'Kevaatulosteet maalis-huhtikuussa | LCS',
-    metaDescription: 'Myy kevaatulosteet maalis-huhtikuussa. Kevaan saapuminen Suomeen on erityinen tapahtuma joka inspiroi tuotteita.',
+    metaDescription: 'Myy kevaatulosteet maalis-huhtikuussa. Kevaan saapuminen Suomeen on erityinen tapahtuma joka inspiroi. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
   },
   hero: {
     title: 'Kevaatulosteet maalis-huhtikuussa: kevaan juhla',

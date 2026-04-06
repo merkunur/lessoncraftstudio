@@ -15,7 +15,7 @@ const content: ToolContent = {
       'sprachsensitiver Wortschatz-Generator',
     ],
     titleTag: 'Kostenloser Wörter-Raten Generator | LCS',
-    metaDescription: 'Kostenloser Wörter-Raten Generator — Rechtschreib-Arbeitsblätter mit Bild-Hinweisen und 4 Stufen online erstellen. Testversion mit Wasserzeichen verfügbar.',
+    metaDescription: 'Kostenloser Wörter-Raten Generator — Rechtschreib-Arbeitsblätter mit Bild-Hinweisen und 4 Stufen online. Verkaufen Sie auf Etsy & KDP mit gewerblicher Lizenz.',
   },
 
   hero: {

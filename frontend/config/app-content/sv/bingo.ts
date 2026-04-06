@@ -17,8 +17,7 @@ const content: AppContent = {
       'svenska marknaden bingokort Etsy',
     ],
     titleTag: 'Bingo-brickor att sälja på Etsy | LessonCraftStudio',
-    metaDescription:
-      'Skapa bingo-brickor med bilder att sälja på Etsy och KDP. Batch-generering, ZIP-export, uppropslista, 11 språk, kommersiell licens. Testa gratis med vattenmärke.',
+    metaDescription: 'Skapa bingo-brickor med bilder att sälja på Etsy och KDP. Batch-generering, ZIP-export, uppropslista, 11 språk, kommersiell licens. $49 engångsbetalning.',
   },
 
   hero: {

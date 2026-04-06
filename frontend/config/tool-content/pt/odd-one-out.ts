@@ -24,8 +24,7 @@ const content: ToolContent = {
       'licença comercial',
     ],
     titleTag: 'Encontre o intruso grátis online | LCS',
-    metaDescription:
-      'Crie atividades de encontre o intruso grátis com imagens. 104 temas, gabarito automático, PDF imprimível. Teste online sem cadastro — marca d\'água removível.',
+    metaDescription: 'Crie atividades de encontre o intruso grátis com imagens. 104 temas, gabarito automático, PDF imprimível. Venda no Etsy & KDP com licenca comercial.',
   },
 
   hero: {

@@ -6,7 +6,7 @@ const content: GuideContent = {
     secondaryKeywords: ['kvalitetskrav printable-produkter', 'profesjonell arbeidsarkkvalitet', 'utskriftskvalitet arbeidsark', 'kvalitetskontroll printables'],
     lsiKeywords: ['layout konsistens arbeidsark', 'typografi lesbarhet standarder', 'utskriftsoptimalisering 300 DPI', 'innholdsnoyaktighet fasiter', 'visuell kvalitetskontroll printables'],
     titleTag: 'Kvalitetsstandarder for arbeidsark — Guide',
-    metaDescription: 'Etabler kvalitetsstandarder for printable-virksomheten din. Layout, typografi, utskriftskvalitet, innholdsnoyaktighet og visuell konsistens for arbeidsark.',
+    metaDescription: 'Etabler kvalitetsstandarder for printable-virksomheten din. Layout, typografi, utskriftskvalitet,. Selg pa Etsy & KDP med kommersiell lisens.',
   },
   hero: {
     title: 'Kvalitetsstandarder for arbeidsark',

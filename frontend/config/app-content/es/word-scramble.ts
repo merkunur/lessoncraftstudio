@@ -15,8 +15,7 @@ const content: AppContent = {
       'negocio pasatiempos palabras mercado hispano',
     ],
     titleTag: 'Anagramas imprimibles para Etsy y KDP | LCS',
-    metaDescription:
-      'Cree fichas de letras revueltas para vender en Etsy y KDP. Los niños reordenan letras con pistas de imágenes. Licencia comercial. Pruebe gratis.',
+    metaDescription: 'Cree fichas de letras revueltas para vender en Etsy y KDP. Los niños reordenan letras con pistas de imágenes. Licencia comercial. 49 $ pago unico.',
   },
 
   hero: {

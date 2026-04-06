@@ -15,8 +15,7 @@ const content: AppContent = {
       'fichas lógica matemática negocio imprimibles',
     ],
     titleTag: 'Rompecabezas de mates para vender en Etsy | LCS',
-    metaDescription:
-      'Cree rompecabezas matemáticos de cuadrícula para vender en Etsy y KDP. Formato puzzle único con imágenes temáticas. Licencia comercial. Pruebe gratis.',
+    metaDescription: 'Cree rompecabezas matemáticos de cuadrícula para vender en Etsy y KDP. Formato puzzle único con imágenes temáticas. Licencia comercial. 49 $ pago unico.',
   },
 
   hero: {

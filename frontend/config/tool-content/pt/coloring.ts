@@ -23,8 +23,7 @@ const content: ToolContent = {  seo: {
       'licença comercial',
     ],
     titleTag: 'Desenhos para colorir grátis online | LCS',
-    metaDescription:
-      'Crie desenhos para colorir grátis com imagens temáticas. 104 temas, modo escala de cinza, PDF imprimível. Teste online sem cadastro — marca d\'água removível.',
+    metaDescription: 'Crie desenhos para colorir grátis com imagens temáticas. 104 temas, modo escala de cinza, PDF imprimível. Venda no Etsy & KDP com licenca comercial.',
   },
 
   hero: {

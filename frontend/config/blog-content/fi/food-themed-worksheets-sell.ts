@@ -14,7 +14,7 @@ const content: BlogContent = {
       'tulostettava myy',
     ],
     titleTag: 'Ruoka-aihe tyoarkit: myyntiopas | LCS',
-    metaDescription: 'Myy ruoka-aiheisia tyoarkkeja. Ruokateema on universaali ja sopii matematiikasta kielten oppimiseen.',
+    metaDescription: 'Myy ruoka-aiheisia tyoarkkeja. Ruokateema on universaali ja sopii matematiikasta kielten oppimiseen. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
   },
   hero: {
     title: 'Ruoka-aihe tyoarkit: universaali teema myyntituotteena',

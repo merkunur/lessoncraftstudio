@@ -15,8 +15,7 @@ const content: AppContent = {
       'subtraksjons arbeidsark generator kommersielt bruk',
     ],
     titleTag: 'Subtraksjons Arbeidsark Generator | Lag og Selg',
-    metaDescription:
-      'Lag subtraksjonsarbeidsark til salg på Etsy, KDP og Gumroad. 4 moduser med overstrykning, 104 temaer, fasit, gråtone, 400+ DPI. Gratis prøveversjon.',
+    metaDescription: 'Lag subtraksjonsarbeidsark til salg på Etsy, KDP og Gumroad. 4 moduser med overstrykning, 104 temaer, fasit, gråtone, 400+ DPI. $49 engangsbetaling.',
   },
 
   hero: {

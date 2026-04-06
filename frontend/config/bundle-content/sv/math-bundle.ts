@@ -16,7 +16,7 @@ const content: BundleContent = {
       'bulkproduktion matte arbetsblad verktyg',
     ],
     titleTag: 'Mattepaket för Etsy-säljare | LessonCraftStudio',
-    metaDescription: 'Få 6 matte arbetsblad-generatorer i ett paket. Skapa additions-, subtraktions-, kodpussel-, jämförelse- och algebraarbetsblad att sälja på Etsy, KDP och.',
+    metaDescription: 'Få 6 matte arbetsblad-generatorer i ett paket. Addition, subtraktion, kodpussel och algebra att sälja på Etsy & KDP. Kommersiell licens. $149 engångsbetalning.',
   },
 
   hero: {

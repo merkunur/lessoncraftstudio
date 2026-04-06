@@ -16,8 +16,7 @@ const content: AppContent = {
       'esikoulu työarkkituotteet Etsy',
     ],
     titleTag: 'Yhdistämistehtävä Generaattori Etsy-Myyjille | LCS',
-    metaDescription:
-      'Luo yhdistämistyöarkkeja myyntiin Etsyssä ja KDP:ssä. 4 yhdistämistilaa, automaattiset vastauslehdet, 104 teemaa, kaupallinen lisenssi. Kokeile ilmaiseksi — ei rekisteröintiä.',
+    metaDescription: 'Luo yhdistämistyöarkkeja myyntiin Etsyssä ja KDP:ssä. 4 yhdistämistilaa, automaattiset vastauslehdet, 104 teemaa, kaupallinen lisenssi. $49 kertamaksu.',
   },
 
   hero: {

@@ -26,8 +26,7 @@ const content: AppContent = {
       'Kiwify',
     ],
     titleTag: 'Gerador de criptogramas para vender | LCS',
-    metaDescription:
-      'Crie criptogramas com imagens para vender na Hotmart, Etsy e KDP. Substituição de letras, 11 idiomas, gabarito automático. Teste grátis com marca d\'água.',
+    metaDescription: 'Crie criptogramas com imagens para vender na Hotmart, Etsy e KDP. Substituição de letras, 11 idiomas, gabarito automático. 49 $ pagamento unico.',
   },
 
   hero: {

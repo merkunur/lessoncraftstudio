@@ -18,7 +18,7 @@ const content: StartContent = {
       'kaupallinen lisenssi tehtavatuotanto',
     ],
     titleTag: 'Parhaat työkalut tulostettavien tuotteiden myyjille',
-    metaDescription: 'Parhaat työkalut tulostettavien tuotteiden myyjille: tehtävägeneraattorit, suunnittelutyökalut, alusttyökalut ja työnkulut ammattimaiseen työkalupakettiin.',
+    metaDescription: 'Parhaat työkalut tulostettavien tuotteiden myyjille: tehtävägeneraattorit, suunnittelutyökalut, alusttyökalut. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
   },
 
   hero: {

@@ -17,8 +17,7 @@ const content: AppContent = {
       'svenska marknaden kopplingsblad Etsy',
     ],
     titleTag: 'Kopplingsblad att sälja på Etsy | LessonCraftStudio',
-    metaDescription:
-      'Skapa kopplingsblad att sälja på Etsy och KDP. 4 matchningslägen, automatiskt facit, 104 teman, 11 språk, kommersiell licens. Testa gratis med vattenmärke.',
+    metaDescription: 'Skapa kopplingsblad att sälja på Etsy och KDP. 4 matchningslägen, automatiskt facit, 104 teman, 11 språk, kommersiell licens. $49 engångsbetalning.',
   },
 
   hero: {

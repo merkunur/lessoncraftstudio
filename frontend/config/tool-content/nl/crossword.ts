@@ -14,7 +14,7 @@ const content: ToolContent = {  seo: {
       'automatisch antwoordblad kruiswoordpuzzel generator',
     ],
     titleTag: 'Kruiswoordpuzzel generator gratis | LessonCraftStudio',
-    metaDescription: 'Maak gratis kruiswoordpuzzels met afbeeldingsaanwijzingen online. 15x15 raster, vier invoermethoden, automatisch antwoordblad, 104 thema\'s. Probeer nu.',
+    metaDescription: 'Maak gratis kruiswoordpuzzels met afbeeldingsaanwijzingen online. Verkoop op Etsy & KDP met commerciele licentie.',
     },
 
   hero: {

@@ -17,8 +17,7 @@ const content: AppContent = {
       'svenska marknaden pedagogiska printables',
     ],
     titleTag: 'Skapa additionsblad att sälja på Etsy | LessonCraftStudio',
-    metaDescription:
-      'Skapa professionella additionsblad att sälja på Etsy och KDP. Kommersiell licens ingår. Testa gratis med vattenmärke — inget konto krävs.',
+    metaDescription: 'Skapa professionella additionsblad att sälja på Etsy och KDP. Kommersiell licens ingår. Testa gratis med vattenmärke — inget konto krävs. $49 engångsbetalning.',
   },
 
   hero: {

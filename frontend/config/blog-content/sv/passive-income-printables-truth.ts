@@ -14,7 +14,7 @@ const content: BlogContent = {
       'Etsy butik svenska',
     ],
     titleTag: 'Passiv Inkomst med Utskrifter: Sanningen | LCS',
-    metaDescription: 'Kan utskrifter verkligen ge passiv inkomst? Realistiska förväntningar och strategier för att nå det målet.',
+    metaDescription: 'Kan utskrifter verkligen ge passiv inkomst? Realistiska förväntningar och strategier för att nå det målet. Salj pa Etsy & KDP med kommersiell licens.',
   },
   hero: {
     title: 'Passiv Inkomst med Utskrifter: Sanningen',

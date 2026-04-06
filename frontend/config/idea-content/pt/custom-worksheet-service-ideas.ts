@@ -24,8 +24,7 @@ const content: IdeaContent = {
       'imprimíveis educativos',
     ],
     titleTag: 'Serviço de atividades — Negócio | LCS',
-    metaDescription:
-      'Ideias de negócio oferecendo serviço de criação de atividades personalizadas. Atenda escolas e editoras. Alto valor por projeto.',
+    metaDescription: 'Ideias de negócio oferecendo serviço de criação de atividades personalizadas. Atenda escolas e editoras. Venda no Etsy & KDP com licenca comercial.',
   },
   hero: {
     title: 'Serviço de Criação de Atividades — Modelo de Negócio',

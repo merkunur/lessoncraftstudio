@@ -16,7 +16,7 @@ const content: BundleContent = {
       'puur visuele puzzelwerkbladen wereldwijd verkopen',
     ],
     titleTag: 'Puzzels en logica pakket voor KDP | LessonCraftStudio',
-    metaDescription: 'Vier puur visuele puzzelgenerators in een pakket: ontbrekende stukjes, vreemde eend, plaatjes sudoku en doolhoven. Verkoop op Etsy, KDP en Bol.com.',
+    metaDescription: 'Vier puur visuele puzzelgenerators in een pakket: ontbrekende stukjes, vreemde eend, plaatjes sudoku en doolhoven. Verkoop op Etsy, KDP en Bol. $149 eenmalig.',
   },
 
   hero: {

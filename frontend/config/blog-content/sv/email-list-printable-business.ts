@@ -14,7 +14,7 @@ const content: BlogContent = {
       'Etsy butik svenska',
     ],
     titleTag: 'E-postlista för Utskriftsverksamhet | LCS',
-    metaDescription: 'Bygg en e-postlista för din utskriftsverksamhet. Strategier för leadmagneter, segmentering och återkommande försäljning.',
+    metaDescription: 'Bygg en e-postlista för din utskriftsverksamhet. Strategier för leadmagneter, segmentering och återkommande. Salj pa Etsy & KDP med kommersiell licens.',
   },
   hero: {
     title: 'E-postlista för Utskriftsverksamhet',

@@ -14,7 +14,7 @@ const content: BlogContent = {
       'Etsy butik svenska',
     ],
     titleTag: 'Utskriftsverksamhet: Realistisk Inkomst | LCS',
-    metaDescription: 'Realistiska inkomstsiffror för utskriftsverksamhet. Vad du kan förvänta dig månadsvis baserat på antal listningar och tid.',
+    metaDescription: 'Realistiska inkomstsiffror för utskriftsverksamhet. Vad du kan förvänta dig månadsvis baserat på antal listningar. Salj pa Etsy & KDP med kommersiell licens.',
   },
   hero: {
     title: 'Utskriftsverksamhet: Realistisk Inkomst',

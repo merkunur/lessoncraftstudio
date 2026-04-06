@@ -14,7 +14,7 @@ const content: GuideContent = {
       'optimalisering av arbeidsflyt for digitale produkter',
       'effektiv printbar produksjon',
     ],
-    titleTag: 'Hvordan automatisere din printbare virksomhet | LCS',
+    titleTag: 'Automatisere din printbare virksomhet | LCS',
     metaDescription: 'Hvordan automatisere din printbare virksomhet. Produksjonsarbeidsflyter, oppforingsverktoy og tidsbesparende strategier for effektive printable-selgere.',
   },
 

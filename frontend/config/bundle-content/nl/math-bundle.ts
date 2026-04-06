@@ -16,7 +16,7 @@ const content: BundleContent = {
       'bulk rekenwerkblad creatie tool online verkopen',
     ],
     titleTag: 'Rekenpakket voor Etsy-verkopers | LessonCraftStudio',
-    metaDescription: 'Zes rekenwerkblad generators in een pakket. Maak optelling, aftrekken, codepuzzels, vergelijking en algebra werkbladen om te verkopen op Etsy en KDP.',
+    metaDescription: 'Zes rekenwerkblad generators in een pakket. Maak optelling, aftrekken, codepuzzels, vergelijking en algebra werkbladen om te verkopen op Etsy en KDP. $49. $.',
   },
 
   hero: {

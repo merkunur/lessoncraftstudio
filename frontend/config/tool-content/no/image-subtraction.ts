@@ -15,7 +15,7 @@ const content: ToolContent = {
       'fjerne-arbeidsark generator',
     ],
     titleTag: 'Subtraksjons Arbeidsark Generator | Matematikk Utskriftsbare',
-    metaDescription: 'Lag subtraksjons arbeidsark med overstrykning-visuelle på sekunder. 104 temaer, justerbar vanskelighetsgrad, trykkeklar PDF-eksport. Gratis proveversjon med vannmerke.',
+    metaDescription: 'Lag subtraksjons arbeidsark med overstrykning-visuelle på sekunder. Selg pa Etsy & KDP med kommersiell lisens.',
   },
 
   hero: {

@@ -15,8 +15,7 @@ const content: AppContent = {
       'canevas libre dessin à main levée niveaux de gris',
     ],
     titleTag: 'Coloriages à vendre sur Etsy & KDP | LCS',
-    metaDescription:
-      'Créez des coloriages à vendre sur Etsy & KDP. Canevas libre, 104 thèmes, niveaux de gris, licence commerciale. Testez gratuitement avec filigrane.',
+    metaDescription: 'Créez des coloriages à vendre sur Etsy & KDP. Canevas libre, 104 thèmes, niveaux de gris, licence commerciale. 49 $ paiement unique.',
   },
 
   hero: {

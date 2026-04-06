@@ -14,8 +14,8 @@ const content: ToolContent = {
       'justerbar ledetrådsprosent arbeidsark verktøy',
       'symmetri speilmodus tegne arbeidsark generator',
     ],
-    titleTag: 'Tegne Arbeidsark Generator — Rutenetttegning Generator | Selg',
-    metaDescription: 'Generer rutenetttegning arbeidsark med dobbeltrutenett, justerbar ledetrådsprosent, tre symmetrimoduser og tematiske bildesett. Gratis prøveversjon med vannmerke.',
+    titleTag: 'Tegne Arbeidsark Generator — Rutenetttegning Generator | LCS',
+    metaDescription: 'Generer rutenetttegning arbeidsark med dobbeltrutenett, justerbar ledetrådsprosent, tre symmetrimoduser og tematiske. Selg pa Etsy & KDP med kommersiell lisens.',
   },
 
   hero: {

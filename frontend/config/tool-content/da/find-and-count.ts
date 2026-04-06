@@ -15,7 +15,7 @@ const content: ToolContent = {
       'lokalspecifikt alfabet accentuerede bogstaver søgegenerator',
     ],
     titleTag: 'Find og Tæl Generator — Søgearbejdsark Generator | Online',
-    metaDescription: 'Lav søgearbejdsark med Skjulte Objekter og Bogstavsøgning-tilstande, fire opgavetyper, lokalspecifikke alfabeter, 104 temaer. Gratis prøveversion med vandmærke.',
+    metaDescription: 'Lav søgearbejdsark med Skjulte Objekter og Bogstavsøgning-tilstande, fire opgavetyper, lokalspecifikke alfabeter,. Saelg pa Etsy & KDP med kommerciel licens.',
   },
 
   hero: {

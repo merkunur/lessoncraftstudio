@@ -15,7 +15,7 @@ const content: ToolContent = {
       'distraktor-brikker puslespilarbejdsark generator værktøj',
     ],
     titleTag: 'Manglende Brikker Generator — Puslespilarbejdsark Generator',
-    metaDescription: 'Lav puslespilarbejdsark med 6 brikformer, konfigurerbar sværhed, smart ekstraktion med distraktor-brikker, 104 temaer. Gratis prøveversion med vandmærke.',
+    metaDescription: 'Lav puslespilarbejdsark med 6 brikformer, konfigurerbar sværhed, smart ekstraktion med distraktor-brikker, 104. Saelg pa Etsy & KDP med kommerciel licens.',
   },
 
   hero: {

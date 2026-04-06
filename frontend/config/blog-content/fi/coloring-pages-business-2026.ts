@@ -14,7 +14,7 @@ const content: BlogContent = {
       'taidekasvatus tulostettava',
     ],
     titleTag: 'Varityssivut liiketoimintana 2026 | LCS',
-    metaDescription: 'Rakenna kannattava varityssivuliiketoiminta 2026. Ikivihrea tuote kaikille ikaryhmille. Aloita generaattorilla ilman suunnittelutaitoja.',
+    metaDescription: 'Rakenna kannattava varityssivuliiketoiminta 2026. Ikivihrea tuote kaikille ikaryhmille. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
   },
   hero: {
     title: 'Varityssivut liiketoimintana 2026: taydellinen opas',

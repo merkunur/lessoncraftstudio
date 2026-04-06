@@ -14,7 +14,7 @@ const content: BlogContent = {
       'Etsy butik svenska',
     ],
     titleTag: 'Bästa Pappersstorlekar för Utskrifter | LCS',
-    metaDescription: 'A4 dominerar i Europa, Letter i USA. Erbjud båda för maximal försäljning.',
+    metaDescription: 'A4 dominerar i Europa, Letter i USA. Erbjud båda för maximal försäljning. Salj pa Etsy & KDP med kommersiell licens.',
   },
   hero: {
     title: 'Bästa Pappersstorlekar för Utskrifter',

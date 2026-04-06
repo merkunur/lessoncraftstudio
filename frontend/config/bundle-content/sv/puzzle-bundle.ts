@@ -16,7 +16,7 @@ const content: BundleContent = {
       'bulkproduktion pusselarbetsblad verktyg',
     ],
     titleTag: 'Pussel- och logikpaket för KDP | LessonCraftStudio',
-    metaDescription: 'Pusselarbetsblad paket med 4 generatorer: saknade bitar, hitta udda bilden, bildsudoku och labyrinter. Sälj på Etsy, KDP och Gumroad. Kommersiell licens.',
+    metaDescription: 'Pusselarbetsblad paket med 4 generatorer: saknade bitar, hitta udda bilden, bildsudoku och labyrinter. Sälj på Etsy, KDP och Gumroad. $149 engångsbetalning.',
   },
 
   hero: {

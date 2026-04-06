@@ -6,7 +6,7 @@ const content: BlogContent = {
     secondaryKeywords: ['imprimibles dinosaurios vender todo ano negocio', 'imprimibles dinosaurios vender todo ano Etsy vender', 'imprimibles dinosaurios vender todo ano imprimibles rentable'],
     lsiKeywords: ['imprimibles dinosaurios fichas', 'vender imprimibles imprimibles', 'todo ano educativos'],
     titleTag: 'Imprimibles de Dinosaurios Evergreen | LCS',
-    metaDescription: 'Los dinosaurios son posiblemente el tema mas popular y duradero entre ninos de 3 a 10 anos. A diferencia de las tendencias que van y vienen, los dinosaurio',
+    metaDescription: 'Los dinosaurios son posiblemente el tema mas popular y duradero entre ninos de 3 a 10 anos. Venda en Etsy & KDP con licencia comercial.',
   },
   hero: {
     title: 'Imprimibles de Dinosaurios: Un Nicho Evergreen de Alta Demanda',

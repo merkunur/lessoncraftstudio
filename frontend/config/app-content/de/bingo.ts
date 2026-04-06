@@ -15,7 +15,7 @@ const content: AppContent = {
       'Bingo-Karten Ansageblatt 104 Themen Export',
     ],
     titleTag: 'Bilder-Bingo-Generator für Etsy-Druckvorlagen | LCS',
-    metaDescription: 'Bilder-Bingo-Karten für Etsy-Druckvorlagen erstellen — Stapel-Generierung, ZIP-Export, Ansageblatt und 104 Themen. Kostenlos testen mit Wasserzeichen.',
+    metaDescription: 'Bilder-Bingo-Karten für Etsy-Druckvorlagen erstellen — Stapel-Generierung, ZIP-Export, Ansageblatt und 104 Themen. 49 $ einmalig.',
   },
 
   hero: {

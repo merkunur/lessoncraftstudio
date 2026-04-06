@@ -15,7 +15,7 @@ const content: ToolContent = {
       'preposiciones espaciales con ilustraciones PDF gratis',
     ],
     titleTag: 'Fichas de preposiciones gratis | LCS',
-    metaDescription: 'Cree fichas de preposiciones gratis sin registro. Ilustraciones de arriba, abajo, dentro, fuera. 104 temas, respuestas incluidas.',
+    metaDescription: 'Cree fichas de preposiciones gratis sin registro. Ilustraciones de arriba, abajo, dentro, fuera. Venda en Etsy & KDP con licencia comercial.',
   },
 
   hero: {

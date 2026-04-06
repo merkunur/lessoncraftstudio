@@ -15,8 +15,7 @@ const content: AppContent = {
       'kommercielt brug sprogarbejdsark generator',
     ],
     titleTag: 'Præpositioner Arbejdsark Generator | Opret Printables',
-    metaDescription:
-      'Opret præpositioner arbejdsark til salg på Etsy, KDP og Gumroad. 8 rumlige præpositioner, udfyldningsøvelser og flervalg. Gratis prøveversion med vandmærke.',
+    metaDescription: 'Opret præpositioner arbejdsark til salg på Etsy, KDP og Gumroad. 8 rumlige præpositioner, udfyldningsøvelser og flervalg. $49 engangsbetaling.',
   },
 
   hero: {

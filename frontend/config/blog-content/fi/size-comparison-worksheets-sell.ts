@@ -14,7 +14,7 @@ const content: BlogContent = {
       'vertailu harjoitukset',
     ],
     titleTag: 'Kokovertailutyoarkit: myyntiopas | LCS',
-    metaDescription: 'Myy kokovertailutyoarkkeja. Iso vs pieni on perustaito jonka jokainen lapsi oppii. Yksinkertainen tuote vakaalla kysynnalla.',
+    metaDescription: 'Myy kokovertailutyoarkkeja. Iso vs pieni on perustaito jonka jokainen lapsi oppii. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
   },
   hero: {
     title: 'Kokovertailutyoarkit: yksinkertaisuus on vahvuus',

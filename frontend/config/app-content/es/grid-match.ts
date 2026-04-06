@@ -15,8 +15,7 @@ const content: AppContent = {
       'negocio fichas lógica visual mercado hispano',
     ],
     titleTag: 'Rompecabezas de cuadrícula para Etsy y KDP | LCS',
-    metaDescription:
-      'Cree rompecabezas de cuadrícula con imágenes para vender en Etsy y KDP. Formato único de lógica visual. Licencia comercial incluida. Pruebe gratis.',
+    metaDescription: 'Cree rompecabezas de cuadrícula con imágenes para vender en Etsy y KDP. Formato único de lógica visual. Licencia comercial incluida. 49 $ pago unico.',
   },
 
   hero: {

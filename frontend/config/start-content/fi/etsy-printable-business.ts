@@ -18,7 +18,7 @@ const content: StartContent = {
       'Etsy-hinnoittelustrategia tulostettavat',
     ],
     titleTag: 'Myy tulostettavia tuotteita Etsyssä — täydellinen opas',
-    metaDescription: 'Näin myyt tulostettavia tuotteita Etsyssä askel askeleelta. Kaupan perustaminen, Etsy-SEO, listausten optimointi, hinnoittelu ja skaalaus tehtävägeneraattoreilla.',
+    metaDescription: 'Näin myyt tulostettavia tuotteita Etsyssä askel askeleelta. Kaupan perustaminen, Etsy-SEO, listausten optimointi, hinnoittelu ja skaalaus.',
   },
 
   hero: {

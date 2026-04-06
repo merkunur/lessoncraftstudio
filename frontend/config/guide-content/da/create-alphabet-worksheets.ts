@@ -18,7 +18,7 @@ const content: GuideContent = {
       'kommerciel licens alfabettog vaerktoej',
     ],
     titleTag: 'Alfabettog arbejdsark — Guide — Komplet Guide for Sælgere',
-    metaDescription: 'Sådan generator du alfabettog-arbejdsark med togvogne, to skabelsestilstande, konfigurerbar sværhedsgrad og 104 temabilledsamlinger. Sælg på Etsy, KDP og Gumroad.',
+    metaDescription: 'Sådan generator du alfabettog-arbejdsark med togvogne, to skabelsestilstande, konfigurerbar sværhedsgrad og 104. Saelg pa Etsy & KDP med kommerciel licens.',
   },
 
   hero: {

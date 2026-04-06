@@ -6,7 +6,7 @@ const content: GuideContent = {
     secondaryKeywords: ['anmeldelser Etsy printables', 'bygge tillit digitale produkter', 'kjoperfeedback printable-virksomhet', 'anmeldelsesstrategi markedsplasser'],
     lsiKeywords: ['anmeldelsesakkumulering markedsplasser', 'sosialt bevis digitale produkter', 'kjopervurderinger arbeidsark', 'oppfolging etter kjop', 'produktkvalitet driver anmeldelser'],
     titleTag: 'Fa anmeldelser for printbare produkter — Guide',
-    metaDescription: 'Bygg anmeldelsesakkumulering for printable-virksomheten din. Oppfolgingsstrategier, produktkvalitet-drevne anmeldelser og plattformspesifikke taktikker.',
+    metaDescription: 'Bygg anmeldelsesakkumulering for printable-virksomheten din. Selg pa Etsy & KDP med kommersiell lisens.',
   },
   hero: {
     title: 'Hvordan fa anmeldelser for printbare produkter',

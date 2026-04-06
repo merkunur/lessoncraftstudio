@@ -14,7 +14,7 @@ const content: BlogContent = {
       'tyoarkit tuotanto',
     ],
     titleTag: 'Vastausavaimen merkitys tulostemyynnissa | LCS',
-    metaDescription: 'Miksi vastausavain on valttamaton tulosteissa. Nostaa koettua arvoa, parantaa arvosteluja ja lisaa myyntia.',
+    metaDescription: 'Miksi vastausavain on valttamaton tulosteissa. Nostaa koettua arvoa, parantaa arvosteluja ja lisaa myyntia. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
   },
   hero: {
     title: 'Vastausavaimen merkitys tulostemyynnissa',

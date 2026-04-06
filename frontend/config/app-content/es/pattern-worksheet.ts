@@ -15,8 +15,7 @@ const content: AppContent = {
       'negocio fichas lógica patrones mercado hispano',
     ],
     titleTag: 'Reconocimiento de patrones para Etsy y KDP | LCS',
-    metaDescription:
-      'Cree fichas de reconocimiento de patrones para vender en Etsy y KDP. Imágenes temáticas, dificultad ajustable. Licencia comercial. Pruebe gratis.',
+    metaDescription: 'Cree fichas de reconocimiento de patrones para vender en Etsy y KDP. Imágenes temáticas, dificultad ajustable. Licencia comercial. 49 $ pago unico.',
   },
 
   hero: {

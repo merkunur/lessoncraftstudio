@@ -17,7 +17,7 @@ const content: BundleContent = {
       'classificazione immagini attività scuola materna',
     ],
     titleTag: 'Pacchetto abbinamento e classificazione | LessonCraftStudio',
-    metaDescription: 'Pacchetto con 5 generatori: abbinamento, griglia, ombre, bingo e classificazione. 3 app multilingue + 2 visive universali. Licenza commerciale inclusa.',
+    metaDescription: 'Pacchetto con 5 generatori: abbinamento, griglia, ombre, bingo e classificazione. 3 app multilingue + 2 visive universali. 149 $ pagamento unico.',
   },
 
   hero: {

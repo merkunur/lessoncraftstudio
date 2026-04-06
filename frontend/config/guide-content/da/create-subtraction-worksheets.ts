@@ -18,7 +18,7 @@ const content: GuideContent = {
       'kommerciel licens arbejdsarksværktøj',
     ],
     titleTag: 'Skab subtraktionsarbejdsark — Trin-for-trin-guide',
-    metaDescription: 'Skab subtraktionsarbejdsark til børn med overkrydsede billeder, tematiske visuelle elementer og automatisk facit. Trin-for-trin guide til salg på Etsy, KDP og Gumroad.',
+    metaDescription: 'Skab subtraktionsarbejdsark til børn med overkrydsede billeder, tematiske visuelle elementer og automatisk facit. Saelg pa Etsy & KDP med kommerciel licens.',
   },
 
   hero: {

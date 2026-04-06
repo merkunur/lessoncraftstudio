@@ -14,7 +14,7 @@ const content: ToolContent = {  seo: {
       'configureerbare rekenpuzzel generator',
     ],
     titleTag: 'Rekenpuzzels gratis online maken | LessonCraftStudio',
-    metaDescription: 'Maak gratis rekenpuzzels online met legpuzzel-stijl afbeeldingrasters. Drie rekenmodi, configureerbare rasters en antwoordbladen. Geen account nodig.',
+    metaDescription: 'Maak gratis rekenpuzzels online met legpuzzel-stijl afbeeldingrasters. Verkoop op Etsy & KDP met commerciele licentie.',
     },
 
   hero: {

@@ -14,7 +14,7 @@ const content: ToolContent = {  seo: {
       'Datenvisualisierung Arbeitsblatt für Kinder',
     ],
     titleTag: 'Kostenloses Zähldiagramm erstellen | LCS',
-    metaDescription: 'Kostenloses Zähldiagramm online erstellen — Bilddiagramme mit 4x5-Raster und Lösungsschlüssel sofort generieren. Testversion mit Wasserzeichen verfügbar.',
+    metaDescription: 'Kostenloses Zähldiagramm online erstellen — Bilddiagramme mit 4x5-Raster und Lösungsschlüssel sofort. Verkaufen Sie auf Etsy & KDP mit gewerblicher Lizenz.',
     },
 
   hero: {

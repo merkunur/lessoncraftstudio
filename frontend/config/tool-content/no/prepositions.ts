@@ -15,7 +15,7 @@ const content: ToolContent = {
       'flerspråklig preposisjoner aktivitet generator',
     ],
     titleTag: 'Preposisjoner Arbeidsark Generator | Selg Utskriftsbare',
-    metaDescription: 'Generer preposisjoner arbeidsark med utfyllings- og flervalgsmodus, formerstatning, 104 temaer, 11 språk. Gratis prøveversjon med vannmerke. Prøv nå.',
+    metaDescription: 'Generer preposisjoner arbeidsark med utfyllings- og flervalgsmodus, formerstatning, 104 temaer, 11 språk. Selg pa Etsy & KDP med kommersiell lisens.',
   },
 
   hero: {

@@ -15,8 +15,7 @@ const content: AppContent = {
       'opetukselliset palapeelituotteet',
     ],
     titleTag: 'Ristikko-palapeelin tekijä — Myy Etsyssä ja KDP:ssä | LCS',
-    metaDescription:
-      'Luo kuvaristikoita myytäväksi Etsyssä ja KDP:ssä. Kuvavihjeillä, automaattiset vastausavaimet, 104 teemaa, kaupallinen lisenssi. Ilmainen kokeilu — ei suunnittelutaitoja vaadita.',
+    metaDescription: 'Luo kuvaristikoita myytäväksi Etsyssä ja KDP:ssä. Kuvavihjeillä, automaattiset vastausavaimet, 104 teemaa, kaupallinen lisenssi. $49 kertamaksu.',
   },
 
   hero: {

@@ -15,8 +15,7 @@ const content: AppContent = {
       'negocio juegos imprimibles mercado hispano',
     ],
     titleTag: 'Búsqueda del tesoro para Etsy y KDP | LCS',
-    metaDescription:
-      'Cree juegos de búsqueda del tesoro imprimibles para vender en Etsy y KDP. Imágenes temáticas, solucionario. Licencia comercial. Pruebe gratis.',
+    metaDescription: 'Cree juegos de búsqueda del tesoro imprimibles para vender en Etsy y KDP. Imágenes temáticas, solucionario. Licencia comercial. Pruebe gratis. 49 $ pago unico.',
   },
 
   hero: {

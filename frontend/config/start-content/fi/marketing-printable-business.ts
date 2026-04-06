@@ -6,7 +6,7 @@ const content: StartContent = {
     secondaryKeywords: ['markkinointistrategiat tulostettavien myyjille', 'markkinoi tulostettavia tehtavia verkossa', 'markkinointisuunnitelma tulostettavien liiketoiminta', 'myy enemman tehtavia Etsyssa'],
     lsiKeywords: ['Etsy SEO digitaaliset lataukset', 'Pinterest-markkinointi tulostettavat tuotteet', 'sahkopostimarkkinointi tehtavamyyjille', 'kausimarkkinointikalenteri tulostettavat', 'markkinapaikkaoptimointi aktiviteettikirjat', 'sisaltomarkkinointi tulostettavien yrittajille'],
     titleTag: 'Markkinoi tulostettavia tehtäviä — opas myyjille',
-    metaDescription: 'Markkinoi tulostettavia tehtäviä verkossa: alusta-SEO, Pinterest-strategia, sähköpostimarkkinointi, kausisuunnittelu ja brändinrakentaminen tulostettavien myyjille.',
+    metaDescription: 'Markkinoi tulostettavia tehtäviä verkossa: alusta-SEO, Pinterest-strategia, sähköpostimarkkinointi,. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
   },
 
   hero: {

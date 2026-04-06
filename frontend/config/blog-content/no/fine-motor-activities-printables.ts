@@ -5,7 +5,7 @@ const content: BlogContent = {
     secondaryKeywords: ['finmotorikk aktiviteter printables Etsy', 'finmotorikk aktiviteter printables strategi', 'finmotorikk aktiviteter printables tips'],
     lsiKeywords: ['sesongbaserte utskrifter', 'utskrivbare arbeidsark nisje', 'printable selger Norge'],
     titleTag: 'Finmotorikk-aktiviteter som utskrifter | LCS',
-    metaDescription: 'Finmotorikk-aktiviteter forbereder barn på skriving ved å trene håndkontroll, øye-hånd-koordinasjon og presisjon. Sporing, klipping-øvelser og tegneop',
+    metaDescription: 'Finmotorikk-aktiviteter forbereder barn på skriving ved å trene håndkontroll, øye-hånd-koordinasjon og presisjon. Selg pa Etsy & KDP med kommersiell lisens.',
   },
   hero: {
     title: 'Finmotorikk-aktiviteter som utskrifter',

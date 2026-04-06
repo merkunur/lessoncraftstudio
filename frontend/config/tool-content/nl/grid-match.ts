@@ -15,7 +15,7 @@ const content: ToolContent = {
       'automatisch antwoordblad rasterpuzzel tool',
     ],
     titleTag: 'Raster-koppelpuzzels gratis | LessonCraftStudio',
-    metaDescription: 'Maak gratis raster-koppelpuzzels online met instelbare rastergrootte, aanwijzingscellen en automatische antwoordbladen. Probeer nu zonder account.',
+    metaDescription: 'Maak gratis raster-koppelpuzzels online met instelbare rastergrootte, aanwijzingscellen en automatische. Verkoop op Etsy & KDP met commerciele licentie.',
   },
 
   hero: {

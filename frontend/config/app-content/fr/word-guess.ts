@@ -15,8 +15,7 @@ const content: AppContent = {
       'indices images 4 difficultés corrigé automatique',
     ],
     titleTag: 'Devinettes de mots à vendre sur Etsy | LCS',
-    metaDescription:
-      'Créez des jeux de devinettes de mots à vendre sur Etsy & KDP. Indices images, 4 difficultés, licence commerciale. Testez gratuitement avec filigrane.',
+    metaDescription: 'Créez des jeux de devinettes de mots à vendre sur Etsy & KDP. Indices images, 4 difficultés, licence commerciale. 49 $ paiement unique.',
   },
 
   hero: {

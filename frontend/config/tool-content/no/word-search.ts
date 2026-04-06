@@ -14,8 +14,8 @@ const content: ToolContent = {
       'lokaltilpasset ordsøk arbeidsark verktøy',
       'flerspråklig ordsøk puslespill generator',
     ],
-    titleTag: 'Ordsøk Arbeidsark Generator | Lag og Selg Rutenettspuslespill',
-    metaDescription: 'Generer ordsøk arbeidsark med justerbare rutenett fra 5×5 til 30×30, retningskontroller, lokaltilpassede fyllbokstaver, 11 språk. Gratis prøveversjon.',
+    titleTag: 'Ordsøk Arbeidsark Generator | LCS',
+    metaDescription: 'Generer ordsøk arbeidsark med justerbare rutenett fra 5×5 til 30×30, retningskontroller, lokaltilpassede. Selg pa Etsy & KDP med kommersiell lisens.',
   },
 
   hero: {

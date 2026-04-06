@@ -15,7 +15,7 @@ const content: GuideContent = {
       'KDP räumliche Sprache Aktivitätsbuch veröffentlichen',
     ],
     titleTag: 'Präpositionen-Arbeitsblätter für DaF | LCS',
-    metaDescription: 'Präpositionen-Arbeitsblätter für DaF/DaZ erstellen. Lückentext, Multiple Choice und Formaustausch für 100+ Szenen. Positionswörter in 11 Sprachen. Guide.',
+    metaDescription: 'Präpositionen-Arbeitsblätter für DaF/DaZ erstellen. Lückentext, Multiple Choice und Formaustausch für. Verkaufen Sie auf Etsy & KDP mit gewerblicher Lizenz.',
   },
 
   hero: {

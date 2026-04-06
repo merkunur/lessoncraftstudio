@@ -18,7 +18,7 @@ const content: StartContent = {
       'geninvesteringsstrategi printbar forretning',
     ],
     titleTag: 'Skaler printbar forretning op — sideprojekt til heltid',
-    metaDescription: 'Saadan skalerer du din printbare forretning fra sideprojekt til heltid. Daekker katalogudvidelse, multiplatformsdistribution, paketering og workflowoptimering.',
+    metaDescription: 'Saadan skalerer du din printbare forretning fra sideprojekt til heltid. Saelg pa Etsy & KDP med kommerciel licens.',
   },
 
   hero: {

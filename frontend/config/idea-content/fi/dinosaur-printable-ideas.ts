@@ -3,7 +3,7 @@ import type { IdeaContent } from '../types';
 const content: IdeaContent = {
   seo: {
     titleTag: 'Dinosaurusaiheiset tulostettavat ideat myyntiin — Nicheopas',
-    metaDescription: 'Tutustu kannattaviin dinosaurusaiheisiin tulostettaviin ideoihin myyntiin Etsyssä, Amazon KDP:ssä ja Gumroadilla. Tuotekonseptit, alustastrategiat ja nichevinkit.',
+    metaDescription: 'Tutustu kannattaviin dinosaurusaiheisiin tulostettaviin ideoihin myyntiin Etsyssä, Amazon KDP:ssä ja Gumroadilla.',
 
     primaryKeyword: 'dinosaurus tulostettavat ideat',
     secondaryKeywords: [

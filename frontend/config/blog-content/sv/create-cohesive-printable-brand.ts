@@ -14,7 +14,7 @@ const content: BlogContent = {
       'Etsy butik svenska',
     ],
     titleTag: 'Skapa ett Sammanhängande Utskriftsmärke | LCS',
-    metaDescription: 'Bygg ett igenkännbart varumärke för din utskriftsverksamhet. Visuell identitet, tonalitet och kundupplevelse.',
+    metaDescription: 'Bygg ett igenkännbart varumärke för din utskriftsverksamhet. Visuell identitet, tonalitet och kundupplevelse. Salj pa Etsy & KDP med kommersiell licens.',
   },
   hero: {
     title: 'Skapa ett Sammanhängande Utskriftsmärke',

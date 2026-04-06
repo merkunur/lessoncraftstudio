@@ -18,7 +18,7 @@ const content: GuideContent = {
       'kaupallinen lisenssi työarkkityökalu',
     ],
     titleTag: 'Luo lajittelutyöarkkeja — Opas',
-    metaDescription: 'Luo kategorioiden lajittelutyöarkkeja temaattisilla kuvilla. Kahden kategorian lajittelu, leikkausalue, vastausavaimet ja tulostusvalmiit PDF:t myyntiin.',
+    metaDescription: 'Luo kategorioiden lajittelutyöarkkeja temaattisilla kuvilla. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
   },
 
   hero: {

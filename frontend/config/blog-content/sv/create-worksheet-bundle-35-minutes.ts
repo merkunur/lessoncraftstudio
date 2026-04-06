@@ -14,7 +14,7 @@ const content: BlogContent = {
       'Etsy butik svenska',
     ],
     titleTag: 'Skapa ett Arbetsbladspaket på 35 Minuter | LCS',
-    metaDescription: 'Steg-för-steg: Skapa ett komplett 30-sidors arbetsbladspaket på 35 minuter med generatorn. Inklusive mockups.',
+    metaDescription: 'Steg-för-steg: Skapa ett komplett 30-sidors arbetsbladspaket på 35 minuter med generatorn. Inklusive mockups. Salj pa Etsy & KDP med kommersiell licens.',
   },
   hero: {
     title: 'Skapa ett Arbetsbladspaket på 35 Minuter',

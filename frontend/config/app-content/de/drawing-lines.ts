@@ -15,7 +15,7 @@ const content: AppContent = {
       'Schreibvorbereitung Druckvorlagen Einkommensquelle',
     ],
     titleTag: 'Schwungübungen-Generator für Druckvorlagen | LCS',
-    metaDescription: 'Schwungübungen-Generator für Etsy-Druckvorlagen. 8 SVG-Linienvorlagen, 4 Linientypen für Feinmotorik, 104 Bildthemen. Kostenlos testen mit Wasserzeichen.',
+    metaDescription: 'Schwungübungen-Generator für Etsy-Druckvorlagen. 8 SVG-Linienvorlagen, 4 Linientypen für Feinmotorik, 104 Bildthemen. 49 $ einmalig.',
   },
 
   hero: {

@@ -15,7 +15,7 @@ const content: ToolContent = {
       'automatisch antwoordblad ontbrekende stukjes tool',
     ],
     titleTag: 'Ontbrekende stukjes gratis online | LessonCraftStudio',
-    metaDescription: 'Maak gratis ontbrekende stukjes puzzels online met 6 stukvormen, instelbare moeilijkheid, afleiders en 104 thema\'s. Probeer nu zonder account.',
+    metaDescription: 'Maak gratis ontbrekende stukjes puzzels online met 6 stukvormen, instelbare moeilijkheid, afleiders en 104. Verkoop op Etsy & KDP met commerciele licentie.',
   },
 
   hero: {

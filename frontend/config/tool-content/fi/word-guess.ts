@@ -15,7 +15,7 @@ const content: ToolContent = {
       'kokeile ennen ostoa sanastotyökalut',
     ],
     titleTag: 'Ilmainen Sananarvauspalapelin Tekijä Verkossa | LCS',
-    metaDescription: 'Tee sananarvauspalapelejä ilmaiseksi verkossa vesileimalla — ei rekisteröitymistä. Hirsipuutyylinen muoto, kuvavihjeet, 4 vaikeustasoa. Päivitä kaupalliseen lisenssiin.',
+    metaDescription: 'Tee sananarvauspalapelejä ilmaiseksi verkossa vesileimalla — ei rekisteröitymistä. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
   },
 
   hero: {

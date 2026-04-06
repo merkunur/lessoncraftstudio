@@ -15,7 +15,7 @@ const content: ToolContent = {
       'symmetrie spiegelmodus tekenwerkblad gratis',
     ],
     titleTag: 'Teken- en kleurwerkbladen gratis | LessonCraftStudio',
-    metaDescription: 'Maak rasterteken werkbladen met dubbele rasters, aanpasbaar aanwijzingspercentage en drie symmetriemodi. Probeer gratis met watermerk, geen registratie.',
+    metaDescription: 'Maak rasterteken werkbladen met dubbele rasters, aanpasbaar aanwijzingspercentage en drie symmetriemodi. Verkoop op Etsy & KDP met commerciele licentie.',
   },
 
   hero: {

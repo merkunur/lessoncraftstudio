@@ -15,8 +15,7 @@ const content: AppContent = {
       'wagons colorés 11 langues alphabets natifs',
     ],
     titleTag: 'Fiches d\'alphabet à vendre sur Etsy & KDP | LCS',
-    metaDescription:
-      'Créez des fiches d\'alphabet à vendre sur Etsy & KDP. Wagons colorés, 11 langues, 104 thèmes, licence commerciale. Testez gratuitement avec filigrane.',
+    metaDescription: 'Créez des fiches d\'alphabet à vendre sur Etsy & KDP. Wagons colorés, 11 langues, 104 thèmes, licence commerciale. 49 $ paiement unique.',
   },
 
   hero: {

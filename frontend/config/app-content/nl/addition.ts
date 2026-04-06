@@ -24,8 +24,7 @@ const content: AppContent = {
       'groep 4',
     ],
     titleTag: 'Rekenbladen optellen maken en verkopen | LessonCraftStudio',
-    metaDescription:
-      'Maak professionele rekenbladen om te verkopen op Etsy, KDP en Bol.com. Commerciële licentie inbegrepen. Gratis proberen met watermerk — zonder account.',
+    metaDescription: 'Maak professionele rekenbladen om te verkopen op Etsy, KDP en Bol.com. Commerciële licentie inbegrepen. $49 eenmalig.',
   },
 
   hero: {

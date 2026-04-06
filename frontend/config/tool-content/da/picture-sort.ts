@@ -15,7 +15,7 @@ const content: ToolContent = {
       'blandet udklipsgitter sorteringsaktivitet generator',
     ],
     titleTag: 'Billedsortering Generator — Sorterings Arbejdsark Generator',
-    metaDescription: 'Lav sorteringsarbejdsark med tokategori tematilstand, blandede udklipsgitre, automatiske facit og 104 tematiske billedsamlinger. Gratis prøveversion med vandmærke.',
+    metaDescription: 'Lav sorteringsarbejdsark med tokategori tematilstand, blandede udklipsgitre, automatiske facit og 104 tematiske. Saelg pa Etsy & KDP med kommerciel licens.',
   },
 
   hero: {

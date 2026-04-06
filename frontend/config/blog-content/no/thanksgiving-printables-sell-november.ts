@@ -5,7 +5,7 @@ const content: BlogContent = {
     secondaryKeywords: ['advent jul printables selge november Etsy', 'advent jul printables selge november strategi', 'advent jul printables selge november tips'],
     lsiKeywords: ['sesongbaserte utskrifter', 'utskrivbare arbeidsark nisje', 'printable selger Norge'],
     titleTag: 'Advents- og juleutskrifter: Selg i november | LCS',
-    metaDescription: 'Norge har ingen Thanksgiving, men adventstiden (1.–24. desember) er en enorm mulighet. Adventskalender-aktiviteter, juleverksted-oppgaver og adventspu',
+    metaDescription: 'Norge har ingen Thanksgiving, men adventstiden (1.–24. desember) er en enorm mulighet. Selg pa Etsy & KDP med kommersiell lisens.',
   },
   hero: {
     title: 'Advents- og juleutskrifter: Selg i november',

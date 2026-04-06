@@ -15,7 +15,7 @@ const content: ToolContent = {
       'matteaktivitet pussel gratis',
     ],
     titleTag: 'Mattepussel gratis online | LessonCraftStudio',
-    metaDescription: 'Skapa mattepussel gratis online. Bildrutnätspussel med addition och subtraktion, 2×2 till 4×4 rutnät, facit. Gratis provversion med vattenmärke.',
+    metaDescription: 'Skapa mattepussel gratis online. Bildrutnätspussel med addition och subtraktion, 2×2 till 4×4 rutnät, facit. Salj pa Etsy & KDP med kommersiell licens.',
   },
 
   hero: {

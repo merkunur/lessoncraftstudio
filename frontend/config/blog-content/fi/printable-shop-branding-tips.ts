@@ -14,7 +14,7 @@ const content: BlogContent = {
       'verkkokauppa tulosteet',
     ],
     titleTag: 'Tulostekaupan brandays-vinkit | LCS',
-    metaDescription: 'Rakenna tunnistettava brandi tulostekauppallesi. Logo, varimaailma, typografia ja yhtenaiinen visuaalinen ilme.',
+    metaDescription: 'Rakenna tunnistettava brandi tulostekauppallesi. Logo, varimaailma, typografia ja yhtenaiinen visuaalinen ilme. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
   },
   hero: {
     title: 'Tulostekaupan brandays: vinkit ammattimaiseen ilmeeseen',

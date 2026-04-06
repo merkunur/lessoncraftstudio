@@ -15,8 +15,7 @@ const content: AppContent = {
       'utskriftsbar finn den annerledes puslespill forretningsverktoy',
     ],
     titleTag: 'Finn den Ulike Generator | Lag og Selg Arbeidsark',
-    metaDescription:
-      'Lag finn den ulike arbeidsark til salg på Etsy, KDP og Gumroad. To puslespillmoduser, automatisk fasit med rode sirkler, 104 temaer. Gratis proveversjon.',
+    metaDescription: 'Lag finn den ulike arbeidsark til salg på Etsy, KDP og Gumroad. To puslespillmoduser, automatisk fasit med rode sirkler, 104 temaer. $49 engangsbetaling.',
   },
 
   hero: {

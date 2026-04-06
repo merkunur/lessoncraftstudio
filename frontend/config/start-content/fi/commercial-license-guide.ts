@@ -17,8 +17,8 @@ const content: StartContent = {
       'tehtavageneraattorin lisenssitasot',
       'kaupallinen vs henkilokohtainen kaytto tulostettavat',
     ],
-    titleTag: 'Kaupallinen lisenssi tulostettaville tehtaville — opas myyjille',
-    metaDescription: 'Ymmarra kaupalliset lisenssit tehtavien myymiseen Etsyssa, Amazon KDP:ssa ja muilla alustoilla. Kaksi lisenssitasoa selitettyna selkein oikeuksin ja rajoituksin.',
+    titleTag: 'Kaupallinen lisenssi tulostettaville tehtaville — opas...',
+    metaDescription: 'Ymmarra kaupalliset lisenssit tehtavien myymiseen Etsyssa, Amazon KDP:ssa ja muilla alustoilla.',
   },
 
   hero: {

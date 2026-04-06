@@ -6,7 +6,7 @@ const content: BlogContent = {
     secondaryKeywords: ['imprimibles fluidez matematica operaciones basicas negocio', 'imprimibles fluidez matematica operaciones basicas Etsy vender', 'imprimibles fluidez matematica operaciones basicas imprimibles rentable'],
     lsiKeywords: ['imprimibles fluidez fichas', 'vender imprimibles imprimibles', 'operaciones basicas educativos'],
     titleTag: 'Imprimibles de Fluidez Matematica | LCS',
-    metaDescription: 'La fluidez en operaciones matematicas basicas (suma, resta, multiplicacion, division) es una necesidad universal. Los ninos de primaria necesitan practicar',
+    metaDescription: 'La fluidez en operaciones matematicas basicas (suma, resta, multiplicacion, division) es una necesidad universal. Venda en Etsy & KDP con licencia comercial.',
   },
   hero: {
     title: 'Imprimibles de Fluidez Matematica: Un Nicho Evergreen',

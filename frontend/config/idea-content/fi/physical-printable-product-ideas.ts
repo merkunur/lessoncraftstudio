@@ -3,7 +3,7 @@ import type { IdeaContent } from '../types';
 const content: IdeaContent = {
   seo: {
     titleTag: 'Fyysiset tulostettavat tuoteideat myyntiin — Opas',
-    metaDescription: 'Fyysisten tulostettavien tuoteideoita Etsyn ja markkinamyyjille. Rakenna premium-liiketoiminta tulostamalla, laminoimalla ja lähettämällä käsin kosketeltavia työarkkituotteita.',
+    metaDescription: 'Fyysisten tulostettavien tuoteideoita Etsyn ja markkinamyyjille. Rakenna premium-liiketoiminta tulostamalla, laminoimalla ja lähettämällä käsin.',
 
     primaryKeyword: 'fyysiset tulostettavat tuoteideat',
     secondaryKeywords: [

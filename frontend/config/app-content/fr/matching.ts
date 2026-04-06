@@ -15,8 +15,7 @@ const content: AppContent = {
       '4 modes d\'association corrigé automatique 104 thèmes',
     ],
     titleTag: 'Fiches d\'appariement à vendre sur Etsy | LCS',
-    metaDescription:
-      'Créez des fiches d\'appariement à vendre sur Etsy & KDP. 4 modes, corrigé auto, 104 thèmes, licence commerciale. Testez gratuitement avec filigrane.',
+    metaDescription: 'Créez des fiches d\'appariement à vendre sur Etsy & KDP. 4 modes, corrigé auto, 104 thèmes, licence commerciale. 49 $ paiement unique.',
   },
 
   hero: {

@@ -14,7 +14,7 @@ const content: BlogContent = {
       'empreendedor digital educativo',
     ],
     titleTag: 'Guia Formatação Livro Atividades KDP | LCS',
-    metaDescription: 'A formatação é o maior obstáculo para novos autores no KDP. Margens incorretas, resolução baixa ou tamanho errado resultam em rejeição ou impressão de b...',
+    metaDescription: 'A formatação é o maior obstáculo para novos autores no KDP. Margens incorretas, resolução baixa ou tamanho errado resultam em rejeição ou impressão de b.',
   },
   hero: {
     title: 'Guia Formatação Livro Atividades KDP',

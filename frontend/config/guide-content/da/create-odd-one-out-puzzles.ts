@@ -18,7 +18,7 @@ const content: GuideContent = {
       'kommerciel licens find den forkerte-værktøj',
     ],
     titleTag: 'Find den forkerte-arbejdsark — Guide',
-    metaDescription: 'Skab find den forkerte-arbejdsark med Identisk og Lignende tilstande, per-øvelses overskrivninger og automatisk facit. Trin-for-trin guide til Etsy og KDP-sælgere.',
+    metaDescription: 'Skab find den forkerte-arbejdsark med Identisk og Lignende tilstande, per-øvelses overskrivninger og automatisk. Saelg pa Etsy & KDP med kommerciel licens.',
   },
 
   hero: {

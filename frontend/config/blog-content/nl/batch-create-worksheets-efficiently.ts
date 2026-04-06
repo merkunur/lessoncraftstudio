@@ -6,7 +6,7 @@ const content: BlogContent = {
     secondaryKeywords: ['printable werkbladen batch produceren', 'werkbladen werkbladen batch', 'printables how-to gids'],
     lsiKeywords: ['printable productie tips', 'werkbladen maken strategie', 'printable business how-to'],
     titleTag: 'Werkbladen Batch Produceren: Efficiënt Werken | LCS',
-    metaDescription: 'Werkbladen Batch Produceren: Efficiënt Werken. Stap-voor-stap instructies en praktische tips voor printable verkopers. Direct toepasbaar.',
+    metaDescription: 'Werkbladen Batch Produceren: Efficiënt Werken. Stap-voor-stap instructies en praktische tips voor printable. Verkoop op Etsy & KDP met commerciele licentie.',
   },
   hero: {
     title: 'Werkbladen Batch Produceren: Efficiënt Werken',

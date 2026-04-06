@@ -15,7 +15,7 @@ const content: ToolContent = {
       'alkukirjain kuva sana yhdistamis generaattori',
     ],
     titleTag: 'Yhdistämistehtävägeneraattori — Piirrä Viiva Generaattori',
-    metaDescription: 'Tee yhdistämistehtäviä 4 tilalla, automaattisella vastausavaimella yhdistysviivoin, konfiguroitavilla pareilla, 11 kieltä, 104 teemaa. Ilmainen kokeilu vesileimalla.',
+    metaDescription: 'Tee yhdistämistehtäviä 4 tilalla, automaattisella vastausavaimella yhdistysviivoin, konfiguroitavilla pareilla, 11 kieltä, 104 teemaa.',
   },
 
   hero: {

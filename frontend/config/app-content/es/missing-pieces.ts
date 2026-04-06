@@ -15,7 +15,7 @@ const content: AppContent = {
       'negocio fichas lógica visual mercado hispano',
     ],
     titleTag: 'Piezas faltantes para cuadernillos KDP | LCS',
-    metaDescription: 'Cree rompecabezas de piezas faltantes para vender en Etsy y KDP. Los niños completan imágenes. Licencia comercial incluida. Pruebe gratis.',
+    metaDescription: 'Cree rompecabezas de piezas faltantes para vender en Etsy y KDP. Los niños completan imágenes. Licencia comercial incluida. Pruebe gratis. 49 $ pago unico.',
   },
 
   hero: {

@@ -15,7 +15,7 @@ const content: AppContent = {
       '4×4-Raster drei Schwierigkeitsgrade visuell',
     ],
     titleTag: 'Bilder-Sudoku-Generator für KDP-Rätselbücher | LCS',
-    metaDescription: 'Bilder-Sudoku erstellen für KDP-Rätselbücher und Etsy — 4×4-Raster, drei Schwierigkeitsgrade, rein visuell. Kostenlos testen mit Wasserzeichen verfügbar.',
+    metaDescription: 'Bilder-Sudoku erstellen für KDP-Rätselbücher und Etsy — 4×4-Raster, drei Schwierigkeitsgrade, rein visuell. 49 $ einmalig.',
   },
 
   hero: {

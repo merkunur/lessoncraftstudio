@@ -16,8 +16,8 @@ const content: GuideContent = {
       'beskæringsindstillinger papirstørrelseskompatibilitet visuel konsistens brandstandarder',
       'anmeldelsesvurderinger købertillid produktionscheckliste kvalitetssikring',
     ],
-    titleTag: 'Kvalitetsstandarder arbejdsark sælgere har brug for — Checkliste',
-    metaDescription: 'Kvalitetsstandarder for arbejdsark som sælgere har brug for til professionelt output. Dækker opløsning, marginer, typografi, facit og udskriftstest til markedspladser.',
+    titleTag: 'Kvalitetsstandarder arbejdsark sælgere har brug for —...',
+    metaDescription: 'Kvalitetsstandarder for arbejdsark som sælgere har brug for til professionelt output.',
   },
 
   hero: {

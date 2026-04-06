@@ -15,7 +15,7 @@ const content: ToolContent = {
       'meertalige spellingpuzzel generator',
     ],
     titleTag: 'Door-elkaar-woorden gratis online | LessonCraftStudio',
-    metaDescription: 'Maak gratis letterpuzzel werkbladen online met gehusselde lettertegels, klinker-kleurcodering, 4 moeilijkheidsniveaus en 11 talen. Geen account nodig.',
+    metaDescription: 'Maak gratis letterpuzzel werkbladen online met gehusselde lettertegels, klinker-kleurcodering, 4. Verkoop op Etsy & KDP met commerciele licentie.',
   },
 
   hero: {

@@ -15,7 +15,7 @@ const content: BundleContent = {
       'licencia comercial rompecabezas múltiples plataformas',
     ],
     titleTag: 'Paquete rompecabezas para libros KDP | LCS',
-    metaDescription: 'Paquete de 5 generadores de rompecabezas para publicar en KDP y vender en Etsy. Sudoku, laberintos, intrusos y patrones. Licencia comercial incluida.',
+    metaDescription: 'Paquete de 5 generadores de rompecabezas para publicar en KDP y vender en Etsy. Sudoku, laberintos, intrusos y patrones. 149 $ pago unico.',
   },
 
   hero: {

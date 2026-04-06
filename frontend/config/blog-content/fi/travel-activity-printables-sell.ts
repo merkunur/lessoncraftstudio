@@ -14,7 +14,7 @@ const content: BlogContent = {
       'tulostettava myy',
     ],
     titleTag: 'Matka-aktiviteetti-tulosteet | LCS',
-    metaDescription: 'Myy matka-aktiviteetti-tulosteita. Perheet etsivat tekemista pitkille automatkoille ja lennoille. Ymparivuotinen kysynta.',
+    metaDescription: 'Myy matka-aktiviteetti-tulosteita. Perheet etsivat tekemista pitkille automatkoille ja lennoille. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
   },
   hero: {
     title: 'Matka-aktiviteetti-tulosteet: matkustavan perheen pelastaja',

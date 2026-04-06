@@ -6,7 +6,7 @@ const content: BlogContent = {
     secondaryKeywords: ['anagram arbeidsark selge', 'bokstavblanding Etsy', 'ordpuslespill utskrifter bedrift'],
     lsiKeywords: ['bokstav-mikser oppgaver', 'ordvirvlar utskrifter', 'språk puslespill salg'],
     titleTag: 'Bokstavblanding-utskrifter som forretning | LCS',
-    metaDescription: 'Bygg en lønnsom forretning med bokstavblanding-utskrifter. Produksjon, prissetting og salgskanaler for ordpuslespill.',
+    metaDescription: 'Bygg en lønnsom forretning med bokstavblanding-utskrifter. Produksjon, prissetting og salgskanaler for ordpuslespill. Selg pa Etsy & KDP med kommersiell lisens.',
   },
   hero: {
     title: 'Bokstavblanding-utskrifter som forretning',

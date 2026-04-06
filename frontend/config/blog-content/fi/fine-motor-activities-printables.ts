@@ -14,7 +14,7 @@ const content: BlogContent = {
       'tulostettava myy',
     ],
     titleTag: 'Hienomotoriikka-aktiviteetit tulosteina | LCS',
-    metaDescription: 'Myy hienomotoriikka-aktiviteetteja tulosteina. Kynankaytonharjoittelu on jokaisen lapsen tarve ennen koulua.',
+    metaDescription: 'Myy hienomotoriikka-aktiviteetteja tulosteina. Kynankaytonharjoittelu on jokaisen lapsen tarve ennen koulua. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
   },
   hero: {
     title: 'Hienomotoriikka-aktiviteetit tulosteina: vakaa markkina',

@@ -26,8 +26,7 @@ const content: AppContent = {
       'Kiwify',
     ],
     titleTag: 'Atividades de desenho e pintura para vender | LCS',
-    metaDescription:
-      'Crie atividades de desenho e pintura para vender na Hotmart, Etsy e KDP. 104 temas, canvas livre, licença comercial. Teste grátis com marca d\'água.',
+    metaDescription: 'Crie atividades de desenho e pintura para vender na Hotmart, Etsy e KDP. 104 temas, canvas livre, licença comercial. 49 $ pagamento unico.',
   },
 
   hero: {

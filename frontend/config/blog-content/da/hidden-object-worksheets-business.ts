@@ -6,7 +6,7 @@ const content: BlogContent = {
     secondaryKeywords: ['skjulte genstande arbejdsark Etsy', 'skjulte genstande arbejdsark online', 'skjulte genstande arbejdsark forretning'],
     lsiKeywords: ['printbar forretning Danmark', 'digital download salg', 'Etsy printables sælg'],
     titleTag: 'Skjulte Genstande Arbejdsark: Forretningsguide | LCS',
-    metaDescription: 'Skjulte genstande arbejdsark er et populært puslespilformat, hvor barnet finder skjulte objekter i en kompleks illustration. Formatet appellerer til alle a',
+    metaDescription: 'Skjulte genstande arbejdsark er et populært puslespilformat, hvor barnet finder skjulte objekter i en kompleks. Saelg pa Etsy & KDP med kommerciel licens.',
   },
   hero: {
     title: 'Skjulte Genstande Arbejdsark: Forretningsguide',

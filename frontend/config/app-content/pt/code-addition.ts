@@ -25,8 +25,7 @@ const content: AppContent = {
       'Kiwify',
     ],
     titleTag: 'Enigmas de adição codificada para vender | LCS',
-    metaDescription:
-      'Crie puzzles de adição codificada para vender na Hotmart, Etsy e KDP. Modo Palavra Revelada, 11 idiomas, gabarito incluso. Teste grátis com marca d\'água.',
+    metaDescription: 'Crie puzzles de adição codificada para vender na Hotmart, Etsy e KDP. Modo Palavra Revelada, 11 idiomas, gabarito incluso. 49 $ pagamento unico.',
   },
 
   hero: {

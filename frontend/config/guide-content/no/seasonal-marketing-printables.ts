@@ -6,7 +6,7 @@ const content: GuideContent = {
     secondaryKeywords: ['sesongbaserte arbeidsark salg', 'hoytidsmarkedsforing printables', 'sesongbasert produktplanlegging', 'sesongomsetning arbeidsark-virksomhet'],
     lsiKeywords: ['sesongbasert ettersporselssyklus', 'hoytids arbeidsark tidsbestemt', 'skolestart markedsforingskampanje', 'sesongbasert produktrotasjon'],
     titleTag: 'Sesongmarkedsforing for printables — Guide',
-    metaDescription: 'Utnytt sesongbasert ettersporsel for printable-virksomheten din. Tidsbestemmelse, produktplanlegging og markedsforing for hoytider, skolestart og arlige sykluser.',
+    metaDescription: 'Utnytt sesongbasert ettersporsel for printable-virksomheten din. Tidsbestemmelse, produktplanlegging og markedsforing for hoytider, skolestart og arlige.',
   },
   hero: {
     title: 'Sesongmarkedsforing for printable-virksomheten din',

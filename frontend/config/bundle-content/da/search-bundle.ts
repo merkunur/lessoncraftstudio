@@ -16,7 +16,7 @@ const content: BundleContent = {
       'masseproduktion søg og find arbejdsark værktøj',
     ],
     titleTag: 'Søg og Find Arbejdsark Pakke — 4 Generatorer — Sælgerguide',
-    metaDescription: 'Søg og find arbejdsark pakke med 4 generatorer: I Spy, skjulte objekter, krydsord og skattejagter. Sælg på Etsy, KDP, Gumroad. Kommerciel licens inkluderet.',
+    metaDescription: 'Søg og find arbejdsark pakke med 4 generatorer: I Spy, skjulte objekter, krydsord og skattejagter. Sælg på Etsy, KDP, Gumroad. $149 engangsbetaling.',
   },
 
   hero: {

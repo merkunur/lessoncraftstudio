@@ -15,8 +15,8 @@ const content: BundleContent = {
       'kaupallinen lisenssi yhdistelytyoarkit',
       'massatuotanto yhdistelytyoarkkityokalu',
     ],
-    titleTag: 'Yhdistelytyoarkkipaketti — 5 lajittelu- ja yhdiistelygeneraattoria',
-    metaDescription: 'Hanki 5 yhdistely- ja lajittelugeneraattoria yhdessa paketissa. Luo yhdistely-, ruudukkoyhdistely-, varjoyhdistely-, bingo- ja lajittelutyoarkkeja myyntiin.',
+    titleTag: 'Yhdistelytyoarkkipaketti — 5 lajittelu- ja...',
+    metaDescription: 'Hanki 5 yhdistely- ja lajittelugeneraattoria yhdessa paketissa. $149 kertamaksu.',
   },
 
   hero: {

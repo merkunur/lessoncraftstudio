@@ -15,7 +15,7 @@ const content: ToolContent = {
       'iso pieni -järjestysaktiviteetti esikouluun',
     ],
     titleTag: 'Kokovertailu-työkirja-generaattori — Lapsille — Myyjäopas',
-    metaDescription: 'Luo kokovertailu-työkirjoja esikouluun ja lastentarhaan. Viisi kysymystyyppiä, identtiset ja erilaiset kuvatilat, 104 teemaa. Ilmainen kokeilu vesileimalla.',
+    metaDescription: 'Luo kokovertailu-työkirjoja esikouluun ja lastentarhaan. Viisi kysymystyyppiä, identtiset ja erilaiset. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
   },
 
   hero: {

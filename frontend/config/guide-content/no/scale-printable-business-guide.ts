@@ -6,7 +6,7 @@ const content: GuideContent = {
     secondaryKeywords: ['voks printable-virksomhet', 'skalering arbeidsark-virksomhet', 'utvid printable-katalog', 'fra hobbyselger til fulltid printables'],
     lsiKeywords: ['katalogutvidelse strategi', 'multi-plattform skalering', 'flerspraklig omsetnings-multiplikasjon', 'effektiv produksjon arbeidsark', 'automatisert produktoppretting'],
     titleTag: 'Skaler printbar virksomhet — Guide',
-    metaDescription: 'Skaler printable-virksomheten din fra hobbyinntekt til fulltidssalg. Katalogutvidelse, multi-plattform distribusjon og effektive produksjonsprosesser.',
+    metaDescription: 'Skaler printable-virksomheten din fra hobbyinntekt til fulltidssalg. Selg pa Etsy & KDP med kommersiell lisens.',
   },
   hero: {
     title: 'Hvordan skalere printbar virksomheten din',

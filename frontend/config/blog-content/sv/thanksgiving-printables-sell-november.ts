@@ -14,7 +14,7 @@ const content: BlogContent = {
       'Etsy butik svenska',
     ],
     titleTag: 'Lucia- och Advent-Utskrifter: November | LCS',
-    metaDescription: 'Lucia och advent skapar en unik svensk försäljningsmöjlighet i november-december. Ljusfester, luciatåg och adventskalendrar.',
+    metaDescription: 'Lucia och advent skapar en unik svensk försäljningsmöjlighet i november-december. Salj pa Etsy & KDP med kommersiell licens.',
   },
   hero: {
     title: 'Lucia- och Advent-Utskrifter: November',

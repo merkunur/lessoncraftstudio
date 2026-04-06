@@ -14,7 +14,7 @@ const content: BlogContent = {
       'foersaeljningstopp skolstart',
     ],
     titleTag: 'Skolstarts-Rushen: Maximera Försäljning | LCS',
-    metaDescription: 'Skolstarten i augusti-september är årets största försäljningsperiod för utskrifter. Förbered din butik och maximera intäkterna.',
+    metaDescription: 'Skolstarten i augusti-september är årets största försäljningsperiod för utskrifter. Salj pa Etsy & KDP med kommersiell licens.',
   },
   hero: {
     title: 'Skolstarts-Rushen: Maximera Utskriftsförsäljningen',

@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Spesialundervisning utskriftsbare ideer til salg — nisjeguide',
+    titleTag: 'Spesialundervisning utskriftsbare ideer til salg —...',
     metaDescription: 'Oppdag lønnsomme spesialundervisning utskriftsbare ideer til salg på Etsy, Amazon KDP og Gumroad. Tilpassede læringsproduktideer og plattformtips for selgere.',
 
     primaryKeyword: 'spesialundervisning utskriftsbare ideer',

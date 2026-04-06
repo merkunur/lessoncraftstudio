@@ -26,8 +26,7 @@ const content: AppContent = {
       'classe prima',
     ],
     titleTag: 'Schede di addizione da vendere su Etsy | LCS',
-    metaDescription:
-      'Crea schede di addizione professionali da vendere su Etsy e KDP. Licenza commerciale inclusa. Prova gratis con filigrana — senza registrazione.',
+    metaDescription: 'Crea schede di addizione professionali da vendere su Etsy e KDP. Licenza commerciale inclusa. 49 $ pagamento unico.',
   },
 
   hero: {

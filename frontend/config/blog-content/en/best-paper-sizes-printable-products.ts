@@ -14,7 +14,7 @@ const content: BlogContent = {
       'global printable market sizes',
     ],
     titleTag: 'Letter vs A4: Best Paper Sizes for Printables | LCS',
-    metaDescription: 'Letter vs A4: which paper size should you use for printable products? How to offer both sizes and double your international market reach.',
+    metaDescription: 'Letter vs A4: which paper size should you use for printable products? How to offer both sizes and double your. Sell on Etsy, KDP & TPT with commercial license.',
   },
   hero: {
     title: 'Letter vs A4: Best Paper Sizes for Printable Products',

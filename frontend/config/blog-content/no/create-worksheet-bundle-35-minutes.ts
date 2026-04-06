@@ -5,7 +5,7 @@ const content: BlogContent = {
     secondaryKeywords: ['lag arbeidsark-pakke 35 minutter tips', 'lag arbeidsark-pakke 35 minutter guide', 'lag arbeidsark-pakke 35 minutter steg for steg'],
     lsiKeywords: ['arbeidsark produksjon', 'printable forretning guide', 'Etsy selger tutorial'],
     titleTag: 'Lag en arbeidsark-pakke på 35 minutter | LCS',
-    metaDescription: 'Denne steg-for-steg-guiden viser deg nøyaktig hvordan du lager en komplett arbeidsark-pakke på 35 minutter eller mindre. Fra valg av tema og vanskelig',
+    metaDescription: 'Denne steg-for-steg-guiden viser deg nøyaktig hvordan du lager en komplett arbeidsark-pakke på 35 minutter eller. Selg pa Etsy & KDP med kommersiell lisens.',
   },
   hero: {
     title: 'Lag en arbeidsark-pakke på 35 minutter',

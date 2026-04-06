@@ -15,7 +15,7 @@ const content: ToolContent = {
       'meertalige plaatjes cryptogram generator',
     ],
     titleTag: 'Cryptogram generator gratis online | LessonCraftStudio',
-    metaDescription: 'Maak gratis cryptogram puzzels online met plaatjescijfer-codering, Letters Onthullen moeilijkheidsregelaar, antwoordbladen en 104 thema\'s. Geen account nodig.',
+    metaDescription: 'Maak gratis cryptogram puzzels online met plaatjescijfer-codering, Letters Onthullen moeilijkheidsregelaar,. Verkoop op Etsy & KDP met commerciele licentie.',
   },
 
   hero: {

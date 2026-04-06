@@ -17,7 +17,7 @@ const content: GuideContent = {
       'volume recensioni posizionamento marketplace',
     ],
     titleTag: 'Ottenere recensioni per stampabili | LessonCraftStudio',
-    metaDescription: 'Come ottenere recensioni autentiche per i tuoi prodotti stampabili: strategie di follow-up, prova sociale e gestione feedback per crescere. Guida pratica.',
+    metaDescription: 'Come ottenere recensioni autentiche per i tuoi prodotti stampabili: strategie di follow-up, prova sociale e. Vendi su Etsy & KDP con licenza commerciale.',
   },
 
   hero: {

@@ -15,7 +15,7 @@ const content: ToolContent = {
       'minusräkning övningsblad förskoleklass',
     ],
     titleTag: 'Subtraktionsblad gratis online | LessonCraftStudio',
-    metaDescription: 'Skapa subtraktionsblad gratis online med överstrykning. 104 teman, 4 lägen, facit, tryckfärdiga PDF:er. Gratis provversion med vattenmärke.',
+    metaDescription: 'Skapa subtraktionsblad gratis online med överstrykning. 104 teman, 4 lägen, facit, tryckfärdiga PDF:er. Salj pa Etsy & KDP med kommersiell licens.',
   },
 
   hero: {

@@ -15,7 +15,7 @@ const content: ToolContent = {
       'flersproget stavningsaktivitet generator',
     ],
     titleTag: 'Gæt Ordet Arbejdsark Generator | Sælg Printables',
-    metaDescription: 'Generer gæt ordet arbejdsark med 4 sværhedsgrader, dobbelte indtastningstilstande, ekskluder bogstaver, 11 sprog og 104 temaer. Gratis prøveversion med vandmærke.',
+    metaDescription: 'Generer gæt ordet arbejdsark med 4 sværhedsgrader, dobbelte indtastningstilstande, ekskluder bogstaver, 11 sprog og. Saelg pa Etsy & KDP med kommerciel licens.',
   },
 
   hero: {

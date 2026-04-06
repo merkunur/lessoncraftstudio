@@ -3,7 +3,7 @@ import type { IdeaContent } from '../types';
 const content: IdeaContent = {
   seo: {
     titleTag: 'Dansk som andetsprog printbare idéer til salg — Nicheguide',
-    metaDescription: 'Opdag printbare idéer til dansk som andetsprog til salg på Etsy, Amazon KDP og Gumroad. Nichestrategier for sælgere rettet mod undervisere, tutorer og sprogindlærere.',
+    metaDescription: 'Opdag printbare idéer til dansk som andetsprog til salg på Etsy, Amazon KDP og Gumroad.',
 
     primaryKeyword: 'dansk som andetsprog printbare idéer',
     secondaryKeywords: [

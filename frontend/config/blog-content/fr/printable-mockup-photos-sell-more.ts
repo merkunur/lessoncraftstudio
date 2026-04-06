@@ -14,7 +14,7 @@ const content: BlogContent = {
       'outils mockup gratuits',
     ],
     titleTag: 'Photos mockup qui font vendre vos imprimables | LCS',
-    metaDescription: 'Créez des photos mockup professionnelles pour vos imprimables. Outils gratuits, techniques et exemples concrets.',
+    metaDescription: 'Créez des photos mockup professionnelles pour vos imprimables. Outils gratuits, techniques et exemples concrets. Vendez sur Etsy & KDP avec licence commerciale.',
   },
   hero: {
     title: 'Photos mockup qui font vendre vos imprimables',

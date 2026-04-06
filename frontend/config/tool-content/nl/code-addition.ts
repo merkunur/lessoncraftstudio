@@ -14,7 +14,7 @@ const content: ToolContent = {  seo: {
       'getalcode rekenactiviteit gratis maken',
     ],
     titleTag: 'Geheimschrift rekenpuzzels gratis | LessonCraftStudio',
-    metaDescription: 'Maak gratis geheimschrift rekenpuzzels online. Afbeeldingssymbolen, Normale en Woord Onthullen Modus, 11 talen en 104 thema\'s. Geen account nodig.',
+    metaDescription: 'Maak gratis geheimschrift rekenpuzzels online. Afbeeldingssymbolen, Normale en Woord Onthullen Modus, 11 talen. Verkoop op Etsy & KDP met commerciele licentie.',
     },
 
   hero: {

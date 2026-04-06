@@ -14,7 +14,7 @@ const content: BlogContent = {
       'tulostettava myy',
     ],
     titleTag: 'Ystavanpaivatulosteet: myyntiopas | LCS',
-    metaDescription: 'Myy ystavanpaiva-tulosteita helmikuussa. Suomessa ystavanpaiva on enemmaan ystavaen kuin romantiikan juhla.',
+    metaDescription: 'Myy ystavanpaiva-tulosteita helmikuussa. Suomessa ystavanpaiva on enemmaan ystavaen kuin romantiikan juhla. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
   },
   hero: {
     title: 'Ystavanpaivatulosteet: helmikuun myyntimahdollisuus',

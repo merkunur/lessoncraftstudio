@@ -14,8 +14,8 @@ const content: ToolContent = {
       'billedbaseret bogstavblanding arbejdsark værktøj',
       'flersproget stavepuslespil generator',
     ],
-    titleTag: 'Bogstavblanding Arbejdsark Generator | Lav og Sælg — Sælgerguide',
-    metaDescription: 'Generér bogstavblanding arbejdsark med blandede bogstavbrikker, billedledetråde, vokal-farvekodning, 4 sværhedsgrader, 11 sprog. Gratis prøveversion med vandmærke.',
+    titleTag: 'Bogstavblanding Arbejdsark Generator | LCS',
+    metaDescription: 'Generér bogstavblanding arbejdsark med blandede bogstavbrikker, billedledetråde, vokal-farvekodning, 4. Saelg pa Etsy & KDP med kommerciel licens.',
   },
 
   hero: {

@@ -6,7 +6,7 @@ const content: BlogContent = {
     secondaryKeywords: ['printable beste papierformaten printable', 'werkbladen beste papierformaten', 'printables how-to gids'],
     lsiKeywords: ['printable productie tips', 'werkbladen maken strategie', 'printable business how-to'],
     titleTag: 'Beste Papierformaten voor Printable Producten | LCS',
-    metaDescription: 'Beste Papierformaten voor Printable Producten. Stap-voor-stap instructies en praktische tips voor printable verkopers. Direct toepasbaar.',
+    metaDescription: 'Beste Papierformaten voor Printable Producten. Stap-voor-stap instructies en praktische tips voor printable. Verkoop op Etsy & KDP met commerciele licentie.',
   },
   hero: {
     title: 'Beste Papierformaten voor Printable Producten',

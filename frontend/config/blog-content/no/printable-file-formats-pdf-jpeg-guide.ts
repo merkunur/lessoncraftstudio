@@ -5,7 +5,7 @@ const content: BlogContent = {
     secondaryKeywords: ['printable filformater PDF JPEG guide tips', 'printable filformater PDF JPEG guide guide', 'printable filformater PDF JPEG guide steg for steg'],
     lsiKeywords: ['arbeidsark produksjon', 'printable forretning guide', 'Etsy selger tutorial'],
     titleTag: 'Filformater for printables: PDF vs JPEG | LCS',
-    metaDescription: 'PDF er standard for utskrifter, men noen kunder foretrekker JPEG. Denne guiden forklarer når du bør bruke hvilket format, papirstørrelser (A4 vs US Le',
+    metaDescription: 'PDF er standard for utskrifter, men noen kunder foretrekker JPEG. Selg pa Etsy & KDP med kommersiell lisens.',
   },
   hero: {
     title: 'Filformater for printables: PDF vs JPEG',

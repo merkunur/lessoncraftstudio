@@ -14,8 +14,8 @@ const content: ToolContent = {
       'bildebasert bokstavblanding arbeidsark verktøy',
       'flerspråklig stavepuslespill generator',
     ],
-    titleTag: 'Bokstavblanding Arbeidsark Generator | Lag og Selg — Selgerguide',
-    metaDescription: 'Generer bokstavblanding arbeidsark med blandede bokstavbrikker, bildeledetråder, vokal-fargekoding, 4 vanskelighetsgrader, 11 språk. Gratis prøveversjon med vannmerke.',
+    titleTag: 'Bokstavblanding Arbeidsark Generator | LCS',
+    metaDescription: 'Generer bokstavblanding arbeidsark med blandede bokstavbrikker, bildeledetråder, vokal-fargekoding, 4. Selg pa Etsy & KDP med kommersiell lisens.',
   },
 
   hero: {

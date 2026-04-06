@@ -14,7 +14,7 @@ const content: BlogContent = {
       'maximize printable product output',
     ],
     titleTag: 'Repurpose One Worksheet Into 5 Products | LCS',
-    metaDescription: 'Turn one worksheet design into 5 different products for Etsy and KDP. Repurposing strategies that multiply your catalog without extra design work.',
+    metaDescription: 'Repurpose worksheets into multiple products for Etsy and KDP. Turn one design into 5 listings that multiply your catalog without extra work.',
   },
   hero: {
     title: 'Repurpose One Worksheet Into 5 Different Products',

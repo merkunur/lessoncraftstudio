@@ -13,11 +13,11 @@ const content: BlogContent = {
       'TPT marketplace vs Etsy marketplace',
       'where to sell educational printables',
     ],
-    titleTag: 'TPT vs Etsy for Worksheets: Which Wins? | LCS',
+    titleTag: 'Teachers Pay Teachers vs Etsy: Selling Worksheets | LCS',
     metaDescription: 'TPT vs Etsy for selling worksheets: fees, traffic, buyer behavior, and revenue compared. Data-backed analysis to help you choose the right platform.',
   },
   hero: {
-    title: 'TPT vs Etsy for Worksheets: Which Platform Wins?',
+    title: 'Teachers Pay Teachers vs Etsy for Selling Worksheets: Which Wins?',
     tagline: 'Different platforms, different economics — here\'s the math',
     description: 'Teachers Pay Teachers and Etsy are the two biggest marketplaces for selling educational worksheets. TPT has a dedicated teacher audience but takes 20-45% of every sale. Etsy reaches a broader audience (parents, homeschoolers, tutors) but has higher competition. This comparison breaks down fees, traffic quality, buyer behavior, and real revenue potential on each platform so you can make a data-driven decision — or use both strategically.',
   },

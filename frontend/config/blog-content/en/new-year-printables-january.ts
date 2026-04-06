@@ -13,11 +13,11 @@ const content: BlogContent = {
       'january classroom printables sell',
       'winter break activity printables profit',
     ],
-    titleTag: 'New Year Printables: January Fresh Start | LCS',
+    titleTag: 'New Year Printables & Resolution Worksheets to Sell | LCS',
     metaDescription: 'New Year printables sell in January when parents and teachers want fresh-start activities. Learn which products convert in this short window.',
   },
   hero: {
-    title: 'New Year Printables: Cash In on January\'s Fresh Start',
+    title: 'New Year Printables & Resolution Worksheets to Sell in January',
     tagline: 'January is the "New Year\'s resolution" of printable buying — parents and teachers start fresh',
     description: 'January creates a unique buying moment in the printable market. After the Christmas rush, both parents and teachers enter the new year with fresh motivation: parents want to be more intentional about their child\'s education, and teachers return from winter break ready to refresh their classroom activities. New Year resolution worksheets, goal-setting activities, and "fresh start" classroom materials create a focused sales window in the first 2-3 weeks of January.',
   },

@@ -13,11 +13,11 @@ const content: BlogContent = {
       'sequencing activities printable',
       'AB pattern worksheets Etsy',
     ],
-    titleTag: 'Pattern Worksheets: The STEM Niche | LCS',
+    titleTag: 'Pattern Recognition Worksheets to Sell Online | LCS',
     metaDescription: 'Pattern recognition worksheets are the STEM printable niche nobody\'s talking about. Learn why this underserved category has strong demand and premium pricing.',
   },
   hero: {
-    title: 'Pattern Worksheets: The STEM Niche No One\'s Talking About',
+    title: 'Pattern Recognition Worksheets to Sell Online: The STEM Niche',
     tagline: 'STEM skills meet early childhood education in a profitable gap',
     description: 'Pattern recognition is the foundation of mathematical thinking, coding logic, and scientific observation. Every early childhood curriculum teaches patterns — AB patterns, ABC patterns, growing patterns, number patterns. Yet the printable market for pattern worksheets is dramatically underserved compared to counting or letter recognition. This represents a genuine STEM-education niche with premium pricing potential and minimal competition.',
   },

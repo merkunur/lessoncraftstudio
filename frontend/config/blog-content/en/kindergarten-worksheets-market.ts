@@ -13,11 +13,11 @@ const content: BlogContent = {
       'kindergarten literacy printables market',
       'K-1 worksheets business opportunity',
     ],
-    titleTag: 'The Kindergarten Worksheet Market: How Big? | LCS',
+    titleTag: 'Kindergarten Worksheets Market on Etsy (2026) | LCS',
     metaDescription: 'The kindergarten worksheet market is worth millions on Etsy. Discover market size, top products, pricing, and how to compete in this niche.',
   },
   hero: {
-    title: 'The Kindergarten Worksheet Market: How Big Is It?',
+    title: 'Kindergarten Worksheets Market Size on Etsy: How Big Is It?',
     tagline: 'Kindergarten is the second-largest age segment on Etsy after preschool',
     description: 'The kindergarten worksheet market represents one of the most lucrative opportunities in educational printables. Parents preparing children for kindergarten, kindergarten teachers needing classroom materials, and homeschool families running their own kindergarten programs all fuel consistent year-round demand. Unlike niche markets that require extensive keyword research, kindergarten worksheets benefit from massive organic search volume — millions of searches per month across Etsy, Google, and Amazon.',
   },

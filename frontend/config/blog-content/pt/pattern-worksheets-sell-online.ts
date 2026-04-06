@@ -4,9 +4,9 @@ const content: BlogContent = {
   seo: {
     primaryKeyword: 'fichas padrões vender online',
     secondaryKeywords: [
-      'pattern worksheets sell',
-      'fichas sequências lógicas negócio',
-      'atividades padrões imprimíveis vender',
+      'vantagem competitiva',
+      'precificação canais',
+      'marketing seo',
     ],
     lsiKeywords: [
       'sequência lógica crianças',

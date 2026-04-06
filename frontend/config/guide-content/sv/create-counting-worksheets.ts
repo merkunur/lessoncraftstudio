@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'skapa räkneblad att sälja på Etsy',
+    primaryKeyword: 'räkneblad sälja etsy hur skapar räkne diagramarbetsblad skapa',
     secondaryKeywords: [
       'bilddiagram arbetsblad generator',
       'skapa räkne- och diagramarbetsblad',

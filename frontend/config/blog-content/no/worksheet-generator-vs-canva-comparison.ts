@@ -2,7 +2,11 @@ import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
     primaryKeyword: 'arbeidsark generator eller Canva sammenligning 2026',
-    secondaryKeywords: ['arbeidsark generator eller Canva sammenligning tips', 'arbeidsark generator eller Canva sammenligning guide', 'arbeidsark generator eller Canva sammenligning steg for steg'],
+    secondaryKeywords: [
+      'steg steg gjennomføring',
+      'optimalisering finjustering',
+      'publisering markedsføring',
+    ],
     lsiKeywords: ['arbeidsark produksjon', 'printable forretning guide', 'Etsy selger tutorial'],
     titleTag: 'Arbeidsark-generator vs Canva: Sammenligning | LCS',
     metaDescription: 'Både Canva og dedikerte arbeidsark-generatorer kan lage utskrivbare produkter, men de har svært forskjellige styrker. Selg pa Etsy & KDP med kommersiell lisens.',

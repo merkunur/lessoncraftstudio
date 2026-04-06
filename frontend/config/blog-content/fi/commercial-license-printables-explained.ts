@@ -4,9 +4,9 @@ const content: BlogContent = {
   seo: {
     primaryKeyword: 'kaupallinen lisenssi tulosteet selitetty',
     secondaryKeywords: [
-      'kaupallinen lisenssi tulosteet selitetty opas',
-      'kaupallinen lisenssi tulosteet selitetty 2026',
-      'kaupallinen lisenssi tulosteet selitetty Suomi',
+      'kaytannoen toteutus vaihe vaiheelta',
+      'yleisimmat haasteet ratkaisut',
+      'mittaaminen optimointi',
     ],
     lsiKeywords: [
       'tulosteet liiketoiminta',

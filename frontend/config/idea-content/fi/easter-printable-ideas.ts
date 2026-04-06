@@ -5,7 +5,7 @@ const content: IdeaContent = {
     titleTag: 'Pääsiäisen tulostettavat ideat myyntiin — Nicheopas',
     metaDescription: 'Tutustu pääsiäisen tulostettaviin ideoihin myyntiin Etsyssä, Amazon KDP:ssä ja Gumroadissa. Kevätjuhlatuotekonseptit, kausistrategiat ja alustavinkit myyjille.',
 
-    primaryKeyword: 'pääsiäisen tulostettavat ideat',
+    primaryKeyword: 'pääsiäisen tulostettavat ideat myyntiin',
     secondaryKeywords: [
       'pääsiäistyöarkit myyntiin',
       'pääsiäisteemainen tulostettava liiketoiminta',

@@ -1,7 +1,7 @@
 import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'hoderegning printables selge 2026',
+    primaryKeyword: 'hoderegning utskrifter selg nett',
     secondaryKeywords: ['hoderegning printables selge Etsy', 'hoderegning printables selge strategi', 'hoderegning printables selge tips'],
     lsiKeywords: ['sesongbaserte utskrifter', 'utskrivbare arbeidsark nisje', 'printable selger Norge'],
     titleTag: 'Hoderegning-utskrifter: Selg på nett | LCS',

@@ -1,8 +1,12 @@
 import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'dyre-tema printables selge 2026',
-    secondaryKeywords: ['dyre-tema printables selge Etsy', 'dyre-tema printables selge strategi', 'dyre-tema printables selge tips'],
+    primaryKeyword: 'dyr temaet dyretema utskrifter evergreen',
+    secondaryKeywords: [
+      'norsk tilpasning unik vinkel',
+      'produktoppbygging prissetting',
+      'seo timing',
+    ],
     lsiKeywords: ['sesongbaserte utskrifter', 'utskrivbare arbeidsark nisje', 'printable selger Norge'],
     titleTag: 'Dyretema-utskrifter: En evergreen-nisje | LCS',
     metaDescription: 'Dyr er det mest populære temaet for utskrivbare arbeidsark på tvers av alle kategorier. Selg pa Etsy & KDP med kommersiell lisens.',

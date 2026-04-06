@@ -1,7 +1,7 @@
 import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'Etsy annonse optimalisering arbeidsark',
+    primaryKeyword: 'annonse optimaliser etsy annonser',
     secondaryKeywords: ['Etsy annonse optimalisering arbeidsark tips', 'Etsy annonse optimalisering arbeidsark strategi', 'Etsy annonse optimalisering arbeidsark 2026'],
     lsiKeywords: ['utskrivbare produkter forretning', 'printable selger strategi', 'digital nedlasting inntekt'],
     titleTag: 'Optimaliser Etsy-annonser for arbeidsark | LCS',

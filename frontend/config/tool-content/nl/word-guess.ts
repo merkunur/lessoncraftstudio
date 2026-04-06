@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'gratis woordraadspel maken',
+    primaryKeyword: 'woordraadspel gratis online maken raad woord werkbladen',
     secondaryKeywords: [
       'raad het woord werkbladen gratis online maken',
       'gratis woordraadsel werkblad generator',

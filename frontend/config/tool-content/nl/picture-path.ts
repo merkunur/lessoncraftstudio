@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'gratis doolhoven met afbeeldingen',
+    primaryKeyword: 'doolhoven gratis online afbeeldingen',
     secondaryKeywords: [
       'doolhof werkbladen online maken gratis',
       'afbeeldingspad doolhof generator gratis proberen',

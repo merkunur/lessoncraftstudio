@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'vergelijkingswerkbladen maken verkopen',
+    primaryKeyword: 'vergelijkingswerkbladen verkopen maken wereldwijd',
     secondaryKeywords: [
       'groot en klein werkbladen verkopen Etsy',
       'groottevergelijking werkbladen Amazon KDP',

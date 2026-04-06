@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'värityssivujen generaattori',
+    primaryKeyword: 'värityssivujen generaattori myy etsyssä kdp ssä luo värityssivuja',
     secondaryKeywords: [
       'värityssivujen generaattori myy Etsyssä ja KDP:ssä',
       'luo värityssivuja Etsy-kauppaan',

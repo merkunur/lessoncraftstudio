@@ -2,7 +2,7 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'Wie viel verdient man mit Druckvorlagen',
+    primaryKeyword: 'verdienst druckvorlagen verkauf realistische erwartungen',
     secondaryKeywords: [
       'Druckvorlagen-Geschäft Einkommenserwartungen',
       'realistische Einnahmen Druckvorlagen verkaufen',

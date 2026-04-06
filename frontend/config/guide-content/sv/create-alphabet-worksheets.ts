@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'skapa alfabetsblad att sälja på Etsy',
+    primaryKeyword: 'etsy sälj hur skapar',
     secondaryKeywords: [
       'skapa alfabetståg arbetsblad att sälja',
       'alfabetståg arbetsblad generator kommersiellt bruk',

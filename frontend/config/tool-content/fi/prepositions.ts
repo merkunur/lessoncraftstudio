@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'ilmainen prepositiotehtävägeneraattori',
+    primaryKeyword: 'ilmainen prepositiotehtävägeneraattori tee prepositiotehtäviä',
     secondaryKeywords: [
       'tee prepositiotehtäviä ilmaiseksi verkossa',
       'prepositiogeneraattori ilman rekisteröitymistä',

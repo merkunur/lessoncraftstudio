@@ -4,11 +4,11 @@ const content: GuideContent = {
   seo: {
     primaryKeyword: 'passive income with worksheets',
     secondaryKeywords: [
-      'passive income with worksheets 2026',
-      'earn passive income selling worksheets',
-      'worksheet passive income guide 2026',
-      'make money selling worksheets online',
-      'passive income printable business',
+      'build evergreen product catalog',
+      'diversify across revenue channels',
+      'create products sell year',
+      'leverage bundles higher revenue',
+      'expand multiple languages revenue',
     ],
     lsiKeywords: [
       'passive income digital products',

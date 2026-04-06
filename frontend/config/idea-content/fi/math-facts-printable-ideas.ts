@@ -5,7 +5,7 @@ const content: IdeaContent = {
     titleTag: 'Matemaattiset peruslaskut tulostettavat ideat myyntiin —...',
     metaDescription: 'Tutustu matemaattisten peruslaskujen tulostettaviin ideoihin myyntiin Etsyssä, Amazon KDP:ssä ja Gumroadilla.',
 
-    primaryKeyword: 'matemaattiset peruslaskut tulostettavat ideat',
+    primaryKeyword: 'tulostettavat ideat myyntiin matemaattisten peruslaskujen matemaattiset peruslaskut',
     secondaryKeywords: [
       'matemaattiset peruslaskutyöarkit myyntiin',
       'matematiikka tulostettava liiketoimintaideat',

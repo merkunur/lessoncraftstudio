@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'ilmainen sananhakugeneraattori kuvilla',
+    primaryKeyword: 'kuvilla ilmainen sananhakugeneraattori tee sananhakupalapelejä',
     secondaryKeywords: [
       'tee sananhakupalapelejä ilmaiseksi verkossa',
       'sananhakugeneraattori ilman rekisteröitymistä',

@@ -3,7 +3,11 @@ import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
     primaryKeyword: 'imprimibles invierno diciembre enero',
-    secondaryKeywords: ['imprimibles invierno diciembre enero negocio', 'imprimibles invierno diciembre enero Etsy vender', 'imprimibles invierno diciembre enero imprimibles rentable'],
+    secondaryKeywords: [
+      'tipos productos mayor demanda',
+      'seo palabras clave espanol',
+      'adaptaciones culturales region',
+    ],
     lsiKeywords: ['imprimibles invierno fichas', 'vender imprimibles imprimibles', 'diciembre enero educativos'],
     titleTag: 'Imprimibles de Invierno para Vender | LCS',
     metaDescription: 'El invierno genera demanda de imprimibles con temas de nieve, frio, animales de invierno y actividades de interior. En el hemisferio norte, diciembre a feb',

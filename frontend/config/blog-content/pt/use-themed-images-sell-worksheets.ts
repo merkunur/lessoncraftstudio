@@ -4,9 +4,9 @@ const content: BlogContent = {
   seo: {
     primaryKeyword: 'usar imagens temáticas vender fichas',
     secondaryKeywords: [
-      'usar imagens temáticas vender fichas passo a passo',
-      'usar imagens temáticas vender fichas tutorial',
-      'usar imagens temáticas vender fichas como fazer',
+      'passo passo',
+      'ferramentas necessárias',
+      'dicas avançadas',
     ],
     lsiKeywords: [
       'tutorial imprimíveis',

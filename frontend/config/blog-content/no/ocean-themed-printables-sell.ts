@@ -1,8 +1,12 @@
 import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'hav tema printables selge 2026',
-    secondaryKeywords: ['hav tema printables selge Etsy', 'hav tema printables selge strategi', 'hav tema printables selge tips'],
+    primaryKeyword: 'havtema utskrifter selg nett hav tema',
+    secondaryKeywords: [
+      'norsk tilpasning unik vinkel',
+      'produktoppbygging prissetting',
+      'seo timing',
+    ],
     lsiKeywords: ['sesongbaserte utskrifter', 'utskrivbare arbeidsark nisje', 'printable selger Norge'],
     titleTag: 'Havtema-utskrifter: Selg på nett | LCS',
     metaDescription: 'Havtemaer (fisk, delfiner, hvaler, korallrev) er populære hele året med en topp om sommeren. Selg pa Etsy & KDP med kommersiell lisens.',

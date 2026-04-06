@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'créer des jeux de l\'intrus à vendre',
+    primaryKeyword: 'intrus trouve jeux vendre comment',
     secondaryKeywords: [
       'générateur fiches trouve l\'intrus licence commerciale',
       'fiches discrimination visuelle à vendre Etsy et KDP',

@@ -2,7 +2,7 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'bedste vaerktojer for saelgere af printbare produkter',
+    primaryKeyword: 'bedste vaerktojer saelgere printbare produkter noedvendige ejere forretninger',
     secondaryKeywords: [
       'checkliste vaerktojer printbar forretning',
       'arbejdsarksgeneratorvaerktojer for saelgere',

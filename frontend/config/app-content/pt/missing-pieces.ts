@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'quebra-cabeça peças faltantes para apostilas KDP',
+    primaryKeyword: 'peças faltantes vender online crie quebra cabeças hotmart',
     secondaryKeywords: [
       'gerador de peças faltantes para vender na Hotmart',
       'atividades de puzzle visual para Etsy',

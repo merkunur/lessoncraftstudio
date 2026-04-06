@@ -2,7 +2,7 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'imprimíveis dinossauros vender perene',
+    primaryKeyword: 'dinossauros imprimíveis vender',
     secondaryKeywords: [
       'imprimíveis dinossauros vender perene negócio',
       'imprimíveis dinossauros vender perene vender',

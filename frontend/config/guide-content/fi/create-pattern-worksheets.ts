@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'kuviotyöarkit',
+    primaryKeyword: 'opas kuviotyöarkit työarkkeja luo',
     secondaryKeywords: ['kuviotyöarkkigeneraattori lapsille', 'tulostettavat hahmontunnistustyöarkit myyntiin', 'kuviojuna-aktiviteettiharjoitukset', 'mukautetut kuvioiden täyttötehtävät'],
     lsiKeywords: ['AB ABC AABB kuviotyypit visuaalisella kuvantunnistuksella', 'temaattiset kuviotyöarkit Etsyyn', 'Amazon KDP kuvioaktiviteettikirjat', 'kaupallinen lisenssi kuviotyökalu', 'peräkkäinen hahmontunnistus esikouluikäisille', 'kuvioiden jatkamisharjoitukset'],
     titleTag: 'Kuviotyöarkit — Opas',

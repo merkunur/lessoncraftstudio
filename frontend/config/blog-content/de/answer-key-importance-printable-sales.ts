@@ -2,7 +2,7 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'Loesungsblaetter Druckvorlagen Verkaeufe verdoppeln',
+    primaryKeyword: 'loesungsblaetter verkaeufe verdoppeln sind meisten',
     secondaryKeywords: ['Warum Loesungsblaetter Ihre Druckvorlagen-Verkaeufe verdoppeln Anleitung', 'Druckvorlagen Warum Guide', 'Arbeitsblatt Verkauf Tipps'],
     lsiKeywords: ['Druckvorlagen Geschaeft optimieren', 'Etsy Verkaeufer Tipps', 'Arbeitsblaetter professionell erstellen'],
     titleTag: 'Loesungsblaetter: Verkaeufe verdoppeln | LCS',

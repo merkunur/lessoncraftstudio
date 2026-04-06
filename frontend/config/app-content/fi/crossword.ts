@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'ristikko-palapeelin tekijä',
+    primaryKeyword: 'ristikko palapeelin tekijä myy etsyssä kdp ssä luo',
     secondaryKeywords: [
       'ristikko-palapeelin tekijä myyntiin Etsyssä ja KDP:ssä',
       'luo kuvaristikoita Etsyyn',

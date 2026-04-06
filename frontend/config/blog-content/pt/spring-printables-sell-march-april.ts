@@ -2,7 +2,7 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'imprimíveis primavera vender',
+    primaryKeyword: 'primavera imprimíveis vender',
     secondaryKeywords: [
       'imprimíveis primavera vender negócio',
       'imprimíveis primavera vender vender',

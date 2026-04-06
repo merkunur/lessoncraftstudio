@@ -2,7 +2,7 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'skapa utskrivbara laeroplanspaket',
+    primaryKeyword: 'skapa lär paket',
     secondaryKeywords: [
       'skapa utskrivbara läroplanspaket Etsy',
       'skapa utskrivbara foeretagande',

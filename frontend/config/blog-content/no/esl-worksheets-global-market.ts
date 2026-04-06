@@ -1,7 +1,7 @@
 import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'norskkurs arbeidsark globalt marked 2026',
+    primaryKeyword: 'norsk andrespråk globalt marked',
     secondaryKeywords: ['norskkurs arbeidsark globalt marked Etsy', 'norskkurs arbeidsark globalt marked strategi', 'norskkurs arbeidsark globalt marked tips'],
     lsiKeywords: ['sesongbaserte utskrifter', 'utskrivbare arbeidsark nisje', 'printable selger Norge'],
     titleTag: 'Norsk som andrespråk: Et globalt marked | LCS',

@@ -5,7 +5,7 @@ const content: IdeaContent = {
     titleTag: 'Imprimables IEF à vendre sur Etsy | LCS',
     metaDescription: 'Idées d\'imprimables pour l\'école à la maison à vendre sur Etsy, KDP et Gumroad. Stratégies de niche pour vendeurs ciblant les familles en IEF.',
 
-    primaryKeyword: 'imprimables IEF instruction à domicile vendre',
+    primaryKeyword: 'imprimables ief vendre etsy idées école maison vendeurs',
     secondaryKeywords: [
       'fiches école maison à vendre',
       'idées business imprimables IEF',

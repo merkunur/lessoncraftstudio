@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'yhdistämistehtävä generaattori Etsy-myyjille',
+    primaryKeyword: 'yhdistämistehtävä generaattori etsy myyjille luo yhdistämistyöarkkeja myyntiin etsyssä',
     secondaryKeywords: [
       'yhdistämistehtävä generaattori tulostettavaan liiketoimintaan',
       'luo yhdistämisharjoituksia Etsy-kauppaan',

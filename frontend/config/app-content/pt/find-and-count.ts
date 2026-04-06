@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'atividades de procurar e contar para vender na Etsy',
+    primaryKeyword: 'procure conte vender online crie atividades procurar contar',
     secondaryKeywords: [
       'gerador de procure e conte para Hotmart',
       'atividades de encontre e conte para Amazon KDP',

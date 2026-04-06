@@ -2,7 +2,7 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'smaabarnsaktivitets utskrifter saelj',
+    primaryKeyword: 'utskrifter småbarn småbarnsaktivitets sälj',
     secondaryKeywords: [
       'småbarnsaktivitets-utskrifter sälj Etsy',
       'småbarnsaktivitets-utskrifter sälj foeretagande',

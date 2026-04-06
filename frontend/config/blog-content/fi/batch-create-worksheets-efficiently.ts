@@ -2,11 +2,11 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'luo tyoarkit erina tehokkaasti',
+    primaryKeyword: 'luo tyoarkkeja erana tehokkaasti massatuotanto opas',
     secondaryKeywords: [
-      'luo tyoarkit erina tehokkaasti opas',
-      'luo tyoarkit erina tehokkaasti vaiheittain',
-      'luo tyoarkit erina tehokkaasti 2026',
+      'vaihe sisallon luominen generaattorilla',
+      'vaihe muotoilu paketointi',
+      'vaihe ilmoituksen luominen julkaisu',
     ],
     lsiKeywords: [
       'tulosteet liiketoiminta',

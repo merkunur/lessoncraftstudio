@@ -3,7 +3,11 @@ import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
     primaryKeyword: 'fichas palabras uso frecuente vocabulario visual',
-    secondaryKeywords: ['fichas palabras uso frecuente vocabulario visual negocio', 'fichas palabras uso frecuente vocabulario visual Etsy vender', 'fichas palabras uso frecuente vocabulario visual imprimibles rentable'],
+    secondaryKeywords: [
+      'tipos productos mayor demanda',
+      'seo palabras clave espanol',
+      'adaptaciones culturales region',
+    ],
     lsiKeywords: ['fichas palabras fichas', 'vender imprimibles fichas', 'vocabulario visual educativos'],
     titleTag: 'Fichas de Palabras de Uso Frecuente | LCS',
     metaDescription: 'Las palabras de uso frecuente (o "palabras de alta frecuencia") son fundamentales en el aprendizaje de la lectura. Venda en Etsy & KDP con licencia comercial.',

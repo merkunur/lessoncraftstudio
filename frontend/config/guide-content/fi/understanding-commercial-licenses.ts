@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'kaupalliset lisenssit tulostettaville',
+    primaryKeyword: 'kaupalliset lisenssit tulostettavien myy',
     secondaryKeywords: ['ymmärrä kaupalliset lisenssit tulostettavien tuotteille', 'kaupallinen lisenssi tyoarkkigeneraattoreille', 'tulostettavien myyntioikeudet kaupallinen lisenssi', 'kaupallisen lisenssin opas tulostettavien myyjille'],
     lsiKeywords: ['kaupallinen käyttöoikeus digitaaliset tuotteet', 'tekijanoikeudet tulostettavien myynnissä', 'lisenssityypit digitaalisille opetusresursseille'],
     titleTag: 'Kaupalliset lisenssit tulostettaville — Opas',

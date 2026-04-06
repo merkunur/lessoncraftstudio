@@ -3,7 +3,11 @@ import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
     primaryKeyword: 'imprimibles educativos padres primerizos',
-    secondaryKeywords: ['imprimibles educativos padres primerizos negocio', 'imprimibles educativos padres primerizos Etsy vender', 'imprimibles educativos padres primerizos imprimibles rentable'],
+    secondaryKeywords: [
+      'tipos productos mayor demanda',
+      'seo palabras clave espanol',
+      'adaptaciones culturales region',
+    ],
     lsiKeywords: ['imprimibles educativos fichas', 'vender imprimibles imprimibles', 'padres primerizos educativos'],
     titleTag: 'Imprimibles para Padres Primerizos | LCS',
     metaDescription: 'Los padres primerizos son uno de los segmentos de compradores mas activos en imprimibles educativos. Venda en Etsy & KDP con licencia comercial.',

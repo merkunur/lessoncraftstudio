@@ -2,7 +2,7 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'storleksjaemfoerelse arbetsblad saelj',
+    primaryKeyword: 'storleksjämförelse arbetsblad sälj',
     secondaryKeywords: [
       'storleksjämförelse-arbetsblad sälj Etsy',
       'storleksjämförelse-arbetsblad sälj foeretagande',

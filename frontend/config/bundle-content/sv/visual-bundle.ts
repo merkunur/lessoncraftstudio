@@ -2,7 +2,7 @@ import type { BundleContent } from '../types';
 
 const content: BundleContent = {
   seo: {
-    primaryKeyword: 'visuellt lärpaket för säljare',
+    primaryKeyword: 'visuellt lärpaket för säljare lärande paket',
     secondaryKeywords: [
       'målarbilder ritning arbetsblad generator paket för säljare',
       'visuella aktiviteter utskriftspaket kommersiell användning',

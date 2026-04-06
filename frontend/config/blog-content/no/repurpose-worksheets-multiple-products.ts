@@ -1,8 +1,12 @@
 import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'gjenbruk arbeidsark flere produkter 2026',
-    secondaryKeywords: ['gjenbruk arbeidsark flere produkter tips', 'gjenbruk arbeidsark flere produkter guide', 'gjenbruk arbeidsark flere produkter steg for steg'],
+    primaryKeyword: 'gjenbruk arbeid arbeidsark flere produkter',
+    secondaryKeywords: [
+      'steg steg gjennomføring',
+      'optimalisering finjustering',
+      'publisering markedsføring',
+    ],
     lsiKeywords: ['arbeidsark produksjon', 'printable forretning guide', 'Etsy selger tutorial'],
     titleTag: 'Gjenbruk arbeidsark til flere produkter | LCS',
     metaDescription: 'Smart gjenbruk multipliserer inntekten din uten ekstra arbeid. Selg pa Etsy & KDP med kommersiell lisens.',

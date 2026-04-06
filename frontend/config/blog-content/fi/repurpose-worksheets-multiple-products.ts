@@ -2,11 +2,11 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'uudelleenkayta tyoarkit useita tuotteita',
+    primaryKeyword: 'uudelleenkayta tyoarkkeja useiksi tuotteiksi',
     secondaryKeywords: [
-      'uudelleenkayta tyoarkit useita tuotteita opas',
-      'uudelleenkayta tyoarkit useita tuotteita vaiheittain',
-      'uudelleenkayta tyoarkit useita tuotteita 2026',
+      'vaihe sisallon luominen generaattorilla',
+      'vaihe muotoilu paketointi',
+      'vaihe ilmoituksen luominen julkaisu',
     ],
     lsiKeywords: [
       'tulosteet liiketoiminta',

@@ -1,7 +1,7 @@
 import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'skaler printable bedrift automatisering',
+    primaryKeyword: 'skaler printable bedriften automatisering',
     secondaryKeywords: ['skaler printable bedrift automatisering tips', 'skaler printable bedrift automatisering strategi', 'skaler printable bedrift automatisering 2026'],
     lsiKeywords: ['utskrivbare produkter forretning', 'printable selger strategi', 'digital nedlasting inntekt'],
     titleTag: 'Skaler printable-bedriften med automatisering | LCS',

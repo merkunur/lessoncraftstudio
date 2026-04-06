@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'skapa sorteringsblad att sälja',
+    primaryKeyword: 'arbetsblad skapa sorteringsblad sälja hur',
     secondaryKeywords: [
       'skapa sorteringsarbetsblad för barn',
       'bildsortering arbetsblad generator',

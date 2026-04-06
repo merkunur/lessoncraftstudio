@@ -2,7 +2,7 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'escalar negócio imprimíveis automação',
+    primaryKeyword: 'escalar negócio imprimíveis',
     secondaryKeywords: [
       'escalar negócio imprimíveis automação guia',
       'escalar negócio imprimíveis automação dicas',

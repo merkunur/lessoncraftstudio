@@ -3,7 +3,11 @@ import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
     primaryKeyword: 'niveles dificultad fichas productos escalonados',
-    secondaryKeywords: ['niveles dificultad fichas productos escalonados paso a paso', 'niveles dificultad fichas productos escalonados tutorial', 'niveles dificultad fichas productos escalonados guia practica'],
+    secondaryKeywords: [
+      'paso creacion contenido',
+      'paso compilacion formato',
+      'paso crear fotos listing',
+    ],
     lsiKeywords: ['niveles dificultad fichas tips', 'como niveles dificultad', 'productos escalonados facil'],
     titleTag: 'Niveles de Dificultad en Fichas | LCS',
     metaDescription: 'El mismo tipo de ficha en diferentes niveles de dificultad se convierte en multiples productos. Venda en Etsy & KDP con licencia comercial.',

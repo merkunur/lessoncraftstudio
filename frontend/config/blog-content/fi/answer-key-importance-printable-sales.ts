@@ -2,11 +2,11 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'vastausavain merkitys tulosteet myynti',
+    primaryKeyword: 'myy ssa vastausavaimen merkitys tulostemyynnissa',
     secondaryKeywords: [
-      'vastausavain merkitys tulosteet myynti opas',
-      'vastausavain merkitys tulosteet myynti vaiheittain',
-      'vastausavain merkitys tulosteet myynti 2026',
+      'vaihe sisallon luominen generaattorilla',
+      'vaihe muotoilu paketointi',
+      'vaihe ilmoituksen luominen julkaisu',
     ],
     lsiKeywords: [
       'tulosteet liiketoiminta',

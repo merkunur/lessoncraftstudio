@@ -4,9 +4,9 @@ const content: BlogContent = {
   seo: {
     primaryKeyword: 'Hotmart Kiwify vs Etsy fichas comparação',
     secondaryKeywords: [
-      'Hotmart Kiwify vs Etsy fichas comparação guia',
-      'Hotmart Kiwify vs Etsy fichas comparação dicas',
-      'Hotmart Kiwify vs Etsy fichas comparação estratégia',
+      'estratégias funcionam',
+      'mercado brasileiro internacional',
+      'ferramentas recursos',
     ],
     lsiKeywords: [
       'negócio imprimíveis digital',

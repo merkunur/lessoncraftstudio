@@ -3,7 +3,11 @@ import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
     primaryKeyword: 'Gumroad vs Etsy productos digitales',
-    secondaryKeywords: ['Gumroad vs Etsy guia', 'Gumroad vs Etsy productos digitales comparar', 'Gumroad vs Etsy productos digitales mejor opcion'],
+    secondaryKeywords: [
+      'trafico descubrimiento',
+      'control personalizacion',
+      'mejor uso plataforma',
+    ],
     lsiKeywords: ['Gumroad vs analisis', 'comparacion plataformas imprimibles', 'vender fichas online'],
     titleTag: 'Gumroad vs Etsy: Donde Vender sus Imprimibles | LCS',
     metaDescription: 'Comparacion detallada entre Gumroad y Etsy para vender imprimibles. Comisiones, trafico, control y cual es mejor para su negocio.',

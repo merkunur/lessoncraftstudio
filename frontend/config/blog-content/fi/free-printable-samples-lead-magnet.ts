@@ -4,9 +4,9 @@ const content: BlogContent = {
   seo: {
     primaryKeyword: 'ilmaiset tulosteet naytteet lead magnet',
     secondaryKeywords: [
-      'ilmaiset tulosteet naytteet lead magnet opas',
-      'ilmaiset tulosteet naytteet lead magnet vaiheittain',
-      'ilmaiset tulosteet naytteet lead magnet 2026',
+      'vaihe sisallon luominen generaattorilla',
+      'vaihe muotoilu paketointi',
+      'vaihe ilmoituksen luominen julkaisu',
     ],
     lsiKeywords: [
       'tulosteet liiketoiminta',

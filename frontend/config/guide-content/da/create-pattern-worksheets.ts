@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'skab mønsterarbejdsark',
+    primaryKeyword: 'sådan generator mønstergenkendelsesarbejdsark skab mønsterarbejdsark',
     secondaryKeywords: [
       'mønstergenkendelse arbejdsark til børn',
       'mønster arbejdsark generator',

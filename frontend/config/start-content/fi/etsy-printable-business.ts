@@ -2,7 +2,7 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'myy tulostettavia tuotteita Etsyssa',
+    primaryKeyword: 'myy tulostettavia tuotteita etsyssä täydellinen opas etsy tulostettavien',
     secondaryKeywords: [
       'Etsy tulostettavien liiketoiminta',
       'Etsy-kauppa tulostettaville tehtaville',

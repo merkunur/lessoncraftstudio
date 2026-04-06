@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'ordsoegning generator',
+    primaryKeyword: 'ordsøgning generator opret sælg ordpuslespil arbejdsark skjulte ord',
     secondaryKeywords: [
       'ordsoegningspuslespil arbejdsark sælg på Etsy',
       'ordsoegning generator til Amazon KDP udgivere',

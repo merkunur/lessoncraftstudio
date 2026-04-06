@@ -4,9 +4,9 @@ const content: BlogContent = {
   seo: {
     primaryKeyword: 'recherche mots-clés Etsy imprimables',
     secondaryKeywords: [
-      'tutoriel recherche mots-clés Etsy',
-      'guide pas à pas recherche mots-clés',
-      'comment recherche mots-clés Etsy',
+      'étape préparation',
+      'étape création production',
+      'étape optimisation publication',
     ],
     lsiKeywords: [
       'étapes recherche mots-clés',

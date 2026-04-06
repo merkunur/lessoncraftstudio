@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'varjoyhdistely-tehtavat generaattori',
+    primaryKeyword: 'varjoyhdistely tehtavia generaattori tehtavageneraattori',
     secondaryKeywords: [
       'varjoyhdistely-tehtavien generaattori myyjille',
       'tee siluettiyhdistely-tehtavia myyntiin',

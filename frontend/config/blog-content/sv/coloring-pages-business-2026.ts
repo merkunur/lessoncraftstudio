@@ -2,11 +2,11 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'maalarbilder foeretagande 2026',
+    primaryKeyword: 'målarbilder företag 2026',
     secondaryKeywords: [
-      'målarbilder företag 2026 Etsy',
-      'målarbilder företag foeretagande',
-      'utskrifter målarbilder företag',
+      'produkttyper säljer bäst',
+      'skapa professionella produkter snabbt',
+      'listnings marknadsföringsstrategi',
     ],
     lsiKeywords: [
       'utskriftsfoeretagande Sverige',

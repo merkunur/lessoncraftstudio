@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'find og tæl arbejdsark generator',
+    primaryKeyword: 'find tæl generator søgearbejdsark',
     secondaryKeywords: [
       'find og tæl arbejdsark generator for sælgere',
       'lav søge- og tællearbejdsark til salg',

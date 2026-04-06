@@ -2,7 +2,7 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'DSA arbejdsark globalt marked',
+    primaryKeyword: 'dsa arbejdsark voksende globalt marked',
     secondaryKeywords: ['DSA arbejdsark globalt marked Etsy', 'DSA arbejdsark globalt marked online', 'DSA arbejdsark globalt marked forretning'],
     lsiKeywords: ['printbar forretning Danmark', 'digital download salg', 'Etsy printables sælg'],
     titleTag: 'DSA-Arbejdsark: Et Voksende Globalt Marked | LCS',

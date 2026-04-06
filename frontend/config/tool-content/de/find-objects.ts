@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'kostenloser Suchbilder-Generator',
+    primaryKeyword: 'kostenloser suchbilder generator online kostenlos erstellen zwei aktivitätsmodi',
     secondaryKeywords: [
       'Suchbilder-Arbeitsblätter kostenlos erstellen',
       'Suchbilder-Generator online ohne Anmeldung',

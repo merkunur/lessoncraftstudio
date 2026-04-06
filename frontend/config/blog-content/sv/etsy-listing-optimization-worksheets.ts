@@ -2,7 +2,7 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'Etsy listningsoptimering arbetsblad',
+    primaryKeyword: 'etsy listningsoptimering för arbetsblad',
     secondaryKeywords: [
       'etsy listningsoptimering arbetsblad Etsy',
       'etsy listningsoptimering foeretagande',

@@ -3,7 +3,11 @@ import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
     primaryKeyword: 'muestras imprimibles lead magnet',
-    secondaryKeywords: ['muestras imprimibles lead magnet paso a paso', 'muestras imprimibles lead magnet tutorial', 'muestras imprimibles lead magnet guia practica'],
+    secondaryKeywords: [
+      'paso creacion contenido',
+      'paso compilacion formato',
+      'paso crear fotos listing',
+    ],
     lsiKeywords: ['muestras imprimibles lead tips', 'como muestras imprimibles', 'lead magnet facil'],
     titleTag: 'Muestras de Imprimibles como Lead Magnet | LCS',
     metaDescription: 'Ofrecer muestras de sus fichas como lead magnet es la estrategia mas efectiva para construir una lista de email de. Venda en Etsy & KDP con licencia comercial.',

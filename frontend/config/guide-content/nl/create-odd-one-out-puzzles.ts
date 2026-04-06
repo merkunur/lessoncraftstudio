@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'welke hoort er niet bij maken verkopen',
+    primaryKeyword: 'verkopen vreemde eend welke hoort puzzels',
     secondaryKeywords: [
       'vreemde eend werkbladen verkopen Etsy',
       'welke hoort er niet bij puzzelboek KDP',

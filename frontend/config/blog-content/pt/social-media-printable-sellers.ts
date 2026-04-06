@@ -4,9 +4,9 @@ const content: BlogContent = {
   seo: {
     primaryKeyword: 'redes sociais vendedores imprimíveis',
     secondaryKeywords: [
-      'redes sociais vendedores imprimíveis guia',
-      'redes sociais vendedores imprimíveis dicas',
-      'redes sociais vendedores imprimíveis estratégia',
+      'estratégias funcionam',
+      'mercado brasileiro internacional',
+      'ferramentas recursos',
     ],
     lsiKeywords: [
       'negócio imprimíveis digital',

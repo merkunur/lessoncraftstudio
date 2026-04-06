@@ -2,7 +2,7 @@ import type { BundleContent } from '../types';
 
 const content: BundleContent = {
   seo: {
-    primaryKeyword: 'pack appariement et tri pour boutique Etsy',
+    primaryKeyword: 'pack appariement tri etsy association',
     secondaryKeywords: [
       'pack générateurs fiches association tri pour vendeurs',
       'kit fiches association imprimables licence commerciale',

@@ -2,7 +2,11 @@ import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
     primaryKeyword: 'fargeleggingssider bedrift 2026 2026',
-    secondaryKeywords: ['fargeleggingssider bedrift 2026 Etsy', 'fargeleggingssider bedrift 2026 tips', 'fargeleggingssider bedrift 2026 strategi'],
+    secondaryKeywords: [
+      'produktoppbygging differensiering',
+      'prissetting pakkestrategier',
+      'etsy seo markedsføring',
+    ],
     lsiKeywords: ['utskrivbare arbeidsark salg', 'pedagogiske utskrifter forretning', 'Etsy digital nedlasting'],
     titleTag: 'Fargeleggingssider som forretning i 2026 | LCS',
     metaDescription: 'Fargeleggingssider som forretning i 2026. Produktstrategi, prissetting og markedsføringstips for Etsy og Undervisningsbyen.no i 2026.',

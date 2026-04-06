@@ -1,7 +1,7 @@
 import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'beste papirstørrelser printable produkter 2026',
+    primaryKeyword: 'printable papirstørrelse beste papirstørrelser produkter',
     secondaryKeywords: ['beste papirstørrelser printable produkter tips', 'beste papirstørrelser printable produkter guide', 'beste papirstørrelser printable produkter steg for steg'],
     lsiKeywords: ['arbeidsark produksjon', 'printable forretning guide', 'Etsy selger tutorial'],
     titleTag: 'Beste papirstørrelser for printable-produkter | LCS',

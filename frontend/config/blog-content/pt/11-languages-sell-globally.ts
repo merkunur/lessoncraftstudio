@@ -2,11 +2,11 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: '11 idiomas vender globalmente',
+    primaryKeyword: 'idiomas idioma venda globalmente',
     secondaryKeywords: [
-      '11 idiomas vender globalmente passo a passo',
-      '11 idiomas vender globalmente tutorial',
-      '11 idiomas vender globalmente como fazer',
+      'passo passo',
+      'ferramentas necessárias',
+      'dicas avançadas',
     ],
     lsiKeywords: [
       'tutorial imprimíveis',

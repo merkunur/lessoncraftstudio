@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'aakkosjuna tyoarkki generaattori',
+    primaryKeyword: 'aakkosjuna generaattori kirjain luo',
     secondaryKeywords: [
       'tulostettava aakkosjuna generaattori Etsy myyjille',
       'kirjaintunnistus tyoarkki generaattori KDP julkaisijoille',

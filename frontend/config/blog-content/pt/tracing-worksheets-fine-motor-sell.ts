@@ -4,9 +4,9 @@ const content: BlogContent = {
   seo: {
     primaryKeyword: 'fichas traçado motricidade fina vender',
     secondaryKeywords: [
-      'fichas treino motor fino imprimíveis',
-      'tracing worksheets sell online',
-      'atividades traçado pré-escrita negócio',
+      'progressão natural traçado',
+      'diferenciação temas visuais',
+      'mercado brasileiro internacional',
     ],
     lsiKeywords: [
       'coordenação motora fina fichas',

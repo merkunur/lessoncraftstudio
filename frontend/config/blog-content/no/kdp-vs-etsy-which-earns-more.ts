@@ -1,8 +1,12 @@
 import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'KDP eller Etsy hva tjener mest',
-    secondaryKeywords: ['KDP eller Etsy hva tjener mest tips', 'KDP eller Etsy hva tjener mest strategi', 'KDP eller Etsy hva tjener mest 2026'],
+    primaryKeyword: 'kdp etsy eller hva tjener',
+    secondaryKeywords: [
+      'praktisk gjennomføring',
+      'optimalisering måling',
+      'vanlige feil unngå',
+    ],
     lsiKeywords: ['utskrivbare produkter forretning', 'printable selger strategi', 'digital nedlasting inntekt'],
     titleTag: 'KDP eller Etsy: Hva tjener mest? | LCS',
     metaDescription: 'Både Amazon KDP og Etsy er lønnsomme plattformer for utskrivbare produkter, men de fungerer forskjellig. KDP gir passiv inntekt gjennom trykte bøker, ',

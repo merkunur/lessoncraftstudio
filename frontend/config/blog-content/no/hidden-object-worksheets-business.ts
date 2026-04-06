@@ -2,7 +2,11 @@ import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
     primaryKeyword: 'skjulte gjenstander arbeidsark bedrift 2026',
-    secondaryKeywords: ['skjulte gjenstander arbeidsark bedrift Etsy', 'skjulte gjenstander arbeidsark bedrift tips', 'skjulte gjenstander arbeidsark bedrift strategi'],
+    secondaryKeywords: [
+      'produktoppbygging differensiering',
+      'prissetting pakkestrategier',
+      'etsy seo markedsføring',
+    ],
     lsiKeywords: ['utskrivbare arbeidsark salg', 'pedagogiske utskrifter forretning', 'Etsy digital nedlasting'],
     titleTag: 'Skjulte gjenstander-arbeidsark som forretning | LCS',
     metaDescription: 'Skjulte gjenstander-arbeidsark som forretning. Produktstrategi, prissetting og markedsføringstips for Etsy og Undervisningsbyen.no i 2026.',

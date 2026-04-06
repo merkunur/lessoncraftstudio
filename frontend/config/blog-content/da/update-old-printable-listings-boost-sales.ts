@@ -2,7 +2,7 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'opdater gamle printable lister boost salg',
+    primaryKeyword: 'lister opdatere opdatér gamle listings',
     secondaryKeywords: ['opdater gamle printable lister boost salg Etsy', 'opdater gamle printable lister boost salg online', 'opdater gamle printable lister boost salg forretning'],
     lsiKeywords: ['printbar forretning Danmark', 'digital download salg', 'Etsy printables sælg'],
     titleTag: 'Opdatér Gamle Listings: Boost Dit Salg | LCS',

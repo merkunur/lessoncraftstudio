@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'ilmainen yhteenlaskutehtävien tekijä verkossa',
+    primaryKeyword: 'ilmainen yhteenlaskutehtävien tekijä verkossa tee yhteenlaskutehtäviä ilmaiseksi rekisteröitymistä',
     secondaryKeywords: [
       'tee yhteenlaskutehtäviä ilmaiseksi verkossa',
       'yhteenlaskutehtävägeneraattori ilman rekisteröitymistä',

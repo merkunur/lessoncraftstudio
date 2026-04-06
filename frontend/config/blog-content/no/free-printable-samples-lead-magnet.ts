@@ -1,7 +1,7 @@
 import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'gratis prøver printable lead magnet 2026',
+    primaryKeyword: 'gratis prøver lead magnet',
     secondaryKeywords: ['gratis prøver printable lead magnet tips', 'gratis prøver printable lead magnet guide', 'gratis prøver printable lead magnet steg for steg'],
     lsiKeywords: ['arbeidsark produksjon', 'printable forretning guide', 'Etsy selger tutorial'],
     titleTag: 'Gratis prøver som lead magnet | LCS',

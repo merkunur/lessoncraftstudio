@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'kostenloser Muster-Arbeitsblatt Generator',
+    primaryKeyword: 'kostenloser muster arbeitsblatt maker zug arbeitsblätter kostenlos erstellen',
     secondaryKeywords: [
       'Muster-Zug-Arbeitsblätter kostenlos erstellen',
       'Musterfolge-Generator ohne Anmeldung online',

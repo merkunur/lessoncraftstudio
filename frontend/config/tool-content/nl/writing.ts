@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'gratis schrijfwerkbladen generator',
+    primaryKeyword: 'schrijfwerkbladen gratis online',
     secondaryKeywords: [
       'schrijfoefeningen werkblad online maken',
       'letter-overtrek werkbladen gratis proberen',

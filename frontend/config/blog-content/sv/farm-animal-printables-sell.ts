@@ -2,7 +2,7 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'bondgaardsdjur utskrifter saelj',
+    primaryKeyword: 'bondgårdsdjur utskrifter sälj online',
     secondaryKeywords: [
       'bondgårdsdjur-utskrifter sälj online Etsy',
       'bondgårdsdjur-utskrifter sälj foeretagande',

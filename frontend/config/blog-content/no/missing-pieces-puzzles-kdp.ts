@@ -2,7 +2,11 @@ import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
     primaryKeyword: 'manglende brikker puslespill KDP 2026',
-    secondaryKeywords: ['manglende brikker puslespill KDP Etsy', 'manglende brikker puslespill KDP tips', 'manglende brikker puslespill KDP strategi'],
+    secondaryKeywords: [
+      'produktoppbygging differensiering',
+      'prissetting pakkestrategier',
+      'etsy seo markedsføring',
+    ],
     lsiKeywords: ['utskrivbare arbeidsark salg', 'pedagogiske utskrifter forretning', 'Etsy digital nedlasting'],
     titleTag: 'Manglende brikker-puslespill på KDP | LCS',
     metaDescription: 'Manglende brikker-puslespill på KDP. Produktstrategi, prissetting og markedsføringstips for Etsy og Undervisningsbyen.no i 2026.',

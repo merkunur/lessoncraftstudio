@@ -4,9 +4,9 @@ const content: BlogContent = {
   seo: {
     primaryKeyword: 'saknade bitar pussel KDP',
     secondaryKeywords: [
-      'saknade-bitar-pussel Etsy',
-      'saknade-bitar-pussel foeretagande',
-      'utskrifter saknade-bitar-pussel',
+      'produkttyper säljer bäst',
+      'skapa professionella produkter snabbt',
+      'listnings marknadsföringsstrategi',
     ],
     lsiKeywords: [
       'utskriftsfoeretagande Sverige',

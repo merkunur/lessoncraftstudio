@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'optimera försäljning lärmaterial online',
+    primaryKeyword: 'mer försäljning för gumroad',
     secondaryKeywords: [
       'hur man optimerar sin Gumroad-butik',
       'Gumroad sökalgoritm rankningsfaktorer',

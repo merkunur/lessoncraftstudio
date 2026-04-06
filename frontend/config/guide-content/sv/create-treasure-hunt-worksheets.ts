@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'skapa skattjakter att sälja',
+    primaryKeyword: 'skattjakt arbetsblad skapa skattjakter sälja online hur',
     secondaryKeywords: [
       'skapa skattjakt arbetsblad att sälja',
       'skattjakt arbetsblad generator kommersiellt bruk',

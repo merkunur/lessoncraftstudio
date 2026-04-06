@@ -2,11 +2,11 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'avaruusaihe tyoarkit liiketoiminta',
+    primaryKeyword: 'avaruusaihe avaruus tyoarkit liiketoiminta',
     secondaryKeywords: [
-      'avaruusaihe tyoarkit liiketoiminta opas',
-      'avaruusaihe tyoarkit liiketoiminta 2026',
-      'avaruusaihe tyoarkit liiketoiminta Suomi',
+      'tuotevalikoima teemat',
+      'suomalaisen myyjann kilpailuedut',
+      'hinnoittelu paketointi',
     ],
     lsiKeywords: [
       'tulosteet myynti',

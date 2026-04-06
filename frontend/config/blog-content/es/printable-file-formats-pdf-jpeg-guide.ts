@@ -3,7 +3,11 @@ import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
     primaryKeyword: 'formatos archivo imprimibles PDF JPEG guia',
-    secondaryKeywords: ['formatos archivo imprimibles PDF JPEG guia paso a paso', 'formatos archivo imprimibles PDF JPEG guia tutorial', 'formatos archivo imprimibles PDF JPEG guia guia practica'],
+    secondaryKeywords: [
+      'paso creacion contenido',
+      'paso compilacion formato',
+      'paso crear fotos listing',
+    ],
     lsiKeywords: ['formatos archivo imprimibles tips', 'como formatos archivo', 'JPEG guia facil'],
     titleTag: 'Formatos PDF vs JPEG para Imprimibles | LCS',
     metaDescription: 'PDF o JPEG? Esta es una pregunta comun entre vendedores nuevos de imprimibles. La respuesta corta es: PDF para fichas imprimibles y JPEG para previsualizac',

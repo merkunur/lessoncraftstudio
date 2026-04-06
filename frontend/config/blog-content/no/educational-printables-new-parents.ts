@@ -2,7 +2,11 @@ import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
     primaryKeyword: 'pedagogiske printables nye foreldre 2026',
-    secondaryKeywords: ['pedagogiske printables nye foreldre Etsy', 'pedagogiske printables nye foreldre strategi', 'pedagogiske printables nye foreldre tips'],
+    secondaryKeywords: [
+      'norsk tilpasning unik vinkel',
+      'produktoppbygging prissetting',
+      'seo timing',
+    ],
     lsiKeywords: ['sesongbaserte utskrifter', 'utskrivbare arbeidsark nisje', 'printable selger Norge'],
     titleTag: 'Pedagogiske utskrifter for nye foreldre | LCS',
     metaDescription: 'Nye foreldre er en svært verdifull kundegruppe. Når de først oppdager pedagogiske utskrifter, blir de ofte trofaste. Selg pa Etsy & KDP med kommersiell lisens.',

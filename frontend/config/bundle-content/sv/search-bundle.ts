@@ -2,7 +2,7 @@ import type { BundleContent } from '../types';
 
 const content: BundleContent = {
   seo: {
-    primaryKeyword: 'hitta och finn-paket för säljare',
+    primaryKeyword: 'hitta finn paket för säljare sök',
     secondaryKeywords: [
       'sök och hitta arbetsblad generator paket för säljare',
       'I Spy gömt objekt utskriftspaket kommersiell användning',

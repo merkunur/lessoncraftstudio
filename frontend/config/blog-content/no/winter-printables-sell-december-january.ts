@@ -1,8 +1,12 @@
 import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'vinter printables selge desember januar 2026',
-    secondaryKeywords: ['vinter printables selge desember januar Etsy', 'vinter printables selge desember januar strategi', 'vinter printables selge desember januar tips'],
+    primaryKeyword: 'vinter utskrifter selg desember januar',
+    secondaryKeywords: [
+      'norsk tilpasning unik vinkel',
+      'produktoppbygging prissetting',
+      'seo timing',
+    ],
     lsiKeywords: ['sesongbaserte utskrifter', 'utskrivbare arbeidsark nisje', 'printable selger Norge'],
     titleTag: 'Vinter-utskrifter: Selg i desember–januar | LCS',
     metaDescription: 'Vintertemaer er populære fra november til februar. Snøfnugg, ski, vinterklær og vinterdyr er temaer som selger godt både på Etsy og Undervisningsbyen.',

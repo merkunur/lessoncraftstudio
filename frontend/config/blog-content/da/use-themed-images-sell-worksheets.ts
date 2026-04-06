@@ -2,7 +2,7 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'brug temabilleder sælg arbejdsark',
+    primaryKeyword: 'billeder brug temabilleder sælge',
     secondaryKeywords: ['brug temabilleder sælg arbejdsark Etsy', 'brug temabilleder sælg arbejdsark online', 'brug temabilleder sælg arbejdsark forretning'],
     lsiKeywords: ['printbar forretning Danmark', 'digital download salg', 'Etsy printables sælg'],
     titleTag: 'Brug Temabilleder til at Sælge Mere | LCS',

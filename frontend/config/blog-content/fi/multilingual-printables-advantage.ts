@@ -2,7 +2,7 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'monikieliset tulosteet etu',
+    primaryKeyword: 'monikielisten tulosteiden etu kielta 11x markkina',
     secondaryKeywords: [
       'monikieliset tulosteet etu opas',
       'monikieliset tulosteet etu 2026',

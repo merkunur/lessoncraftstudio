@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'rutnätskopplingspussel för printables-verksamhet',
+    primaryKeyword: 'rutnätspussel sälja etsy skapa rutnätskopplingspussel kdp',
     secondaryKeywords: [
       'rutmatchning pussel för Etsy-säljare',
       'bildplattor pussel generator för Amazon KDP',

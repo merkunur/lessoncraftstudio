@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'marketing saisonnier pour vendeurs d\'imprimables',
+    primaryKeyword: 'marketing saisonnier imprimables calendrier vendeurs',
     secondaryKeywords: [
       'stratégie saisonnière activité imprimables',
       'marketing fiches vacances scolaires',

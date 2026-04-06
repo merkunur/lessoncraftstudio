@@ -4,9 +4,9 @@ const content: BlogContent = {
   seo: {
     primaryKeyword: 'créer cahier activités KDP de A à Z',
     secondaryKeywords: [
-      'tutoriel créer cahier activités',
-      'guide pas à pas créer cahier',
-      'comment créer cahier activités',
+      'étape préparation',
+      'étape création production',
+      'étape optimisation publication',
     ],
     lsiKeywords: [
       'étapes créer cahier',

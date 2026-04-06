@@ -2,7 +2,7 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'tulosteet tuotekuvaus mockupit',
+    primaryKeyword: 'mockup tulosteiden tuotekuvaus mockupit luo ammattimaisia',
     secondaryKeywords: [
       'tulosteet tuotekuvaus mockupit opas',
       'tulosteet tuotekuvaus mockupit vaiheittain',

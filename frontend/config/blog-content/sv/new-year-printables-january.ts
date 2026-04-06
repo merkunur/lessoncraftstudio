@@ -4,9 +4,9 @@ const content: BlogContent = {
   seo: {
     primaryKeyword: 'nyaar utskrifter januari',
     secondaryKeywords: [
-      'nyårs-utskrifter januari-försäljning Etsy',
-      'nyårs-utskrifter januari-försäljning foeretagande',
-      'utskrifter nyårs-utskrifter januari-försäljning',
+      'produkter säljer denna nisch',
+      'skapandeprocess verktyg',
+      'marknadsföring säsongsplanering',
     ],
     lsiKeywords: [
       'utskriftsfoeretagande Sverige',

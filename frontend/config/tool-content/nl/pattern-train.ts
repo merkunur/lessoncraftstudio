@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'gratis reeksen werkbladen generator',
+    primaryKeyword: 'werkbladen reeksen gratis online',
     secondaryKeywords: [
       'patroontrein werkbladen online maken',
       'reeksen herkennen werkbladen gratis proberen',

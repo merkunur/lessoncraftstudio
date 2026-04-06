@@ -2,7 +2,7 @@ import type { BundleContent } from '../types';
 
 const content: BundleContent = {
   seo: {
-    primaryKeyword: 'mattepaket generatorer för Etsy-säljare',
+    primaryKeyword: 'paket etsy säljare matte sälja',
     secondaryKeywords: [
       'matte utskriftspaket för säljare',
       'matte arbetsblad generator paket kommersiell användning',

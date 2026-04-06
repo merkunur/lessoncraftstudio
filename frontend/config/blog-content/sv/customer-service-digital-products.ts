@@ -4,9 +4,9 @@ const content: BlogContent = {
   seo: {
     primaryKeyword: 'kundservice digitala produkter',
     secondaryKeywords: [
-      'kundservice digitala produkter Etsy',
-      'kundservice digitala foeretagande',
-      'utskrifter kundservice digitala',
+      'optimering för framgång',
+      'tillväxtstrategier',
+      'mäta förbättra resultat',
     ],
     lsiKeywords: [
       'utskriftsfoeretagande Sverige',

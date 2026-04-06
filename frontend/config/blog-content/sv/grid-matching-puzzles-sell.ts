@@ -2,7 +2,7 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'rutnaatsmatchning pussel saelj',
+    primaryKeyword: 'rutnätsmatchning pussel sälj online',
     secondaryKeywords: [
       'rutnätsmatchning-pussel sälj online Etsy',
       'rutnätsmatchning-pussel sälj foeretagande',

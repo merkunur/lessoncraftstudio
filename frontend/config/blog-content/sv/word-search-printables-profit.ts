@@ -2,7 +2,7 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'ordsoek utskrifter vinst 2026',
+    primaryKeyword: 'ordsök utskrifter ger vinst guide skapar lönsam verksamhet',
     secondaryKeywords: ['saelj ordsoek arbetsblad Etsy', 'ordsoek-boecker Amazon KDP', 'utskrivbara ordsoek foeretagande'],
     lsiKeywords: ['ordsoek generator', 'ordpussel utskrifter', 'digitala ordsoek produkter'],
     titleTag: 'Ordsök-Utskrifter som Ger Vinst: Guide | LCS',

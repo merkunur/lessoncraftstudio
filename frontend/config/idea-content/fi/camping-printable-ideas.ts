@@ -5,7 +5,7 @@ const content: IdeaContent = {
     titleTag: 'Retkeilyaiheiset tulostettavat ideat myyntiin — Nicheopas',
     metaDescription: 'Tutustu retkeilyaiheisiin tulostettaviin ideoihin myyntiin Etsyssä, Amazon KDP:ssä ja Gumroadilla.',
 
-    primaryKeyword: 'retkeily tulostettavat ideat',
+    primaryKeyword: 'retkeilyaiheiset tulostettavat ideat myyntiin',
     secondaryKeywords: [
       'retkeilytyöarkit myyntiin',
       'retkeilyaktiviteettiarkit myyjille',

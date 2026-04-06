@@ -4,9 +4,9 @@ const content: BlogContent = {
   seo: {
     primaryKeyword: 'dolda objekt arbetsblad foeretagande',
     secondaryKeywords: [
-      'dolda-objekt-arbetsblad företagande Etsy',
-      'dolda-objekt-arbetsblad företagande foeretagande',
-      'utskrifter dolda-objekt-arbetsblad företagande',
+      'produkttyper säljer bäst',
+      'skapa professionella produkter snabbt',
+      'listnings marknadsföringsstrategi',
     ],
     lsiKeywords: [
       'utskriftsfoeretagande Sverige',

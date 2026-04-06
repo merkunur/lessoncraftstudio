@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'passiv inkomst med arbetsblad 2026',
+    primaryKeyword: 'passiv inkomst arbetsblad 2026 skapa återkommande intäkt',
     secondaryKeywords: [
       'arbetsbladverksamhet inkomst',
       'tjäna pengar på att sälja arbetsblad',

@@ -2,12 +2,12 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'mukautettu varityssivugeneraattori',
+    primaryKeyword: 'värityssivugeneraattori mukautettu',
     secondaryKeywords: [
-      'varityssivugeneraattori myyjille',
-      'mukautetut varitystehtavat verkossa',
-      'varityssivugeneraattori kotikouluun',
-      'tulostettavat varityssivut lapsille verkossa',
+      'värityssivugeneraattori',
+      'näin teet mukautettuja värityssivuja vaiheessa',
+      'avaa värityssivugeneraattori',
+      'aseta sivun asettelu kehys',
     ],
     lsiKeywords: [
       'tuotevalikoiman varityssivusuunnittelija verkossa',

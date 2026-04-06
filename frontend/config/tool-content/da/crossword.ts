@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'billedkrydsord generator til udskrift',
+    primaryKeyword: 'billedkrydsord generator krydsordspuslespil',
     secondaryKeywords: [
       'krydsord med billeder online',
       'lav billedkrydsord arbejdsark',

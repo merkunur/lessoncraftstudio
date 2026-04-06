@@ -3,7 +3,11 @@ import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
     primaryKeyword: 'Editorial MD Hotmart vs Etsy para fichas',
-    secondaryKeywords: ['Editorial MD Hotmart guia', 'Editorial MD Hotmart vs Etsy para fichas comparar', 'Editorial MD Hotmart vs Etsy para fichas mejor opcion'],
+    secondaryKeywords: [
+      'modelo ingresos plataforma',
+      'trafico visibilidad',
+      'vender plataforma',
+    ],
     lsiKeywords: ['Editorial MD analisis', 'comparacion plataformas imprimibles', 'vender fichas online'],
     titleTag: 'Editorial MD, Hotmart vs Etsy: Donde Vender Fichas | LCS',
     metaDescription: 'Comparar Editorial MD Hotmart con Etsy para vender fichas educativas en el mercado hispanohablante.',

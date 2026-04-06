@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'crear dibujos para colorear que se vendan en Etsy',
+    primaryKeyword: 'colorear etsy venden crear dibujos',
     secondaryKeywords: [
       'cómo crear páginas para colorear vendibles en Etsy',
       'diseñar dibujos para colorear imprimibles negocio Etsy',

@@ -2,7 +2,7 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'jaljennostehtavat hienomotoriikka myynti',
+    primaryKeyword: 'myy jaljennostehtavat hienomotoriikka hienomotoriikan',
     secondaryKeywords: ['pisteviivatehtavat lapsille myy', 'hienomotoriikka tulosteet Etsy', 'jaljentaminen esikouluikaisille'],
     lsiKeywords: ['kynankaytonharjoittelu', 'motorinen kehitys tyoarkit', 'visuomotorinen koordinaatio'],
     titleTag: 'Jaljennostehtavat hienomotoriikka: myy | LCS',

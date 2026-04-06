@@ -1,7 +1,7 @@
 import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'valentinsdag printables selge 2026',
+    primaryKeyword: 'valentinsdag utskrifter selg hjertetema',
     secondaryKeywords: ['valentinsdag printables selge Etsy', 'valentinsdag printables selge strategi', 'valentinsdag printables selge tips'],
     lsiKeywords: ['sesongbaserte utskrifter', 'utskrivbare arbeidsark nisje', 'printable selger Norge'],
     titleTag: 'Valentinsdag-utskrifter: Selg med hjertetema | LCS',

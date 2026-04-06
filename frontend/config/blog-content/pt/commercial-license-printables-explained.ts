@@ -4,9 +4,9 @@ const content: BlogContent = {
   seo: {
     primaryKeyword: 'licença comercial imprimíveis explicada',
     secondaryKeywords: [
-      'licença comercial imprimíveis explicada guia',
-      'licença comercial imprimíveis explicada dicas',
-      'licença comercial imprimíveis explicada estratégia',
+      'estratégias funcionam',
+      'mercado brasileiro internacional',
+      'ferramentas recursos',
     ],
     lsiKeywords: [
       'negócio imprimíveis digital',

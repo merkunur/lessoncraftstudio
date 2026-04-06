@@ -4,9 +4,9 @@ const content: BlogContent = {
   seo: {
     primaryKeyword: 'imprimables éducatifs nouveaux parents',
     secondaryKeywords: [
-      'vendre imprimables imprimables éducatifs nouveaux',
-      'fiches imprimables éducatifs Etsy',
-      'créer imprimables imprimables éducatifs',
+      'types produits vendent',
+      'stratégie seo marketing',
+      'adaptations marché français',
     ],
     lsiKeywords: [
       'marché imprimables éducatifs',

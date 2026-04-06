@@ -4,9 +4,9 @@ const content: BlogContent = {
   seo: {
     primaryKeyword: 'importância gabarito vendas imprimíveis',
     secondaryKeywords: [
-      'importância gabarito vendas imprimíveis passo a passo',
-      'importância gabarito vendas imprimíveis tutorial',
-      'importância gabarito vendas imprimíveis como fazer',
+      'passo passo',
+      'ferramentas necessárias',
+      'dicas avançadas',
     ],
     lsiKeywords: [
       'tutorial imprimíveis',

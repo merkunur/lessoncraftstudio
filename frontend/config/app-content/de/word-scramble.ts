@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'Buchstabensalat-Generator für Etsy-Printable-Business',
+    primaryKeyword: 'buchstabensalat etsy für business erstellen generator rätsel',
     secondaryKeywords: [
       'Buchstabensalat-Arbeitsblätter für Etsy-Shop erstellen',
       'Buchstaben-Rätsel-Bücher für Amazon KDP',

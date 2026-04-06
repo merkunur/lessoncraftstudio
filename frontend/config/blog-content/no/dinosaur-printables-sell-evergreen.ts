@@ -1,8 +1,12 @@
 import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'dinosaur printables selge evergreen 2026',
-    secondaryKeywords: ['dinosaur printables selge evergreen Etsy', 'dinosaur printables selge evergreen strategi', 'dinosaur printables selge evergreen tips'],
+    primaryKeyword: 'dinosaur utskrifter evergreen favoritt',
+    secondaryKeywords: [
+      'norsk tilpasning unik vinkel',
+      'produktoppbygging prissetting',
+      'seo timing',
+    ],
     lsiKeywords: ['sesongbaserte utskrifter', 'utskrivbare arbeidsark nisje', 'printable selger Norge'],
     titleTag: 'Dinosaur-utskrifter: En evergreen-favoritt | LCS',
     metaDescription: 'Dinosaur-temaer er blant de mest stabile og ettertraktede for utskrivbare arbeidsark. Selg pa Etsy & KDP med kommersiell lisens.',

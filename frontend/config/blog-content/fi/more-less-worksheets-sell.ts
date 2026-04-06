@@ -4,9 +4,9 @@ const content: BlogContent = {
   seo: {
     primaryKeyword: 'enemman vahemman tyoarkit myy',
     secondaryKeywords: [
-      'enemman vai vahemman tehtavat',
-      'vertailu tulosteet lapsille Etsy',
-      'lukumaara vertailu tyoarkit',
+      'tuotetyypit vaikeustasot',
+      'hinnoittelu paketointi',
+      'markkinointi avainsanat',
     ],
     lsiKeywords: [
       'matemaattinen vertailu',

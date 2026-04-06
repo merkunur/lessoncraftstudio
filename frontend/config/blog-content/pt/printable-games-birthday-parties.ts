@@ -4,9 +4,9 @@ const content: BlogContent = {
   seo: {
     primaryKeyword: 'jogos imprimíveis festas aniversário',
     secondaryKeywords: [
-      'jogos imprimíveis festas aniversário negócio',
-      'jogos imprimíveis festas aniversário vender',
-      'jogos imprimíveis festas aniversário Etsy',
+      'produtos mais vendem neste',
+      'estratégia preço pacotes',
+      'marketing seo este nicho',
     ],
     lsiKeywords: [
       'imprimíveis sazonais vender',

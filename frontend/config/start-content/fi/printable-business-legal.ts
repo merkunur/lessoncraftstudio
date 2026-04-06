@@ -2,7 +2,7 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'tulostettavien tuotteiden myynti verovaatimukset',
+    primaryKeyword: 'tulostettavien tuotteiden myynti verovaatimukset verotus juridiset perusteet liiketoiminnalle',
     secondaryKeywords: [
       'juridiset perusteet tulostettavien liiketoiminta',
       'verovelvoitteet digitaaliset tuotteet',

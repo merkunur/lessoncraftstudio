@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'skapa diagramblad att sälja',
+    primaryKeyword: 'diagram bilddiagram arbetsblad skapa diagramblad sälja online',
     secondaryKeywords: [
       'skapa bilddiagram arbetsblad att sälja',
       'diagram räkning arbetsblad generator kommersiellt bruk',

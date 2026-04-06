@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'kostenloser Präpositionen-Generator',
+    primaryKeyword: 'kostenloser präpositionen generator arbeitsblätter kostenlos erstellen',
     secondaryKeywords: [
       'Präpositionen-Arbeitsblätter kostenlos erstellen',
       'Ortspräpositionen-Generator online ohne Anmeldung',

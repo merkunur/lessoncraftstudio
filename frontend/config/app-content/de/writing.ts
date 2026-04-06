@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'Schreibübungen-Generator für Etsy-Verkäufer',
+    primaryKeyword: 'schreibübungen generator für etsy verkäufer erstellen kdp verkaufen',
     secondaryKeywords: [
       'Handschrift-Übungsblätter für Etsy-Shop erstellen',
       'Schreibübungen-Hefte für Amazon KDP',

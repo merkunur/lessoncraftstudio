@@ -5,7 +5,7 @@ const content: IdeaContent = {
     titleTag: 'Imprimables de Noël pour Etsy | LCS',
     metaDescription: 'Idées d\'imprimables de Noël à vendre sur Etsy, KDP & Gumroad. Concepts de produits festifs, stratégies saisonnières et conseils pour les vendeurs.',
 
-    primaryKeyword: 'imprimables de Noël à vendre sur Etsy',
+    primaryKeyword: 'imprimables noël etsy idées activité imprimable vendeurs',
     secondaryKeywords: [
       'fiches de Noël à vendre',
       'idées activité imprimable fêtes de fin d\'année',

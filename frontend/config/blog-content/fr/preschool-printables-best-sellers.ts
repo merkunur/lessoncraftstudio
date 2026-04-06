@@ -4,9 +4,9 @@ const content: BlogContent = {
   seo: {
     primaryKeyword: 'imprimables maternelle best sellers',
     secondaryKeywords: [
-      'vendre imprimables imprimables maternelle best',
-      'fiches imprimables maternelle Etsy',
-      'créer imprimables imprimables maternelle',
+      'types produits vendent',
+      'stratégie seo marketing',
+      'adaptations marché français',
     ],
     lsiKeywords: [
       'marché imprimables maternelle',

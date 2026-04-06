@@ -2,7 +2,7 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'flersprakiga utskrifter foerdel',
+    primaryKeyword: 'flerspråkiga utskrifters fördel utskrifter',
     secondaryKeywords: [
       'flerspråkiga utskrifters fördel Etsy',
       'flerspråkiga utskrifters foeretagande',

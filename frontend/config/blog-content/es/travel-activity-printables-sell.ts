@@ -3,7 +3,11 @@ import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
     primaryKeyword: 'imprimibles actividades viaje ninos',
-    secondaryKeywords: ['imprimibles actividades viaje ninos negocio', 'imprimibles actividades viaje ninos Etsy vender', 'imprimibles actividades viaje ninos imprimibles rentable'],
+    secondaryKeywords: [
+      'tipos productos mayor demanda',
+      'seo palabras clave espanol',
+      'adaptaciones culturales region',
+    ],
     lsiKeywords: ['imprimibles actividades fichas', 'vender imprimibles imprimibles', 'viaje ninos educativos'],
     titleTag: 'Imprimibles de Actividades para Viajes | LCS',
     metaDescription: 'Los viajes largos con ninos son un desafio universal. Los padres buscan actividades portatiles que mantengan a los. Venda en Etsy & KDP con licencia comercial.',

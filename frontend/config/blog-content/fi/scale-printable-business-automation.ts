@@ -2,7 +2,7 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'skaalaa tulosteet liiketoiminta automaatio',
+    primaryKeyword: 'skaalaa tulosteliiketoiminta automaatiolla tulosteliiketoiminnan skaalaus liiketoiminta automaatio',
     secondaryKeywords: [
       'skaalaa tulosteet liiketoiminta automaatio opas',
       'skaalaa tulosteet liiketoiminta automaatio 2026',

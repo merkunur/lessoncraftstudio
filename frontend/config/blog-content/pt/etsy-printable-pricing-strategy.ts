@@ -2,7 +2,7 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'estratégia preços imprimíveis Etsy',
+    primaryKeyword: 'imprimíveis preço estratégia preços etsy',
     secondaryKeywords: [
       'estratégia preços imprimíveis Etsy guia',
       'estratégia preços imprimíveis Etsy dicas',

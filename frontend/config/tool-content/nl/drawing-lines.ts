@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'gratis trekwerkbladen fijne motoriek',
+    primaryKeyword: 'werkbladen trekwerkbladen gratis online maak lijntraceer',
     secondaryKeywords: [
       'lijnen trekken werkbladen online maken',
       'trekwerkbladen fijne motoriek gratis proberen',

@@ -2,7 +2,7 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'Schwierigkeitsgrade Arbeitsblaetter 3x Produkte',
+    primaryKeyword: 'schwierigkeitsgrade produkt nutzen mehr produkte',
     secondaryKeywords: ['Schwierigkeitsgrade nutzen fuer 3x mehr Produkte Anleitung', 'Druckvorlagen Schwierigkeitsgrade Guide', 'Arbeitsblatt Verkauf Tipps'],
     lsiKeywords: ['Druckvorlagen Geschaeft optimieren', 'Etsy Verkaeufer Tipps', 'Arbeitsblaetter professionell erstellen'],
     titleTag: 'Schwierigkeitsgrade nutzen fuer 3x mehr Produkte | LCS',

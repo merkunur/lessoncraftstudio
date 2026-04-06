@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'crear anagramas imprimibles para negocio en Etsy',
+    primaryKeyword: 'anagramas imprimibles etsy kdp genere fichas vender hotmart',
     secondaryKeywords: [
       'generador de letras revueltas para vender en Etsy',
       'fichas de anagramas para Amazon KDP',

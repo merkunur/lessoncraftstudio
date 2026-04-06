@@ -2,7 +2,7 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'créer des fiches multilingues à vendre',
+    primaryKeyword: 'fiches langues multilingue multilingues vendre comment créer',
     secondaryKeywords: [
       'créer des fiches en plusieurs langues',
       'fiches imprimables multilingues',

@@ -2,7 +2,7 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'Druckvorlagen Geschaeft Einkommen realistisch',
+    primaryKeyword: 'druckvorlagen geschaeft realistische',
     secondaryKeywords: [
       'mit Druckvorlagen Geld verdienen realistisch',
       'Etsy Druckvorlagen Einnahmen Erwartungen',

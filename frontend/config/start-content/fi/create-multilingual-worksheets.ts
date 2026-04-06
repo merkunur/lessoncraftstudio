@@ -2,7 +2,7 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'monikielinen tehtavageneraattori',
+    primaryKeyword: 'tehtäviä kielellä monikielinen tehtävägeneraattori näin',
     secondaryKeywords: [
       'luo tehtavia useilla kielilla',
       'monikieliset tulostettavat tehtavat',

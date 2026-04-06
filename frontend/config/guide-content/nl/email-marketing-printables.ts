@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'e-mailmarketing voor printables-verkopers',
+    primaryKeyword: 'mailmarketing verkopers printable printables',
     secondaryKeywords: [
       'e-maillijst opbouwen printable bedrijf',
       'nieuwsbrief strategie werkbladen verkopen',

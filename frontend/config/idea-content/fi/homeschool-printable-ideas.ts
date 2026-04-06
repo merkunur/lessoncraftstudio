@@ -5,7 +5,7 @@ const content: IdeaContent = {
     titleTag: 'Kotikoulun tulostettavat ideat myyntiin — Nicheopas',
     metaDescription: 'Tutustu kotikoulun tulostettaviin ideoihin myyntiin Etsyssä, Amazon KDP:ssä ja Gumroadilla. Tuotekonseptit, alustastrategiat ja vinkit myyjille.',
 
-    primaryKeyword: 'kotikoulu tulostettavat ideat',
+    primaryKeyword: 'kotikoulun tulostettavat ideat myyntiin',
     secondaryKeywords: [
       'kotikoulutyöarkit myyntiin',
       'kotikoulu tulostettava liiketoimintaideat',

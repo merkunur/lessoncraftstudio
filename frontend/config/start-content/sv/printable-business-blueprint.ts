@@ -2,7 +2,7 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'steg-för-steg printables-verksamhet',
+    primaryKeyword: 'för utskriftsbar idé steg printables affärsplan',
     secondaryKeywords: [
       'utskriftsbar affärsplan för säljare',
       'lönsamma utskriftsbara produktidéer',

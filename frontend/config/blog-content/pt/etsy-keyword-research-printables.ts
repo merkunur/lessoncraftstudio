@@ -4,9 +4,9 @@ const content: BlogContent = {
   seo: {
     primaryKeyword: 'pesquisa palavras-chave Etsy imprimíveis',
     secondaryKeywords: [
-      'pesquisa palavras-chave Etsy imprimíveis passo a passo',
-      'pesquisa palavras-chave Etsy imprimíveis tutorial',
-      'pesquisa palavras-chave Etsy imprimíveis como fazer',
+      'passo passo',
+      'ferramentas necessárias',
+      'dicas avançadas',
     ],
     lsiKeywords: [
       'tutorial imprimíveis',

@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'skapa ritblad att sälja',
+    primaryKeyword: 'sälj ritnings symmetriarbetsblad ritblad sälja hur',
     secondaryKeywords: [
       'rutnätsritning arbetsblad för barn',
       'symmetriarbetsblad generator',

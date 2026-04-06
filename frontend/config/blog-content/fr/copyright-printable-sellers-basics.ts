@@ -4,9 +4,9 @@ const content: BlogContent = {
   seo: {
     primaryKeyword: 'droit auteur vendeurs imprimables',
     secondaryKeywords: [
-      'propriété intellectuelle fiches',
-      'protéger imprimables droit auteur France',
-      'copyright fiches exercices',
+      'utiliser cliparts',
+      'protéger créations',
+      'statut juridique france',
     ],
     lsiKeywords: [
       'DMCA retrait fiches copiées',

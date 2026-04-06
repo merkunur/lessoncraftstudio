@@ -5,7 +5,7 @@ const content: IdeaContent = {
     titleTag: 'Esikouluikäisten tulostettavat ideat myyntiin — Nicheopas',
     metaDescription: 'Tutustu esikouluikäisten tulostettaviin ideoihin myyntiin Etsyssä, Amazon KDP:ssä ja Gumroadilla. Tuotekonseptit 3–5-vuotiaille ja nichestrategiat myyjille.',
 
-    primaryKeyword: 'esikoulu tulostettavat ideat',
+    primaryKeyword: 'esikouluikäisten tulostettavat ideat myyntiin',
     secondaryKeywords: [
       'esikoulutyöarkit myyntiin',
       'esikoulutulostettava liiketoimintaideat',

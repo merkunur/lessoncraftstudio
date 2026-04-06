@@ -5,7 +5,7 @@ const content: IdeaContent = {
     titleTag: 'Printables kalas — Verksamhet | LessonCraftStudio',
     metaDescription: 'Utskriftsbara festartiklar-affärsidéer för Etsy-säljare. Skapa tematiska festpaket, födelsedagsspel, firande-arbetsblad och säsongsbetonade evenemang-utskriftsb',
 
-    primaryKeyword: 'printables kalas idéer verksamhet',
+    primaryKeyword: 'utskriftsbara festartiklar printables kalas',
     secondaryKeywords: [
       'utskriftsbara festartiklar att sälja',
       'festdekoration utskriftsbart företag',

@@ -2,7 +2,7 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'luo opetussuunnitelma paketit tulosteet',
+    primaryKeyword: 'opetussuunnitelmapaketit tulosteina luo premium',
     secondaryKeywords: [
       'luo opetussuunnitelma paketit tulosteet opas',
       'luo opetussuunnitelma paketit tulosteet vaiheittain',

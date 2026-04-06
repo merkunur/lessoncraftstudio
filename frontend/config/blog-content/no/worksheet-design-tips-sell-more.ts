@@ -2,7 +2,11 @@ import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
     primaryKeyword: 'arbeidsark design tips selg mer 2026',
-    secondaryKeywords: ['arbeidsark design tips selg mer tips', 'arbeidsark design tips selg mer guide', 'arbeidsark design tips selg mer steg for steg'],
+    secondaryKeywords: [
+      'steg steg gjennomføring',
+      'optimalisering finjustering',
+      'publisering markedsføring',
+    ],
     lsiKeywords: ['arbeidsark produksjon', 'printable forretning guide', 'Etsy selger tutorial'],
     titleTag: 'Arbeidsark-designtips som øker salget | LCS',
     metaDescription: 'Designet på arbeidsarkene dine påvirker salget direkte. Denne guiden dekker designprinsipper som gjør produktene. Selg pa Etsy & KDP med kommersiell lisens.',

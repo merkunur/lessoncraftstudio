@@ -2,7 +2,7 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'sommaraktivitets utskrifter saelj',
+    primaryKeyword: 'sommaraktivitets utskrifter sälj',
     secondaryKeywords: [
       'sommaraktivitets-utskrifter sälj Etsy',
       'sommaraktivitets-utskrifter sälj foeretagande',

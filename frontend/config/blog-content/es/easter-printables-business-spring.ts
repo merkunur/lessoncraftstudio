@@ -3,7 +3,11 @@ import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
     primaryKeyword: 'imprimibles Semana Santa Pascua primavera',
-    secondaryKeywords: ['imprimibles Semana Santa Pascua primavera negocio', 'imprimibles Semana Santa Pascua primavera Etsy vender', 'imprimibles Semana Santa Pascua primavera imprimibles rentable'],
+    secondaryKeywords: [
+      'tipos productos mayor demanda',
+      'seo palabras clave espanol',
+      'adaptaciones culturales region',
+    ],
     lsiKeywords: ['imprimibles Semana fichas', 'vender imprimibles imprimibles', 'Pascua primavera educativos'],
     titleTag: 'Imprimibles de Semana Santa y Pascua | LCS',
     metaDescription: 'Semana Santa y Pascua representan una temporada de ventas significativa en el mundo hispanohablante. Venda en Etsy & KDP con licencia comercial.',

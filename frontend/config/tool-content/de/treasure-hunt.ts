@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'kostenloser Schatzsuche-Generator',
+    primaryKeyword: 'kostenloser schatzsuche generator arbeitsblätter kostenlos erstellen online tool',
     secondaryKeywords: [
       'Schatzsuche-Arbeitsblätter kostenlos erstellen',
       'Schatzsuche-Generator online ohne Anmeldung',

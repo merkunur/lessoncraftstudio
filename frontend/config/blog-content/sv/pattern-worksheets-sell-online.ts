@@ -2,7 +2,7 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'moenster arbetsblad saelj online',
+    primaryKeyword: 'mönster arbetsblad sälj online',
     secondaryKeywords: [
       'mönster-arbetsblad sälj online Etsy',
       'mönster-arbetsblad sälj foeretagande',

@@ -1,7 +1,7 @@
 import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'Etsy printable prisstrategi',
+    primaryKeyword: 'printable prisstrategi etsy printables',
     secondaryKeywords: ['Etsy printable prisstrategi tips', 'Etsy printable prisstrategi strategi', 'Etsy printable prisstrategi 2026'],
     lsiKeywords: ['utskrivbare produkter forretning', 'printable selger strategi', 'digital nedlasting inntekt'],
     titleTag: 'Prisstrategi for Etsy-printables | LCS',

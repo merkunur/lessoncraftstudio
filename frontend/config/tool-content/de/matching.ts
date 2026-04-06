@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'kostenloser Zuordnungs-Arbeitsblatt-Generator',
+    primaryKeyword: 'kostenloser zuordnungs arbeitsblatt maker arbeitsblätter kostenlos erstellen online',
     secondaryKeywords: [
       'Zuordnungs-Arbeitsblätter kostenlos erstellen',
       'Paare-Verbinden-Generator online ohne Anmeldung',

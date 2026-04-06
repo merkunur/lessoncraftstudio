@@ -3,7 +3,11 @@ import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
     primaryKeyword: 'imprimibles Accion Gracias Dia Muertos noviembre',
-    secondaryKeywords: ['imprimibles Accion Gracias Dia Muertos noviembre negocio', 'imprimibles Accion Gracias Dia Muertos noviembre Etsy vender', 'imprimibles Accion Gracias Dia Muertos noviembre imprimibles rentable'],
+    secondaryKeywords: [
+      'tipos productos mayor demanda',
+      'seo palabras clave espanol',
+      'adaptaciones culturales region',
+    ],
     lsiKeywords: ['imprimibles Accion fichas', 'vender imprimibles imprimibles', 'Muertos noviembre educativos'],
     titleTag: 'Imprimibles para Noviembre: Gracias y Dia de Muertos | LCS',
     metaDescription: 'Noviembre combina dos festividades con alta demanda de imprimibles: el Dia de Muertos en Mexico (1-2 noviembre) y el Dia de Accion de Gracias en Estados Un',

@@ -2,7 +2,7 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'ordsøgning printables fortjeneste sælg online',
+    primaryKeyword: 'ordsøgning printables fortjeneste opbyg profitabel forretning',
     secondaryKeywords: [
       'sælg ordsøgning arbejdsark Etsy',
       'ordsøgning puslespil forretning',

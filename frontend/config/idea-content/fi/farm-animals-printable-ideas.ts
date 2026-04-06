@@ -5,7 +5,7 @@ const content: IdeaContent = {
     titleTag: 'Maatilaeläin tulostettavat ideat myyntiin — Nicheopas',
     metaDescription: 'Tutustu kannattaviin maatilaeläinaiheisiin tulostettaviin ideoihin myyntiin Etsyssä, Amazon KDP:ssä ja Gumroadilla.',
 
-    primaryKeyword: 'maatilaeläin tulostettavat ideat',
+    primaryKeyword: 'maatilaeläin tulostettavat ideat myyntiin',
     secondaryKeywords: [
       'maatilaeläin työarkit myyntiin',
       'maatilateemainen tulostettava liiketoiminta',

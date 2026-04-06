@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Digitale vs physische Druckvorlagen Vergleich',
+    primaryKeyword: 'digital physisch druckvorlagen digitale physische vergleich',
     secondaryKeywords: [
       'Print-on-Demand oder digitaler Download wählen',
       'Gewinnmarge digitale Printables vergleichen',

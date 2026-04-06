@@ -4,9 +4,9 @@ const content: BlogContent = {
   seo: {
     primaryKeyword: 'produktfotografering mockups utskrifter',
     secondaryKeywords: [
-      'produktfotografering mockups Etsy',
-      'produktfotografering mockups foeretagande',
-      'utskrifter produktfotografering mockups',
+      'steg för steg guide',
+      'vanliga misstag undvika',
+      'avancerade tips',
     ],
     lsiKeywords: [
       'utskriftsfoeretagande Sverige',

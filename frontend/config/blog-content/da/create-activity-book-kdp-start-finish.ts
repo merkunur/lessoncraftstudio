@@ -2,7 +2,7 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'opret aktivitetsbog KDP start til slut',
+    primaryKeyword: 'kdp aktivitetsbog start slut amazon mest',
     secondaryKeywords: ['opret aktivitetsbog KDP start til slut Etsy', 'opret aktivitetsbog KDP start til slut online', 'opret aktivitetsbog KDP start til slut sælg'],
     lsiKeywords: ['printbar forretning', 'digital download salg', 'Etsy printables'],
     titleTag: 'Aktivitetsbog til KDP: Start til Slut | LCS',

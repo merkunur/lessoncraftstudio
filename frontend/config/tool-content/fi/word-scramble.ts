@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'ilmainen kirjainsekoitusgeneraattori',
+    primaryKeyword: 'verkossa ssa ilmainen kirjainsekoitusgeneraattori tee kirjainsekoitustehtäviä',
     secondaryKeywords: [
       'tee kirjainsekoitustehtäviä ilmaiseksi verkossa',
       'sanansekoitusgeneraattori ilman rekisteröitymistä',

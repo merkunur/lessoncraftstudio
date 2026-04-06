@@ -3,7 +3,11 @@ import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
     primaryKeyword: 'fichas tematica comida alimentos vender',
-    secondaryKeywords: ['fichas tematica comida alimentos vender negocio', 'fichas tematica comida alimentos vender Etsy vender', 'fichas tematica comida alimentos vender imprimibles rentable'],
+    secondaryKeywords: [
+      'tipos productos mayor demanda',
+      'seo palabras clave espanol',
+      'adaptaciones culturales region',
+    ],
     lsiKeywords: ['fichas tematica fichas', 'vender imprimibles fichas', 'alimentos vender educativos'],
     titleTag: 'Fichas de Alimentos y Comida para Vender | LCS',
     metaDescription: 'Las fichas con tematica de alimentos combinan educacion nutritiva con actividades educativas. Venda en Etsy & KDP con licencia comercial.',

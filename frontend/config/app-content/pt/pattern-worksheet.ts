@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'atividades de reconhecimento de padrões para vendedores Etsy',
+    primaryKeyword: 'atividades padrões vender online crie hotmart etsy kdp',
     secondaryKeywords: [
       'gerador de atividades de padrões para Hotmart',
       'exercícios de padrões visuais para Amazon KDP',

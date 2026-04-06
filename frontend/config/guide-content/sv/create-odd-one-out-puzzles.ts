@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'skapa vilken hör inte hemma att sälja',
+    primaryKeyword: 'hitta udda vilken hör hur',
     secondaryKeywords: [
       'skapa hitta udda bilden-pussel att sälja',
       'visuell diskriminering arbetsblad generator',

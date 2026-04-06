@@ -2,7 +2,7 @@ import type { BundleContent } from '../types';
 
 const content: BundleContent = {
   seo: {
-    primaryKeyword: 'pack générateurs visuels pour vendeurs',
+    primaryKeyword: 'pack visuels vendeurs imprimables apprentissage visuel',
     secondaryKeywords: [
       'pack générateur fiches coloriage dessin pour vendeurs',
       'toolkit activités visuelles imprimables licence commerciale',

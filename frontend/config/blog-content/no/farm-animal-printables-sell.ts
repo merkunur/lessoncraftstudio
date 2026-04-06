@@ -1,7 +1,7 @@
 import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'bondegårdsdyr printables selge 2026',
+    primaryKeyword: 'bondegårdsdyr utskrifter selg nett',
     secondaryKeywords: ['bondegårdsdyr printables selge Etsy', 'bondegårdsdyr printables selge strategi', 'bondegårdsdyr printables selge tips'],
     lsiKeywords: ['sesongbaserte utskrifter', 'utskrivbare arbeidsark nisje', 'printable selger Norge'],
     titleTag: 'Bondegårdsdyr-utskrifter: Selg på nett | LCS',

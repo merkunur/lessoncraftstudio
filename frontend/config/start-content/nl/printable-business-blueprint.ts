@@ -2,7 +2,7 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'stappenplan printables-business',
+    primaryKeyword: 'stappenplan printables business idee inkomen printable',
     secondaryKeywords: [
       'printable bedrijf blauwdruk Nederland',
       'printable bedrijfsplan voor Etsy verkopers',

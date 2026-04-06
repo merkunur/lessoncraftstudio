@@ -2,7 +2,7 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'juridik printables-verksamhet Sverige',
+    primaryKeyword: 'för printables verksamhet skatter',
     secondaryKeywords: [
       'juridiska grunder utskriftsbart företag',
       'skatteskyldigheter digitala produkter',

@@ -3,7 +3,11 @@ import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
     primaryKeyword: 'investigacion palabras clave Etsy imprimibles',
-    secondaryKeywords: ['investigacion palabras clave Etsy imprimibles paso a paso', 'investigacion palabras clave Etsy imprimibles tutorial', 'investigacion palabras clave Etsy imprimibles guia practica'],
+    secondaryKeywords: [
+      'paso creacion contenido',
+      'paso compilacion formato',
+      'paso crear fotos listing',
+    ],
     lsiKeywords: ['investigacion palabras clave tips', 'como investigacion palabras', 'Etsy imprimibles facil'],
     titleTag: 'Investigacion de Palabras Clave Etsy | LCS',
     metaDescription: 'La investigacion de palabras clave es el primer paso antes de crear cualquier producto. Venda en Etsy & KDP con licencia comercial.',

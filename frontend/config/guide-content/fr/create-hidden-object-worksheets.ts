@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'créer des cherche et trouve à vendre',
+    primaryKeyword: 'cherche trouve vendre ligne comment créer fiches scènes',
     secondaryKeywords: [
       'générateur scènes objets cachés',
       'fiches Cherche et Trouve pour enfants à vendre',

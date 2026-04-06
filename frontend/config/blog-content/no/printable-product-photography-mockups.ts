@@ -1,7 +1,7 @@
 import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'printable produktfotografering mockups 2026',
+    primaryKeyword: 'mockup produktfotografering mockups printables',
     secondaryKeywords: ['printable produktfotografering mockups tips', 'printable produktfotografering mockups guide', 'printable produktfotografering mockups steg for steg'],
     lsiKeywords: ['arbeidsark produksjon', 'printable forretning guide', 'Etsy selger tutorial'],
     titleTag: 'Produktfotografering og mockups for printables | LCS',

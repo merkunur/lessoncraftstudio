@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'algebrapulmapeli tyoarkki generaattori',
+    primaryKeyword: 'algebrapulmapeli generaattori luo tyoarkkeja',
     secondaryKeywords: [
       'tulostettavat algebrapulmapelit kuvilla Etsy myyjille',
       'algebrallinen yhtälötyöarkki generaattori Amazon KDP',

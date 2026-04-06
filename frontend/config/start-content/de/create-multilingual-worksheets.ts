@@ -2,7 +2,7 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'Arbeitsblätter in mehreren Sprachen erstellen verkaufen',
+    primaryKeyword: 'mehrsprachige arbeitsblätter verkaufen erstellen',
     secondaryKeywords: [
       'Arbeitsblätter in mehreren Sprachen erstellen',
       'mehrsprachige druckbare Arbeitsblätter',

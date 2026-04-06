@@ -2,7 +2,7 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'melhores nichos imprimíveis baixa concorrência',
+    primaryKeyword: 'nichos imprimíveis baixa concorrência',
     secondaryKeywords: [
       'melhores nichos imprimíveis baixa concorrência guia',
       'melhores nichos imprimíveis baixa concorrência dicas',

@@ -2,8 +2,12 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'Winter Druckvorlagen Dezember Januar verkaufen',
-    secondaryKeywords: ['Winter Raetsel Kinder Etsy', 'Schneemann Arbeitsblaetter PDF', 'kalte Jahreszeit Druckvorlagen DACH'],
+    primaryKeyword: 'winter druckvorlagen beste saisonprodukte produkte kalte jahreszeit',
+    secondaryKeywords: [
+      'besten winter produkte',
+      'unterschied winter weihnachten',
+      'kdp winter buecher',
+    ],
     lsiKeywords: ['Winterwald Wortsuche', 'Eiszapfen Mathe Raetsel', 'Schneeflocken Arbeitsblaetter'],
     titleTag: 'Winter-Druckvorlagen: Beste Saisonprodukte | LCS',
     metaDescription: 'Winter-Druckvorlagen: Marktanalyse, Produkte und Strategien fuer Druckvorlagen-Verkaeufer im DACH-Raum. Profitabel auf Etsy.de und KDP.',

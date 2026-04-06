@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'rekenbladen optellen maken om te verkopen op Etsy',
+    primaryKeyword: 'rekenbladen optellen maken verkopen maak verkoop professionele optelwerkbladen',
     secondaryKeywords: [
       'generator optelwerkbladen voor Etsy-verkopers',
       'rekenbladen voor Amazon KDP',

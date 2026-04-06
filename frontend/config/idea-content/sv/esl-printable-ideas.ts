@@ -5,7 +5,7 @@ const content: IdeaContent = {
     titleTag: 'Printables SFI — Idéer verksamhet | LessonCraftStudio',
     metaDescription: 'Upptäck utskriftsbara idéer för svenska som andraspråk att sälja på Etsy, Amazon KDP och Gumroad. Nischstrategier för säljare som riktar sig mot SvA-lärare och.',
 
-    primaryKeyword: 'printables SFI svenska som andraspråk verksamhet',
+    primaryKeyword: 'printables sfi idéer verksamhet svenska andraspråk utskriftsbara affärsidéer',
     secondaryKeywords: [
       'SvA arbetsblad att sälja',
       'andraspråk utskriftsbart företag idéer',

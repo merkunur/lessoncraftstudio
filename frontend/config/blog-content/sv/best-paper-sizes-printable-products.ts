@@ -2,7 +2,7 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'baesta pappersstorlekar utskrifter',
+    primaryKeyword: 'för försäljning bästa pappersstorlekar utskrifter',
     secondaryKeywords: [
       'bästa pappersstorlekar utskrifter Etsy',
       'bästa pappersstorlekar foeretagande',

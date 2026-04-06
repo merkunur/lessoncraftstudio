@@ -3,7 +3,11 @@ import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
     primaryKeyword: 'imprimibles tematica oceano mar vender',
-    secondaryKeywords: ['imprimibles tematica oceano mar vender negocio', 'imprimibles tematica oceano mar vender Etsy vender', 'imprimibles tematica oceano mar vender imprimibles rentable'],
+    secondaryKeywords: [
+      'tipos productos mayor demanda',
+      'seo palabras clave espanol',
+      'adaptaciones culturales region',
+    ],
     lsiKeywords: ['imprimibles tematica fichas', 'vender imprimibles imprimibles', 'mar vender educativos'],
     titleTag: 'Imprimibles del Oceano y Animales Marinos | LCS',
     metaDescription: 'El oceano y la vida marina combinan educacion cientifica con temas visualmente atractivos. Venda en Etsy & KDP con licencia comercial.',

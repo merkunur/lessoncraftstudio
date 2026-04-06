@@ -2,7 +2,7 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'arbejdsark sværhedsgrader produktniveauer',
+    primaryKeyword: 'sværhedsgrader produktniveauer',
     secondaryKeywords: ['arbejdsark sværhedsgrader produktniveauer Etsy', 'arbejdsark sværhedsgrader produktniveauer online', 'arbejdsark sværhedsgrader produktniveauer forretning'],
     lsiKeywords: ['printbar forretning Danmark', 'digital download salg', 'Etsy printables sælg'],
     titleTag: 'Sværhedsgrader som Produktniveauer | LCS',

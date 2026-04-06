@@ -4,9 +4,9 @@ const content: BlogContent = {
   seo: {
     primaryKeyword: 'luo aktiviteettikirja KDP alusta loppuun',
     secondaryKeywords: [
-      'luo aktiviteettikirja KDP alusta loppuun opas',
-      'luo aktiviteettikirja KDP alusta loppuun vaiheittain',
-      'luo aktiviteettikirja KDP alusta loppuun 2026',
+      'vaihe sisallon luominen generaattorilla',
+      'vaihe muotoilu paketointi',
+      'vaihe ilmoituksen luominen julkaisu',
     ],
     lsiKeywords: [
       'tulosteet liiketoiminta',

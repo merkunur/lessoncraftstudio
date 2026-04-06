@@ -4,9 +4,9 @@ const content: BlogContent = {
   seo: {
     primaryKeyword: 'Gumroad vai Etsy digitaaliset tuotteet',
     secondaryKeywords: [
-      'Gumroad vai Etsy digitaaliset tuotteet opas',
-      'Gumroad vai Etsy digitaaliset tuotteet 2026',
-      'Gumroad vai Etsy digitaaliset tuotteet Suomi',
+      'kaytannoen toteutus vaihe vaiheelta',
+      'yleisimmat haasteet ratkaisut',
+      'mittaaminen optimointi',
     ],
     lsiKeywords: [
       'tulosteet liiketoiminta',

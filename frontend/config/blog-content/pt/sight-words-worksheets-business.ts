@@ -4,9 +4,9 @@ const content: BlogContent = {
   seo: {
     primaryKeyword: 'fichas palavras alta frequência negócio',
     secondaryKeywords: [
-      'fichas palavras alta frequência negócio negócio',
-      'fichas palavras alta frequência negócio vender',
-      'fichas palavras alta frequência negócio Etsy',
+      'produtos mais vendem neste',
+      'estratégia preço pacotes',
+      'marketing seo este nicho',
     ],
     lsiKeywords: [
       'imprimíveis sazonais vender',

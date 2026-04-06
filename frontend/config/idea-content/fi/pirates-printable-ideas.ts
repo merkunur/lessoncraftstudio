@@ -5,7 +5,7 @@ const content: IdeaContent = {
     titleTag: 'Merirosvoaiheiset tulostettavat ideat myyntiin — Nicheopas',
     metaDescription: 'Tutustu merirosvoaiheisiin tulostettaviin ideoihin myyntiin Etsyssä, Amazon KDP:ssä ja Gumroadilla. Tuotekonseptit, alustastrategiat ja vinkit myyjille.',
 
-    primaryKeyword: 'merirosvo tulostettavat ideat',
+    primaryKeyword: 'merirosvoaiheiset tulostettavat ideat myyntiin',
     secondaryKeywords: [
       'merirosvotyöarkit myyntiin',
       'merirosvoteemainen tulostettava liiketoiminta',

@@ -1,8 +1,12 @@
 import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'vår printables selge mars april 2026',
-    secondaryKeywords: ['vår printables selge mars april Etsy', 'vår printables selge mars april strategi', 'vår printables selge mars april tips'],
+    primaryKeyword: 'vår utskrifter selg mars april',
+    secondaryKeywords: [
+      'norsk tilpasning unik vinkel',
+      'produktoppbygging prissetting',
+      'seo timing',
+    ],
     lsiKeywords: ['sesongbaserte utskrifter', 'utskrivbare arbeidsark nisje', 'printable selger Norge'],
     titleTag: 'Vår-utskrifter: Selg i mars og april | LCS',
     metaDescription: 'Våren er en travel sesong for printable-selgere. Påske er den største begivenheten, fulgt av 17. mai-forberedelser. Naturtemaer som blomster, fugler o',

@@ -5,7 +5,7 @@ const content: IdeaContent = {
     titleTag: 'Cahiers de vacances à vendre sur Etsy | LCS',
     metaDescription: 'Idées d\'imprimables révisions d\'été à vendre sur Etsy, KDP et Gumroad. Concepts produits pour parents, vendeurs et animateurs de stages estivaux.',
 
-    primaryKeyword: 'cahiers de vacances à vendre sur Etsy',
+    primaryKeyword: 'cahiers vacances vendre etsy idées imprimables révisions été',
     secondaryKeywords: [
       'fiches apprentissage été à vendre',
       'idées business imprimables vacances',

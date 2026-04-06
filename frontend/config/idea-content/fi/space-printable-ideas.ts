@@ -5,7 +5,7 @@ const content: IdeaContent = {
     titleTag: 'Avaruusaiheiset tulostettavat ideat myyntiin — Nicheopas',
     metaDescription: 'Tutustu avaruusaiheisiin tulostettaviin ideoihin myyntiin Etsyssä, Amazon KDP:ssä ja Gumroadilla.',
 
-    primaryKeyword: 'avaruus tulostettavat ideat',
+    primaryKeyword: 'avaruusaiheiset tulostettavat ideat myyntiin',
     secondaryKeywords: [
       'avaruusteemaiset työarkit myyntiin',
       'avaruustulostettava liiketoimintaideat',

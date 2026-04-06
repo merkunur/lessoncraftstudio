@@ -4,9 +4,9 @@ const content: BlogContent = {
   seo: {
     primaryKeyword: 'jeux imprimables anniversaires fêtes',
     secondaryKeywords: [
-      'vendre imprimables jeux imprimables anniversaires',
-      'fiches jeux imprimables Etsy',
-      'créer imprimables jeux imprimables',
+      'types produits vendent',
+      'stratégie seo marketing',
+      'adaptations marché français',
     ],
     lsiKeywords: [
       'marché jeux imprimables',

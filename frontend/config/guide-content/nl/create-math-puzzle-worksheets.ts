@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'rekenpuzzels maken om te verkopen',
+    primaryKeyword: 'rekenpuzzels maken verkopen printable',
     secondaryKeywords: [
       'rekenpuzzel werkblad generator plaatjes',
       'beeldreconstructie rekenpuzzels verkopen',

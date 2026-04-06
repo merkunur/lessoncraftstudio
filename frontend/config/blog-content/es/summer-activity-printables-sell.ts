@@ -3,7 +3,11 @@ import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
     primaryKeyword: 'imprimibles actividades verano vender',
-    secondaryKeywords: ['imprimibles actividades verano vender negocio', 'imprimibles actividades verano vender Etsy vender', 'imprimibles actividades verano vender imprimibles rentable'],
+    secondaryKeywords: [
+      'tipos productos mayor demanda',
+      'seo palabras clave espanol',
+      'adaptaciones culturales region',
+    ],
     lsiKeywords: ['imprimibles actividades fichas', 'vender imprimibles imprimibles', 'verano vender educativos'],
     titleTag: 'Imprimibles de Actividades de Verano | LCS',
     metaDescription: 'Las vacaciones de verano son un periodo donde muchos padres buscan activamente actividades educativas para sus. Venda en Etsy & KDP con licencia comercial.',

@@ -4,9 +4,9 @@ const content: BlogContent = {
   seo: {
     primaryKeyword: 'atendimento cliente produtos digitais',
     secondaryKeywords: [
-      'atendimento cliente produtos digitais guia',
-      'atendimento cliente produtos digitais dicas',
-      'atendimento cliente produtos digitais estratégia',
+      'estratégias funcionam',
+      'mercado brasileiro internacional',
+      'ferramentas recursos',
     ],
     lsiKeywords: [
       'negócio imprimíveis digital',

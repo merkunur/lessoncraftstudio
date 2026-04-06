@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'gratis speurtocht generator',
+    primaryKeyword: 'speurtocht gratis online maken schattenjacht werkbladen',
     secondaryKeywords: [
       'schattenjacht werkbladen gratis online maken',
       'gratis speurtocht werkblad generator zonder account',

@@ -2,7 +2,7 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'sahkopostilista tulosteet liiketoiminta',
+    primaryKeyword: 'sahkopostilista tulosteliiketoiminnalle rakenna tulostebisneksellesi',
     secondaryKeywords: [
       'sahkopostilista tulosteet liiketoiminta opas',
       'sahkopostilista tulosteet liiketoiminta 2026',

@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'skapa subtraktionsblad att sälja',
+    primaryKeyword: 'subtraktionsblad sälja subtraktionsarbetsblad för',
     secondaryKeywords: [
       'gör subtraktionsarbetsblad för barn',
       'subtraktionsarbetsblad generator',

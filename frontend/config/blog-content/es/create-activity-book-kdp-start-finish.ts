@@ -3,7 +3,11 @@ import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
     primaryKeyword: 'crear libro actividades KDP inicio fin',
-    secondaryKeywords: ['crear libro actividades KDP inicio fin paso a paso', 'crear libro actividades KDP inicio fin tutorial', 'crear libro actividades KDP inicio fin guia practica'],
+    secondaryKeywords: [
+      'paso creacion contenido',
+      'paso compilacion formato',
+      'paso crear fotos listing',
+    ],
     lsiKeywords: ['crear libro actividades tips', 'como crear libro', 'inicio fin facil'],
     titleTag: 'Crear Libro de Actividades KDP Completo | LCS',
     metaDescription: 'Publicar un libro de actividades en Amazon KDP puede hacerse en un fin de semana si tiene el contenido listo. Este tutorial paso a paso cubre todo el proce',

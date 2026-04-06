@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'piirustustehtava generaattori',
+    primaryKeyword: 'generaattori tehtävägeneraattori ruudukkopiirros piirustustehtävägeneraattori piirrä',
     secondaryKeywords: [
       'ruudukkopiirros tehtavageneraattori myyjille',
       'tee piirra ja varita tehtavia myyntiin',

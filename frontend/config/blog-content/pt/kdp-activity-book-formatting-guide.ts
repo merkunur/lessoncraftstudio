@@ -4,9 +4,9 @@ const content: BlogContent = {
   seo: {
     primaryKeyword: 'guia formatação livro atividades KDP',
     secondaryKeywords: [
-      'guia formatação livro atividades KDP guia',
-      'guia formatação livro atividades KDP dicas',
-      'guia formatação livro atividades KDP estratégia',
+      'estratégias funcionam',
+      'mercado brasileiro internacional',
+      'ferramentas recursos',
     ],
     lsiKeywords: [
       'negócio imprimíveis digital',

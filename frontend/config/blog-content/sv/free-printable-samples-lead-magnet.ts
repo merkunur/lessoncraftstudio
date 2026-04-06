@@ -2,11 +2,11 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'gratisprov utskrifter kundmagnet',
+    primaryKeyword: 'gratisprov kundmagnet',
     secondaryKeywords: [
-      'gratisprov kundmagnet Etsy',
-      'gratisprov kundmagnet foeretagande',
-      'utskrifter gratisprov kundmagnet',
+      'optimering för framgång',
+      'tillväxtstrategier',
+      'mäta förbättra resultat',
     ],
     lsiKeywords: [
       'utskriftsfoeretagande Sverige',

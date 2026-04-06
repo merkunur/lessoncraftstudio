@@ -5,7 +5,7 @@ const content: IdeaContent = {
     titleTag: 'Musiikkiaiheiset tulostettavat ideat myyntiin — Nicheopas',
     metaDescription: 'Tutustu musiikkiaiheisiin tulostettaviin ideoihin myyntiin Etsyssä, Amazon KDP:ssä ja Gumroadissa.',
 
-    primaryKeyword: 'musiikki tulostettavat ideat',
+    primaryKeyword: 'myyntiin musiikkiaiheiset tulostettavat musiikkiaiheisia',
     secondaryKeywords: [
       'musiikkiteemaiset työarkit myyntiin',
       'musiikki tulostettava liiketoimintaideat',

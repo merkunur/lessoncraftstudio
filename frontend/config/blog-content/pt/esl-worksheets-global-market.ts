@@ -4,9 +4,9 @@ const content: BlogContent = {
   seo: {
     primaryKeyword: 'fichas PLE mercado global',
     secondaryKeywords: [
-      'fichas PLE mercado global negócio',
-      'fichas PLE mercado global vender',
-      'fichas PLE mercado global Etsy',
+      'produtos mais vendem neste',
+      'estratégia preço pacotes',
+      'marketing seo este nicho',
     ],
     lsiKeywords: [
       'imprimíveis sazonais vender',

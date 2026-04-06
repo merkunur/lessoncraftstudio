@@ -2,7 +2,7 @@ import type { BundleContent } from '../types';
 
 const content: BundleContent = {
   seo: {
-    primaryKeyword: 'puzzels en logica pakket voor KDP',
+    primaryKeyword: 'puzzels logica pakket kdp vier puzzelgenerators etsy verkopers',
     secondaryKeywords: [
       'puzzel werkblad generator bundel voor verkopers',
       'doolhof sudoku werkbladen bundel Etsy KDP',

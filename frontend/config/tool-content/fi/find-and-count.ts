@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'etsi ja laske -tehtavageneraattori',
+    primaryKeyword: 'etsi laske generaattori hakutehtava hakutehtavia',
     secondaryKeywords: ['etsi ja laske -tehtavageneraattori myyjille', 'tee haku- ja laskemistehtavia myyntiin', 'tulostettava hakuaktiviteetti-generaattori kaupallinen kaytto', 'piilotetut esineet -tehtavageneraattori KDP ja Etsy'],
     lsiKeywords: ['piilotetut esineet kirjainhaku kaksoistila-aktiviteetti-generaattori', 'nelja tehtyvatyyppia ymparoi nelio rasti laske sekoitettava tehtava', 'kielikohtainen aakkosto korostuskirjaimet hakugeneraattori'],
     titleTag: 'Etsi ja laske -generaattori — Hakutehtava-generaattori | LCS',

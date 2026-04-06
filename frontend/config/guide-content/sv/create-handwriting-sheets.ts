@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'skapa skrivövningar att sälja',
+    primaryKeyword: 'skrivövningsblad skapa skrivövningar sälja hur',
     secondaryKeywords: [
       'gör skrivövningar arbetsblad för barn',
       'skrivövningar arbetsblad generator',

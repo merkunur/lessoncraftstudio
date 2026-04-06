@@ -4,9 +4,9 @@ const content: BlogContent = {
   seo: {
     primaryKeyword: 'KDP aktivitetsbok formateringsguide',
     secondaryKeywords: [
-      'aktivitetsbok formateringsguide Etsy',
-      'aktivitetsbok formateringsguide foeretagande',
-      'utskrifter aktivitetsbok formateringsguide',
+      'steg för steg guide',
+      'vanliga misstag undvika',
+      'avancerade tips',
     ],
     lsiKeywords: [
       'utskriftsfoeretagande Sverige',

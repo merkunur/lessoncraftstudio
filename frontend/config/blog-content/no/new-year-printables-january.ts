@@ -1,8 +1,12 @@
 import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'nyttår printables januar 2026',
-    secondaryKeywords: ['nyttår printables januar Etsy', 'nyttår printables januar strategi', 'nyttår printables januar tips'],
+    primaryKeyword: 'nyttårs utskrifter selg januar nyttår',
+    secondaryKeywords: [
+      'norsk tilpasning unik vinkel',
+      'produktoppbygging prissetting',
+      'seo timing',
+    ],
     lsiKeywords: ['sesongbaserte utskrifter', 'utskrivbare arbeidsark nisje', 'printable selger Norge'],
     titleTag: 'Nyttårs-utskrifter: Selg i januar | LCS',
     metaDescription: 'Januar er en stor mulighet for printable-selgere. Foreldre kjøper «nytt år, nye mål»-aktiviteter og øvingsmateriell. I Norge er vinterferie (uke 8–9) ',

@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'woordzoekerpuzzel generator om te verkopen op Etsy en KDP',
+    primaryKeyword: 'woordzoeker verkopen generator woordzoekerpuzzels etsy',
     secondaryKeywords: [
       'woordzoekers met afbeeldingen maken voor Etsy-shop',
       'woordpuzzelboeken voor Amazon KDP',

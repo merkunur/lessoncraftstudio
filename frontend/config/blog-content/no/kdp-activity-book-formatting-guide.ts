@@ -2,7 +2,11 @@ import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
     primaryKeyword: 'KDP aktivitetsbok formatering guide',
-    secondaryKeywords: ['KDP aktivitetsbok formatering guide tips', 'KDP aktivitetsbok formatering guide strategi', 'KDP aktivitetsbok formatering guide 2026'],
+    secondaryKeywords: [
+      'praktisk gjennomføring',
+      'optimalisering måling',
+      'vanlige feil unngå',
+    ],
     lsiKeywords: ['utskrivbare produkter forretning', 'printable selger strategi', 'digital nedlasting inntekt'],
     titleTag: 'KDP aktivitetsbok: Formateringsguide | LCS',
     metaDescription: 'Amazon KDP har strenge formateringskrav for trykte bøker. Får du dem feil, blir boken avvist. Denne guiden dekker alle tekniske krav for aktivitetsbøk',

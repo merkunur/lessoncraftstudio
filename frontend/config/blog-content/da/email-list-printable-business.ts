@@ -2,7 +2,7 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'email liste printbar forretning opbyg',
+    primaryKeyword: 'opbyg mailliste din printable forretning liste',
     secondaryKeywords: ['email liste printbar forretning opbyg Etsy', 'email liste printbar forretning opbyg online', 'email liste printbar forretning opbyg forretning'],
     lsiKeywords: ['printbar forretning Danmark', 'digital download salg', 'Etsy printables sælg'],
     titleTag: 'Opbyg en E-mailliste til Din Printable-Forretning | LCS',

@@ -4,9 +4,9 @@ const content: BlogContent = {
   seo: {
     primaryKeyword: 'fichas tema espaço negócio',
     secondaryKeywords: [
-      'fichas tema espaço negócio negócio',
-      'fichas tema espaço negócio vender',
-      'fichas tema espaço negócio Etsy',
+      'produtos mais vendem neste',
+      'estratégia preço pacotes',
+      'marketing seo este nicho',
     ],
     lsiKeywords: [
       'imprimíveis sazonais vender',

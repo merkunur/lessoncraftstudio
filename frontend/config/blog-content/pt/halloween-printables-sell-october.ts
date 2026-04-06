@@ -2,7 +2,7 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'imprimíveis Halloween vender outubro',
+    primaryKeyword: 'imprimíveis halloween venda outubro',
     secondaryKeywords: [
       'imprimíveis Halloween vender outubro negócio',
       'imprimíveis Halloween vender outubro vender',

@@ -4,9 +4,9 @@ const content: BlogContent = {
   seo: {
     primaryKeyword: 'tulosteet tiedostomuodot PDF JPEG opas',
     secondaryKeywords: [
-      'tulosteet tiedostomuodot PDF JPEG opas opas',
-      'tulosteet tiedostomuodot PDF JPEG opas vaiheittain',
-      'tulosteet tiedostomuodot PDF JPEG opas 2026',
+      'vaihe sisallon luominen generaattorilla',
+      'vaihe muotoilu paketointi',
+      'vaihe ilmoituksen luominen julkaisu',
     ],
     lsiKeywords: [
       'tulosteet liiketoiminta',

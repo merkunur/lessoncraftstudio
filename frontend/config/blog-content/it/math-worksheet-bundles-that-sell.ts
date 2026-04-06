@@ -2,7 +2,7 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'pacchetti schede matematica vendere Etsy',
+    primaryKeyword: 'pacchetti schede matematica vendono matematiche davvero',
     secondaryKeywords: [
       'bundle schede matematiche stampabili',
       'pacchetti esercizi matematica profitto',

@@ -1,8 +1,12 @@
 import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'halloween printables selge oktober 2026',
-    secondaryKeywords: ['halloween printables selge oktober Etsy', 'halloween printables selge oktober strategi', 'halloween printables selge oktober tips'],
+    primaryKeyword: 'halloween utskrifter selg oktober',
+    secondaryKeywords: [
+      'norsk tilpasning unik vinkel',
+      'produktoppbygging prissetting',
+      'seo timing',
+    ],
     lsiKeywords: ['sesongbaserte utskrifter', 'utskrivbare arbeidsark nisje', 'printable selger Norge'],
     titleTag: 'Halloween-utskrifter: Selg i oktober | LCS',
     metaDescription: 'Halloween har blitt stadig mer populær i Norge. Både barnehager og skoler arrangerer Halloween-aktiviteter. Selg pa Etsy & KDP med kommersiell lisens.',

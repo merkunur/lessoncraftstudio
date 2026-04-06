@@ -4,9 +4,9 @@ const content: BlogContent = {
   seo: {
     primaryKeyword: 'imprimíveis novembro Consciência Negra',
     secondaryKeywords: [
-      'imprimíveis novembro Consciência Negra negócio',
-      'imprimíveis novembro Consciência Negra vender',
-      'imprimíveis novembro Consciência Negra Etsy',
+      'produtos mais vendem neste',
+      'estratégia preço pacotes',
+      'marketing seo este nicho',
     ],
     lsiKeywords: [
       'imprimíveis sazonais vender',

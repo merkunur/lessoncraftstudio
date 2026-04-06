@@ -2,7 +2,7 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'Etsy annoncer printables værd det',
+    primaryKeyword: 'etsy printable annoncer printables værd',
     secondaryKeywords: ['Etsy annoncer printables værd det Etsy', 'Etsy annoncer printables værd det online', 'Etsy annoncer printables værd det forretning'],
     lsiKeywords: ['printbar forretning Danmark', 'digital download salg', 'Etsy printables sælg'],
     titleTag: 'Etsy-Annoncer for Printables: Er Det Værd? | LCS',

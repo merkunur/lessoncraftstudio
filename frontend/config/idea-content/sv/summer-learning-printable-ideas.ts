@@ -5,7 +5,7 @@ const content: IdeaContent = {
     titleTag: 'Sommarlov arbetsblad att sälja | LessonCraftStudio',
     metaDescription: 'Upptäck utskriftsbara idéer för sommarlärande att sälja på Etsy, Amazon KDP och Gumroad. Säsongsbetonade produktkoncept för föräldrar, lärare och sommaraktivite',
 
-    primaryKeyword: 'sommarlov arbetsblad att sälja',
+    primaryKeyword: 'sälja sommarlov arbetsblad sommarlärande utskriftsbara',
     secondaryKeywords: [
       'sommarlärande arbetsblad att sälja',
       'sommarövning utskriftsbart företag',

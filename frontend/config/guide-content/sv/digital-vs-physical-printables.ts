@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'digitala vs fysiska printables jämförelse',
+    primaryKeyword: 'digitala kontra digitalt fysiskt',
     secondaryKeywords: [
       'digital utskriftsbar affärsmodell',
       'print on demand kontra digital nedladdning',

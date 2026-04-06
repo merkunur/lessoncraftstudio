@@ -2,7 +2,7 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'bondegårdsdyr printables sælg',
+    primaryKeyword: 'bondegårdsdyr printables eviggrøn niche',
     secondaryKeywords: ['bondegårdsdyr printables sælg Etsy', 'bondegårdsdyr printables sælg online', 'bondegårdsdyr printables sælg forretning'],
     lsiKeywords: ['printbar forretning Danmark', 'digital download salg', 'Etsy printables sælg'],
     titleTag: 'Bondegårdsdyr-Printables: En Eviggrøn Niche | LCS',

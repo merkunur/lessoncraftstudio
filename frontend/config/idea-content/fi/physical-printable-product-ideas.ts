@@ -5,7 +5,7 @@ const content: IdeaContent = {
     titleTag: 'Fyysiset tulostettavat tuoteideat myyntiin — Opas',
     metaDescription: 'Fyysisten tulostettavien tuoteideoita Etsyn ja markkinamyyjille. Rakenna premium-liiketoiminta tulostamalla, laminoimalla ja lähettämällä käsin.',
 
-    primaryKeyword: 'fyysiset tulostettavat tuoteideat',
+    primaryKeyword: 'fyysisten tulostettavien fyysiset tulostettavat tuotteiden',
     secondaryKeywords: [
       'painettu työarkkituoteliiketoiminta',
       'fyysiset tulostettavat tuotteet myyntiin',

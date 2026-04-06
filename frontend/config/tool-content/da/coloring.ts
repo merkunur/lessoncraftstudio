@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'tilpasset farvelægningsside generator',
+    primaryKeyword: 'farvelægningsside generator lav sider',
     secondaryKeywords: [
       'farvelægningsside generator for sælgere',
       'tilpassede farvelægningsarbejdsark online',

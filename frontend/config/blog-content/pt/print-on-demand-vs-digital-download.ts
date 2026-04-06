@@ -4,9 +4,9 @@ const content: BlogContent = {
   seo: {
     primaryKeyword: 'impressão sob demanda vs download digital',
     secondaryKeywords: [
-      'impressão sob demanda vs download digital guia',
-      'impressão sob demanda vs download digital dicas',
-      'impressão sob demanda vs download digital estratégia',
+      'estratégias funcionam',
+      'mercado brasileiro internacional',
+      'ferramentas recursos',
     ],
     lsiKeywords: [
       'negócio imprimíveis digital',

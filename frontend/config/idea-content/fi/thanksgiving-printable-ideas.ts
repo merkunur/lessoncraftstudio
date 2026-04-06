@@ -5,7 +5,7 @@ const content: IdeaContent = {
     titleTag: 'Kiitospäivän tulostettavat ideat myyntiin — Nicheopas',
     metaDescription: 'Tutustu kiitospäivän tulostettaviin ideoihin myyntiin Etsyssä, Amazon KDP:ssä ja Gumroadilla. Syystuotekonseptit, kausistrategiat ja alustavinkit myyjille.',
 
-    primaryKeyword: 'kiitospäivä tulostettavat ideat',
+    primaryKeyword: 'kiitospäivän tulostettavat ideat myyntiin',
     secondaryKeywords: [
       'kiitospäivän työarkit myyntiin',
       'kiitospäivätulostettava liiketoimintaideat',

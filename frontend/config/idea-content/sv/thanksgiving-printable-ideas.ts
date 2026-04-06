@@ -5,7 +5,7 @@ const content: IdeaContent = {
     titleTag: 'Printables tacksamhet att sälja | LessonCraftStudio',
     metaDescription: 'Upptäck tacksägelse utskriftsbara idéer att sälja på Etsy, Amazon KDP och Gumroad. Skördetema produktkoncept, säsongsstrategier och plattformstips för säljare.',
 
-    primaryKeyword: 'printables tacksamhet tema att sälja',
+    primaryKeyword: 'sälja printables tacksamhet tacksägelse utskriftsbara',
     secondaryKeywords: [
       'tacksägelse arbetsblad att sälja',
       'tacksägelse utskriftsbart företag idéer',

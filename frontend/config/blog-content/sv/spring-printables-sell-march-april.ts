@@ -4,9 +4,9 @@ const content: BlogContent = {
   seo: {
     primaryKeyword: 'vaar utskrifter mars april foersaeljning',
     secondaryKeywords: [
-      'vår-utskrifter mars-april försäljning Etsy',
-      'vår-utskrifter mars-april foeretagande',
-      'utskrifter vår-utskrifter mars-april',
+      'produkter säljer denna nisch',
+      'skapandeprocess verktyg',
+      'marknadsföring säsongsplanering',
     ],
     lsiKeywords: [
       'utskriftsfoeretagande Sverige',

@@ -5,7 +5,7 @@ const content: IdeaContent = {
     titleTag: 'Juhlataviketulostettavat ideat myyntiin — Nicheopas',
     metaDescription: 'Tutustu tulostettaviin juhlatarvikeisiin myyntiin Etsyssä, Amazon KDP:ssä ja Gumroadilla. Tuotekonseptit, alustastrategiat ja vinkit myyjille.',
 
-    primaryKeyword: 'juhlatarvike tulostettavat ideat',
+    primaryKeyword: 'tulostettaviin juhlatarvikeisiin myyntiin myyjille juhlataviketulostettavat ideat nicheopas',
     secondaryKeywords: [
       'tulostettavat juhlatarvikkeet myyntiin',
       'juhlateemainen tulostettava liiketoiminta',

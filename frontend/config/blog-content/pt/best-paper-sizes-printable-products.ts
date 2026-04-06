@@ -2,11 +2,11 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'melhores tamanhos papel produtos imprimíveis',
+    primaryKeyword: 'papel tamanho melhores tamanhos imprimíveis',
     secondaryKeywords: [
-      'melhores tamanhos papel produtos imprimíveis passo a passo',
-      'melhores tamanhos papel produtos imprimíveis tutorial',
-      'melhores tamanhos papel produtos imprimíveis como fazer',
+      'passo passo',
+      'ferramentas necessárias',
+      'dicas avançadas',
     ],
     lsiKeywords: [
       'tutorial imprimíveis',

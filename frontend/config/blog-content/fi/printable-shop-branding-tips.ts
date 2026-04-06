@@ -2,7 +2,7 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'tulosteet kauppa brandays vinkit',
+    primaryKeyword: 'tulostekaupan brandays vinkit ilme rakenna',
     secondaryKeywords: [
       'tulosteet kauppa brandays vinkit opas',
       'tulosteet kauppa brandays vinkit 2026',

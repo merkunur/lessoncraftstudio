@@ -2,7 +2,7 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'combien peut-on gagner avec des imprimables',
+    primaryKeyword: 'imprimables combien gagner revenus attentes',
     secondaryKeywords: [
       'attentes revenus activité imprimables',
       'revenus réalistes vente de fiches',

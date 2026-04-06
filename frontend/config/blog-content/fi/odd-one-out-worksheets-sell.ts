@@ -4,9 +4,9 @@ const content: BlogContent = {
   seo: {
     primaryKeyword: 'etsi erilainen tyoarkit myy',
     secondaryKeywords: [
-      'poikkea joukosta tehtavat myynti',
-      'odd one out tulosteet Etsy',
-      'looginen paattely tehtavat',
+      'tuotetyypit vaikeustasot',
+      'hinnoittelu paketointi',
+      'markkinointi avainsanat',
     ],
     lsiKeywords: [
       'luokittelu poissulkeminen',

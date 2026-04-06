@@ -1,7 +1,7 @@
 import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'sesongkalender printable selgere',
+    primaryKeyword: 'selg sesongkalender printable selgere',
     secondaryKeywords: ['sesongkalender printable selgere tips', 'sesongkalender printable selgere strategi', 'sesongkalender printable selgere 2026'],
     lsiKeywords: ['utskrivbare produkter forretning', 'printable selger strategi', 'digital nedlasting inntekt'],
     titleTag: 'Sesongkalender for printable-selgere | LCS',

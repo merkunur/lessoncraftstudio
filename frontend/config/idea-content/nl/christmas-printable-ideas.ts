@@ -5,7 +5,7 @@ const content: IdeaContent = {
     titleTag: 'Printables Kerst & Sint voor Etsy | LessonCraftStudio',
     metaDescription: 'Verkoop printables voor Kerstmis en Sinterklaas op Etsy. Productideeën voor werkbladen die van oktober tot december piekverkopen opleveren.',
 
-    primaryKeyword: 'printables Kerstmis en Sinterklaas verkopen',
+    primaryKeyword: 'printables kerst sint etsy sinterklaas verkopen',
     secondaryKeywords: [
       'Kerst werkbladen Etsy verkopen',
       'Sinterklaas printables business starten',

@@ -2,7 +2,7 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'från extrainkomst till heltids printables-verksamhet',
+    primaryKeyword: 'från extra till heltidsverksamhet skala upp sidoprojekt heltidsföretag',
     secondaryKeywords: [
       'växa utskriftsbart företag till heltid',
       'skala Etsy-butik utskriftsbara produkter',

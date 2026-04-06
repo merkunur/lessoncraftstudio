@@ -2,7 +2,11 @@ import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
     primaryKeyword: 'oppdater gamle printable annonser øk salg 2026',
-    secondaryKeywords: ['oppdater gamle printable annonser øk salg tips', 'oppdater gamle printable annonser øk salg guide', 'oppdater gamle printable annonser øk salg steg for steg'],
+    secondaryKeywords: [
+      'steg steg gjennomføring',
+      'optimalisering finjustering',
+      'publisering markedsføring',
+    ],
     lsiKeywords: ['arbeidsark produksjon', 'printable forretning guide', 'Etsy selger tutorial'],
     titleTag: 'Oppdater gamle annonser: Boost salget | LCS',
     metaDescription: 'Gamle Etsy-annonser kan få nytt liv med oppdaterte bilder, søkeord og beskrivelser. Denne guiden viser deg en systematisk prosess for å gjennomgå og f',

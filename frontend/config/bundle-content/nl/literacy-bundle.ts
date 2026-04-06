@@ -2,7 +2,7 @@ import type { BundleContent } from '../types';
 
 const content: BundleContent = {
   seo: {
-    primaryKeyword: 'taal- en woordspelpakket Etsy KDP',
+    primaryKeyword: 'taal verkopen zeven generators pakket woordspelpakket taalgenerators',
     secondaryKeywords: [
       'taal werkblad generator bundel commercieel gebruik',
       'woordpuzzel werkblad bundel verkopen Etsy',

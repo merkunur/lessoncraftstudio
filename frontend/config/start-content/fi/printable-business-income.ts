@@ -2,7 +2,7 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'kuinka paljon tulostettavien tuotteiden myynnilla voi tienata',
+    primaryKeyword: 'paljon tulostettavien myynnillä voi tienata liiketoiminnan tulot realistiset',
     secondaryKeywords: [
       'tuotto-odotukset tulostettavien liiketoiminta',
       'realistinen tulo tulostettavien tuotteiden myynti',

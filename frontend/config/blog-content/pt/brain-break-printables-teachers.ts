@@ -4,9 +4,9 @@ const content: BlogContent = {
   seo: {
     primaryKeyword: 'imprimíveis pausas ativas professores',
     secondaryKeywords: [
-      'imprimíveis pausas ativas professores negócio',
-      'imprimíveis pausas ativas professores vender',
-      'imprimíveis pausas ativas professores Etsy',
+      'produtos mais vendem neste',
+      'estratégia preço pacotes',
+      'marketing seo este nicho',
     ],
     lsiKeywords: [
       'imprimíveis sazonais vender',

@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'gittermatchning arbejdsark',
+    primaryKeyword: 'gitterpuslespil generator gitter arbejdsark generator',
     secondaryKeywords: [
       'gittermatchning arbejdsark generator for sælgere',
       'lav gitterpuslespil til salg',

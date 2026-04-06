@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'labyrinttitehtava-generaattori',
+    primaryKeyword: 'kuvareitti generaattori labyrinttitehtava generaattori labyrintti',
     secondaryKeywords: ['labyrinttitehtava-generaattori myyjille', 'tee kuvareitti-labyrinttitehtavia myyntiin', 'tulostettava labyrinttipalapeli-generaattori kaupallinen kaytto', 'labyrinttiaktiviteetti-generaattori KDP ja Etsy'],
     lsiKeywords: ['kolme pelitilaa kuvareitti klassinen labyrintti valitse reitti', 'LPF pisin polku ensin algoritmi seinaepohjainen labyrintti-generaattori', 'automaattinen vastausavain pinkki ympyrae ratkaisupolku labyrintti-generaattori'],
     titleTag: 'Kuvareitti-generaattori — Labyrinttitehtava-generaattori...',

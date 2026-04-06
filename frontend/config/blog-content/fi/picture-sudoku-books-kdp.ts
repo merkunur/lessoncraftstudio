@@ -4,9 +4,9 @@ const content: BlogContent = {
   seo: {
     primaryKeyword: 'kuvasudokukirjat KDP',
     secondaryKeywords: [
-      'kuvasudoku tulosteet KDP',
-      'sudoku lapsille kirja',
-      'visuaalinen sudoku julkaisu',
+      'tuotetyypit vaikeustasot',
+      'hinnoittelu paketointi',
+      'markkinointi avainsanat',
     ],
     lsiKeywords: [
       'looginen ajattelu pelit',

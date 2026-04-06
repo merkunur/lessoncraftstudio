@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'e-postmarkedsforing printables',
+    primaryKeyword: 'postmarkedsforing printables guide printable virksomheten din',
     secondaryKeywords: ['e-postliste printable-selgere', 'nyhetsbrev for arbeidsark-virksomhet', 'lead magnets printables', 'e-postkampanjer digitale produkter'],
     lsiKeywords: ['e-postautomatisering printable-salg', 'lead magnet arbeidsark', 'e-postsekvenser kjopere', 'sesongbaserte e-postkampanjer', 'konverteringsrate e-postmarkedsforing'],
     titleTag: 'E-postmarkedsforing for printables — Guide',

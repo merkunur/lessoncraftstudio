@@ -2,7 +2,7 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'aivotauko tulosteet opettajat',
+    primaryKeyword: 'aivotauko tulosteet opettajille lyhyet virkistavat tehtavat',
     secondaryKeywords: [
       'aivotauko tulosteet opettajat opas',
       'aivotauko tulosteet opettajat 2026',

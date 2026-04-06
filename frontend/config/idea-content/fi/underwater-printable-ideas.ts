@@ -5,7 +5,7 @@ const content: IdeaContent = {
     titleTag: 'Vedenalaiset tulostettavat ideat myyntiin — Nicheopas',
     metaDescription: 'Tutustu vedenalaisiin tulostettaviin ideoihin myyntiin Etsyssä, Amazon KDP:ssä ja Gumroadilla.',
 
-    primaryKeyword: 'vedenalainen maailma tulostettavat ideat',
+    primaryKeyword: 'vedenalaiset tulostettavat ideat myyntiin',
     secondaryKeywords: [
       'vedenalaiset työarkit myyntiin',
       'vedenalainen tulostettava liiketoimintaideat',

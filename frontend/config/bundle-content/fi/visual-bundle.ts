@@ -2,7 +2,7 @@ import type { BundleContent } from '../types';
 
 const content: BundleContent = {
   seo: {
-    primaryKeyword: 'visuaalinen oppiminen tyoarkkipaketti myyjille',
+    primaryKeyword: 'visuaalinen oppiminen paketti tyoarkkipaketti aktiviteettia',
     secondaryKeywords: [
       'varitystyoarkkigeneraattoripaketti myyjille',
       'visuaalinen aktiviteettipaketti kaupalliseen kayttoon',

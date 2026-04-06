@@ -2,7 +2,7 @@ import type { BundleContent } from '../types';
 
 const content: BundleContent = {
   seo: {
-    primaryKeyword: 'kopplings- och sorteringspaket Etsy',
+    primaryKeyword: 'kopplings sorteringspaket matchning sortering paket',
     secondaryKeywords: [
       'matchning sortering arbetsblad generator paket för säljare',
       'utskriftsbar matchningsaktivitet verktygslåda kommersiell användning',

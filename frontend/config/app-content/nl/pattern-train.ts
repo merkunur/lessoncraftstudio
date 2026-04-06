@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'reeksen werkbladen voor printables-business',
+    primaryKeyword: 'werkbladen patroontrein reeksen verkopers maken',
     secondaryKeywords: [
       'patroontrein generator voor Etsy',
       'reeksen herkennen werkbladen KDP',

@@ -3,7 +3,11 @@ import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
     primaryKeyword: 'servicio al cliente productos digitales',
-    secondaryKeywords: ['servicio al cliente productos digitales guia', 'servicio al cliente productos digitales mejores practicas', 'servicio al cliente productos digitales estrategia'],
+    secondaryKeywords: [
+      'estrategias especificas mercado hispanohablante',
+      'herramientas recursos recomendados',
+      'errores comunes evitarlos',
+    ],
     lsiKeywords: ['servicio al tips', 'negocio imprimibles servicio', 'productos digitales imprimibles'],
     titleTag: 'Servicio al Cliente para Productos Digitales | LCS',
     metaDescription: 'El servicio al cliente en productos digitales es diferente al de productos fisicos. Venda en Etsy & KDP con licencia comercial.',

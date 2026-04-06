@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'ilmainen aakkostyöarkkigeneraattori',
+    primaryKeyword: 'verkossa ssa ilmainen aakkostyöarkkigeneraattori tee aakkostehtäviä',
     secondaryKeywords: [
       'tee aakkostehtäviä ilmaiseksi verkossa',
       'kirjainoppimisen generaattori ilman rekisteröitymistä',

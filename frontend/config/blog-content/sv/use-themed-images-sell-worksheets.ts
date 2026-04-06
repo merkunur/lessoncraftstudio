@@ -4,9 +4,9 @@ const content: BlogContent = {
   seo: {
     primaryKeyword: 'tematiska bilder saelj arbetsblad',
     secondaryKeywords: [
-      'använd tematiska bilder Etsy',
-      'använd tematiska foeretagande',
-      'utskrifter använd tematiska',
+      'steg för steg guide',
+      'vanliga misstag undvika',
+      'avancerade tips',
     ],
     lsiKeywords: [
       'utskriftsfoeretagande Sverige',

@@ -4,9 +4,9 @@ const content: BlogContent = {
   seo: {
     primaryKeyword: 'kayta teemakuvia myy tyoarkit',
     secondaryKeywords: [
-      'kayta teemakuvia myy tyoarkit opas',
-      'kayta teemakuvia myy tyoarkit vaiheittain',
-      'kayta teemakuvia myy tyoarkit 2026',
+      'vaihe sisallon luominen generaattorilla',
+      'vaihe muotoilu paketointi',
+      'vaihe ilmoituksen luominen julkaisu',
     ],
     lsiKeywords: [
       'tulosteet liiketoiminta',

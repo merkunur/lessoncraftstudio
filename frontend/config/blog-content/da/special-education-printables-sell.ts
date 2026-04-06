@@ -2,7 +2,7 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'specialundervisning printables sælg',
+    primaryKeyword: 'specialundervisning printables dedikeret niche',
     secondaryKeywords: ['specialundervisning printables sælg Etsy', 'specialundervisning printables sælg online', 'specialundervisning printables sælg forretning'],
     lsiKeywords: ['printbar forretning Danmark', 'digital download salg', 'Etsy printables sælg'],
     titleTag: 'Specialundervisning-Printables: En Dedikeret Niche | LCS',

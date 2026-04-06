@@ -2,7 +2,7 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'quantos anúncios Etsy sucesso',
+    primaryKeyword: 'etsy quantos anúncios sucesso',
     secondaryKeywords: [
       'quantos anúncios Etsy sucesso guia',
       'quantos anúncios Etsy sucesso dicas',

@@ -4,9 +4,9 @@ const content: BlogContent = {
   seo: {
     primaryKeyword: 'opetukselliset tulosteet uudet vanhemmat',
     secondaryKeywords: [
-      'opetukselliset tulosteet uudet vanhemmat opas',
-      'opetukselliset tulosteet uudet vanhemmat 2026',
-      'opetukselliset tulosteet uudet vanhemmat Suomi',
+      'tuotevalikoima teemat',
+      'suomalaisen myyjann kilpailuedut',
+      'hinnoittelu paketointi',
     ],
     lsiKeywords: [
       'tulosteet myynti',

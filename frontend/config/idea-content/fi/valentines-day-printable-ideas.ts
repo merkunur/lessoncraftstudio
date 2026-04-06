@@ -5,7 +5,7 @@ const content: IdeaContent = {
     titleTag: 'Ystävänpäivän tulostettavat ideat myyntiin — Nicheopas',
     metaDescription: 'Tutustu ystävänpäivän tulostettaviin ideoihin myyntiin Etsyssä, Amazon KDP:ssä ja Gumroadilla.',
 
-    primaryKeyword: 'ystävänpäivä tulostettavat ideat',
+    primaryKeyword: 'ystävänpäivän tulostettavat ideat myyntiin',
     secondaryKeywords: [
       'ystävänpäivän työarkit myyntiin',
       'ystävänpäivätulostettava liiketoimintaideat',

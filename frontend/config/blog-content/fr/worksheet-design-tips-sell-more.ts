@@ -4,9 +4,9 @@ const content: BlogContent = {
   seo: {
     primaryKeyword: 'conseils design fiches vendre plus',
     secondaryKeywords: [
-      'tutoriel conseils design fiches',
-      'guide pas à pas conseils design',
-      'comment conseils design fiches',
+      'étape préparation',
+      'étape création production',
+      'étape optimisation publication',
     ],
     lsiKeywords: [
       'étapes conseils design',

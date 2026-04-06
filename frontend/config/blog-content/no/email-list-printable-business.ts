@@ -1,7 +1,7 @@
 import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'e-postliste printable bedrift',
+    primaryKeyword: 'bygg postliste printable bedriften bedrift',
     secondaryKeywords: ['e-postliste printable bedrift tips', 'e-postliste printable bedrift strategi', 'e-postliste printable bedrift 2026'],
     lsiKeywords: ['utskrivbare produkter forretning', 'printable selger strategi', 'digital nedlasting inntekt'],
     titleTag: 'Bygg e-postliste for printable-bedriften | LCS',

@@ -2,11 +2,11 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'reaproveitar fichas múltiplos produtos',
+    primaryKeyword: 'ficha reaprovite fichas múltiplos',
     secondaryKeywords: [
-      'reaproveitar fichas múltiplos produtos passo a passo',
-      'reaproveitar fichas múltiplos produtos tutorial',
-      'reaproveitar fichas múltiplos produtos como fazer',
+      'passo passo',
+      'ferramentas necessárias',
+      'dicas avançadas',
     ],
     lsiKeywords: [
       'tutorial imprimíveis',

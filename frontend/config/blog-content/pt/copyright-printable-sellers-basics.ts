@@ -4,9 +4,9 @@ const content: BlogContent = {
   seo: {
     primaryKeyword: 'direitos autorais vendedores imprimíveis',
     secondaryKeywords: [
-      'direitos autorais vendedores imprimíveis guia',
-      'direitos autorais vendedores imprimíveis dicas',
-      'direitos autorais vendedores imprimíveis estratégia',
+      'estratégias funcionam',
+      'mercado brasileiro internacional',
+      'ferramentas recursos',
     ],
     lsiKeywords: [
       'negócio imprimíveis digital',

@@ -4,9 +4,9 @@ const content: BlogContent = {
   seo: {
     primaryKeyword: 'atualizar listagens antigas imprimíveis vendas',
     secondaryKeywords: [
-      'atualizar listagens antigas imprimíveis vendas passo a passo',
-      'atualizar listagens antigas imprimíveis vendas tutorial',
-      'atualizar listagens antigas imprimíveis vendas como fazer',
+      'passo passo',
+      'ferramentas necessárias',
+      'dicas avançadas',
     ],
     lsiKeywords: [
       'tutorial imprimíveis',

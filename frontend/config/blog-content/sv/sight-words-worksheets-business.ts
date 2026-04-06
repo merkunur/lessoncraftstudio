@@ -4,9 +4,9 @@ const content: BlogContent = {
   seo: {
     primaryKeyword: 'ordbilds arbetsblad foeretagande',
     secondaryKeywords: [
-      'ordbilds-arbetsblad företagande Etsy',
-      'ordbilds-arbetsblad företagande foeretagande',
-      'utskrifter ordbilds-arbetsblad företagande',
+      'produkttyper säljer bäst',
+      'skapa professionella produkter snabbt',
+      'listnings marknadsföringsstrategi',
     ],
     lsiKeywords: [
       'utskriftsfoeretagande Sverige',

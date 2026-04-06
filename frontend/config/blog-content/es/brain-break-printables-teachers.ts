@@ -3,7 +3,11 @@ import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
     primaryKeyword: 'imprimibles pausas activas profesores aula',
-    secondaryKeywords: ['imprimibles pausas activas profesores aula negocio', 'imprimibles pausas activas profesores aula Etsy vender', 'imprimibles pausas activas profesores aula imprimibles rentable'],
+    secondaryKeywords: [
+      'tipos productos mayor demanda',
+      'seo palabras clave espanol',
+      'adaptaciones culturales region',
+    ],
     lsiKeywords: ['imprimibles pausas fichas', 'vender imprimibles imprimibles', 'profesores aula educativos'],
     titleTag: 'Imprimibles de Pausas Activas para el Aula | LCS',
     metaDescription: 'Las pausas activas (brain breaks) son actividades cortas de 5-10 minutos disenadas para reactivar la atencion de. Venda en Etsy & KDP con licencia comercial.',

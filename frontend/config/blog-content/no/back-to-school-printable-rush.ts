@@ -1,8 +1,12 @@
 import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'skolestart printables rush 2026',
-    secondaryKeywords: ['skolestart printables rush Etsy', 'skolestart printables rush strategi', 'skolestart printables rush tips'],
+    primaryKeyword: 'skolestart printable rushet august rush',
+    secondaryKeywords: [
+      'norsk tilpasning unik vinkel',
+      'produktoppbygging prissetting',
+      'seo timing',
+    ],
     lsiKeywords: ['sesongbaserte utskrifter', 'utskrivbare arbeidsark nisje', 'printable selger Norge'],
     titleTag: 'Skolestart: Printable-rushet i august | LCS',
     metaDescription: 'Skolestart er den nest største sesongen for printable-selgere etter jul. I Norge starter skolen i midten av august, og foreldre begynner å søke etter ',

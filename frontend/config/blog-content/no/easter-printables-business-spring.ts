@@ -1,8 +1,12 @@
 import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'påske printables bedrift vår 2026',
-    secondaryKeywords: ['påske printables bedrift vår Etsy', 'påske printables bedrift vår strategi', 'påske printables bedrift vår tips'],
+    primaryKeyword: 'påske påskekrim utskrifter vårens salgssesong',
+    secondaryKeywords: [
+      'norsk tilpasning unik vinkel',
+      'produktoppbygging prissetting',
+      'seo timing',
+    ],
     lsiKeywords: ['sesongbaserte utskrifter', 'utskrivbare arbeidsark nisje', 'printable selger Norge'],
     titleTag: 'Påske-utskrifter: Vårens salgssesong | LCS',
     metaDescription: 'Påske er spesielt viktig i Norge. Nordmenn leser krim («påskekrim»), går på hytta og har fri i nesten to uker. For printable-selgere betyr dette enorm',

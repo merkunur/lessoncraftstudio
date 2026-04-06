@@ -4,9 +4,9 @@ const content: BlogContent = {
   seo: {
     primaryKeyword: 'uppdatera gamla listningar oeka foersaeljning',
     secondaryKeywords: [
-      'uppdatera gamla listningar Etsy',
-      'uppdatera gamla foeretagande',
-      'utskrifter uppdatera gamla',
+      'optimering för framgång',
+      'tillväxtstrategier',
+      'mäta förbättra resultat',
     ],
     lsiKeywords: [
       'utskriftsfoeretagande Sverige',

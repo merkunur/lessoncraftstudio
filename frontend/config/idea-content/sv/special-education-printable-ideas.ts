@@ -5,7 +5,7 @@ const content: IdeaContent = {
     titleTag: 'Printables särskola att sälja | LessonCraftStudio',
     metaDescription: 'Upptäck utskriftsbara idéer för specialpedagogik att sälja på Etsy, KDP och Gumroad. Produktkoncept för säljare som riktar sig mot specialpedagoger och.',
 
-    primaryKeyword: 'printables särskola anpassad grundskola sälja',
+    primaryKeyword: 'sälja printables särskola specialpedagogik utskriftsbara',
     secondaryKeywords: [
       'specialpedagogik arbetsblad att sälja',
       'utskriftsbart företag idéer för specialpedagogik',

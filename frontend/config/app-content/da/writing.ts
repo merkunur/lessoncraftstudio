@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'skriveovelse generator',
+    primaryKeyword: 'skriveøvelse generator opret sælg håndskriftsark arbejdsark håndskriftstræning',
     secondaryKeywords: [
       'håndskriftsøvelse arbejdsark sælg på Etsy',
       'skriveovelse arbejdsark generator til Amazon KDP',

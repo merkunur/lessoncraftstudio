@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'criar enigmas matemáticos com código para vender na Hotmart',
+    primaryKeyword: 'enigmas adição codificada vender crie hotmart etsy',
     secondaryKeywords: [
       'gerador de atividades de adição codificada para Etsy',
       'puzzles matemáticos de decifrar código para KDP',

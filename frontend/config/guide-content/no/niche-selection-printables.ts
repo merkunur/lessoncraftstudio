@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'nisjevalg printables',
+    primaryKeyword: 'nisjevalg printables guide printable virksomheten din',
     secondaryKeywords: ['velg nisjemarked printables', 'nisjeundersokelse printable-virksomhet', 'lonnsomt nisjemarked arbeidsark', 'nisjevalg strategi Etsy'],
     lsiKeywords: ['nisjeettersporsel analyse', 'konkurranse nisjemarked', 'evergreen nisjer printables', 'sesongbaserte nisjer arbeidsark', 'nettoverdi nisjemarked'],
     titleTag: 'Nisjevalg for printables — Guide',

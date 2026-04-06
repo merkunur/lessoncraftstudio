@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'skapa ordpussel med bilder att sälja',
+    primaryKeyword: 'bilder hur skapar ordsökningspussel sälj ordpussel sälja',
     secondaryKeywords: [
       'ordsökningspussel generator',
       'utskriftsbar ordsökning-generator',

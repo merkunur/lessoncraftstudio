@@ -4,9 +4,9 @@ const content: BlogContent = {
   seo: {
     primaryKeyword: 'rymden tema arbetsblad foeretagande',
     secondaryKeywords: [
-      'rymden-tema arbetsblad företagande Etsy',
-      'rymden-tema arbetsblad foeretagande',
-      'utskrifter rymden-tema arbetsblad',
+      'produkter säljer denna nisch',
+      'skapandeprocess verktyg',
+      'marknadsföring säsongsplanering',
     ],
     lsiKeywords: [
       'utskriftsfoeretagande Sverige',

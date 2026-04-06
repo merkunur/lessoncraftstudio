@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'kostenloser Schattenbilder-Generator',
+    primaryKeyword: 'kostenloser schattenbilder generator zuordnung kostenlos erstellen online',
     secondaryKeywords: [
       'Schattenbilder-Arbeitsblätter kostenlos erstellen',
       'Silhouetten-Zuordnung Generator online ohne Anmeldung',

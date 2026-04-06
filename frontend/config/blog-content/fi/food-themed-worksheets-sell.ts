@@ -4,9 +4,9 @@ const content: BlogContent = {
   seo: {
     primaryKeyword: 'ruoka aihe tyoarkit myy',
     secondaryKeywords: [
-      'ruoka aihe tyoarkit myy opas',
-      'ruoka aihe tyoarkit myy 2026',
-      'ruoka aihe tyoarkit myy Suomi',
+      'tuotevalikoima teemat',
+      'suomalaisen myyjann kilpailuedut',
+      'hinnoittelu paketointi',
     ],
     lsiKeywords: [
       'tulosteet myynti',

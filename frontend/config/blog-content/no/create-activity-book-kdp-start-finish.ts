@@ -2,7 +2,11 @@ import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
     primaryKeyword: 'lag aktivitetsbok KDP start til slutt 2026',
-    secondaryKeywords: ['lag aktivitetsbok KDP start til slutt tips', 'lag aktivitetsbok KDP start til slutt guide', 'lag aktivitetsbok KDP start til slutt steg for steg'],
+    secondaryKeywords: [
+      'steg steg gjennomføring',
+      'optimalisering finjustering',
+      'publisering markedsføring',
+    ],
     lsiKeywords: ['arbeidsark produksjon', 'printable forretning guide', 'Etsy selger tutorial'],
     titleTag: 'Lag en aktivitetsbok for KDP: Start til slutt | LCS',
     metaDescription: 'Denne guiden tar deg gjennom hele prosessen med å lage og publisere en aktivitetsbok på Amazon KDP. Fra innholdsproduksjon med generatorer, via format',

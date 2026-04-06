@@ -1,7 +1,7 @@
 import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'Etsy annonser printables verdt det',
+    primaryKeyword: 'etsy ads verdt printables',
     secondaryKeywords: ['Etsy annonser printables verdt det tips', 'Etsy annonser printables verdt det strategi', 'Etsy annonser printables verdt det 2026'],
     lsiKeywords: ['utskrivbare produkter forretning', 'printable selger strategi', 'digital nedlasting inntekt'],
     titleTag: 'Er Etsy Ads verdt det for printables? | LCS',

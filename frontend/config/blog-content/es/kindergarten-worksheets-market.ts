@@ -3,7 +3,11 @@ import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
     primaryKeyword: 'fichas kindergarten primer grado mercado',
-    secondaryKeywords: ['fichas kindergarten primer grado mercado negocio', 'fichas kindergarten primer grado mercado Etsy vender', 'fichas kindergarten primer grado mercado imprimibles rentable'],
+    secondaryKeywords: [
+      'tipos productos mayor demanda',
+      'seo palabras clave espanol',
+      'adaptaciones culturales region',
+    ],
     lsiKeywords: ['fichas kindergarten fichas', 'vender imprimibles fichas', 'grado mercado educativos'],
     titleTag: 'Fichas para Primer Grado: Mercado en Crecimiento | LCS',
     metaDescription: 'La etapa de kindergarten a primer grado es un momento critico donde los ninos formalizan el aprendizaje de lectura,. Venda en Etsy & KDP con licencia comercial.',

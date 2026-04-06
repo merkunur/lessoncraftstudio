@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'skapa prepositionsblad SFI att sälja',
+    primaryKeyword: 'prepositions prepositionsarbetsblad skapa prepositionsblad sfi sälja hur',
     secondaryKeywords: [
       'skapa prepositionsarbetsblad att sälja',
       'prepositionsarbetsblad generator kommersiellt bruk',

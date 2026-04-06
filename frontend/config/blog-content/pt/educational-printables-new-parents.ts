@@ -4,9 +4,9 @@ const content: BlogContent = {
   seo: {
     primaryKeyword: 'imprimíveis educativos novos pais',
     secondaryKeywords: [
-      'imprimíveis educativos novos pais negócio',
-      'imprimíveis educativos novos pais vender',
-      'imprimíveis educativos novos pais Etsy',
+      'produtos mais vendem neste',
+      'estratégia preço pacotes',
+      'marketing seo este nicho',
     ],
     lsiKeywords: [
       'imprimíveis sazonais vender',

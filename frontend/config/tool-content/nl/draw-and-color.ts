@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'gratis teken- en kleurwerkbladen maken',
+    primaryKeyword: 'teken werkbladen kleurwerkbladen gratis maak rasterteken',
     secondaryKeywords: [
       'rastertekenen werkbladen online maken',
       'teken en kleur werkbladen gratis proberen',

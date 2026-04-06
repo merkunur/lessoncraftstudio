@@ -4,9 +4,9 @@ const content: BlogContent = {
   seo: {
     primaryKeyword: 'atividades motricidade fina imprimíveis',
     secondaryKeywords: [
-      'atividades motricidade fina imprimíveis negócio',
-      'atividades motricidade fina imprimíveis vender',
-      'atividades motricidade fina imprimíveis Etsy',
+      'produtos mais vendem neste',
+      'estratégia preço pacotes',
+      'marketing seo este nicho',
     ],
     lsiKeywords: [
       'imprimíveis sazonais vender',

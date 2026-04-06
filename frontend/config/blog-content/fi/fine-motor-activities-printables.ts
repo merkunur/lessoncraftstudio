@@ -2,7 +2,7 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'hienomotoriikka aktiviteetit tulosteet',
+    primaryKeyword: 'hienomotoriikka aktiviteetit tulosteina vakaa markkina',
     secondaryKeywords: [
       'hienomotoriikka aktiviteetit tulosteet opas',
       'hienomotoriikka aktiviteetit tulosteet 2026',

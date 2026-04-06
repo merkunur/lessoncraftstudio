@@ -1,7 +1,7 @@
 import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'ordbilder arbeidsark bedrift 2026',
+    primaryKeyword: 'ordbilder ord arbeidsark forretning',
     secondaryKeywords: ['ordbilder arbeidsark bedrift Etsy', 'ordbilder arbeidsark bedrift strategi', 'ordbilder arbeidsark bedrift tips'],
     lsiKeywords: ['sesongbaserte utskrifter', 'utskrivbare arbeidsark nisje', 'printable selger Norge'],
     titleTag: 'Ordbilder-arbeidsark som forretning | LCS',

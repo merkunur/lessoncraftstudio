@@ -1,8 +1,12 @@
 import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'advent jul printables selge november 2026',
-    secondaryKeywords: ['advent jul printables selge november Etsy', 'advent jul printables selge november strategi', 'advent jul printables selge november tips'],
+    primaryKeyword: 'advents juleutskrifter selg november advent jul',
+    secondaryKeywords: [
+      'norsk tilpasning unik vinkel',
+      'produktoppbygging prissetting',
+      'seo timing',
+    ],
     lsiKeywords: ['sesongbaserte utskrifter', 'utskrivbare arbeidsark nisje', 'printable selger Norge'],
     titleTag: 'Advents- og juleutskrifter: Selg i november | LCS',
     metaDescription: 'Norge har ingen Thanksgiving, men adventstiden (1.–24. desember) er en enorm mulighet. Selg pa Etsy & KDP med kommersiell lisens.',

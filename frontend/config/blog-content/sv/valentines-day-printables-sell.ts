@@ -4,9 +4,9 @@ const content: BlogContent = {
   seo: {
     primaryKeyword: 'alla hjaertans dag utskrifter saelj',
     secondaryKeywords: [
-      'alla hjärtans dag-utskrifter Etsy',
-      'alla hjärtans foeretagande',
-      'utskrifter alla hjärtans',
+      'produkter säljer denna nisch',
+      'skapandeprocess verktyg',
+      'marknadsföring säsongsplanering',
     ],
     lsiKeywords: [
       'utskriftsfoeretagande Sverige',

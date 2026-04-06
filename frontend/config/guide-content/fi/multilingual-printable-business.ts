@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'monikielinen tulostettava liiketoiminta',
+    primaryKeyword: 'tulostettava monikielinen liiketoiminta strategiaopas monikielisen tulostettavan liiketoiminnan',
     secondaryKeywords: [
       'myy tulostettavia useilla kielillä',
       'kansainvälinen tulostettavien markkina',

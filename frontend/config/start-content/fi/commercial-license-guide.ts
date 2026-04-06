@@ -2,7 +2,7 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'kaupallinen lisenssi tulostettavat tehtavat',
+    primaryKeyword: 'lisenssi opas kaupallinen tulostettaville taydelllinen',
     secondaryKeywords: [
       'kaupallinen kayttolisenssi tulostettavat tuotteet',
       'myy tehtavia kaupallisesti Etsy Amazon',

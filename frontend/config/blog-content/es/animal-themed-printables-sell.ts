@@ -2,8 +2,12 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'imprimibles tematica animales vender',
-    secondaryKeywords: ['imprimibles tematica animales vender negocio', 'imprimibles tematica animales vender Etsy vender', 'imprimibles tematica animales vender imprimibles rentable'],
+    primaryKeyword: 'animales imprimibles vender tema universalmente',
+    secondaryKeywords: [
+      'tipos productos mayor demanda',
+      'seo palabras clave espanol',
+      'adaptaciones culturales region',
+    ],
     lsiKeywords: ['imprimibles tematica fichas', 'vender imprimibles imprimibles', 'animales vender educativos'],
     titleTag: 'Imprimibles de Animales para Vender | LCS',
     metaDescription: 'Los animales son el tema mas universalmente popular entre ninos de todas las edades y culturas. Venda en Etsy & KDP con licencia comercial.',

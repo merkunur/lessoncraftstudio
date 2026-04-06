@@ -5,7 +5,7 @@ const content: IdeaContent = {
     titleTag: 'Hyönteisaiheiset tulostettavat ideat myyntiin — Nicheopas',
     metaDescription: 'Tutustu hyönteisaiheisiin tulostettaviin ideoihin myyntiin Etsyssä, Amazon KDP:ssä ja Gumroadilla. Tuotekonseptit, alustastrategiat ja vinkit myyjille.',
 
-    primaryKeyword: 'hyönteiset tulostettavat ideat',
+    primaryKeyword: 'myyntiin hyönteisaiheiset tulostettavat ideat nicheopas myyjille tutustu',
     secondaryKeywords: [
       'hyönteistyöarkit myyntiin',
       'hyönteisteemainen tulostettava liiketoiminta',

@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'sorterings arbeidsark generator',
+    primaryKeyword: 'bildesortering generator sorterings arbeidsark generator',
     secondaryKeywords: [
       'sorterings arbeidsark generator for selgere',
       'lag sorteringsarbeidsark til salg på Etsy',

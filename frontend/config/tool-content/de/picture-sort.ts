@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'kostenloser Sortier-Arbeitsblatt Generator',
+    primaryKeyword: 'kostenloser sortier arbeitsblatt maker arbeitsblätter kostenlos erstellen online',
     secondaryKeywords: [
       'Sortier-Arbeitsblätter kostenlos erstellen',
       'Bilder-Sortieren Generator online ohne Anmeldung',

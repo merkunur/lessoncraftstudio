@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'digitale vs fysieke printables vergelijking',
+    primaryKeyword: 'digitaal fysiek printables welk printable formaat past',
     secondaryKeywords: [
       'digitaal of fysiek printables verkopen',
       'print-on-demand versus digitale downloads',

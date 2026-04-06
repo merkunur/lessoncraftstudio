@@ -2,7 +2,7 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'flersproget arbejdsarksgenerator',
+    primaryKeyword: 'sprog arbejdsark flersproget paa lav generator arbejdsarksgenerator',
     secondaryKeywords: [
       'lav arbejdsark paa flere sprog',
       'flersprogede printbare arbejdsark',

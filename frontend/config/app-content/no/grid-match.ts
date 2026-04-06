@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'rutenettkobling puslespill generator',
+    primaryKeyword: 'puslespill rutenettkobling generator lag',
     secondaryKeywords: [
       'utskriftsbar rutenettspuslespill generator til Etsy-selgere',
       'bildefliser koblings arbeidsark generator til KDP',

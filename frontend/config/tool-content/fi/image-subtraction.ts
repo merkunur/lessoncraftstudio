@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'ilmainen vähennyslaskutehtävien tekijä verkossa',
+    primaryKeyword: 'ilmainen vähennyslaskutehtävien tekijä verkossa tee vähennyslaskutehtäviä ilmaiseksi rekisteröitymistä',
     secondaryKeywords: [
       'tee vähennyslaskutehtäviä ilmaiseksi verkossa',
       'vähennyslaskugeneraattori ilman rekisteröitymistä',

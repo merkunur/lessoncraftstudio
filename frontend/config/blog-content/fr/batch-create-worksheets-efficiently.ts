@@ -4,9 +4,9 @@ const content: BlogContent = {
   seo: {
     primaryKeyword: 'créer fiches en série efficacement',
     secondaryKeywords: [
-      'tutoriel créer fiches en',
-      'guide pas à pas créer fiches',
-      'comment créer fiches en',
+      'étape préparation',
+      'étape création production',
+      'étape optimisation publication',
     ],
     lsiKeywords: [
       'étapes créer fiches',

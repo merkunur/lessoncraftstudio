@@ -2,7 +2,11 @@ import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
     primaryKeyword: 'kundeservice digitale produkter',
-    secondaryKeywords: ['kundeservice digitale produkter tips', 'kundeservice digitale produkter strategi', 'kundeservice digitale produkter 2026'],
+    secondaryKeywords: [
+      'praktisk gjennomføring',
+      'optimalisering måling',
+      'vanlige feil unngå',
+    ],
     lsiKeywords: ['utskrivbare produkter forretning', 'printable selger strategi', 'digital nedlasting inntekt'],
     titleTag: 'Kundeservice for digitale produkter | LCS',
     metaDescription: 'Digitale produkter har unik kundeserviceutfordringer: kunder som ikke finner filen, printer som gir feil format, og. Selg pa Etsy & KDP med kommersiell lisens.',

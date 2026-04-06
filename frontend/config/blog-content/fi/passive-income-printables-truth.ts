@@ -2,7 +2,7 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'passiivinen tulo tulosteet totuus',
+    primaryKeyword: 'tulo passiivinen tulosteilla totuus onko tulosteiden',
     secondaryKeywords: [
       'passiivinen tulo tulosteet totuus opas',
       'passiivinen tulo tulosteet totuus 2026',

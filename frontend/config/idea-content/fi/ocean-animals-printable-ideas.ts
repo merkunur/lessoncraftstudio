@@ -5,7 +5,7 @@ const content: IdeaContent = {
     titleTag: 'Merieläin tulostettavat ideat myyntiin — Nicheopas',
     metaDescription: 'Tutustu merieläinaiheisiin tulostettaviin ideoihin myyntiin Etsyssä, Amazon KDP:ssä ja Gumroadilla. Tuotekonseptit, alustastrategiat ja vinkit myyjille.',
 
-    primaryKeyword: 'merieläin tulostettavat ideat',
+    primaryKeyword: 'merieläin tulostettavat ideat myyntiin',
     secondaryKeywords: [
       'merieläintyöarkit myyntiin',
       'meriaiheinen tulostettava liiketoiminta',

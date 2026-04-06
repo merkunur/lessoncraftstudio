@@ -2,7 +2,7 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'parhaat tyokalut tulostettavien tuotteiden myyjille',
+    primaryKeyword: 'parhaat työkalut tulostettavien tuotteiden myyjille välttämättömät liiketoiminnan omistajille',
     secondaryKeywords: [
       'tarkistuslista tyokalut tulostettavien liiketoiminta',
       'tehtavageneraattorityokalut myyjille',

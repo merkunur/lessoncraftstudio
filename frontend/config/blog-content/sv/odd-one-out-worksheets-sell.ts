@@ -4,9 +4,9 @@ const content: BlogContent = {
   seo: {
     primaryKeyword: 'vilken hoer inte hemma arbetsblad saelj',
     secondaryKeywords: [
-      'vilken-hör-inte-hemma sälj online Etsy',
-      'vilken-hör-inte-hemma sälj foeretagande',
-      'utskrifter vilken-hör-inte-hemma sälj',
+      'produkttyper säljer bäst',
+      'skapa professionella produkter snabbt',
+      'listnings marknadsföringsstrategi',
     ],
     lsiKeywords: [
       'utskriftsfoeretagande Sverige',

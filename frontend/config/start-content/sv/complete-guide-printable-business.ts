@@ -2,7 +2,7 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'starta printables-verksamhet guide 2026',
+    primaryKeyword: 'starta printables verksamhet 2026 ett utskriftsbart',
     secondaryKeywords: [
       'utskriftsbart företag för nybörjare',
       'sälja utskriftsbara arbetsblad online',

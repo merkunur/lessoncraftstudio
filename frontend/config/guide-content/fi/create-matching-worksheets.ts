@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'matchingtyöarkit',
+    primaryKeyword: 'opas matchingtyöarkit matchingtyöarkkeja luo',
     secondaryKeywords: ['matchingtyöarkkigeneraattori lapsille', 'tulostettavat yhdistäviivat-harjoitukset myyntiin', 'kuvaparit matchingtyöarkit', 'mukautetut visuaalisen erottelun harjoitukset'],
     lsiKeywords: ['piirrä viiva -matchingtyöarkit Etsyyn', 'Amazon KDP matchingaktiviteettikirjat', 'visuaalisen erottelun harjoitusarkit', 'kaupallinen lisenssi matchingtyökalu', 'esikoulun matchingaktiviteetit', 'kirjain-kuva matching -harjoitukset'],
     titleTag: 'Matchingtyöarkit — Opas',

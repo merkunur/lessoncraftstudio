@@ -2,7 +2,7 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'bingokortit tulosteet liiketoiminta',
+    primaryKeyword: 'bingo bingokortit tulostettavana liiketoiminta',
     secondaryKeywords: [
       'bingo tulostettava myynti',
       'kuvabingo lapsille Etsy',

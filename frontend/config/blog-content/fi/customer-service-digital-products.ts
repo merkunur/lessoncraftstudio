@@ -2,11 +2,11 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'asiakaspalvelu digitaaliset tuotteet',
+    primaryKeyword: 'asiakaspalvelu digitaalisille tuotteille tehokkaat kaytannot',
     secondaryKeywords: [
-      'asiakaspalvelu digitaaliset tuotteet opas',
-      'asiakaspalvelu digitaaliset tuotteet 2026',
-      'asiakaspalvelu digitaaliset tuotteet Suomi',
+      'kaytannoen toteutus vaihe vaiheelta',
+      'yleisimmat haasteet ratkaisut',
+      'mittaaminen optimointi',
     ],
     lsiKeywords: [
       'tulosteet liiketoiminta',

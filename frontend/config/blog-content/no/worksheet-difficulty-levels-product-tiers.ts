@@ -2,7 +2,11 @@ import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
     primaryKeyword: 'arbeidsark vanskelighetsgrader produktnivåer 2026',
-    secondaryKeywords: ['arbeidsark vanskelighetsgrader produktnivåer tips', 'arbeidsark vanskelighetsgrader produktnivåer guide', 'arbeidsark vanskelighetsgrader produktnivåer steg for steg'],
+    secondaryKeywords: [
+      'steg steg gjennomføring',
+      'optimalisering finjustering',
+      'publisering markedsføring',
+    ],
     lsiKeywords: ['arbeidsark produksjon', 'printable forretning guide', 'Etsy selger tutorial'],
     titleTag: 'Vanskelighetsgrader som produktnivåer | LCS',
     metaDescription: 'Ved å dele arbeidsark i vanskelighetsgrader får du automatisk flere produkter fra samme base. Selg pa Etsy & KDP med kommersiell lisens.',

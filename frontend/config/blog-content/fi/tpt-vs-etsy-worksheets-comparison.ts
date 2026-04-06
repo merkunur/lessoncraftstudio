@@ -4,9 +4,9 @@ const content: BlogContent = {
   seo: {
     primaryKeyword: 'Etsy vai Gumroad tyoarkit vertailu',
     secondaryKeywords: [
-      'Etsy vai Gumroad tyoarkit vertailu opas',
-      'Etsy vai Gumroad tyoarkit vertailu 2026',
-      'Etsy vai Gumroad tyoarkit vertailu Suomi',
+      'kaytannoen toteutus vaihe vaiheelta',
+      'yleisimmat haasteet ratkaisut',
+      'mittaaminen optimointi',
     ],
     lsiKeywords: [
       'tulosteet liiketoiminta',

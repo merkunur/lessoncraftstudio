@@ -2,7 +2,7 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'lajittelutyoarkit esikoulu myynti',
+    primaryKeyword: 'lajittelutyoarkit esikouluikaisille esikouluikaisten suosikkitehtava esikoulu',
     secondaryKeywords: [
       'lajittelu tehtavat lapsille Etsy',
       'kategoriointi tulosteet myy',

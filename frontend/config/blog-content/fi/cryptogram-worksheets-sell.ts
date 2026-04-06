@@ -2,7 +2,7 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'salakirjoitustyoarkit myy verkossa',
+    primaryKeyword: 'salakirjoitustyoarkit myyntiopas ainutlaatuinen myyntituote myy',
     secondaryKeywords: [
       'kryptogrammi tulosteet Etsy',
       'salakirjoitus tehtavat lapsille',

@@ -2,7 +2,7 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'KDP vs Etsy guadagni stampabili confronto',
+    primaryKeyword: 'kdp etsy quale guadagna più',
     secondaryKeywords: ['business stampabili digitali Italia', 'vendere stampabili online strategia', 'Etsy KDP stampabili mercato italiano'],
     lsiKeywords: ['stampabili educativi business', 'vendita online prodotti digitali', 'mercato italiano stampabili 2026'],
     titleTag: 'KDP vs Etsy: Quale Guadagna di Più? | LCS',

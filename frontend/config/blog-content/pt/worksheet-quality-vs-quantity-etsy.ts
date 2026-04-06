@@ -4,9 +4,9 @@ const content: BlogContent = {
   seo: {
     primaryKeyword: 'fichas qualidade quantidade Etsy',
     secondaryKeywords: [
-      'fichas qualidade quantidade Etsy guia',
-      'fichas qualidade quantidade Etsy dicas',
-      'fichas qualidade quantidade Etsy estratégia',
+      'estratégias funcionam',
+      'mercado brasileiro internacional',
+      'ferramentas recursos',
     ],
     lsiKeywords: [
       'negócio imprimíveis digital',

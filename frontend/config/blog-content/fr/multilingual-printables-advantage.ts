@@ -2,7 +2,7 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'avantage imprimables multilingues',
+    primaryKeyword: 'imprimables multilingue avantage multilingues',
     secondaryKeywords: ['vendre fiches plusieurs langues', 'imprimables multilingues Etsy', 'marché international fiches éducatives'],
     lsiKeywords: ['fiches bilingues vente', 'imprimables français anglais', 'marché mondial imprimables'],
     titleTag: 'L\'avantage des imprimables multilingues | LCS',

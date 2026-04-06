@@ -2,8 +2,12 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'usar imagenes tematicas vender fichas',
-    secondaryKeywords: ['usar imagenes tematicas vender fichas paso a paso', 'usar imagenes tematicas vender fichas tutorial', 'usar imagenes tematicas vender fichas guia practica'],
+    primaryKeyword: 'fichas ficha imagenes tematicas vender',
+    secondaryKeywords: [
+      'paso creacion contenido',
+      'paso compilacion formato',
+      'paso crear fotos listing',
+    ],
     lsiKeywords: ['usar imagenes tematicas tips', 'como usar imagenes', 'vender fichas facil'],
     titleTag: 'Imagenes Tematicas para Vender Mas Fichas | LCS',
     metaDescription: 'Una ficha de suma con numeros genericos compite con miles de productos identicos. La misma ficha de suma con dinosaurios, unicornios o animales marinos se ',

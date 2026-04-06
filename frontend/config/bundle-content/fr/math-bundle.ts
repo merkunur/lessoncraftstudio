@@ -2,7 +2,7 @@ import type { BundleContent } from '../types';
 
 const content: BundleContent = {
   seo: {
-    primaryKeyword: 'pack générateurs de maths pour vendeurs Etsy',
+    primaryKeyword: 'pack maths vendeurs etsy maîtrise',
     secondaryKeywords: [
       'pack fiches de maths pour vendeurs Etsy',
       'générateur fiches maths licence commerciale',

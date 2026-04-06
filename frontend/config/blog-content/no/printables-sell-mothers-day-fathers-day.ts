@@ -1,8 +1,12 @@
 import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'printables selge morsdag farsdag 2026',
-    secondaryKeywords: ['printables selge morsdag farsdag Etsy', 'printables selge morsdag farsdag strategi', 'printables selge morsdag farsdag tips'],
+    primaryKeyword: 'utskrifter morsdag farsdag',
+    secondaryKeywords: [
+      'norsk tilpasning unik vinkel',
+      'produktoppbygging prissetting',
+      'seo timing',
+    ],
     lsiKeywords: ['sesongbaserte utskrifter', 'utskrivbare arbeidsark nisje', 'printable selger Norge'],
     titleTag: 'Utskrifter for morsdag og farsdag | LCS',
     metaDescription: 'Morsdag (februar i Norge) og farsdag (november i Norge) er to store salgsmuligheter. Selg pa Etsy & KDP med kommersiell lisens.',

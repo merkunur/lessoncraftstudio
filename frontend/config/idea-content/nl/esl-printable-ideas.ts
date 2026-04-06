@@ -5,7 +5,7 @@ const content: IdeaContent = {
     titleTag: 'Printables NT2 — Ideeën business | LessonCraftStudio',
     metaDescription: 'Printables voor NT2 en Nederlands als tweede taal verkopen. Ideeën voor visueel ondersteunde werkbladen die inburgeringsprogramma\'s en taalscholen inkopen.',
 
-    primaryKeyword: 'printables NT2 Nederlands tweede taal business',
+    primaryKeyword: 'printables nt2 ideeën business verkopen gefinancierde niche',
     secondaryKeywords: [
       'NT2 werkbladen verkopen Etsy',
       'inburgering printables business Nederland',

@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'Mathe-Arbeitsblatt-Generator für Etsy und KDP Verkäufer',
+    primaryKeyword: 'mathe arbeitsblatt generator für verkäufer arbeitsblätter erstellen etsy',
     secondaryKeywords: [
       'Algebra-Bilderrätsel für Etsy-Shop erstellen',
       'Gleichungsrätsel-Arbeitsblätter für Amazon KDP',

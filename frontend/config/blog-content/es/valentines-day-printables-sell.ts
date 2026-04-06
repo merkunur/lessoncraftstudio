@@ -3,7 +3,11 @@ import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
     primaryKeyword: 'imprimibles San Valentin Dia del Amor',
-    secondaryKeywords: ['imprimibles San Valentin Dia del Amor negocio', 'imprimibles San Valentin Dia del Amor Etsy vender', 'imprimibles San Valentin Dia del Amor imprimibles rentable'],
+    secondaryKeywords: [
+      'tipos productos mayor demanda',
+      'seo palabras clave espanol',
+      'adaptaciones culturales region',
+    ],
     lsiKeywords: ['imprimibles San fichas', 'vender imprimibles imprimibles', 'del Amor educativos'],
     titleTag: 'Imprimibles de San Valentin para Vender | LCS',
     metaDescription: 'San Valentin en Espana, Dia del Amor y la Amistad en Mexico (14 febrero) y en Colombia (tercer sabado de. Venda en Etsy & KDP con licencia comercial.',

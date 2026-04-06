@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'kuvaristikko-generaattori tulostukseen',
+    primaryKeyword: 'kuvaristikko generaattori ristikkopalapelit kuvavihjeilla',
     secondaryKeywords: ['ristikko kuvilla verkossa', 'tee kuvaristikko-tehtavia', 'ristikkopalapeli-generaattori kuvavihjeilla', 'sanasto-ristikko-generaattori kayttajille'],
     lsiKeywords: ['kuvaristikkopalapeli kuvavihjeilla sanastonharjoitteluun', 'monikielinen ristikko-generaattori automaattisella vastausavaimella', 'mukautettu sanalista ristikko vihjeilla -generaattori'],
     titleTag: 'Kuvaristikko-generaattori — Ristikkopalapelit kuvavihjeilla',

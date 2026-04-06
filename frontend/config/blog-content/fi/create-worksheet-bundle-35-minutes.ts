@@ -2,7 +2,7 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'luo tyoarkkipaketti 35 minuuttia',
+    primaryKeyword: 'luo tyoarkkipaketti minuutissa vaiheittainen opas',
     secondaryKeywords: [
       'luo tyoarkkipaketti 35 minuuttia opas',
       'luo tyoarkkipaketti 35 minuuttia vaiheittain',

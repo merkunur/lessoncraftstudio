@@ -5,7 +5,7 @@ const content: IdeaContent = {
     titleTag: 'Fysieke gedrukte producten — Business | LessonCraftStudio',
     metaDescription: 'Fysieke gedrukte printable producten verkopen op Etsy en markten. Ideeën voor gelamineerde werkbladsets en gebonden werkboeken met premium marges.',
 
-    primaryKeyword: 'fysieke gedrukte producten ideeën business',
+    primaryKeyword: 'fysieke gedrukte producten business printable premium prijzen',
     secondaryKeywords: [
       'gelamineerde werkbladen verkopen Etsy',
       'fysieke printable producten premium',

@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'SEO Etsy pour fiches pédagogiques 2026',
+    primaryKeyword: 'seo etsy fiches pédagogiques 2026 produits imprimables imprimable',
     secondaryKeywords: [
       'SEO Etsy pour fiches pédagogiques imprimables',
       'recherche de mots-clés Etsy produits éducatifs',

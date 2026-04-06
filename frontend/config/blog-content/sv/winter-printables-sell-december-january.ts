@@ -2,11 +2,11 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'vinterutskrifter december januari saelj',
+    primaryKeyword: 'vinterutskrifter vinter december januari',
     secondaryKeywords: [
-      'vinterutskrifter december-januari Etsy',
-      'vinterutskrifter december-januari foeretagande',
-      'utskrifter vinterutskrifter december-januari',
+      'produkter säljer denna nisch',
+      'skapandeprocess verktyg',
+      'marknadsföring säsongsplanering',
     ],
     lsiKeywords: [
       'utskriftsfoeretagande Sverige',

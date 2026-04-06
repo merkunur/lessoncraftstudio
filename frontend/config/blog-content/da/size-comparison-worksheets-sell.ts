@@ -2,7 +2,7 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'størrelsessammenligning arbejdsark sælg',
+    primaryKeyword: 'størrelsessammenligning arbejdsark sælg visuelt',
     secondaryKeywords: ['størrelsessammenligning arbejdsark sælg Etsy', 'størrelsessammenligning arbejdsark sælg online', 'størrelsessammenligning arbejdsark sælg forretning'],
     lsiKeywords: ['printbar forretning Danmark', 'digital download salg', 'Etsy printables sælg'],
     titleTag: 'Størrelsessammenligning-Arbejdsark: Sælg Visuelt | LCS',

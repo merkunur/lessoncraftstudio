@@ -2,7 +2,7 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'bedste papirstørrelse printbare produkter',
+    primaryKeyword: 'bedste papirstørrelse printables letter guide',
     secondaryKeywords: ['A4 vs Letter printbar format', 'papirformat printable Etsy', 'printbar PDF størrelse guide'],
     lsiKeywords: ['printformat valg', 'A4 papir standard', 'PDF dimensioner'],
     titleTag: 'Bedste Papirstørrelse til Printables | LCS',

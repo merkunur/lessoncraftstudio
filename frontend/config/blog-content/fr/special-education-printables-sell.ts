@@ -4,9 +4,9 @@ const content: BlogContent = {
   seo: {
     primaryKeyword: 'imprimables éducation spécialisée ULIS ASH',
     secondaryKeywords: [
-      'vendre imprimables imprimables éducation spécialisée',
-      'fiches imprimables éducation Etsy',
-      'créer imprimables imprimables éducation',
+      'types produits vendent',
+      'stratégie seo marketing',
+      'adaptations marché français',
     ],
     lsiKeywords: [
       'marché imprimables éducation',

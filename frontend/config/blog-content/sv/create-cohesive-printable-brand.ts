@@ -2,7 +2,7 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'skapa sammanhaangande utskriftsmaerke',
+    primaryKeyword: 'ett skapa sammanhängande utskriftsmärke',
     secondaryKeywords: [
       'skapa sammanhängande utskriftsmärke Etsy',
       'skapa sammanhängande foeretagande',

@@ -1,7 +1,7 @@
 import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'flerspråklige printables fordel',
+    primaryKeyword: 'printable språk fordelen flerspråklige printables',
     secondaryKeywords: ['flerspråklige printables fordel tips', 'flerspråklige printables fordel strategi', 'flerspråklige printables fordel 2026'],
     lsiKeywords: ['utskrivbare produkter forretning', 'printable selger strategi', 'digital nedlasting inntekt'],
     titleTag: 'Fordelen med flerspråklige printables | LCS',

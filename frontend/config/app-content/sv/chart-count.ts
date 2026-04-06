@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'räkne- och diagramblad för Etsy-shop',
+    primaryKeyword: 'diagramblad sälja etsy skapa räkne kdp',
     secondaryKeywords: [
       'bilddiagram arbetsblad att sälja på Etsy',
       'diagramräkning generator för Amazon KDP',

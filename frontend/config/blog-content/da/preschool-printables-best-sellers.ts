@@ -2,7 +2,7 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'førskole printables bestsellere',
+    primaryKeyword: 'førskole printable printables top bestsellere',
     secondaryKeywords: ['førskole printables bestsellere Etsy', 'førskole printables bestsellere online', 'førskole printables bestsellere forretning'],
     lsiKeywords: ['printbar forretning Danmark', 'digital download salg', 'Etsy printables sælg'],
     titleTag: 'Førskole-Printables: Top Bestsellere | LCS',

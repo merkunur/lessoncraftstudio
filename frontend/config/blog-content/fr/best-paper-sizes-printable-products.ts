@@ -2,11 +2,11 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'meilleurs formats papier imprimables A4',
+    primaryKeyword: 'meilleurs formats papier imprimables letter quel format',
     secondaryKeywords: [
-      'tutoriel meilleurs formats papier',
-      'guide pas à pas meilleurs formats',
-      'comment meilleurs formats papier',
+      'pourquoi important',
+      'étape préparation',
+      'étape création production',
     ],
     lsiKeywords: [
       'étapes meilleurs formats',

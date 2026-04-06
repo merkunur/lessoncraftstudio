@@ -4,9 +4,9 @@ const content: BlogContent = {
   seo: {
     primaryKeyword: 'amostras imprimíveis grátis lead magnet',
     secondaryKeywords: [
-      'amostras imprimíveis grátis lead magnet passo a passo',
-      'amostras imprimíveis grátis lead magnet tutorial',
-      'amostras imprimíveis grátis lead magnet como fazer',
+      'passo passo',
+      'ferramentas necessárias',
+      'dicas avançadas',
     ],
     lsiKeywords: [
       'tutorial imprimíveis',

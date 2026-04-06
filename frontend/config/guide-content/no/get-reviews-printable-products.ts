@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'fa anmeldelser printbare produkter',
+    primaryKeyword: 'anmeldelsesakkumulering anmeldelser printbare produkter',
     secondaryKeywords: ['anmeldelser Etsy printables', 'bygge tillit digitale produkter', 'kjoperfeedback printable-virksomhet', 'anmeldelsesstrategi markedsplasser'],
     lsiKeywords: ['anmeldelsesakkumulering markedsplasser', 'sosialt bevis digitale produkter', 'kjopervurderinger arbeidsark', 'oppfolging etter kjop', 'produktkvalitet driver anmeldelser'],
     titleTag: 'Fa anmeldelser for printbare produkter — Guide',

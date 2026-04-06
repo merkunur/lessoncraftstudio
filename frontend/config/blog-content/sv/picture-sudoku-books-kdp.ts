@@ -4,9 +4,9 @@ const content: BlogContent = {
   seo: {
     primaryKeyword: 'bild sudoku boecker KDP',
     secondaryKeywords: [
-      'bild-sudoku-böcker Etsy',
-      'bild-sudoku-böcker foeretagande',
-      'utskrifter bild-sudoku-böcker',
+      'produkttyper säljer bäst',
+      'skapa professionella produkter snabbt',
+      'listnings marknadsföringsstrategi',
     ],
     lsiKeywords: [
       'utskriftsfoeretagande Sverige',

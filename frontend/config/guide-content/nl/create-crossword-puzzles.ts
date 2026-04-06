@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'kruiswoordpuzzels maken om online te verkopen',
+    primaryKeyword: 'kruiswoordpuzzels maken verkopen online',
     secondaryKeywords: [
       'kruiswoordpuzzel generator met beeldaanwijzingen',
       'printbare kruiswoordpuzzels verkopen Etsy KDP',

@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'monikieliset tulostettavat työarkit',
+    primaryKeyword: 'monikieliset tulostettavat työarkit opas luo monikielisiä tulostettavia työarkkeja',
     secondaryKeywords: ['luo työarkkeja useilla kielillä', 'monikielinen tulostettavien liiketoiminta', 'kieliversiot tulostettaville tuotteille', 'monikielinen Etsy KDP strategia'],
     lsiKeywords: ['monikielinen sisällöntuotanto tulostettaville', 'kielimultiplikaattori tulostettavien myyjille', 'kansainväliset markkinat tulostettaville tuotteille'],
     titleTag: 'Monikieliset tulostettavat työarkit — Opas',

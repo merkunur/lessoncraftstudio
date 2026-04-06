@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'välja nisch för printables-verksamhet 2026',
+    primaryKeyword: 'välja nisch för printables 2026 nischvalsguide utskriftsbara företag',
     secondaryKeywords: [
       'nischforskning utskriftsbara produkter',
       'lönsamma utskriftsbara nischer',

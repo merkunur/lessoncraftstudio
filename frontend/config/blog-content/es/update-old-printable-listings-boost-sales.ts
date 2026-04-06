@@ -2,8 +2,12 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'actualizar listings antiguos imprimibles ventas',
-    secondaryKeywords: ['actualizar listings antiguos imprimibles ventas paso a paso', 'actualizar listings antiguos imprimibles ventas tutorial', 'actualizar listings antiguos imprimibles ventas guia practica'],
+    primaryKeyword: 'actualizar listings antiguos ventas',
+    secondaryKeywords: [
+      'paso creacion contenido',
+      'paso compilacion formato',
+      'paso crear fotos listing',
+    ],
     lsiKeywords: ['actualizar listings antiguos tips', 'como actualizar listings', 'imprimibles ventas facil'],
     titleTag: 'Actualizar Listings Antiguos para Mas Ventas | LCS',
     metaDescription: 'Antes de crear nuevos productos, optimice los existentes. Actualizar titulos, fotos, descripciones y etiquetas de. Venda en Etsy & KDP con licencia comercial.',

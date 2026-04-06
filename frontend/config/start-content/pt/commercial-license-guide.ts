@@ -2,7 +2,7 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'guia completo licença comercial imprimíveis educativos',
+    primaryKeyword: 'licença comercial vendedores imprimíveis',
     secondaryKeywords: [
       'o que cobre uma licença comercial de atividades',
       'licença de uso comercial imprimíveis educativos',

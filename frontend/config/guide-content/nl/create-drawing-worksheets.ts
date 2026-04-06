@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'tekenwerkbladen maken om te verkopen',
+    primaryKeyword: 'tekenwerkbladen maken verkopen leer hoe',
     secondaryKeywords: [
       'rastertekenwerkbladen verkopen op Etsy',
       'symmetrie werkbladen Amazon KDP maken',

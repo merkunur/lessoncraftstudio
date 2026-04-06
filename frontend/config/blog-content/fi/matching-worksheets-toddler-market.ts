@@ -2,7 +2,7 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'yhdistamistyoarkit taaperomarkkina',
+    primaryKeyword: 'yhdistamistyoarkit taaperomarkkinoilla markkina myy',
     secondaryKeywords: ['yhdista parit tyoarkit lapsille', 'matching tulosteet pienille lapsille', 'taaperoaktiviteetit tulostettava'],
     lsiKeywords: ['visuaalinen hahmotus tulosteet', 'kognitiivinen kehitys tehtavat', 'parinmuodostus harjoitukset'],
     titleTag: 'Yhdistamistyoarkit taaperomarkkinoilla | LCS',

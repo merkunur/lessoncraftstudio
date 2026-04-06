@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'palapelit puuttuvat palat -tehtavat',
+    primaryKeyword: 'puuttuvat palat generaattori palapelitehtava',
     secondaryKeywords: [
       'palapelitehtava-generaattori myyjille',
       'tee puuttuvat palat -palapelejaemyyntiin',

@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'kryptogrammipulmat',
+    primaryKeyword: 'kryptogrammipulmat opas kryptogrammipulmiä luo',
     secondaryKeywords: [
       'luo kryptogrammipulmiä myyntiin',
       'kuvasalaus-pulmageneraattori kaupallinen käyttö',

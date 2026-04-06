@@ -1,8 +1,12 @@
 import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'lag arbeidsark i partier effektivt 2026',
-    secondaryKeywords: ['lag arbeidsark i partier effektivt tips', 'lag arbeidsark i partier effektivt guide', 'lag arbeidsark i partier effektivt steg for steg'],
+    primaryKeyword: 'effektiv lag arbeidsark partier',
+    secondaryKeywords: [
+      'steg steg gjennomføring',
+      'optimalisering finjustering',
+      'publisering markedsføring',
+    ],
     lsiKeywords: ['arbeidsark produksjon', 'printable forretning guide', 'Etsy selger tutorial'],
     titleTag: 'Lag arbeidsark i partier effektivt | LCS',
     metaDescription: 'Effektiv batchproduksjon er nøkkelen til skalering. Denne guiden viser deg en arbeidsflyt for å generere store. Selg pa Etsy & KDP med kommersiell lisens.',

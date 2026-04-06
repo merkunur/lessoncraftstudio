@@ -2,7 +2,11 @@ import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
     primaryKeyword: 'Gumroad eller Etsy digitale produkter',
-    secondaryKeywords: ['Gumroad eller Etsy digitale produkter tips', 'Gumroad eller Etsy digitale produkter strategi', 'Gumroad eller Etsy digitale produkter 2026'],
+    secondaryKeywords: [
+      'praktisk gjennomføring',
+      'optimalisering måling',
+      'vanlige feil unngå',
+    ],
     lsiKeywords: ['utskrivbare produkter forretning', 'printable selger strategi', 'digital nedlasting inntekt'],
     titleTag: 'Gumroad vs Etsy for digitale produkter | LCS',
     metaDescription: 'Etsy gir deg trafikk men tar avgifter. Gumroad gir deg kontroll men krever egen markedsføring. Denne guiden hjelper deg å velge riktig plattform — ell',

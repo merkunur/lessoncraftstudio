@@ -1,7 +1,7 @@
 import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'koblingsoppgaver småbarnsmarked 2026',
+    primaryKeyword: 'koblingsoppgaver småbarn markedet 2026',
     secondaryKeywords: ['matching arbeidsark selge', 'koblingsark barn Etsy', 'småbarn aktiviteter utskrift'],
     lsiKeywords: ['parre-oppgaver utskrift', 'visuell kobling barn', 'toddler arbeidsark salg'],
     titleTag: 'Koblingsoppgaver: Småbarnsmarkedet 2026 | LCS',

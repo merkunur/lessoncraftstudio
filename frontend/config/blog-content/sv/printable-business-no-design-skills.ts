@@ -2,7 +2,7 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'utskriftsfoeretagande utan designkunskaper',
+    primaryKeyword: 'utskriftsverksamhet utan designkunskaper',
     secondaryKeywords: [
       'utskriftsverksamhet utan designkunskaper Etsy',
       'utskriftsverksamhet utan foeretagande',

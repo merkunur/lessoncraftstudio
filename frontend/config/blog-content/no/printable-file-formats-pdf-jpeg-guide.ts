@@ -1,8 +1,12 @@
 import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'printable filformater PDF JPEG guide 2026',
-    secondaryKeywords: ['printable filformater PDF JPEG guide tips', 'printable filformater PDF JPEG guide guide', 'printable filformater PDF JPEG guide steg for steg'],
+    primaryKeyword: 'filformater printables pdf jpeg printable',
+    secondaryKeywords: [
+      'steg steg gjennomføring',
+      'optimalisering finjustering',
+      'publisering markedsføring',
+    ],
     lsiKeywords: ['arbeidsark produksjon', 'printable forretning guide', 'Etsy selger tutorial'],
     titleTag: 'Filformater for printables: PDF vs JPEG | LCS',
     metaDescription: 'PDF er standard for utskrifter, men noen kunder foretrekker JPEG. Selg pa Etsy & KDP med kommersiell lisens.',

@@ -4,9 +4,9 @@ const content: BlogContent = {
   seo: {
     primaryKeyword: 'fichas tema alimentos vender',
     secondaryKeywords: [
-      'fichas tema alimentos vender negócio',
-      'fichas tema alimentos vender vender',
-      'fichas tema alimentos vender Etsy',
+      'produtos mais vendem neste',
+      'estratégia preço pacotes',
+      'marketing seo este nicho',
     ],
     lsiKeywords: [
       'imprimíveis sazonais vender',

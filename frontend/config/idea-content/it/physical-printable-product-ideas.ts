@@ -4,7 +4,7 @@ const content: IdeaContent = {
   seo: {
     titleTag: 'Prodotti stampati fisici — Business | LessonCraftStudio',
     metaDescription: 'Crea prodotti stampati fisici da vendere su Etsy e alle fiere. Schede plastificate, quaderni rilegati e kit premium — idee e strategie per venditori.',
-    primaryKeyword: 'prodotti stampati fisici idee business',
+    primaryKeyword: 'prodotti stampati fisici business stampabili livello premium',
     secondaryKeywords: [
       'business schede didattiche stampate plastificate',
       'vendere prodotti educativi fisici Etsy',

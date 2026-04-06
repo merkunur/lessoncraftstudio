@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'mönsterigenkänning arbetsblad för Etsy-säljare',
+    primaryKeyword: 'mönsterigenkänning sälja etsy skapa arbetsblad kdp',
     secondaryKeywords: [
       'mönsterarbetsblad att sälja på Etsy',
       'mönsterkomplettering generator för Amazon KDP',

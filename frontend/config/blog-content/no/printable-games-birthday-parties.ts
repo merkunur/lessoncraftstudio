@@ -1,8 +1,12 @@
 import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'utskrivbare spill bursdagsfester 2026',
-    secondaryKeywords: ['utskrivbare spill bursdagsfester Etsy', 'utskrivbare spill bursdagsfester strategi', 'utskrivbare spill bursdagsfester tips'],
+    primaryKeyword: 'bursdagsfester utskrivbare spill',
+    secondaryKeywords: [
+      'norsk tilpasning unik vinkel',
+      'produktoppbygging prissetting',
+      'seo timing',
+    ],
     lsiKeywords: ['sesongbaserte utskrifter', 'utskrivbare arbeidsark nisje', 'printable selger Norge'],
     titleTag: 'Utskrivbare spill for bursdagsfester | LCS',
     metaDescription: 'Bursdagsfester er en stor mulighet for printable-selgere. Foreldre søker etter ferdigpakkede aktiviteter: bingo, skattejakt, tegneoppgaver og puslespi',

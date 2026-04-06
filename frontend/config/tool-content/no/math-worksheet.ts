@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'matematikk arbeidsark generator',
+    primaryKeyword: 'generer algebra matematikk arbeidsark generator',
     secondaryKeywords: [
       'matematikk arbeidsark generator for selgere',
       'lag algebra puslespillarbeidsark til salg',

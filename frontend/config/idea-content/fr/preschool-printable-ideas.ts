@@ -5,7 +5,7 @@ const content: IdeaContent = {
     titleTag: 'Imprimables maternelle pour Etsy | LCS',
     metaDescription: 'Idées d\'imprimables préscolaires à vendre sur Etsy, KDP et Gumroad. Concepts produits marché préscolaire, stratégies de niche et conseils pour.',
 
-    primaryKeyword: 'imprimables maternelle à vendre sur Etsy',
+    primaryKeyword: 'imprimables maternelle etsy idées préscolaires vendeurs',
     secondaryKeywords: [
       'fiches marché préscolaire à vendre',
       'idées business imprimables pré-marché préscolaire',

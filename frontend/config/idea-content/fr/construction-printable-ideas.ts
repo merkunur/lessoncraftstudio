@@ -5,7 +5,7 @@ const content: IdeaContent = {
     titleTag: 'Imprimables chantier à vendre | LCS',
     metaDescription: 'Idées d\'imprimables construction à vendre sur Etsy, KDP et Gumroad. Concepts de produits véhicules et outils, stratégies et conseils vendeurs.',
 
-    primaryKeyword: 'imprimables chantier à vendre',
+    primaryKeyword: 'imprimables chantier vendre idées construction vendeurs',
     secondaryKeywords: [
       'fiches construction à vendre',
       'idées business imprimables chantier',

@@ -3,7 +3,11 @@ import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
     primaryKeyword: 'erreurs vendeurs imprimables à éviter',
-    secondaryKeywords: ['pièges débutant vente fiches', 'fautes courantes boutique Etsy imprimables', 'erreurs activité imprimables'],
+    secondaryKeywords: [
+      'erreurs marketing',
+      'erreurs qualité',
+      'erreurs mentalité',
+    ],
     lsiKeywords: ['échecs vendeurs fiches', 'problèmes boutique Etsy débutant', 'conseils éviter erreurs'],
     titleTag: '10 erreurs d\'imprimables à éviter | LCS',
     metaDescription: 'Les 10 erreurs les plus courantes des vendeurs d\'imprimables et comment les corriger rapidement pour booster vos ventes.',

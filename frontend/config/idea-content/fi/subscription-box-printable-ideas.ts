@@ -5,7 +5,7 @@ const content: IdeaContent = {
     titleTag: 'Tilauslaatikon tulostettavat ideat myyntiin — Opas',
     metaDescription: 'Tutustu tilauslaatikon tulostettaviin ideoihin Etsy-, KDP- ja Gumroad-myyjille. Rakenna toistuvan tuoton tulostettava liiketoiminta kuukausittaisilla.',
 
-    primaryKeyword: 'tilauslaatikko tulostettavat ideat',
+    primaryKeyword: 'tilauslaatikon tulostettava tulostettavat ideat myyjille liiketoiminta myyntiin',
     secondaryKeywords: [
       'tulostettava tilausliiketoiminta ideat',
       'kuukausittainen työarkkitilaus myyjille',

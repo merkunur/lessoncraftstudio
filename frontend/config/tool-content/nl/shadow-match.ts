@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'gratis schaduwwerkbladen generator',
+    primaryKeyword: 'schaduwwerkbladen gratis online schaduw koppelen werkbladen maken',
     secondaryKeywords: [
       'schaduw koppelen werkbladen online maken gratis',
       'silhouet koppelwerkblad generator',

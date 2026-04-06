@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'tegn linjer generator',
+    primaryKeyword: 'arbejdsark tegn linjer generator opret sporingsarbejdsark',
     secondaryKeywords: [
       'linjesporing arbejdsark sælg på Etsy',
       'tegn linjer arbejdsark generator til Amazon KDP',

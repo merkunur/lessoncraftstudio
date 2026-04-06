@@ -5,7 +5,7 @@ const content: IdeaContent = {
     titleTag: 'Printables kamperen — Business | LessonCraftStudio',
     metaDescription: 'Verkoop kampeer printables op Etsy en Gumroad. Tenten, kampvuren en natuur productideeën voor uw printable business — seizoenspieken plus jaarronde vraag.',
 
-    primaryKeyword: 'printables kamperen ideeën business',
+    primaryKeyword: 'printables printable business kampeer seizoen plus kamperen',
     secondaryKeywords: [
       'kampeer werkbladen verkopen Etsy',
       'buitenactiviteiten printable business ideeën',

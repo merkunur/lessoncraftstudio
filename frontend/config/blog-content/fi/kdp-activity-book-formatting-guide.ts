@@ -4,9 +4,9 @@ const content: BlogContent = {
   seo: {
     primaryKeyword: 'KDP aktiviteettikirja muotoilu opas',
     secondaryKeywords: [
-      'KDP aktiviteettikirja muotoilu opas opas',
-      'KDP aktiviteettikirja muotoilu opas 2026',
-      'KDP aktiviteettikirja muotoilu opas Suomi',
+      'kaytannoen toteutus vaihe vaiheelta',
+      'yleisimmat haasteet ratkaisut',
+      'mittaaminen optimointi',
     ],
     lsiKeywords: [
       'tulosteet liiketoiminta',

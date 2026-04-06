@@ -2,7 +2,7 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'imprimíveis homeschool mercado crescente',
+    primaryKeyword: 'homeschool imprimíveis mercado crescente',
     secondaryKeywords: [
       'imprimíveis homeschool mercado crescente negócio',
       'imprimíveis homeschool mercado crescente vender',

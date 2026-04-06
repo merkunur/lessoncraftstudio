@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'kostenloser Schreibübungen-Generator',
+    primaryKeyword: 'kostenloser schreibübungen generator kostenlos erstellen drei übungsmodi',
     secondaryKeywords: [
       'Schreibübungen-Arbeitsblätter kostenlos erstellen',
       'Handschrift-Generator online ohne Anmeldung',

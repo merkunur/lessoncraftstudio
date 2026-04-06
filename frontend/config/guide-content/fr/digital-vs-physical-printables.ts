@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'imprimables numériques vs physiques comparaison',
+    primaryKeyword: 'numérique physique imprimables produits numériques physiques',
     secondaryKeywords: [
       'modèle commercial imprimables numériques',
       'impression à la demande ou téléchargement numérique',

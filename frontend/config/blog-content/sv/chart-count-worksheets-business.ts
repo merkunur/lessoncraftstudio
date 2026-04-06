@@ -2,7 +2,7 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'diagram raeknearbetsblad foeretagande',
+    primaryKeyword: 'diagram räknearbetsblad säljer',
     secondaryKeywords: [
       'diagram- räknearbetsblad säljer Etsy',
       'diagram- räknearbetsblad foeretagande',

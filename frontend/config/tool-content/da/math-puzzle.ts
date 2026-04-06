@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'mattepuslespil generator online',
+    primaryKeyword: 'mattepuslespil puslespil generator arbejdsark',
     secondaryKeywords: [
       'puslespil matematikarbejdsark for sælgere',
       'mattepuslespil generator for børn',

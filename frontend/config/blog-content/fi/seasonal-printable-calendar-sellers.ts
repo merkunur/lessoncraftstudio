@@ -2,7 +2,7 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'kausikalenteri tulosteet myyjat',
+    primaryKeyword: 'suunnittele kausien kausikalenteri tulostekauppiaalle',
     secondaryKeywords: [
       'kausikalenteri tulosteet myyjat opas',
       'kausikalenteri tulosteet myyjat 2026',

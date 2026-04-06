@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'asiakastuki digitaalisille tuotteille',
+    primaryKeyword: 'asiakastuki digitaalisille tuotteille opas digitaalisten tuotteiden liiketoiminnalle',
     secondaryKeywords: [
       'digitaalisen tuotteen asiakaspalvelu',
       'tulostettavien tuotteiden tuki',

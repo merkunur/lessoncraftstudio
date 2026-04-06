@@ -4,9 +4,9 @@ const content: BlogContent = {
   seo: {
     primaryKeyword: 'bingokort utskriftsfoeretagande',
     secondaryKeywords: [
-      'bingokort utskriftsföretagande Etsy',
-      'bingokort utskriftsföretagande foeretagande',
-      'utskrifter bingokort utskriftsföretagande',
+      'produkttyper säljer bäst',
+      'skapa professionella produkter snabbt',
+      'listnings marknadsföringsstrategi',
     ],
     lsiKeywords: [
       'utskriftsfoeretagande Sverige',

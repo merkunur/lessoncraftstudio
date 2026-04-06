@@ -2,7 +2,7 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'schede disegnare e colorare vendere',
+    primaryKeyword: 'schede disegna colora vendere online come',
     secondaryKeywords: ['schede disegno guidato bambini Etsy', 'stampabili disegna e colora vendere', 'business schede creative bambini'],
     lsiKeywords: ['attività disegno guidato educativo', 'schede artistiche stampabili', 'disegno passo passo bambini'],
     titleTag: 'Schede Disegna e Colora: Vendere Online | LCS',

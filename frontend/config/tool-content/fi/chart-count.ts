@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'kuvakaavio tyoarkkigeneraattori myyjille',
+    primaryKeyword: 'kuvakaavio tehtäviä ssa',
     secondaryKeywords: [
       'piktogrammi tyoarkkigeneraattori verkossa',
       'kaaviolaskenta tyoarkit lapsille',

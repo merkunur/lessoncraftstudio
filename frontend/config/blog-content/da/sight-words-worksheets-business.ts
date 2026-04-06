@@ -2,7 +2,7 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'ordgenkendelse arbejdsark forretning',
+    primaryKeyword: 'ordgenkendelse arbejdsark dansk forretning',
     secondaryKeywords: ['ordgenkendelse arbejdsark forretning Etsy', 'ordgenkendelse arbejdsark forretning online', 'ordgenkendelse arbejdsark forretning forretning'],
     lsiKeywords: ['printbar forretning Danmark', 'digital download salg', 'Etsy printables sælg'],
     titleTag: 'Ordgenkendelse-Arbejdsark: Dansk Forretning | LCS',

@@ -4,9 +4,9 @@ const content: BlogContent = {
   seo: {
     primaryKeyword: 'calendário sazonal vendedores imprimíveis',
     secondaryKeywords: [
-      'calendário sazonal vendedores imprimíveis guia',
-      'calendário sazonal vendedores imprimíveis dicas',
-      'calendário sazonal vendedores imprimíveis estratégia',
+      'estratégias funcionam',
+      'mercado brasileiro internacional',
+      'ferramentas recursos',
     ],
     lsiKeywords: [
       'negócio imprimíveis digital',

@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'kostenloser Mustererkennungs-Generator',
+    primaryKeyword: 'kostenloser mustererkennungs generator arbeitsblätter kostenlos erstellen online',
     secondaryKeywords: [
       'Mustererkennungs-Arbeitsblätter kostenlos erstellen',
       'Muster-Generator online ohne Anmeldung',

@@ -2,7 +2,7 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'revenus réalistes activité imprimables',
+    primaryKeyword: 'imprimables revenus réalistes activité',
     secondaryKeywords: [
       'combien gagner vente imprimables',
       'revenus vendeur fiches pédagogiques',

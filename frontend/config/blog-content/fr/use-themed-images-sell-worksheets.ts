@@ -4,9 +4,9 @@ const content: BlogContent = {
   seo: {
     primaryKeyword: 'utiliser images thématiques vendre fiches',
     secondaryKeywords: [
-      'tutoriel utiliser images thématiques',
-      'guide pas à pas utiliser images',
-      'comment utiliser images thématiques',
+      'étape préparation',
+      'étape création production',
+      'étape optimisation publication',
     ],
     lsiKeywords: [
       'étapes utiliser images',

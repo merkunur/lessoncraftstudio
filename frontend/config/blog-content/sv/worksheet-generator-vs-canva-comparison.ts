@@ -4,9 +4,9 @@ const content: BlogContent = {
   seo: {
     primaryKeyword: 'arbetsblads generator vs Canva jaemfoerelse',
     secondaryKeywords: [
-      'arbetsblads-generator canva Etsy',
-      'arbetsblads-generator canva foeretagande',
-      'utskrifter arbetsblads-generator canva',
+      'steg för steg guide',
+      'vanliga misstag undvika',
+      'avancerade tips',
     ],
     lsiKeywords: [
       'utskriftsfoeretagande Sverige',

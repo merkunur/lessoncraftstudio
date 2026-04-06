@@ -2,11 +2,11 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'tulostettavat pelit syntymapaivajuhlat',
+    primaryKeyword: 'tulostettavat pelit syntymapaivajahliin helppo bisnes',
     secondaryKeywords: [
-      'tulostettavat pelit syntymapaivajuhlat opas',
-      'tulostettavat pelit syntymapaivajuhlat 2026',
-      'tulostettavat pelit syntymapaivajuhlat Suomi',
+      'tuotevalikoima teemat',
+      'suomalaisen myyjann kilpailuedut',
+      'hinnoittelu paketointi',
     ],
     lsiKeywords: [
       'tulosteet myynti',

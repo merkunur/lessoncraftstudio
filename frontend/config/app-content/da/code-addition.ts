@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'kodeadditions arbejdsark generator',
+    primaryKeyword: 'kodeaddition generator mattepuslespil knække kodeadditions arbejdsark',
     secondaryKeywords: [
       'printbare mattepuslespil arbejdsark til Etsy',
       'kodeadditions arbejdsark til Amazon KDP',

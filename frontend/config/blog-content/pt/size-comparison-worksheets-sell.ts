@@ -4,9 +4,9 @@ const content: BlogContent = {
   seo: {
     primaryKeyword: 'fichas comparação tamanhos vender',
     secondaryKeywords: [
-      'size comparison worksheets sell',
-      'fichas grande pequeno negócio',
-      'atividades comparação tamanho imprimíveis',
+      'produção qualidade',
+      'precificação',
+      'marketing seo',
     ],
     lsiKeywords: [
       'conceito tamanho crianças',

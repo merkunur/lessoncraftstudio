@@ -2,7 +2,11 @@ import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
     primaryKeyword: 'romfart tema arbeidsark bedrift 2026',
-    secondaryKeywords: ['romfart tema arbeidsark bedrift Etsy', 'romfart tema arbeidsark bedrift strategi', 'romfart tema arbeidsark bedrift tips'],
+    secondaryKeywords: [
+      'norsk tilpasning unik vinkel',
+      'produktoppbygging prissetting',
+      'seo timing',
+    ],
     lsiKeywords: ['sesongbaserte utskrifter', 'utskrivbare arbeidsark nisje', 'printable selger Norge'],
     titleTag: 'Romfartstema-arbeidsark som forretning | LCS',
     metaDescription: 'Romfart-temaer (planeter, romskip, astronauter) er blant de mest populære for arbeidsark etter dyr. Denne evergreen-nisjen har stabil etterspørsel og ',

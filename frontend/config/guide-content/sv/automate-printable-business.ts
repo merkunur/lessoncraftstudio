@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'automatisera printables-verksamhet',
+    primaryKeyword: 'automatisera printables verksamhet automatiserar ditt',
     secondaryKeywords: [
       'automatisering utskriftsbart företag',
       'automatisera arbetsblad skapande',

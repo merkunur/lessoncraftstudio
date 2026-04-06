@@ -2,7 +2,7 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'nödvändiga verktyg printables-verksamhet',
+    primaryKeyword: 'verktyg för utskriftsbara printables verksamhet nödvändiga ägare',
     secondaryKeywords: [
       'checklista verktyg utskriftsbart företag',
       'arbetsbladsgenratorverktyg för säljare',

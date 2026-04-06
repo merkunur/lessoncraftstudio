@@ -4,9 +4,9 @@ const content: BlogContent = {
   seo: {
     primaryKeyword: 'montako ilmoitusta Etsy menestys',
     secondaryKeywords: [
-      'montako ilmoitusta Etsy menestys opas',
-      'montako ilmoitusta Etsy menestys 2026',
-      'montako ilmoitusta Etsy menestys Suomi',
+      'kaytannoen toteutus vaihe vaiheelta',
+      'yleisimmat haasteet ratkaisut',
+      'mittaaminen optimointi',
     ],
     lsiKeywords: [
       'tulosteet liiketoiminta',

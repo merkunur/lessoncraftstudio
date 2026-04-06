@@ -2,7 +2,7 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'baesta utskrifter saelj jul 2026',
+    primaryKeyword: 'bästa utskrifterna sälja till jul utskrifter',
     secondaryKeywords: [
       'bästa utskrifterna sälja Etsy',
       'bästa utskrifterna foeretagande',

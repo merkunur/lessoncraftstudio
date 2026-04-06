@@ -4,9 +4,9 @@ const content: BlogContent = {
   seo: {
     primaryKeyword: 'renda passiva imprimíveis verdade',
     secondaryKeywords: [
-      'renda passiva imprimíveis verdade guia',
-      'renda passiva imprimíveis verdade dicas',
-      'renda passiva imprimíveis verdade estratégia',
+      'estratégias funcionam',
+      'mercado brasileiro internacional',
+      'ferramentas recursos',
     ],
     lsiKeywords: [
       'negócio imprimíveis digital',

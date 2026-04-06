@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'hitta lönsamma nischer för printables',
+    primaryKeyword: 'lönsamma nischer för printables hur undersöker utskriftsbara',
     secondaryKeywords: [
       'nischforskningsmetoder utskriftsbara produkter',
       'hitta lönsamma arbetsblad-nischer',

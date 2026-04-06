@@ -2,11 +2,11 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'skala utskriftsfoeretagande automatisering',
+    primaryKeyword: 'skala utskriftsverksamhet automatisering',
     secondaryKeywords: [
-      'skala utskriftsverksamhet automatisering Etsy',
-      'skala utskriftsverksamhet foeretagande',
-      'utskrifter skala utskriftsverksamhet',
+      'optimering för framgång',
+      'tillväxtstrategier',
+      'mäta förbättra resultat',
     ],
     lsiKeywords: [
       'utskriftsfoeretagande Sverige',

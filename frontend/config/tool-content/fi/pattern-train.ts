@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'kuviosarjajuna-työkirja-generaattori',
+    primaryKeyword: 'kuviosarjajuna generaattori luo myy',
     secondaryKeywords: [
       'kuviosarjajuna-työkirja-generaattori myyjille',
       'luo toistuva kuvio -työkirjoja myyntiin',

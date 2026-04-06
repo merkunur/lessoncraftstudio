@@ -2,7 +2,7 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'spaarninsarbetsblad finmotorik saelj',
+    primaryKeyword: 'spårningsarbetsblad finmotorik sälj',
     secondaryKeywords: [
       'spårningsarbetsblad finmotorik sälj Etsy',
       'spårningsarbetsblad finmotorik foeretagande',

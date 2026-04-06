@@ -2,7 +2,7 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'reutilizar fichas multiples productos',
+    primaryKeyword: 'multiples ficha producto',
     secondaryKeywords: ['reutilizar fichas multiples productos paso a paso', 'reutilizar fichas multiples productos tutorial', 'reutilizar fichas multiples productos guia practica'],
     lsiKeywords: ['reutilizar fichas multiples tips', 'como reutilizar fichas', 'multiples productos facil'],
     titleTag: 'Reutilizar Fichas en Multiples Productos | LCS',

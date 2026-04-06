@@ -4,9 +4,9 @@ const content: BlogContent = {
   seo: {
     primaryKeyword: 'fichas classificação pré-escola vender',
     secondaryKeywords: [
-      'sorting worksheets preschool sell',
-      'fichas ordenação infantil negócio',
-      'atividades classificação imprimíveis',
+      'classificação vende',
+      'tipos fichas classificação',
+      'criação eficiente',
     ],
     lsiKeywords: [
       'categorização visual crianças',

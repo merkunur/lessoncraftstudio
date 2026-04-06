@@ -4,9 +4,9 @@ const content: BlogContent = {
   seo: {
     primaryKeyword: 'matchningsarbetsblad smaabarnsmarknad',
     secondaryKeywords: [
-      'matchningsarbetsblad småbarnsmarknaden Etsy',
-      'matchningsarbetsblad småbarnsmarknaden foeretagande',
-      'utskrifter matchningsarbetsblad småbarnsmarknaden',
+      'produkttyper säljer bäst',
+      'skapa professionella produkter snabbt',
+      'listnings marknadsföringsstrategi',
     ],
     lsiKeywords: [
       'utskriftsfoeretagande Sverige',

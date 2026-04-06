@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'prepositiot tyoarkki generaattori',
+    primaryKeyword: 'prepositiot tyoarkki generaattori luo',
     secondaryKeywords: [
       'tulostettavat prepositiot tyoarkit Etsy myyjille',
       'paikkasanat tyoarkki generaattori KDP julkaisijoille',

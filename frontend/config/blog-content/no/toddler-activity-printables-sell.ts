@@ -1,8 +1,12 @@
 import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'småbarns aktiviteter printables selge 2026',
-    secondaryKeywords: ['småbarns aktiviteter printables selge Etsy', 'småbarns aktiviteter printables selge strategi', 'småbarns aktiviteter printables selge tips'],
+    primaryKeyword: 'småbarns aktiviteter utskrifter selg',
+    secondaryKeywords: [
+      'norsk tilpasning unik vinkel',
+      'produktoppbygging prissetting',
+      'seo timing',
+    ],
     lsiKeywords: ['sesongbaserte utskrifter', 'utskrivbare arbeidsark nisje', 'printable selger Norge'],
     titleTag: 'Småbarns aktiviteter-utskrifter: Selg | LCS',
     metaDescription: 'Utskrivbare aktiviteter for småbarn (2–4 år) er det første produktet foreldre kjøper. Selg pa Etsy & KDP med kommersiell lisens.',

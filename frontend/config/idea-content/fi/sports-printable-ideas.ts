@@ -5,7 +5,7 @@ const content: IdeaContent = {
     titleTag: 'Urheiluaiheiset tulostettavat ideat myyntiin — Nicheopas',
     metaDescription: 'Tutustu urheiluaiheisiin tulostettaviin ideoihin myyntiin Etsyssä, Amazon KDP:ssä ja Gumroadilla.',
 
-    primaryKeyword: 'urheilu tulostettavat ideat',
+    primaryKeyword: 'urheiluaiheiset tulostettavat ideat myyntiin',
     secondaryKeywords: [
       'urheilutyöarkit myyntiin',
       'urheilutulostettava liiketoimintaideat',

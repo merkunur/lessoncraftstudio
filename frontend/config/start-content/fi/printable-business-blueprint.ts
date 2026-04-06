@@ -2,7 +2,7 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'tulostettavien liiketoimintasuunnitelma ideat',
+    primaryKeyword: 'tulostettavien liiketoimintasuunnitelma ideasta tuloon',
     secondaryKeywords: [
       'tulostettavien liiketoimintasuunnitelma myyjille',
       'kannattavat tulostettavien tuotteiden ideat',

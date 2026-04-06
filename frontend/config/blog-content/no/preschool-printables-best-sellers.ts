@@ -1,8 +1,12 @@
 import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'barnehage printables bestselgere 2026',
-    secondaryKeywords: ['barnehage printables bestselgere Etsy', 'barnehage printables bestselgere strategi', 'barnehage printables bestselgere tips'],
+    primaryKeyword: 'barnehage barn selg',
+    secondaryKeywords: [
+      'norsk tilpasning unik vinkel',
+      'produktoppbygging prissetting',
+      'seo timing',
+    ],
     lsiKeywords: ['sesongbaserte utskrifter', 'utskrivbare arbeidsark nisje', 'printable selger Norge'],
     titleTag: 'Barnehage-utskrifter: Bestselgerne | LCS',
     metaDescription: 'I Norge går 97 % av alle barn i barnehage. Barnehager bruker utskrevne aktiviteter daglig. Selg pa Etsy & KDP med kommersiell lisens.',

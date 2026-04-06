@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'tegne arbeidsark generator',
+    primaryKeyword: 'tegne arbeidsark generator rutenetttegning generator tegn fargelegg',
     secondaryKeywords: [
       'rutenetttegning arbeidsark generator for selgere',
       'lag tegn og fargelegg arbeidsark til salg',

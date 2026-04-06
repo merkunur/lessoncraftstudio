@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'Alphabet-Arbeitsblätter erstellen für Etsy und KDP',
+    primaryKeyword: 'alphabet arbeitsblätter erstellen für etsy zug generator buchstabe',
     secondaryKeywords: [
       'Alphabet-Arbeitsblätter erstellen für Etsy verkaufen',
       'Buchstabenzug-Generator für KDP-Lernbücher',

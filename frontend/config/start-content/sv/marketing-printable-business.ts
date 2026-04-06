@@ -2,7 +2,7 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'marknadsföra printables-verksamhet online',
+    primaryKeyword: 'marknadsför för utskriftsbara online marknadsföra printables verksamhet',
     secondaryKeywords: [
       'marknadsföringsstrategier för säljare av utskriftsbara produkter',
       'marknadsför utskriftsbara arbetsblad online',

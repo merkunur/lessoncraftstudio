@@ -2,7 +2,11 @@ import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
     primaryKeyword: 'Undervisningsbyen vs Etsy arbeidsark sammenligning',
-    secondaryKeywords: ['Undervisningsbyen vs Etsy arbeidsark sammenligning tips', 'Undervisningsbyen vs Etsy arbeidsark sammenligning strategi', 'Undervisningsbyen vs Etsy arbeidsark sammenligning 2026'],
+    secondaryKeywords: [
+      'praktisk gjennomføring',
+      'optimalisering måling',
+      'vanlige feil unngå',
+    ],
     lsiKeywords: ['utskrivbare produkter forretning', 'printable selger strategi', 'digital nedlasting inntekt'],
     titleTag: 'Undervisningsbyen.no vs Etsy: Sammenligning | LCS',
     metaDescription: 'Undervisningsbyen.no er Norges svar på Teachers Pay Teachers — en plattform der lærere kjøper pedagogisk materiale fra andre lærere. Etsy er det globa',

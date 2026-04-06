@@ -5,7 +5,7 @@ const content: IdeaContent = {
     titleTag: 'Jouluaiheiset tulostettavat ideat myyntiin — Nicheopas',
     metaDescription: 'Tutustu jouluaiheisiin tulostettaviin ideoihin myyntiin Etsyssä, Amazon KDP:ssä ja Gumroadilla. Joulutuotekonseptit, kausistrategiat ja alustavinkit myyjille.',
 
-    primaryKeyword: 'joulu tulostettavat ideat',
+    primaryKeyword: 'jouluaiheiset tulostettavat ideat myyntiin',
     secondaryKeywords: [
       'joulutyöarkit myyntiin',
       'joulutulostettava liiketoimintaideat',

@@ -2,7 +2,7 @@ import type { BundleContent } from '../types';
 
 const content: BundleContent = {
   seo: {
-    primaryKeyword: 'ord- och språkpaket Etsy KDP',
+    primaryKeyword: 'ord språkpaket sälja läsning språk paket',
     secondaryKeywords: [
       'språkarbetsblad generator paket för säljare',
       'läsverktyg utskriftspaket kommersiell användning',

@@ -2,7 +2,7 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'hur mycket kan man tjäna på printables',
+    primaryKeyword: 'hur mycket tjäna printables inkomst från utskriftsbart företag',
     secondaryKeywords: [
       'inkomstförväntningar utskriftsbart företag',
       'realistisk inkomst sälja utskriftsbara produkter',

@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'marketing stagionale per venditori stampabili',
+    primaryKeyword: 'stampabili marketing stagionale venditori',
     secondaryKeywords: [
       'calendario produzione stampabili per festività',
       'tempistica pubblicazione schede stagionali',

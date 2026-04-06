@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'puzzle di abbinamento su griglia per business stampabili',
+    primaryKeyword: 'puzzle griglia vendere etsy kdp crea oltre',
     secondaryKeywords: [
       'creare puzzle a griglia stampabili per negozio Etsy',
       'generatore puzzle pezzi immagine per quaderni Amazon KDP',

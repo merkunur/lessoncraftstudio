@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'ilmainen sananarvauspalapelin tekijä',
+    primaryKeyword: 'ilmainen sananarvauspalapelin tekijä verkossa tee sananarvauspalapelejä ilmaiseksi rekisteröitymistä',
     secondaryKeywords: [
       'tee sananarvauspalapelejä ilmaiseksi verkossa',
       'hirsipuupalapeligeneraattori ilman rekisteröitymistä',

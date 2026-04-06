@@ -1,8 +1,12 @@
 import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'printable bedrift uten designkunnskaper',
-    secondaryKeywords: ['printable bedrift uten designkunnskaper tips', 'printable bedrift uten designkunnskaper strategi', 'printable bedrift uten designkunnskaper 2026'],
+    primaryKeyword: 'start printable bedrift',
+    secondaryKeywords: [
+      'praktisk gjennomføring',
+      'optimalisering måling',
+      'vanlige feil unngå',
+    ],
     lsiKeywords: ['utskrivbare produkter forretning', 'printable selger strategi', 'digital nedlasting inntekt'],
     titleTag: 'Start printable-bedrift uten designkunnskaper | LCS',
     metaDescription: 'Med arbeidsark-generatorer trenger du ikke designferdigheter for å lage profesjonelle utskrivbare produkter. Selg pa Etsy & KDP med kommersiell lisens.',

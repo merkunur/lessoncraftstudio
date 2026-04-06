@@ -4,9 +4,9 @@ const content: BlogContent = {
   seo: {
     primaryKeyword: 'paivita vanhat tulosteet ilmoitukset kasvata myyntia',
     secondaryKeywords: [
-      'paivita vanhat tulosteet ilmoitukset kasvata myyntia opas',
-      'paivita vanhat tulosteet ilmoitukset kasvata myyntia vaiheittain',
-      'paivita vanhat tulosteet ilmoitukset kasvata myyntia 2026',
+      'vaihe sisallon luominen generaattorilla',
+      'vaihe muotoilu paketointi',
+      'vaihe ilmoituksen luominen julkaisu',
     ],
     lsiKeywords: [
       'tulosteet liiketoiminta',

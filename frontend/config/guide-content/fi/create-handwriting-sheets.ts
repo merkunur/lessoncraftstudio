@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'kirjoitusharjoitusarkit',
+    primaryKeyword: 'opas kirjoitusharjoitusarkit kirjoitusharjoitusarkkeja luo',
     secondaryKeywords: ['kirjoitusharjoitusgeneraattori lapsille', 'tulostettavat kirjoitustyöarkit myyntiin', 'jäljennä ja kopioi kirjainharjoitusarkit', 'mukautetut kirjoitusharjoitussivut'],
     lsiKeywords: ['progressiivinen jäljentäminen kirjainmuodostusharjoitus', 'temaattiset kirjoitustyöarkit Etsyyn', 'Amazon KDP kirjoitusharjoituskirjat', 'kaupallinen lisenssi kirjoitustyökalu', 'aakkosten kirjainharjoitus esikouluikäisille', 'hienomotoristentaitojen kehitystyöarkit'],
     titleTag: 'Kirjoitusharjoitusarkit — Opas',

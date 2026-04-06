@@ -2,7 +2,7 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'saesongkalender utskriftsfoersaeljare',
+    primaryKeyword: 'säsongskalender för utskriftssäljare',
     secondaryKeywords: [
       'säsongskalender utskriftssäljare Etsy',
       'säsongskalender utskriftssäljare foeretagande',

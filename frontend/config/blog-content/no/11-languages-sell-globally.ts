@@ -1,8 +1,12 @@
 import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
-    primaryKeyword: '11 språk selg globalt 2026',
-    secondaryKeywords: ['11 språk selg globalt tips', '11 språk selg globalt guide', '11 språk selg globalt steg for steg'],
+    primaryKeyword: 'språk produkt selg globalt produktlinje',
+    secondaryKeywords: [
+      'steg steg gjennomføring',
+      'optimalisering finjustering',
+      'publisering markedsføring',
+    ],
     lsiKeywords: ['arbeidsark produksjon', 'printable forretning guide', 'Etsy selger tutorial'],
     titleTag: '11 språk: Selg globalt med én produktlinje | LCS',
     metaDescription: 'LessonCraftStudios generatorer støtter 11 språk. Det betyr at ett produkt kan bli 11 annonser på Etsy — en for hvert språk. Denne guiden viser deg hvo',

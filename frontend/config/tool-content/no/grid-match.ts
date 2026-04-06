@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'rutenettkobling arbeidsark',
+    primaryKeyword: 'rutenettspuslespill generator rutenett arbeidsark',
     secondaryKeywords: [
       'rutenettkobling arbeidsark generator for selgere',
       'lag rutenettspuslespill til salg',

@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'kostenloser Schwungübungen-Generator',
+    primaryKeyword: 'kostenloser schwungübungen generator kostenlos erstellen acht vorlagen',
     secondaryKeywords: [
       'Schwungübungen-Arbeitsblätter kostenlos erstellen',
       'Linienverfolgung-Generator online ohne Anmeldung',

@@ -2,7 +2,7 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'påske printables forretning forår',
+    primaryKeyword: 'påsken printable påskeæg påskeprintables din forårs',
     secondaryKeywords: ['påske printables forretning forår Etsy', 'påske printables forretning forår online', 'påske printables forretning forår forretning'],
     lsiKeywords: ['printbar forretning Danmark', 'digital download salg', 'Etsy printables sælg'],
     titleTag: 'Påskeprintables: Din Forårs-Forretning | LCS',

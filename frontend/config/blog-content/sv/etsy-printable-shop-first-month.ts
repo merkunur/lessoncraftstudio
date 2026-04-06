@@ -2,11 +2,11 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'Etsy utskriftsbutik foersta maanaden',
+    primaryKeyword: 'första månaden etsy butik guide',
     secondaryKeywords: [
-      'första månaden etsy-butik Etsy',
-      'första månaden foeretagande',
-      'utskrifter första månaden',
+      'optimering för framgång',
+      'tillväxtstrategier',
+      'mäta förbättra resultat',
     ],
     lsiKeywords: [
       'utskriftsfoeretagande Sverige',

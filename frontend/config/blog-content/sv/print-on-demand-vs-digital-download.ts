@@ -4,9 +4,9 @@ const content: BlogContent = {
   seo: {
     primaryKeyword: 'print on demand vs digital nedladdning',
     secondaryKeywords: [
-      'print-on-demand digital nedladdning Etsy',
-      'print-on-demand digital foeretagande',
-      'utskrifter print-on-demand digital',
+      'optimering för framgång',
+      'tillväxtstrategier',
+      'mäta förbättra resultat',
     ],
     lsiKeywords: [
       'utskriftsfoeretagande Sverige',

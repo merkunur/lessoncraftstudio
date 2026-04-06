@@ -2,11 +2,11 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'kaaviolaskutyoarkit liiketoiminta',
+    primaryKeyword: 'kaaviolaskutyoarkkeja niche kaaviolaskutyoarkit rakenna liiketoiminta',
     secondaryKeywords: [
-      'kuvakaavio tyoarkit myynti',
-      'tilastot lapsille tulosteet',
-      'laskeminen kaavioilla Etsy',
+      'miksi kaaviolaskutyoarkit kasvava niche',
+      'tuotetyypit kaaviolaskukategoriassa',
+      'hinnoittelu kohderyhmiat',
     ],
     lsiKeywords: [
       'taulukkolaskenta lapsille',

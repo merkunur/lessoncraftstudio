@@ -2,7 +2,7 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'aakkostyoarkit myydyimmat tuotteet',
+    primaryKeyword: 'myy aakkostyoarkit myydyimmat tuotteet yksi',
     secondaryKeywords: [
       'aakkoset tulosteet Etsy bestseller',
       'kirjainharjoitukset myynti',

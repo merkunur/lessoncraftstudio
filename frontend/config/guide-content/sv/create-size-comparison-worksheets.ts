@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'skapa jämförelseblad att sälja',
+    primaryKeyword: 'för hur skapar storleksjämförelsearbetsblad jämförelseblad sälja online',
     secondaryKeywords: [
       'stort och litet arbetsblad för barn',
       'storleksdiskriminering arbetsblad generator',

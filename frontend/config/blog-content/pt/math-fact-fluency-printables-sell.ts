@@ -2,11 +2,11 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'fichas fluência matemática vender',
+    primaryKeyword: 'fluência fichas matemática vender',
     secondaryKeywords: [
-      'fichas fluência matemática vender negócio',
-      'fichas fluência matemática vender vender',
-      'fichas fluência matemática vender Etsy',
+      'produtos mais vendem neste',
+      'estratégia preço pacotes',
+      'marketing seo este nicho',
     ],
     lsiKeywords: [
       'imprimíveis sazonais vender',

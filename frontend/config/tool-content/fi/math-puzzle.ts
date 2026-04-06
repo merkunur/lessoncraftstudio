@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'ilmainen matikkapalapelin tekijä lapsille',
+    primaryKeyword: 'ilmainen matikkapalapelin tekijä verkossa tee matikkapalapelejä ilmaiseksi rekisteröitymistä',
     secondaryKeywords: [
       'tee matikkapalapelejä ilmaiseksi verkossa',
       'matikkapalapeligeneraattori ilman rekisteröitymistä',

@@ -3,7 +3,11 @@ import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
     primaryKeyword: 'imprimibles Dia Madre Dia Padre vender',
-    secondaryKeywords: ['imprimibles Dia Madre Dia Padre vender negocio', 'imprimibles Dia Madre Dia Padre vender Etsy vender', 'imprimibles Dia Madre Dia Padre vender imprimibles rentable'],
+    secondaryKeywords: [
+      'tipos productos mayor demanda',
+      'seo palabras clave espanol',
+      'adaptaciones culturales region',
+    ],
     lsiKeywords: ['imprimibles Dia fichas', 'vender imprimibles imprimibles', 'Padre vender educativos'],
     titleTag: 'Imprimibles para Dia de la Madre y el Padre | LCS',
     metaDescription: 'El Dia de la Madre y el Dia del Padre generan demanda de imprimibles con alto componente emocional: tarjetas para imprimir, cuestionarios sobre mama/papa, ',

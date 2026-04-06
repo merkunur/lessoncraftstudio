@@ -1,7 +1,7 @@
 import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'fasit viktighet printable salg 2026',
+    primaryKeyword: 'fasit hemmeligheten bak høyere',
     secondaryKeywords: ['fasit viktighet printable salg tips', 'fasit viktighet printable salg guide', 'fasit viktighet printable salg steg for steg'],
     lsiKeywords: ['arbeidsark produksjon', 'printable forretning guide', 'Etsy selger tutorial'],
     titleTag: 'Fasit: Hemmeligheten bak høyere salg | LCS',

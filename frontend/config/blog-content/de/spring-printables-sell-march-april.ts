@@ -3,7 +3,11 @@ import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
     primaryKeyword: 'Fruehlings-Druckvorlagen Maerz April verkaufen',
-    secondaryKeywords: ['Fruehlings-Raetsel Kinder Etsy', 'Maerz April Druckvorlagen DACH', 'Fruehlingsblumen Arbeitsblaetter'],
+    secondaryKeywords: [
+      'besten fruehlings produkte',
+      'saisonales timing',
+      'fruehling ganzjaehrigen natur sortiment',
+    ],
     lsiKeywords: ['Fruehling Wortsuche PDF', 'Garten Arbeitsblaetter Grundschule', 'Fruehlingstiere Raetsel Kinder'],
     titleTag: 'Fruehlings-Druckvorlagen: Maerz/April-Hits | LCS',
     metaDescription: 'Fruehlings-Druckvorlagen: Marktanalyse, Produkte und Strategien fuer Druckvorlagen-Verkaeufer im DACH-Raum. Profitabel auf Etsy.de und KDP.',

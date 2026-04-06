@@ -4,9 +4,9 @@ const content: BlogContent = {
   seo: {
     primaryKeyword: 'ESL arbetsblad global marknad',
     secondaryKeywords: [
-      'esl-arbetsblad global marknad Etsy',
-      'esl-arbetsblad global foeretagande',
-      'utskrifter esl-arbetsblad global',
+      'produkter säljer denna nisch',
+      'skapandeprocess verktyg',
+      'marknadsföring säsongsplanering',
     ],
     lsiKeywords: [
       'utskriftsfoeretagande Sverige',

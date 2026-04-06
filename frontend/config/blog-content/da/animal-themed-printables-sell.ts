@@ -2,7 +2,7 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'dyretema printables sælg online',
+    primaryKeyword: 'dyretema printable printables profitabel produktlinje sælg online',
     secondaryKeywords: ['dyr arbejdsark sælg Etsy', 'dyretema puslespil forretning', 'dyr printbar produktlinje'],
     lsiKeywords: ['dyreillustration arbejdsark', 'bondegårdsdyr printbar', 'havdyr arbejdsark salg'],
     titleTag: 'Dyretema Printables: Sælg Online Guide | LCS',

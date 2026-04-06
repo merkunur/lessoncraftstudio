@@ -5,7 +5,7 @@ const content: IdeaContent = {
     titleTag: 'Halloween tulostettavat ideat myyntiin — Nicheopas',
     metaDescription: 'Tutustu halloween-tulostettaviin ideoihin myyntiin Etsyssä, Amazon KDP:ssä ja Gumroadilla. Kammottavat tuotekonseptit, kausistrategiat ja vinkit myyjille.',
 
-    primaryKeyword: 'halloween tulostettavat ideat',
+    primaryKeyword: 'halloween tulostettavat ideat myyntiin',
     secondaryKeywords: [
       'halloween-työarkit myyntiin',
       'halloween-teemainen tulostettava liiketoiminta',

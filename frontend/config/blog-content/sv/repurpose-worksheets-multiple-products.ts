@@ -4,9 +4,9 @@ const content: BlogContent = {
   seo: {
     primaryKeyword: 'aateranvaend arbetsblad flera produkter',
     secondaryKeywords: [
-      'återanvänd arbetsblad flera Etsy',
-      'återanvänd arbetsblad foeretagande',
-      'utskrifter återanvänd arbetsblad',
+      'steg för steg guide',
+      'vanliga misstag undvika',
+      'avancerade tips',
     ],
     lsiKeywords: [
       'utskriftsfoeretagande Sverige',

@@ -5,7 +5,7 @@ const content: IdeaContent = {
     titleTag: 'Printables insekter — Verksamhet | LessonCraftStudio',
     metaDescription: 'Upptäck insektstematiserade utskriftsbara idéer att sälja på Etsy, Amazon KDP och Gumroad. Kryp- och fjärilskoncept, plattformsstrategier och nischtips för.',
 
-    primaryKeyword: 'printables insekter idéer verksamhet',
+    primaryKeyword: 'insekter printables verksamhet utskriftsbara för',
     secondaryKeywords: [
       'insektstematiserade arbetsblad att sälja',
       'kryp utskriftsbart företag idéer',

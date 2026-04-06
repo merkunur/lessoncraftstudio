@@ -2,11 +2,11 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'upphovsraett utskriftssaeljare grunder',
+    primaryKeyword: 'upphovsrätt för utskriftssäljare',
     secondaryKeywords: [
-      'upphovsrätt utskriftssäljare Etsy',
-      'upphovsrätt utskriftssäljare foeretagande',
-      'utskrifter upphovsrätt utskriftssäljare',
+      'steg för steg guide',
+      'vanliga misstag undvika',
+      'avancerade tips',
     ],
     lsiKeywords: [
       'utskriftsfoeretagande Sverige',

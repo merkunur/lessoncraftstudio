@@ -4,9 +4,9 @@ const content: BlogContent = {
   seo: {
     primaryKeyword: 'rita faerglaegga arbetsblad saelj',
     secondaryKeywords: [
-      'rita-och-färglägg-arbetsblad sälj online Etsy',
-      'rita-och-färglägg-arbetsblad sälj foeretagande',
-      'utskrifter rita-och-färglägg-arbetsblad sälj',
+      'produkttyper säljer bäst',
+      'skapa professionella produkter snabbt',
+      'listnings marknadsföringsstrategi',
     ],
     lsiKeywords: [
       'utskriftsfoeretagande Sverige',

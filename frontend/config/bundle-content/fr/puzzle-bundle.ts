@@ -2,7 +2,7 @@ import type { BundleContent } from '../types';
 
 const content: BundleContent = {
   seo: {
-    primaryKeyword: 'pack générateurs de puzzles logiques pour KDP',
+    primaryKeyword: 'pack puzzles logiques kdp logique',
     secondaryKeywords: [
       'pack générateurs fiches puzzles logique pour vendeurs',
       'kit fiches puzzles imprimables licence commerciale',

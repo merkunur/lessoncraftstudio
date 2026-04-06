@@ -4,9 +4,9 @@ const content: BlogContent = {
   seo: {
     primaryKeyword: 'recycler fiches plusieurs produits',
     secondaryKeywords: [
-      'tutoriel recycler fiches plusieurs',
-      'guide pas à pas recycler fiches',
-      'comment recycler fiches plusieurs',
+      'étape préparation',
+      'étape création production',
+      'étape optimisation publication',
     ],
     lsiKeywords: [
       'étapes recycler fiches',

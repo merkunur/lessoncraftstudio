@@ -4,9 +4,9 @@ const content: BlogContent = {
   seo: {
     primaryKeyword: 'bildlabyrint arbetsblad foeretagande',
     secondaryKeywords: [
-      'bildlabyrint-arbetsblad företagande Etsy',
-      'bildlabyrint-arbetsblad företagande foeretagande',
-      'utskrifter bildlabyrint-arbetsblad företagande',
+      'produkttyper säljer bäst',
+      'skapa professionella produkter snabbt',
+      'listnings marknadsföringsstrategi',
     ],
     lsiKeywords: [
       'utskriftsfoeretagande Sverige',

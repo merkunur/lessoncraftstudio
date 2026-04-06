@@ -2,7 +2,7 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'hjaernpaus utskrifter pedagoger',
+    primaryKeyword: 'hjärnpaus utskrifter populärt för pedagoger',
     secondaryKeywords: [
       'hjärnpaus-utskrifter populärt pedagoger Etsy',
       'hjärnpaus-utskrifter populärt foeretagande',

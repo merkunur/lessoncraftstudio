@@ -5,7 +5,7 @@ const content: IdeaContent = {
     titleTag: 'Lemmikki tulostettavat ideat myyntiin — Nicheopas',
     metaDescription: 'Tutustu lemmikkiaiheisiin tulostettaviin ideoihin myyntiin Etsyssä, Amazon KDP:ssä ja Gumroadilla.',
 
-    primaryKeyword: 'lemmikki tulostettavat ideat',
+    primaryKeyword: 'lemmikki tulostettavat ideat myyntiin',
     secondaryKeywords: [
       'lemmikkiteemaiset työarkit myyntiin',
       'lemmikki tulostettava liiketoimintaideat',

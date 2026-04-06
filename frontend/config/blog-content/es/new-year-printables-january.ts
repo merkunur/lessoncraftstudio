@@ -3,7 +3,11 @@ import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
     primaryKeyword: 'imprimibles Ano Nuevo Dia Reyes enero',
-    secondaryKeywords: ['imprimibles Ano Nuevo Dia Reyes enero negocio', 'imprimibles Ano Nuevo Dia Reyes enero Etsy vender', 'imprimibles Ano Nuevo Dia Reyes enero imprimibles rentable'],
+    secondaryKeywords: [
+      'tipos productos mayor demanda',
+      'seo palabras clave espanol',
+      'adaptaciones culturales region',
+    ],
     lsiKeywords: ['imprimibles Ano fichas', 'vender imprimibles imprimibles', 'Reyes enero educativos'],
     titleTag: 'Imprimibles de Ano Nuevo y Dia de Reyes | LCS',
     metaDescription: 'Enero combina el Ano Nuevo con el Dia de Reyes (6 de enero), creando una temporada de ventas que muchos vendedores de imprimibles pasan por alto. Las ficha',

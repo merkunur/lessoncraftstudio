@@ -4,9 +4,9 @@ const content: BlogContent = {
   seo: {
     primaryKeyword: 'générateur fiches vs Canva comparaison',
     secondaryKeywords: [
-      'tutoriel générateur fiches vs',
-      'guide pas à pas générateur fiches',
-      'comment générateur fiches vs',
+      'étape préparation',
+      'étape création production',
+      'étape optimisation publication',
     ],
     lsiKeywords: [
       'étapes générateur fiches',

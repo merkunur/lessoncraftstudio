@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'bygga produktlinje med printables',
+    primaryKeyword: 'produktlinje bygga printables utskriftsbar skapa',
     secondaryKeywords: [
       'produktlinjestrategi för printables',
       'bygg en arbetsblads-produktlinje',

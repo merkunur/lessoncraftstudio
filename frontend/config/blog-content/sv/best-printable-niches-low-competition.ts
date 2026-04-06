@@ -2,11 +2,11 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'baesta utskriftsnischer laag konkurrens 2026',
+    primaryKeyword: 'bästa utskriftsnischer låg konkurrens',
     secondaryKeywords: [
-      'bästa utskriftsnischer konkurrens Etsy',
-      'bästa utskriftsnischer foeretagande',
-      'utskrifter bästa utskriftsnischer',
+      'optimering för framgång',
+      'tillväxtstrategier',
+      'mäta förbättra resultat',
     ],
     lsiKeywords: [
       'utskriftsfoeretagande Sverige',

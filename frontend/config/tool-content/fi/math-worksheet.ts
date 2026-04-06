@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'ilmainen matematiikkatehtävägeneraattori verkossa',
+    primaryKeyword: 'verkossa ssa ilmainen matematiikkatehtävägeneraattori luo matematiikkatehtäviä',
     secondaryKeywords: [
       'tee matematiikkatehtäviä ilmaiseksi verkossa',
       'matematiikkaongelmien generaattori ilman rekisteröitymistä',

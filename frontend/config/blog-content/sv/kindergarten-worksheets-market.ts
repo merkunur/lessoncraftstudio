@@ -2,7 +2,7 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'foerskoleklass arbetsblad marknad',
+    primaryKeyword: 'förskoleklass arbetsblad marknad',
     secondaryKeywords: [
       'förskoleklass-arbetsblad marknad Etsy',
       'förskoleklass-arbetsblad marknad foeretagande',

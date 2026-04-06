@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'labyrinttityöarkit',
+    primaryKeyword: 'opas labyrinttityöarkit labyrinttityöarkkeja luo',
     secondaryKeywords: ['labyrinttgeneraattori lapsille', 'tulostettavat sokkelot myyntiin', 'kuvapolku labyrinttityöarkit', 'mukautetut labyrinttiharjoitukset'],
     lsiKeywords: ['temaattiset labyrintit Etsyyn', 'Amazon KDP labyrinttiaktiviteettikirjat', 'hienomotoristentaitojen harjoituslabyrintit', 'kaupallinen lisenssi labyrinttityökalu', 'keräilykohteet labyrintit lapsille', 'kuvapolkuaktiviteetit'],
     titleTag: 'Labyrinttityöarkit — Opas',

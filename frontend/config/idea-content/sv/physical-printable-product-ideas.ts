@@ -5,7 +5,7 @@ const content: IdeaContent = {
     titleTag: 'Fysiskt tryckta produkter | LessonCraftStudio',
     metaDescription: 'Fysiska utskriftsbara produktidéer för Etsy- och hantverksmarknadssäljare. Bygg ett premiumföretag genom att trycka, laminera och leverera handgripliga.',
 
-    primaryKeyword: 'fysiskt tryckta produkter idéer',
+    primaryKeyword: 'fysiskt tryckta produkter fysiska utskriftsbara produkt affärsidéer för',
     secondaryKeywords: [
       'tryckta arbetsblad produktföretag',
       'fysiska utskriftsbara produkter att sälja',

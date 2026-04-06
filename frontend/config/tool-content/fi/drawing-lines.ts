@@ -2,12 +2,12 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'viivanjaljitys tehtavat',
+    primaryKeyword: 'tehtävägeneraattori viivanpiirtamistehtävägeneraattori viivaharjoitus viivojen',
     secondaryKeywords: [
-      'viivanjaljitys tehtavageneraattori myyjille',
-      'tee viivan piirtamisen tehtavia myyntiin',
-      'tulostettavat viivanjaljitys tehtavat kaupallinen kaytto',
-      'viivan piirtamisen tehtavageneraattori KDP:lle',
+      'viivojen piirtämisen tehtävägeneraattori',
+      'näin teet viivanjäljitystehtäviä vaiheessa',
+      'avaa viivojen piirtämisen generaattori',
+      'aseta sivun asettelu tausta',
     ],
     lsiKeywords: [
       'hienomotoriset taidot tehtavatyokalu Etsyyn',

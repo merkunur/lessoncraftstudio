@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'kokovertailu-työkirja-generaattori',
+    primaryKeyword: 'työkirja generaattori kokovertailu myy',
     secondaryKeywords: [
       'iso ja pieni -työkirja esikouluun',
       'kokovertailugeneraattori verkossa',

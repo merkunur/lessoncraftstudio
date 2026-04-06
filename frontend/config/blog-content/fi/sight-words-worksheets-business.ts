@@ -2,11 +2,11 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'kokonaiset sanat tyoarkit liiketoiminta',
+    primaryKeyword: 'kokonaisten sanojen tyoarkit liiketoimintana liiketoiminta',
     secondaryKeywords: [
-      'kokonaiset sanat tyoarkit liiketoiminta opas',
-      'kokonaiset sanat tyoarkit liiketoiminta 2026',
-      'kokonaiset sanat tyoarkit liiketoiminta Suomi',
+      'tuotevalikoima teemat',
+      'suomalaisen myyjann kilpailuedut',
+      'hinnoittelu paketointi',
     ],
     lsiKeywords: [
       'tulosteet myynti',

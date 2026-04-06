@@ -2,8 +2,12 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'imprimibles actividades ninos pequenos toddler',
-    secondaryKeywords: ['imprimibles actividades ninos pequenos toddler negocio', 'imprimibles actividades ninos pequenos toddler Etsy vender', 'imprimibles actividades ninos pequenos toddler imprimibles rentable'],
+    primaryKeyword: 'imprimibles ninos anos pequenos actividades',
+    secondaryKeywords: [
+      'tipos productos mayor demanda',
+      'seo palabras clave espanol',
+      'adaptaciones culturales region',
+    ],
     lsiKeywords: ['imprimibles actividades fichas', 'vender imprimibles imprimibles', 'pequenos toddler educativos'],
     titleTag: 'Imprimibles para Ninos de 2-4 Anos | LCS',
     metaDescription: 'Los ninos de 2 a 4 anos estan en una etapa critica de desarrollo donde la motricidad fina, el reconocimiento de. Venda en Etsy & KDP con licencia comercial.',

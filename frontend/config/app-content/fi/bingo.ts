@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'bingokorttien generaattori',
+    primaryKeyword: 'bingokorttien generaattori luo myy bingo tulosteita kuvabingo korttien',
     secondaryKeywords: [
       'tulostettava bingokorttien generaattori Etsy-myyjille',
       'kuvabingo-työlehtigeneraattori KDP-julkaisijoille',

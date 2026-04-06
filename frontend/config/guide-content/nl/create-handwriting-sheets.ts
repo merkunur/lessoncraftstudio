@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'schrijfwerkbladen maken om te verkopen',
+    primaryKeyword: 'schrijfwerkbladen maken verkopen',
     secondaryKeywords: [
       'schrijfoefeningen maken voor kinderen verkopen',
       'schrijfwerkblad generator met streekrichting',

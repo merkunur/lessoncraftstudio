@@ -4,9 +4,9 @@ const content: BlogContent = {
   seo: {
     primaryKeyword: 'KDP vai Etsy kumpi tuottaa enemman',
     secondaryKeywords: [
-      'KDP vai Etsy kumpi tuottaa enemman opas',
-      'KDP vai Etsy kumpi tuottaa enemman 2026',
-      'KDP vai Etsy kumpi tuottaa enemman Suomi',
+      'kaytannoen toteutus vaihe vaiheelta',
+      'yleisimmat haasteet ratkaisut',
+      'mittaaminen optimointi',
     ],
     lsiKeywords: [
       'tulosteet liiketoiminta',

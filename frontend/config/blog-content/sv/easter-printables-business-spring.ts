@@ -2,7 +2,7 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'paask utskrifter vaar foeretagande',
+    primaryKeyword: 'påsk utskrifter vårens affärsmöjlighet',
     secondaryKeywords: [
       'påsk-utskrifter vårens affärsmöjlighet Etsy',
       'påsk-utskrifter vårens foeretagande',

@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'kostenloser Bilderpfad-Generator',
+    primaryKeyword: 'kostenloser bilderpfad generator labyrinthe kostenlos erstellen online',
     secondaryKeywords: [
       'Bilderpfad-Arbeitsblätter kostenlos erstellen',
       'Labyrinth-Generator online ohne Anmeldung',

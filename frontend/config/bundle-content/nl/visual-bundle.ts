@@ -2,7 +2,7 @@ import type { BundleContent } from '../types';
 
 const content: BundleContent = {
   seo: {
-    primaryKeyword: 'visueel leerpakket voor verkopers',
+    primaryKeyword: 'pakket zeven visuele visueel leerpakket wereldwijd',
     secondaryKeywords: [
       'kleurplaten tekenen werkblad generator bundel verkopers',
       'visuele activiteiten printable toolkit commercieel',

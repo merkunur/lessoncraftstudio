@@ -4,7 +4,7 @@ const content: IdeaContent = {
   seo: {
     titleTag: 'Stampabili infanzia per Etsy | LessonCraftStudio',
     metaDescription: 'Crea stampabili scuola dell\'infanzia da vendere su Etsy e KDP. Idee prodotto 3-5 anni, motricità fine e prescrittura per un business di schede redditizio.',
-    primaryKeyword: 'stampabili scuola dell\'infanzia da vendere',
+    primaryKeyword: 'stampabili infanzia etsy scuola dell',
     secondaryKeywords: [
       'schede prescuola per venditori Etsy',
       'stampabili prima infanzia business online',

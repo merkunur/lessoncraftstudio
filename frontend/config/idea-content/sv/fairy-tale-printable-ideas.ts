@@ -5,7 +5,7 @@ const content: IdeaContent = {
     titleTag: 'Printables sagor för Etsy | LessonCraftStudio',
     metaDescription: 'Upptäck sagatematiserade utskriftsbara idéer att sälja på Etsy, Amazon KDP och Gumroad. Sagobokstematiserade produktkoncept, plattformstips och strategier för.',
 
-    primaryKeyword: 'printables sagor att sälja Etsy',
+    primaryKeyword: 'printables sagor för etsy saga utskriftsbara affärsidéer säljare',
     secondaryKeywords: [
       'saga arbetsblad att sälja',
       'sagobokstematiserat utskriftsbart företag',

@@ -2,7 +2,7 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'koulunaloitus tulosteet sesonki',
+    primaryKeyword: 'koulunaloituksen tulostesesonki elokuun myyntipiikki sesonki',
     secondaryKeywords: [
       'koulunaloitus tulosteet sesonki opas',
       'koulunaloitus tulosteet sesonki 2026',

@@ -4,9 +4,9 @@ const content: BlogContent = {
   seo: {
     primaryKeyword: 'Gumroad vs Etsy produtos digitais',
     secondaryKeywords: [
-      'Gumroad vs Etsy produtos digitais guia',
-      'Gumroad vs Etsy produtos digitais dicas',
-      'Gumroad vs Etsy produtos digitais estratégia',
+      'estratégias funcionam',
+      'mercado brasileiro internacional',
+      'ferramentas recursos',
     ],
     lsiKeywords: [
       'negócio imprimíveis digital',

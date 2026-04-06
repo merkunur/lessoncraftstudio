@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'créer des coloriages à vendre sur Etsy et KDP',
+    primaryKeyword: 'coloriages etsy kdp comment créer pages coloriage partir',
     secondaryKeywords: [
       'générateur pages coloriage à partir d\'images',
       'pages coloriage imprimables à vendre',

@@ -2,11 +2,11 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'tyoarkit vaikeustasot tuoteportaat',
+    primaryKeyword: 'tuoteportaat tyoarkkien vaikeustasot',
     secondaryKeywords: [
-      'tyoarkit vaikeustasot tuoteportaat opas',
-      'tyoarkit vaikeustasot tuoteportaat vaiheittain',
-      'tyoarkit vaikeustasot tuoteportaat 2026',
+      'vaihe sisallon luominen generaattorilla',
+      'vaihe muotoilu paketointi',
+      'vaihe ilmoituksen luominen julkaisu',
     ],
     lsiKeywords: [
       'tulosteet liiketoiminta',

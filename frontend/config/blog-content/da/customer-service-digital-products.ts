@@ -2,7 +2,7 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'kundeservice digitale produkter Etsy',
+    primaryKeyword: 'kundeservice digitale produkter etsy',
     secondaryKeywords: ['kundeservice digitale produkter Etsy Etsy', 'kundeservice digitale produkter Etsy online', 'kundeservice digitale produkter Etsy sælg'],
     lsiKeywords: ['printbar forretning', 'digital download salg', 'Etsy printables'],
     titleTag: 'Kundeservice for Digitale Produkter: Etsy-Guide | LCS',

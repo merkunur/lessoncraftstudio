@@ -2,7 +2,7 @@ import type { BundleContent } from '../types';
 
 const content: BundleContent = {
   seo: {
-    primaryKeyword: 'logiikkapulmapaketti KDP-kirjoihin',
+    primaryKeyword: 'logiikka paketti logiikkapulmapaketti kdp',
     secondaryKeywords: [
       'logiikkapulmageneraattoripaketti KDP-pulmakirjoihin',
       'pulmatulostepaketti myyjille',

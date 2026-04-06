@@ -3,7 +3,11 @@ import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
     primaryKeyword: 'imprimibles preescolar mas vendidos',
-    secondaryKeywords: ['imprimibles preescolar mas vendidos negocio', 'imprimibles preescolar mas vendidos Etsy vender', 'imprimibles preescolar mas vendidos imprimibles rentable'],
+    secondaryKeywords: [
+      'tipos productos mayor demanda',
+      'seo palabras clave espanol',
+      'adaptaciones culturales region',
+    ],
     lsiKeywords: ['imprimibles preescolar fichas', 'vender imprimibles imprimibles', 'mas vendidos educativos'],
     titleTag: 'Imprimibles de Preescolar que Mas Venden | LCS',
     metaDescription: 'Los ninos de 3 a 5 anos representan el segmento de mayor demanda en imprimibles educativos. Los padres de preescolares buscan activamente actividades para ',

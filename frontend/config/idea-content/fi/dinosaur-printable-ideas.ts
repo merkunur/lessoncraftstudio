@@ -5,7 +5,7 @@ const content: IdeaContent = {
     titleTag: 'Dinosaurusaiheiset tulostettavat ideat myyntiin — Nicheopas',
     metaDescription: 'Tutustu kannattaviin dinosaurusaiheisiin tulostettaviin ideoihin myyntiin Etsyssä, Amazon KDP:ssä ja Gumroadilla.',
 
-    primaryKeyword: 'dinosaurus tulostettavat ideat',
+    primaryKeyword: 'dinosaurusaiheiset tulostettavat ideat myyntiin',
     secondaryKeywords: [
       'dinosaurustyöarkit myyntiin',
       'dinosaurusteemainen tulostettava liiketoiminta',

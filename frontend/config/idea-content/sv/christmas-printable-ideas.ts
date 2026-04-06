@@ -5,7 +5,7 @@ const content: IdeaContent = {
     titleTag: 'Printables jul & lucia för Etsy | LessonCraftStudio',
     metaDescription: 'Upptäck jul utskriftsbara idéer att sälja på Etsy, Amazon KDP och Gumroad. Julproduktkoncept, säsongsstrategier och plattformstips för säljare. Prova.',
 
-    primaryKeyword: 'printables jul och lucia att sälja Etsy',
+    primaryKeyword: 'printables jul lucia för etsy utskriftsbara affärsidéer säljare',
     secondaryKeywords: [
       'jularbetsblad att sälja',
       'helgdag utskriftsbart företag idéer',

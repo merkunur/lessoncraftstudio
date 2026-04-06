@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'woordzoekers met afbeeldingen maken verkopen',
+    primaryKeyword: 'woordzoekers maken verkopen',
     secondaryKeywords: [
       'woordzoeker generator met plaatjes',
       'printbare woordzoekers maken en verkopen',

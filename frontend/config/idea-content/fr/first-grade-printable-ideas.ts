@@ -5,7 +5,7 @@ const content: IdeaContent = {
     titleTag: 'Imprimables CP à vendre sur Etsy | LCS',
     metaDescription: 'Idées d\'imprimables CP à vendre sur Etsy, KDP & Gumroad. Concepts de produits Cours Préparatoire, stratégies de niche et conseils pour les vendeurs.',
 
-    primaryKeyword: 'imprimables CP à vendre sur Etsy',
+    primaryKeyword: 'imprimables vendre etsy idées vendeurs',
     secondaryKeywords: [
       'fiches CP à vendre',
       'idées business imprimables cours préparatoire',

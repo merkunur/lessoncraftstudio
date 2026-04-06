@@ -2,11 +2,11 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'níveis dificuldade fichas camadas produto',
+    primaryKeyword: 'produto produtos níveis dificuldade camadas',
     secondaryKeywords: [
-      'níveis dificuldade fichas camadas produto passo a passo',
-      'níveis dificuldade fichas camadas produto tutorial',
-      'níveis dificuldade fichas camadas produto como fazer',
+      'passo passo',
+      'ferramentas necessárias',
+      'dicas avançadas',
     ],
     lsiKeywords: [
       'tutorial imprimíveis',

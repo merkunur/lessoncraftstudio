@@ -2,7 +2,7 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'luo yhtenainen tulosteet brandi',
+    primaryKeyword: 'brandi luo yhtenainen tulostebrandi rakenna tunnistettava',
     secondaryKeywords: [
       'luo yhtenainen tulosteet brandi opas',
       'luo yhtenainen tulosteet brandi vaiheittain',

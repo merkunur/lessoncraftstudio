@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'skapa målarbilder för Etsy och KDP',
+    primaryKeyword: 'målarbilder för etsy kdp hur skapar från tematiska',
     secondaryKeywords: [
       'målarbild-generator från bilder',
       'utskriftsklara målarbilder att sälja',

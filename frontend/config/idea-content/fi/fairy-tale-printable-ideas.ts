@@ -5,7 +5,7 @@ const content: IdeaContent = {
     titleTag: 'Satuaiheiset tulostettavat ideat myyntiin — Nicheopas',
     metaDescription: 'Tutustu satuaiheisiin tulostettaviin ideoihin myyntiin Etsyssä, Amazon KDP:ssä ja Gumroadilla.',
 
-    primaryKeyword: 'satu tulostettavat ideat',
+    primaryKeyword: 'satuaiheiset tulostettavat ideat myyntiin',
     secondaryKeywords: [
       'satutyöarkit myyntiin',
       'tarinakirjateemainen tulostettava liiketoiminta',

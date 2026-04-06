@@ -2,7 +2,11 @@ import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
     primaryKeyword: 'finn og tell utskrifter fortjeneste 2026',
-    secondaryKeywords: ['finn og tell utskrifter fortjeneste Etsy', 'finn og tell utskrifter fortjeneste tips', 'finn og tell utskrifter fortjeneste strategi'],
+    secondaryKeywords: [
+      'produktoppbygging differensiering',
+      'prissetting pakkestrategier',
+      'etsy seo markedsføring',
+    ],
     lsiKeywords: ['utskrivbare arbeidsark salg', 'pedagogiske utskrifter forretning', 'Etsy digital nedlasting'],
     titleTag: 'Finn-og-tell-utskrifter for fortjeneste | LCS',
     metaDescription: 'Finn-og-tell-utskrifter for fortjeneste. Produktstrategi, prissetting og markedsføringstips for Etsy og Undervisningsbyen.no i 2026.',

@@ -2,7 +2,7 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'saelge printbare produkter skattekrav',
+    primaryKeyword: 'skat printbar juridisk saelge printbare',
     secondaryKeywords: [
       'juridiske grundlag printbar forretning',
       'skatteforpligtelser digitale produkter',

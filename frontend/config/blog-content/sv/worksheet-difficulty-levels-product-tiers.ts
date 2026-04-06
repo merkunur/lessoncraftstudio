@@ -2,11 +2,11 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'svarighetsnivaaer produktnivaaer arbetsblad',
+    primaryKeyword: 'svårighetsnivåer produktnivåer',
     secondaryKeywords: [
-      'svårighetsnivåer produktnivåer Etsy',
-      'svårighetsnivåer produktnivåer foeretagande',
-      'utskrifter svårighetsnivåer produktnivåer',
+      'steg för steg guide',
+      'vanliga misstag undvika',
+      'avancerade tips',
     ],
     lsiKeywords: [
       'utskriftsfoeretagande Sverige',

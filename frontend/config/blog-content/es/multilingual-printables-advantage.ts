@@ -2,7 +2,7 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'ventaja imprimibles multilingues',
+    primaryKeyword: 'ventaja imprimibles multilingues vender multiples idiomas',
     secondaryKeywords: ['vender imprimibles en varios idiomas', 'multiplicar ventas imprimibles idiomas', 'imprimibles 11 idiomas negocio'],
     lsiKeywords: ['mercado multilingue imprimibles', 'fichas educativas multiples idiomas', 'internacionalizar imprimibles'],
     titleTag: 'La Ventaja de Imprimibles Multilingues | LCS',

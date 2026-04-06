@@ -2,8 +2,12 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'imprimibles primavera marzo abril',
-    secondaryKeywords: ['imprimibles primavera marzo abril negocio', 'imprimibles primavera marzo abril Etsy vender', 'imprimibles primavera marzo abril imprimibles rentable'],
+    primaryKeyword: 'primavera imprimibles vender marzo',
+    secondaryKeywords: [
+      'tipos productos mayor demanda',
+      'seo palabras clave espanol',
+      'adaptaciones culturales region',
+    ],
     lsiKeywords: ['imprimibles primavera fichas', 'vender imprimibles imprimibles', 'marzo abril educativos'],
     titleTag: 'Imprimibles de Primavera para Vender | LCS',
     metaDescription: 'La primavera trae consigo temas de renovacion, naturaleza y crecimiento que se traducen perfectamente en. Venda en Etsy & KDP con licencia comercial.',

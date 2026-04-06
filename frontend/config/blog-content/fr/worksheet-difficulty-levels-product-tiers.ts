@@ -4,9 +4,9 @@ const content: BlogContent = {
   seo: {
     primaryKeyword: 'niveaux difficulté fiches gammes produits',
     secondaryKeywords: [
-      'tutoriel niveaux difficulté fiches',
-      'guide pas à pas niveaux difficulté',
-      'comment niveaux difficulté fiches',
+      'étape préparation',
+      'étape création production',
+      'étape optimisation publication',
     ],
     lsiKeywords: [
       'étapes niveaux difficulté',

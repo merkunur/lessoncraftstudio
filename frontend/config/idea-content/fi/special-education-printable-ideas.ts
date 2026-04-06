@@ -5,7 +5,7 @@ const content: IdeaContent = {
     titleTag: 'Erityisopetuksen tulostettavat ideat myyntiin — Nicheopas',
     metaDescription: 'Tutustu erityisopetuksen tulostettaviin ideoihin myyntiin Etsyssä, Amazon KDP:ssä ja Gumroadilla.',
 
-    primaryKeyword: 'erityisopetus tulostettavat ideat',
+    primaryKeyword: 'erityisopetuksen tulostettavat ideat myyntiin',
     secondaryKeywords: [
       'erityisopetuksen työarkit myyntiin',
       'erityisopetustulostettava liiketoimintaideat',

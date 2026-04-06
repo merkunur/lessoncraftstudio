@@ -5,7 +5,7 @@ const content: IdeaContent = {
     titleTag: 'Toisen luokan tulostettavat ideat myyntiin — Nicheopas',
     metaDescription: 'Tutustu toisen luokan tulostettaviin ideoihin myyntiin Etsyssä, Amazon KDP:ssä ja Gumroadilla.',
 
-    primaryKeyword: 'toinen luokka tulostettavat ideat',
+    primaryKeyword: 'toisen luokan tulostettavat ideat myyntiin nicheopas liiketoimintaideat',
     secondaryKeywords: [
       'toisen luokan työarkit myyntiin',
       'toisen luokan tulostettava liiketoimintaideat',

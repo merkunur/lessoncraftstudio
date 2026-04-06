@@ -3,7 +3,11 @@ import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
     primaryKeyword: 'imprimibles regreso a clases temporada',
-    secondaryKeywords: ['imprimibles regreso a clases temporada negocio', 'imprimibles regreso a clases temporada Etsy vender', 'imprimibles regreso a clases temporada imprimibles rentable'],
+    secondaryKeywords: [
+      'tipos productos mayor demanda',
+      'seo palabras clave espanol',
+      'adaptaciones culturales region',
+    ],
     lsiKeywords: ['imprimibles regreso fichas', 'vender imprimibles imprimibles', 'clases temporada educativos'],
     titleTag: 'Imprimibles de Regreso a Clases: La Fiebre | LCS',
     metaDescription: 'El regreso a clases no es una fecha unica en el mundo hispanohablante. Venda en Etsy & KDP con licencia comercial.',

@@ -2,7 +2,7 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'masterclass Etsy printables-verksamhet',
+    primaryKeyword: 'etsy för masterclass printables utskriftsbart',
     secondaryKeywords: [
       'Etsy utskriftsbart företag',
       'Etsy butik för utskriftsbara arbetsblad',

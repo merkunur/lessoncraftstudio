@@ -2,11 +2,11 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'tilauspaino vai digitaalinen lataus',
+    primaryKeyword: 'tilauspaino digitaalinen lataus vertaile digitaalisen',
     secondaryKeywords: [
-      'tilauspaino vai digitaalinen lataus opas',
-      'tilauspaino vai digitaalinen lataus 2026',
-      'tilauspaino vai digitaalinen lataus Suomi',
+      'kaytannoen toteutus vaihe vaiheelta',
+      'yleisimmat haasteet ratkaisut',
+      'mittaaminen optimointi',
     ],
     lsiKeywords: [
       'tulosteet liiketoiminta',

@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'gerador de atividades de matemática para vendedores Hotmart e KDP',
+    primaryKeyword: 'atividades matemática vender hotmart etsy',
     secondaryKeywords: [
       'criar atividades de cálculo numérico para vender na Etsy',
       'gerador de exercícios de matemática com licença comercial',

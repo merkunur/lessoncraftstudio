@@ -39,7 +39,7 @@ const content: BlogContent = {
     { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Guia para iniciar su negocio' },
     { pageType: 'guide', slug: 'understanding-commercial-licenses', anchorText: 'Licencias comerciales explicadas' },
   ],
-  relatedPosts: [{"slug":"copyright-printable-sellers-basics","title":"Derechos de Autor para Vendedores"},{"slug":"printable-business-mistakes-avoid","title":"Errores a Evitar en Imprimibles"},{"slug":"printable-business-income-realistic","title":"Ingresos Realistas de Imprimibles"}],
+  relatedPosts: [{"slug":"copyright-printable-sellers-basics",title: 'Derechos de Autor para Vendedores'},{"slug":"printable-business-mistakes-avoid",title: 'Errores a Evitar en Imprimibles'},{"slug":"printable-business-income-realistic",title: 'Ingresos Realistas de Imprimibles'}],
   cta: { heading: 'Cree Imprimibles con Licencia Comercial', description: 'Genere fichas profesionales listas para vender con licencia comercial incluida. 33 generadores con prueba gratuita con marca de agua.', buttonText: 'Ver los Generadores', buttonUrl: '/apps' },
 };
 

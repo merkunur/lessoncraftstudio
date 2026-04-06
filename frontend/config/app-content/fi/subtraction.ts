@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'vahennyslasku tyoarkki generaattori',
+    primaryKeyword: 'vahennyslasku tyoarkki generaattori luo myy',
     secondaryKeywords: [
       'vahennyslasku tyoarkit myyntiin Etsyssa',
       'vahennyslasku tyoarkki generaattori Amazon KDP',

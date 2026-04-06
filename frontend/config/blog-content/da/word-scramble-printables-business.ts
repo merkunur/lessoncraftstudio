@@ -2,7 +2,7 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'bogstavmix printables forretning',
+    primaryKeyword: 'bogstavmix bogstaverne printables forretningsguide',
     secondaryKeywords: ['bogstavmix printables forretning Etsy', 'bogstavmix printables forretning online', 'bogstavmix printables forretning forretning'],
     lsiKeywords: ['printbar forretning Danmark', 'digital download salg', 'Etsy printables sælg'],
     titleTag: 'Bogstavmix-Printables: Forretningsguide | LCS',

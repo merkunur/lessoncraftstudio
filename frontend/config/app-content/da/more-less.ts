@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'mere eller mindre arbejdsark generator',
+    primaryKeyword: 'arbejdsark mere eller mindre sammenligningsarbejdsark',
     secondaryKeywords: [
       'printbare sammenligningsarbejdsark til Etsy',
       'mere mindre arbejdsark generator til Amazon KDP',

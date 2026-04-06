@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'optimiser sa boutique La Salle des Maîtres',
+    primaryKeyword: 'optimiser boutique salle maîtres guide configuration optimisation gumroad',
     secondaryKeywords: [
       'comment optimiser votre boutique Gumroad',
       'facteurs de classement algorithme de recherche Gumroad',

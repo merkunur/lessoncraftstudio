@@ -2,7 +2,7 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'imprimibles Halloween vender octubre',
+    primaryKeyword: 'halloween imprimibles octubre vender ent convertido',
     secondaryKeywords: ['imprimibles Halloween vender octubre negocio', 'imprimibles Halloween vender octubre Etsy vender', 'imprimibles Halloween vender octubre imprimibles rentable'],
     lsiKeywords: ['imprimibles Halloween fichas', 'vender imprimibles imprimibles', 'vender octubre educativos'],
     titleTag: 'Imprimibles de Halloween para Vender en Octubre | LCS',

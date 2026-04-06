@@ -2,7 +2,7 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'sosiaalinen media tulosteet myyjat',
+    primaryKeyword: 'sosiaalinen media tulostemyyjille taydellinen strategia',
     secondaryKeywords: [
       'sosiaalinen media tulosteet myyjat opas',
       'sosiaalinen media tulosteet myyjat 2026',

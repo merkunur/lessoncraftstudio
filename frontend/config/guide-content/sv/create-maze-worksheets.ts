@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'skapa labyrinter att sälja på Etsy',
+    primaryKeyword: 'sälja etsy hur skapar',
     secondaryKeywords: [
       'labyrintarbetsblad generator',
       'utskriftsklara labyrintaktivitetsblad',

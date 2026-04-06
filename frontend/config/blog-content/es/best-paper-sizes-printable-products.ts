@@ -2,8 +2,12 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'mejores tamanos papel productos imprimibles',
-    secondaryKeywords: ['mejores tamanos papel productos imprimibles paso a paso', 'mejores tamanos papel productos imprimibles tutorial', 'mejores tamanos papel productos imprimibles guia practica'],
+    primaryKeyword: 'papel tamano tamanos imprimibles detalle critico',
+    secondaryKeywords: [
+      'paso creacion contenido',
+      'paso compilacion formato',
+      'paso crear fotos listing',
+    ],
     lsiKeywords: ['mejores tamanos papel tips', 'como mejores tamanos', 'productos imprimibles facil'],
     titleTag: 'Tamanos de Papel para Imprimibles | LCS',
     metaDescription: 'El tamano de papel es un detalle critico que muchos vendedores nuevos ignoran. En Latinoamerica y Estados Unidos, el tamano carta (8.5 x 11 pulgadas) es el',

@@ -5,7 +5,7 @@ const content: IdeaContent = {
     titleTag: 'Lintuaiheiset tulostettavat ideat myyntiin — Nicheopas',
     metaDescription: 'Tutustu lintuteemaisten tulostettavien ideoihin myyntiin Etsyssä, Amazon KDP:ssä ja Gumroadilla. Tuotekonseptit, alustastrategiat ja nichevinkit myyjille.',
 
-    primaryKeyword: 'lintuaiheiset tulostettavat ideat',
+    primaryKeyword: 'lintuaiheiset tulostettavat ideat myyntiin',
     secondaryKeywords: [
       'lintutyöarkit myyntiin',
       'lintuaiheinen tulostettava liiketoiminta',

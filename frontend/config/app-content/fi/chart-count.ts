@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'kuvakaaviolaskenta työarkit',
+    primaryKeyword: 'kuvakaaviolaskenta työarkit myy etsyssä luo laskenta kaaviotyöarkkeja myyntiin',
     secondaryKeywords: [
       'kuvakaaviolaskenta generaattori Etsy-kauppaan',
       'kuvagraafi työarkit myy verkossa',

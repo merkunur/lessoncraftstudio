@@ -4,9 +4,9 @@ const content: BlogContent = {
   seo: {
     primaryKeyword: 'utskrivbara spel kalas',
     secondaryKeywords: [
-      'utskrivbara spel kalas Etsy',
-      'utskrivbara spel foeretagande',
-      'utskrifter utskrivbara spel',
+      'produkter säljer denna nisch',
+      'skapandeprocess verktyg',
+      'marknadsföring säsongsplanering',
     ],
     lsiKeywords: [
       'utskriftsfoeretagande Sverige',

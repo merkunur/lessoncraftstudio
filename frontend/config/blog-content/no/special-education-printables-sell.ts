@@ -1,7 +1,7 @@
 import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'spesialundervisning printables selge 2026',
+    primaryKeyword: 'spesialundervisning utskrifter selg nett',
     secondaryKeywords: ['spesialundervisning printables selge Etsy', 'spesialundervisning printables selge strategi', 'spesialundervisning printables selge tips'],
     lsiKeywords: ['sesongbaserte utskrifter', 'utskrivbare arbeidsark nisje', 'printable selger Norge'],
     titleTag: 'Spesialundervisning-utskrifter: Selg på nett | LCS',

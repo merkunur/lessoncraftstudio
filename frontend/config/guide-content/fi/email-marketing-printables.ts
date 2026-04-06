@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'sähköpostimarkkinointi tulostettaville tuotteille',
+    primaryKeyword: 'sähköpostimarkkinointi tulostettaville tuotteille opas tulostettavien tuotteiden liiketoiminnalle',
     secondaryKeywords: [
       'sähköpostilistan rakentaminen tulostettavien myyjille',
       'liidimagneetti tulostettavat tuotteet',

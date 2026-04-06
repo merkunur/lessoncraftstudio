@@ -4,9 +4,9 @@ const content: BlogContent = {
   seo: {
     primaryKeyword: 'kokovertailutyoarkit myy',
     secondaryKeywords: [
-      'iso pieni tehtavat myynti',
-      'kokovertailu tulosteet Etsy',
-      'suurempi pienempi tyoarkit',
+      'tuotetyypit vaikeustasot',
+      'hinnoittelu paketointi',
+      'markkinointi avainsanat',
     ],
     lsiKeywords: [
       'mittaaminen lapsille',

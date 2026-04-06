@@ -2,7 +2,7 @@ import type { BundleContent } from '../types';
 
 const content: BundleContent = {
   seo: {
-    primaryKeyword: 'paquete busca y encuentra para vendedores',
+    primaryKeyword: 'paquete busca encuentra fichas etsy',
     secondaryKeywords: [
       'paquete generadores fichas de búsqueda para Etsy',
       'kit sopas de letras y busque objetos KDP',

@@ -5,7 +5,7 @@ const content: IdeaContent = {
     titleTag: 'Digitala nedladdningar verksamhet | LessonCraftStudio',
     metaDescription: 'Digitala nedladdningsbara arbetsbladsidéer för Etsy, Gumroad och Shopify-säljare. Bygg ett lagerfritt utskriftsbart företag med direktlevererade pedagogiska.',
 
-    primaryKeyword: 'digitala nedladdningar printables idéer',
+    primaryKeyword: 'digitala nedladdningar verksamhet digital nedladdning arbetsblad affärsidéer för',
     secondaryKeywords: [
       'digital nedladdning utskriftsbart företag',
       'sälja digitala arbetsblad online',

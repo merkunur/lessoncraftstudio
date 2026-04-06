@@ -2,7 +2,7 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'fichas adivinar palabras vender ingresos 2026',
+    primaryKeyword: 'fichas adivinar palabras ingresos reales convertir juego',
     secondaryKeywords: [
       'juego adivinar palabras fichas negocio',
       'vender fichas word guess imprimibles',

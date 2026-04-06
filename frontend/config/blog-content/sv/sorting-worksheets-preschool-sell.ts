@@ -2,7 +2,7 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'sorteringsarbetsblad foerskola saelj',
+    primaryKeyword: 'sorteringsarbetsblad för förskola sälj',
     secondaryKeywords: [
       'sorteringsarbetsblad förskola sälj Etsy',
       'sorteringsarbetsblad förskola foeretagande',

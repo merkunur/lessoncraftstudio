@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'creare enigmi matematici con codice segreto da vendere su Etsy',
+    primaryKeyword: 'enigmi matematici vendere crea etsy kdp codificati',
     secondaryKeywords: [
       'schede addizione codificata per venditori Etsy',
       'puzzle matematici con codice per Amazon KDP',

@@ -5,7 +5,7 @@ const content: IdeaContent = {
     titleTag: 'Imprimables Action de grâces à vendre | LCS',
     metaDescription: 'Idées d\'imprimables Thanksgiving à vendre sur Etsy, KDP et Gumroad. Concepts de produits automne-récolte, stratégies saisonnières et conseils pros.',
 
-    primaryKeyword: 'imprimables Action de grâces à vendre',
+    primaryKeyword: 'imprimables action grâces vendre idées thanksgiving vendeurs',
     secondaryKeywords: [
       'fiches Thanksgiving à vendre',
       'idées business imprimables Thanksgiving',

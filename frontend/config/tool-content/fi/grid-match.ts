@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'ruudukkopulma tehtavat',
+    primaryKeyword: 'ruudukkoyhdistämistehtäviä ruudukon ruudukkopulmageneraattori ruudukko tehtävägeneraattori',
     secondaryKeywords: [
       'ruudukkopulma tehtavageneraattori myyjille',
       'tee ruudukkopulmia myyntiin',

@@ -5,7 +5,7 @@ const content: IdeaContent = {
     titleTag: 'Printables undervattensvärlden | LessonCraftStudio',
     metaDescription: 'Utforska undervattens utskriftsbara idéer att sälja på Etsy, Amazon KDP och Gumroad. Havstema produktkoncept, djuphavs arbetsblad och nischtips för säljare.',
 
-    primaryKeyword: 'printables undervattensvärld att sälja',
+    primaryKeyword: 'printables undervattensvärlden undervattens utskriftsbara affärsidéer för säljare undervattensvärld',
     secondaryKeywords: [
       'undervattens arbetsblad att sälja',
       'djuphavs utskriftsbart företag idéer',

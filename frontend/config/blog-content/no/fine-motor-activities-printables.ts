@@ -2,7 +2,11 @@ import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
     primaryKeyword: 'finmotorikk aktiviteter printables 2026',
-    secondaryKeywords: ['finmotorikk aktiviteter printables Etsy', 'finmotorikk aktiviteter printables strategi', 'finmotorikk aktiviteter printables tips'],
+    secondaryKeywords: [
+      'norsk tilpasning unik vinkel',
+      'produktoppbygging prissetting',
+      'seo timing',
+    ],
     lsiKeywords: ['sesongbaserte utskrifter', 'utskrivbare arbeidsark nisje', 'printable selger Norge'],
     titleTag: 'Finmotorikk-aktiviteter som utskrifter | LCS',
     metaDescription: 'Finmotorikk-aktiviteter forbereder barn på skriving ved å trene håndkontroll, øye-hånd-koordinasjon og presisjon. Selg pa Etsy & KDP med kommersiell lisens.',

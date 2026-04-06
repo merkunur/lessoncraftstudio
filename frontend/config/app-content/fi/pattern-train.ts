@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'kuvioharjoitus generaattori myyjille',
+    primaryKeyword: 'kuviojuna generaattori myyjille luo myyntiin',
     secondaryKeywords: [
       'kuvioharjoitus generaattori tulostettaviin tuotteisiin',
       'luo kuviotyöarkkeja Etsy-kauppaan',

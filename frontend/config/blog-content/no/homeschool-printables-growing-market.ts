@@ -2,7 +2,11 @@ import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
     primaryKeyword: 'hjemmeundervisning printables voksende marked 2026',
-    secondaryKeywords: ['hjemmeundervisning printables voksende marked Etsy', 'hjemmeundervisning printables voksende marked strategi', 'hjemmeundervisning printables voksende marked tips'],
+    secondaryKeywords: [
+      'norsk tilpasning unik vinkel',
+      'produktoppbygging prissetting',
+      'seo timing',
+    ],
     lsiKeywords: ['sesongbaserte utskrifter', 'utskrivbare arbeidsark nisje', 'printable selger Norge'],
     titleTag: 'Hjemmeundervisning-utskrifter: Et voksende marked | LCS',
     metaDescription: 'Hjemmeundervisning er lovlig i Norge, og antallet familier som velger det øker. Internasjonalt er markedet enormt, spesielt i USA, Storbritannia og Au',

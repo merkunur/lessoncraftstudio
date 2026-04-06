@@ -5,7 +5,7 @@ const content: IdeaContent = {
     titleTag: 'Kesäoppimisen tulostettavat ideat myyntiin — Nicheopas',
     metaDescription: 'Tutustu kesäoppimisen tulostettaviin ideoihin myyntiin Etsyssä, Amazon KDP:ssä ja Gumroadilla. Taitojen ylläpitotuotekonseptit ja nichestrategiat myyjille.',
 
-    primaryKeyword: 'kesäoppiminen tulostettavat ideat',
+    primaryKeyword: 'kesäoppimisen tulostettavat ideat myyntiin nicheopas liiketoimintaideat myyjille',
     secondaryKeywords: [
       'kesäoppimisen työarkit myyntiin',
       'kesäoppimistulostettava liiketoimintaideat',

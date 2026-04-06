@@ -2,11 +2,11 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'mattepusselboecker Amazon KDP',
+    primaryKeyword: 'mattepusselböcker amazon kdp',
     secondaryKeywords: [
-      'mattepusselböcker amazon Etsy',
-      'mattepusselböcker amazon foeretagande',
-      'utskrifter mattepusselböcker amazon',
+      'produkttyper säljer bäst',
+      'skapa professionella produkter snabbt',
+      'listnings marknadsföringsstrategi',
     ],
     lsiKeywords: [
       'utskriftsfoeretagande Sverige',

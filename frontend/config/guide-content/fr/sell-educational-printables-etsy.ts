@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'vendre des fiches éducatives sur Etsy débutant',
+    primaryKeyword: 'etsy vendre imprimables imprimable fiches éducatives comment',
     secondaryKeywords: [
       'comment vendre imprimables éducatifs sur Etsy',
       'stratégie boutique Etsy imprimables éducatifs',

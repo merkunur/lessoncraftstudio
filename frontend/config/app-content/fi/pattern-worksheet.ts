@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'hahmontunnistus työarkin generaattori Etsyyn',
+    primaryKeyword: 'hahmontunnistus työarkin generaattori etsyyn luo hahmontunnistustyöarkkeja myyntiin etsyssä',
     secondaryKeywords: [
       'hahmontunnistus generaattori Etsy-myyjille',
       'luo hahmontunnistustyöarkkeja Etsyyn',

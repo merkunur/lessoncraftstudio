@@ -5,7 +5,7 @@ const content: IdeaContent = {
     titleTag: 'Printables fåglar att sälja | LessonCraftStudio',
     metaDescription: 'Utforska fågeltematiserade utskriftsbara idéer att sälja på Etsy, Amazon KDP och Gumroad. Produktkoncept, plattformsstrategier och nischpositioneringstips för.',
 
-    primaryKeyword: 'printables fåglar att sälja',
+    primaryKeyword: 'sälja fåglar printables utskriftsbara för',
     secondaryKeywords: [
       'fågeltematiserade arbetsblad att sälja',
       'fågel utskriftsbart företag idéer',

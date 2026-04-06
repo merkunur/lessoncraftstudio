@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'gerador de caça ao tesouro para Etsy e KDP',
+    primaryKeyword: 'caça tesouro vender online crie atividades hotmart etsy',
     secondaryKeywords: [
       'criar atividades de caça ao tesouro para Hotmart',
       'jogo de caça ao tesouro imprimível para Amazon KDP',

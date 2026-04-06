@@ -2,7 +2,7 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'håndskrift arbejdsark Etsy niche',
+    primaryKeyword: 'håndskrifttræning håndskrifttrænin håndskrift arbejdsark profitabel',
     secondaryKeywords: ['håndskrift arbejdsark Etsy niche Etsy', 'håndskrift arbejdsark Etsy niche online', 'håndskrift arbejdsark Etsy niche forretning'],
     lsiKeywords: ['printbar forretning Danmark', 'digital download salg', 'Etsy printables sælg'],
     titleTag: 'Håndskrift-Arbejdsark: En Profitabel Etsy-Niche | LCS',

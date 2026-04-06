@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'kategorisorteringsarbejdsark',
+    primaryKeyword: 'sorteringsarbejdsark kategori kategorisorteringsarbejdsark guide',
     secondaryKeywords: [
       'skab sorteringsarbejdsark for børn',
       'billedsortering arbejdsark-generator',

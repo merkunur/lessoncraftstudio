@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'hinnoittele Etsy-tulostettavat',
+    primaryKeyword: 'hinnoittele etsy tulostettavat strategiaopas tulostettavien hinnoittelustrategiat',
     secondaryKeywords: ['Etsy-tulostettavien hinnoittelustrategia', 'miten hinnoitella tulostettavat Etsyssä', 'Etsy-digitaalisten latausten hinnoittelu', 'Etsy-työarkkien hinnoitteluopas'],
     lsiKeywords: ['Etsy-maksut transaktiokulut listausmaksut nettotuotto', 'Etsy-hinnoittelupsykologia arvoankurointi pakettihinta', 'Etsy-kilpailuanalyysi hintapiste konversioaste', 'digitaalisten latausten hinnoittelumalli arvopohjainen hinnoittelu', 'Etsy-myyntistrategia hintatestaas tuottooptimointi', 'Etsy-kaupan hinnoittelukehys premium-hinnoittelu alennnusstrategia'],
     titleTag: 'Hinnoittele Etsy-tulostettavat — Strategiaopas',

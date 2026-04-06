@@ -2,11 +2,11 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'imprimables printemps mars avril vendre',
+    primaryKeyword: 'imprimables printemps mars avril renouveau ventes',
     secondaryKeywords: [
-      'vendre imprimables imprimables printemps mars',
-      'fiches imprimables printemps Etsy',
-      'créer imprimables imprimables printemps',
+      'types produits vendent',
+      'stratégie seo marketing',
+      'adaptations marché français',
     ],
     lsiKeywords: [
       'marché imprimables printemps',

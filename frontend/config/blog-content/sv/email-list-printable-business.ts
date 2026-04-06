@@ -4,9 +4,9 @@ const content: BlogContent = {
   seo: {
     primaryKeyword: 'e-postlista utskriftsfoeretagande',
     secondaryKeywords: [
-      'e-postlista utskriftsverksamhet Etsy',
-      'e-postlista utskriftsverksamhet foeretagande',
-      'utskrifter e-postlista utskriftsverksamhet',
+      'optimering för framgång',
+      'tillväxtstrategier',
+      'mäta förbättra resultat',
     ],
     lsiKeywords: [
       'utskriftsfoeretagande Sverige',

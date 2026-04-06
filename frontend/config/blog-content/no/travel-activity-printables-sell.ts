@@ -1,8 +1,12 @@
 import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'reise aktiviteter printables selge 2026',
-    secondaryKeywords: ['reise aktiviteter printables selge Etsy', 'reise aktiviteter printables selge strategi', 'reise aktiviteter printables selge tips'],
+    primaryKeyword: 'reiseaktiviteter utskrifter selg reise aktiviteter',
+    secondaryKeywords: [
+      'norsk tilpasning unik vinkel',
+      'produktoppbygging prissetting',
+      'seo timing',
+    ],
     lsiKeywords: ['sesongbaserte utskrifter', 'utskrivbare arbeidsark nisje', 'printable selger Norge'],
     titleTag: 'Reiseaktiviteter-utskrifter: Selg | LCS',
     metaDescription: 'Foreldre med små barn trenger aktiviteter til bilreiser, flyreiser og ferieopphold. Selg pa Etsy & KDP med kommersiell lisens.',

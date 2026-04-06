@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'gerador de procure e conte grátis',
+    primaryKeyword: 'grátis procure conte online crie atividades',
     secondaryKeywords: [
       'procure e conte para imprimir grátis',
       'atividades de encontre e conte grátis',

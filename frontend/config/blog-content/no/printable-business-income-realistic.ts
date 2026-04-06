@@ -2,7 +2,11 @@ import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
     primaryKeyword: 'printable bedrift inntekt realistisk',
-    secondaryKeywords: ['printable bedrift inntekt realistisk tips', 'printable bedrift inntekt realistisk strategi', 'printable bedrift inntekt realistisk 2026'],
+    secondaryKeywords: [
+      'praktisk gjennomføring',
+      'optimalisering måling',
+      'vanlige feil unngå',
+    ],
     lsiKeywords: ['utskrivbare produkter forretning', 'printable selger strategi', 'digital nedlasting inntekt'],
     titleTag: 'Realistisk inntekt fra printable-bedrift | LCS',
     metaDescription: 'Hvor mye kan du egentlig tjene på å selge utskrivbare produkter? Denne guiden gir deg realistiske inntektsforventninger basert på erfaring, ikke salgs',

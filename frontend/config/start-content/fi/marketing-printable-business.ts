@@ -2,7 +2,7 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'markkinoi tulostettavia tehtavia',
+    primaryKeyword: 'markkinoi tulostettavia tehtäviä verkossa ssa',
     secondaryKeywords: ['markkinointistrategiat tulostettavien myyjille', 'markkinoi tulostettavia tehtavia verkossa', 'markkinointisuunnitelma tulostettavien liiketoiminta', 'myy enemman tehtavia Etsyssa'],
     lsiKeywords: ['Etsy SEO digitaaliset lataukset', 'Pinterest-markkinointi tulostettavat tuotteet', 'sahkopostimarkkinointi tehtavamyyjille', 'kausimarkkinointikalenteri tulostettavat', 'markkinapaikkaoptimointi aktiviteettikirjat', 'sisaltomarkkinointi tulostettavien yrittajille'],
     titleTag: 'Markkinoi tulostettavia tehtäviä — opas myyjille',

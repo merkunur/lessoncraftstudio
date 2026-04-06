@@ -2,11 +2,11 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'paasiais tulosteet liiketoiminta kevat',
+    primaryKeyword: 'kevaalla paasiais paasiaistulosteet kasvava',
     secondaryKeywords: [
-      'paasiais tulosteet liiketoiminta kevat opas',
-      'paasiais tulosteet liiketoiminta kevat 2026',
-      'paasiais tulosteet liiketoiminta kevat Suomi',
+      'tuotevalikoima teemat',
+      'suomalaisen myyjann kilpailuedut',
+      'hinnoittelu paketointi',
     ],
     lsiKeywords: [
       'tulosteet myynti',

@@ -2,7 +2,11 @@ import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
     primaryKeyword: 'passiv inntekt printables sannhet',
-    secondaryKeywords: ['passiv inntekt printables sannhet tips', 'passiv inntekt printables sannhet strategi', 'passiv inntekt printables sannhet 2026'],
+    secondaryKeywords: [
+      'praktisk gjennomføring',
+      'optimalisering måling',
+      'vanlige feil unngå',
+    ],
     lsiKeywords: ['utskrivbare produkter forretning', 'printable selger strategi', 'digital nedlasting inntekt'],
     titleTag: 'Passiv inntekt fra printables: Sannheten | LCS',
     metaDescription: 'Utskrivbare produkter markedsføres ofte som «passiv inntekt». Men er det sant? Denne guiden gir deg et ærlig bilde av hva som kreves, hva som er passi',

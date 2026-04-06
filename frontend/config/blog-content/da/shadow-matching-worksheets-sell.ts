@@ -2,7 +2,7 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'skyggematching arbejdsark sælg',
+    primaryKeyword: 'skyggematching arbejdsark sælg visuelle puslespil',
     secondaryKeywords: ['skyggematching arbejdsark sælg Etsy', 'skyggematching arbejdsark sælg online', 'skyggematching arbejdsark sælg forretning'],
     lsiKeywords: ['printbar forretning Danmark', 'digital download salg', 'Etsy printables sælg'],
     titleTag: 'Skyggematching-Arbejdsark: Sælg Visuelle Puslespil | LCS',

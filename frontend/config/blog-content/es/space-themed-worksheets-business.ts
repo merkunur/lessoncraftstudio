@@ -2,8 +2,12 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'fichas tematica espacio planetas',
-    secondaryKeywords: ['fichas tematica espacio planetas negocio', 'fichas tematica espacio planetas Etsy vender', 'fichas tematica espacio planetas imprimibles rentable'],
+    primaryKeyword: 'espacio tema venda fichas planetas vender',
+    secondaryKeywords: [
+      'tipos productos mayor demanda',
+      'seo palabras clave espanol',
+      'adaptaciones culturales region',
+    ],
     lsiKeywords: ['fichas tematica fichas', 'vender imprimibles fichas', 'espacio planetas educativos'],
     titleTag: 'Fichas de Espacio y Planetas para Vender | LCS',
     metaDescription: 'El espacio exterior es un tema que fascina a ninos de todas las edades. Venda en Etsy & KDP con licencia comercial.',

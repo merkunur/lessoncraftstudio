@@ -3,7 +3,11 @@ import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
     primaryKeyword: 'imprimibles educacion en casa homeschool',
-    secondaryKeywords: ['imprimibles educacion en casa homeschool negocio', 'imprimibles educacion en casa homeschool Etsy vender', 'imprimibles educacion en casa homeschool imprimibles rentable'],
+    secondaryKeywords: [
+      'tipos productos mayor demanda',
+      'seo palabras clave espanol',
+      'adaptaciones culturales region',
+    ],
     lsiKeywords: ['imprimibles educacion fichas', 'vender imprimibles imprimibles', 'casa homeschool educativos'],
     titleTag: 'Imprimibles para Educacion en Casa | LCS',
     metaDescription: 'La educacion en casa (homeschool) crece a tasas de dos digitos en Mexico, Colombia, Argentina y otros paises. Venda en Etsy & KDP con licencia comercial.',

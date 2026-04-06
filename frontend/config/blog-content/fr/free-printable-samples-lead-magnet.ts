@@ -4,9 +4,9 @@ const content: BlogContent = {
   seo: {
     primaryKeyword: 'échantillons imprimables lead magnet',
     secondaryKeywords: [
-      'tutoriel échantillons imprimables lead',
-      'guide pas à pas échantillons imprimables',
-      'comment échantillons imprimables lead',
+      'étape préparation',
+      'étape création production',
+      'étape optimisation publication',
     ],
     lsiKeywords: [
       'étapes échantillons imprimables',

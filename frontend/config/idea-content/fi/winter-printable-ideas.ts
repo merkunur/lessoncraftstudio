@@ -5,7 +5,7 @@ const content: IdeaContent = {
     titleTag: 'Talviaiheiset tulostettavat ideat myyntiin — Nicheopas',
     metaDescription: 'Tutustu talviaiheisiin tulostettaviin ideoihin myyntiin Etsyssä, Amazon KDP:ssä ja Gumroadilla. Talvituotekonseptit, kausistrategiat ja alustavinkit myyjille.',
 
-    primaryKeyword: 'talvi tulostettavat ideat',
+    primaryKeyword: 'talviaiheiset tulostettavat ideat myyntiin',
     secondaryKeywords: [
       'talvityöarkit myyntiin',
       'talvitulostettava liiketoimintaideat',

@@ -2,7 +2,7 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'hitta raekna utskrifter vinst',
+    primaryKeyword: 'hitta räkna utskrifter vinst',
     secondaryKeywords: [
       'hitta-och-räkna-utskrifter vinst Etsy',
       'hitta-och-räkna-utskrifter vinst foeretagande',

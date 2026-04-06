@@ -4,9 +4,9 @@ const content: BlogContent = {
   seo: {
     primaryKeyword: 'importance corrigés ventes imprimables',
     secondaryKeywords: [
-      'tutoriel importance corrigés ventes',
-      'guide pas à pas importance corrigés',
-      'comment importance corrigés ventes',
+      'étape préparation',
+      'étape création production',
+      'étape optimisation publication',
     ],
     lsiKeywords: [
       'étapes importance corrigés',

@@ -4,9 +4,9 @@ const content: BlogContent = {
   seo: {
     primaryKeyword: 'créer packs curriculum imprimables',
     secondaryKeywords: [
-      'tutoriel créer packs curriculum',
-      'guide pas à pas créer packs',
-      'comment créer packs curriculum',
+      'étape préparation',
+      'étape création production',
+      'étape optimisation publication',
     ],
     lsiKeywords: [
       'étapes créer packs',

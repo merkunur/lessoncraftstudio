@@ -2,11 +2,11 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'formatos arquivo imprimíveis PDF JPEG guia',
+    primaryKeyword: 'arquivo formato formatos imprimíveis guia',
     secondaryKeywords: [
-      'formatos arquivo imprimíveis PDF JPEG guia passo a passo',
-      'formatos arquivo imprimíveis PDF JPEG guia tutorial',
-      'formatos arquivo imprimíveis PDF JPEG guia como fazer',
+      'passo passo',
+      'ferramentas necessárias',
+      'dicas avançadas',
     ],
     lsiKeywords: [
       'tutorial imprimíveis',

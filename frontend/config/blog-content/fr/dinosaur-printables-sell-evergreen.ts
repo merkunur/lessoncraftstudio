@@ -2,11 +2,11 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'imprimables dinosaures evergreen vendre',
+    primaryKeyword: 'imprimables dinosaures evergreen thème intemporel',
     secondaryKeywords: [
-      'vendre imprimables imprimables dinosaures evergreen',
-      'fiches imprimables dinosaures Etsy',
-      'créer imprimables imprimables dinosaures',
+      'types produits vendent',
+      'stratégie seo marketing',
+      'adaptations marché français',
     ],
     lsiKeywords: [
       'marché imprimables dinosaures',

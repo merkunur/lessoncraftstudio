@@ -5,7 +5,7 @@ const content: IdeaContent = {
     titleTag: 'Rakennusaiheiset tulostettavat ideat myyntiin — Nicheopas',
     metaDescription: 'Tutustu rakennusaiheisiin tulostettaviin ideoihin myyntiin Etsyssä, Amazon KDP:ssä ja Gumroadilla. Ajoneuvo- ja työkaluteemaiset tuotekonseptit myyjille.',
 
-    primaryKeyword: 'rakennusaiheiset tulostettavat ideat',
+    primaryKeyword: 'rakennusaiheiset tulostettavat ideat myyntiin',
     secondaryKeywords: [
       'rakennusteemaiset työarkit myyntiin',
       'rakennustulostettava liiketoimintaideat',

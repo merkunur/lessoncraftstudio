@@ -4,9 +4,9 @@ const content: BlogContent = {
   seo: {
     primaryKeyword: 'imprimables Toussaint automne novembre France',
     secondaryKeywords: [
-      'vendre imprimables imprimables Toussaint automne',
-      'fiches imprimables Toussaint Etsy',
-      'créer imprimables imprimables Toussaint',
+      'types produits vendent',
+      'stratégie seo marketing',
+      'adaptations marché français',
     ],
     lsiKeywords: [
       'marché imprimables Toussaint',

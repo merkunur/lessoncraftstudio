@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'koodiyhteenlasku tyoarkki generaattori',
+    primaryKeyword: 'koodiyhteenlasku generaattori matikkapulmia ratkottavaksi luo tyoarkkeja',
     secondaryKeywords: [
       'tulostettavat matikkapulmat tyoarkit Etsyyn',
       'koodiyhteenlasku tyoarkit Amazon KDP',

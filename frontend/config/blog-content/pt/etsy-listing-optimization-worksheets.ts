@@ -4,9 +4,9 @@ const content: BlogContent = {
   seo: {
     primaryKeyword: 'otimização anúncios Etsy fichas',
     secondaryKeywords: [
-      'otimização anúncios Etsy fichas guia',
-      'otimização anúncios Etsy fichas dicas',
-      'otimização anúncios Etsy fichas estratégia',
+      'estratégias funcionam',
+      'mercado brasileiro internacional',
+      'ferramentas recursos',
     ],
     lsiKeywords: [
       'negócio imprimíveis digital',

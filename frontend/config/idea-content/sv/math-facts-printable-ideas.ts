@@ -5,7 +5,7 @@ const content: IdeaContent = {
     titleTag: 'Gångertabellen — Idéer verksamhet | LessonCraftStudio',
     metaDescription: 'Upptäck utskriftsbara idéer för mattegrunder att sälja på Etsy, Amazon KDP och Gumroad. Nischstrategier för säljare som riktar sig mot lärare och föräldrar som.',
 
-    primaryKeyword: 'gångertabellen printables idéer verksamhet',
+    primaryKeyword: 'idéer gångertabellen verksamhet mattegrunder utskriftsbara',
     secondaryKeywords: [
       'matematikfakta arbetsblad att sälja',
       'matteövning utskriftsbart företag idéer',

@@ -2,7 +2,7 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'criar livro atividades KDP início fim',
+    primaryKeyword: 'livro kdp crie atividades início',
     secondaryKeywords: [
       'criar livro atividades KDP início fim passo a passo',
       'criar livro atividades KDP início fim tutorial',

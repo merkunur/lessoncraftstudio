@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'aarteenetsinta-tehtavageneraattori tulostukseen',
+    primaryKeyword: 'aarteenetsintae generaattori aarteenetsinta',
     secondaryKeywords: ['aarteenetsintae-tehtavageneraattori myyjille', 'tee suuntapalapaleja myyntiin', 'tulostettava aarteenetsintae-generaattori kaupallinen kaytto', 'aarteenetsintaepalapeli-generaattori KDP ja Etsy'],
     lsiKeywords: ['kaksi suuntatyyppia peruskardinaali koordinaattiruudukko-generaattori', 'kieliriippuvaiset lokalisoidut suuntavihjeet 11 kielta', 'automaattinen vastausavain merkitty aarresolu kaksoiskanvasjarjestelma'],
     titleTag: 'Aarteenetsintae-generaattori —...',

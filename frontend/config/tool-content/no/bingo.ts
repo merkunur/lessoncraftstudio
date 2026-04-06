@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'bingokort generator for selgere',
+    primaryKeyword: 'bingokort kort generator bildebingo lag',
     secondaryKeywords: [
       'bildebingo kort generator online',
       'bingospill generator for barn',

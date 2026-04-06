@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'flerspråkig printables-verksamhet',
+    primaryKeyword: 'flerspråkig språk printables verksamhet ett flerspråkigt',
     secondaryKeywords: [
       'sälja utskriftsbara produkter på flera språk',
       'internationell marknad utskriftsbara produkter',

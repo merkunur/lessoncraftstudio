@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'gratis door-elkaar-woorden generator',
+    primaryKeyword: 'door elkaar woorden gratis online werkbladen maken',
     secondaryKeywords: [
       'letterpuzzel werkbladen gratis online maken',
       'gratis woordkruisel werkblad generator',

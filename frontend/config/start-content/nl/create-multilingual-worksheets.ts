@@ -2,7 +2,7 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'meertalige werkbladen maken om te verkopen',
+    primaryKeyword: 'meertalige werkbladen verkopen maken talen',
     secondaryKeywords: [
       'werkbladen maken in meerdere talen verkopen',
       'meertalige printbare werkbladen Etsy KDP',

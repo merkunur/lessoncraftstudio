@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'sesongmarkedsforing printables',
+    primaryKeyword: 'sesongmarkedsforing printables guide printable virksomheten din',
     secondaryKeywords: ['sesongbaserte arbeidsark salg', 'hoytidsmarkedsforing printables', 'sesongbasert produktplanlegging', 'sesongomsetning arbeidsark-virksomhet'],
     lsiKeywords: ['sesongbasert ettersporselssyklus', 'hoytids arbeidsark tidsbestemt', 'skolestart markedsforingskampanje', 'sesongbasert produktrotasjon'],
     titleTag: 'Sesongmarkedsforing for printables — Guide',

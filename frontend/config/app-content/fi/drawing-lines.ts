@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'viivanjäljennys työarkin generaattori Etsyyn',
+    primaryKeyword: 'viivanjäljennys työarkin generaattori etsyyn luo viivanjäljennystyöarkkeja myyntiin etsyssä',
     secondaryKeywords: [
       'viivanjäljennys generaattori Etsy-myyjille',
       'luo viivanjäljennystyöarkkeja Etsy-kauppaan',

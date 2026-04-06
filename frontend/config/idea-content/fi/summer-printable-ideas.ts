@@ -5,7 +5,7 @@ const content: IdeaContent = {
     titleTag: 'Kesäaiheiset tulostettavat ideat myyntiin — Nicheopas',
     metaDescription: 'Tutustu kesäaiheisiin tulostettaviin ideoihin myyntiin Etsyssä, Amazon KDP:ssä ja Gumroadilla. Kesätuotekonseptit, kausistrategiat ja alustavinkit myyjille.',
 
-    primaryKeyword: 'kesä tulostettavat ideat',
+    primaryKeyword: 'kesäaiheiset tulostettavat ideat myyntiin',
     secondaryKeywords: [
       'kesätyöarkit myyntiin',
       'kesätulostettava liiketoimintaideat',

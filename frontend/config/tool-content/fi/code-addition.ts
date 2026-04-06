@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'ilmainen koodimatematiikkapalapelin tekijä',
+    primaryKeyword: 'ilmainen koodimatematiikkapalapelin tekijä verkossa tee koodimatematiikkapalapelejä ilmaiseksi rekisteröitymistä',
     secondaryKeywords: [
       'tee koodimatematiikkapalapelejä ilmaiseksi verkossa',
       'murra koodi -tehtävägeneraattori ilman rekisteröitymistä',

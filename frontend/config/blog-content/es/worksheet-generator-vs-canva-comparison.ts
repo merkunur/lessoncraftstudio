@@ -3,7 +3,11 @@ import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
     primaryKeyword: 'generador fichas vs Canva comparacion',
-    secondaryKeywords: ['generador fichas vs Canva comparacion paso a paso', 'generador fichas vs Canva comparacion tutorial', 'generador fichas vs Canva comparacion guia practica'],
+    secondaryKeywords: [
+      'paso creacion contenido',
+      'paso compilacion formato',
+      'paso crear fotos listing',
+    ],
     lsiKeywords: ['generador fichas vs tips', 'como generador fichas', 'Canva comparacion facil'],
     titleTag: 'Generador de Fichas vs Canva: Comparacion | LCS',
     metaDescription: 'Los generadores de fichas especializados y Canva son herramientas complementarias, no competidoras. Venda en Etsy & KDP con licencia comercial.',

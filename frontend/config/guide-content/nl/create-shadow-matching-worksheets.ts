@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'schaduwwerkbladen maken om te verkopen',
+    primaryKeyword: 'schaduwwerkbladen schaduw maken verkopen',
     secondaryKeywords: [
       'schaduw koppelen werkbladen verkopen Etsy',
       'silhouetpuzzels Amazon KDP maken',

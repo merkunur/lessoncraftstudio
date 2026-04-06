@@ -2,7 +2,7 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'crear paquetes curriculum imprimibles',
+    primaryKeyword: 'curriculum paquete crear paquetes imprimible',
     secondaryKeywords: ['crear paquetes curriculum imprimibles paso a paso', 'crear paquetes curriculum imprimibles tutorial', 'crear paquetes curriculum imprimibles guia practica'],
     lsiKeywords: ['crear paquetes curriculum tips', 'como crear paquetes', 'curriculum imprimibles facil'],
     titleTag: 'Crear Paquetes de Curriculum Imprimible | LCS',

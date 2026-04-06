@@ -5,7 +5,7 @@ const content: IdeaContent = {
     titleTag: 'Äitien- ja isänpäivä tulostettavat ideat myyntiin —...',
     metaDescription: 'Tutustu äitien- ja isänpäivän tulostettaviin ideoihin myyntiin Etsyssä, Amazon KDP:ssä ja Gumroadilla. Tuotekonseptit, kausistrategiat ja vinkit myyjille.',
 
-    primaryKeyword: 'äitienpäivä isänpäivä tulostettavat ideat',
+    primaryKeyword: 'äitien isänpäivä tulostettavat ideat myyntiin liiketoimintaideat myyjille',
     secondaryKeywords: [
       'äitienpäivätyöarkit myyntiin',
       'isänpäivä tulostettava liiketoimintaideat',

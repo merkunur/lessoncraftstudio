@@ -2,7 +2,7 @@ import type { BundleContent } from '../types';
 
 const content: BundleContent = {
   seo: {
-    primaryKeyword: 'pack générateurs de jeux de mots Etsy KDP',
+    primaryKeyword: 'pack mots lecture jeux vendre langage',
     secondaryKeywords: [
       'pack générateurs fiches de lecture pour vendeurs',
       'kit fiches de vocabulaire licence commerciale',

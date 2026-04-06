@@ -2,7 +2,7 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'flerspråkiga arbetsblad att sälja',
+    primaryKeyword: 'flerspråkiga arbetsblad sälja skapar språk',
     secondaryKeywords: [
       'skapa arbetsblad på flera språk',
       'flerspråkiga utskriftsbara arbetsblad',

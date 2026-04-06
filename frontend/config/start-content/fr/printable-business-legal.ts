@@ -2,7 +2,7 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'statut juridique business d\'imprimables France',
+    primaryKeyword: 'imprimables juridique business statut fiscalité',
     secondaryKeywords: [
       'aspects juridiques activité imprimables',
       'obligations fiscales produits numériques',

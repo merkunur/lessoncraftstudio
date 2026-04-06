@@ -4,9 +4,9 @@ const content: BlogContent = {
   seo: {
     primaryKeyword: 'sociala medier utskriftsfoersaeljare',
     secondaryKeywords: [
-      'sociala medier utskriftssäljare Etsy',
-      'sociala medier foeretagande',
-      'utskrifter sociala medier',
+      'optimering för framgång',
+      'tillväxtstrategier',
+      'mäta förbättra resultat',
     ],
     lsiKeywords: [
       'utskriftsfoeretagande Sverige',

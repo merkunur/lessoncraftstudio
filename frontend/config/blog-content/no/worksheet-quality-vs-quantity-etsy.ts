@@ -2,7 +2,11 @@ import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
     primaryKeyword: 'arbeidsark kvalitet kvantitet Etsy',
-    secondaryKeywords: ['arbeidsark kvalitet kvantitet Etsy tips', 'arbeidsark kvalitet kvantitet Etsy strategi', 'arbeidsark kvalitet kvantitet Etsy 2026'],
+    secondaryKeywords: [
+      'praktisk gjennomføring',
+      'optimalisering måling',
+      'vanlige feil unngå',
+    ],
     lsiKeywords: ['utskrivbare produkter forretning', 'printable selger strategi', 'digital nedlasting inntekt'],
     titleTag: 'Kvalitet vs kvantitet på Etsy | LCS',
     metaDescription: 'Bør du fokusere på å lage mange annonser raskt, eller færre annonser med høyere kvalitet? Svaret er ikke så enkelt. Selg pa Etsy & KDP med kommersiell lisens.',

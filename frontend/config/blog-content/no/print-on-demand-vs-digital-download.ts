@@ -2,7 +2,11 @@ import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
     primaryKeyword: 'print on demand eller digital nedlasting',
-    secondaryKeywords: ['print on demand eller digital nedlasting tips', 'print on demand eller digital nedlasting strategi', 'print on demand eller digital nedlasting 2026'],
+    secondaryKeywords: [
+      'praktisk gjennomføring',
+      'optimalisering måling',
+      'vanlige feil unngå',
+    ],
     lsiKeywords: ['utskrivbare produkter forretning', 'printable selger strategi', 'digital nedlasting inntekt'],
     titleTag: 'Print-on-demand vs digital nedlasting | LCS',
     metaDescription: 'Print-on-demand (KDP) og digitale nedlastinger (Etsy) er to forskjellige måter å selge utskrivbare produkter på. Denne guiden sammenligner lønnsomhet,',

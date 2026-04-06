@@ -2,7 +2,7 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'negócio imprimíveis sem design',
+    primaryKeyword: 'imprimíveis negócio design',
     secondaryKeywords: [
       'negócio imprimíveis sem design guia',
       'negócio imprimíveis sem design dicas',

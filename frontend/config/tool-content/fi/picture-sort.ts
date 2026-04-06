@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'lajittelutehtava-generaattori',
+    primaryKeyword: 'lajittelutehtavia kuvalajittelu generaattori lajittelutehtava',
     secondaryKeywords: [
       'lajittelutehtava-generaattori myyjille',
       'tee lajittelutehtavia myyntiin Etsyssa',

@@ -2,7 +2,7 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'mattebladpaket som saeljer 2026',
+    primaryKeyword: 'mattebladpaket säljer strategi beprövade strategier',
     secondaryKeywords: ['matte-arbetsblad paket Etsy', 'saelj mattepaket utskrifter', 'loensamma matte-arbetsblad paket'],
     lsiKeywords: ['mattepaket prissaettning', 'paketstrategier utskrifter', 'matte digitala produkter'],
     titleTag: 'Mattebladpaket som Säljer: Strategi | LCS',

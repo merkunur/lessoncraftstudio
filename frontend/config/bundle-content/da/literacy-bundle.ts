@@ -2,7 +2,7 @@ import type { BundleContent } from '../types';
 
 const content: BundleContent = {
   seo: {
-    primaryKeyword: 'læse- og skrive arbejdsark pakke',
+    primaryKeyword: 'pakke sprog læse generatorer',
     secondaryKeywords: [
       'sprogarbejdsark generator pakke for sælgere',
       'læseværktøj printpakke kommerciel brug',

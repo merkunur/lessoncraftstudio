@@ -4,9 +4,9 @@ const content: BlogContent = {
   seo: {
     primaryKeyword: 'tyoarkit generaattori vai Canva vertailu',
     secondaryKeywords: [
-      'tyoarkit generaattori vai Canva vertailu opas',
-      'tyoarkit generaattori vai Canva vertailu vaiheittain',
-      'tyoarkit generaattori vai Canva vertailu 2026',
+      'vaihe sisallon luominen generaattorilla',
+      'vaihe muotoilu paketointi',
+      'vaihe ilmoituksen luominen julkaisu',
     ],
     lsiKeywords: [
       'tulosteet liiketoiminta',

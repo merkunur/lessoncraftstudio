@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'puslespillarbeidsark manglende biter',
+    primaryKeyword: 'manglende biter generator puslespillarbeidsark',
     secondaryKeywords: [
       'puslespillarbeidsark generator for selgere',
       'lag manglende biter puslespill til salg',

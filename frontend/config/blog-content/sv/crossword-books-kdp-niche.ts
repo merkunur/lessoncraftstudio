@@ -2,7 +2,7 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'kordsordboecker KDP nisch',
+    primaryKeyword: 'korsordsböcker kdp lönsam nisch',
     secondaryKeywords: [
       'korsordsböcker lönsam nisch Etsy',
       'korsordsböcker lönsam foeretagande',

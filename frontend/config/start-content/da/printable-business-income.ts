@@ -2,7 +2,7 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'hvor meget kan man tjaene paa at saelge printbare produkter',
+    primaryKeyword: 'printbar hvor meget indkomst realistiske',
     secondaryKeywords: [
       'indkomstforventninger printbar forretning',
       'realistisk indkomst saelg printbare produkter',

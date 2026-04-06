@@ -2,7 +2,7 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'facit viktigt utskriftsfoersaeljning',
+    primaryKeyword: 'facit ökar försäljningen varför din utskriftsförsäljning',
     secondaryKeywords: [
       'arbetsblad med facit saeljer baettre',
       'svar nyckel utskrifter',

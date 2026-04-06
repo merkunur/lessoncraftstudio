@@ -2,7 +2,7 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'parhaat paperikoot tulosteet tuotteet',
+    primaryKeyword: 'parhaat paperikoot tulosteille tulostettaville',
     secondaryKeywords: [
       'parhaat paperikoot tulosteet tuotteet opas',
       'parhaat paperikoot tulosteet tuotteet vaiheittain',

@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'piirustustyöarkit',
+    primaryKeyword: 'piirustus opas luo piirustustyöarkit kuinka',
     secondaryKeywords: [
       'ruudukkopiirustustyöarkit myyntiin',
       'piirto ja väritys -generaattori kaupallinen käyttö',

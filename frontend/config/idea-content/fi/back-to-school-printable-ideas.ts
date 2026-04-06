@@ -5,7 +5,7 @@ const content: IdeaContent = {
     titleTag: 'Koulunaloitus-tulostettavat ideat myyntiin — Nicheopas',
     metaDescription: 'Tutustu koulunaloitus-tulostettaviin ideoihin myyntiin Etsyssä, KDP:ssä ja Gumroadilla. Tuotekonseptit, heinä-syyskuun strategiat ja alustaneuvot myyjille.',
 
-    primaryKeyword: 'koulunaloitus tulostettavat ideat',
+    primaryKeyword: 'koulunaloitus tulostettavat ideat myyntiin',
     secondaryKeywords: [
       'koulunaloitustyöarkit myyntiin',
       'koulutulostettava liiketoimintaideat',

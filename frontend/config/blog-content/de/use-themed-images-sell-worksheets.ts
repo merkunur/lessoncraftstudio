@@ -2,7 +2,7 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'Themenbilder Arbeitsblaetter Verkaeufe steigern',
+    primaryKeyword: 'bilder themenbilder mehr arbeitsblatt',
     secondaryKeywords: ['Themenbilder fuer mehr Arbeitsblatt-Verkaeufe nutzen Anleitung', 'Druckvorlagen Themenbilder Guide', 'Arbeitsblatt Verkauf Tipps'],
     lsiKeywords: ['Druckvorlagen Geschaeft optimieren', 'Etsy Verkaeufer Tipps', 'Arbeitsblaetter professionell erstellen'],
     titleTag: 'Themenbilder fuer mehr Arbeitsblatt-Verkaeufe nutzen | LCS',

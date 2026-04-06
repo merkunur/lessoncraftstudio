@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'créer des cryptogrammes à vendre',
+    primaryKeyword: 'cryptogrammes puzzles vendre ligne comment',
     secondaryKeywords: [
       'créer puzzles cryptogrammes à vendre',
       'générateur puzzles chiffré en images licence commerciale',

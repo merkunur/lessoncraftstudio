@@ -1,8 +1,12 @@
 import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'printable butikk merkevare tips',
-    secondaryKeywords: ['printable butikk merkevare tips tips', 'printable butikk merkevare tips strategi', 'printable butikk merkevare tips 2026'],
+    primaryKeyword: 'merkevare merkeva merkevarebygging printable butikken',
+    secondaryKeywords: [
+      'praktisk gjennomføring',
+      'optimalisering måling',
+      'vanlige feil unngå',
+    ],
     lsiKeywords: ['utskrivbare produkter forretning', 'printable selger strategi', 'digital nedlasting inntekt'],
     titleTag: 'Merkevarebygging for printable-butikken | LCS',
     metaDescription: 'I et marked med tusenvis av selgere er merkevare det som gjør at kunder velger deg. Denne guiden viser deg hvordan du bygger en sammenhengende merkeva',

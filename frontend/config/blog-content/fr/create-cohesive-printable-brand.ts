@@ -4,9 +4,9 @@ const content: BlogContent = {
   seo: {
     primaryKeyword: 'créer marque imprimables cohérente',
     secondaryKeywords: [
-      'tutoriel créer marque imprimables',
-      'guide pas à pas créer marque',
-      'comment créer marque imprimables',
+      'étape préparation',
+      'étape création production',
+      'étape optimisation publication',
     ],
     lsiKeywords: [
       'étapes créer marque',

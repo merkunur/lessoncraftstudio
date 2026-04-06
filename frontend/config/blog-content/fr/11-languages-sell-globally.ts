@@ -4,9 +4,9 @@ const content: BlogContent = {
   seo: {
     primaryKeyword: '11 langues vendre mondialement imprimables',
     secondaryKeywords: [
-      'tutoriel 11 langues vendre',
-      'guide pas à pas 11 langues',
-      'comment 11 langues vendre',
+      'étape préparation',
+      'étape création production',
+      'étape optimisation publication',
     ],
     lsiKeywords: [
       'étapes 11 langues',

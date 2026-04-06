@@ -2,7 +2,7 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'prepositiot tyoarkit S2 markkina',
+    primaryKeyword: 'prepositiotyoarkkeja prepositiotyoarkit markkinoilla',
     secondaryKeywords: [
       'prepositioharjoitukset suomi toisena kielena',
       'paikkasanat tyoarkit myynti',

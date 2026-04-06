@@ -2,7 +2,7 @@ import type { BundleContent } from '../types';
 
 const content: BundleContent = {
   seo: {
-    primaryKeyword: 'rekenpakket generators voor Etsy-verkopers',
+    primaryKeyword: 'rekenpakket etsy verkopers zes rekengenerators voordelig pakket generators',
     secondaryKeywords: [
       'wiskunde werkblad generator bundel commercieel gebruik',
       'rekenwerkbladen pakket verkopen Etsy KDP',

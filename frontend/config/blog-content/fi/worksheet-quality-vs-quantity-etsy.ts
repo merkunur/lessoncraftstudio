@@ -4,9 +4,9 @@ const content: BlogContent = {
   seo: {
     primaryKeyword: 'tyoarkit laatu maara Etsy',
     secondaryKeywords: [
-      'tyoarkit laatu maara Etsy opas',
-      'tyoarkit laatu maara Etsy 2026',
-      'tyoarkit laatu maara Etsy Suomi',
+      'kaytannoen toteutus vaihe vaiheelta',
+      'yleisimmat haasteet ratkaisut',
+      'mittaaminen optimointi',
     ],
     lsiKeywords: [
       'tulosteet liiketoiminta',

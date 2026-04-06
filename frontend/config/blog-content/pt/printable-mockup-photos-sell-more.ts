@@ -2,11 +2,11 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'fotos mockup imprimíveis vender mais',
+    primaryKeyword: 'mockup foto fotos imprimíveis',
     secondaryKeywords: [
-      'fotos mockup imprimíveis vender mais guia',
-      'fotos mockup imprimíveis vender mais dicas',
-      'fotos mockup imprimíveis vender mais estratégia',
+      'estratégias funcionam',
+      'mercado brasileiro internacional',
+      'ferramentas recursos',
     ],
     lsiKeywords: [
       'negócio imprimíveis digital',

@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'prisstrategi pedagogiska arbetsblad',
+    primaryKeyword: 'pedagogiska prisstrategi arbetsblad prissättningsstrategier för',
     secondaryKeywords: [
       'hur man prissätter utskriftsbara arbetsblad',
       'prissättningsguide för pedagogiska produkter',

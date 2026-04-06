@@ -2,7 +2,7 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'uusivuosi tulosteet tammikuu',
+    primaryKeyword: 'uudenvuodentulosteet tammikuussa uudenvuoden loppiaisen tulosteet tammikuu',
     secondaryKeywords: [
       'uusivuosi tulosteet tammikuu opas',
       'uusivuosi tulosteet tammikuu 2026',

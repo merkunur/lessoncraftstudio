@@ -5,7 +5,7 @@ const content: IdeaContent = {
     titleTag: 'Printables pirater — Verksamhet | LessonCraftStudio',
     metaDescription: 'Upptäck pirattematiserade utskriftsbara idéer att sälja på Etsy, Amazon KDP och Gumroad. Piratproduktkoncept, äventyrsarbetsblad och nischstrategier för.',
 
-    primaryKeyword: 'printables pirater idéer verksamhet',
+    primaryKeyword: 'pirat printables pirater verksamhet utskriftsbara för',
     secondaryKeywords: [
       'pirattema arbetsblad att sälja',
       'pirat utskriftsbart företag idéer',

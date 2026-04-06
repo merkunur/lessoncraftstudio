@@ -5,7 +5,7 @@ const content: IdeaContent = {
     titleTag: 'Printables mat och hälsa Etsy | LessonCraftStudio',
     metaDescription: 'Upptäck mat och matlagning utskriftsbara idéer att sälja på Etsy, Amazon KDP och Gumroad. Recepttema produktkoncept, plattformsstrategier och tips för säljare.',
 
-    primaryKeyword: 'printables mat och hälsa för Etsy',
+    primaryKeyword: 'printables mat hälsa etsy matlagning utskriftsbara affärsidéer för',
     secondaryKeywords: [
       'mattema arbetsblad att sälja',
       'matlagning utskriftsbart företag idéer',

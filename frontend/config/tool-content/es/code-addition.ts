@@ -1,7 +1,7 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'crear rompecabezas matemáticos codificados gratis',
+    primaryKeyword: 'rompecabezas gratis código cree matemáticos',
     secondaryKeywords: [
       'rompecabezas de código matematico gratis sin registro',
       'generador de sumas codificadas gratis en línea',

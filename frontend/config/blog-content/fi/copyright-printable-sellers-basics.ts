@@ -2,7 +2,7 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'tekijanoikeus tulosteet myyjat perusteet',
+    primaryKeyword: 'myy tekijanoikeus tulostemyyjille perusteet ymmarra',
     secondaryKeywords: [
       'tekijanoikeus tulosteet myyjat perusteet opas',
       'tekijanoikeus tulosteet myyjat perusteet 2026',

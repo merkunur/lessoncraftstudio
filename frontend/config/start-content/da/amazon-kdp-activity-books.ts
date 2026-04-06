@@ -2,7 +2,7 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'saelg aktivitetsboeger paa Amazon KDP',
+    primaryKeyword: 'saelg aktivitetsboeger paa amazon kdp guide saelgerguide aktivitetsbog',
     secondaryKeywords: [
       'Amazon KDP aktivitetsboeger',
       'publicer puslespilboeger paa KDP',

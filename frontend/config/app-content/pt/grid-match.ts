@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'quebra-cabeça de associação em grade para negócio digital',
+    primaryKeyword: 'associação grade vender online crie quebra cabeças hotmart',
     secondaryKeywords: [
       'gerador de grade de associação para Hotmart',
       'atividades de associação em grelha para Etsy',

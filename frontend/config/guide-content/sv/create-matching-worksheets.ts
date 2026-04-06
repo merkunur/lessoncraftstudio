@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'skapa kopplingsblad att sälja',
+    primaryKeyword: 'hur skapar matchningsarbetsblad kopplingsblad sälja',
     secondaryKeywords: [
       'matchningsarbetsblad för förskola',
       'matchningsarbetsblad generator',

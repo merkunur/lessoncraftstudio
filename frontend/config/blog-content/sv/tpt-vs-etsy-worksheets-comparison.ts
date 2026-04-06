@@ -2,7 +2,7 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'Etsy vs direktfoersaeljning arbetsblad jaemfoerelse',
+    primaryKeyword: 'etsy för direktförsäljning jämförelse',
     secondaryKeywords: [
       'etsy direktförsäljning jämförelse Etsy',
       'etsy direktförsäljning foeretagande',

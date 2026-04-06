@@ -3,7 +3,11 @@ import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
     primaryKeyword: 'imprimibles actividades motricidad fina',
-    secondaryKeywords: ['imprimibles actividades motricidad fina negocio', 'imprimibles actividades motricidad fina Etsy vender', 'imprimibles actividades motricidad fina imprimibles rentable'],
+    secondaryKeywords: [
+      'tipos productos mayor demanda',
+      'seo palabras clave espanol',
+      'adaptaciones culturales region',
+    ],
     lsiKeywords: ['imprimibles actividades fichas', 'vender imprimibles imprimibles', 'motricidad fina educativos'],
     titleTag: 'Imprimibles de Motricidad Fina | LCS',
     metaDescription: 'La motricidad fina es una habilidad fundamental que todos los ninos deben desarrollar antes y durante los primeros. Venda en Etsy & KDP con licencia comercial.',

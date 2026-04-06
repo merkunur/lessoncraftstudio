@@ -3,7 +3,11 @@ import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
     primaryKeyword: 'imprimibles fluidez matematica operaciones basicas',
-    secondaryKeywords: ['imprimibles fluidez matematica operaciones basicas negocio', 'imprimibles fluidez matematica operaciones basicas Etsy vender', 'imprimibles fluidez matematica operaciones basicas imprimibles rentable'],
+    secondaryKeywords: [
+      'tipos productos mayor demanda',
+      'seo palabras clave espanol',
+      'adaptaciones culturales region',
+    ],
     lsiKeywords: ['imprimibles fluidez fichas', 'vender imprimibles imprimibles', 'operaciones basicas educativos'],
     titleTag: 'Imprimibles de Fluidez Matematica | LCS',
     metaDescription: 'La fluidez en operaciones matematicas basicas (suma, resta, multiplicacion, division) es una necesidad universal. Venda en Etsy & KDP con licencia comercial.',

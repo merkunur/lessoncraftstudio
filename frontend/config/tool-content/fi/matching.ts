@@ -2,12 +2,12 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'yhdistamistehtava generaattori',
+    primaryKeyword: 'yhdistämistehtäviä yhdistämistehtävägeneraattori viiva generaattori',
     secondaryKeywords: [
-      'yhdistamistehtava generaattori myyjille',
-      'tee piirra viiva yhdistamistehtavia myyntiin',
-      'tulostettava yhdistamisaktiviteetti generaattori kaupallinen kaytto',
-      'kuvayhdistamis tehtavageneraattori KDP:lle ja Etsyyn',
+      'yhdistämistehtävägeneraattori',
+      'näin teet yhdistämistehtäviä vaiheessa',
+      'avaa yhdistämistehtävägeneraattori',
+      'valitse yhdistystila',
     ],
     lsiKeywords: [
       'neljatilaa piirra viiva yhdistamistehtava tyokalu',

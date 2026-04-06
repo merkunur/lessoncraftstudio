@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'ruudukkoyhdistämispulma generaattori myyjille',
+    primaryKeyword: 'luo ruudukkoyhdistämispulmia ruudukkoyhdistämispulma generaattori amazon',
     secondaryKeywords: [
       'ruudukkoyhdistämispulma generaattori tulostettavaan liiketoimintaan',
       'luo ruudukkoyhdistämispulmia Etsy-kauppaan',

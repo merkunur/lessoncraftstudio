@@ -1,7 +1,7 @@
 import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'beste printable nisjer lav konkurranse',
+    primaryKeyword: 'nisjer beste printable lav',
     secondaryKeywords: ['beste printable nisjer lav konkurranse tips', 'beste printable nisjer lav konkurranse strategi', 'beste printable nisjer lav konkurranse 2026'],
     lsiKeywords: ['utskrivbare produkter forretning', 'printable selger strategi', 'digital nedlasting inntekt'],
     titleTag: 'Beste printable-nisjer med lav konkurranse | LCS',

@@ -4,9 +4,9 @@ const content: BlogContent = {
   seo: {
     primaryKeyword: 'imprimables hiver décembre janvier',
     secondaryKeywords: [
-      'vendre imprimables imprimables hiver décembre',
-      'fiches imprimables hiver Etsy',
-      'créer imprimables imprimables hiver',
+      'types produits vendent',
+      'stratégie seo marketing',
+      'adaptations marché français',
     ],
     lsiKeywords: [
       'marché imprimables hiver',

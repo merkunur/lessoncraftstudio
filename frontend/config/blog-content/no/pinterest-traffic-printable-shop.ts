@@ -2,7 +2,11 @@ import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
     primaryKeyword: 'Pinterest trafikk printable butikk',
-    secondaryKeywords: ['Pinterest trafikk printable butikk tips', 'Pinterest trafikk printable butikk strategi', 'Pinterest trafikk printable butikk 2026'],
+    secondaryKeywords: [
+      'praktisk gjennomføring',
+      'optimalisering måling',
+      'vanlige feil unngå',
+    ],
     lsiKeywords: ['utskrivbare produkter forretning', 'printable selger strategi', 'digital nedlasting inntekt'],
     titleTag: 'Pinterest-trafikk til din printable-butikk | LCS',
     metaDescription: 'Pinterest driver mer trafikk til Etsy-butikker for utskrivbare produkter enn noe annet sosialt medium. Denne guiden viser deg hvordan du setter opp en',

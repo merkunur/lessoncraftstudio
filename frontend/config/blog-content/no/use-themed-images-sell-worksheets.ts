@@ -2,7 +2,11 @@ import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
     primaryKeyword: 'bruk temabilder selg arbeidsark 2026',
-    secondaryKeywords: ['bruk temabilder selg arbeidsark tips', 'bruk temabilder selg arbeidsark guide', 'bruk temabilder selg arbeidsark steg for steg'],
+    secondaryKeywords: [
+      'steg steg gjennomføring',
+      'optimalisering finjustering',
+      'publisering markedsføring',
+    ],
     lsiKeywords: ['arbeidsark produksjon', 'printable forretning guide', 'Etsy selger tutorial'],
     titleTag: 'Bruk temabilder for å selge flere arbeidsark | LCS',
     metaDescription: 'Arbeidsark med temabaserte bilder (dyr, kjøretøy, romfart) selger 2–3 ganger bedre enn generiske versjoner. Denne guiden viser deg hvordan du bruker t',

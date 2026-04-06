@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'imprimíveis animais fazenda vender',
+    primaryKeyword: 'atividades de animais da fazenda para vender',
     secondaryKeywords: [
-      'imprimíveis animais fazenda vender negócio',
-      'imprimíveis animais fazenda vender vender',
-      'imprimíveis animais fazenda vender Etsy',
+      'imprimíveis animais fazenda Etsy KDP',
+      'atividades infantis tema fazenda vender',
+      'nicho animais fazenda imprimíveis',
     ],
     lsiKeywords: [
-      'imprimíveis sazonais vender',
-      'nicho educativo imprimíveis',
-      'mercado imprimíveis temáticos',
+      'tema fazenda educação infantil',
+      'imprimíveis temáticos crianças',
+      'atividades animais para imprimir',
     ],
-    titleTag: 'Imprimíveis Animais da Fazenda: Vender | LCS',
-    metaDescription: 'Animais da fazenda são o subtema #1 para fichas infantis para crianças de 2-5 anos. Venda no Etsy & KDP com licenca comercial.',
+    titleTag: 'Atividades animais da fazenda para vender',
+    metaDescription: 'Venda atividades de animais da fazenda no Etsy e KDP. Crie atividades profissionais com LessonCraftStudio — 33 geradores, 11 idiomas, licença comercial.',
   },
   hero: {
     title: 'Imprimíveis Animais da Fazenda: Vender',

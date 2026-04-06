@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'melhores imprimíveis vender Natal',
+    primaryKeyword: 'melhores atividades de Natal para vender',
     secondaryKeywords: [
-      'melhores imprimíveis vender Natal negócio',
-      'melhores imprimíveis vender Natal vender',
-      'melhores imprimíveis vender Natal Etsy',
+      'imprimíveis natalinos para Etsy e KDP',
+      'atividades de Natal lucrativas',
+      'vender atividades temáticas de Natal',
     ],
     lsiKeywords: [
-      'imprimíveis sazonais vender',
-      'nicho educativo imprimíveis',
-      'mercado imprimíveis temáticos',
+      'Natal',
+      'sazonal',
+      'imprimíveis temáticos',
     ],
-    titleTag: 'Melhores Imprimíveis para Vender no Natal | LCS',
-    metaDescription: 'O Natal é a temporada mais lucrativa para vendedores de imprimíveis. De outubro a dezembro, buscas por atividades temáticas de Natal explodem no Etsy .',
+    titleTag: 'Melhores atividades de Natal para vender',
+    metaDescription: 'Descubra as atividades natalinas que mais vendem no Etsy e KDP. Crie atividades profissionais com LessonCraftStudio — 33 geradores, 11 idiomas, licença comercial.',
   },
   hero: {
     title: 'Melhores Imprimíveis para Vender no Natal',

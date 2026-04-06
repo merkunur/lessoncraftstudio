@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'loja Etsy imprimíveis primeiro mês',
+    primaryKeyword: 'primeiro mês vendendo imprimíveis no Etsy',
     secondaryKeywords: [
-      'abrir loja Etsy printables',
-      'primeiro mês loja Etsy digital',
-      'como começar no Etsy imprimíveis',
+      'como abrir loja Etsy de imprimíveis',
+      'guia primeiro mês loja Etsy digital',
+      'expectativas realistas loja Etsy nova',
     ],
     lsiKeywords: [
       'loja digital Etsy iniciante',
-      'vender PDF Etsy',
-      'download digital Etsy',
+      'listagens iniciais Etsy',
+      'tráfego orgânico loja nova',
     ],
-    titleTag: 'Loja Etsy Imprimíveis: Primeiro Mês | LCS',
-    metaDescription: 'Guia completo para seu primeiro mês vendendo imprimíveis no Etsy. Passo a passo realista. Teste grátis com marca d\'água.',
+    titleTag: 'Primeiro mês vendendo no Etsy | Guia',
+    metaDescription: 'Guia realista para o primeiro mês vendendo no Etsy. Crie atividades profissionais com LessonCraftStudio — 33 geradores, 11 idiomas, licença comercial.',
   },
   hero: {
     title: 'Seu Primeiro Mês Vendendo Imprimíveis no Etsy',

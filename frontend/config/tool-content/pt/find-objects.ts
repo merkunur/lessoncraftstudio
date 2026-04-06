@@ -2,29 +2,22 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'gerador de ache e encontre grátis',
+    primaryKeyword: 'encontre os objetos grátis para imprimir',
     secondaryKeywords: [
-      'ache e encontre para imprimir grátis',
-      'atividades de objetos escondidos grátis',
-      'criar ache e encontre online grátis',
-      'hidden object para crianças grátis',
+      'jogo de encontrar objetos grátis',
+      'objetos escondidos grátis para imprimir',
+      'jogo de observação grátis atividade',
+      'encontre e circule grátis PDF',
     ],
     lsiKeywords: [
-      'grátis online',
-      'sem cadastro',
-      'marca d\'água',
-      'imprimir',
-      'PDF',
-      'gabarito',
-      'ache e encontre',
-      'objetos escondidos',
-      '104 temas',
+      'observação',
+      'concentração',
       'atenção visual',
-      'teste grátis',
-      'licença comercial',
+      'encontrar',
+      'sem cadastro',
     ],
-    titleTag: 'Ache e encontre grátis online | LCS',
-    metaDescription: 'Crie atividades de ache e encontre grátis com imagens. 104 temas, gabarito automático, PDF imprimível. Venda no Etsy & KDP com licenca comercial.',
+    titleTag: 'Encontre os objetos grátis para imprimir | Online',
+    metaDescription: 'Crie atividades de "encontre os objetos" grátis com imagens temáticas. Sem cadastro. Gabarito automático, PDF 300 DPI. Marca d\'água removida com licença.',
   },
 
   hero: {

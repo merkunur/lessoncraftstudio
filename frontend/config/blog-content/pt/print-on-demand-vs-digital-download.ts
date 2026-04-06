@@ -4,17 +4,17 @@ const content: BlogContent = {
   seo: {
     primaryKeyword: 'impressão sob demanda vs download digital',
     secondaryKeywords: [
-      'estratégias funcionam',
-      'mercado brasileiro internacional',
-      'ferramentas recursos',
+      'KDP vs Etsy para vender imprimíveis',
+      'produto físico ou digital para atividades',
+      'comparação de modelos para vendedores',
     ],
     lsiKeywords: [
-      'negócio imprimíveis digital',
-      'vendedor imprimíveis online',
-      'empreendedor digital educativo',
+      'margens produto digital',
+      'logística impressão demanda',
+      'modelo negócio imprimível',
     ],
-    titleTag: 'Impressão Sob Demanda vs Digital | LCS',
-    metaDescription: 'Imprimíveis podem ser vendidos como download digital (Etsy) ou como produto físico impresso sob demanda (KDP, Printful). Cada modelo tem margens, logíst.',
+    titleTag: 'Impressão sob demanda vs download digital',
+    metaDescription: 'Compare impressão sob demanda e download digital para vender. Crie atividades profissionais com LessonCraftStudio — 33 geradores, 11 idiomas, licença comercial.',
   },
   hero: {
     title: 'Impressão Sob Demanda vs Digital',

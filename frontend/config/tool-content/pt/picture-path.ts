@@ -2,29 +2,16 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'gerador de labirintos ilustrados grátis',
+    primaryKeyword: 'labirinto grátis para imprimir',
     secondaryKeywords: [
-      'labirintos para imprimir grátis',
-      'criar labirintos com imagens grátis',
-      'atividades de percurso grátis para crianças',
-      'labirinto para imprimir grátis',
+      'gerador de labirinto grátis online',
+      'labirinto infantil grátis para imprimir',
+      'criar labirinto grátis',
+      'labirinto grátis educação infantil',
     ],
-    lsiKeywords: [
-      'grátis online',
-      'sem cadastro',
-      'marca d\'água',
-      'imprimir',
-      'PDF',
-      'gabarito',
-      'labirinto',
-      'percurso',
-      'coordenação motora',
-      'educação infantil',
-      'teste grátis',
-      'licença comercial',
-    ],
-    titleTag: 'Labirintos ilustrados grátis online | LCS',
-    metaDescription: 'Crie labirintos ilustrados grátis com imagens temáticas. 104 temas, gabarito automático, PDF imprimível. Venda no Etsy & KDP com licenca comercial.',
+    lsiKeywords: ['caminho', 'saída', 'coordenação motora', 'concentração', 'sem cadastro'],
+    titleTag: 'Labirinto grátis para imprimir | Online',
+    metaDescription: 'Crie labirintos grátis com imagens temáticas. Sem cadastro. Gabarito automático, PDF 300 DPI. Marca d\'água removida com licença.',
   },
 
   hero: {

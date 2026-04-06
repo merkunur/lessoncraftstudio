@@ -2,32 +2,21 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'atividades de sombras para vender na Etsy',
+    primaryKeyword: 'jogo das sombras para imprimir',
     secondaryKeywords: [
-      'gerador de atividades de sombras para Hotmart',
-      'atividades de associar sombras para Amazon KDP',
-      'shadow matching com licença comercial',
-      'atividades de silhuetas para vender na Kiwify',
+      'associar sombras atividade',
+      'sombras e figuras para imprimir',
+      'silhuetas para associar',
+      'sombras educação infantil',
     ],
     lsiKeywords: [
-      'licença comercial',
-      '300 DPI',
-      'pronto para impressão',
-      'sombras',
-      'silhuetas',
-      'associação visual',
-      'download digital',
-      'gabarito incluso',
-      'percepção visual',
-      'educação infantil',
-      'ensino fundamental',
-      'negócio de imprimíveis',
-      'renda extra',
-      'Hotmart',
-      'Kiwify',
+      'silhueta',
+      'sombra',
+      'associar',
+      'discriminação visual',
     ],
-    titleTag: 'Atividades de sombras para vender online | LCS',
-    metaDescription: 'Crie atividades de associar sombras para vender na Hotmart, Etsy e KDP. 104 temas, gabarito automático, licença comercial. 49 $ pagamento unico.',
+    titleTag: 'Jogo das sombras para imprimir | Gerador de silhuetas',
+    metaDescription: 'Crie atividades de associação de sombras com imagens e silhuetas temáticas. Gabarito automático, PDF 300 DPI. Teste grátis.',
   },
 
   hero: {

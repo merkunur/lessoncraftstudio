@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'otimização anúncios Etsy fichas',
+    primaryKeyword: 'como otimizar listagens Etsy de atividades',
     secondaryKeywords: [
-      'estratégias funcionam',
-      'mercado brasileiro internacional',
-      'ferramentas recursos',
+      'otimização título tags Etsy imprimíveis',
+      'fotos mockup listagem Etsy atividades',
+      'taxa de conversão listagens Etsy',
     ],
     lsiKeywords: [
-      'negócio imprimíveis digital',
-      'vendedor imprimíveis online',
-      'empreendedor digital educativo',
+      'descrição otimizada Etsy',
+      'SEO listagem imprimíveis',
+      'conversão loja Etsy',
     ],
-    titleTag: 'Otimização Anúncios Etsy Fichas | LCS',
-    metaDescription: 'Uma listagem otimizada no Etsy é a diferença entre 1% e 5% de taxa de conversão — isso significa 5x mais vendas com o mesmo tráfego. Para fichas educati.',
+    titleTag: 'Otimizar listagens Etsy de atividades | Guia',
+    metaDescription: 'Otimize listagens Etsy de atividades para mais vendas. Crie atividades profissionais com LessonCraftStudio — 33 geradores, 11 idiomas, licença comercial.',
   },
   hero: {
     title: 'Otimização Anúncios Etsy Fichas',

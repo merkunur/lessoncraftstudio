@@ -2,11 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'fichas caligrafia Etsy nicho',
-    secondaryKeywords: ['fichas caligrafia vender online', 'treino escrita imprimível negócio', 'caligrafia infantil Etsy'],
-    lsiKeywords: ['coordenação motora escrita', 'treino letra cursiva', 'fichas pré-escrita crianças'],
-    titleTag: 'Fichas Caligrafia Etsy: Nicho Lucrativo | LCS',
-    metaDescription: 'Descubra o nicho lucrativo de fichas de caligrafia no Etsy. Demanda perene de pais e educadores. Teste grátis com marca d\'água.',
+    primaryKeyword: 'nicho de atividades de caligrafia no Etsy',
+    secondaryKeywords: [
+      'atividades caligrafia vender Etsy KDP',
+      'treino escrita imprimível para vender',
+      'nicho caligrafia infantil imprimíveis',
+    ],
+    lsiKeywords: [
+      'coordenação motora escrita',
+      'treino letra cursiva',
+      'pré-escrita crianças imprimível',
+    ],
+    titleTag: 'Nicho atividades de caligrafia no Etsy',
+    metaDescription: 'Explore o nicho lucrativo de caligrafia no Etsy. Crie atividades profissionais com LessonCraftStudio — 33 geradores, 11 idiomas, licença comercial.',
   },
   hero: {
     title: 'Fichas de Caligrafia no Etsy: Nicho Lucrativo',

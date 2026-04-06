@@ -2,30 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'estratégia de preços para atividades educativas',
+    primaryKeyword: 'como definir preços de atividades educativas',
     secondaryKeywords: [
-      'como precificar atividades educativas',
-      'preços imprimíveis Hotmart e Etsy',
-      'estratégia de preço para vendedores digitais',
-      'precificação de pacotes de atividades',
+      'precificação imprimíveis educativos',
+      'quanto cobrar atividades para imprimir',
+      'preços atividades Etsy KDP',
+      'estratégia de preços imprimíveis',
     ],
     lsiKeywords: [
-      'preços',
-      'precificação',
-      'margens',
-      'taxas',
-      'Hotmart',
-      'Kiwify',
-      'Etsy',
-      'KDP',
-      'renda extra',
-      'negócio de imprimíveis',
-      'PIX',
-      'R$',
+      'preço',
+      'margem',
+      'competitivo',
+      'pacotes',
+      'valor',
     ],
-    titleTag: 'Preços para atividades educativas | LCS',
+    titleTag: 'Como definir preços de atividades educativas | Guia',
     metaDescription:
-      'Estratégia de preços para atividades educativas. Psicologia de preços, pacotes e margens para Hotmart, Etsy e KDP.',
+      'Guia de precificação para atividades educativas imprimíveis. Quanto cobrar, pacotes, descontos e margens para Etsy e KDP.',
   },
 
   hero: {

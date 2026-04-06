@@ -2,30 +2,17 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'criar quebra-cabeças de matemática para vender',
+    primaryKeyword: 'como criar puzzles de matemática para imprimir',
     secondaryKeywords: [
-      'como criar quebra-cabeças de matemática para Hotmart',
-      'quebra-cabeças de matemática para vender na Etsy',
-      'guia quebra-cabeças de matemática para Amazon KDP',
-      'quebra-cabeças de matemática com licença comercial para vender',
+      'tutorial puzzles matemáticos passo a passo',
+      'criar desafios de matemática para vender',
+      'guia puzzles de matemática com imagens',
+      'puzzles de matemática para Etsy e KDP',
     ],
-    lsiKeywords: [
-      'licença comercial',
-      '300 DPI',
-      'pronto para impressão',
-      'download digital',
-      'gabarito incluso',
-      'Hotmart',
-      'Kiwify',
-      'Etsy',
-      'Amazon KDP',
-      'renda extra',
-      'negócio de imprimíveis',
-      'educação infantil',
-    ],
-    titleTag: 'Quebra-cabeças de matemática para vender | LCS',
+    lsiKeywords: ['puzzle', 'enigma', 'imagens', 'lógica', 'gabarito'],
+    titleTag: 'Como criar puzzles de matemática | Guia passo a passo',
     metaDescription:
-      'Guia para criar quebra-cabeças de matemática com imagens para vender. Raciocínio lógico, grades visuais e estratégias.',
+      'Guia passo a passo para criar puzzles matemáticos com imagens temáticas. Gabarito automático, PDF 300 DPI. Teste grátis — venda no Etsy e KDP.',
   },
 
   hero: {

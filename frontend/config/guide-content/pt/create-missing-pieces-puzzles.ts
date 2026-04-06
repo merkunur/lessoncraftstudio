@@ -2,30 +2,17 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'criar quebra-cabeça peças faltantes para vender',
+    primaryKeyword: 'como criar quebra-cabeça peças faltando',
     secondaryKeywords: [
-      'como criar quebra-cabeça peças faltantes para Hotmart',
-      'quebra-cabeça peças faltantes para vender na Etsy',
-      'guia quebra-cabeça peças faltantes para Amazon KDP',
-      'quebra-cabeça peças faltantes com licença comercial para vender',
+      'tutorial peças faltando passo a passo',
+      'criar quebra-cabeça visual para vender',
+      'guia peças faltando com imagens',
+      'quebra-cabeça para Etsy e KDP',
     ],
-    lsiKeywords: [
-      'licença comercial',
-      '300 DPI',
-      'pronto para impressão',
-      'download digital',
-      'gabarito incluso',
-      'Hotmart',
-      'Kiwify',
-      'Etsy',
-      'Amazon KDP',
-      'renda extra',
-      'negócio de imprimíveis',
-      'educação infantil',
-    ],
-    titleTag: 'Peças faltantes para vender online | LCS',
+    lsiKeywords: ['quebra-cabeça', 'completar', 'observar', 'visual', 'imagens'],
+    titleTag: 'Como criar quebra-cabeça peças faltando | Guia',
     metaDescription:
-      'Guia para criar quebra-cabeças de peças faltantes para vender. Puzzles visuais, apostilas KDP e estratégias.',
+      'Guia passo a passo para criar atividades de peças faltando com imagens temáticas. Gabarito automático, PDF 300 DPI. Teste grátis — licença comercial.',
   },
 
   hero: {

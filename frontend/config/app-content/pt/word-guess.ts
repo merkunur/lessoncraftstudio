@@ -2,31 +2,22 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'jogo de adivinhar palavras para vender na Etsy',
+    primaryKeyword: 'jogo da forca para imprimir',
     secondaryKeywords: [
-      'gerador de adivinhar palavras com imagens para Hotmart',
-      'atividades de forca educativa para Amazon KDP',
-      'jogo de palavras com pistas visuais licença comercial',
-      'adivinhar palavras para vender na Kiwify',
+      'adivinhar a palavra atividade',
+      'forca para imprimir',
+      'jogo de palavras vocabulário',
+      'adivinhar palavras atividade',
     ],
     lsiKeywords: [
-      'licença comercial',
-      '300 DPI',
-      'pronto para impressão',
-      'adivinhar palavras',
       'forca',
-      'download digital',
-      'gabarito incluso',
+      'adivinhar',
+      'letras',
       'vocabulário',
-      'alfabetização',
-      'ensino fundamental',
-      'negócio de imprimíveis',
-      'renda extra',
-      'Hotmart',
-      'Kiwify',
+      'dicas',
     ],
-    titleTag: 'Jogo de adivinhar palavras para vender | LCS',
-    metaDescription: 'Crie jogos de adivinhar palavras para vender na Hotmart, Etsy e KDP. Pistas visuais, 11 idiomas, gabarito automático. 49 $ pagamento unico.',
+    titleTag: 'Jogo da forca para imprimir | Gerador de atividades',
+    metaDescription: 'Crie atividades de jogo da forca com vocabulário temático e imagens. Gabarito automático, PDF imprimíveis. Teste grátis.',
   },
 
   hero: {

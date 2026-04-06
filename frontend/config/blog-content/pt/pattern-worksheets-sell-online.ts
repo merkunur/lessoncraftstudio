@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'fichas padrões vender online',
+    primaryKeyword: 'vender atividades de sequência lógica online',
     secondaryKeywords: [
-      'vantagem competitiva',
-      'precificação canais',
-      'marketing seo',
+      'atividades de padrões para vender no Etsy',
+      'imprimíveis de sequência lógica para crianças',
+      'negócio de atividades de raciocínio lógico',
     ],
     lsiKeywords: [
       'sequência lógica crianças',
       'completar padrão visual',
       'raciocínio lógico pré-escolar',
     ],
-    titleTag: 'Fichas Padrões: Vender Online | LCS',
-    metaDescription: 'Venda fichas de padrões e sequências lógicas online. Nicho educativo com demanda estável. Teste grátis com marca d\'água.',
+    titleTag: 'Vender atividades de sequência lógica online',
+    metaDescription: 'Venda atividades de padrões e sequências lógicas online. Crie atividades profissionais com LessonCraftStudio — 33 geradores, 11 idiomas, licença comercial.',
   },
   hero: {
     title: 'Fichas de Padrões: Como Vender Online',

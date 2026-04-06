@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'usar imagens temáticas vender fichas',
+    primaryKeyword: 'usar imagens temáticas para vender atividades',
     secondaryKeywords: [
-      'passo passo',
-      'ferramentas necessárias',
-      'dicas avançadas',
+      'imagens temáticas atividades vendas',
+      'atividades ilustradas vendem mais',
+      'temas visuais imprimíveis Etsy',
     ],
     lsiKeywords: [
-      'tutorial imprimíveis',
-      'como criar fichas educativas',
-      'guia prático imprimíveis',
+      'imagens animais veículos atividades',
+      'diferenciação visual imprimíveis',
+      'atividades temáticas crianças',
     ],
-    titleTag: 'Use Imagens Temáticas para Vender Mais Fichas | LCS',
-    metaDescription: 'Fichas com imagens temáticas (animais, veículos, alimentos) vendem 2-3x mais que fichas com texto puro. As imagens tornam o produto visualmente atraen.',
+    titleTag: 'Usar imagens temáticas para vender atividades',
+    metaDescription: 'Como usar imagens temáticas para vender mais atividades online. Crie atividades profissionais com LessonCraftStudio — 33 geradores, 11 idiomas, licença comercial.',
   },
   hero: {
     title: 'Use Imagens Temáticas para Vender Mais Fichas',

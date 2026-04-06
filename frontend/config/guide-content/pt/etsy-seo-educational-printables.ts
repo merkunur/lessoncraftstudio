@@ -2,28 +2,17 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'SEO do Etsy para atividades educativas 2026',
+    primaryKeyword: 'SEO Etsy para atividades educativas',
     secondaryKeywords: [
-      'otimizar listagens Etsy atividades educativas',
-      'etiquetas Etsy imprimíveis educativos',
-      'SEO Etsy 2026 dicas vendedores',
-      'como ranquear no Etsy imprimíveis',
+      'otimizar listagem Etsy imprimíveis',
+      'palavras-chave Etsy atividades',
+      'tags Etsy imprimíveis educativos',
+      'SEO Etsy vendedores atividades',
     ],
-    lsiKeywords: [
-      'Etsy',
-      'SEO',
-      'etiquetas',
-      'palavras-chave',
-      'listagens',
-      'algoritmo',
-      'ranking',
-      'atividades educativas',
-      'imprimíveis',
-      'renda extra',
-    ],
-    titleTag: 'SEO Etsy atividades educativas (2026) | LCS',
+    lsiKeywords: ['SEO', 'Etsy', 'tags', 'palavras-chave', 'visibilidade'],
+    titleTag: 'SEO Etsy para atividades educativas | Guia',
     metaDescription:
-      'SEO do Etsy para atividades educativas em 2026. Etiquetas, títulos, descrições e estratégias para ranquear suas listagens.',
+      'Guia de SEO Etsy para vendedores de atividades educativas. Tags, títulos, descrições e estratégias para aumentar a visibilidade.',
   },
 
   hero: {

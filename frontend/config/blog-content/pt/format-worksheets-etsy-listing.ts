@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'formatar fichas listagem Etsy',
+    primaryKeyword: 'como formatar atividades para listagem Etsy',
     secondaryKeywords: [
-      'formatar fichas listagem Etsy passo a passo',
-      'formatar fichas listagem Etsy tutorial',
-      'formatar fichas listagem Etsy como fazer',
+      'formatação PDF imprimíveis para Etsy',
+      'tamanho resolução atividades Etsy',
+      'apresentação visual listagem Etsy',
     ],
     lsiKeywords: [
-      'tutorial imprimíveis',
-      'como criar fichas educativas',
-      'guia prático imprimíveis',
+      'formato arquivo Etsy',
+      'mockup imprimíveis venda',
+      'qualidade PDF imprimível',
     ],
-    titleTag: 'Formatar Fichas para Listagens no Etsy | LCS',
-    metaDescription: 'A formatação das suas fichas impacta diretamente as vendas no Etsy. Tamanho do papel, resolução, formato do arquivo e apresentação visual determinam s.',
+    titleTag: 'Formatar atividades para listagem Etsy | Guia',
+    metaDescription: 'Formate atividades corretamente para listagens Etsy. Crie atividades profissionais com LessonCraftStudio — 33 geradores, 11 idiomas, licença comercial.',
   },
   hero: {
     title: 'Como Formatar Fichas para Listagens no Etsy',

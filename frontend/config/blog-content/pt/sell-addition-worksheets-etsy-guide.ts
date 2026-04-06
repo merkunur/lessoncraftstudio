@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'como vender fichas de adição no Etsy 2026',
+    primaryKeyword: 'como vender atividades de adição no Etsy',
     secondaryKeywords: [
-      'negócio fichas adição Etsy',
-      'vender fichas matemática online',
-      'atividades adição imprimíveis loja Etsy',
+      'negócio atividades adição Etsy',
+      'vender atividades matemática online',
+      'atividades adição imprimíveis para loja',
     ],
     lsiKeywords: [
       'negócio imprimíveis matemática',
-      'estratégia preços fichas',
-      'download digital Etsy matemática',
+      'estratégia preços atividades',
+      'download digital Etsy',
     ],
-    titleTag: 'Vender Fichas de Adição no Etsy: Guia | LCS',
-    metaDescription: 'Aprenda a vender fichas de adição no Etsy com lucro. Estratégias de preço, pacotes e listagens que funcionam em 2026. Teste grátis com marca d\'água.',
+    titleTag: 'Vender atividades de adição no Etsy | Guia',
+    metaDescription: 'Guia completo para vender atividades de adição no Etsy com lucro. Crie atividades profissionais com LessonCraftStudio — 33 geradores, 11 idiomas, licença comercial.',
   },
   hero: {
     title: 'Como Vender Fichas de Adição no Etsy: Guia Completo',

@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'etsy quantos anúncios sucesso',
+    primaryKeyword: 'quantas listagens para ter sucesso no Etsy',
     secondaryKeywords: [
-      'quantos anúncios Etsy sucesso guia',
-      'quantos anúncios Etsy sucesso dicas',
-      'quantos anúncios Etsy sucesso estratégia',
+      'número ideal listagens loja Etsy',
+      'quantos produtos Etsy para vender bem',
+      'catálogo mínimo loja Etsy imprimíveis',
     ],
     lsiKeywords: [
-      'negócio imprimíveis digital',
-      'vendedor imprimíveis online',
-      'empreendedor digital educativo',
+      'volume listagens Etsy',
+      'tráfego orgânico catálogo',
+      'estratégia crescimento loja',
     ],
-    titleTag: 'Quantos Anúncios no Etsy para Sucesso | LCS',
-    metaDescription: 'Quantos anúncios no Etsy você precisa para ter sucesso? O número ideal depende do nicho e qualidade. Descubra a estratégia certa para sua loja.',
+    titleTag: 'Quantas listagens para sucesso no Etsy',
+    metaDescription: 'Descubra quantas listagens sua loja Etsy precisa. Crie atividades profissionais com LessonCraftStudio — 33 geradores, 11 idiomas, licença comercial.',
   },
   hero: {
     title: 'Quantos Anúncios no Etsy para Sucesso',

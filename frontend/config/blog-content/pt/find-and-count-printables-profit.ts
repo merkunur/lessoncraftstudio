@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'encontrar e contar imprimíveis lucro',
+    primaryKeyword: 'vender atividades de encontre e conte',
     secondaryKeywords: [
-      'fichas encontrar contar vender',
-      'find and count worksheets business',
-      'atividades buscar contar imprimíveis',
+      'atividades encontre e conte Etsy KDP',
+      'imprimíveis contagem visual para vender',
+      'nicho encontre e conte imprimíveis',
     ],
     lsiKeywords: [
       'contagem visual crianças',
-      'atenção discriminação visual',
+      'discriminação visual imprimível',
       'matemática visual pré-escolar',
     ],
-    titleTag: 'Encontrar e Contar Imprimíveis: Lucro | LCS',
-    metaDescription: 'Como lucrar com fichas de encontrar e contar imprimíveis. Nicho visual com demanda crescente. Teste grátis com marca d\'água.',
+    titleTag: 'Vender atividades encontre e conte | Guia',
+    metaDescription: 'Lucre vendendo atividades de encontre e conte online. Crie atividades profissionais com LessonCraftStudio — 33 geradores, 11 idiomas, licença comercial.',
   },
   hero: {
     title: 'Encontrar e Contar Imprimíveis: Como Gerar Lucro',

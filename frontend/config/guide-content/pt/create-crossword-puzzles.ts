@@ -2,30 +2,17 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'criar palavras cruzadas para vender online',
+    primaryKeyword: 'como criar cruzadinhas para imprimir',
     secondaryKeywords: [
-      'como criar palavras cruzadas online para Hotmart',
-      'palavras cruzadas online para vender na Etsy',
-      'guia palavras cruzadas online para Amazon KDP',
-      'palavras cruzadas online com licença comercial para vender',
+      'tutorial cruzadinha passo a passo',
+      'criar palavras cruzadas para vender',
+      'guia cruzadinha com imagens',
+      'cruzadinhas para Etsy e KDP',
     ],
-    lsiKeywords: [
-      'licença comercial',
-      '300 DPI',
-      'pronto para impressão',
-      'download digital',
-      'gabarito incluso',
-      'Hotmart',
-      'Kiwify',
-      'Etsy',
-      'Amazon KDP',
-      'renda extra',
-      'negócio de imprimíveis',
-      'educação infantil',
-    ],
-    titleTag: 'Palavras cruzadas para vender online | LCS',
+    lsiKeywords: ['cruzadinha', 'dicas', 'grade', 'gabarito', 'PDF'],
+    titleTag: 'Como criar cruzadinhas para imprimir | Guia',
     metaDescription:
-      'Guia para criar palavras cruzadas com imagens para vender. Pistas visuais, 11 idiomas e estratégias para Hotmart e KDP.',
+      'Guia passo a passo para criar cruzadinhas com dicas em imagens. Grade 15×15, 4 modos de entrada, gabarito automático. Teste grátis — licença comercial.',
   },
 
   hero: {

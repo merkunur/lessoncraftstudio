@@ -1,29 +1,22 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'criar quebra-cabeças de matemática grátis',
+    primaryKeyword: 'desafios de matemática grátis para imprimir',
     secondaryKeywords: [
-      'puzzles de matemática para imprimir grátis',
-      'quebra-cabeça de imagens com cálculos grátis',
-      'jogos de raciocínio matemático grátis online',
-      'puzzle de matemática para crianças grátis',
+      'quebra-cabeça de matemática grátis',
+      'enigmas matemáticos grátis online',
+      'jogos de matemática grátis para imprimir',
+      'puzzle matemático grátis PDF',
     ],
     lsiKeywords: [
-      'grátis online',
+      'enigma',
+      'imagens',
+      'associar',
+      'lógica',
       'sem cadastro',
-      'marca d\'água',
-      'imprimir',
-      'PDF',
-      'gabarito',
-      'quebra-cabeça',
-      'raciocínio lógico',
-      '104 temas',
-      'ensino fundamental',
-      'teste grátis',
-      'licença comercial',
     ],
-    titleTag: 'Quebra-cabeças de matemática grátis | LCS',
-    metaDescription: 'Crie quebra-cabeças de matemática grátis com imagens. Grade de imagens, gabarito automático, exportação PDF. Venda no Etsy & KDP com licenca comercial.',
+    titleTag: 'Desafios de matemática grátis para imprimir | Online',
+    metaDescription: 'Crie puzzles matemáticos grátis com imagens temáticas e gabarito. Sem cadastro. 104 temas disponíveis, PDF 300 DPI. Marca d\'água removida com licença.',
   },
 
   hero: {

@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'nichos imprimíveis baixa concorrência',
+    primaryKeyword: 'nichos de imprimíveis com pouca concorrência',
     secondaryKeywords: [
-      'melhores nichos imprimíveis baixa concorrência guia',
-      'melhores nichos imprimíveis baixa concorrência dicas',
-      'melhores nichos imprimíveis baixa concorrência estratégia',
+      'melhores nichos imprimíveis para iniciantes',
+      'nichos lucrativos de atividades educativas',
+      'imprimíveis sem concorrência para vender',
     ],
     lsiKeywords: [
-      'negócio imprimíveis digital',
-      'vendedor imprimíveis online',
-      'empreendedor digital educativo',
+      'nicho lucrativo',
+      'baixa concorrência',
+      'demanda real',
     ],
-    titleTag: 'Nichos Imprimíveis Baixa Concorrência | LCS',
-    metaDescription: 'Descubra nichos de imprimíveis com baixa concorrência e demanda real. Enquanto outros nichos têm milhares de concorrentes, estes estão quase vazios.',
+    titleTag: 'Nichos de imprimíveis com pouca concorrência',
+    metaDescription: 'Encontre nichos de imprimíveis com demanda real e pouca concorrência. Crie atividades profissionais com LessonCraftStudio — 33 geradores, 11 idiomas, licença comercial.',
   },
   hero: {
     title: 'Nichos Imprimíveis Baixa Concorrência',

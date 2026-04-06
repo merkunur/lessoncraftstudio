@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'jogos imprimíveis festas aniversário',
+    primaryKeyword: 'jogos imprimíveis para festas de aniversário',
     secondaryKeywords: [
-      'produtos mais vendem neste',
-      'estratégia preço pacotes',
-      'marketing seo este nicho',
+      'atividades para festa infantil para vender',
+      'bingo e caça ao tesouro imprimível para festas',
+      'nicho de jogos para aniversário no Etsy',
     ],
     lsiKeywords: [
-      'imprimíveis sazonais vender',
-      'nicho educativo imprimíveis',
-      'mercado imprimíveis temáticos',
+      'festa infantil imprimível',
+      'jogos temáticos aniversário',
+      'conveniência pais festas',
     ],
-    titleTag: 'Jogos Imprimíveis para Festas | LCS',
-    metaDescription: 'Jogos imprimíveis para festas de aniversário são um dos nichos mais lucrativos no mercado de imprimíveis. Pais pagam premium por conveniência, e festa.',
+    titleTag: 'Jogos imprimíveis para festas | Nicho',
+    metaDescription: 'Venda jogos imprimíveis para festas de aniversário infantil. Crie atividades profissionais com LessonCraftStudio — 33 geradores, 11 idiomas, licença comercial.',
   },
   hero: {
     title: 'Jogos Imprimíveis para Festas',

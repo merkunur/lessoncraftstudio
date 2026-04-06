@@ -2,30 +2,21 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'enigmas adição codificada vender crie hotmart etsy',
+    primaryKeyword: 'mensagem secreta com contas para imprimir',
     secondaryKeywords: [
-      'gerador de atividades de adição codificada para Etsy',
-      'puzzles matemáticos de decifrar código para KDP',
-      'atividades de criptaritmética com licença comercial',
-      'enigmas de matemática para vender na Kiwify',
+      'código secreto matemática atividade',
+      'decifrar código com somas',
+      'enigma de matemática para imprimir',
+      'atividade de código secreto',
     ],
     lsiKeywords: [
-      'licença comercial',
-      '300 DPI',
-      'palavra revelada',
-      'criptaritmética',
-      'raciocínio lógico',
-      'download digital',
-      'gabarito incluso',
-      'negócio de imprimíveis',
-      'renda extra',
-      'educação infantil',
-      'ensino fundamental',
-      'Hotmart',
-      'Kiwify',
+      'decifrar',
+      'código',
+      'mensagem oculta',
+      'enigma',
     ],
-    titleTag: 'Enigmas de adição codificada para vender | LCS',
-    metaDescription: 'Crie puzzles de adição codificada para vender na Hotmart, Etsy e KDP. Modo Palavra Revelada, 11 idiomas, gabarito incluso. 49 $ pagamento unico.',
+    titleTag: 'Mensagem secreta com contas | Gerador de atividades com código',
+    metaDescription: 'Crie atividades onde as crianças resolvem contas de adição para decifrar mensagens secretas. Imagens temáticas, gabarito incluído. Teste grátis.',
   },
 
   hero: {

@@ -2,29 +2,16 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'gerador de sudoku com imagens grátis crianças',
+    primaryKeyword: 'sudoku grátis para imprimir',
     secondaryKeywords: [
-      'sudoku para imprimir grátis',
-      'sudoku com figuras grátis para crianças',
-      'criar sudoku visual online grátis',
-      'sudoku infantil grátis',
+      'gerador de sudoku grátis online',
+      'sudoku infantil grátis para imprimir',
+      'sudoku com imagens grátis',
+      'criar sudoku personalizado grátis',
     ],
-    lsiKeywords: [
-      'grátis online',
-      'sem cadastro',
-      'marca d\'água',
-      'imprimir',
-      'PDF',
-      'gabarito',
-      'sudoku',
-      'sudoku visual',
-      'raciocínio lógico',
-      'jogos de lógica',
-      'teste grátis',
-      'licença comercial',
-    ],
-    titleTag: 'Sudoku com imagens grátis crianças | LCS',
-    metaDescription: 'Crie sudoku com imagens grátis para crianças. Grades visuais, gabarito automático, PDF imprimível. Venda no Etsy & KDP com licenca comercial.',
+    lsiKeywords: ['grade', 'lógica', 'números', 'imagens', '4x4', '6x6', 'sem cadastro'],
+    titleTag: 'Sudoku grátis para imprimir | Online',
+    metaDescription: 'Crie sudoku grátis com imagens ou números, dificuldade ajustável. Sem cadastro. Gabarito automático, PDF imprimíveis. Marca d\'água removida com licença.',
   },
 
   hero: {

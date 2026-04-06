@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'fichas associação sombras vender',
+    primaryKeyword: 'vender atividades de jogo das sombras',
     secondaryKeywords: [
-      'shadow matching worksheets sell',
-      'fichas sombras crianças negócio',
-      'atividades pareamento sombra imprimível',
+      'atividades sombras crianças negócio',
+      'jogo das sombras imprimível vender',
+      'pareamento sombra atividade online',
     ],
     lsiKeywords: [
       'percepção visual sombras',
       'associação silhueta crianças',
-      'discriminação visual fichas',
+      'discriminação visual atividades',
     ],
-    titleTag: 'Fichas Associação Sombras: Vender | LCS',
-    metaDescription: 'Venda fichas de associação de sombras online. Nicho visual para crianças pequenas. Teste grátis com marca d\'água.',
+    titleTag: 'Vender atividades jogo das sombras | Guia',
+    metaDescription: 'Como vender atividades de jogo das sombras para crianças online. Crie atividades profissionais com LessonCraftStudio — 33 geradores, 11 idiomas, licença comercial.',
   },
   hero: {
     title: 'Fichas de Associação de Sombras: Como Vender',

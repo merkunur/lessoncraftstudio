@@ -2,30 +2,17 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'imprimíveis de Dia dos Namorados para vender',
+    primaryKeyword: 'imprimíveis de Dia dos Namorados para vender no Etsy',
     secondaryKeywords: [
-      'atividades Dia dos Namorados para vender',
-      'imprimíveis Valentine\'s Day Etsy',
-      'negócio atividades corações Hotmart',
-      'livros atividades românticas KDP',
+      'atividades de Dia dos Namorados Etsy KDP',
+      'atividades de Dia dos Namorados imprimíveis',
+      'negócio imprimíveis Dia dos Namorados',
+      'atividades de Dia dos Namorados para vender',
     ],
-    lsiKeywords: [
-      'Hotmart',
-      'Kiwify',
-      'Etsy',
-      'Amazon KDP',
-      'renda extra',
-      'negócio de imprimíveis',
-      'licença comercial',
-      'nicho',
-      'ideias de produto',
-      'vendedor',
-      'Brasil',
-      'imprimíveis educativos',
-    ],
-    titleTag: 'Imprimíveis Dia dos Namorados | LCS',
+    lsiKeywords: ['amor', 'corações', 'fevereiro', 'romântico'],
+    titleTag: 'Imprimíveis de Dia dos Namorados Etsy | Nicho lucrativo',
     metaDescription:
-      'Crie e venda imprimíveis de Dia dos Namorados. Atividades educativas com corações e amor para Etsy, Hotmart e KDP. Nicho sazonal lucrativo.',
+      'Ideias de imprimíveis de Dia dos Namorados para Etsy e KDP. Corações e atividades românticas para fevereiro. Crie com LessonCraftStudio — 33 geradores.',
   },
   hero: {
     title: 'Dia dos Namorados — Imprimíveis para Vender Online',

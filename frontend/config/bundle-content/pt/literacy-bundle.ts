@@ -2,29 +2,23 @@ import type { BundleContent } from '../types';
 
 const content: BundleContent = {
   seo: {
-    primaryKeyword: 'pacote jogos de palavras Etsy KDP',
+    primaryKeyword: 'pacote geradores de alfabetização',
     secondaryKeywords: [
-      'pacote atividades de literacia para vendedores',
-      'geradores de jogos de palavras uso comercial',
-      'kit atividades de palavras imprimíveis Etsy',
-      'pacote palavras cruzadas caça-palavras vendedores',
+      'pack atividades de vocabulário licença comercial',
+      'geradores de leitura e escrita para Etsy e KDP',
+      'kit atividades caça-palavras cruzadinha escrita',
+      'ferramentas de alfabetização para imprimíveis',
     ],
     lsiKeywords: [
-      'caça-palavras gerador comercial imprimíveis',
-      'palavras cruzadas criador atividades vendedores',
-      'criptograma gerador puzzles de palavras',
-      'atividades de literacia pré-escolar vendedores',
-      'apostilas KDP jogos de palavras infantis',
-      'Etsy loja jogos de palavras imprimíveis',
-      'Hotmart pacote atividades de literacia',
-      'Kiwify produtos jogos de palavras',
-      'vocabulário visual atividades imprimíveis',
-      'alfabetização atividades gerador comercial',
-      'pacote completo literacia uso comercial',
-      'licença comercial jogos de palavras',
+      'caça-palavras',
+      'cruzadinha',
+      'criptograma',
+      'escrita',
+      'alfabeto',
+      'licença comercial',
     ],
-    titleTag: 'Pacote jogos de palavras — Vender | LCS',
-    metaDescription: 'Pacote com geradores de jogos de palavras: caça-palavras, palavras cruzadas, criptogramas e mais. 149 $ pagamento unico.',
+    titleTag: 'Pacote geradores de alfabetização | 7 ferramentas',
+    metaDescription: 'Pacote de 7 geradores de atividades de alfabetização. Caça-palavras, cruzadinha, escrita, alfabeto. Licença comercial. $149 pagamento único.',
   },
 
   hero: {

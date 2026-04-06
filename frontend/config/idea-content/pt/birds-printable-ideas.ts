@@ -2,30 +2,17 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'imprimíveis de pássaros para vender',
+    primaryKeyword: 'imprimíveis de pássaros para vender no Etsy',
     secondaryKeywords: [
-      'atividades pássaros para vender Etsy',
-      'imprimíveis aves educativos Hotmart',
-      'negócio atividades pássaros online',
-      'livros atividades aves KDP',
+      'atividades de pássaros Etsy KDP',
+      'atividades de pássaros imprimíveis',
+      'negócio imprimíveis pássaros',
+      'atividades de pássaros para vender',
     ],
-    lsiKeywords: [
-      'Hotmart',
-      'Kiwify',
-      'Etsy',
-      'Amazon KDP',
-      'renda extra',
-      'negócio de imprimíveis',
-      'licença comercial',
-      'nicho',
-      'ideias de produto',
-      'vendedor',
-      'Brasil',
-      'imprimíveis educativos',
-    ],
-    titleTag: 'Imprimíveis pássaros para vender | LCS',
+    lsiKeywords: ['aves', 'pássaros', 'natureza', 'voo'],
+    titleTag: 'Imprimíveis de pássaros Etsy | Nicho lucrativo',
     metaDescription:
-      'Crie e venda imprimíveis de pássaros no Etsy, Hotmart e KDP. Atividades educativas com aves para crianças. Nicho com baixa concorrência e boa demanda.',
+      'Ideias de imprimíveis de pássaros para Etsy e KDP. Aves e pássaros em atividades educativas. Crie com LessonCraftStudio — 33 geradores e licença comercial.',
   },
   hero: {
     title: 'Imprimíveis de Pássaros — Nicho para Vendedores Online',

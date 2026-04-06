@@ -2,30 +2,17 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'imprimíveis de animais de estimação para Etsy',
+    primaryKeyword: 'imprimíveis de animais de estimação para vender no Etsy',
     secondaryKeywords: [
-      'atividades animais de estimação para vender',
-      'imprimíveis pets Etsy Hotmart',
-      'negócio atividades cães gatos',
-      'vender imprimíveis pets online',
+      'atividades de animais de estimação Etsy KDP',
+      'atividades de animais de estimação imprimíveis',
+      'negócio imprimíveis animais de estimação',
+      'atividades de animais de estimação para vender',
     ],
-    lsiKeywords: [
-      'Hotmart',
-      'Kiwify',
-      'Etsy',
-      'Amazon KDP',
-      'renda extra',
-      'negócio de imprimíveis',
-      'licença comercial',
-      'nicho',
-      'ideias de produto',
-      'vendedor',
-      'Brasil',
-      'imprimíveis educativos',
-    ],
-    titleTag: 'Imprimíveis pets para Etsy | LCS',
+    lsiKeywords: ['pets', 'cachorro', 'gato', 'domésticos'],
+    titleTag: 'Imprimíveis de animais de estimação Etsy | Nicho lucrativo',
     metaDescription:
-      'Venda imprimíveis de animais de estimação no Etsy e Hotmart. Gatos, cães e coelhos em atividades educativas com alta demanda. Ideias de nicho rentável.',
+      'Ideias de imprimíveis de animais de estimação para Etsy e KDP. Gatos, cães e coelhos em atividades educativas. Crie com LessonCraftStudio — 33 geradores.',
   },
   hero: {
     title: 'Imprimíveis de Animais de Estimação — Ideias para Etsy',

@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'caça tesouro imprimíveis vender',
+    primaryKeyword: 'vender atividades de caça ao tesouro',
     secondaryKeywords: [
-      'treasure hunt printables sell',
       'caça ao tesouro imprimível negócio',
-      'jogo caça tesouro crianças vender',
+      'atividades caça tesouro festas vender',
+      'jogo caça tesouro crianças Etsy',
     ],
     lsiKeywords: [
       'aventura imprimível crianças',
       'jogo pistas imprimível',
-      'atividade outdoor crianças',
+      'atividade outdoor festas',
     ],
-    titleTag: 'Caça ao Tesouro Imprimíveis: Vender | LCS',
-    metaDescription: 'Venda fichas de caça ao tesouro imprimíveis. Formato divertido para festas e educação. Teste grátis com marca d\'água.',
+    titleTag: 'Vender atividades caça ao tesouro | Guia',
+    metaDescription: 'Guia para vender atividades de caça ao tesouro imprimíveis. Crie atividades profissionais com LessonCraftStudio — 33 geradores, 11 idiomas, licença comercial.',
   },
   hero: {
     title: 'Caça ao Tesouro Imprimíveis: Como Vender',

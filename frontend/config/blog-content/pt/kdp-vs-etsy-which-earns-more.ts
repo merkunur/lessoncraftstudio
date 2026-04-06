@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'KDP ou Etsy qual rende mais',
+    primaryKeyword: 'KDP vs Etsy qual rende mais para imprimíveis',
     secondaryKeywords: [
-      'KDP ou Etsy qual rende mais guia',
-      'KDP ou Etsy qual rende mais dicas',
-      'KDP ou Etsy qual rende mais estratégia',
+      'comparação KDP Etsy imprimíveis receita',
+      'melhor plataforma vender atividades',
+      'royalties KDP vs margens Etsy',
     ],
     lsiKeywords: [
-      'negócio imprimíveis digital',
-      'vendedor imprimíveis online',
-      'empreendedor digital educativo',
+      'plataforma imprimíveis receita',
+      'PDF digital vs livro impresso',
+      'multiplataforma vendas digitais',
     ],
-    titleTag: 'KDP ou Etsy: Qual Rende Mais? | LCS',
-    metaDescription: 'KDP e Etsy são as duas maiores plataformas para vender imprimíveis educativos, mas funcionam de formas muito diferentes. Etsy vende PDFs digitais com ma.',
+    titleTag: 'KDP vs Etsy qual rende mais | Comparação',
+    metaDescription: 'Compare KDP vs Etsy para descobrir qual rende mais. Crie atividades profissionais com LessonCraftStudio — 33 geradores, 11 idiomas, licença comercial.',
   },
   hero: {
     title: 'KDP ou Etsy: Qual Rende Mais?',

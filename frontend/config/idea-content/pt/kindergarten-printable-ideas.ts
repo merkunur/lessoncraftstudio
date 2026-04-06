@@ -2,30 +2,17 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'imprimíveis de pré-escola ideias negócio',
+    primaryKeyword: 'imprimíveis de educação infantil para vender no Etsy',
     secondaryKeywords: [
-      'atividades pré-escola para vender',
-      'imprimíveis kindergarten Etsy negócio',
-      'pacotes alfabetização pré-escola Hotmart',
-      'livros atividades kindergarten KDP',
+      'atividades de educação infantil Etsy KDP',
+      'atividades de educação infantil imprimíveis',
+      'negócio imprimíveis educação infantil',
+      'atividades de educação infantil para vender',
     ],
-    lsiKeywords: [
-      'Hotmart',
-      'Kiwify',
-      'Etsy',
-      'Amazon KDP',
-      'renda extra',
-      'negócio de imprimíveis',
-      'licença comercial',
-      'nicho',
-      'ideias de produto',
-      'vendedor',
-      'Brasil',
-      'imprimíveis educativos',
-    ],
-    titleTag: 'Imprimíveis pré-escola — Negócio | LCS',
+    lsiKeywords: ['jardim', 'creche', '4-5 anos', 'iniciantes'],
+    titleTag: 'Imprimíveis de educação infantil Etsy | Nicho lucrativo',
     metaDescription:
-      'Ideias de negócio com imprimíveis para pré-escola. Atividades para 5-6 anos no Etsy, Hotmart e KDP. Nicho com demanda massiva e constante.',
+      'Ideias de imprimíveis de educação infantil para Etsy e KDP. Atividades para creche e jardim de infância. Crie com LessonCraftStudio — 33 geradores.',
   },
   hero: {
     title: 'Pré-Escola — Ideias de Negócio com Imprimíveis Educativos',

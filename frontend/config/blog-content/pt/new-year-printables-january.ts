@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'imprimíveis Ano Novo janeiro',
+    primaryKeyword: 'atividades de Ano Novo para vender',
     secondaryKeywords: [
-      'imprimíveis Ano Novo janeiro negócio',
-      'imprimíveis Ano Novo janeiro vender',
-      'imprimíveis Ano Novo janeiro Etsy',
+      'imprimíveis sazonais de janeiro para Etsy',
+      'atividades de Carnaval para vender online',
+      'nicho sazonal de Ano Novo com imprimíveis',
     ],
     lsiKeywords: [
-      'imprimíveis sazonais vender',
-      'nicho educativo imprimíveis',
-      'mercado imprimíveis temáticos',
+      'planejamento sazonal vendedor',
+      'imprimíveis temáticos janeiro',
+      'nicho Carnaval atividades',
     ],
-    titleTag: 'Imprimíveis Ano Novo e Janeiro | LCS',
-    metaDescription: 'Janeiro é um mês de novos começos: resoluções de Ano Novo, planejamento e, no Brasil, preparação para o Carnaval em. Venda no Etsy & KDP com licenca comercial.',
+    titleTag: 'Atividades de Ano Novo para vender | Sazonal',
+    metaDescription: 'Venda atividades sazonais de Ano Novo e Carnaval online. Crie atividades profissionais com LessonCraftStudio — 33 geradores, 11 idiomas, licença comercial.',
   },
   hero: {
     title: 'Imprimíveis Ano Novo e Janeiro',

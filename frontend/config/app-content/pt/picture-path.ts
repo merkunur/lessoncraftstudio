@@ -2,32 +2,21 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'labirintos ilustrados para vender na Etsy',
+    primaryKeyword: 'labirinto para imprimir',
     secondaryKeywords: [
-      'gerador de labirintos com imagens para Hotmart',
-      'atividades de caminho ilustrado para Amazon KDP',
-      'labirintos para crianças com licença comercial',
-      'atividades de percurso para vender na Kiwify',
+      'gerador de labirinto',
+      'labirinto infantil para imprimir',
+      'criar labirinto',
+      'labirinto educação infantil',
     ],
     lsiKeywords: [
-      'licença comercial',
-      '300 DPI',
-      'pronto para impressão',
-      'labirinto',
-      'percurso',
       'caminho',
-      'download digital',
-      'gabarito incluso',
+      'saída',
       'coordenação motora',
-      'educação infantil',
-      'ensino fundamental',
-      'negócio de imprimíveis',
-      'renda extra',
-      'Hotmart',
-      'Kiwify',
+      'concentração',
     ],
-    titleTag: 'Labirintos ilustrados para vender online | LCS',
-    metaDescription: 'Crie labirintos ilustrados para vender na Hotmart, Etsy e KDP. Caminhos temáticos, 104 temas, gabarito automático. 49 $ pagamento unico.',
+    titleTag: 'Labirinto para imprimir | Gerador de labirintos',
+    metaDescription: 'Crie labirintos com imagens temáticas. Gabarito automático, PDF 300 DPI. Teste grátis — venda no Etsy e Amazon KDP.',
   },
 
   hero: {

@@ -2,30 +2,17 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'caixa de assinatura de imprimíveis ideias',
+    primaryKeyword: 'imprimíveis de caixas de assinatura para vender no Etsy',
     secondaryKeywords: [
-      'assinatura imprimíveis educativos Hotmart',
-      'caixa mensal atividades Kiwify',
-      'negócio receita recorrente imprimíveis',
-      'modelo assinatura imprimíveis Etsy',
+      'atividades de caixas de assinatura Etsy KDP',
+      'atividades de caixas de assinatura imprimíveis',
+      'negócio imprimíveis caixas de assinatura',
+      'atividades de caixas de assinatura para vender',
     ],
-    lsiKeywords: [
-      'Hotmart',
-      'Kiwify',
-      'Etsy',
-      'Amazon KDP',
-      'renda extra',
-      'negócio de imprimíveis',
-      'licença comercial',
-      'nicho',
-      'ideias de produto',
-      'vendedor',
-      'Brasil',
-      'imprimíveis educativos',
-    ],
-    titleTag: 'Assinatura de imprimíveis — Negócio | LCS',
+    lsiKeywords: ['assinatura', 'mensal', 'caixa', 'recorrente'],
+    titleTag: 'Imprimíveis de caixas de assinatura Etsy | Nicho lucrativo',
     metaDescription:
-      'Ideias para criar caixa de assinatura de imprimíveis. Receita recorrente com atividades mensais no Hotmart, Kiwify e Etsy. Modelo escalável.',
+      'Ideias de imprimíveis de caixas de assinatura para Etsy e KDP. Caixas mensais com atividades recorrentes. Crie com LessonCraftStudio — 33 geradores.',
   },
   hero: {
     title: 'Caixa de Assinatura de Imprimíveis — Modelo de Negócio',

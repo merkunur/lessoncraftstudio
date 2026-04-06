@@ -2,32 +2,22 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'atividades de ligar e associar para vender na Etsy',
+    primaryKeyword: 'atividade de ligar para imprimir',
     secondaryKeywords: [
-      'gerador de atividades de associação para Hotmart',
-      'criar atividades de ligar para Amazon KDP',
-      'atividades de correspondência com licença comercial',
-      'jogos de associação para vender na Kiwify',
+      'associar imagens atividade',
+      'ligar os pares atividade',
+      'atividade de relacionar',
+      'ligar com flechas educação infantil',
     ],
     lsiKeywords: [
-      'licença comercial',
-      '300 DPI',
-      'pronto para impressão',
       'ligar',
       'associar',
-      'correspondência',
-      'download digital',
-      'gabarito incluso',
-      'raciocínio visual',
+      'pares',
       'educação infantil',
-      'ensino fundamental',
-      'negócio de imprimíveis',
-      'renda extra',
-      'Hotmart',
-      'Kiwify',
+      'pré-escola',
     ],
-    titleTag: 'Atividades de ligar e associar para vender | LCS',
-    metaDescription: 'Crie atividades de ligar e associar para vender na Hotmart, Etsy e KDP. 104 temas, gabarito automático, licença comercial. 49 $ pagamento unico.',
+    titleTag: 'Atividades de ligar para imprimir | Gerador de associação',
+    metaDescription: 'Crie atividades de associação com imagens temáticas para educação infantil e ensino fundamental. Gabarito automático, PDF 300 DPI. Teste grátis.',
   },
 
   hero: {

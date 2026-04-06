@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'imprimíveis educação especial vender',
+    primaryKeyword: 'vender imprimíveis para educação especial',
     secondaryKeywords: [
-      'imprimíveis educação especial vender negócio',
-      'imprimíveis educação especial vender vender',
-      'imprimíveis educação especial vender Etsy',
+      'atividades educação especial negócio',
+      'imprimíveis inclusão vender online',
+      'atividades adaptadas necessidades especiais',
     ],
     lsiKeywords: [
-      'imprimíveis sazonais vender',
-      'nicho educativo imprimíveis',
-      'mercado imprimíveis temáticos',
+      'educação inclusiva atividades',
+      'nicho educação especial',
+      'imprimíveis adaptados crianças',
     ],
-    titleTag: 'Imprimíveis Educação Especial: Vender | LCS',
-    metaDescription: 'Imprimíveis para educação especial e inclusão atendem um mercado com demanda real e poucos concorrentes de qualidade. Fichas adaptadas para crianças c.',
+    titleTag: 'Vender imprimíveis para educação especial',
+    metaDescription: 'Guia para vender imprimíveis adaptados para educação especial. Crie atividades profissionais com LessonCraftStudio — 33 geradores, 11 idiomas, licença comercial.',
   },
   hero: {
     title: 'Imprimíveis Educação Especial: Vender',

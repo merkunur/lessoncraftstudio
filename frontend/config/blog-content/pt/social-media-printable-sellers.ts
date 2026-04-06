@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'redes sociais vendedores imprimíveis',
+    primaryKeyword: 'redes sociais para vendedores de imprimíveis',
     secondaryKeywords: [
-      'estratégias funcionam',
-      'mercado brasileiro internacional',
-      'ferramentas recursos',
+      'Pinterest para vendedores imprimíveis',
+      'marketing redes sociais atividades',
+      'Instagram TikTok vendedores digitais',
     ],
     lsiKeywords: [
       'negócio imprimíveis digital',
       'vendedor imprimíveis online',
-      'empreendedor digital educativo',
+      'tráfego redes sociais Etsy',
     ],
-    titleTag: 'Redes Sociais para Vendedores | LCS',
-    metaDescription: 'Pinterest, Instagram, TikTok e Facebook — cada rede social tem estratégia diferente para vendedores de imprimíveis. Pinterest gera tráfego passivo; Inst.',
+    titleTag: 'Redes sociais para vendedores de imprimíveis',
+    metaDescription: 'Estratégias de redes sociais para vendedores de imprimíveis. Crie atividades profissionais com LessonCraftStudio — 33 geradores, 11 idiomas, licença comercial.',
   },
   hero: {
     title: 'Redes Sociais para Vendedores',

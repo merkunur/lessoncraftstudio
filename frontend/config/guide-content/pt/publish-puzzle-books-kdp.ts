@@ -2,29 +2,17 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'publicar livros de passatempos no Amazon KDP',
+    primaryKeyword: 'como publicar livros de puzzles no KDP',
     secondaryKeywords: [
-      'como publicar livro de puzzles KDP',
-      'livros de passatempos Amazon guia',
-      'livro de quebra-cabeças KDP',
-      'publicar livro de jogos Amazon',
+      'livro de passatempos KDP guia',
+      'publicar livro puzzles Amazon',
+      'KDP livro quebra-cabeças estratégia',
+      'livros de jogos KDP',
     ],
-    lsiKeywords: [
-      'Amazon KDP',
-      'livro de passatempos',
-      'puzzles',
-      'quebra-cabeças',
-      'formatação',
-      'ISBN',
-      'capa',
-      'royalties',
-      'renda passiva',
-      'Hotmart',
-      'nichos',
-    ],
-    titleTag: 'Livros de passatempos para KDP — guia | LCS',
+    lsiKeywords: ['KDP', 'livro', 'puzzles', 'passatempos', 'publicar'],
+    titleTag: 'Como publicar livros de puzzles no KDP | Guia',
     metaDescription:
-      'Guia para publicar livros de passatempos no Amazon KDP. Caça-palavras, sudoku, criptogramas e mais. Formatação, preços e estratégias.',
+      'Guia para publicar livros de puzzles e passatempos no Amazon KDP. Formatação, nichos e estratégia para livros de quebra-cabeças.',
   },
 
   hero: {

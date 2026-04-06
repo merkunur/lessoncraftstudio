@@ -2,29 +2,23 @@ import type { BundleContent } from '../types';
 
 const content: BundleContent = {
   seo: {
-    primaryKeyword: 'pacote associação e classificação',
+    primaryKeyword: 'pacote geradores de associação',
     secondaryKeywords: [
-      'pacote atividades de associação para vendedores',
-      'geradores de classificação imprimíveis comercial',
-      'kit atividades de correspondência Etsy KDP',
-      'pacote atividades de lógica visual vendedores',
+      'pack atividades de associação licença comercial',
+      'geradores de associação para Etsy e KDP',
+      'kit atividades ligar classificar comparar',
+      'ferramentas de associação para imprimíveis',
     ],
     lsiKeywords: [
-      'atividades de associação imprimíveis comercial',
-      'classificação e ordenação gerador atividades',
-      'correspondência visual imprimíveis vendedores',
-      'atividades de sombras gerador comercial',
-      'tamanho comparação atividades crianças',
-      'apostilas KDP atividades de lógica',
-      'Etsy loja atividades de associação',
-      'Hotmart pacote atividades classificação',
-      'Kiwify atividades de correspondência',
-      'pré-escolar atividades associação vendedores',
-      'licença comercial atividades de lógica',
-      'atividades cognitivas imprimíveis comercial',
+      'ligar',
+      'classificar',
+      'comparar',
+      'tamanhos',
+      'intruso',
+      'licença comercial',
     ],
-    titleTag: 'Pacote associação e classificação | LCS',
-    metaDescription: 'Pacote com geradores de atividades de associação, classificação e correspondência visual. 149 $ pagamento unico.',
+    titleTag: 'Pacote geradores de associação | 5 ferramentas',
+    metaDescription: 'Pacote de 5 geradores de atividades de associação. Ligar, classificar, comparar tamanhos, intruso. Licença comercial. $149 pagamento único.',
   },
 
   hero: {

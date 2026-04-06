@@ -2,30 +2,17 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'imprimíveis de 3º ano para vender',
+    primaryKeyword: 'imprimíveis de 3° ano para vender no Etsy',
     secondaryKeywords: [
-      'atividades 3º ano para vender Etsy',
-      'imprimíveis third grade Hotmart',
-      'negócio atividades 8-9 anos',
-      'livros atividades 3º ano KDP',
+      'atividades de 3° ano Etsy KDP',
+      'atividades de 3° ano imprimíveis',
+      'negócio imprimíveis 3° ano',
+      'atividades de 3° ano para vender',
     ],
-    lsiKeywords: [
-      'Hotmart',
-      'Kiwify',
-      'Etsy',
-      'Amazon KDP',
-      'renda extra',
-      'negócio de imprimíveis',
-      'licença comercial',
-      'nicho',
-      'ideias de produto',
-      'vendedor',
-      'Brasil',
-      'imprimíveis educativos',
-    ],
-    titleTag: 'Imprimíveis 3º ano para vender | LCS',
+    lsiKeywords: ['3° ano', '8 anos', 'ensino fundamental', 'matemática'],
+    titleTag: 'Imprimíveis de 3° ano Etsy | Nicho lucrativo',
     metaDescription:
-      'Crie e venda imprimíveis de 3º ano no Etsy e Hotmart. Atividades de matemática e leitura para 8-9 anos. Nicho com menor concorrência.',
+      'Ideias de imprimíveis de 3° ano para Etsy e KDP. Matemática e atividades para crianças de 8 anos. Crie com LessonCraftStudio — 33 geradores e licença comercial.',
   },
   hero: {
     title: 'Imprimíveis de 3º Ano — Nicho para Vendedores Online',

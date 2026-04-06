@@ -2,30 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'negócio de imprimíveis multilíngue',
+    primaryKeyword: 'negócio de imprimíveis em múltiplos idiomas',
     secondaryKeywords: [
-      'imprimíveis em vários idiomas para vender',
-      'negócio global de atividades educativas',
-      'como vender em múltiplos idiomas Etsy',
-      'estratégia multilíngue vendedor imprimíveis',
+      'vender imprimíveis multilingues',
+      'atividades em vários idiomas Etsy',
+      'negócio imprimíveis internacional',
+      'imprimíveis 11 idiomas estratégia',
     ],
     lsiKeywords: [
+      'idiomas',
       'multilíngue',
-      '11 idiomas',
-      'mercados globais',
-      'Hotmart',
-      'Etsy',
-      'KDP',
-      'renda extra',
-      'português',
-      'inglês',
-      'alemão',
-      'francês',
-      'espanhol',
+      'internacional',
+      'vendas',
+      'mercado',
     ],
-    titleTag: 'Negócio de imprimíveis multilíngue | LCS',
+    titleTag: 'Negócio de imprimíveis em múltiplos idiomas | Guia',
     metaDescription:
-      'Como criar um negócio de imprimíveis multilíngue. 11 idiomas, mercados globais e estratégia de expansão.',
+      'Guia para expandir seu negócio de imprimíveis com múltiplos idiomas. 11 idiomas disponíveis — alcance mercados globais no Etsy e KDP.',
   },
 
   hero: {

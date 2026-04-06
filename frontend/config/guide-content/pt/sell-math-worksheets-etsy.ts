@@ -2,30 +2,17 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'vender atividades de matemática no Etsy guia',
+    primaryKeyword: 'como vender atividades de matemática no Etsy',
     secondaryKeywords: [
-      'como vender atividades de matemática no Etsy',
-      'dicas para vender imprimíveis de matemática Etsy',
-      'atividades de matemática Etsy SEO e preços',
-      'guia completo vendedor de matemática Etsy',
+      'vender atividades de adição Etsy',
+      'atividades de matemática Etsy dicas',
+      'negócio atividades matemática Etsy',
+      'loja Etsy atividades educativas',
     ],
-    lsiKeywords: [
-      'Etsy',
-      'atividades de matemática',
-      'imprimíveis',
-      'vendedor',
-      'SEO Etsy',
-      'etiquetas',
-      'preços',
-      'pacotes',
-      'licença comercial',
-      'renda extra',
-      'Hotmart',
-      'KDP',
-    ],
-    titleTag: 'Vender atividades de matemática no Etsy | LCS',
+    lsiKeywords: ['Etsy', 'matemática', 'vendas', 'listagem', 'SEO'],
+    titleTag: 'Como vender atividades de matemática no Etsy | Guia',
     metaDescription:
-      'Guia completo para vender atividades de matemática no Etsy. SEO, preços, etiquetas, pacotes e dicas para maximizar vendas. Comece hoje.',
+      'Guia completo para vender atividades de matemática no Etsy. SEO, listagens, preços e dicas para vendedores de atividades educativas.',
   },
 
   hero: {

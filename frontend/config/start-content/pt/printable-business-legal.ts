@@ -2,29 +2,22 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'aspectos legais negócio de imprimíveis Brasil',
+    primaryKeyword: 'aspectos legais do negócio de imprimíveis',
     secondaryKeywords: [
-      'requisitos legais vender imprimíveis online Brasil',
-      'impostos negócio de atividades digitais MEI',
-      'regulamentações para vendedores de imprimíveis',
-      'aspectos fiscais negócio de downloads digitais Brasil',
+      'legislação vendedores imprimíveis',
+      'impostos negócio digital imprimíveis',
+      'MEI vendedor imprimíveis',
+      'aspectos jurídicos loja Etsy',
     ],
     lsiKeywords: [
-      'MEI para vendedores de imprimíveis limite R$81.000',
-      'Simples Nacional negócio de atividades digitais',
-      'NFS-e nota fiscal serviço imprimíveis',
-      'ISS imposto sobre serviço produtos digitais',
-      'PIX recebimento vendas imprimíveis',
-      'Hotmart retenção de impostos vendedores',
-      'Kiwify retenção fiscal produtos digitais',
-      'trabalhador independente Portugal IVA 23%',
-      'proteção de propriedade intelectual imprimíveis',
-      'direitos autorais atividades geradas Brasil',
-      'CNPJ para vendedor de imprimíveis digitais',
-      'contabilidade negócio digital imprimíveis',
+      'legal',
+      'impostos',
+      'MEI',
+      'licença',
+      'direitos',
     ],
-    titleTag: 'Imprimíveis: aspectos legais Brasil | LCS',
-    metaDescription: 'Aspectos legais de um negócio de imprimíveis no Brasil. MEI, Simples Nacional, NFS-e, ISS e PIX. Venda no Etsy & KDP com licenca comercial.',
+    titleTag: 'Aspectos legais do negócio de imprimíveis | Guia',
+    metaDescription: 'Guia sobre aspectos legais do negócio de imprimíveis. MEI, impostos, direitos autorais e regulamentações para vendedores.',
   },
 
   hero: {

@@ -2,31 +2,22 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'atividades de grande e pequeno para vender online',
+    primaryKeyword: 'atividade grande e pequeno para imprimir',
     secondaryKeywords: [
-      'gerador de atividades de tamanhos para Hotmart',
-      'atividades de comparação de tamanho para Etsy',
-      'exercícios de grande e pequeno para Amazon KDP',
-      'atividades de tamanhos com licença comercial',
+      'comparar tamanhos atividade',
+      'maior e menor atividade',
+      'ordenar por tamanho exercício',
+      'tamanhos educação infantil',
     ],
     lsiKeywords: [
-      'licença comercial',
-      '300 DPI',
-      'pronto para impressão',
-      'grande e pequeno',
-      'comparação de tamanhos',
-      'download digital',
-      'gabarito incluso',
-      'conceitos matemáticos',
-      'educação infantil',
-      'pré-escola',
-      'negócio de imprimíveis',
-      'renda extra',
-      'Hotmart',
-      'Kiwify',
+      'grande',
+      'pequeno',
+      'médio',
+      'ordenar',
+      'classificar',
     ],
-    titleTag: 'Atividades grande e pequeno para vender | LCS',
-    metaDescription: 'Crie atividades de grande e pequeno para vender na Hotmart, Etsy e KDP. 104 temas, gabarito automático, licença comercial. 49 $ pagamento unico.',
+    titleTag: 'Atividade grande e pequeno para imprimir | Gerador',
+    metaDescription: 'Crie atividades de comparação de tamanhos com imagens temáticas. Grande vs. pequeno, ordenar, gabarito automático. Teste grátis.',
   },
 
   hero: {

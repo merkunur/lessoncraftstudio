@@ -2,30 +2,17 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'imprimíveis de fundo do mar para vender',
+    primaryKeyword: 'imprimíveis de fundo do mar para vender no Etsy',
     secondaryKeywords: [
-      'atividades fundo do mar para vender',
-      'imprimíveis submarino educativos Etsy',
-      'negócio atividades oceano Hotmart',
-      'livros atividades fundo do mar KDP',
+      'atividades de fundo do mar Etsy KDP',
+      'atividades de fundo do mar imprimíveis',
+      'negócio imprimíveis fundo do mar',
+      'atividades de fundo do mar para vender',
     ],
-    lsiKeywords: [
-      'Hotmart',
-      'Kiwify',
-      'Etsy',
-      'Amazon KDP',
-      'renda extra',
-      'negócio de imprimíveis',
-      'licença comercial',
-      'nicho',
-      'ideias de produto',
-      'vendedor',
-      'Brasil',
-      'imprimíveis educativos',
-    ],
-    titleTag: 'Imprimíveis fundo do mar vender | LCS',
+    lsiKeywords: ['submarino', 'coral', 'peixes', 'oceano'],
+    titleTag: 'Imprimíveis de fundo do mar Etsy | Nicho lucrativo',
     metaDescription:
-      'Crie e venda imprimíveis de fundo do mar no Etsy e Hotmart. Peixes, corais e sereias em atividades educativas. Nicho visual e envolvente.',
+      'Ideias de imprimíveis de fundo do mar para Etsy e KDP. Corais, peixes e atividades submarinas. Crie com LessonCraftStudio — 33 geradores e licença comercial.',
   },
   hero: {
     title: 'Fundo do Mar — Imprimíveis para Vender Online',

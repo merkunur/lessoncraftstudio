@@ -2,30 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'encontrar nichos lucrativos de imprimíveis',
+    primaryKeyword: 'como pesquisar nichos lucrativos de imprimíveis',
     secondaryKeywords: [
-      'pesquisa de nicho imprimíveis educativos',
-      'como validar nicho de atividades',
-      'ferramentas pesquisa mercado imprimíveis',
-      'nichos de atividades com pouca competição',
+      'pesquisa de mercado imprimíveis',
+      'encontrar nichos rentáveis atividades',
+      'análise concorrência imprimíveis Etsy',
+      'nichos imprimíveis pouca concorrência',
     ],
     lsiKeywords: [
-      'nichos',
       'pesquisa',
-      'validação',
-      'mercado',
-      'Hotmart',
+      'nicho',
+      'demanda',
       'Etsy',
       'KDP',
-      'renda extra',
-      'competição',
-      'palavras-chave',
-      'Brasil',
-      'oportunidades',
     ],
-    titleTag: 'Nichos lucrativos de imprimíveis — guia | LCS',
+    titleTag: 'Pesquisar nichos lucrativos de imprimíveis | Guia',
     metaDescription:
-      'Como encontrar nichos lucrativos de imprimíveis. Pesquisa de mercado, validação e ferramentas para 2026.',
+      'Guia para pesquisar nichos lucrativos de imprimíveis educativos. Ferramentas, métodos e critérios para encontrar nichos rentáveis.',
   },
 
   hero: {

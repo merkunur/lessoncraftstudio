@@ -2,30 +2,17 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'criar cartelas de bingo com imagens para vender',
+    primaryKeyword: 'como criar cartelas de bingo para imprimir',
     secondaryKeywords: [
-      'como criar cartelas de bingo com imagens para Hotmart',
-      'cartelas de bingo com imagens para vender na Etsy',
-      'guia cartelas de bingo com imagens para Amazon KDP',
-      'cartelas de bingo com imagens com licença comercial para vender',
+      'tutorial bingo com imagens passo a passo',
+      'criar cartelas de bingo para vender',
+      'guia bingo educativo com imagens',
+      'cartelas de bingo para Etsy e KDP',
     ],
-    lsiKeywords: [
-      'licença comercial',
-      '300 DPI',
-      'pronto para impressão',
-      'download digital',
-      'gabarito incluso',
-      'Hotmart',
-      'Kiwify',
-      'Etsy',
-      'Amazon KDP',
-      'renda extra',
-      'negócio de imprimíveis',
-      'educação infantil',
-    ],
-    titleTag: 'Cartelas de bingo para vender online | LCS',
+    lsiKeywords: ['bingo', 'cartelas', 'imagens', 'jogo', 'sorteio'],
+    titleTag: 'Como criar cartelas de bingo para imprimir | Guia',
     metaDescription:
-      'Guia para criar cartelas de bingo com imagens para vender. Lote, exportação ZIP, folha de chamada e estratégias.',
+      'Guia passo a passo para criar cartelas de bingo com 3.000+ imagens temáticas. Cartelas únicas por jogo, PDF imprimíveis. Teste grátis — licença comercial.',
   },
 
   hero: {

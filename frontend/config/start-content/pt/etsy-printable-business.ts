@@ -2,29 +2,23 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'masterclass negócio Etsy imprimíveis',
+    primaryKeyword: 'como vender imprimíveis no Etsy',
     secondaryKeywords: [
-      'como vender imprimíveis no Etsy guia completo',
-      'loja Etsy de atividades educativas passo a passo',
-      'otimizar listagens Etsy imprimíveis educativos',
-      'SEO Etsy para vendedores de atividades',
+      'negócio imprimíveis Etsy guia',
+      'vender atividades educativas Etsy',
+      'loja Etsy imprimíveis passo a passo',
+      'Etsy imprimíveis para iniciantes',
     ],
     lsiKeywords: [
-      'algoritmo de busca Etsy imprimíveis',
-      'fotografia de produto atividades Etsy',
-      'estratégia de tags Etsy vendedores educativos',
-      'mockups para listagens Etsy atividades',
-      'precificação competitiva Etsy imprimíveis',
-      'avaliações e reviews Etsy atividades',
-      'Etsy Star Seller imprimíveis educativos',
-      'palavras-chave Etsy atividades de matemática',
-      'sazonalidade vendas Etsy imprimíveis',
-      'descrição de listagem Etsy atividades',
-      'nicho Etsy atividades educativas lucrativo',
-      'Etsy Ads imprimíveis retorno investimento',
+      'Etsy',
+      'loja',
+      'SEO',
+      'listagens',
+      'vendas',
+      'tags',
     ],
-    titleTag: 'Masterclass Etsy imprimíveis | LCS',
-    metaDescription: 'Masterclass para vender imprimíveis no Etsy. SEO, otimização de listagens, estratégia de preços e táticas de visibilidade para atividades educativas.',
+    titleTag: 'Como vender imprimíveis no Etsy | Guia completo',
+    metaDescription: 'Guia completo para vender imprimíveis no Etsy. Da criação da loja à primeira venda — SEO, listagens, preços e promoção.',
   },
 
   hero: {

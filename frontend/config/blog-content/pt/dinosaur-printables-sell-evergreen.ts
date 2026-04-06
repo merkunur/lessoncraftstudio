@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'dinossauros imprimíveis vender',
+    primaryKeyword: 'atividades de dinossauros para vender',
     secondaryKeywords: [
-      'imprimíveis dinossauros vender perene negócio',
-      'imprimíveis dinossauros vender perene vender',
-      'imprimíveis dinossauros vender perene Etsy',
+      'imprimíveis de dinossauros Etsy e KDP',
+      'nicho perene de atividades de dinossauros',
+      'vender atividades temáticas de dinossauros',
     ],
     lsiKeywords: [
-      'imprimíveis sazonais vender',
-      'nicho educativo imprimíveis',
-      'mercado imprimíveis temáticos',
+      'dinossauros',
+      'nicho perene',
+      'tema infantil',
     ],
-    titleTag: 'Imprimíveis Dinossauros: Vender | LCS',
-    metaDescription: 'Dinossauros são um tema evergreen que fascina crianças de 3 a 10 anos. Venda no Etsy & KDP com licenca comercial.',
+    titleTag: 'Atividades de dinossauros para vender | Nicho',
+    metaDescription: 'Explore o nicho perene de atividades de dinossauros para vender. Crie atividades profissionais com LessonCraftStudio — 33 geradores, 11 idiomas, licença comercial.',
   },
   hero: {
     title: 'Imprimíveis Dinossauros: Vender',

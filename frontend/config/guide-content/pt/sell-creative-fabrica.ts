@@ -2,27 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'vender recursos educativos no Creative Fabrica',
+    primaryKeyword: 'como vender imprimíveis na Creative Fabrica',
     secondaryKeywords: [
-      'como vender no Creative Fabrica',
-      'Creative Fabrica para vendedores educativos',
-      'imprimíveis Creative Fabrica guia',
+      'Creative Fabrica imprimíveis guia',
       'vender atividades Creative Fabrica',
+      'loja Creative Fabrica imprimíveis',
+      'Creative Fabrica vs Etsy imprimíveis',
     ],
     lsiKeywords: [
       'Creative Fabrica',
+      'vendas',
       'imprimíveis',
-      'atividades educativas',
-      'vendedor',
-      'marketplace',
+      'listagem',
       'assinatura',
-      'renda extra',
-      'Etsy',
-      'Hotmart',
     ],
-    titleTag: 'Vender no Creative Fabrica — guia | LCS',
+    titleTag: 'Como vender imprimíveis na Creative Fabrica | Guia',
     metaDescription:
-      'Guia para vender recursos educativos no Creative Fabrica. Configuração, regras da plataforma e estratégias para vendedores.',
+      'Guia para vender imprimíveis na Creative Fabrica. Criação da loja, listagens, preços e comparação com Etsy para vendedores.',
   },
 
   hero: {

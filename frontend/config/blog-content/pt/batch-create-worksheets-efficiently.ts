@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'criar fichas em lote eficientemente',
+    primaryKeyword: 'como criar atividades em lote rapidamente',
     secondaryKeywords: [
-      'criar fichas em lote eficientemente passo a passo',
-      'criar fichas em lote eficientemente tutorial',
-      'criar fichas em lote eficientemente como fazer',
+      'produção em lote de imprimíveis',
+      'criar atividades rápido para vender',
+      'produtividade na criação de atividades',
     ],
     lsiKeywords: [
-      'tutorial imprimíveis',
-      'como criar fichas educativas',
-      'guia prático imprimíveis',
+      'produção em lote',
+      'produtividade',
+      'automação',
     ],
-    titleTag: 'Crie Fichas em Lote Eficientemente | LCS',
-    metaDescription: 'Criar fichas uma a uma é ineficiente. Batch processing — criar séries de fichas relacionadas em uma sessão —. Venda no Etsy & KDP com licenca comercial.',
+    titleTag: 'Criar atividades em lote rapidamente | Dicas',
+    metaDescription: 'Produza atividades em lote e multiplique sua produtividade. Crie atividades profissionais com LessonCraftStudio — 33 geradores, 11 idiomas, licença comercial.',
   },
   hero: {
     title: 'Crie Fichas em Lote Eficientemente',

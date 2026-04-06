@@ -2,29 +2,16 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'gerador de atividades de preposições grátis',
+    primaryKeyword: 'atividade de localização espacial grátis',
     secondaryKeywords: [
-      'atividades de preposições para imprimir grátis',
-      'exercícios de preposições com imagens grátis',
-      'atividades de PLE grátis online',
-      'preposições em português grátis',
+      'preposições de lugar grátis online',
+      'noções espaciais grátis atividade',
+      'em cima embaixo ao lado grátis atividade',
+      'orientação espacial grátis educação infantil',
     ],
-    lsiKeywords: [
-      'grátis online',
-      'sem cadastro',
-      'marca d\'água',
-      'imprimir',
-      'PDF',
-      'gabarito',
-      'preposições',
-      'PLE',
-      '11 idiomas',
-      'vocabulário',
-      'teste grátis',
-      'licença comercial',
-    ],
-    titleTag: 'Atividades de preposições grátis online | LCS',
-    metaDescription: 'Crie atividades de preposições grátis com imagens. 11 idiomas, PLE, gabarito automático, PDF imprimível. Venda no Etsy & KDP com licenca comercial.',
+    lsiKeywords: ['em cima', 'embaixo', 'na frente', 'atrás', 'ao lado', 'sem cadastro'],
+    titleTag: 'Atividade de localização espacial grátis | Online',
+    metaDescription: 'Crie atividades de localização espacial e preposições grátis. Sem cadastro. Imagens temáticas, gabarito automático, 11 idiomas. Marca d\'água removida com licença.',
   },
 
   hero: {

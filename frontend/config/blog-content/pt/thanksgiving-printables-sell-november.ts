@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'imprimíveis novembro Consciência Negra',
+    primaryKeyword: 'atividades de Ação de Graças para vender',
     secondaryKeywords: [
-      'produtos mais vendem neste',
-      'estratégia preço pacotes',
-      'marketing seo este nicho',
+      'atividades novembro Consciência Negra',
+      'imprimíveis Thanksgiving Etsy vender',
+      'atividades sazonais novembro negócio',
     ],
     lsiKeywords: [
       'imprimíveis sazonais vender',
-      'nicho educativo imprimíveis',
-      'mercado imprimíveis temáticos',
+      'Consciência Negra atividades',
+      'Thanksgiving imprimíveis temáticos',
     ],
-    titleTag: 'Imprimíveis Novembro: Consciência Negra | LCS',
-    metaDescription: 'O Brasil não celebra Thanksgiving, mas novembro é marcado pelo Dia da Consciência Negra (20/11) e pelas Festas Juninas tardias. Para o mercado interna.',
+    titleTag: 'Atividades Ação de Graças para vender',
+    metaDescription: 'Como vender atividades de Ação de Graças e Consciência Negra. Crie atividades profissionais com LessonCraftStudio — 33 geradores, 11 idiomas, licença comercial.',
   },
   hero: {
     title: 'Imprimíveis Novembro: Consciência Negra',

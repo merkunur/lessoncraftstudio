@@ -70,8 +70,8 @@ const startPageContent: Record<string, {
   pt: {
     heroTitle: 'Criar e crescer um negócio de imprimíveis',
     heroDescription: 'Tudo para criar e crescer seu negócio de imprimíveis. Guias Hotmart, Etsy, KDP, marketing, preços e aspectos legais para o mercado lusófono.',
-    metaTitle: 'Criar e crescer um negócio de imprimíveis | LCS',
-    metaDescription: 'Tudo para criar e crescer seu negócio de imprimíveis. Guias Hotmart, Etsy, KDP, marketing, preços, crescimento e aspectos legais para o mercado lusófono.',
+    metaTitle: 'Criar e crescer negócio de atividades | LCS',
+    metaDescription: 'Tudo para criar e crescer seu negócio de atividades educativas. Guias Etsy, KDP, marketing e estratégias para o mercado brasileiro.',
     ctaTitle: 'Pronto para criar?',
     ctaDescription: "Teste os 33 geradores grátis com marca d'água. Sem cadastro.",
     ctaButton: 'Testar geradores grátis',

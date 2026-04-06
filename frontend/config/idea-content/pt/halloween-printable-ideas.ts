@@ -2,30 +2,17 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'imprimíveis de Halloween ideias negócio',
+    primaryKeyword: 'imprimíveis de Halloween para vender no Etsy',
     secondaryKeywords: [
-      'atividades Halloween para vender',
-      'imprimíveis Halloween Etsy negócio',
-      'pacotes Halloween educativos Hotmart',
-      'livros atividades Halloween KDP',
+      'atividades de Halloween Etsy KDP',
+      'atividades de Halloween imprimíveis',
+      'negócio imprimíveis Halloween',
+      'atividades de Halloween para vender',
     ],
-    lsiKeywords: [
-      'Hotmart',
-      'Kiwify',
-      'Etsy',
-      'Amazon KDP',
-      'renda extra',
-      'negócio de imprimíveis',
-      'licença comercial',
-      'nicho',
-      'ideias de produto',
-      'vendedor',
-      'Brasil',
-      'imprimíveis educativos',
-    ],
-    titleTag: 'Imprimíveis Halloween — Negócio | LCS',
+    lsiKeywords: ['Halloween', 'outubro', 'fantasia', 'assustador'],
+    titleTag: 'Imprimíveis de Halloween Etsy | Nicho lucrativo',
     metaDescription:
-      'Ideias de negócio com imprimíveis de Halloween. Venda atividades educativas no Etsy, Hotmart e KDP. Nicho sazonal com pico forte em outubro.',
+      'Ideias de imprimíveis de Halloween para Etsy e KDP. Fantasias, abóboras e atividades assustadoras. Crie com LessonCraftStudio — 33 geradores e licença comercial.',
   },
   hero: {
     title: 'Halloween — Ideias de Negócio com Imprimíveis Educativos',

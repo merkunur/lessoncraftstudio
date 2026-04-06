@@ -2,30 +2,17 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'criar atividades de gráficos para vender',
+    primaryKeyword: 'como criar atividades de contagem e gráficos',
     secondaryKeywords: [
-      'como criar atividades de gráficos para Hotmart',
-      'atividades de gráficos para vender na Etsy',
-      'guia atividades de gráficos para Amazon KDP',
-      'atividades de gráficos com licença comercial para vender',
+      'tutorial gráficos de barras passo a passo',
+      'criar atividades de gráficos para vender',
+      'guia contagem e gráficos com imagens',
+      'atividades de gráficos para Etsy e KDP',
     ],
-    lsiKeywords: [
-      'licença comercial',
-      '300 DPI',
-      'pronto para impressão',
-      'download digital',
-      'gabarito incluso',
-      'Hotmart',
-      'Kiwify',
-      'Etsy',
-      'Amazon KDP',
-      'renda extra',
-      'negócio de imprimíveis',
-      'educação infantil',
-    ],
-    titleTag: 'Atividades de gráficos para vender | LCS',
+    lsiKeywords: ['contagem', 'gráficos', 'barras', 'imagens', 'gabarito'],
+    titleTag: 'Como criar atividades de contagem e gráficos | Guia',
     metaDescription:
-      'Guia para criar atividades de gráficos e pictogramas para vender. Estatística infantil, BNCC e estratégias.',
+      'Guia passo a passo para criar atividades de contagem e gráficos com imagens temáticas. Gabarito automático. Teste grátis — venda no Etsy e KDP.',
   },
 
   hero: {

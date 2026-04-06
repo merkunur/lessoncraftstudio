@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'Hotmart Kiwify vs Etsy fichas comparação',
+    primaryKeyword: 'Gumroad vs Etsy para vender atividades',
     secondaryKeywords: [
-      'estratégias funcionam',
-      'mercado brasileiro internacional',
-      'ferramentas recursos',
+      'comparação plataformas vender atividades',
+      'Gumroad Etsy imprimíveis qual melhor',
+      'onde vender atividades educativas online',
     ],
     lsiKeywords: [
       'negócio imprimíveis digital',
       'vendedor imprimíveis online',
-      'empreendedor digital educativo',
+      'plataformas venda digital',
     ],
-    titleTag: 'Hotmart/Kiwify vs Etsy: Comparação | LCS',
-    metaDescription: 'No Brasil, vendedores de imprimíveis educativos têm três opções principais: Hotmart, Kiwify e Etsy. Cada plataforma tem público, comissões e dinâmicas d.',
+    titleTag: 'Gumroad vs Etsy para atividades | Comparação',
+    metaDescription: 'Comparação entre Gumroad e Etsy para vender atividades educativas. Crie atividades profissionais com LessonCraftStudio — 33 geradores, 11 idiomas, licença comercial.',
   },
   hero: {
     title: 'Hotmart/Kiwify vs Etsy: Comparação',

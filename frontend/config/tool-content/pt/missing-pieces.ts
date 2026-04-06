@@ -2,29 +2,16 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'gerador de peças faltantes grátis',
+    primaryKeyword: 'quebra-cabeça grátis para imprimir',
     secondaryKeywords: [
-      'quebra-cabeça peças faltantes para imprimir grátis',
-      'puzzle de completar imagens grátis',
-      'atividades de peças faltantes grátis online',
-      'quebra-cabeça visual grátis para crianças',
+      'peças faltando grátis atividade',
+      'complete o puzzle grátis online',
+      'observação visual grátis atividade',
+      'lógica visual grátis para imprimir',
     ],
-    lsiKeywords: [
-      'grátis online',
-      'sem cadastro',
-      'marca d\'água',
-      'imprimir',
-      'PDF',
-      'gabarito',
-      'peças faltantes',
-      'puzzle visual',
-      '104 temas',
-      'raciocínio lógico',
-      'teste grátis',
-      'licença comercial',
-    ],
-    titleTag: 'Peças faltantes grátis online | LCS',
-    metaDescription: 'Crie quebra-cabeças de peças faltantes grátis. 104 temas, gabarito automático, PDF imprimível. Venda no Etsy & KDP com licenca comercial.',
+    lsiKeywords: ['quebra-cabeça', 'completar', 'observar', 'raciocínio visual', 'sem cadastro'],
+    titleTag: 'Quebra-cabeça grátis para imprimir | Online',
+    metaDescription: 'Crie atividades de "peças faltando" grátis com imagens temáticas. Sem cadastro. Gabarito automático, PDF 300 DPI. Marca d\'água removida com licença.',
   },
 
   hero: {

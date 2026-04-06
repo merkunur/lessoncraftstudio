@@ -2,29 +2,22 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'quanto dá para ganhar vendendo imprimíveis',
+    primaryKeyword: 'quanto se ganha com negócio de imprimíveis',
     secondaryKeywords: [
-      'renda realista negócio de imprimíveis',
-      'quanto ganha um vendedor de atividades no Etsy',
-      'potencial de renda imprimíveis educativos',
-      'lucratividade negócio de atividades imprimíveis',
+      'renda negócio imprimíveis realista',
+      'ganhos vendendo atividades online',
+      'receita negócio imprimíveis educativos',
+      'expectativa renda imprimíveis',
     ],
     lsiKeywords: [
-      'margem de lucro atividades digitais vendedores',
-      'renda passiva imprimíveis educativos',
-      'escalabilidade negócio downloads digitais',
-      'faturamento médio vendedor Etsy imprimíveis',
-      'comissões plataforma impacto lucro vendedor',
-      'crescimento catálogo imprimíveis renda mensal',
-      'Hotmart comissões atividades educativas',
-      'KDP royalties apostilas de atividades',
-      'Kiwify margem líquida produtos digitais',
-      'receita recorrente imprimíveis sazonais',
-      'estudo de caso vendedor imprimíveis Brasil',
-      'tempo para primeira venda imprimíveis Etsy',
+      'renda',
+      'ganhos',
+      'receita',
+      'realista',
+      'metas',
     ],
-    titleTag: 'Quanto ganhar vendendo imprimíveis | LCS',
-    metaDescription: 'Quanto dá para ganhar vendendo imprimíveis. Análise realista de renda, margens e fatores de crescimento para negócios de atividades no Etsy e Amazon KDP.',
+    titleTag: 'Quanto se ganha com imprimíveis | Realista',
+    metaDescription: 'Expectativas realistas de renda com negócio de imprimíveis educativos. Cenários, metas e quanto vendedores realmente ganham.',
   },
 
   hero: {

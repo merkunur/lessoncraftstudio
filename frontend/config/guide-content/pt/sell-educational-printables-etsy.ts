@@ -2,29 +2,17 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'vender atividades educativas no Etsy iniciante',
+    primaryKeyword: 'como vender atividades educativas no Etsy',
     secondaryKeywords: [
-      'como vender imprimíveis educativos no Etsy',
-      'guia iniciante vendedor Etsy educativo',
-      'atividades educativas para vender Etsy',
-      'imprimíveis para professores Etsy',
+      'vender imprimíveis educativos Etsy',
+      'loja Etsy atividades escolares',
+      'negócio atividades educativas online',
+      'atividades educativas imprimíveis Etsy',
     ],
-    lsiKeywords: [
-      'Etsy',
-      'atividades educativas',
-      'imprimíveis',
-      'iniciante',
-      'vendedor',
-      'SEO',
-      'preços',
-      'licença comercial',
-      'renda extra',
-      'Hotmart',
-      'KDP',
-    ],
-    titleTag: 'Vender atividades educativas no Etsy | LCS',
+    lsiKeywords: ['Etsy', 'educativo', 'atividades', 'vendas', 'imprimíveis'],
+    titleTag: 'Como vender atividades educativas no Etsy | Guia',
     metaDescription:
-      'Guia para iniciantes: como vender atividades educativas no Etsy. Nichos, SEO, preços e primeiras vendas. Comece com teste grátis.',
+      'Guia completo para vender atividades educativas no Etsy. SEO, nichos, preços e estratégias para vendedores de imprimíveis educativos.',
   },
 
   hero: {

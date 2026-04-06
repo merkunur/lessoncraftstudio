@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'criar marca coesa imprimíveis',
+    primaryKeyword: 'como criar uma marca de imprimíveis coesa',
     secondaryKeywords: [
-      'criar marca coesa imprimíveis passo a passo',
-      'criar marca coesa imprimíveis tutorial',
-      'criar marca coesa imprimíveis como fazer',
+      'branding para loja de imprimíveis',
+      'identidade visual para vendedores Etsy',
+      'marca consistente de atividades educativas',
     ],
     lsiKeywords: [
-      'tutorial imprimíveis',
-      'como criar fichas educativas',
-      'guia prático imprimíveis',
+      'branding',
+      'identidade visual',
+      'consistência',
     ],
-    titleTag: 'Crie uma Marca Coesa de Imprimíveis | LCS',
-    metaDescription: 'Uma marca coesa — cores consistentes, estilo visual reconhecível, tom de comunicação uniforme — diferencia sua loja. Venda no Etsy & KDP com licenca comercial.',
+    titleTag: 'Criar uma marca de imprimíveis coesa | Dicas',
+    metaDescription: 'Construa uma marca coesa para sua loja de imprimíveis. Crie atividades profissionais com LessonCraftStudio — 33 geradores, 11 idiomas, licença comercial.',
   },
   hero: {
     title: 'Crie uma Marca Coesa de Imprimíveis',

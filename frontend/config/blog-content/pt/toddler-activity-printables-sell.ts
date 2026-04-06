@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'imprimíveis atividades bebê toddler vender',
+    primaryKeyword: 'atividades para crianças pequenas para vender',
     secondaryKeywords: [
-      'imprimíveis atividades bebê toddler vender negócio',
-      'imprimíveis atividades bebê toddler vender vender',
-      'imprimíveis atividades bebê toddler vender Etsy',
+      'atividades bebê toddler negócio',
+      'imprimíveis crianças pequenas Etsy',
+      'atividades 0-3 anos para vender',
     ],
     lsiKeywords: [
-      'imprimíveis sazonais vender',
-      'nicho educativo imprimíveis',
-      'mercado imprimíveis temáticos',
+      'estimulação precoce atividades',
+      'nicho crianças pequenas',
+      'imprimíveis bebê toddler',
     ],
-    titleTag: 'Atividades para Bebês e Toddlers: Vender | LCS',
-    metaDescription: 'Atividades imprimíveis para crianças de 0-3 anos (toddlers) são um nicho com demanda crescente e pouca oferta de qualidade. Fichas de estimulação sens.',
+    titleTag: 'Atividades para crianças pequenas | Nicho',
+    metaDescription: 'Nicho lucrativo de atividades para crianças de 0-3 anos. Crie atividades profissionais com LessonCraftStudio — 33 geradores, 11 idiomas, licença comercial.',
   },
   hero: {
     title: 'Atividades para Bebês e Toddlers: Vender',

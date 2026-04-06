@@ -2,29 +2,23 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'negócio de apostilas Amazon KDP guia',
+    primaryKeyword: 'como publicar livro de atividades no KDP',
     secondaryKeywords: [
-      'publicar livros de atividades Amazon KDP',
-      'como vender apostilas na Amazon KDP',
-      'negócio de livros educativos KDP passo a passo',
-      'criar apostilas de atividades para Amazon',
+      'publicar livro atividades Amazon KDP',
+      'guia KDP livro atividades passo a passo',
+      'livro de atividades KDP iniciantes',
+      'KDP atividades educativas guia',
     ],
     lsiKeywords: [
-      'formato interior KDP livros de atividades',
-      'capa de apostilas Amazon vendedores',
-      'categorias e palavras-chave KDP educativos',
-      'ISBN Amazon KDP livros de atividades',
-      'print on demand apostilas educativas',
-      'royalties KDP livros de baixo conteúdo',
-      'nicho KDP atividades de matemática',
-      'KDP Select vantagens livros educativos',
-      'Amazon A+ Content apostilas vendedores',
-      'tamanho de corte KDP atividades imprimíveis',
-      'Amazon Ads KDP livros de atividades',
-      'precificação apostilas KDP mercado brasileiro',
+      'KDP',
+      'Amazon',
+      'publicar',
+      'formato',
+      'ISBN',
+      'portada',
     ],
-    titleTag: 'Negócio de apostilas Amazon KDP | LCS',
-    metaDescription: 'Guia para publicar apostilas de atividades na Amazon KDP. Formato, capa, categorias e estratégia de palavras-chave para livros educativos impressos sob demanda.',
+    titleTag: 'Publicar livro de atividades no KDP | Guia',
+    metaDescription: 'Guia passo a passo para publicar livros de atividades no Amazon KDP. Formatação, capa, interior e estratégia de publicação.',
   },
 
   hero: {

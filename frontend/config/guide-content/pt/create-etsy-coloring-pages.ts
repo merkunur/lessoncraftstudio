@@ -2,28 +2,17 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'criar desenhos para colorir que vendem no Etsy',
+    primaryKeyword: 'como vender desenhos para colorir no Etsy',
     secondaryKeywords: [
-      'como criar páginas de colorir para Etsy',
-      'desenhos para colorir que vendem Etsy',
-      'nicho de colorir no Etsy',
-      'livros de colorir Etsy dicas',
+      'vender páginas de colorir Etsy',
+      'loja Etsy desenhos para colorir',
+      'negócio colorir Etsy KDP',
+      'desenhos para colorir imprimíveis Etsy',
     ],
-    lsiKeywords: [
-      'Etsy',
-      'desenhos para colorir',
-      'páginas de colorir',
-      'imprimíveis',
-      'vendedor',
-      'KDP',
-      'licença comercial',
-      'renda extra',
-      'Hotmart',
-      'escala de cinza',
-    ],
-    titleTag: 'Colorir que vendem no Etsy — guia | LCS',
+    lsiKeywords: ['Etsy', 'colorir', 'desenhos', 'vendas', 'listagem'],
+    titleTag: 'Como vender desenhos para colorir no Etsy | Guia',
     metaDescription:
-      'Crie desenhos para colorir que vendem no Etsy. Temas, preços, pacotes e dicas de SEO para maximizar vendas de páginas de colorir.',
+      'Guia completo para vender desenhos para colorir no Etsy. Criação, listagens, SEO e preços para vendedores de páginas para colorir.',
   },
 
   hero: {

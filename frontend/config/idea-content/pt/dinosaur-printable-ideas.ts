@@ -2,30 +2,17 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'imprimíveis de dinossauros ideias negócio',
+    primaryKeyword: 'imprimíveis de dinossauros para vender no Etsy',
     secondaryKeywords: [
-      'atividades dinossauros para vender',
-      'imprimíveis tema jurássico Etsy',
-      'negócio atividades dinossauros Hotmart',
-      'livros dinossauros Amazon KDP',
+      'atividades de dinossauros Etsy KDP',
+      'atividades de dinossauros imprimíveis',
+      'negócio imprimíveis dinossauros',
+      'atividades de dinossauros para vender',
     ],
-    lsiKeywords: [
-      'Hotmart',
-      'Kiwify',
-      'Etsy',
-      'Amazon KDP',
-      'renda extra',
-      'negócio de imprimíveis',
-      'licença comercial',
-      'nicho',
-      'ideias de produto',
-      'vendedor',
-      'Brasil',
-      'imprimíveis educativos',
-    ],
-    titleTag: 'Imprimíveis dinossauros — Negócio | LCS',
+    lsiKeywords: ['dinossauros', 'pré-história', 'jurássico', 'fósseis'],
+    titleTag: 'Imprimíveis de dinossauros Etsy | Nicho lucrativo',
     metaDescription:
-      'Ideias de negócio com imprimíveis de dinossauros. Crie e venda atividades educativas no Etsy, Hotmart e KDP. Nicho com alta demanda o ano todo.',
+      'Ideias de imprimíveis de dinossauros para Etsy e KDP. T-Rex, triceratops e fósseis em atividades. Crie com LessonCraftStudio — 33 geradores e licença comercial.',
   },
   hero: {
     title: 'Dinossauros — Ideias de Negócio com Imprimíveis Educativos',

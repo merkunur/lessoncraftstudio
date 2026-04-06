@@ -2,30 +2,17 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'imprimíveis de insetos ideias negócio',
+    primaryKeyword: 'imprimíveis de insetos para vender no Etsy',
     secondaryKeywords: [
-      'atividades insetos para vender online',
-      'imprimíveis borboletas joaninhas Etsy',
-      'negócio atividades insetos Hotmart',
-      'livros atividades insetos KDP',
+      'atividades de insetos Etsy KDP',
+      'atividades de insetos imprimíveis',
+      'negócio imprimíveis insetos',
+      'atividades de insetos para vender',
     ],
-    lsiKeywords: [
-      'Hotmart',
-      'Kiwify',
-      'Etsy',
-      'Amazon KDP',
-      'renda extra',
-      'negócio de imprimíveis',
-      'licença comercial',
-      'nicho',
-      'ideias de produto',
-      'vendedor',
-      'Brasil',
-      'imprimíveis educativos',
-    ],
-    titleTag: 'Imprimíveis insetos — Ideias negócio | LCS',
+    lsiKeywords: ['insetos', 'borboleta', 'abelha', 'natureza'],
+    titleTag: 'Imprimíveis de insetos Etsy | Nicho lucrativo',
     metaDescription:
-      'Ideias de negócio com imprimíveis de insetos para Etsy, Hotmart e KDP. Borboletas, joaninhas e abelhas em atividades educativas que vendem bem.',
+      'Ideias de imprimíveis de insetos para Etsy e KDP. Borboletas, abelhas e joaninhas em atividades. Crie com LessonCraftStudio — 33 geradores e licença comercial.',
   },
   hero: {
     title: 'Insetos — Ideias de Negócio com Imprimíveis para Vender',

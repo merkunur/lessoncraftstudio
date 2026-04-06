@@ -2,31 +2,22 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'associação grade vender online crie quebra cabeças hotmart',
+    primaryKeyword: 'desenho quadriculado para imprimir',
     secondaryKeywords: [
-      'gerador de grade de associação para Hotmart',
-      'atividades de associação em grelha para Etsy',
-      'quebra-cabeça visual em grade para Amazon KDP',
-      'atividades de grade para vender na Kiwify',
+      'reproduzir na grade atividade',
+      'pixel art para imprimir',
+      'copiar desenho na quadrícula',
+      'simetria na grade',
     ],
     lsiKeywords: [
-      'licença comercial',
-      '300 DPI',
-      'pronto para impressão',
-      'associação em grade',
-      'grelha',
-      'download digital',
-      'gabarito incluso',
-      'raciocínio lógico',
-      'educação infantil',
-      'ensino fundamental',
-      'negócio de imprimíveis',
-      'renda extra',
-      'Hotmart',
-      'Kiwify',
+      'quadrícula',
+      'reproduzir',
+      'copiar',
+      'simetria',
+      'orientação espacial',
     ],
-    titleTag: 'Associação em grade para vender online | LCS',
-    metaDescription: 'Crie quebra-cabeças de associação em grade para vender na Hotmart, Etsy e KDP. 104 temas, gabarito automático. 49 $ pagamento unico.',
+    titleTag: 'Desenho quadriculado para imprimir | Gerador de grade',
+    metaDescription: 'Crie atividades de reprodução em grade com imagens temáticas. Gabarito automático, PDF imprimíveis. Teste grátis.',
   },
 
   hero: {

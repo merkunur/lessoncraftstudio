@@ -2,31 +2,22 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'gerador de quebra-cabeças de matemática para vender na Etsy',
+    primaryKeyword: 'desafios de matemática para imprimir',
     secondaryKeywords: [
-      'criar puzzles de matemática para Hotmart',
-      'quebra-cabeças de imagens com cálculos para KDP',
-      'atividades de puzzle matemático com licença comercial',
-      'jogos de raciocínio matemático para vender online',
+      'quebra-cabeça de matemática',
+      'enigmas matemáticos para imprimir',
+      'jogos de matemática para imprimir',
+      'atividade lúdica de matemática',
     ],
     lsiKeywords: [
-      'licença comercial',
-      '300 DPI',
-      'pronto para impressão',
-      'quebra-cabeça',
-      'raciocínio lógico',
-      'download digital',
-      'gabarito incluso',
-      'jogo de matemática',
-      'educação infantil',
-      'ensino fundamental',
-      'negócio de imprimíveis',
-      'renda extra',
-      'Hotmart',
-      'Kiwify',
+      'enigma',
+      'imagens',
+      'associar',
+      'lógica',
+      'raciocínio',
     ],
-    titleTag: 'Quebra-cabeças de matemática para vender | LCS',
-    metaDescription: 'Crie quebra-cabeças de matemática com imagens para vender na Hotmart, Etsy e KDP. Grade de imagens, gabarito automático. 49 $ pagamento unico.',
+    titleTag: 'Desafios de matemática para imprimir | Gerador de puzzles',
+    metaDescription: 'Crie puzzles matemáticos com imagens onde as crianças resolvem contas para associar figuras. Gabarito incluído. Teste grátis.',
   },
 
   hero: {

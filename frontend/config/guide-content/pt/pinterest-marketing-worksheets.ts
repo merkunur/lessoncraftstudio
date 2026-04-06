@@ -2,30 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'marketing no Pinterest para negócio de atividades',
+    primaryKeyword: 'marketing no Pinterest para imprimíveis educativos',
     secondaryKeywords: [
-      'Pinterest para vendedor de imprimíveis',
-      'SEO Pinterest atividades educativas',
-      'como criar pins para imprimíveis',
-      'tráfego orgânico Pinterest para Etsy',
+      'Pinterest para vendedores atividades',
+      'tráfego Pinterest loja Etsy',
+      'pins atividades educativas estratégia',
+      'Pinterest imprimíveis dicas',
     ],
     lsiKeywords: [
       'Pinterest',
       'pins',
-      'quadros',
-      'SEO',
-      'tráfego orgânico',
+      'tráfego',
       'visual',
-      'Hotmart',
-      'Etsy',
-      'KDP',
-      'renda extra',
-      'marketing',
-      'imprimíveis',
+      'SEO',
     ],
-    titleTag: 'Pinterest para negócio de atividades | LCS',
+    titleTag: 'Marketing no Pinterest para imprimíveis | Guia',
     metaDescription:
-      'Marketing no Pinterest para vendedores de atividades. Pins, quadros, SEO e estratégias de tráfego orgânico.',
+      'Guia de marketing no Pinterest para vendedores de imprimíveis educativos. Pins, SEO, tráfego e estratégias para aumentar vendas.',
   },
 
   hero: {

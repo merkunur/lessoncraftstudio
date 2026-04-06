@@ -1,29 +1,16 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'gerador de cartelas de bingo grátis com imagens',
+    primaryKeyword: 'criar cartelas de bingo grátis',
     secondaryKeywords: [
-      'cartelas de bingo para imprimir grátis',
-      'criar bingo online grátis',
-      'bingo com imagens grátis para crianças',
-      'gerador de bingo educativo grátis',
+      'gerador de bingo grátis online',
+      'bingo com imagens grátis para imprimir',
+      'bingo educativo grátis para imprimir',
+      'criar bingo personalizado grátis',
     ],
-    lsiKeywords: [
-      'grátis online',
-      'sem cadastro',
-      'marca d\'água',
-      'imprimir',
-      'PDF',
-      'cartelas de bingo',
-      'exportação ZIP',
-      'folha de chamada',
-      '104 temas',
-      'jogo educativo',
-      'teste grátis',
-      'licença comercial',
-    ],
-    titleTag: 'Cartelas de bingo grátis com imagens | LCS',
-    metaDescription: 'Crie cartelas de bingo grátis com imagens. Lote até 10 cartelas, exportação ZIP, folha de chamada. Venda no Etsy & KDP com licenca comercial.',
+    lsiKeywords: ['bingo', 'cartelas', 'sorteio', 'jogo de mesa', 'sem cadastro'],
+    titleTag: 'Criar cartelas de bingo grátis | Online',
+    metaDescription: 'Crie cartelas de bingo grátis com 3.000+ imagens temáticas. Sem cadastro. Cartelas únicas por jogo. Marca d\'água removida com licença.',
   },
 
   hero: {

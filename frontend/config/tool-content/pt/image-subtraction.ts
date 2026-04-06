@@ -2,29 +2,22 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'gerador de atividades de subtração grátis',
+    primaryKeyword: 'atividades de subtração com imagens grátis',
     secondaryKeywords: [
-      'atividades de subtração para imprimir grátis',
-      'criar exercícios de subtração online sem cadastro',
-      'gerador de atividades de contas de menos grátis',
-      'atividades de subtração com imagens grátis',
+      'contas de menos com figuras grátis',
+      'subtração visual para imprimir grátis',
+      'exercícios de subtração com imagens grátis online',
+      'atividades de subtração ilustrada grátis PDF',
     ],
     lsiKeywords: [
-      'grátis online',
-      'sem cadastro',
-      'marca d\'água',
-      'imprimir',
-      'PDF',
+      'imagens',
+      'riscar',
+      'visual',
       'gabarito',
-      'riscar imagens',
-      '104 temas',
-      'educação infantil',
-      'ensino fundamental',
-      'teste grátis',
-      'licença comercial',
+      'sem cadastro',
     ],
-    titleTag: 'Atividades de subtração grátis online | LCS',
-    metaDescription: 'Crie atividades de subtração grátis com imagens temáticas. Riscar visual, gabarito automático, exportação PDF. Venda no Etsy & KDP com licenca comercial.',
+    titleTag: 'Subtração com imagens grátis para imprimir | Online',
+    metaDescription: 'Crie atividades de subtração com imagens grátis. Sem cadastro. Gabarito automático, 104 temas, PDF 300 DPI. Marca d\'água removida com licença.',
   },
 
   hero: {

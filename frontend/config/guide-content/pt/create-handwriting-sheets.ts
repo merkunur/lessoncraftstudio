@@ -2,30 +2,17 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'criar atividades de caligrafia para vender',
+    primaryKeyword: 'como criar atividades de coordenação motora',
     secondaryKeywords: [
-      'como criar atividades de caligrafia para Hotmart',
-      'atividades de caligrafia para vender na Etsy',
-      'guia atividades de caligrafia para Amazon KDP',
-      'atividades de caligrafia com licença comercial para vender',
+      'tutorial coordenação motora passo a passo',
+      'criar atividades de escrita para vender',
+      'guia pontilhado e caligrafia',
+      'atividades de escrita para Etsy e KDP',
     ],
-    lsiKeywords: [
-      'licença comercial',
-      '300 DPI',
-      'pronto para impressão',
-      'download digital',
-      'gabarito incluso',
-      'Hotmart',
-      'Kiwify',
-      'Etsy',
-      'Amazon KDP',
-      'renda extra',
-      'negócio de imprimíveis',
-      'educação infantil',
-    ],
-    titleTag: 'Atividades de caligrafia para vender | LCS',
+    lsiKeywords: ['coordenação motora', 'pontilhado', 'caligrafia', 'traçado', 'escrita'],
+    titleTag: 'Como criar atividades de coordenação motora | Guia',
     metaDescription:
-      'Guia para criar atividades de caligrafia e traçado de letras para vender. 5 modos, 11 idiomas, coordenação motora.',
+      'Guia passo a passo para criar atividades de coordenação motora e caligrafia. 5 modos de escrita, 11 idiomas. Teste grátis — venda no Etsy e KDP.',
   },
 
   hero: {

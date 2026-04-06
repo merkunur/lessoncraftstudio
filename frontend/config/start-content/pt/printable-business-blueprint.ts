@@ -2,29 +2,22 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'plano de negócio de imprimíveis de ideia a renda',
+    primaryKeyword: 'plano de negócio para imprimíveis educativos',
     secondaryKeywords: [
-      'plano estratégico negócio imprimíveis educativos',
-      'roteiro negócio de atividades imprimíveis',
-      'blueprint negócio de imprimíveis passo a passo',
-      'estratégia de negócio imprimíveis lucrativo',
+      'blueprint negócio imprimíveis',
+      'modelo de negócio atividades',
+      'planejar negócio imprimíveis',
+      'estrutura negócio atividades',
     ],
     lsiKeywords: [
-      'planejamento financeiro negócio imprimíveis',
-      'modelo de negócio escalável atividades digitais',
-      'cronograma de lançamento loja imprimíveis',
-      'metas mensuráveis negócio de imprimíveis',
-      'investimento inicial imprimíveis digitais',
-      'análise de nicho atividades educativas',
-      'funil de vendas imprimíveis Hotmart',
-      'estratégia multicanal Etsy KDP Kiwify',
-      'orçamento realista negócio digital',
-      'primeiros 90 dias vendedor imprimíveis',
-      'catálogo de produtos planejamento editorial',
-      'validação de nicho atividades imprimíveis',
+      'plano',
+      'modelo',
+      'estrutura',
+      'metas',
+      'estratégia',
     ],
-    titleTag: 'Plano: negócio de imprimíveis | LCS',
-    metaDescription: 'Plano de negócio de imprimíveis da ideia à renda. Roteiro passo a passo com cronograma, orçamento e estratégia para vender atividades no Etsy, Hotmart e Kiwify.',
+    titleTag: 'Plano de negócio para imprimíveis | Blueprint',
+    metaDescription: 'Blueprint completo para construir um negócio de imprimíveis educativos. Modelo, metas, investimento e cronograma passo a passo.',
   },
 
   hero: {

@@ -2,30 +2,17 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'criar atividades de sombras para vender',
+    primaryKeyword: 'como criar jogo das sombras para imprimir',
     secondaryKeywords: [
-      'como criar atividades de sombras para Hotmart',
-      'atividades de sombras para vender na Etsy',
-      'guia atividades de sombras para Amazon KDP',
-      'atividades de sombras com licença comercial para vender',
+      'tutorial sombras e silhuetas passo a passo',
+      'criar atividades de sombras para vender',
+      'guia jogo das sombras com imagens',
+      'jogo das sombras para Etsy e KDP',
     ],
-    lsiKeywords: [
-      'licença comercial',
-      '300 DPI',
-      'pronto para impressão',
-      'download digital',
-      'gabarito incluso',
-      'Hotmart',
-      'Kiwify',
-      'Etsy',
-      'Amazon KDP',
-      'renda extra',
-      'negócio de imprimíveis',
-      'educação infantil',
-    ],
-    titleTag: 'Atividades de sombras para vender online | LCS',
+    lsiKeywords: ['sombras', 'silhuetas', 'associar', 'visual', 'imagens'],
+    titleTag: 'Como criar jogo das sombras para imprimir | Guia',
     metaDescription:
-      'Guia para criar atividades de associar sombras para vender. Percepção visual, temas e estratégias de mercado.',
+      'Guia passo a passo para criar atividades de associação de sombras com imagens e silhuetas. Gabarito automático. Teste grátis — licença comercial.',
   },
 
   hero: {

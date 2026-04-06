@@ -2,29 +2,17 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'criar apostilas de matemática para Amazon KDP',
+    primaryKeyword: 'como publicar livros de matemática no KDP',
     secondaryKeywords: [
-      'como publicar apostila de matemática KDP',
-      'livro de atividades de matemática Amazon',
-      'apostila de exercícios KDP guia',
-      'caderno de matemática Amazon KDP',
+      'livro de atividades matemática KDP',
+      'publicar livro matemática Amazon',
+      'KDP livro atividades matemática guia',
+      'livros de exercícios matemática KDP',
     ],
-    lsiKeywords: [
-      'Amazon KDP',
-      'apostila',
-      'livro de atividades',
-      'matemática',
-      'formatação',
-      'ISBN',
-      'capa',
-      'interior',
-      'royalties',
-      'renda passiva',
-      'Hotmart',
-    ],
-    titleTag: 'Apostilas de matemática para Amazon KDP | LCS',
+    lsiKeywords: ['KDP', 'livro', 'matemática', 'formato', 'publicar'],
+    titleTag: 'Como publicar livros de matemática no KDP | Guia',
     metaDescription:
-      'Guia para criar apostilas de matemática para Amazon KDP. Formatação, capa, preços e estratégias para vender livros de atividades.',
+      'Guia para publicar livros de atividades de matemática no Amazon KDP. Formatação, nichos, capa e estratégia de publicação passo a passo.',
   },
 
   hero: {

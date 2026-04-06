@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'ficha reaprovite fichas múltiplos',
+    primaryKeyword: 'como reutilizar atividades em vários produtos',
     secondaryKeywords: [
-      'passo passo',
-      'ferramentas necessárias',
-      'dicas avançadas',
+      'transformar uma atividade em múltiplos produtos',
+      'maximizar retorno de cada atividade criada',
+      'repurposing de imprimíveis para Etsy e KDP',
     ],
     lsiKeywords: [
-      'tutorial imprimíveis',
-      'como criar fichas educativas',
-      'guia prático imprimíveis',
+      'reaproveitamento conteúdo digital',
+      'múltiplas plataformas vendas',
+      'lead magnet com atividades',
     ],
-    titleTag: 'Reaprovite Fichas em Múltiplos Produtos | LCS',
-    metaDescription: 'A mesma ficha de adição pode ser vendida como: ficha avulsa no Etsy, parte de um pacote temático, capítulo de um livro KDP, bônus de um curso na Hotma.',
+    titleTag: 'Reutilizar atividades em vários produtos',
+    metaDescription: 'Transforme cada atividade em múltiplos produtos digitais. Crie atividades profissionais com LessonCraftStudio — 33 geradores, 11 idiomas, licença comercial.',
   },
   hero: {
     title: 'Reaprovite Fichas em Múltiplos Produtos',

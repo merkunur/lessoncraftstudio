@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'lista email negócio imprimíveis',
+    primaryKeyword: 'lista de email para negócio de imprimíveis',
     secondaryKeywords: [
-      'lista email negócio imprimíveis guia',
-      'lista email negócio imprimíveis dicas',
-      'lista email negócio imprimíveis estratégia',
+      'construir lista de email para Etsy',
+      'email marketing para vendedores de imprimíveis',
+      'captar emails de compradores de atividades',
     ],
     lsiKeywords: [
-      'negócio imprimíveis digital',
-      'vendedor imprimíveis online',
-      'empreendedor digital educativo',
+      'email marketing',
+      'lista assinantes',
+      'vendas recorrentes',
     ],
-    titleTag: 'Lista Email Negócio Imprimíveis | LCS',
-    metaDescription: 'O Etsy não compartilha emails dos seus clientes. Para construir um negócio sustentável, você precisa de sua própria lista de email. Este guia mostra com.',
+    titleTag: 'Lista de email para negócio de imprimíveis',
+    metaDescription: 'Construa uma lista de email para seu negócio de imprimíveis. Crie atividades profissionais com LessonCraftStudio — 33 geradores, 11 idiomas, licença comercial.',
   },
   hero: {
     title: 'Lista Email Negócio Imprimíveis',

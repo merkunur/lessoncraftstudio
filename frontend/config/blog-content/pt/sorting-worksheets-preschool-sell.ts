@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'fichas classificação pré-escola vender',
+    primaryKeyword: 'vender atividades de classificação pré-escola',
     secondaryKeywords: [
-      'classificação vende',
-      'tipos fichas classificação',
-      'criação eficiente',
+      'atividades classificação Etsy vender',
+      'imprimíveis pré-escola categorização',
+      'atividades agrupar objetos negócio',
     ],
     lsiKeywords: [
       'categorização visual crianças',
       'agrupar objetos atividade',
-      'lógica pré-escolar fichas',
+      'lógica pré-escolar atividades',
     ],
-    titleTag: 'Fichas Classificação Pré-escola: Vender | LCS',
-    metaDescription: 'Venda fichas de classificação para pré-escola. Nicho essencial com demanda consistente. Teste grátis com marca d\'água.',
+    titleTag: 'Vender atividades classificação pré-escola',
+    metaDescription: 'Guia para vender atividades de classificação para pré-escola. Crie atividades profissionais com LessonCraftStudio — 33 geradores, 11 idiomas, licença comercial.',
   },
   hero: {
     title: 'Fichas de Classificação Pré-escola: Como Vender',

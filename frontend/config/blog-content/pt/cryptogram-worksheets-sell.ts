@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'fichas criptogramas vender online',
+    primaryKeyword: 'como vender atividades de criptograma',
     secondaryKeywords: [
-      'criptograma imprimível negócio',
-      'vender puzzles criptograma Etsy',
-      'fichas decodificação palavras vender',
+      'criptogramas imprimíveis para Etsy',
+      'vender puzzles de decodificação online',
+      'nicho de criptograma imprimível',
     ],
     lsiKeywords: [
-      'puzzle decodificação letras',
-      'criptograma educativo crianças',
-      'atividade código secreto vocabulário',
+      'criptograma',
+      'decodificação',
+      'puzzle letras',
     ],
-    titleTag: 'Fichas Criptogramas: Vender Online | LCS',
-    metaDescription: 'Como criar e vender fichas de criptogramas online. Nicho único com alta margem. Teste grátis com marca d\'água o gerador de criptogramas.',
+    titleTag: 'Vender atividades de criptograma | Guia',
+    metaDescription: 'Domine o nicho de criptogramas imprimíveis com alta margem. Crie atividades profissionais com LessonCraftStudio — 33 geradores, 11 idiomas, licença comercial.',
   },
   hero: {
     title: 'Fichas de Criptogramas: Como Vender Online',

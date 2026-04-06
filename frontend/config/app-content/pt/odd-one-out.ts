@@ -2,31 +2,21 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'atividades de encontre o intruso para vender na Etsy e KDP',
+    primaryKeyword: 'encontre o intruso para imprimir',
     secondaryKeywords: [
-      'gerador de encontre o diferente para Hotmart',
-      'atividades de intruso para vender na Amazon KDP',
-      'exercícios de encontrar o diferente com licença comercial',
-      'encontre o intruso para vender na Kiwify',
+      'qual não pertence atividade',
+      'jogo do intruso atividade',
+      'classificação lógica atividade',
+      'raciocínio lógico atividades',
     ],
     lsiKeywords: [
-      'licença comercial',
-      '300 DPI',
-      'pronto para impressão',
-      'encontre o intruso',
-      'encontre o diferente',
-      'download digital',
-      'gabarito incluso',
-      'raciocínio lógico',
-      'educação infantil',
-      'ensino fundamental',
-      'negócio de imprimíveis',
-      'renda extra',
-      'Hotmart',
-      'Kiwify',
+      'categoria',
+      'classificar',
+      'lógica',
+      'raciocínio',
     ],
-    titleTag: 'Encontre o intruso para vender online | LCS',
-    metaDescription: 'Crie atividades de encontre o intruso para vender na Hotmart, Etsy e KDP. 104 temas, gabarito automático. 49 $ pagamento unico.',
+    titleTag: 'Encontre o intruso para imprimir | Gerador de lógica',
+    metaDescription: 'Crie atividades de "encontre o intruso" com imagens temáticas para raciocínio lógico. Gabarito automático, PDF imprimíveis. Teste grátis.',
   },
 
   hero: {

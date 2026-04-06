@@ -28,7 +28,7 @@ const toolsKeywords: Record<string, string[]> = {
   de: ['Arbeitsblatt Generator kostenlos', 'kostenlos Arbeitsblätter erstellen', 'Suchsel erstellen kostenlos', 'Kreuzworträtsel erstellen kostenlos', 'Rätsel Generator kostenlos'],
   fr: ['générateur fiches gratuit en ligne', 'mots mêlés gratuit', 'mots croisés gratuit', 'fiches maths gratuit', 'générateur coloriage gratuit', 'sudoku à imprimer gratuit'],
   es: ['generador de fichas gratis online', 'crear sopa de letras gratis', 'crear crucigrama gratis', 'generador de ejercicios gratis', 'fichas de matemáticas gratis para imprimir', 'generador sudoku gratis'],
-  pt: ['geradores imprimíveis grátis', 'criador de fichas online', 'ferramentas imprimíveis teste grátis', 'gerador caça-palavras grátis', 'gerador fichas matemática', 'criador colorir online'],
+  pt: ['gerador de atividades grátis online', 'criar caça-palavras grátis', 'criar cruzadinha grátis', 'gerador de exercícios grátis', 'atividades de matemática grátis para imprimir', 'gerador sudoku grátis'],
   it: ['generatori stampabili gratis', 'creatore schede online', 'strumenti stampabili prova gratis', 'generatore cerca parole gratis', 'generatore schede matematica', 'creatore disegni colorare online'],
   nl: ['gratis printables-generators online', 'gratis werkblad maker', 'gratis woordzoeker generator', 'gratis rekenbladen maker', 'gratis kleurplaten generator', 'werkbladen online maken'],
   sv: ['gratis utskriftsgeneratorer', 'online arbetsbladsskapare', 'utskriftsverktyg prova gratis', 'ordsökningsgenerator gratis', 'mattearbetsbladsgenerator', 'målarbildsskapare online'],
@@ -55,8 +55,8 @@ const toolsMetadata: Record<string, { title: string; description: string }> = {
     description: 'Use los 33 generadores gratis en línea — sopa de letras, crucigramas, matemáticas, sudoku y más. Sin registro. La marca de agua se elimina con licencia.',
   },
   pt: {
-    title: '33 geradores grátis — Teste online | LCS',
-    description: 'Teste os 33 geradores de atividades grátis online. Sem cadastro. Caça-palavras, matemática, colorir, puzzles e mais com marca d\'água.',
+    title: '33 geradores de atividades grátis | Ferramentas online',
+    description: 'Use os 33 geradores grátis online — caça-palavras, cruzadinhas, matemática, sudoku e mais. Sem cadastro. Marca d\'água removida com licença.',
   },
   it: {
     title: '33 generatori gratis — Prova online | LessonCraftStudio',

@@ -2,30 +2,17 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'criar desenhos para colorir para Etsy e KDP',
+    primaryKeyword: 'como criar páginas para colorir para imprimir',
     secondaryKeywords: [
-      'como criar desenhos para colorir para Etsy e KDP para Hotmart',
-      'desenhos para colorir para Etsy e KDP para vender na Etsy',
-      'guia desenhos para colorir para Etsy e KDP para Amazon KDP',
-      'desenhos para colorir para Etsy e KDP com licença comercial para vender',
+      'tutorial desenhos para colorir passo a passo',
+      'criar páginas para colorir para vender',
+      'guia desenhos para colorir com imagens',
+      'páginas para colorir para Etsy e KDP',
     ],
-    lsiKeywords: [
-      'licença comercial',
-      '300 DPI',
-      'pronto para impressão',
-      'download digital',
-      'gabarito incluso',
-      'Hotmart',
-      'Kiwify',
-      'Etsy',
-      'Amazon KDP',
-      'renda extra',
-      'negócio de imprimíveis',
-      'educação infantil',
-    ],
-    titleTag: 'Desenhos para colorir para Etsy e KDP | LCS',
+    lsiKeywords: ['colorir', 'desenhos', 'contornos', 'imagens', 'PDF'],
+    titleTag: 'Como criar páginas para colorir | Guia passo a passo',
     metaDescription:
-      'Guia para criar desenhos para colorir para vender no Etsy e KDP. Temas, escala de cinza, livros de colorir e preços.',
+      'Guia passo a passo para criar páginas para colorir com 3.000+ imagens temáticas. Contornos em alta resolução. Teste grátis — venda no Etsy e KDP.',
   },
 
   hero: {

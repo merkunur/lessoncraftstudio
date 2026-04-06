@@ -2,29 +2,22 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'criar atividades multilíngues para vender',
+    primaryKeyword: 'como criar atividades em múltiplos idiomas',
     secondaryKeywords: [
-      'negócio de imprimíveis em vários idiomas',
-      'atividades bilíngues para vender no Etsy',
-      'imprimíveis multilíngues mercado global',
-      'vender atividades educativas em múltiplos idiomas',
+      'atividades multilíngues para vender',
+      'criar atividades 11 idiomas',
+      'imprimíveis vários idiomas estratégia',
+      'atividades internacionais Etsy KDP',
     ],
     lsiKeywords: [
-      'gerador de atividades multi-idioma vendedores',
-      'imprimíveis em 11 idiomas negócio',
-      'mercado global de atividades educativas',
-      'localização de imprimíveis para Etsy',
-      'atividades educativas exportação digital',
-      'Hotmart internacional produtos multilíngues',
-      'KDP mercados europeus livros de atividades',
-      'SEO multi-idioma imprimíveis Etsy',
-      'tradução automática atividades educativas',
-      'nicho multilíngue atividades imprimíveis',
-      'catálogo internacional atividades digitais',
-      'Kiwify produtos digitais múltiplos idiomas',
+      'idiomas',
+      'multilíngue',
+      'tradução',
+      'internacional',
+      'vocabulário',
     ],
-    titleTag: 'Atividades multilíngues para vender | LCS',
-    metaDescription: 'Como criar atividades multilíngues para vender globalmente. Imprimíveis em 11 idiomas para Etsy, Amazon KDP, Hotmart e Kiwify. Multiplique seu mercado.',
+    titleTag: 'Criar atividades em múltiplos idiomas | Guia',
+    metaDescription: 'Guia para criar atividades em até 11 idiomas. Amplie seu mercado global no Etsy e KDP com vocabulário automático e imagens temáticas.',
   },
 
   hero: {

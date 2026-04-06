@@ -2,31 +2,22 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'caça tesouro vender online crie atividades hotmart etsy',
+    primaryKeyword: 'caça ao tesouro para imprimir',
     secondaryKeywords: [
-      'criar atividades de caça ao tesouro para Hotmart',
-      'jogo de caça ao tesouro imprimível para Amazon KDP',
-      'atividades de caça ao tesouro com licença comercial',
-      'caça ao tesouro para vender na Kiwify',
+      'gincana para imprimir',
+      'jogo de pistas para imprimir',
+      'pistas caça ao tesouro',
+      'caça ao tesouro infantil',
     ],
     lsiKeywords: [
-      'licença comercial',
-      '300 DPI',
-      'pronto para impressão',
-      'caça ao tesouro',
-      'jogo de pistas',
-      'download digital',
-      'gabarito incluso',
-      'atenção visual',
-      'educação infantil',
-      'ensino fundamental',
-      'negócio de imprimíveis',
-      'renda extra',
-      'Hotmart',
-      'Kiwify',
+      'pistas',
+      'aventura',
+      'aniversário',
+      'gincana',
+      'enigmas',
     ],
-    titleTag: 'Caça ao tesouro para vender online | LCS',
-    metaDescription: 'Crie atividades de caça ao tesouro para vender na Hotmart, Etsy e KDP. 104 temas, gabarito automático, licença comercial. 49 $ pagamento unico.',
+    titleTag: 'Caça ao tesouro para imprimir | Gerador de pistas',
+    metaDescription: 'Crie atividades de caça ao tesouro e gincana com imagens temáticas. PDF imprimíveis. Teste grátis — venda no Etsy e KDP.',
   },
 
   hero: {

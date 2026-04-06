@@ -2,30 +2,17 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'criar labirintos para vender no Etsy',
+    primaryKeyword: 'como criar labirintos para imprimir',
     secondaryKeywords: [
-      'como criar labirintos para Hotmart',
-      'labirintos para vender na Etsy',
-      'guia labirintos para Amazon KDP',
-      'labirintos com licença comercial para vender',
+      'tutorial labirintos passo a passo',
+      'criar labirintos para vender',
+      'guia labirintos com imagens temáticas',
+      'labirintos para Etsy e KDP',
     ],
-    lsiKeywords: [
-      'licença comercial',
-      '300 DPI',
-      'pronto para impressão',
-      'download digital',
-      'gabarito incluso',
-      'Hotmart',
-      'Kiwify',
-      'Etsy',
-      'Amazon KDP',
-      'renda extra',
-      'negócio de imprimíveis',
-      'educação infantil',
-    ],
-    titleTag: 'Labirintos para vender no Etsy — guia | LCS',
+    lsiKeywords: ['labirinto', 'caminho', 'imagens', 'gabarito', 'PDF'],
+    titleTag: 'Como criar labirintos para imprimir | Guia',
     metaDescription:
-      'Guia para criar labirintos ilustrados para vender. Caminhos temáticos, coordenação motora e estratégias para Etsy e KDP.',
+      'Guia passo a passo para criar labirintos com imagens temáticas. Gabarito automático, PDF 300 DPI imprimíveis. Teste grátis — licença comercial.',
   },
 
   hero: {

@@ -2,30 +2,17 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'imprimíveis PLE português língua estrangeira negócio',
+    primaryKeyword: 'imprimíveis de ensino de idiomas para vender no Etsy',
     secondaryKeywords: [
-      'atividades PLE para vender online',
-      'imprimíveis ESL Etsy negócio',
-      'negócio material ensino idiomas Hotmart',
-      'livros atividades idiomas KDP',
+      'atividades de ensino de idiomas Etsy KDP',
+      'atividades de ensino de idiomas imprimíveis',
+      'negócio imprimíveis ensino de idiomas',
+      'atividades de ensino de idiomas para vender',
     ],
-    lsiKeywords: [
-      'Hotmart',
-      'Kiwify',
-      'Etsy',
-      'Amazon KDP',
-      'renda extra',
-      'negócio de imprimíveis',
-      'licença comercial',
-      'nicho',
-      'ideias de produto',
-      'vendedor',
-      'Brasil',
-      'imprimíveis educativos',
-    ],
-    titleTag: 'Imprimíveis PLE — Ideias negócio | LCS',
+    lsiKeywords: ['PLE', 'idiomas', 'estrangeiros', 'vocabulário'],
+    titleTag: 'Imprimíveis de ensino de idiomas Etsy | Nicho lucrativo',
     metaDescription:
-      'Ideias de negócio com imprimíveis de PLE e ESL. Atividades para ensino de idiomas no Etsy e Hotmart. Nicho global com demanda crescente.',
+      'Ideias de imprimíveis de ensino de idiomas para Etsy e KDP. Vocabulário e atividades para estrangeiros. Crie com LessonCraftStudio — 33 geradores.',
   },
   hero: {
     title: 'PLE e ESL — Ideias de Negócio com Imprimíveis de Idiomas',

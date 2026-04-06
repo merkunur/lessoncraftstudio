@@ -2,29 +2,22 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'divulgar seu negócio de imprimíveis online',
+    primaryKeyword: 'marketing para negócio de imprimíveis',
     secondaryKeywords: [
-      'marketing para vendedores de atividades educativas',
-      'como divulgar imprimíveis nas redes sociais',
-      'estratégia de marketing negócio imprimíveis',
-      'atrair compradores para loja de imprimíveis',
+      'estratégia marketing atividades educativas',
+      'promover imprimíveis online',
+      'marketing digital vendedores imprimíveis',
+      'canais marketing loja atividades',
     ],
     lsiKeywords: [
-      'Pinterest marketing imprimíveis educativos',
-      'email marketing vendedores de atividades',
-      'SEO para lojas de imprimíveis Etsy',
-      'Instagram marketing vendedores imprimíveis',
-      'tráfego orgânico loja Etsy atividades',
-      'marketing de conteúdo vendedores digitais',
-      'TikTok para vendedores de imprimíveis',
-      'funil de vendas Hotmart atividades',
-      'Kiwify tráfego pago imprimíveis',
-      'blog para vendedores de imprimíveis',
-      'comunidade de vendedores imprimíveis Brasil',
-      'lançamento de produto imprimíveis estratégia',
+      'marketing',
+      'promoção',
+      'tráfego',
+      'canais',
+      'conversão',
     ],
-    titleTag: 'Divulgar negócio de imprimíveis | LCS',
-    metaDescription: 'Como divulgar seu negócio de imprimíveis online. Estratégias de Pinterest, email marketing e SEO para atrair compradores à sua loja no Etsy, Hotmart e Kiwify.',
+    titleTag: 'Marketing para negócio de imprimíveis | Guia',
+    metaDescription: 'Guia de marketing para negócio de imprimíveis educativos. Pinterest, redes sociais, email e estratégias para gerar vendas.',
   },
 
   hero: {

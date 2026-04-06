@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'imprimíveis tema oceano vender',
+    primaryKeyword: 'atividades com tema oceano para vender',
     secondaryKeywords: [
-      'imprimíveis tema oceano vender negócio',
-      'imprimíveis tema oceano vender vender',
-      'imprimíveis tema oceano vender Etsy',
+      'imprimíveis de animais marinhos para Etsy',
+      'atividades temáticas de oceano para crianças',
+      'nicho de fundo do mar para vender online',
     ],
     lsiKeywords: [
-      'imprimíveis sazonais vender',
-      'nicho educativo imprimíveis',
-      'mercado imprimíveis temáticos',
+      'tema marítimo imprimível',
+      'animais do oceano atividades',
+      'nicho perene infantil',
     ],
-    titleTag: 'Imprimíveis Tema Oceano: Vender | LCS',
-    metaDescription: 'O tema oceano (peixes, baleias, tubarões, golfinhos, tartarugas) é um dos mais populares para imprimíveis infantis. Venda no Etsy & KDP com licenca comercial.',
+    titleTag: 'Atividades tema oceano para vender | Nicho',
+    metaDescription: 'Venda atividades com tema oceano para crianças no Etsy. Crie atividades profissionais com LessonCraftStudio — 33 geradores, 11 idiomas, licença comercial.',
   },
   hero: {
     title: 'Imprimíveis Tema Oceano: Vender',

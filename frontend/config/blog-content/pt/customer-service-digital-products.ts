@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'atendimento cliente produtos digitais',
+    primaryKeyword: 'atendimento ao cliente para produtos digitais',
     secondaryKeywords: [
-      'estratégias funcionam',
-      'mercado brasileiro internacional',
-      'ferramentas recursos',
+      'suporte ao cliente Etsy imprimíveis',
+      'como atender compradores de produtos digitais',
+      'reduzir tickets de suporte imprimíveis',
     ],
     lsiKeywords: [
-      'negócio imprimíveis digital',
-      'vendedor imprimíveis online',
-      'empreendedor digital educativo',
+      'suporte cliente',
+      'avaliações',
+      'produtos digitais',
     ],
-    titleTag: 'Atendimento Cliente Produtos Digitais | LCS',
-    metaDescription: 'Produtos digitais geram menos suporte que físicos, mas problemas de download, compatibilidade e expectativas ainda. Venda no Etsy & KDP com licenca comercial.',
+    titleTag: 'Atendimento ao cliente produtos digitais | Guia',
+    metaDescription: 'Melhore o atendimento ao cliente do seu negócio de imprimíveis. Crie atividades profissionais com LessonCraftStudio — 33 geradores, 11 idiomas, licença comercial.',
   },
   hero: {
     title: 'Atendimento Cliente Produtos Digitais',

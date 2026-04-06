@@ -2,29 +2,17 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'vender atividades na Hotmart e Tá Pronto',
+    primaryKeyword: 'como criar e vender recursos no Gumroad',
     secondaryKeywords: [
-      'como vender atividades na Hotmart',
-      'vender material didático Tá Pronto',
-      'Hotmart para vendedores de atividades',
-      'plataformas brasileiras para imprimíveis',
+      'vender atividades Gumroad guia',
+      'criar recursos educativos Gumroad',
+      'loja Gumroad atividades',
+      'Gumroad para vendedores educativos',
     ],
-    lsiKeywords: [
-      'Hotmart',
-      'Tá Pronto',
-      'Kiwify',
-      'Eduzz',
-      'atividades educativas',
-      'material didático',
-      'vendedor',
-      'infoprodutos',
-      'PIX',
-      'renda extra',
-      'Brasil',
-    ],
-    titleTag: 'Vender atividades na Hotmart e Kiwify | LCS',
+    lsiKeywords: ['Gumroad', 'recursos', 'vendas', 'digital', 'listagem'],
+    titleTag: 'Como criar e vender recursos no Gumroad | Guia',
     metaDescription:
-      'Guia para vender atividades educativas na Hotmart, Kiwify e Tá Pronto. Plataformas brasileiras para vendedores de imprimíveis.',
+      'Guia para criar e vender recursos educativos no Gumroad. Da criação da loja à primeira venda — listagens, preços e promoção.',
   },
 
   hero: {

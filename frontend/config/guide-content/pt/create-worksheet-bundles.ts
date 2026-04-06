@@ -2,30 +2,17 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'criar pacotes de atividades que vendem',
+    primaryKeyword: 'como criar pacotes de atividades para vender',
     secondaryKeywords: [
-      'estratégia de pacotes de atividades',
-      'como montar bundles educativos para vender',
-      'pacotes temáticos de imprimíveis Hotmart',
-      'bundling de atividades para Etsy e KDP',
+      'bundles atividades educativas estratégia',
+      'criar pacotes imprimíveis para vender',
+      'pacotes atividades lucrativos',
+      'bundles imprimíveis Etsy KDP',
     ],
-    lsiKeywords: [
-      'pacotes',
-      'bundles',
-      'valor percebido',
-      'preços',
-      'Hotmart',
-      'Kiwify',
-      'Etsy',
-      'KDP',
-      'renda extra',
-      'negócio de imprimíveis',
-      'licença comercial',
-      'vendedor',
-    ],
-    titleTag: 'Criar pacotes de atividades que vendem | LCS',
+    lsiKeywords: ['pacote', 'bundle', 'valor', 'desconto', 'vendas'],
+    titleTag: 'Como criar pacotes de atividades para vender | Guia',
     metaDescription:
-      'Como criar pacotes de atividades que vendem. Estratégias de bundling, organização temática e preços para maximizar vendas.',
+      'Guia para criar pacotes de atividades que vendem. Estratégia de bundling, combinações e preços para Etsy, KDP e Hotmart.',
   },
 
   hero: {

@@ -2,30 +2,17 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'imprimíveis de camping ideias negócio',
+    primaryKeyword: 'imprimíveis de acampamento para vender no Etsy',
     secondaryKeywords: [
-      'atividades camping para vender Etsy',
-      'imprimíveis acampamento educativos Hotmart',
-      'negócio atividades camping natureza',
-      'livros atividades camping KDP',
+      'atividades de acampamento Etsy KDP',
+      'atividades de acampamento imprimíveis',
+      'negócio imprimíveis acampamento',
+      'atividades de acampamento para vender',
     ],
-    lsiKeywords: [
-      'Hotmart',
-      'Kiwify',
-      'Etsy',
-      'Amazon KDP',
-      'renda extra',
-      'negócio de imprimíveis',
-      'licença comercial',
-      'nicho',
-      'ideias de produto',
-      'vendedor',
-      'Brasil',
-      'imprimíveis educativos',
-    ],
-    titleTag: 'Imprimíveis camping — Negócio | LCS',
+    lsiKeywords: ['camping', 'natureza', 'fogueira', 'barraca'],
+    titleTag: 'Imprimíveis de acampamento Etsy | Nicho lucrativo',
     metaDescription:
-      'Ideias de negócio com imprimíveis de camping. Barracas, fogueiras e natureza em atividades educativas para Etsy, Hotmart e KDP.',
+      'Ideias de imprimíveis de acampamento para Etsy e KDP. Fogueira, barraca e atividades ao ar livre. Crie com LessonCraftStudio — 33 geradores e licença comercial.',
   },
   hero: {
     title: 'Camping — Ideias de Negócio com Imprimíveis Educativos',

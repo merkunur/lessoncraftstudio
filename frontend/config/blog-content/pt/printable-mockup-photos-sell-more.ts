@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'mockup foto fotos imprimíveis',
+    primaryKeyword: 'fotos mockup para vender mais imprimíveis',
     secondaryKeywords: [
-      'estratégias funcionam',
-      'mercado brasileiro internacional',
-      'ferramentas recursos',
+      'como criar mockups para listagens no Etsy',
+      'fotos de produto que aumentam conversão',
+      'mockup profissional sem Photoshop',
     ],
     lsiKeywords: [
-      'negócio imprimíveis digital',
-      'vendedor imprimíveis online',
-      'empreendedor digital educativo',
+      'foto de listagem Etsy',
+      'conversão visual produto',
+      'mockup contexto imprimível',
     ],
-    titleTag: 'Fotos Mockup Imprimíveis | LCS',
-    metaDescription: 'A foto é o primeiro contato do comprador com seu produto. Mockups profissionais mostrando fichas impressas em. Venda no Etsy & KDP com licenca comercial.',
+    titleTag: 'Fotos mockup para vender mais imprimíveis',
+    metaDescription: 'Crie fotos mockup que aumentam vendas de imprimíveis. Crie atividades profissionais com LessonCraftStudio — 33 geradores, 11 idiomas, licença comercial.',
   },
   hero: {
     title: 'Fotos Mockup Imprimíveis',

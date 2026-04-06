@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'volta às aulas imprimíveis corrida',
+    primaryKeyword: 'atividades volta às aulas para vender',
     secondaryKeywords: [
-      'volta às aulas imprimíveis corrida negócio',
-      'volta às aulas imprimíveis corrida vender',
-      'volta às aulas imprimíveis corrida Etsy',
+      'imprimíveis volta às aulas Etsy',
+      'vender atividades escolares sazonais',
+      'nicho volta às aulas imprimíveis',
     ],
     lsiKeywords: [
-      'imprimíveis sazonais vender',
-      'nicho educativo imprimíveis',
-      'mercado imprimíveis temáticos',
+      'volta às aulas',
+      'sazonal escolar',
+      'fevereiro',
     ],
-    titleTag: 'Volta às Aulas: A Corrida dos Imprimíveis | LCS',
-    metaDescription: 'No Brasil, a volta às aulas acontece em fevereiro — não em agosto como nos EUA. Este é o período mais lucrativo para vendedores de imprimíveis educati.',
+    titleTag: 'Atividades volta às aulas para vender | Guia',
+    metaDescription: 'Prepare atividades de volta às aulas e lucre na alta temporada. Crie atividades profissionais com LessonCraftStudio — 33 geradores, 11 idiomas, licença comercial.',
   },
   hero: {
     title: 'Volta às Aulas: A Corrida dos Imprimíveis',

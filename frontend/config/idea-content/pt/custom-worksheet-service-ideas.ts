@@ -2,29 +2,17 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'serviço de criação de atividades negócio',
+    primaryKeyword: 'imprimíveis de serviço de atividades personalizadas para vender no Etsy',
     secondaryKeywords: [
-      'serviço criação atividades personalizadas',
-      'freelancer atividades educativas',
-      'atender escolas editoras material',
-      'negócio criação conteúdo educativo',
+      'atividades de serviço de atividades personalizadas Etsy KDP',
+      'atividades de serviço de atividades personalizadas imprimíveis',
+      'negócio imprimíveis serviço de atividades personalizadas',
+      'atividades de serviço de atividades personalizadas para vender',
     ],
-    lsiKeywords: [
-      'Hotmart',
-      'Kiwify',
-      'Etsy',
-      'Amazon KDP',
-      'renda extra',
-      'negócio de imprimíveis',
-      'licença comercial',
-      'nicho',
-      'ideias de produto',
-      'vendedor',
-      'Brasil',
-      'imprimíveis educativos',
-    ],
-    titleTag: 'Serviço de atividades — Negócio | LCS',
-    metaDescription: 'Ideias de negócio oferecendo serviço de criação de atividades personalizadas. Atenda escolas e editoras. Venda no Etsy & KDP com licenca comercial.',
+    lsiKeywords: ['personalizado', 'sob medida', 'encomenda', 'serviço'],
+    titleTag: 'Imprimíveis de atividades sob medida Etsy | Nicho lucrativo',
+    metaDescription:
+      'Ideias de imprimíveis de serviço de atividades personalizadas para Etsy e KDP. Encomendas e atividades sob medida. Crie com LessonCraftStudio — 33 geradores.',
   },
   hero: {
     title: 'Serviço de Criação de Atividades — Modelo de Negócio',

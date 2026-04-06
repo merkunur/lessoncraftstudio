@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'negócio páginas colorir 2026',
+    primaryKeyword: 'negócio de páginas para colorir',
     secondaryKeywords: [
-      'vender desenhos colorir Etsy',
-      'páginas colorir imprimíveis negócio',
-      'coloring pages business 2026',
+      'vender páginas de colorir no Etsy',
+      'negócio de desenhos para colorir KDP',
+      'imprimíveis de colorir lucrativos',
     ],
     lsiKeywords: [
-      'colorir educativo crianças',
-      'atividade artística imprimível',
-      'desenho temático colorir',
+      'colorir',
+      'desenho temático',
+      'arte infantil',
     ],
-    titleTag: 'Negócio Páginas Colorir 2026 | LCS',
-    metaDescription: 'Monte um negócio lucrativo com páginas de colorir em 2026. Tendências e estratégias atualizadas. Venda no Etsy & KDP com licenca comercial.',
+    titleTag: 'Negócio de páginas para colorir | Guia',
+    metaDescription: 'Monte um negócio lucrativo com páginas de colorir. Crie atividades profissionais com LessonCraftStudio — 33 geradores, 11 idiomas, licença comercial.',
   },
   hero: {
     title: 'Negócio de Páginas de Colorir em 2026',

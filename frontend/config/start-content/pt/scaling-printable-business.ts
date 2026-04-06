@@ -2,29 +2,22 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'de renda extra a negócio de imprimíveis em tempo integral',
+    primaryKeyword: 'como escalar negócio de imprimíveis',
     secondaryKeywords: [
-      'escalar negócio de imprimíveis educativos',
-      'como crescer um negócio de atividades imprimíveis',
-      'de hobby a negócio completo imprimíveis',
-      'automatizar negócio de atividades digitais',
+      'crescer negócio atividades educativas',
+      'escalar vendas imprimíveis Etsy',
+      'expandir catálogo imprimíveis',
+      'automação negócio imprimíveis',
     ],
     lsiKeywords: [
-      'delegação e automação negócio imprimíveis',
-      'múltiplos canais de venda atividades educativas',
-      'renda em tempo integral com imprimíveis',
-      'terceirização produção atividades digitais',
-      'catálogo escalável imprimíveis educativos',
-      'diversificação de produtos imprimíveis nicho',
-      'Etsy Amazon KDP Hotmart simultaneamente',
-      'Kiwify escalabilidade produtos digitais',
-      'gestão financeira negócio imprimíveis',
-      'metas de crescimento vendedor imprimíveis',
-      'processos automatizados produção atividades',
-      'reinvestimento lucros negócio digital',
+      'escalar',
+      'crescer',
+      'automação',
+      'expandir',
+      'catálogo',
     ],
-    titleTag: 'De renda extra a negócio completo | LCS',
-    metaDescription: 'Como escalar de renda extra a negócio de imprimíveis em tempo integral. Automação, múltiplos canais e estratégias de crescimento para vendedores.',
+    titleTag: 'Como escalar negócio de imprimíveis | Guia',
+    metaDescription: 'Guia para escalar seu negócio de imprimíveis. Automação, novos mercados, catálogo expandido e estratégias de crescimento.',
   },
 
   hero: {

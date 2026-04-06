@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'renda passiva imprimíveis verdade',
+    primaryKeyword: 'a verdade sobre renda passiva com imprimíveis',
     secondaryKeywords: [
-      'estratégias funcionam',
-      'mercado brasileiro internacional',
-      'ferramentas recursos',
+      'renda passiva realista com produtos digitais',
+      'quanto se ganha vendendo imprimíveis online',
+      'mitos sobre renda passiva com atividades',
     ],
     lsiKeywords: [
-      'negócio imprimíveis digital',
-      'vendedor imprimíveis online',
-      'empreendedor digital educativo',
+      'expectativa realista vendedor',
+      'receita recorrente imprimíveis',
+      'negócio digital sustentável',
     ],
-    titleTag: 'Renda Passiva com Imprimíveis: Verdade | LCS',
-    metaDescription: 'Renda passiva com imprimíveis existe, mas não funciona como os gurus prometem. Não é "criar uma vez e ganhar para sempre" — exige manutenção, otimização.',
+    titleTag: 'Renda passiva com imprimíveis | A verdade',
+    metaDescription: 'Descubra a verdade sobre renda passiva com imprimíveis. Crie atividades profissionais com LessonCraftStudio — 33 geradores, 11 idiomas, licença comercial.',
   },
   hero: {
     title: 'Renda Passiva com Imprimíveis: Verdade',

@@ -2,30 +2,17 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'imprimíveis animais da floresta para Etsy',
+    primaryKeyword: 'imprimíveis de animais da floresta para vender no Etsy',
     secondaryKeywords: [
-      'atividades animais da floresta para vender',
-      'imprimíveis woodland Etsy Hotmart',
-      'negócio atividades floresta educativos',
-      'livros animais da floresta KDP',
+      'atividades de animais da floresta Etsy KDP',
+      'atividades de animais da floresta imprimíveis',
+      'negócio imprimíveis animais da floresta',
+      'atividades de animais da floresta para vender',
     ],
-    lsiKeywords: [
-      'Hotmart',
-      'Kiwify',
-      'Etsy',
-      'Amazon KDP',
-      'renda extra',
-      'negócio de imprimíveis',
-      'licença comercial',
-      'nicho',
-      'ideias de produto',
-      'vendedor',
-      'Brasil',
-      'imprimíveis educativos',
-    ],
-    titleTag: 'Imprimíveis floresta para Etsy | LCS',
+    lsiKeywords: ['floresta', 'bosque', 'urso', 'raposa'],
+    titleTag: 'Imprimíveis de animais da floresta Etsy | Nicho lucrativo',
     metaDescription:
-      'Venda imprimíveis de animais da floresta no Etsy e Hotmart. Ursos, raposas e coelhos em atividades educativas. Nicho perene com forte demanda.',
+      'Ideias de imprimíveis de animais da floresta para Etsy e KDP. Ursos, raposas e corujas em atividades. Crie com LessonCraftStudio — 33 geradores e licença comercial.',
   },
   hero: {
     title: 'Animais da Floresta — Imprimíveis para Vender no Etsy',

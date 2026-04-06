@@ -2,31 +2,23 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'atividades matemática vender hotmart etsy',
+    primaryKeyword: 'gerador de atividades de matemática',
     secondaryKeywords: [
-      'criar atividades de cálculo numérico para vender na Etsy',
-      'gerador de exercícios de matemática com licença comercial',
-      'atividades de operações matemáticas para Amazon KDP',
-      'atividades de matemática para renda extra',
+      'criar atividades de matemática',
+      'exercícios de matemática para imprimir',
+      'gerador de contas',
+      'atividades de matemática personalizadas',
     ],
     lsiKeywords: [
-      'licença comercial',
-      '300 DPI',
-      'pronto para impressão',
-      'cálculo numérico',
-      'operações básicas',
-      'download digital',
-      'gabarito incluso',
-      'tabuada',
-      'educação infantil',
+      'operações',
+      'cálculo',
+      'aritmética',
       'ensino fundamental',
-      'negócio de imprimíveis',
-      'renda extra',
-      'Hotmart',
-      'Kiwify',
+      'gabarito',
+      'PDF',
     ],
-    titleTag: 'Atividades de matemática para vender | LCS',
-    metaDescription: 'Crie atividades de matemática para vender na Hotmart, Etsy e KDP. Licença comercial, gabarito automático. 49 $ pagamento unico.',
+    titleTag: 'Gerador de atividades de matemática | Criar para imprimir',
+    metaDescription: 'Crie atividades de matemática personalizadas com gabarito automático. PDF 300 DPI, 11 idiomas. Teste grátis — licença comercial para Etsy e KDP.',
   },
 
   hero: {

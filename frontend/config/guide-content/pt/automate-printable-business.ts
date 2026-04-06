@@ -2,29 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'automatizar seu negócio de imprimíveis',
+    primaryKeyword: 'como automatizar negócio de imprimíveis',
     secondaryKeywords: [
-      'automação para vendedor de imprimíveis',
-      'ferramentas automação negócio digital',
-      'como automatizar vendas Hotmart Etsy',
-      'processos automáticos imprimíveis educativos',
+      'automação negócio imprimíveis',
+      'ferramentas automação vendedores Etsy',
+      'workflow eficiente imprimíveis',
+      'escalar negócio imprimíveis automação',
     ],
     lsiKeywords: [
       'automação',
+      'workflow',
       'ferramentas',
-      'processos',
-      'escalamento',
-      'Hotmart',
-      'Kiwify',
-      'Etsy',
-      'KDP',
-      'renda extra',
-      'negócio',
-      'email marketing',
-      'produtividade',
+      'eficiência',
+      'escalar',
     ],
-    titleTag: 'Automatizar negócio de imprimíveis | LCS',
-    metaDescription: 'Como automatizar seu negócio de imprimíveis. Ferramentas, processos e estratégias para escalar com menos esforço. Venda no Etsy & KDP com licenca comercial.',
+    titleTag: 'Como automatizar negócio de imprimíveis | Guia',
+    metaDescription:
+      'Guia para automatizar seu negócio de imprimíveis. Ferramentas, workflows e estratégias para criar e vender mais com menos esforço.',
   },
 
   hero: {

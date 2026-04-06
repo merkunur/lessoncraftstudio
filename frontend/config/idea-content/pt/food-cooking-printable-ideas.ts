@@ -2,30 +2,17 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'imprimíveis de alimentação para vender Etsy',
+    primaryKeyword: 'imprimíveis de comida e culinária para vender no Etsy',
     secondaryKeywords: [
-      'atividades alimentação para vender Etsy',
-      'imprimíveis comida educativos Hotmart',
-      'negócio atividades culinária infantil',
-      'livros atividades alimentação KDP',
+      'atividades de comida e culinária Etsy KDP',
+      'atividades de comida e culinária imprimíveis',
+      'negócio imprimíveis comida e culinária',
+      'atividades de comida e culinária para vender',
     ],
-    lsiKeywords: [
-      'Hotmart',
-      'Kiwify',
-      'Etsy',
-      'Amazon KDP',
-      'renda extra',
-      'negócio de imprimíveis',
-      'licença comercial',
-      'nicho',
-      'ideias de produto',
-      'vendedor',
-      'Brasil',
-      'imprimíveis educativos',
-    ],
-    titleTag: 'Imprimíveis alimentação para Etsy | LCS',
+    lsiKeywords: ['comida', 'culinária', 'receitas', 'frutas'],
+    titleTag: 'Imprimíveis de comida e culinária Etsy | Nicho lucrativo',
     metaDescription:
-      'Venda imprimíveis de alimentação e culinária no Etsy e Hotmart. Frutas, legumes e comida em atividades educativas. Nicho com demanda crescente.',
+      'Ideias de imprimíveis de comida e culinária para Etsy e KDP. Receitas, frutas e atividades culinárias. Crie com LessonCraftStudio — 33 geradores e licença comercial.',
   },
   hero: {
     title: 'Alimentação e Culinária — Imprimíveis para Vender no Etsy',

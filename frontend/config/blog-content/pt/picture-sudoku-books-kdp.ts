@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'livros sudoku imagens KDP',
+    primaryKeyword: 'livros de sudoku com imagens no KDP',
     secondaryKeywords: [
-      'picture sudoku books KDP',
-      'sudoku crianças imagens publicar',
-      'livro sudoku visual KDP negócio',
+      'sudoku infantil com imagens para publicar',
+      'livro de lógica visual para crianças no KDP',
+      'negócio de puzzles de sudoku no Amazon',
     ],
     lsiKeywords: [
-      'sudoku infantil imagens',
-      'lógica visual crianças livro',
-      'puzzle imagens KDP',
+      'sudoku infantil visual',
+      'lógica para crianças livro',
+      'puzzle de imagens imprimível',
     ],
-    titleTag: 'Livros Sudoku Imagens KDP | LCS',
-    metaDescription: 'Publique livros de sudoku com imagens no KDP. Nicho único para crianças. Teste grátis com marca d\'água o gerador.',
+    titleTag: 'Livros de sudoku com imagens no KDP | Guia',
+    metaDescription: 'Publique livros de sudoku com imagens no Amazon KDP. Crie atividades profissionais com LessonCraftStudio — 33 geradores, 11 idiomas, licença comercial.',
   },
   hero: {
     title: 'Livros de Sudoku com Imagens: Publique no KDP',

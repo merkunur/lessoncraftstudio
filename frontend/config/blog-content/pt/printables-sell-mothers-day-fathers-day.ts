@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'imprimíveis Dia das Mães Dia dos Pais vender',
+    primaryKeyword: 'atividades Dia dos Pais e Mães para vender',
     secondaryKeywords: [
-      'imprimíveis Dia das Mães Dia dos Pais vender negócio',
-      'imprimíveis Dia das Mães Dia dos Pais vender vender',
-      'imprimíveis Dia das Mães Dia dos Pais vender Etsy',
+      'imprimíveis sazonais Dia das Mães para Etsy',
+      'atividades temáticas Dia dos Pais para vender',
+      'nicho sazonal família para vendedores',
     ],
     lsiKeywords: [
-      'imprimíveis sazonais vender',
-      'nicho educativo imprimíveis',
-      'mercado imprimíveis temáticos',
+      'cartões para colorir família',
+      'datas comemorativas vendedor',
+      'nicho sazonal maio agosto',
     ],
-    titleTag: 'Imprimíveis Dia das Mães e Dia dos Pais | LCS',
-    metaDescription: 'O Dia das Mães (maio) e Dia dos Pais (segundo domingo de agosto no Brasil — diferente de junho nos EUA!) são datas. Venda no Etsy & KDP com licenca comercial.',
+    titleTag: 'Atividades Dia dos Pais e Mães para vender',
+    metaDescription: 'Venda atividades temáticas de Dia das Mães e dos Pais. Crie atividades profissionais com LessonCraftStudio — 33 geradores, 11 idiomas, licença comercial.',
   },
   hero: {
     title: 'Imprimíveis Dia das Mães e Dia dos Pais',

@@ -2,29 +2,23 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'gerador de atividades de caligrafia grátis',
+    primaryKeyword: 'atividades de coordenação motora grátis',
     secondaryKeywords: [
-      'atividades de caligrafia para imprimir grátis',
-      'criar atividades de traçado de letras grátis',
-      'atividades de coordenação motora grátis',
-      'atividades de alfabetização para imprimir grátis',
+      'gerador de caligrafia grátis online',
+      'pontilhado para imprimir grátis',
+      'atividades de escrita grátis PDF',
+      'treino de letra grátis para imprimir',
     ],
     lsiKeywords: [
-      'grátis online',
+      'traçado',
+      'letras',
+      'cursiva',
+      'bastão',
+      'coordenação motora fina',
       'sem cadastro',
-      'marca d\'água',
-      'imprimir',
-      'PDF',
-      'caligrafia',
-      'coordenação motora',
-      'traçado de letras',
-      'alfabetização',
-      '11 idiomas',
-      'teste grátis',
-      'licença comercial',
     ],
-    titleTag: 'Atividades de caligrafia grátis online | LCS',
-    metaDescription: 'Crie atividades de caligrafia e traçado de letras grátis. 5 modos de escrita, 11 idiomas, PDF imprimível. Venda no Etsy & KDP com licenca comercial.',
+    titleTag: 'Atividades de coordenação motora grátis | Online',
+    metaDescription: 'Crie atividades de coordenação motora e escrita grátis. Sem cadastro. Palavras personalizadas, 11 idiomas. Marca d\'água removida com licença.',
   },
 
   hero: {

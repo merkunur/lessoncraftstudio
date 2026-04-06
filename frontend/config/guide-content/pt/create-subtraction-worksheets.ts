@@ -2,30 +2,17 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'criar atividades de subtração para vender',
+    primaryKeyword: 'como criar atividades de subtração para imprimir',
     secondaryKeywords: [
-      'como criar atividades de subtração para Hotmart',
-      'atividades de subtração para vender na Etsy',
-      'guia atividades de subtração para Amazon KDP',
-      'atividades de subtração com licença comercial para vender',
+      'tutorial atividades de subtração passo a passo',
+      'criar atividades de subtração para vender',
+      'guia atividades de subtração com imagens',
+      'atividades de subtração para Etsy e KDP',
     ],
-    lsiKeywords: [
-      'licença comercial',
-      '300 DPI',
-      'pronto para impressão',
-      'download digital',
-      'gabarito incluso',
-      'Hotmart',
-      'Kiwify',
-      'Etsy',
-      'Amazon KDP',
-      'renda extra',
-      'negócio de imprimíveis',
-      'educação infantil',
-    ],
-    titleTag: 'Atividades de subtração para vender | LCS',
+    lsiKeywords: ['subtração', 'imagens', 'gabarito', 'ensino fundamental', 'PDF'],
+    titleTag: 'Como criar atividades de subtração | Guia passo a passo',
     metaDescription:
-      'Guia para criar atividades de subtração para vender. Modo riscar visual, temas, dificuldade e estratégias de pacotes.',
+      'Guia passo a passo para criar atividades de subtração com imagens temáticas. Gabarito automático, PDF 300 DPI. Teste grátis — venda no Etsy e KDP.',
   },
 
   hero: {

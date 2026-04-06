@@ -2,29 +2,23 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'criar caça-palavras grátis online com imagens',
+    primaryKeyword: 'gerador de caça-palavras grátis',
     secondaryKeywords: [
+      'criar caça-palavras grátis online',
       'caça-palavras para imprimir grátis',
-      'criar sopa de letras online grátis',
-      'gerador de caça-palavras em português grátis',
-      'caça-palavras grátis para crianças',
+      'caça-palavras personalizado grátis',
+      'gerador de caça-palavras com imagens grátis',
     ],
     lsiKeywords: [
-      'grátis online',
-      'sem cadastro',
-      'marca d\'água',
-      'imprimir',
-      'PDF',
-      'gabarito',
-      'caça-palavras',
-      'sopa de letras',
-      '11 idiomas',
+      'grade',
+      'letras',
       'vocabulário',
-      'teste grátis',
-      'licença comercial',
+      'gabarito',
+      'sem cadastro',
+      'PDF',
     ],
-    titleTag: 'Gerador de caça-palavras grátis | LCS',
-    metaDescription: 'Crie caça-palavras grátis com imagens e pistas visuais. Grades configuráveis, 11 idiomas, gabarito colorido. Venda no Etsy & KDP com licenca comercial.',
+    titleTag: 'Gerador de caça-palavras grátis | Online',
+    metaDescription: 'Crie caça-palavras grátis com 3.000+ imagens temáticas. Sem cadastro. Grades personalizadas, gabarito automático. Marca d\'água removida com licença.',
   },
 
   hero: {

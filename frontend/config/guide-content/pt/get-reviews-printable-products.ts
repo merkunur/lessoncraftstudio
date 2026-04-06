@@ -2,30 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'conseguir avaliações para produtos imprimíveis',
+    primaryKeyword: 'como conseguir avaliações para imprimíveis no Etsy',
     secondaryKeywords: [
-      'como pedir avaliações Etsy Hotmart',
-      'estratégias de avaliação para vendedores',
-      'aumentar avaliações produtos digitais',
-      'reviews para imprimíveis educativos',
+      'avaliações Etsy imprimíveis dicas',
+      'reviews Etsy vendedores atividades',
+      'conseguir 5 estrelas Etsy',
+      'melhorar avaliações Etsy imprimíveis',
     ],
     lsiKeywords: [
       'avaliações',
       'reviews',
-      'follow-up',
-      'Hotmart',
       'Etsy',
-      'KDP',
-      'vendas',
-      'reputação',
+      'estrelas',
       'confiança',
-      'negócio',
-      'vendedor',
-      'produtos digitais',
     ],
-    titleTag: 'Conseguir avaliações para imprimíveis | LCS',
+    titleTag: 'Como conseguir avaliações no Etsy | Guia',
     metaDescription:
-      'Como conseguir avaliações para seus produtos imprimíveis. Estratégias éticas para Hotmart, Etsy e KDP.',
+      'Guia para conseguir avaliações positivas no Etsy para imprimíveis educativos. Estratégias éticas para 5 estrelas e mais vendas.',
   },
 
   hero: {

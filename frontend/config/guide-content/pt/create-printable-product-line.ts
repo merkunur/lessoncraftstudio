@@ -2,29 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'criar uma linha de produtos imprimíveis',
+    primaryKeyword: 'como criar uma linha de produtos imprimíveis',
     secondaryKeywords: [
-      'estratégia de catálogo imprimíveis',
-      'linha de produtos educativos para vender',
-      'como escalar catálogo de atividades',
-      'criar portfólio de imprimíveis',
+      'linha de produtos atividades educativas',
+      'catálogo imprimíveis estratégia',
+      'planejar linha de produtos Etsy',
+      'expandir catálogo imprimíveis',
     ],
     lsiKeywords: [
-      'linha de produtos',
+      'linha',
       'catálogo',
-      'variações',
-      'escalamento',
-      'Hotmart',
-      'Kiwify',
-      'Etsy',
-      'KDP',
-      'renda extra',
-      'negócio de imprimíveis',
-      'licença comercial',
-      'temas',
+      'produtos',
+      'expandir',
+      'estratégia',
     ],
-    titleTag: 'Criar linha de produtos imprimíveis | LCS',
-    metaDescription: 'Como criar uma linha completa de produtos imprimíveis. Estratégia de catálogo, variações e escalamento. Venda no Etsy & KDP com licenca comercial.',
+    titleTag: 'Como criar uma linha de produtos imprimíveis | Guia',
+    metaDescription:
+      'Guia para criar uma linha de produtos imprimíveis. Planejamento, catálogo, nichos complementares e estratégia de crescimento.',
   },
 
   hero: {

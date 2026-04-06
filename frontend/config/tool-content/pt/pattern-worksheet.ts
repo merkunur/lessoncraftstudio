@@ -2,29 +2,16 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'atividades de reconhecimento de padrões grátis',
+    primaryKeyword: 'exercícios de sequência lógica grátis',
     secondaryKeywords: [
-      'atividades de padrões para imprimir grátis',
-      'exercícios de padrões visuais grátis',
-      'reconhecimento de padrões grátis para crianças',
-      'atividades de padrões grátis online',
+      'completar a sequência grátis online',
+      'lógica visual grátis atividade',
+      'raciocínio lógico grátis atividade',
+      'sequência numérica grátis para imprimir',
     ],
-    lsiKeywords: [
-      'grátis online',
-      'sem cadastro',
-      'marca d\'água',
-      'imprimir',
-      'PDF',
-      'gabarito',
-      'padrões',
-      'reconhecimento visual',
-      'raciocínio lógico',
-      'educação infantil',
-      'teste grátis',
-      'licença comercial',
-    ],
-    titleTag: 'Reconhecimento de padrões grátis online | LCS',
-    metaDescription: 'Crie atividades de reconhecimento de padrões grátis. 104 temas, gabarito automático, PDF imprimível. Venda no Etsy & KDP com licenca comercial.',
+    lsiKeywords: ['raciocínio', 'completar', 'sequência', 'visual', 'sem cadastro'],
+    titleTag: 'Exercícios de sequência lógica grátis | Online',
+    metaDescription: 'Crie exercícios de sequência lógica grátis com imagens temáticas. Sem cadastro. Gabarito automático, PDF 300 DPI. Marca d\'água removida com licença.',
   },
 
   hero: {

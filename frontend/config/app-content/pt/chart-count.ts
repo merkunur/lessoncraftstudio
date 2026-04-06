@@ -2,32 +2,22 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'atividades de contagem e gráficos para vender online',
+    primaryKeyword: 'atividades de contagem para imprimir',
     secondaryKeywords: [
-      'gerador de atividades de gráficos para Hotmart',
-      'atividades de contagem com gráficos para Etsy',
-      'exercícios de gráficos de barras para Amazon KDP',
-      'atividades de estatística infantil com licença comercial',
+      'exercícios de contar e gráfico',
+      'atividades de gráficos ensino fundamental',
+      'contagem e tabelas atividade',
+      'atividades de quantificação',
     ],
     lsiKeywords: [
-      'licença comercial',
-      '300 DPI',
-      'pronto para impressão',
+      'contar',
       'gráfico de barras',
-      'contagem',
-      'download digital',
-      'gabarito incluso',
-      'estatística infantil',
-      'educação infantil',
-      'ensino fundamental',
-      'negócio de imprimíveis',
-      'renda extra',
-      'Hotmart',
-      'Kiwify',
-      'BNCC',
+      'pictograma',
+      'dados',
+      'classificar',
     ],
-    titleTag: 'Atividades de contagem e gráficos para vender | LCS',
-    metaDescription: 'Crie atividades de contagem e gráficos de barras para vender na Hotmart, Etsy e KDP. 104 temas, gabarito automático. 49 $ pagamento unico.',
+    titleTag: 'Atividades de contagem e gráficos para imprimir | Gerador',
+    metaDescription: 'Crie atividades de contagem e gráficos com imagens temáticas. Gabarito automático, PDF imprimíveis. Teste grátis.',
   },
 
   hero: {

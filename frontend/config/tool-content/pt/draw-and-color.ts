@@ -2,29 +2,16 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'criar atividades de desenho e pintura grátis',
+    primaryKeyword: 'atividades de desenho grátis para imprimir',
     secondaryKeywords: [
-      'atividades de desenhar e colorir para imprimir grátis',
-      'criar atividades de arte online grátis',
-      'atividades de desenho grátis para crianças',
-      'desenho e pintura grátis online',
+      'atividades de arte grátis online',
+      'desenho guiado grátis atividade',
+      'atividades de desenho e colorir grátis',
+      'atividades artísticas grátis PDF',
     ],
-    lsiKeywords: [
-      'grátis online',
-      'sem cadastro',
-      'marca d\'água',
-      'imprimir',
-      'PDF',
-      'desenhar e colorir',
-      'arte',
-      'criatividade',
-      '104 temas',
-      'coordenação motora',
-      'teste grátis',
-      'licença comercial',
-    ],
-    titleTag: 'Desenho e pintura grátis online | LCS',
-    metaDescription: 'Crie atividades de desenho e pintura grátis com imagens. 104 temas, canvas livre, PDF imprimível. Venda no Etsy & KDP com licenca comercial.',
+    lsiKeywords: ['desenho guiado', 'arte', 'criatividade', 'colorir', 'sem cadastro'],
+    titleTag: 'Atividades de desenho grátis para imprimir | Online',
+    metaDescription: 'Crie atividades de desenho guiado e colorir grátis com imagens temáticas. Sem cadastro. PDF 300 DPI imprimíveis. Marca d\'água removida com licença.',
   },
 
   hero: {

@@ -2,28 +2,17 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'melhores nichos de apostilas KDP 2026',
+    primaryKeyword: 'melhores nichos de livros de atividades KDP',
     secondaryKeywords: [
-      'nichos lucrativos KDP livros de atividades',
-      'melhores nichos Amazon KDP 2026',
-      'nichos de apostilas com baixa competição',
-      'pesquisa de nicho KDP atividades',
+      'nichos lucrativos KDP atividades',
+      'quais atividades vendem mais KDP',
+      'nichos livros exercícios Amazon',
+      'pesquisa nichos KDP atividades',
     ],
-    lsiKeywords: [
-      'Amazon KDP',
-      'nichos',
-      'lucrativos',
-      'apostilas',
-      'competição',
-      'pesquisa',
-      'palavras-chave',
-      'tendências',
-      '2026',
-      'renda passiva',
-    ],
-    titleTag: 'Melhores nichos apostilas KDP (2026) | LCS',
+    lsiKeywords: ['KDP', 'nichos', 'atividades', 'pesquisa', 'vendas'],
+    titleTag: 'Melhores nichos livros de atividades KDP | Guia',
     metaDescription:
-      'Melhores nichos de apostilas para Amazon KDP em 2026. Análise de competição, tendências e oportunidades em português.',
+      'Descubra os melhores nichos de livros de atividades no Amazon KDP. Pesquisa de demanda, concorrência e nichos lucrativos para vendedores.',
   },
 
   hero: {

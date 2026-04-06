@@ -2,28 +2,17 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'vender caça-palavras no Etsy dicas',
+    primaryKeyword: 'como vender caça-palavras no Etsy',
     secondaryKeywords: [
-      'como vender caça-palavras no Etsy',
-      'caça-palavras imprimíveis para Etsy',
-      'dicas para vender sopa de letras Etsy',
-      'nicho de caça-palavras Etsy',
+      'vender caça-palavras Etsy dicas',
+      'loja Etsy caça-palavras',
+      'negócio caça-palavras Etsy KDP',
+      'caça-palavras imprimíveis Etsy',
     ],
-    lsiKeywords: [
-      'Etsy',
-      'caça-palavras',
-      'sopa de letras',
-      'imprimíveis',
-      'vendedor',
-      'SEO Etsy',
-      'licença comercial',
-      'renda extra',
-      'Hotmart',
-      'KDP',
-    ],
-    titleTag: 'Vender caça-palavras no Etsy — guia | LCS',
+    lsiKeywords: ['Etsy', 'caça-palavras', 'vendas', 'listagem', 'SEO'],
+    titleTag: 'Como vender caça-palavras no Etsy | Guia completo',
     metaDescription:
-      'Guia para vender caça-palavras no Etsy. SEO, preços, pacotes temáticos e estratégias para destacar suas listagens. Comece com teste grátis.',
+      'Guia completo para vender caça-palavras no Etsy. SEO, listagens, preços e dicas para vendedores de atividades educativas imprimíveis.',
   },
 
   hero: {

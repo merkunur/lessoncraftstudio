@@ -2,29 +2,16 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'criar grades de associação grátis',
+    primaryKeyword: 'desenho quadriculado grátis para imprimir',
     secondaryKeywords: [
-      'quebra-cabeça de grade grátis para imprimir',
-      'associação em grelha grátis online',
-      'puzzle visual em grade grátis',
-      'atividades de grade para crianças grátis',
+      'reproduzir na grade grátis online',
+      'pixel art grátis para imprimir',
+      'copiar desenho na quadrícula grátis',
+      'simetria na grade grátis PDF',
     ],
-    lsiKeywords: [
-      'grátis online',
-      'sem cadastro',
-      'marca d\'água',
-      'imprimir',
-      'PDF',
-      'gabarito',
-      'associação em grade',
-      'grelha',
-      '104 temas',
-      'raciocínio lógico',
-      'teste grátis',
-      'licença comercial',
-    ],
-    titleTag: 'Grades de associação grátis online | LCS',
-    metaDescription: 'Crie quebra-cabeças de associação em grade grátis. 104 temas, gabarito automático, PDF imprimível. Venda no Etsy & KDP com licenca comercial.',
+    lsiKeywords: ['quadrícula', 'reproduzir', 'copiar', 'simetria', 'sem cadastro'],
+    titleTag: 'Desenho quadriculado grátis para imprimir | Online',
+    metaDescription: 'Crie atividades de reprodução em grade grátis com imagens temáticas. Sem cadastro. Gabarito automático. Marca d\'água removida com licença.',
   },
 
   hero: {

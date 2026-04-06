@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'imprimíveis multilíngues vantagem',
+    primaryKeyword: 'vantagem de imprimíveis multilíngues',
     secondaryKeywords: [
-      'imprimíveis multilíngues vantagem guia',
-      'imprimíveis multilíngues vantagem dicas',
-      'imprimíveis multilíngues vantagem estratégia',
+      'vender imprimíveis em vários idiomas',
+      'mercado multilíngue de atividades no Etsy',
+      'diversificar com imprimíveis internacionais',
     ],
     lsiKeywords: [
-      'negócio imprimíveis digital',
-      'vendedor imprimíveis online',
-      'empreendedor digital educativo',
+      'alcance global imprimíveis',
+      'vendedor multilíngue Etsy',
+      'tradução de atividades educativas',
     ],
-    titleTag: 'Imprimíveis Multilíngues: Vantagem | LCS',
-    metaDescription: 'A vantagem de imprimíveis multilíngues: enquanto 95% vendem só em inglês, alcance mercados alemão, francês, espanhol e português com o mesmo produto.',
+    titleTag: 'Vantagem de imprimíveis multilíngues | Dicas',
+    metaDescription: 'Alcance mercados globais com imprimíveis multilíngues. Crie atividades profissionais com LessonCraftStudio — 33 geradores, 11 idiomas, licença comercial.',
   },
   hero: {
     title: 'Imprimíveis Multilíngues: Vantagem',

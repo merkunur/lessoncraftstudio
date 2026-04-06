@@ -2,29 +2,22 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'gerador de atividades de associação grátis',
+    primaryKeyword: 'atividade de ligar grátis para imprimir',
     secondaryKeywords: [
-      'atividades de ligar para imprimir grátis',
-      'criar atividades de associação online grátis',
-      'exercícios de correspondência grátis',
-      'atividades de ligar para crianças grátis',
+      'associar imagens grátis online',
+      'ligar os pares grátis atividade',
+      'atividade de relacionar grátis PDF',
+      'ligar com flechas grátis educação infantil',
     ],
     lsiKeywords: [
-      'grátis online',
-      'sem cadastro',
-      'marca d\'água',
-      'imprimir',
-      'PDF',
-      'gabarito',
       'ligar',
       'associar',
-      '104 temas',
+      'pares',
       'educação infantil',
-      'teste grátis',
-      'licença comercial',
+      'sem cadastro',
     ],
-    titleTag: 'Atividades de associação grátis online | LCS',
-    metaDescription: 'Crie atividades de ligar e associar grátis com imagens. 104 temas, gabarito automático, PDF imprimível. Venda no Etsy & KDP com licenca comercial.',
+    titleTag: 'Atividades de ligar grátis para imprimir | Online',
+    metaDescription: 'Crie atividades de associação grátis com imagens temáticas. Sem cadastro. Gabarito automático, PDF 300 DPI. Marca d\'água removida com licença.',
   },
 
   hero: {

@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'pesquisa palavras-chave Etsy imprimíveis',
+    primaryKeyword: 'pesquisa de palavras-chave Etsy imprimíveis',
     secondaryKeywords: [
-      'passo passo',
-      'ferramentas necessárias',
-      'dicas avançadas',
+      'como encontrar tags Etsy para imprimíveis',
+      'ferramentas pesquisa palavras-chave Etsy',
+      'SEO Etsy para vendedores de atividades',
     ],
     lsiKeywords: [
-      'tutorial imprimíveis',
-      'como criar fichas educativas',
-      'guia prático imprimíveis',
+      'Marmalead eRank imprimíveis',
+      'tags Etsy otimização',
+      'busca orgânica Etsy',
     ],
-    titleTag: 'Pesquisa de Palavras-Chave no Etsy | LCS',
-    metaDescription: 'Palavras-chave determinam se seus imprimíveis aparecem nas buscas do Etsy. A pesquisa de palavras-chave é o passo mais importante do processo de publi.',
+    titleTag: 'Pesquisa palavras-chave Etsy imprimíveis',
+    metaDescription: 'Aprenda pesquisa de palavras-chave Etsy para imprimíveis. Crie atividades profissionais com LessonCraftStudio — 33 geradores, 11 idiomas, licença comercial.',
   },
   hero: {
     title: 'Pesquisa de Palavras-Chave no Etsy',

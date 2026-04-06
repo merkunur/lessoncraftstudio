@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'fichas desenhar e colorir vender',
+    primaryKeyword: 'vender atividades de desenho e colorir',
     secondaryKeywords: [
-      'draw and color worksheets sell',
-      'atividades desenho colorir imprimíveis',
-      'fichas arte crianças negócio',
+      'atividades de desenho guiado para Etsy',
+      'imprimíveis de colorir e desenhar lucrativas',
+      'nicho de arte infantil imprimível',
     ],
     lsiKeywords: [
-      'criatividade artística fichas',
-      'desenho guiado crianças',
-      'atividade artística imprimível',
+      'desenho guiado',
+      'colorir',
+      'arte infantil',
     ],
-    titleTag: 'Fichas Desenhar e Colorir: Vender | LCS',
-    metaDescription: 'Venda fichas de desenhar e colorir online. Formato criativo que pais adoram. Teste grátis com marca d\'água.',
+    titleTag: 'Vender atividades de desenho e colorir | Guia',
+    metaDescription: 'Venda atividades de desenho e colorir no Etsy e KDP. Crie atividades profissionais com LessonCraftStudio — 33 geradores, 11 idiomas, licença comercial.',
   },
   hero: {
     title: 'Fichas de Desenhar e Colorir: Venda Online',

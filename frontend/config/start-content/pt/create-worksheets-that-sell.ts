@@ -2,29 +2,22 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'criar atividades que vendem',
+    primaryKeyword: 'como criar atividades que vendem',
     secondaryKeywords: [
-      'design de atividades imprimíveis que geram vendas',
-      'como criar imprimíveis que compradores querem',
-      'atividades educativas que vendem rápido',
-      'segredos de imprimíveis rentáveis Etsy',
+      'criar atividades profissionais para vender',
+      'atividades que vendem Etsy KDP',
+      'design atividades que convertem',
+      'criar imprimíveis lucrativos',
     ],
     lsiKeywords: [
-      'design de atividades para vendedores de sucesso',
-      'otimizar imprimíveis para conversão Etsy',
-      'atividades profissionais que atraem compradores',
-      'diferenciação de produtos imprimíveis nicho',
-      'qualidade visual atividades imprimíveis',
-      'psicologia do comprador imprimíveis digitais',
-      'listagem Etsy otimizada atividades',
-      'mockup profissional atividades educativas',
-      'tendências de mercado imprimíveis 2026',
-      'pacotes de atividades que convertem',
-      'Hotmart vendas atividades educativas',
-      'KDP curadoria livros de atividades',
+      'design',
+      'qualidade',
+      'vendas',
+      'profissional',
+      'conversão',
     ],
-    titleTag: 'Criar atividades que vendem | LCS',
-    metaDescription: 'Aprenda a criar atividades imprimíveis que vendem. Técnicas de design, estratégias de produto e otimização para Etsy, Amazon KDP, Hotmart e Kiwify.',
+    titleTag: 'Como criar atividades que vendem | Guia',
+    metaDescription: 'Guia para criar atividades educativas que vendem. Design, qualidade, temas e estratégias para produtos profissionais no Etsy e KDP.',
   },
 
   hero: {

@@ -2,30 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'renda passiva com atividades educativas 2026',
+    primaryKeyword: 'renda extra com atividades educativas',
     secondaryKeywords: [
-      'renda extra com atividades educativas',
-      'ganhar dinheiro vendendo imprimíveis 2026',
-      'renda passiva Hotmart atividades',
-      'negócio de imprimíveis renda extra Brasil',
+      'renda passiva imprimíveis educativos',
+      'ganhar dinheiro atividades para imprimir',
+      'negócio atividades educativas renda extra',
+      'vender atividades online renda',
     ],
     lsiKeywords: [
-      'renda passiva',
-      'renda extra',
-      '2026',
-      'Hotmart',
-      'Kiwify',
-      'Etsy',
-      'KDP',
-      'Brasil',
-      'infoprodutos',
+      'renda',
+      'vendas',
       'imprimíveis',
-      'atividades educativas',
-      'PIX',
+      'online',
+      'negócio',
     ],
-    titleTag: 'Renda passiva com atividades (2026) | LCS',
+    titleTag: 'Renda extra com atividades educativas | Guia',
     metaDescription:
-      'Como gerar renda passiva com atividades educativas em 2026. Hotmart, Etsy, KDP e estratégias de renda recorrente.',
+      'Guia para ganhar renda extra com atividades educativas imprimíveis. Plataformas, estratégias e quanto é possível ganhar de forma realista.',
   },
 
   hero: {

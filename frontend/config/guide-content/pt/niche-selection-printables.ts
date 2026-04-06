@@ -2,30 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'escolher nicho para negócio de imprimíveis 2026',
+    primaryKeyword: 'como escolher nicho de imprimíveis para vender',
     secondaryKeywords: [
-      'pesquisa de nicho imprimíveis 2026',
-      'nichos lucrativos imprimíveis Brasil',
-      'como validar nicho de imprimíveis',
-      'nicho de atividades educativas para vender',
+      'pesquisa de nichos imprimíveis',
+      'nichos lucrativos atividades educativas',
+      'quais atividades vendem mais',
+      'seleção de nicho imprimíveis',
     ],
     lsiKeywords: [
       'nicho',
-      'demanda',
-      'competição',
-      'validação',
       'pesquisa',
-      'Hotmart',
-      'Etsy',
-      'KDP',
-      'renda extra',
-      'negócio de imprimíveis',
-      '2026',
-      'Brasil',
+      'demanda',
+      'concorrência',
+      'lucro',
     ],
-    titleTag: 'Escolher nicho de imprimíveis (2026) | LCS',
+    titleTag: 'Como escolher nicho de imprimíveis | Guia',
     metaDescription:
-      'Como escolher o nicho certo para seu negócio de imprimíveis em 2026. Análise de demanda, competição e oportunidades.',
+      'Guia para escolher o nicho certo de imprimíveis educativos. Pesquisa de demanda, análise de concorrência e nichos lucrativos para vender.',
   },
 
   hero: {

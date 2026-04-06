@@ -2,31 +2,21 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'atividades de desenho e pintura para vender online',
+    primaryKeyword: 'atividades de desenho para imprimir',
     secondaryKeywords: [
-      'gerador de atividades de desenhar e colorir para Hotmart',
-      'atividades de arte para crianças para Etsy',
-      'exercícios de desenho com licença comercial para KDP',
-      'atividades de desenho para vender na Kiwify',
+      'atividades de arte para imprimir',
+      'desenho guiado atividade',
+      'atividades de desenho e colorir',
+      'atividades artísticas',
     ],
     lsiKeywords: [
-      'licença comercial',
-      '300 DPI',
-      'pronto para impressão',
-      'desenhar e colorir',
+      'desenho guiado',
       'arte',
       'criatividade',
-      'download digital',
-      'coordenação motora',
-      'educação infantil',
-      'ensino fundamental',
-      'negócio de imprimíveis',
-      'renda extra',
-      'Hotmart',
-      'Kiwify',
+      'colorir',
     ],
-    titleTag: 'Atividades de desenho e pintura para vender | LCS',
-    metaDescription: 'Crie atividades de desenho e pintura para vender na Hotmart, Etsy e KDP. 104 temas, canvas livre, licença comercial. 49 $ pagamento unico.',
+    titleTag: 'Atividades de desenho e colorir | Gerador de arte',
+    metaDescription: 'Crie atividades de desenho guiado e colorir com imagens temáticas. PDF 300 DPI imprimíveis. Teste grátis — licença comercial incluída.',
   },
 
   hero: {

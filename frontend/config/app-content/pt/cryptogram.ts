@@ -2,31 +2,22 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'gerador de criptogramas para vender na Etsy',
+    primaryKeyword: 'mensagem secreta para imprimir',
     secondaryKeywords: [
-      'criar criptogramas com imagens para Hotmart',
-      'atividades de decifrar código para Amazon KDP',
-      'gerador de criptogramas com licença comercial',
-      'puzzles de substituição de letras para vender online',
+      'criptograma gerador',
+      'código secreto para imprimir',
+      'decifrar mensagem atividade',
+      'jogo de código para imprimir',
     ],
     lsiKeywords: [
-      'licença comercial',
-      '300 DPI',
-      'pronto para impressão',
-      'criptograma',
-      'código secreto',
-      'download digital',
-      'gabarito incluso',
-      'raciocínio lógico',
-      'alfabetização',
-      'ensino fundamental',
-      'negócio de imprimíveis',
-      'renda extra',
-      'Hotmart',
-      'Kiwify',
+      'código',
+      'decifrar',
+      'letras',
+      'substituição',
+      'secreto',
     ],
-    titleTag: 'Gerador de criptogramas para vender | LCS',
-    metaDescription: 'Crie criptogramas com imagens para vender na Hotmart, Etsy e KDP. Substituição de letras, 11 idiomas, gabarito automático. 49 $ pagamento unico.',
+    titleTag: 'Mensagens secretas para imprimir | Gerador de criptogramas',
+    metaDescription: 'Crie criptogramas e mensagens secretas com imagens temáticas e gabarito automático. PDF 300 DPI, 11 idiomas. Teste grátis — licença comercial.',
   },
 
   hero: {

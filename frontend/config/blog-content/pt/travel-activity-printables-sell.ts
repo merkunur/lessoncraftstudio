@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'imprimíveis atividades viagem vender',
+    primaryKeyword: 'atividades de viagem para imprimir e vender',
     secondaryKeywords: [
-      'imprimíveis atividades viagem vender negócio',
-      'imprimíveis atividades viagem vender vender',
-      'imprimíveis atividades viagem vender Etsy',
+      'imprimíveis viagem crianças negócio',
+      'atividades portáteis férias vender',
+      'atividades avião carro crianças Etsy',
     ],
     lsiKeywords: [
-      'imprimíveis sazonais vender',
-      'nicho educativo imprimíveis',
-      'mercado imprimíveis temáticos',
+      'imprimíveis viagem férias',
+      'atividades portáteis crianças',
+      'nicho atividades viagem',
     ],
-    titleTag: 'Atividades de Viagem: Vender | LCS',
-    metaDescription: 'Atividades imprimíveis para viagem são o produto perfeito para férias: pais buscam fichas que mantenham crianças. Venda no Etsy & KDP com licenca comercial.',
+    titleTag: 'Atividades de viagem para vender | Nicho',
+    metaDescription: 'Como criar e vender atividades de viagem para crianças online. Crie atividades profissionais com LessonCraftStudio — 33 geradores, 11 idiomas, licença comercial.',
   },
   hero: {
     title: 'Atividades de Viagem: Vender',

@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'fluência fichas matemática vender',
+    primaryKeyword: 'atividades de fluência matemática para vender',
     secondaryKeywords: [
-      'produtos mais vendem neste',
-      'estratégia preço pacotes',
-      'marketing seo este nicho',
+      'imprimíveis fatos matemáticos Etsy KDP',
+      'atividades prática matemática para vender',
+      'nicho fluência matemática imprimíveis',
     ],
     lsiKeywords: [
-      'imprimíveis sazonais vender',
-      'nicho educativo imprimíveis',
-      'mercado imprimíveis temáticos',
+      'prática repetitiva matemática',
+      'fatos básicos adição subtração',
+      'automatização cálculo mental',
     ],
-    titleTag: 'Fichas Fluência Matemática: Vender | LCS',
-    metaDescription: 'Fluência em fatos matemáticos — saber automaticamente que 7+5=12 — é uma habilidade que exige prática repetitiva. Venda no Etsy & KDP com licenca comercial.',
+    titleTag: 'Atividades fluência matemática para vender',
+    metaDescription: 'Venda atividades de fluência matemática no Etsy e KDP. Crie atividades profissionais com LessonCraftStudio — 33 geradores, 11 idiomas, licença comercial.',
   },
   hero: {
     title: 'Fichas Fluência Matemática: Vender',

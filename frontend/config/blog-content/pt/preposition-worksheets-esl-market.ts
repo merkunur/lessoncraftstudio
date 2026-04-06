@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'fichas preposições mercado PLE',
+    primaryKeyword: 'atividades de preposições para mercado de idiomas',
     secondaryKeywords: [
-      'preposition worksheets ESL sell',
-      'fichas preposições língua estrangeira',
-      'atividades preposições PLE negócio',
+      'atividades de preposições PLE para vender',
+      'imprimíveis de gramática visual para ESL',
+      'material didático de preposições multilíngue',
     ],
     lsiKeywords: [
       'gramática visual imprimível',
       'ensino preposições imagens',
-      'PLE material didático',
+      'PLE material vendedor',
     ],
-    titleTag: 'Fichas Preposições: Mercado PLE | LCS',
-    metaDescription: 'Venda fichas de preposições para o mercado PLE e ESL. Nicho especializado com alta margem. Teste grátis com marca d\'água.',
+    titleTag: 'Atividades de preposições para idiomas | Nicho',
+    metaDescription: 'Venda atividades de preposições para mercado PLE e ESL. Crie atividades profissionais com LessonCraftStudio — 33 geradores, 11 idiomas, licença comercial.',
   },
   hero: {
     title: 'Fichas de Preposições: O Mercado PLE e ESL',

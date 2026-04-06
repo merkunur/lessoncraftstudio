@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'fichas tema espaço negócio',
+    primaryKeyword: 'negócio de atividades com tema espaço',
     secondaryKeywords: [
-      'produtos mais vendem neste',
-      'estratégia preço pacotes',
-      'marketing seo este nicho',
+      'atividades tema espaço vender',
+      'imprimíveis planetas foguetes negócio',
+      'atividades temáticas espaço Etsy',
     ],
     lsiKeywords: [
-      'imprimíveis sazonais vender',
+      'planetas foguetes astronautas',
       'nicho educativo imprimíveis',
-      'mercado imprimíveis temáticos',
+      'atividades temáticas crianças',
     ],
-    titleTag: 'Fichas Tema Espaço: Negócio | LCS',
-    metaDescription: 'O tema espaço (planetas, foguetes, astronautas, estrelas) fascina crianças de todas as idades e é um dos temas mais. Venda no Etsy & KDP com licenca comercial.',
+    titleTag: 'Negócio atividades com tema espaço | Nicho',
+    metaDescription: 'Como montar um negócio com atividades temáticas de espaço. Crie atividades profissionais com LessonCraftStudio — 33 geradores, 11 idiomas, licença comercial.',
   },
   hero: {
     title: 'Fichas Tema Espaço: Negócio',

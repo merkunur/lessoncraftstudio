@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'renda negócio imprimíveis realista',
+    primaryKeyword: 'renda realista com negócio de imprimíveis',
     secondaryKeywords: [
-      'renda negócio imprimíveis realista guia',
-      'renda negócio imprimíveis realista dicas',
-      'renda negócio imprimíveis realista estratégia',
+      'quanto se ganha vendendo imprimíveis no Etsy',
+      'expectativa de renda com produtos digitais',
+      'faturamento real de vendedores de imprimíveis',
     ],
     lsiKeywords: [
-      'negócio imprimíveis digital',
-      'vendedor imprimíveis online',
-      'empreendedor digital educativo',
+      'receita mensal vendedor',
+      'fases do negócio digital',
+      'dados reais imprimíveis',
     ],
-    titleTag: 'Renda Negócio Imprimíveis: Realista | LCS',
-    metaDescription: 'Muitos gurus prometem renda passiva de R$ 10.000/mês vendendo imprimíveis. A realidade é mais modesta, mas ainda assim atrativa. Este guia apresenta dad.',
+    titleTag: 'Renda realista com negócio de imprimíveis',
+    metaDescription: 'Descubra quanto se ganha vendendo imprimíveis de verdade. Crie atividades profissionais com LessonCraftStudio — 33 geradores, 11 idiomas, licença comercial.',
   },
   hero: {
     title: 'Renda Negócio Imprimíveis: Realista',

@@ -2,30 +2,17 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'otimizar loja na Hotmart e Kiwify',
+    primaryKeyword: 'como otimizar loja Gumroad para vendas',
     secondaryKeywords: [
-      'como otimizar loja Hotmart',
-      'SEO Hotmart para vendedores',
-      'otimização Kiwify dicas',
-      'aumentar vendas Hotmart Kiwify',
+      'otimizar listagens Gumroad',
+      'SEO Gumroad produtos educativos',
+      'aumentar vendas Gumroad dicas',
+      'loja Gumroad otimização guia',
     ],
-    lsiKeywords: [
-      'Hotmart',
-      'Kiwify',
-      'otimização',
-      'SEO',
-      'vendas',
-      'conversão',
-      'descrição',
-      'capa',
-      'preços',
-      'afiliados',
-      'Brasil',
-      'renda extra',
-    ],
-    titleTag: 'Otimizar loja Hotmart e Kiwify — guia | LCS',
+    lsiKeywords: ['Gumroad', 'otimização', 'listagens', 'vendas', 'SEO'],
+    titleTag: 'Como otimizar loja Gumroad para vendas | Guia',
     metaDescription:
-      'Como otimizar sua loja na Hotmart e Kiwify para maximizar vendas. SEO, descrições, capas, preços e programa de afiliados.',
+      'Guia para otimizar sua loja Gumroad. SEO, listagens, apresentação e estratégias para aumentar vendas de produtos educativos.',
   },
 
   hero: {

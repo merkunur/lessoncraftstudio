@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'imprimíveis pré-escola mais vendidos',
+    primaryKeyword: 'atividades para educação infantil mais vendidas',
     secondaryKeywords: [
-      'imprimíveis pré-escola mais vendidos negócio',
-      'imprimíveis pré-escola mais vendidos vender',
-      'imprimíveis pré-escola mais vendidos Etsy',
+      'imprimíveis pré-escola que mais vendem no Etsy',
+      'atividades para crianças de 2 a 5 anos para vender',
+      'nicho de educação infantil para vendedores',
     ],
     lsiKeywords: [
-      'imprimíveis sazonais vender',
-      'nicho educativo imprimíveis',
-      'mercado imprimíveis temáticos',
+      'motricidade fina infantil',
+      'atividades pré-escolar vendedor',
+      'mercado educação infantil',
     ],
-    titleTag: 'Imprimíveis Pré-escola: Mais Vendidos | LCS',
-    metaDescription: 'Imprimíveis para pré-escola (Educação Infantil no Brasil) representam o maior segmento do mercado de fichas educativas. Pais de crianças de 2-5 anos s.',
+    titleTag: 'Atividades educação infantil mais vendidas',
+    metaDescription: 'Descubra quais atividades para educação infantil mais vendem. Crie atividades profissionais com LessonCraftStudio — 33 geradores, 11 idiomas, licença comercial.',
   },
   hero: {
     title: 'Imprimíveis Pré-escola: Mais Vendidos',

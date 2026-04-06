@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'produto produtos níveis dificuldade camadas',
+    primaryKeyword: 'níveis de dificuldade como tiers de produto',
     secondaryKeywords: [
-      'passo passo',
-      'ferramentas necessárias',
-      'dicas avançadas',
+      'progressão dificuldade atividades vendas',
+      'multiplicar produtos níveis dificuldade',
+      'tiers produto imprimíveis Etsy',
     ],
     lsiKeywords: [
-      'tutorial imprimíveis',
-      'como criar fichas educativas',
-      'guia prático imprimíveis',
+      'progressão dificuldade atividades',
+      'variações produto imprimíveis',
+      'escalar produtos por nível',
     ],
-    titleTag: 'Níveis de Dificuldade: Camadas de Produto | LCS',
-    metaDescription: 'Uma ficha de adição não é um produto — é cinco produtos: pré-escolar, 1° ano, 2° ano, 3° ano e avançado. Venda no Etsy & KDP com licenca comercial.',
+    titleTag: 'Níveis de dificuldade como tiers de produto',
+    metaDescription: 'Use níveis de dificuldade para multiplicar seus produtos digitais. Crie atividades profissionais com LessonCraftStudio — 33 geradores, 11 idiomas, licença comercial.',
   },
   hero: {
     title: 'Níveis de Dificuldade: Camadas de Produto',

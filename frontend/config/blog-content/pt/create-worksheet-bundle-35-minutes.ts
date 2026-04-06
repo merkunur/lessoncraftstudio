@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'criar pacote fichas 35 minutos',
+    primaryKeyword: 'criar pacote de atividades em 35 minutos',
     secondaryKeywords: [
-      'criar pacote fichas 35 minutos passo a passo',
-      'criar pacote fichas 35 minutos tutorial',
-      'criar pacote fichas 35 minutos como fazer',
+      'montar pacote de imprimíveis rápido',
+      'criar bundle de atividades para Etsy',
+      'pacote de atividades com gerador automático',
     ],
     lsiKeywords: [
-      'tutorial imprimíveis',
-      'como criar fichas educativas',
-      'guia prático imprimíveis',
+      'pacote rápido',
+      'bundle atividades',
+      'gerador automático',
     ],
-    titleTag: 'Crie um Pacote de Fichas em 35 Minutos | LCS',
-    metaDescription: 'Criar um pacote de fichas profissional em 35 minutos parece impossível, mas com geradores automatizados é realidade. Venda no Etsy & KDP com licenca comercial.',
+    titleTag: 'Criar pacote de atividades em 35 minutos',
+    metaDescription: 'Monte um pacote profissional de atividades em apenas 35 minutos. Crie atividades profissionais com LessonCraftStudio — 33 geradores, 11 idiomas, licença comercial.',
   },
   hero: {
     title: 'Crie um Pacote de Fichas em 35 Minutos',

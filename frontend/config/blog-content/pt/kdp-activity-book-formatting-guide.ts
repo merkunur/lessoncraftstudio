@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'guia formatação livro atividades KDP',
+    primaryKeyword: 'guia de formatação livro de atividades KDP',
     secondaryKeywords: [
-      'estratégias funcionam',
-      'mercado brasileiro internacional',
-      'ferramentas recursos',
+      'formatar livro atividades Amazon KDP',
+      'margens resolução livro KDP corretas',
+      'publicar livro atividades KDP passo a passo',
     ],
     lsiKeywords: [
-      'negócio imprimíveis digital',
-      'vendedor imprimíveis online',
-      'empreendedor digital educativo',
+      'formatação KDP margens',
+      'resolução PDF livro KDP',
+      'autopublicação Amazon livro',
     ],
-    titleTag: 'Guia Formatação Livro Atividades KDP | LCS',
-    metaDescription: 'A formatação é o maior obstáculo para novos autores no KDP. Margens incorretas, resolução baixa ou tamanho errado resultam em rejeição ou impressão de b.',
+    titleTag: 'Formatação livro de atividades KDP | Guia',
+    metaDescription: 'Formate livros de atividades corretamente para o KDP. Crie atividades profissionais com LessonCraftStudio — 33 geradores, 11 idiomas, licença comercial.',
   },
   hero: {
     title: 'Guia Formatação Livro Atividades KDP',

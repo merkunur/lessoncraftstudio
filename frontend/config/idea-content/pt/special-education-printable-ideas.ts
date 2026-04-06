@@ -2,30 +2,17 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'imprimíveis AEE educação especial vender',
+    primaryKeyword: 'imprimíveis de educação especial para vender no Etsy',
     secondaryKeywords: [
-      'atividades AEE para vender online',
-      'imprimíveis educação especial Etsy',
-      'negócio material inclusão Hotmart',
-      'livros atividades necessidades especiais KDP',
+      'atividades de educação especial Etsy KDP',
+      'atividades de educação especial imprimíveis',
+      'negócio imprimíveis educação especial',
+      'atividades de educação especial para vender',
     ],
-    lsiKeywords: [
-      'Hotmart',
-      'Kiwify',
-      'Etsy',
-      'Amazon KDP',
-      'renda extra',
-      'negócio de imprimíveis',
-      'licença comercial',
-      'nicho',
-      'ideias de produto',
-      'vendedor',
-      'Brasil',
-      'imprimíveis educativos',
-    ],
-    titleTag: 'Imprimíveis AEE para vender | LCS',
+    lsiKeywords: ['inclusão', 'adaptado', 'necessidades', 'acessível'],
+    titleTag: 'Imprimíveis de educação especial Etsy | Nicho lucrativo',
     metaDescription:
-      'Venda imprimíveis de educação especial e AEE no Etsy e Hotmart. Atividades adaptadas com demanda crescente e baixa concorrência. Nicho único.',
+      'Ideias de imprimíveis de educação especial para Etsy e KDP. Atividades adaptadas e inclusivas. Crie com LessonCraftStudio — 33 geradores e licença comercial.',
   },
   hero: {
     title: 'Educação Especial e AEE — Imprimíveis para Vender',

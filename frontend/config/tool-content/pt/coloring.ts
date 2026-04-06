@@ -1,29 +1,16 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'gerador de desenhos para colorir grátis',
+    primaryKeyword: 'criar desenhos para colorir grátis',
     secondaryKeywords: [
-      'desenhos para colorir para imprimir grátis',
-      'criar páginas de colorir online grátis',
-      'desenhos para pintar grátis para crianças',
-      'colorir para imprimir grátis',
+      'gerador de desenhos para colorir grátis online',
+      'desenhos para colorir personalizados grátis',
+      'colorir grátis para imprimir',
+      'criar páginas para colorir grátis',
     ],
-    lsiKeywords: [
-      'grátis online',
-      'sem cadastro',
-      'marca d\'água',
-      'imprimir',
-      'PDF',
-      'desenho para colorir',
-      'página para colorir',
-      '104 temas',
-      'coordenação motora',
-      'educação infantil',
-      'teste grátis',
-      'licença comercial',
-    ],
-    titleTag: 'Desenhos para colorir grátis online | LCS',
-    metaDescription: 'Crie desenhos para colorir grátis com imagens temáticas. 104 temas, modo escala de cinza, PDF imprimível. Venda no Etsy & KDP com licenca comercial.',
+    lsiKeywords: ['desenho', 'colorir', 'contornos', 'preto e branco', 'sem cadastro'],
+    titleTag: 'Criar desenhos para colorir grátis | Online',
+    metaDescription: 'Crie desenhos para colorir grátis a partir de 3.000+ imagens temáticas. Sem cadastro. Contornos em alta resolução. Marca d\'água removida com licença.',
   },
 
   hero: {

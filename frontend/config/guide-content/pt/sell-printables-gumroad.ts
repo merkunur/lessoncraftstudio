@@ -2,28 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'vender imprimíveis no Gumroad guia',
+    primaryKeyword: 'como vender imprimíveis no Gumroad',
     secondaryKeywords: [
-      'como vender imprimíveis no Gumroad',
-      'Gumroad para vendedores de atividades',
-      'guia Gumroad imprimíveis educativos',
-      'vender PDFs no Gumroad',
+      'Gumroad imprimíveis educativos guia',
+      'vender atividades Gumroad',
+      'loja Gumroad imprimíveis',
+      'Gumroad vs Etsy imprimíveis',
     ],
     lsiKeywords: [
       'Gumroad',
+      'vendas',
+      'digital',
       'imprimíveis',
-      'atividades educativas',
-      'vendedor',
-      'preços',
-      'pagamentos',
-      'marketing',
-      'renda extra',
-      'Hotmart',
-      'Etsy',
+      'listagem',
     ],
-    titleTag: 'Vender imprimíveis no Gumroad — guia | LCS',
+    titleTag: 'Como vender imprimíveis no Gumroad | Guia',
     metaDescription:
-      'Guia para vender imprimíveis educativos no Gumroad. Configuração, preços, marketing e dicas para maximizar vendas.',
+      'Guia para vender imprimíveis no Gumroad. Configuração, preços, promoção e dicas para vendedores de atividades educativas.',
   },
 
   hero: {

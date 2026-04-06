@@ -2,30 +2,17 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'impressão sob demanda atividades negócio',
+    primaryKeyword: 'imprimíveis de impressão sob demanda para vender no Etsy',
     secondaryKeywords: [
-      'print-on-demand atividades educativas',
-      'livros sob demanda Amazon KDP',
-      'negócio sem estoque imprimíveis',
-      'impressão sob demanda Lulu educativo',
+      'atividades de impressão sob demanda Etsy KDP',
+      'atividades de impressão sob demanda imprimíveis',
+      'negócio imprimíveis impressão sob demanda',
+      'atividades de impressão sob demanda para vender',
     ],
-    lsiKeywords: [
-      'Hotmart',
-      'Kiwify',
-      'Etsy',
-      'Amazon KDP',
-      'renda extra',
-      'negócio de imprimíveis',
-      'licença comercial',
-      'nicho',
-      'ideias de produto',
-      'vendedor',
-      'Brasil',
-      'imprimíveis educativos',
-    ],
-    titleTag: 'Impressão sob demanda atividades | LCS',
+    lsiKeywords: ['POD', 'impressão', 'demanda', 'físico'],
+    titleTag: 'Imprimíveis de impressão sob demanda Etsy | Nicho lucrativo',
     metaDescription:
-      'Crie negócio de atividades educativas com impressão sob demanda. Amazon KDP, Lulu e print-on-demand. Sem estoque, sem risco. Guia completo.',
+      'Ideias de imprimíveis de impressão sob demanda para Etsy e KDP. POD e produtos físicos sob demanda. Crie com LessonCraftStudio — 33 geradores e licença comercial.',
   },
   hero: {
     title: 'Impressão Sob Demanda — Negócio de Atividades Educativas',

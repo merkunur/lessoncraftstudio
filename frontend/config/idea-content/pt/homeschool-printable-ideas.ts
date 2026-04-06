@@ -2,30 +2,17 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'imprimíveis para homeschool vender',
+    primaryKeyword: 'imprimíveis de ensino domiciliar para vender no Etsy',
     secondaryKeywords: [
-      'atividades homeschool para vender Etsy',
-      'imprimíveis educação domiciliar Hotmart',
-      'negócio material homeschool Brasil',
-      'livros atividades homeschool KDP',
+      'atividades de ensino domiciliar Etsy KDP',
+      'atividades de ensino domiciliar imprimíveis',
+      'negócio imprimíveis ensino domiciliar',
+      'atividades de ensino domiciliar para vender',
     ],
-    lsiKeywords: [
-      'Hotmart',
-      'Kiwify',
-      'Etsy',
-      'Amazon KDP',
-      'renda extra',
-      'negócio de imprimíveis',
-      'licença comercial',
-      'nicho',
-      'ideias de produto',
-      'vendedor',
-      'Brasil',
-      'imprimíveis educativos',
-    ],
-    titleTag: 'Imprimíveis homeschool para vender | LCS',
+    lsiKeywords: ['homeschool', 'casa', 'família', 'currículo'],
+    titleTag: 'Imprimíveis de ensino domiciliar Etsy | Nicho lucrativo',
     metaDescription:
-      'Venda imprimíveis para homeschool no Etsy e Hotmart. Atividades para educação domiciliar com demanda crescente. Nicho lucrativo no Brasil e EUA.',
+      'Ideias de imprimíveis de ensino domiciliar para Etsy e KDP. Currículo e atividades para ensino em casa. Crie com LessonCraftStudio — 33 geradores.',
   },
   hero: {
     title: 'Homeschool — Imprimíveis para Vender Online',

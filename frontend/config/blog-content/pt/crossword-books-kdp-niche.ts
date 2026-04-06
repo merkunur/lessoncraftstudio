@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'livros palavras cruzadas KDP nicho',
+    primaryKeyword: 'nicho de livros de cruzadinha no KDP',
     secondaryKeywords: [
-      'publicar palavras cruzadas Amazon KDP',
-      'livro cruzadinha crianças KDP',
-      'negócio palavras cruzadas imprimíveis',
+      'publicar cruzadinhas no Amazon KDP',
+      'livro de palavras cruzadas para vender',
+      'nicho lucrativo KDP cruzadinhas',
     ],
     lsiKeywords: [
-      'cruzadinha educativa publicar',
-      'nicho KDP palavras cruzadas',
-      'livro atividades vocabulário',
+      'cruzadinha KDP',
+      'palavras cruzadas',
+      'renda passiva',
     ],
-    titleTag: 'Livros Palavras Cruzadas KDP: Nicho | LCS',
-    metaDescription: 'Como publicar livros de palavras cruzadas no Amazon KDP. Nicho lucrativo para crianças e adultos. Teste grátis com marca d\'água o gerador.',
+    titleTag: 'Nicho de livros de cruzadinha no KDP | Guia',
+    metaDescription: 'Publique livros de cruzadinha no Amazon KDP e gere renda passiva. Crie atividades profissionais com LessonCraftStudio — 33 geradores, 11 idiomas, licença comercial.',
   },
   hero: {
     title: 'Livros de Palavras Cruzadas no KDP: Nicho Lucrativo',

@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'atividades motricidade fina imprimíveis',
+    primaryKeyword: 'atividades de coordenação motora para vender',
     secondaryKeywords: [
-      'produtos mais vendem neste',
-      'estratégia preço pacotes',
-      'marketing seo este nicho',
+      'imprimíveis motricidade fina Etsy KDP',
+      'atividades recortar traçar para vender',
+      'nicho coordenação motora imprimíveis',
     ],
     lsiKeywords: [
-      'imprimíveis sazonais vender',
-      'nicho educativo imprimíveis',
-      'mercado imprimíveis temáticos',
+      'motricidade fina infantil',
+      'traçar recortar imprimível',
+      'desenvolvimento motor crianças',
     ],
-    titleTag: 'Atividades Motricidade Fina Imprimíveis | LCS',
-    metaDescription: 'Atividades de motricidade fina — recortar, traçar, colar, conectar pontos — são essenciais para o desenvolvimento infantil e demandadas por pais, tera.',
+    titleTag: 'Atividades de coordenação motora para vender',
+    metaDescription: 'Venda atividades de coordenação motora fina online. Crie atividades profissionais com LessonCraftStudio — 33 geradores, 11 idiomas, licença comercial.',
   },
   hero: {
     title: 'Atividades Motricidade Fina Imprimíveis',

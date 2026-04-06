@@ -4,28 +4,21 @@ const content: GuideContent = {
   seo: {
     primaryKeyword: 'direitos autorais para vendedores de imprimíveis',
     secondaryKeywords: [
-      'proteção de direitos autorais imprimíveis',
-      'copyright para vendedores Etsy',
-      'legislação direitos autorais Brasil imprimíveis',
-      'como proteger imprimíveis educativos',
+      'copyright imprimíveis educativos',
+      'direitos autorais atividades Etsy',
+      'proteção legal imprimíveis',
+      'lei direitos autorais vendedores',
     ],
     lsiKeywords: [
-      'direitos autorais',
       'copyright',
+      'direitos',
+      'legal',
       'proteção',
-      'INPI',
-      'licença comercial',
-      'Hotmart',
-      'Etsy',
-      'KDP',
-      'legislação',
-      'Brasil',
-      'vendedor',
-      'negócio',
+      'uso',
     ],
-    titleTag: 'Direitos autorais para vendedores | LCS',
+    titleTag: 'Direitos autorais para vendedores de imprimíveis | Guia',
     metaDescription:
-      'Direitos autorais para vendedores de imprimíveis. O que você pode e não pode fazer, proteção e legislação.',
+      'Guia sobre direitos autorais para vendedores de imprimíveis educativos. O que pode vender, como se proteger e erros comuns a evitar.',
   },
 
   hero: {

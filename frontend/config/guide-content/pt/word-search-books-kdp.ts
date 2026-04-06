@@ -2,27 +2,17 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'criar livros de caça-palavras para KDP',
+    primaryKeyword: 'como publicar livros de caça-palavras no KDP',
     secondaryKeywords: [
-      'livro de caça-palavras Amazon KDP guia',
-      'publicar livro de sopa de letras KDP',
-      'como criar livro de caça-palavras',
-      'caça-palavras KDP nicho lucrativo',
+      'livro caça-palavras KDP guia',
+      'publicar caça-palavras Amazon',
+      'KDP livro caça-palavras estratégia',
+      'livros sopa de letras KDP',
     ],
-    lsiKeywords: [
-      'Amazon KDP',
-      'livro de caça-palavras',
-      'sopa de letras',
-      'formatação',
-      'capa',
-      'royalties',
-      'renda passiva',
-      'nichos lucrativos',
-      'Hotmart',
-    ],
-    titleTag: 'Livros de caça-palavras para KDP — guia | LCS',
+    lsiKeywords: ['KDP', 'livro', 'caça-palavras', 'formato', 'publicar'],
+    titleTag: 'Como publicar livros de caça-palavras no KDP | Guia',
     metaDescription:
-      'Crie livros de caça-palavras para Amazon KDP. Um dos nichos mais lucrativos. Formatação, temas, preços e estratégias de publicação.',
+      'Guia para publicar livros de caça-palavras no Amazon KDP. Formatação, temas e estratégia de publicação para vendas consistentes.',
   },
 
   hero: {

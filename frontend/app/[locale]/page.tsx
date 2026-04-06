@@ -42,10 +42,10 @@ const homepageMetadata: Record<string, { title: string; description: string; key
     ogAlt: 'LessonCraftStudio - Generador de fichas educativas para Etsy y KDP'
   },
   pt: {
-    title: 'Inicie um negocio de imprimiveis lucrativo | LessonCraftStudio',
-    description: 'Construa um negocio de imprimiveis no Etsy, Amazon KDP ou TPT. 33 geradores profissionais, 3.000+ imagens, 11 idiomas. Teste gratuito com marca d\'agua.',
-    keywords: 'negocio imprimiveis, vender imprimiveis Etsy, KDP imprimiveis, renda extra imprimiveis, gerador caca-palavras, imprimiveis profissionais',
-    ogAlt: 'LessonCraftStudio - Inicie um negocio de imprimiveis lucrativo'
+    title: 'Gerador de atividades educativas | Criar e vender no Etsy e KDP',
+    description: '33 geradores de atividades com 3.000+ imagens e 11 idiomas. PDF prontos para imprimir em minutos. Teste grátis — licença comercial para Etsy, KDP e mais.',
+    keywords: 'gerador de atividades educativas, criar atividades para imprimir, gerador de exercícios, ferramenta para criar atividades, gerador caça-palavras, gerador cruzadinha, atividades de matemática para imprimir',
+    ogAlt: 'LessonCraftStudio — Gerador de atividades educativas para Etsy e KDP'
   },
   it: {
     title: 'Avvia un business di stampabili redditizio | LessonCraftStudio',

@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'fichas trem padrões nicho',
+    primaryKeyword: 'nicho de atividades de sequência para vender',
     secondaryKeywords: [
-      'pattern train worksheets niche',
-      'fichas trem sequência negócio',
-      'atividades trem padrões imprimíveis',
+      'atividades de trem de padrões para Etsy',
+      'imprimíveis de sequência lógica com tema trem',
+      'negócio de atividades de padrões infantis',
     ],
     lsiKeywords: [
       'trem educativo crianças',
       'vagões sequência lógica',
-      'transporte atividade padrões',
+      'formato visual engajante',
     ],
-    titleTag: 'Fichas Trem Padrões: Nicho | LCS',
-    metaDescription: 'Descubra o nicho de fichas de trem de padrões. Formato único com alta conversão. Teste grátis com marca d\'água. Venda no Etsy & KDP com licenca comercial.',
+    titleTag: 'Nicho atividades de sequência | Guia',
+    metaDescription: 'Descubra o nicho de atividades de trem de padrões. Crie atividades profissionais com LessonCraftStudio — 33 geradores, 11 idiomas, licença comercial.',
   },
   hero: {
     title: 'Fichas de Trem de Padrões: Nicho Único',

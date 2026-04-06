@@ -2,29 +2,16 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'atividades de maior e menor grátis',
+    primaryKeyword: 'atividade maior menor igual grátis',
     secondaryKeywords: [
-      'atividades de mais e menos para imprimir grátis',
-      'exercícios de comparação numérica grátis',
-      'maior e menor grátis para crianças',
-      'atividades de quantidade grátis online',
+      'comparar números grátis online',
+      'maior que menor que grátis exercícios',
+      'mais que menos que grátis atividade',
+      'comparação de quantidades grátis PDF',
     ],
-    lsiKeywords: [
-      'grátis online',
-      'sem cadastro',
-      'marca d\'água',
-      'imprimir',
-      'PDF',
-      'gabarito',
-      'maior e menor',
-      'mais e menos',
-      '104 temas',
-      'educação infantil',
-      'teste grátis',
-      'licença comercial',
-    ],
-    titleTag: 'Maior e menor grátis online | LCS',
-    metaDescription: 'Crie atividades de maior e menor grátis com imagens. Comparação visual, 104 temas, gabarito automático. Venda no Etsy & KDP com licenca comercial.',
+    lsiKeywords: ['maior que', 'menor que', 'igual', 'comparar', 'sem cadastro'],
+    titleTag: 'Atividade maior menor igual grátis | Online',
+    metaDescription: 'Crie atividades de comparação de números e quantidades grátis. Sem cadastro. Imagens temáticas, gabarito automático. Marca d\'água removida com licença.',
   },
 
   hero: {

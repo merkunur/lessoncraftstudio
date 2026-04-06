@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'mercado fichas pré-escola primeiro ano',
+    primaryKeyword: 'mercado de atividades para educação infantil',
     secondaryKeywords: [
-      'mercado fichas pré-escola primeiro ano negócio',
-      'mercado fichas pré-escola primeiro ano vender',
-      'mercado fichas pré-escola primeiro ano Etsy',
+      'atividades pré-escola para vender Etsy',
+      'imprimíveis educação infantil KDP',
+      'nicho atividades crianças 3-6 anos',
     ],
     lsiKeywords: [
-      'imprimíveis sazonais vender',
-      'nicho educativo imprimíveis',
-      'mercado imprimíveis temáticos',
+      'pré-escola primeiro ano',
+      'material educativo infantil',
+      'imprimíveis idade pré-escolar',
     ],
-    titleTag: 'Mercado Fichas Pré-escola e 1° Ano | LCS',
-    metaDescription: 'A transição entre a pré-escola e o 1° ano do Ensino Fundamental é o momento em que pais mais compram imprimíveis. Venda no Etsy & KDP com licenca comercial.',
+    titleTag: 'Mercado atividades educação infantil | Guia',
+    metaDescription: 'Explore o mercado de atividades para educação infantil. Crie atividades profissionais com LessonCraftStudio — 33 geradores, 11 idiomas, licença comercial.',
   },
   hero: {
     title: 'Mercado Fichas Pré-escola e 1° Ano',

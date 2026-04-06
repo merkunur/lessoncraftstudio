@@ -2,29 +2,16 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'gerador de atividades de sequências grátis',
+    primaryKeyword: 'atividades de sequência grátis para imprimir',
     secondaryKeywords: [
-      'atividades de sequências para imprimir grátis',
-      'completar sequências grátis online',
-      'trem de padrões grátis para crianças',
-      'atividades de padrões grátis',
+      'sequência lógica grátis online',
+      'completar a sequência grátis exercício',
+      'padrões para completar grátis',
+      'sequência grátis educação infantil',
     ],
-    lsiKeywords: [
-      'grátis online',
-      'sem cadastro',
-      'marca d\'água',
-      'imprimir',
-      'PDF',
-      'gabarito',
-      'sequências',
-      'padrões',
-      'raciocínio lógico',
-      'educação infantil',
-      'teste grátis',
-      'licença comercial',
-    ],
-    titleTag: 'Atividades de sequências grátis online | LCS',
-    metaDescription: 'Crie atividades de sequências e padrões grátis. Trem de padrões visual, gabarito automático, PDF imprimível. Venda no Etsy & KDP com licenca comercial.',
+    lsiKeywords: ['AB', 'ABC', 'repetir', 'continuar', 'sequência', 'sem cadastro'],
+    titleTag: 'Atividades de sequência grátis para imprimir | Online',
+    metaDescription: 'Crie atividades de sequência lógica grátis com padrões AB, ABC e imagens temáticas. Sem cadastro. Gabarito automático. Marca d\'água removida com licença.',
   },
 
   hero: {

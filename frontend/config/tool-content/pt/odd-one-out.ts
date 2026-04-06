@@ -2,29 +2,16 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'gerador de encontre o intruso grátis',
+    primaryKeyword: 'encontre o intruso grátis para imprimir',
     secondaryKeywords: [
-      'encontre o diferente para imprimir grátis',
-      'intruso grátis para crianças online',
-      'atividades de encontrar o diferente grátis',
-      'odd one out grátis para imprimir',
+      'qual não pertence grátis online',
+      'jogo do intruso grátis atividade',
+      'classificação lógica grátis atividade',
+      'raciocínio lógico grátis PDF',
     ],
-    lsiKeywords: [
-      'grátis online',
-      'sem cadastro',
-      'marca d\'água',
-      'imprimir',
-      'PDF',
-      'gabarito',
-      'encontre o intruso',
-      'encontre o diferente',
-      '104 temas',
-      'raciocínio lógico',
-      'teste grátis',
-      'licença comercial',
-    ],
-    titleTag: 'Encontre o intruso grátis online | LCS',
-    metaDescription: 'Crie atividades de encontre o intruso grátis com imagens. 104 temas, gabarito automático, PDF imprimível. Venda no Etsy & KDP com licenca comercial.',
+    lsiKeywords: ['categoria', 'classificar', 'lógica', 'raciocínio', 'sem cadastro'],
+    titleTag: 'Encontre o intruso grátis para imprimir | Online',
+    metaDescription: 'Crie atividades de "encontre o intruso" grátis com imagens temáticas. Sem cadastro. Gabarito automático, PDF imprimíveis. Marca d\'água removida com licença.',
   },
 
   hero: {

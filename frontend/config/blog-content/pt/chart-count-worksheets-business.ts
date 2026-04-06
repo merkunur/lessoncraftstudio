@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'fichas gráficos contagem negócio imprimíveis',
+    primaryKeyword: 'negócio de atividades de contagem e gráficos',
     secondaryKeywords: [
-      'fichas gráficos matemática vender',
-      'atividades contagem gráficos Etsy',
-      'imprimíveis gráficos educativos negócio',
+      'vender atividades de gráficos no Etsy',
+      'imprimíveis de contagem para negócio',
+      'atividades de matemática visual para venda',
     ],
     lsiKeywords: [
-      'gráficos barras crianças',
-      'contagem visual imprimível',
-      'matemática visual Ensino Fundamental',
+      'gráficos contagem',
+      'matemática visual',
+      'nicho educativo',
     ],
-    titleTag: 'Fichas Gráficos e Contagem: Negócio | LCS',
-    metaDescription: 'Crie um negócio vendendo fichas de gráficos e contagem. Nicho com demanda crescente e baixa concorrência. Teste grátis com marca d\'água.',
+    titleTag: 'Negócio de atividades de contagem e gráficos',
+    metaDescription: 'Monte um negócio com atividades de contagem e gráficos. Crie atividades profissionais com LessonCraftStudio — 33 geradores, 11 idiomas, licença comercial.',
   },
   hero: {
     title: 'Fichas de Gráficos e Contagem: Oportunidade de Negócio',

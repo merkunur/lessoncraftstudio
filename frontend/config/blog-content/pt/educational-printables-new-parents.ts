@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'imprimíveis educativos novos pais',
+    primaryKeyword: 'imprimíveis educativos para novos pais',
     secondaryKeywords: [
-      'produtos mais vendem neste',
-      'estratégia preço pacotes',
-      'marketing seo este nicho',
+      'atividades para bebés e crianças pequenas',
+      'nicho de imprimíveis para pais de primeira viagem',
+      'vender atividades de estimulação infantil',
     ],
     lsiKeywords: [
-      'imprimíveis sazonais vender',
-      'nicho educativo imprimíveis',
-      'mercado imprimíveis temáticos',
+      'novos pais',
+      'estimulação infantil',
+      'primeira infância',
     ],
-    titleTag: 'Imprimíveis para Novos Pais | LCS',
-    metaDescription: 'Novos pais são os compradores mais entusiastas de imprimíveis educativos. Venda no Etsy & KDP com licenca comercial.',
+    titleTag: 'Imprimíveis educativos para novos pais | Nicho',
+    metaDescription: 'Atenda o nicho de novos pais com imprimíveis educativos. Crie atividades profissionais com LessonCraftStudio — 33 geradores, 11 idiomas, licença comercial.',
   },
   hero: {
     title: 'Imprimíveis para Novos Pais',

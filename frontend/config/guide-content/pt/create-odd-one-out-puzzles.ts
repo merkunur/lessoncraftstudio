@@ -2,30 +2,17 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'criar encontre o intruso para vender',
+    primaryKeyword: 'como criar atividades encontre o intruso',
     secondaryKeywords: [
-      'como criar encontre o intruso para Hotmart',
-      'encontre o intruso para vender na Etsy',
-      'guia encontre o intruso para Amazon KDP',
-      'encontre o intruso com licença comercial para vender',
+      'tutorial encontre o intruso passo a passo',
+      'criar atividades de lógica para vender',
+      'guia intruso com imagens temáticas',
+      'encontre o intruso para Etsy e KDP',
     ],
-    lsiKeywords: [
-      'licença comercial',
-      '300 DPI',
-      'pronto para impressão',
-      'download digital',
-      'gabarito incluso',
-      'Hotmart',
-      'Kiwify',
-      'Etsy',
-      'Amazon KDP',
-      'renda extra',
-      'negócio de imprimíveis',
-      'educação infantil',
-    ],
-    titleTag: 'Encontre o intruso para vender online | LCS',
+    lsiKeywords: ['intruso', 'lógica', 'categoria', 'classificar', 'imagens'],
+    titleTag: 'Como criar atividades encontre o intruso | Guia',
     metaDescription:
-      'Guia para criar atividades de encontre o intruso para vender. Raciocínio lógico, categorização e estratégias.',
+      'Guia passo a passo para criar atividades de "encontre o intruso" com imagens temáticas. Gabarito automático. Teste grátis — venda no Etsy e KDP.',
   },
 
   hero: {

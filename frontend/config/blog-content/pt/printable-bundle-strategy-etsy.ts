@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'estratégia pacotes imprimíveis Etsy',
+    primaryKeyword: 'estratégia de pacotes imprimíveis no Etsy',
     secondaryKeywords: [
-      'estratégia pacotes imprimíveis Etsy guia',
-      'estratégia pacotes imprimíveis Etsy dicas',
-      'estratégia pacotes imprimíveis Etsy estratégia',
+      'como criar bundles de atividades no Etsy',
+      'precificação de pacotes de imprimíveis',
+      'aumentar ticket médio com bundles Etsy',
     ],
     lsiKeywords: [
-      'negócio imprimíveis digital',
-      'vendedor imprimíveis online',
-      'empreendedor digital educativo',
+      'bundling imprimíveis vendas',
+      'pacote temático Etsy',
+      'precificação produtos digitais',
     ],
-    titleTag: 'Estratégia Pacotes Imprimíveis Etsy | LCS',
-    metaDescription: 'Pacotes (bundles) são a estratégia de precificação mais eficaz para imprimíveis no Etsy. Um pacote de 50 fichas a US$ 14,99 gera mais lucro que 50 ficha.',
+    titleTag: 'Estratégia de pacotes imprimíveis no Etsy',
+    metaDescription: 'Multiplique receita com pacotes de imprimíveis no Etsy. Crie atividades profissionais com LessonCraftStudio — 33 geradores, 11 idiomas, licença comercial.',
   },
   hero: {
     title: 'Estratégia Pacotes Imprimíveis Etsy',

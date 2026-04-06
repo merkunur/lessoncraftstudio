@@ -2,30 +2,17 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'criar atividades de adição para vender',
+    primaryKeyword: 'como criar atividades de adição para imprimir',
     secondaryKeywords: [
-      'como criar atividades de adição para Hotmart',
-      'atividades de adição para vender na Etsy',
-      'guia atividades de adição para Amazon KDP',
-      'atividades de adição com licença comercial para vender',
+      'tutorial atividades de adição passo a passo',
+      'criar atividades de soma para vender',
+      'guia atividades de adição com imagens',
+      'atividades de adição para Etsy e KDP',
     ],
-    lsiKeywords: [
-      'licença comercial',
-      '300 DPI',
-      'pronto para impressão',
-      'download digital',
-      'gabarito incluso',
-      'Hotmart',
-      'Kiwify',
-      'Etsy',
-      'Amazon KDP',
-      'renda extra',
-      'negócio de imprimíveis',
-      'educação infantil',
-    ],
-    titleTag: 'Criar atividades de adição para vender | LCS',
+    lsiKeywords: ['adição', 'imagens', 'gabarito', 'ensino fundamental', 'PDF'],
+    titleTag: 'Como criar atividades de adição para imprimir | Guia',
     metaDescription:
-      'Guia passo a passo para criar atividades de adição para vender na Hotmart, Etsy e KDP. Temas, dificuldade, pacotes e preços.',
+      'Guia passo a passo para criar atividades de adição com imagens temáticas. Gabarito automático, PDF 300 DPI. Teste grátis — venda no Etsy e KDP.',
   },
 
   hero: {

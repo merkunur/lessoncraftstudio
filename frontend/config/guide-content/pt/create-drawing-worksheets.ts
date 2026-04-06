@@ -2,30 +2,17 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'criar atividades de desenho para vender',
+    primaryKeyword: 'como criar atividades de desenho para imprimir',
     secondaryKeywords: [
-      'como criar atividades de desenho para Hotmart',
-      'atividades de desenho para vender na Etsy',
-      'guia atividades de desenho para Amazon KDP',
-      'atividades de desenho com licença comercial para vender',
+      'tutorial desenho guiado passo a passo',
+      'criar atividades de arte para vender',
+      'guia atividades de desenho e colorir',
+      'atividades de desenho para Etsy e KDP',
     ],
-    lsiKeywords: [
-      'licença comercial',
-      '300 DPI',
-      'pronto para impressão',
-      'download digital',
-      'gabarito incluso',
-      'Hotmart',
-      'Kiwify',
-      'Etsy',
-      'Amazon KDP',
-      'renda extra',
-      'negócio de imprimíveis',
-      'educação infantil',
-    ],
-    titleTag: 'Atividades de desenho para vender online | LCS',
+    lsiKeywords: ['desenho', 'arte', 'colorir', 'criatividade', 'imagens'],
+    titleTag: 'Como criar atividades de desenho | Guia passo a passo',
     metaDescription:
-      'Guia para criar atividades de desenho e pintura para vender. Canvas livre, temas e estratégias para Hotmart e KDP.',
+      'Guia passo a passo para criar atividades de desenho guiado e colorir. Imagens temáticas, PDF 300 DPI. Teste grátis — venda no Etsy e KDP.',
   },
 
   hero: {

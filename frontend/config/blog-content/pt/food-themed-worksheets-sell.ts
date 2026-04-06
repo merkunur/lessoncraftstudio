@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'fichas tema alimentos vender',
+    primaryKeyword: 'atividades com tema de comida para vender',
     secondaryKeywords: [
-      'produtos mais vendem neste',
-      'estratégia preço pacotes',
-      'marketing seo este nicho',
+      'imprimíveis tema alimentos Etsy KDP',
+      'atividades frutas legumes para vender',
+      'nicho tema comida imprimíveis',
     ],
     lsiKeywords: [
-      'imprimíveis sazonais vender',
-      'nicho educativo imprimíveis',
-      'mercado imprimíveis temáticos',
+      'tema alimentos educação infantil',
+      'imprimíveis frutas legumes',
+      'atividades temáticas comida',
     ],
-    titleTag: 'Fichas Tema Alimentos: Vender | LCS',
-    metaDescription: 'Fichas com tema de alimentos (frutas, legumes, pratos típicos) são populares porque conectam educação com vida. Venda no Etsy & KDP com licenca comercial.',
+    titleTag: 'Atividades tema de comida para vender',
+    metaDescription: 'Venda atividades com tema de comida no Etsy e KDP. Crie atividades profissionais com LessonCraftStudio — 33 geradores, 11 idiomas, licença comercial.',
   },
   hero: {
     title: 'Fichas Tema Alimentos: Vender',

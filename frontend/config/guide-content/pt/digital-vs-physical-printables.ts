@@ -2,29 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'imprimíveis digitais vs físicos comparação',
+    primaryKeyword: 'imprimíveis digitais vs físicos qual vender',
     secondaryKeywords: [
-      'digital vs físico para vendedores',
-      'vender imprimíveis digitais ou impressos',
-      'comparação modelos negócio imprimíveis',
-      'vantagens imprimíveis digitais',
+      'digital vs físico imprimíveis',
+      'vender download digital ou impresso',
+      'imprimíveis digitais ou físicos prós contras',
+      'qual formato imprimíveis vender',
     ],
     lsiKeywords: [
       'digital',
       'físico',
-      'comparação',
-      'margens',
-      'logística',
-      'Hotmart',
-      'Kiwify',
-      'Etsy',
-      'KDP',
-      'escalamento',
       'download',
-      'impressão sob demanda',
+      'impresso',
+      'comparação',
     ],
-    titleTag: 'Digitais vs físicos: imprimíveis | LCS',
-    metaDescription: 'Imprimíveis digitais vs físicos: qual modelo escolher? Comparação de margens, logística, escalamento e público. Venda no Etsy & KDP com licenca comercial.',
+    titleTag: 'Imprimíveis digitais vs físicos | Comparação',
+    metaDescription:
+      'Comparação entre vender imprimíveis digitais vs físicos. Prós, contras, custos e qual formato é melhor para seu negócio.',
   },
 
   hero: {

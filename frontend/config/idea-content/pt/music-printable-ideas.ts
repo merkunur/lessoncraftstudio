@@ -2,30 +2,17 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'imprimíveis de música para vender',
+    primaryKeyword: 'imprimíveis de música para vender no Etsy',
     secondaryKeywords: [
-      'atividades música para vender Etsy',
-      'imprimíveis instrumentos musicais Hotmart',
-      'negócio atividades musicalização',
-      'livros atividades música KDP',
+      'atividades de música Etsy KDP',
+      'atividades de música imprimíveis',
+      'negócio imprimíveis música',
+      'atividades de música para vender',
     ],
-    lsiKeywords: [
-      'Hotmart',
-      'Kiwify',
-      'Etsy',
-      'Amazon KDP',
-      'renda extra',
-      'negócio de imprimíveis',
-      'licença comercial',
-      'nicho',
-      'ideias de produto',
-      'vendedor',
-      'Brasil',
-      'imprimíveis educativos',
-    ],
-    titleTag: 'Imprimíveis música para vender | LCS',
+    lsiKeywords: ['música', 'instrumentos', 'notas', 'ritmo'],
+    titleTag: 'Imprimíveis de música Etsy | Nicho lucrativo',
     metaDescription:
-      'Crie e venda imprimíveis de música no Etsy, Hotmart e KDP. Instrumentos, notas musicais e ritmo em atividades educativas. Nicho diferenciado.',
+      'Ideias de imprimíveis de música para Etsy e KDP. Instrumentos, notas e atividades músicais. Crie com LessonCraftStudio — 33 geradores e licença comercial.',
   },
   hero: {
     title: 'Imprimíveis de Música — Nicho Diferenciado para Vendedores',

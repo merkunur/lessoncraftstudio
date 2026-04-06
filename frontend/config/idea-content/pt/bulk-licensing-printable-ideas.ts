@@ -2,30 +2,17 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'licença em volume imprimíveis ideias',
+    primaryKeyword: 'imprimíveis de licenciamento em massa para vender no Etsy',
     secondaryKeywords: [
-      'licença escolar imprimíveis educativos',
-      'vender para escolas material digital',
-      'licenciamento volume atividades',
-      'receita recorrente escolas imprimíveis',
+      'atividades de licenciamento em massa Etsy KDP',
+      'atividades de licenciamento em massa imprimíveis',
+      'negócio imprimíveis licenciamento em massa',
+      'atividades de licenciamento em massa para vender',
     ],
-    lsiKeywords: [
-      'Hotmart',
-      'Kiwify',
-      'Etsy',
-      'Amazon KDP',
-      'renda extra',
-      'negócio de imprimíveis',
-      'licença comercial',
-      'nicho',
-      'ideias de produto',
-      'vendedor',
-      'Brasil',
-      'imprimíveis educativos',
-    ],
-    titleTag: 'Licença em volume imprimíveis | LCS',
+    lsiKeywords: ['licença', 'atacado', 'escolas', 'instituições'],
+    titleTag: 'Imprimíveis de licenciamento em massa Etsy | Nicho lucrativo',
     metaDescription:
-      'Ideias para vender licenças em volume de imprimíveis educativos. Atenda escolas e redes de ensino. Receita recorrente de alto valor.',
+      'Ideias de imprimíveis de licenciamento em massa para Etsy e KDP. Licenças para escolas e instituições. Crie com LessonCraftStudio — 33 geradores e licença comercial.',
   },
   hero: {
     title: 'Licença em Volume — Venda Imprimíveis para Escolas',

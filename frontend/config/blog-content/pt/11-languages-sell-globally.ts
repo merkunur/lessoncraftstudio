@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'idiomas idioma venda globalmente',
+    primaryKeyword: 'vender atividades em 11 idiomas',
     secondaryKeywords: [
-      'passo passo',
-      'ferramentas necessárias',
-      'dicas avançadas',
+      'imprimíveis multilíngues para Etsy',
+      'vender atividades em vários idiomas',
+      'estratégia global imprimíveis educativos',
     ],
     lsiKeywords: [
-      'tutorial imprimíveis',
-      'como criar fichas educativas',
-      'guia prático imprimíveis',
+      'multilíngue',
+      'tradução atividades',
+      'mercado global',
     ],
-    titleTag: '11 Idiomas: Venda Globalmente | LCS',
-    metaDescription: 'O LessonCraftStudio oferece fichas em 11 idiomas. Cada idioma é um mercado separado com seu próprio público. Um vendedor que publica em 3-4 idiomas mu.',
+    titleTag: 'Vender atividades em 11 idiomas | Estratégia global',
+    metaDescription: 'Multiplique vendas publicando atividades em 11 idiomas diferentes. Crie atividades profissionais com LessonCraftStudio — 33 geradores, 11 idiomas, licença comercial.',
   },
   hero: {
     title: '11 Idiomas: Venda Globalmente',

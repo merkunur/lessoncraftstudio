@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'pacotes fichas matemática que vendem',
+    primaryKeyword: 'pacotes de atividades de matemática que vendem',
     secondaryKeywords: [
-      'bundles fichas matemática Etsy',
-      'pacotes atividades matemática imprimíveis',
-      'combo fichas matemática vender',
+      'bundles atividades matemática Etsy KDP',
+      'como montar pacotes imprimíveis matemática',
+      'estratégia pacotes digitais que vendem',
     ],
     lsiKeywords: [
-      'estratégia pacotes imprimíveis',
-      'bundle matemática KDP',
-      'fichas matemática atacado',
+      'estratégia bundles imprimíveis',
+      'composição pacote matemática',
+      'preço pacote atividades',
     ],
-    titleTag: 'Pacotes Fichas Matemática que Vendem | LCS',
-    metaDescription: 'Descubra como montar pacotes de fichas de matemática que vendem no Etsy e KDP. Estratégias de preço e composição testadas. Teste grátis com marca d\'água.',
+    titleTag: 'Pacotes atividades de matemática que vendem',
+    metaDescription: 'Monte pacotes de atividades de matemática que vendem. Crie atividades profissionais com LessonCraftStudio — 33 geradores, 11 idiomas, licença comercial.',
   },
   hero: {
     title: 'Pacotes de Fichas de Matemática que Realmente Vendem',

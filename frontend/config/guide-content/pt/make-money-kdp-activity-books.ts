@@ -2,28 +2,17 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'ganhar dinheiro com apostilas KDP 2026',
+    primaryKeyword: 'como ganhar dinheiro com livros de atividades KDP',
     secondaryKeywords: [
-      'como ganhar dinheiro Amazon KDP atividades',
-      'renda passiva KDP livros de atividades',
-      'quanto dá para ganhar KDP apostilas',
-      'negócio de apostilas Amazon KDP 2026',
+      'renda livros atividades KDP',
+      'ganhar dinheiro Amazon KDP atividades',
+      'livros atividades KDP lucrativos',
+      'negócio livros KDP guia',
     ],
-    lsiKeywords: [
-      'Amazon KDP',
-      'ganhar dinheiro',
-      'renda passiva',
-      'apostilas',
-      'livros de atividades',
-      'royalties',
-      'nichos',
-      'estratégia',
-      'Hotmart',
-      'renda extra',
-    ],
-    titleTag: 'Ganhar dinheiro com apostilas KDP (2026) | LCS',
+    lsiKeywords: ['KDP', 'renda', 'livros', 'atividades', 'vendas'],
+    titleTag: 'Ganhar dinheiro com livros de atividades KDP | Guia',
     metaDescription:
-      'Como ganhar dinheiro com apostilas no Amazon KDP em 2026. Nichos, estratégias, royalties e escalamento. Guia completo para iniciantes.',
+      'Guia para ganhar dinheiro com livros de atividades no Amazon KDP. Nichos lucrativos, estratégia de publicação e otimização de vendas.',
   },
 
   hero: {

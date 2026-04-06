@@ -2,30 +2,17 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'imprimíveis de animais de safari para vender',
+    primaryKeyword: 'imprimíveis de animais de safari para vender no Etsy',
     secondaryKeywords: [
-      'atividades safari para vender Etsy',
-      'imprimíveis animais africanos negócio',
-      'pacotes safari educativos Hotmart',
-      'livros atividades safari KDP',
+      'atividades de animais de safari Etsy KDP',
+      'atividades de animais de safari imprimíveis',
+      'negócio imprimíveis animais de safari',
+      'atividades de animais de safari para vender',
     ],
-    lsiKeywords: [
-      'Hotmart',
-      'Kiwify',
-      'Etsy',
-      'Amazon KDP',
-      'renda extra',
-      'negócio de imprimíveis',
-      'licença comercial',
-      'nicho',
-      'ideias de produto',
-      'vendedor',
-      'Brasil',
-      'imprimíveis educativos',
-    ],
-    titleTag: 'Imprimíveis safari para vender | LCS',
+    lsiKeywords: ['safari', 'selva', 'leão', 'girafa'],
+    titleTag: 'Imprimíveis de animais de safari Etsy | Nicho lucrativo',
     metaDescription:
-      'Crie e venda imprimíveis de animais de safari no Etsy, Hotmart e KDP. Leões, elefantes e girafas em atividades educativas que vendem o ano todo.',
+      'Ideias de imprimíveis de animais de safari para Etsy e KDP. Leões, girafas e elefantes em atividades. Crie com LessonCraftStudio — 33 geradores e licença comercial.',
   },
   hero: {
     title: 'Imprimíveis de Safari — Nicho Lucrativo para Vendedores',

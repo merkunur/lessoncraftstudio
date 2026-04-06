@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'imprimíveis preço estratégia preços etsy',
+    primaryKeyword: 'estratégia de preços imprimíveis no Etsy',
     secondaryKeywords: [
-      'estratégia preços imprimíveis Etsy guia',
-      'estratégia preços imprimíveis Etsy dicas',
-      'estratégia preços imprimíveis Etsy estratégia',
+      'como precificar atividades no Etsy',
+      'preço ideal pacotes imprimíveis Etsy',
+      'psicologia de preços produtos digitais',
     ],
     lsiKeywords: [
-      'negócio imprimíveis digital',
-      'vendedor imprimíveis online',
-      'empreendedor digital educativo',
+      'margem lucro imprimíveis',
+      'precificação produtos digitais',
+      'pacotes vs avulso Etsy',
     ],
-    titleTag: 'Estratégia Preços Imprimíveis Etsy | LCS',
-    metaDescription: 'Precificar imprimíveis é uma arte. Preço muito baixo desvaloriza seu trabalho; muito alto afasta compradores. A maioria dos vendedores erra cobrando US$.',
+    titleTag: 'Estratégia de preços imprimíveis no Etsy',
+    metaDescription: 'Defina preços ideais para imprimíveis no Etsy com estratégia. Crie atividades profissionais com LessonCraftStudio — 33 geradores, 11 idiomas, licença comercial.',
   },
   hero: {
     title: 'Estratégia Preços Imprimíveis Etsy',

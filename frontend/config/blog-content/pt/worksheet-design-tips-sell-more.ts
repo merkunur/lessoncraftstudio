@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'dicas design fichas vender mais',
+    primaryKeyword: 'dicas de design para vender mais atividades',
     secondaryKeywords: [
-      'dicas design fichas vender mais passo a passo',
-      'dicas design fichas vender mais tutorial',
-      'dicas design fichas vender mais como fazer',
+      'design atividades imprimíveis vendas',
+      'layout tipografia atividades profissionais',
+      'melhorar design atividades Etsy',
     ],
     lsiKeywords: [
-      'tutorial imprimíveis',
-      'como criar fichas educativas',
-      'guia prático imprimíveis',
+      'cores espaçamento tipografia',
+      'design profissional imprimíveis',
+      'apresentação visual atividades',
     ],
-    titleTag: 'Dicas de Design de Fichas para Vender Mais | LCS',
-    metaDescription: 'O design das suas fichas impacta diretamente as vendas. Cores, espaçamento, tipografia e layout determinam se um comprador percebe seu produto como pr.',
+    titleTag: 'Dicas de design para vender mais atividades',
+    metaDescription: 'Dicas de design que aumentam vendas de atividades imprimíveis. Crie atividades profissionais com LessonCraftStudio — 33 geradores, 11 idiomas, licença comercial.',
   },
   hero: {
     title: 'Dicas de Design de Fichas para Vender Mais',

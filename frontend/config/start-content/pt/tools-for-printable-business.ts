@@ -2,29 +2,22 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'ferramentas essenciais negócio de imprimíveis',
+    primaryKeyword: 'ferramentas para negócio de imprimíveis',
     secondaryKeywords: [
-      'software para criar imprimíveis educativos',
-      'ferramentas para vendedores de atividades',
-      'geradores de atividades para negócio',
-      'kit de ferramentas vendedor de imprimíveis',
+      'melhores ferramentas vendedores imprimíveis',
+      'software criar atividades educativas',
+      'ferramentas essenciais loja Etsy',
+      'gerador de atividades ferramenta',
     ],
     lsiKeywords: [
-      'comparativo geradores de atividades vendedores',
-      'ferramentas de design imprimíveis profissionais',
-      'software de produtividade negócio digital',
-      'Canva para vendedores de imprimíveis',
-      'Adobe Acrobat atividades educativas',
-      'geradores automáticos atividades imprimíveis',
-      'plataformas de venda imprimíveis comparativo',
-      'Hotmart vs Kiwify para vendedores',
-      'Etsy ferramentas vendedor imprimíveis',
-      'automação de produção atividades digitais',
-      'mockup geradores vendedores Etsy',
-      'ferramentas de SEO para vendedores imprimíveis',
+      'ferramentas',
+      'software',
+      'gerador',
+      'design',
+      'produtividade',
     ],
-    titleTag: 'Ferramentas para negócio imprimíveis | LCS',
-    metaDescription: 'Ferramentas essenciais para um negócio de imprimíveis. Geradores de atividades, software de design e plataformas de venda comparados para vendedores.',
+    titleTag: 'Ferramentas para negócio de imprimíveis | Guia',
+    metaDescription: 'Guia de ferramentas essenciais para negócio de imprimíveis. Geradores, design, marketing e produtividade para vendedores.',
   },
 
   hero: {

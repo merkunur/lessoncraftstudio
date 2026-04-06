@@ -2,30 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'criar atividades em vários idiomas para vender',
+    primaryKeyword: 'como criar atividades em vários idiomas',
     secondaryKeywords: [
-      'atividades multilíngues para Etsy',
-      'criar imprimíveis em 11 idiomas',
-      'como vender atividades em português e inglês',
-      'vantagem multilíngue vendedor imprimíveis',
+      'atividades multilíngues para imprimir',
+      'criar atividades 11 idiomas',
+      'imprimíveis vários idiomas guia',
+      'atividades idiomas diferentes Etsy',
     ],
     lsiKeywords: [
-      'vários idiomas',
-      '11 idiomas',
-      'caracteres nativos',
-      'Hotmart',
-      'Etsy',
-      'KDP',
-      'renda extra',
-      'português',
-      'inglês',
-      'mercados globais',
-      'licença comercial',
-      'vendedor',
+      'idiomas',
+      'tradução',
+      'multilíngue',
+      'vocabulário',
+      'internacional',
     ],
-    titleTag: 'Atividades em vários idiomas para vender | LCS',
+    titleTag: 'Como criar atividades em vários idiomas | Guia',
     metaDescription:
-      'Como criar atividades em vários idiomas para vender. 11 idiomas nativos, caracteres autênticos e mercados globais.',
+      'Guia para criar atividades em até 11 idiomas com o LessonCraftStudio. Vocabulário automático, imagens temáticas — amplie seu mercado global.',
   },
 
   hero: {

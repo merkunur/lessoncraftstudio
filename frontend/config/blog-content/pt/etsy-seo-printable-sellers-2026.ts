@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'SEO Etsy vendedores imprimíveis 2026',
+    primaryKeyword: 'SEO Etsy para vendedores de imprimíveis',
     secondaryKeywords: [
-      'SEO Etsy vendedores imprimíveis 2026 guia',
-      'SEO Etsy vendedores imprimíveis 2026 dicas',
-      'SEO Etsy vendedores imprimíveis 2026 estratégia',
+      'algoritmo Etsy para produtos digitais',
+      'como ranquear imprimíveis no Etsy',
+      'tags e títulos SEO Etsy atividades',
     ],
     lsiKeywords: [
-      'negócio imprimíveis digital',
-      'vendedor imprimíveis online',
-      'empreendedor digital educativo',
+      'relevância contextual Etsy',
+      'otimização busca orgânica',
+      'taxa conversão listagem',
     ],
-    titleTag: 'SEO Etsy Imprimíveis 2026 | LCS',
-    metaDescription: 'O algoritmo do Etsy mudou significativamente nos últimos anos. Em 2026, a busca prioriza relevância contextual, qualidade de listagem e taxa de conversã.',
+    titleTag: 'SEO Etsy para vendedores de imprimíveis',
+    metaDescription: 'Domine o SEO Etsy para vender mais imprimíveis. Crie atividades profissionais com LessonCraftStudio — 33 geradores, 11 idiomas, licença comercial.',
   },
   hero: {
     title: 'SEO Etsy Imprimíveis 2026',

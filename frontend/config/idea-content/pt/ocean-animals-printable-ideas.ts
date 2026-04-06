@@ -2,30 +2,17 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'imprimíveis de animais marinhos ideias negócio',
+    primaryKeyword: 'imprimíveis de animais marinhos para vender no Etsy',
     secondaryKeywords: [
-      'atividades animais marinhos para vender',
-      'imprimíveis fundo do mar Etsy',
-      'negócio atividades oceano Hotmart',
-      'livros atividades marinhas KDP',
+      'atividades de animais marinhos Etsy KDP',
+      'atividades de animais marinhos imprimíveis',
+      'negócio imprimíveis animais marinhos',
+      'atividades de animais marinhos para vender',
     ],
-    lsiKeywords: [
-      'Hotmart',
-      'Kiwify',
-      'Etsy',
-      'Amazon KDP',
-      'renda extra',
-      'negócio de imprimíveis',
-      'licença comercial',
-      'nicho',
-      'ideias de produto',
-      'vendedor',
-      'Brasil',
-      'imprimíveis educativos',
-    ],
-    titleTag: 'Imprimíveis animais marinhos | LCS',
+    lsiKeywords: ['oceano', 'mar', 'aquático', 'peixe'],
+    titleTag: 'Imprimíveis de animais marinhos Etsy | Nicho lucrativo',
     metaDescription:
-      'Ideias de imprimíveis de animais marinhos para vender online. Nichos rentáveis no Etsy, Hotmart e KDP com atividades de fundo do mar para crianças.',
+      'Ideias de imprimíveis de animais marinhos para Etsy e KDP. Baleias, golfinhos e tubarões em atividades. Crie com LessonCraftStudio — 33 geradores.',
   },
   hero: {
     title: 'Animais Marinhos — Ideias de Imprimíveis para Negócio Online',

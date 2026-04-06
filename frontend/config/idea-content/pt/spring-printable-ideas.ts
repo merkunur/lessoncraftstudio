@@ -2,30 +2,17 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'imprimíveis de primavera ideias negócio',
+    primaryKeyword: 'imprimíveis de primavera para vender no Etsy',
     secondaryKeywords: [
-      'atividades primavera para vender',
-      'imprimíveis flores borboletas Etsy',
-      'negócio atividades primavera Hotmart',
-      'livros atividades primavera KDP',
+      'atividades de primavera Etsy KDP',
+      'atividades de primavera imprimíveis',
+      'negócio imprimíveis primavera',
+      'atividades de primavera para vender',
     ],
-    lsiKeywords: [
-      'Hotmart',
-      'Kiwify',
-      'Etsy',
-      'Amazon KDP',
-      'renda extra',
-      'negócio de imprimíveis',
-      'licença comercial',
-      'nicho',
-      'ideias de produto',
-      'vendedor',
-      'Brasil',
-      'imprimíveis educativos',
-    ],
-    titleTag: 'Imprimíveis primavera — Negócio | LCS',
+    lsiKeywords: ['primavera', 'flores', 'jardim', 'borboletas'],
+    titleTag: 'Imprimíveis de primavera Etsy | Nicho lucrativo',
     metaDescription:
-      'Ideias de negócio com imprimíveis de primavera. Flores, borboletas e jardim em atividades educativas para Etsy, Hotmart e KDP.',
+      'Ideias de imprimíveis de primavera para Etsy e KDP. Flores, jardim e atividades sazonais. Crie com LessonCraftStudio — 33 geradores e licença comercial.',
   },
   hero: {
     title: 'Primavera — Ideias de Negócio com Imprimíveis Educativos',

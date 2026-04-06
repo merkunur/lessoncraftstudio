@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'fichas comparação tamanhos vender',
+    primaryKeyword: 'vender atividades de comparação de tamanhos',
     secondaryKeywords: [
-      'produção qualidade',
-      'precificação',
-      'marketing seo',
+      'atividades comparação tamanhos Etsy',
+      'grande pequeno atividades vender',
+      'imprimíveis pré-escola comparação',
     ],
     lsiKeywords: [
       'conceito tamanho crianças',
-      'grande médio pequeno fichas',
+      'grande médio pequeno atividades',
       'percepção tamanho Educação Infantil',
     ],
-    titleTag: 'Fichas Comparação Tamanhos: Vender | LCS',
-    metaDescription: 'Venda fichas de comparação de tamanhos online. Essencial para Educação Infantil. Teste grátis com marca d\'água.',
+    titleTag: 'Vender atividades comparação de tamanhos',
+    metaDescription: 'Guia para vender atividades de comparação de tamanhos online. Crie atividades profissionais com LessonCraftStudio — 33 geradores, 11 idiomas, licença comercial.',
   },
   hero: {
     title: 'Fichas de Comparação de Tamanhos: Como Vender',

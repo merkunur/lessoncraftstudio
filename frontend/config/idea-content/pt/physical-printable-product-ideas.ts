@@ -2,30 +2,17 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'produtos impressos físicos ideias negócio',
+    primaryKeyword: 'imprimíveis de produtos impressos físicos para vender no Etsy',
     secondaryKeywords: [
-      'apostilas educativas para vender',
-      'cadernos atividades impressos negócio',
-      'vender material educativo Mercado Livre',
-      'produtos físicos imprimíveis Shopee',
+      'atividades de produtos impressos físicos Etsy KDP',
+      'atividades de produtos impressos físicos imprimíveis',
+      'negócio imprimíveis produtos impressos físicos',
+      'atividades de produtos impressos físicos para vender',
     ],
-    lsiKeywords: [
-      'Hotmart',
-      'Kiwify',
-      'Etsy',
-      'Amazon KDP',
-      'renda extra',
-      'negócio de imprimíveis',
-      'licença comercial',
-      'nicho',
-      'ideias de produto',
-      'vendedor',
-      'Brasil',
-      'imprimíveis educativos',
-    ],
-    titleTag: 'Produtos impressos físicos — Negócio | LCS',
+    lsiKeywords: ['físico', 'impresso', 'gráfica', 'encadernado'],
+    titleTag: 'Imprimíveis de produtos impressos Etsy | Nicho lucrativo',
     metaDescription:
-      'Ideias de negócio com produtos educativos impressos. Cadernos, apostilas e kits físicos para vender na Shopee, Mercado Livre e feiras.',
+      'Ideias de imprimíveis de produtos impressos físicos para Etsy e KDP. Produtos encadernados e impressos em gráfica. Crie com LessonCraftStudio — 33 geradores.',
   },
   hero: {
     title: 'Produtos Impressos Físicos — Ideias de Negócio',

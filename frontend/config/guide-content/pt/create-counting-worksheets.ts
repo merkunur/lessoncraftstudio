@@ -2,30 +2,17 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'criar atividades de contagem para vender no Etsy',
+    primaryKeyword: 'como criar atividades de contagem para imprimir',
     secondaryKeywords: [
-      'como criar atividades de contagem para Hotmart',
-      'atividades de contagem para vender na Etsy',
-      'guia atividades de contagem para Amazon KDP',
-      'atividades de contagem com licença comercial para vender',
+      'tutorial encontre e conte passo a passo',
+      'criar atividades de contagem para vender',
+      'guia contagem com imagens temáticas',
+      'atividades de contagem para Etsy e KDP',
     ],
-    lsiKeywords: [
-      'licença comercial',
-      '300 DPI',
-      'pronto para impressão',
-      'download digital',
-      'gabarito incluso',
-      'Hotmart',
-      'Kiwify',
-      'Etsy',
-      'Amazon KDP',
-      'renda extra',
-      'negócio de imprimíveis',
-      'educação infantil',
-    ],
-    titleTag: 'Atividades de contagem para vender | LCS',
+    lsiKeywords: ['contar', 'números', 'imagens', 'gabarito', 'educação infantil'],
+    titleTag: 'Como criar atividades de contagem | Guia passo a passo',
     metaDescription:
-      'Guia para criar atividades de contagem e gráficos para vender. Pictogramas, estatística infantil e estratégias.',
+      'Guia passo a passo para criar atividades de contagem com imagens temáticas. Gabarito automático, PDF 300 DPI. Teste grátis — venda no Etsy e KDP.',
   },
 
   hero: {

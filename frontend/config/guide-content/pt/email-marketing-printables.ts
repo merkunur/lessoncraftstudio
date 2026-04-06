@@ -4,28 +4,21 @@ const content: GuideContent = {
   seo: {
     primaryKeyword: 'email marketing para vendedores de imprimíveis',
     secondaryKeywords: [
-      'email marketing vendedor de imprimíveis',
-      'lista de emails para negócio digital',
-      'automação email Hotmart imprimíveis',
-      'como converter email em vendas imprimíveis',
+      'lista de emails imprimíveis',
+      'email marketing Etsy vendedores',
+      'newsletter atividades educativas',
+      'captar emails vendedores imprimíveis',
     ],
     lsiKeywords: [
-      'email marketing',
+      'email',
       'lista',
-      'automação',
-      'sequências',
-      'lead magnet',
-      'Hotmart',
-      'Kiwify',
-      'Etsy',
-      'renda extra',
+      'newsletter',
       'conversão',
-      'ROI',
-      'vendedor',
+      'marketing',
     ],
-    titleTag: 'Email marketing para vendedores | LCS',
+    titleTag: 'Email marketing para vendedores de imprimíveis | Guia',
     metaDescription:
-      'Email marketing para vendedores de imprimíveis. Lista, automação, sequências e estratégias de conversão.',
+      'Guia de email marketing para vendedores de imprimíveis. Criar lista, automação, conteúdo e estratégias para converter inscritos em compradores.',
   },
 
   hero: {

@@ -2,30 +2,17 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'criar caça-palavras com imagens para vender',
+    primaryKeyword: 'como criar caça-palavras para imprimir',
     secondaryKeywords: [
-      'como criar caça-palavras com imagens para Hotmart',
-      'caça-palavras com imagens para vender na Etsy',
-      'guia caça-palavras com imagens para Amazon KDP',
-      'caça-palavras com imagens com licença comercial para vender',
+      'tutorial caça-palavras passo a passo',
+      'criar caça-palavras para vender',
+      'guia caça-palavras com imagens',
+      'caça-palavras para Etsy e KDP',
     ],
-    lsiKeywords: [
-      'licença comercial',
-      '300 DPI',
-      'pronto para impressão',
-      'download digital',
-      'gabarito incluso',
-      'Hotmart',
-      'Kiwify',
-      'Etsy',
-      'Amazon KDP',
-      'renda extra',
-      'negócio de imprimíveis',
-      'educação infantil',
-    ],
-    titleTag: 'Caça-palavras com imagens para vender | LCS',
+    lsiKeywords: ['caça-palavras', 'grade', 'vocabulário', 'gabarito', 'PDF'],
+    titleTag: 'Como criar caça-palavras para imprimir | Guia',
     metaDescription:
-      'Guia para criar caça-palavras com imagens para vender. Grades, temas, dificuldade e estratégias para Hotmart, Etsy e KDP.',
+      'Guia passo a passo para criar caça-palavras com 3.000+ imagens temáticas. Grades personalizadas, gabarito automático. Teste grátis — venda no Etsy e KDP.',
   },
 
   hero: {

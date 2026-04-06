@@ -2,30 +2,17 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'imprimíveis de construção para vender',
+    primaryKeyword: 'imprimíveis de construção para vender no Etsy',
     secondaryKeywords: [
-      'atividades construção para vender Etsy',
-      'imprimíveis máquinas educativos Hotmart',
-      'negócio atividades construção online',
-      'livros atividades construção KDP',
+      'atividades de construção Etsy KDP',
+      'atividades de construção imprimíveis',
+      'negócio imprimíveis construção',
+      'atividades de construção para vender',
     ],
-    lsiKeywords: [
-      'Hotmart',
-      'Kiwify',
-      'Etsy',
-      'Amazon KDP',
-      'renda extra',
-      'negócio de imprimíveis',
-      'licença comercial',
-      'nicho',
-      'ideias de produto',
-      'vendedor',
-      'Brasil',
-      'imprimíveis educativos',
-    ],
-    titleTag: 'Imprimíveis construção para vender | LCS',
+    lsiKeywords: ['construção', 'ferramentas', 'máquinas', 'obras'],
+    titleTag: 'Imprimíveis de construção Etsy | Nicho lucrativo',
     metaDescription:
-      'Venda imprimíveis de construção no Etsy e Hotmart. Escavadeiras, guindastes e ferramentas em atividades educativas. Nicho com forte apelo infantil.',
+      'Ideias de imprimíveis de construção para Etsy e KDP. Ferramentas, máquinas e atividades de obras. Crie com LessonCraftStudio — 33 geradores e licença comercial.',
   },
   hero: {
     title: 'Construção — Imprimíveis para Vender Online',

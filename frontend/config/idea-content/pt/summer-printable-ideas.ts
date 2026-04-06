@@ -2,30 +2,17 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'imprimíveis de verão ideias negócio',
+    primaryKeyword: 'imprimíveis de verão para vender no Etsy',
     secondaryKeywords: [
-      'atividades verão para vender online',
-      'imprimíveis férias educativos Etsy',
-      'negócio atividades verão Hotmart',
-      'livros atividades férias KDP',
+      'atividades de verão Etsy KDP',
+      'atividades de verão imprimíveis',
+      'negócio imprimíveis verão',
+      'atividades de verão para vender',
     ],
-    lsiKeywords: [
-      'Hotmart',
-      'Kiwify',
-      'Etsy',
-      'Amazon KDP',
-      'renda extra',
-      'negócio de imprimíveis',
-      'licença comercial',
-      'nicho',
-      'ideias de produto',
-      'vendedor',
-      'Brasil',
-      'imprimíveis educativos',
-    ],
-    titleTag: 'Imprimíveis de verão — Negócio | LCS',
+    lsiKeywords: ['verão', 'férias', 'praia', 'sol'],
+    titleTag: 'Imprimíveis de verão Etsy | Nicho lucrativo',
     metaDescription:
-      'Ideias de negócio com imprimíveis de verão. Atividades educativas de férias para Etsy, Hotmart e KDP. Nicho sazonal com forte demanda.',
+      'Ideias de imprimíveis de verão para Etsy e KDP. Praia, sol e atividades para as férias. Crie com LessonCraftStudio — 33 geradores e licença comercial.',
   },
   hero: {
     title: 'Verão — Ideias de Negócio com Imprimíveis Educativos',

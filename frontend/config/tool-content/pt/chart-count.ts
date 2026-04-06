@@ -1,29 +1,22 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'atividades de contagem e gráficos grátis',
+    primaryKeyword: 'atividades de contagem grátis para imprimir',
     secondaryKeywords: [
-      'gráficos pictóricos para imprimir grátis',
-      'atividades de contagem para educação infantil grátis',
-      'exercícios de gráficos de barras grátis',
-      'atividades de estatística para crianças grátis',
+      'exercícios de gráficos grátis online',
+      'atividades de gráficos grátis ensino fundamental',
+      'contagem e tabelas grátis PDF',
+      'atividades de quantificação grátis',
     ],
     lsiKeywords: [
-      'grátis online',
-      'sem cadastro',
-      'marca d\'água',
-      'imprimir',
-      'PDF',
-      'gabarito',
+      'contar',
       'gráfico de barras',
-      'contagem',
-      'BNCC',
-      'educação infantil',
-      'teste grátis',
-      'licença comercial',
+      'pictograma',
+      'dados',
+      'sem cadastro',
     ],
-    titleTag: 'Atividades de contagem grátis online | LCS',
-    metaDescription: 'Crie atividades de contagem e gráficos de barras grátis. 104 temas, gabarito automático, PDF imprimível. Venda no Etsy & KDP com licenca comercial.',
+    titleTag: 'Atividades de contagem grátis para imprimir | Online',
+    metaDescription: 'Crie atividades de contagem e gráficos grátis com imagens temáticas. Sem cadastro. Gabarito automático, PDF imprimíveis. Marca d\'água removida com licença.',
   },
 
   hero: {

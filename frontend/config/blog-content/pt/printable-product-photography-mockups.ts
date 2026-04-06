@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'foto fotografia mockups imprimíveis',
+    primaryKeyword: 'fotografia de produto para imprimíveis digitais',
     secondaryKeywords: [
-      'passo passo',
-      'ferramentas necessárias',
-      'dicas avançadas',
+      'como fotografar imprimíveis para vender online',
+      'tutorial de mockup para produtos digitais',
+      'fotos profissionais sem equipamento caro',
     ],
     lsiKeywords: [
-      'tutorial imprimíveis',
-      'como criar fichas educativas',
-      'guia prático imprimíveis',
+      'fotografia produto digital',
+      'mockup contexto realista',
+      'iluminação foto imprimível',
     ],
-    titleTag: 'Fotografia e Mockups para Imprimíveis | LCS',
-    metaDescription: 'Fotografia e mockups profissionais para imprimíveis: a foto de listagem é o primeiro contato do comprador. Venda no Etsy & KDP com licença comercial.',
+    titleTag: 'Fotografia de produto para imprimíveis',
+    metaDescription: 'Aprenda fotografia de produto para imprimíveis digitais. Crie atividades profissionais com LessonCraftStudio — 33 geradores, 11 idiomas, licença comercial.',
   },
   hero: {
     title: 'Fotografia e Mockups para Imprimíveis',

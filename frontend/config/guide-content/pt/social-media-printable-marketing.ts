@@ -5,27 +5,20 @@ const content: GuideContent = {
     primaryKeyword: 'redes sociais para vendedores de imprimíveis',
     secondaryKeywords: [
       'marketing redes sociais imprimíveis',
-      'Instagram para vendedor de atividades',
-      'Pinterest para negócio de imprimíveis',
-      'TikTok para vendedores educativos',
+      'Instagram para vendedores atividades',
+      'promover imprimíveis redes sociais',
+      'tráfego redes sociais loja Etsy',
     ],
     lsiKeywords: [
       'redes sociais',
       'Instagram',
-      'Pinterest',
-      'TikTok',
       'marketing',
-      'orgânico',
-      'hashtags',
-      'Hotmart',
-      'Etsy',
-      'renda extra',
-      'negócio',
+      'tráfego',
       'conteúdo',
     ],
-    titleTag: 'Redes sociais para vendedores | LCS',
+    titleTag: 'Redes sociais para vendedores de imprimíveis | Guia',
     metaDescription:
-      'Marketing em redes sociais para vendedores de imprimíveis. Instagram, Pinterest, TikTok e estratégias orgânicas.',
+      'Guia de marketing em redes sociais para vendedores de imprimíveis. Instagram, Pinterest, conteúdo e estratégias para gerar tráfego.',
   },
 
   hero: {

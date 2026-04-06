@@ -2,29 +2,22 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'gerador de atividades de traçado grátis',
+    primaryKeyword: 'atividades de pontilhado grátis para imprimir',
     secondaryKeywords: [
-      'atividades de coordenação motora para imprimir grátis',
-      'criar atividades de traçado online grátis',
-      'exercícios de pregrafismo grátis',
-      'atividades de traçar linhas grátis',
+      'coordenação motora pontilhado grátis',
+      'cobrir pontilhado grátis atividade',
+      'tracejado para imprimir grátis',
+      'coordenação motora grátis educação infantil',
     ],
     lsiKeywords: [
-      'grátis online',
+      'linhas',
+      'curvas',
+      'pontilhado',
+      'coordenação motora fina',
       'sem cadastro',
-      'marca d\'água',
-      'imprimir',
-      'PDF',
-      'gabarito',
-      'coordenação motora',
-      'traçado',
-      'pregrafismo',
-      'educação infantil',
-      'teste grátis',
-      'licença comercial',
     ],
-    titleTag: 'Atividades de traçado grátis online | LCS',
-    metaDescription: 'Crie atividades de traçado e coordenação motora grátis. 104 temas, caminhos configuráveis, PDF imprimível. Venda no Etsy & KDP com licenca comercial.',
+    titleTag: 'Atividades de pontilhado grátis para imprimir | Online',
+    metaDescription: 'Crie atividades de pontilhado e coordenação motora grátis. Sem cadastro. Imagens temáticas, PDF 300 DPI. Marca d\'água removida com licença.',
   },
 
   hero: {

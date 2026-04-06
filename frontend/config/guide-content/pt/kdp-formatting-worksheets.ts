@@ -2,28 +2,17 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'formatação KDP para livros de atividades guia',
+    primaryKeyword: 'como formatar atividades para KDP',
     secondaryKeywords: [
-      'como formatar interior KDP atividades',
-      'tamanho de corte KDP apostilas',
-      'margens e sangria KDP livros atividades',
-      'PDF interior KDP formatação guia',
+      'formatação livro atividades KDP',
+      'tamanho página KDP atividades',
+      'margens KDP livro exercícios',
+      'template KDP atividades educativas',
     ],
-    lsiKeywords: [
-      'Amazon KDP',
-      'formatação',
-      'interior',
-      'tamanho de corte',
-      'margens',
-      'sangria',
-      'PDF',
-      'apostila',
-      'livro de atividades',
-      'impressão',
-    ],
-    titleTag: 'Formatação KDP livros de atividades | LCS',
+    lsiKeywords: ['KDP', 'formatação', 'margens', 'tamanho', 'PDF'],
+    titleTag: 'Como formatar atividades para KDP | Guia técnico',
     metaDescription:
-      'Guia de formatação KDP para livros de atividades. Tamanho de corte, margens, sangria, resolução e PDF interior. Passo a passo.',
+      'Guia técnico de formatação de atividades para Amazon KDP. Tamanho de página, margens, resolução e exportação PDF passo a passo.',
   },
 
   hero: {

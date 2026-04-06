@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'direitos autorais vendedores imprimíveis',
+    primaryKeyword: 'direitos autorais para vendedores de imprimíveis',
     secondaryKeywords: [
-      'estratégias funcionam',
-      'mercado brasileiro internacional',
-      'ferramentas recursos',
+      'copyright para vendedores Etsy',
+      'proteger imprimíveis contra cópia',
+      'direitos autorais atividades educativas',
     ],
     lsiKeywords: [
-      'negócio imprimíveis digital',
-      'vendedor imprimíveis online',
-      'empreendedor digital educativo',
+      'direitos autorais',
+      'copyright',
+      'propriedade intelectual',
     ],
-    titleTag: 'Direitos Autorais para Vendedores | LCS',
-    metaDescription: 'Questões de direitos autorais podem destruir seu negócio de imprimíveis. Usar imagens sem licença, copiar designs de concorrentes ou vender sem licença .',
+    titleTag: 'Direitos autorais para vendedores | Básico',
+    metaDescription: 'Proteja seu negócio entendendo direitos autorais de imprimíveis. Crie atividades profissionais com LessonCraftStudio — 33 geradores, 11 idiomas, licença comercial.',
   },
   hero: {
     title: 'Direitos Autorais para Vendedores',

@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'vender fichas de subtração online 2026',
+    primaryKeyword: 'como vender atividades de subtração online',
     secondaryKeywords: [
-      'fichas subtração Etsy negócio',
+      'atividades subtração Etsy negócio',
       'imprimíveis subtração vender online',
-      'fichas matemática subtração lucro',
+      'atividades matemática subtração lucro',
     ],
     lsiKeywords: [
-      'negócio fichas matemática',
+      'negócio imprimíveis matemática',
       'subtração Ensino Fundamental',
-      'download digital fichas subtração',
+      'download digital atividades',
     ],
-    titleTag: 'Vender Fichas de Subtração Online: Guia | LCS',
-    metaDescription: 'Descubra como vender fichas de subtração online com lucro. Estratégias para Etsy, KDP e Hotmart. Teste grátis com marca d\'água o gerador.',
+    titleTag: 'Vender atividades de subtração online | Guia',
+    metaDescription: 'Como vender atividades de subtração online com lucro no Etsy e KDP. Crie atividades profissionais com LessonCraftStudio — 33 geradores, 11 idiomas, licença comercial.',
   },
   hero: {
     title: 'Como Vender Fichas de Subtração Online com Lucro',

@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'primavera imprimíveis vender',
+    primaryKeyword: 'atividades de primavera para vender',
     secondaryKeywords: [
-      'imprimíveis primavera vender negócio',
-      'imprimíveis primavera vender vender',
-      'imprimíveis primavera vender Etsy',
+      'imprimíveis primavera Etsy negócio',
+      'atividades sazonais primavera vender',
+      'atividades flores borboletas imprimíveis',
     ],
     lsiKeywords: [
       'imprimíveis sazonais vender',
-      'nicho educativo imprimíveis',
-      'mercado imprimíveis temáticos',
+      'primavera hemisfério sul atividades',
+      'atividades temáticas estações',
     ],
-    titleTag: 'Imprimíveis de Primavera: Vender | LCS',
-    metaDescription: 'A primavera no hemisfério sul vai de setembro a dezembro — não de março a junho como no hemisfério norte! Para vendedores brasileiros, isso significa .',
+    titleTag: 'Atividades de primavera para vender | Sazonal',
+    metaDescription: 'Como criar e vender atividades de primavera para duas temporadas. Crie atividades profissionais com LessonCraftStudio — 33 geradores, 11 idiomas, licença comercial.',
   },
   hero: {
     title: 'Imprimíveis de Primavera: Vender',

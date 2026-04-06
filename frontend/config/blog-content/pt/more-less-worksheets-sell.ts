@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'fichas mais menos vender',
+    primaryKeyword: 'vender atividades de maior e menor',
     secondaryKeywords: [
-      'more less worksheets sell',
-      'fichas maior menor negócio',
-      'atividades mais menos imprimíveis',
+      'atividades de comparação de quantidades para vender',
+      'imprimíveis de maior e menor para Etsy',
+      'negócio de atividades pré-matemáticas',
     ],
     lsiKeywords: [
       'comparação quantidades crianças',
-      'maior que menor que fichas',
-      'conceito quantidade pré-escolar',
+      'maior que menor que imprimível',
+      'conceito pré-escolar matemático',
     ],
-    titleTag: 'Fichas Mais/Menos: Vender Online | LCS',
-    metaDescription: 'Venda fichas de mais e menos online. Conceito matemático essencial. Teste grátis com marca d\'água o gerador.',
+    titleTag: 'Vender atividades de maior e menor | Guia',
+    metaDescription: 'Venda atividades de maior e menor online com alta demanda. Crie atividades profissionais com LessonCraftStudio — 33 geradores, 11 idiomas, licença comercial.',
   },
   hero: {
     title: 'Fichas de Mais e Menos: Como Vender Online',

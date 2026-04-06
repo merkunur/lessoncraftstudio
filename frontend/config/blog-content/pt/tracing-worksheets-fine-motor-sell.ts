@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'fichas traçado motricidade fina vender',
+    primaryKeyword: 'vender atividades de pontilhado e coordenação',
     secondaryKeywords: [
-      'progressão natural traçado',
-      'diferenciação temas visuais',
-      'mercado brasileiro internacional',
+      'atividades traçado motricidade fina vender',
+      'imprimíveis pontilhado pré-escola Etsy',
+      'atividades coordenação motora negócio',
     ],
     lsiKeywords: [
-      'coordenação motora fina fichas',
+      'coordenação motora fina atividades',
       'pré-escrita Educação Infantil',
       'treino lápis crianças',
     ],
-    titleTag: 'Fichas Traçado Motricidade Fina: Vender | LCS',
-    metaDescription: 'Venda fichas de traçado para motricidade fina. Demanda alta em Educação Infantil. Teste grátis com marca d\'água o gerador.',
+    titleTag: 'Vender atividades pontilhado e coordenação',
+    metaDescription: 'Guia para vender atividades de pontilhado e coordenação motora. Crie atividades profissionais com LessonCraftStudio — 33 geradores, 11 idiomas, licença comercial.',
   },
   hero: {
     title: 'Fichas de Traçado e Motricidade Fina: Venda Online',

@@ -2,28 +2,17 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'criar livros de sudoku para Amazon KDP',
+    primaryKeyword: 'como publicar livros de sudoku no KDP',
     secondaryKeywords: [
-      'livro de sudoku Amazon KDP guia',
-      'publicar livro de sudoku KDP',
-      'sudoku com imagens KDP nicho',
-      'como criar livro de sudoku para vender',
+      'livro sudoku KDP guia',
+      'publicar sudoku Amazon',
+      'KDP livro sudoku estratégia',
+      'livros sudoku infantil KDP',
     ],
-    lsiKeywords: [
-      'Amazon KDP',
-      'sudoku',
-      'livro de sudoku',
-      'formatação',
-      'capa',
-      'royalties',
-      'nichos',
-      'sudoku visual',
-      'crianças',
-      'raciocínio lógico',
-    ],
-    titleTag: 'Livros de sudoku para Amazon KDP — guia | LCS',
+    lsiKeywords: ['KDP', 'livro', 'sudoku', 'formato', 'publicar'],
+    titleTag: 'Como publicar livros de sudoku no KDP | Guia',
     metaDescription:
-      'Crie livros de sudoku para Amazon KDP. Sudoku com imagens para crianças, formatação, preços e estratégias de publicação.',
+      'Guia para publicar livros de sudoku no Amazon KDP. Formatação, dificuldade, nichos e estratégia para livros de sudoku com imagens.',
   },
 
   hero: {

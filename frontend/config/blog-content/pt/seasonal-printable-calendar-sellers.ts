@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'calendário sazonal vendedores imprimíveis',
+    primaryKeyword: 'calendário sazonal para vendedores de imprimíveis',
     secondaryKeywords: [
-      'estratégias funcionam',
-      'mercado brasileiro internacional',
-      'ferramentas recursos',
+      'planejamento sazonal para loja de atividades',
+      'datas comemorativas para vendedores Etsy',
+      'lançamentos sazonais de imprimíveis no Brasil',
     ],
     lsiKeywords: [
-      'negócio imprimíveis digital',
-      'vendedor imprimíveis online',
-      'empreendedor digital educativo',
+      'volta às aulas fevereiro',
+      'Festas Juninas imprimíveis',
+      'Dia das Crianças outubro',
     ],
-    titleTag: 'Calendário Sazonal para Vendedores | LCS',
-    metaDescription: 'Vendedores de imprimíveis que planejam lançamentos sazonais vendem 2-3x mais que os que publicam aleatoriamente. No Brasil, o calendário sazonal é único.',
+    titleTag: 'Calendário sazonal vendedores imprimíveis',
+    metaDescription: 'Planeje lançamentos sazonais e venda mais imprimíveis. Crie atividades profissionais com LessonCraftStudio — 33 geradores, 11 idiomas, licença comercial.',
   },
   hero: {
     title: 'Calendário Sazonal para Vendedores',

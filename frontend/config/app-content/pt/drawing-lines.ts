@@ -2,32 +2,22 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'atividades de traçado e coordenação motora para vender',
+    primaryKeyword: 'atividades de pontilhado para imprimir',
     secondaryKeywords: [
-      'gerador de atividades de coordenação motora para Hotmart',
-      'atividades de traçado para vender na Etsy',
-      'exercícios de pregrafismo para Amazon KDP',
-      'atividades de coordenação motora fina licença comercial',
+      'coordenação motora pontilhado',
+      'cobrir pontilhado atividade',
+      'tracejado para imprimir',
+      'atividades de coordenação motora educação infantil',
     ],
     lsiKeywords: [
-      'licença comercial',
-      '300 DPI',
-      'pronto para impressão',
-      'coordenação motora',
-      'traçado',
-      'pregrafismo',
-      'download digital',
-      'gabarito incluso',
-      'habilidade motora fina',
+      'linhas',
+      'curvas',
+      'pontilhado',
+      'coordenação motora fina',
       'educação infantil',
-      'ensino fundamental',
-      'negócio de imprimíveis',
-      'renda extra',
-      'Hotmart',
-      'Kiwify',
     ],
-    titleTag: 'Atividades de coordenação motora para vender | LCS',
-    metaDescription: 'Crie atividades de traçado e coordenação motora para vender na Hotmart, Etsy e KDP. 104 temas, caminhos configuráveis. 49 $ pagamento unico.',
+    titleTag: 'Atividades de pontilhado para imprimir | Gerador',
+    metaDescription: 'Crie atividades de pontilhado e coordenação motora com imagens temáticas. PDF 300 DPI imprimíveis. Teste grátis — licença comercial incluída.',
   },
 
   hero: {

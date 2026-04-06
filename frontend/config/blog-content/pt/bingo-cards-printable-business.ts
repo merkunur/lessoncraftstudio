@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'cartelas bingo imprimíveis negócio',
+    primaryKeyword: 'negócio de cartelas de bingo imprimíveis',
     secondaryKeywords: [
-      'bingo cards printable business',
-      'vender cartelas bingo Etsy',
-      'bingo educativo imprimível negócio',
+      'vender cartelas de bingo no Etsy',
+      'bingo educativo imprimível para venda',
+      'criar cartelas de bingo personalizadas',
     ],
     lsiKeywords: [
-      'jogo bingo imprimível',
-      'bingo temático crianças',
-      'cartelas bingo personalizadas',
+      'bingo imprimível',
+      'cartelas personalizadas',
+      'jogo educativo',
     ],
-    titleTag: 'Cartelas Bingo Imprimíveis: Negócio | LCS',
-    metaDescription: 'Monte um negócio vendendo cartelas de bingo imprimíveis. Demanda para educação e festas. Teste grátis com marca d\'água.',
+    titleTag: 'Negócio de cartelas de bingo imprimíveis',
+    metaDescription: 'Monte um negócio vendendo cartelas de bingo imprimíveis. Crie atividades profissionais com LessonCraftStudio — 33 geradores, 11 idiomas, licença comercial.',
   },
   hero: {
     title: 'Cartelas de Bingo Imprimíveis: Monte Seu Negócio',

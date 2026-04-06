@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'imprimíveis atividades verão vender',
+    primaryKeyword: 'atividades de verão para vender',
     secondaryKeywords: [
-      'imprimíveis atividades verão vender negócio',
-      'imprimíveis atividades verão vender vender',
-      'imprimíveis atividades verão vender Etsy',
+      'imprimíveis verão férias negócio',
+      'atividades férias verão Etsy',
+      'atividades sazonais verão crianças',
     ],
     lsiKeywords: [
       'imprimíveis sazonais vender',
-      'nicho educativo imprimíveis',
-      'mercado imprimíveis temáticos',
+      'férias verão atividades crianças',
+      'atividades temáticas estações',
     ],
-    titleTag: 'Imprimíveis Atividades de Verão: Vender | LCS',
-    metaDescription: 'As férias de verão são um período de alta demanda por atividades educativas que mantenham crianças ocupadas. No Brasil, o verão vai de dezembro a feve.',
+    titleTag: 'Atividades de verão para vender | Sazonal',
+    metaDescription: 'Como criar e vender atividades de verão para férias escolares. Crie atividades profissionais com LessonCraftStudio — 33 geradores, 11 idiomas, licença comercial.',
   },
   hero: {
     title: 'Imprimíveis Atividades de Verão: Vender',

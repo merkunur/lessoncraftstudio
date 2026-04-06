@@ -2,31 +2,22 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'procure conte vender online crie atividades procurar contar',
+    primaryKeyword: 'encontre e conte para imprimir',
     secondaryKeywords: [
-      'gerador de procure e conte para Hotmart',
-      'atividades de encontre e conte para Amazon KDP',
-      'atividades de contagem visual com licença comercial',
-      'procure e conte para vender na Kiwify',
+      'contar objetos atividade',
+      'quantos tem? atividade',
+      'atividade de contagem educação infantil',
+      'encontre e conte atividade',
     ],
     lsiKeywords: [
-      'licença comercial',
-      '300 DPI',
-      'pronto para impressão',
-      'procurar e contar',
-      'encontrar e contar',
-      'download digital',
-      'gabarito incluso',
-      'contagem',
+      'contar',
+      'quantos',
+      'discriminação visual',
+      'números',
       'educação infantil',
-      'ensino fundamental',
-      'negócio de imprimíveis',
-      'renda extra',
-      'Hotmart',
-      'Kiwify',
     ],
-    titleTag: 'Procure e conte para vender online | LCS',
-    metaDescription: 'Crie atividades de procurar e contar para vender na Hotmart, Etsy e KDP. 104 temas, gabarito automático, licença comercial. 49 $ pagamento unico.',
+    titleTag: 'Encontre e conte para imprimir | Gerador de contagem',
+    metaDescription: 'Crie atividades de "encontre e conte" onde as crianças procuram e contam imagens temáticas. Gabarito automático. Teste grátis.',
   },
 
   hero: {

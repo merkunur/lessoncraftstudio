@@ -2,30 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'licença comercial para vendedores de imprimíveis',
+    primaryKeyword: 'licença comercial para imprimíveis educativos',
     secondaryKeywords: [
-      'como funciona licença comercial imprimíveis',
-      'licença comercial para Etsy e Hotmart',
-      'direitos de uso comercial atividades',
-      'licença para vender imprimíveis educativos',
+      'o que é licença comercial imprimíveis',
+      'licença comercial Etsy KDP',
+      'direitos comerciais atividades educativas',
+      'licença comercial vender imprimíveis',
     ],
     lsiKeywords: [
-      'licença comercial',
-      'uso comercial',
+      'licença',
+      'comercial',
       'direitos',
-      'atribuição',
-      'royalties',
-      'Hotmart',
-      'Etsy',
-      'KDP',
-      'renda extra',
-      'negócio de imprimíveis',
-      'proteção legal',
-      'vendedor',
+      'revenda',
+      'legal',
     ],
-    titleTag: 'Licença comercial para vendedores | LCS',
+    titleTag: 'Licença comercial para imprimíveis | Guia completo',
     metaDescription:
-      'Entenda a licença comercial para vendedores de imprimíveis. O que permite, o que proíbe e como proteger seu negócio.',
+      'Guia sobre licença comercial para imprimíveis educativos. O que permite, como funciona e por que é essencial para vender no Etsy e KDP.',
   },
 
   hero: {

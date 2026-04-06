@@ -2,30 +2,17 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'imprimíveis de animais da fazenda para vender',
+    primaryKeyword: 'imprimíveis de animais da fazenda para vender no Etsy',
     secondaryKeywords: [
-      'atividades animais da fazenda para vender Etsy',
-      'negócio imprimíveis tema fazenda Hotmart',
-      'atividades educativas fazenda para vendedores',
-      'vender imprimíveis fazenda Amazon KDP',
+      'atividades de animais da fazenda Etsy KDP',
+      'atividades de animais da fazenda imprimíveis',
+      'negócio imprimíveis animais da fazenda',
+      'atividades de animais da fazenda para vender',
     ],
-    lsiKeywords: [
-      'Hotmart',
-      'Kiwify',
-      'Etsy',
-      'Amazon KDP',
-      'renda extra',
-      'negócio de imprimíveis',
-      'licença comercial',
-      'nicho',
-      'ideias de produto',
-      'vendedor',
-      'Brasil',
-      'imprimíveis educativos',
-    ],
-    titleTag: 'Imprimíveis fazenda para Etsy | LCS',
+    lsiKeywords: ['fazenda', 'animais', 'rural', 'educação infantil'],
+    titleTag: 'Imprimíveis de animais da fazenda Etsy | Nicho lucrativo',
     metaDescription:
-      'Descubra como criar e vender imprimíveis de animais da fazenda no Etsy, Hotmart e KDP. Ideias de produtos, nichos rentáveis e estratégias para vendedores.',
+      'Ideias de imprimíveis de animais da fazenda para Etsy e KDP. Vacas, porcos e galinhas em atividades educativas. Crie com LessonCraftStudio — 33 geradores.',
   },
   hero: {
     title: 'Imprimíveis de Animais da Fazenda — Ideias para Vender Online',

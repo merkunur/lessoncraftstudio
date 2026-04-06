@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'escalar negócio imprimíveis',
+    primaryKeyword: 'como escalar negócio de imprimíveis com automação',
     secondaryKeywords: [
-      'escalar negócio imprimíveis automação guia',
-      'escalar negócio imprimíveis automação dicas',
-      'escalar negócio imprimíveis automação estratégia',
+      'automação para vendedores de atividades',
+      'produzir mais imprimíveis com geradores',
+      'processos padronizados para escalar vendas',
     ],
     lsiKeywords: [
-      'negócio imprimíveis digital',
-      'vendedor imprimíveis online',
-      'empreendedor digital educativo',
+      'automação produção atividades',
+      'escala negócio digital',
+      'templates listagem vendedor',
     ],
-    titleTag: 'Escalar Negócio Imprimíveis | LCS',
-    metaDescription: 'Escalar seu negócio de imprimíveis com automação: a diferença entre US$ 200/mês e US$ 2.000/mês. Geradores, templates e programação de publicações.',
+    titleTag: 'Escalar negócio imprimíveis com automação',
+    metaDescription: 'Escale seu negócio de imprimíveis com automação eficiente. Crie atividades profissionais com LessonCraftStudio — 33 geradores, 11 idiomas, licença comercial.',
   },
   hero: {
     title: 'Escalar Negócio Imprimíveis',

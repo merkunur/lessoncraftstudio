@@ -2,29 +2,23 @@ import type { BundleContent } from '../types';
 
 const content: BundleContent = {
   seo: {
-    primaryKeyword: 'pacote atividades visuais para vendedores',
+    primaryKeyword: 'pacote geradores de atividades visuais',
     secondaryKeywords: [
-      'pacote geradores de atividades visuais comercial',
-      'kit atividades de colorir e desenho vendedores',
-      'pacote imprimíveis visuais Etsy KDP',
-      'atividades de arte e desenho uso comercial',
+      'pack atividades visuais licença comercial',
+      'geradores de aprendizagem visual para Etsy e KDP',
+      'kit atividades observação associação',
+      'ferramentas visuais para imprimíveis',
     ],
     lsiKeywords: [
-      'páginas para colorir gerador comercial',
-      'atividades de desenho imprimíveis vendedores',
-      'arte educativa imprimível uso comercial',
-      'colorir por números gerador atividades',
-      'desenho guiado atividades crianças vendedores',
-      'apostilas KDP colorir e desenho',
-      'Etsy loja atividades visuais imprimíveis',
-      'Hotmart atividades de arte educativas',
-      'Kiwify pacote atividades visuais',
-      'atividades motricidade fina imprimíveis',
-      'criatividade infantil atividades comercial',
-      'licença comercial atividades visuais',
+      'observação',
+      'associação',
+      'sombras',
+      'objetos',
+      'contagem',
+      'licença comercial',
     ],
-    titleTag: 'Pacote atividades visuais vendedores | LCS',
-    metaDescription: 'Pacote com geradores de atividades visuais: colorir, desenho, arte e mais. 149 $ pagamento unico.',
+    titleTag: 'Pacote geradores atividades visuais | 7 ferramentas',
+    metaDescription: 'Pacote de 7 geradores de atividades visuais. Associação, sombras, objetos escondidos, contagem. Licença comercial. $149 pagamento único.',
   },
 
   hero: {

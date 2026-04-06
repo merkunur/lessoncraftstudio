@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'imprimíveis tema animais vender',
+    primaryKeyword: 'atividades de animais para vender',
     secondaryKeywords: [
-      'imprimíveis tema animais vender negócio',
-      'imprimíveis tema animais vender vender',
-      'imprimíveis tema animais vender Etsy',
+      'imprimíveis tema animais Etsy e KDP',
+      'atividades infantis de animais lucrativas',
+      'nicho de animais para imprimíveis',
     ],
     lsiKeywords: [
-      'imprimíveis sazonais vender',
-      'nicho educativo imprimíveis',
-      'mercado imprimíveis temáticos',
+      'tema animais',
+      'nicho perene',
+      'imprimíveis infantis',
     ],
-    titleTag: 'Imprimíveis Tema Animais: Vender | LCS',
-    metaDescription: 'Animais são o tema #1 para imprimíveis infantis em todas as plataformas. Fichas com animais vendem consistentemente melhor que temas genéricos. Subnic.',
+    titleTag: 'Atividades de animais para vender | Etsy e KDP',
+    metaDescription: 'Venda atividades com tema de animais no Etsy e KDP. Crie atividades profissionais com LessonCraftStudio — 33 geradores, 11 idiomas, licença comercial.',
   },
   hero: {
     title: 'Imprimíveis Tema Animais: Vender',

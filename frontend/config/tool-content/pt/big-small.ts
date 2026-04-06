@@ -1,29 +1,16 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'atividades de comparação de tamanhos grátis',
+    primaryKeyword: 'atividade grande e pequeno grátis',
     secondaryKeywords: [
-      'atividades de grande e pequeno para imprimir grátis',
-      'exercícios de tamanhos grátis para crianças',
-      'grande e pequeno grátis online',
-      'atividades de comparação grátis',
+      'comparar tamanhos grátis online',
+      'maior e menor grátis atividade',
+      'ordenar por tamanho grátis exercício',
+      'tamanhos grátis educação infantil',
     ],
-    lsiKeywords: [
-      'grátis online',
-      'sem cadastro',
-      'marca d\'água',
-      'imprimir',
-      'PDF',
-      'gabarito',
-      'grande e pequeno',
-      'comparação de tamanhos',
-      '104 temas',
-      'educação infantil',
-      'teste grátis',
-      'licença comercial',
-    ],
-    titleTag: 'Comparação de tamanhos grátis online | LCS',
-    metaDescription: 'Crie atividades de grande e pequeno grátis com imagens. 104 temas, gabarito automático, PDF imprimível. Venda no Etsy & KDP com licenca comercial.',
+    lsiKeywords: ['grande', 'pequeno', 'médio', 'ordenar', 'sem cadastro'],
+    titleTag: 'Atividade grande e pequeno grátis | Online',
+    metaDescription: 'Crie atividades de comparação de tamanhos grátis com imagens temáticas. Sem cadastro. Gabarito automático. Marca d\'água removida com licença.',
   },
 
   hero: {

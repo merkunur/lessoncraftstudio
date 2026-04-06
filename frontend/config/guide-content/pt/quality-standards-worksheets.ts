@@ -2,30 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'padrões de qualidade para atividades vendáveis',
+    primaryKeyword: 'padrões de qualidade para atividades imprimíveis',
     secondaryKeywords: [
-      'qualidade para imprimíveis que vendem',
-      'padrões profissionais atividades Etsy',
-      'resolução e formato para imprimíveis',
-      'checklist qualidade atividades educativas',
+      'qualidade imprimíveis educativos',
+      'resolução PDF atividades padrão',
+      'check-list qualidade atividades',
+      'padrões profissionais imprimíveis',
     ],
     lsiKeywords: [
       'qualidade',
       'resolução',
+      'PDF',
       '300 DPI',
-      'layout',
-      'gabarito',
       'profissional',
-      'Hotmart',
-      'Etsy',
-      'KDP',
-      'avaliações',
-      'padrões',
-      'vendedor',
     ],
-    titleTag: 'Qualidade para atividades que vendem | LCS',
+    titleTag: 'Padrões de qualidade para atividades | Guia',
     metaDescription:
-      'Padrões de qualidade para atividades que vendem. Resolução, layout, gabarito e o que compradores esperam.',
+      'Guia de padrões de qualidade para atividades imprimíveis. Resolução, formatação, design e check-list para produtos profissionais.',
   },
 
   hero: {

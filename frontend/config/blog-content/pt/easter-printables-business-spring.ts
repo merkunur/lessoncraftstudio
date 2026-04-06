@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'imprimíveis Páscoa negócio',
+    primaryKeyword: 'atividades de Páscoa para vender',
     secondaryKeywords: [
-      'imprimíveis Páscoa negócio negócio',
-      'imprimíveis Páscoa negócio vender',
-      'imprimíveis Páscoa negócio Etsy',
+      'imprimíveis de Páscoa para Etsy',
+      'atividades temáticas de Páscoa lucrativas',
+      'nicho sazonal de Páscoa imprimíveis',
     ],
     lsiKeywords: [
-      'imprimíveis sazonais vender',
-      'nicho educativo imprimíveis',
-      'mercado imprimíveis temáticos',
+      'Páscoa',
+      'sazonal',
+      'imprimíveis infantis',
     ],
-    titleTag: 'Imprimíveis de Páscoa: Negócio | LCS',
-    metaDescription: 'A Páscoa é uma das datas mais lucrativas para imprimíveis infantis. Venda no Etsy & KDP com licenca comercial.',
+    titleTag: 'Atividades de Páscoa para vender | Sazonal',
+    metaDescription: 'Lucre com atividades de Páscoa no Etsy e plataformas digitais. Crie atividades profissionais com LessonCraftStudio — 33 geradores, 11 idiomas, licença comercial.',
   },
   hero: {
     title: 'Imprimíveis de Páscoa: Negócio',

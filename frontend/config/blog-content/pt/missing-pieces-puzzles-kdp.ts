@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'puzzles peças faltantes KDP',
+    primaryKeyword: 'livros de peças faltando no KDP',
     secondaryKeywords: [
-      'fichas peças faltantes vender',
-      'missing pieces puzzles business',
-      'atividades completar imagem negócio',
+      'atividades de completar imagem para vender',
+      'puzzles de peças faltantes no Amazon KDP',
+      'livro de percepção visual para crianças',
     ],
     lsiKeywords: [
       'raciocínio visual completar',
-      'puzzle cognitivo crianças',
-      'percepção visual fichas',
+      'puzzle cognitivo infantil',
+      'percepção espacial imprimível',
     ],
-    titleTag: 'Puzzles Peças Faltantes KDP | LCS',
-    metaDescription: 'Publique livros de puzzles de peças faltantes no KDP. Nicho cognitivo com demanda crescente. Teste grátis com marca d\'água.',
+    titleTag: 'Livros de peças faltando no KDP | Guia',
+    metaDescription: 'Publique livros de puzzles de peças faltantes no Amazon KDP. Crie atividades profissionais com LessonCraftStudio — 33 geradores, 11 idiomas, licença comercial.',
   },
   hero: {
     title: 'Puzzles de Peças Faltantes: Publique no KDP',

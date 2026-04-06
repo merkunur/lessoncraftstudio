@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'fichas labirintos imagens negócio',
+    primaryKeyword: 'negócio de atividades de labirinto',
     secondaryKeywords: [
-      'labirintos imprimíveis vender Etsy',
-      'maze worksheets kids business',
-      'fichas labirinto crianças negócio',
+      'atividades de labirinto com imagens para vender',
+      'imprimíveis de labirinto temático para Etsy',
+      'livros de labirinto para crianças no KDP',
     ],
     lsiKeywords: [
       'labirinto temático educativo',
-      'coordenação motora labirinto',
-      'puzzle caminho crianças',
+      'coordenação motora infantil',
+      'puzzle de caminho imprimível',
     ],
-    titleTag: 'Fichas Labirintos Imagens: Negócio | LCS',
-    metaDescription: 'Monte um negócio com fichas de labirintos com imagens. Nicho perene e versátil. Teste grátis com marca d\'água. Venda no Etsy & KDP com licenca comercial.',
+    titleTag: 'Negócio de atividades de labirinto | Guia',
+    metaDescription: 'Monte um negócio com atividades de labirinto com imagens. Crie atividades profissionais com LessonCraftStudio — 33 geradores, 11 idiomas, licença comercial.',
   },
   hero: {
     title: 'Fichas de Labirintos com Imagens: Negócio Lucrativo',

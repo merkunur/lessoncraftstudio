@@ -2,31 +2,21 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'peças faltantes vender online crie quebra cabeças hotmart',
+    primaryKeyword: 'quebra-cabeça para imprimir',
     secondaryKeywords: [
-      'gerador de peças faltantes para vender na Hotmart',
-      'atividades de puzzle visual para Etsy',
-      'quebra-cabeça de completar imagens para Amazon KDP',
-      'atividades de peças faltantes com licença comercial',
+      'peças faltando atividade',
+      'complete o puzzle exercício',
+      'observação visual atividade',
+      'lógica visual para imprimir',
     ],
     lsiKeywords: [
-      'licença comercial',
-      '300 DPI',
-      'pronto para impressão',
-      'peças faltantes',
-      'puzzle visual',
-      'download digital',
-      'gabarito incluso',
-      'raciocínio lógico',
-      'educação infantil',
-      'ensino fundamental',
-      'negócio de imprimíveis',
-      'renda extra',
-      'Hotmart',
-      'Kiwify',
+      'quebra-cabeça',
+      'completar',
+      'observar',
+      'raciocínio visual',
     ],
-    titleTag: 'Peças faltantes para vender online | LCS',
-    metaDescription: 'Crie quebra-cabeças de peças faltantes para vender na Hotmart, Etsy e KDP. 104 temas, gabarito automático. Teste grátis com marca d\'água. 49 $ pagamento unico.',
+    titleTag: 'Quebra-cabeça peças faltando | Gerador de lógica',
+    metaDescription: 'Crie atividades de "peças faltando" com imagens temáticas e gabarito automático. PDF 300 DPI imprimíveis. Teste grátis.',
   },
 
   hero: {

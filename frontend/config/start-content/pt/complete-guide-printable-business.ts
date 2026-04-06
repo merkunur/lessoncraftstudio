@@ -2,29 +2,22 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'como começar um negócio de imprimíveis 2026',
+    primaryKeyword: 'como iniciar negócio de imprimíveis',
     secondaryKeywords: [
-      'guia completo negócio imprimíveis do zero',
-      'iniciar loja de atividades imprimíveis passo a passo',
-      'negócio de imprimíveis para iniciantes 2026',
-      'vender atividades educativas online guia',
+      'guia completo negócio imprimíveis',
+      'começar negócio atividades educativas',
+      'negócio imprimíveis do zero',
+      'passo a passo negócio imprimíveis',
     ],
     lsiKeywords: [
-      'modelo de negócio downloads digitais educativos',
-      'gerador de atividades para empreendedores',
-      'loja Etsy de imprimíveis lucrativa',
-      'livros de atividades Amazon KDP',
-      'Hotmart atividades educativas vender',
-      'Kiwify produtos digitais educativos',
-      'licença comercial ferramentas imprimíveis',
-      'nicho rentável atividades imprimíveis',
-      'catálogo de produtos digitais educação',
-      'renda passiva imprimíveis pedagógicos',
-      'precificação atividades digitais mercado',
-      'SEO Etsy para vendedores de imprimíveis',
+      'negócio',
+      'iniciar',
+      'plano',
+      'investimento',
+      'estratégia',
     ],
-    titleTag: 'Começar negócio de imprimíveis (2026) | LCS',
-    metaDescription: 'Como começar um negócio de imprimíveis em 2026. Guia passo a passo para vender atividades no Hotmart, Kiwify, Etsy e Amazon KDP com geradores profissionais.',
+    titleTag: 'Como iniciar negócio de imprimíveis | Guia completo',
+    metaDescription: 'Guia completo para iniciar um negócio de imprimíveis educativos. Do planejamento à primeira venda — Etsy, KDP, marketing e preços.',
   },
 
   hero: {

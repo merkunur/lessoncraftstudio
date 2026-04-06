@@ -2,30 +2,17 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'criar atividades de preposições PLE para vender',
+    primaryKeyword: 'como criar atividades de preposições para imprimir',
     secondaryKeywords: [
-      'como criar atividades de preposições para Hotmart',
-      'atividades de preposições para vender na Etsy',
-      'guia atividades de preposições para Amazon KDP',
-      'atividades de preposições com licença comercial para vender',
+      'tutorial localização espacial passo a passo',
+      'criar atividades de preposições para vender',
+      'guia noções espaciais com imagens',
+      'atividades de preposições para Etsy e KDP',
     ],
-    lsiKeywords: [
-      'licença comercial',
-      '300 DPI',
-      'pronto para impressão',
-      'download digital',
-      'gabarito incluso',
-      'Hotmart',
-      'Kiwify',
-      'Etsy',
-      'Amazon KDP',
-      'renda extra',
-      'negócio de imprimíveis',
-      'educação infantil',
-    ],
-    titleTag: 'Atividades de preposições PLE para vender | LCS',
+    lsiKeywords: ['preposições', 'localização', 'espacial', 'imagens', '11 idiomas'],
+    titleTag: 'Como criar atividades de preposições | Guia',
     metaDescription:
-      'Guia para criar atividades de preposições para PLE e vender. Mega-nicho global, 11 idiomas e estratégias.',
+      'Guia passo a passo para criar atividades de preposições e localização espacial. 11 idiomas, gabarito automático. Teste grátis — licença comercial.',
   },
 
   hero: {

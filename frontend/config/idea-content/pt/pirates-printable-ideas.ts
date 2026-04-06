@@ -2,30 +2,17 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'imprimíveis de piratas ideias negócio',
+    primaryKeyword: 'imprimíveis de piratas para vender no Etsy',
     secondaryKeywords: [
-      'atividades piratas para vender online',
-      'imprimíveis tema pirata Etsy',
-      'negócio atividades piratas Hotmart',
-      'livros atividades piratas KDP',
+      'atividades de piratas Etsy KDP',
+      'atividades de piratas imprimíveis',
+      'negócio imprimíveis piratas',
+      'atividades de piratas para vender',
     ],
-    lsiKeywords: [
-      'Hotmart',
-      'Kiwify',
-      'Etsy',
-      'Amazon KDP',
-      'renda extra',
-      'negócio de imprimíveis',
-      'licença comercial',
-      'nicho',
-      'ideias de produto',
-      'vendedor',
-      'Brasil',
-      'imprimíveis educativos',
-    ],
-    titleTag: 'Imprimíveis piratas — Negócio | LCS',
+    lsiKeywords: ['piratas', 'tesouro', 'navio', 'aventura'],
+    titleTag: 'Imprimíveis de piratas Etsy | Nicho lucrativo',
     metaDescription:
-      'Ideias de negócio com imprimíveis de piratas. Tesouros, mapas e aventura em atividades educativas para Etsy, Hotmart e KDP.',
+      'Ideias de imprimíveis de piratas para Etsy e KDP. Tesouros, navios e atividades de aventura. Crie com LessonCraftStudio — 33 geradores e licença comercial.',
   },
   hero: {
     title: 'Piratas — Ideias de Negócio com Imprimíveis Educativos',

@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'caça-palavras imprimíveis lucro',
+    primaryKeyword: 'lucrar com caça-palavras imprimíveis',
     secondaryKeywords: [
-      'vender caça-palavras Etsy',
+      'vender caça-palavras Etsy negócio',
       'negócio caça-palavras imprimíveis',
       'caça-palavras educativo vender online',
     ],
     lsiKeywords: [
-      'word search printable business',
       'caça-palavras temático crianças',
       'imprimível vocabulário palavras',
+      'nicho perene imprimíveis',
     ],
-    titleTag: 'Caça-Palavras Imprimíveis: Guia de Lucro | LCS',
-    metaDescription: 'Como criar e vender caça-palavras imprimíveis com lucro. Nicho perene com alta demanda. Teste grátis com marca d\'água o gerador.',
+    titleTag: 'Lucrar com caça-palavras imprimíveis | Guia',
+    metaDescription: 'Guia completo para lucrar com caça-palavras imprimíveis online. Crie atividades profissionais com LessonCraftStudio — 33 geradores, 11 idiomas, licença comercial.',
   },
   hero: {
     title: 'Caça-Palavras Imprimíveis: Como Transformar em Lucro',

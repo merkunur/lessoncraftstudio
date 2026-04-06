@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'imprimíveis negócio design',
+    primaryKeyword: 'negócio de imprimíveis sem saber design',
     secondaryKeywords: [
-      'negócio imprimíveis sem design guia',
-      'negócio imprimíveis sem design dicas',
-      'negócio imprimíveis sem design estratégia',
+      'vender atividades sem Photoshop ou Illustrator',
+      'criar imprimíveis profissionais com geradores',
+      'começar negócio digital sem habilidade gráfica',
     ],
     lsiKeywords: [
-      'negócio imprimíveis digital',
-      'vendedor imprimíveis online',
-      'empreendedor digital educativo',
+      'gerador automático atividades',
+      'sem design gráfico vendedor',
+      'produção em escala imprimíveis',
     ],
-    titleTag: 'Negócio Imprimíveis Sem Design | LCS',
-    metaDescription: 'Comece um negócio de imprimíveis sem habilidades de design. Geradores automatizados produzem fichas profissionais sem Photoshop ou Illustrator.',
+    titleTag: 'Negócio de imprimíveis sem saber design',
+    metaDescription: 'Comece um negócio de imprimíveis sem saber design. Crie atividades profissionais com LessonCraftStudio — 33 geradores, 11 idiomas, licença comercial.',
   },
   hero: {
     title: 'Negócio Imprimíveis Sem Design',

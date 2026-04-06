@@ -1,29 +1,23 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'gerador de atividades de alfabeto grátis',
+    primaryKeyword: 'atividades do alfabeto grátis para imprimir',
     secondaryKeywords: [
-      'trem do alfabeto para imprimir grátis',
-      'atividades de letras para crianças grátis',
-      'atividades de alfabetização grátis online',
-      'reconhecimento de letras grátis',
+      'exercícios do ABC grátis online',
+      'reconhecimento de letras grátis atividade',
+      'atividades de alfabetização grátis PDF',
+      'aprender o alfabeto grátis atividades',
     ],
     lsiKeywords: [
-      'grátis online',
+      'ABC',
+      'maiúsculas',
+      'minúsculas',
+      'ordem alfabética',
       'sem cadastro',
-      'marca d\'água',
-      'imprimir',
-      'PDF',
-      'gabarito',
-      'alfabeto',
-      'trem de letras',
       'alfabetização',
-      '11 idiomas',
-      'teste grátis',
-      'licença comercial',
     ],
-    titleTag: 'Atividades de alfabeto grátis online | LCS',
-    metaDescription: 'Crie atividades de trem do alfabeto grátis. 11 idiomas, associação letra-imagem, PDF imprimível. Venda no Etsy & KDP com licenca comercial.',
+    titleTag: 'Atividades do alfabeto grátis para imprimir | Online',
+    metaDescription: 'Crie atividades do alfabeto grátis com imagens temáticas. Sem cadastro. Reconhecimento de letras, gabarito automático. Marca d\'água removida com licença.',
   },
 
   hero: {

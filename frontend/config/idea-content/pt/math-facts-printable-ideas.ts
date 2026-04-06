@@ -2,30 +2,17 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'tabuada imprimíveis ideias negócio',
+    primaryKeyword: 'imprimíveis de tabuada e cálculos para vender no Etsy',
     secondaryKeywords: [
-      'atividades tabuada para vender Etsy',
-      'imprimíveis fatos matemáticos Hotmart',
-      'negócio treino matemática online',
-      'livros prática tabuada KDP',
+      'atividades de tabuada e cálculos Etsy KDP',
+      'atividades de tabuada e cálculos imprimíveis',
+      'negócio imprimíveis tabuada e cálculos',
+      'atividades de tabuada e cálculos para vender',
     ],
-    lsiKeywords: [
-      'Hotmart',
-      'Kiwify',
-      'Etsy',
-      'Amazon KDP',
-      'renda extra',
-      'negócio de imprimíveis',
-      'licença comercial',
-      'nicho',
-      'ideias de produto',
-      'vendedor',
-      'Brasil',
-      'imprimíveis educativos',
-    ],
-    titleTag: 'Tabuada imprimíveis — Negócio | LCS',
+    lsiKeywords: ['tabuada', 'cálculo', 'fluência', 'matemática'],
+    titleTag: 'Imprimíveis de tabuada e cálculos Etsy | Nicho lucrativo',
     metaDescription:
-      'Ideias de negócio com imprimíveis de tabuada e fatos matemáticos. Atividades de prática no Etsy, Hotmart e KDP. Nicho perene com alta demanda.',
+      'Ideias de imprimíveis de tabuada e cálculos para Etsy e KDP. Tabuada, cálculos e fluência matemática. Crie com LessonCraftStudio — 33 geradores e licença comercial.',
   },
   hero: {
     title: 'Tabuada e Fatos Matemáticos — Negócio com Imprimíveis',

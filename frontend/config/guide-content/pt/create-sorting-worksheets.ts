@@ -2,30 +2,17 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'criar atividades de classificação para vender',
+    primaryKeyword: 'como criar atividades de classificação para imprimir',
     secondaryKeywords: [
-      'como criar atividades de classificação para Hotmart',
-      'atividades de classificação para vender na Etsy',
-      'guia atividades de classificação para Amazon KDP',
-      'atividades de classificação com licença comercial para vender',
+      'tutorial classificação passo a passo',
+      'criar atividades de categorização para vender',
+      'guia atividades de agrupamento com imagens',
+      'atividades de classificação para Etsy e KDP',
     ],
-    lsiKeywords: [
-      'licença comercial',
-      '300 DPI',
-      'pronto para impressão',
-      'download digital',
-      'gabarito incluso',
-      'Hotmart',
-      'Kiwify',
-      'Etsy',
-      'Amazon KDP',
-      'renda extra',
-      'negócio de imprimíveis',
-      'educação infantil',
-    ],
-    titleTag: 'Atividades de classificação para vender | LCS',
+    lsiKeywords: ['classificar', 'agrupar', 'categorizar', 'imagens', 'gabarito'],
+    titleTag: 'Como criar atividades de classificação | Guia',
     metaDescription:
-      'Guia para criar atividades de classificação e categorização para vender. Raciocínio lógico e estratégias.',
+      'Guia passo a passo para criar atividades de classificação com imagens temáticas. Gabarito automático, PDF imprimíveis. Teste grátis — licença comercial.',
   },
 
   hero: {

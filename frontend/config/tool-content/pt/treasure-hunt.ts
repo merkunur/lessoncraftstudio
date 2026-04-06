@@ -2,29 +2,16 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'gerador de caça ao tesouro grátis',
+    primaryKeyword: 'caça ao tesouro grátis para imprimir',
     secondaryKeywords: [
-      'caça ao tesouro para imprimir grátis',
-      'criar caça ao tesouro online grátis',
-      'jogo de pistas grátis para crianças',
-      'atividade de caça ao tesouro grátis',
+      'gincana grátis para imprimir',
+      'jogo de pistas grátis online',
+      'pistas caça ao tesouro grátis',
+      'caça ao tesouro infantil grátis PDF',
     ],
-    lsiKeywords: [
-      'grátis online',
-      'sem cadastro',
-      'marca d\'água',
-      'imprimir',
-      'PDF',
-      'gabarito',
-      'caça ao tesouro',
-      'jogo de pistas',
-      '104 temas',
-      'atenção visual',
-      'teste grátis',
-      'licença comercial',
-    ],
-    titleTag: 'Caça ao tesouro grátis online | LCS',
-    metaDescription: 'Crie atividades de caça ao tesouro grátis com imagens. 104 temas, gabarito automático, PDF imprimível. Venda no Etsy & KDP com licenca comercial.',
+    lsiKeywords: ['pistas', 'aventura', 'aniversário', 'gincana', 'sem cadastro'],
+    titleTag: 'Caça ao tesouro grátis para imprimir | Online',
+    metaDescription: 'Crie atividades de caça ao tesouro e gincana grátis com imagens temáticas. Sem cadastro. PDF imprimíveis. Marca d\'água removida com licença.',
   },
 
   hero: {

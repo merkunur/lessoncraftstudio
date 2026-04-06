@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'Etsy Ads imprimíveis vale pena',
+    primaryKeyword: 'anúncios Etsy para imprimíveis valem a pena',
     secondaryKeywords: [
-      'Etsy Ads imprimíveis vale pena guia',
-      'Etsy Ads imprimíveis vale pena dicas',
-      'Etsy Ads imprimíveis vale pena estratégia',
+      'ROI Etsy Ads para produtos digitais',
+      'quando usar anúncios pagos no Etsy',
+      'Etsy Ads vs tráfego orgânico imprimíveis',
     ],
     lsiKeywords: [
-      'negócio imprimíveis digital',
-      'vendedor imprimíveis online',
-      'empreendedor digital educativo',
+      'orçamento publicidade Etsy',
+      'conversão anúncios digitais',
+      'custo por clique imprimíveis',
     ],
-    titleTag: 'Etsy Ads para Imprimíveis | LCS',
-    metaDescription: 'Etsy Ads pode acelerar vendas, mas também pode drenar seu orçamento sem retorno. Para imprimíveis educativos, o ROI depende do preço do produto, da conc.',
+    titleTag: 'Anúncios Etsy para imprimíveis | Vale a pena?',
+    metaDescription: 'Descubra quando Etsy Ads vale a pena para imprimíveis. Crie atividades profissionais com LessonCraftStudio — 33 geradores, 11 idiomas, licença comercial.',
   },
   hero: {
     title: 'Etsy Ads para Imprimíveis',

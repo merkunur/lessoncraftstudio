@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'Gumroad vs Etsy produtos digitais',
+    primaryKeyword: 'Gumroad vs Etsy para produtos digitais',
     secondaryKeywords: [
-      'estratégias funcionam',
-      'mercado brasileiro internacional',
-      'ferramentas recursos',
+      'comparação Gumroad Etsy imprimíveis',
+      'melhor plataforma vender produtos digitais',
+      'taxas Gumroad vs comissões Etsy',
     ],
     lsiKeywords: [
-      'negócio imprimíveis digital',
-      'vendedor imprimíveis online',
-      'empreendedor digital educativo',
+      'plataforma vendas digitais',
+      'tráfego orgânico vs próprio',
+      'comissões marketplace digital',
     ],
-    titleTag: 'Gumroad vs Etsy: Produtos Digitais | LCS',
-    metaDescription: 'Gumroad oferece taxas menores e controle total da marca, mas sem tráfego orgânico. Etsy oferece milhões de compradores ativos, mas cobra comissões maior.',
+    titleTag: 'Gumroad vs Etsy para produtos digitais',
+    metaDescription: 'Compare Gumroad vs Etsy para vender produtos digitais. Crie atividades profissionais com LessonCraftStudio — 33 geradores, 11 idiomas, licença comercial.',
   },
   hero: {
     title: 'Gumroad vs Etsy: Produtos Digitais',

@@ -2,30 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'marketing sazonal para vendedores de imprimíveis',
+    primaryKeyword: 'marketing sazonal para imprimíveis educativos',
     secondaryKeywords: [
-      'calendário sazonal vendedor imprimíveis Brasil',
-      'datas comemorativas para vendas imprimíveis',
-      'marketing festas brasileiras imprimíveis',
-      'planejar lançamentos sazonais atividades',
+      'calendário sazonal vendedores imprimíveis',
+      'imprimíveis sazonais Etsy estratégia',
+      'quando publicar atividades sazonais',
+      'marketing datas comemorativas imprimíveis',
     ],
     lsiKeywords: [
       'sazonal',
       'calendário',
-      'Carnaval',
-      'Festa Junina',
-      'volta às aulas',
-      'Natal',
-      'Hotmart',
-      'Etsy',
-      'KDP',
-      'Brasil',
-      'datas comemorativas',
-      'vendedor',
+      'datas',
+      'festas',
+      'estações',
     ],
-    titleTag: 'Marketing sazonal para imprimíveis | LCS',
+    titleTag: 'Marketing sazonal para imprimíveis | Guia',
     metaDescription:
-      'Marketing sazonal para vendedores de imprimíveis. Calendário brasileiro, datas comemorativas e estratégias.',
+      'Guia de marketing sazonal para vendedores de imprimíveis. Calendário completo de datas, festas e estações para maximizar vendas.',
   },
 
   hero: {

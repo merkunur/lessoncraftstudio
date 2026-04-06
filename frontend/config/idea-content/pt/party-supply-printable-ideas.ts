@@ -2,30 +2,17 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'imprimíveis para festas ideias negócio',
+    primaryKeyword: 'imprimíveis de artigos para festas para vender no Etsy',
     secondaryKeywords: [
-      'kit festa imprimível para vender',
-      'atividades festa infantil Etsy',
-      'negócio imprimíveis festas Hotmart',
-      'decoração festa imprimível online',
+      'atividades de artigos para festas Etsy KDP',
+      'atividades de artigos para festas imprimíveis',
+      'negócio imprimíveis artigos para festas',
+      'atividades de artigos para festas para vender',
     ],
-    lsiKeywords: [
-      'Hotmart',
-      'Kiwify',
-      'Etsy',
-      'Amazon KDP',
-      'renda extra',
-      'negócio de imprimíveis',
-      'licença comercial',
-      'nicho',
-      'ideias de produto',
-      'vendedor',
-      'Brasil',
-      'imprimíveis educativos',
-    ],
-    titleTag: 'Imprimíveis para festas — Negócio | LCS',
+    lsiKeywords: ['festa', 'aniversário', 'decoração', 'jogos'],
+    titleTag: 'Imprimíveis de artigos para festas Etsy | Nicho lucrativo',
     metaDescription:
-      'Ideias de negócio com imprimíveis para festas infantis. Convites, decoração e atividades para Etsy e Hotmart. Nicho com demanda o ano todo.',
+      'Ideias de imprimíveis de artigos para festas para Etsy e KDP. Decoração e jogos para aniversários. Crie com LessonCraftStudio — 33 geradores e licença comercial.',
   },
   hero: {
     title: 'Imprimíveis para Festas — Negócio com Alta Demanda',

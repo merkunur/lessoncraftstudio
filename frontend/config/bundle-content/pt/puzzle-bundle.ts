@@ -2,29 +2,23 @@ import type { BundleContent } from '../types';
 
 const content: BundleContent = {
   seo: {
-    primaryKeyword: 'pacote quebra-cabeças lógicos para KDP',
+    primaryKeyword: 'pacote geradores de puzzles e lógica',
     secondaryKeywords: [
-      'pacote geradores de puzzles imprimíveis vendedores',
-      'kit atividades de lógica e puzzles comercial',
-      'pacote quebra-cabeças educativos Etsy KDP',
-      'geradores de puzzles uso comercial imprimíveis',
+      'pack atividades de lógica licença comercial',
+      'geradores de puzzles para Etsy e KDP',
+      'kit atividades sudoku labirinto sequência',
+      'ferramentas de puzzles para imprimíveis',
     ],
     lsiKeywords: [
-      'sudoku gerador atividades imprimíveis',
-      'labirintos gerador comercial vendedores',
-      'puzzles de lógica imprimíveis comercial',
-      'apostilas KDP quebra-cabeças educativos',
-      'Etsy loja puzzles imprimíveis',
-      'Hotmart pacote quebra-cabeças educativos',
-      'Kiwify atividades de lógica vendedores',
-      'atividades de raciocínio imprimíveis',
-      'livros de puzzles Amazon KDP vendedores',
-      'peças faltantes gerador atividades',
-      'licença comercial puzzles educativos',
-      'atividades STEM imprimíveis comercial',
+      'sudoku',
+      'labirinto',
+      'sequência',
+      'caça ao tesouro',
+      'bingo',
+      'licença comercial',
     ],
-    titleTag: 'Pacote quebra-cabeças para KDP | LCS',
-    metaDescription: 'Pacote com geradores de quebra-cabeças lógicos: sudoku, labirintos, peças faltantes e mais. 149 $ pagamento unico.',
+    titleTag: 'Pacote geradores de puzzles e lógica | 6 ferramentas',
+    metaDescription: 'Pacote de 6 geradores de puzzles e lógica. Sudoku, labirinto, sequência, caça ao tesouro, bingo. Licença comercial. $149 pagamento único.',
   },
 
   hero: {

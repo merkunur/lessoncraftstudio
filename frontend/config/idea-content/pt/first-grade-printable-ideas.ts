@@ -2,30 +2,17 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'imprimíveis de 1º ano para vender no Etsy',
+    primaryKeyword: 'imprimíveis de 1° ano para vender no Etsy',
     secondaryKeywords: [
-      'atividades 1º ano para vender Etsy',
-      'imprimíveis first grade Hotmart',
-      'negócio atividades alfabetização 1º ano',
-      'livros atividades 1º ano KDP',
+      'atividades de 1° ano Etsy KDP',
+      'atividades de 1° ano imprimíveis',
+      'negócio imprimíveis 1° ano',
+      'atividades de 1° ano para vender',
     ],
-    lsiKeywords: [
-      'Hotmart',
-      'Kiwify',
-      'Etsy',
-      'Amazon KDP',
-      'renda extra',
-      'negócio de imprimíveis',
-      'licença comercial',
-      'nicho',
-      'ideias de produto',
-      'vendedor',
-      'Brasil',
-      'imprimíveis educativos',
-    ],
-    titleTag: 'Imprimíveis 1º ano para Etsy | LCS',
+    lsiKeywords: ['1° ano', 'alfabetização', '6 anos', 'ensino fundamental'],
+    titleTag: 'Imprimíveis de 1° ano Etsy | Nicho lucrativo',
     metaDescription:
-      'Venda imprimíveis de 1º ano no Etsy, Hotmart e KDP. Atividades de alfabetização e matemática para crianças de 6-7 anos. Alta demanda constante.',
+      'Ideias de imprimíveis de 1° ano para Etsy e KDP. Alfabetização e atividades para 6 anos. Crie com LessonCraftStudio — 33 geradores e licença comercial.',
   },
   hero: {
     title: 'Imprimíveis de 1º Ano — Atividades para Vender no Etsy',

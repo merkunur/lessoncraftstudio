@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'homeschool imprimíveis mercado crescente',
+    primaryKeyword: 'imprimíveis para ensino domiciliar em crescimento',
     secondaryKeywords: [
-      'imprimíveis homeschool mercado crescente negócio',
-      'imprimíveis homeschool mercado crescente vender',
-      'imprimíveis homeschool mercado crescente Etsy',
+      'mercado homeschool imprimíveis Brasil',
+      'vender atividades ensino domiciliar Etsy',
+      'nicho homeschool produtos digitais',
     ],
     lsiKeywords: [
-      'imprimíveis sazonais vender',
-      'nicho educativo imprimíveis',
-      'mercado imprimíveis temáticos',
+      'ensino domiciliar regulamentado',
+      'material complementar homeschool',
+      'mercado educativo crescente',
     ],
-    titleTag: 'Imprimíveis Homeschool: Mercado Crescente | LCS',
-    metaDescription: 'O homeschool (ensino domiciliar) está crescendo rapidamente no Brasil, regulamentado desde 2024. Venda no Etsy & KDP com licenca comercial.',
+    titleTag: 'Imprimíveis para ensino domiciliar | Mercado',
+    metaDescription: 'Aproveite o mercado crescente de ensino domiciliar. Crie atividades profissionais com LessonCraftStudio — 33 geradores, 11 idiomas, licença comercial.',
   },
   hero: {
     title: 'Imprimíveis Homeschool: Mercado Crescente',

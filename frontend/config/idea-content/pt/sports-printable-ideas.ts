@@ -2,30 +2,17 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'imprimíveis de esportes ideias negócio',
+    primaryKeyword: 'imprimíveis de esportes para vender no Etsy',
     secondaryKeywords: [
-      'atividades esportes para vender online',
-      'imprimíveis futebol educativos Etsy',
-      'negócio atividades esportivas Hotmart',
-      'livros atividades esportes KDP',
+      'atividades de esportes Etsy KDP',
+      'atividades de esportes imprimíveis',
+      'negócio imprimíveis esportes',
+      'atividades de esportes para vender',
     ],
-    lsiKeywords: [
-      'Hotmart',
-      'Kiwify',
-      'Etsy',
-      'Amazon KDP',
-      'renda extra',
-      'negócio de imprimíveis',
-      'licença comercial',
-      'nicho',
-      'ideias de produto',
-      'vendedor',
-      'Brasil',
-      'imprimíveis educativos',
-    ],
-    titleTag: 'Imprimíveis esportes — Negócio | LCS',
+    lsiKeywords: ['esportes', 'futebol', 'atividade física', 'jogos'],
+    titleTag: 'Imprimíveis de esportes Etsy | Nicho lucrativo',
     metaDescription:
-      'Ideias de negócio com imprimíveis de esportes. Futebol, basquete e atletismo em atividades educativas para Etsy, Hotmart e KDP.',
+      'Ideias de imprimíveis de esportes para Etsy e KDP. Futebol, jogos e atividades esportivas. Crie com LessonCraftStudio — 33 geradores e licença comercial.',
   },
   hero: {
     title: 'Esportes — Ideias de Negócio com Imprimíveis Educativos',

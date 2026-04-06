@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'licença comercial imprimíveis explicada',
+    primaryKeyword: 'licença comercial para imprimíveis explicada',
     secondaryKeywords: [
-      'estratégias funcionam',
-      'mercado brasileiro internacional',
-      'ferramentas recursos',
+      'o que é licença comercial imprimíveis',
+      'licença para vender atividades online',
+      'direitos comerciais de imprimíveis',
     ],
     lsiKeywords: [
-      'negócio imprimíveis digital',
-      'vendedor imprimíveis online',
-      'empreendedor digital educativo',
+      'licença comercial',
+      'direitos de uso',
+      'revenda',
     ],
-    titleTag: 'Licença Comercial Imprimíveis | LCS',
-    metaDescription: 'Vender imprimíveis criados com geradores ou templates exige licença comercial. Este guia explica o que é licença comercial, por que você precisa dela, o.',
+    titleTag: 'Licença comercial para imprimíveis explicada',
+    metaDescription: 'Entenda o que é licença comercial para imprimíveis e por quê importa. Crie atividades profissionais com LessonCraftStudio — 33 geradores, 11 idiomas, licença comercial.',
   },
   hero: {
     title: 'Licença Comercial Imprimíveis',

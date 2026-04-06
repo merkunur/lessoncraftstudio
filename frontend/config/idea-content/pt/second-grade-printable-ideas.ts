@@ -2,30 +2,17 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'imprimíveis de 2º ano ideias negócio',
+    primaryKeyword: 'imprimíveis de 2° ano para vender no Etsy',
     secondaryKeywords: [
-      'atividades 2º ano para vender online',
-      'imprimíveis second grade Etsy negócio',
-      'pacotes reforço 2º ano Hotmart',
-      'livros atividades 2º ano KDP',
+      'atividades de 2° ano Etsy KDP',
+      'atividades de 2° ano imprimíveis',
+      'negócio imprimíveis 2° ano',
+      'atividades de 2° ano para vender',
     ],
-    lsiKeywords: [
-      'Hotmart',
-      'Kiwify',
-      'Etsy',
-      'Amazon KDP',
-      'renda extra',
-      'negócio de imprimíveis',
-      'licença comercial',
-      'nicho',
-      'ideias de produto',
-      'vendedor',
-      'Brasil',
-      'imprimíveis educativos',
-    ],
-    titleTag: 'Imprimíveis 2º ano — Negócio | LCS',
+    lsiKeywords: ['2° ano', '7 anos', 'ensino fundamental', 'leitura'],
+    titleTag: 'Imprimíveis de 2° ano Etsy | Nicho lucrativo',
     metaDescription:
-      'Ideias de negócio com imprimíveis de 2º ano. Matemática e leitura para 7-8 anos no Etsy, Hotmart e KDP. Nicho com demanda crescente.',
+      'Ideias de imprimíveis de 2° ano para Etsy e KDP. Leitura e atividades para crianças de 7 anos. Crie com LessonCraftStudio — 33 geradores e licença comercial.',
   },
   hero: {
     title: '2º Ano — Ideias de Negócio com Imprimíveis Educativos',

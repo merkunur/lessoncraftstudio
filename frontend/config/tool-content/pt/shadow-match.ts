@@ -2,29 +2,16 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'gerador de atividades de sombras grátis',
+    primaryKeyword: 'jogo das sombras grátis para imprimir',
     secondaryKeywords: [
-      'atividades de sombras para imprimir grátis',
       'associar sombras grátis online',
-      'atividades de silhuetas grátis para crianças',
-      'shadow matching grátis',
+      'sombras e figuras grátis para imprimir',
+      'silhuetas para associar grátis',
+      'sombras grátis educação infantil',
     ],
-    lsiKeywords: [
-      'grátis online',
-      'sem cadastro',
-      'marca d\'água',
-      'imprimir',
-      'PDF',
-      'gabarito',
-      'sombras',
-      'silhuetas',
-      '104 temas',
-      'percepção visual',
-      'teste grátis',
-      'licença comercial',
-    ],
-    titleTag: 'Atividades de sombras grátis online | LCS',
-    metaDescription: 'Crie atividades de associar sombras grátis com imagens. 104 temas, gabarito automático, PDF imprimível. Venda no Etsy & KDP com licenca comercial.',
+    lsiKeywords: ['silhueta', 'sombra', 'associar', 'discriminação visual', 'sem cadastro'],
+    titleTag: 'Jogo das sombras grátis para imprimir | Online',
+    metaDescription: 'Crie atividades de associação de sombras grátis com imagens e silhuetas. Sem cadastro. Gabarito automático, PDF 300 DPI. Marca d\'água removida com licença.',
   },
 
   hero: {

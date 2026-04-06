@@ -2,32 +2,22 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'gerador de atividades de subtração para vender na Etsy',
+    primaryKeyword: 'atividades de subtração para imprimir',
     secondaryKeywords: [
-      'criar atividades de subtração para Hotmart',
-      'exercícios de subtração para Amazon KDP',
-      'atividades de contas de menos com licença comercial',
-      'atividades de matemática para vender na Kiwify',
+      'gerador de contas de subtração',
+      'contas de menos para imprimir',
+      'exercícios de subtração 1° ano',
+      'atividades de subtração com gabarito',
     ],
     lsiKeywords: [
-      'licença comercial',
-      '300 DPI',
-      'pronto para impressão',
-      'imagens temáticas',
-      'renda passiva',
-      'download digital',
-      'gabarito incluso',
-      'subtração visual',
-      'riscar imagens',
-      'educação infantil',
       'ensino fundamental',
-      'negócio de imprimíveis',
-      'renda extra',
-      'Hotmart',
-      'Kiwify',
+      'com empréstimo',
+      'sem empréstimo',
+      'diferença',
+      'gabarito',
     ],
-    titleTag: 'Atividades de subtração para vender | LCS',
-    metaDescription: 'Crie atividades de subtração para vender na Hotmart, Etsy e KDP. Imagens temáticas, gabarito, licença comercial. 49 $ pagamento unico.',
+    titleTag: 'Atividades de subtração para imprimir | Gerador com gabarito',
+    metaDescription: 'Crie atividades de subtração com imagens temáticas e gabarito automático. PDF 300 DPI, 11 idiomas. Teste grátis — licença comercial incluída.',
   },
 
   hero: {

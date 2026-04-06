@@ -2,29 +2,23 @@ import type { BundleContent } from '../types';
 
 const content: BundleContent = {
   seo: {
-    primaryKeyword: 'pacote geradores de matemática para vendedores',
+    primaryKeyword: 'pacote geradores de matemática',
     secondaryKeywords: [
-      'pacote de atividades de matemática uso comercial',
-      'geradores de matemática imprimíveis Etsy KDP',
-      'ferramentas de atividades de matemática para vendedores',
-      'kit completo matemática imprimível comercial',
+      'pack atividades de matemática licença comercial',
+      'geradores de matemática para Etsy e KDP',
+      'kit atividades adição subtração puzzles',
+      'ferramentas de matemática para imprimíveis',
     ],
     lsiKeywords: [
-      'pacote adição subtração atividades imprimíveis',
-      'coleção puzzles matemáticos imprimíveis',
-      'licença comercial atividades de matemática',
-      'ferramenta de criação em massa atividades matemática',
-      'atividades de matemática pré-escolar vendedores',
-      'apostilas KDP matemática fundamental',
-      'Etsy loja atividades matemática completa',
-      'Hotmart pacote atividades matemática',
-      'álgebra visual imprimível comercial',
-      'código de adição puzzles criação',
-      'grelha matemática atividades gerador',
-      'Kiwify produtos matemática educativa',
+      'adição',
+      'subtração',
+      'puzzle',
+      'gráficos',
+      'código',
+      'licença comercial',
     ],
-    titleTag: 'Pacote Matemática para vendedores | LCS',
-    metaDescription: 'Pacote com 6 geradores de matemática: adição, subtração, código, comparação, puzzles e álgebra. 149 $ pagamento unico.',
+    titleTag: 'Pacote geradores de matemática | 6 ferramentas',
+    metaDescription: 'Pacote de 6 geradores de atividades de matemática com licença comercial. Adição, subtração, puzzles, gráficos. $149 pagamento único.',
   },
 
   hero: {

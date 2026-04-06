@@ -4,27 +4,21 @@ const content: GuideContent = {
   seo: {
     primaryKeyword: 'atendimento ao cliente para produtos digitais',
     secondaryKeywords: [
-      'suporte ao cliente vendedor digital',
-      'como responder compradores Etsy Hotmart',
-      'atendimento ao cliente imprimíveis',
-      'templates de resposta vendedor digital',
+      'suporte ao cliente Etsy imprimíveis',
+      'FAQ produtos digitais vendedores',
+      'resolver problemas compradores digitais',
+      'atendimento vendedores imprimíveis',
     ],
     lsiKeywords: [
-      'atendimento ao cliente',
+      'atendimento',
       'suporte',
-      'avaliações',
-      'reembolso',
       'FAQ',
-      'Hotmart',
-      'Etsy',
-      'KDP',
-      'fidelização',
-      'negócio digital',
-      'vendedor',
-      'templates',
+      'cliente',
+      'problemas',
     ],
-    titleTag: 'Atendimento ao cliente digital — guia | LCS',
-    metaDescription: 'Como fazer atendimento ao cliente para produtos digitais. Templates, FAQ, avaliações e fidelização. Venda no Etsy & KDP com licenca comercial.',
+    titleTag: 'Atendimento ao cliente para produtos digitais | Guia',
+    metaDescription:
+      'Guia de atendimento ao cliente para vendedores de produtos digitais. FAQ, respostas prontas e como resolver problemas comuns.',
   },
 
   hero: {

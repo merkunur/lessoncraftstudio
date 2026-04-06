@@ -2,29 +2,17 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'abrir loja de imprimíveis no Etsy guia',
+    primaryKeyword: 'como abrir loja de imprimíveis no Etsy',
     secondaryKeywords: [
-      'como abrir loja Etsy de imprimíveis',
-      'guia iniciante loja Etsy imprimíveis',
+      'iniciar loja Etsy imprimíveis',
       'criar loja Etsy atividades educativas',
-      'passo a passo loja Etsy Brasil',
+      'guia Etsy para iniciantes imprimíveis',
+      'primeira venda Etsy imprimíveis',
     ],
-    lsiKeywords: [
-      'Etsy',
-      'loja',
-      'imprimíveis',
-      'atividades educativas',
-      'iniciante',
-      'passo a passo',
-      'SEO',
-      'preços',
-      'licença comercial',
-      'renda extra',
-      'Hotmart',
-    ],
-    titleTag: 'Abrir loja de imprimíveis no Etsy | LCS',
+    lsiKeywords: ['Etsy', 'loja', 'imprimíveis', 'iniciante', 'listagem'],
+    titleTag: 'Como abrir loja de imprimíveis no Etsy | Guia',
     metaDescription:
-      'Guia passo a passo para abrir sua loja de imprimíveis no Etsy. Da criação da conta às primeiras vendas. Comece hoje com teste grátis.',
+      'Guia passo a passo para abrir sua loja de imprimíveis no Etsy. Da criação à primeira venda — listagens, SEO e dicas para iniciantes.',
   },
 
   hero: {

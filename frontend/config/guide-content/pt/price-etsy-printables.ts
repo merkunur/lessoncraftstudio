@@ -2,28 +2,17 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'como precificar imprimíveis no Etsy',
+    primaryKeyword: 'como definir preços de imprimíveis no Etsy',
     secondaryKeywords: [
-      'preços para imprimíveis Etsy',
-      'estratégia de preços Etsy atividades',
-      'quanto cobrar imprimíveis Etsy',
-      'precificação Etsy vendedor brasileiro',
+      'precificação Etsy imprimíveis',
+      'quanto cobrar atividades Etsy',
+      'preços imprimíveis educativos',
+      'estratégia de preços Etsy',
     ],
-    lsiKeywords: [
-      'Etsy',
-      'preços',
-      'precificação',
-      'imprimíveis',
-      'margem de lucro',
-      'pacotes',
-      'valor percebido',
-      'renda extra',
-      'Hotmart',
-      'KDP',
-    ],
-    titleTag: 'Precificar imprimíveis no Etsy — guia | LCS',
+    lsiKeywords: ['preço', 'Etsy', 'margem', 'competitivo', 'pacotes'],
+    titleTag: 'Como definir preços de imprimíveis no Etsy | Guia',
     metaDescription:
-      'Como precificar imprimíveis no Etsy para maximizar lucros. Estratégias de preço, pacotes e valor percebido. Guia completo para vendedores.',
+      'Guia de precificação para imprimíveis no Etsy. Quanto cobrar, estratégia de pacotes e margens para vendedores de atividades educativas.',
   },
 
   hero: {

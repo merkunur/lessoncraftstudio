@@ -2,28 +2,17 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'criar pacotes de atividades para Etsy',
+    primaryKeyword: 'como criar pacotes de atividades para Etsy',
     secondaryKeywords: [
-      'como criar bundles de atividades Etsy',
-      'pacotes de imprimíveis para Etsy',
-      'estratégia de pacotes Etsy',
-      'bundles educativos Etsy dicas',
+      'bundles atividades Etsy estratégia',
+      'criar pacotes imprimíveis Etsy',
+      'pacotes atividades educativas Etsy',
+      'bundles imprimíveis vendas Etsy',
     ],
-    lsiKeywords: [
-      'Etsy',
-      'pacotes',
-      'bundles',
-      'atividades',
-      'imprimíveis',
-      'valor percebido',
-      'preços',
-      'SEO',
-      'licença comercial',
-      'renda extra',
-    ],
-    titleTag: 'Criar pacotes de atividades para Etsy | LCS',
+    lsiKeywords: ['pacote', 'bundle', 'Etsy', 'desconto', 'valor'],
+    titleTag: 'Como criar pacotes de atividades para Etsy | Guia',
     metaDescription:
-      'Como criar pacotes de atividades que vendem no Etsy. Estratégias de bundling, preços e organização temática. Guia prático para vendedores.',
+      'Guia para criar pacotes de atividades que vendem no Etsy. Estratégia de bundling, preços e apresentação para aumentar vendas.',
   },
 
   hero: {

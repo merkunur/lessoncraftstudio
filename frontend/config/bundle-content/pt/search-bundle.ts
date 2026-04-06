@@ -2,29 +2,23 @@ import type { BundleContent } from '../types';
 
 const content: BundleContent = {
   seo: {
-    primaryKeyword: 'pacote ache e encontre para vendedores',
+    primaryKeyword: 'pacote geradores de caça-palavras e jogos',
     secondaryKeywords: [
-      'pacote geradores ache e encontre comercial',
-      'kit atividades de busca visual vendedores',
-      'pacote imprimíveis ache e encontre Etsy KDP',
-      'geradores de atividades de procura comercial',
+      'pack atividades de palavras licença comercial',
+      'geradores de jogos de palavras para Etsy e KDP',
+      'kit atividades caça-palavras cruzadinha forca',
+      'ferramentas de jogos de palavras para imprimíveis',
     ],
     lsiKeywords: [
-      'ache e encontre gerador atividades imprimíveis',
-      'encontre os objetos imprimíveis comercial',
-      'atividades de atenção visual vendedores',
-      'apostilas KDP ache e encontre crianças',
-      'Etsy loja atividades de busca visual',
-      'Hotmart pacote atividades de procura',
-      'Kiwify atividades ache e encontre',
-      'contagem visual atividades imprimíveis',
-      'atividades de observação crianças comercial',
-      'hidden objects worksheets vendedores',
-      'licença comercial atividades de busca',
-      'pré-escolar atividades visuais ache encontre',
+      'caça-palavras',
+      'cruzadinha',
+      'forca',
+      'embaralhadas',
+      'criptograma',
+      'licença comercial',
     ],
-    titleTag: 'Pacote ache e encontre vendedores | LCS',
-    metaDescription: 'Pacote com geradores de atividades ache e encontre: busca visual, contagem e objetos escondidos. 149 $ pagamento unico.',
+    titleTag: 'Pacote geradores caça-palavras e jogos | 5 ferramentas',
+    metaDescription: 'Pacote de 5 geradores de jogos de palavras. Caça-palavras, cruzadinha, forca, embaralhadas. Licença comercial. $149 pagamento único.',
   },
 
   hero: {

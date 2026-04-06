@@ -2,30 +2,17 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'imprimíveis de meios de transporte negócio',
+    primaryKeyword: 'imprimíveis de transportes para vender no Etsy',
     secondaryKeywords: [
-      'atividades meios de transporte para vender',
-      'imprimíveis veículos educativos Etsy',
-      'negócio atividades transporte Hotmart',
-      'livros atividades veículos KDP',
+      'atividades de transportes Etsy KDP',
+      'atividades de transportes imprimíveis',
+      'negócio imprimíveis transportes',
+      'atividades de transportes para vender',
     ],
-    lsiKeywords: [
-      'Hotmart',
-      'Kiwify',
-      'Etsy',
-      'Amazon KDP',
-      'renda extra',
-      'negócio de imprimíveis',
-      'licença comercial',
-      'nicho',
-      'ideias de produto',
-      'vendedor',
-      'Brasil',
-      'imprimíveis educativos',
-    ],
-    titleTag: 'Imprimíveis transportes — Negócio | LCS',
+    lsiKeywords: ['veículos', 'carros', 'avião', 'trem'],
+    titleTag: 'Imprimíveis de transportes Etsy | Nicho lucrativo',
     metaDescription:
-      'Ideias de negócio com imprimíveis de meios de transporte. Carros, aviões e trens em atividades educativas para Etsy, Hotmart e KDP.',
+      'Ideias de imprimíveis de transportes para Etsy e KDP. Carros, aviões e trens em atividades educativas. Crie com LessonCraftStudio — 33 geradores e licença comercial.',
   },
   hero: {
     title: 'Meios de Transporte — Ideias de Negócio com Imprimíveis',

@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'fichas palavras alta frequência negócio',
+    primaryKeyword: 'negócio de atividades de palavras de alta frequência',
     secondaryKeywords: [
-      'produtos mais vendem neste',
-      'estratégia preço pacotes',
-      'marketing seo este nicho',
+      'atividades palavras frequência vender',
+      'sight words imprimíveis negócio',
+      'atividades alfabetização para vender',
     ],
     lsiKeywords: [
-      'imprimíveis sazonais vender',
+      'palavras alta frequência crianças',
       'nicho educativo imprimíveis',
-      'mercado imprimíveis temáticos',
+      'alfabetização lúdica atividades',
     ],
-    titleTag: 'Fichas Palavras de Alta Frequência | LCS',
-    metaDescription: 'Palavras de alta frequência (sight words) são as palavras mais comuns em textos infantis que crianças precisam. Venda no Etsy & KDP com licenca comercial.',
+    titleTag: 'Negócio atividades palavras frequência',
+    metaDescription: 'Monte um negócio com atividades de palavras de alta frequência. Crie atividades profissionais com LessonCraftStudio — 33 geradores, 11 idiomas, licença comercial.',
   },
   hero: {
     title: 'Fichas Palavras de Alta Frequência',

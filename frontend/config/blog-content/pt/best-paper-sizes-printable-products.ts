@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'papel tamanho melhores tamanhos imprimíveis',
+    primaryKeyword: 'melhor tamanho de papel para imprimíveis',
     secondaryKeywords: [
-      'passo passo',
-      'ferramentas necessárias',
-      'dicas avançadas',
+      'A4 vs Letter para imprimíveis',
+      'tamanho de papel para vender no Etsy',
+      'formato de papel imprimíveis internacionais',
     ],
     lsiKeywords: [
-      'tutorial imprimíveis',
-      'como criar fichas educativas',
-      'guia prático imprimíveis',
+      'A4 Letter',
+      'formato papel',
+      'impressão',
     ],
-    titleTag: 'Melhores Tamanhos de Papel para Imprimíveis | LCS',
-    metaDescription: 'O tamanho do papel afeta vendas: A4 é o padrão no Brasil e Europa; Letter nos EUA e Canadá. Oferecer apenas um formato exclui metade do mercado global.',
+    titleTag: 'Melhor tamanho de papel para imprimíveis | Guia',
+    metaDescription: 'Escolha o tamanho de papel ideal para seus imprimíveis. Crie atividades profissionais com LessonCraftStudio — 33 geradores, 11 idiomas, licença comercial.',
   },
   hero: {
     title: 'Melhores Tamanhos de Papel para Imprimíveis',

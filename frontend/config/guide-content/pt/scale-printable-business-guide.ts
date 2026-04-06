@@ -2,29 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'escalar seu negócio de imprimíveis',
+    primaryKeyword: 'como escalar negócio de imprimíveis',
     secondaryKeywords: [
-      'como crescer negócio de imprimíveis',
-      'escalar vendas de atividades educativas',
-      'de renda extra a negócio de imprimíveis',
-      'automação para vendedores de imprimíveis',
+      'crescer negócio imprimíveis guia',
+      'escalar vendas Etsy imprimíveis',
+      'expandir negócio atividades educativas',
+      'estratégias crescimento imprimíveis',
     ],
     lsiKeywords: [
       'escalar',
-      'crescimento',
-      'automação',
-      'catálogo',
-      'Hotmart',
-      'Kiwify',
-      'Etsy',
-      'KDP',
-      'renda extra',
-      'negócio',
-      'marketing',
-      'Brasil',
+      'crescer',
+      'expandir',
+      'estratégia',
+      'vendas',
     ],
-    titleTag: 'Escalar negócio de imprimíveis — guia | LCS',
-    metaDescription: 'Como escalar seu negócio de imprimíveis. De renda extra a negócio em tempo integral. Automação, catálogo e marketing. Venda no Etsy & KDP com licenca comercial.',
+    titleTag: 'Como escalar negócio de imprimíveis | Guia',
+    metaDescription:
+      'Guia para escalar seu negócio de imprimíveis educativos. Estratégias de crescimento, novos mercados e automação para vendedores.',
   },
 
   hero: {

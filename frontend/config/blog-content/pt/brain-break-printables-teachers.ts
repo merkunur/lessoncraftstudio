@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'imprimíveis pausas ativas professores',
+    primaryKeyword: 'atividades de pausa cerebral para imprimir',
     secondaryKeywords: [
-      'produtos mais vendem neste',
-      'estratégia preço pacotes',
-      'marketing seo este nicho',
+      'imprimíveis de pausa ativa para vender',
+      'atividades rápidas para sala de aula',
+      'nicho de pausas cerebrais imprimíveis',
     ],
     lsiKeywords: [
-      'imprimíveis sazonais vender',
-      'nicho educativo imprimíveis',
-      'mercado imprimíveis temáticos',
+      'pausa cerebral',
+      'atenção sala de aula',
+      'atividades rápidas',
     ],
-    titleTag: 'Imprimíveis Pausas Ativas | LCS',
-    metaDescription: 'Pausas ativas (brain breaks) são atividades curtas de 2-5 minutos que professores usam para reativar a atenção dos. Venda no Etsy & KDP com licenca comercial.',
+    titleTag: 'Atividades de pausa cerebral para imprimir',
+    metaDescription: 'Venda atividades de pausa cerebral prontas para imprimir. Crie atividades profissionais com LessonCraftStudio — 33 geradores, 11 idiomas, licença comercial.',
   },
   hero: {
     title: 'Imprimíveis Pausas Ativas',

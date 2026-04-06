@@ -2,31 +2,22 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'criar ache e encontre para vender na Etsy e KDP',
+    primaryKeyword: 'encontre os objetos para imprimir',
     secondaryKeywords: [
-      'gerador de ache e encontre com imagens para Hotmart',
-      'atividades de objetos escondidos para Amazon KDP',
-      'hidden object worksheets em português licença comercial',
-      'ache e encontre para vender na Kiwify',
+      'jogo de encontrar objetos',
+      'objetos escondidos para imprimir',
+      'jogo de observação atividade',
+      'encontre e circule',
     ],
     lsiKeywords: [
-      'licença comercial',
-      '300 DPI',
-      'pronto para impressão',
-      'ache e encontre',
-      'objetos escondidos',
-      'download digital',
-      'gabarito incluso',
+      'observação',
+      'concentração',
       'atenção visual',
-      'educação infantil',
-      'ensino fundamental',
-      'negócio de imprimíveis',
-      'renda extra',
-      'Hotmart',
-      'Kiwify',
+      'encontrar',
+      'procurar',
     ],
-    titleTag: 'Ache e encontre para vender online | LCS',
-    metaDescription: 'Crie atividades de ache e encontre para vender na Hotmart, Etsy e KDP. 104 temas, gabarito automático, licença comercial. 49 $ pagamento unico.',
+    titleTag: 'Encontre os objetos para imprimir | Gerador de observação',
+    metaDescription: 'Crie atividades de "encontre os objetos" com imagens temáticas. Gabarito automático, PDF 300 DPI. Teste grátis — venda no Etsy e KDP.',
   },
 
   hero: {

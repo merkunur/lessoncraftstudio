@@ -2,29 +2,22 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'gerador de embaralha palavras grátis',
+    primaryKeyword: 'letras embaralhadas grátis para imprimir',
     secondaryKeywords: [
-      'palavras embaralhadas para imprimir grátis',
-      'criar embaralha palavras online grátis',
-      'anagrama para crianças grátis',
-      'desembaralhar palavras grátis online',
+      'formar palavras grátis online',
+      'desembaralhar letras grátis atividade',
+      'palavras embaralhadas grátis PDF',
+      'anagrama grátis para imprimir',
     ],
     lsiKeywords: [
-      'grátis online',
-      'sem cadastro',
-      'marca d\'água',
-      'imprimir',
-      'PDF',
-      'gabarito',
-      'embaralha palavras',
       'anagrama',
-      '11 idiomas',
-      'vocabulário',
-      'teste grátis',
-      'licença comercial',
+      'embaralhar',
+      'formar',
+      'ortografia',
+      'sem cadastro',
     ],
-    titleTag: 'Embaralha palavras grátis online | LCS',
-    metaDescription: 'Crie atividades de embaralha palavras grátis com imagens. 11 idiomas, gabarito automático, PDF imprimível. Venda no Etsy & KDP com licenca comercial.',
+    titleTag: 'Letras embaralhadas grátis para imprimir | Online',
+    metaDescription: 'Crie atividades de letras embaralhadas grátis com imagens temáticas. Sem cadastro. Gabarito automático, PDF 300 DPI. Marca d\'água removida com licença.',
   },
 
   hero: {

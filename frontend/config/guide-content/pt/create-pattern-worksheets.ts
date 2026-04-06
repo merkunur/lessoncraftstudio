@@ -2,30 +2,17 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'criar atividades de padrões para vender',
+    primaryKeyword: 'como criar atividades de sequência para imprimir',
     secondaryKeywords: [
-      'como criar atividades de padrões para Hotmart',
-      'atividades de padrões para vender na Etsy',
-      'guia atividades de padrões para Amazon KDP',
-      'atividades de padrões com licença comercial para vender',
+      'tutorial sequência lógica passo a passo',
+      'criar atividades de padrões para vender',
+      'guia sequências com imagens',
+      'atividades de sequência para Etsy e KDP',
     ],
-    lsiKeywords: [
-      'licença comercial',
-      '300 DPI',
-      'pronto para impressão',
-      'download digital',
-      'gabarito incluso',
-      'Hotmart',
-      'Kiwify',
-      'Etsy',
-      'Amazon KDP',
-      'renda extra',
-      'negócio de imprimíveis',
-      'educação infantil',
-    ],
-    titleTag: 'Atividades de padrões para vender online | LCS',
+    lsiKeywords: ['sequência', 'padrão', 'AB', 'ABC', 'lógica'],
+    titleTag: 'Como criar atividades de sequência | Guia passo a passo',
     metaDescription:
-      'Guia para criar atividades de reconhecimento de padrões para vender. Sequências visuais, raciocínio lógico e estratégias.',
+      'Guia passo a passo para criar atividades de sequência lógica com imagens temáticas. Padrões AB, ABC, ABCD. Teste grátis — venda no Etsy e KDP.',
   },
 
   hero: {

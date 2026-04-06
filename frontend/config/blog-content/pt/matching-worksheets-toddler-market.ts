@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'fichas associação mercado crianças pequenas',
+    primaryKeyword: 'atividades de associação para educação infantil',
     secondaryKeywords: [
-      'fichas associação imprimíveis vender',
-      'matching worksheets toddler business',
-      'atividades associação Educação Infantil',
+      'atividades pareamento crianças para vender',
+      'imprimíveis associação Etsy KDP',
+      'nicho atividades associação infantil',
     ],
     lsiKeywords: [
       'pareamento visual crianças',
-      'coordenação olho-mão fichas',
-      'aprendizado precoce imprimível',
+      'coordenação olho-mão imprimível',
+      'aprendizado precoce atividade',
     ],
-    titleTag: 'Fichas Associação Crianças: Mercado | LCS',
-    metaDescription: 'Como vender fichas de associação para crianças pequenas. Nicho com demanda alta e crescente. Teste grátis com marca d\'água.',
+    titleTag: 'Atividades de associação educação infantil',
+    metaDescription: 'Venda atividades de associação para educação infantil. Crie atividades profissionais com LessonCraftStudio — 33 geradores, 11 idiomas, licença comercial.',
   },
   hero: {
     title: 'Fichas de Associação: O Mercado de Crianças Pequenas',

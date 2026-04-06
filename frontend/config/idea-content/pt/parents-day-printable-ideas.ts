@@ -2,30 +2,17 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'imprimíveis Dia das Mães Pais para vender',
+    primaryKeyword: 'imprimíveis de Dia dos Pais e Mães para vender no Etsy',
     secondaryKeywords: [
-      'atividades Dia das Mães para vender',
-      'imprimíveis Dia dos Pais Etsy',
-      'negócio atividades família Hotmart',
-      'presentes imprimíveis pais mães',
+      'atividades de Dia dos Pais e Mães Etsy KDP',
+      'atividades de Dia dos Pais e Mães imprimíveis',
+      'negócio imprimíveis Dia dos Pais e Mães',
+      'atividades de Dia dos Pais e Mães para vender',
     ],
-    lsiKeywords: [
-      'Hotmart',
-      'Kiwify',
-      'Etsy',
-      'Amazon KDP',
-      'renda extra',
-      'negócio de imprimíveis',
-      'licença comercial',
-      'nicho',
-      'ideias de produto',
-      'vendedor',
-      'Brasil',
-      'imprimíveis educativos',
-    ],
-    titleTag: 'Imprimíveis Dia das Mães/Pais | LCS',
+    lsiKeywords: ['família', 'presente', 'homenagem', 'maio'],
+    titleTag: 'Imprimíveis de Dia dos Pais Etsy | Nicho lucrativo',
     metaDescription:
-      'Crie e venda imprimíveis para Dia das Mães e Dia dos Pais no Etsy e Hotmart. Atividades educativas e presentes imprimíveis. Nicho sazonal forte.',
+      'Ideias de imprimíveis de Dia dos Pais e Mães para Etsy e KDP. Presentes e homenagens para pais e mães. Crie com LessonCraftStudio — 33 geradores e licença comercial.',
   },
   hero: {
     title: 'Dia das Mães e Pais — Imprimíveis para Vender Online',

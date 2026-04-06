@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'fichas alfabeto mais vendidas',
+    primaryKeyword: 'atividades do alfabeto mais vendidas',
     secondaryKeywords: [
-      'fichas ABC vender Etsy',
-      'alphabet worksheets best sellers',
-      'atividades alfabeto imprimíveis negócio',
+      'atividades ABC para vender no Etsy',
+      'imprimíveis de alfabeto lucrativas',
+      'criar atividades de letras para venda',
     ],
     lsiKeywords: [
-      'alfabetização fichas imprimível',
-      'letras ABC crianças',
-      'pré-alfabetização Educação Infantil',
+      'alfabetização',
+      'letras ABC',
+      'pré-escolar',
     ],
-    titleTag: 'Fichas Alfabeto Mais Vendidas | LCS',
-    metaDescription: 'Descubra quais fichas de alfabeto mais vendem no Etsy e como criar as suas. Teste grátis com marca d\'água o gerador.',
+    titleTag: 'Atividades do alfabeto mais vendidas | Dicas',
+    metaDescription: 'Descubra quais atividades de alfabeto mais vendem online. Crie atividades profissionais com LessonCraftStudio — 33 geradores, 11 idiomas, licença comercial.',
   },
   hero: {
     title: 'Fichas de Alfabeto: Os Mais Vendidos do Mercado',

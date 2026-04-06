@@ -1,29 +1,22 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'gerador de atividades de adição grátis online',
+    primaryKeyword: 'atividades de adição com imagens grátis',
     secondaryKeywords: [
-      'atividades de adição para imprimir grátis',
-      'criar atividades de soma online sem cadastro',
-      'gerador de exercícios de adição com imagens grátis',
-      'atividades de matemática para imprimir grátis',
+      'contas de mais com figuras grátis',
+      'adição visual para imprimir grátis',
+      'exercícios de soma com imagens grátis online',
+      'atividades de adição ilustrada grátis PDF',
     ],
     lsiKeywords: [
-      'grátis online',
-      'sem cadastro',
-      'marca d\'água',
-      'imprimir',
-      'PDF',
+      'imagens',
+      'figuras',
+      'visual',
       'gabarito',
-      'imagens temáticas',
-      '104 temas',
-      'educação infantil',
-      'ensino fundamental',
-      'teste grátis',
-      'licença comercial',
+      'sem cadastro',
     ],
-    titleTag: 'Atividades de adição grátis online | LCS',
-    metaDescription: 'Crie atividades de adição grátis com imagens temáticas. 104 temas, gabarito automático, exportação PDF. Venda no Etsy & KDP com licenca comercial.',
+    titleTag: 'Adição com imagens grátis para imprimir | Online',
+    metaDescription: 'Crie atividades de adição com imagens grátis. Sem cadastro. Gabarito automático, 104 temas, PDF 300 DPI. Marca d\'água removida com licença.',
   },
 
   hero: {

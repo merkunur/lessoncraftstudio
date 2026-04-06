@@ -1,29 +1,22 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'criar enigmas matemáticos codificados grátis',
+    primaryKeyword: 'mensagem secreta com contas grátis',
     secondaryKeywords: [
-      'puzzles de adição codificada grátis online',
-      'enigmas de matemática para imprimir grátis',
-      'criptaritmética grátis para crianças',
-      'palavra revelada grátis online',
+      'código secreto matemática grátis online',
+      'decifrar código com somas grátis',
+      'enigma de matemática grátis para imprimir',
+      'atividade código secreto grátis PDF',
     ],
     lsiKeywords: [
-      'grátis online',
+      'decifrar',
+      'código',
+      'mensagem',
+      'enigma',
       'sem cadastro',
-      'marca d\'água',
-      'imprimir',
-      'PDF',
-      'gabarito',
-      'palavra revelada',
-      'criptaritmética',
-      '11 idiomas',
-      'educação infantil',
-      'teste grátis',
-      'licença comercial',
     ],
-    titleTag: 'Enigmas matemáticos grátis online | LCS',
-    metaDescription: 'Crie enigmas de adição codificada grátis. Modo Palavra Revelada, 11 idiomas, gabarito automático. Venda no Etsy & KDP com licenca comercial.',
+    titleTag: 'Mensagem secreta com contas grátis | Online',
+    metaDescription: 'Crie atividades de mensagem secreta com contas grátis. Sem cadastro. Imagens temáticas, gabarito incluído. Marca d\'água removida com licença.',
   },
 
   hero: {

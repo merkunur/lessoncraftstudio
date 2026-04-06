@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'erros negócio imprimíveis evitar',
+    primaryKeyword: 'erros comuns no negócio de imprimíveis',
     secondaryKeywords: [
-      'erros negócio imprimíveis evitar guia',
-      'erros negócio imprimíveis evitar dicas',
-      'erros negócio imprimíveis evitar estratégia',
+      'erros fatais de vendedores de imprimíveis',
+      'por que vendedores de atividades não crescem',
+      'armadilhas no negócio de produtos digitais',
     ],
     lsiKeywords: [
-      'negócio imprimíveis digital',
-      'vendedor imprimíveis online',
-      'empreendedor digital educativo',
+      'preço baixo demais vendedor',
+      'SEO negligenciado Etsy',
+      'nicho amplo demais erro',
     ],
-    titleTag: 'Erros Negócio Imprimíveis: Evitar | LCS',
-    metaDescription: 'A maioria dos vendedores de imprimíveis comete os mesmos erros que os impedem de crescer. Preço muito baixo, nicho muito amplo, SEO negligenciado e falt.',
+    titleTag: 'Erros comuns no negócio de imprimíveis',
+    metaDescription: 'Evite os erros fatais que impedem vendedores de crescer. Crie atividades profissionais com LessonCraftStudio — 33 geradores, 11 idiomas, licença comercial.',
   },
   hero: {
     title: 'Erros Negócio Imprimíveis: Evitar',

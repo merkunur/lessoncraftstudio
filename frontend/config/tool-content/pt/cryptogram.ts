@@ -2,29 +2,22 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'gerador de criptogramas grátis',
+    primaryKeyword: 'mensagem secreta grátis para imprimir',
     secondaryKeywords: [
-      'criptograma para imprimir grátis',
-      'criar criptograma online grátis',
-      'puzzles de decifrar código grátis',
-      'criptograma com imagens grátis',
+      'criptograma grátis online',
+      'código secreto grátis para imprimir',
+      'decifrar mensagem grátis atividade',
+      'jogo de código grátis PDF',
     ],
     lsiKeywords: [
-      'grátis online',
+      'código',
+      'decifrar',
+      'letras',
+      'substituição',
       'sem cadastro',
-      'marca d\'água',
-      'imprimir',
-      'PDF',
-      'gabarito',
-      'criptograma',
-      'código secreto',
-      '11 idiomas',
-      'raciocínio lógico',
-      'teste grátis',
-      'licença comercial',
     ],
-    titleTag: 'Gerador de criptogramas grátis online | LCS',
-    metaDescription: 'Crie criptogramas grátis com imagens. Substituição de letras, 11 idiomas, gabarito automático. Venda no Etsy & KDP com licenca comercial.',
+    titleTag: 'Mensagens secretas grátis para imprimir | Online',
+    metaDescription: 'Crie criptogramas e mensagens secretas grátis com imagens temáticas. Sem cadastro. Gabarito automático, PDF 300 DPI. Marca d\'água removida com licença.',
   },
 
   hero: {

@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'avaliações Etsy produtos imprimíveis',
+    primaryKeyword: 'como conseguir avaliações no Etsy imprimíveis',
     secondaryKeywords: [
-      'avaliações Etsy produtos imprimíveis guia',
-      'avaliações Etsy produtos imprimíveis dicas',
-      'avaliações Etsy produtos imprimíveis estratégia',
+      'táticas éticas para avaliações Etsy',
+      'avaliações 5 estrelas produtos digitais',
+      'aumentar conversão com avaliações Etsy',
     ],
     lsiKeywords: [
-      'negócio imprimíveis digital',
-      'vendedor imprimíveis online',
-      'empreendedor digital educativo',
+      'prova social Etsy',
+      'Star Seller avaliações',
+      'reputação loja digital',
     ],
-    titleTag: 'Avaliações Etsy Imprimíveis | LCS',
-    metaDescription: 'Avaliações são o fator #1 de conversão no Etsy. Uma listagem com 20+ avaliações 5 estrelas vende 4-5x mais que uma sem avaliações. Para imprimíveis digi.',
+    titleTag: 'Conseguir avaliações no Etsy | Dicas',
+    metaDescription: 'Aprenda a conseguir avaliações 5 estrelas no Etsy. Crie atividades profissionais com LessonCraftStudio — 33 geradores, 11 idiomas, licença comercial.',
   },
   hero: {
     title: 'Avaliações Etsy Imprimíveis',

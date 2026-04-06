@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'amostras imprimíveis grátis lead magnet',
+    primaryKeyword: 'amostras grátis como isca para vendas',
     secondaryKeywords: [
-      'passo passo',
-      'ferramentas necessárias',
-      'dicas avançadas',
+      'lead magnet imprimíveis captar emails',
+      'amostras com marca d\'água converter vendas',
+      'estratégia amostras grátis imprimíveis',
     ],
     lsiKeywords: [
-      'tutorial imprimíveis',
-      'como criar fichas educativas',
-      'guia prático imprimíveis',
+      'captação emails imprimíveis',
+      'funil vendas produtos digitais',
+      'conversão lead magnet',
     ],
-    titleTag: 'Amostras Imprimíveis como Lead Magnet | LCS',
-    metaDescription: 'Oferecer amostras grátis com marca d\'água é a forma mais eficaz de captar emails e converter leads em clientes. Venda no Etsy & KDP com licenca comercial.',
+    titleTag: 'Amostras grátis como isca para vendas | Dicas',
+    metaDescription: 'Use amostras grátis como isca para converter vendas. Crie atividades profissionais com LessonCraftStudio — 33 geradores, 11 idiomas, licença comercial.',
   },
   hero: {
     title: 'Amostras Imprimíveis como Lead Magnet',

@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'atualizar listagens antigas imprimíveis vendas',
+    primaryKeyword: 'atualizar listagens antigas para vender mais',
     secondaryKeywords: [
-      'passo passo',
-      'ferramentas necessárias',
-      'dicas avançadas',
+      'otimizar listagens Etsy vendas',
+      'reviver listagens mortas imprimíveis',
+      'atualizar SEO listagens antigas',
     ],
     lsiKeywords: [
-      'tutorial imprimíveis',
-      'como criar fichas educativas',
-      'guia prático imprimíveis',
+      'otimização listagens Etsy',
+      'tags fotos títulos listagens',
+      'vendas imprimíveis otimização',
     ],
-    titleTag: 'Atualize Listagens Antigas para Mais Vendas | LCS',
-    metaDescription: 'Listagens antigas que pararam de vender podem ser revividas com otimização. Atualizar fotos, tags, título e preço pode transformar uma listagem com ze.',
+    titleTag: 'Atualizar listagens antigas | Vender mais',
+    metaDescription: 'Como atualizar listagens antigas para aumentar vendas no Etsy. Crie atividades profissionais com LessonCraftStudio — 33 geradores, 11 idiomas, licença comercial.',
   },
   hero: {
     title: 'Atualize Listagens Antigas para Mais Vendas',

@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'livros puzzles matemáticos Amazon KDP',
+    primaryKeyword: 'livros de puzzles de matemática no KDP',
     secondaryKeywords: [
-      'publicar livro atividades matemática KDP',
-      'livro puzzles matemática crianças',
-      'Amazon KDP livro educativo negócio',
+      'publicar livro puzzles matemática Amazon',
+      'livro atividades matemáticas KDP royalties',
+      'como criar livro puzzles para KDP',
     ],
     lsiKeywords: [
       'autopublicação livro atividades',
-      'formatação KDP livro matemática',
-      'royalties KDP livros educativos',
+      'formatação KDP puzzles',
+      'royalties livros educativos',
     ],
-    titleTag: 'Livros Puzzles Matemáticos Amazon KDP | LCS',
-    metaDescription: 'Como criar e publicar livros de puzzles matemáticos no Amazon KDP. Formatação, nichos e royalties. Teste grátis com marca d\'água o gerador.',
+    titleTag: 'Livros puzzles de matemática no KDP | Guia',
+    metaDescription: 'Publique livros de puzzles de matemática no Amazon KDP. Crie atividades profissionais com LessonCraftStudio — 33 geradores, 11 idiomas, licença comercial.',
   },
   hero: {
     title: 'Livros de Puzzles Matemáticos no Amazon KDP',

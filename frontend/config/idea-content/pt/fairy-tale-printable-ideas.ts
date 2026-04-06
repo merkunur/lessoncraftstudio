@@ -2,30 +2,17 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'imprimíveis de contos de fadas para Etsy',
+    primaryKeyword: 'imprimíveis de contos de fada para vender no Etsy',
     secondaryKeywords: [
-      'atividades contos de fadas para vender',
-      'imprimíveis princesas castelos Etsy',
-      'negócio atividades contos de fadas Hotmart',
-      'livros atividades fadas KDP',
+      'atividades de contos de fada Etsy KDP',
+      'atividades de contos de fada imprimíveis',
+      'negócio imprimíveis contos de fada',
+      'atividades de contos de fada para vender',
     ],
-    lsiKeywords: [
-      'Hotmart',
-      'Kiwify',
-      'Etsy',
-      'Amazon KDP',
-      'renda extra',
-      'negócio de imprimíveis',
-      'licença comercial',
-      'nicho',
-      'ideias de produto',
-      'vendedor',
-      'Brasil',
-      'imprimíveis educativos',
-    ],
-    titleTag: 'Imprimíveis contos de fadas Etsy | LCS',
+    lsiKeywords: ['contos', 'fadas', 'princesa', 'castelo'],
+    titleTag: 'Imprimíveis de contos de fada Etsy | Nicho lucrativo',
     metaDescription:
-      'Venda imprimíveis de contos de fadas no Etsy e Hotmart. Princesas, castelos e dragões em atividades educativas. Nicho com apelo atemporal.',
+      'Ideias de imprimíveis de contos de fada para Etsy e KDP. Princesas, castelos e atividades de contos. Crie com LessonCraftStudio — 33 geradores e licença comercial.',
   },
   hero: {
     title: 'Contos de Fadas — Imprimíveis para Vender no Etsy',

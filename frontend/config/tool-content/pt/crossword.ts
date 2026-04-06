@@ -1,29 +1,22 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'gerador de palavras cruzadas grátis com imagens',
+    primaryKeyword: 'gerador de cruzadinha grátis',
     secondaryKeywords: [
+      'criar cruzadinha grátis online',
       'cruzadinha para imprimir grátis',
-      'criar palavras cruzadas online grátis',
-      'gerador de cruzadinhas com imagens grátis',
-      'palavras cruzadas para crianças grátis',
+      'palavras cruzadas grátis com imagens',
+      'cruzadinha personalizada grátis',
     ],
     lsiKeywords: [
-      'grátis online',
-      'sem cadastro',
-      'marca d\'água',
-      'imprimir',
-      'PDF',
+      'dicas',
+      'grade',
+      'horizontal',
+      'vertical',
       'gabarito',
-      'palavras cruzadas',
-      'cruzadinha',
-      '11 idiomas',
-      'vocabulário',
-      'teste grátis',
-      'licença comercial',
     ],
-    titleTag: 'Gerador de palavras cruzadas grátis | LCS',
-    metaDescription: 'Crie palavras cruzadas grátis com imagens como pistas. 11 idiomas, gabarito automático, PDF imprimível. Venda no Etsy & KDP com licenca comercial.',
+    titleTag: 'Gerador de cruzadinha grátis | Online',
+    metaDescription: 'Crie cruzadinhas grátis com imagens como pistas visuais. Sem cadastro. 104 temas, gabarito automático, PDF 300 DPI. Marca d\'água removida com licença.',
   },
 
   hero: {

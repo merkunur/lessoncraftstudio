@@ -2,30 +2,17 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'downloads digitais imprimíveis ideias negócio',
+    primaryKeyword: 'imprimíveis de downloads digitais para vender no Etsy',
     secondaryKeywords: [
-      'vender PDFs educativos Etsy',
-      'downloads digitais Hotmart Kiwify',
-      'negócio renda passiva imprimíveis',
-      'produtos digitais educativos online',
+      'atividades de downloads digitais Etsy KDP',
+      'atividades de downloads digitais imprimíveis',
+      'negócio imprimíveis downloads digitais',
+      'atividades de downloads digitais para vender',
     ],
-    lsiKeywords: [
-      'Hotmart',
-      'Kiwify',
-      'Etsy',
-      'Amazon KDP',
-      'renda extra',
-      'negócio de imprimíveis',
-      'licença comercial',
-      'nicho',
-      'ideias de produto',
-      'vendedor',
-      'Brasil',
-      'imprimíveis educativos',
-    ],
-    titleTag: 'Negócio downloads digitais | LCS',
+    lsiKeywords: ['digital', 'download', 'PDF', 'entrega'],
+    titleTag: 'Imprimíveis de downloads digitais Etsy | Nicho lucrativo',
     metaDescription:
-      'Ideias de negócio com downloads digitais de imprimíveis educativos. Venda PDFs no Etsy, Hotmart e Kiwify. Margem alta, escalável e automatizado.',
+      'Ideias de imprimíveis de downloads digitais para Etsy e KDP. PDFs e entrega digital instantânea. Crie com LessonCraftStudio — 33 geradores e licença comercial.',
   },
   hero: {
     title: 'Downloads Digitais — Negócio de Imprimíveis Educativos',

@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'importância gabarito vendas imprimíveis',
+    primaryKeyword: 'importância do gabarito nas vendas',
     secondaryKeywords: [
-      'passo passo',
-      'ferramentas necessárias',
-      'dicas avançadas',
+      'gabarito aumenta vendas de imprimíveis',
+      'incluir respostas em atividades para vender',
+      'valor percebido com gabarito imprimíveis',
     ],
     lsiKeywords: [
-      'tutorial imprimíveis',
-      'como criar fichas educativas',
-      'guia prático imprimíveis',
+      'gabarito',
+      'valor percebido',
+      'conversão vendas',
     ],
-    titleTag: 'A Importância do Gabarito nas Vendas | LCS',
-    metaDescription: 'Incluir gabarito (answer key) é a forma mais simples de aumentar o valor percebido dos seus imprimíveis. Venda no Etsy & KDP com licenca comercial.',
+    titleTag: 'Importância do gabarito nas vendas | Dicas',
+    metaDescription: 'Incluir gabarito aumenta o valor percebido dos imprimíveis. Crie atividades profissionais com LessonCraftStudio — 33 geradores, 11 idiomas, licença comercial.',
   },
   hero: {
     title: 'A Importância do Gabarito nas Vendas',

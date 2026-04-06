@@ -2,30 +2,17 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'criar criptogramas para vender',
+    primaryKeyword: 'como criar criptogramas para imprimir',
     secondaryKeywords: [
-      'como criar criptogramas para Hotmart',
-      'criptogramas para vender na Etsy',
-      'guia criptogramas para Amazon KDP',
-      'criptogramas com licença comercial para vender',
+      'tutorial mensagens secretas passo a passo',
+      'criar criptogramas para vender',
+      'guia criptogramas com imagens',
+      'criptogramas para Etsy e KDP',
     ],
-    lsiKeywords: [
-      'licença comercial',
-      '300 DPI',
-      'pronto para impressão',
-      'download digital',
-      'gabarito incluso',
-      'Hotmart',
-      'Kiwify',
-      'Etsy',
-      'Amazon KDP',
-      'renda extra',
-      'negócio de imprimíveis',
-      'educação infantil',
-    ],
-    titleTag: 'Criptogramas para vender online | LCS',
+    lsiKeywords: ['código', 'decifrar', 'mensagem', 'letras', 'gabarito'],
+    titleTag: 'Como criar criptogramas para imprimir | Guia',
     metaDescription:
-      'Guia para criar criptogramas com imagens para vender. Puzzles de decifrar, 11 idiomas e estratégias de nicho.',
+      'Guia passo a passo para criar criptogramas e mensagens secretas com imagens temáticas. Gabarito automático. Teste grátis — licença comercial.',
   },
 
   hero: {

@@ -2,30 +2,17 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'imprimíveis volta às aulas para vender Etsy',
+    primaryKeyword: 'imprimíveis de volta às aulas para vender no Etsy',
     secondaryKeywords: [
-      'atividades volta às aulas para vender',
-      'imprimíveis início ano letivo Etsy',
-      'negócio atividades escolares Hotmart',
-      'material volta às aulas KDP',
+      'atividades de volta às aulas Etsy KDP',
+      'atividades de volta às aulas imprimíveis',
+      'negócio imprimíveis volta às aulas',
+      'atividades de volta às aulas para vender',
     ],
-    lsiKeywords: [
-      'Hotmart',
-      'Kiwify',
-      'Etsy',
-      'Amazon KDP',
-      'renda extra',
-      'negócio de imprimíveis',
-      'licença comercial',
-      'nicho',
-      'ideias de produto',
-      'vendedor',
-      'Brasil',
-      'imprimíveis educativos',
-    ],
-    titleTag: 'Imprimíveis volta às aulas Etsy | LCS',
+    lsiKeywords: ['escola', 'fevereiro', 'material', 'volta'],
+    titleTag: 'Imprimíveis de volta às aulas Etsy | Nicho lucrativo',
     metaDescription:
-      'Venda imprimíveis de volta às aulas no Etsy e Hotmart. Atividades educativas com alta demanda em janeiro-fevereiro (BR) e agosto-setembro (EUA).',
+      'Ideias de imprimíveis de volta às aulas para Etsy e KDP. Material escolar com alta demanda sazonal. Crie com LessonCraftStudio — 33 geradores e licença comercial.',
   },
   hero: {
     title: 'Volta às Aulas — Imprimíveis para Vender no Etsy',

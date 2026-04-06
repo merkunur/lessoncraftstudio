@@ -2,29 +2,16 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'gerador de atividades de classificação grátis',
+    primaryKeyword: 'atividade de classificação grátis para imprimir',
     secondaryKeywords: [
-      'atividades de classificação para imprimir grátis',
-      'exercícios de categorização grátis online',
-      'atividades de ordenar grátis para crianças',
-      'classificação visual grátis',
+      'classificar e agrupar grátis online',
+      'categorizar imagens grátis exercício',
+      'separar e classificar grátis atividade',
+      'atividade de agrupamento grátis PDF',
     ],
-    lsiKeywords: [
-      'grátis online',
-      'sem cadastro',
-      'marca d\'água',
-      'imprimir',
-      'PDF',
-      'gabarito',
-      'classificação',
-      'categorização',
-      '104 temas',
-      'raciocínio lógico',
-      'teste grátis',
-      'licença comercial',
-    ],
-    titleTag: 'Classificação grátis online | LCS',
-    metaDescription: 'Crie atividades de classificação e categorização grátis. 104 temas, gabarito automático, PDF imprimível. Venda no Etsy & KDP com licenca comercial.',
+    lsiKeywords: ['classificar', 'agrupar', 'separar', 'categorizar', 'sem cadastro'],
+    titleTag: 'Atividade de classificação grátis para imprimir | Online',
+    metaDescription: 'Crie atividades de classificação e categorização grátis com imagens temáticas. Sem cadastro. Gabarito automático. Marca d\'água removida com licença.',
   },
 
   hero: {

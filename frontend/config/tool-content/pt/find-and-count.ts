@@ -2,29 +2,16 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'grátis procure conte online crie atividades',
+    primaryKeyword: 'encontre e conte grátis para imprimir',
     secondaryKeywords: [
-      'procure e conte para imprimir grátis',
-      'atividades de encontre e conte grátis',
-      'contagem visual grátis para crianças',
-      'atividades de procurar e contar grátis',
+      'contar objetos grátis online',
+      'quantos tem? grátis atividade',
+      'atividade de contagem grátis educação infantil',
+      'encontre e conte grátis PDF',
     ],
-    lsiKeywords: [
-      'grátis online',
-      'sem cadastro',
-      'marca d\'água',
-      'imprimir',
-      'PDF',
-      'gabarito',
-      'procurar e contar',
-      'contagem',
-      '104 temas',
-      'educação infantil',
-      'teste grátis',
-      'licença comercial',
-    ],
-    titleTag: 'Procure e conte grátis online | LCS',
-    metaDescription: 'Crie atividades de procurar e contar grátis com imagens. 104 temas, gabarito automático, PDF imprimível. Venda no Etsy & KDP com licenca comercial.',
+    lsiKeywords: ['contar', 'quantos', 'discriminação visual', 'números', 'sem cadastro'],
+    titleTag: 'Encontre e conte grátis para imprimir | Online',
+    metaDescription: 'Crie atividades de "encontre e conte" grátis com imagens temáticas. Sem cadastro. Gabarito automático, PDF imprimíveis. Marca d\'água removida com licença.',
   },
 
   hero: {

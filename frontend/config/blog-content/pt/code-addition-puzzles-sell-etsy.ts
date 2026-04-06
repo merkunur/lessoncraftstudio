@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'puzzles código adição vender Etsy',
+    primaryKeyword: 'vender puzzles de código no Etsy',
     secondaryKeywords: [
-      'fichas código adição imprimíveis',
-      'puzzles matemática código vender',
-      'atividades código adição negócio',
+      'atividades de código de adição para venda',
+      'puzzles matemáticos imprimíveis Etsy',
+      'nicho de puzzles de código lucrativo',
     ],
     lsiKeywords: [
-      'matemática lúdica imprimível',
-      'código secreto adição',
-      'fichas divertidas matemática',
+      'código adição',
+      'puzzle matemático',
+      'decodificação',
     ],
-    titleTag: 'Puzzles Código Adição: Vender no Etsy | LCS',
-    metaDescription: 'Aprenda a criar e vender puzzles de código de adição no Etsy. Nicho lucrativo com baixa concorrência. Teste grátis com marca d\'água.',
+    titleTag: 'Vender puzzles de código no Etsy | Guia',
+    metaDescription: 'Crie e venda puzzles de código de adição no Etsy. Crie atividades profissionais com LessonCraftStudio — 33 geradores, 11 idiomas, licença comercial.',
   },
   hero: {
     title: 'Puzzles de Código de Adição: Nicho Lucrativo no Etsy',

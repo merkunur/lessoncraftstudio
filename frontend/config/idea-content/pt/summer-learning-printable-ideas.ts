@@ -2,30 +2,17 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'atividades de férias para vender no Etsy',
+    primaryKeyword: 'imprimíveis de aprendizagem de verão para vender no Etsy',
     secondaryKeywords: [
-      'atividades férias para vender Etsy',
-      'imprimíveis revisão férias Hotmart',
-      'negócio caderno de férias digital',
-      'livros atividades férias KDP',
+      'atividades de aprendizagem de verão Etsy KDP',
+      'atividades de aprendizagem de verão imprimíveis',
+      'negócio imprimíveis aprendizagem de verão',
+      'atividades de aprendizagem de verão para vender',
     ],
-    lsiKeywords: [
-      'Hotmart',
-      'Kiwify',
-      'Etsy',
-      'Amazon KDP',
-      'renda extra',
-      'negócio de imprimíveis',
-      'licença comercial',
-      'nicho',
-      'ideias de produto',
-      'vendedor',
-      'Brasil',
-      'imprimíveis educativos',
-    ],
-    titleTag: 'Atividades de férias para vender | LCS',
+    lsiKeywords: ['férias', 'reforço', 'prática', 'verão'],
+    titleTag: 'Imprimíveis de aprendizagem verão Etsy | Nicho lucrativo',
     metaDescription:
-      'Venda atividades de férias no Etsy, Hotmart e KDP. Imprimíveis para evitar perda de aprendizado nas férias. Nicho sazonal com alta demanda.',
+      'Ideias de imprimíveis de aprendizagem de verão para Etsy e KDP. Reforço e prática durante as férias. Crie com LessonCraftStudio — 33 geradores e licença comercial.',
   },
   hero: {
     title: 'Atividades de Férias — Imprimíveis para Vender no Etsy',

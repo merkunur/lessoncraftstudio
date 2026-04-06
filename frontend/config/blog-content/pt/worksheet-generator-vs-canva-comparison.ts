@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'gerador fichas vs Canva comparação',
+    primaryKeyword: 'gerador de atividades vs Canva comparação',
     secondaryKeywords: [
-      'gerador fichas vs Canva comparação passo a passo',
-      'gerador fichas vs Canva comparação tutorial',
-      'gerador fichas vs Canva comparação como fazer',
+      'LessonCraftStudio vs Canva atividades',
+      'gerador especializado vs Canva imprimíveis',
+      'melhor ferramenta criar atividades',
     ],
     lsiKeywords: [
-      'tutorial imprimíveis',
-      'como criar fichas educativas',
-      'guia prático imprimíveis',
+      'ferramentas criar atividades',
+      'gerador especializado imprimíveis',
+      'Canva vs gerador educativo',
     ],
-    titleTag: 'Gerador de Fichas vs Canva: Comparação | LCS',
-    metaDescription: 'O Canva é excelente para design gráfico geral, mas geradores especializados como o LessonCraftStudio superam o Canva. Venda no Etsy & KDP com licenca comercial.',
+    titleTag: 'Gerador de atividades vs Canva | Comparação',
+    metaDescription: 'Comparação entre gerador de atividades especializado e Canva. Crie atividades profissionais com LessonCraftStudio — 33 geradores, 11 idiomas, licença comercial.',
   },
   hero: {
     title: 'Gerador de Fichas vs Canva: Comparação',

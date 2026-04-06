@@ -2,30 +2,17 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'criar atividades de alfabeto para vender no Etsy',
+    primaryKeyword: 'como criar atividades do alfabeto para imprimir',
     secondaryKeywords: [
-      'como criar atividades de alfabeto para Hotmart',
-      'atividades de alfabeto para vender na Etsy',
-      'guia atividades de alfabeto para Amazon KDP',
-      'atividades de alfabeto com licença comercial para vender',
+      'tutorial alfabeto passo a passo',
+      'criar atividades de alfabetização para vender',
+      'guia ABC com imagens temáticas',
+      'atividades do alfabeto para Etsy e KDP',
     ],
-    lsiKeywords: [
-      'licença comercial',
-      '300 DPI',
-      'pronto para impressão',
-      'download digital',
-      'gabarito incluso',
-      'Hotmart',
-      'Kiwify',
-      'Etsy',
-      'Amazon KDP',
-      'renda extra',
-      'negócio de imprimíveis',
-      'educação infantil',
-    ],
-    titleTag: 'Atividades de alfabeto para vender | LCS',
+    lsiKeywords: ['alfabeto', 'ABC', 'letras', 'alfabetização', 'imagens'],
+    titleTag: 'Como criar atividades do alfabeto | Guia passo a passo',
     metaDescription:
-      'Guia para criar atividades de alfabeto e reconhecimento de letras para vender. Alfabetização, 11 idiomas e estratégias.',
+      'Guia passo a passo para criar atividades do alfabeto com imagens temáticas. Reconhecimento de letras, 11 idiomas. Teste grátis — licença comercial.',
   },
 
   hero: {

@@ -2,32 +2,21 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'atividades de classificação para negócio na Hotmart',
+    primaryKeyword: 'atividade de classificação para imprimir',
     secondaryKeywords: [
-      'gerador de atividades de classificação para Etsy',
-      'atividades de ordenar e agrupar para Amazon KDP',
-      'exercícios de categorização com licença comercial',
-      'atividades de classificação para vender na Kiwify',
+      'classificar e agrupar atividade',
+      'categorizar imagens exercício',
+      'separar e classificar atividade',
+      'atividade de agrupamento',
     ],
     lsiKeywords: [
-      'licença comercial',
-      '300 DPI',
-      'pronto para impressão',
-      'classificação',
-      'categorização',
+      'classificar',
       'agrupar',
-      'download digital',
-      'gabarito incluso',
-      'raciocínio lógico',
-      'educação infantil',
-      'ensino fundamental',
-      'negócio de imprimíveis',
-      'renda extra',
-      'Hotmart',
-      'Kiwify',
+      'separar',
+      'categorizar',
     ],
-    titleTag: 'Atividades de classificação para vender | LCS',
-    metaDescription: 'Crie atividades de classificação e categorização para vender na Hotmart, Etsy e KDP. 104 temas, gabarito automático. 49 $ pagamento unico.',
+    titleTag: 'Atividade de classificação para imprimir | Gerador',
+    metaDescription: 'Crie atividades de classificação e categorização com imagens temáticas. Gabarito automático, PDF imprimíveis. Teste grátis.',
   },
 
   hero: {

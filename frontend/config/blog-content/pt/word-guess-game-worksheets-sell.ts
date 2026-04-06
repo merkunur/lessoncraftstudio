@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'fichas jogo adivinhar palavras vender',
+    primaryKeyword: 'vender atividades de jogo da forca',
     secondaryKeywords: [
       'jogo forca imprimível negócio',
-      'fichas adivinhar palavras Etsy',
-      'word guess worksheets sell',
+      'atividades adivinhar palavras Etsy',
+      'atividades vocabulário lúdico vender',
     ],
     lsiKeywords: [
       'jogo palavras imprimível',
       'forca educativo crianças',
       'atividade vocabulário lúdica',
     ],
-    titleTag: 'Fichas Jogo Adivinhar Palavras: Vender | LCS',
-    metaDescription: 'Venda fichas de jogo de adivinhar palavras online. Formato popular e fácil de criar. Teste grátis com marca d\'água.',
+    titleTag: 'Vender atividades jogo da forca | Guia',
+    metaDescription: 'Como vender atividades de jogo da forca e adivinhar palavras. Crie atividades profissionais com LessonCraftStudio — 33 geradores, 11 idiomas, licença comercial.',
   },
   hero: {
     title: 'Fichas de Jogo de Adivinhar Palavras: Venda Online',

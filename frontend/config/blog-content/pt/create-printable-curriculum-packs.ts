@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'criar pacotes currículo imprimíveis',
+    primaryKeyword: 'como criar pacotes de atividades curriculares',
     secondaryKeywords: [
-      'criar pacotes currículo imprimíveis passo a passo',
-      'criar pacotes currículo imprimíveis tutorial',
-      'criar pacotes currículo imprimíveis como fazer',
+      'pacotes curriculares imprimíveis para vender',
+      'criar conjunto de atividades educativas',
+      'pacotes de homeschool para venda',
     ],
     lsiKeywords: [
-      'tutorial imprimíveis',
-      'como criar fichas educativas',
-      'guia prático imprimíveis',
+      'pacote curricular',
+      'homeschool',
+      'produto premium',
     ],
-    titleTag: 'Crie Pacotes Currículo Imprimíveis | LCS',
-    metaDescription: 'Pacotes currículo — conjuntos completos de fichas que cobrem um período letivo inteiro — são os produtos de maior valor no mercado de imprimíveis. Fam.',
+    titleTag: 'Criar pacotes de atividades curriculares | Guia',
+    metaDescription: 'Crie pacotes curriculares de alto valor para homeschool e escolas. Crie atividades profissionais com LessonCraftStudio — 33 geradores, 11 idiomas, licença comercial.',
   },
   hero: {
     title: 'Crie Pacotes Currículo Imprimíveis',

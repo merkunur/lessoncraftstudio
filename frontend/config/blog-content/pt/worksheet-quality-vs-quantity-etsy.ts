@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'fichas qualidade quantidade Etsy',
+    primaryKeyword: 'qualidade vs quantidade de atividades no Etsy',
     secondaryKeywords: [
-      'estratégias funcionam',
-      'mercado brasileiro internacional',
-      'ferramentas recursos',
+      'quantidade listagens Etsy imprimíveis',
+      'qualidade atividades converter vendas',
+      'estratégia listagens Etsy vendedor',
     ],
     lsiKeywords: [
       'negócio imprimíveis digital',
       'vendedor imprimíveis online',
-      'empreendedor digital educativo',
+      'otimização listagens Etsy',
     ],
-    titleTag: 'Fichas: Qualidade vs Quantidade Etsy | LCS',
-    metaDescription: 'No Etsy, você precisa de quantidade para ser encontrado e qualidade para converter. 200 listagens medianas perdem para 50 listagens excelentes, mas 50 l.',
+    titleTag: 'Qualidade vs quantidade no Etsy | Debate',
+    metaDescription: 'Qualidade ou quantidade de atividades no Etsy: qual estratégia vence. Crie atividades profissionais com LessonCraftStudio — 33 geradores, 11 idiomas, licença comercial.',
   },
   hero: {
     title: 'Fichas: Qualidade vs Quantidade Etsy',

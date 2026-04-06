@@ -2,30 +2,17 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'criar atividades de comparação para vender',
+    primaryKeyword: 'como criar atividades de comparação de tamanhos',
     secondaryKeywords: [
-      'como criar atividades de comparação para Hotmart',
-      'atividades de comparação para vender na Etsy',
-      'guia atividades de comparação para Amazon KDP',
-      'atividades de comparação com licença comercial para vender',
+      'tutorial grande e pequeno passo a passo',
+      'criar atividades de tamanhos para vender',
+      'guia comparação de tamanhos com imagens',
+      'atividades de tamanhos para Etsy e KDP',
     ],
-    lsiKeywords: [
-      'licença comercial',
-      '300 DPI',
-      'pronto para impressão',
-      'download digital',
-      'gabarito incluso',
-      'Hotmart',
-      'Kiwify',
-      'Etsy',
-      'Amazon KDP',
-      'renda extra',
-      'negócio de imprimíveis',
-      'educação infantil',
-    ],
-    titleTag: 'Atividades de comparação para vender | LCS',
+    lsiKeywords: ['grande', 'pequeno', 'ordenar', 'comparar', 'imagens'],
+    titleTag: 'Como criar atividades de comparação de tamanhos | Guia',
     metaDescription:
-      'Guia para criar atividades de comparação de tamanhos para vender. Grande e pequeno, educação infantil e estratégias.',
+      'Guia passo a passo para criar atividades de comparação de tamanhos com imagens temáticas. Gabarito automático. Teste grátis — venda no Etsy e KDP.',
   },
 
   hero: {

@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'imprimíveis halloween venda outubro',
+    primaryKeyword: 'atividades de Halloween para vender',
     secondaryKeywords: [
-      'imprimíveis Halloween vender outubro negócio',
-      'imprimíveis Halloween vender outubro vender',
-      'imprimíveis Halloween vender outubro Etsy',
+      'imprimíveis Halloween Etsy KDP sazonal',
+      'atividades temáticas outubro para vender',
+      'nicho Halloween imprimíveis sazonais',
     ],
     lsiKeywords: [
-      'imprimíveis sazonais vender',
-      'nicho educativo imprimíveis',
-      'mercado imprimíveis temáticos',
+      'imprimíveis sazonais outubro',
+      'tema Halloween crianças',
+      'vendas sazonais imprimíveis',
     ],
-    titleTag: 'Imprimíveis de Halloween: Venda em Outubro | LCS',
-    metaDescription: 'Halloween está crescendo rapidamente no Brasil, especialmente entre famílias com crianças em escolas bilíngues e. Venda no Etsy & KDP com licenca comercial.',
+    titleTag: 'Atividades de Halloween para vender | Sazonal',
+    metaDescription: 'Venda atividades de Halloween sazonais no Etsy e KDP. Crie atividades profissionais com LessonCraftStudio — 33 geradores, 11 idiomas, licença comercial.',
   },
   hero: {
     title: 'Imprimíveis de Halloween: Venda em Outubro',

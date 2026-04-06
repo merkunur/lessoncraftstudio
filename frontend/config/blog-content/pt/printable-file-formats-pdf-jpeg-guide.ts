@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'arquivo formato formatos imprimíveis guia',
+    primaryKeyword: 'formatos de arquivo PDF vs JPEG para imprimíveis',
     secondaryKeywords: [
-      'passo passo',
-      'ferramentas necessárias',
-      'dicas avançadas',
+      'qual formato usar para vender imprimíveis',
+      'PDF ou JPEG para atividades no Etsy',
+      'otimizar formato de arquivo para impressão',
     ],
     lsiKeywords: [
-      'tutorial imprimíveis',
-      'como criar fichas educativas',
-      'guia prático imprimíveis',
+      'qualidade de impressão digital',
+      'formato PDF multipáginas',
+      'resolução ideal imprimíveis',
     ],
-    titleTag: 'Formatos de Arquivo para Imprimíveis: Guia | LCS',
-    metaDescription: 'A escolha do formato de arquivo afeta a experiência do comprador e a qualidade de impressão. Venda no Etsy & KDP com licenca comercial.',
+    titleTag: 'Formatos PDF vs JPEG para imprimíveis | Guia',
+    metaDescription: 'Escolha o formato ideal entre PDF, JPEG e PNG para vender. Crie atividades profissionais com LessonCraftStudio — 33 geradores, 11 idiomas, licença comercial.',
   },
   hero: {
     title: 'Formatos de Arquivo para Imprimíveis: Guia',

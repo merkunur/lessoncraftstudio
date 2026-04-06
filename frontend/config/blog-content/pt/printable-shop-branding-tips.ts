@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'dicas branding loja imprimíveis',
+    primaryKeyword: 'dicas de branding para loja de imprimíveis',
     secondaryKeywords: [
-      'dicas branding loja imprimíveis guia',
-      'dicas branding loja imprimíveis dicas',
-      'dicas branding loja imprimíveis estratégia',
+      'como criar marca para loja de atividades',
+      'identidade visual para vendedor de imprimíveis',
+      'branding que fideliza clientes no Etsy',
     ],
     lsiKeywords: [
-      'negócio imprimíveis digital',
-      'vendedor imprimíveis online',
-      'empreendedor digital educativo',
+      'identidade visual loja',
+      'tom de voz vendedor',
+      'marca memorável Etsy',
     ],
-    titleTag: 'Branding Loja Imprimíveis | LCS',
-    metaDescription: 'Uma marca forte transforma compradores únicos em clientes fiéis. No mercado de imprimíveis, branding inclui visual consistente, tom de voz, experiência .',
+    titleTag: 'Dicas de branding para loja de imprimíveis',
+    metaDescription: 'Crie uma marca forte para sua loja de imprimíveis online. Crie atividades profissionais com LessonCraftStudio — 33 geradores, 11 idiomas, licença comercial.',
   },
   hero: {
     title: 'Branding Loja Imprimíveis',

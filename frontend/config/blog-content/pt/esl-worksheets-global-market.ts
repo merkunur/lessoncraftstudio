@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'fichas PLE mercado global',
+    primaryKeyword: 'atividades de idiomas para mercado global',
     secondaryKeywords: [
-      'produtos mais vendem neste',
-      'estratégia preço pacotes',
-      'marketing seo este nicho',
+      'imprimíveis PLE para vender online',
+      'atividades ESL mercado internacional',
+      'vender material de idiomas no Etsy',
     ],
     lsiKeywords: [
-      'imprimíveis sazonais vender',
-      'nicho educativo imprimíveis',
-      'mercado imprimíveis temáticos',
+      'vocabulário visual imprimível',
+      'ensino de línguas digital',
+      'mercado global educativo',
     ],
-    titleTag: 'Fichas PLE: Mercado Global | LCS',
-    metaDescription: 'O ensino de português como língua estrangeira (PLE) e inglês como segunda língua (ESL) são mercados globais com demanda crescente. Fichas educativas p.',
+    titleTag: 'Atividades de idiomas para mercado global',
+    metaDescription: 'Venda atividades de idiomas para o mercado global PLE e ESL. Crie atividades profissionais com LessonCraftStudio — 33 geradores, 11 idiomas, licença comercial.',
   },
   hero: {
     title: 'Fichas PLE: Mercado Global',

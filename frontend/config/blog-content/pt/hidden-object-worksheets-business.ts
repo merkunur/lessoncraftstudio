@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'fichas objetos escondidos negócio',
+    primaryKeyword: 'negócio de atividades de objetos escondidos',
     secondaryKeywords: [
-      'hidden object worksheets sell',
-      'fichas encontrar objetos imprimíveis',
-      'atividades objetos escondidos vender',
+      'atividades encontrar objetos para vender',
+      'imprimíveis objetos escondidos Etsy KDP',
+      'nicho objetos escondidos imprimíveis',
     ],
     lsiKeywords: [
-      'atenção visual crianças fichas',
+      'atenção visual crianças',
       'concentração imprimível educativo',
       'buscar e encontrar atividade',
     ],
-    titleTag: 'Fichas Objetos Escondidos: Negócio | LCS',
-    metaDescription: 'Monte um negócio vendendo fichas de objetos escondidos. Alta demanda e baixa concorrência. Teste grátis com marca d\'água.',
+    titleTag: 'Negócio atividades de objetos escondidos',
+    metaDescription: 'Monte um negócio com atividades de objetos escondidos. Crie atividades profissionais com LessonCraftStudio — 33 geradores, 11 idiomas, licença comercial.',
   },
   hero: {
     title: 'Fichas de Objetos Escondidos: Oportunidade de Negócio',

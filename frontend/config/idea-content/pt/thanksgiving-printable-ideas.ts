@@ -2,30 +2,17 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'imprimíveis de Ação de Graças para vender',
+    primaryKeyword: 'imprimíveis de Ação de Graças para vender no Etsy',
     secondaryKeywords: [
-      'atividades Thanksgiving para vender Etsy',
-      'imprimíveis Ação de Graças KDP',
-      'nicho americano vendedores brasileiros',
-      'atividades Thanksgiving em inglês',
+      'atividades de Ação de Graças Etsy KDP',
+      'atividades de Ação de Graças imprimíveis',
+      'negócio imprimíveis Ação de Graças',
+      'atividades de Ação de Graças para vender',
     ],
-    lsiKeywords: [
-      'Hotmart',
-      'Kiwify',
-      'Etsy',
-      'Amazon KDP',
-      'renda extra',
-      'negócio de imprimíveis',
-      'licença comercial',
-      'nicho',
-      'ideias de produto',
-      'vendedor',
-      'Brasil',
-      'imprimíveis educativos',
-    ],
-    titleTag: 'Imprimíveis Ação de Graças | LCS',
+    lsiKeywords: ['novembro', 'gratidão', 'família', 'outono'],
+    titleTag: 'Imprimíveis de Ação de Graças Etsy | Nicho lucrativo',
     metaDescription:
-      'Venda imprimíveis de Ação de Graças no Etsy e KDP. Nicho do mercado americano perfeito para vendedores brasileiros. Estratégias e ideias de produtos.',
+      'Ideias de imprimíveis de Ação de Graças para Etsy e KDP. Família, gratidão e atividades de outono. Crie com LessonCraftStudio — 33 geradores e licença comercial.',
   },
   hero: {
     title: 'Ação de Graças — Imprimíveis para o Mercado Americano',

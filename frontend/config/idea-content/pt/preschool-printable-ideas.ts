@@ -2,30 +2,17 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'imprimíveis de educação infantil para vender',
+    primaryKeyword: 'imprimíveis de pré-escola para vender no Etsy',
     secondaryKeywords: [
-      'atividades educação infantil para vender',
-      'imprimíveis pré-escola Etsy Hotmart',
-      'negócio atividades crianças 3-5 anos',
-      'livros atividades educação infantil KDP',
+      'atividades de pré-escola Etsy KDP',
+      'atividades de pré-escola imprimíveis',
+      'negócio imprimíveis pré-escola',
+      'atividades de pré-escola para vender',
     ],
-    lsiKeywords: [
-      'Hotmart',
-      'Kiwify',
-      'Etsy',
-      'Amazon KDP',
-      'renda extra',
-      'negócio de imprimíveis',
-      'licença comercial',
-      'nicho',
-      'ideias de produto',
-      'vendedor',
-      'Brasil',
-      'imprimíveis educativos',
-    ],
-    titleTag: 'Imprimíveis educação infantil Etsy | LCS',
+    lsiKeywords: ['educação infantil', 'pré-escola', '3-5 anos', 'iniciantes'],
+    titleTag: 'Imprimíveis de pré-escola Etsy | Nicho lucrativo',
     metaDescription:
-      'Venda imprimíveis de educação infantil no Etsy e Hotmart. Atividades para crianças de 3-5 anos com alta demanda. Nicho mais lucrativo do mercado.',
+      'Ideias de imprimíveis de pré-escola para Etsy e KDP. Atividades para crianças de 3 a 5 anos. Crie com LessonCraftStudio — 33 geradores e licença comercial.',
   },
   hero: {
     title: 'Educação Infantil — Imprimíveis para Vender no Etsy',

@@ -2,30 +2,17 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'criar ache e encontre para vender',
+    primaryKeyword: 'como criar atividades de encontre os objetos',
     secondaryKeywords: [
-      'como criar ache e encontre para Hotmart',
-      'ache e encontre para vender na Etsy',
-      'guia ache e encontre para Amazon KDP',
-      'ache e encontre com licença comercial para vender',
+      'tutorial encontre os objetos passo a passo',
+      'criar atividades de observação para vender',
+      'guia objetos escondidos com imagens',
+      'encontre os objetos para Etsy e KDP',
     ],
-    lsiKeywords: [
-      'licença comercial',
-      '300 DPI',
-      'pronto para impressão',
-      'download digital',
-      'gabarito incluso',
-      'Hotmart',
-      'Kiwify',
-      'Etsy',
-      'Amazon KDP',
-      'renda extra',
-      'negócio de imprimíveis',
-      'educação infantil',
-    ],
-    titleTag: 'Ache e encontre para vender online | LCS',
+    lsiKeywords: ['encontrar', 'objetos', 'observação', 'imagens', 'gabarito'],
+    titleTag: 'Como criar atividades encontre os objetos | Guia',
     metaDescription:
-      'Guia para criar atividades de ache e encontre para vender. Cenas visuais, temas e estratégias para Hotmart e KDP.',
+      'Guia passo a passo para criar atividades de "encontre os objetos" com imagens temáticas. Gabarito automático. Teste grátis — venda no Etsy e KDP.',
   },
 
   hero: {

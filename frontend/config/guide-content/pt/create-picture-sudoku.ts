@@ -2,30 +2,17 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'criar sudoku com imagens para vender',
+    primaryKeyword: 'como criar sudoku com imagens para imprimir',
     secondaryKeywords: [
-      'como criar sudoku com imagens para Hotmart',
-      'sudoku com imagens para vender na Etsy',
-      'guia sudoku com imagens para Amazon KDP',
-      'sudoku com imagens com licença comercial para vender',
+      'tutorial sudoku visual passo a passo',
+      'criar sudoku para crianças para vender',
+      'guia sudoku com imagens temáticas',
+      'sudoku infantil para Etsy e KDP',
     ],
-    lsiKeywords: [
-      'licença comercial',
-      '300 DPI',
-      'pronto para impressão',
-      'download digital',
-      'gabarito incluso',
-      'Hotmart',
-      'Kiwify',
-      'Etsy',
-      'Amazon KDP',
-      'renda extra',
-      'negócio de imprimíveis',
-      'educação infantil',
-    ],
-    titleTag: 'Sudoku com imagens para vender online | LCS',
+    lsiKeywords: ['sudoku', 'imagens', 'grade', 'lógica', '4x4'],
+    titleTag: 'Como criar sudoku com imagens | Guia passo a passo',
     metaDescription:
-      'Guia para criar sudoku com imagens para vender. Grades visuais para crianças, livros KDP e estratégias de nicho.',
+      'Guia passo a passo para criar sudoku com imagens temáticas. Dificuldade ajustável, gabarito automático. Teste grátis — venda no Etsy e Amazon KDP.',
   },
 
   hero: {

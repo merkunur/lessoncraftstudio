@@ -2,29 +2,22 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'criar jogo de adivinhar palavras grátis',
+    primaryKeyword: 'jogo da forca grátis para imprimir',
     secondaryKeywords: [
-      'jogo de adivinhar palavras para imprimir grátis',
-      'forca educativa online grátis',
-      'adivinhar palavras com imagens grátis',
-      'jogo de letras para crianças grátis',
+      'adivinhar a palavra grátis online',
+      'forca para imprimir grátis',
+      'jogo de palavras grátis PDF',
+      'adivinhar palavras grátis atividade',
     ],
     lsiKeywords: [
-      'grátis online',
-      'sem cadastro',
-      'marca d\'água',
-      'imprimir',
-      'PDF',
-      'gabarito',
-      'adivinhar palavras',
       'forca',
-      '11 idiomas',
+      'adivinhar',
+      'letras',
       'vocabulário',
-      'teste grátis',
-      'licença comercial',
+      'sem cadastro',
     ],
-    titleTag: 'Adivinhar palavras grátis online | LCS',
-    metaDescription: 'Crie jogos de adivinhar palavras grátis com imagens. Estilo forca, 11 idiomas, gabarito automático. Venda no Etsy & KDP com licenca comercial.',
+    titleTag: 'Jogo da forca grátis para imprimir | Online',
+    metaDescription: 'Crie atividades de jogo da forca grátis com vocabulário temático. Sem cadastro. Gabarito automático, PDF imprimíveis. Marca d\'água removida com licença.',
   },
 
   hero: {

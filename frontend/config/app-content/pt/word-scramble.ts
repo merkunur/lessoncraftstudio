@@ -2,31 +2,23 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'criar embaralha palavras para vender na Hotmart',
+    primaryKeyword: 'letras embaralhadas para imprimir',
     secondaryKeywords: [
-      'gerador de palavras embaralhadas para Etsy',
-      'atividades de desembaralhar palavras para KDP',
-      'embaralha palavras com imagens licença comercial',
-      'jogos de letras para vender na Kiwify',
+      'formar palavras atividade',
+      'desembaralhar letras exercício',
+      'palavras embaralhadas para imprimir',
+      'anagrama para imprimir',
     ],
     lsiKeywords: [
-      'licença comercial',
-      '300 DPI',
-      'pronto para impressão',
-      'palavras embaralhadas',
       'anagrama',
-      'download digital',
-      'gabarito incluso',
+      'embaralhar',
+      'formar',
+      'ortografia',
       'vocabulário',
       'alfabetização',
-      'ensino fundamental',
-      'negócio de imprimíveis',
-      'renda extra',
-      'Hotmart',
-      'Kiwify',
     ],
-    titleTag: 'Embaralha palavras para vender online | LCS',
-    metaDescription: 'Crie atividades de embaralha palavras para vender na Hotmart, Etsy e KDP. Imagens como pistas, 11 idiomas, gabarito incluso. 49 $ pagamento unico.',
+    titleTag: 'Letras embaralhadas para imprimir | Gerador de anagramas',
+    metaDescription: 'Crie atividades de letras embaralhadas com imagens temáticas. Gabarito automático, PDF imprimíveis. Teste grátis — licença comercial incluída.',
   },
 
   hero: {

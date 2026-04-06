@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'fichas intruso vender',
+    primaryKeyword: 'vender atividades encontre o intruso',
     secondaryKeywords: [
-      'odd one out worksheets sell',
-      'fichas encontrar intruso negócio',
-      'atividades qual não pertence imprimíveis',
+      'atividades de categorização visual para vender',
+      'imprimíveis encontre o diferente para Etsy',
+      'negócio de atividades de raciocínio lógico',
     ],
     lsiKeywords: [
       'raciocínio lógico exclusão',
       'categorização visual crianças',
-      'discriminação visual fichas',
+      'discriminação visual imprimível',
     ],
-    titleTag: 'Fichas Intruso: Vender Online | LCS',
-    metaDescription: 'Venda fichas de encontrar o intruso online. Formato lúdico e educativo. Teste grátis com marca d\'água o gerador.',
+    titleTag: 'Vender atividades encontre o intruso | Guia',
+    metaDescription: 'Venda atividades de encontrar o intruso com alta conversão. Crie atividades profissionais com LessonCraftStudio — 33 geradores, 11 idiomas, licença comercial.',
   },
   hero: {
     title: 'Fichas de Encontrar o Intruso: Como Vender',

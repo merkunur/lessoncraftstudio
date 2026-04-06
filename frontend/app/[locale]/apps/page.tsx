@@ -39,9 +39,9 @@ const appsMetadata: Record<string, { title: string; description: string; keyword
     keywords: 'generatori di stampabili per creare e vendere, generatore stampabili Etsy, KDP schede vendere, business stampabili italiano, generatore crucipuzzle, creatore schede matematica vendere',
   },
   pt: {
-    title: '33 geradores de imprimíveis — Venda na Hotmart | LCS',
-    description: 'Descubra 33 geradores de imprimíveis profissionais para vender na Hotmart, Etsy e KDP. Caça-palavras, matemática, colorir e mais. Teste grátis com marca d\'água.',
-    keywords: 'geradores de imprimíveis para criar e vender, gerador atividades Hotmart, KDP atividades vender, negócio imprimíveis Brasil, gerador caça-palavras, criador atividades matemática',
+    title: '33 geradores de atividades | Matemática, jogos, vocabulário e mais',
+    description: 'Explore 33 geradores de atividades profissionais: matemática, vocabulário, aprendizagem visual, criatividade e lógica. Todos grátis para testar com marca d\'água.',
+    keywords: 'geradores de atividades para imprimir, gerador caça-palavras, gerador cruzadinha, atividades de matemática gerador, gerador atividades educação infantil, gerador sudoku',
   },
   nl: {
     title: '33 printables-generators — Verkoop op Etsy | LessonCraftStudio',

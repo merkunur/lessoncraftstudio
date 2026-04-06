@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'livro kdp crie atividades início',
+    primaryKeyword: 'como criar livro de atividades para KDP',
     secondaryKeywords: [
-      'criar livro atividades KDP início fim passo a passo',
-      'criar livro atividades KDP início fim tutorial',
-      'criar livro atividades KDP início fim como fazer',
+      'publicar livro de atividades na Amazon',
+      'tutorial livro KDP passo a passo',
+      'criar livro educativo para KDP',
     ],
     lsiKeywords: [
-      'tutorial imprimíveis',
-      'como criar fichas educativas',
-      'guia prático imprimíveis',
+      'Amazon KDP',
+      'livro atividades',
+      'publicação',
     ],
-    titleTag: 'Crie um Livro de Atividades KDP do Início ao Fim | LCS',
-    metaDescription: 'Este tutorial guia você do zero ao livro publicado no Amazon KDP. Da geração de fichas à formatação, capa, palavras-chave e publicação — cada passo é .',
+    titleTag: 'Criar livro de atividades para KDP | Guia',
+    metaDescription: 'Tutorial completo para criar e publicar livro de atividades no KDP. Crie atividades profissionais com LessonCraftStudio — 33 geradores, 11 idiomas, licença comercial.',
   },
   hero: {
     title: 'Crie um Livro de Atividades KDP do Início ao Fim',

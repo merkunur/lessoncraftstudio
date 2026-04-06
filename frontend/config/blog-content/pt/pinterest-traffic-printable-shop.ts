@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'tráfego Pinterest loja imprimíveis',
+    primaryKeyword: 'tráfego do Pinterest para loja de imprimíveis',
     secondaryKeywords: [
-      'tráfego Pinterest loja imprimíveis guia',
-      'tráfego Pinterest loja imprimíveis dicas',
-      'tráfego Pinterest loja imprimíveis estratégia',
+      'como usar Pinterest para vender imprimíveis',
+      'pins que convertem para loja de atividades',
+      'estratégia Pinterest para vendedores Etsy',
     ],
     lsiKeywords: [
-      'negócio imprimíveis digital',
-      'vendedor imprimíveis online',
-      'empreendedor digital educativo',
+      'marketing visual Pinterest',
+      'tráfego orgânico gratuito',
+      'boards temáticos vendedor',
     ],
-    titleTag: 'Tráfego Pinterest para Loja Imprimíveis | LCS',
-    metaDescription: 'Pinterest é o canal de tráfego gratuito mais eficaz para lojas de imprimíveis educativos. Venda no Etsy & KDP com licenca comercial.',
+    titleTag: 'Tráfego do Pinterest para loja de imprimíveis',
+    metaDescription: 'Use Pinterest para gerar tráfego para sua loja online. Crie atividades profissionais com LessonCraftStudio — 33 geradores, 11 idiomas, licença comercial.',
   },
   hero: {
     title: 'Tráfego Pinterest para Loja Imprimíveis',

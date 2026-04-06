@@ -2,10 +2,10 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'embaralha palavras imprimíveis negócio',
+    primaryKeyword: 'negócio de atividades de letras embaralhadas',
     secondaryKeywords: [
-      'anagramas imprimíveis vender',
-      'fichas embaralhar palavras Etsy',
+      'anagramas imprimíveis vender online',
+      'atividades embaralhar palavras Etsy',
       'negócio puzzles palavras imprimíveis',
     ],
     lsiKeywords: [
@@ -13,8 +13,8 @@ const content: BlogContent = {
       'reorganizar letras atividade',
       'vocabulário lúdico imprimível',
     ],
-    titleTag: 'Embaralha Palavras Imprimíveis: Negócio | LCS',
-    metaDescription: 'Monte um negócio vendendo fichas de embaralhar palavras. Nicho versátil para todas as idades. Teste grátis com marca d\'água.',
+    titleTag: 'Negócio atividades letras embaralhadas',
+    metaDescription: 'Como montar um negócio com atividades de letras embaralhadas. Crie atividades profissionais com LessonCraftStudio — 33 geradores, 11 idiomas, licença comercial.',
   },
   hero: {
     title: 'Embaralha Palavras Imprimíveis: Monte Seu Negócio',

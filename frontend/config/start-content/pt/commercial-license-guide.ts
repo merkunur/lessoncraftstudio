@@ -2,29 +2,22 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'licença comercial vendedores imprimíveis',
+    primaryKeyword: 'guia de licença comercial para imprimíveis',
     secondaryKeywords: [
-      'o que cobre uma licença comercial de atividades',
-      'licença de uso comercial imprimíveis educativos',
-      'permissões de revenda imprimíveis gerados',
-      'licença comercial vs pessoal imprimíveis',
+      'licença comercial atividades educativas',
+      'o que licença comercial permite',
+      'licença comercial Etsy KDP explicada',
+      'comprar licença comercial imprimíveis',
     ],
     lsiKeywords: [
-      'direitos de revenda atividades geradas',
-      'termos de licença imprimíveis Etsy',
-      'uso comercial geradores de atividades',
-      'licença comercial KDP apostilas geradas',
-      'permissão de venda Hotmart atividades',
-      'direitos autorais imprimíveis educativos',
-      'marca d\'água remoção licença comercial',
-      'licença pessoal vs comercial diferenças',
-      'revenda imprimíveis Kiwify permissões',
-      'proteção de conteúdo atividades digitais',
-      'licença vitalícia imprimíveis geradores',
-      'uso permitido licença comercial LCS',
+      'licença',
+      'comercial',
+      'direitos',
+      'revenda',
+      'permissões',
     ],
-    titleTag: 'Licença comercial para vendedores | LCS',
-    metaDescription: 'Guia de licença comercial para vendedores de imprimíveis. O que cobre, o que permite e como usar para vender atividades no Etsy, Amazon KDP e Hotmart.',
+    titleTag: 'Guia de licença comercial para imprimíveis',
+    metaDescription: 'Guia completo sobre licença comercial para imprimíveis. O que permite, como funciona e por que é essencial para vender no Etsy e KDP.',
   },
 
   hero: {

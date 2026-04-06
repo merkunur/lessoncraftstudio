@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'imprimíveis Dia dos Namorados vender',
+    primaryKeyword: 'atividades de Dia dos Namorados para vender',
     secondaryKeywords: [
-      'imprimíveis Dia dos Namorados vender negócio',
-      'imprimíveis Dia dos Namorados vender vender',
-      'imprimíveis Dia dos Namorados vender Etsy',
+      'imprimíveis Dia dos Namorados negócio',
+      'atividades Valentine\'s Day Etsy vender',
+      'atividades sazonais amor coração',
     ],
     lsiKeywords: [
       'imprimíveis sazonais vender',
-      'nicho educativo imprimíveis',
-      'mercado imprimíveis temáticos',
+      'atividades temáticas amor',
+      'Dia dos Namorados junho Brasil',
     ],
-    titleTag: 'Imprimíveis Dia dos Namorados: Vender | LCS',
-    metaDescription: 'No Brasil, o Dia dos Namorados é celebrado em 12 de junho — diferente do Valentine\'s Day em 14 de fevereiro. Para vendedores de imprimíveis brasileiro.',
+    titleTag: 'Atividades Dia dos Namorados para vender',
+    metaDescription: 'Venda atividades de Dia dos Namorados em duas temporadas ao ano. Crie atividades profissionais com LessonCraftStudio — 33 geradores, 11 idiomas, licença comercial.',
   },
   hero: {
     title: 'Imprimíveis Dia dos Namorados: Vender',

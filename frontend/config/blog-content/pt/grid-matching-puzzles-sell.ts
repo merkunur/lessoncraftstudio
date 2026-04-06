@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'puzzles grade associação vender',
+    primaryKeyword: 'vender puzzles de grade para imprimir',
     secondaryKeywords: [
-      'fichas grade correspondência Etsy',
-      'grid matching puzzles business',
-      'atividades grade associação negócio',
+      'atividades grade correspondência Etsy KDP',
+      'puzzles associação matricial para vender',
+      'nicho puzzles de grade imprimíveis',
     ],
     lsiKeywords: [
-      'raciocínio lógico visual grade',
+      'raciocínio lógico visual',
       'puzzle correspondência matricial',
       'atividade cognitiva crianças',
     ],
-    titleTag: 'Puzzles Grade Associação: Vender | LCS',
-    metaDescription: 'Como vender puzzles de grade de associação online. Nicho exclusivo com alta margem. Teste grátis com marca d\'água.',
+    titleTag: 'Vender puzzles de grade para imprimir | Guia',
+    metaDescription: 'Venda puzzles de grade para imprimir com alta margem. Crie atividades profissionais com LessonCraftStudio — 33 geradores, 11 idiomas, licença comercial.',
   },
   hero: {
     title: 'Puzzles de Grade de Associação: Como Vender Online',

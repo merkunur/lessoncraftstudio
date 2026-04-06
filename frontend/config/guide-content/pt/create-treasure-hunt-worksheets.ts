@@ -2,30 +2,17 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'criar caça ao tesouro para vender',
+    primaryKeyword: 'como criar caça ao tesouro para imprimir',
     secondaryKeywords: [
-      'como criar caça ao tesouro para Hotmart',
-      'caça ao tesouro para vender na Etsy',
-      'guia caça ao tesouro para Amazon KDP',
-      'caça ao tesouro com licença comercial para vender',
+      'tutorial caça ao tesouro passo a passo',
+      'criar gincana para imprimir',
+      'guia caça ao tesouro com imagens',
+      'caça ao tesouro para Etsy e KDP',
     ],
-    lsiKeywords: [
-      'licença comercial',
-      '300 DPI',
-      'pronto para impressão',
-      'download digital',
-      'gabarito incluso',
-      'Hotmart',
-      'Kiwify',
-      'Etsy',
-      'Amazon KDP',
-      'renda extra',
-      'negócio de imprimíveis',
-      'educação infantil',
-    ],
-    titleTag: 'Caça ao tesouro para vender online | LCS',
+    lsiKeywords: ['pistas', 'gincana', 'aventura', 'imagens', 'PDF'],
+    titleTag: 'Como criar caça ao tesouro para imprimir | Guia',
     metaDescription:
-      'Guia para criar atividades de caça ao tesouro para vender. Jogos de pistas, temas e estratégias para Hotmart e KDP.',
+      'Guia passo a passo para criar atividades de caça ao tesouro com imagens temáticas. PDF imprimíveis. Teste grátis — venda no Etsy e KDP.',
   },
 
   hero: {

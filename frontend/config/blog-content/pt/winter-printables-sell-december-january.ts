@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'imprimíveis inverno vender',
+    primaryKeyword: 'atividades de inverno para vender',
     secondaryKeywords: [
-      'imprimíveis inverno vender negócio',
-      'imprimíveis inverno vender vender',
-      'imprimíveis inverno vender Etsy',
+      'imprimíveis inverno Etsy negócio',
+      'atividades sazonais inverno vender',
+      'atividades indoor dias frios crianças',
     ],
     lsiKeywords: [
       'imprimíveis sazonais vender',
-      'nicho educativo imprimíveis',
-      'mercado imprimíveis temáticos',
+      'inverno hemisfério sul atividades',
+      'atividades temáticas estações',
     ],
-    titleTag: 'Imprimíveis de Inverno: Vender | LCS',
-    metaDescription: 'O inverno no Brasil vai de junho a agosto — e não inclui neve! Imprimíveis de inverno para o mercado brasileiro devem focar em atividades indoor para .',
+    titleTag: 'Atividades de inverno para vender | Sazonal',
+    metaDescription: 'Como criar e vender atividades de inverno para dois hemisférios. Crie atividades profissionais com LessonCraftStudio — 33 geradores, 11 idiomas, licença comercial.',
   },
   hero: {
     title: 'Imprimíveis de Inverno: Vender',

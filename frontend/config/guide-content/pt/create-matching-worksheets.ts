@@ -2,30 +2,17 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'criar atividades de associação para vender',
+    primaryKeyword: 'como criar atividades de associação para imprimir',
     secondaryKeywords: [
-      'como criar atividades de associação para Hotmart',
-      'atividades de associação para vender na Etsy',
-      'guia atividades de associação para Amazon KDP',
-      'atividades de associação com licença comercial para vender',
+      'tutorial atividades de ligar passo a passo',
+      'criar atividades de associação para vender',
+      'guia ligar os pares com imagens',
+      'atividades de associação para Etsy e KDP',
     ],
-    lsiKeywords: [
-      'licença comercial',
-      '300 DPI',
-      'pronto para impressão',
-      'download digital',
-      'gabarito incluso',
-      'Hotmart',
-      'Kiwify',
-      'Etsy',
-      'Amazon KDP',
-      'renda extra',
-      'negócio de imprimíveis',
-      'educação infantil',
-    ],
-    titleTag: 'Atividades de associação para vender | LCS',
+    lsiKeywords: ['ligar', 'associar', 'pares', 'imagens', 'gabarito'],
+    titleTag: 'Como criar atividades de associação | Guia',
     metaDescription:
-      'Guia para criar atividades de ligar e associar para vender. Temas, formatos e estratégias para Hotmart, Etsy e KDP.',
+      'Guia passo a passo para criar atividades de associação com imagens temáticas. Gabarito automático, PDF 300 DPI. Teste grátis — licença comercial.',
   },
 
   hero: {

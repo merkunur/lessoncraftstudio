@@ -246,6 +246,7 @@ export default function HowItWorks({ locale }: HowItWorksProps) {
 
   return (
     <section
+      id="how-it-works"
       ref={containerRef}
       className="relative py-24 overflow-hidden"
     >

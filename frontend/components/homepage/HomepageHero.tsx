@@ -23,160 +23,196 @@ const localeContent: Record<string, {
   trustLicense: string;
   answerKey: string;
   previewTitles: string[];
+  proofWorksheets: string;
+  proofCountries: string;
+  proofGenerators: string;
 }> = {
   en: {
-    badge: '33 Professional Printable Generators',
-    titleLine1: 'Create ',
-    titleHighlight: 'Professional Printables',
-    titleLine2: 'for Your Business',
-    subtitle: 'Generate word searches, math worksheets, coloring pages, and puzzles. Try free with watermark. Sell on Etsy, Amazon KDP, or your own shop. 11 languages, 3,000+ images.',
-    ctaPrimary: 'Try Free with Watermark',
-    ctaSecondary: 'See All 33 Generators',
+    badge: 'The Printable Business Opportunity',
+    titleLine1: 'Start a Profitable ',
+    titleHighlight: 'Printable Business',
+    titleLine2: '-- No Design Skills Needed',
+    subtitle: 'Thousands of sellers earn $500--$5,000/month selling educational printables on Etsy, Amazon KDP, and TPT. LessonCraftStudio lets you create professional products in minutes, not hours.',
+    ctaPrimary: 'See How It Works',
+    ctaSecondary: 'Try Free with Watermark',
     trustLanguages: '11 Languages',
-    trustImages: '3000+ Images',
+    trustImages: '3,000+ Images',
     trustLicense: 'Commercial License',
     answerKey: 'Answer Key',
     previewTitles: ['Addition', 'Word Search'],
+    proofWorksheets: '10,000+ worksheets generated',
+    proofCountries: 'Sellers in 40+ countries',
+    proofGenerators: '33 professional generators',
   },
   de: {
-    badge: '33 professionelle Druckvorlagen-Generatoren',
-    titleLine1: 'Erstellen Sie ',
-    titleHighlight: 'professionelle Druckvorlagen',
-    titleLine2: 'für Ihr Business',
-    subtitle: 'Generieren Sie Wortsuchrätsel, Mathe-Arbeitsblätter, Ausmalbilder und Puzzles. Kostenlos testen mit Wasserzeichen. Verkaufen Sie auf Etsy, Amazon KDP oder in Ihrem eigenen Shop.',
-    ctaPrimary: 'Gratis mit Wasserzeichen testen',
-    ctaSecondary: 'Alle 33 Generatoren entdecken',
+    badge: 'Die Printable-Business-Chance',
+    titleLine1: 'Starten Sie ein profitables ',
+    titleHighlight: 'Printable-Business',
+    titleLine2: '-- Keine Designkenntnisse noetig',
+    subtitle: 'Tausende Verkaeufer verdienen 500--5.000 $/Monat mit dem Verkauf von Druckvorlagen auf Etsy, Amazon KDP und TPT. LessonCraftStudio erstellt professionelle Produkte in Minuten statt Stunden.',
+    ctaPrimary: 'So funktioniert es',
+    ctaSecondary: 'Gratis mit Wasserzeichen testen',
     trustLanguages: '11 Sprachen',
-    trustImages: '3000+ Bilder',
+    trustImages: '3.000+ Bilder',
     trustLicense: 'Kommerzielle Nutzung',
-    answerKey: 'Lösungsschlüssel',
+    answerKey: 'Loesungsschluessel',
     previewTitles: ['Addition', 'Wortsuche'],
+    proofWorksheets: 'Ueber 10.000 Arbeitsblaetter erstellt',
+    proofCountries: 'Verkaeufer in 40+ Laendern',
+    proofGenerators: '33 professionelle Generatoren',
   },
   fr: {
-    badge: '33 générateurs d\'imprimables professionnels',
-    titleLine1: 'Créez des ',
-    titleHighlight: 'imprimables professionnels',
-    titleLine2: 'pour votre business',
-    subtitle: 'Générez des mots mêlés, des fiches de maths, des coloriages et des puzzles. Essai gratuit avec filigrane. Vendez sur Etsy, Amazon KDP ou votre propre boutique.',
-    ctaPrimary: 'Essai gratuit avec filigrane',
-    ctaSecondary: 'Explorer les 33 générateurs',
+    badge: 'L\'opportunite business des imprimables',
+    titleLine1: 'Lancez un business ',
+    titleHighlight: 'd\'imprimables rentable',
+    titleLine2: '-- Aucune competence en design',
+    subtitle: 'Des milliers de vendeurs gagnent 500 a 5 000 $/mois en vendant des imprimables educatifs sur Etsy, Amazon KDP et TPT. LessonCraftStudio cree des produits professionnels en minutes.',
+    ctaPrimary: 'Voir comment ca marche',
+    ctaSecondary: 'Essai gratuit avec filigrane',
     trustLanguages: '11 langues',
-    trustImages: '3000+ images',
+    trustImages: '3 000+ images',
     trustLicense: 'Usage commercial inclus',
-    answerKey: 'Corrigé inclus',
-    previewTitles: ['Addition', 'Mots mêlés'],
+    answerKey: 'Corrige inclus',
+    previewTitles: ['Addition', 'Mots meles'],
+    proofWorksheets: 'Plus de 10 000 fiches generees',
+    proofCountries: 'Vendeurs dans 40+ pays',
+    proofGenerators: '33 generateurs professionnels',
   },
   es: {
-    badge: '33 generadores de imprimibles profesionales',
-    titleLine1: 'Crea ',
-    titleHighlight: 'imprimibles profesionales',
-    titleLine2: 'para tu negocio',
-    subtitle: 'Genera sopas de letras, fichas de matemáticas, páginas para colorear y puzzles. Prueba gratis con marca de agua. Vende en Etsy, Amazon KDP o tu propia tienda.',
-    ctaPrimary: 'Probar gratis con marca de agua',
-    ctaSecondary: 'Ver los 33 generadores',
+    badge: 'La oportunidad del negocio de imprimibles',
+    titleLine1: 'Inicia un negocio ',
+    titleHighlight: 'de imprimibles rentable',
+    titleLine2: '-- Sin habilidades de diseno',
+    subtitle: 'Miles de vendedores ganan $500--$5,000/mes vendiendo imprimibles educativos en Etsy, Amazon KDP y TPT. LessonCraftStudio crea productos profesionales en minutos, no horas.',
+    ctaPrimary: 'Ver como funciona',
+    ctaSecondary: 'Probar gratis con marca de agua',
     trustLanguages: '11 idiomas',
-    trustImages: '3000+ imágenes',
+    trustImages: '3,000+ imagenes',
     trustLicense: 'Uso comercial incluido',
     answerKey: 'Con respuestas',
     previewTitles: ['Sumas', 'Sopa de letras'],
+    proofWorksheets: 'Mas de 10,000 fichas generadas',
+    proofCountries: 'Vendedores en 40+ paises',
+    proofGenerators: '33 generadores profesionales',
   },
   it: {
-    badge: '33 generatori di stampabili professionali',
-    titleLine1: 'Crea ',
-    titleHighlight: 'stampabili professionali',
-    titleLine2: 'per il tuo business',
-    subtitle: 'Genera crucipuzzle, schede di matematica, pagine da colorare e puzzle. Prova gratis con filigrana. Vendi su Etsy, Amazon KDP o il tuo negozio.',
-    ctaPrimary: 'Prova gratis con filigrana',
-    ctaSecondary: 'Esplora tutti i 33 generatori',
+    badge: 'L\'opportunita business degli stampabili',
+    titleLine1: 'Avvia un business ',
+    titleHighlight: 'di stampabili redditizio',
+    titleLine2: '-- Nessuna competenza di design',
+    subtitle: 'Migliaia di venditori guadagnano $500--$5.000/mese vendendo stampabili educativi su Etsy, Amazon KDP e TPT. LessonCraftStudio crea prodotti professionali in pochi minuti.',
+    ctaPrimary: 'Scopri come funziona',
+    ctaSecondary: 'Prova gratis con filigrana',
     trustLanguages: '11 lingue',
-    trustImages: 'Oltre 3000 immagini',
+    trustImages: 'Oltre 3.000 immagini',
     trustLicense: 'Licenza commerciale inclusa',
     answerKey: 'Soluzioni incluse',
     previewTitles: ['Addizioni', 'Cerca parole'],
+    proofWorksheets: 'Oltre 10.000 schede generate',
+    proofCountries: 'Venditori in 40+ paesi',
+    proofGenerators: '33 generatori professionali',
   },
   pt: {
-    badge: '33 geradores de imprimíveis profissionais',
-    titleLine1: 'Crie ',
-    titleHighlight: 'imprimíveis profissionais',
-    titleLine2: 'para o seu negócio',
-    subtitle: 'Gere caça-palavras, fichas de matemática, páginas para colorir e puzzles. Teste grátis com marca d\'agua. Venda no Etsy, Amazon KDP ou na sua própria loja.',
-    ctaPrimary: 'Testar grátis com marca d\'agua',
-    ctaSecondary: 'Explorar todos os 33 geradores',
+    badge: 'A oportunidade de negocio dos imprimiveis',
+    titleLine1: 'Inicie um negocio ',
+    titleHighlight: 'de imprimiveis lucrativo',
+    titleLine2: '-- Sem habilidades de design',
+    subtitle: 'Milhares de vendedores ganham $500--$5.000/mes vendendo imprimiveis educativos no Etsy, Amazon KDP e TPT. LessonCraftStudio cria produtos profissionais em minutos.',
+    ctaPrimary: 'Veja como funciona',
+    ctaSecondary: 'Teste gratis com marca d\'agua',
     trustLanguages: '11 idiomas',
-    trustImages: 'Mais de 3000 imagens',
-    trustLicense: 'Licença comercial inclusa',
+    trustImages: 'Mais de 3.000 imagens',
+    trustLicense: 'Licenca comercial inclusa',
     answerKey: 'Gabarito incluso',
-    previewTitles: ['Adição', 'Caça-palavras'],
+    previewTitles: ['Adicao', 'Caca-palavras'],
+    proofWorksheets: 'Mais de 10.000 atividades geradas',
+    proofCountries: 'Vendedores em 40+ paises',
+    proofGenerators: '33 geradores profissionais',
   },
   nl: {
-    badge: '33 professionele printbare generatoren',
-    titleLine1: 'Maak ',
-    titleHighlight: 'professionele printables',
-    titleLine2: 'voor je business',
-    subtitle: 'Genereer woordzoekers, rekenwerkbladen, kleurplaten en puzzels. Probeer gratis met watermerk. Verkoop op Etsy, Amazon KDP of je eigen winkel.',
-    ctaPrimary: 'Gratis proberen met watermerk',
-    ctaSecondary: 'Ontdek alle 33 generatoren',
+    badge: 'De printable business-kans',
+    titleLine1: 'Start een winstgevend ',
+    titleHighlight: 'printable bedrijf',
+    titleLine2: '-- Geen designvaardigheden nodig',
+    subtitle: 'Duizenden verkopers verdienen $500--$5.000/maand met het verkopen van educatieve printables op Etsy, Amazon KDP en TPT. LessonCraftStudio maakt professionele producten in minuten.',
+    ctaPrimary: 'Bekijk hoe het werkt',
+    ctaSecondary: 'Gratis proberen met watermerk',
     trustLanguages: '11 talen',
-    trustImages: '3000+ afbeeldingen',
-    trustLicense: 'Commerciële licentie',
+    trustImages: '3.000+ afbeeldingen',
+    trustLicense: 'Commerciele licentie',
     answerKey: 'Antwoordblad',
     previewTitles: ['Optellen', 'Woordzoeker'],
+    proofWorksheets: 'Meer dan 10.000 werkbladen gemaakt',
+    proofCountries: 'Verkopers in 40+ landen',
+    proofGenerators: '33 professionele generatoren',
   },
   da: {
-    badge: '33 professionelle printbare generatorer',
-    titleLine1: 'Skab ',
-    titleHighlight: 'professionelle printables',
-    titleLine2: 'til din virksomhed',
-    subtitle: 'Generer ordsøgninger, regneopgaver, tegnesider og puslespil. Prøv gratis med vandmærke. Sælg på Etsy, Amazon KDP eller din egen butik.',
-    ctaPrimary: 'Prøv gratis med vandmærke',
-    ctaSecondary: 'Se alle 33 generatorer',
+    badge: 'Printable-forretningsmuligheden',
+    titleLine1: 'Start en profitabel ',
+    titleHighlight: 'printable-virksomhed',
+    titleLine2: '-- Ingen designfaerdigheder paakraevet',
+    subtitle: 'Tusindvis af saelgere tjener $500--$5.000/maaned paa at saelge paedagogiske printables paa Etsy, Amazon KDP og TPT. LessonCraftStudio skaber professionelle produkter paa minutter.',
+    ctaPrimary: 'Se hvordan det virker',
+    ctaSecondary: 'Proev gratis med vandmaerke',
     trustLanguages: '11 sprog',
-    trustImages: 'Over 3000 billeder',
+    trustImages: 'Over 3.000 billeder',
     trustLicense: 'Kommerciel licens',
     answerKey: 'Facitliste',
     previewTitles: ['Addition', 'Find ord'],
+    proofWorksheets: 'Over 10.000 opgaver oprettet',
+    proofCountries: 'Saelgere i 40+ lande',
+    proofGenerators: '33 professionelle generatorer',
   },
   sv: {
-    badge: '33 professionella utskriftsgeneratorer',
-    titleLine1: 'Skapa ',
-    titleHighlight: 'professionella utskrifter',
-    titleLine2: 'för ditt företag',
-    subtitle: 'Generera ordsökningar, mattearbetsblad, målarbilder och pussel. Prova gratis med vattenstämpel. Sälj på Etsy, Amazon KDP eller din egen butik.',
-    ctaPrimary: 'Prova gratis med vattenstämpel',
-    ctaSecondary: 'Se alla 33 generatorer',
-    trustLanguages: '11 språk',
-    trustImages: 'Över 3000 bilder',
+    badge: 'Utskriftsfoeretagets moejlighet',
+    titleLine1: 'Starta ett loensamnt ',
+    titleHighlight: 'utskriftsfoereag',
+    titleLine2: '-- Inga designkunskaper kraevs',
+    subtitle: 'Tusentals saeljare tjaenar $500--$5.000/manad paa att saelja pedagogiska utskrifter paa Etsy, Amazon KDP och TPT. LessonCraftStudio skapar professionella produkter paa minuter.',
+    ctaPrimary: 'Se hur det fungerar',
+    ctaSecondary: 'Prova gratis med vattenstempel',
+    trustLanguages: '11 spraak',
+    trustImages: 'Over 3.000 bilder',
     trustLicense: 'Kommersiell licens',
     answerKey: 'Facit',
-    previewTitles: ['Addition', 'Ordsök'],
+    previewTitles: ['Addition', 'Ordsoek'],
+    proofWorksheets: 'Over 10.000 arbetsblad skapade',
+    proofCountries: 'Saeljare i 40+ laender',
+    proofGenerators: '33 professionella generatorer',
   },
   no: {
-    badge: '33 profesjonelle utskriftsgeneratorer',
-    titleLine1: 'Lag ',
-    titleHighlight: 'profesjonelle utskrifter',
-    titleLine2: 'for din virksomhet',
-    subtitle: 'Generer ordsøk, matteoppgaver, fargeleggingssider og puslespill. Prøv gratis med vannmerke. Selg på Etsy, Amazon KDP eller din egen butikk.',
-    ctaPrimary: 'Prøv gratis med vannmerke',
-    ctaSecondary: 'Se alle 33 generatorer',
-    trustLanguages: '11 språk',
-    trustImages: 'Over 3000 bilder',
+    badge: 'Utskriftsvirksomhetens mulighet',
+    titleLine1: 'Start en loennsom ',
+    titleHighlight: 'utskriftsvirksomhet',
+    titleLine2: '-- Ingen designkunnskaper noedvendig',
+    subtitle: 'Tusenvis av selgere tjener $500--$5.000/maaned paa aa selge pedagogiske utskrifter paa Etsy, Amazon KDP og TPT. LessonCraftStudio lager profesjonelle produkter paa minutter.',
+    ctaPrimary: 'Se hvordan det fungerer',
+    ctaSecondary: 'Proev gratis med vannmerke',
+    trustLanguages: '11 spraak',
+    trustImages: 'Over 3.000 bilder',
     trustLicense: 'Kommersiell lisens',
     answerKey: 'Fasit',
     previewTitles: ['Addisjon', 'Finn ord'],
+    proofWorksheets: 'Over 10.000 arbeidsark laget',
+    proofCountries: 'Selgere i 40+ land',
+    proofGenerators: '33 profesjonelle generatorer',
   },
   fi: {
-    badge: '33 ammattimaista tulostusgeneraattoria',
-    titleLine1: 'Luo ',
-    titleHighlight: 'ammattimaisia tulostettavia',
-    titleLine2: 'yrityksellesi',
-    subtitle: 'Generoi sananhakuja, matematiikkatehtäviä, värityskuvia ja palapelit. Kokeile ilmaiseksi vesileimalla. Myy Etsyssä, Amazon KDP:ssä tai omassa kaupassa.',
-    ctaPrimary: 'Kokeile ilmaiseksi vesileimalla',
-    ctaSecondary: 'Tutustu kaikkiin 33 generaattoriin',
-    trustLanguages: '11 kieltä',
-    trustImages: 'Yli 3000 kuvaa',
+    badge: 'Tulostettavien liiketoimintamahdollisuus',
+    titleLine1: 'Aloita kannattava ',
+    titleHighlight: 'tulostettavien liiketoiminta',
+    titleLine2: '-- Ei suunnittelutaitoja tarvita',
+    subtitle: 'Tuhannet myyjat tienaavat $500--$5.000/kk myymalla opetuksellisia tulostettavia Etsyssa, Amazon KDP:ssa ja TPT:ssa. LessonCraftStudio luo ammattimaiset tuotteet minuuteissa.',
+    ctaPrimary: 'Katso miten se toimii',
+    ctaSecondary: 'Kokeile ilmaiseksi vesileimalla',
+    trustLanguages: '11 kielta',
+    trustImages: 'Yli 3.000 kuvaa',
     trustLicense: 'Kaupallinen lisenssi',
     answerKey: 'Vastaukset',
-    previewTitles: ['Yhteenlasku', 'Sananetsintä'],
+    previewTitles: ['Yhteenlasku', 'Sananetsinta'],
+    proofWorksheets: 'Yli 10.000 tehtavaa luotu',
+    proofCountries: 'Myyjia 40+ maassa',
+    proofGenerators: '33 ammattimaista generaattoria',
   },
 };
 
@@ -201,25 +237,25 @@ export default function HomepageHero({ locale, heroImages }: HomepageHeroProps) 
         fr: 'Exemple de fiche d\'addition',
         es: 'Ejemplo de ficha de sumas',
         it: 'Esempio di scheda di addizioni',
-        pt: 'Exemplo de atividade de adição',
+        pt: 'Exemplo de atividade de adicao',
         nl: 'Voorbeeld optelwerkblad',
-        da: 'Eksempel på additionsopgave',
-        sv: 'Exempel på additionsövningsblad',
-        no: 'Eksempel på addisjonsoppgave',
-        fi: 'Esimerkki yhteenlaskutehtävästä',
+        da: 'Eksempel paa additionsopgave',
+        sv: 'Exempel paa additionsovningsblad',
+        no: 'Eksempel paa addisjonsoppgave',
+        fi: 'Esimerkki yhteenlaskutehtavasta',
       },
       wordsearch: {
         en: 'Word Search Worksheet Sample',
         de: 'Wortsuche-Arbeitsblatt Beispiel',
-        fr: 'Exemple de mots mêlés',
+        fr: 'Exemple de mots meles',
         es: 'Ejemplo de sopa de letras',
         it: 'Esempio di cerca parole',
-        pt: 'Exemplo de caça-palavras',
+        pt: 'Exemplo de caca-palavras',
         nl: 'Voorbeeld woordzoeker',
-        da: 'Eksempel på find ord-opgave',
-        sv: 'Exempel på ordsöksövningsblad',
-        no: 'Eksempel på finn ord-oppgave',
-        fi: 'Esimerkki sananetsintätehtävästä',
+        da: 'Eksempel paa find ord-opgave',
+        sv: 'Exempel paa ordsoeksovningsblad',
+        no: 'Eksempel paa finn ord-oppgave',
+        fi: 'Esimerkki sananetsintatehtavasta',
       },
     };
     return altTexts[type][locale as keyof typeof altTexts.addition] || altTexts[type].en;
@@ -271,7 +307,7 @@ export default function HomepageHero({ locale, heroImages }: HomepageHeroProps) 
         }}
       />
 
-      {/* Animated mesh gradient orbs — CSS animations, paused via class when video plays */}
+      {/* Animated mesh gradient orbs */}
       <div className="absolute inset-0 overflow-hidden">
         {/* Primary cyan orb */}
         <div
@@ -304,7 +340,7 @@ export default function HomepageHero({ locale, heroImages }: HomepageHeroProps) 
         />
       </div>
 
-      {/* Floating geometric shapes — hidden on mobile to reduce paint cost */}
+      {/* Floating geometric shapes -- hidden on mobile to reduce paint cost */}
       <div className="absolute inset-0 pointer-events-none hidden md:block">
         {/* Floating diamond */}
         <div
@@ -351,7 +387,7 @@ export default function HomepageHero({ locale, heroImages }: HomepageHeroProps) 
       >
         <div className="max-w-7xl mx-auto">
           <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
-            {/* Left column - Text content — CSS animations instead of Framer Motion */}
+            {/* Left column - Text content */}
             <div className="text-center lg:text-left">
               {/* Badge */}
               <div
@@ -369,7 +405,7 @@ export default function HomepageHero({ locale, heroImages }: HomepageHeroProps) 
                 </span>
               </div>
 
-              {/* Title — NO animation, must be visible instantly (LCP element) */}
+              {/* Title -- NO animation, must be visible instantly (LCP element) */}
               <h1
                 className="speakable-headline text-[clamp(2.25rem,8vw,3rem)] lg:text-[clamp(2rem,3vw,2.5rem)] font-black leading-[1.1] tracking-tight mb-6 break-words"
                 style={{
@@ -399,8 +435,7 @@ export default function HomepageHero({ locale, heroImages }: HomepageHeroProps) 
               {/* CTAs */}
               <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start mb-10 hero-fade-in hero-stagger-3">
                 <a
-                  href={`/${locale}/apps`}
-                  
+                  href="#quick-demo"
                   className="group relative px-8 py-4 rounded-xl font-semibold text-white overflow-hidden transition-all duration-300 hover:scale-[1.02] active:scale-[0.98]"
                   style={{
                     background: 'linear-gradient(135deg, #06b6d4 0%, #8b5cf6 50%, #ec4899 100%)',
@@ -428,11 +463,11 @@ export default function HomepageHero({ locale, heroImages }: HomepageHeroProps) 
               </div>
 
               {/* Trust badges */}
-              <div className="flex flex-wrap gap-6 justify-center lg:justify-start hero-fade-in hero-stagger-4">
+              <div className="flex flex-wrap gap-6 justify-center lg:justify-start mb-8 hero-fade-in hero-stagger-4">
                 {[
-                  { icon: '🌍', label: content.trustLanguages },
-                  { icon: '🎨', label: content.trustImages },
-                  { icon: '💼', label: content.trustLicense },
+                  { icon: '\uD83C\uDF0D', label: content.trustLanguages },
+                  { icon: '\uD83C\uDFA8', label: content.trustImages },
+                  { icon: '\uD83D\uDCBC', label: content.trustLicense },
                 ].map((badge, index) => (
                   <div
                     key={index}
@@ -440,6 +475,29 @@ export default function HomepageHero({ locale, heroImages }: HomepageHeroProps) 
                   >
                     <span className="text-base">{badge.icon}</span>
                     <span>{badge.label}</span>
+                  </div>
+                ))}
+              </div>
+
+              {/* Social proof bar */}
+              <div className="flex flex-wrap gap-4 justify-center lg:justify-start hero-fade-in hero-stagger-5">
+                {[
+                  content.proofWorksheets,
+                  content.proofCountries,
+                  content.proofGenerators,
+                ].map((stat, index) => (
+                  <div
+                    key={index}
+                    className="flex items-center gap-2 text-xs text-white/40 px-3 py-1.5 rounded-full"
+                    style={{
+                      background: 'rgba(255,255,255,0.03)',
+                      border: '1px solid rgba(255,255,255,0.06)',
+                    }}
+                  >
+                    <svg className="w-3 h-3 text-cyan-400/60" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                    </svg>
+                    <span>{stat}</span>
                   </div>
                 ))}
               </div>

@@ -4,11 +4,13 @@ import { SUPPORTED_LOCALES } from '@/config/locales';
 import {
   HomepageHero,
   AppCategories,
-  HomepageFeatures,
   HowItWorks,
   HomepageCTA,
   HomepageFAQ,
-  ResourceHighlights,
+  SellerSuccessStories,
+  QuickDemo,
+  UntappedOpportunity,
+  PricingTeaser,
 } from '@/components/homepage';
 import { homepageFaqData } from '@/components/homepage/HomepageFAQ';
 import { generateFAQSchema } from '@/lib/schema-generator';
@@ -16,70 +18,70 @@ import { generateFAQSchema } from '@/lib/schema-generator';
 // Localized SEO metadata for entrepreneur audience (Etsy, KDP, printables business)
 const homepageMetadata: Record<string, { title: string; description: string; keywords: string; ogAlt: string }> = {
   en: {
-    title: 'Professional Printable Generators | Create & Sell on Etsy & KDP',
-    description: 'Create professional printables with 33 generators. Word searches, math worksheets, coloring pages & puzzles. Try free with watermark. Sell on Etsy, Amazon KDP.',
-    keywords: 'printable generator, Etsy printables, KDP worksheets, sell printables online, printable business, word search maker, coloring page creator, math worksheet generator, side hustle printables, commercial license printables',
-    ogAlt: 'LessonCraftStudio - Professional Printable Generators'
+    title: 'Start a Profitable Printable Business | LessonCraftStudio',
+    description: 'Build a printable business on Etsy, Amazon KDP, or TPT. 33 professional generators, 3,000+ images, 11 languages. Try free with watermark. No design skills needed.',
+    keywords: 'printable business, sell printables on Etsy, Amazon KDP printables, printable side hustle, make money selling printables, word search maker, worksheet generator, commercial license printables, printable business ideas',
+    ogAlt: 'LessonCraftStudio - Start a Profitable Printable Business'
   },
   de: {
-    title: 'Professionelle Druckvorlagen-Generatoren | Erstellen & Verkaufen',
-    description: 'Erstellen Sie professionelle Druckvorlagen mit 33 Generatoren. Kostenlos testen mit Wasserzeichen. Verkaufen Sie auf Etsy, Amazon KDP und mehr.',
-    keywords: 'Druckvorlagen erstellen, Etsy Druckvorlagen, KDP Arbeitsblätter, Druckvorlagen verkaufen, Printables Business, Wortsuche Generator, professionelle Druckvorlagen',
-    ogAlt: 'LessonCraftStudio - Professionelle Druckvorlagen-Generatoren'
+    title: 'Starten Sie ein profitables Printable-Business | LessonCraftStudio',
+    description: 'Bauen Sie ein Printable-Business auf Etsy, Amazon KDP oder TPT auf. 33 professionelle Generatoren, 3.000+ Bilder, 11 Sprachen. Kostenlose Testversion mit Wasserzeichen.',
+    keywords: 'Printable Business, Druckvorlagen verkaufen Etsy, KDP Arbeitsblaetter, Nebenverdienst Printables, Geld verdienen Druckvorlagen, Wortsuche Generator, professionelle Druckvorlagen',
+    ogAlt: 'LessonCraftStudio - Profitables Printable-Business starten'
   },
   fr: {
-    title: "Générateurs d'Imprimables Professionnels | Créer & Vendre",
-    description: "Créez des imprimables professionnels avec 33 générateurs. Essai gratuit avec filigrane. Vendez sur Etsy, Amazon KDP et plus.",
-    keywords: "générateur imprimables, Etsy imprimables, KDP fiches, vendre imprimables en ligne, business imprimables, mots mêlés générateur, imprimables professionnels",
-    ogAlt: "LessonCraftStudio - Générateurs d'imprimables professionnels"
+    title: 'Lancez un business d\'imprimables rentable | LessonCraftStudio',
+    description: 'Construisez un business d\'imprimables sur Etsy, Amazon KDP ou TPT. 33 generateurs professionnels, 3 000+ images, 11 langues. Essai gratuit avec filigrane.',
+    keywords: 'business imprimables, vendre imprimables Etsy, KDP imprimables, revenu complementaire imprimables, generateur mots meles, imprimables professionnels',
+    ogAlt: 'LessonCraftStudio - Lancez un business d\'imprimables rentable'
   },
   es: {
-    title: 'Generadores de Imprimibles Profesionales | Crear y Vender',
-    description: 'Crea imprimibles profesionales con 33 generadores. Prueba gratis con marca de agua. Vende en Etsy, Amazon KDP y más.',
-    keywords: 'generador imprimibles, Etsy imprimibles, KDP fichas, vender imprimibles online, negocio imprimibles, sopa de letras generador, imprimibles profesionales',
-    ogAlt: 'LessonCraftStudio - Generadores de imprimibles profesionales'
+    title: 'Inicia un negocio de imprimibles rentable | LessonCraftStudio',
+    description: 'Construye un negocio de imprimibles en Etsy, Amazon KDP o TPT. 33 generadores profesionales, 3.000+ imagenes, 11 idiomas. Prueba gratuita con marca de agua.',
+    keywords: 'negocio imprimibles, vender imprimibles Etsy, KDP imprimibles, ingresos extra imprimibles, generador sopas de letras, imprimibles profesionales',
+    ogAlt: 'LessonCraftStudio - Inicia un negocio de imprimibles rentable'
   },
   pt: {
-    title: 'Geradores de Imprimíveis Profissionais | Criar e Vender',
-    description: "Crie imprimíveis profissionais com 33 geradores. Teste grátis com marca d'agua. Venda no Etsy, Amazon KDP e mais.",
-    keywords: 'gerador imprimíveis, Etsy imprimíveis, KDP atividades, vender imprimíveis online, negócio imprimíveis, imprimíveis profissionais',
-    ogAlt: 'LessonCraftStudio - Geradores de imprimíveis profissionais'
+    title: 'Inicie um negocio de imprimiveis lucrativo | LessonCraftStudio',
+    description: 'Construa um negocio de imprimiveis no Etsy, Amazon KDP ou TPT. 33 geradores profissionais, 3.000+ imagens, 11 idiomas. Teste gratuito com marca d\'agua.',
+    keywords: 'negocio imprimiveis, vender imprimiveis Etsy, KDP imprimiveis, renda extra imprimiveis, gerador caca-palavras, imprimiveis profissionais',
+    ogAlt: 'LessonCraftStudio - Inicie um negocio de imprimiveis lucrativo'
   },
   it: {
-    title: 'Generatori di Stampabili Professionali | Crea e Vendi',
-    description: 'Crea stampabili professionali con 33 generatori. Prova gratis con filigrana. Vendi su Etsy, Amazon KDP e altro.',
-    keywords: 'generatore stampabili, Etsy stampabili, KDP schede, vendere stampabili online, business stampabili, stampabili professionali',
-    ogAlt: 'LessonCraftStudio - Generatori di stampabili professionali'
+    title: 'Avvia un business di stampabili redditizio | LessonCraftStudio',
+    description: 'Costruisci un business di stampabili su Etsy, Amazon KDP o TPT. 33 generatori professionali, 3.000+ immagini, 11 lingue. Prova gratuita con filigrana.',
+    keywords: 'business stampabili, vendere stampabili Etsy, KDP stampabili, guadagno extra stampabili, generatore crucipuzzle, stampabili professionali',
+    ogAlt: 'LessonCraftStudio - Avvia un business di stampabili redditizio'
   },
   nl: {
-    title: 'Professionele Printbare Generatoren | Maak & Verkoop',
-    description: 'Maak professionele printbare producten met 33 generatoren. Probeer gratis met watermerk. Verkoop op Etsy, Amazon KDP en meer.',
-    keywords: 'printbare generator, Etsy printables, KDP werkbladen, printables verkopen, printables business, professionele printables',
-    ogAlt: 'LessonCraftStudio - Professionele printbare generatoren'
+    title: 'Start een winstgevend printable bedrijf | LessonCraftStudio',
+    description: 'Bouw een printable bedrijf op Etsy, Amazon KDP of TPT. 33 professionele generatoren, 3.000+ afbeeldingen, 11 talen. Gratis proefversie met watermerk.',
+    keywords: 'printable bedrijf, printables verkopen Etsy, KDP werkbladen, bijverdienste printables, woordzoeker generator, professionele printables',
+    ogAlt: 'LessonCraftStudio - Start een winstgevend printable bedrijf'
   },
   sv: {
-    title: 'Professionella Utskriftsgeneratorer | Skapa & Sälj',
-    description: 'Skapa professionella utskrifter med 33 generatorer. Prova gratis med vattenstämpel. Sälj på Etsy, Amazon KDP och mer.',
-    keywords: 'utskriftsgenerator, Etsy utskrifter, KDP arbetsblad, sälja utskrifter online, professionella utskrifter',
-    ogAlt: 'LessonCraftStudio - Professionella utskriftsgeneratorer'
+    title: 'Starta ett loensamnt utskriftsfoereag | LessonCraftStudio',
+    description: 'Bygg ett utskriftsfoereag paa Etsy, Amazon KDP eller TPT. 33 professionella generatorer, 3 000+ bilder, 11 spraak. Gratis provversion med vattenstempel.',
+    keywords: 'utskriftsfoereag, saelja utskrifter Etsy, KDP arbetsblad, extrainkomst utskrifter, ordsoek generator, professionella utskrifter',
+    ogAlt: 'LessonCraftStudio - Starta ett loensamnt utskriftsfoereag'
   },
   da: {
-    title: 'Professionelle Printbare Generatorer | Opret & Sælg',
-    description: 'Opret professionelle printbare produkter med 33 generatorer. Prøv gratis med vandmærke. Sælg på Etsy, Amazon KDP og mere.',
-    keywords: 'printbar generator, Etsy printables, KDP arbejdsark, sælge printables, professionelle printables',
-    ogAlt: 'LessonCraftStudio - Professionelle printbare generatorer'
+    title: 'Start en profitabel printable-virksomhed | LessonCraftStudio',
+    description: 'Byg en printable-virksomhed paa Etsy, Amazon KDP eller TPT. 33 professionelle generatorer, 3.000+ billeder, 11 sprog. Gratis proeveversion med vandmaerke.',
+    keywords: 'printable-virksomhed, saelge printables Etsy, KDP opgaver, ekstraindtaegt printables, ordsoegning generator, professionelle printables',
+    ogAlt: 'LessonCraftStudio - Start en profitabel printable-virksomhed'
   },
   no: {
-    title: 'Profesjonelle Utskriftsgeneratorer | Lag & Selg',
-    description: 'Lag profesjonelle utskrifter med 33 generatorer. Prøv gratis med vannmerke. Selg på Etsy, Amazon KDP og mer.',
-    keywords: 'utskriftsgenerator, Etsy utskrifter, KDP arbeidsark, selge utskrifter, profesjonelle utskrifter',
-    ogAlt: 'LessonCraftStudio - Profesjonelle utskriftsgeneratorer'
+    title: 'Start en loennsom utskriftsvirksomhet | LessonCraftStudio',
+    description: 'Bygg en utskriftsvirksomhet paa Etsy, Amazon KDP eller TPT. 33 profesjonelle generatorer, 3 000+ bilder, 11 spraak. Gratis proeveversjon med vannmerke.',
+    keywords: 'utskriftsvirksomhet, selge utskrifter Etsy, KDP arbeidsark, ekstrainntekt utskrifter, ordsoek generator, profesjonelle utskrifter',
+    ogAlt: 'LessonCraftStudio - Start en loennsom utskriftsvirksomhet'
   },
   fi: {
-    title: 'Ammattimaiset Tulostusgeneraattorit | Luo & Myy',
-    description: 'Luo ammattimaisia tulostettavia 33 generaattorilla. Kokeile ilmaiseksi vesileimalla. Myy Etsyssä, Amazon KDP:ssä ja muualla.',
-    keywords: 'tulostusgeneraattori, Etsy tulostettavat, KDP tehtävät, myy tulostettavia, ammattimaiset tulostettavat',
-    ogAlt: 'LessonCraftStudio - Ammattimaiset tulostusgeneraattorit'
+    title: 'Aloita kannattava tulostettavien liiketoiminta | LessonCraftStudio',
+    description: 'Rakenna tulostettavien liiketoiminta Etsyssa, Amazon KDP:ssa tai TPT:ssa. 33 ammattimaista generaattoria, yli 3 000 kuvaa, 11 kielta. Ilmainen kokeiluversio vesileimalla.',
+    keywords: 'tulostettavien liiketoiminta, myy tulostettavia Etsy, KDP tehtaevat, lisaetulot tulostettavat, sananetsinta generaattori, ammattimaiset tulostettavat',
+    ogAlt: 'LessonCraftStudio - Aloita kannattava tulostettavien liiketoiminta'
   }
 };
 
@@ -158,20 +160,26 @@ export default async function HomePage({ params }: { params: { locale: string } 
         />
       ))}
 
-      {/* Hero Section */}
+      {/* Hero Section - Business opportunity framing */}
       <HomepageHero locale={locale} />
 
-      {/* App Categories */}
+      {/* Market Opportunity Cards */}
+      <SellerSuccessStories locale={locale} />
+
+      {/* Quick Demo Video */}
+      <QuickDemo locale={locale} videoId="36keBFzJbPo" />
+
+      {/* Why Printable Businesses Work */}
+      <UntappedOpportunity locale={locale} />
+
+      {/* How It Works - 3-step process */}
+      <HowItWorks locale={locale} />
+
+      {/* Browse Generators by Category */}
       <AppCategories locale={locale} />
 
-      {/* Resource Highlights */}
-      <ResourceHighlights locale={locale} />
-
-      {/* Features */}
-      <HomepageFeatures locale={locale} />
-
-      {/* How It Works */}
-      <HowItWorks locale={locale} />
+      {/* Pricing Teaser */}
+      <PricingTeaser locale={locale} />
 
       {/* FAQ Section */}
       <HomepageFAQ locale={locale} />

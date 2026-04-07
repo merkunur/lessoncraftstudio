@@ -2,20 +2,21 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'Schattenbilder zuordnen Arbeitsblatt kostenlos',
+    primaryKeyword: 'kostenloser Schattenbilder-Generator',
     secondaryKeywords: [
       'Schatten-Zuordnung Generator kostenlos online',
-      'Silhouetten-Rätsel erstellen gratis',
-      'Schattenbilder Arbeitsblatt ohne Anmeldung',
-      'Schatten zuordnen kostenlos',
+      'Silhouetten-Rätsel erstellen ohne Anmeldung',
+      'Schattenbilder Arbeitsblatt gratis',
+      'Schatten zuordnen Generator sofort nutzen',
     ],
     lsiKeywords: [
-      'Silhouette kostenlos',
+      'Silhouette',
       'Umriss',
       'visuelle Unterscheidung',
+      'Wahrnehmung',
     ],
-    titleTag: 'Schattenbilder-Zuordnung kostenlos | Online Generator | LCS',
-    metaDescription: 'Schattenbilder-Zuordnung kostenlos erstellen — Silhouetten-Rätsel mit Themenbildern online, ohne Anmeldung. Lizenz für Etsy & KDP.',
+    titleTag: 'Kostenloser Schattenbilder-Generator | LCS',
+    metaDescription: 'Kostenloser Schattenbilder-Generator — Schatten-Zuordnungs-Arbeitsblätter sofort erstellen, ohne Anmeldung. Lösungen inklusive. Lizenz für Etsy & KDP.',
   },
 
   hero: {
@@ -201,6 +202,10 @@ const content: ToolContent = {
     {
       question: 'Was ist Ihre Rückgabepolitik?',
       answer: 'Testen Sie vor dem Kauf mit unserer kostenlosen Testversion — jede Funktion ist verfügbar, damit Sie das Tool vollständig bewerten können, bevor Sie kaufen. Da die kostenlose Testversion Ihnen vollständigen Zugang zu beiden Übungsmodi, pixelgenauer Silhouetten-Erstellung, Schnittrichtungs-Optionen, dem automatisch generierten Lösungsschlüssel, allen 104 Themen, eigenen Bilduploads, Hintergrund- und Rahmenthemen, Beschriftungs-Schalter, Name-/Datumsfeldern, Graustufen-Export und jedem Download-Format gewährt, bieten wir keine Rückerstattung auf Lizenzkkäufe an. Stellen Sie sicher, dass das Tool Ihren Anforderungen entspricht, indem Sie die kostenlose Testversion nutzen, bevor Sie kaufen.',
+    },
+    {
+      question: 'Eignet sich der Generator für Grundschulkinder?',
+      answer: 'Ja. Die erstellten Arbeitsblätter eignen sich für die Grundschule (Deutschland), Volksschule (Österreich) und Primarschule (Schweiz). Die Schwierigkeit lässt sich an verschiedene Klassenstufen anpassen — von der Vorschule und dem Kindergarten bis zur 4. Klasse.',
     },
   ],
 

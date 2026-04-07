@@ -2,20 +2,21 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'Was passt nicht Arbeitsblatt kostenlos',
+    primaryKeyword: 'kostenloser Was-passt-nicht Generator',
     secondaryKeywords: [
-      'Ausreißer finden Generator kostenlos online',
-      'Was gehört nicht dazu Generator gratis',
-      'Klassifikation Rätsel kostenlos erstellen',
-      'Logik Arbeitsblatt ohne Anmeldung',
+      'Ausreißer finden Arbeitsblatt Generator kostenlos',
+      'Was gehört nicht dazu ohne Anmeldung',
+      'Klassifikation Rätsel erstellen gratis',
+      'Logik Arbeitsblatt Generator sofort nutzen',
     ],
     lsiKeywords: [
       'Kategorie',
       'Oberbegriff',
-      'logisches Denken kostenlos',
+      'logisches Denken',
+      'Klassifizieren',
     ],
-    titleTag: 'Was-passt-nicht Arbeitsblatt kostenlos | Generator | LCS',
-    metaDescription: 'Was-passt-nicht-Arbeitsblätter kostenlos erstellen — Logik-Rätsel mit Themenbildern online, ohne Anmeldung. Lizenz für Etsy & KDP.',
+    titleTag: 'Kostenloser Was-passt-nicht Generator | LCS',
+    metaDescription: 'Kostenloser Was-passt-nicht Generator — Logik-Arbeitsblätter sofort erstellen, ohne Anmeldung. Lösungen inklusive. Lizenz für Etsy & KDP.',
   },
 
   hero: {
@@ -201,6 +202,10 @@ const content: ToolContent = {
     {
       question: 'Was ist Ihre Rückgabepolitik?',
       answer: 'Testen Sie vor dem Kauf mit unserer kostenlosen Testversion — jede Funktion ist verfügbar, damit Sie das Tool vollständig evaluieren können, bevor Sie kaufen. Da die kostenlose Testversion Ihnen vollständigen Zugang zu beiden Erzeugungsmodi, Modus-Überschreibungen pro Übung, dem Zwei-Themen-System, konfigurierbarer Übungsanzahl, dem automatisch generierten Lösungsschlüssel mit roten Kreismarkierungen, allen 104 Themen, benutzerdefinierten Bild-Uploads, Hintergrund- und Rahmenthemen, Name-und-Datum-Feldern, Übungsnummern, Graustufen-Export und jedem Download-Format gewährt, bieten wir keine Rückerstattung für Lizenzen an. Stellen Sie sicher, dass das Tool Ihren Anforderungen entspricht, indem Sie die kostenlose Testversion vor dem Kauf nutzen.',
+    },
+    {
+      question: 'Eignet sich der Generator für Grundschulkinder?',
+      answer: 'Ja. Die erstellten Arbeitsblätter eignen sich für die Grundschule (Deutschland), Volksschule (Österreich) und Primarschule (Schweiz). Die Schwierigkeit lässt sich an verschiedene Klassenstufen anpassen — von der Vorschule und dem Kindergarten bis zur 4. Klasse.',
     },
   ],
 

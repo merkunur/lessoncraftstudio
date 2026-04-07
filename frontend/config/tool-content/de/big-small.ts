@@ -1,21 +1,21 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'Größenvergleich Arbeitsblatt kostenlos erstellen',
+    primaryKeyword: 'kostenloser Größenvergleich-Generator',
     secondaryKeywords: [
       'Groß und Klein Arbeitsblatt Generator kostenlos',
-      'Größen sortieren Übungsblatt gratis',
-      'Größer Kleiner Arbeitsblatt ohne Anmeldung',
-      'Vergleichen Arbeitsblatt kostenlos',
+      'Größen sortieren Übungsblatt ohne Anmeldung',
+      'Größer Kleiner Arbeitsblatt gratis',
+      'Vergleichen Arbeitsblatt sofort nutzen',
     ],
     lsiKeywords: [
       'größte',
       'kleinste',
-      'Größenordnung kostenlos',
+      'Größenordnung',
       'Sortieren nach Größe',
     ],
-    titleTag: 'Größenvergleich-Arbeitsblatt kostenlos | Generator | LCS',
-    metaDescription: 'Größenvergleich-Arbeitsblätter kostenlos erstellen — Groß & Klein mit Themenbildern online, ohne Anmeldung. Lizenz für Etsy & KDP.',
+    titleTag: 'Kostenloser Größenvergleich-Generator | LCS',
+    metaDescription: 'Kostenloser Größenvergleich-Generator — Groß-und-Klein-Arbeitsblätter sofort erstellen, ohne Anmeldung. Lösungen inklusive. Lizenz für Etsy & KDP.',
     },
 
   hero: {
@@ -197,6 +197,10 @@ const content: ToolContent = {  seo: {
     {
       question: 'Wie ist Ihre Rückerstattungsrichtlinie?',
       answer: 'Testen Sie vor dem Kauf mit unserer kostenlosen Testversion — jede Funktion ist verfügbar, damit Sie das Tool vollständig bewerten können, bevor Sie kaufen. Da die kostenlose Testversion Ihnen vollen Zugang gewährt, bieten wir keine Rückerstattungen auf Lizenzkäufe an. Stellen Sie sicher, dass das Tool Ihren Anforderungen entspricht, indem Sie die kostenlose Testversion vor dem Kauf nutzen.',
+    },
+    {
+      question: 'Eignet sich der Generator für Grundschulkinder?',
+      answer: 'Ja. Die erstellten Arbeitsblätter eignen sich für die Grundschule (Deutschland), Volksschule (Österreich) und Primarschule (Schweiz). Die Schwierigkeit lässt sich an verschiedene Klassenstufen anpassen — von der Vorschule und dem Kindergarten bis zur 4. Klasse.',
     },
   ],
 

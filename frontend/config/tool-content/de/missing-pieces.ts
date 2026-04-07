@@ -2,21 +2,21 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'kostenloser Puzzle-Rätsel Generator',
+    primaryKeyword: 'kostenloser Fehlende-Teile-Rätsel Generator',
     secondaryKeywords: [
-      'Fehlende Teile Rätsel Generator kostenlos',
-      'Was fehlt Arbeitsblatt gratis',
-      'Puzzle-Arbeitsblatt erstellen kostenlos',
-      'Logik-Rätsel Generator ohne Anmeldung',
+      'Fehlende Teile Rätsel erstellen kostenlos',
+      'Was fehlt Arbeitsblatt ohne Anmeldung',
+      'Puzzle-Arbeitsblatt erstellen gratis',
+      'Logik-Rätsel Generator sofort nutzen',
     ],
     lsiKeywords: [
-      'Puzzleteil kostenlos',
+      'Puzzleteil',
       'ergänzen',
       'visuelles Denken',
       'räumliche Wahrnehmung',
     ],
-    titleTag: 'Kostenloser Fehlende-Teile Rätsel Generator | LCS',
-    metaDescription: 'Kostenloser Fehlende-Teile Rätsel Generator — Puzzle-Arbeitsblätter online erstellen, ohne Anmeldung. Automatische Lösungen. Lizenz verfügbar.',
+    titleTag: 'Kostenloser Fehlende-Teile Generator | LCS',
+    metaDescription: 'Kostenloser Fehlende-Teile-Rätsel Generator — Puzzle-Rätsel mit Themenbildern sofort erstellen, ohne Anmeldung. Lösungen inklusive. Lizenz verfügbar.',
   },
 
   hero: {
@@ -202,6 +202,10 @@ const content: ToolContent = {
     {
       question: 'Was ist Ihre Rückgabepolitik?',
       answer: 'Testen Sie vor dem Kauf mit unserer kostenlosen Testversion — jede Funktion ist verfügbar, damit Sie das Werkzeug vollständig bewerten können, bevor Sie kaufen. Da die kostenlose Testversion Ihnen vollständigen Zugang zu allen 6 Teilformen, 1–5 fehlenden Teilen, 2–6 Lösungsoptionen mit Ablenkungsteilen, dem automatisch generierten Lösungsschlüssel, allen 104 Themen, benutzerdefinierten Bild-Uploads, Hintergrund- und Rahmenthemen, dem Doppelrahmen-System, Graustufen-Export und jedem Download-Format gewährt, bieten wir keine Rückerstattung auf Lizenzkkäufe an. Stellen Sie sicher, dass das Werkzeug Ihren Anforderungen entspricht, indem Sie die kostenlose Testversion vor dem Kauf nutzen.',
+    },
+    {
+      question: 'Eignet sich der Generator für Grundschulkinder?',
+      answer: 'Ja. Die erstellten Arbeitsblätter eignen sich für die Grundschule (Deutschland), Volksschule (Österreich) und Primarschule (Schweiz). Die Schwierigkeit lässt sich an verschiedene Klassenstufen anpassen — von der Vorschule und dem Kindergarten bis zur 4. Klasse.',
     },
   ],
 

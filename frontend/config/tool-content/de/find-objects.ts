@@ -2,20 +2,21 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'Suchbild erstellen kostenlos',
+    primaryKeyword: 'kostenloser Suchbilder-Generator',
     secondaryKeywords: [
-      'Suchbild Generator kostenlos online',
-      'Versteckte Objekte Arbeitsblatt gratis',
-      'Wimmelspiel erstellen kostenlos',
-      'I-Spy Generator ohne Anmeldung',
+      'Suchbild erstellen kostenlos online',
+      'Versteckte Objekte Arbeitsblatt ohne Anmeldung',
+      'Wimmelspiel erstellen gratis',
+      'I-Spy Arbeitsblatt Generator sofort nutzen',
     ],
     lsiKeywords: [
-      'Wimmelbilder kostenlos',
+      'Wimmelbilder',
       'Suchen und Finden',
       'visuelle Wahrnehmung',
+      'Konzentration',
     ],
-    titleTag: 'Suchbild erstellen kostenlos | Online Generator | LCS',
-    metaDescription: 'Suchbild kostenlos erstellen — Wimmelspiele und versteckte Objekte online generieren, ohne Anmeldung. Lizenz für Etsy & KDP.',
+    titleTag: 'Kostenloser Suchbilder-Generator Online | LCS',
+    metaDescription: 'Kostenloser Suchbilder-Generator — Versteckte-Objekte-Arbeitsblätter sofort erstellen, ohne Anmeldung. Lösungen inklusive. Lizenz für Etsy & KDP.',
   },
 
   hero: {
@@ -201,6 +202,10 @@ const content: ToolContent = {
     {
       question: 'Was ist Ihre Rückgabepolitik?',
       answer: 'Testen Sie vor dem Kauf mit unserer kostenlosen Testversion — jede Funktion ist verfügbar, damit Sie das Tool vor dem Kauf vollständig bewerten können. Da die kostenlose Testversion Ihnen vollständigen Zugang zu beiden Aktivitätsmodi, konfigurierbaren Objektanzahlen, dem überlappungsfreien Algorithmus, dem automatisch generierten Lösungsschlüssel mit roten Kreis-Markierungen, der Ich-sehe-was-Legenden-Anzeige, allen 104 Themen, eigenen Bild-Uploads, Hintergrund- und Rahmenthemen, Namens-/Datumsfeldern, Graustufen-Export und jedem Download-Format gewährt, bieten wir keine Rückerstattung für Lizenzkäufe. Stellen Sie sicher, dass das Tool Ihren Anforderungen entspricht, bevor Sie kaufen.',
+    },
+    {
+      question: 'Eignet sich der Generator für Grundschulkinder?',
+      answer: 'Ja. Die erstellten Arbeitsblätter eignen sich für die Grundschule (Deutschland), Volksschule (Österreich) und Primarschule (Schweiz). Die Schwierigkeit lässt sich an verschiedene Klassenstufen anpassen — von der Vorschule und dem Kindergarten bis zur 4. Klasse.',
     },
   ],
 

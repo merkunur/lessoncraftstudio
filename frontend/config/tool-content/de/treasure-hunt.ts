@@ -2,20 +2,21 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'Schatzsuche Arbeitsblatt kostenlos erstellen',
+    primaryKeyword: 'kostenloser Schatzsuche-Generator',
     secondaryKeywords: [
       'Schnitzeljagd Generator kostenlos online',
-      'Schatzsuche Rätsel erstellen gratis',
-      'Schnitzeljagd Arbeitsblatt ohne Anmeldung',
-      'Schatzsuche Spiel kostenlos erstellen',
+      'Schatzsuche Rätsel erstellen ohne Anmeldung',
+      'Schnitzeljagd Arbeitsblatt gratis',
+      'Schatzsuche Spiel erstellen sofort nutzen',
     ],
     lsiKeywords: [
       'Hinweise',
       'Abenteuer',
-      'Kindergeburtstag kostenlos',
+      'Kindergeburtstag',
+      'Klassenaktivität',
     ],
-    titleTag: 'Schatzsuche erstellen kostenlos | Online Generator | LCS',
-    metaDescription: 'Schatzsuche-Arbeitsblätter kostenlos erstellen — Schnitzeljagd-Rätsel mit Themenbildern online, ohne Anmeldung. Lizenz für Etsy & KDP.',
+    titleTag: 'Kostenloser Schatzsuche-Generator | LCS',
+    metaDescription: 'Kostenloser Schatzsuche-Generator — Schnitzeljagd-Arbeitsblätter sofort erstellen, ohne Anmeldung. Druckfertige PDFs. Lizenz für Etsy & KDP.',
   },
 
   hero: {
@@ -197,6 +198,10 @@ const content: ToolContent = {
     {
       question: 'Was ist Ihre Rückgabepolitik?',
       answer: 'Testen Sie vor dem Kauf mit unserer kostenlosen Testversion — jede Funktion ist verfügbar, damit Sie das Tool vor dem Kauf vollständig bewerten können. Da die kostenlose Testversion Ihnen vollständigen Zugang zu beiden Richtungstypen, dem 5×5-Koordinatenraster, der 6-Bilder-Rätselgenerierung mit 4 Richtungsbewegungen, dem automatisch generierten Lösungsschlüssel mit hervorgehobener Schatzzelle, allen 104 Themen, drei Eingabemethoden, Hintergrund- und Rahmenthemen, Sprachauswahl für 11 lokalisierte Richtungs-Sets, Graustufen-Export und jedem Download-Format gibt, bieten wir keine Rückerstattung für Lizenzen an. Stellen Sie sicher, dass das Tool Ihren Anforderungen entspricht, bevor Sie kaufen.',
+    },
+    {
+      question: 'Eignet sich der Generator für Grundschulkinder?',
+      answer: 'Ja. Die erstellten Arbeitsblätter eignen sich für die Grundschule (Deutschland), Volksschule (Österreich) und Primarschule (Schweiz). Die Schwierigkeit lässt sich an verschiedene Klassenstufen anpassen — von der Vorschule und dem Kindergarten bis zur 4. Klasse.',
     },
   ],
 

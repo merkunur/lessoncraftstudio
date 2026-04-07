@@ -2,21 +2,21 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'kostenloser Zuordnungs-Arbeitsblatt Generator',
+    primaryKeyword: 'kostenloser Zuordnungs-Arbeitsblatt Ersteller',
     secondaryKeywords: [
       'Zuordnungsaufgaben Generator kostenlos online',
-      'Verbinden Arbeitsblatt erstellen gratis',
-      'Bilder zuordnen Arbeitsblatt kostenlos',
-      'Memory Arbeitsblatt Generator ohne Anmeldung',
+      'Verbinden Arbeitsblatt erstellen ohne Anmeldung',
+      'Bilder zuordnen Arbeitsblatt gratis',
+      'Memory Arbeitsblatt Generator sofort nutzen',
     ],
     lsiKeywords: [
-      'verbinden kostenlos',
+      'verbinden',
       'Paare finden',
       'Vorschule',
       'Kindergarten',
     ],
-    titleTag: 'Kostenloser Zuordnungs-Arbeitsblatt Generator | LCS',
-    metaDescription: 'Kostenloser Zuordnungs-Arbeitsblatt Generator — Verbinden-Aufgaben mit Themenbildern online erstellen, ohne Anmeldung. Lizenz für Etsy & KDP.',
+    titleTag: 'Kostenloser Zuordnungs-Arbeitsblatt Maker | LCS',
+    metaDescription: 'Kostenloser Zuordnungs-Arbeitsblatt Ersteller — Bilder-Zuordnungsübungen sofort erstellen, ohne Anmeldung. Lösungen inklusive. Lizenz für Etsy & KDP.',
   },
 
   hero: {
@@ -198,6 +198,10 @@ const content: ToolContent = {
     {
       question: 'Wie ist Ihre Rückerstattungsrichtlinie?',
       answer: 'Testen Sie vor dem Kauf mit unserer kostenlosen Testversion — jede Funktion ist verfügbar, damit Sie das Tool vollständig bewerten können, bevor Sie kaufen. Da die kostenlose Testversion Ihnen vollen Zugang zu allen vier Zuordnungsmodi, dem automatisch generierten Lösungsschlüssel, konfigurierbaren Paaranzahlen, allen 104 Themen, Hintergrund- und Rahmenthemen, Elementnummern, Aufzählungspunkten, Namens-/Datumsfeldern, Graustufen-Export und jedem Downloadformat gewährt, bieten wir keine Rückerstattungen auf Lizenzkäufe an. Stellen Sie sicher, dass das Tool Ihren Anforderungen entspricht, indem Sie die kostenlose Testversion vor dem Kauf nutzen.',
+    },
+    {
+      question: 'Eignet sich der Generator für Grundschulkinder?',
+      answer: 'Ja. Die erstellten Arbeitsblätter eignen sich für die Grundschule (Deutschland), Volksschule (Österreich) und Primarschule (Schweiz). Die Schwierigkeit lässt sich an verschiedene Klassenstufen anpassen — von der Vorschule und dem Kindergarten bis zur 4. Klasse.',
     },
   ],
 

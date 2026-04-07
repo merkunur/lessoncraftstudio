@@ -2,21 +2,21 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'Suchsel erstellen kostenlos',
+    primaryKeyword: 'kostenloser Suchsel-Generator mit Bildern',
     secondaryKeywords: [
-      'Suchsel Generator kostenlos online',
-      'Wortsuchrätsel erstellen ohne Anmeldung',
+      'Suchsel erstellen kostenlos online',
+      'Wortsuchrätsel Generator ohne Anmeldung',
       'Buchstabensalat Generator gratis',
-      'Wortgitter erstellen kostenlos',
+      'Wortgitter erstellen sofort nutzen',
     ],
     lsiKeywords: [
-      'Buchstabenrätsel kostenlos',
+      'Buchstabenrätsel',
       'versteckte Wörter',
       'Wortsuche',
       'PDF ausdrucken',
     ],
-    titleTag: 'Suchsel erstellen kostenlos | Online Generator | LCS',
-    metaDescription: 'Suchsel kostenlos erstellen — Wortsuchrätsel mit 3.000+ Bildern online generieren, ohne Anmeldung. 300 DPI PDF. Lizenz für Etsy & KDP.',
+    titleTag: 'Kostenloser Suchsel-Generator mit Bildern | LCS',
+    metaDescription: 'Kostenloser Suchsel-Generator — Wortsuchrätsel mit 3.000+ Bildern online erstellen, ohne Anmeldung. 300 DPI PDF. Lizenz für Etsy & KDP.',
   },
 
   hero: {
@@ -198,6 +198,10 @@ const content: ToolContent = {
     {
       question: 'Was ist Ihre Rückgabepolitik?',
       answer: 'Testen Sie vor dem Kauf mit unserer kostenlosen Testversion — jede Funktion steht Ihnen zur Verfügung, damit Sie das Tool vollständig bewerten können, bevor Sie eine Kaufentscheidung treffen. Da die kostenlose Testversion Ihnen kompletten Zugang gewährt, bieten wir keine Rückerstattung für Lizenzkäufe an. Stellen Sie sicher, dass das Tool Ihren Anforderungen entspricht, bevor Sie eine Lizenz erwerben.',
+    },
+    {
+      question: 'Eignet sich der Generator für Grundschulkinder?',
+      answer: 'Ja. Die erstellten Arbeitsblätter eignen sich für die Grundschule (Deutschland), Volksschule (Österreich) und Primarschule (Schweiz). Die Schwierigkeit lässt sich an verschiedene Klassenstufen anpassen — von der Vorschule bis zur 4. Klasse.',
     },
   ],
 

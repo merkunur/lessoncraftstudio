@@ -2,20 +2,21 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'Wörter raten Arbeitsblatt kostenlos erstellen',
+    primaryKeyword: 'kostenloser Wörter-Raten Generator',
     secondaryKeywords: [
       'Wort-Ratespiel Generator kostenlos online',
-      'Galgenmännchen Arbeitsblatt gratis',
-      'Vokabel-Ratespiel erstellen kostenlos',
-      'Wörter erraten Rätsel ohne Anmeldung',
+      'Galgenmännchen Arbeitsblatt ohne Anmeldung',
+      'Wörter erraten Rätsel erstellen gratis',
+      'Vokabel-Ratespiel sofort nutzen',
     ],
     lsiKeywords: [
-      'Buchstaben raten kostenlos',
+      'Buchstaben raten',
       'Vokabelspiel',
       'Wortschatz-Spiel',
+      'Rechtschreibung',
     ],
-    titleTag: 'Wörter-Raten Generator kostenlos | Online | LCS',
-    metaDescription: 'Wörter-Raten Arbeitsblätter kostenlos erstellen — Ratespiele mit Bildern online generieren, ohne Anmeldung. Lizenz für Etsy & KDP.',
+    titleTag: 'Kostenloser Wörter-Raten Generator | LCS',
+    metaDescription: 'Kostenloser Wörter-Raten Generator — Wort-Ratespiele mit Themenbildern sofort erstellen, ohne Anmeldung. Lösungen inklusive. Lizenz verfügbar.',
   },
 
   hero: {
@@ -197,6 +198,10 @@ const content: ToolContent = {
     {
       question: 'Was ist Ihre Rückgabepolitik?',
       answer: 'Testen Sie vor dem Kauf mit unserer kostenlosen Testversion — jede Funktion steht Ihnen zur Verfügung, damit Sie das Tool vollständig bewerten können, bevor Sie eine Kaufentscheidung treffen. Da die kostenlose Testversion Ihnen kompletten Zugang gewährt, bieten wir keine Rückerstattung für Lizenzkäufe an. Stellen Sie sicher, dass das Tool Ihren Anforderungen entspricht, bevor Sie eine Lizenz erwerben. Dieser Ansatz stellt sicher, dass Sie jede Funktion, jedes Exportformat und jede Themenkombination vor einer Kaufentscheidung vollständig bewerten können, was Ihnen vollständiges Vertrauen in Ihre Investition gibt.',
+    },
+    {
+      question: 'Eignet sich der Generator für Grundschulkinder?',
+      answer: 'Ja. Die erstellten Arbeitsblätter eignen sich für die Grundschule (Deutschland), Volksschule (Österreich) und Primarschule (Schweiz). Die Schwierigkeit lässt sich an verschiedene Klassenstufen anpassen — von der Vorschule bis zur 4. Klasse.',
     },
   ],
 

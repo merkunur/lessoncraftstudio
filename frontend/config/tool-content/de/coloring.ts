@@ -1,21 +1,21 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'Ausmalbilder erstellen kostenlos',
+    primaryKeyword: 'kostenloser Ausmalbilder-Generator mit Bildern',
     secondaryKeywords: [
       'Ausmalbild Generator kostenlos online',
-      'Malvorlagen erstellen gratis',
-      'eigene Ausmalbilder kostenlos erstellen',
-      'Ausmalseiten Generator ohne Anmeldung',
+      'Malvorlagen erstellen ohne Anmeldung',
+      'eigene Ausmalbilder erstellen gratis',
+      'Ausmalseiten Generator sofort nutzen',
     ],
     lsiKeywords: [
-      'Umrisse kostenlos',
+      'Umrisse',
       'schwarz-weiß',
       'Themen-Malvorlagen',
       'ausmalen',
     ],
-    titleTag: 'Ausmalbilder erstellen kostenlos | Online Generator | LCS',
-    metaDescription: 'Ausmalbilder kostenlos erstellen — Malvorlagen aus 3.000+ Themenbildern online generieren, ohne Anmeldung. Lizenz für Etsy & KDP.',
+    titleTag: 'Kostenloser Ausmalbilder-Generator | LCS',
+    metaDescription: 'Kostenloser Ausmalbilder-Generator — Malvorlagen aus 3.000+ Themenbildern sofort erstellen, ohne Anmeldung. Druckfertige PDFs. Lizenz für Etsy & KDP.',
     },
 
   hero: {
@@ -197,6 +197,10 @@ const content: ToolContent = {  seo: {
     {
       question: 'Wie ist Ihre Rückerstattungsrichtlinie?',
       answer: 'Testen Sie vor dem Kauf mit unserer kostenlosen Testversion — jede Funktion ist verfügbar, damit Sie das Tool vollständig bewerten können, bevor Sie kaufen. Da die kostenlose Testversion Ihnen vollen Zugang zur freien Arbeitsfläche, allen 104 Themen, dem Freihand-Zeichenwerkzeug, den Shop-Helfern, dem Graustufen-Export und jedem Exportformat gewährt, bieten wir keine Rückerstattungen auf Lizenzkäufe an. Stellen Sie sicher, dass das Tool Ihren Anforderungen entspricht, indem Sie die kostenlose Testversion vor dem Kauf nutzen.',
+    },
+    {
+      question: 'Eignet sich der Generator für Grundschulkinder?',
+      answer: 'Ja. Die erstellten Arbeitsblätter eignen sich für die Grundschule (Deutschland), Volksschule (Österreich) und Primarschule (Schweiz). Die Schwierigkeit lässt sich an verschiedene Klassenstufen anpassen — von der Vorschule und dem Kindergarten bis zur 4. Klasse.',
     },
   ],
 

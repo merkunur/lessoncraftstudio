@@ -1,20 +1,21 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'kostenloser Zahlencode Rätsel Generator',
+    primaryKeyword: 'kostenloser Code-Mathe-Rätsel Generator',
     secondaryKeywords: [
       'Code-Knacker Mathe Rätsel kostenlos erstellen',
-      'Geheimcode Arbeitsblatt Generator gratis',
-      'Mathe Code Rätsel online erstellen',
-      'Rechnen und Entschlüsseln kostenlos',
+      'Geheimcode Arbeitsblatt Generator ohne Anmeldung',
+      'Zahlencode Rätsel online erstellen gratis',
+      'Rechnen und Entschlüsseln sofort nutzen',
     ],
     lsiKeywords: [
       'Code knacken',
       'Geheimschrift',
-      'Rechenrätsel kostenlos',
+      'Rechenrätsel',
+      'Knobelaufgabe',
     ],
-    titleTag: 'Kostenloser Zahlencode Rätsel Generator Online | LCS',
-    metaDescription: 'Kostenloser Zahlencode Rätsel Generator — Mathe-Code-Rätsel sofort erstellen, ohne Anmeldung. Automatische Lösungen. Lizenz für Etsy & KDP.',
+    titleTag: 'Kostenloser Code-Mathe-Rätsel Ersteller | LCS',
+    metaDescription: 'Kostenloser Code-Mathe-Rätsel Generator — Geheimcode-Arbeitsblätter sofort erstellen, ohne Anmeldung. Automatische Lösungen. Lizenz für Etsy & KDP.',
     },
 
   hero: {
@@ -192,6 +193,10 @@ const content: ToolContent = {  seo: {
     {
       question: 'Was ist Ihre Rückgabepolitik?',
       answer: 'Testen Sie vor dem Kauf mit unserer kostenlosen Testversion — jede Funktion steht Ihnen zur Verfügung, damit Sie das Tool vollständig bewerten können, bevor Sie eine Kaufentscheidung treffen. Da die kostenlose Testversion Ihnen kompletten Zugang gewährt, bieten wir keine Rückerstattung für Lizenzkäufe an. Stellen Sie sicher, dass das Tool Ihren Anforderungen entspricht, bevor Sie eine Lizenz erwerben. Dieser Ansatz stellt sicher, dass Sie jede Funktion, jedes Exportformat und jede Themenkombination vor einer Kaufentscheidung vollständig bewerten können, was Ihnen vollständiges Vertrauen in Ihre Investition gibt. Anpassbare Seitengrößen einschließlich Letter, A4 und quadratischer Formate ermöglichen es Ihnen, Kunden weltweit zu bedienen, ohne separate Produktversionen pflegen zu müssen, was Ihren Produktionsablauf erheblich vereinfacht. Die Unterstützung von elf Sprachen — Englisch, Deutsch, Französisch, Spanisch, Portugiesisch, Italienisch, Niederländisch, Schwedisch, Dänisch, Norwegisch und Finnisch — macht es möglich, mit einem einzigen Generator Produkte für nahezu jeden europäischen Bildungsmarkt zu erstellen.',
+    },
+    {
+      question: 'Sind die Arbeitsblätter für die Grundschule geeignet?',
+      answer: 'Ja. Die erstellten Arbeitsblätter eignen sich für die Grundschule (Deutschland), Volksschule (Österreich) und Primarschule (Schweiz). Sie können den Schwierigkeitsgrad an verschiedene Klassenstufen anpassen — von der 1. Klasse bis zur 4. Klasse. Auch für Vorschulkinder und Kindergartenkinder sind einfachere Übungsstufen verfügbar.',
     },
   ],
 

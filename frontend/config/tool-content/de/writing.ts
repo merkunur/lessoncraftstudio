@@ -2,21 +2,21 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'Schreibübungen erstellen kostenlos',
+    primaryKeyword: 'kostenloser Schreibübungen-Generator',
     secondaryKeywords: [
       'Schwungübungen Generator kostenlos online',
-      'Nachspurübungen erstellen gratis',
-      'Schreiblernblätter kostenlos erstellen',
-      'Buchstaben nachspuren kostenlos',
+      'Nachspurübungen erstellen ohne Anmeldung',
+      'Schreiblernblätter Generator gratis',
+      'Buchstaben nachspuren sofort nutzen',
     ],
     lsiKeywords: [
-      'Handschrift kostenlos',
+      'Handschrift',
       'Feinmotorik',
       'Vorschule',
       '1. Klasse',
     ],
-    titleTag: 'Schreibübungen erstellen kostenlos | Online Generator | LCS',
-    metaDescription: 'Schreibübungen kostenlos erstellen — Nachspurblätter und Schwungübungen online generieren, ohne Anmeldung. Lizenz für Etsy & KDP.',
+    titleTag: 'Kostenloser Schreibübungen-Generator | LCS',
+    metaDescription: 'Kostenloser Schreibübungen-Generator — Nachspurübungen mit eigenen Wörtern sofort erstellen, ohne Anmeldung. 11 Sprachen. Lizenz für Etsy & KDP.',
   },
 
   hero: {
@@ -198,6 +198,10 @@ const content: ToolContent = {
     {
       question: 'Was ist Ihre Rückgabepolitik?',
       answer: 'Testen Sie vor dem Kauf mit unserer kostenlosen Testversion — jede Funktion steht Ihnen zur Verfügung, damit Sie das Tool vollständig bewerten können, bevor Sie eine Kaufentscheidung treffen. Da die kostenlose Testversion Ihnen kompletten Zugang gewährt, bieten wir keine Rückerstattung für Lizenzkäufe an. Stellen Sie sicher, dass das Tool Ihren Anforderungen entspricht, bevor Sie eine Lizenz erwerben.',
+    },
+    {
+      question: 'Eignet sich der Generator für Grundschulkinder?',
+      answer: 'Ja. Die erstellten Arbeitsblätter eignen sich für die Grundschule (Deutschland), Volksschule (Österreich) und Primarschule (Schweiz). Die Schwierigkeit lässt sich an verschiedene Klassenstufen anpassen — von der Vorschule bis zur 4. Klasse.',
     },
   ],
 

@@ -2,21 +2,21 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'Kryptogramm erstellen kostenlos',
+    primaryKeyword: 'kostenloser Kryptogramm-Generator',
     secondaryKeywords: [
-      'Geheimschrift Rätsel Generator kostenlos',
-      'Buchstabencode Rätsel erstellen gratis',
-      'Verschlüsselungs-Rätsel kostenlos online',
-      'Geheimcode Arbeitsblatt ohne Anmeldung',
+      'Geheimschrift Rätsel kostenlos erstellen',
+      'Buchstabencode Rätsel Generator ohne Anmeldung',
+      'Verschlüsselungs-Rätsel erstellen gratis',
+      'Geheimcode Arbeitsblatt sofort nutzen',
     ],
     lsiKeywords: [
-      'Geheimschrift kostenlos',
+      'Geheimschrift',
       'Entschlüsseln',
       'Code',
       'Buchstaben-Substitution',
     ],
-    titleTag: 'Kryptogramm erstellen kostenlos | Online Generator | LCS',
-    metaDescription: 'Kryptogramm kostenlos erstellen — Geheimschrift-Rätsel mit Themenbildern online generieren, ohne Anmeldung. Lizenz für Etsy & KDP.',
+    titleTag: 'Kostenloser Kryptogramm-Generator | LCS',
+    metaDescription: 'Kostenloser Kryptogramm-Generator — Geheimschrift-Rätsel mit Themenbildern sofort erstellen, ohne Anmeldung. Lösungen inklusive. Lizenz verfügbar.',
   },
 
   hero: {
@@ -198,6 +198,10 @@ const content: ToolContent = {
     {
       question: 'Was ist Ihre Rückgabepolitik?',
       answer: 'Testen Sie vor dem Kauf mit unserer kostenlosen Testversion — jede Funktion steht Ihnen zur Verfügung, damit Sie das Tool vollständig bewerten können, bevor Sie eine Kaufentscheidung treffen. Da die kostenlose Testversion Ihnen kompletten Zugang gewährt, bieten wir keine Rückerstattung für Lizenzkäufe an. Stellen Sie sicher, dass das Tool Ihren Anforderungen entspricht, bevor Sie eine Lizenz erwerben.',
+    },
+    {
+      question: 'Eignet sich der Generator für Grundschulkinder?',
+      answer: 'Ja. Die erstellten Arbeitsblätter eignen sich für die Grundschule (Deutschland), Volksschule (Österreich) und Primarschule (Schweiz). Die Schwierigkeit lässt sich an verschiedene Klassenstufen anpassen — von der Vorschule bis zur 4. Klasse.',
     },
   ],
 

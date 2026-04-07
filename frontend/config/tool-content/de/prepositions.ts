@@ -2,22 +2,21 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'Präpositionen Arbeitsblatt kostenlos erstellen',
+    primaryKeyword: 'kostenloser Präpositionen-Generator',
     secondaryKeywords: [
       'Ortsbestimmung Arbeitsblatt Generator kostenlos',
-      'Verhältniswörter Übungsblatt gratis',
-      'Räumliche Beziehungen Arbeitsblatt ohne Anmeldung',
-      'Lagebeziehungen Arbeitsblatt kostenlos',
+      'Verhältniswörter Übungsblatt ohne Anmeldung',
+      'Räumliche Beziehungen Arbeitsblatt gratis',
+      'Lagebeziehungen Arbeitsblatt sofort nutzen',
     ],
     lsiKeywords: [
-      'in',
-      'auf',
-      'unter',
-      'neben',
-      'Ortsangaben kostenlos',
+      'in, auf, unter, neben',
+      'Ortsangaben',
+      'räumliche Begriffe',
+      'DaF/DaZ',
     ],
-    titleTag: 'Präpositionen-Arbeitsblatt kostenlos | Generator | LCS',
-    metaDescription: 'Präpositionen-Arbeitsblätter kostenlos erstellen — räumliche Begriffe mit Themenbildern online, ohne Anmeldung. 11 Sprachen. Lizenz für Etsy & KDP.',
+    titleTag: 'Kostenloser Präpositionen-Generator | LCS',
+    metaDescription: 'Kostenloser Präpositionen-Generator — Ortsangaben-Arbeitsblätter sofort erstellen, ohne Anmeldung. 11 Sprachen. Lösungen inklusive. Lizenz verfügbar.',
   },
 
   hero: {
@@ -199,6 +198,10 @@ const content: ToolContent = {
     {
       question: 'Was ist Ihre Rückgabepolitik?',
       answer: 'Testen Sie vor dem Kauf mit unserer kostenlosen Testversion — jede Funktion steht Ihnen zur Verfügung, damit Sie das Tool vollständig bewerten können, bevor Sie eine Kaufentscheidung treffen. Da die kostenlose Testversion Ihnen kompletten Zugang gewährt, bieten wir keine Rückerstattung für Lizenzkäufe an. Stellen Sie sicher, dass das Tool Ihren Anforderungen entspricht, bevor Sie eine Lizenz erwerben. Dieser Ansatz stellt sicher, dass Sie jede Funktion, jedes Exportformat und jede Themenkombination vor einer Kaufentscheidung vollständig bewerten können, was Ihnen vollständiges Vertrauen in Ihre Investition gibt.',
+    },
+    {
+      question: 'Eignet sich der Generator für Grundschulkinder?',
+      answer: 'Ja. Die erstellten Arbeitsblätter eignen sich für die Grundschule (Deutschland), Volksschule (Österreich) und Primarschule (Schweiz). Die Schwierigkeit lässt sich an verschiedene Klassenstufen anpassen — von der Vorschule und dem Kindergarten bis zur 4. Klasse.',
     },
   ],
 

@@ -1,20 +1,20 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'kostenloser Alphabet Arbeitsblatt Generator',
+    primaryKeyword: 'kostenloser Alphabet-Arbeitsblatt Generator',
     secondaryKeywords: [
       'ABC Arbeitsblatt Generator kostenlos online',
-      'Buchstaben lernen Arbeitsblatt gratis',
-      'Alphabet Übungen erstellen kostenlos',
-      'Buchstabenerkennung Arbeitsblatt ohne Anmeldung',
+      'Buchstaben lernen Arbeitsblatt ohne Anmeldung',
+      'Alphabet Übungen erstellen gratis',
+      'Buchstabenerkennung Arbeitsblatt sofort nutzen',
     ],
     lsiKeywords: [
-      'ABC-Reihenfolge kostenlos',
+      'ABC-Reihenfolge',
       'Buchstabenreihe',
       'Vorschule',
       '1. Klasse',
     ],
-    titleTag: 'Kostenloser Alphabet-Arbeitsblatt Generator Online | LCS',
+    titleTag: 'Kostenloser Alphabet-Generator Online | LCS',
     metaDescription: 'Kostenloser Alphabet-Arbeitsblatt Generator — Buchstaben-Übungen mit Themenbildern online erstellen, ohne Anmeldung. Lizenz für Etsy & KDP.',
     },
 
@@ -197,6 +197,10 @@ const content: ToolContent = {  seo: {
     {
       question: 'Was ist Ihre Rückgabepolitik?',
       answer: 'Testen Sie vor dem Kauf mit unserer kostenlosen Testversion — jede Funktion steht Ihnen zur Verfügung, damit Sie das Tool vollständig bewerten können, bevor Sie eine Kaufentscheidung treffen. Da die kostenlose Testversion Ihnen kompletten Zugang gewährt, bieten wir keine Rückerstattung für Lizenzkäufe an. Stellen Sie sicher, dass das Tool Ihren Anforderungen entspricht, bevor Sie eine Lizenz erwerben. Dieser Ansatz stellt sicher, dass Sie jede Funktion, jedes Exportformat und jede Themenkombination vor einer Kaufentscheidung vollständig bewerten können, was Ihnen vollständiges Vertrauen in Ihre Investition gibt. Der Canvas-Editor mit professionellen Typografie-Optionen einschließlich Baloo, Fredoka, Lexend Deca, Nunito und Quicksand Schriftarten verleiht Ihren Arbeitsblättern ein poliertes, unverwechselbares Erscheinungsbild, das sie von amateurhaft wirkenden Alternativen unterscheidet.',
+    },
+    {
+      question: 'Eignet sich der Generator für Grundschulkinder?',
+      answer: 'Ja. Die erstellten Arbeitsblätter eignen sich für die Grundschule (Deutschland), Volksschule (Österreich) und Primarschule (Schweiz). Die Schwierigkeit lässt sich an verschiedene Klassenstufen anpassen — von der Vorschule bis zur 4. Klasse.',
     },
   ],
 

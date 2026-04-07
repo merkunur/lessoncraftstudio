@@ -1,21 +1,21 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'Kreuzworträtsel erstellen kostenlos',
+    primaryKeyword: 'kostenloser Kreuzworträtsel-Generator mit Bildern',
     secondaryKeywords: [
-      'Kreuzworträtsel Generator kostenlos online',
-      'eigenes Kreuzworträtsel erstellen gratis',
+      'Kreuzworträtsel erstellen kostenlos online',
       'Bilder-Kreuzworträtsel Generator ohne Anmeldung',
-      'Kreuzworträtsel mit Bildern kostenlos',
+      'eigenes Kreuzworträtsel erstellen gratis',
+      'Rätselgitter Generator sofort nutzen',
     ],
     lsiKeywords: [
-      'Rätselgitter kostenlos',
       'Hinweise',
-      'Schule',
-      'PDF ausdrucken',
+      'Rätselgitter',
+      'Lösung',
+      'Unterricht',
     ],
-    titleTag: 'Kreuzworträtsel erstellen kostenlos | Online Generator | LCS',
-    metaDescription: 'Kreuzworträtsel kostenlos erstellen — Bilder-Kreuzworträtsel auf 15×15-Gitter, ohne Anmeldung. Automatische Lösungen. Lizenz für Etsy & KDP.',
+    titleTag: 'Kostenloser Kreuzworträtsel-Generator | LCS',
+    metaDescription: 'Kostenloser Kreuzworträtsel-Generator — Bilder-Kreuzworträtsel auf 15×15-Gitter erstellen, ohne Anmeldung. Lösungen inklusive. Lizenz für Etsy & KDP.',
     },
 
   hero: {
@@ -197,6 +197,10 @@ const content: ToolContent = {  seo: {
     {
       question: 'Was ist Ihre Rückgabepolitik?',
       answer: 'Testen Sie vor dem Kauf mit unserer kostenlosen Testversion — jede Funktion ist verfügbar, damit Sie das Tool vollständig bewerten können, bevor Sie kaufen. Da die kostenlose Testversion Ihnen vollständigen Zugang zu allen vier Eingabemethoden, dem 15×15-Raster-Generator, dem automatisch generierten Lösungsschlüssel mit ausgefülltem Raster, allen 104 Themen, eigenen Bild-Uploads, Sprachauswahl, Hintergrund- und Rahmenthemen, Graustufen-Export und jedem Download-Format gewährt, bieten wir keine Rückerstattung für Lizenzkäufe. Stellen Sie sicher, dass das Tool Ihren Anforderungen entspricht, bevor Sie kaufen.',
+    },
+    {
+      question: 'Eignet sich der Generator für Grundschulkinder?',
+      answer: 'Ja. Die erstellten Arbeitsblätter eignen sich für die Grundschule (Deutschland), Volksschule (Österreich) und Primarschule (Schweiz). Die Schwierigkeit lässt sich an verschiedene Klassenstufen anpassen — von der Vorschule bis zur 4. Klasse.',
     },
   ],
 

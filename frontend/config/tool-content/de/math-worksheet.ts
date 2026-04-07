@@ -2,21 +2,21 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'kostenloser Mathe Arbeitsblatt Generator',
+    primaryKeyword: 'kostenloser Mathe-Arbeitsblatt Generator',
     secondaryKeywords: [
       'Mathe Arbeitsblätter online erstellen kostenlos',
-      'Rechenaufgaben Generator gratis',
-      'Mathematik Übungsblätter erstellen kostenlos',
-      'Mathe Aufgaben Generator ohne Anmeldung',
+      'Rechenaufgaben Generator ohne Anmeldung',
+      'Mathematik Übungsblätter erstellen gratis',
+      'Mathe Aufgaben Generator sofort nutzen',
     ],
     lsiKeywords: [
       'Grundrechenarten',
-      'Übungsblatt kostenlos',
+      'Übungsblatt',
       'Kopiervorlage',
       'Grundschule',
     ],
-    titleTag: 'Kostenloser Mathe Arbeitsblatt Generator Online | LCS',
-    metaDescription: 'Kostenloser Mathe Arbeitsblatt Generator — Rechenaufgaben online erstellen, ohne Anmeldung. 300 DPI PDF. Lizenz für kommerziellen Verkauf.',
+    titleTag: 'Kostenloser Mathe-Arbeitsblatt Generator | LCS',
+    metaDescription: 'Kostenloser Mathe-Arbeitsblatt Generator — Rechenaufgaben online erstellen, ohne Anmeldung. 300 DPI PDF. Lizenz für kommerziellen Verkauf.',
   },
 
   hero: {
@@ -198,6 +198,10 @@ const content: ToolContent = {
     {
       question: 'Was ist Ihre Rückgabepolitik?',
       answer: 'Testen Sie vor dem Kauf mit unserer kostenlosen Testversion — jede Funktion steht Ihnen zur Verfügung, damit Sie das Tool vollständig bewerten können, bevor Sie eine Kaufentscheidung treffen. Da die kostenlose Testversion Ihnen kompletten Zugang gewährt, bieten wir keine Rückerstattung für Lizenzkäufe an. Stellen Sie sicher, dass das Tool Ihren Anforderungen entspricht, bevor Sie eine Lizenz erwerben. Dieser Ansatz stellt sicher, dass Sie jede Funktion, jedes Exportformat und jede Themenkombination vor einer Kaufentscheidung vollständig bewerten können, was Ihnen vollständiges Vertrauen in Ihre Investition gibt. Der Canvas-Editor mit professionellen Typografie-Optionen einschließlich Baloo, Fredoka, Lexend Deca, Nunito und Quicksand Schriftarten verleiht Ihren Arbeitsblättern ein poliertes, unverwechselbares Erscheinungsbild, das sie von amateurhaft wirkenden Alternativen unterscheidet.',
+    },
+    {
+      question: 'Sind die Arbeitsblätter für die Grundschule geeignet?',
+      answer: 'Ja. Die erstellten Arbeitsblätter eignen sich für die Grundschule (Deutschland), Volksschule (Österreich) und Primarschule (Schweiz). Sie können den Schwierigkeitsgrad an verschiedene Klassenstufen anpassen — von der 1. Klasse bis zur 4. Klasse. Auch für Vorschulkinder und Kindergartenkinder sind einfachere Übungsstufen verfügbar.',
     },
   ],
 

@@ -2,21 +2,21 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'Labyrinth erstellen kostenlos',
+    primaryKeyword: 'kostenloser Bilderpfad-Generator',
     secondaryKeywords: [
       'Labyrinth Generator kostenlos online',
-      'Irrgarten erstellen gratis',
-      'Labyrinth Arbeitsblatt kostenlos',
-      'Labyrinth für Kinder kostenlos erstellen',
+      'Irrgarten erstellen ohne Anmeldung',
+      'Labyrinth Arbeitsblatt gratis',
+      'Labyrinth für Kinder erstellen sofort nutzen',
     ],
     lsiKeywords: [
-      'Weg finden kostenlos',
+      'Weg finden',
       'Irrgarten',
       'Feinmotorik',
       'Problemlösung',
     ],
-    titleTag: 'Labyrinth erstellen kostenlos | Online Generator | LCS',
-    metaDescription: 'Labyrinthe kostenlos erstellen — Irrgarten und Bild-Pfad-Rätsel mit Themenbildern online, ohne Anmeldung. Lizenz für Etsy & KDP.',
+    titleTag: 'Kostenloser Bilderpfad-Generator | LCS',
+    metaDescription: 'Kostenloser Bilderpfad-Generator — Labyrinthe und Bild-Pfad-Rätsel sofort erstellen, ohne Anmeldung. Lösungen inklusive. Lizenz für Etsy & KDP.',
   },
 
   hero: {
@@ -202,6 +202,10 @@ const content: ToolContent = {
     {
       question: 'Wie lautet Ihre Rückerstattungsrichtlinie?',
       answer: 'Testen Sie vor dem Kauf mit unserer kostenlosen Testversion — jede Funktion ist verfügbar, damit Sie das Tool vor dem Kauf vollständig bewerten können. Da die kostenlose Testversion Ihnen vollständigen Zugang zu allen drei Spielmodi, dem LPF-Labyrinth-Algorithmus, fünf Bildrollen, Wandanpassung, dem Sammelobjekt-System, dem automatisch generierten Lösungsschlüssel mit rosa Kreis-Lösungspfaden, allen 104 Themen, eigenen Bild-Uploads, Hintergrund- und Rahmenthemen, Name-/Datumsfeldern, Graustufen-Export und jedem Download-Format gewährt, bieten wir keine Rückerstattungen auf Lizenzkauf an. Stellen Sie sicher, dass das Tool Ihren Anforderungen entspricht, indem Sie die kostenlose Testversion vor dem Kauf nutzen.',
+    },
+    {
+      question: 'Eignet sich der Generator für Grundschulkinder?',
+      answer: 'Ja. Die erstellten Arbeitsblätter eignen sich für die Grundschule (Deutschland), Volksschule (Österreich) und Primarschule (Schweiz). Die Schwierigkeit lässt sich an verschiedene Klassenstufen anpassen — von der Vorschule und dem Kindergarten bis zur 4. Klasse.',
     },
   ],
 

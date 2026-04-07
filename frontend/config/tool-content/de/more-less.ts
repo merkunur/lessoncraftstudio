@@ -2,21 +2,21 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'Mehr oder Weniger Arbeitsblatt kostenlos',
+    primaryKeyword: 'kostenloser Größer-Kleiner-Generator',
     secondaryKeywords: [
       'Größer Kleiner Gleich Generator kostenlos',
-      'Vergleichen Arbeitsblatt Generator gratis',
-      'Mengenvergleich Arbeitsblatt ohne Anmeldung',
-      'Zahlen vergleichen kostenlos',
+      'Vergleichen Arbeitsblatt ohne Anmeldung',
+      'Mengenvergleich Arbeitsblatt gratis',
+      'Zahlen vergleichen Übungsblatt sofort nutzen',
     ],
     lsiKeywords: [
       'größer als',
       'kleiner als',
       'gleich',
-      'Mengen vergleichen kostenlos',
+      'Mengen vergleichen',
     ],
-    titleTag: 'Mehr oder Weniger Arbeitsblatt kostenlos | Generator | LCS',
-    metaDescription: 'Mehr-oder-Weniger-Arbeitsblätter kostenlos erstellen — Vergleichs-Aufgaben mit Themenbildern online, ohne Anmeldung. Lizenz verfügbar.',
+    titleTag: 'Kostenloser Größer-Kleiner Generator | LCS',
+    metaDescription: 'Kostenloser Größer-Kleiner Generator — Vergleichs-Arbeitsblätter sofort erstellen, ohne Anmeldung. Lösungen inklusive. Lizenz für Etsy & KDP.',
   },
 
   hero: {
@@ -193,6 +193,10 @@ const content: ToolContent = {
     {
       question: 'Was ist Ihre Rückgabepolitik?',
       answer: 'Testen Sie vor dem Kauf mit unserer kostenlosen Testversion — jede Funktion steht Ihnen zur Verfügung, damit Sie das Tool vollständig bewerten können, bevor Sie eine Kaufentscheidung treffen. Da die kostenlose Testversion Ihnen kompletten Zugang gewährt, bieten wir keine Rückerstattung für Lizenzkäufe an. Stellen Sie sicher, dass das Tool Ihren Anforderungen entspricht, bevor Sie eine Lizenz erwerben. Dieser Ansatz stellt sicher, dass Sie jede Funktion, jedes Exportformat und jede Themenkombination vor einer Kaufentscheidung vollständig bewerten können, was Ihnen vollständiges Vertrauen in Ihre Investition gibt. Anpassbare Seitengrößen einschließlich Letter, A4 und quadratischer Formate ermöglichen es Ihnen, Kunden weltweit zu bedienen, ohne separate Produktversionen pflegen zu müssen, was Ihren Produktionsablauf erheblich vereinfacht.',
+    },
+    {
+      question: 'Eignet sich der Generator für Grundschulkinder?',
+      answer: 'Ja. Die erstellten Arbeitsblätter eignen sich für die Grundschule (Deutschland), Volksschule (Österreich) und Primarschule (Schweiz). Die Schwierigkeit lässt sich an verschiedene Klassenstufen anpassen — von der Vorschule und dem Kindergarten bis zur 4. Klasse.',
     },
   ],
 

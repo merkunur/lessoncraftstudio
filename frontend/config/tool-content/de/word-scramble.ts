@@ -2,21 +2,21 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'Buchstabensalat erstellen kostenlos',
+    primaryKeyword: 'kostenloser Buchstabensalat-Generator',
     secondaryKeywords: [
       'Schüttelwörter Generator kostenlos online',
-      'Buchstabensalat Generator gratis',
-      'Wörter entwirren Arbeitsblatt kostenlos',
-      'Buchstaben mischen kostenlos',
+      'Wörter entwirren Arbeitsblatt ohne Anmeldung',
+      'Buchstabensalat erstellen gratis',
+      'Buchstaben mischen Rätsel sofort nutzen',
     ],
     lsiKeywords: [
-      'Anagramm kostenlos',
+      'Anagramm',
       'Rechtschreibung',
       'Wortschatz',
       'durcheinander',
     ],
-    titleTag: 'Buchstabensalat erstellen kostenlos | Online Generator | LCS',
-    metaDescription: 'Buchstabensalat kostenlos erstellen — Schüttelwörter-Arbeitsblätter mit Themenbildern online, ohne Anmeldung. Lizenz für Etsy & KDP.',
+    titleTag: 'Kostenloser Buchstabensalat-Generator | LCS',
+    metaDescription: 'Kostenloser Buchstabensalat-Generator — Schüttelwörter-Rätsel mit Themenbildern sofort erstellen, ohne Anmeldung. Lösungen inklusive. Lizenz verfügbar.',
   },
 
   hero: {
@@ -198,6 +198,10 @@ const content: ToolContent = {
     {
       question: 'Was ist Ihre Rückgabepolitik?',
       answer: 'Testen Sie vor dem Kauf mit unserer kostenlosen Testversion — jede Funktion steht Ihnen zur Verfügung, damit Sie das Tool vollständig bewerten können, bevor Sie eine Kaufentscheidung treffen. Da die kostenlose Testversion Ihnen kompletten Zugang gewährt, bieten wir keine Rückerstattung für Lizenzkäufe an. Stellen Sie sicher, dass das Tool Ihren Anforderungen entspricht, bevor Sie eine Lizenz erwerben. Dieser Ansatz stellt sicher, dass Sie jede Funktion, jedes Exportformat und jede Themenkombination vor einer Kaufentscheidung vollständig bewerten können, was Ihnen vollständiges Vertrauen in Ihre Investition gibt.',
+    },
+    {
+      question: 'Eignet sich der Generator für Grundschulkinder?',
+      answer: 'Ja. Die erstellten Arbeitsblätter eignen sich für die Grundschule (Deutschland), Volksschule (Österreich) und Primarschule (Schweiz). Die Schwierigkeit lässt sich an verschiedene Klassenstufen anpassen — von der Vorschule bis zur 4. Klasse.',
     },
   ],
 

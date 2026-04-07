@@ -2,21 +2,21 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'Zeichnen und Ausmalen Arbeitsblatt kostenlos',
+    primaryKeyword: 'kostenloser Mal-und-Zeichenvorlagen Ersteller',
     secondaryKeywords: [
       'Malübung Arbeitsblatt Generator kostenlos',
-      'Zeichenübung erstellen gratis',
-      'Kunst Arbeitsblatt kostenlos erstellen',
-      'Kreativ-Arbeitsblatt ohne Anmeldung',
+      'Zeichenübung erstellen ohne Anmeldung',
+      'Kunst Arbeitsblatt Generator gratis',
+      'Kreativ-Arbeitsblatt erstellen sofort nutzen',
     ],
     lsiKeywords: [
-      'Zeichenanleitung kostenlos',
+      'Zeichenanleitung',
       'Malübung',
       'Kunstunterricht',
       'kreativ',
     ],
-    titleTag: 'Zeichnen & Ausmalen kostenlos | Online Generator | LCS',
-    metaDescription: 'Zeichnen-und-Ausmalen-Arbeitsblätter kostenlos erstellen — Malübungen mit Themenbildern online, ohne Anmeldung. Lizenz für Etsy & KDP.',
+    titleTag: 'Kostenloser Mal-und-Zeichen Generator | LCS',
+    metaDescription: 'Kostenloser Mal-und-Zeichenvorlagen Ersteller — Kreativ-Arbeitsblätter sofort erstellen, ohne Anmeldung. Druckfertige PDFs. Lizenz für Etsy & KDP.',
   },
 
   hero: {
@@ -198,6 +198,10 @@ const content: ToolContent = {
     {
       question: 'Wie ist Ihre Rückerstattungsrichtlinie?',
       answer: 'Testen Sie vor dem Kauf mit unserer kostenlosen Testversion — jede Funktion ist verfügbar, damit Sie das Tool vollständig bewerten können, bevor Sie kaufen. Da die kostenlose Testversion Ihnen vollen Zugang zu allen Rastergrößen, allen Hinweisprozentsätzen, allen Symmetriemodi und jedem Exportformat gewährt, bieten wir keine Rückerstattungen auf Lizenzkäufe an. Stellen Sie sicher, dass das Tool Ihren Anforderungen entspricht, indem Sie die kostenlose Testversion vor dem Kauf nutzen.',
+    },
+    {
+      question: 'Eignet sich der Generator für Grundschulkinder?',
+      answer: 'Ja. Die erstellten Arbeitsblätter eignen sich für die Grundschule (Deutschland), Volksschule (Österreich) und Primarschule (Schweiz). Die Schwierigkeit lässt sich an verschiedene Klassenstufen anpassen — von der Vorschule und dem Kindergarten bis zur 4. Klasse.',
     },
   ],
 

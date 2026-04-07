@@ -2,21 +2,21 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'Schwungübungen erstellen kostenlos',
+    primaryKeyword: 'kostenloser Schwungübungen-Generator',
     secondaryKeywords: [
       'Nachspurübungen Generator kostenlos online',
-      'Linien nachfahren Arbeitsblatt gratis',
-      'Feinmotorik Arbeitsblatt erstellen kostenlos',
-      'Vorschule Schwungübungen kostenlos',
+      'Linien nachfahren Arbeitsblatt ohne Anmeldung',
+      'Feinmotorik Arbeitsblatt erstellen gratis',
+      'Vorschule Schwungübungen sofort nutzen',
     ],
     lsiKeywords: [
       'Stifthaltung',
-      'Feinmotorik kostenlos',
+      'Feinmotorik',
       'gepunktete Linien',
       'Kurven',
     ],
-    titleTag: 'Schwungübungen erstellen kostenlos | Online Generator | LCS',
-    metaDescription: 'Schwungübungen kostenlos erstellen — Nachspurübungen mit Themenbildern online generieren, ohne Anmeldung. Lizenz für Etsy & KDP.',
+    titleTag: 'Kostenloser Schwungübungen-Generator | LCS',
+    metaDescription: 'Kostenloser Schwungübungen-Generator — Nachspurübungen mit Themenbildern sofort erstellen, ohne Anmeldung. Druckfertige PDFs. Lizenz verfügbar.',
   },
 
   hero: {
@@ -198,6 +198,10 @@ const content: ToolContent = {
     {
       question: 'Wie ist Ihre Rückerstattungsrichtlinie?',
       answer: 'Testen Sie vor dem Kauf mit unserer kostenlosen Testversion — jede Funktion ist verfügbar, damit Sie das Tool vollständig bewerten können, bevor Sie kaufen. Da die kostenlose Testversion Ihnen vollen Zugang zu allen acht Linienvorlagen, allen 104 Bildthemen, Auto-Füllen und jedem Exportformat gewährt, bieten wir keine Rückerstattungen auf Lizenzkäufe an. Stellen Sie sicher, dass das Tool Ihren Anforderungen entspricht, indem Sie die kostenlose Testversion vor dem Kauf nutzen.',
+    },
+    {
+      question: 'Eignet sich der Generator für Grundschulkinder?',
+      answer: 'Ja. Die erstellten Arbeitsblätter eignen sich für die Grundschule (Deutschland), Volksschule (Österreich) und Primarschule (Schweiz). Die Schwierigkeit lässt sich an verschiedene Klassenstufen anpassen — von der Vorschule und dem Kindergarten bis zur 4. Klasse.',
     },
   ],
 

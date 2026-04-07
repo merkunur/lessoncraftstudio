@@ -1,21 +1,21 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'kostenloser Mathe Rätsel Generator',
+    primaryKeyword: 'kostenloser Mathe-Rätsel Ersteller',
     secondaryKeywords: [
       'Mathe Puzzle online erstellen kostenlos',
-      'Bilder-Mathe-Rätsel Generator gratis',
+      'Bilder-Mathe-Rätsel Generator ohne Anmeldung',
       'Knobelaufgaben Mathe kostenlos erstellen',
-      'Mathematik Rätsel ohne Anmeldung',
+      'Mathematik Rätsel sofort nutzen',
     ],
     lsiKeywords: [
-      'Bilderrätsel kostenlos',
+      'Bilderrätsel',
       'Knobelaufgabe',
       'Denksport',
       'Logik',
     ],
-    titleTag: 'Kostenloser Mathe Rätsel Generator Online | LCS',
-    metaDescription: 'Kostenloser Mathe Rätsel Generator — Bilder-Mathe-Puzzle online erstellen, ohne Anmeldung. Automatische Lösungen. Lizenz für Etsy & KDP.',
+    titleTag: 'Kostenloser Mathe-Rätsel Ersteller | LCS',
+    metaDescription: 'Kostenloser Mathe-Rätsel Ersteller — Bilder-Mathe-Puzzle online erstellen, ohne Anmeldung. Automatische Lösungen. Lizenz für Etsy & KDP.',
     },
 
   hero: {
@@ -193,6 +193,10 @@ const content: ToolContent = {  seo: {
     {
       question: 'Was ist Ihre Rückgabepolitik?',
       answer: 'Testen Sie vor dem Kauf mit unserer kostenlosen Testversion — jede Funktion steht Ihnen zur Verfügung, damit Sie das Tool vollständig bewerten können, bevor Sie eine Kaufentscheidung treffen. Da die kostenlose Testversion Ihnen kompletten Zugang gewährt, bieten wir keine Rückerstattung für Lizenzkäufe an. Stellen Sie sicher, dass das Tool Ihren Anforderungen entspricht, bevor Sie eine Lizenz erwerben. Dieser Ansatz stellt sicher, dass Sie jede Funktion, jedes Exportformat und jede Themenkombination vor einer Kaufentscheidung vollständig bewerten können, was Ihnen vollständiges Vertrauen in Ihre Investition gibt. Anpassbare Seitengrößen einschließlich Letter, A4 und quadratischer Formate ermöglichen es Ihnen, Kunden weltweit zu bedienen, ohne separate Produktversionen pflegen zu müssen, was Ihren Produktionsablauf erheblich vereinfacht.',
+    },
+    {
+      question: 'Sind die Arbeitsblätter für die Grundschule geeignet?',
+      answer: 'Ja. Die erstellten Arbeitsblätter eignen sich für die Grundschule (Deutschland), Volksschule (Österreich) und Primarschule (Schweiz). Sie können den Schwierigkeitsgrad an verschiedene Klassenstufen anpassen — von der 1. Klasse bis zur 4. Klasse. Auch für Vorschulkinder und Kindergartenkinder sind einfachere Übungsstufen verfügbar.',
     },
   ],
 

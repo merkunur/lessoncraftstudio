@@ -2,20 +2,21 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'Muster erkennen Arbeitsblatt kostenlos',
+    primaryKeyword: 'kostenloser Mustererkennungs-Generator',
     secondaryKeywords: [
-      'Muster fortsetzen Übungsblatt gratis',
-      'Logische Reihen Arbeitsblatt kostenlos',
-      'Muster ergänzen Generator ohne Anmeldung',
-      'Sequenz-Arbeitsblatt kostenlos erstellen',
+      'Muster fortsetzen Übungsblatt kostenlos',
+      'Logische Reihen Arbeitsblatt ohne Anmeldung',
+      'Muster ergänzen Generator gratis',
+      'Sequenz-Arbeitsblatt sofort nutzen',
     ],
     lsiKeywords: [
-      'logisches Denken kostenlos',
+      'logisches Denken',
       'visuelle Muster',
       'Zahlenmuster',
+      'Reihe ergänzen',
     ],
-    titleTag: 'Muster-Erkennung Arbeitsblatt kostenlos | Generator | LCS',
-    metaDescription: 'Muster-Erkennungs-Arbeitsblätter kostenlos erstellen — visuelle Sequenzen mit Themenbildern online, ohne Anmeldung. Lizenz für Etsy & KDP.',
+    titleTag: 'Kostenloser Mustererkennungs-Generator | LCS',
+    metaDescription: 'Kostenloser Mustererkennungs-Generator — Muster-Arbeitsblätter mit visuellen Sequenzen sofort erstellen, ohne Anmeldung. Lösungen inklusive. Lizenz verfügbar.',
   },
 
   hero: {
@@ -197,6 +198,10 @@ const content: ToolContent = {
     {
       question: 'Wie ist Ihre Rückerstattungsrichtlinie?',
       answer: 'Testen Sie vor dem Kauf mit unserer kostenlosen Testversion — jede Funktion ist verfügbar, damit Sie das Tool vollständig bewerten können, bevor Sie kaufen. Da die kostenlose Testversion Ihnen vollen Zugang zu allen neun Mustertypen, beiden Fragemodi, Pro-Übung-Konfiguration und jedem Exportformat gewährt, bieten wir keine Rückerstattungen auf Lizenzkäufe an. Stellen Sie sicher, dass das Tool Ihren Anforderungen entspricht, indem Sie die kostenlose Testversion vor dem Kauf nutzen.',
+    },
+    {
+      question: 'Eignet sich der Generator für Grundschulkinder?',
+      answer: 'Ja. Die erstellten Arbeitsblätter eignen sich für die Grundschule (Deutschland), Volksschule (Österreich) und Primarschule (Schweiz). Die Schwierigkeit lässt sich an verschiedene Klassenstufen anpassen — von der Vorschule und dem Kindergarten bis zur 4. Klasse.',
     },
   ],
 

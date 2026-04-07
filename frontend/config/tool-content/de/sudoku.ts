@@ -2,21 +2,21 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'Sudoku erstellen kostenlos',
+    primaryKeyword: 'kostenloser Bilder-Sudoku Generator für Kinder',
     secondaryKeywords: [
       'Sudoku Generator kostenlos online',
-      'Bilder-Sudoku erstellen gratis',
-      'Kinder Sudoku Generator ohne Anmeldung',
-      'Sudoku Rätsel erstellen kostenlos',
+      'Bilder-Sudoku erstellen ohne Anmeldung',
+      'Kinder Sudoku Generator gratis',
+      'Sudoku Rätsel erstellen sofort nutzen',
     ],
     lsiKeywords: [
-      'Logikrätsel kostenlos',
+      'Logikrätsel',
+      'Zahlenrätsel',
       'leichtes Sudoku',
       '4x4 Sudoku',
-      '6x6 Sudoku',
     ],
-    titleTag: 'Sudoku erstellen kostenlos | Online Generator | LCS',
-    metaDescription: 'Sudoku kostenlos erstellen — Bilder- und Zahlen-Sudoku mit einstellbarer Schwierigkeit online, ohne Anmeldung. Lizenz für Etsy & KDP.',
+    titleTag: 'Kostenloser Bilder-Sudoku Generator | LCS',
+    metaDescription: 'Kostenloser Bilder-Sudoku Generator — Bilder- und Zahlen-Sudoku sofort erstellen, ohne Anmeldung. Einstellbare Schwierigkeit. Lizenz für Etsy & KDP.',
   },
 
   hero: {
@@ -202,6 +202,10 @@ const content: ToolContent = {
     {
       question: 'Wie lautet Ihre Rückerstattungsrichtlinie?',
       answer: 'Testen Sie vor dem Kauf mit unserer kostenlosen Testversion — jede Funktion ist verfügbar, damit Sie das Tool vor dem Kauf vollständig bewerten können. Da die kostenlose Testversion Ihnen vollständigen Zugang zu allen drei Schwierigkeitsgraden, themenbasierter und manueller Bildauswahl, dem automatisch generierten Lösungsschlüssel mit vollständig gefülltem Raster, allen 104 Themen, eigenen Bild-Uploads, dem Premium-Rasterdesign, Hintergrund- und Rahmenthemen, Textwerkzeugen, Graustufen-Export und jedem Download-Format gewährt, bieten wir keine Rückerstattungen auf Lizenzkauf an. Stellen Sie sicher, dass das Tool Ihren Anforderungen entspricht, indem Sie die kostenlose Testversion vor dem Kauf nutzen.',
+    },
+    {
+      question: 'Eignet sich der Generator für Grundschulkinder?',
+      answer: 'Ja. Die erstellten Arbeitsblätter eignen sich für die Grundschule (Deutschland), Volksschule (Österreich) und Primarschule (Schweiz). Die Schwierigkeit lässt sich an verschiedene Klassenstufen anpassen — von der Vorschule und dem Kindergarten bis zur 4. Klasse.',
     },
   ],
 

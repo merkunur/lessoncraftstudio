@@ -1,21 +1,21 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'Bingo Karten erstellen kostenlos',
+    primaryKeyword: 'kostenloser Bingo-Karten Generator mit Bildern',
     secondaryKeywords: [
-      'Bingo Karten Generator kostenlos online',
-      'Bilder-Bingo erstellen gratis',
-      'eigene Bingo Karten kostenlos erstellen',
-      'Bingo-Spiel Generator ohne Anmeldung',
+      'Bingo Karten erstellen kostenlos online',
+      'Bilder-Bingo Generator ohne Anmeldung',
+      'eigene Bingo Karten erstellen gratis',
+      'Bingo-Spiel Generator sofort nutzen',
     ],
     lsiKeywords: [
-      'Bingo-Spiel kostenlos',
-      'Klassen-Bingo',
+      'Bingo-Spiel',
+      'Bingo-Brett',
       'Party-Bingo',
       'Aufrufkarten',
     ],
-    titleTag: 'Bingo-Karten erstellen kostenlos | Online Generator | LCS',
-    metaDescription: 'Bingo-Karten kostenlos erstellen — Bilder-Bingo mit 3.000+ Themenbildern online generieren, ohne Anmeldung. Lizenz für Etsy & KDP.',
+    titleTag: 'Kostenloser Bingo-Karten Generator | LCS',
+    metaDescription: 'Kostenloser Bingo-Karten Generator — Bilder-Bingo mit 3.000+ Themenbildern sofort erstellen, ohne Anmeldung. Einzigartige Karten pro Set. Lizenz verfügbar.',
     },
 
   hero: {
@@ -201,6 +201,10 @@ const content: ToolContent = {  seo: {
     {
       question: 'Wie ist Ihre Rückerstattungsrichtlinie?',
       answer: 'Testen Sie vor dem Kauf mit unserer kostenlosen Testversion — jede Funktion ist verfügbar, damit Sie das Tool vor dem Erwerb vollständig evaluieren können. Da die kostenlose Testversion Ihnen vollen Zugang zu allen Rastergrößen, Stapel-Generierung von bis zu 10 Karten, ZIP-Export, beiden Füllmodi für Zellen und Chips, dem Ansageblatt, der benutzerdefinierten Ansage-Auswahl, allen 104 Themen, eigenen Bild-Uploads, Hintergrund- und Rahmenthemen, Graustufen-Export und jedem Download-Format gewährt, bieten wir keine Rückerstattungen auf Lizenzkauf an. Stellen Sie sicher, dass das Tool Ihren Anforderungen entspricht, indem Sie die kostenlose Testversion vor dem Kauf nutzen.',
+    },
+    {
+      question: 'Eignet sich der Generator für Grundschulkinder?',
+      answer: 'Ja. Die erstellten Arbeitsblätter eignen sich für die Grundschule (Deutschland), Volksschule (Österreich) und Primarschule (Schweiz). Die Schwierigkeit lässt sich an verschiedene Klassenstufen anpassen — von der Vorschule und dem Kindergarten bis zur 4. Klasse.',
     },
   ],
 

@@ -2,21 +2,21 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'Sortier-Arbeitsblatt kostenlos erstellen',
+    primaryKeyword: 'kostenloser Sortier-Arbeitsblatt Generator',
     secondaryKeywords: [
-      'Bilder sortieren Generator kostenlos online',
-      'Kategorien zuordnen Generator gratis',
-      'Sortieren und Klassifizieren kostenlos',
-      'Gruppieren Arbeitsblatt ohne Anmeldung',
+      'Bilder sortieren Arbeitsblatt Generator kostenlos',
+      'Kategorien zuordnen ohne Anmeldung',
+      'Sortieren und Klassifizieren Arbeitsblatt gratis',
+      'Gruppieren Arbeitsblatt sofort nutzen',
     ],
     lsiKeywords: [
-      'Kategorisieren kostenlos',
+      'Kategorisieren',
       'Gruppieren',
       'Einordnen',
       'Sortierübung',
     ],
-    titleTag: 'Sortier-Arbeitsblatt kostenlos | Online Generator | LCS',
-    metaDescription: 'Sortier-Arbeitsblätter kostenlos erstellen — Bilder sortieren und klassifizieren mit Themenbildern online, ohne Anmeldung. Lizenz verfügbar.',
+    titleTag: 'Kostenloser Sortier-Arbeitsblatt Maker | LCS',
+    metaDescription: 'Kostenloser Sortier-Arbeitsblatt Generator — Klassifikations-Arbeitsblätter sofort erstellen, ohne Anmeldung. Lösungen inklusive. Lizenz verfügbar.',
   },
 
   hero: {
@@ -202,6 +202,10 @@ const content: ToolContent = {
     {
       question: 'Was ist Ihre Rückgabepolitik?',
       answer: 'Testen Sie vor dem Kauf mit unserer kostenlosen Testversion — jede Funktion steht zur Verfügung, damit Sie das Tool vor dem Kauf vollständig bewerten können. Da die kostenlose Testversion Ihnen vollständigen Zugang zu beiden Auswahlmodi, konfigurierbaren Bildanzahlen von 4 bis 12, dem automatisch generierten Lösungsschlüssel, allen 104 Themen, eigenen Bild-Uploads, Hintergrund- und Rahmenthemen, Name-/Datumsfeldern, dem lokalisierten Header in 11 Sprachen, Graustufen-Export und jedem Download-Format gewährt, bieten wir keine Rückerstattung für Lizenzen an. Stellen Sie sicher, dass das Tool Ihren Anforderungen entspricht, bevor Sie kaufen.',
+    },
+    {
+      question: 'Eignet sich der Generator für Grundschulkinder?',
+      answer: 'Ja. Die erstellten Arbeitsblätter eignen sich für die Grundschule (Deutschland), Volksschule (Österreich) und Primarschule (Schweiz). Die Schwierigkeit lässt sich an verschiedene Klassenstufen anpassen — von der Vorschule und dem Kindergarten bis zur 4. Klasse.',
     },
   ],
 

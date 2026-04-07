@@ -1,21 +1,21 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'kostenloser Zählen und Diagramm Generator',
+    primaryKeyword: 'kostenloses Zähldiagramm-Arbeitsblatt erstellen',
     secondaryKeywords: [
       'Strichlisten Arbeitsblatt kostenlos erstellen',
-      'Diagramm Arbeitsblatt Generator gratis',
-      'Bilddiagramm online erstellen kostenlos',
-      'Zählen und Zuordnen kostenlos',
+      'Diagramm Arbeitsblatt Generator ohne Anmeldung',
+      'Bilddiagramm online erstellen gratis',
+      'Zählen und Zuordnen Arbeitsblatt sofort nutzen',
     ],
     lsiKeywords: [
-      'Strichliste kostenlos',
+      'Strichliste',
       'Säulendiagramm',
       'Bilddiagramm',
       'Statistik Grundschule',
     ],
-    titleTag: 'Kostenloser Zählen & Diagramm Generator Online | LCS',
-    metaDescription: 'Kostenloser Zählen & Diagramm Generator — Bilddiagramm-Arbeitsblätter sofort erstellen, ohne Anmeldung. Automatische Lösungen. Lizenz verfügbar.',
+    titleTag: 'Kostenloses Zähldiagramm erstellen | LCS',
+    metaDescription: 'Kostenloses Zähldiagramm-Arbeitsblatt erstellen — Bilddiagramme sofort generieren, ohne Anmeldung. Automatische Lösungen. Lizenz verfügbar.',
     },
 
   hero: {
@@ -197,6 +197,10 @@ const content: ToolContent = {  seo: {
     {
       question: 'Wie ist Ihre Rückerstattungsrichtlinie?',
       answer: 'Testen Sie vor dem Kauf mit unserer kostenlosen Testversion — jede Funktion ist verfügbar, damit Sie das Tool vollständig bewerten können, bevor Sie kaufen. Da die kostenlose Testversion Ihnen vollen Zugang zum Dual-Canvas-System, automatischem Lösungsschlüssel, allen 104 Themen, Hintergrund- und Rahmenthemen, lokalisierten Überschriften, Namens-/Datumsfeldern, Graustufen-Export und jedem Downloadformat gewährt, bieten wir keine Rückerstattungen auf Lizenzkäufe an. Stellen Sie sicher, dass das Tool Ihren Anforderungen entspricht, indem Sie die kostenlose Testversion vor dem Kauf nutzen.',
+    },
+    {
+      question: 'Sind die Arbeitsblätter für die Grundschule geeignet?',
+      answer: 'Ja. Die erstellten Arbeitsblätter eignen sich für die Grundschule (Deutschland), Volksschule (Österreich) und Primarschule (Schweiz). Sie können den Schwierigkeitsgrad an verschiedene Klassenstufen anpassen — von der 1. Klasse bis zur 4. Klasse. Auch für Vorschulkinder und Kindergartenkinder sind einfachere Übungsstufen verfügbar.',
     },
   ],
 

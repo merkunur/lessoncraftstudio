@@ -2,21 +2,21 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'Suchen und Zählen Generator kostenlos',
+    primaryKeyword: 'kostenloser Suchen-und-Zählen Generator',
     secondaryKeywords: [
       'Zählen und Finden Generator kostenlos online',
-      'I-Spy Zählrätsel Generator gratis',
-      'Suchbild mit Zählen kostenlos',
-      'Zählen Arbeitsblatt kostenlos erstellen',
+      'I-Spy Zählrätsel ohne Anmeldung',
+      'Suchbild mit Zählen erstellen gratis',
+      'Zählen Arbeitsblatt Generator sofort nutzen',
     ],
     lsiKeywords: [
-      'Wie viele? kostenlos',
+      'Wie viele?',
       'Strichliste',
       'visuelle Wahrnehmung',
       'Zahlenerkennung',
     ],
-    titleTag: 'Suchen & Zählen Generator kostenlos Online | LCS',
-    metaDescription: 'Suchen-und-Zählen-Arbeitsblätter kostenlos erstellen — Themenbilder finden und zählen, ohne Anmeldung. Lizenz für Etsy & KDP.',
+    titleTag: 'Kostenloser Suchen-und-Zählen Generator | LCS',
+    metaDescription: 'Kostenloser Suchen-und-Zählen Generator — Zähl-Arbeitsblätter mit Themenbildern sofort erstellen, ohne Anmeldung. Lösungen inklusive. Lizenz verfügbar.',
   },
 
   hero: {
@@ -202,6 +202,10 @@ const content: ToolContent = {
     {
       question: 'Wie lautet Ihre Rückerstattungsrichtlinie?',
       answer: 'Testen Sie vor dem Kauf mit unserer kostenlosen Testversion — jede Funktion ist verfügbar, damit Sie das Tool vor dem Kauf vollständig bewerten können. Da die kostenlose Testversion Ihnen vollständigen Zugang zu beiden Aktivitätsmodi, allen vier Aufgabentypen, Buchstabenerkennung mit sprachspezifischen Alphabeten, konfigurierbarer Rasterdichte, dem automatisch generierten Lösungsschlüssel mit roten Markierungen, lokalisierten Bildbezeichnungen in 11 Sprachen, allen 104 Themen, eigenen Bild-Uploads, Hintergrund- und Rahmenthemen, Name-/Datumsfeldern, Graustufen-Export und jedem Download-Format gewährt, bieten wir keine Rückerstattungen auf Lizenzkauf an. Stellen Sie sicher, dass das Tool Ihren Anforderungen entspricht, indem Sie die kostenlose Testversion vor dem Kauf nutzen.',
+    },
+    {
+      question: 'Eignet sich der Generator für Grundschulkinder?',
+      answer: 'Ja. Die erstellten Arbeitsblätter eignen sich für die Grundschule (Deutschland), Volksschule (Österreich) und Primarschule (Schweiz). Die Schwierigkeit lässt sich an verschiedene Klassenstufen anpassen — von der Vorschule und dem Kindergarten bis zur 4. Klasse.',
     },
   ],
 

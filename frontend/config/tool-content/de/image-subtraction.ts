@@ -2,21 +2,21 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'kostenloser Subtraktions-Arbeitsblatt Generator',
+    primaryKeyword: 'kostenloser Minusaufgaben Generator',
     secondaryKeywords: [
-      'Subtraktions-Arbeitsblätter online erstellen',
-      'Minusaufgaben Generator kostenlos ohne Anmeldung',
-      'Subtraktion Arbeitsblatt erstellen kostenlos',
-      'Mathe Arbeitsblätter Subtraktion gratis',
+      'Subtraktions-Arbeitsblätter online erstellen kostenlos',
+      'Minusaufgaben Generator ohne Anmeldung',
+      'Subtraktion Arbeitsblatt erstellen gratis',
+      'Mathe Arbeitsblätter Subtraktion sofort nutzen',
     ],
     lsiKeywords: [
       'Grundschule',
       'Abziehen',
       'Zehnerübergang',
-      'Minusaufgaben kostenlos',
+      'Minusaufgaben',
     ],
-    titleTag: 'Kostenloser Subtraktions-Arbeitsblatt Generator | LCS',
-    metaDescription: 'Kostenloser Subtraktions-Arbeitsblatt Generator — Minusaufgaben mit Themenbildern sofort erstellen. Ohne Anmeldung. Lizenz für Etsy & KDP.',
+    titleTag: 'Kostenloser Minusaufgaben Generator | LCS',
+    metaDescription: 'Kostenloser Minusaufgaben Generator — Subtraktions-Arbeitsblätter mit Themenbildern sofort erstellen. Ohne Anmeldung. Lizenz für Etsy & KDP.',
   },
 
   hero: {
@@ -192,6 +192,10 @@ const content: ToolContent = {
     {
       question: 'Was ist Ihre Rückgabepolitik?',
       answer: 'Testen Sie vor dem Kauf mit unserer kostenlosen Testversion — jede Funktion steht Ihnen zur Verfügung, damit Sie das Tool vollständig bewerten können, bevor Sie eine Kaufentscheidung treffen. Da die kostenlose Testversion Ihnen kompletten Zugang zu allen Funktionen gewährt, bieten wir keine Rückerstattung für Lizenzkäufe an. Stellen Sie sicher, dass das Tool Ihren Anforderungen entspricht, indem Sie die kostenlose Testversion ausgiebig nutzen. Dieser Ansatz stellt sicher, dass Sie jede Funktion, jedes Exportformat und jede Themenkombination vor einer Kaufentscheidung vollständig bewerten können, was Ihnen vollständiges Vertrauen in Ihre Investition gibt. Anpassbare Seitengrößen einschließlich Letter, A4 und quadratischer Formate ermöglichen es Ihnen, Kunden weltweit zu bedienen, ohne separate Produktversionen pflegen zu müssen, was Ihren Produktionsablauf erheblich vereinfacht.',
+    },
+    {
+      question: 'Sind die Arbeitsblätter für die Grundschule geeignet?',
+      answer: 'Ja. Die erstellten Arbeitsblätter eignen sich für die Grundschule (Deutschland), Volksschule (Österreich) und Primarschule (Schweiz). Sie können den Schwierigkeitsgrad an verschiedene Klassenstufen anpassen — von der 1. Klasse bis zur 4. Klasse. Auch für Vorschulkinder und Kindergartenkinder sind einfachere Übungsstufen verfügbar.',
     },
   ],
 

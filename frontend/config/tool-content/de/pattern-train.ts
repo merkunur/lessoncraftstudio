@@ -2,21 +2,21 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'kostenloser Muster Arbeitsblatt Generator',
+    primaryKeyword: 'kostenloser Muster-Arbeitsblatt Generator',
     secondaryKeywords: [
       'Musterreihen Generator kostenlos online',
-      'Muster erkennen Arbeitsblatt gratis',
-      'Muster fortsetzen Übungen kostenlos',
-      'Reihenfolge Arbeitsblatt ohne Anmeldung',
+      'Muster erkennen Arbeitsblatt ohne Anmeldung',
+      'Muster fortsetzen Übungen gratis',
+      'Reihenfolge Arbeitsblatt sofort nutzen',
     ],
     lsiKeywords: [
-      'AB-Muster kostenlos',
-      'ABC-Muster',
+      'AB-Muster',
       'Reihenfolge',
+      'Was kommt als nächstes?',
       'Logik',
     ],
-    titleTag: 'Kostenloser Muster-Arbeitsblatt Generator Online | LCS',
-    metaDescription: 'Kostenloser Muster-Arbeitsblatt Generator — Musterreihen mit Themenbildern online erstellen, ohne Anmeldung. Lizenz für Etsy & KDP.',
+    titleTag: 'Kostenloser Muster-Arbeitsblatt Maker | LCS',
+    metaDescription: 'Kostenloser Muster-Arbeitsblatt Generator — Musterreihen mit Themenbildern sofort erstellen, ohne Anmeldung. Lösungen inklusive. Lizenz für Etsy & KDP.',
   },
 
   hero: {
@@ -198,6 +198,10 @@ const content: ToolContent = {
     {
       question: 'Wie ist Ihre Rückerstattungsrichtlinie?',
       answer: 'Testen Sie vor dem Kauf mit unserer kostenlosen Testversion — jede Funktion ist verfügbar, damit Sie das Tool vollständig bewerten können, bevor Sie kaufen. Da die kostenlose Testversion Ihnen vollen Zugang gewährt, bieten wir keine Rückerstattungen auf Lizenzkäufe an. Stellen Sie sicher, dass das Tool Ihren Anforderungen entspricht, indem Sie die kostenlose Testversion vor dem Kauf nutzen.',
+    },
+    {
+      question: 'Eignet sich der Generator für Grundschulkinder?',
+      answer: 'Ja. Die erstellten Arbeitsblätter eignen sich für die Grundschule (Deutschland), Volksschule (Österreich) und Primarschule (Schweiz). Die Schwierigkeit lässt sich an verschiedene Klassenstufen anpassen — von der Vorschule und dem Kindergarten bis zur 4. Klasse.',
     },
   ],
 

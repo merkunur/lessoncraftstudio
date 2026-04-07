@@ -2,21 +2,21 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'kostenloser Gitterzeichnung Arbeitsblatt Generator',
+    primaryKeyword: 'kostenloser Gitter-Zuordnungsrätsel Ersteller',
     secondaryKeywords: [
-      'Bild abzeichnen Arbeitsblatt kostenlos',
-      'Gitter-Zeichnen Generator gratis',
-      'Pixel-Zeichnung Arbeitsblatt kostenlos',
-      'Raster-Zeichnung Generator ohne Anmeldung',
+      'Bild abzeichnen Arbeitsblatt Generator kostenlos',
+      'Gitter-Zeichnen Arbeitsblatt ohne Anmeldung',
+      'Pixel-Zeichnung Arbeitsblatt gratis',
+      'Raster-Zeichnung Generator sofort nutzen',
     ],
     lsiKeywords: [
-      'abzeichnen kostenlos',
+      'abzeichnen',
       'Raster',
       'räumliches Denken',
       'Symmetrie',
     ],
-    titleTag: 'Kostenloser Gitter-Zeichnung Generator Online | LCS',
-    metaDescription: 'Kostenloser Gitter-Zeichnung Generator — Abzeichnen-Arbeitsblätter mit Themenbildern online erstellen, ohne Anmeldung. Lizenz für Etsy & KDP.',
+    titleTag: 'Kostenloser Gitter-Zuordnung Generator | LCS',
+    metaDescription: 'Kostenloser Gitter-Zuordnungsrätsel Ersteller — Abzeichnen-Arbeitsblätter sofort erstellen, ohne Anmeldung. Lösungen inklusive. Lizenz verfügbar.',
   },
 
   hero: {
@@ -202,6 +202,10 @@ const content: ToolContent = {
     {
       question: 'Wie ist Ihre Rückerstattungsrichtlinie?',
       answer: 'Testen Sie vor dem Kauf mit unserer kostenlosen Testversion — jede Funktion ist verfügbar, damit Sie das Tool vollständig bewerten können, bevor Sie kaufen. Da die kostenlose Testversion Ihnen vollen Zugang zu allen Rastergrößen, einstellbaren Hinweiszellen, dem automatisch generierten Lösungsschlüssel mit nummerierten Overlays, allen 104 Themen, eigene Bilder hochladen, Hintergrund- und Rahmenthemen, Graustufen-Export und jedem Downloadformat gewährt, bieten wir keine Rückerstattungen auf Lizenzkäufe an. Stellen Sie sicher, dass das Tool Ihren Anforderungen entspricht, indem Sie die kostenlose Testversion vor dem Kauf nutzen.',
+    },
+    {
+      question: 'Eignet sich der Generator für Grundschulkinder?',
+      answer: 'Ja. Die erstellten Arbeitsblätter eignen sich für die Grundschule (Deutschland), Volksschule (Österreich) und Primarschule (Schweiz). Die Schwierigkeit lässt sich an verschiedene Klassenstufen anpassen — von der Vorschule und dem Kindergarten bis zur 4. Klasse.',
     },
   ],
 
